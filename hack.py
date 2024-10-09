@@ -112,8 +112,10 @@ search = Search(words, context=args.context)
 search.logfile = args.log
 
 try:
+    print(f'searching {search.remain} words')
     while search.remain > 0:
-        print(f'{search.remain} words left ( {(search.remain/len(search.words)) * 100}% )')
         search.progress()
+        print(f'{search.remain} words left ( {(search.remain/len(search.words)) * 100}% )')
+    print(f'done: {search.result}')
 except (EOFError, KeyboardInterrupt, StopIteration):
     pass
