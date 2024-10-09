@@ -37,17 +37,13 @@ class Search(object):
         print(f'... {self.lo} {ctx_lo} {mid} {ctx_hi} {self.hi}', file=self.logfile)
 
         ctx = self.words[ctx_lo:ctx_hi]
-        way, index = self.prompt(ctx, ctx_lo)
-        print(f'{way} {index} {self.words[index]}', file=self.logfile)
+        compare, index = self.prompt(ctx, ctx_lo)
+        print(f'{compare} {index} {self.words[index]}', file=self.logfile)
 
-        assert(index >= ctx_lo)
-        assert(index < ctx_hi)
-        if way > 0:
-            self.lo = index
-        elif way < 0:
-            self.hi = index + 1
-        else:
-            raise 'invalid way code'
+        assert(ctx_lo <= index < ctx_hi)
+        if   compare > 0: self.lo = index
+        elif compare < 0: self.hi = index + 1
+        else: raise 'invalid comparison'
 
     def prompt(self, ctx, offset):
         for i, word in enumerate(ctx):
