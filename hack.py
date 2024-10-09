@@ -42,21 +42,31 @@ class Search(object):
         compare, index = self.prompt(ctx_lo, ctx_hi)
         print(f'{compare} {index} {self.words[index]}', file=self.logfile)
 
-        assert(ctx_lo <= index < ctx_hi)
-        if   compare  > 0: self.lo = index
-        elif compare  < 0: self.hi = index + 1
+        if   compare  < 0: self.hi = index
+        elif compare  > 0: self.lo = index + 1
         elif compare == 0: self.chosen = index
         else: raise 'invalid comparison'
 
-    def prompt(self, lo, hi):
-        for i in range(lo, hi): print(i, self.words[i])
+    def find(self, word):
+        qi = 0
+        qj = len(self.words)-1
+        while qi < qj:
+            qk = math.floor(qi/2 + qj/2)
+            qw = self.words[qk]
+            if word == qw: return qk
+            if   word < qw: qj = qk
+            elif word > qw: qi = qk + 1
+        return qi
 
+    def prompt(self, lo, hi):
         while True:
+            for i in range(lo, hi): print(i, self.words[i])
             resp = input('> ')
             print(f'> {resp}', file=self.logfile)
 
+            tokens = resp.lower().split()
             try:
-                way, word = resp.lower().split()
+                way, word = tokens
             except ValueError:
                 continue
 
@@ -65,13 +75,12 @@ class Search(object):
                 else -1 if way.startswith('b')
                 else None)
             if compare is None:
-                print('! invalid direction', way, '; expected a(fter) or b(efore)')
+                print(f'! invalid direction {way} ; expected a(fter) or b(efore)')
                 continue
 
-            # TODO just search word list directly ; user could've cribbed outside ctx window
-            for i in range(lo, hi):
-                if self.words[i] == word:
-                    return compare, i
+            at = self.find(word)
+            if self.words[at] == word:
+                return compare, at
 
             mi = lo
             mj = hi
@@ -79,20 +88,13 @@ class Search(object):
             while mi < mj and not self.words[mj-1].startswith(word): mj -= 1
             em = mj - mi
 
-            if em == 0:
-                print('! invalid word', word, '; choose one of:')
-                for i in range(lo, hi): print(i, self.words[i])
-                # TODO use the result anyhow? if user meant it...
-                continue
+            confirm = (
+                len(tokens) > 2 and tokens[2] or
+                input(f'! unknown word {word} ; respond . to add, else to re-prompt> '))
 
-            if em > 1:
-                print('! ambiguous word', word, '; could be:')
-                for i in range(mi, mj):
-                    print(i, self.words[i])
-                # TODO use the result anyhow? if user meant it...
-                continue
-
-            return compare, mi
+            if confirm.strip() == '.':
+                self.words.insert(at, word)
+                return compare, at
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--context', type=int, default=3, help='how many words to show +/- query');
