@@ -9,10 +9,13 @@ class Search(object):
         self.lo = 0
         self.hi = len(self.words)
         self.context = context
+        self.chosen = None
         self.logfile = None
 
     @property
     def result(self):
+        if self.chosen is not None:
+            return self.chosen
         if self.remain == 1:
             return self.lo
         return None
@@ -41,8 +44,9 @@ class Search(object):
         print(f'{compare} {index} {self.words[index]}', file=self.logfile)
 
         assert(ctx_lo <= index < ctx_hi)
-        if   compare > 0: self.lo = index
-        elif compare < 0: self.hi = index + 1
+        if   compare  > 0: self.lo = index
+        elif compare  < 0: self.hi = index + 1
+        elif compare == 0: self.chosen = index
         else: raise 'invalid comparison'
 
     def prompt(self, ctx, offset):
