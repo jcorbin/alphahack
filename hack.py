@@ -71,8 +71,9 @@ class Search(object):
                 continue
 
             compare = (
-                1 if way.startswith('a')
-                else -1 if way.startswith('b')
+                1 if 'after'.startswith(way)
+                else -1 if 'before'.startswith(way)
+                else 0 if 'it'.startswith(way)
                 else None)
             if compare is None:
                 print(f'! invalid direction {way} ; expected a(fter) or b(efore)')
