@@ -56,25 +56,25 @@ class Search(object):
             print(f'> {resp}', file=self.logfile)
 
             try:
-                way, word = resp.split()
+                way, word = resp.lower().split()
             except ValueError:
                 continue
 
             compare = (
-                1 if way.lower().startswith('a')
-                else -1 if way.lower().startswith('b')
+                1 if way.startswith('a')
+                else -1 if way.startswith('b')
                 else None)
             if compare is None:
                 print('! invalid direction', way, '; expected a(fter) or b(efore)')
                 continue
 
             for i in range(lo, hi):
-                if self.words[i] == word.lower():
+                if self.words[i] == word:
                     return compare, i
 
             which_ix = [
                 i for i in range(lo, hi)
-                if self.words[i].startswith(word.lower())]
+                if self.words[i].startswith(word)]
 
             if len(which_ix) == 0:
                 print('! invalid word', word, '; choose one of:')
