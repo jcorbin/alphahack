@@ -39,8 +39,7 @@ class Search(object):
         ctx_hi = min(self.hi-1, mid + self.context)
         print(f'... {self.lo} {ctx_lo} {mid} {ctx_hi} {self.hi}', file=self.logfile)
 
-        ctx = self.words[ctx_lo:ctx_hi]
-        compare, index = self.prompt(ctx, ctx_lo)
+        compare, index = self.prompt(ctx_lo, ctx_hi)
         print(f'{compare} {index} {self.words[index]}', file=self.logfile)
 
         assert(ctx_lo <= index < ctx_hi)
@@ -49,50 +48,48 @@ class Search(object):
         elif compare == 0: self.chosen = index
         else: raise 'invalid comparison'
 
-    def prompt(self, ctx, offset):
-        for i, word in enumerate(ctx):
-            print(offset + i, word)
+    def prompt(self, lo, hi):
+        for i in range(lo, hi): print(i, self.words[i])
+
         while True:
             resp = input('> ')
             print(f'> {resp}', file=self.logfile)
 
             try:
-                way, which = resp.split()
+                way, word = resp.split()
             except ValueError:
                 continue
 
-            way_code = (
+            compare = (
                 1 if way.lower().startswith('a')
                 else -1 if way.lower().startswith('b')
                 else None)
-            if way_code is None:
+            if compare is None:
                 print('! invalid direction', way, '; expected a(fter) or b(efore)')
                 continue
 
-            for i, word in enumerate(ctx, start=offset):
+            for i in range(lo, hi):
                 if self.words[i] == word.lower():
-                    return way_code, i
+                    return compare, i
 
             which_ix = [
-                i
-                for i, word in enumerate(ctx, start=offset)
-                if word.startswith(which.lower())]
+                i for i in range(lo, hi)
+                if self.words[i].startswith(word.lower())]
 
             if len(which_ix) == 0:
-                print('! invalid word', which, '; choose one of:')
-                for i, word in enumerate(ctx):
-                    print(offset + i, word)
+                print('! invalid word', word, '; choose one of:')
+                for i in range(lo, hi): print(i, self.words[i])
                 # TODO use the result anyhow? if user meant it...
                 continue
 
             if len(which_ix) > 1:
-                print('! ambiguous word', which, '; could be:')
+                print('! ambiguous word', word, '; could be:')
                 for i in which_ix:
                     print(i, self.words[i])
                 # TODO use the result anyhow? if user meant it...
                 continue
 
-            return way_code, which_ix[0]
+            return compare, which_ix[0]
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--context', type=int, default=3, help='how many words to show +/- query');
