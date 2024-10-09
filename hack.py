@@ -68,28 +68,31 @@ class Search(object):
                 print('! invalid direction', way, '; expected a(fter) or b(efore)')
                 continue
 
+            # TODO just search word list directly ; user could've cribbed outside ctx window
             for i in range(lo, hi):
                 if self.words[i] == word:
                     return compare, i
 
-            which_ix = [
-                i for i in range(lo, hi)
-                if self.words[i].startswith(word)]
+            mi = lo
+            mj = hi
+            while mi < mj and not self.words[mi].startswith(word): mi += 1
+            while mi < mj and not self.words[mj-1].startswith(word): mj -= 1
+            em = mj - mi
 
-            if len(which_ix) == 0:
+            if em == 0:
                 print('! invalid word', word, '; choose one of:')
                 for i in range(lo, hi): print(i, self.words[i])
                 # TODO use the result anyhow? if user meant it...
                 continue
 
-            if len(which_ix) > 1:
+            if em > 1:
                 print('! ambiguous word', word, '; could be:')
-                for i in which_ix:
+                for i in range(mi, mj):
                     print(i, self.words[i])
                 # TODO use the result anyhow? if user meant it...
                 continue
 
-            return compare, which_ix[0]
+            return compare, mi
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--context', type=int, default=3, help='how many words to show +/- query');
