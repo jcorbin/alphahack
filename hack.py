@@ -9,6 +9,7 @@ class Search(object):
         self.lo = 0
         self.hi = len(self.words)
         self.context = context
+        self.logfile = None
 
     @property
     def remain(self):
@@ -19,8 +20,12 @@ class Search(object):
         mid = math.floor(self.lo/2 + self.hi/2)
         ctx_lo = max(0, mid - self.context)
         ctx_hi = min(self.hi-1, mid + self.context)
+        print(f'... {self.lo} {ctx_lo} {mid} {ctx_hi} {self.hi}', file=self.logfile)
+
         ctx = self.words[ctx_lo:ctx_hi]
         way, index = self.prompt(ctx, ctx_lo)
+        print(f'{way} {index} {self.words[index]}', file=self.logfile)
+
         assert(index >= ctx_lo)
         assert(index < ctx_hi)
         if way > 0:
@@ -35,6 +40,8 @@ class Search(object):
             print(offset + i, word)
         while True:
             resp = input('> ')
+            print(f'> {resp}', file=self.logfile)
+
             try:
                 way, which = resp.split()
             except ValueError:
@@ -75,9 +82,9 @@ class Search(object):
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--context', type=int, default=3, help='how many words to show +/- query');
+parser.add_argument('--log', default='/dev/null', type=argparse.FileType('w'))
 parser.add_argument('wordfile', type=argparse.FileType('r'))
 args = parser.parse_args()
-print(args)
 
 with args.wordfile as wordfile:
     words = [word.strip().lower() for word in wordfile]
@@ -85,6 +92,7 @@ with args.wordfile as wordfile:
 words = [word for word in words if "'" not in word]
 
 search = Search(words, context=args.context)
+search.logfile = args.log
 
 try:
     while search.remain > 0:
