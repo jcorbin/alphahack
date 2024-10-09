@@ -13,13 +13,15 @@ class Search(object):
 
     @property
     def result(self):
+        if self.remain == 1:
+            return self.lo
         return None
 
     @property
     def done(self):
         if self.result is not None:
             return True
-        if self.remain <= 0:
+        if self.remain <= 1:
             return True
         return False
 
