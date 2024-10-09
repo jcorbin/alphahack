@@ -12,11 +12,23 @@ class Search(object):
         self.logfile = None
 
     @property
+    def result(self):
+        return None
+
+    @property
+    def done(self):
+        if self.result is not None:
+            return True
+        if self.remain <= 0:
+            return True
+        return False
+
+    @property
     def remain(self):
         return self.hi - self.lo
 
     def progress(self):
-        if self.remain <= 0: raise StopIteration
+        if self.done: raise StopIteration
         mid = math.floor(self.lo/2 + self.hi/2)
         ctx_lo = max(0, mid - self.context)
         ctx_hi = min(self.hi-1, mid + self.context)
