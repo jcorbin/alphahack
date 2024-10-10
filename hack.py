@@ -113,7 +113,10 @@ parser.add_argument('wordfile', type=argparse.FileType('r'))
 args = parser.parse_args()
 
 with args.wordfile as wordfile:
-    words = [word.strip().lower() for word in wordfile]
+    words = [
+        word.strip().lower().partition(' ')[0]
+        for word in wordfile
+    ]
 
 with open(args.wordfile.name, 'rb') as wordfile:
     sig = hashlib.file_digest(wordfile, 'sha256')
