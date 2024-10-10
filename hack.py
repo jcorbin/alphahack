@@ -59,44 +59,52 @@ class Search(object):
             elif word > qw: qi = qk + 1
         return qi
 
+    def present(self, lo, hi):
+        for i in range(lo, hi): print(i, self.words[i])
+
     def prompt(self, lo, hi):
         while True:
-            for i in range(lo, hi): print(i, self.words[i])
+            self.present(lo, hi)
             resp = input('> ')
-            print(f'> {resp}', file=self.logfile)
+            res = self.handle(lo, hi, resp)
+            if res is not None: return res
 
-            tokens = resp.lower().split()
-            try:
-                way, word = tokens
-            except ValueError:
-                continue
+    def handle(self, lo, hi, resp):
+        print(f'> {resp}', file=self.logfile)
 
-            compare = (
-                1 if 'after'.startswith(way)
-                else -1 if 'before'.startswith(way)
-                else 0 if 'it'.startswith(way)
-                else None)
-            if compare is None:
-                print(f'! invalid direction {way} ; expected a(fter) or b(efore)')
-                continue
+        tokens = resp.lower().split()
+        try:
+            way, word = tokens
+        except ValueError:
+            print('! expected response like: `[after|before|it] <word>`')
+            return
 
-            at = self.find(word)
-            if self.words[at] == word:
-                return compare, at
+        compare = (
+            1 if 'after'.startswith(way)
+            else -1 if 'before'.startswith(way)
+            else 0 if 'it'.startswith(way)
+            else None)
+        if compare is None:
+            print(f'! invalid direction {way} ; expected a(fter) or b(efore)')
+            return
 
-            mi = lo
-            mj = hi
-            while mi < mj and not self.words[mi].startswith(word): mi += 1
-            while mi < mj and not self.words[mj-1].startswith(word): mj -= 1
-            em = mj - mi
+        at = self.find(word)
+        if self.words[at] == word:
+            return compare, at
 
-            confirm = (
-                len(tokens) > 2 and tokens[2] or
-                input(f'! unknown word {word} ; respond . to add, else to re-prompt> '))
+        mi = lo
+        mj = hi
+        while mi < mj and not self.words[mi].startswith(word): mi += 1
+        while mi < mj and not self.words[mj-1].startswith(word): mj -= 1
+        em = mj - mi
 
-            if confirm.strip() == '.':
-                self.words.insert(at, word)
-                return compare, at
+        confirm = (
+            len(tokens) > 2 and tokens[2] or
+            input(f'! unknown word {word} ; respond . to add, else to re-prompt> '))
+
+        if confirm.strip() == '.':
+            self.words.insert(at, word)
+            return compare, at
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--context', type=int, default=3, help='how many words to show +/- query');
