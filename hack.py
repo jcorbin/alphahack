@@ -3,6 +3,7 @@
 import argparse
 import hashlib
 import math
+import pyperclip as pc
 
 class Search(object):
     def __init__(self, words, context=3):
@@ -100,7 +101,9 @@ class Search(object):
         return resp
 
     def question(self, lo, hi, qi):
-        tokens = self.input(f'{self.words[qi]}? ').lower().split()
+        word = self.words[qi]
+        pc.copy(word)
+        tokens = self.input(f'{word}? ').lower().split()
         if len(tokens) > 1:
             self.prompt_state = 1
             return self.handle_choose(lo, hi, tokens)
