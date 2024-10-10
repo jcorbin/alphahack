@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import argparse
+import hashlib
 import math
 
 class Search(object):
@@ -106,7 +107,11 @@ args = parser.parse_args()
 with args.wordfile as wordfile:
     words = [word.strip().lower() for word in wordfile]
 
+with open(args.wordfile.name, 'rb') as wordfile:
+    sig = hashlib.file_digest(wordfile, 'sha256')
+
 words = [word for word in words if "'" not in word]
+print(f'loaded {len(words)} words from {args.wordfile.name} {sig.hexdigest()}', file=args.log)
 
 search = Search(words, context=args.context)
 search.logfile = args.log
