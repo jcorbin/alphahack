@@ -12,6 +12,7 @@ class Search(object):
         self.context = context
         self.chosen = None
         self.logfile = None
+        self.prompt_state = 0
 
     @property
     def result(self):
@@ -87,37 +88,57 @@ class Search(object):
             if self.lo < pi < self.hi and self.words[pi] == prefix:
                 return pi
 
-    def present(self, lo, hi):
-        pi = self.valid_prefix(lo, hi)
-        if pi is not None and pi < lo:
-            print(pi, self.words[pi])
-            if pi < lo-1: print('...')
-        for i in range(lo, hi): print(i, self.words[i])
-
     def prompt(self, lo, hi):
+        self.prompt_state = 0
         while True:
-            self.present(lo, hi)
-            resp = input('> ')
-            res = self.handle(lo, hi, resp)
+            res = self.choose(lo, hi)
             if res is not None: return res
 
-    def handle(self, lo, hi, resp):
-        print(f'> {resp}', file=self.logfile)
+    def input(self, prompt):
+        resp = input(prompt)
+        print(f'{prompt}{resp}', file=self.logfile)
+        return resp
 
-        tokens = resp.lower().split()
+    def question(self, lo, hi, qi):
+        tokens = self.input(f'{self.words[qi]}? ').lower().split()
+        if len(tokens) > 1:
+            self.prompt_state = 1
+            return self.handle_choose(lo, hi, tokens)
+
+        token = tokens[0]
+        if all(c == '.' for c in token):
+            self.prompt_state = 1
+            return
+
+        compare = parse_compare(token)
+        if compare is None:
+            print(f'! invalid direction {way} ; expected a(fter), b(efore), or i(t)')
+            return
+
+        return compare, qi
+
+    def choose(self, lo, hi):
+        pi = self.valid_prefix(lo, hi)
+        if pi is not None:
+            if self.prompt_state == 0:
+                res = self.question(lo, hi, pi)
+                if res is not None: return res
+            if pi < lo:
+                print(pi, self.words[pi])
+                if pi < lo-1: print('...')
+        for i in range(lo, hi): print(i, self.words[i])
+        return self.handle_choose(lo, hi, self.input('> ').lower().split())
+
+    def handle_choose(self, lo, hi, tokens):
         try:
             way, word = tokens
         except ValueError:
             print('! expected response like: `[after|before|it] <word>`')
             return
 
-        compare = (
-            1 if 'after'.startswith(way)
-            else -1 if 'before'.startswith(way)
-            else 0 if 'it'.startswith(way)
-            else None)
+        compare = parse_compare(way)
         if compare is None:
-            print(f'! invalid direction {way} ; expected a(fter) or b(efore)')
+            print(f'! invalid direction {way} ; expected a(fter), b(efore), or i(t)')
             return
 
         at = self.find(word)
@@ -137,6 +158,16 @@ class Search(object):
         if confirm.strip() == '.':
             self.words.insert(at, word)
             return compare, at
+
+def parse_compare(s):
+    if 'after'.startswith(s):
+        return 1
+    elif 'before'.startswith(s):
+        return -1
+    elif 'it'.startswith(s):
+        return 0
+    else:
+        return None
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--context', type=int, default=3, help='how many words to show +/- query');
