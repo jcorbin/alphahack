@@ -59,7 +59,39 @@ class Search(object):
             elif word > qw: qi = qk + 1
         return qi
 
+    def common_prefix(self, i, j):
+        a = self.words[i]
+        b = self.words[j]
+        n = min(len(a), len(b))
+        k = 0
+        while k < n and a[k] == b[k]: k += 1
+        return a[:k]
+
+    def valid_prefix(self, lo, hi):
+        prefix = self.common_prefix(lo, hi)
+        if not prefix: return None
+        pi = self.find(prefix)
+        if self.lo < pi < self.hi and self.words[pi] == prefix:
+            return pi
+        mq = hi
+        while mq > lo + 1:
+            mq -= 1
+            qp = self.common_prefix(lo, mq)
+            if len(qp) > len(prefix):
+                pi = self.find(qp)
+                if self.lo < pi < self.hi and self.words[pi] == qp:
+                    return pi
+        while len(prefix) > 0:
+            prefix = prefix[:-1]
+            pi = self.find(prefix)
+            if self.lo < pi < self.hi and self.words[pi] == prefix:
+                return pi
+
     def present(self, lo, hi):
+        pi = self.valid_prefix(lo, hi)
+        if pi is not None and pi < lo:
+            print(pi, self.words[pi])
+            if pi < lo-1: print('...')
         for i in range(lo, hi): print(i, self.words[i])
 
     def prompt(self, lo, hi):
