@@ -111,6 +111,7 @@ with open(args.wordfile.name, 'rb') as wordfile:
     sig = hashlib.file_digest(wordfile, 'sha256')
 
 words = [word for word in words if "'" not in word]
+words = sorted(set(words))
 print(f'loaded {len(words)} words from {args.wordfile.name} {sig.hexdigest()}', file=args.log)
 
 search = Search(words, context=args.context)
