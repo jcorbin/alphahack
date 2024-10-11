@@ -130,7 +130,7 @@ class Search(object):
             self.questioning = None
             return self.handle_choose(lo, hi, tokens)
 
-        token = tokens[0]
+        token = tokens[0] if len(tokens) > 0 else ''
         if all(c == '.' for c in token):
             self.may_suggest = False
             self.questioning = None
