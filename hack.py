@@ -199,8 +199,7 @@ words = [word for word in words if "'" not in word]
 words = sorted(set(words))
 print(f'loaded {len(words)} words from {args.wordfile.name} {sig.hexdigest()}', file=args.log)
 
-search = Search(words, context=args.context)
-search.logfile = args.log
+search = Search(words, context=args.context, logfile=args.log)
 
 try:
     print(f'searching {search.remain} words')
