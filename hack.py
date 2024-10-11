@@ -141,8 +141,9 @@ class Search(object):
 
     def handle_choose(self, lo, hi, tokens):
         try:
-            way, word = tokens
-        except ValueError:
+            way = tokens[0]
+            word = tokens[1]
+        except IndexError:
             print('! expected response like: `[after|before|it] <word>`')
             return
 
