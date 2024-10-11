@@ -16,7 +16,16 @@ class Search(object):
 
         self.may_suggest = True
         self.questioning = None
+        self.view_at = 0
         self.chosen = None
+
+    @property
+    def view_lo(self):
+        return max(0, self.view_at - self.context)
+
+    @property
+    def view_hi(self):
+        return min(self.hi-1, self.view_at + self.context)
 
     @property
     def result(self):
@@ -47,12 +56,8 @@ class Search(object):
 
     def progress(self):
         if self.done: raise StopIteration
-        mid = math.floor(self.lo/2 + self.hi/2)
-        ctx_lo = max(0, mid - self.context)
-        ctx_hi = min(self.hi-1, mid + self.context)
-        self.log(f'... {self.lo} {ctx_lo} {mid} {ctx_hi} {self.hi}')
 
-        compare, index = self.prompt(ctx_lo, ctx_hi)
+        compare, index = self.prompt()
         self.log(f'{compare} {index} {self.words[index]}')
 
         if   compare  < 0: self.hi = index
@@ -99,15 +104,13 @@ class Search(object):
             if self.lo < pi < self.hi and self.words[pi] == prefix:
                 return pi
 
-    def prompt(self, lo, hi):
+    def prompt(self):
         self.may_suggest = True
         self.questioning = None
-
+        self.view_at = math.floor(self.lo/2 + self.hi/2)
+        self.log(f'... {self.lo} {self.view_lo} {self.view_at} {self.view_hi} {self.hi}')
         while True:
-            res = self.question(lo, hi)
-            if res is not None: return res
-
-            res = self.choose(lo, hi)
+            res = self.question() or self.choose()
             if res is not None: return res
 
     def input(self, prompt):
@@ -115,7 +118,7 @@ class Search(object):
         self.log(f'{prompt}{resp}')
         return resp
 
-    def question(self, lo, hi, qi=None):
+    def question(self, qi=None):
         if qi is None:
             qi = self.questioning
             if qi is None: return
@@ -128,7 +131,7 @@ class Search(object):
         if len(tokens) > 1:
             self.may_suggest = False
             self.questioning = None
-            return self.handle_choose(lo, hi, tokens)
+            return self.handle_choose(tokens)
 
         token = tokens[0] if len(tokens) > 0 else ''
         if all(c == '.' for c in token):
@@ -143,19 +146,18 @@ class Search(object):
 
         return compare, qi
 
-    def choose(self, lo, hi):
-        pi = self.valid_prefix(lo, hi)
-        if pi is not None:
-            if self.may_suggest:
-                res = self.question(lo, hi, pi)
-                if res is not None: return res
-            if pi < lo:
-                print(pi, self.words[pi])
-                if pi < lo-1: print('...')
-        for i in range(lo, hi): print(i, self.words[i])
-        return self.handle_choose(lo, hi, self.input('> ').lower().split())
+    def choose(self):
+        pi = self.valid_prefix(self.view_lo, self.view_hi)
+        if pi is not None and self.may_suggest:
+            return self.question(pi)
 
-    def handle_choose(self, lo, hi, tokens):
+        if pi is not None and pi < self.view_lo:
+            print(pi, self.words[pi])
+            if pi < self.view_lo-1: print('...')
+        for i in range(self.view_lo, self.view_hi): print(i, self.words[i])
+        return self.handle_choose(self.input('> ').lower().split())
+
+    def handle_choose(self, tokens):
         try:
             way = tokens[0]
             word = tokens[1]
@@ -171,7 +173,7 @@ class Search(object):
                     input(f'! unknown word {word} ; respond . to add, else to re-prompt> '))
                 if confirm.strip() != '.': return
                 self.insert(at, word)
-            return self.question(lo, hi, at)
+            return self.question(at)
 
         compare = parse_compare(way)
         if compare is None:
@@ -182,8 +184,8 @@ class Search(object):
         if self.words[at] == word:
             return compare, at
 
-        mi = lo
-        mj = hi
+        mi = self.view_lo
+        mj = self.view_hi
         while mi < mj and not self.words[mi].startswith(word): mi += 1
         while mi < mj and not self.words[mj-1].startswith(word): mj -= 1
         em = mj - mi
