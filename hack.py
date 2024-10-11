@@ -6,14 +6,16 @@ import math
 import pyperclip as pc
 
 class Search(object):
-    def __init__(self, words, context=3):
+    def __init__(self, words, context=3, logfile=None):
         self.words = sorted(words)
+        self.context = context
+        self.logfile = logfile
+
         self.lo = 0
         self.hi = len(self.words)
-        self.context = context
-        self.chosen = None
-        self.logfile = None
+
         self.prompt_state = 0
+        self.chosen = None
 
     @property
     def result(self):
