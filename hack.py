@@ -160,8 +160,18 @@ class Search(object):
             way = tokens[0]
             word = tokens[1]
         except IndexError:
-            print('! expected response like: `[after|before|it] <word>`')
+            print('! expected response like: `[after|before|it|?] <word>`')
             return
+
+        if way == '?':
+            at = self.find(word)
+            if self.words[at] != word:
+                confirm = (
+                    len(tokens) > 2 and tokens[2] or
+                    input(f'! unknown word {word} ; respond . to add, else to re-prompt> '))
+                if confirm.strip() != '.': return
+                self.insert(at, word)
+            return self.question(lo, hi, at)
 
         compare = parse_compare(way)
         if compare is None:
