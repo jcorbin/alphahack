@@ -138,7 +138,7 @@ class Search(object):
 
         compare = parse_compare(token)
         if compare is None:
-            print(f'! invalid direction {way} ; expected a(fter), b(efore), or i(t)')
+            print(f'! invalid direction {token} ; expected a(fter), b(efore), or i(t)')
             return
 
         return compare, qi
