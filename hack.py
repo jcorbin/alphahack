@@ -6,10 +6,10 @@ import math
 import pyperclip as pc
 
 class Search(object):
-    def __init__(self, words, context=3, logfile=None):
+    def __init__(self, words, context=3, log=lambda: None):
         self.words = sorted(words)
         self.context = context
-        self.logfile = logfile
+        self.log = log
 
         self.lo = 0
         self.hi = len(self.words)
@@ -50,10 +50,10 @@ class Search(object):
         mid = math.floor(self.lo/2 + self.hi/2)
         ctx_lo = max(0, mid - self.context)
         ctx_hi = min(self.hi-1, mid + self.context)
-        print(f'... {self.lo} {ctx_lo} {mid} {ctx_hi} {self.hi}', file=self.logfile)
+        self.log(f'... {self.lo} {ctx_lo} {mid} {ctx_hi} {self.hi}')
 
         compare, index = self.prompt(ctx_lo, ctx_hi)
-        print(f'{compare} {index} {self.words[index]}', file=self.logfile)
+        self.log(f'{compare} {index} {self.words[index]}')
 
         if   compare  < 0: self.hi = index
         elif compare  > 0: self.lo = index + 1
@@ -112,7 +112,7 @@ class Search(object):
 
     def input(self, prompt):
         resp = input(prompt)
-        print(f'{prompt}{resp}', file=self.logfile)
+        self.log(f'{prompt}{resp}')
         return resp
 
     def question(self, lo, hi, qi=None):
@@ -212,6 +212,12 @@ parser.add_argument('--log', default='/dev/null', type=argparse.FileType('w'))
 parser.add_argument('wordfile', type=argparse.FileType('r'))
 args = parser.parse_args()
 
+logfile = args.log
+
+def log(*mess):
+    print(*mess, file=logfile)
+    logfile.flush()
+
 with args.wordfile as wordfile:
     words = [
         word.strip().lower().partition(' ')[0]
@@ -223,9 +229,9 @@ with open(args.wordfile.name, 'rb') as wordfile:
 
 words = [word for word in words if "'" not in word]
 words = sorted(set(words))
-print(f'loaded {len(words)} words from {args.wordfile.name} {sig.hexdigest()}', file=args.log)
+log(f'loaded {len(words)} words from {args.wordfile.name} {sig.hexdigest()}')
 
-search = Search(words, context=args.context, logfile=args.log)
+search = Search(words, context=args.context, log=log)
 
 try:
     print(f'searching {search.remain} words')
