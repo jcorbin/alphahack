@@ -208,7 +208,7 @@ def parse_compare(s):
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--context', type=int, default=3, help='how many words to show +/- query');
-parser.add_argument('--log', default='/dev/null', type=argparse.FileType('w'))
+parser.add_argument('--log', default='hack.log', type=argparse.FileType('w'))
 parser.add_argument('wordfile', type=argparse.FileType('r'))
 args = parser.parse_args()
 
