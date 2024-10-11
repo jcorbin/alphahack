@@ -14,7 +14,7 @@ class Search(object):
         self.lo = 0
         self.hi = len(self.words)
 
-        self.prompt_state = 0
+        self.may_suggest = True
         self.chosen = None
 
     @property
@@ -97,7 +97,7 @@ class Search(object):
                 return pi
 
     def prompt(self, lo, hi):
-        self.prompt_state = 0
+        self.may_suggest = True
         while True:
             res = self.choose(lo, hi)
             if res is not None: return res
@@ -112,12 +112,12 @@ class Search(object):
         pc.copy(word)
         tokens = self.input(f'{word}? ').lower().split()
         if len(tokens) > 1:
-            self.prompt_state = 1
+            self.may_suggest = False
             return self.handle_choose(lo, hi, tokens)
 
         token = tokens[0]
         if all(c == '.' for c in token):
-            self.prompt_state = 1
+            self.may_suggest = False
             return
 
         compare = parse_compare(token)
@@ -130,7 +130,7 @@ class Search(object):
     def choose(self, lo, hi):
         pi = self.valid_prefix(lo, hi)
         if pi is not None:
-            if self.prompt_state == 0:
+            if self.may_suggest:
                 res = self.question(lo, hi, pi)
                 if res is not None: return res
             if pi < lo:
