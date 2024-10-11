@@ -124,7 +124,7 @@ class Search(object):
 
         word = self.words[qi]
         pc.copy(word)
-        tokens = self.input(f'{word}? ').lower().split()
+        tokens = self.input(f'[{self.lo} : {qi} : {self.hi}] {word}? ').lower().split()
         if len(tokens) > 1:
             self.may_suggest = False
             self.questioning = None
