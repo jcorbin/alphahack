@@ -155,10 +155,19 @@ class Search(object):
         if pi is not None and self.may_suggest:
             return self.question(pi)
 
-        if pi is not None and pi < self.view_lo:
-            print(pi, self.words[pi])
-            if pi < self.view_lo-1: print('...')
-        for i in range(self.view_lo, self.view_hi): print(i, self.words[i])
+        cur = None
+        def note(i):
+            nonlocal cur
+            if cur is not None and cur < i-1:
+                print('    ...')
+            print(f'    [{i}] {self.words[i]}')
+            cur = i
+
+        note(self.lo)
+        if pi is not None and pi < self.view_lo: note(pi)
+        for i in range(self.view_lo, self.view_hi): note(i)
+        note(self.hi-1)
+
         return self.handle_choose(self.input('> ').lower().split())
 
     def handle_choose(self, tokens):
