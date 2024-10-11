@@ -14,6 +14,9 @@ class Search(object):
         self.lo = 0
         self.hi = len(self.words)
 
+        self.view_factor = 2
+        self.min_context = self.context
+
         self.may_suggest = True
         self.questioning = None
         self.view_at = 0
@@ -173,6 +176,18 @@ class Search(object):
     def handle_choose(self, tokens):
         try:
             way = tokens[0]
+        except IndexError:
+            print('! expected response like: `[after|before|it|?|+|-]...`')
+            return
+
+        if way == '+':
+            self.context *= self.view_factor
+            return
+        if way == '-':
+            self.context = max(self.min_context, math.floor(self.context / 2))
+            return
+
+        try:
             word = tokens[1]
         except IndexError:
             print('! expected response like: `[after|before|it|?] <word>`')
