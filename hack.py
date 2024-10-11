@@ -114,7 +114,11 @@ class Search(object):
             if res is not None: return res
 
     def input(self, prompt):
-        resp = input(prompt)
+        try:
+            resp = input(prompt)
+        except EOFError:
+            self.log(f'{prompt}␚')
+            raise
         self.log(f'{prompt}{resp}')
         return resp
 
