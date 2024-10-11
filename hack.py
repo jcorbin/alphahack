@@ -15,6 +15,7 @@ class Search(object):
         self.hi = len(self.words)
 
         self.may_suggest = True
+        self.questioning = None
         self.chosen = None
 
     @property
@@ -41,6 +42,8 @@ class Search(object):
         self.words.insert(at, word)
         if at < self.lo: self.lo += 1
         if at <= self.hi: self.hi += 1
+        if self.questioning is not None and at <= self.questioning:
+            self.questioning += 1
 
     def progress(self):
         if self.done: raise StopIteration
@@ -98,7 +101,12 @@ class Search(object):
 
     def prompt(self, lo, hi):
         self.may_suggest = True
+        self.questioning = None
+
         while True:
+            res = self.question(lo, hi)
+            if res is not None: return res
+
             res = self.choose(lo, hi)
             if res is not None: return res
 
@@ -107,17 +115,25 @@ class Search(object):
         print(f'{prompt}{resp}', file=self.logfile)
         return resp
 
-    def question(self, lo, hi, qi):
+    def question(self, lo, hi, qi=None):
+        if qi is None:
+            qi = self.questioning
+            if qi is None: return
+        else:
+            self.questioning = qi
+
         word = self.words[qi]
         pc.copy(word)
         tokens = self.input(f'{word}? ').lower().split()
         if len(tokens) > 1:
             self.may_suggest = False
+            self.questioning = None
             return self.handle_choose(lo, hi, tokens)
 
         token = tokens[0]
         if all(c == '.' for c in token):
             self.may_suggest = False
+            self.questioning = None
             return
 
         compare = parse_compare(token)
