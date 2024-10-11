@@ -37,6 +37,11 @@ class Search(object):
     def remain(self):
         return self.hi - self.lo
 
+    def insert(self, at, word):
+        self.words.insert(at, word)
+        if at < self.lo: self.lo += 1
+        if at <= self.hi: self.hi += 1
+
     def progress(self):
         if self.done: raise StopIteration
         mid = math.floor(self.lo/2 + self.hi/2)
@@ -161,7 +166,7 @@ class Search(object):
             input(f'! unknown word {word} ; respond . to add, else to re-prompt> '))
 
         if confirm.strip() == '.':
-            self.words.insert(at, word)
+            self.insert(at, word)
             return compare, at
 
 def parse_compare(s):
