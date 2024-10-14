@@ -4,6 +4,8 @@ import argparse
 import hashlib
 import math
 import pyperclip as pc
+import shlex
+import subprocess
 import time
 
 class Timer(object):
@@ -252,6 +254,7 @@ def parse_compare(s):
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--context', type=int, default=3, help='how many words to show +/- query');
+parser.add_argument('--provide', help='command to run after clipboard copy');
 parser.add_argument('--log', default='hack.log', type=argparse.FileType('w'))
 parser.add_argument('wordfile', type=argparse.FileType('r'))
 args = parser.parse_args()
@@ -263,8 +266,12 @@ def log(*mess):
     print(f'T{logtime.now}', *mess, file=logfile)
     logfile.flush()
 
+provideArgs = shlex.split(args.provide) if args.provide else ()
+
 def provide(word):
     pc.copy(word)
+    if provideArgs:
+        subprocess.call(provideArgs)
 
 with args.wordfile as wordfile:
     words = [
