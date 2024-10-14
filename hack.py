@@ -4,6 +4,20 @@ import argparse
 import hashlib
 import math
 import pyperclip as pc
+import time
+
+class Timer(object):
+    def __init__(self, start = None):
+        self.start = time.clock_gettime(time.CLOCK_MONOTONIC) if start is None else start
+        self.last = self.start
+
+    @property
+    def now(self):
+        now = time.clock_gettime(time.CLOCK_MONOTONIC)
+        return now - self.start
+
+    def sub(self):
+        return Timer(self.now)
 
 class Search(object):
     def __init__(self, words, context=3, log=lambda: None):
@@ -242,10 +256,11 @@ parser.add_argument('--log', default='hack.log', type=argparse.FileType('w'))
 parser.add_argument('wordfile', type=argparse.FileType('r'))
 args = parser.parse_args()
 
+logtime = Timer()
 logfile = args.log
 
 def log(*mess):
-    print(*mess, file=logfile)
+    print(f'T{logtime.now}', *mess, file=logfile)
     logfile.flush()
 
 with args.wordfile as wordfile:
@@ -261,7 +276,11 @@ words = [word for word in words if "'" not in word]
 words = sorted(set(words))
 log(f'loaded {len(words)} words from {args.wordfile.name} {sig.hexdigest()}')
 
-search = Search(words, context=args.context, log=log)
+search = Search(
+    words,
+    context=args.context,
+    log=log,
+)
 
 try:
     print(f'searching {search.remain} words')
