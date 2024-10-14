@@ -20,7 +20,7 @@ class Timer(object):
         return Timer(self.now)
 
 class Search(object):
-    def __init__(self, words, context=3, log=lambda: None):
+    def __init__(self, words, context=3, log=lambda: None, provide=lambda: None):
         self.words = sorted(words)
         self.context = context
         self.log = log
@@ -147,7 +147,7 @@ class Search(object):
             self.questioning = qi
 
         word = self.words[qi]
-        pc.copy(word)
+        provide(word)
         tokens = self.input(f'[{self.lo} : {qi} : {self.hi}] {word}? ').lower().split()
         if len(tokens) > 1:
             self.may_suggest = False
@@ -263,6 +263,9 @@ def log(*mess):
     print(f'T{logtime.now}', *mess, file=logfile)
     logfile.flush()
 
+def provide(word):
+    pc.copy(word)
+
 with args.wordfile as wordfile:
     words = [
         word.strip().lower().partition(' ')[0]
@@ -280,6 +283,7 @@ search = Search(
     words,
     context=args.context,
     log=log,
+    provide=provide,
 )
 
 try:
