@@ -193,56 +193,27 @@ class Search(object):
 
     def handle_choose(self, tokens):
         try:
-            way = tokens[0]
+            token = tokens[0]
         except IndexError:
-            print('! expected response like: `[after|before|it|?|+|-]...`')
+            print('! expected response like: `[+|-|<word>]...`')
             return
 
-        if way == '+':
+        if token == '+':
             self.context *= self.view_factor
             return
-        if way == '-':
+        if token == '-':
             self.context = max(self.min_context, math.floor(self.context / 2))
             return
 
-        try:
-            word = tokens[1]
-        except IndexError:
-            print('! expected response like: `[after|before|it|?] <word>`')
-            return
+        at = self.find(token)
+        if self.words[at] != token:
+            confirm = (
+                len(tokens) > 2 and tokens[2] or
+                input(f'! unknown word {token} ; respond . to add, else to re-prompt> '))
+            if confirm.strip() == '.':
+                self.insert(at, token)
 
-        if way == '?':
-            at = self.find(word)
-            if self.words[at] != word:
-                confirm = (
-                    len(tokens) > 2 and tokens[2] or
-                    input(f'! unknown word {word} ; respond . to add, else to re-prompt> '))
-                if confirm.strip() != '.': return
-                self.insert(at, word)
-            return self.question(at)
-
-        compare = parse_compare(way)
-        if compare is None:
-            print(f'! invalid direction {way} ; expected a(fter), b(efore), or i(t)')
-            return
-
-        at = self.find(word)
-        if self.words[at] == word:
-            return compare, at
-
-        mi = self.view_lo
-        mj = self.view_hi
-        while mi < mj and not self.words[mi].startswith(word): mi += 1
-        while mi < mj and not self.words[mj-1].startswith(word): mj -= 1
-        em = mj - mi
-
-        confirm = (
-            len(tokens) > 2 and tokens[2] or
-            input(f'! unknown word {word} ; respond . to add, else to re-prompt> '))
-
-        if confirm.strip() == '.':
-            self.insert(at, word)
-            return compare, at
+        return self.question(at)
 
 def parse_compare(s):
     if 'after'.startswith(s):
