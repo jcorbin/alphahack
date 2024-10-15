@@ -22,10 +22,11 @@ class Timer(object):
         return Timer(self.now)
 
 class Search(object):
-    def __init__(self, words, context=3, log=lambda: None, provide=lambda: None):
+    def __init__(self, words, context=3, log=lambda: None, provide=lambda: None, get_input=input):
         self.words = sorted(words)
         self.context = context
         self.log = log
+        self.get_input = get_input
 
         self.lo = 0
         self.hi = len(self.words)
@@ -134,7 +135,7 @@ class Search(object):
 
     def input(self, prompt):
         try:
-            resp = input(prompt)
+            resp = self.get_input(prompt)
         except EOFError:
             self.log(f'{prompt}␚')
             raise
@@ -256,6 +257,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--context', type=int, default=3, help='how many words to show +/- query');
 parser.add_argument('--provide', help='command to run after clipboard copy');
 parser.add_argument('--log', default='hack.log', type=argparse.FileType('w'))
+parser.add_argument('--input', action='extend', nargs='+', type=str)
 parser.add_argument('wordfile', type=argparse.FileType('r'))
 args = parser.parse_args()
 
@@ -266,12 +268,23 @@ def log(*mess):
     print(f'T{logtime.now}', *mess, file=logfile)
     logfile.flush()
 
-provideArgs = shlex.split(args.provide) if args.provide else ()
+provide_args = shlex.split(args.provide) if args.provide else ()
 
 def provide(word):
     pc.copy(word)
-    if provideArgs:
-        subprocess.call(provideArgs)
+    if provide_args:
+        subprocess.call(provide_args)
+
+input_index = 0
+
+def get_input(prompt):
+    global input_index
+    if args.input and input_index < len(args.input):
+        prov = args.input[input_index]
+        print(f'{prompt}{prov}')
+        input_index += 1
+        return prov
+    return input(prompt)
 
 with args.wordfile as wordfile:
     words = [
@@ -291,6 +304,7 @@ search = Search(
     context=args.context,
     log=log,
     provide=provide,
+    get_input=get_input,
 )
 
 try:
