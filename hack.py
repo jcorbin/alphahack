@@ -172,8 +172,11 @@ class Search(object):
 
     def choose(self):
         pi = self.valid_prefix(self.view_lo, self.view_hi)
-        if pi is not None and self.may_suggest:
-            return self.question(pi)
+
+        if self.may_suggest:
+            if pi is not None:
+                return self.question(pi)
+            return self.question(self.view_at)
 
         cur = None
         def note(i):
