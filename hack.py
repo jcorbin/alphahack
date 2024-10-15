@@ -67,6 +67,13 @@ class Search(object):
     def remain(self):
         return self.hi - self.lo
 
+    def remove(self, at):
+        word = self.words.pop(at)
+        if at < self.lo: self.lo -= 1
+        if at <= self.hi: self.hi -= 1
+        if self.questioning is not None and at <= self.questioning:
+            self.questioning -= 1
+
     def insert(self, at, word):
         self.words.insert(at, word)
         if at < self.lo: self.lo += 1
@@ -161,9 +168,14 @@ class Search(object):
             self.questioning = None
             return
 
+        if token == '!':
+            self.remove(qi)
+            self.questioning = None
+            return
+
         compare = parse_compare(token)
         if compare is None:
-            print(f'! invalid direction {token} ; expected a(fter), b(efore), or i(t)')
+            print(f'! invalid direction {token} ; expected a(fter), b(efore), i(t), or ! (to remove word)')
             return
 
         return compare, qi
