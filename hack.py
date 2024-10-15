@@ -242,6 +242,7 @@ parser.add_argument('--context', type=int, default=3, help='how many words to sh
 parser.add_argument('--provide', help='command to run after clipboard copy');
 parser.add_argument('--log', default='hack.log', type=argparse.FileType('w'))
 parser.add_argument('--input', action='extend', nargs='+', type=str)
+parser.add_argument('--at', nargs=2, type=int)
 parser.add_argument('wordfile', type=argparse.FileType('r'))
 args = parser.parse_args()
 
@@ -290,6 +291,8 @@ search = Search(
     provide=provide,
     get_input=get_input,
 )
+if args.at is not None:
+    search.lo, search.hi = args.at
 
 try:
     print(f'searching {search.remain} words')
