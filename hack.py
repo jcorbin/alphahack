@@ -179,16 +179,16 @@ class Search(object):
             return self.question(self.view_at)
 
         cur = None
-        def note(i):
+        def note(i, mark=''):
             nonlocal cur
             if cur is not None and cur < i-1:
                 print('    ...')
-            print(f'    [{i}] {self.words[i]}')
+            print(f'    [{i}] {self.words[i]}{mark}')
             cur = i
 
         note(self.lo)
-        if pi is not None and pi < self.view_lo: note(pi)
-        for i in range(self.view_lo, self.view_hi): note(i)
+        if pi is not None and pi < self.view_lo: note(pi, ' <')
+        for i in range(self.view_lo, self.view_hi): note(i, ' @' if i == self.view_at else '')
         note(self.hi-1)
 
         return self.handle_choose(self.input('> ').lower().split())
