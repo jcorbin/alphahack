@@ -243,7 +243,7 @@ parser.add_argument('--provide', help='command to run after clipboard copy');
 parser.add_argument('--log', default='hack.log', type=argparse.FileType('w'))
 parser.add_argument('--input', action='extend', nargs='+', type=str)
 parser.add_argument('--at', nargs=2, type=int)
-parser.add_argument('wordfile', type=argparse.FileType('r'))
+parser.add_argument('--words', default='alphalist.txt', type=argparse.FileType('r'))
 args = parser.parse_args()
 
 logtime = Timer()
@@ -271,18 +271,18 @@ def get_input(prompt):
         return prov
     return input(prompt)
 
-with args.wordfile as wordfile:
+with args.words as f:
     words = [
         word.strip().lower().partition(' ')[0]
-        for word in wordfile
+        for word in f
     ]
 
-with open(args.wordfile.name, 'rb') as wordfile:
-    sig = hashlib.file_digest(wordfile, 'sha256')
+with open(args.words.name, 'rb') as f:
+    sig = hashlib.file_digest(f, 'sha256')
 
 words = [word for word in words if "'" not in word]
 words = sorted(set(words))
-log(f'loaded {len(words)} words from {args.wordfile.name} {sig.hexdigest()}')
+log(f'loaded {len(words)} words from {args.words.name} {sig.hexdigest()}')
 
 search = Search(
     words,
