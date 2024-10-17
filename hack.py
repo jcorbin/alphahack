@@ -8,6 +8,8 @@ import shlex
 import subprocess
 import time
 
+from datetime import timedelta
+
 class Timer(object):
     def __init__(self, start = None):
         self.start = time.clock_gettime(time.CLOCK_MONOTONIC) if start is None else start
@@ -37,6 +39,14 @@ class Search(object):
         self.may_suggest = True
         self.questioning = None
         self.view_at = 0
+
+        self.added = 0
+        self.attempted = 0
+        self.entered = 0
+        self.questioned = 0
+        self.removed = 0
+        self.suggested = 0
+
         self.chosen = None
 
     @property
@@ -73,6 +83,7 @@ class Search(object):
         if at <= self.hi: self.hi -= 1
         if self.questioning is not None and at <= self.questioning:
             self.questioning -= 1
+        self.removed += 1
 
     def insert(self, at, word):
         self.words.insert(at, word)
@@ -80,6 +91,7 @@ class Search(object):
         if at <= self.hi: self.hi += 1
         if self.questioning is not None and at <= self.questioning:
             self.questioning += 1
+        self.added += 1
 
     def progress(self):
         if self.done: raise StopIteration
@@ -150,6 +162,7 @@ class Search(object):
             if qi is None: return
         else:
             self.questioning = qi
+            self.questioned += 1
 
         word = self.words[qi]
         provide(word)
@@ -175,15 +188,15 @@ class Search(object):
             print(f'! invalid direction {token} ; expected a(fter), b(efore), i(t), or ! (to remove word)')
             return
 
+        self.attempted += 1
         return compare, qi
 
     def choose(self):
         pi = self.valid_prefix(self.view_lo, self.view_hi)
 
         if self.may_suggest:
-            if pi is not None:
-                return self.question(pi)
-            return self.question(self.view_at)
+            self.suggested += 1
+            return self.question(self.view_at if pi is None else pi)
 
         cur = None
         def note(i, mark=''):
@@ -222,6 +235,7 @@ class Search(object):
             if confirm.strip() == '.':
                 self.insert(at, token)
 
+        self.entered += 1
         return self.question(at)
 
 def parse_compare(s):
@@ -295,6 +309,30 @@ try:
     print(f'searching {search.remain} words')
     while search.remain > 0:
         search.progress()
-    print(f'done: {search.result}')
-except (EOFError, KeyboardInterrupt, StopIteration):
-    pass
+except EOFError:
+    print(' <EOF>')
+except KeyboardInterrupt:
+    print(' <INT>')
+except StopIteration:
+    print(' <STOP>')
+print()
+
+took = timedelta(seconds=logtime.now)
+res = f'gave up' if search.result is None else f'found "{search.result}"'
+
+def details():
+    if search.questioned != search.attempted:
+        yield f'questioned:{search.questioned}'
+    if search.suggested != 0:
+        yield f'auto:{search.suggested}'
+    if search.entered != 0:
+        yield f'manual:{search.entered}'
+    if search.added != 0:
+        yield f'added:{search.added}'
+    if search.removed != 0:
+        yield f'removed:{search.removed}'
+
+deets = ' '.join(details())
+if deets: deets = f' ( {deets} )'
+
+print(f'{res} after {search.attempted} guesses in {took}{deets}')
