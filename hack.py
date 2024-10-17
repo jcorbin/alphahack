@@ -112,22 +112,19 @@ class Search(object):
         return a[:k]
 
     def valid_prefix(self, lo, hi):
-        # NOTE due to sub_windows ordering from wider window to narrower
-        #    , first match will be the one that spans the most word list entries
-        sub_windows = [
+        # NOTE window order from wider to narrower means first match
+        #      will be the one that spans the most word list entries
+        for win_lo, win_hi in (
             (lo+offset, lo+offset+n)
             for n in range(hi-lo, 1, -1)
-            for offset in range(hi-lo - n + 1)]
-        for win_lo, win_hi in sub_windows:
+            for offset in range(hi-lo - n + 1)
+        ):
             prefix = self.common_prefix(win_lo, win_hi)
-            if not prefix: return None
-            pi = self.find(prefix)
-            while self.lo < pi < self.hi and self.words[pi] != prefix:
-                prefix = prefix[:-1]
-                if not prefix: return None
+            while prefix:
                 pi = self.find(prefix)
-            if self.words[pi] == prefix:
-                return pi
+                if not (self.lo < pi < self.hi): break
+                if self.words[pi] == prefix: return pi
+                prefix = prefix[:-1]
 
     def prompt(self):
         self.may_suggest = True
