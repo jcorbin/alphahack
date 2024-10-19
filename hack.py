@@ -58,12 +58,17 @@ class Search(object):
         return min(self.hi-1, self.view_at + self.context)
 
     @property
-    def result(self):
+    def result_i(self):
         if self.chosen is not None:
             return self.chosen
         if self.remain == 1:
             return self.lo
         return None
+
+    @property
+    def result(self):
+        i = self.result_i
+        return None if i is None else self.words[i]
 
     @property
     def done(self):
