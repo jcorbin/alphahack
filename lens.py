@@ -13,6 +13,9 @@ for line in sys.stdin:
     lens[len(word)] += 1
     seen.add(word)
 
+on = False
 for n in range(max(lens)+1):
     count = lens[n]
+    if not count and not on: continue
+    on = True
     print(f'{n : > 3} {count}')
