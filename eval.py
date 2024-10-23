@@ -3,9 +3,10 @@
 import argparse
 import hashlib
 import math
+from hack import WordList
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--wordfile', type=argparse.FileType('r'), default='/usr/share/dict/words')
+parser.add_argument('--wordfile', type=argparse.FileType('r'), default='alphalist.txt')
 parser.add_argument('--strat', default='basic')
 parser.add_argument('word')
 
@@ -132,21 +133,11 @@ except (KeyError, TypeError):
         if callable(val) and name.startswith("strat_")
     )}')
 
-with args.wordfile as wordfile:
-    words = [
-        word.strip().lower().partition(' ')[0]
-        for word in wordfile
-    ]
-
-with open(args.wordfile.name, 'rb') as wordfile:
-    sig = hashlib.file_digest(wordfile, 'sha256')
-
-words = [word for word in words if "'" not in word]
-words = sorted(set(words))
-print(f'loaded {len(words)} words from {args.wordfile.name} {sig.hexdigest()}')
+wordlist = WordList(args.wordfile)
+print(f'loaded {wordlist.size} words from {args.wordfile.name} {wordlist.sig.hexdigest()}')
 
 count = 0
-for guess, compare in evaluate(strat(words)):
+for guess, compare in evaluate(strat(wordlist.words)):
     print(f'- {guess} => {"before" if compare < 0 else "after" if compare > 0 else "it"}')
     count += 1
 print()
