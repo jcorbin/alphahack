@@ -1,11 +1,7 @@
 #!/usr/bin/env python
 
-import argparse
 import hashlib
 import math
-import pyperclip as pc
-import shlex
-import subprocess
 import time
 
 from datetime import timedelta
@@ -253,91 +249,111 @@ def parse_compare(s):
     else:
         return None
 
-parser = argparse.ArgumentParser()
-parser.add_argument('--context', type=int, default=3, help='how many words to show +/- query');
-parser.add_argument('--provide', help='command to run after clipboard copy');
-parser.add_argument('--log', default='hack.log', type=argparse.FileType('w'))
-parser.add_argument('--input', action='extend', nargs='+', type=str)
-parser.add_argument('--at', nargs=2, type=int)
-parser.add_argument('--words', default='alphalist.txt', type=argparse.FileType('r'))
-args = parser.parse_args()
+class WordList(object):
+    def __init__(self, fable):
+        self.name = fable.name
+        with fable as f:
+            words = [
+                line.strip().lower().partition(' ')[0]
+                for line in f
+            ]
+        words = [word for word in words if "'" not in word]
+        words = sorted(set(words))
+        self.words = words
 
-logtime = Timer()
-logfile = args.log
+    @property
+    def size(self):
+        return len(self.words)
 
-def log(*mess):
-    print(f'T{logtime.now}', *mess, file=logfile)
-    logfile.flush()
+    @property
+    def sig(self):
+        with open(self.name, 'rb') as f:
+            return hashlib.file_digest(f, 'sha256')
 
-provide_args = shlex.split(args.provide) if args.provide else ()
+def main():
+    import argparse
+    import pyperclip as pc
+    import shlex
+    import subprocess
 
-def provide(word):
-    pc.copy(word)
-    if provide_args:
-        subprocess.call(provide_args)
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--context', type=int, default=3, help='how many words to show +/- query');
+    parser.add_argument('--provide', help='command to run after clipboard copy');
+    parser.add_argument('--log', default='hack.log', type=argparse.FileType('w'))
+    parser.add_argument('--input', action='extend', nargs='+', type=str)
+    parser.add_argument('--at', nargs=2, type=int)
+    parser.add_argument('--words', default='alphalist.txt', type=argparse.FileType('r'))
+    args = parser.parse_args()
 
-input_index = 0
+    logtime = Timer()
+    logfile = args.log
 
-def get_input(prompt):
-    global input_index
-    if args.input and input_index < len(args.input):
-        prov = args.input[input_index]
-        print(f'{prompt}{prov}')
-        input_index += 1
-        return prov
-    return input(prompt)
+    def log(*mess):
+        print(f'T{logtime.now}', *mess, file=logfile)
+        logfile.flush()
 
-with args.words as f:
-    words = [
-        word.strip().lower().partition(' ')[0]
-        for word in f
-    ]
+    provide_args = shlex.split(args.provide) if args.provide else ()
 
-with open(args.words.name, 'rb') as f:
-    sig = hashlib.file_digest(f, 'sha256')
+    def provide(word):
+        pc.copy(word)
+        if provide_args:
+            subprocess.call(provide_args)
 
-words = [word for word in words if "'" not in word]
-words = sorted(set(words))
-log(f'loaded {len(words)} words from {args.words.name} {sig.hexdigest()}')
+    input_index = 0
 
-search = Search(
-    words,
-    context=args.context,
-    log=log,
-    provide=provide,
-    get_input=get_input,
-)
-if args.at is not None:
-    search.lo, search.hi = args.at
+    def get_input(prompt):
+        global input_index
+        if args.input and input_index < len(args.input):
+            prov = args.input[input_index]
+            print(f'{prompt}{prov}')
+            input_index += 1
+            return prov
+        return input(prompt)
 
-try:
-    print(f'searching {search.remain} words')
-    while search.remain > 0:
-        search.progress()
-except EOFError:
-    print(' <EOF>')
-except KeyboardInterrupt:
-    print(' <INT>')
-except StopIteration:
-    print(' <STOP>')
-print()
+    wordlist = WordList(args.words)
+    log(f'loaded {wordlist.size} words from {wordlist.name} {wordlist.sig.hexdigest()}')
 
-took = timedelta(seconds=logtime.now)
-res = f'gave up' if search.result is None else f'found "{search.result}"'
+    search = Search(
+        wordlist.words,
+        context=args.context,
+        log=log,
+        provide=provide,
+        get_input=get_input,
+    )
+    if args.at is not None:
+        search.lo, search.hi = args.at
 
-def details():
-    if search.questioned != search.attempted:
-        yield f'questioned:{search.questioned}'
-    if search.suggested != 0:
-        yield f'auto:{search.suggested}'
-    if search.entered != 0:
-        yield f'manual:{search.entered}'
-    if search.added != 0:
-        yield f'added:{search.added}'
-    if search.removed != 0:
-        yield f'removed:{search.removed}'
+    try:
+        print(f'searching {search.remain} words')
+        while search.remain > 0:
+            search.progress()
+    except EOFError:
+        print(' <EOF>')
+    except KeyboardInterrupt:
+        print(' <INT>')
+    except StopIteration:
+        print(' <STOP>')
+    print()
 
-deets = ' '.join(details())
-if deets: deets = f' ( {deets} )'
+    took = timedelta(seconds=logtime.now)
+    res = f'gave up' if search.result is None else f'found "{search.result}"'
 
-print(f'{res} after {search.attempted} guesses in {took}{deets}')
+    def details():
+        if search.questioned != search.attempted:
+            yield f'questioned:{search.questioned}'
+        if search.suggested != 0:
+            yield f'auto:{search.suggested}'
+        if search.entered != 0:
+            yield f'manual:{search.entered}'
+        if search.added != 0:
+            yield f'added:{search.added}'
+        if search.removed != 0:
+            yield f'removed:{search.removed}'
+
+    deets = ' '.join(details())
+    if deets: deets = f' ( {deets} )'
+
+    print(f'{res} after {search.attempted} guesses in {took}{deets}')
+
+if __name__ == '__main__':
+    main()
