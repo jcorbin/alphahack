@@ -24,6 +24,7 @@ class Search(object):
         self.words = sorted(words)
         self.context = context
         self.log = log
+        self.provide = provide
         self.get_input = get_input
 
         self.lo = 0
@@ -166,7 +167,7 @@ class Search(object):
             self.questioned += 1
 
         word = self.words[qi]
-        provide(word)
+        self.provide(word)
         tokens = self.input(f'[{self.lo} : {qi} : {self.hi}] {word}? ').lower().split()
         if len(tokens) > 1:
             self.may_suggest = False
