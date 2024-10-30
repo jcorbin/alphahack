@@ -96,7 +96,10 @@ class Search(object):
         self.added += 1
 
     def progress(self):
-        if self.done: raise StopIteration
+        if self.done:
+            res = self.result
+            self.log(f'[{self.lo} : {self.qi} : {self.hi}] <Done>. {"<NORESULT>" if res is None else res}')
+            raise StopIteration
 
         compare, index = self.prompt()
         self.log(f'{compare} {index} {self.words[index]}')
