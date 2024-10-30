@@ -3,6 +3,7 @@
 import hashlib
 import math
 import time
+from contextlib import contextmanager
 
 from datetime import timedelta
 
@@ -45,6 +46,21 @@ class Search(object):
         self.suggested = 0
 
         self.chosen = None
+
+    @contextmanager
+    def deps(self, log=None, provide=None, get_input=None):
+        prior_log = self.log
+        prior_provide = self.provide
+        prior_get_input = self.get_input
+        try:
+            if callable(log): self.log = log
+            if callable(provide): self.provide = provide
+            if callable(get_input): self.get_input = get_input
+            yield self
+        finally:
+            self.log = prior_log
+            self.provide = prior_provide
+            self.get_input = prior_get_input
 
     @property
     def view_lo(self):
