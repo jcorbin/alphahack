@@ -20,7 +20,7 @@ class Timer(object):
         return Timer(self.now)
 
 class Search(object):
-    def __init__(self, words, context=3, log=lambda: None, provide=lambda: None, get_input=input):
+    def __init__(self, words, context=3, log=lambda _: None, provide=lambda _: None, get_input=input):
         self.words = sorted(words)
         self.context = context
         self.log = log
