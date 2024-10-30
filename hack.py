@@ -333,7 +333,7 @@ def main():
     input_index = 0
 
     def get_input(prompt):
-        global input_index
+        nonlocal input_index
         if args.input and input_index < len(args.input):
             prov = args.input[input_index]
             print(f'{prompt}{prov}')
