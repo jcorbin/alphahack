@@ -1,17 +1,7 @@
 #!/usr/bin/env python
 
-import argparse
-import hashlib
 import math
 from hack import WordList
-
-parser = argparse.ArgumentParser()
-parser.add_argument('--wordfile', type=argparse.FileType('r'), default='alphalist.txt')
-parser.add_argument('--strat', default='basic')
-parser.add_argument('word')
-
-args = parser.parse_args()
-word = args.word.strip().lower()
 
 def interval_guesser(words, choose):
     lo, hi = 0, len(words)
@@ -100,7 +90,7 @@ def strat_prefix_c3(words):
 
     return interval_guesser(words, choose)
 
-def evaluate(guess):
+def evaluate(word, guess):
     guesses = []
     while True:
         try:
@@ -122,23 +112,34 @@ def evaluate(guess):
         feedback(compare)
         yield resp, compare
 
-try:
-    strat = locals()[f'strat_{args.strat}']
-    if not callable(strat):
-        raise TypeError
-except (KeyError, TypeError):
-    parser.error(f'Invalid strategy; choose one of: {' '.join(
-        name[6:]
-        for name, val in locals().items()
-        if callable(val) and name.startswith("strat_")
-    )}')
+strats = dict((
+    (key[6:], val)
+    for key, val in locals().items()
+    if callable(val)
+    if key.startswith('strat_')
+))
 
-wordlist = WordList(args.wordfile)
-print(f'loaded {wordlist.size} words from {args.wordfile.name} {wordlist.sig.hexdigest()}')
+def main():
+    import argparse
 
-count = 0
-for guess, compare in evaluate(strat(wordlist.words)):
-    print(f'- {guess} => {"before" if compare < 0 else "after" if compare > 0 else "it"}')
-    count += 1
-print()
-print(f'done after {count} guesses')
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--wordfile', type=argparse.FileType('r'), default='alphalist.txt')
+    parser.add_argument('--strat', default='basic', choices=sorted(strats))
+    parser.add_argument('word')
+
+    args = parser.parse_args()
+    word = args.word.strip().lower()
+    strat = strats[args.strat]
+
+    wordlist = WordList(args.wordfile)
+    print(f'loaded {wordlist.size} words from {args.wordfile.name} {wordlist.sig.hexdigest()}')
+
+    count = 0
+    for guess, compare in evaluate(word, strat(wordlist.words)):
+        print(f'- {guess} => {"before" if compare < 0 else "after" if compare > 0 else "it"}')
+        count += 1
+    print()
+    print(f'done after {count} guesses')
+
+if __name__ == '__main__':
+    main()
