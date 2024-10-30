@@ -386,5 +386,10 @@ def main():
 
     print(f'{res} after {search.attempted} guesses in {took}{deets}')
 
+    if search.result is not None:
+        word = search.result
+        provide(word)
+        input(f'Provided final result {word} ; <Return> to exit')
+
 if __name__ == '__main__':
     main()
