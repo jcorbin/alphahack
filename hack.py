@@ -79,6 +79,17 @@ class Search(object):
         return None
 
     @property
+    def qi(self):
+        qi = self.questioning
+        if qi is None:
+            qi = self.view_at
+        return qi
+
+    @property
+    def q_word(self):
+        return self.words[self.qi]
+
+    @property
     def result(self):
         i = self.result_i
         return None if i is None else self.words[i]
