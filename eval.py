@@ -1,7 +1,55 @@
 #!/usr/bin/env python
 
 import math
-from hack import WordList
+from hack import Search, WordList
+
+def strat_hack(words, context=3, echo=False, log=False):
+    def end_input(_): raise EOFError
+    def int_input(_): raise KeyboardInterrupt
+
+    search = Search(words, get_input=end_input)
+    fin = False
+
+    def guess():
+        nonlocal fin
+
+        with search.deps(get_input=int_input):
+            try:
+                search.progress()
+
+            except StopIteration:
+                if not fin:
+                    fin = True
+                    return search.result, lambda _: None
+                raise
+
+            except KeyboardInterrupt:
+                def feedback(compare):
+                    resp = (
+                        'a' if compare > 0 else
+                        'b' if compare < 0 else
+                        'it')
+
+                    def giver(prompt):
+                        nonlocal resp
+                        if resp is not None:
+                            ret = resp
+                            resp = None
+                            if echo: print(f'PROMPT: {prompt}{ret}')
+                            return ret
+                        if echo: print(f'PROMPT: {prompt}<EOF>')
+                        raise EOFError
+
+                    with search.deps(
+                        get_input=giver,
+                        log=lambda mess: print(f'LOG: {mess}') if log else None,
+                    ): search.progress()
+
+                return search.q_word, feedback
+
+            raise EOFError
+
+    return guess
 
 def interval_guesser(words, choose):
     lo, hi = 0, len(words)
