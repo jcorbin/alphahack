@@ -4,6 +4,7 @@ import hashlib
 import math
 import os
 import time
+import re
 from contextlib import contextmanager
 from datetime import datetime, timedelta
 
@@ -301,6 +302,17 @@ class WordList(object):
         with open(self.name, 'rb') as f:
             return hashlib.file_digest(f, 'sha256')
 
+def parse_share_result(text):
+    for line in text.splitlines():
+        for key, pattern, as_type in [
+            ('puzzle', re.compile(r'🧩\s*Puzzle\s*#(\d+)'), int),
+            ('guesses', re.compile(r'🤔\s*(\d+)\s+guesses'), int),
+            ('time', re.compile(r'⏱️ \s*(.+)'), str),
+            ('link', re.compile(r'🔗\s*(.+)'), str),
+        ]:
+            match = pattern.match(line)
+            if match: yield key, as_type(match.group(1))
+
 def main():
     import argparse
     import pyperclip as pc
@@ -348,12 +360,17 @@ def main():
 
     def get_puzzle_id():
         while True:
-            resp = input(f'enter puzzle id: ')
+            resp = input(f'enter puzzle id or copy share result and press <Return>: ')
             if resp:
                 try:
-                    return int(resp.strip())
+                    return int(resp.strip()), dict(), ''
                 except ValueError:
                     print('Invalid puzzle monotonic id')
+            share_text = pc.paste()
+            share_result = dict(parse_share_result(share_text))
+            puzzle_id = share_result.get('puzzle')
+            if puzzle_id is not None:
+                return puzzle_id, share_result, share_text
 
     wordlist = WordList(args.words)
     log(f'loaded {wordlist.size} words from {wordlist.name} {wordlist.sig.hexdigest()}')
@@ -406,7 +423,9 @@ def main():
     provide(result_word)
     print(f'📋 search result "{result_word}"')
 
-    puzzle_id = get_puzzle_id()
+    puzzle_id, share_result, share_text = get_puzzle_id()
+    for key, value in share_result.items():
+        log(f'result {key}: {value}')
     print(f'🧩 {puzzle_id}')
 
     try:
