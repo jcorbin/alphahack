@@ -5,7 +5,7 @@ import math
 import os
 import time
 from contextlib import contextmanager
-from datetime import timedelta
+from datetime import datetime, timedelta
 
 class Timer(object):
     def __init__(self, start = None):
@@ -422,6 +422,9 @@ def main():
         print('```')
         print(traceback.format_exc())
         print('```')
+
+    today = f'{datetime.today():%Y-%m-%d}'
+    print(f'📆 {today}')
 
     if log_dir:
         puzzle_log_file = f'{log_dir}{puzzle_id}'
