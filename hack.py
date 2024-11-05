@@ -330,11 +330,13 @@ def main():
     parser.add_argument('--at', nargs=2, type=int)
     parser.add_argument('--words', default='alphalist.txt', type=argparse.FileType('r'))
     parser.add_argument('--store-log', default='log/')
+    parser.add_argument('--store-hist', default='hist.md')
     args = parser.parse_args()
 
     log_time = Timer()
     log_dir = args.store_log
     log_file = args.log
+    hist_file = args.store_hist
 
     def log(*mess):
         print(f'T{log_time.now}', *mess, file=log_file)
@@ -444,6 +446,15 @@ def main():
 
     today = f'{datetime.today():%Y-%m-%d}'
     print(f'📆 {today}')
+
+    if len(share_result) > 0 and hist_file:
+        with open(hist_file, mode='a') as f:
+            print(file=f)
+            print(f'# {today}', file=f)
+            print('```', file=f)
+            print(share_text, file=f)
+            print('```', file=f)
+        print(f'📜 {hist_file}')
 
     if log_dir:
         puzzle_log_file = f'{log_dir}{puzzle_id}'
