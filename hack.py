@@ -2,6 +2,7 @@
 
 import hashlib
 import math
+import os
 import time
 from contextlib import contextmanager
 from datetime import timedelta
@@ -316,9 +317,11 @@ def main():
     parser.add_argument('--input', action='extend', nargs='+', type=str)
     parser.add_argument('--at', nargs=2, type=int)
     parser.add_argument('--words', default='alphalist.txt', type=argparse.FileType('r'))
+    parser.add_argument('--store-log', default='log/')
     args = parser.parse_args()
 
     log_time = Timer()
+    log_dir = args.store_log
     log_file = args.log
 
     def log(*mess):
@@ -419,6 +422,11 @@ def main():
         print('```')
         print(traceback.format_exc())
         print('```')
+
+    if log_dir:
+        puzzle_log_file = f'{log_dir}{puzzle_id}'
+        os.rename(log_file.name, puzzle_log_file)
+        print(f'🗃️ {puzzle_log_file}')
 
 if __name__ == '__main__':
     main()
