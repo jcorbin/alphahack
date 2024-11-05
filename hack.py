@@ -343,6 +343,15 @@ def main():
             return prov
         return input(prompt)
 
+    def get_puzzle_id():
+        while True:
+            resp = input(f'enter puzzle id: ')
+            if resp:
+                try:
+                    return int(resp.strip())
+                except ValueError:
+                    print('Invalid puzzle monotonic id')
+
     wordlist = WordList(args.words)
     log(f'loaded {wordlist.size} words from {wordlist.name} {wordlist.sig.hexdigest()}')
 
@@ -394,7 +403,8 @@ def main():
     provide(result_word)
     print(f'📋 search result "{result_word}"')
 
-    input(f'> press <Return> for analysis')
+    puzzle_id = get_puzzle_id()
+    print(f'🧩 {puzzle_id}')
 
     try:
         with open(log_file.name) as f:
