@@ -4,7 +4,6 @@ import hashlib
 import math
 import time
 from contextlib import contextmanager
-
 from datetime import timedelta
 
 class Timer(object):
@@ -316,12 +315,12 @@ def main():
     parser.add_argument('--words', default='alphalist.txt', type=argparse.FileType('r'))
     args = parser.parse_args()
 
-    logtime = Timer()
-    logfile = args.log
+    log_time = Timer()
+    log_file = args.log
 
     def log(*mess):
-        print(f'T{logtime.now}', *mess, file=logfile)
-        logfile.flush()
+        print(f'T{log_time.now}', *mess, file=log_file)
+        log_file.flush()
 
     provide_args = shlex.split(args.provide) if args.provide else ()
 
@@ -366,7 +365,7 @@ def main():
         print(' <STOP>')
     print()
 
-    took = timedelta(seconds=logtime.now)
+    took = timedelta(seconds=log_time.now)
     res = f'gave up' if search.result is None else f'found "{search.result}"'
 
     def details():
@@ -384,12 +383,15 @@ def main():
     deets = ' '.join(details())
     if deets: deets = f' ( {deets} )'
 
+    print()
     print(f'{res} after {search.attempted} guesses in {took}{deets}')
 
-    if search.result is not None:
-        word = search.result
-        provide(word)
-        input(f'Provided final result {word} ; <Return> to exit')
+    result_word = search.result
+    if result_word is None: return
+    provide(result_word)
+    print(f'📋 search result "{result_word}"')
+
+    input(f'> press <Return> to exit')
 
 if __name__ == '__main__':
     main()
