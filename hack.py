@@ -305,6 +305,9 @@ def main():
     import pyperclip as pc
     import shlex
     import subprocess
+    import traceback
+
+    from review import analyze
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--context', type=int, default=3, help='how many words to show +/- query');
@@ -391,7 +394,21 @@ def main():
     provide(result_word)
     print(f'📋 search result "{result_word}"')
 
-    input(f'> press <Return> to exit')
+    input(f'> press <Return> for analysis')
+
+    try:
+        with open(log_file.name) as f:
+            analysis = ''.join(f'{line}\n' for line in analyze(f)).strip('\n')
+        pc.copy(analysis)
+        print('📋 Analysis')
+        print('```')
+        print(analysis)
+        print('```')
+    except:
+        print(f'⚠️ Analysis failed')
+        print('```')
+        print(traceback.format_exc())
+        print('```')
 
 if __name__ == '__main__':
     main()
