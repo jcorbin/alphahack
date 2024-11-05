@@ -447,6 +447,8 @@ def main():
     today = f'{datetime.today():%Y-%m-%d}'
     print(f'📆 {today}')
 
+    git_added = False
+
     if len(share_result) > 0 and hist_file:
         with open(hist_file, mode='a') as f:
             print(file=f)
@@ -454,12 +456,22 @@ def main():
             print('```', file=f)
             print(share_text, file=f)
             print('```', file=f)
+        subprocess.check_call(['git', 'add', hist_file])
+        git_added = True
         print(f'📜 {hist_file}')
 
     if log_dir:
         puzzle_log_file = f'{log_dir}{puzzle_id}'
         os.rename(log_file.name, puzzle_log_file)
+        subprocess.check_call(['git', 'add', puzzle_log_file])
+        git_added = True
         print(f'🗃️ {puzzle_log_file}')
+
+    if git_added:
+        subprocess.check_call(['git', 'commit', '-m', f'Day {puzzle_id}'])
+        subprocess.check_call(['git', 'show'])
+        if input('Push? ').strip().lower().startswith('y'):
+            subprocess.check_call(['git', 'push'])
 
 if __name__ == '__main__':
     main()
