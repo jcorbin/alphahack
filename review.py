@@ -51,27 +51,32 @@ def parse_responses(lines):
             hi = int(hi_str)
             yield Response(t, lo, q, hi, word, normalize_resp(resp))
 
-responses = list(parse_responses(sys.stdin))
+def analyze(lines):
+    responses = list(parse_responses(lines))
 
-max_ix = max(max(r.lo, r.q, r.hi) for r in responses)
-t_width = max(4, max(len(f'{r.time:.1f}') for r in responses))
-ix_width = max(5, len(str(max_ix)))
-word_width = max(6, max(len(r.word) for r in responses))
-resp_width = max(8, max(len(r.resp) for r in responses))
+    max_ix = max(max(r.lo, r.q, r.hi) for r in responses)
+    t_width = max(4, max(len(f'{r.time:.1f}') for r in responses))
+    ix_width = max(5, len(str(max_ix)))
+    word_width = max(6, max(len(r.word) for r in responses))
+    resp_width = max(8, max(len(r.resp) for r in responses))
 
-prior_t = 0
+    prior_t = 0
 
-print(f'T{"time":{t_width}} {"ΔT":>{t_width}} [ {"lo":{ix_width}} : {"query":{ix_width}} : {"hi":{ix_width}} ] {"<word>":{word_width}}? response ... analysis')
-for t, lo, q, hi, word, resp in responses:
-    dt = t - prior_t
-    w = hi - lo
-    m = math.floor(hi/2+lo/2)
-    b = q - m
-    print(f'T{t:{t_width}.1f} {dt:{t_width}.1f} [ {lo:{ix_width}} : {q:{ix_width}} : {hi:{ix_width}} ] {word:{word_width}}? {resp:{resp_width}} ... wid:{w:{ix_width}} mid:{m:{ix_width}} bias:{b}')
-    prior_t = t
+    yield f'T{"time":{t_width}} {"ΔT":>{t_width}} [ {"lo":{ix_width}} : {"query":{ix_width}} : {"hi":{ix_width}} ] {"<word>":{word_width}}? response ... analysis'
+    for t, lo, q, hi, word, resp in responses:
+        dt = t - prior_t
+        w = hi - lo
+        m = math.floor(hi/2+lo/2)
+        b = q - m
+        yield f'T{t:{t_width}.1f} {dt:{t_width}.1f} [ {lo:{ix_width}} : {q:{ix_width}} : {hi:{ix_width}} ] {word:{word_width}}? {resp:{resp_width}} ... wid:{w:{ix_width}} mid:{m:{ix_width}} bias:{b}'
+        prior_t = t
 
-print()
-print('analysis legend:')
-print('* wid -- search window width, aka `hi-lo`')
-print('* mid -- classic binary search midpoint, aka `hi/2+lo/2`')
-print('* bias -- prefix seeking bias applied, aka `query-mid`')
+    yield 
+    yield 'analysis legend:'
+    yield '* wid -- search window width, aka `hi-lo`'
+    yield '* mid -- classic binary search midpoint, aka `hi/2+lo/2`'
+    yield '* bias -- prefix seeking bias applied, aka `query-mid`'
+
+if __name__ == '__main__':
+    for line in analyze(sys.stdin):
+        print(line)
