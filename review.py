@@ -71,7 +71,7 @@ def analyze(lines):
         yield f'T{t:{t_width}.1f} {dt:{t_width}.1f} [ {lo:{ix_width}} : {q:{ix_width}} : {hi:{ix_width}} ] {word:{word_width}}? {resp:{resp_width}} ... wid:{w:{ix_width}} mid:{m:{ix_width}} bias:{b}'
         prior_t = t
 
-    yield 
+    yield ''
     yield 'analysis legend:'
     yield '* wid -- search window width, aka `hi-lo`'
     yield '* mid -- classic binary search midpoint, aka `hi/2+lo/2`'
