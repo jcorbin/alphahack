@@ -8,6 +8,11 @@ import re
 from contextlib import contextmanager
 from datetime import datetime, timedelta
 
+def ensure_parent_dir(file):
+    pardir = os.path.dirname(file)
+    if not os.path.exists(pardir):
+        os.makedirs(pardir)
+
 class Timer(object):
     def __init__(self, start = None):
         self.start = time.clock_gettime(time.CLOCK_MONOTONIC) if start is None else start
@@ -461,7 +466,9 @@ def main():
         print(f'📜 {hist_file}')
 
     if log_dir:
-        puzzle_log_file = f'{log_dir}{puzzle_id}'
+        site = share_result.get('link')
+        puzzle_log_file = f'{log_dir}{site}/{puzzle_id}' if site else f'{log_dir}/{puzzle_id}'
+        ensure_parent_dir(puzzle_log_file)
         os.rename(log_file.name, puzzle_log_file)
         subprocess.check_call(['git', 'add', puzzle_log_file])
         git_added = True
