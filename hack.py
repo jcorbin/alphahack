@@ -310,9 +310,9 @@ class WordList(object):
 def parse_share_result(text):
     for line in text.splitlines():
         for key, pattern, as_type in [
-            ('puzzle', re.compile(r'🧩\s*Puzzle\s*#(\d+)'), int),
-            ('guesses', re.compile(r'🤔\s*(\d+)\s+guesses'), int),
-            ('time', re.compile(r'⏱️ \s*(.+)'), str),
+            ('puzzle', re.compile(r'🧩\s*(?:\w+\s*)?#(\d+)'), int),
+            ('guesses', re.compile(r'🤔\s*(\d+)(?:\s+\w+)?'), int),
+            ('time', re.compile(r'⏱️\s*(.+)'), str),
             ('link', re.compile(r'🔗\s*(.+)'), str),
         ]:
             match = pattern.match(line)
