@@ -373,7 +373,7 @@ def main():
                     return int(resp.strip()), dict(), ''
                 except ValueError:
                     print('Invalid puzzle monotonic id')
-            share_text = pc.paste()
+            share_text = pc.paste().strip('\n')
             share_result = dict(parse_share_result(share_text))
             puzzle_id = share_result.get('puzzle')
             if puzzle_id is not None:
