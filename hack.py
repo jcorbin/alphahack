@@ -454,10 +454,12 @@ def main():
 
     git_added = False
 
+    site = share_result.get('link', '')
+
     if len(share_result) > 0 and hist_file:
         with open(hist_file, mode='a') as f:
             print(file=f)
-            print(f'# {today}', file=f)
+            print(f'# {today} {site}'.strip(), file=f)
             print('```', file=f)
             print(share_text, file=f)
             print('```', file=f)
@@ -466,7 +468,6 @@ def main():
         print(f'📜 {hist_file}')
 
     if log_dir:
-        site = share_result.get('link')
         puzzle_log_file = f'{log_dir}{site}/{puzzle_id}' if site else f'{log_dir}/{puzzle_id}'
         ensure_parent_dir(puzzle_log_file)
         os.rename(log_file.name, puzzle_log_file)
@@ -476,7 +477,8 @@ def main():
 
     if git_added:
         input('press <Return> to commit')
-        subprocess.check_call(['git', 'commit', '-m', f'Day {puzzle_id}'])
+        mess = f'{site} day {puzzle_id}'.strip()
+        subprocess.check_call(['git', 'commit', '-m', mess])
         subprocess.check_call(['git', 'show'])
         if input('Push? ').strip().lower().startswith('y'):
             subprocess.check_call(['git', 'push'])
