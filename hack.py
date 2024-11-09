@@ -34,12 +34,14 @@ class Search(object):
         log=lambda _: None,
         provide=lambda _: None,
         get_input=input,
+        note_removed=lambda _: None,
     ):
         self.words = sorted(words)
         self.context = context
         self.log = log
         self.provide = provide
         self.get_input = get_input
+        self.note_removed = note_removed
 
         self.lo = 0
         self.hi = len(self.words)
@@ -121,6 +123,7 @@ class Search(object):
 
     def remove(self, at):
         word = self.words.pop(at)
+        self.note_removed(word)
         if at < self.lo: self.lo -= 1
         if at <= self.hi: self.hi -= 1
         if self.questioning is not None and at <= self.questioning:
@@ -303,8 +306,10 @@ class WordList(object):
             ]
 
     @property
-    def describe(self);
-        return f'loaded {self.size} words from {self.name} {self.sig.hexdigest()}'
+    def describe(self):
+        en = len(self.excluded_words)
+        ex = f' ({en} words excluded)' if en > 0 else ''
+        return f'loaded {self.size} words from {self.name} {self.sig.hexdigest()}{ex}'
 
     @property
     def words(self):
@@ -316,8 +321,10 @@ class WordList(object):
 
     @property
     def pruned_words(self):
+        exclude = set(self.excluded_words)
         for word in self.tokens:
-            if "'" in word: continue
+            if "'" in word: continue # TODO other charset pruning?
+            if word in exclude: continue
             yield word
 
     @property
@@ -328,6 +335,31 @@ class WordList(object):
     def sig(self):
         with open(self.name, 'rb') as f:
             return hashlib.file_digest(f, 'sha256')
+
+    @property
+    def exclude_file(self):
+        return f'{os.path.splitext(self.name)[0]}.exclude.txt'
+
+    @property
+    def excluded_tokens(self):
+        try:
+            with open(self.exclude_file) as f:
+                for line in f:
+                    yield line.strip().lower().partition(' ')[0]
+        except FileNotFoundError:
+            pass
+
+    @property
+    def excluded_words(self):
+        return set(self.excluded_tokens)
+
+    def exclude_word(self, word):
+        words = set(self.excluded_words)
+        words.add(word)
+        swords = sorted(words)
+        with open(self.exclude_file, mode='w') as f:
+            for w in swords:
+                print(w, file=f)
 
 def parse_share_result(text):
     for line in text.splitlines():
@@ -416,6 +448,7 @@ def main():
         log=log,
         provide=provide,
         get_input=get_input,
+        note_removed=wordlist.exclude_word,
     )
     if args.at is not None:
         search.lo, search.hi = args.at
@@ -499,7 +532,7 @@ def main():
         puzzle_log_file = f'{log_dir}{site}/{puzzle_id}' if site else f'{log_dir}/{puzzle_id}'
         ensure_parent_dir(puzzle_log_file)
         os.rename(log_file.name, puzzle_log_file)
-        subprocess.check_call(['git', 'add', puzzle_log_file])
+        subprocess.check_call(['git', 'add', puzzle_log_file, wordlist.exclude_file])
         git_added = True
         print(f'🗃️ {puzzle_log_file}')
 

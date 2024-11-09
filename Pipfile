@@ -12,6 +12,6 @@ pyperclip = "*"
 python_version = "3.12"
 
 [scripts]
-alpha = "./hack.py --words alphalist.txt"
-alfa = "./hack.py --words woordenlist.txt"
+alpha = "./hack.py --words nwl2023.txt"
+alfa = "./hack.py --words opentaal-wordlist.txt"
 sim = "./sim.py"

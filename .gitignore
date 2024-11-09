@@ -1,6 +1,4 @@
-nwl*.txt
-NWL*.txt
-alphalist.txt
-woordenlist.txt
+*.txt
+!*.exclude.txt
 hack.log
 __pycache__/
