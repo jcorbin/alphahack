@@ -27,7 +27,14 @@ class Timer(object):
         return Timer(self.now)
 
 class Search(object):
-    def __init__(self, words, context=3, log=lambda _: None, provide=lambda _: None, get_input=input):
+    def __init__(
+        self,
+        words,
+        context=3,
+        log=lambda _: None,
+        provide=lambda _: None,
+        get_input=input,
+    ):
         self.words = sorted(words)
         self.context = context
         self.log = log
@@ -290,17 +297,32 @@ class WordList(object):
     def __init__(self, fable):
         self.name = fable.name
         with fable as f:
-            words = [
+            self.tokens = [
                 line.strip().lower().partition(' ')[0]
                 for line in f
             ]
-        words = [word for word in words if "'" not in word]
-        words = sorted(set(words))
-        self.words = words
+
+    @property
+    def describe(self);
+        return f'loaded {self.size} words from {self.name} {self.sig.hexdigest()}'
+
+    @property
+    def words(self):
+        return sorted(self.uniq_words)
+
+    @property
+    def uniq_words(self):
+        return set(self.pruned_words)
+
+    @property
+    def pruned_words(self):
+        for word in self.tokens:
+            if "'" in word: continue
+            yield word
 
     @property
     def size(self):
-        return len(self.words)
+        return len(self.uniq_words)
 
     @property
     def sig(self):
@@ -386,10 +408,10 @@ def main():
                 return puzzle_id, share_result, share_text
 
     wordlist = WordList(args.words)
-    log(f'loaded {wordlist.size} words from {wordlist.name} {wordlist.sig.hexdigest()}')
+    log(wordlist.describe)
 
     search = Search(
-        wordlist.words,
+        wordlist.uniq_words,
         context=args.context,
         log=log,
         provide=provide,

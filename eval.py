@@ -180,10 +180,11 @@ def main():
     strat = strats[args.strat]
 
     wordlist = WordList(args.wordfile)
-    print(f'loaded {wordlist.size} words from {args.wordfile.name} {wordlist.sig.hexdigest()}')
+    print(wordlist.describe)
+    words = wordlist.words
 
     count = 0
-    for guess, compare in evaluate(word, strat(wordlist.words)):
+    for guess, compare in evaluate(word, strat(words)):
         print(f'- {guess} => {"before" if compare < 0 else "after" if compare > 0 else "it"}')
         count += 1
     print()

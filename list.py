@@ -20,14 +20,14 @@ args = parser.parse_args()
 
 notes = dict(args.note)
 wordlist = WordList(args.wordfile)
-
-print(f'loaded {wordlist.size} words from {wordlist.name} {wordlist.sig.hexdigest()}')
+print(wordlist.describe)
+words = wordlist.words
 
 word_width = max(
-    len(wordlist.words[i])
+    len(words[i])
     for i in range(args.lo, args.hi))
 
 for i in range(args.lo, args.hi): 
     note = notes.get(i) or ''
-    print(f'{i} {wordlist.words[i]:{word_width}}{" <-- " if note else ""}{note}')
+    print(f'{i} {words[i]:{word_width}}{" <-- " if note else ""}{note}')
 
