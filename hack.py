@@ -339,7 +339,7 @@ def main():
     parser.add_argument('--log', default='hack.log', type=argparse.FileType('w'))
     parser.add_argument('--input', action='extend', nargs='+', type=str)
     parser.add_argument('--at', nargs=2, type=int)
-    parser.add_argument('--words', default='alphalist.txt', type=argparse.FileType('r'))
+    parser.add_argument('--words', default='/usr/share/dict/words', type=argparse.FileType('r'))
     parser.add_argument('--store-log', default='log/')
     parser.add_argument('--store-hist', default='hist.md')
     args = parser.parse_args()
