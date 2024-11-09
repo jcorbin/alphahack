@@ -320,10 +320,16 @@ def parse_share_result(text):
 
 def main():
     import argparse
-    import pyperclip as pc
     import shlex
     import subprocess
     import traceback
+
+    try:
+        from pyperclip import copy, paste
+    except:
+        print('WARNING: no clipboard access available')
+        def copy(mess): pass
+        def paste(): return ''
 
     from review import analyze
 
@@ -350,7 +356,7 @@ def main():
     provide_args = shlex.split(args.provide) if args.provide else ()
 
     def provide(word):
-        pc.copy(word)
+        copy(word)
         if provide_args:
             subprocess.call(provide_args)
 
@@ -373,7 +379,7 @@ def main():
                     return int(resp.strip()), dict(), ''
                 except ValueError:
                     print('Invalid puzzle monotonic id')
-            share_text = pc.paste().strip('\n')
+            share_text = paste().strip('\n')
             share_result = dict(parse_share_result(share_text))
             puzzle_id = share_result.get('puzzle')
             if puzzle_id is not None:
@@ -438,7 +444,7 @@ def main():
     try:
         with open(log_file.name) as f:
             analysis = ''.join(f'{line}\n' for line in analyze(f)).strip('\n')
-        pc.copy(analysis)
+        copy(analysis)
         print('📋 Analysis')
         print('```')
         print(analysis)
