@@ -245,18 +245,27 @@ class Search(object):
             self.suggested += 1
             return self.question(self.view_at if pi is None else pi)
 
-        cur = None
-        def note(i, mark=''):
-            nonlocal cur
-            if cur is not None and cur < i-1:
-                print('    ...')
-            print(f'    [{i}] {self.words[i]}{mark}')
-            cur = i
+        def show(mess):
+            print(f'    {mess}')
 
-        note(self.lo)
-        if pi is not None and pi < self.view_lo: note(pi, ' <')
-        for i in range(self.view_lo, self.view_hi): note(i, ' @' if i == self.view_at else '')
-        note(self.hi-1)
+        cur = None
+
+        def note(i, mess, elide = True):
+            nonlocal cur
+            if elide and cur is not None and cur < i-1:
+                show('...')
+            cur = i
+            show(mess)
+
+        def mark(i, mark='', elide = True):
+            note(i, f'[{i}] {self.words[i]}{mark}', elide=elide)
+
+        mark(self.lo)
+        if pi is not None and pi < self.view_lo:
+            mark(pi, ' <')
+        for i in range(self.view_lo, self.view_hi):
+            mark(i, ' @' if i == self.view_at else '')
+        mark(self.hi-1)
 
         self.log(f'viewing: [ {self.view_lo} {self.view_at} {self.view_hi} ] search: [ {self.lo} {self.hi} ]')
 
