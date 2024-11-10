@@ -293,7 +293,7 @@ class Search(object):
         try:
             token = tokens[0]
         except IndexError:
-            print('! expected response like: `[+|-|<word>]...`')
+            print('! expected response like: `[+|-|0|<word>]...`')
             return
 
         if token == '-':
@@ -301,6 +301,9 @@ class Search(object):
             return
         if token == '+':
             self.context = max(self.min_context, math.floor(self.context / 2))
+            return
+        if token == '0':
+            self.context = self.min_context
             return
 
         at = self.find(token)
