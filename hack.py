@@ -145,7 +145,7 @@ class Search(object):
             raise StopIteration
 
         compare, index = self.prompt()
-        self.log(f'{compare} {index} {self.words[index]}')
+        self.log(f'progress: {compare} {index} {self.words[index]}')
 
         if   compare  < 0: self.hi = index
         elif compare  > 0: self.lo = index + 1
