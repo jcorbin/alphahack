@@ -190,7 +190,6 @@ class Search(object):
         self.may_suggest = True
         self.questioning = None
         self.view_at = math.floor(self.lo/2 + self.hi/2)
-        self.log(f'... {self.lo} {self.view_lo} {self.view_at} {self.view_hi} {self.hi}')
         while True:
             res = self.question() or self.choose()
             if res is not None: return res
@@ -258,6 +257,8 @@ class Search(object):
         if pi is not None and pi < self.view_lo: note(pi, ' <')
         for i in range(self.view_lo, self.view_hi): note(i, ' @' if i == self.view_at else '')
         note(self.hi-1)
+
+        self.log(f'viewing: [ {self.view_lo} {self.view_at} {self.view_hi} ] search: [ {self.lo} {self.hi} ]')
 
         return self.handle_choose(self.input('> ').lower().split())
 
