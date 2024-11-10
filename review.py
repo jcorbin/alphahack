@@ -3,56 +3,65 @@
 import math
 import re
 import sys
-from collections import namedtuple
+from dataclasses import dataclass
 
-Response = namedtuple('Response', ['time', 'lo', 'q', 'hi', 'word', 'resp'])
-          
-pat = re.compile(r'''(?x)
-    # T4.0846012760011945
-    T (?P<time> \d+ (?: \. \d+ )? )
+@dataclass
+class Response:
+    time: float
+    lo: int
+    q: int
+    hi: int
+    word: str
+    resp: str
 
-    # [0 : 98266 : 196598]
-    \s+ \[ \s*
+    pattern = re.compile(r'''(?x)
+        # T4.0846012760011945
+        T (?P<time> \d+ (?: \. \d+ )? )
 
-        (?P<lo> \d+ )
-        \s* : \s*
-        (?P<q> \d+ )
-        \s* : \s*
-        (?P<hi> \d+ )
-    \s* \]
+        # [0 : 98266 : 196598]
+        \s+ \[ \s*
+            (?P<lo> \d+ )
+            \s* : \s*
+            (?P<q> \d+ )
+            \s* : \s*
+            (?P<hi> \d+ )
+        \s* \]
 
-    # mach?
-    \s+
-    (?P<word> \w+ )
-    \?
+        # mach?
+        \s+
+        (?P<word> \w+ )
+        \?
 
-    # a
-    \s+
-    (?P<resp> .* )
+        # a
+        \s+
+        (?P<resp> .* )
 
-    $
-''')
+        $
+    ''')
 
-def normalize_resp(resp):
-    for code in ('after', 'before', 'it'):
-        if code.startswith(resp.lower()):
-            return code
-    return resp
-
-def parse_responses(lines):
-    for line in lines:
-        line = line.rstrip('\r\n')
-        match = pat.match(line)
-        if match:
-            t_str, lo_str, q_str, hi_str, word, resp = match.groups()
-            t = float(t_str)
-            lo = int(lo_str)
-            q = int(q_str)
-            hi = int(hi_str)
-            yield Response(t, lo, q, hi, word, normalize_resp(resp))
+    @classmethod
+    def match(cls, line):
+        match = cls.pattern.match(line)
+        if not match: return None
+        t, lo, q, hi, word, resp = match.groups()
+        canon_resp = resp
+        for code in ('after', 'before', 'it'):
+            if code.startswith(resp.lower()):
+                canon_resp = code
+                break
+        return cls(float(t), int(lo), int(q), int(hi), word, canon_resp)
 
 def analyze(lines):
-    responses = list(parse_responses(lines))
+    responses = []
+
+    for line in lines:
+        line = line.rstrip('\r\n')
+
+        r = Response.match(line)
+        if r is not None:
+            responses.append(r)
+            continue
+
 
     max_ix = max(max(r.lo, r.q, r.hi) for r in responses)
     t_width = max(4, max(len(f'{r.time:.1f}') for r in responses))
@@ -63,12 +72,16 @@ def analyze(lines):
     prior_t = 0
 
     yield f'T{"time":{t_width}} {"ΔT":>{t_width}} [ {"lo":{ix_width}} : {"query":{ix_width}} : {"hi":{ix_width}} ] {"<word>":{word_width}}? response ... analysis'
-    for t, lo, q, hi, word, resp in responses:
+
+    for r in responses:
+        t = r.time
         dt = t - prior_t
-        w = hi - lo
-        m = math.floor(hi/2+lo/2)
-        b = q - m
-        yield f'T{t:{t_width}.1f} {dt:{t_width}.1f} [ {lo:{ix_width}} : {q:{ix_width}} : {hi:{ix_width}} ] {word:{word_width}}? {resp:{resp_width}} ... wid:{w:{ix_width}} mid:{m:{ix_width}} bias:{b}'
+
+        w = r.hi - r.lo
+        m = math.floor(r.hi/2+r.lo/2)
+        b = r.q - m
+        yield f'T{t:{t_width}.1f} {dt:{t_width}.1f} [ {r.lo:{ix_width}} : {r.q:{ix_width}} : {r.hi:{ix_width}} ] {r.word:{word_width}}? {r.resp:{resp_width}} ... wid:{w:{ix_width}} mid:{m:{ix_width}} bias:{b}'
+
         prior_t = t
 
     yield ''
