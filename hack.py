@@ -245,8 +245,12 @@ class Search(object):
             self.suggested += 1
             return self.question(self.view_at if pi is None else pi)
 
+        show_lines = 0
+
         def show(mess):
+            nonlocal show_lines
             print(f'    {mess}')
+            show_lines += 1
 
         cur = None
 
@@ -260,14 +264,28 @@ class Search(object):
         def mark(i, mark='', elide = True):
             note(i, f'[{i}] {self.words[i]}{mark}', elide=elide)
 
+        screen_lines = os.get_terminal_size().lines
+
         mark(self.lo)
         if pi is not None and pi < self.view_lo:
             mark(pi, ' <')
-        for i in range(self.view_lo, self.view_hi):
-            mark(i, ' @' if i == self.view_at else '')
+
+        less_lines = show_lines + 4
+        free_lines = screen_lines - less_lines
+        view_wid = self.view_hi - self.view_lo
+        every = 1
+        while every < view_wid and math.floor(view_wid / every) > free_lines:
+            every *= 2
+
+        if every > 1:
+            note(self.view_lo, f'~~~ showing every {every}-th word for context {self.context}')
+
+        for i in range(self.view_lo, self.view_hi, every):
+            mark(i, ' @' if i == self.view_at else '', elide=i == self.view_lo)
+
         mark(self.hi-1)
 
-        self.log(f'viewing: [ {self.view_lo} {self.view_at} {self.view_hi} ] search: [ {self.lo} {self.hi} ]')
+        self.log(f'viewing: @{self.view_at} C{self.context} [ {self.view_lo} {self.view_hi} ]~{every} search: [ {self.lo} {self.hi} ]')
 
         return self.handle_choose(self.input('> ').lower().split())
 
