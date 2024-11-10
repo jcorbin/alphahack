@@ -29,7 +29,7 @@ class Questioned:
 
         # mach?
         \s+
-        (?P<word> \w+ )
+        (?P<word> [^\s]+ )
         \?
 
         # a
