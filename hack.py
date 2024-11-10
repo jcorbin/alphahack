@@ -296,10 +296,10 @@ class Search(object):
             print('! expected response like: `[+|-|<word>]...`')
             return
 
-        if token == '+':
+        if token == '-':
             self.context *= self.view_factor
             return
-        if token == '-':
+        if token == '+':
             self.context = max(self.min_context, math.floor(self.context / 2))
             return
 
