@@ -293,7 +293,17 @@ class Search(object):
         try:
             token = tokens[0]
         except IndexError:
-            print('! expected response like: `[+|-|0|<word>]...`')
+            print('! expected response like: `[<|^|>|+|-|0|<word>]...`')
+            return
+
+        if token == '<':
+            self.view_at = max(self.view_lo, self.view_at - self.context)
+            return
+        if token == '>':
+            self.view_at = min(self.view_hi, self.view_at + self.context)
+            return
+        if token == '^':
+            self.view_at = math.floor(self.lo/2 + self.hi/2)
             return
 
         if token == '-':
