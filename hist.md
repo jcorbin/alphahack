@@ -414,3 +414,14 @@
 
 🔗 alfagok.diginaut.net
 ```
+
+# 2024-11-11 alphaguess.com
+```
+🧩 Puzzle #475
+
+🤔 13 guesses
+
+⏱️ 25s
+
+🔗 alphaguess.com
+```
