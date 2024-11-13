@@ -402,16 +402,53 @@ class WordList(object):
             for w in swords:
                 print(w, file=f)
 
+class ShareResult:
+    puzzle = None
+    guesses = None
+    time = None
+    link = None
+
+    @property
+    def any_defined(self):
+        if self.puzzle is not None: return True
+        if self.guesses is not None: return True
+        if self.time is not None: return True
+        if self.link is not None: return True
+        return False
+
+    def log_items(self):
+        if self.puzzle is not None: yield 'puzzle', str(self.puzzle)
+        if self.guesses is not None: yield 'guesses', str(self.guesses)
+        if self.time is not None: yield 'time', self.time
+        if self.link is not None: yield 'link', self.link
+
 def parse_share_result(text):
+    res = ShareResult()
+
+    pat_puzzle = re.compile(r'🧩\s*(?:\w+\s*)?#(\d+)')
+    pat_guess = re.compile(r'🤔\s*(\d+)(?:\s+\w+)?')
+    pat_time = re.compile(r'⏱️\s*(.+)')
+    pat_link = re.compile(r'🔗\s*(.+)')
+
     for line in text.splitlines():
-        for key, pattern, as_type in [
-            ('puzzle', re.compile(r'🧩\s*(?:\w+\s*)?#(\d+)'), int),
-            ('guesses', re.compile(r'🤔\s*(\d+)(?:\s+\w+)?'), int),
-            ('time', re.compile(r'⏱️\s*(.+)'), str),
-            ('link', re.compile(r'🔗\s*(.+)'), str),
-        ]:
-            match = pattern.match(line)
-            if match: yield key, as_type(match.group(1))
+        match = pat_puzzle.match(line)
+        if match:
+            res.puzzle = int(match.group(1))
+            continue
+        match = pat_guess.match(line)
+        if match:
+            res.guesses = int(match.group(1))
+            continue
+        match = pat_time.match(line)
+        if match:
+            res.time = match.group(1)
+            continue
+        match = pat_link.match(line)
+        if match:
+            res.link = match.group(1)
+            continue
+
+    return res
 
 def main():
     import argparse
@@ -471,12 +508,14 @@ def main():
             resp = input(f'enter puzzle id or copy share result and press <Return>: ')
             if resp:
                 try:
-                    return int(resp.strip()), dict(), ''
+                    puzzle_id = int(resp.strip())
                 except ValueError:
-                    print('Invalid puzzle monotonic id')
+                    print('Invalid puzzle monotonic id; leave empty to parse clipboard')
+                    continue
+                return puzzle_id, ShareResult(), ''
             share_text = paste().strip('\n')
-            share_result = dict(parse_share_result(share_text))
-            puzzle_id = share_result.get('puzzle')
+            share_result = parse_share_result(share_text)
+            puzzle_id = share_result.puzzle
             if puzzle_id is not None:
                 return puzzle_id, share_result, share_text
 
@@ -533,7 +572,7 @@ def main():
     print(f'📋 search result "{result_word}"')
 
     puzzle_id, share_result, share_text = get_puzzle_id()
-    for key, value in share_result.items():
+    for key, value in share_result.log_items():
         log(f'result {key}: {value}')
     print(f'🧩 {puzzle_id}')
 
@@ -556,9 +595,9 @@ def main():
 
     git_added = False
 
-    site = share_result.get('link', '')
+    site = share_result.link
 
-    if len(share_result) > 0 and hist_file:
+    if share_result.any_defined and hist_file:
         with open(hist_file, mode='a') as f:
             print(file=f)
             print(f'# {today} {site}'.strip(), file=f)
