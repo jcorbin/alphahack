@@ -3,6 +3,15 @@
 import math
 from hack import Search, WordList
 
+strats = dict()
+
+def strat(fn):
+    name = fn.__name__
+    if name.startswith('strat_'): name = name[6:]
+    assert name not in strats
+    strats[name] = fn
+
+@strat
 def strat_hack(words, context=3, echo=False, log=False):
     def end_input(_): raise EOFError
     def int_input(_): raise KeyboardInterrupt
@@ -65,10 +74,12 @@ def interval_guesser(words, choose):
         return words[qi], feedback
     return guess
 
+@strat
 def strat_basic(words):
     return interval_guesser(words,
         lambda lo, hi: math.floor(lo/2 + hi/2))
 
+@strat
 def strat_prefix_c3(words):
     # This strategy works by looking at a context window around search mid point,
     # looking back to find any root/stem word that is common to all or most of the window words
@@ -159,13 +170,6 @@ def evaluate(word, guess):
             0)
         feedback(compare)
         yield resp, compare
-
-strats = dict((
-    (key[6:], val)
-    for key, val in locals().items()
-    if callable(val)
-    if key.startswith('strat_')
-))
 
 def main():
     import argparse
