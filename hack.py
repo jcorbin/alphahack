@@ -457,11 +457,19 @@ def main():
     import traceback
 
     try:
-        from pyperclip import copy, paste
+        import pyperclip
     except:
         print('WARNING: no clipboard access available')
-        def copy(mess): pass
-        def paste(): return ''
+        pyperclip = None
+
+    def copy(mess):
+        if pyperclip:
+            pyperclip.copy()
+
+    def paste():
+        if pyperclip:
+            return pyperclip.paste()
+        return ''
 
     from review import analyze
 
