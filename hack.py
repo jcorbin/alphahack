@@ -150,7 +150,7 @@ class Search(object):
         if   compare  < 0: self.hi = index
         elif compare  > 0: self.lo = index + 1
         elif compare == 0: self.chosen = index
-        else: raise 'invalid comparison'
+        else: raise ValueError('invalid comparison') # unreachable
 
     def find(self, word):
         qi = 0
