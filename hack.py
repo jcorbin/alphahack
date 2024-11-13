@@ -617,7 +617,7 @@ def main():
         print(f'🗃️ {puzzle_log_file}')
 
     if git_added:
-        input('press <Return> to commit')
+        _ = input('press <Return> to commit')
         mess = f'{site} day {puzzle_id}'.strip()
         _ = subprocess.check_call(['git', 'commit', '-m', mess])
         _ = subprocess.check_call(['git', 'show'])
