@@ -3,15 +3,16 @@
 import argparse
 import datetime
 import time
+from typing import cast
 
 parser = argparse.ArgumentParser()
-parser.add_argument('word')
+_ = parser.add_argument('word')
 args = parser.parse_args()
-word = args.word.strip().lower()
+word = cast(str, args.word).strip().lower()
 
 pre = ''
 post = ''
-guesses = []
+guesses: list[str] = []
 found = False
 start = time.clock_gettime(time.CLOCK_MONOTONIC)
 
@@ -31,11 +32,12 @@ try:
             print('Before', guess)
             if not post or word < post: post = guess
         else:
-            raise 'unreachable'
+            raise RuntimeError('unreachable')
+
 except (EOFError, KeyboardInterrupt, StopIteration):
     pass
-end = time.clock_gettime(time.CLOCK_MONOTONIC)
 
+end = time.clock_gettime(time.CLOCK_MONOTONIC)
 
 if found:
     took = datetime.timedelta(seconds=end - start)
