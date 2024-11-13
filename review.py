@@ -4,7 +4,10 @@ import math
 import re
 import sys
 from dataclasses import dataclass
+from collections.abc import Iterable
+from typing import final
 
+@final
 @dataclass
 class Questioned:
     time: float
@@ -40,7 +43,7 @@ class Questioned:
     ''')
 
     @classmethod
-    def match(cls, line):
+    def match(cls, line: str):
         match = cls.pattern.match(line)
         if not match: return None
         t, lo, q, hi, word, resp = match.groups()
@@ -51,6 +54,7 @@ class Questioned:
                 break
         return cls(float(t), int(lo), int(q), int(hi), word, canon_resp)
 
+@final
 @dataclass
 class Prompt:
     time: float
@@ -69,15 +73,15 @@ class Prompt:
     ''')
 
     @classmethod
-    def match(cls, line):
+    def match(cls, line: str):
         match = cls.pattern.match(line)
         if not match: return None
         t, resp = match.groups()
         return cls(float(t), resp)
 
-def analyze(lines):
-    quest = []
-    prompt = []
+def analyze(lines: Iterable[str]):
+    quest: list[Questioned] = []
+    prompt: list[Prompt] = []
 
     for line in lines:
         line = line.rstrip('\r\n')
@@ -99,24 +103,26 @@ def analyze(lines):
         qi = 0
         pi = 0
         while True:
-            qt = quest[qi].time if qi < len(quest) else None
-            pt = prompt[pi].time if pi < len(prompt) else None
-            if qt is None and pt is None:
-                break
+            qr = quest[qi] if qi < len(quest) else None
+            pr = prompt[pi] if pi < len(prompt) else None
 
-            if pt is None or qt <= pt:
-                qr = quest[qi]
+            if qr is not None and pr is not None:
+                if qr.time < pr.time:
+                    pr = None
+                else:
+                    qr = None
+
+            if qr is not None:
                 qi += 1
-                yield qt, qr, None
+                yield qr.time, qr, None
                 continue
 
-            if qt is None or pt < qt:
-                pr = prompt[pi]
+            if pr is not None:
                 pi += 1
-                yield pt, None, pr
+                yield pr.time, None, pr
                 continue
 
-            raise RuntimeError('unreachable merge state')
+            break
 
     max_ix = max(max(r.lo, r.q, r.hi) for r in quest)
     t_width = max(4, max(len(f'{r.time:.1f}') for r in quest))
