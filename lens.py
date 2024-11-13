@@ -3,8 +3,8 @@
 from collections import Counter
 import sys
 
-seen = set()
-lens = Counter()
+seen: set[str] = set()
+lens: Counter[int] = Counter()
 
 for line in sys.stdin:
     word = line.strip().lower().partition(' ')[0]
