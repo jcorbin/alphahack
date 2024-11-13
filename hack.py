@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import builtins
 import hashlib
 import math
 import os
@@ -16,7 +17,7 @@ def ensure_parent_dir(file: str):
         os.makedirs(pardir)
 
 @final
-class Timer(object):
+class Timer:
     def __init__(self, start: float|None = None):
         self.start = time.clock_gettime(time.CLOCK_MONOTONIC) if start is None else start
         self.last = self.start
@@ -33,20 +34,70 @@ Comparison = Literal[-1, 0, 1]
 SearchResponse = tuple[Comparison, int]
 
 @final
-class Search(object):
+class PromptUI:
     def __init__(
         self,
+        time: Timer|None = None,
+        get_input: Callable[[str], str] = input,
+        sink: Callable[[str], None] = lambda _: None,
+        copy: Callable[[str], None] = lambda _: None,
+        paste: Callable[[], str] = lambda: '',
+    ):
+        self.time = Timer() if time is None else time
+        self.get_input = get_input
+        self.sink = sink
+        self.copy = copy
+        self.paste = paste
+
+    def log(self, mess: str):
+        self.sink(f'T{self.time.now} {mess}')
+
+    def print(self, mess: str):
+        print(mess)
+
+    def input(self, prompt: str) -> str:
+        try:
+            resp = self.get_input(prompt)
+        except EOFError:
+            self.log(f'{prompt}␚')
+            raise
+        self.log(f'{prompt}{resp}')
+        return resp
+
+    @contextmanager
+    def deps(self,
+             sink: Callable[[str], None] = lambda _: None,
+             get_input: Callable[[str], str] = builtins.input,
+             copy: Callable[[str], None] = lambda _: None,
+             paste: Callable[[], str] = lambda: ''):
+        prior_sink = self.sink
+        prior_copy = self.copy
+        prior_paste = self.paste
+        prior_get_input = self.get_input
+        try:
+            if callable(sink): self.sink = sink
+            if callable(copy): self.copy = copy
+            if callable(paste): self.paste = paste
+            if callable(get_input): self.get_input = get_input
+            yield self
+        finally:
+            self.sink = prior_sink
+            self.copy = prior_copy
+            self.paste = prior_paste
+            self.get_input = prior_get_input
+
+@final
+class Search:
+    def __init__(
+        self,
+        ui: PromptUI,
         words: Iterable[str],
         context: int = 3,
-        log: Callable[[str], None] = lambda _: None,
-        provide: Callable[[str], None] = lambda _: None,
-        get_input: Callable[[str], str] = input,
         note_removed: Callable[[str], None] = lambda _: None):
+
+        self.ui = ui
         self.words = sorted(words)
         self.context = context
-        self.log = log
-        self.provide = provide
-        self.get_input = get_input
         self.note_removed = note_removed
 
         self.lo = 0
@@ -67,24 +118,6 @@ class Search(object):
         self.suggested = 0
 
         self.chosen: int|None = None
-
-    @contextmanager
-    def deps(self,
-             log: Callable[[str], None] = lambda _: None,
-             provide: Callable[[str], None] = lambda _: None,
-             get_input: Callable[[str], str] = input):
-        prior_log = self.log
-        prior_provide = self.provide
-        prior_get_input = self.get_input
-        try:
-            if callable(log): self.log = log
-            if callable(provide): self.provide = provide
-            if callable(get_input): self.get_input = get_input
-            yield self
-        finally:
-            self.log = prior_log
-            self.provide = prior_provide
-            self.get_input = prior_get_input
 
     @property
     def view_lo(self):
@@ -150,11 +183,11 @@ class Search(object):
     def progress(self):
         if self.done:
             res = self.result
-            self.log(f'[{self.lo} : {self.qi} : {self.hi}] <Done>. {"<NORESULT>" if res is None else res}')
+            self.ui.log(f'[{self.lo} : {self.qi} : {self.hi}] <Done>. {"<NORESULT>" if res is None else res}')
             raise StopIteration
 
         compare, index = self.prompt()
-        self.log(f'progress: {compare} {index} {self.words[index]}')
+        self.ui.log(f'progress: {compare} {index} {self.words[index]}')
 
         if   compare  < 0: self.hi = index
         elif compare  > 0: self.lo = index + 1
@@ -203,15 +236,6 @@ class Search(object):
             res = self.question() or self.choose()
             if res is not None: return res
 
-    def input(self, prompt: str) -> str:
-        try:
-            resp = self.get_input(prompt)
-        except EOFError:
-            self.log(f'{prompt}␚')
-            raise
-        self.log(f'{prompt}{resp}')
-        return resp
-
     def question(self, qi: int|None=None) -> SearchResponse|None:
         if qi is None:
             qi = self.questioning
@@ -221,8 +245,8 @@ class Search(object):
             self.questioned += 1
 
         word = self.words[qi]
-        self.provide(word)
-        tokens = self.input(f'[{self.lo} : {qi} : {self.hi}] {word}? ').lower().split()
+        self.ui.copy(word)
+        tokens = self.ui.input(f'[{self.lo} : {qi} : {self.hi}] {word}? ').lower().split()
         if len(tokens) > 1:
             self.may_suggest = False
             self.questioning = None
@@ -241,7 +265,7 @@ class Search(object):
 
         compare = parse_compare(token)
         if compare is None:
-            print(f'! invalid direction {token} ; expected a(fter), b(efore), i(t), or ! (to remove word)')
+            self.ui.print(f'! invalid direction {token} ; expected a(fter), b(efore), i(t), or ! (to remove word)')
             return
 
         self.attempted += 1
@@ -258,7 +282,7 @@ class Search(object):
 
         def show(mess: str):
             nonlocal show_lines
-            print(f'    {mess}')
+            self.ui.print(f'    {mess}')
             show_lines += 1
 
         cur = None
@@ -294,15 +318,15 @@ class Search(object):
 
         mark(self.hi-1)
 
-        self.log(f'viewing: @{self.view_at} C{self.context} [ {self.view_lo} {self.view_hi} ]~{every} search: [ {self.lo} {self.hi} ]')
+        self.ui.log(f'viewing: @{self.view_at} C{self.context} [ {self.view_lo} {self.view_hi} ]~{every} search: [ {self.lo} {self.hi} ]')
 
-        return self.handle_choose(self.input('> ').lower().split())
+        return self.handle_choose(self.ui.input('> ').lower().split())
 
     def handle_choose(self, tokens: Sequence[str]) -> SearchResponse|None:
         try:
             token = tokens[0]
         except IndexError:
-            print('! expected response like: `[<|^|>|+|-|0|<word>]...`')
+            self.ui.print('! expected response like: `[<|^|>|+|-|0|<word>]...`')
             return
 
         if token == '<':
@@ -329,7 +353,7 @@ class Search(object):
         if self.words[at] != token:
             confirm = (
                 len(tokens) > 2 and tokens[2] or
-                input(f'! unknown word {token} ; respond . to add, else to re-prompt> '))
+                self.ui.input(f'! unknown word {token} ; respond . to add, else to re-prompt> '))
             if confirm.strip() == '.':
                 self.insert(at, token)
 
@@ -347,7 +371,7 @@ def parse_compare(s: str) -> Comparison|None:
         return None
 
 @final
-class WordList(object):
+class WordList:
     def __init__(self, fable: TextIO):
         self.name = fable.name
         with fable as f:
@@ -468,19 +492,10 @@ def main():
     import traceback
 
     try:
-        import pyperclip
+        import pyperclip # pyright: ignore[reportMissingImports]
     except:
         print('WARNING: no clipboard access available')
         pyperclip = None
-
-    def copy(mess: str):
-        if pyperclip:
-            pyperclip.copy(mess)
-
-    def paste() -> str:
-        if pyperclip:
-            return pyperclip.paste()
-        return ''
 
     from review import analyze
 
@@ -504,18 +519,24 @@ def main():
     view_context = cast(int, args.context)
     at_arg = cast(Sequence[int], args.at)
 
-    log_time = Timer()
     provide_cmd = shlex.split(provide_arg) if provide_arg else ()
     view_window: None|tuple[int, int] = cast(tuple[int, int], tuple(at_arg)) if at_arg else None
 
-    def log(*mess: str):
-        print(f'T{log_time.now}', *mess, file=log_file)
+    def write_log(mess: str):
+        print(mess, file=log_file)
         log_file.flush()
 
-    def provide(word: str):
-        copy(word)
+    def clipboard_give(mess: str):
+        if pyperclip:
+            pyperclip.copy(mess) # pyright: ignore[reportUnknownMemberType]
+        # else: TODO osc fallback?
         if provide_cmd:
             _ = subprocess.call(provide_cmd)
+
+    def clipboard_get() -> str:
+        if pyperclip:
+            return pyperclip.paste() # pyright: ignore[reportUnknownMemberType, reportUnknownVariableType]
+        return ''
 
     input_index = 0
 
@@ -523,54 +544,59 @@ def main():
         nonlocal input_index
         if given_input and input_index < len(given_input):
             prov = given_input[input_index]
-            print(f'{prompt}{prov}')
+            ui.print(f'{prompt}{prov}')
             input_index += 1
             return prov
         return input(prompt)
 
+    ui = PromptUI(
+        sink=write_log,
+        copy=clipboard_give,
+        paste=clipboard_get,
+        get_input=get_input,
+    )
+
     def get_puzzle_id() -> tuple[int, ShareResult, str]:
         while True:
-            resp = input(f'enter puzzle id or copy share result and press <Return>: ')
+            resp = ui.input(f'enter puzzle id or copy share result and press <Return>: ')
             if resp:
                 try:
                     puzzle_id = int(resp.strip())
                 except ValueError:
-                    print('Invalid puzzle monotonic id; leave empty to parse clipboard')
+                    ui.print('Invalid puzzle monotonic id; leave empty to parse clipboard')
                     continue
                 return puzzle_id, ShareResult(), ''
-            share_text = paste().strip('\n')
+            share_text = ui.paste().strip('\n')
             share_result = parse_share_result(share_text)
             puzzle_id = share_result.puzzle
             if puzzle_id is not None:
                 return puzzle_id, share_result, share_text
 
     wordlist = WordList(words_io)
-    log(wordlist.describe)
+    ui.log(wordlist.describe)
 
     search = Search(
+        ui,
         wordlist.uniq_words,
         context=view_context,
-        log=log,
-        provide=provide,
-        get_input=get_input,
         note_removed=wordlist.exclude_word,
     )
     if view_window is not None:
         search.lo, search.hi = view_window
 
     try:
-        print(f'searching {search.remain} words')
+        ui.print(f'searching {search.remain} words')
         while search.remain > 0:
             search.progress()
     except EOFError:
-        print(' <EOF>')
+        ui.print(' <EOF>')
     except KeyboardInterrupt:
-        print(' <INT>')
+        ui.print(' <INT>')
     except StopIteration:
-        print(' <STOP>')
-    print()
+        ui.print(' <STOP>')
+    ui.print('')
 
-    took = timedelta(seconds=log_time.now)
+    took = timedelta(seconds=ui.time.now)
     res = f'gave up' if search.result is None else f'found "{search.result}"'
 
     def details():
@@ -588,32 +614,32 @@ def main():
     deets = ' '.join(details())
     if deets: deets = f' ( {deets} )'
 
-    print()
-    print(f'{res} after {search.attempted} guesses in {took}{deets}')
+    ui.print('')
+    ui.print(f'{res} after {search.attempted} guesses in {took}{deets}')
 
     result_word = search.result
     if result_word is None: return
-    provide(result_word)
-    print(f'📋 search result "{result_word}"')
+    ui.copy(result_word)
+    ui.print(f'📋 search result "{result_word}"')
 
     puzzle_id, share_result, share_text = get_puzzle_id()
     for key, value in share_result.log_items():
-        log(f'result {key}: {value}')
-    print(f'🧩 {puzzle_id}')
+        ui.log(f'result {key}: {value}')
+    ui.print(f'🧩 {puzzle_id}')
 
     try:
         with open(log_file.name) as f:
             analysis = ''.join(f'{line}\n' for line in analyze(f)).strip('\n')
-        copy(analysis)
-        print('📋 Analysis')
-        print('```')
-        print(analysis)
-        print('```')
+        ui.copy(analysis)
+        ui.print('📋 Analysis')
+        ui.print('```')
+        ui.print(analysis)
+        ui.print('```')
     except:
-        print(f'⚠️ Analysis failed')
-        print('```')
-        print(traceback.format_exc())
-        print('```')
+        ui.print(f'⚠️ Analysis failed')
+        ui.print('```')
+        ui.print(traceback.format_exc())
+        ui.print('```')
 
     today = f'{datetime.today():%Y-%m-%d}'
     print(f'📆 {today}')
@@ -631,7 +657,7 @@ def main():
             print('```', file=f)
         _ = subprocess.check_call(['git', 'add', hist_file])
         git_added = True
-        print(f'📜 {hist_file}')
+        ui.print(f'📜 {hist_file}')
 
     if log_dir:
         puzzle_log_file = f'{log_dir}{site}/{puzzle_id}' if site else f'{log_dir}/{puzzle_id}'
@@ -639,14 +665,14 @@ def main():
         os.rename(log_file.name, puzzle_log_file)
         _ = subprocess.check_call(['git', 'add', puzzle_log_file, wordlist.exclude_file])
         git_added = True
-        print(f'🗃️ {puzzle_log_file}')
+        ui.print(f'🗃️ {puzzle_log_file}')
 
     if git_added:
-        _ = input('press <Return> to commit')
+        _ = ui.input('press <Return> to commit')
         mess = f'{site} day {puzzle_id}'.strip()
         _ = subprocess.check_call(['git', 'commit', '-m', mess])
         _ = subprocess.check_call(['git', 'show'])
-        if input('Push? ').strip().lower().startswith('y'):
+        if ui.input('Push? ').strip().lower().startswith('y'):
             _ = subprocess.check_call(['git', 'push'])
 
 if __name__ == '__main__':

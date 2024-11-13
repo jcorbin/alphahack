@@ -4,7 +4,7 @@ import math
 from collections.abc import Sequence
 from typing import cast, Callable, TextIO
 
-from hack import Comparison, Search, WordList
+from hack import Comparison, PromptUI, Search, WordList
 
 Feedback = Callable[[Comparison], None]
 Guess = tuple[str, Feedback]
@@ -24,13 +24,14 @@ def strat_hack(words: Sequence[str], context: int=3, echo: bool=False, log: bool
     def end_input(_: str): raise EOFError
     def int_input(_: str): raise KeyboardInterrupt
 
-    search = Search(words, get_input=end_input, context=context)
+    ui = PromptUI(get_input=end_input)
+    search = Search(ui, words, context=context)
     fin = False
 
     def guess() -> Guess:
         nonlocal fin
 
-        with search.deps(get_input=int_input):
+        with ui.deps(get_input=int_input):
             try:
                 search.progress()
 
@@ -57,9 +58,9 @@ def strat_hack(words: Sequence[str], context: int=3, echo: bool=False, log: bool
                         if echo: print(f'PROMPT: {prompt}<EOF>')
                         raise EOFError
 
-                    with search.deps(
+                    with ui.deps(
                         get_input=giver,
-                        log=lambda mess: print(f'LOG: {mess}') if log else None,
+                        sink=lambda mess: print(f'LOG: {mess}') if log else None,
                     ): search.progress()
 
                 return search.q_word, feedback
