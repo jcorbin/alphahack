@@ -466,14 +466,14 @@ def main():
     from review import analyze
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--context', type=int, default=3, help='how many words to show +/- query');
-    parser.add_argument('--provide', help='command to run after clipboard copy');
-    parser.add_argument('--log', default='hack.log', type=argparse.FileType('w'))
-    parser.add_argument('--input', action='extend', nargs='+', type=str)
-    parser.add_argument('--at', nargs=2, type=int)
-    parser.add_argument('--words', default='/usr/share/dict/words', type=argparse.FileType('r'))
-    parser.add_argument('--store-log', default='log/')
-    parser.add_argument('--store-hist', default='hist.md')
+    _ = parser.add_argument('--context', type=int, default=3, help='how many words to show +/- query');
+    _ = parser.add_argument('--provide', help='command to run after clipboard copy');
+    _ = parser.add_argument('--log', default='hack.log', type=argparse.FileType('w'))
+    _ = parser.add_argument('--input', action='extend', nargs='+', type=str)
+    _ = parser.add_argument('--at', nargs=2, type=int)
+    _ = parser.add_argument('--words', default='/usr/share/dict/words', type=argparse.FileType('r'))
+    _ = parser.add_argument('--store-log', default='log/')
+    _ = parser.add_argument('--store-hist', default='hist.md')
     args = parser.parse_args()
 
     log_time = Timer()
