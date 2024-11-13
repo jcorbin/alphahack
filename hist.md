@@ -469,3 +469,14 @@
 
 🔗 alphaguess.com
 ```
+
+# 2024-11-13 alfagok.diginaut.net
+```
+🧩 Puzzel #11
+
+🤔 12 gokken
+
+⏱️ 51s
+
+🔗 alfagok.diginaut.net
+```
