@@ -484,28 +484,34 @@ def main():
     _ = parser.add_argument('--store-hist', default='hist.md')
     args = parser.parse_args()
 
-    log_time = Timer()
     log_dir = args.store_log
     log_file = args.log
     hist_file = args.store_hist
+    words_io = args.words
+    provide_arg = args.provide
+    given_input = args.input if args.input else []
+    view_context = args.context
+    at_arg = args.at
+
+    log_time = Timer()
+    provide_cmd = shlex.split(provide_arg) if provide_arg else ()
+    view_window = tuple(at_arg) if at_arg else None
 
     def log(*mess):
         print(f'T{log_time.now}', *mess, file=log_file)
         log_file.flush()
 
-    provide_args = shlex.split(args.provide) if args.provide else ()
-
     def provide(word):
         copy(word)
-        if provide_args:
-            _ = subprocess.call(provide_args)
+        if provide_cmd:
+            _ = subprocess.call(provide_cmd)
 
     input_index = 0
 
     def get_input(prompt):
         nonlocal input_index
-        if args.input and input_index < len(args.input):
-            prov = args.input[input_index]
+        if given_input and input_index < len(given_input):
+            prov = given_input[input_index]
             print(f'{prompt}{prov}')
             input_index += 1
             return prov
@@ -527,19 +533,19 @@ def main():
             if puzzle_id is not None:
                 return puzzle_id, share_result, share_text
 
-    wordlist = WordList(args.words)
+    wordlist = WordList(words_io)
     log(wordlist.describe)
 
     search = Search(
         wordlist.uniq_words,
-        context=args.context,
+        context=view_context,
         log=log,
         provide=provide,
         get_input=get_input,
         note_removed=wordlist.exclude_word,
     )
-    if args.at is not None:
-        search.lo, search.hi = args.at
+    if view_window is not None:
+        search.lo, search.hi = view_window
 
     try:
         print(f'searching {search.remain} words')
