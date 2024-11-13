@@ -7,14 +7,17 @@ import time
 import re
 from contextlib import contextmanager
 from datetime import datetime, timedelta
+from collections.abc import Generator, Iterable, Sequence
+from typing import cast, final, Callable, Literal, TextIO
 
-def ensure_parent_dir(file):
+def ensure_parent_dir(file: str):
     pardir = os.path.dirname(file)
     if not os.path.exists(pardir):
         os.makedirs(pardir)
 
+@final
 class Timer(object):
-    def __init__(self, start = None):
+    def __init__(self, start: float|None = None):
         self.start = time.clock_gettime(time.CLOCK_MONOTONIC) if start is None else start
         self.last = self.start
 
@@ -26,16 +29,19 @@ class Timer(object):
     def sub(self):
         return Timer(self.now)
 
+Comparison = Literal[-1, 0, 1]
+SearchResponse = tuple[Comparison, int]
+
+@final
 class Search(object):
     def __init__(
         self,
-        words,
-        context=3,
-        log=lambda _: None,
-        provide=lambda _: None,
-        get_input=input,
-        note_removed=lambda _: None,
-    ):
+        words: Iterable[str],
+        context: int = 3,
+        log: Callable[[str], None] = lambda _: None,
+        provide: Callable[[str], None] = lambda _: None,
+        get_input: Callable[[str], str] = input,
+        note_removed: Callable[[str], None] = lambda _: None):
         self.words = sorted(words)
         self.context = context
         self.log = log
@@ -50,7 +56,7 @@ class Search(object):
         self.min_context = self.context
 
         self.may_suggest = True
-        self.questioning = None
+        self.questioning: int|None = None
         self.view_at = 0
 
         self.added = 0
@@ -60,10 +66,13 @@ class Search(object):
         self.removed = 0
         self.suggested = 0
 
-        self.chosen = None
+        self.chosen: int|None = None
 
     @contextmanager
-    def deps(self, log=None, provide=None, get_input=None):
+    def deps(self,
+             log: Callable[[str], None] = lambda _: None,
+             provide: Callable[[str], None] = lambda _: None,
+             get_input: Callable[[str], str] = input):
         prior_log = self.log
         prior_provide = self.provide
         prior_get_input = self.get_input
@@ -86,7 +95,7 @@ class Search(object):
         return min(self.hi-1, self.view_at + self.context)
 
     @property
-    def result_i(self):
+    def result_i(self) -> int|None:
         if self.chosen is not None:
             return self.chosen
         if self.remain == 1:
@@ -94,7 +103,7 @@ class Search(object):
         return None
 
     @property
-    def qi(self):
+    def qi(self) -> int:
         qi = self.questioning
         if qi is None:
             qi = self.view_at
@@ -118,10 +127,10 @@ class Search(object):
         return False
 
     @property
-    def remain(self):
+    def remain(self) -> int:
         return self.hi - self.lo
 
-    def remove(self, at):
+    def remove(self, at: int):
         word = self.words.pop(at)
         self.note_removed(word)
         if at < self.lo: self.lo -= 1
@@ -130,7 +139,7 @@ class Search(object):
             self.questioning -= 1
         self.removed += 1
 
-    def insert(self, at, word):
+    def insert(self, at: int, word: str):
         self.words.insert(at, word)
         if at < self.lo: self.lo += 1
         if at <= self.hi: self.hi += 1
@@ -152,7 +161,7 @@ class Search(object):
         elif compare == 0: self.chosen = index
         else: raise ValueError('invalid comparison') # unreachable
 
-    def find(self, word):
+    def find(self, word: str):
         qi = 0
         qj = len(self.words)-1
         while qi < qj:
@@ -163,7 +172,7 @@ class Search(object):
             elif word > qw: qi = qk + 1
         return qi
 
-    def common_prefix(self, i, j):
+    def common_prefix(self, i: int, j: int):
         a = self.words[i]
         b = self.words[j]
         n = min(len(a), len(b))
@@ -171,7 +180,7 @@ class Search(object):
         while k < n and a[k] == b[k]: k += 1
         return a[:k]
 
-    def valid_prefix(self, lo, hi):
+    def valid_prefix(self, lo: int, hi: int):
         # NOTE window order from wider to narrower means first match
         #      will be the one that spans the most word list entries
         for win_lo, win_hi in (
@@ -194,7 +203,7 @@ class Search(object):
             res = self.question() or self.choose()
             if res is not None: return res
 
-    def input(self, prompt):
+    def input(self, prompt: str) -> str:
         try:
             resp = self.get_input(prompt)
         except EOFError:
@@ -203,7 +212,7 @@ class Search(object):
         self.log(f'{prompt}{resp}')
         return resp
 
-    def question(self, qi=None):
+    def question(self, qi: int|None=None) -> SearchResponse|None:
         if qi is None:
             qi = self.questioning
             if qi is None: return
@@ -238,7 +247,7 @@ class Search(object):
         self.attempted += 1
         return compare, qi
 
-    def choose(self):
+    def choose(self) -> SearchResponse|None:
         pi = self.valid_prefix(self.view_lo, self.view_hi)
 
         if self.may_suggest:
@@ -247,21 +256,21 @@ class Search(object):
 
         show_lines = 0
 
-        def show(mess):
+        def show(mess: str):
             nonlocal show_lines
             print(f'    {mess}')
             show_lines += 1
 
         cur = None
 
-        def note(i, mess, elide = True):
+        def note(i: int, mess: str, elide: bool = True):
             nonlocal cur
             if elide and cur is not None and cur < i-1:
                 show('...')
             cur = i
             show(mess)
 
-        def mark(i, mark='', elide = True):
+        def mark(i: int, mark: str = '', elide: bool = True):
             note(i, f'[{i}] {self.words[i]}{mark}', elide=elide)
 
         screen_lines = os.get_terminal_size().lines
@@ -289,7 +298,7 @@ class Search(object):
 
         return self.handle_choose(self.input('> ').lower().split())
 
-    def handle_choose(self, tokens):
+    def handle_choose(self, tokens: Sequence[str]) -> SearchResponse|None:
         try:
             token = tokens[0]
         except IndexError:
@@ -327,7 +336,7 @@ class Search(object):
         self.entered += 1
         return self.question(at)
 
-def parse_compare(s):
+def parse_compare(s: str) -> Comparison|None:
     if 'after'.startswith(s):
         return 1
     elif 'before'.startswith(s):
@@ -337,8 +346,9 @@ def parse_compare(s):
     else:
         return None
 
+@final
 class WordList(object):
-    def __init__(self, fable):
+    def __init__(self, fable: TextIO):
         self.name = fable.name
         with fable as f:
             self.tokens = [
@@ -394,7 +404,7 @@ class WordList(object):
     def excluded_words(self):
         return set(self.excluded_tokens)
 
-    def exclude_word(self, word):
+    def exclude_word(self, word: str):
         words = set(self.excluded_words)
         words.add(word)
         swords = sorted(words)
@@ -402,11 +412,12 @@ class WordList(object):
             for w in swords:
                 print(w, file=f)
 
+@final
 class ShareResult:
-    puzzle = None
-    guesses = None
-    time = None
-    link = None
+    puzzle: int|None = None
+    guesses: int|None = None
+    time: str|None = None
+    link: str|None = None
 
     @property
     def any_defined(self):
@@ -416,13 +427,13 @@ class ShareResult:
         if self.link is not None: return True
         return False
 
-    def log_items(self):
+    def log_items(self) -> Generator[tuple[str, str]]:
         if self.puzzle is not None: yield 'puzzle', str(self.puzzle)
         if self.guesses is not None: yield 'guesses', str(self.guesses)
         if self.time is not None: yield 'time', self.time
         if self.link is not None: yield 'link', self.link
 
-def parse_share_result(text):
+def parse_share_result(text: str) -> ShareResult:
     res = ShareResult()
 
     pat_puzzle = re.compile(r'🧩\s*(?:\w+\s*)?#(\d+)')
@@ -462,11 +473,11 @@ def main():
         print('WARNING: no clipboard access available')
         pyperclip = None
 
-    def copy(mess):
+    def copy(mess: str):
         if pyperclip:
-            pyperclip.copy()
+            pyperclip.copy(mess)
 
-    def paste():
+    def paste() -> str:
         if pyperclip:
             return pyperclip.paste()
         return ''
@@ -484,31 +495,31 @@ def main():
     _ = parser.add_argument('--store-hist', default='hist.md')
     args = parser.parse_args()
 
-    log_dir = args.store_log
-    log_file = args.log
-    hist_file = args.store_hist
-    words_io = args.words
-    provide_arg = args.provide
-    given_input = args.input if args.input else []
-    view_context = args.context
-    at_arg = args.at
+    log_dir = cast(str, args.store_log)
+    log_file = cast(TextIO, args.log)
+    hist_file = cast(str, args.store_hist)
+    words_io = cast(TextIO, args.words)
+    provide_arg = cast(str, args.provide)
+    given_input = cast(Sequence[str], args.input)
+    view_context = cast(int, args.context)
+    at_arg = cast(Sequence[int], args.at)
 
     log_time = Timer()
     provide_cmd = shlex.split(provide_arg) if provide_arg else ()
-    view_window = tuple(at_arg) if at_arg else None
+    view_window: None|tuple[int, int] = cast(tuple[int, int], tuple(at_arg)) if at_arg else None
 
-    def log(*mess):
+    def log(*mess: str):
         print(f'T{log_time.now}', *mess, file=log_file)
         log_file.flush()
 
-    def provide(word):
+    def provide(word: str):
         copy(word)
         if provide_cmd:
             _ = subprocess.call(provide_cmd)
 
     input_index = 0
 
-    def get_input(prompt):
+    def get_input(prompt: str):
         nonlocal input_index
         if given_input and input_index < len(given_input):
             prov = given_input[input_index]
@@ -517,7 +528,7 @@ def main():
             return prov
         return input(prompt)
 
-    def get_puzzle_id():
+    def get_puzzle_id() -> tuple[int, ShareResult, str]:
         while True:
             resp = input(f'enter puzzle id or copy share result and press <Return>: ')
             if resp:
