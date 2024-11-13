@@ -1,25 +1,33 @@
 #!/usr/bin/env python
 
 import math
-from hack import Search, WordList
+from collections.abc import Sequence
+from typing import cast, Callable, TextIO
 
-strats = dict()
+from hack import Comparison, Search, WordList
 
-def strat(fn):
+Feedback = Callable[[Comparison], None]
+Guess = tuple[str, Feedback]
+Guesser = Callable[[], Guess]
+Strat = Callable[[Sequence[str]], Guesser]
+
+strats: dict[str, Strat] = dict()
+
+def strat(fn: Strat):
     name = fn.__name__
     if name.startswith('strat_'): name = name[6:]
     assert name not in strats
     strats[name] = fn
 
 @strat
-def strat_hack(words, context=3, echo=False, log=False):
-    def end_input(_): raise EOFError
-    def int_input(_): raise KeyboardInterrupt
+def strat_hack(words: Sequence[str], context: int=3, echo: bool=False, log: bool=False) -> Guesser:
+    def end_input(_: str): raise EOFError
+    def int_input(_: str): raise KeyboardInterrupt
 
-    search = Search(words, get_input=end_input)
+    search = Search(words, get_input=end_input, context=context)
     fin = False
 
-    def guess():
+    def guess() -> Guess:
         nonlocal fin
 
         with search.deps(get_input=int_input):
@@ -29,17 +37,17 @@ def strat_hack(words, context=3, echo=False, log=False):
             except StopIteration:
                 if not fin:
                     fin = True
-                    return search.result, lambda _: None
+                    return search.result or '', lambda _: None
                 raise
 
             except KeyboardInterrupt:
-                def feedback(compare):
-                    resp = (
+                def feedback(compare: Comparison):
+                    resp: str|None = (
                         'a' if compare > 0 else
                         'b' if compare < 0 else
                         'it')
 
-                    def giver(prompt):
+                    def giver(prompt: str):
                         nonlocal resp
                         if resp is not None:
                             ret = resp
@@ -60,13 +68,16 @@ def strat_hack(words, context=3, echo=False, log=False):
 
     return guess
 
-def interval_guesser(words, choose):
-    lo, hi = 0, len(words)
-    def guess():
+IntervalChooser = Callable[[int, int], int|None]
+
+def interval_guesser(words: Sequence[str], choose: IntervalChooser):
+    lo: int = 0
+    hi: int = len(words)
+    def guess() -> Guess:
         if lo >= hi-1: raise StopIteration
         qi = choose(lo, hi)
         if qi is None: raise StopIteration
-        def feedback(compare):
+        def feedback(compare: Comparison):
             nonlocal lo, hi
             if   compare > 0: lo = qi+1
             elif compare < 0: hi = qi
@@ -75,12 +86,12 @@ def interval_guesser(words, choose):
     return guess
 
 @strat
-def strat_basic(words):
+def strat_basic(words: Sequence[str]):
     return interval_guesser(words,
         lambda lo, hi: math.floor(lo/2 + hi/2))
 
 @strat
-def strat_prefix_c3(words):
+def strat_prefix_c3(words: Sequence[str]):
     # This strategy works by looking at a context window around search mid point,
     # looking back to find any root/stem word that is common to all or most of the window words
     #
@@ -100,7 +111,7 @@ def strat_prefix_c3(words):
     # TODO would be nice to have parameterized strategies
     context = 3
 
-    def find(word):
+    def find(word: str):
         qi = 0
         qj = len(words)-1
         while qi < qj:
@@ -111,7 +122,7 @@ def strat_prefix_c3(words):
             elif word > qw: qi = qk + 1
         return qi
 
-    def common_prefix(i, j):
+    def common_prefix(i: int, j: int):
         a = words[i]
         b = words[j]
         n = min(len(a), len(b))
@@ -119,7 +130,7 @@ def strat_prefix_c3(words):
         while k < n and a[k] == b[k]: k += 1
         return a[:k]
 
-    def choose(lo, hi):
+    def choose(lo: int, hi: int):
         view_at = math.floor(lo/2 + hi/2)
         view_lo = max(0, view_at - context)
         view_hi = min(hi-1, view_at + context)
@@ -149,8 +160,8 @@ def strat_prefix_c3(words):
 
     return interval_guesser(words, choose)
 
-def evaluate(word, guess):
-    guesses = []
+def evaluate(word: str, guess: Guesser):
+    guesses: list[str] = []
     while True:
         try:
             resp, feedback = guess()
@@ -175,15 +186,15 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--wordfile', type=argparse.FileType('r'), default='alphalist.txt')
-    parser.add_argument('--strat', default='basic', choices=sorted(strats))
-    parser.add_argument('word')
+    _ = parser.add_argument('--wordfile', type=argparse.FileType('r'), default='alphalist.txt')
+    _ = parser.add_argument('--strat', default='basic', choices=sorted(strats))
+    _ = parser.add_argument('word')
 
     args = parser.parse_args()
-    word = args.word.strip().lower()
-    strat = strats[args.strat]
+    word = cast(str, args.word).strip().lower()
+    strat = strats[cast(str, args.strat)]
 
-    wordlist = WordList(args.wordfile)
+    wordlist = WordList(cast(TextIO, args.wordfile))
     print(wordlist.describe)
     words = wordlist.words
 
