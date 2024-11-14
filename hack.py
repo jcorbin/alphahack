@@ -277,9 +277,17 @@ class Search:
         self.attempted += 1
         return compare, qi
 
+    def suggest(self) -> int|None:
+        max_context = 1000
+        at = self.view_at
+        context = min(max_context, self.context)
+        lo = max(0, at - context)
+        hi = min(len(self.words)-1, at + context)
+        return self.valid_prefix(lo, hi)
+
     def choose(self) -> SearchResponse|None:
         if self.may_suggest:
-            self.can_suggest = self.valid_prefix(self.view_lo, self.view_hi)
+            self.can_suggest = self.suggest()
             if self.can_suggest is not None:
                 self.suggested += 1
                 return self.question(self.can_suggest)
