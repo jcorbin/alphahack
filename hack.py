@@ -671,12 +671,8 @@ def main():
         ui.print(f'🗃️ {puzzle_log_file}')
 
     if git_added:
-        _ = ui.input('press <Return> to commit')
         mess = f'{site} day {puzzle_id}'.strip()
         _ = subprocess.check_call(['git', 'commit', '-m', mess])
-        _ = subprocess.check_call(['git', 'show'])
-        if ui.input('Push? ').strip().lower().startswith('y'):
-            _ = subprocess.check_call(['git', 'push'])
 
 if __name__ == '__main__':
     main()
