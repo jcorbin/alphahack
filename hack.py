@@ -391,6 +391,9 @@ class Search:
             self.view_at = at
             return self.question(at)
 
+        if not len(tokens):
+            return self.question(self.view_at)
+
         self.ui.print('! expected response like: `[<|^|>|+|-|0|<word>]...`')
 
 def parse_compare(s: str) -> Comparison|None:
