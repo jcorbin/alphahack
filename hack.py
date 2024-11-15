@@ -390,6 +390,11 @@ class Search:
         except IndexError:
             return None
 
+        if token.startswith('@'):
+            rel = token[1:]
+            offset = int(rel) if rel else 0
+            return self.view_at + offset
+
         at = self.find(token)
         if self.words[at] == token:
             return at
