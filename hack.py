@@ -97,27 +97,30 @@ class Search:
 
         self.ui = ui
         self.words = sorted(words)
-        self.context = context
         self.note_removed = note_removed
 
-        self.lo = 0
-        self.hi = len(self.words)
-
+        # view state
+        self.context = context
         self.view_factor = 2
         self.min_context = self.context
-
-        self.may_suggest = True
-        self.questioning: int|None = None
         self.view_at = 0
 
+        # per-round prompt state
+        self.may_suggest = True
+        self.questioning: int|None = None
+
+        # search state
+        self.lo = 0
+        self.hi = len(self.words)
+        self.chosen: int|None = None
+
+        # ... stats
         self.added = 0
         self.attempted = 0
         self.entered = 0
         self.questioned = 0
         self.removed = 0
         self.suggested = 0
-
-        self.chosen: int|None = None
 
     @property
     def view_lo(self):
