@@ -395,6 +395,26 @@ class Search:
             offset = int(rel) if rel else 0
             return self.view_at + offset
 
+        if token.startswith('?'):
+            if any(c != '?' for c in token):
+                self.ui.print(f'! unknown suggestion command')
+                return
+
+            n = len(token) - 1
+            if n > 0:
+                n -= 1
+
+                max_context = 1000 # TODO share with suggest
+                while n > 0 and self.context < max_context:
+                    n -= 1
+                    self.context *= 2
+
+                self.can_suggest = self.suggest()
+
+            if self.can_suggest is None:
+                self.ui.print(f'! no suggestion available')
+            return self.can_suggest
+
         at = self.find(token)
         if self.words[at] == token:
             return at
