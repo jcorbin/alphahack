@@ -356,37 +356,41 @@ class Search:
             self.insert(at, token)
             return at
 
-    def handle_choose(self, tokens: Sequence[str]) -> SearchResponse|None:
-        try:
-            token = tokens[0]
-        except IndexError:
-            self.ui.print('! expected response like: `[<|^|>|+|-|0|<word>]...`')
-            return
+    def handle_view_action(self, tokens: Sequence[str]) -> bool:
+        token = tokens[0] if len(tokens) > 0 else ''
 
         if token == '<':
             self.view_at = max(self.view_lo, self.view_at - self.context)
-            return
+            return True
         if token == '>':
             self.view_at = min(self.view_hi, self.view_at + self.context)
-            return
+            return True
         if token == '^':
             self.view_at = math.floor(self.lo/2 + self.hi/2)
-            return
+            return True
 
         if token == '-':
             self.context *= self.view_factor
-            return
+            return True
         if token == '+':
             self.context = max(self.min_context, math.floor(self.context / 2))
-            return
+            return True
         if token == '0':
             self.context = self.min_context
+            return True
+
+        return False
+
+    def handle_choose(self, tokens: Sequence[str]) -> SearchResponse|None:
+        if self.handle_view_action(tokens):
             return
 
         at = self.select_word(tokens)
         if at is not None:
             self.entered += 1
             return self.question(at)
+
+        self.ui.print('! expected response like: `[<|^|>|+|-|0|<word>]...`')
 
 def parse_compare(s: str) -> Comparison|None:
     if 'after'.startswith(s):
