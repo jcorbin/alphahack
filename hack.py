@@ -336,7 +336,25 @@ class Search:
 
         self.ui.log(f'viewing: @{self.view_at} C{self.context} [ {self.view_lo} {self.view_hi} ]~{every} search: [ {self.lo} {self.hi} ]')
 
-        return self.handle_choose(self.ui.input('> ').lower().split())
+        tokens = self.ui.input('> ').lower().split()
+        return self.handle_choose(tokens)
+
+    def select_word(self, tokens: Sequence[str]) -> int|None:
+        try:
+            token = tokens[0]
+        except IndexError:
+            return None
+
+        at = self.find(token)
+        if self.words[at] == token:
+            return at
+
+        confirm = (
+            len(tokens) > 2 and tokens[2] or
+            self.ui.input(f'! unknown word {token} ; respond . to add, else to re-prompt> '))
+        if confirm.strip() == '.':
+            self.insert(at, token)
+            return at
 
     def handle_choose(self, tokens: Sequence[str]) -> SearchResponse|None:
         try:
@@ -365,16 +383,10 @@ class Search:
             self.context = self.min_context
             return
 
-        at = self.find(token)
-        if self.words[at] != token:
-            confirm = (
-                len(tokens) > 2 and tokens[2] or
-                self.ui.input(f'! unknown word {token} ; respond . to add, else to re-prompt> '))
-            if confirm.strip() == '.':
-                self.insert(at, token)
-
-        self.entered += 1
-        return self.question(at)
+        at = self.select_word(tokens)
+        if at is not None:
+            self.entered += 1
+            return self.question(at)
 
 def parse_compare(s: str) -> Comparison|None:
     if 'after'.startswith(s):
