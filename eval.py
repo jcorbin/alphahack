@@ -5,7 +5,8 @@ from collections.abc import Sequence
 from typing import cast, Callable, TextIO
 
 from wordlist import WordList
-from hack import Comparison, PromptUI, Search
+from hack import Comparison, Search
+from ui import PromptUI
 
 Feedback = Callable[[Comparison], None]
 Guess = tuple[str, Feedback]

@@ -1,95 +1,22 @@
 #!/usr/bin/env python
 
-import builtins
 import math
 import os
-import time
 import re
-from contextlib import contextmanager
 from datetime import datetime, timedelta
 from collections.abc import Generator, Iterable, Sequence
 from typing import cast, final, Callable, Literal, TextIO
 
 from wordlist import Browser, format_browser_lines, WordList
+from ui import CopyAndThen, DefaultClipboard, PromptUI
 
 def ensure_parent_dir(file: str):
     pardir = os.path.dirname(file)
     if not os.path.exists(pardir):
         os.makedirs(pardir)
 
-@final
-class Timer:
-    def __init__(self, start: float|None = None):
-        self.start = time.clock_gettime(time.CLOCK_MONOTONIC) if start is None else start
-        self.last = self.start
-
-    @property
-    def now(self):
-        now = time.clock_gettime(time.CLOCK_MONOTONIC)
-        return now - self.start
-
-    def sub(self):
-        return Timer(self.now)
-
 Comparison = Literal[-1, 0, 1]
 SearchResponse = tuple[Comparison, int]
-
-@final
-class PromptUI:
-    def __init__(
-        self,
-        time: Timer|None = None,
-        get_input: Callable[[str], str] = input,
-        sink: Callable[[str], None] = lambda _: None,
-        copy: Callable[[str], None] = lambda _: None,
-        paste: Callable[[], str] = lambda: '',
-    ):
-        self.time = Timer() if time is None else time
-        self.get_input = get_input
-        self.sink = sink
-        self.copy = copy
-        self.paste = paste
-
-    @property
-    def screen_lines(self):
-        return os.get_terminal_size().lines
-
-    def log(self, mess: str):
-        self.sink(f'T{self.time.now} {mess}')
-
-    def print(self, mess: str):
-        print(mess)
-
-    def input(self, prompt: str) -> str:
-        try:
-            resp = self.get_input(prompt)
-        except EOFError:
-            self.log(f'{prompt}␚')
-            raise
-        self.log(f'{prompt}{resp}')
-        return resp
-
-    @contextmanager
-    def deps(self,
-             sink: Callable[[str], None] = lambda _: None,
-             get_input: Callable[[str], str] = builtins.input,
-             copy: Callable[[str], None] = lambda _: None,
-             paste: Callable[[], str] = lambda: ''):
-        prior_sink = self.sink
-        prior_copy = self.copy
-        prior_paste = self.paste
-        prior_get_input = self.get_input
-        try:
-            if callable(sink): self.sink = sink
-            if callable(copy): self.copy = copy
-            if callable(paste): self.paste = paste
-            if callable(get_input): self.get_input = get_input
-            yield self
-        finally:
-            self.sink = prior_sink
-            self.copy = prior_copy
-            self.paste = prior_paste
-            self.get_input = prior_get_input
 
 @final
 class Search:
@@ -246,13 +173,14 @@ class Search:
 
         word = self.words[qi]
         self.ui.copy(word)
-        tokens = self.ui.input(f'[{self.lo} : {qi} : {self.hi}] {word}? ').lower().split()
-        if len(tokens) > 1:
+        tokens = self.ui.input(f'[{self.lo} : {qi} : {self.hi}] {word}? ')
+        token = tokens.head
+
+        if tokens.rest:
             self.may_suggest = False
             self.questioning = None
             return self.handle_choose(tokens)
 
-        token = tokens[0] if len(tokens) > 0 else ''
         if all(c == '.' for c in token):
             self.may_suggest = False
             self.questioning = None
@@ -302,14 +230,11 @@ class Search:
 
         self.ui.log(f'viewing: {self.view.describe} search: [ {self.lo} {self.hi} ]')
 
-        tokens = self.ui.input('> ').lower().split()
+        tokens = self.ui.input('> ')
         return self.handle_choose(tokens)
 
-    def select_word(self, tokens: Sequence[str]) -> int|None:
-        try:
-            token = tokens[0]
-        except IndexError:
-            return None
+    def select_word(self, tokens: PromptUI.Tokens) -> int|None:
+        token = tokens.head
 
         if token.startswith('@'):
             rel = token[1:]
@@ -340,14 +265,12 @@ class Search:
         if self.words[at] == token:
             return at
 
-        confirm = (
-            len(tokens) > 2 and tokens[2] or
-            self.ui.input(f'! unknown word {token} ; respond . to add, else to re-prompt> '))
+        confirm = tokens.next_or_input(self.ui, f'! unknown word {token} ; respond . to add, else to re-prompt> ')
         if confirm.strip() == '.':
             self.insert(at, token)
             return at
 
-    def handle_choose(self, tokens: Sequence[str]) -> SearchResponse|None:
+    def handle_choose(self, tokens: PromptUI.Tokens) -> SearchResponse|None:
         if self.view.handle(tokens):
             return
 
@@ -357,10 +280,11 @@ class Search:
             self.view.cur = at
             return self.question(at)
 
-        if not len(tokens):
-            return self.question(self.view.at)
+        if not tokens.empty:
+            self.ui.print('! expected response like: `[<|^|>|+|-|0|<word>]...`')
+            return
 
-        self.ui.print('! expected response like: `[<|^|>|+|-|0|<word>]...`')
+        return self.question(self.view.at)
 
 def parse_compare(s: str) -> Comparison|None:
     if 'after'.startswith(s):
@@ -427,12 +351,6 @@ def main():
     import subprocess
     import traceback
 
-    try:
-        import pyperclip # pyright: ignore[reportMissingImports]
-    except:
-        print('WARNING: no clipboard access available')
-        pyperclip = None
-
     import review
 
     parser = argparse.ArgumentParser()
@@ -458,21 +376,9 @@ def main():
     provide_cmd = shlex.split(provide_arg) if provide_arg else ()
     view_window: None|tuple[int, int] = cast(tuple[int, int], tuple(at_arg)) if at_arg else None
 
-    def write_log(mess: str):
-        print(mess, file=log_file)
-        log_file.flush()
-
-    def clipboard_give(mess: str):
-        if pyperclip:
-            pyperclip.copy(mess) # pyright: ignore[reportUnknownMemberType]
-        # else: TODO osc fallback?
-        if provide_cmd:
-            _ = subprocess.call(provide_cmd)
-
-    def clipboard_get() -> str:
-        if pyperclip:
-            return pyperclip.paste() # pyright: ignore[reportUnknownMemberType, reportUnknownVariableType]
-        return ''
+    clip = DefaultClipboard
+    if provide_cmd:
+        clip = CopyAndThen(clip, provide_cmd)
 
     input_index = 0
 
@@ -485,16 +391,11 @@ def main():
             return prov
         return input(prompt)
 
-    ui = PromptUI(
-        sink=write_log,
-        copy=clipboard_give,
-        paste=clipboard_get,
-        get_input=get_input,
-    )
+    ui = PromptUI(log_file=log_file, clip=clip, get_input=get_input)
 
     def get_puzzle_id() -> tuple[int, ShareResult, str]:
         while True:
-            resp = ui.input(f'enter puzzle id or copy share result and press <Return>: ')
+            resp = ui.raw_input(f'enter puzzle id or copy share result and press <Return>: ')
             if resp:
                 try:
                     puzzle_id = int(resp.strip())

@@ -4,6 +4,8 @@ import os
 from collections.abc import Generator, Iterable, Sequence
 from typing import final, TextIO
 
+from ui import PromptUI
+
 @final
 class WordList:
     def __init__(self, fable: TextIO):
@@ -180,8 +182,8 @@ class Browser:
                 yield i, ''
         yield from notes_thru()
 
-    def handle(self, tokens: Sequence[str]) -> bool:
-        token = tokens[0] if len(tokens) > 0 else ''
+    def handle(self, tokens: PromptUI.Tokens) -> bool:
+        token = tokens.head
 
         if token == '<':
             self.cur = max(self.lo, self.cur - self.context)
