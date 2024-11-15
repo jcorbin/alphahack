@@ -104,6 +104,7 @@ class Search:
         self.view_factor = 2
         self.min_context = self.context
         self.view_at = 0
+        self.view_every = 1
 
         # per-round prompt state
         self.may_suggest = True
@@ -114,6 +115,7 @@ class Search:
         self.lo = 0
         self.hi = len(self.words)
         self.chosen: int|None = None
+        self.trace: list[tuple[Comparison, int]] = []
 
         # ... stats
         self.added = 0
@@ -192,6 +194,7 @@ class Search:
             raise StopIteration
 
         compare, index = self.prompt()
+        self.trace.append((compare, index))
         self.ui.log(f'progress: {compare} {index} {self.words[index]}')
 
         if   compare  < 0: self.hi = index
@@ -277,6 +280,69 @@ class Search:
         self.attempted += 1
         return compare, qi
 
+    def view_notes(self) -> Generator[tuple[int, str]]:
+        yield self.lo, '>>> SEARCH'
+        yield self.hi-1, '<<< SEARCH'
+        if self.can_suggest is not None:
+            yield self.can_suggest, '??? SUGGEST'
+        for j, (_, i) in enumerate(self.trace):
+            yield i, f'response[{j}]'
+
+    def view_lines(self, limit: int = 1) -> Generator[tuple[int, str]]:
+        notes = sorted(self.view_notes(), key=lambda x: x[0])
+
+        lo = self.view_lo
+        hi = self.view_hi
+        at = self.view_at
+        wid = hi - lo
+
+        in_notes = sum(1 for i, _ in notes if lo <= i < hi)
+        out_notes = len(notes) - in_notes
+
+        free_lines = limit
+        free_lines -= out_notes
+
+        while free_lines < in_notes:
+            # trim furthest note
+            try:
+                ni, (i, _) = max(enumerate(notes), key=lambda inote: abs(inote[1][0] - at))
+            except ValueError:
+                break
+
+            # at-notes are irreducible
+            if i == at: break
+
+            _ = notes.pop(ni)
+            if out_notes > 0:
+                out_notes -= 1
+                free_lines += 1
+            else:
+                in_notes -= 1
+
+        self.view_every = 1
+        while self.view_every < wid and math.floor(wid / self.view_every) > free_lines:
+            self.view_every *= 2
+
+        notesi = 0
+
+        def notes_thru(thru: int|None = None):
+            nonlocal notesi
+            while notesi < len(notes):
+                i, note = notes[notesi]
+                if thru is not None and i > thru: break
+                yield i, note
+                notesi += 1
+
+        yield from notes_thru(lo-1)
+        for i in range(lo, hi+1, self.view_every):
+            some = False
+            for i, note in notes_thru(i):
+                yield i, note
+                some = True
+            if not some:
+                yield i, ''
+        yield from notes_thru()
+
     def suggest(self) -> int|None:
         max_context = 1000
         at = self.view_at
@@ -294,47 +360,26 @@ class Search:
             self.guessed += 1
             return self.question(self.view_at)
 
-        show_lines = 0
-
-        def show(mess: str):
-            nonlocal show_lines
-            self.ui.print(f'    {mess}')
-            show_lines += 1
-
-        cur = None
-
-        def note(i: int, mess: str, elide: bool = True):
-            nonlocal cur
-            if elide and cur is not None and cur < i-1:
-                show('...')
-            cur = i
-            show(mess)
-
-        def mark(i: int, mark: str = '', elide: bool = True):
-            note(i, f'[{i}] {self.words[i]}{mark}', elide=elide)
-
         screen_lines = os.get_terminal_size().lines
+        ix: list[int] = []
+        notes: list[str] = []
+        for i, note in self.view_lines(limit=screen_lines - 2):
+            ix.append(i)
+            notes.append(note)
 
-        mark(self.lo)
-        if self.can_suggest is not None and self.can_suggest < self.view_lo:
-            mark(self.can_suggest, ' <')
+        at = self.view_at
+        deltas = list('@' if i == at else f'@{i - at:+}' for i in ix)
+        delta_width = max(len(d) for d in deltas)
 
-        less_lines = show_lines + 4
-        free_lines = screen_lines - less_lines
-        view_wid = self.view_hi - self.view_lo
-        every = 1
-        while every < view_wid and math.floor(view_wid / every) > free_lines:
-            every *= 2
+        words = [self.words[i] for i in ix]
+        word_width = max(len(w) for w in words)
 
-        if every > 1:
-            note(self.view_lo, f'~~~ showing every {every}-th word for context {self.context}')
+        ix_width = max(len(str(i)) for i in ix)
 
-        for i in range(self.view_lo, self.view_hi, every):
-            mark(i, ' @' if i == self.view_at else '', elide=i == self.view_lo)
+        for delta, i, word, note in zip(deltas, ix, words, notes):
+            self.ui.print(f'    {delta:<{delta_width}} [{i:>{ix_width}}] {word:<{word_width}} {note}')
 
-        mark(self.hi-1)
-
-        self.ui.log(f'viewing: @{self.view_at} C{self.context} [ {self.view_lo} {self.view_hi} ]~{every} search: [ {self.lo} {self.hi} ]')
+        self.ui.log(f'viewing: @{self.view_at} C{self.context} [ {self.view_lo} {self.view_hi} ]~{self.view_every} search: [ {self.lo} {self.hi} ]')
 
         tokens = self.ui.input('> ').lower().split()
         return self.handle_choose(tokens)
