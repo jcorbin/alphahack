@@ -107,6 +107,7 @@ class Search:
 
         # per-round prompt state
         self.may_suggest = True
+        self.can_suggest: int|None = None
         self.questioning: int|None = None
 
         # search state
@@ -233,6 +234,7 @@ class Search:
 
     def prompt(self):
         self.may_suggest = True
+        self.can_suggest = None
         self.questioning = None
         self.view_at = math.floor(self.lo/2 + self.hi/2)
         while True:
@@ -275,11 +277,13 @@ class Search:
         return compare, qi
 
     def choose(self) -> SearchResponse|None:
-        pi = self.valid_prefix(self.view_lo, self.view_hi)
-
         if self.may_suggest:
+            self.can_suggest = self.valid_prefix(self.view_lo, self.view_hi)
+            if self.can_suggest is not None:
+                self.suggested += 1
+                return self.question(self.can_suggest)
             self.suggested += 1
-            return self.question(self.view_at if pi is None else pi)
+            return self.question(self.view_at)
 
         show_lines = 0
 
@@ -303,8 +307,8 @@ class Search:
         screen_lines = os.get_terminal_size().lines
 
         mark(self.lo)
-        if pi is not None and pi < self.view_lo:
-            mark(pi, ' <')
+        if self.can_suggest is not None and self.can_suggest < self.view_lo:
+            mark(self.can_suggest, ' <')
 
         less_lines = show_lines + 4
         free_lines = screen_lines - less_lines
