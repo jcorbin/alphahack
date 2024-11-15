@@ -4,7 +4,8 @@ import math
 from collections.abc import Sequence
 from typing import cast, Callable, TextIO
 
-from hack import Comparison, PromptUI, Search, WordList
+from wordlist import WordList
+from hack import Comparison, PromptUI, Search
 
 Feedback = Callable[[Comparison], None]
 Guess = tuple[str, Feedback]

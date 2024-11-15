@@ -4,7 +4,7 @@ import argparse
 from collections.abc import Sequence
 from typing import cast, TextIO
 
-from hack import WordList
+from wordlist import WordList
 
 Note = tuple[int, str]
 

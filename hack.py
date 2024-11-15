@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import builtins
-import hashlib
 import math
 import os
 import time
@@ -10,6 +9,8 @@ from contextlib import contextmanager
 from datetime import datetime, timedelta
 from collections.abc import Generator, Iterable, Sequence
 from typing import cast, final, Callable, Literal, TextIO
+
+from wordlist import Browser, format_browser_lines, WordList
 
 def ensure_parent_dir(file: str):
     pardir = os.path.dirname(file)
@@ -98,13 +99,7 @@ class Search:
         self.ui = ui
         self.words = sorted(words)
         self.note_removed = note_removed
-
-        # view state
-        self.context = context
-        self.view_factor = 2
-        self.min_context = self.context
-        self.view_at = 0
-        self.view_every = 1
+        self.view = Browser(self.words, context)
 
         # per-round prompt state
         self.may_suggest = True
@@ -127,14 +122,6 @@ class Search:
         self.guessed = 0
 
     @property
-    def view_lo(self):
-        return max(0, self.view_at - self.context)
-
-    @property
-    def view_hi(self):
-        return min(self.hi-1, self.view_at + self.context)
-
-    @property
     def result_i(self) -> int|None:
         if self.chosen is not None:
             return self.chosen
@@ -146,7 +133,7 @@ class Search:
     def qi(self) -> int:
         qi = self.questioning
         if qi is None:
-            qi = self.view_at
+            qi = self.view.at
         return qi
 
     @property
@@ -240,7 +227,7 @@ class Search:
         self.may_suggest = True
         self.can_suggest = None
         self.questioning = None
-        self.view_at = math.floor(self.lo/2 + self.hi/2)
+        self.view.at = math.floor(self.lo/2 + self.hi/2)
         while True:
             res = self.question() or self.choose()
             if res is not None: return res
@@ -288,65 +275,10 @@ class Search:
         for j, (_, i) in enumerate(self.trace):
             yield i, f'response[{j}]'
 
-    def view_lines(self, limit: int = 1) -> Generator[tuple[int, str]]:
-        notes = sorted(self.view_notes(), key=lambda x: x[0])
-
-        lo = self.view_lo
-        hi = self.view_hi
-        at = self.view_at
-        wid = hi - lo
-
-        in_notes = sum(1 for i, _ in notes if lo <= i < hi)
-        out_notes = len(notes) - in_notes
-
-        free_lines = limit
-        free_lines -= out_notes
-
-        while free_lines < in_notes:
-            # trim furthest note
-            try:
-                ni, (i, _) = max(enumerate(notes), key=lambda inote: abs(inote[1][0] - at))
-            except ValueError:
-                break
-
-            # at-notes are irreducible
-            if i == at: break
-
-            _ = notes.pop(ni)
-            if out_notes > 0:
-                out_notes -= 1
-                free_lines += 1
-            else:
-                in_notes -= 1
-
-        self.view_every = 1
-        while self.view_every < wid and math.floor(wid / self.view_every) > free_lines:
-            self.view_every *= 2
-
-        notesi = 0
-
-        def notes_thru(thru: int|None = None):
-            nonlocal notesi
-            while notesi < len(notes):
-                i, note = notes[notesi]
-                if thru is not None and i > thru: break
-                yield i, note
-                notesi += 1
-
-        yield from notes_thru(lo-1)
-        for i in range(lo, hi+1, self.view_every):
-            some = False
-            for i, note in notes_thru(i):
-                yield i, note
-                some = True
-            if not some:
-                yield i, ''
-        yield from notes_thru()
-
     def suggest(self) -> int|None:
         max_context = 1000
-        at = self.view_at
-        context = min(max_context, self.context)
+        at = self.view.at
+        context = min(max_context, self.view.context)
         lo = max(0, at - context)
         hi = min(len(self.words)-1, at + context)
         return self.valid_prefix(lo, hi)
@@ -358,28 +290,14 @@ class Search:
                 self.suggested += 1
                 return self.question(self.can_suggest)
             self.guessed += 1
-            return self.question(self.view_at)
+            return self.question(self.view.at)
 
         screen_lines = os.get_terminal_size().lines
-        ix: list[int] = []
-        notes: list[str] = []
-        for i, note in self.view_lines(limit=screen_lines - 2):
-            ix.append(i)
-            notes.append(note)
+        inotes = self.view.expand(self.view_notes(), limit=screen_lines - 2)
+        for line in format_browser_lines(self.words, inotes, at=self.view.at):
+            self.ui.print(f'    {line}')
 
-        at = self.view_at
-        deltas = list('@' if i == at else f'@{i - at:+}' for i in ix)
-        delta_width = max(len(d) for d in deltas)
-
-        words = [self.words[i] for i in ix]
-        word_width = max(len(w) for w in words)
-
-        ix_width = max(len(str(i)) for i in ix)
-
-        for delta, i, word, note in zip(deltas, ix, words, notes):
-            self.ui.print(f'    {delta:<{delta_width}} [{i:>{ix_width}}] {word:<{word_width}} {note}')
-
-        self.ui.log(f'viewing: @{self.view_at} C{self.context} [ {self.view_lo} {self.view_hi} ]~{self.view_every} search: [ {self.lo} {self.hi} ]')
+        self.ui.log(f'viewing: {self.view.describe} search: [ {self.lo} {self.hi} ]')
 
         tokens = self.ui.input('> ').lower().split()
         return self.handle_choose(tokens)
@@ -393,7 +311,7 @@ class Search:
         if token.startswith('@'):
             rel = token[1:]
             offset = int(rel) if rel else 0
-            return self.view_at + offset
+            return self.view.at + offset
 
         if token.startswith('?'):
             if any(c != '?' for c in token):
@@ -405,9 +323,9 @@ class Search:
                 n -= 1
 
                 max_context = 1000 # TODO share with suggest
-                while n > 0 and self.context < max_context:
+                while n > 0 and self.view.context < max_context:
                     n -= 1
-                    self.context *= 2
+                    self.view.context *= 2
 
                 self.can_suggest = self.suggest()
 
@@ -426,43 +344,18 @@ class Search:
             self.insert(at, token)
             return at
 
-    def handle_view_action(self, tokens: Sequence[str]) -> bool:
-        token = tokens[0] if len(tokens) > 0 else ''
-
-        if token == '<':
-            self.view_at = max(self.view_lo, self.view_at - self.context)
-            return True
-        if token == '>':
-            self.view_at = min(self.view_hi, self.view_at + self.context)
-            return True
-        if token == '^':
-            self.view_at = math.floor(self.lo/2 + self.hi/2)
-            return True
-
-        if token == '-':
-            self.context *= self.view_factor
-            return True
-        if token == '+':
-            self.context = max(self.min_context, math.floor(self.context / 2))
-            return True
-        if token == '0':
-            self.context = self.min_context
-            return True
-
-        return False
-
     def handle_choose(self, tokens: Sequence[str]) -> SearchResponse|None:
-        if self.handle_view_action(tokens):
+        if self.view.handle(tokens):
             return
 
         at = self.select_word(tokens)
         if at is not None:
             self.entered += 1
-            self.view_at = at
+            self.view.cur = at
             return self.question(at)
 
         if not len(tokens):
-            return self.question(self.view_at)
+            return self.question(self.view.at)
 
         self.ui.print('! expected response like: `[<|^|>|+|-|0|<word>]...`')
 
@@ -475,72 +368,6 @@ def parse_compare(s: str) -> Comparison|None:
         return 0
     else:
         return None
-
-@final
-class WordList:
-    def __init__(self, fable: TextIO):
-        self.name = fable.name
-        with fable as f:
-            self.tokens = [
-                line.strip().lower().partition(' ')[0]
-                for line in f
-            ]
-
-    @property
-    def describe(self):
-        en = len(self.excluded_words)
-        ex = f' ({en} words excluded)' if en > 0 else ''
-        return f'loaded {self.size} words from {self.name} {self.sig.hexdigest()}{ex}'
-
-    @property
-    def words(self):
-        return sorted(self.uniq_words)
-
-    @property
-    def uniq_words(self):
-        return set(self.pruned_words)
-
-    @property
-    def pruned_words(self):
-        exclude = set(self.excluded_words)
-        for word in self.tokens:
-            if "'" in word: continue # TODO other charset pruning?
-            if word in exclude: continue
-            yield word
-
-    @property
-    def size(self):
-        return len(self.uniq_words)
-
-    @property
-    def sig(self):
-        with open(self.name, 'rb') as f:
-            return hashlib.file_digest(f, 'sha256')
-
-    @property
-    def exclude_file(self):
-        return f'{os.path.splitext(self.name)[0]}.exclude.txt'
-
-    @property
-    def excluded_tokens(self):
-        try:
-            with open(self.exclude_file) as f:
-                for line in f:
-                    yield line.strip().lower().partition(' ')[0]
-        except FileNotFoundError:
-            pass
-
-    @property
-    def excluded_words(self):
-        return set(self.excluded_tokens)
-
-    def exclude_word(self, word: str):
-        words = set(self.excluded_words)
-        words.add(word)
-        swords = sorted(words)
-        with open(self.exclude_file, mode='w') as f:
-            for w in swords:
-                print(w, file=f)
 
 @final
 class ShareResult:
