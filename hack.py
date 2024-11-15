@@ -388,6 +388,7 @@ class Search:
         at = self.select_word(tokens)
         if at is not None:
             self.entered += 1
+            self.view_at = at
             return self.question(at)
 
         self.ui.print('! expected response like: `[<|^|>|+|-|0|<word>]...`')
