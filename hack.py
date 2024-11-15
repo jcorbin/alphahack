@@ -122,6 +122,7 @@ class Search:
         self.questioned = 0
         self.removed = 0
         self.suggested = 0
+        self.guessed = 0
 
     @property
     def view_lo(self):
@@ -282,7 +283,7 @@ class Search:
             if self.can_suggest is not None:
                 self.suggested += 1
                 return self.question(self.can_suggest)
-            self.suggested += 1
+            self.guessed += 1
             return self.question(self.view_at)
 
         show_lines = 0
@@ -609,8 +610,10 @@ def main():
     def details():
         if search.questioned != search.attempted:
             yield f'questioned:{search.questioned}'
+        if search.guessed != 0:
+            yield f'guessed:{search.guessed}'
         if search.suggested != 0:
-            yield f'auto:{search.suggested}'
+            yield f'suggested:{search.suggested}'
         if search.entered != 0:
             yield f'manual:{search.entered}'
         if search.added != 0:
