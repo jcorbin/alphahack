@@ -29,10 +29,15 @@ class WordList:
         return set(self.pruned_words)
 
     @property
-    def pruned_words(self):
-        exclude = set(self.excluded_words)
+    def cleaned_words(self):
         for word in self.tokens:
             if "'" in word: continue # TODO other charset pruning?
+            yield word
+
+    @property
+    def pruned_words(self):
+        exclude = set(self.excluded_words)
+        for word in self.cleaned_words:
             if word in exclude: continue
             yield word
 
