@@ -5,7 +5,7 @@ import re
 import sys
 from dataclasses import dataclass
 from collections.abc import Iterable
-from typing import final
+from typing import cast, final, TextIO
 
 @final
 @dataclass
@@ -172,7 +172,17 @@ class SearchLog:
 def analyze(lines: Iterable[str]):
     return SearchLog(lines).summary()
 
-if __name__ == '__main__':
-    log = SearchLog(sys.stdin)
+def main():
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    _ = parser.add_argument('logfile', nargs='?', default=sys.stdin, type=argparse.FileType('r'))
+    args = parser.parse_args()
+
+    logfile = cast(TextIO, args.logfile)
+    log = SearchLog(logfile)
     for line in log.summary():
         print(line)
+
+if __name__ == '__main__':
+    main()
