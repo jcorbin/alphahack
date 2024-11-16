@@ -75,6 +75,46 @@ class Prompt:
         return cls(t, resp)
 
 @final
+@dataclass
+class Done:
+    time: float
+    lo: int
+    q: int
+    hi: int
+    i: int
+    word: str
+
+    pattern = re.compile(r'''(?x)
+        # [351593 : 351592 : 351594]
+        \s* \[ \s*
+            (?P<lo> \d+ )
+            \s* : \s*
+            (?P<q> \d+ )
+            \s* : \s*
+            (?P<hi> \d+ )
+        \s* \]
+
+        # <Done>.
+        \s+ <Done>\.
+
+        # vanwege
+        \s+ (?P<word> [^\s]+ )
+
+        $
+    ''')
+
+    @classmethod
+    def match(cls, t: float, line: str):
+        match = cls.pattern.match(line)
+        if not match: return None
+        lo_s, q_s, hi_s, word = match.groups()
+        lo, q, hi = int(lo_s), int(q_s), int(hi_s)
+        i = q
+        if (i < lo or i >= hi) and hi - lo == 1:
+            i = lo
+        return cls(t, lo, q, hi, i, word)
+
+@final
 class SearchLog:
     pattern = re.compile(r'''(?x)
         T (?P<time> \d+ (?: \. \d+ )? )
@@ -86,6 +126,7 @@ class SearchLog:
         $
     ''')
 
+    done: Done|None = None
     quest: list[Questioned] = []
     prompt: list[Prompt] = []
 
@@ -106,6 +147,13 @@ class SearchLog:
             p = Prompt.match(t, line)
             if p is not None:
                 self.prompt.append(p)
+                continue
+
+            d = Done.match(t, line)
+            if d is not None:
+                if self.done is not None:
+                    raise ValueError('duplicate done line')
+                self.done = d
                 continue
 
         self.quest = sorted(self.quest, key = lambda x: x.time)
@@ -147,10 +195,15 @@ class SearchLog:
 
         yield f'T{"time":{t_width}} {"ΔT":>{t_width}} [ {"lo":{ix_width}} : {"query":{ix_width}} : {"hi":{ix_width}} ] {"<word>":{word_width}}? response ... analysis'
 
+        done_i = None if self.done is None else self.done.i
+        done_found = False
+
         for t, qn, pr in self.merge():
             dt = t - prior_t
 
             if qn is not None:
+                if qn.q == done_i: done_found = True
+
                 w = qn.hi - qn.lo
                 m = math.floor(qn.hi/2+qn.lo/2)
                 b = qn.q - m
@@ -160,6 +213,13 @@ class SearchLog:
                 # TODO extract and report viewing window telemetry
                 yield f'T{t:{t_width}.1f} {dt:{t_width}.1f} > {pr.resp}'
 
+            prior_t = t
+
+        if self.done is not None and not done_found:
+            dn = self.done
+            t = dn.time
+            dt = t - prior_t
+            yield f'T{t:{t_width}.1f} {dt:{t_width}.1f} [ {dn.lo:{ix_width}} : {dn.i:{ix_width}} : {dn.hi:{ix_width}} ] {dn.word:{word_width-1}} {"<Done>.":{resp_width+2}} ... by exhaustion'
             prior_t = t
 
         if legend:
