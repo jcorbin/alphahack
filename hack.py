@@ -190,7 +190,7 @@ class Search:
     def progress(self):
         if self.done:
             res = self.result
-            self.ui.log(f'[{self.lo} : {self.qi} : {self.hi}] <Done>. {"<NORESULT>" if res is None else res}')
+            self.ui.log(f'[{self.lo} : {self.result_i} : {self.hi}] <Done>. {"<NORESULT>" if res is None else res}')
             raise StopIteration
 
         compare, index = self.prompt()
