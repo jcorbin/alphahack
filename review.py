@@ -2,10 +2,21 @@
 
 import math
 import re
+import subprocess
 import sys
 from dataclasses import dataclass
 from collections.abc import Iterable
 from typing import cast, final, TextIO
+
+from wordlist import WordList
+
+def whatadded(filename: str) -> str:
+    output = subprocess.check_output([
+        'git', 'log',
+        '--pretty=%H',
+        '--diff-filter=A',
+        '--', filename], text=True)
+    return output.partition('\n')[0]
 
 @final
 @dataclass
@@ -163,7 +174,9 @@ class SearchLog:
     quest: list[Questioned] = []
     prompt: list[Prompt] = []
 
-    def __init__(self, lines: Iterable[str]):
+    def __init__(self, lines: Iterable[str], name: str|None = None):
+        self.name = name
+
         for line in lines:
             line = line.rstrip('\r\n')
 
@@ -269,6 +282,86 @@ class SearchLog:
             yield '* mid -- classic binary search midpoint, aka `hi/2+lo/2`'
             yield '* bias -- prefix seeking bias applied, aka `query-mid`'
 
+    def reload(self, asof: str|None = None):
+        if self.loaded is None:
+            raise RuntimeError('no loaded wordlist info in log')
+
+        with open(self.loaded.wordlist, 'r') as f:
+            wl = WordList(f)
+
+        have_sig = wl.sig.hexdigest()
+        if have_sig != self.loaded.sig:
+            raise RuntimeError(f'wordlist sig mismatch, expected:{self.loaded.sig} have:{have_sig}')
+
+        if not asof and self.name:
+            log_added = whatadded(self.name)
+            if log_added:
+                asof = f'{log_added}^'
+
+        if asof:
+            exclude_asof = subprocess.check_output([
+                'git', 'show', f'{asof}:{wl.exclude_file}'
+            ], text=True).splitlines()
+            exclude_asof = set(
+                line.strip().lower().partition(' ')[0]
+                for line in exclude_asof)
+
+            if self.loaded.excluded != len(exclude_asof):
+                raise RuntimeError(f'excluded asof {asof} size mismatch, expected:{self.loaded.excluded} got:{len(exclude_asof)}')
+            wordset = set(wl.cleaned_words)
+            wordset.difference_update(exclude_asof)
+
+        else:
+            have_excluded = len(wl.excluded_words)
+            if self.loaded.excluded != have_excluded:
+                raise RuntimeError(f'exclusion list size mismatch, expected:{self.loaded.excluded} got:{have_excluded}')
+            wordset = set(wl.pruned_words)
+
+        have_count = len(wordset)
+        if self.loaded.count != have_count:
+            raise RuntimeError(f'size mismatch, expected:{self.loaded.count} got:{have_count}')
+
+        return Reloaded(wordset, self)
+
+@final
+class Reloaded:
+    def __init__(self, words: Iterable[str], log: SearchLog):
+        self.words = sorted(words)
+        self.log = log
+
+        self.removed: list[int] = []
+        self.actual: list[int] = []
+        done_i = None if self.log.done is None else self.log.done.i
+
+        for q in self.log.quest:
+            ai = q.q
+            for j in self.removed:
+                if ai >= j: ai += 1
+            if self.words[ai] != q.word:
+                raise RuntimeError(f'word[{ai}] spot check failed: {self.words[ai]!r} != {q.word!r}')
+            if q.resp == '!':
+                self.removed.append(ai)
+                if done_i is not None and q.q <= done_i:
+                    done_i += 1
+            self.actual.append(ai)
+
+        self.qi: int = 0
+        self.questi = 0
+        self.donei = done_i
+
+    @property
+    def questi(self):
+        return self.qi
+
+    @questi.setter
+    def questi(self, qi: int):
+        self.qi = len(self.actual) + qi if qi < 0 else qi
+        _ = self.actual[self.qi] # to check index
+
+    @property
+    def at(self) -> int:
+        return self.actual[self.qi]
+
 def analyze(lines: Iterable[str]):
     return SearchLog(lines).summary()
 
@@ -280,7 +373,7 @@ def main():
     args = parser.parse_args()
 
     logfile = cast(TextIO, args.logfile)
-    log = SearchLog(logfile)
+    log = SearchLog(logfile, logfile.name)
     for line in log.summary():
         print(line)
 
