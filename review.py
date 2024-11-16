@@ -9,6 +9,38 @@ from typing import cast, final, TextIO
 
 @final
 @dataclass
+class Loaded:
+    time: float
+    wordlist: str
+    sig: str
+    count: int
+    excluded: int
+
+    pattern = re.compile(r'''(?x)
+    # loaded 400842 words
+    loaded \s+ (?P<count> \d+ ) \s+ words
+
+    # from opentaal-wordlist.txt
+    \s+ from \s+ (?P<wordlist> [^\s]+ )
+    # 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be
+    \s+ (?P<sig>[^\s]+)
+
+    # (10 words excluded)
+    \s* \( \s* (?P<excluded>\d+) \s+ words \s+ excluded \s* \)
+
+    \s*
+    $
+    ''')
+
+    @classmethod
+    def match(cls, t: float, line: str):
+        match = cls.pattern.match(line)
+        if not match: return None
+        count, wordlist, sig, excluded = match.groups()
+        return cls(t, wordlist, sig, int(count), int(excluded))
+
+@final
+@dataclass
 class Questioned:
     time: float
     lo: int
@@ -127,6 +159,7 @@ class SearchLog:
     ''')
 
     done: Done|None = None
+    loaded: Loaded|None = None
     quest: list[Questioned] = []
     prompt: list[Prompt] = []
 
@@ -138,6 +171,13 @@ class SearchLog:
             if not match: continue
             time, line = match.groups()
             t = float(time)
+
+            l = Loaded.match(t, line)
+            if l is not None:
+                if self.loaded is not None:
+                    raise ValueError('duplicate loaded line')
+                self.loaded = l
+                continue
 
             q = Questioned.match(t, line)
             if q is not None:
