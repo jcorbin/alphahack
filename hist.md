@@ -546,3 +546,14 @@
 
 🔗 alfagok.diginaut.net
 ```
+
+# 2024-11-17 alphaguess.com
+```
+🧩 Puzzle #481
+
+🤔 13 guesses
+
+⏱️ 22s
+
+🔗 alphaguess.com
+```
