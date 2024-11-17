@@ -4,7 +4,7 @@ import subprocess
 import time
 from contextlib import contextmanager
 from collections.abc import Sequence
-from typing import cast, final, Callable, Literal, Protocol, TextIO
+from typing import cast, final, Any, Callable, Literal, Protocol, TextIO
 
 class Clipboard(Protocol):
     def copy(self, mess: str) -> None:
@@ -66,6 +66,14 @@ class Timer:
 
     def sub(self):
         return Timer(self.now)
+
+State = Callable[['PromptUI'], 'State|None']
+
+@final
+class NextState(BaseException):
+    def __init__(self, state: State):
+        super().__init__()
+        self.state = state
 
 @final
 class PromptUI:
@@ -204,3 +212,49 @@ class PromptUI:
             self.sink = prior_sink
             self.clip = prior_clip
             self.get_input = prior_get_input
+
+    State = State
+    NextState = NextState
+
+    def interact(self, state: State):
+        while True:
+            try:
+                state = state(self) or state
+                self.tokens = self.Tokens()
+
+            except NextState as n:
+                state = n.state
+
+            except EOFError:
+                self.log('<EOF>')
+                self.print(' <EOF>')
+                raise
+
+            except KeyboardInterrupt:
+                self.log('<INT>')
+                self.print(' <INT>')
+                raise
+
+            except StopIteration:
+                self.log('<STOP>')
+                self.print(' <STOP>')
+                return
+
+    @staticmethod
+    @contextmanager
+    def catch_state(t: Any, st: State): # pyright: ignore[reportAny]
+        try:
+            yield
+        except t as e: # pyright: ignore[reportAny]
+            raise NextState(st)
+
+    def run(self, state: State):
+        try:
+            self.interact(state)
+        except (EOFError, KeyboardInterrupt):
+            pass
+
+    @classmethod
+    def main(cls, state: State):
+        ui = cls()
+        ui.run(state)
