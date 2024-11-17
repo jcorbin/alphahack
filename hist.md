@@ -579,3 +579,16 @@ https://cemantle.certitudes.org/
 
 🔗 alfagok.diginaut.net
 ```
+
+# 2024-11-17 cemantle.certitudes.org
+```
+I found #cemantle #958 in 256 guesses!
+🥳
+😱
+🔥2️⃣
+🥵4️⃣
+😎1️⃣5️⃣
+🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶1️⃣8️⃣9️⃣
+🧊🧊🧊🧊4️⃣4️⃣
+https://cemantle.certitudes.org/ 
+```

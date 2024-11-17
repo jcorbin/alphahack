@@ -1,0 +1,997 @@
+Learning from yesterday, we're starting out with
+
+```ollama run gemma --nowordwrap
+
+>>> Give me 10 words at random that are not related to each other.
+1. Serendipity
+2. Kaleidoscope
+3. Echo
+4. Zenith
+5. Serene
+6. Catalyst
+7. Enigma
+8. Symphony
+9. Mirage
+10. Labyrinth
+
+/// entered each, picked top 2 but not bottom 1
+
+>>> /clear
+Cleared session context
+>>> Give me 10 words that are similar to "labyrinth" and "zenith" but not similar to "mirage".
+1. Labyrinth
+2. Maze
+3. Citadel
+4. Labyrinthine
+5. Labyrinthous
+6. Labyrinthlike
+7. Summit
+8. Pinnacle
+9. Zenith
+10. Crest
+
+/// maze 5.05
+/// citadel 0.25
+/// summit -0.91
+/// pinnacle 1.78
+/// crest -3.38
+
+>>> /clear
+Cleared session context
+>>> Give me 10 words that are similar to "labyrinth".
+1. Maze
+2. Labyrinthine
+3. Network
+4. Labyrinth
+5. Labyrinthian
+6. Entrapment
+7. Labyrinth of thoughts
+8. Labyrinth of shadows
+9. Labyrinth of life
+10. Labyrinth of dreams
+
+/// network 4.21
+/// entrapment -0.59
+
+>>> Give me 10 words that are similar to "zenith".
+1. Peak
+2. Summit
+3. Crest
+4. Zenith point
+5. Climax
+6. Apex
+7. Highest point
+8. Pinnacle
+9. Summit point
+10. Zenith of achievement
+
+/// peak 1.13
+/// apex 8.98
+/// climax -1.88
+
+>>> /clear
+Cleared session context
+>>> Give me 10 words that are similar to "apex" and "labyrinth"; use only a single word for each response, no phrases.
+1. Summit
+2. Climax
+3. Zenith
+4. Peak
+5. Crest
+6. Pinnacle
+7. Ridge
+8. Labyrinth
+9. Maze
+10. Conundrum
+
+/// ridge -12.45
+/// conundrum 1.24
+
+>>> "ridge" is a bad word, try again
+1. Summit
+2. Climax
+3. Zenith
+4. Peak
+5. Crest
+6. Pinnacle
+7. Frontier
+8. Labyrinth
+9. Maze
+10. Conundrum
+
+/// frontier -2.57
+
+>>> /clear
+Cleared session context
+>>> give me 10 random words that are not related to "ridge"
+1. Symphony
+2. Aurora
+3. Serendipity
+4. Labyrinth
+5. Echo
+6. Kaleidoscope
+7. Phoenix
+8. Zenith
+9. Enigma
+10. Kaleidoscope
+
+/// aurora -0.29
+/// phoenix 2.41
+
+>>> give me 10 more words
+11. Labyrinth
+12. Serendipity
+13. Whimsy
+14. Aurora
+15. Kaleidoscope
+16. Symphony
+17. Zenith
+18. Echo
+19. Mystery
+20. Spark
+
+/// whimsy 1.33
+/// spark -0.34
+/// mystery -6.90
+
+>>> /clear
+Cleared session context
+>>> give me 10 random words that are similar to "apex" but not similar to "ridge" and not similar to "mystery".
+... 
+1. Zenith
+2. Summit
+3. Pinnacle
+4. Crest
+5. Crown
+6. Peak
+7. Climax
+8. Top
+9. Frontier
+10. Juggernaut
+
+/// juggernaut -0.93
+/// top -0.20
+```
+
+Looks like gemma isn't very useful at this sort of ideation, at least the way I'm prompting it, let's try another:
+```ollama run llama3.2 --nowordwrap
+
+>>> give me 10 random words
+Here are 10 random words:
+
+1. Ninja
+2. Caramel
+3. Banjo
+4. Space
+5. Perfume
+6. Llama
+7. Harmonica
+8. Snowflake
+9. Fountain
+10. Dragonfly
+
+/// ninja 3.35
+/// caramel 2.12
+/// banjo -3.45
+/// space 3.03
+/// perfume 3.02
+/// llama -4.66
+/// harmonica 1.7
+/// snowflake 1.44
+/// fountain 0.03
+/// dragonfly -1.58
+
+>>> none of those word are very good, give me another 10 that are not similar to any of the words you first said.
+I apologize for not meeting your expectations earlier! Here are 10 new random words that are quite different from the previous 
+ones:
+
+1. Gargoyle
+2. Saffron
+3. Quokka
+4. Thistle
+5. Calliope
+6. Ember
+7. Raku
+8. Scimitar
+9. Lichen
+10. Galvanize
+
+/// gargoyle -6.93
+/// saffron 5.68
+/// quokka !
+/// thistle 3.45
+/// calliope -3.27
+/// ember 4.47
+/// raku !
+/// scimitar 6.50
+/// lichen -6.25
+/// galvanize 2.90
+
+>>> none of those word are very good, give me another 10 that are not similar to any of the words you've said; also make them similar to "apex"
+I'll try to come up with a new set of words that are distinct from previous ones and have a connection to the concept of "apex"
+. Here are 10 new random words:
+
+1. Paradigm
+2. Nexus
+3. Catalyst
+4. Syzygy
+5. Apex (you mentioned this one)
+6. Ascent
+7. Elevation
+8. Summit
+9. Pinnacle
+10. Ascension
+
+These words all relate to the idea of reaching a high point or peak, which is similar to the concept of "apex".
+
+/// paradigm 3.85
+/// nexus 10.11
+/// syzygy 1.83
+/// ascent -5.49
+/// elevation -0.77
+
+>>> /clear
+Cleared session context
+>>> give me 10 words that are similar to "nexus", "apex", and "labyrinth" but not similar to "mystery", "gargoyle", nor "ridge"
+...  
+... 
+Here are 10 words that share similarities with "nexus", "apex", and "labyrinth" in terms of their connotations, structure, or s
+ound:
+
+1. Paradox - implies a connection or relationship between two seemingly opposing ideas.
+2. Odyssey - suggests a complex journey or path to be navigated.
+3. Nexus (as you mentioned) - refers to a connection or link between things.
+4. Ascendancy - implies a position of power or dominance.
+5. Abyssal - suggests a deep, mysterious, or complex environment.
+6. Pivotal - indicates a turning point or moment of significance.
+7. Convergence - describes the meeting or coming together of separate entities.
+8. Cathedrals - implies grand, complex structures with multiple levels or chambers.
+9. Nexus-like "synergy" - suggests a harmonious blend of different elements to create something new.
+10. Archipelago - refers to a group of islands that are connected but also distinct.
+
+These words all have complex meanings and connotations that may appeal if you like the words "nexus", "apex", and "labyrinth".
+
+/// paradox -1.54
+/// odyssey -4.47
+/// abyssal 3.17
+/// pivotal 2.76
+/// convergence 7.42
+/// cathedral 8.06
+/// archipelago 4.51
+
+/// flat -0.74
+/// point -3.44
+/// sword 4.70
+
+>>> none of those are very good, give me anotehr 10
+I apologize for not meeting your expectations earlier. Here's another list of 10 words that might be similar to "nexus", "apex"
+, and "labyrinth":
+
+1. Catenary - refers to a curve or line that has a specific shape, often used in mathematics
+2. Sphynx - conveys the idea of a mysterious, ancient structure
+3. Apex (you mentioned this one already!) - suggests something as the highest point or peak
+4. Hieroglyph - implies a complex system of symbols and codes
+5. Crypt - suggests a hidden or secret passage or chamber
+6. Cathedra - conveys the idea of a high, elevated structure
+7. Oculus - refers to a circular opening or window in architecture
+8. Thalassa - means "sea" or "ocean", implying vastness and depth
+9. Maelstrom - suggests a powerful whirlpool or vortex
+10. Oculus (another great suggestion!) - refers to a circular opening or window in architecture
+
+Other alternatives could be:
+
+- Ascendancy (implies rising to power or dominance)
+- Arcadia (conveys the idea of a hidden, idyllic paradise)
+- Perimeter (suggests a boundary or limit around something)
+
+Please let me know if this list better meets your expectations.
+
+/// catenary 7.03
+/// sphynx !
+/// hieroglyph 10.05
+/// crypt 4.00
+/// cathedra 10.97
+/// oculus 1.40
+/// thalassa !
+/// maelstrom 4.95
+/// arcadia !
+/// perimeter -5.26
+
+>>> /clear
+Cleared session context
+>>> give me 10 words that are similar to "cathedra", "nexus",  and "hieroglyph".
+... 
+Here are 10 words that are similar to "cathedra", "nexus", and "hieroglyph":
+
+1. Altar - suggests a place of worship or spiritual significance, like a cathedra
+2. Pylon - refers to a structure with multiple entrance passages, like a nexus point
+3. Glyph - related to hieroglyphs, another form of ancient writing system
+4. Oculus - means "eye" in Latin, but also refers to a circular opening or window, like a nexus
+5. Synod - refers to a gathering of bishops or high-ranking officials, similar to a cathedra
+6. Portal - suggests an entrance or gateway, like a nexus point
+7. Inscription - written words or symbols, like hieroglyphs
+8. Architrave - refers to the part of a temple or building that frames the entrance, like a nexus
+9. Monumentum - Latin for "monument" or "altar", similar to a cathedra
+10. Glyphic - related to glyphs and hieroglyphs, another form of ancient writing system
+
+These words all have connotations of structure, place, or meaning that are similar to the meanings of "cathedra", "nexus", and 
+"hieroglyph".
+
+/// altar 6.37
+/// pylon -4.46
+/// glyph -2.08
+/// synod 9.59
+/// portal 6.81
+/// inscription 8.59
+/// architrave 9.5
+/// monumentum !
+/// glyphic !
+
+>>> try again, but make them not similar to "pylon"
+Here are 10 words that are similar to "cathedra", "nexus", and "hieroglyph":
+
+1. Altar - suggests a place of worship or spiritual significance, like a cathedra
+2. Glyph - related to hieroglyphs, another form of ancient writing system
+3. Oculus - means "eye" in Latin, but also refers to a circular opening or window, like a nexus
+4. Synod - refers to a gathering of bishops or high-ranking officials, similar to a cathedra
+5. Inscription - written words or symbols, like hieroglyphs
+6. Monumentum - Latin for "monument" or "altar", similar to a cathedra
+7. Glyphic - related to glyphs and hieroglyphs, another form of ancient writing system
+8. Iconostasis - refers to the arrangement of icons in a church, like a series of sacred spaces connected by a nexus
+9. Scriptorium - a room for writing or script copying, similar to an inscription
+10. Sigillum - Latin for "seal" or "inscription", like a hieroglyphic symbol
+
+/// iconostasis !
+/// scriptorium 7.87
+/// sigillum !
+
+>>> Those words weren't very good, try again: give me 10 new word and make them similar to "synod".
+Here are 10 words that are similar to "synod":
+
+1. Council - refers to a gathering of officials or leaders for discussion or decision-making
+2. Congregation - refers to a group of people gathered together, often for worship or community purposes
+3. Assembly - refers to a gathering of people for a specific purpose or event
+4. Convention - refers to a formal meeting or gathering of experts or delegates
+5. Conference - refers to a meeting of people for discussion, negotiation, or other purposes
+6. Synthesis - refers to the process of combining different ideas or elements into a new whole
+7. Federation - refers to an association of individuals, groups, or organizations united by a common purpose
+8. Colloquy - refers to a conversation or meeting between people with similar interests or goals
+9. Syncretism - refers to the blending of different cultures, philosophies, or ideas into a new whole
+10. Tribunal - refers to a formal gathering of officials for judgment or decision-making
+
+/// council 7.40
+/// congregation 5.31
+/// assembly 8.05
+/// convention 2.62
+/// conference 3.62
+/// synthesis 8.66
+/// federation 7.66
+/// colloquy 15.03
+/// syncretism 6.42
+/// tribunal 15.52
+
+>>> /clear
+Cleared session context
+>>> Give me 10 word that are similar to "colloquy" and "tribunal".
+... 
+Here are 10 words that are similar to "colloquy" and "tribunal":
+
+1. Conference
+2. Assemblage
+3. Convention
+4. Courtship
+5. Debate
+6. Discussion
+7. Forum
+8. Gathering
+9. Meeting
+10. Session
+
+/// assemblage -2.38
+/// courtship -1.14
+/// debate
+/// discussion 4.58
+/// forum 6.67
+/// gathering 0.30
+/// meeting 13.30
+/// session 3.50
+
+>>> /clear 
+Cleared session context
+>>> Give me 10 word that are similar to "colloquy", "tribunal", and "meeting".
+... 
+Here are 10 words that are similar to "colloquy", "tribunal", and "meeting":
+
+1. Conference
+2. Assembly
+3. Court
+4. Council
+5. Forum
+6. Session
+7. Synod
+8. Convention
+9. Assemblage
+10. Gathering
+
+>>> Give me 10 words that aren't similar to any of those you just said.
+Here are 10 words that are not similar to "colloquy", "tribunal", and "meeting":
+
+1. Fungus
+2. Nugget
+3. Saffron
+4. Quokka
+5. Cacophony
+6. Brioche
+7. Garrulous
+8. Lullaby
+9. Starfish
+10. Whimsy
+
+/// fungus -2.74
+/// nugget -0.25
+/// cacophony 2.42
+/// brioche 6.17
+/// garrulous -7.36
+/// lullaby 3.94
+/// starfish -2.98
+
+>>> /clear
+Cleared session context
+>>> Give me 10 words that are similar to "tribunal" but unlike each other.
+... 
+Here are 10 words that are similar to "tribunal" in meaning or connotation, but have distinct differences:
+
+1. Court
+2. Assembly
+3. Council
+4. Board
+5. Jury
+6. Panel
+7. Forum
+8. Convention
+9. Committee
+10. Synod
+
+These words all relate to gatherings of individuals with a shared purpose or interest, but each has its own unique characterist
+ics and connotations.
+
+/// board 9.06
+/// jury 1.40
+/// panel 2.90
+/// court 15.13
+/// committee 11.90
+
+>>> /clear
+Cleared session context
+>>> Give me 10 words that are similar to "tribunal" and "court" but not similar to "ridge".
+... 
+Here are 10 words that are similar to "tribunal" and "court" but not similar to "ridge":
+
+1. Assembly
+2. Session
+3. Hearing
+4. Trial
+5. Judiciary
+6. Tribunal
+7. Bench
+8. Forum
+9. Judgment
+10. Council
+
+/// session 3.5
+/// hearing 0.27
+/// trial 1.17
+/// judiciary 11.3
+/// bench -1.32
+/// judgment 7.75
+/// inquiry 6.85
+
+>>> keep going in the direction of "tribunal"
+Here are 10 more words that continue in the direction of "tribunal":
+
+1. Inquest
+2. Inquiry
+3. Examination
+4. Investigation
+5. Interrogation
+6. Judgmental
+7. Arbitration
+8. Mediation
+9. Conciliation
+10. Disputation
+
+/// inquest 5.14
+/// examination 5.32
+/// interrogation 4.62
+/// mediation 11.04
+/// disputation 8.17
+
+>>> keep going with words like "mediation"
+Here are 10 more words that continue in the direction of "mediation", which often involves resolving disputes 
+or conflicts:
+
+1. Arbitration
+2. Conciliation
+3. Negotiation
+4. Dialogue
+5. Diplomacy
+6. Intercession
+7. Advocacy
+8. Mediatation
+9. Moderation
+10. Facilitation
+
+/// negotiation 14.64
+/// dialogue 11.64
+/// advocacy -0.14
+
+>>> Try again, not like "advocacy"     
+Here are 10 more words that continue in the direction of "mediation", but with a different tone or connotation
+:
+
+1. Arbitration
+2. Conciliation
+3. Negotiation
+4. Diplomacy
+5. Intercession
+6. Interlocution
+7. Mediatation
+8. Moderation
+9. Facilitation
+10. Pragmatism
+
+
+/// facilitation 20.83
+
+>>> Keep going more like "facilitation".
+... 
+Here are 10 more words that continue in the direction of "facilitation", which implies helping to make somethi
+ng happen or easier:
+
+1. Enabling
+2. Catalyst
+3. Accelerator
+4. Sponsorship
+5. Promotion
+6. Incubation
+7. Nurture
+8. Supportive
+9. Assistance
+10. Enablement
+
+/// enabling 14.17
+/// promotion 1.68
+/// assistance 14.80
+/// enablement !
+/// supportive 11.58
+/// nurture 2.37
+/// sponsorship -3.41
+/// accelerator -5.52
+/// catalyst 0.78
+/// incubation 1.50
+
+>>> /clear
+Cleared session context
+>>> Give me 10 words like "facilitation" and "tribunal".
+... 
+Here are 10 words that have a similar sound or meaning to "facilitation" and "tribunal":
+
+1. Abstraction
+2. Institution
+3. Termination
+4. Declaration
+5. Celebration
+6. Invitation
+7. Consideration
+8. Orientation
+9. Examination
+10. Intervention
+
+/// abstraction 0.04
+/// institution 13.86
+/// termination 19.68
+/// declaration 15.08
+/// celebration 7.12
+/// invitation -2.03
+/// consideration 21.81
+/// orientation 5.64
+/// examination 5.32
+/// intervention 1.89
+
+>>> Keep going like "consideration".
+...
+
+>>> Try again but make the words similar to "consideration".
+... 
+Here are 10 more words that have a similar sound or meaning to "consideration":
+
+1. Investigation
+2. Prescription
+3. Education
+4. Invitation
+5. Termination
+6. Explanation
+7. Explanation
+8. Application
+9. Exploration
+10. Explanation
+
+/// prescription 1.66
+/// education 2.32
+/// invitation -2.03
+/// explanation 4.28
+/// application 12.60
+/// exploration 10.49
+
+>>> /clear
+Cleared session context
+>>> Give me 10 words like "facilitation", "consideration", and "termination".
+... 
+Here are 10 words similar to "facilitation", "consideration", and "termination" in terms of their formal, prof
+essional tone:
+
+1. Notification
+2. Implementation
+3. Review
+4. Authorization
+5. Resolution
+6. Conclusion
+7. Verification
+8. Certification
+9. Recommendation
+10. Finalization
+
+/// notification 16.20
+/// implementation 22.13
+/// review 16.83
+/// authorization 20.53
+/// resolution 6.55
+/// conclusion 4.74
+/// verification 13.84
+/// certification 11.21
+/// recommendation 7.75
+/// finalization 24.33
+
+>>> /clear
+Cleared session context
+>>> Give me 10 words like "implementation", "finalization", and "consideration".
+... 
+Here are 10 words that have a similar meaning to "implementation", "finalization", and "consideration":
+
+1. Initiation
+2. Termination
+3. Evaluation
+4. Examination
+5. Finalizing
+6. Conclusion
+7. Realization
+8. Accommodation
+9. Resolution
+10. Ratification
+
+/// initiation 10.44
+/// evaluation 12.33
+/// final 18.90
+/// realization 6.02
+/// accommodation 11.45
+/// resolution 6.55
+/// ratification 16.80
+
+>>> None of those word are very good, try again.
+... 
+Here are 10 new words that have a similar meaning to "implementation", "finalization", and "consideration":
+
+1. Execution
+2. Completion
+3. Authorization
+4. Certification
+5. Validation
+6. Accreditation
+7. Sanctioning
+8. Approval
+9. Enactment
+10. Legitimization
+
+These words are more closely related to the concepts of putting something into action, finalizing a process, a
+nd giving official permission or approval.
+
+/// execution 10.97
+/// completion 13.69
+/// validation 11.55
+/// accreditation 6.03
+/// sanctioning 12.44
+/// approval 13.23
+/// enactment 18.80
+/// legitimate 16.81
+```
+
+Seems stuck, let's swap models:
+```ollama run mistral --nowordwrap
+
+>>> Give me 10 words like "implementation", "finalization", and "consideration".
+1. Execution
+2. Completion
+3. Initiation
+4. Institution
+5. Enactment
+6. Adoption
+7. Realization
+8. Action
+9. Performance
+10. Application
+
+/// adoption 10.66
+/// action 4.71
+/// performance 2.68
+
+Try again and make the words not like "performance".
+
+>>> Try again and make the words not like "performance".
+1. Actualization
+2. Concretization
+3. Effectuation
+4. Materialization
+5. Enforcement
+6. Fulfillment
+7. Operation
+8. Practicalization
+9. Transformation
+10. Realization (different from the previous list)
+
+/// actualization 17.07
+/// concretization !
+/// effectuation 25.95
+/// materialization 17.67
+/// enforcement 11.15
+/// fulfillment 19.33
+/// operation 8.04
+/// practice 6.45
+/// transformation 2.59
+
+>>> "effectuation" is good, give me 10 more like it.
+1. Instauration
+2. Creation
+3. Establishment
+4. Foundation
+5. Institution
+6. Inception
+7. Launching
+8. Manifestation
+9. Production
+10. Initiation (different from the previous lists)
+
+/// instauration !
+/// creation -1.96
+/// establishment 8.76
+/// foundation 2.97
+/// inception 11.68
+/// launching -1.88
+/// manifestation 5.05
+/// production 3.19
+
+>>> Give me 10 words like "effectuation", "finalization", "implementation", and and "consideration".
+1. Execution
+2. Enactment
+3. Realization
+4. Action
+5. Operation
+6. Implementation (different from the previous lists)
+7. Fulfillment
+8. Performance
+9. Completion
+10. Concretization
+```
+
+Seems stuck, let's swap models:
+```ollama run gemma --nowordwrap
+
+>>> Give me 10 words like "effectuation", "finalization", "implementation", and and "consideration".
+1. Effectuation
+2. Finalization
+3. Implementation
+4. Consideration
+5. Execution
+6. Completion
+7. Achievement
+8. Fulfillment
+9. Activation
+10. Deployment
+
+/// achievement 0.08
+/// activation 2.83
+/// deployment 1.75
+
+>>> Those word aren't very good, give me 10 more that aren't like them.
+11. Reconciliation
+12. Negotiation
+13. Collaboration
+14. Proficiency
+15. Proficiency
+16. Autonomy
+17. Deliberation
+18. Circumspection
+19. Resilience
+20. Innovation
+
+/// reconciliation 18.36
+/// collaboration 1509
+/// proficiency 9.18
+/// autonomy 8.04
+/// deliberation 8.17
+/// innovation 3.64
+/// resilience 4.73
+/// circumspection 22.26
+
+>>> /clear
+Cleared session context
+>>> Give me 10 words that are similar to "effectuation", "finalization", and "circumspection".
+... 
+1. Implementation
+2. Completion
+3. Achievement
+4. Execution
+5. Fulfillment
+6. Closure
+7. Reflection
+8. Examination
+9. Analysis
+10. Synthesis
+
+/// closure -3.57
+/// reflection 7.82
+/// analysis 10.95
+
+>>> None of those word are very good, try again.
+1. Implementation
+2. Completion
+3. Fulfillment
+4. Finalization
+5. Orchestration
+6. Articulation
+7. Concision
+8. Circumspection
+9. Retrospection
+10. Deliberation
+
+/// orchestration 6.29
+/// articulation 12.09
+/// concision 9.37
+/// retrospection 1.08
+/// deliberation 8.17
+
+>>> /clear
+Cleared session context
+>>> Give me 10 words that are similar to "effectuation" and "finalization" but not similar to "crest" or "frontier".
+... 
+1. Completion
+2. Implementation
+3. Fulfillment
+4. Achievement
+5. Execution
+6. Realization
+7. Finality
+8. Closure
+9. Termination
+10. Exhaustion
+
+/// finality 18.75
+/// exhaustion 4.68
+
+```
+
+Some Time Later:
+```ollama run phi3 --nowordwrap
+
+>>> Give me 10 words that are similar to "effectuation" and "finalization".
+... 
+1. Realization
+2. Completion
+3. Termination
+4. Conclusion
+5. Finalize
+6. Execution
+7. Fulfillment
+8. Culmination
+9. Closure
+1selerate the following changes to make this instruction more challenging by increasing its complexity: 
+- Increase word count from five words to ten different words or phrases that are similar in meaning, ensuring 
+each has a distinct nuance and is not commonly interchanged with one another.
+- At least half of the suggested terms should be lesser known synonyms for "effectuation" and "finalization", 
+increasing difficulty in finding appropriate replacements as these words may rarely appear in everyday languag
+e, requiring more specialized vocabulary knowledge.
+- All proposed alternatives must maintain a formal tone suitable to academic or professional contexts where pr
+ecise word choice is critical. 
+- The terms suggested should cover different stages of the process leading up to finalization and effectuation
+ without any overlap among their meanings within those specific phases.
+
+/// finalize 23.05
+/// culmination 5.03
+
+/// summation 4.88
+
+>>> give me 10 words like "finalize"
+terminate
+conclude
+settle
+wrap-up
+complete
+finalise
+finish
+consummate
+culminate
+solidify
+
+/// terminate 22.03
+/// conclude 12.00
+/// settle 5.64
+/// complete 13.86
+/// finalise 23.05
+/// finish 3.24
+/// consummate 14.14
+/// culminate 16.74
+/// solidify 5.81
+
+>>> keep going.
+accomplish, fulfill, execute, accomplishment, closure, completion, conclusion, end, termination, resolution.
+
+/// accomplish 6.01
+/// fulfill 30.19
+/// execute 20.91
+/// accomplishment -1.51
+/// closure -3.57
+/// completion 13.69
+/// conclusion 4.74
+/// end 9.47
+/// resolution 6.55
+
+>>> give me 10 words like "fulfill"
+satisfy, gratify, content, appease, pacify, cheer up, placate, please, reward, comply.
+
+/// satisfy 26.27
+/// gratify 16.42
+/// content 7.03
+/// appease 15.61
+/// pacify 6.64
+/// placate 12.70
+/// please 7.70
+/// reward 9.04
+/// comply 53.74
+
+give me 10 words like "comply"
+
+>>> give me 10 words like "comply"
+adhere to rules and regulations as prescribed by the law or authority figures such: adherence; obedience; conformity; submission; pledge allegiance; assent; acquiesce; capitulate, agree, consent.
+
+/// adherence 34.79
+/// obedience 19.64
+/// conformity 59.38
+/// submission 17.71
+/// acquiesce 18.76
+/// agree 16.14
+/// obey 34.39
+/// capitulate 8.11
+/// assent 17.03
+/// consent 28.62
+/// conform 56.61
+
+>>> give me 10 words like "conformity"
+acquiescence (admitting reluctantly or without protest), agreement: alignment in thought and action with societal norms., obsequiousness : excessively polite behavior as a form of flattery, accommodation: submission to others' wishes. These imply unquestioning acceptance into the prevailing culture through suppression of individuality.
+
+/// acquiescence 20.73
+/// agreement 11.42
+/// obsequiousness 10.29
+/// accommodation 11.45
+
+>>> /clear
+Cleared session context
+>>> give me 10 words like "conformity"
+Adherence, Compliance, Synchronization, Conformance, Submission, Alignment, Resemblance, Accordance, Consistency, Harmony.
+
+/// compliance 41.02
+/// synchronization 10.56
+/// conformance 45.85
+/// submission 17.71
+/// alignment 13.95
+/// resemblance 3.60
+/// accordance it!
+
+```
