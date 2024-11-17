@@ -547,6 +547,17 @@
 🔗 alfagok.diginaut.net
 ```
 
+# 2024-11-16 cemantle.certitudes.org
+```
+I found #cemantle #957 in 95 guesses!
+🥳
+🥵4️⃣
+😎1️⃣6️⃣
+🥶🥶🥶🥶🥶🥶🥶7️⃣1️⃣
+🧊3️⃣
+https://cemantle.certitudes.org/ 
+```
+
 # 2024-11-17 alphaguess.com
 ```
 🧩 Puzzle #481

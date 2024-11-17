@@ -1,0 +1,59 @@
+Much fussing with ollama models, but in the end gemma and I got there:
+
+    >>> I'm looking for words that are similar to "tower", "building",, "skyscraper", "infrastructure", and "elevator"; give me 10 such words.
+    21. Structure
+    22. Framework
+    23. Support
+    24. Platform
+    25. Foundation
+    >>> Give me 10 words that are similar to "facility"
+    1. Infrastructure
+    2. Resource
+    3. Capability
+    4. Accommodation
+    5. Convenience
+    6. Proficiency
+    7. Potential
+    8. Accessibility
+    9. Availability
+    10. Suitability
+
+    >>> /clear
+    Cleared session context
+    >>> Give me 10 words that are similar to "facility" and "tower"
+    1. Structure
+    2. Building
+    3. Complex
+    4. Precinct
+    5. Installation
+    6. Compound
+    7. Fortress
+    8. Habitat
+    9. Landmark
+    10. Domain
+
+    >>> give me 10 more
+    11. Shelter
+    12. Lodgement
+    13. Center
+    14. Hub
+    15. Precinct
+    16. Repository
+    17. Platform
+    18. Domain
+    19. Station
+    20. Compound
+
+    >>> /clear
+    Cleared session context
+    >>> give me 10 words that are similar to "hub", "facility", and "station"
+    1. Center
+    2. Node
+    3. Base
+    4. Terminal
+    5. Hubspot
+    6. Complex
+    7. Precinct
+    8. Switchboard
+    9. Anchor
+    10. Gateway
