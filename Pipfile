@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 pyperclip = "*"
+ollama = "*"
+bs4 = "*"
+python-dateutil = "*"
 
 [dev-packages]
 
@@ -14,4 +17,6 @@ python_version = "3.12"
 [scripts]
 alpha = "./hack.py --words nwl2023.txt"
 alfa = "./hack.py --words opentaal-wordlist.txt"
+ce = "./semantic.py"
+cex = "./semantic.py --site cemantix.certitudes.org --lang French cemantix.log --tz CET"
 sim = "./sim.py"
