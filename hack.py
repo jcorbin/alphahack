@@ -22,12 +22,10 @@ SearchResponse = tuple[Comparison, int]
 class Search:
     def __init__(
         self,
-        ui: PromptUI,
         words: Iterable[str],
         context: int = 3,
         note_removed: Callable[[str], None] = lambda _: None):
 
-        self.ui = ui
         self.words = sorted(words)
         self.note_removed = note_removed
         self.view = Browser(self.words, context)
@@ -105,20 +103,10 @@ class Search:
             self.questioning += 1
         self.added += 1
 
-    def progress(self):
-        if self.done:
-            res = self.result
-            self.ui.log(f'[{self.lo} : {self.result_i} : {self.hi}] <Done>. {"<NORESULT>" if res is None else res}')
-            raise StopIteration
-
-        compare, index = self.prompt()
-        self.trace.append((compare, index))
-        self.ui.log(f'progress: {compare} {index} {self.words[index]}')
-
-        if   compare  < 0: self.hi = index
-        elif compare  > 0: self.lo = index + 1
-        elif compare == 0: self.chosen = index
-        else: raise ValueError('invalid comparison') # unreachable
+    def __call__(self, ui: PromptUI):
+        if self.remain <= 0: return
+        ui.print(f'searching {self.remain} words')
+        return self.prompt
 
     def find(self, word: str):
         qi = 0
@@ -154,16 +142,34 @@ class Search:
                 if self.words[pi] == prefix: return pi
                 prefix = prefix[:-1]
 
-    def prompt(self):
+    def prompt(self, ui: PromptUI):
+        if self.done:
+            res = self.result
+            ui.log(f'[{self.lo} : {self.result_i} : {self.hi}] <Done>. {"<NORESULT>" if res is None else res}')
+            raise StopIteration
+
         self.may_suggest = True
         self.can_suggest = None
         self.questioning = None
         self.view.at = math.floor(self.lo/2 + self.hi/2)
-        while True:
-            res = self.question() or self.choose()
-            if res is not None: return res
+        return self.round
 
-    def question(self, qi: int|None=None) -> SearchResponse|None:
+    def round(self, ui: PromptUI):
+        res = self.question(ui) or self.choose(ui)
+        if res is None: return None
+
+        compare, index = res
+        self.trace.append((compare, index))
+        ui.log(f'progress: {compare} {index} {self.words[index]}')
+
+        if   compare  < 0: self.hi = index
+        elif compare  > 0: self.lo = index + 1
+        elif compare == 0: self.chosen = index
+        else: raise ValueError('invalid comparison') # unreachable
+
+        return self.prompt
+
+    def question(self, ui: PromptUI, qi: int|None=None) -> SearchResponse|None:
         if qi is None:
             qi = self.questioning
             if qi is None: return
@@ -172,14 +178,14 @@ class Search:
             self.questioned += 1
 
         word = self.words[qi]
-        self.ui.copy(word)
-        tokens = self.ui.input(f'[{self.lo} : {qi} : {self.hi}] {word}? ')
+        ui.copy(word)
+        tokens = ui.input(f'[{self.lo} : {qi} : {self.hi}] {word}? ')
         token = tokens.head
 
         if tokens.rest:
             self.may_suggest = False
             self.questioning = None
-            return self.handle_choose(tokens)
+            return self.handle_choose(ui, tokens)
 
         if all(c == '.' for c in token):
             self.may_suggest = False
@@ -193,7 +199,7 @@ class Search:
 
         compare = parse_compare(token)
         if compare is None:
-            self.ui.print(f'! invalid direction {token} ; expected a(fter), b(efore), i(t), or ! (to remove word)')
+            ui.print(f'! invalid direction {token} ; expected a(fter), b(efore), i(t), or ! (to remove word)')
             return
 
         self.attempted += 1
@@ -215,25 +221,27 @@ class Search:
         hi = min(len(self.words)-1, at + context)
         return self.valid_prefix(lo, hi)
 
-    def choose(self) -> SearchResponse|None:
+    def choose(self, ui: PromptUI) -> SearchResponse|None:
         if self.may_suggest:
             self.can_suggest = self.suggest()
             if self.can_suggest is not None:
                 self.suggested += 1
-                return self.question(self.can_suggest)
+                return self.question(ui, self.can_suggest)
             self.guessed += 1
-            return self.question(self.view.at)
+            return self.question(ui, self.view.at)
 
-        inotes = self.view.expand(self.view_notes(), limit=self.ui.screen_lines - 2)
+        inotes = self.view.expand(self.view_notes(), limit=ui.screen_lines - 2)
         for line in format_browser_lines(self.words, inotes, at=self.view.at):
-            self.ui.print(f'    {line}')
+            ui.print(f'    {line}')
 
-        self.ui.log(f'viewing: {self.view.describe} search: [ {self.lo} {self.hi} ]')
+        ui.log(f'viewing: {self.view.describe} search: [ {self.lo} {self.hi} ]')
 
-        tokens = self.ui.input('> ')
-        return self.handle_choose(tokens)
+        tokens = ui.input('> ')
+        return self.handle_choose(ui, tokens)
 
-    def select_word(self, tokens: PromptUI.Tokens) -> int|None:
+    def select_word(self, ui: PromptUI, tokens: PromptUI.Tokens) -> int|None:
+        if tokens.empty: return
+
         token = tokens.head
 
         if token.startswith('@'):
@@ -243,7 +251,7 @@ class Search:
 
         if token.startswith('?'):
             if any(c != '?' for c in token):
-                self.ui.print(f'! unknown suggestion command')
+                ui.print(f'! unknown suggestion command')
                 return
 
             n = len(token) - 1
@@ -258,33 +266,33 @@ class Search:
                 self.can_suggest = self.suggest()
 
             if self.can_suggest is None:
-                self.ui.print(f'! no suggestion available')
+                ui.print(f'! no suggestion available')
             return self.can_suggest
 
         at = self.find(token)
         if self.words[at] == token:
             return at
 
-        confirm = tokens.next_or_input(self.ui, f'! unknown word {token} ; respond . to add, else to re-prompt> ')
+        confirm = tokens.next_or_input(ui, f'! unknown word {token} ; respond . to add, else to re-prompt> ')
         if confirm.strip() == '.':
             self.insert(at, token)
             return at
 
-    def handle_choose(self, tokens: PromptUI.Tokens) -> SearchResponse|None:
+    def handle_choose(self, ui: PromptUI, tokens: PromptUI.Tokens) -> SearchResponse|None:
         if self.view.handle(tokens):
             return
 
-        at = self.select_word(tokens)
+        at = self.select_word(ui, tokens)
         if at is not None:
             self.entered += 1
             self.view.cur = at
-            return self.question(at)
+            return self.question(ui, at)
 
         if not tokens.empty:
-            self.ui.print('! expected response like: `[<|^|>|+|-|0|<word>]...`')
+            ui.print('! expected response like: `[<|^|>|+|-|0|<word>]...`')
             return
 
-        return self.question(self.view.at)
+        return self.question(ui, self.view.at)
 
 def parse_compare(s: str) -> Comparison|None:
     if 'after'.startswith(s):
@@ -413,7 +421,6 @@ def main():
     ui.log(wordlist.describe)
 
     search = Search(
-        ui,
         wordlist.uniq_words,
         context=view_context,
         note_removed=wordlist.exclude_word,
@@ -421,17 +428,7 @@ def main():
     if view_window is not None:
         search.lo, search.hi = view_window
 
-    try:
-        ui.print(f'searching {search.remain} words')
-        while search.remain > 0:
-            search.progress()
-    except EOFError:
-        ui.print(' <EOF>')
-    except KeyboardInterrupt:
-        ui.print(' <INT>')
-    except StopIteration:
-        ui.print(' <STOP>')
-    ui.print('')
+    ui.interact(search)
 
     took = timedelta(seconds=ui.time.now)
     res = f'gave up' if search.result is None else f'found "{search.result}"'
@@ -511,4 +508,7 @@ def main():
         _ = subprocess.check_call(['git', 'commit', '-m', mess])
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except (EOFError, KeyboardInterrupt):
+        pass
