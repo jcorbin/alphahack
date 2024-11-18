@@ -95,7 +95,7 @@ class PromptUI:
         self.get_input = get_input
         self.sink = sink
         self.clip = clip
-        self.last: Literal['empty']|Literal['prompt']|Literal['print'] = 'empty'
+        self.last: Literal['empty']|Literal['prompt']|Literal['print']|Literal['write'] = 'empty'
 
     @property
     def screen_lines(self):
@@ -114,12 +114,23 @@ class PromptUI:
     def log(self, mess: str):
         self.sink(f'T{self.time.now} {mess}')
 
+    def write(self, mess: str):
+        self.last = 'print' if mess.endswith('\n') else 'write'
+        print(mess, end='', flush=True)
+
+    def fin(self):
+        if self.last == 'write':
+            print('')
+            self.last = 'print'
+
     def br(self):
+        self.fin()
         if self.last == 'print':
             print('')
             self.last = 'empty'
 
     def print(self, mess: str):
+        self.fin()
         self.last = 'empty' if not mess.strip() else 'print'
         print(mess, flush=True)
 
