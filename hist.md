@@ -592,3 +592,14 @@ I found #cemantle #958 in 256 guesses!
 🧊🧊🧊🧊4️⃣4️⃣
 https://cemantle.certitudes.org/ 
 ```
+
+# 2024-11-18 alphaguess.com
+```
+🧩 Puzzle #482
+
+🤔 10 guesses
+
+⏱️ 17s
+
+🔗 alphaguess.com
+```
