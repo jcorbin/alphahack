@@ -1,0 +1,1436 @@
+T1.6736290879925946 now: 2024-11-18T13:54:10UTC
+T2.619913574992097 attempt_0> 
+T3.9400549459969625 attempt_0> ␚
+T3.940165370993782 <EOF>
+T0.0030097759881755337 now: 2024-11-18T13:54:20UTC
+T4.870891505997861 attempt_0> *6
+T27.254907131995424 attempt_0> fountain
+T60.342812668997794 attempt_0: "fountain" score? -0.3
+T60.34298449198832 attempt_0: "fountain" score:-0.30 prog:None
+T63.33472325598996 attempt_1> ␚
+T63.334831150990794 <EOF>
+T0.0034262480039615184 now: 2024-11-18T14:05:27UTC
+T4.998165442011668 attempt_1> *6
+T4.99925894800981 /// ChatStats(token_count=13, user_count=1, assistant_count=0)
+T4.999286005011527 >>> give me 6 words at random that are not related to each other
+T8.731186933000572 ... Here are 6 random words that are not related to each other:
+T8.73123138200026 ... 
+T9.058906244012178 ... 1. Caramel
+T9.315514255009475 ... 2. Guitar
+T9.625363954008208 ... 3. Snowflake
+T9.937873031012714 ... 4. Perfume
+T10.28177413000958 ... 5. Llama
+T51.55023638901184 attempt_1> caramel
+T56.83854925900232 attempt_1: "caramel" score? -5.78
+T56.83877559300163 attempt_1: "caramel" score:-5.78 prog:None
+T59.55044907500269 attempt_2> perfume
+T65.91032867200556 attempt_2: "perfume" score? -2.87
+T65.91053809301229 attempt_2: "perfume" score:-2.87 prog:None
+T70.35015482301242 attempt_3> snowflake
+T93.19809466300649 attempt_3: "snowflake" score? 5.65
+T93.19826820099843 attempt_3: "snowflake" score:5.65 prog:None
+T98.19006773400179 attempt_4> *6 t1
+T98.1904108460003 /// ChatStats(token_count=46, user_count=2, assistant_count=1)
+T98.19043852901086 >>> give me 6 words that are similar to "snowflake"
+T100.13450981699862 ... Here are 6 words that are similar to "snowflake":
+T100.13456214900361 ... 
+T100.52073778900376 ... 1. Icicle
+T100.80407478001143 ... 2. Crystal
+T101.05959120301122 ... 3. Flake
+T101.38238493600511 ... 4. Frostbite
+T101.64294684201013 ... 5. Glacier
+T110.69420221001201 attempt_4> glacier
+T116.5256718560122 attempt_4: "glacier" score? 4.59
+T116.52581643901067 attempt_4: "glacier" score:4.59 prog:None
+T121.78206899701036 attempt_5> frostbite
+T126.67828739600373 attempt_5: "frostbite" score? 9.21
+T126.67847982300736 attempt_5: "frostbite" score:9.21 prog:None
+T133.85413527600758 attempt_6> *6 t2
+T133.85452297401207 /// ChatStats(token_count=78, user_count=3, assistant_count=2)
+T133.8545448030054 >>> give me 6 words that are similar to "frostbite" and "snowflake"
+T136.11972241500916 ... Here are 6 words that are similar to both "frostbite" and "snowflake":
+T136.119763685012 ... 
+T136.38846923600067 ... 1. Chill
+T136.7124998950021 ... 2. Frosty
+T136.97198993200436 ... 3. Glacier
+T137.29512541501026 ... 4. Icy
+T137.62516485100787 ... 5. Slush
+T143.22203086101217 attempt_6> chill
+T146.56603333100793 attempt_6: "chill" score? 0.87
+T146.56615061000048 attempt_6: "chill" score:0.87 prog:None
+T1165.8384797290055 attempt_7> ␚
+T1165.8386249920004 <EOF>
+T0.0023318989988183603 now: 2024-11-18T14:24:55UTC
+T2.555997092000325 attempt_7> fountain
+T469.39564858100493 attempt_7> ␚
+T469.39569285900507 <EOF>
+T0.002270947996294126 now: 2024-11-18T14:32:45UTC
+T70.68277108398615 attempt_7> ␚
+T70.68286392898881 <EOF>
+T0.0025013660051627085 now: 2024-11-18T14:33:57UTC
+T10.964379237993853 attempt_7> *6 t2
+T10.965271494002081 /// ChatStats(token_count=11, user_count=1, assistant_count=0)
+T10.965295604997664 >>> give me 6 words that are similar to "frostbite" and "snowflake"
+T15.208684515004279 ... Here are six words that are similar to "frostbite" and "snowflake":
+T15.208732043000055 ... 
+T15.576195458997972 ... 1. Icicle
+T15.834869919999619 ... 2. Glacier
+T16.273694155999692 ... 3. Chilblains
+T16.53758891399775 ... 4. Avalanche
+T16.9076177120005 ... 5. Slushy
+T17.290196255999035 ... 6. Ablation
+T17.29024287799257 ... 
+T22.41301263400237 attempt_7> avalanche
+T26.612617580001825 attempt_7: "avalanche" score? 7.73
+T26.612800945993513 attempt_7: "avalanche" score:7.73 prog:None
+T33.66045534600562 attempt_8> fountain
+T41.54029034699488 attempt_8> ablation
+T44.548778936004965 attempt_8: "ablation" score? 4.74
+T44.54907531999925 attempt_8: "ablation" score:4.74 prog:None
+T50.97250461799558 attempt_9> icicle
+T54.4924859879975 attempt_9: "icicle" score? 5.87
+T54.492702988995006 attempt_9: "icicle" score:5.87 prog:None
+T58.276197914994555 attempt_10> *10
+T58.276540445993305 /// ChatStats(token_count=67, user_count=2, assistant_count=1)
+T58.27657661099511 >>> give me 10 words at random that are not related to each other
+T59.72449112600589 ... Here are ten random words:
+T59.724532452994026 ... 
+T60.03609372199571 ... 1. Caramel
+T60.36368910099554 ... 2. Fiddle
+T60.70026684900222 ... 3. Pineapple
+T61.03268533099617 ... 4. Submarine
+T61.35375783899508 ... 5. Harmonica
+T61.67840114100545 ... 6. Perfume
+T62.00840103799419 ... 7. Llama
+T62.25881870399462 ... 8. Bicycle
+T62.58185457700165 ... 9. Snowboard
+T66.09240691699961 attempt_10> bicycle
+T68.85215099999914 attempt_10: "bicycle" score? 7.18
+T68.85228049900616 attempt_10: "bicycle" score:7.18 prog:None
+T72.52447706299426 attempt_11> quiche
+T76.03636403300334 attempt_11: "quiche" score? -6.69
+T76.03651485800219 attempt_11: "quiche" score:-6.69 prog:None
+T84.2525363189925 attempt_12> fiddle
+T86.70848244300578 attempt_12: "fiddle" score? 3.16
+T86.7086220630008 attempt_12: "fiddle" score:3.16 prog:None
+T90.62858943299216 attempt_13> pineapple
+T94.84431763700559 attempt_13: "pineapple" score? -2.51
+T94.84444187200279 attempt_13: "pineapple" score:-2.51 prog:None
+T101.61205805400095 attempt_14> *10 t1 b1
+T101.61219180899207 /// ChatStats(token_count=106, user_count=3, assistant_count=2)
+T101.61219806100416 >>> give me 10 words that are similar to "frostbite" but not similar to "quiche"
+T104.04894404800143 ... Here are ten words that are similar to "frostbite", but not similar to "quiche":
+T104.04898870800389 ... 
+T104.42925016100344 ... 1. Hypothermia
+T104.74384030200599 ... 2. Icy
+T105.07004268300079 ... 3. Chills
+T105.39663465299236 ... 4. Frosty
+T105.7157136809983 ... 5. Glacial
+T106.04114445000596 ... 6. Slush
+T106.3754403530038 ... 7. Bitter
+T106.69746035199205 ... 8. Chillout
+T107.03581456300162 ... 9. Ache
+T107.30255025099905 ... 10. Freeze
+T107.30259824199311 ... 
+T122.19646544900024 attempt_14> bitter
+T125.78058125999814 attempt_14: "bitter" score? -3.19
+T125.78081610599475 attempt_14: "bitter" score:-3.19 prog:None
+T128.7328235229943 attempt_15> ache
+T132.59667904900562 attempt_15: "ache" score? 6.39
+T132.59685834099946 attempt_15: "ache" score:6.39 prog:None
+T138.81254982200335 attempt_16> chills
+T142.6685723249975 attempt_16: "chills" score? !
+T142.66870533699694 reject: "chills"
+T151.5407817170053 attempt_16> bitter
+T191.79731021499902 attempt_16> ␚
+T191.79745086599723 <EOF>
+T0.0026633770030457526 now: 2024-11-18T14:38:00UTC
+T12.007083072996465 attempt_16> *10 t2 b2
+T12.008039270993322 /// ChatStats(token_count=18, user_count=1, assistant_count=0)
+T12.00806290100445 >>> give me 10 words that are similar to "frostbite" and "avalanche" but not similar to "quiche" or "caramel"
+T14.467823685001349 ... Here are 10 words that are similar in meaning to "frostbite" and "avalanche":
+T14.467867604995263 ... 
+T14.846434559003683 ... 1. Hypothermia
+T15.158102354995208 ... 2. Landslide
+T15.546601750000264 ... 3. Icy grip
+T15.875869269002578 ... 4. Snowfall
+T16.19703990999551 ... 5. Ice storm
+T16.5741775839997 ... 6. Glacial drift
+T16.891506354993908 ... 7. Rockslide
+T17.21467553199909 ... 8. Avalanche wave
+T17.46626623699558 ... 9. Blizzard
+T17.91607964799914 ... 10. Slushy terrain
+T17.916120952999336 ... 
+T31.887237226997968 attempt_16> Rockslide
+T38.34273853299965 attempt_16: "rockslide" score? 1.43
+T38.34281386800285 attempt_16: "rockslide" score:1.43 prog:None
+T42.655402641990804 attempt_17> blizzard
+T45.30330603499897 attempt_17: "blizzard" score? 6.43
+T45.303457629997865 attempt_17: "blizzard" score:6.43 prog:None
+T49.398564656992676 attempt_18> ice
+T52.56698332999076 attempt_18: "ice" score? 7.75
+T52.567111811004 attempt_18: "ice" score:7.75 prog:None
+T56.79126385199197 attempt_19> *10
+T56.79168379100156 /// ChatStats(token_count=92, user_count=2, assistant_count=1)
+T56.79171678199782 >>> give me 10 words at random that are not related to each other
+T58.341494013002375 ... Here are 10 random words that have no apparent connection:
+T58.34153902399703 ... 
+T58.59948642300151 ... 1. Piano
+T58.922946252991096 ... 2. Submarine
+T59.312168417993234 ... 3. Fjord
+T59.69418811899959 ... 4. Corgi
+T60.01655318700068 ... 5. Perfume
+T60.28009310999187 ... 6. Guitar
+T60.6091084159998 ... 7. Pineapple
+T60.93345693599258 ... 8. Harmonica
+T61.193180192 ... 9. Glacier
+T65.46288887500123 attempt_19> piano
+T75.23917267400248 attempt_19: "piano" score? guitar
+T84.27071994300059 attempt_19> piano
+T86.40718861100322 attempt_19: "piano" score? 2.81
+T86.4073293459951 attempt_19: "piano" score:2.81 prog:None
+T163.77551888299058 attempt_20> pineapple
+T166.9749399979919 attempt_20> corgi
+T171.46309662499698 attempt_20: "corgi" score? 1.24
+T171.4632654869929 attempt_20: "corgi" score:1.24 prog:None
+T600.3993997840007 <INT>
+T0.0029526360012823716 now: 2024-11-18T14:48:02UTC
+T6.726310328012914 attempt_21> *10
+T6.727117986010853 /// ChatStats(token_count=13, user_count=1, assistant_count=0)
+T6.727137421999942 >>> give me 10 words at random that are not related to each other
+T10.425934642000357 ... Here are 10 random words that are not related to each other:
+T10.42597890800971 ... 
+T10.8059644390014 ... 1. Corgi
+T11.122761775011895 ... 2. Spacecraft
+T11.435604778002016 ... 3. Pineapple
+T11.807839523011353 ... 4. Fjord
+T12.065613634011243 ... 5. Guitar
+T12.39521729601256 ... 6. Perfume
+T12.709144398002536 ... 7. Submarine
+T13.026464324007975 ... 8. Llama
+T13.345113400006085 ... 9. Harmonica
+T23.230194620002294 attempt_21> spacecraft
+T30.358230738012935 attempt_21: "spacecraft" score? 11.21
+T30.35837574400648 attempt_21: "spacecraft" score:11.21 prog:None
+T112.08614074801153 <INT>
+T0.003300006006611511 now: 2024-11-18T14:49:57UTC
+T5.18542753100337 attempt_22> *10 t1
+T5.186461338002118 /// ChatStats(token_count=9, user_count=1, assistant_count=0)
+T5.186486945007346 >>> give me 10 words that are similar to "spacecraft"
+T6.406282720010495 ... Here are 10 words that are similar to "spacecraft":
+T6.406326613010606 ... 
+T6.715813905000687 ... 1. Spaceship
+T6.966447747996426 ... 2. Rocket
+T7.219753238998237 ... 3. Satellite
+T7.529975918005221 ... 4. Orbiter
+T7.856888943002559 ... 5. Helicopter
+T8.177631675003795 ... 6. Airplane
+T8.556860473006964 ... 7. Airliner
+T8.886553539996385 ... 8. Bomber
+T9.219744827001705 ... 9. Fighterjet
+T17.554016609006794 attempt_22> rocket
+T20.121585382003104 "rocket" score? 5.27
+T20.121728024008917 attempt_22: "rocket" score:5.27 prog:None
+T26.905881862010574 attempt_23> satellite
+T30.83392591199663 "satellite" score? 3.74
+T30.83411323100154 attempt_23: "satellite" score:3.74 prog:None
+T38.47401612500835 attempt_24> * t2 b1
+T38.474624574009795 /// ChatStats(token_count=54, user_count=2, assistant_count=1)
+T38.4746724430006 >>> give me 10 words that are similar to "spacecraft" and "frostbite" but not similar to "quiche"
+T41.4798171500006 ... Interesting combination! Here are 10 words that are similar to both "spacecraft" and "frostbite":
+T41.47986046099686 ... 
+T41.73415372600721 ... 1. Orbit
+T41.98984270100482 ... 2. Satellite
+T42.244139957998414 ... 3. Freeze
+T42.50348419499642 ... 4. Chill
+T42.83952813599899 ... 5. Icy
+T43.163282988010906 ... 6. Glacial
+T43.482465150998905 ... 7. Cryogenic
+T44.46241564900265 ... 8. Aether (refers to the upper atmosphere, like space)
+T45.03858850900724 ... 9. Kelvin (a unit of temperature)
+T45.372705896006664 ... 10. Atmosphere
+T45.372748642999795 ... 
+T55.20981277700048 attempt_24> aether
+T62.2178499950096 "aether" score? 6.02
+T62.21802131499862 attempt_24: "aether" score:6.02 prog:None
+T65.56968539299851 attempt_25> atmosphere
+T69.14604022000276 "atmosphere" score? 0.17
+T69.14626202800719 attempt_25: "atmosphere" score:0.17 prog:None
+T75.1618569860002 attempt_26> kelvin
+T79.8975894949981 "kelvin" score? 5.07
+T79.89775951601041 attempt_26: "kelvin" score:5.07 prog:None
+T88.68226247299754 attempt_27> 3
+T89.32194915000582 <INT>
+T0.0028219269879627973 now: 2024-11-18T15:13:50UTC
+T6.845542431983631 attempt_27> *10 t2 b1
+T6.846169594995445 /// ChatStats(token_count=16, user_count=1, assistant_count=0)
+T6.846183839981677 >>> give me 10 words that are similar to "spacecraft" and "frostbite" but not similar to "quiche"
+T11.942631394980708 ... Here are 10 words that are similar to "spacecraft" and "frostbite", but not similar to "quiche":
+T11.942675265978323 ... 
+T12.31827851300477 ... Similar to "spacecraft":
+T12.570660270983353 ... 1. Rocket
+T12.822423372999765 ... 2. Satellite
+T13.136303703999147 ... 3. Orbital
+T13.396748692000983 ... 4. Mission
+T13.716754378983751 ... 5. Astronaut
+T13.716807749005966 ... 
+T14.167900372005533 ... Similar to "frostbite":
+T14.546619127999293 ... 6. Hypothermia
+T14.800963244982995 ... 7. Frost
+T15.23549667399493 ... 8. Chilblains
+T15.487689526984468 ... 9. Cold
+T75.18183087999932 attempt_27> 4
+T79.78979523500311 "mission" score? 7.03
+T79.78993057299522 attempt_27: "mission" score:7.03 prog:None
+T82.17423302700627 attempt_28> /last
+T88.19757062999997 attempt_28> 1
+T92.75805160298478 attempt_28> 5
+T96.3258112029871 "astronaut" score? 5.97
+T96.32599415400182 attempt_28: "astronaut" score:5.97 prog:None
+T100.62199777399655 attempt_29> 8
+T123.14286039597937 "" score? 
+T125.30194016199675 <INT>
+T0.003775313001824543 now: 2024-11-18T15:15:56UTC
+T4.098756104009226 attempt_29> *10
+T4.099680821003858 /// ChatStats(token_count=13, user_count=1, assistant_count=0)
+T4.099703379004495 >>> give me 10 words at random that are not related to each other
+T4.973761733999709 ... Here are 10 random words:
+T4.973804831010057 ... 
+T5.3063836350047495 ... 1. Koala
+T5.684389319008915 ... 2. Fjord
+T6.003032509994227 ... 3. Pineapple
+T6.265501585003221 ... 4. Guitar
+T6.579793939017691 ... 5. Snowflake
+T6.904341521993047 ... 6. Perfume
+T7.157316179014742 ... 7. Bicycle
+T7.486684486008016 ... 8. Cactus
+T7.812282739992952 ... 9. Submarine
+T9.450496093020774 attempt_29> 8
+T12.747818099014694 "cactus" score? 2.57
+T12.747953792015323 attempt_29: "cactus" score:2.57 prog:None
+T13.994771869998658 attempt_30> 1
+T17.05049812499783 "koala" score? 4.56
+T17.050683527020738 attempt_30: "koala" score:4.56 prog:None
+T18.386133560998132 attempt_31> /last
+T24.122791731002508 attempt_31> 4
+T27.666505578992656 "guitar" score? 3.11
+T27.666683720017318 attempt_31: "guitar" score:3.11 prog:None
+T31.56248032001895 attempt_32> > keep going
+T31.562828140013153 /// ChatStats(token_count=40, user_count=2, assistant_count=1)
+T31.562863717001164 >>>  keep going
+T32.713499747012975 ... Here are 10 more random words:
+T32.71354227201664 ... 
+T33.03541749101714 ... 1. Harmonica
+T33.28638895001495 ... 2. Galaxy
+T33.609393131016986 ... 3. Llama
+T33.87457458299468 ... 4. Fountain
+T34.13001332699787 ... 5. Basketball
+T34.388979211013066 ... 6. Butterfly
+T34.78529230499407 ... 7. Sausage
+T35.10809378200793 ... 8. Tapestry
+T35.3643979789922 ... 9. Glacier
+T40.04242288999376 attempt_32> 5
+T50.93851258000359 "basketball" score? -0.71
+T50.938764758000616 attempt_32: "basketball" score:-0.71 prog:None
+T54.03452047301107 attempt_33> 8
+T57.31444230800844 "tapestry" score? 0.51
+T57.31458066200139 attempt_33: "tapestry" score:0.51 prog:None
+T59.99482453701785 attempt_34> 7
+T63.25870670101722 "sausage" score? 2.03
+T63.258876940992195 attempt_34: "sausage" score:2.03 prog:None
+T83.6025788889965 attempt_35> /last
+T86.36244240001542 attempt_35> 4
+T88.05848752500606 attempt_35> /last
+T897.5948044290126 attempt_35> ␚
+T897.5949036340171 <EOF>
+T0.00373740098439157 now: 2024-11-18T15:30:55UTC
+T0.602206951007247 <INT>
+T0.003738371015060693 now: 2024-11-18T15:30:57UTC
+T0.512925349001307 attempt_35> ␚
+T0.5130339950264897 <EOF>
+T0.004363709012977779 now: 2024-11-18T15:30:59UTC
+T12.745182295999257 attempt_35> *10
+T12.746199490007712 /// ChatStats(token_count=13, user_count=1, assistant_count=0)
+T12.746224426024128 >>> give me 10 words at random that are not related to each other
+T16.46719205501722 ... Here are 10 random words that are not related to each other:
+T16.467236452008365 ... 
+T16.77633245801553 ... 1. Caramel
+T17.027127078006743 ... 2. Piano
+T17.34177033099695 ... 3. Snowflake
+T17.65951827200479 ... 4. Banjo
+T17.973373721004464 ... 5. Perfume
+T18.2287319820025 ... 6. Bicycle
+T18.54298555801506 ... 7. Starfish
+T18.85725791301229 ... 8. Pineapple
+T19.236213481024606 ... 9. Fjord
+T20.777008355013095 attempt_35> 4
+T26.7612008540018 "banjo" score? 1.14
+T26.761453662009444 attempt_35: "banjo" score:1.14 prog:None
+T45.833271711017005 attempt_36> 7
+T49.632777323015034 "starfish" score? 0.14
+T49.632915048016 attempt_36: "starfish" score:0.14 prog:None
+T53.737172452005325 attempt_37> > keep going
+T53.73759414401138 /// ChatStats(token_count=47, user_count=2, assistant_count=1)
+T53.737622290005675 >>>  keep going
+T55.41202177500236 ... Here are 10 more random words that are not related to each other:
+T55.41206342901569 ... 
+T55.7454903020116 ... 1. Submarine
+T56.00336247301311 ... 2. Guitar
+T56.32038096000906 ... 3. Llama
+T56.578993597009685 ... 4. Computer
+T56.89309676300036 ... 5. Volcano
+T57.20106908000889 ... 6. Pinecone
+T57.520274982001865 ... 7. Hockey puck
+T57.897674083011225 ... 8. Saffron
+T58.20887848502025 ... 9. Tornado
+T143.7534243420232 attempt_37> 5
+T156.76111950099585 "volcano" score? -3.84
+T156.76125847600633 attempt_37: "volcano" score:-3.84 prog:None
+T160.28883686900372 attempt_38> 8
+T164.7131520770199 "saffron" score? 6.09
+T164.71331867401022 attempt_38: "saffron" score:6.09 prog:None
+T169.2253153170168 attempt_39> 9
+T173.02472242500517 "tornado" score? 3.01
+T173.02486205901369 attempt_39: "tornado" score:3.01 prog:None
+T175.85742407801445 attempt_40> /last
+T178.4487979930127 attempt_40> 4
+T181.24926509801298 "computer" score? 11.83
+T181.24943702900782 attempt_40: "computer" score:11.83 prog:None
+T185.32109514501644 attempt_41> 6
+T188.6487821910123 "pinecone" score? 5.28
+T188.64892113901442 attempt_41: "pinecone" score:5.28 prog:None
+T190.6569460449973 attempt_42> /last
+T193.06482017302187 attempt_42> 10
+T196.5689332820184 "microscope" score? 9.02
+T196.56907309501548 attempt_42: "microscope" score:9.02 prog:None
+T201.4009733760031 attempt_43> 7
+T204.8811554190179 "hockey" score? 3.79
+T204.8812938950141 attempt_43: "hockey" score:3.79 prog:None
+T209.3931006519997 attempt_44> /last
+T219.6574111750233 attempt_44> /clear
+T1132.7611945579993 attempt_44> ␚
+T1132.7612978510151 <EOF>
+T0.004270199016900733 now: 2024-11-18T15:49:53UTC
+T1.4785114960104693 attempt_44> /model
+T3.814188370015472 ? 
+T111.59785923000891 attempt_44> ␚
+T111.59794267299003 <EOF>
+T0.003915874985978007 now: 2024-11-18T15:51:46UTC
+T1.3608194639964495 attempt_44> /model
+T2.9850465819763485 ? 
+T6.336504946986679 attempt_44> /model foo
+T0.0038078860088717192 now: 2024-11-18T15:52:30UTC
+T2.187149280012818 attempt_44> /model
+T2.9954025210172404 ? 
+T4.443531579017872 attempt_44> /model foo
+T10.107789602014236 ? 
+T58.3233386320062 attempt_44> ␚
+T58.32340474502416 <EOF>
+T0.004118848009966314 now: 2024-11-18T15:53:29UTC
+T2.4961402409826405 attempt_44> /model
+T6.11224907200085 Select model (by name or number)> 
+T11.464221011003247 attempt_44> *10
+T11.464786878990708 session: {"role": "user", "content": "give me 10 words at random that are not related to each other"}
+T11.465031133004231 /// ChatStats(token_count=13, user_count=1, assistant_count=0)
+T11.46504990500398 >>> give me 10 words at random that are not related to each other
+T15.196658128988929 ... Here are 10 random words that are not related to each other:
+T15.196703438996337 ... 
+T15.523465286009014 ... 1. Caramel
+T15.828739703982137 ... 2. Banjo
+T16.19155567200505 ... 3. Fjord
+T16.561821003007935 ... 4. Saffron
+T16.81621734800865 ... 5. Ninja
+T17.068629761983175 ... 6. Piano
+T17.306874506000895 ... 7. Mango
+T17.623469943006057 ... 8. Submarine
+T17.931135302991606 ... 9. Llama
+T18.26871746798861 session: {"role": "assistant", "content": "Here are 10 random words that are not related to each other:\n\n1. Caramel\n2. Banjo\n3. Fjord\n4. Saffron\n5. Ninja\n6. Piano\n7. Mango\n8. Submarine\n9. Llama\n10. Harmonica"}
+T1399.7521457189869 attempt_44> ␚
+T1399.7522520440107 <EOF>
+T0.005216521007241681 now: 2024-11-18T16:16:50UTC
+T29.56515045001288 attempt_44> 1
+T31.30851691099815 attempt_44> /last
+T34.07682668999769 attempt_44> 2
+T35.86877415300114 attempt_44> /last
+T37.188880090019666 attempt_44> 5
+T40.87695659601013 "ninja" score? 8.94
+T40.87708102000761 attempt_44: "ninja" score:8.94 prog:None
+T47.22863702400355 attempt_45> 8
+T50.95650164200924 "submarine" score? 4.46
+T50.9566370100074 attempt_45: "submarine" score:4.46 prog:None
+T59.96502057099133 attempt_46> *10 t2
+T59.96580906101735 session: {"role": "user", "content": "give me 10 words that are similar to \"computer\" and \"spacecraft\""}
+T75.1931940530194 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"computer\" and \"spacecraft\":\n\n1. Engine (similar to spacecraft engines)\n2. Chip (related to computer chips)\n3. Circuit (similar to computer circuitry)\n4. Radar (used in navigation systems, like those used in spacecraft)\n5. Module (a common component in computers and spacecraft)\n6. Processor (similar to the processor unit in a computer)\n7. Satellite (similar to spacecraft that orbit satellites)\n8. Terminal (used in computing and space exploration, such as spacecraft terminals)\n9. Algorithm (used in computer programming and spacecraft navigation)\n10. Robot (related to both computer-aided robots and spacecraft robots)"}
+T78.36530938601936 attempt_46> 1
+T81.33263630699366 "engine" score? 8.13
+T81.33279104699614 attempt_46: "engine" score:8.13 prog:None
+T82.28473506099544 attempt_47> 2
+T89.91702426300617 "chip" score? 9.69
+T89.91722443301114 attempt_47: "chip" score:9.69 prog:None
+T124.0128897090035 attempt_48> 3
+T127.03007954001077 "circuit" score? 8.52
+T127.03025462900405 attempt_48: "circuit" score:8.52 prog:None
+T130.05296881101094 attempt_49> /last
+T132.55672074999893 attempt_49> 4
+T135.94094411699916 "radar" score? 7.32
+T135.941110047017 attempt_49: "radar" score:7.32 prog:None
+T144.07665597600862 attempt_50> /last
+T146.540599208005 attempt_50> 6
+T149.95680426899344 "processor" score? 7.74
+T149.9569343640178 attempt_50: "processor" score:7.74 prog:None
+T151.4923209809931 attempt_51> 9
+T155.4292057400162 "algorithm" score? 4
+T155.42944633899606 attempt_51: "algorithm" score:4.00 prog:None
+T157.13282317400444 attempt_52> 10
+T160.06011440700968 "robot" score? 4.83
+T160.06017969100503 attempt_52: "robot" score:4.83 prog:None
+T163.64468786300858 attempt_53> 5
+T166.46117353401496 "module" score? 18.63
+T166.46134330000496 attempt_53: "module" score:18.63 prog:None
+T176.22096000399324 attempt_54> *10 t1
+T176.2212477500143 session: {"role": "user", "content": "give me 10 words that are similar to \"module\""}
+T180.98425760000828 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"module\":\n\n1. Component\n2. Section\n3. Unit\n4. Part\n5. Segment\n6. Block\n7. Module (as in a computer module)\n8. Subunit\n9. Assembly\n10. Element"}
+T182.87679124699207 attempt_54> 3
+T185.62094087601872 "unit" score? 7.37
+T185.621114234993 attempt_54: "unit" score:7.37 prog:None
+T187.03695547100506 attempt_55> 10
+T191.70876043100725 "element" score? 14.64
+T191.70890858201892 attempt_55: "element" score:14.64 prog:None
+T196.20497806501226 attempt_56> 5
+T199.1886337939941 "segment" score? 5.4
+T199.18878398399102 attempt_56: "segment" score:5.40 prog:None
+T200.45249994899496 attempt_57> 4
+T203.79685873299604 "part" score? 20.94
+T205.06870915400214 "part" 20.94°C prog‰ ? /last
+T465.12495669699274 "part" 20.94°C prog‰ ? ␚
+T465.1250486130011 <EOF>
+T0.0046034129918552935 now: 2024-11-18T16:24:37UTC
+T3.4917640119965654 attempt_57> 4
+T6.70817663098569 "part" score? 20.94
+T6.708414074993925 attempt_57: "part" score:20.94 prog:None
+T13.580242747004377 attempt_58> *10 t2
+T13.580984027008526 session: {"role": "user", "content": "give me 10 words that are similar to \"part\" and \"module\""}
+T18.331963481003186 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"part\" and \"module\":\n\n1. Piece\n2. Unit\n3. Segment\n4. Component\n5. Section\n6. Segment\n7. Subunit\n8. Element\n9. Chunk\n10. Unit"}
+T21.3235602969944 attempt_58> 1
+T24.555740040988894 "piece" score? 5.81
+T24.555920824001078 attempt_58: "piece" score:5.81 prog:None
+T26.508081574982498 attempt_59> 7
+T31.667895097984 "subunit" score? 9.28
+T31.668044113001088 attempt_59: "subunit" score:9.28 prog:None
+T33.22806993298582 attempt_60> /last
+T181.38096728900564 attempt_60> ␚
+T181.3810072990018 <EOF>
+T0.0049258400104008615 now: 2024-11-18T16:27:39UTC
+T17.312831224000547 attempt_60> 5
+T22.928880780003965 "section" score? 15.54
+T22.929024445998948 attempt_60: "section" score:15.54 prog:None
+T34.17685310100205 attempt_61> /vars
+T68.48903658299241 attempt_61> /last
+T74.00118841900257 attempt_61> 6
+T86.0808641090116 attempt_61> 2
+T87.39357436200953 attempt_61> 1
+T90.18504951801151 attempt_61> 4
+T97.01682384501328 "component" score? 22.42 20
+T97.01699237999856 attempt_61: "component" score:22.42 prog:None
+T112.40111687401077 attempt_62> /vars
+T547.200563972001 attempt_62> ␚
+T547.2006080260035 <EOF>
+T0.0049947790103033185 now: 2024-11-18T16:36:47UTC
+T8.67341389899957 attempt_62> 5
+T9.753956589993322 attempt_62> 6
+T21.233432120992802 attempt_62> 9
+T27.45031358100823 reply_9 "chunk" score? 10.82
+T29.673314340005163 reply_9 "chunk" 10.82°C prog‰ ? 
+T29.673494287009817 attempt_62: "chunk" score:10.82 prog:None
+T126.04153444699477 attempt_63> ␚
+T126.04164472900447 <EOF>
+T0.004730770015157759 now: 2024-11-18T16:38:55UTC
+T11.784109130006982 attempt_63> *10 t2 b2
+T11.785163254011422 session: {"role": "user", "content": "give me 10 words that are similar to \"component\" and \"part\" but not similar to \"quiche\" or \"caramel\""}
+T34.93658618500922 session: {"role": "assistant", "content": "A clever distinction! Here are 10 words that are similar to \"component\" and \"part\", but not similar to \"quiche\" or \"caramel\":\n\n1. Element\n2. Section\n3. Unit\n4. Segment\n5. Subunit\n6. Aspect\n7. Portion\n8. Fragment\n9. Piece\n10. Section"}
+T36.695871726988116 attempt_63> 8
+T40.54391522498918 reply_8 "fragment" score? 6.93
+T40.54411821899703 attempt_63: "fragment" score:6.93 prog:None
+T43.18404635699699 attempt_64> 6
+T47.880170957010705 reply_6 "aspect" score? 10.69
+T47.88045093501569 attempt_64: "aspect" score:10.69 prog:None
+T1251.5040944520151 attempt_65> ␚
+T1251.504194387002 <EOF>
+T0.004814179003005847 now: 2024-11-18T16:59:47UTC
+T2.2275485990103334 attempt_65> /extract
+T61.28306082999916 attempt_65> ␚
+T61.28315001100418 <EOF>
+T0.004777682013809681 now: 2024-11-18T17:00:50UTC
+T1.5729136500158347 attempt_65> /extract
+T6.268902138021076 attempt_65> 1
+T14.549049376015319 extract_1 score? 24.10 301
+T19.324737886025105 extract_1 24.10°C prog‰ ? 310
+T21.364903199020773 extract_1 24.10°C prog‰ ? 301
+T26.916638093010988 <INT>
+T0.004807791003258899 now: 2024-11-18T17:05:03UTC
+T7.036888339003781 attempt_65> /extract
+T8.044756484014215 attempt_65> 1
+T12.509420382004464 extract_1 score? 22.42 301
+T53.66402073201607 <INT>
+T0.005941548006376252 now: 2024-11-18T17:05:58UTC
+T4.750443060998805 attempt_65> /extract
+T5.7587809409888 attempt_65> 1
+T10.27085897399229 extract_1 score? 24.1 301
+T57.39886049699271 extract_1 24.10°C at:None req:False prog‰ ? ␚
+T57.398901887994725 <EOF>
+T0.007712013990385458 now: 2024-11-18T17:06:57UTC
+T2.488390882994281 attempt_65> /extract
+T3.0971104849886615 attempt_65> 1
+T7.256610743002966 extract_1 score? 24.1 301
+T7.2567681960063055 attempt_65: "portion" score:24.10 prog:301
+T16.71287534700241 attempt_66> 
+T17.113001048011938 attempt_66> 
+T17.86493431701092 attempt_66> 
+T18.048874934989726 attempt_66> 
+T148.17155207198812 attempt_66> ␚
+T148.17160659100045 <EOF>
+T0.005540640006074682 now: 2024-11-18T17:09:26UTC
+T5.032975631009322 attempt_66> /extract
+T15.91275459798635 attempt_66> > keep going
+T15.91319160698913 session: {"role": "user", "content": "keep going"}
+T42.05641032900894 session: {"role": "assistant", "content": "Here are 10 more words that are similar to \"component\" and \"part\", but not similar to \"quiche\" or \"caramel\":\n\n1. Segment\n2. Subset\n3. Fragment\n4. Section\n5. Particle\n6. Element\n7. Component\n8. Fraction\n9. Proportion\n10. Piece"}
+T67.28873171299347 attempt_66> /extract
+T170.24118447198998 <INT>
+T0.005299918004311621 now: 2024-11-18T17:12:18UTC
+T11.084057425003266 attempt_66> 1
+T19.579953731008573 extract_1 score? 28.52 704
+T19.5801616020035 attempt_66: "fraction" score:28.52 prog:704
+T24.971524974011118 attempt_67> 1
+T28.69970575798652 extract_1 score? 15.83
+T28.699840576009592 attempt_67: "particle" score:15.83 prog:None
+T30.412153200013563 attempt_68> 1
+T39.87568137398921 extract_1 score? 17.93
+T39.87583400699077 attempt_68: "proportion" score:17.93 prog:None
+T53.32383918200503 attempt_69> 1
+T57.0921661320026 extract_1 score? 12.87
+T57.09234367500176 attempt_69: "subset" score:12.87 prog:None
+T90.01194291599677 attempt_70> ␚
+T90.01207456400152 <EOF>
+T0.007860565994633362 now: 2024-11-18T17:13:50UTC
+T2.6344276079908013 attempt_70> ␚
+T2.634514458011836 <EOF>
+T0.008621340006357059 now: 2024-11-18T17:14:18UTC
+T21.072753757005557 <INT>
+T0.006721008016029373 now: 2024-11-18T17:14:40UTC
+T63.22656398502295 attempt_70> /clear
+T63.2274091670115 session clear
+T64.1065084040165 attempt_70> ␚
+T64.10661862400593 <EOF>
+T0.006192247004946694 now: 2024-11-18T17:15:45UTC
+T2.848748352000257 attempt_70> ␚
+T2.848884255014127 <EOF>
+T0.005209566006669775 now: 2024-11-18T17:15:49UTC
+T43.622441910993075 <INT>
+T0.007279378012754023 now: 2024-11-18T17:16:34UTC
+T20.2968282320071 attempt_70> ␚
+T20.296955702011473 <EOF>
+T0.004917849000776187 now: 2024-11-18T17:17:34UTC
+T10.738168703013798 attempt_70> ␚
+T10.738216840021778 <EOF>
+T0.004911968018859625 now: 2024-11-18T17:18:15UTC
+T137.34962778000045 attempt_70> ␚
+T137.3497032050218 <EOF>
+T0.004870442993706092 now: 2024-11-18T17:20:33UTC
+T82.4414085150056 attempt_70> ␚
+T82.44151330401655 <EOF>
+T0.007937154005048797 now: 2024-11-18T17:21:57UTC
+T8.117221232008887 attempt_70> *10 t2
+T8.117881784011843 session clear
+T8.1181994540093 session: {"role": "user", "content": "give me 10 words that are similar to \"fraction\" and \"portion\""}
+T16.44861996700638 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"fraction\" and \"portion\":\n\n1. Segment\n2. Share\n3. Part\n4. Piece\n5. Element\n6. Unit\n7. Component\n8. Element of\n9. Slice\n10. Bit\n\nThese words all relate to concepts of division, measurement, or proportion, which are similar to the meanings of \"fraction\" and \"portion\"."}
+T19.013203769020038 attempt_70> 1
+T23.18161197201698 extract_1 score? 4.53
+T23.18184693402145 attempt_70: "bit" score:4.53 prog:None
+T24.2373886310088 attempt_71> 1
+T27.717466766014695 extract_1 score? 2.51
+T27.717665460018907 attempt_71: "share" score:2.51 prog:None
+T33.76543608002248 attempt_72> 1
+T36.83750652501476 extract_1 score? 3.29
+T36.83769467502134 attempt_72: "slice" score:3.29 prog:None
+T39.57369877799647 attempt_73> > keep going
+T39.57399854401592 session: {"role": "user", "content": "keep going"}
+T47.92999456601683 session: {"role": "assistant", "content": "Here are 10 more words that are similar to \"fraction\" and \"portion\":\n\n11. Quotient\n12. Proportionate\n13. Division\n14. Fractional\n15. Piecewise\n16. Segmental\n17. Multiplicity\n18. Amount\n19. Element of\n20. Measure\n\nAnd here are 10 more:\n\n21. Allocated\n22. Assigned\n23. Distributed\n24. Dependent on\n25. In proportion\n26. Relative\n27. Comparative\n28. Corresponding\n29. Matching\n30. Similar"}
+T60.18920436501503 attempt_73> 16
+T63.66942621101043 extract_16 score? 8.73
+T63.66961257701041 attempt_73: "quotient" score:8.73 prog:None
+T66.97310723600094 attempt_74> 16
+T69.71732069700374 extract_16 score? 7.17
+T69.71750892300042 attempt_74: "relative" score:7.17 prog:None
+T70.80526612600079 attempt_75> 1
+T76.05335169201135 extract_1 score? !
+T76.05348579600104 reject: "allocated"
+T77.55708520501503 attempt_75> allocate
+T90.81341197501752 attempt_75> 1
+T113.8296453160001 extract_1 score? 29.51 767
+T113.82989088501199 attempt_75: "amount" score:29.51 prog:767
+T116.37319935800042 attempt_76> 
+T121.62925586200436 attempt_76> /last
+T127.2135094620171 attempt_76> *10 t3
+T127.21376060901093 session clear
+T127.21389344902127 session: {"role": "user", "content": "give me 10 words that are similar to \"amount\", \"fraction\", and \"portion\""}
+T132.8995165170054 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"amount\", \"fraction\", and \"portion\":\n\n1. Quantity\n2. Proportions\n3. Division\n4. Rate\n5. Measure\n6. Portionate (this word is not as common, but it refers to the act of dividing something into portions)\n7. Fractional\n8. Share\n9. Allocation\n10. Division"}
+T137.51734184700763 attempt_76> 5
+T140.9812670990068 extract_5 score? 19.41
+T140.98141995200422 attempt_76: "measure" score:19.41 prog:None
+T142.30152392201126 attempt_77> 1
+T145.55772637901828 extract_1 score? 13.46
+T145.5579514260171 attempt_77: "allocation" score:13.46 prog:None
+T147.04532997700153 attempt_78> 1
+T151.18174988002283 extract_1 score? -0.27
+T151.18197827701806 attempt_78: "division" score:-0.27 prog:None
+T206.11754741100594 attempt_79> ␚
+T206.11764432000928 <EOF>
+T0.005671291000908241 now: 2024-11-18T17:25:24UTC
+T4.554008266015444 attempt_79> 5
+T7.7698458149970975 extract_5 score? 17.03
+T7.770034659013618 attempt_79: "rate" score:17.03 prog:None
+T8.794369187002303 attempt_80> 4
+T12.777996295015328 extract_4 score? 15.68
+T12.778232008015038 attempt_80: "quantity" score:15.68 prog:None
+T18.017675566021353 attempt_81> 3
+T23.449933174997568 extract_3 score? 
+T26.889627427008236 attempt_81> proportion
+T33.28192785099964 attempt_81> 
+T35.898000240005786 attempt_81> proportions
+T38.12152373002027 "proportions" score? !
+T38.12163074701675 reject: "proportions"
+T40.649693952000234 attempt_81> proportion
+T70.93790151699795 attempt_81> /extract
+T73.51405116499518 attempt_81> 2
+T77.40180224602227 extract_2 score? !
+T77.40194253000664 reject: "portionate"
+T79.2976905630203 attempt_81> 1
+T83.97003396399668 extract_1 score? 17.81
+T83.97021159902215 attempt_81: "fractional" score:17.81 prog:None
+T88.51382982800715 attempt_82> > keep going
+T88.51430630401592 session: {"role": "user", "content": "keep going"}
+T94.54314376099501 session: {"role": "assistant", "content": "Here are 10 more words that are similar to \"amount\", \"fraction\", and \"portion\":\n\n11. Parity\n12. Proportionate\n13. Quota\n14. Ration\n15. Split\n16. Component\n17. Segment\n18. Tally\n19. Shareout\n20. Cutoff"}
+T132.6662830389978 <INT>
+T0.008253931999206543 now: 2024-11-18T17:31:19UTC
+T6.059011069999542 attempt_82> 8
+T9.179291858978104 extract_8 score? 1.79
+T9.17946857199422 attempt_82: "tally" score:1.79 prog:None
+T11.275585166993551 attempt_83> 4
+T14.667310652002925 extract_4 score? 14.57
+T14.667479030991672 attempt_83: "quota" score:14.57 prog:None
+T16.515223047987092 attempt_84> 4
+T19.579257745994255 extract_4 score? 7.98
+T19.579394094005693 attempt_84: "ration" score:7.98 prog:None
+T22.299402782984544 attempt_85> 5
+T25.683493171993177 extract_5 score? 3.48
+T25.68369241198525 attempt_85: "split" score:3.48 prog:None
+T28.347270022000885 attempt_86> 3
+T38.379582117981045 extract_3 score? 28.69 715
+T38.3798086939787 attempt_86: "proportionate" score:28.69 prog:715
+T1677.5240001929924 <INT>
+T0.006131339003331959 now: 2024-11-18T17:59:18UTC
+T159.5557677790057 attempt_87> ␚
+T159.55580136200297 <EOF>
+T0.005315159010933712 now: 2024-11-18T18:01:58UTC
+T26.740211619995534 attempt_87> 2
+T29.396558582986472 extract_2 score? 5.1
+T0.005282400001306087 now: 2024-11-18T18:02:52UTC
+T3.045748350006761 attempt_87> 2
+T5.341529277007794 extract_2 score? 5.1
+T5.341733158013085 attempt_87: "parity" score:5.10 prog:None
+T6.981185804004781 attempt_88> 1
+T10.27750536199892 extract_1 score? 20.34
+T10.277685745997587 attempt_88: "cutoff" score:20.34 prog:None
+T11.557617765007308 attempt_89> 1
+T13.693610000016633 extract_1 score? !
+T13.693867015012074 reject: "shareout"
+T21.14452800201252 <INT>
+T0.0062758080021012574 now: 2024-11-18T18:03:28UTC
+T0.9444212180096656 <INT>
+T0.0052783439750783145 now: 2024-11-18T18:05:40UTC
+T121.48534484297852 attempt_89> ␚
+T121.4853975129954 <EOF>
+T0.005528731009690091 now: 2024-11-18T18:07:43UTC
+T209.25875526000164 <INT>
+T0.008130453003104776 now: 2024-11-18T18:11:13UTC
+T173.83750720799435 <INT>
+T0.005303936981363222 now: 2024-11-18T18:14:08UTC
+T48.970565872994484 <INT>
+T0.005548138986341655 now: 2024-11-18T18:14:58UTC
+T73.35979739599861 <INT>
+T0.005818375007947907 now: 2024-11-18T18:16:12UTC
+T32.34581215499202 attempt_89> ␚
+T32.34586790500907 <EOF>
+T0.005253862997051328 now: 2024-11-18T18:16:48UTC
+T23.40616345399758 attempt_89> *10 t2
+T23.406542356999125 session clear
+T23.406691646989202 session: {"role": "user", "content": "give me 10 words that are similar to \"amount\" and \"proportionate\""}
+T30.876855602982687 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"amount\" and \"proportionate\":\n\n1. Measure\n2. Quantity\n3. Rate\n4. Ratio\n5. Scale\n6. Fraction\n7. Degree\n8. Level\n9. Amounts\n10. Equivalents"}
+T33.59854084299877 attempt_89> 2
+T37.10219089698512 extract_2 score? 17.61
+T37.10235597699648 attempt_89: "degree" score:17.61 prog:None
+T38.59837904499727 attempt_90> 5
+T44.02258753500064 extract_5 score? 16.84
+T44.022871605993714 attempt_90: "scale" score:16.84 prog:None
+T45.27877341400017 attempt_91> 3
+T51.6387823309924 extract_3 score? 24.73
+T52.84653234598227 extract_3 24.73°C prog‰ ? 368
+T52.846710118988995 attempt_91: "level" score:24.73 prog:368
+T62.66191874098149 attempt_92> 3
+T66.27027295299922 extract_3 score? 13.09
+T66.27041500699124 attempt_92: "ratio" score:13.09 prog:None
+T68.71089496900095 attempt_93> 1
+T73.5744765829877 extract_1 score? !
+T73.57460694698966 reject: "amounts"
+T76.53381751399138 attempt_93> 
+T79.15866748199915 attempt_93> amount
+T84.84664245898603 attempt_93> /extract
+T86.45385271598934 attempt_93> 1
+T89.37437698399299 extract_1 score? !
+T89.37455952799064 reject: "equivalents"
+T94.53448339700117 attempt_93> equivalents
+T100.16625064099208 attempt_93> equivalent
+T101.27885880999384 "equivalent" score? 
+T105.20670509600313 attempt_93> equivalent
+T114.20740489999298 "equivalent" score? 26.84 608
+T114.20765036900411 attempt_93: "equivalent" score:26.84 prog:608
+T116.687026116997 attempt_94> 
+T117.6545194319915 attempt_94> 
+T117.838664357987 attempt_94> 
+T120.67037733498728 attempt_94> 
+T120.8304530250025 attempt_94> 
+T120.97438622900518 attempt_94> 
+T121.12638285799767 attempt_94> 
+T133.7021623259934 attempt_94> ␚
+T133.70226224698126 <EOF>
+T0.006514553999295458 now: 2024-11-18T18:19:03UTC
+T1.1514606660057325 attempt_94> 
+T23.488121727015823 attempt_94> keep going like "equivalent"
+T26.73620776901953 <INT>
+T0.0055446480109822005 now: 2024-11-18T18:19:32UTC
+T11.633845206000842 attempt_94> > keep going but make the words similar to "equivalent"
+T11.634791752003366 session: {"role": "user", "content": "keep going but make the words similar to \"equivalent\""}
+T16.450616863992764 session: {"role": "assistant", "content": "Here are 10 more words that are similar to \"equivalent\":\n\n1. Comparable\n2. Similar\n3. Equivalent\n4. Matching\n5. Parallel\n6. Corresponding\n7. Identical\n8. Symmetrical\n9. Analogous\n10. Harmonious"}
+T20.481746044999454 attempt_94> 8
+T23.577746341004968 extract_8 score? 10.2
+T23.578061203006655 attempt_94: "similar" score:10.20 prog:None
+T24.953163981990656 attempt_95> 7
+T27.729582424013643 extract_7 score? 10.55
+T27.729834731988376 attempt_95: "parallel" score:10.55 prog:None
+T28.969380858005024 attempt_96> 5
+T32.593572940008016 extract_5 score? 18.26
+T32.5937642469944 attempt_96: "identical" score:18.26 prog:None
+T34.40133825599332 attempt_97> 2
+T36.79364732399699 extract_2 score? 18.73
+T36.79384875998949 attempt_97: "comparable" score:18.73 prog:None
+T38.817052950005746 attempt_98> 
+T45.96902541001327 attempt_98> 
+T47.03303642501123 attempt_98> 
+T47.25681381599861 attempt_98> 
+T48.03367057701689 attempt_98> 
+T48.201608780014794 attempt_98> 
+T48.36121574399294 attempt_98> 
+T48.681693110993365 attempt_98> 
+T49.0652610269899 attempt_98> 
+T49.45699449800304 attempt_98> 
+T57.296969413000625 attempt_98> 
+T62.88177970799734 attempt_98> 
+T64.617727801 attempt_98> 
+T136.88938406700618 attempt_98> ␚
+T136.88946648899582 <EOF>
+T0.0067968330113217235 now: 2024-11-18T18:21:50UTC
+T32.970200217998354 attempt_98 # 
+T39.761845423985505 attempt_98 ? t6
+T40.340094103012234 <INT>
+T0.008968638983787969 now: 2024-11-18T18:28:10UTC
+T2.106024020991754 attempt_98 # t6
+T3.9380946019955445 attempt_98 # T6
+T7.16974339299486 attempt_98 # 
+T9.377763086988125 attempt_98 ? T6
+T0.006126886000856757 now: 2024-11-18T18:29:35UTC
+T1.7090281870041508 attempt_98 # t6
+T3.210630849003792 attempt_98 # 
+T3.994248636998236 attempt_98 ? t6
+T12.826480987016112 <INT>
+T0.0060985460004303604 now: 2024-11-18T18:29:51UTC
+T0.42363994399784133 attempt_98 # 
+T1.1436866199946962 attempt_98 ? t6
+T2.0081544409913477 <INT>
+T0.006519974995171651 now: 2024-11-18T18:30:09UTC
+T1.4582198940042872 attempt_98 # 
+T2.1067625080177095 attempt_98 ? t6
+T6.37815619900357 attempt_98 ? *t5
+T11.0584756390017 attempt_98 ? *10 t5
+T14.890641350997612 attempt_98 ? *10 t5
+T18.35409927801811 attempt_98 ? *10
+T19.81826666102279 attempt_98 ? 
+T20.009865582018392 attempt_98 # 
+T21.186077410995495 attempt_98 ? 
+T21.57025367501774 attempt_98 # 
+T23.026609801017912 attempt_98 ? *10 t5
+T33.474488428997574 attempt_98 ? t5
+T38.546110237017274 attempt_98 ? *10
+T79.6624352200015 attempt_98 ? ␚
+T79.66248267699848 <EOF>
+T0.005699631001334637 now: 2024-11-18T18:31:30UTC
+T1.099775156006217 attempt_98 # 
+T2.619718384987209 attempt_98 ? *10 t5
+T39.237776714988286 <INT>
+T0.007957617985084653 now: 2024-11-18T18:32:10UTC
+T1.3370494149858132 attempt_98 # 
+T3.3933505269815214 attempt_98 ? *10 
+T20.905014324991498 <INT>
+T0.005701891001081094 now: 2024-11-18T18:32:33UTC
+T1.166272078990005 attempt_98 # 
+T3.28647330601234 attempt_98 ? *10 t5
+T173.26236552500632 <INT>
+T0.005485414003487676 now: 2024-11-18T18:35:28UTC
+T1.87799834299949 attempt_98 # 
+T5.3658001410076395 attempt_98 ? t5
+T7.4533329289988615 attempt_98 ? *10 t5
+T7.453571140998974 session clear
+T7.453973336989293 session: {"role": "user", "content": "give me 10 words that are similar to \"amount\", \"proportionate\", \"fraction\", \"equivalent\", and \"level\""}
+T24.21207879501162 session: {"role": "assistant", "content": "Here are 10 words that are similar to the given terms:\n\n1. Quantity - refers to a specific amount or size\n2. Ratio - a comparison of two quantities, often used to describe proportions\n3. Fractional - divided into equal parts, similar to fractions\n4. Equivalent ratio - having the same value as another ratio\n5. Scale factor - a number that describes how much one quantity is multiplied by another\n6. Percentage - a proportion of 100, often used in level or grade descriptions\n7. Proportional - having a fixed relationship between different parts, similar to proportions\n8. Rate - a measure of the amount of something per unit time\n9. Measure - a standard amount or size for comparison\n10. Ratio of - comparing two quantities, often used to describe proportions\n\nNote that some of these words may have slightly different connotations or uses, but they all relate to concepts similar to \"amount\", \"proportionate\", \"fraction\", \"equivalent\", and \"level\"."}
+T48.45339397600037 attempt_98 # 1
+T51.757377645000815 extract_1 score? 14.99
+T51.75754888000665 attempt_98: "percentage" score:14.99 prog:None
+T54.91750523500377 attempt_99 # 1
+T63.43737939701532 extract_1 score? 24.52 350
+T63.43755664100172 attempt_99: "proportional" score:24.52 prog:350
+T65.63751307499479 attempt_100 ? t10
+T642.853459283011 <INT>
+T0.0091926799796056 now: 2024-11-18T18:46:12UTC
+T2.3025172999768984 attempt_100 ? t6
+T9.83849686398753 attempt_100 ? T10
+T28.022740077984054 attempt_100 ? * t6 -$8 -$9
+T28.022997866995865 session clear
+T28.02335732197389 session: {"role": "user", "content": "give me 10 words that are similar to \"component\" and \"part\" but not similar to \"component\" or \"part\""}
+T35.897773812001105 session: {"role": "assistant", "content": "Here are 10 words that convey a sense of being a component or part of something, but are distinct from the exact meanings of \"component\" and \"part\":\n\n1. Element\n2. Unit\n3. Section\n4. Segment\n5. Branch\n6. Subunit\n7. Piece\n8. Aspect\n9. Fraction\n10. Module"}
+T47.57479773298837 <INT>
+T0.007427700009429827 now: 2024-11-18T18:47:01UTC
+T1.962455022992799 attempt_100 # 
+T2.746350375993643 attempt_100 ? t10
+T8.722284790012054 attempt_100 ? * t6 -$8 -$9
+T8.722598091000691 session clear
+T8.723051762994146 session: {"role": "user", "content": "give me 10 words that are similar to \"amount\", \"proportionate\", \"fraction\", \"equivalent\", \"level\", and \"proportional\" but not similar to \"component\" or \"part\""}
+T17.30240821299958 session: {"role": "assistant", "content": "Here are 10 words that convey a sense of similarity to the given words, but without being too close to \"component\" or \"part\":\n\n1. Measure\n2. Ratio\n3. Scale\n4. Rate\n5. Estimate\n6. Approximation\n7. Comparative\n8. Similarity\n9. Disproportionate\n10. Comparable\n\nThese words all relate to the idea of comparing, measuring, or evaluating something in relation to others, but they have distinct connotations and uses that set them apart from \"component\" and \"part\"."}
+T23.29033112799516 attempt_100 # 1
+T26.41044334601611 extract_1 score? 13.48
+T26.410726357018575 attempt_100: "approximation" score:13.48 prog:None
+T27.61058900001808 attempt_101 # 3
+T30.394616193021648 extract_3 score? 13.02
+T30.394798622000962 attempt_101: "estimate" score:13.02 prog:None
+T31.69035688499571 attempt_102 # 1
+T34.17120654301834 extract_1 score? 12.22
+T34.17140494400519 attempt_102: "comparative" score:12.22 prog:None
+T35.442151623021346 attempt_103 # 2
+T42.47469499500585 extract_2 score? 0.46
+T42.47488082901691 attempt_103: "similarity" score:0.46 prog:None
+T44.578373027005 attempt_104 # 1
+T47.906526694016065 extract_1 score? 9.91
+T47.9067891559971 attempt_104: "disproportionate" score:9.91 prog:None
+T55.634050370019395 attempt_105 ? *10 t3
+T55.634191412013024 session clear
+T55.63425408900366 session: {"role": "user", "content": "give me 10 words that are similar to \"amount\", \"proportionate\", and \"fraction\""}
+T59.93314421601826 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"amount\", \"proportionate\", and \"fraction\":\n\n1. Measure\n2. Ratio\n3. Portion\n4. Share\n5. Fractional\n6. Percentage\n7. Component\n8. Element\n9. Quantify\n10. Part"}
+T61.88250327901915 attempt_105 # 1
+T64.93032027201843 extract_1 score? 7.97
+T64.9305897160084 attempt_105: "quantify" score:7.97 prog:None
+T66.77057866501855 attempt_106 ? > keep going
+T66.77091619101702 session: {"role": "user", "content": "keep going"}
+T71.62628630801919 session: {"role": "assistant", "content": "Here are 10 more words that are similar to \"amount\", \"proportionate\", and \"fraction\":\n\n1. Scale\n2. Divide\n3. Split\n4. Allocate\n5. Distribute\n6. Parity\n7. Equivalence\n8. Equivalent\n9. Rate\n10. Scale"}
+T73.29056604500511 attempt_106 # 3
+T76.12203741801204 extract_3 score? 6.04
+T76.12220677299774 attempt_106: "divide" score:6.04 prog:None
+T77.85016304301098 attempt_107 # 1
+T80.33920707801008 extract_1 score? 15.45
+T80.33938581400434 attempt_107: "allocate" score:15.45 prog:None
+T81.44205751799745 attempt_108 # 1
+T85.610234243999 extract_1 score? 9.69
+T85.61040518799564 attempt_108: "distribute" score:9.69 prog:None
+T86.6590152940189 attempt_109 # 1
+T89.82625213899883 extract_1 score? 15.16
+T89.82640762501978 attempt_109: "equivalence" score:15.16 prog:None
+T110.35408414201811 attempt_110 ? *10 t1
+T110.3542593610182 session clear
+T110.35433332601679 session: {"role": "user", "content": "give me 10 words that are similar to \"amount\""}
+T114.14635312801693 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"amount\":\n\n1. Quantity\n2. Sum\n3. Total\n4. Measure\n5. Volume\n6. Mass\n7. Bulk\n8. Amounts (plural)\n9. Extent\n10. Proportion"}
+T116.410287953011 attempt_110 # 4
+T119.62124788900837 extract_4 score? 14.95
+T119.62149569799658 attempt_110: "sum" score:14.95 prog:None
+T120.94646360501065 attempt_111 # 4
+T124.17009199300082 extract_4 score? 19.73
+T124.1702733580023 attempt_111: "total" score:19.73 prog:None
+T127.634560253995 attempt_112 # 2
+T130.46595982799772 extract_2 score? 18.64
+T130.46610167701147 attempt_112: "extent" score:18.64 prog:None
+T131.36208256401005 attempt_113 # 3
+T133.89198815700365 extract_3 score? 14.65
+T133.89223909500288 attempt_113: "volume" score:14.65 prog:None
+T134.91418502500164 attempt_114 # 2
+T137.71433917200193 extract_2 score? 10.29
+T137.71458446700126 attempt_114: "mass" score:10.29 prog:None
+T138.4181872420013 attempt_115 # 1
+T143.26653279800666 extract_1 score? 19.15
+T143.26681894200738 attempt_115: "bulk" score:19.15 prog:None
+T150.18616487600957 attempt_116 ? b20
+T164.09805175100337 attempt_116 ? *10 t1 - $38 
+T164.09821843801183 session clear
+T164.09830818601768 session: {"role": "user", "content": "give me 10 words that are similar to \"amount\" but not similar to "}
+T176.2814471750171 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"amount\" but have different meanings:\n\n1. Quantity - refers to the size or number of something\n2. Sum - a total amount or quantity, often calculated\n3. Bulk - a large amount or quantity, especially of something\n4. Load - a heavy or difficult amount of work or responsibility\n5. Weight - a measure of heaviness or mass, equivalent to amount\n6. Mass - a large quantity or amount of something\n7. Stockpile - a store of goods or supplies, often in large amounts\n8. Reserve - a set aside amount or quantity for future use\n9. Inventory - a list or collection of items, often by amount or quantity\n10. Supply - the total amount available or needed, often for a specific purpose\n\nThese words all relate to the concept of \"amount\" but have distinct meanings and uses in different contexts."}
+T204.8049692340137 attempt_116 # 5
+T208.25790949200746 extract_5 score? 11.39
+T208.25806093099527 attempt_116: "supply" score:11.39 prog:None
+T209.8899174950202 attempt_117 # 1
+T212.29827294999268 extract_1 score? 15.13
+T212.29846999200527 attempt_117: "inventory" score:15.13 prog:None
+T213.23429641799885 attempt_118 # 1
+T217.42606711399276 extract_1 score? 17.43
+T217.42623523401562 attempt_118: "load" score:17.43 prog:None
+T218.78624060901348 attempt_119 # 1
+T221.48171553801512 extract_1 score? 17.54
+T221.48180064500775 attempt_119: "reserve" score:17.54 prog:None
+T222.74605757699464 attempt_120 # 2
+T225.346368945 extract_2 score? 10.54
+T225.3466712970112 attempt_120: "weight" score:10.54 prog:None
+T226.47438921401044 attempt_121 # 1
+T228.80222226600745 extract_1 score? 8.61
+T228.80241659999592 attempt_121: "stockpile" score:8.61 prog:None
+T233.00228341500042 attempt_122 ? B20
+T250.25037949101534 attempt_122 ? *10 t1 -$120 -$119
+T250.25067245500395 session clear
+T250.2508086170128 session: {"role": "user", "content": "give me 10 words that are similar to \"amount\" but not similar to \"volcano\" or \"bitter\""}
+T255.80053976899944 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"amount\" but not similar to \"volcano\" or \"bitter\":\n\n1. Quantity\n2. Measure\n3. Sum\n4. Total\n5. Number\n6. Count\n7. Mass\n8. Load\n9. Massive (note: this one is a bit different, but still related)\n10. Bulk"}
+T261.3625556949992 attempt_122 # 1
+T264.49839630600763 extract_1 score? 11.97
+T264.49858101501013 attempt_122: "count" score:11.97 prog:None
+T265.69032198999776 attempt_123 # 1
+T268.5545802380075 extract_1 score? 124
+T278.6183254380012 extract_1 score? 13.11
+T278.61851897402084 attempt_123: "massive" score:13.11 prog:None
+T280.49875392901595 attempt_124 # 1
+T283.8594339360134 extract_1 score? 17.66
+T283.8597211150045 attempt_124: "number" score:17.66 prog:None
+T287.530345526 attempt_125 ? /model
+T291.18590019401745 Select model (by name or number)> 1
+T291.19026963302167 session model: gemma:latest
+T291.190319078014 session clear
+T295.36242403901997 attempt_125 ? *10 t3
+T295.362586171017 session clear
+T295.3626576620154 session: {"role": "user", "content": "give me 10 words that are similar to \"amount\", \"proportionate\", and \"fraction\""}
+T314.34543048602063 session: {"role": "assistant", "content": "1. Share\n2. Total\n3. Balance\n4. Sum\n5. Measure\n6. Unit\n7. Proportion\n8. Ratio\n9. Estimate\n10. Distribution"}
+T316.49849620700115 attempt_125 # 1
+T319.55426628899295 extract_1 score? 7.15
+T319.55445975999464 attempt_125: "balance" score:7.15 prog:None
+T320.5306586860097 attempt_126 # 1
+T322.9382760070148 extract_1 score? 7.45
+T322.93842932902044 attempt_126: "distribution" score:7.45 prog:None
+T335.8524657259986 attempt_127 ? > those aren't very good, try again and try harder
+T335.85275879100664 session: {"role": "user", "content": "those aren't very good, try again and try harder"}
+T347.2669184230035 session: {"role": "assistant", "content": "1. Quantity\n2. Magnitude\n3. Proportionality\n4. Equivalence\n5. Ratiometric\n6. Unit measure\n7. Allotment\n8. Distribution\n9. Shareable amount\n10. Total amount"}
+T350.20300370900077 attempt_127 # 2
+T354.81846791200223 extract_2 score? 12.85
+T354.81867532400065 attempt_127: "magnitude" score:12.85 prog:None
+T356.8026725210075 attempt_128 # 2
+T359.5463154159952 extract_2 score? 14.83
+T359.54647170199314 attempt_128: "proportionality" score:14.83 prog:None
+T361.1859998680011 attempt_129 # 1
+T363.67416609899374 extract_1 score? 12.19
+T363.67428016400663 attempt_129: "allotment" score:12.19 prog:None
+T364.8265543279995 attempt_130 # 1
+T367.36242622401915 extract_1 score? !
+T367.36271100500016 reject: "ratiometric"
+T369.65017849899596 attempt_130 # 1
+T372.97825395400287 extract_1 score? !
+T372.97836316900793 reject: "shareable"
+T382.650381429994 attempt_130 ? > those aren't any better, try harder
+T382.6506526430021 session: {"role": "user", "content": "those aren't any better, try harder"}
+T392.52590782401967 session: {"role": "assistant", "content": "1. Amount\n2. Proportion\n3. Fraction\n4. Share\n5. Quota\n6. Proportionality\n7. Equivalence\n8. Ratio\n9. Measure\n10. Total"}
+T402.4742956919945 attempt_130 ? t20
+T418.018308986997 attempt_130 ? > those are terrible try more like $3
+T418.0187246350106 session: {"role": "user", "content": "those are terrible try more like \"fraction\""}
+T430.3519756460155 session: {"role": "assistant", "content": "1. Proportional part\n2. Numerical share\n3. Ratio element\n4. Fractional piece\n5. Measureable unit\n6. Quantifiable amount\n7. Proportional segment\n8. Shareable proportion\n9. Balanced component\n10. Unit fraction"}
+T431.93809255500673 attempt_130 # 1
+T435.53053797999746 extract_1 score? 7.06
+T435.53082474900293 attempt_130: "balanced" score:7.06 prog:None
+T437.1462484569929 attempt_131 # 1
+T439.74611555301817 extract_1 score? !
+T439.74624021499767 reject: "measureable"
+T440.7623003780027 attempt_131 # 1
+T445.51437489001546 extract_1 score? 20.06
+T445.51457586101606 attempt_131: "numerical" score:20.06 prog:None
+T446.70659388101194 attempt_132 # 1
+T449.3222105659952 extract_1 score? 19.40
+T449.3223769390024 attempt_132: "quantifiable" score:19.40 prog:None
+T451.92253455601167 attempt_133 ? /model
+T457.1944104710128 Select model (by name or number)> /model qwen2.5
+T462.6993169019988 Select model (by name or number)> /model
+T465.6425008790102 Select model (by name or number)> 7
+T465.6489079770108 session model: qwen2.5:latest
+T465.64896735499497 session clear
+T469.6343195240188 attempt_133 ? *10 t3
+T469.63456802102155 session clear
+T469.6346898160118 session: {"role": "user", "content": "give me 10 words that are similar to \"amount\", \"proportionate\", and \"fraction\""}
+T486.54438900601235 session: {"role": "assistant", "content": "Certainly! Here are ten words that are related to \"amount,\" \"proportional,\" and \"fraction\":\n\n1. Quantity\n2. Ratio\n3. Percentage\n4. Share\n5. Portion\n6. Degree\n7. Fractional\n8. Proportion\n9. Measure\n10. Quotient"}
+T498.81032715100446 attempt_133 ? > I already know about those words, please try again
+T498.81054208701244 session: {"role": "user", "content": "I already know about those words, please try again"}
+T509.784290451993 session: {"role": "assistant", "content": "Sure! Here are ten words that are closely related to \"amount,\" \"proportional,\" and \"fraction\":\n\n1. Quantity\n2. Ratio\n3. Fractional\n4. Proportionate\n5. Divided\n6. Equal\n7. Partitioned\n8. Segment\n9. Quotient\n10. Allocated"}
+T513.6183880089957 attempt_133 # 2
+T519.6580398110091 extract_2 score? 23.20
+T519.6581432250096 attempt_133: "equal" score:23.20 prog:None
+T522.8183648590057 attempt_134 # 1
+T526.8419679990038 extract_1 score? 2
+T526.8421292620187 attempt_134: "divided" score:18.16 prog:None
+T540.6425665210118 <INT>
+T0.008542275987565517 now: 2024-11-18T19:37:43UTC
+T4.952718774002278 attempt_135 # 1
+T11.424628915003268 extract_1 score? !
+T11.424879160011187 reject: "partitioned"
+T14.464725959987845 attempt_135 ? /model
+T18.585055087984074 Select model (by name or number)> 5
+T18.58987311698729 session model: phi3:latest
+T18.589936479984317 session clear
+T40.89674655999988 attempt_135 ? t10
+T47.817082941008266 attempt_135 ? *10 t5
+T47.81746293199831 session clear
+T47.81812508398434 session: {"role": "user", "content": "give me 10 words that are similar to \"amount\", \"proportionate\", \"fraction\", \"equivalent\", and \"level\""}
+T86.8541205090005 session: {"role": "assistant", "content": "1. Percentage (percent) - often used interchangeably with \"proportionate\".\n2. Ratio - refers to the relative size of two quantities, similar in concept to a fraction or proportionate comparison between things.\n3. Share - can indicate an amount that is part of something larger and proportional as well.\n4. Quantity (quantity) - often used interchangeably with \"amount\" but also carries additional meanings related to the nature of items counted, weighed etc. \n5. Extent - refers to measure or scope which can be similar in conceptual usage to 'level' and its various connotations relating size/scope proportionally within a particular context.\n6. Ratio (ratio) - used often interchangeably with \"fraction\", as they both refer comparative measures between parts of something whole, indicating proportionality or equivalence when two quantities are related to each other in such manner. \n7. Degree/extent \u2013 can be seen similar conceptually and is also tied into the idea of being at a particular level relative to another measure (such as temperature).  \n8. Ratio - refers directly to \"fraction\" but carries additional implications, especially in contexts where ratios are calculated or used for comparison purposes between quantities that can be measured against each other and proportionate changes occur within these comparisons too. \n9. Scale/measure \u2013 this word is often associated with 'level' as it relates to grading systems (like on a scale of one-to end) where things are organized or distributed in orderly increments, maintaining consistency across various elements being measured against each other and proportionate changes can occur within the system. \n10. Proportion \u2013 this term has multiple related meanings similar to 'proportionate' but also extends beyond that as it refers generally both to a part of something in relation to its whole, or how one quantity relates compared with another (like fractions), maintaining equivalence and proportionality when discussing comparative relationships between quantities."}
+T220.84873953199713 attempt_135 # ␚
+T220.8488284359919 <EOF>
+T0.007483858003979549 now: 2024-11-18T19:41:25UTC
+T5.21829203600646 attempt_135 ? /model
+T8.002338974998565 Select model (by name or number)> 3
+T8.005947940022452 session model: mistral:latest
+T8.005987583019305 session clear
+T12.914101004018448 attempt_135 ? *10 t5
+T12.914287707011681 session clear
+T12.914573387999553 session: {"role": "user", "content": "give me 10 words that are similar to \"amount\", \"proportionate\", \"fraction\", \"equivalent\", and \"level\""}
+T47.984143925015815 session: {"role": "assistant", "content": "1. Quantity: Refers to the number or amount of something.\n\n2. Ratio: A relationship between two quantities, often expressed as a simple fraction.\n\n3. Portion: A share or part of something larger, often used in reference to food.\n\n4. Scale: The size, amount, or degree of something relative to something else.\n\n5. Comparable: Having qualities or characteristics that are similar or equivalent.\n\n6. Equal: Identical in quantity, size, degree, or amount.\n\n7. Share: A part or proportion belonging to a particular person or group.\n\n8. Degree: The level or extent of something, often used in reference to temperature, intensity, or quality.\n\n9. Phase: A stage or step in a process or development, often used metaphorically to describe the state or level something is at.\n\n10. Relative: Having a specified relationship to something else; often used to describe quantities that are comparable but not necessarily equal."}
+T51.25811514799716 attempt_135 # 1
+T54.786299091007095 extract_1 score? 20.4
+T54.78656686501927 attempt_135: "phase" score:20.40 prog:None
+T59.55374755701632 attempt_136 ? /model 
+T62.44223101300304 attempt_136 ? /model
+T64.99427473300602 Select model (by name or number)> 2
+T64.99852317001205 session model: llama3.2:latest
+T64.99856575101148 session clear
+T69.43424967399915 attempt_136 ? *10 t5
+T69.43444983201334 session clear
+T69.43455324400566 session: {"role": "user", "content": "give me 10 words that are similar to \"amount\", \"proportionate\", \"fraction\", \"equivalent\", and \"level\""}
+T93.29279547100305 session: {"role": "assistant", "content": "Here are ten words that are similar to the given terms:\n\n1. **Quantity**: This refers to the size or magnitude of something, often in relation to a standard unit.\n\n2. **Ratio**: A ratio is a comparison between two numbers or quantities, often used to describe proportions.\n\n3. **Portion**: A portion refers to a share or part of something, often used to describe a specific amount or quantity.\n\n4. **Tolerance**: This term describes the acceptable range or margin for a measurement or value.\n\n5. **Scale**: The scale of something can refer to its size, proportion, or magnitude, often in relation to a standard reference point.\n\n6. **Magnitude**: This refers to the size, extent, or degree of something, often used in scientific or mathematical contexts.\n\n7. **Proportionate amount**: A proportional amount is one that corresponds to a specific ratio or percentage of the whole.\n\n8. **Standard unit**: This term describes a base unit of measurement, which can be used as a reference point for other units or quantities.\n\n9. **Comparable**: This adjective describes something that has a similar size, degree, or extent as another thing.\n\n10. **Scale factor**: A scale factor is a numerical value used to describe the relative size or magnitude of two quantities or measurements.\n\nThese words all relate to concepts related to amount, proportion, fraction, equivalent, and level, but have slightly different connotations and applications."}
+T97.65824160102056 attempt_136 # 2
+T100.43398290101322 extract_2 score? 8.75
+T100.43417991901515 attempt_136: "tolerance" score:8.75 prog:None
+T101.8264405610098 attempt_137 # 1
+T109.65819387801457 extract_1 score? 32.48 878
+T109.65840879100142 attempt_137: "standard" score:32.48 prog:878
+T113.29034182999749 attempt_138 ? *10 t3
+T113.29055039701052 session clear
+T113.2906489050074 session: {"role": "user", "content": "give me 10 words that are similar to \"standard\", \"amount\", and \"proportionate\""}
+T117.99123839099775 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"standard\", \"amount\", and \"proportionate\":\n\n1. Normal\n2. Typical\n3. Average\n4. Suitable\n5. Appropriate\n6. Reasonable\n7. Moderate\n8. Fair\n9. Comparable\n10. Corresponding"}
+T119.64216850799858 attempt_138 # 1
+T129.46617708401754 extract_1 score? 41.17 974
+T129.46639015700202 attempt_138: "appropriate" score:41.17 prog:974
+T132.11426824700902 attempt_139 # 1
+T135.6745820880169 extract_1 score? 15.49
+T135.674826632021 attempt_139: "average" score:15.49 prog:None
+T140.57051860299543 attempt_140 # 7
+T144.3458348190179 extract_7 score? 20.85
+T144.3460055180185 attempt_140: "typical" score:20.85 prog:None
+T145.70618327800184 attempt_141 # 4
+T148.44229434299632 extract_4 score? 20.34
+T148.44249447699985 attempt_141: "normal" score:20.34 prog:None
+T149.7623205880227 attempt_142 # 5
+T158.63435924399528 extract_5 score? 34.65 922
+T158.63453824000317 attempt_142: "suitable" score:34.65 prog:922
+T160.9703278520028 attempt_143 # 4
+T167.91436602000613 extract_4 score? 28.37 696
+T167.9145777290105 attempt_143: "reasonable" score:28.37 prog:696
+T169.78614554202068 attempt_144 # 3
+T172.91433237399906 extract_3 score? 8.68
+T172.91449971700786 attempt_144: "moderate" score:8.68 prog:None
+T190.25003535300493 attempt_145 # 2
+T195.28246777501772 extract_2 score? 12.89
+T195.28267317000427 attempt_145: "fair" score:12.89 prog:None
+T196.29015350001282 attempt_146 # 1
+T201.81839836601284 extract_1 score? 29.2
+T205.06651272301679 extract_1 29.20°C prog‰ ? 742
+T205.066718268994 attempt_146: "corresponding" score:29.20 prog:742
+T214.7061789809959 attempt_147 ? *10 t3
+T214.70635945201502 session clear
+T214.7064459900139 session: {"role": "user", "content": "give me 10 words that are similar to \"appropriate\", \"suitable\", and \"standard\""}
+T226.8015929410176 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"appropriate\", \"suitable\", and \"standard\":\n\n1. Suitable\n2. Adequate\n3. Befitting\n4. Commensurate\n5. Proper\n6. Legitimate\n7. Justified\n8. Applicable\n9. Relevant\n10. Compatible\n\nThese words all convey a sense of something being fitting, suitable, or meeting certain expectations or criteria.\n\nAlternatively, here are 10 more words that focus specifically on standards:\n\n1. Normative\n2. Baseline\n3. Benchmark\n4. Paragon\n5. Ideal\n6. Model\n7. Reference point\n8. Protocol\n9. Specification\n10. Convention\n\nThese words all relate to the idea of a standard or expectation, and can be used in similar contexts as \"standard\", \"suitable\", and \"appropriate\"."}
+T228.77025738201337 attempt_147 # 1
+T234.20221146699623 extract_1 score? 42.55 978
+T234.20241575600812 attempt_147: "adequate" score:42.55 prog:978
+T235.62612677001744 attempt_148 # 1
+T242.01853934899555 extract_1 score? 47.91 991
+T242.01878770100302 attempt_148: "applicable" score:47.91 prog:991
+T244.53766343800817 attempt_149 # 1
+T248.6183346809994 extract_1 score? 16.33
+T248.6185307590058 attempt_149: "baseline" score:16.33 prog:None
+T252.13786574400729 attempt_150 # 5
+T254.80469360400457 extract_5 score? 6.15
+T254.8049669380125 attempt_150: "convention" score:6.15 prog:None
+T256.0901097220194 attempt_151 # 14
+T262.08245702899876 extract_14 score? 35.13 928
+T262.08279537499766 attempt_151: "relevant" score:35.13 prog:928
+T263.5464050800074 attempt_152 # 12
+T267.1782431640022 extract_12 score? 20.63
+T267.1784365079948 attempt_152: "protocol" score:20.63 prog:None
+T268.54651581900544 attempt_153 # 11
+T274.0831264599983 extract_11 score? 42.37 977
+T274.083301628998 attempt_153: "proper" score:42.37 prog:977
+T276.4099999740138 attempt_154 # 10
+T282.01012724800967 extract_10 score? 6.96
+T282.01028465799754 attempt_154: "paragon" score:6.96 prog:None
+T283.6345382640138 attempt_155 # 5
+T286.6666587740183 extract_5 score? 21.93
+T286.6669205290091 attempt_155: "ideal" score:21.93 prog:None
+T289.5145257690165 attempt_156 # 3
+T295.73825550000765 extract_3 score? 25.72 493
+T295.7384802180168 attempt_156: "commensurate" score:25.72 prog:493
+T300.34653176899883 attempt_157 # 8
+T303.02580292499624 extract_8 score? 15.04
+T303.02592962700874 attempt_157: "reference" score:15.04 prog:None
+T304.32427637200453 attempt_158 # 7
+T306.94649609399494 extract_7 score? 17.94
+T306.94671916100197 attempt_158: "normative" score:17.94 prog:None
+T309.00233261001995 attempt_159 # 5
+T311.5383480550081 extract_5 score? 16.1
+T311.5385393530014 attempt_159: "legitimate" score:16.10 prog:None
+T313.0341016710154 attempt_160 # 5
+T315.5625823470182 extract_5 score? 8.51
+T315.56272094900487 attempt_160: "model" score:8.51 prog:None
+T319.33035811802256 attempt_161 # 1
+T321.994516886014 extract_1 score? 14.62
+T321.99474617201486 attempt_161: "befitting" score:14.62 prog:None
+T323.6187253660173 attempt_162 # 1
+T326.07430904501234 extract_1 score? 15.24
+T326.0744736700144 attempt_162: "benchmark" score:15.24 prog:None
+T329.25794179801596 attempt_163 # 3
+T333.05025146799744 extract_3 score? 22.96
+T333.0504413419985 attempt_163: "specification" score:22.96 prog:131
+T344.5704258250189 <INT>
+T0.008317439001984894 now: 2024-11-18T19:47:49UTC
+T2.1349904539820272 attempt_164 # 1
+T8.638893441995606 extract_1 score? 27.17 633
+T8.639062903996091 attempt_164: "compatible" score:27.17 prog:633
+T57.254857952997554 attempt_165 # 1
+T60.270685734984 extract_1 score? 20.34
+T60.270888614992145 attempt_165: "justified" score:20.34 prog:None
+T64.77643188799266 attempt_166 ? *10 t3
+T64.77665381898987 session clear
+T64.77704862400424 session: {"role": "user", "content": "give me 10 words that are similar to \"applicable\", \"adequate\", and \"proper\""}
+T72.24429835900082 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"applicable\", \"adequate\", and \"proper\":\n\n1. Suitable\n2. Effective\n3. Logical\n4. Reasonable\n5. Justifiable\n6. Competent\n7. Relevant\n8. Timely\n9. Appropriate\n10. Satisfactory\n\nThese words all convey a sense of being suitable, sufficient, or acceptable in some way, and can be used in similar contexts as \"applicable\", \"adequate\", and \"proper\"."}
+T74.3268465650035 attempt_166 # 1
+T79.99946710499353 extract_1 score? 26.06 534
+T79.99976288800826 attempt_166: "competent" score:26.06 prog:534
+T81.34270367398858 attempt_167 # 1
+T89.9991238109942 extract_1 score? 22.87 115
+T89.99930990498979 attempt_167: "effective" score:22.87 prog:115
+T93.45497475299635 attempt_168 # 1
+T96.39905921800528 extract_1 score? 18.36
+T96.39930607000133 attempt_168: "justifiable" score:18.36 prog:None
+T97.38303425200866 attempt_169 # 1
+T100.5270417239808 extract_1 score? 20.57
+T100.52719738098676 attempt_169: "logical" score:20.57 prog:None
+T101.77520850900328 attempt_170 # 1
+T107.83906224599923 extract_1 score? 31.43 846
+T107.83929837899632 attempt_170: "satisfactory" score:31.43 prog:846
+T109.00676830898738 attempt_171 # 1
+T112.20683696100605 extract_1 score? 22.05
+T112.207017179986 attempt_171: "timely" score:22.05 prog:None
+T127.49485570300021 attempt_172 ? > keep going
+T127.49507760300185 session: {"role": "user", "content": "keep going"}
+T136.25354285398498 session: {"role": "assistant", "content": "Here are 10 more words that are similar to \"applicable\", \"adequate\", and \"proper\":\n\n11. Acceptable\n12. Suitable\n13. Fit\n14. Matching\n15. Compatible\n16. Conforming\n17. In line with\n18. Corresponding\n19. Matched\n20. Aligned\n\nThese words all convey a sense of being compatible, suitable, or in harmony with something else, and can be used in similar contexts as \"applicable\", \"adequate\", and \"proper\".\n\nIf you'd like me to generate more, just let me know!"}
+T137.68661254600738 attempt_172 # 1
+T144.59883716900367 extract_1 score? 36.15 939
+T144.5990082839853 attempt_172: "acceptable" score:36.15 prog:939
+T146.15109787799884 attempt_173 # 1
+T149.39904022798873 extract_1 score? 13.02
+T149.39928059498197 attempt_173: "aligned" score:13.02 prog:None
+T150.63094258800265 attempt_174 # 1
+T156.68914348600083 extract_1 score? 25.52 473
+T156.68932674798998 attempt_174: "conforming" score:25.52 prog:473
+T157.54297932700138 attempt_175 # 1
+T159.88674644599087 extract_1 score? 20.81
+T159.886923226004 attempt_175: "fit" score:20.81 prog:None
+T160.9587436830043 attempt_176 # 2
+T167.57592754199868 extract_2 score? 21.25
+T167.57612892100587 attempt_176: "matched" score:21.25 prog:None
+T168.55066681999597 attempt_177 # 2
+T176.23076520999894 extract_2 score? 20.06
+T176.23096219700528 attempt_177: "matching" score:20.06 prog:None
+T178.81476166599896 attempt_178 # 
+T185.8389555499889 attempt_178 ? > keep going
+T185.83916544998647 session: {"role": "user", "content": "keep going"}
+T197.1326612639823 session: {"role": "assistant", "content": "Here are 10 more words that are similar to \"applicable\", \"adequate\", and \"proper\":\n\n21. In sync\n22. Harmonious\n23. Consistent\n24. Coordinated\n25. Ordered\n26. Systematic\n27. Methodical\n28. Regulated\n29. Governed\n30. Organized\n\nThese words all convey a sense of being in harmony, following rules or procedures, or being structured in some way, and can be used in similar contexts as \"applicable\", \"adequate\", and \"proper\".\n\nIf you'd like me to generate more, just let me know!\n\nI can also try to provide words that are antonyms (opposites) of \"applicable\", \"adequate\", and \"proper\" if you're interested!"}
+T202.66258453798946 attempt_178 # 1
+T209.03130058798706 extract_1 score? 21.98
+T209.03157630300848 attempt_178: "consistent" score:21.98 prog:None
+T210.43135721000726 attempt_179 # 5
+T213.34343720099423 extract_5 score? 9.09
+T213.34361631798674 attempt_179: "methodical" score:9.09 prog:None
+T218.9835356269905 attempt_180 # 
+T220.07914383799653 attempt_180 ? 
+T221.134997096 attempt_180 # 
+T224.07908244500868 attempt_180 ? t10
+T236.27872940400266 attempt_180 ? *10 t2
+T236.27893618898815 session clear
+T236.2790321939974 session: {"role": "user", "content": "give me 10 words that are similar to \"applicable\" and \"adequate\""}
+T240.56636291599716 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"applicable\" and \"adequate\":\n\n1. Relevant\n2. Suitable\n3. Effective\n4. Useful\n5. Practical\n6. Necessary\n7. Sufficient\n8. Compatible\n9. Feasible\n10. Appropriate"}
+T242.00660636698012 attempt_180 # 5
+T246.94257177898544 extract_5 score? 26 525
+T246.9427318329981 attempt_180: "useful" score:26.00 prog:525
+T248.15066792198922 attempt_181 # 1
+T253.58296475899988 extract_1 score? 36.64 943
+T253.58317304198863 attempt_181: "feasible" score:36.64 prog:943
+T254.63132237200625 attempt_182 # 1
+T264.6789451240038 extract_1 score? 65.25 998
+T264.6791612049856 attempt_182: "necessary" score:65.25 prog:998
+T265.807064314984 attempt_183 # 1
+T270.8790286979929 extract_1 score? 23.46 205
+T270.87922650098335 attempt_183: "practical" score:23.46 prog:205
+T271.74300333100837 attempt_184 # 1
+T278.5427679459972 extract_1 score? 44.39 980
+T278.5429661439848 attempt_184: "sufficient" score:44.39 prog:980
+T282.79908510198584 attempt_185 ? *10 t3
+T282.79934522599797 session clear
+T282.79946246999316 session: {"role": "user", "content": "give me 10 words that are similar to \"necessary\", \"applicable\", and \"sufficient\""}
+T289.8870850469975 session: {"role": "assistant", "content": "Here are ten words that are similar to \"necessary\", \"applicable\", and \"sufficient\":\n\n1. Essential\n2. Relevant\n3. Adequate\n4. Suitable\n5. Required\n6. Crucial\n7. Indispensable\n8. Necessary for\n9. Pertinent\n10. Proper\n\nThese words all convey a sense of something being required, relevant, or sufficient in some way, and can be used in similar contexts to the original three words you mentioned."}
+T291.34297932399204 attempt_185 # 1
+T297.262862951 extract_1 score? 29.38 757
+T297.26302267599385 attempt_185: "crucial" score:29.38 prog:757
+T298.1510191859852 attempt_186 # 1
+T303.8309667779831 extract_1 score? 42.58 979
+T303.83114716099226 attempt_186: "essential" score:42.58 prog:979
+T304.7189150649938 attempt_187 # 1
+T311.19891982598347 extract_1 score? 29.48 764
+T311.19911265399423 attempt_187: "indispensable" score:29.48 prog:764
+T313.40675378998276 attempt_188 # 1
+T319.17530268998235 extract_1 score? 25.75 500
+T319.17553130700253 attempt_188: "pertinent" score:25.75 prog:500
+T319.97512739300146 attempt_189 # 1
+T333.65505840000696 extract_1 score? 100 1000
+T333.655282858992 attempt_189: "required" score:100.00 prog:1000
+T769.2471297259908 <INT>
+T0.012517169991042465 now: 2024-11-18T20:00:39UTC
+T0.012587995996000245 <STOP>
+T0.013057707983534783 now: 2024-11-18T20:04:02UTC
+T2.3019934769836254 Paste share result, then preses <Enter>
+T2.3088013109809253 <STOP>
+T0.007148177013732493 now: 2024-11-18T20:04:29UTC
+T0.5381745360209607 Paste share result, then preses <Enter>
+T1.0343809229962062 Paste share result, then preses <Enter>
+T1.202340040996205 Paste share result, then preses <Enter>
+T1.3701014399994165 Paste share result, then preses <Enter>
+T1.5220100370061118 Paste share result, then preses <Enter>
+T7.802397551015019 Paste share result, then preses <Enter>
+T7.806869726016885 <STOP>
+T0.0076133400143589824 now: 2024-11-18T20:16:36UTC
+T9.982918516994687 Paste share result, then preses <Enter>
+T9.987747495004442 share result: "I found #cemantle #959 in 190 guesses!\n\ud83e\udd73\n\ud83d\udd252\ufe0f\u20e3\n\ud83e\udd759\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e2\ufe0f\u20e34\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd761\ufe0f\u20e34\ufe0f\u20e35\ufe0f\u20e3\n\ud83e\uddca9\ufe0f\u20e3\nhttps://cemantle.certitudes.org/"
+T9.98779936801293 <STOP>
+T0.007355524983722717 now: 2024-11-18T20:16:49UTC
+T1.2260372529854067 <INT>
+T0.007600657001603395 now: 2024-11-18T20:17:46UTC
+T0.007649147999472916 <STOP>
+T0.007764996000332758 now: 2024-11-18T20:18:02UTC
+T0.007857629010686651 <STOP>
+T0.008651442010886967 now: 2024-11-18T20:18:06UTC
+T0.008740549004869536 <STOP>
+T0.007761777000268921 now: 2024-11-18T20:24:08UTC
+T0.007912670000223443 now: 2024-11-18T20:24:21UTC
+T0.011191480996785685 now: 2024-11-18T20:24:30UTC
+T41.649228266003774 <INT>
+T0.013396084017585963 now: 2024-11-18T20:25:12UTC
+T8.07829392599524 <INT>
+T0.010125490982318297 now: 2024-11-18T20:26:12UTC
+T20.036619519989472 Paste share result, then preses <Enter>k
+T20.041298152005766 share result: "I found #cemantle #959 in 190 guesses!\n\ud83e\udd73\n\ud83d\udd252\ufe0f\u20e3\n\ud83e\udd759\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e2\ufe0f\u20e34\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd761\ufe0f\u20e34\ufe0f\u20e35\ufe0f\u20e3\n\ud83e\uddca9\ufe0f\u20e3\nhttps://cemantle.certitudes.org/"
+T20.99674558499828 <INT>
+T0.007770907017402351 now: 2024-11-18T20:26:34UTC
+T5.533382075023837 <INT>
+T0.009720503992866725 now: 2024-11-18T20:26:44UTC
+T1.5483204789925367 <INT>
+T0.009786686016013846 now: 2024-11-18T20:27:34UTC
+T1.775556628999766 <INT>
+T0.008120002981740981 now: 2024-11-18T20:27:44UTC
+T4.835850887990091 Paste share result, then preses <Enter>k
+T4.839728949009441 share result: "I found #cemantle #959 in 190 guesses!\n\ud83e\udd73\n\ud83d\udd252\ufe0f\u20e3\n\ud83e\udd759\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e2\ufe0f\u20e34\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd761\ufe0f\u20e34\ufe0f\u20e35\ufe0f\u20e3\n\ud83e\uddca9\ufe0f\u20e3\nhttps://cemantle.certitudes.org/"
+T5.762518089992227 <INT>
+T0.008354485005838796 now: 2024-11-18T20:27:50UTC
+T29.654049385979306 Paste share result, then preses <Enter>k
+T29.658634255989455 share result: "I found #cemantle #959 in 190 guesses!\n\ud83e\udd73\n\ud83d\udd252\ufe0f\u20e3\n\ud83e\udd759\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e2\ufe0f\u20e34\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd761\ufe0f\u20e34\ufe0f\u20e35\ufe0f\u20e3\n\ud83e\uddca9\ufe0f\u20e3\nhttps://cemantle.certitudes.org/"
+T30.19838338700356 <INT>
+T0.013036821997957304 now: 2024-11-18T20:28:22UTC
+T9.35221527799149 <INT>
+T0.011979186005191877 now: 2024-11-18T20:28:38UTC
+T6.681539757002611 <INT>
+T0.008186010993085802 now: 2024-11-18T20:29:03UTC
+T5.745486961997813 Paste share result, then preses <Enter>k
+T5.748241815017536 share result: "I found #cemantle #959 in 190 guesses!\n\ud83e\udd73\n\ud83d\udd252\ufe0f\u20e3\n\ud83e\udd759\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e2\ufe0f\u20e34\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd761\ufe0f\u20e34\ufe0f\u20e35\ufe0f\u20e3\n\ud83e\uddca9\ufe0f\u20e3\nhttps://cemantle.certitudes.org/"
+T7.6564444020041265 <INT>
+T0.007920183008536696 now: 2024-11-18T20:29:16UTC
+T0.008132907998515293 <STOP>
+T0.01014172300347127 now: 2024-11-18T20:29:42UTC
+T0.010362459986936301 <STOP>
+T0.008581336005590856 now: 2024-11-18T20:30:38UTC
+T0.008824943011859432 <STOP>
+T0.00847274501575157 now: 2024-11-18T20:30:48UTC
+T0.00872026599245146 <STOP>
+T0.012812371976906434 now: 2024-11-18T20:30:54UTC
+T0.013057941978331655 <STOP>
+T0.00757203801185824 now: 2024-11-18T20:34:26UTC
+T0.007758896012092009 <STOP>
+T0.008330676995683461 now: 2024-11-18T20:36:23UTC
+T0.008569513011025265 <STOP>
+T0.008024493989069015 now: 2024-11-18T20:42:42UTC
+T32.96172867101268 <INT>
+T0.013121124997269362 now: 2024-11-18T20:43:16UTC
+T42.1549617430137 Paste share result, then preses <Enter>k
+T42.15744046799955 share result: "I found #cemantle #959 in 190 guesses!\n\ud83e\udd73\n\ud83d\udd252\ufe0f\u20e3\n\ud83e\udd759\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e2\ufe0f\u20e34\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd761\ufe0f\u20e34\ufe0f\u20e35\ufe0f\u20e3\n\ud83e\uddca9\ufe0f\u20e3\nhttps://cemantle.certitudes.org/"
+T42.55538818700006 <INT>
+T0.007652013999177143 now: 2024-11-18T20:43:59UTC
+T27.679974793980364 Paste share result, then preses <Enter>k
+T27.683805494976696 share result: "I found #cemantle #959 in 190 guesses!\n\ud83e\udd73\n\ud83d\udd252\ufe0f\u20e3\n\ud83e\udd759\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e2\ufe0f\u20e34\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd761\ufe0f\u20e34\ufe0f\u20e35\ufe0f\u20e3\n\ud83e\uddca9\ufe0f\u20e3\nhttps://cemantle.certitudes.org/"
+T28.112637071986683 <INT>
+T0.007970901991939172 now: 2024-11-18T20:44:29UTC
+T9.161277646984672 <INT>
+T0.013308858004165813 now: 2024-11-18T20:44:40UTC
+T24.033929330995306 <INT>
+T0.008116324985167012 now: 2024-11-18T20:45:05UTC
+T36.06421928698546 <INT>
+T0.009625203005271032 now: 2024-11-18T20:45:42UTC
+T15.911036727018654 <INT>
+T0.008036756014917046 now: 2024-11-18T20:45:58UTC
+T0.008386308996705338 <STOP>
+T0.009664890996646136 now: 2024-11-18T20:46:10UTC
+T0.009892934991512448 <STOP>
+T0.008532064995961264 now: 2024-11-18T20:47:20UTC
+T0.008751925022806972 <STOP>
+T0.008239582006353885 now: 2024-11-18T20:47:55UTC
+T0.00844432899612002 <STOP>
+T0.010475046001374722 now: 2024-11-18T20:48:04UTC
+T0.01069295802153647 <STOP>
+T0.008777353999903426 now: 2024-11-18T20:52:33UTC
+T0.009007353975903243 <STOP>
+T0.00809744800790213 now: 2024-11-18T20:56:04UTC
+T0.00827910000225529 <STOP>
+T0.00805477998801507 now: 2024-11-18T20:57:21UTC
+T0.008270963007817045 <STOP>
+T0.008322661014972255 now: 2024-11-18T20:57:29UTC
+T0.008525912009645253 <STOP>
+T0.009761228022398427 now: 2024-11-18T21:00:45UTC
+T0.009982022020267323 <STOP>
+T0.013425606011878699 now: 2024-11-18T21:01:37UTC
+T0.013698157999897376 <STOP>
+T0.009000707999803126 now: 2024-11-18T21:03:01UTC
+T0.009232073003659025 <STOP>
+T0.01335772400489077 now: 2024-11-18T21:10:36UTC
+T0.013725082011660561 <STOP>
+T0.007945861987536773 now: 2024-11-18T21:11:19UTC
+T0.008214539004256949 <STOP>
+T0.008042872010264546 now: 2024-11-18T21:28:19UTC
+T0.008270505990367383 <STOP>
