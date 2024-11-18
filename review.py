@@ -5,10 +5,10 @@ import re
 import subprocess
 import sys
 from dataclasses import dataclass
-from collections.abc import Iterable
+from collections.abc import Generator, Iterable
 from typing import cast, final, TextIO
 
-from wordlist import WordList
+from wordlist import Browser, WordList, format_browser_lines
 
 def whatadded(filename: str) -> str:
     output = subprocess.check_output([
@@ -362,8 +362,41 @@ class Reloaded:
     def at(self) -> int:
         return self.actual[self.qi]
 
+    def view_notes(self) -> Generator[tuple[int, str]]:
+        found = False
+        qw = len(str(len(self.log.quest)))
+        for i, q in enumerate(self.log.quest):
+            ai = self.actual[i]
+            assert q.word == self.words[ai]
+            yield ai, f'q{i:<{qw}} ? {q.resp}'
+            if not found and ai == self.donei: found = True
+        if not found and self.donei:
+            yield self.donei, f'done. it'
+
+@final
+class Review:
+    def __init__(self, logfile: TextIO, asof: str|None = None):
+        self.log = SearchLog(logfile, name=logfile.name)
+        self.rel = self.log.reload(asof=asof)
+        self.view = Browser(self.rel.words)
+        if self.rel.donei is not None:
+            self.view.at = self.rel.donei
+        else:
+            self.rel.questi = -1
+            self.view.at = self.rel.at
+
+    def summary(self, legend: bool = True):
+        return self.log.summary(legend=legend)
+
+    def show(self, limit: int = 10):
+        inotes = self.view.expand(self.rel.view_notes(), limit=limit)
+        return format_browser_lines(self.rel.words, inotes, at=self.view.at)
+
 def analyze(lines: Iterable[str]):
     return SearchLog(lines).summary()
+
+def show(logfile: TextIO, asof: str|None = None, limit: int = 10):
+    return Review(logfile, asof=asof).show(limit=limit)
 
 def main():
     import argparse
@@ -373,8 +406,8 @@ def main():
     args = parser.parse_args()
 
     logfile = cast(TextIO, args.logfile)
-    log = SearchLog(logfile, logfile.name)
-    for line in log.summary():
+    rev = Review(logfile)
+    for line in rev.show(limit=3*len(rev.log.quest)):
         print(line)
 
 if __name__ == '__main__':

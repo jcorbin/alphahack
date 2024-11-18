@@ -433,7 +433,7 @@ def main():
         print('WARNING: no clipboard access available')
         pyperclip = None
 
-    from review import analyze
+    import review
 
     parser = argparse.ArgumentParser()
     _ = parser.add_argument('--context', type=int, default=3, help='how many words to show +/- query');
@@ -567,14 +567,14 @@ def main():
 
     try:
         with open(log_file.name) as f:
-            analysis = ''.join(f'{line}\n' for line in analyze(f)).strip('\n')
-        ui.copy(analysis)
-        ui.print('📋 Analysis')
+            text = ''.join(f'{line}\n' for line in review.show(f, asof='HEAD', limit=ui.screen_lines)).strip('\n')
+        ui.copy(text)
+        ui.print('📋 Recap')
         ui.print('```')
-        ui.print(analysis)
+        ui.print(text)
         ui.print('```')
     except:
-        ui.print(f'⚠️ Analysis failed')
+        ui.print(f'⚠️ Recap failed')
         ui.print('```')
         ui.print(traceback.format_exc())
         ui.print('```')
