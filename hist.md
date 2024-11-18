@@ -603,3 +603,14 @@ https://cemantle.certitudes.org/
 
 🔗 alphaguess.com
 ```
+
+# 2024-11-18 alfagok.diginaut.net
+```
+🧩 Puzzel #16
+
+🤔 17 gokken
+
+⏱️ 35s
+
+🔗 alfagok.diginaut.net
+```
