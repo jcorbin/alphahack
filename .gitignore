@@ -1,4 +1,4 @@
 *.txt
 !*.exclude.txt
-hack.log
+*.log
 __pycache__/
