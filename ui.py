@@ -95,7 +95,7 @@ class PromptUI:
         self.get_input = get_input
         self.sink = sink
         self.clip = clip
-        self.last: Literal['empty']|Literal['prompt']|Literal['print']|Literal['write'] = 'empty'
+        self.last: Literal['empty']|Literal['prompt']|Literal['print']|Literal['write']|Literal['remark'] = 'empty'
 
     @property
     def screen_lines(self):
@@ -131,6 +131,13 @@ class PromptUI:
 
     def print(self, mess: str):
         self.fin()
+        if mess.startswith('//'):
+            if self.last != 'remark':
+                print('')
+            print(mess, flush=True)
+            self.last = 'remark'
+            return
+
         self.last = 'empty' if not mess.strip() else 'print'
         print(mess, flush=True)
 
