@@ -272,7 +272,7 @@ class PromptUI:
     def catch_state(t: Any, st: State): # pyright: ignore[reportAny]
         try:
             yield
-        except t as e: # pyright: ignore[reportAny]
+        except t:
             raise NextState(st)
 
     def run(self, state: State):

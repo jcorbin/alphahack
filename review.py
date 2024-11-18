@@ -392,6 +392,79 @@ class Review:
         inotes = self.view.expand(self.rel.view_notes(), limit=limit)
         return format_browser_lines(self.rel.words, inotes, at=self.view.at)
 
+from contextlib import contextmanager
+
+from ui import PromptUI
+
+@final
+class ReviewUI:
+    def __init__(self, logfile: TextIO):
+        self.rev = Review(logfile)
+        self.first = True
+
+    @contextmanager
+    def text(self, ui: PromptUI, lines: Iterable[str]):
+        text = ''.join(f'{line}\n' for line in lines)
+        ui.print(text)
+        def copy():
+            ui.copy(text)
+            ui.print(f'📋')
+        yield copy
+
+    def summary(self, ui: PromptUI):
+        with self.text(ui, self.rev.summary(legend=self.first)) as copy:
+            self.first = False
+            tokens = ui.input('> ')
+            token = tokens.head
+
+            if 'copy'.startswith(token):
+                copy()
+                return
+
+        return self.dispatch(ui, tokens)
+
+    def __call__(self, ui: PromptUI):
+        return self.show
+
+    def show(self, ui: PromptUI):
+        with self.text(ui, self.rev.show(limit=ui.screen_lines)) as copy:
+            tokens = ui.input('> ')
+            token = tokens.head
+
+            if 'copy'.startswith(token):
+                copy()
+                return
+
+            if token.startswith('q'):
+                try:
+                    qi = int(token[1:])
+                except ValueError:
+                    ui.print(f'! invalid q<INDEX> -- not an integer')
+                    return
+
+                try: 
+                    self.rev.rel.questi = qi
+                except IndexError:
+                    ui.print(f'! invalid q<INDEX> -- out of range [0 : {len(self.rev.log.quest)}]')
+                    return
+
+                self.rev.view.at = self.rev.rel.at
+                return
+
+        return self.dispatch(ui, tokens)
+
+    def dispatch(self, _ui: PromptUI, tokens: PromptUI.Tokens) -> PromptUI.State|None:
+        token = tokens.head
+
+        if not token:
+            return self.show
+
+        if any(cmd.startswith(token) for cmd in ('list', 'ls', 'show')):
+            return self.show
+
+        if 'summary'.startswith(token):
+            return self.summary
+
 def analyze(lines: Iterable[str]):
     return SearchLog(lines).summary()
 
@@ -405,10 +478,11 @@ def main():
     _ = parser.add_argument('logfile', nargs='?', default=sys.stdin, type=argparse.FileType('r'))
     args = parser.parse_args()
 
-    logfile = cast(TextIO, args.logfile)
-    rev = Review(logfile)
-    for line in rev.show(limit=3*len(rev.log.quest)):
-        print(line)
+    ui = PromptUI()
+    ui.interact(ReviewUI(cast(TextIO, args.logfile)))
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except (EOFError, KeyboardInterrupt):
+        pass
