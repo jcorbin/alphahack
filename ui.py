@@ -3,6 +3,7 @@ import re
 import subprocess
 import time
 import traceback
+from base64 import b64encode
 from contextlib import contextmanager
 from collections.abc import Generator, Sequence
 from types import TracebackType
@@ -24,6 +25,31 @@ class NullClipboard:
 
     def paste(self) -> str:
         return ''
+
+@contextmanager
+def open_tty():
+    fd = os.open('/dev/tty', os.O_RDWR) # TODO $SSH_TTY
+    try:
+        yield fd
+    finally:
+        os.close(fd)
+
+@final
+class ANSIClipboard:
+    def copy(self, mess: str) -> None:
+        with open_tty() as fd:
+            data = b64encode(mess.encode('utf-8'))
+            _ = os.write(fd, b'\x1b]52;c;')
+            _ = os.write(fd, data)
+            _ = os.write(fd, b'\x07')
+
+
+    def paste(self) -> str:
+        with open_tty() as fd:
+            _ = os.write(fd, b'\x1b]52;c;?\x07')
+            r = os.read(fd, 1)
+            print(f'R: {r!r}')
+            return ''
 
 DefaultClipboard = NullClipboard()
 
@@ -380,3 +406,8 @@ class PromptUI:
     def main(cls, state: State):
         ui = cls()
         ui.run(state)
+
+if __name__ == '__main__':
+    clip = ANSIClipboard()
+    # clip.copy("hello")
+    print(f'PASTE: {clip.paste()!r}')
