@@ -50,6 +50,10 @@ class PromptUI:
         self.copy = copy
         self.paste = paste
 
+    @property
+    def screen_lines(self):
+        return os.get_terminal_size().lines
+
     def log(self, mess: str):
         self.sink(f'T{self.time.now} {mess}')
 
@@ -292,8 +296,7 @@ class Search:
             self.guessed += 1
             return self.question(self.view.at)
 
-        screen_lines = os.get_terminal_size().lines
-        inotes = self.view.expand(self.view_notes(), limit=screen_lines - 2)
+        inotes = self.view.expand(self.view_notes(), limit=self.ui.screen_lines - 2)
         for line in format_browser_lines(self.words, inotes, at=self.view.at):
             self.ui.print(f'    {line}')
 
