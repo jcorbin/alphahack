@@ -1,0 +1,835 @@
+T0.0013150010199751705 now: 2024-11-19T14:19:17UTC
+T18.157129500003066 😎 °C ? 23.21
+T21.813202684017597 😎 °C ? 23.21
+T21.813357169012306 scale: 😎 23.21 °C
+T30.62137412201264 🥵 °C ? 34.48
+T32.38881537000998 🥵 °C ? 34.48
+T32.38887233901187 scale: 🥵 34.48 °C
+T33.364953304000665 <INT>
+T0.002783467003609985 now: 2024-11-19T14:20:40UTC
+T5.493513531022472 🔥 °C ? i
+T8.741268864017911 🔥 °C ? 10
+T17.621222232002765 🔥 °C ? 300
+T30.3651606090134 🔥 °C ? 46.06
+T30.365358442009892 scale: 🔥 46.06 °C
+T30.36558297101874 session model: llama3.2:latest
+T30.365637583017815 session clear
+T30.365984274016228 session: {"role": "user", "content": "give me 10 words at random that are not related to each other"}
+T38.211042634997284 session: {"role": "assistant", "content": "Here are 10 random words that are not related to each other:\n\n1. Caramel\n2. Fjord\n3. Harmonica\n4. Perfume\n5. Bicycle\n6. Saffron\n7. Piano\n8. Luggage\n9. Starfish\n10. Muffin"}
+T42.17339218102279 <INT>
+T0.003179022023687139 now: 2024-11-19T14:23:53UTC
+T14.110592617013026 😱 °C ? 67.44
+T14.111198555008741 scale: 😱 67.44 °C
+T14.111234627023805 session model: llama3.2:latest
+T0.003969448996940628 now: 2024-11-19T14:25:06UTC
+T0.00401653500739485 session model: llama3.2:latest
+T17.932411046000198 attempt_0 # 
+T20.692367381998338 attempt_0 ? /scale
+T48.03605339099886 attempt_0 ? /e
+T57.93252192001091 attempt_0 # 1
+T61.6844538100122 extract_1 score? -5.51
+T61.68459264098783 attempt_0: "bicycle" score:-5.51 prog:None
+T64.34864866599673 attempt_1 # 1
+T70.37228215200594 extract_1 score? 2.08
+T70.37245163301122 attempt_1: "caramel" score:2.08 prog:None
+T79.32440366299124 attempt_2 # 6
+T79.80446455799392 extract_6 score? 
+T84.3726509489934 <INT>
+T0.0029199330019764602 now: 2024-11-19T14:30:27UTC
+T0.0029663060267921537 session model: llama3.2:latest
+T12.279159682017053 <INT>
+T0.00379438599338755 now: 2024-11-19T14:31:12UTC
+T0.003847421001410112 session model: llama3.2:latest
+T2.7297293900046498 attempt_2 # 1
+T5.377932264993433 <INT>
+T0.004666274006012827 now: 2024-11-19T14:35:01UTC
+T0.004725061007775366 session model: llama3.2:latest
+T15.456182891997742 📋 extract_1 "fjord" score? 4
+T15.45640004699817 attempt_2: "fjord" score:4.00 prog:None
+T20.03219432401238 attempt_3 # 2
+T23.56832610699348 📋 extract_2 "luggage" score? 3.11
+T23.5684862670023 attempt_3: "luggage" score:3.11 prog:None
+T24.91221726499498 attempt_4 # 4
+T27.39226357502048 📋 extract_4 "piano" score? 3.93
+T27.392456682020565 attempt_4: "piano" score:3.93 prog:None
+T29.41608646401437 attempt_5 # 3
+T32.62406966101844 📋 extract_3 "perfume" score? 2.75
+T32.62422644702019 attempt_5: "perfume" score:2.75 prog:None
+T34.16818548500305 attempt_6 # 1
+T37.696338898997055 📋 extract_1 "harmonica" score? -3.35
+T37.69652389001567 attempt_6: "harmonica" score:-3.35 prog:None
+T39.504263967013685 attempt_7 # 1
+T43.00816404802026 📋 extract_1 "muffin" score? 8
+T43.00835084400023 attempt_7: "muffin" score:8.00 prog:None
+T44.22397326902137 attempt_8 # 1
+T46.9039353489934 📋 extract_1 "saffron" score? 1.28
+T46.90405900901533 attempt_8: "saffron" score:1.28 prog:None
+T47.68774641602067 attempt_9 # 1
+T54.0560191340046 📋 extract_1 "starfish" score? -6.97
+T54.05620392100536 attempt_9: "starfish" score:-6.97 prog:None
+T64.7450448720192 attempt_10 ? *10 t1
+T64.74522885400802 session clear
+T64.74552012901404 session: {"role": "user", "content": "give me 10 words that are similar to \"muffin\""}
+T71.58526770301978 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"muffin\":\n\n1. Pastry\n2. Cookie\n3. Cake\n4. Scone\n5. Biscuit\n6. Tart\n7. Quiche\n8. Cruller\n9. Fritter\n10. Bun"}
+T73.91222070201184 attempt_10 # 1
+T76.8562478350068 📋 extract_1 "biscuit" score? 3.98
+T76.85645216400735 attempt_10: "biscuit" score:3.98 prog:None
+T77.9608924780041 attempt_11 # 9
+T80.82414782900014 📋 extract_9 "tart" score? -1.89
+T80.82430029902025 attempt_11: "tart" score:-1.89 prog:None
+T82.36810999701265 attempt_12 # 5
+T87.8482814230083 📋 extract_5 "fritter" score? 17.68
+T87.84854190101032 attempt_12: "fritter" score:17.68 prog:None
+T91.06390744901728 attempt_13 # 
+T93.8881737650081 attempt_13 ? *10 t1
+T93.88842777599348 session clear
+T93.88854237901978 session: {"role": "user", "content": "give me 10 words that are similar to \"fritter\""}
+T98.09140260299318 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"fritter\":\n\n1. Splat\n2. Splash\n3. Splatter\n4. Scatter\n5. Sprinkle\n6. Drizzle\n7. Dapple\n8. Furbish\n9. Frill\n10. Skitter"}
+T103.34430681401864 attempt_13 # 9
+T106.7678587110131 📋 extract_9 "splatter" score? 7.23
+T106.76804016099777 attempt_13: "splatter" score:7.23 prog:None
+T108.11195794900414 attempt_14 # 6
+T110.38383027401869 📋 extract_6 "skitter" score? 14.45
+T110.38394600100582 attempt_14: "skitter" score:14.45 prog:None
+T116.43215477201738 attempt_15 # 1
+T119.10417289700126 📋 extract_1 "dapple" score? 7.54
+T119.10437896399526 attempt_15: "dapple" score:7.54 prog:None
+T121.00808848600718 attempt_16 # 3
+T125.59214936199714 📋 extract_3 "furbish" score? 27.39
+T128.9439365490107 📋 extract_3 "furbish" 27.39°C prog‰ ? 565
+T128.9440731430077 attempt_16: "furbish" score:27.39 prog:565
+T131.21638780200738 attempt_17 # 
+T133.47219121301896 attempt_17 ? *10 21
+T133.4723728460085 session clear
+T133.47246240600361 session: {"role": "user", "content": "give me 10 words at random that are not related to each other"}
+T136.99190588502097 <INT>
+T0.003236815013224259 now: 2024-11-19T14:37:19UTC
+T0.0032726170029491186 session model: llama3.2:latest
+T3.137472960021114 attempt_17 ? *10 t1
+T3.1379678079974838 session clear
+T3.1381487990147434 session: {"role": "user", "content": "give me 10 words that are similar to \"furbish\""}
+T14.802290185005404 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"Furish\":\n\n1. Sisguneq (Inuit language)\n2. Chukchi (Chukchi language)\n3. Inupiaq (Inupiat language)\n4. Yupik (Yupik language)\n5. Aleut (Aleut language)\n6. Kanakanavu (Papua New Guinean language)\n7. Nenets (Nenets language)\n8. Sami (Sami language)\n9. Ainu (Ainu language)\n10. Quechua (Quechua language)\n\nNote that Furish is not a real language, but I assume you meant to ask for words related to languages or dialects spoken by indigenous peoples.\n\nIf you'd like, I can suggest more options or provide information on these languages if you're interested!"}
+T147.77737659102422 attempt_17 # 
+T188.00178902602056 attempt_17 ? > You misunderstood, I said "furbish" not "furish", please try again: give me some words that are similar to "furbish".
+T188.0020145580056 session: {"role": "user", "content": "You misunderstood, I said \"furbish\" not \"furish\", please try again: give me some words that are similar to \"furbish\"."}
+T197.35198911401676 session: {"role": "assistant", "content": "Since \"Furbish\" is a made-up language used in the Muppet character Fozzie Bear's act, I'll provide 10 words that sound similar or have a similar structure:\n\n1. Gibberish\n2. Nonsense\n3. Jargon\n4. Hocus\n5. Pidgin\n6. Gobbledygook\n7. Slang\n8. Mumbo\n9. Jabber\n10. Vernacular\n\nThese words all have a playful, whimsical feel to them, similar to \"Furbish\"."}
+T224.08615094001289 attempt_17 # 1
+T227.44164221402025 📋 extract_1 "gibberish" score? 0.02
+T227.44184392801253 attempt_17: "gibberish" score:0.02 prog:None
+T229.14567577300477 attempt_18 # 2
+T232.26565924700117 📋 extract_2 "hocus" score? !
+T232.26582075702026 reject: "hocus"
+T233.87340602700715 attempt_18 # 2
+T237.45758481501252 📋 extract_2 "jabber" score? 11.09
+T237.4577537710138 attempt_18: "jabber" score:11.09 prog:None
+T239.4417338730127 attempt_19 # 5
+T248.69774115399923 📋 extract_5 "pidgin" score? -0.61
+T248.69798354100203 attempt_19: "pidgin" score:-0.61 prog:None
+T250.4416841409984 attempt_20 # 5
+T259.67349484801525 📋 extract_5 "slang" score? -1.57
+T259.6736555460084 attempt_20: "slang" score:-1.57 prog:None
+T261.70559947000584 attempt_21 # 4
+T265.0179259540164 📋 extract_4 "nonsense" score? -1.51
+T265.0181525630178 attempt_21: "nonsense" score:-1.51 prog:None
+T266.3857796770171 attempt_22 # 3
+T271.385556772002 📋 extract_3 "mumbo" score? !
+T271.3857232700102 reject: "mumbo"
+T272.5609708930133 attempt_22 # 2
+T275.473852413008 📋 extract_2 "jargon" score? 1.83
+T275.47405363302096 attempt_22: "jargon" score:1.83 prog:None
+T276.56151472000056 attempt_23 # 1
+T279.4738832070143 📋 extract_1 "gobbledygook" score? 3.98
+T279.47411630602437 attempt_23: "gobbledygook" score:3.98 prog:None
+T280.9856089730165 attempt_24 # 1
+T283.86551538301865 📋 extract_1 "vernacular" score? 1.17
+T283.8656762530154 attempt_24: "vernacular" score:1.17 prog:None
+T316.490060584998 attempt_25 ? /model
+T323.1057613370067 Select model (by name or number)> 3
+T323.1109818210243 session model: mistral:latest
+T323.11101857500034 session clear
+T327.95358032902004 attempt_25 ? *10 t1
+T327.9537841240235 session clear
+T327.9538633770135 session: {"role": "user", "content": "give me 10 words that are similar to \"furbish\""}
+T342.0826079980179 session: {"role": "assistant", "content": "1. Shaggy\n\n2. Fluffy\n\n3. Plushy\n\n4. Velvety\n\n5. Fuzzy\n\n6. Fleecy\n\n7. Woollen\n\n8. Plaited\n\n9. Pom-pom\n\n10. Tasseled"}
+T351.63351798802614 attempt_25 # 1
+T355.88179697599844 📋 extract_1 "fleecy" score? 3.64
+T355.88196376300766 attempt_25: "fleecy" score:3.64 prog:None
+T360.7534724599973 attempt_26 # 1
+T363.65758796801674 📋 extract_1 "fluffy" score? 7.04
+T363.65775876300177 attempt_26: "fluffy" score:7.04 prog:None
+T364.769187953003 attempt_27 # 1
+T367.0414101060014 📋 extract_1 "fuzzy" score? 4.71
+T367.0415915050253 attempt_27: "fuzzy" score:4.71 prog:None
+T367.8843754690024 attempt_28 # 1
+T371.6737843720184 📋 extract_1 "plaited" score? !
+T371.6739832170133 reject: "plaited"
+T373.81733976502437 attempt_28 # 1
+T376.8333238540217 📋 extract_1 "plushy" score? 20.14
+T376.8335073260241 attempt_28: "plushy" score:20.14 prog:None
+T382.8576631290198 attempt_29 # 2
+T385.47340487199835 📋 extract_2 "shaggy" score? 3.39
+T385.4736156100116 attempt_29: "shaggy" score:3.39 prog:None
+T392.11398014001315 attempt_30 # 3
+T394.88907805501367 📋 extract_3 "velvety" score? 5.87
+T394.88920261900057 attempt_30: "velvety" score:5.87 prog:None
+T396.1389113450132 attempt_31 # 3
+T400.1137352180085 📋 extract_3 "woollen" score? 2.33
+T400.1139877840178 attempt_31: "woollen" score:2.33 prog:None
+T401.7217716370069 attempt_32 # 1
+T404.2337068040215 📋 extract_1 "pom" score? 2.6
+T404.2338895020075 attempt_32: "pom" score:2.60 prog:None
+T405.17788981902413 attempt_33 # 1
+T408.91364582799724 📋 extract_1 "tasseled" score? 9.96
+T408.9138126540056 attempt_33: "tasseled" score:9.96 prog:None
+T438.0495762260107 attempt_34 ? > give me 10 words taht are similar to $2
+T438.04982817400014 session: {"role": "user", "content": "give me 10 words taht are similar to \"plushy\""}
+T447.9137296359986 session: {"role": "assistant", "content": "1. Fluffy\n\n2. Velvety\n\n3. Shaggy\n\n4. Soft\n\n5. Cuddly\n\n6. Plush\n\n7. Pile\n\n8. Plaited\n\n9. Furry\n\n10. Stuffed"}
+T449.62659193601576 attempt_34 # 1
+T453.7372620390088 📋 extract_1 "cuddly" score? 11.22
+T453.7374071920058 attempt_34: "cuddly" score:11.22 prog:None
+T454.52948828201625 attempt_35 # 1
+T457.47348554001655 📋 extract_1 "furry" score? 4.3
+T457.473647375009 attempt_35: "furry" score:4.30 prog:None
+T458.21730122802546 attempt_36 # 1
+T460.6817105830123 📋 extract_1 "pile" score? 10.34
+T460.68188725502114 attempt_36: "pile" score:10.34 prog:None
+T461.5537002540077 attempt_37 # 1
+T465.24112674500793 📋 extract_1 "plush" score? 19.97
+T465.2412177060032 attempt_37: "plush" score:19.97 prog:None
+T466.0650627880241 attempt_38 # 1
+T470.5694534070208 📋 extract_1 "soft" score? 3.88
+T470.5696477940073 attempt_38: "soft" score:3.88 prog:None
+T471.6897483530047 attempt_39 # 1
+T475.13769714700175 📋 extract_1 "stuffed" score? 9.76
+T475.1379640700179 attempt_39: "stuffed" score:9.76 prog:None
+T476.9695854750171 attempt_40 ? /model
+T480.0497509490233 Select model (by name or number)> 1
+T480.05403532701894 session model: gemma:latest
+T480.05409685202176 session clear
+T486.51298684300855 attempt_40 ? * t1
+T486.5130834020092 session clear
+T486.5131214480207 session: {"role": "user", "content": "give me 10 words that are similar to \"furbish\""}
+T504.2158323629992 session: {"role": "assistant", "content": "1. Polish\n2. Buff\n3. Shine\n4. Crisp\n5. Gleam\n6. Pristine\n7. Sparkle\n8. Crisp\n9. Debris-free\n10. Spotless"}
+T508.2739544950018 attempt_40 # 1
+T513.0337577559985 📋 extract_1 "buff" score? -0.28
+T513.0339700220211 attempt_40: "buff" score:-0.28 prog:None
+T514.1379233230255 attempt_41 # 1
+T518.2258302850241 📋 extract_1 "crisp" score? -7.57
+T518.2260884420248 attempt_41: "crisp" score:-7.57 prog:None
+T519.1135177109973 attempt_42 # 1
+T521.553374169016 📋 extract_1 "debris" score? 4.01
+T521.5535540870042 attempt_42: "debris" score:4.01 prog:None
+T522.3697248020035 attempt_43 # 1
+T525.0175693990022 📋 extract_1 "free" score? 2.66
+T525.0177290430001 attempt_43: "free" score:2.66 prog:None
+T525.6738440540212 attempt_44 # 1
+T527.8498911560164 📋 extract_1 "gleam" score? 7.34
+T527.8500620720151 attempt_44: "gleam" score:7.34 prog:None
+T528.5218837360153 attempt_45 # 1
+T531.3134477780259 📋 extract_1 "polish" score? 10.35
+T531.3135939420026 attempt_45: "polish" score:10.35 prog:None
+T531.953518180002 attempt_46 # 1
+T534.1615079390176 📋 extract_1 "pristine" score? 11.93
+T534.1616408000118 attempt_46: "pristine" score:11.93 prog:None
+T534.9451717140037 attempt_47 # 12
+T536.8656703779998 attempt_47 # 1
+T546.1697029920178 📋 extract_1 "shine" score? 17.96
+T546.1698905530211 attempt_47: "shine" score:17.96 prog:None
+T547.0416437830136 attempt_48 # 1
+T549.9698417800246 📋 extract_1 "sparkle" score? 6.56
+T549.9700376560213 attempt_48: "sparkle" score:6.56 prog:None
+T551.3614792610169 attempt_49 # 1
+T554.8174825770257 📋 extract_1 "spotless" score? 5.83
+T554.8176530240162 attempt_49: "spotless" score:5.83 prog:None
+T567.6973648790154 attempt_50 ? /p
+T591.3701596370083 <INT>
+T0.005011194007238373 now: 2024-11-19T14:48:17UTC
+T0.005049942003097385 session model: gemma:latest
+T3.0656069820106495 attempt_50 ? /model
+T7.738037896022433 Select model (by name or number)> 2
+T7.742897752003046 session model: llama3.2:latest
+T7.7429459289996885 session clear
+T12.145664080017013 attempt_50 ? * $2
+T12.14585597900441 session clear
+T12.146189821010921 session: {"role": "user", "content": "give me 10 words that are similar to \"plushy\""}
+T20.034686544997385 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"plushy\":\n\n1. Fluffy\n2. Softy\n3. Cushy\n4. Puffy\n5. Downy\n6. Silky\n7. Velvety\n8. Fuzzy\n9. Cozy\n10. Snug"}
+T21.39354867200018 attempt_50 # 1
+T24.66554374800762 📋 extract_1 "cozy" score? 16.94
+T24.665698091004742 attempt_50: "cozy" score:16.94 prog:None
+T25.65007586500724 attempt_51 # 1
+T31.30535389101715 📋 extract_1 "cushy" score? 25.29
+T34.52957990000141 📋 extract_1 "cushy" 25.29°C prog‰ ? 321
+T34.52972010101075 attempt_51: "cushy" score:25.29 prog:321
+T39.44989505200647 attempt_52 # 1
+T42.47368513702531 📋 extract_1 "downy" score? 5.76
+T42.473827837005956 attempt_52: "downy" score:5.76 prog:None
+T43.07319916502456 attempt_53 # 1
+T45.513800009997794 📋 extract_1 "puffy" score? 1.99
+T45.514035939006135 attempt_53: "puffy" score:1.99 prog:None
+T46.081530010007555 attempt_54 # 1
+T48.46531068300828 📋 extract_1 "silky" score? 1.45
+T48.46539162500994 attempt_54: "silky" score:1.45 prog:None
+T49.02559136800119 attempt_55 # 1
+T51.64940762502374 📋 extract_1 "snug" score? 18.84
+T51.649519721016986 attempt_55: "snug" score:18.84 prog:None
+T52.505549404013436 attempt_56 # 1
+T56.18542634000187 📋 extract_1 "softy" score? -0.84
+T56.18551943299826 attempt_56: "softy" score:-0.84 prog:None
+T60.89360225602286 attempt_57 ? * t2
+T60.89379664399894 session clear
+T60.89401255501434 session: {"role": "user", "content": "give me 10 words that are similar to \"furbish\" and \"cushy\""}
+T68.45066362101352 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"Furish\" and \"Cushy\":\n\n1. Fuzzy\n2. Fluffy\n3. Plush\n4. Softy\n5. Silky\n6. Velvety\n7. Downy\n8. Comfy\n9. Cozy\n10. Snug\n\nThese words all convey a sense of softness, warmth, and comfort, similar to the meanings of \"Furish\" (which isn't a real word) and \"Cushy\"."}
+T82.01004156700219 attempt_57 # 1
+T85.79371458801324 📋 extract_1 "comfy" score? 20.46
+T85.79390165800578 attempt_57: "comfy" score:20.46 prog:None
+T92.2418180060049 attempt_58 ? * $2 $3
+T92.242322281003 session clear
+T92.24254957400262 session: {"role": "user", "content": "give me 10 words that are similar to \"cushy\" and \"comfy\""}
+T98.75093619601103 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"cushy\" and \"comfy\":\n\n1. Plush\n2. Soft\n3. Cozy\n4. Snug\n5. Warm\n6. Inviting\n7. Delicate\n8. Fluffy\n9. Gentle\n10. Soothing\n\nThese words all convey a sense of comfort, relaxation, and warmth, similar to \"cushy\" and \"comfy\"."}
+T100.04968926802394 attempt_58 # 1
+T102.7701013770129 📋 extract_1 "delicate" score? 6.21
+T102.77035438100575 attempt_58: "delicate" score:6.21 prog:None
+T103.39380971802166 attempt_59 # 1
+T107.24143201400875 📋 extract_1 "gentle" score? -0.86
+T107.24159528201562 attempt_59: "gentle" score:-0.86 prog:None
+T108.0015695010079 attempt_60 # 1
+T110.36198062202311 📋 extract_1 "inviting" score? 11.37
+T110.36223638101364 attempt_60: "inviting" score:11.37 prog:None
+T111.16188069200143 attempt_61 # 2
+T113.59372293102206 📋 extract_2 "warm" score? 4.63
+T113.59393264399841 attempt_61: "warm" score:4.63 prog:None
+T114.0335607349989 attempt_62 # 1
+T116.65729547900264 📋 extract_1 "soothing" score? 3.53
+T116.6574159800075 attempt_62: "soothing" score:3.53 prog:None
+T121.96959811702254 attempt_63 ? > keep going
+T121.96984930001781 session: {"role": "user", "content": "keep going"}
+T129.4791331780143 session: {"role": "assistant", "content": "Here are 10 more words that are similar to \"cushy\" and \"comfy\":\n\n11. Placid\n12. Calming\n13. Gentlemanly\n14. Relaxing\n15. Serene\n16. Soothing\n17. Tactile\n18. Velvety\n19. Cushioned\n20. Warmth-filled\n\nThese words continue to evoke a sense of comfort, relaxation, and tranquility, similar to \"cushy\" and \"comfy\"."}
+T130.90527878102148 attempt_63 # 1
+T133.60977749500307 📋 extract_1 "calming" score? 2.96
+T133.60999675100902 attempt_63: "calming" score:2.96 prog:None
+T135.6817325160082 attempt_64 # 7
+T138.41768761500134 📋 extract_7 "tactile" score? 3.09
+T138.41784798100707 attempt_64: "tactile" score:3.09 prog:None
+T139.8736391060229 attempt_65 # 6
+T142.03342737600906 📋 extract_6 "serene" score? 15.55
+T142.03356167901075 attempt_65: "serene" score:15.55 prog:None
+T143.92950576799922 attempt_66 # 4
+T148.12940200802404 📋 extract_4 "placid" score? 10.83
+T148.12954019301105 attempt_66: "placid" score:10.83 prog:None
+T150.1057764890138 attempt_67 # 3
+T152.32213763601612 📋 extract_3 "gentlemanly" score? 2.93
+T152.32235853900784 attempt_67: "gentlemanly" score:2.93 prog:None
+T153.66543787901173 attempt_68 # 3
+T155.96118154600845 📋 extract_3 "relaxing" score? 5.66
+T155.96124421802233 attempt_68: "relaxing" score:5.66 prog:None
+T156.8974029670062 attempt_69 # 3
+T158.94550878700102 📋 extract_3 "warmth" score? 3.25
+T158.9456351280096 attempt_69: "warmth" score:3.25 prog:None
+T160.17739215501933 attempt_70 # 2
+T164.47360394801944 📋 extract_2 "filled" score? 30.76
+T167.37772763700923 📋 extract_2 "filled" 30.76°C prog‰ ? 788
+T167.37789725401672 attempt_70: "filled" score:30.76 prog:788
+T168.52978252302273 attempt_71 # 1
+T170.92968103001476 📋 extract_1 "cushioned" score? 12./03
+T173.1458433990192 📋 extract_1 "cushioned" score? 12.03
+T173.14606600400293 attempt_71: "cushioned" score:12.03 prog:None
+T180.4016894380038 attempt_72 ? * $1 $3
+T180.40195273602149 session clear
+T180.4021457550116 session: {"role": "user", "content": "give me 10 words that are similar to \"filled\" and \"cushy\""}
+T185.06908290702268 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"filled\" and \"cushy\":\n\n1. Padded\n2. Plush\n3. Soft\n4. Comfortable\n5. Cozy\n6. Fluffy\n7. Soothing\n8. Warm\n9. Inviting\n10. Plumping"}
+T187.58581136900466 attempt_72 # 1
+T191.32984916502028 📋 extract_1 "comfortable" score? 16.77
+T191.3300184920081 attempt_72: "comfortable" score:16.77 prog:None
+T192.0739297690161 attempt_73 # 1
+T194.73753531402326 📋 extract_1 "padded" score? 11.04
+T194.7376359910122 attempt_73: "padded" score:11.04 prog:None
+T195.5213068020239 attempt_74 # 1
+T197.72174777000328 📋 extract_1 "plumping" score? 1.04
+T197.72195605700836 attempt_74: "plumping" score:1.04 prog:None
+T199.30589218399837 attempt_75 ? > keep going
+T199.30619517099694 session: {"role": "user", "content": "keep going"}
+T204.19822520500747 session: {"role": "assistant", "content": "Here are 10 more words that are similar to \"filled\" and \"cushy\":\n\n1. Fuzzy\n2. Downy\n3. Velvety\n4. Luxurious\n5. Supple\n6. Cushy\n7. Plump\n8. Padded\n9. Insulating\n10. Supportive"}
+T205.36970866602496 attempt_75 # 1
+T209.44160486300825 📋 extract_1 "insulating" score? !
+T209.4417670550174 reject: "insulating"
+T210.4654336280073 attempt_75 # 1
+T213.1538203850214 📋 extract_1 "luxurious" score? 14.8
+T213.154030005011 attempt_75: "luxurious" score:14.80 prog:None
+T214.8816820270149 attempt_76 # 1
+T217.67367573600495 📋 extract_1 "plump" score? 12.99
+T217.6738321040175 attempt_76: "plump" score:12.99 prog:None
+T218.5215810710215 attempt_77 # 1
+T221.89726611602237 📋 extract_1 "supple" score? -1.1
+T221.89737636302016 attempt_77: "supple" score:-1.10 prog:None
+T223.03358156100148 attempt_78 # 1
+T225.385475632007 📋 extract_1 "supportive" score? 12.34
+T225.38561835500877 attempt_78: "supportive" score:12.34 prog:None
+T239.17748331601615 attempt_79 ? > try harder those were't very good words
+T239.17767834602273 session: {"role": "user", "content": "try harder those were't very good words"}
+T244.01461703001405 session: {"role": "assistant", "content": "Here are 10 new words that might be more fitting:\n\n1. Snug\n2. Plumper\n3. Fleshy\n4. Puffy\n5. Swaddled\n6. Encased\n7. Mounded\n8. Bulged\n9. Stuffed\n10. Ample"}
+T245.34567105100723 attempt_79 # 1
+T248.54592448100448 📋 extract_1 "ample" score? 12.22
+T248.54614771000342 attempt_79: "ample" score:12.22 prog:None
+T249.08982443599962 attempt_80 # 1
+T251.93746973900124 📋 extract_1 "bulged" score? !
+T251.9375989830005 reject: "bulged"
+T252.70596411899896 attempt_80 # 1
+T256.6178279390151 📋 extract_1 "encased" score? 11.09
+T256.6180045560177 attempt_80: "encased" score:11.09 prog:None
+T257.28161011700286 attempt_81 # 1
+T262.12175081300666 📋 extract_1 "fleshy" score? 10.85
+T262.1219027360203 attempt_81: "fleshy" score:10.85 prog:None
+T262.88958725801785 attempt_82 # 1
+T265.27372583400575 📋 extract_1 "mounded" score? !
+T265.2738564640167 reject: "mounded"
+T266.161423047015 attempt_82 # 1
+T268.78555366100045 📋 extract_1 "plumper" score? !
+T268.78570064000087 reject: "plumper"
+T269.9058778830222 attempt_82 # 1
+T272.52150068600895 📋 extract_1 "swaddled" score? !
+T272.52160242400714 reject: "swaddled"
+T274.13779200601857 <INT>
+T0.008253572013927624 now: 2024-11-19T15:05:08UTC
+T0.008315398008562624 session model: llama3.2:latest
+T8.28451089101145 attempt_82 ? * $1 $3
+T8.285071215010248 session clear
+T8.28529854901717 session: {"role": "user", "content": "give me 10 words that are similar to \"filled\" and \"cushy\""}
+T18.393106522009475 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"filled\" and \"cushy\":\n\n1. Plump\n2. Padded\n3. Soft\n4. Cozy\n5. Comfortable\n6. Fluffy\n7. Plush\n8. Fuzzy\n9. Supple\n10. Soothing\n\nThese words convey a sense of being full or having a soft, comfortable texture, similar to the meaning of \"filled\" and \"cushy\"."}
+T34.116638666018844 attempt_82 ? > I already know all those words, please give me 10 more
+T34.11688199400669 session: {"role": "user", "content": "I already know all those words, please give me 10 more"}
+T42.04678483202588 session: {"role": "assistant", "content": "Here are 10 more words that are similar to \"filled\" and \"cushy\":\n\n1. Mounded\n2. Swelled\n3. Puffed\n4. Bulging\n5. Ruffled\n6. Tucked\n7. Stuffed\n8. Layered\n9. Textured\n10. Insulating\n\nThese words describe textures, densities, or volumes that are similar to the meaning of \"filled\" and \"cushy\", but may have slightly different connotations or associations."}
+T43.34902274000342 attempt_82 # 1
+T46.5327530480281 📋 extract_1 "bulging" score? 9.91
+T46.53296863602009 attempt_82: "bulging" score:9.91 prog:None
+T47.50053955600015 attempt_83 # 1
+T50.57213836701703 📋 extract_1 "layered" score? 2.64
+T50.572273479017895 attempt_83: "layered" score:2.64 prog:None
+T51.52502896002261 attempt_84 # 1
+T57.58905229001539 📋 extract_1 "puffed" score? 10.96
+T57.58929649600759 attempt_84: "puffed" score:10.96 prog:None
+T58.34876437301864 attempt_85 # 1
+T61.51663750002626 📋 extract_1 "ruffled" score? 7.17
+T61.516830259002745 attempt_85: "ruffled" score:7.17 prog:None
+T62.26879312301753 attempt_86 # 1
+T65.11697363402345 📋 extract_1 "swelled" score? 10.66
+T65.11716807002085 attempt_86: "swelled" score:10.66 prog:None
+T67.60490014002426 attempt_87 # 2
+T71.35694793000584 📋 extract_2 "tucked" score? 18.37
+T71.35716620000312 attempt_87: "tucked" score:18.37 prog:None
+T72.51675102600711 attempt_88 # 1
+T79.98057745900587 📋 extract_1 "textured" score? 4.71
+T79.98075641001924 attempt_88: "textured" score:4.71 prog:None
+T117.24495499001932 attempt_89 ? > can you simplify those words down, removing any word endings, and instead just give me basic word related to those?
+T117.24522006101324 session: {"role": "user", "content": "can you simplify those words down, removing any word endings, and instead just give me basic word related to those?"}
+T122.30184427500353 session: {"role": "assistant", "content": "Here are 10 simplified words that relate to the original list:\n\n1. Thick\n2. Heavy\n3. Puffy\n4. Bulge\n5. Rumply\n6. Tidy\n7. Full\n8. Layer\n9. Dense\n10. Warm"}
+T124.67635166601394 attempt_89 # 1
+T127.71608733202447 📋 extract_1 "bulge" score? 14.77
+T127.71618757100077 attempt_89: "bulge" score:14.77 prog:None
+T128.5724533200264 attempt_90 # 1
+T131.06061795400456 📋 extract_1 "dense" score? 12.54
+T131.060769704025 attempt_90: "dense" score:12.54 prog:None
+T131.8049049510155 attempt_91 # 1
+T134.18862876101048 📋 extract_1 "full" score? 8.17
+T134.18877326100483 attempt_91: "full" score:8.17 prog:None
+T134.98079822701402 attempt_92 # 1
+T137.57282449802733 📋 extract_1 "heavy" score? -2.83
+T137.57301199799986 attempt_92: "heavy" score:-2.83 prog:None
+T138.52500419301214 attempt_93 # 1
+T141.84469152902602 📋 extract_1 "layer" score? 6.78
+T141.84486343699973 attempt_93: "layer" score:6.78 prog:None
+T143.71644753302098 attempt_94 # 1
+T146.52468416601187 📋 extract_1 "rumply" score? !
+T146.52485134100425 reject: "rumply"
+T147.31652815500274 attempt_94 # 1
+T150.5087107840227 📋 extract_1 "thick" score? 6.45
+T150.5088672490092 attempt_94: "thick" score:6.45 prog:None
+T151.30057489100727 attempt_95 # 1
+T167.18854102600017 📋 extract_1 "tidy" score? 11.48
+T167.18870054601575 attempt_95: "tidy" score:11.48 prog:None
+T177.74860908501432 attempt_96 ? * $1
+T177.74884894001298 session clear
+T177.74898173700785 session: {"role": "user", "content": "give me 10 words that are similar to \"filled\""}
+T181.7762643660244 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"filled\":\n\n1. Stuffed\n2. Loaded\n3. Packed\n4. Heavy\n5. Laden\n6. Burdened\n7. Weighty\n8. Charged\n9. Drenched\n10. Swollen"}
+T183.79669041000307 attempt_96 # 1
+T187.58884143200703 📋 extract_1 "burdened" score? 14.77
+T187.58903574300348 attempt_96: "burdened" score:14.77 prog:None
+T188.28538187002414 attempt_97 # 1
+T190.63677113002632 📋 extract_1 "charged" score? 8.36
+T190.63696588602033 attempt_97: "charged" score:8.36 prog:None
+T191.493071651028 attempt_98 # 1
+T193.77406920300564 📋 extract_1 "drenched" score? 4.73
+T193.77431735600112 attempt_98: "drenched" score:4.73 prog:None
+T194.4447564940201 attempt_99 # 1
+T197.00463809800567 📋 extract_1 "laden" score? 2.66
+T197.00483159002033 attempt_99: "laden" score:2.66 prog:None
+T197.74858932601637 attempt_100 # 1
+T199.8925858720031 📋 extract_1 "loaded" score? 11.35
+T199.89275913801976 attempt_100: "loaded" score:11.35 prog:None
+T200.69291834902833 attempt_101 # 1
+T203.75630767902476 📋 extract_1 "packed" score? 16.42
+T203.75643758301158 attempt_101: "packed" score:16.42 prog:None
+T204.74905885002227 attempt_102 # 1
+T207.99678889202187 📋 extract_1 "swollen" score? -5.18
+T207.9969781670079 attempt_102: "swollen" score:-5.18 prog:None
+T208.72462988900952 attempt_103 # 1
+T210.95689899500576 📋 extract_1 "weighty" score? 8.81
+T210.95711759701953 attempt_103: "weighty" score:8.81 prog:None
+T215.0474658050225 <INT>
+T0.005643264012178406 now: 2024-11-19T15:17:09UTC
+T0.0056873860012274235 session model: llama3.2:latest
+T31.822700655000517 <INT>
+T0.004952368006343022 now: 2024-11-19T15:17:43UTC
+T0.004994589980924502 session model: llama3.2:latest
+T9.535480817983625 <INT>
+T0.005134211998665705 now: 2024-11-19T15:17:54UTC
+T0.005178218008950353 session model: llama3.2:latest
+T7.343825024989201 attempt_104 ? /v
+T82.75141292100307 <INT>
+T0.008358783001312986 now: 2024-11-19T15:19:18UTC
+T0.008436198986601084 session model: llama3.2:latest
+T5.79690729099093 attempt_104 ? * fill
+T5.797559480997734 session clear
+T5.797826294001425 session: {"role": "user", "content": "give me 10 words at random that are not related to each other"}
+T12.741121564991772 session: {"role": "assistant", "content": "Here are 10 random words that are not related to each other:\n\n1. Caramel\n2. Banjo\n3. Snowflake\n4. Perfume\n5. Llama\n6. Harmonica\n7. Pineapple\n8. Fjord\n9. Typewriter\n10. Quilt"}
+T36.09012855999754 <INT>
+T0.008265355980256572 now: 2024-11-19T15:19:56UTC
+T0.008337291976204142 session model: llama3.2:latest
+T2.561405661981553 📋 extract_1 "banjo" score? * fill
+T7.169842102972325 <INT>
+T0.005007562984246761 now: 2024-11-19T15:20:06UTC
+T0.005055760993855074 session model: llama3.2:latest
+T0.5671993439900689 📋 extract_1 "banjo" score? 
+T5.775548567005899 attempt_104 # 1
+T13.751438723993488 📋 extract_1 "banjo" score? -0.43
+T13.751649291982176 attempt_104: "banjo" score:-0.43 prog:None
+T14.647565574996406 attempt_105 # 1
+T18.183328607003205 📋 extract_1 "llama" score? -2.72
+T18.18350532100885 attempt_105: "llama" score:-2.72 prog:None
+T20.03133637798601 attempt_106 # 1
+T23.607674134982517 📋 extract_1 "pineapple" score? 2.36
+T23.607903119002003 attempt_106: "pineapple" score:2.36 prog:None
+T25.215743518987438 attempt_107 # 1
+T28.167647550988477 📋 extract_1 "quilt" score? 5.6
+T28.167817251000088 attempt_107: "quilt" score:5.60 prog:None
+T30.495106807997217 attempt_108 # 1
+T35.975654923997354 📋 extract_1 "snowflake" score? -2.83
+T35.97589141599019 attempt_108: "snowflake" score:-2.83 prog:None
+T37.09552062099101 attempt_109 # 1
+T42.20738622400677 📋 extract_1 "typewriter" score? 1.79
+T42.20758300900343 attempt_109: "typewriter" score:1.79 prog:None
+T44.97542442800477 attempt_110 ? * fill
+T44.975665423000464 session clear
+T44.97608240399859 session: {"role": "user", "content": "give me 10 words that are similar to fill"}
+T48.68280264700297 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"fill\":\n\n1. Fill\n2. Stuff\n3. Pack\n4. Load\n5. Stow\n6. Store\n7. Supply\n8. Furnish\n9. Equip\n10. Stock"}
+T112.99114747100975 attempt_110 # 1
+T119.23936313900049 📋 extract_1 "equip" score? 25.68
+T121.86324230799801 📋 extract_1 "equip" 25.68°C prog‰ ? 374
+T121.86349742300808 attempt_110: "equip" score:25.68 prog:374
+T122.83948390299338 attempt_111 # 1
+T131.0076753209869 📋 extract_1 "fill" score? 40.32
+T133.75964033900527 📋 extract_1 "fill" 40.32°C prog‰ ? 962
+T133.7598199339991 attempt_111: "fill" score:40.32 prog:962
+T134.82299968099687 attempt_112 # 1
+T140.1833161629911 📋 extract_1 "furnish" score? 30.08
+T142.2548700729967 📋 extract_1 "furnish" 30.08°C prog‰ ? 752
+T142.2549309830065 attempt_112: "furnish" score:30.08 prog:752
+T143.3194031000021 attempt_113 # 1
+T146.3991029149911 📋 extract_1 "load" score? 1.52
+T146.3992883650062 attempt_113: "load" score:1.52 prog:None
+T147.41541208999115 attempt_114 # 1
+T150.32750423499965 📋 extract_1 "pack" score? 14.16
+T150.3277030249883 attempt_114: "pack" score:14.16 prog:None
+T150.94333710800856 attempt_115 # 1
+T153.09558202099288 📋 extract_1 "stock" score? 1.17
+T153.0957906350086 attempt_115: "stock" score:1.17 prog:None
+T153.68755201000022 attempt_116 # 1
+T155.97553924500244 📋 extract_1 "store" score? 8.12
+T155.9757303429942 attempt_116: "store" score:8.12 prog:None
+T156.91133681498468 attempt_117 # 1
+T159.88717363899923 📋 extract_1 "stow" score? 22.34
+T159.887327628996 attempt_117: "stow" score:22.34 prog:None
+T160.82357064299867 attempt_118 # 1
+T163.2475953869871 📋 extract_1 "stuff" score? 5.8
+T163.24781191599322 attempt_118: "stuff" score:5.80 prog:None
+T163.96757033499307 attempt_119 # 1
+T166.35156032000668 📋 extract_1 "supply" score? 12.14
+T166.35178724100115 attempt_119: "supply" score:12.14 prog:None
+T173.37534094200237 attempt_120 ? * t3
+T173.37555259399232 session clear
+T173.37567579199094 session: {"role": "user", "content": "give me 10 words that are similar to \"fill\", \"filled\", and \"furnish\""}
+T177.98294727999019 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"fill\", \"filled\", and \"furnish\":\n\n1. Stock\n2. Equip\n3. Supply\n4. Load\n5. Stow\n6. Store\n7. Add\n8. Accumulate\n9. Stockpile\n10. Amass"}
+T206.86305318400264 attempt_120 # 1
+T211.63114880098146 📋 extract_1 "accumulate" score? 26.6
+T214.05577165799332 📋 extract_1 "accumulate" 26.60°C prog‰ ? 484
+T214.05599008998252 attempt_120: "accumulate" score:26.60 prog:484
+T215.13518166399444 attempt_121 # 1
+T219.9513535980077 📋 extract_1 "add" score? 30.42
+T221.4955049289856 📋 extract_1 "add" 30.42°C prog‰ ? 770
+T221.49570042299456 attempt_121: "add" score:30.42 prog:770
+T222.31150856500608 attempt_122 # 1
+T226.9435853670002 📋 extract_1 "amass" score? 31.52
+T229.00752088299487 📋 extract_1 "amass" 31.52°C prog‰ ? 815
+T229.00770963300602 attempt_122: "amass" score:31.52 prog:815
+T230.27977557698614 attempt_123 # 1
+T232.9674711090047 📋 extract_1 "stockpile" score? 9.39
+T232.96767742399243 attempt_123: "stockpile" score:9.39 prog:None
+T234.80687633898924 attempt_124 ? /p
+T307.03140945598716 <INT>
+T0.006633457989664748 now: 2024-11-19T15:25:14UTC
+T0.006683522980893031 session model: llama3.2:latest
+T1.3582373280078173 attempt_124 ? /p
+T24.958264076994965 attempt_124 ? * t5
+T24.958478821994504 session clear
+T24.958835925994208 session: {"role": "user", "content": "give me 10 words that are similar to \"fill\", \"amass\", \"filled\", \"add\", and \"furnish\""}
+T32.32908237699303 session: {"role": "assistant", "content": "Here are ten words that are similar to \"fill\", \"amass\", \"filled\", \"add\", and \"furnish\":\n\n1. Accumulate\n2. Stockpile\n3. Populate\n4. Enhance\n5. Supplement\n6. Supply\n7. Pile\n8. Load\n9. Reinforce\n10. Equip\n\nThese words convey similar meanings to the original five words, such as adding or accumulating resources, materials, or people, and improving or equipping something with additional elements."}
+T34.67864791399916 attempt_124 # 1
+T38.6382748989854 📋 extract_1 "enhance" score? 16.77
+T38.63849970299634 attempt_124: "enhance" score:16.77 prog:None
+T39.157964707002975 attempt_125 # 1
+T43.941950440988876 📋 extract_1 "populate" score? 45.33
+T47.30239870399237 📋 extract_1 "populate" 45.33°C prog‰ ? 986
+T47.30261870200047 attempt_125: "populate" score:45.33 prog:986
+T48.630628922983306 attempt_126 # 1
+T56.66212926598382 📋 extract_1 "reinforce" score? 21.19
+T56.66227404598612 attempt_126: "reinforce" score:21.19 prog:None
+T58.534357798984274 attempt_127 # 1
+T61.85439535998739 📋 extract_1 "supplement" score? 9.33
+T61.85461742000189 attempt_127: "supplement" score:9.33 prog:None
+T63.526353608001955 attempt_128 ? /p
+T71.06216524299816 attempt_128 ? * t3
+T71.06237052200595 session clear
+T71.06246357600321 session: {"role": "user", "content": "give me 10 words that are similar to \"populate\", \"fill\", and \"amass\""}
+T75.85840147998533 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"populate\", \"fill\", and \"amass\":\n\n1. Accumulate\n2. Assemble\n3. Congregate\n4. Collect\n5. Gather\n6. Hoard\n7. Stockpile\n8. Consolidate\n9. Enrich\n10. Swell"}
+T77.32609872097964 attempt_128 # 1
+T81.40644297000836 📋 extract_1 "assemble" score? 31.75
+T83.59007220799685 📋 extract_1 "assemble" 31.75°C prog‰ ? 826
+T83.59020678699017 attempt_128: "assemble" score:31.75 prog:826
+T84.5983148009982 attempt_129 # 1
+T89.83029023098061 📋 extract_1 "collect" score? 23.67 83
+T89.830523127981 attempt_129: "collect" score:23.67 prog:83
+T91.60634150198894 attempt_130 # 1
+T97.43822117499076 📋 extract_1 "congregate" score? 35.39 919
+T97.4384099089948 attempt_130: "congregate" score:35.39 prog:919
+T98.11797278298764 attempt_131 # 1
+T104.00566148699727 📋 extract_1 "consolidate" score? 33.65 874
+T104.0057296489831 attempt_131: "consolidate" score:33.65 prog:874
+T104.75840928198886 attempt_132 # 1
+T110.99799484698451 📋 extract_1 "enrich" score? 24.87 268
+T110.99817426499794 attempt_132: "enrich" score:24.87 prog:268
+T111.99025537300622 attempt_133 # 1
+T118.09425433099386 📋 extract_1 "gather" score? 27.89 617
+T118.09443382799509 attempt_133: "gather" score:27.89 prog:617
+T118.92606439098017 attempt_134 # 1
+T121.80586026699166 📋 extract_1 "hoard" score? 15.33
+T121.80601751999347 attempt_134: "hoard" score:15.33 prog:None
+T122.81445818100474 attempt_135 # 1
+T125.22216987199499 📋 extract_1 "swell" score? 13.13
+T125.22235441900557 attempt_135: "swell" score:13.13 prog:None
+T126.75823577400297 attempt_136 ? /p
+T134.19047113400302 attempt_136 ? /l
+T136.84641924500465 attempt_136 ? /p
+T143.85420334199443 attempt_136 ? * t5
+T143.8544293580053 session clear
+T143.85453524900367 session: {"role": "user", "content": "give me 10 words that are similar to \"populate\", \"fill\", \"congregate\", \"consolidate\", and \"assemble\""}
+T148.5104377490061 session: {"role": "assistant", "content": "Here are 10 words that are similar to the given words:\n\n1. Gather\n2. Mobilize\n3. Unite\n4. Merge\n5. Consolidate (already on your list)\n6. Accumulate\n7. Collect\n8. Comprise\n9. Muster\n10. Group"}
+T151.89440366099006 attempt_136 # 1
+T158.502889727999 📋 extract_1 "comprise" score? 44.91 984
+T158.5031227839936 attempt_136: "comprise" score:44.91 prog:984
+T159.6626941129798 attempt_137 # 1
+T163.52641408098862 📋 extract_1 "group" score? 5.59
+T163.52657720600837 attempt_137: "group" score:5.59 prog:None
+T165.75840452799457 attempt_138 # 1
+T170.51814535298035 📋 extract_1 "merge" score? 22.4
+T170.51829648498097 attempt_138: "merge" score:22.40 prog:None
+T171.43033489398658 attempt_139 # 1
+T176.59031583598698 📋 extract_1 "mobilize" score? 23.55 62
+T176.5904756159871 attempt_139: "mobilize" score:23.55 prog:62
+T177.1818758629961 attempt_140 # 1
+T179.99046441100654 📋 extract_1 "muster" score? 19.71
+T179.9906533419853 attempt_140: "muster" score:19.71 prog:None
+T180.7343725709943 attempt_141 # 1
+T188.9663109649846 📋 extract_1 "unite" score? 25.49 343
+T188.9665463239944 attempt_141: "unite" score:25.49 prog:343
+T190.80627045498113 <INT>
+T0.005925420991843566 now: 2024-11-19T15:29:05UTC
+T0.005972711980575696 session model: llama3.2:latest
+T1.2533494279778097 attempt_142 ? /l
+T4.493604395975126 attempt_142 ? /p
+T11.853303079988109 attempt_142 ? *t4
+T17.740934492991073 attempt_142 ? * t3
+T17.741156144998968 session clear
+T17.741524719982408 session: {"role": "user", "content": "give me 10 words that are similar to \"populate\", \"comprise\", and \"fill\""}
+T24.268795441981638 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"populate\", \"comprise\", and \"fill\":\n\n1. Enumerate\n2. Include\n3. Equate\n4. Amass\n5. Accumulate\n6. Stockpile\n7. Supplement\n8. Augment\n9. Constitute\n10. Reinforce\n\nThese words all have similar meanings to \"populate\", \"comprise\", and \"fill\" in terms of adding, increasing, or gathering something."}
+T25.285136685997713 attempt_142 # 1
+T31.29329016097472 📋 extract_1 "augment" score? 26.89 520
+T31.2936200479744 attempt_142: "augment" score:26.89 prog:520
+T32.29335353799979 attempt_143 # 1
+T38.09313862299314 📋 extract_1 "constitute" score? 25.76 389
+T38.09336686698953 attempt_143: "constitute" score:25.76 prog:389
+T38.645024556986755 attempt_144 # 1
+T41.59713372599799 📋 extract_1 "enumerate" score? 18.39
+T41.597301494999556 attempt_144: "enumerate" score:18.39 prog:None
+T42.05358259798959 attempt_145 # 1
+T47.59738590999041 📋 extract_1 "equate" score? 23.81 104
+T47.597623107983964 attempt_145: "equate" score:23.81 prog:104
+T48.373088881984586 attempt_146 # 1
+T51.30928424699232 📋 extract_1 "include" score? 19.61
+T51.309533602994634 attempt_146: "include" score:19.61 prog:None
+T54.05311670099036 attempt_147 ? /l
+T58.660864643985406 attempt_147 ? /p
+T68.0451150649751 attempt_147 ? * t2
+T68.04531201897771 session clear
+T68.04540427098982 session: {"role": "user", "content": "give me 10 words that are similar to \"populate\" and \"comprise\""}
+T79.35307977799675 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"populate\" and \"comprise\":\n\n1. Encompass\n2. Include\n3. Form\n4. Consist\n5. Make up\n6. comprise of\n7. Comprised of\n8. Inhabit\n9. Resident\n10. Constitute\n\nThese words all relate to the idea of something being a part of or filling a space, or having members or components that make it up.\n\nNote: \"Comprise\" and \"populate\" both mean to fill or occupy a space or position, but they have slightly different connotations and uses. \"Populate\" often implies a change in the number of people or things in a place, while \"comprised of\" tends to emphasize the contents or components of something.\n\nLet me know if you'd like more suggestions!"}
+T81.08554922099574 attempt_147 # 1
+T84.24514191798517 📋 extract_1 "comprised" score? !
+T84.24527918599779 reject: "comprised"
+T85.03713550799876 attempt_147 # 1
+T90.98917256697314 📋 extract_1 "consist" score? 32.56 848
+T90.98936863098061 attempt_147: "consist" score:32.56 prog:848
+T91.61337668998749 attempt_148 # 1
+T98.35738726498676 📋 extract_1 "encompass" score? 32.74 853
+T98.3576075649762 attempt_148: "encompass" score:32.74 prog:853
+T99.1014313630003 attempt_149 # 1
+T101.90129497999442 📋 extract_1 "form" score? 12.74
+T101.90152126498288 attempt_149: "form" score:12.74 prog:None
+T102.47736992299906 attempt_150 # 1
+T109.47705474798568 📋 extract_1 "inhabit" score? 56.18 998
+T109.47724966998794 attempt_150: "inhabit" score:56.18 prog:998
+T110.21335897399695 attempt_151 # 1
+T114.13327965597273 📋 extract_1 "make" score? 20.68
+T114.13344967897865 attempt_151: "make" score:20.68 prog:None
+T114.88524149300065 attempt_152 # 1
+T117.36501921797753 📋 extract_1 "resident" score? 3.99
+T117.36520283998107 attempt_152: "resident" score:3.99 prog:None
+T120.96484028897248 attempt_153 ? * t2
+T120.96509031800088 session clear
+T120.96513994899578 session: {"role": "user", "content": "give me 10 words that are similar to \"inhabit\" and \"populate\""}
+T127.35701906998293 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"inhabit\" and \"populate\":\n\n1. Resident\n2. Occupant\n3. Dweller\n4. Settler\n5. Colonist\n6. Inhabitant\n7. Occupier\n8. Lodger\n9. Tenant\n10. Occupant\n\nThese words all relate to the idea of people or animals living in a particular place, similar to \"inhabit\" and \"populate\"."}
+T128.81318219698733 attempt_153 # 1
+T131.59715487499489 📋 extract_1 "colonist" score? 4.85
+T131.59731751598883 attempt_153: "colonist" score:4.85 prog:None
+T132.58057836198714 attempt_154 # 1
+T135.26864257198758 📋 extract_1 "dweller" score? 19.71
+T135.2687666679849 attempt_154: "dweller" score:19.71 prog:None
+T135.79684261299553 attempt_155 # 1
+T142.53343837498687 📋 extract_1 "inhabitant" score? 28.05 624
+T142.53370210999856 attempt_155: "inhabitant" score:28.05 prog:624
+T143.24493351197452 attempt_156 # 1
+T145.26901409597485 📋 extract_1 "lodger" score? 3.3
+T145.269184277975 attempt_156: "lodger" score:3.30 prog:None
+T145.8692845539772 attempt_157 # 1
+T152.02159733799635 📋 extract_1 "occupant" score? 29.06 694
+T152.02179208799498 attempt_157: "occupant" score:29.06 prog:694
+T152.66895519499667 attempt_158 # 1
+T160.18135423099739 📋 extract_1 "occupier" score? 26.92 522
+T160.18158851997578 attempt_158: "occupier" score:26.92 prog:522
+T160.74115532299038 attempt_159 # 1
+T163.0852273919736 📋 extract_1 "settler" score? 8.48
+T163.085402674973 attempt_159: "settler" score:8.48 prog:None
+T163.54905000599683 attempt_160 # 1
+T171.02936542697717 📋 extract_1 "tenant" score? 29.71 736
+T171.0296197019925 attempt_160: "tenant" score:29.71 prog:736
+T201.7491659729858 attempt_161 ? /p
+T205.94909805999487 attempt_161 ? /l
+T207.3890846829745 attempt_161 ? /p
+T209.02121311897645 attempt_161 ? * t1
+T209.0214684289822 session clear
+T209.02161927998532 session: {"role": "user", "content": "give me 10 words that are similar to \"inhabit\""}
+T213.06798793797498 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"inhabit\":\n\n1. Resident\n2. Occupant\n3. Dweller\n4. Settler\n5. Tenant\n6. Occupier\n7. User\n8. Dwellers\n9. Stayer\n10. Tenancy"}
+T214.98884996998822 attempt_161 # 1
+T217.51700684797834 📋 extract_1 "dwellers" score? !
+T217.5171394609788 reject: "dwellers"
+T218.11700632999418 attempt_161 # 1
+T221.26944495298085 📋 extract_1 "stayer" score? -8.31
+T221.2697056819743 attempt_161: "stayer" score:-8.31 prog:None
+T221.8450196129852 attempt_162 # 1
+T225.91693626498454 📋 extract_1 "tenancy" score? 22.38
+T225.9170994979795 attempt_162: "tenancy" score:22.38 prog:None
+T226.3814168209792 attempt_163 # 1
+T230.99681124699418 📋 extract_1 "user" score? -4.3
+T230.99695950598107 attempt_163: "user" score:-4.30 prog:None
+T235.78126276799594 attempt_164 ? > keep going
+T235.78155199598405 session: {"role": "user", "content": "keep going"}
+T240.85853208697517 session: {"role": "assistant", "content": "Here are 10 more words that are similar to \"inhabit\":\n\n11. Lodger\n12. Householder\n13. occupant's\n14. Custodian\n15. Possessor\n16. Renter\n17. Holder\n18. Possessant\n19. Domiciliary\n20. Occupier's"}
+T242.9649301939935 attempt_164 # 1
+T246.98885700199753 📋 extract_1 "custodian" score? 10.45
+T246.98898625798756 attempt_164: "custodian" score:10.45 prog:None
+T247.83706739899935 attempt_165 # 1
+T250.8612110989925 📋 extract_1 "domiciliary" score? 13.36
+T250.86139422398992 attempt_165: "domiciliary" score:13.36 prog:None
+T251.2616514779802 attempt_166 # 1
+T253.57319738299702 📋 extract_1 "holder" score? 11.32
+T253.57336814398877 attempt_166: "holder" score:11.32 prog:None
+T253.94938587397337 attempt_167 # 1
+T256.85336065199226 📋 extract_1 "householder" score? -1.82
+T256.85357380699134 attempt_167: "householder" score:-1.82 prog:None
+T257.3734699009801 attempt_168 # 1
+T260.58071829998516 📋 extract_1 "possessant" score? !
+T260.58080225499 reject: "possessant"
+T261.2051240359724 attempt_168 # 1
+T264.32520199599094 📋 extract_1 "possessor" score? 19.78
+T264.32547789099044 attempt_168: "possessor" score:19.78 prog:None
+T264.8215798549936 attempt_169 # 1
+T267.7647859779827 📋 extract_1 "renter" score? 7.35
+T267.7651258459955 attempt_169: "renter" score:7.35 prog:None
+T271.4933551319991 attempt_170 # 
+T275.0932587799907 attempt_170 ? /p
+T286.18950229499023 attempt_170 ? * $1 $4
+T286.1897635709902 session clear
+T286.18988770397846 session: {"role": "user", "content": "give me 10 words that are similar to \"inhabit\" and \"fill\""}
+T294.31912090597325 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"inhabit\" and \"fill\":\n\nSimilar to \"Inhabit\":\n1. Resident\n2. Occupant\n3. Dwellers\n4. Insettlers\n5. Colonizers\n6. Tenants\n7. Settlers\n8. Natives\n9. Denizens\n10. Occupiers\n\nSimilar to \"Fill\":\n1. Stow\n2. Store\n3. Accumulate\n4. Amass\n5. Gather\n6. Collect\n7. Stock\n8. Pack\n9. Load\n10. Pile"}
+T298.62905835098354 attempt_170 # 1
+T301.5654552789929 📋 extract_1 "colonizers" score? !
+T301.56561594697996 reject: "colonizers"
+T302.1810729499848 attempt_170 # 1
+T307.749109190976 📋 extract_1 "denizens" score? 
+T308.6374320239993 attempt_170 # 
+T313.54906266299076 attempt_170 ? denizen
+T319.04487942697597 attempt_170 ? 
+T319.2212188199919 📋 extract_1 "denizens" score? 
+T320.30944688999443 attempt_170 # 
+T323.7411972099799 attempt_170 ? denizen
+T331.58959446899826 <INT>
+T0.006325549999019131 now: 2024-11-19T15:35:27UTC
+T0.006374517979566008 session model: llama3.2:latest
+T3.070319541002391 📋 extract_1 "denizens" score? 
+T4.406488290987909 attempt_170 # 
+T6.966574500984279 attempt_170 ? denizen
+T10.43042219299241 📋 "denizen" "denizen" score? 21.77
+T10.430572864977876 attempt_170: "denizen" score:21.77 prog:None
+T13.894236993975937 attempt_171 ? /e
+T15.550502997997683 attempt_171 # 1
+T16.390575958997943 📋 extract_1 "denizens" score? !
+T16.390772143990034 reject: "denizens"
+T17.502492147003068 attempt_171 # 1
+T20.534423724981025 📋 extract_1 "insettlers" score? !
+T20.534633453993592 reject: "insettlers"
+T21.686298583983444 attempt_171 # 1
+T26.702346238977043 📋 extract_1 "natives" score? 
+T28.93438628700096 attempt_171 # 
+T30.046521129988832 attempt_171 ? native
+T32.6624611709849 📋 "native" "native" score? 0.02
+T32.66264605699689 attempt_171: "native" score:0.02 prog:None
+T33.91845385500346 attempt_172 ? /e
+T35.63852645698353 attempt_172 # 1
+T36.110601164982654 📋 extract_1 "natives" score? !
+T36.110765448975144 reject: "natives"
+T40.15859727998031 attempt_172 # 
+T42.1103805390012 attempt_172 ? /p
+T51.67860455799382 attempt_172 ? * t2
+T51.67892128898529 session clear
+T51.67947256099433 session: {"role": "user", "content": "give me 10 words that are similar to \"inhabit\" and \"populate\""}
+T55.94093226297991 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"inhabit\" and \"populate\":\n\n1. Occupy\n2. Dwell\n3. Resident\n4. Occupant\n5. Colonize\n6. Establish\n7. Settle\n8. Filling\n9. Sustain\n10. Tenure"}
+T57.89440380799351 attempt_172 # 3
+T63.19039671198698 📋 extract_3 "establish" score? 29.57 724
+T63.19060868700035 attempt_172: "establish" score:29.57 prog:724
+T65.09427047299687 attempt_173 # 4
+T72.99855020199902 📋 extract_4 "occupy" score? 100
+T75.79852706097881 📋 extract_4 "occupy" 100.00°C prog‰ ? 1000
+T75.79876347997924 attempt_173: "occupy" score:100.00 prog:1000
+T81.44634196598781 attempt_174 # 
+T85.57443959100056 attempt_174 ? 
+T96.23064692100161 Paste share result, then preses <Enter>
+T96.23873085799278 share result: "I found #cemantle #960 in 174 guesses!\n\ud83e\udd73\n\ud83d\udd25\n\ud83e\udd754\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e2\ufe0f\u20e35\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd761\ufe0f\u20e32\ufe0f\u20e33\ufe0f\u20e3\n\ud83e\uddca\ud83e\uddca2\ufe0f\u20e30\ufe0f\u20e3\nhttps://cemantle.certitudes.org/"
+T96.23962909399415 <STOP>
