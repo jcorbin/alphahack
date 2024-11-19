@@ -1077,7 +1077,7 @@ T498.81054208701244 session: {"role": "user", "content": "I already know about t
 T509.784290451993 session: {"role": "assistant", "content": "Sure! Here are ten words that are closely related to \"amount,\" \"proportional,\" and \"fraction\":\n\n1. Quantity\n2. Ratio\n3. Fractional\n4. Proportionate\n5. Divided\n6. Equal\n7. Partitioned\n8. Segment\n9. Quotient\n10. Allocated"}
 T513.6183880089957 attempt_133 # 2
 T519.6580398110091 extract_2 score? 23.20
-T519.6581432250096 attempt_133: "equal" score:23.20 prog:None
+T519.6581432250096 attempt_133: "equal" score:23.20 prog:172
 T522.8183648590057 attempt_134 # 1
 T526.8419679990038 extract_1 score? 2
 T526.8421292620187 attempt_134: "divided" score:18.16 prog:None
