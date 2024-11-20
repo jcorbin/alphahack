@@ -1,0 +1,893 @@
+T0.003906962985638529 now: 2024-11-20T15:48:58UTC
+T2.4890978750190698 🔗 cemantle.certitudes.org ? 
+T4.328771125001367 🌎  ? 
+T6.520613460976165 🧩  ? 961
+T9.520767541020177 😎 °C ? 24.61
+T9.520923510019202 scale: 😎 24.61 °C
+T12.056685781979468 🥵 °C ? 33.94
+T12.056849117972888 scale: 🥵 33.94 °C
+T14.05696810601512 🔥 °C ? 45.14
+T14.057108158012852 scale: 🔥 45.14 °C
+T17.70497926400276 😱 °C ? 59.07
+T17.705139293975662 scale: 😱 59.07 °C
+T17.73126533301547 session model: llama
+T17.731327694025822 session clear
+T17.73150977800833 session: {"role": "user", "content": "give me 10 words at random that are not related to each other"}
+T25.197981078003068 session: {"role": "assistant", "content": "Here are 10 random words that are not related to each other:\n\n1. Pineapple\n2. Guitar\n3. Snowflake\n4. Perfume\n5. Llama\n6. Bicycle\n7. Starfish\n8. Harmonica\n9. Fountain\n10. Cinnamon"}
+T27.46508266602177 attempt_0 # 1
+T30.449010097014252 📋 extract_1 "bicycle" score? 4.81
+T30.449235944019165 attempt_0: "bicycle" score:4.81 prog:None
+T34.14480857702438 📋 extract_1 "cinnamon" score? -3.53
+T34.1449972820119 attempt_1: "cinnamon" score:-3.53 prog:None
+T37.056649391015526 📋 extract_1 "fountain" score? 1.53
+T37.0567557309987 attempt_2: "fountain" score:1.53 prog:None
+T40.95312669198029 📋 extract_1 "guitar" score? 7.38
+T40.95332773501286 attempt_3: "guitar" score:7.38 prog:None
+T43.56898982997518 📋 extract_1 "harmonica" score? .31
+T43.569153567019384 attempt_4: "harmonica" score:0.31 prog:None
+T48.921196406008676 📋 extract_1 "llama" score? -8.06
+T48.92145241599064 attempt_5: "llama" score:-8.06 prog:None
+T54.432618191000074 📋 extract_1 "perfume" score? -.83
+T54.43280027201399 attempt_6: "perfume" score:-0.83 prog:None
+T58.409544834983535 📋 extract_1 "pineapple" score? 2.3
+T58.40979777398752 attempt_7: "pineapple" score:2.30 prog:None
+T61.64119048399152 📋 extract_1 "snowflake" score? 11.46
+T61.64145221898798 attempt_8: "snowflake" score:11.46 prog:None
+T65.76119662402198 📋 extract_1 "starfish" score? 4.53
+T65.76137036597356 attempt_9: "starfish" score:4.53 prog:None
+T68.1772391939885 attempt_10 ? /prog
+T74.78528972697677 attempt_10 ? *10 t2
+T74.78631988802226 session clear
+T74.78651168500073 session: {"role": "user", "content": "give me 10 words that are similar to \"snowflake\" and \"guitar\""}
+T83.66518649301725 session: {"role": "assistant", "content": "Here are 10 words that are similar in meaning or connotation to \"snowflake\" and \"guitar\":\n\nSimilar to \"Snowflake\":\n\n1. Crystal\n2. Fragile\n3. Delicate\n4. Icy\n5. Ephemeral\n6. Dainty\n7. Tiny\n8. Lacy\n9. Fleeting\n10. Transient\n\nSimilar to \"Guitar\":\n\n1. Instrument\n2. Strings\n3. Melody\n4. Harmony\n5. Music\n6. Note\n7. Tune\n8. Rhythm\n9. Lyre\n10. Chord"}
+T85.4731145860278 attempt_10 # 1
+T90.51327025302453 📋 extract_1 "chord" score? 8.67
+T90.51349197200034 attempt_10: "chord" score:8.67 prog:None
+T93.29693513800157 📋 extract_1 "crystal" score? 7.28
+T93.29709014197579 attempt_11: "crystal" score:7.28 prog:None
+T96.62526637199335 📋 extract_1 "dainty" score? 5.75
+T96.6255116329994 attempt_12: "dainty" score:5.75 prog:None
+T101.84912362199975 📋 extract_1 "delicate" score? 12.11
+T101.84935932001099 attempt_13: "delicate" score:12.11 prog:None
+T105.31298043800052 📋 extract_1 "ephemeral" score? 15.1
+T105.31318166200072 attempt_14: "ephemeral" score:15.10 prog:None
+T110.5369074610062 📋 extract_1 "fleeting" score? 12.69
+T110.53703488002066 attempt_15: "fleeting" score:12.69 prog:None
+T114.04904058598913 📋 extract_1 "fragile" score? 19.13
+T114.04921381402528 attempt_16: "fragile" score:19.13 prog:None
+T117.92139944102382 📋 extract_1 "harmony" score? 8.76
+T117.92170213599456 attempt_17: "harmony" score:8.76 prog:None
+T121.56889161898289 📋 extract_1 "icy" score? -5.08
+T121.56905687402468 attempt_18: "icy" score:-5.08 prog:None
+T125.08079640002688 📋 extract_1 "instrument" score? 22.05
+T125.08096770301927 attempt_19: "instrument" score:22.05 prog:None
+T131.39321302698227 📋 extract_1 "lacy" score? 5.36
+T131.3934341740096 attempt_20: "lacy" score:5.36 prog:None
+T134.6012927039992 📋 extract_1 "lyre" score? 5.6
+T134.60175438097212 attempt_21: "lyre" score:5.60 prog:None
+T137.95269788301084 📋 extract_1 "melody" score? 10.58
+T137.95283073501196 attempt_22: "melody" score:10.58 prog:None
+T154.9772351590218 📋 extract_1 "music" score? 3.03
+T154.97742531902622 attempt_23: "music" score:3.03 prog:None
+T157.9131818439928 📋 extract_1 "note" score? 7.33
+T157.91336856299313 attempt_24: "note" score:7.33 prog:None
+T160.3207585749915 📋 extract_1 "rhythm" score? 3.31
+T160.32094099902315 attempt_25: "rhythm" score:3.31 prog:None
+T163.58551173401065 📋 extract_1 "strings" score? 13.85
+T163.58570438198512 attempt_26: "strings" score:13.85 prog:None
+T166.84920353401685 📋 extract_1 "tiny" score? 4.89
+T166.84942210197914 attempt_27: "tiny" score:4.89 prog:None
+T170.20894848101307 📋 extract_1 "transient" score? 19.05
+T170.20910154399462 attempt_28: "transient" score:19.05 prog:None
+T173.7132529640221 📋 extract_1 "tune" score? .98
+T173.71342272299808 attempt_29: "tune" score:0.98 prog:None
+T175.92928380699595 attempt_30 ? /prog
+T180.8889385550283 attempt_30 ? *10 t3
+T180.88914710801328 session clear
+T180.88924836501246 session: {"role": "user", "content": "give me 10 words that are similar to \"instrument\", \"fragile\", and \"transient\""}
+T194.17938286997378 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"instrument\", \"fragile\", and \"transient\":\n\n1. Instrumental (similar to \"instrument\")\n2. Frail (similar to \"fragile\")\n3. Ephemeral (similar to \"transient\")\n4. Timbre (similar to \"instrument\")\n5. Delicate (similar to \"fragile\")\n6. Fleeting (similar to \"transient\")\n7. Resonant (related to sound, similar to \"instrument\")\n8. Fragrant (related to scent, similar to \"fragile\")\n9. Instable (similar to \"transient\" in terms of impermanence)\n10. Ephemeron (related to things that are fleeting or transitory, like \"transient\")\n\nThese words capture the essence of \"instrument\", \"fragile\", and \"transient\" by conveying a sense of something being delicate, temporary, or having a specific quality that is hard to put into words."}
+T196.56900166498963 attempt_30 # 1
+T199.17747935798252 📋 extract_1 "ephemeron" score? !
+T199.17770251602633 reject: "ephemeron"
+T202.01729631598573 attempt_30 # 1
+T206.70468445599545 📋 extract_1 "fragrant" score? -1.58
+T206.7049417429953 attempt_30: "fragrant" score:-1.58 prog:None
+T209.1048482999904 📋 extract_1 "frail" score? 5.34
+T209.10500656801742 attempt_31: "frail" score:5.34 prog:None
+T211.4334813900059 📋 extract_1 "instable" score? !
+T211.4337117280229 reject: "instable"
+T214.66536067402922 📋 extract_1 "instrumental" score? 2.31
+T214.66560189402662 attempt_32: "instrumental" score:2.31 prog:None
+T218.3129788869992 📋 extract_1 "resonant" score? 7.89
+T218.3131105559878 attempt_33: "resonant" score:7.89 prog:None
+T221.08886109298328 📋 extract_1 "timbre" score? 2.56
+T221.0889561920194 attempt_34: "timbre" score:2.56 prog:None
+T223.04870808200212 attempt_35 ? /prog
+T229.33780822297558 attempt_35 ? *10 $1
+T229.33810123498552 session clear
+T229.33824555802858 session: {"role": "user", "content": "give me 10 words that are similar to \"instrument\""}
+T235.24680303502828 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"instrument\":\n\n1. Equipment\n2. Device\n3. Tool\n4. Device\n5. Apparatus\n6. Gadget\n7. Machinery\n8. Instrumental (note: this word is related to the concept of an instrument, but it's not exactly synonymous)\n9. Outfit (in some contexts, referring to a musical outfit or ensemble)\n10. Ensemble"}
+T236.5927792310249 attempt_35 # 1
+T241.01678638899466 📋 extract_1 "apparatus" score? 18.89
+T241.01686977298232 attempt_35: "apparatus" score:18.89 prog:None
+T244.56102545902831 📋 extract_1 "device" score? 10.76
+T244.56118161301129 attempt_36: "device" score:10.76 prog:None
+T248.10542698501376 📋 extract_1 "ensemble" score? 5.06
+T248.10567266499856 attempt_37: "ensemble" score:5.06 prog:None
+T253.10552828700747 📋 extract_1 "equipment" score? 6.75
+T253.10571208497277 attempt_38: "equipment" score:6.75 prog:None
+T258.6653841059888 📋 extract_1 "gadget" score? 6.9
+T258.6655858239974 attempt_39: "gadget" score:6.90 prog:None
+T262.36096947302576 📋 extract_1 "machinery" score? 15
+T262.3611144470051 attempt_40: "machinery" score:15.00 prog:None
+T266.1692994919722 📋 extract_1 "outfit" score? 3.95
+T266.1695324869943 attempt_41: "outfit" score:3.95 prog:None
+T269.1693725140067 📋 extract_1 "tool" score? 24.58
+T269.1695861929911 attempt_42: "tool" score:24.58 prog:None
+T271.0171990880044 attempt_43 ? /prog
+T273.8490586570115 attempt_43 ? *10 t1
+T273.84925805800594 session clear
+T273.8493549079867 session: {"role": "user", "content": "give me 10 words that are similar to \"tool\""}
+T277.7347163140075 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"tool\":\n\n1. Instrument\n2. Device\n3. Equipment\n4. Gadget\n5. Machine\n6. Apparatus\n7. Aids\n8. Furniture\n9. Utensil\n10. Fixture"}
+T290.40933873399626 attempt_43 # 1
+T298.384988899983 attempt_43 ? aid
+T300.9217221449944 📋 "aid" "aid" score? 9.86
+T300.9219539629994 attempt_43: "aid" score:9.86 prog:None
+T304.38595910702134 📋 extract_1 "aids" score? !
+T304.38618488097563 reject: "aids"
+T309.19283458800055 📋 extract_1 "fixture" score? 6.85
+T309.1929664440104 attempt_44: "fixture" score:6.85 prog:None
+T313.03309514099965 📋 extract_1 "furniture" score? 2.54
+T313.03323024098063 attempt_45: "furniture" score:2.54 prog:None
+T316.25720007601194 📋 extract_1 "machine" score? 13
+T316.25737468799343 attempt_46: "machine" score:13.00 prog:None
+T319.55287215102 📋 extract_1 "utensil" score? 9.38
+T319.5529928560136 attempt_47: "utensil" score:9.38 prog:None
+T322.18481538799824 attempt_48 ? /prog
+T325.2809544450138 attempt_48 ? *10 t2
+T325.2810374010005 session clear
+T325.28107081900816 session: {"role": "user", "content": "give me 10 words that are similar to \"tool\" and \"instrument\""}
+T332.69435781100765 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"tool\" and \"instrument\":\n\n1. Device\n2. Equipment\n3. Aids\n4. Apparatus\n5. Gadget\n6. Machine\n7. Instrumentation (this one is closely related to instrument)\n8. Contraption\n9. Gadgets (similar to gadget, but often used interchangeably)\n10. Implement\n\nThese words all convey the idea of something that is used for a specific purpose or function, similar to the meanings of \"tool\" and \"instrument\"."}
+T334.24903239897685 attempt_48 # 1
+T337.5533221969963 📋 extract_1 "contraption" score? 5.68
+T337.5535243320046 attempt_48: "contraption" score:5.68 prog:None
+T341.09681529400405 📋 extract_1 "gadgets" score? !
+T341.09697079402395 reject: "gadgets"
+T345.1690916499938 📋 extract_1 "implement" score? 17.63
+T345.16926277801394 attempt_49: "implement" score:17.63 prog:None
+T348.14520143100526 📋 extract_1 "instrumentation" score? 9.22
+T348.1453558669891 attempt_50: "instrumentation" score:9.22 prog:None
+T352.0333253709832 attempt_51 ? /prog
+T367.00116113602417 attempt_51 ? *20 t2
+T367.0013959389762 session clear
+T367.00153784500435 session: {"role": "user", "content": "give me 20 words that are similar to \"tool\" and \"instrument\""}
+T378.5882662460208 session: {"role": "assistant", "content": "Here are 20 words that are similar to \"tool\" and \"instrument\":\n\n1. Device\n2. Equipment\n3. Utensil\n4. Fixture\n5. Apparatus\n6. Machinery\n7. Instrumentality\n8. Implements\n9. Gadgets\n10. Contraptions\n11. Devices\n12. Outfit\n13. Toolset\n14. Gear\n15. Machinery\n16. Equipment\n17. Hors d'oeuvre (a culinary term for a small, handheld food item)\n18. Utensil\n19. Fixtures\n20. Additive (refers to something that is added to make an instrument sound richer or fuller)\n\nThese words all relate to objects or systems used to achieve a specific function or purpose, similar to \"tool\" and \"instrument\"."}
+T380.4252897640108 attempt_51 # 1
+T383.3934379129787 📋 extract_1 "additive" score? 5.7
+T383.3937794800149 attempt_51: "additive" score:5.70 prog:None
+T386.617469032004 📋 extract_1 "contraptions" score? !
+T386.617679353978 reject: "contraptions"
+T415.977606319997 📋 extract_1 "devices" score? 6.97
+T415.97785253997426 attempt_52: "devices" score:6.97 prog:None
+T437.13705254200613 attempt_53 ? /prog
+T485.5692610500264 <INT>
+T0.008301676018163562 now: 2024-11-20T16:01:19UTC
+T3.429251405003015 🔗 cemantle.certitudes.org ? 
+T9.36516056698747 🌎  ? 
+T11.9411176390131 🧩  ? 961
+T11.971088074031286 session model: llama
+T22.061562159040477 attempt_53 ? k
+T23.71006984403357 <INT>
+T0.007219539023935795 now: 2024-11-20T16:01:44UTC
+T1.3114622950088233 🔗 cemantle.certitudes.org ? 
+T1.887431771028787 🌎  ? 
+T3.0717101480113342 🧩  ? #961
+T3.072193247033283 puzzle_id: #961
+T3.079199426982086 session model: llama
+T5.608336274977773 <INT>
+T0.007617636991199106 now: 2024-11-20T16:01:51UTC
+T0.00971018202835694 session model: llama
+T62.430587839044165 📋 extract_1 "fixtures" score? 
+T65.11821820103796 attempt_53 ? #50
+T76.73404595203465 attempt_53 ? #53
+T78.91799046401866 attempt_53 ? #52
+T84.11004635301651 attempt_53 ? /prog
+T87.48598118301015 <INT>
+T0.007478356012143195 now: 2024-11-20T16:11:00UTC
+T0.009636442002374679 session model: llama
+T12.126316135050729 📋 extract_1 "fixtures" score? !
+T12.126450506038964 reject: "fixtures"
+T25.686436257034075 📋 extract_1 "gear" score? 1.73
+T25.686598415020853 attempt_53: "gear" score:1.73 prog:None
+T30.790452911052853 📋 extract_1 "hors" score? !
+T30.790593597048428 reject: "hors"
+T36.41481907002162 📋 extract_1 "implements" score? !
+T36.41501647705445 reject: "implements"
+T39.95835811103461 📋 extract_1 "instrumentality" score? 19.31
+T39.95849501399789 attempt_54: "instrumentality" score:19.31 prog:None
+T42.518425003043376 📋 extract_1 "toolset" score? !
+T42.51869049703237 reject: "toolset"
+T57.158552876033355 attempt_55 ? /prog
+T62.61482163303299 attempt_55 ? #54
+T94.3506276460248 <INT>
+T0.007449070981238037 now: 2024-11-20T16:13:11UTC
+T0.010066909017041326 session model: llama
+T1.4669014369719662 attempt_55 ? /prog
+T3.9391383189940825 attempt_55 ? #54
+T10.395108763012104 attempt_55 ? *10 $1 -#54
+T10.395324266981333 session clear
+T10.395444187975954 session: {"role": "user", "content": "give me 10 words that are similar to \"tool\" but not similar to \"gear\""}
+T18.36775295197731 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"tool\" but not similar to \"gear\":\n\n1. Instrument\n2. Device\n3. Equipment\n4. Machinery\n5. Outfit\n6. Attire\n7. Apparatus\n8. Fixture\n9. Hardware\n10. Aids"}
+T22.68300180596998 attempt_55 # 1
+T25.21887943998445 📋 extract_1 "attire" score? 2.5
+T25.219017299998086 attempt_55: "attire" score:2.50 prog:None
+T28.45109395100735 📋 extract_1 "hardware" score? 13.65
+T28.451271370984614 attempt_56: "hardware" score:13.65 prog:None
+T32.650818408990745 attempt_57 ? /prog
+T38.458763770002406 attempt_57 ? *30 $1
+T38.45896704099141 session clear
+T38.45905597700039 session: {"role": "user", "content": "give me 30 words that are similar to \"tool\""}
+T48.41541184397647 session: {"role": "assistant", "content": "Here are 30 words similar to \"tool\":\n\n1. Instrument\n2. Device\n3. Machine\n4. Aids\n5. Equipment\n6. Instrumentation\n7. Gear\n8. Apparatus\n9. Fixture\n10. Device\n11. Machinery\n12. Implements\n13. Gadgets\n14. Conduits\n15. Means\n16. Mediums\n17. Supports\n18. Facilitators\n19. Aids\n20. Facilitators\n21. Machines\n22. Mechanisms\n23. Gadgets\n24. Instruments\n25. Appliances\n26. Contraptions\n27. Devices\n28. Equipment\n29. Engines\n30. Implement"}
+T50.85118262498872 attempt_57 # 1
+T60.85079349996522 📋 extract_1 "appliances" score? !
+T60.8509181169793 reject: "appliances"
+T72.6829807710019 attempt_57 # appliance
+T79.01086929999292 attempt_57 ? appliance
+T89.32327625202015 📋 "appliance" "appliance" score? 6.04
+T89.323527370987 attempt_57: "appliance" score:6.04 prog:None
+T259.8510398690123 <INT>
+T0.007689491030760109 now: 2024-11-20T16:17:32UTC
+T0.00995355803752318 session model: llama
+T7.0821157520404086 📋 extract_1 "conduits" score? ! conduit
+T7.082239253039006 reject: "conduits"
+T23.970321176049765 📋 corrected "conduit" score? 23.72
+T23.970533546002116 attempt_58: "conduit" score:23.72 prog:None
+T108.50527000700822 <INT>
+T0.007556010968983173 now: 2024-11-20T16:19:22UTC
+T0.009653724962845445 session model: llama
+T6.87867331400048 <INT>
+T0.0077285359730012715 now: 2024-11-20T16:20:15UTC
+T0.010291075974237174 session model: llama
+T2.7990805419976823 🤔 extract_1 #60 "engines" score? 
+T4.031083692971151 🤔 extract_1 #60 "engines" score? 
+T7.895360052993055 #60 ? /e
+T12.590717680985108 #60 extract_1q
+T13.543355286004953 #60 extract_1
+T21.09510020300513 🤔 extract_1 #60 "engines" score? ! engine
+T21.095247256977018 reject: "engines"
+T25.51122210797621 🤔 corrected #60 "engine" score? /13.53
+T29.63900255598128 🤔 corrected #60 "engine" score? 13.53
+T29.63917705102358 attempt_59: "engine" score:13.53 prog:None
+T89.47894562699366 <INT>
+T0.00847281696042046 now: 2024-11-20T16:21:46UTC
+T0.010951301956083626 session model: llama
+T6.549825438996777 🤔 extract_1 #61 "facilitators" score? !facilitator
+T6.549991748004686 reject: "facilitators"
+T12.237376695964485 🤔 corrected #61 "facilitator" score? 20.31
+T12.237536258995533 attempt_60: "facilitator" score:20.31 prog:None
+T19.365478179999627 🤔 extract_1 #62 "instruments" score? instrument
+T26.030246559996158 🤔 extract_1 #62 "instruments" score? !instrument
+T26.030697965994477 reject: "instruments"
+T43.18148162798025 🤔 extract_1 #62 "machines" score? !machine
+T43.181604260986205 reject: "machines"
+T52.669926393951755 🤔 extract_1 #62 "means" score? 26.12 330
+T52.67024977598339 attempt_61: "means" score:26.12 prog:330
+T73.54177059495123 <INT>
+T0.007690717000514269 now: 2024-11-20T16:23:01UTC
+T0.010004165000282228 session model: llama
+T5.622740046994295 🤔 extract_1 #63 "mechanisms" score? !mechanism
+T5.622815653041471 reject: "mechanisms"
+T16.30269772099564 🤔 corrected #63 "mechanism" score? 32.65 866
+T16.302855574002024 attempt_62: "mechanism" score:32.65 prog:866
+T35.43895471398719 🤔 extract_1 #64 "mediums" score? !medium
+T35.4391025879886 reject: "mediums"
+T46.15137556800619 🤔 corrected #64 "medium" score? 26.33 365
+T46.15160983399255 attempt_63: "medium" score:26.33 prog:365
+T52.2632283490384 🤔 extract_1 #65 "supports" score? !support
+T52.26338228001259 reject: "supports"
+T56.447732442000415 🤔 corrected #65 "support" score? 13.41
+T56.448000592994504 attempt_64: "support" score:13.41 prog:None
+T59.222873445018195 #66 ? /prog
+T68.95133994199568 #66 ? *10 t3
+T68.95217577600852 session clear
+T68.95236404403113 session: {"role": "user", "content": "give me 10 words that are similar to \"mechanism\", \"medium\", and \"means\""}
+T76.0908943300019 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"mechanism\", \"medium\", and \"means\":\n\n1. Method\n2. Instrument\n3. Channel\n4. Process\n5. Device\n6. Agent\n7. Outlet\n8. Route\n9. Gateway\n10. Facilitator"}
+T78.07124606502475 #66 extract_1
+T81.3267755600391 🤔 extract_1 #66 "agent" score? 5.99
+T81.32692851102911 attempt_65: "agent" score:5.99 prog:None
+T84.16667481104378 🤔 extract_1 #67 "channel" score? 10.44
+T84.16683385899523 attempt_66: "channel" score:10.44 prog:None
+T86.9750533500337 🤔 extract_1 #68 "gateway" score? 16.91
+T86.97522182203829 attempt_67: "gateway" score:16.91 prog:None
+T89.3428996319999 🤔 extract_1 #69 "method" score? 19.22
+T89.34305722900899 attempt_68: "method" score:19.22 prog:None
+T91.76790206000442 🤔 extract_1 #70 "outlet" score? 12.29
+T91.76816829200834 attempt_69: "outlet" score:12.29 prog:None
+T95.71108802600065 🤔 extract_1 #71 "process" score? 16.11
+T95.71128967503319 attempt_70: "process" score:16.11 prog:None
+T98.89528846100438 🤔 extract_1 #72 "route" score? 14.94
+T98.8955039170105 attempt_71: "route" score:14.94 prog:None
+T102.47059945104411 #73 ? /prog
+T105.55145001999335 #73 ? *10 t2
+T105.5518168330309 session clear
+T105.55196022201562 session: {"role": "user", "content": "give me 10 words that are similar to \"mechanism\" and \"medium\""}
+T111.58732254302595 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"mechanism\" and \"medium\":\n\n1. Mechanism\n2. Medium\n3. System\n4. Process\n5. Framework\n6. Structure\n7. Instrument\n8. Channel\n9. Agency\n10. Institution\n\nThese words all relate to concepts of organization, function, or delivery, which are similar to the meanings of \"mechanism\" and \"medium\"."}
+T113.21538014203543 #73 extract_1
+T115.79925812600413 🤔 extract_1 #73 "agency" score? 12.65
+T115.79950603703037 attempt_72: "agency" score:12.65 prog:None
+T122.11879524204414 🤔 extract_1 #74 "framework" score? 29.33 714
+T122.11894390004454 attempt_73: "framework" score:29.33 prog:714
+T125.75922356900992 🤔 extract_1 #75 "institution" score? 14.89
+T125.75941288104514 attempt_74: "institution" score:14.89 prog:None
+T131.17503594001755 🤔 extract_1 #76 "structure" score? 26.56 400
+T131.17519376100972 attempt_75: "structure" score:26.56 prog:400
+T134.94314420298906 🤔 extract_1 #77 "system" score? 15.57
+T134.94339640002 attempt_76: "system" score:15.57 prog:None
+T138.07109584199497 #78 ? /prog
+T142.00740510300966 #78 ? *10 t3
+T142.0078020230285 session clear
+T142.00795284000924 session: {"role": "user", "content": "give me 10 words that are similar to \"mechanism\", \"framework\", and \"structure\""}
+T150.10194695403334 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"mechanism\", \"framework\", and \"structure\":\n\n1. System\n2. Process\n3. Paradigm\n4. Organization\n5. Pattern\n6. Configuration\n7. Architecture\n8. Blueprint\n9. Model\n10. Framework (as you mentioned)\n\nHowever, if you're looking for more words that are similar to these three, here are a few additional options:\n\n* Mechanism-like: linkage, chain, gear\n* Framework-like: scaffold, edifice, framework\n* Structure-like: layout, design, outline"}
+T151.51891320000868 #78 extract_1
+T154.47110033698846 🤔 extract_1 #78 "architecture" score? 13.71
+T154.4712408700143 attempt_77: "architecture" score:13.71 prog:None
+T161.07099659502273 🤔 extract_1 #79 "blueprint" score? 16.49
+T161.07139421004103 attempt_78: "blueprint" score:16.49 prog:None
+T164.96704337600386 🤔 extract_1 #80 "configuration" score? 18.09
+T164.96720209502382 attempt_79: "configuration" score:18.09 prog:None
+T168.27883254399057 🤔 extract_1 #81 "model" score? 19.94
+T168.27901051501976 attempt_80: "model" score:19.94 prog:None
+T171.0228670790093 🤔 extract_1 #82 "organization" score? .64
+T171.02302418398904 attempt_81: "organization" score:0.64 prog:None
+T176.47128097404493 🤔 extract_1 #83 "paradigm" score? 30.89 801
+T176.47147471102653 attempt_82: "paradigm" score:30.89 prog:801
+T180.45563527802005 🤔 extract_1 #84 "pattern" score? 16.46
+T180.4558517000405 attempt_83: "pattern" score:16.46 prog:None
+T183.27869411703432 #85 ? /prog
+T187.07116355601465 #85 ? *10 t3
+T187.07134025898995 session clear
+T187.07142631401075 session: {"role": "user", "content": "give me 10 words that are similar to \"mechanism\", \"paradigm\", and \"framework\""}
+T200.44016212102724 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"mechanism\", \"paradigm\", and \"framework\":\n\n1. Algorithm\n2. Theorist\n3. Conceptualization\n4. Model\n5. Paradigic (Note: not a standard word, but it's close to paradigm)\n6. Theory\n7. Systematization\n8. Structural\n9. Hypothesis\n10. Instrumentation\n\nThese words all relate to the idea of organizing or structuring knowledge, ideas, or processes in some way, which is similar to what \"mechanism\", \"paradigm\", and \"framework\" convey.\n\nAdditionally, here are a few more options that might be even closer in meaning:\n\n* Paradigmatic (again, not standard, but it's close)\n* Frameworking\n* Conceptual tool\n* Organizational structure\n\nKeep in mind that each of these words has slightly different connotations or nuances, so choose the one that best fits your context!"}
+T202.9111265790416 #85 extract_1
+T205.67054703301983 🤔 extract_1 #85 "algorithm" score? 11.67
+T205.67073001002427 attempt_84: "algorithm" score:11.67 prog:None
+T208.13526552601252 🤔 extract_1 #86 "conceptualization" score? 19.14
+T208.1354730320163 attempt_85: "conceptualization" score:19.14 prog:None
+T211.2154498930322 🤔 extract_1 #87 "hypothesis" score? 11.68
+T211.21566407498904 attempt_86: "hypothesis" score:11.68 prog:None
+T214.75094801402884 🤔 extract_1 #88 "paradigic" score? !
+T214.7511109810439 reject: "paradigic"
+T220.7269758870243 🤔 extract_1 #88 "structural" score? 27.96 591
+T220.72712074103765 attempt_87: "structural" score:27.96 prog:591
+T224.4789903680212 🤔 extract_1 #89 "systematization" score? 18.74
+T224.47916100302245 attempt_88: "systematization" score:18.74 prog:None
+T229.4311600140063 🤔 extract_1 #90 "theorist" score? 17.64
+T229.43140542902984 attempt_89: "theorist" score:17.64 prog:None
+T232.02324066701112 🤔 extract_1 #91 "theory" score? 11.91
+T232.02343560004374 attempt_90: "theory" score:11.91 prog:None
+T233.82308631303022 #92 ? /prog
+T237.18308069102932 #92 ? /last
+T238.87910267803818 #92 ? /prog
+T240.7029546140111 #92 ? *10 t2
+T240.70312439202098 session clear
+T240.7032034320291 session: {"role": "user", "content": "give me 10 words that are similar to \"mechanism\" and \"paradigm\""}
+T244.98909191903658 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"mechanism\" and \"paradigm\":\n\n1. Framework\n2. System\n3. Process\n4. Model\n5. Concept\n6. Theory\n7. Structure\n8. Methodology\n9. Architecture\n10. Systematic"}
+T246.67890868498944 #92 extract_1
+T249.39903743600007 🤔 extract_1 #92 "concept" score? 19.96
+T249.39922762202332 attempt_91: "concept" score:19.96 prog:None
+T253.23948999401182 🤔 extract_1 #93 "methodology" score? 19.09
+T253.2396539740148 attempt_92: "methodology" score:19.09 prog:None
+T256.47093588503776 🤔 extract_1 #94 "systematic" score? 18.10
+T256.47114195802715 attempt_93: "systematic" score:18.10 prog:None
+T260.6950744310161 #95 ? *10 t1
+T260.6952803140157 session clear
+T260.69538252800703 session: {"role": "user", "content": "give me 10 words that are similar to \"mechanism\""}
+T266.42650544299977 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"mechanism\":\n\n1. System\n2. Process\n3. Procedure\n4. Protocol\n5. Design\n6. Construction\n7. Circuit\n8. Assembly\n9. Framework\n10. Paradigm\n\nThese words all convey the idea of a structured set of components or steps that work together to achieve a specific goal or function, similar to how a mechanism operates."}
+T268.76704857702134 #95 extract_1
+T271.0072185730096 🤔 extract_1 #95 "assembly" score? 8.41
+T271.0074207340367 attempt_94: "assembly" score:8.41 prog:None
+T274.3270595220383 🤔 extract_1 #96 "circuit" score? 8.71
+T274.3272303760168 attempt_95: "circuit" score:8.71 prog:None
+T277.5430925519904 🤔 extract_1 #97 "construction" score? 16.1
+T277.54328476899536 attempt_96: "construction" score:16.10 prog:None
+T281.4309897660278 🤔 extract_1 #98 "design" score? 10.47
+T281.43116080004256 attempt_97: "design" score:10.47 prog:None
+T283.9109870350221 🤔 extract_1 #99 "procedure" score? 9.54
+T283.91117040702375 attempt_98: "procedure" score:9.54 prog:None
+T286.4870015390334 🤔 extract_1 #100 "protocol" score? 14.61
+T286.4871682160301 attempt_99: "protocol" score:14.61 prog:None
+T292.0869192919927 #101 ? > keep going
+T292.0871442310163 session: {"role": "user", "content": "keep going"}
+T303.3197043710388 session: {"role": "assistant", "content": "Here are 10 more words that are similar to \"mechanism\":\n\n1. Apparatus\n2. Device\n3. Instrument\n4. Mechanism's opposite: Disruption (note: this one is not necessarily a direct synonym, but rather an antonym)\n5. Systematization\n6. Organization\n7. Procession\n8. Chain reaction\n9. Catalyst\n10. Infrastructure\n\nThese words all relate to the concept of mechanisms in some way, whether it's through their structure, function, or relationship to other systems and processes.\n\nSome more specific synonyms for \"mechanism\" include:\n\n* Gearwork\n* Cogwheel\n* Apparatus\n* Instrumentality\n\nAnd antonyms such as:\n\n* Chaos\n* Randomness\n* Disorganization"}
+T305.60711539699696 #101 extract_1
+T308.63901514199097 🤔 extract_1 #101 "catalyst" score? 17.46
+T308.63916825898923 attempt_100: "catalyst" score:17.46 prog:None
+T310.9988786120084 🤔 extract_1 #102 "chain" score? .41
+T310.9990637759911 attempt_101: "chain" score:0.41 prog:None
+T319.23919868603116 🤔 extract_1 #103 "infrastructure" score? 29.87 750
+T319.23943041003076 attempt_102: "infrastructure" score:29.87 prog:750
+T322.3830061010085 🤔 extract_1 #104 "procession" score? .31
+T322.3831739560119 attempt_103: "procession" score:0.31 prog:None
+T327.57540362299187 🤔 extract_1 #105 "s" score? !
+T327.57557108899346 reject: "s"
+T329.247397595027 #105 ? /prog
+T340.3030688200379 <INT>
+T0.008761654957197607 now: 2024-11-20T16:29:53UTC
+T0.010721308004576713 session model: llama
+T10.446420341962948 #105 ? /prog
+T25.703119773999788 #105 ? *10 #103
+T25.703803106967825 session clear
+T25.703939208004158 session: {"role": "user", "content": "give me 10 words that are similar to \"infrastructure\""}
+T32.21782048896421 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"infrastructure\":\n\n1. Framework\n2. Foundation\n3. System\n4. Network\n5. Architecture\n6. Structure\n7. Hierarchy\n8. Infrastructure (note: this one is the same as the original word)\n9. Edifice\n10. Establishment\n\nThese words all relate to the underlying organization or system of something, whether it's physical (like a building) or abstract (like a social or economic system)."}
+T33.93477447197074 #105 extract_1
+T37.58303195500048 🤔 extract_1 #105 "edifice" score? 17.72
+T37.583281650964636 attempt_104: "edifice" score:17.72 prog:None
+T40.06250181799987 🤔 extract_1 #106 "establishment" score? 9.82
+T40.06272673595231 attempt_105: "establishment" score:9.82 prog:None
+T43.79061904997798 🤔 extract_1 #107 "foundation" score? 12.05
+T43.79076097399229 attempt_106: "foundation" score:12.05 prog:None
+T47.574654950003605 🤔 extract_1 #108 "hierarchy" score? 10.18
+T47.574855174985714 attempt_107: "hierarchy" score:10.18 prog:None
+T53.99105954397237 🤔 extract_1 #109 "network" score? 9.72
+T53.99130301596597 attempt_108: "network" score:9.72 prog:None
+T56.158605265954975 <INT>
+T0.00866074999794364 now: 2024-11-20T16:44:12UTC
+T0.011448931007180363 session model: llama
+T5.252475526009221 <INT>
+T0.008701106999069452 now: 2024-11-20T16:44:18UTC
+T0.011481079971417785 session model: llama
+T13.322007941955235 #110 🤖 1 🫧 1 🪙 74 ? i
+T16.361973097955342 <INT>
+T0.008615678001660854 now: 2024-11-20T16:44:37UTC
+T0.01056850195163861 session model: llama
+T19.679208928951994 <INT>
+T0.008630633994471282 now: 2024-11-20T16:50:54UTC
+T0.010682293039280921 session model: llama
+T4.805727871018462 <INT>
+T0.009235163975972682 now: 2024-11-20T16:51:26UTC
+T0.011355914000887424 session model: llama
+T1.2174311639973894 <INT>
+T0.00860341900261119 now: 2024-11-20T16:51:33UTC
+T0.01117746502859518 session model: llama
+T2.3631289140321314 #110 ? /e
+T7.355583114025649 #110 ? /prog
+T11.395794918003958 #110 ? /last
+T52.97971243603388 #110 ? /prog
+T58.85186276800232 #110 ? *10 t1
+T58.85240802098997 session clear
+T58.85252087202389 session: {"role": "user", "content": "give me 10 words that are similar to \"mechanism\""}
+T66.98948111303616 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"mechanism\":\n\n1. System\n2. Process\n3. Machinery\n4. Apparatus\n5. Instrument\n6. Device\n7. Mechanism (again, but with a different connotation)\n8. Engine\n9. Gearbox\n10. Apparatus\n\nHowever I'll provide an alternative for #10 - \n\n10. Equipment"}
+T69.6592982430011 #110 extract_1
+T73.21184050501324 🤔 extract_1 #110 "gearbox" score? 14.65
+T73.21201606601244 attempt_109: "gearbox" score:14.65 prog:None
+T75.03558771003736 #111 ? > keep going
+T75.03584248200059 session: {"role": "user", "content": "keep going"}
+T83.43544905999443 session: {"role": "assistant", "content": "Here are the original 10 words again, followed by 10 more:\n\n1. System\n2. Process\n3. Machinery\n4. Apparatus\n5. Instrument\n6. Device\n7. Mechanism\n8. Engine\n9. Gearbox\n10. Equipment\n\nAnd here are 10 additional words that are similar to \"mechanism\":\n\n11. Rigging\n12. Framework\n13. Systematic\n14. Protocol\n15. Infrastructure\n16. Configuration\n17. Assembly\n18. Hierarchy\n19. Mechanistic\n20. Paradigm"}
+T85.3877856080071 #111 extract_1
+T88.48392423399491 🤔 extract_1 #111 "mechanistic" score? 18.94
+T88.48419610504061 attempt_110: "mechanistic" score:18.94 prog:None
+T94.99582947103772 🤔 extract_1 #112 "rigging" score? 5.19
+T94.99599911202677 attempt_111: "rigging" score:5.19 prog:None
+T106.16371249704389 #113 ? > try again and try harder
+T106.16396957403049 session: {"role": "user", "content": "try again and try harder"}
+T120.9507092779968 session: {"role": "assistant", "content": "Here are 10 more words that are similar to \"mechanism\", with a focus on providing even more nuanced and varied synonyms:\n\n1. Synergy\n2. Interlocking\n3. Kinematics\n4. Dynamics\n5. Paradigm\n6. Causality\n7. Mechanistic\n8. Functionality\n9. Operativity\n10. Dynamics\n\nAnd here are 10 additional words that are similar to \"mechanism\", with a focus on exploring different contexts and domains:\n\n11. Algorithm (in computer science)\n12. Circuitry (in electronics or engineering)\n13. Instrumental (in music or psychology)\n14. Devicehood (in philosophy of technology)\n15. Apparatusius (in medieval philosophy)\n16. Mechanisticity (in biology or medicine)\n17. Cybernetics (in systems theory or management)\n18. Mechanization (in history or sociology)\n19. Automation (in industry or manufacturing)\n20. Systematization (in education or research)\n\nI hope these suggestions are more to your liking!"}
+T123.47566479502711 #113 extract_1
+T131.6836005630321 🤔 extract_1 #113 "apparatusius" score? !apparatus
+T131.6837462420226 reject: "apparatusius"
+T136.54713355202693 #113 extract_1
+T139.49993210000684 🤔 extract_1 #113 "automation" score? 16.25
+T139.50016439700266 attempt_112: "automation" score:16.25 prog:None
+T143.7077603880316 🤔 extract_1 #114 "causality" score? 20.48
+T143.70792997104581 attempt_113: "causality" score:20.48 prog:None
+T148.14770755701466 🤔 extract_1 #115 "circuitry" score? 13.46
+T148.14789762801956 attempt_114: "circuitry" score:13.46 prog:None
+T151.58739022299415 🤔 extract_1 #116 "cybernetics" score? 12.22
+T151.5875699520111 attempt_115: "cybernetics" score:12.22 prog:None
+T158.82806996599538 🤔 extract_1 #117 "devicehood" score? !device
+T158.82826478703646 reject: "devicehood"
+T164.57190901099239 🤔 extract_1 #117 "dynamics" score? 21.84
+T164.5720956220175 attempt_116: "dynamics" score:21.84 prog:None
+T170.9238829050446 🤔 extract_1 #118 "functionality" score? 19.57
+T170.9240600950434 attempt_117: "functionality" score:19.57 prog:None
+T173.93963581102435 🤔 extract_1 #119 "interlocking" score? 8.09
+T173.93990296701668 attempt_118: "interlocking" score:8.09 prog:None
+T178.1395804519998 🤔 extract_1 #120 "kinematics" score? 16.08
+T178.1397330450127 attempt_119: "kinematics" score:16.08 prog:None
+T185.79603401303757 🤔 extract_1 #121 "mechanisticity" score? !mechanistic
+T185.79623232001904 reject: "mechanisticity"
+T194.6277667710092 🤔 extract_1 #121 "mechanization" score? 24.88 75
+T194.62793896603398 attempt_120: "mechanization" score:24.88 prog:75
+T201.42779229901498 🤔 extract_1 #122 "operativity" score? !operative
+T201.42792000202462 reject: "operativity"
+T206.17162348900456 🤔 corrected #122 "operative" score? 15.21
+T206.17178808600875 attempt_121: "operative" score:15.21 prog:None
+T211.57964621699648 🤔 extract_1 #123 "synergy" score? synergy
+T216.13180425099563 🤔 extract_1 #123 "synergy" score? 19.98
+T216.13199276599335 attempt_122: "synergy" score:19.98 prog:None
+T220.4120140140294 #124 ? /prog
+T223.50773179001408 #124 ? *10 #121
+T223.50795703404583 session clear
+T223.50806532101706 session: {"role": "user", "content": "give me 10 words that are similar to \"mechanization\""}
+T228.59162235300755 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"mechanization\":\n\n1. Industrialization\n2. Automatization\n3. Mechanized\n4. Mass production\n5. Standardization\n6. Systematization\n7. Rationalization\n8. Organizational change\n9. Dehumanization (in the context of work or industry)\n10. Mechanization process"}
+T231.41968316200655 #124 extract_1
+T235.13196296803653 🤔 extract_1 #124 "automatization" score? !
+T235.13213545799954 reject: "automatization"
+T236.63559340301435 #124 extract_1
+T239.77176346001215 🤔 extract_1 #124 "dehumanization" score? 14.29
+T239.7719368050457 attempt_123: "dehumanization" score:14.29 prog:None
+T244.8033284409903 🤔 extract_1 #125 "industrialization" score? 24.47
+T244.80350136803463 attempt_124: "industrialization" score:24.47 prog:None
+T248.3076973510324 🤔 extract_1 #126 "mass" score? 9.92
+T248.30788089102134 attempt_125: "mass" score:9.92 prog:None
+T254.34787142003188 🤔 extract_1 #127 "mechanized" score? 15.65
+T254.34808395802975 attempt_126: "mechanized" score:15.65 prog:None
+T257.14780818403233 🤔 extract_1 #128 "organizational" score? 14.3
+T257.1479630669928 attempt_127: "organizational" score:14.30 prog:None
+T260.12347369099734 🤔 extract_1 #129 "rationalization" score? 23.82
+T260.123649982037 attempt_128: "rationalization" score:23.82 prog:None
+T262.77183741901536 🤔 extract_1 #130 "standardization" score? 23.4
+T262.7720259350026 attempt_129: "standardization" score:23.40 prog:None
+T266.7877875660197 #131 ? production
+T269.62764567002887 🤔 entered #131 "production" score? 12.62
+T269.62780403200304 attempt_130: "production" score:12.62 prog:None
+T272.3879798100097 #132 ? /prog
+T291.97956768400036 #132 ? *10 $1 -$127
+T291.9797855010256 session clear
+T291.9799216139945 session: {"role": "user", "content": "give me 10 words that are similar to \"mechanism\" but not similar to \"perfume\""}
+T296.7534562200308 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"mechanism\" in meaning, but not similar to \"perfume\":\n\n1. Mechanism\n2. System\n3. Process\n4. Device\n5. Apparatus\n6. Equipment\n7. Machinery\n8. Framework\n9. Structure\n10. Infrastructure"}
+T314.68383553804597 #132 ? > try harder, and make the words different from $30
+T314.68417167000007 session: {"role": "user", "content": "try harder, and make the words different from \"apparatus\""}
+T319.80040699400706 session: {"role": "assistant", "content": "Here are 10 new words that are similar to \"mechanism\" in meaning, but not similar to \"perfume\":\n\n1. System\n2. Process\n3. Device\n4. Machinery\n5. Framework\n6. Structure\n7. Infrastructure\n8. Network\n9. Procession\n10. Chain"}
+T334.9715420459979 #132 ? > try again, and this time remember to make them not like $30
+T334.9718220549985 session: {"role": "user", "content": "try again, and this time remember to make them not like \"apparatus\""}
+T341.1902717570192 session: {"role": "assistant", "content": "Here are 10 new words that are similar to \"mechanism\" in meaning, but not similar to \"perfume\" or \"apparatus\":\n\n1. System\n2. Process\n3. Network\n4. Chain\n5. Cycle\n6. Routine\n7. Sequence\n8. Pattern\n9. Protocol\n10. Mechanism (kept this one as a synonym)"}
+T342.8438217600342 #132 extract_1
+T346.2275220080046 🤔 extract_1 #132 "cycle" score? 22.87
+T346.2277144350228 attempt_131: "cycle" score:22.87 prog:None
+T349.24321965203853 🤔 extract_1 #133 "routine" score? 3
+T349.2432918960112 attempt_132: "routine" score:3.00 prog:None
+T352.07606847502757 🤔 extract_1 #134 "sequence" score? 6.03
+T352.0763345939922 attempt_133: "sequence" score:6.03 prog:None
+T353.80378717998974 #135 ? /prog
+T358.34780002903426 #135 ? *50 $1
+T358.3481146010454 session clear
+T358.34826948004775 session: {"role": "user", "content": "give me 50 words that are similar to \"mechanism\""}
+T374.78641595802037 session: {"role": "assistant", "content": "Here are 50 words that are similar to \"mechanism\":\n\n1. System\n2. Process\n3. Procedure\n4. Method\n5. Approach\n6. Framework\n7. Procession\n8. Chain\n9. Linkage\n10. Circuit\n11. Network\n12. Assembly\n13. Factory\n14. Machine\n15. Device\n16. Instrument\n17. Apparatus\n18. Systematic\n19. Organized\n20. Coordinated\n21. Sequential\n22. Methodical\n23. Logical\n24. Rationale\n25. Cause-and-effect\n26. Chain reaction\n27. Feedback loop\n28. Process chain\n29. Cycle\n30. Loop\n31. Sequence\n32. Pattern\n33. Systematic\n34. Procedure flow\n35. Workflow\n36. Production line\n37. Manufacturing process\n38. Assembly line\n39. Systematization\n40. Standardized\n41. Protocol\n42. Methodology\n43. Framework model\n44. Organizational structure\n45. Institutional framework\n46. Constitutional mechanism\n47. Legislative framework\n48. Judicial system\n49. Regulatory apparatus\n50. Administrative system"}
+T376.34746986301616 #135 extract_1
+T378.7076460540411 🤔 extract_1 #135 "administrative" score? 18.18
+T378.7077806960442 attempt_134: "administrative" score:18.18 prog:None
+T380.92376062704716 🤔 extract_1 #136 "and" score? !
+T380.92390796000836 reject: "and"
+T383.85982104204595 🤔 extract_1 #136 "approach" score? 12.33
+T383.85996966902167 attempt_135: "approach" score:12.33 prog:None
+T386.971468311036 🤔 extract_1 #137 "cause" score? 12.98
+T386.9716160300304 attempt_136: "cause" score:12.98 prog:None
+T389.42784306500107 🤔 extract_1 #138 "constitutional" score? 12.53
+T389.4280208880082 attempt_137: "constitutional" score:12.53 prog:None
+T391.6602678670315 🤔 extract_1 #139 "coordinated" score? 8.35
+T391.66051601502113 attempt_138: "coordinated" score:8.35 prog:None
+T394.619877604011 🤔 extract_1 #140 "effect" score? 23.81
+T394.62006705004023 attempt_139: "effect" score:23.81 prog:None
+T397.04394454002613 🤔 extract_1 #141 "factory" score? 6.19
+T397.04412322002463 attempt_140: "factory" score:6.19 prog:None
+T399.51584264001576 🤔 extract_1 #142 "feedback" score? 9.26
+T399.51605217100587 attempt_141: "feedback" score:9.26 prog:None
+T402.36351791303605 🤔 extract_1 #143 "institutional" score? 18.13
+T402.3637228520238 attempt_142: "institutional" score:18.13 prog:None
+T404.71552664699266 🤔 extract_1 #144 "judicial" score? 14.11
+T404.7156654080027 attempt_143: "judicial" score:14.11 prog:None
+T407.1238227559952 🤔 extract_1 #145 "legislative" score? 10.32
+T407.1239963580156 attempt_144: "legislative" score:10.32 prog:None
+T412.60365216899663 🤔 extract_1 #146 "linkage" score? 36.27
+T419.531855690002 🤔 extract_1 #146 "linkage" 36.27°C prog‰ ? 945
+T419.5320182029973 attempt_145: "linkage" score:36.27 prog:945
+T424.4040418090299 🤔 extract_1 #147 "logical" score? 19.64
+T424.4043179980363 attempt_146: "logical" score:19.64 prog:None
+T427.24368443200365 🤔 extract_1 #148 "loop" score? 17.55
+T427.2439021830214 attempt_147: "loop" score:17.55 prog:None
+T431.24402683001244 #149 ? /prog
+T434.01960412802873 #149 ? *10 $1
+T434.0198153950041 session clear
+T434.0198949910118 session: {"role": "user", "content": "give me 10 words that are similar to \"linkage\""}
+T437.9705814780318 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"linkage\":\n\n1. Connection\n2. Association\n3. Relationship\n4. Tie\n5. Bond\n6. Junction\n7. Relay\n8. Synthesis\n9. Correlation\n10. Integration"}
+T439.41188513301313 #149 extract_1
+T441.9874561270117 🤔 extract_1 #149 "association" score? 2.18
+T441.98761876602657 attempt_148: "association" score:2.18 prog:None
+T447.8354498230037 🤔 extract_1 #150 "bond" score? 9.42
+T447.8355304360157 attempt_149: "bond" score:9.42 prog:None
+T450.5958582829917 🤔 extract_1 #151 "connection" score? 9.61
+T450.5960674560047 attempt_150: "connection" score:9.61 prog:None
+T453.7235046510468 🤔 extract_1 #152 "correlation" score? 21.42
+T453.72366949904244 attempt_151: "correlation" score:21.42 prog:None
+T456.3319372300175 🤔 extract_1 #153 "integration" score? 18.34
+T456.3321547980304 attempt_152: "integration" score:18.34 prog:None
+T460.8196101610083 🤔 extract_1 #154 "junction" score? 14.22
+T460.81984112103237 attempt_153: "junction" score:14.22 prog:None
+T463.37152079102816 🤔 extract_1 #155 "relationship" score? 1.8
+T463.37167196703376 attempt_154: "relationship" score:1.80 prog:None
+T466.81975877203513 🤔 extract_1 #156 "relay" score? 4.68
+T466.82018852903275 attempt_155: "relay" score:4.68 prog:None
+T470.04388987703715 🤔 extract_1 #157 "synthesis" score? 20.9
+T470.0441170610138 attempt_156: "synthesis" score:20.90 prog:None
+T473.25920700799907 🤔 extract_1 #158 "tie" score? 4.02
+T473.25937753304606 attempt_157: "tie" score:4.02 prog:None
+T477.2837817140389 #159 ? *10 t2
+T477.283986791037 session clear
+T477.28407597902697 session: {"role": "user", "content": "give me 10 words that are similar to \"linkage\" and \"mechanism\""}
+T481.49148748704465 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"linkage\" and \"mechanism\":\n\n1. Connection\n2. Relationship\n3. System\n4. Process\n5. Chain\n6. Sequence\n7. Network\n8. Flow\n9. Procession\n10. Paradigm"}
+T482.95589298399864 #159 extract_1
+T485.47570722101955 🤔 extract_1 #159 "flow" score? 18.01
+T485.47586859203875 attempt_158: "flow" score:18.01 prog:None
+T499.9481754610315 #160 ? *10 $1 $3
+T499.94849492702633 session clear
+T499.94863257702673 session: {"role": "user", "content": "give me 10 words that are similar to \"linkage\" and \"paradigm\""}
+T508.44076720403973 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"linkage\" and \"paradigm\":\n\n1. Paradigm shift\n2. Framework\n3. Model\n4. Frameworks\n5. Hypothesis\n6. Theory\n7. Conceptualization\n8. Structure\n9. Systematic\n10. Metaphor\n\nThese words all relate to the idea of organizing, conceptualizing, and understanding complex ideas or systems.\n\nIf you're looking for synonyms specifically similar to \"linkage\", here are a few options:\n\n1. Connection\n2. Junction\n3. Interface\n4. Link\n5. Attachment"}
+T510.25897771300515 #160 extract_5
+T515.1871959100245 🤔 extract_5 #160 "metaphor" score? 23.44
+T515.1872602350195 attempt_159: "metaphor" score:23.44 prog:None
+T518.1712846329901 🤔 extract_1 #161 "attachment" score? 15.74
+T518.1714300930034 attempt_160: "attachment" score:15.74 prog:None
+T523.3711041560164 🤔 extract_1 #162 "frameworks" score? !framework
+T523.3711775720003 reject: "frameworks"
+T527.2429845330189 🤔 extract_1 #162 "interface" score? 20
+T527.2430907640373 attempt_161: "interface" score:20.00 prog:None
+T530.6109792049974 🤔 extract_1 #163 "link" score? 17.95
+T530.6110479170457 attempt_162: "link" score:17.95 prog:None
+T534.946866377024 #164 ? *10 t3
+T534.9469533860101 session clear
+T534.9469972859952 session: {"role": "user", "content": "give me 10 words that are similar to \"linkage\", \"mechanism\", and \"paradigm\""}
+T545.7464068920235 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"linkage\", \"mechanism\", and \"paradigm\":\n\n1. Framework\n2. Process\n3. Structure\n4. System\n5. Theory\n6. Model\n7. Architecture\n8. Algorithm\n9. Paradolic (Note: This word is less common, but it means similar or characteristic of a paradigm)\n10. Methodology\n\nThese words all relate to concepts and ideas that involve organizing, explaining, or describing complex systems, processes, or relationships.\n\nAlternatively, you could also consider these words:\n\n* Hypothesis\n* Conceptualization\n* Theoretical framework\n* Systematic approach\n* Operational definition"}
+T548.3958769100136 #164 extract_1
+T551.7876351909945 🤔 extract_1 #164 "paradolic" score? !
+T551.7877295200014 reject: "paradolic"
+T554.5639502769918 #164 ? *10 $1 $4
+T554.5642084220308 session clear
+T554.5643368930323 session: {"role": "user", "content": "give me 10 words that are similar to \"linkage\" and \"infrastructure\""}
+T558.7549768550089 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"linkage\" and \"infrastructure\":\n\n1. Framework\n2. Structure\n3. System\n4. Network\n5. Foundation\n6. Buildup\n7. Platform\n8. Architecture\n9. Connection\n10. Basis"}
+T560.4438641070155 #164 extract_1
+T563.2598626590334 🤔 extract_1 #164 "basis" score? 16.63
+T563.2600057770032 attempt_163: "basis" score:16.63 prog:None
+T565.6917350830045 🤔 extract_1 #165 "buildup" score? 1.29
+T565.6919295699918 attempt_164: "buildup" score:1.29 prog:None
+T579.7639801620389 #166 ? #165
+T588.4119223210146 <INT>
+T0.01025052898330614 now: 2024-11-20T17:25:42UTC
+T0.012872356979642063 session model: llama
+T0.9941034279763699 🤔 extract_1 #166 "platform" score? 
+T7.49852965894388 #166 ? #165 score 11.29
+T7.499421306943987 fix attempt_164: score:11.29
+T12.058240369951818 #166 ? ␚
+T12.058327569975518 <EOF>
+T0.011126603989396244 now: 2024-11-20T17:29:05UTC
+T0.013257922022603452 session model: llama
+T8.596740478998981 #166 ? #165
+T61.42074456199771 <INT>
+T0.010519866016693413 now: 2024-11-20T17:30:08UTC
+T0.013105833029840142 session model: llama
+T3.960353236005176 #166 ? #165
+T8.304221167985816 #166 ? /e
+T10.488722296024207 #166 extract_1
+T14.648845683026593 🤔 extract_1 #166 "platform" score? 20.02
+T14.649066499026958 attempt_165: "platform" score:20.02 prog:None
+T16.376567735977005 <INT>
+T0.011345717997755855 now: 2024-11-20T20:42:03UTC
+T0.014826834958512336 session model: llama
+T1.3956622629775666 #167 ? link
+T6.875772733998019 #167 ? *30 t1
+T6.876073377963621 session clear
+T6.876220140955411 session: {"role": "user", "content": "give me 30 words that are similar to \"linkage\""}
+T22.24884050397668 session: {"role": "assistant", "content": "Here are 30 words that are similar to \"linkage\":\n\n1. Connection\n2. Ties\n3. Bonding\n4. Association\n5. Tie-down\n6. Attachment\n7. Jointure\n8. Link\n9. Linkage (already mentioned)\n10. Fitting\n11. Match\n12. Correlation\n13. Relationship\n14. Unity\n15. Cohesion\n16. Affinity\n17. Consistency\n18. Harmonization\n19. Synchronization\n20. Alignment\n21. Balance\n22. Concordance\n23. Synergy\n24. Integration\n25. Fusion\n26. Melding\n27. Convergence\n28. Coherence\n29. Accord\n30. Cohesion\n\nThese words convey the idea of connection, association, or relationship between things, which is similar to the concept of \"linkage\"."}
+T24.579797061975114 #167 extract_1
+T27.747935370949563 🤔 extract_1 #167 "accord" score? 14.03
+T27.748103485966567 attempt_166: "accord" score:14.03 prog:None
+T30.756821836985182 🤔 extract_1 #168 "affinity" score? 4.47
+T30.757061356969643 attempt_167: "affinity" score:4.47 prog:None
+T34.756112651957665 🤔 extract_1 #169 "alignment" score? 16.79
+T34.756336624966934 attempt_168: "alignment" score:16.79 prog:None
+T39.01187255297555 🤔 extract_1 #170 "balance" score? 20.36
+T39.012048915959895 attempt_169: "balance" score:20.36 prog:None
+T48.467938699992374 🤔 extract_1 #171 "bonding" score? 16.93
+T48.46810929500498 attempt_170: "bonding" score:16.93 prog:None
+T56.196153191966005 🤔 extract_1 #172 "coherence" score? 22.66
+T56.19638060295256 attempt_171: "coherence" score:22.66 prog:None
+T64.62005556497024 🤔 extract_1 #173 "cohesion" score? 16.22
+T64.62024080596166 attempt_172: "cohesion" score:16.22 prog:None
+T76.66009323997423 🤔 extract_1 #174 "concordance" score? 14.32
+T76.66026839596452 attempt_173: "concordance" score:14.32 prog:None
+T90.51605757995276 🤔 extract_1 #175 "consistency" score? 13.93
+T90.51621329400223 attempt_174: "consistency" score:13.93 prog:None
+T95.56423383398214 🤔 extract_1 #176 "convergence" score? 16.38
+T95.56447844899958 attempt_175: "convergence" score:16.38 prog:None
+T100.86810966598568 🤔 extract_1 #177 "down" score? 5.72
+T100.86832211300498 attempt_176: "down" score:5.72 prog:None
+T103.9796786599909 🤔 extract_1 #178 "fitting" score? 7.81
+T103.97983096796088 attempt_177: "fitting" score:7.81 prog:None
+T107.47609993896913 🤔 extract_1 #179 "fusion" score? 9.31
+T107.47631053999066 attempt_178: "fusion" score:9.31 prog:None
+T110.35583230498014 🤔 extract_1 #180 "harmonization" score? 17.94
+T110.35599374398589 attempt_179: "harmonization" score:17.94 prog:None
+T113.26026790699689 🤔 extract_1 #181 "jointure" score? 6.86
+T113.26049640600104 attempt_180: "jointure" score:6.86 prog:None
+T115.57199104398023 🤔 extract_1 #182 "match" score? 2.41
+T115.5721661169664 attempt_181: "match" score:2.41 prog:None
+T119.57988106098492 🤔 extract_1 #183 "melding" score? !meld
+T119.58006794797257 reject: "melding"
+T123.38799152098363 🤔 corrected #183 "meld" score? 4.07
+T123.38815026800148 attempt_182: "meld" score:4.07 prog:None
+T126.74793747795047 🤔 extract_1 #184 "synchronization" score? 18.2
+T126.74813429097412 attempt_183: "synchronization" score:18.20 prog:None
+T132.1955959199695 🤔 extract_1 #185 "ties" score? !tie
+T132.19569292099914 reject: "ties"
+T138.41994059097487 🤔 extract_1 #185 "unity" score? 9.52
+T138.4201107849949 attempt_184: "unity" score:9.52 prog:None
+T145.54788579494925 #186 ? *30 $2
+T145.54809110000497 session clear
+T145.5481858769781 session: {"role": "user", "content": "give me 30 words that are similar to \"mechanism\""}
+T155.40746138995746 session: {"role": "assistant", "content": "Here are 30 words that are similar to \"mechanism\":\n\n1. System\n2. Process\n3. Procedure\n4. Method\n5. Technique\n6. Framework\n7. Structure\n8. Architecture\n9. Design\n10. Protocol\n11. Algorithm\n12. Circuit\n13. Mechanism (as a synonym)\n14. Apparatus\n15. Instrument\n16. Tool\n17. Device\n18. Engine\n19. Gear\n20. Linkage\n21. Chain\n22. Cascade\n23. Flowchart\n24. Blueprint\n25. Layout\n26. Plan\n27. Model\n28. Simulation\n29. Paradigm\n30. Framework"}
+T167.3399770289543 #186 extract_1
+T170.6439230699907 🤔 extract_1 #186 "cascade" score? 5.73
+T170.64408620499307 attempt_185: "cascade" score:5.73 prog:None
+T176.26821022498189 🤔 extract_1 #187 "flowchart" score? 14.31
+T176.2683825919521 attempt_186: "flowchart" score:14.31 prog:None
+T179.73986090900144 🤔 extract_1 #188 "layout" score? 11.86
+T179.74001510097878 attempt_187: "layout" score:11.86 prog:None
+T183.67609238997102 🤔 extract_1 #189 "plan" score? 8.5
+T183.67628786998102 attempt_188: "plan" score:8.50 prog:None
+T187.41965613496723 🤔 extract_1 #190 "simulation" score? 8.6
+T187.41983858996537 attempt_189: "simulation" score:8.60 prog:None
+T191.13162115198793 🤔 extract_1 #191 "technique" score? 13.23
+T191.1317898169509 attempt_190: "technique" score:13.23 prog:None
+T193.88412343495293 #192 ? /prog
+T196.6839907770045 #192 ? *30 t3
+T196.6841983429622 session clear
+T196.68429223500425 session: {"role": "user", "content": "give me 30 words that are similar to \"linkage\", \"mechanism\", and \"paradigm\""}
+T207.40356366697233 session: {"role": "assistant", "content": "Here are 30 words that are similar to \"linkage,\" \"mechanism,\" and \"paradigm\":\n\n1. System\n2. Model\n3. Framework\n4. Process\n5. Cycle\n6. Chain\n7. Sequence\n8. Pattern\n9. Formula\n10. Equation\n11. Hypothesis\n12. Theory\n13. Concept\n14. Principle\n15. Structure\n16. Architecture\n17. Engine\n18. Mechanism\n19. Protocol\n20. Algorithm\n21. Procession\n22. Chain reaction\n23. Feedback loop\n24. Systematic\n25. Structural\n26. Organizational\n27. Institutional\n28. Paradigmatic\n29. Methodological\n30. Theoretical"}
+T210.02804345497862 #192 extract_1
+T214.17995367397089 🤔 extract_1 #192 "equation" score? 29.74
+T221.02010543399956 🤔 extract_1 #192 "equation" 29.74°C prog‰ ? 741
+T221.02033448196016 attempt_191: "equation" score:29.74 prog:741
+T225.00425528996857 🤔 extract_1 #193 "formula" score? 9.6
+T225.00449509598548 attempt_192: "formula" score:9.60 prog:None
+T230.54773940396262 🤔 extract_1 #194 "methodological" score? 21.78
+T230.54792632698081 attempt_193: "methodological" score:21.78 prog:None
+T234.09997463895706 🤔 extract_1 #195 "paradigmatic" score? 19.65
+T234.10011981596472 attempt_194: "paradigmatic" score:19.65 prog:None
+T238.60429424099857 🤔 extract_1 #196 "principle" score? 25.8
+T240.4359944529715 🤔 extract_1 #196 "principle" 25.80°C prog‰ ? 271
+T240.4361405009986 attempt_195: "principle" score:25.80 prog:271
+T243.89194881898584 🤔 extract_1 #197 "theoretical" score? 23.91
+T243.89212128700456 attempt_196: "theoretical" score:23.91 prog:None
+T248.68313410395058 #198 ? /prog
+T255.6280441209674 #198 ? *30 t5
+T255.62826181796845 session clear
+T255.62838185799774 session: {"role": "user", "content": "give me 30 words that are similar to \"linkage\", \"mechanism\", \"paradigm\", \"infrastructure\", and \"equation\""}
+T273.8301909499569 session: {"role": "assistant", "content": "Here are 30 words that are similar to the given words:\n\n1. System\n2. Protocol\n3. Framework\n4. Structure\n5. Network\n6. Model\n7. Process\n8. Framework\n9. Hierarchy\n10. Pathway\n11. Algorithm\n12. Design\n13. Template\n14. Architecture\n15. Bridge\n16. Connection\n17. Chain\n18. Cycle\n19. Circuit\n20. Assembly\n21. Systematization\n22. Organization\n23. Methodology\n24. Protocol\n25. Framework\n26. Structure\n27. Process\n28. Sequence\n29. Pattern\n30. Model\n\nThese words convey a sense of organization, structure, and connection, similar to the given words.\n\nHowever, if you are looking for more specific words that have a similar meaning to \"linkage\", \"mechanism\", \"paradigm\", \"infrastructure\", and \"equation\" I can try again:\n\n1. Mechanism\n2. Paradigm shift\n3. Link\n4. Systematic\n5. Methodology\n6. Algorithmic\n7. Structural\n8. Hierarchical\n9. Frameworked\n10. Equation-based\n\nPlease let me know if you would like more suggestions or have any further clarification!"}
+T280.84414111997467 #198 extract_1
+T284.70808558596764 🤔 extract_1 #198 "algorithmic" score? 17.7
+T284.70824374398217 attempt_197: "algorithmic" score:17.70 prog:None
+T289.7478350260062 🤔 extract_1 #199 "based" score? 10.65
+T289.74799227697076 attempt_198: "based" score:10.65 prog:None
+T293.3802251429879 🤔 extract_1 #200 "bridge" score? 10.98
+T293.38046284398297 attempt_199: "bridge" score:10.98 prog:None
+T299.50037968799006 🤔 extract_1 #201 "frameworked" score? !framework
+T299.5005884899874 reject: "frameworked"
+T310.5556264919578 🤔 extract_1 #201 "hierarchical" score? 27.27 497
+T310.5557942359592 attempt_200: "hierarchical" score:27.27 prog:497
+T313.8039431279758 🤔 extract_1 #202 "pathway" score? 17.77
+T313.80410893796943 attempt_201: "pathway" score:17.77 prog:None
+T317.09229380398756 🤔 extract_1 #203 "template" score? 20.95
+T317.0925305839628 attempt_202: "template" score:20.95 prog:None
+T320.3564018509933 #204 ? /prog
+T328.3161315959878 #204 ? *10 #192
+T328.31634769099765 session clear
+T328.3164500549901 session: {"role": "user", "content": "give me 10 words that are similar to \"equation\""}
+T332.4371303949738 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"equation\":\n\n1. Formula\n2. Calculation\n3. Computation\n4. Algorithm\n5. Math\n6. Puzzle\n7. Riddle\n8. Problem\n9. Formulaic\n10. Calculus"}
+T335.0439303930034 #204 extract_1
+T338.15640561300097 🤔 extract_1 #204 "calculation" score? 18.99
+T338.1566602899693 attempt_203: "calculation" score:18.99 prog:None
+T340.8526009579655 🤔 extract_1 #205 "calculus" score? 8.66
+T340.8527608839795 attempt_204: "calculus" score:8.66 prog:None
+T345.2999831319903 🤔 extract_1 #206 "computation" score? 22.92
+T345.30016373097897 attempt_205: "computation" score:22.92 prog:None
+T348.5640378079843 🤔 extract_1 #207 "formulaic" score? 13.22
+T348.5642601159634 attempt_206: "formulaic" score:13.22 prog:None
+T350.93970343796536 🤔 extract_1 #208 "math" score? 3.05
+T350.9398155779927 attempt_207: "math" score:3.05 prog:None
+T357.52395447099116 🤔 extract_1 #209 "problem" score? 43.51 986
+T357.5241266959929 attempt_208: "problem" score:43.51 prog:986
+T361.7078442759812 🤔 extract_1 #210 "puzzle" score? 20.56
+T361.70800065097865 attempt_209: "puzzle" score:20.56 prog:None
+T367.06816830899334 🤔 extract_1 #211 "riddle" score? 16.21
+T367.06844096898567 attempt_210: "riddle" score:16.21 prog:None
+T368.8840730279917 #212 ? /prog
+T371.1560690369806 #212 ? *10 t2
+T371.1563099490013 session clear
+T371.156422525004 session: {"role": "user", "content": "give me 10 words that are similar to \"problem\" and \"linkage\""}
+T380.1890104399645 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"problem\" and \"linkage\":\n\nSimilar to \"Problem\":\n\n1. Challenge\n2. Issue\n3. Obstacle\n4. Complication\n5. Conundrum\n6. Dilemma\n7. Quagmire\n8. Hindrance\n9. Blockage\n10. Impediment\n\nSimilar to \"Linkage\" (referring to a connection or relationship):\n\n1. Ties\n2. Bond\n3. Tie-up\n4. Union\n5. Alliance\n6. Association\n7. Synergy\n8. Relationship\n9. Interdependence\n10. Affinity"}
+T382.1800688399817 #212 extract_1
+T384.6040931859752 🤔 extract_1 #212 "alliance" score? 2.2
+T384.60433161299443 attempt_211: "alliance" score:2.20 prog:None
+T391.0840479499893 🤔 extract_1 #213 "blockage" score? 28.7 554
+T391.0842400719994 attempt_212: "blockage" score:28.70 prog:554
+T398.8200585829909 🤔 extract_1 #214 "challenge" score? #213 prog 665
+T408.29188739997335 #214 ? #213 prog 665
+T427.57232215598924 #214 ? #213
+T433.7319465059554 #214 ? #213 prog 665
+T434.91588630899787 <INT>
+T0.015242976020090282 now: 2024-11-20T20:50:08UTC
+T0.017822759982664138 session model: llama
+T11.132161753019318 #214 ? #213 prog 665
+T11.132692073995713 fix attempt_212: prog:665
+T16.356116407027002 #214 ? /e
+T17.107769793015905 #214 extract_1
+T24.252388341992628 🤔 extract_1 #214 "challenge" score? 33.73 892
+T24.25263994303532 attempt_213: "challenge" score:33.73 prog:892
+T30.39614760898985 🤔 extract_1 #215 "complication" score? 29.09 694
+T30.396321990003344 attempt_214: "complication" score:29.09 prog:694
+T37.252255252038594 🤔 extract_1 #216 "conundrum" score? 40.44 975
+T37.2524645079975 attempt_215: "conundrum" score:40.44 prog:975
+T43.77159473102074 🤔 extract_1 #217 "dilemma" score? 37.74 957
+T43.77169753698399 attempt_216: "dilemma" score:37.74 prog:957
+T48.63674208603334 🤔 extract_1 #218 "hindrance" score? 51.48 994
+T48.63702851498965 attempt_217: "hindrance" score:51.48 prog:994
+T54.62018161301967 🤔 extract_1 #219 "impediment" score? 54.7 996
+T54.6204236500198 attempt_218: "impediment" score:54.70 prog:996
+T60.44432247802615 🤔 extract_1 #220 "interdependence" score? 29.42 720
+T60.44458112400025 attempt_219: "interdependence" score:29.42 prog:720
+T67.55590718303574 🤔 extract_1 #221 "issue" score? 29.35 717
+T67.55612717801705 attempt_220: "issue" score:29.35 prog:717
+T75.03600462403847 🤔 extract_1 #222 "obstacle" score? 44.41 988
+T75.03618662100052 attempt_221: "obstacle" score:44.41 prog:988
+T78.92408364301082 🤔 extract_1 #223 "quagmire" score? 17.99
+T78.92430157202762 attempt_222: "quagmire" score:17.99 prog:None
+T82.62810756999534 🤔 extract_1 #224 "union" score? 4.81
+T82.62831564299995 attempt_223: "union" score:4.81 prog:None
+T86.67638996400638 🤔 extract_1 #225 "up" score? 1
+T86.67662706202827 attempt_224: "up" score:1.00 prog:None
+T88.62802596698748 #226 ? /prog
+T93.82810636202339 #226 ? *10 t3
+T93.8283480849932 session clear
+T93.82846750802128 session: {"role": "user", "content": "give me 10 words that are similar to \"impediment\", \"hindrance\", and \"obstacle\""}
+T102.17274830600945 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"impediment\", \"hindrance\", and \"obstacle\":\n\n1. Barrier\n2. Blockage\n3. Bottleneck\n4. Delay\n5. Hurdle\n6. Impasse\n7. Roadblock\n8. Stumble\n9. Trivia (in a more figurative sense, implying a challenge or difficulty)\n10. Snag\n\nThese words all convey the idea of something that prevents progress, causes trouble, or creates difficulties, similar to \"impediment\", \"hindrance\", and \"obstacle\"."}
+T103.9083669760148 #226 extract_1
+T112.28405802400084 🤔 extract_1 #226 "barrier" score? 30.53 785
+T112.28426757000852 attempt_225: "barrier" score:30.53 prog:785
+T119.30003567703534 🤔 extract_1 #227 "bottleneck" score? 51.41 993
+T119.3001756099984 attempt_226: "bottleneck" score:51.41 prog:993
+T125.644296302984 🤔 extract_1 #228 "delay" score? 24.95 90
+T125.64453661598964 attempt_227: "delay" score:24.95 prog:90
+T131.79642644402338 🤔 extract_1 #229 "hurdle" score? 41.17 979
+T131.79664261703147 attempt_228: "hurdle" score:41.17 prog:979
+T136.3482293250272 🤔 extract_1 #230 "impasse" score? 23.21
+T136.34845228900667 attempt_229: "impasse" score:23.21 prog:None
+T144.65243284899043 🤔 extract_1 #231 "roadblock" score? 38.32 963
+T144.65265750698745 attempt_230: "roadblock" score:38.32 prog:963
+T147.892415482027 🤔 extract_1 #232 "snag" score? 15.27
+T147.89264357101638 attempt_231: "snag" score:15.27 prog:None
+T151.02819653600454 🤔 extract_1 #233 "stumble" score? 2.96
+T151.02835290698567 attempt_232: "stumble" score:2.96 prog:None
+T154.71632019802928 🤔 extract_1 #234 "trivia" score? -2.64
+T154.7165618010331 attempt_233: "trivia" score:-2.64 prog:None
+T156.91590014699614 #235 ? /prog
+T163.5807543460396 #235 ? *10 t3
+T163.5812936690054 session clear
+T163.58148110000184 session: {"role": "user", "content": "give me 10 words that are similar to \"impediment\", \"hindrance\", and \"bottleneck\""}
+T171.91670219699154 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"impediment\", \"hindrance\", and \"bottleneck\":\n\n1. Obstacle\n2. Barrier\n3. Roadblock\n4. Blockage\n5. Constraint\n6. Bottled-up issue\n7. Catch-22\n8. Catch-all (Note: This one is a bit more idiomatic, but it conveys the idea of something that limits or blocks progress.)\n9. Obstruction\n10. Stumbling block\n\nThese words all convey the idea of something that hinders or prevents progress, achievement, or movement in some way."}
+T176.58770214102697 #235 extract_4
+T180.46827959700022 🤔 extract_4 #235 "catch" score? .94
+T180.46850118099246 attempt_234: "catch" score:0.94 prog:None
+T182.94830497499788 🤔 extract_1 #236 "22" score? !
+T182.94843658799073 reject: "22"
+T187.9401948270388 🤔 extract_1 #236 "all" score? 6.72
+T187.94037568202475 attempt_235: "all" score:6.72 prog:None
+T195.68418375600595 🤔 extract_1 #237 "bottled" score? !bottle
+T195.6843744200305 reject: "bottled"
+T199.72435505798785 🤔 corrected #237 "bottle" score? 1.17
+T199.72455556399655 attempt_236: "bottle" score:1.17 prog:None
+T207.57155354699353 🤔 extract_1 #238 "constraint" score? 100 1000
+T207.5716454969952 attempt_237: "constraint" score:100.00 prog:1000
+T209.39608867198694 Paste share result, then preses <Enter>
+T209.4057747499901 share result: "constraint"
+T217.17214495001826 Paste share result, then preses <Enter>
+T217.17757553502452 share result: "I found #cemantle #961 in 238 guesses!\n\ud83e\udd73\n\ud83d\udd253\ufe0f\u20e3\n\ud83e\udd757\ufe0f\u20e3\n\ud83d\ude0e1\ufe0f\u20e39\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd762\ufe0f\u20e30\ufe0f\u20e32\ufe0f\u20e3\n\ud83e\uddca6\ufe0f\u20e3\nhttps://cemantle.certitudes.org/"
+T217.1780141320196 <STOP>

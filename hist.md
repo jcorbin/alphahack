@@ -1,3 +1,4 @@
+
 # 2024-10-07
 ```
 🧩 Puzzle #440
@@ -694,3 +695,23 @@ https://cemantix.certitudes.org/
 
 🔗 alfagok.diginaut.net
 ```
+
+# 2024-11-20 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 961
+🤔 238 guesses
+    🥳   1
+    🔥   3
+    🥵   7
+    😎  19
+    🥶 202
+    🧊   6
+⏱️ 0:41:08.164330
+```
+
+🤔 238 attempts
+📜 23 sessions
+🫧 38 chat prompts
+🤖 38 chat replies
