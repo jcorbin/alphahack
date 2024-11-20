@@ -3,7 +3,7 @@ import re
 import subprocess
 import time
 from contextlib import contextmanager
-from collections.abc import Sequence
+from collections.abc import Generator, Sequence
 from typing import cast, final, Any, Callable, Literal, Protocol, TextIO
 
 class Clipboard(Protocol):
@@ -107,6 +107,15 @@ class PromptUI:
 
     def copy(self, mess: str):
         self.clip.copy(mess)
+
+    def consume_copy(self, final_newline: bool = True, nl: str = '\n') -> Generator[None, str, None]:
+        lines: list[str] = []
+        try:
+            while True: lines.append(( yield ))
+        except GeneratorExit:
+            s = nl.join(lines)
+            if final_newline: s += nl
+            self.copy(s)
 
     def paste(self) -> str:
         return self.clip.paste()
