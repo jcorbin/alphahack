@@ -1,0 +1,866 @@
+T0.003999681008281186 now: 2024-11-20T00:35:49UTC
+T7.956340018019546 🧩  ? 994
+T16.140083948004758 😎 °C ? 21.62
+T16.140246582013788 scale: 😎 21.62 °C
+T22.676285911002196 🧩  ? #994
+T22.67648226901656 puzzle_id: #994
+T26.011806469003204 🥵 °C ? 35.08
+T26.01195489501697 scale: 🥵 35.08 °C
+T28.964075871015666 🔥 °C ? 47.1
+T28.964221485017333 scale: 🔥 47.10 °C
+T31.58016679499997 😱 °C ? 62.34
+T31.580317471991293 scale: 😱 62.34 °C
+T31.592122822010424 session model: llama
+T31.592199025995797 session clear
+T31.592404229013482 session: {"role": "user", "content": "give me 10 words at random that are not related to each other"}
+T38.5996997700131 session: {"role": "assistant", "content": "Here are 10 random words that are not related to each other:\n\n1. Guitar\n2. Snowflake\n3. Perfume\n4. Llama\n5. Fjord\n6. Pineapple\n7. Harmonica\n8. Submarine\n9. Bicycle\n10. Caramel"}
+T39.8366212840192 attempt_0 # 
+T43.156400545994984 attempt_0 ? /lang
+T45.98053040201194 <INT>
+T0.006334025994874537 now: 2024-11-20T00:36:47UTC
+T0.009805505978874862 session model: llama
+T1.7394298559811432 📋 extract_1 "bicycle" score? 
+T3.907818645995576 attempt_0 ? /lang
+T8.059942790976493 🌎  ? French
+T8.060097531997599 lang: French
+T11.828207638987806 attempt_0 ? /site
+T22.97976831998676 🔗 cemantle.certitudes.org ? cemantix.certitudes.org
+T22.979908370005433 site: cemantix.certitudes.org
+T28.244257337995805 attempt_0 ? /clear
+T28.24449724200531 session clear
+T29.59597912299796 attempt_0 ? *10
+T29.59640496998327 session clear
+T29.596588550979504 session: {"role": "user", "content": "give me 10 Frenchwords at random that are not related to each other"}
+T34.310403891984606 session: {"role": "assistant", "content": "Here are 10 random French words:\n\n1. G\u00e2teau\n2. Fjord\n3. Ciel\n4. \u00c9tiquette\n5. Bougainvillea\n6. S\u00fbret\u00e9\n7. Papillon\n8. Manger\n9. Galerie\n10. R\u00eaver"}
+T61.180210914986674 <INT>
+T0.00648337000166066 now: 2024-11-20T00:37:50UTC
+T0.00907766999443993 session model: llama
+T7.314003887004219 📋 extract_1 "bougainvillea" score? !
+T7.314154471998336 reject: "bougainvillea"
+T13.809772296983283 📋 extract_1 "ciel" score? -15.04
+T13.80995047398028 attempt_0: "ciel" score:-15.04 prog:None
+T18.72205201999168 📋 extract_1 "fjord" score? -7.52
+T18.722199384996202 attempt_1: "fjord" score:-7.52 prog:None
+T24.29844575599418 📋 extract_1 "galerie" score? -20.81
+T24.298722952982644 attempt_2: "galerie" score:-20.81 prog:None
+T29.546090080984868 📋 extract_1 "gâteau" score? -6.56
+T29.54629296300118 attempt_3: "gâteau" score:-6.56 prog:None
+T35.72172642897931 📋 extract_1 "manger" score? -21.7
+T35.7218743590056 attempt_4: "manger" score:-21.70 prog:None
+T39.17797383799916 📋 extract_1 "papillon" score? -10.88
+T39.178116526978556 attempt_5: "papillon" score:-10.88 prog:None
+T43.38627555698622 📋 extract_1 "rêver" score? -14.49
+T43.38646039000014 attempt_6: "rêver" score:-14.49 prog:None
+T49.60205206699902 📋 extract_1 "sûreté" score? 20.06
+T49.602243325003656 attempt_7: "sûreté" score:20.06 prog:None
+T53.77009305197862 📋 extract_1 "étiquette" score? 2.98
+T53.77030349097913 attempt_8: "étiquette" score:2.98 prog:None
+T58.48196238998207 attempt_9 ? /p
+T63.07398523800657 attempt_9 ? /prog
+T66.38590105099138 attempt_9 ? *10 t1
+T0.006753644993295893 now: 2024-11-20T00:39:05UTC
+T0.009827778994804248 session model: llama
+T59.486106981988996 <INT>
+T0.006843876006314531 now: 2024-11-20T00:40:05UTC
+T0.008978336991276592 session model: llama
+T6.973351827997249 attempt_9 ? *10 t1
+T6.9740069170075 session clear
+T6.974205820006318 session: {"role": "user", "content": "give me 10 French words that are similar to \"s\u00fbret\u00e9\""}
+T19.183122928981902 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense of security, safety, or reliability, similar to the concept of \"s\u00fbret\u00e9\":\n\n1. **S\u00e9curit\u00e9** (security)\n2. **Stabilit\u00e9** (stability)\n3. **Assurance** (assurance)\n4. **Intimit\u00e9** (intimacy, private comfort)\n5. **Confiance** (confidence)\n6. **R\u00e9silience** (resilience, ability to withstand challenges)\n7. **S\u00e9curit\u00e9 routi\u00e8re** (road safety)\n8. **Pr\u00e9caution** (caution)\n9. **Sant\u00e9** (health, well-being)\n10. **Confort** (comfort)\n\nThese words all convey a sense of security, stability, or reliability, although some may have slightly different connotations or nuances depending on the context in which they are used."}
+T43.78155330699519 attempt_9 # 9
+T48.14967714698287 📋 extract_9 "sécurité" score? 24.22
+T51.501536033989396 📋 extract_9 "sécurité" 24.22°C prog‰ ? 323
+T51.501712600991596 attempt_9: "sécurité" score:24.22 prog:323
+T58.997572739986936 📋 extract_1 "assurance" score? 24.78
+T61.18973874000949 📋 extract_1 "assurance" 24.78°C prog‰ ? 376
+T61.18997402698733 attempt_10: "assurance" score:24.78 prog:376
+T68.06145665200893 📋 extract_1 "confiance" score? 17.08
+T68.06159942300292 attempt_11: "confiance" score:17.08 prog:None
+T73.03759795098449 📋 extract_1 "confort" score? 4.31
+T73.03775292698992 attempt_12: "confort" score:4.31 prog:None
+T76.80564644999686 📋 extract_1 "intimité" score? -12.59
+T76.80589088698616 attempt_13: "intimité" score:-12.59 prog:None
+T81.90173884498654 📋 extract_1 "précaution" score? 6.21
+T81.90192295398447 attempt_14: "précaution" score:6.21 prog:None
+T84.9014479329926 📋 extract_1 "résilience" score? 3.44
+T84.90157975399052 attempt_15: "résilience" score:3.44 prog:None
+T90.34956362299272 📋 extract_1 "santé" score? 18.59
+T90.34978242198122 attempt_16: "santé" score:18.59 prog:None
+T93.95757044898346 📋 extract_1 "stabilité" score? 18.86
+T93.95771950000199 attempt_17: "stabilité" score:18.86 prog:None
+T96.96549788399716 attempt_18 ? /prog
+T100.54156950500328 attempt_18 ? *10 t2
+T100.54181055800291 session clear
+T100.5419142129831 session: {"role": "user", "content": "give me 10 French words that are similar to \"assurance\" and \"s\u00e9curit\u00e9\""}
+T119.22778385598212 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"assurance\" and \"s\u00e9curit\u00e9\":\n\n1. **Confiance** (confidence) - implies a level of trust or reliance\n2. **Fid\u00e9lit\u00e9** (loyalty) - refers to the quality of being faithful or dependable\n3. **Provision** (precautions, safeguards) - involves measures taken to prevent harm or risk\n4. **R\u00e9sistance** (resilience, strength) - describes the ability to withstand challenges or difficulties\n5. **Prudence** (pragmatism, caution) - implies a careful and wise approach\n6. **Garantie** (guarantee, assurance) - refers to a promise or pledge to perform something\n7. **Soutien** (support, backing) - provides help or encouragement in times of need\n8. **Protection** (safeguarding, defense) - involves measures taken to prevent harm or danger\n9. **Stabilit\u00e9** (stability, security) - describes a state of being free from disturbance or upheaval\n10. **S\u00e9curit\u00e9 financi\u00e8re** (financial security) - refers to the protection of one's financial well-being\n\nThese words all convey a sense of safety, security, and reliability, which are similar concepts to \"assurance\" and \"s\u00e9curit\u00e9\"."}
+T162.39714884298155 attempt_18 # 1
+T166.22941053600516 📋 extract_1 "fidélité" score? .93
+T166.22956319400691 attempt_18: "fidélité" score:0.93 prog:None
+T171.52576686799875 📋 extract_1 "garantie" score? 30.21
+T174.037855106988 📋 extract_1 "garantie" 30.21°C prog‰ ? 765
+T174.03808617999312 attempt_19: "garantie" score:30.21 prog:765
+T177.9658012459986 📋 extract_1 "protection" score? 15.92
+T177.96601634798571 attempt_20: "protection" score:15.92 prog:None
+T182.77361564399325 📋 extract_1 "provision" score? 10.85
+T182.77377381300903 attempt_21: "provision" score:10.85 prog:None
+T185.64579065699945 📋 extract_1 "prudence" score? 4.1
+T185.64598416400258 attempt_22: "prudence" score:4.10 prog:None
+T188.92536867698072 📋 extract_1 "résistance" score? 1.95
+T188.92550014000153 attempt_23: "résistance" score:1.95 prog:None
+T192.4537330160092 📋 extract_1 "soutien" score? 12.88
+T192.454012762988 attempt_24: "soutien" score:12.88 prog:None
+T195.4292396789824 attempt_25 ? *10 t2
+T195.4293779389991 session clear
+T195.4294504779973 session: {"role": "user", "content": "give me 10 French words that are similar to \"garantie\" and \"assurance\""}
+T208.68765166398953 session: {"role": "assistant", "content": "Here are 10 French words that convey meanings similar to \"garantie\" (guarantee) and \"assurance\":\n\n1. Engagement - A promise or commitment to do something.\n2. S\u00e9curit\u00e9 - Security, safety, or protection.\n3. Garantissement - A guarantee or surety.\n4. Engagement de pr\u00eats - Loan agreement or promise of payment.\n5. Pr\u00eat-garantie - Loan with a guarantee.\n6. Fian\u00e7ailles - Wedding promises or guarantees.\n7. S\u00e9curit\u00e9 financi\u00e8re - Financial security or protection.\n8. Garantie de r\u00e9duction - Guarantee of reduction (e.g., in price).\n9. Engagement professionnel - Professional engagement or promise to work.\n10. Suret\u00e9 juridique - Legal surety or guarantee.\n\nNote that some words may have slightly different connotations or nuances, but they all generally convey a sense of protection, security, or commitment similar to \"garantie\" and \"assurance\"."}
+T212.4295482400048 attempt_25 # 5
+T215.09346425099648 📋 extract_5 "sureté" score? !
+T215.0936233960092 reject: "sureté"
+T216.21373348400812 attempt_25 # 4
+T221.24548364800285 📋 extract_4 "prêt" score? 10.97
+T221.24565182000515 attempt_25: "prêt" score:10.97 prog:None
+T227.8859283789934 📋 extract_1 "engagement" score? 29
+T230.18171789700864 📋 extract_1 "engagement" 29.00°C prog‰ ? 708
+T230.18196894798893 attempt_26: "engagement" score:29.00 prog:708
+T233.9097301629954 📋 extract_1 "fiançailles" score? -16.37
+T233.90992207999807 attempt_27: "fiançailles" score:-16.37 prog:None
+T237.4774680819828 📋 extract_1 "garantissement" score? !
+T237.47761243299465 reject: "garantissement"
+T240.26973877998535 attempt_28 ? /prog
+T243.46960467498866 attempt_28 ? *10 t2
+T243.46981697299634 session clear
+T243.46991775598144 session: {"role": "user", "content": "give me 10 French words that are similar to \"garantie\" and \"engagement\""}
+T257.63238029100467 session: {"role": "assistant", "content": "Here are 10 French words that convey similar meanings to \"garantie\" (guarantee) and \"engagement\" (commitment):\n\n1. Assurance - a form of guarantee or insurance\n2. Engagement (as mentioned earlier) - commitment or promise\n3. Avenir (future) - implies a sense of promise or assurance for the future\n4. Loyaut\u00e9 (loyalty) - commitment to a person, cause, or idea\n5. Promesse (promise) - an explicit declaration of intention or commitment\n6. Engagement commercial (commercial engagement) - business partnership or contract\n7. Rassurance (reassurance) - emotional comfort or confidence\n8. S\u00e9curit\u00e9 (security) - feeling of safety and protection\n9. V\u0153u (vow) - a solemn promise or commitment\n10. D\u00e9fense (defense) - protection or support for someone or something\n\nNote that some of these words may have slightly different connotations or nuances, but they all generally convey a sense of commitment, assurance, or promise."}
+T261.42169672000455 attempt_28 # 1
+T265.5014124349982 📋 extract_1 "avenir" score? 14.79
+T265.5015650319983 attempt_28: "avenir" score:14.79 prog:None
+T268.7337759229995 📋 extract_1 "défense" score? 14.5
+T268.73401184700197 attempt_29: "défense" score:14.50 prog:None
+T272.03769857698353 📋 extract_1 "loyauté" score? 5.27
+T272.03789150499506 attempt_30: "loyauté" score:5.27 prog:None
+T275.0698697869957 📋 extract_1 "promesse" score? 2.25
+T275.0701048409974 attempt_31: "promesse" score:2.25 prog:None
+T277.6533242939913 📋 extract_1 "rassurance" score? !
+T277.6534593249962 reject: "rassurance"
+T281.125569256983 📋 extract_1 "vœu" score? -5.41
+T281.12571507299435 attempt_32: "vœu" score:-5.41 prog:None
+T283.76569847698556 attempt_33 ? /prog
+T285.7896153930051 attempt_33 ? *10 t1
+T285.7898163589998 session clear
+T285.7899427920056 session: {"role": "user", "content": "give me 10 French words that are similar to \"garantie\""}
+T302.8173549589992 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"garantie\" (guarantee):\n\n1. Garant : This is the present participle of the verb \"garantir\", which means to guarantee or ensure.\n2. Assur : Short for \"assurance\", which refers to a guarantee or insurance policy.\n3. Engagement : Refers to an agreement or commitment, often implying a guarantee.\n4. Promesse : Means promise or pledge, sometimes carrying connotations of guarantee.\n5. Assurance : As mentioned earlier, this term is related to guaranteeing something.\n6. Garantie de vie : This translates to life insurance, which can be seen as a type of guarantee for one's well-being in old age.\n7. Ressource : While it doesn't directly imply a guarantee, \"ressource\" means source or resource, implying reliability and constancy.\n8. S\u00e9curit\u00e9 : Refers to security, which can involve guarantees or protections against risks.\n9. Engagement de confiance : This is an agreement of trust, often implying a guarantee for mutual understanding.\n10. Garantie sociale : Translates to social insurance, offering a type of safety net and guarantee for certain individuals.\n\nThese words all share the idea of assurance or protection that \"garantie\" embodies."}
+T306.8055685359868 attempt_33 # 1
+T309.06950435298495 📋 extract_1 "assur" score? !
+T309.06964072800474 reject: "assur"
+T310.65359733300284 attempt_33 # 1
+T314.1819504449959 📋 extract_1 "garant" score? 17.78
+T314.1821772289986 attempt_33: "garant" score:17.78 prog:None
+T320.7256474089809 📋 extract_1 "ressource" score? 21.05
+T320.7258121299965 attempt_34: "ressource" score:21.05 prog:None
+T323.78959507498075 attempt_35 ? > keep going
+T323.78978239299613 session: {"role": "user", "content": "keep going"}
+T343.72984777900274 session: {"role": "assistant", "content": "Here are 10 more French words that are similar to \"garantie\" (guarantee):\n\n11. Engagement commercial : This refers to a commercial agreement, often implying a guarantee for the success or effectiveness of a business deal.\n12. Garantie de qualit\u00e9 : Translates to quality guarantee, which ensures a certain level of excellence in products or services.\n13. Ressource humaine : Refers to human resources, implying reliability and constancy in terms of personnel.\n14. S\u00e9curit\u00e9 financi\u00e8re : This means financial security, often carrying connotations of guarantees for one's economic well-being.\n15. Assurance m\u00e9dicale : Translates to health insurance, which provides a guarantee for medical expenses or treatments.\n16. Garantie d'achat : Means purchase guarantee, offering reassurance for buyers during transactions.\n17. Engagement environnemental : This refers to an environmental agreement, often implying a guarantee for sustainable practices or reduced ecological impact.\n18. S\u00e9curit\u00e9 sociale : Translates to social security, which provides guarantees for certain benefits and support systems.\n19. Garantie technique : Means technical guarantee, ensuring that products or services meet specific standards of quality or functionality.\n20. Ressource \u00e9ducative : Refers to educational resources, implying a guarantee for learning and personal development.\n\nThese words all share the idea of assurance, protection, or reliability that \"garantie\" represents in French."}
+T354.1813772569876 attempt_35 ? financière
+T360.10166846899665 📋 "financière" "financière" score? !
+T360.1018185779976 reject: "financière"
+T362.62135638899053 attempt_35 ? /prog
+T365.56581871799426 attempt_35 ? *10 t3
+T365.5661110749934 session clear
+T365.5662569470005 session: {"role": "user", "content": "give me 10 French words that are similar to \"garantie\", \"engagement\", and \"assurance\""}
+T384.36094473299454 session: {"role": "assistant", "content": "Here are 10 French words that convey similar meanings to \"guarantee\", \"pledge\", and \" assurance\":\n\n1. **Promesse** (promise) - implies a commitment or guarantee\n2. **Engagement** (engagement, as you mentioned) - specifically refers to the act of promising or pledging something\n3. **Assurance** (assurance, as you mentioned) - implies confidence or security in something\n4. **Derni\u00e8re condition** (last condition) - implies a final requirement or guarantee\n5. **R\u00e9glement d'arbitrage** (settlement or arbitration agreement) - implies a formal agreement to resolve a dispute\n6. **D\u00e9fense** (defense) - implies protection or safeguarding of something\n7. **Garantie financi\u00e8re** (financial guarantee) - specifically refers to a financial assurance or backing\n8. **Valeur garantie** (guaranteed value) - implies a level of confidence in the value of something\n9. **Mise en garde** (caution or warning) - implies a protective measure or warning against potential risks\n10. **S\u00e9curit\u00e9** (security) - implies safety, protection, or reassurance in something\n\nNote that some of these words may have slightly different connotations or nuances, but they all generally convey a sense of confidence, assurance, or guarantee."}
+T386.1654892730003 attempt_35 # 1
+T388.95754320398555 📋 extract_1 "dernière" score? !
+T388.9576914460049 reject: "dernière"
+T389.7094043479883 attempt_35 # 1
+T393.88556664899806 📋 extract_1 "mise" score? 27.35
+T397.1417240599985 📋 extract_1 "mise" 27.35°C prog‰ ? 601
+T397.14189185600844 attempt_35: "mise" score:27.35 prog:601
+T400.2696769289905 📋 extract_1 "réglement" score? !
+T400.26979610399576 reject: "réglement"
+T404.1336955020088 📋 extract_1 "valeur" score? 19.4
+T404.1338840399985 attempt_36: "valeur" score:19.40 prog:None
+T405.8456774869992 attempt_37 ? /prog
+T407.7737349070085 attempt_37 ? *10 t3
+T407.77394681598525 session clear
+T407.77404184799525 session: {"role": "user", "content": "give me 10 French words that are similar to \"garantie\", \"engagement\", and \"mise\""}
+T418.290921798005 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense of commitment, responsibility, or action similar to \"garantie\", \"engagement\", and \"mise\":\n\n1. Engagement (already mentioned) - commitment or pledge\n2. Garantie (already mentioned) - guarantee or warranty\n3. Mise en place - setting in motion or putting into effect\n4. Engagement financier - financial commitment or investment\n5. Garantie sociale - social security or safety net\n6. Engagement professionnel - professional engagement or employment\n7. Mise au point - fine-tuning or refining (a process)\n8. Assurance (not exactly the same, but close) - surety or insurance\n9. Obligation (devoir) - duty or responsibility\n10. Investissement - investment or stake"}
+T420.3817286329868 attempt_37 # 1
+T425.47784554300597 📋 extract_1 "investissement" score? 27.49
+T427.27753975600353 📋 extract_1 "investissement" 27.49°C prog‰ ? 614
+T427.2776924939826 attempt_37: "investissement" score:27.49 prog:614
+T432.70971063300385 📋 extract_1 "obligation" score? 35.85
+T434.9819590509869 📋 extract_1 "obligation" 35.85°C prog‰ ? 913
+T434.98213147898787 attempt_38: "obligation" score:35.85 prog:913
+T436.22960843500914 attempt_39 ? /prog
+T437.9494554179837 attempt_39 ? *10 t2
+T437.9496551199991 session clear
+T437.94975953700487 session: {"role": "user", "content": "give me 10 French words that are similar to \"obligation\" and \"garantie\""}
+T454.5101606870012 session: {"role": "assistant", "content": "Here are 10 French words that convey similar meanings to \"obligation\" and \"guarantee\":\n\nSimilar to \"Obligation\":\n1. Devoir (duty)\n2. Responsabilit\u00e9 (responsibility)\n3. Engagement (commitment)\n4. Contractualit\u00e9 (contractual obligation)\n5. Engagement de vie (life commitment)\n6. Contrainte (constraint)\n7. Imp\u00e9ratif (mandate or imperative)\n8. Exigence (requirement)\n9. D\u00e9faut de paiement (default payment, implying a debt)\n\nSimilar to \"Guarantie\":\n1. S\u00e9curit\u00e9 (security)\n2. Garantir (to guarantee)\n3. Assurer (to ensure)\n4. R\u00e9assurance (reassurance)\n5. Garantie contractuelle (contractual guarantee)\n6. Fid\u00e9lisation (loyalty)\n7. Pr\u00e9avis (advance notice, implying a promise of future actions)\n8. Exon\u00e9ration (exemption)\n9. S\u00e9curit\u00e9 juridique (legal security)\n\nNote that while some words may have slightly different connotations or nuances, they generally convey meanings related to \"obligation\" and \"guarantee\"."}
+T456.5096279089921 attempt_39 # 1
+T462.2056498769962 📋 extract_1 "assurer" score? 34.18 880
+T462.2058274220035 attempt_39: "assurer" score:34.18 prog:880
+T465.52586607899866 📋 extract_1 "contractualité" score? 12.85
+T465.5260608450044 attempt_40: "contractualité" score:12.85 prog:None
+T471.1979320679966 📋 extract_1 "contrainte" score? 25.32 432
+T471.1981926370063 attempt_41: "contrainte" score:25.32 prog:432
+T477.4943963919941 📋 extract_1 "devoir" score? 33.81 875
+T477.49458388300263 attempt_42: "devoir" score:33.81 prog:875
+T481.80578257798334 📋 extract_1 "défaut" score? 17.19
+T481.8060008949833 attempt_43: "défaut" score:17.19 prog:None
+T489.46958212400205 📋 extract_1 "exigence" score? 40.7 964
+T489.4698035180045 attempt_44: "exigence" score:40.70 prog:964
+T495.4135587939818 📋 extract_1 "exonération" score? 26.3 530
+T495.41372543098987 attempt_45: "exonération" score:26.30 prog:530
+T498.45387085698894 📋 extract_1 "fidélisation" score? 19.35
+T498.4540697519842 attempt_46: "fidélisation" score:19.35 prog:None
+T505.46187010998256 📋 extract_1 "garantir" score? 28.67
+T508.9096171229903 📋 extract_1 "garantir" 28.67°C prog‰ ? 684
+T508.90976014200714 attempt_47: "garantir" score:28.67 prog:684
+T516.5897670399863 📋 extract_1 "impératif" score? 25.14 417
+T516.5899457969936 attempt_48: "impératif" score:25.14 prog:417
+T520.1091944020009 📋 extract_1 "préavis" score? 15.43
+T520.1092773969867 attempt_49: "préavis" score:15.43 prog:None
+T530.3573857629963 📋 extract_1 "responsabilité" score? 36.07 918
+T530.3575494609831 attempt_50: "responsabilité" score:36.07 prog:918
+T533.621236876992 📋 extract_1 "réassurance" score? 13.11
+T533.6213888509956 attempt_51: "réassurance" score:13.11 prog:None
+T536.2456873999909 attempt_52 ? /prog
+T538.3737043149886 attempt_52 ? *10 t3
+T538.3739387340029 session clear
+T538.3740605979983 session: {"role": "user", "content": "give me 10 French words that are similar to \"exigence\", \"responsabilit\u00e9\", and \"obligation\""}
+T558.6409583709901 session: {"role": "assistant", "content": "Here are 10 French words that convey similar meanings to \"exigence\", \"responsabilit\u00e9\", and \"obligation\":\n\n1. **R\u00f4le** (role) - implies a sense of duty or responsibility\n2. **Devoir** (duty) - conveys a sense of obligation or necessity\n3. **Charge** (charge) - similar to \"obligation\" in implying a sense of responsibility\n4. **Mandat** (mandate) - suggests a formal commitment or obligation\n5. **D\u00e9tachement** (detachment) - implies a sense of separation or disconnection, but also can convey a sense of responsibility or duty\n6. **D\u00e9faut** (shortfall) - suggests a sense of deficiency or lack, which can imply an obligation to correct it\n7. **Imp\u00e9ratif** (imperative) - conveys a sense of urgency or necessity, implying a strong sense of obligation\n8. **Fid\u00e9lit\u00e9** (loyalty) - implies a sense of commitment and responsibility\n9. **Engagement** (engagement) - suggests a formal commitment or promise, which can imply an obligation to fulfill\n10. **Coutume** (custom) - conveys a sense of established practice or tradition, which can imply a sense of duty or responsibility\n\nThese words all convey a sense of responsibility, obligation, or commitment, similar to \"exigence\", \"responsabilit\u00e9\", and \"obligation\"."}
+T564.2374907030025 attempt_52 # 1
+T568.9815576499968 📋 extract_1 "charge" score? 30.87
+T570.278024291998 📋 extract_1 "charge" 30.87°C prog‰ ? 788
+T570.2782704980054 attempt_52: "charge" score:30.87 prog:788
+T573.1811658460065 📋 extract_1 "coutume" score? -14
+T573.1812758489978 attempt_53: "coutume" score:-14.00 prog:None
+T576.7097503209952 📋 extract_1 "détachement" score? 19.18
+T576.709977830993 attempt_54: "détachement" score:19.18 prog:None
+T579.6376664240088 📋 extract_1 "mandat" score? 19.17
+T579.6378349379811 attempt_55: "mandat" score:19.17 prog:None
+T583.4534176900052 📋 extract_1 "rôle" score? 21.25
+T583.4535918619949 attempt_56: "rôle" score:21.25 prog:None
+T588.4454845789878 attempt_57 ? *10 t1
+T588.4457384499838 session clear
+T588.4458451499813 session: {"role": "user", "content": "give me 10 French words that are similar to \"exigence\""}
+T601.1041970349906 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"exigence\":\n\n1. Obligation\n2. Contrainte\n3. Exigeance (same root as exigence, but with an extra \"e\")\n4. Pr\u00e9occupation\n5. Urgence\n6. Necessit\u00e9\n7. Pression\n8. Demande\n9. Attente\n10. R\u00e9ponse\n\nNote that some of these words may have slightly different connotations or nuances than \"exigence\", but they all share similar meanings related to requirement, need, or demand.\n\nIn particular, if you're looking for words with a more formal or technical tone, you might consider:\n\n* Exigence (as in your original question)\n* Contrainte\n* Obligation\n* Necessit\u00e9\n* Pression\n\nAnd if you want words that convey a sense of urgency or importance:\n\n* Urgence\n* Attente\n* R\u00e9ponse\n* Demande"}
+T607.2618363669899 attempt_57 # 1
+T614.2937136529945 📋 extract_1 "attente" score? 23.61 267
+T614.2939100560034 attempt_57: "attente" score:23.61 prog:267
+T621.0216133229842 📋 extract_1 "demande" score? 29.31 725
+T621.0218239789829 attempt_58: "demande" score:29.31 prog:725
+T624.3977264809946 📋 extract_1 "exigeance" score? !
+T624.3978881140065 reject: "exigeance"
+T627.5816310879891 📋 extract_1 "necessité" score? !
+T627.5817830289889 reject: "necessité"
+T630.685628303996 📋 extract_1 "pression" score? 13.89
+T630.6858225440083 attempt_59: "pression" score:13.89 prog:None
+T635.6860662580002 📋 extract_1 "préoccupation" score? 16.56
+T635.6863280420075 attempt_60: "préoccupation" score:16.56 prog:None
+T639.8156956099847 📋 extract_1 "réponse" score? 11.66
+T639.8161247459939 attempt_61: "réponse" score:11.66 prog:None
+T644.5178084939835 📋 extract_1 "urgence" score? 14.58
+T644.5179721000022 attempt_62: "urgence" score:14.58 prog:None
+T650.6855992469937 attempt_63 ? /last
+T657.1576135109935 attempt_63 ? *10 $2
+T657.1577914360096 session clear
+T657.157865207002 session: {"role": "user", "content": "give me 10 French words that are similar to \"responsabilit\u00e9\""}
+T668.5809545969823 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"responsabilit\u00e9\":\n\n1. Responsable\n2. R\u00e9silience\n3. R\u00e9solution\n4. R\u00e9seau (can refer to a network, but also implies responsibility)\n5. Responsibilit\u00e9 (this is a more formal or technical term for responsibility)\n6. Repr\u00e9sentation (can imply representation and accountability)\n7. R\u00e9glementaire (refers to rules and regulations, implying responsibility for compliance)\n8. Responsabilit\u00e9 financi\u00e8re (financial responsibility)\n9. Responsabilit\u00e9 sociale (social responsibility)\n10. Responsabilit\u00e9 civique (civil responsibility)\n\nThese words all convey the idea of taking care of something or someone, or being accountable for one's actions.\n\nNote that some of these words may have slightly different connotations or nuances, but they all generally relate to the concept of responsibility."}
+T670.7178143019846 attempt_63 # 1
+T673.8136168689816 📋 extract_1 "représentation" score? 11.69
+T673.813956094993 attempt_63: "représentation" score:11.69 prog:None
+T678.1418020359997 📋 extract_1 "responsable" score? 20.68
+T678.1419899659813 attempt_64: "responsable" score:20.68 prog:None
+T680.8058885890059 📋 extract_1 "responsibilité" score? !
+T680.8061271159968 reject: "responsibilité"
+T687.5736245549924 📋 extract_1 "réglementaire" score? 32.03 828
+T687.5737853650062 attempt_65: "réglementaire" score:32.03 prog:828
+T691.1572872189863 📋 extract_1 "réseau" score? 18.9
+T691.1574350500014 attempt_66: "réseau" score:18.90 prog:None
+T694.1817900899914 📋 extract_1 "résolution" score? 11.92
+T694.1819644689967 attempt_67: "résolution" score:11.92 prog:None
+T717.1733865239948 attempt_68 ? /prog
+T727.1658000010066 attempt_68 ? *10 $1 -$58
+T727.1660789129965 session clear
+T727.1662098869856 session: {"role": "user", "content": "give me 10 French words that are similar to \"exigence\" but not similar to \"v\u0153u\""}
+T741.5585344540013 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense of requirement or necessity, similar to \"exigence\", but distinct from \"v\u0153u\":\n\n1. Obligation\n2. Devoir\n3. N\u00e9cessit\u00e9\n4. Demande\n5. Exigeance (note: this one is very close to \"exigence\")\n6. Imp\u00e9ratif\n7. R\u00e8gle\n8. Conformit\u00e9\n9. R\u00e9glement\n10. Obligation\n\nHowever, if you're looking for words that are not too similar to \"v\u0153u\" and still convey a sense of requirement or necessity, here are some alternatives:\n\n1. Demande (as mentioned earlier)\n2. Besoin (meaning \"need\")\n3. Pr\u00e9occupation\n4. Souci (meaning \"concern\" or \" worry\")\n5. Urgence (meaning \"urgency\" or \"immediacy\")\n\nPlease note that the French language has a rich vocabulary, and there may be other words that convey similar meanings to \"exigence\"."}
+T745.4539466309943 attempt_68 # 1
+T751.0937691889994 📋 extract_1 "besoin" score? 30.57 778
+T751.0939651769877 attempt_68: "besoin" score:30.57 prog:778
+T759.0300187910034 📋 extract_1 "conformité" score? 29.2 720
+T759.0305076399818 attempt_69: "conformité" score:29.20 prog:720
+T765.1179161269974 📋 extract_1 "nécessité" score? 28.69 686
+T765.1181018129864 attempt_70: "nécessité" score:28.69 prog:686
+T770.8939870510076 📋 extract_1 "règle" score? 26.85 571
+T770.8941851109848 attempt_71: "règle" score:26.85 prog:571
+T773.9576484109857 📋 extract_1 "souci" score? 11.15
+T773.9578024479852 attempt_72: "souci" score:11.15 prog:None
+T777.1018243939907 attempt_73 ? /prog
+T784.6221839729988 attempt_73 ? *10 t6
+T784.6224744739884 session clear
+T784.6226252900087 session: {"role": "user", "content": "give me 10 French words that are similar to \"exigence\", \"responsabilit\u00e9\", \"obligation\", \"assurer\", \"devoir\", and \"r\u00e9glementaire\""}
+T805.1601188789937 session: {"role": "assistant", "content": "Here are 10 French words that are similar in meaning or connotation to the given words:\n\n1. Exigence: Demande, Attente, Sp\u00e9cificit\u00e9 (all convey a sense of necessity or requirement)\n2. Responsabilit\u00e9: Garantie, Engagement, Lien (emphasize liability or commitment)\n3. Obligation: Devoir, Droit, D\u00fbment (highlight the idea of something being owed or required)\n4. Assurer: S'assurer, S\u00e9curiser, Prot\u00e9ger (stress the concept of ensuring safety or security)\n5. Devoir: Charge, T\u00e2che, Mission (emphasize the burden or duty involved)\n6. R\u00e9glementaire: Contr\u00f4l\u00e9, R\u00e8glementaire, Normalis\u00e9 (convey a sense of standardization or regulation)\n\nHere are four more words that might be useful:\n\n7. Engagement: Comit\u00e9, Responsabilit\u00e9, Lien (stress the idea of commitment or partnership)\n8. Garantie: S\u00e9curit\u00e9, Assurance, D\u00e9fense (emphasize the concept of security or protection)\n9. Contr\u00f4le: Regulation, Supervision, Surveillance (convey a sense of oversight or management)\n10. Norme: Standard, R\u00e8gle, Protocole (highlight the idea of established guidelines or protocols)\n\nPlease note that some words may have slightly different connotations or nuances in context, but they generally convey similar meanings to the original words."}
+T811.7819557350012 attempt_73 # 1
+T822.2136279839906 📋 extract_1 "contrôle" score? 30.1 760
+T822.2138220559864 attempt_73: "contrôle" score:30.10 prog:760
+T828.2536555429979 📋 extract_1 "norme" score? 27.9 653
+T828.2538154280046 attempt_74: "norme" score:27.90 prog:653
+T863.7655261339969 attempt_75 ? Spécificitéi
+T868.5335359410092 attempt_75 ? Spécificité
+T876.2857659370056 📋 "spécificité" "spécificité" score? 32.11 830
+T876.2860059719824 attempt_75: "spécificité" score:32.11 prog:830
+T878.1581808580086 attempt_76 ? /la
+T879.765503423987 attempt_76 ? /last
+T887.5581949600019 attempt_76 ? Attente
+T895.2856309119961 attempt_76 ? Sécuriser,
+T899.2061231799889 attempt_76 ? Sécuriser
+T903.7658181669831 📋 "sécuriser" "sécuriser" score? 15.91
+T903.7660213439958 attempt_76: "sécuriser" score:15.91 prog:None
+T911.9975888589979 attempt_77 ? Dûment
+T917.2539525599859 📋 "dûment" "dûment" score? 10.04
+T917.2541225820023 attempt_77: "dûment" score:10.04 prog:None
+T919.5976521669945 attempt_78 ? /last
+T926.7492676260008 attempt_78 ? Contrôlé
+T929.9497183139902 📋 "contrôlé" "contrôlé" score? !
+T929.9499305709905 reject: "contrôlé"
+T943.301529430988 attempt_78 ? Droit
+T946.7897905459977 📋 "droit" "droit" score? 21.31
+T946.7899672469939 attempt_78: "droit" score:21.31 prog:None
+T950.0862384350039 attempt_79 ? /last
+T956.1419457169832 attempt_79 ? Demande
+T962.181658401998 attempt_79 ? Garantie
+T971.2614896259911 attempt_79 ? Lien
+T980.9895211299881 📋 "lien" "lien" score? 7.37
+T980.989673153992 attempt_79: "lien" score:7.37 prog:None
+T990.8858746799815 attempt_80 ? Tâche
+T996.6933474399848 📋 "tâche" "tâche" score? 29.08 716
+T996.6935492659977 attempt_80: "tâche" score:29.08 prog:716
+T999.1256263539835 attempt_81 ? /last
+T1004.1896346310095 attempt_81 ? Mission
+T1009.6616041219968 📋 "mission" "mission" score? 33.44 865
+T1009.6617528109928 attempt_81: "mission" score:33.44 prog:865
+T1016.6622014610039 attempt_82 ? Charge
+T1019.9977079909877 attempt_82 ? /prog
+T1032.429601470998 attempt_82 ? *10 $2 $5 $3
+T1032.4297947569867 session clear
+T1032.4298867879843 session: {"role": "user", "content": "give me 10 French words that are similar to \"responsabilit\u00e9\", \"devoir\", and \"obligation\""}
+T1050.0934948959912 session: {"role": "assistant", "content": "Here are 10 French words that convey similar meanings to \"responsabilit\u00e9\", \"devoir\", and \"obligation\":\n\n1. Engagement - Refers to a commitment or promise.\n2. Charge - Implies a duty or responsibility assigned to someone.\n3. Mission - Can refer to a specific task or assignment, often with a sense of responsibility.\n4. Dette - Means \"debt\" but can also imply a sense of obligation or responsibility owed to someone.\n5. Garantie - Refers to a guarantee or warranty that implies a level of responsibility or commitment.\n6. Imp\u00e9ratif - Implies a strong sense of duty or obligation, often with a sense of urgency.\n7. Vigueur - Refers to the quality of being diligent and responsible in one's actions.\n8. Fid\u00e9lit\u00e9 - Means \"faithfulness\" but can also imply a sense of loyalty and responsibility towards someone or something.\n9. Lien - Can refer to a bond or connection, often implying a sense of obligation or responsibility.\n10. S\u00e9curit\u00e9 - Refers to the state of being secure or safe, which can imply a sense of responsibility for one's actions or well-being.\n\nNote that some of these words may have slightly different connotations or nuances depending on the context in which they are used."}
+T1052.0696865879872 attempt_82 # 1
+T1054.693532253994 📋 extract_1 "dette" score? 8.5
+T1054.6936672739976 attempt_82: "dette" score:8.50 prog:None
+T1059.9655345259816 📋 extract_1 "vigueur" score? -2.61
+T1059.9656962929876 attempt_83: "vigueur" score:-2.61 prog:None
+T1061.9736979279842 attempt_84 ? > keep going
+T1061.973899139004 session: {"role": "user", "content": "keep going"}
+T1092.492533512006 session: {"role": "assistant", "content": "Here are 10 more French words that convey similar meanings to \"responsabilit\u00e9\", \"devoir\", and \"obligation\":\n\n1. Stipulation - Refers to a condition or requirement, often implying a sense of responsibility.\n2. Engagement personnel - Means \"personal engagement\" or \"personal commitment\".\n3. Fiducie - Implies trust or confidence in someone, often with a sense of responsibility.\n4. Obligation morale - Refers to a moral obligation or duty.\n5. Engagement social - Means \"social engagement\" or \"commitment\", implying a sense of responsibility towards others.\n6. Charge de service - Refers to a specific task or responsibility assigned to someone.\n7. Engagement financier - Means \"financial commitment\" or \"investment\".\n8. D\u00e9fense de la communaut\u00e9 - Refers to the defense of one's community, often implying a sense of responsibility and duty.\n9. Responsabilit\u00e9 civique - Implies civic responsibility or accountability.\n10. Garantie de qualit\u00e9 - Means \"quality guarantee\", implying a sense of responsibility for meeting certain standards.\n\nAnd here are 10 more:\n\n1. R\u00f4le - Refers to one's role or position, often implying a sense of responsibility.\n2. Charge de conduire - Means \"driving charge\" or \"responsibility for driving\".\n3. Engagement scientifique - Implies scientific engagement or commitment.\n4. D\u00e9fense de l'environnement - Refers to the defense of the environment, often implying a sense of responsibility and duty.\n5. Responsabilit\u00e9 \u00e9thique - Implies ethical responsibility or accountability.\n6. Obligation de confidentialit\u00e9 - Means \"obligation of confidentiality\", implying a sense of responsibility to keep information secret.\n7. Engagement politique - Refers to political engagement or commitment.\n8. Charge de formation - Means \"formation charge\" or \"responsibility for training\".\n9. Responsabilit\u00e9 publique - Implies public responsibility or accountability.\n10. Garantie de s\u00e9curit\u00e9 - Means \"security guarantee\", implying a sense of responsibility for ensuring one's safety.\n\nNote that some of these words may have slightly different connotations or nuances depending on the context in which they are used."}
+T1094.0300107749936 attempt_84 # 1
+T1097.5017509679892 📋 extract_1 "fiducie" score? 10.41
+T1097.501926085999 attempt_84: "fiducie" score:10.41 prog:None
+T1101.8774506799818 📋 extract_1 "stipulation" score? 21.07
+T1101.8776017380005 attempt_85: "stipulation" score:21.07 prog:None
+T1103.0538321259955 attempt_86 ? /last
+T1118.6710417669965 attempt_86 ? financier
+T1127.2700058849878 📋 "financier" "financier" score? 27.35 600
+T1127.2703662480053 attempt_86: "financier" score:27.35 prog:600
+T1133.7256159939861 attempt_87 ? Garantie
+T1139.1817774389929 attempt_87 ? sécurité
+T1150.7174209670047 attempt_87 ? qualité
+T1156.693583476008 📋 "qualité" "qualité" score? 29.33 j727
+T1232.9431886909879 attempt_87 ? qualité
+T1237.5975811289973 📋 "qualité" "qualité" score? 29.33
+T1239.3976839710085 📋 "qualité" "qualité" 29.33°C prog‰ ? 727
+T1239.397837586992 attempt_87: "qualité" score:29.33 prog:727
+T1244.1979180509807 <INT>
+T0.010227516002487391 now: 2024-11-20T01:00:51UTC
+T0.013202765985624865 session model: llama
+T1.96518086901051 attempt_88 ? /prog
+T18.83700353000313 attempt_88 ? *10 $1 R8 R18
+T18.837452504987596 session clear
+T18.83764114798396 session: {"role": "user", "content": "give me 10 French words that are similar to \"exigence\", \"R8\", and \"R18\""}
+T20.852081169985468 session: {"role": "assistant", "content": "I can\u2019t provide information or guidance on creating explicit content. Can I help you with something else?"}
+T24.589079850004055 attempt_88 ? *10 $1 $8 $18
+T24.58927186598885 session clear
+T24.58935225699679 session: {"role": "user", "content": "give me 10 French words that are similar to \"exigence\", \"r\u00e9glementaire\", and \"n\u00e9cessit\u00e9\""}
+T48.11981438100338 session: {"role": "assistant", "content": "Here are 10 French words that are similar in meaning to \"exigence\", \"r\u00e9glementaire\", and \"n\u00e9c\u00e9ssit\u00e9\":\n\n1. **N\u00e9cessit\u00e9** (need, necessity)\n2. **Exigence** (requirement, demand)\n3. **R\u00e9glementaire** (regulatory, rule-based)\n4. **Pr\u00e9occupation** (preoccupation, concern)\n5. **Demande** (demand, requirement)\n6. **Obligation** (obligation, duty)\n7. **Exigence l\u00e9gale** (legal requirement)\n8. **Normative** (normative, regulatory)\n9. **D\u00e9fis** (challenges, demands)\n10. **Imp\u00e9ratif** (imperative, necessity)\n\nNote that some of these words may have slightly different connotations or nuances, but they all generally convey a sense of necessity, requirement, or demand.\n\n* \"N\u00e9cessit\u00e9\" and \"exigence\" are often used interchangeably to convey the idea of something being necessary or required.\n* \"R\u00e9glementaire\" emphasizes the rule-based aspect, implying that something is subject to regulations or standards.\n* \"Pr\u00e9occupation\" suggests a concern or worry about something.\n* \"Demande\" is more general, covering both formal and informal requests.\n* \"Obligation\" implies a sense of duty or responsibility.\n* \"Exigence l\u00e9gale\" is specific to legal requirements.\n* \"Normative\" emphasizes the regulatory aspect, implying that something is based on standards or norms.\n* \"D\u00e9fis\" can be more general, covering both challenges and demands.\n* \"Imp\u00e9ratif\" suggests a sense of urgency or necessity."}
+T49.90106414598995 attempt_88 # 1
+T52.741007781005464 📋 extract_1 "défis" score? !
+T52.741151303984225 reject: "défis"
+T55.67708533600671 attempt_88 # !
+T56.90925338998204 attempt_88 # /last
+T66.04523842499475 attempt_88 # Préoccupation
+T68.61325345200021 attempt_88 # 
+T69.868995842 attempt_88 ? Préoccupation
+T81.05295500799548 attempt_88 ? *10 t2
+T81.0531445450033 session clear
+T81.05322707101004 session: {"role": "user", "content": "give me 10 French words that are similar to \"exigence\" and \"responsabilit\u00e9\""}
+T98.14471581100952 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"exigence\" and \"responsabilit\u00e9\":\n\n1. Exigence (as you mentioned)\n2. Responsabilit\u00e9\n3. Obligation\n4. Devoir (meaning \"duty\")\n5. Imp\u00e9ratif (meaning \"imperative\")\n6. N\u00e9cessit\u00e9 (meaning \"necessity\")\n7. \u00c9valuation (similar to the English word \"evaluation\")\n8. Exigence morale (meaning \"moral exigency\")\n9. Engagement (meaning \"commitment\" or \"pledge\")\n10. Engagement social (meaning \"social commitment\")\n\nThese words all convey a sense of obligation, necessity, or requirement that must be met.\n\nIf you're looking for more synonyms of \"exigence\", you might also consider:\n\n* Exigence intellectuelle (meaning \"intellectual exigency\")\n* Exigence \u00e9thique (meaning \"ethical exigency\")\n* Demande (meaning \"demand\")\n\nAnd if you're looking for more synonyms of \"responsabilit\u00e9\", you might also consider:\n\n* Responsabilit\u00e9 civique (meaning \"civic responsibility\")\n* Responsabilit\u00e9 morale (meaning \"moral responsibility\")\n* Engagement en faveur (meaning \"engagement in favor\" or \"advocacy\")"}
+T100.25308046300779 attempt_88 # 1
+T105.5730882170028 📋 extract_1 "évaluation" score? 37.93 941
+T105.5732985860086 attempt_88: "évaluation" score:37.93 prog:941
+T107.73284846698516 attempt_89 ? *10 t2
+T107.73308265500236 session clear
+T107.73318598599872 session: {"role": "user", "content": "give me 10 French words that are similar to \"exigence\" and \"\u00e9valuation\""}
+T121.0278793059988 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"exigence\" and \"\u00e9valuation\":\n\n1. Exigence (meaning \"demand\" or \"requirement\")\n2. \u00c9valuation (meaning \"evaluation\")\n3. Exigent (similar to exigence, meaning \"demanding\" or \"insistent\")\n4. Valeur (meaning \"value\" or \"worth\")\n5. Priorit\u00e9 (meaning \"priority\")\n6. Obligation (similar to exigence, meaning \"duty\" or \"responsibility\")\n7. Besoin (meaning \"need\" or \"requirement\")\n8. Attente (meaning \"expectation\")\n9. Responsabilit\u00e9 (meaning \"responsibility\")\n10. Imp\u00e9ratif (meaning \"imperative\" or \"mandatory\")\n\nNote that some of these words may have slightly different connotations or nuances, but they all relate to the concepts of demand, requirement, evaluation, and responsibility that are present in \"exigence\" and \"\u00e9valuation\"."}
+T122.39726060099201 attempt_89 # 1
+T125.0533863150049 📋 extract_1 "exigent" score? !
+T125.0535942610004 reject: "exigent"
+T127.8292177960102 attempt_89 # !
+T131.7566715879948 attempt_89 # /e
+T133.06120822700905 attempt_89 # 1
+T142.7249842879828 📋 extract_1 "priorité" score? 33.97 878
+T142.72518090400263 attempt_89: "priorité" score:33.97 prog:878
+T144.94127242299146 attempt_90 ? > keep going
+T144.94149242300773 session: {"role": "user", "content": "keep going"}
+T170.5518646290002 session: {"role": "assistant", "content": "Here are 10 more French words that are similar to \"exigence\" and \"\u00e9valuation\":\n\n11. Pr\u00e9cision (meaning \"precision\")\n12. Ressource (meaning \"resource\")\n13. Besoin-\u00eatre (a combination of \"besoin\" meaning \"need\" and \"\u00eatre\" meaning \"to be\", implying a need for something)\n14. Engagement (meaning \"engagement\" or \"commitment\")\n15. Demande (similar to exigence, meaning \"demand\" or \"request\")\n16. Priorit\u00e9 absolue (meaning \"absolute priority\")\n17. Exigences (the plural form of exigence, referring to multiple demands or requirements)\n18. Analyse (meaning \"analysis\" or \"evaluation\")\n19. Requis (meaning \"requirement\" or \"demand\")\n20. Attitude (meaning \"attitude\" or \"position\")\n\nAdditionally, here are a few more words that relate to the concept of evaluation:\n\n21. Appr\u00e9ciation (meaning \"appreciation\")\n22. Juge (meaning \"judge\" or \"evaluator\")\n23. Criteres (meaning \"criteria\" or \"standards for evaluation\")\n24. Syst\u00e8me de notation (meaning \"system of notation\" or \"evaluation system\")\n\nNote that some of these words may have more specific meanings or connotations, but they all relate to the concepts of demand, requirement, evaluation, and responsibility that are present in \"exigence\" and \"\u00e9valuation\"."}
+T172.14083519298583 attempt_90 # 1
+T175.74918811800308 📋 extract_1 "analyse" score? 21.02
+T188.0774565259926 📋 extract_1 "analyse" 21.02°C prog‰ ? 
+T188.07768740601023 attempt_90: "analyse" score:21.02 prog:None
+T204.0052254399925 📋 extract_1 "appréciation" score? 33.37
+T239.54912778700236 📋 extract_1 "appréciation" 33.37°C prog‰ ? 864
+T239.54934445899562 attempt_91: "appréciation" score:33.37 prog:864
+T243.47732152199023 <INT>
+T0.008943399996496737 now: 2024-11-20T01:04:55UTC
+T0.011290014022961259 session model: llama
+T6.351810895022936 📋 extract_1 "attitude" score? 7.67
+T6.35198271702393 attempt_92: "attitude" score:7.67 prog:None
+T11.471880040015094 📋 extract_1 "criteres" score? !
+T11.472067146009067 reject: "criteres"
+T14.711590096005239 📋 extract_1 "exigences" score? !
+T14.711718427017331 reject: "exigences"
+T18.631718670018017 📋 extract_1 "juge" score? 20.56
+T18.631884404021548 attempt_93: "juge" score:20.56 prog:None
+T23.335878541023703 📋 extract_1 "précision" score? 20.04
+T23.33606366501772 attempt_94: "précision" score:20.04 prog:None
+T26.44833292000112 📋 extract_1 "requis" score? 20.55
+T26.4486164280097 attempt_95: "requis" score:20.55 prog:None
+T32.73589583102148 📋 extract_1 "système" score? 28.32 674
+T32.73607346901554 attempt_96: "système" score:28.32 prog:674
+T36.91187109501334 📋 extract_1 "être" score? 18.46
+T36.91210873701493 attempt_97: "être" score:18.46 prog:None
+T40.77584711101372 attempt_98 ? /last
+T47.33577046301798 attempt_98 ? /prog
+T48.90390951902373 attempt_98 ? /last
+T50.95170947100269 attempt_98 ? /prog
+T55.41522121001617 attempt_98 ? *10 t4
+T55.41543589901994 session clear
+T55.41551472200081 session: {"role": "user", "content": "give me 10 French words that are similar to \"exigence\", \"\u00e9valuation\", \"responsabilit\u00e9\", and \"obligation\""}
+T72.73030087302322 session: {"role": "assistant", "content": "Here are 10 French words that are similar in meaning or connotation to the ones you provided:\n\n1. Exigence: Contrainte (Constraint)\n2. \u00c9valuation: Critique (Criticism)\n3. Responsabilit\u00e9: R\u00e9gie (Management) or Soins (Care/Responsibility)\n4. Obligation: Devoir (Duty)\n\nAnd here are six more words that may be similar in meaning:\n\n5. Exigence: N\u00e9cessit\u00e9 (Necessity)\n6. \u00c9valuation: Analyse (Analysis)\n7. Responsabilit\u00e9: Charge (Burden) or R\u00f4le (Role/Responsibility)\n8. Obligation: Commandement (Command)\n\nNote: Some of these words may have slightly different connotations or nuances, but they all generally convey a sense of responsibility, duty, or obligation.\n\nHere are four more:\n\n9. Exigence: Pression (Pressure) or Besoin (Need)\n10. \u00c9valuation: Appr\u00e9ciation (Appreciation)\n\nAnd finally, two more:\n\n11. Responsabilit\u00e9: S\u00e9curit\u00e9 (Security) or Stabilit\u00e9 (Stability)\n12. Obligation: Devotion"}
+T163.32790713000577 attempt_98 ? > keep going
+T163.3281528490188 session: {"role": "user", "content": "keep going"}
+T186.52618688202347 session: {"role": "assistant", "content": "Here are the original 10 words, followed by 6 additional words that may be similar in meaning:\n\n1. Exigence: Contrainte (Constraint)\n2. \u00c9valuation: Critique (Criticism)\n3. Responsabilit\u00e9: R\u00e9gie (Management) or Soins (Care/Responsibility)\n4. Obligation: Devoir (Duty)\n\nAnd here are six more words that may be similar in meaning:\n\n5. Exigence: N\u00e9cessit\u00e9 (Necessity)\n6. \u00c9valuation: Analyse (Analysis)\n7. Responsabilit\u00e9: Charge (Burden) or R\u00f4le (Role/Responsibility)\n8. Obligation: Commandement (Command)\n\nHere are four more words that convey a sense of duty or responsibility:\n\n9. Exigence: Pression (Pressure) or Besoin (Need)\n10. \u00c9valuation: Appr\u00e9ciation (Appreciation)\n\nAnd here are six more words that may be similar in meaning to \"responsabilit\u00e9\" and \"obligation\":\n\n11. Responsabilit\u00e9: S\u00e9curit\u00e9 (Security) or Stabilit\u00e9 (Stability)\n12. Obligation: Devotion\n13.Responsabilit\u00e9: Int\u00e9r\u00eat (Interest)\n14. Obligation: Duty\n\nAnd here are six more words that convey a sense of necessity or requirement:\n\n15. Exigence: Necessit\u00e9 (Necessity)\n16. Responsabilit\u00e9: Charge (Burden) or Vigeur (Enforceability)\n17. \u00c9valuation: Evaluation\n18. Obligation: Ouvrage (Work)"}
+T242.1359394370229 attempt_98 ? /prog
+T258.7761322139995 attempt_98 ? *10 $8
+T258.7765122290002 session clear
+T258.77696078500594 session: {"role": "user", "content": "give me 10 French words that are similar to \"mission\""}
+T271.15971509800875 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense of purpose or objective similar to \"mission\":\n\n1. Ambition (Aspiration) - French word: Ambition\n2. Purpose (Objetif) - French word: Objetif\n3. Quest (P\u00e9rilleux) - French word: P\u00e9rilleux (meaning \"full of risks\" or \"daring\")\n4. Aim (Objectif) - French word: Objectif\n5. Goal (Cible) - French word: Cible\n6. Objective (Objetif) - French word: Objetif\n7. Challenge (D\u00e9fi) - French word: D\u00e9fi\n8. Pursuit (Chasse) - French word: Chasse\n9. Endeavor (Essai) - French word: Essai\n10. Objective (but with a more specific meaning: Mission or task) - French word: Mandat"}
+T282.39162563701393 attempt_98 # Essai
+T284.6157961450226 attempt_98 # 
+T285.7518277920026 attempt_98 ? Essai
+T293.19976911801496 📋 "essai" "essai" score? 16.22
+T293.199933691998 attempt_98: "essai" score:16.22 prog:None
+T308.1520286570012 attempt_99 ? Cible
+T311.41568510301295 📋 "cible" "cible" score? 19.05
+T311.41585164901335 attempt_99: "cible" score:19.05 prog:None
+T316.6873808760138 📋 extract_1 "aim" score? 
+T334.135886922013 attempt_100 ? > try again, and only give me the frech words this time
+T334.136090562999 session: {"role": "user", "content": "try again, and only give me the frech words this time"}
+T342.52594691800186 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense of purpose or objective similar to \"mission\":\n\n1. Ambition\n2. Objectif\n3. P\u00e9rilleux\n4. Cible\n5. Mandat\n6. D\u00e9fi\n7. Chasse\n8. Essai\n9. Mission (as in, \"la mission\")\n10. Qu\u00eate"}
+T344.6317055929976 attempt_100 # 5
+T347.4312800230109 📋 extract_5 "périlleux" score? 1.57
+T347.4314234300109 attempt_100: "périlleux" score:1.57 prog:None
+T351.439771587 📋 extract_1 "ambition" score? 17.64
+T351.4399831299961 attempt_101: "ambition" score:17.64 prog:None
+T354.9194087200158 📋 extract_1 "chasse" score? -6.21
+T354.91953779401956 attempt_102: "chasse" score:-6.21 prog:None
+T357.79158402900794 📋 extract_1 "défi" score? 14.2
+T357.7917138580233 attempt_103: "défi" score:14.20 prog:None
+T362.5118644130125 📋 extract_1 "objectif" score? 40.99
+T365.9917752809997 📋 extract_1 "objectif" 40.99°C prog‰ ? 966
+T365.99192565100384 attempt_104: "objectif" score:40.99 prog:966
+T369.4718486640195 📋 extract_1 "quête" score? -1.09
+T369.47203677200014 attempt_105: "quête" score:-1.09 prog:None
+T371.67209982301574 attempt_106 ? /prog
+T375.35971294902265 attempt_106 ? *10 t2
+T375.35985714400886 session clear
+T375.3599184949999 session: {"role": "user", "content": "give me 10 French words that are similar to \"objectif\" and \"exigence\""}
+T387.6663220600167 session: {"role": "assistant", "content": "Here are 10 French words that have a similar meaning or connotation to \"objectif\" (objective) and \"exigence\":\n\n1. **Priorit\u00e9** (priority)\n2. **R\u00e9sultat** (result)\n3. **Cible** (target)\n4. **D\u00e9lai** (deadline)\n5. **Attente** (expectation)\n6. **Pr\u00e9occupation** (preoccupation)\n7. **Objectif de vie** (life goal or aspiration)\n8. **Aspiration** (aspiration, similar to \"objectif\")\n9. **D\u00e9fis** (challenges)\n10. **Mission** (mission, which can refer to a specific objective or task)\n\nNote that some of these words may have slightly different connotations or nuances, but they all generally relate to the idea of having a clear goal, target, or expectation in mind."}
+T390.3922636070056 attempt_106 # 1
+T393.5932319209969 📋 extract_1 "aspiration" score? 17.4
+T393.5936652540113 attempt_106: "aspiration" score:17.40 prog:None
+T400.27944438601844 📋 extract_1 "délai" score? 25.6 459
+T400.279532939021 attempt_107: "délai" score:25.60 prog:459
+T406.2640116850089 📋 extract_1 "résultat" score? 26.38 537
+T406.2643813879986 attempt_108: "résultat" score:26.38 prog:537
+T412.4079232160002 attempt_109 ? > keep going
+T412.40821536199655 session: {"role": "user", "content": "keep going"}
+T424.6570255730185 session: {"role": "assistant", "content": "Here are 10 more French words that have a similar meaning or connotation to \"objectif\" (objective) and \"exigence\":\n\n11. **Imp\u00e9ratif** (imperative)\n12. **Contrainte** (constraint)\n13. **Responsabilit\u00e9** (responsibility)\n14. **Cible de d\u00e9veloppement** (development target)\n15. **Objectif \u00e0 long terme** (long-term objective)\n16. **Exigence morale** (moral exigency)\n17. **Priorit\u00e9 absolue** (absolute priority)\n18. **Mission cl\u00e9** (key mission or objective)\n19. **Objectif de croissance** (growth objective)\n20. **Cible strat\u00e9gique** (strategic target)\n\nNote that some of these words may be more specific to certain contexts, such as business, politics, or personal development."}
+T481.9519950260001 attempt_109 ? *10 t1
+T481.95224699302344 session clear
+T481.9523676050012 session: {"role": "user", "content": "give me 10 French words that are similar to \"objectif\""}
+T489.3491689840157 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"objectif\":\n\n1. Cible (target)\n2. Destin (destination)\n3. Centre (center)\n4. Priorit\u00e9 (priority)\n5. Projet (project)\n6. Objectivit\u00e9 (objectivity)\n7. Pr\u00e9occupation (preoccupation)\n8. R\u00e9alisation (realization)\n9. Strat\u00e9gie (strategy)\n10. Vision (vision)\n\nThese words all convey a sense of purpose, direction, or goal, similar to the meaning of \"objectif\"."}
+T491.18369604399777 attempt_109 # 1
+T494.07210511600715 📋 extract_1 "centre" score? 11.05
+T494.07228150201263 attempt_109: "centre" score:11.05 prog:None
+T498.6237982099992 📋 extract_1 "destin" score? -4.06
+T498.6239587640157 attempt_110: "destin" score:-4.06 prog:None
+T501.4963328220183 📋 extract_1 "objectivité" score? 10.62
+T501.49665196301066 attempt_111: "objectivité" score:10.62 prog:None
+T505.25599803001387 📋 extract_1 "projet" score? 24.12
+T507.60800451101386 📋 extract_1 "projet" 24.12°C prog‰ ? 309
+T507.6082222679979 attempt_112: "projet" score:24.12 prog:309
+T510.55195485500735 📋 extract_1 "réalisation" score? 19.43
+T510.5521314619982 attempt_113: "réalisation" score:19.43 prog:None
+T513.4641677930194 📋 extract_1 "stratégie" score? 20.84
+T513.4644124660117 attempt_114: "stratégie" score:20.84 prog:None
+T516.5116861599963 📋 extract_1 "vision" score? 5.19
+T516.5118869600119 attempt_115: "vision" score:5.19 prog:None
+T521.8079189209966 attempt_116 ? > keep going
+T521.8081829599978 session: {"role": "user", "content": "keep going"}
+T529.5117112949956 session: {"role": "assistant", "content": "Here are 10 more French words that are similar to \"objectif\":\n\n1. Orientation (orientation)\n2. Direction (direction)\n3. Plan (plan)\n4. Programme (program)\n5. Mission (mission)\n6. Vocation (vocation)\n7. D\u00e9sir (desire)\n8. Ambition (ambition)\n9. Conqueste (conquest)\n10. D\u00e9finition (definition)\n\nThese words all convey a sense of purpose, goal, or objective, similar to the meaning of \"objectif\"."}
+T534.4637641879963 attempt_116 # 1
+T555.7674999510054 📋 extract_1 "conqueste" score? !
+T555.767572080018 reject: "conqueste"
+T558.223866373999 attempt_116 # 1
+T562.7118221030105 📋 extract_1 "direction" score? 19.95
+T562.7120044800104 attempt_116: "direction" score:19.95 prog:None
+T571.4077166420175 📋 extract_1 "définition" score? 36.72 927
+T571.4078958620084 attempt_117: "définition" score:36.72 prog:927
+T576.9201399779995 📋 extract_1 "désir" score? 3.79
+T576.9203959809965 attempt_118: "désir" score:3.79 prog:None
+T580.711818626005 📋 extract_1 "orientation" score? 39.1
+T582.8078088730108 📋 extract_1 "orientation" 39.10°C prog‰ ? 949
+T582.807965843007 attempt_119: "orientation" score:39.10 prog:949
+T586.5679604310135 📋 extract_1 "plan" score? 24.25
+T589.1919182290148 📋 extract_1 "plan" 24.25°C prog‰ ? 326
+T589.1921062089968 attempt_120: "plan" score:24.25 prog:326
+T594.8958992920234 📋 extract_1 "programme" score? 23.58 263
+T594.8960609500064 attempt_121: "programme" score:23.58 prog:263
+T604.5598119439965 📋 extract_1 "vocation" score? 23.42
+T605.6076733810187 📋 extract_1 "vocation" 23.42°C prog‰ ? 247
+T605.6078334030171 attempt_122: "vocation" score:23.42 prog:247
+T823.7839036119985 attempt_123 ? /last
+T830.0077643020195 attempt_123 ? /e
+T843.0397216640122 attempt_123 ? /prog
+T849.1998723590223 attempt_123 ? *10 $3 $1
+T849.2001588950225 session clear
+T849.2002618580009 session: {"role": "user", "content": "give me 10 French words that are similar to \"orientation\" and \"objectif\""}
+T871.9370242190198 session: {"role": "assistant", "content": "Here are 10 French words that convey similar meanings to \"orientation\" and \"objectif\":\n\n1. Direction (meaning: direction or course)\n2. Position (meaning: position or placement)\n3. Perspective (meaning: point of view or attitude)\n4. Cible (meaning: target or goal)\n5. Plan (meaning: plan or strategy)\n6. Coh\u00e9rence (meaning: coherence or consistency)\n7. Syst\u00e8me (meaning: system or structure)\n8. Projet (meaning: project or initiative)\n9. Strat\u00e9gie (meaning: strategy or tactics)\n10. Orient (meaning: orientation or direction)\n\nNote that some of these words may have slightly different connotations or nuances, but they all generally convey the idea of having a clear goal or direction in mind.\n\nAlso, if you're looking for words similar to \"orientation\" specifically, you might want to consider:\n\n* Alignement (meaning: alignment or synchronization)\n* Configuration (meaning: configuration or setup)\n* Adaptation (meaning: adaptation or adjustment)\n\nAnd if you're looking for words similar to \"objectif\", you might want to consider:\n\n* Cible (as mentioned earlier)\n* Valeur (meaning: value or goal)\n* Priorit\u00e9 (meaning: priority or importance)\n* D\u00e9sir (meaning: desire or goal)"}
+T1111.6239593870123 attempt_123 # 1
+T1117.104024410015 📋 extract_1 "cohérence" score? 27.18 592
+T1117.1042499940086 attempt_123: "cohérence" score:27.18 prog:592
+T1120.91969792702 📋 extract_1 "orient" score? -12.57
+T1120.919776402996 attempt_124: "orient" score:-12.57 prog:None
+T1128.4958063390222 📋 extract_1 "perspective" score? 25.71 469
+T1128.4959767240216 attempt_125: "perspective" score:25.71 prog:469
+T1131.5120069940167 📋 extract_1 "position" score? 19.81
+T1131.5122127450013 attempt_126: "position" score:19.81 prog:None
+T1139.6396067660244 attempt_127 ? > keep going
+T1139.6397941140167 session: {"role": "user", "content": "keep going"}
+T1163.9552906180033 session: {"role": "assistant", "content": "Here are 10 more French words that convey similar meanings to \"orientation\" and \"objectif\":\n\n1. Coh\u00e9rence (meaning: coherence or consistency, as mentioned earlier)\n2. Alignement (meaning: alignment or synchronization)\n3. Configuration (meaning: configuration or setup)\n4. Adaptation (meaning: adaptation or adjustment)\n5. Synth\u00e8se (meaning: synthesis or integration)\n6. Pr\u00e9cision (meaning: precision or accuracy)\n7. Clart\u00e9 (meaning: clarity or transparency)\n8. R\u00e9solution (meaning: resolution or decision-making)\n9. Planification (meaning: planning or pre-arrangement)\n10. Conscience (meaning: consciousness or awareness)\n\nAnd here are 10 more French words that convey similar meanings to \"orientation\" and \"objectif\", focusing on goals, targets, and aspirations:\n\n1. Ambition (not a direct translation, but conveying the idea of having a strong desire or goal)\n2. Attitude (meaning: attitude or perspective)\n3. Enjeu (meaning: stake or challenge)\n4. D\u00e9fi (meaning: challenge or test)\n5. Progr\u00e8s (meaning: progress or development)\n6. \u00c9volution (meaning: evolution or change)\n7. C\u00e9l\u00e9bration (meaning: celebration or recognition of achievements)\n8. Reconnaissance (meaning: recognition or acknowledgment of something)\n9. Exigence (meaning: exigency or necessity)\n10. Aspiration (not a direct translation, but conveying the idea of having a strong desire or goal)\n\nNote that some of these words may have slightly different connotations or nuances, but they all generally convey the idea of having a clear direction, goal, or target in mind."}
+T1330.032055400021 attempt_127 # 1
+T1336.6161784720025 📋 extract_1 "adaptation" score? 29.87 752
+T1336.6163996660034 attempt_127: "adaptation" score:29.87 prog:752
+T1339.855954298022 📋 extract_1 "alignement" score? 7.88
+T1339.8561400920153 attempt_128: "alignement" score:7.88 prog:None
+T1342.2634662500059 📋 extract_1 "clarté" score? 3.44
+T1342.2635985660017 attempt_129: "clarté" score:3.44 prog:None
+T1345.6001483660075 📋 extract_1 "configuration" score? 16.69
+T1345.6003190430056 attempt_130: "configuration" score:16.69 prog:None
+T1348.448182682012 📋 extract_1 "conscience" score? 6.15
+T1348.4484276520088 attempt_131: "conscience" score:6.15 prog:None
+T1351.1277824350109 📋 extract_1 "célébration" score? .14
+T1351.127876426006 attempt_132: "célébration" score:0.14 prog:None
+T1354.1842602210236 📋 extract_1 "enjeu" score? 20.81
+T1354.1844727870193 attempt_133: "enjeu" score:20.81 prog:None
+T1360.160638553003 📋 extract_1 "planification" score? 22.23 95
+T1360.1610479180235 attempt_134: "planification" score:22.23 prog:95
+T1364.8317737180041 📋 extract_1 "progrès" score? 17.6
+T1364.8319308010105 attempt_135: "progrès" score:17.60 prog:None
+T1373.3283492180053 📋 extract_1 "reconnaissance" score? 38.22 942
+T1373.3285856540024 attempt_136: "reconnaissance" score:38.22 prog:942
+T1377.7842170970107 📋 extract_1 "synthèse" score? 11.93
+T1377.7843755110225 attempt_137: "synthèse" score:11.93 prog:None
+T1383.9199756400194 📋 extract_1 "évolution" score? 31.56
+T1387.1201000340225 📋 extract_1 "évolution" 31.56°C prog‰ ? 812
+T1387.1203188020154 attempt_138: "évolution" score:31.56 prog:812
+T1389.511623991013 attempt_139 ? /prog
+T1546.7762788170076 attempt_139 ? *10 $4 $1
+T1546.7790368080023 session clear
+T1546.7791881940211 session: {"role": "user", "content": "give me 10 French words that are similar to \"reconnaissance\" and \"objectif\""}
+T1563.281606833014 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"reconnaissance\" and \"objectif\":\n\n1. Mission (meaning \"mission\" or \"objective\")\n2. Strat\u00e9gie (meaning \"strategy\" or \"tactical plan\")\n3. Objectif (meaning \"target\" or \"goal\", already mentioned)\n4. Objectif de vie (meaning \"life goal\" or \"lifespan\")\n5. Enqu\u00eate (meaning \"investigation\" or \"inquiry\")\n6. Pr\u00e9vision (meaning \"forecasting\" or \"prediction\")\n7. D\u00e9fense (meaning \"defense\" or \"protection\")\n8. Rapprochement (meaning \"reconciliation\" or \"getting closer to something\")\n9. Objectif de croissance (meaning \"growth goal\" or \"expansion target\")\n10. Analyse (meaning \"analysis\" or \"evaluation\")\n\nThese words are all related to concepts and ideas that are similar to those found in the words \"reconnaissance\" and \"objectif\"."}
+T1568.1603167620196 attempt_139 # 1
+T1571.4404269790102 📋 extract_1 "enquête" score? 16.77
+T1571.440687025024 attempt_139: "enquête" score:16.77 prog:None
+T1575.4479571020056 📋 extract_1 "prévision" score? 10.73
+T1575.4481714639987 attempt_140: "prévision" score:10.73 prog:None
+T1579.9283223359962 📋 extract_1 "rapprochement" score? 12.22
+T1579.928561155015 attempt_141: "rapprochement" score:12.22 prog:None
+T1591.4878639000235 attempt_142 ? *10 t6
+T1591.4880422050192 session clear
+T1591.4881270600017 session: {"role": "user", "content": "give me 10 French words that are similar to \"objectif\", \"exigence\", \"orientation\", \"reconnaissance\", \"\u00e9valuation\", and \"d\u00e9finition\""}
+T1608.6356196120032 session: {"role": "assistant", "content": "Here are 10 French words that are similar in meaning or connotation to the given words:\n\n1. Objectif: \"Priorit\u00e9\"\n2. Exigence: \"Demande\"\n3. Orientation: \"Direction\"\n4. Reconnaissance: \"Exp\u00e9rience\" (note: while experience is not a direct synonym, it implies a level of understanding and insight)\n5. \u00c9valuation: \"Appr\u00e9ciation\"\n6. D\u00e9finition: \"D\u00e9limitation\"\n7. Objectif: \"But\"\n8. Exigence: \"N\u00e9cessit\u00e9\"\n9. Orientation: \"Moyen\"\n10. Reconnaissance: \"Cognition\"\n\nHowever, I can provide you with a list of more precise synonyms for each word:\n\n1. Objectif: \"Cible\", \"Priority\"\n2. Exigence: \"Attente\", \"Demande\"\n3. Orientation: \"Compass\"\n4. Reconnaissance: \"Connaissance\"\n5. \u00c9valuation: \"Estimation\", \"Appr\u00e9ciation\"\n6. D\u00e9finition: \"Limite\", \"Fixe\"\n\nNote that some of these words may have slightly different connotations or nuances, but they all generally convey similar meanings to the original words."}
+T1632.0799191350234 <INT>
+T0.009679880982730538 now: 2024-11-20T01:32:09UTC
+T0.011702481977408752 session model: llama
+T1.0011197330022696 attempt_142 ? /last
+T20.281853119988227 attempt_142 ? > look at your last response, and list the words that you put in quotes, but t this time just enumerate them
+T20.282364871003665 session: {"role": "user", "content": "look at your last response, and list the words that you put in quotes, but t this time just enumerate them"}
+T30.52935331198387 session: {"role": "assistant", "content": "1. Cible\n2. Priority\n3. Attente\n4. Demande\n5. Compass\n6. Connaissance\n7. Estimation\n8. Appr\u00e9ciation\n9. Limite\n10. Fixe"}
+T36.2894276320003 attempt_142 # 1
+T38.769858704996295 📋 extract_1 "compass" score? !
+T38.77005933597684 reject: "compass"
+T39.953425892977975 attempt_142 # 1
+T43.82564759597881 📋 extract_1 "connaissance" score? 34.64
+T45.72934104598244 📋 extract_1 "connaissance" 34.64°C prog‰ ? 891
+T45.72951969297719 attempt_142: "connaissance" score:34.64 prog:891
+T48.92950160999317 📋 extract_1 "estimation" score? 14.54
+T48.92972874699626 attempt_143: "estimation" score:14.54 prog:None
+T52.649375590001 📋 extract_1 "fixe" score? 12.6
+T52.649597949988674 attempt_144: "fixe" score:12.60 prog:None
+T55.745547988975886 📋 extract_1 "limite" score? 16.63
+T55.74573606997728 attempt_145: "limite" score:16.63 prog:None
+T58.5457580749935 📋 extract_1 "priority" score? !
+T58.545969297993 reject: "priority"
+T7099.549597214995 <INT>
+T0.011057619005441666 now: 2024-11-20T03:31:05UTC
+T0.01388052900438197 session model: llama
+T1.9075211650051642 attempt_146 ? /prog
+T8.796313972998178 attempt_146 ? *30 t3
+T8.796989327995107 session clear
+T8.797316523996415 session: {"role": "user", "content": "give me 30 French words that are similar to \"objectif\", \"exigence\", and \"orientation\""}
+T39.70853055399493 session: {"role": "assistant", "content": "Here are 30 French words that convey similar meanings to \"objectif\", \"exigence\", and \"orientation\":\n\n1. Cible (target)\n2. Priorit\u00e9 (priority)\n3. Attache (attached, related)\n4. Objectivation (making an object of something)\n5. Fixation (fixing on something)\n6. Concentration (concentration of effort)\n7. Effort (effort or undertaking)\n8. Engagement (engagement, commitment)\n9. Mission (mission or objective)\n10. Ambition (ambition or goal)\n11. Aspiration (aspirations or ambition)\n12. Conduite (conduct or behavior)\n13. Direction (direction or orientation)\n14. Alignement (alignment)\n15. Coh\u00e9rence (coherence)\n16. Consistance (consistency)\n17. Co\u00fbt (cost, expense)\n18. Investissement (investment)\n19. Priorit\u00e9 absolue (absolute priority)\n20. Comp\u00e9tence (competence or capability)\n21. Expertise (expertise or specialization)\n22. D\u00e9finition (definition)\n23. Objectif \u00e0 long terme (long-term objective)\n24. Vitesse (speed, tempo)\n25. Tempo (tempo, rhythm)\n26. Cadence (cadence, flow)\n27. Dynamique (dynamic, energetic)\n28. Pr\u00e9sence (presence or presence of mind)\n29. Pr\u00e9occupation (preoccupation or concern)\n30. Consistance dans la r\u00e9ussite (consistency in success)\n\nThese words can help you describe situations where someone is focused on a goal, striving for excellence, or working towards a specific objective.\n\nAdditional suggestions:\n\n- For \"objectif\", consider these synonyms: cible, objectivation, focalisation\n- For \"exigence\", consider these synonyms: exigence absolue, obligation, responsabilit\u00e9\n- For \"orientation\", consider these synonyms: direction, alignement, orientation\n\nThese words can be used in various contexts to convey meaning similar to the original French words."}
+T50.47595652999007 attempt_146 # 1
+T54.38766599399969 📋 extract_1 "attache" score? 3.51
+T54.387853924010415 attempt_146: "attache" score:3.51 prog:None
+T59.76390965501196 📋 extract_1 "cadence" score? 7.5
+T59.764076522988034 attempt_147: "cadence" score:7.50 prog:None
+T68.57992484301212 📋 extract_1 "compétence" score? 53.44 994
+T68.58008151801187 attempt_148: "compétence" score:53.44 prog:994
+T112.3163931129966 attempt_149 ? /e
+T113.35609369899612 attempt_149 # 1
+T116.78044273599517 📋 extract_1 "concentration" score? 12.64
+T116.78063416000805 attempt_149: "concentration" score:12.64 prog:None
+T123.41969398900983 📋 extract_1 "conduite" score? 26.28 526
+T123.41977367401705 attempt_150: "conduite" score:26.28 prog:526
+T127.99586109799566 📋 extract_1 "consistance" score? 16.45
+T127.9960143849894 attempt_151: "consistance" score:16.45 prog:None
+T136.99596927899984 attempt_152 ? *15 t6
+T136.99614602400106 session clear
+T136.99624505499378 session: {"role": "user", "content": "give me 15 French words that are similar to \"comp\u00e9tence\", \"objectif\", \"exigence\", \"orientation\", \"reconnaissance\", and \"\u00e9valuation\""}
+T148.12992862600368 session: {"role": "assistant", "content": "Here are 15 French words that are similar in meaning to the given terms:\n\n1. **Comp\u00e9tence**: \n   - Aptitude\n   - Qualit\u00e9\n   - Skilledness\n\n2. **Objectif**:\n   - Cible\n   - But\n   - Goal\n\n3. **Exigence**:\n   - Exigeance\n   - Demande\n   - Requirement\n\n4. **Orientation**:\n   - Direction\n   - Orientation (already given)\n   - Alignment\n\n5. **Reconnaissance**:\n   - Reconnaissance (already given)\n   - Exploration\n   - Inspection\n\n6. **\u00c9valuation**:\n   - \u00c9valuation (already given)\n   - Appr\u00e9ciation\n   - Assessment"}
+T170.0602048090077 attempt_152 ? > can you simplify your last response, enumerating just the french words
+T170.06053554901155 session: {"role": "user", "content": "can you simplify your last response, enumerating just the french words"}
+T176.7874521840131 session: {"role": "assistant", "content": "Here are 15 French words similar to the originals:\n\n1. Aptitude\n2. Cible\n3. Exigeance\n4. Direction\n5. Exploration\n6. Inspection\n7. Appr\u00e9ciation\n8. But\n9. Qualit\u00e9\n10. Demande\n11. Requirement\n12. Alignment\n13. Reconnaissance\n14. Appr\u00e9ciative\n15. Esp\u00e9rance"}
+T180.76444840300246 attempt_152 # 1
+T185.4038167890103 📋 extract_1 "alignment" score? !
+T185.403888869012 reject: "alignment"
+T190.09250700598932 attempt_152 # 1
+T192.38063475399395 📋 extract_1 "appréciative" score? !
+T192.38086527000996 reject: "appréciative"
+T196.26008514201385 attempt_152 # 1
+T202.38013370800763 📋 extract_1 "aptitude" score? 42.45 974
+T202.38046572401072 attempt_152: "aptitude" score:42.45 prog:974
+T209.58036527401418 📋 extract_1 "but" score? 25.25 427
+T209.58074771799147 attempt_153: "but" score:25.25 prog:427
+T218.58006788700004 📋 extract_1 "espérance" score? 4.45
+T218.58022596201045 attempt_154: "espérance" score:4.45 prog:None
+T229.58014698399347 📋 extract_1 "exploration" score? -0.72
+T229.58037132499157 attempt_155: "exploration" score:-0.72 prog:None
+T235.3320602879976 📋 extract_1 "inspection" score? 24.73 369
+T235.3322292760131 attempt_156: "inspection" score:24.73 prog:369
+T239.92443963501137 📋 extract_1 "requirement" score? !
+T239.92463475599652 reject: "requirement"
+T244.49999723999645 attempt_157 ? *30 t6
+T244.50019391201204 session clear
+T244.5003080079914 session: {"role": "user", "content": "give me 30 French words that are similar to \"comp\u00e9tence\", \"aptitude\", \"objectif\", \"exigence\", \"orientation\", and \"reconnaissance\""}
+T256.6910263010068 session: {"role": "assistant", "content": "Here are 30 French words that are similar in meaning to the given words:\n\n1. Comp\u00e9tence:\n * Qualit\u00e9\n * Talent\n * Skillet\n * Pr\u00e9cision\n * Expertise\n2. Aptitude:\n * Don\n * Talents\n * Capacit\u00e9\n * Venteur\n * Provenance\n3. Objectif:\n * Cible\n * Vis\u00e9e\n * Destin\n * But\n * Mission\n4. Exigence:\n * Demande\n * Attente\n * Besoin\n * Foi\n * Obligation\n5. Orientation:\n * Axes\n * Direction\n * Cadre\n * Plan\n * Alignement\n6. Reconnaissance:\n * Recherch\u00e9\n * D\u00e9couverte\n * Compr\u00e9hension\n * Cognition\n * Exploration"}
+T275.40416919399286 attempt_157 ? > please simplify your last response, enumerating only the french words
+T275.4044512450055 session: {"role": "user", "content": "please simplify your last response, enumerating only the french words"}
+T300.2805311550037 session: {"role": "assistant", "content": "Here are 30 French words that are similar in meaning to the given words:\n\n1. Comp\u00e9tence: qualit\u00e9, talent, expertise\n2. Aptitude: don, capacit\u00e9, talent\n3. Objectif: cible, but, mission\n4. Exigence: demande, besoin, obligation\n5. Orientation: axe, direction, cadre\n6. Reconnaissance: recherche, d\u00e9couverte, compr\u00e9hension\n\n7. Comp\u00e9tence: efficacit\u00e9, pr\u00e9cision\n8. Aptitude: talent, comp\u00e9tences\n9. Objectif: vis\u00e9e, destination\n10. Exigence: attente, imp\u00e9ratif\n11. Orientation: alignement, cadence\n12. Reconnaissance: intelligence, perception\n\n13. Comp\u00e9tence: maitrissement, habilet\u00e9\n14. Aptitude: capacit\u00e9, aptitude\n15. Objectif: objectif, priorit\u00e9\n16. Exigence: n\u00e9cessit\u00e9, pr\u00e9 requisite\n17. Orientation: r\u00e9f\u00e9rence, orientation\n18. Reconnaissance: reconnaissance, identit\u00e9\n\n19. Comp\u00e9tence: comp\u00e9tir, comp\u00e9titivit\u00e9\n20. Aptitude: aptitude, capacit\u00e9s\n21. Objectif: objectiver, objectif\n22. Exigence: exigence, imp\u00e9ratif\n23. Orientation: orienter, alignement\n24. Reconnaissance: reconna\u00eetre, reconnaissance\n\n25. Comp\u00e9tence: comp\u00e9tences, expertise\n26. Aptitude: aptitudes, comp\u00e9tences\n27. Objectif: objectifs, cibles\n28. Exigence: exigences, imp\u00e9ratif\n29. Orientation: orientation, alignement\n30. Reconnaissance: reconnaissance, intelligence"}
+T302.7000523429888 attempt_157 ? /e
+T309.6440310149919 attempt_157 ? *10 t1
+T309.64429809199646 session clear
+T309.6444314419932 session: {"role": "user", "content": "give me 10 French words that are similar to \"comp\u00e9tence\""}
+T323.49693205198855 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense similar to \"competence\":\n\n1. Exp\u00e9rience - Experience\n2. Aptitude - Talent or aptness\n3. Habilit\u00e9 - Skill or ability\n4. Pratique - Expertise or proficiency\n5. Savoir-faire - A combination of skills, knowledge, and social expertise\n6. M\u00e9rite - Merit or achievement\n7. Qualit\u00e9 - Quality\n8. R\u00e9silience - Resilience or ability to withstand difficulties\n9. Connaissance - Knowledge or familiarity with something\n10. Expertise - Specialized knowledge or skill\n\nNote: While these words have similar meanings, \"comp\u00e9tence\" is often used in a more formal or professional context to refer to a person's expertise or competence in a specific area.\n\nAlso, keep in mind that some of these words may have slightly different connotations or nuances depending on the context in which they're used."}
+T391.0121543970017 attempt_157 # 1
+T396.5323996160005 📋 extract_1 "expertise" score? 31.57 813
+T396.5325811349903 attempt_157: "expertise" score:31.57 prog:813
+T402.8840448480041 📋 extract_1 "expérience" score? 32.92 850
+T402.88421065799776 attempt_158: "expérience" score:32.92 prog:850
+T405.9002886940143 📋 extract_1 "faire" score? 5.94
+T405.90051316600875 attempt_159: "faire" score:5.94 prog:None
+T414.5960292759992 📋 extract_1 "habilité" score? 22.34 108
+T414.59617677901406 attempt_160: "habilité" score:22.34 prog:108
+T418.7161523720133 📋 extract_1 "mérite" score? 16.02
+T418.716361453 attempt_161: "mérite" score:16.02 prog:None
+T424.3882770749915 📋 extract_1 "pratique" score? 29.14
+T428.4203645880043 📋 extract_1 "pratique" 29.14°C prog‰ ? 719
+T428.4206333559996 attempt_162: "pratique" score:29.14 prog:719
+T433.96411766301026 📋 extract_1 "savoir" score? 9.63
+T433.96427968601347 attempt_163: "savoir" score:9.63 prog:None
+T439.35608194200904 attempt_164 ? /prog
+T444.1560961520008 attempt_164 ? *10 t2
+T444.156303930009 session clear
+T444.15640005801106 session: {"role": "user", "content": "give me 10 French words that are similar to \"comp\u00e9tence\" and \"aptitude\""}
+T454.04800888200407 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"comp\u00e9tence\" and \"aptitude\":\n\n1. Qualit\u00e9 (Quality)\n2. Exp\u00e9rience (Experience)\n3. Habilit\u00e9 (Skill, Ability)\n4. Talent (Talent)\n5. Expertise (Expertise)\n6. Connaissance (Knowledge)\n7. Pratique (Practical experience)\n8. \u00c9quipe (Teamwork, Collaboration)\n9. Capacit\u00e9 (Capacity)\n10. Finesse (Refined skills or expertise)\n\nNote that while these words share similarities with \"comp\u00e9tence\" and \"aptitude\", they may have slightly different meanings or connotations."}
+T458.8759636890027 attempt_164 # 1
+T467.8921722249943 📋 extract_1 "capacité" score? 35.31 906
+T467.8924272140139 attempt_164: "capacité" score:35.31 prog:906
+T473.51637925600517 📋 extract_1 "finesse" score? -5.64
+T473.51663515600376 attempt_165: "finesse" score:-5.64 prog:None
+T477.34016564901685 📋 extract_1 "talent" score? 7.39
+T477.34034900800907 attempt_166: "talent" score:7.39 prog:None
+T482.9482383939903 📋 extract_1 "équipe" score? 29.22 721
+T482.94843617800507 attempt_167: "équipe" score:29.22 prog:721
+T490.30034242299735 attempt_168 ? *30 t4
+T490.30057082601706 session clear
+T490.30068181900424 session: {"role": "user", "content": "give me 30 French words that are similar to \"comp\u00e9tence\", \"aptitude\", \"objectif\", and \"exigence\""}
+T503.98341834999155 session: {"role": "assistant", "content": "Here are 30 French words that convey similar meanings to \"comp\u00e9tence\", \"aptitude\", \"objectif\", and \"exigence\":\n\n1. Talent\n2. Qualit\u00e9\n3. Capacit\u00e9\n4. \u00c9lan\n5. Don\n6. Aptitude\n7. Comp\u00e9titivit\u00e9\n8. Exigence\n9. Objectif\n10. Cible\n11. Priorit\u00e9\n12. Objectif de vie\n13. R\u00f4le\n14. Fonction\n15. Mission\n16. Responsabilit\u00e9\n17. Imp\u00e9ratif\n18. Necessit\u00e9\n19. Besoin\n20. Souhait\n21. Attente\n22. Aspiration\n23. Ambition\n24. Pr\u00e9f\u00e9rence\n25. Pr\u00e9avis\n26. Avantage\n27. Disavantage\n28. V\u0153u\n29. D\u00e9sir\n30. Besoin-\u00eatre"}
+T514.3804056259978 attempt_168 # 1
+T518.5963970030134 📋 extract_1 "avantage" score? 21.09
+T518.5966665220039 attempt_168: "avantage" score:21.09 prog:None
+T524.6125495489978 📋 extract_1 "compétitivité" score? 23.28 228
+T524.6127736880153 attempt_169: "compétitivité" score:23.28 prog:228
+T528.4361005880055 📋 extract_1 "disavantage" score? !
+T528.4362545110052 reject: "disavantage"
+T533.3084534770169 📋 extract_1 "don" score? 0.13
+T533.3087192529929 attempt_170: "don" score:0.13 prog:None
+T540.2442421469896 📋 extract_1 "fonction" score? 34.58 886
+T540.2445028450165 attempt_171: "fonction" score:34.58 prog:886
+T543.8684031500015 📋 extract_1 "préférence" score? 10.35
+T543.8686300610134 attempt_172: "préférence" score:10.35 prog:None
+T548.2361264979991 📋 extract_1 "souhait" score? 10.13
+T548.236285994004 attempt_173: "souhait" score:10.13 prog:None
+T558.724365652015 📋 extract_1 "élan" score? -6.14
+T558.7246005659981 attempt_174: "élan" score:-6.14 prog:None
+T563.3960304929933 attempt_175 ? /last
+T571.331920097 attempt_175 ? /prog
+T586.9085682769946 attempt_175 ? *10 $1 $6 $11
+T586.9089161150041 session clear
+T586.909085398016 session: {"role": "user", "content": "give me 10 French words that are similar to \"comp\u00e9tence\", \"reconnaissance\", and \"capacit\u00e9\""}
+T594.7603406810085 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"comp\u00e9tence\", \"reconnaissance\", and \"capacit\u00e9\":\n\n1. Exp\u00e9rience - experience\n2. Abilit\u00e9 - ability\n3. Familiarit\u00e9 - familiarity\n4. Connaissance - knowledge\n5. Ma\u00eetrise - mastery\n6. Expertise - expertise\n7. Savoir-faire - skill or know-how\n8. Ad\u00e9quation - adaptability\n9. Qualit\u00e9 - quality\n10. Profil - profile"}
+T597.1880954279914 attempt_175 # 1
+T601.484786829009 📋 extract_1 "abilité" score? !
+T601.484955538006 reject: "abilité"
+T605.0774322740035 attempt_175 # 1
+T611.0842524850159 📋 extract_1 "adéquation" score? 36.59 925
+T611.0844534960052 attempt_175: "adéquation" score:36.59 prog:925
+T614.492181862006 📋 extract_1 "familiarité" score? .1
+T614.4923929499928 attempt_176: "familiarité" score:0.10 prog:None
+T619.4609473510063 📋 extract_1 "maîtrise" score? 32.19
+T622.276201494009 📋 extract_1 "maîtrise" 32.19°C prog‰ ? 832
+T622.2764045670046 attempt_177: "maîtrise" score:32.19 prog:832
+T627.3402280209993 📋 extract_1 "profil" score? 27.8
+T629.7801625700085 📋 extract_1 "profil" 27.80°C prog‰ ? 641
+T629.7803587880044 attempt_178: "profil" score:27.80 prog:641
+T650.4121015889978 attempt_179 ? > keep going, give me 10 more french words like those
+T650.4123068639892 session: {"role": "user", "content": "keep going, give me 10 more french words like those"}
+T659.814832701988 session: {"role": "assistant", "content": "Here are 10 more French words that are similar to \"comp\u00e9tence\", \"reconnaissance\", and \"capacit\u00e9\":\n\n1. Aptitude - aptness or talent\n2. Skilled - skill (adjective form)\n3. D\u00e9veloppement - development\n4. Pr\u00e9sence - presence\n5. Perception - perception\n6. Saisie - acquisition or capture\n7. Comp\u00e9tition - competition\n8. Adaptabilit\u00e9 - adaptability\n9. D\u00e9coupage - discovery\n10. Reconnaissance d'effectif - personnel inventory or roster (close to \"reconnaissance\")"}
+T663.8044669590017 attempt_179 # 1
+T669.5001438109903 📋 extract_1 "adaptabilité" score? 24.34 331
+T669.5006319230015 attempt_179: "adaptabilité" score:24.34 prog:331
+T674.9802640049893 📋 extract_1 "compétition" score? 32.02 825
+T674.9804919919989 attempt_180: "compétition" score:32.02 prog:825
+T680.8279984010151 📋 extract_1 "découpage" score? 12.67
+T680.8281506570056 attempt_181: "découpage" score:12.67 prog:None
+T687.1641186120105 📋 extract_1 "développement" score? 29.39 732
+T687.1642899640137 attempt_182: "développement" score:29.39 prog:732
+T691.8125804470037 📋 extract_1 "perception" score? 13.22
+T691.8128338679962 attempt_183: "perception" score:13.22 prog:None
+T697.3161554940161 📋 extract_1 "présence" score? 8.99
+T697.3162840399891 attempt_184: "présence" score:8.99 prog:None
+T700.6602251279983 📋 extract_1 "saisie" score? 14.14
+T700.6604330819973 attempt_185: "saisie" score:14.14 prog:None
+T703.5161969299952 📋 extract_1 "skilled" score? !
+T703.5163405450003 reject: "skilled"
+T709.1481836420135 attempt_186 ? /prog
+T726.1561768680112 attempt_186 ? *10 $1 $9 $14
+T726.1563770080102 session clear
+T726.1564711839892 session: {"role": "user", "content": "give me 10 French words that are similar to \"comp\u00e9tence\", \"ad\u00e9quation\", and \"fonction\""}
+T743.8407480210008 session: {"role": "assistant", "content": "Here are 10 French words that convey similar meanings to \"comp\u00e9tence\", \"ad\u00e9quation\", and \"fonction\":\n\n1. **Qualit\u00e9** (quality) - implies a characteristic or attribute\n2. **Aptitude** (aptitude) - refers to the ability or capacity for something\n3. **Mati\u00e8re** (matter, substance) - can imply a subject or field of study\n4. **Domaine** (domain) - suggests a sphere of activity or expertise\n5. **Expertise** (expertise) - implies specialized knowledge or skill\n6. **Appartenance** (belonging, pertinence) - suggests relevance or connection to something\n7. **R\u00f4le** (role) - can imply a part or function within an organization or system\n8. **Titre** (title) - may refer to a position or designation\n9. **Champ** (field, area) - implies a domain or sphere of activity\n10. **Sp\u00e9cialit\u00e9** (specialty) - suggests expertise or specialization in a particular field\n\nThese words all relate to concepts that are similar to \"comp\u00e9tence\" (ability), \"ad\u00e9quation\" (proportionality, equivalence), and \"fonction\" (function)."}
+T749.6603351760132 attempt_186 # 1
+T755.5803858469881 📋 extract_1 "appartenance" score? 23.73 276
+T755.5806167290139 attempt_186: "appartenance" score:23.73 prog:276
+T760.0922948509979 📋 extract_1 "champ" score? 4.66
+T760.0924839590152 attempt_187: "champ" score:4.66 prog:None
+T765.7562772500096 📋 extract_1 "domaine" score? 27.41 607
+T765.7565288839978 attempt_188: "domaine" score:27.41 prog:607
+T768.9162850280118 📋 extract_1 "matière" score? 11.31
+T768.9165036909981 attempt_189: "matière" score:11.31 prog:None
+T773.0126282380079 📋 extract_1 "spécialité" score? 27.51
+T775.260378373001 📋 extract_1 "spécialité" 27.51°C prog‰ ? 619
+T775.2605516260082 attempt_190: "spécialité" score:27.51 prog:619
+T780.6203514859953 📋 extract_1 "titre" score? 27.22 593
+T780.6205822030024 attempt_191: "titre" score:27.22 prog:593
+T786.2041024749924 attempt_192 ? /prog
+T808.7080968389928 attempt_192 ? *10 t2 $9
+T808.7083008390036 session clear
+T808.7083928789943 session: {"role": "user", "content": "give me 10 French words that are similar to \"ad\u00e9quation\", \"comp\u00e9tence\", and \"aptitude\""}
+T821.5824021759909 session: {"role": "assistant", "content": "Here are 10 French words that convey similar meanings to \"ad\u00e9quation\", \"comp\u00e9tence\", and \"aptitude\":\n\n1. Adaptabilit\u00e9 (adaptability) - ability to adjust to new situations\n2. Pr\u00e9cision (precision) - accuracy or exactness in performance\n3. Qualit\u00e9 (quality) - a valuable or desirable characteristic\n4. R\u00e9activit\u00e9 (reactivity) - quick response or readiness to act\n5. \u00c9volution (evolution) - continuous improvement or growth\n6. Exp\u00e9rience (experience) - knowledge and skill gained through practice\n7. R\u00e9silience (resilience) - ability to withstand difficulties or challenges\n8. Connaissance (knowledge) - familiarity with a subject or skill\n9. Maitrisse (mastery) - skillful expertise in a particular area\n10. Performanc\u00e9 (performance) - the act of doing something well or efficiently"}
+T823.9561591699894 attempt_192 # 1
+T826.5962248959986 📋 extract_1 "maitrisse" score? !
+T826.596422742994 reject: "maitrisse"
+T829.5240507929993 attempt_192 # 1
+T832.4601009929902 📋 extract_1 "performancé" score? !
+T832.460231879988 reject: "performancé"
+T833.3799913290131 attempt_192 # 1
+T836.5321026690071 📋 extract_1 "réactivité" score? 15.74
+T836.5322395150142 attempt_192: "réactivité" score:15.74 prog:None
+T840.7159361930098 attempt_193 ? /prog
+T844.0042433560011 attempt_193 ? *30 t1
+T844.0044223830046 session clear
+T844.0045016510121 session: {"role": "user", "content": "give me 30 French words that are similar to \"comp\u00e9tence\""}
+T865.2423219530028 session: {"role": "assistant", "content": "Here are 30 French words that convey a sense of skill, ability, or proficiency similar to the word \"comp\u00e9tence\":\n\n1. Qualit\u00e9 (quality)\n2. Talent (talent)\n3. Savoir-faire (skillful behavior)\n4. Expertise (expertise)\n5. Domination (dominance)\n6. Abilit\u00e9 (ability)\n7. Pr\u00e9sence (presence)\n8. Aptitude (aptitude)\n9. Sensibilit\u00e9 (sensitivity)\n10. Connaissances (knowledge)\n11. Formation (training)\n12. \u00c9ducation (education)\n13. Exp\u00e9rience (experience)\n14. Aptitude psychologique (psychological aptitude)\n15. Ing\u00e9niosit\u00e9 (creativity)\n16. R\u00e9alisme (realism)\n17. Analyse (analysis)\n18. Strat\u00e9gie (strategy)\n19. Pr\u00e9servation (preservation)\n20. Consistance (consistency)\n21. Adaptabilit\u00e9 (adaptability)\n22. Ressources (resources)\n23. Capacit\u00e9 (capacity)\n24. Innovation (innovation)\n25. Cr\u00e9ativit\u00e9 (creativity)\n26. Pionnierisme (pioneering spirit)\n27. Pr\u00e9servation de l'identit\u00e9 (identity preservation)\n28. Gestion (management)\n29. Diplomatie (diplomacy)\n30. Intuition (intuition)\n\nThese words can be used in various contexts to convey a sense of skill, ability, or proficiency, similar to the word \"comp\u00e9tence\""}
+T869.5882026980107 attempt_193 # 1
+T872.2847898679902 📋 extract_1 "connaissances" score? !
+T872.2850144749973 reject: "connaissances"
+T878.2360129409935 attempt_193 # 1
+T882.676353902003 📋 extract_1 "créativité" score? 5.31
+T882.6765978900075 attempt_193: "créativité" score:5.31 prog:None
+T886.1159895570017 📋 extract_1 "diplomatie" score? .33
+T886.1161502109899 attempt_194: "diplomatie" score:0.33 prog:None
+T896.3087615889963 📋 extract_1 "domination" score? 13.12
+T896.3089482859941 attempt_195: "domination" score:13.12 prog:None
+T904.0843084380031 📋 extract_1 "formation" score? 58.08 998
+T904.0845389039896 attempt_196: "formation" score:58.08 prog:998
+T912.9641272040026 📋 extract_1 "gestion" score? 26.97 582
+T912.9643283660116 attempt_197: "gestion" score:26.97 prog:582
+T916.732561464014 📋 extract_1 "ingéniosité" score? -1.45
+T916.7327933610068 attempt_198: "ingéniosité" score:-1.45 prog:None
+T920.2441913530056 📋 extract_1 "innovation" score? 18.58
+T920.2443644379964 attempt_199: "innovation" score:18.58 prog:None
+T923.1401131419989 📋 extract_1 "intuition" score? 2.33
+T923.1402954949881 attempt_200: "intuition" score:2.33 prog:None
+T927.0441085369966 📋 extract_1 "pionnierisme" score? !
+T927.0442555499903 reject: "pionnierisme"
+T930.6603811690002 📋 extract_1 "préservation" score? 8.22
+T930.6606010599935 attempt_201: "préservation" score:8.22 prog:None
+T933.4604554940015 📋 extract_1 "ressources" score? !
+T933.4606621180137 reject: "ressources"
+T936.6921599670022 📋 extract_1 "réalisme" score? 1.64
+T936.6923578529968 attempt_202: "réalisme" score:1.64 prog:None
+T940.4762367260118 📋 extract_1 "sensibilité" score? 1.52
+T940.4764294619963 attempt_203: "sensibilité" score:1.52 prog:None
+T946.4922608940105 📋 extract_1 "éducation" score? 25.5 448
+T946.4924916590098 attempt_204: "éducation" score:25.50 prog:448
+T949.372182081017 attempt_205 ? /prog
+T952.6043651759974 attempt_205 ? *20 t2
+T952.6046522019897 session clear
+T952.6047896640084 session: {"role": "user", "content": "give me 20 French words that are similar to \"formation\" and \"comp\u00e9tence\""}
+T961.6004075839883 session: {"role": "assistant", "content": "Here are 20 French words related to \"formation\" and \"comp\u00e9tence\":\n\n1. \u00c9ducation\n2. Qualification\n3. Dipl\u00f4me\n4. Expertise\n5. Connaissance\n6. Exigences\n7. D\u00e9veloppement\n8. Capacit\u00e9\n9. Aptitude\n10. Exp\u00e9rience\n11. Pr\u00e9paration\n12. Formation professionnelle\n13. Centre de formation\n14. \u00c9cole\n15. Institut\n16. Universit\u00e9\n17. Dipl\u00f4me d'\u00e9tudes sup\u00e9rieures\n18. Certificat\n19. Titre\n20. \u00c9valuation"}
+T963.8440081450099 attempt_205 # 1
+T970.4194631680148 📋 extract_1 "certificat" score? 34.92 896
+T970.4195575930062 attempt_205: "certificat" score:34.92 prog:896
+T978.1803652080125 📋 extract_1 "diplôme" score? 55.5 997
+T978.1805477660091 attempt_206: "diplôme" score:55.50 prog:997
+T982.8925940789923 📋 extract_1 "institut" score? 7.64
+T982.8928030290117 attempt_207: "institut" score:7.64 prog:None
+T989.9163246620155 📋 extract_1 "préparation" score? 27.73 633
+T989.9165569210018 attempt_208: "préparation" score:27.73 prog:633
+T1001.7564026979962 📋 extract_1 "qualification" score? 100 1000
+T1001.7565964270034 attempt_209: "qualification" score:100.00 prog:1000
+T1018.604261097993 Paste share result, then preses <Enter>
+T1018.612782731012 share result: "J'ai trouv\u00e9 #cemantix n\u00ba994 en 210 coups !\n\ud83e\udd73\n\ud83d\udd253\ufe0f\u20e3\n\ud83e\udd751\ufe0f\u20e31\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e6\ufe0f\u20e35\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd761\ufe0f\u20e31\ufe0f\u20e30\ufe0f\u20e3\n\ud83e\uddca\ud83e\uddca2\ufe0f\u20e30\ufe0f\u20e3\nhttps://cemantix.certitudes.org/"
+T1037.4734641069954 <INT>

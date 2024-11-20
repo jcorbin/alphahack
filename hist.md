@@ -659,3 +659,16 @@ I found #cemantle #960 in 174 guesses!
 🧊🧊2️⃣0️⃣
 https://cemantle.certitudes.org/
 ```
+
+# 2024-11-19 cemantix.certitudes.org
+
+```
+J'ai trouvé #cemantix nº994 en 210 coups !
+🥳
+🔥3️⃣
+🥵1️⃣1️⃣
+😎😎😎😎😎😎6️⃣5️⃣
+🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶1️⃣1️⃣0️⃣
+🧊🧊2️⃣0️⃣
+https://cemantix.certitudes.org/
+```
