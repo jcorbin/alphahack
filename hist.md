@@ -672,3 +672,14 @@ J'ai trouvé #cemantix nº994 en 210 coups !
 🧊🧊2️⃣0️⃣
 https://cemantix.certitudes.org/
 ```
+
+# 2024-11-20 alphaguess.com
+```
+🧩 Puzzle #484
+
+🤔 14 guesses
+
+⏱️ 38s
+
+🔗 alphaguess.com
+```
