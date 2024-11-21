@@ -1,0 +1,1141 @@
+T0.004079310048837215 now: 2024-11-21T13:39:53UTC
+T0.5912446290021762 🔗 cemantle.certitudes.org ? 
+T0.5918033250491135 site: cemantle.certitudes.org
+T1.391380122047849 🌎  ? 
+T1.3915794269996695 lang: 
+T2.6552769300178625 🧩  ? #962
+T2.655755260027945 puzzle_id: #962
+T11.871532692050096 😎 °C ? 21.83
+T11.871730043028947 scale: 😎 21.83 °C
+T14.159340579004493 🥵 °C ? 33.91
+T14.159557839040644 scale: 🥵 33.91 °C
+T16.94324047403643 🔥 °C ? 49.92
+T16.943385532998946 scale: 🔥 49.92 °C
+T20.182898302038666 😱 °C ? 62.44
+T20.182983071019407 scale: 😱 62.44 °C
+T20.20122046105098 session model: llama
+T20.201260566012934 session clear
+T20.201295716047753 session: {"role": "user", "content": "give me 10 words at random that are not related to each other"}
+T28.268509412009735 session: {"role": "assistant", "content": "Here are 10 random words that aren't related to each other:\n\n1. Piano\n2. Space\n3. Caramel\n4. Fjord\n5. Banjo\n6. Perfume\n7. Glacier\n8. Saffron\n9. Harmonica\n10. Luggage"}
+T31.21558819001075 #1 extract_1
+T34.631261013040785 🤔 extract_1 #1 "banjo" score? 5.95
+T34.631505929050036 attempt_0: "banjo" score:5.95 prog:None
+T37.8870638430235 🤔 extract_1 #2 "caramel" score? -2.4
+T37.88729182200041 attempt_1: "caramel" score:-2.40 prog:None
+T40.247395227022935 🤔 extract_1 #3 "fjord" score? -2.5
+T40.24766567803454 attempt_2: "fjord" score:-2.50 prog:None
+T42.839139022049494 🤔 extract_1 #4 "glacier" score? .7
+T42.839331625029445 attempt_3: "glacier" score:0.70 prog:None
+T45.503002604003996 🤔 extract_1 #5 "harmonica" score? 4.01
+T45.50321801804239 attempt_4: "harmonica" score:4.01 prog:None
+T49.08752770302817 🤔 extract_1 #6 "luggage" score? -4.9
+T49.0877728430205 attempt_5: "luggage" score:-4.90 prog:None
+T51.448494525044225 🤔 extract_1 #7 "perfume" score? 2.71
+T51.4486914370209 attempt_6: "perfume" score:2.71 prog:None
+T53.87936472002184 🤔 extract_1 #8 "piano" score? 5.19
+T53.87956062302692 attempt_7: "piano" score:5.19 prog:None
+T57.67140920803649 🤔 extract_1 #9 "saffron" score? -1.04
+T57.67164229002083 attempt_8: "saffron" score:-1.04 prog:None
+T62.67921565199504 🤔 extract_1 #10 "space" score? -.11
+T62.67936945601832 attempt_9: "space" score:-0.11 prog:None
+T81.69508536701323 #11 ? > try again, give me 10 new words, and make them as different from each other as you can
+T81.69563685799949 session: {"role": "user", "content": "try again, give me 10 new words, and make them as different from each other as you can"}
+T87.74407657299889 session: {"role": "assistant", "content": "Here are 10 new random words that are quite diverse:\n\n1. Quokka\n2. Fiddlehead\n3. Rattlesnake\n4. Tornado\n5. Cacophony\n6. Nougat\n7. Hydroelectric\n8. Paprika\n9. Oboe\n10. Kaleidoscope"}
+T89.10295168904122 #11 extract_1
+T91.96708077803487 🤔 extract_1 #11 "cacophony" score? 10.51
+T91.96725776104722 attempt_10: "cacophony" score:10.51 prog:None
+T95.35934901802102 🤔 extract_1 #12 "fiddlehead" score? 9.99
+T95.35959134204313 attempt_11: "fiddlehead" score:9.99 prog:None
+T98.80747028300539 🤔 extract_1 #13 "hydroelectric" score? -.23
+T98.80767402303172 attempt_12: "hydroelectric" score:-0.23 prog:None
+T102.55978688801406 🤔 extract_1 #14 "kaleidoscope" score? -.39
+T102.55999387404881 attempt_13: "kaleidoscope" score:-0.39 prog:None
+T107.67128796002362 🤔 extract_1 #15 "nougat" score? -.2
+T107.6714936440112 attempt_14: "nougat" score:-0.20 prog:None
+T110.73512768204091 🤔 extract_1 #16 "oboe" score? 6.25
+T110.7352931680507 attempt_15: "oboe" score:6.25 prog:None
+T124.52747213601833 🤔 extract_1 #17 "paprika" score? -1.44
+T124.52770442800829 attempt_16: "paprika" score:-1.44 prog:None
+T127.53528660401935 🤔 extract_1 #18 "quokka" score? !
+T127.53543415904278 reject: "quokka"
+T130.39115800504806 🤔 extract_1 #18 "rattlesnake" score? 8.7
+T130.39147528802278 attempt_17: "rattlesnake" score:8.70 prog:None
+T133.25504379800986 🤔 extract_1 #19 "tornado" score? 3.03
+T133.25521295901854 attempt_18: "tornado" score:3.03 prog:None
+T166.0478116630111 #20 ? > try again, none of those words are very good, give me 10 more that are far apart and very different from the words you've said so far
+T166.04810464003822 session: {"role": "user", "content": "try again, none of those words are very good, give me 10 more that are far apart and very different from the words you've said so far"}
+T175.09356248105178 session: {"role": "assistant", "content": "I apologize for not meeting your expectations earlier. Here's another set of 10 random words that are quite diverse and unrelated to each other:\n\n1. Helix\n2. Soot\n3. Glacier ( wait, I know this one!)\n4. Lichen\n5. Onyx\n6. Fiddlehead (ugh, I did it again... )\n7. Cogwheel\n8. Nougat (nope, not again...)\n9. Phalarope\n10. Thixotropy\n\nI'll try to do better next time!"}
+T180.71914328302955 #20 extract_1
+T183.33524868101813 🤔 extract_1 #20 "cogwheel" score? 4.04
+T183.3354200120084 attempt_19: "cogwheel" score:4.04 prog:None
+T187.19105003902223 🤔 extract_1 #21 "helix" score? 6.66
+T187.19114858302055 attempt_20: "helix" score:6.66 prog:None
+T190.84711977100233 🤔 extract_1 #22 "lichen" score? 6.45
+T190.84730120800668 attempt_21: "lichen" score:6.45 prog:None
+T194.0474137000274 🤔 extract_1 #23 "onyx" score? -1.57
+T194.0476257170085 attempt_22: "onyx" score:-1.57 prog:None
+T196.5669683580054 🤔 extract_1 #24 "phalarope" score? 8.14
+T196.5671537120361 attempt_23: "phalarope" score:8.14 prog:None
+T199.3270851840498 🤔 extract_1 #25 "soot" score? -1.45
+T199.3272201990476 attempt_24: "soot" score:-1.45 prog:None
+T202.01554325904 🤔 extract_1 #26 "thixotropy" score? !
+T202.015713772038 reject: "thixotropy"
+T213.1449909520452 #26 ? /prog
+T251.44728359399596 #26 ? ␚
+T251.44741255801637 <EOF>
+T0.006890717020723969 now: 2024-11-21T13:44:06UTC
+T0.009541566018015146 session model: llama
+T1.3136959919938818 #26 ? /prog
+T3.9847223830292933 #26 ? *10 t3
+T3.9857101410161704 session clear
+T3.9859466940397397 session: {"role": "user", "content": "give me 10 words that are similar to \"cacophony\", \"fiddlehead\", and \"rattlesnake\""}
+T19.120064552000258 session: {"role": "assistant", "content": "Here are 10 words that share similarities with \"cacophony\", \"fiddlehead\", and \"rattlesnake\":\n\n1. Fustigation (a loud, harsh noise)\n2. Fern (similar to fiddlehead in shape or structure)\n3. Scorpion (similar to rattlesnake in venomous nature)\n4. Discord (a state of unpleasant harmony)\n5. Sprig (a small, delicate growth resembling a fiddlehead)\n6. Rant (an angry or violent outburst)\n7. Scourge (something that causes pain or discomfort)\n8. Noisome (unpleasantly loud or offensive sound)\n9. Snares (traps or obstacles that can cause harm)\n10. Chiaroscurist (an artist who specializes in the use of chiaroscuro, a technique that creates deep shadows and highlights)\n\nThese words all have unique meanings, but they share similarities with \"cacophony\", \"fiddlehead\", and \"rattlesnake\" in terms of their connotations, sounds, or visual associations."}
+T20.23302575503476 #26 extract_1
+T22.78441214200575 🤔 extract_1 #26 "chiaroscurist" score? !
+T22.78455085202586 reject: "chiaroscurist"
+T26.78457169199828 #26 extract_1
+T29.584615917992778 🤔 extract_1 #26 "discord" score? 13.05
+T29.584812698012684 attempt_25: "discord" score:13.05 prog:None
+T32.72112184902653 🤔 extract_1 #27 "fern" score? 4.21
+T32.72139590000734 attempt_26: "fern" score:4.21 prog:None
+T35.136712833016645 🤔 extract_1 #28 "fustigation" score? !
+T35.136882117018104 reject: "fustigation"
+T37.72065252298489 🤔 extract_1 #28 "noisome" score? 9.21
+T37.72082014300395 attempt_27: "noisome" score:9.21 prog:None
+T40.6009762280155 🤔 extract_1 #29 "rant" score? 1.25
+T40.60119658301119 attempt_28: "rant" score:1.25 prog:None
+T43.33683280501282 🤔 extract_1 #30 "scorpion" score? -1.57
+T43.33707461098675 attempt_29: "scorpion" score:-1.57 prog:None
+T45.9926482400042 🤔 extract_1 #31 "scourge" score? .04
+T45.9928104270366 attempt_30: "scourge" score:0.04 prog:None
+T55.16062102402793 🤔 extract_1 #32 "snares" score? !snare
+T55.16076943202643 reject: "snares"
+T58.44864899403183 🤔 corrected #32 "snare" score? 12.57
+T58.448859388008714 attempt_31: "snare" score:12.57 prog:None
+T63.09656127303606 🤔 extract_1 #33 "sprig" score? -.56
+T63.09671279898612 attempt_32: "sprig" score:-0.56 prog:None
+T66.92048359900946 #34 ? /prog
+T68.68070701800752 #34 ? *10 t3
+T68.68095368903596 session clear
+T68.68106119998265 session: {"role": "user", "content": "give me 10 words that are similar to \"discord\", \"snare\", and \"cacophony\""}
+T74.32496421801625 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"discord\", \"snare\", and \"cacophony\":\n\n1. Dissonance\n2. Clash\n3. Jangle\n4. Ruckus\n5. Hubbub\n6. Uproar\n7. Squalor\n8. Screech\n9. Shriek\n10. Clang"}
+T75.71306227101013 #34 extract_1
+T78.36895660799928 🤔 extract_1 #34 "clang" score? 13.96
+T78.36912425298942 attempt_33: "clang" score:13.96 prog:None
+T81.56086920603411 🤔 extract_1 #35 "clash" score? 9.25
+T81.56115763803245 attempt_34: "clash" score:9.25 prog:None
+T85.48856983403675 🤔 extract_1 #36 "dissonance" score? 13.89
+T85.48874600301497 attempt_35: "dissonance" score:13.89 prog:None
+T89.32069626101293 🤔 extract_1 #37 "hubbub" score? 3.97
+T89.32095337903593 attempt_36: "hubbub" score:3.97 prog:None
+T92.02477297501173 🤔 extract_1 #38 "jangle" score? 14.22
+T92.02501565800048 attempt_37: "jangle" score:14.22 prog:None
+T94.40837630303577 🤔 extract_1 #39 "ruckus" score? 4.3
+T94.4085494800238 attempt_38: "ruckus" score:4.30 prog:None
+T96.56853721803054 🤔 extract_1 #40 "screech" score? 12.4
+T96.56869635602925 attempt_39: "screech" score:12.40 prog:None
+T103.23208569601411 🤔 extract_1 #41 "shriek" score? 7.53
+T103.2321593670058 attempt_40: "shriek" score:7.53 prog:None
+T106.68129526101984 🤔 extract_1 #42 "squalor" score? 1.01
+T106.6814888480003 attempt_41: "squalor" score:1.01 prog:None
+T109.22472619800828 🤔 extract_1 #43 "uproar" score? 3.45
+T109.2251240889891 attempt_42: "uproar" score:3.45 prog:None
+T112.60843532299623 #44 ? *10 t3
+T112.60865916503826 session clear
+T112.6087600759929 session: {"role": "user", "content": "give me 10 words that are similar to \"jangle\", \"clang\", and \"dissonance\""}
+T131.08945724501973 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"jangle\", \"clang\", and \"dissonance\":\n\n1. Resonate: This word refers to the production of sound waves with a specific frequency, often creating a harmonious or unpleasant effect.\n2. Jolt: A sudden, unpleasant sound or vibration that disrupts the senses.\n3. Tinkle: A light, tinkling sound, often associated with small bells or glass.\n4. Rattle: A harsh, staccato sound created by the rapid movement of objects against each other.\n5. Cacophony: A harsh, discordant sound mixture that is unpleasant to hear.\n6. Discord: A disagreement or lack of harmony among individuals or things.\n7. Sizzle: A sharp, hissing sound produced by hot food or drinks being poured into a container.\n8. Chime: A clear, ringing sound, often associated with bells or other metallic objects.\n9. Hum: A low-pitched vibration or sound, often perceived as an unpleasant noise.\n10. Screech: A harsh, high-pitched sound, often used to describe the cry of animals or the sound of tires squealing on a road.\n\nThese words all convey different shades of sound and sensory experience that are similar to the meanings of \"jangle\", \"clang\", and \"dissonance\"."}
+T134.68016838701442 #44 extract_1
+T140.0171124850167 🤔 extract_1 #44 "chime" score? 23.04 231
+T140.0173328060191 attempt_43: "chime" score:23.04 prog:231
+T143.79267074499512 🤔 extract_1 #45 "hum" score? 11.67
+T143.79281693301164 attempt_44: "hum" score:11.67 prog:None
+T151.58496199100045 🤔 extract_1 #46 "jolt" score? 11.78
+T151.58535405201837 attempt_45: "jolt" score:11.78 prog:None
+T157.8167940750136 🤔 extract_1 #47 "rattle" score? 27.89 692
+T157.81702687899815 attempt_46: "rattle" score:27.89 prog:692
+T162.86464128101943 🤔 extract_1 #48 "resonate" score? 28.53 719
+T162.86486330401385 attempt_47: "resonate" score:28.53 prog:719
+T165.84092664101627 🤔 extract_1 #49 "sizzle" score? 15.59
+T165.8412128550117 attempt_48: "sizzle" score:15.59 prog:None
+T168.82422290800605 🤔 extract_1 #50 "tinkle" score? 14.14
+T168.82432495203102 attempt_49: "tinkle" score:14.14 prog:None
+T171.8480892450316 #51 ? *10 t3
+T171.84829048998654 session clear
+T171.84839166502934 session: {"role": "user", "content": "give me 10 words that are similar to \"resonate\", \"rattle\", and \"chime\""}
+T179.2799098790274 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"resonate\", \"rattle\", and \"chime\":\n\n1. Vibrate\n2. Harmonize\n3. Ring\n4. Clang\n5. Echo\n6. Pulse\n7. Hum\n8. Whir\n9. Sway\n10. Oscillate\n\nThese words all convey a sense of vibration, sound, or movement that is similar to the connotations of \"resonate\", \"rattle\", and \"chime\"."}
+T181.7685177589883 #51 extract_1
+T187.105645750009 🤔 extract_1 #51 "echo" score? 32.18
+T192.06442357902415 🤔 extract_1 #51 "echo" 32.18°C prog‰ ? 861
+T192.06456352898385 attempt_50: "echo" score:32.18 prog:861
+T196.92044955003075 🤔 extract_1 #52 "harmonize" score? 19.32
+T196.92059519700706 attempt_51: "harmonize" score:19.32 prog:None
+T199.98466518102214 🤔 extract_1 #53 "oscillate" score? 19.27
+T199.9848483329988 attempt_52: "oscillate" score:19.27 prog:None
+T202.76053606299683 🤔 extract_1 #54 "pulse" score? 7.11
+T202.7606823759852 attempt_53: "pulse" score:7.11 prog:None
+T204.98501583898906 🤔 extract_1 #55 "ring" score? 9.15
+T204.98527414601995 attempt_54: "ring" score:9.15 prog:None
+T207.88050279201707 🤔 extract_1 #56 "sway" score? 18.34
+T207.8806669290061 attempt_55: "sway" score:18.34 prog:None
+T210.09672017901903 🤔 extract_1 #57 "vibrate" score? 14.18
+T210.09692428202834 attempt_56: "vibrate" score:14.18 prog:None
+T212.78486784303095 🤔 extract_1 #58 "whir" score? 4.82
+T212.78515603003325 attempt_57: "whir" score:4.82 prog:None
+T216.33645472099306 #59 ? *10 t3
+T216.33665435900912 session clear
+T216.33675218198914 session: {"role": "user", "content": "give me 10 words that are similar to \"echo\", \"resonate\", and \"rattle\""}
+T224.09523554798216 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"echo\", \"resonate\", and \"rattle\":\n\n1. Vibrate\n2. Hum\n3. Whir\n4. Thud\n5. Clang\n6. Sustain\n7. Harmonize\n8. Echoic\n9. Cacophony\n10. Tremble\n\nThese words all convey a sense of sound or vibration, and some of them (like \"sustain\" and \"harmonize\") also have connotations of maintaining or altering sound patterns."}
+T225.56151338899508 #59 extract_1
+T228.10568643099396 🤔 extract_1 #59 "echoic" score? 10.18
+T228.10588660498615 attempt_58: "echoic" score:10.18 prog:None
+T233.4886651019915 🤔 extract_1 #60 "sustain" score? 22.64
+T235.4566713910317 🤔 extract_1 #60 "sustain" 22.64°C prog‰ ? 153
+T235.45686412003124 attempt_59: "sustain" score:22.64 prog:153
+T237.97667637403356 🤔 extract_1 #61 "thud" score? 11.82
+T237.97690120502375 attempt_60: "thud" score:11.82 prog:None
+T242.04076836898457 🤔 extract_1 #62 "tremble" score? 14.71
+T242.04097264498705 attempt_61: "tremble" score:14.71 prog:None
+T255.28073395200772 #63 ? *10 t2
+T255.28097875003004 session clear
+T255.28109731402947 session: {"role": "user", "content": "give me 10 words that are similar to \"echo\" and \"resonate\""}
+T262.29891546000727 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"echo\" and \"resonate\":\n\n1. Vibrate\n2. Vibrant\n3. Harmonize\n4. Humming\n5. Whisper\n6. Reverb\n7. Ringtone\n8. Chime\n9. Oscillate\n10. Sustain\n\nThese words all convey a sense of sound, vibration, or reverberation, which is similar to the connotations of \"echo\" and \"resonate\"."}
+T263.9843812310137 #63 extract_1
+T266.5691609940259 🤔 extract_1 #63 "humming" score? 8.77
+T266.5693453840213 attempt_62: "humming" score:8.77 prog:None
+T270.9121418290306 🤔 extract_1 #64 "reverb" score? !
+T270.91224690998206 reject: "reverb"
+T273.16879621200496 🤔 extract_1 #64 "ringtone" score? !
+T273.1690282340278 reject: "ringtone"
+T276.09697477601003 🤔 extract_1 #64 "vibrant" score? -2.86
+T276.0972771960078 attempt_63: "vibrant" score:-2.86 prog:None
+T278.85644281300483 🤔 extract_1 #65 "whisper" score? 14.61
+T278.85661720100325 attempt_64: "whisper" score:14.61 prog:None
+T282.30462503503077 #66 ? *10 t1
+T282.3048483360326 session clear
+T282.30498206301127 session: {"role": "user", "content": "give me 10 words that are similar to \"echo\""}
+T286.5577039589989 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"echo\":\n\n1. Resonate\n2. Vibrant\n3. Harmonize\n4. Cacophony\n5. Whisper\n6. Murmur\n7. Reverb\n8. Hum\n9. Silhouette\n10. Ebb"}
+T287.92812785401475 #66 extract_1
+T291.6727754659951 🤔 extract_1 #66 "ebb" score? 21.47
+T291.67291075299727 attempt_65: "ebb" score:21.47 prog:None
+T293.89659246400697 🤔 extract_1 #67 "murmur" score? 11.58
+T293.89681021799333 attempt_66: "murmur" score:11.58 prog:None
+T296.1445303930086 🤔 extract_1 #68 "silhouette" score? 2.77
+T296.1446772799827 attempt_67: "silhouette" score:2.77 prog:None
+T299.80834795400733 #69 ? /prog
+T312.20062319299905 #69 ? * $1 #60
+T312.2008314499981 session clear
+T312.2009508879855 session: {"role": "user", "content": "give me 10 words that are similar to \"echo\" and \"sustain\""}
+T320.2265584550332 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"echo\" and \"sustain\":\n\nSimilar to \"Echo\":\n1. Resonate\n2. Vibrant\n3. Rebound\n4. Ringing\n5. Pulse\n6. Repeat\n7. Harmonize\n8. Vibrate\n9. Whisper\n10. Rumble\n\nSimilar to \"Sustain\":\n1. Maintain\n2. Endure\n3. Persist\n4. Continue\n5. Persevere\n6. Last\n7. Staying\n8. Remain\n9. Hold\n10. Persist"}
+T321.76840214803815 #69 extract_1
+T324.57657327502966 🤔 extract_1 #69 "continue" score? 20.27
+T324.57676115399227 attempt_68: "continue" score:20.27 prog:None
+T330.1125284479931 🤔 extract_1 #70 "endure" score? 29.29
+T331.968106247019 🤔 extract_1 #70 "endure" 29.29°C prog‰ ? 762
+T331.9682555110194 attempt_69: "endure" score:29.29 prog:762
+T339.02381734602386 🤔 extract_1 #71 "hold" score? 32.83 876
+T339.0238813019823 attempt_70: "hold" score:32.83 prog:876
+T341.4646692670067 🤔 extract_1 #72 "last" score? 11.41
+T341.46483094402356 attempt_71: "last" score:11.41 prog:None
+T344.91288531100145 🤔 extract_1 #73 "maintain" score? 9.5
+T344.91313045698917 attempt_72: "maintain" score:9.50 prog:None
+T346.90443086001324 🤔 extract_1 #74 "persevere" score? 4.41
+T346.9045410720282 attempt_73: "persevere" score:4.41 prog:None
+T351.2724193719914 🤔 extract_1 #75 "persist" score? 28.23
+T353.6889155189856 🤔 extract_1 #75 "persist" 28.23°C prog‰ ? 706
+T353.68909194599837 attempt_74: "persist" score:28.23 prog:706
+T357.21655651100446 🤔 extract_1 #76 "rebound" score? 5.47
+T357.2167215180234 attempt_75: "rebound" score:5.47 prog:None
+T363.46463459101506 🤔 extract_1 #77 "remain" score? 16.4
+T363.46494029002497 attempt_76: "remain" score:16.40 prog:None
+T370.0326258140267 🤔 extract_1 #78 "repeat" score? 21.53
+T370.0328305340372 attempt_77: "repeat" score:21.53 prog:None
+T373.59292193403235 🤔 extract_1 #79 "ringing" score? 14.36
+T373.5931057870039 attempt_78: "ringing" score:14.36 prog:None
+T376.8164475110243 🤔 extract_1 #80 "rumble" score? 14.38
+T376.81658853398403 attempt_79: "rumble" score:14.38 prog:None
+T384.65683732402977 🤔 extract_1 #81 "staying" score? !stay
+T384.6570271240198 reject: "staying"
+T388.57682910800213 🤔 corrected #81 "stay" score? 6.98
+T388.57699811202474 attempt_80: "stay" score:6.98 prog:None
+T392.8883417760371 #82 ? * t3
+T392.8885231920285 session clear
+T392.88860399398254 session: {"role": "user", "content": "give me 10 words that are similar to \"hold\", \"echo\", and \"endure\""}
+T397.8171419490245 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"hold\", \"echo\", and \"endure\":\n\n1. Sustain\n2. Persist\n3. Remain\n4. Last\n5. Stand\n6. Endow\n7. Retain\n8. Cling\n9. Resonate\n10. Persevere"}
+T399.0083937200252 #82 extract_1
+T401.8164942099829 🤔 extract_1 #82 "cling" score? 6.21
+T401.816639814002 attempt_81: "cling" score:6.21 prog:None
+T406.8326574509847 🤔 extract_1 #83 "endow" score? 11.61
+T406.8328217790113 attempt_82: "endow" score:11.61 prog:None
+T410.11258705100045 🤔 extract_1 #84 "retain" score? 5.26
+T410.11273558903486 attempt_83: "retain" score:5.26 prog:None
+T413.5767748079961 🤔 extract_1 #85 "stand" score? 12.08
+T413.5769823460141 attempt_84: "stand" score:12.08 prog:None
+T420.28852818801533 #86 ? * t2
+T420.2887089930009 session clear
+T420.2887905300013 session: {"role": "user", "content": "give me 10 words that are similar to \"hold\" and \"echo\""}
+T424.612700038997 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"hold\" and \"echo\":\n\n1. Sustain\n2. Preserve\n3. Endure\n4. Retain\n5. Keep\n6. Remain\n7. Persevere\n8. Resonate\n9. Continue\n10. Persist"}
+T425.7370211420348 #86 extract_1
+T428.6406085030176 🤔 extract_1 #86 "keep" score? 7.56
+T428.64076488499995 attempt_85: "keep" score:7.56 prog:None
+T432.8965720119886 🤔 extract_1 #87 "preserve" score? 10.54
+T432.8967385800206 attempt_86: "preserve" score:10.54 prog:None
+T437.1126641550218 #88 ? *10 t1
+T437.11287441599416 session clear
+T437.11296830000356 session: {"role": "user", "content": "give me 10 words that are similar to \"hold\""}
+T441.0162010550266 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"hold\":\n\n1. Grasp\n2. Clutch\n3. Grip\n4. Cling\n5. Tenacious\n6. Firmly\n7. Sustain\n8. Preserve\n9. Maintain\n10. Anchor"}
+T442.14467912202235 #88 extract_1
+T445.7210337659926 🤔 extract_1 #88 "anchor" score? 7.67
+T445.7212765610311 attempt_87: "anchor" score:7.67 prog:None
+T447.9446367250057 🤔 extract_1 #89 "clutch" score? 1.2
+T447.94480330799706 attempt_88: "clutch" score:1.20 prog:None
+T450.4326608480187 🤔 extract_1 #90 "firmly" score? 1.46
+T450.4328472419875 attempt_89: "firmly" score:1.46 prog:None
+T452.8729355240357 🤔 extract_1 #91 "grasp" score? 1.81
+T452.87314632802736 attempt_90: "grasp" score:1.81 prog:None
+T457.0008689010283 🤔 extract_1 #92 "grip" score? -2.28
+T457.00106273102574 attempt_91: "grip" score:-2.28 prog:None
+T461.4561525679892 🤔 extract_1 #93 "tenacious" score? -2.86
+T461.4562450160156 attempt_92: "tenacious" score:-2.86 prog:None
+T466.7600066430168 #94 ? /prog
+T480.99259328399785 #94 ? * $1 #75
+T480.99274990998674 session clear
+T480.9928253290127 session: {"role": "user", "content": "give me 10 words that are similar to \"hold\" and \"persist\""}
+T485.3640472840052 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"hold\" and \"persist\":\n\n1. Maintain\n2. Endure\n3. Cling\n4. Stay\n5. Sustain\n6. Remain\n7. Persevere\n8. Tenacious\n9. Sturdy\n10. Fortify"}
+T487.29643061902607 #94 extract_1
+T492.00108832202386 🤔 extract_1 #94 "fortify" score? 16.99
+T492.0013773620012 attempt_93: "fortify" score:16.99 prog:None
+T494.6569396420382 🤔 extract_1 #95 "sturdy" score? 9.05
+T494.657167152036 attempt_94: "sturdy" score:9.05 prog:None
+T498.0724133980111 #96 ? /prog
+T512.2882772790035 #96 ? * $1 $3
+T512.2884528519935 session clear
+T512.2885340999928 session: {"role": "user", "content": "give me 10 words that are similar to \"hold\" and \"endure\""}
+T516.5901331600035 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"hold\" and \"endure\":\n\n1. Sustain\n2. Maintain\n3. Resist\n4. Persevere\n5. Endure\n6. Abide\n7. Stay\n8. Survive\n9. Bear\n10. Weather"}
+T517.7046307720011 #96 extract_1
+T520.4647175910068 🤔 extract_1 #96 "abide" score? 16.87
+T520.4649120490067 attempt_95: "abide" score:16.87 prog:None
+T523.7764332690276 🤔 extract_1 #97 "bear" score? 12.06
+T523.7766416969826 attempt_96: "bear" score:12.06 prog:None
+T526.5370853189961 🤔 extract_1 #98 "resist" score? 21.01
+T526.5373517700355 attempt_97: "resist" score:21.01 prog:None
+T529.0806568140397 🤔 extract_1 #99 "survive" score? 21.34
+T529.0808517549885 attempt_98: "survive" score:21.34 prog:None
+T531.4409662680118 🤔 extract_1 #100 "weather" score? 5.11
+T531.4411394509953 attempt_99: "weather" score:5.11 prog:None
+T536.1686203000136 #101 ? /prog
+T548.1689052510192 #101 ? *30 t5
+T548.1692036080058 session clear
+T548.1693475550273 session: {"role": "user", "content": "give me 30 words that are similar to \"hold\", \"echo\", \"endure\", \"resonate\", and \"persist\""}
+T559.8408117939834 session: {"role": "assistant", "content": "Here are 30 words that are similar to the given words:\n\n1. Abide\n2. Remain\n3. Stay\n4. Endue\n5. Sustain\n6. Survive\n7. Persevere\n8. Thrive\n9. Persist\n10. Continuance\n11. Consist\n12. Maintain\n13. Uphold\n14. Fortify\n15. Reinforce\n16. Sustenance\n17. Endurance\n18. Tenacity\n19. Resilience\n20. Stability\n21. Duration\n22. Persistence\n23. Staying power\n24. Constancy\n25. Permanence\n26. Tenacious\n27. Unwavering\n28. Steadfastness\n29. Enduring\n30. Longevity"}
+T561.4008859579917 #101 extract_1
+T568.5921765239909 🤔 extract_1 #101 "consist" score? 48.41 986
+T568.5922759880195 attempt_100: "consist" score:48.41 prog:986
+T576.5766238659853 🤔 extract_1 #102 "constancy" score? 7.06
+T576.5767750410014 attempt_101: "constancy" score:7.06 prog:None
+T583.0088698189938 #103 ? * t3
+T583.0091305990354 session clear
+T583.0092493880074 session: {"role": "user", "content": "give me 10 words that are similar to \"consist\", \"hold\", and \"echo\""}
+T587.9968365040259 session: {"role": "assistant", "content": "Here are ten words that are similar to \"consist\", \"hold\", and \"echo\":\n\n1. Remain\n2. Endure\n3. Persist\n4. Last\n5. Sustain\n6. Resonate\n7. Abide\n8. Persevere\n9. Stay\n10. Persist"}
+T592.8410651520244 #103 ? * $1
+T592.8414939020295 session clear
+T592.8418088569888 session: {"role": "user", "content": "give me 10 words that are similar to \"consist\""}
+T598.4673334590043 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"consist\":\n\n1. Remain\n2. Stay\n3. Endure\n4. Persist\n5. Hold\n6. Last\n7. Continue\n8. Survive\n9. Abide\n10. Endure\n\nThese words all convey the idea of something continuing or being present over time, which is similar to the meaning of \"consist\"."}
+T602.2887935740291 #103 ? *30 t5
+T602.2889987500384 session clear
+T602.289107337012 session: {"role": "user", "content": "give me 30 words that are similar to \"consist\", \"hold\", \"echo\", \"endure\", and \"resonate\""}
+T614.8503050639993 session: {"role": "assistant", "content": "Here are 30 words that are similar to the given words:\n\n1. Persist\n2. Maintain\n3. Endue\n4. Abide\n5. Remain\n6. Sustain\n7. Continual\n8. Persevere\n9. Standfast\n10. Holdfast\n11. Cling\n12. Fasten\n13. Anchor\n14. Fixate\n15. Imbue\n16. Infuse\n17. Impart\n18. Convey\n19. Translate\n20. Interpret\n21. Prove\n22. Verify\n23. Authenticate\n24. Affirm\n25. Validate\n26. Reinforce\n27. Strengthen\n28. Fortify\n29. Solidify\n30. Endure\n\nThese words all convey a sense of continuity, persistence, or stability, similar to the original words."}
+T616.3686002080212 #103 extract_1
+T620.992708477017 🤔 extract_1 #103 "affirm" score? 20.25
+T620.9929624699871 attempt_102: "affirm" score:20.25 prog:None
+T624.6403823550208 🤔 extract_1 #104 "authenticate" score? 4.86
+T624.6405483260169 attempt_103: "authenticate" score:4.86 prog:None
+T627.9682551029837 🤔 extract_1 #105 "continual" score? 15.35
+T627.968401457998 attempt_104: "continual" score:15.35 prog:None
+T630.5365676159854 🤔 extract_1 #106 "convey" score? 15.48
+T630.5367266369867 attempt_105: "convey" score:15.48 prog:None
+T633.8484295739909 🤔 extract_1 #107 "endue" score? 6.79
+T633.8485953080235 attempt_106: "endue" score:6.79 prog:None
+T636.3450232120231 🤔 extract_1 #108 "fasten" score? 10.63
+T636.3453070400283 attempt_107: "fasten" score:10.63 prog:None
+T640.7129597950261 🤔 extract_1 #109 "fixate" score? 15.07
+T640.7131570450147 attempt_108: "fixate" score:15.07 prog:None
+T643.3055615100311 🤔 extract_1 #110 "holdfast" score? 8.04
+T643.3057955729892 attempt_109: "holdfast" score:8.04 prog:None
+T646.2568650320172 🤔 extract_1 #111 "imbue" score? 18.7
+T646.2571239339886 attempt_110: "imbue" score:18.70 prog:None
+T649.4566871800344 🤔 extract_1 #112 "impart" score? 11.78
+T649.4568916920107 attempt_111: "impart" score:11.78 prog:None
+T651.9449626490241 🤔 extract_1 #113 "infuse" score? 12.85
+T651.94517348503 attempt_112: "infuse" score:12.85 prog:None
+T655.3767811770085 🤔 extract_1 #114 "interpret" score? 16.66
+T655.3769470780389 attempt_113: "interpret" score:16.66 prog:None
+T657.752297211031 🤔 extract_1 #115 "prove" score? 14.4
+T657.7524324359838 attempt_114: "prove" score:14.40 prog:None
+T667.8722831800114 🤔 extract_1 #116 "reinforce" score? 26.9 629
+T667.8723786000046 attempt_115: "reinforce" score:26.90 prog:629
+T674.3770837659831 🤔 extract_1 #117 "solidify" score? 22.36 107
+T674.377350394032 attempt_116: "solidify" score:22.36 prog:107
+T679.5527348510223 🤔 extract_1 #118 "standfast" score? !stand
+T679.552883049997 reject: "standfast"
+T684.3366584079922 🤔 extract_1 #118 "strengthen" score? 20.75
+T684.3368503960082 attempt_117: "strengthen" score:20.75 prog:None
+T688.6404577789945 🤔 extract_1 #119 "translate" score? 32.63
+T691.0408196439967 🤔 extract_1 #119 "translate" 32.63°C prog‰ ? 871
+T691.0410440900014 attempt_118: "translate" score:32.63 prog:871
+T697.6885535949841 🤔 extract_1 #120 "validate" score? 21.39
+T697.6886912030168 attempt_119: "validate" score:21.39 prog:None
+T700.4566172439954 #121 ? *30 t5
+T700.4568406229955 session clear
+T700.4569632950006 session: {"role": "user", "content": "give me 30 words that are similar to \"consist\", \"hold\", \"translate\", \"echo\", and \"endure\""}
+T711.8783832170302 session: {"role": "assistant", "content": "Here are 30 words that are similar in meaning or connotation to the given words:\n\n1. Persist\n2. Remain\n3. Survive\n4. Endure\n5. Sustain\n6. Persevere\n7. Maintain\n8. Keep\n9. Preserve\n10. Fortify\n11. Reinforce\n12. Solidify\n13. Uphold\n14. Defend\n15. Support\n16. Stabilize\n17. Balance\n18. Equilibrate\n19. Harmonize\n20. Reconcile\n21. Mediate\n22. Resolve\n23. Reshape\n24. Revise\n25. Redesign\n26. Reformulate\n27. Reframe\n28. Rethink\n29. Recast\n30. Recontextualize"}
+T713.1688431859948 #121 extract_1
+T715.7128144589951 🤔 extract_1 #121 "balance" score? 4.49
+T715.713022010983 attempt_120: "balance" score:4.49 prog:None
+T718.4731272369972 🤔 extract_1 #122 "defend" score? 7.95
+T718.4733399460092 attempt_121: "defend" score:7.95 prog:None
+T721.6888323880266 🤔 extract_1 #123 "equilibrate" score? 16.8
+T721.689041154983 attempt_122: "equilibrate" score:16.80 prog:None
+T723.7530931649962 🤔 extract_1 #124 "mediate" score? 8.43
+T723.7533613280393 attempt_123: "mediate" score:8.43 prog:None
+T727.4728653270286 🤔 extract_1 #125 "recast" score? 12.47
+T727.4730767690344 attempt_124: "recast" score:12.47 prog:None
+T729.8166230340139 🤔 extract_1 #126 "reconcile" score? 10.34
+T729.816804223985 attempt_125: "reconcile" score:10.34 prog:None
+T734.5686699399957 🤔 extract_1 #127 "recontextualize" score? !
+T734.5688026860007 reject: "recontextualize"
+T737.9446038270253 🤔 extract_1 #127 "redesign" score? -6.07
+T737.9447083220002 attempt_126: "redesign" score:-6.07 prog:None
+T740.3443591450341 🤔 extract_1 #128 "reformulate" score? 1.97
+T740.344431895006 attempt_127: "reformulate" score:1.97 prog:None
+T743.3688392949989 🤔 extract_1 #129 "reframe" score? !
+T743.3690108630108 reject: "reframe"
+T745.9930473690038 🤔 extract_1 #129 "reshape" score? 14.7
+T745.9933046870283 attempt_128: "reshape" score:14.70 prog:None
+T749.5044080520165 🤔 extract_1 #130 "resolve" score? 6.59
+T749.504561609996 attempt_129: "resolve" score:6.59 prog:None
+T753.4496001779917 🤔 extract_1 #131 "rethink" score? 7.8
+T753.4497960950248 attempt_130: "rethink" score:7.80 prog:None
+T756.2088983540307 🤔 extract_1 #132 "revise" score? 5.17
+T756.209146543988 attempt_131: "revise" score:5.17 prog:None
+T760.4809726870153 🤔 extract_1 #133 "stabilize" score? 5.98
+T760.4811642630375 attempt_132: "stabilize" score:5.98 prog:None
+T763.3127949120244 🤔 extract_1 #134 "support" score? 3.98
+T763.3130178439897 attempt_133: "support" score:3.98 prog:None
+T767.1846630829968 🤔 extract_1 #135 "uphold" score? 13.71
+T767.184911874996 attempt_134: "uphold" score:13.71 prog:None
+T774.1685470730299 #136 ? *20 t4
+T774.1687637210125 session clear
+T774.1688581220224 session: {"role": "user", "content": "give me 20 words that are similar to \"consist\", \"hold\", \"translate\", and \"echo\""}
+T782.6864630830241 session: {"role": "assistant", "content": "Here are 20 words that are similar to \"consist\", \"hold\", \"translate\", and \"echo\":\n\n1. Remain\n2. Persist\n3. Endure\n4. Maintain\n5. Continue\n6. Resist\n7. Sustain\n8. Persistently\n9. Keep\n10. Retain\n11. Abide\n12. Endure\n13. Persevere\n14. Survive\n15. Last\n16. Remainder\n17. Stagnate\n18. Anchor\n19. Imbue\n20. Resonate"}
+T784.3844923709985 #136 extract_1
+T787.9920900370344 🤔 extract_1 #136 "persistently" score? -8.36
+T787.9921773860115 attempt_135: "persistently" score:-8.36 prog:None
+T791.2650783880381 🤔 extract_1 #137 "remainder" score? 6.11
+T791.2653329120367 attempt_136: "remainder" score:6.11 prog:None
+T793.7208986959886 🤔 extract_1 #138 "stagnate" score? 15.21
+T793.7211351860315 attempt_137: "stagnate" score:15.21 prog:None
+T797.6731265719864 #139 ? *15 t3
+T797.6734839529963 session clear
+T797.6736786260153 session: {"role": "user", "content": "give me 15 words that are similar to \"consist\", \"hold\", and \"translate\""}
+T804.1391271150205 session: {"role": "assistant", "content": "Here are 15 words that are similar to \"consist,\" \"hold,\" and \"translate\":\n\n1. Endure\n2. Maintain\n3. Sustain\n4. Abide\n5. Remain\n6. Persist\n7. Continue\n8. Persistently\n9. Endue\n10. Persevere\n11. Resist\n12. Keep\n13. Preserve\n14. Last\n15. Survive"}
+T806.3048164159991 #139 ? *10 t2
+T806.3052378959837 session clear
+T806.3053589410265 session: {"role": "user", "content": "give me 10 words that are similar to \"consist\" and \"hold\""}
+T810.9062407719903 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"consist\" and \"hold\":\n\n1. Contain\n2. Keep\n3. Maintain\n4. Preserve\n5. Endure\n6. Sustain\n7. Undergo\n8. Support\n9. Uphold\n10. Remain"}
+T812.4888423340162 #139 extract_1
+T817.8488322920166 🤔 extract_1 #139 "contain" score? 25.3 500
+T817.8490880340105 attempt_138: "contain" score:25.30 prog:500
+T822.9454332159949 🤔 extract_1 #140 "undergo" score? 26.76 620
+T822.9456945109996 attempt_139: "undergo" score:26.76 prog:620
+T825.0177686940297 #141 ? *5 t1
+T825.0180146310013 session clear
+T825.0181270639878 session: {"role": "user", "content": "give me 5 words that are similar to \"consist\""}
+T827.7491337530082 session: {"role": "assistant", "content": "Here are 5 words that are similar to \"consist\":\n\n1. Make\n2. Contain\n3. Comprise\n4. Form\n5. Include"}
+T828.7847287959885 #141 extract_1
+T838.3129571750178 🤔 extract_1 #141 "comprise" score? 27.25 656
+T838.313190165034 attempt_140: "comprise" score:27.25 prog:656
+T845.0810074090259 🤔 extract_1 #142 "form" score? 12.87
+T845.0812682380201 attempt_141: "form" score:12.87 prog:None
+T851.9365668090177 🤔 extract_1 #143 "include" score? 45.98 983
+T851.936750952038 attempt_142: "include" score:45.98 prog:983
+T857.7370415250189 🤔 extract_1 #144 "make" score? 26.1 565
+T857.7372886440135 attempt_143: "make" score:26.10 prog:565
+T860.2328749169828 #145 ? *10 t2
+T860.2330619890126 session clear
+T860.2331456210231 session: {"role": "user", "content": "give me 10 words that are similar to \"consist\" and \"include\""}
+T865.1113052500295 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"consist\" and \"include\":\n\n1. Contain\n2. Make up\n3. Comprise\n4. Form\n5. Build\n6. Consist of\n7. Inhabit\n8. Resident\n9. Belong\n10. Encompass"}
+T867.4004734710325 #145 extract_1
+T870.1049483940005 🤔 extract_1 #145 "belong" score? 13.71
+T870.1051878280123 attempt_144: "belong" score:13.71 prog:None
+T872.9606824790244 🤔 extract_1 #146 "build" score? 5.67
+T872.9608564290102 attempt_145: "build" score:5.67 prog:None
+T880.048911380989 🤔 extract_1 #147 "encompass" score? 37.02 932
+T880.0491134180338 attempt_146: "encompass" score:37.02 prog:932
+T889.9766770140268 🤔 extract_1 #148 "inhabit" score? 2.53
+T889.9768741350272 attempt_147: "inhabit" score:2.53 prog:None
+T893.2164780320018 🤔 extract_1 #149 "resident" score? -1.52
+T893.2166530090035 attempt_148: "resident" score:-1.52 prog:None
+T896.3367474399856 #150 ? *15 t3
+T896.3369830760057 session clear
+T896.337094485003 session: {"role": "user", "content": "give me 15 words that are similar to \"consist\", \"include\", and \"encompass\""}
+T903.2171341080102 session: {"role": "assistant", "content": "Here are 15 words that are similar to \"consist\", \"include\", and \"encompass\":\n\n1. Comprise\n2. Make up\n3. Form\n4. comprise of\n5. Formulate\n6. Contain\n7. Entail\n8. Inclusive\n9. Cover\n10. Incorporate\n11. Accommodate\n12. Amalgamate\n13. Merge\n14. Constitute\n15. Abut"}
+T904.5762487769825 #150 extract_1
+T908.7045476830099 🤔 extract_1 #150 "abut" score? 15.68
+T908.7047054410214 attempt_149: "abut" score:15.68 prog:None
+T911.4169928749907 🤔 extract_1 #151 "accommodate" score? 21.79
+T911.4172295029857 attempt_150: "accommodate" score:21.79 prog:None
+T913.8168082979973 🤔 extract_1 #152 "amalgamate" score? 1.85
+T913.816980707983 attempt_151: "amalgamate" score:1.85 prog:None
+T914.1046805270016 🤔 extract_1 #153 "constitute" score? 
+T923.5605110499891 🤔 extract_1 #153 "constitute" score? 26.21
+T926.4889175170101 🤔 extract_1 #153 "constitute" 26.21°C prog‰ ? 924
+T926.4890650170273 attempt_152: "constitute" score:26.21 prog:924
+T931.3365904359962 🤔 extract_1 #154 "cover" score? 17.8
+T931.3367555899895 attempt_153: "cover" score:17.80 prog:None
+T940.3849894520245 🤔 extract_1 #155 "entail" score? 49.92 990
+T940.3852333829855 attempt_154: "entail" score:49.92 prog:990
+T948.6805015100399 🤔 extract_1 #156 "formulate" score? 14.89
+T948.6806461790111 attempt_155: "formulate" score:14.89 prog:None
+T951.84071098204 🤔 extract_1 #157 "inclusive" score? 9.69
+T951.8408438120387 attempt_156: "inclusive" score:9.69 prog:None
+T954.2561627320247 🤔 extract_1 #158 "incorporate" score? 21.55
+T954.2562991390005 attempt_157: "incorporate" score:21.55 prog:None
+T957.1039262299892 🤔 extract_1 #159 "merge" score? 4.98
+T957.1039912549895 attempt_158: "merge" score:4.98 prog:None
+T963.2079625449842 #160 ? *15 t3
+T963.2080706569832 session clear
+T963.2081253260258 session: {"role": "user", "content": "give me 15 words that are similar to \"entail\", \"consist\", and \"include\""}
+T970.2802966260351 session: {"role": "assistant", "content": "Here are 15 words that are similar to \"entail,\" \"consist,\" and \"include\":\n\n1. Contain\n2. Comprise\n3. Embody\n4. Involve\n5. Require\n6. Demand\n7. Need\n8. Call for\n9. Specify\n10. Designate\n11. Assure\n12. Guarantee\n13. Ensure\n14. Imply\n15. Suggest"}
+T971.2721283340361 #160 extract_1
+T973.5760517350282 🤔 extract_1 #160 "assure" score? 15.41
+T973.5761342099868 attempt_159: "assure" score:15.41 prog:None
+T976.9838874420384 🤔 extract_1 #161 "call" score? 13.22
+T976.9839584589936 attempt_160: "call" score:13.22 prog:None
+T979.7839971079957 🤔 extract_1 #162 "demand" score? 6.05
+T979.784061082988 attempt_161: "demand" score:6.05 prog:None
+T984.1600816930295 🤔 extract_1 #163 "designate" score? 16.58
+T984.1601912550395 attempt_162: "designate" score:16.58 prog:None
+T986.7929541750345 🤔 extract_1 #164 "embody" score? 17.54
+T986.7930198810063 attempt_163: "embody" score:17.54 prog:None
+T988.9439935149858 🤔 extract_1 #165 "ensure" score? 14.39
+T988.9440599519876 attempt_164: "ensure" score:14.39 prog:None
+T991.3203275590204 🤔 extract_1 #166 "guarantee" score? 20.17
+T991.3204118220019 attempt_165: "guarantee" score:20.17 prog:None
+T996.6720847259858 🤔 extract_1 #167 "imply" score? 32.39 866
+T996.6722072429839 attempt_166: "imply" score:32.39 prog:866
+T1002.9043635120033 🤔 extract_1 #168 "involve" score? 48.72 987
+T1002.9044472679961 attempt_167: "involve" score:48.72 prog:987
+T1005.9047803810099 🤔 extract_1 #169 "need" score? 8.19
+T1005.9049727410311 attempt_168: "need" score:8.19 prog:None
+T1014.0086790909991 🤔 extract_1 #170 "require" score? 37.1 933
+T1014.0089272620389 attempt_169: "require" score:37.10 prog:933
+T1019.3686349120107 🤔 extract_1 #171 "specify" score? 18.95
+T1019.3687583089923 attempt_170: "specify" score:18.95 prog:None
+T1026.9285852719913 🤔 extract_1 #172 "suggest" score? 26.51 599
+T1026.9287844800274 attempt_171: "suggest" score:26.51 prog:599
+T1034.264960526023 #173 ? /prog
+T1040.04083329899 #173 ? *10 t3
+T1040.0410626120283 session clear
+T1040.0411825380288 session: {"role": "user", "content": "give me 10 words that are similar to \"entail\", \"involve\", and \"consist\""}
+T1045.7740705769975 session: {"role": "assistant", "content": "Here are ten words that are similar to \"entail\", \"involve\", and \"consist\":\n\n1. Include\n2. Contain\n3. Comprise\n4. Make up\n5. Form part of\n6. Belong to\n7. Relate to\n8. Connect with\n9. Stem from\n10. Originate from"}
+T1056.129009436001 #173 extract_1
+T1059.2405707330327 🤔 extract_1 #173 "connect" score? 6.17
+T1059.2407599620055 attempt_172: "connect" score:6.17 prog:None
+T1064.560824196029 🤔 extract_1 #174 "originate" score? 27.04 639
+T1064.5610228970181 attempt_173: "originate" score:27.04 prog:639
+T1069.0327993539977 🤔 extract_1 #175 "relate" score? 27.32 661
+T1069.0329719950096 attempt_174: "relate" score:27.32 prog:661
+T1073.6887768119923 🤔 extract_1 #176 "stem" score? 25.25 491
+T1073.688953776029 attempt_175: "stem" score:25.25 prog:491
+T1075.8568768920377 #177 ? *10 t2
+T1075.8571532019996 session clear
+T1075.8572881610016 session: {"role": "user", "content": "give me 10 words that are similar to \"entail\" and \"involve\""}
+T1082.5217924600001 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"entail\" and \"involve\":\n\n1. Require\n2. Involves\n3. Imply\n4. Conclude\n5. Involve (synonym)\n6. Contain\n7. Include\n8. Relate\n9. Necessitate\n10. Call for\n\nThese words convey similar meanings to \"entail\" and \"involve\", such as implying a connection, necessity, or requirement."}
+T1083.881118667021 #177 extract_1
+T1089.4649243699969 🤔 extract_1 #177 "conclude" score? 41.06 967
+T1089.4651217960054 attempt_176: "conclude" score:41.06 prog:967
+T1093.9206586130313 🤔 extract_1 #178 "involves" score? !involve
+T1093.9207921430352 reject: "involves"
+T1099.6813212570269 🤔 extract_1 #178 "necessitate" score? 50 991
+T1099.681870943983 attempt_177: "necessitate" score:50.00 prog:991
+T1104.3367790899938 #179 ? *15 t3
+T1104.3369964479934 session clear
+T1104.3370982310153 session: {"role": "user", "content": "give me 15 words that are similar to \"necessitate\", \"entail\", and \"involve\""}
+T1115.3327669900027 session: {"role": "assistant", "content": "Here are 15 words that are similar to \"necessitate\", \"entail\", and \"involve\":\n\n1. Require\n2. Demand\n3. Call for\n4. Mandate\n5. Necessary\n6. Essential\n7. Obligate\n8. Compel\n9. Force\n10. Impose\n11. Dictate\n12. Constitute\n13. Formulate\n14. Prescribe\n15. Suggest\n\nThese words all convey the idea that something needs to be done or considered in order to achieve a certain outcome, solve a problem, or meet a requirement.\n\nNote: Some of these words may have slightly different connotations or nuances, but they all generally convey a sense of necessity, obligation, or requirement."}
+T1116.7768906980054 #179 extract_1
+T1119.3531106500304 🤔 extract_1 #179 "compel" score? 21.32
+T1119.3533656370128 attempt_178: "compel" score:21.32 prog:None
+T1123.9770163089852 🤔 extract_1 #180 "dictate" score? 29.01
+T1129.3046439110185 🤔 extract_1 #180 "dictate" 29.01°C prog‰ ? 743
+T1129.3048700219952 attempt_179: "dictate" score:29.01 prog:743
+T1132.1129507080186 🤔 extract_1 #181 "essential" score? 13.94
+T1132.1131443560007 attempt_180: "essential" score:13.94 prog:None
+T1136.7284664260224 🤔 extract_1 #182 "force" score? 11.97
+T1136.728613011015 attempt_181: "force" score:11.97 prog:None
+T1140.9529111349839 🤔 extract_1 #183 "impose" score? 13.27
+T1140.9530670479871 attempt_182: "impose" score:13.27 prog:None
+T1143.7611287200125 🤔 extract_1 #184 "mandate" score? 1.63
+T1143.7613350879983 attempt_183: "mandate" score:1.63 prog:None
+T1149.0249093450257 🤔 extract_1 #185 "necessary" score? 21.83 1
+T1149.025132209994 attempt_184: "necessary" score:21.83 prog:1
+T1152.3449176889844 🤔 extract_1 #186 "obligate" score? 21.17
+T1152.345110254013 attempt_185: "obligate" score:21.17 prog:None
+T1155.6967216290068 🤔 extract_1 #187 "prescribe" score? 13.24
+T1155.6968907880364 attempt_186: "prescribe" score:13.24 prog:None
+T1171.7210454260348 #188 ? /prog
+T1174.99268213904 #188 ? *10 t2
+T1174.9928708900115 session clear
+T1174.9929569310043 session: {"role": "user", "content": "give me 10 words that are similar to \"necessitate\" and \"entail\""}
+T1179.9038520670147 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"necessitate\" and \"entail\":\n\n1. Require\n2. Demand\n3. Mandate\n4. Prescribe\n5. Dictate\n6. Command\n7. Mandate\n8. Need\n9. Compel\n10. Imperative"}
+T1181.7210885850363 #188 extract_1
+T1184.0807772059925 🤔 extract_1 #188 "command" score? 7.03
+T1184.0809524200158 attempt_187: "command" score:7.03 prog:None
+T1186.6490243340377 🤔 extract_1 #189 "imperative" score? 7.74
+T1186.6492742730188 attempt_188: "imperative" score:7.74 prog:None
+T1191.8327819859842 #190 ? *5 t1
+T1191.832995707984 session clear
+T1191.8330875830143 session: {"role": "user", "content": "give me 5 words that are similar to \"necessitate\""}
+T1194.6373990830034 session: {"role": "assistant", "content": "Here are five words that are similar to \"necessitate\":\n\n1. Require\n2. Mandate\n3. Demand\n4. Prescribe\n5. Obligate"}
+T1199.6648596129962 #190 ? /prog
+T1208.3608674760326 #190 ? *10 $1 #177
+T1208.3611002790276 session clear
+T1208.3612064369954 session: {"role": "user", "content": "give me 10 words that are similar to \"necessitate\" and \"conclude\""}
+T1217.4768655039952 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"necessitate\" and \"conclude\":\n\n1. Compel\n2. Dictate\n3. Impose\n4. Mandate\n5. Require\n6. Insist\n7. Compelment (a rare word, but similar in meaning)\n8. Enjoin\n9. Ordain\n10. Prescribe\n\nThese words all convey a sense of something being necessary or required, often with an element of authority or obligation involved.\n\n(Note: Some of these words may have slightly different connotations or nuances, but they are generally related to the concepts of necessity and conclusion.)"}
+T1219.0009354079957 #190 extract_1
+T1221.5686921490123 🤔 extract_1 #190 "compelment" score? !
+T1221.568815303035 reject: "compelment"
+T1224.2886035720003 #190 extract_1
+T1227.2083968890365 🤔 extract_1 #190 "enjoin" score? 12.41
+T1227.208542279026 attempt_189: "enjoin" score:12.41 prog:None
+T1230.1128091610153 🤔 extract_1 #191 "insist" score? 14.01
+T1230.1129915750353 attempt_190: "insist" score:14.01 prog:None
+T1232.7609632069943 🤔 extract_1 #192 "ordain" score? 14.06
+T1232.761200952984 attempt_191: "ordain" score:14.06 prog:None
+T1236.016795736039 #193 ? /prog
+T1242.5206048560212 #193 ? *30 t6
+T1242.5207981260028 session clear
+T1242.5209002540214 session: {"role": "user", "content": "give me 30 words that are similar to \"necessitate\", \"entail\", \"involve\", \"consist\", \"include\", and \"conclude\""}
+T1255.187154890038 session: {"role": "assistant", "content": "Here are 30 words that are similar to the ones you provided:\n\n1. Require\n2. Demand\n3. Involve\n4. Comprise\n5. Encompass\n6. Incluse\n7. Involves\n8. Need\n9. necessitate\n10. Beget\n11. Generate\n12. Stem\n13. Originate\n14. Arise\n15. Emerge\n16. Follow\n17. Result\n18. Endorse\n19. Uphold\n20. Support\n21. Guarantee\n22. Ensure\n23. Certify\n24. Assert\n25. Prove\n26. Deduce\n27. Derive\n28. Obtain\n29. Procure\n30. Sustain\n\nThese words all convey a sense of necessity, involvement, or inclusion, similar to the original list."}
+T1256.3928160929936 #193 extract_1
+T1264.9769835780025 🤔 extract_1 #193 "arise" score? 37.41 937
+T1264.9771643980057 attempt_192: "arise" score:37.41 prog:937
+T1268.3687465540133 🤔 extract_1 #194 "assert" score? 13.05
+T1268.3689659269876 attempt_193: "assert" score:13.05 prog:None
+T1274.5134576500277 🤔 extract_1 #195 "beget" score? 44.09 977
+T1274.5137417810038 attempt_194: "beget" score:44.09 prog:977
+T1277.520842301019 🤔 extract_1 #196 "certify" score? 10.29
+T1277.5209874369903 attempt_195: "certify" score:10.29 prog:None
+T1281.0884270329843 🤔 extract_1 #197 "deduce" score? 12.24
+T1281.0886423880002 attempt_196: "deduce" score:12.24 prog:None
+T1286.6247422170127 🤔 extract_1 #198 "derive" score? 24.05 353
+T1286.6249959350098 attempt_197: "derive" score:24.05 prog:353
+T1293.8889821220073 🤔 extract_1 #199 "emerge" score? 28.14 704
+T1293.8891999020125 attempt_198: "emerge" score:28.14 prog:704
+T1298.19255661004 🤔 extract_1 #200 "endorse" score? 17.77
+T1298.1927001239965 attempt_199: "endorse" score:17.77 prog:None
+T1303.1771670180024 🤔 extract_1 #201 "follow" score? 42.05 973
+T1303.177448093018 attempt_200: "follow" score:42.05 prog:973
+T1308.8488213770324 🤔 extract_1 #202 "generate" score? 26.61 608
+T1308.8490327780019 attempt_201: "generate" score:26.61 prog:608
+T1312.4729060489917 🤔 extract_1 #203 "incluse" score? !
+T1312.4730782349943 reject: "incluse"
+T1315.4409967539832 🤔 extract_1 #203 "obtain" score? 11.26
+T1315.441227642994 attempt_202: "obtain" score:11.26 prog:None
+T1318.2084761459846 🤔 extract_1 #204 "procure" score? 1.92
+T1318.2085383069934 attempt_203: "procure" score:1.92 prog:None
+T1324.2409012889839 🤔 extract_1 #205 "result" score? 29.44 771
+T1324.24108514603 attempt_204: "result" score:29.44 prog:771
+T1345.7693229319993 #206 ? /prog
+T1349.0088313110173 #206 ? *10 t2
+T1349.0090394850122 session clear
+T1349.0091274360311 session: {"role": "user", "content": "give me 10 words that are similar to \"necessitate\" and \"entail\""}
+T1353.8561556140194 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"necessitate\" and \"entail\":\n\n1. Require\n2. Demand\n3. Mandate\n4. Compel\n5. Imperative\n6. Mandatory\n7. Need\n8. Must\n9. Prescribe\n10. Dictate"}
+T1355.712359083991 #206 extract_1
+T1358.7125429899897 🤔 extract_1 #206 "mandatory" score? 19.95
+T1358.7126691740123 attempt_205: "mandatory" score:19.95 prog:None
+T1361.7446855750168 🤔 extract_1 #207 "must" score? 6.42
+T1361.7449161289842 attempt_206: "must" score:6.42 prog:None
+T1365.4815948010073 #208 ? *20 t2
+T1365.4819062770111 session clear
+T1365.482029523002 session: {"role": "user", "content": "give me 20 words that are similar to \"necessitate\" and \"entail\""}
+T1373.3678972910275 session: {"role": "assistant", "content": "Here are 20 words that are similar to \"necessitate\" and \"entail\":\n\n1. Require\n2. Need\n3. Mandate\n4. Demand\n5. Prescribe\n6. Dictate\n7. Impose\n8. Command\n9. Order\n10. Compel\n11. Forbid\n12. Prohibit\n13. Restrict\n14. Regulate\n15. Govern\n16. Control\n17. Authorize\n18. Mandatory\n19. Obligate\n20. Necessary"}
+T1374.8328265040182 #208 extract_1
+T1379.009044912993 🤔 extract_1 #208 "authorize" score? 18.03
+T1379.0092670450103 attempt_207: "authorize" score:18.03 prog:None
+T1383.5284805329866 🤔 extract_1 #209 "control" score? -.01
+T1383.528633866983 attempt_208: "control" score:-0.01 prog:None
+T1390.369492472033 🤔 extract_1 #210 "forbid" score? 22.09 60
+T1390.3697585400078 attempt_209: "forbid" score:22.09 prog:60
+T1393.680927745998 🤔 extract_1 #211 "govern" score? 13.49 
+T1400.0731049570022 🤔 extract_1 #211 "govern" score? 13.49
+T1400.0733683219878 attempt_210: "govern" score:13.49 prog:None
+T1405.5925965820206 🤔 extract_1 #212 "order" score? 4.06
+T1405.5927091219928 attempt_211: "order" score:4.06 prog:None
+T1413.1769156529917 🤔 extract_1 #213 "prohibit" score? 23.79 316
+T1413.177098590997 attempt_212: "prohibit" score:23.79 prog:316
+T1416.9209688479896 🤔 extract_1 #214 "regulate" score? 14.64
+T1416.92117408599 attempt_213: "regulate" score:14.64 prog:None
+T1420.800641379028 🤔 extract_1 #215 "restrict" score? 19.43
+T1420.8007180060376 attempt_214: "restrict" score:19.43 prog:None
+T1429.9127339799888 #216 ? /last
+T1451.2170206040028 #216 ? > keep going, give me 20 more that are different from those but similar to $1 and $2
+T1451.2173595150234 session: {"role": "user", "content": "keep going, give me 20 more that are different from those but similar to \"necessitate\" and \"entail\""}
+T1463.1954887210159 session: {"role": "assistant", "content": "Here are 20 more words that are similar to \"necessitate\" and \"entail\", but distinct:\n\n1. Incumbent\n2. Essential\n3. Inevitable\n4. Indispensable\n5. Compulsory\n6. Necessary\n7. Presumptive\n8. Consequential\n9. Derivative\n10. Supplemental\n11. Adverse\n12. Oppressive\n13. Imposed\n14. Mandatory\n15. Obligatory\n16. Duty-bound\n17. Fated\n18. Inevitable\n19. Preceding\n20. Subsequent\n\nThese words all convey a sense of causality, obligation, or requirement, similar to \"necessitate\" and \"entail\"."}
+T1464.6808483470231 #216 extract_1
+T1467.6647124169976 🤔 extract_1 #216 "adverse" score? 17.72
+T1467.6648947159993 attempt_215: "adverse" score:17.72 prog:None
+T1471.4171497860225 🤔 extract_1 #217 "bound" score? 13.61
+T1471.4173607600387 attempt_216: "bound" score:13.61 prog:None
+T1474.696582212986 🤔 extract_1 #218 "compulsory" score? 15.93
+T1474.6967144020018 attempt_217: "compulsory" score:15.93 prog:None
+T1480.2011073080357 🤔 extract_1 #219 "consequential" score? 25.93 553
+T1480.2013810470235 attempt_218: "consequential" score:25.93 prog:553
+T1483.4007913389942 🤔 extract_1 #220 "derivative" score? 13.45
+T1483.4009639630094 attempt_219: "derivative" score:13.45 prog:None
+T1485.3769541920046 🤔 extract_1 #221 "duty" score? 1.1
+T1485.3771278230124 attempt_220: "duty" score:1.10 prog:None
+T1488.2649744389928 🤔 extract_1 #222 "fated" score? 16.84
+T1488.2651700610295 attempt_221: "fated" score:16.84 prog:None
+T1490.76095596503 🤔 extract_1 #223 "imposed" score? 11.72
+T1490.7611649570172 attempt_222: "imposed" score:11.72 prog:None
+T1494.040918163024 🤔 extract_1 #224 "incumbent" score? -8.29
+T1494.0410926440381 attempt_223: "incumbent" score:-8.29 prog:None
+T1496.6968569239834 🤔 extract_1 #225 "indispensable" score? 8.94
+T1496.697030471987 attempt_224: "indispensable" score:8.94 prog:None
+T1504.384940072021 🤔 extract_1 #226 "inevitable" score? 33.14 886
+T1504.3851802769932 attempt_225: "inevitable" score:33.14 prog:886
+T1512.0806298750103 🤔 extract_1 #227 "obligatory" score? 26.56 605
+T1512.080782960984 attempt_226: "obligatory" score:26.56 prog:605
+T1516.9768390500103 🤔 extract_1 #228 "oppressive" score? 2.85
+T1516.9770191870048 attempt_227: "oppressive" score:2.85 prog:None
+T1522.1928196370136 🤔 extract_1 #229 "preceding" score? !procede
+T1522.1929576009861 reject: "preceding"
+T1530.2093228930025 🤔 corrected #229 "procede" score? !
+T1530.209536607028 reject: "procede"
+T1533.944661409012 🤔 extract_1 #229 "presumptive" score? 6.9
+T1533.9447929179878 attempt_228: "presumptive" score:6.90 prog:None
+T1540.3206351349945 🤔 extract_1 #230 "subsequent" score? 44.12 979
+T1540.3208710550098 attempt_229: "subsequent" score:44.12 prog:979
+T1543.3770505480352 🤔 extract_1 #231 "supplemental" score? 8.43
+T1543.3772419060115 attempt_230: "supplemental" score:8.43 prog:None
+T1545.9047128260136 #232 ? /prog
+T1575.544628283009 #232 ? * #226 #230 $1
+T1575.5448455900187 session clear
+T1575.544942566019 session: {"role": "user", "content": "give me 10 words that are similar to \"inevitable\", \"subsequent\", and \"necessitate\""}
+T1585.030790698016 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"inevitable\", \"subsequent\", and \"necessitate\":\n\n1. Unavoidable\n2. Inescapable\n3. Mandatory\n4. Required\n5. Irresistible\n6. Indispensable\n7. Compelled\n8. Consequential\n9. Unpreventable\n10. Unavoidable (note: I know you requested 10 words, but \"unavoidable\" was mentioned twice to provide a comprehensive list)\n\nThese words convey similar meanings as the original three, such as implying something is unavoidable or mandatory, or that it has consequences or requirements."}
+T1586.4335610250128 #232 extract_1
+T1590.8086031799903 🤔 extract_1 #232 "compelled" score? !compel
+T1590.8087869260344 reject: "compelled"
+T1597.2007581330254 #232 extract_1
+T1601.2486724940245 🤔 extract_1 #232 "inescapable" score? 19.08
+T1601.2488610690343 attempt_231: "inescapable" score:19.08 prog:None
+T1603.9450208680355 🤔 extract_1 #233 "irresistible" score? 8.53
+T1603.945284335001 attempt_232: "irresistible" score:8.53 prog:None
+T1610.1768057260197 🤔 extract_1 #234 "required" score? 23.42 276
+T1610.1769938340294 attempt_233: "required" score:23.42 prog:276
+T1619.144914539007 🤔 extract_1 #235 "unavoidable" score? 29.3 765
+T1619.1451151100337 attempt_234: "unavoidable" score:29.30 prog:765
+T1621.8486836309894 🤔 extract_1 #236 "unpreventable" score? 20
+T1621.848798062012 attempt_235: "unpreventable" score:20.00 prog:None
+T1629.968805993034 #237 ? /prog
+T1639.4567944090231 #237 ? * $1 #230
+T1639.4569794760318 session clear
+T1639.4570628880174 session: {"role": "user", "content": "give me 10 words that are similar to \"necessitate\" and \"subsequent\""}
+T1645.967130864039 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"necessitate\" and \"subsequent\":\n\n1. Mandate\n2. Require\n3. Demand\n4. Consequence\n5. Imply\n6. Dictate\n7. Follow\n8. Derive\n9. Impel\n10. Succeed\n\nThese words all convey a sense of necessity, obligation, or logical progression, similar to \"necessitate\" and \"subsequent\"."}
+T1647.0166084250086 #237 extract_1
+T1653.1689630399924 🤔 extract_1 #237 "consequence" score? 26.63 614
+T1653.1692120329826 attempt_236: "consequence" score:26.63 prog:614
+T1657.0167677460122 🤔 extract_1 #238 "impel" score? 16.84
+T1657.0169432790135 attempt_237: "impel" score:16.84 prog:None
+T1659.80912236101 🤔 extract_1 #239 "succeed" score? 12.42
+T1659.8093475170317 attempt_238: "succeed" score:12.42 prog:None
+T1665.8007634740206 #240 ? /prog
+T1668.7928266850067 #240 ? *2 #230
+T1668.7930087820278 session clear
+T1668.7930867990362 session: {"role": "user", "content": "give me 2 words that are similar to \"subsequent\""}
+T1670.5759659220348 session: {"role": "assistant", "content": "Two words that are similar to \"subsequent\" are:\n\n1. Following\n2. Sequential"}
+T1677.6026406470337 #240 ? /e
+T1681.401084940997 #240 extract_1
+T1686.4729982650024 🤔 extract_1 #240 "following" score? 38.37 949
+T1686.4732261379831 attempt_239: "following" score:38.37 prog:949
+T1689.120817359013 🤔 extract_1 #241 "sequential" score? 15.83
+T1689.1209762470098 attempt_240: "sequential" score:15.83 prog:None
+T1692.8187796759885 #242 ? * $2 #230
+T1692.8190778850112 session clear
+T1692.8192142969929 session: {"role": "user", "content": "give me 10 words that are similar to \"entail\" and \"subsequent\""}
+T1697.4831181530026 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"entail\" and \"subsequent\":\n\n1. Conclude\n2. Follow\n3. Arise\n4. Issue\n5. Result\n6. Stem\n7. Proceed\n8. Flow\n9. Derive\n10. Transpire"}
+T1698.585068733024 #242 extract_1
+T1701.3371912020375 🤔 extract_1 #242 "flow" score? 9.36
+T1701.337447791011 attempt_241: "flow" score:9.36 prog:None
+T1704.2248370100278 🤔 extract_1 #243 "issue" score? 6.54
+T1704.2250286359922 attempt_242: "issue" score:6.54 prog:None
+T1721.7449686219916 🤔 extract_1 #244 "proceed" score? 27.22 654
+T1721.7451905880007 attempt_243: "proceed" score:27.22 prog:654
+T1731.7210553379846 🤔 extract_1 #245 "transpire" score? 27.57 674
+T1731.7213142460096 attempt_244: "transpire" score:27.57 prog:674
+T1736.1848587740096 #246 ? /prog
+T1746.6577657390153 #246 ? *50 t10
+T1746.6579736639978 session clear
+T1746.658077250002 session: {"role": "user", "content": "give me 50 words that are similar to \"necessitate\", \"entail\", \"involve\", \"consist\", \"include\", \"subsequent\", \"beget\", \"follow\", \"conclude\", and \"following\""}
+T1766.6243572030216 session: {"role": "assistant", "content": "Here are 50 words that are similar in meaning to the given words:\n\n1. Require\n2. Involve\n3. Constitute\n4. Comprise\n5. Involves\n6. Pertain\n7. Pertains\n8. Relate\n9. Connect\n10. Tie\n11. Bind\n12. Entail\n13. Necessitate\n14. Suggest\n15. Imply\n16. Indicate\n17. Point to\n18. Refer\n19. Correlate\n20. Harmonize\n21. Align\n22. Correspond\n23. Coordinate\n24. Coordinate\n25. Encompass\n26. Embrace\n27. Enfold\n28. Envelop\n29. Surround\n30. Enclose\n31. Contain\n32. Include\n33. Inhabit\n34. Occupy\n35. Reside\n36. Stay\n37. Abide\n38. Dwell\n39. Rest\n40. Remain\n41. Persist\n42. Endure\n43. Survive\n44. Thrive\n45. Flourish\n46. Develop\n47. Evolve\n48. Progress\n49. Advance\n50. Ascertain\n\nThese words convey various shades of meaning related to necessity, involvement, inclusion, and other concepts that are similar to the original list."}
+T1768.825100535003 #246 extract_1
+T1776.1451905790018 🤔 extract_1 #246 "advance" score? 32.99 881
+T1776.145347746031 attempt_245: "advance" score:32.99 prog:881
+T1779.169020804984 🤔 extract_1 #247 "align" score? 15.48
+T1779.169241028023 attempt_246: "align" score:15.48 prog:None
+T1783.4891116740182 🤔 extract_1 #248 "ascertain" score? 2.68
+T1783.489370153984 attempt_247: "ascertain" score:2.68 prog:None
+T1786.0887971870252 🤔 extract_1 #249 "bind" score? 15.01
+T1786.0889526479878 attempt_248: "bind" score:15.01 prog:None
+T1790.3525841070223 🤔 extract_1 #250 "coordinate" score? 25.31
+T1796.4970477210009 🤔 extract_1 #250 "coordinate" 25.31°C prog‰ ? 502
+T1796.497255786031 attempt_249: "coordinate" score:25.31 prog:502
+T1802.0568275109981 🤔 extract_1 #251 "correlate" score? 33.66 896
+T1802.0570136859897 attempt_250: "correlate" score:33.66 prog:896
+T1809.4328081749845 🤔 extract_1 #252 "correspond" score? 38.72 953
+T1809.4329536029836 attempt_251: "correspond" score:38.72 prog:953
+T1813.4092263990315 🤔 extract_1 #253 "develop" score? 9.89
+T1813.4094685949967 attempt_252: "develop" score:9.89 prog:None
+T1816.0328277120134 🤔 extract_1 #254 "dwell" score? 15.94
+T1816.0329855480231 attempt_253: "dwell" score:15.94 prog:None
+T1818.9125415880117 🤔 extract_1 #255 "embrace" score? 9.05
+T1818.912606574013 attempt_254: "embrace" score:9.05 prog:None
+T1821.8968203520053 🤔 extract_1 #256 "enclose" score? 14.17
+T1821.8969884919934 attempt_255: "enclose" score:14.17 prog:None
+T1825.2729281689972 🤔 extract_1 #257 "enfold" score? 16.61
+T1825.2730795380194 attempt_256: "enfold" score:16.61 prog:None
+T1828.5766287290026 🤔 extract_1 #258 "envelop" score? 15.08
+T1828.576776158996 attempt_257: "envelop" score:15.08 prog:None
+T1832.8730361810303 🤔 extract_1 #259 "evolve" score? 14.46
+T1832.8732045560027 attempt_258: "evolve" score:14.46 prog:None
+T1933.5448788080248 <INT>
+T0.013582921004854143 now: 2024-11-21T14:16:21UTC
+T0.015942810976412147 session model: llama
+T11.855109184980392 <INT>
+T0.011161074042320251 now: 2024-11-21T14:17:08UTC
+T0.013760639994870871 session model: llama
+T9.82147647801321 🤔 extract_1/13 #260 "flourish" score? 12
+T9.821730215044226 attempt_259: "flourish" score:12.00 prog:None
+T17.261813275050372 🤔 extract_1/12 #261 "indicate" score? 28.49 717
+T17.262074329017196 attempt_260: "indicate" score:28.49 prog:717
+T22.845726237050258 🤔 extract_1/11 #262 "occupy" score? 12.23
+T22.845943872001953 attempt_261: "occupy" score:12.23 prog:None
+T26.885760306031443 🤔 extract_1/10 #263 "pertain" score? 39.55
+T29.549726943019778 🤔 extract_1/10 #263 "pertain" 39.55°C prog‰ ? 958
+T29.549933909031097 attempt_262: "pertain" score:39.55 prog:958
+T34.509993281040806 🤔 extract_1/9 #264 "pertains" score? !pertain
+T34.51017406099709 reject: "pertains"
+T39.22953910502838 🤔 extract_1/8 #264 "point" score? 5.27
+T39.22969270701287 attempt_263: "point" score:5.27 prog:None
+T42.40531418600585 🤔 extract_1/7 #265 "progress" score? 9.91
+T42.40548428602051 attempt_264: "progress" score:9.91 prog:None
+T48.573655222018715 🤔 extract_1/6 #266 "refer" score? 26.96
+T50.78982973203529 🤔 extract_1/6 #266 "refer" 26.96°C prog‰ ? 632
+T50.7900309440447 attempt_265: "refer" score:26.96 prog:632
+T53.6453449720284 🤔 extract_1/5 #267 "reside" score? 7.18
+T53.645515609008726 attempt_266: "reside" score:7.18 prog:None
+T57.66939643904334 🤔 extract_1/4 #268 "rest" score? 7.01
+T57.669544478994794 attempt_267: "rest" score:7.01 prog:None
+T64.84584757103585 🤔 extract_1/3 #269 "surround" score? 19.63
+T64.84608807903714 attempt_268: "surround" score:19.63 prog:None
+T68.277125084016 🤔 extract_1/2 #270 "thrive" score? 8.23
+T68.2773692740011 attempt_269: "thrive" score:8.23 prog:None
+T72.16586030402686 🤔 extract_1/1 #271 "tie" score? 8.66
+T72.16610088304151 attempt_270: "tie" score:8.66 prog:None
+T78.64541150903096 <INT>
+T0.01167643500957638 now: 2024-11-21T15:17:48UTC
+T0.01439515600213781 session model: llama
+T7.025972875999287 #272 ? /prog
+T16.985965457977727 #272 ? *20 t4
+T16.986803791020066 session clear
+T16.987129229004495 chat_prompt: {"prompt": "give me 20 words that are similar to $1, $2, $3, and $4", "vars": [1, 2, 3, 4], "ords": []}
+T16.987279488996137 session: {"role": "user", "content": "give me words that are similar to \"necessitate\", \"entail\", \"involve\", and \"consist\""}
+T35.243136179982685 session: {"role": "assistant", "content": "Here are some words that are similar to the ones you listed:\n\n**Similar to \"Necessitate\"**\n\n* Require\n* Mandate\n* Compel\n* Dictate\n* Demand\n\nThese words all convey the idea of something being necessary or obligatory.\n\n**Similar to \"Entail\"**\n\n* Imply\n* Suggest\n* Conclude\n* Deduce\n* Involves (note: while I listed \"involve\" earlier, it's worth noting that it can also imply a sense of necessity or consequence)\n\nThese words all convey the idea of something being connected to or resulting from another thing.\n\n**Similar to \"Involve\"**\n\n* Incorporate\n* Include\n* Encompass\n* Comprise\n* Accompany\n\nThese words all convey the idea of something being part of or related to something else.\n\n**Similar to \"Consist\"**\n\n* Make up\n* Compose\n* Form\n* Develop\n* Originate\n\nThese words all convey the idea of something existing or being composed of something else.\n\nLet me know if you'd like more suggestions!"}
+T56.04207254498033 #272 ? > simplify your last response, enumerate only the suggested words
+T80.39397836499847 <INT>
+T0.011757545988075435 now: 2024-11-21T15:22:31UTC
+T0.014491241017822176 session model: llama
+T2.581772914971225 #272 ? /e
+T5.454393155989237 #272 ? /last
+T561.8795206780196 <INT>
+T0.011719546979293227 now: 2024-11-21T15:31:54UTC
+T0.014411243959330022 session model: llama
+T1.0311764849466272 #272 ? /last
+T3.191052411973942 <INT>
+T0.011794270016252995 now: 2024-11-21T15:32:08UTC
+T0.014532338012941182 session model: llama
+T3.8746090120403096 #272 ? /last
+T88.98924736800836 <INT>
+T0.012040395988151431 now: 2024-11-21T15:33:39UTC
+T0.014709443028550595 session model: llama
+T1.3501069910125807 #272 ? /last
+T3.2066066940315068 <INT>
+T0.011968449980486184 now: 2024-11-21T15:33:56UTC
+T0.014554349996615201 session model: llama
+T1.1576717940042727 #272 ? /last
+T5.9457395619829185 <INT>
+T0.011710377992130816 now: 2024-11-21T15:34:36UTC
+T0.01441623899154365 session model: llama
+T2.0634841099963523 #272 ? /last
+T15.895885545993224 #272 ? > simplify your last response, enumerating only the suggested words
+T15.896634289994836 session: {"role": "user", "content": "simplify your last response, enumerating only the suggested words"}
+T35.72915433999151 session: {"role": "assistant", "content": "Here are the simplified lists:\n\n**Similar to \"Necessitate\"**\n\n1. Require\n2. Mandate\n3. Compel\n4. Dictate\n5. Demand\n\n**Similar to \"Entail\"**\n\n1. Imply\n2. Suggest\n3. Conclude\n4. Deduce\n\n**Similar to \"Involve\"**\n\n1. Incorporate\n2. Include\n3. Encompass\n4. Comprise\n5. Accompany\n\n**Similar to \"Consist\"**\n\n1. Make up\n2. Compose\n3. Form\n4. Develop\n5. Originate"}
+T39.88764810800785 #272 ? /last
+T51.29581291397335 #272 ? /e
+T54.03238858102122 #272 extract_1
+T59.34366978297476 🤔 extract_1/2 #272 "accompany" score? 52.14 993
+T59.34383183601312 attempt_271: "accompany" score:52.14 prog:993
+T69.8319130979944 🤔 extract_1/1 #273 "compose" score? 
+T72.15168080100557 #273 ? /e
+T96.17575353902066 <INT>
+T0.012335097999311984 now: 2024-11-21T15:38:22UTC
+T0.01497474597999826 session model: llama
+T3.242503563989885 #273 ? /e
+T67.39425341697643 <INT>
+T0.012111574993468821 now: 2024-11-21T15:39:30UTC
+T0.014864274009596556 session model: llama
+T5.071798098972067 #273 extract__
+T5.071798098972068 chat_prompt: _
+T5.072470746003091 session: {"role": "user", "content": "give me words that are similar to \"accompany\", \"necessitate\", \"entail\", and \"involve\""}
+T15.498369447013829 session: {"role": "assistant", "content": "Here are the lists:\n\n**Similar to \"Accompany\"**\n\n1. Converse\n2. Interact\n3. Associate\n4. Attach\n5. Join\n\n**Similar to \"Necessitate\"**\n\n1. Require\n2. Mandate\n3. Compel\n4. Dictate\n5. Demand\n\n**Similar to \"Entail\"**\n\n1. Imply\n2. Suggest\n3. Conclude\n4. Deduce\n5. Follow\n\n**Similar to \"Involve\"**\n\n1. Incorporate\n2. Include\n3. Encompass\n4. Comprise\n5. Inhere"}
+T51.926658487995155 <INT>
+T0.014219361008144915 now: 2024-11-21T15:41:28UTC
+T0.01709439797559753 session model: llama
+T14.751074759988114 <INT>
+T0.011998173024039716 now: 2024-11-21T15:47:35UTC
+T0.014171526010613889 session model: llama
+T7.02285558602307 <INT>
+T0.012907081982120872 now: 2024-11-21T15:47:59UTC
+T0.01563740597339347 session model: llama
+T14.569863905955572 #273 extract_1
+T18.009747067990247 🤔 extract_1/6 #273 "associate" score? 7.67
+T18.00992744398536 attempt_272: "associate" score:7.67 prog:None
+T22.369960994983558 #274 extract_1
+T25.72169464197941 🤔 extract_1/5 #274 "attach" score? 17.6
+T25.721846452972386 attempt_273: "attach" score:17.60 prog:None
+T28.48987942695385 #275 extract_4
+T31.602281645988114 🤔 extract_4/4 #275 "join" score? 14.23
+T31.602496714971494 attempt_274: "join" score:14.23 prog:None
+T33.16219157498563 #276 extract_2
+T38.26606535195606 🤔 extract_2/3 #276 "inhere" score? 28.11 702
+T38.26633937895531 attempt_275: "inhere" score:28.11 prog:702
+T39.38559093995718 #277 extract_1
+T41.7137330059777 🤔 extract_1/2 #277 "converse" score? 9.28
+T41.713881154952105 attempt_276: "converse" score:9.28 prog:None
+T44.18597624497488 #278 extract_1
+T47.082051849982236 🤔 extract_1/1 #278 "interact" score? 6.99
+T47.082259293994866 attempt_277: "interact" score:6.99 prog:None
+T58.61008214094909 #279 ? /prog
+T64.05782146495767 #279 ? *15 t3
+T64.05827748397132 session clear
+T64.05849007796496 chat_prompt: {"prompt": "give me 15 words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T64.05853749898961 session: {"role": "user", "content": "give me words that are similar to \"accompany\", \"necessitate\", and \"entail\""}
+T75.82529911096208 session: {"role": "assistant", "content": "Here are some words that are similar to \"accompany\", \"necessitate\", and \"entail\":\n\nSimilar to \"accompany\":\n\n* accompany (as you mentioned)\n* support\n* aid\n* assist\n* follow\n* accompany closely or join\n\nSimilar to \"necessitate\":\n\n* require\n* necessitate (as you mentioned)\n* demand\n* necessarily imply a need for something\n* necessitates a particular action or outcome\n\nSimilar to \"entail\":\n\n* involve\n* include\n* comprise\n* contain\n* signify\n* connote\n\nThese words can be used in similar contexts as the original words, and convey similar meanings."}
+T90.99432464595884 #279 ? > simplify your last response, only enumeratin the suggested words
+T90.99464559095213 session: {"role": "user", "content": "simplify your last response, only enumeratin the suggested words"}
+T98.19783490494592 session: {"role": "assistant", "content": "Similar to \"accompany\":\n1. Support\n2. Aid\n3. Assist\n4. Follow\n\nSimilar to \"necessitate\":\n1. Require\n2. Demand\n\nSimilar to \"entail\":\n1. Involve\n2. Include\n3. Comprise\n4. Signify"}
+T100.43381055095233 #279 extract_1
+T103.49779382895213 🤔 extract_1/3 #279 "aid" score? 3.73
+T103.49797583196778 attempt_278: "aid" score:3.73 prog:None
+T104.44945868098876 #280 extract_1
+T107.23373551300028 🤔 extract_1/2 #280 "assist" score? 13.87
+T107.23387933097547 attempt_279: "assist" score:13.87 prog:None
+T113.22573508694768 #281 extract_1
+T120.69026899395976 🤔 extract_1/1 #281 "signify" score? 39.1 956
+T120.69058394798776 attempt_280: "signify" score:39.10 prog:956
+T124.3140617919853 #282 ? /prog
+T156.9060150559526 #282 ? *20 t3 #281
+T156.90628505597124 session clear
+T156.90649917296832 chat_prompt: {"prompt": "give me 20 words that are similar to #281, $1, $2, and $3", "vars": [1, 2, 3], "ords": [281]}
+T156.9065348879667 session: {"role": "user", "content": "give me words that are similar to \"signify\", \"accompany\", \"necessitate\", and \"entail\""}
+T170.1911523710005 session: {"role": "assistant", "content": "Here are some words that are similar to the ones you mentioned:\n\nSimilar to \"Signify\":\n\n* Convey\n* Indicate\n* Represent\n* Symbolize\n* Portray\n\nThese words all convey the idea of something having a meaning or significance, often through visual representation.\n\nSimilar to \"Accompany\":\n\n* Join\n* Travel with\n* Follow\n* Escort\n* Attach\n\nThese words all describe the act of going along with or accompanying someone or something.\n\nSimilar to \"Necessitate\":\n\n* Require\n* Demand\n* Mandate\n* Necessary\n* Compel\n\nThese words all convey the idea of something being required or necessary, often in a sense of obligation or necessity.\n\nSimilar to \"Entail\":\n\n* Imply\n* Suggest\n* Impose\n* Involves\n* Requires\n\nThese words all describe the act of suggesting or implying that something is true or will happen as a result of another action."}
+T190.1061429369729 #282 ? > simplify your last response, only enumerating the suggested words
+T190.10646764497506 session: {"role": "user", "content": "simplify your last response, only enumerating the suggested words"}
+T198.7284256569692 session: {"role": "assistant", "content": "Similar to \"Signify\":\n1. Convey\n2. Indicate\n3. Represent\n4. Symbolize\n5. Portray\n\nSimilar to \"Accompany\":\n1. Join\n2. Travel with\n3. Follow\n4. Escort\n5. Attach\n\nSimilar to \"Necessitate\":\n1. Require\n2. Demand\n3. Mandate\n4. Necessary\n5. Compel\n\nSimilar to \"Entail\":\n1. Imply\n2. Suggest\n3. Impose\n4. Involves\n5. Requires"}
+T202.63417159498204 #282 extract_1
+T205.84206407197053 🤔 extract_1/6 #282 "escort" score? 7.69
+T205.84224378498038 attempt_281: "escort" score:7.69 prog:None
+T208.9940925539704 #283 extract_1
+T211.3697250019759 🤔 extract_1/5 #283 "portray" score? 12.88
+T211.36991525097983 attempt_282: "portray" score:12.88 prog:None
+T213.45786433300236 #284 extract_1
+T222.0975907179527 🤔 extract_1/4 #284 "represent" score? 22.9 208
+T222.0976861899835 attempt_283: "represent" score:22.90 prog:208
+T225.01783266098937 #285 extract_1
+T228.953910695971 🤔 extract_1/3 #285 "requires" score? !require
+T228.95404695300385 reject: "requires"
+T233.18584223999642 #285 extract_1
+T237.4422406340018 🤔 extract_1/2 #285 "symbolize" score? 20.69
+T237.4424634979805 attempt_284: "symbolize" score:20.69 prog:None
+T240.35424745996716 #286 extract_1
+T243.26619730895618 🤔 extract_1/1 #286 "travel" score? 8.77
+T243.26640093396418 attempt_285: "travel" score:8.77 prog:None
+T249.6600299499696 #287 ? /prog
+T254.92992985097226 #287 ? *25 t5
+T254.9301123089972 session clear
+T254.93030138500035 chat_prompt: {"prompt": "give me 25 words that are similar to $1, $2, $3, $4, and $5", "vars": [1, 2, 3, 4, 5], "ords": []}
+T254.93034156999784 session: {"role": "user", "content": "give me words that are similar to \"accompany\", \"necessitate\", \"entail\", \"involve\", and \"consist\""}
+T265.8619089999702 session: {"role": "assistant", "content": "Here are some words that are similar in meaning to the ones you listed:\n\n1. Accompany:\n   - Join\n   - Assist\n   - Be present with\n   - Complement\n   - Supplement\n\n2. Necessitate:\n   - Require\n   - Demand\n   - Mandate\n   - Need\n   - Command\n\n3. Entail:\n   - Imply\n   - Suggest\n   - Indicate\n   - Conclude\n   - Follow\n\n4. Involve:\n   - Include\n   - Encompass\n   - Embrace\n   - Engross\n   - Surround\n\n5. Consist:\n   - Make up\n   - Comprise\n   - Form\n   - Create\n   - Formulate"}
+T288.05790438095573 #287 ? > simplify your last respones, enumerating all the words
+T288.0582671419834 session: {"role": "user", "content": "simplify your last respones, enumerating all the words"}
+T299.5595357409911 session: {"role": "assistant", "content": "Here is a simplified list of similar words:\n\n1. Accompany: \n   1. Join\n   2. Be with\n   3. Assist\n   4. Complement\n   5. Supplement\n\n2. Necessitate:\n   1. Require\n   2. Need\n   3. Demand\n   4. Mandate\n\n3. Entail:\n   1. Imply\n   2. Suggest\n   3. Indicate\n\n4. Involve:\n   1. Include\n   2. Encompass\n   3. Embrace\n   4. Surround\n\n5. Consist: \n   1. Make up\n   2. Comprise\n   3. Form"}
+T318.99434378097067 #287 ? > please just list the new words, don't put them in indendted sub-lists
+T318.9946968239965 session: {"role": "user", "content": "please just list the new words, don't put them in indendted sub-lists"}
+T325.95311403099913 session: {"role": "assistant", "content": "Here is a simplified list of similar words:\n\n1. Accompany:\n   Join, Be with, Assist\n   Complement, Supplement\n\n2. Necessitate:\n   Require, Need, Demand, Mandate\n\n3. Entail:\n   Imply, Suggest, Indicate\n\n4. Involve:\n   Include, Encompass, Embrace, Surround\n\n5. Consist:\n   Make up, Comprise, Form"}
+T335.7942320839502 #287 ? > flatten your last response
+T335.794549172977 session: {"role": "user", "content": "flatten your last response"}
+T342.57971510099014 session: {"role": "assistant", "content": "Here is the list of words:\n\n1. Join\n2. Be with\n3. Assist\n4. Complement\n5. Supplement\n6. Require\n7. Need\n8. Demand\n9. Mandate\n10. Imply\n11. Suggest\n12. Indicate\n13. Include\n14. Encompass\n15. Embrace\n16. Surround\n17. Make up\n18. Comprise\n19. Form"}
+T344.21005658298964 #287 extract_2
+T347.04991379595594 🤔 extract_2/3 #287 "complement" score? 19.11
+T347.0500934139709 attempt_286: "complement" score:19.11 prog:None
+T347.9780828160001 #288 extract_2
+T351.79356948594796 🤔 extract_2/2 #288 "supplement" score? 11.65
+T351.7937096489477 attempt_287: "supplement" score:11.65 prog:None
+T353.52190994197736 #289 extract_1
+T359.7785573589499 🤔 extract_1/1 #289 "be" score? 26.45 597
+T359.77883027895587 attempt_288: "be" score:26.45 prog:597
+T362.07404382299865 #290 ? /prog
+T408.0341062329826 #290 ? #153
+T412.96991484297905 #290 ? #153 score 36.21
+T420.0740062499535 #290 ? #153 score
+T423.96993240196025 #290 ? #153 score 36.21
+T504.26582509995205 <INT>
+T0.013275475008413196 now: 2024-11-21T15:56:24UTC
+T0.0161533749778755 session model: llama
+T3.753525628009811 #290 ?         ui.print(f'... reword {ui.tokens.rest!r}')
+T11.14598016598029 <INT>
+T0.01323780498933047 now: 2024-11-21T15:56:38UTC
+T0.015511339996010065 session model: llama
+T7.385165550978854 #290 ? #153 score 36.21
+T45.44163931399817 #290 ? ␚
+T45.44178710097913 <EOF>
+T0.012790840992238373 now: 2024-11-21T15:57:25UTC
+T0.015475671971216798 session model: llama
+T3.087082506972365 #290 ? #153 score 36.21
+T3.0882044899626635 fix attempt_152: score:36.21
+T6.070881407009438 #290 ? /prog
+T27.77462897496298 #290 ? *10 t18
+T27.77494801901048 session clear
+T27.775282068992965 chat_prompt: {"prompt": "give me 10 words that are similar to $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, and $18", "vars": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], "ords": []}
+T27.775324416987132 session: {"role": "user", "content": "give me words that are similar to \"accompany\", \"necessitate\", \"entail\", \"involve\", \"consist\", \"include\", \"subsequent\", \"beget\", \"follow\", \"conclude\", \"pertain\", \"signify\", \"correspond\", \"following\", \"arise\", \"require\", \"encompass\", and \"constitute\""}
+T65.87379160401179 session: {"role": "assistant", "content": "Here are some words that are similar to the given words:\n\n1. Similar to \"accompany\":\n   - Support\n   - Assist\n   - Accomplish\n   - Complement\n   - Supplement\n\n2. Similar to \"necessitate\":\n   - Mandate\n   - Require\n   - Need\n   - Demand\n   - Compel\n\n3. Similar to \"entail\":\n   - Consequent\n   - Follow\n   - Arise\n   - Result\n   - Issue\n\n4. Similar to \"involve\":\n   - Involvement\n   - Participation\n   - Engagement\n   - Relate\n   - Correlate\n\n5. Similar to \"consist\":\n   - Make up\n   - Comprise\n   - comprise\n   - Include\n   - Form\n\n6. Similar to \"include\":\n   - Encompass\n   - Embrace\n   - Integrate\n   - Merge\n   - Incorporate\n\n7. Similar to \"subsequent\":\n   - Following\n   - Aftermath\n   - Consequence\n   - Resultant\n   - Subsequent event\n\n8. Similar to \"beget\":\n   - Trigger\n   - Provoking\n   - Inspire\n   - Spark\n   - Initiate\n\n9. Similar to \"follow\":\n   - Pursue\n   - Track\n   - Follow up\n   - Attend\n   - Comply\n\n10. Similar to \"conclude\":\n    - Finish\n    - End\n    - Resolve\n    - Decide\n    - Determine\n\n11. Similar to \"pertain\":\n    - Pertain to\n    - Relate to\n    - Connect with\n    - Correspond to\n    - Tie in with\n\n12. Similar to \"signify\":\n    - Mean\n    - Represent\n    - Symbolize\n    - Indicate\n    - Portray\n\n13. Similar to \"correspond\":\n    - Match\n    - Align\n    - Coordinate\n    - Concur\n    - Harmonize\n\n14. Similar to \"following\":\n    - Subsequent\n    - Afterward\n    - Following up\n    - Next\n    - On the heels of\n\n15. Similar to \"arise\":\n    - Emerge\n    - Originate\n    - Evolve\n    - Develop\n    - Occur\n\n16. Similar to \"require\":\n    - Need\n    - Demand\n    - Call for\n    - Command\n    - Exigent\n\n17. Similar to \"encompass\":\n    - Envelope\n    - Enfold\n    - Inclusive\n   - Comprehensive"}
+T88.59087934700074 #290 ? > flatten your last response, enumerating only the suggested words
+T88.59123390901368 session: {"role": "user", "content": "flatten your last response, enumerating only the suggested words"}
+T110.33674486697419 session: {"role": "assistant", "content": "Here is the list of suggested words:\n\n1. Support\n2. Assist\n3. Accomplish\n4. Complement\n5. Supplement\n6. Mandate\n7. Require\n8. Need\n9. Demand\n10. Compel\n11. Consequent\n12. Result\n13. Arise\n14. Follow\n15. Issue\n16. Participation\n17. Engagement\n18. Relate\n19. Correlate\n20. Make up\n21. Comprise\n22. Encompass\n23. Embrace\n24. Integrate\n25. Merge\n26. Incorporate\n27. Following\n28. Aftermath\n29. Consequence\n30. Resultant\n31. Trigger\n32. Provoking\n33. Inspire\n34. Spark\n35. Initiate\n36. Pursue\n37. Track\n38. Finish\n39. End\n40. Resolve\n41. Decide\n42. Determine\n43. Pertain to\n44. Relate to\n45. Connect with\n46. Correspond to\n47. Tie in with\n48. Mean\n49. Represent\n50. Symbolize\n51. Indicate\n52. Portray\n53. Match\n54. Align\n55. Coordinate\n56. Concur\n57. Harmonize\n58. Emerge\n59. Originate\n60. Evolve\n61. Develop\n62. Occur"}
+T112.78289796196623 #290 extract_1
+T119.19888594397344 🤔 extract_1/22 #290 "accomplish" score? 14.75
+T119.19908831897192 attempt_289: "accomplish" score:14.75 prog:None
+T120.22459295898443 #291 extract_1
+T122.80707097996492 🤔 extract_1/21 #291 "aftermath" score? 14.61
+T122.80728467396693 attempt_290: "aftermath" score:14.61 prog:None
+T123.55925583001226 #292 extract_1
+T127.30317597900284 🤔 extract_1/20 #292 "concur" score? 21.62
+T127.30338618496899 attempt_291: "concur" score:21.62 prog:None
+T128.39910894201603 #293 extract_1
+T133.1671105939895 🤔 extract_1/19 #293 "consequent" score? 29.23
+T135.15084043797106 🤔 extract_1/19 #293 "consequent" 29.23°C prog‰ ? 761
+T135.15098122798372 attempt_292: "consequent" score:29.23 prog:761
+T136.59081919898745 #294 extract_1
+T139.1030473159626 🤔 extract_1/18 #294 "decide" score? 15.22
+T139.1032190049882 attempt_293: "decide" score:15.22 prog:None
+T143.90263362496626 #295 extract_1
+T149.52688497601775 🤔 extract_1/17 #295 "determine" score? 14.38
+T149.527023216011 attempt_294: "determine" score:14.38 prog:None
+T152.55071172700264 <INT>
+T0.013201775960624218 now: 2024-11-21T16:04:55UTC
+T0.016764110943768173 session model: llama
+T1.8370655559701845 #296 extract_...
+T8.341043162974529 🤔 extract_1/16 #296 "end" score? 16.8
+T8.34126794396434 attempt_295: "end" score:16.80 prog:None
+T16.861161684966646 <INT>
+T0.013399516989011317 now: 2024-11-21T16:05:55UTC
+T0.01610854599857703 session model: llama
+T1.4131551790051162 #297 extract_...
+T4.365296921983827 🤔 extract_1/15 #297 "engagement" score? 8.5
+T4.365474195976276 attempt_296: "engagement" score:8.50 prog:None
+T12.77347951597767 <INT>
+T0.013559910003095865 now: 2024-11-21T16:07:11UTC
+T0.01595540501875803 session model: llama
+T1.0728943580179475 #298 extract_...
+T3.9046389210270718 🤔 extract_1/14 #298 "finish" score? 13.72
+T3.9047835469827987 attempt_297: "finish" score:13.72 prog:None
+T9.736749262025114 🤔 extract_1/13 #299 "initiate" score? 32.98 880
+T9.736916383029893 attempt_298: "initiate" score:32.98 prog:880
+T12.616921212989837 🤔 extract_1/12 #300 "inspire" score? 19.12
+T12.617100162024144 attempt_299: "inspire" score:19.12 prog:None
+T23.776549347036052 🤔 extract_1/11 #301 "integrate" score? 7.43
+T23.7767101060017 attempt_300: "integrate" score:7.43 prog:None
+T26.29645593499299 🤔 extract_1/10 #302 "match" score? 4.79
+T26.296513667039108 attempt_301: "match" score:4.79 prog:None
+T32.39284979400691 🤔 extract_1/9 #303 "mean" score? 38.3 948
+T32.39304852602072 attempt_302: "mean" score:38.30 prog:948
+T50.104734057036694 🤔 extract_1/8 #304 "occur" score? 54.69 997
+T50.10490450001089 attempt_303: "occur" score:54.69 prog:997
+T53.88063015101943 🤔 extract_1/7 #305 "participation" score? 15.89
+T53.88075639499584 attempt_304: "participation" score:15.89 prog:None
+T60.184641884989105 🤔 extract_1/6 #306 "provoking" score? 24.97
+T65.15232902899152 🤔 extract_1/6 #306 "provoking" 24.97°C prog‰ ? 465
+T65.15247581101721 attempt_305: "provoking" score:24.97 prog:465
+T73.86516956903506 🤔 extract_1/5 #307 "pursue" score? 10.31
+T73.8653992949985 attempt_306: "pursue" score:10.31 prog:None
+T77.00815627200063 🤔 extract_1/4 #308 "resultant" score? 18.03
+T77.00825255102245 attempt_307: "resultant" score:18.03 prog:None
+T84.52062004501931 🤔 extract_1/3 #309 "spark" score? 30.1 798
+T84.52074183401419 attempt_308: "spark" score:30.10 prog:798
+T88.54499277001014 🤔 extract_1/2 #310 "track" score? 8.04
+T88.54516458499711 attempt_309: "track" score:8.04 prog:None
+T93.35277560102986 🤔 extract_1/1 #311 "trigger" score? 41.9 971
+T93.35295961302472 attempt_310: "trigger" score:41.90 prog:971
+T97.60921615100233 #312 ? /last
+T117.52906565502053 #312 ? *15 t3
+T117.52974888501922 session clear
+T117.53003278299002 chat_prompt: {"prompt": "give me 15 words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T117.53009280003607 session: {"role": "user", "content": "give me words that are similar to \"occur\", \"accompany\", and \"necessitate\""}
+T135.50994299002923 session: {"role": "assistant", "content": "Here are some words that are similar to \"occur\", \"accompany\", and \"necessitate\":\n\nSimilar to \"occur\":\n\n* Happen\n* Take place\n* Eventuate\n* Develop\n* Emerge\n\nSimilar to \"accompany\":\n\n* Companionship\n* Association\n* Affiliation\n* Connection\n* Proximity\n\nSimilar to \"necessitate\":\n\n* Require\n* Demand\n* Need\n* Mandate\n* Impose\n\nNote that some of these words may have slightly different connotations or nuances, but they all share similarities with the original words in terms of meaning or context.\n\nFor example:\n\n* \"Happen\" and \"take place\" both imply a sense of occurrence or event, whereas \"eventuate\" implies a more specific outcome.\n* \"Companionship\", \"association\", and \"affiliation\" all convey a sense of companionship or connection, similar to the idea of accompanying someone.\n* \"Require\", \"demand\", and \"mandate\" all imply a sense of necessity or obligation, similar to the idea of necessitating something."}
+T150.8088505960186 #312 ? /def gener/last
+T153.41716206498677 #312 ? /last
+T185.53677948901895 #312 ? * t3
+T185.53704770898912 session clear
+T185.5372682600282 chat_prompt: {"prompt": "give me 10 words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T185.5373188550002 session: {"role": "user", "content": "give me words that are similar to \"occur\", \"accompany\", and \"necessitate\""}
+T199.4214598130202 session: {"role": "assistant", "content": "Here are some words that are similar to \"occur\", \"accompany\", and \"necessitate\":\n\nSimilar to \"occur\":\n\n1. Happen\n2. Take place\n3. Occur (again, as it's a great synonym)\n4. Transpire\n5. Eventuate\n6. Develop\n\nSimilar to \"accompany\":\n\n1. Complement\n2. Supplement\n3. Attend\n4. Follow\n5. Escort\n6. Pursue\n\nSimilar to \"necessitate\":\n\n1. Require\n2. Need\n3. Mandate\n4. Obligate\n5. Demand\n6. necessitate (again, as it's a great synonym)\n\nNote that some of these words may have slightly different connotations or nuances, but they all generally convey similar meanings.\n\nFor example:\n\n* \"Occur\" often implies a sudden or unexpected event.\n* \"Accompany\" emphasizes the idea of being present with someone or something.\n* \"Necessitate\" suggests a sense of necessity or obligation."}
+T319.6499916280154 <INT>
+T0.014223462028894573 now: 2024-11-21T16:15:32UTC
+T0.01699689804809168 session model: llama
+T6.869302435021382 #312 ? *10 t3
+T6.870186437037773 session clear
+T6.870392300013918 chat_prompt: {"prompt": "give me 10 words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T6.8704448120552115 session: {"role": "user", "content": "give me 10 words that are similar to \"occur\", \"accompany\", and \"necessitate\""}
+T16.348490945005324 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"occur\", \"accompany\", and \"necessitate\":\n\n1. Happen\n2. Coexist\n3. Require\n4. Involve\n5. Entail\n6. Demand\n7. Call for\n8. necessitates\n9. Confront\n10. Involve\n\nThese words all have similar meanings to the originals, such as indicating a connection or a need, or describing an event that takes place."}
+T18.565529163053725 #312 extract_...
+T21.901063930010423 🤔 extract_1/4 #312 "coexist" score? 18.05
+T21.901256029028445 attempt_311: "coexist" score:18.05 prog:None
+T24.421827887010295 🤔 extract_1/3 #313 "confront" score? 8.61
+T24.422064915008377 attempt_312: "confront" score:8.61 prog:None
+T30.22069582401309 🤔 extract_1/2 #314 "happen" score? 37.93 942
+T30.220883818052243 attempt_313: "happen" score:37.93 prog:942
+T36.997231177054346 🤔 extract_1/1 #315 "necessitates" score? !necessitate
+T36.997415795049164 reject: "necessitates"
+T46.860858591040596 #315 ? *25 t5
+T46.8611053720233 session clear
+T46.86134794104146 chat_prompt: {"prompt": "give me 25 words that are similar to $1, $2, $3, $4, and $5", "vars": [1, 2, 3, 4, 5], "ords": []}
+T46.86140005401103 session: {"role": "user", "content": "give me 25 words that are similar to \"occur\", \"accompany\", \"necessitate\", \"entail\", and \"involve\""}
+T57.419526916055474 session: {"role": "assistant", "content": "Here are 25 words that are similar to \"occur\", \"accompany\", \"necessitate\", \"entail\", and \"involve\":\n\n1. Happen\n2. Invade\n3. Confront\n4. Require\n5. Demand\n6. Need\n7. Presume\n8. Assume\n9. Depend\n10. Relate\n11. Connect\n12. Imply\n13. Suggest\n14. Indicate\n15. Reveal\n16. Disclose\n17. Reveal\n18. Predict\n19. Forecast\n20. Anticipate\n21. Precede\n22. Follow\n23. Escort\n24. Accompany\n25. Comprise"}
+T59.869044208026025 #315 extract_...
+T65.90922400704585 🤔 extract_1/10 #315 "anticipate" score? 27.02 638
+T65.90940158703597 attempt_314: "anticipate" score:27.02 prog:638
+T68.95707378303632 🤔 extract_1/9 #316 "assume" score? 13.12
+T68.95722313702572 attempt_315: "assume" score:13.12 prog:None
+T74.5331532410346 🤔 extract_1/8 #317 "depend" score? 22.38 111
+T74.53335511800833 attempt_316: "depend" score:22.38 prog:111
+T78.733522791008 🤔 extract_1/7 #318 "disclose" score? 13.73
+T78.73367119801696 attempt_317: "disclose" score:13.73 prog:None
+T82.12517962302081 🤔 extract_1/6 #319 "forecast" score? 1.36
+T82.12535787402885 attempt_318: "forecast" score:1.36 prog:None
+T84.5897297320189 🤔 extract_1/5 #320 "invade" score? 7.59
+T84.58984176703962 attempt_319: "invade" score:7.59 prog:None
+T91.87724460201571 🤔 extract_1/4 #321 "precede" score? 100 1000
+T91.8775016280124 attempt_320: "precede" score:100.00 prog:1000
+T195.55683459702414 Paste share result, then preses <Enter>
+T195.5615320650395 share result: "I found #cemantle #962 in 321 guesses!\n\ud83e\udd73\n\ud83d\udd254\ufe0f\u20e3\n\ud83e\udd751\ufe0f\u20e38\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e5\ufe0f\u20e30\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd762\ufe0f\u20e32\ufe0f\u20e37\ufe0f\u20e3\n\ud83e\uddca\ud83e\uddca2\ufe0f\u20e31\ufe0f\u20e3\nhttps://cemantle.certitudes.org/"
+T195.56273649004288 <STOP>
