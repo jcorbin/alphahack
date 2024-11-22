@@ -19,8 +19,9 @@ def exclude_file(name: str):
 
 @final
 class WordList:
-    def __init__(self, fable: str|TextIO):
+    def __init__(self, fable: str|TextIO, excludes: set[str]|None = None):
         self.name = fable if isinstance(fable, str) else str(fable.name)
+        self.fixed_excludes = excludes
         self._tokens: list[str]|None = None if isinstance(fable, str) else list(tokens_from(fable))
 
     @property
@@ -78,15 +79,20 @@ class WordList:
 
     @property
     def excluded_words(self):
+        if self.fixed_excludes is not None:
+            return self.fixed_excludes
         return set(self.exclude_file_tokens)
 
     def exclude_word(self, word: str):
-        words = set(self.excluded_words)
-        words.add(word)
-        swords = sorted(words)
-        with open(self.exclude_file, mode='w') as f:
-            for w in swords:
-                print(w, file=f)
+        if self.fixed_excludes is not None:
+            self.fixed_excludes.add(word)
+        else:
+            words = set(self.excluded_words)
+            words.add(word)
+            swords = sorted(words)
+            with open(self.exclude_file, mode='w') as f:
+                for w in swords:
+                    print(w, file=f)
 
 @final
 class Browser:

@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from collections.abc import Generator, Iterable
 from typing import cast, final, TextIO
 
-from wordlist import Browser, WordList, format_browser_lines, tokens_from
+from wordlist import Browser, WordList, exclude_file, format_browser_lines, tokens_from
 
 def whatadded(filename: str) -> str:
     output = subprocess.check_output([
@@ -286,38 +286,35 @@ class SearchLog:
         if self.loaded is None:
             raise RuntimeError('no loaded wordlist info in log')
 
-        wl = WordList(self.loaded.wordlist)
-
-        have_sig = wl.sig.hexdigest()
-        if have_sig != self.loaded.sig:
-            raise RuntimeError(f'wordlist sig mismatch, expected:{self.loaded.sig} have:{have_sig}')
-
         if not asof and self.name:
             log_added = whatadded(self.name)
             if log_added:
                 asof = f'{log_added}^'
 
+        excludes: set[str] = set()
         if asof:
-            exclude_asof = set(tokens_from(subprocess.check_output(
-                ['git', 'show', f'{asof}:{wl.exclude_file}'],
+            excludes = set(tokens_from(subprocess.check_output(
+                ['git', 'show', f'{asof}:{exclude_file(self.loaded.wordlist)}'],
                 text=True).splitlines()))
-
-            if self.loaded.excluded != len(exclude_asof):
-                raise RuntimeError(f'excluded asof {asof} size mismatch, expected:{self.loaded.excluded} got:{len(exclude_asof)}')
-            wordset = set(wl.cleaned_words)
-            wordset.difference_update(exclude_asof)
-
         else:
-            have_excluded = len(wl.excluded_words)
-            if self.loaded.excluded != have_excluded:
-                raise RuntimeError(f'exclusion list size mismatch, expected:{self.loaded.excluded} got:{have_excluded}')
-            wordset = set(wl.pruned_words)
+            with open(self.loaded.wordlist) as f:
+                excludes = set(tokens_from(f))
 
-        have_count = len(wordset)
+        wl = WordList(self.loaded.wordlist, excludes)
+
+        have_sig = wl.sig.hexdigest()
+        if have_sig != self.loaded.sig:
+            raise RuntimeError(f'wordlist sig mismatch, expected:{self.loaded.sig} have:{have_sig}')
+
+        have_excluded = len(excludes)
+        if self.loaded.excluded != have_excluded:
+            raise RuntimeError(f'exclusion list size mismatch, expected:{self.loaded.excluded} got:{have_excluded}')
+
+        have_count = wl.size
         if self.loaded.count != have_count:
             raise RuntimeError(f'size mismatch, expected:{self.loaded.count} got:{have_count}')
 
-        return Reloaded(wordset, self)
+        return Reloaded(wl.words, self)
 
 @final
 class Reloaded:
