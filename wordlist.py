@@ -28,23 +28,9 @@ def exclude_file(name: str):
 
 @final
 class WordList:
-    @classmethod
-    def load_canonical(cls, name: str, asof: str = ''):
-        excludes: set[str] = set()
-        if asof:
-            excludes = set(tokens_from(subprocess.check_output(
-                ['git', 'show', f'{asof}:{exclude_file(name)}'],
-                text=True).splitlines()))
-        else:
-            try:
-                excludes = set(tokens_from(exclude_file(name)))
-            except FileNotFoundError:
-                pass
-        return cls(name, excludes)
-
-    def __init__(self, fable: str|TextIO, excludes: set[str]|None = None):
+    def __init__(self, fable: str|TextIO, asof: str = ''):
         self.name = fable if isinstance(fable, str) else str(fable.name)
-        self.fixed_excludes = excludes
+        self.asof = asof
         self._tokens: list[str]|None = None if isinstance(fable, str) else list(tokens_from(fable))
 
     @property
@@ -70,7 +56,9 @@ class WordList:
     def describe(self):
         en = len(self.excluded_words)
         ex = f' ({en} words excluded)' if en > 0 else ''
-        return f'loaded {self.size} words from {self.name} {self.sig.hexdigest()}{ex}'
+        desc = f'loaded {self.size} words from {self.name} {self.sig.hexdigest()}{ex}'
+        if self.asof: desc = f'{desc} asof {self.asof}'
+        return desc 
 
     @property
     def words(self):
@@ -108,27 +96,21 @@ class WordList:
 
     @property
     def exclude_file_tokens(self) -> Generator[str]:
-        try:
-            yield from tokens_from(self.exclude_file)
-        except FileNotFoundError:
-            pass
+        if self.asof:
+            cmd = ['git', 'show', f'{self.asof}:{self.exclude_file}']
+            with subprocess.Popen(cmd, stdout=subprocess.PIPE, text=True) as proc:
+                assert proc.stdout
+                yield from tokens_from(proc.stdout)
+
+        else:
+            try:
+                yield from tokens_from(self.exclude_file)
+            except FileNotFoundError:
+                pass
 
     @property
     def excluded_words(self):
-        if self.fixed_excludes is not None:
-            return self.fixed_excludes
         return set(self.exclude_file_tokens)
-
-    def exclude_word(self, word: str):
-        if self.fixed_excludes is not None:
-            self.fixed_excludes.add(word)
-        else:
-            words = set(self.excluded_words)
-            words.add(word)
-            swords = sorted(words)
-            with open(self.exclude_file, mode='w') as f:
-                for w in swords:
-                    print(w, file=f)
 
 @final
 class Browser:

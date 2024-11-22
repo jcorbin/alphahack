@@ -5,7 +5,7 @@ from collections.abc import Sequence
 from typing import cast, Callable, TextIO
 
 from wordlist import WordList
-from hack import Comparison, Search
+from binartic import Comparison, Search
 from ui import PromptUI
 
 Feedback = Callable[[Comparison], None]
@@ -22,25 +22,38 @@ def strat(fn: Strat):
     strats[name] = fn
 
 @strat
-def strat_hack(words: Sequence[str], context: int=3, echo: bool=False, log: bool=False) -> Guesser:
+def strat_hack(words: Sequence[str], echo: bool=False, log: bool=False) -> Guesser:
     def end_input(_: str): raise EOFError
     def int_input(_: str): raise KeyboardInterrupt
 
     ui = PromptUI(get_input=end_input)
-    search = Search(ui, words, context=context)
+    search = Search()
+    search.set_words(ui, words)
+    search.store_dir = ''
+    search.hist_file = ''
+    search.log_file = ''
+
+    state: PromptUI.State = search
     fin = False
 
+    def tick():
+        nonlocal state, fin
+        res = state(ui)
+        if res: state = res
+
     def guess() -> Guess:
-        nonlocal fin
+        nonlocal state, fin
 
         with ui.deps(get_input=int_input):
             try:
-                search.progress()
+                while True: tick()
 
             except StopIteration:
                 if not fin:
                     fin = True
-                    return search.result or '', lambda _: None
+                    i = search.found
+                    word = '' if i is None else search.words[i]
+                    return word, lambda _: None
                 raise
 
             except KeyboardInterrupt:
@@ -63,11 +76,12 @@ def strat_hack(words: Sequence[str], context: int=3, echo: bool=False, log: bool
                     with ui.deps(
                         get_input=giver,
                         sink=lambda mess: print(f'LOG: {mess}') if log else None,
-                    ): search.progress()
+                    ):
+                        while True: tick()
 
-                return search.q_word, feedback
-
-            raise EOFError
+                i = search.questioning
+                word = '' if i is None else search.words[i]
+                return word, feedback
 
     return guess
 
