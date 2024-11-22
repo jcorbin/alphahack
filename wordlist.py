@@ -1,10 +1,19 @@
 import hashlib
 import math
 import os
+import subprocess
 from collections.abc import Generator, Iterable, Sequence
 from typing import final, TextIO
 
 from ui import PromptUI
+
+def whatadded(filename: str) -> str:
+    output = subprocess.check_output([
+        'git', 'log',
+        '--pretty=%H',
+        '--diff-filter=A',
+        '--', filename], text=True)
+    return output.partition('\n')[0]
 
 def tokens_from(path_or_io: str|Iterable[str]) -> Generator[str]:
     if isinstance(path_or_io, str):

@@ -8,15 +8,7 @@ from dataclasses import dataclass
 from collections.abc import Generator, Iterable
 from typing import cast, final, TextIO
 
-from wordlist import Browser, WordList, exclude_file, format_browser_lines, tokens_from
-
-def whatadded(filename: str) -> str:
-    output = subprocess.check_output([
-        'git', 'log',
-        '--pretty=%H',
-        '--diff-filter=A',
-        '--', filename], text=True)
-    return output.partition('\n')[0]
+from wordlist import Browser, WordList, exclude_file, format_browser_lines, tokens_from, whatadded
 
 @final
 @dataclass
