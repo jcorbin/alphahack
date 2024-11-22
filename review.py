@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from collections.abc import Generator, Iterable
 from typing import cast, final, TextIO
 
-from wordlist import Browser, WordList, format_browser_lines
+from wordlist import Browser, WordList, format_browser_lines, tokens_from
 
 def whatadded(filename: str) -> str:
     output = subprocess.check_output([
@@ -298,12 +298,9 @@ class SearchLog:
                 asof = f'{log_added}^'
 
         if asof:
-            exclude_asof = subprocess.check_output([
-                'git', 'show', f'{asof}:{wl.exclude_file}'
-            ], text=True).splitlines()
-            exclude_asof = set(
-                line.strip().lower().partition(' ')[0]
-                for line in exclude_asof)
+            exclude_asof = set(tokens_from(subprocess.check_output(
+                ['git', 'show', f'{asof}:{wl.exclude_file}'],
+                text=True).splitlines()))
 
             if self.loaded.excluded != len(exclude_asof):
                 raise RuntimeError(f'excluded asof {asof} size mismatch, expected:{self.loaded.excluded} got:{len(exclude_asof)}')
