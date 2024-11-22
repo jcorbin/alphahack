@@ -6,6 +6,9 @@ from typing import final, TextIO
 
 from ui import PromptUI
 
+def exclude_file(name: str):
+    return f'{os.path.splitext(name)[0]}.exclude.txt'
+
 @final
 class WordList:
     def __init__(self, fable: TextIO):
@@ -54,7 +57,7 @@ class WordList:
 
     @property
     def exclude_file(self):
-        return f'{os.path.splitext(self.name)[0]}.exclude.txt'
+        return exclude_file(self.name)
 
     @property
     def excluded_tokens(self):
