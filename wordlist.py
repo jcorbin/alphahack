@@ -70,7 +70,7 @@ class WordList:
         return exclude_file(self.name)
 
     @property
-    def excluded_tokens(self):
+    def exclude_file_tokens(self) -> Generator[str]:
         try:
             yield from tokens_from(self.exclude_file)
         except FileNotFoundError:
@@ -78,7 +78,7 @@ class WordList:
 
     @property
     def excluded_words(self):
-        return set(self.excluded_tokens)
+        return set(self.exclude_file_tokens)
 
     def exclude_word(self, word: str):
         words = set(self.excluded_words)
