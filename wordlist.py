@@ -19,8 +19,8 @@ def exclude_file(name: str):
 
 @final
 class WordList:
-    def __init__(self, fable: TextIO):
-        self.name = fable.name
+    def __init__(self, fable: str|TextIO):
+        self.name = fable if isinstance(fable, str) else str(fable.name)
         self.tokens = list(tokens_from(fable))
 
     @property
