@@ -1,0 +1,623 @@
+T0.004326772992499173 now: 2024-11-21T20:32:15EST
+T11.907466015953105 🔗 cemantix.certitudes.org ? 
+T11.907699410978239 site: cemantix.certitudes.org
+T13.051810440956615 🌎 French ? 
+T13.051927069958765 lang: French
+T17.323565427970607 🧩  ? #996
+T17.323863981990144 puzzle_id: #996
+T20.411767562967725 😎 °C ? 19.05
+T20.411931180977263 scale: 😎 19.05 °C
+T22.883958923979662 🥵 °C ? 33.28
+T22.884173225960694 scale: 🥵 33.28 °C
+T25.251006900973152 🔥 °C ? 45.87
+T25.251065755961463 scale: 🔥 45.87 °C
+T33.307884233945515 😱 °C ? 65.86
+T33.30805762996897 scale: 😱 65.86 °C
+T33.36404319398571 session model: llama
+T33.36415806500008 session clear
+T33.36423903499963 session: {"role": "user", "content": "give me 10 French words at random that are not related to each other"}
+T41.81020673195599 session: {"role": "assistant", "content": "Here are 10 random French words that are not related to each other:\n\n1. Coquette\n2. Fromage\n3. Fougasse\n4. Bougainvillea\n5. Cendrier\n6. Gamine\n7. Papillon\n8. Croissant\n9. Galerie\n10. Bijou"}
+T46.963622506998945 #1 extract_...
+T52.107604056946 🤔 extract_1/10 #1 "bijou" score? -3.06
+T52.10773229296319 attempt_0: "bijou" score:-3.06 prog:None
+T54.88403136096895 🤔 extract_1/9 #2 "bougainvillea" score? !
+T54.88422571995761 reject: "bougainvillea"
+T58.451791405968834 🤔 extract_1/8 #2 "cendrier" score? -10.82
+T58.451982495957054 attempt_1: "cendrier" score:-10.82 prog:None
+T63.355803712969646 🤔 extract_1/7 #3 "coquette" score? -12.4
+T63.356024175998755 attempt_2: "coquette" score:-12.40 prog:None
+T66.03585516795283 🤔 extract_1/6 #4 "croissant" score? 6.99
+T66.0360479989904 attempt_3: "croissant" score:6.99 prog:None
+T68.80367116699927 🤔 extract_1/5 #5 "fougasse" score? -13.44
+T68.8038543809671 attempt_4: "fougasse" score:-13.44 prog:None
+T71.71592861099634 🤔 extract_1/4 #6 "fromage" score? -4.85
+T71.71616043394897 attempt_5: "fromage" score:-4.85 prog:None
+T74.70806692895712 🤔 extract_1/3 #7 "galerie" score? -1.92
+T74.70824830199126 attempt_6: "galerie" score:-1.92 prog:None
+T81.86766251595691 🤔 extract_1/2 #8 "gamine" score? !
+T81.86776865198044 reject: "gamine"
+T86.93222129298374 🤔 extract_1/1 #8 "papillon" score? -15.36
+T86.93252372695133 attempt_7: "papillon" score:-15.36 prog:None
+T111.45194605598226 #9 ? *5 t1
+T111.45248692500172 session clear
+T111.45268473395845 chat_prompt: {"prompt": "give me 5 French words that are similar to $1", "vars": [1], "ords": []}
+T111.45271758094896 session: {"role": "user", "content": "give me 5 French words that are similar to \"croissant\""}
+T126.72568622999825 session: {"role": "assistant", "content": "Here are 5 French words that are similar to \"croissant\":\n\n1. Cr\u00eape (pronounced \"krehp\") - a thin pancake, often served with sweet or savory fillings.\n2. Mille-feuille (pronounced \"mee-leh foo-eh\") - a pastry made from layers of puff pastry and cream, similar to a croissant in texture.\n3. Brioche (pronounced \"bree-ohsh\") - a rich, flaky bread often used for sandwiches or toast, with a similar layered structure to a croissant.\n4. Pain au Chocolat (pronounced \"pah-n oh shah-koh-lah\") - a pastry filled with chocolate, similar to a croissant in texture and shape.\n5. Fougasse (pronounced \"foo-gash\") - a type of flatbread often topped with olive oil, herbs, and sometimes cheese or meat, similar to a croissant in its crispy exterior.\n\nNote that while these words may share similarities with \"croissant\", they each have their own unique characteristics and uses in French cuisine."}
+T131.90819486498367 #9 extract_...
+T135.2355298649636 🤔 extract_1/5 #9 "brioche" score? -10.41
+T135.2356938989833 attempt_8: "brioche" score:-10.41 prog:None
+T138.45198471896583 🤔 extract_1/4 #10 "crêpe" score? -9.17
+T138.45223961299052 attempt_9: "crêpe" score:-9.17 prog:None
+T141.30787656095345 🤔 extract_1/3 #11 "feuille" score? -16.84
+T141.30806340498384 attempt_10: "feuille" score:-16.84 prog:None
+T146.52343383198604 🤔 extract_1/2 #12 "mille" score? -19.92
+T146.523625384958 attempt_11: "mille" score:-19.92 prog:None
+T149.81135677796556 🤔 extract_1/1 #13 "pain" score? -10.05
+T149.81143662997056 attempt_12: "pain" score:-10.05 prog:None
+T182.41176928696223 #14 ? > give me 10 French words at random that are not related to each other
+T182.41199136298383 session: {"role": "user", "content": "give me 10 French words at random that are not related to each other"}
+T191.7233813169878 session: {"role": "assistant", "content": "Here are 10 random French words that are not related to each other:\n\n1. Fleur (flower)\n2. Mus\u00e9e (museum)\n3. P\u00eacheur (fisherman)\n4. Bouillie (thick soup)\n5. Rivi\u00e8re (river)\n6. Chiffon (silk fabric)\n7. Papillon (butterfly)\n8. Tournure (turning or rotation)\n9. Comptoir (coffee shop)\n10. Galerie (garden)\n\nEach of these words is a standalone French term with its own unique meaning and usage!"}
+T193.00366182799917 #14 extract_...
+T196.26819339895155 🤔 extract_1/8 #14 "bouillie" score? -21.8
+T196.26846723799827 attempt_13: "bouillie" score:-21.80 prog:None
+T198.64371015294455 🤔 extract_1/7 #15 "chiffon" score? -12.82
+T198.64392331195995 attempt_14: "chiffon" score:-12.82 prog:None
+T201.33986167400144 🤔 extract_1/6 #16 "comptoir" score? -0.79
+T201.34001741698012 attempt_15: "comptoir" score:-0.79 prog:None
+T204.89992406999227 🤔 extract_1/5 #17 "fleur" score? -14.97
+T204.9001170239644 attempt_16: "fleur" score:-14.97 prog:None
+T208.94015120895347 🤔 extract_1/4 #18 "musée" score? 11.81
+T208.9403668329469 attempt_17: "musée" score:11.81 prog:None
+T212.94037355296314 🤔 extract_1/3 #19 "pêcheur" score? -8.46
+T212.9406553239678 attempt_18: "pêcheur" score:-8.46 prog:None
+T216.23578754498158 🤔 extract_1/2 #20 "rivière" score? -11.55
+T216.23597370798234 attempt_19: "rivière" score:-11.55 prog:None
+T221.72400095697958 🤔 extract_1/1 #21 "tournure" score? -13.46
+T221.72417845297605 attempt_20: "tournure" score:-13.46 prog:None
+T230.37161025794921 #22 ? /last
+T243.93229841894936 <INT>
+T0.005988550023175776 now: 2024-11-21T20:42:44EST
+T0.008401370025239885 session model: llama
+T13.276111970015336 <INT>
+T0.005878867988940328 now: 2024-11-21T20:44:17EST
+T0.00853971199830994 session model: llama
+T12.294794515008107 #22 ? /e
+T13.470446634979453 #22 ? /ext
+T16.022472305980045 #22 ? /last
+T24.342371421982534 #22 ? > keep going
+T24.343006957962643 session: {"role": "user", "content": "keep going"}
+T49.3969214889803 session: {"role": "assistant", "content": "Here are 10 more random French words that are not related to each other:\n\n1. Cierge (candlestick)\n2. Balancelier (balcony railing)\n3. M\u00e9m\u00e9 (grandmother)\n4. Jardinier (gardener)\n5. Bicorne (three-cornered hat)\n6. Fosse (ditch or trench)\n7. Chapeau (hat)\n8. \u00c9cole (school)\n9. Galvaniser (ironworker)\n10. Vigneron (vineyard owner)\n\nEach of these words is a standalone French term with its own unique meaning and usage!"}
+T52.06234148098156 #22 extract_...
+T55.29496064898558 🤔 extract_1/10 #22 "balancelier" score? !
+T55.295177243009675 reject: "balancelier"
+T58.96680730197113 🤔 extract_1/9 #22 "bicorne" score? -9.8
+T58.96705811400898 attempt_21: "bicorne" score:-9.80 prog:None
+T61.47027400997467 🤔 extract_1/8 #23 "chapeau" score? -12.05
+T61.47045068698935 attempt_22: "chapeau" score:-12.05 prog:None
+T63.88625408697408 🤔 extract_1/7 #24 "cierge" score? -12.41
+T63.88634488597745 attempt_23: "cierge" score:-12.41 prog:None
+T68.4144257879816 🤔 extract_1/6 #25 "fosse" score? -18.66
+T68.4146497809561 attempt_24: "fosse" score:-18.66 prog:None
+T71.41465998598142 🤔 extract_1/5 #26 "galvaniser" score? -9.49
+T71.41485813399777 attempt_25: "galvaniser" score:-9.49 prog:None
+T74.21500711300177 🤔 extract_1/4 #27 "jardinier" score? -5.63
+T74.21529576100875 attempt_26: "jardinier" score:-5.63 prog:None
+T79.42254034295911 🤔 extract_1/3 #28 "mémé" score? -17.72
+T79.42273725196719 attempt_27: "mémé" score:-17.72 prog:None
+T81.790636988997 🤔 extract_1/2 #29 "vigneron" score? 4.12
+T81.79084136197343 attempt_28: "vigneron" score:4.12 prog:None
+T88.4628371669678 🤔 extract_1/1 #30 "école" score? 28.45 761
+T88.46310142899165 attempt_29: "école" score:28.45 prog:761
+T91.86258505296428 #31 ? /prog
+T94.36655192397302 #31 ? *10 t1
+T94.36679927399382 session clear
+T94.36701150698354 chat_prompt: {"prompt": "give me 10 French words that are similar to $1", "vars": [1], "ords": []}
+T94.36704344296595 session: {"role": "user", "content": "give me 10 French words that are similar to \"\u00e9cole\""}
+T102.01083140895935 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"\u00e9cole\" in meaning or sound:\n\n1. \u00c9l\u00e8ve (student)\n2. Enseigne (teaches, instructs)\n3. \u00c9tudiant (student)\n4. Professeur (teacher)\n5. Ma\u00eetre (master, teacher)\n6. Apprenant (apprentice, learner)\n7. Apprenti (apprentice)\n8. Cours (course, class)\n9. Classe (class)\n10. Formation (education, training)"}
+T104.61476239998592 #31 extract_...
+T107.49440998100908 🤔 extract_1/10 #31 "apprenant" score? 10.8
+T107.49455783900339 attempt_30: "apprenant" score:10.80 prog:None
+T109.80677592300344 🤔 extract_1/9 #32 "apprenti" score? 18.2
+T109.80702409398509 attempt_31: "apprenti" score:18.20 prog:None
+T112.5346157879685 🤔 extract_1/8 #33 "classe" score? 9.79
+T112.53479783498915 attempt_32: "classe" score:9.79 prog:None
+T114.85484642197844 🤔 extract_1/7 #34 "cours" score? 11.8
+T114.85509112296859 attempt_33: "cours" score:11.80 prog:None
+T119.83063466398744 🤔 extract_1/6 #35 "enseigne" score? 25.46 638
+T119.83083215897204 attempt_34: "enseigne" score:25.46 prog:638
+T127.95052918896545 🤔 extract_1/5 #36 "formation" score? 47.11 992
+T127.95076293096645 attempt_35: "formation" score:47.11 prog:992
+T132.84686475497438 🤔 extract_1/4 #37 "maître" score? -5.08
+T132.84711830999004 attempt_36: "maître" score:-5.08 prog:None
+T135.95054715900915 🤔 extract_1/3 #38 "professeur" score? 9.53
+T135.95074841898168 attempt_37: "professeur" score:9.53 prog:None
+T139.7026267289766 #39 ? _
+T143.87888147396734 <INT>
+T0.006333756959065795 now: 2024-11-21T20:46:43EST
+T0.008531853964086622 session model: llama
+T3.2866071409662254 #39 ? _
+T54.08694558497518 <INT>
+T0.006645579996984452 now: 2024-11-21T20:47:38EST
+T0.008815103967208415 session model: llama
+T1.5333716129534878 #39 ? _
+T1.5340715029742569 chat_prompt: _
+T1.5341617319500074 session: {"role": "user", "content": "give me 10 French words that are similar to \"formation\""}
+T9.044356477970723 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"formation\" in meaning or sound:\n\n1. Pr\u00e9paration (preparation)\n2. Ressource (resource)\n3. Capacit\u00e9 (capacity, skill)\n4. Expertise (expertise)\n5. Comp\u00e9tence (competence)\n6. Dipl\u00f4me (degree, diploma)\n7. Certification (certification)\n8. \u00c9ducation (education)\n9. D\u00e9veloppement (development)\n10. Renforcement (strengthening)"}
+T10.941454777959734 #39 extract_...
+T13.741327942989301 🤔 extract_1/10 #39 "capacité" score? 12.12
+T13.741505604004487 attempt_38: "capacité" score:12.12 prog:None
+T19.13331218995154 🤔 extract_1/9 #40 "certification" score? 27.92 746
+T19.13352968695108 attempt_39: "certification" score:27.92 prog:746
+T24.525355292949826 🤔 extract_1/8 #41 "compétence" score? 30.74 842
+T24.525518321956042 attempt_40: "compétence" score:30.74 prog:842
+T29.589616194949485 🤔 extract_1/7 #42 "diplôme" score? 27.1 712
+T29.58992427296471 attempt_41: "diplôme" score:27.10 prog:712
+T34.77280290896306 🤔 extract_1/6 #43 "développement" score? 48.23 994
+T34.77287559496472 attempt_42: "développement" score:48.23 prog:994
+T41.97357424499933 #44 ? *10 t2
+T41.974412968964316 session clear
+T41.97474879497895 chat_prompt: {"prompt": "give me 10 French words that are similar to $1 and $2", "vars": [1, 2], "ords": []}
+T41.97482286498416 session: {"role": "user", "content": "give me 10 French words that are similar to \"d\u00e9veloppement\" and \"formation\""}
+T54.50167715799762 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"d\u00e9veloppement\" and \"formation\":\n\n1. \u00c9volution - means \"development\" or \"evolution\"\n2. Croissance - means \"growth\" or \"increase\"\n3. Progression - means \"progress\" or \" advancement\"\n4. D\u00e9finition - means \"definition\" or \"clarification\"\n5. Am\u00e9lioration - means \"improvement\" or \"enhancement\"\n6. Expansion - means \"expansion\" or \"wideness\"\n7. Consolidation - means \"consolidation\" or \"stability\"\n8. Renouvellement - means \"renewal\" or \"reinvention\"\n9. Evolutionnisme - a more general term that refers to the process of evolution and development\n10. Progr\u00e8s - means \"progress\" or \" advancement\", similar to English word"}
+T56.55712778394809 #44 extract_...
+T62.805688761000056 🤔 extract_1/10 #44 "amélioration" score? 33.88 907
+T62.80593988095643 attempt_43: "amélioration" score:33.88 prog:907
+T67.89354084298247 🤔 extract_1/9 #45 "consolidation" score? 22.15 373
+T67.89377130399225 attempt_44: "consolidation" score:22.15 prog:373
+T70.30153836199315 🤔 extract_1/8 #46 "croissance" score? 8.62
+T70.30175705795409 attempt_45: "croissance" score:8.62 prog:None
+T73.4452051059925 🤔 extract_1/7 #47 "définition" score? 13.86
+T73.44537760596722 attempt_46: "définition" score:13.86 prog:None
+T83.92568701697746 🤔 extract_1/6 #48 "evolutionnisme" score? !
+T83.92587057698984 reject: "evolutionnisme"
+T90.42919650999829 🤔 extract_1/5 #48 "expansion" score? 14.38
+T90.42935788095929 attempt_47: "expansion" score:14.38 prog:None
+T93.429842825979 🤔 extract_1/4 #49 "progression" score? 13.79
+T93.43001467199065 attempt_48: "progression" score:13.79 prog:None
+T95.91760367597453 🤔 extract_1/3 #50 "progrès" score? 13.2
+T95.91779188398505 attempt_49: "progrès" score:13.20 prog:None
+T100.94944338098867 🤔 extract_1/2 #51 "renouvellement" score? 22.66 424
+T100.94963743397966 attempt_50: "renouvellement" score:22.66 prog:424
+T106.15771705296356 🤔 extract_1/1 #52 "évolution" score? 19.74 93
+T106.15797259495594 attempt_51: "évolution" score:19.74 prog:93
+T108.50136753596598 #53 ? /prog
+T113.67720739595825 #53 ? *15 t3
+T113.67743004398653 session clear
+T113.67761733400403 chat_prompt: {"prompt": "give me 15 French words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T113.67764765099855 session: {"role": "user", "content": "give me 15 French words that are similar to \"d\u00e9veloppement\", \"formation\", and \"am\u00e9lioration\""}
+T128.55731574696256 session: {"role": "assistant", "content": "Here are 15 French words that convey similar meanings to \"d\u00e9veloppement\", \"formation\", and \"am\u00e9lioration\":\n\n1. Progr\u00e8s (Progress)\n2. \u00c9volution (Evolution)\n3. Avancement (Advancement)\n4. R\u00e9ussite (Success)\n5. D\u00e9butant (Beginner)\n6. Maturit\u00e9 (Maturation)\n7. Qualification (Qualification)\n8. Perfectionnement (Perfectionism)\n9. Am\u00e9lioration (Improvement)\n10. D\u00e9veloppement (Development)\n11. Conception (Conception)\n12. Cr\u00e9ation (Creation)\n13. Exp\u00e9rience (Experience)\n14. Mise \u00e0 jour (Update/Upgrade)\n15. Renforcement (Strengthening)\n\nThese words all relate to concepts of growth, improvement, and development in various fields such as personal, professional, or organizational contexts.\n\nNote that some of these words have slightly different nuances or connotations, but they all generally convey a sense of positive change or progress."}
+T142.0054162289598 #53 extract_...
+T147.7334289859864 🤔 extract_1/11 #53 "avancement" score? 27.27 720
+T147.73369064199505 attempt_52: "avancement" score:27.27 prog:720
+T156.22919398796512 🤔 extract_1/10 #54 "conception" score? 19.93 126
+T156.22938251995947 attempt_53: "conception" score:19.93 prog:126
+T174.9491688249982 🤔 extract_1/9 #55 "création" score? 43.1 980
+T174.94932308595162 attempt_54: "création" score:43.10 prog:980
+T179.37282070098445 🤔 extract_1/8 #56 "débutant" score? 4.98
+T179.3729054830037 attempt_55: "débutant" score:4.98 prog:None
+T182.32534031994874 🤔 extract_1/7 #57 "expérience" score? 14.71
+T182.3255513619515 attempt_56: "expérience" score:14.71 prog:None
+T185.6290969089605 #58 ? _
+T185.62929356796667 chat_prompt: _
+T185.62935844896128 session: {"role": "user", "content": "give me 15 French words that are similar to \"d\u00e9veloppement\", \"formation\", and \"cr\u00e9ation\""}
+T203.653419698996 session: {"role": "assistant", "content": "Here are 15 French words that convey similar meanings to \"d\u00e9veloppement\", \"formation\", and \"cr\u00e9ation\":\n\n1. D\u00e9marche (Action/Initiative)\n2. Actionnisme (Actionism)\n3. Strat\u00e9gie (Strategy)\n4. Planification (Planning)\n5. Am\u00e9lioration (Improvement)\n6. Renouvellement (Renewal)\n7. Innovation (Innovation)\n8. Conception (Conception)\n9. D\u00e9veloppement durable (Sustainable Development)\n10. Transformation (Transformation)\n11. Rebooting (Restart/Revamp)\n12. \u00c9volution (Evolution)\n13. Exp\u00e9rience (Experience)\n14. D\u00e9finition (Definition)\n15. Actualisation (Actualization)\n\nThese words all relate to concepts of action, growth, and change in various fields such as personal, professional, or organizational contexts.\n\nNote that some of these words have slightly different nuances or connotations, but they all generally convey a sense of positive change or progress.\n\nAlso, it's worth noting that some of these words may have more technical or specialized meanings, but they all share a common thread of promoting growth and development."}
+T205.76512518298114 #58 extract_...
+T208.92548532196088 🤔 extract_1/8 #58 "actionnisme" score? -8.13
+T208.92584554495988 attempt_57: "actionnisme" score:-8.13 prog:None
+T213.94149523298256 🤔 extract_1/7 #59 "actualisation" score? 20.5 193
+T213.94175540999277 attempt_58: "actualisation" score:20.50 prog:193
+T219.9892604709603 🤔 extract_1/6 #60 "démarche" score? 26.32 683
+T219.98945845896378 attempt_59: "démarche" score:26.32 prog:683
+T225.4775792459841 🤔 extract_1/5 #61 "innovation" score? 30.44 831
+T225.47779008100042 attempt_60: "innovation" score:30.44 prog:831
+T231.3256424459978 🤔 extract_1/4 #62 "planification" score? 21.23 280
+T231.32587210199563 attempt_61: "planification" score:21.23 prog:280
+T235.04511891800212 🤔 extract_1/3 #63 "rebooting" score? !
+T235.04524018999655 reject: "rebooting"
+T235.96519627596717 🤔 extract_1/2 #63 "stratégie" score? 
+T241.5970051799668 🤔 extract_1/2 #63 "stratégie" score? 29.61
+T244.0213644169853 🤔 extract_1/2 #63 "stratégie" 29.61°C prog‰ ? 796
+T244.0215073149884 attempt_62: "stratégie" score:29.61 prog:796
+T253.4534575099824 🤔 extract_1/1 #64 "transformation" score? 15.08
+T253.45367430499755 attempt_63: "transformation" score:15.08 prog:None
+T256.16568659298355 #65 ? /prog
+T259.49354958499316 #65 ? *5 t1
+T259.4938822379918 session clear
+T259.4941412929911 chat_prompt: {"prompt": "give me 5 French words that are similar to $1", "vars": [1], "ords": []}
+T259.49418854300166 session: {"role": "user", "content": "give me 5 French words that are similar to \"d\u00e9veloppement\""}
+T266.1044727760018 session: {"role": "assistant", "content": "Here are 5 French words that are similar to \"d\u00e9veloppement\":\n\n1. D\u00e9velopper (to develop, expand)\n2. \u00c9volution (evolution)\n3. Am\u00e9lioration (improvement, development)\n4. Progr\u00e8s (progress)\n5. Expansion (expansion)\n\nNote: While these words have similarities in meaning and connotation with \"d\u00e9veloppement\", their nuances and specific contexts may differ."}
+T268.42939043295337 #65 extract_1
+T273.7333886929555 🤔 extract_1/1 #65 "développer" score? 37.35 952
+T273.73360911000054 attempt_64: "développer" score:37.35 prog:952
+T276.7332708759932 #66 ? /prog
+T284.317320097005 #66 ? *25 t5
+T284.31752157298615 session clear
+T284.3177135439473 chat_prompt: {"prompt": "give me 25 French words that are similar to $1, $2, $3, $4, and $5", "vars": [1, 2, 3, 4, 5], "ords": []}
+T284.3177452349919 session: {"role": "user", "content": "give me 25 French words that are similar to \"d\u00e9veloppement\", \"formation\", \"cr\u00e9ation\", \"d\u00e9velopper\", and \"am\u00e9lioration\""}
+T304.69957063294714 session: {"role": "assistant", "content": "Here are 25 French words that are similar in meaning to the ones you provided:\n\n1. \u00c9volution (development)\n2. Renovation (renovation, renovation of a place or an idea)\n3. Progr\u00e8s (progress)\n4. Am\u00e9liorisation (improvement)\n5. Augmentation (increase, expansion)\n6. Rationalisation (rationalization)\n7. Conception (conception, planning)\n8. Innovation (innovation)\n9. Expansions (expansion)\n10. Am\u00e9nagement (amendment, arrangement)\n11. Transformation (transformation)\n12. Projet (project, idea or plan)\n13. D\u00e9veloppement strat\u00e9gique (strategic development)\n14. Gestion (management, administration)\n15. Modernisation (modernization)\n16. Requalification (requalification, upgrading)\n17. Consolidation (consolidation)\n18. \u00c9mergence (emergence)\n19. R\u00e9forme (reform)\n20. Adaptabilit\u00e9 (adaptability)\n21. Exp\u00e9rimentation (experimentation)\n22. Renforcement (strengthening)\n23. Optimisation (optimization)\n24. Am\u00e9lioration de la qualit\u00e9 (quality improvement)\n25. Transformation de mod\u00e8le (model transformation)\n\nThese words all relate to the concepts of growth, development, change, and improvement, but with slightly different nuances and connotations."}
+T306.3252927699941 #66 extract_...
+T312.8052335419925 🤔 extract_1/16 #66 "adaptabilité" score? 10.58
+T312.80545465199975 attempt_65: "adaptabilité" score:10.58 prog:None
+T315.25367711595027 🤔 extract_1/15 #67 "améliorisation" score? !
+T315.25387550797313 reject: "améliorisation"
+T319.82929039397277 🤔 extract_1/14 #67 "aménagement" score? 24 533
+T319.82949151698267 attempt_66: "aménagement" score:24.00 prog:533
+T322.2615457889624 🤔 extract_1/13 #68 "augmentation" score? 12.27
+T322.26182767696446 attempt_67: "augmentation" score:12.27 prog:None
+T325.87744404695695 🤔 extract_1/12 #69 "expansions" score? !
+T325.87764047196833 reject: "expansions"
+T328.85349395900266 🤔 extract_1/11 #69 "expérimentation" score? 14.77
+T328.85368797398405 attempt_68: "expérimentation" score:14.77 prog:None
+T334.59733050200157 🤔 extract_1/10 #70 "gestion" score? 34.63 915
+T334.5975126349949 attempt_69: "gestion" score:34.63 prog:915
+T340.157139146002 🤔 extract_1/9 #71 "modernisation" score? 27.02 705
+T340.15727012295974 attempt_70: "modernisation" score:27.02 prog:705
+T348.9574390189955 🤔 extract_1/8 #72 "optimisation" score? 23.45 496
+T348.9576201529708 attempt_71: "optimisation" score:23.45 prog:496
+T353.7972609279677 🤔 extract_1/7 #73 "projet" score? 35.27 926
+T353.7974380599917 attempt_72: "projet" score:35.27 prog:926
+T356.5812895849813 🤔 extract_1/6 #74 "rationalisation" score? 18.8
+T356.58144496398745 attempt_73: "rationalisation" score:18.80 prog:None
+T364.3097381099942 🤔 extract_1/5 #75 "renforcement" score? 39.16 963
+T364.3100029019988 attempt_74: "renforcement" score:39.16 prog:963
+T373.93340003100457 🤔 extract_1/4 #76 "renovation" score? !
+T373.9335412289947 reject: "renovation"
+T379.8538048999617 🤔 extract_1/3 #76 "requalification" score? 21.78 333
+T379.85405522596557 attempt_75: "requalification" score:21.78 prog:333
+T382.92564931698143 🤔 extract_1/2 #77 "réforme" score? 10.93
+T382.925862095959 attempt_76: "réforme" score:10.93 prog:None
+T387.75751975696767 🤔 extract_1/1 #78 "émergence" score? 23.03 456
+T387.7577487209928 attempt_77: "émergence" score:23.03 prog:456
+T391.7573475749814 #79 ? _
+T391.7576485069585 chat_prompt: _
+T391.75774528295733 session: {"role": "user", "content": "give me 25 French words that are similar to \"d\u00e9veloppement\", \"formation\", \"cr\u00e9ation\", \"renforcement\", and \"d\u00e9velopper\""}
+T421.32844939798815 session: {"role": "assistant", "content": "Here are 25 French words that are similar in meaning to the ones you provided:\n\n1. D\u00e9senvironnement (un-environmentalization, a process of reducing environmental impact)\n2. \u00c9mergences (emergence, emergence of new ideas or solutions)\n3. Croissance (growth, development)\n4. Am\u00e9lioration (improvement)\n5. Expansion (expansion, increase in size or scope)\n6. Conception (conception, planning)\n7. Innovation (innovation)\n8. Modernisation (modernization)\n9. Renouvellement (renewal, renewal of ideas or approaches)\n10. D\u00e9veloppement durable (sustainable development)\n11. Am\u00e9lioration de la qualit\u00e9 (quality improvement)\n12. Transformation (transformation, change in form or function)\n13. Augmentation des comp\u00e9tences (competency enhancement)\n14. Formation continue (continuing education)\n15. D\u00e9veloppement des capacit\u00e9s (capacity development)\n16. Cr\u00e9ativit\u00e9 (creativity)\n17. \u00c9volution strat\u00e9gique (strategic evolution)\n18. Progr\u00e8s social (social progress)\n19. Am\u00e9lioration de la productivit\u00e9 (productivity improvement)\n20. Renovation (renovation, renovation of a place or an idea)\n21. Diversification (diversification)\n22. Expansion des opportunit\u00e9s (opportunity expansion)\n23. \u00c9mergence de nouveaux talents (emergence of new talent)\n24. D\u00e9veloppement des ressources humaines (human resources development)\n25. Transformation de la culture d'entreprise (company culture transformation)\n\nThese words all relate to the concepts of growth, development, improvement, and change, but with slightly different nuances and connotations.\n\nNote: Some of these words may have more technical or specialized meanings, while others are more general and widely used in everyday language."}
+T427.78943815798266 #79 extract_1
+T431.0452746200026 🤔 extract_1/4 #79 "créativité" score? 17.31
+T431.0454304519808 attempt_78: "créativité" score:17.31 prog:None
+T434.66143518598983 #80 extract_...
+T439.3973985979683 🤔 extract_1/3 #80 "diversification" score? 34.04 911
+T439.39764639997156 attempt_79: "diversification" score:34.04 prog:911
+T441.9330549549777 🤔 extract_1/2 #81 "désenvironnement" score? !
+T441.9331069039763 reject: "désenvironnement"
+T444.3338174269884 🤔 extract_1/1 #81 "émergences" score? !
+T444.33400499494746 reject: "émergences"
+T446.6772435759776 #81 ? /prog
+T455.2848118149559 #81 ? *5 #80
+T455.28488737298176 session clear
+T455.2849451209768 chat_prompt: {"prompt": "give me 5 French words that are similar to #80", "vars": [], "ords": [80]}
+T455.28495243296493 session: {"role": "user", "content": "give me 5 French words that are similar to \"diversification\""}
+T470.4184658259619 session: {"role": "assistant", "content": "Here are 5 French words that are similar to \"diversification\":\n\n1. **Diversit\u00e9** - This word translates to \"diversity\" and refers to the presence of different things, such as cultures, species, or languages.\n2. **Polyvalence** - This word means \"multivalued\" or \"having multiple values\", which can be related to diversification in a business or economic sense.\n3. **Polyvalentielit\u00e9** - Similar to polyvalence, this word refers to the quality of being able to adapt or grow in different situations.\n4. **Dynamisation** - This word means \"dynamization\" or \"making something dynamic\", which can be related to diversification and expansion.\n5. **Expansionnelit\u00e9** - This word translates to \"expansive\" or \"encompassing\", which can be related to the idea of expanding into new areas through diversification.\n\nNote that some of these words may have slightly different connotations or nuances, but they all share a similar theme with \"diversification\"."}
+T472.989352998964 #81 extract_...
+T478.9175039889524 🤔 extract_1/5 #81 "diversité" score? 27.84 743
+T478.91777787398314 attempt_80: "diversité" score:27.84 prog:743
+T486.77333386195824 🤔 extract_1/4 #82 "dynamisation" score? 38.56 959
+T486.77353683899855 attempt_81: "dynamisation" score:38.56 prog:959
+T489.22174231597455 🤔 extract_1/3 #83 "expansionnelité" score? !
+T489.22194295196095 reject: "expansionnelité"
+T491.67740016197786 🤔 extract_1/2 #83 "polyvalence" score? 14.11
+T491.67762887495337 attempt_82: "polyvalence" score:14.11 prog:None
+T494.4457246380043 🤔 extract_1/1 #84 "polyvalentielité" score? !
+T494.4459847959806 reject: "polyvalentielité"
+T498.9015112029738 #84 ? /prog
+T504.5092166370014 #84 ? *25 t5
+T504.50941221998073 session clear
+T504.50958479294786 chat_prompt: {"prompt": "give me 25 French words that are similar to $1, $2, $3, $4, and $5", "vars": [1, 2, 3, 4, 5], "ords": []}
+T504.5096126360004 session: {"role": "user", "content": "give me 25 French words that are similar to \"d\u00e9veloppement\", \"formation\", \"cr\u00e9ation\", \"renforcement\", and \"dynamisation\""}
+T520.2047891269904 session: {"role": "assistant", "content": "Here are 25 French words that convey similar meanings to the ones you provided:\n\n1. \u00c9volution\n2. Am\u00e9lioration\n3. Expansion\n4. Consolidation\n5. D\u00e9veloppement (as given)\n6. Formation (as given)\n7. Cr\u00e9ativit\u00e9\n8. Innovation\n9. Progr\u00e8s\n10. Renforcement (as given)\n11. Dynamisation (as given)\n12. Gestion\n13. Gestion des ressources\n14. Am\u00e9lioration de la qualit\u00e9\n15. Optimisation\n16. Strat\u00e9gie\n17. Planification\n18. Organisation\n19. Structuration\n20. \u00c9mergence\n21. Croissance\n22. Diversification\n23. Renouvellement\n24. Redynamisation\n25. Transformation\n\nThese words all relate to concepts of growth, development, improvement, and transformation, which are similar to the meanings of \"d\u00e9veloppement\", \"formation\", \"cr\u00e9ation\", \"renforcement\", and \"dynamisation\"."}
+T522.4374937199755 #84 extract_...
+T527.7333634739625 🤔 extract_1/3 #84 "organisation" score? 40.55 970
+T527.7335325219901 attempt_83: "organisation" score:40.55 prog:970
+T532.9334724069922 🤔 extract_1/2 #85 "redynamisation" score? 34.89 922
+T532.9336750999792 attempt_84: "redynamisation" score:34.89 prog:922
+T538.3334761439473 🤔 extract_1/1 #86 "structuration" score? 28.25 757
+T538.3336624189978 attempt_85: "structuration" score:28.25 prog:757
+T540.693585919973 #87 ? _
+T540.6938913179911 chat_prompt: _
+T540.6939796509687 session: {"role": "user", "content": "give me 25 French words that are similar to \"d\u00e9veloppement\", \"formation\", \"cr\u00e9ation\", \"organisation\", and \"renforcement\""}
+T562.2514948919998 session: {"role": "assistant", "content": "Here are 25 French words that convey similar meanings to the ones you provided:\n\n1. Am\u00e9lioration\n2. \u00c9volution\n3. Croissance\n4. Progr\u00e8s\n5. Dynamisation (as given)\n6. Strat\u00e9gie\n7. Planification\n8. Gestion\n9. Management\n10. Direction\n11. Conception\n12. Conceptualisation\n13. Structure\n14. Rangement\n15. \u00c9tablisement\n16. Consolidation\n17. Stabilisation\n18. Renouvellement\n19. Modernisation\n20. Transformation\n21. Adaptabilit\u00e9\n22. Flexibilit\u00e9\n23. Autonomisation\n24. Int\u00e9gration\n25. Synth\u00e8se\n\nThese words all relate to concepts of development, structure, organization, and improvement, which are similar to the meanings of \"d\u00e9veloppement\", \"formation\", \"cr\u00e9ation\", \"organisation\", and \"renforcement\"."}
+T563.829489058 #87 extract_...
+T567.2692565449979 🤔 extract_1/11 #87 "autonomisation" score? 13.8
+T567.2694269059575 attempt_86: "autonomisation" score:13.80 prog:None
+T574.1325323499623 🤔 extract_1/10 #88 "conceptualisation" score? #87 score 13.81
+T574.1326950479997 attempt_87: "conceptualisation" score:13.81 prog:None
+T754.7405578759499 <INT>
+T0.009352139953989536 now: 2024-11-21T21:00:15EST
+T0.01261629699729383 session model: llama
+T1.6380787380039692 #89 extract_...
+T6.734083786956035 🤔 extract_1/9 #89 "direction" score? 20.03 146
+T6.734168897964992 attempt_88: "direction" score:20.03 prog:146
+T15.446045492950361 🤔 extract_1/8 #90 "flexibilité" score? 3.87
+T15.446184026950505 attempt_89: "flexibilité" score:3.87 prog:None
+T29.358609696966596 🤔 extract_1/7 #91 "intégration" score? 35.75 929
+T29.358760837989394 attempt_90: "intégration" score:35.75 prog:929
+T42.15059398696758 🤔 extract_1/6 #92 "management" score? 28.93 774
+T42.150761064956896 attempt_91: "management" score:28.93 prog:774
+T52.27871561795473 🤔 extract_1/5 #93 "rangement" score? -2.44
+T52.27892901498126 attempt_92: "rangement" score:-2.44 prog:None
+T55.92713876598282 🤔 extract_1/4 #94 "stabilisation" score? 13.03
+T55.92748185596429 attempt_93: "stabilisation" score:13.03 prog:None
+T80.46226196095813 🤔 extract_1/3 #95 "structure" score? 24.76 592
+T80.4623496249551 attempt_94: "structure" score:24.76 prog:592
+T85.82297516299877 🤔 extract_1/2 #96 "synthèse" score? 6.71
+T85.82319143699715 attempt_95: "synthèse" score:6.71 prog:None
+T88.87085161096184 🤔 extract_1/1 #97 "établisement" score? !
+T88.87100027495762 reject: "établisement"
+T91.65486358996714 #97 ? /prog
+T94.0548161539482 #97 ? /last
+T98.7427181879757 #97 ? /prog
+T127.27081491897115 #97 ? *5 #91
+T127.27140077395597 session clear
+T127.27164734998951 chat_prompt: {"prompt": "give me 5 French words that are similar to #91", "vars": [], "ords": [91]}
+T127.27168071299093 session: {"role": "user", "content": "give me 5 French words that are similar to \"int\u00e9gration\""}
+T136.2664125879528 session: {"role": "assistant", "content": "Here are 5 French words that are similar to \"int\u00e9gration\":\n\n1. Synth\u00e8se (synthesis)\n2. Harmonie (harmony)\n3. Co\u00fbt (cost)\n4. \u00c9quilibre (balance)\n5. Coh\u00e9rence (coherence)\n\nThese words all convey a sense of unity, wholeness, or completeness, which is similar to the meaning of \"int\u00e9gration\"."}
+T149.38279359199805 #97 extract_...
+T155.33493087999523 🤔 extract_1/4 #97 "cohérence" score? 18.35
+T155.3351133769611 attempt_96: "cohérence" score:18.35 prog:None
+T160.1506214129622 🤔 extract_1/3 #98 "coût" score? 15.67
+T160.15077990695136 attempt_97: "coût" score:15.67 prog:None
+T163.75876981695183 🤔 extract_1/2 #99 "harmonie" score? -1.08
+T163.75896265899064 attempt_98: "harmonie" score:-1.08 prog:None
+T166.60676861699903 🤔 extract_1/1 #100 "équilibre" score? 4.22
+T166.60695731895976 attempt_99: "équilibre" score:4.22 prog:None
+T187.24703831598163 #101 ? /prog
+T194.3187858989695 #101 ? *10 $1 #91
+T194.31903055496514 session clear
+T194.31926348496927 chat_prompt: {"prompt": "give me 10 French words that are similar to $1 and #91", "vars": [1], "ords": [91]}
+T194.31932014896302 session: {"role": "user", "content": "give me 10 French words that are similar to \"d\u00e9veloppement\" and \"int\u00e9gration\""}
+T212.36159078095807 session: {"role": "assistant", "content": "Here are 10 French words that convey similar meanings to \"d\u00e9veloppement\" and \"int\u00e9gration\":\n\n1. **Expansion** (expansion) - means growth or widening\n2. **Mise \u00e0 niveau** (upgrading) - implies improvement or upgrading\n3. **Consolidation** (consolider) - refers to the process of making something more stable\n4. **Intensification** (intensifier) - implies making something stronger or more intense\n5. **Synth\u00e8se** (synthesis) - means combining different elements to create a new whole\n6. **Ouverture** (opening up) - suggests expanding or widening opportunities\n7. **Am\u00e9lioration** (improvement) - means making something better\n8. **Diversification** (diversifier) - implies spreading out or expanding into new areas\n9. **Simplification** (simplifier) - refers to the process of making something easier or more manageable\n10. **\u00c9volution** (evolution) - means a gradual change or development over time\n\nNote that some of these words may have slightly different connotations or nuances, but they all generally convey similar meanings to \"d\u00e9veloppement\" and \"int\u00e9gration\"."}
+T220.69470936898142 #101 extract_
+T223.158278168994 #101 ? niveau
+T228.49465016496833 🤔 entered #101 "niveau" score? 19.39 56
+T228.49483412195696 attempt_100: "niveau" score:19.39 prog:56
+T229.39887386799091 #102 ? /e
+T230.2546743429848 #102 extract_...
+T233.25489006197313 🤔 extract_1/4 #102 "intensification" score? 16.99
+T233.25505023699952 attempt_101: "intensification" score:16.99 prog:None
+T238.9185839779675 🤔 extract_1/3 #103 "mise" score? 32.93 893
+T238.91875453299144 attempt_102: "mise" score:32.93 prog:893
+T244.41526822198648 🤔 extract_1/2 #104 "ouverture" score? 25.17 617
+T244.41551633999916 attempt_103: "ouverture" score:25.17 prog:617
+T258.4143241229467 🤔 extract_1/1 #105 "simplification" score? 13.61
+T258.4145170249976 attempt_104: "simplification" score:13.61 prog:None
+T262.91878055298 #106 ? /prog
+T270.57485671696486 #106 ? *15 t2 #91
+T270.5750577329891 session clear
+T270.5752242029994 chat_prompt: {"prompt": "give me 15 French words that are similar to #91, $1, and $2", "vars": [1, 2], "ords": [91]}
+T270.57525308796903 session: {"role": "user", "content": "give me 15 French words that are similar to \"int\u00e9gration\", \"d\u00e9veloppement\", and \"formation\""}
+T293.7199669149704 session: {"role": "assistant", "content": "Here are 15 French words related to the concepts of integration, development, and formation:\n\n1. **Int\u00e9gration** (integration) - a process of uniting disparate elements\n2. **D\u00e9veloppement** (development) - the process of growth or expansion\n3. **Formation** (formation) - the act of forming something new\n4. **\u00c9volution** (evolution) - a gradual change or development over time\n5. **Simplification** (simplification) - making something simpler or easier to understand\n6. **Optimisation** (optimization) - the process of making something as efficient as possible\n7. **Am\u00e9lioration** (amelioration) - an improvement or enhancement\n8. **Mise en \u0153uvre** (implementation) - the act of putting a plan into action\n9. **Cr\u00e9ativit\u00e9** (creativity) - the ability to generate new ideas or solutions\n10. **Innovation** (innovation) - the introduction of new or improved ideas, methods, or products\n11. **D\u00e9veloppement durable** (sustainable development) - economic and social growth that meets the needs of the present without compromising the ability of future generations\n12. **Accord** (agreement) - a mutually acceptable solution or arrangement\n13. **Synth\u00e8se** (synthesis) - the process of combining different elements to form something new\n14. **Transformation** (transformation) - a change in structure, function, or appearance\n15. **Consolidation** (consolidation) - the act of making something more secure or stable"}
+T300.6471482599736 #106 extract_...
+T305.13478532095905 🤔 extract_1/1 #106 "accord" score? 9.78
+T305.1349380129832 attempt_105: "accord" score:9.78 prog:None
+T306.3827600509976 #107 ? /prog
+T317.08679703396047 #107 ? *20 t10
+T317.08700107596815 session clear
+T317.0872304730001 chat_prompt: {"prompt": "give me 20 French words that are similar to $1, $2, $3, $4, $5, $6, $7, $8, $9, and $10", "vars": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "ords": []}
+T317.0872640979942 session: {"role": "user", "content": "give me 20 French words that are similar to \"d\u00e9veloppement\", \"formation\", \"cr\u00e9ation\", \"organisation\", \"renforcement\", \"dynamisation\", \"d\u00e9velopper\", \"int\u00e9gration\", \"projet\", and \"redynamisation\""}
+T333.247313653992 session: {"role": "assistant", "content": "Here are 20 French words related to the ones you provided:\n\n1. Croissance (Growth)\n2. \u00c9volution (Evolution)\n3. Am\u00e9lioration (Improvement)\n4. Structuration (Structuring)\n5. Consolidation (Consolidation)\n6. Modernisation (Modernization)\n7. Renouvellement (Renewal)\n8. Innovation (Innovation)\n9. Transformation (Transformation)\n10. Intensification (Intensification)\n11. Diversification (Diversification)\n12. Expansion (Expansion)\n13. D\u00e9veloppement \u00e9conomique (Economic Development)\n14. D\u00e9veloppement social (Social Development)\n15. D\u00e9veloppement durable (Sustainable Development)\n16. Gestion (Management)\n17. Coordination (Coordination)\n18. Harmonisation (Harmonization)\n19. Stabilisation (Stabilization)\n20. Renforcement strat\u00e9gique (Strategic Reinforcement)\n\nThese words all relate to concepts of development, organization, and growth, similar to the original list."}
+T335.95858037495054 #107 extract_...
+T341.98327864694875 🤔 extract_1/2 #107 "coordination" score? 37.07 946
+T341.9835290159681 attempt_106: "coordination" score:37.07 prog:946
+T349.0708629889996 🤔 extract_1/1 #108 "harmonisation" score? 25.27 627
+T349.0711087840027 attempt_107: "harmonisation" score:25.27 prog:627
+T352.52680211199913 #109 ? _
+T352.52706534200115 chat_prompt: _
+T352.52714993897825 session: {"role": "user", "content": "give me 20 French words that are similar to \"d\u00e9veloppement\", \"formation\", \"cr\u00e9ation\", \"organisation\", \"renforcement\", \"dynamisation\", \"d\u00e9velopper\", \"coordination\", \"int\u00e9gration\", and \"projet\""}
+T374.88094004197046 session: {"role": "assistant", "content": "Here are 20 French words related to the ones you provided:\n\n1. \u00c9volution (Evolution)\n2. Transformation (Transformation)\n3. Am\u00e9lioration (Improvement)\n4. Adaptation (Adaptation)\n5. Renouvellement (Renewal)\n6. Modernisation (Modernization)\n7. Innovation (Innovation)\n8. D\u00e9veloppement territorial (Territorial Development)\n9. Gestion (Management)\n10. Strat\u00e9gie (Strategy)\n11. Planification (Planning)\n12. Coh\u00e9rence (Coherence)\n13. Synth\u00e8se (Synthesis)\n14. Conception (Conception)\n15. Pr\u00e9sentation (Presentation)\n16. Communication (Communication)\n17. Gestion de projet (Project Management)\n18. Suivi (Follow-up)\n19. \u00c9valuation (Evaluation)\n20. Pilotage (Piloting)\n\nThese words all relate to concepts of development, organization, creation, and management, similar to the original list.\n\nNote: I've avoided repeating words that are too similar in meaning to the originals, while still trying to maintain a relevant connection to the themes you provided."}
+T377.26272870600224 #109 extract_...
+T380.9508028939599 🤔 extract_1/6 #109 "adaptation" score? 15.78
+T380.9510151859722 attempt_108: "adaptation" score:15.78 prog:None
+T407.8229306139983 🤔 extract_1/5 #110 "communication" score? 45.17 989
+T407.82309924496803 attempt_109: "communication" score:45.17 prog:989
+T417.9831307439599 🤔 extract_1/4 #111 "pilotage" score? 23.06 561
+T417.9832721139537 attempt_110: "pilotage" score:23.06 prog:561
+T423.1510127329966 🤔 extract_1/3 #112 "présentation" score? #111 prog 461
+T437.38287485099863 <INT>
+T0.008480315038468689 now: 2024-11-21T21:08:30EST
+T0.011039019038435072 session model: llama
+T4.785160950035788 #112 ? #111 prog 461
+T4.786044376029167 fix attempt_110: prog:461
+T8.904881082009524 #112 ? /e
+T10.176973274035845 #112 extract_...
+T16.440695802040864 🤔 extract_1/3 #112 "présentation" score? 27.74 736
+T16.440859307011124 attempt_111: "présentation" score:27.74 prog:736
+T21.681116196035873 🤔 extract_1/2 #113 "suivi" score? 34.77 920
+T21.6813054200029 attempt_112: "suivi" score:34.77 prog:920
+T26.065132072020788 🤔 extract_1/1 #114 "évaluation" score? 25.42
+T29.625105031009298 🤔 extract_1/1 #114 "évaluation" 25.42°C prog‰ ? 636
+T29.625294306024443 attempt_113: "évaluation" score:25.42 prog:636
+T30.729362190002576 <INT>
+T0.008694334945175797 now: 2024-11-21T21:11:15EST
+T0.011027364991605282 session model: llama
+T1.1598974639782682 #115 ? /e
+T4.175515554961748 #115 ? /prog
+T11.24739445198793 #115 ? *15 t3
+T11.248024379950948 session clear
+T11.248279017978348 chat_prompt: {"prompt": "give me 15 French words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T11.248326118977275 session: {"role": "user", "content": "give me 15 French words that are similar to \"d\u00e9veloppement\", \"formation\", and \"communication\""}
+T31.082163472950924 session: {"role": "assistant", "content": "Here are 15 French words that are similar in meaning to \"d\u00e9veloppement\", \"formation\", and \"communication\":\n\n1. Progr\u00e8s (progress)\n2. Croissance (growth)\n3. \u00c9volution (evolution)\n4. Transformation (transformation)\n5. Am\u00e9lioration (improvement)\n6. Renouvellement (renewal)\n7. Diversification (diversification)\n8. Expansion (expansion)\n9. Consolidation (consolidation)\n10. Synth\u00e8se (synthesis)\n11. Co\u00fbt-effectifs (cost-effectiveness)\n12. Strat\u00e9gie (strategy)\n13. Planification (planning)\n14. R\u00e9flexion (reflection)\n15. Int\u00e9gration (integration)\n\nThese words all relate to the idea of growth, improvement, and development in various fields such as business, education, personal growth, and more.\n\nIf you'd like, I can also provide synonyms that are specific to certain contexts:\n\n- For \"d\u00e9veloppement\" (development), consider:\n  - Croissance \u00e9conomique (economic growth)\n  - D\u00e9veloppement durable (sustainable development)\n\n- For \"formation\" (training or education), consider:\n  - Formation professionnelle (vocational training)\n  - \u00c9ducation (education)\n\n- For \"communication\", consider:\n  - Interaktion (interaction)\n  - Information (information)"}
+T55.71145735599566 #115 extract_...
+T59.655713804997504 🤔 extract_1/2 #115 "effectifs" score? !
+T59.65591066295747 reject: "effectifs"
+T62.535586458980106 🤔 extract_1/1 #115 "réflexion" score? 13.88
+T62.53582601196831 attempt_114: "réflexion" score:13.88 prog:None
+T66.81554066599347 #116 ? *20 t4
+T66.81578156194882 session clear
+T66.81597387598595 chat_prompt: {"prompt": "give me 20 French words that are similar to $1, $2, $3, and $4", "vars": [1, 2, 3, 4], "ords": []}
+T66.81600496097235 session: {"role": "user", "content": "give me 20 French words that are similar to \"d\u00e9veloppement\", \"formation\", \"communication\", and \"cr\u00e9ation\""}
+T86.08467971498612 session: {"role": "assistant", "content": "Here are 20 French words that convey similar meanings to \"d\u00e9veloppement\", \"formation\", \"communication\", and \"cr\u00e9ation\":\n\n1. \u00c9volution\n2. Croissance\n3. Avancement\n4. Progr\u00e8s\n5. Am\u00e9lioration\n6. Renovation\n7. R\u00e9novation\n8. Modernisation\n9. Innovation\n10. Transformation\n11. D\u00e9veloppement durable (sustainable development)\n12. \u00c9ducation\n13. Enseignement\n14. Conception\n15. Design\n16. Strat\u00e9gie\n17. Planification\n18. Gestion\n19. Organisation\n20. Synth\u00e8se\n\nThese words all relate to concepts that involve growth, improvement, creation, or the process of achieving something through various means.\n\nHere's a breakdown:\n\n- D\u00e9veloppement: 1, 5, 9 (evolution, improvement, innovation)\n- Formation: 2, 6, 7, 8 (growth, renovation, modernization, transformation)\n- Communication: 10, 11, 13, 14 (transformation, sustainable development, education, conception)\n- Cr\u00e9ation: 3, 4, 15, 16, 17, 20 (advancement, progress, design, strategy, organization, synthesis)"}
+T112.66356251394609 #116 extract_...
+T117.22379283898044 🤔 extract_1/4 #116 "design" score? 10.18
+T117.22407906298758 attempt_115: "design" score:10.18 prog:None
+T122.4317570879939 🤔 extract_1/3 #117 "enseignement" score? 31.47 860
+T122.43200517294463 attempt_116: "enseignement" score:31.47 prog:860
+T127.5752246559714 🤔 extract_1/2 #118 "rénovation" score? 20.1 156
+T127.57538320199819 attempt_117: "rénovation" score:20.10 prog:156
+T132.39937482395908 🤔 extract_1/1 #119 "éducation" score? 35.22 925
+T132.39955059497152 attempt_118: "éducation" score:35.22 prog:925
+T136.0712443969678 #120 ? /prog
+T149.9996340579819 #120 ? *15 t2 #119
+T149.99984018097166 session clear
+T150.00003990798723 chat_prompt: {"prompt": "give me 15 French words that are similar to #119, $1, and $2", "vars": [1, 2], "ords": [119]}
+T150.00007165496936 session: {"role": "user", "content": "give me 15 French words that are similar to \"\u00e9ducation\", \"d\u00e9veloppement\", and \"formation\""}
+T167.56499533599708 session: {"role": "assistant", "content": "Here are 15 French words that convey a sense of personal growth, development, or improvement similar to \"\u00e9ducation\", \"d\u00e9veloppement\", and \"formation\":\n\n1. Enrichissement (enrichment)\n2. Am\u00e9lioration (improvement)\n3. Croissance personnelle (personal growth)\n4. \u00c9volution professionnelle (professional evolution)\n5. Qualification (qualification)\n6. Renforcement (strengthening)\n7. Acc\u00e8s aux comp\u00e9tences (access to skills)\n8. D\u00e9veloppement de soi-m\u00eame (self-development)\n9. R\u00e9silience personnelle (personal resilience)\n10. Conscience de soi (self-awareness)\n11. Mise \u00e0 l'\u00e9chelle (scaling up, referring to increasing one's capabilities)\n12. Reconversion professionnelle (career transition)\n13. D\u00e9veloppement d'un style de vie sain (healthy lifestyle development)\n14. Croissance intellectuelle (intellectual growth)\n15. Am\u00e9lioration de la qualit\u00e9 de vie (improvement of quality of life)\n\nThese words all convey the idea of personal or professional growth, improvement, or enhancement, which are similar to \"\u00e9ducation\", \"d\u00e9veloppement\", and \"formation\"."}
+T170.0556023629615 #120 extract_...
+T175.01558037794894 🤔 extract_1/6 #120 "accès" score? 29.27 791
+T175.01576849195408 attempt_119: "accès" score:29.27 prog:791
+T177.7356875659898 🤔 extract_1/5 #121 "conscience" score? -3.84
+T177.7359280779492 attempt_120: "conscience" score:-3.84 prog:None
+T182.72783069498837 🤔 extract_1/4 #122 "enrichissement" score? 28.16 750
+T182.7281303339987 attempt_121: "enrichissement" score:28.16 prog:750
+T187.46344710397534 🤔 extract_1/3 #123 "qualification" score? 30.01 813
+T187.4636102389777 attempt_122: "qualification" score:30.01 prog:813
+T195.4635521309683 🤔 extract_1/2 #124 "reconversion" score? 23.46 497
+T195.46372028795304 attempt_123: "reconversion" score:23.46 prog:497
+T198.7912832669681 🤔 extract_1/1 #125 "résilience" score? -6.74
+T198.79139342799317 attempt_124: "résilience" score:-6.74 prog:None
+T202.15185647498583 #126 ? /prog
+T213.3196705529699 #126 ? *15 T20
+T213.31994064198807 session clear
+T213.32055493997177 chat_prompt: {"prompt": "give me 15 French words that are similar to $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, and $20", "vars": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], "ords": []}
+T213.32069332699757 session: {"role": "user", "content": "give me 15 French words that are similar to \"d\u00e9veloppement\", \"formation\", \"communication\", \"cr\u00e9ation\", \"organisation\", \"renforcement\", \"dynamisation\", \"d\u00e9velopper\", \"coordination\", \"int\u00e9gration\", \"projet\", \"\u00e9ducation\", \"redynamisation\", \"suivi\", \"gestion\", \"diversification\", \"am\u00e9lioration\", \"mise\", \"enseignement\", and \"comp\u00e9tence\""}
+T227.6751941179973 session: {"role": "assistant", "content": "Here are 15 French words that are similar to the given words:\n\n1. Croissance (growth)\n2. \u00c9volution (evolution)\n3. Strat\u00e9gie (strategy)\n4. Gestion (management)\n5. Investissement (investment)\n6. Conception (conception)\n7. Innovation (innovation)\n8. Changement (change)\n9. R\u00e9alisation (realization)\n10. Expansions (expansion)\n11. \u00c9largissement (expansion)\n12. Am\u00e9lioration (improvement)\n13. Adaptation (adaptation)\n14. Gestion de projet (project management)\n15. D\u00e9veloppement durable (sustainable development)\n\nThese words are all related to the concepts of growth, change, and improvement, which are similar to the themes presented by the original list of French words."}
+T229.34312065097038 #126 extract_...
+T232.22286821500165 🤔 extract_1/4 #126 "changement" score? 4.38
+T232.22293196199462 attempt_125: "changement" score:4.38 prog:None
+T237.76762712898199 🤔 extract_1/3 #127 "investissement" score? 27.57 731
+T237.76778206496965 attempt_126: "investissement" score:27.57 prog:731
+T244.71943980298238 🤔 extract_1/2 #128 "réalisation" score? 34.73 918
+T244.7195712509565 attempt_127: "réalisation" score:34.73 prog:918
+T249.11141936900094 🤔 extract_1/1 #129 "élargissement" score? 18.34
+T249.11156195699004 attempt_128: "élargissement" score:18.34 prog:None
+T251.75144525099313 #130 ? _
+T251.75172942696372 chat_prompt: _
+T251.75180775095941 session: {"role": "user", "content": "give me 15 French words that are similar to \"d\u00e9veloppement\", \"formation\", \"communication\", \"cr\u00e9ation\", \"organisation\", \"renforcement\", \"dynamisation\", \"d\u00e9velopper\", \"coordination\", \"int\u00e9gration\", \"projet\", \"\u00e9ducation\", \"redynamisation\", \"suivi\", \"r\u00e9alisation\", \"gestion\", \"diversification\", \"am\u00e9lioration\", \"mise\", and \"enseignement\""}
+T269.16756454796996 session: {"role": "assistant", "content": "I'll make sure to provide more accurate suggestions this time. Here are 15 French words that are similar to the given words:\n\n1. Croissance (growth)\n2. Apprentissage (learning/formation)\n3. Expression (expression)\n4. Innovation (innovation)\n5. Structure (organization)\n6. Renforcement (reinforcement)\n7. \u00c9volution (evolution)\n8. D\u00e9veloppement (development)\n9. Coordination (coordination)\n10. Mise en \u0153uvre (implementation)\n11. Int\u00e9gration (integration)\n12. Projets de d\u00e9veloppement (project development)\n13. Formation professionnelle (vocational training)\n14. Suivi et \u00e9valuation (monitoring and evaluation)\n15. D\u00e9veloppement des comp\u00e9tences (skill development)\n\nThese words are all related to the concepts of growth, learning, innovation, organization, and improvement, which are similar to the themes presented by the original list of French words."}
+T295.98356268095085 #130 extract_...
+T301.17561206099344 🤔 extract_1/3 #130 "apprentissage" score? 21.92 344
+T301.17579391697655 attempt_129: "apprentissage" score:21.92 prog:344
+T304.51950807299 🤔 extract_1/2 #131 "expression" score? 1.59
+T304.5196566020022 attempt_130: "expression" score:1.59 prog:None
+T307.1350924569997 🤔 extract_1/1 #132 "projets" score? !
+T307.1352217620006 reject: "projets"
+T309.09569492499577 #132 ? /prog
+T313.3995044709882 #132 ? *15 t15
+T313.39970629796153 session clear
+T313.3999480099883 chat_prompt: {"prompt": "give me 15 French words that are similar to $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, and $15", "vars": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], "ords": []}
+T313.40002690500114 session: {"role": "user", "content": "give me 15 French words that are similar to \"d\u00e9veloppement\", \"formation\", \"communication\", \"cr\u00e9ation\", \"organisation\", \"renforcement\", \"dynamisation\", \"d\u00e9velopper\", \"coordination\", \"int\u00e9gration\", \"projet\", \"\u00e9ducation\", \"redynamisation\", \"suivi\", and \"r\u00e9alisation\""}
+T327.4233840419911 session: {"role": "assistant", "content": "Here are 15 French words that are similar in meaning to the ones you provided:\n\n1. **Croissance** (growth)\n2. **Am\u00e9lioration** (improvement)\n3. **\u00c9volution** (evolution)\n4. **Conception** (conception)\n5. **Gestion** (management)\n6. **Mise en place** (implementation)\n7. **Ressources humaines** (human resources)\n8. **S\u00e9curit\u00e9** (safety)\n9. **Int\u00e9r\u00eat** (interest)\n10. **Objectif** (objectives)\n11. **D\u00e9veloppement strat\u00e9gique** (strategic development)\n12. **Gestion des risques** (risk management)\n13. **Suivi de la performance** (performance tracking)\n14. **\u00c9tudes de cas** (case studies)\n15. **Planification** (planning)\n\nThese words are all related to the concepts of personal and professional growth, organization, leadership, and strategy."}
+T336.607560755976 #132 extract_...
+T341.79941078997217 🤔 extract_1/5 #132 "intérêt" score? 19.29 32
+T341.7995573039516 attempt_131: "intérêt" score:19.29 prog:32
+T347.38340843695914 🤔 extract_1/4 #133 "objectif" score? 38.42 958
+T347.383566753997 attempt_132: "objectif" score:38.42 prog:958
+T350.0395846249885 🤔 extract_1/3 #134 "ressources" score? !
+T350.0397163379821 reject: "ressources"
+T353.5273862629547 🤔 extract_1/2 #134 "sécurité" score? 15.72
+T353.52754519396694 attempt_133: "sécurité" score:15.72 prog:None
+T355.80732820695266 🤔 extract_1/1 #135 "études" score? !
+T355.80742360895965 reject: "études"
+T358.063674111967 #135 ? _
+T358.0639243949554 chat_prompt: _
+T358.0639845759724 session: {"role": "user", "content": "give me 15 French words that are similar to \"d\u00e9veloppement\", \"formation\", \"communication\", \"cr\u00e9ation\", \"organisation\", \"renforcement\", \"dynamisation\", \"objectif\", \"d\u00e9velopper\", \"coordination\", \"int\u00e9gration\", \"projet\", \"\u00e9ducation\", \"redynamisation\", and \"suivi\""}
+T379.75555582594825 session: {"role": "assistant", "content": "Here are 15 French words that are similar in meaning to the ones you provided:\n\n1. **\u00c9volution** (evolution)\n2. **D\u00e9veloppement \u00e9conomique** (economic development)\n3. **Formation professionnelle** (professional training)\n4. **Dialogue** (dialogue)\n5. **Innovation** (innovation)\n6. **Gestion de projets** (project management)\n7. **S\u00e9curit\u00e9 sociale** (social security)\n8. **D\u00e9veloppement humain** (human development)\n9. **Am\u00e9lioration continue** (continuous improvement)\n10. **Collaboration** (collaboration)\n11. **Strat\u00e9gie** (strategy)\n12. **\u00c9tudes de march\u00e9** (market studies)\n13. **Gestion des ressources** (resource management)\n14. **Acc\u00e8s \u00e0 l'information** (access to information)\n15. **Growth personnel** (personal growth)\n\nThese words are all related to the concepts of personal and professional development, organization, leadership, strategy, and improvement.\n\nSome notes:\n\n* Some words have been modified to provide a more direct translation or similar meaning.\n* Others might require some context to fully understand their meaning.\n* These words can be used in various fields such as business, education, healthcare, and social sciences."}
+T383.47163206897676 #135 extract_...
+T389.1276678289869 🤔 extract_1/3 #135 "collaboration" score? 26.9 702
+T389.12793637497816 attempt_134: "collaboration" score:26.90 prog:702
+T393.0559070689487 🤔 extract_1/2 #136 "dialogue" score? 6.74
+T393.0561279159738 attempt_135: "dialogue" score:6.74 prog:None
+T395.5676992049557 🤔 extract_1/1 #137 "growth" score? !
+T395.56786924699554 reject: "growth"
+T397.0399262039573 #137 ? /prog
+T398.7757371629705 #137 ? /last
+T401.65554991096724 #137 ? /prog
+T415.8076150799752 #137 ? *15 #110 #133 #107 #119
+T415.80785211897455 session clear
+T415.80804352799896 chat_prompt: {"prompt": "give me 15 French words that are similar to #110, #133, #107, and #119", "vars": [], "ords": [110, 133, 107, 119]}
+T415.8080763119506 session: {"role": "user", "content": "give me 15 French words that are similar to \"communication\", \"objectif\", \"coordination\", and \"\u00e9ducation\""}
+T430.2253753799596 session: {"role": "assistant", "content": "Here are 15 French words that are similar in meaning to the given words:\n\n1. Liaison (similar to Communication)\n2. Objectivit\u00e9 (similar to Objectif)\n3. Harmonie (similar to Coordination)\n4. Adaptabilit\u00e9 (similar to Coordination)\n5. Impulsion (similar to Objectif)\n6. Connaissance (similar to \u00c9ducation)\n7. Formation (similar to \u00c9ducation)\n8. Orientation (similar to Communication)\n9. Synchronisation (similar to Coordination)\n10. R\u00e9alisme (similar to Objectif)\n11. D\u00e9veloppement (similar to \u00c9ducation)\n12. Gestion (similar to Coordination)\n13. Comp\u00e9tence (similar to Adaptabilit\u00e9 and Communication)\n14. Strat\u00e9gie (similar to Objectif)\n15. Exp\u00e9rience (similar to \u00c9ducation)\n\nNote that some of these words may have slightly different connotations or nuances, but they all generally relate to the concepts of communication, objectiv, coordination, and education in a French context."}
+T432.6558114379877 #137 extract_...
+T438.6393974519451 🤔 extract_1/7 #137 "connaissance" score? 21.04 266
+T438.63952308299486 attempt_136: "connaissance" score:21.04 prog:266
+T441.75913794495864 🤔 extract_1/6 #138 "impulsion" score? 15.43
+T441.7592932249536 attempt_137: "impulsion" score:15.43 prog:None
+T446.8953835759894 🤔 extract_1/5 #139 "liaison" score? 23.01 454
+T446.89553105295636 attempt_138: "liaison" score:23.01 prog:454
+T452.63960630696965 🤔 extract_1/4 #140 "objectivité" score? -5.89
+T452.63977728196187 attempt_139: "objectivité" score:-5.89 prog:None
+T458.84736064996105 🤔 extract_1/3 #141 "orientation" score? 31.01 849
+T458.8475293239462 attempt_140: "orientation" score:31.01 prog:849
+T465.3197069009766 🤔 extract_1/2 #142 "réalisme" score? -10.29
+T465.31989766994957 attempt_141: "réalisme" score:-10.29 prog:None
+T468.46374218096025 🤔 extract_1/1 #143 "synchronisation" score? -0.15
+T468.4639594089822 attempt_142: "synchronisation" score:-0.15 prog:None
+T474.43181229097536 #144 ? /prog
+T476.47175322897965 #144 ? /last
+T524.43962357298 #144 ? *10 #133 #119 #110 #141
+T524.4398878759821 session clear
+T524.4401726739598 chat_prompt: {"prompt": "give me 10 French words that are similar to #133, #119, #110, and #141", "vars": [], "ords": [133, 119, 110, 141]}
+T524.4402139019803 session: {"role": "user", "content": "give me 10 French words that are similar to \"objectif\", \"\u00e9ducation\", \"communication\", and \"orientation\""}
+T542.2016364919837 session: {"role": "assistant", "content": "Here are 10 French words that have a similar meaning or connotation to the given words:\n\n1. **Mise en forme** (meaning: shaping, forming) - similar to \"orientation\"\n2. **D\u00e9veloppement** (meaning: development) - similar to \"\u00e9ducation\" and \"communication\"\n3. **Objectif global** (meaning: global objective) - similar to \"objectif\"\n4. **Ressources humaines** (meaning: human resources) - similar to \"communication\"\n5. **Planification** (meaning: planning) - similar to \"orientation\"\n6. **Formation continue** (meaning: continuous training) - similar to \"\u00e9ducation\"\n7. **Audience** (meaning: audience, target) - similar to \"communication\"\n8. **Gestion des ressources** (meaning: resource management) - similar to \"orientation\"\n9. **Cible** (meaning: target, goal) - similar to \"objectif\" and \"communication\"\n10. **R\u00e9f\u00e9rentiel** (meaning: reference point, standard) - similar to \"orientation\"\n\nNote that some of these words may have slightly different connotations or nuances in French, but they all share a similar meaning or concept with the original words."}
+T546.9836428679992 #144 extract_...
+T549.3113855349948 🤔 extract_1/3 #144 "audience" score? 9.31
+T549.3115425999858 attempt_143: "audience" score:9.31 prog:None
+T553.1276045419509 🤔 extract_1/2 #145 "cible" score? 16.62
+T553.1277341349632 attempt_144: "cible" score:16.62 prog:None
+T555.5754710369511 🤔 extract_1/1 #146 "référentiel" score? 17.41
+T555.5756712289876 attempt_145: "référentiel" score:17.41 prog:None
+T558.0234137770021 #147 ? /prog
+T566.5116773039917 #147 ? *30 t3
+T566.5119136499707 session clear
+T566.5121236759587 chat_prompt: {"prompt": "give me 30 French words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T566.5121737039881 session: {"role": "user", "content": "give me 30 French words that are similar to \"d\u00e9veloppement\", \"formation\", and \"communication\""}
+T581.6440253409673 session: {"role": "assistant", "content": "Here are 30 French words that are similar in meaning to \"d\u00e9veloppement\", \"formation\", and \"communication\":\n\n**Development**\n\n1. \u00c9volution\n2. Expansion\n3. Am\u00e9lioration\n4. Croissance\n5. Diversification\n6. Innovation\n7. Progr\u00e8s\n8. Progression\n\n**Formation**\n\n9. Apprentissage\n10. Enseignement\n11. Formation professionnelle\n12. D\u00e9veloppement personnel\n13. Capacitation\n14. Pr\u00e9paration\n15. Qualification\n\n**Communication**\n\n16. Interpr\u00e9tation\n17. Pr\u00e9sentation\n18. Diffusion\n19. Transmettre\n20. R\u00e9ception\n\n**General Terms**\n\n21. Rapprochement\n22. Harmonisation\n23. Coordonn\u00e9e\n24. Synth\u00e8se\n25. Compr\u00e9hension\n26. Mise en \u0153uvre\n27. Suivi\n28. \u00c9valuation\n29. Am\u00e9lioration continue\n30. Soutien"}
+T586.359632859996 #147 extract_...
+T590.3435798469582 🤔 extract_1/10 #147 "capacitation" score? -.08
+T590.3437444269657 attempt_146: "capacitation" score:-0.08 prog:None
+T594.5198542799917 🤔 extract_1/9 #148 "compréhension" score? 2.28
+T594.5200787489885 attempt_147: "compréhension" score:2.28 prog:None
+T596.9754857369699 🤔 extract_1/8 #149 "coordonnée" score? 10.76
+T596.9756442409707 attempt_148: "coordonnée" score:10.76 prog:None
+T603.7514649159857 🤔 extract_1/7 #150 "diffusion" score? 41.42 974
+T603.7516469339607 attempt_149: "diffusion" score:41.42 prog:974
+T607.0323700879817 🤔 extract_1/6 #151 "interprétation" score? -7.84
+T607.0325354759698 attempt_150: "interprétation" score:-7.84 prog:None
+T612.6548449620022 🤔 extract_1/5 #152 "préparation" score? 23.09 465
+T612.6549325079541 attempt_151: "préparation" score:23.09 prog:465
+T615.7597605289775 🤔 extract_1/4 #153 "rapprochement" score? 17.48
+T615.7600790179567 attempt_152: "rapprochement" score:17.48 prog:None
+T618.3994901729748 🤔 extract_1/3 #154 "réception" score? 5.77
+T618.3996667759493 attempt_153: "réception" score:5.77 prog:None
+T626.2957415219862 🤔 extract_1/2 #155 "soutien" score? 40.26 967
+T626.2959340369562 attempt_154: "soutien" score:40.26 prog:967
+T629.7198919329676 🤔 extract_1/1 #156 "transmettre" score? 5.07
+T629.7201992039918 attempt_155: "transmettre" score:5.07 prog:None
+T633.311725012958 #157 ? *25 t5
+T633.311947191949 session clear
+T633.3121378819924 chat_prompt: {"prompt": "give me 25 French words that are similar to $1, $2, $3, $4, and $5", "vars": [1, 2, 3, 4, 5], "ords": []}
+T633.3121685809456 session: {"role": "user", "content": "give me 25 French words that are similar to \"d\u00e9veloppement\", \"formation\", \"communication\", \"cr\u00e9ation\", and \"diffusion\""}
+T653.058459222957 session: {"role": "assistant", "content": "Here are 25 French words that convey similar meanings to the ones you mentioned:\n\n1. D\u00e9veloppement (development)\n2. Formation (training, development)\n3. Communication (communication)\n4. Cr\u00e9ation (creation)\n5. Diffusion (dissemination)\n6. Renovation (renovation)\n7. Am\u00e9lioration (improvement)\n8. Modernisation (modernization)\n9. Investissement (investment)\n10. Expansion (expansion)\n11. \u00c9volution (evolution)\n12. Transformation (transformation)\n13. D\u00e9finition (definition)\n14. Organisation (organization)\n15. Gestion (management)\n16. R\u00e9novation urbaine (urban renovation)\n17. Am\u00e9nagement du territoire (territory planning)\n18. D\u00e9mocratisation (democratization)\n19. \u00c9largissement (expansion)\n20. Renouvellement (renewal)\n21. Innovation (innovation)\n22. Conception (conception)\n23. R\u00e9alisation (realization)\n24. \u00c9lan vital (vital force, or enthusiasm for development)\n25. Cadrage strat\u00e9gique (strategic framework)\n\nThese words convey various aspects of growth, improvement, innovation, and expansion, similar to the meanings of \"d\u00e9veloppement\", \"formation\", \"communication\", \"cr\u00e9ation\", and \"diffusion\"."}
+T654.2714705159888 #157 extract_...
+T657.8472807770013 🤔 extract_1/3 #157 "cadrage" score? -.72
+T657.8473692109692 attempt_156: "cadrage" score:-0.72 prog:None
+T662.4396299869986 🤔 extract_1/2 #158 "démocratisation" score? 27.21 718
+T662.4398407539702 attempt_157: "démocratisation" score:27.21 prog:718
+T666.0796819109819 🤔 extract_1/1 #159 "élan" score? -2.78
+T666.0798764339997 attempt_158: "élan" score:-2.78 prog:None
+T668.2475579449674 #160 ? /prog
+T685.2957139629871 #160 ? *15 $1 #155 #150
+T685.2959616649896 session clear
+T685.2961838310002 chat_prompt: {"prompt": "give me 15 French words that are similar to $1, #155, and #150", "vars": [1], "ords": [155, 150]}
+T685.2962245789822 session: {"role": "user", "content": "give me 15 French words that are similar to \"d\u00e9veloppement\", \"soutien\", and \"diffusion\""}
+T707.1398331879755 session: {"role": "assistant", "content": "Here are 15 French words that convey similar meanings to \"d\u00e9veloppement\", \"soutien\", and \"diffusion\":\n\n1. Croissance (growth)\n2. S\u00e9curit\u00e9 (security)\n3. Promotion (promotion)\n4. Renouvellement (renewal)\n5. Am\u00e9lioration (improvement)\n6. Ressource (resource)\n7. Opportunit\u00e9 (opportunity)\n8. Investissement (investment)\n9. Progr\u00e8s (progress)\n10. D\u00e9veloppement \u00e9conomique (economic development)\n11. Co\u00fbt (cost)\n12. Valeur ajout\u00e9e (added value)\n13. Ciblage (targeting)\n14. Exp\u00e9rience (experience)\n15. R\u00e9sultat (result)\n\nThese words all convey the idea of growth, improvement, or positive change in various areas such as economy, society, and individual development.\n\nSome examples of how these words could be used in sentences:\n\n* \"La croissance \u00e9conomique est essentielle au d\u00e9veloppement d'une r\u00e9gion.\" (Economic growth is essential for regional development.)\n* \"Le soutien des institutions est n\u00e9cessaire pour garantir la s\u00e9curit\u00e9 de la population.\" (Institutional support is necessary to guarantee the security of the population.)\n* \"La diffusion de l'information est cruciale pour promouvoir les progr\u00e8s sociaux.\" (The spread of information is crucial for promoting social progress.)\n\nNote that some of these words may have slightly different connotations or nuances, but they all generally convey a positive and forward-thinking message."}
+T708.5439960329677 #160 extract_1
+T712.8158519939752 🤔 extract_1/6 #160 "ciblage" score? 24.3 555
+T712.8161010639742 attempt_159: "ciblage" score:24.30 prog:555
+T729.0797219649539 #161 extract_...
+T736.8156851209933 🤔 extract_1/5 #161 "opportunité" score? 31.73 868
+T736.8159065019572 attempt_160: "opportunité" score:31.73 prog:868
+T742.1518822919461 🤔 extract_1/4 #162 "promotion" score? 100 1000
+T742.1521501509706 attempt_161: "promotion" score:100.00 prog:1000
+T747.3754464749945 Paste share result, then preses <Enter>
+T747.3830452049733 share result: "J'ai trouv\u00e9 #cemantix n\u00ba996 en 161 coups !\n\ud83e\udd73\n\ud83d\udd252\ufe0f\u20e3\n\ud83e\udd751\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e4\ufe0f\u20e39\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd765\ufe0f\u20e31\ufe0f\u20e3\n\ud83e\uddca\ud83e\uddca\ud83e\uddca3\ufe0f\u20e39\ufe0f\u20e3\nhttps://cemantix.certitudes.org/"
+T747.3843272789964 <STOP>
