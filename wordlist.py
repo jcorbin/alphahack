@@ -6,6 +6,14 @@ from typing import final, TextIO
 
 from ui import PromptUI
 
+def tokens_from(path_or_io: str|Iterable[str]) -> Generator[str]:
+    if isinstance(path_or_io, str):
+        with open(path_or_io) as f:
+            yield from tokens_from(f)
+        return
+    for line in path_or_io:
+        yield line.strip().lower().partition(' ')[0]
+
 def exclude_file(name: str):
     return f'{os.path.splitext(name)[0]}.exclude.txt'
 
@@ -14,10 +22,7 @@ class WordList:
     def __init__(self, fable: TextIO):
         self.name = fable.name
         with fable as f:
-            self.tokens = [
-                line.strip().lower().partition(' ')[0]
-                for line in f
-            ]
+            self.tokens = list(tokens_from(f))
 
     @property
     def describe(self):
@@ -62,9 +67,7 @@ class WordList:
     @property
     def excluded_tokens(self):
         try:
-            with open(self.exclude_file) as f:
-                for line in f:
-                    yield line.strip().lower().partition(' ')[0]
+            yield from tokens_from(self.exclude_file)
         except FileNotFoundError:
             pass
 
