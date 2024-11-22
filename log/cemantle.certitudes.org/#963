@@ -1,0 +1,410 @@
+T0.004170680011156946 now: 2024-11-22T13:21:20EST
+T0.8578975879936479 🔗 cemantle.certitudes.org ? 
+T0.8581045769969933 site: cemantle.certitudes.org
+T1.9388478239998221 🌎  ? 
+T1.9390014270320535 lang: 
+T4.7229535870137624 🧩  ? #963
+T4.723406276025344 puzzle_id: #963
+T8.027075503021479 😎 °C ? 25.76
+T8.027295786014292 scale: 😎 25.76 °C
+T10.683011559012812 🥵 °C ? 39.52
+T10.68327371502528 scale: 🥵 39.52 °C
+T13.003267963998951 🔥 °C ? 51.44
+T13.003472365031485 scale: 🔥 51.44 °C
+T16.13886021001963 😱 °C ? 57.29
+T16.139067952986807 scale: 😱 57.29 °C
+T16.204402649018448 session model: llama
+T16.204462945985142 session clear
+T16.204529120994266 session: {"role": "user", "content": "give me 10 words at random that are not related to each other"}
+T24.528207744006068 session: {"role": "assistant", "content": "Here are 10 random words that are not related to each other:\n\n1. Pineapple\n2. Guitar\n3. Snowflake\n4. Perfume\n5. Llama\n6. Bicycle\n7. Caramel\n8. Fjord\n9. Harmonica\n10. Saffron"}
+T26.178619048034307 #1 extract_...
+T29.290857599000446 🤔 extract_1/10 #1 "bicycle" score? 5.16
+T29.29099126002984 attempt_0: "bicycle" score:5.16 prog:None
+T31.482791719026864 🤔 extract_1/9 #2 "caramel" score? 11.05
+T31.482983085035812 attempt_1: "caramel" score:11.05 prog:None
+T33.722727874992415 🤔 extract_1/8 #3 "fjord" score? 5.08
+T33.72290447901469 attempt_2: "fjord" score:5.08 prog:None
+T39.883072194992565 🤔 extract_1/7 #4 "guitar" score? 33.21 698
+T39.883301931025926 attempt_3: "guitar" score:33.21 prog:698
+T49.50671245600097 🤔 extract_1/6 #5 "harmonica" score? 38.56 885
+T49.5068985010148 attempt_4: "harmonica" score:38.56 prog:885
+T52.474836392037105 🤔 extract_1/5 #6 "llama" score? 5.64
+T52.475028724991716 attempt_5: "llama" score:5.64 prog:None
+T55.34608672000468 🤔 extract_1/4 #7 "perfume" score? 8.67
+T55.34614524699282 attempt_6: "perfume" score:8.67 prog:None
+T57.7868087310344 🤔 extract_1/3 #8 "pineapple" score? 8.7
+T57.78699748800136 attempt_7: "pineapple" score:8.70 prog:None
+T61.122873683983926 🤔 extract_1/2 #9 "saffron" score? 7.6
+T61.123124492005445 attempt_8: "saffron" score:7.60 prog:None
+T63.810736367013305 🤔 extract_1/1 #10 "snowflake" score? 7.98
+T63.810922014003154 attempt_9: "snowflake" score:7.98 prog:None
+T69.5630419140216 #11 ? *10 t2
+T69.56374386802781 session clear
+T69.56402593798703 chat_prompt: {"prompt": "give me 10 words that are similar to $1 and $2", "vars": [1, 2], "ords": []}
+T69.5640669669956 session: {"role": "user", "content": "give me 10 words that are similar to \"harmonica\" and \"guitar\""}
+T76.32094047899591 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"harmonica\" and \"guitar\":\n\n1. Banjo\n2. Ukelele\n3. Saxophone\n4. Piano\n5. Drums\n6. Trumpet\n7. Cello\n8. Violin\n9. Bass\n10. Accordion\n\nThese words are all related to musical instruments, which is why they're similar to \"harmonica\" and \"guitar\"."}
+T77.53873216098873 #11 extract_...
+T79.93883102701511 🤔 extract_1/10 #11 "accordion" score? 24.32
+T79.93907314602984 attempt_10: "accordion" score:24.32 prog:None
+T84.77884284203174 🤔 extract_1/9 #12 "banjo" score? 40.37 918
+T84.77902765403269 attempt_11: "banjo" score:40.37 prog:918
+T88.55487017799169 🤔 extract_1/8 #13 "bass" score? 
+T93.92228278500261 #13 ? *15 t3
+T93.92251929099439 session clear
+T93.92273938900325 chat_prompt: {"prompt": "give me 15 words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T93.9227914380026 session: {"role": "user", "content": "give me 15 words that are similar to \"banjo\", \"harmonica\", and \"guitar\""}
+T101.09841600700747 session: {"role": "assistant", "content": "Here are 15 words that are similar to \"banjo\", \"harmonica\", and \"guitar\":\n\n1. Fiddle\n2. Drums\n3. Violin\n4. Trumpet\n5. Ukulele\n6. Piano\n7. Accordion\n8. Cello\n9. Bass\n10. Mandolin\n11. Kazoo\n12. Clarinet\n13. Sitar\n14. Lute\n15. Ukulele"}
+T102.59438071702607 #13 extract_...
+T106.01878568099346 🤔 extract_1/13 #13 "bass" score? 25.74
+T106.01898069499293 attempt_12: "bass" score:25.74 prog:None
+T108.72292650700547 🤔 extract_1/12 #14 "cello" score? 22.04
+T108.72310392098734 attempt_13: "cello" score:22.04 prog:None
+T111.17869819101179 🤔 extract_1/11 #15 "clarinet" score? 25.32
+T111.1789070800296 attempt_14: "clarinet" score:25.32 prog:None
+T114.7709661470144 🤔 extract_1/10 #16 "drums" score? !drum
+T114.77118538803188 reject: "drums"
+T117.44273394602351 🤔 corrected #16 "drum" score? 22.66
+T117.4429176520207 attempt_15: "drum" score:22.66 prog:None
+T121.06669796002097 🤔 extract_1/9 #17 "fiddle" score? 19.94
+T121.06691277999198 attempt_16: "fiddle" score:19.94 prog:None
+T123.57910268899286 🤔 extract_1/8 #18 "kazoo" score? 25.26
+T123.5793847499881 attempt_17: "kazoo" score:25.26 prog:None
+T127.195362620987 🤔 extract_1/7 #19 "lute" score? 19.63
+T127.19564676500158 attempt_18: "lute" score:19.63 prog:None
+T131.1948774930206 🤔 extract_1/6 #20 "mandolin" score? 34.98
+T133.74600264901528 🤔 extract_1/6 #20 "mandolin" 34.98°C prog‰ ? 777
+T133.7460784179857 attempt_19: "mandolin" score:34.98 prog:777
+T142.20257447799668 🤔 extract_1/5 #21 "piano" score? 32.36 647
+T142.20275736402255 attempt_20: "piano" score:32.36 prog:647
+T143.41090904100565 🤔 extract_1/4 #22 "sitar" score? 
+T144.09898420301033 🤔 extract_1/4 #22 "sitar" score? 
+T145.8022349679959 #22 ? _
+T145.80237854702864 chat_prompt: _
+T145.80241372302407 session: {"role": "user", "content": "give me 15 words that are similar to \"banjo\", \"harmonica\", and \"mandolin\""}
+T154.19941578200087 session: {"role": "assistant", "content": "Here are 15 words that are similar to \"banjo\", \"harmonica\", and \"mandolin\":\n\n1. Fiddle\n2. Ukulele\n3. Ocarina\n4. Sitar\n5. Lute\n6. Dulcimer\n7. Accordion\n8. Kora\n9. Banzuri\n10. Guzheng\n11. Qraqeb\n12. Ravanahatha\n13. Saz\n14. Chapman Stick\n15. Autoharp"}
+T156.7067188140354 #22 extract_...
+T159.15477099700365 🤔 extract_1/12 #22 "autoharp" score? !
+T159.1549575580284 reject: "autoharp"
+T161.32294268201804 🤔 extract_1/11 #22 "banzuri" score? !
+T161.3231612109812 reject: "banzuri"
+T164.53089285298483 🤔 extract_1/10 #22 "chapman" score? 12.08
+T164.53104949201224 attempt_21: "chapman" score:12.08 prog:None
+T169.35474104102468 🤔 extract_1/9 #23 "dulcimer" score? 38.51 882
+T169.3549317099969 attempt_22: "dulcimer" score:38.51 prog:882
+T170.18694857903756 🤔 extract_1/8 #24 "guzheng" score? 
+T171.78726249403553 #24 ? _
+T171.7876627530204 chat_prompt: _
+T171.78776158299297 session: {"role": "user", "content": "give me 15 words that are similar to \"banjo\", \"harmonica\", and \"dulcimer\""}
+T181.70518467301736 session: {"role": "assistant", "content": "Here are 15 words that are similar to \"banjo\", \"harmonica\", and \"dulcimer\":\n\n1. Fiddle\n2. Ukulele\n3. Mandolin\n4. Ocarina\n5. Sitar\n6. Lute\n7. Autoharp\n8. Dulcimer\n9. Banjo\n10. Harmonica\n11. Kalimba\n12. Kora\n13. Nyckelharpa\n14. Hurdy-gurdy\n15. Cittern"}
+T183.2826476690243 #24 extract_...
+T187.33859476598445 🤔 extract_1/9 #24 "cittern" score? 26.65
+T189.52280910802074 🤔 extract_1/9 #24 "cittern" 26.65°C prog‰ ? 133
+T189.5229860910331 attempt_23: "cittern" score:26.65 prog:133
+T192.41090445203008 🤔 extract_1/8 #25 "gurdy" score? !
+T192.41106621501967 reject: "gurdy"
+T194.37882241501939 🤔 extract_1/7 #25 "hurdy" score? !
+T194.37900595198153 reject: "hurdy"
+T196.38673860300332 🤔 extract_1/6 #25 "kalimba" score? !
+T196.3868684390327 reject: "kalimba"
+T198.51457254501292 🤔 extract_1/5 #25 "kora" score? !
+T198.51471250900067 reject: "kora"
+T200.85055563802598 🤔 extract_1/4 #25 "nyckelharpa" score? !
+T200.85067762399558 reject: "nyckelharpa"
+T204.47504428902175 🤔 extract_1/3 #25 "ocarina" score? 16.56
+T204.47530518600252 attempt_24: "ocarina" score:16.56 prog:None
+T209.11473691702122 🤔 extract_1/2 #26 "sitar" score? 24.96
+T209.11490362300538 attempt_25: "sitar" score:24.96 prog:None
+T214.6025861449889 🤔 extract_1/1 #27 "ukulele" score? 31.97 621
+T214.60274081502575 attempt_26: "ukulele" score:31.97 prog:621
+T216.9151849700138 #28 ? /prog
+T220.78666866698768 #28 ? *5 $1
+T220.78704573900905 session clear
+T220.7873190320097 chat_prompt: {"prompt": "give me 5 words that are similar to $1", "vars": [1], "ords": []}
+T220.78740372799803 session: {"role": "user", "content": "give me 5 words that are similar to \"banjo\""}
+T223.82371845300077 session: {"role": "assistant", "content": "Here are 5 words that are similar to \"banjo\":\n\n1. Guitar\n2. Lute\n3. Mandolin\n4. Ukulele\n5. Dulcimer"}
+T227.12271862401394 #28 ? *10 t2
+T227.12296042899834 session clear
+T227.12315548799234 chat_prompt: {"prompt": "give me 10 words that are similar to $1 and $2", "vars": [1, 2], "ords": []}
+T227.12320499203634 session: {"role": "user", "content": "give me 10 words that are similar to \"banjo\" and \"harmonica\""}
+T232.79028247098904 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"banjo\" and \"harmonica\":\n\n1. Ukulele\n2. Fiddle\n3. Mandolin\n4. Accordion\n5. Kazoo\n6. Ocarina\n7. Recorder\n8. Sitar (Indian stringed instrument)\n9. Dulcimer\n10. Autoharp"}
+T236.05860015703365 #28 extract_...
+T239.33099387102993 🤔 extract_1/1 #28 "recorder" score? 8.66
+T239.33123640099075 attempt_27: "recorder" score:8.66 prog:None
+T245.73069046903402 #29 ? *15 t3
+T245.73090624500765 session clear
+T245.7310860020225 chat_prompt: {"prompt": "give me 15 words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T245.73111851298017 session: {"role": "user", "content": "give me 15 words that are similar to \"banjo\", \"harmonica\", and \"dulcimer\""}
+T256.00944616203196 session: {"role": "assistant", "content": "Here are 15 words that are similar to \"banjo\", \"harmonica\", and \"dulcimer\":\n\n1. Fiddle\n2. Lute\n3. Mandolin\n4. Guitar\n5. Ukulele\n6. Accordion\n7. Bass\n8. Drums\n9. Xylophone\n10. Cello\n11. Viola\n12. Recorder\n13. Ocarina\n14. Koto\n15. Balalaika\n\nThese words are all types of musical instruments, many of which have origins in traditional folk music and are often used to create similar sounds or moods as banjos, harmonicas, and dulcimers."}
+T257.6826848409837 #29 extract_...
+T264.8587110710214 🤔 extract_1/4 #29 "balalaika" score? 21.17
+T264.85887484799605 attempt_28: "balalaika" score:21.17 prog:None
+T271.66678176401183 🤔 extract_1/3 #30 "koto" score? 29.98 501
+T271.66692291601794 attempt_29: "koto" score:29.98 prog:501
+T274.62689316499745 🤔 extract_1/2 #31 "viola" score? 14.99
+T274.62710064603016 attempt_30: "viola" score:14.99 prog:None
+T277.26690283202333 🤔 extract_1/1 #32 "xylophone" score? 19.2
+T277.26712121698074 attempt_31: "xylophone" score:19.20 prog:None
+T281.6744527820265 #33 ? /prog
+T288.9065093829995 #33 ? /last
+T293.6265927850036 #33 ? *20 24
+T293.6267856199993 session clear
+T293.62688034499297 session: {"role": "user", "content": "give me 20 words that are similar to \"24\""}
+T300.66410974698374 session: {"role": "assistant", "content": "Here are 20 words that are similar to \"24\":\n\n1. Twenty-four\n2. Two\n3. Fourteen\n4. Eighteen\n5. Twelve\n6. Nineteen\n7. Sixteen\n8. Seventeen\n9. Thirteen\n10. Ten\n11. Five\n12. Nine\n13. One\n14. Three\n15. Seven\n16. Eleven\n17. Twenty-one\n18. Four\n19. Six\n20. Twenty-five"}
+T304.4351887740195 #33 ? *20 t4
+T304.4354670449975 session clear
+T304.4357169410214 chat_prompt: {"prompt": "give me 20 words that are similar to $1, $2, $3, and $4", "vars": [1, 2, 3, 4], "ords": []}
+T304.43577614298556 session: {"role": "user", "content": "give me 20 words that are similar to \"banjo\", \"harmonica\", \"dulcimer\", and \"mandolin\""}
+T314.4756090650335 session: {"role": "assistant", "content": "Here are 20 words that are similar to \"banjo\", \"harmonica\", \"dulcimer\", and \"mandolin\":\n\n1. Guitar\n2. Ukulele\n3. Accordion\n4. Fiddle\n5. Lute\n6. Sitar\n7. Bass guitar\n8. Viola\n9. Recorder\n10. Cello\n11. Kalimba\n12. Oud\n13. Bouzouki\n14. Koto\n15. Saz\n16. Banjo-piano (or banjolin)\n17. Autoharp\n18. Melodica\n19. Crumhorn\n20. Plectrum"}
+T316.3953431909904 #33 extract_...
+T318.410852934001 🤔 extract_1/6 #33 "bouzouki" score? !
+T318.4110390560236 reject: "bouzouki"
+T320.2827012410271 🤔 extract_1/5 #33 "crumhorn" score? !
+T320.28283499600366 reject: "crumhorn"
+T322.29108870303025 🤔 extract_1/4 #33 "melodica" score? !
+T322.29127010900993 reject: "melodica"
+T324.19471748702927 🤔 extract_1/3 #33 "oud" score? !
+T324.1948929040227 reject: "oud"
+T327.06671825703233 🤔 extract_1/2 #33 "plectrum" score? 23.64
+T327.0669396460289 attempt_32: "plectrum" score:23.64 prog:None
+T329.25075792399 🤔 extract_1/1 #34 "saz" score? !
+T329.25090303702746 reject: "saz"
+T332.0587986020255 #34 ? /prog
+T340.0669672259828 #34 ? *10 $1 #30
+T340.06726543500554 session clear
+T340.06752905400936 chat_prompt: {"prompt": "give me 10 words that are similar to $1 and #30", "vars": [1], "ords": [30]}
+T340.0675715940306 session: {"role": "user", "content": "give me 10 words that are similar to \"banjo\" and \"koto\""}
+T353.70475708600134 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"banjo\" and \"koto\":\n\n1. Sitar (a stringed instrument from India)\n2. Ukelele (a small stringed instrument from Hawaii)\n3. Mandolin (a stringed instrument with a pear-shaped body)\n4. Lute (a stringed instrument with a flat back and neck)\n5. Guqin (an ancient Chinese zither-like instrument)\n6. Shamisen (a Japanese lute-like instrument)\n7. Tanpura (a long-necked lute used in Indian classical music)\n8. Bouzouki (a long-necked stringed instrument from Greece)\n9. Oud (a Middle Eastern stringed instrument with a pear-shaped body)\n10. Santur (a trapezoidal-shaped stringed instrument from the Middle East)\n\nThese instruments all have similar characteristics to banjos and kotos, such as being stringed or having a resonating soundbox."}
+T356.6108449330204 #34 extract_...
+T358.7785688400036 🤔 extract_1/5 #34 "guqin" score? !
+T358.7786784180207 reject: "guqin"
+T360.8670300450176 🤔 extract_1/4 #34 "santur" score? !
+T360.86724472400965 reject: "santur"
+T364.602577408019 🤔 extract_1/3 #34 "shamisen" score? 25.66
+T364.60276496299775 attempt_33: "shamisen" score:25.66 prog:None
+T366.7710381450015 🤔 extract_1/2 #35 "tanpura" score? !
+T366.77118783601327 reject: "tanpura"
+T369.74683572602225 🤔 extract_1/1 #35 "ukelele" score? !
+T369.746946535015 reject: "ukelele"
+T372.1232401180314 #35 ? guitar
+T374.3707389259944 #35 ? /prog
+T385.418768737989 #35 ? *30 $1
+T385.41900002700277 session clear
+T385.4192054820014 chat_prompt: {"prompt": "give me 30 words that are similar to $1", "vars": [1], "ords": []}
+T385.4192432690179 session: {"role": "user", "content": "give me 30 words that are similar to \"banjo\""}
+T397.7302895989851 session: {"role": "assistant", "content": "Here are 30 words that are similar to \"banjo\":\n\n1. Lute\n2. Guitar\n3. Harp\n4. Ukulele\n5. Mandolin\n6. Violin\n7. Fiddle\n8. Accordion\n9. Cello\n10. Double bass\n11. Dulcimer\n12. Sitar\n13. Oud\n14. Santur\n15. Kora\n16. Guqin\n17. Pipa\n18. Shamisen\n19. Rengaeny\n20. Balalaika\n21. Bouzouki\n22. Cittern\n23. Guitarra latina\n24. Oboe d'amore\n25. Dulcimer banjo\n26. Resonator guitar\n27. Steel drum\n28. Chapman Stick\n29. Electric mandolin\n30. Lap steel guitar"}
+T399.68250093300594 #35 extract_...
+T402.53076484199846 🤔 extract_1/11 #35 "double" score? 10.24
+T402.53097249299753 attempt_34: "double" score:10.24 prog:None
+T405.89032972598216 🤔 extract_1/10 #36 "electric" score? 12.61
+T405.890421397984 attempt_35: "electric" score:12.61 prog:None
+T408.23456173803424 🤔 extract_1/9 #37 "guitarra" score? !
+T408.234669219004 reject: "guitarra"
+T413.2426514159888 🤔 extract_1/8 #37 "harp" score? 30.95
+T415.6588547840365 🤔 extract_1/8 #37 "harp" 30.95°C prog‰ ? 559
+T415.6590115330182 attempt_36: "harp" score:30.95 prog:559
+T419.34694539400516 🤔 extract_1/7 #38 "lap" score? 8.76
+T419.34711751900613 attempt_37: "lap" score:8.76 prog:None
+T421.65059285803 🤔 extract_1/6 #39 "oboe" score? 18.9
+T421.650748680986 attempt_38: "oboe" score:18.90 prog:None
+T424.64321835601004 🤔 extract_1/5 #40 "pipa" score? !
+T424.6434054769925 reject: "pipa"
+T426.4270680960035 🤔 extract_1/4 #40 "rengaeny" score? !
+T426.4272599819815 reject: "rengaeny"
+T429.2350244069821 🤔 extract_1/3 #40 "resonator" score? 8.44
+T429.2352240069886 attempt_39: "resonator" score:8.44 prog:None
+T433.6831110059866 🤔 extract_1/2 #41 "steel" score? 9.17
+T433.68328967300477 attempt_40: "steel" score:9.17 prog:None
+T436.3226737509831 🤔 extract_1/1 #42 "violin" score? 19.73
+T436.3228389940341 attempt_41: "violin" score:19.73 prog:None
+T439.2188645420247 #43 ? string
+T443.1227575939847 🤔 entered #43 "string" score? 5.07
+T443.1229162249947 attempt_42: "string" score:5.07 prog:None
+T450.65119539003354 #44 ? /prog
+T453.7630940490053 #44 ? *20 t2
+T453.76334406703245 session clear
+T453.7635534849833 chat_prompt: {"prompt": "give me 20 words that are similar to $1 and $2", "vars": [1, 2], "ords": []}
+T453.7635909380042 session: {"role": "user", "content": "give me 20 words that are similar to \"banjo\" and \"harmonica\""}
+T464.100872118026 session: {"role": "assistant", "content": "Here are 20 words that are similar to \"banjo\" and \"harmonica\":\n\n1. Guitar\n2. Mandolin\n3. Ukulele\n4. Sitar\n5. Tabla\n6. Oud\n7. Lute\n8. Viola\n9. Cello\n10. Accordion\n11. Clarinet\n12. Trumpet\n13. Flute\n14. Drums\n15. Piano\n16. Xylophone\n17. Kalimba\n18. Theremin\n19. Saz\n20. Bouzouki\n\nThese words are all types of musical instruments, similar to a banjo and harmonica in terms of their sound or function."}
+T466.6508605059935 #44 extract_...
+T469.79536997003015 🤔 extract_1/4 #44 "flute" score? 23.86
+T469.7957232070039 attempt_43: "flute" score:23.86 prog:None
+T471.81083158700494 🤔 extract_1/3 #45 "tabla" score? !
+T471.81096251902636 reject: "tabla"
+T474.3311807150021 🤔 extract_1/2 #45 "theremin" score? 18.42
+T474.33141335099936 attempt_44: "theremin" score:18.42 prog:None
+T479.97901818703394 🤔 extract_1/1 #46 "trumpet" score? 28.3 358
+T479.9791857060045 attempt_45: "trumpet" score:28.30 prog:358
+T486.7388553980272 #47 ? *20 $2 $3
+T486.73908032500185 session clear
+T486.7392746650148 chat_prompt: {"prompt": "give me 20 words that are similar to $2 and $3", "vars": [2, 3], "ords": []}
+T486.7393073280109 session: {"role": "user", "content": "give me 20 words that are similar to \"harmonica\" and \"dulcimer\""}
+T495.8563592089922 session: {"role": "assistant", "content": "Here are 20 words that are similar to \"harmonica\" and \"dulcimer\":\n\n1. Accordion\n2. Banjo\n3. Fiddle\n4. Koto\n5. Oud\n6. Mandolin\n7. Lute\n8. Sitar\n9. Santur\n10. Guqin\n11. Hurdy-gurdy\n12. Cittern\n13. Crumhorn\n14. Recorder\n15. Shawm\n16. Nyckelharpa\n17. Bouzouki\n18. Ukulele\n19. Kalimba\n20. Autoharp"}
+T497.6349606210133 #47 extract_...
+T503.94688207801664 🤔 extract_1/1 #47 "shawm" score? 28.36 367
+T503.94706316501833 attempt_46: "shawm" score:28.36 prog:367
+T505.1628277840209 #48 ? /prog
+T512.7227602929925 #48 ? *10 #47
+T512.722984830034 session clear
+T512.7231629390153 chat_prompt: {"prompt": "give me 10 words that are similar to #47", "vars": [], "ords": [47]}
+T512.7231957340264 session: {"role": "user", "content": "give me 10 words that are similar to \"shawm\""}
+T523.457810152031 session: {"role": "assistant", "content": "I couldn't find any word in the English language that is exactly like \"shawm\". However, here are 10 words that might be related or have a similar sound:\n\n1. Shawl\n2. Sham\n3. Shave\n4. Shawl (again, different context)\n5. Chawm (not a common word, but it's a rare surname)\n6. Clam (a type of shellfish, not directly related to \"shawm\")\n7. Flumplen (not a real word, but sounds similar)\n8. Jambal (related to the Cajun cuisine in Louisiana)\n9. Whim (an impulsive feeling or desire, might be considered similar)\n10. Thiam (a type of plant-based food supplement)"}
+T528.2187963690376 #48 extract_...
+T530.9551594530349 🤔 extract_1/9 #48 "chawm" score? !
+T530.9553635109914 reject: "chawm"
+T534.0667253240244 🤔 extract_1/8 #48 "clam" score? -.64
+T534.0668967720121 attempt_47: "clam" score:-0.64 prog:None
+T536.6029299260117 🤔 extract_1/7 #49 "flumplen" score? !
+T536.6030969230342 reject: "flumplen"
+T538.626937619003 🤔 extract_1/6 #49 "jambal" score? !
+T538.6271770609892 reject: "jambal"
+T541.3305605170317 🤔 extract_1/5 #49 "sham" score? 5.92
+T541.3307042699889 attempt_48: "sham" score:5.92 prog:None
+T543.8430041259853 🤔 extract_1/4 #50 "shave" score? -2.43
+T543.8432198130176 attempt_49: "shave" score:-2.43 prog:None
+T546.3151489460142 🤔 extract_1/3 #51 "shawl" score? 14.71
+T546.3154199990095 attempt_50: "shawl" score:14.71 prog:None
+T548.2589609510032 🤔 extract_1/2 #52 "thiam" score? !
+T548.2591372610186 reject: "thiam"
+T550.7069709019852 🤔 extract_1/1 #52 "whim" score? .04
+T550.7071979900356 attempt_51: "whim" score:0.04 prog:None
+T554.1149595440365 #53 ? /prog
+T560.978879784001 #53 ? *10 #46
+T560.9790798010072 session clear
+T560.9792439700104 chat_prompt: {"prompt": "give me 10 words that are similar to #46", "vars": [], "ords": [46]}
+T560.9792750650086 session: {"role": "user", "content": "give me 10 words that are similar to \"trumpet\""}
+T565.442041493021 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"trumpet\":\n\n1. Cornet\n2. Flute\n3. Clarinet\n4. Saxophone\n5. Oboe\n6. Horn\n7. Trombone\n8. Cello\n9. Violin\n10. Piccolo"}
+T567.1709415669902 #53 extract_...
+T569.7628459550324 🤔 extract_1/5 #53 "cornet" score? 25.46
+T569.7630032590241 attempt_52: "cornet" score:25.46 prog:None
+T572.0268437680206 🤔 extract_1/4 #54 "horn" score? 20.3
+T572.0270533169969 attempt_53: "horn" score:20.30 prog:None
+T576.410625501012 🤔 extract_1/3 #55 "piccolo" score? 12.78
+T576.4107851490262 attempt_54: "piccolo" score:12.78 prog:None
+T581.8187673300272 🤔 extract_1/2 #56 "saxophone" score? 34.71 766
+T581.818946999032 attempt_55: "saxophone" score:34.71 prog:766
+T588.114992421004 🤔 extract_1/1 #57 "trombone" score? 28.21 349
+T588.115213905985 attempt_56: "trombone" score:28.21 prog:349
+T592.0106099370169 #58 ? *10 #56
+T592.0108488650294 session clear
+T592.0110613959841 chat_prompt: {"prompt": "give me 10 words that are similar to #56", "vars": [], "ords": [56]}
+T592.0111123370007 session: {"role": "user", "content": "give me 10 words that are similar to \"saxophone\""}
+T598.0619916230207 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"saxophone\":\n\n1. Trumpet\n2. Flute\n3. Clarinet\n4. Piccolo\n5. Oboe\n6. Bassoon\n7. Violin\n8. Cello\n9. Trombone\n10. Harp\n\nThese words are all related to musical instruments, and some of them are similar in sound or function to a saxophone."}
+T599.3787689849851 #58 extract_...
+T601.8108676740085 🤔 extract_1/1 #58 "bassoon" score? 15.45
+T601.8110590479919 attempt_57: "bassoon" score:15.45 prog:None
+T602.8827529590344 #59 ? /prog
+T616.5630088280304 #59 ? *30 t14
+T616.5633003159892 session clear
+T616.5636274029966 chat_prompt: {"prompt": "give me 30 words that are similar to $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, and $14", "vars": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "ords": []}
+T616.5636849930161 session: {"role": "user", "content": "give me 30 words that are similar to \"banjo\", \"harmonica\", \"dulcimer\", \"mandolin\", \"saxophone\", \"guitar\", \"piano\", \"ukulele\", \"harp\", \"koto\", \"shawm\", \"trumpet\", \"trombone\", and \"cittern\""}
+T641.768856374023 session: {"role": "assistant", "content": "Here are 30 words that are similar to the given list:\n\n1. Accordion\n2. Banjo-like instruments: (e.g., resonator, bouzouki)\n3. Chromophone (related to harmonica)\n4. Dulcimer's cousin: hammered dulcimer or carillon\n5. Fiddle (similar to mandolin)\n6. Flute-like instruments: recorder, piccolo, or oboe\n7. Lute (like harp or koto)\n8. Ocarina\n9. Panpipes\n10. Pedal steel guitar\n11. Recorders (various types)\n12. Sitar (Indian stringed instrument)\n13. Ukulele-like instruments: kalimba, guzheng, or sansula\n14. Viola (similar to mandolin)\n15. Violin (related to fiddle)\n16. Xylophone or glockenspiel\n17. Bouzouki (Cretan lute)\n18. Cittern's cousin: theorbo\n19. Fretless instruments like cello or bass\n20. Harpsichord\n21. Lap harp\n22. Lute-like instruments: oud, tanbur, or saz\n23. Melodica (a type of harmonica)\n24. Oud's cousin: therban\n25. Pan flute\n26. Recorders with a reed: shakuhachi\n27. Sitar's cousin: sarod\n28. Stringed instruments like lyre, kemen\u00e7e or mandola\n29. Tanpura (Indian drone instrument)\n30. Theremin-like instruments"}
+T643.3391413450008 #59 extract_...
+T645.4350933040259 🤔 extract_1/10 #59 "chromophone" score? !
+T645.4352660140139 reject: "chromophone"
+T647.8187167309807 🤔 extract_1/9 #59 "fretless" score? !
+T647.8188396760379 reject: "fretless"
+T650.7869176270324 🤔 extract_1/8 #59 "harpsichord" score? 21.6
+T650.7870986349881 attempt_58: "harpsichord" score:21.60 prog:None
+T654.02652944898 🤔 extract_1/7 #60 "like" score? 8.97
+T654.026674408 attempt_59: "like" score:8.97 prog:None
+T656.3466465200181 🤔 extract_1/6 #61 "pan" score? 9.23
+T656.3468416780233 attempt_60: "pan" score:9.23 prog:None
+T658.8028390519903 🤔 extract_1/5 #62 "panpipes" score? !
+T658.8029738619807 reject: "panpipes"
+T661.7626963939983 🤔 extract_1/4 #62 "pedal" score? 10.75
+T661.7628312460147 attempt_61: "pedal" score:10.75 prog:None
+T672.1306667620083 🤔 extract_1/3 #63 "recorders" score? !recorder
+T672.1308128600358 reject: "recorders"
+T679.0985050739837 🤔 extract_1/2 #63 "s" score? !
+T679.0986304850085 reject: "s"
+T682.5230392430094 🤔 extract_1/1 #63 "stringed" score? !
+T682.5232181050233 reject: "stringed"
+T684.818254954007 #63 ? /prog
+T733.1466447319835 #63 ? > list 10 things that $1, $2, and $3 have in common
+T733.1469571969938 chat_prompt: {"prompt": "list 10 things that $1, $2, and $3 have in common", "vars": [1, 2, 3], "ords": []}
+T733.1469936509966 session: {"role": "user", "content": "list 10 things that \"banjo\", \"harmonica\", and \"dulcimer\" have in common"}
+T770.9729857970378 session: {"role": "assistant", "content": "Here are 10 things that \"banjo\", \"harmonica\", and \"dulcimer\" have in common:\n\n1. **Stringed instruments**: All three are stringed instruments, with the banjo having a pair of strings stretched across its neck, the harmonica being a single reed instrument, and the dulcimer typically having two or three strings.\n2. **Resonance mechanism**: Each instrument uses resonance to produce sound, whether it's the banjo's body, the harmonica's reeds, or the dulcimer's hollow body.\n3. **Portability**: All three instruments are relatively portable and can be easily carried by musicians on stage or while traveling.\n4. **Folk music associations**: Each instrument has strong associations with folk music traditions, with the banjo being closely tied to American folk and bluegrass, the harmonica often featuring in blues and folk, and the dulcimer having roots in Appalachian folk music.\n5. **Handheld**: The banjo and harmonica are typically handheld instruments, while the dulcimer is usually played on a table or lap.\n6. **Simple construction**: Compared to other stringed instruments, the banjo, harmonica, and dulcimer have relatively simple constructions, with fewer components and less complex tunings.\n7. **Acoustic nature**: All three instruments are acoustic, meaning they produce sound through vibrations in the air, rather than electronic means.\n8. **Rhythmic emphasis**: Each instrument is suited for rhythmic playing, whether it's the banjo's driving beat in bluegrass or the harmonica's staccato phrases in blues, or the dulcimer's steady plucking pattern in folk music.\n9. **Regional roots**: The banjo originated in Africa and was introduced to Europe by enslaved Africans, while the harmonica has its roots in European folk traditions, particularly German and Irish. The dulcimer has Appalachian American roots.\n10. **Evolutionary paths**: Each instrument has evolved over time through various cultural influences, with the banjo being influenced by African and European styles, the harmonica evolving from European mouth organs, and the dulcimer developing from traditional European instruments like the lute."}
+T772.8187588960282 #63 extract_...
+T778.6587256710045 🤔 extract_1/9 #63 "acoustic" score? 34.45 757
+T778.6588953229948 attempt_62: "acoustic" score:34.45 prog:757
+T781.3228165630135 🤔 extract_1/8 #64 "evolutionary" score? 6.13
+T781.3229680570075 attempt_63: "evolutionary" score:6.13 prog:None
+T784.99489223602 🤔 extract_1/7 #65 "folk" score? 47.51
+T787.4588799990015 🤔 extract_1/7 #65 "folk" 47.51°C prog‰ ? 975
+T787.459087028983 attempt_64: "folk" score:47.51 prog:975
+T789.9786347509944 🤔 extract_1/6 #66 "handheld" score? .56
+T789.9788060940336 attempt_65: "handheld" score:0.56 prog:None
+T792.7945368289948 🤔 extract_1/5 #67 "portability" score? 6.75
+T792.7947000749991 attempt_66: "portability" score:6.75 prog:None
+T795.3872098930296 🤔 extract_1/4 #68 "regional" score? 8.59
+T795.3874573759967 attempt_67: "regional" score:8.59 prog:None
+T801.650695422024 🤔 extract_1/3 #69 "resonance" score? 11.89
+T801.6508453289862 attempt_68: "resonance" score:11.89 prog:None
+T807.7710962200072 🤔 extract_1/2 #70 "rhythmic" score? 29.78 487
+T807.7713546489831 attempt_69: "rhythmic" score:29.78 prog:487
+T813.8506094189943 🤔 extract_1/1 #71 "simple" score? 10.86
+T813.8507536120014 attempt_70: "simple" score:10.86 prog:None
+T815.5633638739819 #72 ? /prog
+T820.0911080859951 #72 ? *10 t2
+T820.0913855810068 session clear
+T820.0918813089957 chat_prompt: {"prompt": "give me 10 words that are similar to $1 and $2", "vars": [1, 2], "ords": []}
+T820.0920127730351 session: {"role": "user", "content": "give me 10 words that are similar to \"folk\" and \"banjo\""}
+T833.0321224160143 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"folk\" and \"banjo\":\n\n1. Blues (music genre)\n2. String (referring to a musical instrument or a type of music)\n3. Country (music genre)\n4. Traditional (relating to customs, music, or practices passed down through generations)\n5. Appalachian (referring to the region in the United States known for its folk and bluegrass music)\n6. Instrumental (related to music played without singing)\n7. Rustic (characteristic of rural or traditional settings)\n8. Heritage (relating to a person's cultural background or tradition)\n9. Roots (music genre that originated from African-American traditions)\n10. Acoustic (related to sound produced by an acoustic instrument, like the banjo)\n\nThese words all have connections to music, culture, and traditions that are similar to those associated with \"folk\" and \"banjo\"."}
+T835.4669599520275 #72 extract_...
+T837.6990055500064 🤔 extract_1/8 #72 "appalachian" score? !
+T837.6992069960106 reject: "appalachian"
+T842.8260567270336 🤔 extract_1/7 #72 "blues" score? 53.6 996
+T842.8261624639854 attempt_71: "blues" score:53.60 prog:996
+T846.411035622994 🤔 extract_1/6 #73 "country" score? 22.63
+T846.4112788059865 attempt_72: "country" score:22.63 prog:None
+T853.034526198986 #74 ? *15 t3
+T853.0346280570375 session clear
+T853.0346976760193 chat_prompt: {"prompt": "give me 15 words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T853.0347071590368 session: {"role": "user", "content": "give me 15 words that are similar to \"blues\", \"folk\", and \"banjo\""}
+T861.7721429489902 session: {"role": "assistant", "content": "Here are 15 words that are similar to \"blues\", \"folk\", and \"banjo\":\n\n1. Country\n2. Roots\n3. Appalachian\n4. Musician\n5. String\n6. Twangy\n7. Rhythm\n8. Hymn\n9. Heritage\n10. Acoustic\n11. Guitar\n12. Harmony\n13. Instrumental\n14. Traditional\n15. Appalachian\n\nThese words evoke a sense of rustic, earthy music that is often associated with the blues and folk genres. Let me know if you'd like more suggestions!"}
+T862.9392074510106 #74 extract_...
+T866.4427535880241 🤔 extract_1/9 #74 "harmony" score? 27.93
+T870.0028662770055 🤔 extract_1/9 #74 "harmony" 27.93°C prog‰ ? 315
+T870.0029731100076 attempt_73: "harmony" score:27.93 prog:315
+T872.9708264130168 🤔 extract_1/8 #75 "heritage" score? 19.86
+T872.9709711500327 attempt_74: "heritage" score:19.86 prog:None
+T878.7388373620342 🤔 extract_1/7 #76 "hymn" score? 48 978
+T878.739021988993 attempt_75: "hymn" score:48.00 prog:978
+T883.5468594279955 🤔 extract_1/6 #77 "instrumental" score? 15.64
+T883.5470967940055 attempt_76: "instrumental" score:15.64 prog:None
+T889.1070322630112 🤔 extract_1/5 #78 "musician" score? 37.72 861
+T889.1072546200012 attempt_77: "musician" score:37.72 prog:861
+T892.6107460790081 🤔 extract_1/4 #79 "rhythm" score? 22.08
+T892.6108709630207 attempt_78: "rhythm" score:22.08 prog:None
+T895.0672100950032 🤔 extract_1/3 #80 "roots" score? 23.51
+T895.0675737920101 attempt_79: "roots" score:23.51 prog:None
+T899.8351776720374 🤔 extract_1/2 #81 "traditional" score? 21.79
+T899.835449182021 attempt_80: "traditional" score:21.79 prog:None
+T903.6911065680324 🤔 extract_1/1 #82 "twangy" score? !twang
+T903.6913145420258 reject: "twangy"
+T908.7630176190287 🤔 corrected #82 "twang" score? 37.22 846
+T908.763270128984 attempt_81: "twang" score:37.22 prog:846
+T911.7467252360075 #83 ? _
+T911.7469459850108 chat_prompt: _
+T911.7470298800035 session: {"role": "user", "content": "give me 15 words that are similar to \"blues\", \"hymn\", and \"folk\""}
+T921.6441341980244 session: {"role": "assistant", "content": "Here are 15 words that are similar to \"blues\", \"hymn\", and \"folk\":\n\n1. Ballad\n2. Spiritual\n3. Gospel\n4. Psalm\n5. Canticle\n6. Chorus\n7. Ode\n8. Anthem\n9. Devotional\n10. Classic\n11. Traditional\n12. Sacred\n13. Congregational\n14. Hallowed\n15. Reverberant\n\nThese words evoke a sense of reverence, spirituality, and emotional depth that is often found in the genres of blues, hymn, and folk music. Let me know if you'd like more suggestions!"}
+T923.5546315200045 #83 extract_...
+T928.3470694930293 🤔 extract_1/14 #83 "anthem" score? 34.79 772
+T928.3472972899908 attempt_82: "anthem" score:34.79 prog:772
+T933.6829192980076 🤔 extract_1/13 #84 "ballad" score? 37.62 858
+T933.683098724985 attempt_83: "ballad" score:37.62 prog:858
+T938.8029933579965 🤔 extract_1/12 #85 "canticle" score? 40.66 920
+T938.8032373500173 attempt_84: "canticle" score:40.66 prog:920
+T945.1550194239826 🤔 extract_1/11 #86 "chorus" score? 26.64 131
+T945.1552497629891 attempt_85: "chorus" score:26.64 prog:131
+T950.8270094339969 🤔 extract_1/10 #87 "classic" score? 26.36 97
+T950.827196837985 attempt_86: "classic" score:26.36 prog:97
+T955.7874858750147 🤔 extract_1/9 #88 "congregational" score? 42.08 934
+T955.7877519560279 attempt_87: "congregational" score:42.08 prog:934
+T960.5224348480115 🤔 extract_1/8 #89 "devotional" score? 49.39 981
+T960.5225510250311 attempt_88: "devotional" score:49.39 prog:981
+T965.995188387984 🤔 extract_1/7 #90 "gospel" score? 100 1000
+T965.995462011022 attempt_89: "gospel" score:100.00 prog:1000
+T972.1232267930172 Paste share result, then preses <Enter>
+T972.1315702510183 share result: "I found #cemantle #963 in 90 guesses!\n\ud83e\udd73\n\ud83d\udd25\n\ud83e\udd756\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e2\ufe0f\u20e32\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd765\ufe0f\u20e38\ufe0f\u20e3\n\ud83e\uddca2\ufe0f\u20e3\nhttps://cemantle.certitudes.org/"
+T972.132967706013 <STOP>

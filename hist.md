@@ -799,3 +799,23 @@ https://cemantix.certitudes.org/
 
 🔗 alfagok.diginaut.net
 ```
+
+# 2024-11-22 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 963
+🤔 90 guesses
+    🥳  1
+    🔥  1
+    🥵  6
+    😎 22
+    🥶 58
+    🧊  2
+⏱️ 0:16:12.133608
+```
+
+🤔 90 attempts
+📜 0 sessions
+🫧 22 chat prompts
+🤖 22 chat replies
