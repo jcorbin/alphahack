@@ -28,6 +28,20 @@ def exclude_file(name: str):
 
 @final
 class WordList:
+    @classmethod
+    def load_canonical(cls, name: str, asof: str = ''):
+        excludes: set[str] = set()
+        if asof:
+            excludes = set(tokens_from(subprocess.check_output(
+                ['git', 'show', f'{asof}:{exclude_file(name)}'],
+                text=True).splitlines()))
+        else:
+            try:
+                excludes = set(tokens_from(exclude_file(name)))
+            except FileNotFoundError:
+                pass
+        return cls(name, excludes)
+
     def __init__(self, fable: str|TextIO, excludes: set[str]|None = None):
         self.name = fable if isinstance(fable, str) else str(fable.name)
         self.fixed_excludes = excludes

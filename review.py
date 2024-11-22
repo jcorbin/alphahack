@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from collections.abc import Generator, Iterable
 from typing import cast, final, TextIO
 
-from wordlist import Browser, WordList, exclude_file, format_browser_lines, tokens_from, whatadded
+from wordlist import Browser, WordList, format_browser_lines, whatadded
 
 @final
 @dataclass
@@ -278,21 +278,13 @@ class SearchLog:
         if self.loaded is None:
             raise RuntimeError('no loaded wordlist info in log')
 
+        if asof is None: asof = ''
         if not asof and self.name:
             log_added = whatadded(self.name)
             if log_added:
                 asof = f'{log_added}^'
 
-        excludes: set[str] = set()
-        if asof:
-            excludes = set(tokens_from(subprocess.check_output(
-                ['git', 'show', f'{asof}:{exclude_file(self.loaded.wordlist)}'],
-                text=True).splitlines()))
-        else:
-            with open(self.loaded.wordlist) as f:
-                excludes = set(tokens_from(f))
-
-        wl = WordList(self.loaded.wordlist, excludes)
+        wl = WordList.load_canonical(self.loaded.wordlist, asof)
         wl.validate(self.loaded.sig, self.loaded.count, self.loaded.excluded)
         return Reloaded(wl.words, self)
 
