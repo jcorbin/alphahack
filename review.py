@@ -286,8 +286,7 @@ class SearchLog:
         if self.loaded is None:
             raise RuntimeError('no loaded wordlist info in log')
 
-        with open(self.loaded.wordlist, 'r') as f:
-            wl = WordList(f)
+        wl = WordList(self.loaded.wordlist)
 
         have_sig = wl.sig.hexdigest()
         if have_sig != self.loaded.sig:
