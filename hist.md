@@ -66,13 +66,14 @@
 ```
 
 # 2024-10-13
-`🧩 Puzzle #446
+```
+🧩 Puzzle #446
 
 🤔 12 guesses
 
 ⏱️ 43s
 
-🔗 alphaguess.com``
+🔗 alphaguess.com
 ```
 
 # 2024-10-14
