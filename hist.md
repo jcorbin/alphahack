@@ -615,8 +615,10 @@ https://cemantle.certitudes.org/
 ⏱️ 35s
 
 🔗 alfagok.diginaut.net
+```
 
 # 2024-11-18 cemantle.certitudes.org
+
 ```
 I found #cemantle #959 in 190 guesses!
 🥳
