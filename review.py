@@ -293,19 +293,7 @@ class SearchLog:
                 excludes = set(tokens_from(f))
 
         wl = WordList(self.loaded.wordlist, excludes)
-
-        have_sig = wl.sig.hexdigest()
-        if have_sig != self.loaded.sig:
-            raise RuntimeError(f'wordlist sig mismatch, expected:{self.loaded.sig} have:{have_sig}')
-
-        have_excluded = len(excludes)
-        if self.loaded.excluded != have_excluded:
-            raise RuntimeError(f'exclusion list size mismatch, expected:{self.loaded.excluded} got:{have_excluded}')
-
-        have_count = wl.size
-        if self.loaded.count != have_count:
-            raise RuntimeError(f'size mismatch, expected:{self.loaded.count} got:{have_count}')
-
+        wl.validate(self.loaded.sig, self.loaded.count, self.loaded.excluded)
         return Reloaded(wl.words, self)
 
 @final

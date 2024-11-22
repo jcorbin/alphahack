@@ -39,6 +39,19 @@ class WordList:
             self._tokens = list(tokens_from(self.name))
         return self._tokens
 
+    def validate(self, sig: str|None = None, size: int|None = None, excludes: int|None = None):
+        have_sig = self.sig.hexdigest()
+        if sig and have_sig != sig:
+            raise ValueError(f'expected signature {sig}, have {have_sig}')
+
+        have_size = self.size
+        if size is not None and have_size != size:
+            raise ValueError(f'expected {size} words, have {have_size}')
+
+        have_excludes = len(self.excluded_words)
+        if excludes is not None and excludes != have_excludes:
+            raise ValueError(f'expected {excludes} excludes, have {have_excludes}')
+
     @property
     def describe(self):
         en = len(self.excluded_words)
