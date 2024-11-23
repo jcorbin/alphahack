@@ -1,0 +1,1346 @@
+T0.004070050024893135 now: 2024-11-22T18:47:56EST
+T15.050942082016263 🔗 cemantix.certitudes.org ? 
+T15.051307779038325 site: cemantix.certitudes.org
+T16.70901320502162 🌎 French ? 
+T16.70916893699905 lang: French
+T18.972920534026343 🧩  ? #997
+T18.973357657028828 puzzle_id: #997
+T22.802762244013138 😎 °C ? 29.79
+T22.802947281044908 scale: 😎 29.79 °C
+T24.255154915037565 🥵 °C ? 44.24
+T24.255296985036694 scale: 🥵 44.24 °C
+T26.8666419259971 🔥 °C ? 54.37
+T26.866821700998116 scale: 🔥 54.37 °C
+T29.035159654042218 😱 °C ? 72.23
+T29.035317285044584 scale: 😱 72.23 °C
+T29.056801388040185 session model: llama
+T29.056903100048658 session clear
+T29.05697577202227 session: {"role": "user", "content": "give me 10 French words at random that are not related to each other"}
+T37.475056637020316 session: {"role": "assistant", "content": "Here are 10 French words that are not related to each other:\n\n1. Fleur (flower)\n2. Caf\u00e9\n3. Papillon (butterfly)\n4. Mus\u00e9e\n5. Escargot\n6. Chocolat\n7. Rivi\u00e8re\n8. Sauter (jump)\n9. V\u00e9lo (bike)\n10. \u00c9clair"}
+T41.20192040305119 #1 extract_...
+T45.22342258604476 🤔 extract_1/10 #1 "café" score? -8.26
+T45.22364880499663 attempt_0: "café" score:-8.26 prog:None
+T50.463605121010914 🤔 extract_1/9 #2 "chocolat" score? -.09
+T50.46385663602268 attempt_1: "chocolat" score:-0.09 prog:None
+T55.14247039100155 🤔 extract_1/8 #3 "escargot" score? -5.35
+T55.1426517580403 attempt_2: "escargot" score:-5.35 prog:None
+T59.11339916405268 🤔 extract_1/7 #4 "fleur" score? 7.89
+T59.11355603503762 attempt_3: "fleur" score:7.89 prog:None
+T66.98129790701205 🤔 extract_1/6 #5 "musée" score? 2.29
+T66.98150329600321 attempt_4: "musée" score:2.29 prog:None
+T70.27170343702892 🤔 extract_1/5 #6 "papillon" score? -1.22
+T70.27194994001184 attempt_5: "papillon" score:-1.22 prog:None
+T74.79878773901146 🤔 extract_1/4 #7 "rivière" score? 3.84
+T74.79899260704406 attempt_6: "rivière" score:3.84 prog:None
+T77.83810186001938 🤔 extract_1/3 #8 "sauter" score? -3.17
+T77.83831561601255 attempt_7: "sauter" score:-3.17 prog:None
+T80.65381576202344 🤔 extract_1/2 #9 "vélo" score? -4.95
+T80.65398875501705 attempt_8: "vélo" score:-4.95 prog:None
+T84.47255560703343 🤔 extract_1/1 #10 "éclair" score? 7.41
+T84.47277104301611 attempt_9: "éclair" score:7.41 prog:None
+T92.34641844400903 #11 ? *10 52
+T92.34692244400503 session clear
+T92.34702875703806 session: {"role": "user", "content": "give me 10 French words that are similar to \"52\""}
+T98.98147435003193 <INT>
+T0.005984221992548555 now: 2024-11-22T18:49:37EST
+T0.00852496997686103 session model: llama
+T2.47861470998032 #11 ? *10 t2
+T2.479468047968112 session clear
+T2.479694045963697 chat_prompt: {"prompt": "give me 10 French words that are similar to $1 and $2", "vars": [1, 2], "ords": []}
+T2.4797356399940327 session: {"role": "user", "content": "give me 10 French words that are similar to \"fleur\" and \"\u00e9clair\""}
+T12.071913392981514 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"fleur\" (flower) and \"\u00e9clair\" (eclair):\n\n1. Fraise (strawberry)\n2. \u00c9toile (star)\n3. Noix (nut)\n4. C\u0153ur (heart)\n5. Coeur de lait (cocoa heart, a type of chocolate)\n6. P\u00e2ton (patan, a type of pastry)\n7. Moutarde (mustard)\n8. Croissant (a type of flaky pastry)\n9. Beurre (butter)\n10. Cr\u00e8me br\u00fbl\u00e9e (burnt cream)\n\nThese words are similar in sound or meaning to \"fleur\" and \"\u00e9clair\"."}
+T13.92366797698196 #11 extract_...
+T19.497020023001824 🤔 extract_1/10 #11 "beurre" score? -3.61
+T19.49731081497157 attempt_10: "beurre" score:-3.61 prog:None
+T22.42863140598638 🤔 extract_1/9 #12 "coeur" score? 28.83
+T22.428779481968377 attempt_11: "coeur" score:28.83 prog:None
+T25.14182284096023 #13 ? _
+T25.14204206399154 chat_prompt: _
+T25.142106786952354 session: {"role": "user", "content": "give me 10 French words that are similar to \"coeur\" and \"fleur\""}
+T34.24938527995255 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"coeur\" (heart) and \"fleur\" (flower):\n\n1. Sourire (smile)\n2. Jolie (beautiful, pretty)\n3. Belle (beautiful)\n4. Lumi\u00e8re (light)\n5. Rose (rose flower)\n6. \u00c9toile de mer (starfish)\n7. F\u00e9e (fairy)\n8. D\u00e9sir (desire)\n9. R\u00eave (dream)\n10. Chanson (song)\n\nThese words are similar in sound or meaning to \"coeur\" and \"fleur\"."}
+T35.86157448700396 #13 extract_...
+T40.002823456947226 🤔 extract_1/10 #13 "belle" score? !
+T40.00299924699357 reject: "belle"
+T43.13566355599323 🤔 extract_1/9 #13 "chanson" score? 6.39
+T43.13586784899235 attempt_12: "chanson" score:6.39 prog:None
+T48.88952833699295 🤔 extract_1/8 #14 "désir" score? 43.43 886
+T48.889756464981474 attempt_13: "désir" score:43.43 prog:886
+T50.5564013189869 #15 ? _
+T50.556713823985774 chat_prompt: _
+T50.55681553896284 session: {"role": "user", "content": "give me 10 French words that are similar to \"d\u00e9sir\" and \"coeur\""}
+T60.4078807089827 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"d\u00e9sir\" (desire) and \"coeur\" (heart):\n\n1. Amour (love)\n2. Passion (passion, enthusiasm)\n3. R\u00eave (dream)\n4. C\u0153ur de glace (cold heart)\n5. Inqui\u00e9tude (anxiety, unease)\n6. Joie (joy)\n7. S\u00e9duction (seduction)\n8. \u00c9motion (emotion)\n9. Affection (affection, attachment)\n10. D\u00e9sir\u00e9 (desired one)\n\nThese words are similar in sound or meaning to \"d\u00e9sir\" and \"coeur\"."}
+T61.61451904196292 #15 extract_...
+T64.75550451996969 🤔 extract_1/10 #15 "affection" score? 27.91
+T64.75559114100179 attempt_14: "affection" score:27.91 prog:None
+T70.79688900598558 🤔 extract_1/9 #16 "amour" score? 39.69 766
+T70.79709771997295 attempt_15: "amour" score:39.69 prog:766
+T72.55316592095187 #17 ? _
+T72.55346081696916 chat_prompt: _
+T72.55356350896182 session: {"role": "user", "content": "give me 10 French words that are similar to \"d\u00e9sir\" and \"amour\""}
+T83.84286665800028 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"d\u00e9sir\" (desire) and \"amour\" (love):\n\n1. Souffle (breath, a romantic gesture)\n2. Ardor (passion, fervent love)\n3. \u00c9lan (enthusiasm, passion)\n4. C\u0153ur (heart)\n5. Chaleur (warmth, tenderness)\n6. L\u00e9gende (legend, romance)\n7. R\u00eave (dream)\n8. Po\u00e9sie (poetry, romantic expression)\n9. Captivit\u00e9 (captivity, entrapment by love)\n10. \u00c9treinte (embrace)\n\nThese words are similar in sound or meaning to \"d\u00e9sir\" and \"amour\"."}
+T85.8755294259754 #17 extract_...
+T88.13513574696844 🤔 extract_1/10 #17 "ardor" score? !
+T88.13527350098593 reject: "ardor"
+T93.99288227496436 🤔 extract_1/9 #17 "captivité" score? 9.06
+T93.99307481595315 attempt_16: "captivité" score:9.06 prog:None
+T96.86712484498275 🤔 extract_1/8 #18 "chaleur" score? 8.5
+T96.86739064997528 attempt_17: "chaleur" score:8.50 prog:None
+T100.226427949965 🤔 extract_1/7 #19 "cœur" score? 28.83
+T100.22657656797674 attempt_18: "cœur" score:28.83 prog:None
+T102.6608481129515 🤔 extract_1/6 #20 "légende" score? 9.51
+T102.6610073679476 attempt_19: "légende" score:9.51 prog:None
+T105.3056366359815 🤔 extract_1/5 #21 "poésie" score? 25.8
+T105.30584270396503 attempt_20: "poésie" score:25.80 prog:None
+T108.34450067096623 🤔 extract_1/4 #22 "rêve" score? 21.57
+T108.34469962399453 attempt_21: "rêve" score:21.57 prog:None
+T110.75721311097732 🤔 extract_1/3 #23 "souffle" score? 22.28
+T110.75743454595795 attempt_22: "souffle" score:22.28 prog:None
+T115.90891540999291 🤔 extract_1/2 #24 "élan" score? 28.26
+T115.90897440997651 attempt_23: "élan" score:28.26 prog:None
+T118.80051530897617 🤔 extract_1/1 #25 "étreinte" score? 18.04
+T118.80067474296084 attempt_24: "étreinte" score:18.04 prog:None
+T122.05536473396933 #26 ? /last
+T130.2994891309645 #26 ? *10 t1
+T130.2997093409649 session clear
+T130.29989069898147 chat_prompt: {"prompt": "give me 10 French words that are similar to $1", "vars": [1], "ords": []}
+T130.29992291698 session: {"role": "user", "content": "give me 10 French words that are similar to \"d\u00e9sir\""}
+T142.501253024966 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"d\u00e9sir\":\n\n1. Passion - refers to a strong and barely controllable emotion\n2. Amour - means love or romantic affection\n3. N\u00e9cessit\u00e9 - implies a necessity or urgency for something\n4. Obsession - describes an all-consuming interest or desire\n5. Tendresse - conveys a sense of gentle and tender affection\n6. App\u00e9tit - refers to a strong desire or craving for food\n7. Int\u00e9r\u00eat - means interest or attraction towards something\n8. C\u0153ur - translates to heart, often used to express one's feelings\n9. Envie - describes a feeling of longing or desire for something\n10. \u00c9lan - conveys a sense of enthusiasm and drive\n\nNote that while these words share similar meanings with \"d\u00e9sir\", they may have slightly different connotations or nuances depending on the context in which they're used."}
+T144.57070104696322 #26 extract_...
+T147.51549207197968 🤔 extract_1/7 #26 "appétit" score? 10.33
+T147.51573803299107 attempt_25: "appétit" score:10.33 prog:None
+T149.97201817599125 🤔 extract_1/6 #27 "envie" score? 12.46
+T149.97219220397528 attempt_26: "envie" score:12.46 prog:None
+T152.55216404498788 🤔 extract_1/5 #28 "intérêt" score? 17.71
+T152.55241314898012 attempt_27: "intérêt" score:17.71 prog:None
+T155.38413811597275 🤔 extract_1/4 #29 "nécessité" score? 22.98
+T155.38429670996265 attempt_28: "nécessité" score:22.98 prog:None
+T159.59873136598617 🤔 extract_1/3 #30 "obsession" score? 18.4
+T159.5989248189726 attempt_29: "obsession" score:18.40 prog:None
+T166.57914306095336 🤔 extract_1/2 #31 "passion" score? 30.28 69
+T166.5793104589684 attempt_30: "passion" score:30.28 prog:69
+T169.6257604439743 🤔 extract_1/1 #32 "tendresse" score? 25.95
+T169.6258612459642 attempt_31: "tendresse" score:25.95 prog:None
+T200.1475300929742 #33 ? > give me 10 French words that are frequenly used with $1, $2, and $3
+T200.147928891005 chat_prompt: {"prompt": "give me 10 French words that are frequenly used with $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T200.14799185399897 session: {"role": "user", "content": "give me 10 French words that are frequenly used with \"d\u00e9sir\", \"amour\", and \"passion\""}
+T219.00460742495488 session: {"role": "assistant", "content": "Here are 10 French words that are frequently used with \"d\u00e9sir\", \"amour\", and \"passion\":\n\n1. D\u00e9sirable - describes something or someone desirable, often in a romantic context\n2. Amoureux (m) / amoureuse (f) - means lover or loved one\n3. Passionn\u00e9 (m) / passionn\u00e9e (f) - implies intense enthusiasm or dedication\n4. Attirant - conveys an attractive or appealing quality, often used to describe someone's charm\n5. Irresistible - describes something that is too tempting to resist, often in a romantic context\n6. R\u00eave - means dream or fantasy, often used to express idealized desires\n7. Souvent (often) / souvent (frequently) used with d\u00e9sir or passion to describe recurring or intense feelings\n8. C\u0153ur bris\u00e9 (broken heart) - implies a deep emotional pain or longing\n9. D\u00e9sir\u00e9 (desired one) / d\u00e9sir\u00e9e (desired one, feminine form) - describes someone or something coveted or longed for\n10. \u00c9tincelle (spark) - conveys a fleeting but intense feeling of attraction or desire\n\nNote that some of these words may have slightly different meanings depending on the context in which they're used."}
+T221.0284296979662 #33 extract_...
+T223.83835836395156 🤔 extract_1/8 #33 "amoureux" score? 18.86
+T223.8385340879904 attempt_32: "amoureux" score:18.86 prog:None
+T226.5995935809915 🤔 extract_1/7 #34 "attirant" score? 6.12
+T226.5997837369796 attempt_33: "attirant" score:6.12 prog:None
+T230.74727362999693 🤔 extract_1/6 #35 "désirable" score? 26.52
+T230.74753092299215 attempt_34: "désirable" score:26.52 prog:None
+T234.5462276180042 🤔 extract_1/5 #36 "désiré" score? -1.74
+T234.54640047298744 attempt_35: "désiré" score:-1.74 prog:None
+T237.73170687095262 🤔 extract_1/4 #37 "irresistible" score? !
+T237.73182745894883 reject: "irresistible"
+T241.37548165599583 🤔 extract_1/3 #37 "passionné" score? 3.61
+T241.37562523497036 attempt_36: "passionné" score:3.61 prog:None
+T244.21189146494726 🤔 extract_1/2 #38 "souvent" score? 20.63
+T244.21203570399666 attempt_37: "souvent" score:20.63 prog:None
+T247.32192466699053 🤔 extract_1/1 #39 "étincelle" score? 16.89
+T247.32209946698276 attempt_38: "étincelle" score:16.89 prog:None
+T251.85844651499065 #40 ? *15 t3
+T251.858626325964 session clear
+T251.8587840059772 chat_prompt: {"prompt": "give me 15 French words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T251.85881090397015 session: {"role": "user", "content": "give me 15 French words that are similar to \"d\u00e9sir\", \"amour\", and \"passion\""}
+T268.56405624898616 session: {"role": "assistant", "content": "Here are 15 French words that convey emotions or feelings similar to \"d\u00e9sir\", \"amour\", and \"passion\":\n\n1. **D\u00e9sir** (desire) - already mentioned\n2. **Amour** (love)\n3. **Passion** (passion)\n4. **Tendresse** (tenderness)\n5. **Intense** (strong feeling or desire)\n6. **Sensualit\u00e9** (sensuality)\n7. **\u00c9lan** (enthusiasm, passion)\n8. **D\u00e9vouement** (devotion, loyalty)\n9. **C\u0153ur battant** (heart beating with emotion)\n10. **Ferveur** (fervor, enthusiasm)\n11. **\u00c9motivit\u00e9** (emotionality)\n12. **Ardenesse** (ardor, fervent passion)\n13. **Attirance** (attraction, charm)\n14. **Mati\u00e8re** (substance, essence of something desired or loved)\n15. **\u00c9lan vital** (vital enthusiasm, creative energy)\n\nThese words aim to convey the intensity and depth of emotions similar to \"d\u00e9sir\", \"amour\", and \"passion\"."}
+T270.424426640966 #40 extract_...
+T272.73200354597066 🤔 extract_1/8 #40 "ardenesse" score? !
+T272.7322073869873 reject: "ardenesse"
+T275.6360900749569 🤔 extract_1/7 #40 "attirance" score? 22.57
+T275.6362686670036 attempt_39: "attirance" score:22.57 prog:None
+T278.3347391069983 🤔 extract_1/6 #41 "dévouement" score? 26.23
+T278.3348887040047 attempt_40: "dévouement" score:26.23 prog:None
+T285.046773473965 🤔 extract_1/5 #42 "ferveur" score? 33.06
+T287.25340309896274 🤔 extract_1/5 #42 "ferveur" 33.06°C prog‰ ? 353
+T287.25356000399916 attempt_41: "ferveur" score:33.06 prog:353
+T292.07616174197756 🤔 extract_1/4 #43 "intense" score? 30.28 68
+T292.07634520495776 attempt_42: "intense" score:30.28 prog:68
+T295.732621595962 🤔 extract_1/3 #44 "matière" score? 27.02
+T295.7327435189509 attempt_43: "matière" score:27.02 prog:None
+T299.15889675100334 🤔 extract_1/2 #45 "sensualité" score? 27.33
+T299.1589566459879 attempt_44: "sensualité" score:27.33 prog:None
+T303.8736620940035 🤔 extract_1/1 #46 "émotivité" score? 24.98
+T303.8738214119803 attempt_45: "émotivité" score:24.98 prog:None
+T305.13611790694995 #47 ? _
+T305.1362995869713 chat_prompt: _
+T305.1363620919874 session: {"role": "user", "content": "give me 15 French words that are similar to \"d\u00e9sir\", \"amour\", and \"ferveur\""}
+T323.7010803499725 session: {"role": "assistant", "content": "Here are 15 French words that convey strong emotions or feelings similar to \"d\u00e9sir\", \"amour\", and \"ferveur\":\n\n1. **D\u00e9sir** (desire)\n2. **Amour** (love)\n3. **Ferveur** (fervor, enthusiasm)\n4. **T\u00e9n\u00e8bres** (darkness, intense longing)\n5. **Inqui\u00e9tude** (anxiety, concern)\n6. **S\u00e9duction** (seduction, attraction)\n7. **\u00c9lan vital** (vital enthusiasm, creative energy)\n8. **Po\u00e9sie** (poetry, deep emotional expression)\n9. **M\u00e9lancolie** (melancholy, wistfulness)\n10. **D\u00e9dicace** (dedication, devotion)\n11. **Intense** (strong feeling or desire)\n12. **\u00c9motion** (emotion)\n13. **C\u0153ur battant** (heart beating with emotion)\n14. **Ardenesse** (ardor, fervent passion)\n15. **Attirance** (attraction, charm)\n\nThese words convey a range of emotions and feelings that are similar to the intensity and depth of \"d\u00e9sir\", \"amour\", and \"ferveur\"."}
+T325.6211246579769 #47 extract_...
+T330.9714863479603 🤔 extract_1/6 #47 "dédicace" score? -1.76
+T330.97164764697663 attempt_46: "dédicace" score:-1.76 prog:None
+T334.6455210329732 🤔 extract_1/5 #48 "inquiétude" score? 9.96
+T334.6456638269592 attempt_47: "inquiétude" score:9.96 prog:None
+T338.4597010149737 🤔 extract_1/4 #49 "mélancolie" score? 19.33
+T338.4599105209927 attempt_48: "mélancolie" score:19.33 prog:None
+T341.2404864029959 🤔 extract_1/3 #50 "séduction" score? 21.16
+T341.240679652954 attempt_49: "séduction" score:21.16 prog:None
+T343.8258555109496 🤔 extract_1/2 #51 "ténèbres" score? 19.78
+T343.82599151995964 attempt_50: "ténèbres" score:19.78 prog:None
+T350.2352609169902 🤔 extract_1/1 #52 "émotion" score? 32.13
+T354.1220008719829 🤔 extract_1/1 #52 "émotion" 32.13°C prog‰ ? 32.13
+T358.87293030595174 🤔 extract_1/1 #52 "émotion" 32.13°C prog‰ ? 265
+T358.8730717909639 attempt_51: "émotion" score:32.13 prog:265
+T368.9644435579539 #53 ? *25 t5
+T368.9646890209988 session clear
+T368.9649377070018 chat_prompt: {"prompt": "give me 25 French words that are similar to $1, $2, $3, $4, and $5", "vars": [1, 2, 3, 4, 5], "ords": []}
+T368.9649911559536 session: {"role": "user", "content": "give me 25 French words that are similar to \"d\u00e9sir\", \"amour\", \"ferveur\", \"\u00e9motion\", and \"passion\""}
+T389.83146413596114 session: {"role": "assistant", "content": "Here are 25 French words that convey similar meanings to the ones you provided:\n\n1. D\u00e9sir (desire)\n2. Amour (love)\n3. Ferveur (passion, enthusiasm)\n4. \u00c9motion (emotion)\n5. Passion (passion)\n6. Incontournable (unavoidable passion or desire)\n7. Intensit\u00e9 (intensity)\n8. Ardor (ardent love or passion)\n9. S\u00e9duction (seduction)\n10. Captivit\u00e9 (captivity, enthrallment)\n11. Fascination (fascination)\n12. Enchantement (enchantment)\n13. D\u00e9d\u00e9oration (dedication, devotion)\n14. Exigence (need, desire)\n15. Coup de c\u0153ur (heart's impulse, romantic infatuation)\n16. Soin (tenderness, affection)\n17. Liaison (connection, attachment)\n18. Intimit\u00e9 (intimacy)\n19. Chaleur (warmth, tenderness)\n20. Intensit\u00e9 \u00e9motionnelle (emotional intensity)\n21. D\u00e9sir de vie (desire for life)\n22. Joie (joy)\n23. L\u00e9gitime (legitimate love or desire)\n24. Obsession (obsessive passion or fixation)\n25. Tendresse (tenderness)\n\nNote that some of these words may have slightly different connotations or nuances, but they all generally convey a sense of strong emotion, attachment, or longing."}
+T410.8639358469518 #53 extract_...
+T415.2347767589963 🤔 extract_1/12 #53 "coup" score? -6.57
+T415.2350184979732 attempt_52: "coup" score:-6.57 prog:None
+T418.2854872859898 🤔 extract_1/11 #54 "dédéoration" score? !
+T418.28569237794727 reject: "dédéoration"
+T421.32027915195795 🤔 extract_1/10 #54 "enchantement" score? 15.76
+T421.32047506194795 attempt_53: "enchantement" score:15.76 prog:None
+T424.38428710895823 🤔 extract_1/9 #55 "exigence" score? 20
+T424.38447153696325 attempt_54: "exigence" score:20.00 prog:None
+T427.317207717977 🤔 extract_1/8 #56 "fascination" score? 22.09
+T427.3173671370023 attempt_55: "fascination" score:22.09 prog:None
+T433.0184683809639 🤔 extract_1/7 #57 "incontournable" score? 6.86
+T433.0186517489492 attempt_56: "incontournable" score:6.86 prog:None
+T439.75295854598517 🤔 extract_1/6 #58 "intensité" score? 19.26
+T439.75308463396505 attempt_57: "intensité" score:19.26 prog:None
+T445.9274131869897 🤔 extract_1/5 #59 "intimité" score? 31.13 162
+T445.92755119799403 attempt_58: "intimité" score:31.13 prog:162
+T452.2763985169586 🤔 extract_1/4 #60 "joie" score? 34.44 474
+T452.2765545299626 attempt_59: "joie" score:34.44 prog:474
+T454.85393916099565 🤔 extract_1/3 #61 "liaison" score? 2.5
+T454.85411548096454 attempt_60: "liaison" score:2.50 prog:None
+T459.51615281397244 🤔 extract_1/2 #62 "légitime" score? 18.6
+T459.5163620059611 attempt_61: "légitime" score:18.60 prog:None
+T462.2907959029544 🤔 extract_1/1 #63 "soin" score? 14.93
+T462.2909747560043 attempt_62: "soin" score:14.93 prog:None
+T473.4260143879801 #64 ? /last
+T477.6776365719852 #64 ? *15 t3
+T477.677918404981 session clear
+T477.6781625080039 chat_prompt: {"prompt": "give me 15 French words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T477.67820494197076 session: {"role": "user", "content": "give me 15 French words that are similar to \"d\u00e9sir\", \"amour\", and \"joie\""}
+T501.4075700069661 session: {"role": "assistant", "content": "Here are 15 French words that convey a sense of longing, love, and happiness, similar to \"d\u00e9sir\", \"amour\", and \"joie\":\n\n1. **M\u00e9lodie** (melody) - a beautiful, pleasing sound\n2. **\u00c9lan** (enthusiasm) - a feeling of energetic excitement\n3. **S\u00e9r\u00e9nit\u00e9** (serenity) - a state of peaceful calmness\n4. **R\u00eave** (dream) - a cherished aspiration or fantasy\n5. **Honneur** (honor) - a sense of pride and dignity\n6. **Lumi\u00e8re** (light) - warmth, radiance, or illumination\n7. **Po\u00e9sie** (poetry) - a creative expression of feelings and thoughts\n8. **Chaleur** (warmth) - a feeling of comfort and affection\n9. **Bonne chance** (good luck) - a wish for success or prosperity\n10. **Saudade** (saudade) - a deep emotional state of melancholic nostalgia\n11. **\u00c9closion** (outburst) - an intense, overwhelming emotion\n12. **Vivre** (to live) - to experience life's joys and pleasures\n13. **R\u00e9silience** (resilience) - the ability to withstand or recover from difficult situations\n14. **Mettre du c\u0153ur en jeu** (to put one's heart into something) - to invest one's emotions and passion\n15. **Fleurir** (to blossom) - to grow, develop, and flourish in a beautiful way"}
+T508.4145941879833 #64 extract_...
+T512.1361861489713 🤔 extract_1/11 #64 "bonne" score? -10.04
+T512.1363316850038 attempt_63: "bonne" score:-10.04 prog:None
+T514.5486670999671 🤔 extract_1/10 #65 "fleurir" score? 1.95
+T514.5488261579885 attempt_64: "fleurir" score:1.95 prog:None
+T518.8862368169939 🤔 extract_1/9 #66 "honneur" score? 5.86
+T518.8864059439511 attempt_65: "honneur" score:5.86 prog:None
+T524.8397064419696 🤔 extract_1/8 #67 "lumière" score? 32.63 309
+T524.8398868139484 attempt_66: "lumière" score:32.63 prog:309
+T527.1983528509736 🤔 extract_1/7 #68 "mettre" score? 5
+T527.1984961169655 attempt_67: "mettre" score:5.00 prog:None
+T529.7469602669589 🤔 extract_1/6 #69 "mélodie" score? 17.51
+T529.7471821829677 attempt_68: "mélodie" score:17.51 prog:None
+T532.5817276509479 🤔 extract_1/5 #70 "résilience" score? 16.2
+T532.5819376719883 attempt_69: "résilience" score:16.20 prog:None
+T535.9989505150006 🤔 extract_1/4 #71 "saudade" score? 11.46
+T535.9990716669708 attempt_70: "saudade" score:11.46 prog:None
+T542.0814966619946 🤔 extract_1/3 #72 "sérénité" score? 31.02 153
+T542.081744155963 attempt_71: "sérénité" score:31.02 prog:153
+T547.5808253469877 🤔 extract_1/2 #73 "vivre" score? 42.36 855
+T547.581023723993 attempt_72: "vivre" score:42.36 prog:855
+T551.0098052839749 🤔 extract_1/1 #74 "éclosion" score? 20.36
+T551.0099916039617 attempt_73: "éclosion" score:20.36 prog:None
+T552.3193125249818 #75 ? _
+T552.3194212869857 chat_prompt: _
+T552.3194450179581 session: {"role": "user", "content": "give me 15 French words that are similar to \"d\u00e9sir\", \"vivre\", and \"amour\""}
+T583.3741413370008 session: {"role": "assistant", "content": "Here are 15 French words that convey a sense of longing, passion, and living life to the fullest, similar to \"d\u00e9sir\", \"vivre\", and \"amour\":\n\n1. **\u00c9lan vital** (vital energy) - a feeling of enthusiasm and vitality\n2. **Joie de vivre** (joy of living) - a carefree, joyful attitude towards life\n3. **Passion** (passion) - an intense, all-consuming desire or emotion\n4. **R\u00eaverie** (daydreaming) - a state of mind where one's thoughts wander and imagine possibilities\n5. **S\u00e9r\u00e9nit\u00e9 d'esprit** (inner peace) - a calm, serene sense of being\n6. **\u00c9merveillement** (wonderment) - a feeling of amazement or awe\n7. **Po\u00e9sie de la vie** (poetry of life) - the beauty and wonder of everyday experiences\n8. **C\u0153ur ouvert** (open heart) - a willingness to be vulnerable and receptive\n9. **V\u00e9ritable** (genuine) - something that is authentic, sincere, and heartfelt\n10. **Fr\u00e9n\u00e9sie** (madness, frenzy) - an intense, all-consuming excitement or passion\n11. **Soulagement** (relief) - a feeling of ease, comfort, and happiness\n12. **Intensit\u00e9** (intensity) - a strong, concentrated emotion or feeling\n13. **Luminescence** (radiance) - a bright, shining quality that emanates from within\n14. **S\u00e9r\u00e9niser** (soothe) - to calm and comfort someone's emotions\n15. **S\u00e9pia** (nostalgia) - a bittersweet longing for something lost or past\n\nThese words aim to capture the essence of \"d\u00e9sir\", \"vivre\", and \"amour\" by conveying a sense of passion, joy, and connection with life."}
+T594.002520741953 #75 extract_...
+T597.6165211699554 🤔 extract_1/8 #75 "frénésie" score? 5.66
+T597.6166544609587 attempt_74: "frénésie" score:5.66 prog:None
+T600.0522192139761 🤔 extract_1/7 #76 "luminescence" score? 9.47
+T600.0524079799652 attempt_75: "luminescence" score:9.47 prog:None
+T602.8446436649538 🤔 extract_1/6 #77 "rêverie" score? 21.78
+T602.8448222539737 attempt_76: "rêverie" score:21.78 prog:None
+T605.3233444769867 🤔 extract_1/5 #78 "soulagement" score? 14.08
+T605.3234752489952 attempt_77: "soulagement" score:14.08 prog:None
+T608.5005535369855 🤔 extract_1/4 #79 "sépia" score? -3.09
+T608.5007369800005 attempt_78: "sépia" score:-3.09 prog:None
+T611.042028020951 🤔 extract_1/3 #80 "séréniser" score? !
+T611.0421770699904 reject: "séréniser"
+T615.781210807967 🤔 extract_1/2 #80 "véritable" score? 34.11 451
+T615.7812713769963 attempt_79: "véritable" score:34.11 prog:451
+T620.0626006649691 🤔 extract_1/1 #81 "émerveillement" score? 24.84
+T620.0627475799993 attempt_80: "émerveillement" score:24.84 prog:None
+T621.8950545539847 <INT>
+T0.01040970894973725 now: 2024-11-22T19:32:56EST
+T0.014834496949333698 session model: llama
+T2.2129121359903365 #82 ? /prog
+T14.205664098961279 #82 ? > give me 10 French words related $t3
+T14.206382479984313 chat_prompt: {"prompt": "give me 10 French words related $t3", "vars": [1, 2, 3], "ords": []}
+T14.206434314954095 session: {"role": "user", "content": "give me 10 French words related \"d\u00e9sir\", \"vivre\", and \"amour\""}
+T70.14830100600375 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense of longing, passion, and living life to the fullest, similar to \"d\u00e9sir\", \"vivre\", and \"amour\":\n\n1. **Po\u00e9sie** (poetry) - a creative expression of feelings and thoughts\n2. **Saudade** (saudade) - a deep emotional state of melancholic nostalgia\n3. **Fr\u00e9n\u00e9sie** (madness, frenzy) - an intense, all-consuming excitement or passion\n4. **\u00c9lan vital** (vital energy) - a feeling of enthusiasm and vitality\n5. **C\u0153ur ouvert** (open heart) - a willingness to be vulnerable and receptive\n6. **Intensit\u00e9** (intensity) - a strong, concentrated emotion or feeling\n7. **S\u00e9r\u00e9niser** (soothe) - to calm and comfort someone's emotions\n8. **Vivre pleinement** (to live fully) - to experience life with intention and passion\n9. **Lumineuse** ( radiant, shining) - a bright, warm quality that emanates from within\n10. **M\u00e9lange de chagrin et d'amour** (blend of sorrow and love) - a mix of emotions that is both painful and beautiful\n\nThese words aim to capture the essence of \"d\u00e9sir\", \"vivre\", and \"amour\" by conveying a sense of passion, longing, and connection with life."}
+T75.62572729500243 #82 extract_...
+T78.139685533999 🤔 extract_1/2 #82 "lumineuse" score? !
+T78.13979813398328 reject: "lumineuse"
+T84.18234218796715 🤔 extract_1/1 #82 "mélange" score? 11.39
+T84.18253047700273 attempt_81: "mélange" score:11.39 prog:None
+T91.85230637597851 #83 ? /prog
+T125.20651207695482 #83 ? > give me 10 French words related to #80 and $t2
+T125.20705872296821 chat_prompt: {"prompt": "give me 10 French words related to #80 and $t2", "vars": [1, 2], "ords": [80]}
+T125.20719622296747 session: {"role": "user", "content": "give me 10 French words related to \"v\u00e9ritable\" and \"d\u00e9sir\" and \"vivre\""}
+T149.92952514300123 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense of authenticity, sincerity, and living life with intention, similar to \"v\u00e9ritable\", \"d\u00e9sir\", and \"vivre\":\n\n1. **Authentique** (authentic) - genuine, sincere, and true to oneself\n2. **V\u00e9rit\u00e9 profonde** (deep truth) - a profound, heartfelt understanding of one's emotions and desires\n3. **D\u00e9sir pur** (pure desire) - an unadulterated, unfiltered longing or passion\n4. **Vivre dans le moment** (to live in the moment) - to be fully present and engaged with life\n5. **Sincerit\u00e9** (sincerity) - a genuine, heartfelt quality that is true to oneself\n6. **Intensit\u00e9 \u00e9motionnelle** (emotional intensity) - a strong, powerful emotional experience\n7. **Conviction** (conviction) - a firm, unwavering belief in one's desires or values\n8. **Authentification** (authentication) - the process of discovering and expressing one's true self\n9. **Sentiment r\u00e9el** (true feeling) - an authentic, genuine emotional experience\n10. **V\u00e9ritable libert\u00e9** (true freedom) - a sense of liberation and autonomy that comes from being true to oneself\n\nThese words aim to capture the essence of \"v\u00e9ritable\", \"d\u00e9sir\", and \"vivre\" by conveying a sense of authenticity, sincerity, and living life with intention and passion."}
+T164.4734918960021 #83 extract_...
+T168.24788963596802 🤔 extract_1/6 #83 "authentification" score? -.77
+T168.24805334297707 attempt_82: "authentification" score:-0.77 prog:None
+T174.20369958598167 🤔 extract_1/5 #84 "authentique" score? 37.93 688
+T174.20386167697143 attempt_83: "authentique" score:37.93 prog:688
+T180.0762320869835 🤔 extract_1/4 #85 "conviction" score? 37.4 665
+T180.07656133495038 attempt_84: "conviction" score:37.40 prog:665
+T185.40298511000583 🤔 extract_1/3 #86 "sentiment" score? 38.16 700
+T185.4031573899556 attempt_85: "sentiment" score:38.16 prog:700
+T187.9914946529898 🤔 extract_1/2 #87 "sincerité" score? !
+T187.99168767395895 reject: "sincerité"
+T193.36270195496036 🤔 extract_1/1 #87 "vérité" score? 40.37 794
+T193.3628959939815 attempt_86: "vérité" score:40.37 prog:794
+T200.13651480700355 #88 ? *15 t3
+T200.13684638100676 session clear
+T200.1371071189642 chat_prompt: {"prompt": "give me 15 French words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T200.13717072299914 session: {"role": "user", "content": "give me 15 French words that are similar to \"d\u00e9sir\", \"vivre\", and \"v\u00e9rit\u00e9\""}
+T218.89072759699775 session: {"role": "assistant", "content": "Here are 15 French words that convey similar meanings or emotions as \"d\u00e9sir\", \"vivre\", and \"v\u00e9rit\u00e9\":\n\n1. Amour (love) - conveys a deep feeling of desire\n2. Joie (joy) - expresses happiness and pleasure\n3. Libert\u00e9 (liberty) - represents freedom and independence\n4. S\u00e9r\u00e9nit\u00e9 (serenity) - embodies peacefulness and calmness\n5. Paix (peace) - signifies inner peace and harmony\n6. Amiti\u00e9 (friendship) - conveys a sense of affection and companionship\n7. Espoir (hope) - represents optimism and expectation\n8. Joie de vivre (joy of living) - captures the essence of savoring life\n9. Intimit\u00e9 (intimacy) - expresses closeness and connection with others\n10. Confiance (trust) - conveys a sense of faith and reliability\n11. Libert\u00e9 d'expression (freedom of expression) - represents the ability to express oneself freely\n12. Coeur pur (pure heart) - signifies sincerity and innocence\n13. Esprit libre (free spirit) - embodies creativity, spontaneity, and independence\n14. Bonheur (happiness) - conveys a state of well-being and contentment\n15. R\u00eave (dream) - represents the pursuit of idealized desires"}
+T225.53792134596733 #88 extract_...
+T231.46921677695354 🤔 extract_1/7 #88 "amitié" score? 30.18 54
+T231.4693875789526 attempt_87: "amitié" score:30.18 prog:54
+T237.02489649900235 🤔 extract_1/6 #89 "bonheur" score? 31.24 179
+T237.02513172198087 attempt_88: "bonheur" score:31.24 prog:179
+T239.6378652509884 🤔 extract_1/5 #90 "confiance" score? 22.95
+T239.6380007689586 attempt_89: "confiance" score:22.95 prog:None
+T243.21534866496222 🤔 extract_1/4 #91 "espoir" score? 20.81
+T243.215584399004 attempt_90: "espoir" score:20.81 prog:None
+T247.05253720696783 🤔 extract_1/3 #92 "esprit" score? 55.99
+T249.00753073696978 🤔 extract_1/3 #92 "esprit" 55.99°C prog‰ ? 992
+T249.007660156989 attempt_91: "esprit" score:55.99 prog:992
+T251.63637159694918 🤔 extract_1/2 #93 "liberté" score? 28.12
+T251.63651791698067 attempt_92: "liberté" score:28.12 prog:None
+T256.66733030299656 🤔 extract_1/1 #94 "paix" score? 33.76 420
+T256.6675253979629 attempt_93: "paix" score:33.76 prog:420
+T258.44992752798134 #95 ? _
+T258.4501349100028 chat_prompt: _
+T258.4501953430008 session: {"role": "user", "content": "give me 15 French words that are similar to \"esprit\", \"d\u00e9sir\", and \"vivre\""}
+T288.06935432495084 session: {"role": "assistant", "content": "Here are 15 French words that convey similar meanings or emotions as \"esprit\", \"d\u00e9sir\", and \"vivre\":\n\n1. C\u0153ur (heart) - represents emotions, passion, and love\n2. Souffle (breath) - conveys a sense of life, vitality, and inspiration\n3. \u00c9lan (energy) - embodies dynamism, enthusiasm, and motivation\n4. Ferveur (passion) - expresses intense emotion, excitement, or dedication\n5. Invention (invention) - represents creativity, innovation, and originality\n6. R\u00eaverie (daydreaming) - captures the essence of imagination and fantasy\n7. Joie de vivre (joy of living) - conveys a sense of enthusiasm for life's experiences\n8. Cr\u00e9ativit\u00e9 (creativity) - embodies imagination, inventiveness, and artistic expression\n9. Saudade (longing) - represents a deep emotional state of yearning or nostalgia\n10. \u00c9clat (luster) - conveys confidence, charm, and charisma\n11. Force de l'\u00e2me (strength of the soul) - embodies resilience, determination, and inner courage\n12. Vivacit\u00e9 (vivacity) - expresses liveliness, enthusiasm, and energy\n13. Enchantement (charming) - represents captivating, spellbinding, or alluring qualities\n14. \u00c9lan vital (vital spark) - embodies a sense of purpose, drive, and motivation\n15. L'\u00e2me libre (free spirit) - conveys a sense of independence, self-expression, and individuality"}
+T291.04424510296667 #95 extract_...
+T294.85193452995736 🤔 extract_1/7 #95 "créativité" score? 23.36
+T294.85211244696984 attempt_94: "créativité" score:23.36 prog:None
+T300.0722371949814 🤔 extract_1/6 #96 "force" score? 33.35 383
+T300.07241412595613 attempt_95: "force" score:33.35 prog:383
+T302.81181968498277 🤔 extract_1/5 #97 "invention" score? 12.37
+T302.8120002709911 attempt_96: "invention" score:12.37 prog:None
+T309.92070183198666 🤔 extract_1/4 #98 "l" score? !
+T309.9208810199634 reject: "l"
+T313.2017401919584 🤔 extract_1/3 #98 "vivacité" score? 14.788
+T313.2018727060058 attempt_97: "vivacité" score:14.79 prog:None
+T323.6718177589937 🤔 extract_1/2 #99 "âme" score? #98 score 14.78
+T323.672251655953 attempt_98: "âme" score:14.78 prog:None
+T374.58868669799995 #100 ? #99 score 52.86 prog 987
+T374.5889290329651 fix attempt_98: score:52.86 prog:987
+T381.9272749659722 #100 ? #98 score 14.78
+T381.9275057549821 fix attempt_97: score:14.78
+T383.63784284394933 #100 ? /e
+T387.5254309370066 #100 extract_1
+T390.4735289399978 🤔 extract_1/1 #100 "éclat" score? 14.32
+T390.47371695999755 attempt_99: "éclat" score:14.32 prog:None
+T391.57479260198306 #101 ? _
+T391.57509260898223 chat_prompt: _
+T391.57518461399013 session: {"role": "user", "content": "give me 15 French words that are similar to \"esprit\", \"\u00e2me\", and \"d\u00e9sir\""}
+T421.7227055779658 session: {"role": "assistant", "content": "Here are 15 French words that convey similar meanings or emotions as \"esprit\", \"\u00e2me\", and \"d\u00e9sir\":\n\n1. Coeur (heart) - represents emotions, passion, and love\n2. Amour (love) - conveys deep affection, attachment, or devotion\n3. \u00c9lan vital (vital spark) - embodies a sense of purpose, drive, and motivation\n4. Intuition (intuition) - represents instinctive knowledge or insight\n5. Imagination (imagination) - captures the essence of creative thinking and fantasy\n6. R\u00eaverie (daydreaming) - conveys a state of mind that is lost in thought or fantasy\n7. Esprit d'entreprise (business spirit) - embodies entrepreneurial drive, initiative, and risk-taking\n8. L'\u00e2me libre (free spirit) - conveys a sense of independence, self-expression, and individuality\n9. Sagesse (wisdom) - represents discernment, insight, and good judgment\n10. Chaleur (warmth) - embodies emotional warmth, kindness, and compassion\n11. Donn\u00e9e (given) - conveys the idea that something is inherent or innate\n12. Facult\u00e9 (faculty) - represents a particular ability, talent, or skill\n13. Expression de soi (expression of self) - embodies authenticity, honesty, and individuality\n14. \u00c2me so\u00fbm\u00e9e (soul weary) - conveys a state of emotional exhaustion, weariness, or despondency\n15. Fond d'\u00e2me (depth of soul) - represents the innermost, most profound aspects of one's being"}
+T431.7036417389754 #101 extract_...
+T435.167329725984 🤔 extract_1/7 #101 "donnée" score? -3.7
+T435.1675944440067 attempt_100: "donnée" score:-3.70 prog:None
+T438.4079568249872 🤔 extract_1/6 #102 "expression" score? 28.56
+T438.40809704799904 attempt_101: "expression" score:28.56 prog:None
+T441.7116997689591 🤔 extract_1/5 #103 "faculté" score? 17.42
+T441.7118562950054 attempt_102: "faculté" score:17.42 prog:None
+T444.22786932997406 🤔 extract_1/4 #104 "fond" score? 11.66
+T444.2280349849607 attempt_103: "fond" score:11.66 prog:None
+T446.83182110695634 🤔 extract_1/3 #105 "imagination" score? 25.5
+T446.83198536600685 attempt_104: "imagination" score:25.50 prog:None
+T451.7732762169908 🤔 extract_1/2 #106 "intuition" score? 44.53 904
+T451.77343271195423 attempt_105: "intuition" score:44.53 prog:904
+T458.13378443499096 🤔 extract_1/1 #107 "sagesse" score? 51.48 981
+T458.1340626080055 attempt_106: "sagesse" score:51.48 prog:981
+T462.63732458499726 #108 ? _
+T462.63757953298045 chat_prompt: _
+T462.63765713595785 session: {"role": "user", "content": "give me 15 French words that are similar to \"esprit\", \"\u00e2me\", and \"sagesse\""}
+T490.61156614596257 session: {"role": "assistant", "content": "Here are 15 French words that convey similar meanings or emotions as \"esprit\", \"\u00e2me\", and \"sagesse\":\n\n1. Coeur (heart) - represents emotions, passion, and love\n2. \u00cenfluence (influence) - embodies the power to shape or inspire others\n3. Intelligence (intelligence) - conveys mental acuity, wisdom, and discernment\n4. Prudence (prudence) - represents cautiousness, wisdom, and good judgment\n5. Sensibilit\u00e9 (sensitivity) - embodies emotional awareness, empathy, and compassion\n6. Introspection (introspection) - conveys self-reflection, contemplation, and inner exploration\n7. Perception (perception) - represents the ability to understand or interpret sensory information\n8. Discernement (discernment) - embodies the ability to distinguish between right and wrong\n9. Maturit\u00e9 (maturity) - conveys a state of emotional balance, stability, and wisdom\n10. R\u00e9silience (resilience) - represents the ability to withstand or recover from difficult situations\n11. Conscience (conscience) - embodies moral awareness, ethics, and responsibility\n12. \u00c9quilibre (balance) - conveys harmony, stability, and equilibrium in thought and emotion\n13. Int\u00e9grit\u00e9 (integrity) - represents honesty, authenticity, and moral principle\n14. Luminosit\u00e9 (luminosity) - embodies creativity, inspiration, and illumination\n15. Profondeur (depth) - conveys a sense of complexity, richness, or inner dimension\n\nThese words all relate to aspects of human experience, emotion, and intellect that are similar to those conveyed by the words \"esprit\", \"\u00e2me\", and \"sagesse\"."}
+T491.7477691859822 #108 extract_...
+T497.5435037660063 🤔 extract_1/13 #108 "conscience" score? 52.07 984
+T497.5436888829572 attempt_107: "conscience" score:52.07 prog:984
+T503.5020518459496 🤔 extract_1/12 #109 "discernement" score? 42.27 852
+T503.5022205239511 attempt_108: "discernement" score:42.27 prog:852
+T509.65000154596055 🤔 extract_1/11 #110 "intelligence" score? 42.4 856
+T509.6501460839645 attempt_109: "intelligence" score:42.40 prog:856
+T517.3704053469701 🤔 extract_1/10 #111 "introspection" score? 34.2 456
+T517.3706512249773 attempt_110: "introspection" score:34.20 prog:456
+T520.6588081629598 🤔 extract_1/9 #112 "intégrité" score? 16.4
+T520.6590295879869 attempt_111: "intégrité" score:16.40 prog:None
+T527.8178111789748 #113 ? #112 16.41
+T529.8639416079968 #113 ? _
+T529.8643371899961 chat_prompt: _
+T529.8644595129881 session: {"role": "user", "content": "give me 15 French words that are similar to \"esprit\", \"\u00e2me\", and \"conscience\""}
+T559.500144243997 session: {"role": "assistant", "content": "Here are 15 French words that convey similar meanings or emotions as \"esprit\", \"\u00e2me\", and \"conscience\":\n\n1. Coeur (heart) - represents emotions, passion, and love\n2. \u00e2me (soul) - conveys a sense of inner being, spirit, or essence\n3. Conscience (conscience) - embodies moral awareness, ethics, and responsibility\n4. Esprit de corps (esprit de corps) - represents group identity, unity, and shared values\n5. Intellectuelle (intelectual) - conveys mental acuity, wisdom, and discernment\n6. Sagesse (wisdom) - represents discernment, insight, and good judgment\n7. Intuition (intuition) - embodies instinctive knowledge or insight\n8. Sensibilit\u00e9 (sensitivity) - embodies emotional awareness, empathy, and compassion\n9. Finesse (fineness) - conveys delicacy, subtlety, and refinement of thought or action\n10. Prudence (prudence) - represents cautiousness, wisdom, and good judgment\n11. Discr\u00e9tion (discretion) - embodies tact, reserve, and careful consideration\n12. Autonomie (autonomy) - conveys self-governance, independence, and freedom\n13. Libert\u00e9 d'esprit (freedom of thought) - represents the ability to think independently or express oneself freely\n14. R\u00e9flexion (reflection) - embodies thoughtful consideration, introspection, and mental analysis\n15. Soulagement (soul lifting) - conveys a sense of comfort, relief, or inner peace\n\nThese words all relate to aspects of human experience, emotion, and intellect that are similar to those conveyed by the words \"esprit\", \"\u00e2me\", and \"conscience\"."}
+T563.2593464980018 #113 extract_...
+T566.5762847499573 🤔 extract_1/7 #113 "autonomie" score? 16.45
+T566.5765200089663 attempt_112: "autonomie" score:16.45 prog:None
+T569.0325009649969 🤔 extract_1/6 #114 "discrétion" score? 10.4
+T569.0326728219516 attempt_113: "discrétion" score:10.40 prog:None
+T571.4858665549546 🤔 extract_1/5 #115 "finesse" score? 14.399
+T571.486005335988 attempt_114: "finesse" score:14.40 prog:None
+T577.2899114819593 #116 ? #115 14.39
+T579.1699703849736 #116 ? /e
+T581.1876352379913 #116 extract_...
+T583.9241382859764 🤔 extract_1/4 #116 "intellectuelle" score? !
+T583.924309733964 reject: "intellectuelle"
+T586.66467374895 🤔 extract_1/3 #116 "prudence" score? 10.19
+T586.664879110991 attempt_115: "prudence" score:10.19 prog:None
+T590.5062601779937 🤔 extract_1/2 #117 "réflexion" score? 26.84
+T590.506408622954 attempt_116: "réflexion" score:26.84 prog:None
+T595.079222899978 🤔 extract_1/1 #118 "sensibilité" score? 27.91
+T595.0794195589842 attempt_117: "sensibilité" score:27.91 prog:None
+T599.8594562959624 #119 ? /e
+T604.8925263289711 <INT>
+T0.008584555995184928 now: 2024-11-22T20:04:09EST
+T0.010825521952938288 session model: llama
+T6.534443056967575 #119 ? /prog
+T7.519914076954592 #119 ? /last
+T9.241324495000299 #119 ? /prog
+T14.001055691973306 #119 ? *10 t2
+T14.001496324955951 session clear
+T14.00166614097543 chat_prompt: {"prompt": "give me 10 French words that are similar to $1 and $2", "vars": [1, 2], "ords": []}
+T14.001724584959447 session: {"role": "user", "content": "give me 10 French words that are similar to \"esprit\" and \"\u00e2me\""}
+T31.64071318099741 <INT>
+T0.01093377498909831 now: 2024-11-22T20:05:04EST
+T0.013490247016306967 session model: llama
+T15.939693699998315 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense of inner self, spirit, or soul:\n\n1. \u00c2me (as you mentioned) - translates to \"soul\"\n2. Esprit (also as you mentioned) - means \"spirit\", \"mind\", or \"intellect\"\n3. Conscience - refers to the moral part of one's mind\n4. C\u0153ur (heart) - symbolizes emotions, love, and the inner self\n5. \u00c2me-souffle (breath of the soul) - poetic expression for the essence of a person\n6. Lumi\u00e8re (light) - represents inner guidance or enlightenment\n7. Essentiel (essential) - conveys something that is fundamental to one's being\n8. D\u00e9sir (desire) - refers to a strong emotional or spiritual longing\n9. \u00c2ge (age) - in this context, means the inner development of an individual\n10. S\u00e9r\u00e9nit\u00e9 (serenity) - signifies a state of inner peace and calmness\n\nNote that some of these words may have multiple translations or connotations, but they all relate to aspects of the human experience that are often associated with \"\u00e2me\" (soul) and \"esprit\" (spirit)."}
+T23.807145812024828 #119 extract_...
+T29.084425590990577 🤔 extract_1/2 #119 "essentiel" score? 33.1 356
+T29.084647994022816 attempt_118: "essentiel" score:33.10 prog:356
+T32.09984786203131 🤔 extract_1/1 #120 "âge" score? 19.23
+T32.100017112039495 attempt_119: "âge" score:19.23 prog:None
+T38.76406554802088 #121 ? /prog
+T42.9653819000232 #121 ? *20 t4
+T42.965892253036145 session clear
+T42.96610203903401 chat_prompt: {"prompt": "give me 20 French words that are similar to $1, $2, $3, and $4", "vars": [1, 2, 3, 4], "ords": []}
+T42.96613745903596 session: {"role": "user", "content": "give me 20 French words that are similar to \"esprit\", \"\u00e2me\", \"conscience\", and \"sagesse\""}
+T59.35408553300658 session: {"role": "assistant", "content": "Here are 20 French words related to \"esprit\", \"\u00e2me\", \"conscience\", and \"sagesse\":\n\n1. \u00c9motion (emotion)\n2. Intuition (intuitions)\n3. Intelligence (intelligence)\n4. Ing\u00e9niosit\u00e9 (ingenuity)\n5. Cr\u00e9ativit\u00e9 (creativity)\n6. R\u00e9flexion (reflection)\n7. Prudence (prudence)\n8. Sagesse (wisdom)\n9. Bonheur (happiness)\n10. Joie de vivre (joy of living)\n11. P\u00e2ture (nature, instinct)\n12. Instincte (instinct)\n13. Sentiment (feeling, emotion)\n14. C\u0153ur (heart, emotions)\n15. Volont\u00e9 (will, determination)\n16. D\u00e9sespoir (desperation)\n17. R\u00e9alisme (realism)\n18. \u00c9quilibre (balance, harmony)\n19. Sensibilit\u00e9 (sensitivity)\n20. Introspection (introspection)\n\nThese words convey a sense of inner being, emotions, thoughts, and behaviors that are similar to the concepts represented by \"esprit\", \"\u00e2me\", \"conscience\", and \"sagesse\"."}
+T63.14405734499451 #121 extract_..
+T64.3888710589963 #121 extract_...
+T66.78156382404268 🤔 extract_1/7 #121 "désespoir" score? 22.55
+T66.78175012604333 attempt_120: "désespoir" score:22.55 prog:None
+T69.46653985203011 🤔 extract_1/6 #122 "ingéniosité" score? 6.64
+T69.46679142198991 attempt_121: "ingéniosité" score:6.64 prog:None
+T71.839299165993 🤔 extract_1/5 #123 "instincte" score? !
+T71.83952759101521 reject: "instincte"
+T75.31007850699825 🤔 extract_1/4 #123 "pâture" score? -1.63
+T75.31024937599432 attempt_122: "pâture" score:-1.63 prog:None
+T79.10428348003188 🤔 extract_1/3 #124 "réalisme" score? 18.94
+T79.1044858340174 attempt_123: "réalisme" score:18.94 prog:None
+T83.97133975900942 🤔 extract_1/2 #125 "volonté" score? 34.07 448
+T83.9715092650149 attempt_124: "volonté" score:34.07 prog:448
+T90.2489248480415 🤔 extract_1/1 #126 "équilibre" score? 20.16
+T90.24908766400767 attempt_125: "équilibre" score:20.16 prog:None
+T107.78772048000246 #127 ? > give me 10 French words that are related to $t4
+T107.78808284999104 chat_prompt: {"prompt": "give me 10 French words that are related to $t4", "vars": [1, 2, 3, 4], "ords": []}
+T107.78813892800827 session: {"role": "user", "content": "give me 10 French words that are related to \"esprit\", \"\u00e2me\", \"conscience\", and \"sagesse\""}
+T118.9499144339934 session: {"role": "assistant", "content": "Here are 10 French words related to \"esprit\", \"\u00e2me\", \"conscience\", and \"sagesse\":\n\n1. Esprit (spirit)\n2. \u00c2me (soul)\n3. Conscience (consciousness)\n4. Sagesse (wisdom)\n5. R\u00e9flexion (reflection)\n6. Intuition (intuition)\n7. Ing\u00e9niosit\u00e9 (ingenuity)\n8. Cr\u00e9ativit\u00e9 (creativity)\n9. Prudence (prudence)\n10. Luminosit\u00e9 (enlightenment)\n\nThese words capture various aspects of inner being, mental clarity, and wisdom that are similar to the concepts represented by \"esprit\", \"\u00e2me\", \"conscience\", and \"sagesse\"."}
+T121.3936594070401 #127 extract_1
+T124.49546066502808 🤔 extract_1/1 #127 "luminosité" score? .86
+T124.49562979699112 attempt_126: "luminosité" score:0.86 prog:None
+T136.94669615098974 #128 ? > give me 10 French words that are frequently used with $t4
+T136.94722492899746 chat_prompt: {"prompt": "give me 10 French words that are frequently used with $t4", "vars": [1, 2, 3, 4], "ords": []}
+T136.94728933804436 session: {"role": "user", "content": "give me 10 French words that are frequently used with \"esprit\", \"\u00e2me\", \"conscience\", and \"sagesse\""}
+T148.8665770450025 session: {"role": "assistant", "content": "Here are 10 French words that are frequently used in conjunction with \"esprit\", \"\u00e2me\", \"conscience\", and \"sagesse\":\n\n1. Amour (love)\n2. Lumi\u00e8re (light, enlightenment)\n3. Vieillissement (aging, wisdom)\n4. Nuit (night, introspection)\n5. Journ\u00e9e (day, reflection)\n6. R\u00eave (dream, imagination)\n7. C\u0153ur (heart, emotions)\n8. R\u00e9sonance (resonance, harmony)\n9. \u00c9cho (echo, memory)\n10. Souvenir (memory, nostalgia)\n\nThese words often complement or contrast with the concepts of \"esprit\", \"\u00e2me\", \"conscience\", and \"sagesse\", adding depth and nuance to their meanings."}
+T150.73741826904006 #128 extract_...
+T154.3987001249916 🤔 extract_1/6 #128 "journée" score? -5.08
+T154.3989702879917 attempt_127: "journée" score:-5.08 prog:None
+T156.6798808980384 🤔 extract_1/5 #129 "nuit" score? 1.82
+T156.68004071200266 attempt_128: "nuit" score:1.82 prog:None
+T159.47420247399714 🤔 extract_1/4 #130 "résonance" score? 27.16
+T159.47435074602254 attempt_129: "résonance" score:27.16 prog:None
+T161.96073989599245 🤔 extract_1/3 #131 "souvenir" score? 14.07
+T161.96083406201797 attempt_130: "souvenir" score:14.07 prog:None
+T166.65240596199874 🤔 extract_1/2 #132 "vieillissement" score? 4.73
+T166.65259605803294 attempt_131: "vieillissement" score:4.73 prog:None
+T169.4529459210462 🤔 extract_1/1 #133 "écho" score? 10.72
+T169.45312730700243 attempt_132: "écho" score:10.72 prog:None
+T172.50183126400225 <INT>
+T0.009078164992388338 now: 2024-11-22T21:06:51EST
+T0.011299883015453815 session model: llama
+T2.7698865620186552 #134 ? /last
+T14.580899436026812 #134 ? /prog
+T26.130086340010166 #134 ? *25 t5
+T26.13069500599522 session clear
+T26.130953627987765 chat_prompt: {"prompt": "give me 25 French words that are similar to $1, $2, $3, $4, and $5", "vars": [1, 2, 3, 4, 5], "ords": []}
+T26.131010060023982 session: {"role": "user", "content": "give me 25 French words that are similar to \"esprit\", \"\u00e2me\", \"conscience\", \"sagesse\", and \"intuition\""}
+T48.856321425992064 session: {"role": "assistant", "content": "Here are 25 French words related to the concepts you mentioned:\n\n1. Espirit (spirit) - already on your list\n2. \u00c2me (soul)\n3. Conscience (consciousness)\n4. Sagesse (wisdom)\n5. Intuition (intuition)\n6. Instinct (instinct)\n7. Sensibilit\u00e9 (sensitivity)\n8. Intu\u00eftion (same as above, but with a different spelling)\n9. Prudence (prudence)\n10. Discr\u00e9tion (discretion)\n11. Int\u00e9r\u00eat (interest)\n12. Confiance (confidence)\n13. Loyaut\u00e9 (loyalty)\n14. Humeur (temperament)\n15. Sentiment (sentimentality)\n16. Appr\u00e9ciation (appreciation)\n17. Pr\u00e9avisement (providence)\n18. D\u00e9fense de soi (self-defense)\n19. Intu\u00eftive (intuitive)\n20. Perception (perception)\n21. Exp\u00e9rience (experience)\n22. Saut de foi (leap of faith)\n23. Raisonnement (reasoning)\n24. Analyse (analysis)\n25. Instinctif (instinctual)\n\nNote that some words might have slightly different connotations or nuances, but they all relate to the concepts you mentioned.\n\nAlso, keep in mind that French has a rich vocabulary and many synonyms for each concept, so this list is not exhaustive, but it should give you a good starting point."}
+T52.01863691199105 #134 extract_...
+T56.20781435398385 🤔 extract_1/15 #134 "analyse" score? 0.94
+T56.208002653031144 attempt_133: "analyse" score:0.94 prog:None
+T58.8966376670287 🤔 extract_1/14 #135 "appréciation" score? 10.39
+T58.89689025201369 attempt_134: "appréciation" score:10.39 prog:None
+T61.328359209990595 🤔 extract_1/13 #136 "défense" score? 5.63
+T61.32855571701657 attempt_135: "défense" score:5.63 prog:None
+T63.50365889299428 🤔 extract_1/12 #137 "espirit" score? !
+T63.50378287199419 reject: "espirit"
+T66.15428951301146 🤔 extract_1/11 #137 "expérience" score? 29.65
+T66.15441751899198 attempt_136: "expérience" score:29.65 prog:None
+T68.3575319959782 🤔 extract_1/10 #138 "humeur" score? 4.01
+T68.35768006497528 attempt_137: "humeur" score:4.01 prog:None
+T75.77190819202224 🤔 extract_1/9 #139 "instinct" score? 32.05 254
+T75.77213488897542 attempt_138: "instinct" score:32.05 prog:254
+T79.79293167998549 🤔 extract_1/8 #140 "instinctif" score? 31.34 184
+T79.79315362300258 attempt_139: "instinctif" score:31.34 prog:184
+T81.70469678298105 🤔 extract_1/7 #141 "intuïtion" score? !
+T81.70482664299197 reject: "intuïtion"
+T83.8547468049801 🤔 extract_1/6 #141 "intuïtive" score? !
+T83.85488464002265 reject: "intuïtive"
+T86.66627269500168 🤔 extract_1/5 #141 "loyauté" score? 16.95
+T86.66643706697505 attempt_140: "loyauté" score:16.95 prog:None
+T90.13960629003122 🤔 extract_1/4 #142 "perception" score? 24.67
+T90.13981698302086 attempt_141: "perception" score:24.67 prog:None
+T94.27953356900252 🤔 extract_1/3 #143 "préavisement" score? !
+T94.2796447389992 reject: "préavisement"
+T97.51355538598727 🤔 extract_1/2 #143 "raisonnement" score? 14.53
+T97.5136325940257 attempt_142: "raisonnement" score:14.53 prog:None
+T100.29602760798298 🤔 extract_1/1 #144 "saut" score? 3.75
+T100.296202069032 attempt_143: "saut" score:3.75 prog:None
+T105.64396742999088 #145 ? /prog
+T108.98808684397954 #145 ? *20 t4
+T108.98830937698949 session clear
+T108.98852197901579 chat_prompt: {"prompt": "give me 20 French words that are similar to $1, $2, $3, and $4", "vars": [1, 2, 3, 4], "ords": []}
+T108.98855760297738 session: {"role": "user", "content": "give me 20 French words that are similar to \"esprit\", \"\u00e2me\", \"conscience\", and \"sagesse\""}
+T119.6445542150177 <INT>
+T0.009495429985690862 now: 2024-11-22T21:09:25EST
+T0.01174968498526141 session model: llama
+T15.926840145024471 session: {"role": "assistant", "content": "Here are 20 French words that convey similar meanings or concepts as \"esprit\", \"\u00e2me\", \"conscience\", and \"sagesse\":\n\n1. \u00c2me (soul)\n2. Esprit (spirit, soul)\n3. Conscience (conscience)\n4. Sagesse (wisdom)\n5. Intelligence (intelligence)\n6. Ing\u00e9niosit\u00e9 (ingenuity)\n7. Prudence (prudence)\n8. Raisonnement (reasoning)\n9. Lumi\u00e8ret\u00e9 (enlightenment)\n10. Intuition (intuition)\n11. Sensibilit\u00e9 (sensitivity)\n12. \u00c9nergie (energy, enthusiasm)\n13. Passion (passion)\n14. Chaleur (warmth)\n15. Fraternit\u00e9 (fraternity, solidarity)\n16. Humeur (temperament)\n17. Naturellement (naturally)\n18. Introspection (introspection)\n19. R\u00e9flexion (reflection)\n20. Discernement (discernment)\n\nThese words capture various aspects of human experience, including intellectual and emotional qualities, spiritual concepts, and social values.\n\nNote that some of these words may have slightly different connotations or nuances in French than their English equivalents."}
+T22.5704704389791 #145 extract_...
+T31.87905695301015 🤔 extract_1/4 #145 "fraternité" score? 43.56 889
+T31.87926580401836 attempt_144: "fraternité" score:43.56 prog:889
+T34.38110161200166 <INT>
+T0.009559149038977921 now: 2024-11-22T21:11:01EST
+T0.011892768030520529 session model: llama
+T2.034665020008106 #146 extract_...
+T5.557815178006422 🤔 extract_1/3 #146 "lumièreté" score? !
+T5.557993896014523 reject: "lumièreté"
+T9.392133341054432 🤔 extract_1/2 #146 "naturellement" score? 27.75
+T9.392383634054568 attempt_145: "naturellement" score:27.75 prog:None
+T12.25734958605608 🤔 extract_1/1 #147 "énergie" score? 17.28
+T12.257572487054858 attempt_146: "énergie" score:17.28 prog:None
+T18.14391413301928 #148 ? /prog
+T21.824598851031624 #148 ? *15 t1
+T21.825038540002424 session clear
+T21.825201774016023 chat_prompt: {"prompt": "give me 15 French words that are similar to $1", "vars": [1], "ords": []}
+T21.82522926904494 session: {"role": "user", "content": "give me 15 French words that are similar to \"esprit\""}
+T41.132288972032256 session: {"role": "assistant", "content": "Here are 15 French words that convey a similar meaning to \"esprit\":\n\n1. \u00c2me - Spirit, soul\n2. \u00c9nergie - Energy, enthusiasm\n3. Passion - Passion, enthusiasm\n4. R\u00eave - Dream, aspiration\n5. Inspiration - Inspiration\n6. Conviction - Conviction, firmness\n7. Pr\u00e9occupation - Preoccupation\n8. Intuition - Intuition\n9. Imagination - Imagination\n10. Je ne sais quoi - A certain je ne sais quoi (an indefinable quality)\n11. R\u00e9solution - Resolution\n12. Confiance - Confidence\n13. L\u00e2chet\u00e9 - Cowardice, lack of courage\n14. D\u00e9sespoir - Desperation\n15. Fervent - Fervor, enthusiasm\n\nNote that some of these words may have slightly different connotations or nuances than \"esprit\", but they all generally convey a sense of inner drive, motivation, or emotional intensity.\n\nHere are a few examples of how you could use these words in sentences:\n\n* L'\u00e2me de la musique est dans les m\u00e9lodies. (The spirit of music is in the melodies.)\n* Elle ressent une \u00e9nergie \u00e9lectrique lorsqu'elle chante. (She feels an electric energy when she sings.)\n* Sa passion pour la science l'a pouss\u00e9 \u00e0 poursuivre ses \u00e9tudes. (Her passion for science drove her to pursue her studies.)"}
+T43.38193630101159 <INT>
+T0.012467219028621912 now: 2024-11-23T00:04:21EST
+T0.01654347503790632 session model: llama
+T3.9832138860365376 #148 extract_...
+T12.365680949005764 🤔 extract_1/6 #148 "fervent" score? 26.63
+T12.36584976001177 attempt_147: "fervent" score:26.63 prog:None
+T17.086402785032988 🤔 extract_1/5 #149 "inspiration" score? 31.14 164
+T17.086634172999766 attempt_148: "inspiration" score:31.14 prog:164
+T20.418594054004643 🤔 extract_1/4 #150 "je" score? 9.53
+T20.418738468026277 attempt_149: "je" score:9.53 prog:None
+T23.185453494021203 🤔 extract_1/3 #151 "lâcheté" score? 14.71
+T23.185659305017907 attempt_150: "lâcheté" score:14.71 prog:None
+T26.928924501989968 🤔 extract_1/2 #152 "préoccupation" score? 24.22
+T26.92905504803639 attempt_151: "préoccupation" score:24.22 prog:None
+T29.322015746030957 🤔 extract_1/1 #153 "résolution" score? 4.19
+T29.322150469000917 attempt_152: "résolution" score:4.19 prog:None
+T32.69281445100205 <INT>
+T0.009974537999369204 now: 2024-11-23T07:27:28EST
+T0.012705779983662069 session model: llama
+T10.495702468964737 <INT>
+T0.010110475996043533 now: 2024-11-23T07:27:40EST
+T0.012324149021878839 session model: llama
+T1.4857654600054957 #154 ? /last
+T4.109554269991349 #154 ? /e
+T7.670143501018174 #154 ? *10 t1
+T7.670684530981816 session clear
+T7.670867423992604 chat_prompt: {"prompt": "give me 10 French words that are similar to $1", "vars": [1], "ords": []}
+T7.670899851014838 session: {"role": "user", "content": "give me 10 French words that are similar to \"esprit\""}
+T20.02550478000194 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"esprit\" (spirit, soul):\n\n1. \u00c2me (soul)\n2. Essence (essence)\n3. \u00c9lan (energy, enthusiasm)\n4. Enthusiasme (enthusiasm)\n5. Charisme (charm, charisma)\n6. Intelligence (intelligence)\n7. Force (power)\n8. \u00c9nergie (energy)\n9. Vitalit\u00e9 (vitality)\n10. R\u00e9silience (resilience)\n\nNote that some of these words may have slightly different connotations or nuances than \"esprit\", but they all generally convey a sense of inner drive, energy, or spirit."}
+T21.846021257981192 #154 extract_...
+T27.886044482991565 🤔 extract_1/4 #154 "charisme" score? 36.67 625
+T27.886279072030447 attempt_153: "charisme" score:36.67 prog:625
+T30.445758262998424 🤔 extract_1/3 #155 "enthusiasme" score? !
+T30.445889141992666 reject: "enthusiasme"
+T34.165896434977185 🤔 extract_1/2 #155 "essence" score? 26.59
+T34.16607462702086 attempt_154: "essence" score:26.59 prog:None
+T42.758076026977506 🤔 extract_1/1 #156 "vitalité" score? 30.99 148
+T42.75835472397739 attempt_155: "vitalité" score:30.99 prog:148
+T44.33440345100826 <INT>
+T0.011759126035030931 now: 2024-11-23T07:28:36EST
+T0.014045819989405572 session model: llama
+T2.5981821620371193 #157 ? /prog
+T15.21399434801424 #157 ? *10 #154 $1
+T15.214465484023094 session clear
+T15.214634611038491 chat_prompt: {"prompt": "give me 10 French words that are similar to #154 and $1", "vars": [1], "ords": [154]}
+T15.214663767023012 session: {"role": "user", "content": "give me 10 French words that are similar to \"charisme\" and \"esprit\""}
+T29.411898324033245 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense of charisma, personality, or spirit:\n\n1. **Charisma** (same as the original word)\n2. **Int\u00e9grit\u00e9** - integrity, authenticity\n3. **Authenticit\u00e9** - authenticity, genuineness\n4. **Confiance** - confidence, trust\n5. **\u00c9lan vital** - vital energy, dynamic personality\n6. **Charme** - charm, charisma (can be used to describe a person's magnetic personality)\n7. **Sensibilit\u00e9** - sensitivity, emotional intelligence\n8. **R\u00e9silience** - resilience, ability to bounce back\n9. **Perspicacit\u00e9** - perceptiveness, insight\n10. **C\u00e9l\u00e8bre** - celebrated, renowned (can be used to describe someone who is admired or respected)\n\nNote that some of these words may have slightly different connotations or nuances, but they all convey a sense of something being admirable, attractive, or impressive about a person's personality, spirit, or presence."}
+T31.08620325801894 #157 extract_...
+T33.87801133899484 🤔 extract_1/5 #157 "authenticité" score? 23.75
+T33.87838178500533 attempt_156: "authenticité" score:23.75 prog:None
+T36.52594822301762 🤔 extract_1/4 #158 "charisma" score? !
+T36.52609424799448 reject: "charisma"
+T39.46181431302102 🤔 extract_1/3 #158 "charme" score? 12.87
+T39.46199040301144 attempt_157: "charme" score:12.87 prog:None
+T42.02224908903008 🤔 extract_1/2 #159 "célèbre" score? 8.14
+T42.02247109101154 attempt_158: "célèbre" score:8.14 prog:None
+T45.17378202499822 🤔 extract_1/1 #160 "perspicacité" score? 20.74
+T45.17392327199923 attempt_159: "perspicacité" score:20.74 prog:None
+T47.15004295302788 #161 ? /last
+T52.2058593230322 #161 ? vital
+T60.32596530299634 🤔 entered #161 "vital" score? 34.84 511
+T60.32615128502948 attempt_160: "vital" score:34.84 prog:511
+T65.54214348702226 #162 ? *10 #161 $1
+T65.54245154402452 session clear
+T65.54273819603259 chat_prompt: {"prompt": "give me 10 French words that are similar to #161 and $1", "vars": [1], "ords": [161]}
+T65.54278211999917 session: {"role": "user", "content": "give me 10 French words that are similar to \"vital\" and \"esprit\""}
+T77.56919061299413 session: {"role": "assistant", "content": "Here are 10 French words that convey similar meanings to \"vital\" and \"esprit\":\n\n1. Vital - Corresponding French word: Vital\n2. Esprit - (as you mentioned)\n3. \u00c9nergie (Energy)\n4. Vie (Life)\n5. Passion (Passion, Enthusiasm)\n6. Fervour (Fervor, Strong Emotion)\n7. Dynamisme (Dynamism, Energy, Drive)\n8. Intensit\u00e9 (Intensity)\n9. Entra\u00eenement (Training, Conditioning) - conveying vitality\n10. Vitalit\u00e9 (Vitality)\n\nHowever, here are some additional words that convey strong emotions or passions in French:\n\n- Passion - same as above\n- Ardor (Ardent passion)\n- Fervent (Passionate, ardent)\n- Intensit\u00e9 (Intensity)\n- \u00c9lan (Energy, enthusiasm)"}
+T82.4061136500095 #162 extract_...
+T85.42185733304359 🤔 extract_1/4 #162 "dynamisme" score? 19.95
+T85.42201355501311 attempt_161: "dynamisme" score:19.95 prog:None
+T89.3178509240388 🤔 extract_1/3 #163 "entraînement" score? 11.34
+T89.31801081402227 attempt_162: "entraînement" score:11.34 prog:None
+T92.36606827098876 🤔 extract_1/2 #164 "fervour" score? !
+T92.36621559801279 reject: "fervour"
+T97.14198186900467 🤔 extract_1/1 #164 "vie" score? 47.33
+T99.42160708399024 🤔 extract_1/1 #164 "vie" 47.33°C prog‰ ? 949
+T99.42174879403319 attempt_163: "vie" score:47.33 prog:949
+T104.19817226601299 #165 ? *10 #164 $1
+T104.19840002001729 session clear
+T104.19861549104098 chat_prompt: {"prompt": "give me 10 French words that are similar to #164 and $1", "vars": [1], "ords": [164]}
+T104.19865225203102 session: {"role": "user", "content": "give me 10 French words that are similar to \"vie\" and \"esprit\""}
+T119.37222701800056 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense similar to \"vie\" (life) and \"esprit\" (spirit):\n\n1. \u00c9lan - This word conveys energy, drive, or enthusiasm.\n2. Passion - A strong emotion or feeling.\n3. Soutien - This means support or backing.\n4. Coeur - Refers to the heart, symbolizing love, passion, or courage.\n5. Lumi\u00e8re - Translates to light, but also represents hope and inspiration.\n6. R\u00eave - Meaning dream, but also can represent a vision or ideal.\n7. Joie de vivre - This phrase translates to joy of living and conveys enthusiasm for life.\n8. Gr\u00e2ce - Refers to grace or elegance, which can be seen as an inner beauty.\n9. Pr\u00e9sence - Means presence or being present, implying being fully engaged.\n10. Ardor - A strong desire or passion, often used to describe a love or interest.\n\nThese words capture various aspects of life and the human experience in French, similar to \"vie\" (life) and \"esprit\" (spirit)."}
+T120.5498917120276 #165 extract_...
+T126.65359673503553 🤔 extract_1/3 #165 "grâce" score? 36.64 624
+T126.65377857902786 attempt_164: "grâce" score:36.64 prog:624
+T129.68613751902012 🤔 extract_1/2 #166 "présence" score? 17.94
+T129.6863353929948 attempt_165: "présence" score:17.94 prog:None
+T133.757244189037 🤔 extract_1/1 #167 "soutien" score? 10.13
+T133.75734035600908 attempt_166: "soutien" score:10.13 prog:None
+T141.25409856101032 #168 ? *10 #166 $1
+T141.25432575499872 session clear
+T141.25452275999123 chat_prompt: {"prompt": "give me 10 French words that are similar to #166 and $1", "vars": [1], "ords": [166]}
+T141.25455521099502 session: {"role": "user", "content": "give me 10 French words that are similar to \"pr\u00e9sence\" and \"esprit\""}
+T159.39667145500425 session: {"role": "assistant", "content": "Here are 10 French words that have a similar meaning or connotation to \"pr\u00e9sence\" and \"esprit\":\n\n1. Pr\u00e9sent - means \"presence\" (similar to \"pr\u00e9sence\")\n2. Intuition - translates to \"intuition\" (similar to esprit)\n3. Essence - means \"essence\" or \"soul\" (both words have a spiritual connotation)\n4. \u00c2me - means \"soul\" or \"spirit\"\n5. \u00c9lan vital - means \"vital energy\" or \"life force\" (similar to esprit)\n6. Pr\u00e9cision - means \"precision\" or \"acuity of mind\" (related to esprit)\n7. Sensibilit\u00e9 - means \"sensitivity\" or \"delicacy of perception\" (similar to pr\u00e9sence)\n8. Appr\u00e9hension - means \"apprehension\" or \"gathering of the intellect\" (related to esprit)\n9. Conscience - means \"conscience\" or \"inner voice\" (similar to essence)\n10. Profondeur - means \"depth\" or \"profoundness\" (related to pr\u00e9sence and essences)\n\nNote that some of these words may have slightly different meanings or connotations, but they all share a sense of spiritual or philosophical depth with the original two words."}
+T160.76608736801427 #168 extract_...
+T163.7502619320294 🤔 extract_1/4 #168 "appréhension" score? 25.15
+T163.75072590401396 attempt_167: "appréhension" score:25.15 prog:None
+T166.4539410090074 🤔 extract_1/3 #169 "profondeur" score? 27.28
+T166.45409943000413 attempt_168: "profondeur" score:27.28 prog:None
+T169.8060052630026 🤔 extract_1/2 #170 "précision" score? -4.14
+T169.80616114201257 attempt_169: "précision" score:-4.14 prog:None
+T172.54214130004402 🤔 extract_1/1 #171 "présent" score? 13.87
+T172.542363732995 attempt_170: "présent" score:13.87 prog:None
+T174.88568629103247 #172 ? /prog
+T186.47802121000132 #172 ? *10 #143 $1
+T186.47829696099507 session clear
+T186.47853070899146 chat_prompt: {"prompt": "give me 10 French words that are similar to #143 and $1", "vars": [1], "ords": [143]}
+T186.4785672480357 session: {"role": "user", "content": "give me 10 French words that are similar to \"raisonnement\" and \"esprit\""}
+T202.38241761602694 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense of thought, reasoning, or spirit:\n\n1. R\u00e9flexion (reflection) - implies careful consideration or thinking\n2. Pens\u00e9e (thought) - refers to the process of thinking or mental concept\n3. Analyse (analysis) - involves breaking down information into smaller parts for examination\n4. Pr\u00e9cision (precision) - emphasizes accuracy and attention to detail\n5. Sagesse (wisdom) - conveys a sense of prudence, discernment, and good judgment\n6. Intuition (intu\u00eftive) - implies a subconscious awareness or instinctive understanding\n7. Synth\u00e8se (synthesis) - involves combining different elements into a new whole\n8. Cr\u00e9dit (credit) - refers to the value given to an idea, theory, or argument\n9. \u00c9clairage (illumination) - suggests insight or understanding of a subject\n10. Discernement (discernment) - implies the ability to distinguish between right and wrong\n\nThese words are all related to \"raisonnement\" and \"esprit\", but each has its own unique connotations and nuances."}
+T203.8299967480125 #172 extract_...
+T207.81393320701318 🤔 extract_1/4 #172 "crédit" score? -9.07
+T207.8141090880381 attempt_171: "crédit" score:-9.07 prog:None
+T214.6939910770161 🤔 extract_1/3 #173 "pensée" score? 50.18 972
+T214.69412546802778 attempt_172: "pensée" score:50.18 prog:972
+T217.72625454101944 🤔 extract_1/2 #174 "synthèse" score? 2.74
+T217.7264730100287 attempt_173: "synthèse" score:2.74 prog:None
+T220.65344497800106 🤔 extract_1/1 #175 "éclairage" score? 4.65
+T220.6535293420311 attempt_174: "éclairage" score:4.65 prog:None
+T226.0218737940304 #176 ? *10 #171 $1
+T226.02206549304537 session clear
+T226.0222563490388 chat_prompt: {"prompt": "give me 10 French words that are similar to #171 and $1", "vars": [1], "ords": [171]}
+T226.02228638803354 session: {"role": "user", "content": "give me 10 French words that are similar to \"pr\u00e9sent\" and \"esprit\""}
+T234.472341760993 session: {"role": "assistant", "content": "Here are 10 French words that are similar in meaning or sound to \"pr\u00e9sent\" and \"esprit\":\n\nSimilar to \"pr\u00e9sent\":\n\n1. Pr\u00e9sente (present tense)\n2. Pr\u00e9sent\u00e9 (past tense)\n3. Pr\u00e9senter (to present)\n4. Pr\u00e9serv\u00e9 (preserved)\n\nSimilar to \"esprit\":\n\n1. Espoir (hope)\n2. Esquisse (sketch, outline)\n3. Esp\u00e9rance (expectation)\n4. Esquive (elude, evades)\n5. \u00c9sprit de corps (team spirit)"}
+T236.18188898800872 #176 extract_...
+T241.97391648200573 🤔 extract_1/8 #176 "espérance" score? 39.11 744
+T241.97409131901804 attempt_175: "espérance" score:39.11 prog:744
+T244.63019870902644 🤔 extract_1/7 #177 "esquisse" score? 10.24
+T244.63041921099648 attempt_176: "esquisse" score:10.24 prog:None
+T247.23784445604542 🤔 extract_1/6 #178 "esquive" score? 5.28
+T247.23798825900303 attempt_177: "esquive" score:5.28 prog:None
+T249.63817160303006 🤔 extract_1/5 #179 "présente" score? 4.75
+T249.6383857470355 attempt_178: "présente" score:4.75 prog:None
+T252.08585281699197 🤔 extract_1/4 #180 "présenter" score? 3.64
+T252.08599431801122 attempt_179: "présenter" score:3.64 prog:None
+T254.96619433403248 🤔 extract_1/3 #181 "présenté" score? !
+T254.96637055004248 reject: "présenté"
+T260.52600424800767 🤔 extract_1/2 #181 "préservé" score? !
+T260.52616540703457 reject: "préservé"
+T263.69431688502664 🤔 extract_1/1 #181 "ésprit" score? !
+T263.6945195570006 reject: "ésprit"
+T269.41407777403947 #181 ? *10 #176 $1
+T269.41445058601676 session clear
+T269.41482957900735 chat_prompt: {"prompt": "give me 10 French words that are similar to #176 and $1", "vars": [1], "ords": [176]}
+T269.4149234290235 session: {"role": "user", "content": "give me 10 French words that are similar to \"esp\u00e9rance\" and \"esprit\""}
+T279.8659711810178 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense similar to \"esp\u00e9rance\" (hope) and \"esprit\" (spirit):\n\nSimilar to Esp\u00e9rance (Hope):\n\n1. Confiance (faith)\n2. S\u00e9curit\u00e9 (security)\n3. R\u00eave (dream)\n4. Peur (fear)\n5. Joie (joy)\n\nSimilar to Esprit (Spirit):\n\n1. Passion (passion)\n2. \u00c9nergie (energy)\n3. Lumi\u00e8re (light)\n4. Libert\u00e9 (freedom)\n5. C\u0153ur (heart)\n\nNote that some of these words may have slightly different connotations or nuances, but they all generally convey a sense of positivity and enthusiasm similar to \"esp\u00e9rance\" and \"esprit\"."}
+T281.6060801370186 #181 extract_...
+T284.96594814700074 🤔 extract_1/2 #181 "peur" score? 14.49
+T284.9661069069989 attempt_180: "peur" score:14.49 prog:None
+T288.4939267100417 🤔 extract_1/1 #182 "sécurité" score? -1.05
+T288.4940667010378 attempt_181: "sécurité" score:-1.05 prog:None
+T291.3738779600244 #183 ? /prog
+T310.9340535119991 #183 ? > give me 10 words that you'd likely read near $t3
+T310.93440607300727 chat_prompt: {"prompt": "give me 10 words that you'd likely read near $t3", "vars": [1, 2, 3], "ords": []}
+T310.9344608419924 session: {"role": "user", "content": "give me 10 words that you'd likely read near \"esprit\", \"\u00e2me\", and \"conscience\""}
+T325.0710065360181 session: {"role": "assistant", "content": "Here are 10 French words that you might typically find near the words \"esprit\", \"\u00e2me\", and \"conscience\":\n\nNear \"Esprit\":\n\n1. Passion (passion)\n2. \u00c9nergie (energy)\n3. Vie (life)\n4. Intellect (intellect)\n5. Sagesse (wisdom)\n\nNear \"\u00c2me\" (soul):\n\n1. Cor (heart)\n2. Sentiment (sentiment)\n3. \u00c9motion (emotion)\n4. Intimit\u00e9 (intimacy)\n5. Spiritualit\u00e9 (spirituality)\n\nNear \"Conscience\":\n\n1. Honn\u00eatet\u00e9 (honesty)\n2. Morale (morality)\n3. Principes (principles)\n4. Justice (justice)\n5. R\u00e9flexion (reflection)\n\nThese words are often found in literary or poetic contexts, and convey related ideas of inner life, moral values, and personal characteristics."}
+T327.8539074540022 #183 extract_...
+T331.1499890619889 🤔 extract_1/7 #183 "cor" score? 7.68
+T331.1501352410414 attempt_182: "cor" score:7.68 prog:None
+T334.31051144801313 🤔 extract_1/6 #184 "honnêteté" score? 20.29
+T334.31080261804163 attempt_183: "honnêteté" score:20.29 prog:None
+T338.3499697750085 🤔 extract_1/5 #185 "intellect" score? 45.78
+T340.9100517570041 🤔 extract_1/5 #185 "intellect" 45.78°C prog‰ ? 926
+T340.9102242120425 attempt_184: "intellect" score:45.78 prog:926
+T344.589392599999 🤔 extract_1/4 #186 "justice" score? 13.85
+T344.5894632760319 attempt_185: "justice" score:13.85 prog:None
+T348.9262302350253 🤔 extract_1/3 #187 "morale" score? 19.66
+T348.92641565203667 attempt_186: "morale" score:19.66 prog:None
+T351.9741650639917 🤔 extract_1/2 #188 "principes" score? !
+T351.9742885340238 reject: "principes"
+T359.19808222103165 🤔 extract_1/1 #188 "spiritualité" score? 72.23 999
+T359.1982676460175 attempt_187: "spiritualité" score:72.23 prog:999
+T362.2219942090451 #189 ? *10 t1
+T362.222187862033 session clear
+T362.22236648300895 chat_prompt: {"prompt": "give me 10 French words that are similar to $1", "vars": [1], "ords": []}
+T362.2224126739893 session: {"role": "user", "content": "give me 10 French words that are similar to \"spiritualit\u00e9\""}
+T378.0802550649969 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense of spirituality, connection to the divine, or a higher meaning:\n\n1. Mystique (mystery) - implies a sense of awe and wonder\n2. Esprit (soul) - emphasizes the spiritual aspect of human nature\n3. Transcendance (transcendence) - suggests going beyond the material world\n4. Conscience (conscience) - refers to one's moral compass or inner voice\n5. Sagesse (wisdom) - implies a deep understanding of the universe and human experience\n6. Intuition (intuition) - emphasizes the power of instinct and inner knowing\n7. \u00c9lan vital (vital energy) - suggests a dynamic, life-giving force\n8. \u00c2me (soul) - another term for the spiritual essence of a person\n9. Lumi\u00e8res (illuminations) - implies a state of enlightenment or insight\n10. Harmonie (harmony) - suggests a balance and unity between the individual and the universe.\n\nThese words all convey a sense of connection to something greater than ourselves, whether it's a higher power, nature, or our own inner selves."}
+T379.4461447200156 #189 extract_...
+T385.31012261804426 🤔 extract_1/4 #189 "harmonie" score? 40.66 803
+T385.3103998780134 attempt_188: "harmonie" score:40.66 prog:803
+T387.486807600013 🤔 extract_1/3 #190 "lumières" score? !
+T387.4870412510354 reject: "lumières"
+T393.38198246300453 🤔 extract_1/2 #190 "mystique" score? 61.9 998
+T393.38220960699255 attempt_189: "mystique" score:61.90 prog:998
+T400.05393686000025 🤔 extract_1/1 #191 "transcendance" score? 49.15 968
+T400.0541194030084 attempt_190: "transcendance" score:49.15 prog:968
+T404.774023873033 #192 ? /prog
+T421.0701589829987 #192 ? *10 t2 #191
+T421.0705033200211 session clear
+T421.0707770860172 chat_prompt: {"prompt": "give me 10 French words that are similar to #191, $1, and $2", "vars": [1, 2], "ords": [191]}
+T421.0708108470426 session: {"role": "user", "content": "give me 10 French words that are similar to \"transcendance\", \"spiritualit\u00e9\", and \"mystique\""}
+T448.0859092420433 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense of something related to \"transcendence,\" \"spirituality,\" or \"mystery\":\n\n1. **\u00c9lev\u00e9** (e-leh-vay) - Elevated, spiritual, or transcendent\n2. **R\u00e9alisation** (ray-ah-leh-zee-on) - Realization, self-realization, or personal growth\n3. **Introspection** is not commonly used in French, but a similar word is **R\u00e9flexion profonde** (rehflehk-see-oHN prohf-dehn) - Deep reflection, introspection, or inner contemplation\n4. **Exaltation** is not common, but a similar word is **\u00c9clat** (ay-clah) - Radiance, brilliance, or spiritual elevation\n5. **Illumination** in French can be expressed as **Illumination int\u00e9rieure** (ee-lee-moh-NAY-tohr) or simply **Intuition** (in-too-noo)\n6. **Transfiguration** is not commonly used in French, but a similar word is **Transformation** (trahnz-for-MAY-shun) - Metamorphosis or spiritual transformation\n7. **\u00c9tat d'\u00e2me** (ayt dohm) - State of the soul, inner state, or emotional balance\n8. **Mouvement spirituel** (moo-vay-mont soh-peht-vel) - Spiritual movement, esoteric movement, or mystical community\n9. **Reverie** (rehvayr) - A state of dreamy, wistful contemplation\n10. **S\u00e9r\u00e9nit\u00e9** (seh-reh-NEE-teh) - Serenity, peacefulness, or spiritual tranquility\n\nNote that some of these words may have more nuances or connotations than others, and the English translations provided are not always exact equivalents."}
+T450.30988561804406 #192 extract_...
+T455.3739325570059 🤔 extract_1/8 #192 "exaltation" score? 35.67
+T459.35824900702573 🤔 extract_1/8 #192 "exaltation" 35.67°C prog‰ ? 563
+T459.35841015802 attempt_191: "exaltation" score:35.67 prog:563
+T462.2540316330269 🤔 extract_1/7 #193 "illumination" score? 24.9
+T462.2541847579996 attempt_192: "illumination" score:24.90 prog:None
+T465.02198622602737 🤔 extract_1/6 #194 "mouvement" score? 28.34
+T465.0221239950042 attempt_193: "mouvement" score:28.34 prog:None
+T467.6141654610401 🤔 extract_1/5 #195 "reverie" score? !
+T467.61432910501026 reject: "reverie"
+T470.0619244570262 🤔 extract_1/4 #195 "réalisation" score? 1.83
+T470.06208295200486 attempt_194: "réalisation" score:1.83 prog:None
+T475.5580183819984 🤔 extract_1/3 #196 "transfiguration" score? 36.6 622
+T475.5581884680432 attempt_195: "transfiguration" score:36.60 prog:622
+T478.50195982301375 🤔 extract_1/2 #197 "élevé" score? 17.08
+T478.50213564099977 attempt_196: "élevé" score:17.08 prog:None
+T481.7820048430003 🤔 extract_1/1 #198 "état" score? 16.27
+T481.78215754701523 attempt_197: "état" score:16.27 prog:None
+T483.7899628460291 #199 ? /prog
+T495.006120437989 #199 ? > give me 10 words that you might read near $1
+T495.0064497360145 chat_prompt: {"prompt": "give me 10 words that you might read near $1", "vars": [1], "ords": []}
+T495.0064998110174 session: {"role": "user", "content": "give me 10 words that you might read near \"spiritualit\u00e9\""}
+T524.8273948910064 session: {"role": "assistant", "content": "Here are 10 French words that you might encounter near \"spiritualit\u00e9\":\n\n1. **Int\u00e9grit\u00e9** (in-teh-gree-tay) - Wholeness, completeness, or spiritual integrity\n2. **Conscience** (kohn-sehns) - Conscience, intuition, or inner guidance\n3. **Esprit** (eh-spree) - Spirit, soul, or higher self\n4. **V\u00e9rit\u00e9** (vay-REE-tay) - Truth, authenticity, or spiritual honesty\n5. **Amour** (ah-MOOR) - Love, devotion, or unconditional love\n6. **\u00c9nergie** (ehn-zheh-nee) - Energy, vitality, or spiritual power\n7. **S\u00e9ance** (sehn-SAHN) - S\u00e9ance, meditation, or spiritual practice\n8. **R\u00e9demption** (rehd-moh-syon) - Redemption, salvation, or spiritual liberation\n9. **Communion** (koh-moon-YOON) - Communion, connection, or spiritual oneness\n10. **Initiation** (ee-nee-TIE-shun) - Initiation, awakening, or spiritual initiation\n\nThese words often appear in texts related to spirituality, meditation, yoga, and personal growth."}
+T529.6774161410285 #199 extract_...
+T533.9263400399941 🤔 extract_1/4 #199 "communion" score? 52.65
+T537.8381927839946 🤔 extract_1/4 #199 "communion" 52.65°C prog‰ ? 985
+T537.8383844569908 attempt_198: "communion" score:52.65 prog:985
+T540.4701713520335 🤔 extract_1/3 #200 "initiation" score? 14.61
+T540.4704444900271 attempt_199: "initiation" score:14.61 prog:None
+T545.4717410680023 🤔 extract_1/2 #201 "rédemption" score? 44.24 900
+T545.471989297017 attempt_200: "rédemption" score:44.24 prog:900
+T548.2862385149929 🤔 extract_1/1 #202 "séance" score? -2.33
+T548.286453319015 attempt_201: "séance" score:-2.33 prog:None
+T580.1741264730226 #203 ? > give me 10 French words that you might read near #199, #201, and $1
+T580.1746270119911 chat_prompt: {"prompt": "give me 10 French words that you might read near #199, #201, and $1", "vars": [1], "ords": [199, 201]}
+T580.174683306017 session: {"role": "user", "content": "give me 10 French words that you might read near \"communion\", \"r\u00e9demption\", and \"spiritualit\u00e9\""}
+T606.9254940770334 session: {"role": "assistant", "content": "Here are 10 French words that you might encounter near \"communion\", \"r\u00e9demption\", and \"spiritualit\u00e9\":\n\n1. **Unit\u00e9** (oo-nee-teh) - Unity, oneness, or spiritual connection\n2. **\u00c9vang\u00e9lisation** (ay-vahng-el-eze-AH-shuhn) - Evangelization, sharing the word, or spreading spirituality\n3. **M\u00e9ditation** (meh-dee-tay-SAY-on) - Meditation, contemplation, or inner reflection\n4. **Lib\u00e9ration** (lee-BEH-ree-oh) - Liberation, freedom, or spiritual awakening\n5. **Illumination** (ee-lee-moh-NAY-tohr) - Illumination, enlightenment, or spiritual insight\n6. **Sagesse** (sah-zhays) - Wisdom, discernment, or spiritual guidance\n7. **V\u00e9hicule spirituel** (vay-hee-KOOL soh-peht-vahl) - Spiritual vehicle, vehicle for the soul, or inner journey\n8. **Accueil** (ahk-weel) - Welcome, hospitality, or reception of the divine\n9. **\u00c9volution** (eh-vol-yoo-SEE-on) - Evolution, growth, or spiritual development\n10. **Transcendance** (trahn-sahhn-dans) - Transcendence, going beyond, or spiritual expansion\n\nThese words often appear in texts related to spirituality, personal growth, and self-discovery.\n\nNote: Some of these words may have more nuanced meanings or connotations than others, and the translations provided are not always exact equivalents."}
+T609.4301422290155 #203 extract_...
+T613.3819764819928 🤔 extract_1/7 #203 "accueil" score? -1.89
+T613.3821567050181 attempt_202: "accueil" score:-1.89 prog:None
+T615.974270738021 🤔 extract_1/6 #204 "libération" score? 9.82
+T615.974463896011 attempt_203: "libération" score:9.82 prog:None
+T622.5260477190022 🤔 extract_1/5 #205 "méditation" score? 57.64 995
+T622.5263042570441 attempt_204: "méditation" score:57.64 prog:995
+T626.52607824601 🤔 extract_1/4 #206 "unité" score? 19.8
+T626.5262349660043 attempt_205: "unité" score:19.80 prog:None
+T631.5180263229995 🤔 extract_1/3 #207 "véhicule" score? -2.02
+T631.5182352230186 attempt_206: "véhicule" score:-2.02 prog:None
+T636.9738294600393 🤔 extract_1/2 #208 "évangélisation" score? 39.77 771
+T636.9739756720373 attempt_207: "évangélisation" score:39.77 prog:771
+T640.5980990449898 🤔 extract_1/1 #209 "évolution" score? 12.8
+T640.5982717830339 attempt_208: "évolution" score:12.80 prog:None
+T650.230148031027 #210 ? /prog
+T672.5823669530218 #210 ? > Give me 10 French words that you might read near $t3
+T672.5829454990453 chat_prompt: {"prompt": "Give me 10 French words that you might read near $t3", "vars": [1, 2, 3], "ords": []}
+T672.5830192969879 session: {"role": "user", "content": "Give me 10 French words that you might read near \"spiritualit\u00e9\", \"mystique\", and \"m\u00e9ditation\""}
+T705.264438208018 session: {"role": "assistant", "content": "Here are 10 French words that you might encounter near \"spiritualit\u00e9\", \"mystique\", and \"m\u00e9ditation\":\n\n1. **Murmure** (mur-moo-reh) - Whisper, murmur, or quiet contemplation\n2. **Intuition** (in-too-noo) - Intuition, inner knowing, or subconscious insight\n3. **Sillage** (sah-jah-YAY) - Scent, fragrance, or subtle energy\n4. **Reverie** (reh-vayr-ee) - Reverie, dreamy state, or daydreaming\n5. **Lumi\u00e8re** (loo-MEE-reh) - Light, illumination, or spiritual insight\n6. **\u00c9th\u00e9r\u00e9al** (eh-teh-REH-al) - Ethereal, otherworldly, or mystical experience\n7. **V\u00e9ritable** (vay-tray-vah) - True, authentic, or genuine spiritual connection\n8. **Chantier spirituel** (shahnteer soh-peht-vahl) - Spiritual workshop, inner lab, or personal growth space\n9. **Resonance** (reh-sohn-AYNS) - Resonance, vibration, or harmonization\n10. **Mille-patentes** (mee-yay pah-tehn-tay) - Infinite possibilities, boundless potential, or spiritual exploration\n\nThese words often appear in texts related to spirituality, mysticism, and personal growth.\n\nNote: Some of these words may have more nuanced meanings or connotations than others, and the translations provided are not always exact equivalents."}
+T707.4622126530157 #210 extract_...
+T710.4218528899946 🤔 extract_1/7 #210 "chantier" score? -2.34
+T710.4219803659944 attempt_209: "chantier" score:-2.34 prog:None
+T714.1501780159888 🤔 extract_1/6 #211 "mille" score? 9.09
+T714.1504102789913 attempt_210: "mille" score:9.09 prog:None
+T716.2860326440423 🤔 extract_1/5 #212 "murmure" score? 8.5
+T716.2862354340032 attempt_211: "murmure" score:8.50 prog:None
+T718.4218420420075 🤔 extract_1/4 #213 "patentes" score? !
+T718.4219566680258 reject: "patentes"
+T720.1978487439919 🤔 extract_1/3 #213 "resonance" score? !
+T720.1979712320026 reject: "resonance"
+T723.0217794020427 🤔 extract_1/2 #213 "sillage" score? 11.73
+T723.0218402679893 attempt_212: "sillage" score:11.73 prog:None
+T725.919269311009 🤔 extract_1/1 #214 "éthéréal" score? !
+T725.9194779600366 reject: "éthéréal"
+T730.821878821007 #214 ? * t3
+T730.8220602630172 session clear
+T730.8222283420037 chat_prompt: {"prompt": "give me 10 French words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T730.822254120023 session: {"role": "user", "content": "give me 10 French words that are similar to \"spiritualit\u00e9\", \"mystique\", and \"m\u00e9ditation\""}
+T744.7068529300159 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense of spirituality, mysticism, or mindfulness:\n\n1. **Esprit** - Spirit, essence\n2. **Introspection** (r\u00e9trospection) - Reflective thinking\n3. **Conscience** - Consciousness, awareness\n4. **S\u00e9r\u00e9nit\u00e9** - Serenity, calmness\n5. **\u00c9lan vital** - Vital energy, life force\n6. **H\u00e9ritage spirituel** - Spiritual heritage\n7. **\u00c2me** - Soul, essence\n8. **Exigence** (exigence de l'\u00e2me) - Call of the soul\n9. **Transcendance** (transcendance spirituelle) - Transcending reality\n10. **\u00c9clat** (\u00e9clat de la conscience) - Radiance, glow of consciousness\n\nThese words evoke a sense of inner awareness, connection to something greater, and spiritual growth."}
+T747.2380949200015 #214 extract_...
+T752.4626748349983 🤔 extract_1/1 #214 "héritage" score? 29.86 6
+T752.4628958040266 attempt_213: "héritage" score:29.86 prog:6
+T755.1979332740302 #215 ? *5 $3
+T755.1981425140402 session clear
+T755.19832644501 chat_prompt: {"prompt": "give me 5 French words that are similar to $3", "vars": [3], "ords": []}
+T755.198369448015 session: {"role": "user", "content": "give me 5 French words that are similar to \"m\u00e9ditation\""}
+T771.6446509870002 session: {"role": "assistant", "content": "Here are 5 French words that convey a sense of calmness, reflection, or spiritual contemplation, similar to \"m\u00e9ditation\":\n\n1. **Contemplation** (contempler) - This word means to think deeply about something or someone.\n2. **R\u00eaverie** (r\u025bv\u0281i) - This word refers to a state of being lost in thought, often with a dreamy or introspective quality.\n3. **R\u00e9flexion** (\u0281efleks\u026a\u0254\u0303) - This word means thoughtful consideration or reflection on one's thoughts and actions.\n4. **S\u00e9quence** (s\u025bkwa\u0303s) - While not directly related to contemplation, this word can imply a sense of sequence or order in thought, which may lead to introspection or self-reflection.\n5. **\u00c9clat** (\u025bkl\u0251\u0303) - This word can refer to a burst of insight, inspiration, or creative expression, often accompanied by a state of calm or clarity.\n\nThese words all convey a sense of quiet contemplation and inner reflection, similar to \"m\u00e9ditation\"."}
+T772.8458011299954 #215 extract_...
+T777.7663370780065 🤔 extract_1/2 #215 "contemplation" score? 48.87 964
+T777.7665947260102 attempt_214: "contemplation" score:48.87 prog:964
+T780.7580942970235 🤔 extract_1/1 #216 "séquence" score? 3.35
+T780.7582417370286 attempt_215: "séquence" score:3.35 prog:None
+T784.958269424038 #217 ? *5 #215
+T784.9584295540117 session clear
+T784.9585988460458 chat_prompt: {"prompt": "give me 5 French words that are similar to #215", "vars": [], "ords": [215]}
+T784.9586280490039 session: {"role": "user", "content": "give me 5 French words that are similar to \"contemplation\""}
+T796.0441803100402 session: {"role": "assistant", "content": "Here are 5 French words that convey a sense of contemplation:\n\n1. R\u00e9flexion (reflection) - implies a thoughtful and introspective examination of one's thoughts or ideas.\n2. M\u00e9ditation (meditation) - refers to the act of focusing one's mind on a particular subject, often for spiritual or philosophical purposes.\n3. Contemplation (contemplation) - as you mentioned, this word is closely related to the English concept!\n4. M\u00e9lancolie (melancholy) - describes a state of introspective sadness or contemplative moodiness.\n5. R\u00eaverie (daydreaming) - refers to a state of mind where one becomes lost in thought and imagination.\n\nThese words all capture different aspects of the human experience, from quiet reflection to deeper introspection."}
+T801.4460256620077 #217 ? /prog
+T807.6941311050323 #217 ? *25 t25
+T807.6944725810317 session clear
+T807.6949895870057 chat_prompt: {"prompt": "give me 25 French words that are similar to $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, and $25", "vars": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "ords": []}
+T807.6950650670333 session: {"role": "user", "content": "give me 25 French words that are similar to \"spiritualit\u00e9\", \"mystique\", \"m\u00e9ditation\", \"esprit\", \"\u00e2me\", \"communion\", \"conscience\", \"sagesse\", \"pens\u00e9e\", \"transcendance\", \"contemplation\", \"vie\", \"intellect\", \"intuition\", \"r\u00e9demption\", \"fraternit\u00e9\", \"d\u00e9sir\", \"intelligence\", \"vivre\", \"discernement\", \"harmonie\", \"v\u00e9rit\u00e9\", \"\u00e9vang\u00e9lisation\", \"amour\", and \"esp\u00e9rance\""}
+T838.4544905920047 session: {"role": "assistant", "content": "Here are 25 French words that are similar to the ones you provided:\n\n1. \u00c9lan (meaning \"spiritual energy\")\n2. Introspection (m\u00e9ditation, introspection)\n3. Essentiel (essence of spiritualit\u00e9)\n4. Jourdain (like a mystical river)\n5. Lumi\u00e8re (light, a symbol of esprit)\n6. Nuit (night, a time for contemplation and communion with the soul)\n7. Parfaire (to perfect one's conscience)\n8. Raison (reason, related to sagesse)\n9. R\u00e9flexion (thought, associated with pens\u00e9e)\n10. S\u00e9r\u00e9nit\u00e9 (serenity, linked to harmonie)\n11. Symbolisme (symbolism, related to mystique)\n12. Tr\u00e9sor (treasure, like a spiritual asset)\n13. Transcendance (transcendence, related to vie)\n14. Unit\u00e9 (unity, like fraternit\u00e9)\n15. \u00c2ge (age, associated with sagesse and experience)\n16. C\u0153ur (heart, linked to amour and compassion)\n17. Essence (essence, related to v\u00e9rit\u00e9)\n18. Existe (existentialism, a philosophy that explores vie)\n19. Fondement (foundations, like a deep sense of esprit)\n20. Gu\u00e9rison (healing, associated with r\u00e9demption)\n21. \u00cele (island, a symbol of spiritual refuge)\n22. Luminiscence (luminosity, like the light of intelligence)\n23. Miroir (mirror, reflecting intuition and conscience)\n24. Nuance (nuance, like discernement in sagesse)\n25. R\u00e9sonance (resonance, related to harmonie and \u00e9vang\u00e9lisation)\n\nThese words are meant to evoke a sense of spirituality, introspection, and connection with oneself and others."}
+T841.262123625027 #217 extract_...
+T843.4934753350099 🤔 extract_1/12 #217 "existe" score? !
+T843.493551038031 reject: "existe"
+T848.6621610640432 🤔 extract_1/11 #217 "fondement" score? 32.73 321
+T848.6623273720033 attempt_216: "fondement" score:32.73 prog:321
+T854.1344154260005 🤔 extract_1/10 #218 "guérison" score? 43.43 887
+T854.1346131759929 attempt_217: "guérison" score:43.43 prog:887
+T856.3899173390237 🤔 extract_1/9 #219 "jourdain" score? !
+T856.3900574950385 reject: "jourdain"
+T858.3582587740384 🤔 extract_1/8 #219 "luminiscence" score? !
+T858.3584010050399 reject: "luminiscence"
+T860.957925411989 🤔 extract_1/7 #219 "miroir" score? 12.92
+T860.9580870970385 attempt_218: "miroir" score:12.92 prog:None
+T865.3978826770326 🤔 extract_1/6 #220 "nuance" score? 19.61
+T865.3980889400118 attempt_219: "nuance" score:19.61 prog:None
+T867.2859505109955 #221 ? _
+T867.286303453031 chat_prompt: _
+T867.2863790160045 session: {"role": "user", "content": "give me 25 French words that are similar to \"spiritualit\u00e9\", \"mystique\", \"m\u00e9ditation\", \"esprit\", \"\u00e2me\", \"communion\", \"conscience\", \"sagesse\", \"pens\u00e9e\", \"transcendance\", \"contemplation\", \"vie\", \"intellect\", \"intuition\", \"r\u00e9demption\", \"fraternit\u00e9\", \"d\u00e9sir\", \"gu\u00e9rison\", \"intelligence\", \"vivre\", \"discernement\", \"harmonie\", \"v\u00e9rit\u00e9\", \"\u00e9vang\u00e9lisation\", and \"amour\""}
+T904.4896938370075 session: {"role": "assistant", "content": "Here are 25 French words that are similar to the ones you provided:\n\n1. \u00c2geur (a wise person, related to sagesse)\n2. Aiguillette (a spiritual guide, like a mentor)\n3. Auroralie (dawn-like, associated with new beginnings and hope)\n4. Biens\u00e9ance (good conscience, linked to conscience)\n5. B\u00e9n\u00e9volence (charity, related to amour and compassion)\n6. Catharsis (purification, like a spiritual cleansing)\n7. Chaleur (warmth, associated with \u00e9lan and joie de vivre)\n8. Cogitation (thought, like pens\u00e9e and r\u00e9flexion)\n9. Compassion (empathy, linked to amour and gu\u00e9rison)\n10. Confiance (faith, related to v\u00e9rit\u00e9 and intelligence)\n11. Connaisance (knowledge, associated with intellect and discernement)\n12. Cr\u00e2ner (to listen deeply, like a spiritual practice)\n13. C\u0153ur de feu (heart of fire, symbolizing passion and d\u00e9sir)\n14. Dignite (dignity, related to conscience and sagesse)\n15. \u00c9lan vital (vital energy, associated with esprit and vie)\n16. Enracinement (rooting, like finding one's spiritual foundation)\n17. Essentielisme (essentialism, a philosophy that explores v\u00e9rit\u00e9)\n18. Exigence (demand, like a call to action for \u00e9vang\u00e9lisation)\n19. Fa\u00eetes (heights, associated with spiritual ascension)\n20. Fondement solide (solid foundation, like a deep sense of esprit)\n21. Gardien (guardian, a spiritual protector)\n22. H\u00e9ritage (inheritance, related to spiritual legacy)\n23. \u00celot de paix (island of peace, a symbol of spiritual refuge)\n24. Inqui\u00e9tude (anxiety, like a call to mindfulness and discernement)\n25. Jardin secret (secret garden, a symbol of hidden spiritual growth)\n\nThese words are meant to evoke a sense of spirituality, introspection, and connection with oneself and others."}
+T905.966415256029 #221 extract_...
+T908.6301379630459 🤔 extract_1/17 #221 "aiguillette" score? -3.04
+T908.6303717439878 attempt_220: "aiguillette" score:-3.04 prog:None
+T911.0861757670064 🤔 extract_1/16 #222 "auroralie" score? !
+T911.0863627070212 reject: "auroralie"
+T914.8940002950258 🤔 extract_1/15 #222 "bienséance" score? 11.6
+T914.8941779460292 attempt_221: "bienséance" score:11.60 prog:None
+T918.9979978130432 🤔 extract_1/14 #223 "bénévolence" score? !
+T918.9981455460074 reject: "bénévolence"
+T921.9419449419947 🤔 extract_1/13 #223 "catharsis" score? 24.19
+T921.9420909660403 attempt_222: "catharsis" score:24.19 prog:None
+T924.3901968460414 🤔 extract_1/12 #224 "cogitation" score? 7.95
+T924.3905076140072 attempt_223: "cogitation" score:7.95 prog:None
+T928.8940672420431 🤔 extract_1/11 #225 "compassion" score? 41.88 842
+T928.8942338750348 attempt_224: "compassion" score:41.88 prog:842
+T932.102042442013 🤔 extract_1/10 #226 "connaisance" score? !
+T932.1021703400183 reject: "connaisance"
+T934.710608932015 🤔 extract_1/9 #226 "crâner" score? -14.22
+T934.7107987100026 attempt_225: "crâner" score:-14.22 prog:None
+T936.6221579679986 🤔 extract_1/8 #227 "dignite" score? !
+T936.6222914860118 reject: "dignite"
+T941.1178735890426 🤔 extract_1/7 #227 "enracinement" score? 37.37 664
+T941.1180246699951 attempt_226: "enracinement" score:37.37 prog:664
+T949.9820611980394 🤔 extract_1/6 #228 "essentielisme" score? !
+T949.9822354190401 reject: "essentielisme"
+T952.3338846020051 🤔 extract_1/5 #228 "faîtes" score? !
+T952.3339893509983 reject: "faîtes"
+T955.1263070960413 🤔 extract_1/4 #228 "gardien" score? 9.96
+T955.126519847021 attempt_227: "gardien" score:9.96 prog:None
+T960.4566335729905 🤔 extract_1/3 #229 "jardin" score? 4.43
+T960.456854870019 attempt_228: "jardin" score:4.43 prog:None
+T962.8470964000444 🤔 extract_1/2 #230 "âgeur" score? !
+T962.8472792280372 reject: "âgeur"
+T965.9020925959921 🤔 extract_1/1 #230 "îlot" score? 1.91
+T965.9022952000378 attempt_229: "îlot" score:1.91 prog:None
+T968.1343870320125 #231 ? _
+T968.1348526180373 chat_prompt: _
+T968.1349516460323 session: {"role": "user", "content": "give me 25 French words that are similar to \"spiritualit\u00e9\", \"mystique\", \"m\u00e9ditation\", \"esprit\", \"\u00e2me\", \"communion\", \"conscience\", \"sagesse\", \"pens\u00e9e\", \"transcendance\", \"contemplation\", \"vie\", \"intellect\", \"intuition\", \"r\u00e9demption\", \"fraternit\u00e9\", \"d\u00e9sir\", \"gu\u00e9rison\", \"intelligence\", \"vivre\", \"discernement\", \"compassion\", \"harmonie\", \"v\u00e9rit\u00e9\", and \"\u00e9vang\u00e9lisation\""}
+T1026.9110910530435 session: {"role": "assistant", "content": "Here are 25 French words that are similar to the ones you provided:\n\n1. Absolu (absolute, related to v\u00e9rit\u00e9 and sagesse)\n2. Altitude (altitude, associated with spiritual ascension)\n3. Aur\u00e9lien (golden, like a shining light of compassion)\n4. B\u00e9n\u00e9fice (benefit, like the fruit of \u00e9vang\u00e9lisation)\n5. C\u00e2lin (warmth, associated with amour and compassion)\n6. Cartographie (mapping, related to discernement and intelligence)\n7. Coeur-en-lieu (heart in place, a symbol of spiritual refuge)\n8. D\u00e9d\u00e9panneur (reassurer, like a spiritual guide)\n9. Efflorescence (blooming, associated with spiritual growth)\n10. \u00c9lan de vie (liveliness, like the spark of life and intelligence)\n11. Essentiellement (essentially, related to v\u00e9rit\u00e9 and sagesse)\n12. Exigence interne (internal demand, like a call to action for \u00e9vang\u00e9lisation)\n13. Finesse (delicacy, associated with discernement and compassion)\n14. Gardien de l'\u00e2me (guardian of the soul, like a spiritual protector)\n15. H\u00e9ritage spirituel (spiritual heritage, related to esprit and conscience)\n16. \u00celot de sagesse (island of wisdom, a symbol of spiritual refuge)\n17. Jour de lumi\u00e8re (day of light, associated with v\u00e9rit\u00e9 and \u00e9vang\u00e9lisation)\n18. Kair\u00f3s (opportune moment, like a call to action for discernement)\n19. Lumineux (radiant, associated with intelligence and compassion)\n20. Miroir de l'\u00e2me (mirror of the soul, like introspection and self-awareness)\n21. Nef des illusions (pit of illusions, like overcoming spiritual darkness)\n22. Oubliette spirituelle (spiritual attic, a symbol of hidden wisdom)\n23. Parcours int\u00e9rieur (inner journey, like a spiritual path)\n24. R\u00eave de v\u00e9rit\u00e9 (dream of truth, associated with sagesse and \u00e9vang\u00e9lisation)\n25. Souffle d'\u00e2me (soul's breath, like the gentle whisper of intuition)\n\nThese words are meant to evoke a sense of spirituality, introspection, and connection with oneself and others."}
+T1028.309831332008 #231 extract_...
+T1033.534001994005 🤔 extract_1/17 #231 "absolu" score? 36.79 629
+T1033.5341949569993 attempt_230: "absolu" score:36.79 prog:629
+T1036.4700446450152 🤔 extract_1/16 #232 "altitude" score? 5.07
+T1036.4702271230053 attempt_231: "altitude" score:5.07 prog:None
+T1039.3744100159965 🤔 extract_1/15 #233 "aurélien" score? !
+T1039.3746081230347 reject: "aurélien"
+T1042.1582663200097 🤔 extract_1/14 #233 "bénéfice" score? 9.04
+T1042.1584979530307 attempt_232: "bénéfice" score:9.04 prog:None
+T1046.2302492590388 🤔 extract_1/13 #234 "cartographie" score? -8.49
+T1046.230574399 attempt_233: "cartographie" score:-8.49 prog:None
+T1048.9419823770295 🤔 extract_1/12 #235 "câlin" score? 10.78
+T1048.9421433260432 attempt_234: "câlin" score:10.78 prog:None
+T1051.6944264130434 🤔 extract_1/11 #236 "dédépanneur" score? !
+T1051.6946412160178 reject: "dédépanneur"
+T1054.574099598045 🤔 extract_1/10 #236 "efflorescence" score? 15.96
+T1054.5742598050274 attempt_235: "efflorescence" score:15.96 prog:None
+T1058.453752261994 🤔 extract_1/9 #237 "en" score? 16.15
+T1058.4538202229887 attempt_236: "en" score:16.15 prog:None
+T1062.0787044780445 🤔 extract_1/8 #238 "essentiellement" score? 14.76
+T1062.0789017039933 attempt_237: "essentiellement" score:14.76 prog:None
+T1064.342094087042 🤔 extract_1/7 #239 "jour" score? 3.44
+T1064.3422609540285 attempt_238: "jour" score:3.44 prog:None
+T1066.5103720430052 🤔 extract_1/6 #240 "kairós" score? !
+T1066.5105807580403 reject: "kairós"
+T1069.2144961050362 🤔 extract_1/5 #240 "lieu" score? 16.25
+T1069.21472042799 attempt_239: "lieu" score:16.25 prog:None
+T1072.710335832031 🤔 extract_1/4 #241 "lumineux" score? 16.71
+T1072.7105223330436 attempt_240: "lumineux" score:16.71 prog:None
+T1075.1423082030378 🤔 extract_1/3 #242 "nef" score? 11.75
+T1075.1425063770148 attempt_241: "nef" score:11.75 prog:None
+T1078.390238904045 🤔 extract_1/2 #243 "oubliette" score? -6.15
+T1078.3904344729963 attempt_242: "oubliette" score:-6.15 prog:None
+T1081.1184437230113 🤔 extract_1/1 #244 "parcours" score? 8.69
+T1081.118676446029 attempt_243: "parcours" score:8.69 prog:None
+T1085.686176836025 #245 ? *16 t4
+T1085.6864607530297 session clear
+T1085.6867461890215 chat_prompt: {"prompt": "give me 16 French words that are similar to $1, $2, $3, and $4", "vars": [1, 2, 3, 4], "ords": []}
+T1085.686790192034 session: {"role": "user", "content": "give me 16 French words that are similar to \"spiritualit\u00e9\", \"mystique\", \"m\u00e9ditation\", and \"esprit\""}
+T1103.9581396940048 session: {"role": "assistant", "content": "Here are 16 French words that are similar in meaning or connotation to the given words:\n\n1. \u00c9lan (intensity, enthusiasm)\n2. Essence (essence, soul)\n3. Exaltation (elevation, elevation of the spirit)\n4. Introspection (examination of one's own thoughts and feelings)\n5. L'\u00e2me (soul, inner self)\n6. Lib\u00e9ration (liberation, spiritual awakening)\n7. Lumi\u00e8re (light, spiritual illumination)\n8. Myst\u00e8re (mystery, enigma)\n9. Nostalgie (nostalgia, longing for something deeper)\n10. Ob\u00e9sit\u00e9 int\u00e9rieure (inner obesity, emotional burden)\n11. P\u00e9n\u00e9tration (penetration, deep understanding)\n12. Pr\u00e9sence (presence, feeling of being connected to something greater)\n13. R\u00e9flexion profonde (deep reflection, introspection)\n14. S\u00e9r\u00e9nit\u00e9 (serenity, inner peace)\n15. Spiritualit\u00e9 (spirituality, spiritual growth)\n16. Transcendance (transcendence, going beyond the material world)\n\nThese words all touch on themes of spirituality, self-awareness, and a deeper connection to oneself and the world around us."}
+T1105.958218173997 #245 extract_...
+T1109.8464599410072 🤔 extract_1/4 #245 "mystère" score? 32.09
+T1111.5504584780429 🤔 extract_1/4 #245 "mystère" 32.09°C prog‰ ? 262
+T1111.5506826280034 attempt_244: "mystère" score:32.09 prog:262
+T1114.1661389830406 🤔 extract_1/3 #246 "nostalgie" score? 13.85
+T1114.166294850991 attempt_245: "nostalgie" score:13.85 prog:None
+T1117.8543201780412 🤔 extract_1/2 #247 "obésité" score? -3.17
+T1117.8545271999901 attempt_246: "obésité" score:-3.17 prog:None
+T1120.4542734129936 🤔 extract_1/1 #248 "pénétration" score? 12.95
+T1120.454449795012 attempt_247: "pénétration" score:12.95 prog:None
+T1126.7264073020197 #249 ? *20 t2
+T1126.72671927599 session clear
+T1126.7270607120008 chat_prompt: {"prompt": "give me 20 French words that are similar to $1 and $2", "vars": [1, 2], "ords": []}
+T1126.727116397 session: {"role": "user", "content": "give me 20 French words that are similar to \"spiritualit\u00e9\" and \"mystique\""}
+T1148.2593714790419 session: {"role": "assistant", "content": "Here are 20 French words that convey a sense of spirituality or mysticism, similar to \"spiritualit\u00e9\" and \"mystique\":\n\n1. S\u00e9r\u00e9nit\u00e9 (serenity)\n2. Intuition (intuition)\n3. \u00c9lan vital (vital energy)\n4. Esprit (soul)\n5. \u00c2me (soul)\n6. Transcendance (transcendence)\n7. R\u00e9v\u00e9lation (revelation)\n8. Illumination (illumination)\n9. Synth\u00e8se (synthesis)\n10. \u00c9volution (evolution)\n11. Harmonie (harmony)\n12. \u00c9quilibre (balance)\n13. M\u00e9ditation (meditation)\n14. Pratique (practice)\n15. Introspection (introspection)\n16. R\u00e9flexion profonde (deep reflection)\n17. Illuminations int\u00e9rieures (inner illuminations)\n18. Conscience (conscience)\n19. Sagesse (wisdom)\n20. Essentiel (essence)\n\nThese words aim to capture the essence of spirituality and mysticism, often exploring themes of inner balance, growth, and connection with something greater than oneself.\n\nSome additional options:\n\n- Profondeur (depth)\n- Subtilit\u00e9 (subtlety)\n- \u00c9tat de gr\u00e2ce (state of grace)\n- \u00c9veil (enlightenment)\n\nPlease note that some words may have multiple connotations or nuances, depending on the context in which they are used."}
+T1149.8303693060298 #249 extract_...
+T1152.4623337790254 🤔 extract_1/3 #249 "illuminations" score? 12.95
+T1152.462573974044 attempt_248: "illuminations" score:12.95 prog:None
+T1155.6139999570441 🤔 extract_1/2 #250 "pratique" score? 19.54
+T1155.6141596130328 attempt_249: "pratique" score:19.54 prog:None
+T1162.487319759035 🤔 extract_1/1 #251 "révélation" score? 35.98 593
+T1162.487523705 attempt_250: "révélation" score:35.98 prog:593
+T1164.7113174000406 #252 ? /last
+T1169.582216522016 #252 ? Profondeur
+T1173.8304193320218 #252 ? Subtilité
+T1176.6699422880192 🤔 entered #252 "subtilité" score? 17.72
+T1176.6703110800008 attempt_251: "subtilité" score:17.72 prog:None
+T1180.9345859540044 #253 ? État
+T1185.5021016910323 #253 ? grâce
+T1194.726532663044 #253 ? Éveil
+T1201.4701233369997 🤔 entered #253 "éveil" score? 39.61 762
+T1201.470339505002 attempt_252: "éveil" score:39.61 prog:762
+T1202.6539994149935 #254 ? /prog
+T1227.3345111529925 #254 ? /prog
+T1230.765948434011 #254 ? /prog
+T1232.2065385050373 #254 ? /prog
+T1236.4548526420258 #254 ? /prog
+T1237.7661526449956 #254 ? /prog
+T1240.3423799020238 <INT>
+T0.01434956700541079 now: 2024-11-23T08:16:48EST
+T0.018660544010344893 session model: llama
+T6.1637226570164785 #254 ? /prog
+T15.467409735021647 #254 ? *10 related $t4
+T15.468098303012084 session clear
+T15.468283397029154 chat_prompt: {"prompt": "give me 10 French words that are {rel} to related and $t4", "vars": [1, 2, 3, 4], "ords": []}
+T15.468316178012174 session: {"role": "user", "content": "give me 10 French words that are {rel} to related and \"spiritualit\u00e9\", \"mystique\", \"m\u00e9ditation\", and \"esprit\""}
+T21.083489321987145 <INT>
+T0.013781977002508938 now: 2024-11-23T08:17:47EST
+T0.016614785999991 session model: llama
+T8.14817005104851 #254 ? *10 related $t3
+T8.149779763014521 session clear
+T8.150047035014722 chat_prompt: {"prompt": "give me 10 French words that are similar to related and $t3", "vars": [1, 2, 3], "ords": []}
+T8.150093111034948 session: {"role": "user", "content": "give me 10 French words that are similar to related and \"spiritualit\u00e9\", \"mystique\", and \"m\u00e9ditation\""}
+T19.61339437402785 <INT>
+T0.015610428003128618 now: 2024-11-23T08:20:02EST
+T0.018183829030022025 session model: llama
+T3.977274732023943 #254 ? *10 related t3
+T3.9786165770492516 session clear
+T3.9787571289925836 session: {"role": "user", "content": "give me 3 French words that are similar to related, $, 1, $, 2, $, and 3"}
+T75.74537446600152 <INT>
+T0.01752765296259895 now: 2024-11-23T08:22:50EST
+T0.02027331996941939 session model: llama
+T3.3809676640084945 #254 ? *10 related t3
+T3.382837312994525 session clear
+T3.3830280950060114 session: {"role": "user", "content": "give me 10 French words that are similar to related"}
+T162.16476624796633 <INT>
+T0.013890636968426406 now: 2024-11-23T08:25:33EST
+T0.016590690007433295 session model: llama
+T2.169958795013372 #254 ? *10 t3
+T2.1708566439920105 session clear
+T2.170960502990056 session: {"role": "user", "content": "give me 10 French words that are similar to ${n}, ${n}, and ${n}"}
+T33.841434268979356 #254 ? *10 related t3
+T33.841986696992535 session clear
+T33.842118765984196 session: {"role": "user", "content": "give me 10 French words that are similar to related, ${n}, ${n}, and ${n}"}
+T80.71357381297275 <INT>
+T0.014991550997365266 now: 2024-11-23T08:26:55EST
+T0.017846809001639485 session model: llama
+T4.041473626974039 #254 ? *10 related t3
+T4.042553587991279 session clear
+T4.042748693958856 chat_prompt: {"prompt": "give me 10 French words that are related to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T4.042781026975717 session: {"role": "user", "content": "give me 10 French words that are related to \"spiritualit\u00e9\", \"mystique\", and \"m\u00e9ditation\""}
+T26.330943234963343 session: {"role": "assistant", "content": "Here are 10 French words related to \"spiritualit\u00e9\", \"mystique\", and \"m\u00e9ditation\":\n\n1. **Satori** (inspired by Zen Buddhism) - a moment of enlightenment or sudden insight\n2. **Mandala** (from Tibetan Buddhism) - a spiritual symbol used in meditation and art\n3. **Luminosit\u00e9** (light) - often associated with the pursuit of spiritual growth and inner illumination\n4. **Sufisme** (Sufism) - a mystical tradition within Islam that emphasizes devotion, love, and inner purification\n5. **M\u00e9tamorphose** (transformation) - referring to the spiritual transformation or rebirth that can occur through meditation and introspection\n6. **Kundalini** (Hinduism) - a spiritual energy said to lie dormant at the base of the spine, which can be awakened through meditation and yoga practices\n7. **Esoterisme** (occultism) - referring to spiritual practices that seek to reveal hidden truths or secrets of nature\n8. **Sagesse** (wisdom) - often associated with the pursuit of spiritual growth, self-awareness, and inner guidance\n9. **Transcendance** (transcendence) - referring to the spiritual practice of moving beyond the ego and material world\n10. **\u00c9veil spirituel** (spiritual awakening) - a state of awareness and consciousness that arises from deep meditation, introspection, and connection with one's inner self.\n\nI hope these words inspire you!"}
+T32.88950000196928 #254 extract_...
+T37.80950131796999 🤔 extract_1/6 #254 "esoterisme" score? !
+T37.80966232897481 reject: "esoterisme"
+T42.50583528395509 🤔 extract_1/5 #254 "kundalini" score? 45.87 929
+T42.506049935997 attempt_253: "kundalini" score:45.87 prog:929
+T47.40145144198323 🤔 extract_1/4 #255 "mandala" score? 32.28 277
+T47.4016357199871 attempt_254: "mandala" score:32.28 prog:277
+T50.041291137982626 🤔 extract_1/3 #256 "métamorphose" score? 17.52
+T50.04143781797029 attempt_255: "métamorphose" score:17.52 prog:None
+T52.697589027986396 🤔 extract_1/2 #257 "satori" score? 23.44
+T52.69776627299143 attempt_256: "satori" score:23.44 prog:None
+T55.089463818992954 🤔 extract_1/1 #258 "sufisme" score? !
+T55.0895967700053 reject: "sufisme"
+T65.19353965297341 #258 ? *25 related t5
+T65.19385989796137 session clear
+T65.19406866998179 chat_prompt: {"prompt": "give me 25 French words that are related to $1, $2, $3, $4, and $5", "vars": [1, 2, 3, 4, 5], "ords": []}
+T65.19409996195463 session: {"role": "user", "content": "give me 25 French words that are related to \"spiritualit\u00e9\", \"mystique\", \"m\u00e9ditation\", \"esprit\", and \"\u00e2me\""}
+T95.06147728598444 session: {"role": "assistant", "content": "Here are 25 French words related to \"spiritualit\u00e9\", \"mystique\", \"m\u00e9ditation\", \"esprit\", and \"\u00e2me\":\n\n1. Spiritualit\u00e9 (Spirituality)\n2. Mystique (Mystery, Mystery of God)\n3. M\u00e9ditation (Meditation)\n4. Esprit (Soul, Spirit)\n5. \u00c2me (Soul, Inner Self)\n6. Conscience (Conscience)\n7. Intuition (Intuition)\n8. Sagesse (Wisdom)\n9. Inspiration (Inspiration)\n10. R\u00eaverie (Daydreaming, Fantasizing)\n11. R\u00e9flexion (Reflection)\n12. Contemplation (Contemplation)\n13. Pratique (Practice, Spiritual Practice)\n14. Discipline (Discipline of the Heart)\n15. Gr\u00e2ce (Grace)\n16. Charit\u00e9 (Charity)\n17. Luminosit\u00e9 (Luminosity, Radiance)\n18. Illumination (Illumination)\n19. Transcendance (Transcendence)\n20. \u00c9lan vital (Vital Energy, Inner Drive)\n21. Harmonie (Harmony)\n22. S\u00e9r\u00e9nit\u00e9 (Serene)\n23. Calme (Peacefulness)\n24. Pardon (Forgiveness)\n25. R\u00e9velation (Revelation)\n\nSome notes on the meanings of these words:\n\n* \"Sagesse\" refers to wisdom, which is often seen as a spiritual virtue.\n* \"Inspiration\" can refer both to artistic or creative inspiration and spiritual inspiration.\n* \"R\u00eaverie\" can be either daydreaming or fantasizing, but in spiritual contexts, it refers to a state of inner contemplation.\n* \"R\u00e9flexion\" refers to reflection, which is an essential part of spiritual growth.\n* \"Transcendance\" refers to the idea of going beyond one's own ego and limitations.\n* \"\u00c9lan vital\" is often translated as vital energy or inner drive, but it also implies a connection with something greater than oneself.\n\nI hope this list helps you explore the rich vocabulary related to spirituality in French!"}
+T98.40182979498059 #258 extract_...
+T101.25793456099927 🤔 extract_1/5 #258 "calme" score? 10.59
+T101.25819394900464 attempt_257: "calme" score:10.59 prog:None
+T109.61794970097253 🤔 extract_1/4 #259 "charité" score? 40.69 804
+T109.61832619697088 attempt_258: "charité" score:40.69 prog:804
+T112.25773881096393 🤔 extract_1/3 #260 "discipline" score? 21.37
+T112.25788373098476 attempt_259: "discipline" score:21.37 prog:None
+T115.5616749059991 🤔 extract_1/2 #261 "pardon" score? 21.4
+T115.56190107396105 attempt_260: "pardon" score:21.40 prog:None
+T117.63330574496649 🤔 extract_1/1 #262 "révelation" score? !
+T117.63344378798502 reject: "révelation"
+T119.74544172396418 #262 ? /prog
+T146.9695069270092 #262 ? *10 heard near $4
+T146.96970911097014 session clear
+T146.96986725198803 chat_prompt: {"prompt": "give me 10 French words that are heard near $4", "vars": [4], "ords": []}
+T146.9698938219808 session: {"role": "user", "content": "give me 10 French words that are heard near \"esprit\""}
+T157.05261788895587 session: {"role": "assistant", "content": "Here are 10 French words related to \"esprit\", which roughly translates to \"spirit\", \"soul\", or \"mind\":\n\n1. \u00c2me (soul, spirit)\n2. Intelligence (intelligence)\n3. Pens\u00e9e (thought, idea)\n4. Sagesse (wisdom)\n5. Intuition (intuition)\n6. Imagination (imagination)\n7. Conscience (conscience, inner voice)\n8. Motivation (motivation)\n9. Inspiration (inspiration)\n10. Cr\u00e9ativit\u00e9 (creativity)\n\nNote that some of these words may have slightly different connotations or nuances in French, but they are all related to the concept of \"esprit\" in one way or another!"}
+T159.1295378509676 #262 extract_1
+T162.28956454899162 🤔 extract_1/1 #262 "motivation" score? 16.16
+T162.28975882998202 attempt_261: "motivation" score:16.16 prog:None
+T167.44168475398328 #263 ? *10 heard near t4
+T167.44202868599677 session clear
+T167.44231706595747 chat_prompt: {"prompt": "give me 10 French words that are heard near $1, $2, $3, and $4", "vars": [1, 2, 3, 4], "ords": []}
+T167.44238254998345 session: {"role": "user", "content": "give me 10 French words that are heard near \"spiritualit\u00e9\", \"mystique\", \"m\u00e9ditation\", and \"esprit\""}
+T208.15583063598024 session: {"role": "assistant", "content": "Here are 10 French words related to the concepts you mentioned:\n\n1. **Intuition** - Intu\u00eftion (noun) : La capacit\u00e9 de faire des suppositions sans avoir de preuves.\n(Conception: This word relates to intuition, which is often linked to spiritual and mystical experiences)\n\n2. **Chamanisme** - Chamanisme (noun) : L'art et la pratique du chamanisme, une forme de m\u00e9ditation profonde.\n(Conception: Shamanism is a spiritual practice that shares some similarities with meditation)\n\n3. **Introspection** - Introspection (noun) : L'acte d'examiner soi-m\u00eame ses pens\u00e9es, \u00e9motions et motivations.\n(Introspection: This word relates to self-reflection and introspection, which can be part of a spiritual or meditative practice)\n\n4. **Sagesse** - Sagesse (noun) : La sagesse, la connaissance du monde et de soi-m\u00eame.\n(Conception: Wisdom is the knowledge of the world and of oneself, often linked to spiritual growth and introspection)\n\n5. **\u00c9nergie** - \u00c9nergie (noun) : Une forme de pouvoir ou de force qui se manifie dans l'univers.\n(Conception: Energy relates to spiritual or energetic experiences, such as intuition or chamanistic practices)\n\n6. **Transcendance** - Transcendance (noun) : L'\u00e9tat d'aller au-del\u00e0 de soi-m\u00eame et de ses limites habituelles.\n(Introspection and meditation can help you transcend your limitations)\n\n7. **Miroir de l'\u00e2me** - Miroir de l'\u00e2me (phrase) : Un miroir qui refl\u00e8te l'int\u00e9rieur de soi, permettant une introspection profonde.\n(Introspection is like looking in a mirror to reflect on one's inner self)\n\n8. **Purification** - Purification (noun) : Le processus de nettoyage et de refroidissement d'un \u00e9l\u00e9ment ou d'une personne pour en d\u00e9barrasser les impuret\u00e9s.\n(Introspection and meditation can lead to purification, both physically and spiritually)\n\n9. **Int\u00e9gration** - Int\u00e9gration (noun) : L'acte de r\u00e9unir et de s'int\u00e9grer, comme une partie int\u00e9grante de soi-m\u00eame ou d'un ensemble.\n(Integration is an important concept in spiritual growth and personal development)\n\n10. **Luminosit\u00e9** - Luminosit\u00e9 (noun) : Une lumi\u00e8re int\u00e9rieure qui se manifeste dans l'univers, souvent associ\u00e9e \u00e0 la conscience spirituelle.\n(Conception: Inner light relates to the inner guidance that can come from meditation and introspection)\n\nThese words are all related to concepts of spiritual growth, introspection, and personal development."}
+T210.37801982200472 #263 extract_...
+T215.52153709699633 🤔 extract_1/3 #263 "chamanisme" score? 38.72 723
+T215.52170693897642 attempt_262: "chamanisme" score:38.72 prog:723
+T219.68145106197335 🤔 extract_1/2 #264 "intégration" score? 5.75
+T219.68159712699708 attempt_263: "intégration" score:5.75 prog:None
+T224.85756414098432 🤔 extract_1/1 #265 "purification" score? 32.84
+T226.50522797496524 🤔 extract_1/1 #265 "purification" 32.84°C prog‰ ? 325
+T226.5053724059835 attempt_264: "purification" score:32.84 prog:325
+T238.29764905397315 #266 ? *10 said with t4
+T238.29791563400067 session clear
+T238.29812429699814 chat_prompt: {"prompt": "give me 10 French words that are said with $1, $2, $3, and $4", "vars": [1, 2, 3, 4], "ords": []}
+T238.298171050963 session: {"role": "user", "content": "give me 10 French words that are said with \"spiritualit\u00e9\", \"mystique\", \"m\u00e9ditation\", and \"esprit\""}
+T259.9821440469823 session: {"role": "assistant", "content": "Here are 10 French words that relate to the concepts of \"spiritualit\u00e9\", \"mystique\", \"m\u00e9ditation\", and \"esprit\":\n\n1. **Lumi\u00e8re** (light) - related to spiritual insight or enlightenment\n2. **Sacr\u00e9** (sacred) - used to describe sacred spaces, rituals, or objects in a spiritual context\n3. **Intuition** - the ability to acquire knowledge or make decisions through intuition, often associated with spiritual experiences\n4. **Esprit de corps** (spirit of the group) - refers to a sense of unity and shared values among individuals, often related to team spirit and cohesion\n5. **M\u00e9morie du c\u0153ur** (memory of the heart) - an expression used to describe a deep emotional connection or intuition about someone or something\n6. **Voix int\u00e9rieure** (inner voice) - refers to one's inner guidance or intuition that provides spiritual direction\n7. **Transcendance** (transcendence) - the state of going beyond physical or material limitations, often associated with spiritual experiences\n8. **\u00c2me** (soul) - a French translation of the English word \"soul\", used to describe one's inner essence or spirit\n9. **Influence** - refers to the power to shape or influence someone's thoughts, feelings, or behavior, often in a spiritual context\n10. **Revenant** (returning) - an individual who has returned from a spiritual journey or experience, bringing back insights or wisdom"}
+T261.23363000998506 #266 extract_...
+T264.14542016596533 🤔 extract_1/5 #266 "influence" score? 27.81
+T264.1455520319869 attempt_265: "influence" score:27.81 prog:None
+T266.40144025796326 🤔 extract_1/4 #267 "mémorie" score? !
+T266.40162198699545 reject: "mémorie"
+T269.45760069199605 🤔 extract_1/3 #267 "revenant" score? 6.53
+T269.45776093698805 attempt_266: "revenant" score:6.53 prog:None
+T271.7053241839749 🤔 extract_1/2 #268 "sacré" score? 23.1
+T271.70548211497953 attempt_267: "sacré" score:23.10 prog:None
+T274.41738940699724 🤔 extract_1/1 #269 "voix" score? 13.31
+T274.41753432998667 attempt_268: "voix" score:13.31 prog:None
+T276.9626846119645 #270 ? /prog
+T291.3534735319554 #270 ? *10 close $1
+T291.3539229599992 session clear
+T291.35421878797933 chat_prompt: {"prompt": "give me 10 French words that are close to $1", "vars": [1], "ords": []}
+T291.35426189296413 session: {"role": "user", "content": "give me 10 French words that are close to \"spiritualit\u00e9\""}
+T303.6591975929914 session: {"role": "assistant", "content": "Here are 10 French words related to \"spiritualit\u00e9\":\n\n1. \u00c2me (soul)\n2. Esprit (spirit, meaning both the mind and the soul)\n3. Mysticisme (mystery)\n4. Intuition\n5. Lib\u00e9ration (liberation)\n6. \u00c9lan vital (vital impulse)\n7. S\u00e9r\u00e9nit\u00e9 (serenity)\n8. Mystique (mysterious or mystical)\n9. Transcendence (transcending one's limits)\n10. \u00catre (being, referring to the essence of existence)\n\nThese words all relate to concepts that are often explored in spiritual or philosophical contexts, and can be used to add depth and nuance to discussions about spirituality.\n\nNote: Some of these words may have slightly different connotations or shades of meaning depending on their usage, but they all generally fall under the broad category of \"spiritualit\u00e9\"."}
+T307.34566512098536 #270 extract_...
+T312.24123673298163 🤔 extract_1/3 #270 "mysticisme" score? 47.15 944
+T312.2413307959796 attempt_269: "mysticisme" score:47.15 prog:944
+T314.9453657619888 🤔 extract_1/2 #271 "transcendence" score? !
+T314.9455113679869 reject: "transcendence"
+T317.40865543601103 🤔 extract_1/1 #271 "être" score? 24.73
+T317.40873513399856 attempt_270: "être" score:24.73 prog:None
+T325.12160152796423 #272 ? *10 close #270 $1
+T325.1218068609596 session clear
+T325.12197769398335 chat_prompt: {"prompt": "give me 10 French words that are close to #270 and $1", "vars": [1], "ords": [270]}
+T325.12200421799207 session: {"role": "user", "content": "give me 10 French words that are close to \"mysticisme\" and \"spiritualit\u00e9\""}
+T346.7059861419839 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"mysticisme\" and \"spiritualit\u00e9\":\n\n1. Mystique (mysticisme) - refers to the state of being mysterious or having a mystical quality\n2. Spiritualit\u00e9 (spirituality) - refers to the quality of being spiritual, connected to the divine or sacred\n3. Esoterisme (esotericism) - refers to the study and practice of hidden knowledge or mysteries\n4. Initiation (initiation) - refers to the process of being initiated into a mystical or spiritual tradition\n5. Surnaturel (supernatural) - refers to phenomena that are beyond the natural world, often related to spirituality or mysticism\n6. Introspection (introspection) - refers to the act of looking inward to gain insight into one's thoughts, feelings, and experiences\n7. \u00c9mouvante (emotive) - describes something that evokes strong emotions, often related to spiritual or mystical experiences\n8. Absolu (absolute) - describes a state of being that is beyond human understanding or comprehension, often related to spirituality or mysticism\n9. Transcendance (transcendence) - refers to the act of going beyond one's ordinary self or limitations, often in pursuit of spiritual growth or enlightenment\n10. \u00c9thique (ethic) - describes a code of conduct that is guided by principles of morality and spirituality\n\nNote: Some of these words may have multiple meanings or connotations, but they are all related to the themes of mysticisme and spiritualit\u00e9."}
+T352.0736240479746 #272 extract_...
+T358.4338986160001 🤔 extract_1/3 #272 "surnaturel" score? 47.84 955
+T358.4341920919833 attempt_271: "surnaturel" score:47.84 prog:955
+T360.5858929969836 🤔 extract_1/2 #273 "émouvante" score? !
+T360.5860973019735 reject: "émouvante"
+T364.74593879497843 🤔 extract_1/1 #273 "éthique" score? 31.6 216
+T364.7462132649962 attempt_272: "éthique" score:31.60 prog:216
+T372.48913913598517 #274 ? /prog
+T383.5537368739606 #274 ? /last
+T385.473796079983 #274 ? /prog
+T390.8017377220094 #274 ? *10 close #272 $1 $2
+T390.8020702700014 session clear
+T390.8023548629717 chat_prompt: {"prompt": "give me 10 French words that are close to #272, $1, and $2", "vars": [1, 2], "ords": [272]}
+T390.8023990459624 session: {"role": "user", "content": "give me 10 French words that are close to \"surnaturel\", \"spiritualit\u00e9\", and \"mystique\""}
+T410.3961364249699 session: {"role": "assistant", "content": "Here are 10 French words that convey similar meanings to \"surnaturel\", \"spiritualit\u00e9\", and \"mystique\":\n\n1. \u00c9th\u00e9r\u00e9 (eth-REH) - means \"ethereal\" or \"otherworldly\"\n2. Sibylline (see-BILL-een) - refers to the mystic language of the Sibyls\n3. Arcanum (ar-KAH-noo) - means \"mysterious\" or \"secret knowledge\"\n4. Divin (dee-VEEN) - means \"divine\" or \"heavenly\"\n5. \u00c9vang\u00e9lique (ehng-GAH-leek) - refers to the teachings of Jesus Christ\n6. Sacr\u00e9 (sah-KREH) - means \"sacred\" or \"holy\"\n7. Myst\u00e9rieux (myz-tee-REE-oo) - means \"mysterious\" or \"enigmatic\"\n8. Esot\u00e9rique (eh-soh-TREEK) - refers to secret knowledge or esotericism\n9. Incarne (in-KAR-nay) - means \"incarnate\", referring to the embodiment of a divine being\n10. Transcendant (tran-SAHN-dant) - means \"transcendent\" or \"beyond human understanding\"\n\nThese words all convey a sense of something that is beyond the ordinary, mysterious, or spiritual."}
+T412.9456632969668 #274 extract_...
+T415.4175925659947 🤔 extract_1/9 #274 "arcanum" score? !
+T415.4177374159917 reject: "arcanum"
+T420.8892613099888 🤔 extract_1/8 #274 "divin" score? 59.42 997
+T420.889418679988 attempt_273: "divin" score:59.42 prog:997
+T424.6176567749935 🤔 extract_1/7 #275 "esotérique" score? !
+T424.6178543379647 reject: "esotérique"
+T427.05796451697825 🤔 extract_1/6 #275 "incarne" score? !
+T427.0581864079577 reject: "incarne"
+T429.8655097949668 🤔 extract_1/5 #275 "mystérieux" score? 23.94
+T429.8656803430058 attempt_274: "mystérieux" score:23.94 prog:None
+T431.72932084900094 🤔 extract_1/4 #276 "sibylline" score? !
+T431.72943959897384 reject: "sibylline"
+T437.00155702698976 🤔 extract_1/3 #276 "transcendant" score? 43.58 890
+T437.00180582498433 attempt_275: "transcendant" score:43.58 prog:890
+T443.59370979096275 🤔 extract_1/2 #277 "éthéré" score? 32.7 317
+T443.5938902400085 attempt_276: "éthéré" score:32.70 prog:317
+T450.69749007798964 🤔 extract_1/1 #278 "évangélique" score? 46.39 936
+T450.6976559339673 attempt_277: "évangélique" score:46.39 prog:936
+T469.27314352896065 #279 ? *10 #274 $1 $2
+T469.27325711998856 session clear
+T469.273357293976 chat_prompt: {"prompt": "give me 10 French words that are similar to #274, $1, and $2", "vars": [1, 2], "ords": [274]}
+T469.2733758969698 session: {"role": "user", "content": "give me 10 French words that are similar to \"divin\", \"spiritualit\u00e9\", and \"mystique\""}
+T488.8012392849778 session: {"role": "assistant", "content": "Here are 10 French words that convey a sense of spiritual or mystical qualities similar to \"divin\", \"spiritualit\u00e9\", and \"mystique\":\n\n1. \u00c9l\u00e9gant (elegant, refined) - conveying a sense of sophistication and inner beauty\n2. Intemporel (timeless) - suggesting a connection to something beyond the present moment\n3. Enchant\u00e9 (enchanted) - implying a state of being spellbound or mesmerized\n4. \u00c9th\u00e9r\u00e9 (ethereal) - describing something as otherworldly or intangible\n5. Profond (deep, profound) - conveying a sense of inner depth and complexity\n6. Sublime (subliminal, transcendent) - suggesting a connection to the divine or the sublime\n7. Lumineux ( luminous) - describing something as radiant or glowing from within\n8. Surnaturel (supernatural) - implying a sense of beyond-the-norm or mysterious forces at work\n9. Introspectif (introspective) - conveying a sense of self-awareness and inner exploration\n10. Transcendant (transcendent, going beyond) - suggesting a connection to something greater than oneself\n\nThese words all have connotations that relate to the spiritual, mystical, or transcendent aspects of human experience, similar to \"divin\", \"spiritualit\u00e9\", and \"mystique\"."}
+T493.1294481549994 #279 extract_...
+T496.3459483360057 🤔 extract_1/6 #279 "enchanté" score? -1.93
+T496.34638483595336 attempt_278: "enchanté" score:-1.93 prog:None
+T511.40137842600234 🤔 extract_1/5 #280 "intemporel" score? #279 score -10.93
+T511.4016082829912 attempt_279: "intemporel" score:-10.93 prog:None
+T526.9775382449734 #281 ? #279 score -10.93
+T526.9778203360038 fix attempt_278: score:-10.93
+T566.0654573799693 #281 ? #280 score 30.73 prog 115
+T566.0657402869547 fix attempt_279: score:30.73 prog:115
+T570.3299857889651 #281 ? /e
+T571.2896720269928 #281 extract_...
+T574.2012129270006 🤔 extract_1/4 #281 "introspectif" score? 29.64
+T574.2013613939635 attempt_280: "introspectif" score:29.64 prog:None
+T579.9055960449623 🤔 extract_1/3 #282 "profond" score? 47.97
+T581.7054882670054 🤔 extract_1/3 #282 "profond" 47.97°C prog‰ ? 957
+T581.7056497279555 attempt_281: "profond" score:47.97 prog:957
+T585.4735817369656 🤔 extract_1/2 #283 "sublime" score? 24.52
+T585.4737960670027 attempt_282: "sublime" score:24.52 prog:None
+T589.9615377649898 🤔 extract_1/1 #284 "élégant" score? 6.76
+T589.9617015789845 attempt_283: "élégant" score:6.76 prog:None
+T604.0574738559662 #285 ? /prog
+T642.5135858439608 #285 ? *10 close $t3 #282
+T642.5137851999607 session clear
+T642.5139585330035 chat_prompt: {"prompt": "give me 10 French words that are close to $t3 and #282", "vars": [1, 2, 3], "ords": [282]}
+T642.5139842279605 session: {"role": "user", "content": "give me 10 French words that are close to \"spiritualit\u00e9\", \"mystique\", and \"divin\" and \"profond\""}
+T660.135089155985 session: {"role": "assistant", "content": "Here are 10 French words that convey similar meanings to \"spiritualit\u00e9\", \"mystique\", \"divin\", and \"profond\":\n\n1. \u00c9sprituel (espiritual)\n2. Surnaturel (supernatural)\n3. Sacr\u00e9 (sacred, holy)\n4. Intime (intimate, inner)\n5. Transcendant (transcendent)\n6. Mystique (mystical)\n7. \u00c9th\u00e9r\u00e9 (ethereal)\n8. Infini (infinite)\n9. Irr\u00e9el (irreal, otherworldly)\n10. Sacr\u00e9-c\u0153ur (sacred heart)\n\nNote that some of these words may have slightly different connotations or nuances, but they all generally convey a sense of something being spiritual, mystical, or deeply meaningful.\n\nIf you'd like to explore more, here are a few additional suggestions:\n\n* \"\u00c2me\" (soul)\n* \" \u00c2me-s\u0153ur\" (soul sister, a term used in some mystical traditions)\n* \"\u00c9ternel\" (eternal)\n* \"Infiniment proche\" (infinitely close, suggesting a deep connection to something greater)\n\nI hope this helps you find the right words for your French writing!"}
+T661.8818122399971 #285 extract_...
+T665.8255967290024 🤔 extract_1/4 #285 "infini" score? 33.62
+T669.1136444949661 🤔 extract_1/4 #285 "infini" 33.62°C prog‰ ? 407
+T669.1137774149538 attempt_284: "infini" score:33.62 prog:407
+T672.6895913860062 🤔 extract_1/3 #286 "intime" score? 41.21
+T676.9615132659674 🤔 extract_1/3 #286 "intime" 41.21°C prog‰ ? 820
+T676.9617125020013 attempt_285: "intime" score:41.21 prog:820
+T680.4973630899913 🤔 extract_1/2 #287 "irréel" score? 18.65
+T680.497509771958 attempt_286: "irréel" score:18.65 prog:None
+T682.8258133299532 🤔 extract_1/1 #288 "ésprituel" score? !
+T682.826021432993 reject: "ésprituel"
+T686.1132681709714 #288 ? /last
+T695.2820615079836 #288 ? Âme-sœur
+T697.9855632769759 🤔 entered #288 "âme-sœur" score? !
+T697.9856960729812 reject: "âme-sœur"
+T703.2903328109533 #288 ? 
+T704.7455478509655 #288 ? divin
+T709.1216276760097 #288 ? profond
+T713.9456791729899 #288 ? spiritualité
+T720.0178597489721 #288 ? Éternel
+T726.577965895005 🤔 entered #288 "éternel" score? 37.87 684
+T726.5782305459725 attempt_287: "éternel" score:37.87 prog:684
+T735.0913280649693 #289 ? Infiniment
+T742.1379253569758 🤔 entered #289 "infiniment" score? 30.69 111
+T742.1381511389627 attempt_288: "infiniment" score:30.69 prog:111
+T747.0256304849754 #290 ? proche
+T751.3777503489982 🤔 entered #290 "proche" score? 22.79
+T751.3779099739622 attempt_289: "proche" score:22.79 prog:None
+T752.5939370699925 #291 ? /prog
+T758.6252466699807 #291 ? *25 t5
+T758.6254400420003 session clear
+T758.6256229179562 chat_prompt: {"prompt": "give me 25 French words that are similar to $1, $2, $3, $4, and $5", "vars": [1, 2, 3, 4, 5], "ords": []}
+T758.6256616519531 session: {"role": "user", "content": "give me 25 French words that are similar to \"spiritualit\u00e9\", \"mystique\", \"divin\", \"m\u00e9ditation\", and \"esprit\""}
+T786.055954187992 session: {"role": "assistant", "content": "Here are 25 French words that convey similar meanings or connotations to the given terms:\n\n1. Sacr\u00e9 (sacred)\n2. Intuition\n3. \u00c9lan (spiritual energy or drive)\n4. \u00catre (being, existence)\n5. Connexion (connection, unity)\n6. Lumi\u00e8re (light, enlightenment)\n7. Transcendance (transcendence)\n8. \u00c2me (soul)\n9. V\u00e9rit\u00e9 (truth)\n10. \u00c9vocation (evocation, invocation)\n11. R\u00eaverie (daydreaming, lost in thought)\n12. Myst\u00e8re (mystery)\n13. Croyance (faith)\n14. Sagesse (wisdom)\n15. R\u00e9flexion (reflection)\n16. \u00c9l\u00e9gance (elegance, refinement)\n17. \u00c2ge (age, spiritual age)\n18. Intensit\u00e9 (intensity, passion)\n19. Absolu (absoluteness)\n20. Essentiel (essentiality)\n21. Essence (essence)\n22. Naturel (natural, innate)\n23. \u00c9lan vital (vital energy or drive)\n24. \u00cenfluence (influence, spiritual power)\n25. D\u00e9esse (goddess, divine feminine)\n\nNote that some of these words may have slightly different connotations or nuances in French, but they all generally convey a sense of spirituality, mysticism, or connection to the divine.\n\nHere are a few more explanations:\n\n* Sacr\u00e9 and v\u00e9rit\u00e9 evoke a sense of reverence and truth.\n* Lumi\u00e8re and \u00e2me suggest illumination and spiritual growth.\n* Connexion and essence imply unity and wholeness.\n* Myst\u00e8re and transcendance convey mystery and transcendence.\n* R\u00eaverie and r\u00e9flexion suggest a dreamlike or contemplative state.\n\nThese words can be used in various contexts to evoke different shades of meaning, from the abstract to the concrete."}
+T790.5296414360055 #291 extract_...
+T793.3452553419629 🤔 extract_1/7 #291 "connexion" score? -.93
+T793.3454059979995 attempt_290: "connexion" score:-0.93 prog:None
+T798.1297096780036 🤔 extract_1/6 #292 "croyance" score? 45.92 930
+T798.1299108630046 attempt_291: "croyance" score:45.92 prog:930
+T801.5053715609829 🤔 extract_1/5 #293 "déesse" score? 17.01
+T801.5055210029823 attempt_292: "déesse" score:17.01 prog:None
+T804.273934545985 🤔 extract_1/4 #294 "naturel" score? 27.29
+T804.2740847959649 attempt_293: "naturel" score:27.29 prog:None
+T809.4733577169827 🤔 extract_1/3 #295 "élégance" score? 11.5
+T809.4734476269805 attempt_294: "élégance" score:11.50 prog:None
+T815.0336030589533 🤔 extract_1/2 #296 "évocation" score? 25.7
+T815.0337766669691 attempt_295: "évocation" score:25.70 prog:None
+T821.7379014010075 🤔 extract_1/1 #297 "înfluence" score? !
+T821.7380547909997 reject: "înfluence"
+T860.1219677819754 <INT>
+T0.015847579983528703 now: 2024-11-23T08:44:18EST
+T0.01830680901184678 session model: llama
+T24.461791698995512 #297 ? /prog
+T31.64513437199639 #297 ? *15 close t5
+T31.645905521989334 session clear
+T31.646116322022863 chat_prompt: {"prompt": "give me 15 French words that are close to $1, $2, $3, $4, and $5", "vars": [1, 2, 3, 4, 5], "ords": []}
+T31.64615007402608 session: {"role": "user", "content": "give me 15 French words that are close to \"spiritualit\u00e9\", \"mystique\", \"divin\", \"m\u00e9ditation\", and \"esprit\""}
+T57.60334860300645 session: {"role": "assistant", "content": "Here are 15 French words related to \"spiritualit\u00e9\", \"mystique\", \"divin\", \"m\u00e9ditation\", and \"esprit\":\n\n1. \u00c9thos (ethos) - refers to a person's character or moral principles\n2. S\u00e9nitude (senitude) - an atmosphere of spirituality and introspection\n3. R\u00eave (dream) - can refer to spiritual aspirations or a state of mind\n4. Intuition (intuition) - the ability to acquire knowledge or insight without conscious reasoning\n5. Essence (essence) - the fundamental nature or spirit of something\n6. \u00c9manation (emanation) - an outward expression of one's inner self, often spiritual\n7. Lumi\u00e8re (light) - can symbolize enlightenment or spiritual awareness\n8. Transcendance (transcendence) - the act of going beyond the material world to a higher plane\n9. Intimit\u00e9 (intimacy) - closeness and connection with oneself or others on a deep level\n10. \u00c9l\u00e2ne (elane) - an archaic term for \"spirit\" or \"soul\"\n11. Mysticisme (mysticism) - the practice of seeking spiritual enlightenment through intuition and contemplation\n12. Pratique (practice) - the act of putting principles into action, often in a spiritual context\n13. \u00c2me (soul) - refers to the immaterial aspect of human nature\n14. C\u00e9l\u00e9bration (celebration) - an expression or acknowledgment of something sacred or meaningful\n15. Contemplation (contemplation) - reflection and study on spiritual subjects, often in a quiet state.\n\nNote: Some words may be more specific or have nuanced meanings than the ones given here."}
+T61.66143400798319 #297 extract_...
+T64.4932082160376 🤔 extract_1/5 #297 "célébration" score? 28.03
+T64.49336649803445 attempt_296: "célébration" score:28.03 prog:None
+T68.21348433900857 🤔 extract_1/4 #298 "sénitude" score? !
+T68.21364783099853 reject: "sénitude"
+T70.42149755603168 🤔 extract_1/3 #298 "élâne" score? !
+T70.42165025603026 reject: "élâne"
+T74.52674420701806 🤔 extract_1/2 #298 "émanation" score? 19.18
+T74.52692067000316 attempt_297: "émanation" score:19.18 prog:None
+T79.90942714299308 🤔 extract_1/1 #299 "éthos" score? !
+T79.9095661790343 reject: "éthos"
+T90.81361717899563 #299 ? > keep going
+T90.81390189001104 session: {"role": "user", "content": "keep going"}
+T125.19536623900058 session: {"role": "assistant", "content": "Here are 15 additional French words related to \"spiritualit\u00e9\", \"mystique\", \"divin\", \"m\u00e9ditation\", and \"esprit\":\n\n1. R\u00e9v\u00e9lation (revelation) - the act of revealing or making known something sacred or spiritual\n2. Illumination (illumination) - the process of gaining insight or enlightenment through spiritual practice\n3. Transfiguration (transformation) - a profound change in one's perspective or understanding, often spiritual\n4. \u00c9veil (awakening) - becoming aware of one's true nature or spiritual potential\n5. \u00catre (being) - refers to the fundamental nature or essence of something, including the human condition\n6. Jenseits (beyond) - a term used to describe the realm that lies beyond the physical world\n7. Sagesse (wisdom) - spiritual insight and understanding gained through experience and contemplation\n8. Spiritualit\u00e9 (spirituality) - the quality or state of being spiritual\n9. Visionnaire (visionary) - someone who has a profound vision or understanding of something spiritual\n10. \u00c9tat d'\u00e2me (state of soul) - refers to one's inner state or emotional condition, often influenced by spiritual practices\n11. Connexion (connection) - the bond between two or more things, including human beings and their spiritual aspects\n12. Lib\u00e9ration (liberation) - the process of freeing oneself from mental, emotional, or spiritual constraints\n13. \u00c9cho (echo) - a residual impression or reminder of something spiritual\n14. Int\u00e9riorisation (introspection) - the practice of looking inward to understand one's own thoughts and emotions\n15. Ascension (ascension) - the process of rising up or elevating oneself through spiritual practices, such as meditation and prayer.\n\nNote: As before, some words may have nuanced meanings or connotations that are not immediately apparent."}
+T127.09356394602219 #299 extract_...
+T130.91723685798934 🤔 extract_1/4 #299 "ascension" score? 29.16
+T130.91739070700714 attempt_298: "ascension" score:29.16 prog:None
+T137.46986526699038 🤔 extract_1/3 #300 "intériorisation" score? 34.41 470
+T137.4700687850127 attempt_299: "intériorisation" score:34.41 prog:470
+T139.75758368702373 🤔 extract_1/2 #301 "jenseits" score? !
+T139.7577892499976 reject: "jenseits"
+T142.17358791601146 🤔 extract_1/1 #301 "visionnaire" score? 20.43
+T142.1738041570061 attempt_300: "visionnaire" score:20.43 prog:None
+T146.38949325098656 #302 ? /prog
+T166.429072325991 #302 ? *15 rewordings of t3
+T166.42935353302164 session clear
+T166.42956304602558 chat_prompt: {"prompt": "give me 15 French words that are rewordings of $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T166.42959526501363 session: {"role": "user", "content": "give me 15 French words that are rewordings of \"spiritualit\u00e9\", \"mystique\", and \"divin\""}
+T180.9816587259993 session: {"role": "assistant", "content": "Here are 15 French words that can be used to express the concepts of \"spiritualit\u00e9\", \"mystique\", and \"divin\":\n\n1. Spiritualit\u00e9 (as you mentioned)\n2. Intuition\n3. Connexion\n4. S\u00e9r\u00e9nit\u00e9 (serenity)\n5. Transcendance (transcendence)\n6. \u00c9lan vital (vital energy or spiritual drive)\n7. Lumi\u00e8re int\u00e9rieure (inner light)\n8. Jourdain (a mystical or spiritual state of being)\n9. Esprit de vie (soul of life)\n10. Myst\u00e8re (mystery)\n11. Enchanteresse (enchanted one, implying a sense of mystique)\n12. \u00c2me (soul)\n13. R\u00e9v\u00e9lation\n14. Illumination\n15. Sagesse profonde (deep wisdom or spiritual insight)\n\nNote that these words can be used in various contexts to convey the meanings of \"spiritualit\u00e9\", \"mystique\", and \"divin\"."}
+T183.18136345903622 #302 extract_1
+T185.57290348102106 🤔 extract_1/1 #302 "enchanteresse" score? !
+T185.5730005230289 reject: "enchanteresse"
+T187.36534086603206 #302 ? /last
+T194.4618231090135 #302 ? profonde
+T197.3174244320253 🤔 entered #302 "profonde" score? !
+T197.31756310298806 reject: "profonde"
+T203.5256952100317 #302 ? intérieure
+T206.60537845198996 🤔 entered #302 "intérieure" score? !
+T206.6056071179919 reject: "intérieure"
+T225.27738383301767 #302 ? *15 alternatives t3
+T225.27762188203633 session clear
+T225.2778084470192 chat_prompt: {"prompt": "give me 15 French words that are alternatives to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T225.2778514259844 session: {"role": "user", "content": "give me 15 French words that are alternatives to \"spiritualit\u00e9\", \"mystique\", and \"divin\""}
+T251.31926801800728 session: {"role": "assistant", "content": "Here are 15 French words that can be used as alternatives to \"spiritualit\u00e9\", \"mystique\", and \"divin\":\n\n1. \u00c9lan vital (a term coined by Pierre Teilhard de Chardin, referring to the vital energy that drives human evolution)\n2. Cosmologie interne (interior cosmology, exploring the relationship between the individual and the universe)\n3. \u00c9nergie \u00e9motionnelle (emotional energy)\n4. Conscience collective (collective conscience, referring to a shared sense of values and principles)\n5. Nouveau mysticisme (new mysticism, emphasizing a more contemporary and inclusive approach to spiritual experiences)\n6. Sensibilit\u00e9 psychique (psychic sensitivity, referring to heightened intuition and emotional awareness)\n7. Vie \u00e9ternelle (eternal life, often used in esoteric or spiritual contexts)\n8. Jour de la cr\u00e9ation (day of creation, referring to the moment of birth or new beginning)\n9. Lumi\u00e8re int\u00e9rieure (inner light, symbolizing guidance and inner wisdom)\n10. Exp\u00e9rience spirituelle (spiritual experience, encompassing various forms of spiritual practice)\n11. R\u00e9sonance cosmique (cosmic resonance, describing a sense of harmony with the universe)\n12. Sagesse intuitive (intuitive wisdom)\n13. \u00c9volution personnelle (personal evolution, referring to individual growth and transformation)\n14. Terre sacr\u00e9e (sacred earth, emphasizing the importance of connecting with nature and the natural world)\n15. R\u00e9v\u00e9lation int\u00e9rieure (inner revelation, describing a direct experience of truth or insight)\n\nKeep in mind that some of these terms may have slightly different connotations or nuances than \"spiritualit\u00e9\", \"mystique\", or \"divin\". However, they can all be used to convey complex and abstract ideas related to spirituality, philosophy, and personal growth."}
+T252.81363311799942 #302 extract_...
+T255.5973800100037 🤔 extract_1/3 #302 "cosmologie" score? 21.9
+T255.59751286101528 attempt_301: "cosmologie" score:21.90 prog:None
+T258.14152737299446 🤔 extract_1/2 #303 "nouveau" score? 5.68
+T258.1416891629924 attempt_302: "nouveau" score:5.68 prog:None
+T260.71732547401916 🤔 extract_1/1 #304 "terre" score? 25.35
+T260.7174645490013 attempt_303: "terre" score:25.35 prog:None
+T261.5572583260364 #305 ? /last
+T267.74134935601614 #305 ? sacrée
+T270.26171926799 🤔 entered #305 "sacrée" score? !
+T270.2619141790201 reject: "sacrée"
+T274.3974011130049 #305 ? éternelle
+T276.89363822800806 🤔 entered #305 "éternelle" score? !
+T276.8937887729844 reject: "éternelle"
+T281.87739036098355 #305 ? mysticisme
+T287.902009996993 #305 ? personnelle
+T290.42215200403007 🤔 entered #305 "personnelle" score? !
+T290.4223030870198 reject: "personnelle"
+T291.5094561940059 #305 ? /last
+T297.1411860160297 #305 ? spirituelle
+T299.83931637799833 🤔 entered #305 "spirituelle" score? !
+T299.8396502790274 reject: "spirituelle"
+T304.76579080999363 #305 ? intérieure
+T309.5014138640254 #305 ? création
+T312.54241295403335 🤔 entered #305 "création" score? 6.51
+T312.54256391501985 attempt_304: "création" score:6.51 prog:None
+T325.46123824903043 #306 ? *25 close t25
+T325.46150655602105 session clear
+T325.4618365269853 chat_prompt: {"prompt": "give me 25 French words that are close to $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, and $25", "vars": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "ords": []}
+T325.46188549499493 session: {"role": "user", "content": "give me 25 French words that are close to \"spiritualit\u00e9\", \"mystique\", \"divin\", \"m\u00e9ditation\", \"esprit\", \"\u00e2me\", \"communion\", \"conscience\", \"sagesse\", \"pens\u00e9e\", \"transcendance\", \"contemplation\", \"profond\", \"surnaturel\", \"vie\", \"mysticisme\", \"\u00e9vang\u00e9lique\", \"croyance\", \"kundalini\", \"intellect\", \"intuition\", \"r\u00e9demption\", \"transcendant\", \"fraternit\u00e9\", and \"d\u00e9sir\""}
+T356.12089714600006 session: {"role": "assistant", "content": "Here are 25 French words that are close to the ones you provided:\n\n1. \u00c2me (soul)\n2. Espoir (hope)\n3. Purity (puret\u00e9)\n4. Profond\u00e9ment (deeply)\n5. S\u00e9r\u00e9nit\u00e9 (serenity)\n6. Introspection (introspection)\n7. \u00c9lan vital (vital energy)\n8. Myst\u00e8re (mystery)\n9. Illumination (illumination)\n10. R\u00e9v\u00e9lation (revelation)\n11. Conscience morale (moral conscience)\n12. Sentiment (sentiment)\n13. Empathie (empathy)\n14. Intu\u00eftive (intuitive)\n15. Imagination (imagination)\n16. Visionnaire (visionary)\n17. Symbolique (symbolic)\n18. Transcendance du sens (transcendence of meaning)\n19. Esprit de corps (esprit de corps, teamwork)\n20. Harmonie interne (internal harmony)\n21. Luminosit\u00e9 (luminosity)\n22. R\u00e9alisation spirituelle (spiritual realization)\n23. D\u00e9veloppement personnel (personal development)\n24. \u00c9panouissement (enlightenment)\n25. Unity (unit\u00e9)\n\nNote that some of these words may not be exact translations or synonyms, but they are all related to the themes and concepts you provided.\n\nHere's a breakdown of the categories:\n\n* Words related to spirituality: \u00e2me, esprit, spiritualit\u00e9, mystique, transendance, kundalini\n* Words related to introspection and self-awareness: introspection, conscience morale, sentiment, empathie, intu\u00eftive\n* Words related to growth and development: d\u00e9veloppement personnel, \u00e9panouissement, r\u00e9alisation spirituelle\n* Words related to unity and harmony: unit\u00e9, harmonie interne, fraternit\u00e9"}
+T369.36568222701317 #306 extract_...
+T372.061590317986 🤔 extract_1/7 #306 "développement" score? 8.47
+T372.0617707610363 attempt_305: "développement" score:8.47 prog:None
+T375.0937887210166 🤔 extract_1/6 #307 "empathie" score? 28.78
+T375.0939761539921 attempt_306: "empathie" score:28.78 prog:None
+T381.02131024503615 🤔 extract_1/5 #308 "profondément" score? 43.73 892
+T381.021472153021 attempt_307: "profondément" score:43.73 prog:892
+T384.6294741500169 🤔 extract_1/4 #309 "purity" score? !
+T384.6296118919854 reject: "purity"
+T390.5973113150103 🤔 extract_1/3 #309 "symbolique" score? 35.2 533
+T390.59747272502864 attempt_308: "symbolique" score:35.20 prog:533
+T393.7013688550214 🤔 extract_1/2 #310 "unity" score? !
+T393.70149270200636 reject: "unity"
+T398.3893793300376 🤔 extract_1/1 #310 "épanouissement" score? 45 910
+T398.38953607098665 attempt_309: "épanouissement" score:45.00 prog:910
+T400.1414959770045 #311 ? _
+T400.14179155399324 chat_prompt: _
+T400.1418496420374 session: {"role": "user", "content": "give me 25 French words that are close to \"spiritualit\u00e9\", \"mystique\", \"divin\", \"m\u00e9ditation\", \"esprit\", \"\u00e2me\", \"communion\", \"conscience\", \"sagesse\", \"pens\u00e9e\", \"transcendance\", \"contemplation\", \"profond\", \"surnaturel\", \"vie\", \"mysticisme\", \"\u00e9vang\u00e9lique\", \"croyance\", \"kundalini\", \"intellect\", \"\u00e9panouissement\", \"intuition\", \"r\u00e9demption\", \"profond\u00e9ment\", and \"transcendant\""}
+T437.9765332789975 session: {"role": "assistant", "content": "Here are 25 French words that are close to the ones you provided:\n\n1. \u00c2me (soul)\n2. Espirit (spirit)\n3. Conscience (conscience)\n4. Sagesse (wisdom)\n5. Pens\u00e9e (thought, idea)\n6. \u00c9lan vital (vital energy)\n7. Myst\u00e8re (mystery)\n8. Transcendance (transcendence)\n9. Contemplation (contemplation)\n10. Profond (deep, profound)\n11. Surnaturel (supernatural)\n12. Vie int\u00e9rieure (inner life)\n13. M\u00e9ditation (meditation)\n14. R\u00e9demption (redemption)\n15. Transcendant (transcendent)\n16. \u00c2me incarn\u00e9e (incarnated soul)\n17. \u00c9nergie vitale (vital energy)\n18. Conscience morale (moral conscience)\n19. Sentiment spirituel (spiritual feeling)\n20. Illumination (illumination)\n21. R\u00e9v\u00e9lation spirituelle (spiritual revelation)\n22. Communication spirituelle (spiritual communication)\n23. Culte (worship, devotion)\n24. \u00c9piphanie (epiphany)\n25. Union avec Dieu (union with God)\n\nNote that some of these words may have slightly different connotations or nuances than the original words you provided, but they are all related to spiritual concepts and themes.\n\nHere's a breakdown of the categories:\n\n* Words related to spirituality: \u00e2me, esprit, conscience, sagesse, pens\u00e9e\n* Words related to introspection and self-awareness: introspection, contemplation, profond, surnaturel\n* Words related to growth and development: d\u00e9veloppement personnel (personal development), \u00e9panouissement (enlightenment)\n* Words related to unity and harmony: union avec Dieu (union with God), communication spirituelle (spiritual communication)\n* Words related to mysticism and the supernatural: myst\u00e8re, surnaturel, kundalini\n* Words related to worship and devotion: culte"}
+T440.7016161790234 #311 extract_...
+T443.525516994996 🤔 extract_1/4 #311 "communication" score? 3.84
+T443.5256915729842 attempt_310: "communication" score:3.84 prog:None
+T448.73353936400963 🤔 extract_1/3 #312 "culte" score? 29.76
+T448.733723982994 attempt_311: "culte" score:29.76 prog:None
+T451.20555506501114 🤔 extract_1/2 #313 "union" score? 18.43
+T451.20576868602075 attempt_312: "union" score:18.43 prog:None
+T453.9893114170409 🤔 extract_1/1 #314 "épiphanie" score? 22.8
+T453.9894878860214 attempt_313: "épiphanie" score:22.80 prog:None
+T454.9974183770246 #315 ? /last
+T462.79744511202443 #315 ? Dieu
+T467.81356387399137 🤔 entered #315 "dieu" score? 55.48 991
+T467.8137373870122 attempt_314: "dieu" score:55.48 prog:991
+T492.7814618310076 #316 ? incarnée
+T495.58164290798595 🤔 entered #316 "incarnée" score? !
+T495.5817584450124 reject: "incarnée"
+T497.39721702301176 #316 ? /last
+T517.7492435289896 #316 ? *24 close t6
+T517.7495557130314 session clear
+T517.7498378260061 chat_prompt: {"prompt": "give me 24 French words that are close to $1, $2, $3, $4, $5, and $6", "vars": [1, 2, 3, 4, 5, 6], "ords": []}
+T517.7498933330062 session: {"role": "user", "content": "give me 24 French words that are close to \"spiritualit\u00e9\", \"mystique\", \"divin\", \"m\u00e9ditation\", \"esprit\", and \"dieu\""}
+T534.8369516090024 session: {"role": "assistant", "content": "Here are 24 French words related to the themes you provided:\n\n1. S\u00e9r\u00e9nit\u00e9 (serenity)\n2. Introspection (r\u00e9flexion)\n3. Transcendance (transcendence)\n4. Myst\u00e9rieux (mysterious)\n5. Divinis\u00e9 (divine)\n6. Spirituel (spiritual)\n7. \u00cenfini (infinitely great)\n8. Sacr\u00e9 (sacred)\n9. Pr\u00e9sence (presence)\n10. Connexion (connection)\n11. \u00catre-en-moi-m\u00eame (being-in-the-self)\n12. Lib\u00e9ration (liberation)\n13. \u00c9piphanie (epiphany)\n14. Inspiration (inspiration)\n15. R\u00eave (dream)\n16. Esprit de corps (spirit of the group)\n17. Confiance (faith)\n18. Fid\u00e9lit\u00e9 (loyalty)\n19. Sagesse (wisdom)\n20. Intuition (intuition)\n21. Visionnaire (visionary)\n22. \u00c9lan vital (vital energy)\n23. \u00catre-\u00e0-l'autre (being-for-others)\n24. Transcender"}
+T539.9253047300153 #316 extract_...
+T543.6778590260074 🤔 extract_1/9 #316 "autre" score? 28.97
+T543.678148003004 attempt_315: "autre" score:28.97 prog:None
+T545.9658103369875 🤔 extract_1/8 #317 "divinisé" score? !
+T545.966029778996 reject: "divinisé"
+T548.8215356930159 🤔 extract_1/7 #317 "fidélité" score? 25.17
+T548.8216832189937 attempt_316: "fidélité" score:25.17 prog:None
+T550.7334427430178 🤔 extract_1/6 #318 "moi" score? 3
+T550.7335568990093 attempt_317: "moi" score:3.00 prog:None
+T553.7583664720296 🤔 extract_1/5 #319 "même" score? 21.53
+T553.7585183689953 attempt_318: "même" score:21.53 prog:None
+T559.7973532869946 🤔 extract_1/4 #320 "spirituel" score? 100 1000
+T559.7974898029934 attempt_319: "spirituel" score:100.00 prog:1000
+T566.7101590860402 Paste share result, then preses <Enter>
+T566.7164476650069 share result: "J'ai trouv\u00e9 #cemantix n\u00ba997 en 319 coups !\n\ud83e\udd73\n\ud83d\ude31\n\ud83d\udd255\ufe0f\u20e3\n\ud83e\udd751\ufe0f\u20e38\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e6\ufe0f\u20e32\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd762\ufe0f\u20e30\ufe0f\u20e32\ufe0f\u20e3\n\ud83e\uddca\ud83e\uddca\ud83e\uddca3\ufe0f\u20e30\ufe0f\u20e3\nhttps://cemantix.certitudes.org/"
+T566.7175109530217 <STOP>
