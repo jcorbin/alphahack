@@ -1,0 +1,210 @@
+T0.004418019962031394 now: 2024-11-23T11:55:21EST
+T10.074471211992204 🔗 cemantle.certitudes.org ? 
+T10.074651924951468 site: cemantle.certitudes.org
+T10.89897454896709 🌎  ? 
+T10.899095306987874 lang: 
+T13.242957247945014 🧩  ? #964
+T13.243303516996093 puzzle_id: #964
+T16.64251343399519 😎 °C ? 23.43
+T16.642679446958937 scale: 😎 23.43 °C
+T19.474456657946575 🥵 °C ? 37.68
+T19.474636293947697 scale: 🥵 37.68 °C
+T22.122789677989203 🔥 °C ? 49.56
+T22.12297862995183 scale: 🔥 49.56 °C
+T25.5229672039859 😱 °C ? 63.64
+T25.523122796963435 scale: 😱 63.64 °C
+T25.573151145945303 session model: llama
+T25.573239634977654 session clear
+T25.5733373319963 session: {"role": "user", "content": "give me 10 words that are not similar to each other"}
+T33.41693877498619 session: {"role": "assistant", "content": "Here are 10 words that are not similar to each other:\n\n1. Pineapple\n2. Guitar\n3. Snowflake\n4. Perfume\n5. Submarine\n6. Library\n7. Harmonica\n8. Kitten\n9. Bicycle\n10. Diamond"}
+T36.250854287995026 #1 extract_...
+T41.96311103395419 🤔 extract_1/10 #1 "bicycle" score? 7.83
+T41.96331444894895 attempt_0: "bicycle" score:7.83 prog:None
+T44.6190319689922 🤔 extract_1/9 #2 "diamond" score? .68
+T44.61922604299616 attempt_1: "diamond" score:0.68 prog:None
+T48.05868479196215 🤔 extract_1/8 #3 "guitar" score? 8.66
+T48.058842806960456 attempt_2: "guitar" score:8.66 prog:None
+T51.122621740971226 🤔 extract_1/7 #4 "harmonica" score? 6.62
+T51.12276362098055 attempt_3: "harmonica" score:6.62 prog:None
+T53.82729854097124 🤔 extract_1/6 #5 "kitten" score? 21.14
+T53.82753609895008 attempt_4: "kitten" score:21.14 prog:None
+T66.50792266597273 🤔 extract_1/5 #6 "library" score? 27.00 467
+T66.50812156795291 attempt_5: "library" score:27.00 prog:467
+T71.4824858859647 🤔 extract_1/4 #7 "perfume" score? -2.26
+T71.48257006896893 attempt_6: "perfume" score:-2.26 prog:None
+T78.84314657695359 🤔 extract_1/3 #8 "pineapple" score? 12.61
+T78.84337602095911 attempt_7: "pineapple" score:12.61 prog:None
+T82.90702012897236 🤔 extract_1/2 #9 "snowflake" score? 23.47
+T84.818801315967 🤔 extract_1/2 #9 "snowflake" 23.47°C prog‰ ? 10
+T84.81896487798076 attempt_8: "snowflake" score:23.47 prog:10
+T87.53083372599212 🤔 extract_1/1 #10 "submarine" score? 1.62
+T87.53098018595483 attempt_9: "submarine" score:1.62 prog:None
+T91.30701952299569 #11 ? *10 related t2
+T91.30796048394404 session clear
+T91.30826612300007 chat_prompt: {"prompt": "give me 10 words that are related to $1 and $2", "vars": [1, 2], "ords": []}
+T91.30830387899186 session: {"role": "user", "content": "give me 10 words that are related to \"library\" and \"snowflake\""}
+T95.36562363896519 session: {"role": "assistant", "content": "What a unique combination! Here are 10 words that might fit:\n\n1. Book\n2. Shelf\n3. Frost\n4. Page\n5. Ice\n6. Catalog\n7. Collection\n8. Snowy\n9. Dewey\n10. Silence"}
+T97.21090003399877 #11 extract_...
+T99.76279095199425 🤔 extract_1/10 #11 "book" score? 14.84
+T99.7629730529734 attempt_10: "book" score:14.84 prog:None
+T119.4752020619926 🤔 extract_1/9 #12 "catalog" score? 24.12 128
+T119.47543491097167 attempt_11: "catalog" score:24.12 prog:128
+T122.65875292394776 🤔 extract_1/8 #13 "collection" score? 20.73
+T122.6589178549475 attempt_12: "collection" score:20.73 prog:None
+T124.96287868195213 🤔 extract_1/7 #14 "dewey" score? !
+T124.96300931298174 reject: "dewey"
+T127.98653239494888 🤔 extract_1/6 #14 "frost" score? 8.83
+T127.98664858896518 attempt_13: "frost" score:8.83 prog:None
+T130.29113160894485 #15 ? _
+T130.29154228197876 chat_prompt: _
+T130.29194146196824 session: {"role": "user", "content": "give me 10 words that are related to \"library\" and \"catalog\""}
+T135.3985524289892 session: {"role": "assistant", "content": "A great pairing! Here are 10 words that might fit:\n\n1. Bookshelf\n2. Inventory\n3. Classification\n4. Indexing\n5. Database\n6. Cataloger\n7. Organize\n8. Shelve\n9. Record\n10. Bibliography"}
+T136.60292493499583 #15 extract_...
+T140.29137559694936 🤔 extract_1/10 #15 "bibliography" score? 29.22
+T142.86690229497617 🤔 extract_1/10 #15 "bibliography" 29.22°C prog‰ ? 637
+T142.86702768399846 attempt_14: "bibliography" score:29.22 prog:637
+T148.41920846496942 🤔 extract_1/9 #16 "bookshelf" score? 45.81 971
+T148.41946850594832 attempt_15: "bookshelf" score:45.81 prog:971
+T152.38019994198112 #17 ? _
+T152.38043777598068 chat_prompt: _
+T152.3804984599701 session: {"role": "user", "content": "give me 10 words that are related to \"bookshelf\" and \"bibliography\""}
+T157.35303762799595 session: {"role": "assistant", "content": "A great combination of book-related terms! Here are 10 words that might fit:\n\n1. Library\n2. Cataloging\n3. Reference\n4. Collection\n5. Index\n6. Authoritative\n7. Annotation\n8. Bibliophile\n9. Research\n10. Inventory"}
+T161.08320045494474 #17 extract_...
+T166.36306166194845 🤔 extract_1/8 #17 "annotation" score? 36.84 887
+T166.36325285199564 attempt_16: "annotation" score:36.84 prog:887
+T169.77112302195746 🤔 extract_1/7 #18 "authoritative" score? .97
+T169.77134406397818 attempt_17: "authoritative" score:0.97 prog:None
+T173.7469185879454 🤔 extract_1/6 #19 "bibliophile" score? 14.21
+T173.74709534196882 attempt_18: "bibliophile" score:14.21 prog:None
+T175.06685256195487 #20 ? _
+T175.06705957796657 chat_prompt: _
+T175.06712601496838 session: {"role": "user", "content": "give me 10 words that are related to \"bookshelf\" and \"annotation\""}
+T180.03784656198695 session: {"role": "assistant", "content": "A fascinating pairing! Here are 10 words that might fit:\n\n1. Marginalia\n2. Note-taking\n3. Reviewer\n4. Editor\n5. Critique\n6. Analysis\n7. Commentary\n8. Excerpt\n9. Notation\n10. Scholarship"}
+T182.9470171869616 #20 extract_...
+T185.27518598199822 🤔 extract_1/11 #20 "analysis" score? 3.36
+T185.27542977797566 attempt_19: "analysis" score:3.36 prog:None
+T189.7072165099671 🤔 extract_1/10 #21 "commentary" score? 1.05
+T189.70743778295582 attempt_20: "commentary" score:1.05 prog:None
+T193.7067910359474 🤔 extract_1/9 #22 "critique" score? 4.15
+T193.70697141997516 attempt_21: "critique" score:4.15 prog:None
+T197.04310690896818 🤔 extract_1/8 #23 "editor" score? 9.23
+T197.0432816859684 attempt_22: "editor" score:9.23 prog:None
+T199.8663083249703 🤔 extract_1/7 #24 "excerpt" score? 16.16
+T199.86639099795138 attempt_23: "excerpt" score:16.16 prog:None
+T204.73880226997426 🤔 extract_1/6 #25 "marginalia" score? 23.89 88
+T204.7389831999899 attempt_24: "marginalia" score:23.89 prog:88
+T211.46690223395126 🤔 extract_1/5 #26 "notation" score? 36.45 879
+T211.4670973039465 attempt_25: "notation" score:36.45 prog:879
+T214.05142882396467 🤔 extract_1/4 #27 "note" score? 11.57
+T214.05194085399853 attempt_26: "note" score:11.57 prog:None
+T217.2753960529808 🤔 extract_1/3 #28 "reviewer" score? 6.68
+T217.27569008397404 attempt_27: "reviewer" score:6.68 prog:None
+T219.72277031594422 🤔 extract_1/2 #29 "scholarship" score? 2.25
+T219.7229860649677 attempt_28: "scholarship" score:2.25 prog:None
+T222.3863766369759 🤔 extract_1/1 #30 "taking" score? .79
+T222.38644096197095 attempt_29: "taking" score:0.79 prog:None
+T226.63513989397325 #31 ? /prog
+T230.7392388539738 #31 ? *10 #26
+T230.73958395898808 session clear
+T230.7398750219727 chat_prompt: {"prompt": "give me 10 words that are similar to #26", "vars": [], "ords": [26]}
+T230.7399362489814 session: {"role": "user", "content": "give me 10 words that are similar to \"notation\""}
+T236.0638104369864 session: {"role": "assistant", "content": "Here are 10 words that are similar to \"notation\":\n\n1. Notation\n2. Symbolic\n3. Code\n4. Signature\n5. Emblem\n6. Mark\n7. Signifier\n8. Label\n9. Indicator\n10. Denotation\n\nThese words all relate to the idea of using symbols, marks, or signs to convey meaning or represent something."}
+T245.0746819349588 #31 extract_...
+T249.81096429895842 🤔 extract_1/9 #31 "code" score? 26.04 360
+T249.81121050397633 attempt_30: "code" score:26.04 prog:360
+T252.24289584095823 🤔 extract_1/8 #32 "denotation" score? 17.21
+T252.24308315297822 attempt_31: "denotation" score:17.21 prog:None
+T258.683493051969 🤔 extract_1/7 #33 "emblem" score? 12.77
+T258.68380207399605 attempt_32: "emblem" score:12.77 prog:None
+T262.0749540399993 🤔 extract_1/6 #34 "indicator" score? 5.68
+T262.0751061079791 attempt_33: "indicator" score:5.68 prog:None
+T264.7713783599902 🤔 extract_1/5 #35 "label" score? 22.57
+T264.7716716249706 attempt_34: "label" score:22.57 prog:None
+T266.85117885196814 🤔 extract_1/4 #36 "mark" score? 1.4
+T266.851434836979 attempt_35: "mark" score:1.40 prog:None
+T269.2272228099755 🤔 extract_1/3 #37 "signature" score? 12.44
+T269.22744972794317 attempt_36: "signature" score:12.44 prog:None
+T274.7063095829799 🤔 extract_1/2 #38 "signifier" score? 18.93
+T274.70645502995467 attempt_37: "signifier" score:18.93 prog:None
+T277.77119664498605 🤔 extract_1/1 #39 "symbolic" score? 1.62
+T277.77143049496226 attempt_38: "symbolic" score:1.62 prog:None
+T284.18583096796647 #40 ? *15 t3
+T284.1859608209925 session clear
+T284.1860591149889 chat_prompt: {"prompt": "give me 15 words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T284.18607304396573 session: {"role": "user", "content": "give me 15 words that are similar to \"bookshelf\", \"annotation\", and \"notation\""}
+T293.6538837919943 session: {"role": "assistant", "content": "Here are 15 words that are similar to \"bookshelf\", \"annotation\", and \"notation\":\n\n1. Shelf\n2. Annotation\n3. Notation\n4. Catalogue\n5. Index\n6. Encyclopedia\n7. Bibliography\n8. Reference\n9. Lexicon\n10. Glossary\n11. Register\n12. Cataloging\n13. Classification\n14. Document\n15. Inventory\n\nThese words all relate to the organization, storage, and documentation of information, which is similar to the concepts represented by \"bookshelf\", \"annotation\", and \"notation\"."}
+T295.434467717947 #40 extract_...
+T299.8578909439966 🤔 extract_1/12 #40 "cataloging" score? !catalog
+T299.8579430069658 reject: "cataloging"
+T305.5539279319928 🤔 extract_1/11 #40 "catalogue" score? 24.12 128
+T305.5539865559549 attempt_39: "catalogue" score:24.12 prog:128
+T308.74625320499763 🤔 extract_1/10 #41 "classification" score? 13.46
+T308.74633636395447 attempt_40: "classification" score:13.46 prog:None
+T312.67406292498345 🤔 extract_1/9 #42 "document" score? 36.77
+T315.4258555309498 🤔 extract_1/9 #42 "document" 36.77°C prog‰ ? 885
+T315.42592254298506 attempt_41: "document" score:36.77 prog:885
+T319.7070491039776 🤔 extract_1/8 #43 "encyclopedia" score? 18.61
+T319.70720049995 attempt_42: "encyclopedia" score:18.61 prog:None
+T322.4022072269581 🤔 extract_1/7 #44 "glossary" score? 19.25
+T322.40233861195156 attempt_43: "glossary" score:19.25 prog:None
+T325.30626050796127 🤔 extract_1/6 #45 "index" score? 14.9
+T325.30637897597626 attempt_44: "index" score:14.90 prog:None
+T329.2986006749561 #46 ? _
+T329.2989216799615 chat_prompt: _
+T329.29902041197056 session: {"role": "user", "content": "give me 15 words that are similar to \"bookshelf\", \"annotation\", and \"document\""}
+T338.99886552395765 session: {"role": "assistant", "content": "Here are 15 words that are similar to \"bookshelf\", \"annotation\", and \"document\":\n\n1. Archive\n2. Collection\n3. Library\n4. Indexing\n5. Cataloging\n6. File\n7. Record\n8. Register\n9. Ledger\n10. Filing\n11. Storage\n12. Vault\n13. Repository\n14. Archival\n15. Scrapbook\n\nThese words all relate to the organization, storage, and management of physical or digital records, which is similar to the concepts represented by \"bookshelf\", \"annotation\", and \"document\"."}
+T344.48298816999886 #46 extract_...
+T348.5463453059783 🤔 extract_1/12 #46 "archival" score? 24.95
+T353.2514330059639 🤔 extract_1/12 #46 "archival" 24.95°C prog‰ ? 235
+T353.25177415699 attempt_45: "archival" score:24.95 prog:235
+T365.1710397779825 🤔 extract_1/11 #47 "archive" score? 26.16 376
+T365.17121883499203 attempt_46: "archive" score:26.16 prog:376
+T370.3870114029851 🤔 extract_1/10 #48 "file" score? 48.3 983
+T370.38728549098596 attempt_47: "file" score:48.30 prog:983
+T374.08512545895064 🤔 extract_1/9 #49 "filing" score? 16.26
+T374.08535089099314 attempt_48: "filing" score:16.26 prog:None
+T380.6581759629771 🤔 extract_1/8 #50 "indexing" score? 32.63 781
+T380.65827671496663 attempt_49: "indexing" score:32.63 prog:781
+T386.3391472279909 🤔 extract_1/7 #51 "ledger" score? 26.93 461
+T386.3393986999872 attempt_50: "ledger" score:26.93 prog:461
+T389.0429832559894 🤔 extract_1/6 #52 "record" score? 8.05
+T389.0431560649886 attempt_51: "record" score:8.05 prog:None
+T392.586863503966 🤔 extract_1/5 #53 "register" score? 7.59
+T392.58706454595085 attempt_52: "register" score:7.59 prog:None
+T397.05934516497655 🤔 extract_1/4 #54 "repository" score? 39.06
+T398.8106032559881 🤔 extract_1/4 #54 "repository" 39.06°C prog‰ ? 922
+T398.81075609097024 attempt_53: "repository" score:39.06 prog:922
+T404.64304081199225 🤔 extract_1/3 #55 "scrapbook" score? 42.14 951
+T404.64326253696345 attempt_54: "scrapbook" score:42.14 prog:951
+T412.79476060398156 🤔 extract_1/2 #56 "storage" score? 25.92 350
+T412.79499408998527 attempt_55: "storage" score:25.92 prog:350
+T416.8030352459755 🤔 extract_1/1 #57 "vault" score? 21.64
+T416.8031572449836 attempt_56: "vault" score:21.64 prog:None
+T419.6749600269832 #58 ? _
+T419.67522697197273 chat_prompt: _
+T419.67529606696917 session: {"role": "user", "content": "give me 15 words that are similar to \"file\", \"bookshelf\", and \"scrapbook\""}
+T429.3257672279724 session: {"role": "assistant", "content": "Here are 15 words that are similar to \"file\", \"bookshelf\", and \"scrapbook\":\n\n1. Drawer\n2. Cabinet\n3. Chest\n4. Trunk\n5. Safe\n6. Box\n7. Folder\n8. Binder\n9. Album\n10. Portfolio\n11. Attic\n12. Storage unit\n13. Closet\n14. Vault\n15. Archive box\n\nThese words all relate to the organization, storage, and containment of physical or digital items, which is similar to the concepts represented by \"file\", \"bookshelf\", and \"scrapbook\"."}
+T431.84236783598317 #58 extract_...
+T437.2828994199517 🤔 extract_1/12 #58 "album" score? 15.01
+T437.2830868549645 attempt_57: "album" score:15.01 prog:None
+T442.7550645979936 🤔 extract_1/11 #59 "attic" score? 28.5 588
+T442.7553026829846 attempt_58: "attic" score:28.50 prog:588
+T449.45044435199816 🤔 extract_1/10 #60 "binder" score? 49.37 988
+T449.4505248819478 attempt_59: "binder" score:49.37 prog:988
+T455.0671495079878 🤔 extract_1/9 #61 "box" score? 27 468
+T455.06735354400007 attempt_60: "box" score:27.00 prog:468
+T460.83521876699524 🤔 extract_1/8 #62 "cabinet" score? 25.81
+T463.51485140499426 🤔 extract_1/8 #62 "cabinet" 25.81°C prog‰ ? 340
+T463.51502914796583 attempt_61: "cabinet" score:25.81 prog:340
+T466.3063012029743 🤔 extract_1/7 #63 "chest" score? 14.61
+T466.3063794999616 attempt_62: "chest" score:14.61 prog:None
+T472.93901982397074 🤔 extract_1/6 #64 "closet" score? 36.03
+T482.9787618579576 🤔 extract_1/6 #64 "closet" 36.03°C prog‰ ? 867
+T482.9789001539466 attempt_63: "closet" score:36.03 prog:867
+T489.14700505294604 🤔 extract_1/5 #65 "drawer" score? 46.61 978
+T489.1471998109482 attempt_64: "drawer" score:46.61 prog:978
+T495.00286846299423 🤔 extract_1/4 #66 "folder" score? 100 1000
+T495.0030310229631 attempt_65: "folder" score:100.00 prog:1000
+T500.81104057695484 Paste share result, then preses <Enter>
+T500.8184240219998 share result: "I found #cemantle #964 in 67 guesses!\n\ud83e\udd73\n\ud83e\udd756\ufe0f\u20e3\n\ud83d\ude0e1\ufe0f\u20e39\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd764\ufe0f\u20e30\ufe0f\u20e3\n\ud83e\uddca\nhttps://cemantle.certitudes.org/"
+T500.8195779149537 <STOP>
