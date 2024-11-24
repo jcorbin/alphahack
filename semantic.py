@@ -9,10 +9,10 @@ import re
 import subprocess
 from bs4 import BeautifulSoup
 from collections import Counter
-from collections.abc import Generator, Iterable, Sequence
-from dataclasses import dataclass, asdict
+from collections.abc import Generator, Iterable, Iterator, Sequence
+from dataclasses import dataclass
 from dateutil.tz import gettz
-from typing import assert_never, cast, final, override, Any, Callable, Literal
+from typing import assert_never, cast, final, overload, override, Any, Callable, Literal
 from urllib.parse import urlparse
 
 from store import StoredLog, atomic_file, break_sections, git_txn, replace_sections
@@ -253,43 +253,122 @@ def expand_word_refs(s: str, deref: WordDeref):
 def count_tokens(s: str):
     return sum(1 for _ in re.finditer(r'[^\s]+', s))
 
-@final
-@dataclass
-class ChatPrompt:
-    prompt: str
-    vars: tuple[int, ...] = tuple()
-    ords: tuple[int, ...] = tuple()
+trailer_seps = ';.'
 
-    @classmethod
-    def from_prompt(cls, prompt: str):
+@final
+class ChatPrompt:
+    pattern = re.compile(r'''(?x)
+        give .*? (?P<count> \d+ )
+        (?: \s+ (?P<kind> .+? ) )?
+        \s+ words
+        \s+ (?P<rel> [^;.]+? )
+        \s*
+        $
+    ''')
+
+    def __init__(self,
+                 prompt: str = '',
+                 count: int = 10,
+                 kind: str|None = None,
+                 rel: str = 'related',
+                 trailer: str|None = None):
+        self.prompt = prompt
+        self.count = count
+        self.kind = kind
+        self.rel = rel
+        self.trailer = trailer
+
+        for sep in trailer_seps:
+            i = prompt.find(sep)
+            if i > 0:
+                prompt, self.trailer = prompt[:i], prompt[i:]
+                break
+
+        for match in word_ref_pattern.finditer(prompt):
+            prior = prompt[:match.start(0)]
+            match = self.pattern.match(prior)
+            break
+        else:
+            match = self.pattern.match(prompt)
+
+        if match:
+            self.count = int(match.group(1))
+            self.kind = cast(str|None, match.group(2) or None)
+            self.rel = cast(str, match.group(3) or '')
+
+        elif prompt:
+            raise ValueError('unrecognized chat prompt')
+
         vars: list[int] = []
         ords: list[int] = []
         for k, n in word_refs(prompt):
             if k == '$': vars.append(n)
             elif k == '#': ords.append(n)
-        return cls(prompt, tuple(vars), tuple(ords))
+        self.vars = tuple(vars)
+        self.ords = tuple(ords)
 
-    @classmethod
-    def from_dict(cls, dat: dict[str, Any]):
-        prompt = dat['prompt'] # pyright: ignore[reportAny]
-        assert isinstance(prompt, str)
+        if not self.prompt:
+            self.prompt = self.rebuild()
 
-        vars: list[Any] = dat.get('vars') or []
-        assert isinstance(vars, list)
-        assert all(isinstance(_, int) for _ in vars) # pyright: ignore[reportAny]
+    @override
+    def __repr__(self):
+        return f'ChatPrompt(prompt={self.prompt!r}, count={self.count}, kind={self.kind!r}, rel={self.rel!r}, trailer={self.trailer!r})'
 
-        ords: list[Any] = dat.get('ords') or []
-        assert isinstance(ords, list)
-        assert all(isinstance(_, int) for _ in ords) # pyright: ignore[reportAny]
-
-        return cls(prompt, tuple(vars), tuple(ords))
-
-    def expand(self, deref: WordDeref):
-        return expand_word_refs(self.prompt, deref)
+    @property
+    def num_refs(self):
+        return len(self.vars) + len(self.ords)
 
     def refs(self) -> Generator[tuple[WordRef, int]]:
         for n in self.vars: yield '$', n
         for n in self.ords: yield '#', n
+
+    def rebuild(self,
+        count: int|None = None,
+        kind: str|None = None,
+        rel: str|None = None,
+        like: Sequence[str] = (),
+        unlike: Sequence[str] = (),
+        trailer: Iterable[str]|str|None = None,
+    ):
+        return ''.join(build_prompt(
+            like, unlike,
+            count=count or self.count,
+            kind=self.kind if kind is None else kind,
+            rel=self.rel if rel is None else rel,
+            trailer=self.trailer if trailer is None else trailer,
+        ))
+
+def cleanse_rel(rel: str):
+    neg: bool = False
+    rel = re.sub(r'\s+', ' ', rel.strip())
+
+    if rel.endswith(' each other'):
+        rel = rel[:-11]
+
+    for p in ('that ', 'are '):
+        if rel.startswith(p): rel = rel[len(p):]
+
+    for p in ('not ', 'do not '):
+        if rel.startswith(p):
+            neg = True
+            rel = rel[len(p):]
+            break
+    return neg, rel
+
+def phrase_rel(rel: str, neg: bool = False):
+    _, rel = cleanse_rel(rel)
+
+    if ' ' not in rel: rel = f'{rel} to'
+
+    for s in (' to', ' with'):
+        if rel.endswith(s):
+            rel = f'are not {rel}' if neg else f'are {rel}'
+            break
+    else:
+        if neg: rel = f'do not {rel}'
+
+    rel = f'that {rel}'
+    return rel
 
 def word_list_parts(words: Sequence[str], sep: str, fin: str):
     n = len(words)
@@ -297,6 +376,35 @@ def word_list_parts(words: Sequence[str], sep: str, fin: str):
         if n > 2 and i > 0: yield sep
         if n > 1 and i == n-1: yield f' {fin}'
         yield f' {word}'
+
+def build_prompt(
+    like: Sequence[str],
+    unlike: Sequence[str],
+    /,
+    count: int = 10,
+    kind: str|None = None,
+    rel: str = 'related',
+    trailer: Iterable[str]|str|None = None,
+) -> Generator[str]:
+    yield f'give me {count} '
+    if kind: yield f'{kind.strip()} '
+    yield 'words'
+
+    if like or unlike:
+        if like:
+            yield f' {phrase_rel(rel, False)}'
+            yield from word_list_parts(like, ',', 'and')
+        if unlike:
+            if like: yield ' but'
+            yield f' {phrase_rel(rel, True)}'
+            yield from word_list_parts(unlike, ',', 'or')
+    else:
+        yield f' {phrase_rel(rel, True)} each other'
+
+    if trailer:
+        for part in [trailer] if isinstance(trailer, str) else trailer:
+            havesep = any(part.startswith(c) for c in trailer_seps)
+            yield part if havesep else f'{trailer_seps[0]} {part}'
 
 @final
 @dataclass
@@ -357,7 +465,7 @@ class Search(StoredLog):
 
         self.chat: list[ollama.Message] = []
         self.chat_role_counts: Counter[str] = Counter()
-        self.last_chat_prompt: ChatPrompt|None = None
+        self.last_chat_prompt: str|ChatPrompt = ''
         self.last_chat_basis: set[str] = set()
 
     @property
@@ -682,12 +790,15 @@ class Search(StoredLog):
                 $''', rest)
             if match:
                 mess, = match.groups()
-                if mess == '_':
-                    assert self.last_chat_prompt is not None
-                    _ = self.regen_chat_prompt(ui)
+                try:
+                    dat = json.loads(mess) # pyright: ignore[reportAny]
+                except json.JSONDecodeError:
+                    pass
                 else:
-                    _ = self.set_chat_prompt(ui,
-                        ChatPrompt.from_dict(json.loads(mess))) # pyright: ignore[reportAny]
+                    if isinstance(dat, dict) and 'prompt' in dat:
+                        mess = cast(Any, dat['prompt']) # pyright: ignore[reportAny]
+                        assert isinstance(mess, str)
+                _ = self.set_chat_prompt(ui, mess)
                 continue
 
             match = re.match(r'''(?x)
@@ -1232,7 +1343,7 @@ class Search(StoredLog):
             if token.startswith('#'):
                 return token if len(token) > 1 else None
 
-        count = 10
+        count: int|None = None
         rel: str|None = None
         like_words: list[str] = []
         unlike_words: list[str] = []
@@ -1240,6 +1351,14 @@ class Search(StoredLog):
         if tokens is None: tokens = PromptUI.Tokens()
 
         token = tokens.token
+        if len(token) > 1 and token[1:] == '?':
+            cp = self.last_chat_prompt
+            ui.print('last chat prompt:')
+            if isinstance(cp, str):
+                ui.print(f'> {cp}')
+            else:
+                ui.print(f'> {cp.prompt}')
+            return
 
         if len(token) > 1:
             try:
@@ -1250,9 +1369,20 @@ class Search(StoredLog):
 
         clear = False
 
+        cp = self.last_chat_prompt if isinstance(self.last_chat_prompt, ChatPrompt) else ChatPrompt()
+
+        trailer: list[str] = []
+        trailer_given: bool = False
+
         for token in tokens:
             if len(token) >= 2 and '/clear'.startswith(token):
                 clear = True
+
+            elif token in trailer_seps:
+                trailer_given = True
+                if tokens.rest.strip():
+                    trailer.append(f'{token} {tokens.rest.strip()}')
+                break
 
             elif re.match(r'[Tt]\d+', token):
                 like_words.extend(unroll_refs(f'${token}'))
@@ -1277,34 +1407,26 @@ class Search(StoredLog):
                     continue
                 rel = token if not rel else f'{rel} {token}'
 
-        if not rel: rel = 'similar'
-        if ' ' not in rel: rel = f'{rel} to'
-
-        lang = f'{self.lang} ' if self.lang else ''
-
-        parts: list[str] = []
-
-        parts.append(f'give me {count} {lang}words')
-
-        parts.append(f' that are')
-
-        if like_words or unlike_words:
-
-            if like_words:
-                parts.append(f' {rel}')
-                parts.extend(word_list_parts(like_words, ',', 'and'))
-
-            if unlike_words:
-                if like_words: parts.append(' but')
-                parts.append(f' not {rel}')
-                parts.extend(word_list_parts(unlike_words, ',', 'or'))
-
-        else:
-            parts.append(f' not {rel} each other')
+        if count is None:
+            nr = cp.num_refs
+            per = math.ceil(cp.count / nr if nr > 0 else 5)
+            n = len(like_words) + len(unlike_words)
+            count = per * n
 
         if clear: self.chat_clear(ui)
 
-        return self.chat_prompt(ui, ''.join(parts))
+        kind = self.lang # TODO more flexible kind-vs-lang handling
+
+        np = cp.rebuild(
+            count=count,
+            kind=kind, # TODO more flexible kind-vs-lang handling
+            rel=rel,
+            like=like_words,
+            unlike=unlike_words,
+            trailer=trailer if trailer or trailer_given else None,
+        )
+
+        return self.chat_prompt(ui, np)
 
     def prompt_parts(self):
         stats = self.chat_stats()
@@ -1664,44 +1786,34 @@ class Search(StoredLog):
 
         assert_never(k)
 
+    def collect_word_ref(self, k: WordRef, n: int):
+        word = self.word_ref(k, n)
+        self.last_chat_basis.add(word)
+        return word
+
     def set_chat_prompt(self, ui: PromptUI, prompt: str|ChatPrompt):
-        cp = ChatPrompt.from_prompt(prompt) if isinstance(prompt, str) else prompt
-        basis = set(self.word_ref(k, n) for k, n in cp.refs())
-        if not basis and isinstance(prompt, str):
-            self.last_chat_prompt = None
-            self.last_chat_basis = set()
-            return prompt
+        if isinstance(prompt, str) and prompt == '_':
+            ui.log('chat_prompt: _')
+            prompt = self.last_chat_prompt
+        elif isinstance(prompt, ChatPrompt):
+            ui.log(f'chat_prompt: {prompt.prompt}')
+        else:
+            ui.log(f'chat_prompt: {prompt}')
+            try:
+                prompt = ChatPrompt(prompt)
+            except ValueError:
+                pass
 
-        ui.log(f'chat_prompt: {json.dumps(asdict(cp))}')
-        self.last_chat_prompt = cp
-        self.last_chat_basis = basis
-
-        return cp.expand(self.word_ref)
-
-    def regen_chat_prompt(self, ui: PromptUI):
-        prompt = self.last_chat_prompt
-        assert prompt is not None
-
-        basis = set(self.word_ref(k, n) for k, n in prompt.refs())
-        exp = prompt.expand(self.word_ref)
-
-        ui.log(f'chat_prompt: _')
-        self.last_chat_basis = basis
-
-        return exp
+        self.last_chat_prompt = prompt
+        self.last_chat_basis = set()
+        return expand_word_refs(
+            prompt if isinstance(prompt, str) else prompt.prompt,
+            self.collect_word_ref)
 
     def chat_prompt(self, ui: PromptUI, prompt: str) -> PromptUI.State|None:
         with ui.catch_state(KeyboardInterrupt, self.ideate):
 
-            if prompt == '_':
-                cp = self.last_chat_prompt
-                if not cp:
-                    ui.print('! no last chat prompt available')
-                    return
-
-                prompt = self.regen_chat_prompt(ui)
-
-            elif prompt == '.':
+            if prompt == '.':
                 for mess in reversed(self.chat):
                     if mess['role'] == 'user' and 'content' in mess:
                         prompt = mess['content']
@@ -1786,7 +1898,7 @@ class Search(StoredLog):
         return ChatStats(token_count, user_count, assistant_count)
 
     def note_chat_basis_change(self, ui: PromptUI):
-        if self.last_chat_prompt:
+        if isinstance(self.last_chat_prompt, ChatPrompt):
             basis = set(self.word_ref(k, n) for k, n in self.last_chat_prompt.refs())
             diffa = basis.difference(self.last_chat_basis)
             diffb = self.last_chat_basis.difference(basis)
@@ -1863,7 +1975,7 @@ class Search(StoredLog):
             for line in wraplines(ui.screen_cols-4, reply.splitlines()):
                 ui.print(f'... {line}')
 
-        if self.last_chat_prompt:
+        if isinstance(self.last_chat_prompt, ChatPrompt):
             for k, n in self.last_chat_prompt.refs():
                 i, ix, qword = self.word_iref(k, n)
                 desc = self.describe_word(i, ix)
@@ -1915,6 +2027,251 @@ class Search(StoredLog):
 
         else:
             ui.print(f'Using model {self.llm_model!r}')
+
+class PeekIter[V]:
+    def __init__(self, it: Iterable[V]):
+        self.it: Iterator[V] = iter(it)
+        self._val: V|None = None
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self._val is not None:
+            val = self._val
+            self._val = None
+            return val
+        return next(self.it)
+
+    def peek(self):
+        if self._val is not None:
+            return self._val
+        val = next(self.it, None)
+        self._val = val
+        return val
+
+    def take(self):
+        val = self._val
+        if val is None:
+            return next(self.it)
+        self._val = None
+        return val
+
+class PeekStr(PeekIter[str]):
+    @overload
+    def have(self, pattern: str|re.Pattern[str]) -> re.Match[str]|None:
+        pass
+
+    @overload
+    def have[V](self, pattern: str|re.Pattern[str],
+                then: Callable[[re.Match[str]], V]) -> V|None:
+        pass
+
+    @overload
+    def have[V](self, pattern: str|re.Pattern[str],
+                then: Callable[[re.Match[str]], V],
+                default: V = None) -> V:
+        pass
+
+    def have[V](self, pattern: str|re.Pattern[str],
+                then: None|Callable[[re.Match[str]], V] = None,
+                default: None|V = None):
+        token = self.peek()
+        if token is None: return default
+        match = re.match(pattern, token) if isinstance(pattern, str) else pattern.match(token)
+        if match: _ = self.take()
+        if then:
+            return then(match) if match else default
+        return match
+
+    @overload
+    def consume(self, pattern: str|re.Pattern[str]) -> Generator[re.Match[str]]:
+        pass
+
+    @overload
+    def consume[V](self, pattern: str|re.Pattern[str],
+                then: Callable[[re.Match[str]], V]) -> Generator[V]:
+        pass
+
+    def consume[V](self, pattern: str|re.Pattern[str],
+                then: None|Callable[[re.Match[str]], V] = None):
+        while True:
+            token = self.peek()
+            if token is None: return
+            match = re.match(pattern, token) if isinstance(pattern, str) else pattern.match(token)
+            if not match: return
+            _ = self.take()
+            yield then(match) if then else match
+
+### tests
+
+import pytest
+
+@dataclass
+class ChatPromptTestCase:
+    @classmethod
+    def mark(cls, spec: str):
+        cases = list(cls.parseiter(spec))
+        ids = [case.id for case in cases]
+        return pytest.mark.parametrize('case', cases, ids=ids)
+
+    @staticmethod
+    def peek_or_scan(spec: str|PeekStr):
+        if not isinstance(spec, PeekStr):
+            lines = (
+                s.strip()
+                for s in spliterate(spec, '\n', trim = True))
+            lines = (
+                line
+                for line in lines
+                if line
+                if not line.startswith('//'))
+            spec = PeekStr(lines)
+        return spec
+
+    @classmethod
+    def parseiter(cls, spec: str|PeekStr):
+        spec = cls.peek_or_scan(spec)
+        try:
+            while True:
+                yield cls.parse(spec)
+        except StopIteration: pass
+
+    @classmethod
+    def parse(cls, spec: str|PeekStr):
+        spec = cls.peek_or_scan(spec)
+        prompt = spec.take()
+        if prompt == '_': prompt = ''
+
+        expect_rebuild = spec.have(r'> +(.+)$', lambda match: cast(str, match.group(1)), prompt)
+
+        expect_kind: str|None = None
+        expect_count: int|None = None
+        expect_rel: str|None = None
+        expect_clean_rel: str|None = None
+        expect_neg_rel: str|None = None
+        expect_trailer: str|None = None
+
+        for name, value in spec.consume(
+            r'- +([\w_\-]+): *(.+?)$', lambda match: (
+                cast(str, match.group(1)),
+                cast(str, match.group(2))
+            )
+        ):
+            if name == 'kind': expect_kind = value
+            elif name == 'count': expect_count = int(value)
+            elif name == 'rel': expect_rel = value
+            elif name == 'clean_rel': expect_clean_rel = value
+            elif name == 'neg_rel': expect_neg_rel = value
+            elif name == 'trailer': expect_trailer = value
+            else:
+                raise ValueError(f'unknown chat prompt test expectation {name}')
+
+        return cls(prompt,
+                   expect_kind, expect_count, expect_rel,
+                   expect_clean_rel, expect_neg_rel,
+                   expect_trailer,
+                   expect_rebuild)
+
+    prompt: str
+    expect_kind: str|None
+    expect_count: int|None
+    expect_rel: str|None
+    expect_clean_rel: str|None
+    expect_neg_rel: str|None
+    expect_trailer: str|None
+    expect_rebuild: str
+
+    @property
+    def id(self):
+        return f'#{self.prompt.replace(" ", "_")}' if self.prompt else '#empty'
+
+    def check(self, cp: ChatPrompt):
+        if self.expect_kind is not None:
+            assert cp.kind == self.expect_kind
+        if self.expect_count is not None:
+            assert cp.count == self.expect_count
+        if self.expect_clean_rel is not None:
+            assert cleanse_rel(cp.rel)[1] == self.expect_clean_rel
+        if self.expect_neg_rel is not None:
+            assert phrase_rel(cp.rel, neg=True) == self.expect_neg_rel
+        if self.expect_rel is not None:
+            assert cp.rel == self.expect_rel
+        if self.expect_trailer is not None:
+            assert cp.trailer == self.expect_trailer
+
+        terms: list[str] =  []
+        terms.extend(f'${n}' for n in cp.vars)
+        terms.extend(f'#{n}' for n in cp.ords)
+        assert cp.rebuild(like=terms) == self.expect_rebuild
+
+@ChatPromptTestCase.mark('''
+    _
+    > give me 10 words that are not related to each other
+
+    give me 15 French words that are not related to each other
+    - kind: French
+    - count: 15
+    - rel: that are not related to each other
+
+    give me 10 French words that are similar to $1 and $2
+    - kind: French
+    - count: 10
+    - rel: that are similar to
+
+    give me 15 French words that are similar to $1, $2, and $3
+    - kind: French
+    - count: 15
+    - rel: that are similar to
+    - clean_rel: similar to
+    - neg_rel: that are not similar to
+
+    give me 10 French words that are related to $1 and $2
+    - rel: that are related to
+    - clean_rel: related to
+    - neg_rel: that are not related to
+
+    give me 10 French words that are read with $1 and $2
+    - rel: that are read with
+    - clean_rel: read with
+    - neg_rel: that are not read with
+
+    give me 10 French words that are seen with $1 and $2
+    - rel: that are seen with
+    - clean_rel: seen with
+    - neg_rel: that are not seen with
+
+    give me 10 words that are not related to each other; do not list any words that you have already listed above.
+    - rel: that are not related to each other
+    - clean_rel: related to
+    - trailer: ; do not list any words that you have already listed above.
+
+    give me 10 words that are not related to each other; do not list any words that you have already listed above
+    - rel: that are not related to each other
+    - clean_rel: related to
+    - trailer: ; do not list any words that you have already listed above
+
+    // TODO more examples if needed
+    // give me 15 French words that are related to $1, $2, $3, $4, and $5
+    // give me 15 French words that are related to $1, $2, and $3
+    // give me 15 French words that are related to $1, $2, and #123
+    // give me 16 French words that are related to $1, $2, $3, and $4
+    // give me 20 French words that are related to $1, $2, $3, and $4
+    // give me 25 French words that are related to $1, $2, $3, $4, and $5
+    // give me 5 French words that are related to $1
+
+    // give me 10 French words that are read with $1 and $2
+    // give me 10 French words that are seen with $1 and $2
+
+    // TODO give me 5 French words that are related to $t2
+    // TODO give me 15 French words that are related to $t3
+    // TODO give me 5 French words that are related to $t3
+''')
+def test_chat_prompts(case: ChatPromptTestCase):
+    cp = ChatPrompt(case.prompt)
+    case.check(cp)
+
+### entry point
 
 if __name__ == '__main__':
     Search.main()

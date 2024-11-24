@@ -8,6 +8,7 @@ pyperclip = "*"
 ollama = "*"
 bs4 = "*"
 python-dateutil = "*"
+pytest = "*"
 
 [dev-packages]
 
