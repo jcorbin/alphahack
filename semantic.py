@@ -463,6 +463,7 @@ class Search(StoredLog):
         self.llm_client = ollama.Client()
         self.llm_model: str = self.default_chat_model
 
+        self.abbr: dict[str, str] = dict()
         self.chat: list[ollama.Message] = []
         self.chat_role_counts: Counter[str] = Counter()
         self.last_chat_prompt: str|ChatPrompt = ''
@@ -600,6 +601,15 @@ class Search(StoredLog):
             self.do_lang(ui)
             self.do_puzzle(ui)
             if not self.puzzle_id: return
+
+        # self.abbr['!gim'] = 'give me $count $kind words'
+        # self.abbr['!rel'] = 'that are $rel'
+        # self.abbr['!fin'] = 'each other' XXX lambda ctx: only if !rel and no refs
+        # self.abbr['*'] = '!gim !rel ... !fin' XXX lambda ctx: proc tokens in ...
+        self.abbr['!new'] = 'do not list any words that you have already listed above'
+        self.abbr['!cont'] = 'keep going'
+        self.abbr['!meh'] = 'none of those word are very good'
+        self.abbr['!bad'] = 'all of those word are terrible'
 
         return self.startup_scale
 
@@ -1375,8 +1385,11 @@ class Search(StoredLog):
         trailer_given: bool = False
 
         for token in tokens:
-            if len(token) >= 2 and '/clear'.startswith(token):
+            if len(token) >= 2 and '/clear'.startswith(token): # TODO can this bi an abbr
                 clear = True
+
+            elif token in self.abbr:
+                trailer.append(self.abbr[token])
 
             elif token in trailer_seps:
                 trailer_given = True
@@ -1464,10 +1477,15 @@ class Search(StoredLog):
                 return self.generate(ui)
             return
 
-        if token == '_': return self.chat_prompt(ui, '_')
-        if token == '.': return self.chat_prompt(ui, '.')
+        if token in self.abbr:
+            return self.chat_prompt(ui, self.abbr[token])
+
+        if token == '_': return self.chat_prompt(ui, '_') # TODO can this be an abbr?
+        if token == '.': return self.chat_prompt(ui, '.') # TODO can this be an abbr?
+
         if token.startswith('/'): return self.do_cmd(ui)
 
+        # TODO can '> ...' lambda ctx ... be an abbr?
         match = re.match(r'(>+)\s*(.+?)$', ui.tokens.raw)
         if match:
             mark, rest = match.groups()
@@ -1812,7 +1830,9 @@ class Search(StoredLog):
 
     def chat_prompt(self, ui: PromptUI, prompt: str) -> PromptUI.State|None:
         with ui.catch_state(KeyboardInterrupt, self.ideate):
+            # TODO do we tokenize and abbr-expand prompt here or in set_chat_prompt?
 
+            # TODO can this be an abbr?
             if prompt == '.':
                 for mess in reversed(self.chat):
                     if mess['role'] == 'user' and 'content' in mess:
