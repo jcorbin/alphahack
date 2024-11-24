@@ -1,0 +1,607 @@
+T0.004486181016545743 now: 2024-11-23T18:18:25EST
+T1.988584156963043 🔗 cemantix.certitudes.org ? 
+T1.989104148990009 site: cemantix.certitudes.org
+T3.0606211919803172 🌎 French ? 
+T3.060811249015387 lang: French
+T6.133080073981546 🧩  ? #998
+T6.133615678991191 puzzle_id: #998
+T8.532484057010151 😎 °C ? 18
+T8.532646011968609 scale: 😎 18.00 °C
+T10.140597434015945 🥵 °C ? 30.41
+T10.140818618994672 scale: 🥵 30.41 °C
+T12.724636827013455 🔥 °C ? 47.79
+T12.724824478966184 scale: 🔥 47.79 °C
+T15.028362183016725 😱 °C ? 66.17
+T15.028493652003817 scale: 😱 66.17 °C
+T15.102327736967709 session model: llama
+T15.102414777968079 session clear
+T15.102480883011594 session: {"role": "user", "content": "give me 10 French words that are not similar to each other"}
+T26.004572269972414 session: {"role": "assistant", "content": "Here are 10 French words that are not similar to each other:\n\n1. Fleur (flower)\n2. Caf\u00e9 (coffee)\n3. Oiseau (bird)\n4. \u00c9tudiant (student)\n5. Mer (sea)\n6. Papier (paper)\n7. Ruelle (alleyway)\n8. Violon (violin)\n9. Boulangerie (bakery)\n10. \u00c9toile (star)\n\nThese words are all French in origin, but they have distinct meanings and sounds that don't closely resemble each other."}
+T27.876914313994348 #1 extract_...
+T30.716584794980008 🤔 extract_1/10 #1 "boulangerie" score? 15.99
+T30.716783993993886 attempt_0: "boulangerie" score:15.99 prog:None
+T36.96427410101751 🤔 extract_1/9 #2 "café" score? 12.34
+T36.96442393900361 attempt_1: "café" score:12.34 prog:None
+T39.973049476975575 🤔 extract_1/8 #3 "fleur" score? 6.33
+T39.973186905961484 attempt_2: "fleur" score:6.33 prog:None
+T42.748578327009454 🤔 extract_1/7 #4 "mer" score? 2.86
+T42.74878333299421 attempt_3: "mer" score:2.86 prog:None
+T45.436372281983495 🤔 extract_1/6 #5 "oiseau" score? 2.24
+T45.43648282601498 attempt_4: "oiseau" score:2.24 prog:None
+T48.612558980006725 🤔 extract_1/5 #6 "papier" score? -7.03
+T48.61272515996825 attempt_5: "papier" score:-7.03 prog:None
+T51.22135996998986 🤔 extract_1/4 #7 "ruelle" score? 13.48
+T51.22155128000304 attempt_6: "ruelle" score:13.48 prog:None
+T55.02862041199114 🤔 extract_1/3 #8 "violon" score? 1.6
+T55.02876923198346 attempt_7: "violon" score:1.60 prog:None
+T57.516652669000905 🤔 extract_1/2 #9 "étoile" score? 5.17
+T57.51677817996824 attempt_8: "étoile" score:5.17 prog:None
+T60.45255825197091 🤔 extract_1/1 #10 "étudiant" score? .57
+T60.45273584901588 attempt_9: "étudiant" score:0.57 prog:None
+T67.10052084497875 #11 ? *15 t3
+T67.10143441101536 session clear
+T67.10172278998652 chat_prompt: {"prompt": "give me 15 French words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T67.10175379097927 session: {"role": "user", "content": "give me 15 French words that are similar to \"boulangerie\", \"ruelle\", and \"caf\u00e9\""}
+T82.86082293099025 session: {"role": "assistant", "content": "Here are 15 French words that have a similar tone or meaning to \"boulangerie\", \"ruelle\", and \"caf\u00e9\":\n\n1. Boulangerie (bakery)\n2. Ruelle (mill/roller)\n3. Caf\u00e9 (coffee shop)\n4. Patisserie (bakery/sweets shop)\n5. Friterie (fryer/street food stand)\n6. Charcuterie (deli/meat shop)\n7. Bistro (trendy restaurant)\n8. Patissierie (pastry shop)\n9. Bar \u00e0 vin (wine bar)\n10. Tabac (tobacco shop/cigar lounge)\n11. Huitrerie (fish market)\n12. March\u00e9 aux puces (flea market)\n13. Brasserie (beer hall/trendy restaurant)\n14. Caf\u00e9-chantant (variety show venue)\n15. \u00c9picerie (grocery store)\n\nThese words all have a strong connection to food, drink, and everyday life in France, similar to \"boulangerie\", \"ruelle\", and \"caf\u00e9\"."}
+T84.08429502800573 #11 extract_...
+T87.18069752096198 🤔 extract_1/12 #11 "bar" score? 15.62
+T87.1808882500045 attempt_10: "bar" score:15.62 prog:None
+T90.72437639697455 🤔 extract_1/11 #12 "bistro" score? 11.17
+T90.72452405298827 attempt_11: "bistro" score:11.17 prog:None
+T93.63673512096284 🤔 extract_1/10 #13 "brasserie" score? 10.56
+T93.63698139396729 attempt_12: "brasserie" score:10.56 prog:None
+T96.2441493429942 🤔 extract_1/9 #14 "chantant" score? 2.9
+T96.24427893798565 attempt_13: "chantant" score:2.90 prog:None
+T99.46928561100503 🤔 extract_1/8 #15 "charcuterie" score? -.29
+T99.46944579301635 attempt_14: "charcuterie" score:-0.29 prog:None
+T103.25284248299431 🤔 extract_1/7 #16 "friterie" score? 13.31
+T103.25302397500491 attempt_15: "friterie" score:13.31 prog:None
+T108.6047037789831 🤔 extract_1/6 #17 "huitrerie" score? !
+T108.60483700199984 reject: "huitrerie"
+T109.62885328999255 🤔 extract_1/5 #17 "marché" score? 
+T115.56482261500787 🤔 extract_1/5 #17 "marché" score? -3.24
+T115.56497931398917 attempt_16: "marché" score:-3.24 prog:None
+T118.98857691400917 🤔 extract_1/4 #18 "patisserie" score? !
+T118.9886935299728 reject: "patisserie"
+T121.6690853079781 🤔 extract_1/3 #18 "patissierie" score? !
+T121.66928036499303 reject: "patissierie"
+T127.4048184530111 🤔 extract_1/2 #18 "tabac" score? -.95
+T127.40500072500436 attempt_17: "tabac" score:-0.95 prog:None
+T131.1647282029735 🤔 extract_1/1 #19 "épicerie" score? 15.57
+T131.16490709100617 attempt_18: "épicerie" score:15.57 prog:None
+T136.26047744997777 #20 ? _
+T136.26072116597788 chat_prompt: _
+T136.2609605040052 session: {"role": "user", "content": "give me 15 French words that are similar to \"boulangerie\", \"bar\", and \"\u00e9picerie\""}
+T161.72479359898716 session: {"role": "assistant", "content": "Here are 15 French words that have a similar tone or meaning to \"boulangerie\", \"bar\", and \"\u00e9picerie\":\n\n1. Boulangerie (bakery)\n2. Bar (public house/ pub)\n3. \u00c9picerie (grocery store)\n4. Tabac (tobacco shop/cigar lounge)\n5. March\u00e9 aux puces (flea market)\n6. H\u00f4tel de ville (city hall/town hall)\n7. Mairie (town hall/municipal building)\n8. Boulanger (baker)\n9. P\u00e8re No\u00ebl (Santa Claus/Christmas gift shop)\n10. Boulangerie-p\u00e2tisserie (bakery and pastry shop)\n11. Caf\u00e9 de la gare (train station caf\u00e9)\n12. Bar \u00e0 vins (wine bar)\n13. \u00c9picerie d'italie (Italian grocery store)\n14. Marchand aux puces (antiques dealer/flea market vendor)\n15. Boulanger-boulangerie (bakery shop or bakery-caf\u00e9)\n\nThese words all have a strong connection to everyday life, shopping, and community in France, similar to \"boulangerie\", \"bar\", and \"\u00e9picerie\"."}
+T163.7168932610075 #20 extract_[C...
+T171.92455206799787 #20 extract_...
+T176.82849260797957 🤔 extract_1/6 #20 "boulanger" score? 19.19 199
+T176.82866190001369 attempt_19: "boulanger" score:19.19 prog:199
+T181.8930491869687 🤔 extract_1/5 #21 "hôtel" score? 20.4 387
+T181.89328743098304 attempt_20: "hôtel" score:20.40 prog:387
+T185.14059692196315 🤔 extract_1/4 #22 "mairie" score? 10.58
+T185.14078330196207 attempt_21: "mairie" score:10.58 prog:None
+T188.79715863300953 🤔 extract_1/3 #23 "marchand" score? 1.14 
+T200.9167190999724 🤔 extract_1/3 #23 "marchand" score? 1.14
+T200.91684919100953 attempt_22: "marchand" score:1.14 prog:None
+T207.91621702496195 🤔 extract_1/2 #24 "pâtisserie" score? 7.44
+T207.91636564896908 attempt_23: "pâtisserie" score:7.44 prog:None
+T210.82817008398706 🤔 extract_1/1 #25 "père" score? 14.99
+T210.8283184460015 attempt_24: "père" score:14.99 prog:None
+T213.8846591099864 #26 ? _
+T213.88491801696364 chat_prompt: _
+T213.88500090898015 session: {"role": "user", "content": "give me 15 French words that are similar to \"h\u00f4tel\", \"boulanger\", and \"boulangerie\""}
+T233.3113887779764 session: {"role": "assistant", "content": "Here are 15 French words that have a similar tone or meaning to \"h\u00f4tel\", \"boulanger\", and \"boulangerie\":\n\n1. H\u00f4tel (hotel/motel)\n2. Boulanger (baker)\n3. Boulangerie (bakery)\n4. Patisserie (pastry shop)\n5. Caf\u00e9 (coffee shop)\n6. \u00c9picerie (grocery store)\n7. Tabac (tobacco shop/cigar lounge)\n8. March\u00e9 (market/food hall)\n9. Friterie (fryer/street food stand)\n10. Charcuterie (deli/meat shop)\n11. H\u00f4tel de ville (city hall/town hall)\n12. Boulanger-p\u00e2tissier (bakery and pastry shop)\n13. Patisserie-boulangerie (pastry and bakery shop)\n14. Caf\u00e9-charcuterie (coffee shop with deli meats)\n15. \u00c9picerie-de-cuisine (grocery store with cooking supplies)\n\nThese words all have a strong connection to food, drink, lodging, and everyday life in France, similar to \"h\u00f4tel\", \"boulanger\", and \"boulangerie\"."}
+T236.8687489500153 #26 extract_...
+T240.31679156399332 🤔 extract_1/3 #26 "cuisine" score? 5.73
+T240.31717587297317 attempt_25: "cuisine" score:5.73 prog:None
+T242.98867659497773 🤔 extract_1/2 #27 "de" score? !
+T242.98879120900529 reject: "de"
+T245.691929203982 🤔 extract_1/1 #27 "pâtissier" score? 11.14
+T245.69198762997985 attempt_26: "pâtissier" score:11.14 prog:None
+T247.97264905297197 #28 ? /last
+T257.1243848009617 #28 ? ville
+T260.14050283201504 🤔 entered #28 "ville" score? 7.7
+T260.14062613097485 attempt_27: "ville" score:7.70 prog:None
+T265.34011282300344 #29 ? boulangerie
+T270.539980933012 #29 ? charcuterie
+T283.3965683669667 #29 ? *10 t2
+T283.39680271199904 session clear
+T283.3969918829971 chat_prompt: {"prompt": "give me 10 French words that are similar to $1 and $2", "vars": [1, 2], "ords": []}
+T283.3970197130111 session: {"role": "user", "content": "give me 10 French words that are similar to \"h\u00f4tel\" and \"boulanger\""}
+T300.8162355989916 session: {"role": "assistant", "content": "Here are 10 French words that are similar to \"h\u00f4tel\" (hotel) and \"boulanger\" (baker):\n\n1. Bar (similar to hotel in terms of meaning)\n2. \u00c9picerie (similar to hotel in terms of a place where people go for goods or services)\n3. Boulangerie (related to boulanger, similar to how hotel is related to h\u00f4tel)\n4. Patisserie (similar to boulanger, both related to baked goods)\n5. Caf\u00e9 (similar to hotel in terms of a place where people gather)\n6. Restaurant (similar to hotel in terms of a place where people stay for food and lodging)\n7. B\u00e2timent (related to building, similar to how hotel is related to accommodation)\n8. H\u00f4telier (related to the occupation of running an hotel)\n9. P\u00e2tissier (similar to boulanger, both related to baking or pastry-making)\n10. Auberge (a type of lodging or inn, similar to a hotel)\n\nNote that some of these words may have slightly different meanings or connotations than \"h\u00f4tel\" and \"boulanger\", but they are all related in some way."}
+T302.1088036959991 #29 extract_...
+T304.8927472679643 🤔 extract_1/4 #29 "auberge" score? 16.83
+T304.8929332239786 attempt_28: "auberge" score:16.83 prog:None
+T307.7087657999946 🤔 extract_1/3 #30 "bâtiment" score? 2.25
+T307.7089305080008 attempt_29: "bâtiment" score:2.25 prog:None
+T311.9006901370012 🤔 extract_1/2 #31 "hôtelier" score? 18.43 77
+T311.9009040389792 attempt_30: "hôtelier" score:18.43 prog:77
+T315.6211422479828 🤔 extract_1/1 #32 "restaurant" score? 576
+T323.428580451 🤔 extract_1/1 #32 "restaurant" score? 22.27 576
+T323.4287379399757 attempt_31: "restaurant" score:22.27 prog:576
+T329.2526392849977 #33 ? *15 t3
+T329.2529199899873 session clear
+T329.2532021829975 chat_prompt: {"prompt": "give me 15 French words that are similar to $1, $2, and $3", "vars": [1, 2, 3], "ords": []}
+T329.2532619169797 session: {"role": "user", "content": "give me 15 French words that are similar to \"restaurant\", \"h\u00f4tel\", and \"boulanger\""}
+T346.3814988209633 session: {"role": "assistant", "content": "Here are 15 French words that are similar to \"restaurant\", \"h\u00f4tel\", and \"boulanger\":\n\n1. Caf\u00e9 (similar to restaurant)\n2. \u00c9cole (similar to school or university, but can also refer to a vocational training institution)\n3. Atelier (similar to studio or workshop)\n4. Magasin (similar to store or shop)\n5. Bar (short for bar tabac, similar to pub or bar in English)\n6. Caf\u00e9-chantant (a type of music hall or theatre)\n7. Bistrot (a small restaurant or caf\u00e9)\n8. Galerie (a hallway or corridor with shops or exhibitions)\n9. Maison (similar to house or building)\n10. Clinique (a medical clinic or spa)\n11. Salon (similar to beauty salon or conference room)\n12. Lieu de travail (workplace or office)\n13. Cantine (a school cafeteria or canteen)\n14. Bureau (an office or administrative building)\n15. Atelier artistique (an artistic studio)\n\nNote that some of these words may not be exact synonyms, but they all have a similar meaning or connotation to the original three words you provided."}
+T348.29289652296575 #33 extract_...
+T351.62827166798525 🤔 extract_1/11 #33 "atelier" score? -4.75
+T351.62839182198513 attempt_32: "atelier" score:-4.75 prog:None
+T354.14840921596624 🤔 extract_1/10 #34 "bistrot" score? 10
+T354.14858979097335 attempt_33: "bistrot" score:10.00 prog:None
+T357.8365760089946 🤔 extract_1/9 #35 "bureau" score? 10.92
+T357.8366993099917 attempt_34: "bureau" score:10.92 prog:None
+T362.8121060290141 🤔 extract_1/8 #36 "cantine" score? 12.22
+T362.81221387098776 attempt_35: "cantine" score:12.22 prog:None
+T365.740644341975 🤔 extract_1/7 #37 "clinique" score? -4.31
+T365.74083754397 attempt_36: "clinique" score:-4.31 prog:None
+T368.3804128979682 🤔 extract_1/6 #38 "galerie" score? -6.55
+T368.38052614498883 attempt_37: "galerie" score:-6.55 prog:None
+T371.52498344896594 🤔 extract_1/5 #39 "lieu" score? -1.88
+T371.52523291198304 attempt_38: "lieu" score:-1.88 prog:None
+T374.18822517601075 🤔 extract_1/4 #40 "magasin" score? 13.12
+T374.1883637859719 attempt_39: "magasin" score:13.12 prog:None
+T377.1082601379603 🤔 extract_1/3 #41 "maison" score? 10.66
+T377.1083861690131 attempt_40: "maison" score:10.66 prog:None
+T380.2770723999711 🤔 extract_1/2 #42 "salon" score? .39
+T380.2773055739817 attempt_41: "salon" score:0.39 prog:None
+T382.83713296899805 🤔 extract_1/1 #43 "école" score? -3.81
+T382.8373503430048 attempt_42: "école" score:-3.81 prog:None
+T388.21238669898594 #44 ? *10 related t2
+T388.212795621017 session clear
+T388.2129423379665 chat_prompt: {"prompt": "give me 10 French words that are related to $1 and $2", "vars": [1, 2], "ords": []}
+T388.2129729829612 session: {"role": "user", "content": "give me 10 French words that are related to \"restaurant\" and \"h\u00f4tel\""}
+T403.04930391098605 session: {"role": "assistant", "content": "Here are 10 French words related to \"restaurant\" and \"h\u00f4tel\":\n\n1. Restaurant (meaning \"restaurant\")\n2. H\u00f4tel (meaning \"hotel\")\n3. Table (meaning \"table\", as in a dining table)\n4. Menu (meaning \"menu\", a list of dishes available at a restaurant)\n5. Camarade (meaning \"colleague\" or \"partner\", often used to refer to a waiter or server at a hotel)\n6. Chambre (meaning \"room\")\n7. Bar (meaning \"bar\", as in the bar area of a hotel where guests can socialize)\n8. Buffet (meaning \"buffet\", a meal served from a public display table)\n9. R\u00e9servation (meaning \"reservation\", making a booking or request for a room or restaurant)\n10. Bill (meaning \"bill\", the invoice or receipt given to customers after a meal)\n\nNote: Some of these words may have slightly different meanings or connotations in modern French, but they all relate to the themes of restaurants and hotels."}
+T407.2686306659598 #44 extract_...
+T410.6285059470101 🤔 extract_1/7 #44 "bill" score? 4.9
+T410.6287142059882 attempt_43: "bill" score:4.90 prog:None
+T413.3409663659986 🤔 extract_1/6 #45 "buffet" score? 6.18
+T413.34118652396137 attempt_44: "buffet" score:6.18 prog:None
+T415.78856429696316 🤔 extract_1/5 #46 "camarade" score? 11.42
+T415.7886918199947 attempt_45: "camarade" score:11.42 prog:None
+T418.56468793196836 🤔 extract_1/4 #47 "chambre" score? 13.56
+T418.56485623598564 attempt_46: "chambre" score:13.56 prog:None
+T421.65272712596925 🤔 extract_1/3 #48 "menu" score? -2.76
+T421.65289325697813 attempt_47: "menu" score:-2.76 prog:None
+T423.9734553699964 🤔 extract_1/2 #49 "réservation" score? 14.81
+T423.97363276500255 attempt_48: "réservation" score:14.81 prog:None
+T428.6843969929614 🤔 extract_1/1 #50 "table" score? .88
+T428.68450989498524 attempt_49: "table" score:0.88 prog:None
+T432.93258934200276 <INT>
+T0.008142195991240442 now: 2024-11-23T20:57:41EST
+T0.010411117982584983 session model: llama
+T2.0311451709712856 #51 ? /e
+T4.333484546979889 #51 ? /last
+T6.563358854968101 #51 ? /prog
+T9.256522134004626 #51 ? *?
+T19.907302665000316 <INT>
+T0.01060104399221018 now: 2024-11-23T21:00:19EST
+T0.013940598990302533 session model: llama
+T8.592557071999181 #51 ? /prog
+T17.345224048011005 #51 ? * $t3
+T17.345614960009698 chat_prompt: give me 5 French words that are related to $t3
+T17.34569166804431 session: {"role": "user", "content": "give me 5 French words that are related to \"restaurant\", \"h\u00f4tel\", and \"boulanger\""}
+T39.92626433400437 session: {"role": "assistant", "content": "Here are 5 French words related to \"restaurant\", \"h\u00f4tel\", and \"boulangerie\":\n\n1. Buffet (meaning \"buffet\", a meal served from a public display table, often found in hotels)\n2. Caf\u00e9 (meaning \"cafe\", a type of restaurant or social gathering place, often located near hotels)\n3. P\u00e2tisserie (meaning \"pastry shop\" or \"bakery\", a small bakery that also serves desserts and pastries, often found next to restaurants)\n4. R\u00e9servation (meaning \"reservation\", making a booking or request for a room or restaurant table)\n5. Petit d\u00e9jeuner (meaning \"little breakfast\", a meal typically served in hotels or restaurants before lunch)\n\nNote: Some of these words may be more directly related to food and drink, but they all intersect with the themes of restaurants, hotels, and bakeries (boulangerie)."}
+T43.16670672799228 #51 extract_*?
+T45.100793510035146 #51 ? *?
+T48.23853254999267 <INT>
+T0.0075098759843967855 now: 2024-11-23T21:05:24EST
+T0.01024395797867328 session model: llama
+T4.031251170032192 #51 ? *?
+T8.63312065898208 #51 ? /e
+T15.759801734006032 #51 extract_1
+T27.740102198033128 🤔 extract_1/1 #51 "petit" score? 13.96
+T27.740234279015567 attempt_50: "petit" score:13.96 prog:None
+T29.609369679004885 #52 ? *15 related
+T29.60987256898079 chat_prompt: give me 15 French words that are not related to each other
+T29.60995085502509 session: {"role": "user", "content": "give me 15 French words that are not related to each other"}
+T43.24134013301227 session: {"role": "assistant", "content": "Here are 15 French words that are not related to each other:\n\n1. Rivi\u00e8re (meaning \"river\")\n2. Coeur (meaning \"heart\")\n3. Fleur (meaning \"flower\")\n4. Mus\u00e9e (meaning \"museum\")\n5. Chien (meaning \"dog\")\n6. Soleil (meaning \"sun\")\n7. Lac (meaning \"lake\")\n8. \u00c9cole (meaning \"school\")\n9. Caramel (a type of candy)\n10. Sillon (meaning \"chair\")\n11. Harmonie (meaning \"harmony\" or \"music\")\n12. A\u00e9roport (meaning \"airport\")\n13. Oiseau (meaning \"bird\")\n14. Voile (meaning \"sailcloth\" or \"curtain\")\n15. Th\u00e9\u00e2tre (meaning \"theater\")\n\nThese words are a mix of nouns, adjectives, and concepts that are not directly related to each other."}
+T63.80809114797739 #52 extract_...
+T71.50205587601522 🤔 extract_1/12 #52 "aéroport" score? 28.1 852
+T71.50231973500922 attempt_51: "aéroport" score:28.10 prog:852
+T87.49222511902917 🤔 extract_1/11 #53 "caramel" score? 2.19
+T87.49235758301802 attempt_52: "caramel" score:2.19 prog:None
+T93.26640415401198 🤔 extract_1/10 #54 "chien" score? 19.81 300
+T93.2665851850179 attempt_53: "chien" score:19.81 prog:300
+T96.6712992329849 #55 ? /last
+T105.88806795602432 #55 ? /prog
+T108.29603298002621 <INT>
+T0.007454933016560972 now: 2024-11-23T21:12:52EST
+T0.009647640981711447 session model: llama
+T2.2644506210344844 #55 ? *?
+T9.634991961007472 #55 ? /last
+T18.876791501010302 <INT>
+T0.00739237800007686 now: 2024-11-23T21:13:29EST
+T0.009619902994018048 session model: llama
+T7.071427621995099 #55 ? /clear
+T7.072095462004654 session clear
+T9.277024123002775 #55 ? /last
+T12.804519697965588 #55 ? *15 t3
+T12.805175055982545 chat_prompt: give me 15 French words that are similar to $1, $2, and $3
+T12.805296427977737 session: {"role": "user", "content": "give me 15 French words that are similar to \"a\u00e9roport\", \"restaurant\", and \"h\u00f4tel\""}
+T31.937771859986242 session: {"role": "assistant", "content": "Here are 15 French words that convey a sense of hospitality, travel, or everyday life:\n\n1. **Accueil** (welcome)\n2. **Baignoire** (bath or shower)\n3. **Caf\u00e9** (cafe or coffee shop)\n4. **Communaut\u00e9** (community or neighborhood)\n5. **D\u00e9partement** (department or division)\n6. **\u00c9cole** (school)\n7. **Foyer** (entrance hall or lobby)\n8. **Gare** (train station)\n9. **H\u00f4pital** (hospital)\n10. **Jardin** (garden)\n11. **Lieu** (place or location)\n12. **Magasin** (store or shop)\n13. **M\u00e9dicin** (doctor's office or clinic)\n14. **Mus\u00e9e** (museum)\n15. **Station** (train station, but also a general term for a stop or point of interest)\n\nThese words all have a similar feel to \"a\u00e9roport\", \"restaurant\", and \"h\u00f4tel\" in that they convey a sense of everyday life, travel, or hospitality, although the exact meaning may vary from one word to another."}
+T51.266694749007 #55 extract_...
+T53.87650896597188 🤔 extract_1/11 #55 "accueil" score? 3.03
+T53.8766762180021 attempt_54: "accueil" score:3.03 prog:None
+T56.23806638101814 🤔 extract_1/10 #56 "baignoire" score? 5.25
+T56.238178587984294 attempt_55: "baignoire" score:5.25 prog:None
+T59.9465471659787 🤔 extract_1/9 #57 "communauté" score? -5.13
+T59.94661561900284 attempt_56: "communauté" score:-5.13 prog:None
+T63.158955591963604 🤔 extract_1/8 #58 "département" score? -2.95
+T63.15912192000542 attempt_57: "département" score:-2.95 prog:None
+T65.95494992396561 🤔 extract_1/7 #59 "foyer" score? 0.58
+T65.95517742499942 attempt_58: "foyer" score:0.58 prog:None
+T71.22039123799186 🤔 extract_1/6 #60 "gare" score? 27.11 829
+T71.22060533298645 attempt_59: "gare" score:27.11 prog:829
+T73.76496154197957 #61 ? _
+T73.76521252299426 chat_prompt: _
+T73.76531678199535 session: {"role": "user", "content": "give me 15 French words that are similar to \"a\u00e9roport\", \"gare\", and \"restaurant\""}
+T93.86675755900797 session: {"role": "assistant", "content": "Here are 15 French words that convey a sense of transportation, food, and service:\n\n1. **A\u00e9roport** (airport)\n2. **Gare** (train station)\n3. **Restaurant** (restaurant)\n4. **Caf\u00e9** (cafe or coffee shop)\n5. **Bijou** (deli or specialty food shop)\n6. **Tabac** (tobacco store or convenience store)\n7. **Poulet** (chicken restaurant)\n8. **Friterie** (fryer or fried food shop)\n9. **Cantine** (cafeteria or school cafeteria)\n10. **March\u00e9** (market or grocery store)\n11. **Boulangerie** (bakery)\n12. **Patisserie** (pastry shop)\n13. **D\u00e9marche** (post office or government agency)\n14. **Caf\u00e9 de la Gare** (train station cafe)\n15. **Ferme** (farm or food market)\n\nThese words all have a similar feel to \"a\u00e9roport\", \"gare\", and \"restaurant\" in that they convey a sense of service, transportation, or everyday life, although the exact meaning may vary from one word to another.\n\nNote: Some of these words might be more specialized than others, but they all share a common thread with the original three words."}
+T110.79357305896701 #61 extract_...
+T113.16280458297115 🤔 extract_1/4 #61 "bijou" score? 3
+T113.16295177000575 attempt_60: "bijou" score:3.00 prog:None
+T116.23002481798176 🤔 extract_1/3 #62 "démarche" score? -7.36
+T116.23013435100438 attempt_61: "démarche" score:-7.36 prog:None
+T118.65489012899343 🤔 extract_1/2 #63 "ferme" score? 8.6
+T118.65505667199614 attempt_62: "ferme" score:8.60 prog:None
+T122.06486882001627 🤔 extract_1/1 #64 "poulet" score? 1.68
+T122.06505037797615 attempt_63: "poulet" score:1.68 prog:None
+T127.16461977199651 #65 ? /last
+T128.09105431399075 #65 ? *?
+T133.94326014898252 #65 ? *15 related $t3
+T133.94371987698833 chat_prompt: give me 15 French words that are related to $t3
+T133.9438467459986 session: {"role": "user", "content": "give me 15 French words that are related to \"a\u00e9roport\", \"gare\", and \"restaurant\""}
+T161.5345945879817 session: {"role": "assistant", "content": "Here are 15 French words that are directly related to \"a\u00e9roport\", \"gare\", and \"restaurant\":\n\n1. **Terminal** (air or train station terminal)\n2. **Aiguille** (railway signal or aerodrome control tower)\n3. **Voie** (aircraft runway or railway line)\n4. **Tunnel** (airport tunnel or railway tunnel)\n5. **Piste** (aircraft runway or tennis court)\n6. **Salle de repos** (rest area or lounge at an airport or train station)\n7. **Manger** (to eat, related to a restaurant)\n8. **Beverage** (drink, related to a caf\u00e9 or bar)\n9. **Accueil** (welcome area or reception desk)\n10. **Passeport** (passport, often required for air travel)\n11. **Carte de cr\u00e9dit** (credit card, used at airports and restaurants)\n12. **Bagage** (luggage, related to airport baggage claim)\n13. **Arriv\u00e9e** (arrival, related to train or air travel)\n14. **D\u00e9part** (departure, related to train or air travel)\n15. **Caf\u00e9-terre** (coffee shop or caf\u00e9)\n\nThese words are all closely related to \"a\u00e9roport\", \"gare\", and \"restaurant\" in that they describe aspects of the experience of traveling by air or train, eating out, or interacting with airport staff and facilities."}
+T170.1749913119711 #65 extract_...
+T173.56241778598633 🤔 extract_1/14 #65 "aiguille" score? 2.09
+T173.5625035400153 attempt_64: "aiguille" score:2.09 prog:None
+T178.53304416197352 🤔 extract_1/13 #66 "arrivée" score? 27.8 846
+T178.53325956797926 attempt_65: "arrivée" score:27.80 prog:846
+T184.27981231699232 🤔 extract_1/12 #67 "bagage" score? 32.59 931
+T184.2799429699662 attempt_66: "bagage" score:32.59 prog:931
+T186.68379945098422 🤔 extract_1/11 #68 "beverage" score? !
+T186.68391295097535 reject: "beverage"
+T189.93100662197685 🤔 extract_1/10 #68 "carte" score? 7.7
+T189.9311318330001 attempt_67: "carte" score:7.70 prog:None
+T195.7852085600025 🤔 extract_1/9 #69 "départ" score? 23.24 644
+T195.7854046499706 attempt_68: "départ" score:23.24 prog:644
+T198.76571169198724 🤔 extract_1/8 #70 "manger" score? 10.97
+T198.76586002798285 attempt_69: "manger" score:10.97 prog:None
+T201.14558909100015 🤔 extract_1/7 #71 "passeport" score? 12.4
+T201.14571937196888 attempt_70: "passeport" score:12.40 prog:None
+T204.2234338389826 🤔 extract_1/6 #72 "piste" score? 8.26
+T204.22354736400302 attempt_71: "piste" score:8.26 prog:None
+T207.14702793600736 🤔 extract_1/5 #73 "salle" score? 6.4
+T207.14723726297962 attempt_72: "salle" score:6.40 prog:None
+T209.7376756320009 🤔 extract_1/4 #74 "terminal" score? 10.37
+T209.7378389450023 attempt_73: "terminal" score:10.37 prog:None
+T212.9855689809774 🤔 extract_1/3 #75 "terre" score? -3.32
+T212.98574256000575 attempt_74: "terre" score:-3.32 prog:None
+T214.0425422010012 🤔 extract_1/2 #76 "tunnel" score? 
+T221.09325998899294 #76 ? _
+T221.0935372429667 chat_prompt: _
+T221.0936051000026 session: {"role": "user", "content": "give me 15 French words that are related to \"bagage\", \"a\u00e9roport\", and \"arriv\u00e9e\""}
+T242.65295925200917 session: {"role": "assistant", "content": "Here are 15 French words that are directly related to \"bagage\", \"a\u00e9roport\", and \"arriv\u00e9e\":\n\n1. **Bagage** (luggage)\n2. **Tas** (suitcase or luggage bag)\n3. **Emballage** (packing or wrapping, related to luggage)\n4. **Viseur** (suitcase handle or luggage grip)\n5. **Droguin\u00e8re** (traveller's duffel or luggage bag)\n6. **A\u00e9roport** (airport)\n7. **Terminal** (air or train station terminal)\n8. **Arriv\u00e9e** (arrival, related to airport arrival)\n9. **D\u00e9part** (departure, related to airport departure)\n10. **Check-in** (checking in at the airport)\n11. **Baggage** (luggage claim or baggage handling)\n12. **Guichet** (check-in counter or baggage claim)\n13. **Porte** (baggage handler or porter)\n14. **Bricoleur** (traveller's assistant or baggage handler)\n15. **Enregistrement** (registration, related to airline or airport registration)\n\nThese words are all closely related to \"bagage\", \"a\u00e9roport\", and \"arriv\u00e9e\" in that they describe aspects of travelling by air, handling luggage, and arriving at the airport."}
+T273.1873798900051 #76 extract_...
+T275.8416287759901 🤔 extract_1/11 #76 "baggage" score? !
+T275.84173992997967 reject: "baggage"
+T278.4806730590062 🤔 extract_1/10 #76 "bricoleur" score? 8.46
+T278.4808408819954 attempt_75: "bricoleur" score:8.46 prog:None
+T280.9594700220041 🤔 extract_1/9 #77 "check" score? !
+T280.9595819300157 reject: "check"
+T283.72972535697045 🤔 extract_1/8 #77 "droguinère" score? !
+T283.7298696289654 reject: "droguinère"
+T287.3020894069923 🤔 extract_1/7 #77 "emballage" score? -2.22
+T287.30221747397445 attempt_76: "emballage" score:-2.22 prog:None
+T290.1439325239626 🤔 extract_1/6 #78 "enregistrement" score? -3.18
+T290.14409846800845 attempt_77: "enregistrement" score:-3.18 prog:None
+T295.9136322339764 🤔 extract_1/5 #79 "guichet" score? 19.6 267
+T295.9138225200004 attempt_78: "guichet" score:19.60 prog:267
+T299.05977701500524 🤔 extract_1/4 #80 "in" score? -9.9
+T299.0599111489719 attempt_79: "in" score:-9.90 prog:None
+T302.87258613301674 🤔 extract_1/3 #81 "porte" score? 13.91
+T302.87276626296807 attempt_80: "porte" score:13.91 prog:None
+T305.6491892230115 🤔 extract_1/2 #82 "tas" score? 12.03
+T305.6493689380004 attempt_81: "tas" score:12.03 prog:None
+T310.69754756998736 🤔 extract_1/1 #83 "viseur" score? 4.21
+T310.69776015897514 attempt_82: "viseur" score:4.21 prog:None
+T315.26469555601943 #84 ? /prog
+T326.4781405230169 #84 ? * $t2
+T326.47854072001064 chat_prompt: give me 5 French words that are related to $t2
+T326.47872392000863 session: {"role": "user", "content": "give me 5 French words that are related to \"bagage\" and \"a\u00e9roport\""}
+T342.9600081209792 session: {"role": "assistant", "content": "Here are 5 French words that are directly related to \"bagage\" and \"a\u00e9roport\":\n\n1. **Baggage** (luggage)\n2. **A\u00e9roport** (airport)\n3. **Emballage** (packing or wrapping, related to luggage)\n4. **D\u00e9chargement** (loading or unloading of luggage at the airport)\n5. **Check-in** (checking in at the airport)\n\nThese words are all closely related to \"bagage\" and \"a\u00e9roport\" in that they describe aspects of handling luggage, arriving at the airport, and checking in for travel.\n\nIf you'd like more options, I can also suggest:\n\n* **G\u00e9ant** (hand cart or trolley used to handle luggage)\n* **Guichet** (check-in counter or baggage claim)\n* **Droguin\u00e8re** (traveller's duffel or luggage bag)\n* **Porte** (baggage handler or porter)\n\nLet me know if you'd like more!"}
+T359.3367947789957 #84 extract_1
+T365.15748943499057 🤔 extract_1/1 #84 "déchargement" score? 26.59 810
+T365.15761640801793 attempt_83: "déchargement" score:26.59 prog:810
+T366.1094413739629 <INT>
+T0.008092752017546445 now: 2024-11-23T21:20:25EST
+T0.010248073027469218 session model: llama
+T9.282060923986137 #85 ? /last
+T21.46697251801379 #85 ? *10 t2
+T21.467749984993134 chat_prompt: give me 10 French words that are related to $1 and $2
+T21.46787867101375 session: {"role": "user", "content": "give me 10 French words that are related to \"bagage\" and \"a\u00e9roport\""}
+T39.50678438600153 session: {"role": "assistant", "content": "Here are 10 French words that are directly related to \"bagage\" and \"a\u00e9roport\":\n\n1. **Baggage** (luggage)\n2. **A\u00e9roport** (airport)\n3. **Emballage** (packing or wrapping, related to luggage)\n4. **D\u00e9chargement** (loading or unloading of luggage at the airport)\n5. **Check-in** (checking in at the airport)\n6. **Guichet** (check-in counter or baggage claim)\n7. **Porte** (baggage handler or porter)\n8. **G\u00e9ant** (hand cart or trolley used to handle luggage)\n9. **Droguin\u00e8re** (traveller's duffel or luggage bag)\n10. **Sortie** (exit from the airport, where baggage claim is often located)\n\nThese words are all closely related to \"bagage\" and \"a\u00e9roport\" in that they describe aspects of handling luggage, arriving at the airport, checking in for travel, and exiting the airport.\n\nLet me know if you'd like more options!"}
+T78.95752429298591 #85 extract_...
+T82.0923061450012 🤔 extract_1/2 #85 "géant" score? -0.42
+T82.09244593500625 attempt_84: "géant" score:-0.42 prog:None
+T84.61526787502225 🤔 extract_1/1 #86 "sortie" score? 14.24
+T84.61543969099876 attempt_85: "sortie" score:14.24 prog:None
+T95.91260958899511 #87 ? *10 read with t2
+T95.91316481900867 chat_prompt: give me 10 French words that are read with $1 and $2
+T95.91328197001712 session: {"role": "user", "content": "give me 10 French words that are read with \"bagage\" and \"a\u00e9roport\""}
+T113.3571581299766 session: {"role": "assistant", "content": "Here are 10 French words that can be read with \"bagage\" or \"a\u00e9roport\":\n\n1. **Sage** (wise, sounds like \"bagage\")\n2. **Pirate** (pirate, sounds like \"a\u00e9roport\")\n3. **Cierge** (porter or doorman, sounds like \"a\u00e9roport\")\n4. **Mange** (eat, sounds like \"bagage\")\n5. **Garde** (guard, sounds like \"bagage\")\n6. **Barge** (small boat, sounds like \"a\u00e9roport\")\n7. **Pareil** (similar, sounds like \"a\u00e9roport\")\n8. **Cage** ( enclosure, sounds like \"bagage\")\n9. **Echange** (exchange, sounds like \"a\u00e9roport\")\n10. **Age** (age, sounds like \"bagage\")\n\nThese words are all homophones, which means they sound the same when pronounced as the original words \"bagage\" or \"a\u00e9roport\"."}
+T120.02630706498167 #87 extract_...
+T124.38609916903079 🤔 extract_1/10 #87 "age" score? -.041
+T124.38627883698791 attempt_86: "age" score:-0.04 prog:None
+T127.85361316800117 🤔 extract_1/9 #88 "barge" score? 17.61
+T127.85377246898133 attempt_87: "barge" score:17.61 prog:None
+T131.37997268501204 🤔 extract_1/8 #89 "cage" score? 8.37
+T131.38014381797984 attempt_88: "cage" score:8.37 prog:None
+T133.736958649999 🤔 extract_1/7 #90 "cierge" score? 7.5
+T133.73709962697467 attempt_89: "cierge" score:7.50 prog:None
+T137.65393451001728 🤔 extract_1/6 #91 "echange" score? !
+T137.6541231040028 reject: "echange"
+T142.86909614299657 🤔 extract_1/5 #91 "garde" score? 22.04 556
+T142.86916864401428 attempt_90: "garde" score:22.04 prog:556
+T146.02967778698076 🤔 extract_1/4 #92 "mange" score? !
+T146.0297887159977 reject: "mange"
+T148.90841060498497 🤔 extract_1/3 #92 "pareil" score? 5.63
+T148.90860862698173 attempt_91: "pareil" score:5.63 prog:None
+T153.2264690779848 🤔 extract_1/2 #93 "pirate" score? -2.46
+T153.22661487601 attempt_92: "pirate" score:-2.46 prog:None
+T156.25504777597962 🤔 extract_1/1 #94 "sage" score? 1.884
+T156.25522237701807 attempt_93: "sage" score:1.88 prog:None
+T163.92295121302595 #95 ? # 94 score 1.84
+T171.77470026700757 #95 ? #94 score 1.84
+T171.77492638101103 fix attempt_93: score:1.84
+T180.22517610597424 #95 ? /last
+T192.2076325219823 #95 ? * t2 seen with
+T192.20807928801514 chat_prompt: give me 10 French words that are seen with $1 and $2
+T192.20827482797904 session: {"role": "user", "content": "give me 10 French words that are seen with \"bagage\" and \"a\u00e9roport\""}
+T213.77543569699628 session: {"role": "assistant", "content": "Here are 10 French words that can be paired with \"bagage\" or \"a\u00e9roport\" to create a new word:\n\n1. **Bagatelle** (amusement, sounds like \"bagage\")\n2. **A\u00e9rostatique** (air-borne, sounds like \"a\u00e9roport\")\n3. **Mangeable** (eat-able, sounds like \"mange\")\n4. **Cagoule** (hooded jacket, sounds like \"cage\")\n5. **Echangeur** (exchange point, sounds like \"echange\")\n6. **Pareillement** (similarly, sounds like \"pareil\")\n7. **Garde-\u00e0-vous** (stand at attention, sounds like \"garde\")\n8. **Barge** (small boat, pairs with \"a\u00e9roport\" to create a new sound)\n9. **Cageot** (birdcage, sounds like \"cage\")\n10. **Agence** (office or agency, pairs with \"bagage\" to create a new sound)\n\nThese words are all combinations of existing words that can be paired with \"bagage\" or \"a\u00e9roport\" to create a new word or phrase."}
+T216.3588669419987 #95 extract_...
+T219.76627929799724 🤔 extract_1/10 #95 "agence" score? 7.39
+T219.76645822398132 attempt_94: "agence" score:7.39 prog:None
+T223.3898773510009 🤔 extract_1/9 #96 "aérostatique" score? 1.47
+T223.39002561598318 attempt_95: "aérostatique" score:1.47 prog:None
+T225.8027117549791 🤔 extract_1/8 #97 "bagatelle" score? 2.29
+T225.80286065599648 attempt_96: "bagatelle" score:2.29 prog:None
+T228.21296326699667 🤔 extract_1/7 #98 "cageot" score? 15.23
+T228.21309973701136 attempt_97: "cageot" score:15.23 prog:None
+T230.57308161602123 🤔 extract_1/6 #99 "cagoule" score? 10.24
+T230.57323645998258 attempt_98: "cagoule" score:10.24 prog:None
+T232.90334684902336 🤔 extract_1/5 #100 "echangeur" score? !
+T232.9035005220212 reject: "echangeur"
+T239.07499810197623 🤔 extract_1/4 #100 "mangeable" score? -1.38
+T239.07513499102788 attempt_99: "mangeable" score:-1.38 prog:None
+T249.1891068770201 #101 ? #100 score -1.37
+T249.18937082000775 fix attempt_99: score:-1.37
+T251.03497319301823 #101 ? /e
+T252.28031896299217 #101 extract_...
+T255.5958497049869 🤔 extract_1/3 #101 "pareillement" score? 1.98
+T255.59601761901285 attempt_100: "pareillement" score:1.98 prog:None
+T258.2942283269949 🤔 extract_1/2 #102 "vous" score? !
+T258.29445307399146 reject: "vous"
+T261.6519625079818 🤔 extract_1/1 #102 "à" score? !
+T261.6520554460003 reject: "à"
+T263.9512887329911 #102 ? /pro
+T270.0424304070184 #102 ? *25 related t5
+T270.0427739369916 chat_prompt: give me 25 French words that are related to $1, $2, $3, $4, and $5
+T270.0429910470266 session: {"role": "user", "content": "give me 25 French words that are related to \"bagage\", \"a\u00e9roport\", \"arriv\u00e9e\", \"gare\", and \"d\u00e9chargement\""}
+T381.855801962025 session: {"role": "assistant", "content": "Here are 25 French words that are directly related to \"bagage\", \"a\u00e9roport\", \"arriv\u00e9e\", \"gare\", and \"d\u00e9chargement\":\n\n1. **Baggage** (luggage, same as English)\n2. **A\u00e9roport** (airport)\n3. **Arriv\u00e9e** (arrival)\n4. **Gare** (station)\n5. **D\u00e9chargement** (unloading)\n6. **Lourdage** (loading)\n7. **D\u00e9barquement** (embarkation/disembarkation)\n8. **Sortie** (exit)\n9. **Entr\u00e9e** (entrance)\n10. **Passager** (passenger)\n11. **Baggage** ( suitcase, handbag, etc.)\n12. **Voyage** (trip, journey)\n13. **Itin\u00e9raire** (route, itinerary)\n14. **Conduite** (control, management)\n15. **Gestion** (management)\n16. **D\u00e9placement** (movement, relocation)\n17. **D\u00e9part** (departure)\n18. **Arriv\u00e9e \u00e0 destination** (arrival at destination)\n19. **A\u00e9roport international** (international airport)\n20. **Gare de voyage** (train station)\n21. **Terminal** (airport terminal, train station)\n22. **Baggage claim** (area where luggage is collected)\n23. **D\u00e9trempe** (disembarkation, getting off a plane or train)\n24. **Embarquement** (boarding, getting on a plane or train)\n25. **Conseil** (advice, guidance)\n\nThese words are all related to the concepts of travel, transportation, and luggage handling, which are central to \"bagage\", \"a\u00e9roport\", \"arriv\u00e9e\", \"gare\", and \"d\u00e9chargement\"."}
+T476.6991637200117 #102 extract_...
+T481.9610933550284 🤔 extract_1/12 #102 "conduite" score? 20.14 349
+T481.9612950180308 attempt_101: "conduite" score:20.14 prog:349
+T485.379295397026 🤔 extract_1/11 #103 "conseil" score? -2.65
+T485.3794673330267 attempt_102: "conseil" score:-2.65 prog:None
+T487.76939219399355 🤔 extract_1/10 #104 "débarquement" score? 10.3
+T487.7695275740116 attempt_103: "débarquement" score:10.30 prog:None
+T495.4693475359818 #105 ? #104 score 10.34
+T495.4695949780289 fix attempt_103: score:10.34
+T497.1645717700012 #105 ? /e
+T499.0415432070149 #105 extract_...
+T506.2145786960027 🤔 extract_1/9 #105 "déplacement" score? 26.76
+T508.6191705010133 🤔 extract_1/9 #105 "déplacement" 26.76°C prog‰ ? 817
+T508.6193098719814 attempt_104: "déplacement" score:26.76 prog:817
+T513.0908119460219 🤔 extract_1/8 #106 "détrempe" score? -7.85
+T513.0910275200149 attempt_105: "détrempe" score:-7.85 prog:None
+T518.4890625280095 🤔 extract_1/7 #107 "embarquement" score? 25.29 753
+T518.4893000629963 attempt_106: "embarquement" score:25.29 prog:753
+T521.6065023959964 🤔 extract_1/6 #108 "entrée" score? 7.84
+T521.6066568680108 attempt_107: "entrée" score:7.84 prog:None
+T525.0643615680165 🤔 extract_1/5 #109 "gestion" score? -1.78
+T525.0645035459893 attempt_108: "gestion" score:-1.78 prog:None
+T528.0341298760031 🤔 extract_1/4 #110 "itinéraire" score? 16.51
+T528.03430724598 attempt_109: "itinéraire" score:16.51 prog:None
+T530.3573363440228 🤔 extract_1/3 #111 "lourdage" score? !
+T530.3574639700237 reject: "lourdage"
+T536.0359220610117 🤔 extract_1/2 #111 "passager" score? 35.4 959
+T536.0360948329908 attempt_110: "passager" score:35.40 prog:959
+T547.2465311139822 🤔 extract_1/1 #112 "voyage" score? 19.96 319
+T547.2466814080253 attempt_111: "voyage" score:19.96 prog:319
+T549.2068783920258 #113 ? /last
+T554.6999008340063 #113 ? /clear
+T554.7001257570228 session clear
+T556.6490553980111 #113 ? *?
+T565.7526413390297 #113 ? * t3
+T565.7529880590155 chat_prompt: give me 15 French words that are related to $1, $2, and $3
+T565.7531119689811 session: {"role": "user", "content": "give me 15 French words that are related to \"passager\", \"bagage\", and \"a\u00e9roport\""}
+T579.7162358260248 session: {"role": "assistant", "content": "Here are 15 French words related to \"passager\", \"bagage\", and \"a\u00e9roport\":\n\n1. Passag\u00e8re (female passenger)\n2. Bagages (suitcases)\n3. Arriv\u00e9e (arrival)\n4. D\u00e9part (departure)\n5. Porte (gate or door at the airport)\n6. Billet (ticket)\n7. Vols (flights)\n8. H\u00e9licopt\u00e8re (helicopter)\n9. A\u00e9roport (airport)\n10. V\u00e9rification des bagages ( baggage check)\n11. \u00c9tiquette de bagage (luggage tag)\n12. Douanier (customs officer)\n13. Visa (visa)\n14. S\u00e9curit\u00e9 a\u00e9rienne (airline security)\n15. Affaire de bagages (baggage claim)\n\nThese words should give you a good starting point for exploring the vocabulary related to passengers, luggage, and airports in French!"}
+T585.7408034330001 #113 extract_v...
+T594.6647601400036 #113 extract_...
+T598.0043803909793 🤔 extract_1/11 #113 "affaire" score? 9.85
+T598.0045411449973 attempt_112: "affaire" score:9.85 prog:None
+T600.406850341009 🤔 extract_1/10 #114 "bagages" score? !
+T600.4069531160058 reject: "bagages"
+T602.9331948870094 🤔 extract_1/9 #114 "billet" score? 7.34
+T602.9333192299819 attempt_113: "billet" score:7.34 prog:None
+T607.4084189980058 🤔 extract_1/8 #115 "douanier" score? 17.61
+T607.4085468190024 attempt_114: "douanier" score:17.61 prog:None
+T613.9865696890047 🤔 extract_1/7 #116 "hélicoptère" score? 20.87 443
+T613.9867745449883 attempt_115: "hélicoptère" score:20.87 prog:443
+T616.9327493070159 🤔 extract_1/6 #117 "passagère" score? !
+T616.9328522660071 reject: "passagère"
+T619.8180717360228 🤔 extract_1/5 #117 "sécurité" score? 7.92
+T619.8182032129844 attempt_116: "sécurité" score:7.92 prog:None
+T625.1238342819852 🤔 extract_1/4 #118 "visa" score? 16.03
+T625.1240562049788 attempt_117: "visa" score:16.03 prog:None
+T627.3861808489892 🤔 extract_1/3 #119 "vols" score? !
+T627.3863797510276 reject: "vols"
+T630.0439328330103 🤔 extract_1/2 #119 "vérification" score? 2.45
+T630.0440074159997 attempt_118: "vérification" score:2.45 prog:None
+T632.733586805989 🤔 extract_1/1 #120 "étiquette" score? -.38
+T632.7337076999829 attempt_119: "étiquette" score:-0.38 prog:None
+T637.1582116230275 #121 ? /prog
+T641.9266151629854 #121 ? /last
+T646.9302749470226 #121 ? * t2
+T646.9306490710005 chat_prompt: give me 10 French words that are related to $1 and $2
+T646.930811970029 session: {"role": "user", "content": "give me 10 French words that are related to \"passager\" and \"bagage\""}
+T658.5569903239957 session: {"role": "assistant", "content": "Here are 10 French words related to \"passager\" (passenger) and \"bagage\" (luggage):\n\n1. Passag\u00e8re (female passenger)\n2. Bagages (suitcases)\n3. Valise (suitcase)\n4. \u00c9tiquette de bagage (luggage tag)\n5. Carte de passation (boarding card)\n6. Passer au contr\u00f4le des bagages (going through baggage check)\n7. Bagages perdus (lost luggage)\n8. D\u00e9chets d'avion (airline waste or recyclables)\n9. Saisie de bagages (baggage claim)\n10. \u00c9quipage (crew or staff responsible for handling luggage)\n\nThese words should help you navigate the world of passengers and their luggage in French!"}
+T669.7712394539849 #121 extract_...
+T672.993310092017 🤔 extract_1/5 #121 "déchets" score? !
+T672.993432193005 reject: "déchets"
+T678.0788821299793 🤔 extract_1/4 #121 "passer" score? 18.42 71
+T678.079107558995 attempt_120: "passer" score:18.42 prog:71
+T680.409706506005 🤔 extract_1/3 #122 "saisie" score? 1.5
+T680.4098344569793 attempt_121: "saisie" score:1.50 prog:None
+T684.9042805199861 🤔 extract_1/2 #123 "valise" score? 24.81 731
+T684.9044817870017 attempt_122: "valise" score:24.81 prog:731
+T689.4707348020165 🤔 extract_1/1 #124 "équipage" score? 19.27
+T692.9943583409768 🤔 extract_1/1 #124 "équipage" 19.27°C prog‰ ? 217
+T692.9944893840002 attempt_123: "équipage" score:19.27 prog:217
+T706.5706599379773 #125 ? /prog
+T731.0034192259773 #125 ? * t2 #123
+T731.003949024016 chat_prompt: give me 15 French words that are related to $1, $2, and #123
+T731.0041719420115 session: {"role": "user", "content": "give me 15 French words that are related to \"passager\", \"bagage\", and \"valise\""}
+T748.6875595580204 session: {"role": "assistant", "content": "Here are 15 French words related to \"passager\" (passenger), \"bagage\" (luggage), and \"valise\" (suitcase):\n\n1. Passag\u00e8re (female passenger)\n2. Bagages (suitcases)\n3. Valise (suitcase)\n4. \u00c9tiquette de bagage (luggage tag)\n5. Carte de passation (boarding card)\n6. Passer au contr\u00f4le des bagages (going through baggage check)\n7. Bagages perdus (lost luggage)\n8. D\u00e9chets d'avion (airline waste or recyclables)\n9. Saisie de bagages (baggage claim)\n10. \u00c9quipage (crew or staff responsible for handling luggage)\n11. V\u00e9hicule de transport a\u00e9rien (aircraft)\n12. Abri \u00e0 bagages (suitcase storage area)\n13. Cl\u00f4ture des bagages (closure of checked baggage)\n14. \u00c9prouvettes (travel-sized toiletries)\n15. Conteneurs \u00e0 bagages (checked luggage containers)\n\nThese words should help you understand the concept of passengers, their luggage, and suitcases in French!"}
+T749.8131111880066 #125 extract_...
+T752.7018108019838 🤔 extract_1/5 #125 "abri" score? 4.08
+T752.7019513910054 attempt_124: "abri" score:4.08 prog:None
+T756.3113250139868 🤔 extract_1/4 #126 "clôture" score? -4.49
+T756.3114616870298 attempt_125: "clôture" score:-4.49 prog:None
+T758.4955981890089 🤔 extract_1/3 #127 "conteneurs" score? !
+T758.4956988929771 reject: "conteneurs"
+T764.7215914080152 🤔 extract_1/2 #127 "véhicule" score? 43.67 986
+T764.7217640670133 attempt_126: "véhicule" score:43.67 prog:986
+T769.3079403649899 🤔 extract_1/1 #128 "éprouvettes" score? !
+T769.3080412889831 reject: "éprouvettes"
+T771.9114438520046 #128 ? _
+T771.9117045080056 chat_prompt: _
+T771.9117751289741 session: {"role": "user", "content": "give me 15 French words that are related to \"v\u00e9hicule\", \"passager\", and \"valise\""}
+T789.5988414789899 session: {"role": "assistant", "content": "Here are 15 French words related to \"v\u00e9hicule\" (vehicle), \"passager\" (passenger), and \"valise\" (suitcase):\n\n1. Passag\u00e8re (female passenger)\n2. V\u00e9hicule de transport a\u00e9rien (aircraft)\n3. Volant (co-pilot or navigator)\n4. Conduite (piloting)\n5. \u00c9quipage (crew or staff responsible for handling luggage and passengers)\n6. Valise (suitcase)\n7. Bagages (suitcases)\n8. Abri \u00e0 bagages (suitcase storage area)\n9. Saisie de bagages (baggage claim)\n10. Porte-monnaies (travel wallet)\n11. \u00c9tiquette de bagage (luggage tag)\n12. V\u00e9hicule de fret (cargo plane or freighter)\n13. Avionnel (airplane section in a train station)\n14. Caisse de bagages (checked luggage compartment)\n15. Consigne de passagers (passenger manifest)\n\nThese words should help you understand the concept of vehicles, passengers, and luggage in French!"}
+T794.2751919039874 #128 extract_...
+T797.3261527600116 🤔 extract_1/5 #128 "avionnel" score? !
+T797.3264481209917 reject: "avionnel"
+T804.6291064770194 🤔 extract_1/4 #128 "caisse" score? 14.79
+T804.6292301890207 attempt_127: "caisse" score:14.79 prog:None
+T807.6168150519952 🤔 extract_1/3 #129 "consigne" score? 10.9
+T807.6169382809894 attempt_128: "consigne" score:10.90 prog:None
+T809.8461225909996 🤔 extract_1/2 #130 "monnaies" score? !
+T809.8462911910028 reject: "monnaies"
+T816.2361681379844 🤔 extract_1/1 #130 "volant" score? 37.31 969
+T816.2363823570195 attempt_129: "volant" score:37.31 prog:969
+T819.1025038320222 #131 ? _
+T819.1027973809978 chat_prompt: _
+T819.102911679016 session: {"role": "user", "content": "give me 15 French words that are related to \"v\u00e9hicule\", \"volant\", and \"valise\""}
+T838.2975912829861 session: {"role": "assistant", "content": "Here are 15 French words related to \"v\u00e9hicule\" (vehicle), \"volant\" (co-pilot or navigator), and \"valise\" (suitcase):\n\n1. Volant (co-pilot or navigator)\n2. Conduite (piloting)\n3. \u00c9quipage (crew or staff responsible for handling luggage, passengers, and vehicle operation)\n4. V\u00e9hicule de transport a\u00e9rien (aircraft)\n5. Valise (suitcase)\n6. Bagages (suitcases)\n7. Porte-monnaies (travel wallet)\n8. \u00c9tiquette de bagage (luggage tag)\n9. Volantiel (co-pilot's seat)\n10. Consigne de passagers (passenger manifest)\n11. V\u00e9hicule de fret (cargo plane or freighter)\n12. Avionnel (airplane section in a train station)\n13. Caisse de bagages (checked luggage compartment)\n14. D\u00e9chets a\u00e9riens (aircraft waste or recyclables)\n15. Autorisation de vol (flight authorization or permit)\n\nThese words should help you understand the concept of vehicles, co-pilots, and luggage in French!"}
+T840.5768808790017 #131 extract_...
+T843.5043427569908 🤔 extract_1/2 #131 "autorisation" score? 3.81
+T843.5045563849853 attempt_130: "autorisation" score:3.81 prog:None
+T845.6155803399743 🤔 extract_1/1 #132 "volantiel" score? !
+T845.615744373994 reject: "volantiel"
+T848.400465505023 #132 ? /last
+T858.7030426280107 #132 ? aériens
+T861.5812811630312 🤔 entered #132 "aériens" score? !
+T861.5814820239902 reject: "aériens"
+T877.9916040140088 #132 ? 
+T879.6557574020117 #132 ? /prog
+T882.3174343039864 #132 ? * t4
+T882.317826782004 chat_prompt: give me 20 French words that are related to $1, $2, $3, and $4
+T882.3179842840182 session: {"role": "user", "content": "give me 20 French words that are related to \"v\u00e9hicule\", \"volant\", \"passager\", and \"bagage\""}
+T907.1641418510117 session: {"role": "assistant", "content": "Here are 20 French words related to \"v\u00e9hicule\" (vehicle), \"volant\" (co-pilot or navigator), \"passager\" (passenger), and \"bagage\" (luggage):\n\n1. Volant (co-pilot or navigator)\n2. Conduite (piloting)\n3. \u00c9quipage (crew or staff responsible for handling luggage, passengers, and vehicle operation)\n4. V\u00e9hicule de transport a\u00e9rien (aircraft)\n5. Valise (suitcase)\n6. Bagages (suitcases)\n7. Passag\u00e8re (female passenger)\n8. Passager (male passenger)\n9. Volantiel (co-pilot's seat)\n10. Consigne de passagers (passenger manifest)\n11. V\u00e9hicule de fret (cargo plane or freighter)\n12. Avionnel (airplane section in a train station)\n13. Caisse de bagages (checked luggage compartment)\n14. D\u00e9chets a\u00e9riens (aircraft waste or recyclables)\n15. Autorisation de vol (flight authorization or permit)\n16. Passeportier (boarding attendant)\n17. Contr\u00f4le des passagers (passenger screening)\n18. Porte-monnaies (travel wallet)\n19. \u00c9tiquette de bagage (luggage tag)\n20. Emballage de bagages (baggage packaging)\n\nThese words should help you understand the concept of vehicles, co-pilots, passengers, and luggage in French!"}
+T909.128482169006 #132 extract_...
+T911.7565612730104 🤔 extract_1/2 #132 "contrôle" score? 4.85
+T911.7567320279777 attempt_131: "contrôle" score:4.85 prog:None
+T915.2121489900164 🤔 extract_1/1 #133 "passeportier" score? !
+T915.2123460040311 reject: "passeportier"
+T916.5509363050223 #133 ? /last
+T921.5086099670152 #133 ? passagers
+T923.8150235119974 🤔 entered #133 "passagers" score? !
+T923.8151619820273 reject: "passagers"
+T936.8531347120297 #133 ? monnaies
+T944.1532218820066 #133 ? fret
+T947.4514317960129 🤔 entered #133 "fret" score? 13.85
+T947.4516775860102 attempt_132: "fret" score:13.85 prog:None
+T954.6176840009866 #134 ? transport
+T962.040503029013 🤔 entered #134 "transport" score? 31.83 921
+T962.0406670009834 attempt_133: "transport" score:31.83 prog:921
+T963.6660665230011 #135 ? /prog
+T969.2913877270184 #135 ? * t1
+T969.291726454976 chat_prompt: give me 5 French words that are related to $1
+T969.2918559800019 session: {"role": "user", "content": "give me 5 French words that are related to \"v\u00e9hicule\""}
+T977.3998026759946 session: {"role": "assistant", "content": "Here are 5 French words related to \"v\u00e9hicule\" (vehicle):\n\n1. Volant (co-pilot or navigator)\n2. Conduite (piloting)\n3. \u00c9quipage (crew or staff responsible for operating the vehicle)\n4. Appareil a\u00e9rien (aircraft or airplane)\n5. Propulsion (engine or propulsion system)\n\nThese words should give you an idea of some key terms related to vehicles in French!"}
+T979.8436410209979 #135 extract_...
+T982.3968996630283 🤔 extract_1/2 #135 "appareil" score? 4.91
+T982.3971008720109 attempt_134: "appareil" score:4.91 prog:None
+T985.9769390029833 🤔 extract_1/1 #136 "propulsion" score? -2.79
+T985.9770722750109 attempt_135: "propulsion" score:-2.79 prog:None
+T1004.3440099650179 #137 ? *15 t5
+T1004.3442789280089 chat_prompt: give me 15 French words that are related to $1, $2, $3, $4, and $5
+T1004.3444360360154 session: {"role": "user", "content": "give me 15 French words that are related to \"v\u00e9hicule\", \"volant\", \"passager\", \"bagage\", and \"transport\""}
+T1024.6012327179778 session: {"role": "assistant", "content": "Here are 15 French words related to \"v\u00e9hicule\" (vehicle), \"volant\" (co-pilot or navigator), \"passager\" (passenger), \"bagage\" (luggage), and \"transport\":\n\n1. Volant (co-pilot or navigator)\n2. Passag\u00e8re (female passenger)\n3. Passager (male passenger)\n4. \u00c9quipage (crew or staff responsible for operating the vehicle)\n5. Appareil a\u00e9rien (aircraft or airplane)\n6. Propulsion (engine or propulsion system)\n7. Conduite (piloting)\n8. Transport a\u00e9rien (air transportation)\n9. Vol de transport (flight of transport)\n10. Passeportier (boarding attendant)\n11. Consigne de passagers (passenger manifest)\n12. Bagages (suitcases)\n13. V\u00e9hicule de fret (cargo plane or freighter)\n14. Emballage de bagages (baggage packaging)\n15. D\u00e9parts et arriv\u00e9es (departures and arrivals)\n\nThese words should help you understand the concept of vehicles, passengers, luggage, transportation, and related terms in French!"}
+T1027.3830921790213 #137 extract_...
+T1030.4772594370297 🤔 extract_1/2 #137 "départs" score? !
+T1030.4773805530276 reject: "départs"
+T1033.2578406290268 🤔 extract_1/1 #137 "vol" score? 15.12
+T1033.2579787960276 attempt_136: "vol" score:15.12 prog:None
+T1035.6558970229817 <INT>
+T0.009861068974714726 now: 2024-11-23T21:41:31EST
+T0.015506596013437957 session model: llama
+T4.5721150119788945 #138 ? /prog
+T7.790502513991669 #138 ? /last
+T24.692088121024426 #138 ? *16 t4 /clear
+T24.6928260140121 session clear
+T24.692927364027128 chat_prompt: give me 16 French words that are related to $1, $2, $3, and $4
+T24.69306077697547 session: {"role": "user", "content": "give me 16 French words that are related to \"v\u00e9hicule\", \"volant\", \"passager\", and \"bagage\""}
+T43.60522879898781 session: {"role": "assistant", "content": "Here are 16 French words related to the given themes:\n\n1. v\u00e9hicule - voiture (car)\n2. volant - pilote\n3. passager - voyageur\n4. bagage - \u00e9quipage\n5. v\u00e9hicule - camion (truck)\n6. volant - co-pilote\n7. passager - place (seat)\n8. bagage - fret (compartment)\n9. v\u00e9hicule - bus (bus)\n10. volant - routeur (pilot)\n11. passager - conducteur (driver)\n12. bagage - cargo (cargo)\n13. v\u00e9hicule - voiturette (vans)\n14. volant - navigateur (navigator)\n15. passager - \u00e9l\u00e9gant (dressed in style for travel)\n16. bagage - attache (suitcase)\n\nHere are the definitions:\n\n1. Voiture (car)\n2. Pilote\n3. Voyageur\n4. \u00c9quipage (cargo)\n5. Camion\n6. Co-pilote\n7. Place\n8. Fret\n9. Bus\n10. Routeur\n11. Conducteur\n12. Cargo\n13. Vans\n14. Navigateur\n15. \u00c9l\u00e9gant \n16. Attache"}
+T92.08044314599829 #138 extract_...
+T96.01664327498293 🤔 extract_1/13 #138 "attache" score? 4.45
+T96.0169066649978 attempt_137: "attache" score:4.45 prog:None
+T102.44821837602649 🤔 extract_1/12 #139 "bus" score? 47.01 988
+T102.44838770001661 attempt_138: "bus" score:47.01 prog:988
+T107.85558517201571 🤔 extract_1/11 #140 "camion" score? 52.8 997
+T107.8557625740068 attempt_139: "camion" score:52.80 prog:997
+T112.90916914498666 🤔 extract_1/10 #141 "cargo" score? 19.48 255
+T112.90945786697557 attempt_140: "cargo" score:19.48 prog:255
+T115.4340292569832 🤔 extract_1/9 #142 "co" score? !
+T115.43416920298478 reject: "co"
+T120.67505321098724 🤔 extract_1/8 #142 "conducteur" score? 50.26 994
+T120.67523348599207 attempt_141: "conducteur" score:50.26 prog:994
+T123.46715057402616 🤔 extract_1/7 #143 "navigateur" score? -5.22
+T123.46729188901372 attempt_142: "navigateur" score:-5.22 prog:None
+T126.87260164797772 🤔 extract_1/6 #144 "pilote" score? 10.44
+T126.87274729699129 attempt_143: "pilote" score:10.44 prog:None
+T130.75915712298593 🤔 extract_1/5 #145 "place" score? 7.37
+T130.75925834302325 attempt_144: "place" score:7.37 prog:None
+T132.8228586629848 🤔 extract_1/4 #146 "routeur" score? 5
+T132.8229679709766 attempt_145: "routeur" score:5.00 prog:None
+T135.1773754109745 🤔 extract_1/3 #147 "vans" score? !
+T135.17751719802618 reject: "vans"
+T140.21030731400242 🤔 extract_1/2 #147 "voiture" score? 49.84
+T145.35648312501144 🤔 extract_1/2 #147 "voiture" 49.84°C prog‰ ? 993
+T145.3566677190247 attempt_146: "voiture" score:49.84 prog:993
+T152.2283665459836 🤔 extract_1/1 #148 "voyageur" score? 29.2 882
+T152.22850890900008 attempt_147: "voyageur" score:29.20 prog:882
+T154.24586649402045 #149 ? _
+T154.24619793100283 chat_prompt: _
+T154.2462997030234 session: {"role": "user", "content": "give me 16 French words that are related to \"camion\", \"conducteur\", \"voiture\", and \"bus\""}
+T176.20368443999905 session: {"role": "assistant", "content": "Here are 16 French words related to the given themes:\n\n1. camion - semi (semi-trailer)\n2. conducteur - chauffeur\n3. voiture - voiturette (vans)\n4. bus - autobus (autobus)\n5. camion - tracteur (tractor)\n6. conducteur - routier (road driver)\n7. voiture - scooter (scooter)\n8. bus - trolleybus (tramway \u00e9lectrique)\n9. camion - remorque (trailer)\n10. conducteur - transporteur (transporter)\n11. voiture - monsieur/ madame (gentleman/woman, for a car owner)\n12. bus - ligne de bus (bus line)\n13. camion - poids-lourd (heavy-duty truck)\n14. conducteur - chauffeur de taxi (taxi driver)\n15. voiture - voiturette (vans) \n16. bus - agence d'autocars (bus company)\n\nHere are the definitions:\n\n1. Semi\n2. Chauffeur\n3. Vans\n4. Autobus\n5. Tractor\n6. Routier\n7. Scooter\n8. Trolleybus\n9. Remorque\n10. Transporteur \n11. Monsieur/Madame\n12. Ligne de bus\n13. Poids-lourd\n14. Chauffeur de taxi\n15. Vans \n16. Agence d'autocars"}
+T177.37649193400284 #149 extract_...
+T182.5182958979858 🤔 extract_1/13 #149 "autobus" score? 49.41 992
+T182.5184636270278 attempt_148: "autobus" score:49.41 prog:992
+T188.41887520899763 🤔 extract_1/12 #150 "chauffeur" score? 100 1000
+T188.4190236189752 attempt_149: "chauffeur" score:100.00 prog:1000
+T194.00769835500978 Paste share result, then preses <Enter>
+T194.01594914100133 share result: "J'ai trouv\u00e9 #cemantix n\u00ba998 en 150 coups !\n\ud83e\udd73\n\ud83d\udd254\ufe0f\u20e3\n\ud83e\udd756\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e2\ufe0f\u20e32\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd768\ufe0f\u20e39\ufe0f\u20e3\n\ud83e\uddca\ud83e\uddca2\ufe0f\u20e38\ufe0f\u20e3\nhttps://cemantix.certitudes.org/"
+T194.01754821301438 <STOP>
