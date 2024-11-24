@@ -1,5 +1,6 @@
 
 
+
 # 2024-10-07
 ```
 🧩 Puzzle #440
@@ -836,22 +837,21 @@ https://cemantix.certitudes.org/
 
 ```
 🔗 cemantix.certitudes.org
-🧩 997
-🤔 319 guesses
-    🥳   1
-    😱   1
-    🔥   5
-    🥵  18
-    😎  62
-    🥶 202
-    🧊  30
-⏱️ 1:14:39.058255
+🧩 998
+🤔 150 guesses
+    🥳  1
+    🔥  4
+    🥵  6
+    😎 22
+    🥶 89
+    🧊 28
+⏱️ 0:39:47.201851
 ```
 
-🤔 320 attempts
-📜 18 sessions
-🫧 73 chat prompts
-🤖 66 chat replies
+🤔 150 attempts
+📜 8 sessions
+🫧 28 chat prompts
+🤖 28 chat replies
 
 # 2024-11-23 alfagok.diginaut.net
 
@@ -897,22 +897,14 @@ https://cemantix.certitudes.org/
 🔗 alphaguess.com
 ```
 
-# 2024-11-23 cemantix.certitudes.org
+# 2024-11-23 alfagok.diginaut.net
 
 ```
-🔗 cemantix.certitudes.org
-🧩 998
-🤔 150 guesses
-    🥳  1
-    🔥  4
-    🥵  6
-    😎 22
-    🥶 89
-    🧊 28
-⏱️ 0:36:33.351144
-```
+🧩 Puzzel #22
 
-🤔 150 attempts
-📜 7 sessions
-🫧 28 chat prompts
-🤖 28 chat replies
+🤔 10 gokken
+
+⏱️ 32s
+
+🔗 alfagok.diginaut.net
+```
