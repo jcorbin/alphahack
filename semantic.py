@@ -1696,6 +1696,28 @@ class Search(StoredLog):
                     if word in self.wordgood: continue
                     yield int(ns), word
 
+    def chat_extract_list(self, ui: PromptUI):
+        seen: set[str] = set()
+        for n, word in self.reply_words():
+            word = word.lower()
+            if word in seen: continue
+            seen.add(word)
+
+            iw = len(str(len(self.word)))+1
+            ww = max(len(word) for word in self.word)
+            lpad = ' '*(2*iw + 1)
+            mpad = ' '*(7 + 2)
+
+            desc = ''
+            if word in self.wordbad:
+                desc = f'{lpad} {word:{ww}} {mpad} ❌'
+            elif word in self.wordgood:
+                desc = self.describe_word(self.wordgood[word])
+            else:
+                desc = f'{lpad} {word:{ww}} {mpad} 🤔'
+
+            ui.print(f'{n}. {desc}')
+
     def attempt_word(self, ui: PromptUI, word: str, desc: str, tokens: PromptUI.Tokens|None = None) -> PromptUI.State|None:
         if not word: return
 
@@ -1929,13 +1951,35 @@ class Search(StoredLog):
 
     def chat_extract(self, ui: PromptUI) -> PromptUI.State | None:
         with ui.catch_state(KeyboardInterrupt, self.ideate):
+            do_all = False
+            do_list = False
+
+            for token in (ui.tokens.token, *ui.tokens):
+                if not token: break
+                token = token.lower()
+                if token == 'all':
+                    do_all = True
+                elif token == 'ls':
+                    do_list = True
+                else:
+                    ui.print(f'! {ui.tokens.raw}')
+                    ui.print(f'// Usage: /extract [ls]')
+                    return
+
             words = sorted(word for _, word in self.reply_words())
-            ui.br()
+
+            if do_list:
+                self.chat_extract_list(ui)
+                return self.ideate
 
             if not words:
                 ui.print(f'// No new words extracted from last chat reply')
                 return self.ideate
 
+            if do_all:
+                return self.chat_extract_all
+
+            ui.br()
             ui.print(f'// Extracted {len(words)} new words from last chat reply')
             iw = len(str(len(words)))
             for i, word in enumerate(words):
