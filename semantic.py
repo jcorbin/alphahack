@@ -7,6 +7,7 @@ import math
 import ollama
 import re
 import subprocess
+import traceback
 from bs4 import BeautifulSoup
 from collections import Counter
 from collections.abc import Generator, Iterable, Iterator, Sequence
@@ -463,6 +464,11 @@ class ChatStats:
     user_count: int
     assistant_count: int
 
+@dataclass
+class ChatSession:
+    chat: list[ollama.Message]
+    model: str
+
 @final
 class Search(StoredLog):
     log_file: str = 'cemantle.log'
@@ -515,13 +521,16 @@ class Search(StoredLog):
 
         self.abbr: dict[str, str] = dict()
         self.chat: list[ollama.Message] = []
-        self.chat_role_counts: Counter[str] = Counter()
+        self.chat_history: list[ChatSession] = []
+
         self.last_chat_prompt: str|ChatPrompt = ''
         self.last_chat_basis: set[str] = set()
 
         self.min_word_len: int = 2
 
+        self.chat_extract_info: list[str] = []
         self.chat_extract_from: str = ''
+        self.chat_extract_scav: bool = False
         self.extracted: int = 0
         self.extracted_good: int = 0
         self.extracted_bad: int = 0
@@ -887,7 +896,7 @@ class Search(StoredLog):
             if match:
                 model, rest = match.groups()
                 assert rest == ''
-                self.llm_model = model
+                self.chat_model(ui, model)
                 continue
 
             match = re.match(r'''(?x)
@@ -1076,12 +1085,20 @@ class Search(StoredLog):
     def info(self):
         yield f'🤔 {self.attempt} attempts'
         yield f'📜 {len(self.sessions)} sessions'
+        yield f'🫧 {len(self.chat_history)} chat sessions'
 
-        role_counts = self.chat_role_counts
+        role_counts = self.chat_role_counts()
         user = role_counts.get("user", 0)
         asst = role_counts.get("assistant", 0)
         if user: yield f'⁉️ {user} chat prompts'
         if asst: yield f'🤖 {asst} chat replies'
+
+    def chat_role_counts(self):
+        role_counts: Counter[str] = Counter()
+        for h in self.chat_history:
+            for mess in h.chat:
+                role_counts.update((mess['role'],))
+        return role_counts
 
     def meta(self):
         if self.today is not None: yield f'📆 {self.today:%Y-%m-%d}'
@@ -1126,9 +1143,9 @@ class Search(StoredLog):
             'report': self.do_report,
             'yester': self.do_yester,
 
-            'clear': self.chat_clear,
+            'clear': self.chat_clear_cmd,
             'extract': self.chat_extract,
-            'model': self.chat_model,
+            'model': self.chat_model_cmd,
             'last': self.chat_last,
         }
 
@@ -1374,12 +1391,11 @@ class Search(StoredLog):
         try:
             model = olm_find_model(self.llm_client, self.llm_model)
         except RuntimeError:
-            self.chat_model(ui)
+            self.chat_model_cmd(ui)
         else:
-            if self.llm_model != model:
-                ui.log(f'session model: {self.llm_model}')
-                self.llm_model = model
+            self.chat_model(ui, model)
 
+        self.chat_extract_scav = False
         if any(self.chat_extract_words()):
             return self.chat_extract
 
@@ -1483,7 +1499,7 @@ class Search(StoredLog):
             n = len(like_words) + len(unlike_words)
             count = per * n
 
-        if clear: self.chat_clear(ui)
+        if clear: self.chat_clear_cmd(ui)
 
         kind = self.lang # TODO more flexible kind-vs-lang handling
 
@@ -1524,7 +1540,7 @@ class Search(StoredLog):
         if self.found is not None:
             return self.finish
 
-        if self.chat and self.chat[-1]['role'] == 'user':
+        if self.last_chat_role == 'user':
             ui.print('// last chat prompt aborted; restart with `.`')
 
         token = self.prompt(ui, '? ').head
@@ -1729,12 +1745,29 @@ class Search(StoredLog):
     @property
     def chat_extract_desc(self):
         desc = self.chat_extract_from
-        info: list[str] = []
+        info = [*self.chat_extract_info]
         info.append(f'found:{self.extracted}')
         if self.extracted_bad: info.append(f'rejects:{self.extracted_bad}')
         if self.extracted_good: info.append(f'prior:{self.extracted_good}')
         if info: desc = f'{desc} ({" ".join(info)})'
         return desc
+
+    def role_history(self, role: str) -> Generator[tuple[int, int, str]]:
+        for j, content in enumerate(role_content(reversed(self.chat), role)):
+            yield 0, j, content
+        for i, h in enumerate(reversed(self.chat_history), 1):
+            for j, content in enumerate(role_content(reversed(h.chat), role)):
+                yield i, j, content
+
+    def count_role_history(self, role: str):
+        hn = sum(
+            sum(1 for _ in role_content(h.chat, role))
+            for h in self.chat_history)
+        sn = len(self.chat_history)
+        if self.chat:
+            hn += sum(1 for _ in role_content(self.chat, role))
+            sn += 1
+        return sn, hn
 
     @overload
     def filter_words(self, it: Iterable[str]) -> Generator[str]:
@@ -1763,9 +1796,9 @@ class Search(StoredLog):
         self.extracted_good = 0
         self.extracted_bad = 0
 
-        for _n, word in self.filter_words(
+        for _i, _j, _n, word in self.filter_words(
             self.chat_extract_word_matchs(),
-            key = lambda n_word: n_word[1]):
+            key = lambda ijn_word: ijn_word[3]):
 
             word = word.lower()
             self.extracted += 1
@@ -1777,13 +1810,25 @@ class Search(StoredLog):
                 continue
             yield word
 
-    def chat_extract_word_matchs(self) -> Generator[tuple[int, str]]:
-        self.chat_extract_from = 'last chat reply'
-        reply = next(role_content(reversed(self.chat), 'assistant'), None)
-        if reply: yield from (
-            (n, word)
-            for line in spliterate(reply, '\n', trim=True)
-            for n, word in find_match_words(line))
+    def chat_extract_word_matchs(self) -> Generator[tuple[int, int, int, str]]:
+        if self.chat_extract_scav:
+            self.chat_extract_from = 'chat history'
+            sn, hn = self.count_role_history('assistant')
+            self.chat_extract_info = [f'replies:{hn}', f'sessions:{sn}']
+            yield from (
+                (i, j, n, word)
+                for i, j, reply in self.role_history('assistant')
+                for line in spliterate(reply, '\n', trim=True)
+                for n, word in find_match_words(line))
+
+        else:
+            self.chat_extract_from = 'last chat reply'
+            self.chat_extract_info = []
+            reply = next(role_content(reversed(self.chat), 'assistant'), None)
+            if reply: yield from (
+                (0, 0, n, word)
+                for line in spliterate(reply, '\n', trim=True)
+                for n, word in find_match_words(line))
 
     def describe_extracted_word(self, word: str):
         iw = len(str(len(self.word)))+1
@@ -1800,13 +1845,29 @@ class Search(StoredLog):
         return f'{lpad} {word:{ww}} {mpad} 🤔'
 
     def chat_extract_list(self, ui: PromptUI):
-        for n, word in self.filter_words(
+        last_chat_i: int|None = None
+        last_rep_i: int|None = None
+        cw = len(str(len(self.chat_history)))
+        rw = max(len(str(len(h.chat))) for h in self.chat_history)
+
+        for chat_i, rep_i, n, word in self.filter_words(
             self.chat_extract_word_matchs(),
-            key = lambda n_word: n_word[1]):
+            key = lambda ijn_word: ijn_word[3]):
+
+            cee = ' ' * (cw+1)
+            if last_chat_i != chat_i:
+                last_chat_i = chat_i
+                last_rep_i = None
+                cee = (f'C{chat_i:<{cw}}')
+
+            ree = ' ' * (rw+1)
+            if last_rep_i != rep_i:
+                last_rep_i = rep_i
+                ree = f'R{rep_i:<{rw}}'
 
             word = word.lower()
             desc = self.describe_extracted_word(word)
-            ui.print(f'{n}. {desc}')
+            ui.print(f'{cee} {ree} {n:>2}. {desc}')
 
     def attempt_word(self, ui: PromptUI, word: str, desc: str, tokens: PromptUI.Tokens|None = None) -> PromptUI.State|None:
         if not word: return
@@ -1981,64 +2042,84 @@ class Search(StoredLog):
                     ui.print('! {e}')
                     return
 
-            last = self.chat[-1] if self.chat else None
-            lastt = (last['role'], last.get('content')) if last else (None, None)
-            if lastt != ('user', prompt):
-                self.chat_append(ui, {'role': 'user', 'content': prompt})
-
             for line in wraplines(ui.screen_cols-4, prompt.splitlines()):
                 ui.print(f'>>> {line}')
 
             # TODO wrapped writer
             # TODO tee content into a word scanner
 
-            parts: list[str] = []
             ui.write('... ')
-            for resp in self.llm_client.chat(model=self.llm_model, messages=self.chat, stream=True):
-                try:
-                    mess = resp['message'] # pyright: ignore[reportAny]
-                    assert isinstance(mess, dict)
-                    mess = cast(dict[str, Any], mess)
-                except:
-                    ui.print(f'\n! {resp!r}')
-                    raise
-
-                try:
-                    role = mess['role'] # pyright: ignore[reportAny]
-                    assert isinstance(role, str)
-                    if role != 'assistant':
-                        # TODO note?
-                        continue
-
-                    content = mess['content'] # pyright: ignore[reportAny]
-                    assert isinstance(content, str)
-
-                    parts.append(content)
-
-                    # TODO care about resp['done'] / resp['done_reason'] ?
-
-                    a, sep, b = content.partition('\n')
-                    ui.write(a)
-                    while sep:
-                        end = sep
-                        a, sep, b = b.partition('\n')
-                        ui.write(f'{end}... {a}')
-
-                except:
-                    ui.print(f'\n! {mess!r}')
-                    raise
+            for _, content in self.chat_say(ui, prompt):
+                a, sep, b = content.partition('\n')
+                ui.write(a)
+                while sep:
+                    end = sep
+                    a, sep, b = b.partition('\n')
+                    ui.write(f'{end}... {a}')
             ui.fin()
-            self.chat_append(ui, {'role': 'assistant', 'content': ''.join(parts)})
 
+            self.chat_extract_scav = False
             if any(self.chat_extract_words()):
                 return self.chat_extract
 
             ui.print(f'// No new words extracted from {self.chat_extract_desc}')
 
+    def chat_say(self, ui: PromptUI, prompt: str):
+        if self.last_chat_tup != ('user', prompt):
+            self.chat_append(ui, {'role': 'user', 'content': prompt})
+
+        # TODO with-pending-append-partial
+
+        parts: list[str] = []
+
+        for resp in self.llm_client.chat(model=self.llm_model, messages=self.chat, stream=True):
+            try:
+                mess = resp['message'] # pyright: ignore[reportAny]
+                assert isinstance(mess, dict)
+                # TODO validate mess : ollama.Message
+                mess = cast(ollama.Message, cast(object, mess))
+            except Exception as exc:
+                tb = traceback.TracebackException.from_exception(exc)
+                ui.print(f'\n! ollama response: {json.dumps(resp)}')
+                for chunk in tb.format():
+                    for line in chunk.rstrip('\n').splitlines():
+                        ui.print(f'! {line}')
+
+                raise StopIteration
+
+            # TODO care about resp['done'] / resp['done_reason'] ?
+
+            try:
+                role = mess['role']
+                assert isinstance(role, str)
+                if role != 'assistant':
+                    # TODO note?
+                    continue
+
+                content = mess.get('content')
+                if content is None:
+                    # TODO note?
+                    continue
+
+                parts.append(content)
+
+                yield role, content
+
+            except:
+                ui.print(f'\n! {mess!r}')
+                raise
+
+        self.chat_append(ui, {'role': 'assistant', 'content': ''.join(parts)})
+
+    def chat_clear(self, ui: PromptUI):
+        ui.log(f'session clear')
+        if self.chat:
+            self.chat_history.append(ChatSession(self.chat, model=self.llm_model))
+        self.chat = []
+
     def chat_append(self, ui: PromptUI, mess: ollama.Message):
         ui.log(f'session: {json.dumps(mess)}')
         self.chat.append(mess)
-        self.chat_role_counts.update((mess['role'],))
 
     def chat_stats(self):
         role_counts = Counter(mess['role'] for mess in self.chat)
@@ -2048,6 +2129,16 @@ class Search(StoredLog):
         user_count = role_counts.pop("user", 0)
         assistant_count = role_counts.pop("assistant", 0)
         return ChatStats(token_count, user_count, assistant_count)
+
+    @property
+    def last_chat_role(self):
+        return self.chat[-1]['role'] if self.chat else ''
+
+    @property
+    def last_chat_tup(self):
+        last = self.chat[-1] if self.chat else None
+        if not last: return (None, None)
+        return (last['role'], last.get('content'))
 
     def note_chat_basis_change(self, ui: PromptUI):
         if isinstance(self.last_chat_prompt, ChatPrompt):
@@ -2061,6 +2152,7 @@ class Search(StoredLog):
 
     def chat_extract(self, ui: PromptUI) -> PromptUI.State | None:
         with ui.catch_state(KeyboardInterrupt, self.ideate):
+            self.chat_extract_scav = False
             do_all = False
             do_list = False
 
@@ -2071,9 +2163,12 @@ class Search(StoredLog):
                     do_all = True
                 elif token == 'ls':
                     do_list = True
+                elif 'scavenge'.startswith(token):
+                    self.chat_extract_scav = True
+                    token = ui.tokens.next()
                 else:
                     ui.print(f'! {ui.tokens.raw}')
-                    ui.print(f'// Usage: /extract [ls]')
+                    ui.print(f'// Usage: /extract [scavenge] [all|ls]')
                     return
 
             words = sorted(self.chat_extract_words())
@@ -2210,12 +2305,11 @@ class Search(StoredLog):
                     mark = '🪨' if qword in self.last_chat_basis else '🔥'
                     ui.print(f'{mark} {desc}')
 
-    def chat_clear(self, ui: PromptUI):
+    def chat_clear_cmd(self, ui: PromptUI):
         ui.print('cleared chat 🪙 = 0')
-        ui.log(f'session clear')
-        self.chat = []
+        self.chat_clear(ui)
 
-    def chat_model(self, ui: PromptUI):
+    def chat_model_cmd(self, ui: PromptUI):
         byn: list[str] = []
 
         model = ui.tokens.next()
@@ -2245,8 +2339,7 @@ class Search(StoredLog):
             model = ui.input('Select model (by name or number)> ').next()
             if not model: return
 
-        ui.log(f'session model: {model}')
-        self.llm_model = model
+        self.chat_model(ui, model)
 
         if len(self.chat) > 0:
             ui.log(f'session clear')
@@ -2255,6 +2348,11 @@ class Search(StoredLog):
 
         else:
             ui.print(f'Using model {self.llm_model!r}')
+
+    def chat_model(self, ui: PromptUI, model: str):
+        if self.llm_model != model:
+            ui.log(f'session model: {model}')
+            self.llm_model = model
 
 class PeekIter[V]:
     def __init__(self, it: Iterable[V]):
