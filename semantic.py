@@ -18,6 +18,26 @@ from urllib.parse import urlparse
 from store import StoredLog, atomic_file, break_sections, git_txn, replace_sections
 from ui import PromptUI
 
+def match(pattern: str|re.Pattern[str]):
+    if isinstance(pattern, str):
+        pattern = re.compile(pattern)
+    def decorator[V](extract: Callable[[re.Match[str]], V|None]):
+        def matcher(s: str) -> V|None:
+            match = pattern.match(s)
+            return extract(match) if match else None
+        return matcher
+    return decorator
+
+def matchgen(pattern: str|re.Pattern[str]):
+    if isinstance(pattern, str):
+        pattern = re.compile(pattern)
+    def decorator[V](extract: Callable[[re.Match[str]], Generator[V]]):
+        def matcher(s: str) -> Generator[V]:
+            match = pattern.match(s)
+            if match: yield from extract(match)
+        return matcher
+    return decorator
+
 def partition_any(s: str, chars: str):
     for char in chars:
         i = s.find(char)
@@ -45,6 +65,12 @@ def wraplines(at: int, lines: Iterable[str]):
             yield line[:i]
             line = line[i:].lstrip()
         yield line
+
+def role_content(chat: Iterable[ollama.Message], role: str):
+    for mess in chat:
+        if mess['role'] != role: continue
+        if 'content' not in mess: continue
+        yield mess['content']
 
 StrSink = Generator[None, str, None]
 
@@ -406,6 +432,30 @@ def build_prompt(
             havesep = any(part.startswith(c) for c in trailer_seps)
             yield part if havesep else f'{trailer_seps[0]} {part}'
 
+@matchgen(r'''(?x)
+    (?P<n> \d+ ) [.)\s]
+    \s+
+    (?P<term>
+        \*\* .+? \*\*
+      | \* .+? \*
+      | .+?
+    ) [\-):]?
+    (?P<rest>
+        \s+ [\-(] \s* .+
+      | \s+ .+
+    )?
+    $
+''')
+def find_match_words(match: re.Match[str]):
+    ns, term, _rest = match.groups()
+    n = int(ns)
+    term = cast(str, term).strip('*:)').strip()
+    term = re.sub(r'(?x) \( .*? (?: \) | $ )', '', term).strip()
+    for word in spliterate(term, ' ', trim=True):
+        for token in spliterate(word, "-'"):
+            token = token.strip('*:)').strip()
+            yield n, token
+
 @final
 @dataclass
 class ChatStats:
@@ -468,6 +518,13 @@ class Search(StoredLog):
         self.chat_role_counts: Counter[str] = Counter()
         self.last_chat_prompt: str|ChatPrompt = ''
         self.last_chat_basis: set[str] = set()
+
+        self.min_word_len: int = 2
+
+        self.chat_extract_from: str = ''
+        self.extracted: int = 0
+        self.extracted_good: int = 0
+        self.extracted_bad: int = 0
 
     @property
     def pub_tz(self):
@@ -1323,7 +1380,7 @@ class Search(StoredLog):
                 ui.log(f'session model: {self.llm_model}')
                 self.llm_model = model
 
-        if any(word for _, word in self.reply_words()):
+        if any(self.chat_extract_words()):
             return self.chat_extract
 
         return self.ideate
@@ -1669,39 +1726,71 @@ class Search(StoredLog):
         ui.log(f'reject: "{word}"')
         self.wordbad.add(word)
 
-    def last_reply(self):
-        for mess in reversed(self.chat):
-            if mess['role'] == 'assistant':
-                return mess.get('content', '')
-        return ''
+    @property
+    def chat_extract_desc(self):
+        desc = self.chat_extract_from
+        info: list[str] = []
+        info.append(f'found:{self.extracted}')
+        if self.extracted_bad: info.append(f'rejects:{self.extracted_bad}')
+        if self.extracted_good: info.append(f'prior:{self.extracted_good}')
+        if info: desc = f'{desc} ({" ".join(info)})'
+        return desc
 
-    def reply_words(self) -> Generator[tuple[int, str]]:
-        reply = self.last_reply()
-        seen: set[str] = set()
-        for line in reply.splitlines():
-            match = re.match(r'''(?x)
-                (?P<n> \d+ ) [.)\s]
-                \s*
-                (?P<word> [^\s]+ )
-                (?: \s+ (?P<rest> .+ ) )?
-                $
-            ''', line)
-            if match:
-                ns, word, _rest = match.groups()
-                for sm in re.finditer(r'\w+', word.lower()):
-                    word = sm.group(0)
-                    if word in seen: continue
-                    seen.add(word)
-                    if word in self.wordbad: continue
-                    if word in self.wordgood: continue
-                    yield int(ns), word
+    @overload
+    def filter_words(self, it: Iterable[str]) -> Generator[str]:
+        pass
 
-    def chat_extract_list(self, ui: PromptUI):
+    @overload
+    def filter_words[V](self,
+                        it: Iterable[V],
+                        key: Callable[[V], str]) -> Generator[V]:
+        pass
+
+    def filter_words[V](self,
+                        it: Iterable[V],
+                        key: None|Callable[[V], str] = None) -> Generator[V]:
         seen: set[str] = set()
-        for n, word in self.reply_words():
+        for val in it:
+            word = key(val) if key else cast(str, val)
+            if len(word) < self.min_word_len: continue
             word = word.lower()
             if word in seen: continue
             seen.add(word)
+            yield val
+
+    def chat_extract_words(self) -> Generator[str]:
+        self.extracted = 0
+        self.extracted_good = 0
+        self.extracted_bad = 0
+
+        for _n, word in self.filter_words(
+            self.chat_extract_word_matchs(),
+            key = lambda n_word: n_word[1]):
+
+            word = word.lower()
+            self.extracted += 1
+            if word in self.wordbad:
+                self.extracted_bad += 1
+                continue
+            if word in self.wordgood:
+                self.extracted_good += 1
+                continue
+            yield word
+
+    def chat_extract_word_matchs(self) -> Generator[tuple[int, str]]:
+        self.chat_extract_from = 'last chat reply'
+        reply = next(role_content(reversed(self.chat), 'assistant'), None)
+        if reply: yield from (
+            (n, word)
+            for line in spliterate(reply, '\n', trim=True)
+            for n, word in find_match_words(line))
+
+    def chat_extract_list(self, ui: PromptUI):
+        for n, word in self.filter_words(
+            self.chat_extract_word_matchs(),
+            key = lambda n_word: n_word[1]):
+
+            word = word.lower()
 
             iw = len(str(len(self.word)))+1
             ww = max(len(word) for word in self.word)
@@ -1720,6 +1809,7 @@ class Search(StoredLog):
 
     def attempt_word(self, ui: PromptUI, word: str, desc: str, tokens: PromptUI.Tokens|None = None) -> PromptUI.State|None:
         if not word: return
+        orig_desc = desc
 
         if word in self.wordbad:
             ui.print(f'! "{word}" has already been rejected')
@@ -1740,6 +1830,25 @@ class Search(StoredLog):
             while True:
                 token = tokens.next_or_input(ui, f'{desc} score? ')
                 if not token: return
+
+                if len(token) == 2:
+                    if token[0] == ':':
+                        sep = token[1]
+                        i = word.find(sep)
+                        if i < 0:
+                            ui.print(f'! no {sep!r} separator in {word!r}')
+                            return
+                        ui.print(f'// split {word} :{sep}')
+                        return self.attempt_word(ui, word[:i], f'{orig_desc}:{sep}')
+
+                    if token[1] == ':':
+                        sep = token[0]
+                        i = word.find(sep)
+                        if i < 0:
+                            ui.print(f'! no {sep!r} separator in {word!r}')
+                            return
+                        ui.print(f'// split {word} {sep}:')
+                        return self.attempt_word(ui, word[i+1:], f'{orig_desc}{sep}:')
 
                 if token.startswith('!'):
                     self.reject(ui, word)
@@ -1920,10 +2029,10 @@ class Search(StoredLog):
             ui.fin()
             self.chat_append(ui, {'role': 'assistant', 'content': ''.join(parts)})
 
-            if any(self.reply_words()):
+            if any(self.chat_extract_words()):
                 return self.chat_extract
 
-            ui.print(f'// No new words extracted from last chat reply')
+            ui.print(f'// No new words extracted from {self.chat_extract_desc}')
 
     def chat_append(self, ui: PromptUI, mess: ollama.Message):
         ui.log(f'session: {json.dumps(mess)}')
@@ -1966,21 +2075,21 @@ class Search(StoredLog):
                     ui.print(f'// Usage: /extract [ls]')
                     return
 
-            words = sorted(word for _, word in self.reply_words())
+            words = sorted(self.chat_extract_words())
 
             if do_list:
                 self.chat_extract_list(ui)
                 return self.ideate
 
             if not words:
-                ui.print(f'// No new words extracted from last chat reply')
+                ui.print(f'// No new words extracted from {self.chat_extract_desc}')
                 return self.ideate
 
             if do_all:
                 return self.chat_extract_all
 
             ui.br()
-            ui.print(f'// Extracted {len(words)} new words from last chat reply')
+            ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc}')
             iw = len(str(len(words)))
             for i, word in enumerate(words):
                 ui.print(f'[{i+1:{iw}}] {word}')
@@ -2009,16 +2118,16 @@ class Search(StoredLog):
                 return self.attempt_word(ui, words[n-1], f'extract_{n}/{len(words)}') or self.chat_extract
 
     def chat_extract_all(self, ui: PromptUI) -> PromptUI.State | None:
+        words = sorted(self.chat_extract_words())
+        if not words:
+            ui.print(f'// No new words extracted from {self.chat_extract_desc}')
+            return self.ideate
+
         with ui.catch_state(KeyboardInterrupt, self.ideate):
-            words = sorted(word for _, word in self.reply_words())
-            if words:
-                ui.br()
-                self.note_chat_basis_change(ui)
-                st = self.attempt_word(ui, words[0], f'extract_1/{len(words)}')
-                if st: return st
-                if len(words) > 1:
-                    return self.chat_extract_all
-        return self.ideate
+            ui.br()
+            ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc}')
+            self.note_chat_basis_change(ui)
+            return self.attempt_word(ui, words[0], f'extract_1/{len(words)}')
 
     def chat_last(self, ui: PromptUI):
         reply = ''
