@@ -436,26 +436,27 @@ def build_prompt(
 @matchgen(r'''(?x)
     (?P<n> \d+ ) [.)\s]
     \s+
-    (?P<term>
-        \*\* .+? \*\*
-      | \* .+? \*
-      | .+?
-    ) [\-):]?
-    (?P<rest>
-        \s+ [\-(] \s* .+
-      | \s+ .+
-    )?
-    $
+
+    (?:
+        \*\* ( .+? ) \*\*
+      | \* ( .+? ) \*
+      | \( ( .+? ) \)
+      | ( .+? ) (?= \s+ [\-:(] )
+      | ( .+? ) $
+    )
+
 ''')
 def find_match_words(match: re.Match[str]):
-    ns, term, _rest = match.groups()
-    n = int(ns)
-    term = cast(str, term).strip('*:)').strip()
-    term = re.sub(r'(?x) \( .*? (?: \) | $ )', '', term).strip()
-    for word in spliterate(term, ' ', trim=True):
-        for token in spliterate(word, "-'"):
-            token = token.strip('*:)').strip()
-            yield n, token
+    n = int(match.group(1))
+    # rest = match.string[ match.end(0): ]
+    # print('REST', repr(rest))
+    for term in match.groups()[1:]:
+        if not isinstance(term, str) or not term: continue
+        # print('TERM', repr(term))
+        for word in spliterate(term, " ", trim=True):
+            for token in spliterate(word, "-'"):
+                token = token.strip('*:)').strip()
+                yield n, token
 
 @final
 @dataclass
@@ -2596,6 +2597,43 @@ class ChatPromptTestCase:
 def test_chat_prompts(case: ChatPromptTestCase):
     cp = ChatPrompt(case.prompt)
     case.check(cp)
+
+@pytest.mark.parametrize('input,expected', [
+    ('''
+    Here are 10 French words that do not typically appear together:
+
+    1. Le fromage (cheese)
+    2. La bibliothèque (library)
+    3. L'astronomie (astronomy)
+    4. Le jardinier (gardener)
+    5. La cuisine (kitchen)
+    6. L'hôpital (hospital)
+    7. La photographie (photography)
+    8. Le métal (metal)
+    9. L'école (school)
+    10. La musique (music)
+
+    These words are often used in different contexts and do not typically
+    appear together in a single sentence or phrase.
+    ''', [
+        (1, 'Le'), (1, 'fromage'),
+        (2, 'La'), (2, 'bibliothèque'),
+        (3, 'L'), (3, 'astronomie'),
+        (4, 'Le'), (4, 'jardinier'),
+        (5, 'La'), (5, 'cuisine'),
+        (6, 'L'), (6, 'hôpital'),
+        (7, 'La'), (7, 'photographie'),
+        (8, 'Le'), (8, 'métal'),
+        (9, 'L'), (9, 'école'),
+        (10, 'La'), (10, 'musique'),
+    ])
+])
+def test_word_extraction(input: str, expected: Sequence[tuple[int, str]]):
+    assert [
+        nword
+        for line in spliterate(input, '\n', trim=True)
+        for nword in find_match_words(line.strip())
+    ] == expected
 
 ### entry point
 
