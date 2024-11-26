@@ -11,7 +11,8 @@ from dataclasses import dataclass
 from typing import cast, final, override, Literal
 from urllib.parse import urlparse
 
-from store import StoredLog, atomic_file, break_sections, git_txn, replace_sections
+from mdkit import break_sections, replace_sections
+from store import StoredLog, atomic_file, git_txn
 from strkit import spliterate
 from wordlist import Browser, WordList, format_browser_lines, whatadded
 from ui import PromptUI

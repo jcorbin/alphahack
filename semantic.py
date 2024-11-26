@@ -14,7 +14,8 @@ from dateutil.tz import gettz
 from typing import assert_never, cast, final, overload, override, Any, Callable, Literal
 from urllib.parse import urlparse
 
-from store import StoredLog, atomic_file, break_sections, git_txn, replace_sections
+from mdkit import break_sections, capture_fences, fenceit, replace_sections
+from store import StoredLog, atomic_file, git_txn
 from strkit import matchgen, spliterate, wraplines, PeekStr
 from ui import PromptUI
 
@@ -23,53 +24,6 @@ def role_content(chat: Iterable[ollama.Message], role: str):
         if mess['role'] != role: continue
         if 'content' not in mess: continue
         yield mess['content']
-
-StrSink = Generator[None, str, None]
-
-FenceWanted = tuple[str, str, StrSink] # start_line, end_line, sink
-
-WantFence = Callable[[int, str], FenceWanted|None]
-
-def fenceit(it: Iterable[str], start: str = '```', end: str = '```') -> Generator[str]:
-    yield start
-    yield from it
-    yield end
-
-tick3_fence = re.compile(r'(?x) ( ``` ) \s* ( .* ) $')
-
-def capture_fences(lines: Iterable[str],
-                   wanted: WantFence,
-                   pattern: re.Pattern[str] = tick3_fence):
-
-    index = 0
-    while True:
-        for line in lines:
-            match = pattern.match(line)
-            if match: break
-            yield line
-        else: return
-
-        fence, suffix = match.groups()
-        want = wanted(index, suffix)
-        if want:
-            line, end_line, sink = want
-            next(sink)
-            yield line
-
-            for line in lines:
-                if line == fence:
-                    sink.close()
-                    yield end_line
-                    break
-                sink.send(line)
-                yield line
-
-        else:
-            for line in lines:
-                yield line
-                if line == fence: break
-
-        index += 1
 
 def prog_mark(prog: int|None):
     if prog is None: return ''

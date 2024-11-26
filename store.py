@@ -8,55 +8,10 @@ from contextlib import contextmanager
 from dataclasses import dataclass
 from dateutil.parser import parse as parse_datetime
 from dateutil.tz import tzlocal
-from typing import cast, final, Any, Callable
+from typing import cast, final, Any
 
+from mdkit import break_sections, replace_sections
 from ui import PromptUI
-
-def replace_sections(
-    lines: Iterable[str],
-    want: Callable[[str], Iterable[str]|None]
-) -> Generator[str]:
-    empty = True
-
-    for line in lines:
-        line = line.rstrip('\n')
-
-        body = line.startswith('#') and want(line)
-
-        # pass lines from unwanted sections
-        if not body:
-            yield line
-            empty = False if line else True
-            continue
-
-        # pass lines from replacement section
-        for line in body:
-            yield line
-            empty = False if line else True
-
-        for line in lines:
-            line = line.rstrip('\n')
-            if line.startswith('#'):
-                if not empty: yield ''
-                yield line
-                empty = False if line else True
-                break
-
-            # else: skip prior section lines
-
-
-def break_sections(*sections: Iterable[str], br: str = '') -> Generator[str]:
-    first = True
-    for section in sections:
-        if first:
-            for _ in section:
-                first = False
-                yield br
-                yield _
-                break
-        else:
-            yield br
-        yield from section
 
 @contextmanager
 def atomic_file(name: str):
