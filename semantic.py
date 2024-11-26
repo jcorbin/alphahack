@@ -1785,26 +1785,27 @@ class Search(StoredLog):
             for line in spliterate(reply, '\n', trim=True)
             for n, word in find_match_words(line))
 
+    def describe_extracted_word(self, word: str):
+        iw = len(str(len(self.word)))+1
+        ww = max(len(word) for word in self.word)
+        lpad = ' '*(2*iw + 1)
+        mpad = ' '*(7 + 2)
+
+        if word in self.wordbad:
+            return f'{lpad} {word:{ww}} {mpad} ❌'
+
+        if word in self.wordgood:
+            return self.describe_word(self.wordgood[word])
+
+        return f'{lpad} {word:{ww}} {mpad} 🤔'
+
     def chat_extract_list(self, ui: PromptUI):
         for n, word in self.filter_words(
             self.chat_extract_word_matchs(),
             key = lambda n_word: n_word[1]):
 
             word = word.lower()
-
-            iw = len(str(len(self.word)))+1
-            ww = max(len(word) for word in self.word)
-            lpad = ' '*(2*iw + 1)
-            mpad = ' '*(7 + 2)
-
-            desc = ''
-            if word in self.wordbad:
-                desc = f'{lpad} {word:{ww}} {mpad} ❌'
-            elif word in self.wordgood:
-                desc = self.describe_word(self.wordgood[word])
-            else:
-                desc = f'{lpad} {word:{ww}} {mpad} 🤔'
-
+            desc = self.describe_extracted_word(word)
             ui.print(f'{n}. {desc}')
 
     def attempt_word(self, ui: PromptUI, word: str, desc: str, tokens: PromptUI.Tokens|None = None) -> PromptUI.State|None:
@@ -2130,30 +2131,84 @@ class Search(StoredLog):
             return self.attempt_word(ui, words[0], f'extract_1/{len(words)}')
 
     def chat_last(self, ui: PromptUI):
-        reply = ''
+        chat = self.chat
+        given = False
 
-        for mess in self.chat:
-            role = mess['role']
-            content = mess.get('content', '')
-            if role == 'assistant':
-                reply = content
-            elif role == 'user':
-                if reply:
-                    ui.print(f'... 🪙 {count_tokens(reply)}')
-                    reply = ''
-                for line in wraplines(ui.screen_cols-4, content.splitlines()):
-                    ui.print(f'>>> {line}')
+        for token in (ui.tokens.token, *ui.tokens):
+            if not token: continue
 
-        if reply:
-            for line in wraplines(ui.screen_cols-4, reply.splitlines()):
-                ui.print(f'... {line}')
+            if given:
+                ui.print(f'! {ui.tokens.raw}')
+                return
 
-        if isinstance(self.last_chat_prompt, ChatPrompt):
-            for k, n in self.last_chat_prompt.refs():
-                i, ix, qword = self.word_iref(k, n)
-                desc = self.describe_word(i, ix)
-                mark = '🪨' if qword in self.last_chat_basis else '🔥'
-                ui.print(f'{mark} {desc}')
+            try:
+                chat_i = int(token)
+            except ValueError:
+                ui.print(f'! {ui.tokens.raw}')
+                return
+
+            given = True
+
+            if chat_i > 0:
+                try:
+                    chat = self.chat_history[-chat_i].chat
+                except IndexError:
+                    ui.print(f'! no such chat session {chat_i}')
+                    return
+
+        if given:
+            for mess in chat:
+                role = mess['role']
+                content = mess.get('content', '')
+                if role == 'user':
+                    for line in wraplines(ui.screen_cols-4, spliterate(content, '\n', trim=True)):
+                        ui.print(f'>>> {line}')
+                elif role != 'assistant':
+                    continue
+
+                for word in self.filter_words((
+                    word.lower()
+                    for line in spliterate(content, '\n', trim=True)
+                    for _, word in find_match_words(line))):
+                    ui.print(self.describe_extracted_word(word))
+
+        else:
+            reply = ''
+            for mess in chat:
+                role = mess['role']
+                content = mess.get('content', '')
+                if role == 'assistant':
+                    reply = content
+                elif role == 'user':
+                    if reply:
+                        ui.print(f'... 🪙 {count_tokens(reply)}')
+                        reply = ''
+                    for line in wraplines(ui.screen_cols-4, spliterate(content, '\n', trim=True)):
+                        ui.print(f'>>> {line}')
+
+            if reply:
+                for line in wraplines(ui.screen_cols-4, spliterate(reply, '\n')):
+                    ui.print(f'... {line}')
+
+                ext_words = set(
+                    word.lower()
+                    for line in spliterate(reply, '\n', trim=True)
+                    for _n, word in find_match_words(line))
+
+                for i in sorted((
+                    self.wordgood[word]
+                    for word in ext_words
+                    if word in self.wordgood
+                ), key=lambda i: self.score[i], reverse=True):
+                    word = self.word[i]
+                    ui.print(self.describe_extracted_word(word))
+
+            if isinstance(self.last_chat_prompt, ChatPrompt):
+                for k, n in self.last_chat_prompt.refs():
+                    i, ix, qword = self.word_iref(k, n)
+                    desc = self.describe_word(i, ix)
+                    mark = '🪨' if qword in self.last_chat_basis else '🔥'
+                    ui.print(f'{mark} {desc}')
 
     def chat_clear(self, ui: PromptUI):
         ui.print('cleared chat 🪙 = 0')
