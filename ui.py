@@ -5,7 +5,10 @@ import time
 import traceback
 from contextlib import contextmanager
 from collections.abc import Generator, Sequence
-from typing import cast, final, Callable, Literal, Protocol, TextIO
+from types import TracebackType
+from typing import final, Callable, Literal, Protocol, TextIO
+
+from strkit import matcherate, PeekStr
 
 class Clipboard(Protocol):
     def copy(self, mess: str) -> None:
@@ -77,7 +80,87 @@ class NextState(BaseException):
         self.state = state
 
 @final
+class Tokens(PeekStr):
+    pattern = re.compile(r'''(?x)
+        # non-space token
+        \s* ( [^\s]+ )
+
+        # more tokens after any space
+        (?: \s+ ( .+ ) )?
+
+        # end of raw input
+        $
+    ''')
+
+    def __init__(self, raw: str = ''):
+        self._raw = raw
+        self._m = matcherate(self.pattern, raw)
+        super().__init__(self._m)
+
+    @property
+    def raw(self):
+        return self._raw
+
+    @raw.setter
+    def raw(self, raw: str):
+        self._raw = raw
+        self._m = matcherate(self.pattern, raw)
+        super().reset(self._m)
+
+    @property
+    def rest(self):
+        return self._m.rest
+
+    def take_rest(self):
+        rest = self._m.rest
+        self._m.rest = ''
+        return rest
+
+    @property
+    def empty(self):
+        return self.peek() is None
+
+    # TODO refactor to an internal looper that takes an optional ->raw fn
+    def next_or_input(self, ui: 'PromptUI', prompt: str):
+        token = next(self, None)
+        if not token:
+            self.raw = ui.raw_input(prompt)
+            token = next(self)
+        return token
+
+    def __enter__(self):
+        return self
+
+    def __exit__(
+        self,
+        type_: type[BaseException] | None,
+        value: BaseException | None,
+        traceback: TracebackType | None,
+    ) -> bool:
+        self.raw = ''
+        return False
+
+import pytest
+
+@pytest.mark.parametrize('input,tokens', [
+    ('', []),
+    ('hello', ['hello']),
+    ('hello world', ['hello', 'world']),
+    ('  ', []),
+    ('  hello', ['hello']),
+    ('  hello world', ['hello', 'world']),
+    ('hello  ', ['hello']),
+    ('hello world  ', ['hello', 'world']),
+    ('  hello  ', ['hello']),
+    ('  hello world  ', ['hello', 'world']),
+])
+def test_tokens(input: str, tokens: list[str]):
+    assert list(Tokens(input)) == tokens
+
+@final
 class PromptUI:
+    Tokens = Tokens
+
     def __init__(
         self,
         time: Timer|None = None,
@@ -161,59 +244,11 @@ class PromptUI:
         self.last = 'prompt'
         return resp
 
-    @final
-    class Tokens:
-        def __init__(self, raw: str = ''):
-            self.raw = raw
-            self.token = ''
-            self.rest = raw
-
-        @property
-        def empty(self):
-            return not self.token and not self.rest
-
-        @property
-        def raw_empty(self):
-            return not self.raw.strip()
-
-        @property
-        def head(self):
-            if self.token: return self.token
-            for token in self:
-                if token: return token
-            return ''
-
-        def next(self) -> str:
-            match = re.match(r'\s*([^\s]+)(?:\s+(.+))?$', self.rest)
-            if match:
-                self.token = cast(str, match.group(1))
-                self.rest = cast(str, match.group(2) or '')
-            else:
-                self.token, self.rest = '', ''
-            return self.token
-
-        def next_or_input(self, ui: 'PromptUI', prompt: str):
-            token = self.next()
-            if not token:
-                self.rest = ui.raw_input(prompt)
-                token = self.next()
-            return token
-
-        def __iter__(self):
-            while self.next():
-                yield self.token
-
     tokens: Tokens = Tokens()
 
     def input(self, prompt: str):
-        self.tokens = self.Tokens(self.raw_input(prompt))
+        self.tokens = Tokens(self.raw_input(prompt))
         return self.tokens
-
-    def head_or(self, prompt: str):
-        return self.tokens.head or self.input(prompt).head
-
-    def next_or(self, prompt: str):
-        return self.tokens.next() or self.input(prompt).head
 
     def tokens_or(self, prompt: str):
         return self.input(prompt) if self.tokens.empty else self.tokens
@@ -246,9 +281,10 @@ class PromptUI:
 
     def interact(self, state: State):
         while True:
+            self.tokens.raw = ''
+
             try:
                 state = state(self) or state
-                self.tokens = self.Tokens()
 
             except NextState as n:
                 state = n.state

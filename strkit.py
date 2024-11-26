@@ -1,6 +1,29 @@
 import re
 from collections.abc import Generator, Iterable, Iterator
-from typing import overload, Callable
+from typing import final, overload, Callable
+
+@final
+class matcherate:
+    def __init__(self, pattern: str|re.Pattern[str], s: str):
+        if isinstance(pattern, str):
+            pattern = re.compile(pattern)
+        self.pattern = pattern
+        self.rest: str = s
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        rest = self.rest
+        if rest:
+            match = self.pattern.match(rest)
+            if match:
+                head, rest = match.groups()
+                self.rest = rest if isinstance(rest, str) else ''
+                return head if isinstance(head, str) else ''
+            self.rest = rest = ''
+        if not rest: raise StopIteration
+        return rest
 
 def partition_any(s: str, chars: str):
     for char in chars:
@@ -80,6 +103,7 @@ class PeekIter[V]:
             self._val = next(self.it, default)
         return self._val
 
+    # TODO @deprecated('just use next(...)')
     def take(self):
         val = self._val
         if val is None:

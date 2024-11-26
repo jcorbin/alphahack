@@ -293,14 +293,18 @@ class StoredLog:
             raise StopIteration
 
         if not self.site:
-            token = ui.input('🔗 site ? ').head
-            ui.log(f'site: {token}')
-            self.site = token
+            with ui.input('🔗 site ? ') as tokens:
+                site = next(tokens, '')
+                if site:
+                    ui.log(f'site: {site}')
+                    self.site = site
 
         if not self.puzzle_id:
-            token = ui.input('🧩 id ? ').head
-            ui.log(f'puzzle_id: {token}')
-            self.puzzle_id = token
+            with ui.input('🧩 id ? ') as tokens:
+                puzzle_id = next(tokens, '')
+                if puzzle_id:
+                    ui.log(f'puzzle_id: {puzzle_id}')
+                    self.puzzle_id = puzzle_id
 
         self.store_txn(ui)
 
@@ -329,16 +333,14 @@ class StoredLog:
 
         date = self.today
         if date is None:
-            default = datetime.datetime.today()
-            token = ui.input(f'📆 {default:%Y-%m-%d} ? ').head
-            if not token:
-                date = default
-            else:
-                try:
-                    date = datetime.datetime.strptime(token, '%Y-%m-%d')
-                except ValueError:
-                    ui.print('! must enter date in YYYY-MM-DD')
-                    return
+            date = datetime.datetime.today()
+            with ui.input(f'📆 {date:%Y-%m-%d} ? ') as tokens:
+                if not tokens.empty:
+                    try:
+                        date = datetime.datetime.strptime(next(tokens), '%Y-%m-%d')
+                    except ValueError:
+                        ui.print('! must enter date in YYYY-MM-DD')
+                        return
 
         puzzle_id = self.puzzle_id
         if not puzzle_id:
@@ -392,21 +394,22 @@ class StoredLog:
         pass
 
     def expired(self, ui: PromptUI) -> PromptUI.State|None:
-        token = ui.input(f'[a]rchive, [r]emove, or [c]ontinue? ').head.lower()
+        with ui.input(f'[a]rchive, [r]emove, or [c]ontinue? ') as tokens:
+            token = next(tokens, '').lower()
 
-        if 'archive'.startswith(token):
-            return self.store
+            if 'archive'.startswith(token):
+                return self.store
 
-        elif 'remove'.startswith(token):
-            os.unlink(self.log_file)
-            self.__init__()
-            ui.print(f'// removed {self.log_file}')
+            elif 'remove'.startswith(token):
+                os.unlink(self.log_file)
+                self.__init__()
+                ui.print(f'// removed {self.log_file}')
 
-        elif 'continue'.startswith(token):
-            return self.handle
+            elif 'continue'.startswith(token):
+                return self.handle
 
-        elif token:
-            ui.print('! invalid choice')
+            elif token:
+                ui.print('! invalid choice')
 
 @final
 class git_txn:

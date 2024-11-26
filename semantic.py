@@ -604,32 +604,31 @@ class Search(StoredLog):
                 prior_temp = self.scale[prior_tier]
                 next_temp = self.scale[next_tier]
 
-                token = ui.input(f'{tier} °C ? ').head
-                if not token:
-                    confirm = ui.input(f'skip temp scale entry? ').head
-                    if confirm.lower().startswith('y'):
-                        return self.orient
+                with ui.input(f'{tier} °C ? ') as tokens:
+                    if tokens.empty:
+                        confirm = next(ui.input(f'skip temp scale entry? '), '')
+                        return self.orient if confirm.lower().startswith('y') else None
 
-                try:
-                    temp = float(token)
-                except ValueError:
-                    ui.print('! must be a float')
+                    try:
+                        temp = float(next(tokens, ''))
+                    except ValueError:
+                        ui.print('! must be a float')
+                        return
+
+                    if temp <= prior_temp:
+                        ui.print(f'! must be over {prior_tier} {prior_temp:.2f}°C')
+                        return
+
+                    if temp >= next_temp:
+                        ui.print(f'! must be under {next_tier} {next_temp:.2f}°C')
+                        return
+
+                    ui.log(f'scale: {tier} {temp:.2f} °C')
+                    self.scale[tier] = temp
+                    if self.prog_at is None and tier == '😎':
+                        self.prog_at = temp
+
                     return
-
-                if temp <= prior_temp:
-                    ui.print(f'! must be over {prior_tier} {prior_temp:.2f}°C')
-                    return
-
-                if temp >= next_temp:
-                    ui.print(f'! must be under {next_tier} {next_temp:.2f}°C')
-                    return
-
-                ui.log(f'scale: {tier} {temp:.2f} °C')
-                self.scale[tier] = temp
-                if self.prog_at is None and tier == '😎':
-                    self.prog_at = temp
-
-                return
 
             ui.print(f'WARNING: incomplete temp scale ; use /scale to inspect and fix')
 
@@ -1033,6 +1032,12 @@ class Search(StoredLog):
             yield f'{tier} {n:>{cw}}'
 
     def do_cmd(self, ui: PromptUI):
+        with ui.tokens_or('> '):
+            cmd = next(ui.tokens, None)
+            if cmd:
+                return self.dispatch_cmd(ui, cmd)
+
+    def dispatch_cmd(self, ui: PromptUI, token: str):
         cmds: dict[str, PromptUI.State] = {
             # TODO proper help command ; reuse for '?' token
             # TODO add '/' prefix here ; generalize dispatch
@@ -1055,8 +1060,6 @@ class Search(StoredLog):
             'last': self.chat_last,
         }
 
-        token = ui.head_or('> ')
-
         if token == '?' or token == '/?':
             for cmd in sorted(cmds):
                 ui.print(f'    /{cmd}')
@@ -1075,29 +1078,31 @@ class Search(StoredLog):
             ui.print(f'! ambiguous command {token}; clarify: {' '.join(comp)}')
             return
 
-        _ = ui.tokens.next()
         return cmds[comp[0]](ui)
 
     def do_site(self, ui: PromptUI):
-        token = ui.input(f'🔗 {self.site} ? ').head
-        if token:
-            self.site = token
-        ui.log(f'site: {self.site}')
+        with ui.input(f'🔗 {self.site} ? ') as tokens:
+            site = next(tokens, None)
+            if site:
+                self.site = site
+                ui.log(f'site: {self.site}')
 
     def do_lang(self, ui: PromptUI):
-        token = ui.input(f'🌎 {self.lang} ? ').head
-        if token:
-            self.lang = token
-        ui.log(f'lang: {self.lang}')
+        with ui.input(f'🌎 {self.lang} ? ') as tokens:
+            lang = next(tokens, None)
+            if lang:
+                self.lang = lang
+                ui.log(f'lang: {self.lang}')
 
     def do_puzzle(self, ui: PromptUI):
-        token = ui.input(f'🧩 {self.puzzle_id} ? ').head
-        if token:
-            if not re.match(r'#\d+$', token):
-                ui.print('! puzzle_id must be like #<NUMBER>')
-                return
-            ui.log(f'puzzle_id: {token}')
-            self.puzzle_id = token
+        with ui.input(f'🧩 {self.puzzle_id} ? ') as tokens:
+            if tokens.peek():
+                ps = tokens.have(r'#\d+$', lambda m: m[0])
+                if not ps:
+                    ui.print('! puzzle_id must be like #<NUMBER>')
+                    return
+                ui.log(f'puzzle_id: {ps}')
+                self.puzzle_id = ps
 
     def do_scale(self, ui: PromptUI):
         # TODO interactions to set/delete
@@ -1304,7 +1309,7 @@ class Search(StoredLog):
 
         return self.ideate
 
-    def generate(self, ui: PromptUI, tokens: PromptUI.Tokens|None = None):
+    def generate(self, ui: PromptUI):
         def rec(token: str, *maybe: Callable[[str], str|None]):
             for may in maybe:
                 tok = may(token)
@@ -1329,72 +1334,66 @@ class Search(StoredLog):
             if token.startswith('#'):
                 return token if len(token) > 1 else None
 
+        clear = False
         count: int|None = None
         rel: str|None = None
         like_words: list[str] = []
         unlike_words: list[str] = []
-
-        if tokens is None: tokens = PromptUI.Tokens()
-
-        token = tokens.token
-        if len(token) > 1 and token[1:] == '?':
-            cp = self.last_chat_prompt
-            ui.print('last chat prompt:')
-            if isinstance(cp, str):
-                ui.print(f'> {cp}')
-            else:
-                ui.print(f'> {cp.prompt}')
-            return
-
-        if len(token) > 1:
-            try:
-                count = int(token[1:])
-            except ValueError:
-                ui.print('! invalid *<INT>')
-                return
-
-        clear = False
-
-        cp = self.last_chat_prompt if isinstance(self.last_chat_prompt, ChatPrompt) else ChatPrompt()
-
         trailer: list[str] = []
         trailer_given: bool = False
 
-        for token in tokens:
-            if len(token) >= 2 and '/clear'.startswith(token): # TODO can this bi an abbr
-                clear = True
+        cp = self.last_chat_prompt if isinstance(self.last_chat_prompt, ChatPrompt) else ChatPrompt()
 
-            elif token in self.abbr:
-                trailer.append(self.abbr[token])
+        with ui.tokens as tokens:
+            if tokens.have(r'.\?'):
+                ui.print('last chat prompt:')
+                ui.print(f'> {cp.prompt}')
+                return
 
-            elif token in trailer_seps:
-                trailer_given = True
-                if tokens.rest.strip():
-                    trailer.append(f'{token} {tokens.rest.strip()}')
-                break
+            token = next(tokens)
+            if len(token) > 1:
+                try:
+                    count = int(token[1:])
+                except ValueError:
+                    ui.print('! invalid *<INT>')
+                    return
 
-            elif re.match(r'[Tt]\d+', token):
-                like_words.extend(unroll_refs(f'${token}'))
+            for token in tokens:
+                if len(token) >= 2 and '/clear'.startswith(token): # TODO can this bi an abbr
+                    clear = True
 
-            elif re.match(r'[Bb]\d+', token):
-                unlike_words.extend(unroll_refs(f'${token}'))
+                elif token in self.abbr:
+                    trailer.append(self.abbr[token])
 
-            elif token.startswith('+') and len(token) > 1:
-                token = rec(token[1:], var, ord, quoted, just)
-                if token: like_words.append(token)
-                else: ui.print(f'! ignoring * token {token}')
+                elif token in trailer_seps:
+                    trailer_given = True
+                    rest = tokens.take_rest()
+                    if rest.strip():
+                        trailer.append(f'{token} {rest.strip()}')
+                    break
 
-            elif token.startswith('-') and len(token) > 1:
-                token = rec(token[1:], var, ord, quoted, just)
-                if token: unlike_words.append(token)
-                else: ui.print(f'! ignoring * token {token}')
+                elif re.match(r'[Tt]\d+', token):
+                    like_words.extend(unroll_refs(f'${token}'))
 
-            else:
-                like_tok = rec(token, var, ord, quoted)
-                if like_tok:
-                    like_words.append(like_tok)
-                    continue
-                rel = token if not rel else f'{rel} {token}'
+                elif re.match(r'[Bb]\d+', token):
+                    unlike_words.extend(unroll_refs(f'${token}'))
+
+                elif token.startswith('+') and len(token) > 1:
+                    token = rec(token[1:], var, ord, quoted, just)
+                    if token: like_words.append(token)
+                    else: ui.print(f'! ignoring * token {token}')
+
+                elif token.startswith('-') and len(token) > 1:
+                    token = rec(token[1:], var, ord, quoted, just)
+                    if token: unlike_words.append(token)
+                    else: ui.print(f'! ignoring * token {token}')
+
+                else:
+                    like_tok = rec(token, var, ord, quoted)
+                    if like_tok:
+                        like_words.append(like_tok)
+                        continue
+                    rel = token if not rel else f'{rel} {token}'
 
         if count is None:
             nr = cp.num_refs
@@ -1446,72 +1445,78 @@ class Search(StoredLog):
         if self.last_chat_role == 'user':
             ui.print('// last chat prompt aborted; restart with `.`')
 
-        token = self.prompt(ui, '? ').head
-
-        if not token:
-            if self.attempt == 0 and not self.chat:
-                return self.generate(ui)
-            return
-
-        if token in self.abbr:
-            return self.chat_prompt(ui, self.abbr[token])
-
-        if token == '_': return self.chat_prompt(ui, '_') # TODO can this be an abbr?
-        if token == '.': return self.chat_prompt(ui, '.') # TODO can this be an abbr?
-
-        if token.startswith('/'): return self.do_cmd(ui)
-
-        # TODO can '> ...' lambda ctx ... be an abbr?
-        match = re.match(r'(>+)\s*(.+?)$', ui.tokens.raw)
-        if match:
-            mark, rest = match.groups()
-            parts: list[str] = [rest]
-
-            if len(mark) > 1:
-                while True:
-                    raw = ui.raw_input('>>> ')
-                    rest = raw.lstrip('>').lstrip()
-                    if not rest: break
-                    parts.append(rest)
-
-            return self.chat_prompt(ui, ' '.join(parts))
-
-        if token.startswith('$'):
-            try:
-                n = int(token[1:])
-                if n < 1: raise ValueError
-            except ValueError:
-                ui.print('! must be $<NUMBER>')
-            else:
-                ix = n-1
-                i = self.prog[ix]
-                return self.re_word(ui, i, ix)
-            return
-
-        if token.startswith('#'):
-            try:
-                n = int(token[1:])
-                if n < 1: raise ValueError
-            except ValueError:
-                ui.print('! must be #<NUMBER>')
-            else:
-                i = n-1
-                return self.re_word(ui, i)
-            return
-
-        if token.startswith('*'):
-            return self.generate(ui, ui.tokens) # TODO pushdown
-
-        match = re.match(r'(?xi) (?: T ( \d+ ) )? (?: B ( \d+ ) )?', token)
-        if match:
-            ts, bs = match.groups()
-            if ts or bs:
-                t = int(ts) if ts else None
-                b = int(bs) if bs else None
-                self.show_tbix(ui, self.top_bot_index(t, b))
+        with self.prompt(ui, '? ') as tokens:
+            if tokens.empty:
+                if self.attempt == 0 and not self.chat:
+                    return self.generate(ui)
                 return
 
-        return self.attempt_word(ui, ui.tokens.head.lower(), f'entered', ui.tokens) # TODO pushdown
+            if tokens.peek() in self.abbr:
+                return self.chat_prompt(ui, self.abbr[next(tokens)])
+
+            if tokens.have(r'_$'):
+                return self.chat_prompt(ui, '_') # TODO can this be an abbr?
+
+            if tokens.have(r'\.$'):
+                return self.chat_prompt(ui, '.') # TODO can this be an abbr?
+
+            if tokens.peek('').startswith('/'):
+                return self.do_cmd(ui)
+
+            # TODO can '> ...' lambda ctx ... be an abbr?
+            match = re.match(r'(>+)\s*(.+?)$', tokens.raw)
+            if match:
+                mark, rest = match.groups()
+                parts: list[str] = [rest]
+
+                if len(mark) > 1:
+                    while True:
+                        raw = ui.raw_input('>>> ')
+                        rest = raw.lstrip('>').lstrip()
+                        if not rest: break
+                        parts.append(rest)
+
+                return self.chat_prompt(ui, ' '.join(parts))
+
+
+            var_str = tokens.have(r'\$(.+)', lambda m: cast(str, m[1]))
+            if var_str:
+                try:
+                    n = int(var_str)
+                    if n < 1: raise ValueError
+                except ValueError:
+                    ui.print('! must be $<NUMBER>')
+                else:
+                    ix = n-1
+                    i = self.prog[ix]
+                    return self.re_word(ui, i, ix)
+                return
+
+            ord_str = tokens.have(r'#(.+)', lambda m: cast(str, m[1]))
+            if ord_str:
+                try:
+                    n = int(ord_str)
+                    if n < 1: raise ValueError
+                except ValueError:
+                    ui.print('! must be #<NUMBER>')
+                else:
+                    i = n-1
+                    return self.re_word(ui, i)
+                return
+
+            if tokens.peek('').startswith('*'):
+                return self.generate(ui)
+
+            tb = tokens.have(
+                r'(?xi) (?: T ( \d+ ) )? (?: B ( \d+ ) )?', lambda m: (
+                    int(m.group(1)) if m.group(1) else None,
+                    int(m.group(2)) if m.group(2) else None,
+                ))
+            if tb and tb != (None, None):
+                self.show_tbix(ui, self.top_bot_index(*tb))
+                return
+
+            return self.attempt_word(ui, next(tokens).lower(), f'entered')
 
     def re_word(self, ui: PromptUI, i: int, ix: int|None = None):
         score: float|None = None
@@ -1519,7 +1524,7 @@ class Search(StoredLog):
 
         for token in ui.tokens:
             if 'score'.startswith(token.lower()):
-                token = ui.tokens.next()
+                token = next(ui.tokens)
                 try:
                     score = float(token)
                     assert score_min <= score <= score_max
@@ -1531,7 +1536,7 @@ class Search(StoredLog):
                     return
 
             if 'prog'.startswith(token.lower()):
-                token = ui.tokens.next()
+                token = next(ui.tokens)
                 try:
                     prog = int(token)
                     assert prog_min <= prog <= prog_max
@@ -1772,9 +1777,8 @@ class Search(StoredLog):
             desc = self.describe_extracted_word(word)
             ui.print(f'{cee} {ree} {n:>2}. {desc}')
 
-    def attempt_word(self, ui: PromptUI, word: str, desc: str, tokens: PromptUI.Tokens|None = None) -> PromptUI.State|None:
+    def attempt_word(self, ui: PromptUI, word: str, desc: str) -> PromptUI.State|None:
         if not word: return
-        orig_desc = desc
 
         if word in self.wordbad:
             ui.print(f'! "{word}" has already been rejected')
@@ -1788,17 +1792,20 @@ class Search(StoredLog):
         with ui.catch_state(KeyboardInterrupt, self.ideate):
             ui.br()
             ui.copy(word)
-            desc = f'🤔 {desc} #{self.attempt+1} "{word}"'
+            return self.attempt_score_word(ui, word, desc)
 
-            if not tokens: tokens = PromptUI.Tokens()
+    def attempt_score_word(self, ui: PromptUI, word: str, desc: str) -> PromptUI.State|None:
+        orig_desc = desc
+        desc = f'🤔 {desc} #{self.attempt+1} "{word}"'
 
-            while True:
-                token = tokens.next_or_input(ui, f'{desc} score? ')
-                if not token: return
+        while True:
+            with ui.tokens_or(f'{desc} score? ') as tokens:
+                if tokens.empty: return
 
-                if len(token) == 2:
-                    if token[0] == ':':
-                        sep = token[1]
+                tok = tokens.peek('')
+                if len(tok) == 2:
+                    if tok[0] == ':':
+                        sep = next(tokens)[1]
                         i = word.find(sep)
                         if i < 0:
                             ui.print(f'! no {sep!r} separator in {word!r}')
@@ -1806,8 +1813,8 @@ class Search(StoredLog):
                         ui.print(f'// split {word} :{sep}')
                         return self.attempt_word(ui, word[:i], f'{orig_desc}:{sep}')
 
-                    if token[1] == ':':
-                        sep = token[0]
+                    if tok[1] == ':':
+                        sep = next(tokens)[0]
                         i = word.find(sep)
                         if i < 0:
                             ui.print(f'! no {sep!r} separator in {word!r}')
@@ -1815,68 +1822,86 @@ class Search(StoredLog):
                         ui.print(f'// split {word} {sep}:')
                         return self.attempt_word(ui, word[i+1:], f'{orig_desc}{sep}:')
 
-                if token.startswith('!'):
+                if tok.startswith('!'):
+                    token = next(tokens)
                     self.reject(ui, word)
                     ui.print(f'// rejected {desc}')
-                    token = token[1:] or tokens.next()
+                    token = token[1:] or next(tokens, '')
                     if token:
-                        return self.attempt_word(ui, token, "corrected", tokens)
+                        return self.attempt_word(ui, token, "corrected")
                     return
 
                 try:
-                    score = float(token)
+                    score = float(next(tokens))
                 except ValueError:
                     ui.print('! invalid word score: not a float')
-                    ui.tokens = PromptUI.Tokens()
+                    tokens.raw = ''
                     continue
 
                 if not (score_min <= score <= score_max):
                     ui.print(f'! invalid word score, must be in range {score_min} <= {score_max}')
-                    ui.tokens = PromptUI.Tokens()
+                    tokens.raw = ''
                     continue
 
                 desc = f'{desc} {score:.2f}°C'
+
+                prog_req = False
+                if self.prog_at is not None:
+                    prog_req = score >= self.prog_at
+                elif self.prog:
+                    i = self.min_prog[0]
+                    prog_req = score >= self.score[i]
+
+                if prog_req or not tokens.empty:
+                    return self.attempt_prog_word(ui, word, desc, score, prog_req)
+
                 break
 
-            prog_req = False
-            if self.prog_at is not None:
-                prog_req = score >= self.prog_at
-            elif self.prog:
-                i = self.min_prog[0]
-                prog_req = score >= self.score[i]
+        i = self.record(ui, word, score, None)
+        if i is not None:
+            ui.print(f'💿 {self.describe_word(i)}')
 
-            prog: int|None = None
+        if self.found: return self.finish
 
-            while True:
-                token = tokens.next_or_input(ui, f'{desc} prog‰ ? ') if prog_req else tokens.next()
-                if token:
+    def attempt_prog_word(self,
+                          ui: PromptUI,
+                          word: str,
+                          desc: str,
+                          score: float,
+                          prog_req: bool,
+                          ) -> PromptUI.State|None:
+        prog: int|None = None
+
+        while True:
+            with (
+                ui.tokens_or(f'{desc} prog‰ ? ') if prog_req else ui.tokens
+            ) as tokens:
+                if not tokens.empty:
                     try:
-                        prog = int(token)
+                        prog = int(next(tokens))
                     except ValueError:
-                        ui.print(f'! invalid word prog‰, not an int') # XXX loops
-                        ui.tokens = PromptUI.Tokens()
+                        ui.print(f'! invalid word prog‰, not an int')
+                        tokens.raw = ''
                         continue
 
                     if not (prog_min <= prog <= prog_max):
                         ui.print(f'! invalid word prog‰, must be in range {prog_min} <= {prog_max}')
-                        ui.tokens = PromptUI.Tokens()
+                        tokens.raw = ''
                         continue
 
                     break
                 elif not prog_req:
                     break
 
-                if not token: break
+        if prog_req and prog is None:
+            ui.print('! prog‰ is required after {self.prog_at:.2f}°C for {desc}')
+            return
 
-            if prog_req and prog is None:
-                ui.print('! prog‰ is required after {self.prog_at:.2f}°C for {desc}')
-                return
+        i = self.record(ui, word, score, prog)
+        if i is not None:
+            ui.print(f'💿 {self.describe_word(i)}')
 
-            i = self.record(ui, word, score, prog)
-            if i is not None:
-                ui.print(f'💿 {self.describe_word(i)}')
-
-            if self.found: return self.finish
+        if self.found: return self.finish
 
     def word_iref(self, k: WordRef, n: int):
         if k == '$':
@@ -2052,20 +2077,19 @@ class Search(StoredLog):
             do_all = False
             do_list = False
 
-            for token in (ui.tokens.token, *ui.tokens):
-                if not token: break
-                token = token.lower()
-                if token == 'all':
-                    do_all = True
-                elif token == 'ls':
-                    do_list = True
-                elif 'scavenge'.startswith(token):
-                    self.chat_extract_scav = True
-                    token = ui.tokens.next()
-                else:
-                    ui.print(f'! {ui.tokens.raw}')
-                    ui.print(f'// Usage: /extract [scavenge] [all|ls]')
-                    return
+            with ui.tokens as tokens:
+                for token in tokens:
+                    token = token.lower()
+                    if token == 'all':
+                        do_all = True
+                    elif token == 'ls':
+                        do_list = True
+                    elif 'scavenge'.startswith(token):
+                        self.chat_extract_scav = True
+                    else:
+                        ui.print(f'! {ui.tokens.raw}')
+                        ui.print(f'// Usage: /extract [scavenge] [all|ls]')
+                        return
 
             words = sorted(self.chat_extract_words())
 
@@ -2089,25 +2113,30 @@ class Search(StoredLog):
             self.note_chat_basis_change(ui)
 
             while True:
-                token = self.prompt(ui, f'extract_').head
-                if not token: return self.ideate
-                if token == '_':
-                    return self.chat_prompt(ui, '_')
-                if token.startswith('/'):
-                    return self.do_cmd(ui)
-                if token == '...':
-                    return self.chat_extract_all
+                with self.prompt(ui, f'extract_') as tokens:
+                    if tokens.empty:
+                        return self.ideate
 
-                try:
-                    n = int(token)
-                except ValueError:
-                    ui.print('! invalid list number, expected integer')
-                    continue
-                if not (0 < n <= len(words)):
-                    ui.print('! invalid list number, out of range')
-                    continue
+                    if tokens.have(r'_$'):
+                        return self.chat_prompt(ui, '_')
 
-                return self.attempt_word(ui, words[n-1], f'extract_{n}/{len(words)}') or self.chat_extract
+                    cmd = tokens.have(r'/.+$', lambda m: m[0])
+                    if cmd:
+                        return self.dispatch_cmd(ui, cmd)
+
+                    if tokens.have(r'\.\.\.$'):
+                        return self.chat_extract_all
+
+                    try:
+                        n = int(next(tokens))
+                    except ValueError:
+                        ui.print('! invalid list number, expected integer')
+                        continue
+                    if not (0 < n <= len(words)):
+                        ui.print('! invalid list number, out of range')
+                        continue
+
+                    return self.attempt_word(ui, words[n-1], f'extract_{n}/{len(words)}') or self.chat_extract
 
     def chat_extract_all(self, ui: PromptUI) -> PromptUI.State | None:
         words = sorted(self.chat_extract_words())
@@ -2125,27 +2154,28 @@ class Search(StoredLog):
         chat = self.chat
         given = False
 
-        for token in (ui.tokens.token, *ui.tokens):
-            if not token: continue
+        with ui.tokens as tokens:
+            for token in tokens:
+                if not token: continue
 
-            if given:
-                ui.print(f'! {ui.tokens.raw}')
-                return
-
-            try:
-                chat_i = int(token)
-            except ValueError:
-                ui.print(f'! {ui.tokens.raw}')
-                return
-
-            given = True
-
-            if chat_i > 0:
-                try:
-                    chat = self.chat_history[-chat_i].chat
-                except IndexError:
-                    ui.print(f'! no such chat session {chat_i}')
+                if given:
+                    ui.print(f'! {ui.tokens.raw}')
                     return
+
+                try:
+                    chat_i = int(token)
+                except ValueError:
+                    ui.print(f'! {ui.tokens.raw}')
+                    return
+
+                given = True
+
+                if chat_i > 0:
+                    try:
+                        chat = self.chat_history[-chat_i].chat
+                    except IndexError:
+                        ui.print(f'! no such chat session {chat_i}')
+                        return
 
         if given:
             for mess in chat:
@@ -2205,35 +2235,43 @@ class Search(StoredLog):
         ui.print('cleared chat 🪙 = 0')
         self.chat_clear(ui)
 
+    def select_model(self, ui: PromptUI):
+        with ui.tokens as tokens:
+            byn: list[str] = []
+            while True:
+                if not tokens.empty:
+                    mod = ''
+
+                    n = tokens.have(r'\d+$', lambda m: int(m[1]))
+                    if n is not None:
+                        try:
+                            mod = byn[n-1]
+                        except IndexError:
+                            ui.print(f'! invalid list number')
+
+                    else:
+                        mod = next(tokens)
+
+                    if mod:
+                        try:
+                            mod = olm_find_model(self.llm_client, mod)
+                        except RuntimeError:
+                            ui.print(f'! unavailable model {mod!r}')
+                        else:
+                            return mod
+
+                ui.br()
+                ui.print(f'Available Models:')
+                byn = sorted(get_olm_models(self.llm_client))
+                for i, m in enumerate(byn):
+                    mark = '*' if m == self.llm_model else ' '
+                    ui.print(f'{i+1}. {mark} {m}')
+
+                tokens.raw = ui.raw_input('Select model (by name or number)> ')
+
     def chat_model_cmd(self, ui: PromptUI):
-        byn: list[str] = []
-
-        model = ui.tokens.next()
-        while True:
-            if model:
-                try:
-                    n = int(model)
-                except ValueError:
-                    pass
-                else:
-                    model = byn[n-1]
-
-                try:
-                    model = olm_find_model(self.llm_client, model)
-                except RuntimeError:
-                    ui.print(f'! unavailable model {model!r}')
-                else:
-                    break
-
-            ui.br()
-            ui.print(f'Available Models:')
-            byn = sorted(get_olm_models(self.llm_client))
-            for i, model in enumerate(byn):
-                mark = '*' if model == self.llm_model else ' '
-                ui.print(f'{i+1}. {mark} {model}')
-
-            model = ui.input('Select model (by name or number)> ').next()
-            if not model: return
+        model = self.select_model(ui)
+        if not model: return
 
         self.chat_model(ui, model)
 
@@ -2287,7 +2325,7 @@ class ChatPromptTestCase:
     @classmethod
     def parse(cls, spec: str|PeekStr):
         spec = cls.peek_or_scan(spec)
-        prompt = spec.take()
+        prompt = next(spec)
         if prompt == '_': prompt = ''
 
         expect_rebuild = spec.have(r'> +(.+)$', lambda match: cast(str, match.group(1)), prompt)

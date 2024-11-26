@@ -515,33 +515,32 @@ class Search(StoredLog):
 
         word = self.words[qi]
         ui.copy(word)
-        tokens = ui.input(f'[{self.lo} : {qi} : {self.hi}] {word}? ')
-        token = tokens.head
+        with ui.input(f'[{self.lo} : {qi} : {self.hi}] {word}? ') as tokens:
+            self.quest.append(Questioned(ui.time.now, self.lo, qi, self.hi, word, tokens.raw))
 
-        self.quest.append(Questioned(ui.time.now, self.lo, qi, self.hi, word, tokens.raw))
+            if tokens.have(r'\.+$'):
+                self.may_suggest = False
+                self.questioning = None
+                return
 
-        if tokens.rest:
-            self.may_suggest = False
-            self.questioning = None
-            return self.handle_choose(ui, tokens)
+            if tokens.have(r'!$'):
+                self.remove(ui, qi)
+                self.questioning = None
+                return
 
-        if all(c == '.' for c in token):
-            self.may_suggest = False
-            self.questioning = None
-            return
+            token = next(tokens)
 
-        if token == '!':
-            self.remove(ui, qi)
-            self.questioning = None
-            return
+            if tokens.rest:
+                self.may_suggest = False
+                self.questioning = None
+                return self.handle_choose(ui)
 
-        compare = parse_compare(token)
-        if compare is None:
+            compare = parse_compare(token)
+            if compare is not None:
+                self.attempted += 1
+                return compare, qi
+
             ui.print(f'! invalid direction {token} ; expected a(fter), b(efore), i(t), or ! (to remove word)')
-            return
-
-        self.attempted += 1
-        return compare, qi
 
     def view_notes(self) -> Generator[tuple[int, str]]:
         found = self.found
@@ -583,63 +582,64 @@ class Search(StoredLog):
 
         ui.log(f'viewing: {self.view.describe} search: [ {self.lo} {self.hi} ]')
 
-        tokens = ui.input('> ')
-        return self.handle_choose(ui, tokens)
+        return self.handle_choose(ui)
 
-    def handle_choose(self, ui: PromptUI, tokens: PromptUI.Tokens) -> SearchResponse|None:
-        if self.view.handle(tokens):
-            return
-
-        at = self.select_word(ui, tokens)
-        if at is not None:
-            self.entered += 1
-            self.view.cur = at
-            return self.question(ui, at)
-
-        if not tokens.empty:
-            ui.print('! expected response like: `[<|^|>|+|-|0|<word>]...`')
-            return
-
-        return self.question(ui, self.view.at)
-
-    def select_word(self, ui: PromptUI, tokens: PromptUI.Tokens) -> int|None:
-        if tokens.empty: return
-
-        token = tokens.head
-
-        if token.startswith('@'):
-            rel = token[1:]
-            offset = int(rel) if rel else 0
-            return self.view.at + offset
-
-        if token.startswith('?'):
-            if any(c != '?' for c in token):
-                ui.print(f'! unknown suggestion command')
+    def handle_choose(self, ui: PromptUI) -> SearchResponse|None:
+        with ui.tokens_or('> ') as tokens:
+            if self.view.handle(tokens):
                 return
 
-            n = len(token) - 1
-            if n > 0:
-                n -= 1
+            at = self.select_word(ui)
+            if at is not None:
+                self.entered += 1
+                self.view.cur = at
+                return self.question(ui, at)
 
-                max_context = 1000 # TODO share with suggest
-                while n > 0 and self.view.context < max_context:
+            if not tokens.empty:
+                ui.print('! expected response like: `[<|^|>|+|-|0|<word>]...`')
+                return
+
+            return self.question(ui, self.view.at)
+
+    def select_word(self, ui: PromptUI) -> int|None:
+        with ui.tokens as tokens:
+            if tokens.empty: return
+
+            rel = tokens.have(r'@(.*)$', lambda m: cast(str, m[1]))
+            if rel:
+                offset = int(rel) if rel else 0
+                return self.view.at + offset
+
+            sug = tokens.have(r'\?(.*)', lambda m: cast(str, m[1]))
+            if sug:
+                if any(c != '?' for c in sug):
+                    ui.print(f'! unknown suggestion command')
+                    return
+
+                n = len(sug) - 1
+                if n > 0:
                     n -= 1
-                    self.view.context *= 2
 
-                self.can_suggest = self.suggest()
+                    max_context = 1000 # TODO share with suggest
+                    while n > 0 and self.view.context < max_context:
+                        n -= 1
+                        self.view.context *= 2
 
-            if self.can_suggest is None:
-                ui.print(f'! no suggestion available')
-            return self.can_suggest
+                    self.can_suggest = self.suggest()
 
-        at = self.find(token)
-        if self.words[at] == token:
-            return at
+                if self.can_suggest is None:
+                    ui.print(f'! no suggestion available')
+                return self.can_suggest
 
-        confirm = tokens.next_or_input(ui, f'! unknown word {token} ; respond . to add, else to re-prompt> ')
-        if confirm.strip() == '.':
-            self.insert(ui, at, token)
-            return at
+            word = next(tokens)
+            at = self.find(word)
+            if self.words[at] == word:
+                return at
+
+            confirm = tokens.next_or_input(ui, f'! unknown word {word} ; respond . to add, else to re-prompt> ')
+            if confirm.strip() == '.':
+                self.insert(ui, at, word)
+                return at
 
     def suggest(self) -> int|None:
         max_context = 1000
@@ -742,12 +742,11 @@ class Search(StoredLog):
         return self.show_quest
 
     def review_prompt(self, ui: PromptUI) -> PromptUI.State|None:
-        token = ui.next_or('> ')
-        # TODO this try/finally wants to be a ui.* contextmanager
-        try:
-
-            if not token:
+        with ui.tokens_or('> ') as tokens:
+            if tokens.empty:
                 return self.show_quest
+
+            token = next(tokens)
 
             if any(cmd.startswith(token) for cmd in ('list', 'ls', 'show')):
                 return self.show_quest
@@ -761,9 +760,6 @@ class Search(StoredLog):
             ui.print(f'unknown command {token!r}')
             # TODO other command dispatch like /report
             # TODO crib from / generalize semantic.Search.do_cmd
-
-        finally:
-            ui.tokens = ui.Tokens()
 
     def info(self):
         yield f'🤔 {len(self.quest)} attempts'
@@ -832,11 +828,12 @@ class Search(StoredLog):
     def show_summary(self, ui: PromptUI):
         with text(ui, self.summary(legend=True)) as copy:
             tokens = ui.input('summary> ')
-            token = tokens.head
 
             # TODO also use command dispatch rather than require bounce back to review_prompt
 
+            token = tokens.peek('')
             if token and 'copy'.startswith(token):
+                _ = next(tokens)
                 copy()
                 return
 
@@ -847,15 +844,18 @@ class Search(StoredLog):
         lines = format_browser_lines(self.words, inotes, at=self.view.at)
         with text(ui, lines) as copy:
             tokens = ui.input('show> ')
-            token = tokens.head.lower()
 
             # TODO also use command dispatch rather than require bounce back to review_prompt
 
+            token = tokens.peek('')
+
             if token and 'copy'.startswith(token):
+                _ = next(tokens)
                 copy()
                 return
 
             if token == 'it':
+                _ = next(tokens)
                 i = self.found
                 if i is not None: self.view.at = i
                 return

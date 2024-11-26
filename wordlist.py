@@ -218,25 +218,23 @@ class Browser:
         yield from notes_thru()
 
     def handle(self, tokens: PromptUI.Tokens) -> bool:
-        token = tokens.head
-
-        if token == '<':
+        if tokens.have(r'<$'):
             self.cur = max(self.lo, self.cur - self.context)
             return True
-        if token == '>':
+        if tokens.have(r'>$'):
             self.cur = min(self.hi, self.cur + self.context)
             return True
-        if token == '^':
+        if tokens.have(r'^$'):
             self.cur = self.setat
             return True
 
-        if token == '-':
+        if tokens.have(r'-$'):
             self.context *= self.zoom_factor
             return True
-        if token == '+':
+        if tokens.have(r'\+$'):
             self.context = max(self.min_context, math.floor(self.context / 2))
             return True
-        if token == '0':
+        if tokens.have('0$'):
             self.context = self.min_context
             return True
 
