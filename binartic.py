@@ -12,20 +12,9 @@ from typing import cast, final, override, Literal
 from urllib.parse import urlparse
 
 from store import StoredLog, atomic_file, break_sections, git_txn, replace_sections
+from strkit import spliterate
 from wordlist import Browser, WordList, format_browser_lines, whatadded
 from ui import PromptUI
-
-def spliterate(s: str, sep: str, trim: bool = False):
-    fin = ''
-    while s:
-        part, fin, s = s.partition(sep)
-        if trim and not part: continue
-        yield part
-        break
-    while s:
-        part, fin, s = s.partition(sep)
-        yield part
-    if not trim and fin: yield ''
 
 @contextmanager
 def text(ui: PromptUI, lines: Iterable[str]):
