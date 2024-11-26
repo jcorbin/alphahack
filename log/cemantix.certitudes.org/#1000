@@ -1,0 +1,477 @@
+T0.004408430999774282 now: 2024-11-25T23:24:33EST
+T4.821523006999996 🔗 cemantix.certitudes.org ? 
+T4.822060916999817 site: cemantix.certitudes.org
+T5.896031376999872 🌎 French ? 
+T5.896188964999965 lang: French
+T8.251252070000191 🧩  ? #1000
+T8.251400986000135 puzzle_id: #1000
+T11.043101173000196 😎 °C ? 19.14
+T11.043269196999972 scale: 😎 19.14 °C
+T13.335655309999765 🥵 °C ? 30.8
+T13.335890741000185 scale: 🥵 30.80 °C
+T15.840426537999974 🔥 °C ? 48.03
+T15.840562671000043 scale: 🔥 48.03 °C
+T18.299688159000198 😱 °C ? 57.16
+T18.299842543000068 scale: 😱 57.16 °C
+T18.313153781999972 session model: llama3.2:latest
+T20.718906839999818 #1 ? *10
+T20.71965583200017 DEBUG cp: ChatPrompt(prompt='give me 10 words that are not related to each other', count=10, kind=None, rel='related', trailer=None)
+T20.71969690800006 DEBUG kind: 'French'
+T20.719709647999935 DEBUG count: 10
+T20.719720058999883 DEBUG rel: None
+T20.71972975100016 DEBUG like: []
+T20.719738630999927 DEBUG unlike: []
+T20.71975111399979 DEBUG trailer: given:False []
+T20.719804916000157 chat_prompt: give me 10 French words that are not related to each other
+T20.719970120000198 session: {"role": "user", "content": "give me 10 French words that are not related to each other"}
+T31.13456108499986 session: {"role": "assistant", "content": "Here are 10 French words that are not related to each other:\n\n1. Fleur (flower)\n2. Sauter (to jump)\n3. Caf\u00e9 (coffee shop)\n4. Cadeau (gift)\n5. Rivi\u00e8re (river)\n6. B\u00eate (beast/animal)\n7. \u00c9clair (pastry)\n8. Mus\u00e9e (museum)\n9. Bouquet (bouquet of flowers)\n10. Fout (to kick out/exclude)\n\nNote: While the words may seem unrelated at first, some of them share similar roots or prefixes in French language!"}
+T40.99429236600008 #1 extract_...
+T45.06863876999978 🤔 extract_1/10 #1 "bouquet" score? 5.51
+T45.06882627999994 attempt_0: "bouquet" score:5.51 prog:None
+T53.415876988000036 🤔 extract_1/9 #2 "bête" score? 7.68
+T53.41604996099977 attempt_1: "bête" score:7.68 prog:None
+T56.128294430000096 🤔 extract_1/8 #3 "cadeau" score? 12.18
+T56.1284495939999 attempt_2: "cadeau" score:12.18 prog:None
+T58.6804432429999 🤔 extract_1/7 #4 "café" score? 3.1
+T58.68056807999983 attempt_3: "café" score:3.10 prog:None
+T62.1852620640002 🤔 extract_1/6 #5 "fleur" score? 9.1
+T62.185399038000014 attempt_4: "fleur" score:9.10 prog:None
+T64.79500763799979 🤔 extract_1/5 #6 "fout" score? !
+T64.79513858300015 reject: "fout"
+T69.0412681859998 🤔 extract_1/4 #6 "musée" score? 2.65
+T69.0414180419998 attempt_5: "musée" score:2.65 prog:None
+T72.0907485759999 🤔 extract_1/3 #7 "rivière" score? .03
+T72.0908937019999 attempt_6: "rivière" score:0.03 prog:None
+T76.16517916700013 🤔 extract_1/2 #8 "sauter" score? 4.66
+T76.16540288599981 attempt_7: "sauter" score:4.66 prog:None
+T78.95462680299988 🤔 extract_1/1 #9 "éclair" score? 1.05
+T78.95480621199977 attempt_8: "éclair" score:1.05 prog:None
+T86.98917319700013 #10 ? *10 t2
+T86.9893441119998 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are not related to each other', count=10, kind='French', rel='that are not related to each other', trailer=None)
+T86.98977427799991 DEBUG kind: 'French'
+T86.98983471700012 DEBUG count: 10
+T86.98984387400014 DEBUG rel: None
+T86.98985667399984 DEBUG like: ['$1', '$2']
+T86.98986355399984 DEBUG unlike: []
+T86.98987214199997 DEBUG trailer: given:False []
+T86.98994248100007 chat_prompt: give me 10 French words that are related to $1 and $2
+T86.99010324099982 session: {"role": "user", "content": "give me 10 French words that are related to \"cadeau\" and \"fleur\""}
+T99.69732586100008 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"cadeau\" (gift) and/or \"fleur\" (flower):\n\n1. Cadeaubourg (gift shop)\n2. Fleurs de joie (flowers of joy, a type of flower arrangement)\n3. Don de fleur (gift of flowers)\n4. Carte cadeau florale (floral gift card)\n5. Chapeau (hat, often given as a gift)\n6. Fleuriste (flower seller)\n7. Fleur de lys (fleur-de-lys symbol, often associated with gifts and luxury)\n8. Cadeaubourg de fleurs (gift shop of flowers)\n9. Fleurs d'ami (friendship bouquet, a type of flower arrangement given as a gift)\n10. Carte cadeau fleurie (floral gift card)\n\nNote: These words are all related to the themes of gifts and flowers in French language!"}
+T100.94894561000001 #10 extract_...
+T103.07855049299997 🤔 extract_1/6 #10 "cadeaubourg" score? !
+T103.07875016900016 reject: "cadeaubourg"
+T106.44101602699993 🤔 extract_1/5 #10 "carte" score? -4.72
+T106.4411701680001 attempt_9: "carte" score:-4.72 prog:None
+T109.03421452700013 🤔 extract_1/4 #11 "chapeau" score? .93
+T109.03436339300015 attempt_10: "chapeau" score:0.93 prog:None
+T111.59387528600018 🤔 extract_1/3 #12 "don" score? 13.22
+T111.59402614500004 attempt_11: "don" score:13.22 prog:None
+T118.35748290799984 🤔 extract_1/2 #13 "fleuriste" score? 7.73
+T118.35762841799988 attempt_12: "fleuriste" score:7.73 prog:None
+T119.921141928 #14 ? _
+T119.92134703300007 chat_prompt: _
+T119.92156347199989 session: {"role": "user", "content": "give me 10 French words that are related to \"don\" and \"cadeau\""}
+T135.58076207800013 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"don\" (gift) and/or \"cadeau\" (gift):\n\n1. Cadeaubotanique (gift botany, referring to the art of creating floral arrangements)\n2. Don de fleur (gift of flowers)\n3. Cadeaucadeau (double gift)\n4. Don cadeau (gift-giving act)\n5. Fief d'ami (friendship fief, a type of gift or favor)\n6. Don gratuit (free gift)\n7. Cadeaudon (donation, in the sense of giving something freely)\n8. Cadeaubijou (small gift, a \"jewel\" in French)\n9. Don de charit\u00e9 (charitable donation)\n10. Cadeaucir (to give as a gift)\n\nNote: These words are all related to the themes of gifts, generosity, and charitable giving in French language!"}
+T137.59938283300016 #14 extract_...
+T139.54403856099998 🤔 extract_1/6 #14 "cadeaubijou" score? !
+T139.54414041500013 reject: "cadeaubijou"
+T141.3560381819998 🤔 extract_1/5 #14 "cadeaubotanique" score? !
+T141.3564142770001 reject: "cadeaubotanique"
+T143.58442371299998 🤔 extract_1/4 #14 "cadeaucadeau" score? !
+T143.58453618700014 reject: "cadeaucadeau"
+T145.48252940300017 🤔 extract_1/3 #14 "cadeaucir" score? !
+T145.4826929159999 reject: "cadeaucir"
+T147.1858903000002 🤔 extract_1/2 #14 "cadeaudon" score? !
+T147.18602678900015 reject: "cadeaudon"
+T150.2598213020001 🤔 extract_1/1 #14 "fief" score? 14.86
+T150.2599711580001 attempt_13: "fief" score:14.86 prog:None
+T152.59823589200005 #15 ? _
+T152.5983799679998 chat_prompt: _
+T152.59851089899985 session: {"role": "user", "content": "give me 10 French words that are related to \"fief\" and \"don\""}
+T169.1475242890001 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"fief\" (inheritance) and/or \"don\" (gift):\n\n1. Fiefdome (dominion, referring to the idea of a lord's power)\n2. Donatisme (donatism, a theological concept related to charitable giving)\n3. Cadeau de fief (gift of inheritance)\n4. Fief des \u00e2mes (heavenly inheritance, in some Christian traditions)\n5. Don de seigneurie (feudal lordship, a type of donation or obligation)\n6. Fiduciaire (trustee, who manages a fief or inheritance on behalf of the owner)\n7. Cadeau f\u00e9odal (fetal gift, a medieval concept related to feudal obligations)\n8. Fief en heritage (heritage of land, referring to inherited property)\n9. Don de patrimoine (inheritance of wealth, including gifts and bequests)\n10. Seigneurie d'usage (right of use, referring to the privileges associated with owning a fief)\n\nNote: These words are all related to the themes of inheritance, power, and obligations in French language!"}
+T170.84110531399983 #15 extract_...
+T174.0386800619999 🤔 extract_1/4 #15 "donatisme" score? 13.06
+T174.03886589800004 attempt_14: "donatisme" score:13.06 prog:None
+T177.66074593099984 🤔 extract_1/3 #16 "fiduciaire" score? -9.34
+T177.6609151040002 attempt_15: "fiduciaire" score:-9.34 prog:None
+T179.7869262600002 🤔 extract_1/2 #17 "fiefdome" score? !
+T179.78707333900002 reject: "fiefdome"
+T182.4703599630002 🤔 extract_1/1 #17 "seigneurie" score? 10.78
+T182.47048320400017 attempt_16: "seigneurie" score:10.78 prog:None
+T187.69427446200007 #18 ? *16 t4
+T187.69446964400004 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are related to $1 and $2', count=10, kind='French', rel='that are related to', trailer=None)
+T187.69455931099992 DEBUG kind: 'French'
+T187.69457944199985 DEBUG count: 16
+T187.6945951570001 DEBUG rel: None
+T187.6946147919998 DEBUG like: ['$1', '$2', '$3', '$4']
+T187.69462993199977 DEBUG unlike: []
+T187.6946469730001 DEBUG trailer: given:False []
+T187.69472432700013 chat_prompt: give me 16 French words that are related to $1, $2, $3, and $4
+T187.69493476900016 session: {"role": "user", "content": "give me 16 French words that are related to \"fief\", \"don\", \"donatisme\", and \"cadeau\""}
+T216.66749253999978 session: {"role": "assistant", "content": "Here are 16 French words that are related to \"fief\", \"don\", \"donatisme\", and/or \"cadeau\" (gift):\n\n1. Fief (inheritance, feudal land)\n2. Don (gift, donation)\n3. Donatisme (theological concept of charitable giving)\n4. Cadeau (gift, present)\n5. Fiefdome (dominion, referring to the idea of a lord's power)\n6. Cadeaubotanique (gift botany, referring to the art of creating floral arrangements)\n7. Don de fleur (gift of flowers)\n8. Fief des \u00e2mes (heavenly inheritance, in some Christian traditions)\n9. Donatiste (donatist, adherent to donatistic theology)\n10. Cadeaucadeau (double gift)\n11. Seigneurie d'usage (right of use, referring to the privileges associated with owning a fief)\n12. Fiduciaire (trustee, who manages a fief or inheritance on behalf of the owner)\n13. Don de patrimoine (inheritance of wealth, including gifts and bequests)\n14. Cadeau f\u00e9odal (fetal gift, a medieval concept related to feudal obligations)\n15. Fief en heritage (heritage of land, referring to inherited property)\n16. Don gratuit (free gift)\n\nNote: These words are all related to the themes of inheritance, charitable giving, gifts, and power in French language!"}
+T218.69840625300003 #18 extract_1
+T221.1797115459999 🤔 extract_1/1 #18 "donatiste" score? 8.2
+T221.17988311399995 attempt_17: "donatiste" score:8.20 prog:None
+T238.07571603899987 #19 ? *10 seen with /clear .
+T238.07588610599987 DEBUG cp: ChatPrompt(prompt='give me 16 French words that are related to $1, $2, $3, and $4', count=16, kind='French', rel='that are related to', trailer=None)
+T238.07621354899993 session clear
+T238.07624831400017 DEBUG kind: 'French'
+T238.07626518899997 DEBUG count: 10
+T238.07627911200007 DEBUG rel: 'seen with'
+T238.0762930689998 DEBUG like: []
+T238.07630604299993 DEBUG unlike: []
+T238.0763219710002 DEBUG trailer: given:True []
+T238.07638022899982 chat_prompt: give me 10 French words that are not seen with each other
+T238.07651120599985 session: {"role": "user", "content": "give me 10 French words that are not seen with each other"}
+T245.59885116499981 session: {"role": "assistant", "content": "Here are 10 French words that do not typically appear together:\n\n1. Le fromage (cheese)\n2. La biblioth\u00e8que (library)\n3. L'astronomie (astronomy)\n4. Le jardinier (gardener)\n5. La cuisine (kitchen)\n6. L'h\u00f4pital (hospital)\n7. La photographie (photography)\n8. Le m\u00e9tal (metal)\n9. L'\u00e9cole (school)\n10. La musique (music)\n\nThese words are often used in different contexts and do not typically appear together in a single sentence or phrase."}
+T248.08500837500014 #19 extract_...
+T251.1188445749999 🤔 extract_1/5 #19 "astronomie" score? 2.88
+T251.11897918800014 attempt_18: "astronomie" score:2.88 prog:None
+T254.7515706109998 🤔 extract_1/4 #20 "hôpital" score? 12.33
+T254.7516501250002 attempt_19: "hôpital" score:12.33 prog:None
+T258.19525513300005 🤔 extract_1/3 #21 "la" score? 7.17
+T258.1954049870001 attempt_20: "la" score:7.17 prog:None
+T260.5194395220001 🤔 extract_1/2 #22 "le" score? !
+T260.51960205800015 reject: "le"
+T265.50451120299977 🤔 extract_1/1 #22 "école" score? 26.04 782
+T265.5047145929998 attempt_21: "école" score:26.04 prog:782
+T268.5095175219999 #23 ? /e ls
+T271.96043707599983 #23 ? /last
+T289.8172061619998 <INT>
+T0.006490766000752046 now: 2024-11-25T23:55:06EST
+T2.664971307000087 #23 extract_...
+T6.479314818000603 🤔 extract_1/7 #23 "bibliothèque" score? 3.38
+T6.479491007999968 attempt_22: "bibliothèque" score:3.38 prog:None
+T9.242053937000492 🤔 extract_1/6 #24 "cuisine" score? 7.74
+T9.24221020100049 attempt_23: "cuisine" score:7.74 prog:None
+T12.148959556000591 🤔 extract_1/5 #25 "fromage" score? -1.17
+T12.149134256000252 attempt_24: "fromage" score:-1.17 prog:None
+T15.493565151999974 🤔 extract_1/4 #26 "jardinier" score? 11.59
+T15.493730021999909 attempt_25: "jardinier" score:11.59 prog:None
+T18.553290566000214 🤔 extract_1/3 #27 "musique" score? 8.01
+T18.55345344000034 attempt_26: "musique" score:8.01 prog:None
+T22.208130530000744 🤔 extract_1/2 #28 "métal" score? -6.82
+T22.208339026999965 attempt_27: "métal" score:-6.82 prog:None
+T26.6575724180002 🤔 extract_1/1 #29 "photographie" score? -5.19
+T26.657723943000747 attempt_28: "photographie" score:-5.19 prog:None
+T29.13944816700041 #30 ? /e scav all
+T36.766109218000565 🤔 extract_1/16 #30 "ami" score? 24.1 662
+T36.76632646899998 attempt_29: "ami" score:24.10 prog:662
+T40.98488270100006 🤔 extract_1/15 #31 "charité" score? 19.08
+T40.985042558000714 attempt_30: "charité" score:19.08 prog:None
+T43.80492429400056 🤔 extract_1/14 #32 "de" score? !
+T43.80504407199987 reject: "de"
+T45.85140128300009 🤔 extract_1/13 #32 "des" score? !
+T45.85153414800061 reject: "des"
+T49.219693388999985 🤔 extract_1/12 #32 "en" score? 8.02
+T49.21987218100003 attempt_31: "en" score:8.02 prog:None
+T51.562851098000465 🤔 extract_1/11 #33 "fleurie" score? !
+T51.56298816400067 reject: "fleurie"
+T55.045740133000436 🤔 extract_1/10 #33 "fleurs" score? !fleur
+T55.046016242000405 reject: "fleurs"
+T59.10338363000028 🤔 extract_1/9 #33 "florale" score? !
+T59.10353098399992 reject: "florale"
+T62.04350189100023 🤔 extract_1/8 #33 "féodal" score? 13.46
+T62.04370248500072 attempt_32: "féodal" score:13.46 prog:None
+T66.60533367900007 🤔 extract_1/7 #34 "gratuit" score? -3.83
+T66.6054889750003 attempt_33: "gratuit" score:-3.83 prog:None
+T68.99290856000061 🤔 extract_1/6 #35 "heritage" score? !
+T68.99306255600004 reject: "heritage"
+T74.3169630400007 🤔 extract_1/5 #35 "joie" score? 22.57 528
+T74.31725759200071 attempt_34: "joie" score:22.57 prog:528
+T77.31686304699997 🤔 extract_1/4 #36 "lys" score? 6.5
+T77.31701747400075 attempt_35: "lys" score:6.50 prog:None
+T80.08940112400069 🤔 extract_1/3 #37 "patrimoine" score? 7.75
+T80.08956973000022 attempt_36: "patrimoine" score:7.75 prog:None
+T86.00072913700023 🤔 extract_1/2 #38 "usage" score? -7.56
+T86.00095995800075 attempt_37: "usage" score:-7.56 prog:None
+T88.23830653599998 🤔 extract_1/1 #39 "âmes" score? !
+T88.23842703199989 reject: "âmes"
+T97.92261098600011 #39 ? *9 t3 related !new
+T97.92316647400003 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are not seen with each other', count=10, kind='French', rel='that are not seen with each other', trailer=None)
+T97.92352891300015 DEBUG kind: 'French'
+T97.92355418100033 DEBUG count: 9
+T97.92357090899986 DEBUG rel: 'related'
+T97.92358964200048 DEBUG like: ['$1', '$2', '$3']
+T97.9236045180005 DEBUG unlike: []
+T97.92362401100036 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T97.9237042170007 chat_prompt: give me 9 French words that are related to $1, $2, and $3; do not list any words that you have already listed above
+T97.92390347900073 session: {"role": "user", "content": "give me 9 French words that are related to \"\u00e9cole\", \"ami\", and \"joie\"; do not list any words that you have already listed above"}
+T116.44483188699996 session: {"role": "assistant", "content": "Here are 9 French words that are related to \"\u00e9cole\", \"ami\", and \"joie\" but were not listed earlier:\n\n1. L'\u00e9merveillement (wonder) - related to joie\n2. Le professeur (teacher) - related to \u00e9cole\n3. La confiance (trust) - related to ami\n4. La curiosit\u00e9 (curiosity)\n5. Les amis (friends) - related to ami\n6. L'inspiration (inspiration) - related to joie and \u00e9cole\n7. Le b\u00e9n\u00e9volat (volunteer work) - can be done by friends or for the benefit of one's school or community\n8. La d\u00e9ception (disappointment)\n9. Le soutien (support)\n\nThese words are connected to the themes of friendship, education, and joy, but offer different perspectives on these topics."}
+T146.22064312800012 #39 extract_v...
+T148.08641440000065 #39 extract_...
+T152.20615352599998 🤔 extract_1/10 #39 "amis" score? !
+T152.20630969600006 reject: "amis"
+T156.84159909000027 🤔 extract_1/9 #39 "bénévolat" score? 16.08
+T156.84177715900023 attempt_38: "bénévolat" score:16.08 prog:None
+T160.5894761620002 🤔 extract_1/8 #40 "confiance" score? 13.83
+T160.58963178200065 attempt_39: "confiance" score:13.83 prog:None
+T163.79189246500027 🤔 extract_1/7 #41 "curiosité" score? 7.18
+T163.79204548800044 attempt_40: "curiosité" score:7.18 prog:None
+T167.40368831400065 🤔 extract_1/6 #42 "déception" score? 12.35
+T167.40383111700066 attempt_41: "déception" score:12.35 prog:None
+T171.19199023000056 🤔 extract_1/5 #43 "inspiration" score? 6.48
+T171.1921382139999 attempt_42: "inspiration" score:6.48 prog:None
+T173.30339924800046 🤔 extract_1/4 #44 "les" score? !
+T173.30354202800027 reject: "les"
+T178.48883053600002 🤔 extract_1/3 #44 "professeur" score? 8.74
+T178.48899421400074 attempt_43: "professeur" score:8.74 prog:None
+T182.36531888199988 🤔 extract_1/2 #45 "soutien" score? 8.46
+T182.36543313900074 attempt_44: "soutien" score:8.46 prog:None
+T184.83149320700068 🤔 extract_1/1 #46 "émerveillement" score? 8.4
+T184.83174814199992 attempt_45: "émerveillement" score:8.40 prog:None
+T189.47710915100015 #47 ? *5 $1
+T189.47737133400005 DEBUG cp: ChatPrompt(prompt='give me 9 French words that are related to $1, $2, and $3; do not list any words that you have already listed above', count=9, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T189.47742493199985 DEBUG kind: 'French'
+T189.47743964500023 DEBUG count: 5
+T189.47745289400063 DEBUG rel: None
+T189.47746943600032 DEBUG like: ['$1']
+T189.4774817130001 DEBUG unlike: []
+T189.47749607400056 DEBUG trailer: given:False []
+T189.4775926100001 chat_prompt: give me 5 French words that are related to $1; do not list any words that you have already listed above
+T189.4777726860002 session: {"role": "user", "content": "give me 5 French words that are related to \"\u00e9cole\"; do not list any words that you have already listed above"}
+T194.5372410130003 session: {"role": "assistant", "content": "Here are 5 French words that are related to \"\u00e9cole\":\n\n1. Le dipl\u00f4me (diploma)\n2. La classe (classroom)\n3. Les \u00e9l\u00e8ves (students)\n4. L'examen (exam)\n5. Le conseil (council or advisory board) - often found in schools"}
+T196.37657055399995 #47 extract_...
+T199.5956367859999 🤔 extract_1/5 #47 "classe" score? 12.79
+T199.59580754500075 attempt_46: "classe" score:12.79 prog:None
+T202.82495928800017 🤔 extract_1/4 #48 "conseil" score? -6.37
+T202.82513568500053 attempt_47: "conseil" score:-6.37 prog:None
+T205.16391324100005 🤔 extract_1/3 #49 "diplôme" score? 2.84
+T205.16403198900025 attempt_48: "diplôme" score:2.84 prog:None
+T209.24770814400017 🤔 extract_1/2 #50 "examen" score? -6.57
+T209.24790889500036 attempt_49: "examen" score:-6.57 prog:None
+T211.57585058400036 🤔 extract_1/1 #51 "élèves" score? !
+T211.57601973200053 reject: "élèves"
+T213.433022446 #51 ? /prog
+T219.71619361600006 #51 ? * $2
+T219.71637464700052 DEBUG cp: ChatPrompt(prompt='give me 5 French words that are related to $1; do not list any words that you have already listed above', count=5, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T219.71646463300021 DEBUG kind: 'French'
+T219.71647599400058 DEBUG count: 5
+T219.71648459800053 DEBUG rel: None
+T219.71652912700029 DEBUG like: ['$2']
+T219.71656849600004 DEBUG unlike: []
+T219.71657844400033 DEBUG trailer: given:False []
+T219.71665366700017 chat_prompt: give me 5 French words that are related to $2; do not list any words that you have already listed above
+T219.71681255900057 session: {"role": "user", "content": "give me 5 French words that are related to \"ami\"; do not list any words that you have already listed above"}
+T226.1859631010002 session: {"role": "assistant", "content": "Here are 5 French words that are related to \"ami\":\n\n1. La confiance (trust)\n2. L'amiti\u00e9 (friendship)\n3. Les amoureux (lovers or couples) - often a romantic pair of friends\n4. Le regrette (regret) - can be felt when an amie is not present\n5. Le soutien (support) - important in the friendship between amis"}
+T227.78078040499986 #51 extract_...
+T232.98378717600008 🤔 extract_1/3 #51 "amitié" score? 28.41 854
+T232.9839631270006 attempt_50: "amitié" score:28.41 prog:854
+T238.33935593500064 🤔 extract_1/2 #52 "amoureux" score? 20.58 278
+T238.33952795300047 attempt_51: "amoureux" score:20.58 prog:278
+T240.68348392100052 🤔 extract_1/1 #53 "regrette" score? !
+T240.68362017400068 reject: "regrette"
+T241.90227519600012 #53 ? /prog
+T247.79085022900017 #53 ? * $4
+T247.79102880400023 DEBUG cp: ChatPrompt(prompt='give me 5 French words that are related to $2; do not list any words that you have already listed above', count=5, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T247.7910816220001 DEBUG kind: 'French'
+T247.79109185200014 DEBUG count: 5
+T247.79109995700037 DEBUG rel: None
+T247.7911106190004 DEBUG like: ['$4']
+T247.7911182329999 DEBUG unlike: []
+T247.79112765800073 DEBUG trailer: given:False []
+T247.79120151000006 chat_prompt: give me 5 French words that are related to $4; do not list any words that you have already listed above
+T247.79136047800057 session: {"role": "user", "content": "give me 5 French words that are related to \"joie\"; do not list any words that you have already listed above"}
+T255.8880687690007 session: {"role": "assistant", "content": "Here are 5 French words that are related to \"joie\":\n\n1. L'\u00e9merveillement (wonder)\n2. La rire (laughing or joy) - can be the sound of someone experiencing joie\n3. Le bonheur (happiness)\n4. La f\u00eate (party or celebration) - often a source of great joie\n5. Le sourire (smile) - can be a sign of joyful emotions"}
+T257.68795480800054 #53 extract_...
+T260.65949709800043 🤔 extract_1/4 #53 "bonheur" score? 19.01
+T260.65963142800047 attempt_52: "bonheur" score:19.01 prog:None
+T265.37277138100035 🤔 extract_1/3 #54 "fête" score? 19.59 95
+T265.3729186210003 attempt_53: "fête" score:19.59 prog:95
+T268.4967980860001 🤔 extract_1/2 #55 "rire" score? 10.6
+T268.4969547360006 attempt_54: "rire" score:10.60 prog:None
+T271.9535193010006 🤔 extract_1/1 #56 "sourire" score? 17.99
+T271.953650208 attempt_55: "sourire" score:17.99 prog:None
+T281.67931468200004 #57 ? *18 t6
+T281.6795203970005 DEBUG cp: ChatPrompt(prompt='give me 5 French words that are related to $4; do not list any words that you have already listed above', count=5, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T281.67960754200067 DEBUG kind: 'French'
+T281.67963019299987 DEBUG count: 18
+T281.6796472720007 DEBUG rel: None
+T281.6796693710003 DEBUG like: ['$1', '$2', '$3', '$4', '$5', '$6']
+T281.67969046000053 DEBUG unlike: []
+T281.67970753100053 DEBUG trailer: given:False []
+T281.67981906300065 chat_prompt: give me 18 French words that are related to $1, $2, $3, $4, $5, and $6; do not list any words that you have already listed above
+T281.68005899200034 session: {"role": "user", "content": "give me 18 French words that are related to \"amiti\u00e9\", \"\u00e9cole\", \"ami\", \"joie\", \"amoureux\", and \"f\u00eate\"; do not list any words that you have already listed above"}
+T308.71801043100004 session: {"role": "assistant", "content": "Here are 18 French words that are related to the given themes:\n\n1. Le partage (sharing) - an important aspect of amiti\u00e9\n2. La formation (training or education) - often found in \u00e9cole\n3. L'intimit\u00e9 (intimacy) - can be a key component of amoureux relationships\n4. Les rendez-vous (dates or meetings) - often planned for amis and amoureux\n5. Le bonheur de vivre (the joy of living)\n6. La convivialit\u00e9 (socializing or getting together with friends)\n7. L'esprit d'\u00e9quipe (team spirit) - often found in school settings\n8. Les moments forts (strong or memorable moments) - can be shared among amis and amoureux alike\n9. Le respect mutuel (mutual respect) - an essential component of amiti\u00e9\n10. La cr\u00e9ativit\u00e9 (creativity) - encouraged in many educational settings\n11. L'enthousiasme (enthusiasm) - often felt during festive moments like f\u00eates\n12. Les souvenirs (memories) - cherished by amis and amoureux alike\n13. Le soutien mutuel (mutual support) - crucial for building strong amiti\u00e9\n14. La confiance dans les relations (trust in relationships)\n15. L'innovation (innovation) - often valued in educational settings\n16. Les moments de d\u00e9tente (moments of relaxation) - shared among amis during f\u00eates or other social gatherings\n17. Le sens du humor (sense of humor) - an important component of amiti\u00e9 and enjoyable relationships\n18. La qualit\u00e9 des liens (the quality of bonds) - essential for building strong and lasting amiti\u00e9"}
+T310.1075193780007 #57 extract_...
+T314.03632640400065 🤔 extract_1/25 #57 "convivialité" score? 22.24
+T316.2342722980002 🤔 extract_1/25 #57 "convivialité" 22.24°C prog‰ ? 497
+T316.234330622 attempt_56: "convivialité" score:22.24 prog:497
+T319.8399694919999 🤔 extract_1/24 #58 "créativité" score? 8.04
+T319.84003187300004 attempt_57: "créativité" score:8.04 prog:None
+T321.8602908420007 🤔 extract_1/23 #59 "dans" score? !
+T321.860345735 reject: "dans"
+T325.5013254840005 🤔 extract_1/22 #59 "du" score? !
+T325.5013867730004 reject: "du"
+T328.61762624900075 🤔 extract_1/21 #59 "détente" score? 4.83
+T328.61770090200025 attempt_58: "détente" score:4.83 prog:None
+T333.87615964999986 🤔 extract_1/20 #60 "enthousiasme" score? 20.82 311
+T333.87633702200037 attempt_59: "enthousiasme" score:20.82 prog:311
+T336.84228639200046 🤔 extract_1/19 #61 "esprit" score? 17.35
+T336.8423589190006 attempt_60: "esprit" score:17.35 prog:None
+T340.7839420139999 🤔 extract_1/18 #62 "formation" score? -2.67
+T340.78411929200047 attempt_61: "formation" score:-2.67 prog:None
+T343.03414755500035 🤔 extract_1/17 #63 "forts" score? !
+T343.03421043900016 reject: "forts"
+T345.8761397779999 🤔 extract_1/16 #63 "humor" score? !
+T345.87620677500036 reject: "humor"
+T350.53590660200007 🤔 extract_1/15 #63 "innovation" score? -2.4
+T350.53601989100025 attempt_62: "innovation" score:-2.40 prog:None
+T351.7880401470002 #64 ? _
+T351.78820225300024 chat_prompt: _
+T351.7884285979999 session: {"role": "user", "content": "give me 18 French words that are related to \"amiti\u00e9\", \"\u00e9cole\", \"ami\", \"joie\", \"convivialit\u00e9\", and \"enthousiasme\"; do not list any words that you have already listed above"}
+T394.56983270599994 session: {"role": "assistant", "content": "Here are 18 French words that are related to the given themes:\n\n1. La sociabilit\u00e9 (sociality) - essential for building strong amiti\u00e9\n2. L'apprentissage (learning) - often found in \u00e9cole settings\n3. Les liens entre gens (ties between people) - crucial for forming and maintaining amiti\u00e9\n4. Le bonheur de partager (the joy of sharing)\n5. La convivialit\u00e9 familiale (family socializing) - a source of joy and connection\n6. L'ardeur d'int\u00e9r\u00eat (ardor of interest) - often present in amis who share passions\n7. Les moments d'exaltation (moments of elation) - can be felt during enthusiastic experiences\n8. La communication efficace (effective communication) - key to nurturing amiti\u00e9 and joyful relationships\n9. Le r\u00f4le mod\u00e8le (model role) - important for inspiring confidence in amis\n10. L'esprit aventureux (adventurous spirit) - often present in those who share enthusiasm for new experiences\n11. La compr\u00e9hension mutuelle (mutual understanding) - essential for building strong amiti\u00e9\n12. Le confort de soi-m\u00eame (comfort with oneself) - important for feeling confident and joyful in one's own company\n13. Les moments d'\u00e9lan (moments of energy) - can be felt during enthusiastic experiences or social gatherings\n14. La confiance sans faille (unshakeable trust) - crucial for building strong amiti\u00e9 and joyful relationships\n15. Le soutien moral (moral support) - often provided by amis in times of need\n16. Les moments de rire en commun (moments of shared laughter) - a source of joy and connection among amis\n17. La passion pour la vie (passion for life) - often present in those who share enthusiasm for new experiences\n18. Le sens de la r\u00e9compense (sense of reward) - can be felt when engaging in activities that bring joy and fulfillment"}
+T405.2847859399999 #64 extract_...
+T408.99188589799996 🤔 extract_1/31 #64 "apprentissage" score? 7.86
+T408.9920158310006 attempt_63: "apprentissage" score:7.86 prog:None
+T412.5316739630007 🤔 extract_1/30 #65 "ardeur" score? 15.79
+T412.53185637300066 attempt_64: "ardeur" score:15.79 prog:None
+T415.1164487550004 🤔 extract_1/29 #66 "aventureux" score? 15.38
+T415.1166388790007 attempt_65: "aventureux" score:15.38 prog:None
+T419.70084295000015 🤔 extract_1/28 #67 "commun" score? 8.74
+T419.7009843550004 attempt_66: "commun" score:8.74 prog:None
+T422.47151987800044 🤔 extract_1/27 #68 "communication" score? -13.04
+T422.4716517040006 attempt_67: "communication" score:-13.04 prog:None
+T426.03830110800027 🤔 extract_1/26 #69 "compréhension" score? -3.82
+T426.03847981299987 attempt_68: "compréhension" score:-3.82 prog:None
+T428.936578455 🤔 extract_1/25 #70 "confort" score? 6.95
+T428.9367139189999 attempt_69: "confort" score:6.95 prog:None
+T431.588555454 🤔 extract_1/24 #71 "efficace" score? -1.29
+T431.58868513700054 attempt_70: "efficace" score:-1.29 prog:None
+T434.0253360430006 🤔 extract_1/23 #72 "entre" score? !
+T434.02548035400014 reject: "entre"
+T437.22197290200074 🤔 extract_1/22 #72 "exaltation" score? 13.24
+T437.22216501 attempt_71: "exaltation" score:13.24 prog:None
+T439.8017664530007 🤔 extract_1/21 #73 "faille" score? -2.28
+T439.801894917 attempt_72: "faille" score:-2.28 prog:None
+T443.08447648900074 🤔 extract_1/20 #74 "familiale" score? 10.14
+T443.084642025 attempt_73: "familiale" score:10.14 prog:None
+T445.8916354840003 🤔 extract_1/19 #75 "gens" score? 18.84
+T445.8918486319999 attempt_74: "gens" score:18.84 prog:None
+T450.34627222200015 🤔 extract_1/18 #76 "intérêt" score? 4.38
+T450.34646990200054 attempt_75: "intérêt" score:4.38 prog:None
+T456.8156715490004 🤔 extract_1/17 #77 "liens" score? !
+T456.81578323400026 reject: "liens"
+T460.61165093100044 🤔 extract_1/16 #77 "modèle" score? -.57
+T460.61176661399986 attempt_76: "modèle" score:-0.57 prog:None
+T462.88069975000053 🤔 extract_1/15 #78 "moments" score? !
+T462.88082923300044 reject: "moments"
+T465.93732492100025 🤔 extract_1/14 #78 "moral" score? 12.93
+T465.93758609999986 attempt_77: "moral" score:12.93 prog:None
+T468.2047465660007 🤔 extract_1/13 #79 "mutuelle" score? !
+T468.20485937800004 reject: "mutuelle"
+T471.4685844700007 🤔 extract_1/12 #79 "même" score? 16.01
+T471.46873930200036 attempt_78: "même" score:16.01 prog:None
+T476.64707915300005 🤔 extract_1/11 #80 "partager" score? 24.32 678
+T476.64725347700005 attempt_79: "partager" score:24.32 prog:678
+T482.1760349240003 🤔 extract_1/10 #81 "passion" score? 20.47 259
+T482.17618489800043 attempt_80: "passion" score:20.47 prog:259
+T486.4203842830002 🤔 extract_1/9 #82 "pour" score? 12.87
+T486.4205648970001 attempt_81: "pour" score:12.87 prog:None
+T489.212676225 🤔 extract_1/8 #83 "récompense" score? 10.52
+T489.21281000199997 attempt_82: "récompense" score:10.52 prog:None
+T491.81510833300035 🤔 extract_1/7 #84 "rôle" score? 10.02
+T491.81534138999996 attempt_83: "rôle" score:10.02 prog:None
+T494.7203351500002 🤔 extract_1/6 #85 "sans" score? !
+T494.7204895470004 reject: "sans"
+T497.45540214599987 🤔 extract_1/5 #85 "sens" score? 3.25
+T497.4554627100006 attempt_84: "sens" score:3.25 prog:None
+T508.0141458150001 #86 ? _
+T508.01436143200044 chat_prompt: _
+T508.01462382499994 session: {"role": "user", "content": "give me 18 French words that are related to \"amiti\u00e9\", \"\u00e9cole\", \"partager\", \"ami\", \"joie\", and \"convivialit\u00e9\"; do not list any words that you have already listed above"}
+T544.9194668170003 session: {"role": "assistant", "content": "Here are 18 French words that are related to the given themes:\n\n1. La g\u00e9n\u00e9rosit\u00e9 (generosity) - essential for sharing and partaging with others\n2. Le bien-\u00eatre social (social well-being) - often fostered in educational settings\n3. Les moments de surprise (moments of surprise) - can be shared among amis during f\u00eates or other social gatherings\n4. La curiosit\u00e9 intellectuelle (intellectual curiosity) - encouraged in many \u00e9cole settings\n5. Le lien familial fort (strong family ties) - important for building a sense of community and convivialit\u00e9\n6. L'art de la conversation (the art of conversation) - essential for nurturing amiti\u00e9 and joyful relationships\n7. La fiert\u00e9 d'appartenir (pride of belonging) - often felt among amis who share common interests or values\n8. Les activit\u00e9s collectives (collective activities) - can be a source of joy and convivialit\u00e9 in \u00e9cole settings\n9. Le sens de l'initiative (sense of initiative) - important for taking the lead and sharing ideas with others\n10. La cr\u00e9ativit\u00e9 collective (collective creativity) - often encouraged in educational settings\n11. Les moments de tendresse (moments of tenderness) - can be shared among amis during intimate moments or special occasions\n12. Le d\u00e9sir d'aider (desire to help) - essential for building strong amiti\u00e9 and joyful relationships\n13. La possibilit\u00e9 de r\u00eaver ensemble (opportunity to dream together) - important for sharing aspirations and goals with amis\n14. Les liens cr\u00e9atifs (creative bonds) - can be formed among amis who share artistic or musical interests\n15. Le sens du partage (sense of shared ownership) - essential for building strong amiti\u00e9 and joyful relationships\n16. Les moments de d\u00e9tente collective (moments of collective relaxation) - can be shared among amis during social gatherings or f\u00eates\n17. La valeur de la coop\u00e9ration (value of cooperation) - important for achieving common goals and sharing successes with others\n18. Le plaisir de partager des exp\u00e9riences (pleasure of sharing experiences) - a source of joy and convivialit\u00e9 among amis"}
+T581.3273046650002 #86 extract_...
+T587.642720029 🤔 extract_1/29 #86 "activités" score? !
+T587.6428253760005 reject: "activités"
+T592.1176243590007 🤔 extract_1/28 #86 "aider" score? 16
+T592.1177746000003 attempt_85: "aider" score:16.00 prog:None
+T622.4769953290006 🤔 extract_1/27 #87 "appartenir" score?  11.32
+T622.4771355050007 attempt_86: "appartenir" score:11.32 prog:None
+T624.492729181 <INT>
+T0.013581692001025658 now: 2024-11-26T07:31:02EST
+T1.797712085000967 #88 extract_...
+T43.4045095520014 <INT>
+T0.008449762004602235 now: 2024-11-26T07:44:24EST
+T2.1380309380037943 #88 extract_...
+T10.593871215001855 🤔 extract_1/26 #88 "art" score? -1.16
+T10.59402011000202 attempt_87: "art" score:-1.16 prog:None
+T32.24984290800057 🤔 extract_1/25 #89 "bien" score? 13.62
+T32.249986244001775 attempt_88: "bien" score:13.62 prog:None
+T36.7299904620013 🤔 extract_1/24 #90 "collective" score? !
+T36.730120149004506 reject: "collective"
+T39.473743823000405 🤔 extract_1/23 #90 "collectives" score? !
+T39.473898809003 reject: "collectives"
+T43.56980915800523 🤔 extract_1/22 #90 "conversation" score? 4.13
+T43.5699901590051 attempt_89: "conversation" score:4.13 prog:None
+T52.16954951400112 🤔 extract_1/21 #91 "coopération" score? -4.92
+T52.16969377799978 attempt_90: "coopération" score:-4.92 prog:None
+T107.31414161800058 🤔 extract_1/20 #92 "créatifs" score? !
+T107.31431521600462 reject: "créatifs"
+T138.09028664300422 🤔 extract_1/19 #92 "désir" score? 17.06
+T138.090477714999 attempt_91: "désir" score:17.06 prog:None
+T243.52196262700454 🤔 extract_1/18 #93 "ensemble" score? 6.19
+T243.52209608300473 attempt_92: "ensemble" score:6.19 prog:None
+T251.26599064300535 🤔 extract_1/17 #94 "expériences" score? !
+T251.26612833599938 reject: "expériences"
+T263.93802877200505 🤔 extract_1/16 #94 "familial" score? 42.97 983
+T263.93819991100463 attempt_93: "familial" score:42.97 prog:983
+T965.9129904810034 #95 ? _
+T965.9130691980026 chat_prompt: _
+T965.9131799960014 session: {"role": "user", "content": "give me 18 French words that are related to \"familial\", \"amiti\u00e9\", \"\u00e9cole\", \"partager\", \"ami\", and \"joie\"; do not list any words that you have already listed above"}
+T990.1291606619998 #95 ? *10 $1 /clear .
+T990.1294814220018 DEBUG cp: ChatPrompt(prompt='give me 18 French words that are related to $1, $2, $3, $4, $5, and $6; do not list any words that you have already listed above', count=18, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T990.1297006900058 session clear
+T990.1297234140002 DEBUG kind: 'French'
+T990.129733132002 DEBUG count: 10
+T990.1297422499993 DEBUG rel: None
+T990.1297549830051 DEBUG like: ['$1']
+T990.1297636270028 DEBUG unlike: []
+T990.1297751950042 DEBUG trailer: given:True []
+T990.1298327050026 chat_prompt: give me 10 French words that are related to $1
+T990.1299564440051 session: {"role": "user", "content": "give me 10 French words that are related to \"familial\""}
+T1060.9934161300043 session: {"role": "assistant", "content": "Here are 10 French words related to \"familial\":\n\n1. Famille (family)\n2. Parent (father or mother)\n3. Enfant (child)\n4. Fr\u00e8re (brother)\n5. S\u0153ur (sister)\n6. M\u00e8re (mother)\n7. P\u00e8re (father)\n8. Petit (small, often used to refer to a child or family member)\n9. Grand-m\u00e8re (grandmother)\n10. Lien (family bond or relationship)\n\nNote: These words are all derived from French and can be used in various contexts related to family and familial relationships."}
+T1192.3699110250018 #95 extract_...
+T1198.7456788929994 🤔 extract_1/10 #95 "enfant" score? 45.78 987
+T1198.745815410999 attempt_94: "enfant" score:45.78 prog:987
+T1204.9218505730023 🤔 extract_1/9 #96 "famille" score? 48.97 993
+T1204.9220208080005 attempt_95: "famille" score:48.97 prog:993
+T1209.8985680030019 🤔 extract_1/8 #97 "frère" score? 50 995
+T1209.8988245250002 attempt_96: "frère" score:50.00 prog:995
+T1217.7624009610008 🤔 extract_1/7 #98 "grand" score? 25.34 739
+T1217.7626012430046 attempt_97: "grand" score:25.34 prog:739
+T1381.8499897000002 🤔 extract_1/6 #99 "lien" score? -1.05
+T1381.8501356190027 attempt_98: "lien" score:-1.05 prog:None
+T1403.4981497080007 🤔 extract_1/5 #100 "mère" score? 43.79 985
+T1403.4983522330003 attempt_99: "mère" score:43.79 prog:985
+T2013.4019852670026 🤔 extract_1/4 #101 "parent" score? 
+T2058.722394025004 🤔 extract_1/4 #101 "parent" score? 45.45 986
+T2058.7225967850027 attempt_100: "parent" score:45.45 prog:986
+T2202.066697293005 🤔 extract_1/3 #102 "petit" score? 20.67 291
+T2202.0669245840036 attempt_101: "petit" score:20.67 prog:291
+T3005.994278559003 🤔 extract_1/2 #103 "père" score? 48.03 990
+T3005.994429669001 attempt_102: "père" score:48.03 prog:990
+T3136.450337618 🤔 extract_1/1 #104 "sœur" score? 46.61 988
+T3136.4505061060045 attempt_103: "sœur" score:46.61 prog:988
+T3143.3542840360024 #105 ? /prog
+T3148.713971984005 #105 ? *15 t3 !new
+T3148.714093268005 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are related to $1', count=10, kind='French', rel='that are related to', trailer=None)
+T3148.7141404130016 DEBUG kind: 'French'
+T3148.7141492510054 DEBUG count: 15
+T3148.7141556589995 DEBUG rel: None
+T3148.7141651850034 DEBUG like: ['$1', '$2', '$3']
+T3148.7141718429993 DEBUG unlike: []
+T3148.71420848 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T3148.7142728590043 chat_prompt: give me 15 French words that are related to $1, $2, and $3; do not list any words that you have already listed above
+T3148.7144266130053 session: {"role": "user", "content": "give me 15 French words that are related to \"fr\u00e8re\", \"famille\", and \"p\u00e8re\"; do not list any words that you have already listed above"}
+T3173.505887760999 session: {"role": "assistant", "content": "Here are 15 additional French words related to \"fr\u00e8re\", \"famille\", and \"p\u00e8re\" that I haven't listed before:\n\n1. Oncle (uncle)\n2. Tonton (grandfather's brother, often used as a term of endearment)\n3. Cousin (family member by blood or marriage)\n4. R\u00e8gle de famille (family rule or tradition)\n5. Tradition familiale (family tradition)\n6. Gar\u00e7on (young boy, but can also refer to a young man in the family)\n7. Maison de famille (family home)\n8. Famille nombreuse (large family)\n9. Enfants d\u00e9vour\u00e9s (children who devour food, often used to describe a hungry or demanding child)\n10. P\u00e8re absent (absent father)\n11. Fr\u00e8res mineurs (younger brothers)\n12. M\u00e8re aimante (loving mother)\n13. Famille solitaire (single family)\n14. Fils a\u00een\u00e9 (older son)\n15. Parentalit\u00e9 (parentage, referring to the relationship between parents and children)\n\nNote: These words are all derived from French and can be used in various contexts related to family relationships and dynamics."}
+T3193.634957165006 #105 extract_...
+T3295.730560087999 🤔 extract_1/18 #105 "absent" score? 8.53
+T3295.7307907569993 attempt_104: "absent" score:8.53 prog:None
+T3308.273764716003 🤔 extract_1/17 #106 "aimante" score? !
+T3308.2738164469993 reject: "aimante"
+T3319.690339247005 🤔 extract_1/16 #106 "aîné" score? 
+T3356.122008751001 🤔 extract_1/16 #106 "aîné" score? 100 1000
+T3356.1221440760055 attempt_105: "aîné" score:100.00 prog:1000
+T3380.0980659460038 Paste share result, then preses <Enter>
+T3380.1023160950062 share result: "J'ai trouv\u00e9 #cemantix n\u00ba1000 en 106 coups !\n\ud83e\udd73\n\ud83d\udd253\ufe0f\u20e3\n\ud83e\udd755\ufe0f\u20e3\n\ud83d\ude0e1\ufe0f\u20e32\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd766\ufe0f\u20e36\ufe0f\u20e3\n\ud83e\uddca1\ufe0f\u20e39\ufe0f\u20e3\nhttps://cemantix.certitudes.org/"
+T3380.1033834560003 <STOP>
