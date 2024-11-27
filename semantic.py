@@ -786,10 +786,14 @@ class Search(StoredLog):
                 session : \s* (?P<mess> .+ )
                 $''', rest)
             if match:
-                mess_json, = match.groups()
-                mess = json.loads(mess_json) # pyright: ignore[reportAny]
-                mess = cast(ollama.Message, mess) # TODO validate
-                self.chat_append(ui, mess)
+                raw, = match.groups()
+                if raw.startswith('pop'):
+                    if raw != 'pop': raise NotImplementedError(f'chat pop index')
+                    _ = self.chat_pop(ui)
+                else:
+                    mess = json.loads(raw) # pyright: ignore[reportAny]
+                    mess = cast(ollama.Message, mess) # TODO validate
+                    self.chat_append(ui, mess)
                 continue
 
             match = re.match(r'''(?x)
@@ -2038,6 +2042,11 @@ class Search(StoredLog):
             self.chat_history.append(ChatSession(self.chat, model=self.llm_model))
         self.chat = []
 
+    def chat_pop(self, ui: PromptUI):
+        mess = self.chat.pop()
+        ui.log(f'session: pop')
+        return mess
+
     def chat_append(self, ui: PromptUI, mess: ollama.Message):
         ui.log(f'session: {json.dumps(mess)}')
         self.chat.append(mess)
@@ -2156,10 +2165,24 @@ class Search(StoredLog):
 
         with ui.tokens as tokens:
             for token in tokens:
-                if not token: continue
-
                 if given:
                     ui.print(f'! {ui.tokens.raw}')
+                    return
+
+                if token == 'pop':
+                    try:
+                        mess = self.chat_pop(ui)
+                    except IndexError:
+                        ui.print(f'! no chat messages to pop')
+                        return
+                    role = mess['role']
+                    content = mess.get('content', '')
+                    if role == 'user':
+                        ui.print(f'popped >>> {content}')
+                    elif role == 'assistant':
+                        ui.print(f'popped ... 🪙 {count_tokens(content)}')
+                    else:
+                        ui.print(f'popped [role={role}] {content!r}')
                     return
 
                 try:
