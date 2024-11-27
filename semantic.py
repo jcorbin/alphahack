@@ -7,7 +7,6 @@ import math
 import ollama
 import re
 import subprocess
-import traceback
 from bs4 import BeautifulSoup
 from collections import Counter
 from collections.abc import Generator, Iterable, Iterator, Sequence
@@ -2074,19 +2073,12 @@ class Search(StoredLog):
         parts: list[str] = []
 
         for resp in self.llm_client.chat(model=self.llm_model, messages=self.chat, stream=True):
-            try:
+            with ui.print_exception(Exception,
+                                    extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
                 mess = resp['message'] # pyright: ignore[reportAny]
                 assert isinstance(mess, dict)
                 # TODO validate mess : ollama.Message
                 mess = cast(ollama.Message, cast(object, mess))
-            except Exception as exc:
-                tb = traceback.TracebackException.from_exception(exc)
-                ui.print(f'\n! ollama response: {json.dumps(resp)}')
-                for chunk in tb.format():
-                    for line in chunk.rstrip('\n').splitlines():
-                        ui.print(f'! {line}')
-
-                raise StopIteration
 
             # TODO care about resp['done'] / resp['done_reason'] ?
 

@@ -2,6 +2,7 @@ import os
 import re
 import subprocess
 import time
+import traceback
 from contextlib import contextmanager
 from collections.abc import Generator, Sequence
 from typing import cast, final, Callable, Literal, Protocol, TextIO
@@ -274,6 +275,26 @@ class PromptUI:
             yield
         except type_:
             raise NextState(st)
+
+    @contextmanager
+    def print_exception(self,
+                        type_: type[BaseException]|tuple[type[BaseException], ...],
+                        then_: Literal['pass', 'stop']|Exception|State = 'stop',
+                        extra: Callable[['PromptUI'], None]|None = None,
+                        ):
+        try:
+            yield
+
+        except type_ as exc:
+            tb = traceback.TracebackException.from_exception(exc)
+            if extra: extra(self)
+            for chunk in tb.format():
+                for line in chunk.rstrip('\n').splitlines():
+                    self.print(f'! {line}')
+            if then_ == 'pass': return
+            elif then_ == 'stop': raise StopIteration
+            elif isinstance(then_, Exception): raise then_
+            else: raise NextState(then_)
 
     def run(self, state: State):
         try:
