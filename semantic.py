@@ -6,6 +6,7 @@ import json
 import math
 import ollama
 import re
+import requests
 from bs4 import BeautifulSoup
 from collections import Counter
 from collections.abc import Generator, Iterable, Sequence
@@ -439,6 +440,9 @@ class Search(StoredLog):
 
         self.result_text: str = ''
         self.result: Search.Result|None = None
+
+        self.http_client = requests.Session()
+        self.http_client.headers["User-Agent"] = 'github.com/jcorbin/alhpahack'
 
         self.llm_client = ollama.Client()
         self.llm_model: str = self.default_chat_model
@@ -1215,12 +1219,56 @@ class Search(StoredLog):
             txn.will_add(self.log_file),
             self.log_to(ui),
         ):
-            # TODO why does this not work:
-            # page = requests.get('https://cemantle.certitudes.org/')
-            link = self.result.link if self.result else f'https://{self.site}'
-            _ = ui.input(f'Copy html from {link} and press <Enter>')
-            self.yesterscrape(ui, ui.paste())
+            ok = False
+            with ui.print_exception((IndexError, ValueError, requests.JSONDecodeError), 'pass'):
+                self.yesterreq(ui)
+                ok = True
+            if not ok:
+                link = self.result.link if self.result else f'https://{self.site}'
+                _ = ui.input(f'Copy html from {link} and press <Enter>')
+                self.yesterscrape(ui, ui.paste())
+
         ui.print(f'🗃️ {self.log_file}')
+
+    def yesterreq(self, ui: PromptUI):
+        if not self.found:
+            # TODO scrape from today puzzle html
+            raise ValueError('no word found yesterday to request')
+
+        yesterword = self.word[self.found]
+
+        link = self.result.link if self.result else f'https://{self.site}'
+        url = f'{link.rstrip("/")}/nearby'
+
+        ui.write(f'requesting {url} "word={yesterword}"...')
+        res = self.http_client.post(url, data = {'word': yesterword}, timeout=3)
+
+        ui.write(f'{len(res.content)} bytes...')
+
+        def extract(dat: object):
+            if not isinstance(dat, list):
+                raise ValueError('expected an array')
+
+            dat = cast(list[object], dat)
+            if not all(isinstance(x, list) for x in dat):
+                raise ValueError('expected an array-of-arrays')
+
+            ui.write('json records')
+            dat = cast(list[list[object]], dat)
+            for i, el in enumerate(dat):
+                ui.write('.')
+                word, prog, score = el
+                if not isinstance(word, str):
+                    raise ValueError(f'invalid response[{i}] [0] word')
+                if not isinstance(prog, int):
+                    raise ValueError(f'invalid response[{i}] [1] prog')
+                if not isinstance(score, float) and not isinstance(score, int):
+                    raise ValueError(f'invalid response[{i}] [2] socre')
+                yield word, prog, float(score)
+
+        return self.yesterdat(ui, yesterword, (
+            YesterDatum(rank, word, score, prog)
+            for rank, (word, prog, score) in enumerate(extract(cast(object, res.json())))))
 
     def yesterscrape(self, ui: PromptUI, content: str):
         soup = BeautifulSoup(content, 'html.parser')

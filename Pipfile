@@ -9,6 +9,7 @@ ollama = "*"
 bs4 = "*"
 python-dateutil = "*"
 pytest = "*"
+requests = "*"
 
 [dev-packages]
 
