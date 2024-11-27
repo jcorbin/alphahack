@@ -1380,12 +1380,23 @@ class Search(StoredLog):
                 ui.print(f'> {cp.prompt}')
                 raise StopIteration
 
-            token = next(tokens)
-            if len(token) > 1:
-                count = int(token[1:])
+            first = True
+            count_given = False
 
             for token in tokens:
-                if len(token) >= 2 and '/clear'.startswith(token): # TODO can this bi an abbr
+                if first:
+                    first = False
+                    token = token[1:] # TODO more general "dispatched command prefix trim"
+                    if not token: continue
+
+                if re.match(r'\d+$', token):
+                    if count_given:
+                        raise ValueError('count already given, did you miss a T or B?')
+                    count = int(token)
+                    count_given = True
+
+                # TODO can this be an abbr?
+                elif len(token) >= 2 and '/clear'.startswith(token):
                     clear = True
 
                 elif token in self.abbr:
@@ -2596,6 +2607,11 @@ class GenPromptTestCase:
     prior> give me 10 words that are not related to each other
     > give me 9 words that are related to $1, $2, and $3
     - clear: false
+
+    *t4 /clear
+    prior> give me 9 words that are related to $1, $2, and $3
+    > give me 12 words that are related to $1, $2, $3, and $4
+    - clear: true
 
 ''')
 def test_gen_prompt(case: GenPromptTestCase):
