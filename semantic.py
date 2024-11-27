@@ -2624,6 +2624,16 @@ class GenPromptTestCase:
     > give me 12 French words that are related to $1, $10, and $13; do not list any words that you have already listed above
     - clear: false
 
+    * related t2 !new
+    prior> give me 5 French words that are not related to $1
+    > give me 10 French words that are related to $1 and $2; do not list any words that you have already listed above
+    - clear: false
+
+    * t2 $6 /clear .
+    prior> give me 10 words that are related to $1 and $2
+    > give me 15 words that are related to $1, $2, and $6
+    - clear: true
+
 ''')
 def test_gen_prompt(case: GenPromptTestCase):
     def eof_input(_s: str): raise EOFError
