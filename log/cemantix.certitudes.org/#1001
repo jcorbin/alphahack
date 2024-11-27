@@ -1,0 +1,721 @@
+T0.004507638994255103 now: 2024-11-27T08:53:38EST
+T1.365992720995564 🔗 cemantix.certitudes.org ? 
+T1.8139387879928108 🌎 French ? 
+T4.214060371989035 🧩  ? #1001
+T4.214454708999256 puzzle_id: #1001
+T6.782018109995988 😎 °C ? 19.77
+T6.782152892992599 scale: 😎 19.77 °C
+T8.78996063899831 🥵 °C ? 35.34
+T8.790120762991137 scale: 🥵 35.34 °C
+T11.28608972899383 🔥 °C ? 47.23
+T11.286207031997037 scale: 🔥 47.23 °C
+T13.590123779998976 😱 °C ? 59.26
+T13.590267034989665 scale: 😱 59.26 °C
+T13.59745206599473 session model: llama3.2:latest
+T24.17425486999855 #1 ? * seen with 
+T35.629633551987354 <INT>
+T0.0057590280048316345 now: 2024-11-27T08:54:17EST
+T3.840830447006738 #1 ? *10 seen with
+T3.8423190760076977 chat_prompt: give me 10 French words that are not seen with each other
+T3.8425139150058385 session: {"role": "user", "content": "give me 10 French words that are not seen with each other"}
+T11.8376008310006 session: {"role": "assistant", "content": "Here are 10 French words that are not commonly paired together:\n\n1. Fleur (flower)\n2. Guitare (guitar)\n3. Oiseau (bird)\n4. Fromage (cheese)\n5. \u00c9toile (star)\n6. Rivi\u00e8re (river)\n7. Caf\u00e9 (coffee)\n8. B\u00fbcheron (woodcutter)\n9. Voiture (car)\n10. P\u00e2tisserie (bakery)\n\nThese words are not typically paired together in everyday conversation or writing, but they can be used individually to create interesting and varied sentences."}
+T24.440703669009963 #1 extract_...
+T31.24059675000899 🤔 extract_1/10 #1 "bûcheron" score? 6.21
+T31.24081046000356 attempt_0: "bûcheron" score:6.21 prog:None
+T35.12080124100612 🤔 extract_1/9 #2 "café" score? -11.96
+T35.12096848800138 attempt_1: "café" score:-11.96 prog:None
+T38.51309074299934 🤔 extract_1/8 #3 "fleur" score? 16.66
+T38.51334718200087 attempt_2: "fleur" score:16.66 prog:None
+T48.792676548007876 #4 ? #3 score -16.66
+T48.79293561101076 fix attempt_2: score:-16.66
+T51.496846512003685 #4 ? /e ...
+T54.49664324300829 #4 ? /e all
+T58.34495996701298 🤔 extract_1/7 #4 "fromage" score? -5.95
+T58.34513594600139 attempt_3: "fromage" score:-5.95 prog:None
+T62.57692127300834 🤔 extract_1/6 #5 "guitare" score? -0.00
+T62.57710794000013 attempt_4: "guitare" score:-0.00 prog:None
+T66.84058589900087 🤔 extract_1/5 #6 "oiseau" score? -13.84
+T66.84074481501011 attempt_5: "oiseau" score:-13.84 prog:None
+T69.50480343301024 🤔 extract_1/4 #7 "pâtisserie" score? 1.03
+T69.50497512800212 attempt_6: "pâtisserie" score:1.03 prog:None
+T72.93695422301244 🤔 extract_1/3 #8 "rivière" score? 1.41
+T72.9373615180084 attempt_7: "rivière" score:1.41 prog:None
+T76.00884105500882 🤔 extract_1/2 #9 "voiture" score? -4.45
+T76.0090428100084 attempt_8: "voiture" score:-4.45 prog:None
+T79.4568384890008 🤔 extract_1/1 #10 "étoile" score? -8.78
+T79.45703970199975 attempt_9: "étoile" score:-8.78 prog:None
+T93.42442725000728 #11 ? *10 related t2 !new
+T93.42486337100854 chat_prompt: give me 10 French words that are related to $1 and $2; do not list any words that you have already listed above
+T93.4251939990063 session: {"role": "user", "content": "give me 10 French words that are related to \"b\u00fbcheron\" and \"rivi\u00e8re\"; do not list any words that you have already listed above"}
+T105.44839470701118 session: {"role": "assistant", "content": "Here are 10 French words related to \"b\u00fbcheron\" (woodcutter) and \"rivi\u00e8re\" (river):\n\n1. Bois (wood)\n2. Tron\u00e7on (section or branch of a river)\n3. Rivage (riverbank)\n4. \u00c9coulement (flowing water)\n5. Foret (forest)\n6. Lissement (slope or incline, like a river's bed)\n7. Marais (marsh or bog)\n8. \u00c9clusure (dam or lock on a river)\n9. Abreuvement (fall of a waterfall)\n10. C\u00f4tier (banker or person who lives near a river)\n\nThese words all relate to the natural environment and geography that would be encountered by a b\u00fbcheron working along a rivi\u00e8re."}
+T132.26479222600756 #11 extract_...
+T135.18456007201166 🤔 extract_1/10 #11 "abreuvement" score? -1.65
+T135.1847181129997 attempt_10: "abreuvement" score:-1.65 prog:None
+T138.5766504100029 🤔 extract_1/9 #12 "bois" score? -3.08
+T138.57681146000687 attempt_11: "bois" score:-3.08 prog:None
+T141.64098047900188 🤔 extract_1/8 #13 "côtier" score? 8.96
+T141.6411864610127 attempt_12: "côtier" score:8.96 prog:None
+T142.88884366001002 #14 ? _
+T142.88901742400776 chat_prompt: _
+T142.88921179900353 session: {"role": "user", "content": "give me 10 French words that are related to \"c\u00f4tier\" and \"b\u00fbcheron\"; do not list any words that you have already listed above"}
+T161.10209654600476 session: {"role": "assistant", "content": "Here are 10 French words related to \"c\u00f4tier\" (banker or person who lives near a river) and \"b\u00fbcheron\" (woodcutter):\n\n1. Rivard (river dweller)\n2. Boisserie (woodshed or storage for firewood)\n3. For\u00eati\u00e8re (forester or woodsman)\n4. Terrasse (flat area on the riverbank, often used for gardens or orchards)\n5. P\u00eacheur (fisherman who lives near a river)\n6. Sylvo (woodsman or woodcutter)\n7. Laitier (one who cuts and collects firewood)\n8. Chaumi\u00e8re (small, simple house on the riverbank)\n9. Garenne (orchard or garden along a river)\n10. Mar\u00e9cageur (person who cultivates or manages marshy areas)\n\nThese words all relate to the lifestyle, occupation, or environment of someone who lives near a river and works with wood, similar to a b\u00fbcheron."}
+T162.6566501740017 #14 extract_...
+T165.26465192600153 🤔 extract_1/10 #14 "boisserie" score? !
+T165.2648422300117 reject: "boisserie"
+T168.2408510390087 🤔 extract_1/9 #14 "chaumière" score? -13.92
+T168.24102095900162 attempt_13: "chaumière" score:-13.92 prog:None
+T171.2252094100113 🤔 extract_1/8 #15 "forêtière" score? !
+T171.22544747999927 reject: "forêtière"
+T173.7447557070118 🤔 extract_1/7 #15 "garenne" score? -.52
+T173.74490771601268 attempt_14: "garenne" score:-0.52 prog:None
+T176.5209200620011 🤔 extract_1/6 #16 "laitier" score? 11.86
+T176.52114752901252 attempt_15: "laitier" score:11.86 prog:None
+T180.27289982201182 🤔 extract_1/5 #17 "marécageur" score? !
+T180.2730593580054 reject: "marécageur"
+T181.77663633100747 #17 ? _
+T181.77679245600302 chat_prompt: _
+T181.77697559801163 session: {"role": "user", "content": "give me 10 French words that are related to \"laitier\" and \"c\u00f4tier\"; do not list any words that you have already listed above"}
+T205.3743204800121 session: {"role": "assistant", "content": "Here are 10 French words related to \"laitier\" (one who cuts and collects firewood) and \"c\u00f4tier\" (banker or person who lives near a river):\n\n1. Boisement (woodshed or storage for firewood)\n2. Rivoli\u00e8re (riverbank dweller)\n3. Charronnage (charcoal production, which is often done by laitiers)\n4. Feuillager (one who gathers and sells firewood)\n5. \u00c9tangier (person who manages a marshy area, often near a river)\n6. B\u00fbcher (hearth or fireplace, where wood is used for warmth and cooking)\n7. Carreterie (cart loading with wood for transportation)\n8. Chaumi\u00e8re (small, simple house on the riverbank that serves as a laiter's home)\n9. Argentier (one who sells goods, including firewood, along the riverbank)\n10. For\u00eatier (forester or woodsman, often responsible for managing and cutting wood in nearby forests)\n\nThese words all relate to the occupations, activities, or environments of someone who cuts and collects firewood near a river, similar to a laitier."}
+T208.31269419100136 #17 extract_...
+T211.7445790260099 🤔 extract_1/9 #17 "argentier" score? -3.37
+T211.744749333011 attempt_16: "argentier" score:-3.37 prog:None
+T214.21672711599967 🤔 extract_1/8 #18 "boisement" score? -1
+T214.21690247800143 attempt_17: "boisement" score:-1.00 prog:None
+T217.58483296600753 🤔 extract_1/7 #19 "bûcher" score? -14.18
+T217.58500041700609 attempt_18: "bûcher" score:-14.18 prog:None
+T222.3368700070132 🤔 extract_1/6 #20 "carreterie" score? !
+T222.3371618980018 reject: "carreterie"
+T224.96905910600617 🤔 extract_1/5 #20 "charronnage" score? 7.12
+T224.96923210300156 attempt_19: "charronnage" score:7.12 prog:None
+T228.7045498170046 🤔 extract_1/4 #21 "feuillager" score? !
+T228.70471545400505 reject: "feuillager"
+T232.74458876400604 🤔 extract_1/3 #21 "forêtier" score? !
+T232.74471140900278 reject: "forêtier"
+T235.00082172900147 🤔 extract_1/2 #21 "rivolière" score? !
+T235.00097381600062 reject: "rivolière"
+T237.20878023000841 🤔 extract_1/1 #21 "étangier" score? !
+T237.20891220100748 reject: "étangier"
+T242.53687786300725 #21 ? /e scav all
+T247.85659338701225 🤔 extract_1/11 #21 "foret" score? -2.07
+T247.85675621400878 attempt_20: "foret" score:-2.07 prog:None
+T249.94466510300117 🤔 extract_1/10 #22 "lissement" score? !
+T249.94482847901236 reject: "lissement"
+T253.12850741400325 🤔 extract_1/9 #22 "marais" score? -6.88
+T253.12868170900038 attempt_21: "marais" score:-6.88 prog:None
+T255.70462094301183 🤔 extract_1/8 #23 "pêcheur" score? -5.48
+T255.70482803400955 attempt_22: "pêcheur" score:-5.48 prog:None
+T259.03284648800036 🤔 extract_1/7 #24 "rivage" score? -12.27
+T259.033062573013 attempt_23: "rivage" score:-12.27 prog:None
+T261.4169598580047 🤔 extract_1/6 #25 "rivard" score? !
+T261.41710318700643 reject: "rivard"
+T263.808610565 🤔 extract_1/5 #25 "sylvo" score? !
+T263.8087561230059 reject: "sylvo"
+T266.5046902460017 🤔 extract_1/4 #25 "terrasse" score? -7.58
+T266.50504873100726 attempt_24: "terrasse" score:-7.58 prog:None
+T272.0487043700123 🤔 extract_1/3 #26 "tronçon" score? 1.69
+T272.0489049050084 attempt_25: "tronçon" score:1.69 prog:None
+T274.0164492360054 🤔 extract_1/2 #27 "éclusure" score? !
+T274.01653463400726 reject: "éclusure"
+T277.3209433900047 🤔 extract_1/1 #27 "écoulement" score? 11.52
+T277.3211204580002 attempt_26: "écoulement" score:11.52 prog:None
+T281.84874877901166 #28 ? *10 t2 /clear .
+T281.84902505000355 session clear
+T281.84910958100227 chat_prompt: give me 10 French words that are related to $1 and $2
+T281.849250639003 session: {"role": "user", "content": "give me 10 French words that are related to \"laitier\" and \"\u00e9coulement\""}
+T295.8372027410078 session: {"role": "assistant", "content": "Here are 10 French words related to \"laitier\" (meaning \"dairy\") and \"\u00e9coulement\" (meaning \"flow\" or \"drainage\"):\n\n1. Laiterie (related to dairy, a type of cheese-making process)\n2. \u00c9coulement de lait (milk flow or drainage)\n3. Lact\u00e9 (relating to milk or dairy)\n4. D\u00e9bit de l'eau (water flow or discharge)\n5. R\u00e9colte (collection or gathering of milk)\n6. \u00c9vacuation des d\u00e9chets (waste removal or drainage)\n7. Laitage (dairy farm or a device for milking)\n8. Cr\u00e9neau (a channel or drain, related to water flow)\n9. Filtration du lait (milk filtration)\n10. \u00c9vacuateur de lait (milk pump or device)\n\nNote: Some of these words may have slightly different meanings or connotations depending on the context in which they are used."}
+T453.57695583600434 <INT>
+T0.006637465005042031 now: 2024-11-27T09:04:39EST
+T1.3005689270066796 #28 extract_...
+T5.724281249000342 🤔 extract_1/15 #28 "créneau" score? 2.97
+T5.72445374300878 attempt_27: "créneau" score:2.97 prog:None
+T7.956332178000594 🤔 extract_1/14 #29 "de" score? !
+T7.956467324998812 reject: "de"
+T10.20412116200896 🤔 extract_1/13 #29 "des" score? !
+T10.20420560700586 reject: "des"
+T12.052316240995424 🤔 extract_1/12 #29 "du" score? !
+T12.052482152008452 reject: "du"
+T14.844420894005452 🤔 extract_1/11 #29 "débit" score? 4.73
+T14.84460802799731 attempt_28: "débit" score:4.73 prog:None
+T17.460072956004296 🤔 extract_1/10 #30 "déchets" score? !
+T17.460201975001837 reject: "déchets"
+T20.27642491699953 🤔 extract_1/9 #30 "eau" score? -.95
+T20.276604002006934 attempt_29: "eau" score:-0.95 prog:None
+T22.956475377999595 🤔 extract_1/8 #31 "filtration" score? 8.92
+T22.95667872199556 attempt_30: "filtration" score:8.92 prog:None
+T26.284484263000195 🤔 extract_1/7 #32 "lacté" score? -6.23
+T26.284711818996584 attempt_31: "lacté" score:-6.23 prog:None
+T31.740499720006483 🤔 extract_1/6 #33 "lait" score? -2.96
+T31.74070132500492 attempt_32: "lait" score:-2.96 prog:None
+T35.00426533899736 🤔 extract_1/5 #34 "laitage" score? -4.7
+T35.00443969600019 attempt_33: "laitage" score:-4.70 prog:None
+T37.58811722100654 🤔 extract_1/4 #35 "laiterie" score? 8.85
+T37.58830771000066 attempt_34: "laiterie" score:8.85 prog:None
+T40.95654242200544 🤔 extract_1/3 #36 "récolte" score? 1.45
+T40.95672120900417 attempt_35: "récolte" score:1.45 prog:None
+T43.3803852340061 🤔 extract_1/2 #37 "évacuateur" score? 1.61
+T43.380577443997026 attempt_36: "évacuateur" score:1.61 prog:None
+T45.89185921900207 🤔 extract_1/1 #38 "évacuation" score? 2.31
+T45.89206651500717 attempt_37: "évacuation" score:2.31 prog:None
+T48.59651921699697 #39 ? /last
+T83.33275904200855 #39 ? *12 t4 
+T99.88395957800094 <INT>
+T0.0069382239889819175 now: 2024-11-27T09:06:32EST
+T5.105035358996247 #39 ? *12 t4
+T5.1062285139923915 chat_prompt: give me 12 French words that are related to $1, $2, $3, and $4
+T5.106444585995632 session: {"role": "user", "content": "give me 12 French words that are related to \"laitier\", \"\u00e9coulement\", \"c\u00f4tier\", and \"filtration\""}
+T35.59002284400049 session: {"role": "assistant", "content": "Here are 12 French words related to \"laitier\" (meaning \"dairy\"), \"\u00e9coulement\" (meaning \"flow\" or \"drainage\"), \"c\u00f4tier\" (meaning \"coastal\" or \"riverine\"), and \"filtration\" (meaning \"filtering\"):\n\n1. Laiterie (related to dairy, a type of cheese-making process)\n2. \u00c9coulement de lait (milk flow or drainage)\n3. C\u00f4teaux (hilly coastlines or areas with riverine land use)\n4. Filitrations (filtrations in agriculture or water treatment)\n5. Filtration du lait (milk filtration)\n6. \u00c9vacuation des d\u00e9chets de laiterie (waste removal from a dairy farm)\n7. Cours d'eau (river or stream, related to coastal areas with water flow)\n8. Laitage (dairy farm or a device for milking)\n9. Canalisation de l'\u00e9coulement (drainage channeling)\n10. \u00c9coulements de laitiers (milk drainage systems in dairy farms)\n11. Filtres de filtration du lait (milk filter in dairy processing)\n12. Marais de laiterie (muddy areas or wetlands used for dairy farming)\n\nNote: Some of these words may have slightly different meanings or connotations depending on the context in which they are used."}
+T47.75285759699182 #39 extract_...
+T50.71291644599114 🤔 extract_1/7 #39 "canalisation" score? 9.2
+T50.71309360399027 attempt_38: "canalisation" score:9.20 prog:None
+T55.28906561199983 🤔 extract_1/6 #40 "cours" score? 20.5 105
+T55.28935602700221 attempt_39: "cours" score:20.50 prog:105
+T56.84884579399659 #41 ? _
+T56.84901660498872 chat_prompt: _
+T56.84921992999443 session: {"role": "user", "content": "give me 12 French words that are related to \"cours\", \"laitier\", \"\u00e9coulement\", and \"canalisation\""}
+T80.73053282899491 session: {"role": "assistant", "content": "Here are 12 French words related to \"cours\" (meaning \"course\" or \"stream\"), \"laitier\" (meaning \"dairy\"), \"\u00e9coulement\" (meaning \"flow\" or \"drainage\"), and \"canalisation\" (meaning \"canalization\"):\n\n1. Cours d'eau (river or stream, related to dairy farms with water flow)\n2. \u00c9coulement de lait (milk flow or drainage)\n3. Canalisation des d\u00e9chets (waste removal through canalization in a dairy farm)\n4. Laiterie fluviale (a type of dairy farm located near a river)\n5. Cours de laiterie (dairy farm's water course or drainage system)\n6. \u00c9coulement des r\u00e9sidus (drainage of dairy residues)\n7. Canalisation de l'\u00e9coulement des eaux us\u00e9es (wastewater canalization in a dairy farm)\n8. Gestion du cours d'eau (management of river or stream flow in relation to dairy farming)\n9. R\u00e9seau de courses d'eau (network of rivers and streams used for dairy farming)\n10. \u00c9coulement des produits laitiers (milk product drainage in dairy processing)\n11. Canalisation des flux (canalization of flows, including milk flow and wastewater removal)\n12. Conduite de l'\u00e9coulement (management or control of milk flow and drainage in a dairy farm)\n\nNote: Some of these words may have slightly different meanings or connotations depending on the context in which they are used."}
+T82.04079045899562 #41 extract_...
+T86.84033329099475 🤔 extract_1/11 #41 "conduite" score? 20.13 55
+T86.84042601499823 attempt_40: "conduite" score:20.13 prog:55
+T90.849043736991 🤔 extract_1/10 #42 "courses" score? !course
+T90.84923437899852 reject: "courses"
+T93.84891694599355 🤔 corrected #42 "course" score? -5.92
+T93.84915108099813 attempt_41: "course" score:-5.92 prog:None
+T96.72900998400291 🤔 extract_1/9 #43 "eaux" score? !
+T96.72915084099805 reject: "eaux"
+T98.64092535499367 🤔 extract_1/8 #43 "fluviale" score? !
+T98.64106490799168 reject: "fluviale"
+T102.34491617199092 🤔 extract_1/7 #43 "flux" score? 8.77
+T102.34508056599589 attempt_42: "flux" score:8.77 prog:None
+T106.72875639700214 #44 ? *10 t2
+T106.72916074599198 chat_prompt: give me 10 French words that are related to $1 and $2
+T106.7293312339898 session: {"role": "user", "content": "give me 10 French words that are related to \"cours\" and \"conduite\""}
+T130.46449337499507 session: {"role": "assistant", "content": "Here are 10 French words related to \"cours\" (meaning \"course\" or \"stream\") and \"conduite\" (meaning \"conduct\" or \"management\"):\n\n1. Cours d'eau (river or stream, related to water flow management)\n2. Conduite de l'\u00e9coulement (management of milk flow and drainage)\n3. Gestion du cours d'eau (management of river or stream flow)\n4. Canalisation des d\u00e9bits (canalization of flows, including water and wastewater)\n5. Conduite hydraulique (hydraulic management or control of water flow)\n6. \u00c9coulement des eaux us\u00e9es (wastewater drainage and management)\n7. Cours de laiterie (dairy farm's water course or drainage system)\n8. Surveillance du cours d'eau (monitoring of river or stream flow)\n9. Conduite de l'activit\u00e9 (management of dairy activity, including milk production)\n10. Gestion des d\u00e9bits de cours (management of the volume and flow rate of a river or stream)\n\nNote: Some of these words may have slightly different meanings or connotations depending on the context in which they are used.\n\nAlso, I can suggest some more specific terms related to water management and dairy farming:\n\n* \u00c9coulement des eaux de pluie (rainwater drainage and management)\n* Conduite de l'irrigation (management of irrigation systems)\n* Gestion des d\u00e9chets de laiterie (waste management in a dairy farm)"}
+T208.45674513500126 #44 extract_...
+T215.14490314199065 🤔 extract_1/6 #44 "activité" score? 26.37 627
+T215.14510899699235 attempt_43: "activité" score:26.37 prog:627
+T221.3209842310025 🤔 extract_1/5 #45 "débits" score? débit
+T228.6967622039956 #45 ? /e all
+T231.03297597500205 🤔 extract_1/5 #45 "débits" score? !débit
+T231.03310991499166 reject: "débits"
+T239.417023306989 🤔 extract_1/4 #45 "gestion" score? 31.17 816
+T239.41721178799344 attempt_44: "gestion" score:31.17 prog:816
+T245.4247281949938 🤔 extract_1/3 #46 "hydraulique" score? 29.8 775
+T245.4249358359957 attempt_45: "hydraulique" score:29.80 prog:775
+T248.624964912 🤔 extract_1/2 #47 "surveillance" score? 9.49
+T248.62518217899196 attempt_46: "surveillance" score:9.49 prog:None
+T266.6488049640029 🤔 extract_1/1 #48 "usées" score? !usée
+T266.64896822300216 reject: "usées"
+T269.3850789650023 🤔 corrected #48 "usée" score? !
+T269.38522493898927 reject: "usée"
+T273.08909458699054 <INT>
+T0.007296962008695118 now: 2024-11-27T09:11:06EST
+T1.5095112890121527 #48 ? /last
+T40.00576023700705 #48 ? _
+T40.00604720201227 chat_prompt: _
+T40.006340186009766 session: {"role": "user", "content": "give me 10 French words that are related to \"gestion\" and \"hydraulique\""}
+T66.48770818600315 session: {"role": "assistant", "content": "Here are 10 French words related to \"gestion\" (meaning \"management\") and \"hydraulique\" (meaning \"hydrological\" or \"relating to water flow\"):\n\n1. Gestion de l'\u00e9coulement (management of water flow)\n2. Conduite hydraulique (hydraulic management or control of water flow)\n3. Gestion des d\u00e9bits d'eau (management of water volume and flow rate)\n4. Hydrop\u00e9trie de gestion (hydrology-based management of water resources)\n5. Gestion des ressources en eau (water resource management)\n6. Conduite de l'irrigation (management of irrigation systems)\n7. Gestion des d\u00e9chets hydrauliques (wastewater management and disposal)\n8. Hydrom\u00e9canique de gestion (hydraulic mechanics in water management)\n9. Gestion du cours d'eau (management of river or stream flow)\n10. Conduite \u00e9co-hydropathique (eco-hydrological management, focusing on environmental sustainability)\n\nNote: Some of these words may have slightly different meanings or connotations depending on the context in which they are used.\n\nAlso, I can suggest some more specific terms related to water management and hydraulic engineering:\n\n* Gestion des r\u00e9servoirs hydrauliques (management of hydraulic reservoirs)\n* Conduite de la qualit\u00e9 de l'eau (management of water quality)\n* Hydrosyst\u00e8me de gestion (hydrological system for management and control)\n* Gestion des flux hydrauliques (management of hydraulic flows)\n* \u00c9tude hydramorphologique (study of hydro-morphological processes)"}
+T68.57370828901185 #48 extract_...
+T71.66153219300031 🤔 extract_1/8 #48 "en" score? 8.66
+T71.66172571800416 attempt_47: "en" score:8.66 prog:None
+T78.86962269000651 🤔 extract_1/7 #49 "hydrauliques" score? hydraulique
+T81.70166192301258 🤔 extract_1/7 #49 "hydrauliques" score? !hydraulique
+T81.70182257601118 reject: "hydrauliques"
+T90.02164257600089 🤔 extract_1/6 #49 "hydromécanique" score? 22.81 353
+T90.02184210100677 attempt_48: "hydromécanique" score:22.81 prog:353
+T93.47760666901013 🤔 extract_1/5 #50 "hydropathique" score? !
+T93.47778183400806 reject: "hydropathique"
+T96.99762906500837 🤔 extract_1/4 #50 "hydropétrie" score? !
+T96.99779240600765 reject: "hydropétrie"
+T99.76564589500776 🤔 extract_1/3 #50 "irrigation" score? 11.41
+T99.76585139000963 attempt_49: "irrigation" score:11.41 prog:None
+T111.52574713500508 🤔 extract_1/2 #51 "ressources" score? !ressource
+T111.52593129500747 reject: "ressources"
+T115.69366370500939 🤔 corrected #51 "ressource" score? 13.05
+T115.6938706330111 attempt_50: "ressource" score:13.05 prog:None
+T119.1815504610131 🤔 extract_1/1 #52 "éco" score? 12.32
+T119.18170886300504 attempt_51: "éco" score:12.32 prog:None
+T129.50151617500524 #53 ? *t3
+T129.50253673900443 chat_prompt: give me 15 French words that are related to $1, $2, and $3
+T129.5027231080021 session: {"role": "user", "content": "give me 15 French words that are related to \"gestion\", \"hydraulique\", and \"activit\u00e9\""}
+T166.01010207200306 session: {"role": "assistant", "content": "Here are 15 French words related to \"gestion\" (meaning \"management\"), \"hydraulique\" (meaning \"hydrological\" or \"relating to water flow\"), and \"activit\u00e9\" (meaning \"activity\" or \"operation\"):\n\n1. Gestion de l'\u00e9coulement (management of water flow)\n2. Conduite hydraulique (hydraulic management or control of water flow)\n3. Activit\u00e9 de laiterie (dairy farm's activity, including milk production)\n4. Gestion des d\u00e9bits d'eau (management of water volume and flow rate)\n5. Hydrop\u00e9trie de gestion (hydrology-based management of water resources)\n6. Gestion des ressources en eau (water resource management)\n7. Conduite de l'irrigation (management of irrigation systems)\n8. Activit\u00e9 hydramorphologique (hydro-morphological activity, including river management)\n9. Gestion des d\u00e9chets hydrauliques (wastewater management and disposal)\n10. Hydrom\u00e9canique de gestion (hydraulic mechanics in water management)\n11. Gestion du cours d'eau (management of river or stream flow)\n12. Conduite \u00e9co-hydropathique (eco-hydrological management, focusing on environmental sustainability)\n13. Activit\u00e9 de gestion des r\u00e9servoirs (management of reservoir activity)\n14. Hydraulisation de l'activit\u00e9 agricole (agricultural activity enhanced by hydraulic systems)\n15. Gestion de la qualit\u00e9 de l'eau dans l'activit\u00e9 (management of water quality in an activity)\n\nNote: Some of these words may have slightly different meanings or connotations depending on the context in which they are used.\n\nAlso, I can suggest some more specific terms related to water management and hydraulic engineering:\n\n* Activit\u00e9 de gestion des eaux pluviales (rainwater management and disposal)\n* Conduite hydrow\u00e9d\u00e9aire (hydraulic transportation of goods and people)\n* Gestion des flux hydrologiques (management of hydrological flows)\n* \u00c9tude d'activit\u00e9 hydraulique (study of hydraulic activity, including water flow)"}
+T168.85368059400935 #53 extract_...
+T172.32606748200487 🤔 extract_1/7 #53 "agricole" score? 16.48
+T172.3263364410086 attempt_52: "agricole" score:16.48 prog:None
+T176.38153565701214 🤔 extract_1/6 #54 "dans" score? !dan
+T176.3816719430033 reject: "dans"
+T179.181898654002 🤔 corrected #54 "dan" score? -2.84
+T179.18214155100577 attempt_53: "dan" score:-2.84 prog:None
+T181.21369434600638 🤔 extract_1/5 #55 "hydramorphologique" score? !
+T181.21384032600326 reject: "hydramorphologique"
+T182.97367574000964 🤔 extract_1/4 #55 "hydraulisation" score? !
+T182.97382364100486 reject: "hydraulisation"
+T187.4137408000097 🤔 extract_1/3 #55 "la" score? -18.25
+T187.413946546003 attempt_54: "la" score:-18.25 prog:None
+T192.42937491800694 🤔 extract_1/2 #56 "qualité" score? 23.55 422
+T192.42955776500457 attempt_55: "qualité" score:23.55 prog:422
+T205.36554790800437 🤔 extract_1/1 #57 "réservoirs" score? !réservoir
+T205.36568446400634 reject: "réservoirs"
+T208.71765940400655 🤔 corrected #57 "réservoir" score? 7.52
+T208.71787484901142 attempt_56: "réservoir" score:7.52 prog:None
+T220.02171550600906 #58 ? *10 t1 !new
+T220.0221945480007 chat_prompt: give me 10 French words that are related to $1; do not list any words that you have already listed above
+T220.02240081201307 session: {"role": "user", "content": "give me 10 French words that are related to \"gestion\"; do not list any words that you have already listed above"}
+T313.9756015620078 session: {"role": "assistant", "content": "Here are 10 new French words related to \"gestion\" (meaning \"management\") that I haven't listed before:\n\n1. Gestion de la qualit\u00e9 (quality management)\n2. Conduite strat\u00e9gique (strategic management)\n3. Gestion des risques (risk management)\n4. Activit\u00e9 op\u00e9rationnelle (operational activity, including daily tasks)\n5. Gestion du personnel (human resources management)\n6. Conduite financi\u00e8re (financial management)\n7. Gestion de la relation client (customer relationship management)\n8. Activit\u00e9 de d\u00e9veloppement durable (sustainable development activity)\n9. Gestion de l'inventaire (inventory management)\n10. Conduite de la crise (crisis management)\n\nNote: These words are related to various aspects of management, including strategic planning, risk management, operational activity, and more.\n\nAlso, I can suggest some more specific terms related to management:\n\n* Gestion de la cha\u00eene d'approvisionnement (supply chain management)\n* Conduite des ressources humaines (human resources management)\n* Gestion de la s\u00e9curit\u00e9 (safety management)\n* Activit\u00e9 de d\u00e9veloppement entrepreneurial (entrepreneurial development activity)"}
+T527.4533552740031 <INT>
+T0.0078058680082904175 now: 2024-11-27T09:19:55EST
+T3.9623908100038534 #58 extract_...
+T9.594135075996746 🤔 extract_1/11 #58 "client" score? 20.27 77
+T9.594317292998312 attempt_57: "client" score:20.27 prog:77
+T12.714326328001334 🤔 extract_1/10 #59 "crise" score? -4.15 
+T12.71459336701082 attempt_58: "crise" score:-4.15 prog:None
+T18.29804088801029 🤔 extract_1/9 #60 "durable" score? 5.06
+T18.298204438004177 attempt_59: "durable" score:5.06 prog:None
+T25.106011128998944 🤔 extract_1/8 #61 "développement" score? 33.84 875
+T25.10618539901043 attempt_60: "développement" score:33.84 prog:875
+T29.21028840400686 🤔 extract_1/7 #62 "financière" score? !
+T29.21046123901033 reject: "financière"
+T31.362391128001036 🤔 extract_1/6 #62 "inventaire" score? 8.14
+T31.362634183009504 attempt_61: "inventaire" score:8.14 prog:None
+T32.53829576099815 #63 ? _
+T32.538465151999844 chat_prompt: _
+T32.53865960901021 session: {"role": "user", "content": "give me 10 French words that are related to \"d\u00e9veloppement\"; do not list any words that you have already listed above"}
+T123.14960795700608 session: {"role": "assistant", "content": "Here are 10 new French words related to \"d\u00e9veloppement\" (meaning \"development\") that I haven't listed before:\n\n1. D\u00e9veloppement durable (sustainable development)\n2. Conduite d'innovation (innovation management)\n3. Activit\u00e9 de croissance \u00e9conomique (economic growth activity)\n4. Gestion des ressources environnementales (environmental resource management)\n5. D\u00e9veloppement social (social development)\n6. Conduite de la mondialisation (globalization management)\n7. Activit\u00e9 de formation continue (continuing education activity)\n8. Gestion du patrimoine culturel (cultural heritage management)\n9. D\u00e9veloppement des technologies de l'information (IT technology development)\n10. Conduite de la gouvernance (governance management)\n\nNote: These words are related to various aspects of development, including sustainable development, innovation management, economic growth, and more.\n\nAlso, I can suggest some more specific terms related to development:\n\n* D\u00e9veloppement rural (rural development)\n* Activit\u00e9 de lutte contre la pauvret\u00e9 (poverty reduction activity)\n* Gestion des ressources humaines en d\u00e9veloppement (human resources management in development)\n* Conduite de la coop\u00e9ration internationale (international cooperation management)"}
+T130.11429591600609 #63 extract_...
+T133.60228932600876 🤔 extract_1/13 #63 "continue" score? -4.9
+T133.6024693470099 attempt_62: "continue" score:-4.90 prog:None
+T136.24996645101055 🤔 extract_1/12 #64 "croissance" score? 6
+T136.25017645501066 attempt_63: "croissance" score:6.00 prog:None
+T138.67431229799695 🤔 extract_1/11 #65 "culturel" score? 2.94
+T138.6745080850087 attempt_64: "culturel" score:2.94 prog:None
+T146.26624255299976 🤔 extract_1/10 #66 "environnementales" score? !environnementale
+T146.2663992200105 reject: "environnementales"
+T149.13785316300346 🤔 corrected #66 "environnementale" score? !
+T149.13791334000416 reject: "environnementale"
+T154.4902106380032 🤔 extract_1/9 #66 "formation" score? 41.97 967
+T154.49039522500243 attempt_65: "formation" score:41.97 prog:967
+T165.28295118499955 #67 ? *12 t3 related /clear .
+T165.28483006100578 session clear
+T165.28503106899734 chat_prompt: give me 12 French words that are related to $1, $2, and $3
+T165.28525920800166 session: {"role": "user", "content": "give me 12 French words that are related to \"formation\", \"d\u00e9veloppement\", and \"gestion\""}
+T176.07072440300544 session: {"role": "assistant", "content": "Here are 12 French words related to \"formation\", \"d\u00e9veloppement\", and \"gestion\":\n\n1. Formation (n.) - formation\n2. D\u00e9veloppement (m.) - development\n3. Gestion (f.) - management\n4. Apprentissage (m.) - learning, training\n5. \u00c9volution (f.) - evolution\n6. Croissance (f.) - growth\n7. Organisation (f.) - organization\n8. Strat\u00e9gie (f.) - strategy\n9. Planification (f.) - planning\n10. Gestionnaire (m.) - manager\n11. Connaissance (f.) - knowledge, expertise\n12. Am\u00e9lioration (f.) - improvement"}
+T178.34661028500705 #67 extract_...
+T182.4263738550071 🤔 extract_1/8 #67 "amélioration" score? 17.3
+T182.42655082100828 attempt_66: "amélioration" score:17.30 prog:None
+T186.77817156699894 🤔 extract_1/7 #68 "apprentissage" score? 23.78 442
+T186.77833950999775 attempt_67: "apprentissage" score:23.78 prog:442
+T190.4023255200009 🤔 extract_1/6 #69 "connaissance" score? 30.83
+T193.45026784999936 🤔 extract_1/6 #69 "connaissance" 30.83°C prog‰ ? 809
+T193.45042100700084 attempt_68: "connaissance" score:30.83 prog:809
+T197.75395709800068 🤔 extract_1/5 #70 "gestionnaire" score? 25.89 597
+T197.7541460939974 attempt_69: "gestionnaire" score:25.89 prog:597
+T201.3542555890017 🤔 extract_1/4 #71 "organisation" score? 21.98
+T203.86603180199745 🤔 extract_1/4 #71 "organisation" 21.98°C prog‰ ? 272
+T203.866234111003 attempt_70: "organisation" score:21.98 prog:272
+T208.6821857180039 🤔 extract_1/3 #72 "planification" score? 23.51 416
+T208.682381067003 attempt_71: "planification" score:23.51 prog:416
+T211.39419296699634 🤔 extract_1/2 #73 "stratégie" score? 12.99
+T211.39436766400468 attempt_72: "stratégie" score:12.99 prog:None
+T215.76234917499823 🤔 extract_1/1 #74 "évolution" score? 22.04 278
+T215.7627350870025 attempt_73: "évolution" score:22.04 prog:278
+T223.33031793200644 #75 ? /last
+T251.9386409430008 #75 ? * $1 $10 $13 !new
+T251.93900695700722 chat_prompt: give me 12 French words that are not related to each other;  $1 $10 $13 !new
+T251.93922200100496 session: {"role": "user", "content": "give me 12 French words that are not related to each other;  \"formation\" \"planification\" \"organisation\" !new"}
+T286.8742828340037 #75 ? *12 $1 $10 $13 /clear .
+T286.8746716349997 session clear
+T286.87481761100935 chat_prompt: give me 12 French words that are related to $1, $10, and $13
+T286.875020255 session: {"role": "user", "content": "give me 12 French words that are related to \"formation\", \"planification\", and \"organisation\""}
+T302.1083919800003 session: {"role": "assistant", "content": "Here are 12 French words related to \"formation\", \"planification\", and \"organisation\":\n\n1. Formation (training, education)\n2. Plan de formation (training plan)\n3. Strat\u00e9gie (strategy)\n4. Organisation (organization)\n5. Structure d'organisation (organizational structure)\n6. Conception (conceptualization)\n7. Gestion (management)\n8. R\u00e9alisation (realization)\n9. Organisationnel (organizational)\n10. Coordination (coordination)\n11. Synth\u00e8se (synthesis)\n12. D\u00e9veloppement (development)\n\nThese words are all related to the concepts of forming, planning, organizing, and managing entities or processes, whether it be in a business, educational, or personal context.\n\nHere's how I broke them down into categories:\n\n- Education/training: Formation\n- Strategy/conceptualization: Strat\u00e9gie, Conception\n- Organization: Organisation, Structure d'organisation, Organisationnel\n- Management/coordination: Gestion, Coordination, Synth\u00e8se\n- Execution and realization: R\u00e9alisation\n- Development: D\u00e9veloppement"}
+T331.7863368969993 #75 extract_...
+T338.0579956959991 🤔 extract_1/7 #75 "conception" score? 36.71 918
+T338.05819289899955 attempt_74: "conception" score:36.71 prog:918
+T341.1545309159992 🤔 extract_1/6 #76 "coordination" score? 19.18
+T341.15474280501076 attempt_75: "coordination" score:19.18 prog:None
+T346.44247152400203 🤔 extract_1/5 #77 "organisationnel" score? 25.4 571
+T346.44270561099984 attempt_76: "organisationnel" score:25.40 prog:571
+T350.2020956460037 #78 ? /last
+T361.6826345209993 #78 ? /prog
+T367.8985747340048 #78 ? *t2
+T367.8991213560075 chat_prompt: give me 8 French words that are related to $1 and $2
+T367.89936470700195 session: {"role": "user", "content": "give me 8 French words that are related to \"formation\" and \"conception\""}
+T381.2682850459969 session: {"role": "assistant", "content": "Here are 8 French words related to \"formation\" and \"conception\":\n\n1. Formation (training, education)\n2. Conception (conceptualization)\n3. D\u00e9veloppement (development)\n4. Cr\u00e9ation (creation)\n5. Design (r\u00e9alisation de plan)\n6. Mod\u00e8le (model)\n7. Planification (planning)\n8. Int\u00e9gration (integration)\n\nThese words are all related to the concepts of forming, creating, conceptualizing, and integrating ideas or entities.\n\nHere's how I broke them down into categories:\n\n- Education/training: Formation\n- Conceptualization: Conception, Mod\u00e8le\n- Development: D\u00e9veloppement, Int\u00e9gration\n- Creation: Cr\u00e9ation\n- Planning: Planification\n\nThese words are all connected to the idea of shaping or structuring something new, whether it's a person, an organization, or an idea."}
+T386.98624643900257 #78 extract_...
+T390.1461902750016 🤔 extract_1/4 #78 "création" score? 17.22
+T390.14634859599755 attempt_77: "création" score:17.22 prog:None
+T393.4502838940098 🤔 extract_1/3 #79 "design" score? 16.02
+T393.4504944210057 attempt_78: "design" score:16.02 prog:None
+T397.11435592100315 🤔 extract_1/2 #80 "intégration" score? 26.37
+T403.3303157420014 🤔 extract_1/2 #80 "intégration" 26.37°C prog‰ ? 26.37 629
+T440.13038128100743 🤔 extract_1/2 #80 "intégration" 26.37°C prog‰ ? 26.37 629
+T455.5383939260064 🤔 extract_1/2 #80 "intégration" 26.37°C prog‰ ? 629
+T455.53856807699776 attempt_79: "intégration" score:26.37 prog:629
+T461.85849145600514 🤔 extract_1/1 #81 "modèle" score? 12.41
+T461.8586882420059 attempt_80: "modèle" score:12.41 prog:None
+T465.62666535700555 #82 ? /e scav all
+T468.9624155740021 🤔 extract_1/25 #82 "côteaux" score? !
+T468.962594370998 reject: "côteaux"
+T476.6105252359994 🤔 extract_1/24 #82 "filitrations" score? !filitration
+T476.61068595800316 reject: "filitrations"
+T479.1862786490092 🤔 corrected #82 "filitration" score? !
+T479.186393587006 reject: "filitration"
+T485.3704290769965 🤔 extract_1/23 #82 "filtres" score? !filtre
+T485.37057132000336 reject: "filtres"
+T488.54642874399724 🤔 corrected #82 "filtre" score? 3.31
+T488.5465917690017 attempt_81: "filtre" score:3.31 prog:None
+T491.62635490400135 🤔 extract_1/22 #83 "gouvernance" score? 5.87
+T491.6265231599973 attempt_82: "gouvernance" score:5.87 prog:None
+T494.5625120850018 🤔 extract_1/21 #84 "information" score? 15.9
+T494.56268501600425 attempt_83: "information" score:15.90 prog:None
+T499.4262767140026 🤔 extract_1/20 #85 "innovation" score? 30.26
+T504.890589016999 🤔 extract_1/20 #85 "innovation" 30.26°C prog‰ ? 785
+T504.89075339499686 attempt_84: "innovation" score:30.26 prog:785
+T511.40257791300246 🤔 extract_1/19 #86 "laitiers" score? !laitier
+T511.40274923499965 reject: "laitiers"
+T523.0023826520046 🤔 extract_1/18 #86 "mondialisation" score? -2.32
+T523.0025862820039 attempt_85: "mondialisation" score:-2.32 prog:None
+T525.7222113900061 🤔 extract_1/17 #87 "opérationnelle" score? !
+T525.7223397019989 reject: "opérationnelle"
+T529.9622784120002 🤔 extract_1/16 #87 "patrimoine" score? 10.48
+T529.9624720819993 attempt_86: "patrimoine" score:10.48 prog:None
+T534.546339389999 🤔 extract_1/15 #88 "personnel" score? 20.84 151
+T534.5465082599985 attempt_87: "personnel" score:20.84 prog:151
+T537.5545078709983 🤔 extract_1/14 #89 "plan" score? 6.48
+T537.5547195160034 attempt_88: "plan" score:6.48 prog:None
+T544.0023656170088 🤔 extract_1/13 #90 "produits" score? !produit
+T544.0025537089969 reject: "produits"
+T547.7626296480012 🤔 corrected #90 "produit" score? 14.47
+T547.7628638860042 attempt_89: "produit" score:14.47 prog:None
+T550.8262040440022 🤔 extract_1/12 #91 "relation" score? 17.49
+T550.8263696229988 attempt_90: "relation" score:17.49 prog:None
+T560.6024525950052 🤔 extract_1/11 #92 "risques" score? !risque
+T560.6026890159992 reject: "risques"
+T563.49018638501 🤔 corrected #92 "risque" score? 6.5
+T563.4903698130074 attempt_91: "risque" score:6.50 prog:None
+T570.6184312850091 🤔 extract_1/10 #93 "réalisation" score? 30.15 782
+T570.6186301429989 attempt_92: "réalisation" score:30.15 prog:782
+T577.3381801750074 🤔 extract_1/9 #94 "réseau" score? 28.09 716
+T577.3383609459997 attempt_93: "réseau" score:28.09 prog:716
+T586.9303989510081 🤔 extract_1/8 #95 "résidus" score? !résidu
+T586.9305674810021 reject: "résidus"
+T592.2185046259983 🤔 corrected #95 "résidu" score? -.11
+T592.2187191609992 attempt_94: "résidu" score:-0.11 prog:None
+T594.8344927430007 🤔 extract_1/7 #96 "social" score? 9.44
+T594.8347069190058 attempt_95: "social" score:9.44 prog:None
+T598.6428260399989 🤔 extract_1/6 #97 "stratégique" score? 21.01
+T601.9142767209996 🤔 extract_1/6 #97 "stratégique" 21.01°C prog‰ ? 170
+T601.9144319229963 attempt_96: "stratégique" score:21.01 prog:170
+T607.1223417709989 🤔 extract_1/5 #98 "structure" score? 23.13 379
+T607.1225840410043 attempt_97: "structure" score:23.13 prog:379
+T610.6743595160078 🤔 extract_1/4 #99 "synthèse" score? 18.35
+T610.6745482350088 attempt_98: "synthèse" score:18.35 prog:None
+T618.1784089830035 🤔 extract_1/3 #100 "technologies" score? !technologie
+T618.1785528370092 reject: "technologies"
+T623.7140558050014 🤔 corrected #100 "technologie" score? 40.35 955
+T623.7141990240052 attempt_99: "technologie" score:40.35 prog:955
+T628.3705227900064 🤔 extract_1/2 #101 "économique" score? 14.59
+T628.3707498349977 attempt_100: "économique" score:14.59 prog:None
+T635.530530160002 #102 ? /e scav all
+T643.290353689008 🤔 extract_1/1 #102 "écoulements" score? !écoulement
+T643.2905024790089 reject: "écoulements"
+T650.3386199160013 #102 ? *20 t2 !new
+T650.3391876690002 chat_prompt: give me 20 French words that are related to $1 and $2; do not list any words that you have already listed above
+T650.3394261799986 session: {"role": "user", "content": "give me 20 French words that are related to \"formation\" and \"technologie\"; do not list any words that you have already listed above"}
+T672.716603428009 session: {"role": "assistant", "content": "Here are 20 French words related to \"formation\" and \"technologie\":\n\n1. Int\u00e9gration (integration)\n2. Logiciel (software)\n3. Syst\u00e8me (system)\n4. Infobase (information base)\n5. R\u00e9seau (network)\n6. Mat\u00e9riel (hardware)\n7. Maintenance (maintenance)\n8. Support technique (technical support)\n9. Interface utilisateur (user interface)\n10. Programmation (programming)\n11. Algorithmique (algorithmic)\n12. Mod\u00e9lisation (modeling)\n13. Simulation (simulation)\n14. R\u00e9alit\u00e9 virtuelle (virtual reality)\n15. R\u00e9alit\u00e9 augment\u00e9e (augmented reality)\n16. Intelligence artificielle (artificial intelligence)\n17. Apprentissage automatique (machine learning)\n18. Cybersecurity (cybersecurity)\n19. D\u00e9veloppement logiciel (software development)\n20. Open source (open source)\n\nThese words are all related to the concepts of forming, developing, and implementing technology, whether it's software, hardware, or digital systems.\n\nHere's how I broke them down into categories:\n\n- Technology/hardware: Logiciel, Syst\u00e8me, Mat\u00e9riel\n- Software development: D\u00e9veloppement logiciel\n- Digital tools: Interface utilisateur, Programmation, Algorithmique\n- Cybersecurity: Cybersecurity\n- Emerging technologies: R\u00e9alit\u00e9 virtuelle, R\u00e9alit\u00e9 augment\u00e9e, Intelligence artificielle\n- Learning and support: Apprentissage automatique, Support technique"}
+T675.6903225179994 #102 extract_...
+T680.0344110639999 🤔 extract_1/22 #102 "algorithmique" score? 27.91 700
+T680.03462781501 attempt_101: "algorithmique" score:27.91 prog:700
+T682.7465150900098 🤔 extract_1/21 #103 "artificielle" score? !
+T682.7466953700059 reject: "artificielle"
+T684.6504549000092 🤔 extract_1/20 #103 "augmentée" score? !
+T684.650587629003 reject: "augmentée"
+T687.0262025530101 🤔 extract_1/19 #103 "automatique" score? 15.33
+T687.0263637989992 attempt_102: "automatique" score:15.33 prog:None
+T689.5705104850058 🤔 extract_1/18 #104 "cybersecurity" score? !
+T689.5706618950062 reject: "cybersecurity"
+T691.4821357530018 🤔 extract_1/17 #104 "infobase" score? !
+T691.4822651499999 reject: "infobase"
+T694.1141371330013 🤔 extract_1/16 #104 "intelligence" score? 6.67
+T694.1143286380102 attempt_103: "intelligence" score:6.67 prog:None
+T699.7146900980006 🤔 extract_1/15 #105 "interface" score? 23.75 439
+T699.7149454800092 attempt_104: "interface" score:23.75 prog:439
+T708.1865931960056 🤔 extract_1/14 #106 "logiciel" score? 27.72 690
+T708.1867771359975 attempt_105: "logiciel" score:27.72 prog:690
+T712.4103282540018 🤔 extract_1/13 #107 "maintenance" score? 37.73 934
+T712.4105080790032 attempt_106: "maintenance" score:37.73 prog:934
+T717.3941416390007 🤔 extract_1/12 #108 "matériel" score? 16.88
+T717.3943085570063 attempt_107: "matériel" score:16.88 prog:None
+T722.7384096480091 🤔 extract_1/11 #109 "modélisation" score? 35.05 893
+T722.7385906069976 attempt_108: "modélisation" score:35.05 prog:893
+T725.1943194070045 🤔 extract_1/10 #110 "open" score? 1.05
+T725.1944910760067 attempt_109: "open" score:1.05 prog:None
+T727.882627280007 🤔 extract_1/9 #111 "programmation" score? 18.45
+T727.8829362899996 attempt_110: "programmation" score:18.45 prog:None
+T730.7702498630097 🤔 extract_1/8 #112 "réalité" score? -.33
+T730.7704121760034 attempt_111: "réalité" score:-0.33 prog:None
+T734.2744254209974 🤔 extract_1/7 #113 "simulation" score? 25.94
+T744.4104251190001 🤔 extract_1/7 #113 "simulation" 25.94°C prog‰ ? 603
+T744.41059726401 attempt_112: "simulation" score:25.94 prog:603
+T747.6587604610104 🤔 extract_1/6 #114 "source" score? .54
+T747.6589917030069 attempt_113: "source" score:0.54 prog:None
+T750.0424135020003 🤔 extract_1/5 #115 "support" score? 17
+T750.042649023002 attempt_114: "support" score:17.00 prog:None
+T756.0902246400074 🤔 extract_1/4 #116 "système" score? 26.38 630
+T756.0904085649963 attempt_115: "système" score:26.38 prog:630
+T761.226350441997 🤔 extract_1/3 #117 "technique" score? 47.73 991
+T761.226561427 attempt_116: "technique" score:47.73 prog:991
+T770.7782388970081 #118 ? _
+T770.7784157420101 chat_prompt: _
+T770.7786054960015 session: {"role": "user", "content": "give me 20 French words that are related to \"technique\" and \"formation\"; do not list any words that you have already listed above"}
+T797.9587183050025 session: {"role": "assistant", "content": "Here are 20 French words related to \"technique\" and \"formation\":\n\n1. Apprentissage (apprenticeship)\n2. Expertise (expertise)\n3. Sp\u00e9cialisation (specialization)\n4. Ma\u00eetrise (mastery)\n5. Comp\u00e9tence (competency)\n6. Technique de travail (workshop technique)\n7. M\u00e9thodologie (methodology)\n8. Analyse de cas (case study analysis)\n9. Strat\u00e9gie d'affaires (business strategy)\n10. Gestion du projet (project management)\n11. Conception de produit (product design)\n12. R\u00e9alisation d'un film (film production)\n13. Direction artistique (artistic direction)\n14. Cr\u00e9ation d'effets sp\u00e9ciaux (special effects creation)\n15. Travail d'\u00e9quipe (teamwork)\n16. Collaboration en \u00e9quipe (team collaboration)\n17. Communication efficace (effective communication)\n18. Gestion des risques (risk management)\n19. Planification strat\u00e9gique (strategic planning)\n20. \u00c9valuation de performance (performance evaluation)\n\nThese words are all related to the concepts of forming, developing, and applying techniques in various fields, such as business, art, science, or technology.\n\nHere's how I broke them down into categories:\n\n- Business and management: Gestion du projet, Strat\u00e9gie d'affaires, Planification strat\u00e9gique\n- Artistic and creative: Cr\u00e9ation d'effets sp\u00e9ciaux, Direction artistique, Conception de produit\n- Teamwork and collaboration: Travail d'\u00e9quipe, Collaboration en \u00e9quipe\n- Communication and skills: Communication efficace, Comp\u00e9tence, Expertise\n- Risk management and evaluation: Gestion des risques, \u00c9valuation de performance"}
+T804.6182877840038 #118 extract_...
+T811.4107217679993 🤔 extract_1/22 #118 "affaires" score? !affaire
+T811.4109142899979 reject: "affaires"
+T814.3461548549967 🤔 corrected #118 "affaire" score? 6.3
+T814.3463209559995 attempt_117: "affaire" score:6.30 prog:None
+T819.8104336200049 🤔 extract_1/21 #119 "analyse" score? 23.27 391
+T819.8106320740044 attempt_118: "analyse" score:23.27 prog:391
+T822.7223510230106 🤔 extract_1/20 #120 "artistique" score? 9.92
+T822.7225379270094 attempt_119: "artistique" score:9.92 prog:None
+T826.4025539410068 🤔 extract_1/19 #121 "cas" score? 4.45
+T826.4028134940017 attempt_120: "cas" score:4.45 prog:None
+T835.5306048970087 🤔 extract_1/18 #122 "collaboration" score? 27.21 667
+T835.5308571610076 attempt_121: "collaboration" score:27.21 prog:667
+T840.8583723850024 🤔 extract_1/17 #123 "communication" score? 24.19 489
+T840.8585644139966 attempt_122: "communication" score:24.19 prog:489
+T846.6184154549992 🤔 extract_1/16 #124 "compétence" score? 37.23 924
+T846.6185823999986 attempt_123: "compétence" score:37.23 prog:924
+T852.1705715690041 🤔 extract_1/15 #125 "direction" score? 25.13 556
+T852.1707978449995 attempt_124: "direction" score:25.13 prog:556
+T859.3544233220018 🤔 extract_1/14 #126 "effets" score? !effet
+T859.354572242999 reject: "effets"
+T865.2664837519987 🤔 corrected #126 "effet" score? -3.43
+T865.2666660020041 attempt_125: "effet" score:-3.43 prog:None
+T868.0105021950003 🤔 extract_1/13 #127 "efficace" score? 7.49
+T868.0107030320069 attempt_126: "efficace" score:7.49 prog:None
+T874.0342445440037 🤔 extract_1/12 #128 "expertise" score? 38.36 938
+T874.0344146029965 attempt_127: "expertise" score:38.36 prog:938
+T877.6341769819992 🤔 extract_1/11 #129 "film" score? -12.06
+T877.6343378599995 attempt_128: "film" score:-12.06 prog:None
+T885.0825005180086 🤔 extract_1/10 #130 "maîtrise" score? 40.94 958
+T885.0826675380085 attempt_129: "maîtrise" score:40.94 prog:958
+T890.730496839009 🤔 extract_1/9 #131 "méthodologie" score? 28.82 737
+T890.7306780189974 attempt_130: "méthodologie" score:28.82 prog:737
+T895.714364850006 🤔 extract_1/8 #132 "performance" score? 19.37
+T895.7145381360024 attempt_131: "performance" score:19.37 prog:None
+T901.3542785650061 🤔 extract_1/7 #133 "projet" score? 31.65 825
+T901.3544504440069 attempt_132: "projet" score:31.65 prog:825
+T907.1861759610038 🤔 extract_1/6 #134 "spécialisation" score? 46.58 987
+T907.1863233240001 attempt_133: "spécialisation" score:46.58 prog:987
+T908.602472989005 #135 ? _
+T908.6026407989993 chat_prompt: _
+T908.6028102760029 session: {"role": "user", "content": "give me 20 French words that are related to \"technique\" and \"sp\u00e9cialisation\"; do not list any words that you have already listed above"}
+T939.918720215006 session: {"role": "assistant", "content": "Here are 20 French words related to \"technique\" and \"sp\u00e9cialisation\":\n\n1. Profil (profile)\n2. Expert (expertise)\n3. Sp\u00e9cialiste (specialist)\n4. Domaine d'expertise (area of expertise)\n5. Comp\u00e9tence sp\u00e9cifique (specific skill)\n6. Technologie sp\u00e9cialis\u00e9e (specialized technology)\n7. M\u00e9thodologie appliqu\u00e9e (applied methodology)\n8. \u00c9tude de cas d\u00e9taill\u00e9e (detailed case study)\n9. Analyses comparatives (comparative analysis)\n10. R\u00e9sultat attendu (expected result)\n11. Critique constructive (constructive criticism)\n12. Am\u00e9lioration continue (continuous improvement)\n13. D\u00e9monstration technique (technical demonstration)\n14. Installation et maintenance d'un syst\u00e8me (system installation and maintenance)\n15. Gestion de projet de construction (construction project management)\n16. R\u00e9alisation de services financiers (financial service realization)\n17. Syst\u00e8me d'information g\u00e9ographique (geographic information system)\n18. D\u00e9veloppement logiciel personnalis\u00e9 (customized software development)\n19. Exp\u00e9rimentation et validation (experimentation and validation)\n20. R\u00e9ussite technique (technical success)\n\nThese words are all related to the concepts of specializing, developing expertise, and applying techniques in various fields, such as science, technology, or business.\n\nHere's how I broke them down into categories:\n\n- Expertise and specialization: Profil, Expert, Sp\u00e9cialiste\n- Technical skills and knowledge: Comp\u00e9tence sp\u00e9cifique, Technologie sp\u00e9cialis\u00e9e\n- Methodology and analysis: M\u00e9thodologie appliqu\u00e9e, \u00c9tude de cas d\u00e9taill\u00e9e\n- Project management and construction: Gestion de projet de construction, Installation et maintenance d'un syst\u00e8me\n- Financial services and software development: R\u00e9alisation de services financiers, D\u00e9veloppement logiciel personnalis\u00e9"}
+T947.9544075599988 #135 extract_...
+T970.7144468490005 🤔 extract_1/27 #135 "analyses" score? !analyse
+T970.7145777660044 reject: "analyses"
+T974.554536636002 🤔 extract_1/26 #135 "appliquée" score? !
+T974.5547228509968 reject: "appliquée"
+T978.3943231930025 🤔 extract_1/25 #135 "attendu" score? 2.48
+T978.3945350200083 attempt_134: "attendu" score:2.48 prog:None
+T985.474537757007 🤔 extract_1/24 #136 "comparatives" score? !comparative
+T985.4746806290059 reject: "comparatives"
+T988.6184285409981 🤔 corrected #136 "comparative" score? !
+T988.6185973240063 reject: "comparative"
+T994.8023714050069 🤔 extract_1/23 #136 "construction" score? 23 365
+T994.8026091240026 attempt_135: "construction" score:23.00 prog:365
+T997.2668830449984 🤔 extract_1/22 #137 "constructive" score? !
+T997.2671205280058 reject: "constructive"
+T1001.8822661970044 🤔 extract_1/21 #137 "critique" score? -8.04
+T1001.8824722380086 attempt_136: "critique" score:-8.04 prog:None
+T1007.1622507420107 🤔 extract_1/20 #138 "domaine" score? 36.53 915
+T1007.1623990780063 attempt_137: "domaine" score:36.53 prog:915
+T1009.7304660899972 🤔 extract_1/19 #139 "démonstration" score? 8.12
+T1009.7306699080073 attempt_138: "démonstration" score:8.12 prog:None
+T1012.106302344997 🤔 extract_1/18 #140 "détaillée" score? !
+T1012.1064281040017 reject: "détaillée"
+T1014.0265648269997 🤔 extract_1/17 #140 "et" score? !
+T1014.0267021260079 reject: "et"
+T1024.3943232470046 🤔 extract_1/16 #140 "expert" score? 35.15 896
+T1024.3944814630086 attempt_139: "expert" score:35.15 prog:896
+T1031.1303786810022 🤔 extract_1/15 #141 "expérimentation" score? 20.27 75
+T1031.1305600890046 attempt_140: "expérimentation" score:20.27 prog:75
+T1038.8585122980003 🤔 extract_1/14 #142 "financiers" score? !financier
+T1038.8586946160067 reject: "financiers"
+T1043.3143062010058 🤔 corrected #142 "financier" score? 17.54
+T1043.314477196007 attempt_141: "financier" score:17.54 prog:None
+T1046.4023494660069 🤔 extract_1/13 #143 "géographique" score? 11.28
+T1046.4025477120013 attempt_142: "géographique" score:11.28 prog:None
+T1050.4822798280074 🤔 extract_1/12 #144 "installation" score? 15.95
+T1050.482415097009 attempt_143: "installation" score:15.95 prog:None
+T1053.6984539149998 🤔 extract_1/11 #145 "personnalisé" score? 2.12
+T1053.698635838009 attempt_144: "personnalisé" score:2.12 prog:None
+T1058.7378818730067 🤔 extract_1/10 #146 "profil" score? 33.84 874
+T1058.7379729780077 attempt_145: "profil" score:33.84 prog:874
+T1061.5466492270061 🤔 extract_1/9 #147 "résultat" score? 8.2
+T1061.5468597410072 attempt_146: "résultat" score:8.20 prog:None
+T1066.514474495998 🤔 extract_1/8 #148 "réussite" score? 16.44
+T1066.5146897750092 attempt_147: "réussite" score:16.44 prog:None
+T1073.1145931000065 🤔 extract_1/7 #149 "services" score? !service
+T1073.1148178389994 reject: "services"
+T1078.3704130390106 🤔 corrected #149 "service" score? 24.31 497
+T1078.3706073680078 attempt_148: "service" score:24.31 prog:497
+T1086.1225128840015 🤔 extract_1/6 #150 "spécialiste" score? 40.15 954
+T1086.1227530600008 attempt_149: "spécialiste" score:40.15 prog:954
+T1090.322483312004 🤔 extract_1/5 #151 "spécialisée" score? !
+T1090.3226181570062 reject: "spécialisée"
+T1095.8585871670075 🤔 extract_1/4 #151 "spécifique" score? 24.76
+T1098.4424048930086 🤔 extract_1/4 #151 "spécifique" 24.76°C prog‰ ? 532
+T1098.4426090769994 attempt_150: "spécifique" score:24.76 prog:532
+T1100.962485244003 🤔 extract_1/3 #152 "un" score? !
+T1100.9626518480072 reject: "un"
+T1107.106422855999 🤔 extract_1/2 #152 "validation" score? 22.52 326
+T1107.1065958170075 attempt_151: "validation" score:22.52 prog:326
+T1113.554476721998 🤔 extract_1/1 #153 "étude" score? 42.35 968
+T1113.5546409130038 attempt_152: "étude" score:42.35 prog:968
+T1117.5942702760076 #154 ? /last
+T1121.890312361007 #154 ? /prog
+T1127.9545031770103 #154 ? *16 t4 /clear .
+T1127.95484820001 session clear
+T1127.9549510900106 chat_prompt: give me 16 French words that are related to $1, $2, $3, and $4
+T1127.9551230910001 session: {"role": "user", "content": "give me 16 French words that are related to \"technique\", \"sp\u00e9cialisation\", \"\u00e9tude\", and \"formation\""}
+T1140.8690011900035 session: {"role": "assistant", "content": "Here are 16 French words related to the concepts you mentioned:\n\n1. Technique (noun) - technique\n2. Sp\u00e9cialisation (noun) - sp\u00e9cialisation\n3. \u00c9tudier (verb) - \u00e9tudier\n4. Formation (noun) - formation\n5. Apprentissage (noun) - apprentissage\n6. Exp\u00e9rience (noun) - exp\u00e9rience\n7. Capacit\u00e9 (noun) - capacit\u00e9\n8. Connaissance (noun) - connaissance\n9. Expertise (noun) - expertise\n10. Ma\u00eetrise (noun) - ma\u00eetrise\n11. Sp\u00e9cialiste (noun) - sp\u00e9cialiste\n12. \u00c9tudes (plural noun) - \u00e9tudes\n13. S\u00e9ance (noun) - s\u00e9ance\n14. Cours (noun) - cours\n15. Certification (noun) - certification\n16. Profil (noun) - profil"}
+T1158.7945541250083 #154 extract_...
+T1162.0423822779994 🤔 extract_1/6 #154 "capacité" score? 19.23
+T1162.0425913750078 attempt_153: "capacité" score:19.23 prog:None
+T1167.2500123640057 🤔 extract_1/5 #155 "certification" score? 25.43 573
+T1167.2501265809988 attempt_154: "certification" score:25.43 prog:573
+T1175.8825106340082 🤔 extract_1/4 #156 "expérience" score? 36.75 919
+T1175.8826946839981 attempt_155: "expérience" score:36.75 prog:919
+T1178.890323961008 🤔 extract_1/3 #157 "séance" score? 3.31
+T1178.890497350003 attempt_156: "séance" score:3.31 prog:None
+T1184.5065033120045 🤔 extract_1/2 #158 "études" score? !étude
+T1184.5066543430003 reject: "études"
+T1191.6344416700013 🤔 extract_1/1 #158 "étudier" score? 27.95 708
+T1191.6346331800014 attempt_157: "étudier" score:27.95 prog:708
+T1206.6585105330014 #159 ? *10 t2 !new
+T1206.659011463009 chat_prompt: give me 10 French words that are related to $1 and $2; do not list any words that you have already listed above
+T1206.6595141870057 session: {"role": "user", "content": "give me 10 French words that are related to \"technique\" and \"sp\u00e9cialisation\"; do not list any words that you have already listed above"}
+T1218.2165597480052 session: {"role": "assistant", "content": "Here are 10 additional French words related to \"technique\" and \"sp\u00e9cialisation\":\n\n1. Apprentissage sp\u00e9cialis\u00e9 (specialized apprenticeship)\n2. M\u00e9thodologie (methodology)\n3. Cadre professionnel (professional framework)\n4. Expertise technique (technical expertise)\n5. Conception strat\u00e9gique (strategic conception)\n6. Planification op\u00e9rationnelle (operational planning)\n7. Gestion de projet (project management)\n8. Organisation structurelle (structural organization)\n9. Syst\u00e9matisation des connaissances (systematization of knowledge)\n10. Mise en \u0153uvre (implementation)\n\nThese words all relate to the concepts of technique and sp\u00e9cialisation, including specialized training, expert skills, and organizational frameworks for achieving technical expertise."}
+T1222.5944014090055 #159 extract_...
+T1227.5864244429977 🤔 extract_1/8 #159 "cadre" score? 34.24 884
+T1227.5865879699995 attempt_158: "cadre" score:34.24 prog:884
+T1229.6343779309973 🤔 extract_1/7 #160 "connaissances" score? !
+T1229.6345150220004 reject: "connaissances"
+T1232.6745957500098 🤔 extract_1/6 #160 "mise" score? 13.87
+T1232.6748173040105 attempt_159: "mise" score:13.87 prog:None
+T1237.779221785997 🤔 extract_1/5 #161 "professionnel" score? 35.45 903
+T1237.7796088980103 attempt_160: "professionnel" score:35.45 prog:903
+T1242.3058040790056 🤔 extract_1/4 #162 "spécialisé" score? 24.08 478
+T1242.3059592759964 attempt_161: "spécialisé" score:24.08 prog:478
+T1246.754608838004 🤔 extract_1/3 #163 "structurelle" score? !
+T1246.7547603870044 reject: "structurelle"
+T1252.0423087620002 🤔 extract_1/2 #163 "systématisation" score? 2.7
+T1252.0425565750047 attempt_162: "systématisation" score:2.70 prog:None
+T1254.938475810006 🤔 extract_1/1 #164 "œuvre" score? 17.5
+T1254.9386355099996 attempt_163: "œuvre" score:17.50 prog:None
+T1262.162230055008 #165 ? *9 t1 !new
+T1262.1626600940072 chat_prompt: give me 9 French words that are related to $1; do not list any words that you have already listed above
+T1262.1628846120002 session: {"role": "user", "content": "give me 9 French words that are related to \"technique\"; do not list any words that you have already listed above"}
+T1271.1677730540105 session: {"role": "assistant", "content": "Here are 9 additional French words related to \"technique\":\n\n1. Effort (effort)\n2. Pratique (practice)\n3. Apprentissage de terrain (field training)\n4. Exp\u00e9rimentation (experimentation)\n5. SimULATION (simulation)\n6. Mod\u00e9lisation (modeling)\n7. D\u00e9veloppement technique (technical development)\n8. Am\u00e9lioration continue (continuous improvement)\n9. Prise en main (hands-on)\n\nThese words all relate to the concepts of technique, including hands-on practice, experimentation, and continuous improvement."}
+T1273.9063852539985 #165 extract_...
+T1277.6267140530108 🤔 extract_1/5 #165 "effort" score? 3.67
+T1277.6269342440064 attempt_164: "effort" score:3.67 prog:None
+T1281.2982101780071 🤔 extract_1/4 #166 "main" score? -8.62
+T1281.298372329009 attempt_165: "main" score:-8.62 prog:None
+T1283.906575289002 🤔 extract_1/3 #167 "pratique" score? 13.47
+T1283.9067518920056 attempt_166: "pratique" score:13.47 prog:None
+T1286.2582988900103 🤔 extract_1/2 #168 "prise" score? 5.8
+T1286.2584738389996 attempt_167: "prise" score:5.80 prog:None
+T1288.4504300620029 🤔 extract_1/1 #169 "terrain" score? 15.2
+T1288.4506479270058 attempt_168: "terrain" score:15.20 prog:None
+T1292.7145589300053 #170 ? /e scav all
+T1295.3065674560057 🤔 extract_1/6 #170 "spéciaux" score? !
+T1295.306723946007 reject: "spéciaux"
+T1300.8264297480055 🤔 extract_1/5 #170 "travail" score? 24.95 547
+T1300.8266039130103 attempt_169: "travail" score:24.95 prog:547
+T1303.9544530540006 🤔 extract_1/4 #171 "utilisateur" score? 15.66
+T1303.9546237589966 attempt_170: "utilisateur" score:15.66 prog:None
+T1307.1063741560065 🤔 extract_1/3 #172 "virtuelle" score? !
+T1307.106510919999 reject: "virtuelle"
+T1312.074662241008 🤔 extract_1/2 #172 "équipe" score? 35.57 905
+T1312.0748526649986 attempt_171: "équipe" score:35.57 prog:905
+T1315.1300743280008 🤔 extract_1/1 #173 "évaluation" score? 18.13
+T1315.1302814079972 attempt_172: "évaluation" score:18.13 prog:None
+T1317.2024593829992 #174 ? /prog
+T1329.1461087650096 #174 ? *30 seen with t15 /clear .
+T1329.1462776679982 session clear
+T1329.1463110750046 chat_prompt: give me 30 French words that are seen with $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, and $15
+T1329.1463866920094 session: {"role": "user", "content": "give me 30 French words that are seen with \"technique\", \"sp\u00e9cialisation\", \"\u00e9tude\", \"formation\", \"ma\u00eetrise\", \"technologie\", \"sp\u00e9cialiste\", \"expertise\", \"maintenance\", \"comp\u00e9tence\", \"exp\u00e9rience\", \"conception\", \"domaine\", \"\u00e9quipe\", and \"professionnel\""}
+T1344.3298670450022 session: {"role": "assistant", "content": "Here are 30 French words related to the given theme:\n\n1. Artisanat\n2. Apprentissage\n3. Audit\n4. Automatisation\n5. Bureaucratie\n6. Calibration\n7. Certification\n8. Co\u00fbt\n9. Conception\n10. Conditionnement\n11. Conseil\n12. Construction\n13. Contr\u00f4le\n14. Convenance\n15. Cr\u00e9ativit\u00e9\n16. D\u00e9veloppement\n17. Direction\n18. Expertise\n19. Fabrication\n20. Formation\n21. Franche\n22. Gestion\n23. Innovation\n24. Ing\u00e9nierie\n25. Installation\n26. Int\u00e9gration\n27. Maintenance\n28. Ma\u00eetrise\n29. Mat\u00e9riel\n30. Organisation\n\nThese words can be used in various contexts, such as business, education, or technical fields, and relate to the themes of expertise, training, and professional development."}
+T1376.8824884250062 #174 extract_...
+T1382.0587166000041 🤔 extract_1/14 #174 "artisanat" score? 6.7
+T1382.0589169480081 attempt_173: "artisanat" score:6.70 prog:None
+T1387.7143322880002 🤔 extract_1/13 #175 "audit" score? 26.19 614
+T1387.7145102810027 attempt_174: "audit" score:26.19 prog:614
+T1394.1145126699994 🤔 extract_1/12 #176 "automatisation" score? 23.98 462
+T1394.1146890820091 attempt_175: "automatisation" score:23.98 prog:462
+T1397.4743768229964 🤔 extract_1/11 #177 "bureaucratie" score? 4.13
+T1397.4745234230068 attempt_176: "bureaucratie" score:4.13 prog:None
+T1400.4668390050065 🤔 extract_1/10 #178 "calibration" score? 14.25
+T1400.467049384999 attempt_177: "calibration" score:14.25 prog:None
+T1403.306442148998 🤔 extract_1/9 #179 "conditionnement" score? 12.14
+T1403.3066328749992 attempt_178: "conditionnement" score:12.14 prog:None
+T1406.5304429550015 🤔 extract_1/8 #180 "conseil" score? 16.94
+T1406.5306492030068 attempt_179: "conseil" score:16.94 prog:None
+T1409.370459386002 🤔 extract_1/7 #181 "contrôle" score? 15.14
+T1409.3706544400047 attempt_180: "contrôle" score:15.14 prog:None
+T1413.674111697008 🤔 extract_1/6 #182 "convenance" score? -8.77
+T1413.674247117 attempt_181: "convenance" score:-8.77 prog:None
+T1416.938555433997 🤔 extract_1/5 #183 "coût" score? 14.25
+T1416.9387606480013 attempt_182: "coût" score:14.25 prog:None
+T1420.3944048830017 🤔 extract_1/4 #184 "créativité" score? 14.79
+T1420.3945677090087 attempt_183: "créativité" score:14.79 prog:None
+T1425.6023433140072 🤔 extract_1/3 #185 "fabrication" score? 26.39 632
+T1425.602541048007 attempt_184: "fabrication" score:26.39 prog:632
+T1428.2583982479991 🤔 extract_1/2 #186 "franche" score? !
+T1428.2585337659984 reject: "franche"
+T1433.4344727319985 🤔 extract_1/1 #186 "ingénierie" score? 55.86 998
+T1433.4346764899965 attempt_185: "ingénierie" score:55.86 prog:998
+T1439.0424665699975 #187 ? /prog
+T1445.5065387270006 #187 ? *10 t2
+T1445.5069089669996 chat_prompt: give me 10 French words that are seen with $1 and $2
+T1445.5070741780073 session: {"role": "user", "content": "give me 10 French words that are seen with \"ing\u00e9nierie\" and \"technique\""}
+T1456.349443418003 session: {"role": "assistant", "content": "Here are 10 French words related to \"ing\u00e9nierie\" and \"technique\":\n\n1. Automatisation\n2. Conception\n3. Contr\u00f4le qualit\u00e9\n4. Design\n5. D\u00e9veloppement\n6. Fabrication\n7. Ing\u00e9niosit\u00e9\n8. Innovations\n9. M\u00e9canisme\n10. Simulation\n\nThese words can be used in various contexts, such as engineering, technology, or research, and relate to the themes of design, development, and innovation.\n\nHere are a few more suggestions:\n\n11. Algorithmisation\n12. Analyse de donn\u00e9es\n13. Calcul\n14. \u00c9lectrom\u00e9canique\n15. Exp\u00e9rience num\u00e9rique\n\nLet me know if you need more!"}
+T1462.4584542259981 #187 extract_...
+T1464.6984572400106 🤔 extract_1/8 #187 "algorithmisation" score? !
+T1464.6985995730065 reject: "algorithmisation"
+T1469.7624063319963 🤔 extract_1/7 #187 "calcul" score? 20.86 155
+T1469.7625633810094 attempt_186: "calcul" score:20.86 prog:155
+T1476.770461912005 🤔 extract_1/6 #188 "données" score? !donnée
+T1476.7705975490098 reject: "données"
+T1480.0345169140055 🤔 corrected #188 "donnée" score? 17.74
+T1480.034705070997 attempt_187: "donnée" score:17.74 prog:None
+T1482.3383320120047 🤔 extract_1/5 #189 "ingéniosité" score? 14.3
+T1482.3385012299987 attempt_188: "ingéniosité" score:14.30 prog:None
+T1493.834411857999 🤔 extract_1/4 #190 "innovations" score? !innovation
+T1493.834541025004 reject: "innovations"
+T1497.9221077609982 🤔 extract_1/3 #190 "mécanisme" score? 4.93
+T1497.9222605179966 attempt_189: "mécanisme" score:4.93 prog:None
+T1501.2198455360049 🤔 extract_1/2 #191 "numérique" score? 17.67
+T1501.2200453650003 attempt_190: "numérique" score:17.67 prog:None
+T1503.466294851998 🤔 extract_1/1 #192 "électromécanique" score? !
+T1503.4664474739984 reject: "électromécanique"
+T1506.7622350169986 #192 ? /prog
+T1516.8345139029989 #192 ? * related t2 !new
+T1516.834832239998 chat_prompt: give me 10 French words that are not seen with each other;  related t2 !new
+T1516.8349723060091 session: {"role": "user", "content": "give me 10 French words that are not seen with each other;  related t2 !new"}
+T1584.1947875500045 <INT>
+T0.01100494700949639 now: 2024-11-27T09:46:21EST
+T12.288643524007057 #192 ? *10 related t2 /clear .
+T12.289891742009786 session clear
+T12.28999039500195 chat_prompt: give me 10 French words that are related to $1 and $2
+T12.290134698996553 session: {"role": "user", "content": "give me 10 French words that are related to \"ing\u00e9nierie\" and \"technique\""}
+T23.11279561300762 session: {"role": "assistant", "content": "Here are 10 French words related to \"ing\u00e9nierie\" (engineering) and \"technique\":\n\n1. **Ing\u00e9nieur** (Engineer)\n2. **Technologie** (Technology)\n3. **Conception** (Design or Conceptualization)\n4. **M\u00e9canique** (Mechanics)\n5. **\u00c9lectrom\u00e9canique** (Electromechanics)\n6. **Syst\u00e9matisation** (Systematization)\n7. **Optimisation** (Optimization)\n8. **Fabriqu\u00e9** (Manufactured or Produced)\n9. **Mati\u00e8re** (Material)\n10. **Simulation** (Simulation)\n\nThese words cover various aspects of engineering and technology, such as design, mechanics, materials, and process optimization."}
+T31.200723482004832 #192 extract_...
+T35.16074507799931 🤔 extract_1/5 #192 "fabriqué" score? 17.67
+T35.16095418500481 attempt_191: "fabriqué" score:17.67 prog:None
+T40.37640044500586 🤔 extract_1/4 #193 "ingénieur" score? 100 1000
+T40.37659005400201 attempt_192: "ingénieur" score:100.00 prog:1000
+T47.56875498499721 Paste share result, then preses <Enter>
+T47.57442451000679 share result: "J'ai trouv\u00e9 #cemantix n\u00ba1001 en 192 coups !\n\ud83e\udd73\n\ud83d\udd252\ufe0f\u20e3\n\ud83e\udd751\ufe0f\u20e34\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e5\ufe0f\u20e31\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd768\ufe0f\u20e39\ufe0f\u20e3\n\ud83e\uddca\ud83e\uddca\ud83e\uddca3\ufe0f\u20e35\ufe0f\u20e3\nhttps://cemantix.certitudes.org/"
+T47.57557462299883 <STOP>
