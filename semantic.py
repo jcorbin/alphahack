@@ -2022,6 +2022,10 @@ class Search(StoredLog):
             ui.print(f'* {e}')
             return
 
+        # except Exception as e:
+        #     TODO traceback
+        #     return
+
         if clear:
             self.chat_clear_cmd(ui)
         return self.chat_prompt(ui, np)
