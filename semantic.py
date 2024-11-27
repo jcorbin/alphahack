@@ -1212,17 +1212,17 @@ class Search(StoredLog):
             # page = requests.get('https://cemantle.certitudes.org/')
             link = self.result.link if self.result else f'https://{self.site}'
             _ = ui.input(f'Copy html from {link} and press <Enter>')
-            content = ui.paste()
-            soup = BeautifulSoup(content, 'html.parser')
-            for i, line in enumerate(content.splitlines()):
-                if i > 9:
-                    ui.print(f'... {content.count("\n") - 9} more lines')
-                    break
-                ui.print(f'... {line}')
-            self.yesterextract(ui, soup)
+            self.yesterscrape(ui, ui.paste())
         ui.print(f'🗃️ {self.log_file}')
 
-    def yesterextract(self, ui: PromptUI, soup: BeautifulSoup):
+    def yesterscrape(self, ui: PromptUI, content: str):
+        soup = BeautifulSoup(content, 'html.parser')
+        for i, line in enumerate(content.splitlines()):
+            if i > 9:
+                ui.print(f'... {content.count("\n") - 9} more lines')
+                break
+            ui.print(f'... {line}')
+
         yt = soup.select_one('#yestertable')
         if not yt:
             raise ValueError('missing #yestertable element')
