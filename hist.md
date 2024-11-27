@@ -1114,3 +1114,24 @@ https://cemantix.certitudes.org/
 
 🔗 alphaguess.com
 ```
+
+# 2024-11-27 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 968
+🤔 95 guesses
+    🥳  1
+    🔥  1
+    🥵  4
+    😎 22
+    🥶 56
+    🧊 11
+⏱️ 0:15:08.377892
+```
+
+🤔 95 attempts
+📜 5 sessions
+🫧 5 chat sessions
+⁉️ 15 chat prompts
+🤖 13 chat replies

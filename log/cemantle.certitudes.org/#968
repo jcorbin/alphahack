@@ -1,0 +1,385 @@
+T0.0044382359919836745 now: 2024-11-27T08:25:21EST
+T627.632445301002 <INT>
+T0.005738102991017513 now: 2024-11-27T08:45:59EST
+T1.2015103639860172 🔗 cemantle.certitudes.org ? 
+T1.993920769993565 🌎  ? 
+T9.818161811999744 🧩  ? #968
+T9.818737490990316 puzzle_id: #968
+T15.890050180998514 😎 °C ? 15.28
+T15.89024684598553 scale: 😎 15.28 °C
+T17.38609718599764 🥵 °C ? 25.52
+T17.38624054599495 scale: 🥵 25.52 °C
+T19.689939389994834 🔥 °C ? 39.77
+T19.69007679099741 scale: 🔥 39.77 °C
+T22.70602352998685 😱 °C ? 64.05
+T22.706160593996174 scale: 😱 64.05 °C
+T22.76989609899465 session model: llama3.2:latest
+T25.177998267987277 #1 ? *
+T25.179029873994295 chat_prompt: give me 10 words that are not * to each other
+T25.179174620992853 session: {"role": "user", "content": "give me 10 words that are not * to each other"}
+T36.5058272699971 #1 ? *10 related /clear .
+T36.5062715059903 session clear
+T36.50643380099791 chat_prompt: give me 10 words that are not related to each other
+T36.50662804799504 session: {"role": "user", "content": "give me 10 words that are not related to each other"}
+T43.084716257988475 session: {"role": "assistant", "content": "Here are 10 random words that are not related to each other:\n\n1. Pineapple\n2. Guitar\n3. Snowflake\n4. Perfume\n5. Llama\n6. Basketball\n7. Caramel\n8. Piano\n9. Starfish\n10. Harmonica"}
+T57.06603305299359 #1 extract_...
+T96.93798615899868 🤔 extract_1/10 #1 "basketball" score? 2.33
+T96.93820962199243 attempt_0: "basketball" score:2.33 prog:None
+T101.38564899598714 🤔 extract_1/9 #2 "caramel" score? -2.06
+T101.38579481899797 attempt_1: "caramel" score:-2.06 prog:None
+T104.99375815498934 🤔 extract_1/8 #3 "guitar" score? -1.71
+T104.99390875299287 attempt_2: "guitar" score:-1.71 prog:None
+T108.01799823399051 🤔 extract_1/7 #4 "harmonica" score? -.1
+T108.01838082099857 attempt_3: "harmonica" score:-0.10 prog:None
+T110.89011327498883 🤔 extract_1/6 #5 "llama" score? -2.05
+T110.89034101399011 attempt_4: "llama" score:-2.05 prog:None
+T113.13815736799734 🤔 extract_1/5 #6 "perfume" score? 1.52
+T113.13834764898638 attempt_5: "perfume" score:1.52 prog:None
+T115.56134777099942 🤔 extract_1/4 #7 "piano" score? .01
+T115.5614834559965 attempt_6: "piano" score:0.01 prog:None
+T118.1141720279993 🤔 extract_1/3 #8 "pineapple" score? 3.31
+T118.11438481399091 attempt_7: "pineapple" score:3.31 prog:None
+T120.69004644498636 🤔 extract_1/2 #9 "snowflake" score? .88
+T120.6902022039867 attempt_8: "snowflake" score:0.88 prog:None
+T123.08205974799057 🤔 extract_1/1 #10 "starfish" score? 1.47
+T123.08225081498676 attempt_9: "starfish" score:1.47 prog:None
+T135.92990786698647 #11 ? *12 t4 !new
+T135.93027146499662 chat_prompt: give me 12 words that are related to $1, $2, $3, and $4; do not list any words that you have already listed above
+T135.93051006499445 session: {"role": "user", "content": "give me 12 words that are related to \"pineapple\", \"basketball\", \"perfume\", and \"starfish\"; do not list any words that you have already listed above"}
+T147.2825332969951 session: {"role": "assistant", "content": "Here are 12 new words that are related to the original four:\n\n1. Tropical (related to pineapple)\n2. Court (related to basketball)\n3. Cologne (related to perfume)\n4. Ocean (related to starfish)\n5. Spine (related to starfish)\n6. Fizz (related to cola, a type of soda often served with tropical fruit like pineapple)\n7. Net (related to basketball)\n8. Sea salt (related to ocean and perfumery)\n9. Prickly (related to some types of starfish)\n10. Fruit juice (related to pineapple and tropical flavors)\n11. Sports equipment (related to basketball)\n12. Beachy scent (related to perfume and the ocean)"}
+T148.4258927089977 #11 extract_...
+T152.71412378599052 🤔 extract_1/16 #11 "beachy" score? !beach
+T152.71427092599333 reject: "beachy"
+T155.64988057498704 🤔 corrected #11 "beach" score? -1.57
+T155.65007464999508 attempt_10: "beach" score:-1.57 prog:None
+T158.5380111419945 🤔 extract_1/15 #12 "cologne" score? 2.19
+T158.5382565209875 attempt_11: "cologne" score:2.19 prog:None
+T163.32986527698813 🤔 extract_1/14 #13 "court" score? 17.54 416
+T163.3300509779947 attempt_12: "court" score:17.54 prog:416
+T170.9220962239924 #14 ? *t2
+T174.30581442399125 #14 ? * t2
+T174.30618861998664 chat_prompt: give me 6 words that are * to $1 and $2; do not list any words that you have already listed above
+T174.30639946299198 session: {"role": "user", "content": "give me 6 words that are * to \"court\" and \"pineapple\"; do not list any words that you have already listed above"}
+T183.12284724299388 session: {"role": "assistant", "content": "Here are 6 new words that are related to both \"court\" and \"pineapple\":\n\n1. Arena (related to basketball courts)\n2. Racket (related to tennis, which is often played on a court similar to a basketball court)\n3. Fencing (related to indoor sports like fencing, which may be held in a court-style arena)\n4. Referee (related to both basketball and other sports that use courts)\n5. Judge (related to court proceedings)\n6. Jury (related to the legal process that takes place in a court)"}
+T185.62613176599552 #14 extract_...
+T188.25048885999422 🤔 extract_1/6 #14 "arena" score? 11.92
+T188.25074710098852 attempt_13: "arena" score:11.92 prog:None
+T192.01012979299412 🤔 extract_1/5 #15 "fencing" score? 13.89
+T192.0103135679965 attempt_14: "fencing" score:13.89 prog:None
+T195.96237689598638 🤔 extract_1/4 #16 "judge" score? 11.41
+T195.96265763499832 attempt_15: "judge" score:11.41 prog:None
+T198.90602800098713 🤔 extract_1/3 #17 "jury" score? 7.77
+T198.90619509198586 attempt_16: "jury" score:7.77 prog:None
+T201.6100056139985 🤔 extract_1/2 #18 "racket" score? 5.44
+T201.61015905599925 attempt_17: "racket" score:5.44 prog:None
+T204.73802745499415 🤔 extract_1/1 #19 "referee" score? 3.1
+T204.73835163499461 attempt_18: "referee" score:3.10 prog:None
+T206.38612979899335 #20 ? _
+T206.38633107898931 chat_prompt: _
+T206.3865446409909 session: {"role": "user", "content": "give me 6 words that are * to \"court\" and \"fencing\"; do not list any words that you have already listed above"}
+T215.86246527198819 session: {"role": "assistant", "content": "Here are 6 new words that are related to both \"court\" and \"fencing\":\n\n1. Blade (related to fencing equipment)\n2. Foil (a type of fencing weapon)\n3. Duel (historically, duels were often fought in a court or duelists' club)\n4. Tournament (both courts and fencing competitions often feature tournaments)\n5. Piste (the running path in a fencing competition, also used in equestrian events held in some indoor courts)\n6. Match (in both sports, the term \"match\" refers to an individual competition or event)"}
+T219.53788529998565 #20 extract_...
+T222.85802843899 🤔 extract_1/6 #20 "blade" score? 7.69
+T222.85821740799292 attempt_19: "blade" score:7.69 prog:None
+T225.34615565498825 🤔 extract_1/5 #21 "duel" score? 11.48
+T225.3464356179902 attempt_20: "duel" score:11.48 prog:None
+T231.51425132599252 🤔 extract_1/4 #22 "foil" score? 17.07 347
+T231.5145413079881 attempt_21: "foil" score:17.07 prog:347
+T235.98598853699514 🤔 extract_1/3 #23 "match" score? 11.63
+T235.98618777899537 attempt_22: "match" score:11.63 prog:None
+T241.2339191459905 #24 ? *10 t2 /clear .
+T241.2342038939969 session clear
+T241.23429724598827 chat_prompt: give me 10 words that are * to $1 and $2
+T241.23449062199506 session: {"role": "user", "content": "give me 10 words that are * to \"court\" and \"foil\""}
+T247.69636735699896 session: {"role": "assistant", "content": "Here are 10 words that rhyme with both \"court\" and \"foil\":\n\n1. Hoil\n2. Soil\n3. Voil (not a common word, but it technically rhymes)\n4. Boil\n5. Toil\n6. Coil\n7. Spoil\n8. Choil (a rare or obsolete word that refers to the navel)\n9. Poll\n10. Foil's closest relative in this list: Goil"}
+T249.56193347599765 #24 extract_...
+T252.05789501199615 🤔 extract_1/15 #24 "boil" score? 9.19
+T252.05815417198755 attempt_23: "boil" score:9.19 prog:None
+T262.42577729799086 🤔 extract_1/14 #25 "choil" score? !
+T262.4259246929869 reject: "choil"
+T272.6016535619856 #25 ? *10 related t2 /clear .
+T272.6019797869958 session clear
+T272.60205127899826 chat_prompt: give me 10 words that are related to $1 and $2
+T272.60218846899807 session: {"role": "user", "content": "give me 10 words that are related to \"court\" and \"foil\""}
+T276.816766909993 session: {"role": "assistant", "content": "Here are 10 words that are related to \"court\" and \"foil\":\n\n1. Judge\n2. Case\n3. Trial\n4. Defense\n5. Prosecution\n6. Jury\n7. Verdict\n8. Appeal\n9. Litigation\n10. Counterclaim"}
+T280.417723541992 #25 extract_...
+T287.5056213259959 🤔 extract_1/8 #25 "appeal" score? 32.54 975
+T287.50581434699416 attempt_24: "appeal" score:32.54 prog:975
+T296.53016165799636 #26 ? * related t2 !new
+T296.53053982199344 chat_prompt: give me 10 words that * related $1 and $2; do not list any words that you have already listed above
+T296.5307262599963 session: {"role": "user", "content": "give me 10 words that * related \"appeal\" and \"court\"; do not list any words that you have already listed above"}
+T302.548885953991 session: {"role": "assistant", "content": "Here are 10 more words that are related to \"appeal\" and \"court\", excluding the previous ones:\n\n1. Petition\n2. Appealable\n3. Recusal\n4. Stay\n5. Mandate\n6. Quo warranto\n7. Rehearing\n8. Postponement\n9. Ex parte\n10. En banc"}
+T306.0900925069873 #26 extract_...
+T308.9539286819927 🤔 extract_1/13 #26 "appealable" score? 12.63
+T308.95412748199305 attempt_25: "appealable" score:12.63 prog:None
+T311.20990867599903 🤔 extract_1/12 #27 "banc" score? !
+T311.2100380759948 reject: "banc"
+T315.5940640739864 🤔 extract_1/11 #27 "en" score? 12.23
+T315.59423525299644 attempt_26: "en" score:12.23 prog:None
+T318.09001723599795 🤔 extract_1/10 #28 "ex" score? 13.24
+T318.09022762198583 attempt_27: "ex" score:13.24 prog:None
+T322.21797372998844 🤔 extract_1/9 #29 "mandate" score? 16.41 224
+T322.21818462999363 attempt_28: "mandate" score:16.41 prog:224
+T324.3699169259926 🤔 extract_1/8 #30 "parte" score? !
+T324.3700449799944 reject: "parte"
+T329.6580018109962 🤔 extract_1/7 #30 "petition" score? 25.88 908
+T329.65821016598784 attempt_29: "petition" score:25.88 prog:908
+T332.7778221769986 #31 ? _
+T332.77800779699464 chat_prompt: _
+T332.7784877299855 session: {"role": "user", "content": "give me 10 words that * related \"appeal\" and \"petition\"; do not list any words that you have already listed above"}
+T338.5718860509951 session: {"role": "assistant", "content": "Here are 10 more words that are related to \"appeal\" and \"petition\", excluding the previous ones:\n\n1. Review\n2. Reconsideration\n3. Amicus curiae\n4. Brief\n5. Opposition\n6. Request\n7. Objection\n8. Motion\n9. Pray\n10. Supplement"}
+T340.7460118119925 #31 extract_...
+T342.72150672799035 🤔 extract_1/11 #31 "amicus" score? !
+T342.72157914999116 reject: "amicus"
+T344.9140927549888 🤔 extract_1/10 #31 "brief" score? 5.3
+T344.9142845579918 attempt_30: "brief" score:5.30 prog:None
+T347.88979930599453 🤔 extract_1/9 #32 "curiae" score? !
+T347.8899362499942 reject: "curiae"
+T352.6579186369927 🤔 extract_1/8 #32 "motion" score? 21.28 752
+T352.65810984699056 attempt_31: "motion" score:21.28 prog:752
+T357.1059560109861 🤔 extract_1/7 #33 "objection" score? 22.61 826
+T357.1061501959921 attempt_32: "objection" score:22.61 prog:826
+T362.1860410109948 🤔 extract_1/6 #34 "opposition" score? 19.24 599
+T362.1862179779855 attempt_33: "opposition" score:19.24 prog:599
+T364.35388829499425 🤔 extract_1/5 #35 "pray" score? 4.25
+T364.3541379849921 attempt_34: "pray" score:4.25 prog:None
+T369.92190825598664 🤔 extract_1/4 #36 "reconsideration" score? 17.54 415
+T369.9221093449887 attempt_35: "reconsideration" score:17.54 prog:415
+T375.93827353799134 🤔 extract_1/3 #37 "request" score? 32.56 976
+T375.93855360099406 attempt_36: "request" score:32.56 prog:976
+T377.946158309991 #38 ? _
+T377.9463885219884 chat_prompt: _
+T377.94663099698664 session: {"role": "user", "content": "give me 10 words that * related \"request\" and \"appeal\"; do not list any words that you have already listed above"}
+T383.6331248609931 session: {"role": "assistant", "content": "Here are 10 more words that are related to \"request\" and \"appeal\", excluding the previous ones:\n\n1. Prayer\n2. Objection\n3. Motion\n4. Briefing\n5. Argument\n6. Submission\n7. Petitioners\n8. Respondent\n9. Notice\n10. Supplement"}
+T385.2257792219898 #38 extract_...
+T390.8176641899918 🤔 extract_1/8 #38 "argument" score? 18.15 492
+T390.8178290039941 attempt_37: "argument" score:18.15 prog:492
+T393.67392281399225 🤔 extract_1/7 #39 "briefing" score? 8.07
+T393.6740809939947 attempt_38: "briefing" score:8.07 prog:None
+T396.02630764999776 🤔 extract_1/6 #40 "notice" score? 9.13
+T396.02658792899456 attempt_39: "notice" score:9.13 prog:None
+T400.5381221649877 🤔 extract_1/5 #41 "petitioners" score? !petitioner
+T400.5382773249876 reject: "petitioners"
+T403.02586362299917 🤔 corrected #41 "petitioner" score? 8.05
+T403.0260137409932 attempt_40: "petitioner" score:8.05 prog:None
+T405.69015276798746 🤔 extract_1/4 #42 "prayer" score? 5.17
+T405.6903956749884 attempt_41: "prayer" score:5.17 prog:None
+T408.1138906739943 🤔 extract_1/3 #43 "respondent" score? 3.56
+T408.1140717919916 attempt_42: "respondent" score:3.56 prog:None
+T412.2900256439898 🤔 extract_1/2 #44 "submission" score? 20.66
+T414.8015709499887 🤔 extract_1/2 #44 "submission" 20.66°C prog‰ ? 715
+T414.80165800399845 attempt_43: "submission" score:20.66 prog:715
+T417.8904689189949 🤔 extract_1/1 #45 "supplement" score? -4.73
+T417.8907863369968 attempt_44: "supplement" score:-4.73 prog:None
+T420.15430393199495 <INT>
+T0.009805050998693332 now: 2024-11-27T10:50:10EST
+T8.774947277997853 #46 ? /last
+T16.910906975987018 #46 ? /prog
+T27.102741245995276 #46 ? * related 9 t9 /clear .
+T27.103399573999923 DEBUG cp: ChatPrompt(prompt='give me 10 words that * related $1 and $2; do not list any words that you have already listed above', count=10, kind=None, rel='that * related', trailer='; do not list any words that you have already listed above')
+T27.103604034986347 DEBUG kind: ''
+T27.10361762199318 DEBUG count: 0
+T27.10362536899629 DEBUG rel: None
+T27.10363319599128 DEBUG like: []
+T27.103640232991893 DEBUG unlike: []
+T27.10365546999674 DEBUG trailer: given:True [' related 9 t9 /clear .']
+T27.10376140799781 chat_prompt: give me 10 words that do not * related each other;  related 9 t9 /clear .
+T27.103876963999937 session: {"role": "user", "content": "give me 10 words that do not * related each other;  related 9 t9 /clear ."}
+T38.75047042599181 <INT>
+T0.0071027789963409305 now: 2024-11-27T10:55:43EST
+T6.616123765998054 #46 ? *9 related t9 /clear .
+T6.617048629996134 DEBUG cp: ChatPrompt(prompt='give me 10 words that do not * related each other;  related 9 t9 /clear .', count=10, kind=None, rel='that do not * related each other', trailer=';  related 9 t9 /clear .')
+T6.617927365005016 session clear
+T6.617996800006949 DEBUG kind: ''
+T6.618007646000478 DEBUG count: 9
+T6.618015610001748 DEBUG rel: 'related'
+T6.61802866999642 DEBUG like: ['$1', '$2', '$3', '$4', '$5', '$6', '$7', '$8', '$9']
+T6.618036771003972 DEBUG unlike: []
+T6.6180477979942225 DEBUG trailer: given:True []
+T6.618159548001131 chat_prompt: give me 9 words that are related to $1, $2, $3, $4, $5, $6, $7, $8, and $9
+T6.618344344999059 session: {"role": "user", "content": "give me 9 words that are related to \"request\", \"appeal\", \"petition\", \"objection\", \"motion\", \"submission\", \"opposition\", \"argument\", and \"court\""}
+T13.19073087000288 session: {"role": "assistant", "content": "Here are nine words that are related to the given terms:\n\n1. Hearing\n2. Advocate\n3. Jurisdiction\n4. Verdict\n5. Law\n6. Lawyer\n7. Protest\n8. Trial\n9. Decision"}
+T30.42405853200762 #46 extract_...
+T32.984442960005254 🤔 extract_1/9 #46 "advocate" score? 2.72
+T32.984709680007654 attempt_45: "advocate" score:2.72 prog:None
+T37.8405949309963 🤔 extract_1/8 #47 "decision" score? 27.32 932
+T37.840878757997416 attempt_46: "decision" score:27.32 prog:932
+T40.31211463500222 🤔 extract_1/7 #48 "hearing" score? 6.1
+T40.3122765510052 attempt_47: "hearing" score:6.10 prog:None
+T43.120222009994905 🤔 extract_1/6 #49 "jurisdiction" score? 10.11
+T43.12046922299487 attempt_48: "jurisdiction" score:10.11 prog:None
+T46.36008358700201 🤔 extract_1/5 #50 "law" score? 6.08
+T46.360276457999134 attempt_49: "law" score:6.08 prog:None
+T49.31226107900147 🤔 extract_1/4 #51 "lawyer" score? 10.43
+T49.31249301500793 attempt_50: "lawyer" score:10.43 prog:None
+T54.85605741699692 🤔 extract_1/3 #52 "protest" score? 18.17 497
+T54.85625790400081 attempt_51: "protest" score:18.17 prog:497
+T57.88830507200328 🤔 extract_1/2 #53 "trial" score? 8.87
+T57.88851601400529 attempt_52: "trial" score:8.87 prog:None
+T64.12006617500447 🤔 extract_1/1 #54 "verdict" score? 16.21 191
+T64.12024728200049 attempt_53: "verdict" score:16.21 prog:191
+T70.25613674600027 #55 ? *16 t4 !new
+T70.2563438090001 DEBUG cp: ChatPrompt(prompt='give me 9 words that are related to $1, $2, $3, $4, $5, $6, $7, $8, and $9', count=9, kind=None, rel='that are related to', trailer=None)
+T70.25647833300172 DEBUG kind: ''
+T70.25648903100227 DEBUG count: 16
+T70.25649690200225 DEBUG rel: None
+T70.25650936999591 DEBUG like: ['$1', '$2', '$3', '$4']
+T70.25651796000602 DEBUG unlike: []
+T70.2565300730057 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T70.25662395999825 chat_prompt: give me 16 words that are related to $1, $2, $3, and $4; do not list any words that you have already listed above
+T70.25678041399806 session: {"role": "user", "content": "give me 16 words that are related to \"request\", \"appeal\", \"decision\", and \"petition\"; do not list any words that you have already listed above"}
+T78.02517718900344 session: {"role": "assistant", "content": "Here are 16 additional words that are related to the given terms:\n\n1. Plea\n2. Litigation\n3. Protester\n4. Counselor\n5. Arbitration\n6. Grievance\n7. Tribunal\n8. Verbiage\n9. Amicus\n10. Briefing\n11. Hearing officer\n12. Contested\n13. Objectionable\n14. Decree\n15. Forum\n16. Ex parte"}
+T84.66433895200316 #55 extract_...
+T89.38411519500369 🤔 extract_1/13 #55 "arbitration" score? 20.94 734
+T89.38447153200104 attempt_54: "arbitration" score:20.94 prog:734
+T96.37648531400191 🤔 extract_1/12 #56 "contested" score? 19.67 631
+T96.37675796099938 attempt_55: "contested" score:19.67 prog:631
+T99.68037082599767 🤔 extract_1/11 #57 "counselor" score? -2.17
+T99.6805301150016 attempt_56: "counselor" score:-2.17 prog:None
+T102.51245955399645 🤔 extract_1/10 #58 "decree" score? 7.97
+T102.51268477999838 attempt_57: "decree" score:7.97 prog:None
+T105.88822765099758 🤔 extract_1/9 #59 "forum" score? 8.41
+T105.88840275999974 attempt_58: "forum" score:8.41 prog:None
+T110.28019582599518 🤔 extract_1/8 #60 "grievance" score? 15.44 27
+T110.28046355499828 attempt_59: "grievance" score:15.44 prog:27
+T112.92823575800867 🤔 extract_1/7 #61 "litigation" score? 9.41
+T112.9283989359974 attempt_60: "litigation" score:9.41 prog:None
+T116.20866372699675 🤔 extract_1/6 #62 "objectionable" score? 7.14
+T116.20894746000704 attempt_61: "objectionable" score:7.14 prog:None
+T119.76809240299917 🤔 extract_1/5 #63 "officer" score? -.07
+T119.76830284199968 attempt_62: "officer" score:-0.07 prog:None
+T124.57613179700274 🤔 extract_1/4 #64 "plea" score? 22.04 793
+T124.57634774000326 attempt_63: "plea" score:22.04 prog:793
+T127.96034129300097 🤔 extract_1/3 #65 "protester" score? 1.33
+T127.96052003500517 attempt_64: "protester" score:1.33 prog:None
+T132.81626917900576 🤔 extract_1/2 #66 "tribunal" score? 11.08
+T132.8164450040058 attempt_65: "tribunal" score:11.08 prog:None
+T135.6322435970069 🤔 extract_1/1 #67 "verbiage" score? 2.65
+T135.6324414349947 attempt_66: "verbiage" score:2.65 prog:None
+T140.44851225499588 #68 ? /last
+T158.5362843269977 #68 ? * t2 $6 !new
+T158.53648920700653 DEBUG cp: ChatPrompt(prompt='give me 16 words that are related to $1, $2, $3, and $4; do not list any words that you have already listed above', count=16, kind=None, rel='that are related to', trailer='; do not list any words that you have already listed above')
+T158.53658386299503 DEBUG kind: ''
+T158.53663180800504 DEBUG count: 0
+T158.53664165800728 DEBUG rel: None
+T158.53665084599925 DEBUG like: []
+T158.5366590150079 DEBUG unlike: []
+T158.53667435400712 DEBUG trailer: given:True [' t2 $6 !new']
+T158.5367645189981 chat_prompt: give me 16 words that are not related to each other;  t2 $6 !new
+T158.53691792700556 session: {"role": "user", "content": "give me 16 words that are not related to each other;  t2 \"plea\" !new"}
+T220.45618880500842 <INT>
+T0.011309630004689097 now: 2024-11-27T13:46:14EST
+T3.7109105230047135 #68 ? /last
+T27.975319111006684 <INT>
+T0.007839008001610637 now: 2024-11-27T13:59:36EST
+T1.3490616060007596 #68 ? /last
+T2.8771715850016335 #68 ? /last pop
+T2.877402191996225 session: pop
+T14.204924188001314 #68 ? /last
+T34.78020525700413 #68 ? * t2 $6 !new
+T34.78062035900075 DEBUG cp: ChatPrompt(prompt='give me 16 words that are not related to each other;  t2 $6 !new', count=16, kind=None, rel='that are not related to each other', trailer=';  t2 $6 !new')
+T34.78092465699592 DEBUG scale: per = default(ceil(16/0), 5) = 5
+T34.78094160099863 DEBUG scale: n = 3 * 0 = 3
+T34.780951259992435 DEBUG scale: count = 5 * 3 = 15
+T34.780959094001446 DEBUG count: 15
+T34.78096646099584 DEBUG rel: None
+T34.780976267997175 DEBUG like: ['$1', '$2', '$6']
+T34.78098414199485 DEBUG unlike: []
+T34.780994141998235 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T34.78106441399723 chat_prompt: give me 15 words that are related to $1, $2, and $6; do not list any words that you have already listed above
+T34.78126182999404 session: {"role": "user", "content": "give me 15 words that are related to \"request\", \"appeal\", and \"plea\"; do not list any words that you have already listed above"}
+T54.80461236099654 session: {"role": "assistant", "content": "Here are 15 additional words that are related to the given terms:\n\n1. Entreat\n2. Exigency\n3. Protestation\n4. Supplication\n5. Intercession\n6. Indictment\n7. Conviction\n8. Reprieve\n9. Amnesty\n10. Redemption\n11. Expostulation\n12. Allegation\n13. Denial\n14. Counterclaim\n15. Sustenance"}
+T72.58088905000477 #68 extract_...
+T77.62828689000162 🤔 extract_1/15 #68 "allegation" score? 20.12 669
+T77.62837338499958 attempt_67: "allegation" score:20.12 prog:669
+T80.05237267799384 🤔 extract_1/14 #69 "amnesty" score? 7.82
+T80.05252351699164 attempt_68: "amnesty" score:7.82 prog:None
+T85.3165575919993 🤔 extract_1/13 #70 "conviction" score? 18.25 507
+T85.31679205500404 attempt_69: "conviction" score:18.25 prog:507
+T90.25317007700505 🤔 extract_1/12 #71 "counterclaim" score? 18.94 578
+T90.25337522299378 attempt_70: "counterclaim" score:18.94 prog:578
+T92.77306506100285 🤔 extract_1/11 #72 "denial" score? 10.82
+T92.77324695799325 attempt_71: "denial" score:10.82 prog:None
+T95.32507020699268 🤔 extract_1/10 #73 "entreat" score? 5.93
+T95.32525933500438 attempt_72: "entreat" score:5.93 prog:None
+T98.00554016800015 🤔 extract_1/9 #74 "exigency" score? -2.44
+T98.00588698599313 attempt_73: "exigency" score:-2.44 prog:None
+T101.00485436699819 🤔 extract_1/8 #75 "expostulation" score? -7.06
+T101.0050069400022 attempt_74: "expostulation" score:-7.06 prog:None
+T111.5249598549999 🤔 extract_1/7 #76 "indictment" score? 8.06
+T111.5251244980027 attempt_75: "indictment" score:8.06 prog:None
+T113.96521718999429 🤔 extract_1/6 #77 "intercession" score? 7.19
+T113.96541676600464 attempt_76: "intercession" score:7.19 prog:None
+T116.50080269400496 🤔 extract_1/5 #78 "protestation" score? 10.46
+T116.5008699559985 attempt_77: "protestation" score:10.46 prog:None
+T118.78104747999168 🤔 extract_1/4 #79 "redemption" score? 11.22
+T118.78131833499356 attempt_78: "redemption" score:11.22 prog:None
+T121.54886830000032 🤔 extract_1/3 #80 "reprieve" score? 14.66
+T121.54905163899821 attempt_79: "reprieve" score:14.66 prog:None
+T124.30142349400558 🤔 extract_1/2 #81 "supplication" score? 3.96
+T124.30171765699924 attempt_80: "supplication" score:3.96 prog:None
+T127.90894684000523 🤔 extract_1/1 #82 "sustenance" score? -2.46
+T127.90912254300201 attempt_81: "sustenance" score:-2.46 prog:None
+T131.5176388300024 #83 ? /prog
+T180.06097365099413 #83 ? *t4 !new
+T180.06120010500308 DEBUG cp: ChatPrompt(prompt='give me 15 words that are related to $1, $2, and $6; do not list any words that you have already listed above', count=15, kind=None, rel='that are related to', trailer='; do not list any words that you have already listed above')
+T180.0613524569926 DEBUG scale: per = default(ceil(15/3), 5) = 5
+T180.06136567400245 DEBUG scale: n = 4 * 0 = 4
+T180.06137474399293 DEBUG scale: count = 5 * 4 = 20
+T180.0613826609915 DEBUG count: 20
+T180.06138987500162 DEBUG rel: None
+T180.06140120199416 DEBUG like: ['$1', '$2', '$3', '$4']
+T180.06140846500057 DEBUG unlike: []
+T180.06141867599217 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T180.06151375699847 chat_prompt: give me 20 words that are related to $1, $2, $3, and $4; do not list any words that you have already listed above
+T180.0616712100018 session: {"role": "user", "content": "give me 20 words that are related to \"request\", \"appeal\", \"decision\", and \"petition\"; do not list any words that you have already listed above"}
+T189.56997428099567 session: {"role": "assistant", "content": "Here are 20 additional words that are related to the given terms:\n\n1. Solicitation\n2. Enquiry\n3. Proposal\n4. Indictment\n5. Rebuke\n6. Dismissal\n7. Intercessory\n8. Testimony\n9. Prosecution\n10. Advocacy\n11. Censure\n12. Rebuttal\n13. Objectionable\n14. Culpability\n15. Compromise\n16. Amicable\n17. Mandamus\n18. Injunction\n19. Exigency\n20. Discretion"}
+T190.8131586459931 #83 extract_...
+T193.15712718899886 🤔 extract_1/17 #83 "advocacy" score? 2.39
+T193.157308378999 attempt_82: "advocacy" score:2.39 prog:None
+T195.60510163599974 🤔 extract_1/16 #84 "amicable" score? 2.72
+T195.6052825939987 attempt_83: "amicable" score:2.72 prog:None
+T199.94101876100467 🤔 extract_1/15 #85 "censure" score? 15.87 126
+T199.9412354149972 attempt_84: "censure" score:15.87 prog:126
+T210.29304445299204 🤔 extract_1/14 #86 "compromise" score? 16.16 182
+T210.29324169100437 attempt_85: "compromise" score:16.16 prog:182
+T213.3490677230002 🤔 extract_1/13 #87 "culpability" score? 6.96
+T213.34928772099374 attempt_86: "culpability" score:6.96 prog:None
+T216.16516481099825 🤔 extract_1/12 #88 "discretion" score? 7.68
+T216.1653980550036 attempt_87: "discretion" score:7.68 prog:None
+T218.5808641909971 🤔 extract_1/11 #89 "dismissal" score? 14.08
+T218.5810570189933 attempt_88: "dismissal" score:14.08 prog:None
+T221.1249865629943 🤔 extract_1/10 #90 "enquiry" score? !
+T221.12512374999642 reject: "enquiry"
+T226.58905358199263 🤔 extract_1/9 #90 "injunction" score? 20.19 677
+T226.58926663399325 attempt_89: "injunction" score:20.19 prog:677
+T231.5569937160035 🤔 extract_1/8 #91 "intercessory" score? !
+T231.5571423549991 reject: "intercessory"
+T234.18892167099693 🤔 extract_1/7 #91 "mandamus" score? 6.267
+T234.1890938459983 attempt_90: "mandamus" score:6.27 prog:None
+T240.4048828609957 🤔 extract_1/6 #92 "proposal" score? 44.69 994
+T240.40506425200147 attempt_91: "proposal" score:44.69 prog:994
+T245.0775544979988 🤔 extract_1/5 #93 "prosecution" score? 11.97
+T245.07789628600585 attempt_92: "prosecution" score:11.97 prog:None
+T252.96481220900023 #94 ? *t3 /clear .
+T252.96501319699746 DEBUG cp: ChatPrompt(prompt='give me 20 words that are related to $1, $2, $3, and $4; do not list any words that you have already listed above', count=20, kind=None, rel='that are related to', trailer='; do not list any words that you have already listed above')
+T252.96516075100226 DEBUG scale: per = default(ceil(20/4), 5) = 5
+T252.96517591299198 DEBUG scale: n = 3 * 0 = 3
+T252.96518635899702 DEBUG scale: count = 5 * 3 = 15
+T252.9651960469928 DEBUG count: 15
+T252.96520545899693 DEBUG rel: None
+T252.96521917199425 DEBUG like: ['$1', '$2', '$3']
+T252.96522854300565 DEBUG unlike: []
+T252.96523974499723 DEBUG trailer: given:True []
+T252.965333190994 session clear
+T252.9653827620059 chat_prompt: give me 15 words that are related to $1, $2, and $3
+T252.9655838040053 session: {"role": "user", "content": "give me 15 words that are related to \"proposal\", \"request\", and \"appeal\""}
+T259.1808489209943 session: {"role": "assistant", "content": "Here are 15 words related to \"proposal,\" \"request,\" and \"appeal\":\n\n1. Request\n2. Proposal\n3. Petition\n4. Appeal\n5. Offer\n6. Negotiation\n7. Demands\n8. Plea\n9. Bid\n10. Tender\n11. Claim\n12. Bargain\n13. Suggestion\n14. Entreaty\n15. Exhortation"}
+T260.88529465999454 #94 extract_...
+T265.6853707410046 🤔 extract_1/10 #94 "bargain" score? 24.21 874
+T265.68569132700213 attempt_93: "bargain" score:24.21 prog:874
+T271.30102943799284 🤔 extract_1/9 #95 "bid" score? 100 1000
+T271.30121753200365 attempt_94: "bid" score:100.00 prog:1000
+T276.8849980189989 Paste share result, then preses <Enter>
+T276.8923396290047 share result: "I found #cemantle #968 in 95 guesses!\n\ud83e\udd73\n\ud83d\udd25\n\ud83e\udd754\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e2\ufe0f\u20e32\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd765\ufe0f\u20e36\ufe0f\u20e3\n\ud83e\uddca1\ufe0f\u20e31\ufe0f\u20e3\nhttps://cemantle.certitudes.org/"
+T276.89320893699187 <STOP>
