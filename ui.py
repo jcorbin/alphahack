@@ -4,7 +4,7 @@ import subprocess
 import time
 from contextlib import contextmanager
 from collections.abc import Generator, Sequence
-from typing import cast, final, Any, Callable, Literal, Protocol, TextIO
+from typing import cast, final, Callable, Literal, Protocol, TextIO
 
 class Clipboard(Protocol):
     def copy(self, mess: str) -> None:
@@ -269,10 +269,10 @@ class PromptUI:
 
     @staticmethod
     @contextmanager
-    def catch_state(t: Any, st: State): # pyright: ignore[reportAny]
+    def catch_state(type_: type[BaseException], st: State):
         try:
             yield
-        except t:
+        except type_:
             raise NextState(st)
 
     def run(self, state: State):
