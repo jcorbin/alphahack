@@ -1365,10 +1365,10 @@ class Search(StoredLog):
         trailer: list[str] = []
         trailer_given: bool = False
 
-        cp = ChatPrompt()
+        cp: ChatPrompt|None = None
         if isinstance(self.last_chat_prompt, ChatPrompt):
             cp = self.last_chat_prompt
-        else:
+        elif self.last_chat_prompt:
             try:
                 cp = ChatPrompt(self.last_chat_prompt)
             except ValueError:
@@ -1376,8 +1376,11 @@ class Search(StoredLog):
 
         with ui.tokens as tokens:
             if tokens.have(r'.\?'):
-                ui.print('last chat prompt:')
-                ui.print(f'> {cp.prompt}')
+                if cp:
+                    ui.print('last chat prompt:')
+                    ui.print(f'> {cp.prompt}')
+                else:
+                    ui.print('no last chat prompt')
                 raise StopIteration
 
             first = True
@@ -1432,17 +1435,20 @@ class Search(StoredLog):
                         continue
                     rel = token if not rel else f'{rel} {token}'
 
-        if count is None:
+        # TODO allow user to override kind via token loop above
+
+        if not cp:
+            cp = ChatPrompt(kind=self.lang)
+
+        elif count is None:
             nr = cp.num_refs
             per = math.ceil(cp.count / nr if nr > 0 else 5)
             n = len(like_words) + len(unlike_words)
             count = per * n
 
-        kind = self.lang # TODO more flexible kind-vs-lang handling
 
         np = cp.rebuild(
             count=count,
-            kind=kind, # TODO more flexible kind-vs-lang handling
             rel=rel,
             like=like_words,
             unlike=unlike_words,
@@ -2612,6 +2618,11 @@ class GenPromptTestCase:
     prior> give me 9 words that are related to $1, $2, and $3
     > give me 12 words that are related to $1, $2, $3, and $4
     - clear: true
+
+    * $1 $10 $13 !new
+    prior> give me 8 French words that are related to $1 and $2
+    > give me 12 French words that are related to $1, $10, and $13; do not list any words that you have already listed above
+    - clear: false
 
 ''')
 def test_gen_prompt(case: GenPromptTestCase):
