@@ -375,6 +375,13 @@ class ChatSession:
     chat: list[ollama.Message]
     model: str
 
+@dataclass
+class YesterDatum:
+    rank: int
+    word: str
+    score: float
+    prog: int
+
 default_abbr = {
     # '!gim': 'give me $count $kind words',
     # '!rel': 'that are $rel',
@@ -1200,7 +1207,7 @@ class Search(StoredLog):
 
     def do_yester(self, ui: PromptUI):
         if not self.ephemeral or not self.stored:
-            print('! scraping is only intended to be used after expiration and store')
+            print('! yesterdata is only expected after expiration and store')
             return
 
         with (
@@ -1246,56 +1253,65 @@ class Search(StoredLog):
             if yesterword != have:
                 raise ValueError(f'yesterword "{yesterword}" disagrees with found "{have}"')
 
-        yb = yt.select_one('#yesterbody')
-        if not yb:
-            raise ValueError('missing #yestertable #yesterbody element')
+        def extract():
+            yb = yt.select_one('#yesterbody')
+            if not yb:
+                raise ValueError('missing #yestertable #yesterbody element')
 
-        # TODO extract scheme from
-        # <thead>
-        # 	<tr>
-        # 	<th class="number">#</th>
-        # 	<th class="word">Word&nbsp;&nbsp;&nbsp;</th>
-        # 	<th class="number">°C</th>
-        # 	<th>&nbsp;&nbsp;&nbsp;</th>
-        # 	<th class="number">‰</th>
-        # 	<th></th>
-        # 	</tr>
-        # </thead>
+            # TODO extract scheme from
+            # <thead>
+            # 	<tr>
+            # 	<th class="number">#</th>
+            # 	<th class="word">Word&nbsp;&nbsp;&nbsp;</th>
+            # 	<th class="number">°C</th>
+            # 	<th>&nbsp;&nbsp;&nbsp;</th>
+            # 	<th class="number">‰</th>
+            # 	<th></th>
+            # 	</tr>
+            # </thead>
 
+            some = False
+            for row in yb.select('tr'):
+                try:
+                    srank, word, sscore, _, sprog, _ = (
+                        cell.text
+                        for cell in row.select('td'))
+                    rank = int(srank) if srank else 0
+                    some = True
+                    yield YesterDatum(rank, word, float(sscore), int(sprog))
+
+                except (ValueError, IndexError) as e:
+                    print(f'! failed to extract data from yesterrow {row} : {e}')
+
+            if not some:
+                raise ValueError('empty #yestertable #yesterbody, no rows extracted')
+
+        return self.yesterdat(ui, yesterword, extract())
+
+    def yesterdat(self, ui: PromptUI, word: str, records: Iterable[YesterDatum]):
         ranks: list[int] = []
         words: list[str] = []
         scores: list[float] = []
         progs: list[int] = []
-        for row in yb.select('tr'):
-            try:
-                srank, word, sscore, _, sprog, _ = (
-                    cell.text
-                    for cell in row.select('td'))
-                rank = int(srank) if srank else 0
-                score = float(sscore)
-                prog = int(sprog)
-                ranks.append(rank)
-                words.append(word)
-                scores.append(score)
-                progs.append(prog)
-            except (ValueError, IndexError) as e:
-                print(f'! failed to extrac data from yesterrow {row} : {e}')
 
-        if not len(words):
-            raise ValueError('emptry #yestertable #yesterbody, no rows extracted')
+        for rec in records:
+            ranks.append(rec.rank)
+            words.append(rec.word)
+            scores.append(rec.score)
+            progs.append(rec.prog)
 
         if len(words) != 101:
-            ui.print(f'WARNING: expected to extract 101 rows from #yestertable #yesterbody got {len(words)}')
+            ui.print(f'WARNING: expected to have 101 records of yesterdat, got {len(words)}')
 
         yesterdat = {
-            'word': yesterword,
+            'word': word,
             'ranks': ranks,
             'words': words,
             'scores': scores,
             'progs': progs,
         }
         ui.log(f'yesterdat: {json.dumps(yesterdat)}')
-        ui.print(f'💿 {len(words)} words of yesterdata relating to "{yesterword}"')
+        ui.print(f'💿 {len(words)} words of yesterdata relating to "{word}"')
 
     def orient(self, ui: PromptUI):
         if self.found is not None:
