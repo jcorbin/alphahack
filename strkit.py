@@ -69,9 +69,15 @@ class PeekIter[V]:
             return val
         return next(self.it)
 
-    def peek(self):
+    @overload
+    def peek(self) -> V|None: pass
+
+    @overload
+    def peek(self, default: V) -> V: pass
+
+    def peek(self, default: V|None=None):
         if self._val is None:
-            self._val = next(self.it, None)
+            self._val = next(self.it, default)
         return self._val
 
     def take(self):
