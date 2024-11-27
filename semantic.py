@@ -1315,6 +1315,24 @@ class Search(StoredLog):
         return self.ideate
 
     def generate(self, ui: PromptUI):
+        try:
+            clear, np = self.build_next_prompt(ui)
+
+        except StopIteration:
+            return
+
+        except ValueError as e:
+            ui.print(f'* {e}')
+            return
+
+        if clear:
+            self.chat_clear_cmd(ui)
+
+        st = self.chat_prompt(ui, np)
+
+        return st
+
+    def build_next_prompt(self, ui: PromptUI):
         def rec(token: str, *maybe: Callable[[str], str|None]):
             for may in maybe:
                 tok = may(token)
@@ -1347,21 +1365,24 @@ class Search(StoredLog):
         trailer: list[str] = []
         trailer_given: bool = False
 
-        cp = self.last_chat_prompt if isinstance(self.last_chat_prompt, ChatPrompt) else ChatPrompt()
+        cp = ChatPrompt()
+        if isinstance(self.last_chat_prompt, ChatPrompt):
+            cp = self.last_chat_prompt
+        else:
+            try:
+                cp = ChatPrompt(self.last_chat_prompt)
+            except ValueError:
+                pass
 
         with ui.tokens as tokens:
             if tokens.have(r'.\?'):
                 ui.print('last chat prompt:')
                 ui.print(f'> {cp.prompt}')
-                return
+                raise StopIteration
 
             token = next(tokens)
             if len(token) > 1:
-                try:
-                    count = int(token[1:])
-                except ValueError:
-                    ui.print('! invalid *<INT>')
-                    return
+                count = int(token[1:])
 
             for token in tokens:
                 if len(token) >= 2 and '/clear'.startswith(token): # TODO can this bi an abbr
@@ -1406,8 +1427,6 @@ class Search(StoredLog):
             n = len(like_words) + len(unlike_words)
             count = per * n
 
-        if clear: self.chat_clear_cmd(ui)
-
         kind = self.lang # TODO more flexible kind-vs-lang handling
 
         np = cp.rebuild(
@@ -1419,7 +1438,7 @@ class Search(StoredLog):
             trailer=trailer if trailer or trailer_given else None,
         )
 
-        return self.chat_prompt(ui, np)
+        return clear, np
 
     def prompt_parts(self):
         stats = self.chat_stats()
@@ -2316,6 +2335,17 @@ class Search(StoredLog):
 
 import pytest
 
+def scan_test_lines(spec: str):
+    lines = (
+        s.strip()
+        for s in spliterate(spec, '\n', trim = True))
+    lines = (
+        line
+        for line in lines
+        if line
+        if not line.startswith('//'))
+    return PeekStr(lines)
+
 @dataclass
 class ChatPromptTestCase:
     @classmethod
@@ -2324,23 +2354,9 @@ class ChatPromptTestCase:
         ids = [case.id for case in cases]
         return pytest.mark.parametrize('case', cases, ids=ids)
 
-    @staticmethod
-    def peek_or_scan(spec: str|PeekStr):
-        if not isinstance(spec, PeekStr):
-            lines = (
-                s.strip()
-                for s in spliterate(spec, '\n', trim = True))
-            lines = (
-                line
-                for line in lines
-                if line
-                if not line.startswith('//'))
-            spec = PeekStr(lines)
-        return spec
-
     @classmethod
     def parseiter(cls, spec: str|PeekStr):
-        spec = cls.peek_or_scan(spec)
+        spec = scan_test_lines(spec) if isinstance(spec, str) else spec
         try:
             while True:
                 yield cls.parse(spec)
@@ -2348,7 +2364,8 @@ class ChatPromptTestCase:
 
     @classmethod
     def parse(cls, spec: str|PeekStr):
-        spec = cls.peek_or_scan(spec)
+        spec = scan_test_lines(spec) if isinstance(spec, str) else spec
+
         prompt = next(spec)
         if prompt == '_': prompt = ''
 
@@ -2516,6 +2533,85 @@ def test_word_extraction(input: str, expected: Sequence[tuple[int, str]]):
         for line in spliterate(input, '\n', trim=True)
         for nword in find_match_words(line.strip())
     ] == expected
+
+@dataclass
+class GenPromptTestCase:
+    @classmethod
+    def mark(cls, spec: str):
+        cases = list(cls.parseiter(spec))
+        ids = [case.id for case in cases]
+        return pytest.mark.parametrize('case', cases, ids=ids)
+
+    @classmethod
+    def parseiter(cls, spec: str|PeekStr):
+        spec = scan_test_lines(spec) if isinstance(spec, str) else spec
+        try:
+            while True:
+                yield cls.parse(spec)
+        except StopIteration: pass
+
+    @classmethod
+    def parse(cls, spec: str|PeekStr):
+        spec = scan_test_lines(spec) if isinstance(spec, str) else spec
+
+        input = next(spec)
+        prior = spec.have(r'prior> +(.+)$', lambda match: cast(str, match.group(1)), '')
+        prompt = spec.have(r'> +(.+)$', lambda match: cast(str, match.group(1)), '')
+
+        clear = False
+
+        for name, value in spec.consume(
+            r'- +([\w_\-]+): *(.+?)$', lambda match: (
+                cast(str, match.group(1)),
+                cast(str, match.group(2))
+            )
+        ):
+            if name == 'clear': clear = value.lower().startswith('t')
+            else:
+                raise ValueError(f'unknown gen prompt test expectation {name}')
+
+        return cls(prior, input, clear, prompt)
+
+    prior: str
+    input: str
+    clear: bool
+    prompt: str
+
+    @property
+    def id(self):
+        return f'{self.input.replace(" ", "_")}'
+
+@GenPromptTestCase.mark('''
+
+    *
+    > give me 10 words that are not related to each other
+    - clear: false
+
+    * t3
+    prior> give me 10 words that are not related to each other
+    > give me 15 words that are related to $1, $2, and $3
+    - clear: false
+
+    *9 t3
+    prior> give me 10 words that are not related to each other
+    > give me 9 words that are related to $1, $2, and $3
+    - clear: false
+
+''')
+def test_gen_prompt(case: GenPromptTestCase):
+    def eof_input(_s: str): raise EOFError
+    ui = PromptUI(
+        get_input = eof_input,
+        sink = lambda s: print('LOG', s),
+    )
+    ui.tokens.raw = case.input
+
+    search = Search()
+    search.last_chat_prompt = case.prior
+    clear, np = search.build_next_prompt(ui)
+
+    assert clear == case.clear
+    assert np == case.prompt
 
 ### entry point
 
