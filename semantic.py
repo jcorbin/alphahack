@@ -375,6 +375,17 @@ class ChatSession:
     chat: list[ollama.Message]
     model: str
 
+default_abbr = {
+    # '!gim': 'give me $count $kind words',
+    # '!rel': 'that are $rel',
+    # '!fin': 'each other', XXX lambda ctx: only if !rel and no refs
+    # '*': '!gim !rel ... !fin', XXX lambda ctx: proc tokens in ...
+    '!new': 'do not list any words that you have already listed above',
+    '!cont': 'keep going',
+    '!meh': 'none of those word are very good',
+    '!bad': 'all of those word are terrible',
+}
+
 @final
 class Search(StoredLog):
     log_file: str = 'cemantle.log'
@@ -425,7 +436,7 @@ class Search(StoredLog):
         self.llm_client = ollama.Client()
         self.llm_model: str = self.default_chat_model
 
-        self.abbr: dict[str, str] = dict()
+        self.abbr: dict[str, str] = dict(default_abbr)
         self.chat: list[ollama.Message] = []
         self.chat_history: list[ChatSession] = []
 
@@ -573,16 +584,6 @@ class Search(StoredLog):
             self.do_lang(ui)
             self.do_puzzle(ui)
             if not self.puzzle_id: return
-
-        # self.abbr['!gim'] = 'give me $count $kind words'
-        # self.abbr['!rel'] = 'that are $rel'
-        # self.abbr['!fin'] = 'each other' XXX lambda ctx: only if !rel and no refs
-        # self.abbr['*'] = '!gim !rel ... !fin' XXX lambda ctx: proc tokens in ...
-        self.abbr['!new'] = 'do not list any words that you have already listed above'
-        self.abbr['!cont'] = 'keep going'
-        self.abbr['!meh'] = 'none of those word are very good'
-        self.abbr['!bad'] = 'all of those word are terrible'
-
         return self.startup_scale
 
     def startup_scale(self, ui: PromptUI):
