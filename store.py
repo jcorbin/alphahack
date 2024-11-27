@@ -464,6 +464,16 @@ class git_txn:
         _ = subprocess.check_call(['git', 'add', *paths])
         self.added.update(paths)
 
+    @contextmanager
+    def will_add(self, *paths: str):
+        try:
+            yield
+        except:
+            _ = subprocess.check_call(['git', 'checkout', *paths])
+            raise
+        else:
+            _ = subprocess.check_call(['git', 'add', *paths])
+
     def __enter__(self):
         return self
 

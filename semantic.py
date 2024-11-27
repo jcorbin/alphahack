@@ -6,7 +6,6 @@ import json
 import math
 import ollama
 import re
-import subprocess
 from bs4 import BeautifulSoup
 from collections import Counter
 from collections.abc import Generator, Iterable, Iterator, Sequence
@@ -1287,27 +1286,24 @@ class Search(StoredLog):
             print('! scraping is only intended to be used after expiration and store')
             return
 
-        try:
-            with git_txn(f'{self.site} {self.puzzle_id} yesterdat') as txn:
-                with self.log_to(ui):
-                    # TODO why does this not work:
-                    # page = requests.get('https://cemantle.certitudes.org/')
-                    link = self.result.link if self.result else f'https://{self.site}'
-                    _ = ui.input(f'Copy html from {link} and press <Enter>')
-                    content = ui.paste()
-                    soup = BeautifulSoup(content, 'html.parser')
-                    for i, line in enumerate(content.splitlines()):
-                        if i > 9:
-                            ui.print(f'... {content.count("\n") - 9} more lines')
-                            break
-                        ui.print(f'... {line}')
-                    self.yesterextract(ui, soup)
-                txn.add(self.log_file)
-        except ValueError as e:
-            ui.print(f'! {e}')
-            _ = subprocess.check_call(['git', 'checkout', self.log_file])
-        else:
-            ui.print(f'🗃️ {self.log_file}')
+        with (
+            git_txn(f'{self.site} {self.puzzle_id} yesterdat') as txn,
+            txn.will_add(self.log_file),
+            self.log_to(ui),
+        ):
+            # TODO why does this not work:
+            # page = requests.get('https://cemantle.certitudes.org/')
+            link = self.result.link if self.result else f'https://{self.site}'
+            _ = ui.input(f'Copy html from {link} and press <Enter>')
+            content = ui.paste()
+            soup = BeautifulSoup(content, 'html.parser')
+            for i, line in enumerate(content.splitlines()):
+                if i > 9:
+                    ui.print(f'... {content.count("\n") - 9} more lines')
+                    break
+                ui.print(f'... {line}')
+            self.yesterextract(ui, soup)
+        ui.print(f'🗃️ {self.log_file}')
 
     def yesterextract(self, ui: PromptUI, soup: BeautifulSoup):
         yt = soup.select_one('#yestertable')
