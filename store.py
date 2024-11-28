@@ -430,7 +430,7 @@ class git_txn:
             _ = subprocess.check_call(['git', 'checkout', *paths])
             raise
         else:
-            _ = subprocess.check_call(['git', 'add', *paths])
+            self.add(*paths)
 
     def __enter__(self):
         return self
