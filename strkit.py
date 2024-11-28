@@ -44,6 +44,28 @@ def spliterate(s: str, chars: str, trim: bool = False):
         yield part
     if not trim and fin: yield ''
 
+def first_indent(first: str):
+    match = re.match(r'\s+', first)
+    if not match:
+        return '', first
+    return match.group(0), first[match.end(0):]
+
+def striperate(lines: Iterable[str], pattern: re.Pattern[str]|None = None) -> Generator[str]:
+    it = iter(lines)
+    if pattern is None:
+        first = next(it, None)
+        if first is None: return
+        indent, first = first_indent(first)
+        yield first
+        if not indent:
+            yield from it
+            return
+        pattern = re.compile(indent)
+
+    for line in lines:
+        match = pattern.match(line)
+        yield line[match.end(0):] if match else line
+
 def wraplines(at: int, lines: Iterable[str]):
     for line in lines:
         while len(line) > at:
