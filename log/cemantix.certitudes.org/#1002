@@ -1,0 +1,508 @@
+T0.005419459994300269 now: 2024-11-27T21:00:13EST
+T1.1302944880008 🔗 cemantix.certitudes.org ? 
+T1.719712731995969 🌎 French ? 
+T2.2282894259988097 🧩  ? 
+T8.115726675998303 🔗 cemantix.certitudes.org ? 
+T8.873992405991885 🌎 French ? 
+T10.733356976998039 🧩  ? #1002
+T10.733503198003746 puzzle_id: #1002
+T13.564913445996353 😎 °C ? 17.26
+T13.56500256099389 scale: 😎 17.26 °C
+T14.952011617002427 🥵 °C ? 28.14
+T14.95211354199273 scale: 🥵 28.14 °C
+T16.888917827993282 🔥 °C ? 41.22
+T16.888995122004417 scale: 🔥 41.22 °C
+T19.74845429699053 😱 °C ? 56.58
+T19.74851653499354 scale: 😱 56.58 °C
+T19.752702743004193 session model: llama3.2:latest
+T20.772129210003186 #1 ? 
+T20.772260960991844 DEBUG cp: None
+T20.772355409993907 DEBUG count: None
+T20.77237029900425 DEBUG rel: None
+T20.772380584996426 DEBUG like: []
+T20.772390786994947 DEBUG unlike: []
+T20.772404866991565 DEBUG trailer: given:False []
+T20.772470294003142 chat_prompt: give me 10 French words that are not related to each other
+T20.772579805998248 session: {"role": "user", "content": "give me 10 French words that are not related to each other"}
+T27.402159759993083 session: {"role": "assistant", "content": "Here are 10 French words that are not related to each other:\n\n1. Rivi\u00e8re (river)\n2. Fleur (flower)\n3. Baguette (bread)\n4. Maison (house)\n5. \u00c9talon (standard or benchmark)\n6. Cuisine (kitchen)\n7. V\u00e9lo (bicycle)\n8. Moustache (mustache)\n9. Parcours (course or route)\n10. Carte (map)"}
+T31.27572753500135 #1 extract_...
+T42.93257424799958 🤔 extract_1/10 #1 "baguette" score? -1.93
+T42.93265976499242 attempt_0: "baguette" score:-1.93 prog:None
+T47.00456017399847 🤔 extract_1/9 #2 "carte" score? 16.87
+T47.00479587599693 attempt_1: "carte" score:16.87 prog:None
+T50.20003298399388 🤔 extract_1/8 #3 "cuisine" score? -6.34
+T50.20024738299253 attempt_2: "cuisine" score:-6.34 prog:None
+T55.57738646499638 🤔 extract_1/7 #4 "fleur" score? -5.61
+T55.57782140299969 attempt_3: "fleur" score:-5.61 prog:None
+T61.52273705799598 🤔 extract_1/6 #5 "maison" score? -5.94
+T61.52294230599364 attempt_4: "maison" score:-5.94 prog:None
+T65.88797584499116 🤔 extract_1/5 #6 "moustache" score? -5.67
+T65.88820709199354 attempt_5: "moustache" score:-5.67 prog:None
+T69.36065158600104 🤔 extract_1/4 #7 "parcours" score? 6.74
+T69.3608247480006 attempt_6: "parcours" score:6.74 prog:None
+T75.1248928970017 🤔 extract_1/3 #8 "rivière" score? -7.75
+T75.12505369899736 attempt_7: "rivière" score:-7.75 prog:None
+T78.93299666499661 🤔 extract_1/2 #9 "vélo" score? -8.6
+T78.93317535999813 attempt_8: "vélo" score:-8.60 prog:None
+T82.18565111700445 🤔 extract_1/1 #10 "étalon" score? 7.04
+T82.18584646799718 attempt_9: "étalon" score:7.04 prog:None
+T89.53044203600439 #11 ? *10 t2 !new
+T89.53127964200394 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are not related to each other', count=10, kind='French', rel='that are not related to each other', trailer=None)
+T89.53162502599298 DEBUG count: 10
+T89.5316374739923 DEBUG rel: None
+T89.53165100500337 DEBUG like: ['$1', '$2']
+T89.53166235200479 DEBUG unlike: []
+T89.53168018399447 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T89.53179692100093 chat_prompt: give me 10 French words that are related to $1 and $2; do not list any words that you have already listed above
+T89.53202542300278 session: {"role": "user", "content": "give me 10 French words that are related to \"carte\" and \"\u00e9talon\"; do not list any words that you have already listed above"}
+T99.32574201500393 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"carte\" (map) and/or \"\u00e9talon\" (standard or benchmark), excluding the previously listed words:\n\n1. Atlas (cartographer's collection of maps)\n2. Cartographie (cartography)\n3. Norme (standard or rule)\n4. Rep\u00e8re (reference point)\n5. D\u00e9signation (designated point or location)\n6. Cadre (frame or standard reference point)\n7. Unit\u00e9 (unit of measurement)\n8. R\u00e9f\u00e9rence (reference point or benchmark)\n9. Mesure (measure or standard unit)\n10. Catalogue (catalog of charts, maps, etc.)"}
+T101.16627705900464 #11 extract_...
+T104.57184717600467 🤔 extract_1/10 #11 "atlas" score? .98
+T104.57202164399496 attempt_10: "atlas" score:0.98 prog:None
+T107.5793409869948 🤔 extract_1/9 #12 "cadre" score? 16.21
+T107.57949327200186 attempt_11: "cadre" score:16.21 prog:None
+T111.01401037299365 🤔 extract_1/8 #13 "cartographie" score? 1.02
+T111.01424037899415 attempt_12: "cartographie" score:1.02 prog:None
+T113.6031691590033 🤔 extract_1/7 #14 "catalogue" score? 3.43
+T113.60333885600267 attempt_13: "catalogue" score:3.43 prog:None
+T114.59563934500329 #15 ? _
+T114.59577992100094 chat_prompt: _
+T114.59594620899588 session: {"role": "user", "content": "give me 10 French words that are related to \"carte\" and \"cadre\"; do not list any words that you have already listed above"}
+T128.1583705219964 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"carte\" (map) and/or \"cadre\" (frame or standard reference point), excluding the previously listed words:\n\n1. Cartonnage (carton or cardboard, used for maps)\n2. Cadreillage (framing of a map or chart)\n3. Superposition (layering of maps on top of each other)\n4. Alignement (alignment of elements on a map)\n5. Trac\u00e9 (tracing or drawing of a map)\n6. Carte d'orientation (map with bearings and directions)\n7. Cadre de recherche (research framework or standard reference point)\n8. Cartographie dynamique (dynamic mapping)\n9. Superposition num\u00e9rique (numeric superposition of maps)\n10. Mod\u00e9lisation cartographique (cartographic modeling)\n\nThese words relate to the creation, use, and manipulation of maps, as well as the standards and frameworks used in cartography."}
+T130.16730060600094 #15 extract_...
+T133.63279210300243 🤔 extract_1/12 #15 "alignement" score? 2.48
+T133.6330058159947 attempt_14: "alignement" score:2.48 prog:None
+T135.71373449999373 🤔 extract_1/11 #16 "cadreillage" score? !
+T135.7139055650041 reject: "cadreillage"
+T138.44848730899685 🤔 extract_1/10 #16 "cartographique" score? 4.91
+T138.44871750099992 attempt_15: "cartographique" score:4.91 prog:None
+T142.58821349899517 🤔 extract_1/9 #17 "cartonnage" score? -6.19
+T142.5884054240014 attempt_16: "cartonnage" score:-6.19 prog:None
+T144.56186245699064 🤔 extract_1/8 #18 "de" score? !
+T144.56200103700394 reject: "de"
+T148.63324670000293 🤔 extract_1/7 #18 "dynamique" score? -.47
+T148.6334283969918 attempt_17: "dynamique" score:-0.47 prog:None
+T155.052016525995 🤔 extract_1/6 #19 "modélisation" score? -7.64
+T155.05211171499104 attempt_18: "modélisation" score:-7.64 prog:None
+T158.7850333469978 🤔 extract_1/5 #20 "numérique" score? -2.48
+T158.7852387890016 attempt_19: "numérique" score:-2.48 prog:None
+T162.05242177100445 🤔 extract_1/4 #21 "orientation" score? 6.57
+T162.05251692399906 attempt_20: "orientation" score:6.57 prog:None
+T167.73716394699295 🤔 extract_1/3 #22 "recherche" score? 5.55
+T167.7373303439963 attempt_21: "recherche" score:5.55 prog:None
+T170.38922560900392 🤔 extract_1/2 #23 "superposition" score? 3.44
+T170.38943072999245 attempt_22: "superposition" score:3.44 prog:None
+T173.82635314499203 🤔 extract_1/1 #24 "tracé" score? -7.1
+T173.8265416840004 attempt_23: "tracé" score:-7.10 prog:None
+T183.42606913299824 #25 ? #24 score -7.13
+T183.4263094039925 fix attempt_23: score:-7.13
+T187.53246874899196 #25 ? /e scav all
+T191.90089997400355 🤔 extract_1/6 #25 "désignation" score? 16.86
+T191.90109508899332 attempt_24: "désignation" score:16.86 prog:None
+T195.42811896599596 🤔 extract_1/5 #26 "mesure" score? 7.37
+T195.4282898550009 attempt_25: "mesure" score:7.37 prog:None
+T197.25794653699268 #27 ? _
+T197.25808767699345 chat_prompt: _
+T197.25825926600373 session: {"role": "user", "content": "give me 10 French words that are related to \"carte\" and \"d\u00e9signation\"; do not list any words that you have already listed above"}
+T211.00823436499923 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"carte\" (map) and/or \"d\u00e9signation\" (designated point or location), excluding the previously listed words:\n\n1. Point de rep\u00e8re (reference point)\n2. Coordonn\u00e9es (coordinates, used for mapping)\n3. Nomenclature (naming of geographical features)\n4. Cotation (noting of a specific location or feature)\n5. Enregistrement (registration or documentation of a map or location)\n6. Signification (significance or meaning assigned to a map or location)\n7. Catalogage des lieux (cataloging of places or locations)\n8. Indexation cartographique (cartographic indexing)\n9. Localisation (location or positioning on a map)\n10. Identifiant g\u00e9ographique (geographical identifier, used for mapping and reference)\n\nThese words relate to the process of labeling, documenting, and referencing geographical features and locations on maps."}
+T212.16797702100303 #27 extract_...
+T214.86028146499302 🤔 extract_1/14 #27 "catalogage" score? 7.81
+T214.86053724099474 attempt_26: "catalogage" score:7.81 prog:None
+T217.04936238100345 🤔 extract_1/13 #28 "coordonnées" score? !
+T217.049482041999 reject: "coordonnées"
+T219.61478802999773 🤔 extract_1/12 #28 "cotation" score? 4.82
+T219.6149596949981 attempt_27: "cotation" score:4.82 prog:None
+T221.5159175759909 🤔 extract_1/11 #29 "des" score? !
+T221.516023691991 reject: "des"
+T224.4534890990035 🤔 extract_1/10 #29 "enregistrement" score? 10.86
+T224.45366842199292 attempt_28: "enregistrement" score:10.86 prog:None
+T230.6618972610013 🤔 extract_1/9 #30 "géographique" score? 28.18 902
+T230.66209273699496 attempt_29: "géographique" score:28.18 prog:902
+T231.73730975900253 #31 ? _
+T231.73746848299925 chat_prompt: _
+T231.73765215699677 session: {"role": "user", "content": "give me 10 French words that are related to \"g\u00e9ographique\" and \"carte\"; do not list any words that you have already listed above"}
+T249.43437010799244 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"g\u00e9ographique\" (geographical) and/or \"carte\" (map), excluding the previously listed words:\n\n1. Topographie (topography, study of landforms)\n2. Hydrographie (hydrography, study of water bodies)\n3. Climatologie (climatology, study of climate)\n4. G\u00e9omorphologie (geomorphology, study of land shape and form)\n5. Carto-physique (cartographic physics, study of map projections)\n6. Ondes telluriques (terrestrial waves, related to earthquake mapping)\n7. G\u00e9od\u00e9sie (geodesy, science of measuring the Earth's shape and size)\n8. Trac\u00e9 g\u00e9ographique (geographical tracing or surveying)\n9. Carte bathym\u00e9trique (bathymetric chart, map of underwater topography)\n10. Mod\u00e9lisation g\u00e9o-spatiale (spatial geo-modeling, study of spatial relationships)\n\nThese words relate to the scientific study and analysis of geographical features, landforms, and shapes, as well as the techniques used in mapping and cartography."}
+T250.61905695499445 #31 extract_...
+T255.9942709839961 🤔 extract_1/12 #31 "bathymétrique" score? -4.97
+T255.99445492999803 attempt_30: "bathymétrique" score:-4.97 prog:None
+T258.0869519629923 🤔 extract_1/11 #32 "carto" score? !
+T258.0870861099975 reject: "carto"
+T261.138044035004 🤔 extract_1/10 #32 "climatologie" score? -1.48
+T261.13824036299775 attempt_31: "climatologie" score:-1.48 prog:None
+T264.46612902599736 🤔 extract_1/9 #33 "géo" score? -5.99
+T264.4664412879938 attempt_32: "géo" score:-5.99 prog:None
+T266.93343409200315 🤔 extract_1/8 #34 "géodésie" score? 4.88
+T266.933631494001 attempt_33: "géodésie" score:4.88 prog:None
+T269.8872449909977 🤔 extract_1/7 #35 "géomorphologie" score? 3.91
+T269.8874103260023 attempt_34: "géomorphologie" score:3.91 prog:None
+T272.60730075299216 🤔 extract_1/6 #36 "hydrographie" score? 6.83
+T272.6074846989941 attempt_35: "hydrographie" score:6.83 prog:None
+T274.99101416899066 🤔 extract_1/5 #37 "ondes" score? !
+T274.99116199999116 reject: "ondes"
+T279.25975465399097 🤔 extract_1/4 #37 "physique" score? 6.46
+T279.25995237399184 attempt_36: "physique" score:6.46 prog:None
+T281.4194206329994 🤔 extract_1/3 #38 "spatiale" score? !
+T281.41954348399304 reject: "spatiale"
+T283.9853333249921 🤔 extract_1/2 #38 "telluriques" score? !
+T283.98544979299186 reject: "telluriques"
+T286.4502410529967 🤔 extract_1/1 #38 "topographie" score? 3.41
+T286.4503997229913 attempt_37: "topographie" score:3.41 prog:None
+T288.4036530329904 #39 ? *1
+T288.4038923219923 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are related to $1 and $2; do not list any words that you have already listed above', count=10, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T288.40399328499916 DEBUG count: 1
+T288.4040081109997 DEBUG rel: None
+T288.4040182589961 DEBUG like: []
+T288.4040274479921 DEBUG unlike: []
+T288.4040393369942 DEBUG trailer: given:False []
+T288.40415239600406 chat_prompt: give me 1 French words that are not related to each other; do not list any words that you have already listed above
+T288.4043247709924 session: {"role": "user", "content": "give me 1 French words that are not related to each other; do not list any words that you have already listed above"}
+T293.04322568500356 session: {"role": "assistant", "content": "Here is a single French word that is not related to the previous lists:\n\n1. Th\u00e9\u00e2tre (theater)\n\nThis word is unrelated to cartography, geography, or maps. It's a common French noun for a building where performances are held."}
+T295.2284647740016 #39 extract_1
+T299.6324403699982 🤔 extract_1/1 #39 "théâtre" score? .11
+T299.63260418399295 attempt_38: "théâtre" score:0.11 prog:None
+T300.1618602450035 <INT>
+T0.007454595004674047 now: 2024-11-27T21:05:15EST
+T9.133273783998447 #40 ? *6 t1 /clear .
+T9.13407716799702 DEBUG cp: ChatPrompt(prompt='give me 1 French words that are not related to each other; do not list any words that you have already listed above', count=1, kind='French', rel='that are not related to each other', trailer='; do not list any words that you have already listed above')
+T9.134445190997212 DEBUG count: 6
+T9.134461181005463 DEBUG rel: None
+T9.134473092010012 DEBUG like: ['$1']
+T9.134481141009019 DEBUG unlike: []
+T9.134492369004874 DEBUG trailer: given:True []
+T9.134580555997672 session clear
+T9.134622819998185 chat_prompt: give me 6 French words that are related to $1
+T9.134751771998708 session: {"role": "user", "content": "give me 6 French words that are related to \"g\u00e9ographique\""}
+T17.01455147699744 session: {"role": "assistant", "content": "Here are six French words related to \"g\u00e9ographique\":\n\n1. G\u00e9ologue - relating to the study of the Earth's physical structure, composition, and processes.\n2. Carte - map\n3. Relief - terrain or landscape features\n4. Climat - climate\n5. Hydrologie - study of water and its movement on, above, and below the Earth's surface.\n6. Geomorphologie - study of the shape and physical features of landscapes.\n\nNote: \"G\u00e9ographique\" refers to geography, so these words all relate to aspects of geography or the Earth sciences."}
+T18.81853405899892 #40 extract_...
+T21.655210473007173 🤔 extract_1/5 #40 "climat" score? 3.52
+T21.655466857002466 attempt_39: "climat" score:3.52 prog:None
+T23.906501327001024 🤔 extract_1/4 #41 "geomorphologie" score? !
+T23.906657169005484 reject: "geomorphologie"
+T26.71831897100492 🤔 extract_1/3 #41 "géologue" score? 7.77
+T26.718479308998212 attempt_40: "géologue" score:7.77 prog:None
+T30.152300387009745 🤔 extract_1/2 #42 "hydrologie" score? -.64
+T30.15247043200361 attempt_41: "hydrologie" score:-0.64 prog:None
+T33.29902471099922 🤔 extract_1/1 #43 "relief" score? -3.5
+T33.29923500200675 attempt_42: "relief" score:-3.50 prog:None
+T35.97234430001117 #44 ? /last
+T51.22415185200225 #44 ? * $1 -$32
+T51.22445961499761 DEBUG cp: ChatPrompt(prompt='give me 6 French words that are related to $1', count=6, kind='French', rel='that are related to', trailer=None)
+T51.22493660800683 DEBUG scale: per = default(ceil(6/1), 5) = 6
+T51.22495788001106 DEBUG scale: n = 1 * 1 = 2
+T51.2250105770072 DEBUG scale: count = 6 * 2 = 12
+T51.22502361900115 DEBUG count: 12
+T51.22503526401124 DEBUG rel: None
+T51.22504933500022 DEBUG like: ['$1']
+T51.22505970700877 DEBUG unlike: ['$32']
+T51.225072999004624 DEBUG trailer: given:False []
+T51.22521204499935 chat_prompt: give me 12 French words that are related to $1 but that are not related to $32
+T51.22543135800515 session: {"role": "user", "content": "give me 12 French words that are related to \"g\u00e9ographique\" but that are not related to \"relief\""}
+T63.71980144800909 session: {"role": "assistant", "content": "Here are twelve more French words related to \"g\u00e9ographique\" that are not directly related to \"relief\":\n\n1. Carte - map\n2. Climat - climate\n3. Hydrologie - study of water and its movement on, above, and below the Earth's surface.\n4. Geomorphologie - study of the shape and physical features of landscapes.\n5. G\u00e9omorphisme - geographical morphology (study of landforms)\n6. Ecosyst\u00e8me - ecosystem\n7. Biodiversit\u00e9 - biodiversity\n8. Histoire g\u00e9ographique - geographic history\n9. Topographie - topography (study of the shape and features of the Earth's surface)\n10. Hydrographie - study of rivers, lakes, and other bodies of water\n11. G\u00e9ologie - geology (study of rocks, minerals, and landforms)\n12. Territoire - territory"}
+T65.36011950600368 #44 extract_...
+T68.60408419600572 🤔 extract_1/6 #44 "biodiversité" score? -1.69
+T68.60426293101045 attempt_43: "biodiversité" score:-1.69 prog:None
+T75.07418110501021 🤔 extract_1/5 #45 "ecosystème" score? !
+T75.07431546300359 reject: "ecosystème"
+T77.85987291000492 🤔 extract_1/4 #45 "géologie" score? 1.28
+T77.86005015199771 attempt_44: "géologie" score:1.28 prog:None
+T79.98710922600003 🤔 extract_1/3 #46 "géomorphisme" score? !
+T79.98724798900366 reject: "géomorphisme"
+T83.10543152500759 🤔 extract_1/2 #46 "histoire" score? 6.72
+T83.10553932300536 attempt_45: "histoire" score:6.72 prog:None
+T87.90365942500648 🤔 extract_1/1 #47 "territoire" score? 21.27 541
+T87.90384664000885 attempt_46: "territoire" score:21.27 prog:541
+T95.36031235801056 #48 ? *t2 !new
+T95.36043269799848 DEBUG cp: ChatPrompt(prompt='give me 12 French words that are related to $1 but that are not related to $32', count=12, kind='French', rel='that are related to', trailer=None)
+T95.36050284000521 DEBUG scale: per = default(ceil(12/2), 5) = 6
+T95.36050899799739 DEBUG scale: n = 2 * 0 = 2
+T95.36051282800327 DEBUG scale: count = 6 * 2 = 12
+T95.36051622001105 DEBUG count: 12
+T95.36051922899787 DEBUG rel: None
+T95.36052460799692 DEBUG like: ['$1', '$2']
+T95.36052765900968 DEBUG unlike: []
+T95.3605324030068 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T95.36057508700469 chat_prompt: give me 12 French words that are related to $1 and $2; do not list any words that you have already listed above
+T95.3606570950069 session: {"role": "user", "content": "give me 12 French words that are related to \"g\u00e9ographique\" and \"territoire\"; do not list any words that you have already listed above"}
+T110.75053912799922 session: {"role": "assistant", "content": "Here are twelve more French words related to \"g\u00e9ographique\" and \"territoire\":\n\n1. Fronti\u00e8re - border\n2. Communaut\u00e9 g\u00e9ographique - geographic community (a group of people living in a specific region)\n3. Territoire de la France d'outre-mer - overseas department or territory of France\n4. Collectivit\u00e9 territoriale autonome - autonomous territorial collectivity\n5. Paysage - landscape\n6. Villes g\u00e9ographiques - geographic cities (cities with unique geographical features)\n7. Fleurissement urbain - urban flowering (the process of urban areas developing a strong sense of community and identity)\n8. Territoire de travail - work territory (a physical or virtual space where people work)\n9. G\u00e9ographie de la s\u00e9curit\u00e9 - geography of security (the study of the relationship between geography and security)\n10. Territoire rural - rural area\n11. Territoire d'exception - special territory (an area with unique geographical, cultural, or economic features)\n12. Planification territoriale - territorial planning"}
+T112.98973100000876 #48 extract_...
+T115.64357174200995 🤔 extract_1/20 #48 "autonome" score? 12.27
+T115.64374746300746 attempt_47: "autonome" score:12.27 prog:None
+T118.45112098600657 🤔 extract_1/19 #49 "collectivité" score? 6.85
+T118.45128677900357 attempt_48: "collectivité" score:6.85 prog:None
+T123.17546741799742 🤔 extract_1/18 #50 "communauté" score? 24.04 738
+T123.1756635930069 attempt_49: "communauté" score:24.04 prog:738
+T125.38085843500448 🤔 extract_1/17 #51 "d'outre" score? !
+T125.38102704100311 reject: "d'outre"
+T130.26626880301046 🤔 extract_1/16 #51 "exception" score? 22.85 672
+T130.26644470301108 attempt_50: "exception" score:22.85 prog:672
+T135.7616628399992 🤔 extract_1/15 #52 "fleurissement" score? .76
+T135.76183383000898 attempt_51: "fleurissement" score:0.76 prog:None
+T137.93206318400917 🤔 extract_1/14 #53 "france" score? !
+T137.9321955300111 reject: "france"
+T143.58831527200527 🤔 extract_1/13 #53 "frontière" score? 25.31 810
+T143.5885377950035 attempt_52: "frontière" score:25.31 prog:810
+T146.96405684700585 🤔 extract_1/12 #54 "géographie" score? 11.23
+T146.9642401660094 attempt_53: "géographie" score:11.23 prog:None
+T149.0690255540103 🤔 extract_1/11 #55 "géographiques" score? !
+T149.06917978399724 reject: "géographiques"
+T151.0939964220015 🤔 extract_1/10 #55 "la" score? !
+T151.0940885450109 reject: "la"
+T161.01616065400594 🤔 extract_1/9 #55 "mer" score? -5.53
+T161.01631853700383 attempt_54: "mer" score:-5.53 prog:None
+T164.47914867900545 🤔 extract_1/8 #56 "paysage" score? -2.55
+T164.47936039199703 attempt_55: "paysage" score:-2.55 prog:None
+T167.58090570400236 🤔 extract_1/7 #57 "planification" score? -2.06
+T167.58112890699704 attempt_56: "planification" score:-2.06 prog:None
+T171.01306431301055 🤔 extract_1/6 #58 "rural" score? -.81
+T171.01334145400324 attempt_57: "rural" score:-0.81 prog:None
+T173.74834515800467 🤔 extract_1/5 #59 "sécurité" score? 7.6
+T173.74845964500855 attempt_58: "sécurité" score:7.60 prog:None
+T175.8349109450064 🤔 extract_1/4 #60 "territoriale" score? !
+T175.8350402030046 reject: "territoriale"
+T178.84380516900274 🤔 extract_1/3 #60 "travail" score? 6.57
+T178.84400057399762 attempt_59: "travail" score:6.57 prog:None
+T183.15451949700946 🤔 extract_1/2 #61 "urbain" score? -.36
+T183.15473967400612 attempt_60: "urbain" score:-0.36 prog:None
+T185.17981165299716 🤔 extract_1/1 #62 "villes" score? !
+T185.17995168799825 reject: "villes"
+T188.2375121369987 #62 ? _
+T188.23784519699984 chat_prompt: _
+T188.23805038300634 session: {"role": "user", "content": "give me 12 French words that are related to \"g\u00e9ographique\" and \"fronti\u00e8re\"; do not list any words that you have already listed above"}
+T205.2351884439995 session: {"role": "assistant", "content": "Here are twelve more French words related to \"g\u00e9ographique\" and \"fronti\u00e8re\":\n\n1. Frontali\u00e8res - border regions\n2. Zones de transfrontali\u00e8re - cross-border zones (areas where the borders of two countries meet)\n3. Corridors frontali\u00e8res - frontiers corridors (transportation routes that follow or intersect with national borders)\n4. Autoroutes frontali\u00e8res - frontier highways (highways that connect countries along their shared border)\n5. Villes de fronti\u00e8re - border towns\n6. Postes fronti\u00e8res - border posts (official checkpoints where people and goods cross international borders)\n7. Frontiers internationales - international borders\n8. G\u00e9ographie des fronti\u00e8res - geography of borders (the study of the physical and human factors that shape national boundaries)\n9. Conflits frontali\u00e8res - border conflicts (disputes or clashes between neighboring countries over territorial issues)\n10. Monographies de fronti\u00e8re - monographs on borders (in-depth studies of specific national borders)\n11. Fronti\u00e8res temporelles - temporal borders (border regions where different time zones meet)\n12. Territoires frontali\u00e8res - border territories"}
+T207.44387069100048 #62 extract_...
+T210.00183410700993 🤔 extract_1/13 #62 "autoroutes" score? !
+T210.0020081350085 reject: "autoroutes"
+T212.05184917000588 🤔 extract_1/12 #62 "conflits" score? !
+T212.051989227999 reject: "conflits"
+T213.87045788300748 🤔 extract_1/11 #62 "corridors" score? !
+T213.87056763700093 reject: "corridors"
+T215.7121810039971 🤔 extract_1/10 #62 "frontalières" score? !
+T215.71233996401133 reject: "frontalières"
+T217.6101453500014 🤔 extract_1/9 #62 "frontiers" score? !
+T217.6102942370053 reject: "frontiers"
+T219.39950605299964 🤔 extract_1/8 #62 "frontières" score? !
+T219.39968927099835 reject: "frontières"
+T221.28140330599854 🤔 extract_1/7 #62 "internationales" score? !
+T221.28155755200714 reject: "internationales"
+T223.09521448500163 🤔 extract_1/6 #62 "monographies" score? !
+T223.095339159001 reject: "monographies"
+T224.9502654680109 🤔 extract_1/5 #62 "postes" score? !
+T224.9503864750004 reject: "postes"
+T233.25677632100997 🤔 extract_1/4 #62 "temporelles" score? !
+T233.25690577900968 reject: "temporelles"
+T239.6036264100112 🤔 extract_1/3 #62 "territoires" score? !
+T239.6037826380052 reject: "territoires"
+T242.22507832100382 🤔 extract_1/2 #62 "transfrontalière" score? !
+T242.22520475200145 reject: "transfrontalière"
+T244.4912720400025 🤔 extract_1/1 #62 "zones" score? !
+T244.49142975200084 reject: "zones"
+T249.66876301800949 #62 ? *t3 /clear .
+T249.6689742840099 DEBUG cp: ChatPrompt(prompt='give me 12 French words that are related to $1 and $2; do not list any words that you have already listed above', count=12, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T249.66910610999912 DEBUG scale: per = default(ceil(12/2), 5) = 6
+T249.66911869100295 DEBUG scale: n = 3 * 0 = 3
+T249.66912696200598 DEBUG scale: count = 6 * 3 = 18
+T249.66913463300443 DEBUG count: 18
+T249.66914212300617 DEBUG rel: None
+T249.66915314400103 DEBUG like: ['$1', '$2', '$3']
+T249.6691605960077 DEBUG unlike: []
+T249.66916956299974 DEBUG trailer: given:True []
+T249.66925074100436 session clear
+T249.66929252800765 chat_prompt: give me 18 French words that are related to $1, $2, and $3
+T249.66943397501018 session: {"role": "user", "content": "give me 18 French words that are related to \"g\u00e9ographique\", \"fronti\u00e8re\", and \"communaut\u00e9\""}
+T262.5487074670091 session: {"role": "assistant", "content": "Here are 18 French words related to \"g\u00e9ographique\", \"fronti\u00e8re\", and \"communaut\u00e9\":\n\n1. G\u00e9ographie (geography)\n2. Carte (map)\n3. R\u00e9gion (region)\n4. Province (province)\n5. Canton (canton)\n6. Territoire (territory)\n7. Fronti\u00e8res (borders)\n8. Limites (boundaries)\n9. Cercle (circle, administrative unit)\n10. D\u00e9nombrement (census)\n11. Peuple (people)\n12. Cultures (cultures)\n13. Langues (languages)\n14. Soci\u00e9t\u00e9 (society)\n15. Communaut\u00e9 (community)\n16. Association (association)\n17. Territoire d'outre-mer ( overseas territory)\n18. Territoire de collectivit\u00e9 (collectivity)\n\nNote: Some of these words may have broader or more specific meanings depending on the context in which they are used."}
+T263.6849162349972 #62 extract_...
+T266.1786180350027 🤔 extract_1/11 #62 "association" score? 14.09
+T266.17882780700165 attempt_61: "association" score:14.09 prog:None
+T269.7005259830039 🤔 extract_1/10 #63 "canton" score? 9.64
+T269.70070955601113 attempt_62: "canton" score:9.64 prog:None
+T272.808978052999 🤔 extract_1/9 #64 "cercle" score? 3.91
+T272.80916944101045 attempt_63: "cercle" score:3.91 prog:None
+T275.02563141200517 🤔 extract_1/8 #65 "cultures" score? !
+T275.025769771004 reject: "cultures"
+T278.5165085769986 🤔 extract_1/7 #65 "dénombrement" score? 8.86
+T278.51667302999704 attempt_64: "dénombrement" score:8.86 prog:None
+T280.5604597280035 🤔 extract_1/6 #66 "langues" score? !
+T280.56061205800506 reject: "langues"
+T282.572525673997 🤔 extract_1/5 #66 "limites" score? !
+T282.5727452279971 reject: "limites"
+T288.2685533900076 🤔 extract_1/4 #66 "peuple" score? 20.51 479
+T288.26870469799906 attempt_65: "peuple" score:20.51 prog:479
+T291.15332862900686 🤔 extract_1/3 #67 "province" score? 13.92
+T291.153507259005 attempt_66: "province" score:13.92 prog:None
+T293.73290554199775 🤔 extract_1/2 #68 "région" score? 10.02
+T293.7330592460057 attempt_67: "région" score:10.02 prog:None
+T298.9458527710085 🤔 extract_1/1 #69 "société" score? 20.61 489
+T298.9460397560033 attempt_68: "société" score:20.61 prog:489
+T311.17372635799984 #70 ? /prog
+T316.3902342939982 #70 ? *14 t7 /clear .
+T316.3905797589978 DEBUG cp: ChatPrompt(prompt='give me 18 French words that are related to $1, $2, and $3', count=18, kind='French', rel='that are related to', trailer=None)
+T316.390829106007 DEBUG count: 14
+T316.39085031500144 DEBUG rel: None
+T316.3908758680045 DEBUG like: ['$1', '$2', '$3', '$4', '$5', '$6', '$7']
+T316.3908924770076 DEBUG unlike: []
+T316.3909091690002 DEBUG trailer: given:True []
+T316.3910558880016 session clear
+T316.3911224129988 chat_prompt: give me 14 French words that are related to $1, $2, $3, $4, $5, $6, and $7
+T316.3914396730106 session: {"role": "user", "content": "give me 14 French words that are related to \"g\u00e9ographique\", \"fronti\u00e8re\", \"communaut\u00e9\", \"exception\", \"territoire\", \"soci\u00e9t\u00e9\", and \"peuple\""}
+T327.2074481650052 session: {"role": "assistant", "content": "Here are 14 French words related to the given concepts:\n\n1. **G\u00e9ographique**: \n   - G\u00e9om\u00e9trie (geometry)\n   - Carte (map)\n\n2. **Fronti\u00e8re**:\n   - Border\n   - Accords (treaties)\n\n3. **Communaut\u00e9**:\n   - Soci\u00e9t\u00e9 (society)\n   - Ethnique (ethnic)\n\n4. **Exception**:\n   - Exclusion\n   - Immunit\u00e9 (immunity)\n\n5. **Territoire**:\n   - Terrassement (landscaping)\n   - Administration (administration)\n\n6. **Soci\u00e9t\u00e9**:\n   - \u00c9conomie (economy)\n   - Culture\n\n7. **Peuple**:\n   - Nation\n   - Habitants"}
+T361.35008793701127 #70 ? > simplify your last response, enumerate just the French words
+T361.35027194600843 chat_prompt: simplify your last response, enumerate just the French words
+T361.3504445760045 session: {"role": "user", "content": "simplify your last response, enumerate just the French words"}
+T367.2593689320056 session: {"role": "assistant", "content": "Here are 14 simplified French words related to the given concepts:\n\n1. G\u00e9om\u00e9trie\n2. Carte\n3. Fronti\u00e8re\n4. Accords\n5. Communaut\u00e9\n6. Soci\u00e9t\u00e9\n7. Ethnique\n8. Exclusion\n9. Immunit\u00e9\n10. Terrassement\n11. Administration\n12. \u00c9conomie\n13. Culture\n14. Habitants"}
+T368.40053897300095 #70 extract_...
+T370.9545947860024 🤔 extract_1/10 #70 "accords" score? !
+T370.95472868400975 reject: "accords"
+T376.93948562401056 🤔 extract_1/9 #70 "administration" score? 18.91 284
+T376.9396838859975 attempt_69: "administration" score:18.91 prog:284
+T381.059231362 🤔 extract_1/8 #71 "culture" score? 15.76
+T381.059392220006 attempt_70: "culture" score:15.76 prog:None
+T389.3447598700004 🤔 extract_1/7 #72 "ethnique" score? 36.75 976
+T389.3449892510107 attempt_71: "ethnique" score:36.75 prog:976
+T396.69621667600586 🤔 extract_1/6 #73 "exclusion" score? 21.84 598
+T396.6964524270006 attempt_72: "exclusion" score:21.84 prog:598
+T399.8692835190013 🤔 extract_1/5 #74 "géométrie" score? -4.51
+T399.8694433799974 attempt_73: "géométrie" score:-4.51 prog:None
+T404.0623202580027 🤔 extract_1/4 #75 "habitants" score? !
+T404.0624560180004 reject: "habitants"
+T407.1324272960046 🤔 extract_1/3 #75 "immunité" score? 15.99
+T407.132590068999 attempt_74: "immunité" score:15.99 prog:None
+T412.55593087300076 #76 ? > keep going like $1
+T412.55611916699854 chat_prompt: keep going like $1
+T412.5563163629995 session: {"role": "user", "content": "keep going like \"ethnique\""}
+T415.1275007400109 session: {"role": "assistant", "content": "Here are the remaining 4 French words related to the given concepts:\n\n15. Nation\n16. Habitants\n17. Territoire\n18. Exclusion"}
+T417.4418765950104 #76 extract_...
+T423.0464641990111 🤔 extract_1/1 #76 "nation" score? 37.13 979
+T423.0466250030004 attempt_75: "nation" score:37.13 prog:979
+T433.7030135110108 #77 ? > keep going like t2 !new
+T433.70318236900494 chat_prompt: keep going like t2 !new
+T433.7033398460044 session: {"role": "user", "content": "keep going like t2 !new"}
+T438.82621214199753 session: {"role": "assistant", "content": "I think you meant to type \"keep going like t1\"! Here are the next 4 French words related to the given concepts:\n\n19. Frontali\u00e8re (borderland)\n20. Communaut\u00e9 nationale (national community)\n21. Territoire d'outre-mer (overseas territory)\n22. Soci\u00e9t\u00e9 civile (civil society)"}
+T440.2118443729996 #77 extract_...
+T442.42212168000697 🤔 extract_1/3 #77 "civile" score? !
+T442.4222900530003 reject: "civile"
+T444.2121198810055 🤔 extract_1/2 #77 "frontalière" score? !
+T444.2122797080083 reject: "frontalière"
+T447.7404394010082 🤔 extract_1/1 #77 "nationale" score? 6.48
+T447.74060885699873 attempt_76: "nationale" score:6.48 prog:None
+T456.6629600590095 #78 ? *t2 !new 
+T456.66315861699695 DEBUG cp: None
+T458.4183243300067 <INT>
+T0.008351210999535397 now: 2024-11-27T21:19:53EST
+T3.1386007749970304 #78 ? *t2 !new  
+T3.139458003002801 DEBUG cp: None
+T4.157729477999965 <INT>
+T0.008574677995056845 now: 2024-11-27T21:25:37EST
+T3.772692440004903 #78 ? *t2 !new  
+T3.773397697004839 DEBUG cp: None
+T4.442275908004376 <INT>
+T0.008465191989671439 now: 2024-11-27T21:33:13EST
+T5.746995419001905 #78 ? *t2 !new  
+T5.747724011001992 DEBUG cp: None
+T5.748077825002838 DEBUG count: None
+T5.748090604000026 DEBUG rel: None
+T5.748101920995396 DEBUG like: ['$1', '$2']
+T5.748109508989728 DEBUG unlike: []
+T5.748121115990216 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T5.748195526990457 chat_prompt: give me 10 French words that are related to $1 and $2; do not list any words that you have already listed above
+T5.748326073997305 session: {"role": "user", "content": "give me 10 French words that are related to \"nation\" and \"ethnique\"; do not list any words that you have already listed above"}
+T32.10156804700091 session: {"role": "assistant", "content": "Here are 10 new French words related to \"nation\" and \"ethnique\":\n\n1. Patrie (homeland)\n2. Dialecte (dialect)\n3. Tribu (tribe)\n4. Ethnie (ethnic group)\n5. Identit\u00e9 (identity)\n6. Territoire autochtone (indigenous territory)\n7. Culturelle (cultural)\n8. Langage national (national language)\n9. H\u00e9ritage (heritage)\n10. Appartenant (belonging)"}
+T249.06074789600098 #78 extract_...
+T259.9020928980026 🤔 extract_1/11 #78 "appartenant" score? 21.89 602
+T259.90227689399035 attempt_77: "appartenant" score:21.89 prog:602
+T267.4167225629935 🤔 extract_1/10 #79 "autochtone" score? 26.41 855
+T267.4169398679951 attempt_78: "autochtone" score:26.41 prog:855
+T269.62222170000314 🤔 extract_1/9 #80 "culturelle" score? !
+T269.62236226099776 reject: "culturelle"
+T274.6627400569996 🤔 extract_1/8 #80 "dialecte" score? 19.08 313
+T274.6630792369979 attempt_79: "dialecte" score:19.08 prog:313
+T279.9437419859896 🤔 extract_1/7 #81 "ethnie" score? 41.97 991
+T279.9439644919912 attempt_80: "ethnie" score:41.97 prog:991
+T283.1777183009981 🤔 extract_1/6 #82 "héritage" score? 12.13
+T283.17786192600033 attempt_81: "héritage" score:12.13 prog:None
+T289.3708112149907 🤔 extract_1/5 #83 "identité" score? 42.57 992
+T289.3711136329948 attempt_82: "identité" score:42.57 prog:992
+T292.1200904199941 🤔 extract_1/4 #84 "langage" score? 2.02
+T292.1203559360001 attempt_83: "langage" score:2.02 prog:None
+T297.78675720198953 🤔 extract_1/3 #85 "national" score? 21.82 597
+T297.786932574003 attempt_84: "national" score:21.82 prog:597
+T302.73099461599486 🤔 extract_1/2 #86 "patrie" score? 30.37 926
+T302.73120288299106 attempt_85: "patrie" score:30.37 prog:926
+T305.78795084999 🤔 extract_1/1 #87 "tribu" score? 11.21
+T305.788130136003 attempt_86: "tribu" score:11.21 prog:None
+T310.62481587499497 #88 ? *t2 !new
+T310.6249976199906 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are related to $1 and $2; do not list any words that you have already listed above', count=10, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T310.6251224769949 DEBUG scale: per = default(ceil(10/2), 5) = 5
+T310.6251335709967 DEBUG scale: n = 2 * 0 = 2
+T310.62514165000175 DEBUG scale: count = 5 * 2 = 10
+T310.6251493309974 DEBUG count: 10
+T310.62515639999765 DEBUG rel: None
+T310.62516653399507 DEBUG like: ['$1', '$2']
+T310.6251726359915 DEBUG unlike: []
+T310.62518174300203 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T310.6252598139981 chat_prompt: give me 10 French words that are related to $1 and $2; do not list any words that you have already listed above
+T310.6254078389902 session: {"role": "user", "content": "give me 10 French words that are related to \"identit\u00e9\" and \"ethnie\"; do not list any words that you have already listed above"}
+T320.4343049250019 session: {"role": "assistant", "content": "Here are 10 new French words related to \"identit\u00e9\" and \"ethnie\":\n\n1. Identit\u00e9 culturelle (cultural identity)\n2. Appartenance ethnique (ethnic belonging)\n3. Diversit\u00e9 (diversity)\n4. H\u00e9t\u00e9rog\u00e9n\u00e9it\u00e9 (heterogeneity)\n5. Co\u00fbt de l'identit\u00e9 (cost of identity)\n6. Affiliation religieuse (religious affiliation)\n7. Filiation linguistique (linguistic lineage)\n8. Territoire d'appartenance (territory of belonging)\n9. Conflit identitaire (identity conflict)\n10. Reconnaissance ethnique (ethnic recognition)"}
+T322.2023969430011 #88 extract_...
+T328.16840527098975 🤔 extract_1/11 #88 "affiliation" score? 23.96 732
+T328.1686319559958 attempt_87: "affiliation" score:23.96 prog:732
+T334.3611323799996 🤔 extract_1/10 #89 "appartenance" score? 45.76 995
+T334.3613112549938 attempt_88: "appartenance" score:45.76 prog:995
+T337.5964260269975 🤔 extract_1/9 #90 "conflit" score? 15.09
+T337.59661407698877 attempt_89: "conflit" score:15.09 prog:None
+T342.0984869719978 🤔 extract_1/8 #91 "coût" score? -1.64
+T342.09856662400125 attempt_90: "coût" score:-1.64 prog:None
+T347.2957159899961 🤔 extract_1/7 #92 "diversité" score? 24.29 752
+T347.29590912000276 attempt_91: "diversité" score:24.29 prog:752
+T353.8379597769963 🤔 extract_1/6 #93 "filiation" score? 37.2 980
+T353.8381973450014 attempt_92: "filiation" score:37.20 prog:980
+T357.0174519759894 🤔 extract_1/5 #94 "hétérogénéité" score? 10.43
+T357.0176167250029 attempt_93: "hétérogénéité" score:10.43 prog:None
+T366.70461051700113 🤔 extract_1/4 #95 "identitaire" score? 19.63 381
+T366.7047918570024 attempt_94: "identitaire" score:19.63 prog:381
+T373.9509213499987 🤔 extract_1/3 #96 "linguistique" score? 27.16 877
+T373.9510915049905 attempt_95: "linguistique" score:27.16 prog:877
+T379.7235990240006 🤔 extract_1/2 #97 "reconnaissance" score? 26.1 841
+T379.72380397000234 attempt_96: "reconnaissance" score:26.10 prog:841
+T383.099992775984 🤔 extract_1/1 #98 "religieuse" score? !
+T383.10018385398143 reject: "religieuse"
+T388.9154642030044 #98 ? *t3
+T388.9155590239825 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are related to $1 and $2; do not list any words that you have already listed above', count=10, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T388.9156074589846 DEBUG scale: per = default(ceil(10/2), 5) = 5
+T388.9156119880063 DEBUG scale: n = 3 * 0 = 3
+T388.91561482199177 DEBUG scale: count = 5 * 3 = 15
+T388.91561754200666 DEBUG count: 15
+T388.91562004400475 DEBUG rel: None
+T388.915624790985 DEBUG like: ['$1', '$2', '$3']
+T388.91562703099044 DEBUG unlike: []
+T388.9156303219934 DEBUG trailer: given:False []
+T388.9156655039842 chat_prompt: give me 15 French words that are related to $1, $2, and $3; do not list any words that you have already listed above
+T388.9157295939949 session: {"role": "user", "content": "give me 15 French words that are related to \"appartenance\", \"identit\u00e9\", and \"ethnie\"; do not list any words that you have already listed above"}
+T406.98239511800057 session: {"role": "assistant", "content": "Here are 15 new French words related to \"appartenance\", \"identit\u00e9\", and \"ethnie\":\n\n1. Affiliation religieuse (religious affiliation)\n2. Filiation linguistique (linguistic lineage)\n3. Territoire d'appartenance (territory of belonging)\n4. Conflit identitaire (identity conflict)\n5. Reconnaissance ethnique (ethnic recognition)\n6. Appartenant \u00e0 une communaut\u00e9 (belonging to a community)\n7. Identit\u00e9 sociale (social identity)\n8. B\u00e9n\u00e9ficiaire d'une politique d'appartenance (beneficiary of an affiliation policy)\n9. Clans et groupes ethniques (clans and ethnic groups)\n10. H\u00e9ritage cultural (cultural heritage)\n11. Droit de la nationalit\u00e9 (law of nationality)\n12. Citoyennet\u00e9 (citizenship)\n13. Appartenance \u00e0 une classe sociale (belonging to a social class)\n14. Identit\u00e9 collective (collective identity)\n15. Territoire historique d'une communaut\u00e9 (historical territory of a community)"}
+T409.299341527003 #98 extract_...
+T414.79072727599123 🤔 extract_1/15 #98 "bénéficiaire" score? 20.33 466
+T414.7909254050028 attempt_97: "bénéficiaire" score:20.33 prog:466
+T421.22705570400285 🤔 extract_1/14 #99 "citoyenneté" score? 32.57 950
+T421.22725680800795 attempt_98: "citoyenneté" score:32.57 prog:950
+T424.1639112940029 🤔 extract_1/13 #100 "clans" score? !
+T424.16407482999784 reject: "clans"
+T427.45825764398614 🤔 extract_1/12 #100 "classe" score? 11.56
+T427.4583970079984 attempt_99: "classe" score:11.56 prog:None
+T431.65677041099116 🤔 extract_1/11 #101 "collective" score? !
+T431.65693557400664 reject: "collective"
+T434.8195040679857 🤔 extract_1/10 #101 "cultural" score? 7.32
+T434.8196630699822 attempt_100: "cultural" score:7.32 prog:None
+T440.229831441 🤔 extract_1/9 #102 "droit" score? 33.48 958
+T440.2300244319922 attempt_101: "droit" score:33.48 prog:958
+T442.39886299600767 🤔 extract_1/8 #103 "et" score? !
+T442.39898677500605 reject: "et"
+T444.5614629149932 🤔 extract_1/7 #103 "ethniques" score? !
+T444.561611194993 reject: "ethniques"
+T446.5674597640027 🤔 extract_1/6 #103 "groupes" score? !
+T446.5676161050069 reject: "groupes"
+T450.1765291119955 🤔 extract_1/5 #103 "historique" score? 11.48
+T450.1767345919943 attempt_102: "historique" score:11.48 prog:None
+T455.395820596008 🤔 extract_1/4 #104 "nationalité" score? 100 1000
+T455.39598070098145 attempt_103: "nationalité" score:100.00 prog:1000
+T459.85956379298295 Paste share result, then preses <Enter>
+T459.86641073298233 share result: "J'ai trouv\u00e9 #cemantix n\u00ba1002 en 105 coups !\n\ud83e\udd73\n\ud83d\udd253\ufe0f\u20e3\n\ud83e\udd757\ufe0f\u20e3\n\ud83d\ude0e1\ufe0f\u20e38\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd765\ufe0f\u20e30\ufe0f\u20e3\n\ud83e\uddca\ud83e\uddca2\ufe0f\u20e36\ufe0f\u20e3\nhttps://cemantix.certitudes.org/"
+T459.867599204983 <STOP>
