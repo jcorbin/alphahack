@@ -17,7 +17,7 @@ from urllib.parse import urlparse
 
 from mdkit import break_sections, capture_fences, fenceit, replace_sections
 from store import StoredLog, atomic_file, git_txn
-from strkit import matchgen, spliterate, wraplines, PeekStr
+from strkit import matchgen, spliterate, wraplines, MarkedSpec
 from ui import PromptUI
 
 def role_content(chat: Iterable[ollama.Message], role: str):
@@ -2418,144 +2418,48 @@ class Search(StoredLog):
 
 import pytest
 
-def scan_test_lines(spec: str):
-    lines = (
-        s.strip()
-        for s in spliterate(spec, '\n', trim = True))
-    lines = (
-        line
-        for line in lines
-        if line
-        if not line.startswith('//'))
-    return PeekStr(lines)
+@pytest.mark.parametrize('spec', list(MarkedSpec.iterspecs('''
+    > _
+    - rebuild: give me 10 words that are not related to each other
 
-@dataclass
-class ChatPromptTestCase:
-    @classmethod
-    def mark(cls, spec: str):
-        cases = list(cls.parseiter(spec))
-        ids = [case.id for case in cases]
-        return pytest.mark.parametrize('case', cases, ids=ids)
-
-    @classmethod
-    def parseiter(cls, spec: str|PeekStr):
-        spec = scan_test_lines(spec) if isinstance(spec, str) else spec
-        try:
-            while True:
-                yield cls.parse(spec)
-        except StopIteration: pass
-
-    @classmethod
-    def parse(cls, spec: str|PeekStr):
-        spec = scan_test_lines(spec) if isinstance(spec, str) else spec
-
-        prompt = next(spec)
-        if prompt == '_': prompt = ''
-
-        expect_rebuild = spec.have(r'> +(.+)$', lambda match: cast(str, match.group(1)), prompt)
-
-        expect_kind: str|None = None
-        expect_count: int|None = None
-        expect_rel: str|None = None
-        expect_clean_rel: str|None = None
-        expect_neg_rel: str|None = None
-        expect_trailer: str|None = None
-
-        for name, value in spec.consume(
-            r'- +([\w_\-]+): *(.+?)$', lambda match: (
-                cast(str, match.group(1)),
-                cast(str, match.group(2))
-            )
-        ):
-            if name == 'kind': expect_kind = value
-            elif name == 'count': expect_count = int(value)
-            elif name == 'rel': expect_rel = value
-            elif name == 'clean_rel': expect_clean_rel = value
-            elif name == 'neg_rel': expect_neg_rel = value
-            elif name == 'trailer': expect_trailer = value
-            else:
-                raise ValueError(f'unknown chat prompt test expectation {name}')
-
-        return cls(prompt,
-                   expect_kind, expect_count, expect_rel,
-                   expect_clean_rel, expect_neg_rel,
-                   expect_trailer,
-                   expect_rebuild)
-
-    prompt: str
-    expect_kind: str|None
-    expect_count: int|None
-    expect_rel: str|None
-    expect_clean_rel: str|None
-    expect_neg_rel: str|None
-    expect_trailer: str|None
-    expect_rebuild: str
-
-    @property
-    def id(self):
-        return f'#{self.prompt.replace(" ", "_")}' if self.prompt else '#empty'
-
-    def check(self, cp: ChatPrompt):
-        if self.expect_kind is not None:
-            assert cp.kind == self.expect_kind
-        if self.expect_count is not None:
-            assert cp.count == self.expect_count
-        if self.expect_clean_rel is not None:
-            assert cleanse_rel(cp.rel)[1] == self.expect_clean_rel
-        if self.expect_neg_rel is not None:
-            assert phrase_rel(cp.rel, neg=True) == self.expect_neg_rel
-        if self.expect_rel is not None:
-            assert cp.rel == self.expect_rel
-        if self.expect_trailer is not None:
-            assert cp.trailer == self.expect_trailer
-
-        terms: list[str] =  []
-        terms.extend(f'${n}' for n in cp.vars)
-        terms.extend(f'#{n}' for n in cp.ords)
-        assert cp.rebuild(like=terms) == self.expect_rebuild
-
-@ChatPromptTestCase.mark('''
-    _
-    > give me 10 words that are not related to each other
-
-    give me 15 French words that are not related to each other
+    > give me 15 French words that are not related to each other
     - kind: French
     - count: 15
     - rel: that are not related to each other
 
-    give me 10 French words that are similar to $1 and $2
+    > give me 10 French words that are similar to $1 and $2
     - kind: French
     - count: 10
     - rel: that are similar to
 
-    give me 15 French words that are similar to $1, $2, and $3
+    > give me 15 French words that are similar to $1, $2, and $3
     - kind: French
     - count: 15
     - rel: that are similar to
     - clean_rel: similar to
     - neg_rel: that are not similar to
 
-    give me 10 French words that are related to $1 and $2
+    > give me 10 French words that are related to $1 and $2
     - rel: that are related to
     - clean_rel: related to
     - neg_rel: that are not related to
 
-    give me 10 French words that are read with $1 and $2
+    > give me 10 French words that are read with $1 and $2
     - rel: that are read with
     - clean_rel: read with
     - neg_rel: that are not read with
 
-    give me 10 French words that are seen with $1 and $2
+    > give me 10 French words that are seen with $1 and $2
     - rel: that are seen with
     - clean_rel: seen with
     - neg_rel: that are not seen with
 
-    give me 10 words that are not related to each other; do not list any words that you have already listed above.
+    > give me 10 words that are not related to each other; do not list any words that you have already listed above.
     - rel: that are not related to each other
     - clean_rel: related to
     - trailer: ; do not list any words that you have already listed above.
 
-    give me 10 words that are not related to each other; do not list any words that you have already listed above
+    > give me 10 words that are not related to each other; do not list any words that you have already listed above
     - rel: that are not related to each other
     - clean_rel: related to
     - trailer: ; do not list any words that you have already listed above
@@ -2575,10 +2479,49 @@ class ChatPromptTestCase:
     // TODO give me 5 French words that are related to $t2
     // TODO give me 15 French words that are related to $t3
     // TODO give me 5 French words that are related to $t3
-''')
-def test_chat_prompts(case: ChatPromptTestCase):
-    cp = ChatPrompt(case.prompt)
-    case.check(cp)
+''')), ids=MarkedSpec.id)
+def test_chat_prompts(spec: MarkedSpec):
+    prompt = spec.input
+    if prompt == '_': prompt = ''
+
+    expect_rebuild = prompt
+    expect_kind: str|None = None
+    expect_count: int|None = None
+    expect_rel: str|None = None
+    expect_clean_rel: str|None = None
+    expect_neg_rel: str|None = None
+    expect_trailer: str|None = None
+
+    for name, value in spec.props:
+        if name == 'rebuild': expect_rebuild = value
+        elif name == 'kind': expect_kind = value
+        elif name == 'count': expect_count = int(value)
+        elif name == 'rel': expect_rel = value
+        elif name == 'clean_rel': expect_clean_rel = value
+        elif name == 'neg_rel': expect_neg_rel = value
+        elif name == 'trailer': expect_trailer = value
+        else:
+            raise ValueError(f'unknown chat prompt test expectation {name}')
+
+    cp = ChatPrompt(prompt)
+
+    if expect_kind is not None:
+        assert cp.kind == expect_kind
+    if expect_count is not None:
+        assert cp.count == expect_count
+    if expect_clean_rel is not None:
+        assert cleanse_rel(cp.rel)[1] == expect_clean_rel
+    if expect_neg_rel is not None:
+        assert phrase_rel(cp.rel, neg=True) == expect_neg_rel
+    if expect_rel is not None:
+        assert cp.rel == expect_rel
+    if expect_trailer is not None:
+        assert cp.trailer == expect_trailer
+
+    terms: list[str] =  []
+    terms.extend(f'${n}' for n in cp.vars)
+    terms.extend(f'#{n}' for n in cp.ords)
+    assert cp.rebuild(like=terms) == expect_rebuild
 
 @pytest.mark.parametrize('input,expected', [
     ('''
@@ -2617,104 +2560,67 @@ def test_word_extraction(input: str, expected: Sequence[tuple[int, str]]):
         for nword in find_match_words(line.strip())
     ] == expected
 
-@dataclass
-class GenPromptTestCase:
-    @classmethod
-    def mark(cls, spec: str):
-        cases = list(cls.parseiter(spec))
-        ids = [case.id for case in cases]
-        return pytest.mark.parametrize('case', cases, ids=ids)
-
-    @classmethod
-    def parseiter(cls, spec: str|PeekStr):
-        spec = scan_test_lines(spec) if isinstance(spec, str) else spec
-        try:
-            while True:
-                yield cls.parse(spec)
-        except StopIteration: pass
-
-    @classmethod
-    def parse(cls, spec: str|PeekStr):
-        spec = scan_test_lines(spec) if isinstance(spec, str) else spec
-
-        input = next(spec)
-        prior = spec.have(r'prior> +(.+)$', lambda match: cast(str, match.group(1)), '')
-        prompt = spec.have(r'> +(.+)$', lambda match: cast(str, match.group(1)), '')
-
-        clear = False
-
-        for name, value in spec.consume(
-            r'- +([\w_\-]+): *(.+?)$', lambda match: (
-                cast(str, match.group(1)),
-                cast(str, match.group(2))
-            )
-        ):
-            if name == 'clear': clear = value.lower().startswith('t')
-            else:
-                raise ValueError(f'unknown gen prompt test expectation {name}')
-
-        return cls(prior, input, clear, prompt)
-
-    prior: str
-    input: str
-    clear: bool
-    prompt: str
-
-    @property
-    def id(self):
-        return f'{self.input.replace(" ", "_")}'
-
-@GenPromptTestCase.mark('''
-
-    *
-    > give me 10 words that are not related to each other
+@pytest.mark.parametrize('spec', list(MarkedSpec.iterspecs('''
+    > *
+    - prompt: give me 10 words that are not related to each other
     - clear: false
 
-    * t3
-    prior> give me 10 words that are not related to each other
-    > give me 15 words that are related to $1, $2, and $3
+    > * t3
+    - prior: give me 10 words that are not related to each other
+    - prompt: give me 15 words that are related to $1, $2, and $3
     - clear: false
 
-    *9 t3
-    prior> give me 10 words that are not related to each other
-    > give me 9 words that are related to $1, $2, and $3
+    > *9 t3
+    - prior: give me 10 words that are not related to each other
+    - prompt: give me 9 words that are related to $1, $2, and $3
     - clear: false
 
-    *t4 /clear
-    prior> give me 9 words that are related to $1, $2, and $3
-    > give me 12 words that are related to $1, $2, $3, and $4
+    > *t4 /clear
+    - prior: give me 9 words that are related to $1, $2, and $3
+    - prompt: give me 12 words that are related to $1, $2, $3, and $4
     - clear: true
 
-    * $1 $10 $13 !new
-    prior> give me 8 French words that are related to $1 and $2
-    > give me 12 French words that are related to $1, $10, and $13; do not list any words that you have already listed above
+    > * $1 $10 $13 !new
+    - prior: give me 8 French words that are related to $1 and $2
+    - prompt: give me 12 French words that are related to $1, $10, and $13; do not list any words that you have already listed above
     - clear: false
 
-    * related t2 !new
-    prior> give me 5 French words that are not related to $1
-    > give me 10 French words that are related to $1 and $2; do not list any words that you have already listed above
+    > * related t2 !new
+    - prior: give me 5 French words that are not related to $1
+    - prompt: give me 10 French words that are related to $1 and $2; do not list any words that you have already listed above
     - clear: false
 
-    * t2 $6 /clear .
-    prior> give me 10 words that are related to $1 and $2
-    > give me 15 words that are related to $1, $2, and $6
+    > * t2 $6 /clear .
+    - prior: give me 10 words that are related to $1 and $2
+    - prompt: give me 15 words that are related to $1, $2, and $6
     - clear: true
+''')), ids=MarkedSpec.id)
+def test_gen_prompt(spec: MarkedSpec):
+    input = spec.input
+    prior = ''
+    prompt = ''
+    clear = False
 
-''')
-def test_gen_prompt(case: GenPromptTestCase):
+    for name, value in spec.props:
+        if name == 'prior': prior = value
+        elif name == 'prompt': prompt = value
+        elif name == 'clear': clear = value.lower().startswith('t')
+        else:
+            raise ValueError(f'unknown gen prompt test expectation {name}')
+
     def eof_input(_s: str): raise EOFError
     ui = PromptUI(
         get_input = eof_input,
         sink = lambda s: print('LOG', s),
     )
-    ui.tokens.raw = case.input
+    ui.tokens.raw = input
 
     search = Search()
-    search.last_chat_prompt = case.prior
+    search.last_chat_prompt = prior
     clear, np = search.build_next_prompt(ui)
 
-    assert clear == case.clear
-    assert np == case.prompt
+    assert clear == clear
+    assert np == prompt
 
 ### entry point
 

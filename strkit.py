@@ -1,6 +1,7 @@
 import re
 from collections.abc import Generator, Iterable, Iterator
-from typing import final, overload, Callable
+from itertools import chain
+from typing import cast, final, overload, Callable
 
 @final
 class matcherate:
@@ -194,3 +195,81 @@ class PeekStr(PeekIter[str]):
                     _ = self.take()
                 return
             yield self.take()
+
+class MarkedSpec:
+    @classmethod
+    def iterlines(cls, spec: str):
+        lines = spliterate(spec, '\n', trim=True)
+        lines = striperate(lines)
+        lines = (
+            line
+            for line in lines
+            if not line.startswith('//'))
+        return PeekStr(lines)
+
+    @classmethod
+    def itersections(cls, spec: str):
+        lines = cls.iterlines(spec)
+        buffer: list[str] = []
+        for line in lines:
+            if line:
+                buffer.append(line)
+            elif buffer:
+                yield '\n'.join(buffer)
+                buffer.clear()
+        if buffer:
+            yield '\n'.join(buffer)
+
+    @classmethod
+    def iterspecs(cls, spec: str):
+        for sec in cls.itersections(spec):
+            yield cls(sec)
+
+    input_pattern: re.Pattern[str] = re.compile(r'>(?: ?(.*?))?$')
+    prop_pattern: re.Pattern[str] = re.compile(r'(?x) - \s+ ( [^\s]+ ) : \s+ (.+?)$')
+
+    def __init__(self, spec: str):
+        self.spec: str = spec
+        self._lines: PeekStr|None = None
+
+    def id(self):
+        return f'{self.input.replace(" ", "_")}'
+
+    @property
+    def speclines(self):
+        self._lines = self.iterlines(self.spec)
+        return self._lines
+
+    @property
+    def input(self):
+        lines = self.speclines
+        return '\n'.join(lines.consume(self.input_pattern, lambda m: cast(str, m.group(1) or '')))
+
+    @property
+    def props(self):
+        lines = self.speclines
+        for _ in lines.consume(self.input_pattern): pass
+        for key, value in lines.consume(
+            self.prop_pattern,
+            lambda m: (cast(str, m.group(1)), cast(str, m.group(2)))
+        ):
+            if value == '```':
+                first = next(lines)
+                indent, first = first_indent(first)
+                body = lines.consume_until(f'{indent}```$', trim=True)
+                body = striperate(body, re.compile(indent)) if indent else body
+                value = '\n'.join(chain((first,), body))
+            else:
+                value = f'{value}{"\n".join(lines.consume_until(r"- |$"))}'
+            yield key, value
+
+    @property
+    def trailer(self):
+        for _ in self.props: pass
+        assert self._lines
+        return self._lines
+
+    def assert_no_trailer(self):
+        lines = self.trailer
+        if lines.peek() == '': _ = next(lines)
+        assert list(lines) == []
