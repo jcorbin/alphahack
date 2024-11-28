@@ -109,11 +109,15 @@ class Tokens(PeekStr):
 
     @property
     def rest(self):
+        val = self.val
+        if val is not None:
+            return f'{val} {self._m.rest}'
         return self._m.rest
 
     def take_rest(self):
-        rest = self._m.rest
+        rest = self.rest
         self._m.rest = ''
+        _ = next(self, None)
         return rest
 
     @property

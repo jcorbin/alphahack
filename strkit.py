@@ -92,6 +92,10 @@ class PeekIter[V]:
             return val
         return next(self.it)
 
+    @property
+    def val(self):
+        return self._val
+
     @overload
     def peek(self) -> V|None: pass
 
