@@ -183,3 +183,14 @@ class PeekStr(PeekIter[str]):
             if not match: return
             _ = self.take()
             yield then(match) if then else match
+
+    def consume_until(self, pattern: str|re.Pattern[str], trim: bool = False):
+        while True:
+            token = self.peek()
+            if token is None: return
+            match = re.match(pattern, token) if isinstance(pattern, str) else pattern.match(token)
+            if match:
+                if trim:
+                    _ = self.take()
+                return
+            yield self.take()
