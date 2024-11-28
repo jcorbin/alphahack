@@ -10,6 +10,7 @@ from collections.abc import Generator, Iterable
 from typing import cast, final, override
 
 from store import StoredLog, git_txn
+from strkit import MarkedSpec, PeekStr, spliterate
 from ui import PromptUI
 
 def char_pairs(alpha: Iterable[str]):
@@ -56,20 +57,29 @@ class Search(StoredLog):
     def __init__(self):
         super().__init__()
 
+        self.size: int = 5
         self.wordlist: str = ''
 
-        self.length: int = 5
+        # TODO rework into a size x size matrix
+        self.word: list[list[str]] = [
+            ['' for _ in range(self.size)]
+            for _ in range(self.size)
+        ]
+
+        # TODO self.guesses: T = T()
         self.rejects: set[str] = set()
 
-        self.word: list[list[str]] = [
-            ['' for _ in range(self.length)]
-            for _ in range(self.length)
-        ]
         self.nope: set[str] = set()
-        self.may: list[set[str]] = [set() for _ in range(self.length)]
-        # TODO col hints?
+        self.row_may: list[set[str]] = [set() for _ in range(self.size)]
 
         self.result_text: str = ''
+        self._result: Result|None = None
+
+    @property
+    def result(self):
+        if self._result is None and self.result_text:
+            self._result = Result.parse(self.result_text, self.size)
+        return self._result
 
     @override
     def startup(self, ui: PromptUI):
@@ -138,8 +148,8 @@ class Search(StoredLog):
                 index, rest = match.groups()
                 assert rest == ''
                 i = int(index)
-                self.word[i] = ['' for _ in range(self.length)]
-                self.may[i] = set()
+                self.word[i] = ['' for _ in range(self.size)]
+                self.row_may[i] = set()
                 continue
 
             match = re.match(r'''(?x)
@@ -153,7 +163,7 @@ class Search(StoredLog):
                 assert rest == ''
                 i = int(index)
                 may = cast(str, may)
-                self.may[i] = set(let.strip().lower() for let in may.split())
+                self.row_may[i] = set(let.strip().lower() for let in may.split())
                 continue
 
             match = re.match(r'''(?x)
@@ -191,10 +201,21 @@ class Search(StoredLog):
                 i = int(index)
                 word = cast(str, word).lower()
                 word = ['' if let == '_' else let for let in word]
-                if len(word) > self.length:
-                    word = word[:self.length]
-                while len(word) < self.length: word.append('')
+                if len(word) > self.size:
+                    word = word[:self.size]
+                while len(word) < self.size: word.append('')
                 self.word[i] = word
+                continue
+
+            match = re.match(r'''(?x)
+                result :
+                \s* (?P<json> .+ )
+                $''', rest)
+            if match:
+                (raw), = match.groups()
+                dat = cast(object, json.loads(raw))
+                assert isinstance(dat, str)
+                self.result_text = dat
                 continue
 
             yield t, rest
@@ -212,7 +233,7 @@ class Search(StoredLog):
         for word in self.word:
             for let in word:
                 if let: yield let
-        for may in self.may:
+        for may in self.row_may:
             yield from may
 
     recent_sug: dict[str, int] = dict()
@@ -277,7 +298,7 @@ class Search(StoredLog):
 
     def pattern(self, word_i: int) -> tuple[str, int]:
         word = self.word[word_i]
-        may = sorted(self.may[word_i])
+        may = sorted(self.row_may[word_i])
 
         alpha = set('abcdefghijklmnopqrstuvwxyz')
         uni = '.'
@@ -297,8 +318,8 @@ class Search(StoredLog):
 
         if not may:
             free = sum(1 for let in word if not let)
-            if free == self.length:
-                return uni * self.length, space
+            if free == self.size:
+                return uni * self.size, space
             return ''.join(uni if not let else let for let in word), space
 
         def alts():
@@ -321,7 +342,7 @@ class Search(StoredLog):
             ui.write(f'{i+1}  |  ')
             for let in word:
                 ui.write(f' {let.upper() or "_"}')
-            ui.write(f'  |  {" ".join(sorted(let.upper() for let in self.may[i]))}')
+            ui.write(f'  |  {" ".join(sorted(let.upper() for let in self.row_may[i]))}')
             ui.fin()
 
         if self.nope:
@@ -335,17 +356,8 @@ class Search(StoredLog):
             self.result_text = ui.paste()
             ui.log(f'result: {json.dumps(self.result_text)}')
 
-            # TODO parse
-            # squareword.org 1031: 17 guesses
-            #
-            # 🟧🟨🟨🟨🟨
-            # 🟩🟨🟩🟨🟩
-            # 🟨🟧🟧🟩🟨
-            # 🟨🟨🟨🟨🟨
-            # 🟥🟨🟥🟥🟩
-            #
-            # <6:🟩 <11:🟨 <16:🟧 16+:🟥
-            # #squareword #squareword1031
+        if not self.stored:
+            raise StopIteration
 
         return self.review
 
@@ -368,7 +380,32 @@ class Search(StoredLog):
             ui.fin()
 
         with ui.input(f'> ') as tokens:
-            pass
+            if tokens.have(r'report$'):
+                return self.do_report(ui)
+
+    def info(self):
+        yield f'📜 {len(self.sessions)} sessions'
+
+    @property
+    @override
+    def report_desc(self) -> str:
+        res = self.result
+        guesses = res.guesses if res else '???'
+        status = '🥳' if res else '😦'
+        return  f'{status} {guesses} ⏱️ {self.elapsed}'
+
+    @property
+    @override
+    def report_body(self) -> Generator[str]:
+        yield from self.info()
+        yield ''
+        yield 'TODO: oops the script doesn\'t do a good enough job of tracking its guess history to give you a replay yet'
+        yield ''
+        yield 'Anyhow, here\'s the solution:'
+        yield ''
+        for word in self.word:
+            lets = ' '.join(f'{let.upper() or "_"}' for let in word)
+            yield f'    {lets}'
 
     def proc(self, ui: PromptUI):
         with ui.tokens as tokens:
@@ -385,22 +422,24 @@ class Search(StoredLog):
             if n is None: return
 
             word_i = n - 1
-            if word_i < 0 or word_i >= self.length: return
+            if word_i < 0 or word_i >= self.size: return
 
             if tokens.rest.strip() == '!':
                 ui.log(f'forget: {word_i}')
-                self.word[word_i] = ['' for _ in range(self.length)]
-                self.may[word_i] = set()
+                self.word[word_i] = ['' for _ in range(self.size)]
+                self.row_may[word_i] = set()
                 return
+
+            # TODO allow _____ and ~ in one line
 
             if tokens.have(r'~$'):
-                self.may[word_i] = set(
+                self.row_may[word_i] = set(
                     m.group(0).lower()
                     for m in re.finditer(r'[A-Za-z]', tokens.rest))
-                ui.log(f'may: {word_i} {" ".join(sorted(self.may[word_i]))}')
+                ui.log(f'may: {word_i} {" ".join(sorted(self.row_may[word_i]))}')
                 return
 
-            may = self.may[word_i]
+            may = self.row_may[word_i]
             word = self.word[word_i]
             ui.print(f'? {tokens.peek('')!r} {tokens.rest!r}')
             for i, m in enumerate(re.finditer(r'[_A-Za-z]', tokens.rest)):
@@ -415,7 +454,7 @@ class Search(StoredLog):
                         if c in may: may.remove(c)
                 else:
                     word[i] = ''
-            ui.log(f'may: {word_i} {" ".join(sorted(self.may[word_i]))}')
+            ui.log(f'may: {word_i} {" ".join(sorted(self.row_may[word_i]))}')
             ui.log(f'word: {word_i} {"".join(let or "_" for let in word)}')
 
     def do_choose(self, ui: PromptUI) -> PromptUI.State|None:
@@ -437,6 +476,158 @@ class Search(StoredLog):
                 self.rejects.add(choice.lower())
                 ui.log(f'reject: {choice}')
             return self.proc(ui) or self.display
+
+from dataclasses import dataclass
+@dataclass
+class Result:
+    size: int
+    site: str
+    puzzle_id: str
+    guesses: int
+    scores: list[int] # NOTE actually a size,size shaped matrix
+    legend: dict[int, str]
+    trailer: str
+
+    @classmethod
+    def parse(cls, s: str, size: int):
+        lines = PeekStr(spliterate(s, '\n', trim=True))
+
+        match = lines.have(r'''(?x)
+            (?P<site> [^\s]+ )
+            \s+ (?P<id> [^\s]+ )
+            :
+            \s+ (?P<guesses> \d+ )
+            \s+ guesses
+            $
+        ''')
+        if not match:
+            raise ValueError('first line should have site/puzzle id and guess count')
+        site, puzzle_id, gs = match.groups()
+        guesses = int(gs)
+
+
+        score_marks = {
+            '🟥': 1,
+            '🟧': 2,
+            '🟨': 3,
+            '🟩': 4
+        }
+
+        scores: list[int] = [0 for _ in range(size*size)]
+
+        if lines.have(r'\s*$'):
+            offset: int = 0
+            for line in lines:
+                if not line.strip(): break
+
+                if len(line) != size:
+                    raise ValueError(f'invalid grid line, expected {size} characters got {len(line)}')
+
+                if any(x not in score_marks for x in line):
+                    bad = [f'{x!r}' for x in line if x not in score_marks]
+                    raise ValueError(f'invalid grid line marks: {bad!r}')
+
+                assert offset < len(scores)
+                for c in line:
+                    scores[offset] = score_marks[c]
+                    offset += 1
+
+            if offset < len(scores):
+                raise ValueError('short grid score table')
+
+        legend: dict[int, str] = dict()
+        for match in re.finditer(
+            r'(?x) \s* ( < \d+ | \d+ \+? ) : ( [🟥🟧🟨🟩] )',
+            next(lines, '')):
+            desc, mark = match.groups()
+            score = score_marks[mark]
+            legend[score] = desc
+        if not all(score in legend for score in score_marks.values()):
+            raise ValueError('incomplete legend')
+
+        trailer = '\n'.join(lines)
+
+        return cls(
+            size,
+            site, puzzle_id, guesses,
+            scores, legend, trailer
+        )
+
+import pytest
+
+@pytest.mark.parametrize('spec', [
+    '''
+    > squareword.org 1031: 17 guesses
+    >
+    > 🟧🟨🟨🟨🟨
+    > 🟩🟨🟩🟨🟩
+    > 🟨🟧🟧🟩🟨
+    > 🟨🟨🟨🟨🟨
+    > 🟥🟨🟥🟥🟩
+    >
+    > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+    > #squareword #squareword1031
+    - size: 5
+    - site: squareword.org
+    - puzzle_id: 1031
+    - guesses: 17
+    - scores: [
+        2, 3, 3, 3, 3,
+        4, 3, 4, 3, 4,
+        3, 2, 2, 4, 3,
+        3, 3, 3, 3, 3,
+        1, 3, 1, 1, 4
+      ]
+    - legend: [ [4, "<6"], [3, "<11"], [2, "<16"], [1, "16+"] ]
+    - trailer: ```
+      #squareword #squareword1031
+      ```
+    ''',
+], ids=['first_solve'])
+def test_parse_result(spec: str):
+    ts = MarkedSpec(spec)
+
+    size = 0
+    expect_site: str|None = None
+    expect_puzzle_id: str|None = None
+    expect_guesses: int|None = None
+    expect_scores: list[int]|None = None
+    expect_legend: dict[int, str]|None = None
+    expect_trailer: str|None = None
+
+    for key, value in ts.props:
+        if key == 'size': size = int(value)
+        elif key == 'site': expect_site = value
+        elif key == 'puzzle_id': expect_puzzle_id = value
+        elif key == 'guesses': expect_guesses = int(value)
+        elif key == 'scores':
+            val = cast(object, json.loads(value))
+            assert isinstance(val, list)
+            assert all(isinstance(x, int) for x in cast(list[object], val))
+            expect_scores = val
+        elif key == 'legend':
+            val = cast(object, json.loads(value))
+            assert isinstance(val, list)
+            assert all(isinstance(x, list) for x in cast(list[object], val))
+            assert all(len(x) == 2 for x in cast(list[list[object]], val))
+            assert all(isinstance(k, int) and isinstance(v, str) for k, v in cast(list[list[object]], val))
+            expect_legend = dict(
+                (cast(int, k), cast(str, v))
+                for k, v in cast(list[list[object]], val))
+        elif key == 'trailer':
+            expect_trailer = value
+        else: raise ValueError(r'unknown spec key {key!r}')
+
+    ts.assert_no_trailer()
+
+    res = Result.parse(ts.input, size)
+
+    if expect_site is not None: assert res.site == expect_site
+    if expect_puzzle_id is not None: assert res.puzzle_id == expect_puzzle_id
+    if expect_guesses is not None: assert res.guesses == expect_guesses
+    if expect_scores is not None: assert res.scores == expect_scores
+    if expect_legend is not None: assert res.legend == expect_legend
+    if expect_trailer is not None: assert res.trailer == expect_trailer
 
 if __name__ == '__main__':
     Search.main()
