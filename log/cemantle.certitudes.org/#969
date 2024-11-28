@@ -1,0 +1,573 @@
+T0.004424383980222046 now: 2024-11-28T16:10:41EST
+T0.8193375459813979 🔗 cemantle.certitudes.org ? 
+T1.2384410419908818 🌎  ? 
+T3.1635319009947125 🧩  ? #969
+T3.1638460689864587 puzzle_id: #969
+T5.579556265001884 😎 °C ? 22.95
+T5.579755298997043 scale: 😎 22.95 °C
+T9.81354546599323 🥵 °C ? 35.22
+T9.813630547985667 scale: 🥵 35.22 °C
+T11.632601701974636 🔥 °C ? 45.28
+T11.63274662598269 scale: 🔥 45.28 °C
+T13.67371003900189 😱 °C ? 61.13
+T13.673812720982824 scale: 😱 61.13 °C
+T13.707710075977957 session model: llama3.2:latest
+T14.63100605798536 #1 ? 
+T14.631261631002417 DEBUG cp: None
+T14.631424676976167 DEBUG count: None
+T14.631451000983361 DEBUG rel: None
+T14.631468882987974 DEBUG like: []
+T14.631484161975095 DEBUG unlike: []
+T14.631503429001896 DEBUG trailer: given:False []
+T14.6316005459812 chat_prompt: give me 10 words that are not related to each other
+T14.631795328983571 session: {"role": "user", "content": "give me 10 words that are not related to each other"}
+T21.61685959098395 session: {"role": "assistant", "content": "Here are 10 random words that are not related to each other:\n\n1. Pineapple\n2. Guitar\n3. Snowflake\n4. Perfume\n5. Llama\n6. Submarine\n7. Caramel\n8. Harmonica\n9. Kitten\n10. Basketball"}
+T27.884292468981585 #1 extract_...
+T41.57129670199356 🤔 extract_1/10 #1 "basketball" score? 6.09
+T41.57151127597899 attempt_0: "basketball" score:6.09 prog:None
+T44.43791080097435 🤔 extract_1/9 #2 "caramel" score? -2.74
+T44.43811796797672 attempt_1: "caramel" score:-2.74 prog:None
+T47.100881625985494 🤔 extract_1/8 #3 "guitar" score? 17.82
+T47.1010915239749 attempt_2: "guitar" score:17.82 prog:None
+T49.88427681097528 🤔 extract_1/7 #4 "harmonica" score? 11.25
+T49.88449217900052 attempt_3: "harmonica" score:11.25 prog:None
+T52.277094832999865 🤔 extract_1/6 #5 "kitten" score? 5.02
+T52.27725158899557 attempt_4: "kitten" score:5.02 prog:None
+T54.818473578983685 🤔 extract_1/5 #6 "llama" score? 3.96
+T54.818744766991585 attempt_5: "llama" score:3.96 prog:None
+T57.19462372799171 🤔 extract_1/4 #7 "perfume" score? 4.02
+T57.19482427398907 attempt_6: "perfume" score:4.02 prog:None
+T59.937533378979424 🤔 extract_1/3 #8 "pineapple" score? -5.09
+T59.93770586399478 attempt_7: "pineapple" score:-5.09 prog:None
+T63.10470408399124 🤔 extract_1/2 #9 "snowflake" score? 3.44
+T63.104855314973975 attempt_8: "snowflake" score:3.44 prog:None
+T66.09292587600066 🤔 extract_1/1 #10 "submarine" score? 5.48
+T66.0931006189785 attempt_9: "submarine" score:5.48 prog:None
+T70.42711331497412 #11 ? *t2 !new
+T70.42769654598669 DEBUG cp: ChatPrompt(prompt='give me 10 words that are not related to each other', count=10, kind=None, rel='that are not related to each other', trailer=None)
+T70.42803986900253 DEBUG scale: per = default(ceil(10/0), 5) = 5
+T70.42807743197773 DEBUG scale: n = 2 * 0 = 2
+T70.42808635797701 DEBUG scale: count = 5 * 2 = 10
+T70.42809445600142 DEBUG count: 10
+T70.42810155599727 DEBUG rel: None
+T70.42811288198573 DEBUG like: ['$1', '$2']
+T70.42811993899522 DEBUG unlike: []
+T70.42813028997625 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T70.42823198498809 chat_prompt: give me 10 words that are related to $1 and $2; do not list any words that you have already listed above
+T70.42840232799063 session: {"role": "user", "content": "give me 10 words that are related to \"guitar\" and \"harmonica\"; do not list any words that you have already listed above"}
+T76.62109468798735 session: {"role": "assistant", "content": "Here are 10 words that are related to \"guitar\" and \"harmonica\", excluding the previously listed words:\n\n1. Strings\n2. Tuning\n3. Amplifier\n4. Blues\n5. Folk\n6. Improvisation\n7. Slide\n8. Pickups\n9. Resonator\n10. Tablature"}
+T79.34277468000073 #11 extract_...
+T81.73277034499915 🤔 extract_1/10 #11 "amplifier" score? 8.41
+T81.73300912199193 attempt_10: "amplifier" score:8.41 prog:None
+T84.71881667297566 🤔 extract_1/9 #12 "blues" score? 3.88
+T84.71896966799977 attempt_11: "blues" score:3.88 prog:None
+T87.57951246498851 🤔 extract_1/8 #13 "folk" score? 16.77
+T87.57969050799147 attempt_12: "folk" score:16.77 prog:None
+T88.62666548098787 #14 ? _
+T88.62682784697972 chat_prompt: _
+T88.62700075199245 session: {"role": "user", "content": "give me 10 words that are related to \"guitar\" and \"folk\"; do not list any words that you have already listed above"}
+T94.28770211298252 session: {"role": "assistant", "content": "Here are 10 words that are related to \"guitar\" and \"folk\", excluding the previously listed words:\n\n1. Acoustic\n2. Fingerpicking\n3. Ballad\n4. Fiddle\n5. Banjo\n6. Stringband\n7. Traditional\n8. Singer-songwriter\n9. Celtic\n10. Appalachian"}
+T99.2703553379979 #14 extract_...
+T101.67332732799696 🤔 extract_1/11 #14 "acoustic" score? 12.28
+T101.67349644898786 attempt_13: "acoustic" score:12.28 prog:None
+T103.90578454599017 🤔 extract_1/10 #15 "appalachian" score? !
+T103.90592255900265 reject: "appalachian"
+T106.30457053199643 🤔 extract_1/9 #15 "ballad" score? 6.41
+T106.304771850002 attempt_14: "ballad" score:6.41 prog:None
+T108.8098152409948 🤔 extract_1/8 #16 "banjo" score? 14.11
+T108.80999718999374 attempt_15: "banjo" score:14.11 prog:None
+T110.8191482469847 🤔 extract_1/7 #17 "celtic" score? !
+T110.81927617397741 reject: "celtic"
+T113.26862508198246 🤔 extract_1/6 #17 "fiddle" score? 13.44
+T113.26885199800017 attempt_16: "fiddle" score:13.44 prog:None
+T117.73462669199216 🤔 extract_1/5 #18 "fingerpicking" score? !
+T117.73476384498645 reject: "fingerpicking"
+T122.4601006390003 🤔 extract_1/4 #18 "singer" score? 15.79
+T122.46030212298501 attempt_17: "singer" score:15.79 prog:None
+T126.44810761499684 🤔 extract_1/3 #19 "songwriter" score? 31.79
+T128.60685289200046 🤔 extract_1/3 #19 "songwriter" 31.79°C prog‰ ? 810
+T128.6070319659775 attempt_18: "songwriter" score:31.79 prog:810
+T130.12551288999384 #20 ? _
+T130.1256734209892 chat_prompt: _
+T130.12582511099754 session: {"role": "user", "content": "give me 10 words that are related to \"songwriter\" and \"guitar\"; do not list any words that you have already listed above"}
+T135.87937029000022 session: {"role": "assistant", "content": "Here are 10 words that are related to \"songwriter\" and \"guitar\", excluding the previously listed words:\n\n1. Lyric\n2. Chord progression\n3. Composition\n4. Rhythm\n5. Melody\n6. Arrangement\n7. Studio\n8. Recording\n9. Demo\n10. Instrumental"}
+T138.9433410979982 #20 extract_...
+T141.67397359898314 🤔 extract_1/11 #20 "arrangement" score? 4.88
+T141.67412192298798 attempt_19: "arrangement" score:4.88 prog:None
+T144.44179751799675 🤔 extract_1/10 #21 "chord" score? 10.69
+T144.44195968398708 attempt_20: "chord" score:10.69 prog:None
+T146.86656931598554 🤔 extract_1/9 #22 "composition" score? 3.9
+T146.86671506499988 attempt_21: "composition" score:3.90 prog:None
+T151.44027367097442 🤔 extract_1/8 #23 "demo" score? 30.74 766
+T151.440509217995 attempt_22: "demo" score:30.74 prog:766
+T154.29468651098432 🤔 extract_1/7 #24 "instrumental" score? 7.18
+T154.2948318469862 attempt_23: "instrumental" score:7.18 prog:None
+T157.34644264300005 🤔 extract_1/6 #25 "lyric" score? 12.41
+T157.34660150998388 attempt_24: "lyric" score:12.41 prog:None
+T158.15240319198347 #26 ? _
+T158.15257836098317 chat_prompt: _
+T158.15275424998254 session: {"role": "user", "content": "give me 10 words that are related to \"songwriter\" and \"demo\"; do not list any words that you have already listed above"}
+T163.9676939380006 session: {"role": "assistant", "content": "Here are 10 words that are related to \"songwriter\" and \"demo\", excluding the previously listed words:\n\n1. Rough\n2. Unpolished\n3. Private\n4. Test\n5. Recording studio\n6. Producer\n7. Vocals\n8. Instrumental backing\n9. Work-in-progress\n10. Proof"}
+T170.12699628897826 #26 extract_...
+T173.3590968499775 🤔 extract_1/13 #26 "backing" score? -2.11
+T173.3592858289776 attempt_25: "backing" score:-2.11 prog:None
+T176.41405162098818 🤔 extract_1/12 #27 "in" score? !
+T176.4141800130019 reject: "in"
+T180.8297446599754 🤔 extract_1/11 #27 "private" score? -.98
+T180.8299493599916 attempt_26: "private" score:-0.98 prog:None
+T184.4499392079888 🤔 extract_1/10 #28 "producer" score? 37.61
+T186.6036850840028 🤔 extract_1/10 #28 "producer" 37.61°C prog‰ ? 935
+T186.60384603697457 attempt_27: "producer" score:37.61 prog:935
+T194.1888112059969 🤔 extract_1/9 #29 "progress" score? -9.49
+T194.1890174529981 attempt_28: "progress" score:-9.49 prog:None
+T202.08209062399692 #30 ? *t2 /clear .
+T202.08238456799882 DEBUG cp: ChatPrompt(prompt='give me 10 words that are related to $1 and $2; do not list any words that you have already listed above', count=10, kind=None, rel='that are related to', trailer='; do not list any words that you have already listed above')
+T202.08265783498064 DEBUG scale: per = default(ceil(10/2), 5) = 5
+T202.08269427798223 DEBUG scale: n = 2 * 0 = 2
+T202.08271976199467 DEBUG scale: count = 5 * 2 = 10
+T202.08274181597517 DEBUG count: 10
+T202.0827625009988 DEBUG rel: None
+T202.08279033799772 DEBUG like: ['$1', '$2']
+T202.08281215798343 DEBUG unlike: []
+T202.082835934998 DEBUG trailer: given:True []
+T202.0829927129962 session clear
+T202.0830728749861 chat_prompt: give me 10 words that are related to $1 and $2
+T202.08329259397578 session: {"role": "user", "content": "give me 10 words that are related to \"producer\" and \"songwriter\""}
+T206.29929694600287 session: {"role": "assistant", "content": "Here are 10 words related to \"producer\" and \"songwriter\":\n\n1. Musician\n2. Studio\n3. Engineer\n4. Composer\n5. Arranger\n6. Mixer\n7. Mastering\n8. Recording\n9. Lyricist\n10. Co-writer"}
+T212.12846944498597 #30 extract_...
+T216.75018509899382 🤔 extract_1/11 #30 "arranger" score? 24.47
+T218.89659350499278 🤔 extract_1/11 #30 "arranger" 24.47°C prog‰ ? 243
+T218.89666955597932 attempt_29: "arranger" score:24.47 prog:243
+T220.55767453397857 🤔 extract_1/10 #31 "co" score? !
+T220.55780785399838 reject: "co"
+T228.29718240298098 🤔 extract_1/9 #31 "composer" score? 36.87 926
+T228.29738003999228 attempt_30: "composer" score:36.87 prog:926
+T234.08163960298407 🤔 extract_1/8 #32 "engineer" score? 52.84 997
+T234.08183098299196 attempt_31: "engineer" score:52.84 prog:997
+T237.4781824509846 #33 ? _
+T237.47835848899558 chat_prompt: _
+T237.47852367398445 session: {"role": "user", "content": "give me 10 words that are related to \"engineer\" and \"producer\""}
+T242.33361026400235 session: {"role": "assistant", "content": "Here are 10 words related to \"engineer\" and \"producer\":\n\n1. Audio\n2. Acoustics\n3. Studio equipment\n4. Signal flow\n5. Pre-production\n6. Mixing console\n7. Software plugin\n8. Waveform\n9. Frequency response\n10. Synthesis"}
+T247.53865892399335 #33 extract_...
+T250.55348966797465 🤔 extract_1/16 #33 "acoustics" score? 12.87
+T250.5536784849828 attempt_32: "acoustics" score:12.87 prog:None
+T253.06270629700157 🤔 extract_1/15 #34 "audio" score? 13.88
+T253.06286717398325 attempt_33: "audio" score:13.88 prog:None
+T256.02745482098544 🤔 extract_1/14 #35 "console" score? 21.79
+T256.0276096999878 attempt_34: "console" score:21.79 prog:None
+T258.2862836830027 🤔 extract_1/13 #36 "equipment" score? 1.84
+T258.28645733898156 attempt_35: "equipment" score:1.84 prog:None
+T260.5835312999843 🤔 extract_1/12 #37 "flow" score? 4.9
+T260.58368103500106 attempt_36: "flow" score:4.90 prog:None
+T262.81638067698805 🤔 extract_1/11 #38 "frequency" score? .56
+T262.8165332029748 attempt_37: "frequency" score:0.56 prog:None
+T265.33127992998925 🤔 extract_1/10 #39 "mixing" score? 10.26
+T265.3314455849759 attempt_38: "mixing" score:10.26 prog:None
+T267.2610733869951 🤔 extract_1/9 #40 "plugin" score? !
+T267.2612726239895 reject: "plugin"
+T269.090071721992 🤔 extract_1/8 #40 "pre" score? !
+T269.0902100119856 reject: "pre"
+T271.54203106299974 🤔 extract_1/7 #40 "production" score? 7.89
+T271.54219108397956 attempt_39: "production" score:7.89 prog:None
+T275.61661131397705 🤔 extract_1/6 #41 "response" score? -1.16
+T275.616813865985 attempt_40: "response" score:-1.16 prog:None
+T277.99101409799187 🤔 extract_1/5 #42 "signal" score? 1.46
+T277.9912570149754 attempt_41: "signal" score:1.46 prog:None
+T283.9388888439862 🤔 extract_1/4 #43 "software" score? 43.04 981
+T283.93907845497597 attempt_42: "software" score:43.04 prog:981
+T290.5492410979932 🤔 extract_1/3 #44 "studio" score? 33.31 862
+T290.54943350100075 attempt_43: "studio" score:33.31 prog:862
+T294.63646714398055 🤔 extract_1/2 #45 "synthesis" score? 13.48
+T294.6366671049909 attempt_44: "synthesis" score:13.48 prog:None
+T297.0095343779831 🤔 extract_1/1 #46 "waveform" score? 17.12
+T297.00969113898464 attempt_45: "waveform" score:17.12 prog:None
+T303.7979537299834 #47 ? *t1 !new
+T303.7981874499819 DEBUG cp: ChatPrompt(prompt='give me 10 words that are related to $1 and $2', count=10, kind=None, rel='that are related to', trailer=None)
+T303.7983508569887 DEBUG scale: per = default(ceil(10/2), 5) = 5
+T303.7983762079966 DEBUG scale: n = 1 * 0 = 1
+T303.79839339398313 DEBUG scale: count = 5 * 1 = 5
+T303.798409651994 DEBUG count: 5
+T303.79842475097394 DEBUG rel: None
+T303.7984439699794 DEBUG like: ['$1']
+T303.7984597039758 DEBUG unlike: []
+T303.7984794819786 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T303.7986048529856 chat_prompt: give me 5 words that are related to $1; do not list any words that you have already listed above
+T303.7987963609921 session: {"role": "user", "content": "give me 5 words that are related to \"engineer\"; do not list any words that you have already listed above"}
+T307.56830774300033 session: {"role": "assistant", "content": "Here are 5 new words related to \"engineer\" that I haven't listed before:\n\n1. Calibration\n2. Instrumentation\n3. Amplifier\n4. Acoustic treatment\n5. Loudspeaker"}
+T309.49943754199194 #47 extract_...
+T312.1619732219842 🤔 extract_1/4 #47 "calibration" score? 18.17
+T312.1621676439827 attempt_46: "calibration" score:18.17 prog:None
+T315.1959571369807 🤔 extract_1/3 #48 "instrumentation" score? 14.69
+T315.1960897089739 attempt_47: "instrumentation" score:14.69 prog:None
+T317.5354090729961 🤔 extract_1/2 #49 "loudspeaker" score? 3.36
+T317.5356876599835 attempt_48: "loudspeaker" score:3.36 prog:None
+T320.5339369389985 🤔 extract_1/1 #50 "treatment" score? -8.62
+T320.53410895797424 attempt_49: "treatment" score:-8.62 prog:None
+T327.0766583919758 #51 ? *t4 /clear .
+T327.0768148560019 DEBUG cp: ChatPrompt(prompt='give me 5 words that are related to $1; do not list any words that you have already listed above', count=5, kind=None, rel='that are related to', trailer='; do not list any words that you have already listed above')
+T327.0769549419929 DEBUG scale: per = default(ceil(5/1), 5) = 5
+T327.0769738139934 DEBUG scale: n = 4 * 0 = 4
+T327.0769848639902 DEBUG scale: count = 5 * 4 = 20
+T327.0769945579814 DEBUG count: 20
+T327.07700365097844 DEBUG rel: None
+T327.07701695599826 DEBUG like: ['$1', '$2', '$3', '$4']
+T327.07702823900036 DEBUG unlike: []
+T327.07704007299617 DEBUG trailer: given:True []
+T327.0771329999843 session clear
+T327.07718373599346 chat_prompt: give me 20 words that are related to $1, $2, $3, and $4
+T327.07733521799673 session: {"role": "user", "content": "give me 20 words that are related to \"engineer\", \"software\", \"producer\", and \"composer\""}
+T334.8314028879977 session: {"role": "assistant", "content": "Here are 20 words related to the professions of engineer, software developer, producer, and composer:\n\n1. Design\n2. Development\n3. Technology\n4. Coding\n5. Innovation\n6. Music production\n7. Sound design\n8. Instrumentation\n9. Algorithm\n10. Model\n11. Simulation\n12. Prototyping\n13. Project management\n14. Collaboration\n15. Audio engineering\n16. Visual effects\n17. Game development\n18. User experience\n19. Digital signal processing\n20. Creative problem-solving"}
+T335.9535475099983 #51 extract_...
+T341.36516375199426 🤔 extract_1/25 #51 "algorithm" score? 28.03 619
+T341.3653707969934 attempt_50: "algorithm" score:28.03 prog:619
+T346.33154250498046 🤔 extract_1/24 #52 "coding" score? 40.5 962
+T346.3317337379849 attempt_51: "coding" score:40.50 prog:962
+T349.9870808159758 🤔 extract_1/23 #53 "collaboration" score? 14.99 
+T354.68675333997817 🤔 extract_1/23 #53 "collaboration" score? 14.99
+T354.68687361699995 attempt_52: "collaboration" score:14.99 prog:None
+T364.59213211698807 🤔 extract_1/22 #54 "creative" score? 29.58 708
+T364.5923801299941 attempt_53: "creative" score:29.58 prog:708
+T369.5942758099991 🤔 extract_1/21 #55 "design" score? 25.98 439
+T369.59443078399636 attempt_54: "design" score:25.98 prog:439
+T372.10822389798705 🤔 extract_1/20 #56 "development" score? 13.27
+T372.10837015899597 attempt_55: "development" score:13.27 prog:None
+T375.33196456497535 🤔 extract_1/19 #57 "digital" score? 17.9
+T375.332042643975 attempt_56: "digital" score:17.90 prog:None
+T378.7331645829836 🤔 extract_1/18 #58 "effects" score? -.62
+T378.7333191439975 attempt_57: "effects" score:-0.62 prog:None
+T384.71076852298575 🤔 extract_1/17 #59 "engineering" score? 29.65 715
+T384.7110687230015 attempt_58: "engineering" score:29.65 prog:715
+T388.5896686689812 🤔 extract_1/16 #60 "experience" score? 13.05
+T388.5898484450008 attempt_59: "experience" score:13.05 prog:None
+T394.0765190599777 #61 ? *t3 !new
+T394.0767186229932 DEBUG cp: ChatPrompt(prompt='give me 20 words that are related to $1, $2, $3, and $4', count=20, kind=None, rel='that are related to', trailer=None)
+T394.07684196098126 DEBUG scale: per = default(ceil(20/4), 5) = 5
+T394.076853223989 DEBUG scale: n = 3 * 0 = 3
+T394.076861775975 DEBUG scale: count = 5 * 3 = 15
+T394.0768688929966 DEBUG count: 15
+T394.07687597797485 DEBUG rel: None
+T394.07688660998247 DEBUG like: ['$1', '$2', '$3']
+T394.076893578982 DEBUG unlike: []
+T394.0769037239952 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T394.07698884099955 chat_prompt: give me 15 words that are related to $1, $2, and $3; do not list any words that you have already listed above
+T394.07713585498277 session: {"role": "user", "content": "give me 15 words that are related to \"engineer\", \"software\", and \"coding\"; do not list any words that you have already listed above"}
+T401.029211356974 session: {"role": "assistant", "content": "Here are 15 new words related to the professions of engineer, software developer, and coder:\n\n1. Architecture\n2. Frameworks\n3. Debugging\n4. Testing\n5. Version control\n6. APIs\n7. Data structures\n8. Cryptography\n9. Network architecture\n10. Embedded systems\n11. Firmware development\n12. User interface\n13. Microservices\n14. Cybersecurity\n15. Artificial intelligence"}
+T403.02445012898534 #61 extract_...
+T405.57309985297616 🤔 extract_1/20 #61 "apis" score? !
+T405.57323728199117 reject: "apis"
+T409.70589678699616 🤔 extract_1/19 #61 "architecture" score? 27.72 594
+T409.706036810996 attempt_60: "architecture" score:27.72 prog:594
+T411.9168389099941 🤔 extract_1/18 #62 "artificial" score? 1.84
+T411.9170438029978 attempt_61: "artificial" score:1.84 prog:None
+T415.0483068259782 🤔 extract_1/17 #63 "control" score? -.87
+T415.0486050659965 attempt_62: "control" score:-0.87 prog:None
+T420.81563854397973 🤔 extract_1/16 #64 "cryptography" score? 27.02 527
+T420.815717296995 attempt_63: "cryptography" score:27.02 prog:527
+T422.7343799629889 🤔 extract_1/15 #65 "cybersecurity" score? !
+T422.7345518049842 reject: "cybersecurity"
+T425.4665434429771 🤔 extract_1/14 #65 "data" score? 8.79
+T425.46671420297935 attempt_64: "data" score:8.79 prog:None
+T427.2816992219887 🤔 extract_1/13 #66 "debugging" score? !
+T427.281823361991 reject: "debugging"
+T430.4889768039866 🤔 extract_1/12 #66 "embedded" score? 14.88
+T430.48913066397654 attempt_65: "embedded" score:14.88 prog:None
+T434.88713086699136 🤔 extract_1/11 #67 "firmware" score? 24.02 175
+T434.88735216498026 attempt_66: "firmware" score:24.02 prog:175
+T436.87460831497447 🤔 extract_1/10 #68 "frameworks" score? !
+T436.8748093859758 reject: "frameworks"
+T441.02219310298096 🤔 extract_1/9 #68 "intelligence" score? 11.72
+T441.0223786639981 attempt_67: "intelligence" score:11.72 prog:None
+T445.9425450019771 🤔 extract_1/8 #69 "interface" score? 28.01 617
+T445.9427396619867 attempt_68: "interface" score:28.01 prog:617
+T447.9889268199913 🤔 extract_1/7 #70 "microservices" score? !
+T447.98902433898184 reject: "microservices"
+T450.7001650919847 🤔 extract_1/6 #70 "network" score? 18.44
+T450.70035247597843 attempt_69: "network" score:18.44 prog:None
+T454.890070517984 🤔 extract_1/5 #71 "structures" score? !structure
+T454.8902097249811 reject: "structures"
+T456.95084072099417 🤔 corrected #71 "structure" score? 4.25
+T456.9510015869746 attempt_70: "structure" score:4.25 prog:None
+T461.5168218679901 🤔 extract_1/4 #72 "systems" score? !system
+T461.51698562697857 reject: "systems"
+T463.956571349001 🤔 corrected #72 "system" score? 14.53
+T463.9567807019921 attempt_71: "system" score:14.53 prog:None
+T468.9876193769742 🤔 extract_1/3 #73 "testing" score? 6.86
+T468.9877812609775 attempt_72: "testing" score:6.86 prog:None
+T475.0448314609821 🤔 extract_1/2 #74 "user" score? 31.83 812
+T475.0450109069934 attempt_73: "user" score:31.83 prog:812
+T478.06711429098505 🤔 extract_1/1 #75 "version" score? 16.05
+T478.0673146719928 attempt_74: "version" score:16.05 prog:None
+T483.48148550098995 #76 ? /e scav 
+T488.2672845889756 #76 ? /e scav
+T493.94036038199556 #76 extract_5
+T496.7701568059856 🤔 extract_5/38 #76 "management" score? 21.29
+T496.7703238889808 attempt_75: "management" score:21.29 prog:None
+T499.76877164299367 #77 ? /e scav
+T503.23266348597826 #77 extract_36
+T505.45940164499916 🤔 extract_36/37 #77 "work" score? 14.94
+T505.4595639539766 attempt_76: "work" score:14.94 prog:None
+T507.501195586985 #78 ? /e scav
+T509.06352223298745 #78 extract_36
+T514.7386069769855 🤔 extract_36/36 #78 "writer" score? 37.72 938
+T514.738773471996 attempt_77: "writer" score:37.72 prog:938
+T519.2377156329749 #79 ? /e scav
+T521.1709947809868 #79 extract_8
+T523.5599096659862 🤔 extract_8/35 #79 "model" score? 11.46
+T523.5600564740016 attempt_78: "model" score:11.46 prog:None
+T525.1877615760022 #80 ? /e scav
+T528.0501422669913 #80 extract_11
+T530.5563741969818 🤔 extract_11/34 #80 "problem" score? 6.37
+T530.556523384992 attempt_79: "problem" score:6.37 prog:None
+T534.1459911049751 #81 ? /e scav
+T542.2912307849911 #81 extract_27
+T545.046239007992 🤔 extract_27/33 #81 "technology" score? 16.53
+T545.0464202879812 attempt_80: "technology" score:16.53 prog:None
+T547.0698228899855 #82 ? /prog
+T553.0967607659986 #82 ? *12 t6 /clear .
+T553.0969453259895 DEBUG cp: ChatPrompt(prompt='give me 15 words that are related to $1, $2, and $3; do not list any words that you have already listed above', count=15, kind=None, rel='that are related to', trailer='; do not list any words that you have already listed above')
+T553.0970877499785 DEBUG count: 12
+T553.0970995379903 DEBUG rel: None
+T553.0971135029977 DEBUG like: ['$1', '$2', '$3', '$4', '$5', '$6']
+T553.097122541978 DEBUG unlike: []
+T553.0971328549786 DEBUG trailer: given:True []
+T553.0972213539935 session clear
+T553.0972693829972 chat_prompt: give me 12 words that are related to $1, $2, $3, $4, $5, and $6
+T553.0974411749921 session: {"role": "user", "content": "give me 12 words that are related to \"engineer\", \"software\", \"coding\", \"writer\", \"producer\", and \"composer\""}
+T557.9553947359964 session: {"role": "assistant", "content": "Here are 12 words related to the given fields:\n\n1. Algorithm\n2. Software engineer\n3. Syntax\n4. Scripting\n5. Editor\n6. Storyboard\n7. Pitch\n8. MIDI\n9. Audio engineer\n10. Debugging\n11. Narrative\n12. Prototyping"}
+T559.6083740189788 #82 extract_...
+T565.573098851979 🤔 extract_1/8 #82 "editor" score? 34.83 895
+T565.5732576040027 attempt_81: "editor" score:34.83 prog:895
+T568.7150438819954 🤔 extract_1/7 #83 "midi" score? 20.29
+T568.7153413389751 attempt_82: "midi" score:20.29 prog:None
+T571.2291093949752 🤔 extract_1/6 #84 "narrative" score? 13.2
+T571.2292516389862 attempt_83: "narrative" score:13.20 prog:None
+T573.4895894639776 🤔 extract_1/5 #85 "pitch" score? 1.23
+T573.4897723319882 attempt_84: "pitch" score:1.23 prog:None
+T576.8490588679851 🤔 extract_1/4 #86 "prototyping" score? !prototype
+T576.8492527649796 reject: "prototyping"
+T579.2937209079973 🤔 corrected #86 "prototype" score? 18.07
+T579.2938943939807 attempt_85: "prototype" score:18.07 prog:None
+T584.0569262559875 🤔 extract_1/3 #87 "scripting" score? !script
+T584.0570616269833 reject: "scripting"
+T590.1141185669985 🤔 corrected #87 "script" score? 29.23 691
+T590.1142008189927 attempt_86: "script" score:29.23 prog:691
+T592.4524055279908 🤔 extract_1/2 #88 "storyboard" score? !
+T592.4525404559972 reject: "storyboard"
+T597.4342225379951 🤔 extract_1/1 #88 "syntax" score? 26.16 460
+T597.4344016989926 attempt_87: "syntax" score:26.16 prog:460
+T606.9220294069964 #89 ? *t3 seen with !new
+T606.9222034489794 DEBUG cp: ChatPrompt(prompt='give me 12 words that are related to $1, $2, $3, $4, $5, and $6', count=12, kind=None, rel='that are related to', trailer=None)
+T606.9225327199965 DEBUG scale: per = default(ceil(12/6), 5) = 2
+T606.9225452230021 DEBUG scale: n = 3 * 0 = 3
+T606.9225536239974 DEBUG scale: count = 2 * 3 = 6
+T606.9225610869762 DEBUG count: 6
+T606.9225685519923 DEBUG rel: 'seen with'
+T606.9225792939833 DEBUG like: ['$1', '$2', '$3']
+T606.922586353001 DEBUG unlike: []
+T606.9225963439967 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T606.9226764759806 chat_prompt: give me 6 words that are seen with $1, $2, and $3; do not list any words that you have already listed above
+T606.9228185300017 session: {"role": "user", "content": "give me 6 words that are seen with \"engineer\", \"software\", and \"coding\"; do not list any words that you have already listed above"}
+T610.7997289139894 session: {"role": "assistant", "content": "Here are 6 additional words related to \"engineer\", \"software\", and \"coding\":\n\n1. Framework\n2. Compiler\n3. Debugger\n4. Algorithmic\n5. Interface\n6. Architecture"}
+T612.4058723339986 #89 extract_...
+T618.4599474139977 🤔 extract_1/4 #89 "algorithmic" score? 25.35 364
+T618.4600918719952 attempt_88: "algorithmic" score:25.35 prog:364
+T624.0125274579914 🤔 extract_1/3 #90 "compiler" score? 42.26 975
+T624.01270630199 attempt_89: "compiler" score:42.26 prog:975
+T631.2979042719817 🤔 extract_1/2 #91 "debugger" score? 29.33 695
+T631.298058225977 attempt_90: "debugger" score:29.33 prog:695
+T633.9175996769918 🤔 extract_1/1 #92 "framework" score? 10.21
+T633.9177371149999 attempt_91: "framework" score:10.21 prog:None
+T634.8510665669746 #93 ? _
+T634.8513019800012 chat_prompt: _
+T634.8515042239742 session: {"role": "user", "content": "give me 6 words that are seen with \"engineer\", \"software\", and \"compiler\"; do not list any words that you have already listed above"}
+T639.0087587399757 session: {"role": "assistant", "content": "Here are 6 additional words related to \"engineer\", \"software\", and \"compiler\":\n\n1. Assembly\n2. Compiler suite\n3. Embedded system\n4. Firmware\n5. Optimization\n6. Profiling"}
+T640.8689597990015 #93 extract_...
+T643.146080165985 🤔 extract_1/4 #93 "assembly" score? .31
+T643.1462751319923 attempt_92: "assembly" score:0.31 prog:None
+T645.8543658559793 🤔 extract_1/3 #94 "optimization" score? 16.69
+T645.8545381909935 attempt_93: "optimization" score:16.69 prog:None
+T648.8725997619913 🤔 extract_1/2 #95 "profiling" score? 13.84
+T648.8727682109748 attempt_94: "profiling" score:13.84 prog:None
+T651.6417975479853 🤔 extract_1/1 #96 "suite" score? 4.92
+T651.6418734809849 attempt_95: "suite" score:4.92 prog:None
+T652.6488176869752 #97 ? /prog
+T661.4018315069843 #97 ? *t4 related 12 
+T661.4021095309872 DEBUG cp: ChatPrompt(prompt='give me 6 words that are seen with $1, $2, and $3; do not list any words that you have already listed above', count=6, kind=None, rel='that are seen with', trailer='; do not list any words that you have already listed above')
+T661.4022831140028 DEBUG scale: per = default(ceil(6/3), 5) = 2
+T661.4023004189949 DEBUG scale: n = 4 * 0 = 4
+T661.4023111659917 DEBUG scale: count = 2 * 4 = 8
+T661.4023214369954 DEBUG count: 8
+T661.4023315649829 DEBUG rel: 'related'
+T661.402347522002 DEBUG like: ['$1', '$2', '$3', '$4']
+T661.4023574239982 DEBUG unlike: []
+T661.4024113309861 DEBUG trailer: given:False []
+T661.4025228869868 chat_prompt: give me 8 words that are related to $1, $2, $3, and $4; do not list any words that you have already listed above
+T661.4027659919811 session: {"role": "user", "content": "give me 8 words that are related to \"engineer\", \"software\", \"compiler\", and \"coding\"; do not list any words that you have already listed above"}
+T667.1035146259819 session: {"role": "assistant", "content": "Here are 8 additional words related to \"engineer\", \"software\", \"compiler\", and \"coding\":\n\n1. Integration\n2. Debugging tools\n3. Low-level programming\n4. Reverse engineering\n5. Computer-aided design (CAD)\n6. Testing framework\n7. Language specification\n8. Embedded development"}
+T668.9432662929757 #97 extract_...
+T671.2250495059998 🤔 extract_1/10 #97 "aided" score? 1.52
+T671.2252232879982 attempt_96: "aided" score:1.52 prog:None
+T678.1845459159813 🤔 extract_1/9 #98 "computer" score? 42.51 977
+T678.1847834159853 attempt_97: "computer" score:42.51 prog:977
+T681.6796699209954 🤔 extract_1/8 #99 "integration" score? 16.48
+T681.679823849001 attempt_98: "integration" score:16.48 prog:None
+T686.4853669549921 🤔 extract_1/7 #100 "language" score? 23.6 117
+T686.4855717469763 attempt_99: "language" score:23.60 prog:117
+T690.4640864829998 #101 ? /e
+T691.9024507979921 #101 extract_3
+T697.7350914089766 🤔 extract_3/6 #101 "programming" score? 43.38 984
+T697.7353812219808 attempt_100: "programming" score:43.38 prog:984
+T705.9753892319859 #102 ? /prog
+T714.1061209109903 #102 ? *8 t2 related /t2 clear .
+T714.106323266984 DEBUG cp: ChatPrompt(prompt='give me 8 words that are related to $1, $2, $3, and $4; do not list any words that you have already listed above', count=8, kind=None, rel='that are related to', trailer='; do not list any words that you have already listed above')
+T714.1065826709964 DEBUG count: 8
+T714.1066103990015 DEBUG rel: 'related /t2 clear'
+T714.1066326109867 DEBUG like: ['$1', '$2']
+T714.1066490359954 DEBUG unlike: []
+T714.1066669329884 DEBUG trailer: given:True []
+T714.1067764329782 chat_prompt: give me 8 words that related /t2 clear $1 and $2
+T714.1069606639794 session: {"role": "user", "content": "give me 8 words that related /t2 clear \"engineer\" and \"programming\""}
+T725.8872421769775 #102 ? *8 t2 related t2 /clear .
+T725.8874636139954 DEBUG cp: ChatPrompt(prompt='give me 8 words that related /t2 clear $1 and $2', count=8, kind=None, rel='that related /t2 clear', trailer=None)
+T725.8877417479816 DEBUG count: 8
+T725.8877670129878 DEBUG rel: 'related'
+T725.8877910509764 DEBUG like: ['$1', '$2', '$1', '$2']
+T725.8878344799741 DEBUG unlike: []
+T725.887856597983 DEBUG trailer: given:True []
+T725.8879845969786 session clear
+T725.8880524429842 chat_prompt: give me 8 words that are related to $1, $2, $1, and $2
+T725.8882667909784 session: {"role": "user", "content": "give me 8 words that are related to \"engineer\", \"programming\", \"engineer\", and \"programming\""}
+T729.7137681169843 session: {"role": "assistant", "content": "Here are 8 words that are related to both \"engineer\" and \"programming\":\n\n1. Design\n2. Code\n3. Algorithm\n4. Computer\n5. Software\n6. Circuit\n7. Prototype\n8. Development"}
+T731.0634006339824 #102 extract_...
+T733.4685587059939 🤔 extract_1/2 #102 "circuit" score? 9.63
+T733.468640402978 attempt_101: "circuit" score:9.63 prog:None
+T735.9711861499818 🤔 extract_1/1 #103 "code" score? 22.04
+T735.9715607849939 attempt_102: "code" score:22.04 prog:None
+T744.3684137889941 #104 ? !cont
+T744.3685622649791 chat_prompt: keep going
+T744.3686999789788 session: {"role": "user", "content": "keep going"}
+T747.972762941994 session: {"role": "assistant", "content": "Here are 8 more words that are related to both \"engineer\" and \"programming\":\n\n9. Simulation\n10. Model\n11. Debugging\n12. Testing\n13. Optimization\n14. Interface\n15. Network\n16. Architecture"}
+T749.4644385099818 #104 extract_...
+T752.1796585999837 🤔 extract_1/1 #104 "simulation" score? 15.16
+T752.1797359969933 attempt_103: "simulation" score:15.16 prog:None
+T760.038886151975 #105 ? /prog
+T772.1988025259925 #105 ? *25 t5 !new
+T772.1990688520018 DEBUG cp: None
+T772.1992996929912 DEBUG count: 25
+T772.1993258709845 DEBUG rel: None
+T772.1993514469941 DEBUG like: ['$1', '$2', '$3', '$4', '$5']
+T772.1993695879937 DEBUG unlike: []
+T772.1993920120003 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T772.1995128249982 chat_prompt: give me 25 words that are related to $1, $2, $3, $4, and $5; do not list any words that you have already listed above
+T772.1997633879946 session: {"role": "user", "content": "give me 25 words that are related to \"engineer\", \"programming\", \"software\", \"computer\", and \"compiler\"; do not list any words that you have already listed above"}
+T781.2626009989763 session: {"role": "assistant", "content": "Here are 25 more words that are related to both \"engineer\" and \"programming\":\n\n17. Firmware\n18. Microchip\n19. Assembly\n20. Compiler\n21. Debugger\n22. Schematics\n23. CircuitBoard\n24. Embedded\n25. Protocol\n26. API\n27. Framework\n28. Library\n29. Parser\n30. Interpreter\n31. Runtime\n32. Debug\n33. Error\n34. Fix\n35. Patch\n36. Upgrade\n37. Update\n38. Reboot\n39. Bootloader\n40. BIOS"}
+T782.3337122569792 #105 extract_...
+T784.4451342959946 🤔 extract_1/18 #105 "api" score? !
+T784.4452523819928 reject: "api"
+T786.0425165399793 🤔 extract_1/17 #105 "bios" score? !
+T786.042634471989 reject: "bios"
+T787.68809723499 🤔 extract_1/16 #105 "bootloader" score? !
+T787.6882731289952 reject: "bootloader"
+T789.313422555977 🤔 extract_1/15 #105 "circuitboard" score? !
+T789.313480354991 reject: "circuitboard"
+T794.7379843340022 🤔 extract_1/14 #105 "debug" score? 29.05 682
+T794.7381658289814 attempt_104: "debug" score:29.05 prog:682
+T798.511206627998 🤔 extract_1/13 #106 "error" score? 16.19
+T798.51135036099 attempt_105: "error" score:16.19 prog:None
+T801.5060328419786 🤔 extract_1/12 #107 "fix" score? 17.76
+T801.5061960799794 attempt_106: "fix" score:17.76 prog:None
+T803.9371031739865 🤔 extract_1/11 #108 "interpreter" score? 21.57
+T803.9372747949965 attempt_107: "interpreter" score:21.57 prog:None
+T806.4029246009886 🤔 extract_1/10 #109 "library" score? 20.69
+T806.4031147929782 attempt_108: "library" score:20.69 prog:None
+T808.7091298229934 🤔 extract_1/9 #110 "microchip" score? 7.32
+T808.7093040899781 attempt_109: "microchip" score:7.32 prog:None
+T816.7761779419961 🤔 extract_1/8 #111 "parser" score? 38.89 956
+T816.7763154139975 attempt_110: "parser" score:38.89 prog:956
+T820.2800876839901 🤔 extract_1/7 #112 "patch" score? 15.6
+T820.2802349219855 attempt_111: "patch" score:15.60 prog:None
+T822.781568448001 🤔 extract_1/6 #113 "protocol" score? 8.07
+T822.7817391419958 attempt_112: "protocol" score:8.07 prog:None
+T831.9355360189802 🤔 extract_1/5 #114 "reboot" score? 29.65 714
+T831.9357012859837 attempt_113: "reboot" score:29.65 prog:714
+T835.8242471949779 🤔 extract_1/4 #115 "runtime" score? !
+T835.8243807260005 reject: "runtime"
+T840.1093123469909 🤔 extract_1/3 #115 "schematics" score? !schematic
+T840.1094709879835 reject: "schematics"
+T842.0746373579896 🤔 corrected #115 "schematic" score? 18
+T842.0748032499978 attempt_114: "schematic" score:18.00 prog:None
+T844.7854311499977 🤔 extract_1/2 #116 "update" score? 13.53
+T844.785618408001 attempt_115: "update" score:13.53 prog:None
+T847.2119491009798 🤔 extract_1/1 #117 "upgrade" score? 13.42
+T847.2120867639896 attempt_116: "upgrade" score:13.42 prog:None
+T850.3415050119802 #118 ? /e scav
+T854.2051757889858 #118 extract_30
+T857.2193434200017 🤔 extract_30/35 #118 "tools" score? !tool
+T857.2194938100001 reject: "tools"
+T860.4426763309748 🤔 corrected #118 "tool" score? 16.67
+T860.442870311992 attempt_117: "tool" score:16.67 prog:None
+T865.8339290680015 #119 ? /e scav
+T868.2138558499864 #119 extract_1
+T870.7691503669776 🤔 extract_1/34 #119 "game" score? 12.76
+T870.7693039430014 attempt_118: "game" score:12.76 prog:None
+T873.2390509419783 #120 ? /e scav
+T877.0868307699857 #120 extract_18
+T879.9436935219856 🤔 extract_18/33 #120 "reverse" score? -1.21
+T879.9438560009876 attempt_119: "reverse" score:-1.21 prog:None
+T882.093103288993 #121 ? /e scav
+T885.0039513639931 #121 extract_2
+T888.2012579680013 🤔 extract_2/32 #121 "innovation" score? 15.59
+T888.2014060459915 attempt_120: "innovation" score:15.59 prog:None
+T890.9479914789845 #122 ? /e scav
+T893.2445484539785 #122 extract_13
+T895.5624961179856 🤔 extract_13/31 #122 "project" score? 17.25
+T895.562656449998 attempt_121: "project" score:17.25 prog:None
+T899.0951579539978 #123 ? /e scav
+T900.7445806549804 #123 extract_20
+T904.2126319069939 #123 ? /e scav
+T908.2771846829855 #123 extract_19
+T911.8437046679901 🤔 extract_19/30 #123 "solving" score? 11.5
+T911.843868469994 attempt_122: "solving" score:11.50 prog:None
+T912.8397618809831 #124 ? solve
+T912.8399848839908 <STOP>
+T0.009151815000222996 now: 2024-11-28T16:26:02EST
+T2.326101104001282 #124 ? /prog
+T18.524990147998324 #124 ? *15 t5 similar /clear .
+T18.52582407699083 DEBUG cp: ChatPrompt(prompt='give me 25 words that are related to $1, $2, $3, $4, and $5; do not list any words that you have already listed above', count=25, kind=None, rel='that are related to', trailer='; do not list any words that you have already listed above')
+T18.526474769983906 DEBUG count: 15
+T18.52650161299971 DEBUG rel: 'similar'
+T18.52652432199102 DEBUG like: ['$1', '$2', '$3', '$4', '$5']
+T18.526540866994765 DEBUG unlike: []
+T18.52655979600968 DEBUG trailer: given:True []
+T18.52667935998761 session clear
+T18.52673927100841 chat_prompt: give me 15 words that are similar to $1, $2, $3, $4, and $5
+T18.526948963990435 session: {"role": "user", "content": "give me 15 words that are similar to \"engineer\", \"programming\", \"software\", \"computer\", and \"compiler\""}
+T34.0089880739979 session: {"role": "assistant", "content": "Here are 15 words that are similar in meaning or concept to the given words:\n\n1. Developer (similar to programmer)\n2. Designer (related to software and computer design)\n3. Architect (similar to engineer, focusing on buildings and systems)\n4. Algorithmist (specializing in algorithms for programming)\n5. Coder (synonym for programmer)\n6. Hacker (specializing in computer security or coding)\n7. Networker (specializing in network design and management)\n8. Tester (evaluating software for bugs and issues)\n9. Animator (creating animations, similar to compiler development)\n10. Developer (another term for programmer or engineer)\n11. Analyst (examining data and systems, like compiler analysis)\n12. Specialist (expertise similar to engineeering, programming, etc.)\n13. Innovator (developing new ideas and technologies)\n14. Programmer (synonym for coder or developer)\n15. Architecturist (combining architecture and design, like engineer)\n\nNote that some of these words may have slightly different connotations or specializations, but they are all related to the given concepts in one way or another."}
+T35.304391901008785 #124 extract_...
+T37.30400265098433 🤔 extract_1/14 #124 "algorithmist" score? !
+T37.304156239988515 reject: "algorithmist"
+T42.68825498200022 🤔 extract_1/13 #124 "analyst" score? 31.72 809
+T42.68844664498465 attempt_123: "analyst" score:31.72 prog:809
+T48.61459905299125 🤔 extract_1/12 #125 "animator" score? 53.48 998
+T48.61481642301078 attempt_124: "animator" score:53.48 prog:998
+T55.13603831699584 🤔 extract_1/11 #126 "architect" score? 41.83 971
+T55.136189999000635 attempt_125: "architect" score:41.83 prog:971
+T56.94233975801035 🤔 extract_1/10 #127 "architecturist" score? !
+T56.94246179400943 reject: "architecturist"
+T62.35196100801113 🤔 extract_1/9 #127 "coder" score? 61.13 999
+T62.35222060600063 attempt_126: "coder" score:61.13 prog:999
+T67.94283450799412 🤔 extract_1/8 #128 "designer" score? 47.55 993
+T67.94304290600121 attempt_127: "designer" score:47.55 prog:993
+T72.3227586929861 🤔 extract_1/7 #129 "developer" score? 45.51 991
+T72.32292706199223 attempt_128: "developer" score:45.51 prog:991
+T77.49614739598474 🤔 extract_1/6 #130 "hacker" score? 44.07 989
+T77.49644107298809 attempt_129: "hacker" score:44.07 prog:989
+T80.1762946480012 🤔 extract_1/5 #131 "innovator" score? 21.34
+T80.17644506099168 attempt_130: "innovator" score:21.34 prog:None
+T82.5407249800046 🤔 extract_1/4 #132 "networker" score? !
+T82.54088093200698 reject: "networker"
+T87.91422771499492 🤔 extract_1/3 #132 "programmer" score? 100 1000
+T87.91436880998663 attempt_131: "programmer" score:100.00 prog:1000
+T93.66431097799796 Paste share result, then preses <Enter>
+T93.66895396099426 share result: "I found #cemantle #969 in 132 guesses!\n\ud83e\udd73\n\ud83d\ude31\n\ud83d\udd254\ufe0f\u20e3\n\ud83e\udd751\ufe0f\u20e31\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e2\ufe0f\u20e32\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd768\ufe0f\u20e33\ufe0f\u20e3\n\ud83e\uddca1\ufe0f\u20e30\ufe0f\u20e3\nhttps://cemantle.certitudes.org/"
+T93.6701735430106 <STOP>

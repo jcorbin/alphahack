@@ -1169,3 +1169,25 @@ https://cemantix.certitudes.org/
 # 2024-11-28 squareword.org
 
 See log/squareword.org/#1031
+
+# 2024-11-28 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 969
+🤔 132 guesses
+    🥳  1
+    😱  1
+    🔥  4
+    🥵 11
+    😎 22
+    🥶 83
+    🧊 10
+⏱️ 0:16:46.510718
+```
+
+🤔 132 attempts
+📜 1 sessions
+🫧 5 chat sessions
+⁉️ 18 chat prompts
+🤖 17 chat replies
