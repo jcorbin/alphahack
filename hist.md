@@ -1165,3 +1165,7 @@ https://cemantix.certitudes.org/
 ⏱️ 39s
 🔗 alfagok.diginaut.net
 ```
+
+# 2024-11-28 squareword.org
+
+See log/squareword.org/#1031
