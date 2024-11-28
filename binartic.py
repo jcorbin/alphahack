@@ -11,8 +11,7 @@ from dataclasses import dataclass
 from typing import cast, final, override, Literal
 from urllib.parse import urlparse
 
-from mdkit import break_sections, replace_sections
-from store import StoredLog, atomic_file, git_txn
+from store import StoredLog, git_txn
 from strkit import spliterate
 from wordlist import Browser, WordList, format_browser_lines, whatadded
 from ui import PromptUI
@@ -755,7 +754,7 @@ class Search(StoredLog):
                 return self.show_summary
 
             if 'report'.startswith(token):
-                return self.do_report
+                return self.do_report(ui)
 
             ui.print(f'unknown command {token!r}')
             # TODO other command dispatch like /report
@@ -765,65 +764,21 @@ class Search(StoredLog):
         yield f'🤔 {len(self.quest)} attempts'
         yield f'📜 {len(self.sessions)} sessions'
 
-    def do_report(self, ui: PromptUI):
-        report_file = 'report.md' # TODO hoist and wire up to arg
-
-        title = f'{self.site} 🧩 {self.puzzle_id}'
+    @property
+    @override
+    def report_desc(self) -> str:
         guesses = len(self.quest)
         status = '🥳' if self.result else '😦'
+        return f'{status} {guesses} ⏱️ {self.elapsed}'
 
-        deets = f'{status} {guesses} ⏱️ {self.elapsed}'
-
-        note_id = f'- 🔗 {title}'
-        head_id = f'# {title}'
-
-        note = f'{note_id} {deets}'
-        header = f'{head_id} {deets}'
-
-        def body_lines() -> Generator[str]:
-            yield header
-
-            yield ''
-            yield from self.info()
-
-            yield ''
-            inotes = self.view.expand(self.view_notes(), limit=ui.screen_lines)
-            for line in format_browser_lines(self.words, inotes, at=self.view.at):
-                yield f'    {line}'
-
-        def rep(line: str) -> Iterable[str]|None:
-            if line.startswith(head_id):
-                return body
-
-        body = body_lines()
-
-        with atomic_file(report_file) as w:
-            with open(report_file, 'r') as r:
-                lines = break_sections(replace_sections(r, rep), body)
-
-                for line in lines:
-                    if line.startswith(note_id):
-                        print(note, file=w)
-                        continue
-
-                    if not line:
-                        print(note, file=w)
-                        print(line, file=w)
-                        break
-
-                    if not line.startswith('- '):
-                        print(note, file=w)
-                        print('', file=w)
-                        print(line, file=w)
-                        break
-
-                    print(line, file=w)
-
-                for line in lines:
-                    print(line, file=w)
-        ui.print(f'💾 updated {report_file}')
-
-        return self.review_prompt
+    @property
+    @override
+    def report_body(self) -> Generator[str]:
+        yield from self.info()
+        yield ''
+        inotes = self.view.expand(self.view_notes(), limit=30)
+        for line in format_browser_lines(self.words, inotes, at=self.view.at):
+            yield f'    {line}'
 
     def show_summary(self, ui: PromptUI):
         with text(ui, self.summary(legend=True)) as copy:

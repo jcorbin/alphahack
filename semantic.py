@@ -15,8 +15,8 @@ from dateutil.tz import gettz
 from typing import assert_never, cast, final, overload, override, Any, Callable, Literal
 from urllib.parse import urlparse
 
-from mdkit import break_sections, capture_fences, fenceit, replace_sections
-from store import StoredLog, atomic_file, git_txn
+from mdkit import break_sections, capture_fences, fenceit
+from store import StoredLog, git_txn
 from strkit import matchgen, spliterate, wraplines, MarkedSpec
 from ui import PromptUI
 
@@ -1149,65 +1149,23 @@ class Search(StoredLog):
             lambda i, _: ('```📋', '```', ui.consume_copy()) if i == 0 else None
         ): ui.print(line)
 
-    def do_report(self, ui: PromptUI):
-        report_file = 'report.md' # TODO hoist and wire up to arg
-
-        title = f'{self.site} 🧩 {self.puzzle_id}'
+    @property
+    @override
+    def report_desc(self) -> str:
         guesses = self.result.guesses if self.result else self.attempt+1
         status = '🥳' if self.result else '😦'
+        return f'{status} {guesses} ⏱️ {self.elapsed}'
 
-        deets = f'{status} {guesses} ⏱️ {self.elapsed}'
-
-        note_id = f'- 🔗 {title}'
-        head_id = f'# {title}'
-
-        note = f'{note_id} {deets}'
-        header = f'{head_id} {deets}'
-
-        def body_lines() -> Generator[str]:
-            yield header
-
-            yield ''
-            yield from self.info()
-            if self.result:
-                yield ' '.join(self.result.count_parts())
-            else:
-                yield f'😦 {" ".join(self.tier_count_parts())}'
-            yield ''
-
-            yield from self.prog_lines(4*len(tiers))
-
-        def rep(line: str) -> Iterable[str]|None:
-            if line.startswith(head_id):
-                return body
-
-        body = body_lines()
-
-        with atomic_file(report_file) as w:
-            with open(report_file, 'r') as r:
-                lines = break_sections(replace_sections(r, rep), body)
-
-                for line in lines:
-                    if line.startswith(note_id):
-                        print(note, file=w)
-                        continue
-
-                    if not line:
-                        print(note, file=w)
-                        print(line, file=w)
-                        break
-
-                    if not line.startswith('- '):
-                        print(note, file=w)
-                        print('', file=w)
-                        print(line, file=w)
-                        break
-
-                    print(line, file=w)
-
-                for line in lines:
-                    print(line, file=w)
-        ui.print(f'💾 updated {report_file}')
+    @property
+    @override
+    def report_body(self) -> Generator[str]:
+        yield from self.info()
+        if self.result:
+            yield ' '.join(self.result.count_parts())
+        else:
+            yield f'😦 {" ".join(self.tier_count_parts())}'
+        yield ''
+        yield from self.prog_lines(4*len(tiers))
 
     def do_yester(self, ui: PromptUI):
         if not self.ephemeral or not self.stored:

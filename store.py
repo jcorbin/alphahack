@@ -411,6 +411,64 @@ class StoredLog:
             elif token:
                 ui.print('! invalid choice')
 
+    report_file: str = 'report.md' # TODO hoist and wire up to arg
+
+    @property
+    def report_desc(self) -> str:
+        return  f'⏱️ {self.elapsed}'
+
+    @property
+    def report_body(self) -> Generator[str]:
+        yield ''
+
+    def report_section(self) -> Generator[str]:
+        yield self.report_header()
+        yield ''
+        yield from self.report_body
+
+    def report_header(self, desc: str|None = None) -> str:
+        return f'# {self.site} 🧩 {self.puzzle_id} {self.report_desc if desc is None else desc}'
+
+    def report_note(self, desc: str|None = None) -> str:
+        return  f'- 🔗 {self.site} 🧩 {self.puzzle_id} {self.report_desc if desc is None else desc}'
+
+    def do_report(self, ui: PromptUI):
+        head_id = self.report_header(desc='')
+        note_id = self.report_note(desc='')
+
+        def rep(line: str) -> Iterable[str]|None:
+            if line.startswith(head_id):
+                return body
+
+        body = self.report_section()
+
+        with atomic_file(self.report_file) as w:
+            with open(self.report_file, 'r') as r:
+                lines = break_sections(replace_sections(r, rep), body)
+
+                note = self.report_note()
+                for line in lines:
+                    if line.startswith(note_id):
+                        print(note, file=w)
+                        continue
+
+                    if not line:
+                        print(note, file=w)
+                        print(line, file=w)
+                        break
+
+                    if not line.startswith('- '):
+                        print(note, file=w)
+                        print('', file=w)
+                        print(line, file=w)
+                        break
+
+                    print(line, file=w)
+
+                for line in lines:
+                    print(line, file=w)
+        ui.print(f'💾 updated {self.report_file}')
+
 @final
 class git_txn:
     added: set[str] = set()
