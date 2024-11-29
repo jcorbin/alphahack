@@ -1,0 +1,121 @@
+T0.00013334400136955082 now: 2024-11-29T09:29:35EST
+T1.1602014460077044 📜 nwl2023.txt ? 
+T1.1603687420138158 wordlist: nwl2023.txt
+T14.440607254015049 🧩  ? #1033
+T14.44117266201647 puzzle_id: #1033
+T16.882832566014258 > *
+T16.968770342005882 questioning: ["voter", "#5 found:8747 hypo:11881376"]
+T28.592455263016745 voter ( #5 found:8747 hypo:11881376 ) ? 2 __t__ ~ e r
+T28.593249721016036 guess: voter
+T28.59342538501369 word: 1 __t__
+T28.593445283011533 may: 1 e r
+T32.480096635990776 voter ( #5 found:8747 hypo:11881376 ) > 3 ~ o r
+T32.48074481700314 word: 2 _____
+T32.48077745901537 may: 2 o r
+T35.18437769499724 voter ( #5 found:8747 hypo:11881376 ) > 4 ~ e r
+T35.18468020501314 word: 3 _____
+T35.184712638991186 may: 3 e r
+T41.59210322899162 voter ( #5 found:8747 hypo:11881376 ) > 5 ~ t e r
+T41.59230755799217 word: 4 _____
+T41.592332352011 may: 4 e r t
+T43.02423658099724 voter ( #5 found:8747 hypo:11881376 ) > 
+T43.02435527701164 question done
+T44.256236746994546 > *
+T44.57763362699188 questioning: ["retia", "#2 found:54 hypo:1352"]
+T52.78425974500715 retia ( #2 found:54 hypo:1352 ) ? 
+T52.784393832000205 question done
+T53.59190760500496 > *
+T53.62210229499033 questioning: ["retie", "#2 found:55 hypo:1352"]
+T72.68828480900265 retie ( #2 found:55 hypo:1352 ) ? 2 _et_e ~ r
+T72.68852613700437 guess: retie
+T72.68861808499787 word: 1 _et_e
+T72.6886344870145 may: 1 r
+T81.21618950800621 retie ( #2 found:55 hypo:1352 ) > 4 re___ ~i
+T81.21640412701527 word: 3 re___
+T81.21642539001186 may: 3 i
+T88.04829937798786 retie ( #2 found:55 hypo:1352 ) > 5 ____e ~ t r
+T88.04852094000671 word: 4 ____e
+T88.04854299500585 may: 4 r t
+T90.33633348799776 retie ( #2 found:55 hypo:1352 ) > 
+T90.33648732799338 question done
+T91.03152256298927 > *
+T91.31950260300073 questioning: ["metre", "#2 found:1 hypo:26"]
+T102.13598129100865 metre ( #2 found:1 hypo:26 ) ? 2 metre
+T102.13616361599998 guess: metre
+T102.13621820299886 word: 1 metre
+T102.13623480001115 may: 1 
+T113.03185825399123 metre ( #2 found:1 hypo:26 ) > 
+T113.0319344259915 question done
+T115.04007064600592 > no v
+T118.38473334899754 > *
+T118.47881915801554 questioning: ["trone", "#5 found:23 hypo:1352"]
+T131.57653549901443 trone ( #5 found:23 hypo:1352 ) ? .
+T131.57671718200436 guess: trone
+T139.58478444599314 trone ( #5 found:23 hypo:1352 ) > 5 tr__e
+T139.58515215001535 word: 4 tr__e
+T139.585186804994 may: 4 
+T146.74372280400712 trone ( #5 found:23 hypo:1352 ) > 4 re_n_
+T146.74382155100466 word: 3 re_n_
+T146.7438295870088 may: 3 i
+T149.68013925899868 trone ( #5 found:23 hypo:1352 ) > 3 ~ o r n
+T149.68036843198934 word: 2 _____
+T149.68039413000224 may: 2 n o r
+T154.01613087800797 trone ( #5 found:23 hypo:1352 ) > 
+T154.016247157997 question done
+T154.80029377900064 > *
+T155.09520291199442 questioning: ["reins", "#4 found:1 hypo:26"]
+T164.6483239910158 reins ( #4 found:1 hypo:26 ) ? 4 reins
+T164.64852134001558 guess: reins
+T164.64858685599756 word: 3 reins
+T164.6486129029945 may: 3 
+T175.54437160899397 reins ( #4 found:1 hypo:26 ) > 1 ____s ~s
+T175.5445971559966 word: 0 ____s
+T175.54461903401534 may: 0 s
+T180.7041656190122 reins ( #4 found:1 hypo:26 ) > 
+T180.7042735730065 question done
+T181.35223610699177 > *
+T181.49056914600078 questioning: ["apron", "#3 found:1 hypo:4056"]
+T195.4243126620131 apron ( #3 found:1 hypo:4056 ) ? 3 apron
+T195.42453548699268 guess: apron
+T195.4246061689919 word: 2 apron
+T195.42462655701092 may: 2 
+T199.2479784550087 apron ( #3 found:1 hypo:4056 ) > 5 ~ a
+T199.2481384999992 word: 4 tr__e
+T199.24815550001222 may: 4 a
+T204.60017161400174 apron ( #3 found:1 hypo:4056 ) > 1 ~ s a
+T204.60037022200413 word: 0 ____s
+T204.600391762011 may: 0 a s
+T207.0562675789988 apron ( #3 found:1 hypo:4056 ) > 
+T207.05638617801014 question done
+T208.77599121301319 > *
+T209.4985623479879 questioning: ["trade", "#5 found:2 hypo:26"]
+T226.58427303601638 trade ( #5 found:2 hypo:26 ) ? 5 tra_e
+T226.58450547000393 guess: trade
+T226.58457075600745 word: 4 tra_e
+T226.58458912500646 may: 4 
+T233.41633219301002 trade ( #5 found:2 hypo:26 ) > 1 __a_s ~ s
+T233.41666717801127 word: 0 __a_s
+T233.41670967801474 may: 0 s
+T237.33614905099967 trade ( #5 found:2 hypo:26 ) > 
+T237.33629645899055 question done
+T239.25682005501585 > no d
+T240.83242663700366 > *
+T241.58097206501407 questioning: ["trace", "#5 found:1 hypo:26"]
+T249.8236285590101 trace ( #5 found:1 hypo:26 ) ? 5 trace
+T249.82374394399812 guess: trace
+T249.82376637801644 word: 4 trace
+T249.82377322000684 may: 4 
+T250.9037011069886 trace ( #5 found:1 hypo:26 ) > *
+T256.600531566015 trace ( #5 found:1 hypo:26 ) > 
+T256.6006927819981 question done
+T257.35958258999744 > *
+T257.85017515701475 questioning: ["slabs", "#1 found:1 hypo:676"]
+T272.87256908399286 slabs ( #1 found:1 hypo:676 ) ? 1 slabs
+T272.8727621709986 guess: slabs
+T272.87282133000554 word: 0 slabs
+T272.87283822800964 may: 0 
+T274.7447323730157 slabs ( #1 found:1 hypo:676 ) > 
+T274.74491455199313 question done
+T280.13628445900395 Copy share result and press <Enter>
+T280.1415944540058 result: "squareword.org 1033: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1033"
+T280.14167330699274 <STOP>
