@@ -5,9 +5,9 @@ import json
 import math
 import random
 import re
-from collections import Counter
+from collections import Counter, OrderedDict
 from collections.abc import Generator, Iterable
-from typing import cast, final, override
+from typing import cast, final, overload, override
 
 from store import StoredLog, git_txn
 from strkit import MarkedSpec, PeekStr, spliterate
@@ -237,7 +237,7 @@ class Search(StoredLog):
                 if len(word) > self.size:
                     word = word[:self.size]
                 while len(word) < self.size: word.append('')
-                for j, c in zip(self.word_range(word_i), word):
+                for j, c in zip(self.row_word_range(word_i), word):
                     self.grid[j] = c
                 continue
 
@@ -254,14 +254,43 @@ class Search(StoredLog):
 
             yield t, rest
 
-    def find(self, _ui: PromptUI, pattern: re.Pattern[str]):
+    def find(self, _ui: PromptUI, pattern: re.Pattern[str], row: int|None = None) -> Generator[str]:
+        if row is not None:
+            col_may: list[set[str]] = [set() for _ in range(self.size)]
+            for col in range(self.size):
+                p, _ = self.pattern(col=col)
+                col_may[col].update(word[row] for word in self._find(re.compile(p)))
+            for word in self._find(pattern):
+                if all(
+                    word[col] in may
+                    for col, may in enumerate(col_may)
+                ): yield word
+            return
+
+        yield from self._find(pattern)
+
+    _find_cache: OrderedDict[str, list[str]] = OrderedDict()
+
+    def _find(self, pattern: re.Pattern[str]):
+        if pattern.pattern not in self._find_cache:
+            maxsize = self.size**2
+            while len(self._find_cache) >= maxsize:
+                _ = self._find_cache.popitem(last=True)
+            self._find_cache[pattern.pattern] = list(self._match_wordlist(pattern))
+        else:
+            self._find_cache.move_to_end(pattern.pattern)
+
+        for word in self._find_cache[pattern.pattern]:
+            if word in self.rejects: continue
+            if word in self.guesses: continue
+            yield word
+
+    def _match_wordlist(self, pattern: re.Pattern[str]):
         with open(self.wordlist) as f:
             for line in f:
                 line = line.strip().lower()
                 word = line.partition(' ')[0]
                 word = word.lower()
-                if word in self.rejects: continue
-                if word in self.guesses: continue
                 if pattern.fullmatch(word): yield word
 
     def okay_letters(self) -> Generator[str]:
@@ -272,31 +301,37 @@ class Search(StoredLog):
 
     recent_sug: dict[str, int] = dict()
 
-    def choose(self, ui: PromptUI, word_i: int|None = None):
-        pattern: re.Pattern[str]|None = None
+    def select(self, ui: PromptUI, word_i: int|None = None) -> tuple[int, re.Pattern[str]]|None:
         if word_i is not None:
-            p, _ = self.pattern(word_i)
+            p, _ = self.pattern(row=word_i)
             pattern = re.compile(p)
-        else:
-            smallest = 0
-            for word_j in range(self.size):
-                if all(self.grid[k] for k in self.word_range(word_j)): continue
-                p, _ = self.pattern(word_j)
-                p = re.compile(p)
-                have = sum(1 for _ in self.find(ui, p))
-                if not have: continue
-                if not pattern or have < smallest:
-                    word_i, pattern, smallest = word_j, p, have
+            return word_i, pattern
 
-        # TODO try column patterns
+        pattern: re.Pattern[str]|None = None
+        smallest = 0
+        for word_j in range(self.size):
+            if all(self.grid[k] for k in self.row_word_range(word_j)): continue
+            p, _ = self.pattern(row=word_j)
+            p = re.compile(p)
+            have = sum(1 for _ in self.find(ui, p, row=word_j))
+            if not have: continue
+            if not pattern or have < smallest:
+                word_i, pattern, smallest = word_j, p, have
 
-        if not pattern: return
+        if word_i is None: return None
+        if pattern is None: return None
+        return word_i, pattern
+
+    def choose(self, ui: PromptUI, word_i: int|None = None):
+        sel = self.select(ui, word_i)
+        if not sel: return
+        word_i, pattern = sel
 
         best, choice = 0.0, ''
         count = 0
         okay = set(self.okay_letters())
 
-        for word in self.find(ui, pattern):
+        for word in self.find(ui, pattern, row=word_i):
             count += 1
 
             score = random.random()
@@ -324,12 +359,26 @@ class Search(StoredLog):
                 self.recent_sug[word] = 10
                 yield word_i, best, choice, count
 
-    def pattern(self, word_i: int) -> tuple[str, int]:
-        word = [self.grid[k] for k in self.word_range(word_i)]
-        may = sorted(self.row_may[word_i])
+    @overload
+    def pattern(self, *, row: int) -> tuple[str, int]: pass
+
+    @overload
+    def pattern(self, *, col: int) -> tuple[str, int]: pass
+
+    def pattern(self, *, row: int|None = None, col: int|None = None) -> tuple[str, int]:
+        if row is not None:
+            word = [self.grid[k] for k in self.row_word_range(row)]
+            may = sorted(self.row_may[row])
+        elif col is not None:
+            word = [self.grid[k] for k in self.col_word_range(col)]
+            may = []
+        else:
+            raise RuntimeError('must provide either row or col')
 
         alpha = set('abcdefghijklmnopqrstuvwxyz')
         uni = '.'
+
+        # TODO reduce pattern based on other dimension
 
         if self.nope:
             alpha.difference_update(self.nope)
@@ -371,7 +420,7 @@ class Search(StoredLog):
     def show_grid(self, ui: PromptUI):
         for word_i in range(self.size):
             ui.write(f'#{word_i+1}  | ')
-            for k in self.word_range(word_i):
+            for k in self.row_word_range(word_i):
                 ui.write(f' {self.grid[k].upper() or "_"}')
             ui.write(f'  |  {" ".join(sorted(let.upper() for let in self.row_may[word_i]))}')
             ui.fin()
@@ -408,12 +457,15 @@ class Search(StoredLog):
             if not tokens.empty:
                 ui.print(f'TODO {next(tokens)!r} entered')
 
-    def word_range(self, word_i: int):
-        return range(word_i * self.size, (word_i+1) * self.size)
+    def row_word_range(self, row: int):
+        return range(row * self.size, (row+1) * self.size)
+
+    def col_word_range(self, col: int):
+        return range(col, len(self.grid), self.size)
 
     def forget(self, ui: PromptUI, word_i: int):
         ui.log(f'forget: {word_i}')
-        for j in self.word_range(word_i):
+        for j in self.row_word_range(word_i):
             self.grid[j] = ''
         self.row_may[word_i] = set()
 
@@ -478,7 +530,7 @@ class Search(StoredLog):
         for word_i in range(self.size):
             lets = ' '.join(
                 f'{self.grid[k].upper() or "_"}'
-                for k in self.word_range(word_i))
+                for k in self.row_word_range(word_i))
             yield f'    {lets}'
 
     def proc_re_word(self, ui: PromptUI, word_i: int):
@@ -526,7 +578,7 @@ class Search(StoredLog):
                 m.group(0).lower()
                 for m in re.finditer(r'[A-Za-z]', may_str))
 
-        ui.log(f'word: {word_i} {"".join(self.grid[k] or "_" for k in self.word_range(word_i))}')
+        ui.log(f'word: {word_i} {"".join(self.grid[k] or "_" for k in self.row_word_range(word_i))}')
         ui.log(f'may: {word_i} {" ".join(sorted(self.row_may[word_i]))}')
 
     def do_choose(self, ui: PromptUI) -> PromptUI.State|None:
@@ -541,7 +593,7 @@ class Search(StoredLog):
         if not choice: return
         assert word_i is not None
 
-        _, uni_count = self.pattern(word_i)
+        _, uni_count = self.pattern(row=word_i)
         return self.ask_question(ui, choice, f'#{word_i+1} found:{count} hypo:{uni_count}')
 
     def ask_question(self, ui: PromptUI, word: str, desc: str):
