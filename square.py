@@ -24,6 +24,8 @@ def char_pairs(alpha: Iterable[str]):
             a = b = c
         else:
             b = c
+    if a and b:
+        yield a, b
 
 def char_ranges(alpha: Iterable[str]):
     for a, b in char_pairs(alpha):
