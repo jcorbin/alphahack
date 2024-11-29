@@ -742,7 +742,7 @@ class Search(StoredLog):
                 ''', rest):
                     name, value = match.groups()
                     if name == 'score': score = float(value)
-                    if name == 'prog': prog = int(value)
+                    if name == 'prog': prog = None if value == '_' else int(value)
                 assert self.fix(ui, i, score, prog)
                 continue
 
@@ -1644,15 +1644,18 @@ class Search(StoredLog):
 
             if 'prog'.startswith(token.lower()):
                 token = next(ui.tokens)
-                try:
-                    prog = int(token)
-                    assert prog_min <= prog <= prog_max
-                except ValueError:
-                    ui.print('! invalid word prog‰, not an int {token!r}')
-                    return
-                except AssertionError:
-                    ui.print(f'! invalid word prog‰, must be in range {prog_min} <= {prog_max}')
-                    return
+                if token == '_':
+                    prog = None
+                else:
+                    try:
+                        prog = int(token)
+                        assert prog_min <= prog <= prog_max
+                    except ValueError:
+                        ui.print('! invalid word prog‰, not an int {token!r}')
+                        return
+                    except AssertionError:
+                        ui.print(f'! invalid word prog‰, must be in range {prog_min} <= {prog_max}')
+                        return
 
         if self.fix(ui, i, score, prog):
             ui.print(f'💿 {self.describe_word(i)} (fixed)')
@@ -1712,6 +1715,9 @@ class Search(StoredLog):
         if prog is not None:
             self.prog[i] = prog
             parts.append(f'prog:{prog}')
+        elif i in self.prog:
+            del self.prog[i]
+            parts.append(f'prog:_')
 
         if not parts: return False
 
