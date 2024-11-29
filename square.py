@@ -54,7 +54,7 @@ class Search(StoredLog):
     @override
     def from_args(self, args: argparse.Namespace):
         super().from_args(args)
-        self.wordlist = cast(str, args.wordlist)
+        self.default_wordlist = cast(str, args.wordlist)
 
     def __init__(self):
         super().__init__()
