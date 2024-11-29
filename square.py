@@ -72,7 +72,7 @@ class Search(StoredLog):
         self.questioning: str = ''
         self.question_desc: str = ''
 
-        # TODO self.guesses: T = T()
+        self.guesses: dict[str, int] = dict()
         self.rejects: set[str] = set()
 
         self.nope: set[str] = set()
@@ -211,6 +211,17 @@ class Search(StoredLog):
                 continue
 
             match = re.match(r'''(?x)
+                guess :
+                \s* (?P<word> \w+ )
+                \s* ( .* )
+                $''', rest)
+            if match:
+                word, rest = match.groups()
+                assert rest == ''
+                _ = self.question_guess(ui, word)
+                continue
+
+            match = re.match(r'''(?x)
                 reject :
                 \s+ (?P<word> \w+ )
                 \s* ( .* )
@@ -259,6 +270,7 @@ class Search(StoredLog):
                 word = line.partition(' ')[0]
                 word = word.lower()
                 if word in self.rejects: continue
+                if word in self.guesses: continue
                 if pattern.fullmatch(word): yield word
 
     def okay_letters(self) -> Generator[str]:
@@ -388,6 +400,12 @@ class Search(StoredLog):
                 ui.log(f'nope: {" ".join(sorted(self.nope))}')
                 return
 
+            if tokens.have(r'/g(u(e(s(s(es?)?)?)?)?)?'):
+                for word in self.guesses:
+                    ui.print(f'Guesses ({len(self.guesses)})')
+                    ui.print(f'- {word}')
+                return
+
             word_i = self.re_word_i(ui)
             if word_i is None: return
 
@@ -447,11 +465,22 @@ class Search(StoredLog):
     @override
     def report_body(self) -> Generator[str]:
         yield from self.info()
+
         yield ''
-        yield 'TODO: oops the script doesn\'t do a good enough job of tracking its guess history to give you a replay yet'
+        yield 'Guesses:'
+        for word, i in sorted(self.guesses.items(), key = lambda x: x[1]):
+            yield f'{i+1}. {word}'
+
+        res = self.result
+        if res:
+            yield ''
+            yield 'Score Heatmap:'
+            for row in res.score_rows:
+                yield f'    {" ".join(row)}'
+            yield f'    {res.legend_str}'
+
         yield ''
-        yield 'Anyhow, here\'s the solution:'
-        yield ''
+        yield 'Solution:'
         for word in self.word:
             lets = ' '.join(f'{let.upper() or "_"}' for let in word)
             yield f'    {lets}'
@@ -521,7 +550,7 @@ class Search(StoredLog):
 
     def ask_question(self, ui: PromptUI, word: str, desc: str):
         ui.log(f'questioning: {json.dumps([word, desc])}')
-        self.qmode = '?'
+        self.qmode = '>' if word in self.guesses else  '?'
         self.questioning = word
         self.question_desc = desc
         return self.question
@@ -572,6 +601,8 @@ class Search(StoredLog):
     def question_guess(self, ui: PromptUI, word: str):
         ui.log(f'guess: {word}')
         self.qmode = '>'
+        if word not in self.guesses:
+            self.guesses[word] = len(self.guesses)
 
     def question_reject(self, ui: PromptUI, word: str):
         ui.log(f'reject: {word}')
@@ -596,6 +627,29 @@ class Result:
     legend: dict[int, str]
     trailer: str
 
+    score_marks: tuple[tuple[str, int], ...] = (
+        ('🟥', 1),
+        ('🟧', 2),
+        ('🟨', 3),
+        ('🟩', 4),
+    )
+
+    @property
+    def legend_str(self):
+        rev = {score: mark for mark, score in self.score_marks}
+        return ' '.join(
+            f'{rev[score]}:{desc}'
+            for score, desc in sorted(self.legend.items(), reverse=True)
+        )
+
+    @property
+    def score_rows(self):
+        rev = {score: mark for mark, score in self.score_marks}
+        for offset in range(0, len(self.scores), self.size):
+            yield tuple(
+                rev[self.scores[k]]
+                for k in range(offset, offset+self.size))
+
     @classmethod
     def parse(cls, s: str, size: int):
         lines = PeekStr(spliterate(s, '\n', trim=True))
@@ -614,14 +668,9 @@ class Result:
         guesses = int(gs)
 
 
-        score_marks = {
-            '🟥': 1,
-            '🟧': 2,
-            '🟨': 3,
-            '🟩': 4
-        }
-
         scores: list[int] = [0 for _ in range(size*size)]
+
+        fwd = {mark: score for mark, score in cls.score_marks}
 
         if lines.have(r'\s*$'):
             offset: int = 0
@@ -631,13 +680,13 @@ class Result:
                 if len(line) != size:
                     raise ValueError(f'invalid grid line, expected {size} characters got {len(line)}')
 
-                if any(x not in score_marks for x in line):
-                    bad = [f'{x!r}' for x in line if x not in score_marks]
+                if any(x not in fwd for x in line):
+                    bad = [f'{x!r}' for x in line if x not in fwd]
                     raise ValueError(f'invalid grid line marks: {bad!r}')
 
                 assert offset < len(scores)
                 for c in line:
-                    scores[offset] = score_marks[c]
+                    scores[offset] = fwd[c]
                     offset += 1
 
             if offset < len(scores):
@@ -648,9 +697,9 @@ class Result:
             r'(?x) \s* ( < \d+ | \d+ \+? ) : ( [🟥🟧🟨🟩] )',
             next(lines, '')):
             desc, mark = match.groups()
-            score = score_marks[mark]
+            score = fwd[mark]
             legend[score] = desc
-        if not all(score in legend for score in score_marks.values()):
+        if not all(score in legend for score in fwd.values()):
             raise ValueError('incomplete legend')
 
         trailer = '\n'.join(lines)
