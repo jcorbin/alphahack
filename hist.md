@@ -1258,3 +1258,15 @@ See log/squareword.org/#1032
 🫧 2 chat sessions
 ⁉️ 14 chat prompts
 🤖 14 chat replies
+
+# 2024-11-29 alphaguess.com
+
+```
+🧩 Puzzle #493
+
+🤔 10 guesses
+
+⏱️ 21s
+
+🔗 alphaguess.com
+```
