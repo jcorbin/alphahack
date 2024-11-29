@@ -62,12 +62,7 @@ class Search(StoredLog):
         self.size: int = 5
         self.wordlist: str = ''
 
-        # TODO rework into a size x size matrix
-        self.word: list[list[str]] = [
-            ['' for _ in range(self.size)]
-            for _ in range(self.size)
-        ]
-
+        self.grid: list[str] = ['' for _ in range(self.size**2)]
         self.qmode: str = '?'
         self.questioning: str = ''
         self.question_desc: str = ''
@@ -103,10 +98,7 @@ class Search(StoredLog):
     @property
     @override
     def run_done(self) -> bool:
-        return all(
-            all(let for let in word)
-            for word in self.word
-        )
+        return all(let for let in self.grid)
 
     def do_puzzle(self, ui: PromptUI):
         with ui.input(f'🧩 {self.puzzle_id} ? ') as tokens:
@@ -153,9 +145,7 @@ class Search(StoredLog):
             if match:
                 index, rest = match.groups()
                 assert rest == ''
-                i = int(index)
-                self.word[i] = ['' for _ in range(self.size)]
-                self.row_may[i] = set()
+                self.forget(ui, int(index))
                 continue
 
             match = re.match(r'''(?x)
@@ -167,9 +157,9 @@ class Search(StoredLog):
             if match:
                 index, may, rest = match.groups()
                 assert rest == ''
-                i = int(index)
+                word_i = int(index)
                 may = cast(str, may)
-                self.row_may[i] = set(let.strip().lower() for let in may.split())
+                self.row_may[word_i] = set(let.strip().lower() for let in may.split())
                 continue
 
             match = re.match(r'''(?x)
@@ -241,13 +231,14 @@ class Search(StoredLog):
             if match:
                 index, word, rest = match.groups()
                 assert rest == ''
-                i = int(index)
+                word_i = int(index)
                 word = cast(str, word).lower()
                 word = ['' if let == '_' else let for let in word]
                 if len(word) > self.size:
                     word = word[:self.size]
                 while len(word) < self.size: word.append('')
-                self.word[i] = word
+                for j, c in zip(self.word_range(word_i), word):
+                    self.grid[j] = c
                 continue
 
             match = re.match(r'''(?x)
@@ -274,9 +265,8 @@ class Search(StoredLog):
                 if pattern.fullmatch(word): yield word
 
     def okay_letters(self) -> Generator[str]:
-        for word in self.word:
-            for let in word:
-                if let: yield let
+        for let in self.grid:
+            if let: yield let
         for may in self.row_may:
             yield from may
 
@@ -289,14 +279,14 @@ class Search(StoredLog):
             pattern = re.compile(p)
         else:
             smallest = 0
-            for i, word in enumerate(self.word):
-                if all(word): continue
-                p, _ = self.pattern(i)
+            for word_j in range(self.size):
+                if all(self.grid[k] for k in self.word_range(word_j)): continue
+                p, _ = self.pattern(word_j)
                 p = re.compile(p)
                 have = sum(1 for _ in self.find(ui, p))
                 if not have: continue
                 if not pattern or have < smallest:
-                    word_i, pattern, smallest = i, p, have
+                    word_i, pattern, smallest = word_j, p, have
 
         # TODO try column patterns
 
@@ -335,7 +325,7 @@ class Search(StoredLog):
                 yield word_i, best, choice, count
 
     def pattern(self, word_i: int) -> tuple[str, int]:
-        word = self.word[word_i]
+        word = [self.grid[k] for k in self.word_range(word_i)]
         may = sorted(self.row_may[word_i])
 
         alpha = set('abcdefghijklmnopqrstuvwxyz')
@@ -352,7 +342,6 @@ class Search(StoredLog):
             for n in range(len(may), 1, -1): space *= n
 
         if not may:
-            free = sum(1 for let in word if not let)
             if free == self.size:
                 return uni * self.size, space
             return ''.join(uni if not let else let for let in word), space
@@ -375,14 +364,17 @@ class Search(StoredLog):
         if self.skip_show:
             self.skip_show = False
             return
-        for i, word in enumerate(self.word):
-            ui.write(f'#{i+1}  | ')
-            for let in word:
-                ui.write(f' {let.upper() or "_"}')
-            ui.write(f'  |  {" ".join(sorted(let.upper() for let in self.row_may[i]))}')
-            ui.fin()
+        self.show_grid(ui)
         if self.nope:
             ui.print(f'no: {" ".join(sorted(let.upper() for let in self.nope))}')
+
+    def show_grid(self, ui: PromptUI):
+        for word_i in range(self.size):
+            ui.write(f'#{word_i+1}  | ')
+            for k in self.word_range(word_i):
+                ui.write(f' {self.grid[k].upper() or "_"}')
+            ui.write(f'  |  {" ".join(sorted(let.upper() for let in self.row_may[word_i]))}')
+            ui.fin()
 
     def display(self, ui: PromptUI):
         if self.run_done:
@@ -410,13 +402,20 @@ class Search(StoredLog):
             if word_i is None: return
 
             if tokens.rest.strip() == '!':
-                ui.log(f'forget: {word_i}')
-                self.word[word_i] = ['' for _ in range(self.size)]
-                self.row_may[word_i] = set()
+                self.forget(ui, word_i)
                 return
 
             if not tokens.empty:
                 ui.print(f'TODO {next(tokens)!r} entered')
+
+    def word_range(self, word_i: int):
+        return range(word_i * self.size, (word_i+1) * self.size)
+
+    def forget(self, ui: PromptUI, word_i: int):
+        ui.log(f'forget: {word_i}')
+        for j in self.word_range(word_i):
+            self.grid[j] = ''
+        self.row_may[word_i] = set()
 
     def finish(self, ui: PromptUI):
         with ui.input('Copy share result and press <Enter>'):
@@ -440,12 +439,7 @@ class Search(StoredLog):
                 while not self.result_text:
                     st = st(ui) or st
 
-        for i, word in enumerate(self.word):
-            ui.write(f'{i+1}  |  ')
-            for let in word:
-                ui.write(f' {let.upper() or "_"}')
-            ui.fin()
-
+        self.show_grid(ui)
         with ui.input(f'> ') as tokens:
             if tokens.have(r'report$'):
                 return self.do_report(ui)
@@ -481,8 +475,10 @@ class Search(StoredLog):
 
         yield ''
         yield 'Solution:'
-        for word in self.word:
-            lets = ' '.join(f'{let.upper() or "_"}' for let in word)
+        for word_i in range(self.size):
+            lets = ' '.join(
+                f'{self.grid[k].upper() or "_"}'
+                for k in self.word_range(word_i))
             yield f'    {lets}'
 
     def proc_re_word(self, ui: PromptUI, word_i: int):
@@ -509,19 +505,19 @@ class Search(StoredLog):
         may_str = cast(str, match.group(2) or '')
 
         may = self.row_may[word_i]
-        word = self.word[word_i]
 
         if word_str:
             lets = (c for c in word_str if c != ' ')
+            offset = word_i * self.size
             for i, let in enumerate(lets):
-                if i >= len(word):
+                if i >= self.size:
                     ui.print('! too much input, truncating')
                     break
                 c = let.lower()
                 if let == '_':
-                    word[i] = ''
-                elif word[i] != c:
-                    word[i] = c
+                    self.grid[offset + i] = ''
+                elif self.grid[offset + i] != c:
+                    self.grid[offset + i] = c
                     if c in may: may.remove(c)
 
         if may_str:
@@ -530,7 +526,7 @@ class Search(StoredLog):
                 m.group(0).lower()
                 for m in re.finditer(r'[A-Za-z]', may_str))
 
-        ui.log(f'word: {word_i} {"".join(let or "_" for let in word)}')
+        ui.log(f'word: {word_i} {"".join(self.grid[k] or "_" for k in self.word_range(word_i))}')
         ui.log(f'may: {word_i} {" ".join(sorted(self.row_may[word_i]))}')
 
     def do_choose(self, ui: PromptUI) -> PromptUI.State|None:
