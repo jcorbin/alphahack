@@ -627,6 +627,8 @@ class Search(StoredLog):
                 if tokens.rest.strip() == '.':
                     return self.question_guess(ui, word)
 
+                # TODO * to re-choose; > for next ?
+
                 word_i = self.re_word_i(ui)
                 if word_i is not None:
                     match = self.re_word_match(ui)
