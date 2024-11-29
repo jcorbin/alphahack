@@ -1,0 +1,503 @@
+T0.00469634699402377 now: 2024-11-29T07:44:13EST
+T6.832729449990438 🔗 cemantle.certitudes.org ? 
+T8.008964085980551 🌎  ? 
+T9.849059867992764 🧩  ? #970
+T9.849543944990728 puzzle_id: #970
+T12.593096556985984 😎 °C ? 18.54
+T12.593306866998319 scale: 😎 18.54 °C
+T14.736773312994046 🥵 °C ? 29.18
+T14.736921642994275 scale: 🥵 29.18 °C
+T17.640844219975406 🔥 °C ? 37.45
+T17.640955937997205 scale: 🔥 37.45 °C
+T18.984742911998183 😱 °C ? 45.13
+T18.984836679999717 scale: 😱 45.13 °C
+T19.05025513097644 session model: llama3.2:latest
+T21.74460515397368 #1 ? *
+T21.74495139499777 DEBUG cp: None
+T21.74506184598431 DEBUG count: None
+T21.74506713898154 DEBUG rel: None
+T21.745070582983317 DEBUG like: []
+T21.74507342398283 DEBUG unlike: []
+T21.745078304986237 DEBUG trailer: given:False []
+T21.74510757799726 chat_prompt: give me 10 words that are not related to each other
+T21.745171144983033 session: {"role": "user", "content": "give me 10 words that are not related to each other"}
+T29.209834981971653 session: {"role": "assistant", "content": "Here are 10 random words that are not related to each other:\n\n1. Pineapple\n2. Spacecraft\n3. Harmonica\n4. Snowflake\n5. Perfume\n6. Llama\n7. Cello\n8. Hurricane\n9. Quiche\n10. Basketball"}
+T31.153172619990073 #1 extract_...
+T38.34474207699532 🤔 extract_1/10 #1 "basketball" score? 2.11
+T38.344916920992546 attempt_0: "basketball" score:2.11 prog:None
+T50.72879648898379 🤔 extract_1/9 #2 "cello" score? 7.82
+T50.72890475598979 attempt_1: "cello" score:7.82 prog:None
+T55.70495482097613 🤔 extract_1/8 #3 "harmonica" score? 4.57
+T55.705134145973716 attempt_2: "harmonica" score:4.57 prog:None
+T58.84038828097982 🤔 extract_1/7 #4 "hurricane" score? 3.98
+T58.840542059973814 attempt_3: "hurricane" score:3.98 prog:None
+T61.39313875397784 🤔 extract_1/6 #5 "llama" score? 5.61
+T61.39332104998175 attempt_4: "llama" score:5.61 prog:None
+T64.12085984199075 🤔 extract_1/5 #6 "perfume" score? 11.05
+T64.12103391197161 attempt_5: "perfume" score:11.05 prog:None
+T67.21700090297963 🤔 extract_1/4 #7 "pineapple" score? 3.03
+T67.21716947297682 attempt_6: "pineapple" score:3.03 prog:None
+T72.9602940089826 🤔 extract_1/3 #8 "quiche" score? 9.45
+T72.9603817909956 attempt_7: "quiche" score:9.45 prog:None
+T76.97758708099718 🤔 extract_1/2 #9 "snowflake" score? -.3
+T76.97782421598095 attempt_8: "snowflake" score:-0.30 prog:None
+T79.65638003498316 🤔 extract_1/1 #10 "spacecraft" score? 7.03
+T79.65650754398666 attempt_9: "spacecraft" score:7.03 prog:None
+T83.42450338197523 #11 ? *t2
+T83.42462329898262 DEBUG cp: ChatPrompt(prompt='give me 10 words that are not related to each other', count=10, kind=None, rel='that are not related to each other', trailer=None)
+T83.4248427899729 DEBUG scale: per = default(ceil(10/0), 5) = 5
+T83.42485584999667 DEBUG scale: n = 2 * 0 = 2
+T83.42486328698578 DEBUG scale: count = 5 * 2 = 10
+T83.42487005499424 DEBUG count: 10
+T83.4248760639748 DEBUG rel: None
+T83.4248846169794 DEBUG like: ['$1', '$2']
+T83.42490013697534 DEBUG unlike: []
+T83.42490724299569 DEBUG trailer: given:False []
+T83.42499059997499 chat_prompt: give me 10 words that are related to $1 and $2
+T83.4250997559866 session: {"role": "user", "content": "give me 10 words that are related to \"perfume\" and \"quiche\""}
+T88.91020404698793 session: {"role": "assistant", "content": "Here are 10 words that are related to \"perfume\" and \"quiche\":\n\n1. Fragrance\n2. Baking\n3. Scented\n4. Egg\n5. Filling\n6. Cinnamon\n7. Vanilla\n8. Aroma\n9. Pastry\n10. Luxury"}
+T91.19316879997496 #11 extract_...
+T94.40064718498616 🤔 extract_1/10 #11 "aroma" score? 12.44
+T94.40084586999728 attempt_10: "aroma" score:12.44 prog:None
+T97.63301900797524 🤔 extract_1/9 #12 "baking" score? -2.46
+T97.63319896097528 attempt_11: "baking" score:-2.46 prog:None
+T98.68124338498455 #13 ? _
+T98.68143033998786 chat_prompt: _
+T98.68161196698202 session: {"role": "user", "content": "give me 10 words that are related to \"aroma\" and \"perfume\""}
+T104.4109766499896 session: {"role": "assistant", "content": "Here are 10 words that are related to \"aroma\" and \"perfume\":\n\n1. Scent\n2. Fragrance\n3. Essential oil\n4. Aroma\n5. Scentsual\n6. Cologne\n7. Bouquet\n8. Parfum\n9. Eau de toilette\n10. Phthalates"}
+T105.58563089297968 #13 extract_...
+T112.67305271999794 🤔 extract_1/12 #13 "bouquet" score? 22.57 599
+T112.6732570459717 attempt_12: "bouquet" score:22.57 prog:599
+T263.66478014498716 🤔 extract_1/11 #14 "cologne" score? 13.89
+T263.6649459399923 attempt_13: "cologne" score:13.89 prog:None
+T266.3926934169722 🤔 extract_1/10 #15 "de" score? !
+T266.39280098097515 reject: "de"
+T267.9530990109779 🤔 extract_1/9 #15 "eau" score? !
+T267.9532558459905 reject: "eau"
+T270.56067593899206 🤔 extract_1/8 #15 "essential" score? 12.42
+T270.56083705698256 attempt_14: "essential" score:12.42 prog:None
+T274.20107460199506 🤔 extract_1/7 #16 "fragrance" score? 15.01
+T274.20124544898863 attempt_15: "fragrance" score:15.01 prog:None
+T275.42565651398036 #17 ? _
+T275.42585076999967 chat_prompt: _
+T275.4260270599916 session: {"role": "user", "content": "give me 10 words that are related to \"bouquet\" and \"fragrance\""}
+T281.16261640397715 session: {"role": "assistant", "content": "Here are 10 words that are related to \"bouquet\" and \"fragrance\":\n\n1. Flowers\n2. Perfume\n3. Scented\n4. Bouquets\n5. Aromatherapy\n6. Incense\n7. Florist\n8. Potpourri\n9. Essential oil\n10. Perfumer"}
+T282.41646261999267 #17 extract_...
+T286.85664360699593 🤔 extract_1/9 #17 "aromatherapy" score? 19.81 254
+T286.8567695989914 attempt_16: "aromatherapy" score:19.81 prog:254
+T290.1046961969987 🤔 extract_1/8 #18 "bouquets" score? !
+T290.10482072699233 reject: "bouquets"
+T292.7366902270005 🤔 extract_1/7 #18 "florist" score? 7.6
+T292.7368844379962 attempt_17: "florist" score:7.60 prog:None
+T295.70470494698384 🤔 extract_1/6 #19 "flowers" score? !
+T295.7047701139818 reject: "flowers"
+T298.20891649398254 🤔 extract_1/5 #19 "incense" score? 11.95
+T298.20908959498047 attempt_18: "incense" score:11.95 prog:None
+T301.40890197097906 🤔 extract_1/4 #20 "oil" score? -.91
+T301.40906147198984 attempt_19: "oil" score:-0.91 prog:None
+T302.38603004199103 #21 ? _
+T302.3861799329752 chat_prompt: _
+T302.3863430269994 session: {"role": "user", "content": "give me 10 words that are related to \"bouquet\" and \"aromatherapy\""}
+T308.30374227897846 session: {"role": "assistant", "content": "Here are 10 words that are related to \"bouquet\" and \"aromatherapy\":\n\n1. Flowers\n2. Aromatics\n3. Essential oils\n4. Potpourri\n5. Herbs\n6. Herbalism\n7. Infusion\n8. Simmering\n9. Blending\n10. Therapeutic"}
+T309.50452039498487 #21 extract_...
+T313.93638918799115 🤔 extract_1/9 #21 "aromatics" score? !aromatic
+T313.936494834983 reject: "aromatics"
+T316.79385893497965 🤔 corrected #21 "aromatic" score? 8.52
+T316.7941400759737 attempt_20: "aromatic" score:8.52 prog:None
+T319.6333997369802 🤔 extract_1/8 #22 "blending" score? 11.38
+T319.63356681398 attempt_21: "blending" score:11.38 prog:None
+T323.42443878398626 🤔 extract_1/7 #23 "herbalism" score? !
+T323.4245229359949 reject: "herbalism"
+T326.6165823179763 🤔 extract_1/6 #23 "herbs" score? !herb
+T326.61665059498046 reject: "herbs"
+T329.11318721598946 🤔 corrected #23 "herb" score? 2.62
+T329.11340521197417 attempt_22: "herb" score:2.62 prog:None
+T332.14496609498747 🤔 extract_1/5 #24 "infusion" score? 6.24
+T332.14512216698495 attempt_23: "infusion" score:6.24 prog:None
+T334.5047701000003 🤔 extract_1/4 #25 "oils" score? !
+T334.5049483089824 reject: "oils"
+T337.3691114789981 🤔 extract_1/3 #25 "potpourri" score? 18.45
+T337.36934447297244 attempt_24: "potpourri" score:18.45 prog:None
+T339.81612610898446 🤔 extract_1/2 #26 "simmering" score? 1.13
+T339.8162198829814 attempt_25: "simmering" score:1.13 prog:None
+T342.76089252199745 🤔 extract_1/1 #27 "therapeutic" score? 16.05
+T342.7610810409824 attempt_26: "therapeutic" score:16.05 prog:None
+T350.36039287998574 #28 ? /e scav all
+T355.0970970009803 🤔 extract_1/13 #28 "cinnamon" score? 5.32
+T355.09728935098974 attempt_27: "cinnamon" score:5.32 prog:None
+T357.71217395499116 🤔 extract_1/12 #29 "egg" score? 1.98
+T357.71227721197647 attempt_28: "egg" score:1.98 prog:None
+T360.8251295849914 🤔 extract_1/11 #30 "filling" score? -5.99
+T360.8252819789923 attempt_29: "filling" score:-5.99 prog:None
+T366.2655428039725 🤔 extract_1/10 #31 "luxury" score? 28.37 878
+T366.26578252599575 attempt_30: "luxury" score:28.37 prog:878
+T368.54511922298116 #32 ? _
+T368.54533663298935 chat_prompt: _
+T368.54554370298865 session: {"role": "user", "content": "give me 10 words that are related to \"luxury\" and \"bouquet\""}
+T373.7711804919818 session: {"role": "assistant", "content": "Here are 10 words that are related to \"luxury\" and \"bouquet\":\n\n1. Flowers\n2. High-end\n3. Exquisite\n4. Premium\n5. Designer\n6. Gardenia\n7. Orchid\n8. Champagne\n9. Gourmet\n10. Elite"}
+T388.99537894898094 #32 extract_...
+T394.90480914499494 🤔 extract_1/10 #32 "champagne" score? 22.68 613
+T394.9049580989813 attempt_31: "champagne" score:22.68 prog:613
+T397.3606402029982 🤔 extract_1/9 #33 "designer" score? 4.28
+T397.3607706859766 attempt_32: "designer" score:4.28 prog:None
+T399.6406886599725 🤔 extract_1/8 #34 "elite" score? 9.24
+T399.64077876199735 attempt_33: "elite" score:9.24 prog:None
+T402.0651039639779 🤔 extract_1/7 #35 "end" score? 3.62
+T402.0652622189955 attempt_34: "end" score:3.62 prog:None
+T404.4248519219982 🤔 extract_1/6 #36 "exquisite" score? 13.43
+T404.42509731298196 attempt_35: "exquisite" score:13.43 prog:None
+T406.66417815198656 🤔 extract_1/5 #37 "gardenia" score? 7.14
+T406.66427024497534 attempt_36: "gardenia" score:7.14 prog:None
+T408.96884975698777 🤔 extract_1/4 #38 "gourmet" score? 12.54
+T408.96893206599634 attempt_37: "gourmet" score:12.54 prog:None
+T411.57711085799383 🤔 extract_1/3 #39 "high" score? 5.65
+T411.57730751798954 attempt_38: "high" score:5.65 prog:None
+T414.8486467409821 🤔 extract_1/2 #40 "orchid" score? 4.79
+T414.84878065699013 attempt_39: "orchid" score:4.79 prog:None
+T418.3452330509899 🤔 extract_1/1 #41 "premium" score? 16.74
+T418.3454376269947 attempt_40: "premium" score:16.74 prog:None
+T419.9049939189863 #42 ? _
+T419.90514322798117 chat_prompt: _
+T419.9053158349998 session: {"role": "user", "content": "give me 10 words that are related to \"luxury\" and \"champagne\""}
+T425.9575189239986 session: {"role": "assistant", "content": "Here are 10 words that are related to \"luxury\" and \"champagne\":\n\n1. Veuve\n2. Caviar\n3. Champagne house\n4. Fine wine\n5. Luxury hotel\n6. Gilded\n7. Crystal\n8. Bubbly\n9. Aristocrat\n10. Decadence"}
+T427.5213243389735 #42 extract_...
+T429.6965233629744 🤔 extract_1/11 #42 "aristocrat" score? 5.5
+T429.69665214497945 attempt_41: "aristocrat" score:5.50 prog:None
+T433.01841902697925 🤔 extract_1/10 #43 "bubbly" score? 7.05
+T433.01862727699336 attempt_42: "bubbly" score:7.05 prog:None
+T435.74570661998587 #44 ? /e
+T436.96884921297897 #44 extract_9
+T439.26431670898455 🤔 extract_9/9 #44 "wine" score? 3.33
+T439.2644262239919 attempt_43: "wine" score:3.33 prog:None
+T442.0324710669811 #45 extract_4
+T444.4647578879958 🤔 extract_4/8 #45 "fine" score? 7.23
+T444.4648314169899 attempt_44: "fine" score:7.23 prog:None
+T445.28069919199334 #46 extract_1
+T448.16919500997756 🤔 extract_1/7 #46 "caviar" score? 10.43
+T448.16940787099884 attempt_45: "caviar" score:10.43 prog:None
+T449.2487348279974 #47 extract_4
+T453.8569300949748 🤔 extract_4/6 #47 "hotel" score? 36.3 981
+T453.8570993699832 attempt_46: "hotel" score:36.30 prog:981
+T456.0009284669941 #48 ? _
+T456.00103443599073 chat_prompt: _
+T456.0011264309869 session: {"role": "user", "content": "give me 10 words that are related to \"hotel\" and \"luxury\""}
+T461.47235163199366 session: {"role": "assistant", "content": "Here are 10 words that are related to \"hotel\" and \"luxury\":\n\n1. Spa\n2. Suite\n3. Concierge\n4. Luxury amenities\n5. High-end service\n6. Upscale\n7. Mansion\n8. Resort\n9. Penthouse\n10. Opulence"}
+T465.3929477519996 #48 extract_...
+T470.05712417297764 🤔 extract_1/10 #48 "amenities" score? 21.04 427
+T470.05746636298136 attempt_47: "amenities" score:21.04 prog:427
+T475.1531267509854 🤔 extract_1/9 #49 "concierge" score? 38.51 992
+T475.1533511399757 attempt_48: "concierge" score:38.51 prog:992
+T475.72131222998723 🤔 extract_1/8 #50 "mansion" score? ␚
+T475.72149728698423 <EOF>
+T0.007616150978719816 now: 2024-11-29T07:52:11EST
+T2.0747781679965556 #50 ? _
+T2.0750879329862073 chat_prompt: _
+T2.0752366649976466 session: {"role": "user", "content": "give me 10 words that are related to \"concierge\" and \"hotel\""}
+T7.616561425005784 session: {"role": "assistant", "content": "Here are 10 words that are related to \"concierge\" and \"hotel\":\n\n1. Room service\n2. Personalized service\n3. Guest relations\n4. Event planning\n5. Reservation\n6. Check-in\n7. Front desk\n8. Porter\n9. Tour reservations\n10. VIP"}
+T8.690903748996789 #50 extract_...
+T11.579372585983947 🤔 extract_1/16 #50 "check" score? 3.83
+T11.579606163984863 attempt_49: "check" score:3.83 prog:None
+T16.522609899984673 🤔 extract_1/15 #51 "desk" score? 31.62 950
+T16.52280440100003 attempt_50: "desk" score:31.62 prog:950
+T19.634566700988216 🤔 extract_1/14 #52 "event" score? 7.47
+T19.634690287988633 attempt_51: "event" score:7.47 prog:None
+T22.770595880982 🤔 extract_1/13 #53 "front" score? 14.93
+T22.770764924003743 attempt_52: "front" score:14.93 prog:None
+T29.194766781001817 🤔 extract_1/12 #54 "guest" score? 20.29 325
+T29.194884476979496 attempt_53: "guest" score:20.29 prog:325
+T33.35515378799755 🤔 extract_1/11 #55 "in" score? 3.9
+T33.355391883000266 attempt_54: "in" score:3.90 prog:None
+T37.87474466400454 🤔 extract_1/10 #56 "personalized" score? 31.1 940
+T37.87483352099662 attempt_55: "personalized" score:31.10 prog:940
+T46.46764654800063 🤔 extract_1/9 #57 "planning" score? 11.02 992
+T46.46786616797908 attempt_56: "planning" score:11.02 prog:992
+T61.70629502797965 🤔 extract_1/8 #58 "porter" score? 11.28
+T61.70638286799658 attempt_57: "porter" score:11.28 prog:None
+T66.36317826900631 🤔 extract_1/7 #59 "relations" score? -5.08
+T66.36338313098531 attempt_58: "relations" score:-5.08 prog:None
+T69.17878772199037 🤔 extract_1/6 #60 "reservation" score? 13.42
+T69.17901048800559 attempt_59: "reservation" score:13.42 prog:None
+T71.45078825199744 🤔 extract_1/5 #61 "reservations" score? !
+T71.45093483000528 reject: "reservations"
+T75.28284025497851 🤔 extract_1/4 #61 "room" score? 36.95
+T77.25895911699627 🤔 extract_1/4 #61 "room" 36.95°C prog‰ ? 983
+T77.25911156600341 attempt_60: "room" score:36.95 prog:983
+T78.70714329500333 #62 ? _
+T78.70731771999272 chat_prompt: _
+T78.70748766098404 session: {"role": "user", "content": "give me 10 words that are related to \"concierge\" and \"room\""}
+T84.62453156898846 session: {"role": "assistant", "content": "Here are 10 words that are related to \"concierge\" and \"room\":\n\n1. Personalized service\n2. Room assignment\n3. Key exchange\n4. Housekeeping\n5. In-room dining\n6. Room amenities\n7. Concierge desk\n8. Hotel room\n9. Guest requests\n10. Service request"}
+T86.49041730200406 #62 extract_...
+T89.05037361898576 🤔 extract_1/8 #62 "assignment" score? 4.98
+T89.05045257898746 attempt_61: "assignment" score:4.98 prog:None
+T94.93112408800516 🤔 extract_1/7 #63 "dining" score? 222.44 586
+T101.31453809997765 🤔 extract_1/7 #63 "dining" score? 22.44 586
+T101.31465135200415 attempt_62: "dining" score:22.44 prog:586
+T105.53892789100064 🤔 extract_1/6 #64 "exchange" score? 5.97
+T105.53912609798135 attempt_63: "exchange" score:5.97 prog:None
+T110.80277126899455 🤔 extract_1/5 #65 "housekeeping" score? 19.55 199
+T110.80298957100604 attempt_64: "housekeeping" score:19.55 prog:199
+T113.89049570998759 🤔 extract_1/4 #66 "key" score? 9.98
+T113.89063710698974 attempt_65: "key" score:9.98 prog:None
+T117.33147913299035 🤔 extract_1/3 #67 "request" score? 3.97
+T117.33178231099737 attempt_66: "request" score:3.97 prog:None
+T119.71492673200555 🤔 extract_1/2 #68 "requests" score? !
+T119.71501903800527 reject: "requests"
+T125.02704263199121 🤔 extract_1/1 #68 "service" score? 21.98 540
+T125.02721555400058 attempt_67: "service" score:21.98 prog:540
+T126.79477717599366 #69 ? /prog
+T134.92251785099506 #69 ? *25 t5 /clear .
+T134.92278268598602 DEBUG cp: ChatPrompt(prompt='give me 10 words that are related to $1 and $2', count=10, kind=None, rel='that are related to', trailer=None)
+T134.92291137800203 DEBUG count: 25
+T134.92291575999116 DEBUG rel: None
+T134.9229198480025 DEBUG like: ['$1', '$2', '$3', '$4', '$5']
+T134.92292254598578 DEBUG unlike: []
+T134.92292603797978 DEBUG trailer: given:True []
+T134.92295648300205 session clear
+T134.92297069498454 chat_prompt: give me 25 words that are related to $1, $2, $3, $4, and $5
+T134.92302319899318 session: {"role": "user", "content": "give me 25 words that are related to \"concierge\", \"room\", \"hotel\", \"desk\", and \"personalized\""}
+T145.20959143998334 session: {"role": "assistant", "content": "Here are 25 words related to \"concierge\", \"room\", \"hotel\", \"desk\", and \"personalized\":\n\n1. Service\n2. Attendant\n3. Roomservice\n4. Receptionist\n5. Check-in\n6. Check-out\n7. Roommate\n8. Hospitality\n9. Traveler\n10. Accommodations\n11. Reservation\n12. Customer\n13. Attention\n14. Detail-oriented\n15. Specialized\n16. Careful\n17. Concierge-style\n18. Personalized\n19. Experience\n20. Amenities\n21. Facilities\n22. Roomkey\n23. Guest\n24. Access\n25. Accommodations"}
+T147.09061164798914 #69 extract_3
+T149.7950748949952 🤔 extract_3/19 #69 "attendant" score? 12.81
+T149.7952332639834 attempt_68: "attendant" score:12.81 prog:None
+T151.2983755210007 #70 extract_18
+T153.73900149698602 🤔 extract_18/18 #70 "traveler" score? 6.66
+T153.73921362799592 attempt_69: "traveler" score:6.66 prog:None
+T157.8268380019872 #71 extract_15
+T159.68235341800028 🤔 extract_15/17 #71 "roomservice" score? !
+T159.6824144049897 reject: "roomservice"
+T161.64326541798073 #71 extract_14
+T164.3385164779902 🤔 extract_14/16 #71 "roommate" score? 9.24
+T164.3386077329924 attempt_70: "roommate" score:9.24 prog:None
+T165.52344309698674 #72 extract_13
+T167.52301458298462 🤔 extract_13/15 #72 "roomkey" score? !
+T167.5231482789968 reject: "roomkey"
+T174.38692906999495 #72 extract_...
+T179.02659027298796 🤔 extract_1/14 #72 "access" score? 19.92 268
+T179.02672945999075 attempt_71: "access" score:19.92 prog:268
+T187.0663894689933 🤔 extract_1/13 #73 "accommodations" score? !accommodation
+T187.0664866839943 reject: "accommodations"
+T192.3473500739783 🤔 corrected #73 "accommodation" score? 21.66 499
+T192.34765365999192 attempt_72: "accommodation" score:21.66 prog:499
+T194.5305507640005 🤔 extract_1/12 #74 "attention" score? 1.1
+T194.53066515299724 attempt_73: "attention" score:1.10 prog:None
+T197.51506345599773 🤔 extract_1/11 #75 "careful" score? -2.83
+T197.5152574009844 attempt_74: "careful" score:-2.83 prog:None
+T201.8988850239839 🤔 extract_1/10 #76 "customer" score? 18.62 21
+T201.89903202399728 attempt_75: "customer" score:18.62 prog:21
+T205.18683583597885 🤔 extract_1/9 #77 "detail" score? 12.2
+T205.18702326199855 attempt_76: "detail" score:12.20 prog:None
+T208.77896286398754 🤔 extract_1/8 #78 "experience" score? 17.34
+T208.77917731300113 attempt_77: "experience" score:17.34 prog:None
+T214.42702851397917 🤔 extract_1/7 #79 "facilities" score? !facility
+T214.42719312998815 reject: "facilities"
+T219.0664972649829 🤔 corrected #79 "facility" score? 21.72 511
+T219.06664607100538 attempt_78: "facility" score:21.72 prog:511
+T224.0114610210003 🤔 extract_1/6 #80 "hospitality" score? 26.12 821
+T224.01163528399775 attempt_79: "hospitality" score:26.12 prog:821
+T228.61845776200062 🤔 extract_1/5 #81 "oriented" score? 9.15
+T228.61854005997884 attempt_80: "oriented" score:9.15 prog:None
+T232.5872317609901 🤔 extract_1/4 #82 "out" score? 4.18
+T232.58746147999773 attempt_81: "out" score:4.18 prog:None
+T236.79470514997956 🤔 extract_1/3 #83 "receptionist" score? 18.6 14
+T236.79485364299035 attempt_82: "receptionist" score:18.60 prog:14
+T241.0984373749816 🤔 extract_1/2 #84 "specialized" score? 19.9 127
+T241.09851602397976 attempt_83: "specialized" score:19.90 prog:127
+T245.57105651099118 🤔 extract_1/1 #85 "style" score? 13.17 
+T249.26659890598967 🤔 extract_1/1 #85 "style" score? 13.17
+T249.26676340098493 attempt_84: "style" score:13.17 prog:None
+T251.49897691700608 #86 ? /prog
+T258.14739916700637 #86 ? *t1 !new
+T258.14767315099016 DEBUG cp: ChatPrompt(prompt='give me 25 words that are related to $1, $2, $3, $4, and $5', count=25, kind=None, rel='that are related to', trailer=None)
+T258.14786395800184 DEBUG scale: per = default(ceil(25/5), 5) = 5
+T258.14788126398344 DEBUG scale: n = 1 * 0 = 1
+T258.14789335700334 DEBUG scale: count = 5 * 1 = 5
+T258.14790457100025 DEBUG count: 5
+T258.14791496499674 DEBUG rel: None
+T258.14792901600595 DEBUG like: ['$1']
+T258.14793857498444 DEBUG unlike: []
+T258.14795382999 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T258.1480761859857 chat_prompt: give me 5 words that are related to $1; do not list any words that you have already listed above
+T258.1482527659973 session: {"role": "user", "content": "give me 5 words that are related to \"concierge\"; do not list any words that you have already listed above"}
+T261.9492833869881 session: {"role": "assistant", "content": "Here are 5 additional words related to \"concierge\" that I haven't listed before:\n\n1. Liaison\n2. Advisor\n3. Escort\n4. Conciliator\n5. Ambassador"}
+T262.99422919299104 #86 extract_...
+T265.42658325098455 🤔 extract_1/5 #86 "advisor" score? 8.37
+T265.42667025199626 attempt_85: "advisor" score:8.37 prog:None
+T268.2504944529792 🤔 extract_1/4 #87 "ambassador" score? -5.99
+T268.25062056200113 attempt_86: "ambassador" score:-5.99 prog:None
+T270.85868874998414 🤔 extract_1/3 #88 "conciliator" score? -1.17
+T270.8588039180031 attempt_87: "conciliator" score:-1.17 prog:None
+T273.1393075049855 🤔 extract_1/2 #89 "escort" score? 13.59
+T273.1395564150007 attempt_88: "escort" score:13.59 prog:None
+T275.41083056500065 🤔 extract_1/1 #90 "liaison" score? 2.05
+T275.4109479280014 attempt_89: "liaison" score:2.05 prog:None
+T276.5710701549833 #91 ? /prog
+T291.8105630299833 #91 ? * $1 $7 !new
+T291.81069491198286 DEBUG cp: ChatPrompt(prompt='give me 5 words that are related to $1; do not list any words that you have already listed above', count=5, kind=None, rel='that are related to', trailer='; do not list any words that you have already listed above')
+T291.81097081600456 DEBUG scale: per = default(ceil(5/1), 5) = 5
+T291.8109905119927 DEBUG scale: n = 2 * 0 = 2
+T291.8110032489931 DEBUG scale: count = 5 * 2 = 10
+T291.8110143489903 DEBUG count: 10
+T291.81102536199614 DEBUG rel: None
+T291.81103868200444 DEBUG like: ['$1', '$7']
+T291.8110493949789 DEBUG unlike: []
+T291.81106237199856 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T291.811145034997 chat_prompt: give me 10 words that are related to $1 and $7; do not list any words that you have already listed above
+T291.81127315099 session: {"role": "user", "content": "give me 10 words that are related to \"concierge\" and \"hospitality\"; do not list any words that you have already listed above"}
+T298.0707815240021 session: {"role": "assistant", "content": "Here are 10 additional words related to \"concierge\" and \"hospitality\" that I haven't listed before:\n\n1. Amenities\n2. Services\n3. Perks\n4. Incentives\n5. Compliments\n6. Attentions\n7. Gestures\n8. Surprises\n9. Delights\n10. Curated"}
+T299.1309093259915 #91 extract_...
+T302.6273611729848 🤔 extract_1/9 #91 "attentions" score? !attention
+T302.6275864939962 reject: "attentions"
+T306.8349467990047 🤔 extract_1/8 #91 "compliments" score? 15.74
+T306.83510123798624 attempt_90: "compliments" score:15.74 prog:None
+T309.274645315978 🤔 extract_1/7 #92 "curated" score? !
+T309.27475030598 reject: "curated"
+T313.0105013529828 🤔 extract_1/6 #92 "delights" score? !delight
+T313.0105737099948 reject: "delights"
+T315.70737930497853 🤔 corrected #92 "delight" score? 7.82
+T315.7076439369994 attempt_91: "delight" score:7.82 prog:None
+T317.6589465729776 #93 ? curate
+T321.05036682999344 🤔 entered #93 "curate" score? 1.77
+T321.05044702399755 attempt_92: "curate" score:1.77 prog:None
+T326.4353098519787 #94 ? /e all
+T329.65946220597834 🤔 extract_1/5 #94 "gestures" score? !gesture
+T329.6595316309831 reject: "gestures"
+T332.5231626780005 🤔 corrected #94 "gesture" score? 5.91
+T332.52334033398074 attempt_93: "gesture" score:5.91 prog:None
+T337.3309436609852 🤔 extract_1/4 #95 "incentives" score? !incentive
+T337.3311058630061 reject: "incentives"
+T339.7623386379855 🤔 corrected #95 "incentive" score? 8.72
+T339.7624145769805 attempt_94: "incentive" score:8.72 prog:None
+T341.0764308460057 #96 ? tip
+T344.45055680000223 🤔 entered #96 "tip" score? -6.77
+T344.45066916698124 attempt_95: "tip" score:-6.77 prog:None
+T345.79506000399124 #97 ? /e all
+T349.3712937219825 🤔 extract_1/3 #97 "perks" score? !perk
+T349.3714433510031 reject: "perks"
+T353.0909638379817 🤔 corrected #97 "perk" score? 16.12
+T353.0911550919991 attempt_96: "perk" score:16.12 prog:None
+T358.8508948509989 🤔 extract_1/2 #98 "services" score? 30.64 932
+T358.8510624829796 attempt_97: "services" score:30.64 prog:932
+T365.6187971069885 🤔 extract_1/1 #99 "surprises" score? !surprise
+T365.61892999499105 reject: "surprises"
+T368.55530810399796 🤔 corrected #99 "surprise" score? -.67
+T368.55553254598635 attempt_98: "surprise" score:-0.67 prog:None
+T370.47489781299373 #100 ? /prog
+T390.5949958169949 #100 ? #57 prog _
+T394.4270837569784 <INT>
+T0.009312453999882564 now: 2024-11-29T08:01:25EST
+T1.047847248002654 #100 ? /prog
+T5.296536264009774 #100 ? #57 prog _
+T5.297310544992797 fix attempt_56: prog:_
+T9.938587998010917 #100 ? /prog
+T11.480269324005349 <INT>
+T0.00898814300308004 now: 2024-11-29T08:02:25EST
+T1.075553935021162 #100 ? /prog
+T7.507619190000696 <INT>
+T0.008565646974602714 now: 2024-11-29T08:03:19EST
+T0.8864123769744765 #100 ? /prog
+T5.038765922974562 #100 ? /last
+T12.502330644987524 #100 ? /prog
+T17.398002998990705 #100 ? * $1 $6
+T17.398517342982814 DEBUG cp: ChatPrompt(prompt='give me 10 words that are related to $1 and $7; do not list any words that you have already listed above', count=10, kind=None, rel='that are related to', trailer='; do not list any words that you have already listed above')
+T17.39882978599053 DEBUG scale: per = default(ceil(10/2), 5) = 5
+T17.398840797977755 DEBUG scale: n = 2 * 0 = 2
+T17.3988479419786 DEBUG scale: count = 5 * 2 = 10
+T17.398853943974245 DEBUG count: 10
+T17.39886010697228 DEBUG rel: None
+T17.398868830990978 DEBUG like: ['$1', '$6']
+T17.398874904989498 DEBUG unlike: []
+T17.398883115994977 DEBUG trailer: given:False []
+T17.39896123399376 chat_prompt: give me 10 words that are related to $1 and $6; do not list any words that you have already listed above
+T17.399078848975478 session: {"role": "user", "content": "give me 10 words that are related to \"concierge\" and \"services\"; do not list any words that you have already listed above"}
+T38.93880102899857 session: {"role": "assistant", "content": "Here are 10 additional words related to \"concierge\" and \"services\" that I haven't listed before:\n\n1. Facilitations\n2. Arrangements\n3. Reservations\n4. Bookings\n5. Planning\n6. Coordination\n7. Logistics\n8. Organizational\n9. Support\n10. Faciliators"}
+T42.99836341798073 #100 extract_...
+T47.85442044399679 🤔 extract_1/8 #100 "arrangements" score? !arrangement
+T47.85456405498553 reject: "arrangements"
+T50.2622727919952 🤔 corrected #100 "arrangement" score? 8.35
+T50.262424557993654 attempt_99: "arrangement" score:8.35 prog:None
+T53.110193353000795 🤔 extract_1/7 #101 "bookings" score? !booking
+T53.11029729497386 reject: "bookings"
+T55.87847813797998 🤔 corrected #101 "booking" score? 14.94
+T55.87865911598783 attempt_100: "booking" score:14.94 prog:None
+T58.430308505980065 🤔 extract_1/6 #102 "coordination" score? 1.34
+T58.43053268099902 attempt_101: "coordination" score:1.34 prog:None
+T71.64212013198994 🤔 extract_1/5 #103 "faciliators" score? !faciliator
+T71.64226677597617 reject: "faciliators"
+T75.25461633197847 🤔 corrected #103 "faciliator" score? !
+T75.25473670597421 reject: "faciliator"
+T80.7899657029775 🤔 extract_1/4 #103 "facilitations" score? !facilitation
+T80.79012047298602 reject: "facilitations"
+T83.56623536598636 🤔 corrected #103 "facilitation" score? 10.53
+T83.56639290298335 attempt_102: "facilitation" score:10.53 prog:None
+T86.43854932999238 🤔 extract_1/3 #104 "logistics" score? 7.95
+T86.43873219398665 attempt_103: "logistics" score:7.95 prog:None
+T89.10206890499103 🤔 extract_1/2 #105 "organizational" score? 9.81
+T89.10215898198658 attempt_104: "organizational" score:9.81 prog:None
+T91.61433717198088 🤔 extract_1/1 #106 "support" score? 14.27
+T91.61453602599795 attempt_105: "support" score:14.27 prog:None
+T93.88648440598627 #107 ? /prog
+T108.77476337098051 #107 ? *18 t6 /clear .
+T108.77500295999926 DEBUG cp: ChatPrompt(prompt='give me 10 words that are related to $1 and $6; do not list any words that you have already listed above', count=10, kind=None, rel='that are related to', trailer='; do not list any words that you have already listed above')
+T108.77521826798329 DEBUG count: 18
+T108.7752424129867 DEBUG rel: None
+T108.77526581299026 DEBUG like: ['$1', '$2', '$3', '$4', '$5', '$6']
+T108.77528442497714 DEBUG unlike: []
+T108.77530416598893 DEBUG trailer: given:True []
+T108.7754400819831 session clear
+T108.77551184597542 chat_prompt: give me 18 words that are related to $1, $2, $3, $4, $5, and $6
+T108.77573093998944 session: {"role": "user", "content": "give me 18 words that are related to \"concierge\", \"room\", \"hotel\", \"desk\", \"personalized\", and \"services\""}
+T116.29118865297642 session: {"role": "assistant", "content": "Here are 18 words related to the given topics:\n\n1. Reception\n2. Amenities\n3. Roomservice\n4. Porters\n5. Conciergeres\n6. Luggage\n7. Checkin\n8. Hospitality\n9. Guest\n10. Services\n11. Tailormade\n12. Attendant\n13. Wardrobe\n14. Valet\n15. Frontdesk\n16. Registration\n17. Accommodations\n18. Personalized"}
+T119.87035008898238 #107 extract_...
+T122.10472297199885 🤔 extract_1/10 #107 "checkin" score? !
+T122.10484690699377 reject: "checkin"
+T124.11821749198134 🤔 extract_1/9 #107 "conciergeres" score? !
+T124.11832716499339 reject: "conciergeres"
+T128.49391852898407 🤔 extract_1/8 #107 "frontdesk" score? !
+T128.49403450798127 reject: "frontdesk"
+T130.88654752797447 🤔 extract_1/7 #107 "luggage" score? 9l49
+T133.21443629998248 🤔 extract_1/7 #107 "luggage" score? 9.49
+T133.21461672298028 attempt_106: "luggage" score:9.49 prog:None
+T136.07850970697473 🤔 extract_1/6 #108 "porters" score? !porter
+T136.07864514997345 reject: "porters"
+T138.9024702280003 🤔 extract_1/5 #108 "reception" score? 13.49
+T138.90261872598785 attempt_107: "reception" score:13.49 prog:None
+T141.18993773299735 🤔 extract_1/4 #109 "registration" score? 1.51
+T141.1900923299836 attempt_108: "registration" score:1.51 prog:None
+T143.58267546398565 🤔 extract_1/3 #110 "tailormade" score? !
+T143.58283488897723 reject: "tailormade"
+T147.78257883898914 🤔 extract_1/2 #110 "valet" score? 25.77 802
+T147.78270337198046 attempt_109: "valet" score:25.77 prog:802
+T154.3505015639821 🤔 extract_1/1 #111 "wardrobe" score? 20.93 410
+T154.35072855997714 attempt_110: "wardrobe" score:20.93 prog:410
+T159.70244587498019 #112 ? 20.93
+T161.702392236999 🤔 entered #112 "20.93" score? 410
+T183.88661526198848 #112 ? > keep going like $9
+T183.88677013898268 chat_prompt: keep going like $9
+T183.88694630598184 session: {"role": "user", "content": "keep going like \"valet\""}
+T189.44529235298978 session: {"role": "assistant", "content": "Here are the next 18 words related to the given topics:\n\n19. Carparking\n20. Bellhop\n21. Suite\n22. Concierge\n23. Roomkey\n24. Keycard\n25. Complimentary\n26. Amenitieslist\n27. Roomupgrade\n28. Personalaccess\n29. Servicecharge\n30. Checkout"}
+T218.78272596999886 #112 extract_...
+T222.56607801798964 🤔 extract_1/10 #112 "amenitieslist" score? !
+T222.56619449399295 reject: "amenitieslist"
+T224.93440178397577 🤔 extract_1/9 #112 "bellhop" score? 14.3
+T224.93457616798696 attempt_111: "bellhop" score:14.30 prog:None
+T228.14302688097814 🤔 extract_1/8 #113 "carparking" score? !carpark
+T228.1432940249797 reject: "carparking"
+T230.2303256049927 🤔 corrected #113 "carpark" score? !
+T230.23045431898208 reject: "carpark"
+T232.96646458498435 🤔 extract_1/7 #113 "checkout" score? 6.51
+T232.96667350799544 attempt_112: "checkout" score:6.51 prog:None
+T245.93450859899167 🤔 extract_1/6 #114 "complimentary" score? 35.63 979
+T245.9346237909922 attempt_113: "complimentary" score:35.63 prog:979
+T249.70223734798492 🤔 extract_1/5 #115 "keycard" score? 18.07
+T249.7023457949981 attempt_114: "keycard" score:18.07 prog:None
+T251.96620546697523 🤔 extract_1/4 #116 "personalaccess" score? !
+T251.96626803799882 reject: "personalaccess"
+T253.72613887797343 🤔 extract_1/3 #116 "roomupgrade" score? !
+T253.72624142898712 reject: "roomupgrade"
+T255.5265259949956 🤔 extract_1/2 #116 "servicecharge" score? !
+T255.52670392699656 reject: "servicecharge"
+T259.95868601399707 🤔 extract_1/1 #116 "suite" score? 100 1000
+T259.95888693098095 attempt_115: "suite" score:100.00 prog:1000
+T312.31058537599165 Paste share result, then preses <Enter>
+T312.3324116409931 share result: "I found #cemantle #970 in 116 guesses!\n\ud83e\udd73\n\ud83d\udd25\n\ud83e\udd756\ufe0f\u20e3\n\ud83d\ude0e1\ufe0f\u20e38\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd768\ufe0f\u20e30\ufe0f\u20e3\n\ud83e\uddca1\ufe0f\u20e30\ufe0f\u20e3\nhttps://cemantle.certitudes.org/"
+T312.3331161889946 <STOP>

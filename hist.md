@@ -1237,3 +1237,24 @@ See log/squareword.org/#1032
 ⏱️ 29s
 🔗 alfagok.diginaut.net
 ```
+
+# 2024-11-29 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 970
+🤔 116 guesses
+    🥳  1
+    🔥  1
+    🥵  6
+    😎 18
+    🥶 80
+    🧊 10
+⏱️ 0:19:56.074467
+```
+
+🤔 116 attempts
+📜 4 sessions
+🫧 2 chat sessions
+⁉️ 14 chat prompts
+🤖 14 chat replies
