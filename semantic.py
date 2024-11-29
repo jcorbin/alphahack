@@ -1612,12 +1612,14 @@ class Search(StoredLog):
             if tokens.peek('').startswith('*'):
                 return self.generate(ui)
 
-            tb = tokens.have(
-                r'(?xi) (?: T ( \d+ ) )? (?: B ( \d+ ) )?', lambda m: (
-                    int(m.group(1)) if m.group(1) else None,
-                    int(m.group(2)) if m.group(2) else None,
-                ))
-            if tb and tb != (None, None):
+            m = (
+                tokens.have(r'(?xi) (?: T ( \d+ ) ) (?: B ( \d+ ) )?') or
+                tokens.have(r'(?xi) (?: T ( \d+ ) )? (?: B ( \d+ ) )'))
+            tb = (
+                int(m.group(1)) if m.group(1) else None,
+                int(m.group(2)) if m.group(2) else None,
+            ) if m else None
+            if tb:
                 self.show_tbix(ui, self.top_bot_index(*tb))
                 return
 
