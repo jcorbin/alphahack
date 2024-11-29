@@ -1,0 +1,343 @@
+T0.004388361994642764 now: 2024-11-28T20:08:26EST
+T1.0401321679819375 🔗 cemantix.certitudes.org ? 
+T1.4847007110074628 🌎 French ? 
+T3.070931897003902 🧩  ? #1003
+T3.0713065619929694 puzzle_id: #1003
+T6.5134379339870065 😎 °C ? 27.58
+T6.513611342001241 scale: 😎 27.58 °C
+T9.152318003994878 🥵 °C ? 39.76
+T9.15248316299403 scale: 🥵 39.76 °C
+T10.448274652007967 🔥 °C ? 51.18
+T10.448404759983532 scale: 🔥 51.18 °C
+T11.85042303201044 😱 °C ? 71.44
+T11.850616944982903 scale: 😱 71.44 °C
+T11.857849024003372 session model: llama3.2:latest
+T15.583077382994816 #1 ? 
+T15.583342830999754 DEBUG cp: None
+T15.583525224006735 DEBUG count: None
+T15.583551643008832 DEBUG rel: None
+T15.583570357004646 DEBUG like: []
+T15.58358566800598 DEBUG unlike: []
+T15.58360492598149 DEBUG trailer: given:False []
+T15.583740197995212 chat_prompt: give me 10 French words that are not related to each other
+T15.583939964999445 session: {"role": "user", "content": "give me 10 French words that are not related to each other"}
+T24.73933849000605 session: {"role": "assistant", "content": "Here are 10 French words that are not related to each other:\n\n1. Fleur (flower)\n2. Caf\u00e9 (coffee shop)\n3. Rivi\u00e8re (river)\n4. Papillon (butterfly)\n5. Magasin (store)\n6. R\u00eave (dream)\n7. Cuisine (cooking)\n8. Montagne (mountain)\n9. Journal (newspaper)\n10. \u00c9toile (star)\n\nLet me know if you'd like more!"}
+T37.7151936070004 #1 extract_...
+T40.762692685006186 🤔 extract_1/10 #1 "café" score? 1.22
+T40.762931868986925 attempt_0: "café" score:1.22 prog:None
+T56.18911014898913 🤔 extract_1/9 #2 "cuisine" score? -10.44
+T56.18931498299935 attempt_1: "cuisine" score:-10.44 prog:None
+T59.22396448798827 🤔 extract_1/8 #3 "fleur" score? 10.28
+T59.22416693199193 attempt_2: "fleur" score:10.28 prog:None
+T62.37623146700207 🤔 extract_1/7 #4 "journal" score? 6.66
+T62.37631380898529 attempt_3: "journal" score:6.66 prog:None
+T67.49322410399327 🤔 extract_1/6 #5 "magasin" score? -11.67
+T67.4934015859908 attempt_4: "magasin" score:-11.67 prog:None
+T73.14498073401046 🤔 extract_1/5 #6 "montagne" score? 5.98
+T73.14517887000693 attempt_5: "montagne" score:5.98 prog:None
+T75.49257211500662 🤔 extract_1/4 #7 "papillon" score? 7.7
+T75.49272902699886 attempt_6: "papillon" score:7.70 prog:None
+T77.79298243200174 🤔 extract_1/3 #8 "rivière" score? 1.54
+T77.7931753800076 attempt_7: "rivière" score:1.54 prog:None
+T80.30972055500024 🤔 extract_1/2 #9 "rêve" score? 23.55
+T80.30990492200362 attempt_8: "rêve" score:23.55 prog:None
+T83.19527884898707 🤔 extract_1/1 #10 "étoile" score? 7.27
+T83.19545965600992 attempt_9: "étoile" score:7.27 prog:None
+T89.53690498700598 #11 ? *10 t2
+T89.53770304200589 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are not related to each other', count=10, kind='French', rel='that are not related to each other', trailer=None)
+T89.53808067599311 DEBUG count: 10
+T89.53809627200826 DEBUG rel: None
+T89.5381117729994 DEBUG like: ['$1', '$2']
+T89.53812088799896 DEBUG unlike: []
+T89.53813169698697 DEBUG trailer: given:False []
+T89.53825798199978 chat_prompt: give me 10 French words that are related to $1 and $2
+T89.53846232200158 session: {"role": "user", "content": "give me 10 French words that are related to \"r\u00eave\" and \"fleur\""}
+T106.88123830698896 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"r\u00eave\" (dream) and \"fleur\" (flower):\n\n1. Jardin (garden, where flowers bloom)\n2. R\u00eaverie (daydreaming, imagining a beautiful scene with flowers)\n3. Fleurs d'oranger (orange blossoms, often used in perfumes and dreamy scents)\n4. Sillage (scent of perfume, often associated with romantic gestures and dreams)\n5. Jardinage (garden maintenance, where one tends to flowers and plants for their r\u00eave)\n6. \u00c9meraude (emerald, a gemstone that can evoke the richness of nature and beauty, like a flower-filled garden)\n7. R\u00eaverie artistique (artistic daydreaming, often inspired by the beauty of flowers)\n8. Parfum (perfume, used to evoke emotions and memories, like a scent that transports you to a garden filled with flowers)\n9. Histoire de fleur (history of a flower, a literary work that explores themes of love and nature)\n10. Bouquet de fleurs (bouquet of flowers, often given as a gift to express one's feelings or thoughts)\n\nLet me know if you'd like more!"}
+T109.81149633700261 #11 extract_...
+T113.16389697600971 🤔 extract_1/12 #11 "artistique" score? -2.1
+T113.16408133899677 attempt_10: "artistique" score:-2.10 prog:None
+T115.7922508759948 🤔 extract_1/11 #12 "bouquet" score? -.17
+T115.7924164700089 attempt_11: "bouquet" score:-0.17 prog:None
+T117.8777854279906 🤔 extract_1/10 #13 "de" score? !
+T117.87792950900621 reject: "de"
+T120.24725703900913 🤔 extract_1/9 #13 "fleurs" score? !
+T120.24745264300145 reject: "fleurs"
+T126.8299863380089 🤔 extract_1/8 #13 "histoire" score? 34.79 720
+T126.83017948101042 attempt_12: "histoire" score:34.79 prog:720
+T128.10711518800235 #14 ? _
+T128.1072155899892 chat_prompt: _
+T128.10730303698801 session: {"role": "user", "content": "give me 10 French words that are related to \"histoire\" and \"r\u00eave\""}
+T144.00289149800665 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"histoire\" (history) and \"r\u00eave\" (dream):\n\n1. M\u00e9moire (memory, which holds the stories of our past)\n2. Romantisme (romanticism, an artistic movement that emphasizes imagination and dreamy qualities)\n3. \u00c9pisode (episode, a chapter in a story or history)\n4. Fantaisie (fantasy, a creative expression that can be rooted in history and imagination)\n5. Aventure (adventure, a journey through time and space that can evoke memories of the past)\n6. Voyage int\u00e9rieur (inner voyage, a metaphor for exploring one's own thoughts and emotions)\n7. Monde imaginaire (imaginary world, a realm of dreams and stories that exist outside of reality)\n8. H\u00e9ritage (heritage, the legacy of our history and cultural traditions that shape our identities)\n9. Revanche (revenge, a theme often explored in historical fiction and fantasy)\n10. Fable (fable, a short story that often explores moral lessons and fantastical themes)\n\nLet me know if you'd like more!"}
+T149.85813513299217 #14 extract_...
+T152.89268886399805 🤔 extract_1/12 #14 "aventure" score? 24.63
+T152.89278280100552 attempt_13: "aventure" score:24.63 prog:None
+T155.78676116498536 🤔 extract_1/11 #15 "fable" score? 27.38
+T155.7869597899844 attempt_14: "fable" score:27.38 prog:None
+T162.0625711909961 🤔 extract_1/10 #16 "fantaisie" score? 20.36
+T162.0627563020098 attempt_15: "fantaisie" score:20.36 prog:None
+T165.56217790098162 🤔 extract_1/9 #17 "héritage" score? 16.83
+T165.56227927200962 attempt_16: "héritage" score:16.83 prog:None
+T168.48771531699458 🤔 extract_1/8 #18 "imaginaire" score? 19.74
+T168.48788790899562 attempt_17: "imaginaire" score:19.74 prog:None
+T171.13784675399074 🤔 extract_1/7 #19 "intérieur" score? 4.088
+T171.13803265299066 attempt_18: "intérieur" score:4.09 prog:None
+T174.09562338798423 🤔 extract_1/6 #20 "monde" score? 23.25
+T174.09588468598668 attempt_19: "monde" score:23.25 prog:None
+T175.33213677999447 #21 ? _
+T175.33233035399462 chat_prompt: _
+T175.33253806098946 session: {"role": "user", "content": "give me 10 French words that are related to \"histoire\" and \"fable\""}
+T192.64934463999816 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"histoire\" (history) and \"fable\" (short story with a moral lesson):\n\n1. Foi (faith, which can be tested by the stories of history)\n2. Legendre (legend, a narrative that has been passed down through generations)\n3. Mythe (myth, a story that is often rooted in history but also contains fantastical elements)\n4. Auteur (author, who crafts the stories and histories we pass down to others)\n5. Tradition (tradition, the passing down of cultural values and stories from one generation to the next)\n6. Histoire ancienne (ancient history, which can inform our understanding of myths and legends)\n7. Symbolisme (symbolism, a literary device used in fables to convey deeper meanings)\n8. Al\u00e9gorie (allegory, a story that uses symbols to represent abstract ideas or moral lessons)\n9. Narration (narration, the act of telling stories which can shape our understanding of history and myth\n10. \u00c9popee (epic, a long narrative poem or story that often explores heroic themes and historical events)\n\nLet me know if you'd like more!"}
+T207.38599149000947 #21 extract_...
+T210.62224214500748 🤔 extract_1/10 #21 "alégorie" score? !
+T210.62238972398336 reject: "alégorie"
+T212.56661833799444 🤔 extract_1/9 #21 "ancienne" score? !
+T212.56675244300277 reject: "ancienne"
+T215.87281119500403 🤔 extract_1/8 #21 "auteur" score? 8.97
+T215.87301148398547 attempt_20: "auteur" score:8.97 prog:None
+T219.2962307120033 🤔 extract_1/7 #22 "foi" score? 17.13
+T219.2963948249817 attempt_21: "foi" score:17.13 prog:None
+T225.02857628799393 🤔 extract_1/6 #23 "legendre" score? !
+T225.0286917880003 reject: "legendre"
+T229.3043172589969 🤔 extract_1/5 #23 "mythe" score? 23.74
+T229.30448597998475 attempt_22: "mythe" score:23.74 prog:None
+T236.94573617298738 🤔 extract_1/4 #24 "narration" score? 29.85 323
+T236.94591754698195 attempt_23: "narration" score:29.85 prog:323
+T238.071441735985 🤔 extract_1/3 #25 "symbolisme" score? _
+T239.5671589630074 #25 ? _
+T239.56737449899083 chat_prompt: _
+T239.56754385799286 session: {"role": "user", "content": "give me 10 French words that are related to \"histoire\" and \"narration\""}
+T256.1634679629933 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"histoire\" (history) and \"narration\" (the act of telling stories):\n\n1. R\u00e9cit (recital, a performance or telling of a story)\n2. \u00c9nonc\u00e9 (enunciation, the act of speaking or saying something, often used in historical accounts)\n3. Chronique (chronicle, a written account of events in history)\n4. Livre d'histoire (history book, a written record of past events and stories)\n5. Oralit\u00e9 (orality, the tradition of passing down stories through spoken word)\n6. M\u00e9morial (memorial, a monument or building that commemorates a historical event or person)\n7. Discours (discourse, a speech or lecture that conveys information about history)\n8. Historiographie (historiography, the study and writing of history)\n9. Archivage (archiving, the act of preserving and organizing historical documents and records)\n10. R\u00e9enactement (reenactment, a recreation or imitation of a historical event or scene)\n\nLet me know if you'd like more!"}
+T264.29557788500097 #25 extract_...
+T268.19030710399966 🤔 extract_1/10 #25 "archivage" score? -15.52
+T268.19049855400226 attempt_24: "archivage" score:-15.52 prog:None
+T271.0703296419815 🤔 extract_1/9 #26 "chronique" score? 12.86
+T271.0706027940032 attempt_25: "chronique" score:12.86 prog:None
+T273.65971262799576 🤔 extract_1/8 #27 "discours" score? 17.24
+T273.6598737699969 attempt_26: "discours" score:17.24 prog:None
+T276.79409065298387 🤔 extract_1/7 #28 "historiographie" score? 14.95
+T276.7943144039891 attempt_27: "historiographie" score:14.95 prog:None
+T279.88190219699754 🤔 extract_1/6 #29 "livre" score? 5.78
+T279.88207578699803 attempt_28: "livre" score:5.78 prog:None
+T282.3638281910098 🤔 extract_1/5 #30 "mémorial" score? 8.4
+T282.3640292559867 attempt_29: "mémorial" score:8.40 prog:None
+T286.7742040840094 🤔 extract_1/4 #31 "oralité" score? 8.2
+T286.77438725699903 attempt_30: "oralité" score:8.20 prog:None
+T292.10705626098206 🤔 extract_1/3 #32 "récit" score? 38.78 882
+T292.1073012359848 attempt_31: "récit" score:38.78 prog:882
+T295.2068887759815 🤔 extract_1/2 #33 "réenactement" score? !
+T295.2070221460017 reject: "réenactement"
+T299.19154686600086 🤔 extract_1/1 #33 "énoncé" score? -1.43
+T299.1917049839976 attempt_32: "énoncé" score:-1.43 prog:None
+T300.02082461700775 #34 ? _
+T300.02096278598765 chat_prompt: _
+T300.0211017729889 session: {"role": "user", "content": "give me 10 French words that are related to \"r\u00e9cit\" and \"histoire\""}
+T327.2195179190021 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"r\u00e9cit\" (recital) and \"histoire\" (history):\n\n1. Confessionnel (confessional, a genre of writing or speech that shares personal experiences)\n2. Monologue (monologue, a spoken statement made by one person, often used in historical accounts)\n3. Dialogue (dialogue, an exchange of words between two or more people, which can be used to convey historical events)\n4. Sc\u00e9nario (scenario, a written plan or narrative for a story or event)\n5. R\u00e9enactement historique (historical reenactment, a recreation or imitation of a past event)\n6. Archivage du r\u00e9cit (archivalization of recital, the process of preserving and organizing historical accounts)\n7. Enqu\u00eate historique (historical inquiry, an investigation into past events and experiences)\n8. \u00c9tude de la voix (study of the voice, the way in which a person's voice is used to convey emotion and history through speaking)\n9. Historiographie orale (oral historiography, the use of spoken word to record and share historical stories)\n10. Acte de r\u00e9cit (act of recital, a performance or telling of a story, often used in theatrical productions)\n\nLet me know if you'd like more!"}
+T330.42942077098996 #34 extract_...
+T333.28870175100747 🤔 extract_1/12 #34 "acte" score? 17.12
+T333.2887932960002 attempt_33: "acte" score:17.12 prog:None
+T336.47423587500816 🤔 extract_1/11 #35 "confessionnel" score? 5.85
+T336.4744252990058 attempt_34: "confessionnel" score:5.85 prog:None
+T341.28600992198335 🤔 extract_1/10 #36 "dialogue" score? 13.58
+T341.2861850319896 attempt_35: "dialogue" score:13.58 prog:None
+T343.743179010984 🤔 extract_1/9 #37 "du" score? !
+T343.7433430009987 reject: "du"
+T346.84510402099113 🤔 extract_1/8 #37 "enquête" score? 8.7
+T346.84530950599583 attempt_36: "enquête" score:8.70 prog:None
+T349.59511289399234 🤔 extract_1/7 #38 "historique" score? 13.37
+T349.59526583499974 attempt_37: "historique" score:13.37 prog:None
+T351.4772574279923 🤔 extract_1/6 #39 "la" score? !
+T351.4774046280072 reject: "la"
+T360.53677677499945 🤔 extract_1/5 #39 "monologue" score? 32.5 591
+T360.53704408800695 attempt_38: "monologue" score:32.50 prog:591
+T372.91198651798186 🤔 extract_1/4 #40 "orale" score? !
+T372.9121405799815 reject: "orale"
+T376.15715114498744 🤔 extract_1/3 #40 "scénario" score? 20.73
+T376.1573099750094 attempt_39: "scénario" score:20.73 prog:None
+T379.46237422700506 🤔 extract_1/2 #41 "voix" score? 14.83
+T379.4624633429921 attempt_40: "voix" score:14.83 prog:None
+T383.2376418079948 🤔 extract_1/1 #42 "étude" score? -16.54
+T383.2378265580046 attempt_41: "étude" score:-16.54 prog:None
+T391.7465942740091 #43 ? *16 t4 /clear .
+T391.74681122999755 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are related to $1 and $2', count=10, kind='French', rel='that are related to', trailer=None)
+T391.74700452398974 DEBUG count: 16
+T391.7470280409907 DEBUG rel: None
+T391.74704980899696 DEBUG like: ['$1', '$2', '$3', '$4']
+T391.7470669919858 DEBUG unlike: []
+T391.74708542000735 DEBUG trailer: given:True []
+T391.7472106589994 session clear
+T391.7472727599961 chat_prompt: give me 16 French words that are related to $1, $2, $3, and $4
+T391.7474657589919 session: {"role": "user", "content": "give me 16 French words that are related to \"r\u00e9cit\", \"histoire\", \"monologue\", and \"narration\""}
+T404.1425563840021 session: {"role": "assistant", "content": "Here are 16 French words related to \"r\u00e9cit\", \"histoire\", \"monologue\", and \"narration\":\n\n1. R\u00e9cit (story, narrative)\n2. Histoire (history)\n3. Monologue (monologue)\n4. Narration (narration)\n5. Fable (fable)\n6. Fabule (mythical story)\n7. Foisettes (short stories)\n8. M\u00e9moire (memory, memoir)\n9. Recit de vie (autobiography)\n10. Prose (prose)\n11. Po\u00e9sie (poetry)\n12. Conte (tale, fairy tale)\n13. Litt\u00e9rature (literature)\n14. R\u00e9citation (recitation)\n15. H\u00e9ritage (heritage, legacy)\n16. Contes (tales)\n\nThese words are all related to the themes of storytelling, narrative, and the written word in French."}
+T406.04467372299405 #43 extract_...
+T408.9779940620065 🤔 extract_1/11 #43 "conte" score? 14.62
+T408.9782089460059 attempt_42: "conte" score:14.62 prog:None
+T411.089005168993 🤔 extract_1/10 #44 "contes" score? !
+T411.08915982200415 reject: "contes"
+T414.8338307719969 🤔 extract_1/9 #44 "fabule" score? !
+T414.83395908700186 reject: "fabule"
+T416.8774968420039 🤔 extract_1/8 #44 "foisettes" score? !
+T416.8776368419931 reject: "foisettes"
+T419.90533228000277 🤔 extract_1/7 #44 "littérature" score? 10.02
+T419.90547333299764 attempt_43: "littérature" score:10.02 prog:None
+T424.5105343599862 🤔 extract_1/6 #45 "mémoire" score? 13.47
+T424.51083069699234 attempt_44: "mémoire" score:13.47 prog:None
+T429.56449019900174 🤔 extract_1/5 #46 "poésie" score? 17.17
+T429.56465987698175 attempt_45: "poésie" score:17.17 prog:None
+T432.3597802639997 🤔 extract_1/4 #47 "prose" score? 18.71
+T432.35988951599575 attempt_46: "prose" score:18.71 prog:None
+T435.884891381982 🤔 extract_1/3 #48 "recit" score? !
+T435.88501468198956 reject: "recit"
+T438.29108103900217 🤔 extract_1/2 #48 "récitation" score? 3.33
+T438.29124427598435 attempt_47: "récitation" score:3.33 prog:None
+T443.79832777398406 🤔 extract_1/1 #49 "vie" score? 28.17 91
+T443.7985210820043 attempt_48: "vie" score:28.17 prog:91
+T453.18181726700277 #50 ? *t2 !new
+T453.1820356280077 DEBUG cp: ChatPrompt(prompt='give me 16 French words that are related to $1, $2, $3, and $4', count=16, kind='French', rel='that are related to', trailer=None)
+T453.182183197001 DEBUG scale: per = default(ceil(16/4), 5) = 4
+T453.18219734198647 DEBUG scale: n = 2 * 0 = 2
+T453.18220733999624 DEBUG scale: count = 4 * 2 = 8
+T453.1822166070051 DEBUG count: 8
+T453.1822250550031 DEBUG rel: None
+T453.1822378959914 DEBUG like: ['$1', '$2']
+T453.18224621599074 DEBUG unlike: []
+T453.18225810700096 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T453.1823558679898 chat_prompt: give me 8 French words that are related to $1 and $2; do not list any words that you have already listed above
+T453.18253304599784 session: {"role": "user", "content": "give me 8 French words that are related to \"r\u00e9cit\" and \"histoire\"; do not list any words that you have already listed above"}
+T462.3196647889854 session: {"role": "assistant", "content": "Here are 8 more French words related to \"r\u00e9cit\" and \"histoire\":\n\n1. \u00c9pisode (episode)\n2. Syst\u00e8me (narrative system)\n3. Structuration (structuring, narratological framework)\n4. Th\u00e9\u00e2tralisation (theatralization, dramatization of a story)\n5. Intertexte (inter text, narrative that references or alludes to another work)\n6. Mytheologie (mythology, study of myths and myth-making)\n7. Chronique (chronicle, historical account)\n8. Essai (essay, essay on history or literature)"}
+T466.1409938590077 #50 extract_...
+T470.65494186698925 🤔 extract_1/7 #50 "essai" score? -2.36
+T470.655272642005 attempt_49: "essai" score:-2.36 prog:None
+T478.3413998959877 🤔 extract_1/6 #51 "intertexte" score? 14.31
+T478.3415991869988 attempt_50: "intertexte" score:14.31 prog:None
+T482.0978608489968 🤔 extract_1/5 #52 "mytheologie" score? !
+T482.0979961690027 reject: "mytheologie"
+T485.41292547798366 🤔 extract_1/4 #52 "structuration" score? -15.06
+T485.4131176369847 attempt_51: "structuration" score:-15.06 prog:None
+T495.52194774500094 🤔 extract_1/3 #53 "système" score? -10.78
+T495.5221467090014 attempt_52: "système" score:-10.78 prog:None
+T517.312234972982 🤔 extract_1/2 #54 "théâtralisation" score? 21.73
+T517.3123663770093 attempt_53: "théâtralisation" score:21.73 prog:None
+T525.05057846001 🤔 extract_1/1 #55 "épisode" score? 34.72 715
+T525.0508823959972 attempt_54: "épisode" score:34.72 prog:715
+T526.0866303849907 <INT>
+T0.008109474001685157 now: 2024-11-28T20:20:10EST
+T3.6016365719842725 #56 ? /prog
+T7.293203432986047 #56 ? /last
+T18.844633255997906 #56 ? /prog
+T21.83005221298663 #56 ? *t3 !new
+T21.830627628980437 DEBUG cp: ChatPrompt(prompt='give me 8 French words that are related to $1 and $2; do not list any words that you have already listed above', count=8, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T21.830969567003194 DEBUG scale: per = default(ceil(8/2), 5) = 4
+T21.83098459499888 DEBUG scale: n = 3 * 0 = 3
+T21.83099372999277 DEBUG scale: count = 4 * 3 = 12
+T21.831001190003008 DEBUG count: 12
+T21.831009079003707 DEBUG rel: None
+T21.83102307698573 DEBUG like: ['$1', '$2', '$3']
+T21.83102944100392 DEBUG unlike: []
+T21.83104065799853 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T21.831123169977218 chat_prompt: give me 12 French words that are related to $1, $2, and $3; do not list any words that you have already listed above
+T21.831257380981697 session: {"role": "user", "content": "give me 12 French words that are related to \"r\u00e9cit\", \"histoire\", and \"\u00e9pisode\"; do not list any words that you have already listed above"}
+T38.34321842499776 session: {"role": "assistant", "content": "Here are 12 more French words related to \"r\u00e9cit\", \"histoire\", and \"\u00e9pisode\":\n\n1. Arch\u00e9ologie (archaeology, study of ancient history)\n2. R\u00e9enactement (reenactment, recreation of a historical event)\n3. Mythomoteur (mythopoeic, myth-making as a literary device)\n4. Histoire ordinaire (ordinary history, everyday life in the past)\n5. Faux m\u00e9morial (false memorial, fictionalized account of a historical event)\n6. Genre narratif (narrative genre, category of stories)\n7. Th\u00e9orie de l'histoire litt\u00e9raire (literary historical theory)\n8. D\u00e9cors (decorations, setting in a story or film)\n9. Personnage secondaire (secondary character, supporting character in a narrative)\n10. R\u00e9alisme m\u00e9lodramatique (melodramatic realism, exaggerated drama in a narrative)\n11. Monde de fiction (fictional world, fictional setting for a story)\n12. Adaptation historique (historical adaptation, adaptation of a historical event or period)"}
+T40.254643046995625 #56 extract_...
+T44.01864129997557 🤔 extract_1/15 #56 "adaptation" score? -4.65
+T44.01880286500091 attempt_55: "adaptation" score:-4.65 prog:None
+T46.740928890998475 🤔 extract_1/14 #57 "archéologie" score? -12.05
+T46.74111689897836 attempt_56: "archéologie" score:-12.05 prog:None
+T49.4818885299901 🤔 extract_1/13 #58 "décors" score? !
+T49.48204149497906 reject: "décors"
+T52.26308613299625 🤔 extract_1/12 #58 "faux" score? 17.34
+T52.263283360982314 attempt_57: "faux" score:17.34 prog:None
+T57.306253807997564 🤔 extract_1/11 #59 "fiction" score? 28.81 173
+T57.30644274799852 attempt_58: "fiction" score:28.81 prog:173
+T60.53321639899514 🤔 extract_1/10 #60 "genre" score? 22.68
+T60.533367188996635 attempt_59: "genre" score:22.68 prog:None
+T63.32782145400415 🤔 extract_1/9 #61 "littéraire" score? 8.57
+T63.32801660397672 attempt_60: "littéraire" score:8.57 prog:None
+T65.43655510499957 🤔 extract_1/8 #62 "mythomoteur" score? !
+T65.43675829799031 reject: "mythomoteur"
+T72.25588043199969 🤔 extract_1/7 #62 "mélodramatique" score? 48.46
+T75.23676507300115 🤔 extract_1/7 #62 "mélodramatique" 48.46°C prog‰ ? 983
+T75.2369842879998 attempt_61: "mélodramatique" score:48.46 prog:983
+T79.39501622298849 🤔 extract_1/6 #63 "narratif" score? 25.81
+T79.39517132099718 attempt_62: "narratif" score:25.81 prog:None
+T86.05694054398919 🤔 extract_1/5 #64 "ordinaire" score? 17.15
+T86.057162512996 attempt_63: "ordinaire" score:17.15 prog:None
+T91.91913481999654 🤔 extract_1/4 #65 "personnage" score? 38.36
+T98.36560153399478 🤔 extract_1/4 #65 "personnage" 38.36°C prog‰ ? 874
+T98.36577726498945 attempt_64: "personnage" score:38.36 prog:874
+T100.1029764249979 🤔 extract_1/3 #66 "réalisme" score? _
+T102.31613502200344 #66 ? _
+T102.31627412099624 chat_prompt: _
+T102.31644645199412 session: {"role": "user", "content": "give me 12 French words that are related to \"m\u00e9lodramatique\", \"r\u00e9cit\", and \"personnage\"; do not list any words that you have already listed above"}
+T122.2123354380019 session: {"role": "assistant", "content": "Here are 12 more French words related to \"m\u00e9lodramatique\", \"r\u00e9cit\", and \"personnage\":\n\n1. Pathos (pathos, emotional appeal in a narrative)\n2. Charisme narratif (narrative charisma, compelling storytelling)\n3. Psychologie du personnage (psychology of the character, study of character development)\n4. Th\u00e9\u00e2tralisation de l'\u00e9motion (theatricalization of emotion, using drama to convey emotions)\n5. Monologue interieur (inner monologue, a character's inner thoughts in a narrative)\n6. Port\u00e9e dramatique (dramatic range, a character's ability to convey emotions and reactions)\n7. Cheminement du r\u00e9cit (narrative flow, the way a story unfolds)\n8. Personnage de pr\u00e9dilection (favorite character, a character that audiences identify with or sympathize with)\n9. Intensification des \u00e9motions (intensification of emotions, using narrative techniques to convey emotional depth)\n10. R\u00e9action du personnage (character reaction, how a character responds to events in the story)\n11. Expression du personnage (expression of the character, how a character expresses their emotions and personality)\n12. D\u00e9veloppement psychologique (psychological development, how a character grows or changes over time)"}
+T157.7834597239853 #66 extract_...
+T160.45740380100324 🤔 extract_1/16 #66 "charisme" score? 12.33
+T160.45759485298186 attempt_65: "charisme" score:12.33 prog:None
+T163.2434780189942 🤔 extract_1/15 #67 "cheminement" score? 10.21
+T163.24370446198736 attempt_66: "cheminement" score:10.21 prog:None
+T165.23828645198955 🤔 extract_1/14 #68 "des" score? !
+T165.2384137469926 reject: "des"
+T170.40140262598288 🤔 extract_1/13 #68 "dramatique" score? 64.1 997
+T170.40168337800424 attempt_67: "dramatique" score:64.10 prog:997
+T175.27381860098103 🤔 extract_1/12 #69 "développement" score? -23.21
+T175.2740349629894 attempt_68: "développement" score:-23.21 prog:None
+T179.74148608697578 🤔 extract_1/11 #70 "expression" score? 2.57
+T179.74162103998242 attempt_69: "expression" score:2.57 prog:None
+T182.2602808639931 🤔 extract_1/10 #71 "intensification" score? 2.23
+T182.26044796599308 attempt_70: "intensification" score:2.23 prog:None
+T185.58815553199383 #72 ? _
+T185.58836108297692 chat_prompt: _
+T185.58857617498143 session: {"role": "user", "content": "give me 12 French words that are related to \"dramatique\", \"m\u00e9lodramatique\", and \"r\u00e9cit\"; do not list any words that you have already listed above"}
+T209.82541312498506 session: {"role": "assistant", "content": "Here are 12 more French words related to \"dramatique\", \"m\u00e9lodramatique\", and \"r\u00e9cit\":\n\n1. Dramatisation (dramatization, the process of converting a story into a dramatic narrative)\n2. Spectacle (spectacle, a showy or impressive display of drama or storytelling)\n3. \u00c9lan dramatique (dramatic flair, a character's ability to create a dramatic effect)\n4. C\u00e9r\u00e9monie du r\u00e9cit (ceremony of the story, the formal or ritualized way of telling a tale)\n5. Histoire ensc\u00e9n\u00e9e (history performed, a performance of historical events)\n6. Th\u00e9\u00e2tralisation du temps (theatralization of time, using drama to convey a sense of time and chronology)\n7. Musique dramatique (dramatic music, music used to enhance the emotional impact of a narrative)\n8. Luminosit\u00e9 dramatique (dramatic luminosity, the way a story or performance is illuminated or revealed)\n9. Th\u00e9orie du spectateur (theory of the spectator, understanding how audience members respond to drama and storytelling)\n10. R\u00e9alisme d'effets (realism of effects, using dramatic techniques to create a convincing illusion)\n11. D\u00e9coupage dramatique (dramatic cutting, editing out unnecessary parts of a narrative to focus on key moments)\n12. Picturalit\u00e9 du r\u00e9cit (narrative pictoriality, the use of images and visual elements to convey meaning in a story)"}
+T262.83152707698173 #72 extract_...
+T268.1211758260033 🤔 extract_1/14 #72 "cérémonie" score? 9.87
+T268.121373492002 attempt_71: "cérémonie" score:9.87 prog:None
+T272.8307932339958 🤔 extract_1/13 #73 "dramatisation" score? 37.84
+T275.43997002998367 🤔 extract_1/13 #73 "dramatisation" 37.84°C prog‰ ? 860
+T275.4401860139915 attempt_72: "dramatisation" score:37.84 prog:860
+T278.8944545399863 🤔 extract_1/12 #74 "découpage" score? 2.86
+T278.89464041098836 attempt_73: "découpage" score:2.86 prog:None
+T283.1953303819755 🤔 extract_1/11 #75 "effets" score? !
+T283.19550713099306 reject: "effets"
+T285.22180678899167 🤔 extract_1/10 #75 "enscénée" score? !
+T285.22197132598376 reject: "enscénée"
+T289.6005250229791 🤔 extract_1/9 #75 "luminosité" score? -2.13
+T289.6007151060039 attempt_74: "luminosité" score:-2.13 prog:None
+T292.92105422198074 🤔 extract_1/8 #76 "musique" score? 4.33
+T292.9213177509955 attempt_75: "musique" score:4.33 prog:None
+T295.4098401849915 🤔 extract_1/7 #77 "picturalité" score? !
+T295.40998049397604 reject: "picturalité"
+T301.21867639099946 🤔 extract_1/6 #77 "réalisme" score? 30.52 393
+T301.21886347897816 attempt_76: "réalisme" score:30.52 prog:393
+T304.55218565897667 🤔 extract_1/5 #78 "spectacle" score? 15.73
+T304.5523509699851 attempt_77: "spectacle" score:15.73 prog:None
+T308.2450000589888 🤔 extract_1/4 #79 "spectateur" score? 37.56
+T312.5956558219914 🤔 extract_1/4 #79 "spectateur" 37.56°C prog‰ ? 852
+T312.5958574829856 attempt_78: "spectateur" score:37.56 prog:852
+T317.67907068200293 🤔 extract_1/3 #80 "temps" score? 10.02
+T317.679143248999 attempt_79: "temps" score:10.02 prog:None
+T333.52053169099963 🤔 extract_1/2 #81 "théorie" score? -.49
+T333.5207015229971 attempt_80: "théorie" score:-0.49 prog:None
+T338.8721358460025 🤔 extract_1/1 #82 "élan" score? 25.21
+T338.87234784898465 attempt_81: "élan" score:25.21 prog:None
+T350.29916734297876 #83 ? /prog
+T356.4030761119793 #83 ? *12 t2 /clear .
+T356.4033776479773 DEBUG cp: ChatPrompt(prompt='give me 12 French words that are related to $1, $2, and $3; do not list any words that you have already listed above', count=12, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T356.40355087799253 DEBUG count: 12
+T356.4035650199803 DEBUG rel: None
+T356.40357991098426 DEBUG like: ['$1', '$2']
+T356.4035899519804 DEBUG unlike: []
+T356.40360173699446 DEBUG trailer: given:True []
+T356.40370809898013 session clear
+T356.40375835300074 chat_prompt: give me 12 French words that are related to $1 and $2
+T356.4039172149787 session: {"role": "user", "content": "give me 12 French words that are related to \"dramatique\" and \"m\u00e9lodramatique\""}
+T375.59348012998817 session: {"role": "assistant", "content": "Here are 12 French words related to \"dramatique\" and \"m\u00e9lodramatique\":\n\n1. Dramaturge (n.) - a person who writes or prepares the script for a play\n2. M\u00e9lodrame (n.) - a melodramatic genre of drama that emphasizes emotional intensity\n3. Th\u00e9\u00e2tre (n.) - a place for performing plays and other dramatic performances\n4. Spectacle (n.) - a dramatic presentation, especially one with elaborate scenery and costumes\n5. Action (n.) - the main event or plot of a play\n6. Sc\u00e9nario (n.) - the script or story plan for a play\n7. R\u00e9volution (n.) - a sudden, radical change or transformation in a situation\n8. Drame noir (n.) - a French term used to describe a melodramatic thriller\n9. Th\u00e9\u00e2traliser (v.) - to make something into a theatrical performance\n10. \u00c9motionnellement (adv.) - in an emotionally intense way, as if for dramatic effect\n11. Sc\u00e8ne (n.) - a set of events or situations that take place together\n12. R\u00e9flexion (n.) - a moment of thought or introspection, often used to create drama\n\nThese words all relate to the themes and concepts associated with \"dramatique\" and \"m\u00e9lodramatique\", such as drama, theater, emotions, and plot development."}
+T379.16480921799666 #83 extract_...
+T382.39418758498505 🤔 extract_1/11 #83 "action" score? -3.16
+T382.39442738497746 attempt_82: "action" score:-3.16 prog:None
+T391.9814805799979 🤔 extract_1/10 #84 "dramaturge" score? 31.12 467
+T391.98158598400187 attempt_83: "dramaturge" score:31.12 prog:467
+T440.4334311809798 🤔 extract_1/9 #85 "drame" score? 100 1000
+T440.4335133949935 attempt_84: "drame" score:100.00 prog:1000
+T445.28718718499294 Paste share result, then preses <Enter>
+T445.3252532799961 share result: "J'ai trouv\u00e9 #cemantix n\u00ba1003 en 86 coups !\n\ud83e\udd73\n\ud83d\udd25\n\ud83e\udd75\n\ud83d\ude0e1\ufe0f\u20e32\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd765\ufe0f\u20e35\ufe0f\u20e3\n\ud83e\uddca1\ufe0f\u20e36\ufe0f\u20e3\nhttps://cemantix.certitudes.org/"
+T445.3268373189785 <STOP>
