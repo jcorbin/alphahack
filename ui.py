@@ -114,10 +114,15 @@ class Tokens(PeekStr):
             return f'{val} {self._m.rest}'
         return self._m.rest
 
+    @rest.setter
+    def rest(self, rest: str):
+        self._m.rest = rest
+        self._val = None
+
     def take_rest(self):
         rest = self.rest
         self._m.rest = ''
-        _ = next(self, None)
+        self._val = None
         return rest
 
     @property
