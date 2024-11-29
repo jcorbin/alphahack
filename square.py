@@ -223,12 +223,12 @@ class Search(StoredLog):
             yield t, rest
 
     def find(self, ui: PromptUI, pattern: re.Pattern[str]):
-        ui.write(f'searching: {pattern.pattern}')
         with open(self.wordlist) as f:
             for line in f:
                 line = line.strip().lower()
                 word = line.partition(' ')[0]
-                if word.lower() in self.rejects: continue
+                word = word.lower()
+                if word in self.rejects: continue
                 if pattern.fullmatch(word): yield word
 
     def okay_letters(self) -> Generator[str]:
@@ -245,21 +245,16 @@ class Search(StoredLog):
         if word_i is not None:
             p, _ = self.pattern(word_i)
             pattern = re.compile(p)
-            ui.print(f'! [{word_i}] {p!r}')
         else:
             smallest = 0
             for i, word in enumerate(self.word):
                 if all(word): continue
-                p, space = self.pattern(i)
-                ui.write(f'may:{space} ')
+                p, _ = self.pattern(i)
                 p = re.compile(p)
                 have = sum(1 for _ in self.find(ui, p))
                 if not have: continue
-                ui.write(f' found:{have}')
-                ui.fin()
                 if not pattern or have < smallest:
                     word_i, pattern, smallest = i, p, have
-        ui.fin()
 
         # TODO try column patterns
 
@@ -296,7 +291,6 @@ class Search(StoredLog):
                 best, choice = score, word
                 self.recent_sug[word] = 10
                 yield word_i, best, choice, count
-        ui.fin()
 
     def pattern(self, word_i: int) -> tuple[str, int]:
         word = self.word[word_i]
@@ -314,9 +308,6 @@ class Search(StoredLog):
         space: int = len(alpha)**free
         if may:
             for n in range(len(may), 1, -1): space *= n
-
-        print(f'[{word_i}] may {may}')
-        print(f'[{word_i}] word {word}')
 
         if not may:
             free = sum(1 for let in word if not let)
@@ -336,20 +327,26 @@ class Search(StoredLog):
 
         return '|'.join(alts()), space
 
-    def display(self, ui: PromptUI):
-        if self.run_done:
-            return self.finish
+    skip_show: bool = False
 
+    def show(self, ui: PromptUI):
+        if self.skip_show:
+            self.skip_show = False
+            return
         for i, word in enumerate(self.word):
-            ui.write(f'{i+1}  |  ')
+            ui.write(f'#{i+1}  | ')
             for let in word:
                 ui.write(f' {let.upper() or "_"}')
             ui.write(f'  |  {" ".join(sorted(let.upper() for let in self.row_may[i]))}')
             ui.fin()
-
         if self.nope:
             ui.print(f'no: {" ".join(sorted(let.upper() for let in self.nope))}')
 
+    def display(self, ui: PromptUI):
+        if self.run_done:
+            return self.finish
+
+        self.show(ui)
         with ui.input(f'> ') as tokens:
             return self.proc(ui)
 
