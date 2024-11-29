@@ -68,6 +68,10 @@ class Search(StoredLog):
             for _ in range(self.size)
         ]
 
+        self.qmode: str = '?'
+        self.questioning: str = ''
+        self.question_desc: str = ''
+
         # TODO self.guesses: T = T()
         self.rejects: set[str] = set()
 
@@ -94,7 +98,7 @@ class Search(StoredLog):
             self.do_puzzle(ui)
             if not self.puzzle_id: return
 
-        return self.display
+        return self.question if self.questioning else self.display
 
     @property
     @override
@@ -181,6 +185,32 @@ class Search(StoredLog):
                 continue
 
             match = re.match(r'''(?x)
+                questioning :
+                \s* (?P<json> .+ )
+                $''', rest)
+            if match:
+                raw, = match.groups()
+                dat = cast(object, json.loads(raw))
+                assert isinstance(dat, list)
+                dat = cast(list[object], dat)
+                assert len(dat) == 2
+                word, desc = dat
+                assert isinstance(word, str)
+                assert isinstance(desc, str)
+                _ = self.ask_question(ui, word, desc)
+                continue
+
+            match = re.match(r'''(?x)
+                question \s+ done
+                \s* ( .* )
+                $''', rest)
+            if match:
+                rest, = match.groups()
+                assert rest == ''
+                self.question_done(ui)
+                continue
+
+            match = re.match(r'''(?x)
                 reject :
                 \s+ (?P<word> \w+ )
                 \s* ( .* )
@@ -188,7 +218,7 @@ class Search(StoredLog):
             if match:
                 word, rest = match.groups()
                 assert rest == ''
-                self.rejects.add(word.lower())
+                self.question_reject(ui, word)
                 continue
 
             match = re.match(r'''(?x)
@@ -222,7 +252,7 @@ class Search(StoredLog):
 
             yield t, rest
 
-    def find(self, ui: PromptUI, pattern: re.Pattern[str]):
+    def find(self, _ui: PromptUI, pattern: re.Pattern[str]):
         with open(self.wordlist) as f:
             for line in f:
                 line = line.strip().lower()
@@ -348,7 +378,27 @@ class Search(StoredLog):
 
         self.show(ui)
         with ui.input(f'> ') as tokens:
-            return self.proc(ui)
+            if tokens.have(r'\*'):
+                self.skip_show = True
+                return self.do_choose(ui)
+
+            if tokens.have(r'(?x) ( ! | /n(o(pe?)?)? ) $'):
+                for m in re.finditer(r'[A-Za-z]', tokens.rest):
+                    self.nope.add(m.group(0).lower())
+                ui.log(f'nope: {" ".join(sorted(self.nope))}')
+                return
+
+            word_i = self.re_word_i(ui)
+            if word_i is None: return
+
+            if tokens.rest.strip() == '!':
+                ui.log(f'forget: {word_i}')
+                self.word[word_i] = ['' for _ in range(self.size)]
+                self.row_may[word_i] = set()
+                return
+
+            if not tokens.empty:
+                ui.print(f'TODO {next(tokens)!r} entered')
 
     def finish(self, ui: PromptUI):
         with ui.input('Copy share result and press <Enter>'):
@@ -406,55 +456,53 @@ class Search(StoredLog):
             lets = ' '.join(f'{let.upper() or "_"}' for let in word)
             yield f'    {lets}'
 
-    def proc(self, ui: PromptUI):
+    def proc_re_word(self, ui: PromptUI, word_i: int):
         with ui.tokens as tokens:
-            if tokens.have(r'\*'):
-                return self.do_choose(ui)
+            match = self.re_word_match(ui)
+            if match:
+                return self.proc_re_word_match(ui, word_i, match)
 
-            if tokens.have(r'n(o(pe?)?)?$'):
-                for m in re.finditer(r'[A-Za-z]', tokens.rest):
-                    self.nope.add(m.group(0).lower())
-                ui.log(f'nope: {" ".join(sorted(self.nope))}')
-                return
+    def re_word_match(self, ui: PromptUI):
+        rest = ui.tokens.rest
+        match = re.match(r'''(?x)
+            \s* (?P<word> [_A-Za-z ]+ )
+            (?: \s* ~ \s* (?P<may> [A-Za-z ]+ ) )?
+        ''', rest) or re.match(r'''(?x)
+            (?P<word> )
+            \s* ~ \s* (?P<may> [A-Za-z ]+ )
+        ''', rest)
+        if match:
+            ui.tokens.rest = rest[match.end(0):] 
+        return match
 
-            n = tokens.have(r'(\d+):?', lambda m: int(m.group(1)))
-            if n is None: return
+    def proc_re_word_match(self, ui: PromptUI, word_i: int, match: re.Match[str]):
+        word_str = cast(str, match.group(1) or '')
+        may_str = cast(str, match.group(2) or '')
 
-            word_i = n - 1
-            if word_i < 0 or word_i >= self.size: return
+        may = self.row_may[word_i]
+        word = self.word[word_i]
 
-            if tokens.rest.strip() == '!':
-                ui.log(f'forget: {word_i}')
-                self.word[word_i] = ['' for _ in range(self.size)]
-                self.row_may[word_i] = set()
-                return
-
-            # TODO allow _____ and ~ in one line
-
-            if tokens.have(r'~$'):
-                self.row_may[word_i] = set(
-                    m.group(0).lower()
-                    for m in re.finditer(r'[A-Za-z]', tokens.rest))
-                ui.log(f'may: {word_i} {" ".join(sorted(self.row_may[word_i]))}')
-                return
-
-            may = self.row_may[word_i]
-            word = self.word[word_i]
-            ui.print(f'? {tokens.peek('')!r} {tokens.rest!r}')
-            for i, m in enumerate(re.finditer(r'[_A-Za-z]', tokens.rest)):
+        if word_str:
+            lets = (c for c in word_str if c != ' ')
+            for i, let in enumerate(lets):
                 if i >= len(word):
                     ui.print('! too much input, truncating')
                     break
-                let = m.group(0)
-                if let != '_':
-                    c = let.lower()
-                    if word[i] != c:
-                        word[i] = c
-                        if c in may: may.remove(c)
-                else:
+                c = let.lower()
+                if let == '_':
                     word[i] = ''
-            ui.log(f'may: {word_i} {" ".join(sorted(self.row_may[word_i]))}')
-            ui.log(f'word: {word_i} {"".join(let or "_" for let in word)}')
+                elif word[i] != c:
+                    word[i] = c
+                    if c in may: may.remove(c)
+
+        if may_str:
+            may.clear()
+            may.update(
+                m.group(0).lower()
+                for m in re.finditer(r'[A-Za-z]', may_str))
+
+        ui.log(f'word: {word_i} {"".join(let or "_" for let in word)}')
+        ui.log(f'may: {word_i} {" ".join(sorted(self.row_may[word_i]))}')
 
     def do_choose(self, ui: PromptUI) -> PromptUI.State|None:
         word_n = ui.tokens.have(r'\d+$', lambda m: int(m.group(0)))
@@ -468,13 +516,74 @@ class Search(StoredLog):
         if not choice: return
         assert word_i is not None
 
-        ui.copy(choice)
         _, uni_count = self.pattern(word_i)
-        with ui.input(f'{choice} ( #{word_i+1} found:{count} hypo:{uni_count} ) ? ') as tokens:
-            if tokens.rest.strip() == '!':
-                self.rejects.add(choice.lower())
-                ui.log(f'reject: {choice}')
-            return self.proc(ui) or self.display
+        return self.ask_question(ui, choice, f'#{word_i+1} found:{count} hypo:{uni_count}')
+
+    def ask_question(self, ui: PromptUI, word: str, desc: str):
+        ui.log(f'questioning: {json.dumps([word, desc])}')
+        self.qmode = '?'
+        self.questioning = word
+        self.question_desc = desc
+        return self.question
+
+    def question(self, ui: PromptUI):
+        q = self.qmode
+        word = self.questioning.lower()
+        desc = self.question_desc
+        prompt = f'{word} ( {desc} )' if desc else f'{word}'
+
+        ui.copy(word)
+
+        self.show(ui)
+        with ui.input(f'{prompt} {q} ') as tokens:
+            if tokens.empty:
+                self.question_done(ui)
+                return self.display
+
+            if q == '?':
+                if tokens.rest.strip() == '!':
+                    self.question_reject(ui, word)
+                    return self.display
+                if tokens.rest.strip() == '.':
+                    return self.question_guess(ui, word)
+
+                word_i = self.re_word_i(ui)
+                if word_i is not None:
+                    match = self.re_word_match(ui)
+                    if match:
+                        self.question_guess(ui, word)
+                        return self.proc_re_word_match(ui, word_i, match)
+
+            elif q == '>':
+                word_i = self.re_word_i(ui)
+                if word_i is not None:
+                    return self.proc_re_word(ui, word_i)
+                return
+
+            else:
+                raise RuntimeError(f'invalid qmode:{q!r}')
+
+    def re_word_i(self, ui: PromptUI):
+        n = ui.tokens.have(r'(\d+):?', lambda m: int(m.group(1)))
+        if n is not None:
+            word_i = n - 1
+            return word_i if 0 <= word_i < self.size else None
+
+    def question_guess(self, ui: PromptUI, word: str):
+        ui.log(f'guess: {word}')
+        self.qmode = '>'
+
+    def question_reject(self, ui: PromptUI, word: str):
+        ui.log(f'reject: {word}')
+        self.rejects.add(word.lower())
+        self.questioning = ''
+        self.question_desc = ''
+
+    def question_done(self, ui: PromptUI):
+        ui.log('question done')
+        self.qmode = '?'
+        self.questioning = ''
+        self.question_desc = ''
 
 from dataclasses import dataclass
 @dataclass
