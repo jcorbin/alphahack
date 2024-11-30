@@ -236,13 +236,17 @@ class MarkedSpec:
                                                     $
                                                 ''')
     prop_pattern: re.Pattern[str] = re.compile(r'''(?x)
-                                                   - \s+ ( [^\s]+ ) :
+                                                   (?:
+                                                       - \s+ ( [^\s]+ ) :
+                                                     | ( \d+ ) [.)]
+                                                   )
                                                    \s+ ( .+? )
                                                    $
                                                ''')
 
     prop_end_pattern: re.Pattern[str] = re.compile(r'''(?x)
                                                          - \s+ [^\s]
+                                                       | \d+ [.)]
                                                        | $
                                                    ''')
 
@@ -275,10 +279,8 @@ class MarkedSpec:
         lines = self.speclines
         for _ in lines.consume(self.id_pattern): pass
         for _ in lines.consume(self.input_pattern): pass
-        for key, value in lines.consume(
-            self.prop_pattern,
-            lambda m: (cast(str, m.group(1)), cast(str, m.group(2)))
-        ):
+        for match in lines.consume(self.prop_pattern):
+            value = cast(str, match.group(3))
             if value == '```':
                 first = next(lines)
                 indent, first = first_indent(first)
@@ -288,7 +290,17 @@ class MarkedSpec:
             else:
                 value = f'{value}{"\n".join(lines.consume_until(self.prop_end_pattern))}'
 
-            yield key, value
+            li = cast(str, match.group(1))
+            if li:
+                yield li, value
+                continue
+
+            li = cast(str, match.group(2))
+            if li:
+                yield int(li), value
+                continue
+
+            assert False, 'must have either bullet match $1 (unordered) or $2 (ordered)'
 
     @property
     def trailer(self):
