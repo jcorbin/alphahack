@@ -1304,3 +1304,15 @@ See log/squareword.org/#1033
 ⏱️ 24s
 🔗 alfagok.diginaut.net
 ```
+
+# 2024-11-30 alphaguess.com
+
+```
+🧩 Puzzle #494
+
+🤔 14 guesses
+
+⏱️ 24s
+
+🔗 alphaguess.com
+```
