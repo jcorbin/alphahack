@@ -225,8 +225,19 @@ class MarkedSpec:
         for sec in cls.itersections(spec):
             yield cls(sec)
 
-    input_pattern: re.Pattern[str] = re.compile(r'>(?: ?(.*?))?$')
-    prop_pattern: re.Pattern[str] = re.compile(r'(?x) - \s+ ( [^\s]+ ) : \s+ (.+?)$')
+    input_pattern: re.Pattern[str] = re.compile(r'''(?x)
+                                                    >
+                                                    (?:
+                                                        [ ]?
+                                                        ( .*? )
+                                                    )?
+                                                    $
+                                                ''')
+    prop_pattern: re.Pattern[str] = re.compile(r'''(?x)
+                                                   - \s+ ( [^\s]+ ) :
+                                                   \s+ ( .+? )
+                                                   $
+                                               ''')
 
     def __init__(self, spec: str):
         self.spec: str = spec
