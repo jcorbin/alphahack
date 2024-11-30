@@ -347,7 +347,7 @@ def build_prompt(
         \*\* ( .+? ) \*\*
       | \* ( .+? ) \*
       | \( ( .+? ) \)
-      | ( .+? ) (?= \s+ [\-:(] )
+      | ( [^(:]+ ) (?= \s+ [\-:(] )
       | ( .+? ) $
     )
 
@@ -360,9 +360,8 @@ def find_match_words(match: re.Match[str]):
         if not isinstance(term, str) or not term: continue
         # print('TERM', repr(term))
         for word in spliterate(term, " ", trim=True):
-            for token in spliterate(word, "-'"):
-                token = token.strip('*:)').strip()
-                yield n, token
+            for match in re.finditer(r'\w+', word):
+                yield n, match.group(0)
 
 @final
 @dataclass
@@ -2507,6 +2506,42 @@ def test_chat_prompts(spec: MarkedSpec):
     8. Le métal
     9. L école
     10. La musique
+
+    #french_15_t5
+    > Here are 15 French words related to "sillon", "fleur", "mille", "papillon", and "manteau":
+    >
+    > 1. Sillon -> Canapé (a type of sofa)
+    > 2. Fleur -> Tournesol (sunflower)
+    > 3. Mille -> Milliardaire (billionaire)
+    > 4. Papillon -> Papillon (butterfly)
+    > 5. Manteau -> Capuche (hood, part of a coat or cape)
+    > 6. Sillon -> Chaise longue (long chair, similar to a sofa)
+    > 7. Fleur -> Pétale (petal of a flower)
+    > 8. Mille -> Milieu (middle, middle-ground)
+    > 9. Papillon -> Aile de papillon (wings of a butterfly)
+    > 10. Manteau -> Capelet (small cape or hood)
+    > 11. Sillon -> Divan (a type of sofa or couch)
+    > 12. Fleur -> Fleurs d'oranger (orange blossoms)
+    > 13. Mille -> Milliardaire (billionaire)
+    > 14. Papillon -> Papillon de Néphésis (a mythological nymph with wings, inspired by butterflies)
+    > 15. Manteau -> Écharpe (cloak or mantle)
+    >
+    > Note: Some of these words may have multiple related meanings or connotations, but I've tried to provide a variety of connections to the given root words.
+    1. Sillon Canapé
+    2. Fleur Tournesol
+    3. Mille Milliardaire
+    4. Papillon Papillon
+    5. Manteau Capuche
+    6. Sillon Chaise longue
+    7. Fleur Pétale
+    8. Mille Milieu
+    9. Papillon Aile de papillon
+    10. Manteau Capelet
+    11. Sillon Divan
+    12. Fleur Fleurs d oranger
+    13. Mille Milliardaire
+    14. Papillon Papillon de Néphésis
+    15. Manteau Écharpe
 
 ''')), ids=MarkedSpec.get_id)
 def test_word_extraction(spec: MarkedSpec):
