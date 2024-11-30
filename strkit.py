@@ -259,7 +259,7 @@ class MarkedSpec:
         self._lines = self.iterlines(self.spec)
         return self._lines
 
-    def id(self):
+    def get_id(self):
         lines = self.speclines
         id = lines.have(self.id_pattern, lambda m: m.group(0))
         if id: return id
@@ -267,6 +267,10 @@ class MarkedSpec:
         for line in lines.consume(self.input_pattern, lambda m: cast(str, m.group(1) or '')):
             h.update(line.encode())
         return f'input_md5_{h.hexdigest()}'
+
+    @property
+    def id(self):
+        return self.get_id()
 
     @property
     def input(self):

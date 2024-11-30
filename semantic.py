@@ -2435,7 +2435,7 @@ import pytest
     // TODO give me 5 French words that are related to $t2
     // TODO give me 15 French words that are related to $t3
     // TODO give me 5 French words that are related to $t3
-''')), ids=MarkedSpec.id)
+''')), ids=MarkedSpec.get_id)
 def test_chat_prompts(spec: MarkedSpec):
     prompt = spec.input
     if prompt == '_': prompt = ''
@@ -2550,7 +2550,7 @@ def test_word_extraction(input: str, expected: Sequence[tuple[int, str]]):
     - prior: give me 10 words that are related to $1 and $2
     - prompt: give me 15 words that are related to $1, $2, and $6
     - clear: true
-''')), ids=MarkedSpec.id)
+''')), ids=MarkedSpec.get_id)
 def test_gen_prompt(spec: MarkedSpec):
     input = spec.input
     prior = ''
