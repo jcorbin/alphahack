@@ -241,6 +241,11 @@ class MarkedSpec:
                                                    $
                                                ''')
 
+    prop_end_pattern: re.Pattern[str] = re.compile(r'''(?x)
+                                                         - \s+ [^\s]
+                                                       | $
+                                                   ''')
+
     def __init__(self, spec: str):
         self.spec: str = spec
         self._lines: PeekStr|None = None
@@ -281,7 +286,8 @@ class MarkedSpec:
                 body = striperate(body, re.compile(indent)) if indent else body
                 value = '\n'.join(chain((first,), body))
             else:
-                value = f'{value}{"\n".join(lines.consume_until(r"- |$"))}'
+                value = f'{value}{"\n".join(lines.consume_until(self.prop_end_pattern))}'
+
             yield key, value
 
     @property
