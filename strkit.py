@@ -1,5 +1,6 @@
 import re
 from collections.abc import Generator, Iterable, Iterator
+from hashlib import md5
 from itertools import chain
 from typing import cast, final, overload, Callable
 
@@ -225,6 +226,7 @@ class MarkedSpec:
         for sec in cls.itersections(spec):
             yield cls(sec)
 
+    id_pattern: re.Pattern[str] = re.compile(r'(?x) \# .+ $')
     input_pattern: re.Pattern[str] = re.compile(r'''(?x)
                                                     >
                                                     (?:
@@ -243,22 +245,30 @@ class MarkedSpec:
         self.spec: str = spec
         self._lines: PeekStr|None = None
 
-    def id(self):
-        return f'{self.input.replace(" ", "_")}'
-
     @property
     def speclines(self):
         self._lines = self.iterlines(self.spec)
         return self._lines
 
+    def id(self):
+        lines = self.speclines
+        id = lines.have(self.id_pattern, lambda m: m.group(0))
+        if id: return id
+        h = md5()
+        for line in lines.consume(self.input_pattern, lambda m: cast(str, m.group(1) or '')):
+            h.update(line.encode())
+        return f'input_md5_{h.hexdigest()}'
+
     @property
     def input(self):
         lines = self.speclines
+        for _ in lines.consume(self.id_pattern): pass
         return '\n'.join(lines.consume(self.input_pattern, lambda m: cast(str, m.group(1) or '')))
 
     @property
     def props(self):
         lines = self.speclines
+        for _ in lines.consume(self.id_pattern): pass
         for _ in lines.consume(self.input_pattern): pass
         for key, value in lines.consume(
             self.prop_pattern,
