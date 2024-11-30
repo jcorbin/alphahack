@@ -1,0 +1,154 @@
+T0.00016078900080174208 now: 2024-11-30T11:44:48EST
+T1.4381640020292252 📜 nwl2023.txt ? 
+T1.4383773820009083 wordlist: nwl2023.txt
+T3.9101321949856356 🧩  ? #1034
+T3.9105151019757614 puzzle_id: #1034
+T6.885340653010644 > *
+T6.9846688830293715 questioning: ["wormy", "#5 found:9035 hypo:11881376"]
+T9.038379977981094 wormy ( #5 found:9035 hypo:11881376 ) ? .
+T9.038605962996371 guess: wormy
+T18.03027526900405 wormy ( #5 found:9035 hypo:11881376 ) > 2 ___m_
+T18.031171957030892 word: 1 ___m_
+T18.03121117898263 may: 1 
+T23.07813352299854 wormy ( #5 found:9035 hypo:11881376 ) > 4 _o___ ~ r
+T23.07861058402341 word: 3 _o___
+T23.07867757702479 may: 3 r
+T25.870102569984738 wormy ( #5 found:9035 hypo:11881376 ) > 5 ~ w r
+T25.8706269080285 word: 4 _____
+T25.870649614022113 may: 4 r w
+T28.549867297988385 wormy ( #5 found:9035 hypo:11881376 ) > no y
+T30.798231344029773 wormy ( #5 found:9035 hypo:11881376 ) > 
+T30.798363146022893 question done
+T31.894226075033657 > no y
+T35.37408746802248 > no y'
+T36.85359553003218 > /no y
+T36.85370347899152 nope: y
+T41.10995576699497 > *
+T41.428553398000076 questioning: ["wharf", "#5 found:121 hypo:31250"]
+T50.12566424999386 wharf ( #5 found:121 hypo:31250 ) ? .
+T50.12578026403207 guess: wharf
+T55.14217967301374 wharf ( #5 found:121 hypo:31250 ) > 2 __am_ ~a
+T55.14246943901526 word: 1 __am_
+T55.14250041201012 may: 1 a
+T58.65438791899942 wharf ( #5 found:121 hypo:31250 ) > 1 ~ a
+T58.65469875198323 word: 0 _____
+T58.65473347803345 may: 0 a
+T61.19817109400174 wharf ( #5 found:121 hypo:31250 ) > 3 ~ a
+T61.1984002229874 word: 2 _____
+T61.198425613984 may: 2 a
+T71.24589596298756 wharf ( #5 found:121 hypo:31250 ) > 5 ___r_
+T71.24610911798663 word: 4 ___r_
+T71.24613985302858 may: 4 w
+T73.15004337299615 wharf ( #5 found:121 hypo:31250 ) > 
+T73.15019524103263 question done
+T77.9820657389937 > /no f h
+T77.98223474202678 nope: f h y
+T81.75001578801312 > *
+T82.15378087101271 questioning: ["grama", "#2 found:6 hypo:529"]
+T89.95052276802016 grama ( #2 found:6 hypo:529 ) ? .
+T89.950743384019 guess: grama
+T93.88624139601598 grama ( #2 found:6 hypo:529 ) > 2 __ama
+T93.88644095900236 word: 1 __ama
+T93.88646045001224 may: 1 
+T100.39735798200127 grama ( #2 found:6 hypo:529 ) > 
+T100.39747992600314 question done
+T102.07021515897941 > /no g
+T102.07041035499424 nope: f g h y
+T103.45393417403102 > *
+T103.84639685798902 questioning: ["drama", "#2 found:1 hypo:484"]
+T116.25407557300059 drama ( #2 found:1 hypo:484 ) ? 
+T116.25415808003163 question done
+T117.37428653199458 > /no d
+T117.37453683401691 nope: d f g h y
+T125.02153346501291 > *
+T126.41208249999909 questioning: ["ulama", "#2 found:2 hypo:441"]
+T135.86235574400052 ulama ( #2 found:2 hypo:441 ) ? .
+T135.86257551400922 guess: ulama
+T161.53457479202189 ulama ( #2 found:2 hypo:441 ) > 2 _lama ~ l
+T161.53478590899613 word: 1 _lama
+T161.53481686598388 may: 1 l
+T168.0381276109838 ulama ( #2 found:2 hypo:441 ) > 3 _l___ ~a
+T168.03837932099123 word: 2 _l___
+T168.0384185980074 may: 2 a
+T174.15825914702145 ulama ( #2 found:2 hypo:441 ) > 1 ~ a l
+T174.1585069890134 word: 0 _____
+T174.15854331001174 may: 0 a l
+T185.18208174902247 ulama ( #2 found:2 hypo:441 ) > 
+T185.1821906309924 question done
+T186.71812448400306 > 
+T191.25409577798564 > /no u
+T191.2542656880105 nope: d f g h u y
+T192.59836850198917 > *
+T194.16063149902038 questioning: ["llama", "#2 found:1 hypo:1"]
+T201.35838090098696 llama ( #2 found:1 hypo:1 ) ? 2 llama
+T201.35859221499413 guess: llama
+T201.3586905300035 word: 1 llama
+T201.358711029985 may: 1 
+T207.430030018033 llama ( #2 found:1 hypo:1 ) > 
+T207.43012301001 question done
+T208.29434919398045 > *
+T209.64213986101095 questioning: ["alter", "#3 found:7 hypo:8000"]
+T216.1020549800014 alter ( #3 found:7 hypo:8000 ) ? .
+T216.10221557301702 guess: alter
+T219.05371269898023 alter ( #3 found:7 hypo:8000 ) > 3 al___
+T219.05386468302459 word: 2 al___
+T219.05387995101046 may: 2 
+T224.07821939798305 alter ( #3 found:7 hypo:8000 ) > 4 _o_er ~r
+T224.07844859699253 word: 3 _o_er
+T224.0784705419792 may: 3 r
+T228.78998840000713 alter ( #3 found:7 hypo:8000 ) > 5 ~ w e
+T228.79019626101945 word: 4 ___r_
+T228.79025504202582 may: 4 e w
+T231.3499369979836 alter ( #3 found:7 hypo:8000 ) > 
+T231.35006364202127 question done
+T233.75801624701126 > /no t
+T233.75816141499672 nope: d f g h t u y
+T238.48642731597647 > *
+T239.79116981598781 questioning: ["alibi", "#3 found:1 hypo:6859"]
+T254.0620981369866 alibi ( #3 found:1 hypo:6859 ) ? 3 alibi
+T254.0622964730137 guess: alibi
+T254.06236353801796 word: 2 alibi
+T254.06239186000312 may: 2 
+T257.1581808410119 alibi ( #3 found:1 hypo:6859 ) > 1 ~ a l b
+T257.15844035102054 word: 0 _____
+T257.15848053700756 may: 0 a b l
+T260.2304750580224 alibi ( #3 found:1 hypo:6859 ) > 
+T260.2306202920154 question done
+T261.4618042560178 > *
+T262.5327744290116 questioning: ["ewers", "#5 found:2 hypo:722"]
+T274.1819053980289 ewers ( #5 found:2 hypo:722 ) ? 5 ewers
+T274.1820247989963 guess: ewers
+T274.1820489380043 word: 4 ewers
+T274.1820551099954 may: 4 
+T277.58230985101545 ewers ( #5 found:2 hypo:722 ) > 
+T277.58245168300346 question done
+T279.7504657470272 > *
+T280.57407283002976 questioning: ["corer", "#4 found:1 hypo:19"]
+T288.6704928079853 corer ( #4 found:1 hypo:19 ) ? 
+T288.67066903901286 question done
+T289.662129756005 > /no c
+T289.6623143950128 nope: c d f g h t u y
+T290.4702551930095 > *
+T291.2974387400318 questioning: ["sorer", "#4 found:2 hypo:18"]
+T303.2780585209839 sorer ( #4 found:2 hypo:18 ) ? !
+T303.2781419890234 reject: sorer
+T309.9580702839885 > *
+T310.7765807849937 questioning: ["rover", "#4 found:1 hypo:18"]
+T317.5580042459769 rover ( #4 found:1 hypo:18 ) ? 4 rover
+T317.55818404699676 guess: rover
+T317.55824034201214 word: 3 rover
+T317.55825676600216 may: 3 
+T318.59037132997764 rover ( #4 found:1 hypo:18 ) > *
+T325.5978205240099 rover ( #4 found:1 hypo:18 ) > 
+T325.59792943502543 question done
+T326.4060017039883 > *
+T327.0139570719912 questioning: ["banal", "#1 found:1 hypo:1944"]
+T336.9417871570331 banal ( #1 found:1 hypo:1944 ) ? 1 banal
+T336.94191902002785 guess: banal
+T336.94197905098554 word: 0 banal
+T336.9419923950336 may: 0 
+T340.782505524985 banal ( #1 found:1 hypo:1944 ) > 
+T340.7826759599848 question done
+T344.894055642013 Copy share result and press <Enter>
+T344.8986885600025 result: "squareword.org 1034: 13 guesses\n\n\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe7\ud83d\udfe9\ud83d\udfe7\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1034"
+T344.89875779801514 <STOP>
