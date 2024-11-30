@@ -1,0 +1,913 @@
+T0.0046802739962004125 now: 2024-11-30T09:57:44EST
+T9.225490820012055 🔗 cemantix.certitudes.org ? 
+T9.89728183799889 🌎 French ? 
+T11.489255383028649 🧩  ? #1004
+T11.489943619002588 puzzle_id: #1004
+T14.993311288009863 😎 °C ? 25.49
+T14.993497899034992 scale: 😎 25.49 °C
+T16.809122336038854 🥵 °C ? 38.23
+T16.809265758027323 scale: 🥵 38.23 °C
+T18.321104243048467 🔥 °C ? 47
+T18.321243769023567 scale: 🔥 47.00 °C
+T20.585298266028985 😱 °C ? 62.27
+T20.58545910799876 scale: 😱 62.27 °C
+T20.61278389202198 session model: llama3.2:latest
+T21.94559196801856 #1 ? 
+T21.945964181039017 DEBUG cp: None
+T21.946261245000642 DEBUG count: None
+T21.946303240023553 DEBUG rel: None
+T21.946331237035338 DEBUG like: []
+T21.946354685002007 DEBUG unlike: []
+T21.946385301009286 DEBUG trailer: given:False []
+T21.94653598201694 chat_prompt: give me 10 French words that are not related to each other
+T21.946798101998866 session: {"role": "user", "content": "give me 10 French words that are not related to each other"}
+T34.689009678026196 session: {"role": "assistant", "content": "Here are 10 French words that are not related to each other:\n\n1. Papillon (meaning \"butterfly\")\n2. Fromage (meaning \"cheese\")\n3. Rivi\u00e8re (meaning \"river\")\n4. Ch\u00e2teau (meaning \"castle\")\n5. Fleur (meaning \"flower\")\n6. Mus\u00e9e (meaning \"museum\")\n7. Bougainville (a type of flower)\n8. Sillon (meaning \"stool\" or \"bench\")\n9. Galop (meaning \"gallop\" or \"run quickly\")\n10. Cloche (meaning \"bell\")\n\nThese words are all French, but they have no etymological connection to one another."}
+T53.433248256042134 #1 extract_...
+T62.22544707701309 🤔 extract_1/10 #1 "bougainville" score? !
+T62.22562373103574 reject: "bougainville"
+T64.97739450499648 🤔 extract_1/9 #1 "château" score? -1.16
+T64.97767563804518 attempt_0: "château" score:-1.16 prog:None
+T67.50527347699972 🤔 extract_1/8 #2 "cloche" score? 3.67
+T67.50551536004059 attempt_1: "cloche" score:3.67 prog:None
+T69.60145254404051 🤔 extract_1/7 #3 "fleur" score? 18
+T69.60170929104788 attempt_2: "fleur" score:18.00 prog:None
+T70.77742984803626 🤔 extract_1/6 #4 "fromage" score? 
+T74.56930766702862 🤔 extract_1/6 #4 "fromage" score? 4.07
+T74.56952822802123 attempt_3: "fromage" score:4.07 prog:None
+T76.64927424205234 🤔 extract_1/5 #5 "galop" score? 8
+T76.6494854670018 attempt_4: "galop" score:8.00 prog:None
+T79.53753848100314 🤔 extract_1/4 #6 "musée" score? -8.31
+T79.53779970505275 attempt_5: "musée" score:-8.31 prog:None
+T83.56898659601575 🤔 extract_1/3 #7 "papillon" score? 11.92
+T83.56914581701858 attempt_6: "papillon" score:11.92 prog:None
+T88.34502775705187 🤔 extract_1/2 #8 "rivière" score? 2.24
+T88.3451956200297 attempt_7: "rivière" score:2.24 prog:None
+T90.98506692005321 🤔 extract_1/1 #9 "sillon" score? 18.17
+T90.98527258000104 attempt_8: "sillon" score:18.17 prog:None
+T101.13721220201114 #10 ? *6 t1
+T101.13793833501404 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are not related to each other', count=10, kind='French', rel='that are not related to each other', trailer=None)
+T101.1382982180221 DEBUG count: 6
+T101.1383142810082 DEBUG rel: None
+T101.13832827605074 DEBUG like: ['$1']
+T101.13833660801174 DEBUG unlike: []
+T101.13835193403065 DEBUG trailer: given:False []
+T101.13846874400042 chat_prompt: give me 6 French words that are related to $1
+T101.13865424500545 session: {"role": "user", "content": "give me 6 French words that are related to \"sillon\""}
+T109.5845184980426 session: {"role": "assistant", "content": "Here are 6 French words that are related to \"sillon\":\n\n1. Chaise (meaning \"chair\")\n2. Lit (meaning \"bed\")\n3. Canap\u00e9 (meaning \"sofa\" or \"couch\")\n4. Divan (a type of sofa)\n5. Divette (a small, low seat for one person)\n6. Banquette (a long, upholstered bench)\n\nThese words are all related to furniture or seating, which is the same category as \"sillon\", meaning \"stool\" or \"bench\"."}
+T112.00911319104489 #10 extract_...
+T114.40957374003483 🤔 extract_1/6 #10 "banquette" score? 4.99
+T114.4099189810222 attempt_9: "banquette" score:4.99 prog:None
+T116.8014241810306 🤔 extract_1/5 #11 "canapé" score? 7.52
+T116.80165466404287 attempt_10: "canapé" score:7.52 prog:None
+T119.11314315302297 🤔 extract_1/4 #12 "chaise" score? 3.48
+T119.11332548799692 attempt_11: "chaise" score:3.48 prog:None
+T122.46554218704114 🤔 extract_1/3 #13 "divan" score? 8.47
+T122.46575622900855 attempt_12: "divan" score:8.47 prog:None
+T124.96132059203228 🤔 extract_1/2 #14 "divette" score? -.22
+T124.96155748702586 attempt_13: "divette" score:-0.22 prog:None
+T127.15291186299874 🤔 extract_1/1 #15 "lit" score? 1.22
+T127.15308403404197 attempt_14: "lit" score:1.22 prog:None
+T129.8170785450493 #16 ? *t2 !new
+T129.81727112299995 DEBUG cp: ChatPrompt(prompt='give me 6 French words that are related to $1', count=6, kind='French', rel='that are related to', trailer=None)
+T129.81741449201945 DEBUG scale: per = default(ceil(6/1), 5) = 6
+T129.81742981704883 DEBUG scale: n = 2 * 0 = 2
+T129.81743985204957 DEBUG scale: count = 6 * 2 = 12
+T129.81744803499896 DEBUG count: 12
+T129.81745773600414 DEBUG rel: None
+T129.81746988202212 DEBUG like: ['$1', '$2']
+T129.8174781530397 DEBUG unlike: []
+T129.81749085901538 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T129.8175980640226 chat_prompt: give me 12 French words that are related to $1 and $2; do not list any words that you have already listed above
+T129.8177623770316 session: {"role": "user", "content": "give me 12 French words that are related to \"sillon\" and \"fleur\"; do not list any words that you have already listed above"}
+T146.15540935302852 session: {"role": "assistant", "content": "Here are 12 French words that are related to both \"sillon\" and \"fleur\":\n\n1. Tapis (meaning \"carpet\")\n2. Coulisse (a stage or backdrop)\n3. Palais (palace)\n4. Jardin (garden)\n5. Miroir (mirror, often used in gardens)\n6. Potier (potter, who creates planters for fleurs)\n7. Bassin (pond or basin, often with fleurs)\n8. Parterre (ornamental garden bed with fleurs)\n9. Terrasse (balcony or outdoor seating area with fleurs)\n10. Meuble (furniture, which may include sillon and other forms of seating for enjoying fleurs)\n11. P\u00e9taline (relating to the shape of fleur petals)\n12. G\u00e2teaux ( ornamental vases or containers for fleurs)\n\nThese words are all related to either furniture, decoration, or elements that interact with \"sillon\" and \"fleur\"."}
+T147.32839517400134 #16 extract_...
+T149.88860695401672 🤔 extract_1/12 #16 "bassin" score? -11.45
+T149.88879729801556 attempt_15: "bassin" score:-11.45 prog:None
+T152.2564408610342 🤔 extract_1/11 #17 "coulisse" score? -1.12
+T152.2565346940537 attempt_16: "coulisse" score:-1.12 prog:None
+T154.18468064500485 🤔 extract_1/10 #18 "gâteaux" score? !
+T154.1847422120045 reject: "gâteaux"
+T156.59265763201984 🤔 extract_1/9 #18 "jardin" score? 2.84
+T156.59284994599875 attempt_17: "jardin" score:2.84 prog:None
+T159.1448464630521 🤔 extract_1/8 #19 "meuble" score? -.11
+T159.14502029505093 attempt_18: "meuble" score:-0.11 prog:None
+T161.904297960049 🤔 extract_1/7 #20 "miroir" score? 7.01
+T161.90437768603442 attempt_19: "miroir" score:7.01 prog:None
+T165.2644487550133 🤔 extract_1/6 #21 "palais" score? 2.19
+T165.26455635699676 attempt_20: "palais" score:2.19 prog:None
+T167.6082596600172 🤔 extract_1/5 #22 "parterre" score? 7.31
+T167.60834329604404 attempt_21: "parterre" score:7.31 prog:None
+T171.50462548801443 🤔 extract_1/4 #23 "potier" score? -5.65
+T171.50477768603014 attempt_22: "potier" score:-5.65 prog:None
+T174.33634527900722 🤔 extract_1/3 #24 "pétaline" score? !
+T174.33642329502618 reject: "pétaline"
+T177.83262391603785 🤔 extract_1/2 #24 "tapis" score? -.11
+T177.83270479401108 attempt_23: "tapis" score:-0.11 prog:None
+T182.17675250500906 🤔 extract_1/1 #25 "terrasse" score? 3.99
+T182.1769245020114 attempt_24: "terrasse" score:3.99 prog:None
+T191.0010763440514 #26 ? *t4
+T191.00140298402403 DEBUG cp: ChatPrompt(prompt='give me 12 French words that are related to $1 and $2; do not list any words that you have already listed above', count=12, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T191.0017431510496 DEBUG scale: per = default(ceil(12/2), 5) = 6
+T191.00179790204857 DEBUG scale: n = 4 * 0 = 4
+T191.00183446303708 DEBUG scale: count = 6 * 4 = 24
+T191.00186382501852 DEBUG count: 24
+T191.00189221004257 DEBUG rel: None
+T191.00192831800086 DEBUG like: ['$1', '$2', '$3', '$4']
+T191.001957392029 DEBUG unlike: []
+T191.00198840000667 DEBUG trailer: given:False []
+T191.0025097890175 chat_prompt: give me 24 French words that are related to $1, $2, $3, and $4; do not list any words that you have already listed above
+T191.0028625630075 session: {"role": "user", "content": "give me 24 French words that are related to \"sillon\", \"fleur\", \"papillon\", and \"divan\"; do not list any words that you have already listed above"}
+T233.8279841990443 session: {"role": "assistant", "content": "Here are 24 French words that are related to both \"sillon\", \"fleur\", \"papillon\", and \"divan\":\n\n1. Tissu (fabric, often used for upholstery in divans)\n2. Toile de Jouy (a type of fabric with floral patterns, similar to fleurs)\n3. Bouquets (arrangements of fleurs)\n4. Poterie (pottery, including planters for fleurs)\n5. Sculpture (artistic creations that may feature papillon shapes or motifs)\n6. Galerie (gallery or hallway, where papillons might be displayed)\n7. Mosa\u00efque (mosaic art, which may incorporate papillon patterns)\n8. Parcours (course or path, which may include a sillon for rest)\n9. Jardiniers (gardeners, who tend to fleurs and other plants)\n10. Confection (ornamental arrangement of fleurs or other objects on a table)\n11. Salle de r\u00e9ception (reception room, where divans and papillons might be displayed)\n12. Manteau (a type of decorative screen or partition, which may feature papillon designs)\n13. Papeterie (paper factory, which produces paper for artistic creations like papillon-themed prints)\n14. Atelier (studio, where artists work on creating papillon-inspired art)\n15. Corde (string or cord, used to hang fleurs or other decorations)\n16. Cordonnier (shoemaker, who might create decorative shoe buckles featuring papillons)\n17. Housse (covering or upholstery, which may be used for divans and sillas)\n18. Fleuron (decorative element, often in the form of a fleur, used in architecture and design)\n19. Papillonier (paper cutter, who creates papillon-shaped designs on paper)\n20. Tapisserie (tapestry maker, who might create papillon-themed designs)\n21. \u00c9crin (screen or partition, which may be decorated with papillons)\n22. Mille-pattes (a type of ornate furniture, which may feature papillon-inspired designs)\n23. Bouclier (shield or screen, which might be adorned with fleurs or papillons)\n24. Papier-m\u00e2ch\u00e9 (paper mache, a material used to create papillon-themed decorations)\n\nThese words are all related to either art, decoration, furniture, or objects that interact with \"sillon\", \"fleur\", \"papillon\", and \"divan\"."}
+T234.8892931030132 #26 extract_...
+T239.37731092399918 🤔 extract_1/29 #26 "atelier" score? -17.72
+T239.37762698100414 attempt_25: "atelier" score:-17.72 prog:None
+T241.8723660040414 🤔 extract_1/28 #27 "bouclier" score? 3.35
+T241.87246527703246 attempt_26: "bouclier" score:3.35 prog:None
+T247.72923231503228 🤔 extract_1/27 #28 "bouquets" score? !bouquet
+T247.72938729601447 reject: "bouquets"
+T251.26517344103195 🤔 corrected #28 "bouquet" score? 8.88
+T251.26535833301023 attempt_27: "bouquet" score:8.88 prog:None
+T273.0092836700496 🤔 extract_1/26 #29 "confection" score? -14.16
+T273.00948383501964 attempt_28: "confection" score:-14.16 prog:None
+T276.0493263039971 🤔 extract_1/25 #30 "corde" score? 10.75
+T276.0496179970214 attempt_29: "corde" score:10.75 prog:None
+T280.72107168403454 🤔 extract_1/24 #31 "cordonnier" score? -3.66
+T280.7212326550507 attempt_30: "cordonnier" score:-3.66 prog:None
+T282.94527281302726 🤔 extract_1/23 #32 "de" score? !
+T282.9454337330535 reject: "de"
+T285.5213544280268 🤔 extract_1/22 #32 "fleuron" score? 1.24
+T285.52162081899587 attempt_31: "fleuron" score:1.24 prog:None
+T288.7531348700286 🤔 extract_1/21 #33 "galerie" score? -8.13
+T288.7533432680066 attempt_32: "galerie" score:-8.13 prog:None
+T293.34552370902384 🤔 extract_1/20 #34 "housse" score? .07
+T293.3457697390113 attempt_33: "housse" score:0.07 prog:None
+T298.4412779890117 🤔 extract_1/19 #35 "jardiniers" score? !
+T298.4414592280518 reject: "jardiniers"
+T300.5133176110103 🤔 extract_1/18 #35 "jouy" score? !
+T300.5134798560175 reject: "jouy"
+T303.2814281070023 🤔 extract_1/17 #35 "manteau" score? 10.82
+T303.28161478502443 attempt_34: "manteau" score:10.82 prog:None
+T305.77732063102303 🤔 extract_1/16 #36 "mille" score? 17.12
+T305.77752762200544 attempt_35: "mille" score:17.12 prog:None
+T310.9533624490141 🤔 extract_1/15 #37 "mosaïque" score? -10.68
+T310.9535464110086 attempt_36: "mosaïque" score:-10.68 prog:None
+T314.1852517070365 🤔 extract_1/14 #38 "mâché" score? !
+T314.18539075704757 reject: "mâché"
+T317.3529654960148 🤔 extract_1/13 #38 "papeterie" score? -9.01
+T317.35320070403395 attempt_37: "papeterie" score:-9.01 prog:None
+T320.59351381805027 🤔 extract_1/12 #39 "papier" score? 2.37
+T320.5937454250525 attempt_38: "papier" score:2.37 prog:None
+T328.36145729903365 #40 ? *9 t3 /clear .
+T328.36169503303245 DEBUG cp: ChatPrompt(prompt='give me 24 French words that are related to $1, $2, $3, and $4; do not list any words that you have already listed above', count=24, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T328.36185997800203 DEBUG count: 9
+T328.3618734590127 DEBUG rel: None
+T328.36188901704736 DEBUG like: ['$1', '$2', '$3']
+T328.36189899302553 DEBUG unlike: []
+T328.3619100350188 DEBUG trailer: given:True []
+T328.3620247990475 session clear
+T328.3621486960328 chat_prompt: give me 9 French words that are related to $1, $2, and $3
+T328.3623273210251 session: {"role": "user", "content": "give me 9 French words that are related to \"sillon\", \"fleur\", and \"mille\""}
+T339.3601011389983 session: {"role": "assistant", "content": "Here are 9 French words related to \"sillon\", \"fleur\", and \"mille\":\n\n1. Sillon -> Canap\u00e9 (a type of sofa)\n2. Fleur -> Tournesol (sunflower)\n3. Mille -> Milliardaire (billionaire)\n4. Sillon -> Chaise longue (long chair, similar to a sofa)\n5. Fleur -> Fleur de lys (lily flower)\n6. Mille -> Milieu (middle, middle-ground)\n7. Sillon -> Canap\u00e9 de lit (bedside table or nightstand with built-in storage and comfort)\n8. Fleur -> P\u00e9tale (petal of a flower)\n9. Mille -> Milliardaire (billionaire)"}
+T341.92131116904784 #40 ? ...
+T345.8811768440064 #40 ? ␚
+T345.8812867270317 <EOF>
+T0.007899963005911559 now: 2024-11-30T10:03:32EST
+T1.5352742749964818 #40 ? /e
+T5.430903628002852 #40 ? *t5
+T5.43162130395649 DEBUG cp: ChatPrompt(prompt='give me 9 French words that are related to $1, $2, and $3', count=9, kind='French', rel='that are related to', trailer=None)
+T5.431994373968337 DEBUG scale: per = default(ceil(9/3), 5) = 3
+T5.432013865967747 DEBUG scale: n = 5 * 0 = 5
+T5.432024038978852 DEBUG scale: count = 3 * 5 = 15
+T5.432032426004298 DEBUG count: 15
+T5.432040404994041 DEBUG rel: None
+T5.432053280994296 DEBUG like: ['$1', '$2', '$3', '$4', '$5']
+T5.432061904983129 DEBUG unlike: []
+T5.4320739840040915 DEBUG trailer: given:False []
+T5.432166738959495 chat_prompt: give me 15 French words that are related to $1, $2, $3, $4, and $5
+T5.432347016001586 session: {"role": "user", "content": "give me 15 French words that are related to \"sillon\", \"fleur\", \"mille\", \"papillon\", and \"manteau\""}
+T30.052973976999056 session: {"role": "assistant", "content": "Here are 15 French words related to \"sillon\", \"fleur\", \"mille\", \"papillon\", and \"manteau\":\n\n1. Sillon -> Canap\u00e9 (a type of sofa)\n2. Fleur -> Tournesol (sunflower)\n3. Mille -> Milliardaire (billionaire)\n4. Papillon -> Papillon (butterfly)\n5. Manteau -> Capuche (hood, part of a coat or cape)\n6. Sillon -> Chaise longue (long chair, similar to a sofa)\n7. Fleur -> P\u00e9tale (petal of a flower)\n8. Mille -> Milieu (middle, middle-ground)\n9. Papillon -> Aile de papillon (wings of a butterfly)\n10. Manteau -> Capelet (small cape or hood)\n11. Sillon -> Divan (a type of sofa or couch)\n12. Fleur -> Fleurs d'oranger (orange blossoms)\n13. Mille -> Milliardaire (billionaire)\n14. Papillon -> Papillon de N\u00e9ph\u00e9sis (a mythological nymph with wings, inspired by butterflies)\n15. Manteau -> \u00c9charpe (cloak or mantle)\n\nNote: Some of these words may have multiple related meanings or connotations, but I've tried to provide a variety of connections to the given root words."}
+T4537.359818219964 #40 ? ␚
+T4537.3599364599795 <EOF>
+T0.006923849985469133 now: 2024-11-30T11:19:11EST
+T6.527116757992189 #40 extract_...
+T9.215286953025497 🤔 extract_1/12 #40 "aile" score? 12.21
+T9.215382291993592 attempt_39: "aile" score:12.21 prog:None
+T11.255879754025955 🤔 extract_1/11 #41 "capelet" score? !
+T11.256053149991203 reject: "capelet"
+T13.911848773015663 🤔 extract_1/10 #41 "capuche" score? .76
+T13.912114751001354 attempt_40: "capuche" score:0.76 prog:None
+T17.16817392798839 🤔 extract_1/9 #42 "fleurs" score? !fleur
+T17.168382612988353 reject: "fleurs"
+T21.999980218010023 🤔 extract_1/8 #42 "longue" score? 2.99
+T22.00025377102429 attempt_41: "longue" score:2.99 prog:None
+T24.43167529103812 🤔 extract_1/7 #43 "milieu" score? -2.34
+T24.431847157015 attempt_42: "milieu" score:-2.34 prog:None
+T27.959675924037583 🤔 extract_1/6 #44 "milliardaire" score? -2.09
+T27.959866689983755 attempt_43: "milliardaire" score:-2.09 prog:None
+T29.74377788999118 🤔 extract_1/5 #45 "néphésis" score? !
+T29.74393905699253 reject: "néphésis"
+T32.303588607988786 🤔 extract_1/4 #45 "oranger" score? 2.26
+T32.3037963930401 attempt_44: "oranger" score:2.26 prog:None
+T34.61584097601008 🤔 extract_1/3 #46 "pétale" score? 11.19
+T34.61609636602225 attempt_45: "pétale" score:11.19 prog:None
+T38.8956263330183 🤔 extract_1/2 #47 "tournesol" score? 1.82
+T38.89581833098782 attempt_46: "tournesol" score:1.82 prog:None
+T41.27161549101584 🤔 extract_1/1 #48 "écharpe" score? 8.85
+T41.27182304300368 attempt_47: "écharpe" score:8.85 prog:None
+T44.24782629299443 #49 ? /last
+T54.15158558601979 #49 ? *t4 !new
+T54.15256350603886 DEBUG cp: ChatPrompt(prompt='give me 15 French words that are related to $1, $2, $3, $4, and $5', count=15, kind='French', rel='that are related to', trailer=None)
+T54.15309340803651 DEBUG scale: per = default(ceil(15/5), 5) = 3
+T54.153123947035056 DEBUG scale: n = 4 * 0 = 4
+T54.15314428100828 DEBUG scale: count = 3 * 4 = 12
+T54.153160724032205 DEBUG count: 12
+T54.15317629498895 DEBUG rel: None
+T54.15319710003678 DEBUG like: ['$1', '$2', '$3', '$4']
+T54.15321330301231 DEBUG unlike: []
+T54.15323453000747 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T54.15337318199454 chat_prompt: give me 12 French words that are related to $1, $2, $3, and $4; do not list any words that you have already listed above
+T54.15358315000776 session: {"role": "user", "content": "give me 12 French words that are related to \"sillon\", \"fleur\", \"mille\", and \"aile\"; do not list any words that you have already listed above"}
+T94.90291867899941 session: {"role": "assistant", "content": "Here are 12 new French words related to \"sillon\", \"fleur\", \"mille\", and \"aile\" that I haven't listed before:\n\n1. Sillon -> Banquette (a type of bench or seat, often found in a caf\u00e9 or restaurant)\n2. Fleur -> Camelia (a type of flower)\n3. Mille -> Mill\u00e9naire (a person who is one thousand years old)\n4. Aile -> Alaire (a type of wing-shaped decoration on a building or monument)\n5. Sillon -> Litton (a French word for \"ottoman\", often used as a footrest)\n6. Fleur -> Lilia (a type of flower, also the name of a genus)\n7. Mille -> Myriade (a group of ten thousand)\n8. Aile -> Alimentation des ailes (the process of feeding birds with wing-shaped feeders)\n9. Sillon -> Pergola (a type of structure that provides shade and support for plants, similar to a sofa-like bench)\n10. Fleur -> Nastaglio (an artificial flower or floral arrangement)\n11. Mille -> R\u00e9volution mille (a revolutionary movement or idea)\n12. Aile -> Voile d'aile (a sail-shaped decoration on a building or monument)"}
+T99.88770461600507 #49 extract_...
+T102.15965883398894 🤔 extract_1/13 #49 "ailes" score? !
+T102.15983117202995 reject: "ailes"
+T104.84791102301097 🤔 extract_1/12 #49 "alaire" score? -2.32
+T104.84815040900139 attempt_48: "alaire" score:-2.32 prog:None
+T109.74362054903759 🤔 extract_1/11 #50 "alimentation" score? -17.6
+T109.7438065210008 attempt_49: "alimentation" score:-17.60 prog:None
+T112.24763306602836 🤔 extract_1/10 #51 "camelia" score? !
+T112.24777813599212 reject: "camelia"
+T114.06367781100562 🤔 extract_1/9 #51 "des" score? !
+T114.06387530802749 reject: "des"
+T116.3837126630242 🤔 extract_1/8 #51 "lilia" score? !
+T116.3838839129894 reject: "lilia"
+T118.07936900202185 🤔 extract_1/7 #51 "litton" score? !
+T118.07948606699938 reject: "litton"
+T120.69595037202816 🤔 extract_1/6 #51 "millénaire" score? .91
+T120.69618016702589 attempt_50: "millénaire" score:0.91 prog:None
+T123.06370479403995 🤔 extract_1/5 #52 "myriade" score? 1.56
+T123.0638929969864 attempt_51: "myriade" score:1.56 prog:None
+T126.82328668498667 🤔 extract_1/4 #53 "nastaglio" score? !
+T126.82344299001852 reject: "nastaglio"
+T130.40776773099788 🤔 extract_1/3 #53 "pergola" score? -6.66
+T130.40800363599556 attempt_52: "pergola" score:-6.66 prog:None
+T133.21530983102275 🤔 extract_1/2 #54 "révolution" score? 5.92
+T133.2154133900185 attempt_53: "révolution" score:5.92 prog:None
+T135.96777610998834 🤔 extract_1/1 #55 "voile" score? 11.69
+T135.9679757670383 attempt_54: "voile" score:11.69 prog:None
+T144.86372001998825 #56 ? *t2
+T144.86396193300607 DEBUG cp: ChatPrompt(prompt='give me 12 French words that are related to $1, $2, $3, and $4; do not list any words that you have already listed above', count=12, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T144.86413197102956 DEBUG scale: per = default(ceil(12/4), 5) = 3
+T144.86416222900152 DEBUG scale: n = 2 * 0 = 2
+T144.86418288602727 DEBUG scale: count = 3 * 2 = 6
+T144.86420146399178 DEBUG count: 6
+T144.86421993299155 DEBUG rel: None
+T144.86424303503009 DEBUG like: ['$1', '$2']
+T144.86426209803903 DEBUG unlike: []
+T144.86428317899117 DEBUG trailer: given:False []
+T144.8644332580152 chat_prompt: give me 6 French words that are related to $1 and $2; do not list any words that you have already listed above
+T144.8646559640183 session: {"role": "user", "content": "give me 6 French words that are related to \"sillon\" and \"fleur\"; do not list any words that you have already listed above"}
+T157.5997500839876 session: {"role": "assistant", "content": "Here are 6 new French words related to \"sillon\" and \"fleur\":\n\n1. Sillon -> Fauteuil (a type of chair or seat, similar to a sofa)\n2. Fleur -> Sylve (a small grove of trees, evoking the idea of a natural flower-filled setting)\n3. Sillon -> Chaise de garden (a type of outdoor chair that resembles a garden bench, often with cushions and flowers nearby)\n4. Fleur -> Crocus (a type of early-spring-flowering bulb)\n5. Sillon -> Divan de lit (a type of bed or couch that features a low-back design, similar to a sillon\n6. Fleur -> Meuble fleuri (a piece of furniture with carved floral patterns)"}
+T159.63973095302936 #56 extract_...
+T162.0796210989938 🤔 extract_1/5 #56 "crocus" score? -1.12
+T162.079805691028 attempt_55: "crocus" score:-1.12 prog:None
+T164.5835806549876 🤔 extract_1/4 #57 "fauteuil" score? 8.74
+T164.58376133500133 attempt_56: "fauteuil" score:8.74 prog:None
+T167.07949312700657 🤔 extract_1/3 #58 "fleuri" score? -1.28
+T167.0796558720176 attempt_57: "fleuri" score:-1.28 prog:None
+T168.93557176401373 🤔 extract_1/2 #59 "garden" score? !
+T168.93574326700764 reject: "garden"
+T171.0399920369964 🤔 extract_1/1 #59 "sylve" score? 1.25
+T171.04026984400116 attempt_58: "sylve" score:1.25 prog:None
+T179.52742815302918 #60 ? *10 /clear .
+T179.52758659399115 DEBUG cp: ChatPrompt(prompt='give me 6 French words that are related to $1 and $2; do not list any words that you have already listed above', count=6, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T179.5276970830164 DEBUG count: 10
+T179.52771575399674 DEBUG rel: None
+T179.5277293510153 DEBUG like: []
+T179.52774115500506 DEBUG unlike: []
+T179.5277564090211 DEBUG trailer: given:True []
+T179.5278528360068 session clear
+T179.5279099069885 chat_prompt: give me 10 French words that are not related to each other
+T179.5280468930141 session: {"role": "user", "content": "give me 10 French words that are not related to each other"}
+T187.2025060899905 session: {"role": "assistant", "content": "Here are 10 French words that are not related to each other:\n\n1. Rivi\u00e8re (river)\n2. Papillon (butterfly)\n3. Escargot (snail)\n4. Montagne (mountain)\n5. Cuisine (cooking)\n6. Fleur (flower)\n7. Voiture (car)\n8. \u00c9cole (school)\n9. Mus\u00e9e (museum)\n10. Oc\u00e9an (ocean)\n\nNote: These words are not related to each other in terms of meaning, etymology, or context."}
+T188.57512941298774 #60 extract_...
+T191.51199538999936 🤔 extract_1/6 #60 "cuisine" score? -7.26
+T191.51220822602045 attempt_59: "cuisine" score:-7.26 prog:None
+T194.64736670802813 🤔 extract_1/5 #61 "escargot" score? -.89
+T194.64752368000336 attempt_60: "escargot" score:-0.89 prog:None
+T197.39963448198978 🤔 extract_1/4 #62 "montagne" score? 4.666
+T197.3998212229926 attempt_61: "montagne" score:4.67 prog:None
+T200.11167795798974 🤔 extract_1/3 #63 "océan" score? 9.55
+T200.11192478303565 attempt_62: "océan" score:9.55 prog:None
+T202.7517892800388 🤔 extract_1/2 #64 "voiture" score? 12.83
+T202.75204824801767 attempt_63: "voiture" score:12.83 prog:None
+T205.7837417590199 🤔 extract_1/1 #65 "école" score? -4.16
+T205.78394507599296 attempt_64: "école" score:-4.16 prog:None
+T209.84022357000504 #66 ? !contr
+T211.10368287900928 🤔 entered #66 "!contr" score? 
+T212.7036309040268 #66 ? !cont
+T212.7037943220348 chat_prompt: keep going
+T212.7039650499937 session: {"role": "user", "content": "keep going"}
+T221.19812600599835 session: {"role": "assistant", "content": "Here are 10 more French words that are not related to each other:\n\n1. Caf\u00e9 (coffee shop)\n2. Chien (dog)\n3. Touriste (tourist)\n4. Piano (piano)\n5. Cuisine de rue (street food)\n6. Plage (beach)\n7. Ch\u00e2teau (castle)\n8. Journal (newspaper)\n9. V\u00e9lo (bicycle)\n10. R\u00e9serve (reserve)\n\nNote: These words are still not related to each other in terms of meaning, etymology, or context.\n\nI can keep going if you'd like!"}
+T222.3437014099909 #66 extract_...
+T225.4397020000033 🤔 extract_1/9 #66 "café" score? 1.16
+T225.43990720401052 attempt_65: "café" score:1.16 prog:None
+T227.78402628400363 🤔 extract_1/8 #67 "chien" score? 13.38
+T227.78428940899903 attempt_66: "chien" score:13.38 prog:None
+T229.89569048798876 🤔 extract_1/7 #68 "journal" score? 4.66
+T229.89586720702937 attempt_67: "journal" score:4.66 prog:None
+T232.12745507003274 🤔 extract_1/6 #69 "piano" score? 11.44
+T232.12760778603842 attempt_68: "piano" score:11.44 prog:None
+T234.0476642610156 🤔 extract_1/5 #70 "plage" score? 4.9
+T234.0478312370251 attempt_69: "plage" score:4.90 prog:None
+T237.3676491000224 🤔 extract_1/4 #71 "rue" score? -6.95
+T237.36783729103627 attempt_70: "rue" score:-6.95 prog:None
+T239.59961973002646 🤔 extract_1/3 #72 "réserve" score? 7.18
+T239.5998003120185 attempt_71: "réserve" score:7.18 prog:None
+T241.48766898398753 🤔 extract_1/2 #73 "touriste" score? 5.6
+T241.48782897001365 attempt_72: "touriste" score:5.60 prog:None
+T243.6718342580134 🤔 extract_1/1 #74 "vélo" score? 5.4
+T243.6720370380208 attempt_73: "vélo" score:5.40 prog:None
+T251.20778962702025 #75 ? #74 score 5.45
+T251.20811990002403 fix attempt_73: score:5.45
+T254.26351726899156 #75 ? !cont
+T254.2636955740163 chat_prompt: keep going
+T254.2638665860286 session: {"role": "user", "content": "keep going"}
+T263.7120850320207 session: {"role": "assistant", "content": "Here are 10 more French words that are not related to each other:\n\n1. \u00c9tang (pond)\n2. Tapisserie (tapestry)\n3. Barre (pole)\n4. Boulangerie (bakery)\n5. Cimeti\u00e8re (cemetery)\n6. R\u00e9verb\u00e8re (resonating structure)\n7. Ligne de transport en commun (public transportation line)\n8. Fumier (manure)\n9. Galerie (gallery)\n10. Carillon (bell tower)\n\nNote: These words are still not related to each other in terms of meaning, etymology, or context.\n\nI can keep going if you'd like!"}
+T265.31986416800646 #75 extract_...
+T268.6638006310095 🤔 extract_1/12 #75 "barre" score? -2.01
+T268.66407015302684 attempt_74: "barre" score:-2.01 prog:None
+T271.23980038199807 🤔 extract_1/11 #76 "boulangerie" score? -5.84
+T271.2400171569898 attempt_75: "boulangerie" score:-5.84 prog:None
+T273.59985915001016 🤔 extract_1/10 #77 "carillon" score? 1.85
+T273.6000704350299 attempt_76: "carillon" score:1.85 prog:None
+T275.79977969801985 🤔 extract_1/9 #78 "cimetière" score? 11.9
+T275.79994702601107 attempt_77: "cimetière" score:11.90 prog:None
+T280.0877529110294 🤔 extract_1/8 #79 "commun" score? -8.82
+T280.08796016703127 attempt_78: "commun" score:-8.82 prog:None
+T287.6876938540372 🤔 extract_1/7 #80 "en" score? #79 score -8.83
+T294.2876281280187 #80 ? #79 score -8.83
+T294.28791623801226 fix attempt_78: score:-8.83
+T295.39162777602905 #80 ? /e
+T298.2958588509937 #80 extract_...
+T298.97591461398406 🤔 extract_1/7 #80 "en" score? !
+T298.97619048901834 reject: "en"
+T304.2158882690128 🤔 extract_1/6 #80 "fumier" score? 6.37
+T304.2161854170263 attempt_79: "fumier" score:6.37 prog:None
+T307.44718489499064 🤔 extract_1/5 #81 "ligne" score? -10.37
+T307.44732044800185 attempt_80: "ligne" score:-10.37 prog:None
+T310.02377860603156 🤔 extract_1/4 #82 "réverbère" score? 8.26
+T310.0239695220371 attempt_81: "réverbère" score:8.26 prog:None
+T314.11971311003435 🤔 extract_1/3 #83 "tapisserie" score? 1.03
+T314.1198874260299 attempt_82: "tapisserie" score:1.03 prog:None
+T318.51970610703574 🤔 extract_1/2 #84 "transport" score? -15.35
+T318.5199755440117 attempt_83: "transport" score:-15.35 prog:None
+T320.57555056601996 🤔 extract_1/1 #85 "étang" score? .2
+T320.5757386480109 attempt_84: "étang" score:0.20 prog:None
+T333.0638518499909 #86 ? *10 seen with /clear .
+T333.06410869403044 DEBUG cp: None
+T333.0646434390219 DEBUG count: 10
+T333.0646752199973 DEBUG rel: 'seen with'
+T333.0646962620085 DEBUG like: []
+T333.0647143360111 DEBUG unlike: []
+T333.0647348469938 DEBUG trailer: given:True []
+T333.06484146701405 session clear
+T333.0649068900384 chat_prompt: give me 10 French words that are not seen with each other
+T333.0650729199988 session: {"role": "user", "content": "give me 10 French words that are not seen with each other"}
+T339.23426456400193 session: {"role": "assistant", "content": "Here are 10 French words that do not typically appear together:\n\n1. Croissant\n2. Rivi\u00e8re\n3. Bouquet\n4. C\u00e8dre\n5. Papillon\n6. \u00c9tincelle\n7. Balade\n8. Guitare\n9. Saphir\n10. B\u00fbcheron\n\nNote that these words are not mutually exclusive, but they do not typically appear together in a single phrase or sentence."}
+T341.1276523810229 #86 extract_...
+T343.4958949210122 🤔 extract_1/7 #86 "balade" score? 8.79
+T343.49611644400284 attempt_85: "balade" score:8.79 prog:None
+T345.48770254600095 🤔 extract_1/6 #87 "bûcheron" score? 3.22
+T345.48791825503577 attempt_86: "bûcheron" score:3.22 prog:None
+T347.8239488810068 🤔 extract_1/5 #88 "croissant" score? -3.85
+T347.8241911979858 attempt_87: "croissant" score:-3.85 prog:None
+T350.29569459403865 🤔 extract_1/4 #89 "cèdre" score? -.91
+T350.29588072298793 attempt_88: "cèdre" score:-0.91 prog:None
+T352.9599654590129 🤔 extract_1/3 #90 "guitare" score? 7.61
+T352.9602564180386 attempt_89: "guitare" score:7.61 prog:None
+T354.95983620901825 🤔 extract_1/2 #91 "saphir" score? .32
+T354.9600798030151 attempt_90: "saphir" score:0.32 prog:None
+T357.49594444799004 🤔 extract_1/1 #92 "étincelle" score? 19.89
+T357.4962371040019 attempt_91: "étincelle" score:19.89 prog:None
+T364.15181395900436 #93 ? * t2
+T364.1522073459928 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are not seen with each other', count=10, kind='French', rel='that are not seen with each other', trailer=None)
+T364.15250090003246 DEBUG scale: per = default(ceil(10/0), 5) = 5
+T364.1525534359971 DEBUG scale: n = 2 * 0 = 2
+T364.1525912199868 DEBUG scale: count = 5 * 2 = 10
+T364.1526228830335 DEBUG count: 10
+T364.15265411301516 DEBUG rel: None
+T364.1526956349844 DEBUG like: ['$1', '$2']
+T364.15272751502926 DEBUG unlike: []
+T364.15276324300794 DEBUG trailer: given:False []
+T364.1529707169975 chat_prompt: give me 10 French words that are seen with $1 and $2
+T364.15329762903275 session: {"role": "user", "content": "give me 10 French words that are seen with \"\u00e9tincelle\" and \"sillon\""}
+T375.0279174030293 session: {"role": "assistant", "content": "Here are 10 French words that can be paired with either \"\u00e9tincelle\" (spark) or \"sillon\" (seat):\n\nWith \"\u00e9tincelle\":\n\n1. \u00c9toile (star)\n2. Lumi\u00e8re (light)\n3. Fauconnet (sparrow nest)\n4. R\u00eave (dream)\n5. Cr\u00e9puscule (dusk)\n6. Incendie (fire)\n7. D\u00e9sir (desire)\n\nWith \"sillon\":\n\n1. Chaise (chair)\n2. Canap\u00e9 (sofa)\n3. Tabouret (stool)\n4. Bureau (desk)\n5. Lit (bed)\n6. \u00c9tang (pond)\n7. Moustier (bench)"}
+T377.7595752560301 #93 extract_...
+T380.6877452789922 🤔 extract_1/10 #93 "bureau" score? -8.19
+T380.6879226430319 attempt_92: "bureau" score:-8.19 prog:None
+T383.1596686600242 🤔 extract_1/9 #94 "crépuscule" score? 20.3
+T383.1598373700399 attempt_93: "crépuscule" score:20.30 prog:None
+T399.11979449598584 🤔 extract_1/8 #95 "désir" score? 32.32 702
+T399.12000349600567 attempt_94: "désir" score:32.32 prog:702
+T401.50372340803733 🤔 extract_1/7 #96 "fauconnet" score? !
+T401.5039095620159 reject: "fauconnet"
+T405.08015537500614 🤔 extract_1/6 #96 "incendie" score? -6.19
+T405.0803932240233 attempt_95: "incendie" score:-6.19 prog:None
+T408.40801076602656 #97 ? _
+T408.4082114720368 chat_prompt: _
+T408.4084308639867 session: {"role": "user", "content": "give me 10 French words that are seen with \"d\u00e9sir\" and \"cr\u00e9puscule\""}
+T417.9253446760122 session: {"role": "assistant", "content": "Here are 10 French words that can be paired with either \"d\u00e9sir\" (desire) or \"cr\u00e9puscule\" (dusk):\n\nWith \"d\u00e9sir\":\n\n1. R\u00eave (dream)\n2. Amour (love)\n3. H\u00e9ritage (inheritance)\n4. Promesse (promise)\n5. Espoir (hope)\n\nWith \"cr\u00e9puscule\":\n\n1. Soleil (sun)\n2. Coucher du soleil (sunset)\n3. Nuit (night)\n4. \u00c9toile (star)\n5. Ombre (shadow)"}
+T419.8635512040346 #97 extract_...
+T425.5752824129886 🤔 extract_1/11 #97 "amour" score? 39.06 912
+T425.5754451070097 attempt_96: "amour" score:39.06 prog:912
+T428.3199036300066 🤔 extract_1/10 #98 "coucher" score? 21.11
+T428.32014355203137 attempt_97: "coucher" score:21.11 prog:None
+T430.34378618898336 🤔 extract_1/9 #99 "du" score? !
+T430.34394563600654 reject: "du"
+T435.95194589701714 🤔 extract_1/8 #99 "espoir" score? 45.38 980
+T435.95215712400386 attempt_98: "espoir" score:45.38 prog:980
+T439.2559752520174 🤔 extract_1/7 #100 "héritage" score? 10.54
+T439.25616114598233 attempt_99: "héritage" score:10.54 prog:None
+T443.7917021330213 🤔 extract_1/6 #101 "nuit" score? 20.15
+T443.7919200800243 attempt_100: "nuit" score:20.15 prog:None
+T452.65519520500675 #102 ? * related t2
+T452.6553671550355 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are seen with $1 and $2', count=10, kind='French', rel='that are seen with', trailer=None)
+T452.6554493710282 DEBUG scale: per = default(ceil(10/2), 5) = 5
+T452.65545518300496 DEBUG scale: n = 2 * 0 = 2
+T452.6554587180144 DEBUG scale: count = 5 * 2 = 10
+T452.65546167100547 DEBUG count: 10
+T452.65546437201556 DEBUG rel: 'related'
+T452.65546946803806 DEBUG like: ['$1', '$2']
+T452.6554726170143 DEBUG unlike: []
+T452.6554764219909 DEBUG trailer: given:False []
+T452.6555094590294 chat_prompt: give me 10 French words that are related to $1 and $2
+T452.65558613999747 session: {"role": "user", "content": "give me 10 French words that are related to \"espoir\" and \"amour\""}
+T461.4998618310201 session: {"role": "assistant", "content": "Here are 10 French words that can be paired with either \"espoir\" (hope) or \"amour\" (love):\n\nWith \"espoir\":\n\n1. R\u00eave (dream)\n2. Confiance (faith)\n3. S\u00e9curit\u00e9 (security)\n4. D\u00e9sire (desire)\n5. Pr\u00e9sent (present)\n\nWith \"amour\":\n\n1. Coeur (heart)\n2. Amiti\u00e9 (friendship)\n3. Famille (family)\n4. Fid\u00e9lit\u00e9 (loyalty)\n5. Passion"}
+T467.0795800680062 #102 extract_...
+T472.6640747920028 🤔 extract_1/10 #102 "amitié" score? 30.84 635
+T472.6643613810302 attempt_101: "amitié" score:30.84 prog:635
+T477.4873570720083 🤔 extract_1/9 #103 "coeur" score? 30.34 597
+T477.4875048220274 attempt_102: "coeur" score:30.34 prog:597
+T480.12754837604007 🤔 extract_1/8 #104 "confiance" score? 17.16
+T480.1277109099901 attempt_103: "confiance" score:17.16 prog:None
+T482.58310423902003 🤔 extract_1/7 #105 "désire" score? !
+T482.5831811859971 reject: "désire"
+T484.7835407049861 🤔 extract_1/6 #105 "famille" score? 7.1
+T484.78371095703915 attempt_104: "famille" score:7.10 prog:None
+T487.1917656289879 🤔 extract_1/5 #106 "fidélité" score? 13.41
+T487.1919926929986 attempt_105: "fidélité" score:13.41 prog:None
+T491.22393165598623 🤔 extract_1/4 #107 "passion" score? 26.86
+T493.7758857710287 🤔 extract_1/4 #107 "passion" 26.86°C prog‰ ? 218
+T493.776073371002 attempt_106: "passion" score:26.86 prog:218
+T496.4401283080224 🤔 extract_1/3 #108 "présent" score? 7.27
+T496.4403771990328 attempt_107: "présent" score:7.27 prog:None
+T501.20793545799097 🤔 extract_1/2 #109 "rêve" score? 31.35 663
+T501.20821622002404 attempt_108: "rêve" score:31.35 prog:663
+T505.2557094270014 🤔 extract_1/1 #110 "sécurité" score? -15.52
+T505.2558907769853 attempt_109: "sécurité" score:-15.52 prog:None
+T511.23175405402435 #111 ? *6 $1
+T511.2321658710134 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are related to $1 and $2', count=10, kind='French', rel='that are related to', trailer=None)
+T511.2323765940382 DEBUG count: 6
+T511.2323928590049 DEBUG rel: None
+T511.232409143995 DEBUG like: ['$1']
+T511.2324205969926 DEBUG unlike: []
+T511.2324345490197 DEBUG trailer: given:False []
+T511.2325501400046 chat_prompt: give me 6 French words that are related to $1
+T511.2327521860134 session: {"role": "user", "content": "give me 6 French words that are related to \"espoir\""}
+T519.1774577790056 session: {"role": "assistant", "content": "Here are 6 French words that can be paired with \"espoir\" (hope):\n\n1. Confiance (faith)\n2. S\u00e9curit\u00e9 (security)\n3. R\u00eave (dream)\n4. D\u00e9vouement (devotion)\n5. \u00c9lan (courage, enthusiasm)\n6. R\u00e9tablissement (recovery)\n\nThese words all convey a sense of optimism, positivity, and a desire for something better to come."}
+T522.1439576940029 #111 extract_...
+T524.944058049994 🤔 extract_1/3 #111 "dévouement" score? 15.15
+T524.9442775280331 attempt_110: "dévouement" score:15.15 prog:None
+T531.9839659400168 #112 ? #111 score 15.51
+T531.984250434034 fix attempt_110: score:15.51
+T534.9036412810092 #112 ? /e alll
+T536.4476760550169 #112 ? /e all
+T539.3594383660238 🤔 extract_1/2 #112 "rétablissement" score? 2.43
+T539.359534993011 attempt_111: "rétablissement" score:2.43 prog:None
+T543.9919903050177 🤔 extract_1/1 #113 "élan" score? 25.68
+T545.9356699970085 🤔 extract_1/1 #113 "élan" 25.68°C prog‰ ? 39
+T545.935858167999 attempt_112: "élan" score:25.68 prog:39
+T552.8799443960306 #114 ? /prog
+T557.1116709050257 #114 ? *t3
+T557.1118939720327 DEBUG cp: ChatPrompt(prompt='give me 6 French words that are related to $1', count=6, kind='French', rel='that are related to', trailer=None)
+T557.1120059720124 DEBUG scale: per = default(ceil(6/1), 5) = 6
+T557.1120201449958 DEBUG scale: n = 3 * 0 = 3
+T557.1120301830233 DEBUG scale: count = 6 * 3 = 18
+T557.1120389180142 DEBUG count: 18
+T557.1120806200197 DEBUG rel: None
+T557.1120956540108 DEBUG like: ['$1', '$2', '$3']
+T557.1121056739939 DEBUG unlike: []
+T557.1121169960243 DEBUG trailer: given:False []
+T557.1122105289833 chat_prompt: give me 18 French words that are related to $1, $2, and $3
+T557.1123875690391 session: {"role": "user", "content": "give me 18 French words that are related to \"espoir\", \"amour\", and \"d\u00e9sir\""}
+T574.9553568320116 session: {"role": "assistant", "content": "Here are 18 French words that can be paired with either \"espoir\" (hope), \"amour\" (love), or \"d\u00e9sir\" (desire):\n\nWith \"espoir\":\n\n1. Confiance (faith)\n2. S\u00e9curit\u00e9 (security)\n3. R\u00eave (dream)\n4. D\u00e9vouement (devotion)\n5. \u00c9lan (courage, enthusiasm)\n6. R\u00e9tablissement (recovery)\n\nWith \"amour\":\n\n7. Coeur (heart)\n8. Amiti\u00e9 (friendship)\n9. Famille (family)\n10. Fid\u00e9lit\u00e9 (loyalty)\n11. Passion (passion, intensity)\n12. Douceur (tenderness)\n\nWith \"d\u00e9sir\":\n\n13. R\u00eave (dream) - can also be paired with espoir\n14. App\u00e9tit (appetite)\n15. Prudence (caution)\n16. C\u0153ur (heart) - can also be paired with amour\n\nCommon to all three:\n\n17. Joie (joy)\n\n18. Valeur (value), conveys a sense of worth and importance"}
+T576.7512717749923 #114 extract_...
+T580.5195720050251 🤔 extract_1/6 #114 "appétit" score? 12.77
+T580.5197633469943 attempt_113: "appétit" score:12.77 prog:None
+T584.095700979 #115 ? /e
+T586.4877508520149 #115 extract_3
+T591.5840202789987 🤔 extract_3/5 #115 "joie" score? 43.96 970
+T591.5842513139942 attempt_114: "joie" score:43.96 prog:970
+T592.9437747609918 #116 extract_4
+T595.7277416799916 🤔 extract_4/4 #116 "valeur" score? -4.23
+T595.7279143939959 attempt_115: "valeur" score:-4.23 prog:None
+T602.4235158920055 #117 extract_1
+T607.9601803729893 🤔 extract_1/3 #117 "cœur" score? 30.34 597
+T607.9604814620106 attempt_116: "cœur" score:30.34 prog:597
+T611.1351969690295 #118 extract_1
+T614.1596741200192 🤔 extract_1/2 #118 "douceur" score? 20.89
+T614.159901365987 attempt_117: "douceur" score:20.89 prog:None
+T615.4638518770225 #119 extract_1
+T621.5592171290191 🤔 extract_1/1 #119 "prudence" score? 17.96
+T621.5593739990145 attempt_118: "prudence" score:17.96 prog:None
+T627.9993905040319 #120 ? * /clear .
+T627.9995874140295 DEBUG cp: ChatPrompt(prompt='give me 18 French words that are related to $1, $2, and $3', count=18, kind='French', rel='that are related to', trailer=None)
+T627.9996933439979 DEBUG scale: per = default(ceil(18/3), 5) = 6
+T627.999716233986 DEBUG scale: n = 0 * 0 = 0
+T627.9997282869881 DEBUG scale: count = 6 * 0 = 0
+T627.9997369170305 DEBUG count: 0
+T627.9997454230324 DEBUG rel: None
+T627.999753902026 DEBUG like: []
+T627.9997616329929 DEBUG unlike: []
+T627.9997719330131 DEBUG trailer: given:True []
+T627.9998638980323 session clear
+T627.9999299870105 chat_prompt: give me 18 French words that are not related to each other
+T628.0002135640243 session: {"role": "user", "content": "give me 18 French words that are not related to each other"}
+T643.2159178460133 #120 ? *t3 12 /clear .
+T643.2162059469847 DEBUG cp: ChatPrompt(prompt='give me 18 French words that are not related to each other', count=18, kind='French', rel='that are not related to each other', trailer=None)
+T643.2164194820216 DEBUG count: 12
+T643.2164370029932 DEBUG rel: None
+T643.2164560210076 DEBUG like: ['$1', '$2', '$3']
+T643.2164683089941 DEBUG unlike: []
+T643.2164837819873 DEBUG trailer: given:True []
+T643.2166211780277 session clear
+T643.2166841209983 chat_prompt: give me 12 French words that are related to $1, $2, and $3
+T643.2169076619903 session: {"role": "user", "content": "give me 12 French words that are related to \"espoir\", \"joie\", and \"amour\""}
+T657.7634860789985 session: {"role": "assistant", "content": "Here are 12 French words related to \"esp\u00e9rance\" (hope), \"joie\" (joy), and \"amour\" (love):\n\n1. Espoir (Hope)\n2. Joie de vivre (Joy of living)\n3. Amour propre (Love of oneself)\n4. Attente (Anticipation, related to hope)\n5. Bonheur (Happiness)\n6. R\u00eave (Dream)\n7. \u00c9lan vital (Vital spark, related to joy and enthusiasm)\n8. Confiance (Faithfulness, related to love)\n9. Douceur d'\u00eatre (Delight of being, related to joy)\n10. Intimit\u00e9 (Intimacy, related to love)\n11. C\u00e9l\u00e9bration (Celebration, related to joy and happiness)\n12. \u00c9tincelle d'amour (Spark of love)\n\nNote: Some words may have multiple translations or connotations, but these are the most relevant ones in relation to \"esp\u00e9rance\", \"joie\", and \"amour\"."}
+T659.431326513004 #120 extract_...
+T662.1278418430011 🤔 extract_1/8 #120 "attente" score? 15.52
+T662.1280549460207 attempt_119: "attente" score:15.52 prog:None
+T667.376066441997 🤔 extract_1/7 #121 "bonheur" score? 40.2 932
+T667.3762881319853 attempt_120: "bonheur" score:40.20 prog:932
+T670.2157435280387 🤔 extract_1/6 #122 "célébration" score? 5.77
+T670.216029525036 attempt_121: "célébration" score:5.77 prog:None
+T673.7276196930325 🤔 extract_1/5 #123 "intimité" score? 12.63
+T673.727802605019 attempt_122: "intimité" score:12.63 prog:None
+T675.9758564649965 🤔 extract_1/4 #124 "propre" score? 3.19
+T675.9760853420012 attempt_123: "propre" score:3.19 prog:None
+T678.6958454989945 🤔 extract_1/3 #125 "vital" score? -1.89
+T678.6960317349876 attempt_124: "vital" score:-1.89 prog:None
+T683.6398226190358 🤔 extract_1/2 #126 "vivre" score? 27.41 283
+T683.640028813039 attempt_125: "vivre" score:27.41 prog:283
+T687.4080583149916 🤔 extract_1/1 #127 "être" score? 22.23
+T687.4083360829973 attempt_126: "être" score:22.23 prog:None
+T689.3840044509852 #128 ? _
+T689.3842547599925 chat_prompt: _
+T689.3845246080309 session: {"role": "user", "content": "give me 12 French words that are related to \"espoir\", \"joie\", and \"bonheur\""}
+T705.5896063570399 session: {"role": "assistant", "content": "Here are 12 French words related to \"esp\u00e9rance\" (hope), \"joie\" (joy), and \"bonheur\" (happiness):\n\n1. Espoir (Hope)\n2. Joie de vivre (Joy of living)\n3. Bonheur (Happiness)\n4. Attente (Anticipation, related to hope)\n5. R\u00eave (Dream)\n6. \u00c9lan vital (Vital spark, related to joy and enthusiasm)\n7. S\u00e9r\u00e9nit\u00e9 (Serene-ness, related to inner peace and happiness)\n8. Lumi\u00e8re de vie (Light of life, related to joy and inspiration)\n9. Ferveur (Enthusiasm, related to passion and hope)\n10. \u00c9clat de joie (Outburst of joy)\n11. Confiance (Faithfulness, related to hope and trust)\n12. Joie pass\u00e9e (Past happiness)\n\nNote: Some words may have multiple translations or connotations, but these are the most relevant ones in relation to \"esp\u00e9rance\", \"joie\", and \"bonheur\"."}
+T706.8077616689843 #128 extract_...
+T712.6799615710042 🤔 extract_1/6 #128 "ferveur" score? 30.68 625
+T712.6801858189865 attempt_127: "ferveur" score:30.68 prog:625
+T715.1358159160009 🤔 extract_1/5 #129 "lumière" score? 9.53
+T715.1360190500272 attempt_128: "lumière" score:9.53 prog:None
+T717.3998966159998 🤔 extract_1/4 #130 "passée" score? !
+T717.400119472004 reject: "passée"
+T719.9114077620325 🤔 extract_1/3 #130 "sérénité" score? 20.45
+T719.9115794780082 attempt_129: "sérénité" score:20.45 prog:None
+T722.4397353050299 🤔 extract_1/2 #131 "vie" score? 22.12
+T722.4399572170223 attempt_130: "vie" score:22.12 prog:None
+T725.0714723870042 🤔 extract_1/1 #132 "éclat" score? 18.79
+T725.0716178970179 attempt_131: "éclat" score:18.79 prog:None
+T729.9836499509984 #133 ? *t2
+T729.9838640069938 DEBUG cp: ChatPrompt(prompt='give me 12 French words that are related to $1, $2, and $3', count=12, kind='French', rel='that are related to', trailer=None)
+T729.9840102440212 DEBUG scale: per = default(ceil(12/3), 5) = 4
+T729.9840390789905 DEBUG scale: n = 2 * 0 = 2
+T729.98405855702 DEBUG scale: count = 4 * 2 = 8
+T729.9840763329994 DEBUG count: 8
+T729.984093128005 DEBUG rel: None
+T729.9841155640315 DEBUG like: ['$1', '$2']
+T729.9841338929837 DEBUG unlike: []
+T729.9841543990187 DEBUG trailer: given:False []
+T729.9842772490229 chat_prompt: give me 8 French words that are related to $1 and $2
+T729.984524272033 session: {"role": "user", "content": "give me 8 French words that are related to \"espoir\" and \"joie\""}
+T742.1868003319832 session: {"role": "assistant", "content": "Here are 8 French words related to \"esp\u00e9rance\" (hope) and \"joie\" (joy):\n\n1. Espoir (Hope)\n2. Joie de vivre (Joy of living)\n3. Attente (Anticipation, related to hope)\n4. \u00c9lan vital (Vital spark, related to joy and enthusiasm)\n5. Lumi\u00e8re de vie (Light of life, related to joy and inspiration)\n6. Ferveur (Enthusiasm, related to passion and hope)\n7. Joute (Play, related to joy and entertainment)\n8. Doux espoir (Sweet hope, combining both concepts)\n\nNote: Some words may have multiple translations or connotations, but these are the most relevant ones in relation to \"esp\u00e9rance\" and \"joie\"."}
+T744.3517843660084 #133 extract_...
+T748.0719555059914 🤔 extract_1/2 #133 "doux" score? 27.24
+T751.415728922002 🤔 extract_1/2 #133 "doux" 27.24°C prog‰ ? 258
+T751.4158835969865 attempt_132: "doux" score:27.24 prog:258
+T755.2478066300391 🤔 extract_1/1 #134 "joute" score? 6.22
+T755.2480056399945 attempt_133: "joute" score:6.22 prog:None
+T757.9837758170324 #135 ? *t2 !new
+T757.9839894369943 DEBUG cp: ChatPrompt(prompt='give me 8 French words that are related to $1 and $2', count=8, kind='French', rel='that are related to', trailer=None)
+T757.9841181450174 DEBUG scale: per = default(ceil(8/2), 5) = 4
+T757.9841321569984 DEBUG scale: n = 2 * 0 = 2
+T757.9841414979892 DEBUG scale: count = 4 * 2 = 8
+T757.9841501769843 DEBUG count: 8
+T757.9841590200085 DEBUG rel: None
+T757.9841718649841 DEBUG like: ['$1', '$2']
+T757.9841803890304 DEBUG unlike: []
+T757.9841923540225 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T757.9842910030275 chat_prompt: give me 8 French words that are related to $1 and $2; do not list any words that you have already listed above
+T757.9844411259983 session: {"role": "user", "content": "give me 8 French words that are related to \"espoir\" and \"joie\"; do not list any words that you have already listed above"}
+T774.0120736309909 session: {"role": "assistant", "content": "Here are 8 new French words related to \"esp\u00e9rance\" (hope) and \"joie\" (joy), without repeating the previous ones:\n\n1. R\u00e9solution (Resolution, related to hope and determination)\n2. Lumi\u00e8re de l'avenir (Light of the future, related to hope and optimism)\n3. Frisson d'exaltation (Thrill of elation, related to joy and excitement)\n4. Soubresaut d'espoir (Sudden burst of hope)\n5. D\u00e9sespoir (Desperation, contrasting with hope)\n6. Joie de lancer (Joy of launching, related to starting something new and exciting)\n7. Douceur de pardon (Sweetness of forgiveness, related to hope and mercy)\n8. Coup de c\u0153ur (Heart-stopping moment, related to joyful surprise)\n\nNote: Some words may have multiple translations or connotations, but these are the most relevant ones in relation to \"esp\u00e9rance\" and \"joie\"."}
+T775.3517602590146 #135 extract_...
+T780.2079904020065 🤔 extract_1/9 #135 "avenir" score? 25.64 31
+T780.2081874900032 attempt_134: "avenir" score:25.64 prog:31
+T782.7838723800378 🤔 extract_1/8 #136 "coup" score? 20.05
+T782.784096051997 attempt_135: "coup" score:20.05 prog:None
+T789.1758161369944 🤔 extract_1/7 #137 "désespoir" score? 41.4 945
+T789.1760414349847 attempt_136: "désespoir" score:41.40 prog:945
+T793.3277277069865 🤔 extract_1/6 #138 "exaltation" score? 16.75
+T793.327924615005 attempt_137: "exaltation" score:16.75 prog:None
+T798.1277098539867 🤔 extract_1/5 #139 "frisson" score? 28.92 480
+T798.1278963460354 attempt_138: "frisson" score:28.92 prog:480
+T801.0317563340068 🤔 extract_1/4 #140 "lancer" score? -.88
+T801.0319723690045 attempt_139: "lancer" score:-0.88 prog:None
+T807.2235787340323 🤔 extract_1/3 #141 "pardon" score? 31.65 680
+T807.2237599050277 attempt_140: "pardon" score:31.65 prog:680
+T809.5838780800113 🤔 extract_1/2 #142 "résolution" score? .28
+T809.5841052290052 attempt_141: "résolution" score:0.28 prog:None
+T812.4956236070138 🤔 extract_1/1 #143 "soubresaut" score? 14.94
+T812.495827589999 attempt_142: "soubresaut" score:14.94 prog:None
+T814.8958008420304 #144 ? *t3
+T814.8960602140287 DEBUG cp: ChatPrompt(prompt='give me 8 French words that are related to $1 and $2; do not list any words that you have already listed above', count=8, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T814.8962311210344 DEBUG scale: per = default(ceil(8/2), 5) = 4
+T814.8962475869921 DEBUG scale: n = 3 * 0 = 3
+T814.8962593119941 DEBUG scale: count = 4 * 3 = 12
+T814.8962701589917 DEBUG count: 12
+T814.8962803070317 DEBUG rel: None
+T814.8962955020252 DEBUG like: ['$1', '$2', '$3']
+T814.8963054519845 DEBUG unlike: []
+T814.8963178570266 DEBUG trailer: given:False []
+T814.8964375529904 chat_prompt: give me 12 French words that are related to $1, $2, and $3; do not list any words that you have already listed above
+T814.8966282380279 session: {"role": "user", "content": "give me 12 French words that are related to \"espoir\", \"joie\", and \"d\u00e9sespoir\"; do not list any words that you have already listed above"}
+T837.5786923079868 session: {"role": "assistant", "content": "Here are 12 new French words related to \"esp\u00e9rance\" (hope), \"joie\" (joy), and \"d\u00e9sespoir\" (desperation), without repeating the previous ones:\n\n1. R\u00e9solution (Resolution, related to hope and determination)\n2. Lumi\u00e8re de l'avenir (Light of the future, related to hope and optimism)\n3. Frisson d'exaltation (Thrill of elation, related to joy and excitement)\n4. Soubresaut d'espoir (Sudden burst of hope)\n5. D\u00e9sespoir (Desperation)\n6. Joie de lancer (Joy of launching, related to starting something new and exciting)\n7. Douceur de pardon (Sweetness of forgiveness, related to hope and mercy)\n8. Coup de c\u0153ur (Heart-stopping moment, related to joyful surprise)\n9. Esquive (Evade, related to avoiding despair)\n10. R\u00e9pit (Pause, related to taking a break from despair)\n11. Douleur d'espoir (Pain of hope, related to the emotional weight of hope)\n12. Ab\u00eeme (Abysmal, related to the depths of desperation)\n\nNote: Some words may have multiple translations or connotations, but these are the most relevant ones in relation to \"esp\u00e9rance\", \"joie\", and \"d\u00e9sespoir\"."}
+T838.8075859170058 #144 extract_...
+T841.7437571870396 🤔 extract_1/4 #144 "abîme" score? 22.03
+T841.7439541770145 attempt_143: "abîme" score:22.03 prog:None
+T847.0959617280168 🤔 extract_1/3 #145 "douleur" score? 35.06 825
+T847.0961928940378 attempt_144: "douleur" score:35.06 prog:825
+T849.807898323983 🤔 extract_1/2 #146 "esquive" score? 7.36
+T849.8080982799875 attempt_145: "esquive" score:7.36 prog:None
+T852.6400631240103 🤔 extract_1/1 #147 "répit" score? 15.03
+T852.6403633439913 attempt_146: "répit" score:15.03 prog:None
+T858.4717089220067 #148 ? *10 $1
+T858.4719231660129 DEBUG cp: ChatPrompt(prompt='give me 12 French words that are related to $1, $2, and $3; do not list any words that you have already listed above', count=12, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T858.4720203059842 DEBUG count: 10
+T858.4720311790006 DEBUG rel: None
+T858.4720433159964 DEBUG like: ['$1']
+T858.4720510140178 DEBUG unlike: []
+T858.4720614019898 DEBUG trailer: given:False []
+T858.4721567819943 chat_prompt: give me 10 French words that are related to $1; do not list any words that you have already listed above
+T858.4723071610206 session: {"role": "user", "content": "give me 10 French words that are related to \"espoir\"; do not list any words that you have already listed above"}
+T878.6030703810393 session: {"role": "assistant", "content": "Here are 10 new French words related to \"esp\u00e9rance\" (hope), without repeating the previous ones:\n\n1. Rivage de l'\u00e2me (Shore of the soul, related to finding comfort in hope)\n2. \u00c9cho d'espoir (Echo of hope, related to the lingering sense of possibility)\n3. Pr\u00e9vision (Prediction, related to anticipating the future with hope)\n4. C\u0153ur en avenir (Heart for the future, related to looking forward with hope)\n5. Foi en soi (Faith in oneself, related to self-reliance and hope)\n6. Lueur d'espoir (Glimmer of hope, related to finding light in darkness)\n7. R\u00e9ponse positive (Positive response, related to a hopeful reaction)\n8. Aspirations (Aspirations, related to ambitious goals and hope)\n9. Chemin de la lumi\u00e8re (Path of the light, related to guidance and direction with hope)\n10. Voix de l'esprit (Voice of the spirit, related to inner guidance and hope)\n\nNote: Some words may have multiple translations or connotations, but these are the most relevant ones in relation to \"esp\u00e9rance\"."}
+T879.9758008359931 #148 extract_...
+T883.7437300439924 🤔 extract_1/14 #148 "aspirations" score? !
+T883.74385514803 reject: "aspirations"
+T886.1917474250076 🤔 extract_1/13 #148 "chemin" score? 18.5
+T886.1921002350282 attempt_147: "chemin" score:18.50 prog:None
+T888.8077028330299 🤔 extract_1/12 #149 "esprit" score? 21.16
+T888.807941342995 attempt_148: "esprit" score:21.16 prog:None
+T891.8318883870379 🤔 extract_1/11 #150 "foi" score? 24.03
+T891.8320623310283 attempt_149: "foi" score:24.03 prog:None
+T897.0320093600312 🤔 extract_1/10 #151 "la" score? 27.75 326
+T897.0322289430187 attempt_150: "la" score:27.75 prog:326
+T899.9272903940291 🤔 extract_1/9 #152 "lueur" score? 25.44
+T899.9273735699826 attempt_151: "lueur" score:25.44 prog:None
+T901.9595763760153 🤔 extract_1/8 #153 "positive" score? !
+T901.959701098036 reject: "positive"
+T905.120172244031 🤔 extract_1/7 #153 "prévision" score? -5.78
+T905.1204932320397 attempt_152: "prévision" score:-5.78 prog:None
+T910.2238103669952 🤔 extract_1/6 #154 "rivage" score? 14.9
+T910.2239981940365 attempt_153: "rivage" score:14.90 prog:None
+T913.1682487220387 🤔 extract_1/5 #155 "réponse" score? 10.56
+T913.1686373720295 attempt_154: "réponse" score:10.56 prog:None
+T916.1598052080371 🤔 extract_1/4 #156 "soi" score? 19.16
+T916.1599851450301 attempt_155: "soi" score:19.16 prog:None
+T919.1597283530282 🤔 extract_1/3 #157 "voix" score? 18.16
+T919.1599467060296 attempt_156: "voix" score:18.16 prog:None
+T924.3917080390383 🤔 extract_1/2 #158 "âme" score? 37 871
+T924.3919039500179 attempt_157: "âme" score:37.00 prog:871
+T927.1918321319972 🤔 extract_1/1 #159 "écho" score? 15.71
+T927.1921086509828 attempt_158: "écho" score:15.71 prog:None
+T930.4079257530393 #160 ? /prog
+T939.7034443290322 #160 ? *t5 seen with 15 /clear .
+T939.7036317950115 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are related to $1; do not list any words that you have already listed above', count=10, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T939.70379567903 DEBUG count: 15
+T939.7038067340036 DEBUG rel: 'seen with'
+T939.7038195710047 DEBUG like: ['$1', '$2', '$3', '$4', '$5']
+T939.7038278559921 DEBUG unlike: []
+T939.7038375730044 DEBUG trailer: given:True []
+T939.7039214220131 session clear
+T939.703960290004 chat_prompt: give me 15 French words that are seen with $1, $2, $3, $4, and $5
+T939.7041153369937 session: {"role": "user", "content": "give me 15 French words that are seen with \"espoir\", \"joie\", \"d\u00e9sespoir\", \"bonheur\", and \"amour\""}
+T953.99052962102 session: {"role": "assistant", "content": "Here are 15 French words that can be associated with the given emotions:\n\n1. Espoir:\n * R\u00eave (dream)\n * Possibilit\u00e9 (possibility)\n * Confiance (faith)\n * Avenir (future)\n\n2. Joie:\n * Journ\u00e9e (day, in a positive sense)\n * Ami (friend)\n * F\u00eate (party)\n * \u00c9clat (glory, triumph)\n\n3. D\u00e9sespoir:\n * Abandon (abandonment)\n * Mis\u00e8re (misery)\n * Solitude (loneliness)\n * Rejet (rejection)\n\n4. Bonheur:\n * S\u00e9r\u00e9nit\u00e9 (serenity)\n * Paix (peace)\n * Harmonie (harmony)\n * \u00c9panouissement (enlightenment, self-realization)\n\n5. Amour:\n * D\u00e9sir (desire)\n * Tendresse (tenderness)\n * Intimit\u00e9 (intimacy)\n * Compr\u00e9hension (understanding)"}
+T981.1995978630148 #160 ? > simplify your last response, just enumerate the french words
+T981.199833450024 chat_prompt: simplify your last response, just enumerate the french words
+T981.2000586889917 session: {"role": "user", "content": "simplify your last response, just enumerate the french words"}
+T987.6799459730391 session: {"role": "assistant", "content": "Here are the 15 French words:\n\n1. R\u00eave\n2. Possibilit\u00e9\n3. Confiance\n4. Avenir\n5. Journ\u00e9e\n6. Ami\n7. F\u00eate\n8. \u00c9clat\n9. Abandon\n10. Mis\u00e8re\n11. Solitude\n12. Rejet\n13. S\u00e9r\u00e9nit\u00e9\n14. Paix\n15. D\u00e9sir"}
+T989.5598942700308 #160 extract_...
+T994.9999726230162 🤔 extract_1/9 #160 "abandon" score? 26.08 107
+T995.0001904480159 attempt_159: "abandon" score:26.08 prog:107
+T999.6958438160364 🤔 extract_1/8 #161 "ami" score? 28.9 476
+T999.696018534014 attempt_160: "ami" score:28.90 prog:476
+T1001.959519342985 🤔 extract_1/7 #162 "fête" score? 4.7
+T1001.9596195020131 attempt_161: "fête" score:4.70 prog:None
+T1004.3437734980253 🤔 extract_1/6 #163 "journée" score? 10.25
+T1004.3439833400189 attempt_162: "journée" score:10.25 prog:None
+T1007.0797122410149 🤔 extract_1/5 #164 "misère" score? 22.08
+T1007.0798916490166 attempt_163: "misère" score:22.08 prog:None
+T1009.6478532290203 🤔 extract_1/4 #165 "paix" score? 12.62
+T1009.6480584070086 attempt_164: "paix" score:12.62 prog:None
+T1012.3596811540192 🤔 extract_1/3 #166 "possibilité" score? .06
+T1012.3598730360391 attempt_165: "possibilité" score:0.06 prog:None
+T1015.7040476680268 🤔 extract_1/2 #167 "rejet" score? 3.03
+T1015.7043107229983 attempt_166: "rejet" score:3.03 prog:None
+T1022.776305698033 🤔 extract_1/1 #168 "solitude" score? 35.31 839
+T1022.7765742220217 attempt_167: "solitude" score:35.31 prog:839
+T1024.3995426149922 #169 ? /last
+T1030.743344610033 #169 ? /prog
+T1045.5997806229861 #169 ? *t2
+T1045.6000074360054 DEBUG cp: None
+T1045.6001639530296 DEBUG count: None
+T1045.600176708016 DEBUG rel: None
+T1045.6001919420087 DEBUG like: ['$1', '$2']
+T1045.6002010430093 DEBUG unlike: []
+T1045.6002127469983 DEBUG trailer: given:False []
+T1045.6002873160178 chat_prompt: give me 10 French words that are related to $1 and $2
+T1045.600443324016 session: {"role": "user", "content": "give me 10 French words that are related to \"espoir\" and \"joie\""}
+T1050.660938779998 session: {"role": "assistant", "content": "Here are 10 French words:\n\n1. R\u00eave\n2. Possibilit\u00e9\n3. Confiance\n4. Avenir\n5. \u00c9lan\n6. Excitation\n7. Rire\n8. C\u0153ur\n9. Douceur\n10. \u00c9l\u00e9gance"}
+T1053.0238181379973 #169 extract_...
+T1055.631920928019 🤔 extract_1/3 #169 "excitation" score? 14.17
+T1055.6321452329867 attempt_168: "excitation" score:14.17 prog:None
+T1060.3361854060204 🤔 extract_1/2 #170 "rire" score? 28.41 424
+T1060.3364209900028 attempt_169: "rire" score:28.41 prog:424
+T1062.69577840704 🤔 extract_1/1 #171 "élégance" score? 11.9
+T1062.6959867249825 attempt_170: "élégance" score:11.90 prog:None
+T1068.7276451290236 #172 ? *t3 seen with
+T1068.7278329030378 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are related to $1 and $2', count=10, kind='French', rel='that are related to', trailer=None)
+T1068.727973119996 DEBUG scale: per = default(ceil(10/2), 5) = 5
+T1068.7279855399975 DEBUG scale: n = 3 * 0 = 3
+T1068.727994647983 DEBUG scale: count = 5 * 3 = 15
+T1068.728002658987 DEBUG count: 15
+T1068.7280111010186 DEBUG rel: 'seen with'
+T1068.7280232200283 DEBUG like: ['$1', '$2', '$3']
+T1068.7280309739872 DEBUG unlike: []
+T1068.728040623013 DEBUG trailer: given:False []
+T1068.7281218499993 chat_prompt: give me 15 French words that are seen with $1, $2, and $3
+T1068.7282992090331 session: {"role": "user", "content": "give me 15 French words that are seen with \"espoir\", \"joie\", and \"d\u00e9sespoir\""}
+T1077.6741591210011 session: {"role": "assistant", "content": "Here are 15 French words:\n\n1. R\u00eave\n2. Possibilit\u00e9\n3. Confiance\n4. Avenir\n5. \u00c9lan\n6. Excitation\n7. Rire\n8. C\u0153ur\n9. Douceur\n10. \u00c9l\u00e9gance\n11. Soulagement\n12. Nuit (night, to contrast with day's joy)\n13. Crise (crisis, to contrast with hope's promise)\n14. D\u00e9luge (deluge, a flood of emotions)\n15. Demande"}
+T1079.023842027993 #172 extract_...
+T1081.5515734790242 🤔 extract_1/4 #172 "crise" score? 3.15
+T1081.5517448949977 attempt_171: "crise" score:3.15 prog:None
+T1084.6479524410097 🤔 extract_1/3 #173 "demande" score? -6.05
+T1084.6481769169914 attempt_172: "demande" score:-6.05 prog:None
+T1087.1195799959823 🤔 extract_1/2 #174 "déluge" score? 10.32
+T1087.119758040004 attempt_173: "déluge" score:10.32 prog:None
+T1093.0478100460023 🤔 extract_1/1 #175 "soulagement" score? 39.17 916
+T1093.047975463036 attempt_174: "soulagement" score:39.17 prog:916
+T1101.7918503609835 #176 ? * related $1 $5
+T1101.7920409049839 DEBUG cp: ChatPrompt(prompt='give me 15 French words that are seen with $1, $2, and $3', count=15, kind='French', rel='that are seen with', trailer=None)
+T1101.7921691100346 DEBUG scale: per = default(ceil(15/3), 5) = 5
+T1101.7921827079845 DEBUG scale: n = 2 * 0 = 2
+T1101.7921930610319 DEBUG scale: count = 5 * 2 = 10
+T1101.7922021410195 DEBUG count: 10
+T1101.7922111850348 DEBUG rel: 'related'
+T1101.7922234309954 DEBUG like: ['$1', '$5']
+T1101.7922316130134 DEBUG unlike: []
+T1101.7922420889954 DEBUG trailer: given:False []
+T1101.7923251439934 chat_prompt: give me 10 French words that are related to $1 and $5
+T1101.792481529992 session: {"role": "user", "content": "give me 10 French words that are related to \"espoir\" and \"soulagement\""}
+T1106.9350021950086 session: {"role": "assistant", "content": "Here are 10 French words:\n\n1. R\u00eave\n2. Possibilit\u00e9\n3. Confiance\n4. Avenir\n5. \u00c9lan\n6. Soulage\n7. R\u00e9confort\n8. Calme\n9. Paix\n10. Consolation"}
+T1108.5837457460002 #176 extract_...
+T1111.4080953930388 🤔 extract_1/4 #176 "calme" score? 20.49
+T1111.4083098740084 attempt_175: "calme" score:20.49 prog:None
+T1117.0238524560118 🤔 extract_1/3 #177 "consolation" score? 41.76 950
+T1117.024037707015 attempt_176: "consolation" score:41.76 prog:950
+T1122.3755203000037 🤔 extract_1/2 #178 "réconfort" score? 29.38 528
+T1122.375745989033 attempt_177: "réconfort" score:29.38 prog:528
+T1124.7279961390304 🤔 extract_1/1 #179 "soulage" score? !
+T1124.728211403999 reject: "soulage"
+T1130.7197135470342 #179 ? * $1 $3
+T1130.7198951130267 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are related to $1 and $5', count=10, kind='French', rel='that are related to', trailer=None)
+T1130.7200231610332 DEBUG scale: per = default(ceil(10/2), 5) = 5
+T1130.7200432760292 DEBUG scale: n = 2 * 0 = 2
+T1130.7200580299832 DEBUG scale: count = 5 * 2 = 10
+T1130.7200721839909 DEBUG count: 10
+T1130.7200854810071 DEBUG rel: None
+T1130.7201026559924 DEBUG like: ['$1', '$3']
+T1130.7201160609839 DEBUG unlike: []
+T1130.7201311049866 DEBUG trailer: given:False []
+T1130.7202222740161 chat_prompt: give me 10 French words that are related to $1 and $3
+T1130.7203876629937 session: {"role": "user", "content": "give me 10 French words that are related to \"espoir\" and \"consolation\""}
+T1136.7957092770375 session: {"role": "assistant", "content": "Here are 10 French words:\n\n1. R\u00eave\n2. Possibilit\u00e9\n3. Confiance\n4. Avenir\n5. R\u00e9confort\n6. Calme\n7. Paix\n8. Compagne (companion, in a comforting sense)\n9. Asile (refuge, asylum)\n10. R\u00e9ussite"}
+T1137.8557959730388 #179 extract_...
+T1140.7919912970392 🤔 extract_1/3 #179 "asile" score? -1.56
+T1140.7922029839829 attempt_178: "asile" score:-1.56 prog:None
+T1143.7200270030298 🤔 extract_1/2 #180 "compagne" score? !
+T1143.720218028 reject: "compagne"
+T1146.1515451970045 🤔 extract_1/1 #180 "réussite" score? 7.13
+T1146.1517243169947 attempt_179: "réussite" score:7.13 prog:None
+T1148.7278730479884 #181 ? *t3
+T1148.728063579998 DEBUG cp: ChatPrompt(prompt='give me 10 French words that are related to $1 and $3', count=10, kind='French', rel='that are related to', trailer=None)
+T1148.7281943450216 DEBUG scale: per = default(ceil(10/2), 5) = 5
+T1148.7282577070291 DEBUG scale: n = 3 * 0 = 3
+T1148.7282787780277 DEBUG scale: count = 5 * 3 = 15
+T1148.7282955709961 DEBUG count: 15
+T1148.7283116499893 DEBUG rel: None
+T1148.72833226301 DEBUG like: ['$1', '$2', '$3']
+T1148.7283486890374 DEBUG unlike: []
+T1148.7283672720077 DEBUG trailer: given:False []
+T1148.7286232149927 chat_prompt: give me 15 French words that are related to $1, $2, and $3
+T1148.7288868720061 session: {"role": "user", "content": "give me 15 French words that are related to \"espoir\", \"joie\", and \"consolation\""}
+T1156.918149723031 session: {"role": "assistant", "content": "Here are 15 French words:\n\n1. R\u00eave\n2. Possibilit\u00e9\n3. Confiance\n4. Avenir\n5. R\u00e9confort\n6. Calme\n7. Paix\n8. Compagne\n9. Asile\n10. R\u00e9ussite\n11. Radiance\n12. Lumi\u00e8re (light, to illuminate hope)\n13. \u00c9lan vital (vital energy)\n14. Douceur\n15. Tr\u00e8scherie"}
+T1158.1195367730106 #181 extract_...
+T1160.936020661029 🤔 extract_1/2 #181 "radiance" score? -2.97
+T1160.9362261230126 attempt_180: "radiance" score:-2.97 prog:None
+T1163.0876604660298 🤔 extract_1/1 #182 "trèscherie" score? !
+T1163.0877916690079 reject: "trèscherie"
+T1165.207688666007 #182 ? *t3 !new
+T1165.2078863460338 DEBUG cp: ChatPrompt(prompt='give me 15 French words that are related to $1, $2, and $3', count=15, kind='French', rel='that are related to', trailer=None)
+T1165.208014303993 DEBUG scale: per = default(ceil(15/3), 5) = 5
+T1165.208027521032 DEBUG scale: n = 3 * 0 = 3
+T1165.2080374170328 DEBUG scale: count = 5 * 3 = 15
+T1165.2080467910273 DEBUG count: 15
+T1165.2080542530166 DEBUG rel: None
+T1165.208065304032 DEBUG like: ['$1', '$2', '$3']
+T1165.2080727950088 DEBUG unlike: []
+T1165.208084081998 DEBUG trailer: given:False ['do not list any words that you have already listed above']
+T1165.2081701630377 chat_prompt: give me 15 French words that are related to $1, $2, and $3; do not list any words that you have already listed above
+T1165.208314129035 session: {"role": "user", "content": "give me 15 French words that are related to \"espoir\", \"joie\", and \"consolation\"; do not list any words that you have already listed above"}
+T1173.9872913550353 session: {"role": "assistant", "content": "Here are 15 new French words:\n\n1. S\u00e9curit\u00e9\n2. Soutien\n3. Am\u00e9lioration\n4. Progr\u00e8s\n5. \u00c9quilibre\n6. Harmonie\n7. R\u00e9cup\u00e9ration\n8. R\u00e9tabilitation\n9. Lib\u00e9ration\n10. Ascension\n11. Prosp\u00e9rit\u00e9\n12. Abri\n13. Refuge\n14. S\u00e9curit\u00e9 d'esprit\n15. \u00c9panouissement"}
+T1175.1276962099946 #182 extract_...
+T1177.863668609003 🤔 extract_1/13 #182 "abri" score? 10.09
+T1177.8638293109834 attempt_181: "abri" score:10.09 prog:None
+T1182.0077335390379 🤔 extract_1/12 #183 "amélioration" score? -12.32
+T1182.007919488009 attempt_182: "amélioration" score:-12.32 prog:None
+T1184.59185394604 🤔 extract_1/11 #184 "ascension" score? 6.97
+T1184.592065904988 attempt_183: "ascension" score:6.97 prog:None
+T1187.215816958982 🤔 extract_1/10 #185 "harmonie" score? 5.36
+T1187.2160268439911 attempt_184: "harmonie" score:5.36 prog:None
+T1189.4236610170337 🤔 extract_1/9 #186 "libération" score? 2.51
+T1189.423844014993 attempt_185: "libération" score:2.51 prog:None
+T1192.287732514029 🤔 extract_1/8 #187 "progrès" score? 6.66
+T1192.2878874940216 attempt_186: "progrès" score:6.66 prog:None
+T1194.5119861729909 🤔 extract_1/7 #188 "prospérité" score? 3.71
+T1194.5121724699857 attempt_187: "prospérité" score:3.71 prog:None
+T1197.2798812540132 🤔 extract_1/6 #189 "refuge" score? 13.72
+T1197.2800600400078 attempt_188: "refuge" score:13.72 prog:None
+T1199.8237147800392 🤔 extract_1/5 #190 "récupération" score? -13.55
+T1199.823905175028 attempt_189: "récupération" score:-13.55 prog:None
+T1203.0240692590014 🤔 extract_1/4 #191 "rétabilitation" score? !
+T1203.0243533900357 reject: "rétabilitation"
+T1205.4640763060306 🤔 extract_1/3 #191 "soutien" score? -2.6
+T1205.4643067970173 attempt_190: "soutien" score:-2.60 prog:None
+T1207.8236449690303 🤔 extract_1/2 #192 "épanouissement" score? -2.43
+T1207.8238507260103 attempt_191: "épanouissement" score:-2.43 prog:None
+T1210.520061445015 🤔 extract_1/1 #193 "équilibre" score? -5.87
+T1210.5202949690283 attempt_192: "équilibre" score:-5.87 prog:None
+T1214.6239678350394 #194 ? /prog
+T1232.1278733439976 #194 ? *t7 21 related /clear .
+T1232.1280754610198 DEBUG cp: ChatPrompt(prompt='give me 15 French words that are related to $1, $2, and $3; do not list any words that you have already listed above', count=15, kind='French', rel='that are related to', trailer='; do not list any words that you have already listed above')
+T1232.1282387609826 DEBUG count: 21
+T1232.1282504450064 DEBUG rel: 'related'
+T1232.1282642530277 DEBUG like: ['$1', '$2', '$3', '$4', '$5', '$6', '$7']
+T1232.1282730060047 DEBUG unlike: []
+T1232.1282834149897 DEBUG trailer: given:True []
+T1232.1283656349988 session clear
+T1232.1284060560283 chat_prompt: give me 21 French words that are related to $1, $2, $3, $4, $5, $6, and $7
+T1232.1286216320004 session: {"role": "user", "content": "give me 21 French words that are related to \"espoir\", \"joie\", \"consolation\", \"d\u00e9sespoir\", \"bonheur\", \"soulagement\", and \"amour\""}
+T1255.949282932037 session: {"role": "assistant", "content": "Here are 21 French words related to the given concepts:\n\n1. Joie (joy)\n2. Espoir (hope)\n3. Confort (comfort)\n4. Soulagement (relief)\n5. Consol\u00e9 (consoling)\n6. Amour (love)\n7. Bonheur (happiness)\n8. D\u00e9sespoir (despair)\n9. R\u00e9confort (recomfort)\n10. Joie de vivre (joie of living)\n11. Coeur (heart)\n12. Soif d'amour (thirst for love)\n13. Lumi\u00e8re de vie (light of life)\n14. Peine de c\u0153ur (pain of the heart)\n15. Douceur (sweetness)\n16. Tristesse (sorrow)\n17. R\u00e9pit (pause)\n18. Calme (calmness)\n19. S\u00e9r\u00e9nit\u00e9 (serenity)\n20. R\u00eave (dream)\n21. \u00c9panouissement (self-realization)\n\nNote that some of these words may have multiple meanings or connotations, and not all of them are direct synonyms for the original words. However, they all relate to one or more of the given concepts in some way.\n\nHere's a breakdown of how each word relates to the original list:\n\n- Espoir: hope\n- Joie: joy\n- Consolation: comfort\n- D\u00e9sespoir: despair\n- Bonheur: happiness\n- Soulagement: relief\n- Amour: love\n\nThe additional words provide variations on these concepts, such as consolation in a more general sense (confort), or the feeling of being at peace (s\u00e9r\u00e9nit\u00e9)."}
+T1262.1279091080069 #194 extract_...
+T1264.7279151260154 🤔 extract_1/5 #194 "confort" score? .1
+T1264.7281464110129 attempt_193: "confort" score:0.10 prog:None
+T1267.2318497810047 🤔 extract_1/4 #195 "consolé" score? !
+T1267.2319787770393 reject: "consolé"
+T1272.4557017420302 🤔 extract_1/3 #195 "peine" score? 36.76 867
+T1272.4558801110252 attempt_194: "peine" score:36.76 prog:867
+T1274.719951288018 🤔 extract_1/2 #196 "soif" score? 21.3
+T1274.720211810025 attempt_195: "soif" score:21.30 prog:None
+T1280.4638401650009 🤔 extract_1/1 #197 "tristesse" score? 57.83 998
+T1280.4640666510095 attempt_196: "tristesse" score:57.83 prog:998
+T1283.4479122959892 #198 ? * $1
+T1283.448152530007 DEBUG cp: ChatPrompt(prompt='give me 21 French words that are related to $1, $2, $3, $4, $5, $6, and $7', count=21, kind='French', rel='that are related to', trailer=None)
+T1283.4483031510026 DEBUG scale: per = default(ceil(21/7), 5) = 3
+T1283.4483321190346 DEBUG scale: n = 1 * 0 = 1
+T1283.4483549200231 DEBUG scale: count = 3 * 1 = 3
+T1283.4483745420002 DEBUG count: 3
+T1283.448393631028 DEBUG rel: None
+T1283.448416142026 DEBUG like: ['$1']
+T1283.4484700500034 DEBUG unlike: []
+T1283.448495501012 DEBUG trailer: given:False []
+T1283.4486291570356 chat_prompt: give me 3 French words that are related to $1
+T1283.4488543150364 session: {"role": "user", "content": "give me 3 French words that are related to \"tristesse\""}
+T1293.3927560040029 session: {"role": "assistant", "content": "Here are three French words that are related to \"tristesse\" (sorrow):\n\n1. Douleur (pain)\n2. Amertume (bitterness)\n3. Regret (regret)\n\nThese words all convey a sense of emotional suffering or discomfort, although they each have slightly different connotations:\n\n- Douleur implies physical or emotional pain.\n- Amertume suggests a bitter taste or feeling, often used to describe a painful or unpleasant experience.\n- Regret is a feeling of sorrow or remorse for something that has happened.\n\nThese words all relate to \"tristesse\" in some way, although they each capture different aspects of emotional suffering."}
+T1294.5679400680237 #198 extract_...
+T1300.7438017250388 🤔 extract_1/2 #198 "amertume" score? 53.82 996
+T1300.7440049800207 attempt_197: "amertume" score:53.82 prog:996
+T1305.8234562500147 🤔 extract_1/1 #199 "regret" score? 100 1000
+T1305.8235596810118 attempt_198: "regret" score:100.00 prog:1000
+T1338.2960093730362 Paste share result, then preses <Enter>
+T1338.3045180360205 share result: "J'ai trouv\u00e9 #cemantix n\u00ba1004 en 199 coups !\n\ud83e\udd73\n\ud83d\udd252\ufe0f\u20e3\n\ud83e\udd757\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e2\ufe0f\u20e32\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd761\ufe0f\u20e32\ufe0f\u20e30\ufe0f\u20e3\n\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca4\ufe0f\u20e37\ufe0f\u20e3\nhttps://cemantix.certitudes.org/"
+T1338.3058326320024 <STOP>
