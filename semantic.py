@@ -1687,12 +1687,12 @@ class Search(StoredLog):
     def record(self, ui: PromptUI, word: str, score: float, prog: int|None):
         if word in self.wordbad:
             # TODO nicer to update, believe the user
-            ui.print('! ignoring rejected response for word "{word}"')
+            ui.print(f'! ignoring rejected response for word "{word}"')
             return
 
         if word in self.wordgood:
             # TODO nicer to update, believe the user
-            ui.print('! ignoring duplicate response for word "{word}"')
+            ui.print(f'! ignoring duplicate response for word "{word}"')
             return
 
         i = len(self.word)
