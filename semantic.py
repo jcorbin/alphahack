@@ -20,6 +20,13 @@ from store import StoredLog, git_txn
 from strkit import matchgen, spliterate, wraplines, MarkedSpec
 from ui import PromptUI
 
+def lang_code_to_kind(la: str):
+    # TODO better
+    la = la.lower()
+    if la == 'en': return ''
+    if la == 'fr': return 'French'
+    raise ValueError(f'unknown language code {la!r}')
+
 def role_content(chat: Iterable[ollama.Message], role: str):
     for mess in chat:
         if mess['role'] != role: continue
@@ -597,6 +604,24 @@ class Search(StoredLog):
     @override
     def startup(self, ui: PromptUI):
         if self.startup_done: return self.orient
+
+        ui.write('Scraping index...')
+        res = self.request(ui, 'get', '/')
+        if res.status_code != 200:
+            ui.fin(f'failed: {res.status_code} {res.reason}')
+        elif res.headers.get('Content-Type', '').partition(';')[0] != 'text/html':
+            ui.fin(f'failed: expected text/html content, got {res.headers.get("Content-Type", "")}')
+        else:
+            soup = bs4.BeautifulSoup(res.content, 'html5lib')
+
+            doc = soup.select_one('html')
+            if doc:
+                lang = doc.attrs.get('lang')
+                if isinstance(lang, str):
+                    self.lang = lang_code_to_kind(lang)
+                    ui.write(f' 🌎 {lang!r} -> {self.lang!r}')
+
+            ui.fin(' done.')
 
         if not self.puzzle_id:
             ui.br()
