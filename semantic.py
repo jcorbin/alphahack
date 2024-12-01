@@ -1561,6 +1561,12 @@ class Search(StoredLog):
             if tokens.peek('').startswith('*'):
                 return self.generate(ui)
 
+            bang = tokens.have(r'!(.*)$', lambda m: cast(str, m.group(1)))
+            if bang is not None:
+                word = bang or next(tokens)
+                self.wordbad.remove(word)
+                return self.attempt_word(ui, word.lower(), f'reentered')
+
             m = (
                 tokens.have(r'(?xi) (?: T ( \d+ ) ) (?: B ( \d+ ) )?') or
                 tokens.have(r'(?xi) (?: T ( \d+ ) )? (?: B ( \d+ ) )'))
@@ -1675,9 +1681,7 @@ class Search(StoredLog):
 
     def record(self, ui: PromptUI, word: str, score: float, prog: int|None):
         if word in self.wordbad:
-            # TODO nicer to update, believe the user
-            ui.print(f'! ignoring rejected response for word "{word}"')
-            return
+            self.wordbad.remove(word)
 
         if word in self.wordgood:
             # TODO nicer to update, believe the user
