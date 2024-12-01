@@ -184,15 +184,10 @@ class StoredLog:
         if self.start is None:
             self.start = datetime.datetime.now(tzlocal())
 
-        expire = self.expire
-        ui.print(f'📆 {self.start:%Y-%m-%d}')
-        if self.site:
-            ui.print(f'🔗 {self.site}')
-        if self.puzzle_id:
-            ui.print(f'🧩 {self.puzzle_id}')
-        if expire is not None:
-            ui.print(f'⏰ Expires {expire}')
         ui.print(f'📜 {self.log_file} with {len(self.sessions)} prior sessions over {self.elapsed}')
+
+        expire = self.expire
+        if expire is not None: ui.print(f'⏰ Expires {expire}')
 
         return self.startup
 
