@@ -1314,6 +1314,8 @@ class Search(StoredLog):
         if self.found is not None:
             return self.finish
 
+        ui.print(f'🌡️ {" ".join(f"{tier} {self.scale[tier]:.2f}°C" for tier in tiers)}')
+
         try:
             model = olm_find_model(self.llm_client, self.llm_model)
         except RuntimeError:
