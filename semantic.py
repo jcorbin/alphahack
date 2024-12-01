@@ -69,10 +69,48 @@ tiers: list[Tier] = [
     '🥳',
 ]
 
+tier_progs: list[int|None] = [
+    None, # 🧊
+    None, # 🥶
+    1,    # 😎
+    900,  # 🥵
+    990,  # 🔥
+    999,  # 😱
+    1000, # 🥳
+]
+
 scale_fixed: dict[Tier, float] = {}
 scale_fixed['🧊'] = -100.0
 scale_fixed['🥶'] =    0.0
 scale_fixed['🥳'] =  100.0
+
+def parse_scale_score(mark: str, score_str: str, prog_str: str):
+    try:
+        tier = tiers.index(cast(Tier, mark))
+    except IndexError:
+        raise ValueError('invalid emoji tier mark')
+    prog = int(prog_str.strip()) if prog_str.strip() else None
+    if prog != tier_progs[tier]:
+        raise ValueError(f'expected {tier_progs[tier]} tier prog have {prog}')
+    score = float(score_str.strip())
+    if mark in scale_fixed and score != scale_fixed[mark]:
+        raise ValueError(f'expected {scale_fixed[mark]} tier score have {score}')
+    mark = cast(Tier, mark)
+    return mark, score
+
+def scrape_scale_row(row: bs4.Tag):
+    mark_cell = row.select_one('td.emoji') # <td class="emoji">🔥</td>
+    prog_cell: bs4.Tag|None = None # <td class="number">990</td>
+    score_cell: bs4.Tag|None = None # <td class="decimal number">38.29</td>
+    for nc in row.select('td.number'):
+        if not score_cell and 'decimal' in nc.attrs['class']: score_cell = nc
+        if not prog_cell and 'decimal' not in nc.attrs['class']: prog_cell = nc
+    if not mark_cell: raise ValueError('no td.emoji mark cell')
+    if not score_cell: raise ValueError('no td.number.decimal score cell')
+    return parse_scale_score(
+        mark_cell.text,
+        score_cell.text,
+        prog_cell.text if prog_cell else '')
 
 TierCounts = tuple[
     int,
@@ -629,6 +667,25 @@ class Search(StoredLog):
                     ui.log(f'puzzle_id: {self.puzzle_id}')
                     ui.write(f' 🧩 {self.puzzle_id}')
 
+            summary = soup.select_one('#cemantle-summary') or soup.select_one('#cemantix-summary')
+            if summary:
+                n = 0
+                for row in summary.select('table.story tbody tr'):
+                    if not row.select('td'):
+                        if not row.select('th'):
+                            ui.print(f'? empty #{summary.attrs["id"]} .story table row: {row}')
+                        continue
+                    try:
+                        tier, score = scrape_scale_row(row)
+                    except ValueError as err:
+                        ui.print(f'! failed to parse temp scale from {row} : {err}')
+                    else:
+                        ui.log(f'scale: {tier} {score:.2f} °C')
+                        self.scale[tier] = score
+                        n += 1
+
+                ui.write(f' 🌡️ {n} tiers')
+
             ui.fin(' done.')
 
         if not self.puzzle_id:
@@ -640,7 +697,6 @@ class Search(StoredLog):
         return self.startup_scale
 
     def startup_scale(self, ui: PromptUI):
-        ui.br()
         if len(self.scale) < len(tiers):
             ui.print(f'Populating temp scale {len(self.scale)} / {len(tiers)}')
             self.scale.update(scale_fixed)
@@ -2562,6 +2618,87 @@ class Search(StoredLog):
 ### tests
 
 import pytest
+
+@pytest.mark.parametrize('spec', list(MarkedSpec.iterspecs('''
+
+    #cemantle
+    > <div id="cemantle-summary" style="display:run-in">
+    >     <p id="cemantle-day-meter">🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊</p>
+    >     <table class="story">
+    >         <thead>
+    >         <tr><th class="number"><b>‰</b></th><th class="emoji">🌡</th><th class="number"><b>°C</b></th></tr>
+    >         </thead>
+    >         <tr><td class="number">1000</td><td class="emoji">🥳</td><td class="decimal number">100</td></tr>
+    >         <tr><td class="number">999</td><td class="emoji">😱</td><td class="decimal number">60.49</td></tr>
+    >         <tr><td class="number">990</td><td class="emoji">🔥</td><td class="decimal number">44.0</td></tr>
+    >         <tr><td class="number">900</td><td class="emoji">🥵</td><td class="decimal number">36.51</td></tr>
+    >         <tr><td class="number">1</td><td class="emoji">😎</td><td class="decimal number">27.11</td></tr>
+    >         <tr><td class="number"></td><td class="emoji">🥶</td><td class="decimal number">0</td></tr>
+    >         <tr><td class="number"></td><td class="emoji">🧊</td><td class="decimal number">-100</td></tr>
+    >     </table>
+    >     <div class="yesterday">
+    >     Yesterday’s word was <a id="cemantle-yesterday"><b><u>suite</u></b></a>
+    >     </div>
+    >     🇫🇷 <a href="https://cemantix.certitudes.org/">cémantix</a>
+    > </div>
+    - expect: 🥳 100
+    - expect: 😱 60.49
+    - expect: 🔥 44.0
+    - expect: 🥵 36.51
+    - expect: 😎 27.11
+    - expect: 🥶 0
+    - expect: 🧊 -100
+
+    #cemantix
+    > <div id="cemantix-summary" style="display:run-in">
+    >     <p id="cemantix-day-meter">🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊</p>
+    >     <table class="story">
+    >         <thead>
+    >         <tr><th class="number"><b>‰</b></th><th class="emoji">🌡</th><th class="number"><b>°C</b></th></tr>
+    >         </thead>
+    >         <tr><td class="number">1000</td><td class="emoji">🥳</td><td class="decimal number">100</td></tr>
+    >         <tr><td class="number">999</td><td class="emoji">😱</td><td class="decimal number">59.41</td></tr>
+    >         <tr><td class="number">990</td><td class="emoji">🔥</td><td class="decimal number">38.29</td></tr>
+    >         <tr><td class="number">900</td><td class="emoji">🥵</td><td class="decimal number">28.51</td></tr>
+    >         <tr><td class="number">1</td><td class="emoji">😎</td><td class="decimal number">19.95</td></tr>
+    >         <tr><td class="number"></td><td class="emoji">🥶</td><td class="decimal number">0</td></tr>
+    >         <tr><td class="number"></td><td class="emoji">🧊</td><td class="decimal number">-100</td></tr>
+    >     </table>
+    >     <div class="yesterday">
+    >     Le mot d’hier était <a id="cemantix-yesterday"><b><u>regret</u></b></a>
+    >     </div>
+    >     🇺🇸 <a href="https://cemantle.certitudes.org/">cemantle</a>
+    > </div>
+    - expect: 🥳 100
+    - expect: 😱 59.41
+    - expect: 🔥 38.29
+    - expect: 🥵 28.51
+    - expect: 😎 19.95
+    - expect: 🥶 0
+    - expect: 🧊 -100
+
+''')), ids=MarkedSpec.get_id)
+def test_scrape_scale_row(spec: MarkedSpec):
+    expect: list[tuple[str, float]] = []
+    for name, value in spec.props:
+        if name == 'expect':
+            tier, _, score_str = value.partition(' ')
+            score = float(score_str.strip())
+            expect.append((tier, score))
+        else: raise ValueError(f'unknown test expectation {name}')
+
+    soup = bs4.BeautifulSoup(spec.input, 'html5lib')
+    summary = soup.select_one('#cemantle-summary') or soup.select_one('#cemantix-summary')
+    assert summary
+
+    have: list[tuple[str, float]] = []
+    for row in summary.select('table.story tbody tr'):
+        try:
+            have.append(scrape_scale_row(row))
+        except:
+            print(f'! {row}')
+            raise
+    assert have == expect
 
 @pytest.mark.parametrize('spec', list(MarkedSpec.iterspecs('''
     > _
