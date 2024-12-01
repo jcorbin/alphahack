@@ -586,8 +586,16 @@ class Search(StoredLog):
     def run_done(self):
         return self.result is not None
 
+    @property
+    def startup_done(self):
+        if not self.puzzle_id: return False
+        if len(self.scale) < len(tiers): return False
+        return True
+
     @override
     def startup(self, ui: PromptUI):
+        if self.startup_done: return self.orient
+
         if not self.puzzle_id:
             ui.br()
             self.do_site(ui)
@@ -642,9 +650,6 @@ class Search(StoredLog):
                     return
 
             ui.print(f'WARNING: incomplete temp scale ; use /scale to inspect and fix')
-
-        if self.prog_at is None:
-            self.prog_at = self.scale.get('😎')
 
         return self.orient
 
@@ -1315,6 +1320,8 @@ class Search(StoredLog):
             return self.finish
 
         ui.print(f'🌡️ {" ".join(f"{tier} {self.scale[tier]:.2f}°C" for tier in tiers)}')
+        if self.prog_at is None:
+            self.prog_at = self.scale.get('😎')
 
         try:
             model = olm_find_model(self.llm_client, self.llm_model)
