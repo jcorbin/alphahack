@@ -466,6 +466,7 @@ class Search(StoredLog):
     def __init__(self):
         super().__init__()
 
+        self.pubtime: datetime.datetime|None = None
         self.lang: str = self.default_lang
         self.scale: Scale = dict(scale_fixed)
         self.prog_at: float|None = None
@@ -540,8 +541,15 @@ class Search(StoredLog):
 
     @property
     def pub(self):
+        if self.pubtime is not None: return self.pubtime
         if self.start is None: return None
         return self.next_pub(self.start - datetime.timedelta(days=1))
+
+    def set_pubtime(self, ui: PromptUI, ut: int):
+        dut = datetime.datetime.fromtimestamp(ut, datetime.UTC)
+        if self.pubtime != dut:
+            ui.log(f'pubtime: {ut}')
+            self.pubtime = dut
 
     @property
     @override
@@ -667,6 +675,11 @@ class Search(StoredLog):
                     ui.log(f'puzzle_id: {self.puzzle_id}')
                     ui.write(f' 🧩 {self.puzzle_id}')
 
+                sut = script.attrs.get('data-utc-time')
+                if isinstance(sut, str):
+                    self.set_pubtime(ui, int(sut))
+                    ui.write(f' 🕛 {self.pubtime}')
+
             summary = soup.select_one('#cemantle-summary') or soup.select_one('#cemantix-summary')
             if summary:
                 n = 0
@@ -759,6 +772,18 @@ class Search(StoredLog):
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
         for t, rest in super().load(ui, lines):
+            match = re.match(r'''(?x)
+                pubtime :
+                \s+
+                (?P<timestamp> \d+ )
+                \s* ( .* )
+                $''', rest)
+            if match:
+                sut, rest = match.groups()
+                assert rest == ''
+                self.set_pubtime(ui, int(sut))
+                continue
+
             match = re.match(r'''(?x)
                 lang :
                 \s+
