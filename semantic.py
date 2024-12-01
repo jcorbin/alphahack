@@ -1573,9 +1573,36 @@ class Search(StoredLog):
         ui.log(f'yesterdat: {json.dumps(yesterdat)}')
         ui.print(f'💿 {len(words)} words of yesterdata relating to "{word}"')
 
+    def check_stats(self, ui: PromptUI):
+        ui.write('Fetching stats...')
+        res = self.request(ui, 'get', '/stats')
+
+        stats = cast(object, res.json())
+        if isinstance(stats, dict):
+            stats = cast(dict[str, object], stats)
+            try:
+                num = stats['num']
+            except KeyError:
+                ui.print(f'! no puzzle num in {stats!r}')
+                return
+            if self.puzzle_id != f'#{num}':
+                ui.print(f'! puzzle id mismatch, expected {self.puzzle_id}, have {num}')
+                raise StopIteration
+
+            try:
+                solvers = stats['solvers']
+            except KeyError:
+                pass
+            else:
+                ui.write(f' 🧩 {self.puzzle_id} with {solvers} solvers')
+
+        ui.fin(' done.')
+
     def orient(self, ui: PromptUI):
         if self.found is not None:
             return self.finish
+
+        self.check_stats(ui)
 
         ui.print(f'🌡️ {" ".join(f"{tier} {self.scale[tier]:.2f}°C" for tier in tiers)}')
         if self.prog_at is None:
