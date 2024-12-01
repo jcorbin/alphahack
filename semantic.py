@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 
 import argparse
+import bs4
 import datetime
 import json
 import math
 import ollama
 import re
 import requests
-from bs4 import BeautifulSoup
 from collections import Counter
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
@@ -1231,7 +1231,7 @@ class Search(StoredLog):
             for rank, (word, prog, score) in enumerate(extract(cast(object, res.json())))))
 
     def yesterscrape(self, ui: PromptUI, content: str):
-        soup = BeautifulSoup(content, 'html.parser')
+        soup = bs4.BeautifulSoup(content, 'html5lib')
         for i, line in enumerate(content.splitlines()):
             if i > 9:
                 ui.print(f'... {content.count("\n") - 9} more lines')
