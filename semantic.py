@@ -713,19 +713,9 @@ class Search(StoredLog):
                 while k < len(tiers)-1:
                     if tiers[k] in self.scale: break
                     k += 1
-
-                prior_tier = tiers[i]
-                next_tier = tiers[k]
-                prior_temp = self.scale[prior_tier]
-                next_temp = self.scale[next_tier]
-                if not (prior_temp < temp < next_temp):
-                    ui.print(f'WARNING: ignoring invalid scale {tier} {temp:.2f}°C ; must be in range {prior_tier} {prior_temp:.2f}°C {next_tier} {next_temp:.2f}°C')
-                    continue
-
                 self.scale[tier] = temp
                 if self.prog_at is None and tier == '😎':
                     self.prog_at = temp
-
                 continue
 
             match = re.match(r'''(?x)
