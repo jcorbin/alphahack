@@ -19,6 +19,10 @@ def scrape_words(url: str) -> Generator[str]:
     for word in soup.find_all(class_='word'):
         yield cast(str, word.text)
 
-for url in sorted(set(url for _text, url in scrape_links('https://www.scrabblehelper.nl/woordenlijst'))):
-    for word in scrape_words(url):
-        print(word)
+def main():
+    for url in sorted(set(url for _text, url in scrape_links('https://www.scrabblehelper.nl/woordenlijst'))):
+        for word in scrape_words(url):
+            print(word)
+
+if __name__ == '__main__':
+    main()
