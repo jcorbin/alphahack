@@ -442,6 +442,8 @@ class Search(StoredLog):
 
         self.http_client = requests.Session()
         self.http_client.headers["User-Agent"] = 'github.com/jcorbin/alhpahack'
+        self.http_verbose: int = 0
+        self.logged_cookies: dict[str, str] = {}
 
         self.llm_client = ollama.Client()
         self.llm_model: str = self.default_chat_model
@@ -803,6 +805,32 @@ class Search(StoredLog):
                 continue
 
             match = re.match(r'''(?x)
+                http \s+ (?P<coll> header | cookie ):
+                \s+ (?P<name> [^\s]+ )
+                \s+ (?P<value> .+? )
+                $''', rest)
+            if match:
+                coll, name, value = match.groups()
+
+                if coll == 'cookie':
+                    if value == '_':
+                        del self.http_client.cookies[name]
+                    else:
+                        value = cast(object, json.loads(value))
+                        assert isinstance(value, str)
+                        self.http_client.cookies[name] = value
+
+                elif coll == 'header':
+                    if value == '_':
+                        del self.http_client.headers[name]
+                    else:
+                        value = cast(object, json.loads(value))
+                        assert isinstance(value, str)
+                        self.http_client.headers[name] = value
+
+                continue
+
+            match = re.match(r'''(?x)
                 session : \s* (?P<mess> .+ )
                 $''', rest)
             if match:
@@ -1056,6 +1084,91 @@ class Search(StoredLog):
             n = sum(1 for _ in words())
             yield f'{tier} {n:>{cw}}'
 
+    @property
+    def origin(self):
+        origin = self.site
+        if '://' not in origin:
+            origin = f'https://{origin}'
+        return origin.rstrip('/')
+
+    def request(self,
+        ui: PromptUI,
+        method: str,
+        path: str,
+        referer: str|None = None,
+        headers: dict[str, str]|None=None,
+        data: dict[str, object]|None=None,
+        allow_redirects: bool=True,
+        timeout: int = 3,
+        verbose: int|None = None,
+    ):
+        if verbose is None: verbose = self.http_verbose
+        if headers is None: headers = {}
+
+        origin = self.origin
+        _ = headers.setdefault('Origin', origin)
+
+        if referer:
+            headers['Referer'] = referer
+        else:
+            _ = headers.setdefault('Referer', f'{origin}/')
+
+        req = self.http_client.prepare_request(requests.Request(
+            method=method.upper(),
+            url=f'{self.origin}{path}',
+            headers=headers,
+            data=data,
+        ))
+
+        if verbose:
+            ui.print(f'> {req.method} {req.url}')
+        if verbose > 1:
+            for k, v in req.headers.items():
+                ui.print(f'> {k}: {v}')
+        ui.log(f'request: {json.dumps({
+            "method": req.method,
+            "url": req.url,
+            "headers": dict(req.headers),
+            "data": data,
+        })}')
+
+        if verbose > 1:
+            ui.print(f'* timeout: {timeout}')
+            ui.print(f'* allow_redirects: {allow_redirects}')
+        res = self.http_client.send(req,
+            timeout=timeout,
+            allow_redirects=allow_redirects,
+        )
+
+        if verbose:
+            if verbose > 1:
+                ui.print(f'< {res.status_code} {res.reason}')
+            else:
+                ct = res.headers.get('Content-Type', '<unknown>')
+                cl = res.headers.get('Content-Length', '?')
+                ui.print(f'< {res.status_code} {res.reason} {ct} {cl} bytes')
+
+        if verbose > 1:
+            for k, v in res.headers.items():
+                ui.print(f'< {k}: {v}')
+        ui.log(f'response: {json.dumps({
+            "url": res.url,
+            "status": res.status_code,
+            "reason": res.reason,
+            "headers": dict(res.headers),
+            "content": res.content.decode(),
+        })}')
+
+        for name, value in self.http_client.cookies.iteritems():
+            if self.logged_cookies.get(name, '') != value:
+                ui.log(f'http cookie: {name} {json.dumps(value)}')
+        prior_keys = set(self.http_client.cookies)
+        prior_keys.difference_update(self.http_client.cookies.iterkeys())
+        for name in prior_keys:
+            ui.log(f'http cookie: {name} _')
+
+        return res
+
     def do_abbr(self, ui: PromptUI):
         with ui.tokens as tokens:
             if tokens.empty:
@@ -1227,14 +1340,7 @@ class Search(StoredLog):
             raise ValueError('no word found yesterday to request')
 
         yesterword = self.word[self.found]
-
-        link = self.result.link if self.result else f'https://{self.site}'
-        url = f'{link.rstrip("/")}/nearby'
-
-        ui.write(f'requesting {url} "word={yesterword}"...')
-        res = self.http_client.post(url, data = {'word': yesterword}, timeout=3)
-
-        ui.write(f'{len(res.content)} bytes...')
+        res = self.request(ui, 'post', '/nearby', data={'word': yesterword})
 
         def extract(dat: object):
             if not isinstance(dat, list):
