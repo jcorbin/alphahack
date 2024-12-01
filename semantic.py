@@ -12,7 +12,7 @@ from collections import Counter
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
 from dateutil.tz import gettz
-from typing import assert_never, cast, final, overload, override, Any, Callable, Literal
+from typing import assert_never, cast, final, overload, override, Callable, Literal
 from urllib.parse import urlparse
 
 from mdkit import break_sections, capture_fences, fenceit
@@ -107,11 +107,11 @@ def parse_digit_int(s: str, default: int = 0):
     return default if nn is None else nn
 
 def get_olm_models(client: ollama.Client) -> Generator[str]:
-    models = client.list()['models'] # pyright: ignore[reportAny]
+    models = cast(object, client.list()['models'])
     assert isinstance(models, list)
-    for x in cast(list[Any], models): # pyright: ignore[reportAny]
+    for x in cast(list[object], models):
         assert isinstance(x, dict)
-        x = cast(dict[str, Any], x)
+        x = cast(dict[str, object], x)
         name = x.get('name')
         assert isinstance(name, str)
         yield name
@@ -786,12 +786,12 @@ class Search(StoredLog):
             if match:
                 mess, = match.groups()
                 try:
-                    dat = json.loads(mess) # pyright: ignore[reportAny]
+                    dat = cast(object, json.loads(mess))
                 except json.JSONDecodeError:
                     pass
                 else:
                     if isinstance(dat, dict) and 'prompt' in dat:
-                        mess = cast(Any, dat['prompt']) # pyright: ignore[reportAny]
+                        mess = cast(object, dat['prompt'])
                         assert isinstance(mess, str)
                 _ = self.set_chat_prompt(ui, mess)
                 continue
@@ -805,7 +805,7 @@ class Search(StoredLog):
                     if raw != 'pop': raise NotImplementedError(f'chat pop index')
                     _ = self.chat_pop(ui)
                 else:
-                    mess = json.loads(raw) # pyright: ignore[reportAny]
+                    mess = cast(object, json.loads(raw))
                     mess = cast(ollama.Message, mess) # TODO validate
                     self.chat_append(ui, mess)
                 continue
@@ -838,7 +838,7 @@ class Search(StoredLog):
                 $''', rest)
             if match:
                 srej, = match.groups()
-                rej = json.loads(srej) # pyright: ignore[reportAny]
+                rej = cast(object, json.loads(srej))
                 if not isinstance(rej, str): continue
                 self.result_text = rej
                 try:
@@ -2076,7 +2076,7 @@ class Search(StoredLog):
         for resp in self.llm_client.chat(model=self.llm_model, messages=self.chat, stream=True):
             with ui.print_exception(Exception,
                                     extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
-                mess = resp['message'] # pyright: ignore[reportAny]
+                mess = cast(object, resp['message'] )
                 assert isinstance(mess, dict)
                 # TODO validate mess : ollama.Message
                 mess = cast(ollama.Message, cast(object, mess))
