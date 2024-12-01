@@ -621,6 +621,14 @@ class Search(StoredLog):
                     self.lang = lang_code_to_kind(lang)
                     ui.write(f' 🌎 {lang!r} -> {self.lang!r}')
 
+            script = soup.select_one('#cemantle-script') or soup.select_one('#cemantix-script')
+            if script:
+                spn = script.attrs.get('data-puzzle-number')
+                if isinstance(spn, str):
+                    self.puzzle_id = f'#{spn}'
+                    ui.log(f'puzzle_id: {self.puzzle_id}')
+                    ui.write(f' 🧩 {self.puzzle_id}')
+
             ui.fin(' done.')
 
         if not self.puzzle_id:
