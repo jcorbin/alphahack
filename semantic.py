@@ -763,7 +763,9 @@ class Search(StoredLog):
                 prog = None if ps == 'None' else int(ps)
                 assert i == self.attempt
                 assert rest == ''
-                assert self.record(ui, word, score, prog) == i
+                j = self.record(ui, word, score, prog)
+                if j != i:
+                    raise RuntimeError(f'reload inconsistency attempt({word!r}, {score}, {prog}) -> {j} != {i}')
                 continue
 
             match = re.match(r'''(?x)
