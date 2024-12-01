@@ -1,0 +1,137 @@
+T0.0001414280013705138 now: 2024-12-01T10:58:09EST
+T1.4233642220006004 📜 nwl2023.txt ? 
+T1.4234486090008431 wordlist: nwl2023.txt
+T4.590817801001322 🧩  ? #1035
+T4.590964734999943 puzzle_id: #1035
+T6.118850889000896 > *
+T6.2119062850015325 questioning: ["blush", "#5 found:883 hypo:11881376"]
+T10.375725948000763 blush ( #5 found:883 hypo:11881376 ) ? .
+T10.375959515000432 guess: blush
+T15.607461518000491 blush ( #5 found:883 hypo:11881376 ) > 3 ___s_
+T15.608383344000686 word: 2 ___s_
+T15.608413997000753 may: 2 
+T20.64727451700128 blush ( #5 found:883 hypo:11881376 ) > 1 ~ s
+T20.647904572000698 word: 0 _____
+T20.64793107300102 may: 0 s
+T23.04758773100002 blush ( #5 found:883 hypo:11881376 ) > 5 ~ l
+T23.047833636001087 word: 4 _____
+T23.047859611000604 may: 4 l
+T29.18329755400009 blush ( #5 found:883 hypo:11881376 ) > no u h b
+T30.991452296000716 blush ( #5 found:883 hypo:11881376 ) > 
+T30.991596229001516 question done
+T32.95143099300003 > /no u h b
+T32.9520115610012 nope: b h u
+T34.951662835001116 > *
+T35.20650651300093 questioning: ["palsy", "#3 found:138 hypo:279841"]
+T43.7110243900006 palsy ( #3 found:138 hypo:279841 ) ? .
+T43.71115139700123 guess: palsy
+T47.087676476001434 palsy ( #3 found:138 hypo:279841 ) > 1 ~ s a
+T47.08788092100076 word: 0 _____
+T47.08790271900034 may: 0 a s
+T49.5514163200005 palsy ( #3 found:138 hypo:279841 ) > 2 ~ p a
+T49.55161963400133 word: 1 _____
+T49.55164163700101 may: 1 a p
+T52.56705564100048 palsy ( #3 found:138 hypo:279841 ) > 5 ~ l a
+T52.56726314700063 word: 4 _____
+T52.567287820000274 may: 4 a l
+T54.31943975200011 palsy ( #3 found:138 hypo:279841 ) > 
+T54.319560707001074 question done
+T55.56735522300005 > /no y
+T55.567538850000346 nope: b h u y
+T56.495209813001566 > *
+T56.8469160730001 questioning: ["roose", "#3 found:135 hypo:234256"]
+T63.46308008900087 roose ( #3 found:135 hypo:234256 ) ? .
+T63.463181278000775 guess: roose
+T69.15937065500111 roose ( #3 found:135 hypo:234256 ) > 3 r__se
+T69.15961586500089 word: 2 r__se
+T69.15965185500136 may: 2 
+T74.6153096900016 roose ( #3 found:135 hypo:234256 ) > 1 _o___
+T74.61551061600039 word: 0 _o___
+T74.61553975300012 may: 0 a s
+T79.35128648800128 roose ( #3 found:135 hypo:234256 ) > 2 ~ p a r
+T79.35148867800126 word: 1 _____
+T79.3515212630009 may: 1 a p r
+T81.68731247800133 roose ( #3 found:135 hypo:234256 ) > 4 ~[32;2uo
+T84.95942463100073 roose ( #3 found:135 hypo:234256 ) > 4 ~ o
+T84.9597462340007 word: 3 _____
+T84.95980024300115 may: 3 o
+T88.28721576099997 roose ( #3 found:135 hypo:234256 ) > 5 ~ l a e
+T88.28744957000163 word: 4 _____
+T88.28748915600045 may: 4 a e l
+T92.27931435200117 roose ( #3 found:135 hypo:234256 ) > 
+T92.27945478000038 question done
+T93.16736101100105 > *
+T93.65265765600088 questioning: ["rinse", "#3 found:2 hypo:484"]
+T103.27117977400121 rinse ( #3 found:2 hypo:484 ) ? 3 rinse
+T103.27125112200156 guess: rinse
+T103.27126902300006 word: 2 rinse
+T103.27127377700162 may: 2 
+T108.75903013400057 rinse ( #3 found:2 hypo:484 ) > 5 ~ l a e n
+T108.75913355000012 word: 4 _____
+T108.75914191600168 may: 4 a e l n
+T115.97429313700013 rinse ( #3 found:2 hypo:484 ) > 4 ~ o i n
+T115.97441548100142 word: 3 _____
+T115.97443231000034 may: 3 i n o
+T120.55046678200051 rinse ( #3 found:2 hypo:484 ) > 
+T120.5505205010013 question done
+T122.47054476900121 > *
+T122.80971659800161 questioning: ["asper", "#2 found:7 hypo:2904"]
+T130.50243752400092 asper ( #2 found:7 hypo:2904 ) ? .
+T130.50250958800098 guess: asper
+T135.87106733900146 asper ( #2 found:7 hypo:2904 ) > 2 ~ a____
+T135.87137481100035 word: 1 _____
+T135.8714252280006 may: 1 a
+T140.70248067400098 asper ( #2 found:7 hypo:2904 ) > 2 ~ p a r
+T140.7026210060012 word: 1 _____
+T140.7026443070008 may: 1 a p r
+T146.67836285700105 asper ( #2 found:7 hypo:2904 ) > 2 a____
+T146.6784719770003 word: 1 a____
+T146.6784887440008 may: 1 p r
+T150.20653753900115 asper ( #2 found:7 hypo:2904 ) > 2 ~ p a r
+T150.20665526500125 word: 1 a____
+T150.2066640060002 may: 1 a p r
+T155.19893627500096 asper ( #2 found:7 hypo:2904 ) > 
+T155.19907581900043 question done
+T156.17455916100153 > *
+T156.485959525 questioning: ["arepa", "#2 found:2 hypo:132"]
+T162.46268342800067 arepa ( #2 found:2 hypo:132 ) ? !
+T162.46274466900104 reject: arepa
+T165.61453840100148 > *
+T165.7242667770006 questioning: ["apart", "#2 found:1 hypo:132"]
+T172.4625600770014 apart ( #2 found:1 hypo:132 ) ? .
+T172.46266607899997 guess: apart
+T173.95852798800115 apart ( #2 found:1 hypo:132 ) > 2 apart
+T173.9586467830013 word: 1 apart
+T173.95865711700026 may: 1 
+T181.3267588560011 apart ( #2 found:1 hypo:132 ) > 5 __a_t
+T181.32686259799993 word: 4 __a_t
+T181.32687445100055 may: 4 e l n
+T183.6225788870015 apart ( #2 found:1 hypo:132 ) > 
+T183.62265834900063 question done
+T185.25440123299995 > *
+T186.28899726200143 questioning: ["leant", "#5 found:1 hypo:6"]
+T193.60792627900082 leant ( #5 found:1 hypo:6 ) ? 5 leant
+T193.60821711500103 guess: leant
+T193.60831709000013 word: 4 leant
+T193.60834591100138 may: 4 
+T194.53469834899988 leant ( #5 found:1 hypo:6 ) > 
+T194.53478085400093 question done
+T195.48697053700016 > *
+T196.1881979310001 questioning: ["onion", "#4 found:1 hypo:2904"]
+T205.65526277900062 onion ( #4 found:1 hypo:2904 ) ? 4 onion
+T205.65548659100023 guess: onion
+T205.65555520100133 word: 3 onion
+T205.65557862900096 may: 3 
+T207.68657181600065 onion ( #4 found:1 hypo:2904 ) > 
+T207.68665581000096 question done
+T210.03128916900096 > *
+T210.59663117900163 questioning: ["comas", "#1 found:1 hypo:968"]
+T219.35929774500073 comas ( #1 found:1 hypo:968 ) ? 1 comas
+T219.35952328700114 guess: comas
+T219.359582254001 word: 0 comas
+T219.35959857099988 may: 0 
+T220.9357777109999 comas ( #1 found:1 hypo:968 ) > 
+T220.93598161000045 question done
+T224.11893273900023 Copy share result and press <Enter>
+T224.12161087800087 result: "squareword.org 1035: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1035"
+T224.12167281700022 <STOP>
