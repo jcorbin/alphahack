@@ -86,7 +86,7 @@ class Tokens(PeekStr):
         \s* ( [^\s]+ )
 
         # more tokens after any space
-        (?: \s+ ( .+ ) )?
+        \s* (?: ( [^\s] .* ) )?
 
         # end of raw input
         $
