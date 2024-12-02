@@ -206,7 +206,7 @@ class MarkedSpec:
             line
             for line in lines
             if not line.startswith('//'))
-        return PeekStr(lines)
+        return lines
 
     @classmethod
     def itersections(cls, spec: str):
@@ -256,7 +256,7 @@ class MarkedSpec:
 
     @property
     def speclines(self):
-        self._lines = self.iterlines(self.spec)
+        self._lines = PeekStr(self.iterlines(self.spec))
         return self._lines
 
     def get_id(self):
