@@ -1,0 +1,191 @@
+T0.0001755439880071208 now: 2024-12-02T09:00:05EST
+T8.47916581798927 📜 nwl2023.txt ? 
+T8.479225379996933 wordlist: nwl2023.txt
+T13.598852237992105 🧩  ? #1036
+T13.599001807990135 puzzle_id: #1036
+T15.230968676987686 > *
+T15.335873220989015 questioning: ["savin", "#5 found:6825 hypo:11881376"]
+T20.711065389987198 savin ( #5 found:6825 hypo:11881376 ) ? .
+T20.711137157995836 guess: savin
+T27.758783582990873 savin ( #5 found:6825 hypo:11881376 ) > 2 ~ a
+T27.759405900986167 word: 1 _____
+T27.759428818986635 may: 1 a
+T30.150983088999055 savin ( #5 found:6825 hypo:11881376 ) > 3 ~ i
+T30.15116934599064 word: 2 _____
+T30.15120194699557 may: 2 i
+T33.57470732698857 savin ( #5 found:6825 hypo:11881376 ) > 5 s____
+T33.57483063699328 word: 4 s____
+T33.57485248398734 may: 4 
+T36.62310518199229 savin ( #5 found:6825 hypo:11881376 ) > 
+T36.62325340899406 question done
+T38.23074886799441 > /no v n
+T38.231066927997745 nope: n v
+T39.75892102799844 > *
+T40.07448949798709 questioning: ["septa", "#5 found:192 hypo:331776"]
+T48.839117353985785 septa ( #5 found:192 hypo:331776 ) ? .
+T48.83922024798812 guess: septa
+T53.27075865899678 septa ( #5 found:192 hypo:331776 ) > 1 ~t
+T53.270889010993415 word: 0 _____
+T53.27090501099883 may: 0 t
+T58.158967012990615 septa ( #5 found:192 hypo:331776 ) > 2 ____a ~ e p
+T58.1591484049859 word: 1 ____a
+T58.15917820799223 may: 1 e p
+T63.72674456999812 septa ( #5 found:192 hypo:331776 ) > 3 ~ i e t
+T63.726841146999504 word: 2 _____
+T63.7268575559865 may: 2 e i t
+T69.20740416699846 septa ( #5 found:192 hypo:331776 ) > 4 ~ e
+T69.2076757199975 word: 3 _____
+T69.20772701399983 may: 3 e
+T71.72023192299821 septa ( #5 found:192 hypo:331776 ) > 
+T71.72041158399952 question done
+T72.47147613899142 > *
+T72.81682494899724 questioning: ["pieta", "#2 found:7 hypo:1152"]
+T80.40778516799037 pieta ( #2 found:7 hypo:1152 ) ? .
+T80.40792901298846 guess: pieta
+T92.07225848299277 pieta ( #2 found:7 hypo:1152 ) > 2 __e_a ~p
+T92.07256117298675 word: 1 __e_a
+T92.07259070499276 may: 1 p
+T100.54355840598873 pieta ( #2 found:7 hypo:1152 ) > 3 ~ _i___ 
+T100.543740418987 word: 2 _____
+T100.54376102698734 may: 2 
+T117.11164378799731 pieta ( #2 found:7 hypo:1152 ) > 3 _i___ ~ e t
+T117.11184180199052 word: 2 _i___
+T117.11187679499562 may: 2 e t
+T123.63983780899434 pieta ( #2 found:7 hypo:1152 ) > 
+T123.63994873499905 question done
+T124.48798542599252 > *
+T124.70289653699729 questioning: ["presa", "#2 found:3 hypo:576"]
+T133.63194791298884 presa ( #2 found:3 hypo:576 ) ? .
+T133.63212829999975 guess: presa
+T139.19158542099467 presa ( #2 found:3 hypo:576 ) > 1 ~ t r
+T139.19176359599805 word: 0 _____
+T139.19178191899846 may: 0 r t
+T143.62409352099348 presa ( #2 found:3 hypo:576 ) > 2 ~ p r
+T143.62432240998896 word: 1 __e_a
+T143.62434939399827 may: 1 p r
+T149.27192738099257 presa ( #2 found:3 hypo:576 ) > 3 ~ e t r
+T149.27219614498608 word: 2 _i___
+T149.27222271398932 may: 2 e r t
+T153.14396412098722 presa ( #2 found:3 hypo:576 ) > 4 ~ e r
+T153.144229100988 word: 3 _____
+T153.14425950098666 may: 3 e r
+T155.18385631199635 presa ( #2 found:3 hypo:576 ) > 
+T155.1839993029862 question done
+T156.8400739239878 > *
+T157.10066552599892 questioning: ["arepa", "#2 found:1 hypo:48"]
+T162.17588302999502 arepa ( #2 found:1 hypo:48 ) ? !
+T162.17604551499244 reject: arepa
+T163.63957351299177 > *
+T163.65343252799357 questioning: ["opera", "#2 found:1 hypo:48"]
+T173.1352454359876 opera ( #2 found:1 hypo:48 ) ? 2 opera
+T173.13536974998715 guess: opera
+T173.13539639698865 word: 1 opera
+T173.13540369199472 may: 1 
+T181.83978608899633 opera ( #2 found:1 hypo:48 ) > 1 ~ t r o
+T181.8400081009895 word: 0 _____
+T181.84003363599186 may: 0 o r t
+T189.1599485429906 opera ( #2 found:1 hypo:48 ) > 5 ~ o
+T189.1601664769987 word: 4 s____
+T189.1601888689911 may: 4 o
+T191.59194788699097 opera ( #2 found:1 hypo:48 ) > 
+T191.59214548399905 question done
+T192.528353865986 > *
+T192.80235703999642 questioning: ["tires", "#3 found:14 hypo:144"]
+T201.08771450299537 tires ( #3 found:14 hypo:144 ) ? .
+T201.08786667199456 guess: tires
+T209.2562508569972 tires ( #3 found:14 hypo:144 ) > 1 t_r__ ~o
+T209.2566112739878 word: 0 t_r__
+T209.25664431299083 may: 0 o
+T218.2879505969904 tires ( #3 found:14 hypo:144 ) > 3 _i_e__ ~ t r
+T218.28823552098766 word: 2 _i_e_
+T218.28826152099646 may: 2 r t
+T223.112296856998 tires ( #3 found:14 hypo:144 ) > 4 __re_
+T223.11246593800024 word: 3 __re_
+T223.1124839129916 may: 3 
+T227.5764564419951 tires ( #3 found:14 hypo:144 ) > 
+T227.57663635199424 question done
+T228.24731586199778 > *
+T229.1003663619922 questioning: ["torta", "#1 found:4 hypo:576"]
+T234.3439888409921 torta ( #1 found:4 hypo:576 ) ? !
+T234.34412533899012 reject: torta
+T235.95186103499145 > *
+T236.75318908999907 questioning: ["torts", "#1 found:5 hypo:576"]
+T245.2562601929967 torts ( #1 found:5 hypo:576 ) ? .
+T245.25642402899393 guess: torts
+T248.45629606899456 torts ( #1 found:5 hypo:576 ) > 1 to__
+T248.4566020929924 word: 0 to___
+T248.456633993992 may: 0 
+T252.24813261399686 torts ( #1 found:5 hypo:576 ) > 1 tor__
+T252.24843305099057 word: 0 tor__
+T252.24846722198708 may: 0 
+T260.1360034059908 torts ( #1 found:5 hypo:576 ) > 
+T260.1361455699953 question done
+T260.78394526199554 > *
+T261.67459184899053 questioning: ["torch", "#1 found:1 hypo:576"]
+T267.44793519499945 torch ( #1 found:1 hypo:576 ) ? 1 torch
+T267.4481026180001 guess: torch
+T267.44815194899275 word: 0 torch
+T267.44816650199937 may: 0 
+T274.93487343299785 torch ( #1 found:1 hypo:576 ) > 
+T274.9349429409922 question done
+T276.08767696499126 > *
+T276.8270971269958 questioning: ["smoke", "#5 found:1 hypo:13824"]
+T291.104082957987 smoke ( #5 found:1 hypo:13824 ) ? .
+T291.1042352479999 guess: smoke
+T297.0079822909902 smoke ( #5 found:1 hypo:13824 ) > 5 smok_
+T297.00822151699685 word: 4 smok_
+T297.00825159098895 may: 4 
+T304.231928750989 smoke ( #5 found:1 hypo:13824 ) > 
+T304.232112615995 question done
+T305.0880083649972 > *
+T305.9605872849934 questioning: ["smoky", "#5 found:1 hypo:24"]
+T314.52024391399755 smoky ( #5 found:1 hypo:24 ) ? 5 smoky
+T314.52044591199956 guess: smoky
+T314.520506558998 word: 4 smoky
+T314.52052467499743 may: 4 
+T320.4720446579886 smoky ( #5 found:1 hypo:24 ) > 
+T320.4721556069999 question done
+T321.12794836198736 > *
+T321.7632449269877 questioning: ["kiter", "#3 found:2 hypo:48"]
+T328.8638786409865 kiter ( #3 found:2 hypo:48 ) ? .
+T328.8640359219862 guess: kiter
+T334.03998808898905 kiter ( #3 found:2 hypo:48 ) > 3 _iter
+T334.0401956259884 word: 2 _iter
+T334.04022750198783 may: 2 
+T337.87210919598874 kiter ( #3 found:2 hypo:48 ) > 
+T337.8722847629979 question done
+T338.5434808299906 > *
+T339.2171881839895 questioning: ["miter", "#3 found:3 hypo:24"]
+T355.55187349898915 miter ( #3 found:3 hypo:24 ) ? !
+T355.552030101986 reject: miter
+T358.6240795509948 > *
+T359.2581353009882 questioning: ["titer", "#3 found:3 hypo:24"]
+T363.22404918199754 titer ( #3 found:3 hypo:24 ) ? 
+T363.22418384999037 question done
+T363.8718392069859 > *
+T364.4436161959893 questioning: ["citer", "#3 found:1 hypo:24"]
+T367.5600742039969 citer ( #3 found:1 hypo:24 ) ? 
+T367.5602026639972 question done
+T368.60001245499006 > *
+T369.21772598499956 questioning: ["liter", "#3 found:2 hypo:24"]
+T378.8395599509968 liter ( #3 found:2 hypo:24 ) ? 3 liter
+T378.8397359169903 guess: liter
+T378.83978675199614 word: 2 liter
+T378.83980252599576 may: 2 
+T383.76038456299284 liter ( #3 found:2 hypo:24 ) > 
+T383.7605723079905 question done
+T385.23214115899464 > *
+T385.65882462999434 questioning: ["lurer", "#4 found:2 hypo:13824"]
+T393.62347229599254 lurer ( #4 found:2 hypo:13824 ) ? 
+T393.62354241999856 question done
+T394.34406994099845 > *
+T394.7515601559862 questioning: ["lured", "#4 found:1 hypo:13824"]
+T405.34394725298625 lured ( #4 found:1 hypo:13824 ) ? 4 lured
+T405.34413583698915 guess: lured
+T405.34419153799536 word: 3 lured
+T405.3442074869963 may: 3 
+T406.5680715419876 lured ( #4 found:1 hypo:13824 ) > 
+T406.5682441129902 question done
+T411.53524405699864 Copy share result and press <Enter>
+T411.53777704999084 result: "squareword.org 1036: 14 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe7\ud83d\udfe9\ud83d\udfe7\ud83d\udfe8\ud83d\udfe7\n\ud83d\udfe7\ud83d\udfe7\ud83d\udfe8\ud83d\udfe8\ud83d\udfe7\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1036"
+T411.53783827999723 <STOP>
