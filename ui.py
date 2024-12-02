@@ -6,7 +6,7 @@ import traceback
 from contextlib import contextmanager
 from collections.abc import Generator, Sequence
 from types import TracebackType
-from typing import final, Callable, Literal, Protocol, TextIO
+from typing import final, override, Callable, Literal, Protocol, TextIO
 
 from strkit import matcherate, PeekStr
 
@@ -96,6 +96,10 @@ class Tokens(PeekStr):
         self._raw = raw
         self._m = matcherate(self.pattern, raw)
         super().__init__(self._m)
+
+    @override
+    def __repr__(self):
+        return f'Tokens(raw={self._raw!r}, _val={self._val!r}, _rest={self._m.rest!r})'
 
     @property
     def raw(self):
