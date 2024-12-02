@@ -197,6 +197,20 @@ class PeekStr(PeekIter[str]):
                 return
             yield self.take()
 
+def trimlines(lines: Iterable[str]):
+    first = True
+    prior: str|None = None
+    for line in lines:
+        if prior is not None:
+            yield prior
+            prior = None
+        if not line.strip():
+            if not first: prior = line
+        else:
+            first = False
+            yield line
+    # NOTE the entire point is to NOT `yield prior` after falling out the loop
+
 class MarkedSpec:
     @staticmethod
     def uncomment_lines(lines: Iterable[str]):
@@ -206,7 +220,8 @@ class MarkedSpec:
 
     @classmethod
     def iterlines(cls, spec: str):
-        lines = spliterate(spec, '\n', trim=True)
+        lines = spliterate(spec, '\n')
+        lines = trimlines(lines)
         lines = striperate(lines)
         lines = cls.uncomment_lines(lines)
         return lines
