@@ -197,6 +197,40 @@ class PeekStr(PeekIter[str]):
                 return
             yield self.take()
 
+def test_marked_spec_lines():
+    assert list(MarkedSpec.iterlines('''
+
+        > first
+        // should skip
+        - second: thing // should strip
+
+        > second
+        - quoted: ```
+        raw quoted
+        // should not skip
+        and // should not strip
+        ```
+        - back: to // normal
+        // ignore me
+        - but: keep this
+
+    ''')) == [
+
+        "> first",
+        "- second: thing ",
+        "",
+        "> second",
+        "- quoted: ```",
+        "raw quoted",
+        "// should not skip",
+        "and // should not strip",
+        "```",
+        "- back: to ",
+        "- but: keep this",
+        "",
+
+    ]
+
 def trimlines(lines: Iterable[str]):
     first = True
     prior: str|None = None
@@ -214,9 +248,22 @@ def trimlines(lines: Iterable[str]):
 class MarkedSpec:
     @staticmethod
     def uncomment_lines(lines: Iterable[str]):
-        for line in lines:
-            if line.startswith('//'): continue
-            yield line
+        it = iter(lines)
+        while True:
+            for line in it:
+                if line.startswith('//'): continue
+                if line.endswith('```'):
+                    yield line
+                    break
+                line, _mark, _rem = line.partition('//')
+                yield line
+            else:
+                break
+            for line in it:
+                yield line
+                if line == '```': break
+            else:
+                break
 
     @classmethod
     def iterlines(cls, spec: str):
