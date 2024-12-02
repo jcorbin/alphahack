@@ -2558,39 +2558,60 @@ def test_word_extraction(spec: MarkedSpec):
     ] == expected
 
 @pytest.mark.parametrize('spec', list(MarkedSpec.iterspecs('''
+
+    #init_10
     > *
     - prompt: give me 10 words that are not related to each other
     - clear: false
 
+    #t3
     > * t3
     - prior: give me 10 words that are not related to each other
     - prompt: give me 15 words that are related to $1, $2, and $3
     - clear: false
 
+    #t3_x9
     > *9 t3
     - prior: give me 10 words that are not related to each other
     - prompt: give me 9 words that are related to $1, $2, and $3
     - clear: false
 
+    #t4_clear
     > *t4 /clear
     - prior: give me 9 words that are related to $1, $2, and $3
     - prompt: give me 12 words that are related to $1, $2, $3, and $4
     - clear: true
 
+    #few_novel
     > * $1 $10 $13 !new
     - prior: give me 8 French words that are related to $1 and $2
     - prompt: give me 12 French words that are related to $1, $10, and $13; do not list any words that you have already listed above
     - clear: false
 
+    #related_t2_novel
     > * related t2 !new
     - prior: give me 5 French words that are not related to $1
     - prompt: give me 10 French words that are related to $1 and $2; do not list any words that you have already listed above
     - clear: false
 
+    #t2_plus6_clear_dot
     > * t2 $6 /clear .
     - prior: give me 10 words that are related to $1 and $2
     - prompt: give me 15 words that are related to $1, $2, and $6
     - clear: true
+
+    #french_seen_with_x9_1_novel
+    > *9 seen with $1 !new
+    - prior: give me 10 French words that are not related to each other
+    - prompt: give me 9 French words that are seen with $1; do not list any words that you have already listed above
+    - clear: false
+
+    #..._x15_similar_t3
+    > *15 similar t3 // NOTE trailing space before comment was regression cause
+    - prior: give me 9 French words that are seen with $1; do not list any words that you have already listed above
+    - prompt: give me 15 French words that are similar to $1, $2, and $3; do not list any words that you have already listed above
+    - clear: false
+
 ''')), ids=MarkedSpec.get_id)
 def test_gen_prompt(spec: MarkedSpec):
     input = spec.input
