@@ -198,14 +198,17 @@ class PeekStr(PeekIter[str]):
             yield self.take()
 
 class MarkedSpec:
+    @staticmethod
+    def uncomment_lines(lines: Iterable[str]):
+        for line in lines:
+            if line.startswith('//'): continue
+            yield line
+
     @classmethod
     def iterlines(cls, spec: str):
         lines = spliterate(spec, '\n', trim=True)
         lines = striperate(lines)
-        lines = (
-            line
-            for line in lines
-            if not line.startswith('//'))
+        lines = cls.uncomment_lines(lines)
         return lines
 
     @classmethod
