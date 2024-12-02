@@ -1442,3 +1442,15 @@ See log/squareword.org/#1035
 # 2024-12-02 squareword.org
 
 See log/squareword.org/#1036
+
+# 2024-12-02 alphaguess.com
+
+```
+🧩 Puzzle #496
+
+🤔 13 guesses
+
+⏱️ 25s
+
+🔗 alphaguess.com
+```
