@@ -1256,6 +1256,8 @@ class Search(StoredLog):
         title: str
         coll: MutableMapping[str, str]|MutableMapping[str, str|bytes]
 
+        # TODO verbosity
+
         if ui.tokens.have(r'co(o(k(ie?)?)?)?$'):
             title = 'cookie'
             coll = self.http_client.cookies
