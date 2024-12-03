@@ -1,0 +1,963 @@
+T0.004414784023538232 now: 2024-12-03T12:15:37EST
+T0.008513342996593565 request: {"method": "GET", "url": "https://cemantle.certitudes.org/", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantle.certitudes.org", "Referer": "https://cemantle.certitudes.org/"}, "data": null}
+T3.233026742003858 response: {"url": "https://cemantle.certitudes.org/", "status": 200, "reason": "OK", "headers": {"server": "Fly/ef5cd8bd0 (2024-12-02)", "date": "Tue, 03 Dec 2024 17:23:49 GMT", "connection": "keep-alive", "content-type": "text/html; charset=utf-8", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JE6RSDNVV8YN8Q1A9QPDAJPC-lga"}, "content": "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t<meta name=\"description\" content=\"Find the secret word by trying to get as semantically close as possible.\">\n\t<meta property=\"og:title\" content=\"cemantle - Find the secret word!\">\n\t<meta property=\"og:description\" content=\"Find the secret word by trying to get as semantically close as possible.\">\n\t<meta property=\"og:type\" content=\"website\">\n\t<meta property=\"og:image\" content=\"https://static.certitudes.org/images/cemantle.png\">\n\t<meta property=\"og:url\" content=\"https://cemantle.certitudes.org/\">\n\t<meta property=\"og:site_name\" content=\"cemantle\">\n\t<title id=\"app-title\">cemantle</title>\n\t<link rel=\"stylesheet\" href=\"https://static.certitudes.org/html/cemantle.css\">\n\t<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/icon?family=Material+Icons\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"https://static.certitudes.org/images/cemantle-32x32.png\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"https://static.certitudes.org/images/cemantle-16x16.png\">\n\t<link rel=\"apple-touch-icon\" href=\"https://static.certitudes.org/images/cemantle-192x192.png\">\n\t<link rel=\"apple-touch-icon-precomposed\" href=\"https://static.certitudes.org/images/cemantle-192x192.png\">\n\t<link rel=\"apple-touch-icon-120x120\" href=\"https://static.certitudes.org/images/cemantle-192x192.png\">\n\t<link rel=\"apple-touch-icon-120x120-precomposed\" href=\"https://static.certitudes.org/images/cemantle-192x192.png\">\n\t<link rel=\"apple-touch-icon-152x152\" href=\"https://static.certitudes.org/images/cemantle-192x192.png\">\n\t<link rel=\"apple-touch-icon-152x152-precomposed\" href=\"https://static.certitudes.org/images/cemantle-192x192.png\">\n\t<link rel=\"manifest\" href=\"https://static.certitudes.org/html/cemantle.webmanifest\">\n\t<script id=\"cemantle-script\" type=\"module\" src=\"https://static.certitudes.org/html/cemantle.js\" data-puzzle-number=\"974\" data-utc-time=\"1733212800\" data-app=\"cemantle\"></script>\n\t<script id=\"pedantle-script\" type=\"module\" src=\"https://static.certitudes.org/html/pedantle.js\" data-puzzle-number=\"929\" data-utc-time=\"1733169600\" data-app=\"cemantle\"></script>\n\t<base target=\"_blank\">\n\t</head>\n\t<body>\n\t<div id=\"dialog-underlay\">\n\t\t<div aria-modal=\"true\" role=\"dialog\" id=\"dialog\">\n\t\t\t<a id=\"dialog-close\" aria-label=\"Close\">&times;</a>\n\t\t\t<div class=\"dialog-content\" id=\"cloud\">\n\t\t\t\t<h3>Collaborate</h3>\n\t\t\t\t<div id=\"team-collab\">\n\t\t\t\t<p>You can collaborate as a team on a game by generating a code to share. Users of this code will receive the words you find in the top 1000, and you\u2019ll receive theirs. The code is good for the day.<br>\n\t\t\t\tThis feature uses some resources in limited quantity, therefore:</p><ul><li>There\u2019s no point creating a team right before midnight, it will be lost when the time comes.</li><li>Please do not share the code publicly on social networks!</li><li>Thanks for playing the game \ud83d\ude42</li></ul>\n\t\t\t\t<p class=\"headline\" id=\"start-team\">Create a team: <input type=\"submit\" value=\"Get the code\" id=\"start\"></p>\n\t\t\t\t<p class=\"headline\" id=\"join-team\">Join a team: <input placeholder=\"Code\" autocorrect=\"off\" autocapitalize=\"none\" autocomplete=\"off\" type=\"text\" id=\"code\"><input type=\"submit\" value=\"Validate\" id=\"join\"></p>\n\t\t\t\t<p class=\"headline\" id=\"leave-team\">You\u2019re in team <b><span class=\"teamcode\" id=\"team\"></span></b> <input type=\"submit\" value=\"Leave\" id=\"leave\"></p>\n\t\t\t\t<div id=\"team-status\"></div>\n\t\t\t\t<div id=\"team-error\" class=\"footer\"></div>\n\t\t\t\t</div>\n\t\t\t\t<div id=\"twitter-collab\">\n\t\t\t\t<p>You can continue your game on another device by identifying yourself with Twitter. You just have to authenticate with Twitter on both devices for the game to be shared. No data from your Twitter account other than your ID is used.</p>\n\t\t\t\t<p class=\"headline\" id=\"join-twitter\">Authenticate with Twitter: <button id=\"signin\"><img class=\"twitter-button\" alt=\"Twitter\" src=\"https://static.certitudes.org/images/twitter.svg\"> Sign in</button></p>\n\t\t\t\t</div>\n\t\t\t\t<p class=\"headline\" id=\"leave-twitter\">You\u2019re signed in as <img class=\"twitter-button\" alt=\"Twitter\" id=\"twitter-photo\">&nbsp;<b><span id=\"twitter-name\"></span></b><input type=\"submit\" value=\"Sign out\" id=\"signout\"></p>\n\t\t\t\t<span id=\"twitter-status\"></span>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"history\">\n\t\t\t\t<h3>History</h3>\n\t\t\t\t<p>You can synchronize your history across devices by identifying yourself with Twitter. No data from your Twitter account other than your ID is used.</p>\n\t\t\t\t<p class=\"headline\" id=\"sync-twitter\">Authenticate with Twitter: <button id=\"sync\"><img class=\"twitter-button\" alt=\"Twitter\" src=\"https://static.certitudes.org/images/twitter.svg\"> Sign in</button></p>\n\t\t\t\t<p class=\"headline\" id=\"synced-twitter\">You\u2019re signed in as <img class=\"twitter-button\" alt=\"Twitter\" id=\"sync-photo\">&nbsp;<b><span id=\"sync-name\"></span></b>.</p>\n\t\t\t\t<div id=\"history-sync\">Synced <span id=\"sync-time\"></span>. <a id=\"refresh\" title=\"Sync\">\ud83d\udd03 <u>Sync</u></a><br><br></div>\n\t\t\t\t<table>\n\t\t\t\t\t<thead>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th class=\"number\">#</th>\n\t\t\t\t\t\t<th class=\"word\" id=\"history-header\">Word&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t\t<th class=\"number\">Guesses</th>\n\t\t\t\t\t\t<th>\ud83e\udd73</th>\n\t\t\t\t\t\t<th class=\"number\">Solvers</th>\n\t\t\t\t\t\t<th></th>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</thead>\n\t\t\t\t\t<tbody id=\"historybody\"></tbody>\n\t\t\t\t</table>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"story\">\n\t\t\t<h3 class=\"noselect\">Share</h3>\n\t\t\t\t<p class=\"headline\" id=\"share-story\"></p>\n\t\t\t\t<span class=\"footer noselect\" id=\"clipboard\"></span>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"theme\">\n\t\t\t<h3 class=\"noselect\">Colors</h3>\n\t\t\t\t<table class=\"headline\">\n\t\t\t\t<tr>\n\t\t\t\t\t<th>\ud83c\udfa8 Theme&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t<th>\ud83d\udd06 Mode</th>\n\t\t\t\t\t<th>\ud83c\udf6d Accessibility</th>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td><input type=\"radio\" name=\"theme\" id=\"colorful\"> Mardi Gras</td>\n\t\t\t\t\t<td><input type=\"radio\" name=\"mode\" id=\"light\"> Light</td>\n\t\t\t\t\t<td><input type=\"checkbox\" id=\"blind\"> Color Blindness</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td><input type=\"radio\" name=\"theme\" id=\"grey\"> Halloween</td>\n\t\t\t\t\t<td><input type=\"radio\" name=\"mode\" id=\"dark\"> Dark</td>\n\t\t\t\t\t<td></td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td></td>\n\t\t\t\t\t<td><input type=\"radio\" name=\"mode\" id=\"system\"> System</td>\n\t\t\t\t\t<td></td>\n\t\t\t\t</tr>\n\t\t\t\t</table>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"cemantle-rules\">\n\t\t\t\t<h3>Find the secret word!</h3>\n\t\t\t\t<div id=\"cemantle-rulesbody\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"pedantle-rules\">\n\t\t\t\t<h3>Uncover the Wikipedia page!</h3>\n\t\t\t\t<div id=\"pedantle-rulesbody\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"faq\">\n\t\t\t\t<h3>FAQ</h3>\n\t\t\t\t<div id=\"faqbody\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"announcement\">\n\t\t\t<h3>Announcement</h3>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"yestertable\">\n\t\t\t\t<h3>Words close to <i>canal</i></h3>\n\t\t\t\t<table>\n\t\t\t\t\t<thead>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th class=\"number\">#</th>\n\t\t\t\t\t\t<th class=\"word\">Word&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t\t<th class=\"number\">\u00b0C</th>\n\t\t\t\t\t\t<th>&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t\t<th class=\"number\">\u2030</th>\n\t\t\t\t\t\t<th></th>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</thead>\n\t\t\t\t\t<tbody id=\"yesterbody\">\n\t\t\t\t\t</tbody>\n\t\t\t\t</table>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<aside class=\"aside\">\n\t<nav class=\"menu\">\n\t\t<a class=\"material-icons icon\" id=\"rules-button\" title=\"Rules\" aria-label=\"Rules\">info</a>\n\t\t<a class=\"material-icons icon\" id=\"faq-button\" title=\"FAQ\" aria-label=\"FAQ\">quiz</a>\n\t\t<a class=\"material-icons icon\" id=\"theme-button\" title=\"Colors\" aria-label=\"Colors\">palette</a>\n\t\t<a class=\"material-icons icon\" id=\"history-button\" title=\"History\" aria-label=\"History\">history</a>\n\t\t<a class=\"material-icons icon\" id=\"cloud-button\" title=\"Collaborate\" aria-label=\"Collaborate\">cloud</a><sup id=\"team-members\"></sup>\n\t</nav>\n\n\t<div class=\"summary\">\n\t\t<h3>Day <b id=\"puzzle-num\">974</b></h3>\n\t\t<div>Found by <span id=\"solved\">\n\t\t\n\t\t321\n\t\t\n\t\t</span> <span id=\"plural\">\n\t\t\n\t\tpeople\n\t\t\n\t\t</span></div>\n\t\t<div id=\"cemantle-summary\" style=\"display:run-in\">\n\t\t\t<p id=\"cemantle-day-meter\">\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca</p>\n\t\t\t<table class=\"story\">\n\t\t\t\t<thead>\n\t\t\t\t<tr><th class=\"number\"><b>\u2030</b></th><th class=\"emoji\">\ud83c\udf21</th><th class=\"number\"><b>\u00b0C</b></th></tr>\n\t\t\t\t</thead>\n\t\t\t\t<tr><td class=\"number\">1000</td><td class=\"emoji\">\ud83e\udd73</td><td class=\"decimal number\">100</td></tr>\n\t\t\t\t<tr><td class=\"number\">999</td><td class=\"emoji\">\ud83d\ude31</td><td class=\"decimal number\">63.52</td></tr>\n\t\t\t\t<tr><td class=\"number\">990</td><td class=\"emoji\">\ud83d\udd25</td><td class=\"decimal number\">43.48</td></tr>\n\t\t\t\t<tr><td class=\"number\">900</td><td class=\"emoji\">\ud83e\udd75</td><td class=\"decimal number\">32.82</td></tr>\n\t\t\t\t<tr><td class=\"number\">1</td><td class=\"emoji\">\ud83d\ude0e</td><td class=\"decimal number\">23.91</td></tr>\n\t\t\t\t<tr><td class=\"number\"></td><td class=\"emoji\">\ud83e\udd76</td><td class=\"decimal number\">0</td></tr>\n\t\t\t\t<tr><td class=\"number\"></td><td class=\"emoji\">\ud83e\uddca</td><td class=\"decimal number\">-100</td></tr>\n\t\t\t</table>\n\t\t\t<div class=\"yesterday\">\n\t\t\tYesterday\u2019s word was <a id=\"cemantle-yesterday\"><b><u>canal</u></b></a>\n\t\t\t</div>\n\t\t\t\ud83c\uddeb\ud83c\uddf7 <a href=\"https://cemantix.certitudes.org/\">c\u00e9mantix</a>\n\t\t</div>\n\t\t<div id=\"pedantle-summary\" style=\"display:none\">\n\t\t\t<p id=\"pedantle-day-meter\">\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5</p>\n\t\t\t<table id=\"pedantle-guessable\" class=\"guessable\">\n\t\t\t\t<thead>\n\t\t\t\t<tr>\n\t\t\t\t\t<th class=\"number order\" id=\"pedantle-chronoOrder\">#</th>\n\t\t\t\t\t<th class=\"word order\" id=\"pedantle-alphaOrder\">Word&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t<th><a id=\"collapse\" title=\"Collapse\">\u2195\ufe0f</a></th>\n\t\t\t\t</tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody id=\"pedantle-guesses\" class=\"guesses\">\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t\t<div>\n\t\t\t\t<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4647911637720565\" crossorigin=\"anonymous\"></script>\n\t\t\t\t<ins id=\"pedantle-ad\"\n\t\t\t\t\tstyle=\"display:inline-block;width:200px;\"\n\t\t\t\t\tdata-ad-client=\"ca-pub-4647911637720565\"\n\t\t\t\t\tdata-ad-slot=\"4548660348\"\n\t\t\t\t\tdata-ad-format=\"vertical\">\n\t\t\t\t</ins>\n\t\t\t</div>\n\t\t\t<div class=\"yesterday\">\n\t\t\tYesterday\u2019s page was:<br><a id=\"pedantle-yesterday\" href=\"https://en.wikipedia.org/wiki/Algorithm\"><b><u>Algorithm</u></b></a>\n\t\t\t</div>\n\t\t\t\ud83c\uddeb\ud83c\uddf7 <a href=\"https://cemantix.certitudes.org/pedantix\">p\u00e9dantix</a>\n\t\t</div>\n\t\t<div><p>\n\t\t<script src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script>kofiwidget2.init('Buy me a coffee!', '#29abe0', 'T6T7BSPCW');kofiwidget2.draw();</script>\n\t\t</p></div>\n\t</div>\n\t</aside>\n\t\n\t<article class=\"main\">\n\t<div id=\"tabs\">\n\t\t<a id=\"cemantle\" class=\"active tab\">\n\t\t\t<img alt=\"Find the secret word!\" src=\"https://static.certitudes.org/images/cemantle.svg\" width=\"240\" height=\"180\">\n\t\t\t<span id=\"cemantle-title\" class=\"caption\">Find the secret word!</span>\n\t\t</a>\n\t\t<a id=\"pedantle\" class=\"inactive tab\">\n\t\t\t<img alt=\"Uncover the Wikipedia page!\" src=\"https://static.certitudes.org/images/pedantle.svg\" width=\"240\" height=\"180\">\n\t\t\t<span id=\"pedantle-title\" class=\"caption\">Uncover the Wikipedia page!</span>\n\t\t</a>\n\t</div>\n\t<div id=\"content\">\n\t\t<div id=\"cemantle-game\" style=\"display:run-in\">\n\t\t\t<div id=\"cemantle-success\" class=\"success\" style=\"display:run-in\">\n\t\t\t\t<p><b>Congrats!</b> You\u2019re the <b><span id=\"cemantle-ranking\"></span></b> to find it, in <b><span id=\"cemantle-tries\"></span></b>. Summary of the day:</p>\n\t\t\t\t<p><span id=\"cemantle-meter\"></span></p>\n\t\t\t\t<p><a id=\"cemantle-share\"><u><b>Share</b></u></a> and come back to play tomorrow.</p>\n\t\t\t\t<p><input type=\"checkbox\" id=\"cemantle-see\" class=\"see\"> See the <span id=\"cemantle-solution\"></span>nearest words</p>\n\t\t\t</div>\n\t\t\t<form id=\"cemantle-form\" class=\"form\">\n\t\t\t\t<div class=\"guessbox\">\n\t\t\t\t\t<input placeholder=\"Word\" autocorrect=\"off\" autocapitalize=\"none\" autocomplete=\"off\" type=\"search\" name=\"searchTerm\" id=\"cemantle-guess\" class=\"guess\">\n\t\t\t\t\t<div id=\"cemantle-previous\" class=\"previous\">&#10554;</div>\n\t\t\t\t</div>\n\t\t\t\t<input type=\"submit\" value=\"Submit\" id=\"cemantle-guess-btn\" class=\"guess-btn\" disabled>\n\t\t\t\t<label id=\"cemantle-error\" class=\"error\"></label>\n\t\t\t</form>\n\t\t\t<div id=\"cemantle-secret\" class=\"secret\"><a id=\"cemantle-reveal\" title=\"Reveal\" aria-label=\"Reveal\"><u>Reveal the secret word</u>&nbsp;\ud83d\udc40</a></div>\n\t\t\t<table id=\"cemantle-guessable\" class=\"guessable game\">\n\t\t\t\t<thead>\n\t\t\t\t<tr>\n\t\t\t\t\t<th class=\"number order\" id=\"cemantle-chronoOrder\">#</th>\n\t\t\t\t\t<th class=\"word order\" id=\"cemantle-alphaOrder\">Word&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t<th class=\"number order\" id=\"temperatureOrder\">\u00b0C</th>\n\t\t\t\t\t<th class=\"emoji\">\ud83c\udf21</th>\n\t\t\t\t\t<th class=\"number\">\u2030</th>\n\t\t\t\t\t<th class=\"progress\">Progress</th>\n\t\t\t\t</tr>\n\t\t\t\t<tr id=\"cemantle-guessed\" class=\"guesses\"><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody id=\"cemantle-guesses\" class=\"guesses\">\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t\t<div>\n\t\t\t\t<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4647911637720565\" crossorigin=\"anonymous\"></script>\n\t\t\t\t<ins id=\"cemantle-ad\"\n\t\t\t\t\tstyle=\"display:block; text-align:center;\"\n\t\t\t\t\tdata-ad-layout=\"in-article\"\n\t\t\t\t\tdata-ad-format=\"fluid\"\n\t\t\t\t\tdata-ad-client=\"ca-pub-4647911637720565\"\n\t\t\t\t\tdata-ad-slot=\"5151295573\">\n\t\t\t\t</ins>\n\t\t\t</div>\n\t\t</div>\n\t\t<div id=\"pedantle-game\" style=\"display:none\">\n\t\t\t<div id=\"pedantle-success\" class=\"success\" style=\"display:none\">\n\t\t\t\t<p><b>Congrats!</b> You\u2019re the <b><span id=\"pedantle-ranking\"></span></b> to find it, in <b><span id=\"pedantle-tries\"></span></b>. Summary of the day:</p>\n\t\t\t\t<p><span id=\"pedantle-meter\"></span></p>\n\t\t\t\t<p><a id=\"pedantle-share\"><u><b>Share</b></u></a> and come back to play tomorrow.</p>\n\t\t\t\t<p><input type=\"checkbox\" id=\"pedantle-see\" class=\"see\"> See the <u><b><a id=\"pedantle-solution\" title=\"Wikipedia page\">page</a></b></u><input type=\"checkbox\" id=\"pedantle-word\" class=\"see\"> Reveal words separately</p>\n\t\t\t</div>\n\t\t\t<form id=\"pedantle-form\" class=\"form\">\n\t\t\t\t<span id=\"pin\">\ud83d\udccd</span>\n\t\t\t\t<div class=\"guessbox\">\n\t\t\t\t\t<input size=\"15\" placeholder=\"Word\" autocorrect=\"off\" autocapitalize=\"none\" autocomplete=\"off\" type=\"search\" name=\"searchTerm\" id=\"pedantle-guess\" class=\"guess\">\n\t\t\t\t\t<div id=\"pedantle-previous\" class=\"previous\">&#10554;</div>\n\t\t\t\t</div>\n\t\t\t\t<input type=\"submit\" value=\"Submit\" id=\"pedantle-guess-btn\" class=\"guess-btn\" disabled>\n\t\t\t\t<label id=\"pedantle-error\" class=\"error\"></label>\n\t\t\t</form>\n\t\t\t<div id=\"pedantle-secret\" class=\"secret\"><a id=\"pedantle-reveal\" title=\"Reveal\" aria-label=\"Reveal\"><u>Reveal the secret page</u>&nbsp;\ud83d\udc40</a></div>\n\t\t\t<div id=\"wiki\" class=\"game\">\n\t\t\t\t<h2><span class=\"h w\" id=\"0\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <img id=\"wiki-img\"></h2>\n\t\t\t\t<div id=\"article\"><p></p><p><b><span class=\"w\" id=\"1\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span></b> <span class=\"w\" id=\"2\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"3\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"4\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"5\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"6\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"7\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"8\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"9\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"10\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"11\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"12\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"13\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"14\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"15\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"16\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"17\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"18\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"19\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"20\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"21\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"22\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"23\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"24\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"25\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"26\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"27\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"28\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"29\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"30\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"31\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"32\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"33\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"34\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"35\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"36\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"37\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"38\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"39\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"40\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"41\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"42\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"43\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"44\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"45\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"46\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"47\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"48\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"49\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"50\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"51\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"52\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"53\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"54\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"55\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>.</p><p><span class=\"w\" id=\"56\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"57\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"58\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"59\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"60\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"61\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"62\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"63\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"64\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"65\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"66\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"67\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"68\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"69\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"70\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"71\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"72\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"73\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"74\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"75\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"76\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"77\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"78\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"79\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"80\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"81\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"82\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"83\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"84\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"85\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"86\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"87\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"88\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"89\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"90\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"91\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"92\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"93\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"94\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"95\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"96\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"97\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"98\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"99\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"100\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"101\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"102\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"103\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"104\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"105\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"106\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"107\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"108\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"109\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"110\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"111\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"112\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"113\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"114\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"115\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"116\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"117\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"118\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"119\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"120\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"121\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>.</p><p><span class=\"w\" id=\"122\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"123\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"124\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"125\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"126\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"127\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"128\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"129\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"130\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"131\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"132\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"133\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"134\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"135\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"136\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"137\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"138\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"139\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"140\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"141\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"142\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"143\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"144\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"145\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"146\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"147\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"148\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"149\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"150\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"151\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"152\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"153\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"154\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"155\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"156\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"157\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"158\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"159\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"160\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"161\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"162\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"163\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"164\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"165\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"166\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>.</p><p><span class=\"w\" id=\"167\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"168\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"169\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"170\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"171\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"172\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"173\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"174\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"175\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"176\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"177\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"178\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"179\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"180\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"181\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"182\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"183\">\u00a0\u00a0\u00a0\u00a0</span><span class=\"w\" id=\"184\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"185\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"186\">\u00a0\u00a0\u00a0\u00a0</span><span class=\"w\" id=\"187\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"188\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"189\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"190\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"191\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"192\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"193\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"194\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"195\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"196\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"197\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"198\">\u00a0\u00a0\u00a0\u00a0</span><span class=\"w\" id=\"199\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"200\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"201\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"202\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"203\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"204\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"205\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"206\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"207\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"208\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"209\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"210\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"211\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"212\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"213\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"214\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"215\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"216\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"217\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"218\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"219\">\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"220\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"221\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"222\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"223\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"224\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"225\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"226\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"227\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"228\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"229\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"230\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"231\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"232\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"233\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"234\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"235\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"236\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"237\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"238\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"239\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"240\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"241\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"242\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"243\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"244\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"245\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"246\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"247\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"248\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"249\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"250\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"251\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"252\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"253\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"254\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"255\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"256\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"257\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"258\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"259\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"260\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"261\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"262\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"263\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"264\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"265\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"266\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"267\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"268\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>.</p></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t</article>\n\n\t<footer class=\"footer\">\n\t\t<div id=\"cemantle-credits\" style=\"display:run-in\">Maintained by <a href=\"https://twitter.com/cemantle\">Julie</a>. Inspired from <a href=\"https://semantle.com/\">Semantle</a> by David Turner and <a href=\"https://cemantix.certitudes.org/\">c\u00e9mantix</a> by <a href=\"https://twitter.com/enigmathix\">enigmatix</a>. Data from <a href=\"https://code.google.com/archive/p/word2vec/\">Google</a>. <a href=\"https://static.certitudes.org/html/cemantle-privacy.html\">Privacy Policy</a>.</div>\n\t\t<div id=\"pedantle-credits\" style=\"display:none\">Maintained by <a href=\"https://twitter.com/cemantle\">Julie</a>. Inspired from <a href=\"https://cemantix.certitudes.org/pedantix\">p\u00e9dantix</a> by <a href=\"https://twitter.com/enigmathix\">enigmatix</a>. Data from <a href=\"https://code.google.com/archive/p/word2vec/\">Google</a> and <a href=\"https://en.wikipedia.org\">Wikipedia</a>. <a href=\"https://static.certitudes.org/html/cemantle-privacy.html\">Privacy Policy</a>.</div>\n\t</footer>\n\t</body>\n</html>"}
+T3.256014831014909 puzzle_id: #974
+T3.2560499050014187 pubtime: 1733212800
+T3.2569209670182317 scale: 🥳 100.00 °C
+T3.2569772110146005 scale: 😱 63.52 °C
+T3.25702710999758 scale: 🔥 43.48 °C
+T3.2570709999999963 scale: 🥵 32.82 °C
+T3.257113166007912 scale: 😎 23.91 °C
+T3.2571560590004083 scale: 🥶 0.00 °C
+T3.2571959760098252 scale: 🧊 -100.00 °C
+T3.257462674024282 request: {"method": "GET", "url": "https://cemantle.certitudes.org/stats", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantle.certitudes.org", "Referer": "https://cemantle.certitudes.org/"}, "data": null}
+T3.3054667109972797 response: {"url": "https://cemantle.certitudes.org/stats", "status": 200, "reason": "OK", "headers": {"server": "Fly/ef5cd8bd0 (2024-12-02)", "date": "Tue, 03 Dec 2024 17:23:49 GMT", "connection": "keep-alive", "content-type": "application/json", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JE6RSDRQQQC4KGCPKE16QEJ4-lga"}, "content": "{\"num\":974,\"solvers\":321}\n"}
+T3.3133101670246106 session model: llama3.2:latest
+T9.71057267600554 #1 ? 
+T9.710995616012951 chat_prompt: give me 10 words that are not related to each other
+T9.71119378900039 session: {"role": "user", "content": "give me 10 words that are not related to each other"}
+T16.050681474007433 session: {"role": "assistant", "content": "Here are 10 words that are not related to each other:\n\n1. Space\n2. Pineapple\n3. Guitar\n4. Snowflake\n5. Perfume\n6. Luggage\n7. Basketball\n8. Starfish\n9. Fountain\n10. Typewriter"}
+T60.83006877001026 #1 extract_...
+T64.47080588201061 🤔 extract_1/10 #1 "basketball" score? 1.08
+T64.47111188599956 attempt_0: "basketball" score:1.08 prog:None
+T67.15086447901558 🤔 extract_1/9 #2 "fountain" score? 5.72
+T67.1511969359999 attempt_1: "fountain" score:5.72 prog:None
+T69.63821408801596 🤔 extract_1/8 #3 "guitar" score? -4.4
+T69.63836214900948 attempt_2: "guitar" score:-4.40 prog:None
+T72.41466067000874 🤔 extract_1/7 #4 "luggage" score? 7.23
+T72.41488781099906 attempt_3: "luggage" score:7.23 prog:None
+T76.19069978201878 🤔 extract_1/6 #5 "perfume" score? -11.28
+T76.19094746900373 attempt_4: "perfume" score:-11.28 prog:None
+T78.43845604901435 🤔 extract_1/5 #6 "pineapple" score? 3.55
+T78.4386983520235 attempt_5: "pineapple" score:3.55 prog:None
+T81.99055796200992 🤔 extract_1/4 #7 "snowflake" score? 4.94
+T81.99076819702168 attempt_6: "snowflake" score:4.94 prog:None
+T84.6382285960135 🤔 extract_1/3 #8 "space" score? 5.91
+T84.63843079999788 attempt_7: "space" score:5.91 prog:None
+T91.88665994702023 🤔 extract_1/2 #9 "starfish" score? 14.61
+T91.88684142302372 attempt_8: "starfish" score:14.61 prog:None
+T95.30220651702257 🤔 extract_1/1 #10 "typewriter" score? -.45
+T95.30236235802295 attempt_9: "typewriter" score:-0.45 prog:None
+T98.21459465101361 #11 ? *10 t2
+T98.21566722000716 chat_prompt: give me 10 words that are related to $1 and $2
+T98.21587125901715 session: {"role": "user", "content": "give me 10 words that are related to \"starfish\" and \"luggage\""}
+T114.71533020600327 session: {"role": "assistant", "content": "Here are 10 words that are related to both \"starfish\" and \"luggage\":\n\n1. Ocean (both starfish live in the ocean, and luggage can be used on a cruise)\n2. Travel (both starfish and luggage are often associated with travel or transportation)\n3. Beach (many people go to the beach to see starfish, and luggage is often packed for a beach vacation)\n4. Packing (both starfish and luggage require careful packing or arrangement)\n5. Shipping (some types of luggage are used for shipping goods, while starfish can be shipped in aquariums)\n6. Container (luggage is often stored in containers, and some types of starfish live in container ships)\n7. Exploration (starfish can be explored in the ocean, and people use luggage to explore new places)\n8. Cargo (some types of luggage are used for cargo, while starfish can be considered a type of marine cargo)\n9. Transportation (both starfish and luggage require transportation to reach their destinations)\n10. Storage (luggage requires storage when not in use, and some types of starfish live in storage tanks or aquariums)"}
+T116.56611585299834 #11 extract_...
+T119.2466009260097 🤔 extract_1/10 #11 "beach" score? 3.51
+T119.24691899999743 attempt_10: "beach" score:3.51 prog:None
+T121.63011461202404 🤔 extract_1/9 #12 "cargo" score? 12.7
+T121.63021757101524 attempt_11: "cargo" score:12.70 prog:None
+T124.29434511900763 🤔 extract_1/8 #13 "container" score? 4.96
+T124.29451977001736 attempt_12: "container" score:4.96 prog:None
+T126.76630726602161 🤔 extract_1/7 #14 "exploration" score? 12.92
+T126.76641874300549 attempt_13: "exploration" score:12.92 prog:None
+T130.78239467402454 🤔 extract_1/6 #15 "ocean" score? 17.15
+T130.78259604601772 attempt_14: "ocean" score:17.15 prog:None
+T133.38242784902104 🤔 extract_1/5 #16 "packing" score? 7.6
+T133.3826000940171 attempt_15: "packing" score:7.60 prog:None
+T137.07027085800655 🤔 extract_1/4 #17 "shipping" score? 22.77
+T137.07043437700486 attempt_16: "shipping" score:22.77 prog:None
+T140.82237060001353 🤔 extract_1/3 #18 "storage" score? 20.98
+T140.8225529330084 attempt_17: "storage" score:20.98 prog:None
+T143.69443069101544 🤔 extract_1/2 #19 "transportation" score? 14.41
+T143.69463658099994 attempt_18: "transportation" score:14.41 prog:None
+T146.6384552649979 🤔 extract_1/1 #20 "travel" score? 20.31
+T146.63865500100655 attempt_19: "travel" score:20.31 prog:None
+T149.39864642600878 #21 ? *t3
+T149.3991612730024 chat_prompt: give me 15 words that are related to $1, $2, and $3
+T149.39944715899765 session: {"role": "user", "content": "give me 15 words that are related to \"shipping\", \"storage\", and \"travel\""}
+T155.62010292700143 session: {"role": "assistant", "content": "Here are 15 words that are related to \"shipping\", \"storage\", and \"travel\":\n\n1. Cargo\n2. Port\n3. Freight\n4. Container\n5. Airport\n6. Logistics\n7. Transit\n8. Terminal\n9. Fleet\n10. Passport\n11. Visa\n12. Customs\n13. Warehouse\n14. Shipping line\n15. Destination"}
+T156.69477955801995 #21 extract_...
+T159.12669133002055 🤔 extract_1/13 #21 "airport" score? 3.15
+T159.1269625130226 attempt_20: "airport" score:3.15 prog:None
+T161.73441091101267 🤔 extract_1/12 #22 "customs" score? 19.89
+T161.7345710110094 attempt_21: "customs" score:19.89 prog:None
+T164.20654535500216 🤔 extract_1/11 #23 "destination" score? 15.48
+T164.20672241901048 attempt_22: "destination" score:15.48 prog:None
+T166.56647052802145 🤔 extract_1/10 #24 "fleet" score? 7.59
+T166.5666707790224 attempt_23: "fleet" score:7.59 prog:None
+T170.56658387402422 🤔 extract_1/9 #25 "freight" score? 17.17
+T170.5667909810145 attempt_24: "freight" score:17.17 prog:None
+T174.96680779202143 🤔 extract_1/8 #26 "line" score? 5.9
+T174.96704327402404 attempt_25: "line" score:5.90 prog:None
+T179.22210007702233 🤔 extract_1/7 #27 "logistics" score? 13.24
+T179.22223187499912 attempt_26: "logistics" score:13.24 prog:None
+T182.81478716200218 🤔 extract_1/6 #28 "passport" score? 16.39
+T182.81500394499744 attempt_27: "passport" score:16.39 prog:None
+T185.60636207900825 🤔 extract_1/5 #29 "port" score? 14.99
+T185.6065724150103 attempt_28: "port" score:14.99 prog:None
+T188.20671734801726 🤔 extract_1/4 #30 "terminal" score? 8.7
+T188.2069786550128 attempt_29: "terminal" score:8.70 prog:None
+T190.84688183301478 🤔 extract_1/3 #31 "transit" score? 19.19
+T190.84708365102415 attempt_30: "transit" score:19.19 prog:None
+T196.27082324802177 🤔 extract_1/2 #32 "visa" score? 27.17 541
+T196.27106706000632 attempt_31: "visa" score:27.17 prog:541
+T199.34240695502376 🤔 extract_1/1 #33 "warehouse" score? 5.58
+T199.34258778402 attempt_32: "warehouse" score:5.58 prog:None
+T201.8226782020065 #34 ? _
+T201.8228533390211 chat_prompt: _
+T201.82302363801864 session: {"role": "user", "content": "give me 15 words that are related to \"visa\", \"shipping\", and \"storage\""}
+T218.4402196459996 session: {"role": "assistant", "content": "Here are 15 words that are related to \"visa\", \"shipping\", and \"storage\":\n\n1. Passport (required for international travel and shipping)\n2. Customs (involved in processing shipments and issuing visas)\n3. Clearance (required for customs clearance when shipping internationally)\n4. Export (related to shipping goods out of a country)\n5. Import (related to shipping goods into a country)\n6. Warehouse (used for storing goods during import/export)\n7. Shipping line (company responsible for transporting goods by sea or air)\n8. Consignment (method of shipping goods, where the seller retains ownership until delivered)\n9. Export duty (tax imposed on goods when exporting a country)\n10. Import regulations (rules and laws governing the importation of goods)\n11. Visa fee (fees charged for obtaining a visa to enter a country)\n12. Shipping documents (required for transporting goods across borders)\n13. Certificate of origin (document proving the country of origin for imported goods)\n14. Customs broker (agent responsible for handling customs paperwork and regulations)\n15. International shipping (transportation of goods between countries)"}
+T222.0065507890249 #34 extract_...
+T224.58242278601392 🤔 extract_1/13 #34 "broker" score? 7.33
+T224.58260648802388 attempt_33: "broker" score:7.33 prog:None
+T227.75073585301288 🤔 extract_1/12 #35 "certificate" score? 1.77
+T227.75095474201953 attempt_34: "certificate" score:1.77 prog:None
+T230.3584117660066 🤔 extract_1/11 #36 "clearance" score? 9.94
+T230.3585876460129 attempt_35: "clearance" score:9.94 prog:None
+T233.1505922030192 🤔 extract_1/10 #37 "consignment" score? 5.88
+T233.15075776202139 attempt_36: "consignment" score:5.88 prog:None
+T237.90263343701372 🤔 extract_1/9 #38 "documents" score? !document
+T237.9028220520122 reject: "documents"
+T240.67826136099757 🤔 corrected #38 "document" score? 16.65
+T240.67840978800086 attempt_37: "document" score:16.65 prog:None
+T243.53458530301577 🤔 extract_1/8 #39 "duty" score? -3.35
+T243.5347832670086 attempt_38: "duty" score:-3.35 prog:None
+T247.3344418850029 🤔 extract_1/7 #40 "export" score? 25.96
+T249.66997766299755 🤔 extract_1/7 #40 "export" 25.96°C prog‰ ? 369
+T249.67008076101774 attempt_39: "export" score:25.96 prog:369
+T252.79877619701438 🤔 extract_1/6 #41 "fee" score? 4.25
+T252.7992459430243 attempt_40: "fee" score:4.25 prog:None
+T258.13441372002126 🤔 extract_1/5 #42 "import" score? 24.23 68
+T258.1346132280014 attempt_41: "import" score:24.23 prog:68
+T261.03060222099884 🤔 extract_1/4 #43 "international" score? 8.11
+T261.03076698901714 attempt_42: "international" score:8.11 prog:None
+T263.43060512302327 🤔 extract_1/3 #44 "of" score? !
+T263.4307560430025 reject: "of"
+T267.75860972501687 🤔 extract_1/2 #44 "origin" score? 24.73 172
+T267.7588054170192 attempt_43: "origin" score:24.73 prog:172
+T272.18259249502444 🤔 extract_1/1 #45 "regulations" score? !regulation
+T272.18274812900927 reject: "regulations"
+T274.8865148909972 🤔 corrected #45 "regulation" score? 5.95
+T274.88666804201785 attempt_44: "regulation" score:5.95 prog:None
+T279.7503020290169 #46 ? /last
+T281.63856658301665 #46 ? _
+T281.63878335402114 chat_prompt: _
+T281.63902776900795 session: {"role": "user", "content": "give me 15 words that are related to \"visa\", \"export\", and \"origin\""}
+T299.60212103201775 session: {"role": "assistant", "content": "Here are 15 words that are related to \"visa\", \"export\", and \"origin\":\n\n1. Passport (required for international travel, including export)\n2. Country of origin (document required for export purposes)\n3. Export license (permitted by the government for exporting goods)\n4. Customs clearance (process for clearing goods after export)\n5. Import regulations (regulations governing imports from another country's origin)\n6. Visa requirements (rules and regulations for obtaining a visa to import/export)\n7. Certificate of origin (document proving the country of origin for exported goods)\n8. Export certificate (required by some countries or organizations for exporting goods)\n9. Trade agreement (international agreement governing export and import rules)\n10. Harmonized system (standard for classifying and labeling exported goods)\n11. Export duty (tax imposed on goods when exporting a country's origin)\n12. Country of destination (document required for international shipping and exports)\n13. International treaty (agreement between countries regulating export and import rules)\n14. Compliance certification (required by some governments or organizations for exporting goods)\n15. Export control law (regulation governing the export of sensitive goods from one country's origin"}
+T301.99044854502426 #46 extract_...
+T305.6543910150067 🤔 extract_1/12 #46 "agreement" score? 6.55
+T305.65455626900075 attempt_45: "agreement" score:6.55 prog:None
+T308.99893478601007 🤔 extract_1/11 #47 "certification" score? 16.59
+T308.9992839330225 attempt_46: "certification" score:16.59 prog:None
+T312.2626802480081 🤔 extract_1/10 #48 "compliance" score? 19.93
+T312.26290502102347 attempt_47: "compliance" score:19.93 prog:None
+T315.1185708230187 🤔 extract_1/9 #49 "control" score? 8.58
+T315.1187375000154 attempt_48: "control" score:8.58 prog:None
+T318.21446327099693 🤔 extract_1/8 #50 "country" score? 11.67
+T318.21461990699754 attempt_49: "country" score:11.67 prog:None
+T320.4941788400174 🤔 extract_1/7 #51 "harmonized" score? 11.52
+T320.49432779100607 attempt_50: "harmonized" score:11.52 prog:None
+T323.40648022902315 🤔 extract_1/6 #52 "law" score? 4.12
+T323.4066630830057 attempt_51: "law" score:4.12 prog:None
+T325.6623441410193 🤔 extract_1/5 #53 "license" score? 11.29
+T325.66248168601305 attempt_52: "license" score:11.29 prog:None
+T334.0224944950023 🤔 extract_1/4 #54 "requirements" score? !requirement
+T334.02263333799783 reject: "requirements"
+T337.17493578299764 🤔 corrected #54 "requirement" score? 10.04
+T337.1750959630008 attempt_53: "requirement" score:10.04 prog:None
+T340.582474431023 🤔 extract_1/3 #55 "system" score? 16.3
+T340.5827169960248 attempt_54: "system" score:16.30 prog:None
+T343.5907638890203 🤔 extract_1/2 #56 "trade" score? 23.86
+T343.59103800699813 attempt_55: "trade" score:23.86 prog:None
+T346.51844707501004 🤔 extract_1/1 #57 "treaty" score? 17.86
+T346.51862965899636 attempt_56: "treaty" score:17.86 prog:None
+T349.83820309501607 #58 ? /last
+T357.1267301860207 #58 ? *7 $1 !new
+T357.1273214899993 chat_prompt: give me 7 words that are related to $1; do not list any words that you have already listed above
+T357.12749718801933 session: {"role": "user", "content": "give me 7 words that are related to \"visa\"; do not list any words that you have already listed above"}
+T368.6550858140108 session: {"role": "assistant", "content": "Here are 7 new words that are related to \"visa\", without listing any previous words:\n\n1. Reciprocity (the mutual agreement between countries regarding visa requirements)\n2. Embargo (a government-imposed restriction on travel or trade, often requiring a visa)\n3. Diplomatic immunity (exemption from immigration laws for diplomatic personnel holding a visa)\n4. Biometric data (data used to identify and verify individuals in the visa application process)\n5. Visa reciprocity fee (fees charged by some countries for processing visa applications)\n6. Temporary resident permit (a type of visa allowing temporary stay in a country)\n7. E-visa (an electronic visa system allowing online application and approval)"}
+T369.97464791699895 #58 extract_...
+T374.42270999902394 🤔 extract_1/9 #58 "biometric" score? !
+T374.42290682301973 reject: "biometric"
+T378.3666225320194 🤔 extract_1/8 #58 "data" score? 26.37
+T398.18254793601227 🤔 extract_1/8 #58 "data" 26.37°C prog‰ ? 440
+T398.18271476600785 attempt_57: "data" score:26.37 prog:440
+T401.58264016601606 🤔 extract_1/7 #59 "diplomatic" score? 14.84
+T401.5828069700219 attempt_58: "diplomatic" score:14.84 prog:None
+T404.3264040510112 🤔 extract_1/6 #60 "embargo" score? 12.98
+T404.3265802130045 attempt_59: "embargo" score:12.98 prog:None
+T407.7348029779969 🤔 extract_1/5 #61 "immunity" score? 10.49
+T407.735079480015 attempt_60: "immunity" score:10.49 prog:None
+T410.6305384990119 🤔 extract_1/4 #62 "permit" score? 10.59
+T410.6307594010141 attempt_61: "permit" score:10.59 prog:None
+T413.6867637860123 🤔 extract_1/3 #63 "reciprocity" score? 16.93
+T413.6870002800133 attempt_62: "reciprocity" score:16.93 prog:None
+T419.7578782119963 🤔 extract_1/2 #64 "resident" score? 8.42
+T419.75797132001026 attempt_63: "resident" score:8.42 prog:None
+T423.20608079701196 🤔 extract_1/1 #65 "temporary" score? 16.83
+T423.2062531520205 attempt_64: "temporary" score:16.83 prog:None
+T424.758413366013 #66 ? * $2
+T424.7587764390046 chat_prompt: give me 7 words that are related to $2; do not list any words that you have already listed above
+T424.75901991600404 session: {"role": "user", "content": "give me 7 words that are related to \"data\"; do not list any words that you have already listed above"}
+T436.2110821600072 session: {"role": "assistant", "content": "Here are 7 new words that are related to \"data\", without listing any previous words:\n\n1. Algorithm (a set of instructions used to process and analyze data)\n2. Big data (large amounts of structured or unstructured data requiring specialized processing)\n3. Metadata (information about other data, such as its format, location, and context)\n4. Blockchain (a distributed digital ledger used to record and verify data transactions)\n5. Interoperability (the ability of different systems to exchange and integrate data effectively)\n6. Data mining (the process of automatically discovering patterns or relationships in large datasets)\n7. Anomaly detection (techniques used to identify unusual or unexpected patterns in data"}
+T437.23094377701636 #66 extract_...
+T440.0943105510087 🤔 extract_1/8 #66 "algorithm" score? 8.51
+T440.0944645999989 attempt_65: "algorithm" score:8.51 prog:None
+T443.56655338802375 🤔 extract_1/7 #67 "anomaly" score? 18.14
+T443.56676682599937 attempt_66: "anomaly" score:18.14 prog:None
+T446.35881358000915 🤔 extract_1/6 #68 "big" score? 4.65
+T446.35912758202176 attempt_67: "big" score:4.65 prog:None
+T448.3744636750198 🤔 extract_1/5 #69 "blockchain" score? !
+T448.3746768950077 reject: "blockchain"
+T450.4461754170188 🤔 extract_1/4 #69 "detection" score? 16.6
+T450.4462799320172 attempt_68: "detection" score:16.60 prog:None
+T455.2625078050187 🤔 extract_1/3 #70 "interoperability" score? 26.44 445
+T455.2626951520215 attempt_69: "interoperability" score:26.44 prog:445
+T457.95827230700525 🤔 extract_1/2 #71 "metadata" score? 15.38
+T457.95841742501943 attempt_70: "metadata" score:15.38 prog:None
+T460.382616279996 🤔 extract_1/1 #72 "mining" score? 15.72
+T460.3828026020201 attempt_71: "mining" score:15.72 prog:None
+T462.9505894680042 #73 ? *t3
+T462.95096149801975 chat_prompt: give me 21 words that are related to $1, $2, and $3; do not list any words that you have already listed above
+T462.9511825250229 session: {"role": "user", "content": "give me 21 words that are related to \"visa\", \"interoperability\", and \"data\"; do not list any words that you have already listed above"}
+T498.68565471301554 session: {"role": "assistant", "content": "Here are 21 new words that are related to \"visa\", \"interoperability\", and \"data\", without listing any previous words:\n\n1. Biometric authentication (using unique physical characteristics for visa verification)\n2. Data analytics (the process of analyzing data to gain insights and make informed decisions)\n3. E-governance (use of digital technologies, including data exchange, to improve governance)\n4. Identity management (system used to verify and manage individual identities, often requiring a visa)\n5. Machine learning (a type of AI used to analyze and learn from large datasets related to visas)\n6. National portal (a website providing information and resources for visa applicants)\n7. Open data ( freely available data sets used to support research and development in visa-related fields)\n8. Passport number (unique identifier assigned to a passport, often required for visa applications)\n9. Predictive analytics (use of statistical models to predict visa application outcomes)\n10. Quality control (processes used to ensure accuracy and reliability of visa applications and data exchange)\n11. Secure authentication (methods used to verify user identity and protect sensitive data related to visas)\n12. Standardization (process of establishing common formats and protocols for data exchange in visa-related contexts\n13. Surveillance system (system used to monitor and track visa applicants, often requiring biometric data)\n14. Visa bulletin (official list of visas available for application)\n15. X-ray scanning (security measure used to inspect documents and prevent visa fraud\n16. Cloud-based processing (use of cloud computing resources to process and store visa-related data)\n17. Data encryption (process of scrambling data to protect it from unauthorized access\n18. Identity verification (process of confirming an individual's identity, often required for visa applications\n19. Risk assessment (evaluation of potential risks associated with visa applicants or data exchange)\n20. Single sign-on (system allowing users to access multiple systems and resources without re-logging in\n21. Secure communication protocol (method used to protect data transmitted between systems related to visas)\n\nNote: These words are not exhaustive, but they provide a range of examples that demonstrate the connection between \"visa\", \"interoperability\", and \"data\"."}
+T512.4229436739988 #73 extract_...
+T515.9903884230007 🤔 extract_1/31 #73 "analytics" score? !
+T515.9905198080232 reject: "analytics"
+T518.8468026629998 🤔 extract_1/30 #73 "assessment" score? 12.89
+T518.8470258620218 attempt_72: "assessment" score:12.89 prog:None
+T523.2222554970067 🤔 extract_1/29 #74 "authentication" score? 16.77
+T523.2223997950205 attempt_73: "authentication" score:16.77 prog:None
+T526.7586643400136 🤔 extract_1/28 #75 "based" score? 10.55
+T526.7588666410011 attempt_74: "based" score:10.55 prog:None
+T529.1826263550029 🤔 extract_1/27 #76 "bulletin" score? 5.71
+T529.1828167740023 attempt_75: "bulletin" score:5.71 prog:None
+T531.8784609610157 🤔 extract_1/26 #77 "cloud" score? 14.87
+T531.8786317570193 attempt_76: "cloud" score:14.87 prog:None
+T534.7346053060028 🤔 extract_1/25 #78 "communication" score? 19.52
+T534.7348405450175 attempt_77: "communication" score:19.52 prog:None
+T537.886585655011 🤔 extract_1/24 #79 "encryption" score? 17.56
+T537.8867717579997 attempt_78: "encryption" score:17.56 prog:None
+T541.6863679140224 🤔 extract_1/23 #80 "governance" score? 18.45
+T541.6865312390146 attempt_79: "governance" score:18.45 prog:None
+T544.3105096850195 🤔 extract_1/22 #81 "identity" score? 15.95
+T544.3106858880201 attempt_80: "identity" score:15.95 prog:None
+T546.7824737790215 🤔 extract_1/21 #82 "learning" score? 14.89
+T546.7826616350212 attempt_81: "learning" score:14.89 prog:None
+T549.0787975210114 🤔 extract_1/20 #83 "machine" score? 1.25
+T549.07903653002 attempt_82: "machine" score:1.25 prog:None
+T551.8548237140058 🤔 extract_1/19 #84 "management" score? 20.06
+T551.8550581379968 attempt_83: "management" score:20.06 prog:None
+T554.6068357890181 🤔 extract_1/18 #85 "national" score? 1.56
+T554.6071019160154 attempt_84: "national" score:1.56 prog:None
+T558.0308367510152 🤔 extract_1/17 #86 "number" score? 17.3
+T558.0310507579998 attempt_85: "number" score:17.30 prog:None
+T560.6626051250205 🤔 extract_1/16 #87 "on" score? 2.55
+T560.6628830370028 attempt_86: "on" score:2.55 prog:None
+T563.1908541379962 🤔 extract_1/15 #88 "open" score? 7.47
+T563.1911170120002 attempt_87: "open" score:7.47 prog:None
+T565.6387795449991 🤔 extract_1/14 #89 "portal" score? 16.24
+T565.6391295530193 attempt_88: "portal" score:16.24 prog:None
+T568.0551605650107 🤔 extract_1/13 #90 "predictive" score? 5.94
+T568.0554775040073 attempt_89: "predictive" score:5.94 prog:None
+T572.6622926160053 🤔 extract_1/12 #91 "processing" score? 23.93 6
+T572.6624810009962 attempt_90: "processing" score:23.93 prog:6
+T575.1666739470093 🤔 extract_1/11 #92 "protocol" score? 15.7
+T575.1668834080047 attempt_91: "protocol" score:15.70 prog:None
+T577.6627936480218 🤔 extract_1/10 #93 "quality" score? 5.49
+T577.6630406409968 attempt_92: "quality" score:5.49 prog:None
+T580.1905587060028 🤔 extract_1/9 #94 "ray" score? 5.89
+T580.1907436000183 attempt_93: "ray" score:5.89 prog:None
+T582.4625915540091 🤔 extract_1/8 #95 "risk" score? 12.22
+T582.4628620660224 attempt_94: "risk" score:12.22 prog:None
+T585.2059092510026 🤔 extract_1/7 #96 "scanning" score? 17.24
+T585.2059821280127 attempt_95: "scanning" score:17.24 prog:None
+T588.1025637540151 🤔 extract_1/6 #97 "secure" score? 9.97
+T588.1027765320032 attempt_96: "secure" score:9.97 prog:None
+T590.9899541640189 🤔 extract_1/5 #98 "sign" score? 4.16
+T590.990119975002 attempt_97: "sign" score:4.16 prog:None
+T593.8784108740219 🤔 extract_1/4 #99 "single" score? 10.14
+T593.8786084029998 attempt_98: "single" score:10.14 prog:None
+T596.6710234130151 🤔 extract_1/3 #100 "standardization" score? 23.43
+T596.6713002440229 attempt_99: "standardization" score:23.43 prog:None
+T599.5426147429971 🤔 extract_1/2 #101 "surveillance" score? 10.68
+T599.542814009008 attempt_100: "surveillance" score:10.68 prog:None
+T603.5589118410135 🤔 extract_1/1 #102 "verification" score? 24.99 220
+T603.5591370990151 attempt_101: "verification" score:24.99 prog:220
+T611.3103041190188 #103 ? /last
+T618.4068322080129 #103 ? *$3
+T618.4072113930015 chat_prompt: give me 7 words that are related to $3; do not list any words that you have already listed above
+T618.4074231660052 session: {"role": "user", "content": "give me 7 words that are related to \"data\"; do not list any words that you have already listed above"}
+T632.1601298260211 session: {"role": "assistant", "content": "Here are 7 new words that are related to \"data\" without listing any previous words:\n\n1. Ambiguity (a state of uncertainty or unclear meaning in data)\n2. Curation (process of selecting, organizing, and presenting high-quality data\n3. Hypothesis testing (method used to validate or reject hypotheses based on data analysis)\n4. Information density (measure of the amount of information contained in a given dataset)\n5. Latency (delay or time lag between data transmission and processing)\n6. Normalization (process of adjusting data to ensure consistency and accuracy\n7. Redundancy (presence of duplicate or identical data, often used for error correction)\n\nNote: These words provide additional examples of concepts related to \"data\", without duplicating previous words."}
+T635.3748075659969 #103 extract_...
+T638.7024820220249 🤔 extract_1/9 #103 "ambiguity" score? 11.2
+T638.7026807530201 attempt_102: "ambiguity" score:11.20 prog:None
+T640.910840919998 🤔 extract_1/8 #104 "curation" score? !
+T640.9110347570095 reject: "curation"
+T646.1425032410189 🤔 extract_1/7 #104 "density" score? 26.52 463
+T646.1426579880062 attempt_103: "density" score:26.52 prog:463
+T650.4384559580067 🤔 extract_1/6 #105 "hypothesis" score? 17.11
+T650.4386462490074 attempt_104: "hypothesis" score:17.11 prog:None
+T654.2304679260124 🤔 extract_1/5 #106 "information" score? 7.86
+T654.2306611590029 attempt_105: "information" score:7.86 prog:None
+T659.8304415340244 🤔 extract_1/4 #107 "latency" score? 26.48 454
+T659.8306204469991 attempt_106: "latency" score:26.48 prog:454
+T666.6144397140015 🤔 extract_1/3 #108 "normalization" score? 28.44 662
+T666.6146246310091 attempt_107: "normalization" score:28.44 prog:662
+T672.21451635001 🤔 extract_1/2 #109 "redundancy" score? 30.94 830
+T672.2147532149975 attempt_108: "redundancy" score:30.94 prog:830
+T674.7746412030247 🤔 extract_1/1 #110 "testing" score? 15.92
+T674.774814363016 attempt_109: "testing" score:15.92 prog:None
+T681.7984976390144 #111 ? *20 t5
+T681.798780400015 chat_prompt: give me 20 words that are related to $1, $2, $3, $4, and $5; do not list any words that you have already listed above
+T681.7989564440213 session: {"role": "user", "content": "give me 20 words that are related to \"redundancy\", \"normalization\", \"visa\", \"density\", and \"latency\"; do not list any words that you have already listed above"}
+T707.0860275840096 #111 ? /last pop
+T707.0861318910029 session: pop
+T713.6380659670103 #111 ? *20 t5 /clear .
+T713.6382529200055 session clear
+T713.6382816219993 chat_prompt: give me 20 words that are related to $1, $2, $3, $4, and $5
+T713.6383834349981 session: {"role": "user", "content": "give me 20 words that are related to \"redundancy\", \"normalization\", \"visa\", \"density\", and \"latency\""}
+T769.3963753709977 session: {"role": "assistant", "content": "Here are 20 words related to the given topics:\n\n1. Overhead\n2. Standardize\n3. Perimeter\n4. Capacity\n5. Waitlist\n6. Threshold\n7. Efficiency\n8. Queue\n9. Bottleneck\n10. Buffering\n11. Compression\n12. Protocol\n13. Routing\n14. Network\n15. Congestion\n16. Latency\n17. Density\n18. Packing\n19. Optimization\n20. Synchronization"}
+T778.2467898059986 #111 extract_...
+T783.6145415909996 🤔 extract_1/16 #111 "bottleneck" score? 26.08 397
+T783.6147492750024 attempt_110: "bottleneck" score:26.08 prog:397
+T786.5107633080042 🤔 extract_1/15 #112 "buffering" score? !buffer
+T786.5109751429991 reject: "buffering"
+T790.3106922690058 🤔 corrected #112 "buffer" score? 13.98
+T790.3108899530198 attempt_111: "buffer" score:13.98 prog:None
+T798.1105086480093 🤔 extract_1/14 #113 "capacity" score? 11.02
+T798.1107210440096 attempt_112: "capacity" score:11.02 prog:None
+T800.6543709179969 🤔 extract_1/13 #114 "compression" score? 13.5
+T800.6545025990054 attempt_113: "compression" score:13.50 prog:None
+T803.3266734690114 🤔 extract_1/12 #115 "congestion" score? 23.9
+T803.3269048540096 attempt_114: "congestion" score:23.90 prog:None
+T806.2626762230066 🤔 extract_1/11 #116 "efficiency" score? 10.81
+T806.2628679420159 attempt_115: "efficiency" score:10.81 prog:None
+T809.2147529210197 🤔 extract_1/10 #117 "network" score? 23.39
+T809.2149642040022 attempt_116: "network" score:23.39 prog:None
+T814.1983464500227 🤔 extract_1/9 #118 "optimization" score? 24.65
+T816.0626297310228 🤔 extract_1/9 #118 "optimization" 24.65°C prog‰ ? 160
+T816.062838621001 attempt_117: "optimization" score:24.65 prog:160
+T818.742657750001 🤔 extract_1/8 #119 "overhead" score? 10.38
+T818.7428356470191 attempt_118: "overhead" score:10.38 prog:None
+T821.4865592060087 🤔 extract_1/7 #120 "perimeter" score? 6.2
+T821.4867164420139 attempt_119: "perimeter" score:6.20 prog:None
+T823.8546177440148 🤔 extract_1/6 #121 "queue" score? 14.24
+T823.8548035139975 attempt_120: "queue" score:14.24 prog:None
+T827.3909380109981 🤔 extract_1/5 #122 "routing" score? !route
+T827.3911139310221 reject: "routing"
+T829.998704335012 🤔 corrected #122 "route" score? 22.22
+T829.9989118720114 attempt_121: "route" score:22.22 prog:None
+T832.366484942002 🤔 extract_1/4 #123 "standardize" score? 19
+T832.3666628960054 attempt_122: "standardize" score:19.00 prog:None
+T839.3349138839985 🤔 extract_1/3 #124 "synchronization" score? 30.16 784
+T839.3351394300116 attempt_123: "synchronization" score:30.16 prog:784
+T841.5748437260045 🤔 extract_1/2 #125 "threshold" score? 2.43
+T841.5750731840089 attempt_124: "threshold" score:2.43 prog:None
+T844.0223084900063 🤔 extract_1/1 #126 "waitlist" score? !
+T844.022420866997 reject: "waitlist"
+T847.5347187050211 #126 ? *t3
+T847.5351136250247 chat_prompt: give me 12 words that are related to $1, $2, and $3
+T847.5353229980101 session: {"role": "user", "content": "give me 12 words that are related to \"redundancy\", \"synchronization\", and \"normalization\""}
+T852.1821250890207 #126 ? /last pop
+T852.182274862018 session: pop
+T855.9987050300115 #126 ? *t3 !new
+T855.9991853270039 chat_prompt: give me 12 words that are related to $1, $2, and $3; do not list any words that you have already listed above
+T855.9994479270244 session: {"role": "user", "content": "give me 12 words that are related to \"redundancy\", \"synchronization\", and \"normalization\"; do not list any words that you have already listed above"}
+T862.9134149500169 session: {"role": "assistant", "content": "Here are 12 new words related to the given topics:\n\n1. Duplication\n2. Syncing\n3. Redundant\n4. Consistency\n5. Harmonization\n6. Backup\n7. Staging\n8. Validation\n9. Verification\n10. Duplicates\n11. Replication\n12. Correlation"}
+T866.0785307910119 #126 extract_...
+T868.6223270290066 🤔 extract_1/11 #126 "backup" score? 12.17
+T868.6225586790242 attempt_125: "backup" score:12.17 prog:None
+T871.8147088940023 🤔 extract_1/10 #127 "consistency" score? 4.65
+T871.8148765280202 attempt_126: "consistency" score:4.65 prog:None
+T875.2307123990031 🤔 extract_1/9 #128 "correlation" score? 15.64
+T875.2309390470036 attempt_127: "correlation" score:15.64 prog:None
+T878.5827755890205 🤔 extract_1/8 #129 "duplicates" score? !duplicate
+T878.5829612230009 reject: "duplicates"
+T881.0068218160013 🤔 corrected #129 "duplicate" score? 11.53
+T881.0070024640008 attempt_128: "duplicate" score:11.53 prog:None
+T885.9904909860052 🤔 extract_1/7 #130 "duplication" score? 24.76 177
+T885.9906561380194 attempt_129: "duplication" score:24.76 prog:177
+T890.6623846180155 🤔 extract_1/6 #131 "harmonization" score? 28.38 655
+T890.6625658150006 attempt_130: "harmonization" score:28.38 prog:655
+T894.9985726800223 🤔 extract_1/5 #132 "redundant" score? 24.28 81
+T894.998753316002 attempt_131: "redundant" score:24.28 prog:81
+T900.1907368620159 🤔 extract_1/4 #133 "replication" score? 34.49 933
+T900.1909293979988 attempt_132: "replication" score:34.49 prog:933
+T902.870628033008 🤔 extract_1/3 #134 "staging" score? 5.64
+T902.870863396005 attempt_133: "staging" score:5.64 prog:None
+T905.8226348349999 🤔 extract_1/2 #135 "syncing" score? !sync
+T905.8228534329974 reject: "syncing"
+T908.7505697940069 🤔 corrected #135 "sync" score? 12.09
+T908.7507484770031 attempt_134: "sync" score:12.09 prog:None
+T911.2788055000128 🤔 extract_1/1 #136 "validation" score? 16.66
+T911.2790664799977 attempt_135: "validation" score:16.66 prog:None
+T914.1825477000093 #137 ? _
+T914.1827409430116 chat_prompt: _
+T914.1829640850192 session: {"role": "user", "content": "give me 12 words that are related to \"replication\", \"redundancy\", and \"synchronization\"; do not list any words that you have already listed above"}
+T922.6145605070051 session: {"role": "assistant", "content": "Here are 12 new words related to the given topics:\n\n1. Cloning\n2. Backupset\n3. Mirroring\n4. Double-checking\n5. Repeating\n6. Iteration\n7. Incremental update\n8. Copycat\n9. Duplicate check\n10. Rollback\n11. Syncpoint\n12. Mirror image"}
+T928.6226008080121 #137 extract_...
+T932.3189163220231 🤔 extract_1/15 #137 "backupset" score? !backup
+T932.3190829030063 reject: "backupset"
+T950.8384973189968 🤔 extract_1/14 #137 "check" score? 5.72
+T950.8386691070045 attempt_136: "check" score:5.72 prog:None
+T954.5907006699999 🤔 extract_1/13 #138 "checking" score? !check
+T954.5908471810108 reject: "checking"
+T970.550784231018 🤔 extract_1/12 #138 "cloning" score? 18.69
+T970.5510607870237 attempt_137: "cloning" score:18.69 prog:None
+T979.6787479750055 🤔 extract_1/11 #139 "copycat" score? -.17
+T979.6790777520218 attempt_138: "copycat" score:-0.17 prog:None
+T982.9344553280098 🤔 extract_1/10 #140 "double" score? .17
+T982.9346633270034 attempt_139: "double" score:0.17 prog:None
+T986.7748891100055 🤔 extract_1/9 #141 "image" score? .58
+T986.7751948340156 attempt_140: "image" score:0.58 prog:None
+T989.3666442800022 🤔 extract_1/8 #142 "incremental" score? 18.25
+T989.3668904190126 attempt_141: "incremental" score:18.25 prog:None
+T992.5666371350235 🤔 extract_1/7 #143 "iteration" score? 13.34
+T992.5668450070079 attempt_142: "iteration" score:13.34 prog:None
+T995.7107466610032 🤔 extract_1/6 #144 "mirror" score? 3.4
+T995.7109505500121 attempt_143: "mirror" score:3.40 prog:None
+T1000.8389223770064 🤔 extract_1/5 #145 "mirroring" score? !mirror
+T1000.8390912910108 reject: "mirroring"
+T1005.8463839949982 🤔 extract_1/4 #145 "repeating" score? 4.07
+T1005.8465609410196 attempt_144: "repeating" score:4.07 prog:None
+T1013.5746348859975 🤔 extract_1/3 #146 "rollback" score? 10.87
+T1013.5748047340021 attempt_145: "rollback" score:10.87 prog:None
+T1018.5108576920175 🤔 extract_1/2 #147 "syncpoint" score? !sync
+T1018.5110408360197 reject: "syncpoint"
+T1021.6389133900229 🤔 extract_1/1 #147 "update" score? 11.5
+T1021.6391834780225 attempt_146: "update" score:11.50 prog:None
+T1028.2148636760248 #148 ? *t2
+T1028.2152688750066 chat_prompt: give me 8 words that are related to $1 and $2; do not list any words that you have already listed above
+T1028.2154744820145 session: {"role": "user", "content": "give me 8 words that are related to \"replication\" and \"redundancy\"; do not list any words that you have already listed above"}
+T1034.9703745510196 session: {"role": "assistant", "content": "Here are 8 new words related to the given topics:\n\n1. Duplicate\n2. Mirror imaging\n3. Redundant data\n4. Shadow copy\n5. Clone set\n6. Standby site\n7. Parallel processing\n8. Failover mechanism"}
+T1044.0061829930055 #148 extract_...
+T1047.6546261570184 🤔 extract_1/10 #148 "clone" score? 6.32
+T1047.6548524800164 attempt_147: "clone" score:6.32 prog:None
+T1051.18273353501 🤔 extract_1/9 #149 "copy" score? 7.54
+T1051.1829816140234 attempt_148: "copy" score:7.54 prog:None
+T1053.7426160080067 🤔 extract_1/8 #150 "failover" score? !
+T1053.7427906469966 reject: "failover"
+T1056.4384894540126 🤔 extract_1/7 #150 "imaging" score? 9.87
+T1056.4386725150107 attempt_149: "imaging" score:9.87 prog:None
+T1059.1027849859965 🤔 extract_1/6 #151 "mechanism" score? 17.16
+T1059.103062375012 attempt_150: "mechanism" score:17.16 prog:None
+T1061.8385186380183 🤔 extract_1/5 #152 "parallel" score? 19.38
+T1061.8387295540015 attempt_151: "parallel" score:19.38 prog:None
+T1065.1425116150058 🤔 extract_1/4 #153 "set" score? -3.86
+T1065.1426849220006 attempt_152: "set" score:-3.86 prog:None
+T1068.254731871013 🤔 extract_1/3 #154 "shadow" score? 4.68
+T1068.2549809160118 attempt_153: "shadow" score:4.68 prog:None
+T1071.0547710790124 🤔 extract_1/2 #155 "site" score? 3.66
+T1071.055004223017 attempt_154: "site" score:3.66 prog:None
+T1073.8625689990004 🤔 extract_1/1 #156 "standby" score? .31
+T1073.862761641998 attempt_155: "standby" score:0.31 prog:None
+T1081.0148610520118 #157 ? /last
+T1086.4464684690174 #157 ? *6 $1
+T1086.4468209100014 chat_prompt: give me 6 words that are related to $1; do not list any words that you have already listed above
+T1086.447037498001 session: {"role": "user", "content": "give me 6 words that are related to \"replication\"; do not list any words that you have already listed above"}
+T1092.1607208000205 session: {"role": "assistant", "content": "Here are 6 new words related to the topic of replication:\n\n1. Clone\n2. Image backup\n3. Duplicata\n4. Pseudoreplication\n5. Duplicate storage\n6. Mirror image copy"}
+T1105.0389201900107 #157 extract_...
+T1108.662404850009 🤔 extract_1/2 #157 "duplicata" score? !
+T1108.662615024019 reject: "duplicata"
+T1111.0465941630246 🤔 extract_1/1 #157 "pseudoreplication" score? !
+T1111.046737933997 reject: "pseudoreplication"
+T1134.3666535300144 #157 ? *20 t5 /clear .
+T1134.3671220460092 session clear
+T1134.3671934050217 chat_prompt: give me 20 words that are related to $1, $2, $3, $4, and $5
+T1134.3674365430197 session: {"role": "user", "content": "give me 20 words that are related to \"replication\", \"redundancy\", \"synchronization\", \"normalization\", and \"harmonization\""}
+T1145.2444466860034 session: {"role": "assistant", "content": "Here are 20 words related to the given concepts:\n\n1. Duplicity\n2. Duplication\n3. Copying\n4. Mirroring\n5. Matching\n6. Homogeny\n7. Standardization\n8. Consolidation\n9. Unification\n10. Alignment\n11. Coherence\n12. Consistency\n13. Orderliness\n14. Rhythm\n15. Cadence\n16. Timing\n17. Phase-locking\n18. Synchronization\n19. Data deduplication\n20. Identity mapping"}
+T1149.0464849990094 #157 extract_...
+T1152.3345998770092 🤔 extract_1/16 #157 "alignment" score? 22.08
+T1152.3348015740048 attempt_156: "alignment" score:22.08 prog:None
+T1154.8067729680042 🤔 extract_1/15 #158 "cadence" score? 13.47
+T1154.8069603600015 attempt_157: "cadence" score:13.47 prog:None
+T1157.19840655601 🤔 extract_1/14 #159 "coherence" score? 16.13
+T1157.1985390670015 attempt_158: "coherence" score:16.13 prog:None
+T1162.9024315950228 🤔 extract_1/13 #160 "consolidation" score? 27.2 545
+T1162.9026215440244 attempt_159: "consolidation" score:27.20 prog:545
+T1165.9829929740226 🤔 extract_1/12 #161 "copying" score? 20.12
+T1165.9832409550145 attempt_160: "copying" score:20.12 prog:None
+T1168.5909487580066 🤔 extract_1/11 #162 "deduplication" score? !
+T1168.591144644015 reject: "deduplication"
+T1174.110705109022 🤔 extract_1/10 #162 "duplicity" score? 8.53
+T1174.110884137015 attempt_161: "duplicity" score:8.53 prog:None
+T1177.1348153340223 🤔 extract_1/9 #163 "homogeny" score? 20.32
+T1177.135026281001 attempt_162: "homogeny" score:20.32 prog:None
+T1180.0546078510233 🤔 extract_1/8 #164 "locking" score? 9.8
+T1180.0548010519997 attempt_163: "locking" score:9.80 prog:None
+T1186.6550563470228 🤔 extract_1/7 #165 "mapping" score? 24.34 98
+T1186.65529241701 attempt_164: "mapping" score:24.34 prog:98
+T1190.0945317630249 🤔 extract_1/6 #166 "matching" score? 1.5
+T1190.0946359719965 attempt_165: "matching" score:1.50 prog:None
+T1196.7351605170115 🤔 extract_1/5 #167 "orderliness" score? -.17
+T1196.7353725440043 attempt_166: "orderliness" score:-0.17 prog:None
+T1200.3742802290071 🤔 extract_1/4 #168 "phase" score? 10.84
+T1200.374405413022 attempt_167: "phase" score:10.84 prog:None
+T1204.9901957790134 🤔 extract_1/3 #169 "rhythm" score? 6.96
+T1204.990296991018 attempt_168: "rhythm" score:6.96 prog:None
+T1235.1423623629962 🤔 extract_1/2 #170 "timing" score? 6.31
+T1235.1425386230112 attempt_169: "timing" score:6.31 prog:None
+T1244.1188590410165 🤔 extract_1/1 #171 "unification" score? 26.49 456
+T1244.1191124070028 attempt_170: "unification" score:26.49 prog:456
+T1266.8145825530228 #172 ? /last
+T1272.0306370680046 #172 ? *t5 seen with
+T1272.0310506010137 chat_prompt: give me 20 words that are seen with $1, $2, $3, $4, and $5
+T1272.0312569490052 session: {"role": "user", "content": "give me 20 words that are seen with \"replication\", \"redundancy\", \"synchronization\", \"normalization\", and \"harmonization\""}
+T1283.8025951349991 session: {"role": "assistant", "content": "Here are 20 words related to the given concepts:\n\n1. Backup\n2. Redundancy\n3. Mirror site\n4. Disaster recovery\n5. Failover\n6. Load balancing\n7. Cloning\n8. duplication\n9. Mirroring\n10. Data warehousing\n11. Data consolidation\n12. Data cleansing\n13. Data integration\n14. Integration testing\n15. Testing for conformance\n16. Compliance\n17. Standardization\n18. Certification\n19. Testing for equivalence\n20. Validation"}
+T1285.3506439670164 #172 extract_...
+T1288.7827530570212 🤔 extract_1/10 #172 "balancing" score? 11.31
+T1288.7829814350116 attempt_171: "balancing" score:11.31 prog:None
+T1292.6228361499961 🤔 extract_1/9 #173 "cleansing" score? 19.68
+T1292.6230138760002 attempt_172: "cleansing" score:19.68 prog:None
+T1296.046830303996 🤔 extract_1/8 #174 "conformance" score? 15.23
+T1296.0470227450132 attempt_173: "conformance" score:15.23 prog:None
+T1298.590726976021 🤔 extract_1/7 #175 "disaster" score? 17.32
+T1298.5909066690074 attempt_174: "disaster" score:17.32 prog:None
+T1300.9906722840096 🤔 extract_1/6 #176 "equivalence" score? 17.17
+T1300.9908376560197 attempt_175: "equivalence" score:17.17 prog:None
+T1303.199044521025 🤔 extract_1/5 #177 "for" score? !
+T1303.1992907710082 reject: "for"
+T1308.0869054890063 🤔 extract_1/4 #177 "integration" score? 44.23 992
+T1308.0871552400058 attempt_176: "integration" score:44.23 prog:992
+T1310.774934355024 🤔 extract_1/3 #178 "load" score? 17.41
+T1310.7752201660187 attempt_177: "load" score:17.41 prog:None
+T1317.038907395996 🤔 extract_1/2 #179 "recovery" score? 26.18 411
+T1317.0391626000055 attempt_178: "recovery" score:26.18 prog:411
+T1320.5907614640018 🤔 extract_1/1 #180 "warehousing" score? 13.94
+T1320.590991681005 attempt_179: "warehousing" score:13.94 prog:None
+T1327.5026703250187 #181 ? *t2 related
+T1327.5029901240196 chat_prompt: give me 8 words that are related to $1 and $2
+T1327.5031740530103 session: {"role": "user", "content": "give me 8 words that are related to \"integration\" and \"replication\""}
+T1333.4181522220024 session: {"role": "assistant", "content": "Here are 8 words related to \"integration\" and \"replication\":\n\n1. Consolidation\n2. Merge\n3. Union\n4. Syncing\n5. Synchronization\n6. Data federation\n7. Merging schema\n8. Duplicate removal"}
+T1336.958881383005 #181 extract_...
+T1339.814453368017 🤔 extract_1/6 #181 "federation" score? 7.05
+T1339.814836472011 attempt_180: "federation" score:7.05 prog:None
+T1342.9110779860057 🤔 extract_1/5 #182 "merge" score? 12.91
+T1342.911343091022 attempt_181: "merge" score:12.91 prog:None
+T1346.8625489640108 🤔 extract_1/4 #183 "merging" score? 12.64
+T1346.8627549190132 attempt_182: "merging" score:12.64 prog:None
+T1351.2306626680074 🤔 extract_1/3 #184 "removal" score? 24.39 105
+T1351.2308518850186 attempt_183: "removal" score:24.39 prog:105
+T1353.8545611190202 🤔 extract_1/2 #185 "schema" score? 21.54
+T1353.854741549003 attempt_184: "schema" score:21.54 prog:None
+T1361.542474322021 🤔 extract_1/1 #186 "union" score? .18
+T1361.5427025050158 attempt_185: "union" score:0.18 prog:None
+T1380.6626916980022 #187 ? *7 $1
+T1380.6630009190121 chat_prompt: give me 7 words that are related to $1
+T1380.6631779460004 session: {"role": "user", "content": "give me 7 words that are related to \"integration\""}
+T1385.2054183220025 session: {"role": "assistant", "content": "Here are 7 words related to \"integration\":\n\n1. Consolidation\n2. Merge\n3. Union\n4. Federation\n5. Association\n6. Connection\n7. Synthesis"}
+T1389.918660559022 #187 extract_...
+T1392.1908985750051 🤔 extract_1/3 #187 "association" score? 2.2
+T1392.1910763580236 attempt_186: "association" score:2.20 prog:None
+T1394.4707837580063 🤔 extract_1/2 #188 "connection" score? 12.44
+T1394.4710000129999 attempt_187: "connection" score:12.44 prog:None
+T1399.5188586279983 🤔 extract_1/1 #189 "synthesis" score? 25.71 329
+T1399.5190345010196 attempt_188: "synthesis" score:25.71 prog:329
+T1417.8149826870067 #190 ? /last
+T1482.7346852760238 #190 ? /e
+T1489.3429517199984 #190 ? *9 $1
+T1489.3433305840008 chat_prompt: give me 9 words that are related to $1
+T1489.343533200008 session: {"role": "user", "content": "give me 9 words that are related to \"integration\""}
+T1494.9729855089972 session: {"role": "assistant", "content": "Here are 9 words related to \"integration\":\n\n1. Consolidation\n2. Merge\n3. Union\n4. Federation\n5. Association\n6. Connection\n7. Synthesis\n8. Coordination\n9. Interoperability"}
+T1501.4946555350034 #190 extract_...
+T1504.2144464750018 🤔 extract_1/1 #190 "coordination" score? 12.77
+T1504.2145878919982 attempt_189: "coordination" score:12.77 prog:None
+T1507.2464749130013 #191 ? * $1 !new
+T1507.2468122610007 chat_prompt: give me 9 words that are related to $1; do not list any words that you have already listed above
+T1507.2470253220235 session: {"role": "user", "content": "give me 9 words that are related to \"integration\"; do not list any words that you have already listed above"}
+T1514.6380314970156 session: {"role": "assistant", "content": "Here are 9 new words related to \"integration\" that I haven't listed before:\n\n1. Embedment\n2. Inclusion\n3. Overlaying\n4. Linkage\n5. Compatibility\n6. Interoperability\n7. Seamlessness\n8. Convergence\n9. Melding"}
+T1540.4627495710156 #191 extract_...
+T1548.6788260440226 🤔 extract_1/8 #191 "compatibility" score? 27.69 594
+T1548.6790109810245 attempt_190: "compatibility" score:27.69 prog:594
+T1553.3588901330077 🤔 extract_1/7 #192 "convergence" score? 34.8 940
+T1553.3591349110065 attempt_191: "convergence" score:34.80 prog:940
+T1561.4471144720155 🤔 extract_1/6 #193 "embedment" score? !embed
+T1561.447360791004 reject: "embedment"
+T1565.0861702330003 🤔 corrected #193 "embed" score? 12.47
+T1565.0862644590088 attempt_192: "embed" score:12.47 prog:None
+T1570.8868529570173 🤔 extract_1/5 #194 "inclusion" score? 18.69
+T1570.8870695670194 attempt_193: "inclusion" score:18.69 prog:None
+T1574.1426731700194 🤔 extract_1/4 #195 "linkage" score? 23.13
+T1574.1428584759997 attempt_194: "linkage" score:23.13 prog:None
+T1577.959034008003 🤔 extract_1/3 #196 "melding" score? !meld
+T1577.9593416440184 reject: "melding"
+T1581.590957709006 🤔 corrected #196 "meld" score? 12.69
+T1581.5912136460247 attempt_195: "meld" score:12.69 prog:None
+T1585.6867376300215 🤔 extract_1/2 #197 "overlaying" score? !overlay
+T1585.6869058400043 reject: "overlaying"
+T1588.7107854170026 🤔 corrected #197 "overlay" score? 14.44
+T1588.7109676030232 attempt_196: "overlay" score:14.44 prog:None
+T1598.8790504360222 🤔 extract_1/1 #198 "seamlessness" score? !seamless
+T1598.8792926580063 reject: "seamlessness"
+T1603.07065642401 🤔 corrected #198 "seamless" score? 19.96
+T1603.0708370080101 attempt_197: "seamless" score:19.96 prog:None
+T1606.6792087590147 #199 ? /prog
+T1609.206671501015 #199 ? *t3
+T1609.2070282360073 chat_prompt: give me 27 words that are related to $1, $2, and $3; do not list any words that you have already listed above
+T1609.207246334001 session: {"role": "user", "content": "give me 27 words that are related to \"integration\", \"convergence\", and \"replication\"; do not list any words that you have already listed above"}
+T1626.8110554270097 session: {"role": "assistant", "content": "Here are 27 new words related to \"integration\", \"convergence\", and \"replication\" that I haven't listed before:\n\n1. Overlaying\n2. Linkage\n3. Compatibility\n4. Seamlessness\n5. Convergence\n6. Melding\n7. Fusion\n8. Blending\n9. Harmonization\n10. Synergism\n11. Interconnectedness\n12. Networked\n13. Digital twin\n14. Duplicate setup\n15. Mirroring\n16. Resilience\n17. Fault tolerance\n18. Redundancy\n19. Duplication\n20. Backup and restore\n21. Data reconciliation\n22. Informational consistency\n23. Business continuity planning\n24. Disaster recovery plan\n25. Recovery point objective\n26. Capacity planning\n27. High availability"}
+T1632.5506835050182 #199 extract_...
+T1636.5427174050128 🤔 extract_1/23 #199 "and" score? !
+T1636.5428477009991 reject: "and"
+T1643.5268825770181 🤔 extract_1/22 #199 "availability" score? 27.43 571
+T1643.5270667290024 attempt_198: "availability" score:27.43 prog:571
+T1647.1749218460172 🤔 extract_1/21 #200 "blending" score? 10.17
+T1647.1751725880022 attempt_199: "blending" score:10.17 prog:None
+T1649.9827139900008 🤔 extract_1/20 #201 "business" score? 15.38
+T1649.9829246000154 attempt_200: "business" score:15.38 prog:None
+T1653.5345671120158 🤔 extract_1/19 #202 "continuity" score? 20.28
+T1653.5346637000039 attempt_201: "continuity" score:20.28 prog:None
+T1656.6305287550204 🤔 extract_1/18 #203 "digital" score? 14.1
+T1656.6306935180037 attempt_202: "digital" score:14.10 prog:None
+T1662.5826411849994 🤔 extract_1/17 #204 "fault" score? 7.12
+T1662.5828077880142 attempt_203: "fault" score:7.12 prog:None
+T1667.3025943710236 🤔 extract_1/16 #205 "fusion" score? 13.73
+T1667.3027488900116 attempt_204: "fusion" score:13.73 prog:None
+T1670.2626020490134 🤔 extract_1/15 #206 "high" score? 6.35
+T1670.262821051001 attempt_205: "high" score:6.35 prog:None
+T1673.1907999760006 🤔 extract_1/14 #207 "informational" score? 5.33
+T1673.1909826770134 attempt_206: "informational" score:5.33 prog:None
+T1677.5512520370248 🤔 extract_1/13 #208 "interconnectedness" score? 23.92 5
+T1677.5514420620166 attempt_207: "interconnectedness" score:23.92 prog:5
+T1686.9905584990047 🤔 extract_1/12 #209 "networked" score? !network
+T1686.9906467550027 reject: "networked"
+T1694.910650847014 🤔 extract_1/11 #209 "objective" score? 5.68
+T1694.9108113960247 attempt_208: "objective" score:5.68 prog:None
+T1698.1828960060084 🤔 extract_1/10 #210 "plan" score? 5.93
+T1698.1831644409976 attempt_209: "plan" score:5.93 prog:None
+T1701.2469846570166 🤔 extract_1/9 #211 "planning" score? 12.78
+T1701.2471984090225 attempt_210: "planning" score:12.78 prog:None
+T1704.070848664007 🤔 extract_1/8 #212 "point" score? 2.96
+T1704.0710447200108 attempt_211: "point" score:2.96 prog:None
+T1707.2389963710157 🤔 extract_1/7 #213 "reconciliation" score? 18.54
+T1707.2392850150063 attempt_212: "reconciliation" score:18.54 prog:None
+T1711.222669787996 🤔 extract_1/6 #214 "resilience" score? 14.55
+T1711.2229272770055 attempt_213: "resilience" score:14.55 prog:None
+T1714.5264130910218 🤔 extract_1/5 #215 "restore" score? 3.02
+T1714.5266006739985 attempt_214: "restore" score:3.02 prog:None
+T1717.3266779740225 🤔 extract_1/4 #216 "setup" score? 14.04
+T1717.3268606950005 attempt_215: "setup" score:14.04 prog:None
+T1720.2625927450135 🤔 extract_1/3 #217 "synergism" score? 14.98
+T1720.2627805870143 attempt_216: "synergism" score:14.98 prog:None
+T1723.238959586015 🤔 extract_1/2 #218 "tolerance" score? 12.19
+T1723.2392387720174 attempt_217: "tolerance" score:12.19 prog:None
+T1727.0703398600162 🤔 extract_1/1 #219 "twin" score? 7.65
+T1727.070493635023 attempt_218: "twin" score:7.65 prog:None
+T1734.1187421620125 #220 ? /prog
+T1740.7828143720108 #220 ? /last
+T1760.7907878530095 #220 ? /prog
+T1776.2548075079976 #220 ? * $8 $1 10
+T1776.255177041021 chat_prompt: give me 10 words that are related to $8 and $1; do not list any words that you have already listed above
+T1776.2554014240159 session: {"role": "user", "content": "give me 10 words that are related to \"compatibility\" and \"integration\"; do not list any words that you have already listed above"}
+T1785.828081132 session: {"role": "assistant", "content": "Here are 10 new words related to \"compatibility\" and \"integration\" that I haven't listed before:\n\n1. Algorhythmic\n2. Homogenization\n3. Standardization framework\n4. Interoperability testing\n5. Compatibility matrix\n6. Cross-platform compatibility\n7. Adaptation\n8. Normalization protocol\n9. Consistency enforcing algorithm\n10. Coexistence strategy"}
+T1789.9427042890165 #220 extract_...
+T1792.7666428500088 🤔 extract_1/10 #220 "adaptation" score? 21.27
+T1792.7668068300118 attempt_219: "adaptation" score:21.27 prog:None
+T1795.4629393409996 🤔 extract_1/9 #221 "algorhythmic" score? !
+T1795.4631394190073 reject: "algorhythmic"
+T1799.3430691579997 🤔 extract_1/8 #221 "coexistence" score? 29.85
+T1802.846817810001 🤔 extract_1/8 #221 "coexistence" 29.85°C prog‰ ? 763
+T1802.8470020990062 attempt_220: "coexistence" score:29.85 prog:763
+T1806.5831455410225 🤔 extract_1/7 #222 "cross" score? 19.36
+T1806.5836368279997 attempt_221: "cross" score:19.36 prog:None
+T1812.5428316130128 🤔 extract_1/6 #223 "enforcing" score? !
+T1812.5429956290172 reject: "enforcing"
+T1818.5906978910207 🤔 extract_1/5 #223 "framework" score? 21.52
+T1818.5908884289965 attempt_222: "framework" score:21.52 prog:None
+T1823.2546382040018 🤔 extract_1/4 #224 "homogenization" score? 23.99 22
+T1823.2548119850107 attempt_223: "homogenization" score:23.99 prog:22
+T1826.790538012021 🤔 extract_1/3 #225 "matrix" score? 12.37
+T1826.790715567011 attempt_224: "matrix" score:12.37 prog:None
+T1829.774832052004 🤔 extract_1/2 #226 "platform" score? 13.74
+T1829.775032051024 attempt_225: "platform" score:13.74 prog:None
+T1832.6386035690084 🤔 extract_1/1 #227 "strategy" score? 18.49
+T1832.6387943050067 attempt_226: "strategy" score:18.49 prog:None
+T1834.318927781016 #228 ? /prog
+T1858.790917856997 #228 ? * $6 $8 $1
+T1858.7912639220012 chat_prompt: give me 15 words that are related to $6, $8, and $1; do not list any words that you have already listed above
+T1858.7914518190082 session: {"role": "user", "content": "give me 15 words that are related to \"coexistence\", \"harmonization\", and \"integration\"; do not list any words that you have already listed above"}
+T1871.747871501022 session: {"role": "assistant", "content": "Here are 15 new words related to \"coexistence\", \"harmonization\", and \"integration\" that I haven't listed before:\n\n1. Symbiosis\n2. Mutualism\n3. Syncretism\n4. Mediation\n5. Arbitration\n6. Compromise\n7. Conclave\n8. Synthesis facilitation\n9. Harmonic resonance\n10. Equilibrium establishment\n11. Balance maintenance\n12. Rapprochement\n13. Reconciliation mechanism\n14. Synthetization\n15. Co-optation"}
+T1873.5029249360086 #228 extract_...
+T1876.2387885560165 🤔 extract_1/18 #228 "arbitration" score? 4.68
+T1876.2389639640169 attempt_227: "arbitration" score:4.68 prog:None
+T1878.734631016996 🤔 extract_1/17 #229 "balance" score? 5.43
+T1878.7347956450249 attempt_228: "balance" score:5.43 prog:None
+T1880.751115143008 🤔 extract_1/16 #230 "co" score? !
+T1880.7512869990023 reject: "co"
+T1883.0064571640105 🤔 extract_1/15 #230 "compromise" score? 4.44
+T1883.0066019970109 attempt_229: "compromise" score:4.44 prog:None
+T1885.5508614520077 🤔 extract_1/14 #231 "conclave" score? 19.25
+T1885.5510272840038 attempt_230: "conclave" score:19.25 prog:None
+T1887.8868646110059 🤔 extract_1/13 #232 "equilibrium" score? 12.94
+T1887.887061071 attempt_231: "equilibrium" score:12.94 prog:None
+T1890.2786088460125 🤔 extract_1/12 #233 "establishment" score? 12.35
+T1890.2788115480216 attempt_232: "establishment" score:12.35 prog:None
+T1893.1268212330178 🤔 extract_1/11 #234 "facilitation" score? 20.27
+T1893.1269997619966 attempt_233: "facilitation" score:20.27 prog:None
+T1897.038594587997 🤔 extract_1/10 #235 "harmonic" score? 12.63
+T1897.0387891860155 attempt_234: "harmonic" score:12.63 prog:None
+T1899.526748795004 🤔 extract_1/9 #236 "maintenance" score? 17.27
+T1899.526847502013 attempt_235: "maintenance" score:17.27 prog:None
+T1902.2785225480038 🤔 extract_1/8 #237 "mediation" score? 10.55
+T1902.2786872069992 attempt_236: "mediation" score:10.55 prog:None
+T1904.9587718260009 🤔 extract_1/7 #238 "mutualism" score? 23.39
+T1904.9589308310242 attempt_237: "mutualism" score:23.39 prog:None
+T1907.7744802550005 🤔 extract_1/6 #239 "optation" score? !
+T1907.7745989469986 reject: "optation"
+T1910.542869234021 🤔 extract_1/5 #239 "rapprochement" score? 22.84
+T1910.5430470630236 attempt_238: "rapprochement" score:22.84 prog:None
+T1913.3431260710058 🤔 extract_1/4 #240 "resonance" score? 13.47
+T1913.3433184809983 attempt_239: "resonance" score:13.47 prog:None
+T1917.3511565820081 🤔 extract_1/3 #241 "symbiosis" score? 19.49
+T1917.351450674003 attempt_240: "symbiosis" score:19.49 prog:None
+T1921.4548509420129 🤔 extract_1/2 #242 "syncretism" score? 21.13
+T1921.455083310022 attempt_241: "syncretism" score:21.13 prog:None
+T1926.3506660920102 🤔 extract_1/1 #243 "synthetization" score? !
+T1926.3508087439986 reject: "synthetization"
+T1929.0308400439972 #243 ? /prog
+T1934.6150370300165 #243 ? * $6 $1
+T1934.6154759140045 chat_prompt: give me 10 words that are related to $6 and $1; do not list any words that you have already listed above
+T1934.6156876460009 session: {"role": "user", "content": "give me 10 words that are related to \"coexistence\" and \"integration\"; do not list any words that you have already listed above"}
+T1944.182536385022 session: {"role": "assistant", "content": "Here are 10 new words related to \"coexistence\" and \"integration\" that I haven't listed before:\n\n1. Synergistic\n2. Collaborative environment\n3. Joint governance\n4. Parallel operations\n5. Complementary systems\n6. Adaptive resonance\n7. Interstitial space\n8. Nexus establishment\n9. Ecological balance\n10. Harmonious cohabitation"}
+T1947.9107911210158 #243 extract_...
+T1950.4629121010075 🤔 extract_1/13 #243 "adaptive" score? 15.2
+T1950.4631399830105 attempt_242: "adaptive" score:15.20 prog:None
+T1955.678620737017 🤔 extract_1/12 #244 "cohabitation" score? 28.5 666
+T1955.6788729620166 attempt_243: "cohabitation" score:28.50 prog:666
+T1958.3188856400084 🤔 extract_1/11 #245 "collaborative" score? 14.42
+T1958.3190959460044 attempt_244: "collaborative" score:14.42 prog:None
+T1961.174644757004 🤔 extract_1/10 #246 "complementary" score? 8.38
+T1961.1748393360176 attempt_245: "complementary" score:8.38 prog:None
+T1967.6867590280017 🤔 extract_1/9 #247 "ecological" score? 26.43 443
+T1967.687102077005 attempt_246: "ecological" score:26.43 prog:443
+T1970.7506929520168 🤔 extract_1/8 #248 "environment" score? 19.85
+T1970.7509487410134 attempt_247: "environment" score:19.85 prog:None
+T1974.326783594006 🤔 extract_1/7 #249 "harmonious" score? 12.07
+T1974.3270625950245 attempt_248: "harmonious" score:12.07 prog:None
+T1976.9906978080107 🤔 extract_1/6 #250 "interstitial" score? 11.27
+T1976.9909036890022 attempt_249: "interstitial" score:11.27 prog:None
+T1979.2068774090149 🤔 extract_1/5 #251 "joint" score? 1
+T1979.2070532560174 attempt_250: "joint" score:1.00 prog:None
+T1982.150798111019 🤔 extract_1/4 #252 "nexus" score? 9.16
+T1982.150975807017 attempt_251: "nexus" score:9.16 prog:None
+T1984.8706939500116 🤔 extract_1/3 #253 "operations" score? 18.98
+T1984.8708683460136 attempt_252: "operations" score:18.98 prog:None
+T1987.3828313170234 🤔 extract_1/2 #254 "synergistic" score? 3.63
+T1987.3830198780051 attempt_253: "synergistic" score:3.63 prog:None
+T1991.2145875749993 🤔 extract_1/1 #255 "systems" score? !system
+T1991.2147130579979 reject: "systems"
+T1999.4228608139965 #255 ? /prog
+T2007.9509636300209 #255 ? *24 t8 related /clear .
+T2007.9514102820249 session clear
+T2007.9514600900002 chat_prompt: give me 24 words that are related to $1, $2, $3, $4, $5, $6, $7, and $8
+T2007.9516757010133 session: {"role": "user", "content": "give me 24 words that are related to \"integration\", \"convergence\", \"replication\", \"redundancy\", \"synchronization\", \"coexistence\", \"cohabitation\", and \"normalization\""}
+T2024.296088807023 session: {"role": "assistant", "content": "Here are 24 words related to the given terms:\n\n1. Harmony\n2. Synthesis\n3. Unification\n4. Merging\n5. Union\n6. Association\n7. Collaboration\n8. Mutualism\n9. Balance\n10. Equilibrium\n11. Homogenization\n12. Assimilation\n13. Fusion\n14. Merge\n15. Align\n16. Consensus\n17. Alignment\n18. Simplicity\n19. Streamlining\n20. Standardization\n21. Consistency\n22. Cohesion\n23. Diversity\n24. Equilibration\n\nThese words are related to the concepts of integration, convergence, replication, redundancy, synchronization, coexistence, cohabitation, and normalization by highlighting themes such as unity, balance, harmony, and cohesion."}
+T2026.790836825996 #255 extract_...
+T2029.5508853119973 🤔 extract_1/10 #255 "align" score? 11.71
+T2029.5511012370116 attempt_254: "align" score:11.71 prog:None
+T2033.9191413780209 🤔 extract_1/9 #256 "assimilation" score? 49.34 996
+T2033.9193895840144 attempt_255: "assimilation" score:49.34 prog:996
+T2036.5986720120127 🤔 extract_1/8 #257 "cohesion" score? 11.78
+T2036.5989113690157 attempt_256: "cohesion" score:11.78 prog:None
+T2039.1271884590096 🤔 extract_1/7 #258 "collaboration" score? 16.42
+T2039.1274890010245 attempt_257: "collaboration" score:16.42 prog:None
+T2041.5106912250048 🤔 extract_1/6 #259 "consensus" score? 4.37
+T2041.5108671869966 attempt_258: "consensus" score:4.37 prog:None
+T2044.2228231379995 🤔 extract_1/5 #260 "diversity" score? 20.1
+T2044.2230431750068 attempt_259: "diversity" score:20.10 prog:None
+T2050.3511388430197 🤔 extract_1/4 #261 "equilibration" score? 28.53 672
+T2050.351352480997 attempt_260: "equilibration" score:28.53 prog:672
+T2052.886672585999 🤔 extract_1/3 #262 "harmony" score? 11.2
+T2052.886863138003 attempt_261: "harmony" score:11.20 prog:None
+T2055.150657662016 🤔 extract_1/2 #263 "simplicity" score? 11.55
+T2055.1508285480086 attempt_262: "simplicity" score:11.55 prog:None
+T2061.582437859004 🤔 extract_1/1 #264 "streamlining" score? !steamline
+T2061.5825906929967 reject: "streamlining"
+T2063.886396422022 🤔 corrected #264 "steamline" score? !
+T2063.8865264769993 reject: "steamline"
+T2071.366761231009 #264 ? *10 t2 !new
+T2071.367119169008 chat_prompt: give me 10 words that are related to $1 and $2; do not list any words that you have already listed above
+T2071.3672942630074 session: {"role": "user", "content": "give me 10 words that are related to \"assimilation\" and \"integration\"; do not list any words that you have already listed above"}
+T2082.6359062959964 session: {"role": "assistant", "content": "Here are 10 new words related to assimilation and integration:\n\n1. Acculturation\n2. Cultural exchange\n3. Mutual understanding\n4. Inclusion\n5. Social cohesion\n6. Community building\n7. Fusing identities\n8. Cross-cultural adaptation\n9. Transculturalism\n10. Societal fusion\n\nThese words expand on the concepts of assimilation and integration, highlighting processes such as acculturation, cultural exchange, and community building that facilitate the blending of different cultures and identities."}
+T2084.142962200014 #264 extract_...
+T2090.3749478220125 🤔 extract_1/12 #264 "acculturation" score? 38.29 966
+T2090.3751629750186 attempt_263: "acculturation" score:38.29 prog:966
+T2092.9107915490167 🤔 extract_1/11 #265 "building" score? 4.68
+T2092.9109951510036 attempt_264: "building" score:4.68 prog:None
+T2094.926461474999 🤔 extract_1/10 #266 "community" score? 5.4
+T2094.926567827002 attempt_265: "community" score:5.40 prog:None
+T2101.04685230201 🤔 extract_1/9 #267 "cultural" score? 20.06 
+T2101.0470560920076 attempt_266: "cultural" score:20.06 prog:None
+T2103.694917804998 🤔 extract_1/8 #268 "exchange" score? 17.26
+T2103.695133625006 attempt_267: "exchange" score:17.26 prog:None
+T2130.2385245650075 🤔 extract_1/7 #269 "fusing" score? !
+T2130.2385932680045 reject: "fusing"
+T2132.6471265080036 🤔 extract_1/6 #269 "identities" score? !
+T2132.6473268030095 reject: "identities"
+T2137.0307255260122 🤔 extract_1/5 #269 "mutual" score? 6.57
+T2137.030886667024 attempt_268: "mutual" score:6.57 prog:None
+T2144.8472130570153 🤔 extract_1/4 #270 "social" score? 17.6
+T2144.8474462809972 attempt_269: "social" score:17.60 prog:None
+T2147.415048017021 🤔 extract_1/3 #271 "societal" score? 18.77
+T2147.415322981018 attempt_270: "societal" score:18.77 prog:None
+T2150.8792672240234 🤔 extract_1/2 #272 "transculturalism" score? !
+T2150.879518984002 reject: "transculturalism"
+T2154.094602755009 🤔 extract_1/1 #272 "understanding" score? 13.63
+T2154.0947984950035 attempt_271: "understanding" score:13.63 prog:None
+T2154.9345708830224 <INT>
+T0.012885973002994433 now: 2024-12-03T13:05:54EST
+T0.01365455100312829 request: {"method": "GET", "url": "https://cemantle.certitudes.org/stats", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantle.certitudes.org", "Referer": "https://cemantle.certitudes.org/"}, "data": null}
+T3.2086591119877994 response: {"url": "https://cemantle.certitudes.org/stats", "status": 200, "reason": "OK", "headers": {"server": "Fly/ef5cd8bd0 (2024-12-02)", "date": "Tue, 03 Dec 2024 18:14:06 GMT", "connection": "keep-alive", "content-type": "application/json", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JE6VNFH0N6PHGM21NQJMDMEH-lga"}, "content": "{\"num\":974,\"solvers\":333}\n"}
+T4.853392541990615 #273 ? /e
+T11.373103480989812 #273 ? *t2 !new
+T11.37436177599011 chat_prompt: give me 10 words that are related to $1 and $2; do not list any words that you have already listed above
+T11.374562040989986 session: {"role": "user", "content": "give me 10 words that are related to \"assimilation\" and \"integration\"; do not list any words that you have already listed above"}
+T33.95172160898801 session: {"role": "assistant", "content": "Here are 10 new words related to assimilation and integration:\n\n1. Absorption\n2. Onboarding\n3. Socialization\n4. Inclusionary\n5. Pluralism\n6. Hybridity\n7. Multiculturalism\n8. Adaptation\n9. Incorporation\n10. Syncretism\n\nThese words explore concepts such as the process of being absorbed or incorporated into a new group, the act of socializing with others, and the blending of different cultural practices to form something new."}
+T35.03675604899763 #273 extract_...
+T39.18901658197865 🤔 extract_1/8 #273 "absorption" score? 30.7 814
+T39.189224784990074 attempt_272: "absorption" score:30.70 prog:814
+T42.589563441986684 🤔 extract_1/7 #274 "hybridity" score? !hybrid
+T42.58973054497619 reject: "hybridity"
+T45.22097755098366 🤔 corrected #274 "hybrid" score? 9.81
+T45.22114911797689 attempt_273: "hybrid" score:9.81 prog:None
+T48.58116608997807 🤔 extract_1/6 #275 "inclusionary" score? !inclusion
+T48.58130634398549 reject: "inclusionary"
+T53.805015822988935 🤔 extract_1/5 #275 "incorporation" score? 29.13 718
+T53.80524405199685 attempt_274: "incorporation" score:29.13 prog:718
+T56.51724642998306 🤔 extract_1/4 #276 "multiculturalism" score? 20.21
+T56.51745719098835 attempt_275: "multiculturalism" score:20.21 prog:None
+T61.02923934700084 🤔 extract_1/3 #277 "onboarding" score? !
+T61.02939241298009 reject: "onboarding"
+T63.54930860697641 🤔 extract_1/2 #277 "pluralism" score? 20.32
+T63.54956541600404 attempt_276: "pluralism" score:20.32 prog:None
+T66.93326792199514 🤔 extract_1/1 #278 "socialization" score? 21.61
+T66.93350642398582 attempt_277: "socialization" score:21.61 prog:None
+T69.26939506697818 <INT>
+T0.013204557995777577 now: 2024-12-03T13:14:50EST
+T0.013731829996686429 request: {"method": "GET", "url": "https://cemantle.certitudes.org/stats", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantle.certitudes.org", "Referer": "https://cemantle.certitudes.org/"}, "data": null}
+T3.1399043390119914 response: {"url": "https://cemantle.certitudes.org/stats", "status": 200, "reason": "OK", "headers": {"server": "Fly/ef5cd8bd0 (2024-12-02)", "date": "Tue, 03 Dec 2024 18:23:01 GMT", "connection": "keep-alive", "content-type": "application/json", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JE6W5TSCEFB0F0GEEBHTEKP4-lga"}, "content": "{\"num\":974,\"solvers\":347}\n"}
+T6.502197547990363 #279 ? /e
+T8.029767088009976 #279 ? /prog
+T13.117702368006576 #279 ? /last
+T32.34186866800883 #279 ? *15 t5 !new
+T32.343069925991585 chat_prompt: give me 15 words that are related to $1, $2, $3, $4, and $5; do not list any words that you have already listed above
+T32.34327239001868 session: {"role": "user", "content": "give me 15 words that are related to \"assimilation\", \"integration\", \"acculturation\", \"convergence\", and \"replication\"; do not list any words that you have already listed above"}
+T62.557783243013546 session: {"role": "assistant", "content": "Here are 15 new words related to assimilation, integration, acculturation, convergence, and replication:\n\n1. Homogenization\n2. Dissimilation\n3. Transference\n4. Embedment\n5. Infiltration\n6. Assimilative\n7. Co-option\n8. Compromise\n9. Mediation\n10. Interpenetration\n11. Symbiosis\n12. Mutual support\n13. Adaptogenic\n14. Synthesis of identity\n15. Paradigm shift\n\nThese words explore concepts such as the process of dissimilar things becoming similar, the transfer of cultural values or practices from one group to another, and the blending of different identities to form a new whole."}
+T66.63002486000187 #279 extract_...
+T69.24584753700765 🤔 extract_1/10 #279 "adaptogenic" score? !
+T69.24610419399687 reject: "adaptogenic"
+T72.7338871830143 🤔 extract_1/9 #279 "assimilative" score? 23.37
+T72.7341191059968 attempt_278: "assimilative" score:23.37 prog:None
+T74.78178383799968 🤔 extract_1/8 #280 "dissimilation" score? !
+T74.78196999200736 reject: "dissimilation"
+T79.44572765301564 🤔 extract_1/7 #280 "infiltration" score? 32.11 878
+T79.44591525700525 attempt_279: "infiltration" score:32.11 prog:878
+T82.30984246899607 🤔 extract_1/6 #281 "interpenetration" score? 20.44
+T82.31006236499525 attempt_280: "interpenetration" score:20.44 prog:None
+T84.88544350999291 🤔 extract_1/5 #282 "option" score? 4.33
+T84.88562719500624 attempt_281: "option" score:4.33 prog:None
+T88.13367720600218 🤔 extract_1/4 #283 "paradigm" score? 14.87
+T88.13390496300417 attempt_282: "paradigm" score:14.87 prog:None
+T93.75005050899927 🤔 extract_1/3 #284 "shift" score? 28.17 641
+T93.75028923799982 attempt_283: "shift" score:28.17 prog:641
+T97.04577210100251 🤔 extract_1/2 #285 "support" score? 15.65
+T97.04600973101333 attempt_284: "support" score:15.65 prog:None
+T104.3497259519936 🤔 extract_1/1 #286 "transference" score? 26.11 400
+T104.34995597600937 attempt_285: "transference" score:26.11 prog:400
+T105.28577797001344 #287 ? !cont
+T105.28598858599435 chat_prompt: keep going
+T105.28622149900184 session: {"role": "user", "content": "keep going"}
+T114.98334503400838 session: {"role": "assistant", "content": "Here are 15 more words related to assimilation, integration, acculturation, convergence, and replication:\n\n1. Enculturation\n2. Cultural fusion\n3. Identity formation\n4. Social capitalization\n5. Community bonding\n6. Institutionalization\n7. Normative adaptation\n8. Value transfer\n9. Language acquisition\n10. Behavioral conformity\n11. Cognitive assimilation\n12. Emotional integration\n13. Symbolic exchange\n14. Discursive convergence\n15. Contextualization\n\nThese words delve into the nuances of how individuals, groups, and institutions adapt to new contexts, incorporate new ideas, and form new identities."}
+T137.29382308601635 #287 extract_...
+T140.3575504150067 🤔 extract_1/17 #287 "acquisition" score? 23.77
+T140.35772552801063 attempt_286: "acquisition" score:23.77 prog:None
+T145.10204675400746 🤔 extract_1/16 #288 "behavioral" score? 12.11
+T145.1023310040182 attempt_287: "behavioral" score:12.11 prog:None
+T147.76589165901532 🤔 extract_1/15 #289 "bonding" score? 7.29
+T147.76615334599046 attempt_288: "bonding" score:7.29 prog:None
+T150.28525067900773 🤔 extract_1/14 #290 "capitalization" score? 8.65
+T150.28533671601326 attempt_289: "capitalization" score:8.65 prog:None
+T152.9579259380116 🤔 extract_1/13 #291 "cognitive" score? 9.01
+T152.9581344120088 attempt_290: "cognitive" score:9.01 prog:None
+T155.46995521901408 🤔 extract_1/12 #292 "conformity" score? 10.44
+T155.47017914699973 attempt_291: "conformity" score:10.44 prog:None
+T157.50966974400217 🤔 extract_1/11 #293 "contextualization" score? !
+T157.50982438601204 reject: "contextualization"
+T160.75790414499352 🤔 extract_1/10 #293 "discursive" score? 16.19
+T160.7581365990045 attempt_292: "discursive" score:16.19 prog:None
+T163.29355234699324 🤔 extract_1/9 #294 "emotional" score? 2.11
+T163.2937409580045 attempt_293: "emotional" score:2.11 prog:None
+T168.90186317899497 🤔 extract_1/8 #295 "enculturation" score? 28.49 665
+T168.90215003001504 attempt_294: "enculturation" score:28.49 prog:665
+T173.08579347201157 🤔 extract_1/7 #296 "formation" score? 23.25
+T173.0860105640022 attempt_295: "formation" score:23.25 prog:None
+T175.165394206997 🤔 extract_1/6 #297 "institutionalization" score? !
+T175.16551807700307 reject: "institutionalization"
+T177.67788106700755 🤔 extract_1/5 #297 "language" score? 12.57
+T177.6780974790163 attempt_296: "language" score:12.57 prog:None
+T179.9017305620073 🤔 extract_1/4 #298 "normative" score? !
+T179.90187309400062 reject: "normative"
+T183.2620154299948 🤔 extract_1/3 #298 "symbolic" score? 5.76
+T183.26222639199113 attempt_297: "symbolic" score:5.76 prog:None
+T188.31790347301285 🤔 extract_1/2 #299 "transfer" score? 24.57 145
+T188.31812913899194 attempt_298: "transfer" score:24.57 prog:145
+T190.8216994270042 🤔 extract_1/1 #300 "value" score? 10
+T190.8218796850124 attempt_299: "value" score:10.00 prog:None
+T195.56587711599423 #301 ? *t2 !new
+T195.5664724209928 chat_prompt: give me 10 words that are related to $1 and $2; do not list any words that you have already listed above
+T195.56676460499875 session: {"role": "user", "content": "give me 10 words that are related to \"assimilation\" and \"integration\"; do not list any words that you have already listed above"}
+T205.03119387399056 session: {"role": "assistant", "content": "Here are 10 new words related to assimilation and integration:\n\n1. Calibrization\n2. Socialization protocols\n3. Cultural relativization\n4. Identity transformation\n5. Group cohesion frameworks\n6. Adaptive resilience\n7. Inclusivity metrics\n8. Narrative reconfiguration\n9. Intersectional affinity\n10. Embodied belonging\n\nThese words explore concepts such as the process of calibrating one's identity to fit into a new group, the use of protocols to facilitate socialization, and the intersectional nature of affinity and belonging."}
+T207.66181862400845 #301 extract_...
+T210.8857418349944 🤔 extract_1/14 #301 "affinity" score? 10.49
+T210.88597750701592 attempt_300: "affinity" score:10.49 prog:None
+T213.63758407300338 🤔 extract_1/13 #302 "belonging" score? -4.85
+T213.63777261899668 attempt_301: "belonging" score:-4.85 prog:None
+T215.5814557360136 🤔 extract_1/12 #303 "calibrization" score? !
+T215.58158769100555 reject: "calibrization"
+T217.7651315779949 🤔 extract_1/11 #303 "embodied" score? 2.51
+T217.76522204701905 attempt_302: "embodied" score:2.51 prog:None
+T220.65364732500166 🤔 extract_1/10 #304 "frameworks" score? !framework
+T220.65378708401113 reject: "frameworks"
+T223.0379274750012 🤔 extract_1/9 #304 "group" score? 2.57
+T223.0382144600153 attempt_303: "group" score:2.57 prog:None
+T231.82171751599526 🤔 extract_1/8 #305 "inclusivity" score? !
+T231.82185606699204 reject: "inclusivity"
+T238.1178300360043 🤔 extract_1/7 #305 "intersectional" score? !
+T238.11799708701437 reject: "intersectional"
+T241.0137861680123 🤔 extract_1/6 #305 "metrics" score? 7.84
+T241.01397622801596 attempt_304: "metrics" score:7.84 prog:None
+T244.33396716599236 🤔 extract_1/5 #306 "narrative" score? 11.19
+T244.3342061380099 attempt_305: "narrative" score:11.19 prog:None
+T248.56587285900605 🤔 extract_1/4 #307 "protocols" score? !protocol
+T248.5661879919935 reject: "protocols"
+T254.43785834600567 🤔 extract_1/3 #307 "reconfiguration" score? !
+T254.43801618699217 reject: "reconfiguration"
+T256.49417710100533 🤔 extract_1/2 #307 "relativization" score? !
+T256.4943625940068 reject: "relativization"
+T262.14946891201544 🤔 extract_1/1 #307 "transformation" score? 31.78 861
+T262.1497413479956 attempt_306: "transformation" score:31.78 prog:861
+T266.27772681601346 #308 ? > keep going like $7
+T266.2779400690051 chat_prompt: keep going like $7
+T266.27816373101086 session: {"role": "user", "content": "keep going like \"transformation\""}
+T277.9203636010061 session: {"role": "assistant", "content": "Here are 10 more words related to assimilation and integration:\n\n1. Metamorphosis\n2. Recontextualization\n3. Counter-narrative\n4. Displacement accommodation\n5. Identity diffusion\n6. Embodied migration\n7. Hybridity discourses\n8. Boundary blurring\n9. Paradoxical inclusion\n10. Transcultural fluidity\n\nThese words continue to explore the complexities of assimilation and integration, including concepts such as transformation, recontextualization, and hybridity, as well as the nuanced ways in which identities, cultures, and boundaries intersect and interact."}
+T299.5977037360135 #308 extract_...
+T302.57345129700843 🤔 extract_1/13 #308 "accommodation" score? 10.57
+T302.5735704670078 attempt_307: "accommodation" score:10.57 prog:None
+T306.9335612569994 🤔 extract_1/12 #309 "blurring" score? !blur
+T306.9337513369974 reject: "blurring"
+T309.30985877200146 🤔 corrected #309 "blur" score? 11.35
+T309.3100640519988 attempt_308: "blur" score:11.35 prog:None
+T312.2695513360086 🤔 extract_1/11 #310 "boundary" score? 18.86
+T312.2697547440184 attempt_309: "boundary" score:18.86 prog:None
+T314.54972167799133 🤔 extract_1/10 #311 "counter" score? 1.54
+T314.54991115201847 attempt_310: "counter" score:1.54 prog:None
+T318.4138371500012 🤔 extract_1/9 #312 "diffusion" score? 26.26
+T321.30189338701894 🤔 extract_1/9 #312 "diffusion" 26.26°C prog‰ ? 426
+T321.3020978840068 attempt_311: "diffusion" score:26.26 prog:426
+T325.8298485770065 🤔 extract_1/8 #313 "discourses" score? !discourse
+T325.83000837100553 reject: "discourses"
+T329.3015033270058 🤔 corrected #313 "discourse" score? 10.41
+T329.3016795309959 attempt_312: "discourse" score:10.41 prog:None
+T334.237919236999 🤔 extract_1/7 #314 "displacement" score? 40.94 982
+T334.2381491709966 attempt_313: "displacement" score:40.94 prog:982
+T337.5417777959956 🤔 extract_1/6 #315 "fluidity" score? 13.38
+T337.54195327099296 attempt_314: "fluidity" score:13.38 prog:None
+T344.28559854000923 🤔 extract_1/5 #316 "metamorphosis" score? 30.44 798
+T344.28579292600625 attempt_315: "metamorphosis" score:30.44 prog:798
+T348.92560057900846 🤔 extract_1/4 #317 "migration" score? 100 1000
+T348.92581406401587 attempt_316: "migration" score:100.00 prog:1000
+T356.0060865000123 Paste share result, then preses <Enter>
+T356.01460132401553 share result: "I found #cemantle #974 in 318 guesses!\n\ud83e\udd73\n\ud83d\udd252\ufe0f\u20e3\n\ud83e\udd754\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e4\ufe0f\u20e32\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd762\ufe0f\u20e36\ufe0f\u20e31\ufe0f\u20e3\n\ud83e\uddca8\ufe0f\u20e3\nhttps://cemantle.certitudes.org/"
+T356.0162575939903 <STOP>
