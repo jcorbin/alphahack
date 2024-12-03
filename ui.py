@@ -224,9 +224,9 @@ class PromptUI:
         self.last = 'print' if mess.endswith('\n') else 'write'
         print(mess, end='', flush=True)
 
-    def fin(self):
+    def fin(self, final: str = ''):
         if self.last == 'write':
-            print('')
+            print(final)
             self.last = 'print'
 
     def br(self):
