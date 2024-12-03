@@ -1505,3 +1505,15 @@ See log/squareword.org/#1036
 ⏱️ 33s
 🔗 alfagok.diginaut.net
 ```
+
+# 2024-12-03 alphaguess.com
+
+```
+🧩 Puzzle #497
+
+🤔 15 guesses
+
+⏱️ 26s
+
+🔗 alphaguess.com
+```
