@@ -1,0 +1,944 @@
+T0.004412912006955594 now: 2024-12-03T08:27:45EST
+T0.006953320000320673 request: {"method": "GET", "url": "https://cemantix.certitudes.org/", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantix.certitudes.org", "Referer": "https://cemantix.certitudes.org/"}, "data": null}
+T3.4716766430065036 response: {"url": "https://cemantix.certitudes.org/", "status": 200, "reason": "OK", "headers": {"server": "Fly/ef5cd8bd0 (2024-12-02)", "date": "Tue, 03 Dec 2024 13:35:57 GMT", "connection": "keep-alive", "content-type": "text/html; charset=utf-8", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JE6BR5M8FKC1T9QQ99XRT0VQ-lga"}, "content": "<!DOCTYPE html>\n<html lang=\"fr\">\n\t<head>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t<meta name=\"description\" content=\"Trouvez le mot secret en essayant de vous en approcher le plus possible s\u00e9mantiquement.\">\n\t<meta property=\"og:title\" content=\"c\u00e9mantix - Trouvez le mot secret&nbsp;!\">\n\t<meta property=\"og:description\" content=\"Trouvez le mot secret en essayant de vous en approcher le plus possible s\u00e9mantiquement.\">\n\t<meta property=\"og:type\" content=\"website\">\n\t<meta property=\"og:image\" content=\"https://static.certitudes.org/images/cemantix.png\">\n\t<meta property=\"og:url\" content=\"https://cemantix.certitudes.org/\">\n\t<meta property=\"og:site_name\" content=\"c\u00e9mantix\">\n\t<title id=\"app-title\">c\u00e9mantix</title>\n\t<link rel=\"stylesheet\" href=\"https://static.certitudes.org/html/cemantix.css\">\n\t<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/icon?family=Material+Icons\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"https://static.certitudes.org/images/cemantix-32x32.png\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"https://static.certitudes.org/images/cemantix-16x16.png\">\n\t<link rel=\"apple-touch-icon\" href=\"https://static.certitudes.org/images/cemantix-192x192.png\">\n\t<link rel=\"apple-touch-icon-precomposed\" href=\"https://static.certitudes.org/images/cemantix-192x192.png\">\n\t<link rel=\"apple-touch-icon-120x120\" href=\"https://static.certitudes.org/images/cemantix-192x192.png\">\n\t<link rel=\"apple-touch-icon-120x120-precomposed\" href=\"https://static.certitudes.org/images/cemantix-192x192.png\">\n\t<link rel=\"apple-touch-icon-152x152\" href=\"https://static.certitudes.org/images/cemantix-192x192.png\">\n\t<link rel=\"apple-touch-icon-152x152-precomposed\" href=\"https://static.certitudes.org/images/cemantix-192x192.png\">\n\t<link rel=\"manifest\" href=\"https://static.certitudes.org/html/cemantix.webmanifest\">\n\t<script id=\"cemantix-script\" type=\"module\" src=\"https://static.certitudes.org/html/cemantix.js\" data-puzzle-number=\"1007\" data-utc-time=\"1733180400\" data-app=\"cemantix\"></script>\n\t<script id=\"pedantix-script\" type=\"module\" src=\"https://static.certitudes.org/html/pedantix.js\" data-puzzle-number=\"935\" data-utc-time=\"1733137200\" data-app=\"cemantix\"></script>\n\t<base target=\"_blank\">\n\t</head>\n\t<body>\n\t<div id=\"dialog-underlay\">\n\t\t<div aria-modal=\"true\" role=\"dialog\" id=\"dialog\">\n\t\t\t<a id=\"dialog-close\" aria-label=\"Fermer\">&times;</a>\n\t\t\t<div class=\"dialog-content\" id=\"cloud\">\n\t\t\t\t<h3>Collaborer</h3>\n\t\t\t\t<div id=\"team-collab\">\n\t\t\t\t<p>Vous pouvez collaborer en \u00e9quipe sur une partie en g\u00e9n\u00e9rant un code \u00e0 partager. Les utilisateurs de ce code recevront les mots du top 1000 que vous trouverez, et vous recevrez les leurs. Le code est valable pour la journ\u00e9e.<br>\n\t\t\t\tCette fonctionnalit\u00e9 utilise des ressources en quantit\u00e9 limit\u00e9e, par cons\u00e9quent :</p><ul><li>Il ne sert \u00e0 rien de cr\u00e9er une \u00e9quipe juste avant minuit, elle sera perdue le moment venu.</li><li>Ne partagez pas le code publiquement sur les r\u00e9seaux sociaux !</li><li>Merci de jouer le jeu \ud83d\ude42</li></ul>\n\t\t\t\t<p class=\"headline\" id=\"start-team\">Cr\u00e9er une \u00e9quipe : <input type=\"submit\" value=\"Obtenir le code\" id=\"start\"></p>\n\t\t\t\t<p class=\"headline\" id=\"join-team\">Joindre une \u00e9quipe : <input placeholder=\"Code\" autocorrect=\"off\" autocapitalize=\"none\" autocomplete=\"off\" type=\"text\" id=\"code\"><input type=\"submit\" value=\"Valider\" id=\"join\"></p>\n\t\t\t\t<p class=\"headline\" id=\"leave-team\">Vous \u00eates dans l\u00b4\u00e9quipe <b><span id=\"team\"></span></b> <input type=\"submit\" value=\"Quitter\" id=\"leave\"></p>\n\t\t\t\t<div id=\"team-status\"></div>\n\t\t\t\t<div id=\"team-error\" class=\"footer\"></div>\n\t\t\t\t</div>\n\t\t\t\t<div id=\"twitter-collab\">\n\t\t\t\t<p>Vous pouvez continuer votre partie sur un autre appareil en vous identifiant avec Twitter. Il suffit de vous identifier sur les deux appareils pour que la partie soit partag\u00e9e. Aucune donn\u00e9e de votre compte Twitter autre que l\u2019identifiant n\u2019est utilis\u00e9e.</p>\n\t\t\t\t<p class=\"headline\" id=\"join-twitter\">S\u2019identifier avec Twitter : <button id=\"signin\"><img  class=\"twitter-button\" alt=\"Twitter\" src=\"https://static.certitudes.org/images/twitter.svg\"> Se connecter</button></p>\n\t\t\t\t</div>\n\t\t\t\t<p class=\"headline\" id=\"leave-twitter\">Vous \u00eates identifi\u00e9 comme <img class=\"twitter-button\" alt=\"Twitter\" id=\"twitter-photo\">&nbsp;<b><span id=\"twitter-name\"></span></b><input type=\"submit\" value=\"Se d\u00e9connecter\" id=\"signout\"></p>\n\t\t\t\t<span id=\"twitter-status\"></span>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"history\">\n\t\t\t\t<h3>Historique</h3>\n\t\t\t\t<p>Vous pouvez synchroniser l\u2019historique entre vos appareils en vous identifiant avec Twitter. Aucune donn\u00e9e de votre compte Twitter autre que l\u2019identifiant n\u2019est utilis\u00e9e.</p>\n\t\t\t\t<p class=\"headline\" id=\"sync-twitter\">S\u2019identifier avec Twitter: <button id=\"sync\"><img  class=\"twitter-button\" alt=\"Twitter\" src=\"https://static.certitudes.org/images/twitter.svg\"> Se connecter</button></p>\n\t\t\t\t<p class=\"headline\" id=\"synced-twitter\">Vous \u00eates identifi\u00e9 comme <img class=\"twitter-button\" alt=\"Twitter\" id=\"sync-photo\">&nbsp;<b><span id=\"sync-name\"></span></b>.</p>\n\t\t\t\t<div id=\"history-sync\">Synchronis\u00e9 <span id=\"sync-time\"></span>. <a id=\"refresh\" title=\"Synchroniser\">\ud83d\udd03 <u>Synchroniser</u></a><br><br></div>\n\t\t\t\t<table>\n\t\t\t\t\t<thead>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th class=\"number\">N\u00ba</th>\n\t\t\t\t\t\t<th class=\"word\">Mot&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t\t<th class=\"number\">Coups</th>\n\t\t\t\t\t\t<th>\ud83e\udd73</th>\n\t\t\t\t\t\t<th class=\"number\">Trouveurs</th>\n\t\t\t\t\t\t<th></th>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</thead>\n\t\t\t\t\t<tbody id=\"historybody\"></tbody>\n\t\t\t\t</table>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"story\">\n\t\t\t<h3 class=\"noselect\">Partager</h3>\n\t\t\t\t<p class=\"headline\" id=\"share-story\"></p>\n\t\t\t\t<span class=\"footer noselect\" id=\"clipboard\"></span>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"theme\">\n\t\t\t<h3 class=\"noselect\">Couleurs</h3>\n\t\t\t\t<table class=\"headline\">\n\t\t\t\t<tr>\n\t\t\t\t\t<th>\ud83c\udfa8 Th\u00e8me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t<th>\ud83d\udd06 Mode</th>\n\t\t\t\t\t<th>\ud83c\udf6d Accessibilit\u00e9</th>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td><input type=\"radio\" name=\"theme\" id=\"colorful\"> Gaulois</td>\n\t\t\t\t\t<td><input type=\"radio\" name=\"mode\" id=\"light\"> Clair</td>\n\t\t\t\t\t<td><input type=\"checkbox\" id=\"blind\"> Daltonisme</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td><input type=\"radio\" name=\"theme\" id=\"grey\"> Romain</td>\n\t\t\t\t\t<td><input type=\"radio\" name=\"mode\" id=\"dark\"> Sombre</td>\n\t\t\t\t\t<td></td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td></td>\n\t\t\t\t\t<td><input type=\"radio\" name=\"mode\" id=\"system\"> Syst\u00e8me</td>\n\t\t\t\t\t<td></td>\n\t\t\t\t</tr>\n\t\t\t\t</table>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"cemantix-rules\">\n\t\t\t\t<h3>Trouvez le mot secret&nbsp;!</h3>\n\t\t\t\t<div id=\"cemantix-rulesbody\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"pedantix-rules\">\n\t\t\t\t<h3>D\u00e9couvrez la page Wikip\u00e9dia&nbsp;!</h3>\n\t\t\t\t<div id=\"pedantix-rulesbody\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"faq\">\n\t\t\t\t<h3>FAQ</h3>\n\t\t\t\t<div id=\"faqbody\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"announcement\">\n\t\t\t<h3>Annonce</h3>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"yestertable\">\n\t\t\t\t<h3>Mots proches de <i>\u00e9criture</i></h3>\n\t\t\t\t<table>\n\t\t\t\t\t<thead>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th class=\"number\">N\u00ba</th>\n\t\t\t\t\t\t<th class=\"word\">Mot&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t\t<th class=\"number\">\u00b0C</th>\n\t\t\t\t\t\t<th>&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t\t<th class=\"number\">\u2030</th>\n\t\t\t\t\t\t<th></th>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</thead>\n\t\t\t\t\t<tbody id=\"yesterbody\">\n\t\t\t\t\t</tbody>\n\t\t\t\t</table>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<aside class=\"aside\">\n\t<nav class=\"menu\">\n\t\t<a class=\"material-icons icon\" id=\"rules-button\" title=\"R\u00e8gles\" aria-label=\"R\u00e8gles\">info</a>\n\t\t<a class=\"material-icons icon\" id=\"faq-button\" title=\"FAQ\" aria-label=\"FAQ\">quiz</a>\n\t\t<a class=\"material-icons icon\" id=\"theme-button\" title=\"Couleurs\" aria-label=\"Couleurs\">palette</a>\n\t\t<a class=\"material-icons icon\" id=\"history-button\" title=\"Historique\" aria-label=\"Historique\">history</a>\n\t\t<a class=\"material-icons icon\" id=\"cloud-button\" title=\"Collaborer\" aria-label=\"Collaborer\">cloud</a><sup id=\"team-members\"></sup>&nbsp;\n\t</nav>\n\n\t<div class=\"summary\">\n\t\t<h3>Jour n\u00ba<b id=\"puzzle-num\">1007</b></h3>\n\t\t<div>Trouv\u00e9 par <span id=\"solved\">11200</span> personne<span id=\"plural\">s</span></div>\n\t\t<div id=\"cemantix-summary\" style=\"display:run-in\">\n\t\t\t<p id=\"cemantix-day-meter\">\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca</p>\n\t\t\t<table class=\"story\">\n\t\t\t\t<thead>\n\t\t\t\t<tr><th class=\"number\"><b>\u2030</b></th><th class=\"emoji\">\ud83c\udf21</th><th class=\"number\"><b>\u00b0C</b></th></tr>\n\t\t\t\t</thead>\n\t\t\t\t<tr><td class=\"number\">1000</td><td class=\"emoji\">\ud83e\udd73</td><td class=\"decimal number\">100</td></tr>\n\t\t\t\t<tr><td class=\"number\">999</td><td class=\"emoji\">\ud83d\ude31</td><td class=\"decimal number\">60.51</td></tr>\n\t\t\t\t<tr><td class=\"number\">990</td><td class=\"emoji\">\ud83d\udd25</td><td class=\"decimal number\">42.22</td></tr>\n\t\t\t\t<tr><td class=\"number\">900</td><td class=\"emoji\">\ud83e\udd75</td><td class=\"decimal number\">29.24</td></tr>\n\t\t\t\t<tr><td class=\"number\">1</td><td class=\"emoji\">\ud83d\ude0e</td><td class=\"decimal number\">16.83</td></tr>\n\t\t\t\t<tr><td class=\"number\"></td><td class=\"emoji\">\ud83e\udd76</td><td class=\"decimal number\">0</td></tr>\n\t\t\t\t<tr><td class=\"number\"></td><td class=\"emoji\">\ud83e\uddca</td><td class=\"decimal number\">-100</td></tr>\n\t\t\t</table>\n\t\t\t<div class=\"yesterday\">\n\t\t\tLe mot d\u2019hier \u00e9tait <a id=\"cemantix-yesterday\"><b><u>\u00e9criture</u></b></a>\n\t\t\t</div>\n\t\t\t\ud83c\uddfa\ud83c\uddf8 <a href=\"https://cemantle.certitudes.org/\">cemantle</a>\n\t\t</div>\n\t\t<div id=\"pedantix-summary\" style=\"display:none\">\n\t\t\t<p id=\"pedantix-day-meter\">\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5</p>\n\t\t\t<table id=\"pedantix-guessable\" class=\"guessable\">\n\t\t\t\t<thead>\n\t\t\t\t<tr>\n\t\t\t\t\t<th class=\"number order\" id=\"pedantix-chronoOrder\">N\u00ba</th>\n\t\t\t\t\t<th class=\"word order\" id=\"pedantix-alphaOrder\">Mot&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t<th><a id=\"collapse\" title=\"Minimiser\">\u2195\ufe0f</a></th>\n\t\t\t\t</tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody id=\"pedantix-guesses\" class=\"guesses\">\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t\t<div>\n\t\t\t\t<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1367635413731794\" crossorigin=\"anonymous\"></script>\n\t\t\t\t<ins id=\"pedantix-ad\"\n\t\t\t\t\tstyle=\"display:inline-block;width:200px;\"\n\t\t\t\t\tdata-ad-client=\"ca-pub-1367635413731794\"\n\t\t\t\t\tdata-ad-slot=\"7184940971\"\n\t\t\t\t\tdata-ad-format=\"vertical\">\n\t\t\t\t</ins>\n\t\t\t</div>\n\t\t\t<div class=\"yesterday\">\n\t\t\tLa page d\u2019hier \u00e9tait :<br><a id=\"pedantix-yesterday\" href=\"https://fr.wikipedia.org/wiki/Naissance_des_\u00e9toiles\"><b><u>Naissance des \u00e9toiles</u></b></a>\n\t\t\t</div>\n\t\t\t\ud83c\uddfa\ud83c\uddf8 <a href=\"https://cemantle.certitudes.org/pedantle\">pedantle</a>\n\t\t</div>\n\t</div>\n\t</aside>\n\t\n\t<article class=\"main\">\n\t<div id=\"tabs\">\n\t\t<a id=\"cemantix\" class=\"active tab\">\n\t\t\t<img alt=\"Trouvez le mot secret&amp;nbsp;!\" src=\"https://static.certitudes.org/images/cemantix.svg\" width=\"240\" height=\"180\">\n\t\t\t<span id=\"cemantix-title\" class=\"caption\">Trouvez le mot secret&nbsp;!</span>\n\t\t</a>\n\t\t<a id=\"pedantix\" class=\"inactive tab\">\n\t\t\t<img alt=\"D\u00e9couvrez la page Wikip\u00e9dia&amp;nbsp;!\" src=\"https://static.certitudes.org/images/pedantix.svg\" width=\"240\" height=\"180\">\n\t\t\t<span id=\"pedantix-title\" class=\"caption\">D\u00e9couvrez la page Wikip\u00e9dia&nbsp;!</span>\n\t\t</a>\n\t</div>\n\t<div id=\"content\">\n\t\t<div id=\"cemantix-game\" style=\"display:run-in\">\n\t\t\t<div id=\"cemantix-success\" class=\"success\" style=\"display:run-in\">\n\t\t\t\t<p><b>Bravo !</b> Vous \u00eates <b><span id=\"cemantix-ranking\"></span></b> \u00e0 le trouver, en <b><span id=\"cemantix-tries\"></span></b>. R\u00e9sum\u00e9 du jour :</p>\n\t\t\t\t<p><span id=\"cemantix-meter\"></span></p>\n\t\t\t\t<p><a id=\"cemantix-share\"><u><b>Partagez</b></u></a> et revenez jouer demain.</p>\n\t\t\t\t<p><input type=\"checkbox\" id=\"cemantix-see\" class=\"see\"> Voir les mots <span id=\"cemantix-solution\"></span>les plus proches</p>\n\t\t\t</div>\n\t\t\t<form id=\"cemantix-form\" class=\"form\">\n\t\t\t\t<div class=\"guessbox\">\n\t\t\t\t\t<input placeholder=\"Mot\" autocorrect=\"off\" autocapitalize=\"none\" autocomplete=\"off\" type=\"search\" name=\"searchTerm\" id=\"cemantix-guess\" class=\"guess\">\n\t\t\t\t\t<div id=\"cemantix-previous\" class=\"previous\">&#10554;</div>\n\t\t\t\t</div>\n\t\t\t\t<input type=\"submit\" value=\"Envoyer\" id=\"cemantix-guess-btn\" class=\"guess-btn\" disabled>\n\t\t\t\t<label id=\"cemantix-error\" class=\"error\"></label>\n\t\t\t</form>\n\t\t\t<div id=\"cemantix-secret\" class=\"secret\"><a id=\"cemantix-reveal\" title=\"R\u00e9v\u00e9ler\" aria-label=\"R\u00e9v\u00e9ler\"><u>R\u00e9v\u00e9ler le mot secret</u>&nbsp;\ud83d\udc40</a></div>\n\t\t\t<table id=\"cemantix-guessable\" class=\"guessable game\">\n\t\t\t\t<thead>\n\t\t\t\t<tr>\n\t\t\t\t\t<th class=\"number order\" id=\"cemantix-chronoOrder\">N\u00ba</th>\n\t\t\t\t\t<th class=\"word order\" id=\"cemantix-alphaOrder\">Mot&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t<th class=\"number order\" id=\"temperatureOrder\">\u00b0C</th>\n\t\t\t\t\t<th class=\"emoji\">\ud83c\udf21</th>\n\t\t\t\t\t<th class=\"number\">\u2030</th>\n\t\t\t\t\t<th class=\"progress\">Progression</th>\n\t\t\t\t</tr>\n\t\t\t\t<tr id=\"cemantix-guessed\" class=\"guesses\"><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody id=\"cemantix-guesses\" class=\"guesses\">\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t\t<div>\n\t\t\t\t<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1367635413731794\" crossorigin=\"anonymous\"></script>\n\t\t\t\t<ins id=\"cemantix-ad\"\n\t\t\t\t\tstyle=\"display:block; text-align:center;\"\n\t\t\t\t\tdata-ad-layout=\"in-article\"\n\t\t\t\t\tdata-ad-format=\"fluid\"\n\t\t\t\t\tdata-ad-client=\"ca-pub-1367635413731794\"\n\t\t\t\t\tdata-ad-slot=\"5546665487\">\n\t\t\t\t</ins>\n\t\t\t</div>\n\t\t</div>\n\t\t<div id=\"pedantix-game\" style=\"display:none\">\n\t\t\t<div id=\"pedantix-success\" class=\"success\" style=\"display:none\">\n\t\t\t\t<p><b>Bravo !</b> Vous \u00eates <b><span id=\"pedantix-ranking\"></span></b> \u00e0 la trouver, en <b><span id=\"pedantix-tries\"></span></b>. R\u00e9sum\u00e9 du jour :</p>\n\t\t\t\t<p><span id=\"pedantix-meter\"></span></p>\n\t\t\t\t<p><a id=\"pedantix-share\"><u><b>Partagez</b></u></a> et revenez jouer demain.</p>\n\t\t\t\t<p><input type=\"checkbox\" id=\"pedantix-see\" class=\"see\"> Voir la <u><b><a id=\"pedantix-solution\" title=\"Page Wikip\u00e9dia\">page</a></b></u><input type=\"checkbox\" id=\"pedantix-word\" class=\"see\"> R\u00e9v\u00e9ler les mots s\u00e9par\u00e9ment</p>\n\t\t\t</div>\n\t\t\t<form id=\"pedantix-form\" class=\"form\">\n\t\t\t\t<span id=\"pin\">\ud83d\udccd</span>\n\t\t\t\t<div class=\"guessbox\">\n\t\t\t\t\t<input size=\"15\" placeholder=\"Mot\" autocorrect=\"off\" autocapitalize=\"none\" autocomplete=\"off\" type=\"search\" name=\"searchTerm\" id=\"pedantix-guess\" class=\"guess\">\n\t\t\t\t\t<div id=\"pedantix-previous\" class=\"previous\">&#10554;</div>\n\t\t\t\t</div>\n\t\t\t\t<input type=\"submit\" value=\"Envoyer\" id=\"pedantix-guess-btn\" class=\"guess-btn\" disabled>\n\t\t\t\t<label id=\"pedantix-error\" class=\"error\"></label>\n\t\t\t</form>\n\t\t\t<div id=\"pedantix-secret\" class=\"secret\"><a id=\"pedantix-reveal\" title=\"R\u00e9v\u00e9ler\" aria-label=\"R\u00e9v\u00e9ler\"><u>R\u00e9v\u00e9ler la page secr\u00e8te</u>&nbsp;\ud83d\udc40</a></div>\n\t\t\t<div id=\"wiki\" class=\"game\">\n\t\t\t\t<h2><span class=\"h w\" id=\"0\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"h w\" id=\"1\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <img id=\"wiki-img\"></h2>\n\t\t\t\t<div id=\"article\"><p><span class=\"w\" id=\"2\">\u00a0\u00a0\u00a0\u00a0</span> <b><span class=\"w\" id=\"3\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"4\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span></b><sup></sup> [<span class=\"w\" id=\"5\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>] <span class=\"w\" id=\"6\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"7\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"8\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"9\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"10\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"11\">\u00a0\u00a0\u00a0\u00a0</span> <abbr><span><span class=\"w\" id=\"12\">\u00a0\u00a0\u00a0\u00a0\u00a0</span></span><sup><span class=\"w\" id=\"13\">\u00a0\u00a0\u00a0</span></sup></abbr>\u00a0<span class=\"w\" id=\"14\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"15\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"16\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"17\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"18\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"19\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"20\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"21\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"22\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"23\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"24\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"25\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"26\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"27\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"28\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"29\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"30\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"31\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"32\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"33\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"34\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> (<span class=\"w\" id=\"35\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>-<span class=\"w\" id=\"36\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>), <span class=\"w\" id=\"37\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> (<span class=\"w\" id=\"38\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>-<span class=\"w\" id=\"39\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>) <span class=\"w\" id=\"40\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"41\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> (<span class=\"w\" id=\"42\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>-<span class=\"w\" id=\"43\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>). <span class=\"w\" id=\"44\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"45\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"46\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"47\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"48\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"49\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"50\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"51\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"52\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"53\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"54\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"55\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"56\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"57\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"58\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"59\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"60\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"61\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"62\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"63\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"64\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"65\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"66\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"67\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"68\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"69\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"70\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"71\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"72\">\u00a0\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"73\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"74\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"75\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <i><span class=\"w\" id=\"76\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"77\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span></i>, <span class=\"w\" id=\"78\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"79\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"80\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"81\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"82\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"83\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"84\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <i><span><span class=\"w\" id=\"85\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"86\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span></span></i> (<i><span class=\"w\" id=\"87\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"88\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"89\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"90\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span></i>) <span class=\"w\" id=\"91\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"92\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <i><span><span class=\"w\" id=\"93\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"94\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"95\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"96\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"97\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span></span></i> (<i><span class=\"w\" id=\"98\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"99\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"100\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"101\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"102\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span></i>) <span class=\"w\" id=\"103\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"104\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"105\">\u00a0\u00a0\u00a0\u00a0</span> <i><span class=\"w\" id=\"106\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span></i> <span class=\"w\" id=\"107\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"108\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"109\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"110\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"111\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"112\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"113\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"114\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"115\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"116\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"117\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"118\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"119\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>.</p><p><span class=\"w\" id=\"120\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"121\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"122\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"123\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"124\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"125\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"126\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"127\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"128\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"129\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"130\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"131\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"132\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"133\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"134\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"135\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"136\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"137\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"138\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"139\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"140\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"141\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"142\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"143\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"144\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"145\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"146\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"147\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"148\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"149\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"150\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"151\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"152\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"153\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"154\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"155\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"156\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"157\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"158\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"159\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"160\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"161\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"162\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"163\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"164\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"165\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"166\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"167\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"168\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"169\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"170\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"171\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"172\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"173\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"174\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"175\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>.</p><p><span class=\"w\" id=\"176\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"177\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"178\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"179\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> (<span class=\"w\" id=\"180\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"181\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"182\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"183\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>), <span class=\"w\" id=\"184\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"185\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"186\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"187\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"188\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"189\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"190\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"191\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"192\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"193\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"194\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"195\">\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"196\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"197\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"198\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"199\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"200\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"201\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"202\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"203\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"204\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"205\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"206\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"207\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"208\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"209\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"210\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"211\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"212\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"213\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"214\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"215\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"216\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"217\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"218\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"219\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"220\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"221\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"222\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"223\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"224\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"225\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"226\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"227\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"228\">\u00a0\u00a0\u00a0\u00a0</span>-<span class=\"w\" id=\"229\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"230\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"231\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"232\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"233\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"234\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"235\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"236\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"237\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"238\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"239\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"240\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"241\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"242\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"243\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"244\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"245\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"246\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"247\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"248\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"249\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"250\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"251\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"252\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"253\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"254\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"255\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"256\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"257\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"258\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"259\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"260\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"261\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>.</p></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t</article>\n\n\t<footer class=\"footer\">\n\t\t<div id=\"cemantix-credits\" style=\"display:run-in\">R\u00e9dig\u00e9 par <a href=\"https://twitter.com/enigmathix\">enigmatix</a>. Inspir\u00e9 de <a href=\"https://semantle.com/\">Semantle</a> par David Turner. Donn\u00e9es de <a href=\"https://fauconnier.github.io/#data\">Jean-Philippe Fauconnier</a>. <a href=\"https://static.certitudes.org/html/cemantix-privacy.html\">Confidentialit\u00e9</a>.</div>\n\t\t<div id=\"pedantix-credits\" style=\"display:none\">R\u00e9dig\u00e9 par <a href=\"https://twitter.com/enigmathix\">enigmatix</a>.  Donn\u00e9es de <a href=\"https://fauconnier.github.io/#data\">Jean-Philippe Fauconnier</a> et <a href=\"https://fr.wikipedia.org\">Wikip\u00e9dia</a>. <a href=\"https://static.certitudes.org/html/cemantix-privacy.html\">Confidentialit\u00e9</a>.</div>\n\t</footer>\n\t</body>\n</html>"}
+T3.504969189001713 puzzle_id: #1007
+T3.5049999900220428 pubtime: 1733180400
+T3.5069424340035766 scale: 🥳 100.00 °C
+T3.506998343014857 scale: 😱 60.51 °C
+T3.5070478359994013 scale: 🔥 42.22 °C
+T3.5070920099969953 scale: 🥵 29.24 °C
+T3.507135569001548 scale: 😎 16.83 °C
+T3.5071792710223235 scale: 🥶 0.00 °C
+T3.5072202190058306 scale: 🧊 -100.00 °C
+T3.507498132006731 request: {"method": "GET", "url": "https://cemantix.certitudes.org/stats", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantix.certitudes.org", "Referer": "https://cemantix.certitudes.org/"}, "data": null}
+T3.62344304099679 response: {"url": "https://cemantix.certitudes.org/stats", "status": 200, "reason": "OK", "headers": {"server": "Fly/ef5cd8bd0 (2024-12-02)", "date": "Tue, 03 Dec 2024 13:35:57 GMT", "connection": "keep-alive", "content-type": "application/json", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JE6BR5VCK3FM6157B3RCKJ3B-lga"}, "content": "{\"num\":1007,\"solvers\":11200}\n"}
+T3.646752483007731 session model: llama3.2:latest
+T5.156255134003004 #1 ? 
+T5.1564591220230795 chat_prompt: give me 10 French words that are not related to each other
+T5.156533482018858 session: {"role": "user", "content": "give me 10 French words that are not related to each other"}
+T16.676111264008796 session: {"role": "assistant", "content": "Here are 10 French words that are not directly related to each other:\n\n1. Fleur (flower)\n2. Mus\u00e9e (museum)\n3. Croissant (pastry)\n4. Rivi\u00e8re (river)\n5. Th\u00e9\u00e2tre (theater)\n6. Patisserie (bakery)\n7. Montagne (mountain)\n8. Biblioth\u00e8que (library)\n9. Sauter (to jump)\n10. Cuisine (kitchen)\n\nNote that while these words are not directly related to each other, they all share a common linguistic heritage and are part of the French language."}
+T17.733438866998767 #1 extract_...
+T25.17768440101645 🤔 extract_1/10 #1 "bibliothèque" score? 25.64 790
+T25.177980210020905 attempt_0: "bibliothèque" score:25.64 prog:790
+T27.942389232019195 🤔 extract_1/9 #2 "croissant" score? 2.57
+T27.942587361001642 attempt_1: "croissant" score:2.57 prog:None
+T30.51313377401675 #3 ? $10 t1
+T0.006905337009811774 now: 2024-12-03T08:28:19EST
+T0.007487505994504318 request: {"method": "GET", "url": "https://cemantix.certitudes.org/stats", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantix.certitudes.org", "Referer": "https://cemantix.certitudes.org/"}, "data": null}
+T3.2690413700183854 response: {"url": "https://cemantix.certitudes.org/stats", "status": 200, "reason": "OK", "headers": {"server": "Fly/ef5cd8bd0 (2024-12-02)", "date": "Tue, 03 Dec 2024 13:36:30 GMT", "connection": "keep-alive", "content-type": "application/json", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JE6BS6MEG98YYPHMGSNSXSGJ-lga"}, "content": "{\"num\":1007,\"solvers\":11214}\n"}
+T11.021107039996423 #3 ? *9 $1
+T11.022247351997066 chat_prompt: give me 9 French words that are related to $1
+T11.022417825006414 session: {"role": "user", "content": "give me 9 French words that are related to \"biblioth\u00e8que\""}
+T20.978691816999344 session: {"role": "assistant", "content": "Here are 9 French words that are related to \"biblioth\u00e8que\":\n\n1. Livre (book)\n2. Tome (large book or volume)\n3. Catalogue (catalog of books)\n4. Index (index of books)\n5. Manuscrit (manuscript)\n6. Archives (archival materials)\n7. Bibliographie (bibliography)\n8. Abonnement (subscription to a library)\n9. R\u00e9serve (reserve section of the library, typically for rare or restricted items)\n\nThese words are all related to books, reading, and libraries, making them connected to the concept of \"biblioth\u00e8que\"."}
+T26.05264398700092 #3 extract_...
+T29.66856988501968 🤔 extract_1/9 #3 "abonnement" score? 13.72
+T29.668811818002723 attempt_2: "abonnement" score:13.72 prog:None
+T32.25406516800285 🤔 extract_1/8 #4 "archives" score? !
+T32.25432669901056 reject: "archives"
+T38.307256521016825 🤔 extract_1/7 #4 "bibliographie" score? 27.78 868
+T38.3074822530034 attempt_3: "bibliographie" score:27.78 prog:868
+T43.98227534600301 🤔 extract_1/6 #5 "catalogue" score? 22.99 673
+T43.98248503700597 attempt_4: "catalogue" score:22.99 prog:673
+T46.601868608995574 🤔 extract_1/5 #6 "index" score? 16.66
+T46.60203063499648 attempt_5: "index" score:16.66 prog:None
+T52.64881269601756 🤔 extract_1/4 #7 "livre" score? 19.21 372
+T52.64891543399426 attempt_6: "livre" score:19.21 prog:372
+T55.955736154021 🤔 extract_1/3 #8 "manuscrit" score? 8.4
+T55.9560083450051 attempt_7: "manuscrit" score:8.40 prog:None
+T62.38384200099972 #9 ? *15 t3
+T62.38435330701759 chat_prompt: give me 15 French words that are related to $1, $2, and $3
+T62.38460566100548 session: {"role": "user", "content": "give me 15 French words that are related to \"bibliographie\", \"biblioth\u00e8que\", and \"catalogue\""}
+T79.52594503201544 session: {"role": "assistant", "content": "Here are 15 French words that are related to \"bibliographie\", \"biblioth\u00e8que\", and \"catalogue\":\n\n1. Livre (book)\n2. Tome (large book or volume)\n3. Catalogue (catalog of books)\n4. Index (index of books)\n5. Manuscrit (manuscript)\n6. Archives (archival materials)\n7. Bibliographie (bibliography)\n8. Abonnement (subscription to a library)\n9. R\u00e9serve (reserve section of the library, typically for rare or restricted items)\n10. Classification (classification system of books)\n11. Cataloguage (process of creating a catalogue)\n12. Registre (register or record of bibliographic information)\n13. Bibliophile (person who loves books and literature)\n14. Biblioth\u00e9caire (library caretaker or librarian)\n15. Classique (classical works or authors)\n\nThese words are all related to the concept of \"bibliographie\", \"biblioth\u00e8que\", and \"catalogue\", encompassing topics such as book collecting, library management, and literary studies."}
+T86.83060033401125 #9 extract_...
+T90.05189854800119 🤔 extract_1/8 #9 "bibliophile" score? 11.47
+T90.05205366801238 attempt_8: "bibliophile" score:11.47 prog:None
+T96.85423593199812 🤔 extract_1/7 #10 "bibliothécaire" score? 22.96 669
+T96.85452393401647 attempt_9: "bibliothécaire" score:22.96 prog:669
+T99.65814362402307 🤔 extract_1/6 #11 "cataloguage" score? !
+T99.65838286900544 reject: "cataloguage"
+T103.03174374101218 🤔 extract_1/5 #11 "classification" score? 15.06
+T103.03195677002077 attempt_10: "classification" score:15.06 prog:None
+T105.53818347901688 🤔 extract_1/4 #12 "classique" score? 6.33
+T105.53835801500827 attempt_11: "classique" score:6.33 prog:None
+T108.66929788299603 🤔 extract_1/3 #13 "registre" score? -.34
+T108.66947537701344 attempt_12: "registre" score:-0.34 prog:None
+T113.42135153600248 🤔 extract_1/2 #14 "réserve" score? -9.04
+T113.42154959600884 attempt_13: "réserve" score:-9.04 prog:None
+T115.78443465800956 🤔 extract_1/1 #15 "tome" score? 5.14
+T115.78462138501345 attempt_14: "tome" score:5.14 prog:None
+T120.95311489101732 #16 ? *t2 !new
+T120.95368476302247 chat_prompt: give me 10 French words that are related to $1 and $2; do not list any words that you have already listed above
+T120.95392138601164 session: {"role": "user", "content": "give me 10 French words that are related to \"bibliographie\" and \"biblioth\u00e8que\"; do not list any words that you have already listed above"}
+T135.79126324600657 session: {"role": "assistant", "content": "Here are 10 more French words that are related to \"bibliographie\" and \"biblioth\u00e8que\", without repeating any of the previous ones:\n\n1. Cataloguer (one who creates a catalogue)\n2. \u00c9dition (edition or publication)\n3. Revue (review or journal related to books and literature)\n4. Collectionneur (book collector)\n5. Mus\u00e9e de la litt\u00e9rature (literary museum)\n6. Biblioth\u00e8que universitaire (university library)\n7. Centre de documentation (documentation center for research libraries)\n8. \u00c9tude (study or analysis of literary works)\n9. R\u00e9sum\u00e9 (summary or summary of a book's content)\n10. Indexaire (indexing system for books and articles)\n\nThese words are all related to the concepts of \"bibliographie\" and \"biblioth\u00e8que\", including topics such as literature, research, and library management."}
+T358.88905223700567 <INT>
+T0.007163680013036355 now: 2024-12-03T08:54:19EST
+T0.007692022016271949 request: {"method": "GET", "url": "https://cemantix.certitudes.org/stats", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantix.certitudes.org", "Referer": "https://cemantix.certitudes.org/"}, "data": null}
+T0.5677505650091916 response: {"url": "https://cemantix.certitudes.org/stats", "status": 200, "reason": "OK", "headers": {"server": "Fly/ef5cd8bd0 (2024-12-02)", "date": "Tue, 03 Dec 2024 14:02:28 GMT", "connection": "keep-alive", "content-type": "application/json", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JE6D8QMT2TGYQB8JNRQNRDQN-lga"}, "content": "{\"num\":1007,\"solvers\":12003}\n"}
+T2.096398986002896 #16 extract_...
+T6.6054179100028705 🤔 extract_1/14 #16 "cataloguer" score? 11.67
+T6.605613240011735 attempt_15: "cataloguer" score:11.67 prog:None
+T10.538468847022159 🤔 extract_1/13 #17 "centre" score? 16.52
+T10.538652026007185 attempt_16: "centre" score:16.52 prog:None
+T13.87503537000157 🤔 extract_1/12 #18 "collectionneur" score? 12.04
+T13.875214372004848 attempt_17: "collectionneur" score:12.04 prog:None
+T15.897516201017424 🤔 extract_1/11 #19 "de" score? !
+T15.897693367995089 reject: "de"
+T22.02000493000378 🤔 extract_1/10 #19 "documentation" score? 29.48 902
+T22.020222188002663 attempt_18: "documentation" score:29.48 prog:902
+T26.739607530005742 🤔 extract_1/9 #20 "indexaire" score? !
+T26.739779502007877 reject: "indexaire"
+T28.410860936011886 🤔 extract_1/8 #20 "la" score? !
+T28.41099792800378 reject: "la"
+T35.921154111012584 🤔 extract_1/7 #20 "littérature" score? 36.11 973
+T35.921323656017194 attempt_19: "littérature" score:36.11 prog:973
+T40.925776827003574 🤔 extract_1/6 #21 "musée" score? 
+T42.982930861995555 #21 ? _
+T42.98310940602096 chat_prompt: _
+T42.98335381600191 session: {"role": "user", "content": "give me 10 French words that are related to \"litt\u00e9rature\" and \"documentation\"; do not list any words that you have already listed above"}
+T85.70595486601815 session: {"role": "assistant", "content": "Here are 10 more French words that are related to \"litt\u00e9rature\" and \"documentation\", without repeating any of the previous ones:\n\n1. Critique (literary criticism)\n2. Traduction (translation)\n3. \u00c9dition critique (critical edition of a literary work)\n4. Arch\u00e9ologie litt\u00e9raire (literary archaeology, study of the origins of literary works)\n5. Indexicalit\u00e9 (indexing of literary texts for analysis)\n6. Dictionnaire (dictionary or reference book for literature)\n7. Corpus (collection of literary texts, such as the Corpus des Romances)\n8. \u00c9tudes litt\u00e9raires (literary studies or research)\n9. Patrimoine litt\u00e9raire (literary heritage or patrimony)\n10. Bibliographie compar\u00e9e (comparative bibliography, study of the history of book publication)\n\nThese words are all related to the concepts of \"litt\u00e9rature\" and \"documentation\", including topics such as literary analysis, translation, and the preservation of cultural heritage."}
+T223.02794954899582 #21 extract_...
+T227.00414922801428 🤔 extract_1/12 #21 "archéologie" score? 12.13
+T227.00432952001574 attempt_20: "archéologie" score:12.13 prog:None
+T230.2782917500008 🤔 extract_1/11 #22 "comparée" score? !
+T230.2785116879968 reject: "comparée"
+T235.65577215800295 🤔 extract_1/10 #22 "corpus" score? 26.98
+T238.6816748639976 🤔 extract_1/10 #22 "corpus" 26.98°C prog‰ ? 842
+T238.6818390810222 attempt_21: "corpus" score:26.98 prog:842
+T272.873043597996 🤔 extract_1/9 #23 "critique" score? ...
+T278.41583023799467 🤔 extract_1/9 #23 "critique" score? 12.83
+T278.4159725950158 attempt_22: "critique" score:12.83 prog:None
+T286.2163838749984 🤔 extract_1/8 #24 "dictionnaire" score? 27.8 869
+T286.2166294280032 attempt_23: "dictionnaire" score:27.80 prog:869
+T292.7789116410131 🤔 extract_1/7 #25 "indexicalité" score? !
+T292.77903679199517 reject: "indexicalité"
+T298.4067631920043 🤔 extract_1/6 #25 "littéraire" score? 33.95 958
+T298.4070114910137 attempt_24: "littéraire" score:33.95 prog:958
+T305.4289234339958 🤔 extract_1/5 #26 "littéraires" score? !
+T305.4290508280101 reject: "littéraires"
+T309.47981810901547 🤔 extract_1/4 #26 "patrimoine" score? 12.25
+T309.48006558499765 attempt_25: "patrimoine" score:12.25 prog:None
+T318.25740330299595 🤔 extract_1/3 #27 "traduction" score? 27.95 873
+T318.2578121200204 attempt_26: "traduction" score:27.95 prog:873
+T325.31366904001334 🤔 extract_1/2 #28 "édition" score? 31.34 929
+T325.3138080210192 attempt_27: "édition" score:31.34 prog:929
+T327.942075502011 🤔 extract_1/1 #29 "études" score? !
+T327.9422175310028 reject: "études"
+T335.87149812901043 #29 ? *t4 !new
+T335.87246132301516 chat_prompt: give me 20 French words that are related to $1, $2, $3, and $4; do not list any words that you have already listed above
+T335.87263474499923 session: {"role": "user", "content": "give me 20 French words that are related to \"litt\u00e9rature\", \"litt\u00e9raire\", \"\u00e9dition\", and \"documentation\"; do not list any words that you have already listed above"}
+T366.0260912750091 session: {"role": "assistant", "content": "Here are 20 more French words that are related to \"litt\u00e9rature\", \"litt\u00e9raire\", \"\u00e9dition\", and \"documentation\", without repeating any of the previous ones:\n\n1. Auteur (author)\n2. \u00c9tude de cas (case study, literary analysis)\n3. R\u00e9vision litt\u00e9raire (literary revision or editing)\n4. Traducteur (translator)\n5. Compl\u00e9mentarit\u00e9 (complementarity in literature)\n6. Discours critique (critical discourse, literary theory)\n7. \u00c9dition num\u00e9rique (digital edition of a literary work)\n8. Catalogage litt\u00e9raire (literary cataloging)\n9. Bibliographie des \u00e9crivains (bibliography of authors)\n10. Corpus litt\u00e9raire (literary corpus or collection)\n11. Arch\u00e9ologie du langage (archaeology of language, study of linguistic evolution)\n12. Th\u00e8se litt\u00e9raire (literary thesis, academic research)\n13. Revue de critique (review of literary criticism)\n14. \u00c9ditions critiques (critical editions of literary works)\n15. Index linguistique (linguistic index, analysis of language use in literature)\n16. Essai d'analyse (analysis essay, critical study of a literary work)\n17. R\u00e9\u00e9dition (reissue or reedition of a literary work)\n18. Bibliographie des \u0153uvres litt\u00e9raires (bibliography of literary works)\n19. Centre de documentation culturelle (cultural documentation center)\n20. \u00c9tudes linguistiques (linguistic studies, analysis of language in literature)\n\nThese words are all related to the concepts of \"litt\u00e9rature\", \"litt\u00e9raire\", \"\u00e9dition\", and \"documentation\", including topics such as literary theory, translation, and research methods."}
+T470.0177126750059 #29 extract_...
+T473.39782275501057 🤔 extract_1/24 #29 "analyse" score? 10.48
+T473.39801737101516 attempt_28: "analyse" score:10.48 prog:None
+T479.15101950700046 🤔 extract_1/23 #30 "auteur" score? 24.64 754
+T479.1512913629995 attempt_29: "auteur" score:24.64 prog:754
+T484.4177588490129 🤔 extract_1/22 #31 "cas" score? -3.27
+T484.417957423022 attempt_30: "cas" score:-3.27 prog:None
+T487.58331692701904 🤔 extract_1/21 #32 "catalogage" score? 15.22
+T487.58347721400787 attempt_31: "catalogage" score:15.22 prog:None
+T490.91713192799943 🤔 extract_1/20 #33 "complémentarité" score? 14.86
+T490.9174018030171 attempt_32: "complémentarité" score:14.86 prog:None
+T493.3398199270014 🤔 extract_1/19 #34 "critiques" score? !
+T493.3399408640107 reject: "critiques"
+T495.68703085099696 🤔 extract_1/18 #34 "culturelle" score? !
+T495.6871850040043 reject: "culturelle"
+T497.7029553480097 🤔 extract_1/17 #34 "des" score? !
+T497.70314257699647 reject: "des"
+T500.48822688902146 🤔 extract_1/16 #34 "discours" score? 4.47
+T500.48849706500187 attempt_33: "discours" score:4.47 prog:None
+T503.2567068140197 🤔 extract_1/15 #35 "du" score? !
+T503.2568632920156 reject: "du"
+T507.3083617600205 🤔 extract_1/14 #35 "essai" score? !
+T507.30848847399466 reject: "essai"
+T510.7798303690215 🤔 extract_1/13 #35 "langage" score? 16.09
+T510.7800137269951 attempt_34: "langage" score:16.09 prog:None
+T519.6908513249946 🤔 extract_1/12 #36 "linguistique" score? 40.42 987
+T519.6910420460044 attempt_35: "linguistique" score:40.42 prog:987
+T523.7418336340052 🤔 extract_1/11 #37 "linguistiques" score? !
+T523.7419521039992 reject: "linguistiques"
+T530.6752528630022 🤔 extract_1/10 #37 "numérique" score? 24.63 753
+T530.6754412910086 attempt_36: "numérique" score:24.63 prog:753
+T539.4605937339948 🤔 extract_1/9 #38 "revue" score? 35.81 971
+T539.4608229720034 attempt_37: "revue" score:35.81 prog:971
+T602.537151772005 🤔 extract_1/8 #39 "révision" score? -2.25
+T602.5373569040094 attempt_38: "révision" score:-2.25 prog:None
+T605.0668911859975 🤔 extract_1/7 #40 "réédition" score? !
+T605.0670487180178 reject: "réédition"
+T609.0321395150095 🤔 extract_1/6 #40 "thèse" score? 10.27
+T609.0323336160218 attempt_39: "thèse" score:10.27 prog:None
+T616.9996259720065 🤔 extract_1/5 #41 "traducteur" score? 30.91
+T619.2633578590176 🤔 extract_1/5 #41 "traducteur" 30.91°C prog‰ ? 922
+T619.2635330820049 attempt_40: "traducteur" score:30.91 prog:922
+T627.3767680120072 🤔 extract_1/4 #42 "écrivains" score? !
+T627.376933861 reject: "écrivains"
+T630.0937510780059 🤔 extract_1/3 #42 "éditions" score? !
+T630.0939332499984 reject: "éditions"
+T633.168324925995 🤔 extract_1/2 #42 "étude" score? 14.9
+T633.1684799790091 attempt_41: "étude" score:14.90 prog:None
+T635.9852667819941 🤔 extract_1/1 #43 "œuvres" score? !
+T635.9854131530155 reject: "œuvres"
+T647.0941247390001 #43 ? *9 t1 !new
+T647.0945277270221 chat_prompt: give me 9 French words that are related to $1; do not list any words that you have already listed above
+T647.0947415510018 session: {"role": "user", "content": "give me 9 French words that are related to \"linguistique\"; do not list any words that you have already listed above"}
+T663.3216968339984 session: {"role": "assistant", "content": "Here are 9 more French words that are related to \"linguistique\", without repeating any of the previous ones:\n\n1. S\u00e9mantique (semantics, study of meaning in language)\n2. Phonologie (phonology, study of sound systems in language)\n3. Orthographie (orthography, study of writing systems and spelling rules)\n4. Grammaire (grammar, study of sentence structure and syntax)\n5. Dialectologie (dialectology, study of regional language variations)\n6. Lexicologie (lexicology, study of word formation and vocabulary)\n7. Semiotique (semiotics, study of signs and symbols in language)\n8. Linguistique descriptive (descriptive linguistics, study of language structure)\n9. Acoustophonologie (acoustic phonology, study of the physical properties of speech sounds)\n\nThese words are all related to the concepts of \"linguistique\", including topics such as meaning, sound, writing systems, and language variation."}
+T666.8801208890218 #43 extract_...
+T669.1126904250123 🤔 extract_1/9 #43 "acoustophonologie" score? !
+T669.1128584810067 reject: "acoustophonologie"
+T673.1245903710078 🤔 extract_1/8 #43 "descriptive" score? !
+T673.1247524759965 reject: "descriptive"
+T680.8983426020131 🤔 extract_1/7 #43 "dialectologie" score? 23.37 690
+T680.8985723810038 attempt_42: "dialectologie" score:23.37 prog:690
+T687.2798203300044 🤔 extract_1/6 #44 "grammaire" score? 19.37 386
+T687.2800467619963 attempt_43: "grammaire" score:19.37 prog:386
+T698.0273829340003 🤔 extract_1/5 #45 "lexicologie" score? 26.38 821
+T698.0275597450091 attempt_44: "lexicologie" score:26.38 prog:821
+T703.5359797030105 🤔 extract_1/4 #46 "orthographie" score? !
+T703.5361360539973 reject: "orthographie"
+T709.3454501430097 🤔 extract_1/3 #46 "phonologie" score? 19.52 404
+T709.3456303630082 attempt_45: "phonologie" score:19.52 prog:404
+T711.7062178729975 🤔 extract_1/2 #47 "semiotique" score? !
+T711.706370682019 reject: "semiotique"
+T715.0585252640012 🤔 extract_1/1 #47 "sémantique" score? 12.65
+T715.0586790500092 attempt_46: "sémantique" score:12.65 prog:None
+T727.4470582870126 #48 ? *12 t3 seen with 
+T727.4477878269972 chat_prompt: give me 12 French words that are seen with $1, $2, and $3; do not list any words that you have already listed above
+T727.4480031779967 session: {"role": "user", "content": "give me 12 French words that are seen with \"linguistique\", \"litt\u00e9rature\", and \"revue\"; do not list any words that you have already listed above"}
+T752.9489020500041 session: {"role": "assistant", "content": "Here are 12 more French words that are related to \"linguistique\", \"litt\u00e9rature\", and \"revue\", without repeating any of the previous ones:\n\n1. Analyse discursive (discourse analysis, study of language use in social contexts)\n2. Po\u00e9tique de la langue (poetics of language, study of language in literature)\n3. \u00c9tudes sur les mots (studies on words, etymological research)\n4. Linguistique compar\u00e9e (comparative linguistics, study of language families and evolution)\n5. Histoire de la litt\u00e9rature fran\u00e7aise (history of French literature)\n6. Revue des lettres modernes (review of modern letters, literary journal)\n7. Lexicographie (lexicography, compilation of dictionaries and glossaries)\n8. Typologie linguistique (linguistic typology, study of language structures and patterns)\n9. \u00c9tudes sur les \u00e9crivains (studies on authors, biographical research)\n10. Analyse de discours litt\u00e9raire (literary discourse analysis, study of literary texts as social phenomena)\n11. Linguistique historique (historical linguistics, study of language change over time)\n12. Corpus linguistique (corpus linguistics, collection and analysis of large datasets of language use)\n\nThese words are all related to the concepts of \"linguistique\", \"litt\u00e9rature\", and \"revue\", including topics such as language structure, literary theory, etymology, and language history."}
+T758.2586038410082 #48 extract_...
+T760.6406168520043 🤔 extract_1/13 #48 "discursive" score? !
+T760.6407178100199 reject: "discursive"
+T763.6315870649996 🤔 extract_1/12 #48 "française" score? !
+T763.6317674299935 reject: "française"
+T766.9542728390079 🤔 extract_1/11 #48 "histoire" score? 11.04
+T766.9544785500038 attempt_47: "histoire" score:11.04 prog:None
+T769.8181419800094 🤔 extract_1/10 #49 "historique" score? 12.38
+T769.8182193399989 attempt_48: "historique" score:12.38 prog:None
+T776.0716922249994 🤔 extract_1/9 #50 "langue" score? 39.73 985
+T776.0718895650061 attempt_49: "langue" score:39.73 prog:985
+T778.1660360679962 🤔 extract_1/8 #51 "les" score? !
+T778.1661626360146 reject: "les"
+T782.29218446702 🤔 extract_1/7 #51 "lettres" score? !
+T782.2923257920193 reject: "lettres"
+T787.1275995460164 🤔 extract_1/6 #51 "lexicographie" score? 30.28 915
+T787.1278904369974 attempt_50: "lexicographie" score:30.28 prog:915
+T789.092131243 🤔 extract_1/5 #52 "modernes" score? !
+T789.0922975970025 reject: "modernes"
+T791.1865569340007 🤔 extract_1/4 #52 "mots" score? !
+T791.1866366850154 reject: "mots"
+T793.9741214030073 🤔 extract_1/3 #52 "poétique" score? 8.03
+T793.9742976770212 attempt_51: "poétique" score:8.03 prog:None
+T798.2906574750086 🤔 extract_1/2 #53 "sur" score? 16.58
+T798.2908599880175 attempt_52: "sur" score:16.58 prog:None
+T800.7908070380217 🤔 extract_1/1 #54 "typologie" score? 14.39
+T800.7910263530212 attempt_53: "typologie" score:14.39 prog:None
+T804.7271604630223 #55 ? _
+T804.7273492430104 chat_prompt: _
+T804.7275660879968 session: {"role": "user", "content": "give me 12 French words that are seen with \"linguistique\", \"langue\", and \"litt\u00e9rature\"; do not list any words that you have already listed above"}
+T874.4278538320214 #55 ? /last pop
+T874.4279668780218 session: pop
+T883.0916923019977 #55 ? *12 t3 /clear .
+T883.092111400998 session clear
+T883.0921704630018 chat_prompt: give me 12 French words that are seen with $1, $2, and $3
+T883.0923768020002 session: {"role": "user", "content": "give me 12 French words that are seen with \"linguistique\", \"langue\", and \"litt\u00e9rature\""}
+T892.6129314610153 session: {"role": "assistant", "content": "Here are 12 French words related to \"linguistique\", \"langue\", and \"litt\u00e9rature\":\n\n1. Lexique (vocabulary)\n2. Grammaire (grammar)\n3. Phon\u00e9tique (phonetics)\n4. \u00c9tymologie (etymology)\n5. Orthographe (orthography)\n6. Syntaxe (syntax)\n7. Litt\u00e9rales (literary style)\n8. Poesie (poetry)\n9. Th\u00e9\u00e2tre (theater)\n10. Roman (novel or book)\n11. Critique (criticism)\n12. Idiome (idiom)\n\nLet me know if you need more!"}
+T895.1905991999956 #55 extract_...
+T899.0814833450131 🤔 extract_1/10 #55 "idiome" score? 16.21
+T899.0816751579987 attempt_54: "idiome" score:16.21 prog:None
+T904.6205126210116 🤔 extract_1/9 #56 "lexique" score? 24.95 766
+T904.6207253140165 attempt_55: "lexique" score:24.95 prog:766
+T907.5653787699994 🤔 extract_1/8 #57 "littérales" score? !
+T907.5654537790106 reject: "littérales"
+T909.8684170060151 🤔 extract_1/7 #57 "orthographe" score? 15.5
+T909.8686111790012 attempt_56: "orthographe" score:15.50 prog:None
+T913.312500324013 🤔 extract_1/6 #58 "phonétique" score? 17.4
+T915.7103969570016 🤔 extract_1/6 #58 "phonétique" 17.40°C prog‰ ? 106
+T915.7105835220136 attempt_57: "phonétique" score:17.40 prog:106
+T917.946819482022 🤔 extract_1/5 #59 "poesie" score? !
+T917.9469746070099 reject: "poesie"
+T920.9163312409946 🤔 extract_1/4 #59 "roman" score? 10.1
+T920.9165954090131 attempt_58: "roman" score:10.10 prog:None
+T924.5662132959988 🤔 extract_1/3 #60 "syntaxe" score? 11.08
+T924.5664495740202 attempt_59: "syntaxe" score:11.08 prog:None
+T929.0808247920068 🤔 extract_1/2 #61 "théâtre" score? 15.27
+T929.0810033910093 attempt_60: "théâtre" score:15.27 prog:None
+T931.9156978180108 🤔 extract_1/1 #62 "étymologie" score? 1.86
+T931.915868939017 attempt_61: "étymologie" score:1.86 prog:None
+T943.7007543159998 #63 ? *t2 related !new
+T943.7012640040193 chat_prompt: give me 8 French words that are related to $1 and $2; do not list any words that you have already listed above
+T943.7015562670131 session: {"role": "user", "content": "give me 8 French words that are related to \"linguistique\" and \"langue\"; do not list any words that you have already listed above"}
+T951.7045351499983 session: {"role": "assistant", "content": "Here are 8 more French words related to \"linguistique\" and \"langue\":\n\n1. Dialecte (dialect)\n2. Glose (commentary or interpretation of a text)\n3. Lexicon (dictionary or collection of words)\n4. Phonologie (phonology)\n5. Semiotique (semiotics)\n6. Terminologie (terminology)\n7. Variaxe (variant or variation in language)\n8. Variationniste (varietalist)\n\nLet me know if you need more!"}
+T954.9156274670095 #63 extract_...
+T958.3865187689953 🤔 extract_1/6 #63 "dialecte" score? 16.75
+T958.3867071210116 attempt_62: "dialecte" score:16.75 prog:None
+T965.0599316240114 🤔 extract_1/5 #64 "glose" score? 1.73
+T965.0601807649946 attempt_63: "glose" score:1.73 prog:None
+T968.3806594880007 🤔 extract_1/4 #65 "lexicon" score? !
+T968.3808174070145 reject: "lexicon"
+T975.0933042630204 🤔 extract_1/3 #65 "terminologie" score? 22.12 619
+T975.0934992800176 attempt_64: "terminologie" score:22.12 prog:619
+T978.3529949969961 🤔 extract_1/2 #66 "variationniste" score? !
+T978.353173052019 reject: "variationniste"
+T980.4412692770129 🤔 extract_1/1 #66 "variaxe" score? !
+T980.4413983559934 reject: "variaxe"
+T982.6102351100126 #66 ? !
+T982.6106601530046 <STOP>
+T0.00995358801446855 now: 2024-12-03T09:10:46EST
+T0.011171701014973223 request: {"method": "GET", "url": "https://cemantix.certitudes.org/stats", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantix.certitudes.org", "Referer": "https://cemantix.certitudes.org/"}, "data": null}
+T0.387973195000086 response: {"url": "https://cemantix.certitudes.org/stats", "status": 200, "reason": "OK", "headers": {"server": "Fly/ef5cd8bd0 (2024-12-02)", "date": "Tue, 03 Dec 2024 14:18:55 GMT", "connection": "keep-alive", "content-type": "application/json", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JE6E6V7DTPE306ZZEJ20JQRX-lga"}, "content": "{\"num\":1007,\"solvers\":12476}\n"}
+T4.1034969899919815 #66 ? /e
+T6.189317154989112 #66 ? /e scav all
+T10.191153671999928 🤔 extract_1/9 #66 "cuisine" score? 2.66
+T10.191362471989123 attempt_65: "cuisine" score:2.66 prog:None
+T13.86182474400266 🤔 extract_1/8 #67 "fleur" score? -3.19
+T13.86212596500991 attempt_66: "fleur" score:-3.19 prog:None
+T16.463604577002116 🤔 extract_1/7 #68 "montagne" score? -2.84
+T16.463795198011212 attempt_67: "montagne" score:-2.84 prog:None
+T19.343313866003882 🤔 extract_1/6 #69 "musée" score? 10.79
+T19.34354134098976 attempt_68: "musée" score:10.79 prog:None
+T22.71874564400059 🤔 extract_1/5 #70 "patisserie" score? !
+T22.71888391399989 reject: "patisserie"
+T27.938480771001196 🤔 extract_1/4 #70 "rivière" score? -8.88
+T27.938754183007404 attempt_69: "rivière" score:-8.88 prog:None
+T30.530739656998776 🤔 extract_1/3 #71 "résumé" score? 15.94
+T30.53081650400418 attempt_70: "résumé" score:15.94 prog:None
+T33.51422588399146 🤔 extract_1/2 #72 "sauter" score? -10.32
+T33.514434256998356 attempt_71: "sauter" score:-10.32 prog:None
+T40.60987900101463 🤔 extract_1/1 #73 "universitaire" score? 38.15 980
+T40.60999732199707 attempt_72: "universitaire" score:38.15 prog:980
+T50.5184038009902 #74 ? * $3 $1
+T50.51953429900459 chat_prompt: give me 8 French words that are related to $3 and $1; do not list any words that you have already listed above
+T50.51972887601005 session: {"role": "user", "content": "give me 8 French words that are related to \"universitaire\" and \"linguistique\"; do not list any words that you have already listed above"}
+T59.374537956988206 session: {"role": "assistant", "content": "Here are 8 more French words related to \"universitaire\" (university or academic) and \"linguistique\":\n\n1. Cours (course or lecture)\n2. Th\u00e8se (thesis or dissertation)\n3. Dipl\u00f4me (degree or diploma)\n4. Maitrise (master's degree or specialization)\n5. Docteur (PhD holder or doctor)\n6. Professeur (professor)\n7. Recherche (research or investigation)\n8. \u00c9tudes (studies or research studies)\n\nLet me know if you need more!"}
+T64.21783248599968 #74 extract_...
+T67.42761840700405 🤔 extract_1/6 #74 "cours" score? 13.58
+T67.42779396299738 attempt_73: "cours" score:13.58 prog:None
+T70.42137172800722 🤔 extract_1/5 #75 "diplôme" score? 12.95
+T70.42157242499525 attempt_74: "diplôme" score:12.95 prog:None
+T73.95781559299212 🤔 extract_1/4 #76 "docteur" score? -.94
+T73.9579828660062 attempt_75: "docteur" score:-0.94 prog:None
+T76.109698285989 🤔 extract_1/3 #77 "maitrise" score? !
+T76.10994532701443 reject: "maitrise"
+T80.44134885098902 🤔 extract_1/2 #77 "professeur" score? 16.58
+T80.4415471329994 attempt_76: "professeur" score:16.58 prog:None
+T85.13493702499545 🤔 extract_1/1 #78 "recherche" score? 31.72 937
+T85.13511833001394 attempt_77: "recherche" score:31.72 prog:937
+T95.42753821698716 #79 ? *20 t4
+T95.42796771301073 chat_prompt: give me 20 French words that are related to $1, $2, $3, and $4; do not list any words that you have already listed above
+T95.42817858699709 session: {"role": "user", "content": "give me 20 French words that are related to \"linguistique\", \"langue\", \"universitaire\", and \"litt\u00e9rature\"; do not list any words that you have already listed above"}
+T115.64763285900699 session: {"role": "assistant", "content": "Here are 20 more French words related to \"linguistique\", \"langue\", \"universitaire\", and \"litt\u00e9rature\":\n\n1. Catechisme (encyclopedia or reference book)\n2. Corpus (collection of texts or data)\n3. Dictionnaire (dictionary)\n4. Discours (speech or lecture)\n5. \u00c9dition critique (critical edition of a text)\n6. Glossaire (glossary)\n7. Humanisme (humanist movement or approach)\n8. H\u00e9ritage (heritage or legacy)\n9. Litt\u00e9rature compar\u00e9e (comparative literature)\n10. M\u00e9moire (memoir or autobiographical writing)\n11. Monographie (monograph or specialized study)\n12. Narratologie (narratology)\n13. Occitan (language or region with its own dialect)\n14. Pal\u00e9ographie (paleography)\n15. Patrimoine litt\u00e9raire (literary heritage)\n16. Pr\u00e9sentation de travail (presentation of a research project)\n17. Psycholinguistique (psycholinguistics)\n18. Quatri\u00e8me pouvoir (fourth power, referring to the power of language and literature)\n19. R\u00e9vision (revision or editing)\n20. Semiotique du texte (semiotics of text)\n\nLet me know if you need more!"}
+T121.89534825499868 #79 extract_...
+T124.83919627699652 🤔 extract_1/15 #79 "catechisme" score? !
+T124.839335777011 reject: "catechisme"
+T129.16394366600434 🤔 extract_1/14 #79 "glossaire" score? 23.4 691
+T129.1642327219888 attempt_78: "glossaire" score:23.40 prog:691
+T131.8568543609872 🤔 extract_1/13 #80 "humanisme" score? 5.46
+T131.85703806599486 attempt_79: "humanisme" score:5.46 prog:None
+T134.2631819990056 🤔 extract_1/12 #81 "héritage" score? -1.41
+T134.26334566398873 attempt_80: "héritage" score:-1.41 prog:None
+T140.3621988359955 🤔 extract_1/11 #82 "monographie" score? 21.81 599
+T140.36243483101134 attempt_81: "monographie" score:21.81 prog:599
+T147.06291997100925 🤔 extract_1/10 #83 "mémoire" score? 4.98
+T147.06311178201577 attempt_82: "mémoire" score:4.98 prog:None
+T150.46164428800694 🤔 extract_1/9 #84 "narratologie" score? 13.78
+T150.46182003698777 attempt_83: "narratologie" score:13.78 prog:None
+T153.7847645469883 🤔 extract_1/8 #85 "occitan" score? 14.97
+T153.78495190799003 attempt_84: "occitan" score:14.97 prog:None
+T158.6890956450079 🤔 extract_1/7 #86 "paléographie" score? 20.12 454
+T158.68928670999594 attempt_85: "paléographie" score:20.12 prog:454
+T162.1755345329875 🤔 extract_1/6 #87 "pouvoir" score? -3.45
+T162.1757820470084 attempt_86: "pouvoir" score:-3.45 prog:None
+T167.43919362401357 🤔 extract_1/5 #88 "présentation" score? 24.66 756
+T167.4393963959883 attempt_87: "présentation" score:24.66 prog:756
+T173.13831080199452 🤔 extract_1/4 #89 "psycholinguistique" score? 16.86 5
+T173.1386802729976 attempt_88: "psycholinguistique" score:16.86 prog:5
+T176.16196649998892 🤔 extract_1/3 #90 "quatrième" score? 8.49
+T176.1621959269978 attempt_89: "quatrième" score:8.49 prog:None
+T178.8358280280081 🤔 extract_1/2 #91 "texte" score? 15.21
+T178.83600195401232 attempt_90: "texte" score:15.21 prog:None
+T182.4130946820078 🤔 extract_1/1 #92 "travail" score? .79
+T182.41318914698786 attempt_91: "travail" score:0.79 prog:None
+T187.37526636599796 #93 ? *t2 !new
+T187.37562510601128 chat_prompt: give me 10 French words that are related to $1 and $2; do not list any words that you have already listed above
+T187.375808531011 session: {"role": "user", "content": "give me 10 French words that are related to \"linguistique\" and \"langue\"; do not list any words that you have already listed above"}
+T200.12215956900036 session: {"role": "assistant", "content": "Here are 10 more French words related to \"linguistique\" and \"langue\":\n\n1. Accents (accents or diacritical marks)\n2. Bilinguisme (bilingualism)\n3. Codex (collection of texts in a single language)\n4. Discours de l'homme (discourse of man, referring to human communication)\n5. Enseignement du langage (language teaching or education)\n6. Etudes de linguistique appliqu\u00e9e (applied linguistics studies)\n7. Groupe linguistique (linguistic group or community)\n8. H\u00e9ritage culturel (cultural heritage)\n9. Linguistique compar\u00e9e (comparative linguistics)\n10. Orthophonie (phonetic therapy)\n\nLet me know if you need more!"}
+T208.17060859000776 #93 extract_...
+T210.71483828799683 🤔 extract_1/10 #93 "accents" score? !
+T210.71499030999257 reject: "accents"
+T212.5022316960094 🤔 extract_1/9 #93 "appliquée" score? !
+T212.50237248299527 reject: "appliquée"
+T217.03687239199644 🤔 extract_1/8 #93 "bilinguisme" score? 31.63 934
+T217.037135237013 attempt_92: "bilinguisme" score:31.63 prog:934
+T219.39215603700723 🤔 extract_1/7 #94 "codex" score? 4.25
+T219.39233932000934 attempt_93: "codex" score:4.25 prog:None
+T223.9866329249926 🤔 extract_1/6 #95 "culturel" score? 30.59 917
+T223.98685802399996 attempt_94: "culturel" score:30.59 prog:917
+T230.75701320101507 🤔 extract_1/5 #96 "enseignement" score? 28.96 898
+T230.75720466600615 attempt_95: "enseignement" score:28.96 prog:898
+T233.7612245689961 🤔 extract_1/4 #97 "etudes" score? !
+T233.76140228001168 reject: "etudes"
+T238.69537053300883 🤔 extract_1/3 #97 "groupe" score? 19.91 431
+T238.69557474699104 attempt_96: "groupe" score:19.91 prog:431
+T242.40132082201308 🤔 extract_1/2 #98 "homme" score? -10.1
+T242.4015026690031 attempt_97: "homme" score:-10.10 prog:None
+T248.5393920429924 🤔 extract_1/1 #99 "orthophonie" score? 20.75 510
+T248.5396591440076 attempt_98: "orthophonie" score:20.75 prog:510
+T255.036275949009 #100 ? /last
+T271.5941539090127 #100 ? * $4 $3
+T271.5943093879905 chat_prompt: give me 10 French words that are related to $4 and $3; do not list any words that you have already listed above
+T271.594385200995 session: {"role": "user", "content": "give me 10 French words that are related to \"litt\u00e9rature\" and \"universitaire\"; do not list any words that you have already listed above"}
+T284.0981369910005 session: {"role": "assistant", "content": "Here are 10 more French words related to \"litt\u00e9rature\" and \"universitaire\":\n\n1. Auteur (author)\n2. Bibliographie (bibliography or book of references)\n3. Censurisme (censorship)\n4. Critique litt\u00e9raire (literary criticism)\n5. Dictionnaire des auteurs (dictionary of authors)\n6. \u00c9ditions universitaires (university presses or publishers)\n7. Fonds litt\u00e9raire (literary fund or archives)\n8. Histoire de la litt\u00e9rature (history of literature)\n9. Journal d'\u00e9tudes litt\u00e9raires (journal of literary studies)\n10. M\u00e9moire d'auteur (author's memoir)\n\nLet me know if you need more!"}
+T285.8043216780061 #100 extract_...
+T294.64381579100154 🤔 extract_1/5 #100 "auteurs" score? !auteur
+T294.6439579130092 reject: "auteurs"
+T304.3621486109914 🤔 extract_1/4 #100 "censurisme" score? 20.75 510
+T304.36235928701353 attempt_99: "censurisme" score:20.75 prog:510
+T307.48323906501173 🤔 extract_1/3 #101 "fonds" score? 8.86
+T307.4834348440054 attempt_100: "fonds" score:8.86 prog:None
+T312.90383701599785 🤔 extract_1/2 #102 "journal" score? 18.93 335
+T312.9042391850089 attempt_101: "journal" score:18.93 prog:335
+T315.47617386700585 🤔 extract_1/1 #103 "universitaires" score? !
+T315.4763825419941 reject: "universitaires"
+T321.6060274929914 #103 ? * $4 $1
+T321.60635990000446 chat_prompt: give me 10 French words that are related to $4 and $1; do not list any words that you have already listed above
+T321.6065692419943 session: {"role": "user", "content": "give me 10 French words that are related to \"litt\u00e9rature\" and \"linguistique\"; do not list any words that you have already listed above"}
+T335.7483560589899 session: {"role": "assistant", "content": "Here are 10 more French words related to \"litt\u00e9rature\" and \"linguistique\":\n\n1. Algorithme litt\u00e9raire (literary algorithm or style)\n2. Analyse structurale (structural analysis of literature)\n3. Cadrage narratif (narrative frame or genre)\n4. Dictionnaire des termes techniques (dictionary of technical terms)\n5. \u00c9tudes sur la langue de Shakespeare (studies on the language of Shakespeare)\n6. Grammaire litt\u00e9raire (literary grammar or style guide)\n7. Histoire du fran\u00e7ais oral (history of spoken French)\n8. Linguistique textuelle (textual linguistics)\n9. Morphologie des mots (morphology of words)\n10. Phon\u00e9tique de la po\u00e9sie (phonetics of poetry)\n\nLet me know if you need more!"}
+T342.72003123300965 #103 extract_...
+T345.147245619999 🤔 extract_1/12 #103 "algorithme" score? 5.81
+T345.1474354979873 attempt_102: "algorithme" score:5.81 prog:None
+T347.7671786030114 🤔 extract_1/11 #104 "cadrage" score? -3.62
+T347.76733664399944 attempt_103: "cadrage" score:-3.62 prog:None
+T353.750416468014 🤔 extract_1/10 #105 "français" score? 44.96 994
+T353.75073302999954 attempt_104: "français" score:44.96 prog:994
+T358.4172720380011 🤔 extract_1/9 #106 "morphologie" score? -.18
+T358.41746688299463 attempt_105: "morphologie" score:-0.18 prog:None
+T360.75789289199747 🤔 extract_1/8 #107 "narratif" score? 3.01
+T360.75809696500073 attempt_106: "narratif" score:3.01 prog:None
+T363.48940776800737 🤔 extract_1/7 #108 "oral" score? 14.38
+T363.4896444299957 attempt_107: "oral" score:14.38 prog:None
+T368.77713317400776 🤔 extract_1/6 #109 "poésie" score? 19.92 433
+T368.77733640299994 attempt_108: "poésie" score:19.92 prog:433
+T371.42914985399693 🤔 extract_1/5 #110 "shakespeare" score? !
+T371.42933421200723 reject: "shakespeare"
+T373.4565501009929 🤔 extract_1/4 #110 "structurale" score? !
+T373.4567118959967 reject: "structurale"
+T375.5217569019878 🤔 extract_1/3 #110 "techniques" score? !
+T375.52195290400414 reject: "techniques"
+T377.65082149900263 🤔 extract_1/2 #110 "termes" score? !
+T377.6510241840151 reject: "termes"
+T379.8965166750131 🤔 extract_1/1 #110 "textuelle" score? !
+T379.8966649560025 reject: "textuelle"
+T388.2301613049931 #110 ? * t2
+T388.23034384299535 chat_prompt: give me 10 French words that are related to $1 and $2; do not list any words that you have already listed above
+T388.2304491699906 session: {"role": "user", "content": "give me 10 French words that are related to \"fran\u00e7ais\" and \"linguistique\"; do not list any words that you have already listed above"}
+T403.7990937430004 session: {"role": "assistant", "content": "Here are 10 more French words related to \"fran\u00e7ais\" and \"linguistique\":\n\n1. Adaptabilit\u00e9 du fran\u00e7ais (adaptability of the French language)\n2. Acquis linguistiques (linguistic acquisitions or language learning)\n3. \u00c9volution de la grammaire fran\u00e7aise (evolution of French grammar)\n4. Lexique r\u00e9gional (regional vocabulary)\n5. Morphologie des pr\u00e9positions fran\u00e7aises (morphology of French prepositions)\n6. Nominalisation en fran\u00e7ais (nominalization in French)\n7. Phonologie du fran\u00e7ais rural (phonology of rural French)\n8. Prononciation fran\u00e7aise de l'accent r\u00e9troflexe (pronunciation of the retroflex accent in French)\n9. R\u00e9seau des dialectes fran\u00e7ais (network of French dialects)\n10. Synth\u00e8se linguistique (linguistic synthesis or language analysis)\n\nLet me know if you need more!"}
+T406.81431471699034 #110 extract_...
+T411.2388925740088 🤔 extract_1/15 #110 "accent" score? 16.9
+T412.43559695000295 🤔 extract_1/15 #110 "accent" 16.90°C prog‰ ? 14
+T412.43575923200115 attempt_109: "accent" score:16.90 prog:14
+T414.81089500000235 🤔 extract_1/14 #111 "acquis" score? 5.12
+T414.81106818199623 attempt_110: "acquis" score:5.12 prog:None
+T418.0041596899973 🤔 extract_1/13 #112 "adaptabilité" score? -.38
+T418.0043397929985 attempt_111: "adaptabilité" score:-0.38 prog:None
+T425.6736034050118 🤔 extract_1/12 #113 "dialectes" score? !dialecte
+T425.6737274999905 reject: "dialectes"
+T428.8337840549939 🤔 extract_1/11 #113 "en" score? !
+T428.8339327379945 reject: "en"
+T431.6004998399876 🤔 extract_1/10 #113 "françaises" score? !
+T431.6008218229981 reject: "françaises"
+T435.01225242199143 🤔 extract_1/9 #113 "nominalisation" score? -4.61
+T435.0124318159942 attempt_112: "nominalisation" score:-4.61 prog:None
+T438.35916128000827 🤔 extract_1/8 #114 "prononciation" score? 14.54
+T438.3593229209946 attempt_113: "prononciation" score:14.54 prog:None
+T440.63829505900503 🤔 extract_1/7 #115 "prépositions" score? !
+T440.63846706898767 reject: "prépositions"
+T443.39427727399743 🤔 extract_1/6 #115 "rural" score? 8.58
+T443.39447045099223 attempt_114: "rural" score:8.58 prog:None
+T449.67283625600976 🤔 extract_1/5 #116 "régional" score? 21.78 597
+T449.6730846700084 attempt_115: "régional" score:21.78 prog:597
+T456.5600348789885 🤔 extract_1/4 #117 "réseau" score? 25.89 794
+T456.56019999599084 attempt_116: "réseau" score:25.89 prog:794
+T459.3532691359869 🤔 extract_1/3 #118 "rétroflexe" score? .21
+T459.35342817299534 attempt_117: "rétroflexe" score:0.21 prog:None
+T462.1163489469909 🤔 extract_1/2 #119 "synthèse" score? 9.17
+T462.116535817011 attempt_118: "synthèse" score:9.17 prog:None
+T465.13437165899086 🤔 extract_1/1 #120 "évolution" score? 6.68
+T465.1345591430145 attempt_119: "évolution" score:6.68 prog:None
+T477.3817090440134 #121 ? *16 t4 /clear .
+T477.3820507430064 session clear
+T477.38212810401455 chat_prompt: give me 16 French words that are related to $1, $2, $3, and $4
+T477.38231435400667 session: {"role": "user", "content": "give me 16 French words that are related to \"fran\u00e7ais\", \"linguistique\", \"langue\", and \"universitaire\""}
+T489.0501404830138 session: {"role": "assistant", "content": "Here are 16 French words related to \"fran\u00e7ais\", \"linguistique\", \"langue\", and \"universitaire\":\n\n1. Fran\u00e7ais (French language)\n2. Linguistique (linguistics)\n3. Langue (language)\n4. Universitaire (university-based, academic)\n5. Professeur (professor)\n6. Cours (course)\n7. Th\u00e8se (thesis)\n8. Dipl\u00f4me (degree/diploma)\n9. \u00c9tudes (studies)\n10. Langage (language/speech)\n11. Dialecte (dialect)\n12. Glossaire (glossary)\n13. Lexique (lexicon/vocabulary)\n14. Grammaire (grammar)\n15. Syntaxe (syntax)\n16. Traduction (translation)\n\nI hope these words are helpful!"}
+T496.5092923209886 #121 ? ...
+T502.2042319200118 #121 ? /e
+T510.18492092800443 #121 ? *1 seen with !new
+T510.1853163029882 chat_prompt: give me 1 French words that are not seen with each other; do not list any words that you have already listed above
+T510.1855319160095 session: {"role": "user", "content": "give me 1 French words that are not seen with each other; do not list any words that you have already listed above"}
+T514.0434200649906 session: {"role": "assistant", "content": "Here is one more French word related to the themes:\n\n17. Lexicologue (lexicographer, a person who compiles or edits dictionaries)\n\nThis word is not typically used together with the others I previously listed."}
+T515.9190306809905 #121 ? /last pop
+T515.919123625994 session: pop
+T525.5608963030099 #121 ? *7 $1 seen with !new
+T525.561299664987 chat_prompt: give me 7 French words that are seen with $1; do not list any words that you have already listed above
+T525.5615202210029 session: {"role": "user", "content": "give me 7 French words that are seen with \"fran\u00e7ais\"; do not list any words that you have already listed above"}
+T535.6713526840031 session: {"role": "assistant", "content": "Here are the additional French words:\n\n**One word not typically paired with the previous ones:**\n\n1. Cin\u00e9ma (cinema) - This word is related to \"fran\u00e7ais\" as a medium for expressing it, but it's a distinct concept.\n\n**Seven French words seen with \"fran\u00e7ais\":**\n\n1. Dictionnaire (dictionary)\n2. Litt\u00e9rature (literature)\n3. Phon\u00e9tique (phonetics)\n4. S\u00e9mantique (semantics)\n5. Sociolinguistique (sociolinguistics)\n6. \u00c9tudes comparatives (comparative studies)\n7. Revue linguistique (linguistic review)"}
+T540.2088587170001 #121 extract_...
+T546.7996607100067 🤔 extract_1/3 #121 "cinéma" score? 19.4 390
+T546.7998962239944 attempt_120: "cinéma" score:19.40 prog:390
+T553.9872090340068 🤔 extract_1/2 #122 "comparatives" score? !comparative
+T553.9873877759965 reject: "comparatives"
+T556.5263329439913 🤔 corrected #122 "comparative" score? !
+T556.526476627012 reject: "comparative"
+T558.9869175950007 🤔 extract_1/1 #122 "sociolinguistique" score? !
+T558.9870344469964 reject: "sociolinguistique"
+T567.945262942987 #122 ? * $2 $1
+T567.9456009840069 chat_prompt: give me 14 French words that are seen with $2 and $1; do not list any words that you have already listed above
+T567.9458132940053 session: {"role": "user", "content": "give me 14 French words that are seen with \"linguistique\" and \"fran\u00e7ais\"; do not list any words that you have already listed above"}
+T585.7565006199875 session: {"role": "assistant", "content": "Here are the additional French words:\n\n**Fourteen French words seen with \"linguistique\" and/or \"fran\u00e7ais\":**\n\n1. Discours (discourse)\n2. Idiome (idiom)\n3. Paronymie (paronymy)\n4. Syntaxe (syntax) - already listed, but often paired with linguistics\n5. Th\u00e9orie des mod\u00e8les (model theory)\n6. Linguistique historique (historical linguistics)\n7. Analyse phon\u00e9tique (phonetic analysis)\n8. \u00c9tudes de lexicographie (lexicographical studies)\n9. Pragmatique du langage (pragmatics of language)\n10. Sociolinguistiques des minorit\u00e9s (sociolinguistics of minority groups)\n11. R\u00e9sum\u00e9 de la tradition linguistique (summary of linguistic tradition)\n12. \u00c9tudes sur les ph\u00e9nom\u00e8nes linguistiques (studies on linguistic phenomena)\n13. Critique du discours (discourse critique)\n14. Th\u00e9orie des codes (code theory)\n\nThese words often overlap with \"linguistique\" and \"fran\u00e7ais\", reflecting the intersection of language, culture, and academia."}
+T589.9625837200147 #122 extract_...
+T593.7177126439929 🤔 extract_1/9 #122 "codes" score? !
+T593.7179211080074 reject: "codes"
+T595.8363572320086 🤔 extract_1/8 #122 "minorités" score? !
+T595.8365180109977 reject: "minorités"
+T598.024533385993 🤔 extract_1/7 #122 "modèles" score? !
+T598.0246762319875 reject: "modèles"
+T601.047098598996 🤔 extract_1/6 #122 "paronymie" score? 7.17
+T601.04724828701 attempt_121: "paronymie" score:7.17 prog:None
+T603.0116433300136 🤔 extract_1/5 #123 "phénomènes" score? !
+T603.0117833940021 reject: "phénomènes"
+T605.6256550120015 🤔 extract_1/4 #123 "pragmatique" score? 8.48
+T605.625841925008 attempt_122: "pragmatique" score:8.48 prog:None
+T607.913883597008 🤔 extract_1/3 #124 "sociolinguistiques" score? !
+T607.9140062780061 reject: "sociolinguistiques"
+T611.1885235919908 🤔 extract_1/2 #124 "théorie" score? 3.61
+T611.1886766370153 attempt_123: "théorie" score:3.61 prog:None
+T614.0610918950115 🤔 extract_1/1 #125 "tradition" score? 5.47
+T614.0612690770067 attempt_124: "tradition" score:5.47 prog:None
+T625.5256806300022 #126 ? /last
+T640.0075300380122 #126 ? * $2 $1 similar
+T640.0078009169956 chat_prompt: give me 14 French words that are similar to $2 and $1; do not list any words that you have already listed above
+T640.0079704319942 session: {"role": "user", "content": "give me 14 French words that are similar to \"linguistique\" and \"fran\u00e7ais\"; do not list any words that you have already listed above"}
+T663.0014505349973 session: {"role": "assistant", "content": "Here are the additional French words:\n\n**Fourteen French words similar to \"linguistique\" and/or \"fran\u00e7ais\":**\n\n1. \u00c9tudes cultures (cultural studies)\n2. Linguistique des m\u00e9dias (media linguistics)\n3. Sociologie culturelle (cultural sociology)\n4. Th\u00e9orie de la communication (communication theory)\n5. Histoire des sciences sociales (history of social sciences)\n6. Anthropologie du langage (linguistic anthropology)\n7. \u00c9tudes sur les pratiques culturales (studies on cultural practices)\n8. Historique de la psychanalyse (history of psychoanalysis)\n9. G\u00e9ographie culturelle (cultural geography)\n10. \u00c9tudes sur les enjeux sociaux (studies on social issues)\n11. Th\u00e9orie de la cognition (cognitive theory)\n12. Sociologie du discours (discourse sociology)\n13. \u00c9tudes sur les relations interculturelles (studies on intercultural relationships)\n14. Historique de l'anthropologie (history of anthropology)\n\nThese words share similarities with \"linguistique\" and \"fran\u00e7ais\" in that they often involve the study of language, culture, society, and human behavior, but may not be directly related to linguistics or French specifically.\n\nNote: Some of these words might be more closely related to other fields like sociology, anthropology, or history, but they all have a connection to the broader context of linguistic and cultural studies."}
+T665.769082535 #126 extract_...
+T669.1913585519942 🤔 extract_1/16 #126 "anthropologie" score? 9.4
+T669.1915577400068 attempt_125: "anthropologie" score:9.40 prog:None
+T671.6537567630003 🤔 extract_1/15 #127 "cognition" score? 11.77
+T671.6540502549906 attempt_126: "cognition" score:11.77 prog:None
+T677.5940832759952 🤔 extract_1/14 #128 "communication" score? 26.17 809
+T677.5942548039893 attempt_127: "communication" score:26.17 prog:809
+T679.5632313239912 🤔 extract_1/13 #129 "culturales" score? !
+T679.5634787940071 reject: "culturales"
+T682.527904085 🤔 extract_1/12 #129 "cultures" score? !
+T682.5280875760072 reject: "cultures"
+T684.6013323460065 🤔 extract_1/11 #129 "enjeux" score? !
+T684.6014824800077 reject: "enjeux"
+T690.0755630029889 🤔 extract_1/10 #129 "géographie" score? 19.17 368
+T690.0757976149907 attempt_128: "géographie" score:19.17 prog:368
+T692.0957306319906 🤔 extract_1/9 #130 "interculturelles" score? !
+T692.0958590689988 reject: "interculturelles"
+T693.8280695909925 🤔 extract_1/8 #130 "médias" score? !
+T693.828204585996 reject: "médias"
+T695.5442775909905 🤔 extract_1/7 #130 "pratiques" score? !
+T695.5444045389886 reject: "pratiques"
+T698.0612604760099 🤔 extract_1/6 #130 "psychanalyse" score? 13.38
+T698.0614472790039 attempt_129: "psychanalyse" score:13.38 prog:None
+T699.7132876919932 🤔 extract_1/5 #131 "relations" score? !
+T699.7133998450008 reject: "relations"
+T701.5139682969893 🤔 extract_1/4 #131 "sciences" score? !
+T701.514147400012 reject: "sciences"
+T703.2870531569934 🤔 extract_1/3 #131 "sociales" score? !
+T703.2871746110031 reject: "sociales"
+T705.1234681390051 🤔 extract_1/2 #131 "sociaux" score? !
+T705.1235915730067 reject: "sociaux"
+T709.1495241899975 🤔 extract_1/1 #131 "sociologie" score? 14.08
+T709.1497234650014 attempt_130: "sociologie" score:14.08 prog:None
+T718.7632787330076 #132 ? * $1 related
+T718.7636923250102 chat_prompt: give me 7 French words that are related to $1; do not list any words that you have already listed above
+T718.7639664390008 session: {"role": "user", "content": "give me 7 French words that are related to \"fran\u00e7ais\"; do not list any words that you have already listed above"}
+T733.8912370699982 session: {"role": "assistant", "content": "Here are 7 French words related to \"fran\u00e7ais\":\n\n1. BILINGUE (bilingual) - someone who speaks two languages, including French\n2. COLLOQUE (conference) - an event where speakers discuss a topic, often in the context of French language or culture\n3. D\u00c9BUTANT (novice) - a beginner in the French language or a new student\n4. \u00c9COLE DE FRAN\u00c7AIS (French school) - an institution that teaches French as a foreign language\n5. GRAMMAIRE DU FRAN\u00c7AIS (French grammar) - the study of the rules and structure of the French language\n6. INSTITUT FRAN\u00c7AIS (Institute Fran\u00e7ais) - a cultural organization dedicated to promoting French language, culture, and education\n7. PROFESSEUR DE FRAN\u00c7AIS (French teacher) - an educator who specializes in teaching French as a foreign language"}
+T750.3940263759869 #132 extract_...
+T757.2471338410105 🤔 extract_1/5 #132 "bilingue" score? 41.11 989
+T757.2473315529933 attempt_131: "bilingue" score:41.11 prog:989
+T764.0531565829879 🤔 extract_1/4 #133 "colloque" score? 32.18 944
+T764.0533297930087 attempt_132: "colloque" score:32.18 prog:944
+T766.6197279029875 🤔 extract_1/3 #134 "débutant" score? 15.01
+T766.6198940289905 attempt_133: "débutant" score:15.01 prog:None
+T771.0461466829875 🤔 extract_1/2 #135 "institut" score? 21.32 557
+T771.0463850510132 attempt_134: "institut" score:21.32 prog:557
+T773.6588876020105 🤔 extract_1/1 #136 "école" score? 14.78
+T773.6590498540027 attempt_135: "école" score:14.78 prog:None
+T776.5734735839942 #137 ? /last
+T788.8631696219963 #137 ? * t2
+T788.8637067390082 chat_prompt: give me 14 French words that are related to $1 and $2; do not list any words that you have already listed above
+T788.8640776690154 session: {"role": "user", "content": "give me 14 French words that are related to \"fran\u00e7ais\" and \"bilingue\"; do not list any words that you have already listed above"}
+T817.7244743639894 session: {"role": "assistant", "content": "Here are 14 French words related to \"fran\u00e7ais\" and \"bilingue\":\n\n1. BILINGU\u00c9 (bilingual) - someone who speaks two languages, including French\n2. DIPLOME DE FRAN\u00c7AIS (French diploma) - a certificate awarded to students who have completed a French language program\n3. EXAMEN DE NIVEAUS (language proficiency test)\n4. GRADUAT (graduate) - someone who has completed a degree in the French language or culture\n5. HABILIT\u00c9 DE FRAN\u00c7AIS (French facility) - an institution that provides language training and services to Francophones\n6. INVESTIGATIONS LINGUISTIQUES (linguistic research)\n7. KERNEOLOGIE (kernology) - the study of the roots and origins of languages, including French\n8. LANGUAGES EN D\u00c9POT (language storage) - a collection of languages, including French, that are used for teaching and learning purposes\n9. M\u00c9TRIQUES DE COMPR\u00c9HENSION (comprehension metrics)\n10. PROFESSEUR DE FRAN\u00c7AIS T\u00c9CHEUR (French teacher with expertise in teaching)\n11. R\u00c9SULTATS D'EXAMEN EN LANGUES (language proficiency test results)\n12. SENSIBILIT\u00c9 LINGUISTIQUE (linguistic sensitivity) - the ability to understand and appreciate different languages, including French\n13. SYLLABUS DE FRAN\u00c7AIS (French curriculum) - a framework for teaching French language and culture\n14. T\u00c9MOINS DE COMPR\u00c9HENSION (comprehension witnesses) - individuals who can attest to a person's understanding of the French language"}
+T824.7402458110009 #137 extract_...
+T827.0875340630009 🤔 extract_1/18 #137 "bilingué" score? !
+T827.08768658599 reject: "bilingué"
+T830.2142467820086 🤔 extract_1/17 #137 "compréhension" score? 11.76
+T830.2144329420116 attempt_136: "compréhension" score:11.76 prog:None
+T832.3655069519882 🤔 extract_1/16 #138 "diplome" score? !
+T832.3656422480126 reject: "diplome"
+T834.2393063830095 🤔 extract_1/15 #138 "dépot" score? !
+T834.2394331269898 reject: "dépot"
+T836.9451703990053 🤔 extract_1/14 #138 "examen" score? .16
+T836.9454004210129 attempt_137: "examen" score:0.16 prog:None
+T840.5789939539973 🤔 extract_1/13 #139 "graduat" score? 24.19
+T843.7472056059923 🤔 extract_1/13 #139 "graduat" 24.19°C prog‰ ? 732
+T843.7474383160006 attempt_138: "graduat" score:24.19 prog:732
+T847.955037681997 🤔 extract_1/12 #140 "habilité" score? -.96
+T847.9552410340111 attempt_139: "habilité" score:-0.96 prog:None
+T849.9410272359964 🤔 extract_1/11 #141 "investigations" score? !
+T849.9411558140127 reject: "investigations"
+T855.7285739270155 🤔 extract_1/10 #141 "kerneologie" score? !
+T855.7287495239871 reject: "kerneologie"
+T861.7242011099879 🤔 extract_1/9 #141 "languages" score? !language
+T861.7243067540112 reject: "languages"
+T864.3707044670009 🤔 corrected #141 "language" score? !
+T864.3708537700004 reject: "language"
+T870.6690906849981 🤔 extract_1/8 #141 "langues" score? !langue
+T870.6692314989923 reject: "langues"
+T877.7206137719913 🤔 extract_1/7 #141 "métriques" score? !métrique
+T877.7208301970095 reject: "métriques"
+T881.4291525679873 🤔 corrected #141 "métrique" score? 9.53
+T881.4293233980134 attempt_140: "métrique" score:9.53 prog:None
+T883.5666601489938 🤔 extract_1/6 #142 "niveaus" score? !
+T883.5668378009868 reject: "niveaus"
+T893.8302888640028 🤔 extract_1/5 #142 "résultats" score? !résultat
+T893.8304452070151 reject: "résultats"
+T900.8188669790106 🤔 corrected #142 "résultat" score? 5.8
+T900.8190797799907 attempt_141: "résultat" score:5.80 prog:None
+T904.036022240005 🤔 extract_1/4 #143 "sensibilité" score? -2.22
+T904.036218297988 attempt_142: "sensibilité" score:-2.22 prog:None
+T906.3544208680105 🤔 extract_1/3 #144 "syllabus" score? 6.1
+T906.3545885659987 attempt_143: "syllabus" score:6.10 prog:None
+T908.3652556060115 🤔 extract_1/2 #145 "técheur" score? !
+T908.3654356210027 reject: "técheur"
+T910.0926749120117 🤔 extract_1/1 #145 "témoins" score? !
+T910.0928148200037 reject: "témoins"
+T926.5286102920072 #145 ? *15 t3 seen with !new
+T926.5290264560026 chat_prompt: give me 15 French words that are seen with $1, $2, and $3; do not list any words that you have already listed above
+T926.5292474839953 session: {"role": "user", "content": "give me 15 French words that are seen with \"fran\u00e7ais\", \"bilingue\", and \"linguistique\"; do not list any words that you have already listed above"}
+T967.9307804809941 session: {"role": "assistant", "content": "Here are 15 French words related to \"fran\u00e7ais\", \"bilingue\", and \"linguistique\":\n\n1. ADAPTATION DE LANGUAGES (language adaptation) - the process of learning a new language, including French\n2. COMPARATIFS LINGUISTIQUES (comparative linguistics) - the study of similarities and differences between languages, including French\n3. CONVERSATIONAL (conversationnel) - related to the art of conversation in French\n4. D\u00c9VELOPPEMENT DE LA LANGUE (language development) - the process of language growth and change, including French\n5. DICTIONNAIRE INTERMEDIAR (intermediary dictionary) - a dictionary that helps learners transition from one language to another, such as English to French\n6. \u00c9COLOGIE DE LA COMPR\u00c9HENSION (comprehension ecology) - the study of how people understand and use language\n7. \u00c9TUDES SUR LE LANGAGE (studies on language) - research into the nature of language, including French\n8. FORMATION DE PROFESSEURS DE FRAN\u00c7AIS (French teacher training)\n9. GRAMMAIRE COMPARATITIVE (comparative grammar) - the study of grammatical structures across languages, including French\n10. INVESTIGATIONS \u00c9TRANG\u00c8RES DE LA LANGUAGE (foreign language research) - studies into how languages are acquired and used outside of France\n11. L\u00c9VEMENT DE PROBl\u00e8mes LINGUISTIQUES (language problem-solving) - the ability to address challenges in language learning, including French\n12. METHODES D'APPRENDRE LE FRAN\u00c7AIS (French language learning methods)\n13. PRINCIPLES DE LA GRAMMAIRE (grammar principles) - the rules and structure of languages, including French\n14. RECHERCHES SUR L'\u00c9CHANGE CULTUEL (cultural exchange research) - studies into how cultures interact through language, including French\n15. SYSTEMATIQUE DU FRAN\u00c7AIS (French linguistics) - the study of the structure and evolution of the French language"}
+T1256.8945734500012 #145 extract_...
+T1259.6977369069937 🤔 extract_1/20 #145 "adaptation" score? 7.26
+T1259.6978950659977 attempt_144: "adaptation" score:7.26 prog:None
+T1266.1639895699918 🤔 extract_1/19 #146 "apprendre" score? 8.190
+T1266.1642934470146 attempt_145: "apprendre" score:8.19 prog:None
+T1278.9256738240074 🤔 extract_1/18 #147 "comparatifs" score? !
+T1278.9258800729876 reject: "comparatifs"
+T1320.8692307999881 🤔 extract_1/17 #147 "comparatitive" score? !
+T1320.8693802519992 reject: "comparatitive"
+T1325.4118680190004 🤔 extract_1/16 #147 "conversational" score? 8.19
+T1325.4120655480074 attempt_146: "conversational" score:8.19 prog:None
+T1350.1751286479994 🤔 extract_1/15 #148 "cultuel" score? !
+T1350.1753094349988 reject: "cultuel"
+T1355.4537187409878 🤔 extract_1/14 #148 "développement" score? 8.19
+T1355.4538911099953 attempt_147: "développement" score:8.19 prog:None
+T1522.4184217299917 🤔 extract_1/13 #149 "formation" score? 23.34 688
+T1522.4186582549883 attempt_148: "formation" score:23.34 prog:688
+T1525.169710465998 🤔 extract_1/12 #150 "intermediar" score? !
+T1525.169844840013 reject: "intermediar"
+T1528.1667876550055 🤔 extract_1/11 #150 "le" score? !
+T1528.1669719770143 reject: "le"
+T1530.3896655149874 🤔 extract_1/10 #150 "lévement" score? !
+T1530.38979645801 reject: "lévement"
+T1532.4642666699947 🤔 extract_1/9 #150 "methodes" score? !
+T1532.4643804719963 reject: "methodes"
+T1534.4091600319953 🤔 extract_1/8 #150 "principles" score? !
+T1534.409288158 reject: "principles"
+T1536.2786683519953 🤔 extract_1/7 #150 "problèmes" score? !
+T1536.2788288629963 reject: "problèmes"
+T1538.4539239850128 🤔 extract_1/6 #150 "professeurs" score? !
+T1538.4540499880095 reject: "professeurs"
+T1546.6859254660085 🤔 extract_1/5 #150 "recherches" score? !
+T1546.686069894 reject: "recherches"
+T1549.956785782997 🤔 extract_1/4 #150 "systematique" score? !
+T1549.956942076009 reject: "systematique"
+T1556.1745765990054 🤔 extract_1/3 #150 "échange" score? 32.02 942
+T1556.174744797987 attempt_149: "échange" score:32.02 prog:942
+T1559.6126490359893 🤔 extract_1/2 #151 "écologie" score? 4.05
+T1559.6128114160092 attempt_150: "écologie" score:4.05 prog:None
+T1561.8630829020112 🤔 extract_1/1 #152 "étrangères" score? !
+T1561.8632335820002 reject: "étrangères"
+T1569.826756483002 #152 ? /last
+T1587.6167430600035 #152 ? /prog
+T1605.9030314040137 #152 ? *30 t10 /clear .
+T1605.9034114830138 session clear
+T1605.903463108989 chat_prompt: give me 30 French words that are seen with $1, $2, $3, $4, $5, $6, $7, $8, $9, and $10
+T1605.9037331969885 session: {"role": "user", "content": "give me 30 French words that are seen with \"fran\u00e7ais\", \"bilingue\", \"linguistique\", \"langue\", \"universitaire\", \"litt\u00e9rature\", \"revue\", \"litt\u00e9raire\", \"colloque\", and \"\u00e9change\""}
+T1623.7925228269887 session: {"role": "assistant", "content": "Here are 30 French words that match the given prefixes:\n\n1. Acad\u00e9mique\n2. Arch\u00e9ologique\n3. Biologique\n4. Botanique\n5. Chirurgique\n6. Clinique\n7. Comportemental\n8. Constitutionnel\n9. Contemporain\n10. Criminelle\n11. Cr\u00e9ative\n12. Culturelle\n13. D\u00e9mographique\n14. Dentaire\n15. Di\u00e9t\u00e9tique\n16. \u00c9conomique\n17. \u00c9ducatif\n18. Electrique\n19. Environnemental\n20. Ethnologique\n21. Familial\n22. Finitionnel\n23. Fonctionnel\n24. Geographique\n25. G\u00e9n\u00e9raliste\n26. Grammatique\n27. Historique\n28. Hygi\u00e8ne\n29. Immunitaire\n30. Individuel\n\nLet me know if you'd like more words or have any specific preferences (e.g., nouns, verbs, adjectives)."}
+T1627.1286701800127 #152 extract_...
+T1633.5133961029933 🤔 extract_1/28 #152 "académique" score? 29.62 905
+T1633.5135870059894 attempt_151: "académique" score:29.62 prog:905
+T1637.2000588730152 🤔 extract_1/27 #153 "archéologique" score? 5.53
+T1637.2002346770023 attempt_152: "archéologique" score:5.53 prog:None
+T1640.089481403993 🤔 extract_1/26 #154 "biologique" score? -1.66
+T1640.0896661290026 attempt_153: "biologique" score:-1.66 prog:None
+T1643.0630519159895 🤔 extract_1/25 #155 "botanique" score? 10.02
+T1643.0632210639887 attempt_154: "botanique" score:10.02 prog:None
+T1645.2737503520038 🤔 extract_1/24 #156 "chirurgique" score? !
+T1645.274037930998 reject: "chirurgique"
+T1648.5843289089971 🤔 extract_1/23 #156 "clinique" score? 10.98
+T1648.5844899140066 attempt_155: "clinique" score:10.98 prog:None
+T1651.7475799059903 🤔 extract_1/22 #157 "comportemental" score? .71
+T1651.7477646280022 attempt_156: "comportemental" score:0.71 prog:None
+T1654.8910794910043 🤔 extract_1/21 #158 "constitutionnel" score? 8.7
+T1654.891243716993 attempt_157: "constitutionnel" score:8.70 prog:None
+T1659.3352844949986 🤔 extract_1/20 #159 "contemporain" score? 19.7 417
+T1659.3354566140042 attempt_158: "contemporain" score:19.70 prog:417
+T1662.1676415250113 🤔 extract_1/19 #160 "criminelle" score? !
+T1662.167796438007 reject: "criminelle"
+T1665.5438360529952 🤔 extract_1/18 #160 "créative" score? 8.34
+T1665.5440736490127 attempt_159: "créative" score:8.34 prog:None
+T1668.588515548996 🤔 extract_1/17 #161 "dentaire" score? 11.5
+T1668.5886715870001 attempt_160: "dentaire" score:11.50 prog:None
+T1672.7538239750138 🤔 extract_1/16 #162 "diététique" score? 4.92
+T1672.7540944610082 attempt_161: "diététique" score:4.92 prog:None
+T1678.5725024089916 🤔 extract_1/15 #163 "démographique" score? 5.41
+T1678.5726839929994 attempt_162: "démographique" score:5.41 prog:None
+T1685.2306698139873 🤔 extract_1/14 #164 "electrique" score? !
+T1685.2308882669895 reject: "electrique"
+T1688.9989212010114 🤔 extract_1/13 #164 "environnemental" score? -2.73
+T1688.9991186489933 attempt_163: "environnemental" score:-2.73 prog:None
+T1692.377689148998 🤔 extract_1/12 #165 "ethnologique" score? 6.29
+T1692.3778760739951 attempt_164: "ethnologique" score:6.29 prog:None
+T1695.405052888993 🤔 extract_1/11 #166 "familial" score? 1.56
+T1695.4052965969895 attempt_165: "familial" score:1.56 prog:None
+T1697.8261564100103 🤔 extract_1/10 #167 "finitionnel" score? !
+T1697.8263180830108 reject: "finitionnel"
+T1700.8309764139995 🤔 extract_1/9 #167 "fonctionnel" score? 2.61
+T1700.8311654159916 attempt_166: "fonctionnel" score:2.61 prog:None
+T1703.2079600720026 🤔 extract_1/8 #168 "geographique" score? !
+T1703.2081704600132 reject: "geographique"
+T1706.0117393769906 🤔 extract_1/7 #168 "grammatique" score? !
+T1706.0118836009933 reject: "grammatique"
+T1713.2377249349956 🤔 extract_1/6 #168 "généraliste" score? 31.46 931
+T1713.2379031059972 attempt_167: "généraliste" score:31.46 prog:931
+T1716.8659684570157 🤔 extract_1/5 #169 "hygiène" score? -7.84
+T1716.8661233849998 attempt_168: "hygiène" score:-7.84 prog:None
+T1720.8074189109902 🤔 extract_1/4 #170 "immunitaire" score? -2.81
+T1720.807604392001 attempt_169: "immunitaire" score:-2.81 prog:None
+T1723.736685404001 🤔 extract_1/3 #171 "individuel" score? 3.9
+T1723.7368878000125 attempt_170: "individuel" score:3.90 prog:None
+T1726.5639056790096 🤔 extract_1/2 #172 "économique" score? 10
+T1726.564208780008 attempt_171: "économique" score:10.00 prog:None
+T1730.642816053005 🤔 extract_1/1 #173 "éducatif" score? 24.73
+T1735.0597402229905 🤔 extract_1/1 #173 "éducatif" 24.73°C prog‰ ? 758
+T1735.0598893889983 attempt_172: "éducatif" score:24.73 prog:758
+T1741.3346112220024 #174 ? 24.73 758
+T1752.9062695220055 #174 ? /e
+T1775.253218560014 #174 ? /last
+T1785.322042349988 #174 ? *t5 !new
+T1785.322414950002 chat_prompt: give me 15 French words that are seen with $1, $2, $3, $4, and $5; do not list any words that you have already listed above
+T1785.3226628740085 session: {"role": "user", "content": "give me 15 French words that are seen with \"fran\u00e7ais\", \"bilingue\", \"linguistique\", \"langue\", and \"universitaire\"; do not list any words that you have already listed above"}
+T1803.217230426002 session: {"role": "assistant", "content": "Here are 15 new French words that match the given prefixes:\n\n1. Antiquaire (related to linguistics)\n2. Anthropologique (anthropological studies of language)\n3. Arch\u00e9typal (relating to linguistics and anthropology)\n4. Biochimique (biophysical study of language)\n5. C\u00e9leste (heavenly or divine, in a linguistic context)\n6. Comparatif (comparative linguistics)\n7. Critique sociale (social critique related to language)\n8. Cyborgn\u00e9tique (cybernetic and technological aspects of language)\n9. Dialectical (dialectical approach to linguistics)\n10. Ethnom\u00e9thodologique (ethnomethodological study of language)\n11. Ex\u00e9g\u00e9tique (exegesis, or interpretation, of a language)\n12. Herm\u00e9n\u00e9tique (hermeneutic analysis of language)\n13. Histoire des id\u00e9es (history of ideas related to language)\n14. Interdisciplinaire (interdisciplinary approach to linguistics)\n15. Journaux de recherche (research journals related to language)\n\nLet me know if you'd like more words or have any specific preferences!"}
+T1809.3594385329925 #174 extract_...
+T1812.0105070270074 🤔 extract_1/15 #174 "anthropologique" score? 7.5
+T1812.0106249999953 attempt_173: "anthropologique" score:7.50 prog:None
+T1814.1837079589895 🤔 extract_1/14 #175 "antiquaire" score? 4.23
+T1814.183985175012 attempt_174: "antiquaire" score:4.23 prog:None
+T1817.6183209189912 🤔 extract_1/13 #176 "archétypal" score? -7.03
+T1817.6185575189884 attempt_175: "archétypal" score:-7.03 prog:None
+T1820.6166093400097 🤔 extract_1/12 #177 "biochimique" score? -5.42
+T1820.6167779240059 attempt_176: "biochimique" score:-5.42 prog:None
+T1825.458184660005 🤔 extract_1/11 #178 "comparatif" score? 18.8 316
+T1825.4583660899953 attempt_177: "comparatif" score:18.80 prog:316
+T1830.9185539789905 🤔 extract_1/10 #179 "cyborgnétique" score? !
+T1830.9186717740085 reject: "cyborgnétique"
+T1835.376158285013 🤔 extract_1/9 #179 "céleste" score? -9.17
+T1835.37633142501 attempt_178: "céleste" score:-9.17 prog:None
+T1838.3438088129915 🤔 extract_1/8 #180 "dialectical" score? !
+T1838.3439979859977 reject: "dialectical"
+T1840.4492873820127 🤔 extract_1/7 #180 "ethnométhodologique" score? !
+T1840.4494050820067 reject: "ethnométhodologique"
+T1844.5703634980018 🤔 extract_1/6 #180 "exégétique" score? 5.96
+T1844.5706119360111 attempt_179: "exégétique" score:5.96 prog:None
+T1855.3005726860138 🤔 extract_1/5 #181 "herménétique" score? !
+T1855.3007833459997 reject: "herménétique"
+T1858.2632241400133 🤔 extract_1/4 #181 "idées" score? !
+T1858.2634177879954 reject: "idées"
+T1868.256391803996 🤔 extract_1/3 #181 "interdisciplinaire" score? 26.72 831
+T1868.2565795500122 attempt_180: "interdisciplinaire" score:26.72 prog:831
+T1875.5392773729982 🤔 extract_1/2 #182 "journaux" score? !
+T1875.539447571995 reject: "journaux"
+T1877.8693657219992 🤔 extract_1/1 #182 "sociale" score? !
+T1877.8695264779963 reject: "sociale"
+T1901.041962176998 #182 ? *t3
+T1901.0424339289893 chat_prompt: give me 9 French words that are seen with $1, $2, and $3; do not list any words that you have already listed above
+T1901.0427753209951 session: {"role": "user", "content": "give me 9 French words that are seen with \"fran\u00e7ais\", \"bilingue\", and \"linguistique\"; do not list any words that you have already listed above"}
+T1913.543395581015 session: {"role": "assistant", "content": "Here are 9 new French words that match the given prefixes:\n\n1. Axiomatique (axiomatic approach to linguistics)\n2. Bio\u00e9thique (bioethics related to language and culture)\n3. Cognitif (cognitive study of language)\n4. Corpusgraphie (corpus-based analysis of language)\n5. Dictionnaire anthropologique (anthropological dictionary)\n6. \u00c9tude de cas linguistique (linguistic case study)\n7. G\u00e9ographie du discours (geography of discourse)\n8. Histoire des m\u00e9dias (history of media related to linguistics)\n9. Intelligence artificielle linguistique (artificial intelligence applied to linguistics)\n\nLet me know if you'd like more words or have any specific preferences!"}
+T1919.3975840079947 #182 extract_...
+T1921.629331011005 🤔 extract_1/6 #182 "artificielle" score? !
+T1921.629465317994 reject: "artificielle"
+T1924.7963182340027 🤔 extract_1/5 #182 "axiomatique" score? -2.67
+T1924.7965517220146 attempt_181: "axiomatique" score:-2.67 prog:None
+T1928.204566659988 🤔 extract_1/4 #183 "bioéthique" score? 8.39
+T1928.2047476480075 attempt_182: "bioéthique" score:8.39 prog:None
+T1930.8694920540147 🤔 extract_1/3 #184 "cognitif" score? 9.21
+T1930.86967318799 attempt_183: "cognitif" score:9.21 prog:None
+T1933.3641639449925 🤔 extract_1/2 #185 "corpusgraphie" score? !
+T1933.364323354006 reject: "corpusgraphie"
+T1937.2277596640051 🤔 extract_1/1 #185 "intelligence" score? -.58
+T1937.2279541300086 attempt_184: "intelligence" score:-0.58 prog:None
+T1943.9860531149898 #186 ? *$t2
+T1943.9863749770157 chat_prompt: give me 3 French words that are seen with $t2; do not list any words that you have already listed above
+T1943.9866310360085 session: {"role": "user", "content": "give me 3 French words that are seen with \"fran\u00e7ais\" and \"bilingue\"; do not list any words that you have already listed above"}
+T1949.8068495139887 session: {"role": "assistant", "content": "Here are 3 new French words that match the given prefixes:\n\n1. Adaptabilit\u00e9 linguistique (linguistic adaptability)\n2. Communication interculturelle (intercultural communication)\n3. Diplomatie culturelle (cultural diplomacy)\n\nLet me know if you'd like more words or have any specific preferences!"}
+T1955.8998716330098 #186 extract_...
+T1958.4766862679971 🤔 extract_1/2 #186 "diplomatie" score? 8.52
+T1958.4768436640152 attempt_185: "diplomatie" score:8.52 prog:None
+T1961.2168153419916 🤔 extract_1/1 #187 "interculturelle" score? !
+T1961.2170136189961 reject: "interculturelle"
+T1964.9018184499873 #187 ? * $1
+T1964.9022206620139 chat_prompt: give me 2 French words that are seen with $1; do not list any words that you have already listed above
+T1964.9024511690077 session: {"role": "user", "content": "give me 2 French words that are seen with \"fran\u00e7ais\"; do not list any words that you have already listed above"}
+T1969.6088885279896 session: {"role": "assistant", "content": "Here are 2 new French words that match the prefix:\n\n1. Arch\u00e9ologie historique (historical archaeology)\n2. \u00c9tudes de terrain (field studies)\n\nLet me know if you'd like more words or have any specific preferences!"}
+T1971.094807343994 #187 extract_...
+T1974.480471924995 🤔 extract_1/1 #187 "terrain" score? -5.49
+T1974.480663932016 attempt_186: "terrain" score:-5.49 prog:None
+T1977.9428652900096 #188 ? *10 $1
+T1977.9432442779944 chat_prompt: give me 10 French words that are seen with $1; do not list any words that you have already listed above
+T1977.9434900729975 session: {"role": "user", "content": "give me 10 French words that are seen with \"fran\u00e7ais\"; do not list any words that you have already listed above"}
+T1988.9323396669934 session: {"role": "assistant", "content": "Here are 10 new French words that match the prefix:\n\n1. Arch\u00e9ologie historique (historical archaeology)\n2. \u00c9tudes de terrain (field studies)\n3. Biographie (biography)\n4. Chimie analytique (analytical chemistry)\n5. Comptabilit\u00e9 financi\u00e8re (financial accounting)\n6. Criminologie (criminology)\n7. D\u00e9mographie (demography)\n8. \u00c9conom\u00e9trie (econometrics)\n9. G\u00e9ophysique (geophysics)\n10. Histoire du peuple fran\u00e7ais (history of the French people)\n\nLet me know if you'd like more words or have any specific preferences!"}
+T1992.125828655 #188 extract_...
+T1994.7601625359966 🤔 extract_1/10 #188 "analytique" score? 3.83
+T1994.7603634390107 attempt_187: "analytique" score:3.83 prog:None
+T2001.229889293987 🤔 extract_1/9 #189 "biographie" score? 19.67 415
+T2001.2301550419943 attempt_188: "biographie" score:19.67 prog:415
+T2005.0024931910157 🤔 extract_1/8 #190 "chimie" score? 6.16 
+T2005.0026594930096 attempt_189: "chimie" score:6.16 prog:None
+T2007.607499906997 🤔 extract_1/7 #191 "comptabilité" score? 6.7
+T2007.6077128869947 attempt_190: "comptabilité" score:6.70 prog:None
+T2011.9921179169905 🤔 extract_1/6 #192 "criminologie" score? 13.65
+T2011.9922777810134 attempt_191: "criminologie" score:13.65 prog:None
+T2016.1989592390019 🤔 extract_1/5 #193 "démographie" score? 10.42
+T2016.1990368929983 attempt_192: "démographie" score:10.42 prog:None
+T2018.9808678789996 🤔 extract_1/4 #194 "financière" score? !
+T2018.9810751310142 reject: "financière"
+T2022.3137456190016 🤔 extract_1/3 #194 "géophysique" score? 1.17
+T2022.3140324630076 attempt_193: "géophysique" score:1.17 prog:None
+T2025.072865508002 🤔 extract_1/2 #195 "peuple" score? .83
+T2025.0730370260135 attempt_194: "peuple" score:0.83 prog:None
+T2030.1810595839925 🤔 extract_1/1 #196 "économétrie" score? 7.32
+T2030.181179768988 attempt_195: "économétrie" score:7.32 prog:None
+T2039.740214421996 <INT>
+T0.014214163995347917 now: 2024-12-03T12:02:23EST
+T0.015112899011000991 request: {"method": "GET", "url": "https://cemantix.certitudes.org/stats", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantix.certitudes.org", "Referer": "https://cemantix.certitudes.org/"}, "data": null}
+T3.4876978480024263 response: {"url": "https://cemantix.certitudes.org/stats", "status": 200, "reason": "OK", "headers": {"server": "Fly/ef5cd8bd0 (2024-12-02)", "date": "Tue, 03 Dec 2024 17:10:35 GMT", "connection": "keep-alive", "content-type": "application/json", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JE6R15T34871DZTF9S37X1K2-lga"}, "content": "{\"num\":1007,\"solvers\":16290}\n"}
+T5.8458204719936475 #197 ? /e scav all
+T8.165587107010651 #197 ? /prog
+T10.27001285701408 #197 ? /last
+T27.005988546006847 #197 ? *30 t6 related /clear .
+T27.007098294008756 session clear
+T27.007139088993426 chat_prompt: give me 30 French words that are related to $1, $2, $3, $4, $5, and $6
+T27.007301864010515 session: {"role": "user", "content": "give me 30 French words that are related to \"fran\u00e7ais\", \"bilingue\", \"linguistique\", \"langue\", \"universitaire\", and \"litt\u00e9rature\""}
+T48.55473252700176 session: {"role": "assistant", "content": "Here are 30 French words related to the topics you specified:\n\n1. Fran\u00e7ais (French)\n2. Bilingue (Bilingual)\n3. Linguistique (Linguistics)\n4. Langue (Language)\n5. Universitaire (University-based)\n6. Litt\u00e9rature (Literature)\n7. Lexique (Vocabulary)\n8. Grammaire (Grammar)\n9. Syntaxe (Syntax)\n10. Semantique (Semantics)\n11. Pragmatique (Pragmatics)\n12. Orthographie (Orthography)\n13. Phonologie (Phonology)\n14. Dialecte (Dialect)\n15. Idiomatisme (Idiomatic expressions)\n16. Polyglot (Polyglot)\n17. Monoglotte (Monolingual)\n18. Didacticiel (Didactic)\n19. Universitaire (University-based)\n20. Acad\u00e9mie (Academy)\n21. \u00c9cole (School)\n22. Institut (Institute)\n23. Centre (Center)\n24. Langage (Language)\n25. Communication (Communication)\n26. Pr\u00e9sence (Presence)\n27. Expression (Expression)\n28. R\u00e9alisation (Realization)\n29. Travail (Work)\n30. Recherche (Research)\n\nLet me know if you need anything else!"}
+T55.33398671299801 #197 extract_...
+T61.78177848699852 🤔 extract_1/9 #197 "académie" score? 23.46 696
+T61.781926046009175 attempt_196: "académie" score:23.46 prog:696
+T68.44603780200123 🤔 extract_1/8 #198 "didacticiel" score? 24.32 740
+T68.44623385200975 attempt_197: "didacticiel" score:24.32 prog:740
+T72.14171004100353 🤔 extract_1/7 #199 "expression" score? 16.15
+T72.14188307200675 attempt_198: "expression" score:16.15 prog:None
+T74.3176121150027 🤔 extract_1/6 #200 "idiomatisme" score? !
+T74.31773787300335 reject: "idiomatisme"
+T77.10997652000515 🤔 extract_1/5 #200 "monoglotte" score? !
+T77.11014506799984 reject: "monoglotte"
+T79.88605024901335 🤔 extract_1/4 #200 "polyglot" score? !
+T79.88626864200342 reject: "polyglot"
+T82.44597490198794 🤔 extract_1/3 #200 "présence" score? 6.66
+T82.44622088700999 attempt_199: "présence" score:6.66 prog:None
+T85.2459329389967 🤔 extract_1/2 #201 "réalisation" score? 7.18
+T85.24611101299524 attempt_200: "réalisation" score:7.18 prog:None
+T88.07025887499913 🤔 extract_1/1 #202 "semantique" score? !
+T88.07045359301264 reject: "semantique"
+T105.13394888999755 #202 ? ...
+T108.89393804100109 #202 ? /prog
+T116.90973196399864 #202 ? * $133 $2 $1
+T116.91010777099291 chat_prompt: give me 15 French words that are related to $133, $2, and $1
+T116.91030613699695 session: {"role": "user", "content": "give me 15 French words that are related to \"adaptation\", \"bilingue\", and \"fran\u00e7ais\""}
+T121.87808525300352 #202 ? /last pops
+T123.2380924379977 #202 ? /prog
+T124.78946481901221 #202 ? /last
+T134.26978318599868 #202 ? /last pop
+T134.26990526501322 session: pop
+T137.03805828400073 #202 ? /last
+T144.16567549601314 #202 ? /prog
+T154.09381855701213 #202 ? * $9 $2 $1 !new
+T154.09422235901002 chat_prompt: give me 15 French words that are related to $9, $2, and $1; do not list any words that you have already listed above
+T154.094460221997 session: {"role": "user", "content": "give me 15 French words that are related to \"colloque\", \"bilingue\", and \"fran\u00e7ais\"; do not list any words that you have already listed above"}
+T169.22596804000204 session: {"role": "assistant", "content": "Here are 15 new French words related to the topics of colloquium, bilingualism, and French:\n\n1. Colloque (Colloquium)\n2. Dialectologue (Dialectologist)\n3. Idiome (Idiom)\n4. Lexicographie (Lexicography)\n5. Phon\u00e9ticien (Phonetician)\n6. S\u00e9mantologue (Semiotician)\n7. Traducteur (Translator)\n8. R\u00e9visiteur (Revisioner)\n9. Lecteur (Reader)\n10. \u00c9crivain (Author)\n11. Discours (Discourse)\n12. Pr\u00e9sence de langues (Language presence)\n13. Dipl\u00f4me d'anglais (Diploma in English)\n14. Dipl\u00f4me de fran\u00e7ais (Diploma in French)\n15. Centre de formation pour les enseignants de fran\u00e7ais comme langue \u00e9trang\u00e8re (CFPEF, or Center for Teacher Training for Teaching French as a Foreign Language)\n\nLet me know if you need anything else!"}
+T179.69406983899535 #202 extract_...
+T185.5259371160064 🤔 extract_1/11 #202 "anglais" score? 33.54 953
+T185.52615007999702 attempt_201: "anglais" score:33.54 prog:953
+T189.6698782829917 🤔 extract_1/10 #203 "comme" score? -2.07
+T189.67008234901004 attempt_202: "comme" score:-2.07 prog:None
+T192.27795354800764 🤔 extract_1/9 #204 "dialectologue" score? 16.5
+T192.2781198360026 attempt_203: "dialectologue" score:16.50 prog:None
+T194.74958316699485 🤔 extract_1/8 #205 "enseignants" score? !
+T194.7496962530131 reject: "enseignants"
+T200.3341769640101 🤔 extract_1/7 #205 "lecteur" score? 17.52 120
+T200.33437204000074 attempt_204: "lecteur" score:17.52 prog:120
+T203.40584129700437 🤔 extract_1/6 #206 "phonéticien" score? 16.81
+T203.4061365580128 attempt_205: "phonéticien" score:16.81 prog:None
+T206.8779816130118 🤔 extract_1/5 #207 "pour" score? 7.93
+T206.8781658129883 attempt_206: "pour" score:7.93 prog:None
+T209.02999947301578 🤔 extract_1/4 #208 "révisiteur" score? !
+T209.03014275900205 reject: "révisiteur"
+T212.2300692310091 🤔 extract_1/3 #208 "sémantologue" score? !
+T212.23021628000424 reject: "sémantologue"
+T217.64587331199436 🤔 extract_1/2 #208 "écrivain" score? 23.07 677
+T217.64607721599168 attempt_207: "écrivain" score:23.07 prog:677
+T220.0141323140124 🤔 extract_1/1 #209 "étrangère" score? !
+T220.0142837399908 reject: "étrangère"
+T221.110273230006 #209 ? /prog
+T228.25389693598845 #209 ? _
+T228.25405701898853 chat_prompt: _
+T228.25422536800033 session: {"role": "user", "content": "give me 15 French words that are related to \"anglais\", \"bilingue\", and \"fran\u00e7ais\"; do not list any words that you have already listed above"}
+T250.4596501479973 session: {"role": "assistant", "content": "Here are 15 new French words related to the topics of English, bilingualism, and French:\n\n1. Anglophone (English-speaking)\n2. Bilinguisme (Bilingualism)\n3. Fran\u00e7ais d'origine (French native speaker)\n4. \u00c9tudiant de langue et litt\u00e9rature anglaise (Student of English Language and Literature)\n5. Sp\u00e9cialiste du fran\u00e7ais comme langue \u00e9trang\u00e8re (Specialist in Teaching French as a Foreign Language)\n6. Dipl\u00f4me en anglais (Diploma in English)\n7. Professeur d'anglais (English teacher)\n8. \u00c9cole pour les langues (School for Languages)\n9. Linguistique appliqu\u00e9e (Applied linguistics)\n10. Strat\u00e9gies de communication interlinguistiques (Inter-linguistic communication strategies)\n11. R\u00e9ussite acad\u00e9mique en anglais (Academic success in English)\n12. Dipl\u00f4m\u00e9 d'un cours de fran\u00e7ais comme langue \u00e9trang\u00e8re (Diploma holder from an English language course)\n13. Ing\u00e9nieur du langage et de la culture anglaise (English language and culture engineer)\n14. Th\u00e9orie de l'apprentissage des langues \u00e9trang\u00e8res (Theory of foreign language learning)\n15. \u00c9valuation de la ma\u00eetrise d'un \u00e9l\u00e9ment linguistique sp\u00e9cifique (Evaluation of mastery of a specific linguistic element)\n\nLet me know if you need anything else!"}
+T262.2780751849932 #209 extract_...
+T265.27789002200007 🤔 extract_1/18 #209 "anglaise" score? !
+T265.2780294190161 reject: "anglaise"
+T270.4694886560028 🤔 extract_1/17 #209 "anglophone" score? 60.51 999
+T270.469578165008 attempt_208: "anglophone" score:60.51 prog:999
+T275.02211066999007 🤔 extract_1/16 #210 "apprentissage" score? 18.44 266
+T275.0223570340022 attempt_209: "apprentissage" score:18.44 prog:266
+T281.31776235901634 🤔 extract_1/15 #211 "culture" score? 26.57 828
+T281.31794600599096 attempt_210: "culture" score:26.57 prog:828
+T284.65406970400363 🤔 extract_1/14 #212 "diplômé" score? 16.47
+T284.654257459013 attempt_211: "diplômé" score:16.47 prog:None
+T286.4622703139903 🤔 extract_1/13 #213 "et" score? !
+T286.4624581510143 reject: "et"
+T289.00653551801224 🤔 extract_1/12 #213 "ingénieur" score? 5.7
+T289.0068297109974 attempt_212: "ingénieur" score:5.70 prog:None
+T292.1738481140055 🤔 extract_1/11 #214 "interlinguistiques" score? !
+T292.17403698299313 reject: "interlinguistiques"
+T294.7741202140169 🤔 extract_1/10 #214 "maîtrise" score? 6.69
+T294.7743099030049 attempt_213: "maîtrise" score:6.69 prog:None
+T297.877680968988 🤔 extract_1/9 #215 "origine" score? 9.51
+T297.877823509014 attempt_214: "origine" score:9.51 prog:None
+T302.3415463799902 🤔 extract_1/8 #216 "réussite" score? 7.74
+T302.34164501100895 attempt_215: "réussite" score:7.74 prog:None
+T307.26191339700017 🤔 extract_1/7 #217 "spécialiste" score? 22.41 643
+T307.26209423301043 attempt_216: "spécialiste" score:22.41 prog:643
+T309.66181734600104 🤔 extract_1/6 #218 "spécifique" score? 13.1
+T309.6619810590055 attempt_217: "spécifique" score:13.10 prog:None
+T311.6540436450159 🤔 extract_1/5 #219 "stratégies" score? !
+T311.6542119689984 reject: "stratégies"
+T317.7179407980002 🤔 extract_1/4 #219 "un" score? !
+T317.71808765101014 reject: "un"
+T322.1419437529985 🤔 extract_1/3 #219 "élément" score? -1.39
+T322.1421231650165 attempt_218: "élément" score:-1.39 prog:None
+T328.0460080119956 🤔 extract_1/2 #220 "étudiant" score? 29.82 908
+T328.04624093999155 attempt_219: "étudiant" score:29.82 prog:908
+T331.06220058200415 🤔 extract_1/1 #221 "évaluation" score? 11.39
+T331.06245844700607 attempt_220: "évaluation" score:11.39 prog:None
+T335.1979089959932 #222 ? *t3
+T335.1982642560033 chat_prompt: give me 15 French words that are related to $1, $2, and $3; do not list any words that you have already listed above
+T335.198465169 session: {"role": "user", "content": "give me 15 French words that are related to \"anglophone\", \"fran\u00e7ais\", and \"bilingue\"; do not list any words that you have already listed above"}
+T362.0013672490022 session: {"role": "assistant", "content": "Here are 15 new French words related to the topics of Anglophone, French, and Bilingual:\n\n1. Francophone (French-speaking)\n2. Langage maternel (Native language)\n3. Langue secondaire (Secondary language)\n4. Dipl\u00f4me de sp\u00e9cialisation en fran\u00e7ais comme langue \u00e9trang\u00e8re (Diploma in specialization in teaching French as a foreign language)\n5. Enseignant d'anglais et d'allemand (English and German teacher)\n6. \u00c9tudiant en lettres anglaises (Student of English Literature)\n7. Traducteur de fran\u00e7ais vers le anglais (French to English translator)\n8. Recherche en linguistique appliqu\u00e9e (Research in applied linguistics)\n9. Sp\u00e9cialiste du fran\u00e7ais en situation d'interaction avec un public anglophone (Specialist in teaching French to an Anglophone audience)\n10. \u00c9valuation des comp\u00e9tences en langues \u00e9trang\u00e8res (Evaluation of foreign language skills)\n11. Formation professionnelle en enseignement de la langue fran\u00e7aise comme langue \u00e9trang\u00e8re (Professional training in teaching French as a foreign language)\n12. Dipl\u00f4me d'anglais et fran\u00e7ais pour les entreprises (Diploma in English and French for business)\n13. \u00c9tudiant en th\u00e9orie de l'apprentissage des langues \u00e9trang\u00e8res (Student of theory of foreign language learning)\n14. R\u00e9ussite dans une licence en anglais ou en fran\u00e7ais (Academic success in an English or French degree program)\n15. Centre d'\u00e9tudes linguistiques pour les francophones et anglophones (Center for linguistic studies for French and Anglophone speakers)\n\nLet me know if you need anything else!"}
+T365.21407221100526 #222 extract_9
+T370.82181239899364 🤔 extract_9/21 #222 "francophone" score? 100 1000
+T370.82200112499413 attempt_221: "francophone" score:100.00 prog:1000
+T375.3342431340134 Paste share result, then preses <Enter>
+T375.3440844590077 share result: "J'ai trouv\u00e9 #cemantix n\u00ba1007 en 221 coups !\n\ud83e\udd73\n\ud83d\ude31\n\ud83d\udd25\n\ud83e\udd75\ud83e\udd752\ufe0f\u20e30\ufe0f\u20e3\n\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e\ud83d\ude0e4\ufe0f\u20e38\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd761\ufe0f\u20e31\ufe0f\u20e39\ufe0f\u20e3\n\ud83e\uddca\ud83e\uddca\ud83e\uddca3\ufe0f\u20e31\ufe0f\u20e3\nhttps://cemantix.certitudes.org/"
+T375.34528568401583 <STOP>
