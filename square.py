@@ -543,10 +543,10 @@ class Search(StoredLog):
         rest = ui.tokens.rest
         match = re.match(r'''(?x)
             \s* (?P<word> [_A-Za-z ]+ )
-            (?: \s* ~ \s* (?P<may> [A-Za-z ]+ ) )?
+            (?: \s* ~ \s* (?P<may> [A-Za-z ]* ) )?
         ''', rest) or re.match(r'''(?x)
             (?P<word> )
-            \s* ~ \s* (?P<may> [A-Za-z ]+ )
+            \s* ~ \s* (?P<may> [A-Za-z ]* )
         ''', rest)
         if match:
             ui.tokens.rest = rest[match.end(0):] 
@@ -554,7 +554,7 @@ class Search(StoredLog):
 
     def proc_re_word_match(self, ui: PromptUI, word_i: int, match: re.Match[str]):
         word_str = cast(str, match.group(1) or '')
-        may_str = cast(str, match.group(2) or '')
+        may_str = cast(str|None, match.group(2))
 
         may = self.row_may[word_i]
 
@@ -572,7 +572,7 @@ class Search(StoredLog):
                     self.grid[offset + i] = c
                     if c in may: may.remove(c)
 
-        if may_str:
+        if may_str is not None:
             may.clear()
             may.update(
                 m.group(0).lower()
