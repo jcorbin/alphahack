@@ -441,6 +441,12 @@ class Search(StoredLog):
                 ui.log(f'nope: {" ".join(sorted(self.nope))}')
                 return
 
+            if tokens.have(r'(?x) ( ! | /y(ep?)? ) $'):
+                for m in re.finditer(r'[A-Za-z]', tokens.rest):
+                    self.nope.remove(m.group(0).lower())
+                ui.log(f'nope: {" ".join(sorted(self.nope))}')
+                return
+
             if tokens.have(r'/g(u(e(s(s(es?)?)?)?)?)?'):
                 for word in self.guesses:
                     ui.print(f'Guesses ({len(self.guesses)})')
