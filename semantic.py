@@ -1339,9 +1339,6 @@ class Search(StoredLog):
             # TODO scrape from today puzzle html
             raise ValueError('no word found yesterday to request')
 
-        yesterword = self.word[self.found]
-        res = self.request(ui, 'post', '/nearby', data={'word': yesterword})
-
         def extract(dat: object):
             if not isinstance(dat, list):
                 raise ValueError('expected an array')
@@ -1363,9 +1360,13 @@ class Search(StoredLog):
                     raise ValueError(f'invalid response[{i}] [2] socre')
                 yield word, prog, float(score)
 
+        yesterword = self.word[self.found]
+        ui.write('Scraping yesterdat from /nearby...')
+        res = self.request(ui, 'post', '/nearby', data={'word': yesterword})
+        data = list(extract(cast(object, res.json())))
         return self.yesterdat(ui, yesterword, (
             YesterDatum(rank, word, score, prog)
-            for rank, (word, prog, score) in enumerate(extract(cast(object, res.json())))))
+            for rank, (word, prog, score) in enumerate(data)))
 
     def yesterscrape(self, ui: PromptUI, content: str):
         soup = bs4.BeautifulSoup(content, 'html5lib')
