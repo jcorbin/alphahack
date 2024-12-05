@@ -2309,6 +2309,10 @@ class Search(StoredLog):
                         a, sep, b = b.partition('\n')
                         ui.write(f'{end}... {a}')
 
+            except ollama.ResponseError as err:
+                ui.print(f'! ollama error: {err}')
+                return
+
             finally:
                 ui.fin()
 
