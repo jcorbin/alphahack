@@ -2336,7 +2336,7 @@ class Search(StoredLog):
                 if not tokens.empty:
                     mod = ''
 
-                    n = tokens.have(r'\d+$', lambda m: int(m[1]))
+                    n = tokens.have(r'\d+$', lambda m: int(m[0]))
                     if n is not None:
                         try:
                             mod = byn[n-1]
