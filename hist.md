@@ -1655,3 +1655,23 @@ See log/squareword.org/#1039
 
 🔗 alphaguess.com
 ```
+
+# 2024-12-05 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 976
+🤔 82 guesses
+    🥳  1
+    🥵  1
+    😎  8
+    🥶 70
+    🧊  2
+⏱️ 0:15:46.502226
+```
+
+🤔 82 attempts
+📜 1 sessions
+🫧 1 chat sessions
+⁉️ 3 chat prompts
+🤖 3 chat replies
