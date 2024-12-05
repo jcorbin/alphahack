@@ -791,6 +791,18 @@ class Search(StoredLog):
                 continue
 
             match = re.match(r'''(?x)
+                abbr : \s* (?P<abbr> [^\s]+ )
+                (?: \s+ (?P<mess> .+? ) )?
+                $''', rest)
+            if match:
+                abbr, mess = match.groups()
+                if mess:
+                    self.abbr[abbr] = mess
+                elif abbr in self.abbr:
+                    del self.abbr[abbr]
+                continue
+
+            match = re.match(r'''(?x)
                 session : \s* (?P<mess> .+ )
                 $''', rest)
             if match:
@@ -1044,6 +1056,29 @@ class Search(StoredLog):
             n = sum(1 for _ in words())
             yield f'{tier} {n:>{cw}}'
 
+    def do_abbr(self, ui: PromptUI):
+        with ui.tokens as tokens:
+            if tokens.empty:
+                for abbr in sorted(self.abbr):
+                    ui.print(f'  {abbr} - {self.abbr[abbr]!r}')
+                return
+
+            abbr = next(tokens)
+            if not abbr.startswith('!'):
+                ui.print(f'abbr should start with !')
+                return
+
+            if tokens.empty:
+                if abbr in self.abbr:
+                    del self.abbr[abbr]
+                    ui.print(f'  deleted {abbr}')
+                    ui.log(f'abbr: {abbr}') # TODO load
+                return
+
+            self.abbr[abbr] = tokens.rest
+            ui.print(f'  defined {abbr} = {self.abbr[abbr]!r}')
+            ui.log(f'abbr: {abbr} {self.abbr[abbr]}') # TODO load
+
     def do_cmd(self, ui: PromptUI):
         with ui.tokens_or('> '):
             cmd = next(ui.tokens, None)
@@ -1067,6 +1102,7 @@ class Search(StoredLog):
             'report': self.do_report,
             'yester': self.do_yester,
 
+            'abbr': self.do_abbr,
             'clear': self.chat_clear_cmd,
             'extract': self.chat_extract,
             'model': self.chat_model_cmd,
