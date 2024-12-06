@@ -454,14 +454,17 @@ class Search(StoredLog):
                 return
 
             word_i = self.re_word_i(ui)
-            if word_i is None: return
+            if word_i is not None:
+                if tokens.rest.strip() == '!':
+                    self.forget(ui, word_i)
+                    return
 
-            if tokens.rest.strip() == '!':
-                self.forget(ui, word_i)
+            word = next(tokens, None)
+            if word:
+                if len(word) == self.size:
+                    return self.ask_question(ui, word, 'entered')
+                ui.print(f'! wrong size {word!r}')
                 return
-
-            if not tokens.empty:
-                ui.print(f'TODO {next(tokens)!r} entered')
 
     def row_word_range(self, row: int):
         return range(row * self.size, (row+1) * self.size)
@@ -600,6 +603,7 @@ class Search(StoredLog):
         return self.ask_question(ui, choice, f'#{word_i+1} found:{count} hypo:{uni_count}')
 
     def ask_question(self, ui: PromptUI, word: str, desc: str):
+        word = word.lower()
         ui.log(f'questioning: {json.dumps([word, desc])}')
         self.qmode = '>' if word in self.guesses else  '?'
         self.questioning = word
