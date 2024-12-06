@@ -245,32 +245,31 @@ def trimlines(lines: Iterable[str]):
             yield line
     # NOTE the entire point is to NOT `yield prior` after falling out the loop
 
-class MarkedSpec:
-    @staticmethod
-    def uncomment_lines(lines: Iterable[str]):
-        it = iter(lines)
-        while True:
-            for line in it:
-                if line.startswith('//'): continue
-                if line.endswith('```'):
-                    yield line
-                    break
-                line, _mark, _rem = line.partition('//')
+def uncomment_lines(lines: Iterable[str]):
+    it = iter(lines)
+    while True:
+        for line in it:
+            if line.startswith('//'): continue
+            if line.endswith('```'):
                 yield line
-            else:
                 break
-            for line in it:
-                yield line
-                if line == '```': break
-            else:
-                break
+            line, _mark, _rem = line.partition('//')
+            yield line
+        else:
+            break
+        for line in it:
+            yield line
+            if line == '```': break
+        else:
+            break
 
+class MarkedSpec:
     @classmethod
     def iterlines(cls, spec: str):
         lines = spliterate(spec, '\n')
         lines = trimlines(lines)
         lines = striperate(lines)
-        lines = cls.uncomment_lines(lines)
+        lines = uncomment_lines(lines)
         return lines
 
     @classmethod
