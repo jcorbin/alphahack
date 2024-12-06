@@ -167,7 +167,10 @@ def olm_find_model(client: ollama.Client, name: str):
     except ValueError:
         raise RuntimeError(f'Unavailable --ollama-model {name!r} ; available models: {' '.join(sorted(get_olm_models(client)))}')
 
-word_ref_pattern = re.compile(r'(?x) \# ( \d+ ) | \$ ( [TtBb]? ) ( -? \d+ )')
+word_ref_pattern = re.compile(r'''(?x)
+                                \# ( \d+ )
+                              | \$ ( [TtBb]? ) ( -? \d+ )
+                              ''')
 WordRef = Literal['$', '#']
 WordDeref = Callable[[WordRef, int], str]
 
@@ -193,7 +196,7 @@ def unroll_word_match(match: re.Match[str]):
     elif varn:
         yield f'${varn}'
 
-def word_match_refs(match: re.Match[str]):
+def word_match_refs(match: re.Match[str]) -> Generator[tuple[WordRef, int]]:
     nth, vartb, varn = match.groups()
     if nth:
         yield '#', int(nth)
@@ -282,6 +285,7 @@ class ChatPrompt:
         for k, n in word_refs(prompt):
             if k == '$': vars.append(n)
             elif k == '#': ords.append(n)
+            else: assert_never(k)
         self.vars = tuple(vars)
         self.ords = tuple(ords)
 
@@ -1658,12 +1662,8 @@ class Search(StoredLog):
                 if token == "''": return
                 return token if token.endswith("'") else f"{token}'"
 
-        def var(token: str):
-            if token.startswith('$'):
-                return token if len(token) > 1 else None
-
-        def ord(token: str):
-            if token.startswith('#'):
+        def ref(token: str):
+            if any(token.startswith(c) for c in '$#'):
                 return token if len(token) > 1 else None
 
         clear = False
@@ -1728,17 +1728,17 @@ class Search(StoredLog):
                     unlike_words.extend(unroll_refs(f'${token}'))
 
                 elif token.startswith('+') and len(token) > 1:
-                    token = rec(token[1:], var, ord, quoted, just)
+                    token = rec(token[1:], ref, quoted, just)
                     if token: like_words.append(token)
                     else: ui.print(f'! ignoring * token {token}')
 
                 elif token.startswith('-') and len(token) > 1:
-                    token = rec(token[1:], var, ord, quoted, just)
+                    token = rec(token[1:], ref, quoted, just)
                     if token: unlike_words.append(token)
                     else: ui.print(f'! ignoring * token {token}')
 
                 else:
-                    like_tok = rec(token, var, ord, quoted)
+                    like_tok = rec(token, ref, quoted)
                     if like_tok:
                         like_words.append(like_tok)
                         continue
@@ -2274,6 +2274,8 @@ class Search(StoredLog):
         elif k == '#':
             i = n - 1
             return i, None, f'"{self.word[i]}"'
+
+        assert_never(k)
 
     def word_ref(self, k: WordRef, n: int):
         if k == '$':
