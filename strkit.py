@@ -44,7 +44,8 @@ def spliterate(s: str, chars: str, trim: bool = False):
     while s:
         part, fin, s = partition_any(s, chars)
         yield part
-    if not trim and fin: yield ''
+    if fin: yield fin
+    elif not trim: yield ''
 
 def first_indent(first: str):
     match = re.match(r'\s+', first)
