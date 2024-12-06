@@ -1036,18 +1036,6 @@ class Search(StoredLog):
         i, prog = max(self.prog.items(), key = lambda iprog: iprog[1])
         return i, prog
 
-    def top_bot_index(self, top: int|None = None, bot: int|None = None):
-        if top is None: top = self.top_n
-        if bot is None: bot = self.bot_n
-        ni = len(self.index)
-        ti = min(ni-1, top-1)
-        for ix in range(ti+1):
-            yield True, ix
-        bi = max(ti+1, len(self.index) - bot)
-        if bi > 0 and bi < ni:
-            for ix in range(bi, ni):
-                yield False, ix
-
     def show_prog(self, ui: PromptUI):
         lines = self.prog_lines(limit=max(len(tiers), math.ceil(ui.screen_lines*4/5)))
         for line in lines:
@@ -1120,30 +1108,6 @@ class Search(StoredLog):
                     if mark(self.score[i], self.prog.get(i)) != mk: break
                     yield self.word[i]
             yield mrk, rest
-
-    def show_vars(self, ui: PromptUI):
-        if not len(self.index):
-            return
-
-        # TODO more prog tier transition points of interest
-
-        self.show_tbix(ui, self.top_bot_index())
-
-    def show_tbix(self, ui: PromptUI, tbix: Iterable[tuple[bool, int]]):
-        top_n = 0
-        bot_n = 0
-        index: list[int] = []
-        for tb, ix in tbix:
-            index.append(ix)
-            if tb: top_n += 1
-            else: bot_n += 1
-
-        ui.br()
-        if top_n > 0 and bot_n > 0: ui.print(f'Top {top_n} / Bottom {bot_n} words:')
-        elif top_n > 0: ui.print(f'Top {top_n} words:')
-        elif bot_n > 0: ui.print(f'Bottom {bot_n} words:')
-        for ix in index:
-            ui.print(f'    {self.describe_word(self.index[ix], ix=ix)}')
 
     @override
     def info(self):
@@ -1311,7 +1275,6 @@ class Search(StoredLog):
 
             'prog': self.show_prog,
             'tiers': self.show_tiers,
-            'vars': self.show_vars,
 
             'site': self.do_site,
             'lang': self.do_lang,
@@ -1320,6 +1283,7 @@ class Search(StoredLog):
             'result': self.show_result,
             'report': self.do_report,
             'yester': self.do_yester,
+            'notbad': self.do_notbad,
 
             'abbr': self.do_abbr,
             'clear': self.chat_clear_cmd,
@@ -1418,6 +1382,13 @@ class Search(StoredLog):
             yield f'😦 {" ".join(self.tier_count_parts())}'
         yield ''
         yield from self.prog_lines(4*len(tiers))
+
+    def do_notbad(self, ui: PromptUI):
+        with ui.tokens as tokens:
+            word = next(tokens, None)
+            if word is not None:
+                self.wordbad.remove(word)
+                return self.attempt_word(ui, word.lower(), f'reentered')
 
     def do_yester(self, ui: PromptUI):
         if not self.ephemeral or not self.stored:
@@ -1801,8 +1772,18 @@ class Search(StoredLog):
                     return self.generate(ui)
                 return
 
-            if tokens.peek() in self.abbr:
-                return self.chat_prompt(ui, self.abbr[next(tokens)])
+            if tokens.peek('').startswith('!'):
+                token = next(tokens)
+                try:
+                    abbr = self.abbr[token]
+                except KeyError:
+                    ui.print(f'! no such abbr {token!r} ; use /abbr to correct or define new')
+                else:
+                    return self.chat_prompt(ui, abbr)
+                return
+
+            if tokens.peek('').startswith('*'):
+                return self.generate(ui)
 
             if tokens.have(r'_$'):
                 return self.chat_prompt(ui, '_') # TODO can this be an abbr?
@@ -1812,6 +1793,10 @@ class Search(StoredLog):
 
             if tokens.peek('').startswith('/'):
                 return self.do_cmd(ui)
+
+            match = tokens.have(word_ref_pattern)
+            if match:
+                return self.ref_word(ui, match)
 
             # TODO can '> ...' lambda ctx ... be an abbr?
             match = re.match(r'(>+)\s*(.+?)$', tokens.raw)
@@ -1828,91 +1813,59 @@ class Search(StoredLog):
 
                 return self.chat_prompt(ui, ' '.join(parts))
 
-
-            var_str = tokens.have(r'\$(.+)', lambda m: cast(str, m[1]))
-            if var_str:
-                try:
-                    n = int(var_str)
-                    if n < 1: raise ValueError
-                except ValueError:
-                    ui.print('! must be $<NUMBER>')
-                else:
-                    ix = n-1
-                    i = self.prog[ix]
-                    return self.re_word(ui, i, ix)
-                return
-
-            ord_str = tokens.have(r'#(.+)', lambda m: cast(str, m[1]))
-            if ord_str:
-                try:
-                    n = int(ord_str)
-                    if n < 1: raise ValueError
-                except ValueError:
-                    ui.print('! must be #<NUMBER>')
-                else:
-                    i = n-1
-                    return self.re_word(ui, i)
-                return
-
-            if tokens.peek('').startswith('*'):
-                return self.generate(ui)
-
-            bang = tokens.have(r'!(.*)$', lambda m: cast(str, m.group(1)))
-            if bang is not None:
-                word = bang or next(tokens)
-                self.wordbad.remove(word)
-                return self.attempt_word(ui, word.lower(), f'reentered')
-
-            m = (
-                tokens.have(r'(?xi) (?: T ( \d+ ) ) (?: B ( \d+ ) )?') or
-                tokens.have(r'(?xi) (?: T ( \d+ ) )? (?: B ( \d+ ) )'))
-            tb = (
-                int(m.group(1)) if m.group(1) else None,
-                int(m.group(2)) if m.group(2) else None,
-            ) if m else None
-            if tb:
-                self.show_tbix(ui, self.top_bot_index(*tb))
-                return
-
             return self.attempt_word(ui, next(tokens).lower(), f'entered')
 
-    def re_word(self, ui: PromptUI, i: int, ix: int|None = None):
-        score: float|None = None
-        prog: int|None = None
+    def ref_word(self, ui: PromptUI, match: re.Match[str]):
+        refs = list(word_match_refs(match))
 
-        for token in ui.tokens:
-            if 'score'.startswith(token.lower()):
-                token = next(ui.tokens)
-                try:
-                    score = float(token)
-                    assert score_min <= score <= score_max
-                except ValueError:
-                    ui.print(f'! invalid word score: not a float {token!r}')
+        with ui.tokens as tokens:
+            if len(refs) == 1:
+                some = False
+                score: float|None = None
+                prog: int|None = None
+
+                for token in tokens:
+                    if 'score'.startswith(token.lower()):
+                        token = next(tokens)
+                        try:
+                            score = float(token)
+                            assert score_min <= score <= score_max
+                        except ValueError:
+                            ui.print(f'! invalid word score: not a float {token!r}')
+                            return
+                        except AssertionError:
+                            ui.print(f'! invalid word score, must be in range {score_min} <= {score_max}')
+                            return
+                        some = True
+
+                    if 'prog'.startswith(token.lower()):
+                        token = next(tokens)
+                        if token == '_':
+                            prog = None
+                        else:
+                            try:
+                                prog = int(token)
+                                assert prog_min <= prog <= prog_max
+                            except ValueError:
+                                ui.print('! invalid word prog‰, not an int {token!r}')
+                                return
+                            except AssertionError:
+                                ui.print(f'! invalid word prog‰, must be in range {prog_min} <= {prog_max}')
+                                return
+                        some = True
+
+                if some:
+                    i, _, _ = self.word_iref(*refs[0])
+                    res = 'amended' if self.fix(ui, i, score, prog) else 'no change'
+                    ui.print(f'💿 {self.describe_word(i)} ({res})')
                     return
-                except AssertionError:
-                    ui.print(f'! invalid word score, must be in range {score_min} <= {score_max}')
-                    return
 
-            if 'prog'.startswith(token.lower()):
-                token = next(ui.tokens)
-                if token == '_':
-                    prog = None
-                else:
-                    try:
-                        prog = int(token)
-                        assert prog_min <= prog <= prog_max
-                    except ValueError:
-                        ui.print('! invalid word prog‰, not an int {token!r}')
-                        return
-                    except AssertionError:
-                        ui.print(f'! invalid word prog‰, must be in range {prog_min} <= {prog_max}')
-                        return
+            elif not tokens.empty:
+                ui.print('! may only amend a singular word reference')
 
-        if self.fix(ui, i, score, prog):
-            ui.print(f'💿 {self.describe_word(i)} (fixed)')
-            return
-
-        ui.print(f'💿 {self.describe_word(i, ix)}')
+        for k, n in refs:
+            i, ix, _ = self.word_iref(k, n)
+            ui.print(f'💿 {self.describe_word(i, ix)}')
 
     def finish(self, ui: PromptUI):
         it = self.found
