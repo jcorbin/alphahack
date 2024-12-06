@@ -9,7 +9,7 @@ import ollama
 import re
 import requests
 from collections import Counter
-from collections.abc import Generator, Iterable, Sequence
+from collections.abc import Generator, Iterable, MutableMapping, Sequence
 from dataclasses import dataclass
 from dateutil.tz import gettz
 from typing import assert_never, cast, final, overload, override, Callable, Literal
@@ -1277,6 +1277,70 @@ class Search(StoredLog):
             n = sum(1 for _ in words())
             yield f'{tier} {n:>{cw}}'
 
+    def do_http(self, ui: PromptUI):
+        title: str
+        coll: MutableMapping[str, str]|MutableMapping[str, str|bytes]
+
+        match = ui.tokens.have(r'(?x) ( [\-+] ) ( v+ )')
+        if match:
+            level = len(match.group(2))
+            if match.group(1) == '-':
+                self.http_verbose = level
+                ui.print(f'http client verbosity set to {level} ; disable with `/http +v`')
+            else:
+                self.http_verbose = 0
+                ui.print(f'http client verbosity disabled')
+            return
+
+        if ui.tokens.have(r'co(o(k(ie?)?)?)?$'):
+            title = 'cookie'
+            coll = self.http_client.cookies
+
+        elif ui.tokens.have(r'he(a(d(er?)?$)?)?'):
+            title = 'header'
+            coll = self.http_client.headers
+
+        else:
+            ui.print('Http client status:')
+            if self.http_verbose:
+                ui.print(f'🔊 verbose {self.http_verbose} ; change with /http -v|+v')
+            else:
+                ui.print('🔇 quiet ; change with /http -v')
+            ui.print(f'🍪 {len(self.http_client.cookies)} cookies ; inspect or change with /http cookie')
+            ui.print(f'🪦 {len(self.http_client.headers)} headers ; inspect or change with /http header')
+            return
+
+        name = next(ui.tokens, None)
+        if name is None:
+            ui.print(f'http {title}s:')
+            for name, value in coll.items():
+                ui.print(f'- {name}: {json.dumps(value)}')
+            return
+
+        if ui.tokens.empty:
+            value = coll.get(name)
+            ui.print(f'http {title} {name}: {json.dumps(value)}')
+            return
+
+        valstr = next(ui.tokens)
+        if valstr == '_':
+            ui.log(f'http {title}: {name} _')
+            del coll[name]
+            ui.print(f'http {title} {name}: <deleted>')
+            return
+
+        try:
+            value = cast(object, json.loads(valstr))
+            assert isinstance(value, str)
+        except Exception as e:
+            ui.print(f'! bad {title} value: {e}')
+            return
+
+        vs = json.dumps(value)
+        ui.log(f'http {title}: {name} {vs}')
+        coll[name] = value
+        ui.print(f'http {title} {name}: <set> {vs}')
+
     @property
     def origin(self):
         origin = self.site
@@ -1398,6 +1462,8 @@ class Search(StoredLog):
         cmds: dict[str, PromptUI.State] = {
             # TODO proper help command ; reuse for '?' token
             # TODO add '/' prefix here ; generalize dispatch
+
+            'http': self.do_http,
 
             'prog': self.show_prog,
             'tiers': self.show_tiers,
