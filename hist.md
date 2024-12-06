@@ -1675,3 +1675,7 @@ See log/squareword.org/#1039
 🫧 1 chat sessions
 ⁉️ 3 chat prompts
 🤖 3 chat replies
+
+# 2024-12-05 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1069
