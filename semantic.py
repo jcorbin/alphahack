@@ -170,8 +170,9 @@ def olm_find_model(client: ollama.Client, name: str):
 word_ref_pattern = re.compile(r'''(?x)
                                 \# ( \d+ )
                               | \$ ( [TtBb]? ) ( -? \d+ )
+                              | ~ ( \d+ )
                               ''')
-WordRef = Literal['$', '#']
+WordRef = Literal['$', '#', '~']
 WordDeref = Callable[[WordRef, int], str]
 
 def word_refs(s: str) -> Generator[tuple[WordRef, int]]:
@@ -183,7 +184,7 @@ def unroll_refs(s: str) -> Generator[str]:
         yield from unroll_word_match(match)
 
 def unroll_word_match(match: re.Match[str]):
-    nth, vartb, varn = match.groups()
+    nth, vartb, varn, recn = match.groups()
     if nth:
         yield f'#{nth}'
     elif vartb:
@@ -195,9 +196,11 @@ def unroll_word_match(match: re.Match[str]):
                 yield f'${-n}'
     elif varn:
         yield f'${varn}'
+    elif recn:
+        yield f'~{recn}'
 
 def word_match_refs(match: re.Match[str]) -> Generator[tuple[WordRef, int]]:
-    nth, vartb, varn = match.groups()
+    nth, vartb, varn, recn = match.groups()
     if nth:
         yield '#', int(nth)
     elif vartb:
@@ -209,6 +212,8 @@ def word_match_refs(match: re.Match[str]) -> Generator[tuple[WordRef, int]]:
                 yield '$', -n
     elif varn:
         yield '$', int(varn)
+    elif recn:
+        yield '~', int(recn)
 
 def expand_word_refs(s: str, deref: WordDeref):
     def repl(match: re.Match[str]):
@@ -282,12 +287,15 @@ class ChatPrompt:
 
         vars: list[int] = []
         ords: list[int] = []
+        recs: list[int] = []
         for k, n in word_refs(prompt):
             if k == '$': vars.append(n)
             elif k == '#': ords.append(n)
+            elif k == '~': recs.append(n)
             else: assert_never(k)
         self.vars = tuple(vars)
         self.ords = tuple(ords)
+        self.recs = tuple(recs)
 
         if not self.prompt:
             self.prompt = self.rebuild()
@@ -298,11 +306,12 @@ class ChatPrompt:
 
     @property
     def num_refs(self):
-        return len(self.vars) + len(self.ords)
+        return len(self.vars) + len(self.ords) + len(self.recs)
 
     def refs(self) -> Generator[tuple[WordRef, int]]:
         for n in self.vars: yield '$', n
         for n in self.ords: yield '#', n
+        for n in self.recs: yield '~', n
 
     def rebuild(self,
         count: int|None = None,
@@ -490,6 +499,7 @@ class Search(StoredLog):
         self.score: list[float] = []
         self.prog: dict[int, int] = dict()
         self.index: list[int] = []
+        self.recs: list[int] = []
 
         self.wordbad: set[str] = set()
         self.wordgood: dict[str, int] = dict()
@@ -1057,7 +1067,14 @@ class Search(StoredLog):
         for ix, i, desc in self.describe_prog(limit = limit):
             var = '<no-index>' if ix < 0 else f'${ix+1}'
             nth = f'#{i+1}'
-            yield f'    {var:>{iw}} {nth:>{iw}} {desc}'
+
+            try:
+                ri = self.recs.index(i)
+                rec = f'~{len(self.recs)-ri}'
+            except ValueError:
+                rec = ''
+
+            yield f'    {var:>{iw}} {nth:>{iw}} {rec:>{iw}} {desc}'
 
     def describe_prog(self, limit: int = 10):
         rem = [sum(1 for _ in words())-1 for _, words in self.tier_words()]
@@ -1641,7 +1658,7 @@ class Search(StoredLog):
                 return token if token.endswith("'") else f"{token}'"
 
         def ref(token: str):
-            if any(token.startswith(c) for c in '$#'):
+            if any(token.startswith(c) for c in '$#~'):
                 return token if len(token) > 1 else None
 
         clear = False
@@ -1954,6 +1971,7 @@ class Search(StoredLog):
         self.score.append(score)
         if prog is not None:
             self.prog[i] = prog
+            self.recs.append(i)
 
         self.index.append(i)
         self.index = sorted(self.index, key=lambda i: self.score[i], reverse=True)
@@ -2235,6 +2253,10 @@ class Search(StoredLog):
             i = n - 1
             return i, None, f'"{self.word[i]}"'
 
+        elif k == '~':
+            i = self.recs[len(self.recs)-n]
+            return i, None, f'"{self.word[i]}"'
+
         assert_never(k)
 
     def word_ref(self, k: WordRef, n: int):
@@ -2245,6 +2267,10 @@ class Search(StoredLog):
 
         elif k == '#':
             i = n - 1
+            return f'"{self.word[i]}"'
+
+        elif k == '~':
+            i = self.recs[len(self.recs)-n]
             return f'"{self.word[i]}"'
 
         assert_never(k)
@@ -2572,7 +2598,10 @@ class Search(StoredLog):
                     i, ix, qword = self.word_iref(k, n)
                     desc = self.describe_word(i, ix)
                     mark = '🪨' if qword in self.last_chat_basis else '🔥'
-                    ui.print(f'{mark} {desc}')
+                    remark = ''
+                    if k == '~': remark = f'{k}{n}'
+                    if remark: remark = f' // {remark}'
+                    ui.print(f'{mark} {desc}{remark}')
 
     def chat_clear_cmd(self, ui: PromptUI):
         ui.print('cleared chat 🪙 = 0')
@@ -2820,6 +2849,7 @@ def test_chat_prompts(spec: MarkedSpec):
     terms: list[str] =  []
     terms.extend(f'${n}' for n in cp.vars)
     terms.extend(f'#{n}' for n in cp.ords)
+    terms.extend(f'~{n}' for n in cp.recs)
     assert cp.rebuild(like=terms) == expect_rebuild
 
 @MarkedSpec.mark('''
@@ -2954,6 +2984,18 @@ def test_word_extraction(spec: MarkedSpec):
     > *15 similar t3 // NOTE trailing space before comment was regression cause
     - prior: give me 9 French words that are seen with $1; do not list any words that you have already listed above
     - prompt: give me 15 French words that are similar to $1, $2, and $3; do not list any words that you have already listed above
+    - clear: false
+
+    #rec_ref
+    > *9 ~1
+    - prior: give me 10 French words that are seen with $1 and $2
+    - prompt: give me 9 French words that are seen with ~1
+    - clear: false
+
+    #rec_refs
+    > * ~1 ~2 $1 $2 related to
+    - prior: give me 10 French words that are seen with $1 and $2
+    - prompt: give me 20 French words that are related to ~1, ~2, $1, and $2
     - clear: false
 
 ''')
