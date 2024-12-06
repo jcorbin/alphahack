@@ -49,6 +49,7 @@ class StoredLog:
 
     dt_fmt: str = '%Y-%m-%dT%H:%M:%S%Z'
     default_site: str = ''
+    site_name: str = ''
 
     ### @override-able surface for extension
 
@@ -363,7 +364,7 @@ class StoredLog:
             if store_file:
                 self.storing_file = store_file
 
-            with git_txn(f'{self.store_name} day {puzzle_id}') as txn:
+            with git_txn(f'{self.site_name or self.store_name} day {puzzle_id}') as txn:
                 self.store_extra(ui, txn)
 
                 if self.hist_file:
@@ -431,10 +432,14 @@ class StoredLog:
         yield from self.report_body
 
     def report_header(self, desc: str|None = None) -> str:
-        return f'# {self.site} 🧩 {self.puzzle_id} {self.report_desc if desc is None else desc}'
+        return f'# {self.site_link} 🧩 {self.puzzle_id} {self.report_desc if desc is None else desc}'
+
+    @property
+    def site_link(self):
+        return f'[{self.site_name}]({self.site})' if self.site_name else '{self.site}'
 
     def report_note(self, desc: str|None = None) -> str:
-        return  f'- 🔗 {self.site} 🧩 {self.puzzle_id} {self.report_desc if desc is None else desc}'
+        return  f'- 🔗 {self.site_link} 🧩 {self.puzzle_id} {self.report_desc if desc is None else desc}'
 
     def do_report(self, ui: PromptUI):
         head_id = self.report_header(desc='')
