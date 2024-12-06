@@ -311,6 +311,14 @@ class StoredLog:
         return self.log_file.startswith(self.store_dir)
 
     @property
+    def store_name(self):
+        site = self.site
+        if '://' in site:
+            _, _, site = site.partition('://')
+        site = site.replace('/', '_')
+        return site
+
+    @property
     def should_store_to(self):
         if not self.store_dir: return None
         puzzle_id = self.puzzle_id
@@ -318,7 +326,7 @@ class StoredLog:
             date = self.today
             if date is None: return None
             puzzle_id = f'{date:%Y-%m-%d}'
-        return os.path.join(self.store_dir, self.site, puzzle_id)
+        return os.path.join(self.store_dir, self.store_name, puzzle_id)
 
     def store_txn(self, ui: PromptUI):
         if not self.run_done:
@@ -355,7 +363,7 @@ class StoredLog:
             if store_file:
                 self.storing_file = store_file
 
-            with git_txn(f'{self.site} day {puzzle_id}') as txn:
+            with git_txn(f'{self.store_name} day {puzzle_id}') as txn:
                 self.store_extra(ui, txn)
 
                 if self.hist_file:
