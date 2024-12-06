@@ -304,7 +304,7 @@ class MarkedSpec:
                                                        - \s+ ( [^\s]+ ) :
                                                      | ( \d+ ) [.)]
                                                    )
-                                                   \s+ ( .+? )
+                                                   (?: \s+ ( .+? ) )?
                                                    $
                                                ''')
 
@@ -348,7 +348,7 @@ class MarkedSpec:
         for _ in lines.consume(self.id_pattern): pass
         for _ in lines.consume(self.input_pattern): pass
         for match in lines.consume(self.prop_pattern):
-            value = cast(str, match.group(3))
+            value = cast(str, match.group(3) or '')
             if value == '```':
                 first = next(lines)
                 indent, first = first_indent(first)
