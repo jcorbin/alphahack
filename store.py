@@ -77,8 +77,10 @@ class StoredLog:
     def hist_body(self, _ui: PromptUI) -> Generator[str]:
         yield f'See {self.storing_file}'
 
-    def review(self, _ui: PromptUI) -> PromptUI.State|None:
-        raise NotImplementedError('StoredLog.review')
+    def review(self, ui: PromptUI) -> PromptUI.State|None:
+        with ui.input(f'> ') as tokens:
+            if tokens.have(r'report$'):
+                return self.do_report(ui)
 
     def load(self, ui: PromptUI, lines: Iterable[str]):
         prior_t: float|None = None
