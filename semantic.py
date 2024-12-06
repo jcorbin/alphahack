@@ -352,7 +352,14 @@ def phrase_rel(rel: str, neg: bool = False):
     rel = f'that {rel}'
     return rel
 
-def word_list_parts(words: Sequence[str], sep: str, fin: str):
+def word_list_parts(iwords: Iterable[str], sep: str, fin: str):
+    swords: set[str] = set()
+    words: list[str] = []
+    for word in iwords:
+        if word not in swords:
+            swords.add(word)
+            words.append(word)
+
     n = len(words)
     for i, word in enumerate(words):
         if n > 2 and i > 0: yield sep
