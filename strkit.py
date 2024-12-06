@@ -266,6 +266,14 @@ def uncomment_lines(lines: Iterable[str]):
 
 class MarkedSpec:
     @classmethod
+    def mark(cls, spec: str):
+        import pytest
+        specs = MarkedSpec.iterspecs(spec)
+        def decorator(fn: Callable[[MarkedSpec], None]):
+            return pytest.mark.parametrize('spec', specs, ids=MarkedSpec.get_id)(fn)
+        return decorator
+
+    @classmethod
     def iterlines(cls, spec: str):
         lines = spliterate(spec, '\n')
         lines = trimlines(lines)
