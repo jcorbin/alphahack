@@ -1719,3 +1719,7 @@ See log/play.dictionary.com_games_todays-hurdle/#1069
 
 🔗 alphaguess.com
 ```
+
+# 2024-12-06 squareword.org
+
+See log/squareword.org/#1040
