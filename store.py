@@ -8,7 +8,8 @@ from contextlib import contextmanager
 from dataclasses import dataclass
 from dateutil.parser import parse as parse_datetime
 from dateutil.tz import tzlocal
-from typing import cast, final, Any
+from typing import cast, final
+from types import TracebackType
 
 from mdkit import break_sections, replace_sections
 from ui import PromptUI
@@ -488,7 +489,12 @@ class git_txn:
     def __enter__(self):
         return self
 
-    def __exit__(self, exc_type: Any, exc: Any, exc_tb: Any): # pyright: ignore[reportAny]
+    def __exit__(
+        self,
+        exc_type: type[BaseException] | None,
+        exc: BaseException | None,
+        exc_tb: TracebackType | None,
+    ):
         if self.added:
             if exc is None:
                 _ = subprocess.check_call(['git', 'commit', '-m', self.mess])
