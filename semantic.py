@@ -2669,9 +2669,7 @@ class Search(StoredLog):
 
 ### tests
 
-import pytest
-
-@pytest.mark.parametrize('spec', list(MarkedSpec.iterspecs('''
+@MarkedSpec.mark('''
 
     #cemantle
     > <div id="cemantle-summary" style="display:run-in">
@@ -2729,7 +2727,7 @@ import pytest
     - expect: 🥶 0
     - expect: 🧊 -100
 
-''')), ids=MarkedSpec.get_id)
+''')
 def test_scrape_scale_row(spec: MarkedSpec):
     expect: list[tuple[str, float]] = []
     for name, value in spec.props:
@@ -2752,7 +2750,7 @@ def test_scrape_scale_row(spec: MarkedSpec):
             raise
     assert have == expect
 
-@pytest.mark.parametrize('spec', list(MarkedSpec.iterspecs('''
+@MarkedSpec.mark('''
     > _
     - rebuild: give me 10 words that are not related to each other
 
@@ -2813,7 +2811,7 @@ def test_scrape_scale_row(spec: MarkedSpec):
     // TODO give me 5 French words that are related to $t2
     // TODO give me 15 French words that are related to $t3
     // TODO give me 5 French words that are related to $t3
-''')), ids=MarkedSpec.get_id)
+''')
 def test_chat_prompts(spec: MarkedSpec):
     prompt = spec.input
     if prompt == '_': prompt = ''
@@ -2857,7 +2855,7 @@ def test_chat_prompts(spec: MarkedSpec):
     terms.extend(f'#{n}' for n in cp.ords)
     assert cp.rebuild(like=terms) == expect_rebuild
 
-@pytest.mark.parametrize('spec', list(MarkedSpec.iterspecs('''
+@MarkedSpec.mark('''
 
     #french_10_rng
     > Here are 10 French words that do not typically appear together:
@@ -2922,7 +2920,7 @@ def test_chat_prompts(spec: MarkedSpec):
     14. Papillon Papillon de Néphésis
     15. Manteau Écharpe
 
-''')), ids=MarkedSpec.get_id)
+''')
 def test_word_extraction(spec: MarkedSpec):
     expected: list[tuple[int, str]] = []
     for key, value in spec.props:
@@ -2936,7 +2934,7 @@ def test_word_extraction(spec: MarkedSpec):
         for nword in find_match_words(line.strip())
     ] == expected
 
-@pytest.mark.parametrize('spec', list(MarkedSpec.iterspecs('''
+@MarkedSpec.mark('''
 
     #init_10
     > *
@@ -2991,7 +2989,7 @@ def test_word_extraction(spec: MarkedSpec):
     - prompt: give me 15 French words that are similar to $1, $2, and $3; do not list any words that you have already listed above
     - clear: false
 
-''')), ids=MarkedSpec.get_id)
+''')
 def test_gen_prompt(spec: MarkedSpec):
     input = spec.input
     prior = ''
