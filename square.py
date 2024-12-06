@@ -502,9 +502,6 @@ class Search(StoredLog):
             if tokens.have(r'report$'):
                 return self.do_report(ui)
 
-    def info(self):
-        yield f'📜 {len(self.sessions)} sessions'
-
     @property
     @override
     def report_desc(self) -> str:
@@ -516,7 +513,7 @@ class Search(StoredLog):
     @property
     @override
     def report_body(self) -> Generator[str]:
-        yield from self.info()
+        yield from super().report_body
 
         yield ''
         yield 'Guesses:'

@@ -422,9 +422,12 @@ class StoredLog:
     def report_desc(self) -> str:
         return  f'⏱️ {self.elapsed}'
 
+    def info(self):
+        yield f'📜 {len(self.sessions)} sessions'
+
     @property
     def report_body(self) -> Generator[str]:
-        yield ''
+        yield from self.info()
 
     def report_section(self) -> Generator[str]:
         yield self.report_header()

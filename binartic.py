@@ -760,6 +760,7 @@ class Search(StoredLog):
             # TODO other command dispatch like /report
             # TODO crib from / generalize semantic.Search.do_cmd
 
+    @override
     def info(self):
         yield f'🤔 {len(self.quest)} attempts'
         yield f'📜 {len(self.sessions)} sessions'

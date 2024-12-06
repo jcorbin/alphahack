@@ -999,6 +999,7 @@ class Search(StoredLog):
         for ix in index:
             ui.print(f'    {self.describe_word(self.index[ix], ix=ix)}')
 
+    @override
     def info(self):
         yield f'🤔 {self.attempt} attempts'
         yield f'📜 {len(self.sessions)} sessions'
