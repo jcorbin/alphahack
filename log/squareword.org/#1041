@@ -1,0 +1,115 @@
+T0.0001354580163024366 now: 2024-12-07T09:33:32EST
+T0.00018072902457788587 site: squareword.org
+T0.9782841550186276 📜 nwl2023.txt ? 
+T0.9784222319722176 wordlist: nwl2023.txt
+T9.720173880981747 🧩  ? #1041
+T9.720810731989332 puzzle_id: #1041
+T10.929763968975749 > *
+T11.022487370995805 questioning: ["sizar", "#5 found:7192 hypo:11881376"]
+T16.54724448302295 sizar ( #5 found:7192 hypo:11881376 ) ? .
+T16.54741376801394 guess: sizar
+T20.90641052997671 sizar ( #5 found:7192 hypo:11881376 ) > 1 ~ r
+T20.90801105101127 word: 0 _____
+T20.908053949009627 may: 0 r
+T23.603234746027738 sizar ( #5 found:7192 hypo:11881376 ) > 2 ____r
+T23.603428110014647 word: 1 ____r
+T23.603449227986857 may: 1 
+T28.013477739994414 sizar ( #5 found:7192 hypo:11881376 ) > 3 _i___ ~ ia
+T28.013710931991227 word: 2 _i___
+T28.013732974010054 may: 2 a i
+T31.350930090993643 sizar ( #5 found:7192 hypo:11881376 ) > 5 ~ sar
+T31.35115278698504 word: 4 _____
+T31.35117529798299 may: 4 a r s
+T33.3633078209823 sizar ( #5 found:7192 hypo:11881376 ) > 
+T33.363459950021934 question done
+T35.91568527999334 > /no z
+T35.91618348198244 nope: z
+T37.48548437899444 > *
+T37.88198683701921 questioning: ["oidia", "#3 found:6 hypo:1250"]
+T44.218289239972364 oidia ( #3 found:6 hypo:1250 ) ? .
+T44.218419687997084 guess: oidia
+T48.94473529199604 oidia ( #3 found:6 hypo:1250 ) > 1 o____
+T48.9449346960173 word: 0 o____
+T48.944956096005626 may: 0 r
+T52.30760529899271 oidia ( #3 found:6 hypo:1250 ) > 2 ~ o
+T52.30768741900101 word: 1 ____r
+T52.307695560972206 may: 1 o
+T57.64756963698892 oidia ( #3 found:6 hypo:1250 ) > 3 _i_ia
+T57.64778689399827 word: 2 _i_ia
+T57.64780601300299 may: 2 
+T61.34949539601803 oidia ( #3 found:6 hypo:1250 ) > 
+T61.349633159989025 question done
+T63.0161069650203 > /no d
+T63.01627413899405 nope: d z
+T63.72597868501907 > *
+T64.15257718000794 questioning: ["vigia", "#3 found:4 hypo:576"]
+T70.54652633902151 vigia ( #3 found:4 hypo:576 ) ? .
+T70.54665450501489 guess: vigia
+T73.68034973397152 vigia ( #3 found:4 hypo:576 ) > 1 ~ v
+T73.68046352599049 word: 0 o____
+T73.68047232099343 may: 0 v
+T78.61521064699627 vigia ( #3 found:4 hypo:576 ) > 4 ~ g
+T78.61539250402711 word: 3 _____
+T78.61542177398223 may: 3 g
+T85.61017812602222 vigia ( #3 found:4 hypo:576 ) > 
+T85.61029214598238 question done
+T86.5086817520205 > *
+T86.61194710200652 questioning: ["tibia", "#3 found:3 hypo:576"]
+T91.07623934798175 tibia ( #3 found:3 hypo:576 ) ? .
+T91.0763763320283 guess: tibia
+T92.71125767298508 tibia ( #3 found:3 hypo:576 ) > 3 tibia
+T92.7115174800274 word: 2 tibia
+T92.71155317500234 may: 2 
+T95.29668751102872 tibia ( #3 found:3 hypo:576 ) > 5 t____
+T95.29694805800682 word: 4 t____
+T95.29698151297634 may: 4 a r s
+T100.86526570498245 tibia ( #3 found:3 hypo:576 ) > 1 ~ r v t
+T100.86555871699238 word: 0 o____
+T100.86560287198517 may: 0 r t v
+T103.39219295600196 tibia ( #3 found:3 hypo:576 ) > 
+T103.39231746899895 question done
+T104.12280574097531 > *
+T104.29772995697567 questioning: ["overt", "#1 found:1 hypo:144"]
+T107.60605318198213 overt ( #1 found:1 hypo:144 ) ? .
+T107.60620136401849 guess: overt
+T108.73041871900205 overt ( #1 found:1 hypo:144 ) > 1 overt
+T108.730674661987 word: 0 overt
+T108.73069683002541 may: 0 
+T123.04180339199957 overt ( #1 found:1 hypo:144 ) > 4 __e__ ~ ge
+T123.04203351901378 word: 3 __e__
+T123.04206937801791 may: 3 e g
+T126.64508669101633 overt ( #1 found:1 hypo:144 ) > 2 ~ oe
+T126.64520806702785 word: 1 ____r
+T126.64522259699879 may: 1 e o
+T128.53051583998604 overt ( #1 found:1 hypo:144 ) > 
+T128.53063760499936 question done
+T130.09285250399262 > *
+T130.70777273300337 questioning: ["comer", "#2 found:1 hypo:1152"]
+T136.35521792899817 comer ( #2 found:1 hypo:1152 ) ? .
+T136.3553174629924 guess: comer
+T137.84889302001102 comer ( #2 found:1 hypo:1152 ) > 2 comer
+T137.849078594998 word: 1 comer
+T137.84910011198372 may: 1 
+T150.09893575601745 comer ( #2 found:1 hypo:1152 ) > 
+T150.09902712900657 question done
+T151.2551279849722 > *
+T151.68270564300474 questioning: ["elegy", "#4 found:1 hypo:1152"]
+T156.19301627099048 elegy ( #4 found:1 hypo:1152 ) ? .
+T156.1931512230076 guess: elegy
+T158.24335769802565 elegy ( #4 found:1 hypo:1152 ) > 4 elegy
+T158.24356595502468 word: 3 elegy
+T158.24359071499202 may: 3 
+T160.67228246701416 elegy ( #4 found:1 hypo:1152 ) > 
+T160.6724206529907 question done
+T161.3831745450152 > *
+T161.79972284298856 questioning: ["tarns", "#5 found:1 hypo:144"]
+T169.7332186009735 tarns ( #5 found:1 hypo:144 ) ? .
+T169.73334961902583 guess: tarns
+T174.0377637540223 tarns ( #5 found:1 hypo:144 ) > 5 tarns
+T174.03799341898412 word: 4 tarns
+T174.038023651985 may: 4 
+T175.68934116698802 tarns ( #5 found:1 hypo:144 ) > 
+T175.68943654501345 question done
+T179.19233755598543 Copy share result and press <Enter>
+T179.19662850897294 result: "squareword.org 1041: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1041"
+T179.19669178902404 <STOP>
