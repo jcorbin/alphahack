@@ -281,32 +281,6 @@ class StoredLog:
         self.hist_file = cast(str, args.store_hist)
         self.site = self.default_site = cast(str, args.site)
 
-    def store(self, ui: PromptUI) -> PromptUI.State|None:
-        if self.stored:
-            want_log_file = self.should_store_to
-            if want_log_file and self.log_file == want_log_file:
-                return self.review
-
-        if not (self.run_done or self.is_expired):
-            ui.print('! declining to store unfinished and unexpired log')
-            raise StopIteration
-
-        if not self.site:
-            with ui.input('🔗 site ? ') as tokens:
-                site = next(tokens, '')
-                if site:
-                    ui.log(f'site: {site}')
-                    self.site = site
-
-        if not self.puzzle_id:
-            with ui.input('🧩 id ? ') as tokens:
-                puzzle_id = next(tokens, '')
-                if puzzle_id:
-                    ui.log(f'puzzle_id: {puzzle_id}')
-                    self.puzzle_id = puzzle_id
-
-        self.store_txn(ui)
-
     @property
     def stored(self):
         if not self.store_dir: return False
@@ -331,12 +305,27 @@ class StoredLog:
             puzzle_id = f'{date:%Y-%m-%d}'
         return os.path.join(self.store_dir, self.store_name, puzzle_id)
 
-    def store_txn(self, ui: PromptUI):
-        if not self.run_done:
+    def store(self, ui: PromptUI) -> PromptUI.State|None:
+        if not self.store_dir and not self.hist_file:
+            ui.print('! no store dir or hist file set')
             raise StopIteration
 
-        if not self.store_dir and not self.hist_file:
+        if self.stored:
+            want_log_file = self.should_store_to
+            if want_log_file and self.log_file == want_log_file:
+                return self.review
+            ui.print(f'Fixing stored log file name {self.log_file} -> {want_log_file}')
+
+        if not (self.run_done or self.is_expired):
+            ui.print('! declining to store unfinished and unexpired log')
             raise StopIteration
+
+        if not self.site:
+            with ui.input('🔗 site ? ') as tokens:
+                site = next(tokens, '')
+                if not site: return
+                ui.log(f'site: {site}')
+                self.site = site
 
         date = self.today
         if date is None:
@@ -350,21 +339,24 @@ class StoredLog:
                         return
 
         puzzle_id = self.puzzle_id
+
         if not puzzle_id:
-            puzzle_id = f'{date:%Y-%m-%d}'
+            default_puzzle_id = f'{date:%Y-%m-%d}'
+            with ui.input('🧩 id (default: {default_puzzle_id}) ? ') as tokens:
+                puzzle_id = next(tokens, '')
+                if puzzle_id:
+                    ui.log(f'puzzle_id: {puzzle_id}')
+                    self.puzzle_id = puzzle_id
+                else:
+                    puzzle_id = default_puzzle_id
 
-        store_file = self.should_store_to
+        ui.print(f'🔗 {self.site} 🧩 {puzzle_id} 📆 {date:%Y-%m-%d}')
 
-        ui.print(f'🔗 {self.site}')
-        ui.print(f'🧩 {puzzle_id}')
-        ui.print(f'📆 {date:%Y-%m-%d}')
+        self.storing_file = self.should_store_to or ''
 
         try:
             log_stored = False
             log_removed = False
-
-            if store_file:
-                self.storing_file = store_file
 
             with git_txn(f'{self.site_name or self.store_name} day {puzzle_id}') as txn:
                 self.store_extra(ui, txn)
@@ -377,11 +369,11 @@ class StoredLog:
                     txn.add(self.hist_file)
                     ui.print(f'📜 {self.hist_file}')
 
-                if self.log_file and store_file:
+                if self.log_file and self.storing_file:
+                    ensure_parent_dir(self.storing_file)
+                    os.link(self.log_file, self.storing_file)
                     log_stored = True
-                    ensure_parent_dir(store_file)
-                    os.link(self.log_file, store_file)
-                    txn.add(store_file)
+                    txn.add(self.storing_file)
 
                 if self.stored:
                     _ = subprocess.check_call(['git', 'rm', self.log_file])
@@ -391,7 +383,7 @@ class StoredLog:
                 if not log_removed:
                     os.unlink(self.log_file)
                 self.log_file = self.storing_file
-                ui.print(f'🗃️ {store_file}')
+                ui.print(f'🗃️ {self.storing_file}')
                 self.reload(ui, self.log_file)
 
         finally:
@@ -405,6 +397,7 @@ class StoredLog:
             token = next(tokens, '').lower()
 
             if 'archive'.startswith(token):
+                ui.print('Archiving expired log')
                 return self.store
 
             elif 'remove'.startswith(token):
