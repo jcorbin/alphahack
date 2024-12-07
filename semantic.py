@@ -765,7 +765,7 @@ class Search(StoredLog):
 
     @override
     def review(self, ui: PromptUI):
-        if self.result is None: return self.orient
+        if self.result is None and not self.stored: return self.orient
         self.show_result(ui)
         return self.do_cmd
 
