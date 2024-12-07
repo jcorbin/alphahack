@@ -140,6 +140,18 @@ class StoredLog:
                 self.site = token
                 continue
 
+            match = re.match(r'''(?x)
+                puzzle_id :
+                \s+
+                (?P<token> [^\s]+ )
+                \s* ( .* )
+                $''', rest)
+            if match:
+                token, rest = match.groups()
+                assert rest == ''
+                self.puzzle_id = token
+                continue
+
             yield t, rest
 
         if prior_then is not None and cur_t is not None:
@@ -187,6 +199,8 @@ class StoredLog:
     def run(self, ui: PromptUI) -> PromptUI.State|None:
         if self.start is None:
             self.start = datetime.datetime.now(tzlocal())
+            if self.site: ui.log(f'site: {self.site}')
+            if self.puzzle_id: ui.log(f'puzzle_id: {self.puzzle_id}')
 
         ui.print(f'📜 {self.log_file} with {len(self.sessions)} prior sessions over {self.elapsed}')
 

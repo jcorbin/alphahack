@@ -797,18 +797,6 @@ class Search(StoredLog):
                 continue
 
             match = re.match(r'''(?x)
-                puzzle_id :
-                \s+
-                (?P<token> [^\s]+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                token, rest = match.groups()
-                assert rest == ''
-                self.puzzle_id = token
-                continue
-
-            match = re.match(r'''(?x)
                 scale :
                 \s+ (?P<tier> 🧊|🥶|😎|🥵|🔥|😱|🥳 )
                 \s+ (?P<temp> [^\s]+ )
