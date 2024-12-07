@@ -2617,38 +2617,41 @@ class Search(StoredLog):
         self.chat_clear(ui)
 
     def select_model(self, ui: PromptUI):
-        with ui.tokens as tokens:
-            byn: list[str] = []
-            while True:
-                if not tokens.empty:
-                    mod = ''
+        try:
+            with ui.tokens as tokens:
+                byn: list[str] = []
+                while True:
+                    if not tokens.empty:
+                        mod = ''
 
-                    n = tokens.have(r'\d+$', lambda m: int(m[0]))
-                    if n is not None:
-                        try:
-                            mod = byn[n-1]
-                        except IndexError:
-                            ui.print(f'! invalid list number')
+                        n = tokens.have(r'\d+$', lambda m: int(m[0]))
+                        if n is not None:
+                            try:
+                                mod = byn[n-1]
+                            except IndexError:
+                                ui.print(f'! invalid list number')
 
-                    else:
-                        mod = next(tokens)
-
-                    if mod:
-                        try:
-                            mod = olm_find_model(self.llm_client, mod)
-                        except RuntimeError:
-                            ui.print(f'! unavailable model {mod!r}')
                         else:
-                            return mod
+                            mod = next(tokens)
 
-                ui.br()
-                ui.print(f'Available Models:')
-                byn = sorted(get_olm_models(self.llm_client))
-                for i, m in enumerate(byn):
-                    mark = '*' if m == self.llm_model else ' '
-                    ui.print(f'{i+1}. {mark} {m}')
+                        if mod:
+                            try:
+                                mod = olm_find_model(self.llm_client, mod)
+                            except RuntimeError:
+                                ui.print(f'! unavailable model {mod!r}')
+                            else:
+                                return mod
 
-                tokens.raw = ui.raw_input('Select model (by name or number)> ')
+                    ui.br()
+                    ui.print(f'Available Models:')
+                    byn = sorted(get_olm_models(self.llm_client))
+                    for i, m in enumerate(byn):
+                        mark = '*' if m == self.llm_model else ' '
+                        ui.print(f'{i+1}. {mark} {m}')
+
+                    tokens.raw = ui.raw_input('Select model (by name or number)> ')
+        except KeyboardInterrupt:
+            return
 
     def chat_model_cmd(self, ui: PromptUI):
         model = self.select_model(ui)
