@@ -441,7 +441,7 @@ class StoredLog:
 
     @property
     def site_link(self):
-        return f'[{self.site_name}]({self.site})' if self.site_name else '{self.site}'
+        return f'[{self.site_name}]({self.site})' if self.site_name else f'{self.site}'
 
     def report_note(self, desc: str|None = None) -> str:
         return  f'- 🔗 {self.site_link} 🧩 {self.puzzle_id} {self.report_desc if desc is None else desc}'
