@@ -1437,9 +1437,20 @@ class Search(StoredLog):
         ui.print(f'🗃️ {self.log_file}')
 
     def yesterreq(self, ui: PromptUI):
-        if not self.found:
-            # TODO scrape from today puzzle html
-            raise ValueError('no word found yesterday to request')
+        def scrape():
+            ui.write('Scraping index...')
+            res = self.request(ui, 'get', '/')
+            if res.status_code != 200:
+                ui.fin(f'failed: {res.status_code} {res.reason}')
+            elif res.headers.get('Content-Type', '').partition(';')[0] != 'text/html':
+                ui.fin(f'failed: expected text/html content, got {res.headers.get("Content-Type", "")}')
+            else:
+                soup = bs4.BeautifulSoup(res.content, 'html5lib')
+                # <a id="cemantix-yesterday"><b><u>paire</u></b></a>
+                # <a id="cemantle-yesterday"><b><u>suite</u></b></a>
+                for q in ('#cemantix-yesterday', '#cemantle-yesterday'):
+                    yea = soup.select_one(q)
+                    if yea: return yea.text
 
         def extract(dat: object):
             if not isinstance(dat, list):
@@ -1462,8 +1473,11 @@ class Search(StoredLog):
                     raise ValueError(f'invalid response[{i}] [2] socre')
                 yield word, prog, float(score)
 
-        yesterword = self.word[self.found]
-        ui.write('Scraping yesterdat from /nearby...')
+        yesterword = self.word[self.found] if self.found else scrape()
+        if not yesterword:
+            raise ValueError('no word found yesterday to request')
+
+        ui.write(f'Scraping yesterdat from /nearby word={yesterword}...')
         res = self.request(ui, 'post', '/nearby', data={'word': yesterword})
         data = list(extract(cast(object, res.json())))
         return self.yesterdat(ui, yesterword, (
