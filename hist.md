@@ -1727,3 +1727,26 @@ See log/squareword.org/#1040
 # 2024-12-06 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1070
+
+# 2024-12-05 cemantix.certitudes.org
+
+```
+😦 No result
+    $1 #219 chaussure        47.95°C 😱  999‰
+    $2 #248 chaussette       45.50°C 🔥  998‰
+    $3 #225 bottine          41.40°C 🔥  990‰
+    $4 #554 mocassin         39.07°C 🥵  988‰
+    $5 #286 chausson         37.67°C 🥵  981‰
+    $6 #265 collant          37.51°C 🥵  980‰
+    $7 #584 ballerine        35.95°C 🥵  971‰
+    $22 #612 épaulette        30.74°C 😎  874‰
+    $74 #144 cravate          22.38°C 🥶
+    $721 #1 bougainvillier   -0.04°C 🧊
+⏱️ 5:00:51.261153
+```
+
+🤔 860 attempts
+📜 16 sessions
+🫧 29 chat sessions
+⁉️ 118 chat prompts
+🤖 112 chat replies
