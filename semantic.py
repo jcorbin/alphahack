@@ -1618,7 +1618,7 @@ class Search(StoredLog):
 
         self.chat_extract_scav = False
         if any(self.chat_extract_words()):
-            return self.chat_extract
+            return self.chat_extract_all
 
         return self.ideate
 
@@ -1792,8 +1792,21 @@ class Search(StoredLog):
 
         with self.prompt(ui, '? ') as tokens:
             if tokens.empty:
+
                 if self.attempt == 0 and not self.chat:
                     return self.generate(ui)
+
+                if self.is_last_chat_invalid():
+                    return self.chat_prompt(ui, '_')
+
+                self.chat_extract_scav = False
+                if any(self.chat_extract_words()):
+                    return self.chat_extract_all
+
+                self.chat_extract_scav = True
+                if any(self.chat_extract_words()):
+                    return self.chat_extract_all
+
                 return
 
             if tokens.peek('').startswith('!'):
@@ -2344,7 +2357,7 @@ class Search(StoredLog):
 
             self.chat_extract_scav = False
             if any(self.chat_extract_words()):
-                return self.chat_extract
+                return self.chat_extract_all
 
             ui.print(f'// No new words extracted from {self.chat_extract_desc}')
 
@@ -2602,6 +2615,13 @@ class Search(StoredLog):
                     if k == '~': remark = f'{k}{n}'
                     if remark: remark = f' // {remark}'
                     ui.print(f'{mark} {desc}{remark}')
+
+    def is_last_chat_invalid(self):
+        if isinstance(self.last_chat_prompt, ChatPrompt):
+            return not all(
+                self.word_ref(k, n) in self.last_chat_basis
+                for k, n in self.last_chat_prompt.refs())
+        return False
 
     def chat_clear_cmd(self, ui: PromptUI):
         ui.print('cleared chat 🪙 = 0')
