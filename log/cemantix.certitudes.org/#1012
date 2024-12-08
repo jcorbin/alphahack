@@ -1,0 +1,646 @@
+T0.0048162659995796275 now: 2024-12-07T19:33:38EST
+T0.004870564999691851 site: cemantix.certitudes.org
+T0.007860734000132652 request: {"method": "GET", "url": "https://cemantix.certitudes.org/", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantix.certitudes.org", "Referer": "https://cemantix.certitudes.org/"}, "data": null}
+T0.5040665979995538 response: {"url": "https://cemantix.certitudes.org/", "status": 200, "reason": "OK", "headers": {"server": "Fly/a2b2295bb (2024-12-06)", "date": "Sun, 08 Dec 2024 00:41:56 GMT", "connection": "keep-alive", "content-type": "text/html; charset=utf-8", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JEHVEG7KV0GEF6T51P3PP70M-lga"}, "content": "<!DOCTYPE html>\n<html lang=\"fr\">\n\t<head>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t<meta name=\"description\" content=\"Trouvez le mot secret en essayant de vous en approcher le plus possible s\u00e9mantiquement.\">\n\t<meta property=\"og:title\" content=\"c\u00e9mantix - Trouvez le mot secret&nbsp;!\">\n\t<meta property=\"og:description\" content=\"Trouvez le mot secret en essayant de vous en approcher le plus possible s\u00e9mantiquement.\">\n\t<meta property=\"og:type\" content=\"website\">\n\t<meta property=\"og:image\" content=\"https://static.certitudes.org/images/cemantix.png\">\n\t<meta property=\"og:url\" content=\"https://cemantix.certitudes.org/\">\n\t<meta property=\"og:site_name\" content=\"c\u00e9mantix\">\n\t<title id=\"app-title\">c\u00e9mantix</title>\n\t<link rel=\"stylesheet\" href=\"https://static.certitudes.org/html/cemantix.css\">\n\t<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/icon?family=Material+Icons\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"https://static.certitudes.org/images/cemantix-32x32.png\">\n\t<link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"https://static.certitudes.org/images/cemantix-16x16.png\">\n\t<link rel=\"apple-touch-icon\" href=\"https://static.certitudes.org/images/cemantix-192x192.png\">\n\t<link rel=\"apple-touch-icon-precomposed\" href=\"https://static.certitudes.org/images/cemantix-192x192.png\">\n\t<link rel=\"apple-touch-icon-120x120\" href=\"https://static.certitudes.org/images/cemantix-192x192.png\">\n\t<link rel=\"apple-touch-icon-120x120-precomposed\" href=\"https://static.certitudes.org/images/cemantix-192x192.png\">\n\t<link rel=\"apple-touch-icon-152x152\" href=\"https://static.certitudes.org/images/cemantix-192x192.png\">\n\t<link rel=\"apple-touch-icon-152x152-precomposed\" href=\"https://static.certitudes.org/images/cemantix-192x192.png\">\n\t<link rel=\"manifest\" href=\"https://static.certitudes.org/html/cemantix.webmanifest\">\n\t<script id=\"cemantix-script\" type=\"module\" src=\"https://static.certitudes.org/html/cemantix.js\" data-puzzle-number=\"1012\" data-utc-time=\"1733526000\" data-app=\"cemantix\"></script>\n\t<script id=\"pedantix-script\" type=\"module\" src=\"https://static.certitudes.org/html/pedantix.js\" data-puzzle-number=\"939\" data-utc-time=\"1733482800\" data-app=\"cemantix\"></script>\n\t<base target=\"_blank\">\n\t</head>\n\t<body>\n\t<div id=\"dialog-underlay\">\n\t\t<div aria-modal=\"true\" role=\"dialog\" id=\"dialog\">\n\t\t\t<a id=\"dialog-close\" aria-label=\"Fermer\">&times;</a>\n\t\t\t<div class=\"dialog-content\" id=\"cloud\">\n\t\t\t\t<h3>Collaborer</h3>\n\t\t\t\t<div id=\"team-collab\">\n\t\t\t\t<p>Vous pouvez collaborer en \u00e9quipe sur une partie en g\u00e9n\u00e9rant un code \u00e0 partager. Les utilisateurs de ce code recevront les mots du top 1000 que vous trouverez, et vous recevrez les leurs. Le code est valable pour la journ\u00e9e.<br>\n\t\t\t\tCette fonctionnalit\u00e9 utilise des ressources en quantit\u00e9 limit\u00e9e, par cons\u00e9quent :</p><ul><li>Il ne sert \u00e0 rien de cr\u00e9er une \u00e9quipe juste avant minuit, elle sera perdue le moment venu.</li><li>Ne partagez pas le code publiquement sur les r\u00e9seaux sociaux !</li><li>Merci de jouer le jeu \ud83d\ude42</li></ul>\n\t\t\t\t<p class=\"headline\" id=\"start-team\">Cr\u00e9er une \u00e9quipe : <input type=\"submit\" value=\"Obtenir le code\" id=\"start\"></p>\n\t\t\t\t<p class=\"headline\" id=\"join-team\">Joindre une \u00e9quipe : <input placeholder=\"Code\" autocorrect=\"off\" autocapitalize=\"none\" autocomplete=\"off\" type=\"text\" id=\"code\"><input type=\"submit\" value=\"Valider\" id=\"join\"></p>\n\t\t\t\t<p class=\"headline\" id=\"leave-team\">Vous \u00eates dans l\u00b4\u00e9quipe <b><span id=\"team\"></span></b> <input type=\"submit\" value=\"Quitter\" id=\"leave\"></p>\n\t\t\t\t<div id=\"team-status\"></div>\n\t\t\t\t<div id=\"team-error\" class=\"footer\"></div>\n\t\t\t\t</div>\n\t\t\t\t<div id=\"twitter-collab\">\n\t\t\t\t<p>Vous pouvez continuer votre partie sur un autre appareil en vous identifiant avec Twitter. Il suffit de vous identifier sur les deux appareils pour que la partie soit partag\u00e9e. Aucune donn\u00e9e de votre compte Twitter autre que l\u2019identifiant n\u2019est utilis\u00e9e.</p>\n\t\t\t\t<p class=\"headline\" id=\"join-twitter\">S\u2019identifier avec Twitter : <button id=\"signin\"><img  class=\"twitter-button\" alt=\"Twitter\" src=\"https://static.certitudes.org/images/twitter.svg\"> Se connecter</button></p>\n\t\t\t\t</div>\n\t\t\t\t<p class=\"headline\" id=\"leave-twitter\">Vous \u00eates identifi\u00e9 comme <img class=\"twitter-button\" alt=\"Twitter\" id=\"twitter-photo\">&nbsp;<b><span id=\"twitter-name\"></span></b><input type=\"submit\" value=\"Se d\u00e9connecter\" id=\"signout\"></p>\n\t\t\t\t<span id=\"twitter-status\"></span>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"history\">\n\t\t\t\t<h3>Historique</h3>\n\t\t\t\t<p>Vous pouvez synchroniser l\u2019historique entre vos appareils en vous identifiant avec Twitter. Aucune donn\u00e9e de votre compte Twitter autre que l\u2019identifiant n\u2019est utilis\u00e9e.</p>\n\t\t\t\t<p class=\"headline\" id=\"sync-twitter\">S\u2019identifier avec Twitter: <button id=\"sync\"><img  class=\"twitter-button\" alt=\"Twitter\" src=\"https://static.certitudes.org/images/twitter.svg\"> Se connecter</button></p>\n\t\t\t\t<p class=\"headline\" id=\"synced-twitter\">Vous \u00eates identifi\u00e9 comme <img class=\"twitter-button\" alt=\"Twitter\" id=\"sync-photo\">&nbsp;<b><span id=\"sync-name\"></span></b>.</p>\n\t\t\t\t<div id=\"history-sync\">Synchronis\u00e9 <span id=\"sync-time\"></span>. <a id=\"refresh\" title=\"Synchroniser\">\ud83d\udd03 <u>Synchroniser</u></a><br><br></div>\n\t\t\t\t<table>\n\t\t\t\t\t<thead>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th class=\"number\">N\u00ba</th>\n\t\t\t\t\t\t<th class=\"word\">Mot&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t\t<th class=\"number\">Coups</th>\n\t\t\t\t\t\t<th>\ud83e\udd73</th>\n\t\t\t\t\t\t<th class=\"number\">Trouveurs</th>\n\t\t\t\t\t\t<th></th>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</thead>\n\t\t\t\t\t<tbody id=\"historybody\"></tbody>\n\t\t\t\t</table>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"story\">\n\t\t\t<h3 class=\"noselect\">Partager</h3>\n\t\t\t\t<p class=\"headline\" id=\"share-story\"></p>\n\t\t\t\t<span class=\"footer noselect\" id=\"clipboard\"></span>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"theme\">\n\t\t\t<h3 class=\"noselect\">Couleurs</h3>\n\t\t\t\t<table class=\"headline\">\n\t\t\t\t<tr>\n\t\t\t\t\t<th>\ud83c\udfa8 Th\u00e8me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t<th>\ud83d\udd06 Mode</th>\n\t\t\t\t\t<th>\ud83c\udf6d Accessibilit\u00e9</th>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td><input type=\"radio\" name=\"theme\" id=\"colorful\"> Gaulois</td>\n\t\t\t\t\t<td><input type=\"radio\" name=\"mode\" id=\"light\"> Clair</td>\n\t\t\t\t\t<td><input type=\"checkbox\" id=\"blind\"> Daltonisme</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td><input type=\"radio\" name=\"theme\" id=\"grey\"> Romain</td>\n\t\t\t\t\t<td><input type=\"radio\" name=\"mode\" id=\"dark\"> Sombre</td>\n\t\t\t\t\t<td></td>\n\t\t\t\t</tr>\n\t\t\t\t<tr>\n\t\t\t\t\t<td></td>\n\t\t\t\t\t<td><input type=\"radio\" name=\"mode\" id=\"system\"> Syst\u00e8me</td>\n\t\t\t\t\t<td></td>\n\t\t\t\t</tr>\n\t\t\t\t</table>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"cemantix-rules\">\n\t\t\t\t<h3>Trouvez le mot secret&nbsp;!</h3>\n\t\t\t\t<div id=\"cemantix-rulesbody\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"pedantix-rules\">\n\t\t\t\t<h3>D\u00e9couvrez la page Wikip\u00e9dia&nbsp;!</h3>\n\t\t\t\t<div id=\"pedantix-rulesbody\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"faq\">\n\t\t\t\t<h3>FAQ</h3>\n\t\t\t\t<div id=\"faqbody\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"announcement\">\n\t\t\t<h3>Annonce</h3>\n\t\t\t</div>\n\t\t\t<div class=\"dialog-content\" id=\"yestertable\">\n\t\t\t\t<h3>Mots proches de <i>lecteur</i></h3>\n\t\t\t\t<table>\n\t\t\t\t\t<thead>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th class=\"number\">N\u00ba</th>\n\t\t\t\t\t\t<th class=\"word\">Mot&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t\t<th class=\"number\">\u00b0C</th>\n\t\t\t\t\t\t<th>&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t\t<th class=\"number\">\u2030</th>\n\t\t\t\t\t\t<th></th>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</thead>\n\t\t\t\t\t<tbody id=\"yesterbody\">\n\t\t\t\t\t</tbody>\n\t\t\t\t</table>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<aside class=\"aside\">\n\t<nav class=\"menu\">\n\t\t<a class=\"material-icons icon\" id=\"rules-button\" title=\"R\u00e8gles\" aria-label=\"R\u00e8gles\">info</a>\n\t\t<a class=\"material-icons icon\" id=\"faq-button\" title=\"FAQ\" aria-label=\"FAQ\">quiz</a>\n\t\t<a class=\"material-icons icon\" id=\"theme-button\" title=\"Couleurs\" aria-label=\"Couleurs\">palette</a>\n\t\t<a class=\"material-icons icon\" id=\"history-button\" title=\"Historique\" aria-label=\"Historique\">history</a>\n\t\t<a class=\"material-icons icon\" id=\"cloud-button\" title=\"Collaborer\" aria-label=\"Collaborer\">cloud</a><sup id=\"team-members\"></sup>&nbsp;\n\t</nav>\n\n\t<div class=\"summary\">\n\t\t<h3>Jour n\u00ba<b id=\"puzzle-num\">1012</b></h3>\n\t\t<div>Trouv\u00e9 par <span id=\"solved\">653</span> personne<span id=\"plural\">s</span></div>\n\t\t<div id=\"cemantix-summary\" style=\"display:run-in\">\n\t\t\t<p id=\"cemantix-day-meter\">\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca</p>\n\t\t\t<table class=\"story\">\n\t\t\t\t<thead>\n\t\t\t\t<tr><th class=\"number\"><b>\u2030</b></th><th class=\"emoji\">\ud83c\udf21</th><th class=\"number\"><b>\u00b0C</b></th></tr>\n\t\t\t\t</thead>\n\t\t\t\t<tr><td class=\"number\">1000</td><td class=\"emoji\">\ud83e\udd73</td><td class=\"decimal number\">100</td></tr>\n\t\t\t\t<tr><td class=\"number\">999</td><td class=\"emoji\">\ud83d\ude31</td><td class=\"decimal number\">68.39</td></tr>\n\t\t\t\t<tr><td class=\"number\">990</td><td class=\"emoji\">\ud83d\udd25</td><td class=\"decimal number\">42.82</td></tr>\n\t\t\t\t<tr><td class=\"number\">900</td><td class=\"emoji\">\ud83e\udd75</td><td class=\"decimal number\">32.68</td></tr>\n\t\t\t\t<tr><td class=\"number\">1</td><td class=\"emoji\">\ud83d\ude0e</td><td class=\"decimal number\">22.15</td></tr>\n\t\t\t\t<tr><td class=\"number\"></td><td class=\"emoji\">\ud83e\udd76</td><td class=\"decimal number\">0</td></tr>\n\t\t\t\t<tr><td class=\"number\"></td><td class=\"emoji\">\ud83e\uddca</td><td class=\"decimal number\">-100</td></tr>\n\t\t\t</table>\n\t\t\t<div class=\"yesterday\">\n\t\t\tLe mot d\u2019hier \u00e9tait <a id=\"cemantix-yesterday\"><b><u>lecteur</u></b></a>\n\t\t\t</div>\n\t\t\t\ud83c\uddfa\ud83c\uddf8 <a href=\"https://cemantle.certitudes.org/\">cemantle</a>\n\t\t</div>\n\t\t<div id=\"pedantix-summary\" style=\"display:none\">\n\t\t\t<p id=\"pedantix-day-meter\">\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5\ud83d\udfe5</p>\n\t\t\t<table id=\"pedantix-guessable\" class=\"guessable\">\n\t\t\t\t<thead>\n\t\t\t\t<tr>\n\t\t\t\t\t<th class=\"number order\" id=\"pedantix-chronoOrder\">N\u00ba</th>\n\t\t\t\t\t<th class=\"word order\" id=\"pedantix-alphaOrder\">Mot&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t<th><a id=\"collapse\" title=\"Minimiser\">\u2195\ufe0f</a></th>\n\t\t\t\t</tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody id=\"pedantix-guesses\" class=\"guesses\">\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t\t<div>\n\t\t\t\t<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1367635413731794\" crossorigin=\"anonymous\"></script>\n\t\t\t\t<ins id=\"pedantix-ad\"\n\t\t\t\t\tstyle=\"display:inline-block;width:200px;\"\n\t\t\t\t\tdata-ad-client=\"ca-pub-1367635413731794\"\n\t\t\t\t\tdata-ad-slot=\"7184940971\"\n\t\t\t\t\tdata-ad-format=\"vertical\">\n\t\t\t\t</ins>\n\t\t\t</div>\n\t\t\t<div class=\"yesterday\">\n\t\t\tLa page d\u2019hier \u00e9tait :<br><a id=\"pedantix-yesterday\" href=\"https://fr.wikipedia.org/wiki/Saumon\"><b><u>Saumon</u></b></a>\n\t\t\t</div>\n\t\t\t\ud83c\uddfa\ud83c\uddf8 <a href=\"https://cemantle.certitudes.org/pedantle\">pedantle</a>\n\t\t</div>\n\t</div>\n\t</aside>\n\t\n\t<article class=\"main\">\n\t<div id=\"tabs\">\n\t\t<a id=\"cemantix\" class=\"active tab\">\n\t\t\t<img alt=\"Trouvez le mot secret&amp;nbsp;!\" src=\"https://static.certitudes.org/images/cemantix.svg\" width=\"240\" height=\"180\">\n\t\t\t<span id=\"cemantix-title\" class=\"caption\">Trouvez le mot secret&nbsp;!</span>\n\t\t</a>\n\t\t<a id=\"pedantix\" class=\"inactive tab\">\n\t\t\t<img alt=\"D\u00e9couvrez la page Wikip\u00e9dia&amp;nbsp;!\" src=\"https://static.certitudes.org/images/pedantix.svg\" width=\"240\" height=\"180\">\n\t\t\t<span id=\"pedantix-title\" class=\"caption\">D\u00e9couvrez la page Wikip\u00e9dia&nbsp;!</span>\n\t\t</a>\n\t</div>\n\t<div id=\"content\">\n\t\t<div id=\"cemantix-game\" style=\"display:run-in\">\n\t\t\t<div id=\"cemantix-success\" class=\"success\" style=\"display:run-in\">\n\t\t\t\t<p><b>Bravo !</b> Vous \u00eates <b><span id=\"cemantix-ranking\"></span></b> \u00e0 le trouver, en <b><span id=\"cemantix-tries\"></span></b>. R\u00e9sum\u00e9 du jour :</p>\n\t\t\t\t<p><span id=\"cemantix-meter\"></span></p>\n\t\t\t\t<p><a id=\"cemantix-share\"><u><b>Partagez</b></u></a> et revenez jouer demain.</p>\n\t\t\t\t<p><input type=\"checkbox\" id=\"cemantix-see\" class=\"see\"> Voir les mots <span id=\"cemantix-solution\"></span>les plus proches</p>\n\t\t\t</div>\n\t\t\t<form id=\"cemantix-form\" class=\"form\">\n\t\t\t\t<div class=\"guessbox\">\n\t\t\t\t\t<input placeholder=\"Mot\" autocorrect=\"off\" autocapitalize=\"none\" autocomplete=\"off\" type=\"search\" name=\"searchTerm\" id=\"cemantix-guess\" class=\"guess\">\n\t\t\t\t\t<div id=\"cemantix-previous\" class=\"previous\">&#10554;</div>\n\t\t\t\t</div>\n\t\t\t\t<input type=\"submit\" value=\"Envoyer\" id=\"cemantix-guess-btn\" class=\"guess-btn\" disabled>\n\t\t\t\t<label id=\"cemantix-error\" class=\"error\"></label>\n\t\t\t</form>\n\t\t\t<div id=\"cemantix-secret\" class=\"secret\"><a id=\"cemantix-reveal\" title=\"R\u00e9v\u00e9ler\" aria-label=\"R\u00e9v\u00e9ler\"><u>R\u00e9v\u00e9ler le mot secret</u>&nbsp;\ud83d\udc40</a></div>\n\t\t\t<table id=\"cemantix-guessable\" class=\"guessable game\">\n\t\t\t\t<thead>\n\t\t\t\t<tr>\n\t\t\t\t\t<th class=\"number order\" id=\"cemantix-chronoOrder\">N\u00ba</th>\n\t\t\t\t\t<th class=\"word order\" id=\"cemantix-alphaOrder\">Mot&nbsp;&nbsp;&nbsp;</th>\n\t\t\t\t\t<th class=\"number order\" id=\"temperatureOrder\">\u00b0C</th>\n\t\t\t\t\t<th class=\"emoji\">\ud83c\udf21</th>\n\t\t\t\t\t<th class=\"number\">\u2030</th>\n\t\t\t\t\t<th class=\"progress\">Progression</th>\n\t\t\t\t</tr>\n\t\t\t\t<tr id=\"cemantix-guessed\" class=\"guesses\"><td></td><td></td><td></td><td></td><td></td><td></td></tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody id=\"cemantix-guesses\" class=\"guesses\">\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t\t<div>\n\t\t\t\t<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1367635413731794\" crossorigin=\"anonymous\"></script>\n\t\t\t\t<ins id=\"cemantix-ad\"\n\t\t\t\t\tstyle=\"display:block; text-align:center;\"\n\t\t\t\t\tdata-ad-layout=\"in-article\"\n\t\t\t\t\tdata-ad-format=\"fluid\"\n\t\t\t\t\tdata-ad-client=\"ca-pub-1367635413731794\"\n\t\t\t\t\tdata-ad-slot=\"5546665487\">\n\t\t\t\t</ins>\n\t\t\t</div>\n\t\t</div>\n\t\t<div id=\"pedantix-game\" style=\"display:none\">\n\t\t\t<div id=\"pedantix-success\" class=\"success\" style=\"display:none\">\n\t\t\t\t<p><b>Bravo !</b> Vous \u00eates <b><span id=\"pedantix-ranking\"></span></b> \u00e0 la trouver, en <b><span id=\"pedantix-tries\"></span></b>. R\u00e9sum\u00e9 du jour :</p>\n\t\t\t\t<p><span id=\"pedantix-meter\"></span></p>\n\t\t\t\t<p><a id=\"pedantix-share\"><u><b>Partagez</b></u></a> et revenez jouer demain.</p>\n\t\t\t\t<p><input type=\"checkbox\" id=\"pedantix-see\" class=\"see\"> Voir la <u><b><a id=\"pedantix-solution\" title=\"Page Wikip\u00e9dia\">page</a></b></u><input type=\"checkbox\" id=\"pedantix-word\" class=\"see\"> R\u00e9v\u00e9ler les mots s\u00e9par\u00e9ment</p>\n\t\t\t</div>\n\t\t\t<form id=\"pedantix-form\" class=\"form\">\n\t\t\t\t<span id=\"pin\">\ud83d\udccd</span>\n\t\t\t\t<div class=\"guessbox\">\n\t\t\t\t\t<input size=\"15\" placeholder=\"Mot\" autocorrect=\"off\" autocapitalize=\"none\" autocomplete=\"off\" type=\"search\" name=\"searchTerm\" id=\"pedantix-guess\" class=\"guess\">\n\t\t\t\t\t<div id=\"pedantix-previous\" class=\"previous\">&#10554;</div>\n\t\t\t\t</div>\n\t\t\t\t<input type=\"submit\" value=\"Envoyer\" id=\"pedantix-guess-btn\" class=\"guess-btn\" disabled>\n\t\t\t\t<label id=\"pedantix-error\" class=\"error\"></label>\n\t\t\t</form>\n\t\t\t<div id=\"pedantix-secret\" class=\"secret\"><a id=\"pedantix-reveal\" title=\"R\u00e9v\u00e9ler\" aria-label=\"R\u00e9v\u00e9ler\"><u>R\u00e9v\u00e9ler la page secr\u00e8te</u>&nbsp;\ud83d\udc40</a></div>\n\t\t\t<div id=\"wiki\" class=\"game\">\n\t\t\t\t<h2><span class=\"h w\" id=\"0\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <img id=\"wiki-img\"></h2>\n\t\t\t\t<div id=\"article\"><p><span class=\"w\" id=\"1\">\u00a0\u00a0\u00a0\u00a0</span> <b><span class=\"w\" id=\"2\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span></b> (<span class=\"w\" id=\"3\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"4\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>\u00a0: <span><i><span class=\"w\" id=\"5\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span></i></span>, \u00ab\u00a0<span class=\"w\" id=\"6\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"7\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>\u00a0\u00bb) <span class=\"w\" id=\"8\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"9\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"10\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"11\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"12\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"13\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"14\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"15\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"16\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"17\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"18\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"19\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"20\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"21\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"22\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"23\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"24\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"25\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"26\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"27\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"28\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"29\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"30\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"31\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"32\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"33\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"34\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"35\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"36\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"37\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"38\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"39\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"40\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"41\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"42\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"43\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"44\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"45\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"46\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"47\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"48\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"49\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"50\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"51\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>.</p><p><span class=\"w\" id=\"52\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"53\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"54\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"55\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"56\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"57\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"58\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"59\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"60\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"61\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"62\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"63\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"64\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"65\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"66\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"67\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"68\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"69\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"70\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"71\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"72\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"73\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"74\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"75\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"76\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"77\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"78\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"79\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"80\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"81\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"82\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"83\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"84\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"85\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"86\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"87\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"88\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"89\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"90\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"91\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"92\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"93\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"94\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"95\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"96\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"97\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"98\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"99\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"100\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"101\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"102\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"103\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"104\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"105\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"106\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"107\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"108\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"109\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"110\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"111\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"112\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"113\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"114\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"115\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"116\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"117\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"118\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"119\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"120\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"121\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"122\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"123\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"124\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"125\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"126\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"127\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"128\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"129\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"130\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"131\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"132\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"133\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"134\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"135\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"136\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"137\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"138\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"139\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"140\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"141\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"142\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"143\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"144\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"145\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"146\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>.</p><p><span class=\"w\" id=\"147\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"148\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"149\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"150\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"151\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"152\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"153\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"154\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"155\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"156\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"157\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"158\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"159\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"160\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"161\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"162\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"163\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"164\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"165\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"166\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"167\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"168\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"169\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"170\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"171\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"172\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"173\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"174\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"175\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"176\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"177\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"178\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>.</p><p><span class=\"w\" id=\"179\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"180\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"181\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"182\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"183\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"184\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"185\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"186\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"187\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"188\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"189\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"190\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"191\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"192\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"193\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"194\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"195\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"196\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"197\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"198\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"199\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"200\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"201\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"202\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"203\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"204\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"205\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"206\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"207\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"208\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"209\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"210\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"211\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"212\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"213\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"214\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"215\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"216\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"217\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"218\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"219\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"220\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"221\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"222\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"223\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"224\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"225\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"226\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"227\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"228\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"229\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"230\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"231\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"232\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"233\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"234\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"235\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"236\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"237\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"238\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"239\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"240\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"241\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"242\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"243\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"244\">\u00a0\u00a0\u00a0\u00a0\u00a0</span>-<span class=\"w\" id=\"245\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"246\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"247\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"248\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"249\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"250\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"251\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"252\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"253\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"254\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"255\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>.</p><p><span class=\"w\" id=\"256\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"257\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"258\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"259\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"260\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"261\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"262\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"263\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"264\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"265\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"266\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"267\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"268\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"269\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"270\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"271\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"272\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"273\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"274\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"275\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"276\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"277\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"278\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"279\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"280\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"281\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"282\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"283\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"284\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"285\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"286\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"287\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"288\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"289\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"290\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"291\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>. <span class=\"w\" id=\"292\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"293\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"294\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"295\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"296\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"297\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"298\">\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"299\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"300\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"301\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"302\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"303\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"304\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"305\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"306\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"307\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>, <span class=\"w\" id=\"308\">\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"309\">\u00a0\u00a0\u00a0</span>'<span class=\"w\" id=\"310\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"311\">\u00a0\u00a0\u00a0\u00a0</span> <span class=\"w\" id=\"312\">\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0</span>.</p></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t</article>\n\n\t<footer class=\"footer\">\n\t\t<div id=\"cemantix-credits\" style=\"display:run-in\">R\u00e9dig\u00e9 par <a href=\"https://twitter.com/enigmathix\">enigmatix</a>. Inspir\u00e9 de <a href=\"https://semantle.com/\">Semantle</a> par David Turner. Donn\u00e9es de <a href=\"https://fauconnier.github.io/#data\">Jean-Philippe Fauconnier</a>. <a href=\"https://static.certitudes.org/html/cemantix-privacy.html\">Confidentialit\u00e9</a>.</div>\n\t\t<div id=\"pedantix-credits\" style=\"display:none\">R\u00e9dig\u00e9 par <a href=\"https://twitter.com/enigmathix\">enigmatix</a>.  Donn\u00e9es de <a href=\"https://fauconnier.github.io/#data\">Jean-Philippe Fauconnier</a> et <a href=\"https://fr.wikipedia.org\">Wikip\u00e9dia</a>. <a href=\"https://static.certitudes.org/html/cemantix-privacy.html\">Confidentialit\u00e9</a>.</div>\n\t</footer>\n\t</body>\n</html>"}
+T0.5309462919994985 puzzle_id: #1012
+T0.5309760919999462 pubtime: 1733526000
+T0.5329655400000775 scale: 🥳 100.00 °C
+T0.5330515969999396 scale: 😱 68.39 °C
+T0.5331139239997356 scale: 🔥 42.82 °C
+T0.5331715089996578 scale: 🥵 32.68 °C
+T0.5332296770002358 scale: 😎 22.15 °C
+T0.5332859969994388 scale: 🥶 0.00 °C
+T0.533342664999509 scale: 🧊 -100.00 °C
+T0.5335994879997088 request: {"method": "GET", "url": "https://cemantix.certitudes.org/stats", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantix.certitudes.org", "Referer": "https://cemantix.certitudes.org/"}, "data": null}
+T0.7331221679996816 response: {"url": "https://cemantix.certitudes.org/stats", "status": 200, "reason": "OK", "headers": {"server": "Fly/a2b2295bb (2024-12-06)", "date": "Sun, 08 Dec 2024 00:41:56 GMT", "connection": "keep-alive", "content-type": "application/json", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JEHVEGEFTPYTVVNRJRDJMHVB-lga"}, "content": "{\"num\":1012,\"solvers\":651}\n"}
+T0.7514055880001251 session model: llama3.3:latest
+T14.208590598999763 #1 ? /model
+T15.935186769000211 Select model (by name or number)> 
+T18.15397601999939 #1 ? 
+T18.154387053999926 chat_prompt: give me 10 French words that are not related to each other
+T18.15457198399963 session: {"role": "user", "content": "give me 10 French words that are not related to each other"}
+T0.008621292000498215 now: 2024-12-07T19:40:26EST
+T0.009477434000473295 request: {"method": "GET", "url": "https://cemantix.certitudes.org/stats", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantix.certitudes.org", "Referer": "https://cemantix.certitudes.org/"}, "data": null}
+T0.27158060500005377 response: {"url": "https://cemantix.certitudes.org/stats", "status": 200, "reason": "OK", "headers": {"server": "Fly/a2b2295bb (2024-12-06)", "date": "Sun, 08 Dec 2024 00:48:44 GMT", "connection": "keep-alive", "content-type": "application/json", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JEHVTYC6KQJPHG63E58H4QK8-lga"}, "content": "{\"num\":1012,\"solvers\":681}\n"}
+T0.5433888180004942 #1 ? 
+T1.548413286000141 #1 ? 
+T1.7177417419998164 #1 ? 
+T1.8747515610002665 #1 ? 
+T2.6902130369999213 #1 ? .
+T0.006840198000645614 now: 2024-12-07T20:07:31EST
+T0.007362927999565727 request: {"method": "GET", "url": "https://cemantix.certitudes.org/stats", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantix.certitudes.org", "Referer": "https://cemantix.certitudes.org/"}, "data": null}
+T0.626762506999512 response: {"url": "https://cemantix.certitudes.org/stats", "status": 200, "reason": "OK", "headers": {"server": "Fly/a2b2295bb (2024-12-06)", "date": "Sun, 08 Dec 2024 01:15:49 GMT", "connection": "keep-alive", "content-type": "application/json", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JEHXCHWXT1GFKQDPJ0704FR6-lga"}, "content": "{\"num\":1012,\"solvers\":758}\n"}
+T1.2971962419996999 #1 ? 
+T3.1913800860002084 #1 ? .
+T9.897349578001013 #1 ? /model
+T12.50957821100019 Select model (by name or number)> 4
+T12.516258417001154 session model: llama3.2:latest
+T12.516295982000884 session clear
+T14.332258697000725 #1 ? .
+T16.176620223999635 #1 ? 
+T16.176963739000712 chat_prompt: give me 10 French words that are not related to each other
+T16.177130670001134 session: {"role": "user", "content": "give me 10 French words that are not related to each other"}
+T24.04654188099994 session: {"role": "assistant", "content": "Here are 10 French words that are not related to each other:\n\n1. Croissant\n2. Fjord\n3. Tartelette\n4. Caf\u00e9\n5. Rivi\u00e8re\n6. Bougainville\n7. Miel\n8. Galerie\n9. Escargot\n10. Givre"}
+T43.04948072800107 🤔 extract_1/10 #1 "bougainville" score? !
+T43.049649049000436 reject: "bougainville"
+T45.709100987000056 🤔 extract_1/9 #1 "café" score? .06
+T45.709332555999936 attempt_0: "café" score:0.06 prog:None
+T52.28385096599959 🤔 extract_1/8 #2 "croissant" score? 28.9 753
+T52.28412922499956 attempt_1: "croissant" score:28.90 prog:753
+T56.538481931000206 🤔 extract_1/7 #3 "escargot" score? -1.62
+T56.53875522599992 attempt_2: "escargot" score:-1.62 prog:None
+T63.32687698799964 🤔 extract_1/6 #4 "fjord" score? 3.42
+T63.327038002000336 attempt_3: "fjord" score:3.42 prog:None
+T220.7505472390003 🤔 extract_1/5 #5 "galerie" score? -11.47
+T220.7508202400004 attempt_4: "galerie" score:-11.47 prog:None
+T225.43657159500071 🤔 extract_1/4 #6 "givre" score? -5.78
+T225.43696228599947 attempt_5: "givre" score:-5.78 prog:None
+T228.42944496400014 🤔 extract_1/3 #7 "miel" score? 8.19
+T228.42962149900086 attempt_6: "miel" score:8.19 prog:None
+T230.8420665520007 🤔 extract_1/2 #8 "rivière" score? 6.1
+T230.84233866700015 attempt_7: "rivière" score:6.10 prog:None
+T235.00198395500047 🤔 extract_1/1 #9 "tartelette" score? -1.11
+T235.0022058200011 attempt_8: "tartelette" score:-1.11 prog:None
+T243.5210627689994 #10 ? *10 $1
+T243.5218087760004 chat_prompt: give me 10 French words that are related to $1
+T243.5220283510007 session: {"role": "user", "content": "give me 10 French words that are related to \"croissant\""}
+T261.914042847 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"croissant\":\n\n1. Pain (bread)\n2. Flaky (describing the layers of dough in a croissant)\n3. Beurre (butter, often used to spread on croissants)\n4. P\u00e2tisserie (bakery or pastry shop where croissants are made)\n5. Layer (referring to the multiple layers of dough in a croissant)\n6. Ferment (process that occurs during the rising of yeast dough)\n7. Lait (milk, which is often used to make butter for croissants)\n8. Friture (frying, as croissants are typically fried after being baked)\n9. Pain au chocolat (a type of pastry that consists of a croissant with chocolate inside)\n10. D\u00e9trempe (dough, the mixture of flour, yeast, and water used to make croissants)\n\nThese words all relate to the ingredients, process, or characteristics of croissants in some way!"}
+T304.1512251540007 🤔 extract_1/11 #10 "au" score? !
+T304.1513580179999 reject: "au"
+T306.8633943269997 🤔 extract_1/10 #10 "beurre" score? 5.51
+T306.86360428700027 attempt_9: "beurre" score:5.51 prog:None
+T309.68531637200067 🤔 extract_1/9 #11 "chocolat" score? -4.94
+T309.68551246599964 attempt_10: "chocolat" score:-4.94 prog:None
+T313.0198337820002 🤔 extract_1/8 #12 "détrempe" score? 3.32
+T313.0201063429995 attempt_11: "détrempe" score:3.32 prog:None
+T316.4990616670002 🤔 extract_1/7 #13 "ferment" score? 16.6
+T316.4993435360011 attempt_12: "ferment" score:16.60 prog:None
+T319.56861172500066 🤔 extract_1/6 #14 "flaky" score? !
+T319.5688707419995 reject: "flaky"
+T322.16721854299976 🤔 extract_1/5 #14 "friture" score? -4.13
+T322.1674347090011 attempt_13: "friture" score:-4.13 prog:None
+T325.01663958000063 🤔 extract_1/4 #15 "lait" score? 3.87
+T325.01690195800074 attempt_14: "lait" score:3.87 prog:None
+T327.8495097970008 🤔 extract_1/3 #16 "layer" score? 7.83
+T327.849658946001 attempt_15: "layer" score:7.83 prog:None
+T330.3919711319995 🤔 extract_1/2 #17 "pain" score? 8.6
+T330.39212526200026 attempt_16: "pain" score:8.60 prog:None
+T334.305674225001 🤔 extract_1/1 #18 "pâtisserie" score? 1.95
+T334.30587461100004 attempt_17: "pâtisserie" score:1.95 prog:None
+T338.37725180100097 #19 ? *10 $1 !new
+T338.37766776699937 chat_prompt: give me 10 French words that are related to $1; do not list any words that you have already listed above
+T338.37791904799997 session: {"role": "user", "content": "give me 10 French words that are related to \"croissant\"; do not list any words that you have already listed above"}
+T366.2647496059999 session: {"role": "assistant", "content": "Here are 10 more French words that are related to \"croissant\", without repeating the previous ones:\n\n1. Roulage (rolling, referring to rolling out the dough for croissants)\n2. Feuilletage (laminating, a process used to create the layers of dough in a croissant)\n3. Temprature (temperature, which affects the proofing and baking of croissants)\n4. Levain (yeast starter, used to leaven bread and pastries like croissants)\n5. \u00c9mulsion (mixing butter and dough together, creating a flaky texture)\n6. Caisse (pan, where croissants are often baked)\n7. Croqueter (crunchy edge, referring to the crispy edges of well-baked croissants)\n8. P\u00e2tes feuillet\u00e9es (flaky pastry dough, a type of dough used for making croissants)\n9. Tassement (pressing, referring to pressing the dough to expel air and create layers)\n10. Glace (icing or glaze, often used to decorate croissants)\n\nThese words all relate to the process, ingredients, or characteristics of croissants in some way!"}
+T403.6781247889994 🤔 extract_1/11 #19 "caisse" score? -2.59
+T403.678391028001 attempt_18: "caisse" score:-2.59 prog:None
+T405.61384251799973 🤔 extract_1/10 #20 "croqueter" score? !
+T405.61400654300087 reject: "croqueter"
+T409.13123366500076 🤔 extract_1/9 #20 "feuilletage" score? -11.08
+T409.13138925400017 attempt_19: "feuilletage" score:-11.08 prog:None
+T410.82391391300007 🤔 extract_1/8 #21 "feuilletées" score? !
+T410.8240678380007 reject: "feuilletées"
+T414.0385715900011 🤔 extract_1/7 #21 "glace" score? -3.04
+T414.03875633400094 attempt_20: "glace" score:-3.04 prog:None
+T416.4799214070008 🤔 extract_1/6 #22 "levain" score? 3.28
+T416.4800610460006 attempt_21: "levain" score:3.28 prog:None
+T418.44038891499986 🤔 extract_1/5 #23 "pâtes" score? !
+T418.44052514299983 reject: "pâtes"
+T421.5119472290007 🤔 extract_1/4 #23 "roulage" score? -.51
+T421.51219316599963 attempt_22: "roulage" score:-0.51 prog:None
+T424.0549601319999 🤔 extract_1/3 #24 "tassement" score? 6.59
+T424.05516369200086 attempt_23: "tassement" score:6.59 prog:None
+T486.26770151300116 🤔 extract_1/2 #25 "temprature" score? !
+T486.2679050629995 reject: "temprature"
+T489.4446187659996 🤔 extract_1/1 #25 "émulsion" score? .79
+T489.4447867449999 attempt_24: "émulsion" score:0.79 prog:None
+T495.8841646359997 #26 ? *12 t2 
+T495.8844702059996 chat_prompt: give me 12 French words that are related to $1 and $2; do not list any words that you have already listed above
+T495.88463660600064 session: {"role": "user", "content": "give me 12 French words that are related to \"croissant\" and \"ferment\"; do not list any words that you have already listed above"}
+T537.8544315700001 session: {"role": "assistant", "content": "Here are 12 French words that are related to \"croissant\" and \"ferment\", without repeating the previous ones:\n\n1. \u00c9vaporation (evaporation, referring to the water content in dough)\n2. Liquefaction (liquefying, a process used to soften yeast for fermentation)\n3. Fermentation lente (slow fermentation, which can affect the flavor of croissants)\n4. Cro\u00fbton (crust, refers to the crispy exterior of a well-baked croissant)\n5. P\u00e2te \u00e0 levure (yeast dough, a type of dough used for making croissants and other fermented breads)\n6. Maturation (maturing, referring to the time it takes for yeast to activate and ferment)\n7. Gelification (gelation, referring to the role of gelatin in helping to create layers in croissant dough)\n8. Hydration (hydration, referring to the amount of water used in dough)\n9. Oxidation (oxidation, which can affect the flavor and texture of fermented breads like croissants)\n10. R\u00e9sistance (strength, refers to the strength of yeast fermentation)\n11. R\u00e9duction (reduction, referring to the reduction of sugar during the fermentation process)\n12. Autolyse (self-mixing, a step in the dough-making process where flour and water are mixed together)\n\nThese words all relate to the science behind fermentation, yeast activation, and the process of making croissants!"}
+T545.0884499879994 🤔 extract_1/14 #26 "autolyse" score? -13.75
+T545.0886842119999 attempt_25: "autolyse" score:-13.75 prog:None
+T548.1596151459999 🤔 extract_1/13 #27 "croûton" score? -4.07
+T548.1598550029994 attempt_26: "croûton" score:-4.07 prog:None
+T550.449254182 🤔 extract_1/12 #28 "fermentation" score? 9.52
+T550.4494764909996 attempt_27: "fermentation" score:9.52 prog:None
+T553.3952111840008 🤔 extract_1/11 #29 "gelification" score? !
+T553.3953015780007 reject: "gelification"
+T555.3978639300003 🤔 extract_1/10 #29 "hydration" score? !
+T555.3980325699995 reject: "hydration"
+T557.9444884099994 🤔 extract_1/9 #29 "lente" score? -4.22
+T557.944713117 attempt_28: "lente" score:-4.22 prog:None
+T560.8467562879996 🤔 extract_1/8 #30 "levure" score? -.85
+T560.8469122879997 attempt_29: "levure" score:-0.85 prog:None
+T562.8786986470004 🤔 extract_1/7 #31 "liquefaction" score? !
+T562.8788334010005 reject: "liquefaction"
+T565.3842905069996 🤔 extract_1/6 #31 "maturation" score? 10.39
+T565.3844810970004 attempt_30: "maturation" score:10.39 prog:None
+T567.2491731299997 🤔 extract_1/5 #32 "oxidation" score? !
+T567.2493091279994 reject: "oxidation"
+T571.5021529460009 🤔 extract_1/4 #32 "pâte" score? -4.52
+T571.5023158870008 attempt_31: "pâte" score:-4.52 prog:None
+T574.0783547810006 🤔 extract_1/3 #33 "réduction" score? 3.42
+T574.0786718359996 attempt_32: "réduction" score:3.42 prog:None
+T576.9366525670011 🤔 extract_1/2 #34 "résistance" score? 6.18
+T576.9367854000011 attempt_33: "résistance" score:6.18 prog:None
+T581.281531730001 🤔 extract_1/1 #35 "évaporation" score? 2.94
+T581.2817315909997 attempt_34: "évaporation" score:2.94 prog:None
+T587.1610646940007 #36 ? /prog
+T588.5034274139998 #36 ? /last
+T596.2872072810005 #36 ? 
+T596.7754744850008 #36 ? 
+T596.9479892140007 #36 ? 
+T606.800074191 #36 ? !cont
+T606.8003487759997 chat_prompt: keep going
+T606.8005855640004 session: {"role": "user", "content": "keep going"}
+T658.0374386500007 session: {"role": "assistant", "content": "Here are 12 more French words that are related to \"croissant\" and \"ferment\", without repeating the previous ones:\n\n1. \u00c9bullition (boiling, referring to the temperature needed for yeast activation)\n2. Fermenteur (fermentation vessel, used to control the fermentation process)\n3. Croquement (cracking, refers to the sound of croissants being broken or the cracking of dough during proofing)\n4. P\u00e2te molle (soft dough, a type of dough that is often used for making croissants and other delicate pastries)\n5. \u00c9volution (evolution, referring to the changes in yeast fermentation over time)\n6. Contraste (contrast, refers to the contrast between the flaky layers and crispy edges of a well-baked croissant)\n7. Tonalit\u00e9 (tone, refers to the tone or flavor of the yeast fermentation process)\n8. G\u00e9latineisation (gelation, referring to the role of gelatin in helping to create layers in croissant dough)\n9. Hydromorphose (hydromorphism, referring to the way water affects the texture and structure of dough)\n10. \u00c9clat (explosion, refers to the explosive rise of yeast fermentation during proofing)\n11. R\u00e9action chimique (chemical reaction, referring to the chemical changes that occur during yeast fermentation)\n12. D\u00e9gazage (degassing, referring to the removal of air bubbles from dough before shaping)\n\nThese words all relate to the science behind fermentation, yeast activation, and the process of making croissants!"}
+T661.584447995001 🤔 extract_1/13 #36 "chimique" score? 1.25
+T661.5846268469995 attempt_35: "chimique" score:1.25 prog:None
+T666.0122543529997 🤔 extract_1/12 #37 "contraste" score? 10.86
+T666.0125035239998 attempt_36: "contraste" score:10.86 prog:None
+T668.3669980200011 🤔 extract_1/11 #38 "croquement" score? !
+T668.3671407109996 reject: "croquement"
+T672.5270949919995 🤔 extract_1/10 #38 "dégazage" score? -1.49
+T672.5272895100006 attempt_37: "dégazage" score:-1.49 prog:None
+T676.1995807679996 🤔 extract_1/9 #39 "fermenteur" score? -1.44
+T676.1997713889996 attempt_38: "fermenteur" score:-1.44 prog:None
+T678.0709684590001 🤔 extract_1/8 #40 "gélatineisation" score? !
+T678.0711515750008 reject: "gélatineisation"
+T680.4490977099995 🤔 extract_1/7 #40 "hydromorphose" score? !
+T680.4492304020005 reject: "hydromorphose"
+T682.4203832380008 🤔 extract_1/6 #40 "molle" score? !
+T682.4205573060008 reject: "molle"
+T685.8510644079997 🤔 extract_1/5 #40 "réaction" score? -6.37
+T685.85136083 attempt_39: "réaction" score:-6.37 prog:None
+T688.9743094639998 🤔 extract_1/4 #41 "tonalité" score? -.98
+T688.9744663029996 attempt_40: "tonalité" score:-0.98 prog:None
+T693.71244458 🤔 extract_1/3 #42 "ébullition" score? 5.47
+T693.7125947959994 attempt_41: "ébullition" score:5.47 prog:None
+T697.5922896510001 🤔 extract_1/2 #43 "éclat" score? 13.16
+T697.5924509100005 attempt_42: "éclat" score:13.16 prog:None
+T700.7585758549994 🤔 extract_1/1 #44 "évolution" score? 11.86
+T700.7586659589997 attempt_43: "évolution" score:11.86 prog:None
+T712.5327443380011 #45 ? /prog
+T729.3923204229995 #45 ? *10 $1 -#32
+T729.392738818 chat_prompt: give me 10 French words that are related to $1 but that are not related to #32
+T729.3929354070006 session: {"role": "user", "content": "give me 10 French words that are related to \"croissant\" but that are not related to \"p\u00e2te\""}
+T781.1572514640011 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"croissant\" but that are not related to \"p\u00e2te\":\n\n1. Croqueter (crunchy edge, referring to the crispy edges of well-baked croissants)\n2. Feuilletage (laminating, a process used to create the layers in a croissant dough)\n3. Roulage (rolling, referring to rolling out the dough for croissants)\n4. Caisse (pan, where croissants are often baked)\n5. Glace (icing or glaze, often used to decorate croissants)\n6. Tassement (pressing, referring to pressing the dough to expel air and create layers)\n7. \u00c9clairage (lighting, refers to the way light affects the appearance of a well-baked croissant)\n8. Cro\u00fbtonnerie (croissant maker, a person who makes croissants for a living)\n9. Assemblage (assembly, referring to the process of assembling ingredients and shaping dough into croissants)\n10. D\u00e9coration (decoration, refers to the art of decorating croissants with glazes, icing, or other toppings)\n\nThese words all relate to the appearance, production, and decoration of croissants!"}
+T788.311896571 🤔 extract_1/4 #45 "assemblage" score? -3.39
+T788.3121503860002 attempt_44: "assemblage" score:-3.39 prog:None
+T790.1822865659997 🤔 extract_1/3 #46 "croûtonnerie" score? !
+T790.1824651580009 reject: "croûtonnerie"
+T792.5915030409997 🤔 extract_1/2 #46 "décoration" score? 4.18
+T792.5916963849995 attempt_45: "décoration" score:4.18 prog:None
+T795.1626778089994 🤔 extract_1/1 #47 "éclairage" score? -1.81
+T795.1629375190005 attempt_46: "éclairage" score:-1.81 prog:None
+T881.9505539809998 #48 ? /prog
+T895.7934606700001 #48 ? *10 $1 -#16
+T895.7937716960005 chat_prompt: give me 10 French words that are related to $1 but that are not related to #16
+T895.7939418500009 session: {"role": "user", "content": "give me 10 French words that are related to \"croissant\" but that are not related to \"layer\""}
+T953.3563693770011 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"croissant\" but that are not related to \"layer\":\n\n1. Croqueter (crunchy edge, referring to the crispy edges of well-baked croissants)\n2. Caramelisation (caramelization, referring to the browning of sugar on top of baked goods like croissants)\n3. \u00c9clairage (lighting, refers to the way light affects the appearance of a well-baked croissant)\n4. Glace (icing or glaze, often used to decorate croissants)\n5. Chocolat (chocolate, a popular filling for croissants)\n6. Fruits (fruits, which can be used as fillings or toppings for croissants)\n7. Cr\u00e8me (cream, which can be used as a filling or topping for croissants)\n8. Beurre (butter, often used to spread on or brush onto croissants before baking)\n9. Poudre (powder, referring to powdered sugar often used to dust croissants)\n10. Temprature (temperature, which affects the proofing and baking of croissants)\n\nThese words all relate to the appearance, ingredients, or production of croissants!"}
+T959.4743228959996 🤔 extract_1/4 #48 "caramelisation" score? !
+T959.4744784850009 reject: "caramelisation"
+T962.698551892001 🤔 extract_1/3 #48 "crème" score? -2.82
+T962.6987619780011 attempt_47: "crème" score:-2.82 prog:None
+T966.1509411509996 🤔 extract_1/2 #49 "fruits" score? !
+T966.1511312809998 reject: "fruits"
+T968.8649204810008 🤔 extract_1/1 #49 "poudre" score? 3.55
+T968.8650861900005 attempt_48: "poudre" score:3.55 prog:None
+T970.8698333800003 #50 ? /prog
+T1032.1103900890012 #50 ? *10 $1 -#48 -#49
+T1032.1106710160002 chat_prompt: give me 10 French words that are related to $1 but that are not related to #48 or #49
+T1032.1108266190004 session: {"role": "user", "content": "give me 10 French words that are related to \"croissant\" but that are not related to \"cr\u00e8me\" or \"poudre\""}
+T1101.6255799720002 session: {"role": "assistant", "content": "Here are 10 French words that are related to \"croissant\" but that are not related to \"cr\u00e8me\" or \"poudre\":\n\n1. Croqueter (crunchy edge, referring to the crispy edges of well-baked croissants)\n2. Caramelisation (caramelization, referring to the browning of sugar on top of baked goods like croissants)\n3. \u00c9clairage (lighting, refers to the way light affects the appearance of a well-baked croissant)\n4. Glace (icing or glaze, often used to decorate croissants)\n5. Chocolat (chocolate, a popular filling for croissants)\n6. Fruits (fruits, which can be used as fillings or toppings for croissants)\n7. Beurre (butter, often used to spread on or brush onto croissants before baking)\n8. R\u00e9duction (reduction, referring to the process of reducing butter and sugar in croissant dough)\n9. D\u00e9gustation (tasting, refers to the process of tasting and evaluating the flavor of freshly baked croissants)\n10. Conservation (conservation, referring to the process of storing and preserving croissants for a long time)\n\nThese words all relate to the appearance, production, ingredients, or handling of croissants!"}
+T1122.1406878300004 🤔 extract_1/2 #50 "conservation" score? 4.33
+T1122.1409830289995 attempt_49: "conservation" score:4.33 prog:None
+T1125.4453461890007 🤔 extract_1/1 #51 "dégustation" score? -8.01
+T1125.445507974 attempt_50: "dégustation" score:-8.01 prog:None
+T1132.106027066 #52 ? /prog
+T1133.1451991590002 #52 ? /clear
+T1133.1453944450004 session clear
+T1149.8861003029997 #52 ? *10 $1 -#31 -#25
+T1149.8865823470005 chat_prompt: give me 10 French words that are related to $1 but that are not related to #31 or #25
+T1149.8868651110006 session: {"role": "user", "content": "give me 10 French words that are related to \"croissant\" but that are not related to \"maturation\" or \"\u00e9mulsion\""}
+T1171.5413625170004 session: {"role": "assistant", "content": "Here are 10 French words related to \"croissant\" that have no relation to \"maturation\" or \"\u00e9mulsion\":\n\n1. Pastry (p\u00e2tisserie) - referring to the art of making croissants and other pastries\n2. Flaky (fleukey) - describing the layered, flaky texture of a croissant\n3. Layering (lamine) - a technique used in making croissants with multiple layers\n4. Lamination (lamination) - similar to layering, referring to the process of creating layers in dough\n5. Butter (beurre) - a crucial ingredient in making croissants\n6. Dough (pain de levain) - refers to the mixture of flour, water, and yeast used to make croissants\n7. Fold (pliage) - an essential step in making croissants, where dough is folded multiple times\n8. Roll (tourner) - another important action in making croissants, where dough is rolled out thin\n9. Proofing (preuve) - a process used to let the yeast in the dough activate and rise\n10. Shaping (formation) - refers to the final step of forming the croissant into its signature shape"}
+T1198.334750199001 🤔 extract_1/9 #52 "butter" score? 11.27
+T1198.334944442 attempt_51: "butter" score:11.27 prog:None
+T1200.698924829001 🤔 extract_1/8 #53 "dough" score? !
+T1200.699086605 reject: "dough"
+T1202.6881779650012 🤔 extract_1/7 #53 "fold" score? !
+T1202.688337556001 reject: "fold"
+T1204.3655111919998 🤔 extract_1/6 #53 "lamination" score? !
+T1204.365658928 reject: "lamination"
+T1205.902291843 🤔 extract_1/5 #53 "layering" score? !
+T1205.9024998900004 reject: "layering"
+T1207.831581429 🤔 extract_1/4 #53 "pastry" score? !
+T1207.8317341519996 reject: "pastry"
+T1209.7061118450001 🤔 extract_1/3 #53 "proofing" score? !
+T1209.7062299610006 reject: "proofing"
+T1212.598549501001 🤔 extract_1/2 #53 "roll" score? -2.61
+T1212.5987666010005 attempt_52: "roll" score:-2.61 prog:None
+T1214.283355167001 🤔 extract_1/1 #54 "shaping" score? !
+T1214.2835328780002 reject: "shaping"
+T1220.6142022330005 #54 ? *10 seen with $1 /clear .
+T1220.6145897370006 session clear
+T1220.6146372870007 chat_prompt: give me 10 French words that are seen with $1
+T1220.6147859310004 session: {"role": "user", "content": "give me 10 French words that are seen with \"croissant\""}
+T1232.9204983109994 session: {"role": "assistant", "content": "Here are 10 French words related to croissants:\n\n1. Pain (bread)\n2. Croquante (a type of flaky pastry)\n3. Flaky (relating to the layers in a croissant)\n4. Friture (deep-frying, often used for croissant dough)\n5. P\u00e2tisserie (bakery or pastry shop)\n6. Brioche (rich, buttery bread often used as a base for croissants)\n7. Beurrage (covered with a layer of butter)\n8. Lamin\u00e9 (layered dough, characteristic of croissants)\n9. Puffing (the process of creating the airy layers in a croissant)\n10. Cro\u00fbterie (a small, flaky pastry often used as a garnish)"}
+T1278.7440519720003 🤔 extract_1/6 #54 "beurrage" score? !
+T1278.7442744670007 reject: "beurrage"
+T1281.3734453409998 🤔 extract_1/5 #54 "brioche" score? 2.01
+T1281.3736630530002 attempt_53: "brioche" score:2.01 prog:None
+T1283.530053331 🤔 extract_1/4 #55 "croquante" score? !
+T1283.530272121001 reject: "croquante"
+T1285.8566961369997 🤔 extract_1/3 #55 "croûterie" score? !
+T1285.8568865460002 reject: "croûterie"
+T1287.8653943820009 🤔 extract_1/2 #55 "laminé" score? !
+T1287.8655633950002 reject: "laminé"
+T1292.6820635229997 🤔 extract_1/1 #55 "puffing" score? !
+T1292.6822563059995 reject: "puffing"
+T1349.945190546001 #55 ? !cont
+T1349.9455249769999 chat_prompt: keep going
+T1349.9456931639997 session: {"role": "user", "content": "keep going"}
+T1369.9552881109994 session: {"role": "assistant", "content": "Here are 10 more French words related to croissants:\n\n11. Beurrageux (covered with butter, like a croissant)\n12. Mille-feuille (a layered pastry dessert similar to a croissant)\n13. P\u00e2te feuillet\u00e9e (layered dough, used in many pastries including croissants)\n14. Ferment (the process of yeast fermentation involved in making croissants)\n15. Latt\u00e9 (a type of coffee drink that pairs well with croissants)\n16. Cannel\u00e9 (a small, shell-shaped pastry often filled with cream and coated in sugar)\n17. P\u00e2tisserie aux amandes (amander-filled pastry, similar to a croissant)\n18. Croquembouche (a towering structure made from profiteroles, similar to a croissant)\n19. Mille-tons (a type of flaky pastry similar to a croissant)\n20. Beurrageur (one who expertly butteres pastries like croissants)\n\nLet me know if you'd like more!"}
+T1410.2988708280009 🤔 extract_1/11 #55 "amandes" score? !
+T1410.2990123479995 reject: "amandes"
+T1413.2654757399996 🤔 extract_1/10 #55 "aux" score? !
+T1413.2656772080009 reject: "aux"
+T1415.3072442020002 🤔 extract_1/9 #55 "beurrageur" score? !
+T1415.3073754630004 reject: "beurrageur"
+T1418.626096684 🤔 extract_1/8 #55 "beurrageux" score? !
+T1418.6262300710005 reject: "beurrageux"
+T1429.911128130001 🤔 extract_1/7 #55 "cannelé" score? .03
+T1429.9113546360004 attempt_54: "cannelé" score:0.03 prog:None
+T1439.4160696689996 🤔 extract_1/6 #56 "croquembouche" score? -8.99
+T1439.4163368539994 attempt_55: "croquembouche" score:-8.99 prog:None
+T1456.1242889120003 🤔 extract_1/5 #57 "feuille" score? -7.02
+T1456.124509917001 attempt_56: "feuille" score:-7.02 prog:None
+T1461.8143715160004 🤔 extract_1/4 #58 "feuilletée" score? !
+T1461.8145059380004 reject: "feuilletée"
+T1464.5432048040002 🤔 extract_1/3 #58 "latté" score? !
+T1464.5434018649994 reject: "latté"
+T1470.2365694050004 🤔 extract_1/2 #58 "mille" score? 12.02
+T1470.236837544 attempt_57: "mille" score:12.02 prog:None
+T1474.7726323290008 🤔 extract_1/1 #59 "tons" score? !
+T1474.772791542 reject: "tons"
+T1549.0170194269995 #59 ? 
+T1551.1264969790009 #59 ? /prog
+T1560.3618207790005 #59 ? *10 $1 -#48 -#53
+T1560.3622011879997 chat_prompt: give me 10 French words that are related to $1 but that are not related to #48 or #53
+T1560.3623766399996 session: {"role": "user", "content": "give me 10 French words that are related to \"croissant\" but that are not related to \"cr\u00e8me\" or \"roll\""}
+T1586.4412620880012 session: {"role": "assistant", "content": "Here are 10 French words related to croissants, excluding those related to \"cr\u00e8me\" and \"roll\":\n\n1. P\u00e2te (dough)\n2. Farcir (to fill with butter or other ingredients)\n3. Lamin\u00e9 (layered, a characteristic of croissant dough)\n4. Feuilletage (the process of layering dough, used in making croissants)\n5. Savoir faire (know-how or skill, required to make perfect croissants)\n6. Finition (finishing, as in finishing the baking process for croissants)\n7. Cuisson (cooking, including the cooking time and temperature for croissants)\n8. Puffage (the process of creating air pockets in dough, characteristic of croissants)\n9. D\u00e9gustation (tasting or trying, often used to describe sampling freshly baked croissants)\n10. \u00c9clairage (lighting up, as in lighting the oven to perfectly bake croissants)\n\nLet me know if you'd like more!"}
+T1606.9037025140005 🤔 extract_1/6 #59 "cuisson" score? 3.32
+T1606.9039835820004 attempt_58: "cuisson" score:3.32 prog:None
+T1609.440894251 🤔 extract_1/5 #60 "faire" score? 2.44
+T1609.4411191630006 attempt_59: "faire" score:2.44 prog:None
+T1612.6870826440008 🤔 extract_1/4 #61 "farcir" score? -.48
+T1612.6872515200012 attempt_60: "farcir" score:-0.48 prog:None
+T1616.2511682080003 🤔 extract_1/3 #62 "finition" score? -1.06
+T1616.251469588 attempt_61: "finition" score:-1.06 prog:None
+T1618.5185152449994 🤔 extract_1/2 #63 "puffage" score? !
+T1618.5186514100005 reject: "puffage"
+T1621.4350579090005 🤔 extract_1/1 #63 "savoir" score? -.36
+T1621.435254977001 attempt_62: "savoir" score:-0.36 prog:None
+T1625.1213003089997 #64 ? /prog
+T1641.9877254010007 #64 ? *15 $1 -b5
+T1641.9880564650011 chat_prompt: give me 15 French words that are related to $1 but that are not related to b5
+T1641.9882300059999 session: {"role": "user", "content": "give me 15 French words that are related to \"croissant\" but that are not related to b5"}
+T1647.2139134980007 #64 ? /clear
+T1647.2141566629998 session clear
+T1651.5403715470002 #64 ? *15 $1 -$b5
+T1651.5408830920005 chat_prompt: give me 15 French words that are related to $1 but that are not related to $b5
+T1651.5412032170007 session: {"role": "user", "content": "give me 15 French words that are related to \"croissant\" but that are not related to \"feuille\", \"d\u00e9gustation\", \"croquembouche\", \"feuilletage\", and \"galerie\""}
+T1673.207937254001 session: {"role": "assistant", "content": "Here are 15 French words related to \"croissant\" that meet your criteria:\n\n1. Boulanger (bakery/baker)\n2. Pain (bread)\n3. P\u00e2tissier (pastry chef)\n4. Fleuron (flaky pastry)\n5. Yeux-de-perdrix (saffron eyes, a decorative element in croissants)\n6. Beurrage (buttering)\n7. Laminaison (layering, a process used to make croissants)\n8. Caramelisation (caramelization, often applied to croissant toppings)\n9. Croquant (crunchy texture)\n10. Cannel\u00e9 (small, curved, flaky pastry)\n11. P\u00e2te (dough)\n12. Finition (finishing touches, like adding glaze or sugar)\n13. Oeuf (egg, used in croissant dough)\n14. M\u00e9lange (mixing, a crucial step in making croissants)\n15. Coulis (glaze, often applied to croissants)\n\nNote that while these words are related to \"croissant\" through their association with baking or pastry-making, they may not directly refer to the specific baked good itself."}
+T1678.418697512001 🤔 extract_1/11 #64 "boulanger" score? .62
+T1678.4188794189995 attempt_63: "boulanger" score:0.62 prog:None
+T1681.871387176001 🤔 extract_1/10 #65 "coulis" score? -7.33
+T1681.8716135890008 attempt_64: "coulis" score:-7.33 prog:None
+T1687.1597623310008 🤔 extract_1/9 #66 "croquant" score? 2.05
+T1687.159957922 attempt_65: "croquant" score:2.05 prog:None
+T1689.104592615 🤔 extract_1/8 #67 "de" score? !
+T1689.1048167480003 reject: "de"
+T1692.8021722039994 🤔 extract_1/7 #67 "fleuron" score? 22.25 19
+T1692.8023662430005 attempt_66: "fleuron" score:22.25 prog:19
+T1694.685687911 🤔 extract_1/6 #68 "laminaison" score? !
+T1694.6857661480008 reject: "laminaison"
+T1697.180534657 🤔 extract_1/5 #68 "mélange" score? 2.65
+T1697.1807131040005 attempt_67: "mélange" score:2.65 prog:None
+T1700.4676183049996 🤔 extract_1/4 #69 "oeuf" score? 365
+T1704.4935465960007 🤔 extract_1/4 #69 "oeuf" score? 3.65
+T1704.493745777001 attempt_68: "oeuf" score:3.65 prog:None
+T1707.9091364609994 🤔 extract_1/3 #70 "perdrix" score? -.56
+T1707.9092999590011 attempt_69: "perdrix" score:-0.56 prog:None
+T1710.5046557660007 🤔 extract_1/2 #71 "pâtissier" score? 4.55
+T1710.504715686 attempt_70: "pâtissier" score:4.55 prog:None
+T1712.4700806180008 🤔 extract_1/1 #72 "yeux" score? !
+T1712.4702292130005 reject: "yeux"
+T1716.3129041240009 #72 ? *t2 /clear .
+T1716.3132824469994 session clear
+T1716.313325362 chat_prompt: give me 6 French words that are related to $1 and $2
+T1716.3134934000009 session: {"role": "user", "content": "give me 6 French words that are related to \"croissant\" and \"fleuron\""}
+T1735.0047379110001 session: {"role": "assistant", "content": "Here are six French words related to \"croissant\" and \"fleuron\":\n\n1. Lamin\u00e9 (Layered) - referring to the layered dough used in croissant production.\n2. P\u00e2te (Dough) - a fundamental component of both croissants and fleuron pastry, a type of flaky pastry often topped with a finial or decoration.\n3. Flambage (Flame-like) - describing the decorative edge of a croissant, which can also be found in fleron designs.\n4. P\u00e2te feuillet\u00e9e (Feuilleted dough) - another name for laminated dough used in both croissants and some types of fleuron pastry.\n5. Croissanterie (Croissant shop) - a place where croissants are produced, similar to how fleuron decorators work on their decorative pieces.\n6. Fleuronnage (Fleuroning or ornamentation with flowers) - the art of decorating pastries like flerons with intricate floral patterns.\n\nThese words should provide some insight into French pastry-making and decoration techniques, particularly as they relate to both croissants and fleurons."}
+T1750.2268555720002 🤔 extract_1/3 #72 "croissanterie" score? -8.92
+T1750.2270395409996 attempt_71: "croissanterie" score:-8.92 prog:None
+T1753.6809219709994 🤔 extract_1/2 #73 "flambage" score? -5.58
+T1753.6810876180007 attempt_72: "flambage" score:-5.58 prog:None
+T1755.804670597001 🤔 extract_1/1 #74 "fleuronnage" score? !
+T1755.8048136180005 reject: "fleuronnage"
+T1762.2470373730011 #74 ? *12 t2 !new
+T1762.2473452560007 chat_prompt: give me 12 French words that are related to $1 and $2; do not list any words that you have already listed above
+T1762.24750537 session: {"role": "user", "content": "give me 12 French words that are related to \"croissant\" and \"fleuron\"; do not list any words that you have already listed above"}
+T1810.3031626840002 session: {"role": "assistant", "content": "Here are 12 more French words related to \"croissant\" and \"fleuron\":\n\n1. Beurrage (Buttering) - the process of applying butter to dough, often used in croissant production.\n2. Fermentation (Fermenting) - a step involved in the production of yeast-based pastries like croissants.\n3. Coulis (Jelly or filling) - a sweet or savory filling often used inside flerons or as an accompaniment to croissants.\n4. Piquet (Stick) - a long, thin stick used for decorating flerons and other pastries.\n5. Saigneur (Bleeder) - a tool used to create veins in dough, adding visual appeal to pastries like flerons.\n6. Tirage (Stretching) - the process of stretching and folding dough to create layers, often used in croissant production.\n7. P\u00e2te fra\u00eeche (Fresh dough) - a type of dough used for making flerons and other delicate pastries.\n8. Croqueter (Crunchy) - describing the texture of some types of pastry, including flerons.\n9. Finition (Finishing) - the process of finalizing the decoration or finishing touches on a pastry like a fleuron.\n10. D\u00e9gustation (Tasting) - the act of tasting and evaluating pastries, including flerons and croissants.\n11. \u00c9clairage (Lighting) - the artistic arrangement of lights to highlight the decorative elements in a pastry like a fleuron.\n12. Cisellement (Engraving) - the process of carving or engraving designs onto pastries, often used to create intricate decorations for flerons.\n\nThese words should provide further insight into French pastry-making techniques and traditions related to croissants and fleurons."}
+T1822.7316480690006 🤔 extract_1/5 #74 "cisellement" score? !
+T1822.7317864199995 reject: "cisellement"
+T1824.3849138370006 🤔 extract_1/4 #74 "fraîche" score? !
+T1824.385012312001 reject: "fraîche"
+T1827.1116390860007 🤔 extract_1/3 #74 "piquet" score? -2.45
+T1827.1118195990002 attempt_73: "piquet" score:-2.45 prog:None
+T1829.41828842 🤔 extract_1/2 #75 "saigneur" score? 14.15
+T1829.4184756129998 attempt_74: "saigneur" score:14.15 prog:None
+T1832.321894779001 🤔 extract_1/1 #76 "tirage" score? -4.11
+T1832.3220624959995 attempt_75: "tirage" score:-4.11 prog:None
+T1838.1168957629998 #77 ? /prog
+T1852.8420776290004 #77 ? *16 $t2 -$b2 !new
+T1852.8426732980006 chat_prompt: give me 16 French words that are related to $t2 but that are not related to $b2; do not list any words that you have already listed above
+T1852.8430733349996 session: {"role": "user", "content": "give me 16 French words that are related to \"croissant\" and \"fleuron\" but that are not related to \"feuilletage\" and \"galerie\"; do not list any words that you have already listed above"}
+T1945.553041639001 session: {"role": "assistant", "content": "Here are 16 more French words related to \"croissant\" and \"fleuron\":\n\n1. P\u00e2te molle (Soft dough) - a type of dough used for making delicate pastries like flerons.\n2. Croquemette (Small crack) - a small break or crack in the surface of a croissant or other pastry.\n3. Fleuronnerie (Fleuroning shop) - a place where flerons are made and decorated.\n4. P\u00e2te sabl\u00e9e (Sandy dough) - a type of dough used for making some types of pastries, including those with a delicate, layered texture like croissants.\n5. Cordonnet (Cord-like) - describing the decorative elements in some types of flerons, which resemble cord or twisted rope.\n6. Mille-feuille de fleur (Flower-filled pastry) - a type of pastry filled with a flower-shaped design, often used as an inspiration for fleuron decorations.\n7. P\u00e2te \u00e0 l'huile (Oil dough) - a type of dough used for making some types of pastries, including those with a delicate, flaky texture like croissants.\n8. Fleur d'oranger (Orange flower) - a type of decorative element often used in fleuron designs, inspired by the orange blossom.\n9. Tirage \u00e0 la main (Hand-stretching) - the process of stretching and folding dough by hand to create layers, often used in croissant production.\n10. P\u00e2te fra\u00eechement lev\u00e9e (Freshly risen dough) - a type of dough that has just been allowed to rise, giving it a light, airy texture.\n11. Croquant (Crunchy) - describing the texture of some types of pastry, including flerons with crunchy decorations.\n12. Fleuronnerie artisanale (Artisanal fleuroning) - traditional fleuroning techniques passed down through generations of artisans.\n13. P\u00e2te \u00e0 p\u00e2tes (Pastry dough) - a type of dough used for making many different types of pastry, including those with delicate layers like croissants.\n14. Fleuronnerie en fleur de laine (Wool flower fleuroning) - a traditional technique using wool or cotton threads to create intricate designs on flerons.\n15. Croquemberne (Small crack in the dough) - a small break or crack in the surface of a croissant or other pastry, often used as an opportunity for decoration.\n16. Fleuronnerie \u00e9lectronique (Electronic fleuroning) - modern technology used to create intricate designs on flerons and other pastries.\n\nThese words should provide further insight into French pastry-making techniques and traditions related to croissants and fleurons, beyond the focus on feuilletage and galerie."}
+T1957.9661016129994 🤔 extract_1/16 #77 "artisanale" score? !
+T1957.966291140001 reject: "artisanale"
+T1960.5808993560004 🤔 extract_1/15 #77 "cordonnet" score? -6.68
+T1960.5811131459996 attempt_76: "cordonnet" score:-6.68 prog:None
+T1963.442327752 🤔 extract_1/14 #78 "croquemberne" score? !
+T1963.442454037 reject: "croquemberne"
+T1965.1075330149997 🤔 extract_1/13 #78 "croquemette" score? !
+T1965.1077515810011 reject: "croquemette"
+T1968.4736961990002 🤔 extract_1/12 #78 "en" score? 2.47
+T1968.4738806149999 attempt_77: "en" score:2.47 prog:None
+T1970.9693457510002 🤔 extract_1/11 #79 "fleur" score? 5.32
+T1970.9696107920008 attempt_78: "fleur" score:5.32 prog:None
+T1973.6664767969996 🤔 extract_1/10 #80 "fleuronnerie" score? !
+T1973.6666232030002 reject: "fleuronnerie"
+T1976.545954917001 🤔 extract_1/9 #80 "fraîchement" score? 2.67
+T1976.546128338001 attempt_79: "fraîchement" score:2.67 prog:None
+T1980.0602036180007 🤔 extract_1/8 #81 "huile" score? 5.45
+T1980.0604855910005 attempt_80: "huile" score:5.45 prog:None
+T1984.092866381001 🤔 extract_1/7 #82 "la" score? 6.8
+T1984.0930708119995 attempt_81: "la" score:6.80 prog:None
+T1986.9640243249996 🤔 extract_1/6 #83 "laine" score? 12.88
+T1986.964291235001 attempt_82: "laine" score:12.88 prog:None
+T1989.615913642001 🤔 extract_1/5 #84 "levée" score? 5.21
+T1989.6161360139995 attempt_83: "levée" score:5.21 prog:None
+T1992.3685733229995 🤔 extract_1/4 #85 "main" score? 7.51
+T1992.368744128 attempt_84: "main" score:7.51 prog:None
+T1994.807694377001 🤔 extract_1/3 #86 "oranger" score? 4.2
+T1994.8078558710004 attempt_85: "oranger" score:4.20 prog:None
+T1997.163114117 🤔 extract_1/2 #87 "sablée" score? !
+T1997.163286739 reject: "sablée"
+T2001.2830898129996 🤔 extract_1/1 #87 "électronique" score? -5.66
+T2001.283274757001 attempt_86: "électronique" score:-5.66 prog:None
+T2008.7548769719997 #88 ? *12 seen with $t2 /clear .
+T2008.755025878001 session clear
+T2008.7550684689995 chat_prompt: give me 12 French words that are seen with $t2
+T2008.7551622350002 session: {"role": "user", "content": "give me 12 French words that are seen with \"croissant\" and \"fleuron\""}
+T2030.980679114 session: {"role": "assistant", "content": "Here are 12 French words that are associated with \"croissant\" or \"fleuron\":\n\n1. Pain (bread)\n2. Flaky (croissant has a flaky crust)\n3. P\u00e2te (dough used to make croissants)\n4. Fermentation (process involved in making croissants)\n5. Lait (milk, often used in croissant dough)\n6. Beurre (butter, commonly used on croissants)\n7. Fleur (flower, fleuron is a type of flower pattern)\n8. Ornamentation (the decorative details on a fleuron)\n9. Croquante (the crunchy texture of some croissants)\n10. Puffe (the puffed shape of some croissants)\n11. D\u00e9trempe (a mixture used to add moisture to dough, often in croissant recipes)\n12. Laminateur (a machine used to laminate dough and create the flaky layers in croissants)\n\nAs for \"fleuron\", here are a few more French words that might be associated with it:\n\n* Fleur (flower)\n* Orn\u00e9mentation (ornamentation)\n* D\u00e9tail (detail)\n* Design (the arrangement of shapes or patterns, often found on fleurons)\n\nI hope this helps! Let me know if you have any other questions."}
+T2059.6982407270007 🤔 extract_1/3 #88 "laminateur" score? !
+T2059.6984019419997 reject: "laminateur"
+T2064.2593758990006 🤔 extract_1/2 #88 "ornamentation" score? !
+T2064.259503700001 reject: "ornamentation"
+T2067.9420819589996 🤔 extract_1/1 #88 "puffe" score? !
+T2067.942217818001 reject: "puffe"
+T2090.488722418 <INT>
+T0.009874912999293883 now: 2024-12-07T20:48:24EST
+T0.01038827399861475 request: {"method": "GET", "url": "https://cemantix.certitudes.org/stats", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantix.certitudes.org", "Referer": "https://cemantix.certitudes.org/"}, "data": null}
+T0.37986552199981816 response: {"url": "https://cemantix.certitudes.org/stats", "status": 200, "reason": "OK", "headers": {"server": "Fly/a2b2295bb (2024-12-06)", "date": "Sun, 08 Dec 2024 01:56:41 GMT", "connection": "keep-alive", "content-type": "application/json", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JEHZQCRQ0TJP0ARF2SDZP5G9-lga"}, "content": "{\"num\":1012,\"solvers\":848}\n"}
+T2.8963400979992002 #88 ? /last
+T12.15371355499883 #88 ? *20 similar t2 /clear .
+T12.15483875999962 session clear
+T12.154892113998358 chat_prompt: give me 20 French words that are similar to $1 and $2
+T12.155058033999012 session: {"role": "user", "content": "give me 20 French words that are similar to \"croissant\" and \"fleuron\""}
+T43.505710350998925 session: {"role": "assistant", "content": "Here are 20 French words that are similar to \"croissant\" and \"fleuron\":\n\n1. Friture (similar to croissant in sound)\n2. Truffe (has a similar luxurious feel)\n3. P\u00e2te (means pastry dough, like croissant)\n4. Cannel\u00e9 (a type of confectionery with a delicate shape)\n5. Mille-feuille (a layered pastry similar to croissant)\n6. Madeleine (a small shell-shaped cake)\n7. Tartelette (a small tart, like a mini croissant)\n8. G\u00e2terie (a bakery or shop selling pastries and sweets)\n9. Brioche (a rich, flaky bread often used for pastry)\n10. Cr\u00eape (a thin pancake similar to croissant in texture)\n11. \u00c9clair (a long, curved pastry filled with cream)\n12. Mille-Feuille de Fleuron (has a similar sound and structure)\n13. Pignon (a small cone-shaped pastry)\n14. Cannel\u00e9 de Bordeaux (a type of confectionery from Bordeaux)\n15. B\u00fbche (a long, thin cake or pastry often shaped like a log)\n16. Tartine (a type of flatbread often topped with pastries)\n17. Friture de Sucre (has a similar sound and structure)\n18. G\u00e2teau (a general term for cakes, but can also refer to pastries)\n19. Profiterole (small cream-filled choux pastry balls)\n20. \u00c9clairage (not directly related, but has a similar lyrical feel)\n\nThese words are all French and share similarities with \"croissant\" or have a poetic ring to them."}
+T52.62093742499928 🤔 extract_1/12 #88 "bordeaux" score? -5.9
+T52.62114534999819 attempt_87: "bordeaux" score:-5.90 prog:None
+T55.221972790999644 🤔 extract_1/11 #89 "bûche" score? 6.34
+T55.222195090998866 attempt_88: "bûche" score:6.34 prog:None
+T58.056720714999756 🤔 extract_1/10 #90 "crêpe" score? 8.5
+T58.0569579059993 attempt_89: "crêpe" score:8.50 prog:None
+T60.243771815999935 🤔 extract_1/9 #91 "gâteau" score? 1.29
+T60.24393487999987 attempt_90: "gâteau" score:1.29 prog:None
+T66.29171543399934 🤔 extract_1/8 #92 "gâterie" score? -1.2
+T66.29208277699945 attempt_91: "gâterie" score:-1.20 prog:None
+T71.41312947699953 🤔 extract_1/7 #93 "madeleine" score? -4.69
+T71.41330942199966 attempt_92: "madeleine" score:-4.69 prog:None
+T74.64873690099921 🤔 extract_1/6 #94 "pignon" score? 5.33
+T74.6490474079983 attempt_93: "pignon" score:5.33 prog:None
+T77.82706014599898 🤔 extract_1/5 #95 "profiterole" score? -1.98
+T77.82729712299988 attempt_94: "profiterole" score:-1.98 prog:None
+T81.93202288499924 🤔 extract_1/4 #96 "sucre" score? 14.21
+T81.93222594999861 attempt_95: "sucre" score:14.21 prog:None
+T85.686754422999 🤔 extract_1/3 #97 "tartine" score? -10.09
+T85.68692108699906 attempt_96: "tartine" score:-10.09 prog:None
+T89.09498748199985 🤔 extract_1/2 #98 "truffe" score? .24
+T89.0951859379984 attempt_97: "truffe" score:0.24 prog:None
+T93.18635031199847 🤔 extract_1/1 #99 "éclair" score? -.23
+T93.18657796099978 attempt_98: "éclair" score:-0.23 prog:None
+T110.16848026699881 #100 ? *t2 seen with !new
+T110.1690231169996 chat_prompt: give me 20 French words that are seen with $1 and $2; do not list any words that you have already listed above
+T110.16932577399893 session: {"role": "user", "content": "give me 20 French words that are seen with \"croissant\" and \"fleuron\"; do not list any words that you have already listed above"}
+T150.85314204299902 session: {"role": "assistant", "content": "Here are 20 new French words that are similar in sound or structure to \"croissant\" and \"fleuron\", without duplicates:\n\n1. Roux (a mixture of flour and fat used in pastry)\n2. Cordonnet (a type of lace-like decoration)\n3. Fricot (a type of pastry crust)\n4. Couronne (a crown-shaped pastry or cake)\n5. Tartelette de Jambon (a small ham tart)\n6. Mille-Feuille d'Or (a layered pastry with a golden color)\n7. P\u00e2ton (a type of flatbread from Normandy)\n8. Fleuron\u00e9e (decorated with flowers)\n9. Cannel\u00e9 de G\u00e2teau (a confectionery made with cake and cream)\n10. \u00c9clairage de la Maison (lighting up the house)\n11. Biscuit d'Or (a golden-colored cookie)\n12. P\u00e2te \u00e0 Papier (paper-like pastry dough)\n13. Fricotage (a technique for shaping pastry)\n14. Cordon Bleu (a type of stuffed pastry)\n15. Tarte aux Fruits de Mer (sea fruit tart)\n16. G\u00e2teau de No\u00ebl (Christmas cake)\n17. P\u00e2tes d'Epices (spiced pastry dough)\n18. Fleuronnel\u00e9e (decorated with small flowers)\n19. Cannel\u00e9 de Chocolat (chocolate confectionery)\n20. Rouleau de P\u00e2tisserie (pastry rolling pin)\n\nThese words are all French and share similarities in sound or structure with \"croissant\" and \"fleuron\"."}
+T170.98443557299834 🤔 extract_1/19 #100 "biscuit" score? -.44
+T170.98464958199838 attempt_99: "biscuit" score:-0.44 prog:None
+T174.62144569699922 🤔 extract_1/18 #101 "bleu" score? -4.24
+T174.62183499499952 attempt_100: "bleu" score:-4.24 prog:None
+T178.46201227299935 🤔 extract_1/17 #102 "cordon" score? -3.27
+T178.46222012499857 attempt_101: "cordon" score:-3.27 prog:None
+T180.6295242749984 🤔 extract_1/16 #103 "couronne" score? 18
+T180.62977355199837 attempt_102: "couronne" score:18.00 prog:None
+T182.7372879809991 🤔 extract_1/15 #104 "epices" score? !
+T182.73745681199944 reject: "epices"
+T184.7860118719982 🤔 extract_1/14 #104 "fleuronnelée" score? !
+T184.78615191699828 reject: "fleuronnelée"
+T186.9396797849986 🤔 extract_1/13 #104 "fleuronée" score? !
+T186.93982694399892 reject: "fleuronée"
+T189.65011447399957 🤔 extract_1/12 #104 "fricot" score? -5.6
+T189.650299601999 attempt_103: "fricot" score:-5.60 prog:None
+T192.43784342899926 🤔 extract_1/11 #105 "fricotage" score? !
+T192.43797672499932 reject: "fricotage"
+T195.36604446099955 🤔 extract_1/10 #105 "jambon" score? -.95
+T195.3662156349983 attempt_104: "jambon" score:-0.95 prog:None
+T197.83540835099848 🤔 extract_1/9 #106 "maison" score? 3.51
+T197.83559243499985 attempt_105: "maison" score:3.51 prog:None
+T200.59499983799833 🤔 extract_1/8 #107 "mer" score? 10.32
+T200.59517165299985 attempt_106: "mer" score:10.32 prog:None
+T203.1981671049998 🤔 extract_1/7 #108 "noël" score? 2.43
+T203.19831874099873 attempt_107: "noël" score:2.43 prog:None
+T207.98445331199946 🤔 extract_1/6 #109 "or" score? 23.5 252
+T207.98467007499858 attempt_108: "or" score:23.50 prog:252
+T211.6353235439983 🤔 extract_1/5 #110 "papier" score? -6.92
+T211.63550665599905 attempt_109: "papier" score:-6.92 prog:None
+T215.1699019209991 🤔 extract_1/4 #111 "pâton" score? -2.97
+T215.1700804609991 attempt_110: "pâton" score:-2.97 prog:None
+T217.856265507 🤔 extract_1/3 #112 "rouleau" score? 1.03
+T217.85644314299861 attempt_111: "rouleau" score:1.03 prog:None
+T221.58810980599992 🤔 extract_1/2 #113 "roux" score? -9.94
+T221.58828153599825 attempt_112: "roux" score:-9.94 prog:None
+T226.6872990469983 🤔 extract_1/1 #114 "tarte" score? -3.21
+T226.68754356599857 attempt_113: "tarte" score:-3.21 prog:None
+T229.7380979519985 #115 ? *15 t3 /clear .
+T229.73865533099888 session clear
+T229.73871173399857 chat_prompt: give me 15 French words that are seen with $1, $2, and $3
+T229.73896700799924 session: {"role": "user", "content": "give me 15 French words that are seen with \"croissant\", \"or\", and \"fleuron\""}
+T248.8626551769994 session: {"role": "assistant", "content": "Here are 15 French words related to \"croissant\", \"or\", and \"fleuron\":\n\n1. Croissant - a type of flaky pastry\n2. Or (pronounced \"oh\") - a symbol used in heraldry or mathematics\n3. Fleuron - a decorative element, often used in architecture or jewelry design\n\nHere are 7 additional words related to these terms:\n\n4. P\u00e2te - the dough used to make croissants\n5. Fermentation - a process involved in making croissants rise\n6. Ornate (related to fleuron) - decorated with intricate patterns or designs\n7. Heraldry - the study of symbols, including the or symbol\n8. Fleur - French for flower\n9. Croissanterie - a bakery specializing in croissants\n10. Ornement - decorative element, similar to fleuron\n11. P\u00e2te feuille - a type of pastry dough used in making croissants\n12. Crustacean (related to or) - an animal with a hard outer shell, like an or symbol on a seal\n13. Ornamentation - the use of fleurons in decorative art"}
+T255.24202563799918 🤔 extract_1/4 #115 "crustacean" score? ...
+T257.27519672799826 🤔 extract_1/4 #115 "crustacean" score? !
+T257.2754446979998 reject: "crustacean"
+T259.0645769919993 🤔 extract_1/3 #115 "heraldry" score? !
+T259.06472168899927 reject: "heraldry"
+T260.71876587299994 🤔 extract_1/2 #115 "ornate" score? !
+T260.71891524199964 reject: "ornate"
+T263.7814795819995 🤔 extract_1/1 #115 "ornement" score? 11.09
+T263.7816781499987 attempt_114: "ornement" score:11.09 prog:None
+T271.1429750619991 #116 ? *15 related t3 !new
+T271.14326650399926 chat_prompt: give me 15 French words that are related to $1, $2, and $3; do not list any words that you have already listed above
+T271.14342040099837 session: {"role": "user", "content": "give me 15 French words that are related to \"croissant\", \"or\", and \"fleuron\"; do not list any words that you have already listed above"}
+T315.77415987699897 session: {"role": "assistant", "content": "Here are 15 new French words related to \"croissant\", \"or\", and \"fleuron\" that I haven't listed before:\n\n1. Beurrage (buttering) - a key step in making croissants\n2. R\u00e9duction (reducing) - a process used to make chocolate for decorating fleurons\n3. \u00c9clat (illumination) - the shine or sparkle of an ornate decoration like a fleuron\n4. Croquembouche (French for \"croissant\" + bouche) - a towering structure made from profiteroles\n5. Ornementation (ornamenting) - the art of decorating with fleurons and other elements\n6. P\u00e2te fra\u00eeche (fresh dough) - used to make croissants at home\n7. Fleuronner (to decorate with fleurons) - a verb used in architecture and design\n8. Flambage (flaming) - a technique used to add flavor or color to chocolate, like those used in decorating fleurons\n9. Croissantier (croissant baker) - a professional who specializes in making croissants\n10. Ornement de m\u00e9tal (metal ornamentation) - the use of metal fleurons and other decorative elements\n11. Fleuroniste (fleuron maker) - a person skilled in creating ornate decorations like fleurons\n12. P\u00e2te feuillet\u00e9e (layered dough) - used to make croissants with multiple layers of dough\n13. \u00c9tiquetage (labeling) - the use of labels or tags, like those used to identify different types of croissants\n14. Ornement des meubles (furniture ornamentation) - the art of decorating furniture with fleurons and other elements\n15. Croquemarie (French for \"croissant\" + m\u00e8re) - a type of yeast used in making croissants"}
+T340.1529126869991 🤔 extract_1/9 #116 "croissantier" score? !
+T340.15307980799844 reject: "croissantier"
+T341.92122399899927 🤔 extract_1/8 #116 "croquemarie" score? !
+T341.92143784699874 reject: "croquemarie"
+T343.98148778499854 🤔 extract_1/7 #116 "des" score? !
+T343.9816301919982 reject: "des"
+T345.6247711349988 🤔 extract_1/6 #116 "fleuroniste" score? !
+T345.62491076399965 reject: "fleuroniste"
+T347.3239975889992 🤔 extract_1/5 #116 "fleuronner" score? !
+T347.3241501169996 reject: "fleuronner"
+T354.8573124859995 🤔 extract_1/4 #116 "meubles" score? !
+T354.857465006 reject: "meubles"
+T358.2019182439999 🤔 extract_1/3 #116 "métal" score? 1.96
+T358.20210411599874 attempt_115: "métal" score:1.96 prog:None
+T361.69296029399993 🤔 extract_1/2 #117 "ornementation" score? 6.72
+T361.6931230379996 attempt_116: "ornementation" score:6.72 prog:None
+T364.53992775199913 🤔 extract_1/1 #118 "étiquetage" score? -5.39
+T364.54020540799866 attempt_117: "étiquetage" score:-5.39 prog:None
+T452.87061091299984 <INT>
+T0.010734674000559608 now: 2024-12-07T21:23:17EST
+T0.01131286600138992 request: {"method": "GET", "url": "https://cemantix.certitudes.org/stats", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantix.certitudes.org", "Referer": "https://cemantix.certitudes.org/"}, "data": null}
+T0.48563053300131287 response: {"url": "https://cemantix.certitudes.org/stats", "status": 200, "reason": "OK", "headers": {"server": "Fly/a2b2295bb (2024-12-06)", "date": "Sun, 08 Dec 2024 02:31:35 GMT", "connection": "keep-alive", "content-type": "application/json", "content-encoding": "gzip", "x-frame-options": "SAMEORIGIN", "transfer-encoding": "chunked", "via": "1.1 fly.io", "fly-request-id": "01JEJ1Q8WY8AP050TM1ZFKSWK8-lga"}, "content": "{\"num\":1012,\"solvers\":898}\n"}
+T3.488773746001243 #119 ? /clear
+T3.4894243630005803 session clear
+T5.173582838000584 #119 ? /prog
+T11.035839308000504 #119 ? *15 t3
+T11.036566907001543 chat_prompt: give me 15 French words that are related to $1, $2, and $3; do not list any words that you have already listed above
+T11.036739791999935 session: {"role": "system", "content": "You are a related word suggestion oracle. Give your responses as simple numbered lists of words related to the ones given by the user."}
+T11.036766465000255 session: {"role": "user", "content": "give me 15 French words that are related to \"croissant\", \"or\", and \"fleuron\"; do not list any words that you have already listed above"}
+T24.309893523000937 session: {"role": "assistant", "content": "Here are 15 French words related to \"croissant\", \"or\", and \"fleuron\":\n\n1. P\u00e2tisserie\n2. Croquembouche\n3. \u00c9clair\n4. Macaron\n5. Madeleine\n6. Mille-feuille\n7. Chouxpastry\n8. Brioche\n9. Pain au chocolat\n10. Galette des rois\n11. Finition\n12. Ornements\n13. Bijou\n14. Fa\u00e7on\n15. Croquissi\u00e8re"}
+T35.666101807000814 🤔 extract_1/8 #119 "bijou" score? 1.77
+T35.66634402599993 attempt_118: "bijou" score:1.77 prog:None
+T37.45853154600081 🤔 extract_1/7 #120 "chouxpastry" score? !
+T37.45868743400024 reject: "chouxpastry"
+T39.293398052001066 🤔 extract_1/6 #120 "croquissière" score? !
+T39.29356322700005 reject: "croquissière"
+T41.9532118670013 🤔 extract_1/5 #120 "façon" score? 2.18
+T41.95341354300035 attempt_119: "façon" score:2.18 prog:None
+T47.38549708000028 🤔 extract_1/4 #121 "galette" score? -4.29
+T47.38567089800017 attempt_120: "galette" score:-4.29 prog:None
+T50.754213496000375 🤔 extract_1/3 #122 "macaron" score? -5.05
+T50.75441167900135 attempt_121: "macaron" score:-5.05 prog:None
+T52.64440029100115 🤔 extract_1/2 #123 "ornements" score? !
+T52.64463259200056 reject: "ornements"
+T58.628109186000074 🤔 extract_1/1 #123 "rois" score? !
+T58.6282598780017 reject: "rois"
+T64.16759371400076 #123 ? !meh
+T64.16784422800083 chat_prompt: none of those word are very good
+T64.16811567700097 session: {"role": "user", "content": "none of those word are very good"}
+T74.95371910400172 session: {"role": "assistant", "content": "I'll try again with a new list of 15 French words related to \"croissant\", \"or\", and \"fleuron\":\n\n1. D\u00e9trempe\n2. Fougasse\n3. Pignon\n4. Cro\u00fbte\n5. Auge\n6. \u00c9clat\n7. Cro\u00eetre\n8. Fl\u00e2nerie\n9. Ornaisson\n10. Trancher\n11. Cordon\n12. P\u00e2turage\n13. Fleuronnel\n14. Filigrane\n15. Emboss\u00e9"}
+T79.75870981700064 🤔 extract_1/11 #123 "auge" score? 8.05
+T79.75895375200162 attempt_122: "auge" score:8.05 prog:None
+T86.42928466700141 🤔 extract_1/10 #124 "croître" score? 33.83 932
+T86.42953253800079 attempt_123: "croître" score:33.83 prog:932
+T89.80777004200172 🤔 extract_1/9 #125 "croûte" score? -2.31
+T89.80792902900066 attempt_124: "croûte" score:-2.31 prog:None
+T92.38886253700002 🤔 extract_1/8 #126 "embossé" score? !
+T92.38900063600158 reject: "embossé"
+T95.2904481580008 🤔 extract_1/7 #126 "filigrane" score? 4.6
+T95.29065083900059 attempt_125: "filigrane" score:4.60 prog:None
+T100.59056372800114 🤔 extract_1/6 #127 "fleuronnel" score? !
+T100.59076810500119 reject: "fleuronnel"
+T106.0014987300001 🤔 extract_1/5 #127 "flânerie" score? 12.24
+T106.00170977500056 attempt_126: "flânerie" score:12.24 prog:None
+T109.29886916500072 🤔 extract_1/4 #128 "fougasse" score? .69
+T109.29903717300112 attempt_127: "fougasse" score:0.69 prog:None
+T114.3961136630005 #129 ? *12 t2 
+T114.39686830900064 chat_prompt: give me 12 French words that are related to $1 and $2
+T114.39711811900088 session: {"role": "user", "content": "give me 12 French words that are related to \"cro\u00eetre\" and \"croissant\""}
+T124.6307327780014 session: {"role": "assistant", "content": "Here are 12 French words related to \"cro\u00eetre\" and \"croissant\":\n\n1. \u00c9tendre\n2. D\u00e9gager\n3. D\u00e9velopper\n4. Prolif\u00e9rer\n5. Cro\u00fbteux\n6. Flambage\n7. Fleurir\n8. Maturer\n9. Crescement\n10. Gratter\n11. G\u00e2teau\n12. Beurrage"}
+T127.09021976100121 🤔 extract_1/9 #129 "crescement" score? !
+T127.0904067090014 reject: "crescement"
+T130.00842499900136 🤔 extract_1/8 #129 "croûteux" score? 7.18
+T130.00853812600144 attempt_128: "croûteux" score:7.18 prog:None
+T135.98416633600027 🤔 extract_1/7 #130 "dégager" score? 7.4
+T135.98436237700116 attempt_129: "dégager" score:7.40 prog:None
+T138.64404726900102 🤔 extract_1/6 #131 "développer" score? 18.18
+T138.64418643700083 attempt_130: "développer" score:18.18 prog:None
+T141.41546750100133 🤔 extract_1/5 #132 "fleurir" score? 16.99
+T141.41568654100047 attempt_131: "fleurir" score:16.99 prog:None
+T144.4644161080014 🤔 extract_1/4 #133 "gratter" score? -4.94
+T144.46460349500012 attempt_132: "gratter" score:-4.94 prog:None
+T147.59692158300095 🤔 extract_1/3 #134 "maturer" score? -4.25
+T147.59710236200044 attempt_133: "maturer" score:-4.25 prog:None
+T150.4323780400009 🤔 extract_1/2 #135 "proliférer" score? 18.84
+T150.43258941100066 attempt_134: "proliférer" score:18.84 prog:None
+T155.51768518100107 🤔 extract_1/1 #136 "étendre" score? 23.46 248
+T155.5179537310014 attempt_135: "étendre" score:23.46 prog:248
+T159.32083965900165 #137 ? /prog
+T168.4490805940004 #137 ? *12 $1 ~1 $2 ~2
+T168.44978422400163 chat_prompt: give me 12 French words that are related to $1, ~1, $2, and ~2
+T168.45001298300122 session: {"role": "user", "content": "give me 12 French words that are related to \"cro\u00eetre\", \"\u00e9tendre\", \"croissant\", and \"cro\u00eetre\""}
+T180.03513314000156 session: {"role": "assistant", "content": "Here are 12 French words related to the given combination of words:\n\n1. \u00c9tendre\n2. D\u00e9velopper\n3. Prolif\u00e9rer\n4. Gratter\n5. Croustillant\n6. Flambage\n7. Fleurir\n8. Maturer\n9. Crescement\n10. Finition\n11. R\u00e9chauffe\n12. Auvent"}
+T184.677676487001 🤔 extract_1/3 #137 "auvent" score? -.97
+T184.67783410100128 attempt_136: "auvent" score:-0.97 prog:None
+T188.9822461700005 🤔 extract_1/2 #138 "croustillant" score? -10.76
+T188.98247298000024 attempt_137: "croustillant" score:-10.76 prog:None
+T190.76798668500123 🤔 extract_1/1 #139 "réchauffe" score? !
+T190.76813412200136 reject: "réchauffe"
+T195.13751083300122 #139 ? 
+T197.33234950299993 🤔 extract_1/3 #139 "ornaisson" score? !
+T197.33250344500084 reject: "ornaisson"
+T200.63038377400153 🤔 extract_1/2 #139 "pâturage" score? 14.07
+T200.63067910300015 attempt_138: "pâturage" score:14.07 prog:None
+T204.10009785000148 🤔 extract_1/1 #140 "trancher" score? -3.71
+T204.10028080400116 attempt_139: "trancher" score:-3.71 prog:None
+T204.5773900180011 #141 ? 
+T224.30079325299994 #141 ? *16 $1 ~1 $2 ~2 !new
+T224.30121703600162 chat_prompt: give me 16 French words that are related to $1, ~1, $2, and ~2; do not list any words that you have already listed above
+T224.30150999000034 session: {"role": "user", "content": "give me 16 French words that are related to \"cro\u00eetre\", \"\u00e9tendre\", \"croissant\", and \"cro\u00eetre\"; do not list any words that you have already listed above"}
+T240.51029522200042 session: {"role": "assistant", "content": "Here are 16 French words related to the given combination of words:\n\n1. \u00c9tendre\n2. D\u00e9velopper\n3. Prolif\u00e9rer\n4. Gratter\n5. Croustillant\n6. Flambage\n7. Fleurir\n8. Maturer\n9. Crescement\n10. Finition\n11. R\u00e9chauffe\n12. Auvent\n13. Rayonnement\n14. Expansion\n15. Croquant\n16. Fermeture"}
+T246.28065306400094 🤔 extract_1/3 #141 "expansion" score? 35.96 955
+T246.28083070499997 attempt_140: "expansion" score:35.96 prog:955
+T249.26878229900103 🤔 extract_1/2 #142 "fermeture" score? .53
+T249.2690238920004 attempt_141: "fermeture" score:0.53 prog:None
+T254.07362464200014 🤔 extract_1/1 #143 "rayonnement" score? 24.89 420
+T254.07400566700016 attempt_142: "rayonnement" score:24.89 prog:420
+T256.868953782001 #144 ? 
+T256.86924179500056 chat_prompt: _
+T256.86982395000086 session: {"role": "user", "content": "give me 16 French words that are related to \"expansion\", \"rayonnement\", \"cro\u00eetre\", and \"expansion\"; do not list any words that you have already listed above"}
+T275.55884241400054 session: {"role": "assistant", "content": "Here are 16 French words related to the given combination of words:\n\n1. Expansion\n2. Rayonnement\n3. D\u00e9sespoir\n4. Croissance\n5. \u00c9panouissement\n6. Progr\u00e8s\n7. D\u00e9veloppement\n8. Am\u00e9lioration\n9. Augmentation\n10. R\u00e9novation\n11. Reussite\n12. Prosp\u00e9rit\u00e9\n13. \u00c9mergence\n14. Expansionnisme\n15. \u00c9largissement\n16. Progresif"}
+T399.94927487300083 🤔 extract_1/14 #144 "amélioration" score? 15.77
+T399.9495295450015 attempt_143: "amélioration" score:15.77 prog:None
+T403.01663758700124 🤔 extract_1/13 #145 "augmentation" score? 16.79
+T403.0168381000003 attempt_144: "augmentation" score:16.79 prog:None
+T408.0946778910002 🤔 extract_1/12 #146 "croissance" score? 36.66 961
+T408.09488747900104 attempt_145: "croissance" score:36.66 prog:961
+T411.17844890200104 🤔 extract_1/11 #147 "désespoir" score? 15.77
+T411.1787294730002 attempt_146: "désespoir" score:15.77 prog:None
+T414.74317404000067 🤔 extract_1/10 #148 "développement" score? 26.38
+T415.6606192340005 🤔 extract_1/10 #148 "développement" 26.38°C prog‰ ? 591
+T415.6608013670011 attempt_147: "développement" score:26.38 prog:591
+T421.6794674970006 🤔 extract_1/9 #149 "expansionnisme" score? 32.43 891
+T421.67971639700045 attempt_148: "expansionnisme" score:32.43 prog:891
+T437.6099182420003 🤔 extract_1/8 #150 "progresif" score? !
+T437.6100649220007 reject: "progresif"
+T442.6120017310004 🤔 extract_1/7 #150 "progrès" score? 40.64 988
+T442.6122641340007 attempt_149: "progrès" score:40.64 prog:988
+T447.2373296280002 🤔 extract_1/6 #151 "prospérité" score? 100 1000
+T447.2375951910017 attempt_150: "prospérité" score:100.00 prog:1000
+T451.9173468880017 Paste share result, then preses <Enter>
+T451.9241272750005 share result: "J'ai trouv\u00e9 #cemantix n\u00ba1012 en 151 coups !\n\ud83e\udd73\n\ud83e\udd754\ufe0f\u20e3\n\ud83d\ude0e7\ufe0f\u20e3\n\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd76\ud83e\udd767\ufe0f\u20e37\ufe0f\u20e3\n\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca6\ufe0f\u20e32\ufe0f\u20e3\nhttps://cemantix.certitudes.org/"
+T451.92512760499994 <STOP>
