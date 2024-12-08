@@ -356,7 +356,7 @@ class StoredLog:
 
         if not puzzle_id:
             default_puzzle_id = f'{date:%Y-%m-%d}'
-            with ui.input('🧩 id (default: {default_puzzle_id}) ? ') as tokens:
+            with ui.input(f'🧩 id (default: {default_puzzle_id}) ? ') as tokens:
                 puzzle_id = next(tokens, '')
                 if puzzle_id:
                     ui.log(f'puzzle_id: {puzzle_id}')
