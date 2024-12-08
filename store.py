@@ -416,8 +416,9 @@ class StoredLog:
 
             elif 'remove'.startswith(token):
                 os.unlink(self.log_file)
-                self.__init__()
                 ui.print(f'// removed {self.log_file}')
+                self.__init__()
+                return self
 
             elif 'continue'.startswith(token):
                 return self.handle
