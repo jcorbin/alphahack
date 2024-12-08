@@ -2331,18 +2331,16 @@ class Search(StoredLog):
         parts: list[str] = []
 
         for resp in self.llm_client.chat(model=self.llm_model, messages=self.chat, stream=True):
+            resp = cast(ollama.ChatResponse, resp)
+
             with ui.print_exception(Exception,
                                     extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
-                mess = cast(object, resp['message'] )
-                assert isinstance(mess, dict)
-                # TODO validate mess : ollama.Message
-                mess = cast(ollama.Message, cast(object, mess))
 
-            # TODO care about resp['done'] / resp['done_reason'] ?
+                # TODO care about resp['done'] / resp['done_reason'] ?
 
-            try:
+                mess = resp['message'] 
                 role = mess['role']
-                assert isinstance(role, str)
+
                 if role != 'assistant':
                     # TODO note?
                     continue
@@ -2355,10 +2353,6 @@ class Search(StoredLog):
                 parts.append(content)
 
                 yield role, content
-
-            except:
-                ui.print(f'\n! {mess!r}')
-                raise
 
         self.chat_append(ui, {'role': 'assistant', 'content': ''.join(parts)})
 
