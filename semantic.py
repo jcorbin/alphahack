@@ -2300,15 +2300,17 @@ class Search(StoredLog):
             # TODO wrapped writer
             # TODO tee content into a word scanner
 
-            ui.write('... ')
-            for _, content in self.chat_say(ui, prompt):
-                a, sep, b = content.partition('\n')
-                ui.write(a)
-                while sep:
-                    end = sep
-                    a, sep, b = b.partition('\n')
-                    ui.write(f'{end}... {a}')
-            ui.fin()
+            try:
+                for _, content in self.chat_say(ui, prompt):
+                    a, sep, b = content.partition('\n')
+                    ui.write(a if ui.last == 'write' else f'... {a}')
+                    while sep:
+                        end = sep
+                        a, sep, b = b.partition('\n')
+                        ui.write(f'{end}... {a}')
+
+            finally:
+                ui.fin()
 
             self.chat_extract_scav = False
             if any(self.chat_extract_words()):
