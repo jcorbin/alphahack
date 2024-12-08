@@ -464,6 +464,7 @@ class Search(StoredLog):
     default_site: str = 'cemantle.certitudes.org'
     default_lang: str = ''
     default_chat_model: str = 'llama'
+    default_system_prompt: str = 'You are a related word suggestion oracle. Give your responses as simple numbered lists of words related to the ones given by the user.'
 
     pub_at = datetime.time(hour=0)
     pub_tzname = 'US/Pacific'
@@ -518,6 +519,7 @@ class Search(StoredLog):
         self.abbr: dict[str, str] = dict(default_abbr)
         self.chat: list[ollama.Message] = []
         self.chat_history: list[ChatSession] = []
+        self.system_prompt: str = ''
 
         self.last_chat_prompt: str|ChatPrompt = ''
         self.last_chat_basis: set[str] = set()
@@ -671,6 +673,12 @@ class Search(StoredLog):
     @override
     def startup(self, ui: PromptUI):
         if self.startup_done: return self.orient
+
+        if not self.system_prompt:
+            self.system_prompt = self.default_system_prompt
+
+        if self.system_prompt:
+            ui.log(f'system_prompt: {json.dumps(self.system_prompt)}')
 
         ui.write('Scraping index...')
         res = self.request(ui, 'get', '/')
@@ -897,6 +905,20 @@ class Search(StoredLog):
                 word, rest = match.groups()
                 assert rest == ''
                 self.reject(ui, word)
+                continue
+
+            match = re.match(r'''(?x)
+                system_prompt : \s* (?P<mess> .+ )
+                $''', rest)
+            if match:
+                mess, = match.groups()
+                try:
+                    dat = cast(object, json.loads(mess))
+                except json.JSONDecodeError:
+                    pass
+                else:
+                    if isinstance(dat, str):
+                        self.system_prompt = dat
                 continue
 
             match = re.match(r'''(?x)
@@ -1314,6 +1336,7 @@ class Search(StoredLog):
             'extract': self.chat_extract,
             'model': self.chat_model_cmd,
             'last': self.chat_last,
+            'system': self.chat_system_cmd,
         }
 
         if token == '?' or token == '/?':
@@ -2346,6 +2369,9 @@ class Search(StoredLog):
             ui.print(f'// No new words extracted from {self.chat_extract_desc}')
 
     def chat_say(self, ui: PromptUI, prompt: str):
+        if not self.chat and self.system_prompt:
+            self.chat_append(ui, {'role': 'system', 'content': self.system_prompt})
+
         if self.last_chat_tup != ('user', prompt):
             self.chat_append(ui, {'role': 'user', 'content': prompt})
 
@@ -2648,8 +2674,7 @@ class Search(StoredLog):
         self.chat_model(ui, model)
 
         if len(self.chat) > 0:
-            ui.log(f'session clear')
-            self.chat = []
+            self.chat_clear(ui)
             ui.print(f'Using model {self.llm_model!r} ; session cleared')
 
         else:
@@ -2659,6 +2684,16 @@ class Search(StoredLog):
         if self.llm_model != model:
             ui.log(f'session model: {model}')
             self.llm_model = model
+
+    def chat_system_cmd(self, ui: PromptUI):
+        with ui.tokens as tokens:
+            if tokens.empty:
+                for line in spliterate(self.system_prompt, '\n', trim=True):
+                    ui.print(f'[system]> {line}')
+
+            else:
+                self.system_prompt = tokens.rest
+                ui.log(f'system_prompt: {json.dumps(self.system_prompt)}')
 
 ### tests
 
