@@ -1,0 +1,224 @@
+T0.0003627909973147325 now: 2024-12-08T15:10:55EST
+T0.0004810270038433373 site: https://play.dictionary.com/games/todays-hurdle
+T1.5149287699969136 📜 nwl2023.txt ? 
+T1.5150086270004977 wordlist: nwl2023.txt
+T62.154884349001804 1.1> *
+T76.56259706799756 1.1> flung
+T79.80241729399859 1.1> tried flung
+T79.80250670199894 tried: flung
+T81.54636215599749 1.2> no flung
+T81.54646644300374 nope: fglnu
+T83.87452094699984 1.2> *
+T94.53934748000029 1.2> tried stare
+T94.53960699500021 tried: stare
+T96.07510896599706 1.3> no sa
+T96.07521823899879 nope: afglnsu
+T100.08320717300376 1.3> may tre
+T100.0834146030029 may: ert
+T101.32367205899936 1.3> *
+T109.62732163599867 1.3> tried crept
+T109.62757460399735 tried: crept
+T114.35511763799877 1.4> no cp
+T114.35527750199981 nope: acfglnpsu
+T115.96289763799723 1.4> *
+T122.67545748299744 1.4> tried timer
+T122.67574269099714 tried: timer
+T126.00267897199956 1.5> word ___er
+T126.0028434679989 word: ___er
+T128.32320973499736 1.5> may t
+T128.3234727290037 may: ert
+T129.65146534999803 1.5> may . t
+T129.6517361369988 may: t
+T131.77913638600148 1.5> no im
+T131.77939002600033 nope: acfgilmnpsu
+T132.91541371699714 1.5> *
+T143.0354415059992 1.5> word deter
+T143.03569938900182 word: deter
+T148.3948891530017 2.1> tried deter
+T148.39500091999798 tried: deter
+T153.41072174299916 2.2> no . de
+T153.41082438299782 nope: de
+T153.4108339719969 word: __t_r
+T155.35513058200013 2.2> may . tr
+T155.35539769099705 may: rt
+T159.13145959899703 2.2> *
+T160.84318625299784 2.2> *
+T161.5875138420015 <INT>
+T0.000926168002479244 now: 2024-12-08T15:13:38EST
+T0.9808013300062157 2.2> *
+T2.6284119200063287 2.2> *
+T8.676890815004299 2.2> word _____
+T8.677394610000192 word: _____
+T9.388360692006245 2.2> *
+T17.628747366004973 2.2> tried chart
+T17.628924689000996 tried: chart
+T19.341057873003592 2.3> on cha
+T21.32485907299997 2.3> no cha
+T21.325094671999977 nope: acdeh
+T26.25275570800295 2.3> word ____t
+T26.252996463001182 word: ____t
+T30.900567652999598 2.3> may . r
+T30.90075237500423 may: r
+T31.908765192005376 2.3> *
+T38.24471965900011 2.3> tried worst
+T38.244937542003754 tried: worst
+T41.71702996100066 2.4> word w__st
+T41.71735011599958 word: w__st
+T43.75676718700561 2.4> no o
+T43.75700137200329 nope: acdeho
+T47.500522922004166 2.4> *
+T68.00478938699962 2.4> word wrist
+T68.00493911800004 word: wrist
+T72.81301070400514 3.1> tried wrist
+T72.81320314299955 tried: wrist
+T75.46890935600095 3.2> word _____
+T75.46916025800601 word: _____
+T78.17320391000248 3.2> no wrist
+T78.17350246600108 nope: acdehiorstw
+T78.17353123900102 may: 
+T81.6367496180028 3.2> no . wrist
+T81.63699287300551 nope: irstw
+T84.12445326500165 3.2> *
+T94.39713051700528 3.2> tried afoul
+T94.3973698080008 tried: afoul
+T97.85273617300118 3.3> may ao
+T97.85295102500095 may: ao
+T99.66903171000013 3.3> no ful
+T99.6693609980066 nope: filrstuw
+T103.14865395500237 3.3> *
+T112.46105534700473 3.3> tried copay
+T112.46127552899998 tried: copay
+T115.21297374800633 3.4> word c____
+T115.21321931700368 word: c____
+T119.98874770800467 3.4> no py
+T119.98903142600466 nope: filprstuwy
+T121.70875370400609 3.4> *
+T135.66024951500003 3.4> tried canon
+T135.66032397399977 tried: canon
+T140.79627186300058 3.5> word cano_
+T140.79634515100042 word: cano_
+T144.00462784400588 3.5> no n
+T144.0049031170056 nope: filnprstuwy
+T144.0049395810056 word: ca_o_
+T145.86046336400614 3.5> may .
+T145.86070855000435 may: 
+T150.0288615190002 3.5> word cano_
+T150.02915628100163 word: cano_
+T153.30100220700115 3.5> *
+T160.7887895599997 3.5> word canoe
+T160.78898028600088 word: canoe
+T164.42073876700306 4.1> word _____
+T164.42092707100528 word: _____
+T166.47696594300214 4.1> tried canoe
+T166.4771943070009 tried: canoe
+T169.9889185350039 4.2> no . cno
+T169.98914336400048 nope: cno
+T173.74075408500357 4.2> may . a
+T173.7409666490057 may: a
+T176.1649437790038 4.2> word ____e
+T176.1653783990041 word: ____e
+T179.41273636100232 4.2> *
+T187.14857079500507 4.2> tried brave
+T187.1487135560019 tried: brave
+T190.50811675500154 4.3> no brv
+T190.50824142200145 nope: bcnorv
+T193.93248792600207 4.3> word __a_e
+T193.9326622830049 word: __a_e
+T196.81243920800625 4.3> may .
+T196.81259919100557 may: 
+T210.1248461810028 4.3> *
+T216.9487136950047 4.3> tried shame
+T216.94889763700485 tried: shame
+T218.49293337100244 4.4> no hm
+T218.4931602200013 nope: bchmnorv
+T224.28457985400019 4.4> word s_a_e
+T224.2847375870042 word: s_a_e
+T226.32487504100573 4.4> *
+T236.1166387150006 4.4> tried stale
+T236.11684781200165 tried: stale
+T240.02893500800565 4.5> word sta_e
+T240.02916029500193 word: sta_e
+T242.0205985950015 4.5> no l
+T242.0208694900066 nope: bchlmnorv
+T243.00486577700212 4.5> *
+T253.4768854310023 4.5> tried stage
+T253.4770497710051 tried: stage
+T261.06852193800296 4.6> no g
+T261.06873313600227 nope: bcghlmnorv
+T263.6049249070056 4.6> *
+T270.6923741730061 4.6> tried stake
+T270.69251866700506 tried: stake
+T272.22841018300096 4.7> word stake
+T272.2286905400033 word: stake
+T277.9162461540036 5.1> no .
+T277.9163758909999 nope: 
+T280.38874478500657 5.1> word _____
+T280.38900091899995 word: _____
+T354.78814964400226 5.1> tried deter
+T354.78823108399956 tried: deter
+T367.6762783430022 5.2> no dtr
+T367.6763842050059 nope: drt
+T375.7802000340016 5.2> may e
+T375.78029584300384 may: e
+T382.5081820170017 5.2> tried wrist
+T382.5082919320048 tried: wrist
+T389.13270584100246 5.3> no writ
+T389.1329315430048 nope: dirtw
+T391.0128814030031 5.3> may s
+T391.0130484860056 may: es
+T395.34829563500534 5.3> tried canoe
+T395.3483838770044 tried: canoe
+T398.97312275400327 5.4> no cno
+T398.9734256200027 nope: cdinortw
+T401.15689598500467 5.4> may ae
+T401.15716161599994 may: aes
+T404.82875961800164 5.4> tried stake
+T404.8289660590017 tried: stake
+T407.492558335005 5.5> no tk
+T407.492815206002 nope: cdiknortw
+T409.8211604390017 5.5> may sae
+T409.82143643699965 may: aes
+T412.8368014850057 5.5> *
+T430.0531035560052 5.5> tried pleas
+T430.0532935470037 tried: pleas
+T433.3730061650058 5.6> no pl
+T433.37326938900515 nope: cdiklnoprtw
+T437.42070569800126 5.6> word ___a_
+T437.420872212002 word: ___a_
+T440.5646759740048 5.6> may . es
+T440.5648643060049 may: es
+T443.0529255030051 5.6> *
+T461.5007144300034 5.6> *
+T477.74853969400283 5.6> tried sheaf
+T477.74868709000293 tried: sheaf
+T493.9968556320018 <INT>
+T0.0017979980038944632 now: 2024-12-08T15:23:52EST
+T4.190205156999582 5.7> fail
+T4.195619142999931 result: "Hurdle 1072\n\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n6/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\nscore: 4,440"
+T7.16665402900253 <INT>
+T0.0015537329963990487 now: 2024-12-08T15:29:29EST
+T5.72445315499499 5.7> 
+T6.572329319998971 5.7> fail
+T6.578980068996316 result: "Hurdle 1072\n\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n6/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\nscore: 4,440"
+T14.68443312299496 5.7> ␚
+T14.684528281999519 <EOF>
+T0.0016751280054450035 now: 2024-12-08T15:30:16EST
+T1.2510443060018588 5.7> fail
+T1.2554633200052194 result: "Hurdle 1072\n\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n6/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\nscore: 4,440"
+T6.014932727004634 5.7> fail
+T6.019709277999937 result: "Hurdle 1072\n\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n6/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\nscore: 4,440"
+T39.76659829200071 <INT>
+T0.0017610959985177033 now: 2024-12-08T15:30:57EST
+T0.8325757560014608 5.7> fail
+T0.8385152499977266 result: "Hurdle 1072\n\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n6/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\nscore: 4,440"
+T34.73658150299889 <INT>
+T0.0017827260016929358 now: 2024-12-08T15:31:33EST
+T0.7894580040010624 5.7> fail
+T0.794619138003327 result: "Hurdle 1072\n\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n6/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\nscore: 4,440"
+T1.9799928690044908 5.7> fail
+T1.986223603002145 result: "Hurdle 1072\n\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n6/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\nscore: 4,440"
+T8.868334475002484 <INT>
+T0.0019081400023424067 now: 2024-12-08T15:31:42EST
+T0.8522176750047947 5.7> fail
+T0.8578592280027806 result: "Hurdle 1072\n\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n6/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\nscore: 4,440"
+T58.932366191002075 <INT>
