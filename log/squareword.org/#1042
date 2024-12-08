@@ -1,0 +1,137 @@
+T0.00029221100703580305 now: 2024-12-08T15:06:22EST
+T0.0003877220005961135 site: squareword.org
+T5.960794590006117 📜 nwl2023.txt ? 
+T5.960889364003378 wordlist: nwl2023.txt
+T8.344572506000986 🧩  ? #1042
+T8.344787457004713 puzzle_id: #1042
+T11.776713871004176 > *
+T11.895816206000745 questioning: ["whops", "#5 found:8930 hypo:11881376"]
+T15.928966441002558 whops ( #5 found:8930 hypo:11881376 ) ? .
+T15.929050776001532 guess: whops
+T21.528992328007007 whops ( #5 found:8930 hypo:11881376 ) > 1 __o__ ~ ps
+T21.52946797300683 word: 0 __o__
+T21.52948471000127 may: 0 p s
+T29.305316165002296 whops ( #5 found:8930 hypo:11881376 ) > w____ ~ os
+T35.121187971002655 whops ( #5 found:8930 hypo:11881376 ) > 2 w____ ~ os
+T35.12144666600216 word: 1 w____
+T35.12147420500696 may: 1 o s
+T43.00872870600142 whops ( #5 found:8930 hypo:11881376 ) > 4 ____s
+T43.00889643700066 word: 3 ____s
+T43.00891117200081 may: 3 
+T46.19342866900115 whops ( #5 found:8930 hypo:11881376 ) > 5 ~ hos
+T46.193992362001154 word: 4 _____
+T46.1940178510049 may: 4 h o s
+T48.5051812380043 whops ( #5 found:8930 hypo:11881376 ) > 
+T48.50532917900273 question done
+T49.81762727000023 > *
+T50.17028214800666 questioning: ["worst", "#2 found:5 hypo:1352"]
+T56.3938189180044 worst ( #2 found:5 hypo:1352 ) ? .
+T56.39411678400211 guess: worst
+T59.697449624 worst ( #2 found:5 hypo:1352 ) > 2 wors_
+T59.69772566000029 word: 1 wors_
+T59.69775486700382 may: 1 
+T67.681832166003 worst ( #2 found:5 hypo:1352 ) > 4 ~ rt
+T67.68216772700544 word: 3 ____s
+T67.68220249800652 may: 3 r t
+T71.5614668010021 worst ( #2 found:5 hypo:1352 ) > 1 __o_t
+T71.56168152000464 word: 0 __o_t
+T71.56170667100378 may: 0 p s
+T75.56212806200347 worst ( #2 found:5 hypo:1352 ) > 3 ~ r
+T75.5624951120044 word: 2 _____
+T75.56253214300523 may: 2 r
+T81.73746875600045 worst ( #2 found:5 hypo:1352 ) > 5 _ors_ ~ h
+T81.73774759400112 word: 4 _ors_
+T81.73777392200282 may: 4 h
+T90.44191487000353 worst ( #2 found:5 hypo:1352 ) > *
+T92.6410608580045 worst ( #2 found:5 hypo:1352 ) > *
+T93.26551049500267 <INT>
+T0.0013071150024188682 now: 2024-12-08T15:07:58EST
+T1.4766631419988698 worst ( #2 found:5 hypo:1352 ) > 
+T1.4767989429965382 question done
+T3.036828083997534 > *
+T3.483320986000763 questioning: ["stopt", "#1 found:2 hypo:52"]
+T7.140683922996686 stopt ( #1 found:2 hypo:52 ) ? 
+T7.140797207997821 question done
+T8.1566696459995 > 
+T9.244908672997553 > *
+T9.250359894998837 questioning: ["stopt", "#1 found:2 hypo:52"]
+T10.260658378996595 stopt ( #1 found:2 hypo:52 ) ? 
+T10.260782858997118 question done
+T12.876871062995633 > * 2
+T15.156792536996363 > * 2
+T23.756693566996546 > 2 ~ 
+T29.82060213999648 > worst
+T29.82080448800116 questioning: ["worst", "entered"]
+T33.69244734200038 worst ( entered ) > 2 ~
+T33.69310856000084 word: 1 wors_
+T33.69312481599627 may: 1 
+T34.540446874001645 worst ( entered ) > 
+T34.5405579809958 question done
+T35.436860362002335 > *
+T35.48487239899987 questioning: ["worse", "#2 found:1 hypo:26"]
+T41.388838929000485 worse ( #2 found:1 hypo:26 ) ? .
+T41.38905775699823 guess: worse
+T43.66893153899582 worse ( #2 found:1 hypo:26 ) > 2 worse
+T43.669190021995746 word: 1 worse
+T43.66921500799799 may: 1 
+T50.564285578002455 worse ( #2 found:1 hypo:26 ) > 5 _orse ~ h
+T50.5644337900012 word: 4 _orse
+T50.564447783996 may: 4 h
+T55.548651438999514 worse ( #2 found:1 hypo:26 ) > 4 ~ e
+T55.548927201998595 word: 3 ____s
+T55.54895466000016 may: 3 e
+T58.12470948899863 worse ( #2 found:1 hypo:26 ) > 4 ~ rte
+T58.124985980997735 word: 3 ____s
+T58.12502054799552 may: 3 e r t
+T63.58077904200036 worse ( #2 found:1 hypo:26 ) > 3 ~ re
+T63.581054126996605 word: 2 _____
+T63.5810864840023 may: 2 e r
+T67.87693084700004 worse ( #2 found:1 hypo:26 ) > 
+T67.87712697000097 question done
+T69.94069573700108 > horse
+T69.94086922099814 questioning: ["horse", "entered"]
+T78.38011088699568 horse ( entered ) ? 5 horse
+T78.3801920459955 guess: horse
+T78.38022028999694 word: 4 horse
+T78.38023105500179 may: 4 
+T86.58859477599617 horse ( entered ) > 
+T86.58875542700116 question done
+T87.42066594000062 > *
+T87.62319142300112 questioning: ["stopt", "#1 found:2 hypo:52"]
+T98.86881256000197 stopt ( #1 found:2 hypo:52 ) ? .
+T98.86897251399932 guess: stopt
+T103.60458755699801 stopt ( #1 found:2 hypo:52 ) > 1 s_o_t ~ p
+T103.60484695799823 word: 0 s_o_t
+T103.60488487299881 may: 0 p
+T107.64413871299621 stopt ( #1 found:2 hypo:52 ) > 
+T107.64421088800009 question done
+T108.54080446199805 > *
+T108.63354023899592 questioning: ["spout", "#1 found:1 hypo:26"]
+T115.6211505579995 spout ( #1 found:1 hypo:26 ) ? .
+T115.62136626999563 guess: spout
+T116.58890264799993 spout ( #1 found:1 hypo:26 ) > 1 spout
+T116.58922316399548 word: 0 spout
+T116.58925768199697 may: 0 
+T121.30919780499971 spout ( #1 found:1 hypo:26 ) > 
+T121.30937104899931 question done
+T122.06903685299767 > *
+T122.1534610239978 questioning: ["tiers", "#4 found:1 hypo:156"]
+T126.23651922900171 tiers ( #4 found:1 hypo:156 ) ? .
+T126.2366408539965 guess: tiers
+T127.37283763099549 tiers ( #4 found:1 hypo:156 ) > 4 tiers
+T127.37313772799826 word: 3 tiers
+T127.37317359999724 may: 3 
+T128.24450037399947 tiers ( #4 found:1 hypo:156 ) > 
+T128.2446373349958 question done
+T129.0531835629954 > *
+T129.2597860850001 questioning: ["alder", "#3 found:1 hypo:35152"]
+T135.27679476699996 alder ( #3 found:1 hypo:35152 ) ? .
+T135.27697747600178 guess: alder
+T136.6210759769965 alder ( #3 found:1 hypo:35152 ) > 3 alder
+T136.62140430999716 word: 2 alder
+T136.6214416369985 may: 2 
+T139.41253642599622 alder ( #3 found:1 hypo:35152 ) > 
+T139.4126374490006 question done
+T139.94078387400077 Copy share result and press <Enter>
+T139.94651230300224 result: "squareword.org 1042: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1042"
+T139.9465762740001 <STOP>
