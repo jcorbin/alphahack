@@ -1635,10 +1635,7 @@ class Search(StoredLog):
 
         if clear:
             self.chat_clear_cmd(ui)
-
-        st = self.chat_prompt(ui, np)
-
-        return st
+        return self.chat_prompt(ui, np)
 
     def build_next_prompt(self, ui: PromptUI):
         def rec(token: str, *maybe: Callable[[str], str|None]):
