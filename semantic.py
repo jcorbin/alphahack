@@ -1981,6 +1981,7 @@ class Search(StoredLog):
         if self.prog_at is None:
             self.prog_at = self.scale.get('😎')
 
+        # TODO pushdown circa chat_say as a fixup attempt
         try:
             model = olm_find_model(self.llm_client, self.llm_model)
         except RuntimeError:
