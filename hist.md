@@ -1858,3 +1858,24 @@ See log/squareword.org/#1042
 # 2024-12-08 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1072
+
+# 2024-12-08 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 979
+🤔 559 guesses
+    🥳   1
+    🔥   3
+    🥵  22
+    😎  74
+    🥶 433
+    🧊  26
+⏱️ 9:23:12.341520
+```
+
+🤔 557 attempts
+📜 32 sessions
+🫧 7 chat sessions
+⁉️ 69 chat prompts
+🤖 62 chat replies
