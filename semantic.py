@@ -487,6 +487,36 @@ class ChatExtractMode:
         return desc
 
 @final
+class ExtractedWords:
+    def __init__(self,
+                 is_bad: Callable[[str], bool],
+                 is_good: Callable[[str], bool]):
+        self.reject = is_bad
+        self.known = is_good
+        self.bad: set[str] = set()
+        self.good: set[str] = set()
+        self.may: set[str] = set()
+        self.extracted = 0
+
+    def consume(self, words: Iterable[str]):
+        for word in words:
+            word = word.lower()
+            self.extracted += 1
+            if self.reject(word): self.bad.add(word)
+            elif self.known(word): self.good.add(word)
+            else: self.may.add(word)
+
+    @property
+    def notes(self):
+        yield f'found:{self.extracted}'
+        if self.bad: yield f'rejects:{len(self.bad)}'
+        if self.good: yield f'prior:{len(self.good)}'
+
+    @override
+    def __str__(self):
+        return ' '.join(self.notes)
+
+@final
 class Search(StoredLog):
     log_file: str = 'cemantle.log'
     default_site: str = 'cemantle.certitudes.org'
@@ -555,9 +585,6 @@ class Search(StoredLog):
         self.min_word_len: int = 2
 
         self.chat_extract_mode = ChatExtractMode('last')
-        self.extracted: int = 0
-        self.extracted_good: int = 0
-        self.extracted_bad: int = 0
 
     @property
     def pub_tz(self):
@@ -1687,7 +1714,7 @@ class Search(StoredLog):
         else:
             self.chat_model(ui, model)
 
-        if any(self.chat_extract_words(ChatExtractMode('last'))):
+        if any(self.chat_extract_words(ChatExtractMode('last')).may):
             return self.chat_extract
 
         return self.ideate
@@ -2075,12 +2102,9 @@ class Search(StoredLog):
         ui.log(f'reject: "{word}"')
         self.wordbad.add(word)
 
-    @property
-    def chat_extract_desc(self):
+    def chat_extract_desc(self, exw: ExtractedWords):
         desc = str(self.chat_extract_mode)
-        info = [f'found:{self.extracted}']
-        if self.extracted_bad: info.append(f'rejects:{self.extracted_bad}')
-        if self.extracted_good: info.append(f'prior:{self.extracted_good}')
+        info = list(exw.notes)
         if info: desc = f'{desc} ({" ".join(info)})'
         return desc
 
@@ -2111,24 +2135,16 @@ class Search(StoredLog):
             seen.add(word)
             yield val
 
-    def chat_extract_words(self, mode: ChatExtractMode|None = None) -> Generator[str]:
-        self.extracted = 0
-        self.extracted_good = 0
-        self.extracted_bad = 0
-
-        for _i, _j, _n, word in self.filter_words(
-            self.chat_extract_word_matchs(mode),
-            key = lambda ijn_word: ijn_word[3]):
-
-            word = word.lower()
-            self.extracted += 1
-            if word in self.wordbad:
-                self.extracted_bad += 1
-                continue
-            if word in self.wordgood:
-                self.extracted_good += 1
-                continue
-            yield word
+    def chat_extract_words(self, mode: ChatExtractMode|None = None):
+        exw = ExtractedWords(
+            lambda word: word in self.wordbad,
+            lambda word: word in self.wordgood)
+        exw.consume(
+            word
+            for _i, _j, _n, word in self.filter_words(
+                self.chat_extract_word_matchs(mode),
+                key = lambda ijn_word: ijn_word[3]))
+        return exw
 
     def chat_extract_word_matchs(self, mode: ChatExtractMode|None = None) -> Generator[tuple[int, int, int, str]]:
         if mode: self.chat_extract_mode = mode
@@ -2414,10 +2430,11 @@ class Search(StoredLog):
             finally:
                 ui.fin()
 
-            if any(self.chat_extract_words(ChatExtractMode('last'))):
+            exw = self.chat_extract_words(ChatExtractMode('last'))
+            if any(exw.may):
                 return self.chat_extract
 
-            ui.print(f'// No new words extracted from {self.chat_extract_desc}')
+            ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
 
     def chat_say(self, ui: PromptUI, prompt: str):
         if not self.chat and self.system_prompt:
@@ -2525,21 +2542,22 @@ class Search(StoredLog):
                     ui.print(f'// Usage: /extract [scavenge] [all|ls]')
                     return
 
-            words = sorted(self.chat_extract_words(ChatExtractMode(source)))
+            exw = self.chat_extract_words(ChatExtractMode(source))
+            words = sorted(exw.may)
 
             if do_list:
                 self.chat_extract_list(ui)
                 return self.ideate
 
             if not words:
-                ui.print(f'// No new words extracted from {self.chat_extract_desc}')
+                ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
                 return self.ideate
 
             if do_all:
                 return self.chat_extract_all
 
             ui.br()
-            ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc}')
+            ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
             iw = len(str(len(words)))
             for i, word in enumerate(words):
                 ui.print(f'[{i+1:{iw}}] {word}')
@@ -2573,14 +2591,15 @@ class Search(StoredLog):
                     return self.attempt_word(ui, words[n-1], f'extract_{n}/{len(words)}') or self.chat_extract
 
     def chat_extract_all(self, ui: PromptUI) -> PromptUI.State | None:
-        words = sorted(self.chat_extract_words())
+        exw = self.chat_extract_words()
+        words = sorted(exw.may)
         if not words:
-            ui.print(f'// No new words extracted from {self.chat_extract_desc}')
+            ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
             return self.ideate
 
         with ui.catch_state(KeyboardInterrupt, self.ideate):
             ui.br()
-            ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc}')
+            ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
             self.note_chat_basis_change(ui)
             return self.attempt_word(ui, words[0], f'extract_1/{len(words)}')
 
