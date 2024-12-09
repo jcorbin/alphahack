@@ -1,0 +1,178 @@
+T0.00017553300131112337 now: 2024-12-09T11:46:32EST
+T0.00022825600171927363 site: squareword.org
+T0.8606804990122328 📜 nwl2023.txt ? 
+T0.860848888012697 wordlist: nwl2023.txt
+T3.698132343008183 🧩  ? #1043
+T3.6983390280074673 puzzle_id: #1043
+T5.478632132013445 > *
+T5.582598104010685 questioning: ["nighs", "#5 found:5287 hypo:11881376"]
+T11.812379210008658 nighs ( #5 found:5287 hypo:11881376 ) ? .
+T11.81251884700032 guess: nighs
+T17.39904743700754 nighs ( #5 found:5287 hypo:11881376 ) > 1 ____s ~ s
+T17.399460835003993 word: 0 ____s
+T17.399472183009493 may: 0 s
+T19.919129850008176 nighs ( #5 found:5287 hypo:11881376 ) > 2 ~ i
+T19.91958884500491 word: 1 _____
+T19.919616615006817 may: 1 i
+T21.677833336012554 nighs ( #5 found:5287 hypo:11881376 ) > 3 ~ s
+T21.678055699012475 word: 2 _____
+T21.67809646599926 may: 2 s
+T24.70081888900313 nighs ( #5 found:5287 hypo:11881376 ) > 4 _i___
+T24.700922318006633 word: 3 _i___
+T24.700938972004224 may: 3 
+T28.18242973901215 nighs ( #5 found:5287 hypo:11881376 ) > 5 ~ s
+T28.182815663007204 word: 4 _____
+T28.182886722002877 may: 4 s
+T30.998630964008044 nighs ( #5 found:5287 hypo:11881376 ) > 
+T30.99872719999985 question done
+T33.04025390300376 > /no ghn
+T33.040480360999936 nope: g h n
+T34.7119001490064 > *
+T35.10510496501229 questioning: ["silds", "#1 found:188 hypo:12167"]
+T39.199642406005296 silds ( #1 found:188 hypo:12167 ) ? .
+T39.19971536801313 guess: silds
+T46.02283100700879 silds ( #1 found:188 hypo:12167 ) > 1 s___s ~ l
+T46.02316819500993 word: 0 s___s
+T46.0232313000015 may: 0 l
+T52.57580281200353 silds ( #1 found:188 hypo:12167 ) > 4 ~ d
+T52.575905047007836 word: 3 _i___
+T52.57591481599957 may: 3 d
+T57.132293156013475 silds ( #1 found:188 hypo:12167 ) > 5 s____
+T57.13248918901081 word: 4 s____
+T57.13251552100701 may: 4 
+T60.137952376011526 silds ( #1 found:188 hypo:12167 ) > 
+T60.138176656008 question done
+T61.185780471001635 > *
+T61.35900414500793 questioning: ["slums", "#1 found:34 hypo:529"]
+T66.19469045200094 slums ( #1 found:34 hypo:529 ) ? .
+T66.1947610710049 guess: slums
+T70.13423416600563 slums ( #1 found:34 hypo:529 ) > 1 sl_ms
+T70.13448755900026 word: 0 sl_ms
+T70.13451599300606 may: 0 
+T75.24559358300758 slums ( #1 found:34 hypo:529 ) > 4 ~m
+T75.24573040301038 word: 3 _i___
+T75.24574458401185 may: 3 m
+T77.34483027900569 slums ( #1 found:34 hypo:529 ) > 4 ~ dm
+T77.3449737970077 word: 3 _i___
+T77.34498847000941 may: 3 d m
+T79.74983164301375 slums ( #1 found:34 hypo:529 ) > 
+T79.74990776900086 question done
+T82.18472587500582 > /no u
+T82.18487322400324 nope: g h n u
+T84.1048184310057 > *
+T84.6173962860048 questioning: ["slams", "#1 found:1 hypo:22"]
+T87.67618721800682 slams ( #1 found:1 hypo:22 ) ? .
+T87.6762452180119 guess: slams
+T88.65845049401105 slams ( #1 found:1 hypo:22 ) > 1 slams
+T88.6585760070011 word: 0 slams
+T88.65859752400138 may: 0 
+T95.22468690200185 slams ( #1 found:1 hypo:22 ) > 5 s_a__
+T95.22479716400267 word: 4 s_a__
+T95.22481810100726 may: 4 
+T98.38148079600069 slams ( #1 found:1 hypo:22 ) > 3 ~ sa
+T98.38159361500584 word: 2 _____
+T98.38160717100254 may: 2 a s
+T101.1194670600089 slams ( #1 found:1 hypo:22 ) > 
+T101.11952629500593 question done
+T101.76272806301131 > *
+T101.94381340801192 questioning: ["miked", "#4 found:6 hypo:968"]
+T107.78572252800222 miked ( #4 found:6 hypo:968 ) ? .
+T107.7858073200041 guess: miked
+T112.60368953199941 miked ( #4 found:6 hypo:968 ) > 4 _i_ed ~ m
+T112.6038063140004 word: 3 _i_ed
+T112.60382358900097 may: 3 m
+T120.14975255000172 miked ( #4 found:6 hypo:968 ) > 2 ~ e
+T120.14985316900129 word: 1 _____
+T120.14986789000977 may: 1 e
+T126.27866499499942 miked ( #4 found:6 hypo:968 ) > 2 ~ ie
+T126.27878486200643 word: 1 _____
+T126.27880433099926 may: 1 e i
+T132.35161404700193 miked ( #4 found:6 hypo:968 ) > 3 ~ sae
+T132.3517531890102 word: 2 _____
+T132.35177763701358 may: 2 a e s
+T135.1770733680023 miked ( #4 found:6 hypo:968 ) > 
+T135.1771473580011 question done
+T141.03209889600112 > /no k
+T141.0323211530049 nope: g h k n u
+T142.41109257501375 > *
+T143.91100894000556 questioning: ["limed", "#4 found:2 hypo:21"]
+T149.119294559001 limed ( #4 found:2 hypo:21 ) ? .
+T149.11935894899943 guess: limed
+T153.1334109610034 limed ( #4 found:2 hypo:21 ) > 4 _imed
+T153.13355792900256 word: 3 _imed
+T153.1335760110087 may: 3 
+T158.8129101480008 limed ( #4 found:2 hypo:21 ) > 
+T158.8129917930055 question done
+T159.55941587300913 > *
+T160.88988461000554 questioning: ["arose", "#3 found:1 hypo:2646"]
+T165.86059658300655 arose ( #3 found:1 hypo:2646 ) ? .
+T165.86071157100378 guess: arose
+T167.1537060940027 arose ( #3 found:1 hypo:2646 ) > 3 arose
+T167.15379035500519 word: 2 arose
+T167.15379852200567 may: 2 
+T176.4671635590057 arose ( #3 found:1 hypo:2646 ) > 2 ~ ier
+T176.46743100701133 word: 1 _____
+T176.46746423000877 may: 1 e i r
+T179.76039757201215 arose ( #3 found:1 hypo:2646 ) > 5 ~ r
+T179.76057311501063 word: 4 s_a__
+T179.7605952030135 may: 4 r
+T181.41482827300206 arose ( #3 found:1 hypo:2646 ) > 
+T181.41487953200703 question done
+T182.18186293100007 > *
+T183.4665355180041 questioning: ["oorie", "#2 found:2 hypo:2646"]
+T186.9445417550014 oorie ( #2 found:2 hypo:2646 ) ? 
+T186.94467304600403 question done
+T187.5696842210018 > *
+T188.95869328800472 questioning: ["oorie", "#2 found:2 hypo:2646"]
+T193.26638974100933 oorie ( #2 found:2 hypo:2646 ) ? 
+T193.26648771000328 question done
+T196.76360874500824 > *
+T198.1390092720103 questioning: ["oorie", "#2 found:2 hypo:2646"]
+T206.26205959101208 oorie ( #2 found:2 hypo:2646 ) ? .
+T206.26211091000005 guess: oorie
+T216.5274764450005 oorie ( #2 found:2 hypo:2646 ) > 2 __rie ~ e
+T216.5275634710124 word: 1 __rie
+T216.52757071900123 may: 1 e
+T224.7231004040077 oorie ( #2 found:2 hypo:2646 ) > 
+T224.72322551900288 question done
+T225.41818442000658 > *
+T226.62063704601314 questioning: ["eyrie", "#2 found:1 hypo:21"]
+T232.4857360740134 eyrie ( #2 found:1 hypo:21 ) ? .
+T232.48585126700345 guess: eyrie
+T236.55339593000826 eyrie ( #2 found:1 hypo:21 ) > 2 eyrie
+T236.55358135500865 word: 1 eyrie
+T236.55360251800448 may: 1 
+T240.82046598500165 eyrie ( #2 found:1 hypo:21 ) > 5 ~ ry
+T240.820615360004 word: 4 s_a__
+T240.82063609700708 may: 4 r y
+T241.40086092001002 eyrie ( #2 found:1 hypo:21 ) > 
+T241.40095292200567 question done
+T241.960456773013 > *
+T242.8453626170085 questioning: ["scary", "#5 found:1 hypo:42"]
+T247.59046608500648 scary ( #5 found:1 hypo:42 ) ? .
+T247.59060991500155 guess: scary
+T248.94326452600944 scary ( #5 found:1 hypo:42 ) > 5 scary
+T248.94343949800532 word: 4 scary
+T248.94346014600887 may: 4 
+T252.3800429390103 scary ( #5 found:1 hypo:42 ) > 
+T252.38013886800036 question done
+T253.25010024300718 > *
+T253.83844088201295 questioning: ["mimed", "#4 found:1 hypo:21"]
+T262.59362407700974 mimed ( #4 found:1 hypo:21 ) ? 
+T262.5937901920115 question done
+T263.390060071004 > *
+T263.9774813630065 questioning: ["rimed", "#4 found:2 hypo:21"]
+T274.3074125550047 rimed ( #4 found:2 hypo:21 ) ? !
+T274.3075556290132 reject: rimed
+T275.7292808320053 > *
+T276.28205211801105 questioning: ["timed", "#4 found:2 hypo:21"]
+T280.31733550300123 timed ( #4 found:2 hypo:21 ) ? .
+T280.317445875 guess: timed
+T283.61484240100253 timed ( #4 found:2 hypo:21 ) > 4 timed
+T283.61516649600526 word: 3 timed
+T283.61522198100283 may: 3 
+T288.03660799300997 timed ( #4 found:2 hypo:21 ) > 
+T288.03677066400996 question done
+T288.85230683500413 Copy share result and press <Enter>
+T288.8553822750109 result: "squareword.org 1043: 13 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe7\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1043"
+T288.8554192550073 <STOP>
