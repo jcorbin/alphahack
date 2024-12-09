@@ -1929,3 +1929,22 @@ See log/squareword.org/#1043
 # 2024-12-09 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1073
+
+# 2024-12-09 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 980
+🤔 177 guesses
+    🥳   1
+    😎  26
+    🥶 145
+    🧊   5
+⏱️ 0:54:53.328620
+```
+
+🤔 177 attempts
+📜 0 sessions
+🫧 5 chat sessions
+⁉️ 18 chat prompts
+🤖 17 chat replies
