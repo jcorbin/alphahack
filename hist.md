@@ -2012,3 +2012,11 @@ See log/squareword.org/#1044
 
 🔗 alphaguess.com
 ```
+
+# 2024-12-10 https://play.dictionary.com/games/todays-hurdle
+
+See 
+
+# 2024-12-10 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1074
