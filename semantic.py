@@ -461,6 +461,23 @@ default_abbr = {
 ChatExtractSource = Literal['last', 'all']
 
 @final
+@dataclass
+class ChatExtractMode:
+    source: ChatExtractSource
+
+    @override
+    def __str__(self):
+        if self.source == 'all':
+            desc = 'chat history'
+
+        elif self.source == 'last':
+            desc = 'last chat reply'
+
+        else: assert_never(self.source)
+
+        return desc
+
+@final
 class Search(StoredLog):
     log_file: str = 'cemantle.log'
     default_site: str = 'cemantle.certitudes.org'
@@ -528,8 +545,7 @@ class Search(StoredLog):
 
         self.min_word_len: int = 2
 
-        self.chat_extract_source: ChatExtractSource = 'last'
-        self.chat_extract_from: str = ''
+        self.chat_extract_mode = ChatExtractMode('last')
         self.extracted: int = 0
         self.extracted_good: int = 0
         self.extracted_bad: int = 0
@@ -1654,7 +1670,7 @@ class Search(StoredLog):
         else:
             self.chat_model(ui, model)
 
-        self.chat_extract_source = 'last'
+        self.chat_extract_mode = ChatExtractMode('last')
         if any(self.chat_extract_words()):
             return self.chat_extract
 
@@ -2031,7 +2047,7 @@ class Search(StoredLog):
 
     @property
     def chat_extract_desc(self):
-        desc = self.chat_extract_from
+        desc = str(self.chat_extract_mode)
         info = [f'found:{self.extracted}']
         if self.extracted_bad: info.append(f'rejects:{self.extracted_bad}')
         if self.extracted_good: info.append(f'prior:{self.extracted_good}')
@@ -2085,25 +2101,23 @@ class Search(StoredLog):
             yield word
 
     def chat_extract_word_matchs(self) -> Generator[tuple[int, int, int, str]]:
-        source = self.chat_extract_source
+        mode = self.chat_extract_mode
 
-        if source == 'all':
-            self.chat_extract_from = 'chat history'
+        if mode.source == 'all':
             yield from (
                 (i, j, n, word)
                 for i, j, reply in self.role_history('assistant')
                 for line in spliterate(reply, '\n', trim=True)
                 for n, word in find_match_words(line))
 
-        elif source == 'last':
-            self.chat_extract_from = 'last chat reply'
+        elif mode.source == 'last':
             reply = next(role_content(reversed(self.chat), 'assistant'), None)
             if reply: yield from (
                 (0, 0, n, word)
                 for line in spliterate(reply, '\n', trim=True)
                 for n, word in find_match_words(line))
 
-        else: assert_never(source)
+        else: assert_never(mode.source)
 
     def describe_extracted_word(self, word: str):
         iw = len(str(len(self.word)))+1
@@ -2369,7 +2383,7 @@ class Search(StoredLog):
             finally:
                 ui.fin()
 
-            self.chat_extract_source = 'last'
+            self.chat_extract_mode = ChatExtractMode('last')
             if any(self.chat_extract_words()):
                 return self.chat_extract
 
@@ -2491,7 +2505,7 @@ class Search(StoredLog):
                 ui.print(f'// No new words extracted from {self.chat_extract_desc}')
                 return self.ideate
 
-            self.chat_extract_source = source
+            self.chat_extract_mode = ChatExtractMode(source)
             if do_all:
                 return self.chat_extract_all
 
