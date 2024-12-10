@@ -1969,10 +1969,24 @@ class Search(StoredLog):
         ui.print(f'Fin {self.describe_word(it)}')
 
         if not self.result_text:
-            _ = ui.input('Paste share result, then preses <Enter>')
+            auto = ui.input('Paste share result, then press <Enter>').raw.strip() == 'auto'
 
-            result = ui.paste().strip()
-            if not result: return
+            if auto:
+                def rank() -> Generator[Tier]:
+                    scale = tuple(self.scale[tier] for tier in tiers)
+                    for score in self.score:
+                        for j, temp in enumerate(scale[1:], 1):
+                            if score < temp:
+                                yield tiers[j-1]
+                                break
+                countab = Counter(rank())
+                counts = cast(TierCounts, tuple(countab[tier] for tier in tiers))
+                res = self.Result(int(self.puzzle_id[1:]), self.attempt-1, self.origin, self.site, counts)
+                result = '\n'.join(res.textlines())
+
+            else:
+                result = ui.paste().strip()
+                if not result: return
 
             ui.log(f'share result: {json.dumps(result)}')
             self.result_text = result
