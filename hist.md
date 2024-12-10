@@ -2000,3 +2000,15 @@ See log/play.dictionary.com_games_todays-hurdle/#1073
 # 2024-12-10 squareword.org
 
 See log/squareword.org/#1044
+
+# 2024-12-10 alphaguess.com
+
+```
+🧩 Puzzle #504
+
+🤔 12 guesses
+
+⏱️ 18s
+
+🔗 alphaguess.com
+```
