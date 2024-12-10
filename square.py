@@ -482,11 +482,7 @@ class Search(StoredLog):
         with ui.input('Copy share result and press <Enter>'):
             self.result_text = ui.paste()
             ui.log(f'result: {json.dumps(self.result_text)}')
-
-        if not self.stored:
-            raise StopIteration
-
-        return self.review
+        raise StopIteration
 
     @override
     def review(self, ui: PromptUI):

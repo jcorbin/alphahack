@@ -13,7 +13,7 @@ from typing import cast, final, override
 
 from strkit import spliterate
 from ui import PromptUI
-from store import StoredLog
+from store import StoredLog, git_txn
 
 def char_pairs(alpha: Iterable[str]):
     a, b = '', ''
@@ -350,16 +350,21 @@ class Search(StoredLog):
             self.puzzle_id = f'#{res.puzzle_id}'
             ui.log(f'puzzle_id: {self.puzzle_id}')
 
-        if not self.stored:
-            raise StopIteration
-
-        return self.review
+        raise StopIteration
 
     @override
     def review(self, ui: PromptUI):
-        if not self.puzzle_id:
-            res = self.result
-            if res: self.puzzle_id = f'#{res.puzzle_id}'
+        res = self.result
+        if not res:
+            with (
+                git_txn(f'{self.site} {self.puzzle_id} result fixup') as txn,
+                txn.will_add(self.log_file),
+                self.log_to(ui),
+            ):
+                st = self.finish
+                while not self.result_text:
+                    st = st(ui) or st
+            return
 
         return super().review(ui)
 
