@@ -1799,7 +1799,7 @@ class Search(StoredLog):
             yield f'🪙 {stats.token_count}'
         yield f'#{self.attempt+1}'
 
-    def prompt(self, ui: PromptUI, prompt: str):
+    def write_prompt(self, ui: PromptUI):
         first = True
         last = ''
         for part in self.prompt_parts():
@@ -1811,7 +1811,11 @@ class Search(StoredLog):
                     ui.write(f' {last}')
             last = part
         ui.fin()
-        return ui.input(f'{last} {prompt}')
+        if last: ui.write(f'{last} ')
+
+    def prompt(self, ui: PromptUI, prompt: str):
+        self.write_prompt(ui)
+        return ui.input(f'{prompt}')
 
     def ideate(self, ui: PromptUI) -> PromptUI.State|None:
         if self.found is not None:
