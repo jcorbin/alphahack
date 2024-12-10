@@ -2510,16 +2510,22 @@ class Search(StoredLog):
             with ui.tokens as tokens:
                 for token in tokens:
                     token = token.lower()
+
                     if token == 'all':
                         do_all = True
-                    elif token == 'ls':
+                        continue
+
+                    if token == 'ls':
                         do_list = True
-                    elif 'scavenge'.startswith(token):
+                        continue
+
+                    if 'scavenge'.startswith(token):
                         source = 'all'
-                    else:
-                        ui.print(f'! {ui.tokens.raw}')
-                        ui.print(f'// Usage: /extract [scavenge] [all|ls]')
-                        return
+                        continue
+
+                    ui.print(f'! {ui.tokens.raw}')
+                    ui.print(f'// Usage: /extract [scavenge] [all|ls]')
+                    return
 
             exw = self.chat_extract_words()
             words = sorted(exw.may)
