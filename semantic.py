@@ -1161,18 +1161,19 @@ class Search(StoredLog):
         yield f'📜 {len(self.sessions)} sessions'
         yield f'🫧 {len(self.chat_history)} chat sessions'
 
-        role_counts = self.chat_role_counts()
-        user = role_counts.get("user", 0)
-        asst = role_counts.get("assistant", 0)
+        chat_counts = self.chat_role_counts()
+        user = chat_counts.get("user", 0)
         if user: yield f'⁉️ {user} chat prompts'
-        if asst: yield f'🤖 {asst} chat replies'
+
+        for role, count in chat_counts.items():
+            if role in ('user', 'system'): continue
+            if count: yield f'🤖 {count} {role} replies'
 
     def chat_role_counts(self):
-        role_counts: Counter[str] = Counter()
-        for h in self.chat_history:
-            for mess in h.chat:
-                role_counts.update((mess['role'],))
-        return role_counts
+        return Counter(
+            mess['role']
+            for h in self.chat_history
+            for mess in h.chat)
 
     def meta(self):
         if self.today is not None: yield f'📆 {self.today:%Y-%m-%d}'
