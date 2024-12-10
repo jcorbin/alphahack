@@ -2082,10 +2082,13 @@ class Search(StoredLog):
             yield word
 
     def chat_extract_word_matchs(self) -> Generator[tuple[int, int, int, str]]:
+        self.chat_extract_info = []
+
         if self.chat_extract_scav:
             self.chat_extract_from = 'chat history'
             sn, hn = self.count_role_history('assistant')
-            self.chat_extract_info = [f'replies:{hn}', f'sessions:{sn}']
+            self.chat_extract_info.append(f'replies:{hn}')
+            self.chat_extract_info.append(f'sessions:{sn}')
             yield from (
                 (i, j, n, word)
                 for i, j, reply in self.role_history('assistant')
@@ -2094,7 +2097,6 @@ class Search(StoredLog):
 
         else:
             self.chat_extract_from = 'last chat reply'
-            self.chat_extract_info = []
             reply = next(role_content(reversed(self.chat), 'assistant'), None)
             if reply: yield from (
                 (0, 0, n, word)
