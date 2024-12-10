@@ -1977,3 +1977,22 @@ See log/play.dictionary.com_games_todays-hurdle/#1073
 ⏱️ 1m 1s
 🔗 alfagok.diginaut.net
 ```
+
+# 2024-12-10 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 981
+🤔 383 guesses
+    🥵   8
+    😎  44
+    🥶 302
+    🧊  29
+⏱️ 0:12:51.385025
+```
+
+🤔 384 attempts
+📜 5 sessions
+🫧 12 chat sessions
+⁉️ 59 chat prompts
+🤖 53 llama3.2:latest replies
