@@ -1161,13 +1161,19 @@ class Search(StoredLog):
         yield f'📜 {len(self.sessions)} sessions'
         yield f'🫧 {len(self.chat_history)} chat sessions'
 
-        chat_counts = self.chat_role_counts()
+        chat_counts = self.chat_model_counts()
         user = chat_counts.get("user", 0)
         if user: yield f'⁉️ {user} chat prompts'
 
         for role, count in chat_counts.items():
             if role in ('user', 'system'): continue
             if count: yield f'🤖 {count} {role} replies'
+
+    def chat_model_counts(self):
+        return Counter(
+            h.model if mess['role'] == 'assistant' else mess['role']
+            for h in self.chat_history
+            for mess in h.chat)
 
     def chat_role_counts(self):
         return Counter(
