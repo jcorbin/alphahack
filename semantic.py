@@ -458,6 +458,8 @@ default_abbr = {
     '!bad': 'all of those word are terrible',
 }
 
+ChatExtractSource = Literal['last', 'all']
+
 @final
 class Search(StoredLog):
     log_file: str = 'cemantle.log'
@@ -527,8 +529,8 @@ class Search(StoredLog):
         self.min_word_len: int = 2
 
         self.chat_extract_info: list[str] = []
+        self.chat_extract_source: ChatExtractSource = 'last'
         self.chat_extract_from: str = ''
-        self.chat_extract_scav: bool = False
         self.extracted: int = 0
         self.extracted_good: int = 0
         self.extracted_bad: int = 0
@@ -1642,7 +1644,7 @@ class Search(StoredLog):
         else:
             self.chat_model(ui, model)
 
-        self.chat_extract_scav = False
+        self.chat_extract_source = 'last'
         if any(self.chat_extract_words()):
             return self.chat_extract
 
@@ -2082,9 +2084,11 @@ class Search(StoredLog):
             yield word
 
     def chat_extract_word_matchs(self) -> Generator[tuple[int, int, int, str]]:
+        source = self.chat_extract_source
+
         self.chat_extract_info = []
 
-        if self.chat_extract_scav:
+        if source == 'all':
             self.chat_extract_from = 'chat history'
             sn, hn = self.count_role_history('assistant')
             self.chat_extract_info.append(f'replies:{hn}')
@@ -2095,13 +2099,15 @@ class Search(StoredLog):
                 for line in spliterate(reply, '\n', trim=True)
                 for n, word in find_match_words(line))
 
-        else:
+        elif source == 'last':
             self.chat_extract_from = 'last chat reply'
             reply = next(role_content(reversed(self.chat), 'assistant'), None)
             if reply: yield from (
                 (0, 0, n, word)
                 for line in spliterate(reply, '\n', trim=True)
                 for n, word in find_match_words(line))
+
+        else: assert_never(mode.source)
 
     def describe_extracted_word(self, word: str):
         iw = len(str(len(self.word)))+1
@@ -2367,7 +2373,7 @@ class Search(StoredLog):
             finally:
                 ui.fin()
 
-            self.chat_extract_scav = False
+            self.chat_extract_source = 'last'
             if any(self.chat_extract_words()):
                 return self.chat_extract
 
@@ -2456,7 +2462,7 @@ class Search(StoredLog):
 
     def chat_extract(self, ui: PromptUI) -> PromptUI.State | None:
         with ui.catch_state(KeyboardInterrupt, self.ideate):
-            self.chat_extract_scav = False
+            source: ChatExtractSource = 'last'
             do_all = False
             do_list = False
 
@@ -2468,7 +2474,7 @@ class Search(StoredLog):
                     elif token == 'ls':
                         do_list = True
                     elif 'scavenge'.startswith(token):
-                        self.chat_extract_scav = True
+                        source = 'all'
                     else:
                         ui.print(f'! {ui.tokens.raw}')
                         ui.print(f'// Usage: /extract [scavenge] [all|ls]')
@@ -2484,6 +2490,7 @@ class Search(StoredLog):
                 ui.print(f'// No new words extracted from {self.chat_extract_desc}')
                 return self.ideate
 
+            self.chat_extract_source = source
             if do_all:
                 return self.chat_extract_all
 
