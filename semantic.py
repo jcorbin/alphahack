@@ -1238,6 +1238,9 @@ class Search(StoredLog):
 
         if verbose:
             ui.print(f'> {req.method} {req.url}')
+            if data:
+                for key, value in data.items():
+                    ui.print(f'>     {key} = {value!r}')
         if verbose > 1:
             for k, v in req.headers.items():
                 ui.print(f'> {k}: {v}')
