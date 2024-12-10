@@ -1660,8 +1660,7 @@ class Search(StoredLog):
         else:
             self.chat_model(ui, model)
 
-        self.chat_extract_mode = ChatExtractMode('last')
-        if any(self.chat_extract_words()):
+        if any(self.chat_extract_words(ChatExtractMode('last'))):
             return self.chat_extract
 
         return self.ideate
@@ -2080,13 +2079,13 @@ class Search(StoredLog):
             seen.add(word)
             yield val
 
-    def chat_extract_words(self) -> Generator[str]:
+    def chat_extract_words(self, mode: ChatExtractMode|None = None) -> Generator[str]:
         self.extracted = 0
         self.extracted_good = 0
         self.extracted_bad = 0
 
         for _i, _j, _n, word in self.filter_words(
-            self.chat_extract_word_matchs(),
+            self.chat_extract_word_matchs(mode),
             key = lambda ijn_word: ijn_word[3]):
 
             word = word.lower()
@@ -2099,8 +2098,9 @@ class Search(StoredLog):
                 continue
             yield word
 
-    def chat_extract_word_matchs(self) -> Generator[tuple[int, int, int, str]]:
-        mode = self.chat_extract_mode
+    def chat_extract_word_matchs(self, mode: ChatExtractMode|None = None) -> Generator[tuple[int, int, int, str]]:
+        if mode: self.chat_extract_mode = mode
+        else: mode = self.chat_extract_mode
 
         self.chat_extract_info = []
 
@@ -2387,8 +2387,7 @@ class Search(StoredLog):
             finally:
                 ui.fin()
 
-            self.chat_extract_mode = ChatExtractMode('last')
-            if any(self.chat_extract_words()):
+            if any(self.chat_extract_words(ChatExtractMode('last'))):
                 return self.chat_extract
 
             ui.print(f'// No new words extracted from {self.chat_extract_desc}')
