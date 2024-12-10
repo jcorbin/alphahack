@@ -145,6 +145,15 @@ def parse_digits(s: str):
         else:
             raise ValueError(f'invalid digit string {s!r}')
 
+def make_digits(n: int):
+    while n > 0:
+        n, d = divmod(n, 10)
+        yield digits[d]
+
+def make_digit_str(n: int):
+    parts = list(make_digits(n))
+    return ''.join(reversed(parts))
+
 def parse_digit_int(s: str, default: int = 0):
     nn: int|None = None
     for n in parse_digits(s):
@@ -623,6 +632,14 @@ class Search(StoredLog):
             for i, count in enumerate(reversed(self.counts), start=1):
                 if count > 0:
                     yield f'{tiers[-i]} {count:>{cw}}'
+
+        def textlines(self):
+            yield f'I found #cemantle #{self.puzzle_id} in {self.guesses} guesses!'
+            for i, count in enumerate(reversed(self.counts), start=1):
+                if count > 0:
+                    n = 1 # TODO how does upstream choose
+                    yield f'{tiers[-i] * n}{make_digit_str(count)}'
+            yield self.link
 
         @classmethod
         def parse(cls, s: str):
