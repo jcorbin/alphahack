@@ -12,6 +12,7 @@ from collections import Counter
 from collections.abc import Generator, Iterable, MutableMapping, Sequence
 from dataclasses import dataclass
 from dateutil.tz import gettz
+from itertools import chain
 from typing import assert_never, cast, final, overload, override, Callable, Literal
 from urllib.parse import urlparse
 
@@ -19,6 +20,23 @@ from mdkit import break_sections, capture_fences, fenceit
 from store import StoredLog, git_txn
 from strkit import matchgen, spliterate, wraplines, MarkedSpec
 from ui import PromptUI
+
+def fmt_avg(nums: Iterable[float], prec: int = 2):
+    return f'avg({fmt_nums(sorted(nums))})'
+
+def fmt_nums(nums: Iterable[float], prec: int = 2):
+    return ' '.join(f'{num:.{prec}f}' for num in nums)
+
+def interleave[T](*its: Iterable[T]) -> Generator[T]:
+    them = tuple(iter(it) for it in its)
+    while True:
+        some = False
+        for it in them:
+            s = next(it, None)
+            if s is not None:
+                some = True
+                yield s
+        if not some: break
 
 def lang_code_to_kind(la: str):
     # TODO better
@@ -467,16 +485,21 @@ default_abbr = {
     '!bad': 'all of those word are terrible',
 }
 
-ChatExtractSource = Literal['last', 'all']
+ChatExtractSource = Literal['last', 'all']|tuple[int, int]
 
 @final
 @dataclass
 class ChatExtractMode:
     source: ChatExtractSource
+    exhaust: bool
 
     @override
     def __str__(self):
-        if self.source == 'all':
+        if isinstance(self.source, tuple):
+            i, j = self.source
+            desc = f'chat_{i}.{j}'
+
+        elif self.source == 'all':
             desc = 'chat history'
 
         elif self.source == 'last':
@@ -484,7 +507,7 @@ class ChatExtractMode:
 
         else: assert_never(self.source)
 
-        return desc
+        return f'{desc} {"all" if self.exhaust else "auto"}'
 
 @final
 class ExtractedWords:
@@ -580,12 +603,17 @@ class Search(StoredLog):
         self.system_prompt: str = ''
 
         self.last_chat_prompt: str|ChatPrompt = ''
-        self.last_chat_basis: set[str] = set()
+        self.last_chat_basis: dict[str, float] = dict()
 
         self.min_word_len: int = 2
 
         self.chat_extract_info: list[str] = []
-        self.chat_extract_mode = ChatExtractMode('last')
+        self.chat_extract_mode = ChatExtractMode('last', False)
+
+        self.explain_auto: bool = False
+        self.full_auto: bool = False
+        self.auto_token_limit = 400
+        self.auto_score = True
 
     @property
     def pub_tz(self):
@@ -1763,9 +1791,6 @@ class Search(StoredLog):
         else:
             self.chat_model(ui, model)
 
-        if any(self.chat_extract_words(ChatExtractMode('last')).may):
-            return self.chat_extract
-
         return self.ideate
 
     def generate(self, ui: PromptUI):
@@ -1934,19 +1959,280 @@ class Search(StoredLog):
         self.write_prompt(ui)
         return ui.input(f'{prompt}')
 
-    def ideate(self, ui: PromptUI) -> PromptUI.State|None:
-        if self.found is not None:
-            return self.finish
+    def automate(self, ui: PromptUI) -> Generator[tuple[float, str, str]]:
+        init = self.attempt == 0 and not self.chat
 
         if self.last_chat_role == 'user':
-            ui.print('// last chat prompt aborted; restart with `.`')
+            if not self.full_auto:
+                ui.print('// last chat prompt aborted; restart with `.`')
+            yield 0.1, '.', 'restart aborted chat prompt'
 
-        with self.prompt(ui, '? ') as tokens:
-            if tokens.empty:
-                if self.attempt == 0 and not self.chat:
-                    return self.generate(ui)
-                return
+        if init:
+            yield 1.0, '*', 'initial random'
 
+        some = False
+
+        cp = self.last_chat_prompt if isinstance(self.last_chat_prompt, ChatPrompt) else ChatPrompt(self.last_chat_prompt)
+        may_gen = cp.count
+
+        backlog = len(set(chain.from_iterable(
+            ex.extract_words().may
+            for ex in self.chat_history_extracts()
+        )))
+        backlog_mul = max(1.0, backlog / may_gen)
+
+        for ex in self.chat_history_extracts():
+            potential, explain = ex.potential()
+            if potential > 0:
+                score = backlog_mul * potential
+                if not self.full_auto:
+                    ui.print(f'// prior {ex.chat_i}.{ex.prompt_i} {ex.extract_words()} score: {score:.2f}')
+                yield score, f'/e {ex.source_str} all', '; '.join(chain([
+                    f'score = backlog_mul * potential',
+                    f'backlog_mul = max(1, backlog/may_gen)',
+                    f'backlog = {backlog}',
+                    f'may_gen = {may_gen}'
+                ], explain())) 
+                some = True
+
+        bc = self.analyze_basis()
+        if bc.any:
+            # TODO audit vs bc.any
+            # def is_last_chat_invalid(self):
+            #     if isinstance(self.last_chat_prompt, ChatPrompt):
+            #         return not all(
+            #             self.word_ref(k, n) in self.last_chat_basis
+            #             for k, n in self.last_chat_prompt.refs())
+            #     return False
+
+            sc_bn = bc.new_score / len(bc.new)
+            expect = sc_bn # TODO discount based on past basis performance
+            possible = may_gen * expect
+
+            explain = '; '.join([
+                f'possible = {possible:.2f} = may_gen * expect', 
+                f'may_gen = {may_gen}',
+                f'expect = sc_bn = {sc_bn:.2f} = {fmt_avg(bc.new.values())}',
+            ])
+
+            yield possible, '_', f'regen last; {explain}'
+            some = True
+
+        # TODO evaluate novel basis sets from recent chat_extract_all progress
+
+        if not some and self.word:
+            yield from self.auto_explore()
+
+        if len(self.chat_history):
+            yield 0.01, '/e scav all', '🎣 fallback',
+
+        if not init:
+            yield 0.00, '* /clear', '🎲 fallback'
+
+    def auto_explore(self) -> Generator[tuple[float, str, str]]:
+        lcp = ChatPrompt(self.last_chat_prompt) if isinstance(self.last_chat_prompt, str) else self.last_chat_prompt
+        if not any(lcp.refs()):
+            yield 0.1, '*4 $1 !new /clear', '🔭 init'
+            return
+
+        if self.chat_stats().token_count > self.auto_token_limit:
+            # TODO '_ /clear' or '* ... /clear' rather than reset refs?
+            yield 0.1, '*4 $1 !new /clear', '🔭🪙 reset'
+            return
+
+        # TODO this is one nascent exploration move "expand basis" ; implement others like "narrow basis", "moar", etc
+        vars: set[int] = set()
+        recs: set[int] = set()
+        for k, n in lcp.refs():
+            if k == '$': vars.add(n)
+            elif k == '~': recs.add(n)
+
+        if len(recs) < len(vars) and len(self.prog) > len(vars):
+            n = max(recs, default=0)+1
+            recs.add(n)
+            desc = f'add ~{n}'
+
+        else:
+            n = max(vars, default=0)+1
+            vars.add(n)
+            desc = f'add ${n}'
+
+        refs = ' '.join(interleave(
+            (f'${n}' for n in sorted(vars)),
+            (f'~{n}' for n in sorted(recs))
+        ))
+        yield 0.1, f'* {refs} !new', f'🔭 {desc}'
+
+    @final
+    class ChatHistoryExtract:
+        def __init__(self,
+                     search: 'Search',
+                     chat_i: int,
+                     prompt_i: int,
+                     prompt: str,
+                     reply: str
+                     ):
+            self.search = search
+            self.chat_i = chat_i
+            self.prompt_i = prompt_i
+            self.prompt = prompt
+            self.reply = reply
+
+        def extract_words(self):
+            exw = ExtractedWords(
+                lambda word: word in self.search.wordbad,
+                lambda word: word in self.search.wordgood)
+            exw.consume(self.search.filter_words(
+                word
+                for line in spliterate(self.reply, '\n', trim=True)
+                for _, word in find_match_words(line)
+            ))
+            return exw
+
+        @property
+        def basis_words(self):
+            for match in re.finditer(r'(?x) " ( [^"]+ ) "', self.prompt):
+                yield cast(str, match.group(1))
+
+        @property
+        def basis(self):
+            for word in set(self.basis_words):
+                score = self.search.score[self.search.word.index(word)] # TODO faster reverse index wen?
+                yield word, score
+
+        @property
+        def source(self) -> ChatExtractSource:
+            ij = self.chat_i, self.prompt_i
+            return 'last' if ij == (0, 0) else ij
+
+        @property
+        def source_str(self) -> str:
+            i, j = self.chat_i, self.prompt_i
+            return 'last' if (i, j) == (0, 0) else f'{i}.{j}'
+
+        @property
+        def mode(self):
+            return ChatExtractMode(self.source, False)
+
+        def potential(self):
+            exw = self.extract_words()
+
+            sc_g = 0.10 # TODO from prior
+
+            extracted = [
+                self.search.score[self.search.word.index(word)] # TODO faster reverse index wen?
+                for word in exw.good
+            ]
+
+            basis_scores = {
+                f'"{word}"': score
+                for word, score in self.basis
+            }
+
+            sc_b = sum(basis_scores.values()) / len(basis_scores) if basis_scores else 0
+            sc_e = sum(extracted) / len(extracted) if extracted else 0
+            expect = (sc_g + sc_e + sc_b) / 3
+            potential = len(exw.may) * expect
+
+            def explain():
+                yield f'potential = {potential:.2f} = may * expect'
+                yield f'may = {len(exw.may)}'
+                yield f'expect = {expect:.2f} = (sc_g+sc_b+sc_e)/3'
+                yield f'sc_b = {sc_b:.2f} = {fmt_avg(list(basis_scores.values()))}'
+                yield f'sc_e = {sc_e:.2f} = {fmt_avg(extracted)}'
+                yield f'sc_g = {sc_g:.2f}'
+
+            return potential, explain
+
+    def chat_history_extracts(self):
+        for i, j, prompt, reply in self.chat_history_pairs():
+            yield self.ChatHistoryExtract(self, i, j, prompt, reply)
+
+    def chat_history_pairs(self):
+        def prompt_pairs(chat: Sequence[ollama.Message]):
+            rev = reversed(chat)
+            while True:
+                for mess in rev:
+                    if mess['role'] == 'assistant':
+                        if 'content' not in mess: continue
+                        reply = mess['content']
+                        break
+                else: break
+
+                for mess in rev:
+                    if mess['role'] == 'user':
+                        if 'content' not in mess: continue
+                        prompt = mess['content']
+                        break
+                else: break
+
+                yield prompt, reply
+
+        for j, (prompt, reply) in enumerate(prompt_pairs(self.chat)):
+            yield 0, j, prompt, reply
+
+        for i, h in enumerate(reversed(self.chat_history), 1):
+            for j, (prompt, reply) in enumerate(prompt_pairs(h.chat)):
+                yield i, j, prompt, reply
+
+
+    def ideate_stop(self, ui: PromptUI) -> PromptUI.State|None:
+        if not self.full_auto:
+            raise KeyboardInterrupt
+
+        ui.br()
+        ui.print('🚏🚋🚏 Disengaging full auto')
+        self.full_auto = False
+        return self.ideate
+
+    def ideate(self, ui: PromptUI) -> PromptUI.State|None:
+        with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
+            if self.found is not None:
+                return self.finish
+
+            if not self.full_auto:
+                with self.prompt(ui, '? ') as tokens:
+                    if not tokens.empty:
+                        return self.do_ideate(ui)
+
+            may = sorted(self.automate(ui), reverse=True)
+
+            if not self.full_auto:
+                for n, (_, input, explain) in enumerate(may, 1):
+                    if self.explain_auto:
+                        ui.print(f'{n}. `{input}` ; {explain}')
+                    else:
+                        ui.print(f'{n}. `{input}`')
+                try:
+                    with ui.input('( 1. ) ? ') as tokens:
+                        if not tokens.empty:
+                            _, input, _ = may[int(next(tokens))-1]
+                            tokens.raw = input
+                            return self.do_ideate(ui)
+                except KeyboardInterrupt:
+                    return
+
+                ui.print(f'🛤️🚋🛤️ Engaging full auto')
+                self.full_auto = True
+
+            else:
+                # TODO loop / thrash / stall detection
+                ui.br()
+
+            for score, input, explain in may:
+                if self.explain_auto:
+                    ui.print(f'// {score} ; {explain}')
+                self.write_prompt(ui)
+                ui.fin(f'[AUTO]? {input}')
+                ui.tokens.raw = input
+                st = self.do_ideate(ui)
+                if st: return st
+
+            ui.print(f'// full auto exhausted')
+            self.full_auto = False
+
+    def do_ideate(self, ui: PromptUI) -> PromptUI.State|None:
+        with ui.tokens as tokens:
             if tokens.peek('').startswith('!'):
                 token = next(tokens)
                 try:
@@ -2049,7 +2335,15 @@ class Search(StoredLog):
         ui.print(f'Fin {self.describe_word(it)}')
 
         if not self.result_text:
-            auto = ui.input('Paste share result, then press <Enter>').raw.strip() == 'auto'
+            auto = False
+
+            if self.full_auto:
+                ui.print('🚉🚋🚉  Disengaging full auto, synthesising share result')
+                self.full_auto = False
+                auto = True
+
+            if not auto:
+                auto = ui.input('Paste share result, then press <Enter>').raw.strip() == 'auto'
 
             if auto:
                 def rank() -> Generator[Tier]:
@@ -2218,7 +2512,16 @@ class Search(StoredLog):
 
         self.chat_extract_info = []
 
-        if mode.source == 'all':
+        if isinstance(mode.source, tuple):
+            for i, j, _, reply in self.chat_history_pairs():
+                if (i, j) == mode.source:
+                    yield from (
+                        (i, j, n, word)
+                        for line in spliterate(reply, '\n', trim=True)
+                        for n, word in find_match_words(line))
+                    break
+
+        elif mode.source == 'all':
             sn, hn = self.count_role_history('assistant')
             self.chat_extract_info.append(f'replies:{hn}')
             self.chat_extract_info.append(f'sessions:{sn}')
@@ -2252,29 +2555,15 @@ class Search(StoredLog):
         return f'{lpad} {word:{ww}} {mpad} 🤔'
 
     def chat_extract_list(self, ui: PromptUI):
-        last_chat_i: int|None = None
-        last_rep_i: int|None = None
-        cw = len(str(len(self.chat_history)))
-        rw = max(len(str(len(h.chat))) for h in self.chat_history)
+        for ex in self.chat_history_extracts():
+            potential, explain = ex.potential()
+            if potential <= 0: continue
 
-        for chat_i, rep_i, n, word in self.filter_words(
-            self.chat_extract_word_matchs(),
-            key = lambda ijn_word: ijn_word[3]):
-
-            cee = ' ' * (cw+1)
-            if last_chat_i != chat_i:
-                last_chat_i = chat_i
-                last_rep_i = None
-                cee = (f'C{chat_i:<{cw}}')
-
-            ree = ' ' * (rw+1)
-            if last_rep_i != rep_i:
-                last_rep_i = rep_i
-                ree = f'R{rep_i:<{rw}}'
-
-            word = word.lower()
-            desc = self.describe_extracted_word(word)
-            ui.print(f'{cee} {ree} {n:>2}. {desc}')
+            prefix = f'{ex.chat_i}.{ex.prompt_i}.'
+            indent = ' '*len(prefix)
+            exw = ex.extract_words()
+            ui.print(f'{prefix} {potential:.2f} {len(exw.may)} of {exw}')
+            # ui.print(f'{indent} {"; ".join(explain())}')
 
     def attempt_word(self, ui: PromptUI, word: str, desc: str) -> PromptUI.State|None:
         if not word: return
@@ -2288,16 +2577,84 @@ class Search(StoredLog):
             ui.print(f'{self.describe_word(i, word=word)} is already known')
             return
 
-        with ui.catch_state(KeyboardInterrupt, self.ideate):
+        score: float|None = None
+        prog: int|None = None
+
+        ww = max(
+            len(word),
+            max(len(word) for word in self.word) if self.word else 0,
+            max(len(word) for word in self.wordbad) if self.wordbad else 0
+        )
+
+        if self.auto_score:
+            ui.write(f'Auto scoring {word!r:{ww}}...')
+            res = self.request(ui, 'post', '/score', data={'word': word})
+            data = cast(object, res.json())
+            if isinstance(data, dict):
+                data = cast(dict[str, object], data)
+                for key, value in data.items():
+                    if key == 'num' and isinstance(value, int):
+                        ok = f'#{value}' == self.puzzle_id
+                        if not ok:
+                            ui.fin(f' ! ❌ #{value} 🧩 {self.puzzle_id}')
+                            raise StopIteration
+
+                    elif key == 'error':
+                        ui.fin(f' ! {value}')
+                        self.reject(ui, word)
+                        return
+
+                    elif key == 'score' and isinstance(value, float):
+                        score = 100.0*value
+                        ui.write(f' score {value:2.4f} ...')
+
+                    elif key == 'percentile' and isinstance(value, int):
+                        prog = value
+
+                    elif key == 'solvers' and isinstance(value, int):
+                        pass # TODO track?
+
+                    else:
+                        ui.write(f' ??? {key}={value!r} ...')
+
+                if score is not None:
+                    prog_at = self.prog_after
+                    if prog_at is not None:
+                        if prog is None or prog >= prog_at:
+                            i = self.record(ui, word, score, prog)
+                            if i is not None:
+                                ui.fin(f' 💿 {self.describe_word(i)}')
+                            return self.finish if self.found else None
+
+        with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
             ui.br()
             ui.copy(word)
-            return self.attempt_score_word(ui, word, desc)
+            return self.attempt_score_word(ui, word, desc, score, prog)
 
-    def attempt_score_word(self, ui: PromptUI, word: str, desc: str) -> PromptUI.State|None:
+    @property
+    def prog_after(self):
+        if self.prog_at is not None:
+            return self.prog_at
+        if self.prog:
+            i = self.min_prog[0]
+            return self.score[i]
+        return None
+
+    def prog_req_for(self, score: float):
+        prog_at = self.prog_after
+        return False if prog_at is None or score < prog_at else True
+
+    def attempt_score_word(self,
+                           ui: PromptUI,
+                           word: str,
+                           desc: str,
+                           score: float|None = None,
+                           prog: int|None = None,
+                           ) -> PromptUI.State|None:
         orig_desc = desc
         desc = f'🤔 {desc} #{self.attempt+1} "{word}"'
 
-        while True:
+        while score is None:
             with ui.tokens_or(f'{desc} score? ') as tokens:
                 if tokens.empty: return
 
@@ -2344,19 +2701,15 @@ class Search(StoredLog):
 
                 desc = f'{desc} {score:.2f}°C'
 
-                prog_req = False
-                if self.prog_at is not None:
-                    prog_req = score >= self.prog_at
-                elif self.prog:
-                    i = self.min_prog[0]
-                    prog_req = score >= self.score[i]
-
-                if prog_req or not tokens.empty:
-                    return self.attempt_prog_word(ui, word, desc, score, prog_req)
+                if not tokens.empty:
+                    return self.attempt_prog_word(ui, word, desc, score, prog)
 
                 break
 
-        i = self.record(ui, word, score, None)
+        if self.prog_req_for(score) and prog is None:
+            return self.attempt_prog_word(ui, word, desc, score)
+
+        i = self.record(ui, word, score, prog)
         if i is not None:
             ui.print(f'💿 {self.describe_word(i)}')
 
@@ -2367,13 +2720,12 @@ class Search(StoredLog):
                           word: str,
                           desc: str,
                           score: float,
-                          prog_req: bool,
+                          prog: int|None = None,
                           ) -> PromptUI.State|None:
-        prog: int|None = None
 
-        while True:
+        while prog is None:
             with (
-                ui.tokens_or(f'{desc} prog‰ ? ') if prog_req else ui.tokens
+                ui.tokens_or(f'{desc} prog‰ ? ') if self.prog_req_for(score) else ui.tokens
             ) as tokens:
                 if not tokens.empty:
                     try:
@@ -2388,19 +2740,21 @@ class Search(StoredLog):
                         tokens.raw = ''
                         continue
 
-                    break
-                elif not prog_req:
-                    break
+            if self.prog_req_for(score):
+                ui.print('! prog‰ is required after {self.prog_at:.2f}°C for {desc}')
+                continue
 
-        if prog_req and prog is None:
-            ui.print('! prog‰ is required after {self.prog_at:.2f}°C for {desc}')
-            return
+            break
 
         i = self.record(ui, word, score, prog)
         if i is not None:
             ui.print(f'💿 {self.describe_word(i)}')
 
         if self.found: return self.finish
+
+    def word_ref_score(self, k: WordRef, n: int):
+        i, _, qword = self.word_iref(k, n)
+        return qword, self.score[i]
 
     def word_iref(self, k: WordRef, n: int):
         if k == '$':
@@ -2435,9 +2789,9 @@ class Search(StoredLog):
         assert_never(k)
 
     def collect_word_ref(self, k: WordRef, n: int):
-        word = self.word_ref(k, n)
-        self.last_chat_basis.add(word)
-        return word
+        qword, score = self.word_ref_score(k, n)
+        self.last_chat_basis[qword] = score
+        return qword
 
     def set_chat_prompt(self, ui: PromptUI, prompt: str|ChatPrompt):
         if isinstance(prompt, str) and prompt == '_':
@@ -2453,13 +2807,13 @@ class Search(StoredLog):
                 pass
 
         self.last_chat_prompt = prompt
-        self.last_chat_basis = set()
+        self.last_chat_basis = dict()
         return expand_word_refs(
             prompt if isinstance(prompt, str) else prompt.prompt,
             self.collect_word_ref)
 
     def chat_prompt(self, ui: PromptUI, prompt: str) -> PromptUI.State|None:
-        with ui.catch_state(KeyboardInterrupt, self.ideate):
+        with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
             # TODO do we tokenize and abbr-expand prompt here or in set_chat_prompt?
 
             # TODO can this be an abbr?
@@ -2477,7 +2831,7 @@ class Search(StoredLog):
                     prompt = self.set_chat_prompt(ui, prompt)
                 except ValueError as e:
                     ui.print('! {e}')
-                    return
+                    return self.ideate
 
             for line in wraplines(ui.screen_cols-4, prompt.splitlines()):
                 ui.print(f'>>> {line}')
@@ -2496,16 +2850,17 @@ class Search(StoredLog):
 
             except ollama.ResponseError as err:
                 ui.print(f'! ollama error: {err}')
-                return
+                return self.ideate # TODO ollama config state
 
             finally:
                 ui.fin()
 
-            exw = self.chat_extract_words(ChatExtractMode('last'))
+            exw = self.chat_extract_words(ChatExtractMode('last', False))
             if any(exw.may):
-                return self.chat_extract
+                return self.chat_extract_all
 
-            ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
+            if not self.full_auto:
+                ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
 
     def chat_say(self, ui: PromptUI, prompt: str):
         if not self.chat and self.system_prompt:
@@ -2578,19 +2933,71 @@ class Search(StoredLog):
         if not last: return (None, None)
         return (last['role'], last.get('content'))
 
-    def note_chat_basis_change(self, ui: PromptUI):
-        if isinstance(self.last_chat_prompt, ChatPrompt):
-            basis = set(self.word_ref(k, n) for k, n in self.last_chat_prompt.refs())
-            diffa = basis.difference(self.last_chat_basis)
-            diffb = self.last_chat_basis.difference(basis)
-            parts: list[str] = []
-            if diffb: parts.append(f'💤 {' '.join(sorted(diffb))}')
-            if diffa: parts.append(f'🛜 {' '.join(sorted(diffa))}')
-            if parts: ui.print(f'🫧 basis changed {' '.join(parts)}')
+    @final
+    class BasisChange:
+        def __init__(self, old: Iterable[tuple[str, float]], new: Iterable[tuple[str, float]]):
+            self.old = dict(old)
+            self.new = dict(new)
+
+        @property
+        def wired(self):
+            for word in self.new:
+                if word not in self.old: yield word
+
+        @property
+        def tired(self):
+            for word in self.old:
+                if word not in self.new: yield word
+
+        @property
+        def wired_items(self):
+            for word, score in self.new.items():
+                if word not in self.old: yield word, score
+
+        @property
+        def tired_items(self):
+            for word, score in self.old.items():
+                if word not in self.new: yield word, score
+
+        @property
+        def any(self):
+            return any(self.wired) or any(self.tired)
+
+        @property
+        def old_score(self):
+            return sum((sc for _, sc in self.old.items()), 0)
+
+        @property
+        def new_score(self):
+            return sum((sc for _, sc in self.new.items()), 0)
+
+        @property
+        def score(self):
+            return (
+                sum((sc for _, sc in self.wired_items), 0) -
+                sum((sc for _, sc in self.tired_items), 0))
+
+        @property
+        def notes(self):
+            dscore = self.score
+            if abs(dscore) >= 0.01: yield f'Δ🌡️ {dscore:.2f}°C'
+            if any(self.wired): yield f'🛜 {' '.join(sorted(self.wired))}'
+            if any(self.tired): yield f'💤 {' '.join(sorted(self.tired))}'
+
+        @override
+        def __str__(self):
+            return ' '.join(self.notes)
+
+    def analyze_basis(self):
+        last_refs = self.last_chat_prompt.refs() if isinstance(self.last_chat_prompt, ChatPrompt) else ()
+        return self.BasisChange(
+            self.last_chat_basis.items(),
+            (self.word_ref_score(k, n) for k, n in last_refs))
 
     def chat_extract(self, ui: PromptUI) -> PromptUI.State | None:
-        with ui.catch_state(KeyboardInterrupt, self.ideate):
+        with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
             source: ChatExtractSource = 'last'
+            exhaust = False
             do_all = False
             do_list = False
 
@@ -2598,7 +3005,16 @@ class Search(StoredLog):
                 for token in tokens:
                     token = token.lower()
 
+                    if token == 'last':
+                        source = 'last'
+                        continue
+
                     if token == 'all':
+                        exhaust = True
+                        do_all = True
+                        continue
+
+                    if token == 'auto':
                         do_all = True
                         continue
 
@@ -2610,70 +3026,123 @@ class Search(StoredLog):
                         source = 'all'
                         continue
 
+                    match = re.match(r'(?x) ( \d+ ) \. ( \d+ ) ', token)
+                    if match:
+                        chat_i = int(match.group(1))
+                        prompt_i = int(match.group(2))
+                        source = chat_i, prompt_i
+                        continue
+
                     ui.print(f'! {ui.tokens.raw}')
                     ui.print(f'// Usage: /extract [scavenge] [all|ls]')
                     return
 
-            exw = self.chat_extract_words()
+            exw = self.chat_extract_words(ChatExtractMode(source, exhaust))
             words = sorted(exw.may)
 
             if do_list:
                 self.chat_extract_list(ui)
-                return self.ideate
+                return
 
             if not words:
-                ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
-                return self.ideate
+                if not self.full_auto:
+                    ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
+                return
 
-            self.chat_extract_mode = ChatExtractMode(source)
             if do_all:
                 return self.chat_extract_all
 
-            ui.br()
-            ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
-            iw = len(str(len(words)))
-            for i, word in enumerate(words):
-                ui.print(f'[{i+1:{iw}}] {word}')
+            return self.chat_extract_one
 
-            self.note_chat_basis_change(ui)
+    def chat_extract_one(self, ui: PromptUI):
+        exw = self.chat_extract_words()
+        words = sorted(exw.may)
 
-            while True:
-                with self.prompt(ui, f'extract_') as tokens:
-                    if tokens.empty:
-                        return self.ideate
+        ui.br()
+        ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
+        iw = len(str(len(words)))
+        for i, word in enumerate(words):
+            ui.print(f'[{i+1:{iw}}] {word}')
 
-                    if tokens.have(r'_$'):
-                        return self.chat_prompt(ui, '_')
+        basis_change = str(self.analyze_basis())
+        if basis_change: ui.print(f'// {basis_change}')
 
-                    cmd = tokens.have(r'/.+$', lambda m: m[0])
-                    if cmd:
-                        return self.dispatch_cmd(ui, cmd)
+        with (
+            ui.catch_state(KeyboardInterrupt, self.ideate),
+            self.prompt(ui, f'extract_') as tokens
+        ):
+            if tokens.empty:
+                return self.ideate
 
-                    if tokens.have(r'\.\.\.$'):
-                        return self.chat_extract_all
+            if tokens.have(r'_$'):
+                return self.chat_prompt(ui, '_')
 
-                    try:
-                        n = int(next(tokens))
-                    except ValueError:
-                        ui.print('! invalid list number, expected integer')
-                        continue
-                    if not (0 < n <= len(words)):
-                        ui.print('! invalid list number, out of range')
-                        continue
+            cmd = tokens.have(r'/.+$', lambda m: m[0])
+            if cmd:
+                return self.dispatch_cmd(ui, cmd)
 
-                    return self.attempt_word(ui, words[n-1], f'extract_{n}/{len(words)}') or self.chat_extract
+            if tokens.have(r'\.\.\.$'):
+                return self.chat_extract_all
+
+            try:
+                n = int(next(tokens))
+            except ValueError:
+                ui.print('! invalid list number, expected integer')
+                return
+            if not (0 < n <= len(words)):
+                ui.print('! invalid list number, out of range')
+                return
+
+            return self.attempt_word(ui, words[n-1], f'extract_{n}/{len(words)}') or self.chat_extract
 
     def chat_extract_all(self, ui: PromptUI) -> PromptUI.State | None:
         exw = self.chat_extract_words()
         words = sorted(exw.may)
         if not words:
-            ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
+            if not self.full_auto:
+                ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
             return self.ideate
 
-        with ui.catch_state(KeyboardInterrupt, self.ideate):
-            ui.br()
-            ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
-            self.note_chat_basis_change(ui)
+        with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
+            basis_change = self.analyze_basis()
+            if basis_change.score > 0:
+
+                sc_bo = basis_change.old_score / len(basis_change.old)
+                sc_bn = basis_change.new_score / len(basis_change.new)
+
+                extracted = [
+                    self.score[self.word.index(word)] # TODO faster reverse index wen?
+                    for word in exw.good
+                ]
+                sc_e = sum(extracted, 0) / len(extracted)
+                expect = (sc_e + sc_bo) / 2
+
+                cp = self.last_chat_prompt if isinstance(self.last_chat_prompt, ChatPrompt) else ChatPrompt(self.last_chat_prompt)
+                may_gen = cp.count
+                possible = may_gen * sc_bn
+                potential = len(exw.may) * expect
+
+                if possible > potential and not self.chat_extract_mode.exhaust:
+                    explain = '; '.join([
+                        f'possible = {possible:.2f} = may_gen * sc_bn', 
+                        f'potential = {potential:.2f} = may * expect',
+                        f'may_gen = {may_gen}',
+                        f'may = {len(exw.may)}',
+                        f'expect = {expect:.2f} = (sc_bo+sc_e)/2',
+                        f'sc_bo = {sc_bo:.2f} = {fmt_avg(basis_change.old.values())}',
+                        f'sc_bn = {sc_bn:.2f} = {fmt_avg(basis_change.new.values())}',
+                        f'sc_e = {sc_e:.2f} = {fmt_avg(extracted)}',
+                    ])
+
+                    ui.print(f'🔙 possible > potential ; {explain}')
+                    return self.ideate
+
+            if not self.full_auto:
+                ui.br()
+                ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
+                basis_note = str(basis_change)
+                if basis_note: ui.print(f'// {basis_note}')
+
             return self.attempt_word(ui, words[0], f'extract_1/{len(words)}')
 
     def chat_last(self, ui: PromptUI):
