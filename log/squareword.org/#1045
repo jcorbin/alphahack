@@ -1,0 +1,135 @@
+T0.0001768699999047385 now: 2024-12-11T15:17:22EST
+T0.00022545100000570528 site: squareword.org
+T4.833643491999965 📜 nwl2023.txt ? 
+T4.833771135000006 wordlist: nwl2023.txt
+T12.563391026999852 🧩  ? #1045
+T12.56377049699995 puzzle_id: #1045
+T13.396678030999965 > *
+T13.491258608999942 questioning: ["adman", "#5 found:83 hypo:11881376"]
+T17.057699174999925 adman ( #5 found:83 hypo:11881376 ) ? .
+T17.05784521999999 guess: adman
+T19.979820666000023 adman ( #5 found:83 hypo:11881376 ) > 1 ~ a
+T19.980755834999854 word: 0 _____
+T19.980782723999937 may: 0 a
+T23.088359873999934 adman ( #5 found:83 hypo:11881376 ) > 2 a___n ~ a
+T23.08860181099999 word: 1 a___n
+T23.088622729000008 may: 1 a
+T24.5026207599999 adman ( #5 found:83 hypo:11881376 ) > 
+T24.502856329999986 question done
+T25.694501231000004 > /no d m
+T25.69512960199995 nope: d m
+T26.515900469999906 > *
+T26.75644102499996 questioning: ["again", "#2 found:1 hypo:576"]
+T29.578248871999904 again ( #2 found:1 hypo:576 ) ? .
+T29.578384545000063 guess: again
+T31.828846831999954 again ( #2 found:1 hypo:576 ) > 2 again
+T31.829031286999907 word: 1 again
+T31.829064342000038 may: 1 
+T36.16799856400007 again ( #2 found:1 hypo:576 ) > 1 ~ ai
+T36.16823668200004 word: 0 _____
+T36.16825837500005 may: 0 a i
+T38.85944361299994 again ( #2 found:1 hypo:576 ) > 3 ~ i
+T38.85974211100006 word: 2 _____
+T38.85977412600005 may: 2 i
+T40.32392531300002 again ( #2 found:1 hypo:576 ) > 4 ~ i
+T40.324284928 word: 3 _____
+T40.32432324599995 may: 3 i
+T42.17401123600007 again ( #2 found:1 hypo:576 ) > 
+T42.1741251599999 question done
+T43.35508573800007 > *
+T43.566953788999854 questioning: ["pilau", "#1 found:62 hypo:27648"]
+T47.90523028400003 pilau ( #1 found:62 hypo:27648 ) ? .
+T47.90538352999988 guess: pilau
+T52.36671818700006 pilau ( #1 found:62 hypo:27648 ) > 1 ~ ail
+T52.3669489639999 word: 0 _____
+T52.366974505999906 may: 0 a i l
+T56.176792490000025 pilau ( #1 found:62 hypo:27648 ) > 3 _i___
+T56.177110545999994 word: 2 _i___
+T56.177143674000035 may: 2 
+T58.484660088000055 pilau ( #1 found:62 hypo:27648 ) > 4 ~ il
+T58.484879457000034 word: 3 _____
+T58.484900973999856 may: 3 i l
+T60.45249908899996 pilau ( #1 found:62 hypo:27648 ) > 
+T60.45262457900003 question done
+T64.76002864799989 > /no updm
+T64.76028019599994 nope: d m p u
+T66.13536422800007 > *
+T66.52628721999986 questioning: ["lanai", "#1 found:3 hypo:2904"]
+T71.09019542199985 lanai ( #1 found:3 hypo:2904 ) ? .
+T71.09030773399991 guess: lanai
+T74.73372571200002 lanai ( #1 found:3 hypo:2904 ) > 1 la__i
+T74.7339261269999 word: 0 la__i
+T74.73394597399988 may: 0 
+T79.15686104999986 lanai ( #1 found:3 hypo:2904 ) > 
+T79.15699357199992 question done
+T80.60931649899999 > *
+T80.78751926899986 questioning: ["lassi", "#1 found:2 hypo:484"]
+T85.20197755100003 lassi ( #1 found:2 hypo:484 ) ? .
+T85.20210702200006 guess: lassi
+T88.59686963700005 lassi ( #1 found:2 hypo:484 ) > 1 lassi
+T88.59707504900007 word: 0 lassi
+T88.59709909999992 may: 0 
+T95.5004835289999 lassi ( #1 found:2 hypo:484 ) > 3 ~ s
+T95.50071710299994 word: 2 _i___
+T95.50074328200003 may: 2 s
+T98.00864170699992 lassi ( #1 found:2 hypo:484 ) > 5 __s__
+T98.00886201799995 word: 4 __s__
+T98.00888493699995 may: 4 
+T99.60783723700001 lassi ( #1 found:2 hypo:484 ) > 
+T99.60793098299996 question done
+T100.37544403499987 > *
+T100.54938038499995 questioning: ["yeses", "#5 found:42 hypo:234256"]
+T105.76330426699997 yeses ( #5 found:42 hypo:234256 ) ? .
+T105.763471643 guess: yeses
+T110.66997329600008 yeses ( #5 found:42 hypo:234256 ) > 3 _i_es
+T110.67021676800005 word: 2 _i_es
+T110.67024230100014 may: 2 
+T114.94223991199988 yeses ( #5 found:42 hypo:234256 ) > 4 ~ ile
+T114.94248338499983 word: 3 _____
+T114.9425094039998 may: 3 e i l
+T118.13492971400001 yeses ( #5 found:42 hypo:234256 ) > 5 _ese_
+T118.13517645699994 word: 4 _ese_
+T118.13520251299997 may: 4 
+T119.75239209099982 yeses ( #5 found:42 hypo:234256 ) > 
+T119.75252251899974 question done
+T121.5108970440001 > /no y
+T121.51108947700004 nope: d m p u y
+T122.4864302169999 > *
+T123.53985121400001 questioning: ["reset", "#5 found:1 hypo:441"]
+T127.35249492999992 reset ( #5 found:1 hypo:441 ) ? .
+T127.35270730599996 guess: reset
+T128.85803492700006 reset ( #5 found:1 hypo:441 ) > 5 reset
+T128.858286659 word: 4 reset
+T128.85831501599978 may: 4 
+T130.5940721689999 reset ( #5 found:1 hypo:441 ) > 
+T130.59419840600003 question done
+T131.431703663 > *
+T132.30953796099993 questioning: ["alive", "#4 found:1 hypo:2646"]
+T136.76104004399986 alive ( #4 found:1 hypo:2646 ) ? .
+T136.76115480299995 guess: alive
+T140.5035231060001 alive ( #4 found:1 hypo:2646 ) > 4 _live
+T140.5036913089998 word: 3 _live
+T140.5037087679998 may: 3 
+T150.57721087299979 alive ( #4 found:1 hypo:2646 ) > 
+T150.5773528499999 question done
+T151.2978378580001 > *
+T152.0668194760001 questioning: ["olive", "#4 found:1 hypo:21"]
+T156.89719285399997 olive ( #4 found:1 hypo:21 ) ? .
+T156.89732757299998 guess: olive
+T158.5633185040001 olive ( #4 found:1 hypo:21 ) > 4 olive
+T158.56355724100013 word: 3 olive
+T158.563582321 may: 3 
+T160.59661516999995 olive ( #4 found:1 hypo:21 ) > 
+T160.59674411700007 question done
+T161.21793422400015 > *
+T161.71071030099984 questioning: ["bikes", "#3 found:1 hypo:441"]
+T166.79810686200017 bikes ( #3 found:1 hypo:441 ) ? .
+T166.79827845599993 guess: bikes
+T168.10206328799995 bikes ( #3 found:1 hypo:441 ) > 3 bikes
+T168.10235488199987 word: 2 bikes
+T168.10238774699974 may: 2 
+T176.87418070700005 bikes ( #3 found:1 hypo:441 ) > 
+T176.87435475699976 question done
+T177.53786362599976 Copy share result and press <Enter>
+T177.5427539729999 result: "squareword.org 1045: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1045"
+T177.5428147749999 <STOP>
