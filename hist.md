@@ -1,10 +1,6 @@
+# 2024-10
 
-
-
-
-
-
-# 2024-10-07
+## 2024-10-07
 ```
 🧩 Puzzle #440
 
@@ -15,7 +11,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-08
+## 2024-10-08
 ```
 🧩 Puzzle #441
 
@@ -26,7 +22,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-09
+## 2024-10-09
 ```
 🧩 Puzzle #442
 
@@ -37,7 +33,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-10
+## 2024-10-10
 ```
 🧩 Puzzle #443
 
@@ -48,7 +44,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-11
+## 2024-10-11
 ```
 🧩 Puzzle #444
 
@@ -59,7 +55,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-12
+## 2024-10-12
 ```
 🧩 Puzzle #445
 
@@ -70,7 +66,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-13
+## 2024-10-13
 ```
 🧩 Puzzle #446
 
@@ -81,7 +77,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-14
+## 2024-10-14
 ```
 🧩 Puzzle #447
 
@@ -92,7 +88,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-15
+## 2024-10-15
 ```
 🧩 Puzzle #448
 
@@ -103,7 +99,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-16
+## 2024-10-16
 ```
 🧩 Puzzle #449
 
@@ -114,7 +110,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-17
+## 2024-10-17
 ```
 🧩 Puzzle #450
 
@@ -125,7 +121,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-18
+## 2024-10-18
 ```
 🧩 Puzzle #451
 
@@ -136,7 +132,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-19
+## 2024-10-19
 ```
 🧩 Puzzle #452
 
@@ -147,7 +143,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-20
+## 2024-10-20
 ```
 🧩 Puzzle #453
 
@@ -158,7 +154,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-21
+## 2024-10-21
 ```
 🧩 Puzzle #454
 
@@ -169,7 +165,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-22
+## 2024-10-22
 ```
 🧩 Puzzle #455
 
@@ -180,7 +176,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-23
+## 2024-10-23
 ```
 🧩 Puzzle #456
 
@@ -191,7 +187,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-24
+## 2024-10-24
 ```
 🧩 Puzzle #457
 
@@ -202,7 +198,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-25
+## 2024-10-25
 ```
 🧩 Puzzle #458
 
@@ -213,7 +209,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-26
+## 2024-10-26
 ```
 🧩 Puzzle #459
 
@@ -224,7 +220,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-27
+## 2024-10-27
 ```
 🧩 Puzzle #460
 
@@ -235,7 +231,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-28
+## 2024-10-28
 ```
 🧩 Puzzle #461
 
@@ -246,7 +242,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-29
+## 2024-10-29
 ```
  🧩 Puzzle #462
 
@@ -257,7 +253,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-30
+## 2024-10-30
 ```
 🧩 Puzzle #463
 
@@ -268,7 +264,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-10-31
+## 2024-10-31
 ```
 🧩 Puzzle #464
 
@@ -279,7 +275,9 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-01
+# 2024-11
+
+## 2024-11-01
 ```
 🧩 Puzzle #465
 
@@ -290,7 +288,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-02
+## 2024-11-02
 ```
 🧩 Puzzle #466
 
@@ -301,7 +299,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-03
+## 2024-11-03
 ```
 🧩 Puzzle #467
 
@@ -312,7 +310,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-04
+## 2024-11-04
 ```
 🧩 Puzzle #468
 
@@ -323,7 +321,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-05
+## 2024-11-05
 ```
 🧩 Puzzle #469
 
@@ -334,7 +332,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-06
+## 2024-11-06
 ```
 🧩 Puzzle #470
 
@@ -345,7 +343,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-07
+## 2024-11-07
 ```
 🧩 Puzzle #471
 
@@ -356,7 +354,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-08
+## 2024-11-08
 ```
 🧩 Puzzle #472
 
@@ -367,7 +365,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-08 alfagok.diginaut.net
+## 2024-11-08 alfagok.diginaut.net
 ```
 🧩 Puzzel #6
 
@@ -378,7 +376,7 @@
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-09 alphaguess.com
+## 2024-11-09 alphaguess.com
 ```
 🧩 Puzzle #473
 
@@ -389,7 +387,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-09 alfagok.diginaut.net
+## 2024-11-09 alfagok.diginaut.net
 ```
 🧩 Puzzel #7
 
@@ -400,7 +398,7 @@
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-10 alphaguess.com
+## 2024-11-10 alphaguess.com
 ```
 🧩 Puzzle #474
 
@@ -411,7 +409,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-10 alfagok.diginaut.net
+## 2024-11-10 alfagok.diginaut.net
 ```
 🧩 Puzzel #8
 
@@ -422,7 +420,7 @@
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-11 alphaguess.com
+## 2024-11-11 alphaguess.com
 ```
 🧩 Puzzle #475
 
@@ -433,7 +431,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-11 alfagok.diginaut.net
+## 2024-11-11 alfagok.diginaut.net
 ```
 🧩 Puzzel #9
 
@@ -444,7 +442,7 @@
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-12 alphaguess.com
+## 2024-11-12 alphaguess.com
 ```
 🧩 Puzzle #476
 
@@ -455,7 +453,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-12 alfagok.diginaut.net
+## 2024-11-12 alfagok.diginaut.net
 ```
 🧩 Puzzel #10
 
@@ -466,7 +464,7 @@
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-13 alphaguess.com
+## 2024-11-13 alphaguess.com
 ```
 🧩 Puzzle #477
 
@@ -477,7 +475,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-13 alfagok.diginaut.net
+## 2024-11-13 alfagok.diginaut.net
 ```
 🧩 Puzzel #11
 
@@ -488,7 +486,7 @@
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-14 alphaguess.com
+## 2024-11-14 alphaguess.com
 ```
 🧩 Puzzle #478
 
@@ -499,7 +497,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-14 alfagok.diginaut.net
+## 2024-11-14 alfagok.diginaut.net
 ```
 🧩 Puzzel #12
 
@@ -510,7 +508,7 @@
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-15 alphaguess.com
+## 2024-11-15 alphaguess.com
 ```
 🧩 Puzzle #479
 
@@ -521,7 +519,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-15 alfagok.diginaut.net
+## 2024-11-15 alfagok.diginaut.net
 ```
 🧩 Puzzel #13
 
@@ -532,7 +530,7 @@
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-16 alphaguess.com
+## 2024-11-16 alphaguess.com
 ```
 🧩 Puzzle #480
 
@@ -543,7 +541,7 @@
 🔗 alphaguess.com
 ```
 
-# 2024-11-16 alfagok.diginaut.net
+## 2024-11-16 alfagok.diginaut.net
 ```
 🧩 Puzzel #14
 
@@ -554,7 +552,7 @@
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-16 cemantle.certitudes.org
+## 2024-11-16 cemantle.certitudes.org
 ```
 I found #cemantle #957 in 95 guesses!
 🥳
@@ -565,7 +563,7 @@ I found #cemantle #957 in 95 guesses!
 https://cemantle.certitudes.org/ 
 ```
 
-# 2024-11-17 alphaguess.com
+## 2024-11-17 alphaguess.com
 ```
 🧩 Puzzle #481
 
@@ -576,7 +574,7 @@ https://cemantle.certitudes.org/
 🔗 alphaguess.com
 ```
 
-# 2024-11-17 alfagok.diginaut.net
+## 2024-11-17 alfagok.diginaut.net
 ```
 🧩 Puzzel #15
 
@@ -587,7 +585,7 @@ https://cemantle.certitudes.org/
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-17 cemantle.certitudes.org
+## 2024-11-17 cemantle.certitudes.org
 ```
 I found #cemantle #958 in 256 guesses!
 🥳
@@ -600,7 +598,7 @@ I found #cemantle #958 in 256 guesses!
 https://cemantle.certitudes.org/ 
 ```
 
-# 2024-11-18 alphaguess.com
+## 2024-11-18 alphaguess.com
 ```
 🧩 Puzzle #482
 
@@ -611,7 +609,7 @@ https://cemantle.certitudes.org/
 🔗 alphaguess.com
 ```
 
-# 2024-11-18 alfagok.diginaut.net
+## 2024-11-18 alfagok.diginaut.net
 ```
 🧩 Puzzel #16
 
@@ -622,7 +620,7 @@ https://cemantle.certitudes.org/
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-18 cemantle.certitudes.org
+## 2024-11-18 cemantle.certitudes.org
 
 ```
 I found #cemantle #959 in 190 guesses!
@@ -635,7 +633,7 @@ I found #cemantle #959 in 190 guesses!
 https://cemantle.certitudes.org/
 ```
 
-# 2024-11-19 alphaguess.com
+## 2024-11-19 alphaguess.com
 ```
 🧩 Puzzle #483
 
@@ -646,7 +644,7 @@ https://cemantle.certitudes.org/
 🔗 alphaguess.com
 ```
 
-# 2024-11-19 alfagok.diginaut.net
+## 2024-11-19 alfagok.diginaut.net
 ```
 🧩 Puzzel #17
 
@@ -657,7 +655,7 @@ https://cemantle.certitudes.org/
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-19 cemantle.certitudes.org
+## 2024-11-19 cemantle.certitudes.org
 ```
 I found #cemantle #960 in 174 guesses!
 🥳
@@ -669,7 +667,7 @@ I found #cemantle #960 in 174 guesses!
 https://cemantle.certitudes.org/
 ```
 
-# 2024-11-19 cemantix.certitudes.org
+## 2024-11-19 cemantix.certitudes.org
 
 ```
 J'ai trouvé #cemantix nº994 en 210 coups !
@@ -682,7 +680,7 @@ J'ai trouvé #cemantix nº994 en 210 coups !
 https://cemantix.certitudes.org/
 ```
 
-# 2024-11-20 alphaguess.com
+## 2024-11-20 alphaguess.com
 ```
 🧩 Puzzle #484
 
@@ -693,7 +691,7 @@ https://cemantix.certitudes.org/
 🔗 alphaguess.com
 ```
 
-# 2024-11-20 alfagok.diginaut.net
+## 2024-11-20 alfagok.diginaut.net
 ```
 🧩 Puzzel #18
 
@@ -704,7 +702,7 @@ https://cemantix.certitudes.org/
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-20 cemantle.certitudes.org
+## 2024-11-20 cemantle.certitudes.org
 
 ```
 🔗 cemantle.certitudes.org
@@ -724,7 +722,7 @@ https://cemantix.certitudes.org/
 🫧 38 chat prompts
 🤖 38 chat replies
 
-# 2024-11-20 cemantix.certitudes.org
+## 2024-11-20 cemantix.certitudes.org
 
 ```
 🔗 cemantix.certitudes.org
@@ -743,7 +741,7 @@ https://cemantix.certitudes.org/
 🫧 9 chat prompts
 🤖 9 chat replies
 
-# 2024-11-21 cemantle.certitudes.org
+## 2024-11-21 cemantle.certitudes.org
 
 ```
 🔗 cemantle.certitudes.org
@@ -763,7 +761,7 @@ https://cemantix.certitudes.org/
 🫧 60 chat prompts
 🤖 60 chat replies
 
-# 2024-11-21 cemantix.certitudes.org
+## 2024-11-21 cemantix.certitudes.org
 
 ```
 🔗 cemantix.certitudes.org
@@ -783,7 +781,7 @@ https://cemantix.certitudes.org/
 🫧 32 chat prompts
 🤖 32 chat replies
 
-# 2024-11-21 alphaguess.com
+## 2024-11-21 alphaguess.com
 ```
 🧩 Puzzle #485
 
@@ -794,7 +792,7 @@ https://cemantix.certitudes.org/
 🔗 alphaguess.com
 ```
 
-# 2024-11-21 alfagok.diginaut.net
+## 2024-11-21 alfagok.diginaut.net
 ```
 🧩 Puzzel #20
 
@@ -805,7 +803,7 @@ https://cemantix.certitudes.org/
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-22 cemantle.certitudes.org
+## 2024-11-22 cemantle.certitudes.org
 
 ```
 🔗 cemantle.certitudes.org
@@ -825,7 +823,7 @@ https://cemantix.certitudes.org/
 🫧 22 chat prompts
 🤖 22 chat replies
 
-# 2024-11-22 alphaguess.com
+## 2024-11-22 alphaguess.com
 ```
 🧩 Puzzle #486
 
@@ -836,7 +834,7 @@ https://cemantix.certitudes.org/
 🔗 alphaguess.com
 ```
 
-# 2024-11-23 cemantix.certitudes.org
+## 2024-11-23 cemantix.certitudes.org
 
 ```
 🔗 cemantix.certitudes.org
@@ -856,7 +854,7 @@ https://cemantix.certitudes.org/
 🫧 28 chat prompts
 🤖 28 chat replies
 
-# 2024-11-23 alfagok.diginaut.net
+## 2024-11-23 alfagok.diginaut.net
 
 ```
 🧩 Puzzel #21
@@ -868,7 +866,7 @@ https://cemantix.certitudes.org/
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-23 cemantle.certitudes.org
+## 2024-11-23 cemantle.certitudes.org
 
 ```
 🔗 cemantle.certitudes.org
@@ -888,7 +886,7 @@ https://cemantix.certitudes.org/
 🤖 9 chat replies
 
 
-# 2024-11-23 alphaguess.com
+## 2024-11-23 alphaguess.com
 
 ```
 🧩 Puzzle #487
@@ -900,7 +898,7 @@ https://cemantix.certitudes.org/
 🔗 alphaguess.com
 ```
 
-# 2024-11-23 alfagok.diginaut.net
+## 2024-11-23 alfagok.diginaut.net
 
 ```
 🧩 Puzzel #22
@@ -912,7 +910,7 @@ https://cemantix.certitudes.org/
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-24 cemantle.certitudes.org
+## 2024-11-24 cemantle.certitudes.org
 
 ```
 🔗 cemantle.certitudes.org
@@ -932,7 +930,7 @@ https://cemantix.certitudes.org/
 🤖 26 chat replies
 
 
-# 2024-11-24 alphaguess.com
+## 2024-11-24 alphaguess.com
 
 ```
 🧩 Puzzle #488
@@ -944,7 +942,7 @@ https://cemantix.certitudes.org/
 🔗 alphaguess.com
 ```
 
-# 2024-11-24 cemantix.certitudes.org
+## 2024-11-24 cemantix.certitudes.org
 
 ```
 🔗 cemantix.certitudes.org
@@ -967,7 +965,7 @@ https://cemantix.certitudes.org/
 🤖 119 chat replies
 
 
-# 2024-11-25 alfagok.diginaut.net
+## 2024-11-25 alfagok.diginaut.net
 
 ```
 🧩 Puzzel #23
@@ -976,7 +974,7 @@ https://cemantix.certitudes.org/
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-25 cemantle.certitudes.org
+## 2024-11-25 cemantle.certitudes.org
 
 ```
 🔗 cemantle.certitudes.org
@@ -998,7 +996,7 @@ https://cemantix.certitudes.org/
 🤖 67 chat replies
 
 
-# 2024-11-25 alphaguess.com
+## 2024-11-25 alphaguess.com
 
 ```
 🧩 Puzzle #489
@@ -1010,7 +1008,7 @@ https://cemantix.certitudes.org/
 🔗 alphaguess.com
 ```
 
-# 2024-11-25 cemantix.certitudes.org
+## 2024-11-25 cemantix.certitudes.org
 
 ```
 🔗 cemantix.certitudes.org
@@ -1031,7 +1029,7 @@ https://cemantix.certitudes.org/
 ⁉️ 14 chat prompts
 🤖 13 chat replies
 
-# 2024-11-26 cemantle.certitudes.org
+## 2024-11-26 cemantle.certitudes.org
 
 ```
 🔗 cemantle.certitudes.org
@@ -1052,7 +1050,7 @@ https://cemantix.certitudes.org/
 ⁉️ 43 chat prompts
 🤖 41 chat replies
 
-# 2024-11-26 alphaguess.com
+## 2024-11-26 alphaguess.com
 
 ```
 🧩 Puzzle #490
@@ -1064,7 +1062,7 @@ https://cemantix.certitudes.org/
 🔗 alphaguess.com
 ```
 
-# 2024-11-26 alfagok.diginaut.net
+## 2024-11-26 alfagok.diginaut.net
 
 ```
 🧩 Puzzel #24
@@ -1073,7 +1071,7 @@ https://cemantix.certitudes.org/
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-26 cemantix.certitudes.org
+## 2024-11-26 cemantix.certitudes.org
 
 ```
 🔗 cemantix.certitudes.org
@@ -1094,7 +1092,7 @@ https://cemantix.certitudes.org/
 ⁉️ 25 chat prompts
 🤖 23 chat replies
 
-# 2024-11-27 alfagok.diginaut.net
+## 2024-11-27 alfagok.diginaut.net
 
 ```
 🧩 Puzzel #25
@@ -1103,7 +1101,7 @@ https://cemantix.certitudes.org/
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-27 alphaguess.com
+## 2024-11-27 alphaguess.com
 
 ```
 🧩 Puzzle #491
@@ -1115,7 +1113,7 @@ https://cemantix.certitudes.org/
 🔗 alphaguess.com
 ```
 
-# 2024-11-27 cemantle.certitudes.org
+## 2024-11-27 cemantle.certitudes.org
 
 ```
 🔗 cemantle.certitudes.org
@@ -1136,7 +1134,7 @@ https://cemantix.certitudes.org/
 ⁉️ 15 chat prompts
 🤖 13 chat replies
 
-# 2024-11-27 cemantix.certitudes.org
+## 2024-11-27 cemantix.certitudes.org
 
 ```
 🔗 cemantix.certitudes.org
@@ -1157,7 +1155,7 @@ https://cemantix.certitudes.org/
 ⁉️ 11 chat prompts
 🤖 11 chat replies
 
-# 2024-11-27 alfagok.diginaut.net
+## 2024-11-27 alfagok.diginaut.net
 
 ```
 🧩 Puzzel #26
@@ -1166,11 +1164,11 @@ https://cemantix.certitudes.org/
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-28 squareword.org
+## 2024-11-28 squareword.org
 
 See log/squareword.org/#1031
 
-# 2024-11-28 cemantle.certitudes.org
+## 2024-11-28 cemantle.certitudes.org
 
 ```
 🔗 cemantle.certitudes.org
@@ -1192,7 +1190,7 @@ See log/squareword.org/#1031
 ⁉️ 18 chat prompts
 🤖 17 chat replies
 
-# 2024-11-28 alphaguess.com
+## 2024-11-28 alphaguess.com
 
 ```
 🧩 Puzzle #492
@@ -1204,11 +1202,11 @@ See log/squareword.org/#1031
 🔗 alphaguess.com
 ```
 
-# 2024-11-28 squareword.org
+## 2024-11-28 squareword.org
 
 See log/squareword.org/#1032
 
-# 2024-11-28 cemantix.certitudes.org
+## 2024-11-28 cemantix.certitudes.org
 
 ```
 🔗 cemantix.certitudes.org
@@ -1229,7 +1227,7 @@ See log/squareword.org/#1032
 ⁉️ 11 chat prompts
 🤖 11 chat replies
 
-# 2024-11-28 alfagok.diginaut.net
+## 2024-11-28 alfagok.diginaut.net
 
 ```
 🧩 Puzzel #27
@@ -1238,7 +1236,7 @@ See log/squareword.org/#1032
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-29 cemantle.certitudes.org
+## 2024-11-29 cemantle.certitudes.org
 
 ```
 🔗 cemantle.certitudes.org
@@ -1259,7 +1257,7 @@ See log/squareword.org/#1032
 ⁉️ 14 chat prompts
 🤖 14 chat replies
 
-# 2024-11-29 alphaguess.com
+## 2024-11-29 alphaguess.com
 
 ```
 🧩 Puzzle #493
@@ -1271,11 +1269,11 @@ See log/squareword.org/#1032
 🔗 alphaguess.com
 ```
 
-# 2024-11-29 squareword.org
+## 2024-11-29 squareword.org
 
 See log/squareword.org/#1033
 
-# 2024-11-29 cemantix.certitudes.org
+## 2024-11-29 cemantix.certitudes.org
 
 ```
 🔗 cemantix.certitudes.org
@@ -1296,7 +1294,7 @@ See log/squareword.org/#1033
 ⁉️ 32 chat prompts
 🤖 31 chat replies
 
-# 2024-11-30 alfagok.diginaut.net
+## 2024-11-30 alfagok.diginaut.net
 
 ```
 🧩 Puzzel #28
@@ -1305,7 +1303,7 @@ See log/squareword.org/#1033
 🔗 alfagok.diginaut.net
 ```
 
-# 2024-11-30 alphaguess.com
+## 2024-11-30 alphaguess.com
 
 ```
 🧩 Puzzle #494
@@ -1317,11 +1315,11 @@ See log/squareword.org/#1033
 🔗 alphaguess.com
 ```
 
-# 2024-11-30 squareword.org
+## 2024-11-30 squareword.org
 
 See log/squareword.org/#1034
 
-# 2024-11-30 cemantle.certitudes.org
+## 2024-11-30 cemantle.certitudes.org
 
 ```
 🔗 cemantle.certitudes.org
@@ -1343,7 +1341,7 @@ See log/squareword.org/#1034
 ⁉️ 86 chat prompts
 🤖 84 chat replies
 
-# 2024-11-30 cemantix.certitudes.org
+## 2024-11-30 cemantix.certitudes.org
 
 ```
 🔗 cemantix.certitudes.org
@@ -2012,10 +2010,6 @@ See log/squareword.org/#1044
 
 🔗 alphaguess.com
 ```
-
-# 2024-12-10 https://play.dictionary.com/games/todays-hurdle
-
-See 
 
 # 2024-12-10 https://play.dictionary.com/games/todays-hurdle
 
