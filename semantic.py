@@ -1370,32 +1370,49 @@ class Search(StoredLog):
         else:
             _ = headers.setdefault('Referer', f'{origin}/')
 
-        req = self.http_client.prepare_request(requests.Request(
-            method=method.upper(),
-            url=f'{self.origin}{path}',
-            headers=headers,
-            data=data,
-        ))
+        return self.send(ui,
+            requests.Request(
+                method=method.upper(),
+                url=f'{self.origin}{path}',
+                headers=headers,
+                data=data,
+            ),
+            allow_redirects=allow_redirects,
+            timeout=timeout,
+            verbose=verbose,
+        )
 
+    def send(self,
+        ui: PromptUI,
+        req: requests.Request,
+        allow_redirects: bool=True,
+        timeout: int = 3,
+        verbose: int|None = None,
+    ):
+        if verbose is None: verbose = self.http_verbose
+
+        try_req = self.http_client.prepare_request(req)
+
+        data = cast(object, req.data)
         if verbose:
-            ui.print(f'> {req.method} {req.url}')
-            if data:
-                for key, value in data.items():
+            ui.print(f'> {try_req.method} {try_req.url}')
+            if isinstance(data, dict):
+                for key, value in cast(dict[object, object], data).items():
                     ui.print(f'>     {key} = {value!r}')
         if verbose > 1:
-            for k, v in req.headers.items():
+            for k, v in try_req.headers.items():
                 ui.print(f'> {k}: {v}')
         ui.log(f'request: {json.dumps({
-            "method": req.method,
-            "url": req.url,
-            "headers": dict(req.headers),
+            "method": try_req.method,
+            "url": try_req.url,
+            "headers": dict(try_req.headers),
             "data": data,
         })}')
 
         if verbose > 1:
             ui.print(f'* timeout: {timeout}')
             ui.print(f'* allow_redirects: {allow_redirects}')
-        res = self.http_client.send(req,
+        res = self.http_client.send(try_req,
             timeout=timeout,
             allow_redirects=allow_redirects,
         )
