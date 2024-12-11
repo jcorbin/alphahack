@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
 import argparse
+import random
+import time
 import bs4
 import datetime
 import json
@@ -1358,6 +1360,8 @@ class Search(StoredLog):
         allow_redirects: bool=True,
         timeout: int = 3,
         verbose: int|None = None,
+        retries: int = 3,
+        backoff: float = 1.0,
     ):
         if verbose is None: verbose = self.http_verbose
         if headers is None: headers = {}
@@ -1380,6 +1384,8 @@ class Search(StoredLog):
             allow_redirects=allow_redirects,
             timeout=timeout,
             verbose=verbose,
+            retries=retries,
+            backoff=backoff,
         )
 
     def send(self,
@@ -1388,34 +1394,58 @@ class Search(StoredLog):
         allow_redirects: bool=True,
         timeout: int = 3,
         verbose: int|None = None,
+        retries: int = 3,
+        backoff: float = 1.0,
     ):
         if verbose is None: verbose = self.http_verbose
 
-        try_req = self.http_client.prepare_request(req)
+        res, err = None, None
+        for retry in range(retries):
+            if retry > 0:
+                delay = backoff * math.pow(2, retry)
+                delay *= (0.5 + random.random())
+                if verbose:
+                    ui.print(f'* backing off {datetime.timedelta(seconds=delay)}...')
+                time.sleep(delay)
 
-        data = cast(object, req.data)
-        if verbose:
-            ui.print(f'> {try_req.method} {try_req.url}')
-            if isinstance(data, dict):
-                for key, value in cast(dict[object, object], data).items():
-                    ui.print(f'>     {key} = {value!r}')
-        if verbose > 1:
-            for k, v in try_req.headers.items():
-                ui.print(f'> {k}: {v}')
-        ui.log(f'request: {json.dumps({
-            "method": try_req.method,
-            "url": try_req.url,
-            "headers": dict(try_req.headers),
-            "data": data,
-        })}')
+            try_req = self.http_client.prepare_request(req)
 
-        if verbose > 1:
-            ui.print(f'* timeout: {timeout}')
-            ui.print(f'* allow_redirects: {allow_redirects}')
-        res = self.http_client.send(try_req,
-            timeout=timeout,
-            allow_redirects=allow_redirects,
-        )
+            data = cast(object, req.data)
+            if verbose:
+                ui.print(f'> {try_req.method} {try_req.url}')
+                if isinstance(data, dict):
+                    for key, value in cast(dict[object, object], data).items():
+                        ui.print(f'>     {key} = {value!r}')
+            if verbose > 1:
+                for k, v in try_req.headers.items():
+                    ui.print(f'> {k}: {v}')
+            ui.log(f'request: {json.dumps({
+                "method": try_req.method,
+                "url": try_req.url,
+                "headers": dict(try_req.headers),
+                "data": data,
+            })}')
+
+            if verbose > 1:
+                ui.print(f'* timeout: {timeout}')
+                ui.print(f'* allow_redirects: {allow_redirects}')
+
+            try:
+                res = self.http_client.send(try_req,
+                    timeout=timeout,
+                    allow_redirects=allow_redirects,
+                )
+
+            except requests.RequestException as err:
+                if verbose:
+                    ui.print(f'! {err}')
+                continue
+            else:
+                err = None
+                break
+
+        if err: raise err
+        assert res
 
         if verbose:
             if verbose > 1:
