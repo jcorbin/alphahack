@@ -1610,6 +1610,10 @@ class Search(StoredLog):
             except requests.RequestException as e:
                 err = e
                 if verbose:
+                    strerror = getattr(err, 'strerror', None)
+                    errno = getattr(err, 'errno', None)
+                    ui.print(f'! errno:{errno!r}')
+                    ui.print(f'! strerror:{strerror!r}') # TODO collapse once we sort out how to hold it
                     ui.print(f'! {err}')
                 continue
 
