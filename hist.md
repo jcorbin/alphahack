@@ -2014,3 +2014,22 @@ See log/squareword.org/#1044
 # 2024-12-10 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1074
+
+# 2024-12-09 cemantix.certitudes.org
+
+```
+🔗 cemantix.certitudes.org
+🧩 1015
+🤔 248 guesses
+    🥵   3
+    😎  12
+    🥶 184
+    🧊  49
+⏱️ 0:15:32.380832
+```
+
+🤔 249 attempts
+📜 0 sessions
+🫧 10 chat sessions
+⁉️ 56 chat prompts
+🤖 56 llama3.2:latest replies
