@@ -467,7 +467,7 @@ default_abbr = {
     '!bad': 'all of those word are terrible',
 }
 
-ChatExtractSource = Literal['last', 'all']
+ChatExtractSource = Literal['last', 'all']|tuple[int, int]
 
 @final
 @dataclass
@@ -476,7 +476,11 @@ class ChatExtractMode:
 
     @override
     def __str__(self):
-        if self.source == 'all':
+        if isinstance(self.source, tuple):
+            i, j = self.source
+            desc = f'chat_{i}.{j}'
+
+        elif self.source == 'all':
             desc = 'chat history'
 
         elif self.source == 'last':
@@ -2146,7 +2150,9 @@ class Search(StoredLog):
         else: mode = self.chat_extract_mode
 
         want: set[tuple[int, int]]|bool = set()
-        if mode.source == 'all':
+        if isinstance(mode.source, tuple):
+            want.add(mode.source)
+        elif mode.source == 'all':
             want = True
         elif mode.source == 'last':
             want = False
@@ -2539,9 +2545,16 @@ class Search(StoredLog):
                         source = 'all'
                         continue
 
+                    match = re.match(r'(?x) ( \d+ ) \. ( \d+ ) ', token)
+                    if match:
+                        chat_i = int(match.group(1))
+                        prompt_i = int(match.group(2))
+                        source = chat_i, prompt_i
+                        continue
+
                     ui.print(f'! {ui.tokens.raw}')
                     ui.print(f'// Usage: /extract ls')
-                    ui.print(f'// Usage: /extract [scavenge|last] [all]')
+                    ui.print(f'// Usage: /extract [scavenge|last|N.M] [all]')
                     return
 
             exw = self.chat_extract_words(ChatExtractMode(source))
