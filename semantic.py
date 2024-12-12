@@ -22,6 +22,12 @@ from store import StoredLog, git_txn
 from strkit import matchgen, spliterate, wraplines, MarkedSpec
 from ui import PromptUI
 
+def fmt_avg(nums: Iterable[float], prec: int = 2):
+    return f'avg({fmt_nums(sorted(nums), prec=prec)})'
+
+def fmt_nums(nums: Iterable[float], prec: int = 2):
+    return ' '.join(f'{num:.{prec}f}' for num in nums)
+
 def lang_code_to_kind(la: str):
     # TODO better
     la = la.lower()
@@ -34,6 +40,25 @@ def role_history(chat: Sequence[ollama.Message], role: str):
         if mess['role'] != role: continue
         if 'content' not in mess: continue
         yield mess['content']
+
+def prompt_pairs(chat: Sequence[ollama.Message]):
+    rev = reversed(chat)
+    while True:
+        for mess in rev:
+            if mess['role'] == 'assistant':
+                if 'content' not in mess: continue
+                reply = mess['content']
+                break
+        else: break
+
+        for mess in rev:
+            if mess['role'] == 'user':
+                if 'content' not in mess: continue
+                prompt = mess['content']
+                break
+        else: break
+
+        yield prompt, reply
 
 def prog_mark(prog: int|None):
     if prog is None: return ''
@@ -2354,30 +2379,93 @@ class Search(StoredLog):
 
         return f'{lpad} {word:{ww}} {mpad} 🤔'
 
+    def chat_history_extracts(self):
+        for i, h in enumerate(self.all_chats()):
+            for j, (prompt, reply) in enumerate(prompt_pairs(h.chat)):
+                yield self.ChatHistoryExtract(self, i, j, prompt, reply)
+
+    @final
+    class ChatHistoryExtract:
+        def __init__(self,
+                     search: 'Search',
+                     chat_i: int,
+                     prompt_i: int,
+                     prompt: str,
+                     reply: str
+                     ):
+            self.search = search
+            self.chat_i = chat_i
+            self.prompt_i = prompt_i
+            self.prompt = prompt
+            self.reply = reply
+
+        def extract_words(self):
+            exw = ExtractedWords(
+                lambda word: word in self.search.wordbad,
+                lambda word: word in self.search.wordgood)
+            exw.consume(self.search.filter_words(
+                word
+                for line in spliterate(self.reply, '\n', trim=True)
+                for _, word in find_match_words(line)
+            ))
+            return exw
+
+        @property
+        def basis_words(self):
+            for match in re.finditer(r'(?x) " ( [^"]+ ) "', self.prompt):
+                yield cast(str, match.group(1))
+
+        @property
+        def basis(self):
+            for word in set(self.basis_words):
+                score = self.search.score[self.search.word.index(word)] # TODO faster reverse index wen?
+                yield word, score
+
+        def potential(self):
+            exw = self.extract_words()
+
+            # TODO pull out into ExtractedWords
+            extracted = [
+                self.search.score[
+                    self.search.word.index(word) # TODO faster reverse index wen?
+                ]
+                for word in exw.good
+            ]
+            basis = [score for _, score in self.basis]
+
+            sc_g = 0.50 # TODO from prior
+            sc_e = sum(extracted) / len(extracted) if extracted else 0.0
+            sc_b = sum(basis) / len(basis) if basis else 0.0
+
+            expect = (sc_g + sc_e + sc_b) / 3
+            potential = expect * len(exw.may)
+
+            def explain():
+                yield f'potential = {potential:.2f} = may * expect'
+                yield f'may = {len(exw.may)}'
+                yield f'expect = {expect:.2f} = (sc_g+sc_e+sc_b)/3'
+                yield f'sc_g = {sc_g:.2f}'
+                yield f'sc_e = {sc_e:.2f} = {fmt_avg(extracted)}'
+                yield f'sc_b = {sc_b:.2f} = {fmt_avg(basis)}'
+
+            return potential, explain
+
     def chat_extract_list(self, ui: PromptUI):
-        last_chat_i: int|None = None
-        last_rep_i: int|None = None
-        cw = len(str(len(self.chat_history)))
-        rw = max(len(str(len(h.chat))) for h in self.chat_history)
+        with ui.tokens as tokens:
+            verbose = False
+            for token in tokens:
+                if token.lower() == '-v':
+                    verbose = True
 
-        for chat_i, rep_i, n, word in self.filter_words(
-            self.chat_extract_word_matchs(),
-            key = lambda ijn_word: ijn_word[3]):
-
-            cee = ' ' * (cw+1)
-            if last_chat_i != chat_i:
-                last_chat_i = chat_i
-                last_rep_i = None
-                cee = (f'C{chat_i:<{cw}}')
-
-            ree = ' ' * (rw+1)
-            if last_rep_i != rep_i:
-                last_rep_i = rep_i
-                ree = f'R{rep_i:<{rw}}'
-
-            word = word.lower()
-            desc = self.describe_extracted_word(word)
-            ui.print(f'{cee} {ree} {n:>2}. {desc}')
+            for ex in self.chat_history_extracts():
+                potential, explain = ex.potential()
+                if potential <= 0: continue
+                prefix = f'{ex.chat_i}.{ex.prompt_i}.'
+                indent = ' '*len(prefix)
+                exw = ex.extract_words()
+                ui.print(f'{prefix} {potential:.2f} {len(exw.may)} of {exw}')
+                if verbose:
+                    ui.print(f'{indent} {"; ".join(explain())}')
 
     def attempt_word(self, ui: PromptUI, word: str, desc: str) -> PromptUI.State|None:
         if not word: return
