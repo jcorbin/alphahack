@@ -2236,6 +2236,38 @@ class Search(StoredLog):
             yield score, f'*{gen} $1 /clear // 🔭🪙 reset', explain_init_gen
             return
 
+        # TODO this is one nascent exploration move "expand basis" ; implement others like "narrow basis", "moar", etc
+        refs: list[tuple[WordRef, int]] = [(k, n) for k, n in lcp.refs() if k in ('$', '~')]
+        num_vars = sum(1 for k, _ in refs if k == '$')
+        num_recs = sum(1 for k, _ in refs if k == '~')
+
+        if num_recs < num_vars and len(self.prog) > num_vars:
+            n = max((n for k, n in refs if k == '~'), default=0)+1
+            refs.append(('~', n))
+            desc = f'add ~{n}'
+
+        else:
+            n = max((n for k, n in refs if k == '$'), default=0)+1
+            refs.append(('$', n))
+            desc = f'add ${n}'
+
+        # TODO unify with basis change/analysis
+        basis = [
+            self.word_ref_score(k, n)[1] / 100.0
+            for k, n in refs
+        ]
+        expect = sum(basis) / len(basis)
+        may_gen = lcp.count
+        score = weighted(expect, may_gen)
+
+        def explain_expand():
+            yield f'score = expect ** 1/may_gen'
+            yield f'expect = {expect:.2f} = {fmt_avg(basis)}'
+            yield f'may_gen = {lcp.count}'
+
+        gen_refs = ' '.join(f'{k}{n}' for k, n in refs)
+        yield score, f'* {gen_refs} !new // 🔭 {desc}', explain_expand
+
     def ref_word(self, ui: PromptUI, match: re.Match[str]):
         refs = list(word_match_refs(match))
 
