@@ -27,8 +27,8 @@ def lang_code_to_kind(la: str):
     if la == 'fr': return 'French'
     raise ValueError(f'unknown language code {la!r}')
 
-def role_content(chat: Iterable[ollama.Message], role: str):
-    for mess in chat:
+def role_history(chat: Sequence[ollama.Message], role: str):
+    for mess in reversed(chat):
         if mess['role'] != role: continue
         if 'content' not in mess: continue
         yield mess['content']
@@ -2108,11 +2108,6 @@ class Search(StoredLog):
         if info: desc = f'{desc} ({" ".join(info)})'
         return desc
 
-    def role_history(self, role: str) -> Generator[tuple[int, int, str]]:
-        for i, h in enumerate(self.all_chats()):
-            for j, content in enumerate(role_content(reversed(h.chat), role)):
-                yield i, j, content
-
     @overload
     def filter_words(self, it: Iterable[str]) -> Generator[str]:
         pass
@@ -2150,21 +2145,23 @@ class Search(StoredLog):
         if mode: self.chat_extract_mode = mode
         else: mode = self.chat_extract_mode
 
+        want: set[tuple[int, int]]|bool = set()
         if mode.source == 'all':
-            yield from (
-                (i, j, n, word)
-                for i, j, reply in self.role_history('assistant')
-                for line in spliterate(reply, '\n', trim=True)
-                for n, word in find_match_words(line))
-
+            want = True
         elif mode.source == 'last':
-            reply = next(role_content(reversed(self.chat), 'assistant'), None)
-            if reply: yield from (
-                (0, 0, n, word)
-                for line in spliterate(reply, '\n', trim=True)
-                for n, word in find_match_words(line))
-
+            want = False
         else: assert_never(mode.source)
+
+        for i, h in enumerate(self.all_chats()):
+            for j, reply in enumerate(role_history(h.chat, 'assistant')):
+                if not isinstance(want, bool):
+                    try:
+                        want.remove((i, j))
+                    except KeyError: continue
+                for line in spliterate(reply, '\n', trim=True):
+                    for n, word in find_match_words(line):
+                        yield (i, j, n, word)
+                if not want: break
 
     def describe_extracted_word(self, word: str):
         iw = len(str(len(self.word)))+1
