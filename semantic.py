@@ -2193,12 +2193,32 @@ class Search(StoredLog):
         if self.last_chat_role == 'user':
             yield 1.0, '. // restart aborted chat prompt', '1.0 fixed'
 
-        init = self.attempt == 0 and not self.chat
-        if init:
-            yield 1.0, '*', 'initial random'
-
         if any(self.chat_extract_words(ChatExtractMode('last', False)).may):
             yield 1.0, '/e last', 'extract from last chat reply'
+
+        yield from self.auto_explore()
+
+    def auto_explore(self) -> Generator[tuple[float, str, Explainable]]:
+        if self.attempt == 0 and not self.chat:
+            yield 1.0, '* // 🎲 init random', '1.00 fixed'
+            return
+        elif not self.word:
+            yield 0.9, '* // 🎲 sus random', '0.90 fixed'
+            return
+
+        lcp = ChatPrompt(self.last_chat_prompt) if isinstance(self.last_chat_prompt, str) else self.last_chat_prompt
+
+        gen = 4
+        top_score = self.score[self.index[0]]/100
+        score = weighted(top_score, gen)
+        def explain_init_gen():
+            yield f'top ** 1/gen'
+            yield f'top = {top_score:.2f}'
+            yield f'gen = {gen}'
+
+        if not any(lcp.refs()):
+            yield score, f'*{gen} $1 /clear // 🔭 init', explain_init_gen
+            return
 
     def ref_word(self, ui: PromptUI, match: re.Match[str]):
         refs = list(word_match_refs(match))
