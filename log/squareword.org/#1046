@@ -1,0 +1,129 @@
+T0.0001475709996157093 now: 2024-12-12T13:04:31EST
+T0.0001969459990505129 site: squareword.org
+T1.8206931240001722 📜 nwl2023.txt ? 
+T1.820817387999341 wordlist: nwl2023.txt
+T2.5411309659994004 🧩  ? *
+T6.045037074998618 🧩  ? #1046
+T6.04522625699974 puzzle_id: #1046
+T7.197023607999654 > *
+T7.289532988999781 questioning: ["union", "#5 found:8507 hypo:11881376"]
+T11.268515631998525 union ( #5 found:8507 hypo:11881376 ) ? .
+T11.268701439999859 guess: union
+T14.637087279999832 union ( #5 found:8507 hypo:11881376 ) > 1 ~ u
+T14.6382743260001 word: 0 _____
+T14.63830462399892 may: 0 u
+T15.981150141999024 union ( #5 found:8507 hypo:11881376 ) > 2 ~ n
+T15.981396785999095 word: 1 _____
+T15.981421444999796 may: 1 n
+T17.900953741000194 union ( #5 found:8507 hypo:11881376 ) > 3 __i__
+T17.901208855999357 word: 2 __i__
+T17.9012312879986 may: 2 
+T19.116882525999245 union ( #5 found:8507 hypo:11881376 ) > 
+T19.11698919399896 question done
+T20.332988475000093 > /no o
+T20.33362269600002 nope: o
+T21.73305944599997 > *
+T21.951965552998445 questioning: ["shine", "#3 found:453 hypo:390625"]
+T25.68534095099858 shine ( #3 found:453 hypo:390625 ) ? .
+T25.685551691 guess: shine
+T29.148816197999622 shine ( #3 found:453 hypo:390625 ) > 1 ~ush
+T29.14902198799973 word: 0 _____
+T29.149040287999014 may: 0 h s u
+T33.90901637499883 shine ( #3 found:453 hypo:390625 ) > 2 ____e ~nhe
+T33.90933074199893 word: 1 ____e
+T33.90936447799868 may: 1 e h n
+T39.756989570998485 shine ( #3 found:453 hypo:390625 ) > 3 __i_e
+T39.75721753699872 word: 2 __i_e
+T39.75725134200002 may: 2 
+T42.4129458389998 shine ( #3 found:453 hypo:390625 ) > 4 ~ e
+T42.41315899899928 word: 3 _____
+T42.41318899599901 may: 3 e
+T44.40505670099992 shine ( #3 found:453 hypo:390625 ) > 5 ~ se
+T44.40528045099927 word: 4 _____
+T44.405313327999465 may: 4 e s
+T46.09270212899901 shine ( #3 found:453 hypo:390625 ) > 
+T46.09277318699969 question done
+T46.88468438699965 > *
+T47.291771901000175 questioning: ["hence", "#2 found:1 hypo:150"]
+T52.549004787999365 hence ( #2 found:1 hypo:150 ) ? .
+T52.549169934998645 guess: hence
+T54.133065463000094 hence ( #2 found:1 hypo:150 ) > 2 hence
+T54.13335413899949 word: 1 hence
+T54.13339546299903 may: 1 
+T59.70128630599902 hence ( #2 found:1 hypo:150 ) > 4 ~ e
+T59.70159181999952 word: 3 _____
+T59.70163976799995 may: 3 e
+T63.02824389599846 hence ( #2 found:1 hypo:150 ) > 4 ~ e
+T63.028391197998644 word: 3 _____
+T63.028412328998456 may: 3 e
+T71.46132780599874 hence ( #2 found:1 hypo:150 ) > 4 _e___
+T71.46167001100002 word: 3 _e___
+T71.46171627999865 may: 3 
+T76.2218105769989 hence ( #2 found:1 hypo:150 ) > 1 ~ ushc
+T76.22210871899915 word: 0 _____
+T76.22215640499962 may: 0 c h s u
+T77.36497961699934 hence ( #2 found:1 hypo:150 ) > 
+T77.3651136239987 question done
+T77.96494976699978 > *
+T78.30232806299864 questioning: ["crush", "#1 found:1 hypo:600"]
+T81.84492664899881 crush ( #1 found:1 hypo:600 ) ? .
+T81.84504993399969 guess: crush
+T83.20489226300015 crush ( #1 found:1 hypo:600 ) > 1 crush
+T83.20514185100001 word: 0 crush
+T83.20516736999889 may: 0 
+T88.62917500499861 crush ( #1 found:1 hypo:600 ) > 3 ~ r
+T88.629441011999 word: 2 __i_e
+T88.62946854700022 may: 2 r
+T95.88514477799981 crush ( #1 found:1 hypo:600 ) > 5 _r___
+T95.88533757199912 word: 4 _r___
+T95.88536054399992 may: 4 e s
+T98.0931195739995 crush ( #1 found:1 hypo:600 ) > 
+T98.09325674499996 question done
+T98.70095269299964 > *
+T99.01833868699941 questioning: ["afire", "#3 found:1 hypo:625"]
+T102.4531565799989 afire ( #3 found:1 hypo:625 ) ? .
+T102.45333068599939 guess: afire
+T104.19708320499922 afire ( #3 found:1 hypo:625 ) > 3 afire
+T104.19729289099996 word: 2 afire
+T104.1973159549998 may: 2 
+T108.61294143399937 afire ( #3 found:1 hypo:625 ) > 4 ~ a
+T108.61317892599982 word: 3 _e___
+T108.61320401800003 may: 3 a
+T110.36496235199957 afire ( #3 found:1 hypo:625 ) > 
+T110.36513787799959 question done
+T111.01278083699981 > *
+T111.43865350799933 questioning: ["petal", "#4 found:5 hypo:15625"]
+T116.06883951099917 petal ( #4 found:5 hypo:15625 ) ? .
+T116.06898411799921 guess: petal
+T119.20499424399895 petal ( #4 found:5 hypo:15625 ) > 4 _etal
+T119.2052535769999 word: 3 _etal
+T119.20527967699854 may: 3 
+T121.91682019099972 petal ( #4 found:5 hypo:15625 ) > 5 ~ sep
+T121.91705681900021 word: 4 _r___
+T121.91708372099856 may: 4 e p s
+T122.54917665899848 petal ( #4 found:5 hypo:15625 ) > 
+T122.54930982699989 question done
+T123.17293655100002 > *
+T123.85916207799892 questioning: ["preps", "#5 found:1 hypo:150"]
+T128.96547364700018 preps ( #5 found:1 hypo:150 ) ? .
+T128.96570559799875 guess: preps
+T130.58914468799958 preps ( #5 found:1 hypo:150 ) > 5 preops
+T130.58953108099922 word: 4 preop
+T130.58957037799883 may: 4 s
+T133.29311152599985 preps ( #5 found:1 hypo:150 ) > 5 preps
+T133.29333716499968 word: 4 preps
+T133.29336147100003 may: 4 
+T136.11662209599854 preps ( #5 found:1 hypo:150 ) > 
+T136.1167130119993 question done
+T137.15715621399977 > *
+T137.55887699599953 questioning: ["metal", "#4 found:1 hypo:25"]
+T141.98147659499955 metal ( #4 found:1 hypo:25 ) ? .
+T141.98169590699945 guess: metal
+T144.73313541099924 metal ( #4 found:1 hypo:25 ) > 4 metal
+T144.73334695199992 word: 3 metal
+T144.73337167799946 may: 3 
+T145.84517705100006 metal ( #4 found:1 hypo:25 ) > 
+T145.84530835199985 question done
+T149.85299605699947 Copy share result and press <Enter>
+T149.8594457379986 result: "squareword.org 1046: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1046"
+T149.85951427799955 <STOP>
