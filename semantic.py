@@ -664,6 +664,7 @@ class Search(StoredLog):
 
         self.auto_score = True
         self.explain_auto: bool = False
+        self.auto_token_limit = 400
 
     def explained(self, s: str, explain: Explainable, pre: str = ''):
         if self.explain_auto:
@@ -1364,6 +1365,7 @@ class Search(StoredLog):
                 ui.print('auto:')
                 ui.print(f'- score: {self.auto_score}')
                 ui.print(f'- explain: {self.explain_auto}')
+                ui.print(f'- token limit: {self.auto_token_limit}')
                 return
 
             if tokens.have(r'score'):
@@ -1374,6 +1376,15 @@ class Search(StoredLog):
             if tokens.have(r'explain'):
                 self.explain_auto = (not self.explain_auto) if tokens.empty else any(next(tokens).lower().startswith(c) for c in 'yt')
                 ui.print(f'auto explain: {self.explain_auto}')
+                return
+
+            if tokens.have(r'toklim'):
+                try:
+                    self.auto_token_limit = int(next(tokens, ''))
+                except ValueError as err:
+                    ui.print(f'! {err}')
+                else:
+                    ui.print(f'auto token limit: {self.auto_token_limit}')
                 return
 
             ui.print(f'! invalid /auto {tokens.raw}')
@@ -2193,12 +2204,80 @@ class Search(StoredLog):
         if self.last_chat_role == 'user':
             yield 1.0, '. // restart aborted chat prompt', '1.0 fixed'
 
-        init = self.attempt == 0 and not self.chat
-        if init:
-            yield 1.0, '*', 'initial random'
-
         if any(self.chat_extract_words(ChatExtractMode('last', False)).may):
             yield 1.0, '/e last', 'extract from last chat reply'
+
+        yield from self.auto_explore()
+
+    def auto_explore(self) -> Generator[tuple[float, str, Explainable]]:
+        if self.attempt == 0 and not self.chat:
+            yield 1.0, '* // 🎲 init random', '1.00 fixed'
+            return
+        elif not self.word:
+            yield 0.9, '* // 🎲 sus random', '0.90 fixed'
+            return
+
+        lcp = ChatPrompt(self.last_chat_prompt) if isinstance(self.last_chat_prompt, str) else self.last_chat_prompt
+
+        gen = 4
+        top_score = self.score[self.index[0]]/100
+        score = weighted(top_score, gen)
+        def explain_init_gen():
+            yield f'top ** 1/gen'
+            yield f'top = {top_score:.2f}'
+            yield f'gen = {gen}'
+
+        if not any(lcp.refs()):
+            yield score, f'*{gen} $1 /clear // 🔭 init', explain_init_gen
+            return
+
+        if self.chat_stats().token_count > self.auto_token_limit:
+            # TODO '_ /clear' or '* ... /clear' rather than reset refs?
+            yield score, f'*{gen} $1 /clear // 🔭🪙 reset', explain_init_gen
+            return
+
+        bc = self.analyze_basis()
+        if bc.any:
+            sc_bn = bc.new_score
+            expect = sc_bn # TODO discount based on past basis performance
+            possible = weighted(expect, gen)
+            def regen_explain():
+                yield f'possible = {possible:.2f} = expect ** 1/may_gen'
+                yield f'may_gen = {gen}'
+                yield f'expect = sc_bn = {sc_bn:.2f} = {fmt_avg(bc.new_score_values)}'
+            yield possible, '_ // regen last', regen_explain
+
+        # TODO this is one nascent exploration move "expand basis" ; implement others like "narrow basis", "moar", etc
+        refs: list[tuple[WordRef, int]] = [(k, n) for k, n in lcp.refs() if k in ('$', '~')]
+        num_vars = sum(1 for k, _ in refs if k == '$')
+        num_recs = sum(1 for k, _ in refs if k == '~')
+
+        if num_recs < num_vars and len(self.prog) > num_vars:
+            n = max((n for k, n in refs if k == '~'), default=0)+1
+            refs.append(('~', n))
+            desc = f'add ~{n}'
+
+        else:
+            n = max((n for k, n in refs if k == '$'), default=0)+1
+            refs.append(('$', n))
+            desc = f'add ${n}'
+
+        # TODO unify with basis change/analysis
+        basis = [
+            self.word_ref_score(k, n)[1] / 100.0
+            for k, n in refs
+        ]
+        expect = sum(basis) / len(basis)
+        may_gen = lcp.count
+        score = weighted(expect, may_gen)
+
+        def explain_expand():
+            yield f'score = expect ** 1/may_gen'
+            yield f'expect = {expect:.2f} = {fmt_avg(basis)}'
+            yield f'may_gen = {lcp.count}'
+
+        gen_refs = ' '.join(f'{k}{n}' for k, n in refs)
+        yield score, f'* {gen_refs} !new // 🔭 {desc}', explain_expand
 
     def ref_word(self, ui: PromptUI, match: re.Match[str]):
         refs = list(word_match_refs(match))
