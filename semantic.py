@@ -473,6 +473,7 @@ ChatExtractSource = Literal['last', 'all']|tuple[int, int]
 @dataclass
 class ChatExtractMode:
     source: ChatExtractSource
+    exhaust: bool
 
     @override
     def __str__(self):
@@ -488,7 +489,7 @@ class ChatExtractMode:
 
         else: assert_never(self.source)
 
-        return desc
+        return f'{desc} {"all" if self.exhaust else "auto"}'
 
 @final
 class ExtractedWords:
@@ -588,7 +589,7 @@ class Search(StoredLog):
 
         self.min_word_len: int = 2
 
-        self.chat_extract_mode = ChatExtractMode('last')
+        self.chat_extract_mode = ChatExtractMode('last', False)
 
     @property
     def pub_tz(self):
@@ -1718,7 +1719,7 @@ class Search(StoredLog):
         else:
             self.chat_model(ui, model)
 
-        if any(self.chat_extract_words(ChatExtractMode('last')).may):
+        if any(self.chat_extract_words(ChatExtractMode('last', False)).may):
             return self.chat_extract
 
         return self.ideate
@@ -2433,7 +2434,7 @@ class Search(StoredLog):
             finally:
                 ui.fin()
 
-            exw = self.chat_extract_words(ChatExtractMode('last'))
+            exw = self.chat_extract_words(ChatExtractMode('last', False))
             if any(exw.may):
                 return self.chat_extract
 
@@ -2523,6 +2524,7 @@ class Search(StoredLog):
     def chat_extract(self, ui: PromptUI) -> PromptUI.State | None:
         with ui.catch_state(KeyboardInterrupt, self.ideate):
             source: ChatExtractSource = 'last'
+            exhaust = False
             do_all = False
 
             with ui.tokens as tokens:
@@ -2534,6 +2536,7 @@ class Search(StoredLog):
                         continue
 
                     if token == 'all':
+                        exhaust = True
                         do_all = True
                         continue
 
@@ -2556,7 +2559,7 @@ class Search(StoredLog):
                     ui.print(f'// Usage: /extract [scavenge|last|N.M] [all]')
                     return
 
-            exw = self.chat_extract_words(ChatExtractMode(source))
+            exw = self.chat_extract_words(ChatExtractMode(source, exhaust))
             words = sorted(exw.may)
 
             if not words:
