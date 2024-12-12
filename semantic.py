@@ -664,6 +664,7 @@ class Search(StoredLog):
 
         self.auto_score = True
         self.explain_auto: bool = False
+        self.auto_token_limit = 400
 
     def explained(self, s: str, explain: Explainable, pre: str = ''):
         if self.explain_auto:
@@ -1364,6 +1365,7 @@ class Search(StoredLog):
                 ui.print('auto:')
                 ui.print(f'- score: {self.auto_score}')
                 ui.print(f'- explain: {self.explain_auto}')
+                ui.print(f'- token limit: {self.auto_token_limit}')
                 return
 
             if tokens.have(r'score'):
@@ -1374,6 +1376,15 @@ class Search(StoredLog):
             if tokens.have(r'explain'):
                 self.explain_auto = (not self.explain_auto) if tokens.empty else any(next(tokens).lower().startswith(c) for c in 'yt')
                 ui.print(f'auto explain: {self.explain_auto}')
+                return
+
+            if tokens.have(r'toklim'):
+                try:
+                    self.auto_token_limit = int(next(tokens, ''))
+                except ValueError as err:
+                    ui.print(f'! {err}')
+                else:
+                    ui.print(f'auto token limit: {self.auto_token_limit}')
                 return
 
             ui.print(f'! invalid /auto {tokens.raw}')
@@ -2218,6 +2229,11 @@ class Search(StoredLog):
 
         if not any(lcp.refs()):
             yield score, f'*{gen} $1 /clear // 🔭 init', explain_init_gen
+            return
+
+        if self.chat_stats().token_count > self.auto_token_limit:
+            # TODO '_ /clear' or '* ... /clear' rather than reset refs?
+            yield score, f'*{gen} $1 /clear // 🔭🪙 reset', explain_init_gen
             return
 
     def ref_word(self, ui: PromptUI, match: re.Match[str]):
