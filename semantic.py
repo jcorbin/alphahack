@@ -526,7 +526,6 @@ class Search(StoredLog):
 
         self.min_word_len: int = 2
 
-        self.chat_extract_info: list[str] = []
         self.chat_extract_from: str = ''
         self.chat_extract_scav: bool = False
         self.extracted: int = 0
@@ -2031,8 +2030,7 @@ class Search(StoredLog):
     @property
     def chat_extract_desc(self):
         desc = self.chat_extract_from
-        info = [*self.chat_extract_info]
-        info.append(f'found:{self.extracted}')
+        info = [f'found:{self.extracted}']
         if self.extracted_bad: info.append(f'rejects:{self.extracted_bad}')
         if self.extracted_good: info.append(f'prior:{self.extracted_good}')
         if info: desc = f'{desc} ({" ".join(info)})'
@@ -2042,14 +2040,6 @@ class Search(StoredLog):
         for i, h in enumerate(self.all_chats()):
             for j, content in enumerate(role_content(reversed(h.chat), role)):
                 yield i, j, content
-
-    def count_role_history(self, role: str):
-        hn = 0
-        sn = 0
-        for h in self.all_chats():
-            hn += sum(1 for _ in role_content(h.chat, role))
-            sn += 1
-        return sn, hn
 
     @overload
     def filter_words(self, it: Iterable[str]) -> Generator[str]:
@@ -2093,13 +2083,8 @@ class Search(StoredLog):
             yield word
 
     def chat_extract_word_matchs(self) -> Generator[tuple[int, int, int, str]]:
-        self.chat_extract_info = []
-
         if self.chat_extract_scav:
             self.chat_extract_from = 'chat history'
-            sn, hn = self.count_role_history('assistant')
-            self.chat_extract_info.append(f'replies:{hn}')
-            self.chat_extract_info.append(f'sessions:{sn}')
             yield from (
                 (i, j, n, word)
                 for i, j, reply in self.role_history('assistant')
