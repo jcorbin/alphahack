@@ -1159,7 +1159,7 @@ class Search(StoredLog):
     def info(self):
         yield f'🤔 {self.attempt} attempts'
         yield f'📜 {len(self.sessions)} sessions'
-        yield f'🫧 {len(self.chat_history)} chat sessions'
+        yield f'🫧 {sum(1 for _ in self.all_chats())} chat sessions'
 
         chat_counts = self.chat_model_counts()
         user = chat_counts.get("user", 0)
@@ -1172,14 +1172,18 @@ class Search(StoredLog):
     def chat_model_counts(self):
         return Counter(
             h.model if mess['role'] == 'assistant' else mess['role']
-            for h in self.chat_history
+            for h in self.all_chats()
             for mess in h.chat)
 
     def chat_role_counts(self):
         return Counter(
             mess['role']
-            for h in self.chat_history
+            for h in self.all_chats()
             for mess in h.chat)
+
+    def all_chats(self) -> Generator[ChatSession]:
+        yield ChatSession(self.chat, self.llm_model)
+        yield from reversed(self.chat_history)
 
     def meta(self):
         if self.today is not None: yield f'📆 {self.today:%Y-%m-%d}'
@@ -2035,19 +2039,15 @@ class Search(StoredLog):
         return desc
 
     def role_history(self, role: str) -> Generator[tuple[int, int, str]]:
-        for j, content in enumerate(role_content(reversed(self.chat), role)):
-            yield 0, j, content
-        for i, h in enumerate(reversed(self.chat_history), 1):
+        for i, h in enumerate(self.all_chats()):
             for j, content in enumerate(role_content(reversed(h.chat), role)):
                 yield i, j, content
 
     def count_role_history(self, role: str):
-        hn = sum(
-            sum(1 for _ in role_content(h.chat, role))
-            for h in self.chat_history)
-        sn = len(self.chat_history)
-        if self.chat:
-            hn += sum(1 for _ in role_content(self.chat, role))
+        hn = 0
+        sn = 0
+        for h in self.all_chats():
+            hn += sum(1 for _ in role_content(h.chat, role))
             sn += 1
         return sn, hn
 
