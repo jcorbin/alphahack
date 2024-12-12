@@ -2345,16 +2345,38 @@ class Search(StoredLog):
             ui.print(f'{self.describe_word(i, word=word)} is already known')
             return
 
+        score = None
+        prog = None
+
         with ui.catch_state(KeyboardInterrupt, self.ideate):
             ui.br()
             ui.copy(word)
-            return self.attempt_score_word(ui, word, desc)
+            return self.attempt_score_word(ui, word, desc, score, prog)
 
-    def attempt_score_word(self, ui: PromptUI, word: str, desc: str) -> PromptUI.State|None:
+    @property
+    def prog_after(self):
+        if self.prog_at is not None:
+            return self.prog_at
+        if self.prog:
+            i = self.min_prog[0]
+            return self.score[i]
+        return None
+
+    def prog_req_for(self, score: float):
+        prog_at = self.prog_after
+        return False if prog_at is None or score < prog_at else True
+
+    def attempt_score_word(self,
+                           ui: PromptUI,
+                           word: str,
+                           desc: str,
+                           score: float|None = None,
+                           prog: int|None = None,
+                           ) -> PromptUI.State|None:
         orig_desc = desc
         desc = f'🤔 {desc} #{self.attempt+1} "{word}"'
 
-        while True:
+        while score is None:
             with ui.tokens_or(f'{desc} score? ') as tokens:
                 if tokens.empty: return
 
@@ -2401,19 +2423,15 @@ class Search(StoredLog):
 
                 desc = f'{desc} {score:.2f}°C'
 
-                prog_req = False
-                if self.prog_at is not None:
-                    prog_req = score >= self.prog_at
-                elif self.prog:
-                    i = self.min_prog[0]
-                    prog_req = score >= self.score[i]
-
-                if prog_req or not tokens.empty:
-                    return self.attempt_prog_word(ui, word, desc, score, prog_req)
+                if not tokens.empty:
+                    return self.attempt_prog_word(ui, word, desc, score, prog)
 
                 break
 
-        i = self.record(ui, word, score, None)
+        if self.prog_req_for(score) and prog is None:
+            return self.attempt_prog_word(ui, word, desc, score)
+
+        i = self.record(ui, word, score, prog)
         if i is not None:
             ui.print(f'💿 {self.describe_word(i)}')
 
@@ -2424,34 +2442,30 @@ class Search(StoredLog):
                           word: str,
                           desc: str,
                           score: float,
-                          prog_req: bool,
+                          prog: int|None = None,
                           ) -> PromptUI.State|None:
-        prog: int|None = None
 
-        while True:
+        while prog is None:
             with (
-                ui.tokens_or(f'{desc} prog‰ ? ') if prog_req else ui.tokens
+                ui.tokens_or(f'{desc} prog‰ ? ') if self.prog_req_for(score) else ui.tokens
             ) as tokens:
-                if not tokens.empty:
-                    try:
-                        prog = int(next(tokens))
-                    except ValueError:
-                        ui.print(f'! invalid word prog‰, not an int')
-                        tokens.raw = ''
+                if tokens.empty:
+                    if self.prog_req_for(score):
+                        ui.print('! prog‰ is required after {self.prog_at:.2f}°C for {desc}')
                         continue
-
-                    if not (prog_min <= prog <= prog_max):
-                        ui.print(f'! invalid word prog‰, must be in range {prog_min} <= {prog_max}')
-                        tokens.raw = ''
-                        continue
-
-                    break
-                elif not prog_req:
                     break
 
-        if prog_req and prog is None:
-            ui.print('! prog‰ is required after {self.prog_at:.2f}°C for {desc}')
-            return
+                try:
+                    prog = int(next(tokens))
+                except ValueError:
+                    ui.print(f'! invalid word prog‰, not an int')
+                    tokens.raw = ''
+                    continue
+
+                if not (prog_min <= prog <= prog_max):
+                    ui.print(f'! invalid word prog‰, must be in range {prog_min} <= {prog_max}')
+                    tokens.raw = ''
+                    continue
 
         i = self.record(ui, word, score, prog)
         if i is not None:
