@@ -3025,10 +3025,44 @@ class Search(StoredLog):
             return self.ideate
 
         with ui.catch_state(KeyboardInterrupt, self.ideate):
+            basis_change = self.analyze_basis()
+            if basis_change.score > 0:
+                sc_bo = basis_change.old_score
+                sc_bn = basis_change.new_score
+
+                extracted = [
+                    self.score[
+                        self.word.index(word) # TODO faster reverse index wen?
+                    ]
+                    for word in exw.good
+                ]
+                sc_e = sum(extracted, 0) / len(extracted)
+                expect = (sc_e + sc_bo) / 2
+
+                cp = self.last_chat_prompt if isinstance(self.last_chat_prompt, ChatPrompt) else ChatPrompt(self.last_chat_prompt)
+                may_gen = cp.count
+                possible = sc_bn * may_gen
+                potential = expect * len(exw.may)
+
+                if possible > potential and not self.chat_extract_mode.exhaust:
+                    def explain():
+                        yield f'possible = {possible:.2f} = sc_bn * may_gen'
+                        yield f'potential = {potential:.2f} = expect * may'
+                        yield f'may_gen = {may_gen}'
+                        yield f'may = {len(exw.may)}'
+                        yield f'expect = {expect:.2f} = (sc_bo+sc_e)/2'
+                        yield f'sc_bo = {sc_bo:.2f} = {fmt_avg(basis_change.old_score_values)}'
+                        yield f'sc_bn = {sc_bn:.2f} = {fmt_avg(basis_change.new_score_values)}'
+                        yield f'sc_e = {sc_e:.2f} = {fmt_avg(extracted)}'
+
+                    ui.print(self.explained(f'🔙 possible > potential', explain))
+                    return self.ideate
+
             ui.br()
             ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
-            basis_change = str(self.analyze_basis())
-            if basis_change: ui.print(f'// {basis_change}')
+            basis_note = str(basis_change)
+            if basis_note: ui.print(f'// {basis_note}')
+
             return self.attempt_word(ui, words[0], f'extract_1/{len(words)}')
 
     def chat_last(self, ui: PromptUI):
