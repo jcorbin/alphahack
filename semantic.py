@@ -2524,6 +2524,10 @@ class Search(StoredLog):
                 for token in tokens:
                     token = token.lower()
 
+                    if token == 'last':
+                        source = 'last'
+                        continue
+
                     if token == 'all':
                         do_all = True
                         continue
@@ -2536,7 +2540,8 @@ class Search(StoredLog):
                         continue
 
                     ui.print(f'! {ui.tokens.raw}')
-                    ui.print(f'// Usage: /extract [scavenge] [all|ls]')
+                    ui.print(f'// Usage: /extract ls')
+                    ui.print(f'// Usage: /extract [scavenge|last] [all]')
                     return
 
             exw = self.chat_extract_words(ChatExtractMode(source))
