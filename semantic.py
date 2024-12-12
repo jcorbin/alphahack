@@ -2831,15 +2831,74 @@ class Search(StoredLog):
         if not last: return (None, None)
         return (last['role'], last.get('content'))
 
-    def note_chat_basis_change(self, ui: PromptUI):
-        if isinstance(self.last_chat_prompt, ChatPrompt):
-            basis = set(self.word_ref(k, n) for k, n in self.last_chat_prompt.refs())
-            diffa = basis.difference(self.last_chat_basis)
-            diffb = set(self.last_chat_basis).difference(basis)
-            parts: list[str] = []
-            if diffb: parts.append(f'💤 {' '.join(sorted(diffb))}')
-            if diffa: parts.append(f'🛜 {' '.join(sorted(diffa))}')
-            if parts: ui.print(f'🫧 basis changed {' '.join(parts)}')
+    @final
+    class BasisChange:
+        def __init__(self, old: Iterable[tuple[str, float]], new: Iterable[tuple[str, float]]):
+            self.old = dict(old)
+            self.new = dict(new)
+
+        @property
+        def wired(self):
+            for word in self.new:
+                if word not in self.old: yield word
+
+        @property
+        def tired(self):
+            for word in self.old:
+                if word not in self.new: yield word
+
+        @property
+        def wired_items(self):
+            for word, score in self.new.items():
+                if word not in self.old: yield word, score
+
+        @property
+        def tired_items(self):
+            for word, score in self.old.items():
+                if word not in self.new: yield word, score
+
+        @property
+        def any(self):
+            return any(self.wired) or any(self.tired)
+
+        @property
+        def old_score_values(self):
+            return (sc for _, sc in self.old.items())
+
+        @property
+        def new_score_values(self):
+            return (sc for _, sc in self.new.items())
+
+        @property
+        def old_score(self):
+            return sum(self.old_score_values, 0) / len(self.old)
+
+        @property
+        def new_score(self):
+            return sum(self.new_score_values, 0) / len(self.new)
+
+        @property
+        def score(self):
+            return (
+                sum((sc for _, sc in self.wired_items), 0) -
+                sum((sc for _, sc in self.tired_items), 0))
+
+        @property
+        def notes(self):
+            dscore = self.score
+            if abs(dscore) >= 0.01: yield f'Δ🌡️ {dscore:.2f}°C'
+            if any(self.wired): yield f'🛜 {' '.join(sorted(self.wired))}'
+            if any(self.tired): yield f'💤 {' '.join(sorted(self.tired))}'
+
+        @override
+        def __str__(self):
+            return ' '.join(self.notes)
+
+    def analyze_basis(self):
+        last_refs = self.last_chat_prompt.refs() if isinstance(self.last_chat_prompt, ChatPrompt) else ()
+        return self.BasisChange(
+            self.last_chat_basis.items(),
+            (self.word_ref_score(k, n) for k, n in last_refs))
 
     def chat_extract(self, ui: PromptUI) -> PromptUI.State | None:
         with ui.catch_state(KeyboardInterrupt, self.ideate):
@@ -2905,7 +2964,8 @@ class Search(StoredLog):
         for i, word in enumerate(words):
             ui.print(f'[{i+1:{iw}}] {word}')
 
-        self.note_chat_basis_change(ui)
+        basis_change = str(self.analyze_basis())
+        if basis_change: ui.print(f'// {basis_change}')
 
         with (
             ui.catch_state(KeyboardInterrupt, self.ideate),
@@ -2945,7 +3005,8 @@ class Search(StoredLog):
         with ui.catch_state(KeyboardInterrupt, self.ideate):
             ui.br()
             ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
-            self.note_chat_basis_change(ui)
+            basis_change = str(self.analyze_basis())
+            if basis_change: ui.print(f'// {basis_change}')
             return self.attempt_word(ui, words[0], f'extract_1/{len(words)}')
 
     def chat_last(self, ui: PromptUI):
