@@ -2556,39 +2556,47 @@ class Search(StoredLog):
             if do_all:
                 return self.chat_extract_all
 
-            ui.br()
-            ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
-            iw = len(str(len(words)))
-            for i, word in enumerate(words):
-                ui.print(f'[{i+1:{iw}}] {word}')
+            return self.chat_extract_one
 
-            self.note_chat_basis_change(ui)
+    def chat_extract_one(self, ui: PromptUI):
+        exw = self.chat_extract_words()
+        words = sorted(exw.may)
 
-            while True:
-                with self.prompt(ui, f'extract_') as tokens:
-                    if tokens.empty:
-                        return self.ideate
+        ui.br()
+        ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
+        iw = len(str(len(words)))
+        for i, word in enumerate(words):
+            ui.print(f'[{i+1:{iw}}] {word}')
 
-                    if tokens.have(r'_$'):
-                        return self.chat_prompt(ui, '_')
+        self.note_chat_basis_change(ui)
 
-                    cmd = tokens.have(r'/.+$', lambda m: m[0])
-                    if cmd:
-                        return self.dispatch_cmd(ui, cmd)
+        with (
+            ui.catch_state(KeyboardInterrupt, self.ideate),
+            self.prompt(ui, f'extract_') as tokens
+        ):
+            if tokens.empty:
+                return self.ideate
 
-                    if tokens.have(r'\.\.\.$'):
-                        return self.chat_extract_all
+            if tokens.have(r'_$'):
+                return self.chat_prompt(ui, '_')
 
-                    try:
-                        n = int(next(tokens))
-                    except ValueError:
-                        ui.print('! invalid list number, expected integer')
-                        continue
-                    if not (0 < n <= len(words)):
-                        ui.print('! invalid list number, out of range')
-                        continue
+            cmd = tokens.have(r'/.+$', lambda m: m[0])
+            if cmd:
+                return self.dispatch_cmd(ui, cmd)
 
-                    return self.attempt_word(ui, words[n-1], f'extract_{n}/{len(words)}') or self.chat_extract
+            if tokens.have(r'\.\.\.$'):
+                return self.chat_extract_all
+
+            try:
+                n = int(next(tokens))
+            except ValueError:
+                ui.print('! invalid list number, expected integer')
+                return
+            if not (0 < n <= len(words)):
+                ui.print('! invalid list number, out of range')
+                return
+
+            return self.attempt_word(ui, words[n-1], f'extract_{n}/{len(words)}') or self.chat_extract
 
     def chat_extract_all(self, ui: PromptUI) -> PromptUI.State | None:
         exw = self.chat_extract_words()
