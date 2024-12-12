@@ -2756,7 +2756,7 @@ class Search(StoredLog):
 
             exw = self.chat_extract_words(ChatExtractMode('last', False))
             if any(exw.may):
-                return self.chat_extract
+                return self.chat_extract_all
 
             ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
 
@@ -2860,6 +2860,10 @@ class Search(StoredLog):
                         do_all = True
                         continue
 
+                    if token == 'auto':
+                        do_all = True
+                        continue
+
                     if token == 'ls':
                         return self.chat_extract_list(ui)
 
@@ -2876,7 +2880,7 @@ class Search(StoredLog):
 
                     ui.print(f'! {ui.tokens.raw}')
                     ui.print(f'// Usage: /extract ls')
-                    ui.print(f'// Usage: /extract [scavenge|last|N.M] [all]')
+                    ui.print(f'// Usage: /extract [scavenge|last|N.M] [all|auto]')
                     return
 
             exw = self.chat_extract_words(ChatExtractMode(source, exhaust))
