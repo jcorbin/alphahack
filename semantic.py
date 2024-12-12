@@ -524,6 +524,35 @@ class ExtractedWords:
         return ' '.join(self.notes)
 
 @final
+@dataclass
+class WordScore:
+    word: str
+    score: float|None = None
+    prog: int|None = None
+    puzzle_num: int|None = None
+    solvers: int|None = None
+
+    @classmethod
+    def extract(cls, word: str, data: dict[str, object]):
+        score: float|None = None
+        prog: int|None = None
+        puzzle_num: int|None = None
+        solvers: int|None = None
+        for key, value in data.items():
+            if key == 'error':
+                raise ValueError(value)
+            elif key == 'num' and isinstance(value, int):
+                puzzle_num = value
+            elif key == 'score' and isinstance(value, float):
+                score = value
+            elif key == 'percentile' and isinstance(value, int):
+                prog = value
+            elif key == 'solvers' and isinstance(value, int):
+                solvers = value
+            else: pass # TODO store somehow? ui.write(f' ??? {key}={value!r} ...')
+        return cls(word, score, prog, puzzle_num, solvers)
+
+@final
 class Search(StoredLog):
     log_file: str = 'cemantle.log'
     default_site: str = 'cemantle.certitudes.org'
@@ -592,6 +621,8 @@ class Search(StoredLog):
         self.min_word_len: int = 2
 
         self.chat_extract_mode = ChatExtractMode('last', False)
+
+        self.auto_score = True
 
     @property
     def pub_tz(self):
@@ -1279,6 +1310,20 @@ class Search(StoredLog):
             n = sum(1 for _ in words())
             yield f'{tier} {n:>{cw}}'
 
+    def do_auto(self, ui: PromptUI):
+        with ui.tokens as tokens:
+            if tokens.empty:
+                ui.print('auto:')
+                ui.print(f'- score: {self.auto_score}')
+                return
+
+            if tokens.have(r'score'):
+                self.auto_score = (not self.auto_score) if tokens.empty else any(next(tokens).lower().startswith(c) for c in 'yt')
+                ui.print(f'auto score: {self.auto_score}')
+                return
+
+            ui.print(f'! invalid /auto {tokens.raw}')
+
     def do_http(self, ui: PromptUI):
         title: str
         coll: MutableMapping[str, str]|MutableMapping[str, str|bytes]
@@ -1521,6 +1566,7 @@ class Search(StoredLog):
             # TODO proper help command ; reuse for '?' token
             # TODO add '/' prefix here ; generalize dispatch
 
+            'auto': self.do_auto,
             'http': self.do_http,
 
             'prog': self.show_prog,
@@ -2345,8 +2391,52 @@ class Search(StoredLog):
             ui.print(f'{self.describe_word(i, word=word)} is already known')
             return
 
+        ws = WordScore(word)
+
+        ww = max(
+            len(word),
+            max(len(word) for word in self.word) if self.word else 0,
+            max(len(word) for word in self.wordbad) if self.wordbad else 0
+        )
+
+        if self.auto_score:
+            ui.write(f'Auto scoring {word!r:{ww}}...')
+
+            res = self.request(ui, 'post', '/score', data={'word': word})
+            data = cast(object, res.json())
+            if isinstance(data, dict):
+                data = cast(dict[str, object], data)
+
+                try:
+                    ws = WordScore.extract(word, data)
+                except ValueError as err:
+                    ui.fin(f' ! {err}')
+                    self.reject(ui, word)
+                    return
+
+                if f'#{ws.puzzle_num}' != self.puzzle_id:
+                    ui.fin(f' ! ❌ #{ws.puzzle_num} 🧩 {self.puzzle_id}')
+                    raise StopIteration
+
+                # TODO track ws.solvers?
+                # TODO report unknowns? ui.write(f' ??? {key}={value!r} ...')
+
         score = None
         prog = None
+
+        if ws.score is not None:
+            score = 100.0*ws.score
+            ui.write(f' score {ws.score:7.4f} ...')
+
+            prog = ws.prog
+
+            prog_at = self.prog_after
+            if prog_at is not None:
+                if prog is None or prog >= prog_at:
+                    i = self.record(ui, word, score, prog)
+                    if i is not None:
+                        ui.fin(f' 💿 {self.describe_word(i)}')
+                    return self.finish if self.found else None
 
         with ui.catch_state(KeyboardInterrupt, self.ideate):
             ui.br()
