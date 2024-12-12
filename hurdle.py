@@ -172,7 +172,7 @@ class Search(StoredLog):
     @override
     def run_done(self) -> bool:
         if self.result is not None: return True
-        return len(self.words) >= self.size
+        return False
 
     def display(self, ui: PromptUI):
         if self.run_done:
