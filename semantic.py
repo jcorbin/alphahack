@@ -616,7 +616,7 @@ class Search(StoredLog):
         self.system_prompt: str = ''
 
         self.last_chat_prompt: str|ChatPrompt = ''
-        self.last_chat_basis: set[str] = set()
+        self.last_chat_basis: dict[str, float] = dict()
 
         self.min_word_len: int = 2
 
@@ -2563,6 +2563,10 @@ class Search(StoredLog):
 
         if self.found: return self.finish
 
+    def word_ref_score(self, k: WordRef, n: int):
+        i, _, qword = self.word_iref(k, n)
+        return qword, self.score[i]
+
     def word_iref(self, k: WordRef, n: int):
         if k == '$':
             ix = n - 1
@@ -2596,9 +2600,9 @@ class Search(StoredLog):
         assert_never(k)
 
     def collect_word_ref(self, k: WordRef, n: int):
-        word = self.word_ref(k, n)
-        self.last_chat_basis.add(word)
-        return word
+        qword, score = self.word_ref_score(k, n)
+        self.last_chat_basis[qword] = score
+        return qword
 
     def set_chat_prompt(self, ui: PromptUI, prompt: str|ChatPrompt):
         if isinstance(prompt, str) and prompt == '_':
@@ -2614,7 +2618,7 @@ class Search(StoredLog):
                 pass
 
         self.last_chat_prompt = prompt
-        self.last_chat_basis = set()
+        self.last_chat_basis = dict()
         return expand_word_refs(
             prompt if isinstance(prompt, str) else prompt.prompt,
             self.collect_word_ref)
@@ -2743,7 +2747,7 @@ class Search(StoredLog):
         if isinstance(self.last_chat_prompt, ChatPrompt):
             basis = set(self.word_ref(k, n) for k, n in self.last_chat_prompt.refs())
             diffa = basis.difference(self.last_chat_basis)
-            diffb = self.last_chat_basis.difference(basis)
+            diffb = set(self.last_chat_basis).difference(basis)
             parts: list[str] = []
             if diffb: parts.append(f'💤 {' '.join(sorted(diffb))}')
             if diffa: parts.append(f'🛜 {' '.join(sorted(diffa))}')
