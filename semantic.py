@@ -2524,7 +2524,6 @@ class Search(StoredLog):
         with ui.catch_state(KeyboardInterrupt, self.ideate):
             source: ChatExtractSource = 'last'
             do_all = False
-            do_list = False
 
             with ui.tokens as tokens:
                 for token in tokens:
@@ -2539,7 +2538,7 @@ class Search(StoredLog):
                         continue
 
                     if token == 'ls':
-                        do_list = True
+                        return self.chat_extract_list(ui)
 
                     if 'scavenge'.startswith(token):
                         source = 'all'
@@ -2559,10 +2558,6 @@ class Search(StoredLog):
 
             exw = self.chat_extract_words(ChatExtractMode(source))
             words = sorted(exw.may)
-
-            if do_list:
-                self.chat_extract_list(ui)
-                return self.ideate
 
             if not words:
                 ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
