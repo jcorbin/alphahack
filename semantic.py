@@ -2564,7 +2564,7 @@ class Search(StoredLog):
 
             if not words:
                 ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
-                return self.ideate
+                return
 
             if do_all:
                 return self.chat_extract_all
