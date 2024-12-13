@@ -11,7 +11,7 @@ from collections.abc import Generator, Iterable
 from dataclasses import dataclass
 from typing import cast, final, override
 
-from strkit import spliterate
+from strkit import spliterate, PeekIter
 from ui import PromptUI
 from store import StoredLog, git_txn
 
@@ -69,6 +69,7 @@ class Search(StoredLog):
         self.nope_letters: set[str] = set()
         self.word: list[str] = ['' for _ in range(self.size)]
         self.tried: list[str] = []
+        self.attempts: list[list[str]] = []
         self.words: list[str] = []
 
         self.result_text: str = ''
@@ -131,19 +132,21 @@ class Search(StoredLog):
                 continue
 
             match = re.match(r'''(?x)
-                word : \s+ ( [\w_]+ )
+                word : \s+ ( [^\s]+ )
                 \s* ( .* )
                 $''', rest)
             if match:
                 word, rest = match.groups()
-                assert rest == ''
+                if rest != '':
+                    raise RuntimeError(f'wat {match.string!r} -> {rest!r}')
                 self.word = [
                     '' if x == '_' else x.lower()
                     for x in word
                 ]
                 if all(x for x in self.word):
                     self.words.append(''.join(self.word))
-                    self.tried.clear()
+                    self.attempts.append(self.tried)
+                    self.tried = []
                 continue
 
             match = re.match(r'''(?x)
@@ -260,7 +263,8 @@ class Search(StoredLog):
                     ui.log(f'word: {"".join(x if x else "_" for x in self.word)}')
                     if all(x for x in self.word):
                         self.words.append(''.join(self.word))
-                        self.tried.clear()
+                        self.attempts.append(self.tried)
+                        self.tried = []
                 return
 
             ui.print(f'unknown input: {tokens.raw!r}')
@@ -387,18 +391,50 @@ class Search(StoredLog):
     def report_body(self) -> Generator[str]:
         yield from super().report_body
 
-        res = self.result
-        if not res: return
+        def history() -> Generator[tuple[str, bool|None]]:
+            priors: set[str] = set()
+            for i, word in enumerate(self.words):
+                for w in self.attempts[i]:
+                    yield w, w in priors
+                yield word, None
+                priors.add(word)
+            if self.tried:
+                for w in self.tried:
+                    yield w, w in priors
 
-        recs = iter(res.records)
-        for rnd in res.rounds:
-            if rnd.note:
-                yield f'{rnd.note} {rnd.took}/{rnd.limit}'
-            else:
-                yield f'{rnd.took}/{rnd.limit}'
-            for _ in range(rnd.took):
-                rec = next(recs)
-                yield ''.join(Result.marks[i] for i in rec)
+
+        hist = PeekIter(enumerate(history(), 1))
+
+        res = self.result
+        if res:
+
+            yield ''
+
+            recs = iter(res.records)
+            for rnd in res.rounds:
+                if rnd.note:
+                    yield f'    {rnd.note} {rnd.took}/{rnd.limit}'
+                else:
+                    yield f'    {rnd.took}/{rnd.limit}'
+
+                if rnd.note.lower() == 'final':
+                    while True:
+                        nx = hist.peek()
+                        if not nx: break
+                        _, (_, kind) = nx
+                        if kind is not True: break
+                        _ = next(hist)
+
+                for _ in range(rnd.took):
+                    rec = next(recs)
+                    _, (word, _) = next(hist)
+                    yield f'    > {" ".join(word.upper())}'
+                    yield f'      {"".join(Result.marks[i] for i in rec)}'
+
+        if hist.peek() is not None:
+            yield ''
+            for n, (word, kind) in hist:
+                yield f'{n}. {word} {"it" if kind is None else "prior" if kind is True else ""}'
 
 @final
 @dataclass
