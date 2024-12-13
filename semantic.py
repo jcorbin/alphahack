@@ -2636,6 +2636,15 @@ class Search(StoredLog):
             i, j = self.chat_i, self.prompt_i
             return 'last' if (i, j) == (0, 0) else f'{i}.{j}'
 
+        # @property
+        # def mode(self):
+        #     return ChatExtractMode(self.source, False)
+
+        # @property
+        # def source(self) -> ChatExtractSource:
+        #     ij = self.chat_i, self.prompt_i
+        #     return 'last' if ij == (0, 0) else ij
+
         def potential(self):
             exw = self.extract_words()
 
