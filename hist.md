@@ -2191,3 +2191,15 @@ See log/squareword.org/#1047
 # 2024-12-13 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1077
+
+# 2024-12-13 alphaguess.com
+
+```
+🧩 Puzzle #507
+
+🤔 14 guesses
+
+⏱️ 22s
+
+🔗 alphaguess.com
+```
