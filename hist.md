@@ -2155,3 +2155,22 @@ See
 # 2024-12-12 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1076
+
+# 2024-12-11 cemantix.certitudes.org
+
+```
+🔗 cemantix.certitudes.org
+🧩 1017
+🤔 226 guesses
+    🥵   2
+    😎   7
+    🥶 125
+    🧊  92
+⏱️ 0:10:19.018547
+```
+
+🤔 227 attempts
+📜 0 sessions
+🫧 4 chat sessions
+⁉️ 27 chat prompts
+🤖 27 artifish/llama3.2-uncensored:latest replies
