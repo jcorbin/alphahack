@@ -2203,3 +2203,23 @@ See log/play.dictionary.com_games_todays-hurdle/#1077
 
 🔗 alphaguess.com
 ```
+
+# 2024-12-13 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 984
+🤔 714 guesses
+    🔥   4
+    🥵  12
+    😎 111
+    🥶 547
+    🧊  40
+⏱️ 4:04:44.709926
+```
+
+🤔 715 attempts
+📜 8 sessions
+🫧 14 chat sessions
+⁉️ 139 chat prompts
+🤖 136 artifish/llama3.2-uncensored:latest replies
