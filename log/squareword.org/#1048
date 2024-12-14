@@ -1,0 +1,151 @@
+T0.0001708269992377609 now: 2024-12-14T10:17:00EST
+T0.00021868699695914984 site: squareword.org
+T0.7461257629911415 📜 nwl2023.txt ? 
+T0.746210245997645 wordlist: nwl2023.txt
+T3.341861491993768 🧩  ? #1048
+T3.342283303005388 puzzle_id: #1048
+T7.299748785997508 > *
+T7.39328959499835 questioning: ["cymes", "#5 found:1902 hypo:11881376"]
+T11.69192927700351 cymes ( #5 found:1902 hypo:11881376 ) ? .
+T11.69202361398493 guess: cymes
+T18.235736672999337 cymes ( #5 found:1902 hypo:11881376 ) > 1 ___e_ ~ ces
+T18.23662192298798 word: 0 ___e_
+T18.236651130981045 may: 0 c e s
+T23.262563077994855 cymes ( #5 found:1902 hypo:11881376 ) > 2 ____s ~m
+T23.26287044698256 word: 1 ____s
+T23.26290224600234 may: 1 m
+T26.51664185099071 cymes ( #5 found:1902 hypo:11881376 ) > 3 ___es
+T26.516868695995072 word: 2 ___es
+T26.516892373998417 may: 2 
+T28.482039800001075 cymes ( #5 found:1902 hypo:11881376 ) > 4 ~ e
+T28.482726451999042 word: 3 _____
+T28.482757738005603 may: 3 e
+T30.1986698799883 cymes ( #5 found:1902 hypo:11881376 ) > 5 ~ ye
+T30.19884820198058 word: 4 _____
+T30.198867161991075 may: 4 e y
+T31.59302942699287 cymes ( #5 found:1902 hypo:11881376 ) > 
+T31.59315345599316 question done
+T32.30216445098631 > *
+T32.68458681899938 questioning: ["sycee", "#1 found:2 hypo:156"]
+T37.67333265498746 sycee ( #1 found:2 hypo:156 ) ? .
+T37.67347989100381 guess: sycee
+T46.495028125995304 sycee ( #1 found:2 hypo:156 ) > 1 s__ee ~ c
+T46.49529682498542 word: 0 s__ee
+T46.49532404798083 may: 0 c
+T55.18211812598747 sycee ( #1 found:2 hypo:156 ) > 
+T55.182288149982924 question done
+T55.82143798499601 > *
+T55.959209299995564 questioning: ["scree", "#1 found:1 hypo:26"]
+T59.10504270999809 scree ( #1 found:1 hypo:26 ) ? .
+T59.10519020599895 guess: scree
+T62.56779637100408 scree ( #1 found:1 hypo:26 ) > 1 scree
+T62.56803085998399 word: 0 scree
+T62.568064267979935 may: 0 
+T68.15767027600668 scree ( #1 found:1 hypo:26 ) > 2 ~ mr
+T68.15796048400807 word: 1 ____s
+T68.15800099400803 may: 1 m r
+T71.3563752459886 scree ( #1 found:1 hypo:26 ) > 4 ~ er
+T71.35660613700747 word: 3 _____
+T71.35663890300202 may: 3 e r
+T72.42662140200264 scree ( #1 found:1 hypo:26 ) > 
+T72.42674782499671 question done
+T73.67532610299531 > *
+T73.87725404498633 questioning: ["maars", "#2 found:3 hypo:1352"]
+T78.15933213700191 maars ( #2 found:3 hypo:1352 ) ? .
+T78.15948427899275 guess: maars
+T82.02212364098523 maars ( #2 found:3 hypo:1352 ) > 2 __a_s
+T82.02221070299856 word: 1 __a_s
+T82.02221954599372 may: 1 m r
+T87.07294885098236 maars ( #2 found:3 hypo:1352 ) > 4 ~ era
+T87.07325172898709 word: 3 _____
+T87.0732829879853 may: 3 a e r
+T88.13017297600163 maars ( #2 found:3 hypo:1352 ) > 
+T88.13033650798025 question done
+T88.54490020498633 > 
+T90.2748154309811 > *
+T90.45373948299675 questioning: ["trams", "#2 found:3 hypo:52"]
+T94.50130034098402 trams ( #2 found:3 hypo:52 ) ? 
+T94.5014018949878 question done
+T96.04677594199893 > trams
+T96.04712491098326 questioning: ["trams", "entered"]
+T97.09697163198143 trams ( entered ) ? .
+T97.0970462950063 guess: trams
+T100.53302112399251 trams ( entered ) > 2 _rams
+T100.53318138699979 word: 1 _rams
+T100.53319775499403 may: 1 
+T105.88392634698539 trams ( entered ) > 4 _r___
+T105.88404033400002 word: 3 _r___
+T105.88405764999334 may: 3 a e
+T109.6985234739841 trams ( entered ) > 5 t____
+T109.69878653198248 word: 4 t____
+T109.69882906600833 may: 4 e y
+T112.4498741569987 trams ( entered ) > 
+T112.44998983398546 question done
+T114.08785042498494 > *
+T114.35035802898346 questioning: ["crams", "#2 found:1 hypo:26"]
+T121.9904049159959 crams ( #2 found:1 hypo:26 ) ? .
+T121.99051985700498 guess: crams
+T134.2722513579938 crams ( #2 found:1 hypo:26 ) > 
+T134.27241970598698 question done
+T134.9880977779976 > *
+T134.99011332498048 questioning: ["prams", "#2 found:1 hypo:26"]
+T141.39614242498646 prams ( #2 found:1 hypo:26 ) ? .
+T141.39627106499393 guess: prams
+T142.60973242900218 prams ( #2 found:1 hypo:26 ) > 2 prams
+T142.60986683599185 word: 1 prams
+T142.60988060900127 may: 1 
+T148.09867280098842 prams ( #2 found:1 hypo:26 ) > 
+T148.09879569499753 question done
+T148.78080083298846 > *
+T148.8254216669884 questioning: ["teary", "#5 found:1 hypo:1352"]
+T152.87606383900857 teary ( #5 found:1 hypo:1352 ) ? .
+T152.87621279698214 guess: teary
+T155.2330006469856 teary ( #5 found:1 hypo:1352 ) > 5 te__y
+T155.23320668499218 word: 4 te__y
+T155.23322852500132 may: 4 
+T159.09023753198562 teary ( #5 found:1 hypo:1352 ) > 
+T159.09031481700367 question done
+T159.72014928798308 > *
+T160.08646050599054 questioning: ["arena", "#4 found:1 hypo:1352"]
+T165.00685127798351 arena ( #4 found:1 hypo:1352 ) ? .
+T165.00700245899498 guess: arena
+T167.04343276299187 arena ( #4 found:1 hypo:1352 ) > 4 arena
+T167.04363463798654 word: 3 arena
+T167.04366609099088 may: 3 
+T169.1966797899804 arena ( #4 found:1 hypo:1352 ) > 
+T169.19682148800348 question done
+T169.9382492619916 > *
+T170.53890144699835 questioning: ["teddy", "#5 found:1 hypo:676"]
+T174.82126500000595 teddy ( #5 found:1 hypo:676 ) ? .
+T174.8213847260049 guess: teddy
+T176.22780901598162 teddy ( #5 found:1 hypo:676 ) > 5 teddy
+T176.22812834999058 word: 4 teddy
+T176.22816708299797 may: 4 
+T177.07358094098163 teddy ( #5 found:1 hypo:676 ) > 
+T177.07364806800615 question done
+T177.6035812199989 > *
+T178.02614599998924 questioning: ["rotes", "#3 found:9 hypo:17576"]
+T181.19513271699543 rotes ( #3 found:9 hypo:17576 ) ? .
+T181.1952937800088 guess: rotes
+T186.21963673600112 rotes ( #3 found:9 hypo:17576 ) > _o_es
+T194.42526974499924 rotes ( #3 found:9 hypo:17576 ) > 3 _o_es
+T194.42567801399855 word: 2 _o_es
+T194.42573307198472 may: 2 
+T200.99023971700808 rotes ( #3 found:9 hypo:17576 ) > 
+T200.99038849398494 question done
+T206.09372360398993 > *
+T206.52160774200456 questioning: ["ropes", "#3 found:7 hypo:676"]
+T214.15352113900008 ropes ( #3 found:7 hypo:676 ) ? 
+T214.153665085003 question done
+T214.94856045598863 > *
+T215.33195328700822 questioning: ["loves", "#3 found:5 hypo:676"]
+T218.80695873999503 loves ( #3 found:5 hypo:676 ) ? .
+T218.80717453898978 guess: loves
+T220.96293266498833 loves ( #3 found:5 hypo:676 ) > 3 loves
+T220.96309241600102 word: 2 loves
+T220.96311935398262 may: 2 
+T224.91518014200847 loves ( #3 found:5 hypo:676 ) > 
+T224.91537653599516 question done
+T225.76776937098475 Copy share result and press <Enter>
+T225.77353146098903 result: "squareword.org 1048: 13 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1048"
+T225.77364679498714 <STOP>
