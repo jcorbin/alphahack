@@ -666,6 +666,7 @@ class Search(StoredLog):
         self.auto_score = True
         self.explain_auto: bool = False
         self.auto_token_limit = 400
+        self.full_auto: bool = False
 
     def explained(self, s: str, explain: Explainable, pre: str = ''):
         if self.explain_auto:
@@ -2123,38 +2124,63 @@ class Search(StoredLog):
         if self.found is not None:
             return self.finish
 
-        with self.prompt(ui, '? ') as tokens:
-            if not tokens.empty:
-                return self.do_ideate(ui)
+        if not self.full_auto:
+            with self.prompt(ui, '? ') as tokens:
+                if not tokens.empty:
+                    return self.do_ideate(ui)
 
         may = sorted(self.automate(), reverse=True)
 
-        try:
-            for n, (score, input, explain) in enumerate(may, 1):
-                input, mark, comment = input.partition('//')
-                ui.print(self.explained(
-                    f'{n}. `{input.rstrip()}` {mark}{comment}'.rstrip(),
-                    explain, pre=f'{score:.2f} ='))
-            with ui.input('( 1. ) ? ') as tokens:
-                if not tokens.empty:
-                    _, input, _ = may[int(next(tokens))-1]
+        if not self.full_auto:
+            try:
+                for n, (score, input, explain) in enumerate(may, 1):
+                    input, mark, comment = input.partition('//')
+                    ui.print(self.explained(
+                        f'{n}. `{input.rstrip()}` {mark}{comment}'.rstrip(),
+                        explain, pre=f'{score:.2f} ='))
+                with ui.input('( 1. ) ? ') as tokens:
+                    if not tokens.empty:
+                        _, input, _ = may[int(next(tokens))-1]
+                        input, _, _ = input.partition('//')
+                        input = input.rstrip()
+                        tokens.raw = input
+                        return self.do_ideate(ui)
+            except KeyboardInterrupt:
+                return
+
+            ui.print(f'🛤️🚋🛤️ Engaging full auto')
+            self.full_auto = True
+
+        else:
+            # TODO loop / thrash / stall detection
+            ui.br()
+
+        with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
+            for attempt in range(3):
+                if attempt > 0:
+                    if self.explain_auto:
+                        ui.print(f'// automate attempt {attempt+1}, try again')
+                    may = sorted(self.automate(), reverse=True)
+                for score, input, explain in may:
+                    if self.explain_auto:
+                        ui.print(f'// {score:.2f} = {explanation(explain)}')
+                    self.write_prompt(ui)
+                    ui.fin(f'[AUTO]? {input}')
                     input, _, _ = input.partition('//')
                     input = input.rstrip()
-                    tokens.raw = input
-                    return self.do_ideate(ui)
-        except KeyboardInterrupt:
-            return
+                    ui.tokens.raw = input
+                    st = self.do_ideate(ui)
+                    if st: return st
 
-        ui.br()
+            ui.print(f'// full auto exhausted')
+            self.full_auto = False
 
-        for score, input, explain in may:
-            if self.explain_auto:
-                ui.print(f'// {score} ; {explain}')
-            self.write_prompt(ui)
-            ui.fin(f'[AUTO]? {input}')
-            ui.tokens.raw = input
-            st = self.do_ideate(ui)
-            if st: return st
+    def ideate_stop(self, ui: PromptUI) -> PromptUI.State|None:
+        if self.full_auto:
+            ui.br()
+            ui.print('🚏🚋🚏 Disengaging full auto')
+            self.full_auto = False
+        return self.ideate
 
     def do_ideate(self, ui: PromptUI) -> PromptUI.State|None:
         with ui.tokens as tokens:
@@ -2358,7 +2384,15 @@ class Search(StoredLog):
         ui.print(f'Fin {self.describe_word(it)}')
 
         if not self.result_text:
-            auto = ui.input('Paste share result, then press <Enter>').raw.strip() == 'auto'
+            auto = False
+
+            if self.full_auto:
+                ui.print('🚉🚋🚉  Disengaging full auto, synthesising share result')
+                self.full_auto = False
+                auto = True
+
+            if not auto:
+                auto = ui.input('Paste share result, then press <Enter>').raw.strip() == 'auto'
 
             if auto:
                 def rank() -> Generator[Tier]:
@@ -2693,7 +2727,7 @@ class Search(StoredLog):
                         ui.fin(f' 💿 {self.describe_word(i)}')
                     return self.finish if self.found else None
 
-        with ui.catch_state(KeyboardInterrupt, self.ideate):
+        with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
             ui.br()
             ui.copy(word)
             return self.attempt_score_word(ui, word, desc, score, prog)
@@ -2879,7 +2913,7 @@ class Search(StoredLog):
             self.collect_word_ref)
 
     def chat_prompt(self, ui: PromptUI, prompt: str) -> PromptUI.State|None:
-        with ui.catch_state(KeyboardInterrupt, self.ideate):
+        with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
             # TODO do we tokenize and abbr-expand prompt here or in set_chat_prompt?
 
             # TODO can this be an abbr?
@@ -2925,7 +2959,8 @@ class Search(StoredLog):
             if any(exw.may):
                 return self.chat_extract_all
 
-            ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
+            if not self.full_auto:
+                ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
 
     def chat_say(self, ui: PromptUI, prompt: str):
         if not self.chat and self.system_prompt:
@@ -3068,7 +3103,7 @@ class Search(StoredLog):
             (self.word_ref_score(k, n) for k, n in last_refs))
 
     def chat_extract(self, ui: PromptUI) -> PromptUI.State | None:
-        with ui.catch_state(KeyboardInterrupt, self.ideate):
+        with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
             source: ChatExtractSource = 'last'
             exhaust = False
             do_all = False
@@ -3113,7 +3148,8 @@ class Search(StoredLog):
             words = sorted(exw.may)
 
             if not words:
-                ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
+                if not self.full_auto:
+                    ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
                 return
 
             if do_all:
@@ -3166,10 +3202,11 @@ class Search(StoredLog):
         exw = self.chat_extract_words()
         words = sorted(exw.may)
         if not words:
-            ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
+            if not self.full_auto:
+                ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
             return self.ideate
 
-        with ui.catch_state(KeyboardInterrupt, self.ideate):
+        with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
             basis_change = self.analyze_basis()
             if basis_change.score > 0:
                 sc_bo = basis_change.old_score
@@ -3200,13 +3237,15 @@ class Search(StoredLog):
                         yield f'sc_bn = {sc_bn:.2f} = {fmt_avg(basis_change.new_score_values)}'
                         yield f'sc_e = {sc_e:.2f} = {fmt_avg(extracted)}'
 
-                    ui.print(self.explained(f'🔙 possible > potential', explain))
+                    if not self.full_auto:
+                        ui.print(self.explained(f'🔙 possible > potential', explain))
                     return self.ideate
 
-            ui.br()
-            ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
-            basis_note = str(basis_change)
-            if basis_note: ui.print(f'// {basis_note}')
+            if not self.full_auto:
+                ui.br()
+                ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
+                basis_note = str(basis_change)
+                if basis_note: ui.print(f'// {basis_note}')
 
             return self.attempt_word(ui, words[0], f'extract_1/{len(words)}')
 
