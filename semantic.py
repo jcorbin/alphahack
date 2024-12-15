@@ -2384,6 +2384,9 @@ class Search(StoredLog):
             yield score, f'*{gen} $1 /clear // 🔭🪙 reset', explain_init_gen
             return
 
+        # if any(len(h.chat) for h in self.all_chats()):
+        #     yield 0.01, '/e scav all', '🎣 fallback',
+
         bc = self.analyze_basis()
         if bc.any:
             sc_bn = bc.new_score
