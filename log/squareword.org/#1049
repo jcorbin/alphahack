@@ -1,0 +1,159 @@
+T0.0002630969975143671 now: 2024-12-15T08:43:39EST
+T0.00033575500128790736 site: squareword.org
+T5.676828119001584 📜 nwl2023.txt ? 
+T5.676951266999822 wordlist: nwl2023.txt
+T7.908482358005131 🧩  ? #1049
+T7.908716844016453 puzzle_id: #1049
+T9.49238646501908 > *
+T9.68395451901597 questioning: ["butes", "#5 found:1168 hypo:11881376"]
+T17.50006143702194 butes ( #5 found:1168 hypo:11881376 ) ? .
+T17.500160510011483 guess: butes
+T20.564273443014827 butes ( #5 found:1168 hypo:11881376 ) > 1 ~ es
+T20.5648881670204 word: 0 _____
+T20.564906806015642 may: 0 e s
+T24.564256343001034 butes ( #5 found:1168 hypo:11881376 ) > 3 ___e_
+T24.564416904002428 word: 2 ___e_
+T24.564433921012096 may: 2 
+T27.148724916012725 butes ( #5 found:1168 hypo:11881376 ) > 4 ~ ue
+T27.148939685022924 word: 3 _____
+T27.148971401999006 may: 3 e u
+T31.676116948015988 butes ( #5 found:1168 hypo:11881376 ) > 5 ___e_ ~ t
+T31.676272689015605 word: 4 ___e_
+T31.676290539006004 may: 4 t
+T34.56411709601525 butes ( #5 found:1168 hypo:11881376 ) > 
+T34.5642238400178 question done
+T36.84407999299583 > /no b
+T36.84438179701101 nope: b
+T39.56434260500828 > *
+T40.16994979701121 questioning: ["fetus", "#4 found:51 hypo:31250"]
+T68.77228613902116 fetus ( #4 found:51 hypo:31250 ) ? .
+T68.7723801510001 guess: fetus
+T72.79616854101187 fetus ( #4 found:51 hypo:31250 ) > 
+T72.79623958602315 question done
+T74.06821249600034 > /no f
+T74.06832621901412 nope: b f
+T79.27627994201612 > *
+T79.79235877702013 questioning: ["pudge", "#4 found:115 hypo:27648"]
+T84.69300572900102 pudge ( #4 found:115 hypo:27648 ) ? .
+T84.69319325801916 guess: pudge
+T88.90816397001618 pudge ( #4 found:115 hypo:27648 ) > 4 ___ge 
+T88.9082789820095 word: 3 ___ge
+T88.90829138702247 may: 3 u
+T91.90029852601583 pudge ( #4 found:115 hypo:27648 ) > 
+T91.90037767699687 question done
+T96.86847813101485 > /no pd
+T96.86858158800169 nope: b d f p
+T97.89225967699895 > *
+T98.35665717700613 questioning: ["rouge", "#4 found:7 hypo:484"]
+T105.69243654899765 rouge ( #4 found:7 hypo:484 ) ? .
+T105.6925685510214 guess: rouge
+T107.1402676780126 rouge ( #4 found:7 hypo:484 ) > 4 rouge
+T107.1404439980106 word: 3 rouge
+T107.14046363500529 may: 3 
+T110.10001648700563 rouge ( #4 found:7 hypo:484 ) > 5 ~ r
+T110.10014192102244 word: 4 ___e_
+T110.10015883800224 may: 4 r
+T116.19615437701577 rouge ( #4 found:7 hypo:484 ) > 5 ~ tr
+T116.19630243701977 word: 4 ___e_
+T116.19632631001878 may: 4 r t
+T117.58016912700259 rouge ( #4 found:7 hypo:484 ) > 
+T117.58024473499972 question done
+T118.62074446902261 > *
+T118.85559797100723 questioning: ["roset", "#5 found:36 hypo:968"]
+T126.56437623300008 roset ( #5 found:36 hypo:968 ) ? 
+T126.56447877900791 question done
+T127.61234208001406 > *
+T127.62079901099787 questioning: ["ratel", "#5 found:27 hypo:968"]
+T132.25222841501818 ratel ( #5 found:27 hypo:968 ) ? .
+T132.2523366950045 guess: ratel
+T137.17245933701633 ratel ( #5 found:27 hypo:968 ) > 1 ____l
+T137.1725755050138 word: 0 ____l
+T137.17259315302363 may: 0 e s
+T139.8361756580125 ratel ( #5 found:27 hypo:968 ) > 1 ~ esl
+T139.8363490110205 word: 0 ____l
+T139.83636729701539 may: 0 e l s
+T145.1080852250161 ratel ( #5 found:27 hypo:968 ) > 2 _a___ ~ a
+T145.1082151410228 word: 1 _a___
+T145.10823094600346 may: 1 a
+T148.14032635401236 ratel ( #5 found:27 hypo:968 ) > 3 ~ a
+T148.14044518599985 word: 2 ___e_
+T148.14046114700614 may: 2 a
+T150.00411870601238 ratel ( #5 found:27 hypo:968 ) > 
+T150.00421532301698 question done
+T150.79622142700828 > *
+T151.73819622400333 questioning: ["swell", "#1 found:5 hypo:132"]
+T156.22021416699863 swell ( #1 found:5 hypo:132 ) ? .
+T156.22029269000632 guess: swell
+T159.87611265701707 swell ( #1 found:5 hypo:132 ) > 1 s_ell
+T159.87620661701658 word: 0 s_ell
+T159.87622044200543 may: 0 
+T165.54065032702056 swell ( #1 found:5 hypo:132 ) > 
+T165.54072925201035 question done
+T166.94027976301732 > /no w
+T166.94038643100066 nope: b d f p w
+T168.6041882050049 > *
+T170.59776401601266 questioning: ["lamia", "#2 found:1 hypo:9261"]
+T176.228137580998 lamia ( #2 found:1 hypo:9261 ) ? .
+T176.2283277999959 guess: lamia
+T184.67642601401894 lamia ( #2 found:1 hypo:9261 ) > 2 _a_ia ~ m
+T184.67663119500503 word: 1 _a_ia
+T184.6766500180238 may: 1 m
+T189.56416336999973 lamia ( #2 found:1 hypo:9261 ) > 1 ~ m
+T189.56429235401447 word: 0 s_ell
+T189.5643096230051 may: 0 m
+T197.91658694201033 lamia ( #2 found:1 hypo:9261 ) > 5 ~tri
+T197.91682636999758 word: 4 ___e_
+T197.91686146400752 may: 4 i r t
+T201.02836968001793 lamia ( #2 found:1 hypo:9261 ) > 
+T201.02849058900028 question done
+T202.86014118601452 > smell
+T202.8604994910129 questioning: ["smell", "entered"]
+T207.62822598702041 smell ( entered ) ? .
+T207.62829837200115 guess: smell
+T208.9882152180071 smell ( entered ) > 1 smell
+T208.98835959701682 word: 0 smell
+T208.9883704179956 may: 0 
+T214.70027235901216 smell ( entered ) > 
+T214.7003474550147 question done
+T217.44420497701503 > *
+T219.18255247699562 questioning: ["mania", "#2 found:1 hypo:21"]
+T229.2041047179955 mania ( #2 found:1 hypo:21 ) ? .
+T229.2041838990117 guess: mania
+T230.63618800000404 mania ( #2 found:1 hypo:21 ) > 2 mania
+T230.63632718200097 word: 1 mania
+T230.63634499700856 may: 1 
+T237.09238548201392 mania ( #2 found:1 hypo:21 ) > 3 __ne_ ~ an
+T237.09253801900195 word: 2 __ne_
+T237.0925553550187 may: 2 a n
+T239.69221386199933 mania ( #2 found:1 hypo:21 ) > 
+T239.69228120299522 question done
+T240.63602554501267 > *
+T241.86146435100818 questioning: ["annex", "#3 found:1 hypo:42"]
+T246.2370047220029 annex ( #3 found:1 hypo:42 ) ? .
+T246.2371931230009 guess: annex
+T249.1563127520203 annex ( #3 found:1 hypo:42 ) > 3 annex
+T249.15644171199529 word: 2 annex
+T249.15644941999926 may: 2 
+T251.13227166602155 annex ( #3 found:1 hypo:42 ) > 
+T251.13234741301858 question done
+T252.0122848309984 > *
+T252.81445602999884 questioning: ["tries", "#5 found:2 hypo:126"]
+T257.900412707997 tries ( #5 found:2 hypo:126 ) ? .
+T257.90050130701275 guess: tries
+T264.17215677700005 tries ( #5 found:2 hypo:126 ) > 5 trie ~ r
+T264.1723040860088 word: 4 trie_
+T264.17232536300435 may: 4 r
+T265.292370331008 tries ( #5 found:2 hypo:126 ) > 
+T265.2924785350042 question done
+T266.6361637430091 > *
+T267.4015360570047 questioning: ["trier", "#5 found:1 hypo:1"]
+T271.4282294930017 trier ( #5 found:1 hypo:1 ) ? .
+T271.42833559500286 guess: trier
+T274.7802910020109 trier ( #5 found:1 hypo:1 ) > 5 trier
+T274.7804156409984 word: 4 trier
+T274.78042660900974 may: 4 
+T281.00416612499976 trier ( #5 found:1 hypo:1 ) > 
+T281.0042781410157 question done
+T281.6922261349973 Copy share result and press <Enter>
+T281.6957895590167 result: "squareword.org 1049: 13 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe7\ud83d\udfe7\ud83d\udfe8\ud83d\udfe9\ud83d\udfe7\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe9\ud83d\udfe7\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1049"
+T281.6958518479951 <STOP>
