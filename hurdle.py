@@ -419,16 +419,16 @@ class Search(StoredLog):
 
                 if rnd.note.lower() == 'final':
                     while True:
-                        nx = hist.peek()
-                        if not nx: break
-                        _, (_, kind) = nx
+                        if not hist.peek(): break
+                        _, (_, kind) = next(hist)
                         if kind is not True: break
-                        _ = next(hist)
 
                 for _ in range(rnd.took):
                     rec = next(recs)
-                    _, (word, _) = next(hist)
-                    yield f'    > {" ".join(word.upper())}'
+                    nh = next(hist, None)
+                    if nh:
+                        _, (word, _) = nh
+                        yield f'    > {" ".join(word.upper())}'
                     yield f'      {"".join(Result.marks[i] for i in rec)}'
 
         if hist.peek() is not None:
