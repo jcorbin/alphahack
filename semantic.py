@@ -2236,6 +2236,17 @@ class Search(StoredLog):
             yield score, f'*{gen} $1 /clear // 🔭🪙 reset', explain_init_gen
             return
 
+        bc = self.analyze_basis()
+        if bc.any:
+            sc_bn = bc.new_score
+            expect = sc_bn # TODO discount based on past basis performance
+            possible = weighted(expect, gen)
+            def regen_explain():
+                yield f'possible = {possible:.2f} = expect ** 1/may_gen'
+                yield f'may_gen = {gen}'
+                yield f'expect = sc_bn = {sc_bn:.2f} = {fmt_avg(bc.new_score_values)}'
+            yield possible, '_ // regen last', regen_explain
+
         # TODO this is one nascent exploration move "expand basis" ; implement others like "narrow basis", "moar", etc
         refs: list[tuple[WordRef, int]] = [(k, n) for k, n in lcp.refs() if k in ('$', '~')]
         num_vars = sum(1 for k, _ in refs if k == '$')
