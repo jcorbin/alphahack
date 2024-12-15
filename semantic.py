@@ -577,6 +577,14 @@ class WordScore:
             else: pass # TODO store somehow? ui.write(f' ??? {key}={value!r} ...')
         return cls(word, score, prog, puzzle_num, solvers)
 
+Explainable = str|Iterable[str]|Callable[[], Iterable[str]]
+
+def explanation(explain: Explainable):
+    if not isinstance(explain, str):
+        if callable(explain): explain = explain()
+        explain = '; '.join(explain)
+    return explain
+
 @final
 class Search(StoredLog):
     log_file: str = 'cemantle.log'
@@ -648,6 +656,14 @@ class Search(StoredLog):
         self.chat_extract_mode = ChatExtractMode('last', False)
 
         self.auto_score = True
+        self.explain_auto: bool = False
+
+    def explained(self, s: str, explain: Explainable, pre: str = ''):
+        if self.explain_auto:
+            explain = explanation(explain)
+            if pre: explain = f'{pre} {explain}'
+            s = f'{s} ; {explain}'
+        return s
 
     @property
     def pub_tz(self):
@@ -1340,11 +1356,17 @@ class Search(StoredLog):
             if tokens.empty:
                 ui.print('auto:')
                 ui.print(f'- score: {self.auto_score}')
+                ui.print(f'- explain: {self.explain_auto}')
                 return
 
             if tokens.have(r'score'):
                 self.auto_score = (not self.auto_score) if tokens.empty else any(next(tokens).lower().startswith(c) for c in 'yt')
                 ui.print(f'auto score: {self.auto_score}')
+                return
+
+            if tokens.have(r'explain'):
+                self.explain_auto = (not self.explain_auto) if tokens.empty else any(next(tokens).lower().startswith(c) for c in 'yt')
+                ui.print(f'auto explain: {self.explain_auto}')
                 return
 
             ui.print(f'! invalid /auto {tokens.raw}')
