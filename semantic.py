@@ -1943,9 +1943,6 @@ class Search(StoredLog):
         else:
             self.chat_model(ui, model)
 
-        if any(self.chat_extract_words(ChatExtractMode('last', False)).may):
-            return self.chat_extract
-
         return self.ideate
 
     def generate(self, ui: PromptUI):
@@ -2114,15 +2111,41 @@ class Search(StoredLog):
         if self.found is not None:
             return self.finish
 
-        if self.last_chat_role == 'user':
-            ui.print('// last chat prompt aborted; restart with `.`')
-
         with self.prompt(ui, '? ') as tokens:
-            if tokens.empty:
-                if self.attempt == 0 and not self.chat:
-                    return self.generate(ui)
-                return
+            if not tokens.empty:
+                return self.do_ideate(ui)
 
+        may = sorted(self.automate(), reverse=True)
+
+        try:
+            for n, (score, input, explain) in enumerate(may, 1):
+                input, mark, comment = input.partition('//')
+                ui.print(self.explained(
+                    f'{n}. `{input.rstrip()}` {mark}{comment}'.rstrip(),
+                    explain, pre=f'{score:.2f} ='))
+            with ui.input('( 1. ) ? ') as tokens:
+                if not tokens.empty:
+                    _, input, _ = may[int(next(tokens))-1]
+                    input, _, _ = input.partition('//')
+                    input = input.rstrip()
+                    tokens.raw = input
+                    return self.do_ideate(ui)
+        except KeyboardInterrupt:
+            return
+
+        ui.br()
+
+        for score, input, explain in may:
+            if self.explain_auto:
+                ui.print(f'// {score} ; {explain}')
+            self.write_prompt(ui)
+            ui.fin(f'[AUTO]? {input}')
+            ui.tokens.raw = input
+            st = self.do_ideate(ui)
+            if st: return st
+
+    def do_ideate(self, ui: PromptUI) -> PromptUI.State|None:
+        with ui.tokens as tokens:
             if tokens.peek('').startswith('!'):
                 token = next(tokens)
                 try:
@@ -2165,6 +2188,17 @@ class Search(StoredLog):
                 return self.chat_prompt(ui, ' '.join(parts))
 
             return self.attempt_word(ui, next(tokens).lower(), f'entered')
+
+    def automate(self) -> Generator[tuple[float, str, Explainable]]:
+        if self.last_chat_role == 'user':
+            yield 1.0, '. // restart aborted chat prompt', '1.0 fixed'
+
+        init = self.attempt == 0 and not self.chat
+        if init:
+            yield 1.0, '*', 'initial random'
+
+        if any(self.chat_extract_words(ChatExtractMode('last', False)).may):
+            yield 1.0, '/e last', 'extract from last chat reply'
 
     def ref_word(self, ui: PromptUI, match: re.Match[str]):
         refs = list(word_match_refs(match))
