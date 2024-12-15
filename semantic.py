@@ -2262,6 +2262,8 @@ class Search(StoredLog):
         elif not self.word:
             yield 0.9, '* // 🎲 sus random', '0.90 fixed'
             return
+        # else:
+        #     yield 0.0, '* /clear // 🎲 fallback', '0.00 fixed'
 
         lcp = ChatPrompt(self.last_chat_prompt) if isinstance(self.last_chat_prompt, str) else self.last_chat_prompt
 
