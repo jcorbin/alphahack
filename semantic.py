@@ -2371,6 +2371,8 @@ class Search(StoredLog):
                 yield f'expect = sc_bn = {sc_bn:.2f} = {fmt_avg(bc.new_score_values)}'
             yield possible, '_ // regen last', regen_explain
 
+        # TODO evaluate novel basis sets from recent chat_extract_all progress
+
         # TODO this is one nascent exploration move "expand basis" ; implement others like "narrow basis", "moar", etc
         refs: list[tuple[WordRef, int]] = [(k, n) for k, n in lcp.refs() if k in ('$', '~')]
         num_vars = sum(1 for k, _ in refs if k == '$')
