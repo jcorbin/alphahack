@@ -14,6 +14,7 @@ from collections import Counter
 from collections.abc import Generator, Iterable, MutableMapping, Sequence
 from dataclasses import dataclass
 from dateutil.tz import gettz
+from itertools import chain
 from typing import assert_never, cast, final, overload, override, Callable, Literal
 from urllib.parse import urlparse
 
@@ -2203,11 +2204,30 @@ class Search(StoredLog):
     def automate(self) -> Generator[tuple[float, str, Explainable]]:
         if self.last_chat_role == 'user':
             yield 1.0, '. // restart aborted chat prompt', '1.0 fixed'
-
-        if any(self.chat_extract_words(ChatExtractMode('last', False)).may):
-            yield 1.0, '/e last', 'extract from last chat reply'
-
+        yield from self.auto_extract()
         yield from self.auto_explore()
+
+    def auto_extract(self) -> Generator[tuple[float, str, Explainable]]:
+        cp = self.last_chat_prompt if isinstance(self.last_chat_prompt, ChatPrompt) else ChatPrompt(self.last_chat_prompt)
+        may_gen = cp.count
+
+        backlog = len(set(chain.from_iterable(
+            ex.extract_words().may
+            for ex in self.chat_history_extracts()
+        )))
+        backlog_mul = max(1.0, round(backlog / may_gen))
+
+        for ex in self.chat_history_extracts():
+            potential, potential_explain = ex.potential()
+            if potential > 0:
+                score = weighted(potential, backlog_mul)
+                def ex_explain() -> Generator[str]:
+                    yield f'score = potential ** (1/backlog_mul)'
+                    yield f'backlog_mul = max(1, round(backlog/may_gen))'
+                    yield f'backlog = {backlog}'
+                    yield f'may_gen = {may_gen}'
+                    yield from potential_explain()
+                yield score, f'/e {ex.source_str} all // prior {ex.chat_i}.{ex.prompt_i}', ex_explain
 
     def auto_explore(self) -> Generator[tuple[float, str, Explainable]]:
         if self.attempt == 0 and not self.chat:
@@ -2562,6 +2582,11 @@ class Search(StoredLog):
             for word in set(self.basis_words):
                 score = self.search.score[self.search.word.index(word)] # TODO faster reverse index wen?
                 yield word, score
+
+        @property
+        def source_str(self) -> str:
+            i, j = self.chat_i, self.prompt_i
+            return 'last' if (i, j) == (0, 0) else f'{i}.{j}'
 
         def potential(self):
             exw = self.extract_words()
