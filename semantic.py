@@ -38,10 +38,13 @@ def retry_backoffs(
 
 def weighted(score: float, w: int|float):
     if w == 0: return 0
-    if score < 0:
-        return -math.pow(-score, 1/w)
-    else:
-        return math.pow(score, 1/w)
+    try:
+        if score < 0:
+            return -math.pow(-score, 1/w)
+        else:
+            return math.pow(score, 1/w)
+    except ValueError as err: # FIXME math domain error
+        raise ValueError(f'{err} score:{score} w:{w}')
 
 def fmt_avg(nums: Iterable[float], prec: int = 2):
     return f'avg({fmt_nums(sorted(nums), prec=prec)})'
