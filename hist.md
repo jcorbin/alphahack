@@ -2420,3 +2420,7 @@ See log/play.dictionary.com_games_todays-hurdle/#1079
 # 2024-12-16 squareword.org
 
 See log/squareword.org/#1050
+
+# 2024-12-16 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1080
