@@ -1,0 +1,117 @@
+T0.0001751950003381353 now: 2024-12-16T11:00:49EST
+T0.00022069499937060755 site: squareword.org
+T5.578316343000552 📜 nwl2023.txt ? 
+T5.578500378000172 wordlist: nwl2023.txt
+T9.474485802000345 🧩  ? #1050
+T9.474874589999672 puzzle_id: #1050
+T10.610394453999106 > *
+T10.703870613999243 questioning: ["glare", "#5 found:3241 hypo:11881376"]
+T13.753946929000449 glare ( #5 found:3241 hypo:11881376 ) ? .
+T13.754032524999275 guess: glare
+T19.90651129700018 glare ( #5 found:3241 hypo:11881376 ) > 1 __a__ ~ l
+T19.907408529999884 word: 0 __a__
+T19.907435553999676 may: 0 l
+T25.810223219999898 glare ( #5 found:3241 hypo:11881376 ) > 2 ____e ~le
+T25.810557270000572 word: 1 ____e
+T25.81058954800028 may: 1 e l
+T31.106152837999616 glare ( #5 found:3241 hypo:11881376 ) > 3 _l__e ~ a
+T31.106414833999224 word: 2 _l__e
+T31.106439826000496 may: 2 a
+T36.05078869299905 glare ( #5 found:3241 hypo:11881376 ) > 4 _l___ ~ e
+T36.05109944300057 word: 3 _l___
+T36.051129035000486 may: 3 e
+T38.54661044199929 glare ( #5 found:3241 hypo:11881376 ) > 5 ~ e
+T38.547369792999234 word: 4 _____
+T38.54740503299945 may: 4 e
+T39.02593665099994 glare ( #5 found:3241 hypo:11881376 ) > 
+T39.02605230699919 question done
+T40.53853765399981 > /no r g
+T40.539029056999425 nope: g r
+T42.21804357399924 > *
+T42.6395376370001 questioning: ["helve", "#2 found:4 hypo:1152"]
+T47.01058422599999 helve ( #2 found:4 hypo:1152 ) ? .
+T47.010728946999734 guess: helve
+T57.57018646799952 helve ( #2 found:4 hypo:1152 ) > 2 _el_e ~ e
+T57.570421578000605 word: 1 _el_e
+T57.57044391599993 may: 1 e
+T65.37028321499929 helve ( #2 found:4 hypo:1152 ) > 3 _l_ve
+T65.37050482999985 word: 2 _l_ve
+T65.3705381180007 may: 2 a
+T77.58662015499976 helve ( #2 found:4 hypo:1152 ) > 5 h____
+T77.58684419800011 word: 4 h____
+T77.58687528500013 may: 4 e
+T82.04996422799923 helve ( #2 found:4 hypo:1152 ) > 
+T82.05006227900049 question done
+T82.81834923799943 > *
+T83.12946880799973 questioning: ["melee", "#2 found:1 hypo:24"]
+T86.62548471599985 melee ( #2 found:1 hypo:24 ) ? .
+T86.62555836499996 guess: melee
+T87.79433058799987 melee ( #2 found:1 hypo:24 ) > 2 melee
+T87.79454900000019 word: 1 melee
+T87.794573657 may: 1 
+T96.11437078299969 melee ( #2 found:1 hypo:24 ) > 4 _l_e_ ~ e
+T96.11462664499959 word: 3 _l_e_
+T96.11466603199915 may: 3 e
+T101.82633852400068 melee ( #2 found:1 hypo:24 ) > 5 h__e_
+T101.82658419099971 word: 4 h__e_
+T101.82661686699976 may: 4 
+T109.03448546899926 melee ( #2 found:1 hypo:24 ) > *
+T113.33053087100052 melee ( #2 found:1 hypo:24 ) > *
+T114.00265057899924 <INT>
+T0.0014508749991364311 now: 2024-12-16T11:02:43EST
+T0.9398155649996625 melee ( #2 found:1 hypo:24 ) > *
+T2.3004504950004048 melee ( #2 found:1 hypo:24 ) > *
+T3.204279993000455 melee ( #2 found:1 hypo:24 ) > *
+T6.40419562399984 melee ( #2 found:1 hypo:24 ) > 
+T6.4043108700007 question done
+T7.484185196999533 > *
+T7.87194122999972 questioning: ["alive", "#3 found:1 hypo:24"]
+T11.276591257999826 alive ( #3 found:1 hypo:24 ) ? .
+T11.276747339999929 guess: alive
+T12.492268579000665 alive ( #3 found:1 hypo:24 ) > 3 alive
+T12.493062434999956 word: 2 alive
+T12.49309093500051 may: 2 
+T18.908062688000427 alive ( #3 found:1 hypo:24 ) > 2 ~
+T18.90856017399892 word: 1 melee
+T18.90858315600053 may: 1 
+T23.108156020000024 alive ( #3 found:1 hypo:24 ) > 5 ~
+T23.108361958000387 word: 4 h__e_
+T23.10838467999929 may: 4 
+T26.988659224000003 alive ( #3 found:1 hypo:24 ) > 
+T26.988859050999963 question done
+T27.716252185000485 > *
+T27.84174256299957 questioning: ["sleek", "#4 found:1 hypo:576"]
+T34.58811257600064 sleek ( #4 found:1 hypo:576 ) ? .
+T34.588237579000634 guess: sleek
+T36.74016846700033 sleek ( #4 found:1 hypo:576 ) > 4 sleek
+T36.74035418399944 word: 3 sleek
+T36.74037303200021 may: 3 
+T42.10069646900047 sleek ( #4 found:1 hypo:576 ) > 1 s_a__
+T42.10089682499893 word: 0 s_a__
+T42.10092563000035 may: 0 l
+T48.26855404100024 sleek ( #4 found:1 hypo:576 ) > 5 ~ s
+T48.26883889899909 word: 4 h__e_
+T48.26888067800064 may: 4 s
+T49.004441342000064 sleek ( #4 found:1 hypo:576 ) > 
+T49.00458854799945 question done
+T49.78733789299986 > *
+T50.026667412999814 questioning: ["hones", "#5 found:1 hypo:576"]
+T55.65208494599938 hones ( #5 found:1 hypo:576 ) ? .
+T55.65221871199901 guess: hones
+T57.132034558999294 hones ( #5 found:1 hypo:576 ) > 5 hones
+T57.13223496699902 word: 4 hones
+T57.13225607200002 may: 4 
+T58.73220026600029 hones ( #5 found:1 hypo:576 ) > 
+T58.732331436000095 question done
+T59.404371754999374 > *
+T59.53059181599929 questioning: ["scalp", "#1 found:2 hypo:576"]
+T64.18060680999952 scalp ( #1 found:2 hypo:576 ) ? .
+T64.18077434000043 guess: scalp
+T68.56429103700066 scalp ( #1 found:2 hypo:576 ) > 1 scalp
+T68.56448866699975 word: 0 scalp
+T68.56450783400032 may: 0 
+T70.0522240549999 scalp ( #1 found:2 hypo:576 ) > 
+T70.05234225499953 question done
+T73.10092555799929 Copy share result and press <Enter>
+T73.10580981900057 result: "squareword.org 1050: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1050"
+T73.10589018599967 <STOP>
