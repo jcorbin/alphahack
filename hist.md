@@ -2424,3 +2424,18 @@ See log/squareword.org/#1050
 # 2024-12-16 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1080
+
+# 2024-12-16 https://wordnerd.co/wordchain
+
+```
+🤔 3 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 3 chain words
+from 'truth' to 'text'
+⏱️ 0:02:47.041208
+```
+
+📜 9 sessions
+🫧 1 chat sessions
+⁉️ 1 chat prompts
+🤖 1 llama3.2:latest replies
