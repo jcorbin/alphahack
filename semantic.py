@@ -18,6 +18,7 @@ from itertools import chain
 from typing import assert_never, cast, final, overload, override, Callable, Literal
 from urllib.parse import urlparse
 
+from chat import ChatContext, ChatModelError, get_olm_models
 from mdkit import break_sections, capture_fences, fenceit
 from store import StoredLog, git_txn
 from strkit import matchgen, spliterate, wraplines, MarkedSpec
@@ -194,16 +195,6 @@ def parse_digit_int(s: str, default: int = 0):
     for n in parse_digits(s):
         nn = n if nn is None else 10*nn + n
     return default if nn is None else nn
-
-def get_olm_models(client: ollama.Client) -> Generator[str]:
-    models = cast(object, client.list()['models'])
-    assert isinstance(models, list)
-    for x in cast(list[object], models):
-        assert isinstance(x, dict)
-        x = cast(dict[str, object], x)
-        name = x.get('name')
-        assert isinstance(name, str)
-        yield name
 
 def olm_find_model(client: ollama.Client, name: str):
     try:
@@ -653,14 +644,17 @@ class Search(StoredLog):
         self.http_verbose: int = 0
         self.logged_cookies: dict[str, str] = {}
 
+        # TODO
+        # self.chat = ChatContext()
+
+        # TODO ex
         self.llm_client = ollama.Client()
         self.llm_model: str = self.default_chat_model
-
-        self.abbr: dict[str, str] = dict(default_abbr)
         self.chat: list[ollama.Message] = []
         self.chat_history: list[ChatSession] = []
         self.system_prompt: str = ''
 
+        self.abbr: dict[str, str] = dict(default_abbr)
         self.last_chat_prompt: str|ChatPrompt = ''
         self.last_chat_basis: dict[str, float] = dict()
 
@@ -853,9 +847,23 @@ class Search(StoredLog):
     def startup(self, ui: PromptUI):
         if self.startup_done: return self.orient
 
+        # TODO
+        # if self.default_chat_model and not self.chat.wanted_model:
+        #     try:
+        #         self.chat.save_model(ui, self.default_chat_model)
+        #     except ChatModelError as err:
+        #         ui.print(f'! {err}')
+        #         self.choose_chat_model(ui)
+
+        # TODO
+        # if self.default_system_prompt and not self.chat.system_prompt:
+        #     self.chat.save_system_prompt(ui, self.default_system_prompt)
+
+        # TODO ex
         if not self.system_prompt:
             self.system_prompt = self.default_system_prompt
 
+        # TODO ex
         if self.system_prompt:
             ui.log(f'system_prompt: {json.dumps(self.system_prompt)}')
 
@@ -1685,11 +1693,21 @@ class Search(StoredLog):
             'notbad': self.do_notbad,
 
             'abbr': self.do_abbr,
+
+            # TODO
+            # 'clear': self.chat.clear_cmd,
+            # 'model': self.chat.model_cmd,
+            # 'system': self.chat.system_cmd,
+
+            # TODO ex
             'clear': self.chat_clear_cmd,
-            'extract': self.chat_extract,
             'model': self.chat_model_cmd,
-            'last': self.chat_last,
             'system': self.chat_system_cmd,
+
+            # TODO factor out into self.chat
+            'last': self.chat_last,
+
+            'extract': self.chat_extract,
         }
 
         if token == '?' or token == '/?':
@@ -1985,7 +2003,7 @@ class Search(StoredLog):
         if self.prog_at is None:
             self.prog_at = self.scale.get('😎')
 
-        # TODO pushdown circa chat_say as a fixup attempt
+        # TODO ex
         try:
             model = olm_find_model(self.llm_client, self.llm_model)
         except RuntimeError:
@@ -2996,78 +3014,6 @@ class Search(StoredLog):
             if not self.full_auto:
                 ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
 
-    def chat_say(self, ui: PromptUI, prompt: str):
-        if not self.chat and self.system_prompt:
-            self.chat_append(ui, {'role': 'system', 'content': self.system_prompt})
-
-        if self.last_chat_tup != ('user', prompt):
-            self.chat_append(ui, {'role': 'user', 'content': prompt})
-
-        # TODO with-pending-append-partial
-
-        parts: list[str] = []
-
-        for resp in self.llm_client.chat(model=self.llm_model, messages=self.chat, stream=True):
-            resp = cast(ollama.ChatResponse, resp)
-
-            with ui.print_exception(Exception,
-                                    extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
-
-                # TODO care about resp['done'] / resp['done_reason'] ?
-
-                mess = resp['message'] 
-                role = mess['role']
-
-                if role != 'assistant':
-                    # TODO note?
-                    continue
-
-                content = mess.get('content')
-                if content is None:
-                    # TODO note?
-                    continue
-
-                parts.append(content)
-
-                yield role, content
-
-        self.chat_append(ui, {'role': 'assistant', 'content': ''.join(parts)})
-
-    def chat_clear(self, ui: PromptUI):
-        ui.log(f'session clear')
-        if self.chat:
-            self.chat_history.append(ChatSession(self.chat, model=self.llm_model))
-        self.chat = []
-        self.last_chat_prompt = ''
-
-    def chat_pop(self, ui: PromptUI):
-        mess = self.chat.pop()
-        ui.log(f'session: pop')
-        return mess
-
-    def chat_append(self, ui: PromptUI, mess: ollama.Message):
-        ui.log(f'session: {json.dumps(mess)}')
-        self.chat.append(mess)
-
-    def chat_stats(self):
-        role_counts = Counter(mess['role'] for mess in self.chat)
-        token_count = sum(
-            count_tokens(mess.get('content', ''))
-            for mess in self.chat)
-        user_count = role_counts.pop("user", 0)
-        assistant_count = role_counts.pop("assistant", 0)
-        return ChatStats(token_count, user_count, assistant_count)
-
-    @property
-    def last_chat_role(self):
-        return self.chat[-1]['role'] if self.chat else ''
-
-    @property
-    def last_chat_tup(self):
-        last = self.chat[-1] if self.chat else None
-        if not last: return (None, None)
-        return (last['role'], last.get('content'))
-
     @final
     class BasisChange:
         def __init__(self, old: Iterable[tuple[str, float]], new: Iterable[tuple[str, float]]):
@@ -3285,6 +3231,86 @@ class Search(StoredLog):
 
             return self.attempt_word(ui, words[0], f'extract_1/{len(words)}')
 
+    # TODO ex self.chat.chat(ui, prompt)
+    def chat_say(self, ui: PromptUI, prompt: str):
+        if not self.chat and self.system_prompt:
+            self.chat_append(ui, {'role': 'system', 'content': self.system_prompt})
+
+        if self.last_chat_tup != ('user', prompt):
+            self.chat_append(ui, {'role': 'user', 'content': prompt})
+
+        # TODO with-pending-append-partial
+
+        parts: list[str] = []
+
+        for resp in self.llm_client.chat(model=self.llm_model, messages=self.chat, stream=True):
+            resp = cast(ollama.ChatResponse, resp)
+
+            with ui.print_exception(Exception,
+                                    extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
+
+                # TODO care about resp['done'] / resp['done_reason'] ?
+
+                mess = resp['message'] 
+                role = mess['role']
+
+                if role != 'assistant':
+                    # TODO note?
+                    continue
+
+                content = mess.get('content')
+                if content is None:
+                    # TODO note?
+                    continue
+
+                parts.append(content)
+
+                yield role, content
+
+        self.chat_append(ui, {'role': 'assistant', 'content': ''.join(parts)})
+
+    # TODO ex
+    def chat_clear(self, ui: PromptUI):
+        ui.log(f'session clear')
+        if self.chat:
+            self.chat_history.append(ChatSession(self.chat, model=self.llm_model))
+        self.chat = []
+        self.last_chat_prompt = ''
+
+    # TODO ex
+    def chat_pop(self, ui: PromptUI):
+        mess = self.chat.pop()
+        ui.log(f'session: pop')
+        return mess
+
+    # TODO ex
+    def chat_append(self, ui: PromptUI, mess: ollama.Message):
+        ui.log(f'session: {json.dumps(mess)}')
+        self.chat.append(mess)
+
+    # TODO ex
+    def chat_stats(self):
+        role_counts = Counter(mess['role'] for mess in self.chat)
+        token_count = sum(
+            count_tokens(mess.get('content', ''))
+            for mess in self.chat)
+        user_count = role_counts.pop("user", 0)
+        assistant_count = role_counts.pop("assistant", 0)
+        return ChatStats(token_count, user_count, assistant_count)
+
+    # TODO ex
+    @property
+    def last_chat_role(self):
+        return self.chat[-1]['role'] if self.chat else ''
+
+    # TODO ex
+    @property
+    def last_chat_tup(self):
+        last = self.chat[-1] if self.chat else None
+        if not last: return (None, None)
+        return (last['role'], last.get('content'))
+
+    # TODO factor into self.chat
     def chat_last(self, ui: PromptUI):
         chat = self.chat
         given = False
@@ -3383,10 +3409,12 @@ class Search(StoredLog):
                     if remark: remark = f' // {remark}'
                     ui.print(f'{mark} {desc}{remark}')
 
+    # TODO ex
     def chat_clear_cmd(self, ui: PromptUI):
         ui.print('cleared chat 🪙 = 0')
         self.chat_clear(ui)
 
+    # TODO ex
     def select_model(self, ui: PromptUI):
         try:
             with ui.tokens as tokens:
@@ -3424,6 +3452,7 @@ class Search(StoredLog):
         except KeyboardInterrupt:
             return
 
+    # TODO ex
     def chat_model_cmd(self, ui: PromptUI):
         model = self.select_model(ui)
         if not model: return
@@ -3437,11 +3466,13 @@ class Search(StoredLog):
         else:
             ui.print(f'Using model {self.llm_model!r}')
 
+    # TODO ex
     def chat_model(self, ui: PromptUI, model: str):
         if self.llm_model != model:
             ui.log(f'session model: {model}')
             self.llm_model = model
 
+    # TODO ex
     def chat_system_cmd(self, ui: PromptUI):
         with ui.tokens as tokens:
             if tokens.empty:
