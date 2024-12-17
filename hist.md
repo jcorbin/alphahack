@@ -2483,3 +2483,7 @@ from 'truth' to 'text'
 # 2024-12-17 squareword.org
 
 See log/squareword.org/#1051
+
+# 2024-12-17 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1081
