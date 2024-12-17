@@ -250,6 +250,9 @@ def uncomment_lines(lines: Iterable[str]):
     it = iter(lines)
     while True:
         for line in it:
+            if line.startswith('> '):
+                yield line
+                continue
             if line.startswith('//'): continue
             if line.endswith('```'):
                 yield line
