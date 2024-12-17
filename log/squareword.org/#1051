@@ -1,0 +1,166 @@
+T0.00021022599685238674 now: 2024-12-17T11:49:11EST
+T0.0002565219983807765 site: squareword.org
+T0.9477656239978387 📜 nwl2023.txt ? 
+T0.947851967997849 wordlist: nwl2023.txt
+T4.01191840699903 🧩  ? #1051
+T4.012579671994899 puzzle_id: #1051
+T7.308309740998084 > *
+T7.41510094399564 questioning: ["agent", "#5 found:123 hypo:11881376"]
+T11.452127798998845 agent ( #5 found:123 hypo:11881376 ) ? .
+T11.452263683997444 guess: agent
+T14.996224814000016 agent ( #5 found:123 hypo:11881376 ) > 1 ~ ae
+T14.997400071995798 word: 0 _____
+T14.997430123999948 may: 0 a e
+T17.324552097998094 agent ( #5 found:123 hypo:11881376 ) > 2 ~ gn
+T17.324914138000167 word: 1 _____
+T17.32495607099554 may: 1 g n
+T22.940061764995335 agent ( #5 found:123 hypo:11881376 ) > 3 a___t ~ a
+T22.94031938399712 word: 2 a___t
+T22.94034395399649 may: 2 a
+T26.371631921996595 agent ( #5 found:123 hypo:11881376 ) > 4 ~ ae
+T26.371758317996864 word: 3 _____
+T26.371769619996485 may: 3 a e
+T31.62796861199604 agent ( #5 found:123 hypo:11881376 ) > 5 __e__ ~en
+T31.628202775995305 word: 4 __e__
+T31.628231850998418 may: 4 e n
+T32.7482517219978 agent ( #5 found:123 hypo:11881376 ) > *
+T33.54857727600029 agent ( #5 found:123 hypo:11881376 ) > 
+T33.54877774899796 question done
+T34.06801005899615 > *
+T34.42122088599717 questioning: ["apart", "#3 found:4 hypo:676"]
+T38.45202975899883 apart ( #3 found:4 hypo:676 ) ? .
+T38.45238792599412 guess: apart
+T45.06040453699825 apart ( #3 found:4 hypo:676 ) > 1 __a__ ~er
+T45.06071798499761 word: 0 __a__
+T45.060763194000174 may: 0 e r
+T51.45170699299342 apart ( #3 found:4 hypo:676 ) > 3 a_a_t
+T51.45190929999808 word: 2 a_a_t
+T51.45194174700009 may: 2 
+T55.59624206699664 apart ( #3 found:4 hypo:676 ) > 4 ~ aep
+T55.59651027599466 word: 3 _____
+T55.59654086899536 may: 3 a e p
+T61.25214580799366 apart ( #3 found:4 hypo:676 ) > 5 ~ enr
+T61.25245050800004 word: 4 __e__
+T61.25248214399471 may: 4 e n r
+T63.780344001999765 apart ( #3 found:4 hypo:676 ) > 
+T63.7804926280005 question done
+T64.33961013399676 > *
+T64.62301924799976 questioning: ["green", "#5 found:2 hypo:156"]
+T69.02820405699458 green ( #5 found:2 hypo:156 ) ? .
+T69.02835065999534 guess: green
+T73.83624694899481 green ( #5 found:2 hypo:156 ) > 1 _ra__ 
+T73.83647227199981 word: 0 _ra__
+T73.83649649499421 may: 0 e
+T79.72396503299387 green ( #5 found:2 hypo:156 ) > 2 ____n
+T79.7241457239943 word: 1 ____n
+T79.72416595399409 may: 1 g
+T85.1161285059934 green ( #5 found:2 hypo:156 ) > 5 __ee_
+T85.11634307599888 word: 4 __ee_
+T85.11636988199461 may: 4 n r
+T86.61255617899587 green ( #5 found:2 hypo:156 ) > 
+T86.61269068799447 question done
+T87.09216439999727 > *
+T87.31555200999719 questioning: ["sneer", "#5 found:1 hypo:52"]
+T91.15589488099795 sneer ( #5 found:1 hypo:52 ) ? .
+T91.15603464399464 guess: sneer
+T92.34827438699722 sneer ( #5 found:1 hypo:52 ) > 5 sneer
+T92.34851185399748 word: 4 sneer
+T92.34854689699569 may: 4 
+T98.34058599899436 sneer ( #5 found:1 hypo:52 ) > 
+T98.34080815999914 question done
+T99.37223537200043 > *
+T99.5166516179961 questioning: ["adapt", "#3 found:2 hypo:676"]
+T106.02030303799984 adapt ( #3 found:2 hypo:676 ) ? .
+T106.02047522199427 guess: adapt
+T112.54034120299912 adapt ( #3 found:2 hypo:676 ) > 
+T112.54049347999535 question done
+T113.9162143969952 > /no d
+T113.91675961199508 nope: d
+T115.33186769099848 > *
+T116.41440714599594 questioning: ["await", "#3 found:4 hypo:625"]
+T121.24418037099531 await ( #3 found:4 hypo:625 ) ? .
+T121.24436112599506 guess: await
+T123.1082653889971 await ( #3 found:4 hypo:625 ) > 3 await
+T123.10852559399791 word: 2 await
+T123.10856471599982 may: 2 
+T129.89228049699886 await ( #3 found:4 hypo:625 ) > .
+T131.20364996499848 await ( #3 found:4 hypo:625 ) > 
+T131.20372343899362 question done
+T131.8274179289947 > *
+T132.59356341599778 questioning: ["parge", "#4 found:5 hypo:3750"]
+T141.80417631799355 parge ( #4 found:5 hypo:3750 ) ? .
+T141.8042939359948 guess: parge
+T148.04416078299982 parge ( #4 found:5 hypo:3750 ) > 1 _ra_e
+T148.04437394799606 word: 0 _ra_e
+T148.04440732399962 may: 0 
+T153.58820998999727 parge ( #4 found:5 hypo:3750 ) > 4 _a__e 
+T153.58848545299406 word: 3 _a__e
+T153.58852122700046 may: 3 p
+T156.84419121699466 parge ( #4 found:5 hypo:3750 ) > 
+T156.84432301500055 question done
+T158.18027696799982 > *
+T159.11997158099985 questioning: ["paste", "#4 found:9 hypo:625"]
+T173.4525039279979 paste ( #4 found:9 hypo:625 ) ? .
+T173.45265683199978 guess: paste
+T181.13161263799702 paste ( #4 found:9 hypo:625 ) > 
+T181.13167946400063 question done
+T182.1082589459984 > *
+T183.00838024399854 questioning: ["passe", "#4 found:8 hypo:625"]
+T188.3723850959941 passe ( #4 found:8 hypo:625 ) ? .
+T188.3725563639964 guess: passe
+T195.46024926599785 passe ( #4 found:8 hypo:625 ) > 
+T195.46041200799664 question done
+T196.4442644209994 > * 1
+T196.66175876899797 questioning: ["prate", "#1 found:22 hypo:625"]
+T202.8762053209939 prate ( #1 found:22 hypo:625 ) ? .
+T202.8764112899953 guess: prate
+T207.19619354099996 prate ( #1 found:22 hypo:625 ) > 
+T207.19630830399547 question done
+T208.7321927649973 > * 4
+T208.9503394179992 questioning: ["parle", "#4 found:5 hypo:625"]
+T213.07650428600027 parle ( #4 found:5 hypo:625 ) ? .
+T213.0766973360005 guess: parle
+T217.63655643899983 parle ( #4 found:5 hypo:625 ) > 4 _a_le
+T217.63683279799443 word: 3 _a_le
+T217.63686379599676 may: 3 p
+T221.90838087799784 parle ( #4 found:5 hypo:625 ) > 2 ~ gl
+T221.90862765399652 word: 1 ____n
+T221.9086543079975 may: 1 g l
+T224.9961751019946 parle ( #4 found:5 hypo:625 ) > 
+T224.99631972699717 question done
+T225.83616681099375 > *
+T226.84230841200042 questioning: ["maple", "#4 found:1 hypo:25"]
+T231.00425163099862 maple ( #4 found:1 hypo:25 ) ? .
+T231.0043939209936 guess: maple
+T232.44428762199823 maple ( #4 found:1 hypo:25 ) > 4 maple
+T232.4444971759949 word: 3 maple
+T232.44452956699388 may: 3 
+T234.96392361199833 maple ( #4 found:1 hypo:25 ) > 
+T234.96403910699883 question done
+T235.7082662219982 > *
+T236.52155119499366 questioning: ["logon", "#2 found:2 hypo:1250"]
+T239.564516421 logon ( #2 found:2 hypo:1250 ) ? .
+T239.56471509499534 guess: logon
+T241.06819033699867 logon ( #2 found:2 hypo:1250 ) > 2 logon
+T241.06845133799652 word: 1 logon
+T241.06848048999382 may: 1 
+T245.0764885699973 logon ( #2 found:2 hypo:1250 ) > 
+T245.07667124999716 question done
+T245.89218708699627 > *
+T246.39098559999547 questioning: ["grate", "#1 found:4 hypo:625"]
+T250.52460433999659 grate ( #1 found:4 hypo:625 ) ? .
+T250.52478706099646 guess: grate
+T251.19638401599514 grate ( #1 found:4 hypo:625 ) > 
+T251.19656213999406 question done
+T252.89189976999478 > *
+T253.38513675599825 questioning: ["crave", "#1 found:3 hypo:625"]
+T258.1959425169989 crave ( #1 found:3 hypo:625 ) ? .
+T258.1960843220004 guess: crave
+T259.3241893339946 crave ( #1 found:3 hypo:625 ) > 1 crave
+T259.3244328459987 word: 0 crave
+T259.3244612319977 may: 0 
+T263.5953466219944 crave ( #1 found:3 hypo:625 ) > 
+T263.5954278089994 question done
+T264.46041397999943 Copy share result and press <Enter>
+T264.4686251709936 result: "squareword.org 1051: 15 guesses\n\n\ud83d\udfe7\ud83d\udfe9\ud83d\udfe9\ud83d\udfe7\ud83d\udfe8\n\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe7\ud83d\udfe8\ud83d\udfe7\ud83d\udfe7\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1051"
+T264.4687247509937 <STOP>
