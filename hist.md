@@ -2487,3 +2487,18 @@ See log/squareword.org/#1051
 # 2024-12-17 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1081
+
+# 2024-12-17 https://wordnerd.co/wordchain
+
+```
+🤔 11 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 11 chain words
+from 'slice' to 'traffic'
+⏱️ 0:02:13.924676
+```
+
+📜 4 sessions
+🫧 1 chat sessions
+⁉️ 3 chat prompts
+🤖 2 llama3.2:latest replies
