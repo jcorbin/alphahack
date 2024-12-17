@@ -1427,6 +1427,13 @@ class Search(StoredLog):
             })}')
 
             if verbose > 1:
+                body = try_req.body or ''
+                if isinstance(body, bytes):
+                    body = body.decode()
+                for line in spliterate(body, '\n'):
+                    ui.print(f'> {line}')
+
+            if verbose > 1:
                 ui.print(f'* timeout: {timeout}')
                 ui.print(f'* allow_redirects: {allow_redirects}')
 
@@ -1465,6 +1472,10 @@ class Search(StoredLog):
             "headers": dict(res.headers),
             "content": res.content.decode(),
         })}')
+        if verbose > 1:
+            body = res.content.decode()
+            for line in spliterate(body, '\n'):
+                ui.print(f'< {line}')
 
         for name, value in self.http_client.cookies.iteritems():
             if self.logged_cookies.get(name, '') != value:
