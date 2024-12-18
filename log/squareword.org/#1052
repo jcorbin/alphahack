@@ -1,0 +1,151 @@
+T0.0001978799991775304 now: 2024-12-18T09:56:42EST
+T0.00024517100246157497 site: squareword.org
+T30.561617561994353 📜 nwl2023.txt ? 
+T30.5618018739915 wordlist: nwl2023.txt
+T40.13696828400134 🧩  ? #1052
+T40.13715768799011 puzzle_id: #1052
+T41.976744889994734 > *
+T42.07246327100438 questioning: ["goner", "#5 found:3324 hypo:11881376"]
+T45.673300099995686 goner ( #5 found:3324 hypo:11881376 ) ? .
+T45.673449800990056 guess: goner
+T48.881657461999566 goner ( #5 found:3324 hypo:11881376 ) > 1 ~ onr
+T48.8829667300015 word: 0 _____
+T48.883002855000086 may: 0 n o r
+T51.0170175969979 goner ( #5 found:3324 hypo:11881376 ) > 2 ~ e
+T51.017119562995504 word: 1 _____
+T51.017128698003944 may: 1 e
+T53.56163697800366 goner ( #5 found:3324 hypo:11881376 ) > 3 ___er
+T53.5618786069972 word: 2 ___er
+T53.561904164991574 may: 2 
+T56.22543013599352 goner ( #5 found:3324 hypo:11881376 ) > 4 ~ e
+T56.225719355992624 word: 3 _____
+T56.225751044999924 may: 3 e
+T59.74574321699038 goner ( #5 found:3324 hypo:11881376 ) > 5 _o___ ~ r
+T59.746062628997606 word: 4 _o___
+T59.74608987099782 may: 4 r
+T61.71375229700061 goner ( #5 found:3324 hypo:11881376 ) > 
+T61.713947013995494 question done
+T62.74558766800328 > /no g
+T62.74624778899306 nope: g
+T63.85763377499825 > *
+T64.31156730899238 questioning: ["krona", "#1 found:41 hypo:3750"]
+T67.9216348100017 krona ( #1 found:41 hypo:3750 ) ? .
+T67.92178159399191 guess: krona
+T71.50567441800376 krona ( #1 found:41 hypo:3750 ) > 1 _ro__
+T71.50595092499861 word: 0 _ro__
+T71.50597889399796 may: 0 n
+T74.89740181699744 krona ( #1 found:41 hypo:3750 ) > 2 ~ ea
+T74.89761546699447 word: 1 _____
+T74.89763722899079 may: 1 a e
+T80.60897932999069 krona ( #1 found:41 hypo:3750 ) > 2 ~ rk
+T80.60910732999037 word: 1 _____
+T80.60912270800327 may: 1 k r
+T85.57769215399458 krona ( #1 found:41 hypo:3750 ) > 2 ~ ea
+T85.57791009900393 word: 1 _____
+T85.5779325219919 may: 1 a e
+T88.03374626599543 krona ( #1 found:41 hypo:3750 ) > 5 ~ rk
+T88.03399722599715 word: 4 _o___
+T88.03402426298999 may: 4 k r
+T88.68958197000029 krona ( #1 found:41 hypo:3750 ) > 
+T88.68972930999007 question done
+T89.9130250899907 > *
+T90.18277972299256 questioning: ["krone", "#1 found:16 hypo:625"]
+T93.83328472200083 krone ( #1 found:16 hypo:625 ) ? .
+T93.83337401300378 guess: krone
+T100.34575037600007 krone ( #1 found:16 hypo:625 ) > 5 ____e
+T100.34603365699877 word: 4 ____e
+T100.34609796899895 may: 4 k r
+T105.20951836199674 krone ( #1 found:16 hypo:625 ) > 2 ____e
+T105.20979529299075 word: 1 ____e
+T105.20982414200262 may: 1 a
+T112.14569303099415 krone ( #1 found:16 hypo:625 ) > 5 _o___
+T112.14594867499545 word: 4 _o___
+T112.14597177499672 may: 4 k r
+T113.92953876100364 krone ( #1 found:16 hypo:625 ) > 
+T113.92971085499448 question done
+T114.60974053399696 > *
+T114.71148805899429 questioning: ["frons", "#1 found:10 hypo:625"]
+T118.33792555599939 frons ( #1 found:10 hypo:625 ) ? .
+T118.33813861799717 guess: frons
+T123.99358320899773 frons ( #1 found:10 hypo:625 ) > 4 f____
+T123.99380571699294 word: 3 f____
+T123.99382802100445 may: 3 e
+T129.1455662799999 frons ( #1 found:10 hypo:625 ) > 5 fo__s
+T129.14577728499717 word: 4 fo__s
+T129.145799609003 may: 4 k r
+T132.00156392299687 frons ( #1 found:10 hypo:625 ) > 
+T132.00168377399677 question done
+T132.77770343900193 > *
+T132.9619896170043 questioning: ["forks", "#5 found:1 hypo:2"]
+T137.24951840299764 forks ( #5 found:1 hypo:2 ) ? .
+T137.24964894998993 guess: forks
+T138.9457669819967 forks ( #5 found:1 hypo:2 ) > 5 forks
+T138.94608490599785 word: 4 forks
+T138.94611362100113 may: 4 
+T145.63383179099765 forks ( #5 found:1 hypo:2 ) > 
+T145.63404803400044 question done
+T146.46562361899123 > *
+T146.5551633139985 questioning: ["crown", "#1 found:2 hypo:625"]
+T150.29714573299862 crown ( #1 found:2 hypo:625 ) ? .
+T150.29727897899284 guess: crown
+T154.33746169799997 crown ( #1 found:2 hypo:625 ) > 1 _rown
+T154.33770737399755 word: 0 _rown
+T154.33774507899943 may: 0 
+T158.58559169899672 crown ( #1 found:2 hypo:625 ) > 
+T158.5857113559905 question done
+T159.46507760099485 > /no c
+T159.46519556400017 nope: c g
+T160.36166856400087 > *
+T161.50982243199542 questioning: ["field", "#4 found:1 hypo:13824"]
+T165.4656206459913 field ( #4 found:1 hypo:13824 ) ? .
+T165.46585215299274 guess: field
+T166.89724283799296 field ( #4 found:1 hypo:13824 ) > 4 field
+T166.89737983800296 word: 3 field
+T166.89739436100353 may: 3 
+T171.56970585799718 field ( #4 found:1 hypo:13824 ) > 2 ~ al
+T171.56998575199395 word: 1 ____e
+T171.57001647500147 may: 1 a l
+T174.2248272459983 field ( #4 found:1 hypo:13824 ) > 
+T174.22491266600264 question done
+T174.89764344500145 > *
+T175.81255862599937 questioning: ["lathe", "#2 found:1 hypo:1152"]
+T181.09778288999223 lathe ( #2 found:1 hypo:1152 ) ? .
+T181.0979938340024 guess: lathe
+T182.84985345399764 lathe ( #2 found:1 hypo:1152 ) > 2 lathe
+T182.85018193299766 word: 1 lathe
+T182.85023810499115 may: 1 
+T189.97742208199634 lathe ( #2 found:1 hypo:1152 ) > 3 __ter ~ t
+T189.97766611199768 word: 2 __ter
+T189.97768878100032 may: 2 t
+T191.5455705649947 lathe ( #2 found:1 hypo:1152 ) > 
+T191.54569286799233 question done
+T192.25762129299983 > *
+T193.01730125899485 questioning: ["utter", "#3 found:1 hypo:24"]
+T196.7934494069923 utter ( #3 found:1 hypo:24 ) ? .
+T196.79357821999292 guess: utter
+T198.33743078599218 utter ( #3 found:1 hypo:24 ) > 3 utter
+T198.3376327559963 word: 2 utter
+T198.3376537479926 may: 2 
+T200.41723905499384 utter ( #3 found:1 hypo:24 ) > 
+T200.4173236869974 question done
+T201.16151074899244 > *
+T201.68266872799722 questioning: ["frown", "#1 found:2 hypo:24"]
+T209.3856002620014 frown ( #1 found:2 hypo:24 ) ? 
+T209.38570568000432 question done
+T210.06572996299656 > *
+T210.585306494002 questioning: ["frown", "#1 found:2 hypo:24"]
+T216.40154034599254 frown ( #1 found:2 hypo:24 ) ? !
+T216.4016732070013 reject: frown
+T218.40963747700152 > 
+T219.31351053099206 > *
+T219.82718510799168 questioning: ["brown", "#1 found:1 hypo:24"]
+T224.51343781099422 brown ( #1 found:1 hypo:24 ) ? .
+T224.51358233499923 guess: brown
+T226.4338212529983 brown ( #1 found:1 hypo:24 ) > 1 brown
+T226.43405736799468 word: 0 brown
+T226.43408212299983 may: 0 
+T227.32141150299867 brown ( #1 found:1 hypo:24 ) > 
+T227.3215387329983 question done
+T230.5140873920027 Copy share result and press <Enter>
+T230.51915094000287 result: "squareword.org 1052: 12 guesses\n\n\ud83d\udfe7\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1052"
+T230.51941597399127 <STOP>
