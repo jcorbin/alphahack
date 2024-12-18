@@ -42,6 +42,24 @@ def find_match_words(match: re.Match[str]):
             for match in re.finditer(r'\w+', word):
                 yield n, match.group(0)
 
+def match_word_filter(tokens: PromptUI.Tokens) -> Callable[[int, str], bool]:
+    if tokens.have(r'[.*_]'):
+        return lambda _n, _w: True
+
+    nth = tokens.have(r'\d+', lambda m: int(m.group(0)))
+    if nth is not None:
+        return lambda n, _: n == nth
+
+    tok = next(tokens)
+    return lambda _, word: re.match(tok, word, re.I) is not None
+
+def extract_words(text: str, tokens: PromptUI.Tokens):
+    want = match_word_filter(tokens)
+    for line in spliterate(text, '\n'):
+        for n, word in find_match_words(line):
+            if want(n, word):
+                yield word
+
 WordRef = (
     tuple[Literal['$'], str]
   | tuple[Literal['$'], int]
@@ -108,8 +126,16 @@ class Search(StoredLog):
         self.words: list[str] = []
         self.rank: list[None|int] = []
 
+        # TODO support backtracking words/rank state
+
         self.result_text: str = ''
         self.result: Result|None = None
+
+    @property
+    def prior_words(self) -> Generator[str]:
+        yield self.top
+        yield self.bottom
+        yield from self.words
 
     @property
     def guesses(self):
@@ -531,25 +557,10 @@ class Search(StoredLog):
         def extract_from(self):
             return self.search.chat.session.last_reply
 
-        def extract(self, text: str, tokens: PromptUI.Tokens):
-            nth = tokens.have(r'\d+', lambda m: int(m.group(0)))
-            if nth is not None:
-                self.matches = [
-                    word.lower()
-                    for line in spliterate(text, '\n')
-                    for n, word in find_match_words(line)
-                    if n == nth]
-            else:
-                tok = next(tokens)
-                self.matches = [
-                    word.lower()
-                    for line in spliterate(text, '\n')
-                    for _, word in find_match_words(line)
-                    if re.match(tok, word) is not None]
-
         def match(self, ui: PromptUI):
             with self.given as tokens:
-                if tokens.empty: return
+                if tokens.empty:
+                    return
 
                 word = tokens.have(r'(?x) " ( [^"]+ ) "', lambda m: m.group(0))
                 if word is not None:
@@ -557,7 +568,11 @@ class Search(StoredLog):
                     return
 
                 if not self.matches:
-                    self.extract(self.extract_from, tokens)
+                    # TODO detect extracted word looping, warn user, guide them to backtrack
+                    self.matches = sorted(set(
+                        word.lower()
+                        for word in extract_words(self.extract_from, tokens)
+                    ).difference(self.search.prior_words))
                     if len(self.matches) == 1:
                         self.word = self.matches[0]
 
@@ -572,7 +587,7 @@ class Search(StoredLog):
 
         def __call__(self, ui: PromptUI):
             with ui.catch_state(KeyboardInterrupt, self.search.ideate):
-                if not self.word and not self.given.empty:
+                if not self.word:
                     self.match(ui)
 
                 if not self.word:
@@ -580,7 +595,7 @@ class Search(StoredLog):
                         try:
                             for n, match in enumerate(self.matches, 1):
                                 ui.print(f'{n}. {match!r}')
-                            self.given = ui.input('select word> ')
+                            self.given.raw = ui.raw_input('select word> ')
                         except KeyboardInterrupt:
                             self.matches.clear()
                     else:
@@ -619,6 +634,10 @@ class Search(StoredLog):
         return self.ideate
 
     def finish(self, ui: PromptUI):
+        # TODO support parsing and reporting feedback about less than ideal solution
+
+        # TODO support re-play?
+
         if not self.result_text:
             _ = ui.input('Paste share result, then press <Enter>')
             result = ui.paste().strip()
