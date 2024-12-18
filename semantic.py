@@ -22,6 +22,13 @@ from store import StoredLog, git_txn
 from strkit import matchgen, spliterate, wraplines, MarkedSpec
 from ui import PromptUI
 
+def weighted(score: float, w: int|float):
+    if w == 0: return 0
+    if score < 0:
+        return -math.pow(-score, 1/w)
+    else:
+        return math.pow(score, 1/w)
+
 def fmt_avg(nums: Iterable[float], prec: int = 2):
     return f'avg({fmt_nums(sorted(nums), prec=prec)})'
 
@@ -624,7 +631,7 @@ class Search(StoredLog):
 
         self.attempt: int = 0
         self.word: list[str] = []
-        self.score: list[float] = []
+        self.score: list[float] = [] # TODO store normalized [0.0, 1.0]
         self.prog: dict[int, int] = dict()
         self.index: list[int] = []
         self.recs: list[int] = []
@@ -2450,20 +2457,20 @@ class Search(StoredLog):
             extracted = [
                 self.search.score[
                     self.search.word.index(word) # TODO faster reverse index wen?
-                ]
+                ] / 100.0
                 for word in exw.good
             ]
-            basis = [score for _, score in self.basis]
+            basis = [score / 100.0 for _, score in self.basis]
 
             sc_g = 0.50 # TODO from prior
             sc_e = sum(extracted) / len(extracted) if extracted else 0.0
             sc_b = sum(basis) / len(basis) if basis else 0.0
 
             expect = (sc_g + sc_e + sc_b) / 3
-            potential = expect * len(exw.may)
+            potential = weighted(expect, len(exw.may))
 
             def explain():
-                yield f'potential = {potential:.2f} = may * expect'
+                yield f'potential = {potential:.2f} = expect ** (1/may)'
                 yield f'may = {len(exw.may)}'
                 yield f'expect = {expect:.2f} = (sc_g+sc_e+sc_b)/3'
                 yield f'sc_g = {sc_g:.2f}'
@@ -2885,11 +2892,11 @@ class Search(StoredLog):
 
         @property
         def old_score_values(self):
-            return (sc for _, sc in self.old.items())
+            return (sc/100.0 for _, sc in self.old.items())
 
         @property
         def new_score_values(self):
-            return (sc for _, sc in self.new.items())
+            return (sc/100.0 for _, sc in self.new.items())
 
         @property
         def old_score(self):
@@ -3033,7 +3040,7 @@ class Search(StoredLog):
                 extracted = [
                     self.score[
                         self.word.index(word) # TODO faster reverse index wen?
-                    ]
+                    ] / 100.0
                     for word in exw.good
                 ]
                 sc_e = sum(extracted, 0) / len(extracted)
@@ -3041,13 +3048,13 @@ class Search(StoredLog):
 
                 cp = self.last_chat_prompt if isinstance(self.last_chat_prompt, ChatPrompt) else ChatPrompt(self.last_chat_prompt)
                 may_gen = cp.count
-                possible = sc_bn * may_gen
-                potential = expect * len(exw.may)
+                possible = weighted(sc_bn, may_gen)
+                potential = weighted(expect, len(exw.may))
 
                 if possible > potential and not self.chat_extract_mode.exhaust:
                     def explain():
-                        yield f'possible = {possible:.2f} = sc_bn * may_gen'
-                        yield f'potential = {potential:.2f} = expect * may'
+                        yield f'possible = {possible:.2f} = sc_bn ** 1/may_gen'
+                        yield f'potential = {potential:.2f} = expect ** 1/may'
                         yield f'may_gen = {may_gen}'
                         yield f'may = {len(exw.may)}'
                         yield f'expect = {expect:.2f} = (sc_bo+sc_e)/2'
