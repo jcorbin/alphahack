@@ -2604,3 +2604,7 @@ from 'health' to 'paint'
 # 2024-12-18 squareword.org
 
 See log/squareword.org/#1052
+
+# 2024-12-18 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1082
