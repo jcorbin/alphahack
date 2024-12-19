@@ -1,0 +1,181 @@
+T0.000169489998370409 now: 2024-12-19T08:56:51EST
+T0.0002174929977627471 site: squareword.org
+T0.9420794959951309 📜 nwl2023.txt ? 
+T0.94218608099618 wordlist: nwl2023.txt
+T3.3861470369956805 🧩  ? #1053
+T3.3864461539997137 puzzle_id: #1053
+T4.664270414999919 > *
+T4.7546809580017 questioning: ["cauls", "#5 found:1304 hypo:11881376"]
+T10.349813786000595 cauls ( #5 found:1304 hypo:11881376 ) ? .
+T10.350016413001867 guess: cauls
+T12.39314891599497 cauls ( #5 found:1304 hypo:11881376 ) > 1 ~ s
+T12.394584112000302 word: 0 _____
+T12.394617287995061 may: 0 s
+T14.01168612499896 cauls ( #5 found:1304 hypo:11881376 ) > 2 ~ a
+T14.012010134996672 word: 1 _____
+T14.012046111995005 may: 1 a
+T15.84294945399597 cauls ( #5 found:1304 hypo:11881376 ) > 3 ~ l
+T15.84315686699847 word: 2 _____
+T15.84318704999896 may: 2 l
+T19.76543191300152 cauls ( #5 found:1304 hypo:11881376 ) > 4 ~ a
+T19.76567448699643 word: 3 _____
+T19.76570946099673 may: 3 a
+T22.94952578700031 cauls ( #5 found:1304 hypo:11881376 ) > 5 ____s
+T22.949778656999115 word: 4 ____s
+T22.949802407994866 may: 4 
+T24.798666595001123 cauls ( #5 found:1304 hypo:11881376 ) > 
+T24.798758079996333 question done
+T26.098791696000262 > /no uc
+T26.09937378399627 nope: c u
+T26.766127201997733 > *
+T27.03910795199772 questioning: ["mohel", "#3 found:1062 hypo:331776"]
+T33.44823826300126 mohel ( #3 found:1062 hypo:331776 ) ? .
+T33.44840313899476 guess: mohel
+T36.974650269999984 mohel ( #3 found:1062 hypo:331776 ) > 2 ~ ao
+T36.974757582000166 word: 1 _____
+T36.974766431994794 may: 1 a o
+T41.07487206799851 mohel ( #3 found:1062 hypo:331776 ) > 3 ___e_ ~le
+T41.07511754999723 word: 2 ___e_
+T41.07514170600189 may: 2 e l
+T43.85155476899672 mohel ( #3 found:1062 hypo:331776 ) > 4 ~ ao
+T43.85175373599486 word: 3 _____
+T43.85177366899734 may: 3 a o
+T46.883813006999844 mohel ( #3 found:1062 hypo:331776 ) > 5 ~ e
+T46.88402340999892 word: 4 ____s
+T46.884044129998074 may: 4 e
+T48.395131346995186 mohel ( #3 found:1062 hypo:331776 ) > 
+T48.39524742299545 question done
+T51.17644373299845 > /no hm
+T51.1765431849999 nope: c h m u
+T52.667710207999335 > *
+T53.03466320200096 questioning: ["leger", "#3 found:35 hypo:968"]
+T59.04521074499644 leger ( #3 found:35 hypo:968 ) ? .
+T59.045340746000875 guess: leger
+T63.39125742399483 leger ( #3 found:35 hypo:968 ) > 1 ~ sr
+T63.391472376999445 word: 0 _____
+T63.39149270499911 may: 0 r s
+T67.58028710100189 leger ( #3 found:35 hypo:968 ) > 3 ___er
+T67.58055218299705 word: 2 ___er
+T67.58058340899879 may: 2 e l
+T75.2647585099985 leger ( #3 found:35 hypo:968 ) > 5 _e__s ~ r
+T75.2650856629989 word: 4 _e__s
+T75.26511975099856 may: 4 r
+T79.0153330069952 leger ( #3 found:35 hypo:968 ) > 
+T79.0154641400004 question done
+T80.78142266199575 > /no g
+T80.78162719000102 nope: c g h m u
+T81.82283550300053 > *
+T82.2321994160011 questioning: ["lever", "#3 found:5 hypo:42"]
+T92.19478602399613 lever ( #3 found:5 hypo:42 ) ? .
+T92.1949199189985 guess: lever
+T100.41159310600051 lever ( #3 found:5 hypo:42 ) > 
+T100.41172292999545 question done
+T102.01759724300064 > /no v
+T102.01778712799569 nope: c g h m u v
+T103.83203535299981 > *
+T104.73473203399772 questioning: ["fleer", "#3 found:2 hypo:40"]
+T108.48316620499827 fleer ( #3 found:2 hypo:40 ) ? .
+T108.48336543899495 guess: fleer
+T112.28774942099699 fleer ( #3 found:2 hypo:40 ) > 3 _l_er
+T112.28797444999509 word: 2 _l_er
+T112.28800975799822 may: 2 e
+T118.08193406200007 fleer ( #3 found:2 hypo:40 ) > 
+T118.08207088500058 question done
+T123.22293094999623 > /no ufghcvm
+T123.2232040089948 nope: c f g h m u v
+T124.39813847399637 > *
+T126.00237699200079 questioning: ["elder", "#3 found:1 hypo:19"]
+T129.53026619299635 elder ( #3 found:1 hypo:19 ) ? .
+T129.53037826500076 guess: elder
+T131.38919666199945 elder ( #3 found:1 hypo:19 ) > 3 elder
+T131.3894180599964 word: 2 elder
+T131.38945549100026 may: 2 
+T136.65262274899578 elder ( #3 found:1 hypo:19 ) > 4 ~ aod
+T136.65283836199524 word: 3 _____
+T136.6528724289965 may: 3 a d o
+T140.34300333699503 elder ( #3 found:1 hypo:19 ) > 
+T140.34315588699974 question done
+T141.8772465639995 > *
+T143.36298396499478 questioning: ["adore", "#4 found:4 hypo:2166"]
+T148.60336643199844 adore ( #4 found:4 hypo:2166 ) ? .
+T148.60349478699936 guess: adore
+T152.86389731899544 adore ( #4 found:4 hypo:2166 ) > 4 ado
+T152.8641283409961 word: 3 ado__
+T152.86416411100072 may: 3 
+T157.54291775199817 adore ( #4 found:4 hypo:2166 ) > 4 ado__
+T157.5430308559953 word: 3 ado__
+T157.5430482590018 may: 3 
+T165.26628637599788 adore ( #4 found:4 hypo:2166 ) > 
+T165.26645760199608 question done
+T166.07563732699782 > *
+T167.42690789699554 questioning: ["aioli", "#2 found:1 hypo:13718"]
+T180.97833461999835 aioli ( #2 found:1 hypo:13718 ) ? .
+T180.97854270199605 guess: aioli
+T185.62684872699901 aioli ( #2 found:1 hypo:13718 ) > 2 _i___
+T185.62703597299696 word: 1 _i___
+T185.6270579810007 may: 1 a o
+T189.66208750299847 aioli ( #2 found:1 hypo:13718 ) > 1 ~ sri
+T189.66232214799675 word: 0 _____
+T189.66234649699618 may: 0 i r s
+T192.796455169002 aioli ( #2 found:1 hypo:13718 ) > 
+T192.79669558200112 question done
+T193.41377789800026 > *
+T194.7673170909984 questioning: ["piano", "#2 found:1 hypo:722"]
+T198.37929311100015 piano ( #2 found:1 hypo:722 ) ? .
+T198.3794235949972 guess: piano
+T199.76278909699613 piano ( #2 found:1 hypo:722 ) > 2 piano
+T199.7629749869957 word: 1 piano
+T199.76299625799584 may: 1 
+T205.1288260509973 piano ( #2 found:1 hypo:722 ) > 5 ~ rn
+T205.1290587149997 word: 4 _e__s
+T205.12908461000188 may: 4 n r
+T207.00452781999775 piano ( #2 found:1 hypo:722 ) > 4 ~ p
+T207.00473947499995 word: 3 ado__
+T207.00476197399985 may: 3 p
+T210.8473569179987 piano ( #2 found:1 hypo:722 ) > 4 ~ srip
+T210.84747978900123 word: 3 ado__
+T210.8474900009969 may: 3 i p r s
+T213.98308791899763 piano ( #2 found:1 hypo:722 ) > 1 ~ srip
+T213.9834873919972 word: 0 _____
+T213.98357587200007 may: 0 i p r s
+T217.29888138599927 piano ( #2 found:1 hypo:722 ) > 4 ~ p
+T217.29910178399587 word: 3 ado__
+T217.29912429999968 may: 3 p
+T221.1766767109948 piano ( #2 found:1 hypo:722 ) > 
+T221.17680985300103 question done
+T225.77085816199542 > *
+T226.8768939779984 questioning: ["strip", "#1 found:1 hypo:456"]
+T230.64337406300183 strip ( #1 found:1 hypo:456 ) ? .
+T230.64349935200153 guess: strip
+T233.50302961499983 strip ( #1 found:1 hypo:456 ) > 1 strip
+T233.5033485210006 word: 0 strip
+T233.50338266199833 may: 0 
+T238.78536232499755 strip ( #1 found:1 hypo:456 ) > 4 ~ pt
+T238.78568880300008 word: 3 ado__
+T238.7857327659949 may: 3 p t
+T241.28336456399848 strip ( #1 found:1 hypo:456 ) > 5 ~ rnt
+T241.283635683998 word: 4 _e__s
+T241.2836677890009 may: 4 n r t
+T243.60642900899984 strip ( #1 found:1 hypo:456 ) > 
+T243.60657083299884 question done
+T244.28796830899955 > *
+T244.96730928000034 questioning: ["adopt", "#4 found:1 hypo:2"]
+T251.48402751799586 adopt ( #4 found:1 hypo:2 ) ? .
+T251.4841423359976 guess: adopt
+T254.62651459300105 adopt ( #4 found:1 hypo:2 ) > 4 adopt
+T254.6267700699973 word: 3 adopt
+T254.62679322099575 may: 3 
+T258.5379857579974 adopt ( #4 found:1 hypo:2 ) > 
+T258.5381122269973 question done
+T259.11718115799886 > *
+T259.5751139529966 questioning: ["rents", "#5 found:1 hypo:6"]
+T263.3249904769982 rents ( #5 found:1 hypo:6 ) ? .
+T263.3251150340002 guess: rents
+T266.45515562999935 rents ( #5 found:1 hypo:6 ) > 5 rents
+T266.4553344379965 word: 4 rents
+T266.45536478600116 may: 4 
+T269.8206816769962 rents ( #5 found:1 hypo:6 ) > 
+T269.82081786300114 question done
+T270.37243282599957 Copy share result and press <Enter>
+T270.3776140199989 result: "squareword.org 1053: 12 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe7\ud83d\udfe7\n\ud83d\udfe7\ud83d\udfe9\ud83d\udfe7\ud83d\udfe7\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1053"
+T270.3777022819995 <STOP>
