@@ -141,7 +141,10 @@ class Search(StoredLog):
     def prior_words(self) -> Generator[str]:
         yield self.top
         yield self.bottom
-        yield from self.words
+        for i, word in enumerate(self.words):
+            rank = self.rank[i]
+            if rank is not None:
+                yield word
 
     @property
     def guesses(self):
@@ -587,10 +590,15 @@ class Search(StoredLog):
                         self.given = ui.input('match word(s) to extract> ')
                     return
 
-                if self.word in self.search.words: # TODO better lookup?
-                    i = self.search.words.index(self.word)
-                    ui.print(f'// "{self.word}" already ranked {self.search.chain().mark(i)}')
-                    return self.search.ideate
+                try:
+                    i = self.search.words.index(self.word) # TODO better lookup?
+                except ValueError:
+                    pass
+                else:
+                    rank = self.search.rank[i]
+                    if rank is not None:
+                        ui.print(f'// "{self.word}" already ranked {self.search.chain().mark(i)}')
+                        return self.search.ideate
 
                 ui.copy(self.word)
                 with ui.input(f'📋 "{self.word}" order? ') as tokens:
@@ -689,9 +697,20 @@ class Search(StoredLog):
             yield f'#{len(search.words)+1:{iw}} {search.bottom:{ww}}'
 
     def record(self, ui: PromptUI, word: str, order: WordOrder):
+        i: int|None
+        try:
+            i = self.words.index(word)
+        except ValueError:
+            i = None
+
         rank = self.rankorder(order)
-        i = self.append(ui, word, rank)
-        ui.print(f'💿 #{i+1} "{word}" {order} -> {rank}')
+        if i is None:
+            i = self.append(ui, word, rank)
+            ui.print(f'💿🌑 #{i+1} "{word}" {order} -> {rank}')
+        else:
+            self.score(ui, i, rank)
+            ui.print(f'💿🌕 #{i+1} "{word}" {order} -> {rank}')
+
         return self.ideate
 
     def append(self, ui: PromptUI, word: str, rank: WordRank):
