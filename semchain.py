@@ -621,7 +621,9 @@ class Search(StoredLog):
             return len(self.words)+1
         if order == 'B':
             return -(len(self.words)+1)
-        return None
+        if order == '!':
+            return None
+        assert_never(order)
 
     def mark(self, i: int):
         rank = self.rank[i]
