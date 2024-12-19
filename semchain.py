@@ -377,6 +377,7 @@ class Search(StoredLog):
             'result': self.show_result,
             'report': self.do_report,
 
+            'show': self.do_show,
             'prune': self.do_prune,
             'done': self.finish,
             'last': self.do_last,
@@ -433,6 +434,23 @@ class Search(StoredLog):
                 self.info()),
             lambda i, _: ('```📋', '```', ui.consume_copy()) if i == 0 else None
         ): ui.print(line)
+
+    def do_show(self, ui: PromptUI):
+        with ui.tokens as tokens:
+            id = tokens.have(r'\d+$', lambda m: int(m.group(0)))
+            if id is not None:
+                chain = self.chain(id)
+                ui.print(f'#{id} {chain.size} added words:')
+                for line in chain.show(self):
+                    ui.print(f'⛓️ {line}')
+                return self.ideate
+
+            ui.print('Chains:')
+            ui.print(f'#0 {self.chain(0).size} added words')
+            for i in range(len(self.prior_chains)):
+                id = i + 1
+                ui.print(f'#{id} {self.chain(id).size} added words')
+            return self.ideate
 
     @property
     @override
