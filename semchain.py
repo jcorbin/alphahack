@@ -295,14 +295,19 @@ class Search(StoredLog):
                 continue
 
             match = re.match(r'''(?x)
-                word :
-                \s* " (?P<word> [^"]+ ) "
+                (?: word : \s* " (?P<word> [^"]+ ) "
+                  | rank \s+ (?P<index> \d+ )
+                  )
                 \s+ (?P<rank> -?\d+ | False | None )
                 $''', rest)
             if match:
-                word, rank_str = match.groups()
+                word, i_str, rank_str = match.groups()
                 rank = parse_wordrank(rank_str)
-                _ = self.append(ui, word, rank)
+                if word is not None:
+                    _ = self.append(ui, word, rank)
+                elif i_str is not None:
+                    self.score(ui, int(i_str), rank)
+                else: raise RuntimeError('invalid word/rank match')
                 continue
 
             match = re.match(r'''(?x)
@@ -695,6 +700,10 @@ class Search(StoredLog):
         self.rank.append(rank)
         ui.log(f'word: "{word}" {rank}')
         return i
+
+    def score(self, ui: PromptUI, i: int, rank: int|None):
+        self.rank[i] = rank
+        ui.log(f'rank {i} {rank}')
 
     def reset(self, ui: PromptUI):
         self.prior_chains.append(tuple(self.rank))
