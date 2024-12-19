@@ -491,6 +491,8 @@ class Search(StoredLog):
         for line in chain.show(self):
             yield f'    ⛓️ {line}'
 
+        # TODO report aborted chains?
+
     def orient(self, _ui: PromptUI):
         if self.found is not None:
             return self.finish
