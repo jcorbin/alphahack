@@ -300,8 +300,7 @@ class Search(StoredLog):
             if match:
                 word, rank_str = match.groups()
                 rank = parse_wordrank(rank_str)
-                self.words.append(word)
-                self.rank.append(rank)
+                _ = self.append(ui, word, rank)
                 continue
 
             yield t, rest
@@ -676,11 +675,16 @@ class Search(StoredLog):
 
     def record(self, ui: PromptUI, word: str, order: WordOrder):
         rank = self.rankorder(order)
+        i = self.append(ui, word, rank)
+        ui.print(f'💿 #{i+1} "{word}" {order} -> {rank}')
+        return self.ideate
+
+    def append(self, ui: PromptUI, word: str, rank: WordRank):
+        i = len(self.words)
         self.words.append(word)
         self.rank.append(rank)
         ui.log(f'word: "{word}" {rank}')
-        ui.print(f'💿 "{word}" {order} -> {rank}')
-        return self.ideate
+        return i
 
     def finish(self, ui: PromptUI):
         # TODO support parsing and reporting feedback about less than ideal solution
