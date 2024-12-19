@@ -74,9 +74,10 @@ word_ref_pattern = re.compile(r'''(?x)
 WordDeref = Callable[[WordRef], str]
 
 WordOrder = Literal['A', 'B', '=', '!']
-WordRank = int|None
+WordRank = int|Literal[False]|None
 
 def parse_wordrank(s: str) -> WordRank:
+    if s == 'False': return False
     if s == 'None': return None
     return int(s)
 
@@ -295,7 +296,7 @@ class Search(StoredLog):
             match = re.match(r'''(?x)
                 word :
                 \s* " (?P<word> [^"]+ ) "
-                \s* (?P<rank> None | -?\d+ )
+                \s+ (?P<rank> -?\d+ | False | None )
                 $''', rest)
             if match:
                 word, rank_str = match.groups()
@@ -594,7 +595,7 @@ class Search(StoredLog):
         if order == 'B':
             return -(len(self.words)+1)
         if order == '!':
-            return None
+            return False
         assert_never(order)
 
     def chain(self):
@@ -626,6 +627,7 @@ class Search(StoredLog):
         def mark(self, i: int):
             rank = self.rank[i]
             if rank is None: return '_'
+            if rank is False: return '!'
             if rank > 0: return 'A'
             if rank < 0: return 'B'
             return '='
