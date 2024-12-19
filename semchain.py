@@ -131,8 +131,7 @@ class Search(StoredLog):
         self.words: list[str] = []
         self.rank: list[WordRank] = []
         self.prior_chains: list[tuple[WordRank, ...]] = []
-
-        # TODO support backtracking words/rank state
+        self.pruning = False
 
         self.result_text: str = ''
         self.result: Result|None = None
@@ -318,6 +317,19 @@ class Search(StoredLog):
                 $''', rest)
             if match:
                 self.reset(ui)
+                continue
+
+            match = re.match(r'''(?x)
+                pop
+                \s+ (?P<top> top | bot )
+                \s+ " (?P<word> [^"]+ ) " 
+                $''', rest)
+            if match:
+                top, word = match.groups()
+                res = self.pop(ui, top == 'top')
+                assert res is not None
+                _, rword, _ = res
+                assert word == rword
                 continue
 
             yield t, rest
@@ -714,6 +726,8 @@ class Search(StoredLog):
         return self.ideate
 
     def append(self, ui: PromptUI, word: str, rank: WordRank):
+        if self.pruning:
+            self.pruning = False
         i = len(self.words)
         self.words.append(word)
         self.rank.append(rank)
@@ -721,14 +735,44 @@ class Search(StoredLog):
         return i
 
     def score(self, ui: PromptUI, i: int, rank: int|None):
+        if self.pruning:
+            self.pruning = False
         self.rank[i] = rank
         ui.log(f'rank {i} {rank}')
 
     def reset(self, ui: PromptUI):
+        self.pruning = False
         self.prior_chains.append(tuple(self.rank))
         for i in range(len(self.rank)):
             self.rank[i] = None
         ui.log('reset')
+
+    def pop(self, ui: PromptUI, top: bool):
+        if not self.rank: return
+
+        if not self.pruning:
+            self.pruning = True
+            self.prior_chains.append(tuple(self.rank))
+
+        bot = not top
+        word: str|None = None
+        mark: str = ''
+
+        i = len(self.rank)
+        for _ in range(len(self.rank)):
+            i -= 1
+            rank = self.rank[i]
+            if rank is None: continue
+
+            if rank == 0: mark = '='
+            elif rank > 0 and top: mark = 'A'
+            elif rank < 0 and bot: mark = 'B'
+            else: continue
+
+            word = self.words[i]
+            self.rank[i] = None
+            ui.log(f'pop {"top" if top else "bot"} "{word}"')
+            return i, word, mark
 
     def finish(self, ui: PromptUI):
         # TODO support parsing and reporting feedback about less than ideal solution
