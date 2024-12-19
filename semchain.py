@@ -379,6 +379,7 @@ class Search(StoredLog):
 
             'prune': self.do_prune,
             'done': self.finish,
+            'last': self.do_last,
 
             'clear': self.chat.clear_cmd,
             'model': self.chat.model_cmd,
@@ -494,19 +495,31 @@ class Search(StoredLog):
         self.write_prompt(ui)
         return ui.input(f'{prompt}')
 
-    def ideate(self, ui: PromptUI) -> PromptUI.State|None:
+    def ideate(self, ui: PromptUI):
         if self.found is not None:
             return self.finish
 
         if self.chat.session.last_role == 'user':
             ui.print('// Last chat prompt interrupted, resume with `.`')
-        elif self.chat.session.last_role == 'assistant':
-            for line in spliterate(self.chat.session.last_reply, '\n', trim=True):
-                ui.print(f'... {line}')
 
         with self.prompt(ui, '? ') as tokens:
             if not tokens.empty:
                 return self.do_ideate(ui)
+
+    def do_last(self, ui: PromptUI):
+        last = next(self.chat.session.pairs(), None)
+        if last is not None:
+            prompt, reply = last
+            if prompt is not None:
+                if '\n' in prompt:
+                    for line in spliterate(prompt, '\n', trim=True):
+                        ui.print(f'>>> {prompt}')
+                else:
+                    ui.print(f'> {prompt}')
+            if reply is not None:
+                for line in spliterate(reply, '\n', trim=True):
+                    ui.print(f'... {line}')
+        return self.ideate
 
     def do_ideate(self, ui: PromptUI) -> PromptUI.State|None:
         with ui.tokens as tokens:
