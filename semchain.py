@@ -623,7 +623,9 @@ class Search(StoredLog):
             return len(self.words)+1
         if order == 'B':
             return -(len(self.words)+1)
-        return None
+        if order == '!':
+            return None
+        assert_never(order)
 
     def record(self, ui: PromptUI, word: str, order: WordOrder):
         rank = self.rankorder(order)
