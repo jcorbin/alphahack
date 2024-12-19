@@ -75,7 +75,7 @@ word_ref_pattern = re.compile(r'''(?x)
 WordDeref = Callable[[WordRef], str]
 
 WordOrder = Literal['A', 'B', '=', '!']
-WordRank = int|None
+WordRank = int|Literal[False]|None
 
 def word_refs(s: str) -> Generator[WordRef]:
     for match in word_ref_pattern.finditer(s):
@@ -622,12 +622,13 @@ class Search(StoredLog):
         if order == 'B':
             return -(len(self.words)+1)
         if order == '!':
-            return None
+            return False
         assert_never(order)
 
     def mark(self, i: int):
         rank = self.rank[i]
-        if rank is None: return '!'
+        if rank is None: return '_'
+        if rank is False: return '!'
         if rank > 0: return 'A'
         if rank < 0: return 'B'
         return '='
