@@ -125,6 +125,7 @@ class Search(StoredLog):
         self.bottom: str = ''
         self.words: list[str] = []
         self.rank: list[WordRank] = []
+        self.prior_chains: list[tuple[WordRank, ...]] = []
 
         # TODO support backtracking words/rank state
 
@@ -300,6 +301,13 @@ class Search(StoredLog):
                 if rank_str != 'None':
                     rank = int(rank_str)
                 _ = self.append(ui, word, rank)
+                continue
+
+            match = re.match(r'''(?x)
+                reset
+                $''', rest)
+            if match:
+                self.reset(ui)
                 continue
 
             yield t, rest
@@ -593,8 +601,8 @@ class Search(StoredLog):
             return False
         assert_never(order)
 
-    def chain(self):
-        rank = self.rank
+    def chain(self, id: int = 0):
+        rank = self.rank if id == 0 else self.prior_chains[-id]
         return self.Chain(rank)
 
     @final
@@ -680,13 +688,22 @@ class Search(StoredLog):
         ui.log(f'word: "{word}" {rank}')
         return i
 
+    def reset(self, ui: PromptUI):
+        self.prior_chains.append(tuple(self.rank))
+        for i in range(len(self.rank)):
+            self.rank[i] = None
+        ui.log('reset')
+
     def finish(self, ui: PromptUI):
         # TODO support parsing and reporting feedback about less than ideal solution
 
-        # TODO support re-play?
-
         if not self.result_text:
-            _ = ui.input('Paste share result, then press <Enter>')
+            with ui.input('Paste share result, then press <Enter> ; or enter "again" try again for a shorter chain> ') as tokens:
+                if tokens.have(r'again$'):
+                    self.reset(ui)
+                    ui.print(f'🚫 try again')
+                    return self.ideate
+
             result = ui.paste().strip()
             if not result: return
 
