@@ -6,10 +6,9 @@ import json
 import math
 import re
 
-from collections.abc import Generator, Iterable
+from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
 from dateutil.tz import gettz
-from itertools import chain
 from typing import assert_never, cast, final, override, Callable, Literal, Never
 
 from chat import ChatContext, ChatModelError
@@ -144,7 +143,7 @@ class Search(StoredLog):
 
     @property
     def guesses(self):
-        return len(self.words)
+        return self.chain().size
 
     @property
     def pub_tz(self):
@@ -423,40 +422,9 @@ class Search(StoredLog):
         # else:
         #     yield f'😦 {self.guesses}'
 
-        index = list(chain(
-
-            # A ranks
-            #     1
-            #     2
-            #     3
-            (i for _, i in sorted(
-                (rank, i)
-                for i, rank in enumerate(self.rank)
-                if rank is not None
-                if rank > 0
-            )),
-
-            # = rank(s)
-            #     0
-            (i for i, rank in enumerate(self.rank) if rank == 0),
-
-            # B ranks
-            #    -3
-            #    -2
-            #    -1
-            (i for _, i in sorted((
-                (-rank, i)
-                for i, rank in enumerate(self.rank)
-                if rank is not None
-                if rank < 0
-            ), reverse=True)),
-
-        ))
-
-        yield f'    ⛓️ #0 "{self.top}"'
-        for i in index:
-            yield f'    ⛓️ #{i+1} "{self.words[i]}" {self.mark(i)}'
-        yield f'    ⛓️ #{len(self.words)+1} "{self.bottom}"'
+        chain = self.chain()
+        for line in chain.show(self):
+            yield f'    ⛓️ {line}'
 
     def orient(self, _ui: PromptUI):
         if self.found is not None:
@@ -607,7 +575,8 @@ class Search(StoredLog):
                     return
 
                 if self.word in self.search.words: # TODO better lookup?
-                    ui.print(f'// "{self.word}" already recorded')
+                    i = self.search.words.index(self.word)
+                    ui.print(f'// "{self.word}" already ranked {self.search.chain().mark(i)}')
                     return self.search.ideate
 
                 ui.copy(self.word)
@@ -629,12 +598,81 @@ class Search(StoredLog):
             return None
         assert_never(order)
 
-    def mark(self, i: int):
-        rank = self.rank[i]
-        if rank is None: return '!'
-        if rank > 0: return 'A'
-        if rank < 0: return 'B'
-        return '='
+    def chain(self):
+        rank = self.rank
+        return self.Chain(rank)
+
+    @final
+    class Chain:
+        def __init__(self, rank: Sequence[WordRank]):
+            self.rank = rank
+            self._ix: tuple[tuple[int, int], ...]|None = None
+
+        @property
+        def ix(self):
+            if self._ix is None:
+                self._ix = tuple(
+                    (r, i)
+                    for i, r in enumerate(self.rank)
+                    if r is not None)
+            return self._ix
+
+        @property
+        def size(self):
+            if self._ix is None:
+                return sum(1 for r in self.rank if r is not None)
+            else:
+                return len(self._ix)
+
+        def mark(self, i: int):
+            rank = self.rank[i]
+            if rank is None: return '_'
+            if rank > 0: return 'A'
+            if rank < 0: return 'B'
+            return '='
+
+        def __iter__(self):
+            return self.order()
+
+        def order(self):
+
+            # A ranks
+            #     1
+            #     2
+            #     3
+            for _, i in sorted(
+                (r, i)
+                for r, i in self.ix
+                if r > 0):
+                yield i
+
+            # = rank(s)
+            #     0
+            for r, i in self.ix:
+                if r == 0:
+                    yield i
+
+            # B ranks
+            #    -3
+            #    -2
+            #    -1
+            for _, i in sorted((
+                (-r, i)
+                for r, i in self.ix
+                if r < 0
+            ), reverse=True):
+                yield i
+
+        def show(self, search: 'Search'):
+            iw = len(str(self.size))
+            ww = max(
+                len(search.top),
+                len(search.bottom),
+                max((len(search.words[i]) for _, i in self.ix), default=0))
+            yield f'#{0:{iw}} {search.top:{ww}}'
+            for i in self:
+                yield f'#{i+1:{iw}} {search.words[i]:{ww}} {self.mark(i)}'
+            yield f'#{len(search.words)+1:{iw}} {search.bottom:{ww}}'
 
     def record(self, ui: PromptUI, word: str, order: WordOrder):
         rank = self.rankorder(order)
