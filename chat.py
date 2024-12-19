@@ -311,7 +311,7 @@ class ChatContext:
 
     def chat_ui(self, ui: PromptUI, prompt: str|None = None):
         prompt = self.expand(ui, prompt) if prompt else self.input_prompt(ui)
-        if not prompt: return
+        if not prompt: return False
 
         for line in wraplines(ui.screen_cols-4, prompt.splitlines()):
             ui.print(f'>>> {line}')
@@ -334,6 +334,8 @@ class ChatContext:
 
         finally:
             ui.fin()
+
+        return True
 
     def clear_cmd(self, ui: PromptUI):
         ui.print('cleare chat 🪙 = 0')

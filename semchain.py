@@ -770,7 +770,8 @@ class Search(StoredLog):
             ui.catch_state(KeyboardInterrupt, self.ideate),
             ui.print_exception(Exception, self.ideate)
         ):
-            return self.chat.chat_ui(ui, prompt)
+            if self.chat.chat_ui(ui, prompt):
+                return self.ideate
 
 @final
 @dataclass
