@@ -75,6 +75,11 @@ word_ref_pattern = re.compile(r'''(?x)
 WordDeref = Callable[[WordRef], str]
 
 WordOrder = Literal['A', 'B', '=', '!']
+WordRank = int|None
+
+def parse_wordrank(s: str) -> WordRank:
+    if s == 'None': return None
+    return int(s)
 
 def word_refs(s: str) -> Generator[WordRef]:
     for match in word_ref_pattern.finditer(s):
@@ -124,7 +129,7 @@ class Search(StoredLog):
         self.top: str = ''
         self.bottom: str = ''
         self.words: list[str] = []
-        self.rank: list[None|int] = []
+        self.rank: list[WordRank] = []
 
         # TODO support backtracking words/rank state
 
@@ -295,10 +300,7 @@ class Search(StoredLog):
                 $''', rest)
             if match:
                 word, rank_str = match.groups()
-                rank_str = cast(str, rank_str)
-                rank: int|None = None
-                if rank_str != 'None':
-                    rank = int(rank_str)
+                rank = parse_wordrank(rank_str)
                 self.words.append(word)
                 self.rank.append(rank)
                 continue
@@ -619,7 +621,7 @@ class Search(StoredLog):
                         return
                     return self.search.record(ui, self.word, cast(WordOrder, order.upper()))
 
-    def rankorder(self, order: WordOrder):
+    def rankorder(self, order: WordOrder) -> WordRank:
         if order == '=':
             return 0
         if order == 'A':
