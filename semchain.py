@@ -454,10 +454,7 @@ class Search(StoredLog):
 
         yield f'    ⛓️ #0 "{self.top}"'
         for i in index:
-            rank = self.rank[i]
-            word = self.words[i]
-            order = '!' if rank is None else 'A' if rank > 0 else 'B' if rank < 0 else '='
-            yield f'    ⛓️ #{i+1} "{word}" {order}'
+            yield f'    ⛓️ #{i+1} "{self.words[i]}" {self.mark(i)}'
         yield f'    ⛓️ #{len(self.words)+1} "{self.bottom}"'
 
     def orient(self, _ui: PromptUI):
@@ -625,6 +622,13 @@ class Search(StoredLog):
         if order == 'B':
             return -(len(self.words)+1)
         return None
+
+    def mark(self, i: int):
+        rank = self.rank[i]
+        if rank is None: return '!'
+        if rank > 0: return 'A'
+        if rank < 0: return 'B'
+        return '='
 
     def record(self, ui: PromptUI, word: str, order: WordOrder):
         rank = self.rankorder(order)
