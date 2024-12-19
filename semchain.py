@@ -374,6 +374,7 @@ class Search(StoredLog):
             'result': self.show_result,
             'report': self.do_report,
 
+            'prune': self.do_prune,
             'done': self.finish,
 
             'clear': self.chat.clear_cmd,
@@ -714,6 +715,22 @@ class Search(StoredLog):
             self.score(ui, i, rank)
             ui.print(f'💿🌕 #{i+1} "{word}" {order} -> {rank}')
 
+        return self.ideate
+
+    def do_prune(self, ui: PromptUI):
+        with ui.tokens as tokens:
+            if tokens.have('t(op?)?$'):
+                return self.prune(ui, True)
+            if tokens.have('b(o(t(t(om))?)?)?$'):
+                return self.prune(ui, False)
+            ui.print('! Usage: /prune top | /prune bot')
+            return self.ideate
+
+    def prune(self, ui: PromptUI, top: bool):
+        res = self.pop(ui, top)
+        if res is not None:
+            i, word, mark = res
+            ui.print(f'🚫 #{i+1} "{word}" {mark}')
         return self.ideate
 
     def append(self, ui: PromptUI, word: str, rank: int|None):
