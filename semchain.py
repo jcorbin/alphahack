@@ -562,7 +562,7 @@ class Search(StoredLog):
                 if tokens.empty:
                     return
 
-                word = tokens.have(r'(?x) " ( [^"]+ ) "', lambda m: m.group(0))
+                word = tokens.have(r'(?x) " ( [^"]+ ) "', lambda m: m.group(1))
                 if word is not None:
                     self.word = word
                     return
