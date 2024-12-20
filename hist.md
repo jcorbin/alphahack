@@ -2754,3 +2754,7 @@ from 'court' to 'egg'
 
 🔗 alphaguess.com
 ```
+
+# 2024-12-20 squareword.org
+
+See log/squareword.org/#1054

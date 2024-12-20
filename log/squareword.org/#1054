@@ -1,0 +1,175 @@
+T0.00019833000260405242 now: 2024-12-20T09:06:19EST
+T0.00024529400980100036 site: squareword.org
+T4.095011463999981 📜 nwl2023.txt ? 
+T4.09510035799758 wordlist: nwl2023.txt
+T10.128443831999903 🧩  ? #1054
+T10.128592403008952 puzzle_id: #1054
+T11.472371369003667 > *
+T11.580107625995879 questioning: ["whiny", "#5 found:8913 hypo:11881376"]
+T16.72277760799625 whiny ( #5 found:8913 hypo:11881376 ) ? .
+T16.722931042997516 guess: whiny
+T19.455292037004256 whiny ( #5 found:8913 hypo:11881376 ) > 2 ____y
+T19.456262516003335 word: 1 ____y
+T19.456295452997438 may: 1 
+T23.14770813799987 whiny ( #5 found:8913 hypo:11881376 ) > 3 ~ in
+T23.14846762000525 word: 2 _____
+T23.148498495997046 may: 2 i n
+T24.96760918700602 whiny ( #5 found:8913 hypo:11881376 ) > 4 ~ n
+T24.96789051500673 word: 3 _____
+T24.967920007999055 may: 3 n
+T27.99684213900764 whiny ( #5 found:8913 hypo:11881376 ) > 5 ~ n
+T27.99709147500107 word: 4 _____
+T27.997117785998853 may: 4 n
+T28.939227543000015 whiny ( #5 found:8913 hypo:11881376 ) > 
+T28.939390783998533 question done
+T30.431299659001525 > /no wh
+T30.431858361000195 nope: h w
+T31.355960586006404 > *
+T31.625466184006655 questioning: ["resin", "#3 found:431 hypo:27648"]
+T213.07545155000116 resin ( #3 found:431 hypo:27648 ) ? .
+T213.0756229050021 guess: resin
+T216.41988654099987 resin ( #3 found:431 hypo:27648 ) > 1 __s__ ~ es
+T216.42015372800233 word: 0 __s__
+T216.42018170400115 may: 0 e s
+T222.50322827600758 resin ( #3 found:431 hypo:27648 ) > 3 ___in ~ r
+T222.50341876399762 word: 2 ___in
+T222.50343768500898 may: 2 r
+T227.7614224870049 resin ( #3 found:431 hypo:27648 ) > 4 r____ ~ n
+T227.76162799099984 word: 3 r____
+T227.76164965600765 may: 3 n
+T231.03869252299774 resin ( #3 found:431 hypo:27648 ) > 5 ~ ne
+T231.03895851800917 word: 4 _____
+T231.0389863129967 may: 4 e n
+T234.03586810000706 resin ( #3 found:431 hypo:27648 ) > 
+T234.03602031400078 question done
+T234.86898766100057 > *
+T235.25620630499907 questioning: ["rinse", "#4 found:8 hypo:13824"]
+T292.72516166399873 rinse ( #4 found:8 hypo:13824 ) ? 4 r_n
+T292.72540128900437 guess: rinse
+T292.72546631899604 word: 3 r_n__
+T292.7254843779956 may: 3 
+T300.55585366000014 rinse ( #4 found:8 hypo:13824 ) > 
+T300.5559799699986 question done
+T301.2787419469969 > *
+T301.3730234190007 questioning: ["rando", "#4 found:2 hypo:13824"]
+T309.07724473500275 rando ( #4 found:2 hypo:13824 ) ? !
+T309.07737000999623 reject: rando
+T310.3984172920027 > *
+T310.40604504600924 questioning: ["rondo", "#4 found:7 hypo:13824"]
+T314.37543600100616 rondo ( #4 found:7 hypo:13824 ) ? .
+T314.3755792160082 guess: rondo
+T316.25235676500597 rondo ( #4 found:7 hypo:13824 ) > 4 rondo
+T316.2525419379963 word: 3 rondo
+T316.2525595440093 may: 3 
+T320.52686402600375 rondo ( #4 found:7 hypo:13824 ) > 5 ~ ned
+T320.52710377200856 word: 4 _____
+T320.52712873699784 may: 4 d e n
+T325.91182351400494 rondo ( #4 found:7 hypo:13824 ) > 3 ~ rd
+T325.91200588100764 word: 2 ___in
+T325.91202525900735 may: 2 d r
+T331.7095289870049 rondo ( #4 found:7 hypo:13824 ) > 
+T331.70968022600573 question done
+T334.2204435589956 > *
+T334.5081434809981 questioning: ["drain", "#3 found:1 hypo:48"]
+T368.4195560030057 drain ( #3 found:1 hypo:48 ) ? .
+T368.41967344300065 guess: drain
+T370.61687514600635 drain ( #3 found:1 hypo:48 ) > 3 drain
+T370.61714339900936 word: 2 drain
+T370.61718157000723 may: 2 
+T376.04923732200405 drain ( #3 found:1 hypo:48 ) > 1 ~ esa
+T376.0494488830009 word: 0 __s__
+T376.04948431900993 may: 0 a e s
+T379.38965489700786 drain ( #3 found:1 hypo:48 ) > 2 ~ a
+T379.3898133610055 word: 1 ____y
+T379.3898402740015 may: 1 a
+T381.53218906400434 drain ( #3 found:1 hypo:48 ) > 
+T381.53230795300624 question done
+T382.2957604980038 > *
+T382.6108525460004 questioning: ["anted", "#5 found:1 hypo:3456"]
+T394.3685240199993 anted ( #5 found:1 hypo:3456 ) ? .
+T394.36866089800606 guess: anted
+T399.3731410150067 anted ( #5 found:1 hypo:3456 ) > 1 __se_
+T399.3733432260051 word: 0 __se_
+T399.373365906009 may: 0 a s
+T402.7554568530031 anted ( #5 found:1 hypo:3456 ) > 2 a_t_y
+T402.7556698880071 word: 1 a_t_y
+T402.7556934949971 may: 1 
+T407.82850681799755 anted ( #5 found:1 hypo:3456 ) > 5 _n_ed
+T407.8286788450059 word: 4 _n_ed
+T407.8286974030052 may: 4 
+T413.99861890000466 anted ( #5 found:1 hypo:3456 ) > 5 ~ ed
+T413.9988654110057 word: 4 _n_ed
+T413.998894208009 may: 4 d e
+T420.31304606600315 anted ( #5 found:1 hypo:3456 ) > 
+T420.31315963000816 question done
+T421.0233982659993 > *
+T422.0149035570066 questioning: ["aptly", "#2 found:1 hypo:576"]
+T427.7498503579991 aptly ( #2 found:1 hypo:576 ) ? .
+T427.7500711540051 guess: aptly
+T429.1199566139985 aptly ( #2 found:1 hypo:576 ) > 2 aptly
+T429.12014388000534 word: 1 aptly
+T429.12016349300393 may: 1 
+T435.64291691500694 aptly ( #2 found:1 hypo:576 ) > 
+T435.6430467940081 question done
+T436.4417193100089 > *
+T437.1832737759978 questioning: ["ended", "#5 found:1 hypo:2"]
+T460.14995117000944 ended ( #5 found:1 hypo:2 ) ? .
+T460.150082483 guess: ended
+T461.39282311500574 ended ( #5 found:1 hypo:2 ) > 5 ended
+T461.3930394080089 word: 4 ended
+T461.39306568400934 may: 4 
+T465.15005489700707 ended ( #5 found:1 hypo:2 ) > *
+T465.68243165100284 ended ( #5 found:1 hypo:2 ) > 
+T465.68255473200406 question done
+T466.12861187700764 > *
+T466.64031306399556 questioning: ["pases", "#1 found:3 hypo:48"]
+T471.8817278820061 pases ( #1 found:3 hypo:48 ) ? .
+T471.88178992400935 guess: pases
+T478.75524946399673 pases ( #1 found:3 hypo:48 ) > 1 _ases
+T478.75548016700486 word: 0 _ases
+T478.7555073130061 may: 0 
+T480.7744534180092 pases ( #1 found:3 hypo:48 ) > 
+T480.77459349200944 question done
+T481.41315177200886 > *
+T481.9158038000023 questioning: ["mases", "#1 found:2 hypo:24"]
+T491.2924949940061 mases ( #1 found:2 hypo:24 ) ? .
+T491.2926125869999 guess: mases
+T493.4924761069997 <INT>
+T0.0017923870036611333 now: 2024-12-20T09:14:34EST
+T1.226520664000418 mases ( #1 found:2 hypo:24 ) > 
+T1.2266193690011278 question done
+T4.232750947994646 > /no m
+T4.233411267996416 nope: h m w
+T5.676546831993619 > *
+T7.238193030003458 > *
+T11.923053594000521 > mases
+T11.923836860994925 questioning: ["mases", "entered"]
+T13.372788858003332 mases ( entered ) > 1 ~
+T13.373557262995746 word: 0 _ases
+T13.373580461004167 may: 0 
+T14.841180607996648 mases ( entered ) > 2 ~
+T14.841319191997172 word: 1 aptly
+T14.841334379001637 may: 1 
+T15.898135675990488 mases ( entered ) > 3 ~
+T15.898333653996815 word: 2 drain
+T15.898364020002191 may: 2 
+T17.09772832899762 mases ( entered ) > 4 ~
+T17.097974502001307 word: 3 rondo
+T17.098012468995876 may: 3 
+T17.962777904991526 mases ( entered ) > 5 ~
+T17.962989780993666 word: 4 ended
+T17.963022238996928 may: 4 
+T20.485903884997242 mases ( entered ) > 
+T20.486028262996115 question done
+T21.25034550500277 > *
+T21.31131628100411 questioning: ["cases", "#1 found:1 hypo:23"]
+T24.551837142993463 cases ( #1 found:1 hypo:23 ) ? .
+T24.552092975995038 guess: cases
+T25.939435879990924 cases ( #1 found:1 hypo:23 ) > 1 cases
+T25.939772875994095 word: 0 cases
+T25.93983633800235 may: 0 
+T27.588982237997698 cases ( #1 found:1 hypo:23 ) > 
+T27.589040245991782 question done
+T30.38745568599552 Copy share result and press <Enter>
+T30.392414335990907 result: "squareword.org 1054: 11 guesses\n\n\ud83d\udfe7\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1054"
+T30.392490921003628 <STOP>
