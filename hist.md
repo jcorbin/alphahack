@@ -2742,3 +2742,15 @@ from 'court' to 'egg'
 ⏱️ 36s
 🔗 alfagok.diginaut.net
 ```
+
+# 2024-12-20 alphaguess.com
+
+```
+🧩 Puzzle #514
+
+🤔 11 guesses
+
+⏱️ 18s
+
+🔗 alphaguess.com
+```
