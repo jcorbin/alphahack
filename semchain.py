@@ -491,6 +491,27 @@ class Search(StoredLog):
         def prompt():
             yield 'Give me a series of words that connects the meaning of $A to $B.'
 
+            if self.guesses > 0: return
+
+            best: Search.Chain|None = None
+            for i in range(len(self.prior_chains)):
+                id = i + 1
+                chain = self.chain(id)
+                if best is None or chain.size < best.size:
+                    best = chain
+            if best is not None:
+                yield f''
+                yield f"Here's a series of {best.size} words that connects $A to $B:"
+                yield f''
+                n = 1
+                yield f'{n}. {self.top}'
+                for n, i in enumerate(best, 2):
+                    word = self.words[i]
+                    yield f'{n}. {word}'
+                yield f'{n+1}. {self.bottom}'
+                yield f''
+                yield f"You'll need to do better than this, by finding a shorter and more direct connection between $A and $B."
+
         return self.chat_prompt(ui, prompt())
 
     def prompt_parts(self):
