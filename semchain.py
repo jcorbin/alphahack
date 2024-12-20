@@ -466,7 +466,10 @@ class Search(StoredLog):
         return self.ideate
 
     def generate(self, ui: PromptUI):
-        return self.chat_prompt(ui, "I'm looking for a series of words that will connect the meaning of $A to $B.")
+        def prompt():
+            yield 'Give me a series of words that connects the meaning of $A to $B.'
+
+        return self.chat_prompt(ui, prompt())
 
     def prompt_parts(self):
         stats = self.chat.session.stats
@@ -761,7 +764,7 @@ class Search(StoredLog):
 
         return expand_word_refs(prompt, self.expand_word_ref)
 
-    def chat_prompt(self, ui: PromptUI, prompt: str|None=None) -> PromptUI.State|None:
+    def chat_prompt(self, ui: PromptUI, prompt: str|Iterable[str]|None=None) -> PromptUI.State|None:
         # TODO simplify over PromptUI evolution
         with (
             ui.catch_state(KeyboardInterrupt, self.ideate),

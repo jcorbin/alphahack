@@ -3,7 +3,7 @@ import ollama
 import re
 
 from collections import Counter
-from collections.abc import Callable, Generator, Sequence
+from collections.abc import Callable, Generator, Iterable, Sequence
 from dataclasses import dataclass
 from typing import cast, final
 
@@ -309,8 +309,14 @@ class ChatContext:
 
         return self.expand(ui, prompt)
 
-    def chat_ui(self, ui: PromptUI, prompt: str|None = None):
-        prompt = self.expand(ui, prompt) if prompt else self.input_prompt(ui)
+    def chat_ui(self, ui: PromptUI, prompt: str|Iterable[str]|None = None):
+        if prompt is None:
+            prompt = self.input_prompt(ui)
+        else:
+            if not isinstance(prompt, str):
+                prompt = '\n'.join(prompt)
+            prompt = self.expand(ui, prompt)
+
         if not prompt: return False
 
         for line in wraplines(ui.screen_cols-4, prompt.splitlines()):
