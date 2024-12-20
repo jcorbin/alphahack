@@ -2676,3 +2676,18 @@ See log/squareword.org/#1053
 # 2024-12-19 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1083
+
+# 2024-12-19 https://wordnerd.co/wordchain
+
+```
+🤔 6 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 6 chain words
+from 'court' to 'egg'
+⏱️ 0:37:36.558300
+```
+
+📜 23 sessions
+🫧 1 chat sessions
+⁉️ 2 chat prompts
+🤖 2 llama3.2:latest replies
