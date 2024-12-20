@@ -2762,3 +2762,18 @@ See log/squareword.org/#1054
 # 2024-12-20 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1084
+
+# 2024-12-20 https://wordnerd.co/wordchain
+
+```
+🤔 2 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 2 chain words
+from 'goal' to 'guide'
+⏱️ 0:26:32.585161
+```
+
+📜 1 sessions
+🫧 1 chat sessions
+⁉️ 9 chat prompts
+🤖 9 llama3.2:latest replies
