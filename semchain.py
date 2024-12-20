@@ -137,7 +137,13 @@ class Search(StoredLog):
         self.result: Result|None = None
 
     @property
-    def prior_words(self) -> Generator[str]:
+    def bad_words(self):
+        for i, rank in enumerate(self.rank):
+            if rank is False:
+                yield self.words[i]
+
+    @property
+    def prior_words(self):
         yield self.top
         yield self.bottom
         for i, word in enumerate(self.words):
@@ -483,6 +489,12 @@ class Search(StoredLog):
     def generate(self, ui: PromptUI):
         def prompt():
             yield 'Give me a series of words that connects the meaning of $A to $B.'
+
+            if any(self.bad_words):
+                yield 'Do not use any of the following words:'
+                yield f''
+                for word in self.bad_words:
+                    yield f'- {word}'
 
             if self.guesses > 0: return
 
