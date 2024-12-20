@@ -2758,3 +2758,7 @@ from 'court' to 'egg'
 # 2024-12-20 squareword.org
 
 See log/squareword.org/#1054
+
+# 2024-12-20 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1084
