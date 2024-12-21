@@ -2822,3 +2822,7 @@ from 'goal' to 'guide'
 # 2024-12-21 squareword.org
 
 See log/squareword.org/#1055
+
+# 2024-12-21 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1085
