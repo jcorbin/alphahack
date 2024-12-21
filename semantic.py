@@ -3004,6 +3004,7 @@ class Search(StoredLog):
         if self.chat:
             self.chat_history.append(ChatSession(self.chat, model=self.llm_model))
         self.chat = []
+        self.last_chat_prompt = ''
 
     def chat_pop(self, ui: PromptUI):
         mess = self.chat.pop()
