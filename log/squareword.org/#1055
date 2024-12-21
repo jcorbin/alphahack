@@ -1,0 +1,181 @@
+T0.00016097700006412197 now: 2024-12-21T10:53:45EST
+T0.00020783200000096258 site: squareword.org
+T2.15902949000008 📜 nwl2023.txt ? 
+T2.1591637780001065 wordlist: nwl2023.txt
+T5.781073319000029 🧩  ? #1055
+T5.781475986000032 puzzle_id: #1055
+T17.76739175700004 > *
+T17.857290811000098 questioning: ["cyans", "#5 found:1891 hypo:11881376"]
+T22.682372151000095 cyans ( #5 found:1891 hypo:11881376 ) ? .
+T22.682529655000053 guess: cyans
+T25.8898762660001 cyans ( #5 found:1891 hypo:11881376 ) > 1 ~ cs
+T25.890746738000075 word: 0 _____
+T25.890771852000057 may: 0 c s
+T27.312773699000104 cyans ( #5 found:1891 hypo:11881376 ) > 2 ~ a
+T27.313034712000103 word: 1 _____
+T27.31307511600005 may: 1 a
+T29.40872157000001 cyans ( #5 found:1891 hypo:11881376 ) > 3 ~ as
+T29.409014204000073 word: 2 _____
+T29.409059633000084 may: 2 a s
+T34.0658654020001 cyans ( #5 found:1891 hypo:11881376 ) > 4 ____s ~ n
+T34.066128338 word: 3 ____s
+T34.06616245200007 may: 3 n
+T35.80171471400001 cyans ( #5 found:1891 hypo:11881376 ) > 5 ~ s
+T35.801941768000006 word: 4 _____
+T35.80197762 may: 4 s
+T36.7122340950001 cyans ( #5 found:1891 hypo:11881376 ) > 
+T36.71252684300009 question done
+T38.033872350000024 > /no y
+T38.034352633000026 nope: y
+T39.12320958500004 > *
+T39.53689848300007 questioning: ["camps", "#1 found:41 hypo:31250"]
+T47.942298468000104 camps ( #1 found:41 hypo:31250 ) ? .
+T47.942503154000065 guess: camps
+T376.70627913600003 camps ( #1 found:41 hypo:31250 ) > 2 _a___ ~ p
+T376.7065189220001 word: 1 _a___
+T376.7065409930001 may: 1 p
+T382.747961336 camps ( #1 found:41 hypo:31250 ) > 
+T382.7481092050001 question done
+T384.95968376100006 > /no m
+T384.959977652 nope: m y
+T385.63039434200005 > *
+T386.06972494600006 questioning: ["pagan", "#2 found:37 hypo:13824"]
+T390.192029262 pagan ( #2 found:37 hypo:13824 ) ? .
+T390.19219884200004 guess: pagan
+T394.6745339250001 pagan ( #2 found:37 hypo:13824 ) > 
+T394.67465908200006 question done
+T396.602650702 > /no g
+T396.602803741 nope: g m y
+T398.31713680100006 > *
+T398.75259922300006 questioning: ["qapik", "#2 found:88 hypo:12167"]
+T400.4975525750001 qapik ( #2 found:88 hypo:12167 ) ? 
+T400.497667202 question done
+T401.507131718 > *
+T401.52046691500004 questioning: ["sapor", "#2 found:97 hypo:12167"]
+T405.22241372100007 sapor ( #2 found:97 hypo:12167 ) ? .
+T405.2225491500001 guess: sapor
+T414.37286259100006 sapor ( #2 found:97 hypo:12167 ) > 1 s____ ~ co
+T414.3730415350001 word: 0 s____
+T414.37306022000007 may: 0 c o
+T418.44812995000007 sapor ( #2 found:97 hypo:12167 ) > 2 _ap_r
+T418.44822867300013 word: 1 _ap_r
+T418.448241497 may: 1 
+T422.78098731700015 sapor ( #2 found:97 hypo:12167 ) > 3 ~ asr
+T422.7811887790001 word: 2 _____
+T422.781220031 may: 2 a r s
+T426.0408238550001 sapor ( #2 found:97 hypo:12167 ) > 4 ~ no
+T426.0410111420001 word: 3 ____s
+T426.04103820299997 may: 3 n o
+T427.87760396199997 sapor ( #2 found:97 hypo:12167 ) > 
+T427.87770539999997 question done
+T428.443795055 > *
+T429.6863715730001 questioning: ["taper", "#2 found:3 hypo:529"]
+T433.36332311700016 taper ( #2 found:3 hypo:529 ) ? .
+T433.36345897499996 guess: taper
+T437.202127516 taper ( #2 found:3 hypo:529 ) > 2 tap_r
+T437.20230662400013 word: 1 tap_r
+T437.2023331810001 may: 1 
+T442.39010924900003 taper ( #2 found:3 hypo:529 ) > 4 ~ arse
+T442.39033273400014 word: 3 ____s
+T442.390363515 may: 3 a e r s
+T445.04620193999995 taper ( #2 found:3 hypo:529 ) > 3 ~ arse
+T445.0464390730001 word: 2 _____
+T445.04647442300006 may: 2 a e r s
+T452.52979551399994 taper ( #2 found:3 hypo:529 ) > 4 ____s ~ not
+T452.53003926400015 word: 3 ____s
+T452.5300743560001 may: 3 n o t
+T456.176714101 taper ( #2 found:3 hypo:529 ) > 5 ~ se
+T456.176914936 word: 4 _____
+T456.1769358900001 may: 4 e s
+T459.845641356 taper ( #2 found:3 hypo:529 ) > 
+T459.84580729799995 question done
+T460.47327678600004 > *
+T461.68221716100015 questioning: ["tapir", "#2 found:1 hypo:23"]
+T466.2713783480001 tapir ( #2 found:1 hypo:23 ) ? .
+T466.27154161399994 guess: tapir
+T467.46930553800007 tapir ( #2 found:1 hypo:23 ) > 2 tapir
+T467.4695185790001 word: 1 tapir
+T467.46955019100005 may: 1 
+T482.491773881 tapir ( #2 found:1 hypo:23 ) > 3 ~ arise
+T482.4920318500001 word: 2 _____
+T482.49206634899997 may: 2 a e i r s
+T486.481581537 tapir ( #2 found:1 hypo:23 ) > 
+T486.48173040100005 question done
+T487.5922102490001 > *
+T488.84624319700015 questioning: ["raise", "#3 found:2 hypo:120"]
+T492.57374284599996 raise ( #3 found:2 hypo:120 ) ? .
+T492.5738878330001 guess: raise
+T496.264706488 raise ( #3 found:2 hypo:120 ) > 3 __ise
+T496.26497350600016 word: 2 __ise
+T496.26501499799997 may: 2 a r
+T504.79527932199994 raise ( #3 found:2 hypo:120 ) > 5 ___s_
+T504.79548833700005 word: 4 ___s_
+T504.79552138200006 may: 4 e
+T513.201680028 raise ( #3 found:2 hypo:120 ) > 
+T513.2018126180001 question done
+T513.8530699820001 > *
+T515.148173933 questioning: ["arise", "#3 found:1 hypo:2"]
+T518.918618119 arise ( #3 found:1 hypo:2 ) ? .
+T518.918744243 guess: arise
+T520.4742075920001 arise ( #3 found:1 hypo:2 ) > 3 arise
+T520.474519801 word: 2 arise
+T520.4745597610001 may: 2 
+T524.0679494670001 arise ( #3 found:1 hypo:2 ) > 
+T524.068063423 question done
+T524.8894746800001 > *
+T525.9249195740001 questioning: ["scold", "#1 found:2 hypo:1058"]
+T532.5688420860001 scold ( #1 found:2 hypo:1058 ) ? .
+T532.568915888 guess: scold
+T536.5877315730002 scold ( #1 found:2 hypo:1058 ) > 1 sco
+T536.587935066 word: 0 sco__
+T536.5879654170001 may: 0 
+T540.461295094 scold ( #1 found:2 hypo:1058 ) > 5 ~ l
+T540.4615183380001 word: 4 ___s_
+T540.461549875 may: 4 l
+T542.7139592410001 scold ( #1 found:2 hypo:1058 ) > 5 ~ el
+T542.7141706740001 word: 4 ___s_
+T542.7141939810001 may: 4 e l
+T550.6314290100001 scold ( #1 found:2 hypo:1058 ) > 
+T550.631605373 question done
+T552.241049082 > ~ d
+T555.0451810750001 > /no d
+T555.04528252 nope: d g m y
+T557.470245022 > *
+T558.5057355640001 questioning: ["scoff", "#1 found:1 hypo:484"]
+T565.3520234760001 scoff ( #1 found:1 hypo:484 ) ? .
+T565.352149 guess: scoff
+T567.6561396019999 scoff ( #1 found:1 hypo:484 ) > 1 scoff
+T567.656363653 word: 0 scoff
+T567.656387558 may: 0 
+T573.923958549 scoff ( #1 found:1 hypo:484 ) > 4 ~ notf
+T573.924147559 word: 3 ____s
+T573.924168561 may: 3 f n o t
+T576.5579590690002 scoff ( #1 found:1 hypo:484 ) > 5 ~ elf
+T576.5582324460001 word: 4 ___s_
+T576.5582720130001 may: 4 e f l
+T579.617693718 scoff ( #1 found:1 hypo:484 ) > 
+T579.617842359 question done
+T580.45866824 > *
+T581.254037017 questioning: ["fonts", "#4 found:1 hypo:24"]
+T584.7805692230002 fonts ( #4 found:1 hypo:24 ) ? .
+T584.78075405 guess: fonts
+T587.513680414 fonts ( #4 found:1 hypo:24 ) > 4 fonts
+T587.5139798600001 word: 3 fonts
+T587.514021044 may: 3 
+T589.6032700160001 fonts ( #4 found:1 hypo:24 ) > 5 f__s_
+T589.6035983490001 word: 4 f__s_
+T589.6036381280001 may: 4 e l
+T591.116296161 fonts ( #4 found:1 hypo:24 ) > 
+T591.116457956 question done
+T591.8947588200001 > *
+T592.3710535080002 questioning: ["flesh", "#5 found:1 hypo:44"]
+T596.8991849930001 flesh ( #5 found:1 hypo:44 ) ? .
+T596.8993714329999 guess: flesh
+T598.8483694280001 flesh ( #5 found:1 hypo:44 ) > 5 flesh
+T598.8485881220001 word: 4 flesh
+T598.848624087 may: 4 
+T602.3478363680001 flesh ( #5 found:1 hypo:44 ) > 
+T602.348017127 question done
+T603.218224446 Copy share result and press <Enter>
+T603.221682117 result: "squareword.org 1055: 12 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe9\n\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe8\ud83d\udfe7\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1055"
+T603.2217524170001 <STOP>
