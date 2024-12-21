@@ -2237,7 +2237,7 @@ class Search(StoredLog):
 
                 return self.chat_prompt(ui, ' '.join(parts))
 
-            return self.attempt_word(ui, next(tokens).lower(), f'entered')
+            return self.attempt_word(ui, next(tokens), f'entered')
 
     def automate(self) -> Generator[tuple[float, str, Explainable]]:
         if self.last_chat_role == 'user':
@@ -2681,6 +2681,9 @@ class Search(StoredLog):
                     ui.print(f'{indent} {"; ".join(explain())}')
 
     def attempt_word(self, ui: PromptUI, word: str, desc: str) -> PromptUI.State|None:
+        word = word.lower()
+        word = word.strip().strip("'\"").strip()
+
         if not word: return
 
         if word in self.wordbad:
