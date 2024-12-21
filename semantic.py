@@ -668,6 +668,20 @@ class Search(StoredLog):
         self.auto_token_limit = 400
         self.full_auto: bool = False
 
+    def last_known_prompt(self):
+        if isinstance(self.last_chat_prompt, ChatPrompt):
+            return self.last_chat_prompt
+
+        if self.last_chat_prompt:
+            try:
+                return ChatPrompt(self.last_chat_prompt)
+            except ValueError:
+                pass
+
+        # TODO recall last parseable since /clear
+
+        return None
+
     def explained(self, s: str, explain: Explainable, pre: str = ''):
         if self.explain_auto:
             explain = explanation(explain)
@@ -2002,14 +2016,7 @@ class Search(StoredLog):
         trailer: list[str] = []
         trailer_given: bool = False
 
-        cp: ChatPrompt|None = None
-        if isinstance(self.last_chat_prompt, ChatPrompt):
-            cp = self.last_chat_prompt
-        elif self.last_chat_prompt:
-            try:
-                cp = ChatPrompt(self.last_chat_prompt)
-            except ValueError:
-                pass
+        cp = self.last_known_prompt()
 
         with ui.tokens as tokens:
             if tokens.have(r'.\?'):
@@ -2239,8 +2246,8 @@ class Search(StoredLog):
         yield from self.auto_explore()
 
     def auto_extract(self) -> Generator[tuple[float, str, Explainable]]:
-        cp = self.last_chat_prompt if isinstance(self.last_chat_prompt, ChatPrompt) else ChatPrompt(self.last_chat_prompt)
-        may_gen = cp.count
+        cp = self.last_known_prompt()
+        may_gen = cp.count if cp else 10 # TODO share default init
 
         backlog = len(set(chain.from_iterable(
             ex.extract_words().may
@@ -2268,7 +2275,7 @@ class Search(StoredLog):
             yield 0.9, '* // 🎲 sus random', '0.90 fixed'
             return
 
-        lcp = ChatPrompt(self.last_chat_prompt) if isinstance(self.last_chat_prompt, str) else self.last_chat_prompt
+        lcp = self.last_known_prompt()
 
         gen = 4
         top_score = self.score[self.index[0]]/100
@@ -2278,7 +2285,7 @@ class Search(StoredLog):
             yield f'top = {top_score:.2f}'
             yield f'gen = {gen}'
 
-        if not any(lcp.refs()):
+        if not (lcp and any(lcp.refs())):
             yield score, f'*{gen} $1 /clear // 🔭 init', explain_init_gen
             return
 
@@ -2911,6 +2918,7 @@ class Search(StoredLog):
             except ValueError:
                 pass
 
+        # TODO save last parseable
         self.last_chat_prompt = prompt
         self.last_chat_basis = dict()
         return expand_word_refs(
@@ -3103,7 +3111,8 @@ class Search(StoredLog):
             return ' '.join(self.notes)
 
     def analyze_basis(self):
-        last_refs = self.last_chat_prompt.refs() if isinstance(self.last_chat_prompt, ChatPrompt) else ()
+        cp = self.last_known_prompt()
+        last_refs = cp.refs() if cp else ()
         return self.BasisChange(
             self.last_chat_basis.items(),
             (self.word_ref_score(k, n) for k, n in last_refs))
@@ -3227,8 +3236,8 @@ class Search(StoredLog):
                 sc_e = sum(extracted, 0) / len(extracted)
                 expect = (sc_e + sc_bo) / 2
 
-                cp = self.last_chat_prompt if isinstance(self.last_chat_prompt, ChatPrompt) else ChatPrompt(self.last_chat_prompt)
-                may_gen = cp.count
+                cp = self.last_known_prompt()
+                may_gen = cp.count if cp else 10 # TODO share default init
                 possible = weighted(sc_bn, may_gen)
                 potential = weighted(expect, len(exw.may))
 
