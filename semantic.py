@@ -2139,12 +2139,17 @@ class Search(StoredLog):
                         f'{n}. `{input.rstrip()}` {mark}{comment}'.rstrip(),
                         explain, pre=f'{score:.2f} ='))
                 with ui.input('( 1. ) ? ') as tokens:
-                    if not tokens.empty:
-                        _, input, _ = may[int(next(tokens))-1]
+                    n = tokens.have(r'\d+$', lambda m: int(m.group(0)))
+                    if n is not None:
+                        _, input, _ = may[n-1]
                         input, _, _ = input.partition('//')
                         input = input.rstrip()
                         tokens.raw = input
                         return self.do_ideate(ui)
+
+                    if not tokens.empty:
+                        return self.do_ideate(ui)
+
             except KeyboardInterrupt:
                 return
 
