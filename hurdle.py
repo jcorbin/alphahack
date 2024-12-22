@@ -112,7 +112,7 @@ class Search(StoredLog):
                 continue
 
             match = re.match(r'''(?x)
-                may : (?: \s+ ( \w+ ) )?
+                may : (?: \s+ ( [^\s]+ ) )?
                 \s* ( .* )
                 $''', rest)
             if match:
