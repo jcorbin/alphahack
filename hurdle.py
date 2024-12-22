@@ -262,7 +262,10 @@ class Search(StoredLog):
                     self.word = ['' if x == '_' else x for x in word]
                     ui.log(f'word: {"".join(x if x else "_" for x in self.word)}')
                     if all(x for x in self.word):
-                        self.words.append(''.join(self.word))
+                        word = ''.join(self.word)
+                        if word not in self.tried:
+                            self.tried.append(word)
+                        self.words.append(word)
                         self.attempts.append(self.tried)
                         self.tried = []
                 return
