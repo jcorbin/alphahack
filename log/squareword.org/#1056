@@ -1,0 +1,138 @@
+T0.00013806800416205078 now: 2024-12-22T12:52:53EST
+T0.00018604000069899485 site: squareword.org
+T3.16680423499929 📜 nwl2023.txt ? 
+T3.1668760090033174 wordlist: nwl2023.txt
+T5.704099980001047 🧩  ? #1056
+T5.704594260001613 puzzle_id: #1056
+T10.301932934002252 > *
+T10.400449995999224 questioning: ["alert", "#5 found:192 hypo:11881376"]
+T13.652916573002585 alert ( #5 found:192 hypo:11881376 ) ? .
+T13.65308033200563 guess: alert
+T18.020912820000376 alert ( #5 found:192 hypo:11881376 ) > 1 _l___ ~ at
+T18.021708950000175 word: 0 _l___
+T18.02175427000475 may: 0 a t
+T22.336102527006005 alert ( #5 found:192 hypo:11881376 ) > 2 ____t ~ a
+T22.336384515001555 word: 1 ____t
+T22.336413618002553 may: 1 a
+T26.77798751800583 alert ( #5 found:192 hypo:11881376 ) > 3 a____ ~ e
+T26.77821830999892 word: 2 a____
+T26.77823940700182 may: 2 e
+T29.512691809002717 alert ( #5 found:192 hypo:11881376 ) > 4 ~ ae
+T29.51319297900045 word: 3 _____
+T29.513214760001574 may: 3 a e
+T32.980879635004385 alert ( #5 found:192 hypo:11881376 ) > 5 __e__ ~ a
+T32.9811461450081 word: 4 __e__
+T32.98118375000922 may: 4 a
+T34.427636555999925 alert ( #5 found:192 hypo:11881376 ) > 
+T34.42792088600254 question done
+T35.63436764099606 > /no r
+T35.63536453899724 nope: r
+T36.387702144995274 > *
+T36.93646734199865 questioning: ["plate", "#1 found:9 hypo:1250"]
+T39.999959162996674 plate ( #1 found:9 hypo:1250 ) ? .
+T40.00010143900727 guess: plate
+T42.68352929800312 plate ( #1 found:9 hypo:1250 ) > 1 _lat_
+T42.683763747998455 word: 0 _lat_
+T42.68380557100318 may: 0 
+T48.050206328996865 plate ( #1 found:9 hypo:1250 ) > 3 a___e
+T48.0503261729973 word: 2 a___e
+T48.05034067600354 may: 2 
+T53.05853064900293 plate ( #1 found:9 hypo:1250 ) > 
+T53.05868564600678 question done
+T54.44694781599537 > /no p
+T54.44716202699783 nope: p r
+T58.73744389600324 > *
+T59.15796030499769 questioning: ["blats", "#1 found:1 hypo:576"]
+T62.88364893600374 blats ( #1 found:1 hypo:576 ) ? .
+T62.88377250800113 guess: blats
+T64.84369121700729 blats ( #1 found:1 hypo:576 ) > 1 _lats
+T64.84393504499894 word: 0 _lats
+T64.843972708004 may: 0 
+T72.69979985799728 blats ( #1 found:1 hypo:576 ) > 1 ~ s
+T72.70003108999663 word: 0 _lats
+T72.7000649860056 may: 0 s
+T75.49501117700856 blats ( #1 found:1 hypo:576 ) > 2 ~ ab
+T75.49544490999688 word: 1 ____t
+T75.49551546200382 may: 1 a b
+T79.51197999600117 blats ( #1 found:1 hypo:576 ) > 3 ~ b
+T79.51220197200746 word: 2 a___e
+T79.5122248129992 may: 2 b
+T83.93212440500065 blats ( #1 found:1 hypo:576 ) > 5 ~ as
+T83.93230560600205 word: 4 __e__
+T83.93232604000514 may: 4 a s
+T88.68799259000662 blats ( #1 found:1 hypo:576 ) > 
+T88.6881968930029 question done
+T89.26162294000824 > *
+T89.77257333399757 questioning: ["slats", "#1 found:1 hypo:1"]
+T94.97492372600391 slats ( #1 found:1 hypo:1 ) ? .
+T94.97510590800812 guess: slats
+T99.2375211289982 slats ( #1 found:1 hypo:1 ) > 5 s_e__
+T99.23772452100093 word: 4 s_e__
+T99.23774575100833 may: 4 a
+T101.2143638970083 slats ( #1 found:1 hypo:1 ) > 
+T101.21444759499718 question done
+T101.91685995800799 > *
+T102.32687111500854 questioning: ["habit", "#2 found:1 hypo:1152"]
+T106.34311897200678 habit ( #2 found:1 hypo:1152 ) ? .
+T106.34328577899578 guess: habit
+T108.43907940999634 habit ( #2 found:1 hypo:1152 ) > 2 habit
+T108.43936775500333 word: 1 habit
+T108.43940163900697 may: 1 
+T114.62882003200502 habit ( #2 found:1 hypo:1152 ) > 4 ___i_
+T114.62904535400594 word: 3 ___i_
+T114.62907450000785 may: 3 a e
+T122.63944176800578 habit ( #2 found:1 hypo:1152 ) > 
+T122.639539874006 question done
+T125.33168734500214 > *
+T126.01282979400276 questioning: ["abate", "#3 found:1 hypo:576"]
+T134.83403957599512 abate ( #3 found:1 hypo:576 ) ? 
+T134.8342067220001 question done
+T135.35145275100513 > *
+T136.22354359299788 questioning: ["adobe", "#3 found:2 hypo:576"]
+T140.38286751599662 adobe ( #3 found:2 hypo:576 ) ? .
+T140.3830028070006 guess: adobe
+T144.53795719199843 adobe ( #3 found:2 hypo:576 ) > 3 a_o_e
+T144.5381358490049 word: 2 a_o_e
+T144.5381563320043 may: 2 b
+T151.23390070800815 adobe ( #3 found:2 hypo:576 ) > 4 ~ aed
+T151.2342776390069 word: 3 ___i_
+T151.23439304299973 may: 3 a d e
+T153.51487959099904 adobe ( #3 found:2 hypo:576 ) > 
+T153.51499325400073 question done
+T154.5286948320063 > *
+T155.32029797000723 questioning: ["media", "#4 found:1 hypo:144"]
+T159.9444178049962 media ( #4 found:1 hypo:144 ) ? .
+T159.94459309500962 guess: media
+T163.54606013099692 media ( #4 found:1 hypo:144 ) > 4 media
+T163.5462930249996 word: 3 media
+T163.5463321520001 may: 3 
+T170.22793831800664 media ( #4 found:1 hypo:144 ) > 3 ~ bd
+T170.22824235499866 word: 2 a_o_e
+T170.22829622700374 may: 2 b d
+T171.33630458200787 media ( #4 found:1 hypo:144 ) > 
+T171.33642154900735 question done
+T172.34194490800292 > *
+T173.19218875600927 questioning: ["sneak", "#5 found:1 hypo:576"]
+T177.7377045270041 sneak ( #5 found:1 hypo:576 ) ? .
+T177.73783843000274 guess: sneak
+T178.91789257599885 sneak ( #5 found:1 hypo:576 ) > 5 sneak
+T178.91807955600234 word: 4 sneak
+T178.91811018600856 may: 4 
+T182.42791232800664 sneak ( #5 found:1 hypo:576 ) > 
+T182.42804874599824 question done
+T183.06235280499823 > *
+T192.36955156400654 > "adobe"
+T193.80315435300145 > adobe
+T193.80338370800746 questioning: ["adobe", "entered"]
+T200.20035153500066 adobe ( entered ) > adobe
+T203.16531250000844 adobe ( entered ) > 3 adobe
+T203.16550174300937 word: 2 adobe
+T203.16553071600356 may: 2 
+T205.6962467409976 adobe ( entered ) > 1 slats
+T205.69646227900375 word: 0 slats
+T205.69650054499652 may: 0 
+T207.5140498519977 adobe ( entered ) > 
+T207.5141826810068 question done
+T211.06299230999866 Copy share result and press <Enter>
+T211.0653867680012 result: "squareword.org 1056: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1056"
+T211.06543195500126 <STOP>
