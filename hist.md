@@ -2916,3 +2916,18 @@ See log/squareword.org/#1056
 # 2024-12-22 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1086
+
+# 2024-12-22 https://wordnerd.co/wordchain
+
+```
+🤔 1 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 1 chain words
+from 'distance' to 'blue'
+⏱️ 0:01:02.070798
+```
+
+📜 0 sessions
+🫧 1 chat sessions
+⁉️ 1 chat prompts
+🤖 1 llama3.2:latest replies
