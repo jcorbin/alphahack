@@ -2960,3 +2960,24 @@ See log/squareword.org/#1057
 # 2024-12-23 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1087
+
+# 2024-12-23 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 994
+🤔 479 guesses
+    😱   1
+    🔥   5
+    🥵  29
+    😎 108
+    🥶 326
+    🧊  10
+⏱️ 0:31:29.159130
+```
+
+🤔 480 attempts
+📜 0 sessions
+🫧 12 chat sessions
+⁉️ 74 chat prompts
+🤖 74 llama3.2:latest replies
