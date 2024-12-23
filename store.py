@@ -6,13 +6,17 @@ import subprocess
 from collections.abc import Generator, Iterable
 from contextlib import contextmanager
 from dataclasses import dataclass
-from dateutil.parser import parse as parse_datetime
-from dateutil.tz import tzlocal
+from dateutil.parser import parse as _parse_datetime
+from dateutil.tz import gettz, tzlocal, tzoffset
 from typing import cast, final
 from types import TracebackType
 
 from mdkit import break_sections, replace_sections
 from ui import PromptUI
+
+def parse_datetime(s: str):
+    return _parse_datetime(s,
+                 tzinfos=lambda name, offset: gettz(name) if name else tzoffset(name, offset))
 
 @contextmanager
 def atomic_file(name: str):
