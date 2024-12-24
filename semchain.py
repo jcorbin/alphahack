@@ -451,11 +451,12 @@ class Search(StoredLog):
                     ui.print(f'⛓️ {line}')
                 return self.ideate
 
+            chains = list(self.chains())
+            sw = len(str(max(chain.size for chain in chains)))
             ui.print('Chains:')
-            ui.print(f'#0 {self.chain(0).size} added words')
-            for i in range(len(self.prior_chains)):
-                id = i + 1
-                ui.print(f'#{id} {self.chain(id).size} added words')
+            for chain in chains:
+                mark = '🥳' if chain.complete else '😦'
+                ui.print(f'{chain.id} {mark} {chain.size:{sw}} added words')
             return self.ideate
 
     @property
@@ -671,11 +672,17 @@ class Search(StoredLog):
 
     def chain(self, id: int = 0):
         rank = self.rank if id == 0 else self.prior_chains[-id]
-        return self.Chain(rank)
+        return self.Chain(f'#{id}', rank)
+
+    def chains(self):
+        yield self.chain(0)
+        for i in range(len(self.prior_chains)):
+            yield self.chain(i + 1)
 
     @final
     class Chain:
-        def __init__(self, rank: Sequence[WordRank]):
+        def __init__(self, id: str, rank: Sequence[WordRank]):
+            self.id = id
             self.rank = rank
             self._ix: tuple[tuple[int, int], ...]|None = None
 
