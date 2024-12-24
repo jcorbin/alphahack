@@ -53,18 +53,18 @@ class ANSIClipboard:
 
 DefaultClipboard = NullClipboard()
 
-# # TODO snip the pyperclip dep, just implement command dispatchers and/or an osc52 fallback provider
-# try:
-#     import pyperclip # pyright: ignore[reportMissingImports]
-#     @final
-#     class Pyperclip:
-#         def copy(self, mess: str):
-#             pyperclip.copy(mess) # pyright: ignore[reportUnknownMemberType]
-#         def paste(self) -> str:
-#             return pyperclip.paste() # pyright: ignore[reportUnknownMemberType, reportUnknownVariableType]
-#     DefaultClipboard = Pyperclip()
-# except:
-#     print('WARNING: no clipboard access available')
+# TODO snip the pyperclip dep, just implement command dispatchers and/or an osc52 fallback provider
+try:
+    import pyperclip # pyright: ignore[reportMissingImports]
+    @final
+    class Pyperclip:
+        def copy(self, mess: str):
+            pyperclip.copy(mess) # pyright: ignore[reportUnknownMemberType]
+        def paste(self) -> str:
+            return pyperclip.paste() # pyright: ignore[reportUnknownMemberType, reportUnknownVariableType]
+    DefaultClipboard = Pyperclip()
+except:
+    print('WARNING: no clipboard access available')
 
 @final
 class CopyAndThen:
