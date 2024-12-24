@@ -674,8 +674,8 @@ class Search(StoredLog):
     def finish(self, ui: PromptUI) -> PromptUI.State|None:
         res = self.result
         if not res:
-            _ = ui.input('copy share result and press <Return>')
-            self.result_text = ui.paste().strip()
+            ui.print('Provide share result:')
+            self.result_text = ui.may_paste()
             ui.log(f'share result: {json.dumps(self.result_text)}')
             return
 

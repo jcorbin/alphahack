@@ -2400,9 +2400,10 @@ class Search(StoredLog):
             self.full_auto = False
 
         else:
-            with ui.input('Paste share result, then press <Enter>') as tokens:
+            ui.print('Provide result or say `auto` to synthesize one.')
+            with ui.input('Press <Enter> to 📋, or `>` for line prompt ') as tokens:
                 if not tokens.have(r'auto$'):
-                    return ui.paste().strip()
+                    return ui.may_paste(tokens)
 
         def rank() -> Generator[Tier]:
             scale = tuple(self.scale[tier] for tier in tiers)

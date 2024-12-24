@@ -831,19 +831,14 @@ class Search(StoredLog):
         res = self.result
         if not res:
             # TODO support parsing and reporting feedback about less than ideal solution
-
-            with ui.input('Press <Enter> with 📋 result, or enter "again" to try again for a shorter chain> ') as tokens:
+            ui.print('Provide result or say `again` to reset and try again.')
+            with ui.input('Press <Enter> to 📋, or `>` for line prompt ') as tokens:
                 if tokens.have(r'again$'):
                     self.reset(ui)
                     ui.print(f'🚫 try again')
                     return self.ideate
-
-                if not tokens.empty:
-                    ui.print(f'! unrecognized final input {tokens.raw!r}')
-                    return
-
-            self.result_text = ui.paste().strip()
-            ui.log(f'share result: {json.dumps(self.result_text)}')
+                self.result_text = ui.may_paste(tokens).strip()
+                ui.log(f'share result: {json.dumps(self.result_text)}')
             return
 
         if res.site: self.site = res.site

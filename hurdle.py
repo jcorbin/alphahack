@@ -346,11 +346,9 @@ class Search(StoredLog):
     def finish(self, ui: PromptUI):
         res = self.result
         if not res:
-            if self.result_text:
-                self.result_text = ''
-            with ui.input('Copy share result and press <Enter>'):
-                self.result_text = ui.paste()
-                ui.log(f'result: {json.dumps(self.result_text)}')
+            ui.print('Provide share result:')
+            self.result_text = ui.may_paste()
+            ui.log(f'result: {json.dumps(self.result_text)}')
             return
 
         if not self.puzzle_id:

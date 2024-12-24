@@ -217,6 +217,26 @@ class PromptUI:
     def paste(self) -> str:
         return self.clip.paste()
 
+    def may_paste(self, tokens: Tokens|None = None):
+        if tokens is None:
+            tokens = self.input('Press <Enter> to 📋 or `>` for line prompt ')
+
+        with tokens:
+            if tokens.empty: return self.paste()
+
+            if not tokens.have('>$'):
+                return ''
+
+        def read():
+            self.print('Provide content, then eof or interreupt')
+            try:
+                while True:
+                    yield self.raw_input('> ')
+            except (EOFError, KeyboardInterrupt):
+                return
+
+        return '\n'.join(read())
+
     def log(self, mess: str):
         self.sink(f'T{self.time.now} {mess}')
 
