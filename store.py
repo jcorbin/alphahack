@@ -31,6 +31,14 @@ def atomic_file(name: str):
         if not ok:
             os.unlink(f.name)
 
+@contextmanager
+def atomic_rewrite(name: str):
+    with (
+        open(name, 'r') as r,
+        atomic_file(name) as w,
+    ):
+        yield r, w
+
 @final
 @dataclass
 class LogSession:
@@ -468,31 +476,30 @@ class StoredLog:
 
         body = self.report_section()
 
-        with atomic_file(self.report_file) as w:
-            with open(self.report_file, 'r') as r:
-                lines = break_sections(replace_sections(r, rep), body)
+        with atomic_rewrite(self.report_file) as (r, w):
+            lines = break_sections(replace_sections(r, rep), body)
 
-                note = self.report_note()
-                for line in lines:
-                    if line.startswith(note_id):
-                        print(note, file=w)
-                        continue
+            note = self.report_note()
+            for line in lines:
+                if line.startswith(note_id):
+                    print(note, file=w)
+                    continue
 
-                    if not line:
-                        print(note, file=w)
-                        print(line, file=w)
-                        break
-
-                    if not line.startswith('- '):
-                        print(note, file=w)
-                        print('', file=w)
-                        print(line, file=w)
-                        break
-
+                if not line:
+                    print(note, file=w)
                     print(line, file=w)
+                    break
 
-                for line in lines:
+                if not line.startswith('- '):
+                    print(note, file=w)
+                    print('', file=w)
                     print(line, file=w)
+                    break
+
+                print(line, file=w)
+
+            for line in lines:
+                print(line, file=w)
         ui.print(f'💾 updated {self.report_file}')
 
 @final
