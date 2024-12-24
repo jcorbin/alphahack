@@ -241,7 +241,7 @@ class Search(StoredLog):
         self.hi: int = 0
         self.chosen: int|None = None
         self.result_text: str = ''
-        self.result: Result|None = None
+        self._result: Result|None = None
 
         # per-round prompt state
         self.view = Browser(self.words)
@@ -263,6 +263,21 @@ class Search(StoredLog):
         self.removed: int = 0
         self.suggested: int = 0
         self.guessed: int = 0
+
+    @property
+    def result(self):
+        if self._result is None and self.result_text:
+            try:
+                res = Result.parse(self.result_text)
+            except ValueError:
+                return None
+            self._result = res
+        return self._result
+
+    @result.deleter
+    def result(self):
+        self._result = None
+        self.result_text = ''
 
     ### words routines
 
@@ -418,14 +433,10 @@ class Search(StoredLog):
                 rej = json.loads(srej) # pyright: ignore[reportAny]
                 if not isinstance(rej, str): continue
                 self.result_text = rej
-                try:
-                    res = Result.parse(self.result_text)
-                except ValueError as e:
-                    self.result = None
-                    continue
-                self.result = res
-                self.puzzle_id = f'#{res.puzzle}'
-                if not self.site: self.site = res.site
+                res = self.result
+                if res:
+                    self.puzzle_id = f'#{res.puzzle}'
+                    if not self.site: self.site = res.site
                 continue
 
             yield t, rest
@@ -661,31 +672,24 @@ class Search(StoredLog):
         else: raise ValueError('invalid comparison') # unreachable
 
     def finish(self, ui: PromptUI) -> PromptUI.State|None:
-        if not self.result_text:
+        res = self.result
+        if not res:
             _ = ui.input('copy share result and press <Return>')
-            text = ui.paste().strip()
-            if not text: return
-
-            ui.log(f'share result: {json.dumps(text)}')
-            self.result_text = text
-
-        self.result = Result.parse(self.result_text)
-
-        if not self.result.puzzle:
-            self.result = None
-            self.result_text = ''
+            self.result_text = ui.paste().strip()
+            ui.log(f'share result: {json.dumps(self.result_text)}')
             return
 
-        self.puzzle_id = f'#{self.result.puzzle}'
-        if not self.site: self.site = self.result.site
+        if not res.puzzle:
+            del self.result
+            return
 
-        for k, v in self.result.log_items():
+        self.puzzle_id = f'#{res.puzzle}'
+        if not self.site: self.site = res.site
+
+        for k, v in res.log_items():
             ui.log(f'result {k}: {v}')
 
-        if not (self.stored and self.ephemeral):
-            raise StopIteration
-
-        return self.review
+        raise StopIteration
 
     @property
     @override
@@ -724,9 +728,9 @@ class Search(StoredLog):
         i = self.found
         if i is not None: self.view.at = i
 
-        if self.result and not self.result.puzzle:
-            self.result = None
-            self.result_text = ''
+        res = self.result
+        if res and not res.puzzle:
+            del self.result
 
         if not self.result:
             with self.log_to(ui):
@@ -735,8 +739,6 @@ class Search(StoredLog):
         want_log_file = self.should_store_to
         if want_log_file and self.log_file != want_log_file:
             return self.store
-
-        # TODO if self.search.result: self.show_result(ui)
 
         return self.show_quest
 

@@ -79,7 +79,11 @@ class Search(StoredLog):
     @property
     def result(self):
         if self._result is None and self.result_text:
-            self._result = Result.parse(self.result_text, self.size)
+            try:
+                res = Result.parse(self.result_text, self.size)
+            except ValueError:
+                return None
+            self._result = res
         return self._result
 
     @override
@@ -479,9 +483,13 @@ class Search(StoredLog):
         self.row_may[word_i] = set()
 
     def finish(self, ui: PromptUI):
-        with ui.input('Copy share result and press <Enter>'):
-            self.result_text = ui.paste()
-            ui.log(f'result: {json.dumps(self.result_text)}')
+        res = self.result
+        if not res:
+            with ui.input('Copy share result and press <Enter>'):
+                self.result_text = ui.paste()
+                ui.log(f'result: {json.dumps(self.result_text)}')
+            return
+
         raise StopIteration
 
     @override
@@ -492,9 +500,12 @@ class Search(StoredLog):
                 txn.will_add(self.log_file),
                 self.log_to(ui),
             ):
-                st = self.finish
-                while not self.result_text:
-                    st = st(ui) or st
+                try:
+                    st = self.finish
+                    while not self.result_text:
+                        st = st(ui) or st
+                except StopIteration:
+                    pass
 
         self.show_grid(ui)
         with ui.input(f'> ') as tokens:

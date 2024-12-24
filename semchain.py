@@ -134,7 +134,17 @@ class Search(StoredLog):
         self.pruning = False
 
         self.result_text: str = ''
-        self.result: Result|None = None
+        self._result: Result|None = None
+
+    @property
+    def result(self):
+        if self._result is None and self.result_text:
+            try:
+                res = Result.parse(self.result_text)
+            except ValueError:
+                return None
+            self._result = res
+        return self._result
 
     @property
     def prior_words(self) -> Generator[str]:
@@ -275,13 +285,8 @@ class Search(StoredLog):
                 rej = cast(object, json.loads(srej))
                 if not isinstance(rej, str): continue
                 self.result_text = rej
-                try:
-                    res = Result.parse(self.result_text)
-                except ValueError:
-                    self.result = None
-                    continue
-                self.result = res
-                if res.site: self.site = res.site
+                res = self.result
+                if res and res.site: self.site = res.site
                 continue
 
             match = re.match(r'''(?x)
@@ -823,9 +828,10 @@ class Search(StoredLog):
             return i, word, mark
 
     def finish(self, ui: PromptUI):
-        # TODO support parsing and reporting feedback about less than ideal solution
+        res = self.result
+        if not res:
+            # TODO support parsing and reporting feedback about less than ideal solution
 
-        if not self.result_text:
             with ui.input('Press <Enter> with 📋 result, or enter "again" to try again for a shorter chain> ') as tokens:
                 if tokens.have(r'again$'):
                     self.reset(ui)
@@ -836,30 +842,13 @@ class Search(StoredLog):
                     ui.print(f'! unrecognized final input {tokens.raw!r}')
                     return
 
-            result = ui.paste().strip()
-            if not result: return
-
-            ui.log(f'share result: {json.dumps(result)}')
-            self.result_text = result
-
-        try:
-            res = Result.parse(self.result_text)
-        except ValueError as e:
-            ui.print(f'! invalid result text: {e}')
-            self.result_text = ''
+            self.result_text = ui.paste().strip()
+            ui.log(f'share result: {json.dumps(self.result_text)}')
             return
-
-        self.result = res
 
         if res.site: self.site = res.site
 
-        for line in res.textlines():
-            ui.print(f'> {line}')
-
-        if not self.stored:
-            raise StopIteration
-
-        return self.review
+        raise StopIteration
 
     def expand_word_ref(self, ref: WordRef):
         if ref[0] == '#':

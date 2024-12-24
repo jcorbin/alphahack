@@ -641,7 +641,7 @@ class Search(StoredLog):
         self.wordgood: dict[str, int] = dict()
 
         self.result_text: str = ''
-        self.result: Search.Result|None = None
+        self._result: Search.Result|None = None
 
         self.http_client = requests.Session()
         self.http_client.headers["User-Agent"] = 'github.com/jcorbin/alhpahack'
@@ -667,6 +667,16 @@ class Search(StoredLog):
         self.explain_auto: bool = False
         self.auto_token_limit = 400
         self.full_auto: bool = False
+
+    @property
+    def result(self):
+        if self._result is None and self.result_text:
+            try:
+                res = self.Result.parse(self.result_text)
+            except ValueError:
+                return None
+            self._result = res
+        return self._result
 
     def last_known_prompt(self):
         if isinstance(self.last_chat_prompt, ChatPrompt):
@@ -1180,19 +1190,14 @@ class Search(StoredLog):
                 \s+ (?P<result> .* )
                 $''', rest)
             if match:
-                srej, = match.groups()
-                rej = cast(object, json.loads(srej))
-                if not isinstance(rej, str): continue
-                self.result_text = rej
-                try:
-                    res = self.Result.parse(self.result_text)
-                except ValueError:
-                    self.result = None
-                    continue
-                self.result = res
-                if res.site: self.site = res.site
-                if not self.puzzle_id:
-                    self.puzzle_id = f'#{res.puzzle_id}'
+                rej = cast(object, json.loads(match.group(1)))
+                if isinstance(rej, str):
+                    self.result_text = rej
+                    res = self.result
+                    if res:
+                        if res.site: self.site = res.site
+                        if not self.puzzle_id:
+                            self.puzzle_id = f'#{res.puzzle_id}'
                 continue
 
             yield t, rest
@@ -2389,51 +2394,39 @@ class Search(StoredLog):
             i, ix, _ = self.word_iref(k, n)
             ui.print(f'💿 {self.describe_word(i, ix)}')
 
+    def fin_result(self, ui: PromptUI):
+        if self.full_auto:
+            ui.print('🚉🚋🚉  Disengaging full auto, synthesising share result')
+            self.full_auto = False
+
+        else:
+            with ui.input('Paste share result, then press <Enter>') as tokens:
+                if not tokens.have(r'auto$'):
+                    return ui.paste().strip()
+
+        def rank() -> Generator[Tier]:
+            scale = tuple(self.scale[tier] for tier in tiers)
+            for score in self.score:
+                for j, temp in enumerate(scale[1:], 1):
+                    if score < temp:
+                        yield tiers[j-1]
+                        break
+        countab = Counter(rank())
+        counts = cast(TierCounts, tuple(countab[tier] for tier in tiers))
+        res = self.Result(int(self.puzzle_id[1:]), self.attempt-1, self.origin, self.site, counts)
+        return '\n'.join(res.textlines())
+
     def finish(self, ui: PromptUI):
         it = self.found
         if it is None: return self.orient
 
         ui.print(f'Fin {self.describe_word(it)}')
 
-        if not self.result_text:
-            auto = False
-
-            if self.full_auto:
-                ui.print('🚉🚋🚉  Disengaging full auto, synthesising share result')
-                self.full_auto = False
-                auto = True
-
-            if not auto:
-                auto = ui.input('Paste share result, then press <Enter>').raw.strip() == 'auto'
-
-            if auto:
-                def rank() -> Generator[Tier]:
-                    scale = tuple(self.scale[tier] for tier in tiers)
-                    for score in self.score:
-                        for j, temp in enumerate(scale[1:], 1):
-                            if score < temp:
-                                yield tiers[j-1]
-                                break
-                countab = Counter(rank())
-                counts = cast(TierCounts, tuple(countab[tier] for tier in tiers))
-                res = self.Result(int(self.puzzle_id[1:]), self.attempt-1, self.origin, self.site, counts)
-                result = '\n'.join(res.textlines())
-
-            else:
-                result = ui.paste().strip()
-                if not result: return
-
-            ui.log(f'share result: {json.dumps(result)}')
-            self.result_text = result
-
-        try:
-            res = self.Result.parse(self.result_text)
-        except ValueError as e:
-            ui.print(f'! invalid result text: {e}')
-            self.result_text = ''
+        res = self.result
+        if not res:
+            self.result_text = self.fin_result(ui)
+            ui.log(f'share result: {json.dumps(self.result_text)}')
             return
-
-        self.result = res
 
         if res.site: self.site = res.site
         if not self.puzzle_id:
@@ -2447,10 +2440,7 @@ class Search(StoredLog):
         if res.guesses != self.attempt:
             ui.print(f"// result guess count {res.guesses} doesn't match our {self.attempt}")
 
-        if not self.stored:
-            raise StopIteration
-
-        return self.review
+        raise StopIteration
 
     def fix(self, ui: PromptUI, i: int, score: float|None, prog: int|None) -> bool:
         parts: list[str] = []
