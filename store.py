@@ -476,31 +476,34 @@ class StoredLog:
 
         body = self.report_section()
 
-        with atomic_rewrite(self.report_file) as (r, w):
-            lines = break_sections(replace_sections(r, rep), body)
+        with git_txn(f'DAILY {self.site_name or self.store_name}') as txn:
+            with atomic_rewrite(self.report_file) as (r, w):
+                lines = break_sections(replace_sections(r, rep), body)
 
-            note = self.report_note()
-            for line in lines:
-                if line.startswith(note_id):
-                    print(note, file=w)
-                    continue
+                note = self.report_note()
+                for line in lines:
+                    if line.startswith(note_id):
+                        print(note, file=w)
+                        continue
 
-                if not line:
-                    print(note, file=w)
+                    if not line:
+                        print(note, file=w)
+                        print(line, file=w)
+                        break
+
+                    if not line.startswith('- '):
+                        print(note, file=w)
+                        print('', file=w)
+                        print(line, file=w)
+                        break
+
                     print(line, file=w)
-                    break
 
-                if not line.startswith('- '):
-                    print(note, file=w)
-                    print('', file=w)
+                for line in lines:
                     print(line, file=w)
-                    break
 
-                print(line, file=w)
-
-            for line in lines:
-                print(line, file=w)
-        ui.print(f'💾 updated {self.report_file}')
+            txn.add(self.report_file)
+            ui.print(f'📜 {self.report_file}')
 
 @final
 class git_txn:
