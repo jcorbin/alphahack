@@ -34,7 +34,7 @@ def atomic_file(name: str):
 @contextmanager
 def atomic_rewrite(name: str):
     with (
-        open(name, 'r') as r,
+        open(name, 'r') as r, # TODO make empty prior empty
         atomic_file(name) as w,
     ):
         yield r, w
