@@ -385,6 +385,7 @@ class Search(StoredLog):
             'show': self.do_show,
             'prune': self.do_prune,
             'done': self.finish,
+            'reset': self.do_reset,
             'last': self.do_last,
 
             'clear': self.chat.clear_cmd,
@@ -827,6 +828,11 @@ class Search(StoredLog):
             ui.log(f'pop {"top" if top else "bot"} "{word}"')
             return i, word, mark
 
+    def do_reset(self, ui: PromptUI):
+        self.reset(ui)
+        ui.print(f'🚫 try again')
+        return self.ideate
+
     def finish(self, ui: PromptUI):
         res = self.result
         if not res:
@@ -834,9 +840,7 @@ class Search(StoredLog):
             ui.print('Provide result or say `again` to reset and try again.')
             with ui.input('Press <Enter> to 📋, or `>` for line prompt ') as tokens:
                 if tokens.have(r'again$'):
-                    self.reset(ui)
-                    ui.print(f'🚫 try again')
-                    return self.ideate
+                    return self.do_reset(ui)
                 self.result_text = ui.may_paste(tokens).strip()
                 ui.log(f'share result: {json.dumps(self.result_text)}')
             return
