@@ -2432,6 +2432,7 @@ class Search(StoredLog):
         if res.site: self.site = res.site
         if not self.puzzle_id:
             self.puzzle_id = f'#{res.puzzle_id}'
+            ui.log(f'puzzle_id: {self.puzzle_id}')
 
         cw = max(len(str(c)) for c in res.counts)
         for i, count in enumerate(reversed(res.counts), start=1):
