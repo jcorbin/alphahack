@@ -373,6 +373,7 @@ class StoredLog:
         ui.print(f'🔗 {self.site} 🧩 {self.puzzle_id} 📆 {date:%Y-%m-%d}')
 
         self.do_store(ui, date)
+        self.do_report(ui)
 
     def do_store(self, ui: PromptUI, date: datetime.date):
         with self.storing_to(ui) as txn:
