@@ -3160,3 +3160,18 @@ See log/squareword.org/#1059
 # 2024-12-25 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1089
+
+# 2024-12-25 https://wordnerd.co/wordchain
+
+```
+🤔 5 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 5 chain words
+from 'finger' to 'actor'
+⏱️ 0:11:21.340776
+```
+
+📜 0 sessions
+🫧 5 chat sessions
+⁉️ 11 chat prompts
+🤖 11 llama3.2:latest replies
