@@ -3090,3 +3090,23 @@ See log/squareword.org/#1058
 # 2024-12-24 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1088
+
+# 2024-12-24 cemantix.certitudes.org
+
+```
+🔗 cemantix.certitudes.org
+🧩 1029
+🤔 110 guesses
+    😱  1
+    🥵  6
+    😎 25
+    🥶 54
+    🧊 24
+⏱️ 0:08:06.875172
+```
+
+🤔 111 attempts
+📜 0 sessions
+🫧 3 chat sessions
+⁉️ 14 chat prompts
+🤖 14 llama3.2:latest replies
