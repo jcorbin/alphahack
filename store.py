@@ -384,7 +384,7 @@ class StoredLog:
             log_stored = False
             log_removed = False
 
-            with git_txn(f'{self.site_name or self.store_name} day {puzzle_id}') as txn:
+            with git_txn(f'{self.site_name or self.store_name} day {puzzle_id}', ui=ui) as txn:
                 self.store_extra(ui, txn)
 
                 if self.hist_file:
@@ -393,7 +393,6 @@ class StoredLog:
                         for line in self.hist_lines(ui, date):
                             print(line, file=f)
                     txn.add(self.hist_file)
-                    ui.print(f'📜 {self.hist_file}')
 
                 if self.log_file and self.storing_file:
                     ensure_parent_dir(self.storing_file)
@@ -476,7 +475,7 @@ class StoredLog:
 
         body = self.report_section()
 
-        with git_txn(f'DAILY {self.site_name or self.store_name}') as txn:
+        with git_txn(f'DAILY {self.site_name or self.store_name}', ui=ui) as txn:
             with atomic_rewrite(self.report_file) as (r, w):
                 lines = break_sections(replace_sections(r, rep), body)
 
@@ -503,18 +502,20 @@ class StoredLog:
                     print(line, file=w)
 
             txn.add(self.report_file)
-            ui.print(f'📜 {self.report_file}')
 
 @final
 class git_txn:
     added: set[str] = set()
 
-    def __init__(self, mess: str):
+    def __init__(self, mess: str, ui: PromptUI|None = None):
         self.mess = mess
+        self.ui = ui
 
     def add(self, *paths: str):
         _ = subprocess.check_call(['git', 'add', *paths])
         self.added.update(paths)
+        if self.ui:
+            self.ui.print(f'📜➕ {" ".join(paths)}')
 
     @contextmanager
     def will_add(self, *paths: str):
