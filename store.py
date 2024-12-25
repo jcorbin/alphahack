@@ -87,7 +87,7 @@ class StoredLog:
         return False
 
     def hist_body(self, _ui: PromptUI) -> Generator[str]:
-        yield f'See {self.storing_file}'
+        yield f'See {self.log_file}'
 
     def review(self, ui: PromptUI) -> PromptUI.State|None:
         with ui.input(f'> ') as tokens:
@@ -174,7 +174,6 @@ class StoredLog:
     store_dir: str = 'log/'
     hist_file: str = 'hist.md'
     log_file: str = 'unknown.log'
-    storing_file: str = ''
     ephemeral: bool = True
 
     def load_log(self, ui: PromptUI, log_file: str|None = None):
@@ -355,65 +354,68 @@ class StoredLog:
 
         date = self.today
         if date is None:
-            date = datetime.datetime.today()
+            date = datetime.datetime.today().date()
             with ui.input(f'📆 {date:%Y-%m-%d} ? ') as tokens:
                 if not tokens.empty:
                     try:
-                        date = datetime.datetime.strptime(next(tokens), '%Y-%m-%d')
+                        date = datetime.datetime.strptime(next(tokens), '%Y-%m-%d').date()
                     except ValueError:
                         ui.print('! must enter date in YYYY-MM-DD')
                         return
 
-        puzzle_id = self.puzzle_id
-
-        if not puzzle_id:
+        if not self.puzzle_id:
             default_puzzle_id = f'{date:%Y-%m-%d}'
             with ui.input(f'🧩 id (default: {default_puzzle_id}) ? ') as tokens:
                 puzzle_id = next(tokens, '')
-                if puzzle_id:
-                    ui.log(f'puzzle_id: {puzzle_id}')
-                    self.puzzle_id = puzzle_id
-                else:
-                    puzzle_id = default_puzzle_id
+                self.puzzle_id = default_puzzle_id if not puzzle_id else puzzle_id
+            ui.log(f'puzzle_id: {self.puzzle_id}')
 
-        ui.print(f'🔗 {self.site} 🧩 {puzzle_id} 📆 {date:%Y-%m-%d}')
+        ui.print(f'🔗 {self.site} 🧩 {self.puzzle_id} 📆 {date:%Y-%m-%d}')
 
-        self.storing_file = self.should_store_to or ''
+        self.do_store(ui, date)
+
+    def do_store(self, ui: PromptUI, date: datetime.date):
+        with self.storing_to(ui) as txn:
+            self.store_extra(ui, txn)
+            if self.hist_file:
+                with (
+                    txn.will_add(self.hist_file),
+                    open(self.hist_file, mode='a') as f
+                ):
+                    print('', file=f)
+                    for line in self.hist_lines(ui, date):
+                        print(line, file=f)
+
+    @contextmanager
+    def storing_to(self, ui: PromptUI):
+        store_to = self.should_store_to or ''
+        prior_log = self.log_file
+        was_stored = self.stored
+
+        self.log_file = store_to
 
         try:
-            log_stored = False
-            log_removed = False
+            with git_txn(f'{self.site_name or self.store_name} day {self.puzzle_id}', ui=ui) as txn:
+                yield txn
 
-            with git_txn(f'{self.site_name or self.store_name} day {puzzle_id}', ui=ui) as txn:
-                self.store_extra(ui, txn)
-                if self.hist_file:
-                    with (
-                        txn.will_add(self.hist_file),
-                        open(self.hist_file, mode='a') as f
-                    ):
-                        print('', file=f)
-                        for line in self.hist_lines(ui, date):
-                            print(line, file=f)
+                if prior_log and store_to:
+                    ensure_parent_dir(store_to)
+                    os.link(prior_log, store_to)
+                    txn.add(store_to)
 
-                if self.log_file and self.storing_file:
-                    ensure_parent_dir(self.storing_file)
-                    os.link(self.log_file, self.storing_file)
-                    log_stored = True
-                    txn.add(self.storing_file)
+                if was_stored:
+                    txn.rm(prior_log)
 
-                if self.stored:
-                    txn.rm(self.log_file)
-                    log_removed = True
+                if store_to in txn.added:
+                    if prior_log not in txn.removed:
+                        os.unlink(prior_log)
+                    ui.print(f'🗃️ {store_to}')
 
-            if log_stored:
-                if not log_removed:
-                    os.unlink(self.log_file)
-                self.log_file = self.storing_file
-                ui.print(f'🗃️ {self.storing_file}')
-                self.reload(ui, self.log_file)
+        except:
+            self.log_file = prior_log
+            raise
 
-        finally:
-            self.storing_file = ''
+        self.reload(ui, self.log_file)
 
     def store_extra(self, _ui: PromptUI, _txn: 'git_txn'):
         pass
