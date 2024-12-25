@@ -402,7 +402,7 @@ class StoredLog:
                     txn.add(self.storing_file)
 
                 if self.stored:
-                    _ = subprocess.check_call(['git', 'rm', self.log_file])
+                    txn.rm(self.log_file)
                     log_removed = True
 
             if log_stored:
@@ -508,6 +508,7 @@ class StoredLog:
 @final
 class git_txn:
     added: set[str] = set()
+    removed: set[str] = set()
 
     def __init__(self, mess: str, ui: PromptUI|None = None):
         self.mess = mess
@@ -515,9 +516,19 @@ class git_txn:
 
     def add(self, *paths: str):
         _ = subprocess.check_call(['git', 'add', *paths])
-        self.added.update(paths)
+        novl = set(paths).difference(self.removed)
+        self.removed.difference_update(paths)
+        self.added.update(novl)
         if self.ui:
             self.ui.print(f'📜➕ {" ".join(paths)}')
+
+    def rm(self, *paths: str):
+        _ = subprocess.check_call(['git', 'rm', *paths])
+        gone = set(paths).difference(self.added)
+        self.added.difference_update(paths)
+        self.removed.update(gone)
+        if self.ui:
+            self.ui.print(f'📜➖ {" ".join(paths)}')
 
     @contextmanager
     def will_add(self, *paths: str):
@@ -538,7 +549,7 @@ class git_txn:
         exc: BaseException | None,
         exc_tb: TracebackType | None,
     ):
-        if self.added:
+        if self.added or self.removed:
             if exc is None:
                 _ = subprocess.check_call(['git', 'commit', '-m', self.mess])
             else:
