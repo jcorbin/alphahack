@@ -386,13 +386,14 @@ class StoredLog:
 
             with git_txn(f'{self.site_name or self.store_name} day {puzzle_id}', ui=ui) as txn:
                 self.store_extra(ui, txn)
-
                 if self.hist_file:
-                    with open(self.hist_file, mode='a') as f:
+                    with (
+                        txn.will_add(self.hist_file),
+                        open(self.hist_file, mode='a') as f
+                    ):
                         print('', file=f)
                         for line in self.hist_lines(ui, date):
                             print(line, file=f)
-                    txn.add(self.hist_file)
 
                 if self.log_file and self.storing_file:
                     ensure_parent_dir(self.storing_file)
@@ -475,33 +476,34 @@ class StoredLog:
 
         body = self.report_section()
 
-        with git_txn(f'DAILY {self.site_name or self.store_name}', ui=ui) as txn:
-            with atomic_rewrite(self.report_file) as (r, w):
-                lines = break_sections(replace_sections(r, rep), body)
+        with (
+            git_txn(f'DAILY {self.site_name or self.store_name}', ui=ui) as txn,
+            txn.will_add(self.report_file),
+            atomic_rewrite(self.report_file) as (r, w)
+        ):
+            lines = break_sections(replace_sections(r, rep), body)
 
-                note = self.report_note()
-                for line in lines:
-                    if line.startswith(note_id):
-                        print(note, file=w)
-                        continue
+            note = self.report_note()
+            for line in lines:
+                if line.startswith(note_id):
+                    print(note, file=w)
+                    continue
 
-                    if not line:
-                        print(note, file=w)
-                        print(line, file=w)
-                        break
-
-                    if not line.startswith('- '):
-                        print(note, file=w)
-                        print('', file=w)
-                        print(line, file=w)
-                        break
-
+                if not line:
+                    print(note, file=w)
                     print(line, file=w)
+                    break
 
-                for line in lines:
+                if not line.startswith('- '):
+                    print(note, file=w)
+                    print('', file=w)
                     print(line, file=w)
+                    break
 
-            txn.add(self.report_file)
+                print(line, file=w)
+
+            for line in lines:
+                print(line, file=w)
 
 @final
 class git_txn:
