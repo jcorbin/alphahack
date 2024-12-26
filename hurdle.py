@@ -137,16 +137,8 @@ class Search(StoredLog):
                 $''', rest)
             if match:
                 word, rest = match.groups()
-                if rest != '':
-                    raise RuntimeError(f'wat {match.string!r} -> {rest!r}')
-                self.word = [
-                    '' if x == '_' else x.lower()
-                    for x in word
-                ]
-                if all(x for x in self.word):
-                    self.words.append(''.join(self.word))
-                    self.attempts.append(self.tried)
-                    self.tried = []
+                assert rest == ''
+                self.update_word(ui, word)
                 continue
 
             match = re.match(r'''(?x)
@@ -256,21 +248,32 @@ class Search(StoredLog):
                 return
 
             if tokens.have(r'word'):
-                lets = next(tokens, None)
-                if lets is not None:
-                    word = lets.lower()[:self.size]
-                    self.word = ['' if x == '_' else x for x in word]
-                    ui.log(f'word: {"".join(x if x else "_" for x in self.word)}')
-                    if all(x for x in self.word):
-                        word = ''.join(self.word)
-                        if word not in self.tried:
-                            self.tried.append(word)
-                        self.words.append(word)
-                        self.attempts.append(self.tried)
-                        self.tried = []
+                if not tokens.empty:
+                    self.update_word(ui, next(tokens))
                 return
 
             ui.print(f'unknown input: {tokens.raw!r}')
+
+    def update_word(self, ui: PromptUI, word: str):
+        word = word.lower()
+        for i, x in enumerate(word[:self.size]):
+            self.word[i] = '' if x == '_' else x
+
+        word = ''.join(x if x else '_' for x in self.word)
+        ui.log(f'word: {word}')
+
+        if all(x for x in self.word):
+            if word not in self.tried:
+                self.tried.append(word)
+            self.words.append(word)
+            self.attempts.append(self.tried)
+            self.reset_word()
+
+    def reset_word(self):
+        for i in range(self.size): self.word[i] = ''
+        self.tried = []
+        self.nope_letters = set()
+        self.may_letters = set()
 
     def pattern(self, _ui: PromptUI):
         alpha = set('abcdefghjiklmnopqrstuvwxyz')
