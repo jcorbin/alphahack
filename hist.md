@@ -3204,3 +3204,18 @@ See log/squareword.org/#1060
 # 2024-12-26 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1090
+
+# 2024-12-26 https://wordnerd.co/wordchain
+
+```
+🤔 2 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 2 chain words
+from 'interview' to 'friend'
+⏱️ 0:07:11.057533
+```
+
+📜 0 sessions
+🫧 2 chat sessions
+⁉️ 9 chat prompts
+🤖 9 llama3.2:latest replies

@@ -1,0 +1,153 @@
+T0.004257135995430872 now: 2024-12-26T09:31:11EST
+T0.004298129002563655 site: https://wordnerd.co/wordchain
+T0.007633151006302796 session model: llama3.2:latest
+T0.00766749499598518 system_prompt: "You are a related word suggestion oracle. When asked to connect two words, you provide a numbered list of word, each related to the next, eventually connecting the two words given by the user."
+T2.1771162429940887 first word? interview
+T3.729031392998877 last word? friend
+T7.584970399999293 ? /model
+T9.704859093006235 Select model (by name or number)> 4
+T9.70933537799283 session model: llama3.2:latest
+T10.38497280399315 ? *
+T10.385195280992775 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+T10.38537339499453 session: {"role": "system", "content": "You are a related word suggestion oracle. When asked to connect two words, you provide a numbered list of word, each related to the next, eventually connecting the two words given by the user."}
+T10.385410807997687 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"interview\" to \"friend\"."}
+T26.60761558500235 session: {"role": "assistant", "content": "Here's a series of related words that connect \"interview\" to \"friend\":\n\n1. Interview\n2. Conversation\n3. Dialogue\n4. Interact\n5. Communicate\n6. Connect\n7. Bond\n8. Relationship\n9. Friend\n\nThe connection is based on the idea that an interview can be a type of conversation, where two people interact and communicate with each other to share information or get to know one another. This interaction can eventually lead to building a relationship, which can ultimately result in becoming friends.\n\nAlternatively, here's another possible series:\n\n1. Interview\n2. Meeting\n3. Gathering\n4. Socializing\n5. Interacting\n6. Building\n7. Developing\n8. Strengthening\n9. Friendship\n\nThis connection highlights the idea that an interview can be a meeting of two people, which can lead to socializing and interacting with each other. As they continue to interact, their relationship grows stronger, eventually developing into a friendship."}
+T29.417409852001583 ? comm
+T41.32874433600227 ? intera
+T44.57699418699485 select word> 1
+T50.856821086999844 ? dia
+T54.04092180999578 📋 "dialogue" order? a
+T54.04132731699792 word: "dialogue" 1
+T58.4490323659993 ? conn
+T63.89723599900026 ? comm
+T66.40907820699795 📋 "communicate" order? a
+T66.4093347290036 word: "communicate" 2
+T67.82482011799584 ? /last
+T73.42489422200015 ? bond
+T78.83319434299483 ? conn
+T81.12887410599797 📋 "connect" order? a
+T81.12898116400174 word: "connect" 3
+T83.84088609099854 ? relat
+T87.3131164189981 📋 "relationship" order? =
+T87.31349582299299 word: "relationship" 0
+T108.8249972689955 Press <Enter> to 📋, or `>` for line prompt again
+T108.8253403169947 reset
+T110.20895014599955 ? /show
+T111.41703756499919 ? /show 1
+T132.75283217099786 ? *
+T132.75310029200045 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+
+Here's a series of 4 words that connects $A to $B:
+
+1. interview
+2. dialogue
+3. communicate
+4. connect
+5. relationship
+6. friend
+
+You'll need to do better than this, by finding a shorter and more direct connection between $A and $B.
+T132.7533776939963 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"interview\" to \"friend\".\n\nHere's a series of 4 words that connects \"interview\" to \"friend\":\n\n1. interview\n2. dialogue\n3. communicate\n4. connect\n5. relationship\n6. friend\n\nYou'll need to do better than this, by finding a shorter and more direct connection between \"interview\" and \"friend\"."}
+T145.642497326 session: {"role": "assistant", "content": "Here's another attempt at connecting the meaning of \"interview\" to \"friend\" in 5 words:\n\n1. interview\n2. mentor\n3. guide\n4. support\n5. friend\n\nThis series focuses on the idea that an interviewer may also serve as a mentor or guide, providing support and guidance to help the person navigate their career or personal journey. Over time, this mentorship can develop into a strong friendship.\n\nAlternatively, here's another possible series:\n\n1. interview\n2. panelist\n3. collaborator\n4. colleague\n5. friend\n\nThis connection highlights the idea that an interviewer may also work alongside others on a project or committee, developing a collaborative relationship with colleagues and potentially building friendships over time."}
+T150.84141453199845 ? collab
+T155.79291238400037 📋 "collaborator" order? b
+T155.79311473600683 word: "collaborator" -5
+T158.3371749460057 ? panel
+T161.52087541599758 📋 "panelist" order? =
+T161.52104729399434 word: "panelist" 0
+T176.1129891879973 Press <Enter> to 📋, or `>` for line prompt again
+T176.11315925300005 reset
+T177.79281081899535 ? /show
+T179.72887439699844 ? /show 1
+T193.8489683259977 ? *
+T193.84923895100655 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+
+Here's a series of 2 words that connects $A to $B:
+
+1. interview
+2. panelist
+3. collaborator
+4. friend
+
+You'll need to do better than this, by finding a shorter and more direct connection between $A and $B.
+T193.84948233100295 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"interview\" to \"friend\".\n\nHere's a series of 2 words that connects \"interview\" to \"friend\":\n\n1. interview\n2. panelist\n3. collaborator\n4. friend\n\nYou'll need to do better than this, by finding a shorter and more direct connection between \"interview\" and \"friend\"."}
+T200.7636518109939 session: {"role": "assistant", "content": "Here's another attempt at connecting the meaning of \"interview\" to \"friend\" in 4 words:\n\n1. interview\n2. moderator\n3. host\n4. friend\n\nThis series shows how an interviewer can also serve as a host, which is often the role of a close friend or acquaintance."}
+T206.16889683100453 ? modert
+T207.72904267300328 match word(s) to extract> 
+T208.9451791229949 ? /last
+T209.71302979899338 ? moder
+T216.93654602899915 ? host
+T240.95323394000297 ? > try again, find a single word that will connect the meaning between $A and $B
+T240.9534735280031 chat_prompt: try again, find a single word that will connect the meaning between $A and $B
+T240.95364985200285 session: {"role": "user", "content": "try again, find a single word that will connect the meaning between \"interview\" and \"friend\""}
+T247.07909059799567 session: {"role": "assistant", "content": "Here's another attempt:\n\n1. interview\n2. confidant\n\nIn this connection, a confidant is someone who is trusted with intimate information, which can also be expected from a close friend. This link shows a direct relationship between the concept of an interview (where one person shares personal or professional information) and that of a friend (who you share confidential information with)."}
+T249.34498340000573 ? conf
+T272.3130754360027 ? > try again, "confidant" is not close enough to "interview"
+T272.31344527800684 chat_prompt: try again, "confidant" is not close enough to "interview"
+T272.313633976999 session: {"role": "user", "content": "try again, \"confidant\" is not close enough to \"interview\""}
+T279.68365978699876 session: {"role": "assistant", "content": "Here's another attempt:\n\n1. interview\n2. expert\n3. mentor\n4. guide\n5. friend\n\nHowever, I can try a more direct connection:\n\n1. interview\n2. counselor \n\nIn this case, a counselor may conduct an interview as part of their job, and in the process, develop a close relationship with the client that can lead to a friendship.\n\nIf you'd like me to try again, I'll be happy to do so!"}
+T281.6810434329964 ? coun
+T312.65709276100097 ? > try again, those connection are not direct enough
+T312.6572861080058 chat_prompt: try again, those connection are not direct enough
+T312.6573968349985 session: {"role": "user", "content": "try again, those connection are not direct enough"}
+T318.51122334100364 session: {"role": "assistant", "content": "Here's another attempt:\n\n1. interview\n2. interrogate \n3. question \n4. dialogue \n5. friend \n\nIn this case, an interviewer is someone who questions and interrogates a person in order to gather information. This process can lead to a conversation, or dialogue, which can eventually develop into a friendly relationship.\n\nI hope this connection is more direct enough!"}
+T322.08905944999424 ? dia
+T332.057083659005 ? quest
+T341.14514843600045 ? interr
+T348.8649384500022 ? /clear
+T348.8651574329997 session clear
+T349.70549113099696 ? *
+T349.7058404749987 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+
+Here's a series of 2 words that connects $A to $B:
+
+1. interview
+2. panelist
+3. collaborator
+4. friend
+
+You'll need to do better than this, by finding a shorter and more direct connection between $A and $B.
+T349.70613114400476 session: {"role": "system", "content": "You are a related word suggestion oracle. When asked to connect two words, you provide a numbered list of word, each related to the next, eventually connecting the two words given by the user."}
+T349.7061700060003 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"interview\" to \"friend\".\n\nHere's a series of 2 words that connects \"interview\" to \"friend\":\n\n1. interview\n2. panelist\n3. collaborator\n4. friend\n\nYou'll need to do better than this, by finding a shorter and more direct connection between \"interview\" and \"friend\"."}
+T354.9571052399988 session: {"role": "assistant", "content": "Here's another attempt at connecting the words:\n\n1. interview (with) someone you know\n2. acquaintance\n3. buddy\n4. friend\n\nThis series is more direct and concise, showing a clearer chain of relationships from an interview to a friend."}
+T362.4649722210015 ? bud
+T368.6729557320068 ? *
+T368.673220577999 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+
+Here's a series of 2 words that connects $A to $B:
+
+1. interview
+2. panelist
+3. collaborator
+4. friend
+
+You'll need to do better than this, by finding a shorter and more direct connection between $A and $B.
+T368.67344684299314 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"interview\" to \"friend\".\n\nHere's a series of 2 words that connects \"interview\" to \"friend\":\n\n1. interview\n2. panelist\n3. collaborator\n4. friend\n\nYou'll need to do better than this, by finding a shorter and more direct connection between \"interview\" and \"friend\"."}
+T375.180704347993 session: {"role": "assistant", "content": "Here's another attempt at connecting the words:\n\n1. interview (with) someone you know\n2. confidant\n3. companion\n4. friend\n\nThis series is shorter and more direct, highlighting the transition from a conversation with someone to building a relationship that includes being a trusted friend."}
+T377.03286783900694 ? comp
+T383.2651399549941 ? *
+T383.26539775999845 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+
+Here's a series of 2 words that connects $A to $B:
+
+1. interview
+2. panelist
+3. collaborator
+4. friend
+
+You'll need to do better than this, by finding a shorter and more direct connection between $A and $B.
+T383.2656377999956 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"interview\" to \"friend\".\n\nHere's a series of 2 words that connects \"interview\" to \"friend\":\n\n1. interview\n2. panelist\n3. collaborator\n4. friend\n\nYou'll need to do better than this, by finding a shorter and more direct connection between \"interview\" and \"friend\"."}
+T391.0306754290068 session: {"role": "assistant", "content": "Here's another attempt at connecting the words:\n\n1. interview (as part of) a job or scholarship application\n2. candidate\n3. applicant\n4. friend (as someone you have gotten to know through shared experiences)\n\nThis series is shorter, more direct, and shows how an interview can eventually lead to building a friendship with someone who has become familiar through shared life events."}
+T392.0010370529926 ? cand
+T397.92109339800663 ? appli
+T403.52116090500203 ? /show
+T405.12886362000427 ? /show 1
+T410.70492392800224 ? "collaborator"
+T414.0490099960007 📋 "collaborator" order? b
+T414.0491937159968 rank 4 -7
+T417.1051336929959 ? "panelist"
+T420.73704310499306 📋 "panelist" order? =
+T420.73720488199615 rank 5 0
+T429.71301344799576 Press <Enter> to 📋, or `>` for line prompt 
+T429.71718502200383 share result: "\ud83e\udd13 I solved today's word chain using 2 added words!\n\ninterview \ud83d\udd17\ud83d\udd17 friend\n\nhttps://wordnerd.co/wordchain"
+T429.7179561719968 <STOP>
