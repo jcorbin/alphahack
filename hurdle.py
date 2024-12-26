@@ -305,20 +305,22 @@ class Search(StoredLog):
         for n, word in enumerate(words, 1):
             ui.print(f'{n}. {word}')
 
+    def tried_letters(self, word: str):
+        return(
+            (i, let)
+            for i, let in enumerate(word)
+            if let in self.may_letters
+            if any(prior[i] == let for prior in self.tried))
+
     def select(self, ui: PromptUI, topn: int):
         choices: list[tuple[float, str]] = []
 
         pattern = self.pattern(ui)
 
         for word in self.find(re.compile(pattern)):
+            if any(self.tried_letters(word)): continue
+
             score = random.random()
-
-            for i, let in enumerate(word):
-                if let not in self.may_letters: continue
-                if any(prior[i] == let for prior in self.tried): 
-                    score = 0
-                    break
-
             if score > 0:
                 lc = Counter(word)
                 n = sum(lc.values())
