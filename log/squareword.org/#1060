@@ -1,0 +1,110 @@
+T0.0001818409946281463 now: 2024-12-26T08:45:31EST
+T0.0002273419959237799 site: squareword.org
+T1.0825602219993016 📜 nwl2023.txt ? 
+T1.0826544040028239 wordlist: nwl2023.txt
+T2.9551485639967723 🧩  ? #1060
+T2.955566139004077 puzzle_id: #1060
+T4.395091894999496 > *
+T4.4876354669977445 questioning: ["rabid", "#5 found:6273 hypo:11881376"]
+T8.66721483800211 rabid ( #5 found:6273 hypo:11881376 ) ? .
+T8.667399587997352 guess: rabid
+T12.315026903001126 rabid ( #5 found:6273 hypo:11881376 ) > 1 ~ r
+T12.316074061993277 word: 0 _____
+T12.31610187300248 may: 0 r
+T15.93912078300491 rabid ( #5 found:6273 hypo:11881376 ) > 2 r____ ~ a
+T15.939451682992512 word: 1 r____
+T15.939484898990486 may: 1 a
+T19.779477624004357 rabid ( #5 found:6273 hypo:11881376 ) > 3 ~ r
+T19.779724559004535 word: 2 _____
+T19.779750340996543 may: 2 r
+T24.627358979996643 rabid ( #5 found:6273 hypo:11881376 ) > 4 ____d ~ r
+T24.62760629199329 word: 3 ____d
+T24.627630075992784 may: 3 r
+T26.970757852992392 rabid ( #5 found:6273 hypo:11881376 ) > 5 ~ r
+T26.971017427000334 word: 4 _____
+T26.971066832004 may: 4 r
+T28.603193511997233 rabid ( #5 found:6273 hypo:11881376 ) > 
+T28.60331382000004 question done
+T30.395231788003002 > /no ib
+T30.395789524001884 nope: b i
+T31.38747273599438 > *
+T31.668995129992254 questioning: ["tyred", "#4 found:82 hypo:13824"]
+T36.891562479999266 tyred ( #4 found:82 hypo:13824 ) ? .
+T36.89178542299487 guess: tyred
+T40.10708676200011 tyred ( #4 found:82 hypo:13824 ) > 1 ~ rt
+T40.10731683099584 word: 0 _____
+T40.10735157800082 may: 0 r t
+T42.459009070997126 tyred ( #4 found:82 hypo:13824 ) > 2 ~ ate
+T42.45934938399296 word: 1 r____
+T42.45938443799969 may: 1 a e t
+T49.51536298399151 tyred ( #4 found:82 hypo:13824 ) > 3 ___3_ ~ rte
+T49.515579289000016 word: 2 _____
+T49.515610289992765 may: 2 r
+T60.49146394600393 tyred ( #4 found:82 hypo:13824 ) > 3 ___e_
+T60.491704977990594 word: 2 ___e_
+T60.491739332996076 may: 2 r
+T62.9549577049911 tyred ( #4 found:82 hypo:13824 ) > 3 ~ rte
+T62.9551728929946 word: 2 ___e_
+T62.95520421900437 may: 2 e r t
+T68.36330602200178 tyred ( #4 found:82 hypo:13824 ) > 4 t__ed ~ re
+T68.3635576969973 word: 3 t__ed
+T68.36359195099794 may: 3 e r
+T75.72297759300272 tyred ( #4 found:82 hypo:13824 ) > 5 __r__~ ry
+T75.72314990399173 word: 4 __r__
+T75.72317398700397 may: 4 r y
+T81.1714028790011 tyred ( #4 found:82 hypo:13824 ) > 
+T81.17153906800377 question done
+T82.01924543800124 > *
+T82.4246899169957 questioning: ["treed", "#4 found:1 hypo:2"]
+T86.50719357200433 treed ( #4 found:1 hypo:2 ) ? .
+T86.50732811300259 guess: treed
+T88.80280896500335 treed ( #4 found:1 hypo:2 ) > 4 treed
+T88.80297503000475 word: 3 treed
+T88.80299611599185 may: 3 
+T95.09120763099054 treed ( #4 found:1 hypo:2 ) > 1 _r___
+T95.09143079600472 word: 0 _r___
+T95.09146459700423 may: 0 t
+T99.35510188499757 treed ( #4 found:1 hypo:2 ) > 
+T99.35523804399418 question done
+T100.4352291039977 > *
+T100.5763482159964 questioning: ["sorry", "#5 found:1 hypo:1152"]
+T105.52316741200048 sorry ( #5 found:1 hypo:1152 ) ? .
+T105.52328215099988 guess: sorry
+T107.45957072799501 sorry ( #5 found:1 hypo:1152 ) > 5 sorry
+T107.4598893539951 word: 4 sorry
+T107.45992131499224 may: 4 
+T112.29120571099338 sorry ( #5 found:1 hypo:1152 ) > 1 ~ tso
+T112.29142127800151 word: 0 _r___
+T112.2914434550039 may: 0 o s t
+T114.01930328199524 sorry ( #5 found:1 hypo:1152 ) > 
+T114.01944315599394 question done
+T114.62703388200316 > *
+T114.8469757349958 questioning: ["ether", "#3 found:1 hypo:144"]
+T118.18708694000088 ether ( #3 found:1 hypo:144 ) ? .
+T118.18719952799438 guess: ether
+T119.6512379689957 ether ( #3 found:1 hypo:144 ) > 3 ether
+T119.65145114799088 word: 2 ether
+T119.65147915299167 may: 2 
+T122.94720258600137 ether ( #3 found:1 hypo:144 ) > 
+T122.94731119000062 question done
+T124.34727826800372 > *
+T124.66640333700343 questioning: ["frost", "#1 found:1 hypo:144"]
+T135.1233297419967 frost ( #1 found:1 hypo:144 ) ? .
+T135.12347586000396 guess: frost
+T136.3233139369986 frost ( #1 found:1 hypo:144 ) > 1 frost
+T136.32349320099456 word: 0 frost
+T136.32351483499224 may: 0 
+T137.53131435299292 frost ( #1 found:1 hypo:144 ) > 
+T137.53146958399157 question done
+T138.53933672800486 > *
+T139.01010246599617 questioning: ["recta", "#2 found:1 hypo:144"]
+T143.0834618279914 recta ( #2 found:1 hypo:144 ) ? .
+T143.08367356300005 guess: recta
+T145.64299523399677 recta ( #2 found:1 hypo:144 ) > 2 recta
+T145.64320309399045 word: 1 recta
+T145.64323307899758 may: 1 
+T149.6594265409949 recta ( #2 found:1 hypo:144 ) > 
+T149.65958349499851 question done
+T150.93122737499652 Press <Enter> to 📋 or `>` for line prompt 
+T150.9362367319991 result: "squareword.org 1060: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1060"
+T150.9383770449931 <STOP>

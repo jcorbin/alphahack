@@ -3196,3 +3196,7 @@ from 'finger' to 'actor'
 
 🔗 alphaguess.com
 ```
+
+# 2024-12-26 squareword.org
+
+See log/squareword.org/#1060
