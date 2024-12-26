@@ -4,7 +4,7 @@ import os
 import re
 import subprocess
 from collections.abc import Generator, Iterable
-from contextlib import contextmanager
+from contextlib import contextmanager, nullcontext
 from dataclasses import dataclass
 from dateutil.parser import parse as _parse_datetime
 from dateutil.tz import gettz, tzlocal, tzoffset
@@ -388,35 +388,42 @@ class StoredLog:
                         print(line, file=f)
 
     @contextmanager
-    def storing_to(self, ui: PromptUI):
-        store_to = self.should_store_to or ''
+    def _pending_log_file(self, ui: PromptUI, filename: str):
         prior_log = self.log_file
-        was_stored = self.stored
-
-        self.log_file = store_to
-
+        self.log_file = filename
         try:
-            with git_txn(f'{self.site_name or self.store_name} day {self.puzzle_id}', ui=ui) as txn:
-                yield txn
-
-                if prior_log and store_to:
-                    ensure_parent_dir(store_to)
-                    os.link(prior_log, store_to)
-                    txn.add(store_to)
-
-                if was_stored:
-                    txn.rm(prior_log)
-
-                if store_to in txn.added:
-                    if prior_log not in txn.removed:
-                        os.unlink(prior_log)
-                    ui.print(f'🗃️ {store_to}')
-
+            yield
         except:
             self.log_file = prior_log
             raise
-
         self.reload(ui, self.log_file)
+
+    @contextmanager
+    def storing_to(self, ui: PromptUI):
+        store_to = self.should_store_to or ''
+        prior_log = self.log_file
+        if not prior_log or not store_to: return
+        was_stored = self.stored
+        with (
+            self._pending_log_file(ui, store_to),
+            git_txn(f'{self.site_name or self.store_name} day {self.puzzle_id}', ui=ui) as txn
+        ):
+            with (
+                txn.will_rm(prior_log) if was_stored else nullcontext(),
+                txn.will_add(store_to)):
+                ensure_parent_dir(store_to)
+                try:
+                    os.link(prior_log, store_to)
+                except FileExistsError:
+                    os.unlink(store_to)
+                    os.link(prior_log, store_to)
+            yield txn
+            txn.commit()
+            ui.write(f'🗃️ {store_to}')
+            if prior_log not in txn.removed:
+                os.unlink(prior_log)
+                ui.write(f' <- {prior_log}')
+            ui.fin()
 
     def store_extra(self, _ui: PromptUI, _txn: 'git_txn'):
         pass
@@ -543,6 +550,22 @@ class git_txn:
         else:
             self.add(*paths)
 
+    @contextmanager
+    def will_rm(self, *paths: str):
+        try:
+            yield
+        except:
+            _ = subprocess.check_call(['git', 'checkout', *paths])
+            raise
+        else:
+            self.rm(*paths)
+
+    def commit(self):
+        if self.added or self.removed:
+            _ = subprocess.check_call(['git', 'commit', '-m', self.mess])
+            self.added.clear()
+            self.removed.clear()
+
     def __enter__(self):
         return self
 
@@ -554,7 +577,7 @@ class git_txn:
     ):
         if self.added or self.removed:
             if exc is None:
-                _ = subprocess.check_call(['git', 'commit', '-m', self.mess])
+                self.commit()
             else:
                 _ = subprocess.check_call(['git', 'reset', '--', *self.added])
                 _ = subprocess.check_call(['git', 'restore', '-s', 'HEAD', '--', *self.added])
