@@ -3320,3 +3320,7 @@ from 'interview' to 'friend'
 
 🔗 alphaguess.com
 ```
+
+# 2024-12-27 squareword.org
+
+See log/squareword.org/#1061

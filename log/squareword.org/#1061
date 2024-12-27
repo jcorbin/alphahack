@@ -1,0 +1,121 @@
+T0.0001613770000403747 now: 2024-12-27T10:22:57EST
+T0.00020309799947426654 site: squareword.org
+T0.7683929590002663 📜 nwl2023.txt ? 
+T0.768544534999819 wordlist: nwl2023.txt
+T3.799789681999755 🧩  ? #1061
+T3.8000958869997703 puzzle_id: #1061
+T10.203393652000159 > *
+T10.293057453000074 questioning: ["orcin", "#5 found:5516 hypo:11881376"]
+T16.0783613399999 orcin ( #5 found:5516 hypo:11881376 ) ? 1 ~ c
+T16.07943182099916 guess: orcin
+T16.079573835999327 word: 0 _____
+T16.07959092800047 may: 0 c
+T17.883730895000554 orcin ( #5 found:5516 hypo:11881376 ) > 2 ~ o
+T17.88396650300092 word: 1 _____
+T17.8839896770005 may: 1 o
+T20.180021181000484 orcin ( #5 found:5516 hypo:11881376 ) > 3 ~ in
+T20.180371632999595 word: 2 _____
+T20.1804173849996 may: 2 i n
+T21.78682107500026 orcin ( #5 found:5516 hypo:11881376 ) > 4 ~ r
+T21.78705344899936 word: 3 _____
+T21.78707619799934 may: 3 r
+T23.5858580109998 orcin ( #5 found:5516 hypo:11881376 ) > 5 ~ ra
+T23.58607805199972 word: 4 _____
+T23.586110751000888 may: 4 a r
+T26.359780427999794 orcin ( #5 found:5516 hypo:11881376 ) > 5 ~ ri
+T26.359995561999312 word: 4 _____
+T26.36001812900031 may: 4 i r
+T29.531550265999613 orcin ( #5 found:5516 hypo:11881376 ) > *
+T31.834543028000553 orcin ( #5 found:5516 hypo:11881376 ) > *
+T33.123892298999635 orcin ( #5 found:5516 hypo:11881376 ) > *
+T33.991555340999184 orcin ( #5 found:5516 hypo:11881376 ) > 
+T33.991652021000846 question done
+T34.70867457500026 > *
+T34.98629410099966 questioning: ["naive", "#3 found:366 hypo:35152"]
+T38.85887116699996 naive ( #3 found:366 hypo:35152 ) ? .
+T38.859092266000516 guess: naive
+T40.376967664000404 naive ( #3 found:366 hypo:35152 ) > 3 naive
+T40.377175960000386 word: 2 naive
+T40.37719673200081 may: 2 
+T45.29887179300022 naive ( #3 found:366 hypo:35152 ) > 1 ____e ~ ca
+T45.29916618599964 word: 0 ____e
+T45.29919299100038 may: 0 a c
+T48.55083001700041 naive ( #3 found:366 hypo:35152 ) > 2 ~ oa
+T48.551074560000416 word: 1 _____
+T48.55109830999936 may: 1 a o
+T50.97168195800077 naive ( #3 found:366 hypo:35152 ) > 4 ~ re
+T50.97191954099981 word: 3 _____
+T50.97194153199962 may: 3 e r
+T57.3771300669996 naive ( #3 found:366 hypo:35152 ) > 5 _ai__ ~ r
+T57.377374233999944 word: 4 _ai__
+T57.37739877999957 may: 4 r
+T58.939237902999594 naive ( #3 found:366 hypo:35152 ) > 
+T58.93939174600018 question done
+T59.47235104699939 > *
+T59.899176467999496 questioning: ["pairs", "#5 found:12 hypo:676"]
+T63.65042949400049 pairs ( #5 found:12 hypo:676 ) ? .
+T63.65056961600021 guess: pairs
+T66.64120591699975 pairs ( #5 found:12 hypo:676 ) > 5 _airs
+T66.64148033399943 word: 4 _airs
+T66.64150547399913 may: 4 
+T73.05128959099966 pairs ( #5 found:12 hypo:676 ) > 1 p___e
+T73.05142361700018 word: 0 p___e
+T73.05143384999974 may: 0 a c
+T74.05375099999947 pairs ( #5 found:12 hypo:676 ) > 
+T74.05386580199956 question done
+T74.60831457399945 > *
+T74.82473971000036 questioning: ["place", "#1 found:1 hypo:52"]
+T79.64882841600047 place ( #1 found:1 hypo:52 ) ? .
+T79.6489849619993 guess: place
+T81.2376321039992 place ( #1 found:1 hypo:52 ) > 1 place
+T81.23787345600067 word: 0 place
+T81.23790211300002 may: 0 
+T85.7741505009999 place ( #1 found:1 hypo:52 ) > 2 _l___ ~ oal
+T85.77454371000022 word: 1 _l___
+T85.7745782990005 may: 1 a l o
+T89.54323099599969 place ( #1 found:1 hypo:52 ) > 5 ~ l
+T89.54348241200023 word: 4 _airs
+T89.54350590899958 may: 4 l
+T120.58136416799971 place ( #1 found:1 hypo:52 ) > 
+T120.58150107700021 question done
+T121.15924961400015 > *
+T121.38922582399937 questioning: ["lairs", "#5 found:1 hypo:1"]
+T125.11599957600083 lairs ( #5 found:1 hypo:1 ) ? .
+T125.11612577500091 guess: lairs
+T126.68941843900029 lairs ( #5 found:1 hypo:1 ) > 5 lairs
+T126.68966677199933 word: 4 lairs
+T126.68969351099986 may: 4 
+T130.78101220399913 lairs ( #5 found:1 hypo:1 ) > 
+T130.7811501870001 question done
+T131.3979430290001 > *
+T131.44455066800037 questioning: ["alloy", "#2 found:2 hypo:156"]
+T136.86394831399957 alloy ( #2 found:2 hypo:156 ) ? .
+T136.8640887900001 guess: alloy
+T138.7685576870008 alloy ( #2 found:2 hypo:156 ) > 2 allo_
+T138.76879797100082 word: 1 allo_
+T138.76886788100092 may: 1 
+T144.1112786520007 alloy ( #2 found:2 hypo:156 ) > 
+T144.1114142030001 question done
+T145.51870608299942 > /no y
+T145.51922357699914 nope: y
+T146.36204756500047 > *
+T147.15618392299984 questioning: ["allow", "#2 found:1 hypo:25"]
+T149.88482476399986 allow ( #2 found:1 hypo:25 ) ? .
+T149.88500399700024 guess: allow
+T151.07534766500066 allow ( #2 found:1 hypo:25 ) > 2 allow
+T151.07553536399973 word: 1 allow
+T151.07555525899988 may: 1 
+T152.84275054499994 allow ( #2 found:1 hypo:25 ) > 
+T152.84284980700068 question done
+T153.40836296899943 > *
+T153.96563441599938 questioning: ["ember", "#4 found:1 hypo:31250"]
+T157.59210532900033 ember ( #4 found:1 hypo:31250 ) ? .
+T157.5922766650001 guess: ember
+T158.96927547199994 ember ( #4 found:1 hypo:31250 ) > 4 ember
+T158.96954201900007 word: 3 ember
+T158.96956891800073 may: 3 
+T165.20034494799984 ember ( #4 found:1 hypo:31250 ) > 
+T165.20049628699962 question done
+T165.61898783300057 Press <Enter> to 📋 or `>` for line prompt 
+T165.62390498700006 result: "squareword.org 1061: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1061"
+T165.62492210299934 <STOP>
