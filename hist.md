@@ -3328,3 +3328,18 @@ See log/squareword.org/#1061
 # 2024-12-27 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1091
+
+# 2024-12-27 https://wordnerd.co/wordchain
+
+```
+🤔 14 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 14 chain words
+from 'interaction' to 'boy'
+⏱️ 0:17:11.205096
+```
+
+📜 0 sessions
+🫧 1 chat sessions
+⁉️ 13 chat prompts
+🤖 13 llama3.2:latest replies

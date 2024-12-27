@@ -1,0 +1,175 @@
+T0.004283440999643062 now: 2024-12-27T10:39:19EST
+T0.004325755999161629 site: https://wordnerd.co/wordchain
+T0.008219425999413943 session model: llama3.2:latest
+T0.008238434998929733 system_prompt: "You are a related word suggestion oracle. When asked to connect two words, you provide a numbered list of word, each related to the next, eventually connecting the two words given by the user."
+T2.730997489999936 first word? interaction
+T3.9491338099996938 last word? boy
+T4.586332222999772 ? *
+T4.586522251998758 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+T4.586676055998396 session: {"role": "system", "content": "You are a related word suggestion oracle. When asked to connect two words, you provide a numbered list of word, each related to the next, eventually connecting the two words given by the user."}
+T4.58671034299914 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"interaction\" to \"boy\"."}
+T13.181344874999922 session: {"role": "assistant", "content": "Here's a series of connected words:\n\n1. Interaction\n2. Communication\n3. Dialogue\n4. Conversation\n5. Talk\n6. Person\n7. Boy\n\nEach word builds upon the previous one, ultimately leading to the concept of a boy (the physical person). Let me know if you'd like me to elaborate on any of these steps!"}
+T94.86198052099826 ? tal
+T101.25100633299917 📋 "talk" order? a
+T101.25141120399894 word: "talk" 1
+T103.94770178099861 ? pers
+T107.51285264699982 📋 "person" order? 
+T111.85226885599877 ? *
+T111.85242327199921 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+T111.85256243499862 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"talk\" to \"boy\"."}
+T119.80104162199859 session: {"role": "assistant", "content": "Here's a series of connected words:\n\n1. Talk\n2. Speech\n3. Verbalize\n4. Express\n5. Feel\n6. Emotion\n7. Boy (as in, an emotional state or trait often associated with boys)\n\nHowever, if you'd like a more literal connection to the word \"boy\", I can try again:\n\n1. Talk\n2. Interview\n3. Question\n4. Male\n5. Man\n6. Adult\n7. Boy\n\nLet me know if either of these series meet your requirements!"}
+T220.64942748999965 ? exp
+T224.0181693809991 📋 "express" order? verb
+T226.68810461199973 ? verb
+T228.70592920799936 📋 "verbalize" order? a
+T228.7060894319984 word: "verbalize" 2
+T229.49700272599875 ? *
+T229.49731317399892 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+T229.4974893819999 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"verbalize\" to \"boy\"."}
+T234.16780630999892 session: {"role": "assistant", "content": "Here's a series of connected words:\n\n1. Verbalize\n2. Communicate\n3. Express\n4. Speak\n5. Voice\n6. Young\n7. Boy\n\nEach word builds upon the concept of expressing oneself through speech, ultimately leading to the idea of a young boy."}
+T237.04328126199835 ? voice
+T240.19138110999847 📋 "voice" order? you
+T244.9348570179991 📋 "voice" order? a
+T244.93501584499973 word: "voice" 3
+T246.4325240879989 ? you
+T248.73600920499848 📋 "young" order? b
+T248.7361820089991 word: "young" -4
+T251.98483985899838 ? *
+T251.98502691199974 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+T251.98516551099965 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"voice\" to \"young\"."}
+T256.7962612309984 session: {"role": "assistant", "content": "Here's a series of connected words:\n\n1. Voice\n2. Speaking\n3. Talk\n4. Younger\n5. Youth\n6. Adolescent\n7. Boy\n\nEach word builds upon the concept of sound or vocal expression, ultimately leading to the idea of youth and then specifically a young boy."}
+T271.9149972129999 ? > try again, avoid going back through "talk"
+T271.91528101699987 chat_prompt: try again, avoid going back through "talk"
+T271.91544660899854 session: {"role": "user", "content": "try again, avoid going back through \"talk\""}
+T275.9997978429983 session: {"role": "assistant", "content": "Here's another series of connected words:\n\n1. Voice\n2. Speaker\n3. Person\n4. Individual\n5. Child\n6. Young\n\nEach word builds upon the concept of sound or vocal expression, ultimately leading to the idea of a young person."}
+T292.2880142209997 ? pers
+T295.5120963019999 📋 "person" order? spea
+T298.4396596029983 ? spea
+T300.41611779199957 📋 "speaker" order? a
+T300.41629076499885 word: "speaker" 5
+T302.21928035899873 ? ind
+T304.7882109229995 📋 "individual" order? pers
+T309.04955391599833 ? pers
+T314.63940646399897 ? /last
+T319.257161264999 ? *
+T319.25734264899984 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+T319.25747891899846 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"speaker\" to \"young\"."}
+T323.2207050429988 session: {"role": "assistant", "content": "Here's a series of connected words:\n\n1. Speaker\n2. Public\n3. Audience\n4. Children\n5. Youth\n\nEach word builds upon the concept of a speaker addressing an audience, ultimately leading to the idea of youth."}
+T359.87651058199845 ? aud
+T361.9792147549997 📋 "audience" order? a
+T361.9793719909994 word: "audience" 6
+T364.21892044999913 ? /last
+T368.5296899199984 ? you
+T371.69152182299877 📋 "youth" order? b
+T371.69173062499976 word: "youth" -7
+T372.70516703299836 ? chil
+T374.3021128469991 📋 "children" order? b
+T374.30236552399947 word: "children" -8
+T376.43332300199836 ? *
+T376.43350953299887 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+T376.43369512199934 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"audience\" to \"children\"."}
+T380.6599473469996 session: {"role": "assistant", "content": "Here's a series of connected words:\n\n1. Audience\n2. Crowd\n3. Family\n4. Parents\n5. Children\n\nEach word builds upon the concept of an audience, ultimately leading to the idea of children being part of that group."}
+T532.3535574130001 ? fam
+T534.7354452319996 📋 "family" order? b
+T534.7356163019977 word: "family" -9
+T537.0849504519974 ? crow
+T539.8215494840006 📋 "crowd" order? a
+T539.8217188630006 word: "crowd" 10
+T542.4186129129994 ? *
+T542.4188740690006 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+T542.419050706998 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"crowd\" to \"family\"."}
+T547.0043479769993 session: {"role": "assistant", "content": "Here's a series of connected words:\n\n1. Crowd\n2. Gathering\n3. Party\n4. Celebration\n5. Household\n6. Family\n\nEach word builds upon the concept of a crowd, ultimately leading to the idea of a family as a kind of household unit."}
+T552.0783388390009 ? part
+T554.1624343109979 📋 "party" order? a
+T554.1626766009977 word: "party" 11
+T557.7815934600003 ? hou
+T560.0419974100005 📋 "household" order? b
+T560.0421847549987 word: "household" -12
+T561.0642746269987 ? cel
+T563.5948676629996 📋 "celebration" order? a
+T563.5949614519996 word: "celebration" 13
+T564.2946059290007 ? *
+T564.2947760469979 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+T564.2949232009996 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"celebration\" to \"household\"."}
+T569.0217365379976 session: {"role": "assistant", "content": "Here's a series of connected words:\n\n1. Celebration\n2. Party\n3. Home\n4. Residence\n5. Dwelling\n6. Household\n\nEach word builds upon the concept of celebration, ultimately leading to the idea of a household as a place of dwelling and gathering."}
+T606.9664469540003 ? hoem
+T611.229624861 ? home
+T613.943644351999 📋 "home" order? b
+T613.9438618299973 word: "home" -14
+T618.6004530729988 ? *
+T618.6008305159994 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+T618.6009923370002 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"celebration\" to \"home\"."}
+T623.5959476019998 session: {"role": "assistant", "content": "Here's a series of connected words:\n\n1. Celebration\n2. Party\n3. Guest\n4. Host\n5. Home\n6. Residence\n\nEach word builds upon the concept of celebration, ultimately leading to the idea of home as a place where one receives or hosts guests and celebrates special occasions."}
+T628.6099776129995 ? > try agian, avoid using "party"
+T628.6102329860005 chat_prompt: try agian, avoid using "party"
+T628.6104351869981 session: {"role": "user", "content": "try agian, avoid using \"party\""}
+T633.2233978299992 session: {"role": "assistant", "content": "Here's another series of connected words:\n\n1. Celebration\n2. Special occasion\n3. Host\n4. Home\n5. Residence\n6. House\n\nEach word builds upon the concept of celebration, ultimately leading to the idea of a home as a place where special occasions are often marked."}
+T653.6856329399998 ? > try again, use only single word items
+T653.6858298009975 chat_prompt: try again, use only single word items
+T653.6859363449985 session: {"role": "user", "content": "try again, use only single word items"}
+T657.9624679769986 session: {"role": "assistant", "content": "Here's another series of connected words:\n\n1. Celebration\n2. Gathering\n3. Event\n4. Venue\n5. House\n6. Home\n\nEach word builds upon the concept of celebration, ultimately leading to the idea of home as a place or location."}
+T661.4862168519976 ? even
+T663.4715871230001 📋 "event" order? a
+T663.4717425339986 word: "event" 15
+T669.3675468429974 ? house
+T671.2717960219998 📋 "house" order? b
+T671.2720367619986 word: "house" -16
+T672.6086176099998 ? ven
+T674.4226697179984 📋 "venue" order? a
+T674.4228415519974 word: "venue" 17
+T677.1555177720002 ? *
+T677.1557341909975 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+T677.1559105429988 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"venue\" to \"house\"."}
+T681.9957505489983 session: {"role": "assistant", "content": "Here's a series of connected words:\n\n1. Venue\n2. Location\n3. Building\n4. Structure\n5. Dwelling\n6. House\n\nEach word builds upon the concept of venue, ultimately leading to the idea of a house as a type of dwelling or structure."}
+T948.5169210669992 ? /reset
+T948.5173502709986 reset
+T972.2457467530003 ? "talk"
+T972.7858998769989 📋 "talk" order? a
+T972.7861351459978 rank 0 18
+T975.3425073180006 ? "verbalize"
+T975.7654806809987 📋 "verbalize" order? a
+T975.7657258779982 rank 1 18
+T977.9355944659983 ? "voice"
+T979.7708228539996 📋 "voice" order? a
+T979.7709860709983 rank 2 18
+T982.1689384870006 ? "speaker"
+T982.8765867199982 📋 "speaker" order? a
+T982.8767978260003 rank 4 18
+T985.9949027719995 ? "audience"
+T986.5230882139986 📋 "audience" order? a
+T986.5231816710002 rank 5 18
+T989.4888791929989 ? "crowd"
+T989.9287597090006 📋 "crowd" order? a
+T989.9289488369977 rank 9 18
+T991.7035895679983 ? "young"
+T992.1942809739994 📋 "young" order? b
+T992.1944678079999 rank 3 -18
+T994.5212263129979 ? "youth"
+T995.279846958998 📋 "youth" order? b
+T995.2800226599975 rank 6 -18
+T997.1559560399983 ? "children"
+T997.5482472919975 📋 "children" order? b
+T997.5484009859974 rank 7 -18
+T1000.6979590730007 ? "family"
+T1001.2196574150003 📋 "family" order? b
+T1001.2198227529989 rank 8 -18
+T1004.7463052380008 ? "household"
+T1005.0819945910007 📋 "household" order? b
+T1005.0821583500001 rank 11 -18
+T1006.7707227969986 ? "home"
+T1007.1781531119996 📋 "home" order? b
+T1007.1784451319982 rank 13 -18
+T1013.8765654279996 ? "party"
+T1014.2755771979973 📋 "party" order? a
+T1014.2757485279981 rank 10 18
+T1016.5891860560005 ? "house"
+T1017.1421111239979 📋 "house" order? a
+T1017.1422628260007 rank 15 18
+T1022.6279400109997 ? /prune top
+T1022.6283310660001 pop top "house"
+T1026.1377021769986 ? "house"
+T1026.606780219001 📋 "house" order? =
+T1026.607014358 rank 15 0
+T1030.5437573849995 Press <Enter> to 📋, or `>` for line prompt 
+T1030.5493690750009 share result: "\ud83e\udd13 I solved today's word chain using 14 added words!\n\ninteraction \ud83d\udd17\ud83d\udd17\ud83d\udd17\ud83d\udd17\ud83d\udd17\ud83d\udd17\ud83d\udd17\ud83d\udd17\ud83d\udd17\ud83d\udd17\ud83d\udd17\ud83d\udd17\ud83d\udd17\ud83d\udd17 boy\n\nhttps://wordnerd.co/wordchain"
+T1030.5506820459996 <STOP>
