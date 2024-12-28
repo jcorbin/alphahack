@@ -1,0 +1,193 @@
+T0.00012551500003610272 now: 2024-12-28T11:59:45EST
+T0.00016520400004083058 site: squareword.org
+T9.054049531000146 🧩  ? #1062
+T9.054354955999997 puzzle_id: #1062
+T11.112409987000092 > 
+T26.14224047100015 > *
+T26.228195050000068 questioning: ["pyran", "#5 found:6202 hypo:11881376"]
+T31.1338739480002 pyran ( #5 found:6202 hypo:11881376 ) ? 
+T32.15829538600019 pyran ( #5 found:6202 hypo:11881376 ) > 
+T34.581832776000056 pyran ( #5 found:6202 hypo:11881376 ) 1> ~ a
+T34.58287761500014 word: 0 _____
+T34.58290423900007 may: 0 a
+T36.12204929800009 pyran ( #5 found:6202 hypo:11881376 ) 1> ~ r
+T36.12237825200009 word: 0 _____
+T36.12241146800011 may: 0 r
+T39.816625436000095 pyran ( #5 found:6202 hypo:11881376 ) 1> ~ a
+T39.816849362000085 word: 0 _____
+T39.816870403000166 may: 0 a
+T40.99225888299998 pyran ( #5 found:6202 hypo:11881376 ) 1> 
+T42.874210145999996 pyran ( #5 found:6202 hypo:11881376 ) 2> ~ r
+T42.87439385400012 word: 1 _____
+T42.874412424000184 may: 1 r
+T43.95269538100001 pyran ( #5 found:6202 hypo:11881376 ) 2> 
+T45.274503459000016 pyran ( #5 found:6202 hypo:11881376 ) 3> ~ ra
+T45.27472478499999 word: 2 _____
+T45.27474612600008 may: 2 a r
+T46.432897309000055 pyran ( #5 found:6202 hypo:11881376 ) 3> 
+T47.74546918100009 pyran ( #5 found:6202 hypo:11881376 ) 4> ~ n
+T47.7456889460002 word: 3 _____
+T47.74570821900011 may: 3 n
+T49.57862804500019 pyran ( #5 found:6202 hypo:11881376 ) 4> 
+T51.756996555000114 pyran ( #5 found:6202 hypo:11881376 ) 5> __r__
+T51.757272865999994 word: 4 __r__
+T51.75730118199999 may: 4 
+T53.057349595000005 pyran ( #5 found:6202 hypo:11881376 ) 5> 
+T53.05746358900001 question done
+T55.1823832890002 > /no yp
+T55.18284147500003 nope: p y
+T61.79646194100019 > *
+T62.17846152900006 questioning: ["cords", "#5 found:133 hypo:331776"]
+T65.8219765140002 cords ( #5 found:133 hypo:331776 ) ? 
+T69.45857506400012 cords ( #5 found:133 hypo:331776 ) > 
+T71.89663928800019 cords ( #5 found:133 hypo:331776 ) 1> ~ acs
+T71.89689611600011 word: 0 _____
+T71.8969256270002 may: 0 a c s
+T72.66440337600011 cords ( #5 found:133 hypo:331776 ) 1> 
+T74.52976233000004 cords ( #5 found:133 hypo:331776 ) 2> ~ rod
+T74.52994579200003 word: 1 _____
+T74.52997374400002 may: 1 d o r
+T76.24030699900004 cords ( #5 found:133 hypo:331776 ) 2> 
+T78.85464492699998 cords ( #5 found:133 hypo:331776 ) 3> ~ raod
+T78.85484072899999 word: 2 _____
+T78.85486769600016 may: 2 a d o r
+T80.90008324600012 cords ( #5 found:133 hypo:331776 ) 3> 
+T85.93246924599998 cords ( #5 found:133 hypo:331776 ) 4> ____s ~ n
+T85.93273100100009 word: 3 ____s
+T85.93275377400005 may: 3 n
+T87.72551337499999 cords ( #5 found:133 hypo:331776 ) 4> 
+T92.12603941700013 cords ( #5 found:133 hypo:331776 ) 5> ~ ss
+T92.12629114100014 word: 4 __r__
+T92.12631691800016 may: 4 s
+T94.78749766600004 cords ( #5 found:133 hypo:331776 ) 5> 
+T94.78763892500001 question done
+T96.57452442700014 <INT>
+T0.0015518740001425613 now: 2024-12-28T12:15:11EST
+T5.161815335000028 > *
+T5.7053777390001414 questioning: ["radon", "#3 found:15 hypo:576"]
+T8.907024559000092 radon ( #3 found:15 hypo:576 ) ? 
+T16.002063748000182 radon ( #3 found:15 hypo:576 ) > 
+T20.75688084600006 radon ( #3 found:15 hypo:576 ) 1> 
+T25.295419479999964 radon ( #3 found:15 hypo:576 ) 1> __d__
+T25.296343464000074 word: 0 __d__
+T25.296372669999982 may: 0 a c s
+T29.950760680999792 radon ( #3 found:15 hypo:576 ) 2> 1
+T34.07915859400009 radon ( #3 found:15 hypo:576 ) 1> _____ 
+T34.07936689100006 word: 0 _____
+T34.07939356599991 may: 0 a c s
+T40.396962308000184 radon ( #3 found:15 hypo:576 ) 2> __d__ 
+T40.397168026000145 word: 1 __d__
+T40.39719176100016 may: 1 o r
+T45.067265548999785 radon ( #3 found:15 hypo:576 ) 3> rad__
+T45.067482004999874 word: 2 rad__
+T45.067505054999856 may: 2 o
+T54.28195163500004 radon ( #3 found:15 hypo:576 ) 4> 
+T55.53026118900016 radon ( #3 found:15 hypo:576 ) 4> 
+T56.22821927599989 radon ( #3 found:15 hypo:576 ) 4> 
+T56.73570837599982 radon ( #3 found:15 hypo:576 ) 4> 
+T56.9080584620001 radon ( #3 found:15 hypo:576 ) 4> 
+T57.20597673100019 radon ( #3 found:15 hypo:576 ) 4> 
+T57.387438870000096 radon ( #3 found:15 hypo:576 ) 4> 
+T57.55672040499985 radon ( #3 found:15 hypo:576 ) 4> 
+T57.72922642599997 radon ( #3 found:15 hypo:576 ) 4> 
+T57.89576544700003 radon ( #3 found:15 hypo:576 ) 4> 
+T59.24902597299979 radon ( #3 found:15 hypo:576 ) 4> 
+T59.42738277699982 radon ( #3 found:15 hypo:576 ) 4> 
+T59.5722008759999 radon ( #3 found:15 hypo:576 ) 4> 
+T61.237462037000114 radon ( #3 found:15 hypo:576 ) 4> 
+T61.407209341 radon ( #3 found:15 hypo:576 ) 4> 
+T61.57317591899982 radon ( #3 found:15 hypo:576 ) 4> 
+T61.755388248000145 radon ( #3 found:15 hypo:576 ) 4> 
+T152.7871787449999 question done
+T153.79657449700017 <INT>
+T0.00187394900012805 now: 2024-12-28T12:17:46EST
+T0.737578282999948 > 
+T1.5375748999999814 > 
+T1.6946553709999534 > 
+T2.6119612279999274 > 
+T2.7468854740000097 > 
+T13.010947750000014 > *
+T13.540354363000006 questioning: ["radon", "#3 found:2 hypo:24"]
+T16.254286468999908 radon ( #3 found:2 hypo:24 ) ? 
+T18.217187257000205 question done
+T18.981784635000167 > *
+T18.98824100799993 questioning: ["radon", "#3 found:2 hypo:24"]
+T20.160022403000312 radon ( #3 found:2 hypo:24 ) ? !
+T20.16018828999995 reject: radon
+T21.170633090000138 > *
+T21.18023092400017 questioning: ["radio", "#3 found:1 hypo:24"]
+T26.71087333000014 radio ( #3 found:1 hypo:24 ) ? 
+T32.301562644000114 radio ( #3 found:1 hypo:24 ) > 
+T33.90480511500027 radio ( #3 found:1 hypo:24 ) 1> 
+T36.84554707699999 radio ( #3 found:1 hypo:24 ) 2> 
+T43.021916949000115 radio ( #3 found:1 hypo:24 ) 3> radio
+T43.022704458000135 word: 2 radio
+T43.02273362400001 may: 2 
+T45.84453190500017 radio ( #3 found:1 hypo:24 ) 4> 
+T47.44652818900022 radio ( #3 found:1 hypo:24 ) 5> 
+T47.446646265000254 question done
+T48.23985831600021 > *
+T48.33743058400023 questioning: ["older", "#2 found:5 hypo:1152"]
+T52.527513436999925 older ( #2 found:5 hypo:1152 ) ? 
+T54.15975493899987 older ( #2 found:5 hypo:1152 ) > 
+T56.51335817300014 older ( #2 found:5 hypo:1152 ) 1> 
+T61.32436515800009 older ( #2 found:5 hypo:1152 ) 2> o_der ~ r
+T61.324959989000035 word: 1 o_der
+T61.32499207000001 may: 1 r
+T63.645966641000086 older ( #2 found:5 hypo:1152 ) 3> 
+T69.76869153000007 older ( #2 found:5 hypo:1152 ) 4> ~ ne
+T69.76950383500025 word: 3 ____s
+T69.76955185599991 may: 3 e n
+T73.37483413500013 older ( #2 found:5 hypo:1152 ) 5> ~ se
+T73.37509743500004 word: 4 __r__
+T73.37512345799996 may: 4 e s
+T73.37514777500019 question done
+T89.5228826460002 > 
+T91.01130334100026 > *
+T91.29763230400022 questioning: ["order", "#2 found:1 hypo:1"]
+T95.59220554500007 order ( #2 found:1 hypo:1 ) ? 
+T97.29442015900031 order ( #2 found:1 hypo:1 ) > 2 order
+T97.29470440600016 word: 1 order
+T97.29473652700017 may: 1 
+T102.22622614300008 question done
+T105.62286645699987 > /no l
+T105.62347588900002 nope: l p y
+T107.28043181800012 > *
+T107.75250839099999 questioning: ["scare", "#1 found:4 hypo:3174"]
+T111.77498495999998 scare ( #1 found:4 hypo:3174 ) ? 
+T113.22272937200023 scare ( #1 found:4 hypo:3174 ) > 
+T117.11626240400028 scare ( #1 found:4 hypo:3174 ) 1> sc___
+T117.11646571200026 word: 0 sc___
+T117.1164938259999 may: 0 a
+T120.1860243189999 scare ( #1 found:4 hypo:3174 ) 2> 
+T120.37707826799988 scare ( #1 found:4 hypo:3174 ) 3> 
+T122.19612823600028 scare ( #1 found:4 hypo:3174 ) 4> 
+T126.44380596600013 scare ( #1 found:4 hypo:3174 ) 5> s_r_e ~ e
+T126.44408821600018 word: 4 s_r_e
+T126.44411772800004 may: 4 e
+T126.44414251300032 question done
+T128.60057515000017 > *
+T129.36195539200025 questioning: ["serge", "#5 found:1 hypo:23"]
+T135.18687410400025 serge ( #5 found:1 hypo:23 ) ? 
+T139.37099437000006 serge ( #5 found:1 hypo:23 ) > 5 serge
+T139.371256508 word: 4 serge
+T139.3712822790003 may: 4 
+T139.3713071289999 question done
+T141.3078294400002 > *
+T141.8787722070001 questioning: ["scuba", "#1 found:1 hypo:529"]
+T146.3156341439999 scuba ( #1 found:1 hypo:529 ) ? 
+T147.83967733600002 scuba ( #1 found:1 hypo:529 ) > 
+T149.14235326000016 scuba ( #1 found:1 hypo:529 ) 1> scuba
+T149.1426718820003 word: 0 scuba
+T149.14272053700006 may: 0 
+T151.61209946400004 question done
+T152.70391925100012 > *
+T153.14486995100015 questioning: ["evens", "#4 found:2 hypo:1058"]
+T156.34037400200032 evens ( #4 found:2 hypo:1058 ) ? 
+T158.07997018000015 evens ( #4 found:2 hypo:1058 ) > 4 evens
+T158.08026699499987 word: 3 evens
+T158.08030423299988 may: 3 
+T161.3783587070002 question done
+T165.42913221400022 Press <Enter> to 📋 or `>` for line prompt 
+T165.43625616000008 result: "squareword.org 1062: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1062"
+T165.43731591799997 <STOP>
