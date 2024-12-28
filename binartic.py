@@ -351,95 +351,97 @@ class Search(StoredLog):
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
         for t, rest in super().load(ui, lines):
+            orig_rest = rest
+            with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
 
-            match = re.match(r'''(?x)
-                loaded \s+ (?P<loaded> \d+ )
-                \s+ words \s+ from
-                \s+ (?P<file> [^\s]+ )
-                \s+ (?P<sig> [^\s]+ )
-                (?: \s* \( \s* (?P<excluded> \d+ ) \s+ words \s+ excluded \s* \) )?
-                (?: \s+ asof \s+ (?P<asof> [^\s]+ ) )?
-                \s* ( .* ) $''', rest)
-            if match:
-                cs, file, sig, es, asof, rest = match.groups()
-                assert rest == ''
-                count = int(cs)
-                excluded = None if not es else int(es)
+                match = re.match(r'''(?x)
+                    loaded \s+ (?P<loaded> \d+ )
+                    \s+ words \s+ from
+                    \s+ (?P<file> [^\s]+ )
+                    \s+ (?P<sig> [^\s]+ )
+                    (?: \s* \( \s* (?P<excluded> \d+ ) \s+ words \s+ excluded \s* \) )?
+                    (?: \s+ asof \s+ (?P<asof> [^\s]+ ) )?
+                    \s* ( .* ) $''', rest)
+                if match:
+                    cs, file, sig, es, asof, rest = match.groups()
+                    assert rest == ''
+                    count = int(cs)
+                    excluded = None if not es else int(es)
 
-                if not asof:
-                    log_added = self.stored and whatadded(self.log_file)
-                    if log_added:
-                        asof = f'{log_added}^'
+                    if not asof:
+                        log_added = self.stored and whatadded(self.log_file)
+                        if log_added:
+                            asof = f'{log_added}^'
 
-                wordlist = WordList(file, asof=asof)
-                try:
-                    wordlist.validate(sig, count, excluded)
-                except ValueError as e:
-                    raise RuntimeError(f'invalid wordlist: {e}')
-                self.set_wordlist(ui, wordlist)
-                continue
+                    wordlist = WordList(file, asof=asof)
+                    try:
+                        wordlist.validate(sig, count, excluded)
+                    except ValueError as e:
+                        raise RuntimeError(f'invalid wordlist: {e}')
+                    self.set_wordlist(ui, wordlist)
+                    continue
 
-            qn = Questioned.match(t, rest)
-            if qn is not None:
-                self.quest.append(qn)
-                if qn.resp == '!':
-                    self.remove(ui, qn.q)
-                continue
+                qn = Questioned.match(t, rest)
+                if qn is not None:
+                    self.quest.append(qn)
+                    if qn.resp == '!':
+                        self.remove(ui, qn.q)
+                    continue
 
-            pr = Prompt.match(t, rest)
-            if pr is not None:
-                self.prompt_hist.append(pr)
-                continue
+                pr = Prompt.match(t, rest)
+                if pr is not None:
+                    self.prompt_hist.append(pr)
+                    continue
 
-            dn = Done.match(t, rest)
-            if dn is not None:
-                self.done = dn
-                continue
+                dn = Done.match(t, rest)
+                if dn is not None:
+                    self.done = dn
+                    continue
 
-            match = re.match(r'''(?x)
-                wordlist \s+ insert :
-                \s+ (?P<at> \d+ )
-                \s+ (?P<word> [^\s]+ )
-                \s* ( .* ) $''', rest)
-            if match:
-                ixs, word, rest = match.groups()
-                assert rest == ''
-                ix = int(ixs)
-                self.insert(ui, ix, word)
-                continue
+                match = re.match(r'''(?x)
+                    wordlist \s+ insert :
+                    \s+ (?P<at> \d+ )
+                    \s+ (?P<word> [^\s]+ )
+                    \s* ( .* ) $''', rest)
+                if match:
+                    ixs, word, rest = match.groups()
+                    assert rest == ''
+                    ix = int(ixs)
+                    self.insert(ui, ix, word)
+                    continue
 
-            match = re.match(r'''(?x)
-                progress :
-                \s+ (?P<cmp> -1|0|1 )
-                \s+ (?P<index> \d+ )
-                \s+ (?P<word> [^\s]+ )
-                \s* ( .* ) $''', rest)
-            if match:
-                if self.wordlist is None:
-                    raise RuntimeError('cannot load progress before wordlist')
-                cs, ixs, word, rest = match.groups()
-                assert rest == ''
-                cmp = cast(Comparison, int(cs))
-                ix = int(ixs)
-                self.progress(ui, ix, cmp, word)
-                continue
+                match = re.match(r'''(?x)
+                    progress :
+                    \s+ (?P<cmp> -1|0|1 )
+                    \s+ (?P<index> \d+ )
+                    \s+ (?P<word> [^\s]+ )
+                    \s* ( .* ) $''', rest)
+                if match:
+                    if self.wordlist is None:
+                        raise RuntimeError('cannot load progress before wordlist')
+                    cs, ixs, word, rest = match.groups()
+                    assert rest == ''
+                    cmp = cast(Comparison, int(cs))
+                    ix = int(ixs)
+                    self.progress(ui, ix, cmp, word)
+                    continue
 
-            match = re.match(r'''(?x)
-                share \s+ result:
-                \s+ (?P<result> .* )
-                $''', rest)
-            if match:
-                srej, = match.groups()
-                rej = json.loads(srej) # pyright: ignore[reportAny]
-                if not isinstance(rej, str): continue
-                self.result_text = rej
-                res = self.result
-                if res:
-                    self.puzzle_id = f'#{res.puzzle}'
-                    if not self.site: self.site = res.site
-                continue
+                match = re.match(r'''(?x)
+                    share \s+ result:
+                    \s+ (?P<result> .* )
+                    $''', rest)
+                if match:
+                    srej, = match.groups()
+                    rej = json.loads(srej) # pyright: ignore[reportAny]
+                    if not isinstance(rej, str): continue
+                    self.result_text = rej
+                    res = self.result
+                    if res:
+                        self.puzzle_id = f'#{res.puzzle}'
+                        if not self.site: self.site = res.site
+                    continue
 
-            yield t, rest
+                yield t, rest
 
     def set_wordlist(self, ui: PromptUI, wl: WordList):
         ui.log(wl.describe)

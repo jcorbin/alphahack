@@ -92,70 +92,73 @@ class Search(StoredLog):
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
         for t, rest in super().load(ui, lines):
-            match = re.match(r'''(?x)
-                wordlist :
-                \s+
-                (?P<wordlist> [^\s]+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                wordlist, rest = match.groups()
-                assert rest == ''
-                self.wordlist = wordlist
-                continue
+            orig_rest = rest
+            with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
 
-            match = re.match(r'''(?x)
-                nope : (?: \s+ ( \w+ ) )?
-                \s* ( .* )
-                $''', rest)
-            if match:
-                nope, rest = match.groups()
-                assert rest == ''
-                self.nope_letters = set(nope or '')
-                continue
+                match = re.match(r'''(?x)
+                    wordlist :
+                    \s+
+                    (?P<wordlist> [^\s]+ )
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    wordlist, rest = match.groups()
+                    assert rest == ''
+                    self.wordlist = wordlist
+                    continue
 
-            match = re.match(r'''(?x)
-                may : (?: \s+ ( [^\s]+ ) )?
-                \s* ( .* )
-                $''', rest)
-            if match:
-                may, rest = match.groups()
-                assert rest == ''
-                self.may_letters = set(may or '')
-                continue
+                match = re.match(r'''(?x)
+                    nope : (?: \s+ ( \w+ ) )?
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    nope, rest = match.groups()
+                    assert rest == ''
+                    self.nope_letters = set(nope or '')
+                    continue
 
-            match = re.match(r'''(?x)
-                tried : \s+ ( [\w_]+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                word, rest = match.groups()
-                assert rest == ''
-                self.tried.append(word)
-                continue
+                match = re.match(r'''(?x)
+                    may : (?: \s+ ( [^\s]+ ) )?
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    may, rest = match.groups()
+                    assert rest == ''
+                    self.may_letters = set(may or '')
+                    continue
 
-            match = re.match(r'''(?x)
-                word : \s+ ( [^\s]+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                word, rest = match.groups()
-                assert rest == ''
-                self.update_word(ui, word)
-                continue
+                match = re.match(r'''(?x)
+                    tried : \s+ ( [\w_]+ )
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    word, rest = match.groups()
+                    assert rest == ''
+                    self.tried.append(word)
+                    continue
 
-            match = re.match(r'''(?x)
-                result :
-                \s* (?P<json> .+ )
-                $''', rest)
-            if match:
-                (raw), = match.groups()
-                dat = cast(object, json.loads(raw))
-                assert isinstance(dat, str)
-                self.result_text = dat
-                continue
+                match = re.match(r'''(?x)
+                    word : \s+ ( [^\s]+ )
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    word, rest = match.groups()
+                    assert rest == ''
+                    self.update_word(ui, word)
+                    continue
 
-            yield t, rest
+                match = re.match(r'''(?x)
+                    result :
+                    \s* (?P<json> .+ )
+                    $''', rest)
+                if match:
+                    (raw), = match.groups()
+                    dat = cast(object, json.loads(raw))
+                    assert isinstance(dat, str)
+                    self.result_text = dat
+                    continue
+
+                yield t, rest
 
     @override
     def startup(self, ui: PromptUI):

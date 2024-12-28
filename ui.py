@@ -346,6 +346,15 @@ class PromptUI:
             raise NextState(st)
 
     @contextmanager
+    def exc_print(self, mess: str|Callable[[], str]):
+        try:
+            yield
+        except:
+            if callable(mess): mess = mess()
+            self.print(mess)
+            raise
+
+    @contextmanager
     def print_exception(self,
                         type_: type[BaseException]|tuple[type[BaseException], ...],
                         then_: Literal['pass', 'stop']|Exception|State = 'stop',

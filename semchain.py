@@ -266,78 +266,81 @@ class Search(StoredLog):
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
         for t, rest in super().load(ui, lines):
-            if self.chat.load_line(rest): continue
+            orig_rest = rest
+            with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
 
-            match = re.match(r'''(?x)
-                chat_prompt : \s* (?P<mess> .+ )
-                $''', rest)
-            if match:
-                mess = match.group(1)
-                _ = self.set_chat_prompt(ui, mess)
-                continue
+                if self.chat.load_line(rest): continue
 
-            match = re.match(r'''(?x)
-                share \s+ result:
-                \s+ (?P<result> .* )
-                $''', rest)
-            if match:
-                srej, = match.groups()
-                rej = cast(object, json.loads(srej))
-                if not isinstance(rej, str): continue
-                self.result_text = rej
-                res = self.result
-                if res and res.site: self.site = res.site
-                continue
+                match = re.match(r'''(?x)
+                    chat_prompt : \s* (?P<mess> .+ )
+                    $''', rest)
+                if match:
+                    mess = match.group(1)
+                    _ = self.set_chat_prompt(ui, mess)
+                    continue
 
-            match = re.match(r'''(?x)
-                (?P<init> first | last )
-                \s+ word \?
-                \s+ (?P<word> [^\s]+ )
-                $''', rest)
-            if match:
-                init, word = match.groups()
-                if init == 'first': self.top = word
-                elif init == 'last': self.bottom = word
-                else: assert_never(cast(Never, init))
-                continue
+                match = re.match(r'''(?x)
+                    share \s+ result:
+                    \s+ (?P<result> .* )
+                    $''', rest)
+                if match:
+                    srej, = match.groups()
+                    rej = cast(object, json.loads(srej))
+                    if not isinstance(rej, str): continue
+                    self.result_text = rej
+                    res = self.result
+                    if res and res.site: self.site = res.site
+                    continue
 
-            match = re.match(r'''(?x)
-                (?: word : \s* " (?P<word> [^"]+ ) "
-                  | rank \s+ (?P<index> \d+ )
-                  )
-                \s+ (?P<rank> -?\d+ | False | None )
-                $''', rest)
-            if match:
-                word, i_str, rank_str = match.groups()
-                rank = parse_wordrank(rank_str)
-                if word is not None:
-                    _ = self.append(ui, word, rank)
-                elif i_str is not None:
-                    self.score(ui, int(i_str), rank)
-                else: raise RuntimeError('invalid word/rank match')
-                continue
+                match = re.match(r'''(?x)
+                    (?P<init> first | last )
+                    \s+ word \?
+                    \s+ (?P<word> [^\s]+ )
+                    $''', rest)
+                if match:
+                    init, word = match.groups()
+                    if init == 'first': self.top = word
+                    elif init == 'last': self.bottom = word
+                    else: assert_never(cast(Never, init))
+                    continue
 
-            match = re.match(r'''(?x)
-                reset
-                $''', rest)
-            if match:
-                self.reset(ui)
-                continue
+                match = re.match(r'''(?x)
+                    (?: word : \s* " (?P<word> [^"]+ ) "
+                      | rank \s+ (?P<index> \d+ )
+                      )
+                    \s+ (?P<rank> -?\d+ | False | None )
+                    $''', rest)
+                if match:
+                    word, i_str, rank_str = match.groups()
+                    rank = parse_wordrank(rank_str)
+                    if word is not None:
+                        _ = self.append(ui, word, rank)
+                    elif i_str is not None:
+                        self.score(ui, int(i_str), rank)
+                    else: raise RuntimeError('invalid word/rank match')
+                    continue
 
-            match = re.match(r'''(?x)
-                pop
-                \s+ (?P<top> top | bot )
-                \s+ " (?P<word> [^"]+ ) " 
-                $''', rest)
-            if match:
-                top, word = match.groups()
-                res = self.pop(ui, top == 'top')
-                assert res is not None
-                _, rword, _ = res
-                assert word == rword
-                continue
+                match = re.match(r'''(?x)
+                    reset
+                    $''', rest)
+                if match:
+                    self.reset(ui)
+                    continue
 
-            yield t, rest
+                match = re.match(r'''(?x)
+                    pop
+                    \s+ (?P<top> top | bot )
+                    \s+ " (?P<word> [^"]+ ) " 
+                    $''', rest)
+                if match:
+                    top, word = match.groups()
+                    res = self.pop(ui, top == 'top')
+                    assert res is not None
+                    _, rword, _ = res
+                    assert word == rword
+                    continue
+
+                yield t, rest
 
     @override
     def info(self):

@@ -120,146 +120,149 @@ class Search(StoredLog):
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
         for t, rest in super().load(ui, lines):
-            match = re.match(r'''(?x)
-                puzzle_id :
-                \s+
-                (?P<token> [^\s]+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                token, rest = match.groups()
-                assert rest == ''
-                self.puzzle_id = token
-                continue
+            orig_rest = rest
+            with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
 
-            match = re.match(r'''(?x)
-                wordlist :
-                \s+
-                (?P<wordlist> [^\s]+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                wordlist, rest = match.groups()
-                assert rest == ''
-                self.wordlist = wordlist
-                continue
+                match = re.match(r'''(?x)
+                    puzzle_id :
+                    \s+
+                    (?P<token> [^\s]+ )
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    token, rest = match.groups()
+                    assert rest == ''
+                    self.puzzle_id = token
+                    continue
 
-            match = re.match(r'''(?x)
-                forget :
-                \s+ (?P<index> \d+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                index, rest = match.groups()
-                assert rest == ''
-                self.forget(ui, int(index))
-                continue
+                match = re.match(r'''(?x)
+                    wordlist :
+                    \s+
+                    (?P<wordlist> [^\s]+ )
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    wordlist, rest = match.groups()
+                    assert rest == ''
+                    self.wordlist = wordlist
+                    continue
 
-            match = re.match(r'''(?x)
-                may :
-                \s+ (?P<index> \d+ )
-                (?P<may> (?: \s+ [A-Za-z] )+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                index, may, rest = match.groups()
-                assert rest == ''
-                word_i = int(index)
-                may = cast(str, may)
-                self.row_may[word_i] = set(let.strip().lower() for let in may.split())
-                continue
+                match = re.match(r'''(?x)
+                    forget :
+                    \s+ (?P<index> \d+ )
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    index, rest = match.groups()
+                    assert rest == ''
+                    self.forget(ui, int(index))
+                    continue
 
-            match = re.match(r'''(?x)
-                nope :
-                (?P<may> (?: \s+ [A-Za-z] )+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                nope, rest = match.groups()
-                assert rest == ''
-                may = cast(str, nope)
-                self.nope = set(let.strip().lower() for let in may.split())
-                continue
+                match = re.match(r'''(?x)
+                    may :
+                    \s+ (?P<index> \d+ )
+                    (?P<may> (?: \s+ [A-Za-z] )+ )
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    index, may, rest = match.groups()
+                    assert rest == ''
+                    word_i = int(index)
+                    may = cast(str, may)
+                    self.row_may[word_i] = set(let.strip().lower() for let in may.split())
+                    continue
 
-            match = re.match(r'''(?x)
-                questioning :
-                \s* (?P<json> .+ )
-                $''', rest)
-            if match:
-                raw, = match.groups()
-                dat = cast(object, json.loads(raw))
-                assert isinstance(dat, list)
-                dat = cast(list[object], dat)
-                assert len(dat) == 2
-                word, desc = dat
-                assert isinstance(word, str)
-                assert isinstance(desc, str)
-                _ = self.ask_question(ui, word, desc)
-                continue
+                match = re.match(r'''(?x)
+                    nope :
+                    (?P<may> (?: \s+ [A-Za-z] )+ )
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    nope, rest = match.groups()
+                    assert rest == ''
+                    may = cast(str, nope)
+                    self.nope = set(let.strip().lower() for let in may.split())
+                    continue
 
-            match = re.match(r'''(?x)
-                question \s+ done
-                \s* ( .* )
-                $''', rest)
-            if match:
-                rest, = match.groups()
-                assert rest == ''
-                self.question_done(ui)
-                continue
+                match = re.match(r'''(?x)
+                    questioning :
+                    \s* (?P<json> .+ )
+                    $''', rest)
+                if match:
+                    raw, = match.groups()
+                    dat = cast(object, json.loads(raw))
+                    assert isinstance(dat, list)
+                    dat = cast(list[object], dat)
+                    assert len(dat) == 2
+                    word, desc = dat
+                    assert isinstance(word, str)
+                    assert isinstance(desc, str)
+                    _ = self.ask_question(ui, word, desc)
+                    continue
 
-            match = re.match(r'''(?x)
-                guess :
-                \s* (?P<word> \w+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                word, rest = match.groups()
-                assert rest == ''
-                _ = self.question_guess(ui, word)
-                continue
+                match = re.match(r'''(?x)
+                    question \s+ done
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    rest, = match.groups()
+                    assert rest == ''
+                    self.question_done(ui)
+                    continue
 
-            match = re.match(r'''(?x)
-                reject :
-                \s+ (?P<word> \w+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                word, rest = match.groups()
-                assert rest == ''
-                self.question_reject(ui, word)
-                continue
+                match = re.match(r'''(?x)
+                    guess :
+                    \s* (?P<word> \w+ )
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    word, rest = match.groups()
+                    assert rest == ''
+                    _ = self.question_guess(ui, word)
+                    continue
 
-            match = re.match(r'''(?x)
-                word :
-                \s+ (?P<index> \d+ )
-                \s+ (?P<word> (?: [_A-Za-z] )+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                index, word, rest = match.groups()
-                assert rest == ''
-                word_i = int(index)
-                word = cast(str, word).lower()
-                word = ['' if let == '_' else let for let in word]
-                if len(word) > self.size:
-                    word = word[:self.size]
-                while len(word) < self.size: word.append('')
-                for j, c in zip(self.row_word_range(word_i), word):
-                    self.grid[j] = c
-                continue
+                match = re.match(r'''(?x)
+                    reject :
+                    \s+ (?P<word> \w+ )
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    word, rest = match.groups()
+                    assert rest == ''
+                    self.question_reject(ui, word)
+                    continue
 
-            match = re.match(r'''(?x)
-                result :
-                \s* (?P<json> .+ )
-                $''', rest)
-            if match:
-                (raw), = match.groups()
-                dat = cast(object, json.loads(raw))
-                assert isinstance(dat, str)
-                self.result_text = dat
-                continue
+                match = re.match(r'''(?x)
+                    word :
+                    \s+ (?P<index> \d+ )
+                    \s+ (?P<word> (?: [_A-Za-z] )+ )
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    index, word, rest = match.groups()
+                    assert rest == ''
+                    word_i = int(index)
+                    word = cast(str, word).lower()
+                    word = ['' if let == '_' else let for let in word]
+                    if len(word) > self.size:
+                        word = word[:self.size]
+                    while len(word) < self.size: word.append('')
+                    for j, c in zip(self.row_word_range(word_i), word):
+                        self.grid[j] = c
+                    continue
 
-            yield t, rest
+                match = re.match(r'''(?x)
+                    result :
+                    \s* (?P<json> .+ )
+                    $''', rest)
+                if match:
+                    (raw), = match.groups()
+                    dat = cast(object, json.loads(raw))
+                    assert isinstance(dat, str)
+                    self.result_text = dat
+                    continue
+
+                yield t, rest
 
     def find(self, _ui: PromptUI, pattern: re.Pattern[str], row: int|None = None) -> Generator[str]:
         if row is not None:

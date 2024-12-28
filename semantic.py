@@ -980,232 +980,235 @@ class Search(StoredLog):
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
         for t, rest in super().load(ui, lines):
-            match = re.match(r'''(?x)
-                pubtime :
-                \s+
-                (?P<timestamp> \d+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                sut, rest = match.groups()
-                assert rest == ''
-                self.set_pubtime(ui, int(sut))
-                continue
+            orig_rest = rest
+            with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
 
-            match = re.match(r'''(?x)
-                lang :
-                \s+
-                (?P<token> [^\s]+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                token, rest = match.groups()
-                assert rest == ''
-                self.lang = token
-                continue
-
-            match = re.match(r'''(?x)
-                scale :
-                \s+ (?P<tier> 🧊|🥶|😎|🥵|🔥|😱|🥳 )
-                \s+ (?P<temp> [^\s]+ )
-                \s* °C
-                \s* ( .* )
-                $''', rest)
-            if match:
-                stier, stemp, rest = match.groups()
-                temp = float(stemp)
-                assert rest == ''
-
-                tier = cast(Tier, stier)
-                j = tiers.index(tier)
-                if tier in scale_fixed:
-                    if temp != scale_fixed[tier]:
-                        ui.print(f'WARNING: ignoring incorrect scale fixed point {tier} {temp:.2f} °C')
-                    # otherwise it's just a bit redundant, idk
+                match = re.match(r'''(?x)
+                    pubtime :
+                    \s+
+                    (?P<timestamp> \d+ )
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    sut, rest = match.groups()
+                    assert rest == ''
+                    self.set_pubtime(ui, int(sut))
                     continue
 
-                i = j - 1
-                k = j + 1
-                while k < len(tiers)-1:
-                    if tiers[k] in self.scale: break
-                    k += 1
-                self.scale[tier] = temp
-                if self.prog_at is None and tier == '😎':
-                    self.prog_at = temp
-                continue
+                match = re.match(r'''(?x)
+                    lang :
+                    \s+
+                    (?P<token> [^\s]+ )
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    token, rest = match.groups()
+                    assert rest == ''
+                    self.lang = token
+                    continue
 
-            match = re.match(r'''(?x)
-                fix \s+ attempt_ (?P<attempt> \d+ ) :
-                \s* (?P<rest> .* )
-                $''', rest)
-            if match:
-                si, rest = match.groups()
-                i = int(si)
-                score: float|None = None
-                prog: int|None = None
-                for match in re.finditer(r'''(?x)
-                    \s* (?P<name> score | prog ) : \s* (?P<value> [^\s]+ )
-                ''', rest):
-                    name, value = match.groups()
-                    if name == 'score': score = float(value)
-                    if name == 'prog': prog = None if value == '_' else int(value)
-                assert self.fix(ui, i, score, prog)
-                continue
+                match = re.match(r'''(?x)
+                    scale :
+                    \s+ (?P<tier> 🧊|🥶|😎|🥵|🔥|😱|🥳 )
+                    \s+ (?P<temp> [^\s]+ )
+                    \s* °C
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    stier, stemp, rest = match.groups()
+                    temp = float(stemp)
+                    assert rest == ''
 
-            match = re.match(r'''(?x)
-                attempt_ (?P<attempt> \d+ ) :
-                \s+
-                " (?P<word> .+? ) "
-                \s+
-                score : (?P<score> -? \d+(?:\.\d*)? )
-                \s+
-                prog : (?P<prog> None | \d+ )
-                \s* (?P<rest> .* )
-                $''', rest)
-            if match:
-                si, word, ss, ps, rest = match.groups()
-                i = int(si)
-                score = float(ss)
-                prog = None if ps == 'None' else int(ps)
-                assert i == self.attempt
-                assert rest == ''
-                j = self.record(ui, word, score, prog)
-                if j != i:
-                    raise RuntimeError(f'reload inconsistency attempt({word!r}, {score}, {prog}) -> {j} != {i}')
-                continue
+                    tier = cast(Tier, stier)
+                    j = tiers.index(tier)
+                    if tier in scale_fixed:
+                        if temp != scale_fixed[tier]:
+                            ui.print(f'WARNING: ignoring incorrect scale fixed point {tier} {temp:.2f} °C')
+                        # otherwise it's just a bit redundant, idk
+                        continue
 
-            match = re.match(r'''(?x)
-                reject :
-                \s+
-                " (?P<word> .+? ) "
-                \s* (?P<rest> .* )
-                $''', rest)
-            if match:
-                word, rest = match.groups()
-                assert rest == ''
-                self.reject(ui, word)
-                continue
+                    i = j - 1
+                    k = j + 1
+                    while k < len(tiers)-1:
+                        if tiers[k] in self.scale: break
+                        k += 1
+                    self.scale[tier] = temp
+                    if self.prog_at is None and tier == '😎':
+                        self.prog_at = temp
+                    continue
 
-            match = re.match(r'''(?x)
-                system_prompt : \s* (?P<mess> .+ )
-                $''', rest)
-            if match:
-                mess, = match.groups()
-                try:
-                    dat = cast(object, json.loads(mess))
-                except json.JSONDecodeError:
-                    pass
-                else:
-                    if isinstance(dat, str):
-                        self.system_prompt = dat
-                continue
+                match = re.match(r'''(?x)
+                    fix \s+ attempt_ (?P<attempt> \d+ ) :
+                    \s* (?P<rest> .* )
+                    $''', rest)
+                if match:
+                    si, rest = match.groups()
+                    i = int(si)
+                    score: float|None = None
+                    prog: int|None = None
+                    for match in re.finditer(r'''(?x)
+                        \s* (?P<name> score | prog ) : \s* (?P<value> [^\s]+ )
+                    ''', rest):
+                        name, value = match.groups()
+                        if name == 'score': score = float(value)
+                        if name == 'prog': prog = None if value == '_' else int(value)
+                    assert self.fix(ui, i, score, prog)
+                    continue
 
-            match = re.match(r'''(?x)
-                chat_prompt : \s* (?P<mess> .+ )
-                $''', rest)
-            if match:
-                mess, = match.groups()
-                try:
-                    dat = cast(object, json.loads(mess))
-                except json.JSONDecodeError:
-                    pass
-                else:
-                    if isinstance(dat, dict) and 'prompt' in dat:
-                        mess = cast(object, dat['prompt'])
-                        assert isinstance(mess, str)
-                _ = self.set_chat_prompt(ui, mess)
-                continue
+                match = re.match(r'''(?x)
+                    attempt_ (?P<attempt> \d+ ) :
+                    \s+
+                    " (?P<word> .+? ) "
+                    \s+
+                    score : (?P<score> -? \d+(?:\.\d*)? )
+                    \s+
+                    prog : (?P<prog> None | \d+ )
+                    \s* (?P<rest> .* )
+                    $''', rest)
+                if match:
+                    si, word, ss, ps, rest = match.groups()
+                    i = int(si)
+                    score = float(ss)
+                    prog = None if ps == 'None' else int(ps)
+                    assert i == self.attempt
+                    assert rest == ''
+                    j = self.record(ui, word, score, prog)
+                    if j != i:
+                        raise RuntimeError(f'reload inconsistency attempt({word!r}, {score}, {prog}) -> {j} != {i}')
+                    continue
 
-            match = re.match(r'''(?x)
-                abbr : \s* (?P<abbr> [^\s]+ )
-                (?: \s+ (?P<mess> .+? ) )?
-                $''', rest)
-            if match:
-                abbr, mess = match.groups()
-                if mess:
-                    self.abbr[abbr] = mess
-                elif abbr in self.abbr:
-                    del self.abbr[abbr]
-                continue
+                match = re.match(r'''(?x)
+                    reject :
+                    \s+
+                    " (?P<word> .+? ) "
+                    \s* (?P<rest> .* )
+                    $''', rest)
+                if match:
+                    word, rest = match.groups()
+                    assert rest == ''
+                    self.reject(ui, word)
+                    continue
 
-            match = re.match(r'''(?x)
-                http \s+ (?P<coll> header | cookie ):
-                \s+ (?P<name> [^\s]+ )
-                \s+ (?P<value> .+? )
-                $''', rest)
-            if match:
-                coll, name, value = match.groups()
-
-                if coll == 'cookie':
-                    if value == '_':
-                        del self.http_client.cookies[name]
+                match = re.match(r'''(?x)
+                    system_prompt : \s* (?P<mess> .+ )
+                    $''', rest)
+                if match:
+                    mess, = match.groups()
+                    try:
+                        dat = cast(object, json.loads(mess))
+                    except json.JSONDecodeError:
+                        pass
                     else:
-                        value = cast(object, json.loads(value))
-                        assert isinstance(value, str)
-                        self.http_client.cookies[name] = value
+                        if isinstance(dat, str):
+                            self.system_prompt = dat
+                    continue
 
-                elif coll == 'header':
-                    if value == '_':
-                        del self.http_client.headers[name]
+                match = re.match(r'''(?x)
+                    chat_prompt : \s* (?P<mess> .+ )
+                    $''', rest)
+                if match:
+                    mess, = match.groups()
+                    try:
+                        dat = cast(object, json.loads(mess))
+                    except json.JSONDecodeError:
+                        pass
                     else:
-                        value = cast(object, json.loads(value))
-                        assert isinstance(value, str)
-                        self.http_client.headers[name] = value
+                        if isinstance(dat, dict) and 'prompt' in dat:
+                            mess = cast(object, dat['prompt'])
+                            assert isinstance(mess, str)
+                    _ = self.set_chat_prompt(ui, mess)
+                    continue
 
-                continue
+                match = re.match(r'''(?x)
+                    abbr : \s* (?P<abbr> [^\s]+ )
+                    (?: \s+ (?P<mess> .+? ) )?
+                    $''', rest)
+                if match:
+                    abbr, mess = match.groups()
+                    if mess:
+                        self.abbr[abbr] = mess
+                    elif abbr in self.abbr:
+                        del self.abbr[abbr]
+                    continue
 
-            match = re.match(r'''(?x)
-                session : \s* (?P<mess> .+ )
-                $''', rest)
-            if match:
-                raw, = match.groups()
-                if raw.startswith('pop'):
-                    if raw != 'pop': raise NotImplementedError(f'chat pop index')
-                    _ = self.chat_pop(ui)
-                else:
-                    mess = cast(object, json.loads(raw))
-                    mess = cast(ollama.Message, mess) # TODO validate
-                    self.chat_append(ui, mess)
-                continue
+                match = re.match(r'''(?x)
+                    http \s+ (?P<coll> header | cookie ):
+                    \s+ (?P<name> [^\s]+ )
+                    \s+ (?P<value> .+? )
+                    $''', rest)
+                if match:
+                    coll, name, value = match.groups()
 
-            match = re.match(r'''(?x)
-                session \s+ model :
-                \s*
-                (?P<model> [^\s]+ )
-                \s* (?P<rest> .* )
-                $''', rest)
-            if match:
-                model, rest = match.groups()
-                assert rest == ''
-                self.chat_model(ui, model)
-                continue
+                    if coll == 'cookie':
+                        if value == '_':
+                            del self.http_client.cookies[name]
+                        else:
+                            value = cast(object, json.loads(value))
+                            assert isinstance(value, str)
+                            self.http_client.cookies[name] = value
 
-            match = re.match(r'''(?x)
-                session \s+ clear
-                \s* (?P<rest> .* )
-                $''', rest)
-            if match:
-                rest, = match.groups()
-                assert rest == ''
-                self.chat_clear(ui)
-                continue
+                    elif coll == 'header':
+                        if value == '_':
+                            del self.http_client.headers[name]
+                        else:
+                            value = cast(object, json.loads(value))
+                            assert isinstance(value, str)
+                            self.http_client.headers[name] = value
 
-            match = re.match(r'''(?x)
-                share \s+ result:
-                \s+ (?P<result> .* )
-                $''', rest)
-            if match:
-                rej = cast(object, json.loads(match.group(1)))
-                if isinstance(rej, str):
-                    self.result_text = rej
-                    res = self.result
-                    if res:
-                        if res.site: self.site = res.site
-                        if not self.puzzle_id:
-                            self.puzzle_id = f'#{res.puzzle_id}'
-                continue
+                    continue
 
-            yield t, rest
+                match = re.match(r'''(?x)
+                    session : \s* (?P<mess> .+ )
+                    $''', rest)
+                if match:
+                    raw, = match.groups()
+                    if raw.startswith('pop'):
+                        if raw != 'pop': raise NotImplementedError(f'chat pop index')
+                        _ = self.chat_pop(ui)
+                    else:
+                        mess = cast(object, json.loads(raw))
+                        mess = cast(ollama.Message, mess) # TODO validate
+                        self.chat_append(ui, mess)
+                    continue
+
+                match = re.match(r'''(?x)
+                    session \s+ model :
+                    \s*
+                    (?P<model> [^\s]+ )
+                    \s* (?P<rest> .* )
+                    $''', rest)
+                if match:
+                    model, rest = match.groups()
+                    assert rest == ''
+                    self.chat_model(ui, model)
+                    continue
+
+                match = re.match(r'''(?x)
+                    session \s+ clear
+                    \s* (?P<rest> .* )
+                    $''', rest)
+                if match:
+                    rest, = match.groups()
+                    assert rest == ''
+                    self.chat_clear(ui)
+                    continue
+
+                match = re.match(r'''(?x)
+                    share \s+ result:
+                    \s+ (?P<result> .* )
+                    $''', rest)
+                if match:
+                    rej = cast(object, json.loads(match.group(1)))
+                    if isinstance(rej, str):
+                        self.result_text = rej
+                        res = self.result
+                        if res:
+                            if res.site: self.site = res.site
+                            if not self.puzzle_id:
+                                self.puzzle_id = f'#{res.puzzle_id}'
+                    continue
+
+                yield t, rest
 
     def describe_word(self, i: int, ix: int|None = None, word: str|None = None):
         if word is not None:
