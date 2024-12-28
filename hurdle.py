@@ -108,7 +108,7 @@ class Search(StoredLog):
                     continue
 
                 match = re.match(r'''(?x)
-                    nope : (?: \s+ ( \w+ ) )?
+                    nope : (?: \s+ ( [^\s]+ ) )?
                     \s* ( .* )
                     $''', rest)
                 if match:
