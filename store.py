@@ -70,6 +70,7 @@ class StoredLog:
         self.site: str = self.default_site
         self.puzzle_id: str = ''
         self.sessions: list[LogSession] = []
+        self.loaded: bool = False
 
     @property
     def expire(self) -> datetime.datetime|None:
@@ -179,10 +180,12 @@ class StoredLog:
     def load_log(self, ui: PromptUI, log_file: str|None = None):
         if log_file is None:
             log_file = self.log_file
-        self.__init__()
+        if self.loaded:
+            self.__init__()
         if log_file and os.path.exists(log_file):
             with open(log_file, 'r') as f:
                 for _ in self.load(ui, f): pass
+        self.loaded = True
         self.log_file = log_file
 
     def __call__(self, ui: PromptUI) -> PromptUI.State|None:
