@@ -3413,3 +3413,18 @@ See log/squareword.org/#1062
 # 2024-12-28 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1092
+
+# 2024-12-28 https://wordnerd.co/wordchain
+
+```
+🤔 2 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 2 chain words
+from 'senior' to 'rent'
+⏱️ 0:00:37.433120
+```
+
+📜 0 sessions
+🫧 1 chat sessions
+⁉️ 1 chat prompts
+🤖 1 llama3.2:latest replies
