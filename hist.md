@@ -3409,3 +3409,7 @@ from 'interaction' to 'boy'
 # 2024-12-28 squareword.org
 
 See log/squareword.org/#1062
+
+# 2024-12-28 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1092
