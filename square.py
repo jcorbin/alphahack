@@ -623,42 +623,49 @@ class Search(StoredLog):
         self.question_desc = desc
         return self.question
 
+    def question_abort(self, ui: PromptUI):
+        self.question_done(ui)
+        ui.print('')
+        return self.display
+
     def question(self, ui: PromptUI):
-        q = self.qmode
-        word = self.questioning.lower()
-        desc = self.question_desc
-        prompt = f'{word} ( {desc} )' if desc else f'{word}'
+        with ui.catch_state((EOFError, KeyboardInterrupt), self.question_abort):
+            q = self.qmode
+            word = self.questioning.lower()
+            desc = self.question_desc
+            prompt = f'{word} ( {desc} )' if desc else f'{word}'
+            prompt = f'{prompt} {q} '
 
-        ui.copy(word)
+            ui.copy(word)
+            self.show(ui)
 
-        self.show(ui)
-        with ui.input(f'{prompt} {q} ') as tokens:
-            if tokens.empty:
-                self.question_done(ui)
-                return self.display
+            with ui.input(prompt) as tokens:
+                if q == '?':
+                    if tokens.empty:
+                        self.qmode = '>' # TODO: auto N> wen
+                        return
 
-            if q == '?':
-                if tokens.rest.strip() == '!':
-                    self.question_reject(ui, word)
-                    return self.display
-                if tokens.rest.strip() == '.':
-                    return self.question_guess(ui, word)
+                    if tokens.rest.strip() == '!':
+                        self.question_reject(ui, word)
+                        return self.display
+                    if tokens.rest.strip() == '.':
+                        return self.question_guess(ui, word)
 
-                word_i = self.re_word_i(ui)
-                if word_i is not None:
-                    match = self.re_word_match(ui)
-                    if match:
-                        self.question_guess(ui, word)
-                        return self.proc_re_word_match(ui, word_i, match)
+                    word_i = self.re_word_i(ui)
+                    if word_i is not None:
+                        match = self.re_word_match(ui)
+                        if match:
+                            self.question_guess(ui, word)
+                            return self.proc_re_word_match(ui, word_i, match)
 
-            elif q == '>':
-                word_i = self.re_word_i(ui)
-                if word_i is not None:
-                    return self.proc_re_word(ui, word_i)
-                return
+                elif q == '>':
+                    word_i = self.re_word_i(ui)
+                    if word_i is not None:
+                        return self.proc_re_word(ui, word_i)
+                    return
 
-            else:
-                raise RuntimeError(f'invalid qmode:{q!r}')
+                else:
+                    raise RuntimeError(f'invalid qmode:{q!r}')
 
     def re_word_i(self, ui: PromptUI):
         n = ui.tokens.have(r'(\d+):?', lambda m: int(m.group(1)))
