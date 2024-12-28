@@ -339,7 +339,7 @@ class PromptUI:
 
     @staticmethod
     @contextmanager
-    def catch_state(type_: type[BaseException], st: State):
+    def catch_state(type_: type[BaseException]|tuple[type[BaseException], ...], st: State):
         try:
             yield
         except type_:
