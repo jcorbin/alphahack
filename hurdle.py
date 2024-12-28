@@ -52,7 +52,10 @@ class Search(StoredLog):
     @override
     def from_args(self, args: argparse.Namespace):
         super().from_args(args)
-        self.default_wordlist = cast(str, args.wordlist)
+        wordlist = cast(str, args.wordlist)
+        if wordlist:
+            self.default_wordlist = wordlist
+            self.wordlist = wordlist
 
     log_file: str = 'hurdle.log'
     default_site: str = 'https://play.dictionary.com/games/todays-hurdle'

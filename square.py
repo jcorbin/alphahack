@@ -49,12 +49,15 @@ class Search(StoredLog):
     @override
     def add_args(self, parser: argparse.ArgumentParser):
         super().add_args(parser)
-        _ = parser.add_argument('--wordlist', default=self.wordlist)
+        _ = parser.add_argument('--wordlist')
 
     @override
     def from_args(self, args: argparse.Namespace):
         super().from_args(args)
-        self.default_wordlist = cast(str, args.wordlist)
+        wordlist = cast(str, args.wordlist)
+        if wordlist:
+            self.wordlist = wordlist
+            self.default_wordlist = wordlist
 
     def __init__(self):
         super().__init__()
