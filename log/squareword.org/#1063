@@ -1,0 +1,149 @@
+T0.0001408850002917461 now: 2024-12-29T12:05:39EST
+T0.00017761799972504377 site: squareword.org
+T2.9017565150024893 🧩  ? #1063
+T2.9021014280006057 puzzle_id: #1063
+T4.261670816002152 > *
+T4.3476262709991715 questioning: ["surgy", "#5 found:7762 hypo:11881376"]
+T9.666337778002344 surgy ( #5 found:7762 hypo:11881376 ) ? 
+T11.717110096000397 surgy ( #5 found:7762 hypo:11881376 ) > 
+T14.205736089999846 surgy ( #5 found:7762 hypo:11881376 ) 1> ~s
+T14.206225484002061 word: 0 _____
+T14.206248627000605 may: 0 s
+T16.55689777000225 surgy ( #5 found:7762 hypo:11881376 ) 2> ~r
+T16.5571400680019 word: 1 _____
+T16.55716160800148 may: 1 r
+T20.761130016002426 surgy ( #5 found:7762 hypo:11881376 ) 3> ____y ~ r
+T20.761366709000868 word: 2 ____y
+T20.761387560000003 may: 2 r
+T23.10356988100102 surgy ( #5 found:7762 hypo:11881376 ) 4> __r__
+T23.103801066001324 word: 3 __r__
+T23.103826956001285 may: 3 
+T27.014334633000544 surgy ( #5 found:7762 hypo:11881376 ) 5> s____ ~r
+T27.014558798000508 word: 4 s____
+T27.014580731000024 may: 4 r
+T27.01460319599937 question done
+T29.158527522999066 > 
+T30.235871333999967 > 
+T31.08923839899944 > 
+T31.216219441001158 > 
+T31.527027947002352 > 
+T33.99026592500013 > /no ug
+T33.99103065800227 nope: g u
+T34.844420569999784 > *
+T35.27614231999905 questioning: ["siree", "#5 found:68 hypo:13824"]
+T39.677225913001166 siree ( #5 found:68 hypo:13824 ) ? 
+T40.2338124429989 siree ( #5 found:68 hypo:13824 ) > 
+T42.41507141600232 siree ( #5 found:68 hypo:13824 ) 1> ~se
+T42.415252271999634 word: 0 _____
+T42.41527190200213 may: 0 e s
+T44.41690722900239 siree ( #5 found:68 hypo:13824 ) 2> ~re
+T44.417097407000256 word: 1 _____
+T44.41711713100085 may: 1 e r
+T46.406427679001354 siree ( #5 found:68 hypo:13824 ) 3> ~re
+T46.406698679998954 word: 2 ____y
+T46.40673004800192 may: 2 e r
+T48.3241620910012 siree ( #5 found:68 hypo:13824 ) 4> ~e
+T48.32439461499962 word: 3 __r__
+T48.324417451000045 may: 3 e
+T52.54115253200143 siree ( #5 found:68 hypo:13824 ) 5> s___e
+T52.541371033999894 word: 4 s___e
+T52.54140634099895 may: 4 r
+T52.54143832599948 question done
+T56.57353612800216 > /no i
+T56.573761977000686 nope: g i u
+T57.59057611000026 > *
+T58.06194479500118 questioning: ["saree", "#5 found:2 hypo:529"]
+T63.80083064200153 saree ( #5 found:2 hypo:529 ) ? 
+T69.95934153300186 saree ( #5 found:2 hypo:529 ) > 2 ~ rea
+T69.9595875390005 word: 1 _____
+T69.95961267600069 may: 1 a e r
+T72.6441154589993 saree ( #5 found:2 hypo:529 ) 3> 
+T73.99606893000237 saree ( #5 found:2 hypo:529 ) 4> 
+T74.65226533900204 saree ( #5 found:2 hypo:529 ) 5> 
+T74.65239709000161 question done
+T76.08228954399965 > *
+T76.19401329999891 questioning: ["score", "#5 found:4 hypo:529"]
+T79.75193633000163 score ( #5 found:4 hypo:529 ) ? .
+T79.7520590890017 guess: score
+T86.53902485900107 score ( #5 found:4 hypo:529 ) > 2 ___r_
+T86.5393208050009 word: 1 ___r_
+T86.53934596100225 may: 1 a e
+T90.21589135199974 score ( #5 found:4 hypo:529 ) 3> ___ry
+T90.21606647700173 word: 2 ___ry
+T90.21608304700203 may: 2 e
+T96.92897475800055 score ( #5 found:4 hypo:529 ) 4> 3 ~ eo
+T96.92919191100009 word: 2 ___ry
+T96.92921389800176 may: 2 e o
+T102.14279807500134 score ( #5 found:4 hypo:529 ) 4> ~ eo
+T102.14299812800164 word: 3 __r__
+T102.14302220199897 may: 3 e o
+T102.75278385600177 score ( #5 found:4 hypo:529 ) 5> 3
+T108.34794922500078 score ( #5 found:4 hypo:529 ) 3> ___ry  ~ re
+T108.34819013599918 word: 2 ___ry
+T108.34821842100064 may: 2 e r
+T122.7072064640015 score ( #5 found:4 hypo:529 ) 4> 5
+T124.45397694799976 score ( #5 found:4 hypo:529 ) 5> s_ore
+T124.45416745900002 word: 4 s_ore
+T124.45419653299905 may: 4 
+T124.45422414000132 question done
+T126.91910350800026 > /no c
+T126.91931017599927 nope: c g i u
+T128.07900034200065 > *
+T129.21336498399978 questioning: ["enrol", "#4 found:1 hypo:968"]
+T133.115434825002 enrol ( #4 found:1 hypo:968 ) ? 
+T134.90777267100202 enrol ( #4 found:1 hypo:968 ) > 4 enrol
+T134.90813977600192 word: 3 enrol
+T134.9081909910019 may: 3 
+T140.67669551500148 enrol ( #4 found:1 hypo:968 ) 5> 
+T140.67688338200242 question done
+T274.3562406070014 > *
+T275.1715674690022 questioning: ["store", "#5 found:1 hypo:22"]
+T279.10573075100183 store ( #5 found:1 hypo:22 ) ? 
+T284.2044667299997 store ( #5 found:1 hypo:22 ) > 2 ~eat
+T284.20471437000015 word: 1 ___r_
+T284.2047447770019 may: 1 a e t
+T285.96837081600097 store ( #5 found:1 hypo:22 ) 3> ~ ret
+T285.9685856770011 word: 2 ___ry
+T285.9686171350004 may: 2 e r t
+T287.98611235000135 store ( #5 found:1 hypo:22 ) 4> 5 store
+T287.98629576000167 word: 4 store
+T287.9863189349999 may: 4 
+T287.9863407289995 question done
+T289.8302845819999 > *
+T290.7597570530015 questioning: ["retry", "#3 found:1 hypo:6"]
+T294.71466418899945 retry ( #3 found:1 hypo:6 ) ? 
+T299.68857757500155 retry ( #3 found:1 hypo:6 ) > 
+T303.7377784880009 retry ( #3 found:1 hypo:6 ) 1> _e_e
+T303.73797837500024 word: 0 _e_e_
+T303.73800727300113 may: 0 s
+T308.1863126169992 retry ( #3 found:1 hypo:6 ) 2> 
+T310.406941964 retry ( #3 found:1 hypo:6 ) 3> retry
+T310.40714852699966 word: 2 retry
+T310.40717736900115 may: 2 
+T311.99723955100126 retry ( #3 found:1 hypo:6 ) 4> 
+T312.2710272149998 retry ( #3 found:1 hypo:6 ) 5> 
+T312.2711567139995 question done
+T313.89319096300096 > *
+T314.59941315000106 questioning: ["avert", "#2 found:1 hypo:132"]
+T318.22875573499914 avert ( #2 found:1 hypo:132 ) ? 
+T319.8039595609989 avert ( #2 found:1 hypo:132 ) > 2 avert
+T319.804183876 word: 1 avert
+T319.80420919600147 may: 1 
+T320.770743866 question done
+T322.3824552320002 > *
+T322.8131908409996 questioning: ["meres", "#1 found:7 hypo:484"]
+T327.75629841000045 meres ( #1 found:7 hypo:484 ) ? 
+T333.23403680699994 meres ( #1 found:7 hypo:484 ) > 1 me_es ~ m
+T333.2342994840001 word: 0 me_es
+T333.2343240170012 may: 0 m
+T334.5388933940012 question done
+T335.1358806540011 > *
+T335.51220805499906 questioning: ["memes", "#1 found:1 hypo:1"]
+T339.29740036099975 memes ( #1 found:1 hypo:1 ) ? 
+T341.3093513519998 memes ( #1 found:1 hypo:1 ) > 1 memes
+T341.30959970299955 word: 0 memes
+T341.30963636100205 may: 0 
+T342.6857825670013 question done
+T345.4654839899995 Press <Enter> to 📋 or `>` for line prompt 
+T345.4706026320018 result: "squareword.org 1063: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1063"
+T345.4716374910022 <STOP>
