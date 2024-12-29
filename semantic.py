@@ -609,7 +609,7 @@ class Search(StoredLog):
         super().add_args(parser)
         _ = parser.add_argument('--lang', default=self.lang)
         _ = parser.add_argument('--tz', default=self.pub_tzname)
-        _ = parser.add_argument('--model', default=self.default_chat_model)
+        _ = parser.add_argument('--model')
 
     @override
     def from_args(self, args: argparse.Namespace):
@@ -617,7 +617,10 @@ class Search(StoredLog):
         lang = cast(str, args.lang)
         self.lang = self.default_lang = lang
         self.pub_tzname = cast(str, args.tz)
-        self.default_chat_model = cast(str, args.model)
+        model = cast(str, args.model)
+        if model:
+            self.default_chat_model = model
+            self.llm_model = model
 
     def __init__(self):
         super().__init__()
