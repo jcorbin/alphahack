@@ -3472,3 +3472,7 @@ from 'senior' to 'rent'
 # 2024-12-29 squareword.org
 
 See log/squareword.org/#1063
+
+# 2024-12-29 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1093
