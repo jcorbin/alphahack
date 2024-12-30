@@ -1772,7 +1772,7 @@ class Search(StoredLog):
         else:
             yield f'😦 {" ".join(self.tier_count_parts())}'
         yield ''
-        yield from self.prog_lines(4*len(tiers))
+        yield from self.prog_lines(2*len(tiers))
 
     def do_notbad(self, ui: PromptUI):
         with ui.tokens as tokens:
