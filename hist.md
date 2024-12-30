@@ -3581,3 +3581,18 @@ See log/squareword.org/#1064
 # 2024-12-30 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1094
+
+# 2024-12-30 https://wordnerd.co/wordchain
+
+```
+🤔 2 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 2 chain words
+from 'activity' to 'room'
+⏱️ 0:00:50.240910
+```
+
+📜 0 sessions
+🫧 1 chat sessions
+⁉️ 1 chat prompts
+🤖 1 llama3.2:latest replies
