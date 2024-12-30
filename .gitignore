@@ -1,5 +1,9 @@
-*.txt
-!*.exclude.txt
-*.log
 __pycache__/
 .venv
+
+*.log
+
+*.txt
+!*.exclude.txt
+!nwl2023.txt
+!opentaal-wordlist.txt
