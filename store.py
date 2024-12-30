@@ -91,6 +91,9 @@ class StoredLog:
         yield f'See {self.log_file}'
 
     def review(self, ui: PromptUI) -> PromptUI.State|None:
+        for line in self.report_body:
+            ui.print(line)
+
         with ui.input(f'> ') as tokens:
             if tokens.have(r'report$'):
                 return self.do_report(ui)
