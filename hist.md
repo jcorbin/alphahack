@@ -3536,3 +3536,23 @@ from 'exit' to 'analysis'
 # 2024-12-30 squareword.org
 
 See log/squareword.org/#1064
+
+# 2024-12-30 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 1001
+🤔 361 guesses
+    🔥   1
+    🥵  28
+    😎 115
+    🥶 200
+    🧊  17
+⏱️ 0:28:28.778538
+```
+
+🤔 362 attempts
+📜 0 sessions
+🫧 9 chat sessions
+⁉️ 51 chat prompts
+🤖 51 gemma2:latest replies
