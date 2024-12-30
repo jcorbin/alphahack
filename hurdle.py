@@ -370,6 +370,7 @@ class Search(StoredLog):
 
     @override
     def review(self, ui: PromptUI):
+        # TODO common store result fixup routine
         res = self.result
         if not res:
             with (

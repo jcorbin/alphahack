@@ -973,7 +973,12 @@ class Search(StoredLog):
 
     @override
     def review(self, ui: PromptUI):
+        # TODO converge store result fixup
         if self.result is None and not self.stored: return self.orient
+
+        # TODO converge with
+        # return super().review(ui)
+
         self.show_result(ui)
         return self.do_cmd
 

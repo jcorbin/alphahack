@@ -500,7 +500,9 @@ class Search(StoredLog):
 
     @override
     def review(self, ui: PromptUI):
-        if not self.result_text:
+        # TODO common store result fixup routine
+        res = self.result
+        if not res:
             with (
                 git_txn(f'{self.site} {self.puzzle_id} result fixup') as txn,
                 txn.will_add(self.log_file),
@@ -513,10 +515,7 @@ class Search(StoredLog):
                 except StopIteration:
                     pass
 
-        self.show_grid(ui)
-        with ui.input(f'> ') as tokens:
-            if tokens.have(r'report$'):
-                return self.do_report(ui)
+        return super().review(ui)
 
     @property
     @override

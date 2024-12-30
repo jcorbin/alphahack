@@ -727,6 +727,8 @@ class Search(StoredLog):
 
     @override
     def review(self, ui: PromptUI) -> PromptUI.State|None:
+        # TODO converge store result fixup
+
         i = self.found
         if i is not None: self.view.at = i
 
@@ -741,6 +743,9 @@ class Search(StoredLog):
         want_log_file = self.should_store_to
         if want_log_file and self.log_file != want_log_file:
             return self.store
+
+        # TODO converge with
+        # return super().review(ui)
 
         return self.show_quest
 

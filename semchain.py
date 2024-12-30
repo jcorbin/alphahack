@@ -259,9 +259,10 @@ class Search(StoredLog):
 
     @override
     def review(self, ui: PromptUI):
+        # TODO reconcile with result fixup ala square/hurdle
         if self.result is None and not self.stored: return self.orient
-        self.show_result(ui)
-        return self.do_cmd
+
+        return super().review(ui)
 
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
