@@ -406,14 +406,18 @@ class Search(StoredLog):
         def history() -> Generator[tuple[str, bool|None]]:
             priors: set[str] = set()
             for i, word in enumerate(self.words):
+                last: str = ''
                 for w in self.attempts[i]:
-                    yield w, w in priors
+                    if last:
+                        yield last, last in priors
+                    last = w
+                if last and last != word:
+                    yield last, last in priors
                 yield word, None
                 priors.add(word)
             if self.tried:
                 for w in self.tried:
                     yield w, w in priors
-
 
         hist = PeekIter(enumerate(history(), 1))
 
@@ -430,17 +434,15 @@ class Search(StoredLog):
                     yield f'    {rnd.took}/{rnd.limit}'
 
                 if rnd.note.lower() == 'final':
-                    while True:
-                        if not hist.peek(): break
-                        _, (_, kind) = next(hist)
+                    for _, (_, kind) in hist:
                         if kind is not True: break
 
                 for _ in range(rnd.took):
                     rec = next(recs)
-                    nh = next(hist, None)
-                    if nh:
-                        _, (word, _) = nh
-                        yield f'    > {" ".join(word.upper())}'
+                    for _, (word, kind) in hist:
+                        if kind is not True:
+                            yield f'    > {" ".join(word.upper())}'
+                            break
                     yield f'      {"".join(Result.marks[i] for i in rec)}'
 
         if hist.peek() is not None:
