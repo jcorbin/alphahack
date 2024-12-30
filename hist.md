@@ -3577,3 +3577,7 @@ See log/squareword.org/#1064
 
 🔗 alphaguess.com
 ```
+
+# 2024-12-30 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1094
