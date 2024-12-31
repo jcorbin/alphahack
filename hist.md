@@ -3657,3 +3657,7 @@ from 'activity' to 'room'
 
 🔗 alphaguess.com
 ```
+
+# 2024-12-31 squareword.org
+
+See log/squareword.org/#1065
