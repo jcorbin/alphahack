@@ -3661,3 +3661,7 @@ from 'activity' to 'room'
 # 2024-12-31 squareword.org
 
 See log/squareword.org/#1065
+
+# 2024-12-31 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1095
