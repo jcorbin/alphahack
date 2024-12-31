@@ -3665,3 +3665,18 @@ See log/squareword.org/#1065
 # 2024-12-31 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1095
+
+# 2024-12-31 https://wordnerd.co/wordchain
+
+```
+🤔 1 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 1 chain words
+from 'election' to 'temporary'
+⏱️ 0:00:57.705781
+```
+
+📜 0 sessions
+🫧 1 chat sessions
+⁉️ 1 chat prompts
+🤖 1 llama3.2:latest replies
