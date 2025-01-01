@@ -3749,3 +3749,18 @@ See log/squareword.org/#1066
 # 2025-01-01 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1096
+
+# 2025-01-01 https://wordnerd.co/wordchain
+
+```
+🤔 6 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 6 chain words
+from 'white' to 'photo'
+⏱️ 0:08:57.751815
+```
+
+📜 0 sessions
+🫧 2 chat sessions
+⁉️ 18 chat prompts
+🤖 18 llama3.2:latest replies
