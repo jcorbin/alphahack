@@ -3741,3 +3741,7 @@ from 'election' to 'temporary'
 
 🔗 alphaguess.com
 ```
+
+# 2025-01-01 squareword.org
+
+See log/squareword.org/#1066
