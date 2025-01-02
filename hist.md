@@ -3826,3 +3826,7 @@ from 'white' to 'photo'
 
 🔗 alphaguess.com
 ```
+
+# 2025-01-02 squareword.org
+
+See log/squareword.org/#1067
