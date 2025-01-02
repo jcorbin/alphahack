@@ -3830,3 +3830,7 @@ from 'white' to 'photo'
 # 2025-01-02 squareword.org
 
 See log/squareword.org/#1067
+
+# 2025-01-02 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1097
