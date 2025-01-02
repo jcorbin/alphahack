@@ -3834,3 +3834,18 @@ See log/squareword.org/#1067
 # 2025-01-02 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1097
+
+# 2025-01-02 https://wordnerd.co/wordchain
+
+```
+🤔 4 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 4 chain words
+from 'administration' to 'bench'
+⏱️ 0:00:54.720755
+```
+
+📜 0 sessions
+🫧 1 chat sessions
+⁉️ 2 chat prompts
+🤖 2 llama3.2:latest replies

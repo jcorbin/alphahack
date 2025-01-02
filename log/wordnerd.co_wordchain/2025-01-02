@@ -1,0 +1,32 @@
+T0.00017867601127363741 now: 2025-01-02T09:46:47EST
+T0.00022451000404544175 site: https://wordnerd.co/wordchain
+T0.003549212997313589 session model: llama3.2:latest
+T0.003568261003238149 system_prompt: "You are a related word suggestion oracle. When asked to connect two words, you provide a numbered list of word, each related to the next, eventually connecting the two words given by the user."
+T4.8027437400014605 first word? administration
+T5.90448013599962 last word? bench
+T6.873452477011597 ? *
+T6.873678262010799 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+T6.873855056997854 session: {"role": "system", "content": "You are a related word suggestion oracle. When asked to connect two words, you provide a numbered list of word, each related to the next, eventually connecting the two words given by the user."}
+T6.873893074007356 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"administration\" to \"bench\"."}
+T12.0108875020087 session: {"role": "assistant", "content": "Here's a series of words that connects \"administration\" to \"bench\":\n\n1. Government\n2. Legislation\n3. Courtroom\n4. Bench"}
+T16.2148732880014 ? leg
+T22.793258714009426 📋 "legislation" order? a
+T22.793647174010403 word: "legislation" 1
+T25.801707956008613 ? cou
+T27.97604969900567 📋 "courtroom" order? b
+T27.976253204004024 word: "courtroom" -2
+T28.59990611601097 ? *
+T28.60017979000986 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+T28.600394023000263 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"legislation\" to \"courtroom\"."}
+T31.581092988999444 session: {"role": "assistant", "content": "Here's a series of words that connects \"legislation\" to \"courtroom\":\n\n1. Laws\n2. Jurisdiction\n3. Judge\n4. Courtroom"}
+T33.70434318600746 ? ju
+T35.98915593100537 select word> 1
+T37.96013822700479 📋 "judge" order? b
+T37.960347954998724 word: "judge" -3
+T41.467292207002174 ? /last
+T44.83650418400066 ? jur
+T47.56249346300319 📋 "jurisdiction" order? =
+T47.56266456699814 word: "jurisdiction" 0
+T52.93015467800433 Press <Enter> to 📋, or `>` for line prompt 
+T52.93462343599822 share result: "\ud83e\udd13 I solved today's word chain using 4 added words!\n\nadministration \ud83d\udd17\ud83d\udd17\ud83d\udd17\ud83d\udd17 bench\n\nhttps://wordnerd.co/wordchain"
+T52.93553761500516 <STOP>
