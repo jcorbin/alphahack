@@ -3914,3 +3914,7 @@ from 'administration' to 'bench'
 # 2025-01-03 squareword.org
 
 See log/squareword.org/#1068
+
+# 2025-01-03 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1098
