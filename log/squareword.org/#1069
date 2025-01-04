@@ -1,0 +1,116 @@
+T0.00012758999946527183 now: 2025-01-04T09:51:10EST
+T0.00016910702106542885 site: squareword.org
+T2.98316738702124 🧩  ? #1069
+T2.983560364024015 puzzle_id: #1069
+T3.925329170015175 > *
+T4.022271038003964 questioning: ["scene", "#5 found:6861 hypo:11881376"]
+T7.689186717005214 scene ( #5 found:6861 hypo:11881376 ) ? 
+T8.70433975601918 scene ( #5 found:6861 hypo:11881376 ) > 
+T13.99341678901692 scene ( #5 found:6861 hypo:11881376 ) 1> s_ ~ s
+T13.99420082202414 word: 0 s____
+T13.994223117013462 may: 0 s
+T16.3638478530047 scene ( #5 found:6861 hypo:11881376 ) 2> ~ cn
+T16.364634516008664 word: 1 _____
+T16.364673470001435 may: 1 c n
+T17.53590918899863 scene ( #5 found:6861 hypo:11881376 ) 3> 
+T21.328583226015326 scene ( #5 found:6861 hypo:11881376 ) 4> ____e ~ e
+T21.328837696026312 word: 3 ____e
+T21.328870243014535 may: 3 e
+T25.853946321003605 scene ( #5 found:6861 hypo:11881376 ) 5> __e__ ~ s
+T25.854167014011182 word: 4 __e__
+T25.854194683022797 may: 4 s
+T25.854224828013685 question done
+T27.53740458600805 > *
+T27.886646978004137 questioning: ["chino", "#2 found:46 hypo:35152"]
+T31.601553387998138 chino ( #2 found:46 hypo:35152 ) ? 
+T32.95034360900172 chino ( #2 found:46 hypo:35152 ) > 
+T35.65216578502441 chino ( #2 found:46 hypo:35152 ) 1> ~ sh
+T35.65236279301462 word: 0 s____
+T35.65238163401955 may: 0 h s
+T42.368975810997654 chino ( #2 found:46 hypo:35152 ) 2> c___o 
+T42.369200770015595 word: 1 c___o
+T42.36922530300217 may: 1 n
+T46.095717909018276 chino ( #2 found:46 hypo:35152 ) 3> __i ~ o
+T46.09591076802462 word: 2 __i__
+T46.09592964799958 may: 2 o
+T49.46166708599776 chino ( #2 found:46 hypo:35152 ) 4> 
+T51.1268373200146 chino ( #2 found:46 hypo:35152 ) 5> 
+T51.12690654300968 question done
+T51.94395547400927 > *
+T52.28259971301304 questioning: ["canto", "#2 found:2 hypo:676"]
+T56.830475203023525 canto ( #2 found:2 hypo:676 ) ? 
+T58.322089674999006 canto ( #2 found:2 hypo:676 ) > 2  canto
+T58.32225799400476 word: 1 canto
+T58.32227529402007 may: 1 
+T62.05055633900338 canto ( #2 found:2 hypo:676 ) 3> ~ oa
+T62.05083466801443 word: 2 __i__
+T62.05086363700684 may: 2 a o
+T63.85353095000028 canto ( #2 found:2 hypo:676 ) 4> ~ et
+T63.85377915302524 word: 3 ____e
+T63.85380701802205 may: 3 e t
+T65.8174876460107 canto ( #2 found:2 hypo:676 ) 5> 
+T65.81763303201296 question done
+T66.5116818259994 > *
+T66.74753830800182 questioning: ["snash", "#1 found:6 hypo:1352"]
+T71.06960120002623 snash ( #1 found:6 hypo:1352 ) ? 
+T71.75542987301014 snash ( #1 found:6 hypo:1352 ) > 
+T73.79861212900141 snash ( #1 found:6 hypo:1352 ) 1> s__sh
+T73.79893519601319 word: 0 s__sh
+T73.79897765201167 may: 0 
+T77.90520586600178 question done
+T78.669246252015 > *
+T78.80559674600954 questioning: ["geste", "#4 found:1 hypo:1352"]
+T97.36379680602113 geste ( #4 found:1 hypo:1352 ) ? 
+T99.75518965200172 geste ( #4 found:1 hypo:1352 ) > 
+T100.28950419899775 geste ( #4 found:1 hypo:1352 ) 1> 
+T101.25099193601636 geste ( #4 found:1 hypo:1352 ) 2> 
+T104.45937803800916 geste ( #4 found:1 hypo:1352 ) 3> _e__e
+T104.45967162700254 word: 2 _e__e
+T104.45970411901362 may: 2 a o
+T114.47705305402633 geste ( #4 found:1 hypo:1352 ) 4> 3 __i__ ~ oa
+T114.47725774801802 word: 2 __i__
+T114.4772748920077 may: 2 a o
+T117.46286330901785 geste ( #4 found:1 hypo:1352 ) 4> 4 _e__e
+T117.46306416302104 word: 3 _e__e
+T117.4630834380223 may: 3 t
+T119.37162657701992 question done
+T120.51252338301856 > /no g
+T120.51305157100433 nope: g
+T121.25587898501544 > *
+T122.43279089100542 questioning: ["metre", "#4 found:1 hypo:625"]
+T141.51742696401197 metre ( #4 found:1 hypo:625 ) ? 
+T143.85928260200308 metre ( #4 found:1 hypo:625 ) > 4 metre
+T143.85955791000742 word: 3 metre
+T143.8595872640144 may: 3 
+T147.4917540960014 metre ( #4 found:1 hypo:625 ) 5> 3 ~ oam
+T147.49200245400425 word: 2 __i__
+T147.49202957801754 may: 2 a m o
+T151.10798400401836 metre ( #4 found:1 hypo:625 ) 4> 5 ~ sr
+T151.108294028003 word: 4 __e__
+T151.10832553100772 may: 4 r s
+T151.10835343101644 question done
+T153.57023738900898 > 
+T154.60330876501394 > *
+T155.50774732101127 questioning: ["axiom", "#3 found:1 hypo:150"]
+T161.44126729801064 axiom ( #3 found:1 hypo:150 ) ? 
+T163.6286699270131 axiom ( #3 found:1 hypo:150 ) > 3 axiom
+T163.6288778980088 word: 2 axiom
+T163.62890835301368 may: 2 
+T166.04683336801827 question done
+T166.8991246180085 > *
+T167.68921358001535 questioning: ["slush", "#1 found:1 hypo:625"]
+T175.61440619200584 slush ( #1 found:1 hypo:625 ) ? 
+T177.55339154301328 slush ( #1 found:1 hypo:625 ) > 1 slush
+T177.55365138599882 word: 0 slush
+T177.55367652702262 may: 0 
+T180.82047180700465 question done
+T181.5737039130181 > *
+T182.10949774002074 questioning: ["preys", "#5 found:2 hypo:1250"]
+T196.71773313899757 preys ( #5 found:2 hypo:1250 ) ? 
+T199.00280932700844 preys ( #5 found:2 hypo:1250 ) > 5 preys
+T199.00312115400448 word: 4 preys
+T199.00316078600008 may: 4 
+T199.00319776902325 question done
+T204.9529816910217 Press <Enter> to 📋 or `>` for line prompt 
+T204.95876122399932 result: "squareword.org 1069: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1069"
+T204.96034762400086 <STOP>
