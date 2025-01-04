@@ -3986,3 +3986,18 @@ See log/squareword.org/#1069
 # 2025-01-04 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1099
+
+# 2025-01-04 https://wordnerd.co/wordchain
+
+```
+🤔 7 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 7 chain words
+from 'weekend' to 'example'
+⏱️ 0:01:26.454766
+```
+
+📜 0 sessions
+🫧 1 chat sessions
+⁉️ 3 chat prompts
+🤖 3 llama3.2:latest replies
