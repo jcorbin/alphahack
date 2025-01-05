@@ -15,7 +15,7 @@ html5lib = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.12"
+python_version = "3.13"
 
 [scripts]
 alpha = "./binartic.py --words nwl2023.txt"
