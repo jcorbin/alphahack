@@ -11,14 +11,10 @@ from strkit import spliterate, wraplines
 from ui import PromptUI
 
 def get_olm_models(client: ollama.Client) -> Generator[str]:
-    models = cast(object, client.list()['models'])
-    assert isinstance(models, list)
-    for x in cast(list[object], models):
-        assert isinstance(x, dict)
-        x = cast(dict[str, object], x)
-        name = x.get('name')
-        assert isinstance(name, str)
-        yield name
+    # TODO inline
+    for model in client.list().models:
+        if model.model is not None:
+            yield model.model
 
 def count_tokens(s: str):
     return sum(1 for _ in re.finditer(r'[^\s]+', s))
