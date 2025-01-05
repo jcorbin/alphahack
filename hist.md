@@ -4038,3 +4038,15 @@ See log/squareword.org/#1070
 # 2025-01-05 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1100
+
+# 2025-01-05 alphaguess.com
+
+```
+🧩 Puzzle #530
+
+🤔 8 guesses
+
+⏱️ 12s
+
+🔗 alphaguess.com
+```
