@@ -4050,3 +4050,24 @@ See log/play.dictionary.com_games_todays-hurdle/#1100
 
 🔗 alphaguess.com
 ```
+
+# 2025-01-05 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 1007
+🤔 586 guesses
+    😱   1
+    🔥   4
+    🥵  20
+    😎  82
+    🥶 458
+    🧊  21
+⏱️ 0:42:39.204289
+```
+
+🤔 587 attempts
+📜 1 sessions
+🫧 16 chat sessions
+⁉️ 91 chat prompts
+🤖 91 gemma2:latest replies
