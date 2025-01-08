@@ -1,0 +1,122 @@
+T0.00016024400247260928 now: 2025-01-08T09:36:51EST
+T0.00021540402667596936 site: squareword.org
+T8.169333516038023 🧩  ? #1073
+T8.169827587029431 puzzle_id: #1073
+T9.24307118402794 > *
+T9.336049197008833 questioning: ["brand", "#5 found:1012 hypo:11881376"]
+T13.643208339984994 brand ( #5 found:1012 hypo:11881376 ) ? 
+T14.41555153002264 brand ( #5 found:1012 hypo:11881376 ) > 
+T19.536949473025743 brand ( #5 found:1012 hypo:11881376 ) 1> __a ~ r
+T19.537941899034195 word: 0 __a__
+T19.537974043982103 may: 0 r
+T22.09696775401244 brand ( #5 found:1012 hypo:11881376 ) 2> ~ a
+T22.097556922992226 word: 1 _____
+T22.09758260601666 may: 1 a
+T23.439963524986524 brand ( #5 found:1012 hypo:11881376 ) 3> ~ r
+T23.440176412987057 word: 2 _____
+T23.4401969150058 may: 2 r
+T25.138747916033026 brand ( #5 found:1012 hypo:11881376 ) 4> ~ an
+T25.138944286038168 word: 3 _____
+T25.138963109988254 may: 3 a n
+T27.480957924039103 brand ( #5 found:1012 hypo:11881376 ) 5> __a ~ r
+T27.481254626996815 word: 4 __a__
+T27.481286520021968 may: 4 r
+T27.481311445997562 question done
+T31.042684006039053 > /no db
+T31.043227616988588 nope: b d
+T31.723932348017115 > *
+T32.04504363698652 questioning: ["crams", "#1 found:26 hypo:13824"]
+T39.119593944982626 crams ( #1 found:26 hypo:13824 ) ? 
+T39.7992801819928 crams ( #1 found:26 hypo:13824 ) > 
+T43.17368400999112 crams ( #1 found:26 hypo:13824 ) 1> __a_s ~ rs
+T43.173989547009114 word: 0 __a_s
+T43.17402806400787 may: 0 r s
+T45.774223532003816 crams ( #1 found:26 hypo:13824 ) 2> ~ ac
+T45.77446618600516 word: 1 _____
+T45.7745023870375 may: 1 a c
+T48.76182021200657 crams ( #1 found:26 hypo:13824 ) 3> 
+T50.69944327900885 crams ( #1 found:26 hypo:13824 ) 4> ~ an
+T50.699672768998425 word: 3 _____
+T50.69970514503075 may: 3 a n
+T54.064475075982045 crams ( #1 found:26 hypo:13824 ) 5> ~ rs
+T54.06467997201253 word: 4 __a__
+T54.06471109302947 may: 4 r s
+T54.06473798403749 question done
+T57.46927649702411 > /no m
+T57.46948401100235 nope: b d m
+T58.140850997006055 > *
+T58.57563794602174 questioning: ["spars", "#1 found:7 hypo:46"]
+T65.86689632601338 spars ( #1 found:7 hypo:46 ) ? __ars 
+T77.53003325301688 spars ( #1 found:7 hypo:46 ) 1> __ars 
+T77.53026599698933 word: 0 __ars
+T77.53029223403428 may: 0 s
+T79.51792636502068 spars ( #1 found:7 hypo:46 ) 2> 
+T80.71964324702276 spars ( #1 found:7 hypo:46 ) 3> ~ rp
+T80.71988541202154 word: 2 _____
+T80.71993858902715 may: 2 p r
+T82.18665865901858 spars ( #1 found:7 hypo:46 ) 4> 
+T85.41971316799754 spars ( #1 found:7 hypo:46 ) 5> s_ar
+T85.41983440000331 word: 4 s_ar_
+T85.41985010699136 may: 4 
+T85.41986252303468 question done
+T87.12861121800961 > *
+T87.39403412002139 questioning: ["tsars", "#1 found:6 hypo:23"]
+T92.90054545702878 tsars ( #1 found:6 hypo:23 ) ? 
+T93.4943663420272 tsars ( #1 found:6 hypo:23 ) > 
+T94.94832394900732 tsars ( #1 found:6 hypo:23 ) 1> tsars
+T94.94851732702227 word: 0 tsars
+T94.94854607101297 may: 0 
+T97.57329521502834 tsars ( #1 found:6 hypo:23 ) 2> ~ act
+T97.57351851201383 word: 1 _____
+T97.57354943000246 may: 1 a c t
+T102.07737246103352 tsars ( #1 found:6 hypo:23 ) 3> 5 ~ t
+T102.07761334301904 word: 4 s_ar_
+T102.07764528901316 may: 4 t
+T102.07767344400054 question done
+T103.68439968401799 > *
+T103.87153989903163 questioning: ["actin", "#2 found:1 hypo:3174"]
+T109.74414038500981 actin ( #2 found:1 hypo:3174 ) ? 
+T114.02967377600726 actin ( #2 found:1 hypo:3174 ) > 2 a_ti ~ ct
+T114.02990287303692 word: 1 a_ti_
+T114.02996421698481 may: 1 c t
+T121.02579636801966 actin ( #2 found:1 hypo:3174 ) 3> 4 a___n ~ ni
+T121.02606879000086 word: 3 a___n
+T121.02609759499319 may: 3 i n
+T123.5612104079919 actin ( #2 found:1 hypo:3174 ) 5> 
+T123.56133045098977 question done
+T124.89724382199347 > *
+T125.69890590402065 questioning: ["attic", "#2 found:1 hypo:2"]
+T139.4624520750367 attic ( #2 found:1 hypo:2 ) ? 
+T139.76359305199003 attic ( #2 found:1 hypo:2 ) > 
+T140.3922322919825 attic ( #2 found:1 hypo:2 ) 1> 
+T141.48206249199575 attic ( #2 found:1 hypo:2 ) 2> attic
+T141.4823610340245 word: 1 attic
+T141.48240592103684 may: 1 
+T149.6512684050249 attic ( #2 found:1 hypo:2 ) 3> 5 star ~ t
+T149.65153930400265 word: 4 star_
+T149.65156357502565 may: 4 t
+T149.65158249501837 question done
+T151.55406297603622 > *
+T152.2353520100005 questioning: ["anion", "#4 found:1 hypo:46"]
+T156.9195844460046 anion ( #4 found:1 hypo:46 ) ? 
+T158.63292796799215 anion ( #4 found:1 hypo:46 ) > 4 anion
+T158.63312610803405 word: 3 anion
+T158.6331453769817 may: 3 
+T163.39032309799222 question done
+T164.3946381980204 > *
+T165.1545807599905 questioning: ["purge", "#3 found:1 hypo:24334"]
+T169.0662081000046 purge ( #3 found:1 hypo:24334 ) ? 
+T170.42801234999206 purge ( #3 found:1 hypo:24334 ) > 3 purge
+T170.428274106991 word: 2 purge
+T170.4283020820003 may: 2 
+T171.83960320503684 question done
+T173.02229772601277 > *
+T173.52552023902535 questioning: ["start", "#5 found:1 hypo:1"]
+T177.23646898398874 start ( #5 found:1 hypo:1 ) ? 
+T178.21833636198426 start ( #5 found:1 hypo:1 ) > 5 start
+T178.21862808498554 word: 4 start
+T178.21866013400722 may: 4 
+T178.218689212983 question done
+T184.0455866010161 Press <Enter> to 📋 or `>` for line prompt 
+T184.05021153902635 result: "squareword.org 1073: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1073"
+T184.0512285840232 <STOP>
