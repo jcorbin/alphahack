@@ -4208,3 +4208,18 @@ See log/squareword.org/#1073
 # 2025-01-08 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1103
+
+# 2025-01-08 https://wordnerd.co/wordchain
+
+```
+🤔 3 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 3 chain words
+from 'focus' to 'neck'
+⏱️ 0:02:47.713524
+```
+
+📜 0 sessions
+🫧 1 chat sessions
+⁉️ 1 chat prompts
+🤖 1 llama3.2:latest replies

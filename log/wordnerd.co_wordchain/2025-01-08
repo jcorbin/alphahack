@@ -1,0 +1,26 @@
+T0.00018474902026355267 now: 2025-01-08T09:47:21EST
+T0.0002297380124218762 site: https://wordnerd.co/wordchain
+T0.00371432100655511 session model: llama3.2:latest
+T0.003737216000445187 system_prompt: "You are a related word suggestion oracle. When asked to connect two words, you provide a numbered list of word, each related to the next, eventually connecting the two words given by the user."
+T1.8297715890221298 first word? focus
+T2.751577567018103 last word? neck
+T3.234376506996341 ? *
+T3.234620500996243 chat_prompt: Give me a series of words that connects the meaning of $A to $B.
+T3.234814519993961 session: {"role": "system", "content": "You are a related word suggestion oracle. When asked to connect two words, you provide a numbered list of word, each related to the next, eventually connecting the two words given by the user."}
+T3.2348569729947485 session: {"role": "user", "content": "Give me a series of words that connects the meaning of \"focus\" to \"neck\"."}
+T12.175443219020963 session: {"role": "assistant", "content": "Here's a series of words that connects the meaning of \"focus\" to \"neck\":\n\n1. Attention\n2. Eye (as in, focusing your attention on something with your eye)\n3. Visual\n4. Sight\n5. Perception\n6. Sensory\n7. Nerve\n8. Spinal\n9. Backbone\n10. Neck\n\nEach word builds upon the previous one to create a connection from \"focus\" to \"neck\"."}
+T144.42951242503477 ? spinal
+T145.09894463903038 📋 "spinal" order? b
+T145.09934594103834 word: "spinal" -1
+T148.79684343002737 ? sight
+T149.17047476698644 📋 "sight" order? a
+T149.1706699419883 word: "sight" 2
+T154.90028510498814 ? sens
+T155.82876676600426 📋 "sensory" order? it
+T157.92861137801083 📋 "sensory" order? =
+T157.92883713700576 word: "sensory" 0
+T162.70312152098631 Press <Enter> to 📋, or `>` for line prompt 
+T162.70796055003302 share result: "sensory"
+T166.26560275204247 Press <Enter> to 📋, or `>` for line prompt 
+T166.2723714740132 share result: "\ud83e\udd13 I solved today's word chain using 3 added words!\n\nfocus \ud83d\udd17\ud83d\udd17\ud83d\udd17 neck\n\nhttps://wordnerd.co/wordchain"
+T166.272567462991 <STOP>
