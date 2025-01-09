@@ -4287,3 +4287,7 @@ from 'focus' to 'neck'
 # 2025-01-09 squareword.org
 
 See log/squareword.org/#1074
+
+# 2025-01-09 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1104
