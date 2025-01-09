@@ -4291,3 +4291,18 @@ See log/squareword.org/#1074
 # 2025-01-09 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1104
+
+# 2025-01-09 https://wordnerd.co/wordchain
+
+```
+🤔 3 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 3 chain words
+from 'boyfriend' to 'reaction'
+⏱️ 0:00:43.480065
+```
+
+📜 0 sessions
+🫧 1 chat sessions
+⁉️ 1 chat prompts
+🤖 1 llama3.2:latest replies
