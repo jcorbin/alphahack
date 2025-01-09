@@ -1,0 +1,148 @@
+T0.00015189399709925056 now: 2025-01-09T08:59:39EST
+T0.00019401899771764874 site: squareword.org
+T2.311575116997119 🧩  ? #1074
+T2.3121268909890205 puzzle_id: #1074
+T3.120240265969187 > *
+T3.2098461149726063 questioning: ["papal", "#5 found:5648 hypo:11881376"]
+T6.49740843300242 papal ( #5 found:5648 hypo:11881376 ) ? 
+T7.3464810909936205 papal ( #5 found:5648 hypo:11881376 ) > 
+T8.836919118009973 papal ( #5 found:5648 hypo:11881376 ) 1> ~ pa
+T8.837960588978603 word: 0 _____
+T8.837984337995294 may: 0 a p
+T10.658401159977075 papal ( #5 found:5648 hypo:11881376 ) 2> _a
+T10.658577879017685 word: 1 _a___
+T10.658596410998143 may: 1 
+T12.577539737976622 papal ( #5 found:5648 hypo:11881376 ) 3> ~a
+T12.577803738997318 word: 2 _____
+T12.577829690999351 may: 2 a
+T13.477600464015268 papal ( #5 found:5648 hypo:11881376 ) 4> 
+T15.513999975984916 papal ( #5 found:5648 hypo:11881376 ) 5> _a
+T15.51430718501797 word: 4 _a___
+T15.514341685979161 may: 4 
+T15.514373508980498 question done
+T16.581364987010602 > *
+T16.794639936997555 questioning: ["arpen", "#1 found:37 hypo:35152"]
+T184.21180864499183 arpen ( #1 found:37 hypo:35152 ) ? 
+T184.86627567600226 arpen ( #1 found:37 hypo:35152 ) > 
+T187.35540808696533 arpen ( #1 found:37 hypo:35152 ) 1> ____n
+T187.3556088670157 word: 0 ____n
+T187.3556444689748 may: 0 a p
+T189.04036113701295 arpen ( #1 found:37 hypo:35152 ) 2> 
+T197.12982022197684 arpen ( #1 found:37 hypo:35152 ) 3> a__e ~ r
+T197.1301520499983 word: 2 a__e_
+T197.13019595097285 may: 2 r
+T199.8821554509923 arpen ( #1 found:37 hypo:35152 ) 4> ~ r
+T199.8823440669803 word: 3 _____
+T199.88236706500174 may: 3 r
+T203.66556174797006 arpen ( #1 found:37 hypo:35152 ) 5> _a_e ~ r
+T203.66581512900302 word: 4 _a_e_
+T203.6658484429936 may: 4 r
+T203.66587998101022 question done
+T241.17146667197812 > /no l
+T241.17214526998578 nope: l
+T243.20853924099356 > *
+T243.679696539999 questioning: ["apian", "#1 found:1 hypo:1250"]
+T263.939162123017 apian ( #1 found:1 hypo:1250 ) ? 
+T264.51654418499675 apian ( #1 found:1 hypo:1250 ) > 
+T269.1776981820003 apian ( #1 found:1 hypo:1250 ) 1> _p__n ~ a
+T269.1779377720086 word: 0 _p__n
+T269.17796186497435 may: 0 a
+T271.1144255810068 apian ( #1 found:1 hypo:1250 ) 2> 
+T275.41055683000013 question done
+T276.48111766501097 > /no i
+T276.4813371869968 nope: i l
+T277.32544942200184 > *
+T277.7731233550003 questioning: ["spean", "#1 found:3 hypo:576"]
+T281.1090618739836 spean ( #1 found:3 hypo:576 ) ? 
+T281.9924920889898 spean ( #1 found:3 hypo:576 ) > 
+T285.2670616399846 spean ( #1 found:3 hypo:576 ) 1> sp__n
+T285.2671672349679 word: 0 sp__n
+T285.26717875601025 may: 0 a
+T287.34462546597933 spean ( #1 found:3 hypo:576 ) 2> 
+T290.6632072539651 spean ( #1 found:3 hypo:576 ) 3> ~ rs
+T290.6634469369892 word: 2 a__e_
+T290.6634734289837 may: 2 r s
+T293.0805642220075 spean ( #1 found:3 hypo:576 ) 4> s_
+T293.0806658049696 word: 3 s____
+T293.0806756839738 may: 3 r
+T295.96767102897866 spean ( #1 found:3 hypo:576 ) 5> ~ rs
+T295.9677951710182 word: 4 _a_e_
+T295.967806235014 may: 4 r s
+T295.9678163229837 question done
+T298.0886455139844 > *
+T298.7866511020111 questioning: ["spean", "#1 found:2 hypo:24"]
+T441.3534453730099 spean ( #1 found:2 hypo:24 ) ? *
+T443.39039009599946 question done
+T444.4285025909776 > *
+T444.97298152401345 questioning: ["spean", "#1 found:2 hypo:24"]
+T447.20417030196404 spean ( #1 found:2 hypo:24 ) ? !
+T447.2042853559833 reject: spean
+T447.87069098098436 > *
+T448.66117908700835 questioning: ["spawn", "#1 found:1 hypo:24"]
+T452.6292765070102 spawn ( #1 found:1 hypo:24 ) ? 
+T454.8980709380121 spawn ( #1 found:1 hypo:24 ) > 1 spawn
+T454.89825201098574 word: 0 spawn
+T454.89827196201077 may: 0 
+T459.22766277898336 spawn ( #1 found:1 hypo:24 ) 2> 
+T460.3334691869677 question done
+T460.84238968096906 > *
+T461.5718360780156 questioning: ["maser", "#5 found:3 hypo:48"]
+T501.3734531599912 maser ( #5 found:3 hypo:48 ) ? 
+T504.28963234397816 maser ( #5 found:3 hypo:48 ) > 2 ma
+T504.28987579699606 word: 1 ma___
+T504.28990553697804 may: 1 
+T511.49410468997667 maser ( #5 found:3 hypo:48 ) 3> a__er ~ s
+T511.49436399299884 word: 2 a__er
+T511.4944274299778 may: 2 s
+T516.1204467829666 maser ( #5 found:3 hypo:48 ) 4> ~ rm
+T516.1206472049817 word: 3 s____
+T516.1206670110114 may: 3 m r
+T520.0380168950069 maser ( #5 found:3 hypo:48 ) 5> 
+T520.0381380969775 question done
+T521.2157640969963 > *
+T522.3094371539773 questioning: ["hares", "#5 found:1 hypo:48"]
+T531.6457623689785 hares ( #5 found:1 hypo:48 ) ? 
+T533.8025899999775 hares ( #5 found:1 hypo:48 ) > 5 hares
+T533.8028720919974 word: 4 hares
+T533.8028993479675 may: 4 
+T533.8029256680165 question done
+T538.0356532830046 > hares
+T538.0363857009797 questioning: ["hares", "entered"]
+T541.0329315059935 hares ( entered ) ? 2 ~ h
+T541.0331484429771 guess: hares
+T541.0332307679928 word: 1 ma___
+T541.0332506899722 may: 1 h
+T544.5713904669974 hares ( entered ) 3> 
+T545.1745435119956 question done
+T545.7089337040088 > *
+T546.6244041160098 questioning: ["macho", "#2 found:2 hypo:576"]
+T549.4820749660139 macho ( #2 found:2 hypo:576 ) ? 
+T550.9148581710178 macho ( #2 found:2 hypo:576 ) > 2 macho
+T550.9151263220119 word: 1 macho
+T550.9151664879755 may: 1 
+T554.902254977962 macho ( #2 found:2 hypo:576 ) 3> 
+T557.0322157269693 macho ( #2 found:2 hypo:576 ) 4> ~ rmo
+T557.0325123720104 word: 3 s____
+T557.0325987059623 may: 3 m o r
+T558.3323236739961 question done
+T559.0235999390134 > *
+T559.7736103679636 questioning: ["aster", "#3 found:1 hypo:24"]
+T670.196542160993 aster ( #3 found:1 hypo:24 ) ? 
+T671.4438970700139 aster ( #3 found:1 hypo:24 ) > 3 aster
+T671.4441510899924 word: 2 aster
+T671.4441804389935 may: 2 
+T676.1163838049979 aster ( #3 found:1 hypo:24 ) 4> ~ rmot
+T676.1166481350083 word: 3 s____
+T676.1166956539964 may: 3 m o r t
+T678.2485384289757 question done
+T678.8704632889712 > *
+T679.3501436070073 questioning: ["storm", "#4 found:1 hypo:24"]
+T680.9699357849895 storm ( #4 found:1 hypo:24 ) ? 
+T685.5348711659899 storm ( #4 found:1 hypo:24 ) > 4 storm
+T685.5350699200062 word: 3 storm
+T685.5350935069728 may: 3 
+T690.1617119979928 storm ( #4 found:1 hypo:24 ) 5> 
+T690.1618039180175 question done
+T690.5688071369659 Press <Enter> to 📋 or `>` for line prompt 
+T690.5736321599688 result: "squareword.org 1074: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1074"
+T690.5747729759896 <STOP>
