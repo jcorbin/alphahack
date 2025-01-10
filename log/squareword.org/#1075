@@ -1,0 +1,143 @@
+T0.0002445880090817809 now: 2025-01-10T09:39:20EST
+T0.00041621801210567355 site: squareword.org
+T3.5700023609679192 🧩  ? #1075
+T3.5702882389887236 puzzle_id: #1075
+T4.28567514999304 > *
+T4.38045808597235 questioning: ["focal", "#5 found:2900 hypo:11881376"]
+T9.875406006001867 focal ( #5 found:2900 hypo:11881376 ) ? 
+T10.701375628996175 focal ( #5 found:2900 hypo:11881376 ) > 
+T12.200380552967545 focal ( #5 found:2900 hypo:11881376 ) 1> ~ al
+T12.201543561997823 word: 0 _____
+T12.201572816004045 may: 0 a l
+T13.622460284968838 focal ( #5 found:2900 hypo:11881376 ) 2> ~ o
+T13.622708591981791 word: 1 _____
+T13.622739189013373 may: 1 o
+T16.59031686896924 focal ( #5 found:2900 hypo:11881376 ) 3> ___a ~ a
+T16.59065973799443 word: 2 ___a_
+T16.59070735098794 may: 2 a
+T18.737271542020608 focal ( #5 found:2900 hypo:11881376 ) 4> ~ c
+T18.73738190496806 word: 3 _____
+T18.737390041002072 may: 3 c
+T22.455866003991105 question done
+T24.04153224901529 > /no f
+T24.04205729899695 nope: f
+T24.65532981598517 > *
+T25.00815871998202 questioning: ["algas", "#3 found:11 hypo:15625"]
+T35.16171705699526 algas ( #3 found:11 hypo:15625 ) ? 
+T35.58915383100975 algas ( #3 found:11 hypo:15625 ) > 
+T38.26080189400818 algas ( #3 found:11 hypo:15625 ) 1> _l ~ as
+T38.26102263800567 word: 0 _l___
+T38.26104334497359 may: 0 a s
+T40.27794679696672 algas ( #3 found:11 hypo:15625 ) 2> 
+T43.25729030300863 algas ( #3 found:11 hypo:15625 ) 3> a__a
+T43.25760548497783 word: 2 a__a_
+T43.257648543978576 may: 2 
+T44.64598031999776 algas ( #3 found:11 hypo:15625 ) 4> 
+T47.104141072020866 algas ( #3 found:11 hypo:15625 ) 5> __g
+T47.10433593398193 word: 4 __g__
+T47.104358145967126 may: 4 
+T47.10437921597622 question done
+T67.29334756097523 > *
+T67.54429261700716 questioning: ["array", "#3 found:31 hypo:15625"]
+T71.61929811100708 array ( #3 found:31 hypo:15625 ) ? 
+T73.47323426097864 array ( #3 found:31 hypo:15625 ) > 
+T74.46291355398716 array ( #3 found:31 hypo:15625 ) 1> 
+T75.66236989002209 array ( #3 found:31 hypo:15625 ) 2> 
+T77.4602776899701 array ( #3 found:31 hypo:15625 ) 3> 
+T79.55238543101586 array ( #3 found:31 hypo:15625 ) 4> 
+T80.40543285402237 array ( #3 found:31 hypo:15625 ) 5> 
+T80.40558723499998 question done
+T82.09993686701637 > /no ry
+T82.10011212399695 nope: f r y
+T82.81601338001201 > *
+T83.23853897099616 questioning: ["apian", "#3 found:12 hypo:12167"]
+T86.7457715299679 apian ( #3 found:12 hypo:12167 ) ? 
+T89.95656537200557 apian ( #3 found:12 hypo:12167 ) > 
+T91.48563121497864 apian ( #3 found:12 hypo:12167 ) 1> 
+T94.37009649199899 apian ( #3 found:12 hypo:12167 ) 2> ~ opi
+T94.37029808398802 word: 1 _____
+T94.3703196310089 may: 1 i o p
+T98.39262535597663 apian ( #3 found:12 hypo:12167 ) 3> a_ian
+T98.39283600699855 word: 2 a_ian
+T98.39285808696877 may: 2 
+T101.09674624697072 apian ( #3 found:12 hypo:12167 ) 4> ~ cin
+T101.09697038197191 word: 3 _____
+T101.09699982701568 may: 3 c i n
+T103.65822947199922 question done
+T131.58078732999275 > *
+T131.99350030202186 questioning: ["avian", "#3 found:2 hypo:23"]
+T135.5956127649988 avian ( #3 found:2 hypo:23 ) ? 
+T137.196270875982 avian ( #3 found:2 hypo:23 ) > 3 avian
+T137.19650367996655 word: 2 avian
+T137.19652696099365 may: 2 
+T140.84943555900827 question done
+T141.43843576399377 > *
+T141.88351124100154 questioning: ["vinca", "#4 found:13 hypo:3174"]
+T145.55497791897506 vinca ( #4 found:13 hypo:3174 ) ? 
+T147.27406132296892 vinca ( #4 found:13 hypo:3174 ) > 
+T148.77985192101914 vinca ( #4 found:13 hypo:3174 ) 1> _l
+T148.78011975897243 word: 0 _l___
+T148.7801602280233 may: 0 a s
+T151.07849103602348 vinca ( #4 found:13 hypo:3174 ) 2> _i
+T151.0786762610078 word: 1 _i___
+T151.07870579999872 may: 1 o p
+T155.4691239729873 vinca ( #4 found:13 hypo:3174 ) 3> 
+T157.18524245999288 vinca ( #4 found:13 hypo:3174 ) 4> _inc
+T157.1855261559831 word: 3 _inc_
+T157.18556856299983 may: 3 
+T159.45092403999297 question done
+T160.06394704600098 > *
+T160.8709379339707 questioning: ["edged", "#5 found:1 hypo:279841"]
+T164.50213759497274 edged ( #5 found:1 hypo:279841 ) ? 
+T169.31723076599883 edged ( #5 found:1 hypo:279841 ) > 4 ~ e
+T169.3174977430026 word: 3 _inc_
+T169.31757834600285 may: 3 e
+T171.70037727901945 edged ( #5 found:1 hypo:279841 ) 5> edged
+T171.70059974701144 word: 4 edged
+T171.7006242920179 may: 4 
+T171.70064606599044 question done
+T173.47162802901585 > 
+T186.24392548197648 > *
+T187.35374528099783 questioning: ["hippo", "#2 found:1 hypo:1058"]
+T191.07756396802142 hippo ( #2 found:1 hypo:1058 ) ? 
+T193.2313871809747 hippo ( #2 found:1 hypo:1058 ) > 
+T194.72007834201213 hippo ( #2 found:1 hypo:1058 ) 1> ~ ash
+T194.7204059200012 word: 0 _l___
+T194.72044028696837 may: 0 a h s
+T196.0137317039771 hippo ( #2 found:1 hypo:1058 ) 2> hippo
+T196.0139152139891 word: 1 hippo
+T196.01393810199806 may: 1 
+T198.7759843110107 question done
+T199.7532825159724 > *
+T200.53602962801233 questioning: ["since", "#4 found:2 hypo:23"]
+T203.97366533597233 since ( #4 found:2 hypo:23 ) ? 
+T204.48327435797546 since ( #4 found:2 hypo:23 ) > 
+T206.36795313598122 since ( #4 found:2 hypo:23 ) 1> sl
+T206.3680553099839 word: 0 sl___
+T206.36806705099298 may: 0 a h
+T209.14542882301612 since ( #4 found:2 hypo:23 ) 2> 1 ~ ash
+T209.14561712997966 word: 0 sl___
+T209.14563699997962 may: 0 a h s
+T213.55895977799082 since ( #4 found:2 hypo:23 ) 2> 4 _ince
+T213.559209974017 word: 3 _ince
+T213.55924034997588 may: 3 
+T215.2066346919746 question done
+T215.7174853339675 > *
+T216.47261076897848 questioning: ["slash", "#1 found:1 hypo:6"]
+T219.072335749981 slash ( #1 found:1 hypo:6 ) ? 
+T220.45950290199835 slash ( #1 found:1 hypo:6 ) > 1 slash
+T220.45969495899044 word: 0 slash
+T220.45971647801343 may: 0 
+T222.68879860796733 slash ( #1 found:1 hypo:6 ) 2> 
+T223.26094908599043 question done
+T223.76860869600205 > *
+T224.27324081899133 questioning: ["mince", "#4 found:1 hypo:23"]
+T228.25077418697765 mince ( #4 found:1 hypo:23 ) ? 
+T229.76858401700156 mince ( #4 found:1 hypo:23 ) > 4 mince
+T229.76879643497523 word: 3 mince
+T229.76882087701233 may: 3 
+T234.25589029997354 mince ( #4 found:1 hypo:23 ) 5> 
+T234.256047294999 question done
+T234.97661745199002 Press <Enter> to 📋 or `>` for line prompt 
+T234.98124173801625 result: "squareword.org 1075: 11 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe7\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1075"
+T234.98221121000824 <STOP>

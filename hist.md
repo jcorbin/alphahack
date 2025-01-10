@@ -4366,3 +4366,7 @@ from 'boyfriend' to 'reaction'
 
 🔗 alphaguess.com
 ```
+
+# 2025-01-10 squareword.org
+
+See log/squareword.org/#1075
