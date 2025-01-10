@@ -4374,3 +4374,18 @@ See log/squareword.org/#1075
 # 2025-01-10 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1105
+
+# 2025-01-10 https://wordnerd.co/wordchain
+
+```
+🤔 4 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 4 chain words
+from 'survey' to 'appearance'
+⏱️ 0:01:35.921533
+```
+
+📜 0 sessions
+🫧 1 chat sessions
+⁉️ 1 chat prompts
+🤖 1 llama3.2:latest replies
