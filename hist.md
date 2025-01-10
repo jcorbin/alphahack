@@ -4370,3 +4370,7 @@ from 'boyfriend' to 'reaction'
 # 2025-01-10 squareword.org
 
 See log/squareword.org/#1075
+
+# 2025-01-10 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1105
