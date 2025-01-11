@@ -1,0 +1,150 @@
+T0.00020044500706717372 now: 2025-01-11T09:59:33EST
+T0.00025021599140018225 site: squareword.org
+T3.1755780189996585 🧩  ? #1076
+T3.176129775994923 puzzle_id: #1076
+T4.5401047299965285 > *
+T4.625032116018701 questioning: ["husks", "#5 found:3852 hypo:11881376"]
+T7.828901304979809 husks ( #5 found:3852 hypo:11881376 ) ? 
+T8.773422833997756 husks ( #5 found:3852 hypo:11881376 ) > 
+T10.63401924999198 husks ( #5 found:3852 hypo:11881376 ) 1> _us_s
+T10.635230696003418 word: 0 _us_s
+T10.635288314020727 may: 0 
+T12.446804841980338 husks ( #5 found:3852 hypo:11881376 ) 2> ~s
+T12.44755595101742 word: 1 _____
+T12.447599656996317 may: 1 s
+T13.86612368398346 husks ( #5 found:3852 hypo:11881376 ) 3> ~h
+T13.866350312018767 word: 2 _____
+T13.866406426997855 may: 2 h
+T14.777401923027355 husks ( #5 found:3852 hypo:11881376 ) 4> 
+T16.741587841999717 husks ( #5 found:3852 hypo:11881376 ) 5> __s
+T16.741899264976382 word: 4 __s__
+T16.741951132018585 may: 4 
+T16.74197362503037 question done
+T19.025146323023364 > /no k
+T19.02563861903036 nope: k
+T19.606968556996435 > *
+T19.98859701602487 questioning: ["cusps", "#1 found:3 hypo:625"]
+T23.793264974025078 cusps ( #1 found:3 hypo:625 ) ? 
+T24.788320136023685 cusps ( #1 found:3 hypo:625 ) > 
+T25.278934218978975 cusps ( #1 found:3 hypo:625 ) 1> 
+T26.19712609302951 cusps ( #1 found:3 hypo:625 ) 2> 
+T29.112168533029035 cusps ( #1 found:3 hypo:625 ) 3> c_
+T29.112403588020243 word: 2 c____
+T29.11242613598006 may: 2 h
+T32.424972852983046 cusps ( #1 found:3 hypo:625 ) 4> ___p
+T32.425234413996805 word: 3 ___p_
+T32.42526591202477 may: 3 
+T35.218289766984526 cusps ( #1 found:3 hypo:625 ) 5> 
+T35.21841164701618 question done
+T36.311412868031766 > *
+T36.46025258000009 questioning: ["lusts", "#1 found:7 hypo:625"]
+T40.111906278994866 lusts ( #1 found:7 hypo:625 ) ? 
+T40.719483939989004 lusts ( #1 found:7 hypo:625 ) > 
+T42.25086212600581 lusts ( #1 found:7 hypo:625 ) 1> _usts
+T42.251152777986135 word: 0 _usts
+T42.25120031699771 may: 0 
+T45.08278741699178 lusts ( #1 found:7 hypo:625 ) 2> ~slt
+T45.08298684901092 word: 1 _____
+T45.08301704999758 may: 1 l s t
+T48.101015658990946 lusts ( #1 found:7 hypo:625 ) 3> 
+T50.11537584703183 lusts ( #1 found:7 hypo:625 ) 4> ~t
+T50.11556634597946 word: 3 ___p_
+T50.11558325501392 may: 3 t
+T52.526781244028825 lusts ( #1 found:7 hypo:625 ) 5> 
+T52.52690132200951 question done
+T53.17215333000058 > *
+T53.45480864099227 questioning: ["steal", "#2 found:5 hypo:3750"]
+T57.61764293798478 steal ( #2 found:5 hypo:3750 ) ? 
+T58.26976103999186 steal ( #2 found:5 hypo:3750 ) > 
+T59.738261933031026 steal ( #2 found:5 hypo:3750 ) 1> ~slte
+T59.73848618299235 word: 0 _usts
+T59.738511733012274 may: 0 e l s t
+T65.60453420801787 steal ( #2 found:5 hypo:3750 ) 2> 1 ~
+T65.6046449689893 word: 0 _usts
+T65.60465386399301 may: 0 
+T68.44916596199619 steal ( #2 found:5 hypo:3750 ) 2> ~ slte
+T68.44945868401555 word: 1 _____
+T68.44948663300602 may: 1 e l s t
+T70.53275922400644 steal ( #2 found:5 hypo:3750 ) 3> ~ he
+T70.5329845250235 word: 2 c____
+T70.53300778602716 may: 2 e h
+T72.22087188699516 steal ( #2 found:5 hypo:3750 ) 4> ~ te
+T72.22108195198234 word: 3 ___p_
+T72.22110482800053 may: 3 e t
+T74.07299138599774 steal ( #2 found:5 hypo:3750 ) 5> ~ a
+T74.07326038199244 word: 4 __s__
+T74.07328506599879 may: 4 a
+T74.0733062599902 question done
+T74.77443080098601 > *
+T75.05175121303182 questioning: ["steel", "#2 found:4 hypo:600"]
+T86.07261672697496 steel ( #2 found:4 hypo:600 ) ? 
+T86.42598678701324 steel ( #2 found:4 hypo:600 ) > 
+T87.13484737300314 steel ( #2 found:4 hypo:600 ) 1> 
+T90.36601909197634 steel ( #2 found:4 hypo:600 ) 2> ___e
+T90.36618562100921 word: 1 ___e_
+T90.36620570201194 may: 1 l s t
+T92.3152634089929 question done
+T93.11798759800149 > *
+T93.22725121298572 questioning: ["steel", "#2 found:3 hypo:150"]
+T94.77267085202038 steel ( #2 found:3 hypo:150 ) ? !
+T94.7727927750093 reject: steel
+T95.29069114802405 > *
+T95.29407306300709 questioning: ["sleet", "#2 found:2 hypo:150"]
+T99.15415707498323 sleet ( #2 found:2 hypo:150 ) ? 
+T100.00557613000274 sleet ( #2 found:2 hypo:150 ) > 
+T100.71716204099357 sleet ( #2 found:2 hypo:150 ) 1> 
+T102.9235095269978 sleet ( #2 found:2 hypo:150 ) 2> ___et
+T102.92370265902719 word: 1 ___et
+T102.9237236190238 may: 1 l s
+T106.44094972498715 question done
+T107.05772191297729 > *
+T107.15471254702425 questioning: ["sleet", "#2 found:2 hypo:50"]
+T108.54457919602282 sleet ( #2 found:2 hypo:50 ) ? !
+T108.54468773602275 reject: sleet
+T108.97550182102714 > *
+T108.97747417300707 questioning: ["islet", "#2 found:1 hypo:50"]
+T112.26133535202825 islet ( #2 found:1 hypo:50 ) ? 
+T113.36829834000673 islet ( #2 found:1 hypo:50 ) > 2 islet
+T113.36863266298315 word: 1 islet
+T113.3686647110153 may: 1 
+T120.74413139402168 islet ( #2 found:1 hypo:50 ) 3> ~ hei
+T120.74440411198884 word: 2 c____
+T120.74443411000539 may: 2 e h i
+T122.57156060700072 islet ( #2 found:1 hypo:50 ) 4> ~ tei
+T122.57168080698466 word: 3 ___p_
+T122.57168807298876 may: 3 e i t
+T125.04173611401347 question done
+T126.2379789550323 > *
+T126.83371672203066 questioning: ["chime", "#3 found:1 hypo:150"]
+T130.7750494729844 chime ( #3 found:1 hypo:150 ) ? 
+T131.91435525898123 chime ( #3 found:1 hypo:150 ) > 3 chime
+T131.91455726401182 word: 2 chime
+T131.91458000201965 may: 2 
+T136.22786531603197 chime ( #3 found:1 hypo:150 ) 4> ~ teim
+T136.22803697700147 word: 3 ___p_
+T136.22805596899707 may: 3 e i m t
+T137.4798929070239 question done
+T138.96533590601757 > *
+T139.87111489701783 questioning: ["tempi", "#4 found:1 hypo:24"]
+T142.92877568298718 tempi ( #4 found:1 hypo:24 ) ? 
+T144.2449048649869 tempi ( #4 found:1 hypo:24 ) > 4 tempi
+T144.24522102298215 word: 3 tempi
+T144.24525643599918 may: 3 
+T146.8225941369892 question done
+T147.3528290700051 > *
+T148.00269054202363 questioning: ["dusts", "#1 found:1 hypo:25"]
+T150.98702604399296 dusts ( #1 found:1 hypo:25 ) ? 
+T153.85207213799004 dusts ( #1 found:1 hypo:25 ) > 1 dusts
+T153.85229193797568 word: 0 dusts
+T153.8523166460218 may: 0 
+T154.50948273797985 question done
+T155.01352937502088 > *
+T155.53456104901852 questioning: ["arson", "#5 found:1 hypo:15625"]
+T159.08591069601243 arson ( #5 found:1 hypo:15625 ) ? 
+T160.41776347800624 arson ( #5 found:1 hypo:15625 ) > 5 arson
+T160.41812805802329 word: 4 arson
+T160.41818074003095 may: 4 
+T160.4182190510328 question done
+T164.50016349402722 Press <Enter> to 📋 or `>` for line prompt 
+T164.50545820000116 result: "squareword.org 1076: 11 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe7\ud83d\udfe7\ud83d\udfe9\ud83d\udfe7\ud83d\udfe7\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1076"
+T164.5066478329827 <STOP>

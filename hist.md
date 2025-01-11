@@ -4449,3 +4449,7 @@ from 'survey' to 'appearance'
 
 🔗 alphaguess.com
 ```
+
+# 2025-01-11 squareword.org
+
+See log/squareword.org/#1076
