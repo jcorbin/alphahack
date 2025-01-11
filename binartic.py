@@ -74,6 +74,7 @@ class Result:
     def parse(cls, text: str):
         res = cls()
 
+        some = False
         pat_puzzle = re.compile(r'🧩\s*(?:\w+\s*)?#(\d+)')
         pat_guess = re.compile(r'🤔\s*(\d+)(?:\s+\w+)?')
         pat_time = re.compile(r'⏱️\s*(.+)')
@@ -83,19 +84,26 @@ class Result:
             match = pat_puzzle.match(line)
             if match:
                 res.puzzle = int(match.group(1))
+                some = True
                 continue
             match = pat_guess.match(line)
             if match:
                 res.guesses = int(match.group(1))
+                some = True
                 continue
             match = pat_time.match(line)
             if match:
                 res.time = match.group(1)
+                some = True
                 continue
             match = pat_link.match(line)
             if match:
                 res.link = match.group(1)
+                some = True
                 continue
+
+        if not some:
+            raise ValueError('unrecognized result string')
 
         return res
 
