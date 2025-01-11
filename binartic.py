@@ -12,7 +12,7 @@ from typing import cast, final, override, Literal
 from urllib.parse import urlparse
 
 from store import StoredLog, git_txn
-from strkit import spliterate
+from strkit import spliterate, MarkedSpec
 from wordlist import Browser, WordList, format_browser_lines, whatadded
 from ui import PromptUI
 
@@ -440,7 +440,7 @@ class Search(StoredLog):
                     $''', rest)
                 if match:
                     srej, = match.groups()
-                    rej = json.loads(srej) # pyright: ignore[reportAny]
+                    rej = cast(object, json.loads(srej))
                     if not isinstance(rej, str): continue
                     self.result_text = rej
                     res = self.result
@@ -922,6 +922,43 @@ class Search(StoredLog):
             yield '* wid -- search window width, aka `hi-lo`'
             yield '* mid -- classic binary search midpoint, aka `hi/2+lo/2`'
             yield '* bias -- prefix seeking bias applied, aka `query-mid`'
+
+@MarkedSpec.mark(r'''
+
+    #ex
+    > 🧩 Puzzle #536
+    > 
+    > 🤔 12 guesses
+    > 
+    > ⏱️ 21s
+    > 
+    > 🔗 alphaguess.com
+    - puzzle: 536
+    - guesses: 12
+    - time: 21s
+    - link: alphaguess.com
+
+    #reload
+    > json:"\ud83e\udde9 Puzzle #536\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+    - puzzle: 536
+    - guesses: 12
+    - time: 21s
+    - link: alphaguess.com
+
+''')
+def test_parse_result(spec: MarkedSpec):
+    sin = spec.input
+    if sin.startswith('json:'):
+        rej = cast(object, json.loads(sin[5:]))
+        assert isinstance(rej, str)
+        sin = rej
+    res = Result.parse(sin)
+    for name, value in spec.props:
+        if name == 'puzzle': assert f'{res.puzzle}' == value
+        elif name == 'guesses': assert f'{res.guesses}' == value
+        elif name == 'time': assert f'{res.time}' == value
+        elif name == 'link': assert f'{res.link}' == value
+        else: raise ValueError(f'unknown test expectation {name}')
 
 if __name__ == '__main__':
     Search.main()
