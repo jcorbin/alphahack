@@ -4453,3 +4453,7 @@ from 'survey' to 'appearance'
 # 2025-01-11 squareword.org
 
 See log/squareword.org/#1076
+
+# 2025-01-11 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1106
