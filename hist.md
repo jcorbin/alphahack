@@ -4457,3 +4457,18 @@ See log/squareword.org/#1076
 # 2025-01-11 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1106
+
+# 2025-01-11 https://wordnerd.co/wordchain
+
+```
+🤔 6 guesses
+🔗 https://wordnerd.co/wordchain
+⛓️ 6 chain words
+from 'figure' to 'deposit'
+⏱️ 0:03:06.734355
+```
+
+📜 0 sessions
+🫧 1 chat sessions
+⁉️ 5 chat prompts
+🤖 5 llama3.2:latest replies
