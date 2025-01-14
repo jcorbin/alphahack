@@ -1,0 +1,141 @@
+T0.00016914399748202413 now: 2025-01-14T13:03:42EST
+T0.00021200099581619725 site: squareword.org
+T3.784965350998391 🧩  ? #1079
+T3.7852959259980707 puzzle_id: #1079
+T4.529346538998652 > *
+T4.619786593000754 questioning: ["upbow", "#5 found:8538 hypo:11881376"]
+T7.649048036997556 upbow ( #5 found:8538 hypo:11881376 ) ? 
+T8.013518947998818 upbow ( #5 found:8538 hypo:11881376 ) > 
+T8.953672798001207 upbow ( #5 found:8538 hypo:11881376 ) 1> 
+T10.466258909000317 upbow ( #5 found:8538 hypo:11881376 ) 2> ~ p
+T10.466945173000568 word: 1 _____
+T10.466967164997186 may: 1 p
+T11.303857203994994 upbow ( #5 found:8538 hypo:11881376 ) 3> ~ b
+T11.303997352995793 word: 2 _____
+T11.304020156996557 may: 2 b
+T12.029927379000583 question done
+T13.796626458999526 > /no wuo
+T13.797178314998746 nope: o u w
+T14.292592694000632 > *
+T14.460954989997845 questioning: ["bicep", "#3 found:211 hypo:279841"]
+T17.965776316996198 bicep ( #3 found:211 hypo:279841 ) ? 
+T18.24211722999462 bicep ( #3 found:211 hypo:279841 ) > 
+T19.845213101994887 bicep ( #3 found:211 hypo:279841 ) 1> ~ e
+T19.84547683299752 word: 0 _____
+T19.8455040810004 may: 0 e
+T22.758124902000418 bicep ( #3 found:211 hypo:279841 ) 2> ___e ~ p
+T22.75844960199902 word: 1 ___e_
+T22.75848711499566 may: 1 p
+T25.815341918998456 bicep ( #3 found:211 hypo:279841 ) 3> ~ bie
+T25.8154303170013 word: 2 _____
+T25.815438505000202 may: 2 b e i
+T28.249210604997643 bicep ( #3 found:211 hypo:279841 ) 4> _i ~ e
+T28.249565097001323 word: 3 _i___
+T28.24960052700044 may: 3 e
+T29.58565990399802 bicep ( #3 found:211 hypo:279841 ) 5> ~ e
+T29.585916370000632 word: 4 _____
+T29.585952264998923 may: 4 e
+T29.58598630799679 question done
+T31.750491083999805 > /no c
+T31.75087047199486 nope: c o u w
+T123.62375853599951 > *
+T124.01334344600036 questioning: ["liber", "#3 found:60 hypo:2904"]
+T127.23186466799962 liber ( #3 found:60 hypo:2904 ) ? 
+T127.60556004499813 liber ( #3 found:60 hypo:2904 ) > 
+T129.0147192489967 liber ( #3 found:60 hypo:2904 ) 1> ~ el
+T129.01504540699534 word: 0 _____
+T129.01507835999655 may: 0 e l
+T132.38077106299897 liber ( #3 found:60 hypo:2904 ) 2> ___er ~ pl
+T132.3809767319981 word: 1 ___er
+T132.3809979639991 may: 1 l p
+T135.35484454000107 liber ( #3 found:60 hypo:2904 ) 3> 
+T135.65856420699856 liber ( #3 found:60 hypo:2904 ) 4> 
+T138.35077641099633 liber ( #3 found:60 hypo:2904 ) 5> ___er ~ e
+T138.3510320360001 word: 4 ___er
+T138.35106857999926 may: 4 e
+T138.35110125799838 question done
+T231.8034859479958 > *
+T232.0615620919998 questioning: ["plier", "#2 found:3 hypo:44"]
+T236.03644091200113 plier ( #2 found:3 hypo:44 ) ? 
+T237.09964508700068 plier ( #2 found:3 hypo:44 ) > 
+T237.59058009799628 plier ( #2 found:3 hypo:44 ) 1> 
+T240.58020642599877 plier ( #2 found:3 hypo:44 ) 2> p__er
+T240.5803952540009 word: 1 p__er
+T240.58042429600027 may: 1 l
+T243.9338793709976 plier ( #2 found:3 hypo:44 ) 3> __i
+T243.93406955400133 word: 2 __i__
+T243.93409383999824 may: 2 b e
+T247.00455439800135 question done
+T720.9355417789993 > *
+T721.123825486 questioning: ["tribe", "#3 found:2 hypo:968"]
+T724.5469207360002 tribe ( #3 found:2 hypo:968 ) ? 
+T725.3008648780014 tribe ( #3 found:2 hypo:968 ) > 
+T729.0030800960012 tribe ( #3 found:2 hypo:968 ) 1> 
+T730.881293986 tribe ( #3 found:2 hypo:968 ) 2> 
+T734.2945563460016 tribe ( #3 found:2 hypo:968 ) 3> __i_e
+T734.2948046129968 word: 2 __i_e
+T734.2948408259981 may: 2 b
+T736.9389455540004 tribe ( #3 found:2 hypo:968 ) 4> _i__e
+T736.9391325709948 word: 3 _i__e
+T736.9391511549984 may: 3 
+T740.2014554459965 tribe ( #3 found:2 hypo:968 ) 5> ~ et
+T740.2016034459957 word: 4 ___er
+T740.2016167979964 may: 4 e t
+T740.2016273319969 question done
+T742.0431707530006 <INT>
+T0.0017913310002768412 now: 2025-01-14T13:16:07EST
+T24.127656169999682 > *
+T24.607576756003255 questioning: ["shelf", "#1 found:1 hypo:21296"]
+T26.82746616700024 shelf ( #1 found:1 hypo:21296 ) ? 
+T27.059388594003394 shelf ( #1 found:1 hypo:21296 ) > 
+T28.070864975001314 shelf ( #1 found:1 hypo:21296 ) 1> shelf
+T28.07167113700416 word: 0 shelf
+T28.071698756000842 may: 0 
+T31.46309568900324 shelf ( #1 found:1 hypo:21296 ) 2> 
+T31.687405276999925 shelf ( #1 found:1 hypo:21296 ) 3> 
+T31.877825734001817 shelf ( #1 found:1 hypo:21296 ) 4> 
+T36.15123986300023 shelf ( #1 found:1 hypo:21296 ) 5> s_eer
+T36.151503466004215 word: 4 s_eer
+T36.15153132100386 may: 4 t
+T36.15155458800291 question done
+T42.22842999199929 > *
+T42.481185866003216 questioning: ["paler", "#2 found:1 hypo:22"]
+T44.962472628001706 paler ( #2 found:1 hypo:22 ) ? 
+T47.39479122500052 paler ( #2 found:1 hypo:22 ) > 2 paler
+T47.395023944998684 word: 1 paler
+T47.3950502650041 may: 1 
+T51.088299399998505 paler ( #2 found:1 hypo:22 ) 3> ~ ba
+T51.08855579200463 word: 2 __i_e
+T51.0885648600015 may: 2 a b
+T54.97565602900431 paler ( #2 found:1 hypo:22 ) 4> ~
+T54.97587477500201 word: 3 _i__e
+T54.975894073002564 may: 3 
+T58.3128233469979 question done
+T118.6564157190005 > *
+T118.82627094499912 questioning: ["abide", "#3 found:1 hypo:44"]
+T121.71289467900351 abide ( #3 found:1 hypo:44 ) ? 
+T123.25948361700284 abide ( #3 found:1 hypo:44 ) > 3 abide
+T123.25967545899766 word: 2 abide
+T123.25969487299881 may: 2 
+T125.5187904129998 abide ( #3 found:1 hypo:44 ) 4> ~ d
+T125.5189899370016 word: 3 _i__e
+T125.51901315100258 may: 3 d
+T126.90484885600017 question done
+T127.41256274600164 > *
+T127.58895385500364 questioning: ["steer", "#5 found:1 hypo:1"]
+T130.85813048000273 steer ( #5 found:1 hypo:1 ) ? 
+T132.5301162120013 steer ( #5 found:1 hypo:1 ) > 5 steer
+T132.53037819900055 word: 4 steer
+T132.5304059370028 may: 4 
+T132.53043229800096 question done
+T133.72541744499904 > *
+T133.77576684999804 questioning: ["midge", "#4 found:1 hypo:484"]
+T136.64196706299845 midge ( #4 found:1 hypo:484 ) ? 
+T137.8662381260001 midge ( #4 found:1 hypo:484 ) > 4 midge
+T137.86648419999983 word: 3 midge
+T137.86651371799962 may: 3 
+T138.55670542600274 midge ( #4 found:1 hypo:484 ) 5> 
+T138.55684000500332 question done
+T142.1716246510041 Press <Enter> to 📋 or `>` for line prompt 
+T142.17845082600252 result: "squareword.org 1079: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1079"
+T142.1794482990008 <STOP>
