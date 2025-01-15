@@ -1,0 +1,153 @@
+T0.00017059599986168905 now: 2025-01-15T11:29:21EST
+T0.00021955700003672973 site: squareword.org
+T2.8167640709998523 🧩  ? #1080
+T2.8170880459997534 puzzle_id: #1080
+T4.173500243000035 > *
+T4.267871806999665 questioning: ["fluky", "#5 found:2884 hypo:11881376"]
+T7.675588886999776 fluky ( #5 found:2884 hypo:11881376 ) ? 
+T7.858720786000049 fluky ( #5 found:2884 hypo:11881376 ) > 
+T8.8204543009997 fluky ( #5 found:2884 hypo:11881376 ) 1> 
+T9.66400019599996 fluky ( #5 found:2884 hypo:11881376 ) 2> ~l
+T9.665172417999656 word: 1 _____
+T9.66520021999986 may: 1 l
+T10.40876107799977 fluky ( #5 found:2884 hypo:11881376 ) 3> ~l
+T10.409015413999896 word: 2 _____
+T10.409042627999952 may: 2 l
+T11.28060958199967 fluky ( #5 found:2884 hypo:11881376 ) 4> ~l
+T11.280835647000004 word: 3 _____
+T11.280853380999815 may: 3 l
+T12.371180943999661 fluky ( #5 found:2884 hypo:11881376 ) 5> ~y
+T12.37140318999991 word: 4 _____
+T12.371464042999833 may: 4 y
+T12.371717615999842 question done
+T14.711116411999683 > /no fuk
+T14.712212363999697 nope: f k u
+T16.00345765799966 > *
+T16.179445832000056 questioning: ["dimly", "#5 found:209 hypo:279841"]
+T20.93473835099985 dimly ( #5 found:209 hypo:279841 ) ? 
+T21.61753356700001 dimly ( #5 found:209 hypo:279841 ) > 
+T22.474046565999743 dimly ( #5 found:209 hypo:279841 ) 1> 
+T24.720443236999927 dimly ( #5 found:209 hypo:279841 ) 2> ___l ~ l
+T24.720629691999875 word: 1 ___l_
+T24.720647126999665 may: 1 l
+T27.384910552999827 dimly ( #5 found:209 hypo:279841 ) 3> ___l ~ l
+T27.38531760099977 word: 2 ___l_
+T27.38535102099968 may: 2 l
+T29.42709355099987 dimly ( #5 found:209 hypo:279841 ) 4> 
+T29.684357529999943 dimly ( #5 found:209 hypo:279841 ) 5> 
+T29.68442010999979 question done
+T33.94549460200005 > /no uidfkm
+T33.945620899000005 nope: d f i k m u
+T34.858044651 > *
+T35.11825620299987 questioning: ["shall", "#2 found:46 hypo:8000"]
+T38.07794238799988 shall ( #2 found:46 hypo:8000 ) ? 
+T38.523266023999895 shall ( #2 found:46 hypo:8000 ) > 
+T40.724149721999765 shall ( #2 found:46 hypo:8000 ) 1> s_ ~ a
+T40.72443522499998 word: 0 s____
+T40.72446366999975 may: 0 a
+T43.737444562999826 shall ( #2 found:46 hypo:8000 ) 2> ~ lha
+T43.737620548999985 word: 1 ___l_
+T43.73764112899971 may: 1 a h l
+T48.60340900899973 shall ( #2 found:46 hypo:8000 ) 3> ___ll ~ a
+T48.60365996399969 word: 2 ___ll
+T48.603693510000085 may: 2 a
+T51.576978773000064 shall ( #2 found:46 hypo:8000 ) 4> ____l
+T51.577320969000084 word: 3 ____l
+T51.5773599539998 may: 3 
+T52.70738387499978 shall ( #2 found:46 hypo:8000 ) 5> ~ ys
+T52.707541882999976 word: 4 _____
+T52.707558677999714 may: 4 s y
+T52.707572921000065 question done
+T67.83760251199965 > *
+T68.18903220899983 questioning: ["hallo", "#2 found:1 hypo:120"]
+T73.389168358 hallo ( #2 found:1 hypo:120 ) ? 
+T73.61228619999974 hallo ( #2 found:1 hypo:120 ) > 
+T75.87979065499985 hallo ( #2 found:1 hypo:120 ) 1> 
+T77.21546553300004 hallo ( #2 found:1 hypo:120 ) 2> hallo
+T77.21565985200004 word: 1 hallo
+T77.215679894 may: 1 
+T79.28626687699989 hallo ( #2 found:1 hypo:120 ) 3> ~ ao
+T79.28646274999983 word: 2 ___ll
+T79.28648286499993 may: 2 a o
+T82.28789101499979 question done
+T83.25921474400002 > *
+T83.49482632599984 questioning: ["atoll", "#3 found:1 hypo:40"]
+T86.74680492900006 atoll ( #3 found:1 hypo:40 ) ? 
+T89.87041830499993 atoll ( #3 found:1 hypo:40 ) > 3 atoll
+T89.87064514299982 word: 2 atoll
+T89.87066963699999 may: 2 
+T92.0912172469998 question done
+T92.65771488199971 > *
+T92.79118340900004 questioning: ["shoal", "#1 found:4 hypo:8000"]
+T103.39600165399997 shoal ( #1 found:4 hypo:8000 ) ? 1 s__a
+T103.39618139699996 guess: shoal
+T103.39623875400002 word: 0 s__a_
+T103.396251871 may: 0 
+T107.1770327119998 question done
+T107.78758767499994 > *
+T107.99850946700008 questioning: ["shoat", "#1 found:4 hypo:8000"]
+T114.89202244699982 question done
+T115.52120755499982 > *
+T115.65169557399986 questioning: ["steal", "#1 found:7 hypo:8000"]
+T118.98924376199966 steal ( #1 found:7 hypo:8000 ) ? 
+T121.88441297700001 steal ( #1 found:7 hypo:8000 ) > 1 s_ea
+T121.88459234099992 word: 0 s_ea_
+T121.88461133200008 may: 0 
+T123.94193442400001 steal ( #1 found:7 hypo:8000 ) 2> 4 ~ e
+T123.94237429499981 word: 3 ____l
+T123.94240019299968 may: 3 e
+T126.2764130659998 steal ( #1 found:7 hypo:8000 ) 5> 5 __e
+T126.27660645099968 word: 4 __e__
+T126.2766277769997 may: 4 s y
+T126.27664771499985 question done
+T152.59639941499972 > *
+T153.33472656799995 questioning: ["repel", "#4 found:2 hypo:8000"]
+T156.96497187899968 repel ( #4 found:2 hypo:8000 ) ? 
+T158.48950127299986 repel ( #4 found:2 hypo:8000 ) > 4 repel
+T158.48958239800004 word: 3 repel
+T158.4895889569998 may: 3 
+T164.41632400399976 repel ( #4 found:2 hypo:8000 ) 5> 1 ~[32;2ur
+T164.4165592559998 word: 0 s_ea_
+T164.41658694099988 may: 0 
+T167.38455238400002 repel ( #4 found:2 hypo:8000 ) 2> 1 ~ r
+T167.38476950999984 word: 0 s_ea_
+T167.38479064900002 may: 0 r
+T171.842526035 repel ( #4 found:2 hypo:8000 ) 2> 5 ~ ysrp
+T171.84281388499994 word: 4 __e__
+T171.84284713499983 may: 4 p r s y
+T171.84287185999983 question done
+T172.90448732799996 > *
+T173.68996885299975 questioning: ["preys", "#5 found:1 hypo:24"]
+T179.1203941599997 preys ( #5 found:1 hypo:24 ) ? preys
+T185.06054386300002 question done
+T186.99817377 > preys
+T186.99893827899996 questioning: ["preys", "entered"]
+T191.61059556700002 preys ( entered ) ? 5 preys
+T191.6108307659997 guess: preys
+T191.61092091699993 word: 4 preys
+T191.61094215399999 may: 4 
+T191.61095980699974 question done
+T192.39053785999977 > *
+T192.91339205199984 questioning: ["spear", "#1 found:2 hypo:20"]
+T196.0786260279997 spear ( #1 found:2 hypo:20 ) ? 
+T201.073264913 spear ( #1 found:2 hypo:20 ) > 1 s_ear
+T201.0734637999999 word: 0 s_ear
+T201.073483228 may: 0 
+T201.99144311100008 spear ( #1 found:2 hypo:20 ) 2> *
+T202.7571005609998 question done
+T203.2276516869997 > *
+T203.7422709049997 questioning: ["swear", "#1 found:3 hypo:20"]
+T207.48313019499983 swear ( #1 found:3 hypo:20 ) ? 
+T208.89730167299967 swear ( #1 found:3 hypo:20 ) > 1 swear
+T208.89740355599997 word: 0 swear
+T208.89741537200007 may: 0 
+T215.47118868899997 swear ( #1 found:3 hypo:20 ) 2> 
+T215.8062688289997 swear ( #1 found:3 hypo:20 ) 3> 
+T216.61817334199986 question done
+T216.82836618400006 Press <Enter> to 📋 or `>` for line prompt 
+T216.8311189619999 result: ""
+T217.1401162029997 Press <Enter> to 📋 or `>` for line prompt 
+T217.14352654000004 result: ""
+T219.09191863599972 Press <Enter> to 📋 or `>` for line prompt 
+T219.10270268399972 result: "squareword.org 1080: 12 guesses\n\n\ud83d\udfe9\ud83d\udfe7\ud83d\udfe8\ud83d\udfe8\ud83d\udfe7\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1080"
+T219.10518213199975 <STOP>
