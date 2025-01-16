@@ -1,0 +1,143 @@
+T0.00015646199972252361 now: 2025-01-16T10:06:43EST
+T0.00020069699894520454 site: squareword.org
+T7.219130845998734 🧩  ? #1081
+T7.219348386999627 puzzle_id: #1081
+T11.381799033999414 > *
+T11.490122134000558 questioning: ["hasps", "#5 found:3590 hypo:11881376"]
+T14.6765801679976 hasps ( #5 found:3590 hypo:11881376 ) ? 
+T15.1849332089987 hasps ( #5 found:3590 hypo:11881376 ) > 
+T16.39328048599782 hasps ( #5 found:3590 hypo:11881376 ) 1> ~ as
+T16.39499292799883 word: 0 _____
+T16.395034062999912 may: 0 a s
+T18.11150065900074 hasps ( #5 found:3590 hypo:11881376 ) 2> ~ ap
+T18.111603945999377 word: 1 _____
+T18.111613402998046 may: 1 a p
+T19.482524188999378 hasps ( #5 found:3590 hypo:11881376 ) 3> ~ a
+T19.482661788999394 word: 2 _____
+T19.48267358999874 may: 2 a
+T21.30982972899801 hasps ( #5 found:3590 hypo:11881376 ) 4> ~ s
+T21.309944868000457 word: 3 _____
+T21.30995408599847 may: 3 s
+T22.91330762099824 hasps ( #5 found:3590 hypo:11881376 ) 5> _a__s
+T22.913553469999897 word: 4 _a__s
+T22.913580041000387 may: 4 
+T22.913605585999903 question done
+T24.203603362999274 > /no h
+T24.204035890998057 nope: h
+T24.858027484999184 > *
+T25.35939913599941 questioning: ["pical", "#2 found:286 hypo:31250"]
+T28.55741307199787 pical ( #2 found:286 hypo:31250 ) ? 
+T29.104527831997984 pical ( #2 found:286 hypo:31250 ) > 
+T32.036689189000754 pical ( #2 found:286 hypo:31250 ) 1> ___a ~ sc
+T32.036797224998736 word: 0 ___a_
+T32.036809017998166 may: 0 c s
+T36.51444101299785 pical ( #2 found:286 hypo:31250 ) 2> pi 
+T36.51460824099922 word: 1 pi___
+T36.51463123699796 may: 1 a
+T38.69557710799927 pical ( #2 found:286 hypo:31250 ) 3> 
+T39.924236603998 pical ( #2 found:286 hypo:31250 ) 4> ~ sc
+T39.924423387998104 word: 3 _____
+T39.924442437000835 may: 3 c s
+T41.81705671999953 pical ( #2 found:286 hypo:31250 ) 5> ~ l
+T41.81719220599916 word: 4 _a__s
+T41.81720274399777 may: 4 l
+T41.81721297100012 question done
+T43.46497853799883 > *
+T43.82858601100088 questioning: ["scrag", "#1 found:4 hypo:1250"]
+T46.64085220199922 scrag ( #1 found:4 hypo:1250 ) ? 
+T47.304935690001 scrag ( #1 found:4 hypo:1250 ) > 
+T48.90177337899877 scrag ( #1 found:4 hypo:1250 ) 1> scra
+T48.90237000200068 word: 0 scra_
+T48.90252802900068 may: 0 
+T53.175756410997565 scrag ( #1 found:4 hypo:1250 ) 2> 3 ~ ar
+T53.175856634999946 word: 2 _____
+T53.175864705001004 may: 2 a r
+T60.9632469950011 scrag ( #1 found:4 hypo:1250 ) 4> sc
+T60.96334961499815 word: 3 sc___
+T60.96335954099777 may: 3 
+T63.569207610999 question done
+T64.22039444599795 > *
+T64.54873369900088 questioning: ["scrap", "#1 found:4 hypo:25"]
+T76.84428495500106 question done
+T78.57649351700093 > /no g
+T78.57667980999759 nope: g h
+T79.12230394400103 > *
+T80.64094302399826 questioning: ["scran", "#1 found:2 hypo:24"]
+T86.80153846399844 scran ( #1 found:2 hypo:24 ) ? 
+T88.84370802699777 scran ( #1 found:2 hypo:24 ) > 3 ~ n
+T88.84382192599878 word: 2 _____
+T88.84383066599912 may: 2 n
+T91.06034509899837 scran ( #1 found:2 hypo:24 ) 4> 4 ~ n
+T91.0605389960001 word: 3 sc___
+T91.06055912800002 may: 3 n
+T92.41469576799864 scran ( #1 found:2 hypo:24 ) 5> 3 ~ ar
+T92.414960099999 word: 2 _____
+T92.4149866810003 may: 2 a r
+T95.03659112699825 question done
+T95.71214998099822 > *
+T97.03000304799934 questioning: ["scrap", "#1 found:3 hypo:24"]
+T100.0726056429994 scrap ( #1 found:3 hypo:24 ) ? 
+T100.72608896399834 question done
+T101.28977944399958 > *
+T102.6439668009989 questioning: ["scrap", "#1 found:3 hypo:24"]
+T104.11325652899905 question done
+T104.64506283599985 > *
+T106.17727366399777 questioning: ["scrap", "#1 found:3 hypo:24"]
+T107.66376803399908 scrap ( #1 found:3 hypo:24 ) ? !
+T107.66382833199896 reject: scrap
+T108.63957764999941 > *
+T109.92420472500089 questioning: ["scran", "#1 found:2 hypo:24"]
+T111.13169669499985 scran ( #1 found:2 hypo:24 ) ? !
+T111.13176289100011 reject: scran
+T112.00818778800021 > *
+T113.25501348499893 questioning: ["scram", "#1 found:1 hypo:24"]
+T115.848549104001 scram ( #1 found:1 hypo:24 ) ? 
+T117.04034659299941 scram ( #1 found:1 hypo:24 ) > 1 scram
+T117.04058580099809 word: 0 scram
+T117.04062154799976 may: 0 
+T120.10242657499839 scram ( #1 found:1 hypo:24 ) 2> 5 ~ lm
+T120.1025581770009 word: 4 _a__s
+T120.10257316999923 may: 4 l m
+T120.10258415299904 question done
+T122.28134827100075 > *
+T123.6348402529984 questioning: ["pieta", "#2 found:3 hypo:576"]
+T126.70612131999951 pieta ( #2 found:3 hypo:576 ) ? 
+T128.00516692499878 pieta ( #2 found:3 hypo:576 ) > 2 pieta
+T128.00540504699893 word: 1 pieta
+T128.00542796399895 may: 1 
+T134.89368926300085 pieta ( #2 found:3 hypo:576 ) 3> 4 sce ~ ne
+T134.8938043039998 word: 3 sce__
+T134.89381414499803 may: 3 e n
+T138.51442625799973 pieta ( #2 found:3 hypo:576 ) 5> ~ lme
+T138.5145320800002 word: 4 _a__s
+T138.51454188999924 may: 4 e l m
+T138.51454927300074 question done
+T140.33380456699888 > *
+T141.57076516400048 questioning: ["scene", "#4 found:1 hypo:2"]
+T144.59551609299888 scene ( #4 found:1 hypo:2 ) ? 
+T146.00422248099858 scene ( #4 found:1 hypo:2 ) > 4 scene
+T146.00443612099843 word: 3 scene
+T146.00446123000074 may: 3 
+T148.1356913540003 question done
+T148.69557512399842 > *
+T149.62014676000035 questioning: ["males", "#5 found:1 hypo:6"]
+T152.7426901910003 males ( #5 found:1 hypo:6 ) ? 
+T153.8914452379977 males ( #5 found:1 hypo:6 ) > 5 males
+T153.89152593499966 word: 4 males
+T153.89153248900038 may: 4 
+T153.89153819900093 question done
+T156.01106268199874 > *
+T156.66428254399943 questioning: ["arbor", "#3 found:1 hypo:27648"]
+T159.44245088800017 arbor ( #3 found:1 hypo:27648 ) ? 
+T161.3356187219979 arbor ( #3 found:1 hypo:27648 ) > 3 arbor
+T161.33571898000082 word: 2 arbor
+T161.3357305190002 may: 2 
+T165.94420680199983 arbor ( #3 found:1 hypo:27648 ) 4> 
+T166.92670760799956 question done
+T167.3813065869981 Press <Enter> to 📋 or `>` for line prompt 
+T167.38348398800008 result: ""
+T167.74714748299812 Press <Enter> to 📋 or `>` for line prompt 
+T167.75044542899923 result: ""
+T169.65629407300003 Press <Enter> to 📋 or `>` for line prompt 
+T169.65890047399807 result: "squareword.org 1081: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1081"
+T169.659552926998 <STOP>
