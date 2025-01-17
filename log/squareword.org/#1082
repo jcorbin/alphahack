@@ -1,0 +1,150 @@
+T0.00015848299972276436 now: 2025-01-17T09:03:06EST
+T0.00019882399965354125 site: squareword.org
+T4.937632318999931 🧩  ? #1082
+T4.938019883999914 puzzle_id: #1082
+T5.8783802049997576 > *
+T5.9626506780000454 questioning: ["isled", "#5 found:3987 hypo:11881376"]
+T11.721010986999772 isled ( #5 found:3987 hypo:11881376 ) ? 
+T12.331813330999921 isled ( #5 found:3987 hypo:11881376 ) > 
+T13.709182178999981 isled ( #5 found:3987 hypo:11881376 ) 1> ~ is
+T13.71090010099988 word: 0 _____
+T13.710966793999887 may: 0 i s
+T14.057765137999922 isled ( #5 found:3987 hypo:11881376 ) 2> 
+T15.723469922999811 isled ( #5 found:3987 hypo:11881376 ) 3> ~ e
+T15.723779258999912 word: 2 _____
+T15.723803858999872 may: 2 e
+T17.165501589000087 isled ( #5 found:3987 hypo:11881376 ) 4> ~ e
+T17.16586826699995 word: 3 _____
+T17.165930519000085 may: 3 e
+T19.884864696000022 isled ( #5 found:3987 hypo:11881376 ) 5> ___ed ~ e
+T19.88509918999989 word: 4 ___ed
+T19.885121570999672 may: 4 e
+T19.88514331999977 question done
+T20.78248418999965 > *
+T21.036283403999732 questioning: ["erred", "#5 found:21 hypo:676"]
+T25.24133086499978 erred ( #5 found:21 hypo:676 ) ? 
+T25.539806767999835 erred ( #5 found:21 hypo:676 ) > 
+T28.239921352999772 erred ( #5 found:21 hypo:676 ) 1> 
+T29.06454179000002 erred ( #5 found:21 hypo:676 ) 2> ~ r
+T29.064633566999873 word: 1 _____
+T29.064641029000086 may: 1 r
+T31.178157206999913 erred ( #5 found:21 hypo:676 ) 3> ~ er
+T31.1784053399997 word: 2 _____
+T31.178433583999777 may: 2 e r
+T33.852761354999984 erred ( #5 found:21 hypo:676 ) 4> 
+T37.15098965099969 erred ( #5 found:21 hypo:676 ) 5> _r_ed ~ e
+T37.151208316000066 word: 4 _r_ed
+T37.15122970099992 may: 4 e
+T37.1512510499997 question done
+T38.38832955599992 > *
+T38.59672314799991 questioning: ["breed", "#5 found:1 hypo:26"]
+T45.696187394999924 breed ( #5 found:1 hypo:26 ) ? 
+T47.376170227999864 breed ( #5 found:1 hypo:26 ) > 5 breed
+T47.37650315799965 word: 4 breed
+T47.376536145000046 may: 4 
+T47.3765676349999 question done
+T50.24781595800005 > breed
+T50.24904365899965 questioning: ["breed", "entered"]
+T53.47913847499967 breed ( entered ) ? 5 _reed
+T53.47934708699995 guess: breed
+T53.479412393000075 word: 4 _reed
+T53.479429998999876 may: 4 
+T53.47944504899988 question done
+T57.81321429699983 > /no bl
+T57.81345472399971 nope: b l
+T59.103958494999915 > *
+T59.593941682999684 questioning: ["freed", "#5 found:3 hypo:24"]
+T64.21337934199983 freed ( #5 found:3 hypo:24 ) ? 
+T64.44979882500002 freed ( #5 found:3 hypo:24 ) > 
+T67.2740174659998 freed ( #5 found:3 hypo:24 ) 1> ~ isf
+T67.27424525499964 word: 0 _____
+T67.27426837799976 may: 0 f i s
+T69.33896648399968 freed ( #5 found:3 hypo:24 ) 2> 
+T71.90986674399983 freed ( #5 found:3 hypo:24 ) 3> 
+T73.458140964 freed ( #5 found:3 hypo:24 ) 4> f
+T73.45833025899992 word: 3 f____
+T73.45835196500002 may: 3 e
+T75.12110560699966 question done
+T75.86236365199966 > *
+T76.04898611099998 questioning: ["treed", "#5 found:2 hypo:24"]
+T79.931631337 treed ( #5 found:2 hypo:24 ) ? 
+T82.93806317899998 treed ( #5 found:2 hypo:24 ) > 5 treed
+T82.93828739699984 word: 4 treed
+T82.93831184100009 may: 4 
+T82.93833607999977 question done
+T85.24355749100005 > *
+T85.29550330999973 questioning: ["serif", "#1 found:10 hypo:3456"]
+T88.3085265499999 serif ( #1 found:10 hypo:3456 ) ? 
+T89.16025041300009 serif ( #1 found:10 hypo:3456 ) > 
+T93.54436338000005 serif ( #1 found:10 hypo:3456 ) 1> s___f ~if
+T93.54462418899993 word: 0 s___f
+T93.54464946100006 may: 0 f i
+T98.16941234299975 serif ( #1 found:10 hypo:3456 ) 2> 4 fe
+T98.16971783000008 word: 3 fe___
+T98.16975150200005 may: 3 
+T99.88802148900004 serif ( #1 found:10 hypo:3456 ) 5> 4 ~ e
+T99.88822848099971 word: 3 fe___
+T99.8882482189997 may: 3 e
+T102.86440712099966 question done
+T103.831624681 > *
+T104.38936685899989 questioning: ["sniff", "#1 found:2 hypo:48"]
+T107.3041729749998 sniff ( #1 found:2 hypo:48 ) ? 
+T107.47936615199978 sniff ( #1 found:2 hypo:48 ) > 
+T109.56332874999998 sniff ( #1 found:2 hypo:48 ) 1> s_iff
+T109.56341508500009 word: 0 s_iff
+T109.56342146199995 may: 0 
+T113.12976359799995 sniff ( #1 found:2 hypo:48 ) 2> ~ rn
+T113.13006352999992 word: 1 _____
+T113.1300915769998 may: 1 n r
+T115.82972390299983 sniff ( #1 found:2 hypo:48 ) 3> 
+T117.33478456900002 sniff ( #1 found:2 hypo:48 ) 4> ~ en
+T117.33498614799964 word: 3 fe___
+T117.33500529100002 may: 3 e n
+T119.0190299259998 question done
+T119.63976488799972 > *
+T120.5699947459998 questioning: ["fence", "#4 found:1 hypo:48"]
+T123.68350061799993 fence ( #4 found:1 hypo:48 ) ? 
+T130.4519425049998 fence ( #4 found:1 hypo:48 ) > 2 __n
+T130.45214814199971 word: 1 __n__
+T130.452168755 may: 1 r
+T134.7574799949998 fence ( #4 found:1 hypo:48 ) 3> 3 ____e
+T134.75769966999997 word: 2 ____e
+T134.757722758 may: 2 r
+T136.96969389700007 fence ( #4 found:1 hypo:48 ) 4> fence
+T136.96989411599998 word: 3 fence
+T136.96991390499988 may: 3 
+T137.72706651499993 question done
+T138.96630026999992 > *
+T139.83406588299977 questioning: ["aware", "#3 found:1 hypo:13824"]
+T142.69110338499968 aware ( #3 found:1 hypo:13824 ) ? 
+T143.5656241339998 aware ( #3 found:1 hypo:13824 ) > 
+T145.07748347300003 aware ( #3 found:1 hypo:13824 ) 1> 3 aware
+T145.07768500999964 word: 2 aware
+T145.07770579099997 may: 2 
+T147.7050544409999 question done
+T148.28371872599973 > *
+T149.0425762609998 questioning: ["honor", "#2 found:1 hypo:13824"]
+T152.56463995199965 honor ( #2 found:1 hypo:13824 ) ? 
+T152.99384238599987 honor ( #2 found:1 hypo:13824 ) > 
+T154.28687569099975 honor ( #2 found:1 hypo:13824 ) 1> 2 honor
+T154.2871027389997 word: 1 honor
+T154.2871235570001 may: 1 
+T156.21587800399993 question done
+T157.10255491399994 > *
+T157.5919076209998 questioning: ["stiff", "#1 found:2 hypo:24"]
+T164.25795707199995 question done
+T164.82419067799992 > *
+T165.33660746799978 questioning: ["stiff", "#1 found:2 hypo:24"]
+T167.09878923799988 stiff ( #1 found:2 hypo:24 ) ? !
+T167.09891398199989 reject: stiff
+T167.72047324100004 > *
+T168.23226495699964 questioning: ["spiff", "#1 found:1 hypo:24"]
+T171.13712977499972 spiff ( #1 found:1 hypo:24 ) ? 
+T171.91684999499967 spiff ( #1 found:1 hypo:24 ) > 
+T172.98898034700005 spiff ( #1 found:1 hypo:24 ) 1> 1 spiff
+T172.98916333299985 word: 0 spiff
+T172.98918252999965 may: 0 
+T176.72166093899978 question done
+T177.22384522799985 Press <Enter> to 📋 or `>` for line prompt 
+T177.22827868700006 result: "squareword.org 1082: 12 guesses\n\n\ud83d\udfe8\ud83d\udfe7\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1082"
+T177.22915470299995 <STOP>
