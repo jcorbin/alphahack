@@ -1,0 +1,111 @@
+T0.00017985700105782598 now: 2025-01-18T10:50:55EST
+T0.00022599600197281688 site: squareword.org
+T0.8199352850024297 🧩  ? *
+T3.116960070001369 🧩  ? #1083
+T3.1171687160021975 puzzle_id: #1083
+T3.7882457209998392 > *
+T3.8919704470026772 questioning: ["gutta", "#5 found:3496 hypo:11881376"]
+T5.602465555002709 question done
+T6.089282128003106 > *
+T6.136598698001762 questioning: ["canst", "#5 found:1249 hypo:11881376"]
+T11.258090704002825 canst ( #5 found:1249 hypo:11881376 ) ? 
+T11.706361477001337 canst ( #5 found:1249 hypo:11881376 ) > 
+T14.293905849001021 canst ( #5 found:1249 hypo:11881376 ) 1> _a ~ s
+T14.295339595002588 word: 0 _a___
+T14.295408222002152 may: 0 s
+T17.041001817000506 canst ( #5 found:1249 hypo:11881376 ) 2> c ~ an
+T17.04112111300128 word: 1 c____
+T17.041130288002023 may: 1 a n
+T20.188740493002115 canst ( #5 found:1249 hypo:11881376 ) 3> ___st ~ a
+T20.188851878003334 word: 2 ___st
+T20.188858643999993 may: 2 a
+T22.370442462000938 canst ( #5 found:1249 hypo:11881376 ) 4> ~ n
+T22.371139584000048 word: 3 _____
+T22.371169402002124 may: 3 n
+T24.9280452790008 canst ( #5 found:1249 hypo:11881376 ) 5> ___s ~ s
+T24.928134732002945 word: 4 ___s_
+T24.928142669999943 may: 4 s
+T24.92815035500098 question done
+T26.549547689002793 > *
+T27.048757455002487 questioning: ["cotan", "#2 found:14 hypo:1352"]
+T30.60824007300107 cotan ( #2 found:14 hypo:1352 ) ? 
+T31.766910094000195 cotan ( #2 found:14 hypo:1352 ) > 
+T33.567897392000305 cotan ( #2 found:14 hypo:1352 ) 1> 
+T35.534449337003025 cotan ( #2 found:14 hypo:1352 ) 2> c__an
+T35.534537849001936 word: 1 c__an
+T35.53454433400111 may: 1 
+T39.220990954003355 cotan ( #2 found:14 hypo:1352 ) 3> _o_st
+T39.221109281999816 word: 2 _o_st
+T39.22112128500157 may: 2 a
+T41.79945128800318 question done
+T42.47187984700213 > *
+T42.71314278000136 questioning: ["clean", "#2 found:1 hypo:676"]
+T45.12370555600137 clean ( #2 found:1 hypo:676 ) ? 
+T46.8461408990006 clean ( #2 found:1 hypo:676 ) > 2 clean
+T46.84623518200169 word: 1 clean
+T46.84624341000017 may: 1 
+T49.44702387600046 clean ( #2 found:1 hypo:676 ) 3> 1 ~ se
+T49.447240180001245 word: 0 _a___
+T49.44726388700292 may: 0 e s
+T51.08097055300095 clean ( #2 found:1 hypo:676 ) 2> 
+T54.087202774000616 clean ( #2 found:1 hypo:676 ) 3> 
+T55.111266518000775 clean ( #2 found:1 hypo:676 ) 4> ~ ne
+T55.11136219900072 word: 3 _____
+T55.11137096099992 may: 3 e n
+T57.024436835003144 clean ( #2 found:1 hypo:676 ) 5> ~ se
+T57.024570831003075 word: 4 ___s_
+T57.024583190002886 may: 4 e s
+T57.02459486600128 question done
+T58.24266145400179 > *
+T58.51715519600111 questioning: ["coast", "#3 found:1 hypo:26"]
+T66.10113953000109 coast ( #3 found:1 hypo:26 ) ? 
+T69.90390816700165 coast ( #3 found:1 hypo:26 ) > 3 oast
+T69.90407144800338 word: 2 oastt
+T69.90409362600258 may: 2 
+T75.49742499300191 coast ( #3 found:1 hypo:26 ) 4> 3 _oast
+T75.49752879500011 word: 2 _oast
+T75.49754111800212 may: 2 
+T80.44049045900101 question done
+T81.1400740320023 > *
+T81.23497179400147 questioning: ["roast", "#3 found:2 hypo:26"]
+T84.20501141400018 roast ( #3 found:2 hypo:26 ) ? 
+T85.92397142900154 roast ( #3 found:2 hypo:26 ) > 
+T87.35563880900008 roast ( #3 found:2 hypo:26 ) 1> ~ ser
+T87.35573260100136 word: 0 _a___
+T87.35574131400062 may: 0 e r s
+T88.18920021800295 roast ( #3 found:2 hypo:26 ) 2> 
+T89.3509321360034 roast ( #3 found:2 hypo:26 ) 3> roast
+T89.35102585500135 word: 2 roast
+T89.35103269899992 may: 2 
+T91.39860755300106 roast ( #3 found:2 hypo:26 ) 4> ~ ner
+T91.39891822100253 word: 3 _____
+T91.3989515980029 may: 3 e n r
+T92.3847987850022 question done
+T93.1882173130034 > *
+T93.3961111940007 questioning: ["sarge", "#1 found:3 hypo:156"]
+T95.85181099000329 sarge ( #1 found:3 hypo:156 ) ? 
+T96.36663180800315 sarge ( #1 found:3 hypo:156 ) > 
+T97.58158862900018 sarge ( #1 found:3 hypo:156 ) 1> sarge
+T97.58169424600055 word: 0 sarge
+T97.58170138700007 may: 0 
+T98.36751228499998 sarge ( #1 found:3 hypo:156 ) 2> 
+T98.55531539000003 sarge ( #1 found:3 hypo:156 ) 3> 
+T100.9625176360023 question done
+T101.57609303300342 > *
+T102.1203049700016 questioning: ["messy", "#5 found:1 hypo:1352"]
+T105.88439076800205 messy ( #5 found:1 hypo:1352 ) ? 
+T106.47494647600251 messy ( #5 found:1 hypo:1352 ) > 
+T107.78688594300183 messy ( #5 found:1 hypo:1352 ) 1> 5 messy
+T107.78719627100145 word: 4 messy
+T107.78723276600067 may: 4 
+T107.78726674500285 question done
+T109.60946436200175 > *
+T110.04192774900002 questioning: ["under", "#4 found:1 hypo:4056"]
+T112.76783861700096 under ( #4 found:1 hypo:4056 ) ? 
+T114.33532455800014 under ( #4 found:1 hypo:4056 ) > 4 under
+T114.33546045500043 word: 3 under
+T114.33547434200227 may: 3 
+T119.64295900900106 question done
+T120.04779447100009 Press <Enter> to 📋 or `>` for line prompt 
+T120.05057593400124 result: "squareword.org 1083: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1083"
+T120.05110456700277 <STOP>
