@@ -5012,3 +5012,7 @@ See log/play.dictionary.com_games_todays-hurdle/#1113
 
 🔗 alphaguess.com
 ```
+
+# 2025-01-19 squareword.org
+
+See log/squareword.org/#1084
