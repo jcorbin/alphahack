@@ -193,15 +193,7 @@ class Search(StoredLog):
                 return self.guess(ui)
 
             if tokens.have(r'fail'):
-                self.result_text = ui.paste()
-                ui.log(f'result: {json.dumps(self.result_text)}')
-                if self.result is None:
-                    try:
-                        _ = Result.parse(self.result_text, self.size)
-                    except ValueError as err:
-                        ui.print(f'! invalid result string: {err}')
-                    self.result_text = ''
-                return
+                return self.finish
 
             if tokens.have(r'tried'):
                 word = next(tokens, None)
