@@ -5040,3 +5040,23 @@ See log/play.dictionary.com_games_todays-hurdle/#1114
 🫧 2 chat sessions
 ⁉️ 6 chat prompts
 🤖 6 gemma2:latest replies
+
+# 2025-01-20 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 1022
+🤔 136 guesses
+    🔥   2
+    🥵   3
+    😎  19
+    🥶 106
+    🧊   6
+⏱️ 0:04:44.394322
+```
+
+🤔 137 attempts
+📜 0 sessions
+🫧 3 chat sessions
+⁉️ 15 chat prompts
+🤖 15 gemma2:latest replies
