@@ -5085,3 +5085,7 @@ See log/play.dictionary.com_games_todays-hurdle/#1114
 # 2025-01-20 squareword.org
 
 See log/squareword.org/#1085
+
+# 2025-01-20 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1115
