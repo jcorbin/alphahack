@@ -89,6 +89,11 @@ class Search(StoredLog):
             self.puzzle_id = f'#{res.puzzle_id}'
         return self._result
 
+    @result.deleter
+    def result(self):
+        self._result = None
+        self.result_text = ''
+
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
         for t, rest in super().load(ui, lines):
@@ -351,9 +356,12 @@ class Search(StoredLog):
             ui.log(f'result: {json.dumps(self.result_text)}')
             return
 
-        if not self.puzzle_id:
-            self.puzzle_id = f'#{res.puzzle_id}'
-            ui.log(f'puzzle_id: {self.puzzle_id}')
+        if not res.puzzle_id:
+            del self.result
+            return
+
+        self.puzzle_id = f'#{res.puzzle_id}'
+        ui.log(f'puzzle_id: {self.puzzle_id}')
 
         raise StopIteration
 
