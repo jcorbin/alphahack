@@ -176,10 +176,7 @@ class Search(StoredLog):
         return False
 
     def display(self, ui: PromptUI):
-        if self.run_done:
-            raise StopIteration
-
-        if len(self.words) >= self.size:
+        if self.run_done or len(self.words) >= self.size:
             return self.finish
 
         if self.nope_letters:
