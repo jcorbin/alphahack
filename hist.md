@@ -5257,3 +5257,24 @@ See log/play.dictionary.com_games_todays-hurdle/#1117
 ⏱️ 1m
 🔗 alfagok.diginaut.net
 ```
+
+# 2025-01-23 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 1025
+🤔 1460 guesses
+    🔥    4
+    🥵   37
+    😎  194
+    🥶 1192
+    🧊   33
+⏱️ 11:30:36.904239
+```
+
+🤔 1461 attempts
+📜 0 sessions
+🫧 82 chat sessions
+⁉️ 469 chat prompts
+🤖 4 llama3.2:latest replies
+🤖 465 gemma2:latest replies
