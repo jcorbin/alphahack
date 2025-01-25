@@ -5428,3 +5428,7 @@ See log/play.dictionary.com_games_todays-hurdle/#1119
 
 🔗 alphaguess.com
 ```
+
+# 2025-01-25 squareword.org
+
+See log/squareword.org/#1090
