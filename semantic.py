@@ -23,6 +23,17 @@ from store import StoredLog, git_txn
 from strkit import matchgen, spliterate, wraplines, MarkedSpec
 from ui import PromptUI
 
+def retry_backoffs(
+    retries: int,
+    backoff: float = 1.0,
+):
+    yield 0, 0
+    retry = 0
+    while retry < retries:
+        retry += 1
+        delay = backoff * math.pow(2, retry-1)
+        yield retry, delay * (0.5 + random.random())
+
 def weighted(score: float, w: int|float):
     if w == 0: return 0
     if score < 0:
@@ -1544,10 +1555,8 @@ class Search(StoredLog):
         if verbose is None: verbose = self.http_verbose
 
         res, err = None, None
-        for retry in range(retries):
-            if retry > 0:
-                delay = backoff * math.pow(2, retry)
-                delay *= (0.5 + random.random())
+        for retry, delay in retry_backoffs(retries, backoff):
+            if delay > 0:
                 ui.print(f'* retry {retry} backing off {datetime.timedelta(seconds=delay)}...')
                 time.sleep(delay)
 
