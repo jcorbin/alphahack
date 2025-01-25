@@ -1587,16 +1587,16 @@ class Search(StoredLog):
                     allow_redirects=allow_redirects,
                 )
 
-            except requests.RequestException as err:
+            except requests.RequestException as e:
+                err = e
                 if verbose:
                     ui.print(f'! {err}')
                 continue
+
             else:
-                err = None
                 break
 
-        if err: raise err
-        assert res
+        if not res: raise err or RuntimeError('no response')
 
         if verbose:
             if verbose > 1:
