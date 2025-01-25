@@ -1548,8 +1548,7 @@ class Search(StoredLog):
             if retry > 0:
                 delay = backoff * math.pow(2, retry)
                 delay *= (0.5 + random.random())
-                if verbose:
-                    ui.print(f'* backing off {datetime.timedelta(seconds=delay)}...')
+                ui.print(f'* retry {retry} backing off {datetime.timedelta(seconds=delay)}...')
                 time.sleep(delay)
 
             try_req = self.http_client.prepare_request(req)
