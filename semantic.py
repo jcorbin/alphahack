@@ -26,12 +26,13 @@ from ui import PromptUI
 def retry_backoffs(
     retries: int,
     backoff: float = 1.0,
+    backoff_max: float = 12.0,
 ):
     yield 0, 0
     retry = 0
-    while retry < retries:
+    while retries == 0 or retry < retries:
         retry += 1
-        delay = backoff * math.pow(2, retry-1)
+        delay = min(backoff_max, backoff * math.pow(2, retry-1))
         yield retry, delay * (0.5 + random.random())
 
 def weighted(score: float, w: int|float):
@@ -1515,7 +1516,7 @@ class Search(StoredLog):
         allow_redirects: bool=True,
         timeout: int = 3,
         verbose: int|None = None,
-        retries: int = 3,
+        retries: int = 0,
         backoff: float = 1.0,
     ):
         if verbose is None: verbose = self.http_verbose
@@ -1551,11 +1552,12 @@ class Search(StoredLog):
         verbose: int|None = None,
         retries: int = 3,
         backoff: float = 1.0,
+        backoff_max: float = 12.0,
     ):
         if verbose is None: verbose = self.http_verbose
 
         res, err = None, None
-        for retry, delay in retry_backoffs(retries, backoff):
+        for retry, delay in retry_backoffs(retries, backoff, backoff_max):
             if delay > 0:
                 ui.print(f'* retry {retry} backing off {datetime.timedelta(seconds=delay)}...')
                 time.sleep(delay)
