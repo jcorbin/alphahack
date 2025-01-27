@@ -5570,3 +5570,7 @@ See log/play.dictionary.com_games_todays-hurdle/#1121
 # 2025-01-27 squareword.org
 
 See log/squareword.org/#1092
+
+# 2025-01-27 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1122
