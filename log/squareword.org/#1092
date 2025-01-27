@@ -1,0 +1,124 @@
+T0.00015243401867337525 now: 2025-01-27T09:08:01EST
+T0.00019271302153356373 site: squareword.org
+T4.636077514005592 🧩  ? #1092
+T4.636477268009912 puzzle_id: #1092
+T8.090621344017563 > *
+T8.18060690202401 questioning: ["mucho", "#5 found:5091 hypo:11881376"]
+T12.706892479996895 mucho ( #5 found:5091 hypo:11881376 ) ? 
+T13.83272136800224 mucho ( #5 found:5091 hypo:11881376 ) > 
+T14.918928826024057 mucho ( #5 found:5091 hypo:11881376 ) 1> ~ h
+T14.92045367101673 word: 0 _____
+T14.920489841024391 may: 0 h
+T16.14249949902296 mucho ( #5 found:5091 hypo:11881376 ) 2> ~ co
+T16.14287056302419 word: 1 _____
+T16.142906616005348 may: 1 c o
+T20.460401150019607 mucho ( #5 found:5091 hypo:11881376 ) 3> ____o ~ m
+T20.46052496699849 word: 2 ____o
+T20.460535418998916 may: 2 m
+T22.62068679201184 mucho ( #5 found:5091 hypo:11881376 ) 4> 
+T24.885423109022668 mucho ( #5 found:5091 hypo:11881376 ) 5> ~ h
+T24.885627199022565 word: 4 _____
+T24.885653422010364 may: 4 h
+T24.885680940002203 question done
+T26.697939680016134 > /no u
+T26.698331102001248 nope: u
+T215.60272896001698 > *
+T215.88704706501449 questioning: ["amigo", "#3 found:4 hypo:15625"]
+T220.21584643001552 amigo ( #3 found:4 hypo:15625 ) ? 
+T221.36222217901377 amigo ( #3 found:4 hypo:15625 ) > 
+T227.95611212702352 amigo ( #3 found:4 hypo:15625 ) 1> ___g ~ ha
+T227.9564225790091 word: 0 ___g_
+T227.9564534810197 may: 0 a h
+T230.23844756401377 amigo ( #3 found:4 hypo:15625 ) 2> ~ coa
+T230.23873067600653 word: 1 _____
+T230.23876012201072 may: 1 a c o
+T232.68288255902007 amigo ( #3 found:4 hypo:15625 ) 3> amigo
+T232.68310726599884 word: 2 amigo
+T232.68313255702378 may: 2 
+T234.47679564999999 amigo ( #3 found:4 hypo:15625 ) 4> 
+T235.32145237599616 question done
+T236.44175224300125 > *
+T236.7802552820067 questioning: ["laigh", "#1 found:5 hypo:1250"]
+T240.00823566201143 laigh ( #1 found:5 hypo:1250 ) ? 
+T240.1836813139962 laigh ( #1 found:5 hypo:1250 ) > 
+T243.51681522201397 laigh ( #1 found:5 hypo:1250 ) 1> 
+T244.95096199802356 laigh ( #1 found:5 hypo:1250 ) 2> ~ coal
+T244.9511392970162 word: 1 _____
+T244.95115907501895 may: 1 a c l o
+T250.69417846601573 laigh ( #1 found:5 hypo:1250 ) 3> 5 ____h
+T250.694400797016 word: 4 ____h
+T250.69443344001775 may: 4 
+T250.6944610030041 question done
+T294.1383756120049 > *
+T294.34361446500407 questioning: ["sangh", "#1 found:6 hypo:1250"]
+T298.17975001901505 sangh ( #1 found:6 hypo:1250 ) ? 
+T298.7505219420127 sangh ( #1 found:6 hypo:1250 ) > 
+T301.71764678601176 sangh ( #1 found:6 hypo:1250 ) 1> s__g ~ has
+T301.71799891701085 word: 0 s__g_
+T301.7180435160117 may: 0 a h s
+T306.1422337219992 sangh ( #1 found:6 hypo:1250 ) 2> 4 ~ s
+T306.1424763670075 word: 3 _____
+T306.1425081670168 may: 3 s
+T308.36678727401886 sangh ( #1 found:6 hypo:1250 ) 5> ~ s
+T308.3669953170174 word: 4 ____h
+T308.3670166940137 may: 4 s
+T308.3670348270098 question done
+T312.2245100100117 > *
+T312.41324529601843 questioning: ["shags", "#1 found:1 hypo:6"]
+T315.10902156101656 shags ( #1 found:1 hypo:6 ) ? 
+T315.6526224060217 shags ( #1 found:1 hypo:6 ) > 
+T316.6702261320024 shags ( #1 found:1 hypo:6 ) 1> shags
+T316.670445035008 word: 0 shags
+T316.6704694360087 may: 0 
+T318.7120254120091 question done
+T320.73312686401187 > /no n
+T320.7333588890033 nope: n u
+T321.46094031701796 > *
+T322.0162857460091 questioning: ["comal", "#2 found:2 hypo:576"]
+T325.36430074099917 comal ( #2 found:2 hypo:576 ) ? 
+T325.7194447960064 comal ( #2 found:2 hypo:576 ) > 
+T327.0721370700048 comal ( #2 found:2 hypo:576 ) 1> 
+T328.1534634650161 comal ( #2 found:2 hypo:576 ) 2> co_al
+T328.1536426189996 word: 1 co_al
+T328.153662925004 may: 1 
+T331.7773173400201 question done
+T332.4306165630114 > *
+T333.2512992200209 questioning: ["coral", "#2 found:3 hypo:24"]
+T337.966447918996 coral ( #2 found:3 hypo:24 ) ? 
+T340.37511060902034 coral ( #2 found:3 hypo:24 ) > 2 coral
+T340.37529353401624 word: 1 coral
+T340.37532016300247 may: 1 
+T343.4073418810149 coral ( #2 found:3 hypo:24 ) 3> 4 ~ sr
+T343.4075811000075 word: 3 _____
+T343.40761693700915 may: 3 r s
+T346.3053783950163 coral ( #2 found:3 hypo:24 ) 5> ~ sr
+T346.30575497599784 word: 4 ____h
+T346.3058652699983 may: 4 r s
+T346.3059571190097 question done
+T346.99412129601114 > *
+T347.6733398770157 questioning: ["fresh", "#5 found:1 hypo:1152"]
+T352.1625045010005 fresh ( #5 found:1 hypo:1152 ) ? 
+T354.8573444530193 fresh ( #5 found:1 hypo:1152 ) > 4 ~ sre
+T354.857557514013 word: 3 _____
+T354.85757902401383 may: 3 e r s
+T356.029729196016 fresh ( #5 found:1 hypo:1152 ) 5> fresh
+T356.0299377220217 word: 4 fresh
+T356.02996939999866 may: 4 
+T356.02999922502204 question done
+T356.9601411879994 > *
+T357.59027787699597 questioning: ["reses", "#4 found:1 hypo:3456"]
+T361.7292696920049 reses ( #4 found:1 hypo:3456 ) ? 
+T363.8468162350182 reses ( #4 found:1 hypo:3456 ) > 4 rese
+T363.84711219300516 word: 3 rese_
+T363.84714488399914 may: 3 
+T365.55742683800054 question done
+T366.0686867860204 > *
+T366.56784884401713 questioning: ["reset", "#4 found:2 hypo:24"]
+T370.68850211802055 reset ( #4 found:2 hypo:24 ) ? 
+T371.89268832001835 reset ( #4 found:2 hypo:24 ) > 4 reset
+T371.89291907602455 word: 3 reset
+T371.89294201502344 may: 3 
+T375.72761570100556 question done
+T377.8935007789987 Press <Enter> to 📋 or `>` for line prompt 
+T377.8975103319972 result: "squareword.org 1092: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1092"
+T377.8985234950087 <STOP>
