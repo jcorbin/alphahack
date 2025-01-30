@@ -5702,3 +5702,23 @@ See log/squareword.org/#1094
 # 2025-01-29 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1124
+
+# 2025-01-29 cemantix.certitudes.org
+
+```
+🔗 cemantix.certitudes.org
+🧩 1065
+🤔 171 guesses
+    🔥   1
+    🥵   1
+    😎  17
+    🥶 129
+    🧊  23
+⏱️ 0:17:11.941790
+```
+
+🤔 172 attempts
+📜 0 sessions
+🫧 5 chat sessions
+⁉️ 22 chat prompts
+🤖 22 gemma2:latest replies
