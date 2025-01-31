@@ -1,180 +1,184 @@
-# 2025-01-31
+# 2025-02-01
 
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1126 🥳 18 ⏱️ 0:04:51.777909
-- 🔗 squareword.org 🧩 #1096 🥳 13 ⏱️ 0:03:37.033647
-- 🔗 alphaguess.com 🧩 #556 🥳 12 ⏱️ 0:00:42.541727
-- 🔗 alfagok.diginaut.net 🧩 #90 🥳 17 ⏱️ 0:00:46.393795
-- 🔗 cemantle.certitudes.org 🧩 #1033 🥳 667 ⏱️ 1:06:27.590186
-- 🔗 cemantix.certitudes.org 🧩 #1066 🥳 186 ⏱️ 0:10:33.326319
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1127 🥳 18 ⏱️ 0:08:18.520710
+- 🔗 squareword.org 🧩 #1097 🥳 11 ⏱️ 0:03:25.657702
+- 🔗 alphaguess.com 🧩 #557 🥳 14 ⏱️ 0:00:40.781721
+- 🔗 alfagok.diginaut.net 🧩 #91 🥳 16 ⏱️ 0:03:17.032031
+- 🔗 cemantle.certitudes.org 🧩 #1034 🥳 277 ⏱️ 0:06:10.753116
+- 🔗 cemantix.certitudes.org 🧩 #1067 🥳 147 ⏱️ 0:07:39.676932
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1126 🥳 18
-- ✅ squareword.org 🧩 #1096 🥳 13
-- ✅ alphaguess.com 🧩 #556 🥳 12
-- ✅ alfagok.diginaut.net 🧩 #90 🥳 17
-- ✅ cemantle.certitudes.org 🧩 #1033 🥳 667
-- ✅ cemantix.certitudes.org 🧩 #1066 🥳 186
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1127 🥳 18
+- ✅ squareword.org 🧩 #1097 🥳 11
+- ✅ alphaguess.com 🧩 #557 🥳 14
+- ✅ alfagok.diginaut.net 🧩 #91 🥳 16
+- ✅ cemantle.certitudes.org 🧩 #1034 🥳 277
+- ✅ cemantix.certitudes.org 🧩 #1067 🥳 147
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$9cdSnHwZxpRDpNz7QNyALLHVazK7qGnjBbvW4acRl4Y?via=aelf.land&via=matrix.org
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$FJ5KhxrWovNp6Hr-bmaVR3MYWY0i6_I7miaQDIiXorA?via=aelf.land&via=matrix.org
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1126 🥳 18 ⏱️ 0:04:51.777909
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1127 🥳 18 ⏱️ 0:08:18.520710
 
-📜 2 sessions
+📜 1 sessions
 💰 score: 9800
 
     3/6
-    > S C O P E
-      ⬜⬜🟩⬜⬜
-    > A L O N G
-      🟩⬜🟩🟩🟨
-    > A G O N Y
-      🟩🟩🟩🟩🟩
-    5/6
-    > H I N G E
-      ⬜🟨⬜🟨⬜
-    > S I N G E
-      🟨⬜⬜🟩🟩
-    > S L U R P
-      ⬜🟩🟩🟩🟩
-    > S O U T H
-      ⬜🟩🟩🟩🟩
-    > S H U S H
+    > L O F T Y
+      🟨⬜⬜🟨⬜
+    > T A B L E
+      🟨⬜🟨🟩⬜
+    > B U I L T
       🟩🟩🟩🟩🟩
     4/6
-    > A N D R O
-      🟩⬜⬜⬜⬜
-    > B R E A K
-      🟩⬜🟩⬜⬜
-    > P A R T Y
-      🟩⬜🟩⬜🟩
-    > T A P I R
+    > F O C A L
+      ⬜⬜⬜🟨⬜
+    > C L E R K
+      ⬜⬜🟨⬜🟨
+    > W E L C H
+      🟨🟨🟨⬜⬜
+    > P H O N E
+      🟩🟩🟩🟩🟩
+    4/6
+    > H O V E R
+      ⬜🟨⬜⬜🟨
+    > E T H O S
+      ⬜🟨🟨⬜🟨
+    > F A L S E
+      🟨🟨⬜🟨⬜
+    > S W I P E
       🟩🟩🟩🟩🟩
     5/6
-    > I R A T E
-      ⬜⬜⬜⬜⬜
-      🟨⬜⬜🟨⬜
-      ⬜🟨⬜🟨⬜
-      🟨🟩🟨🟨⬜
+    > S C E N E
+      🟨⬜⬜⬜🟨
+    > S U R G E
+      ⬜⬜⬜🟨🟩
+    > M O D A L
+      🟩⬜⬜⬜🟩
+    > L O O P Y
+      🟩⬜⬜⬜🟩
       🟩🟩🟩🟩🟩
-    Final 1/2
+    Final 2/2
+      ⬜🟩⬜⬜🟨
       🟩🟩🟩🟩🟩
 
-# squareword.org 🧩 #1096 🥳 13 ⏱️ 0:03:37.033647
+# squareword.org 🧩 #1097 🥳 11 ⏱️ 0:03:25.657702
 
-📜 1 sessions
+📜 3 sessions
 
 Guesses:
-1. tense
+1. aside
+2. redds
 
 Score Heatmap:
-    🟨 🟨 🟨 🟨 🟨
-    🟧 🟨 🟨 🟧 🟩
-    🟧 🟩 🟧 🟩 🟧
+    🟧 🟩 🟨 🟨 🟨
+    🟩 🟩 🟩 🟩 🟩
+    🟩 🟩 🟩 🟨 🟩
     🟨 🟨 🟨 🟨 🟩
-    🟩 🟩 🟨 🟩 🟩
+    🟨 🟨 🟨 🟩 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    A F O O T
-    B R A V E
-    B A K E R
-    O M E N S
-    T E N S E
+    C U T E R
+    A S I D E
+    R A N G E
+    E G G E D
+    D E E D S
 
-# alphaguess.com 🧩 #556 🥳 12 ⏱️ 0:00:42.541727
+# alphaguess.com 🧩 #557 🥳 14 ⏱️ 0:00:40.781721
 
-🤔 12 attempts
+🤔 14 attempts
 📜 1 sessions
 
-    @       [    0] aa        
-    @+1     [    1] aah       
-    @+2     [    2] aahed     
-    @+3     [    3] aahing    
-    @+47410 [47410] dis       q1  ? after
-    @+72833 [72833] gremolata q2  ? after
-    @+75990 [75990] haw       q5  ? after
-    @+76325 [76325] heart     q8  ? after
-    @+76392 [76392] heat      q10 ? after
-    @+76459 [76459] heavy     q11 ? it
-    @+76459 [76459] heavy     done. it
-    @+76529 [76529] heddles   q9  ? before
-    @+76733 [76733] helio     q7  ? before
-    @+77534 [77534] hetero    q6  ? before
-    @+79167 [79167] hood      q4  ? before
-    @+85540 [85540] ins       q3  ? before
-    @+98255 [98255] mach      q0  ? before
+    @        [     0] aa        
+    @+1      [     1] aah       
+    @+2      [     2] aahed     
+    @+3      [     3] aahing    
+    @+98255  [ 98255] mach      q0  ? after
+    @+122820 [122820] parr      q2  ? after
+    @+128889 [128889] play      q4  ? after
+    @+131969 [131969] prealter  q5  ? after
+    @+133509 [133509] presift   q6  ? after
+    @+133892 [133892] prewire   q8  ? after
+    @+134012 [134012] prim      q9  ? after
+    @+134146 [134146] princocks q10 ? after
+    @+134155 [134155] print     q13 ? it
+    @+134155 [134155] print     done. it
+    @+134178 [134178] prior     q12 ? before
+    @+134207 [134207] prism     q11 ? before
+    @+134280 [134280] privies   q7  ? before
+    @+135050 [135050] prop      q3  ? before
+    @+147420 [147420] rhumb     q1  ? before
 
-# alfagok.diginaut.net 🧩 #90 🥳 17 ⏱️ 0:00:46.393795
+# alfagok.diginaut.net 🧩 #91 🥳 16 ⏱️ 0:03:17.032031
 
-🤔 17 attempts
+🤔 16 attempts
 📜 1 sessions
 
-    @        [     0] &-teken        
-    @+1      [     1] &-tekens       
-    @+2      [     2] -cijferig      
-    @+3      [     3] -e-mail        
-    @+199898 [199898] lij            q0  ? after
-    @+300240 [300240] schrijn        q1  ? after
-    @+350386 [350386] vakantie       q2  ? after
-    @+356139 [356139] verg           q5  ? after
-    @+356954 [356954] verheug        q8  ? after
-    @+357038 [357038] verhoer        q11 ? after
-    @+357080 [357080] verhoog        q12 ? after
-    @+357093 [357093] verhoor        q13 ? after
-    @+357111 [357111] verhoren       q14 ? after
-    @+357117 [357117] verhoud        q15 ? after
-    @+357119 [357119] verhouding     q16 ? it
-    @+357119 [357119] verhouding     done. it
-    @+357129 [357129] verhout        q10 ? before
-    @+357310 [357310] verjaar        q9  ? before
-    @+357778 [357778] verken         q7  ? before
-    @+359446 [359446] vermenigvuldig q6  ? before
-    @+362761 [362761] vervijfvoudig  q4  ? before
-    @+375142 [375142] vrij           q3  ? before
+    @        [     0] &-teken    
+    @+1      [     1] &-tekens   
+    @+2      [     2] -cijferig  
+    @+3      [     3] -e-mail    
+    @+199898 [199898] lij        q0  ? after
+    @+300240 [300240] schrijn    q1  ? after
+    @+312670 [312670] spiegel    q4  ? after
+    @+318910 [318910] stelp      q5  ? after
+    @+320330 [320330] stil       q7  ? after
+    @+320733 [320733] stoet      q9  ? after
+    @+320745 [320745] stof       q11 ? after
+    @+320781 [320781] stoffel    q13 ? after
+    @+320798 [320798] stoffer    q14 ? after
+    @+320808 [320808] stoffig    q15 ? it
+    @+320808 [320808] stoffig    done. it
+    @+320828 [320828] stofjes    q12 ? before
+    @+320910 [320910] stok       q10 ? before
+    @+321136 [321136] stoneleeks q8  ? before
+    @+321941 [321941] straat     q6  ? before
+    @+325170 [325170] sub        q3  ? before
+    @+350386 [350386] vakantie   q2  ? before
 
-# cemantle.certitudes.org 🧩 #1033 🥳 667 ⏱️ 1:06:27.590186
+# cemantle.certitudes.org 🧩 #1034 🥳 277 ⏱️ 0:06:10.753116
 
-🤔 668 attempts
+🤔 278 attempts
 📜 1 sessions
-🫧 29 chat sessions
-⁉️ 170 chat prompts
-🤖 170 gemma2:latest replies
-😱   1 🔥   3 🥵  33 😎 112 🥶 480 🧊  38
+🫧 7 chat sessions
+⁉️ 35 chat prompts
+🤖 35 llama3.2:latest replies
+🔥   2 🥵   9 😎  18 🥶 208 🧊  40
 
-      $1 #668   ~1 certified         100.00°C 🥳 1000‰
-      $2 #134 ~115 certification      74.09°C 😱  999‰
-      $3  #65 ~145 certify            65.32°C 🔥  998‰
-      $4 #401  ~62 accredited         61.14°C 🔥  997‰
-      $5 #488  ~28 verified           47.66°C 🔥  993‰
-      $6 #433  ~50 qualified          43.01°C 🥵  988‰
-      $7  #66 ~144 accreditation      42.24°C 🥵  987‰
-      $8 #328  ~73 verifier           42.21°C 🥵  986‰
-      $9 #448  ~40 accredit           42.20°C 🥵  985‰
-     $10 #434  ~49 recognized         41.49°C 🥵  982‰
-     $11 #450  ~39 recognised         41.49°C 🥵  982‰
-     $39 #145 ~113 verification       28.50°C 😎  899‰
-    $151 #661      responsive         18.71°C 🥶
-    $631 #586      in                 -0.17°C 🧊
+      $1 #278   ~1 married          100.00°C 🥳 1000‰
+      $2 #212  ~27 marriage          63.83°C 🔥  995‰
+      $3 #211  ~28 fiancé            56.77°C 🔥  992‰
+      $4 #218  ~22 divorce           55.92°C 🥵  989‰
+      $5 #273   ~3 wife              55.55°C 🥵  986‰
+      $6 #270   ~5 husband           54.98°C 🥵  985‰
+      $7 #269   ~6 wedding           50.50°C 🥵  976‰
+      $8 #258  ~10 marital           47.71°C 🥵  966‰
+      $9 #272   ~4 spouse            45.65°C 🥵  956‰
+     $10 #222  ~21 matrimony         45.09°C 🥵  953‰
+     $11 #266   ~7 spousal           42.35°C 🥵  937‰
+     $13 #253  ~12 infidelity        37.05°C 😎  881‰
+     $31 #234      estate            23.65°C 🥶
+    $239 #168      advancement       -0.01°C 🧊
 
-# cemantix.certitudes.org 🧩 #1066 🥳 186 ⏱️ 0:10:33.326319
+# cemantix.certitudes.org 🧩 #1067 🥳 147 ⏱️ 0:07:39.676932
 
-🤔 187 attempts
+🤔 148 attempts
 📜 1 sessions
-🫧 5 chat sessions
-⁉️ 23 chat prompts
-🤖 23 gemma2:latest replies
-🥵   3 😎  12 🥶 142 🧊  29
+🫧 4 chat sessions
+⁉️ 16 chat prompts
+🤖 16 gemma2:latest replies
+🔥  1 🥵 11 😎 31 🥶 95 🧊  9
 
-      $1 #187   ~1 majesté         100.00°C 🥳 1000‰
-      $2 #166   ~8 grâce            42.48°C 🥵  968‰
-      $3 #144   ~9 suprême          41.73°C 🥵  963‰
-      $4 #184   ~3 noblesse         38.27°C 🥵  923‰
-      $5 #142  ~10 divin            34.96°C 😎  855‰
-      $6 #174   ~7 somptueux        34.18°C 😎  832‰
-      $7 #181   ~4 délicatesse      33.83°C 😎  821‰
-      $8 #126  ~12 céleste          32.61°C 😎  762‰
-      $9  #65  ~15 âme              32.00°C 😎  718‰
-     $10 #185   ~2 impériale        31.91°C 😎  712‰
-     $11 #175   ~6 beauté           30.71°C 😎  633‰
-     $12  #68  ~14 immensité        28.53°C 😎  428‰
-     $17 #130      infiniment       24.93°C 🥶
-    $159  #90      avenir           -0.05°C 🧊
+      $1 #148   ~1 curiosité       100.00°C 🥳 1000‰
+      $2 #117  ~11 imagination      43.79°C 🔥  990‰
+      $3  #36  ~32 émerveillement   42.66°C 🥵  989‰
+      $4 #147   ~2 découverte       41.59°C 🥵  988‰
+      $5  #77  ~28 esprit           36.28°C 🥵  964‰
+      $6 #113  ~13 désir            36.07°C 🥵  962‰
+      $7  #90  ~20 créativité       35.89°C 🥵  961‰
+      $8  #87  ~22 délectation      33.99°C 🥵  950‰
+      $9  #30  ~34 mystère          33.66°C 🥵  945‰
+     $10  #79  ~27 fantaisie        32.96°C 🥵  941‰
+     $11  #25  ~37 aventure         32.80°C 🥵  938‰
+     $14 #119  ~10 originalité      30.84°C 😎  896‰
+     $45 #143      joie             19.29°C 🥶
+    $140  #73      sacrifice        -1.09°C 🧊
