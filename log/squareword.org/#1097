@@ -1,0 +1,179 @@
+T0.00020562100689858198 now: 2025-02-01T10:55:05EST
+T0.00029562701820395887 site: squareword.org
+T4.058130749006523 🧩  ? #1097
+T4.058322124008555 puzzle_id: #1097
+T5.165349120012252 > *
+T5.26007998699788 questioning: ["slubs", "#5 found:7294 hypo:11881376"]
+T8.34695905999979 slubs ( #5 found:7294 hypo:11881376 ) ? 
+T9.261642950004898 slubs ( #5 found:7294 hypo:11881376 ) > 
+T11.740613299014512 slubs ( #5 found:7294 hypo:11881376 ) 1> ~ u
+T11.742231768002966 word: 0 _____
+T11.742268353002146 may: 0 u
+T13.277600508998148 slubs ( #5 found:7294 hypo:11881376 ) 2> ~ s
+T13.277706802997272 word: 1 _____
+T13.277715787000488 may: 1 s
+T14.487454907008214 slubs ( #5 found:7294 hypo:11881376 ) 3> 
+T14.860049075010465 slubs ( #5 found:7294 hypo:11881376 ) 4> 
+T16.79071569099324 slubs ( #5 found:7294 hypo:11881376 ) 5> ____s
+T16.790824146999512 word: 4 ____s
+T16.79083525200258 may: 4 
+T16.79084658101783 question done
+T18.592146561015397 > /no bl
+T18.592392766993726 nope: b l
+T19.82541171601042 > *
+T20.077374526998028 questioning: ["runny", "#1 found:769 hypo:331776"]
+T25.248033525014762 runny ( #1 found:769 hypo:331776 ) ? 
+T25.563472690002527 runny ( #1 found:769 hypo:331776 ) > 
+T27.978046578995418 runny ( #1 found:769 hypo:331776 ) 1> _u ~ r
+T27.978179978992557 word: 0 _u___
+T27.97819178699865 may: 0 r
+T29.655587286019 runny ( #1 found:769 hypo:331776 ) 2> 
+T31.18416182900546 runny ( #1 found:769 hypo:331776 ) 3> r_n
+T31.184312616009265 word: 2 r_n__
+T31.184331352997106 may: 2 
+T32.32366074901074 runny ( #1 found:769 hypo:331776 ) 4> 
+T33.054078165005194 runny ( #1 found:769 hypo:331776 ) 5> 
+T33.054205987020396 question done
+T34.656986226007575 > /no y
+T34.6571053499938 nope: b l y
+T35.15301298099803 > *
+T35.5653076400049 questioning: ["ranid", "#3 found:8 hypo:12167"]
+T38.65106030201423 ranid ( #3 found:8 hypo:12167 ) ? 
+T42.901063672004966 ranid ( #3 found:8 hypo:12167 ) > 2 ~ said
+T42.90137499800767 word: 1 _____
+T42.901409921993036 may: 1 a d i s
+T45.37000912899384 ranid ( #3 found:8 hypo:12167 ) 3> ran
+T45.370116840000264 word: 2 ran__
+T45.37012676699669 may: 2 
+T47.962980848009465 ranid ( #3 found:8 hypo:12167 ) 4> ____d
+T47.963068973011104 word: 3 ____d
+T47.96307510699262 may: 3 
+T48.86159114501788 ranid ( #3 found:8 hypo:12167 ) 5> ~ d
+T48.86179486900801 word: 4 ____s
+T48.86181889899308 may: 4 d
+T48.86184181601857 question done
+T49.60177394800121 > *
+T49.96839639401878 questioning: ["tsadi", "#2 found:2 hypo:552"]
+T55.07196788699366 tsadi ( #2 found:2 hypo:552 ) ? 
+T55.52503545000218 tsadi ( #2 found:2 hypo:552 ) > 
+T60.18583997600945 tsadi ( #2 found:2 hypo:552 ) 1> ~ rt
+T60.18610161502147 word: 0 _u___
+T60.18616050001583 may: 0 r t
+T63.01227798400214 tsadi ( #2 found:2 hypo:552 ) 2> _s_d ~ ai
+T63.012530439009424 word: 1 _s_d_
+T63.0125677229953 may: 1 a i
+T70.36652558200876 tsadi ( #2 found:2 hypo:552 ) 3> 5 ___ds ~ d
+T70.36683777099825 word: 4 ___ds
+T70.36690518300747 may: 4 d
+T70.36694297700888 question done
+T72.0809027570067 > *
+T72.35358045101748 questioning: ["tsadi", "#2 found:2 hypo:46"]
+T74.27984000000288 tsadi ( #2 found:2 hypo:46 ) ? 
+T74.76153023299412 tsadi ( #2 found:2 hypo:46 ) > *
+T75.61883048800519 question done
+T76.14934362200438 > *
+T76.1503478270024 questioning: ["tsadi", "#2 found:2 hypo:46"]
+T77.23358431999804 question done
+T77.79414683202049 > *
+T77.79552827600855 questioning: ["tsadi", "#2 found:2 hypo:46"]
+T79.07287600400741 tsadi ( #2 found:2 hypo:46 ) ? !
+T79.07294890200137 reject: tsadi
+T79.58188152700313 > *
+T79.58324033900863 questioning: ["aside", "#2 found:1 hypo:46"]
+T82.67644950700924 aside ( #2 found:1 hypo:46 ) ? 
+T84.54496481400565 aside ( #2 found:1 hypo:46 ) > 2 aside
+T84.54523467901163 word: 1 aside
+T84.54527267802041 may: 1 
+T88.03432591599994 aside ( #2 found:1 hypo:46 ) 3> 1 ~ rte
+T88.03450880100718 word: 0 _u___
+T88.03453601201181 may: 0 e r t
+T92.53278437900008 aside ( #2 found:1 hypo:46 ) 2> 3 ran_e
+T92.53301707500941 word: 2 ran_e
+T92.53304190101335 may: 2 
+T98.31937763100723 aside ( #2 found:1 hypo:46 ) 4> 5 ~ de
+T98.3194714889978 word: 4 ___ds
+T98.31947958501405 may: 4 d e
+T98.31952596301562 question done
+T99.86139736999758 <INT>
+T0.002278949017636478 now: 2025-02-01T10:56:47EST
+T3.1921271190221887 > aside
+T3.1925066910043824 questioning: ["aside", "entered"]
+T5.403639563999604 aside ( entered ) ? 2 ~
+T5.403978182002902 guess: aside
+T5.404028720018687 word: 1 aside
+T5.4040345970133785 may: 1 
+T8.142391905013938 question done
+T8.74797721899813 > *
+T9.19655271701049 questioning: ["range", "#3 found:1 hypo:23"]
+T13.501354450010695 range ( #3 found:1 hypo:23 ) ? 
+T14.469510595023166 range ( #3 found:1 hypo:23 ) > 3 range
+T14.46964306299924 word: 2 range
+T14.469656397996005 may: 2 
+T18.26114440499805 range ( #3 found:1 hypo:23 ) 4> 4 ~ eg
+T18.261667439015582 word: 3 ____d
+T18.261798915016698 may: 3 e g
+T22.52798181201797 range ( #3 found:1 hypo:23 ) 5> 
+T22.52817280299496 question done
+T23.265771405014675 > *
+T23.37778481299756 questioning: ["redds", "#5 found:3 hypo:46"]
+T31.852627405023668 redds ( #5 found:3 hypo:46 ) ? 
+T35.828730540000834 redds ( #5 found:3 hypo:46 ) > 5 _e_ds
+T35.82885123000597 word: 4 _e_ds
+T35.82886016101111 may: 4 d
+T35.82886889501242 question done
+T41.44645546699758 > redds
+T41.446680201013805 questioning: ["redds", "entered"]
+T45.28591642601532 redds ( entered ) ? 5 ~ de
+T45.28604250901844 guess: redds
+T45.28609643899836 word: 4 _e_ds
+T45.286113990005106 may: 4 d e
+T45.286126738006715 question done
+T46.18502172501758 <INT>
+T0.002335880999453366 now: 2025-02-01T10:57:35EST
+T2.483358650992159 > redds
+T2.484035811998183 questioning: ["redds", "entered"]
+T3.427629479992902 redds ( entered ) > 2 ~
+T3.428036711004097 word: 1 aside
+T3.428047076013172 may: 1 
+T5.1661622489918955 redds ( entered ) 3> 
+T6.037873911001952 redds ( entered ) 4> 
+T6.5478905260097235 redds ( entered ) 5> 
+T6.547957453993149 question done
+T7.176775972999167 > *
+T7.62311412600684 questioning: ["deeds", "#5 found:1 hypo:2"]
+T10.913201385003049 deeds ( #5 found:1 hypo:2 ) ? 
+T12.407894066011067 deeds ( #5 found:1 hypo:2 ) > 
+T15.06647066801088 deeds ( #5 found:1 hypo:2 ) 1> 5 deeds
+T15.06681569799548 word: 4 deeds
+T15.066856051009381 may: 4 
+T15.066888778994326 question done
+T18.00349819700932 > *
+T18.096519006998278 questioning: ["egged", "#4 found:1 hypo:1058"]
+T22.478220124990912 egged ( #4 found:1 hypo:1058 ) ? 
+T24.14036644200678 egged ( #4 found:1 hypo:1058 ) > 4 egged
+T24.140545461996226 word: 3 egged
+T24.14057081201463 may: 3 
+T28.21140685401042 egged ( #4 found:1 hypo:1058 ) 5> 1 _u_e
+T28.211517438990995 word: 0 _u_e_
+T28.211529847001657 may: 0 r t
+T30.030774629994994 question done
+T30.56583554900135 > *
+T30.808955286018318 questioning: ["outer", "#1 found:2 hypo:46"]
+T36.14906386600342 outer ( #1 found:2 hypo:46 ) ? 
+T40.59172827200382 outer ( #1 found:2 hypo:46 ) > 1 _uter
+T40.591821390000405 word: 0 _uter
+T40.591829055018025 may: 0 
+T42.20944387401687 outer ( #1 found:2 hypo:46 ) 2> /no o
+T44.54681977699511 question done
+T45.81846336199669 > /no o
+T45.818705651996424 nope: b l o y
+T46.42019929800881 > *
+T46.610892463999335 questioning: ["cuter", "#1 found:1 hypo:22"]
+T55.052747579989955 cuter ( #1 found:1 hypo:22 ) ? 
+T57.332025681011146 cuter ( #1 found:1 hypo:22 ) > 1 cuter
+T57.33216558099957 word: 0 cuter
+T57.33217446701019 may: 0 
+T58.513402573997155 question done
+T62.05174989000079 Press <Enter> to 📋 or `>` for line prompt 
+T62.05380173199228 result: "squareword.org 1097: 11 guesses\n\n\ud83d\udfe7\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1097"
+T62.05453401300474 <STOP>
