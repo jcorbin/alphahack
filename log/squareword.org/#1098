@@ -1,0 +1,116 @@
+T0.0002241120091639459 now: 2025-02-02T09:18:23EST
+T0.00028612499590963125 site: squareword.org
+T2.8710374510264955 🧩  ? #1098
+T2.8714790110243484 puzzle_id: #1098
+T3.523769206018187 > *
+T3.6188258040347137 questioning: ["rexes", "#5 found:6523 hypo:11881376"]
+T6.297114648041315 rexes ( #5 found:6523 hypo:11881376 ) ? 
+T6.536079541023355 rexes ( #5 found:6523 hypo:11881376 ) > 
+T9.673421431041788 rexes ( #5 found:6523 hypo:11881376 ) 1> ___es ~ r
+T9.674648785032332 word: 0 ___es
+T9.674685581005178 may: 0 r
+T11.148527420999017 rexes ( #5 found:6523 hypo:11881376 ) 2> ~ e
+T11.149323762045242 word: 1 _____
+T11.149360598006751 may: 1 e
+T13.582765291037504 rexes ( #5 found:6523 hypo:11881376 ) 3> 
+T16.75151878403267 rexes ( #5 found:6523 hypo:11881376 ) 4> ___e ~ re
+T16.751816095027607 word: 3 ___e_
+T16.751860700023826 may: 3 e r
+T19.18506269302452 rexes ( #5 found:6523 hypo:11881376 ) 5> ~ res
+T19.18537144199945 word: 4 _____
+T19.185414277017117 may: 4 e r s
+T19.185456553008407 question done
+T21.240321103017777 > /no x
+T21.24104467203142 nope: x
+T21.836516391020268 > *
+T22.241051955032162 questioning: ["vires", "#1 found:107 hypo:625"]
+T24.815526025020517 vires ( #1 found:107 hypo:625 ) ? 
+T25.09819899505237 vires ( #1 found:107 hypo:625 ) > 
+T26.99612912599696 vires ( #1 found:107 hypo:625 ) 1> __res
+T26.99644621904008 word: 0 __res
+T26.99648942303611 may: 0 
+T29.87138008303009 vires ( #1 found:107 hypo:625 ) 2> ~ ev
+T29.871590136026498 word: 1 _____
+T29.871614244009834 may: 1 e v
+T31.83944131800672 vires ( #1 found:107 hypo:625 ) 3> _i
+T31.839680547011085 word: 2 _i___
+T31.839710023021325 may: 2 
+T36.133116945042275 vires ( #1 found:107 hypo:625 ) 4> 
+T36.49920017103432 vires ( #1 found:107 hypo:625 ) 5> 
+T36.49934727902291 question done
+T37.30125101900194 > *
+T37.55564797401894 questioning: ["event", "#2 found:3 hypo:31250"]
+T40.123215256026015 event ( #2 found:3 hypo:31250 ) ? 
+T40.324555011000484 event ( #2 found:3 hypo:31250 ) > 
+T40.77770034404239 event ( #2 found:3 hypo:31250 ) 1> 
+T41.93992315902142 event ( #2 found:3 hypo:31250 ) 2> event
+T41.940168313041795 word: 1 event
+T41.94020060100593 may: 1 
+T44.74051738099661 event ( #2 found:3 hypo:31250 ) 3> ~ t
+T44.74073930102168 word: 2 _i___
+T44.740768783027306 may: 2 t
+T49.009490478027146 event ( #2 found:3 hypo:31250 ) 4> e__e ~ rt
+T49.00970038201194 word: 3 e__e_
+T49.00972998305224 may: 3 r t
+T53.2885479760007 event ( #2 found:3 hypo:31250 ) 5> ~ resn
+T53.288849194010254 word: 4 _____
+T53.288895720033906 may: 4 e n r s
+T53.28893171000527 question done
+T54.61895259399898 > *
+T55.04258121800376 questioning: ["eater", "#4 found:1 hypo:50"]
+T58.36199426604435 eater ( #4 found:1 hypo:50 ) ? 
+T58.7690640380024 eater ( #4 found:1 hypo:50 ) > 
+T59.134092374006286 eater ( #4 found:1 hypo:50 ) 1> 
+T59.46036759001436 eater ( #4 found:1 hypo:50 ) 2> 
+T60.09374690800905 eater ( #4 found:1 hypo:50 ) 3> 
+T60.96559637103928 eater ( #4 found:1 hypo:50 ) 4> eater
+T60.96577973704552 word: 3 eater
+T60.96579956001369 may: 3 
+T63.722331656026654 eater ( #4 found:1 hypo:50 ) 5> 3 ~ ta
+T63.72267952404218 word: 2 _i___
+T63.72271689603804 may: 2 a t
+T67.31564569403417 eater ( #4 found:1 hypo:50 ) 4> 1 _ares
+T67.3159446050413 word: 0 _ares
+T67.31597708002664 may: 0 
+T70.79672689904692 eater ( #4 found:1 hypo:50 ) 2> t ~ resna
+T70.79696352401515 word: 1 tvent
+T70.79699356202036 may: 1 a e n r s
+T77.18666100804694 eater ( #4 found:1 hypo:50 ) 3> 2 event
+T77.18693558702944 word: 1 event
+T77.1869646650157 may: 1 a n r s
+T79.96213965700008 eater ( #4 found:1 hypo:50 ) 3> 2 ~
+T79.96237675100565 word: 1 event
+T79.9624094570172 may: 1 
+T82.96839748800267 eater ( #4 found:1 hypo:50 ) 3> 5 ~ resna
+T82.96864643302979 word: 4 _____
+T82.96868153399555 may: 4 a e n r s
+T82.96871049102629 question done
+T84.69955805502832 > *
+T85.13737112301169 questioning: ["snare", "#5 found:1 hypo:120"]
+T88.08474756701617 snare ( #5 found:1 hypo:120 ) ? 
+T93.03752954001538 snare ( #5 found:1 hypo:120 ) > 5 snare
+T93.03775051701814 word: 4 snare
+T93.03777260601055 may: 4 
+T93.0377946960507 question done
+T95.7799263120396 > *
+T96.35647308803163 questioning: ["dicta", "#3 found:1 hypo:1250"]
+T99.11855524801649 dicta ( #3 found:1 hypo:1250 ) ? 
+T106.24693453504005 dicta ( #3 found:1 hypo:1250 ) > 1 ~ c
+T106.24719451001147 word: 0 _ares
+T106.24721758702071 may: 0 c
+T106.70889951504068 dicta ( #3 found:1 hypo:1250 ) 2> 
+T108.35098314401694 dicta ( #3 found:1 hypo:1250 ) 3> dicta
+T108.35125019401312 word: 2 dicta
+T108.35128432203783 may: 2 
+T109.33685330400476 question done
+T110.1599227230181 > *
+T110.66622549504973 questioning: ["cares", "#1 found:1 hypo:1"]
+T113.45292470604181 cares ( #1 found:1 hypo:1 ) ? 
+T113.90465029503684 cares ( #1 found:1 hypo:1 ) > 
+T114.9214363140054 cares ( #1 found:1 hypo:1 ) 1> cares
+T114.92165969900088 word: 0 cares
+T114.92168397002388 may: 0 
+T115.64756029204 question done
+T121.23377889802214 Press <Enter> to 📋 or `>` for line prompt 
+T121.23928520502523 result: "squareword.org 1098: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1098"
+T121.24030539300293 <STOP>
