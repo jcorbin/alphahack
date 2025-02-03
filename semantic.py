@@ -879,46 +879,7 @@ class Search(StoredLog):
             ui.fin(f'failed: expected text/html content, got {res.headers.get("Content-Type", "")}')
         else:
             soup = bs4.BeautifulSoup(res.content, 'html5lib')
-
-            doc = soup.select_one('html')
-            if doc:
-                lang = doc.attrs.get('lang')
-                if isinstance(lang, str):
-                    self.lang = lang_code_to_kind(lang)
-                    ui.write(f' 🌎 {lang!r} -> {self.lang!r}')
-
-            script = soup.select_one('#cemantle-script') or soup.select_one('#cemantix-script')
-            if script:
-                spn = script.attrs.get('data-puzzle-number')
-                if isinstance(spn, str):
-                    self.puzzle_id = f'#{spn}'
-                    ui.log(f'puzzle_id: {self.puzzle_id}')
-                    ui.write(f' 🧩 {self.puzzle_id}')
-
-                sut = script.attrs.get('data-utc-time')
-                if isinstance(sut, str):
-                    self.set_pubtime(ui, int(sut))
-                    ui.write(f' 🕛 {self.pubtime}')
-
-            summary = soup.select_one('#cemantle-summary') or soup.select_one('#cemantix-summary')
-            if summary:
-                n = 0
-                for row in summary.select('table.story tbody tr'):
-                    if not row.select('td'):
-                        if not row.select('th'):
-                            ui.print(f'? empty #{summary.attrs["id"]} .story table row: {row}')
-                        continue
-                    try:
-                        tier, score = scrape_scale_row(row)
-                    except ValueError as err:
-                        ui.print(f'! failed to parse temp scale from {row} : {err}')
-                    else:
-                        ui.log(f'scale: {tier} {score:.2f} °C')
-                        self.scale[tier] = score
-                        n += 1
-
-                ui.write(f' 🌡️ {n} tiers')
-
+            self.startup_scrape(ui, soup)
             ui.fin(' done.')
 
         if not self.puzzle_id:
@@ -928,6 +889,55 @@ class Search(StoredLog):
             self.do_puzzle(ui)
             if not self.puzzle_id: return
         return self.startup_scale
+
+    def startup_scrape(self, ui: PromptUI, soup: bs4.BeautifulSoup):
+        doc = soup.select_one('html')
+        if doc:
+            lang = doc.attrs.get('lang')
+            if isinstance(lang, str):
+                self.lang = lang_code_to_kind(lang)
+                ui.write(f' 🌎 {lang!r} -> {self.lang!r}')
+
+        script = soup.select_one('#cemantle-script') or soup.select_one('#cemantix-script')
+        if not script:
+            script = soup.select_one('#script')
+            if script and script.attrs.get('data-app') not in {'cemantle', 'cemantix'}:
+                script = None
+
+        if script:
+            spn = script.attrs.get('data-puzzle-number')
+            if isinstance(spn, str):
+                self.puzzle_id = f'#{spn}'
+                ui.log(f'puzzle_id: {self.puzzle_id}')
+                ui.write(f' 🧩 {self.puzzle_id}')
+
+            sut = script.attrs.get('data-utc-time')
+            if isinstance(sut, str):
+                self.set_pubtime(ui, int(sut))
+                ui.write(f' 🕛 {self.pubtime}')
+
+        summary = (
+            soup.select_one('#summary')
+            or soup.select_one('#cemantle-summary')
+            or soup.select_one('#cemantix-summary')
+        )
+        if summary:
+            n = 0
+            for row in summary.select('table.story tbody tr'):
+                if not row.select('td'):
+                    if not row.select('th'):
+                        ui.print(f'? empty #{summary.attrs["id"]} .story table row: {row}')
+                    continue
+                try:
+                    tier, score = scrape_scale_row(row)
+                except ValueError as err:
+                    ui.print(f'! failed to parse temp scale from {row} : {err}')
+                else:
+                    ui.log(f'scale: {tier} {score:.2f} °C')
+                    self.scale[tier] = score
+                    n += 1
+
+            ui.write(f' 🌡️ {n} tiers')
 
     def startup_scale(self, ui: PromptUI):
         if len(self.scale) < len(tiers):
@@ -3450,6 +3460,217 @@ class Search(StoredLog):
                 ui.log(f'system_prompt: {json.dumps(self.system_prompt)}')
 
 ### tests
+
+@MarkedSpec.mark('''
+
+    > <!DOCTYPE html>
+    > 
+    > 
+    > 
+    > 
+    > <html lang="fr">
+    > 	<head>
+    > 	<meta charset="utf-8">
+    > 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    > 	<meta name="description" content="Trouvez le mot secret en essayant de vous en approcher le plus possible sémantiquement.">
+    > 	<meta property="og:title" content="cemantix - Trouvez le mot secret&nbsp;!">
+    > 	<meta property="og:description" content="Trouvez le mot secret en essayant de vous en approcher le plus possible sémantiquement.">
+    > 	<meta property="og:type" content="website">
+    > 	<meta property="og:image" content="https://static.certitudes.org/images/cemantix.png">
+    > 	<meta property="og:url" content="https://cemantix.certitudes.org/">
+    > 	<meta property="og:site_name" content="cémantix">
+    > 	<title id="app-title">cemantix</title>
+    > 	<link rel="stylesheet" href="https://static.certitudes.org/html/cemantix.css">
+    > 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    > 	<link rel="icon" type="image/png" sizes="32x32" href="https://static.certitudes.org/images/cemantix-32x32.png">
+    > 	<link rel="icon" type="image/png" sizes="16x16" href="https://static.certitudes.org/images/cemantix-16x16.png">
+    > 	<link rel="apple-touch-icon" href="https://static.certitudes.org/images/cemantix-192x192.png">
+    > 	<link rel="apple-touch-icon-precomposed" href="https://static.certitudes.org/images/cemantix-192x192.png">
+    > 	<link rel="apple-touch-icon-120x120" href="https://static.certitudes.org/images/cemantix-192x192.png">
+    > 	<link rel="apple-touch-icon-120x120-precomposed" href="https://static.certitudes.org/images/cemantix-192x192.png">
+    > 	<link rel="apple-touch-icon-152x152" href="https://static.certitudes.org/images/cemantix-192x192.png">
+    > 	<link rel="apple-touch-icon-152x152-precomposed" href="https://static.certitudes.org/images/cemantix-192x192.png">
+    > 	<link rel="manifest" href="https://static.certitudes.org/html/cemantix.webmanifest">
+    > 	<script id="script" type="module" src="https://static.certitudes.org/html/cemantix.js" data-puzzle-number="1069" data-utc-time="1738537200" data-app="cemantix"></script>
+    > 	<base target="_blank">
+    > 	</head>
+    > 	<body>
+    > 	<div id="dialog-underlay">
+    > 		<div aria-modal="true" role="dialog" id="dialog">
+    > 			<a id="dialog-close" aria-label="Fermer">&times;</a>
+    > 			<div class="dialog-content" id="rules">
+    > 				<div id="rulesbody"></div>
+    > 			</div>
+    > 			<div class="dialog-content" id="faq">
+    > 				<div id="faqbody"></div>
+    > 			</div>
+    > 			<div class="dialog-content" id="theme">
+    > 				<div id="themebody"></div>
+    > 			</div>
+    > 			<div class="dialog-content" id="history">
+    > 				<div id="historybody"></div>
+    > 			</div>
+    > 			<div class="dialog-content" id="cloud">
+    > 				<div id="cloudbody"></div>
+    > 			</div>
+    > 			<div class="dialog-content" id="story">
+    > 				<h3 class="noselect">Partager</h3>
+    > 				<p class="headline" id="share-story"></p>
+    > 				<span class="footer noselect" id="clipboard"></span>
+    > 			</div>
+    > 			<div class="dialog-content" id="yestertable">
+    > 				<h3>Mots proches de <i>convaincant</i></h3>
+    > 				<table>
+    > 					<thead>
+    > 						<tr>
+    > 						<th class="number">Nº</th>
+    > 						<th class="word">Mot&nbsp;&nbsp;&nbsp;</th>
+    > 						<th class="number">°C</th>
+    > 						<th>&nbsp;&nbsp;&nbsp;</th>
+    > 						<th class="number">‰</th>
+    > 						<th></th>
+    > 						</tr>
+    > 					</thead>
+    > 					<tbody id="yesterbody">
+    > 					</tbody>
+    > 				</table>
+    > 			</div>
+    > 		</div>
+    > 	</div>
+    > 
+    > 	<aside class="aside">
+    > 	<nav class="menu">
+    > 		<a class="material-icons icon" id="rules-button" title="Règles" aria-label="Règles">info</a>
+    > 		<a class="material-icons icon" id="faq-button" title="FAQ" aria-label="FAQ">quiz</a>
+    > 		<a class="material-icons icon" id="theme-button" title="Couleurs" aria-label="Couleurs">palette</a>
+    > 		<a class="material-icons icon" id="history-button" title="Historique" aria-label="Historique">history</a>
+    > 		<a class="material-icons icon" id="cloud-button" title="Collaborer" aria-label="Collaborer">cloud</a><sup id="team-members"></sup>&nbsp;
+    > 	</nav>
+    > 
+    > 	<div class="summary">
+    > 		<h3>Jour nº<b id="puzzle-num">1069</b></h3>
+    > 		<div>Trouvé par <span id="solved">15924</span> personne<span id="plural">s</span></div>
+    > 		<div id="summary" style="display: run-in">
+    > 			<p id="day-meter">🧊🧊🧊🧊🧊🧊🧊🧊🧊🧊</p>
+    > 			<table class="story">
+    > 				<thead>
+    > 				<tr><th class="number"><b>‰</b></th><th class="emoji">🌡</th><th class="number"><b>°C</b></th></tr>
+    > 				</thead>
+    > 				<tr><td class="number">1000</td><td class="emoji">🥳</td><td class="decimal number">100</td></tr>
+    > 				<tr><td class="number">999</td><td class="emoji">😱</td><td class="decimal number">51.77</td></tr>
+    > 				<tr><td class="number">990</td><td class="emoji">🔥</td><td class="decimal number">37.41</td></tr>
+    > 				<tr><td class="number">900</td><td class="emoji">🥵</td><td class="decimal number">26.76</td></tr>
+    > 				<tr><td class="number">1</td><td class="emoji">😎</td><td class="decimal number">17.6</td></tr>
+    > 				<tr><td class="number"></td><td class="emoji">🥶</td><td class="decimal number">0</td></tr>
+    > 				<tr><td class="number"></td><td class="emoji">🧊</td><td class="decimal number">-100</td></tr>
+    > 			</table>
+    > 			<div class="yesterday">
+    > 			Le mot d’hier était <a id="yesterday"><b><u>convaincant</u></b></a>
+    > 			</div>
+    > 			🇺🇸 <a href="https://cemantle.certitudes.org/">cemantle</a>
+    > 		</div>
+    > 	</div>
+    > 	</aside>
+    > 	
+    > 	<article class="main">
+    > 	<div id="tabs">
+    > 		<a id="cemantix" class="active tab">
+    > 			<img alt="Trouvez le mot secret&amp;nbsp;!" src="https://static.certitudes.org/images/cemantix.svg" width="240" height="180">
+    > 			<span id="title" class="caption">Trouvez le mot secret&nbsp;!</span>
+    > 		</a>
+    > 		<a id='pedantix' class="inactive tab">
+    > 			<img alt="Découvrez la page Wikipédia&amp;nbsp;!" src="https://static.certitudes.org/images/pedantix.svg" width="240" height="180">
+    > 			<span id="pedantix-title" class="caption">Découvrez la page Wikipédia&nbsp;!</span>
+    > 		</a>
+    > 	</div>
+    > 	<div id="content">
+    > 		<div id="game" style="display: run-in">
+    > 			<div id="success" class="success" style="display: run-in">
+    > 				<p><b>Bravo !</b> Vous êtes <b><span id="ranking"></span></b> à le trouver, en <b><span id="tries"></span></b>. Résumé du jour :</p>
+    > 				<p><span id="meter"></span></p>
+    > 				<p><a id="share"><u><b>Partagez</b></u></a> et revenez jouer demain.</p>
+    > 				<p><input type="checkbox" id="see" class="see"> Voir les mots <span id="solution"></span>les plus proches</p>
+    > 			</div>
+    > 			<form id="form" class="form">
+    > 				<div class="guessbox">
+    > 					<input placeholder="Mot" autocorrect="off" autocapitalize="none" autocomplete="off" type="search" name="searchTerm" id="guess" class="guess">
+    > 					<div id="previous" class="previous">&#10554;</div>
+    > 				</div>
+    > 				<input type="submit" value="Envoyer" id="guess-btn" class="guess-btn" disabled>
+    > 				<label id="error" class="error"></label>
+    > 			</form>
+    > 			<div id="secret" class="secret"><a id="reveal" title="Révéler" aria-label="Révéler"><u>Révéler le mot secret</u>&nbsp;👀</a></div>
+    > 			<table id="guessable" class="guessable game">
+    > 				<thead>
+    > 				<tr>
+    > 					<th class="number order" id="chronoOrder">Nº</th>
+    > 					<th class="word order" id="alphaOrder">Mot&nbsp;&nbsp;&nbsp;</th>
+    > 					<th class="number order" id="temperatureOrder">°C</th>
+    > 					<th class="emoji">🌡</th>
+    > 					<th class="number">‰</th>
+    > 					<th class="progress">Progression</th>
+    > 				</tr>
+    > 				<tr id="guessed" class="guesses"><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    > 				</thead>
+    > 				<tbody id="guesses" class="guesses">
+    > 				</tbody>
+    > 			</table>
+    > 			<div>
+    > 				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1367635413731794" crossorigin="anonymous"></script>
+    > 				<ins id="ad"
+    > 					style="display:block; text-align:center;"
+    > 					data-ad-layout="in-article"
+    > 					data-ad-format="fluid"
+    > 					data-ad-client="ca-pub-1367635413731794"
+    > 					data-ad-slot="5546665487">
+    > 				</ins>
+    > 			</div>
+    > 		</div>
+    > 	</div>
+    > 	</article>
+    > 
+    > 	<footer class="footer">
+    > 		<div id="credits" style="display: run-in">Rédigé par <a href="https://twitter.com/enigmathix">enigmatix</a>. Inspiré de <a href="https://semantle.com/">Semantle</a> par David Turner. Données de <a href="https://fauconnier.github.io/#data">Jean-Philippe Fauconnier</a>. <a href="https://static.certitudes.org/html/cemantix-privacy.html">Confidentialité</a>.</div>
+    > 	</footer>
+    > 	</body>
+    > </html>
+    - lang: French
+    - puzzle_id: #1069
+    - pubtime: 1738537200.0
+    - scale: 🧊 : -100.0
+    - scale: 🥶 :    0.0
+    - scale: 😎 :   17.6
+    - scale: 🥵 :   26.76
+    - scale: 🔥 :   37.41
+    - scale: 😱 :   51.77
+    - scale: 🥳 :  100.0
+
+''')
+def test_startup(spec: MarkedSpec):
+    soup = bs4.BeautifulSoup(spec.input, 'html5lib')
+
+    ui = PromptUI.test_ui()
+    srch = Search()
+    srch.startup_scrape(ui, soup)
+
+    for name, value in spec.props:
+        if name == 'lang': assert srch.lang == value
+
+        elif name == 'puzzle_id': assert srch.puzzle_id == value
+
+        elif name == 'pubtime':
+            pt = f'{time.mktime(srch.pubtime.timetuple())}' if srch.pubtime else 'None'
+            assert pt == value
+
+        elif name == 'scale':
+            tier, _, temp_str = value.partition(':')
+            tier = tier.strip()
+            temp = float(temp_str.strip())
+            assert tier in tiers
+            assert srch.scale[tier] == temp
+
+        else:
+            raise ValueError(f'unknown startup expectation {name}')
 
 @MarkedSpec.mark('''
 
