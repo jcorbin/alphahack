@@ -172,6 +172,26 @@ def test_tokens(input: str, tokens: list[str]):
 
 @final
 class PromptUI:
+    @staticmethod
+    def end_input(_: str):
+        raise EOFError
+
+    @staticmethod
+    def int_input(_: str):
+        raise KeyboardInterrupt
+
+    @classmethod
+    def test_ui(cls):
+        return PromptUI(
+            # TODO capture output for inspection
+
+            # TODO provide canned input
+            get_input = PromptUI.end_input,
+
+            # TODO provide canned clipboard
+            clip = NullClipboard(),
+        )
+
     Tokens = Tokens
 
     def __init__(
