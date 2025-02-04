@@ -6023,3 +6023,7 @@ See log/play.dictionary.com_games_todays-hurdle/#1128
 # 2025-02-03 squareword.org
 
 See log/squareword.org/#1099
+
+# 2025-02-03 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1129
