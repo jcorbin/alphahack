@@ -6027,3 +6027,28 @@ See log/squareword.org/#1099
 # 2025-02-03 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1129
+
+# 2025-02-03 cemantle.certitudes.org
+
+```
+😦 No result
+    $1 #584 dj                35.71°C 😎  781‰
+    $2 #254 midi              31.77°C 😎  629‰
+    $3 #849 cd                31.39°C 😎  604‰
+    $4 #732 daw               28.49°C 😎  425‰
+    $5 #933 buss              25.19°C 😎   46‰
+    $6 #143 eq                25.11°C 😎   33‰
+    $7 #588 bpm               24.60°C 🥶
+    $8 #577 authorship        21.70°C 🥶
+    $9 #557 rhyme             21.09°C 🥶
+    $800 #343 relay             -0.02°C 🧊
+⏱️ 16:05:10.254225
+```
+
+🤔 1073 attempts
+📜 1 sessions
+🫧 110 chat sessions
+⁉️ 567 chat prompts
+🤖 97 gemma2:latest replies
+🤖 42 deepseek-r1:8b replies
+🤖 422 llama3.2:latest replies
