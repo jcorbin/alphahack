@@ -1,0 +1,131 @@
+T0.00015517801512032747 now: 2025-02-04T12:39:03EST
+T0.00019528198754414916 site: squareword.org
+T2.993088905001059 🧩  ? #1100
+T2.993495800998062 puzzle_id: #1100
+T3.8383705700398423 > *
+T3.9272302740137093 questioning: ["culls", "#5 found:1841 hypo:11881376"]
+T5.8108045880217105 culls ( #5 found:1841 hypo:11881376 ) ? 
+T5.9525626670219935 culls ( #5 found:1841 hypo:11881376 ) > 
+T7.80758273502579 culls ( #5 found:1841 hypo:11881376 ) 1> ~ s
+T7.808975060994271 word: 0 _____
+T7.809055223013274 may: 0 s
+T8.828115415002685 culls ( #5 found:1841 hypo:11881376 ) 2> ~ cl
+T8.828337475017179 word: 1 _____
+T8.82836053299252 may: 1 c l
+T9.53059017600026 culls ( #5 found:1841 hypo:11881376 ) 3> ~ c
+T9.530814325029496 word: 2 _____
+T9.530836571997497 may: 2 c
+T10.354826986033004 culls ( #5 found:1841 hypo:11881376 ) 4> ~ s
+T10.355044677038677 word: 3 _____
+T10.35506837599678 may: 3 s
+T10.64676335803233 culls ( #5 found:1841 hypo:11881376 ) 5> 
+T10.64688032103004 question done
+T12.012852890999056 > /no u
+T12.01331420999486 nope: u
+T12.424373808025848 > *
+T12.666066286037676 questioning: ["black", "#2 found:7 hypo:31250"]
+T18.167351539013907 black ( #2 found:7 hypo:31250 ) ? 
+T18.755420305009466 black ( #2 found:7 hypo:31250 ) > 
+T20.02351952000754 black ( #2 found:7 hypo:31250 ) 1> b_a
+T20.023726169019938 word: 0 b_a__
+T20.023745773010887 may: 0 s
+T33.801069612032734 black ( #2 found:7 hypo:31250 ) 2> ___c ~ la
+T33.801408104016446 word: 1 ___c_
+T33.80143538501579 may: 1 a l
+T36.399983303039335 black ( #2 found:7 hypo:31250 ) 3> ~ ca
+T36.40022038703319 word: 2 _____
+T36.400246151024476 may: 2 a c
+T37.39832739799749 black ( #2 found:7 hypo:31250 ) 4> ~ sa
+T37.39852985000471 word: 3 _____
+T37.398549136007205 may: 3 a s
+T38.24205094203353 black ( #2 found:7 hypo:31250 ) 5> ~ a
+T38.2422470410238 word: 4 _____
+T38.24226887500845 may: 4 a
+T38.24229067499982 question done
+T39.79974354803562 > /nok
+T41.796414012031164 > /no k
+T41.79659803700633 nope: k u
+T42.620543176017236 > *
+T43.09222781303106 questioning: ["brass", "#1 found:7 hypo:576"]
+T46.269697737006936 brass ( #1 found:7 hypo:576 ) ? 
+T46.9751371149905 brass ( #1 found:7 hypo:576 ) > 
+T47.76083499001106 brass ( #1 found:7 hypo:576 ) 1> bras
+T47.761023252038285 word: 0 bras_
+T47.761043446022086 may: 0 
+T50.92054299003212 brass ( #1 found:7 hypo:576 ) 2> 
+T52.4273534900276 brass ( #1 found:7 hypo:576 ) 3> ~ car
+T52.42760013398947 word: 2 _____
+T52.42762587603647 may: 2 a c r
+T54.59368568600621 question done
+T55.196985246031545 > *
+T55.429533902031835 questioning: ["brash", "#1 found:1 hypo:24"]
+T59.01710506301606 brash ( #1 found:1 hypo:24 ) ? 
+T59.35791638499359 brash ( #1 found:1 hypo:24 ) > 
+T60.627375782001764 brash ( #1 found:1 hypo:24 ) 1> brash
+T60.627615189994685 word: 0 brash
+T60.62763868900947 may: 0 
+T65.0864936960279 question done
+T65.71827467600815 > *
+T65.77720416901866 questioning: ["lance", "#2 found:1 hypo:1152"]
+T68.00305955403019 lance ( #2 found:1 hypo:1152 ) ? 
+T68.32688539702212 lance ( #2 found:1 hypo:1152 ) > 
+T68.74752889398951 lance ( #2 found:1 hypo:1152 ) 1> 
+T69.77116838900838 lance ( #2 found:1 hypo:1152 ) 2> lance
+T69.77133641002001 word: 1 lance
+T69.77135400503175 may: 1 
+T71.79547304898733 lance ( #2 found:1 hypo:1152 ) 3> ~ n
+T71.79568994801957 word: 2 _____
+T71.7957110000425 may: 2 n
+T75.25445448799292 lance ( #2 found:1 hypo:1152 ) 4> 3 ~ carn
+T75.25465219904436 word: 2 _____
+T75.25467243301682 may: 2 a c n r
+T76.95120146003319 lance ( #2 found:1 hypo:1152 ) 4> ~ sane
+T76.9514322070172 word: 3 _____
+T76.95146561402362 may: 3 a e n s
+T78.43745437799953 lance ( #2 found:1 hypo:1152 ) 5> ~ ae
+T78.43777951301308 word: 4 _____
+T78.43784027802758 may: 4 a e
+T78.43785887601553 question done
+T79.53532112302491 <INT>
+T0.0021041640429757535 now: 2025-02-04T12:40:26EST
+T1.98826347803697 > lance
+T1.9893241170211695 questioning: ["lance", "entered"]
+T3.3746650260291062 lance ( entered ) ? 1 ~
+T3.375558550003916 guess: lance
+T3.3756956350407563 word: 0 brash
+T3.375712077016942 may: 0 
+T4.186764053010847 lance ( entered ) 2> 2 ~
+T4.18696106702555 word: 1 lance
+T4.186981426028069 may: 1 
+T5.307869981043041 question done
+T7.320853541023098 > *
+T7.832779856049456 questioning: ["acorn", "#3 found:1 hypo:576"]
+T10.439701422001235 acorn ( #3 found:1 hypo:576 ) ? 
+T12.274116080021486 acorn ( #3 found:1 hypo:576 ) > 3 acorn
+T12.274305085011292 word: 2 acorn
+T12.274324188008904 may: 2 
+T14.473548720008694 acorn ( #3 found:1 hypo:576 ) 4> ____n
+T14.473813459044322 word: 3 ____n
+T14.473842771025375 may: 3 a e s
+T15.793573148024734 acorn ( #3 found:1 hypo:576 ) 5> 
+T15.793702377995942 question done
+T16.427628174016718 > *
+T16.698625001998153 questioning: ["sedan", "#4 found:1 hypo:144"]
+T19.497035565029364 sedan ( #4 found:1 hypo:144 ) ? 
+T21.138302136037964 sedan ( #4 found:1 hypo:144 ) > 4 sedan
+T21.138629092019983 word: 3 sedan
+T21.13865929399617 may: 3 
+T22.820918186043855 sedan ( #4 found:1 hypo:144 ) 5> ~ aed
+T22.821152092015836 word: 4 _____
+T22.821177313046064 may: 4 a d e
+T22.821200417994987 question done
+T23.67303956701653 > *
+T23.947200710012112 questioning: ["edema", "#5 found:1 hypo:3456"]
+T26.71737177099567 edema ( #5 found:1 hypo:3456 ) ? 
+T28.92215571104316 edema ( #5 found:1 hypo:3456 ) > 5 edema
+T28.922393853019457 word: 4 edema
+T28.922420058050193 may: 4 
+T28.922441546048503 question done
+T32.5740824600216 Press <Enter> to 📋 or `>` for line prompt 
+T32.58208254800411 result: "squareword.org 1100: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1100"
+T32.585348747030366 <STOP>
