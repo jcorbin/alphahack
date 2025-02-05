@@ -584,15 +584,15 @@ class WordScore:
         puzzle_num: int|None = None
         solvers: int|None = None
         for key, value in data.items():
-            if key == 'error':
+            if key in ('error', 'e'):
                 raise ValueError(value)
-            elif key == 'num' and isinstance(value, int):
+            elif key in ('num', 'n') and isinstance(value, int):
                 puzzle_num = value
-            elif key == 'score' and isinstance(value, float):
+            elif key in ('score', 's') and isinstance(value, float):
                 score = value
-            elif key == 'percentile' and isinstance(value, int):
+            elif key in ('percentile', 'p') and isinstance(value, int):
                 prog = value
-            elif key == 'solvers' and isinstance(value, int):
+            elif key in ('solvers', 'v') and isinstance(value, int):
                 solvers = value
             else: pass # TODO store somehow? ui.write(f' ??? {key}={value!r} ...')
         return cls(word, score, prog, puzzle_num, solvers)
