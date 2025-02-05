@@ -583,6 +583,8 @@ class WordScore:
         prog: int|None = None
         puzzle_num: int|None = None
         solvers: int|None = None
+        unknown: set[str] = set()
+
         for key, value in data.items():
             if key in ('error', 'e'):
                 raise ValueError(value)
@@ -594,7 +596,11 @@ class WordScore:
                 prog = value
             elif key in ('solvers', 'v') and isinstance(value, int):
                 solvers = value
-            else: pass # TODO store somehow? ui.write(f' ??? {key}={value!r} ...')
+            else: unknown.add(key)
+
+        if unknown:
+            raise ValueError(f'unknown keys {unknown!r} in word score data {data!r}')
+
         return cls(word, score, prog, puzzle_num, solvers)
 
 Explainable = str|Iterable[str]|Callable[[], Iterable[str]]
@@ -2750,7 +2756,6 @@ class Search(StoredLog):
                     raise StopIteration
 
                 # TODO track ws.solvers?
-                # TODO report unknowns? ui.write(f' ??? {key}={value!r} ...')
 
         score = None
         prog = None
