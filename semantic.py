@@ -594,7 +594,8 @@ class WordScore:
                 prog = value
             elif key in ('solvers', 'v') and isinstance(value, int):
                 solvers = value
-            else: pass # TODO store somehow? ui.write(f' ??? {key}={value!r} ...')
+            else: raise RuntimeError(f'unexpected word score field {key!r}')
+            # XXX else: pass # TODO store somehow? ui.write(f' ??? {key}={value!r} ...')
         return cls(word, score, prog, puzzle_num, solvers)
 
 Explainable = str|Iterable[str]|Callable[[], Iterable[str]]
