@@ -1,180 +1,182 @@
-# 2025-02-05
+# 2025-02-06
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1131 🥳 15 ⏱️ 0:03:49.284204
-- ✅ squareword.org 🧩 #1101 🥳 12 ⏱️ 0:04:31.810762
-- ✅ alphaguess.com 🧩 #561 🥳 14 ⏱️ 0:00:30.770244
-- ✅ alfagok.diginaut.net 🧩 #95 🥳 16 ⏱️ 0:00:43.666428
-- ✅ cemantle.certitudes.org 🧩 #1038 🥳 1841 ⏱️ 8:25:46.522742
-- ✅ cemantix.certitudes.org 🧩 #1071 🥳 88 ⏱️ 0:06:38.865311
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1132 😦 18 ⏱️ 0:07:07.653882
+- 🔗 squareword.org 🧩 #1102 🥳 12 ⏱️ 0:14:33.381140
+- 🔗 alphaguess.com 🧩 #562 🥳 16 ⏱️ 0:00:41.796507
+- 🔗 alfagok.diginaut.net 🧩 #96 🥳 17 ⏱️ 0:00:52.288036
+- 🔗 cemantle.certitudes.org 🧩 #1039 🥳 195 ⏱️ 0:08:49.002159
+- 🔗 cemantix.certitudes.org 🧩 #1072 🥳 94 ⏱️ 0:05:47.060778
 
 - ❌
 - ✅
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1131 🥳 15
-- ✅ squareword.org 🧩 #1101 🥳 12
-- ✅ alphaguess.com 🧩 #561 🥳 14
-- ✅ alfagok.diginaut.net 🧩 #95 🥳 16
-- ✅ cemantle.certitudes.org 🧩 #1038 🥳 1841
-- ✅ cemantix.certitudes.org 🧩 #1071 🥳 88
+- ❌ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1132 😦 18
+- ✅ squareword.org 🧩 #1102 🥳 12
+- ✅ alphaguess.com 🧩 #562 🥳 16
+- ✅ alfagok.diginaut.net 🧩 #96 🥳 17
+- ✅ cemantle.certitudes.org 🧩 #1039 🥳 195
+- ✅ cemantix.certitudes.org 🧩 #1072 🥳 94
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$Qu8fzt95kI6PFz2OCaL6vu0mBzMuRlRytUYZmz6bN9E?via=aelf.land&via=matrix.org
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$idX0sjfBh6U-Qktec0tY3BV8NbdLTJpp5_yqtU4QCCk?via=aelf.land&via=matrix.org
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1131 🥳 15 ⏱️ 0:03:49.284204
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1132 😦 18 ⏱️ 0:07:07.653882
 
 📜 1 sessions
-💰 score: 10100
+💰 score: 4860
 
+    4/6
+    > S L U R P
+      🟩⬜⬜⬜⬜
+    > S T E A M
+      🟩🟩⬜⬜⬜
+    > S T I N K
+      🟩🟩🟩⬜🟩
+    > B O W L S
+      🟩🟩🟩🟩🟩
     3/6
-    > H O N E Y
-      ⬜⬜⬜🟨🟨
-    > Y I E L D
-      🟩⬜🟨⬜⬜
-    > Y E A S T
+    > B L U S H
+      🟨⬜⬜⬜⬜
+    > P O S E R
+      🟩⬜⬜🟨🟨
+    > S T O C K
       🟩🟩🟩🟩🟩
     4/6
-    > M O N K S
+    > S W O O N
       ⬜⬜⬜🟨⬜
-    > S H O C K
-      ⬜🟨⬜🟨🟨
-    > S P O O K
-      🟩⬜🟩⬜🟩
-    > B R O O K
-      🟩🟩🟩🟩🟩
-    2/6
-    > F L O O D
-      ⬜⬜🟩🟩🟩
-    > S H O O T
+    > H U M I D
+      ⬜🟨🟨⬜⬜
+    > M A Y B E
+      🟩⬜🟩⬜⬜
+    > C R E M E
       🟩🟩🟩🟩🟩
     5/6
-    > S C O O P
-      ⬜⬜🟩🟩⬜
-    > S N O O P
-      ⬜⬜🟩🟩⬜
-    > L A B O R
-      🟩⬜🟩🟩⬜
-      🟩⬜🟩🟩🟩
+    > E M C E E
+      ⬜⬜⬜⬜⬜
+    > B E A R D
+      ⬜⬜🟨⬜⬜
+    > B E V V Y
+      🟨⬜⬜⬜🟩
+      🟨⬜🟨🟨🟩
       🟩🟩🟩🟩🟩
-    Final 1/2
-      🟩🟩🟩🟩🟩
+    Final 2/2
+      🟩🟩⬜⬜⬜
+      🟩🟩⬜⬜🟩
 
-# squareword.org 🧩 #1101 🥳 12 ⏱️ 0:04:31.810762
+# squareword.org 🧩 #1102 🥳 12 ⏱️ 0:14:33.381140
 
 📜 1 sessions
 
 Guesses:
-1. firns
 
 Score Heatmap:
-    🟨 🟨 🟩 🟨 🟨
-    🟨 🟨 🟩 🟨 🟩
-    🟧 🟩 🟧 🟧 🟩
-    🟧 🟧 🟧 🟧 🟨
-    🟩 🟩 🟩 🟩 🟨
+    🟩 🟨 🟨 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟨 🟨 🟨 🟨 🟩
+    🟧 🟩 🟧 🟩 🟩
+    🟩 🟨 🟨 🟧 🟧
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    T E M P T
-    A D O R E
-    C I T E S
-    O C T E T
-    S T O N Y
+    S C A R S
+    P U R E E
+    A B O V E
+    T I M E D
+    S C A L Y
 
-# alphaguess.com 🧩 #561 🥳 14 ⏱️ 0:00:30.770244
-
-🤔 14 attempts
-📜 1 sessions
-
-    @        [     0] aa             
-    @+1      [     1] aah            
-    @+2      [     2] aahed          
-    @+3      [     3] aahing         
-    @+98255  [ 98255] mach           q0  ? after
-    @+102797 [102797] mi             q4  ? after
-    @+106367 [106367] mono           q5  ? after
-    @+107717 [107717] mu             q6  ? after
-    @+108270 [108270] multiplicative q8  ? after
-    @+108406 [108406] mum            q10 ? after
-    @+108456 [108456] mun            q11 ? after
-    @+108472 [108472] mundane        q13 ? it
-    @+108472 [108472] mundane        done. it
-    @+108489 [108489] muni           q12 ? before
-    @+108541 [108541] murder         q9  ? before
-    @+108822 [108822] mut            q7  ? before
-    @+109974 [109974] ne             q3  ? before
-    @+122820 [122820] parr           q2  ? before
-    @+147420 [147420] rhumb          q1  ? before
-
-# alfagok.diginaut.net 🧩 #95 🥳 16 ⏱️ 0:00:43.666428
+# alphaguess.com 🧩 #562 🥳 16 ⏱️ 0:00:41.796507
 
 🤔 16 attempts
 📜 1 sessions
 
-    @        [     0] &-teken    
-    @+1      [     1] &-tekens   
-    @+2      [     2] -cijferig  
-    @+3      [     3] -e-mail    
-    @+199897 [199897] lij        q0  ? after
-    @+300239 [300239] schrijn    q1  ? after
-    @+350385 [350385] vakantie   q2  ? after
-    @+375141 [375141] vrij       q3  ? after
-    @+387712 [387712] wind       q4  ? after
-    @+394131 [394131] zelfmoord  q5  ? after
-    @+395726 [395726] zigzag     q7  ? after
-    @+396503 [396503] zo         q9  ? after
-    @+396534 [396534] zoek       q12 ? after
-    @+396550 [396550] zoeken     q15 ? it
-    @+396550 [396550] zoeken     done. it
-    @+396574 [396574] zoekhulp   q14 ? before
-    @+396614 [396614] zoekpagina q13 ? before
-    @+396694 [396694] zoem       q11 ? before
-    @+396909 [396909] zomer      q10 ? before
-    @+397343 [397343] zone       q6  ? before
+    @       [    0] aa        
+    @+1     [    1] aah       
+    @+2     [    2] aahed     
+    @+3     [    3] aahing    
+    @+47410 [47410] dis       q1  ? after
+    @+53426 [53426] el        q4  ? after
+    @+56771 [56771] equate    q5  ? after
+    @+58387 [58387] ex        q6  ? after
+    @+58812 [58812] exempt    q8  ? after
+    @+58831 [58831] exercise  q15 ? it
+    @+58831 [58831] exercise  done. it
+    @+58858 [58858] exfoliant q14 ? before
+    @+58901 [58901] exhibit   q10 ? before
+    @+59028 [59028] exogen    q9  ? before
+    @+59246 [59246] expel     q7  ? before
+    @+60113 [60113] face      q3  ? before
+    @+72830 [72830] gremolata q2  ? before
+    @+98252 [98252] mach      q0  ? before
 
-# cemantle.certitudes.org 🧩 #1038 🥳 1841 ⏱️ 8:25:46.522742
+# alfagok.diginaut.net 🧩 #96 🥳 17 ⏱️ 0:00:52.288036
 
-🤔 1842 attempts
+🤔 17 attempts
 📜 1 sessions
-🫧 104 chat sessions
-⁉️ 623 chat prompts
-🤖 403 gemma2:latest replies
-🤖 218 llama3.2:latest replies
-😱    1 🔥    2 🥵   10 😎   70 🥶 1398 🧊  360
 
-       $1 #1842    ~1 newly             100.00°C 🥳 1000‰
-       $2 #1708    ~6 freshly            60.69°C 😱  999‰
-       $3 #1191   ~44 new                48.82°C 🔥  997‰
-       $4  #533   ~70 being              41.05°C 🔥  993‰
-       $5 #1396   ~24 be                 37.68°C 🥵  989‰
-       $6  #440   ~73 re                 36.08°C 🥵  985‰
-       $7 #1331   ~31 soon               35.68°C 🥵  983‰
-       $8 #1434   ~21 promptly           35.01°C 🥵  981‰
-       $9 #1366   ~26 shortly            31.15°C 🥵  961‰
-      $10 #1466   ~20 quickly            30.65°C 🥵  957‰
-      $11 #1472   ~19 swiftly            29.22°C 🥵  933‰
-      $15 #1539   ~16 instantly          26.24°C 😎  899‰
-      $85   #44       achromatic         15.35°C 🥶
-    $1483  #130       supporting         -0.01°C 🧊
+    @        [     0] &-teken       
+    @+1      [     1] &-tekens      
+    @+2      [     2] -cijferig     
+    @+3      [     3] -e-mail       
+    @+49894  [ 49894] boks          q2  ? after
+    @+52738  [ 52738] bouw          q6  ? after
+    @+52803  [ 52803] bouwcontainer q11 ? after
+    @+52835  [ 52835] bouwdossiers  q12 ? after
+    @+52841  [ 52841] bouwen        q16 ? it
+    @+52841  [ 52841] bouwen        done. it
+    @+52846  [ 52846] bouwer        q14 ? before
+    @+52865  [ 52865] bouwgebied    q10 ? before
+    @+52993  [ 52993] bouwmethode   q9  ? before
+    @+53256  [ 53256] boven         q8  ? before
+    @+54321  [ 54321] brandstof     q7  ? before
+    @+55988  [ 55988] bron          q5  ? before
+    @+62349  [ 62349] cement        q4  ? before
+    @+74833  [ 74833] dc            q3  ? before
+    @+99873  [ 99873] ex            q1  ? before
+    @+199895 [199895] lij           q0  ? before
 
-# cemantix.certitudes.org 🧩 #1071 🥳 88 ⏱️ 0:06:38.865311
+# cemantle.certitudes.org 🧩 #1039 🥳 195 ⏱️ 0:08:49.002159
 
-🤔 89 attempts
-📜 4 sessions
+🤔 196 attempts
+📜 1 sessions
+🫧 5 chat sessions
+⁉️ 22 chat prompts
+🤖 22 gemma2:latest replies
+🔥   2 🥵   5 😎  18 🥶 167 🧊   3
+
+      $1 #196   ~1 continent         100.00°C 🥳 1000‰
+      $2 #159   ~6 planet             53.80°C 🔥  995‰
+      $3 #132  ~10 region             51.38°C 🔥  992‰
+      $4  #49  ~20 cosmos             35.46°C 🥵  963‰
+      $5 #150   ~8 metropolis         35.08°C 🥵  960‰
+      $6  #46  ~21 universe           35.07°C 🥵  959‰
+      $7   #4  ~26 galaxy             34.08°C 🥵  951‰
+      $8 #194   ~3 terrestrial        31.48°C 🥵  920‰
+      $9  #68  ~16 planetary          30.46°C 😎  897‰
+     $10  #38  ~22 epoch              29.79°C 😎  883‰
+     $11  #60  ~18 galactic           29.60°C 😎  878‰
+     $12  #20  ~25 horizon            29.50°C 😎  876‰
+     $27 #177      culture            21.35°C 🥶
+    $194 #108      design             -0.07°C 🧊
+
+# cemantix.certitudes.org 🧩 #1072 🥳 94 ⏱️ 0:05:47.060778
+
+🤔 95 attempts
+📜 1 sessions
 🫧 3 chat sessions
-⁉️ 13 chat prompts
-🤖 13 gemma2:latest replies
-🥵  4 😎 12 🥶 51 🧊 21
+⁉️ 14 chat prompts
+🤖 14 gemma2:latest replies
+🥵  6 😎 29 🥶 52 🧊  7
 
-     $1 #89  ~1 biologique       100.00°C 🥳 1000‰
-     $2 #36 ~17 biologie          50.28°C 🥵  989‰
-     $3 #49 ~13 écosystème        48.07°C 🥵  977‰
-     $4 #62  ~7 naturel           47.91°C 🥵  974‰
-     $5 #59  ~8 génétique         46.68°C 🥵  961‰
-     $6 #67  ~5 écosystémique     40.60°C 😎  836‰
-     $7 #83  ~3 alimentaire       39.37°C 😎  784‰
-     $8 #58  ~9 environnement     38.26°C 😎  730‰
-     $9 #51 ~12 biodiversité      38.17°C 😎  725‰
-    $10 #45 ~15 racinaire         36.01°C 😎  570‰
-    $11 #41 ~16 fondamental       35.68°C 😎  546‰
-    $12 #47 ~14 système           34.75°C 😎  466‰
-    $18 #79     organisme         30.83°C 🥶
-    $69 #71     germer            -0.69°C 🧊
+     $1 #95  ~1 vocabulaire       100.00°C 🥳 1000‰
+     $2 #64 ~15 expression         51.19°C 🥵  985‰
+     $3 #63 ~16 connotation        44.82°C 🥵  952‰
+     $4 #28 ~29 signification      44.46°C 🥵  943‰
+     $5 #44 ~21 paraphrase         44.36°C 🥵  942‰
+     $6 #54 ~19 linguistique       43.81°C 🥵  938‰
+     $7 #82  ~8 acception          43.16°C 🥵  926‰
+     $8 #27 ~30 sens               40.87°C 😎  886‰
+     $9 #15 ~36 métaphore          38.56°C 😎  840‰
+    $10 #90  ~5 rhétorique         37.28°C 😎  812‰
+    $11 #21 ~32 concept            37.19°C 😎  811‰
+    $12 #29 ~28 subtilité          34.22°C 😎  702‰
+    $37 #67     visuel             24.25°C 🥶
+    $89  #3     forêt              -2.99°C 🧊
