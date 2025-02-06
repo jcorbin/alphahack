@@ -6190,3 +6190,22 @@ See log/play.dictionary.com_games_todays-hurdle/#1131
 
 🔗 alphaguess.com
 ```
+
+# 2025-02-05 cemantix.certitudes.org
+
+```
+🔗 cemantix.certitudes.org
+🧩 1072
+🤔 94 guesses
+    🥵  6
+    😎 29
+    🥶 52
+    🧊  7
+⏱️ 0:05:47.072391
+```
+
+🤔 95 attempts
+📜 0 sessions
+🫧 3 chat sessions
+⁉️ 14 chat prompts
+🤖 14 gemma2:latest replies
