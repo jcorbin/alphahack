@@ -1,0 +1,144 @@
+T0.00020529801258817315 now: 2025-02-07T13:58:19EST
+T0.0002542709989938885 site: squareword.org
+T1.5020135609956924 🧩  ? #1103
+T1.5022096960165072 puzzle_id: #1103
+T2.538335051998729 > *
+T2.6273086220026016 questioning: ["peeks", "#5 found:5744 hypo:11881376"]
+T4.789885820995551 peeks ( #5 found:5744 hypo:11881376 ) ? 
+T4.954348166997079 peeks ( #5 found:5744 hypo:11881376 ) > 
+T5.969771322008455 peeks ( #5 found:5744 hypo:11881376 ) 1> ~ ps
+T5.970955872006016 word: 0 _____
+T5.9709819499985315 may: 0 p s
+T7.860298892017454 peeks ( #5 found:5744 hypo:11881376 ) 2> p_e
+T7.860588637006003 word: 1 p_e__
+T7.8606171639985405 may: 1 
+T9.995267898018938 peeks ( #5 found:5744 hypo:11881376 ) 3> ~ s
+T9.995497629017336 word: 2 _____
+T9.99552099799621 may: 2 s
+T12.509055628004717 peeks ( #5 found:5744 hypo:11881376 ) 4> __e ~ s
+T12.509294390998548 word: 3 __e__
+T12.509317224001279 may: 3 s
+T15.599031574005494 peeks ( #5 found:5744 hypo:11881376 ) 5> ____s ~ e
+T15.59935319700162 word: 4 ____s
+T15.599383346998366 may: 4 e
+T15.59941499400884 question done
+T16.736957614019047 > /no k
+T16.737336513004266 nope: k
+T17.969144586997572 > *
+T18.41976973999408 questioning: ["preed", "#2 found:26 hypo:15625"]
+T21.076530421996722 preed ( #2 found:26 hypo:15625 ) ? 
+T21.24930728599429 preed ( #2 found:26 hypo:15625 ) > 
+T23.62249695099308 preed ( #2 found:26 hypo:15625 ) 1> ~ psr
+T23.62270592499408 word: 0 _____
+T23.622731264011236 may: 0 p r s
+T26.173937133018626 preed ( #2 found:26 hypo:15625 ) 2> 
+T27.921519457013346 preed ( #2 found:26 hypo:15625 ) 3> 
+T29.310896968003362 preed ( #2 found:26 hypo:15625 ) 4> _r
+T29.31109597501927 word: 3 _re__
+T29.311114695010474 may: 3 s
+T32.80072371001006 preed ( #2 found:26 hypo:15625 ) 5> 3_r
+T35.05809023001348 preed ( #2 found:26 hypo:15625 ) 3> 3 _r
+T35.058295499999076 word: 2 _r___
+T35.058317190007074 may: 2 s
+T40.97959462701692 preed ( #2 found:26 hypo:15625 ) 4> __e
+T40.979808489995776 word: 3 __e__
+T40.97982897100155 may: 3 s
+T43.80331098899478 preed ( #2 found:26 hypo:15625 ) 5> ___es
+T43.80350581501261 word: 4 ___es
+T43.80352544999914 may: 4 
+T43.803547087009065 question done
+T46.36677356000291 > /no d
+T46.3669504050049 nope: d k
+T47.91962835600134 > *
+T48.40741961300955 questioning: ["ornis", "#3 found:16 hypo:13824"]
+T53.835612262017094 ornis ( #3 found:16 hypo:13824 ) ? 
+T54.66150780301541 ornis ( #3 found:16 hypo:13824 ) > 
+T60.0032375290175 ornis ( #3 found:16 hypo:13824 ) 1> 
+T62.450855483009946 ornis ( #3 found:16 hypo:13824 ) 2> ~ i
+T62.451044854009524 word: 1 p_e__
+T62.45106235999265 may: 1 i
+T66.57411653001327 ornis ( #3 found:16 hypo:13824 ) 3> ~ son
+T66.57430375000695 word: 2 _r___
+T66.57432427100139 may: 2 n o s
+T71.0085794290062 ornis ( #3 found:16 hypo:13824 ) 4> ~ sn
+T71.00879334501224 word: 3 __e__
+T71.00881855000625 may: 3 n s
+T72.149082620017 ornis ( #3 found:16 hypo:13824 ) 5> 
+T72.14921507399413 question done
+T72.73593838699162 > *
+T72.89006968701142 questioning: ["arson", "#3 found:1 hypo:144"]
+T76.01578092100681 arson ( #3 found:1 hypo:144 ) ? 
+T77.80568315199343 arson ( #3 found:1 hypo:144 ) > 
+T79.9820904849912 arson ( #3 found:1 hypo:144 ) 1> ~ psra
+T79.98228854400804 word: 0 _____
+T79.98231008500443 may: 0 a p r s
+T82.29188095100108 arson ( #3 found:1 hypo:144 ) 2> ~ isa
+T82.29219072699198 word: 1 p_e__
+T82.2922286039975 may: 1 a i s
+T84.13190598299843 arson ( #3 found:1 hypo:144 ) 3> 2 ~ ia
+T84.13207757100463 word: 1 p_e__
+T84.13209714199184 may: 1 a i
+T86.1016918180103 arson ( #3 found:1 hypo:144 ) 3> arson
+T86.10189126001205 word: 2 arson
+T86.10191222801222 may: 2 
+T89.02874501500628 arson ( #3 found:1 hypo:144 ) 4> 
+T90.13701651999145 arson ( #3 found:1 hypo:144 ) 5> ~ a
+T90.13724232799723 word: 4 ___es
+T90.13726516399765 may: 4 a
+T90.13728362799156 question done
+T91.11275083301007 > *
+T92.16079557099147 questioning: ["pieta", "#2 found:1 hypo:48"]
+T95.52109896900947 pieta ( #2 found:1 hypo:48 ) ? 
+T96.48036454000976 pieta ( #2 found:1 hypo:48 ) > 
+T96.97965182599728 pieta ( #2 found:1 hypo:48 ) 1> 
+T98.78332669101655 pieta ( #2 found:1 hypo:48 ) 2> pieta
+T98.7834339789988 word: 1 pieta
+T98.7834623370145 may: 1 
+T100.63581312101451 pieta ( #2 found:1 hypo:48 ) 3> 
+T102.40994583800784 pieta ( #2 found:1 hypo:48 ) 4> ~ snt
+T102.41017546501826 word: 3 __e__
+T102.41020083799958 may: 3 n s t
+T103.8966862919915 pieta ( #2 found:1 hypo:48 ) 5> ~ at
+T103.89691113799927 word: 4 ___es
+T103.89693224499933 may: 4 a t
+T103.89695103600388 question done
+T105.52226007499848 > *
+T106.18892037801561 questioning: ["stern", "#4 found:4 hypo:144"]
+T110.67251582100289 stern ( #4 found:4 hypo:144 ) ? 
+T111.99224104001769 stern ( #4 found:4 hypo:144 ) > 
+T114.24416338599985 stern ( #4 found:4 hypo:144 ) 1> s_
+T114.24433604901424 word: 0 s____
+T114.24435513900244 may: 0 a p r
+T119.91634017901379 stern ( #4 found:4 hypo:144 ) 2> 4 s_e
+T119.91656952901394 word: 3 s_e__
+T119.91659436799819 may: 3 n t
+T122.74882526500733 stern ( #4 found:4 hypo:144 ) 5> 
+T122.74894108300214 question done
+T123.93120665100287 > *
+T124.69052144300076 questioning: ["mates", "#5 found:1 hypo:48"]
+T131.88761924701976 mates ( #5 found:1 hypo:48 ) ? 
+T133.89303859201027 mates ( #5 found:1 hypo:48 ) > 5 mates
+T133.89324415900046 word: 4 mates
+T133.89327421601047 may: 4 
+T133.89329963401542 question done
+T135.84911131300032 > *
+T136.48719465601607 questioning: ["scrap", "#1 found:1 hypo:144"]
+T139.31690587301273 scrap ( #1 found:1 hypo:144 ) ? 
+T141.17103093699552 scrap ( #1 found:1 hypo:144 ) > 1 scrap
+T141.1712675570161 word: 0 scrap
+T141.1712976830022 may: 0 
+T144.0743971070042 scrap ( #1 found:1 hypo:144 ) 2> 4 sce
+T144.07451413600938 word: 3 sce__
+T144.07452522200765 may: 3 n t
+T146.45577597699594 question done
+T147.21374500900856 > *
+T147.7168276690063 questioning: ["scent", "#4 found:1 hypo:2"]
+T150.10777624999173 scent ( #4 found:1 hypo:2 ) ? 
+T151.97442181000952 scent ( #4 found:1 hypo:2 ) > 4 scent
+T151.97463975500432 word: 3 scent
+T151.97470130899455 may: 3 
+T153.9410814010189 scent ( #4 found:1 hypo:2 ) 5> ␚
+T153.94127097300952 question done
+T156.82581833199947 Press <Enter> to 📋 or `>` for line prompt 
+T156.8347697260033 result: "squareword.org 1103: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1103"
+T156.83686888800003 <STOP>
