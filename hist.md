@@ -6299,3 +6299,12 @@ See log/play.dictionary.com_games_todays-hurdle/#1132
 🤖 15 gemma2:latest replies
 🤖 46 deepseek-r1:8b replies
 🤖 55 qwen2.5:7b replies
+
+# 2025-02-07 alfagok.diginaut.net
+
+```
+🧩 Puzzel #97
+🤔 14 gokken
+⏱️ 36s
+🔗 alfagok.diginaut.net
+```
