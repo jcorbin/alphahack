@@ -65,6 +65,8 @@ class Search(StoredLog):
     def __init__(self):
         super().__init__()
 
+        self.debug = 2
+
         self.size: int = 5
         self.wordlist: str = ''
 
@@ -319,9 +321,14 @@ class Search(StoredLog):
         choices: list[tuple[float, str]] = []
 
         pattern = self.pattern(ui)
+        if self.debug:
+            ui.log(f'select pattern r"{pattern}"')
 
         for word in self.find(re.compile(pattern)):
-            if any(self.tried_letters(word)): continue
+            if any(self.tried_letters(word)):
+                if self.debug > 1:
+                    ui.log(f'skip tried "{word}"')
+                continue
 
             score = random.random()
             if score > 0:
