@@ -6328,3 +6328,22 @@ See log/squareword.org/#1103
 # 2025-02-07 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1133
+
+# 2025-02-07 cemantix.certitudes.org
+
+```
+🔗 cemantix.certitudes.org
+🧩 1074
+🤔 127 guesses
+    🥵  1
+    😎  9
+    🥶 82
+    🧊 35
+⏱️ 0:06:33.623684
+```
+
+🤔 128 attempts
+📜 0 sessions
+🫧 5 chat sessions
+⁉️ 23 chat prompts
+🤖 23 qwen2.5:7b replies
