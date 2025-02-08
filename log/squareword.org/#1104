@@ -1,0 +1,157 @@
+T0.00013361201854422688 now: 2025-02-08T09:42:08EST
+T0.00017340501653961837 site: squareword.org
+T3.9091335679986514 🧩  ? #1104
+T3.9095339640043676 puzzle_id: #1104
+T7.828893119993154 > *
+T7.917076607001945 questioning: ["cooer", "#5 found:1657 hypo:11881376"]
+T11.331139142013853 cooer ( #5 found:1657 hypo:11881376 ) ? 
+T11.932857627019985 cooer ( #5 found:1657 hypo:11881376 ) > 
+T14.390038509009173 cooer ( #5 found:1657 hypo:11881376 ) 1> ___e ~ e
+T14.390948204003507 word: 0 ___e_
+T14.390974492009263 may: 0 e
+T16.15026827401016 cooer ( #5 found:1657 hypo:11881376 ) 2> ~ r
+T16.15084280699375 word: 1 _____
+T16.150868305005133 may: 1 r
+T17.563873222999973 cooer ( #5 found:1657 hypo:11881376 ) 3> 
+T19.06346052599838 cooer ( #5 found:1657 hypo:11881376 ) 4> ~ ce
+T19.063672887015855 word: 3 _____
+T19.063695696997456 may: 3 c e
+T20.224671720992774 cooer ( #5 found:1657 hypo:11881376 ) 5> ~ e
+T20.224930201016832 word: 4 _____
+T20.224955767014762 may: 4 e
+T20.22497999499319 question done
+T22.411462032003328 > /no o
+T22.412093256018125 nope: o
+T25.430555019993335 > *
+T25.780221182998503 questioning: ["kelep", "#1 found:155 hypo:15625"]
+T29.480078146007145 kelep ( #1 found:155 hypo:15625 ) ? 
+T29.848236999998335 kelep ( #1 found:155 hypo:15625 ) > 
+T32.413083421997726 kelep ( #1 found:155 hypo:15625 ) 1> _e_e ~ l
+T32.41329054700327 word: 0 _e_e_
+T32.41331078900839 may: 0 l
+T35.71637552900938 kelep ( #1 found:155 hypo:15625 ) 2> ~ rl
+T35.71657885500463 word: 1 _____
+T35.71660542601603 may: 1 l r
+T37.08917497799848 kelep ( #1 found:155 hypo:15625 ) 3> 
+T39.29111056399415 kelep ( #1 found:155 hypo:15625 ) 4> ~ cel
+T39.29133012800594 word: 3 _____
+T39.29135192200192 may: 3 c e l
+T41.18047562800348 kelep ( #1 found:155 hypo:15625 ) 5> _e
+T41.18059279199224 word: 4 _e___
+T41.180601458007004 may: 4 
+T41.18061156800832 question done
+T44.99088249501074 > /no kop
+T44.99111113700201 nope: k o p
+T45.63476812999579 > *
+T46.02801426901715 questioning: ["gelee", "#1 found:10 hypo:529"]
+T49.76550224999664 gelee ( #1 found:10 hypo:529 ) ? 
+T50.03787469401141 gelee ( #1 found:10 hypo:529 ) > 
+T51.65737916799844 gelee ( #1 found:10 hypo:529 ) 1> 
+T54.79950918399845 gelee ( #1 found:10 hypo:529 ) 2> 3 ~ g
+T54.79984633499407 word: 2 _____
+T54.79987354599871 may: 2 g
+T58.24100557802012 gelee ( #1 found:10 hypo:529 ) 4> ____e
+T58.241257340006996 word: 3 ____e
+T58.241282800998306 may: 3 c l
+T61.27494063001359 gelee ( #1 found:10 hypo:529 ) 5> 
+T61.27503526501823 question done
+T62.010137492005015 > *
+T62.1658654390194 questioning: ["clime", "#4 found:3 hypo:1058"]
+T67.13745598201058 clime ( #4 found:3 hypo:1058 ) ? 
+T73.26890251101577 clime ( #4 found:3 hypo:1058 ) > 3 ~ gi
+T73.26923463001731 word: 2 _____
+T73.26926328500849 may: 2 g i
+T79.24530371901346 clime ( #4 found:3 hypo:1058 ) 4> _li_e
+T79.24551576600061 word: 3 _li_e
+T79.24553733901121 may: 3 c
+T82.46129336502054 clime ( #4 found:3 hypo:1058 ) 5> 
+T82.46140390401706 question done
+T83.60821845202008 > /no m
+T83.60839064000174 nope: k m o p
+T84.15254964801716 > *
+T84.7568881890038 questioning: ["cline", "#4 found:1 hypo:22"]
+T90.04799463201198 cline ( #4 found:1 hypo:22 ) ? 
+T92.68277682102052 cline ( #4 found:1 hypo:22 ) > 3 ~ gin
+T92.6830269730126 word: 2 _____
+T92.68305346899433 may: 2 g i n
+T97.32670644199243 cline ( #4 found:1 hypo:22 ) 4> 
+T98.38190508601838 cline ( #4 found:1 hypo:22 ) 5> ~ n
+T98.38213992901728 word: 4 _e___
+T98.38216016799561 may: 4 n
+T98.38217813899973 question done
+T99.09013374301139 > *
+T99.6947998329997 questioning: ["slice", "#4 found:2 hypo:22"]
+T102.93362254201202 slice ( #4 found:2 hypo:22 ) ? 
+T104.7233513520041 slice ( #4 found:2 hypo:22 ) > 4 slice
+T104.72353853101959 word: 3 slice
+T104.72355945099844 may: 3 
+T106.33417946100235 slice ( #4 found:2 hypo:22 ) 5> ~ ns
+T106.33444465100183 word: 4 _e___
+T106.33447398300632 may: 4 n s
+T106.33449693099828 question done
+T107.55577566401917 > *
+T108.4345660660183 questioning: ["given", "#3 found:2 hypo:2904"]
+T114.7683246700035 given ( #3 found:2 hypo:2904 ) ? 
+T119.5818568560062 given ( #3 found:2 hypo:2904 ) > 2 ~rlv
+T119.58222593099345 word: 1 _____
+T119.58228004601551 may: 1 l r v
+T125.2731525110139 given ( #3 found:2 hypo:2904 ) 3> ____n
+T125.27334429000621 word: 2 ____n
+T125.27336906502023 may: 2 g i
+T128.34381957101868 given ( #3 found:2 hypo:2904 ) 4> 
+T128.66012874001171 given ( #3 found:2 hypo:2904 ) 5> 
+T128.6602640520141 question done
+T129.5890844410169 > *
+T130.91670507800882 questioning: ["larva", "#2 found:1 hypo:2904"]
+T133.54658289300278 larva ( #2 found:1 hypo:2904 ) ? 
+T134.8505537059973 larva ( #2 found:1 hypo:2904 ) > 2 larva
+T134.85077847601497 word: 1 larva
+T134.85080291100894 may: 1 
+T139.89252549101366 larva ( #2 found:1 hypo:2904 ) 3> ~ gia
+T139.89273570399382 word: 2 ____n
+T139.8927582660108 may: 2 a g i
+T141.9835562700173 question done
+T142.69679018101306 > *
+T143.74472967299516 questioning: ["again", "#3 found:1 hypo:132"]
+T147.34375234800973 again ( #3 found:1 hypo:132 ) ? 
+T148.66638323501684 again ( #3 found:1 hypo:132 ) > 3 again
+T148.66656086000148 word: 2 again
+T148.66657937699347 may: 2 
+T152.19675329801976 question done
+T152.7842996600084 > *
+T153.56109465501504 questioning: ["bedel", "#1 found:1 hypo:484"]
+T160.21697534099803 bedel ( #1 found:1 hypo:484 ) ? 
+T163.8706966030004 bedel ( #1 found:1 hypo:484 ) > 1 be_el
+T163.87094114901265 word: 0 be_el
+T163.87119678599993 may: 0 
+T168.758871921018 question done
+T170.6647237050056 > /no d
+T170.6649740819994 nope: d k m o p
+T171.72326500099734 > *
+T172.4791875439987 questioning: ["betel", "#1 found:1 hypo:21"]
+T175.5721939910145 betel ( #1 found:1 hypo:21 ) ? 
+T177.40799152301042 betel ( #1 found:1 hypo:21 ) > 1 betel
+T177.40817801101366 word: 0 betel
+T177.40819796701544 may: 0 
+T179.3835361590027 betel ( #1 found:1 hypo:21 ) 2> 5 ~[32;2unst
+T179.38375546701718 word: 4 _e___
+T179.38378868301515 may: 4 
+T179.38381717100856 question done
+T183.89776837200043 > betel
+T183.898237307003 questioning: ["betel", "entered"]
+T185.74070363200735 betel ( entered ) ? 5 ~ nst
+T185.74087948800297 guess: betel
+T185.7409850230033 word: 4 _e___
+T185.7410141970031 may: 4 n s t
+T185.74103439500323 question done
+T187.98310198099352 > 
+T188.84544001100585 > *
+T189.3601218870026 questioning: ["tents", "#5 found:1 hypo:126"]
+T192.51956019899808 tents ( #5 found:1 hypo:126 ) ? 
+T194.15890197100816 tents ( #5 found:1 hypo:126 ) > 5 tents
+T194.15907141100615 word: 4 tents
+T194.15908836599556 may: 4 
+T194.15910334599903 question done
+T198.01017259599757 Press <Enter> to 📋 or `>` for line prompt 
+T198.01584356400417 result: "squareword.org 1104: 12 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe7\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe7\ud83d\udfe9\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1104"
+T198.01698773901444 <STOP>
