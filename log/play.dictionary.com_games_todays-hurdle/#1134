@@ -1,0 +1,525 @@
+T0.00018051097868010402 now: 2025-02-08T09:45:37EST
+T0.00023053298355080187 site: https://play.dictionary.com/games/todays-hurdle
+T1.5463608629943337 1.1> *
+T1.546522439981345 select pattern r"....."
+T24.902392213989515 1.1> tried drive
+T24.902986577973934 tried: drive
+T26.730658979999134 1.2> no drive
+T26.731174674991053 nope: deirv
+T27.350541296997108 1.2> *
+T27.350919191987487 select pattern r"[a-cf-hj-qs-uw-z][a-cf-hj-qs-uw-z][a-cf-hj-qs-uw-z][a-cf-hj-qs-uw-z][a-cf-hj-qs-uw-z]"
+T34.99341217597248 1.2> tried clump
+T34.99349470398738 tried: clump
+T36.848728289973224 1.3> no lmp
+T36.849014859995805 nope: deilmprv
+T39.556565331993625 1.3> word c_u
+T39.556810763984686 word: c_u__
+T40.38159939498291 1.3> *
+T40.3818576259946 select pattern r"c[a-cf-hjknoqs-uw-z]u[a-cf-hjknoqs-uw-z][a-cf-hjknoqs-uw-z]"
+T56.48811537399888 1.3> word chunk
+T56.48834959199303 word: chunk
+T64.9951500769821 2.1> tried chunk
+T64.99530693198903 tried: chunk
+T66.79500984898186 2.2> no chunk
+T66.79526022498612 nope: chknu
+T67.39011656699586 2.2> *
+T67.39037173899123 select pattern r"[abd-gijlmo-tv-z][abd-gijlmo-tv-z][abd-gijlmo-tv-z][abd-gijlmo-tv-z][abd-gijlmo-tv-z]"
+T73.32988288297202 2.2> tried royal
+T73.32997336398694 tried: royal
+T75.79973315197276 2.3> word r
+T75.80005374498433 word: r____
+T77.30080431199167 2.3> no yl
+T77.30094273400027 nope: chklnuy
+T79.38593054597732 2.3> may oa
+T79.38620798298507 may: ao
+T79.94108962599421 2.3> *
+T79.94141866097925 select pattern r"rao[abd-gijmo-tv-xz][abd-gijmo-tv-xz]|roa[abd-gijmo-tv-xz][abd-gijmo-tv-xz]|ra[abd-gijmo-tv-xz]o[abd-gijmo-tv-xz]|ro[abd-gijmo-tv-xz]a[abd-gijmo-tv-xz]|ra[abd-gijmo-tv-xz][abd-gijmo-tv-xz]o|ro[abd-gijmo-tv-xz][abd-gijmo-tv-xz]a|r[abd-gijmo-tv-xz]ao[abd-gijmo-tv-xz]|r[abd-gijmo-tv-xz]oa[abd-gijmo-tv-xz]|r[abd-gijmo-tv-xz]a[abd-gijmo-tv-xz]o|r[abd-gijmo-tv-xz]o[abd-gijmo-tv-xz]a|r[abd-gijmo-tv-xz][abd-gijmo-tv-xz]ao|r[abd-gijmo-tv-xz][abd-gijmo-tv-xz]oa"
+T79.98388877799152 skip tried "roads"
+T79.98392534299637 skip tried "roams"
+T79.98393361398485 skip tried "roars"
+T79.98393760097679 skip tried "roast"
+T79.9841328249895 skip tried "rotas"
+T89.01775298197754 2.3> tried radio
+T89.01797998699476 tried: radio
+T90.29576914999052 2.4> word ra
+T90.29609944898402 word: ra___
+T92.30548792198533 2.4> no di
+T92.30578607399366 nope: cdhiklnuy
+T94.2240955689922 2.4> may . o
+T94.2242160459864 may: o
+T94.82508808097919 2.4> *
+T94.8252011439763 select pattern r"rao[abe-gjmo-tv-xz][abe-gjmo-tv-xz]|ra[abe-gjmo-tv-xz]o[abe-gjmo-tv-xz]|ra[abe-gjmo-tv-xz][abe-gjmo-tv-xz]o"
+T100.16394053399563 2.4> word razor
+T100.16405476498767 word: razor
+T102.93358510598773 3.1> tried razor
+T102.93366759398486 tried: razor
+T111.38306469397503 3.2> no azor
+T111.38327014798415 nope: aorz
+T114.42842929298058 3.2> may r
+T114.42862967497786 may: r
+T115.38762932797545 3.2> *
+T115.38800450097187 select pattern r"r[b-npqs-y][b-npqs-y][b-npqs-y][b-npqs-y]|[b-npqs-y]r[b-npqs-y][b-npqs-y][b-npqs-y]|[b-npqs-y][b-npqs-y]r[b-npqs-y][b-npqs-y]|[b-npqs-y][b-npqs-y][b-npqs-y]r[b-npqs-y]|[b-npqs-y][b-npqs-y][b-npqs-y][b-npqs-y]r"
+T115.40038768298109 skip tried "bider"
+T115.40047350799432 skip tried "biker"
+T115.40055227698758 skip tried "biner"
+T115.40080449800007 skip tried "biter"
+T115.40116519198637 skip tried "bluer"
+T115.40384796497528 skip tried "buyer"
+T115.40530505098286 skip tried "ceder"
+T115.40588370797923 skip tried "cheer"
+T115.40648117099772 skip tried "cider"
+T115.40661024898873 skip tried "citer"
+T115.40945480499067 skip tried "cuber"
+T115.40973434998887 skip tried "cuter"
+T115.40978958897176 skip tried "cyber"
+T115.40985997099779 skip tried "cyder"
+T115.41023477798444 skip tried "debur"
+T115.4105024819728 skip tried "defer"
+T115.41084971698001 skip tried "demur"
+T115.41125153098255 skip tried "deter"
+T115.41140132499277 skip tried "dhikr"
+T115.41151575397816 skip tried "dicer"
+T115.4116471419984 skip tried "diker"
+T115.41168326998013 skip tried "dimer"
+T115.41171053398284 skip tried "diner"
+T115.41240453597857 skip tried "diver"
+T115.41322417298215 skip tried "duper"
+T115.41355045099044 skip tried "edger"
+T115.41365571398637 skip tried "egger"
+T115.41369677099283 skip tried "eider"
+T115.41379068497918 skip tried "elder"
+T115.41391835198738 skip tried "elver"
+T115.41396118199918 skip tried "ember"
+T115.41402595199179 skip tried "emeer"
+T115.41406830097549 skip tried "emmer"
+T115.41423421699437 skip tried "ender"
+T115.41446880297735 skip tried "enter"
+T115.41494118599803 skip tried "esker"
+T115.41497955899104 skip tried "ester"
+T115.41503411298618 skip tried "ether"
+T115.41644051598269 skip tried "femur"
+T115.41662331999396 skip tried "fever"
+T115.41663591298857 skip tried "fewer"
+T115.41664223899716 skip tried "feyer"
+T115.41665756798466 skip tried "fiber"
+T115.41675585598568 skip tried "fifer"
+T115.41679616097827 skip tried "filer"
+T115.41686648997711 skip tried "finer"
+T115.4170395519759 skip tried "fiver"
+T115.41704832098912 skip tried "fixer"
+T115.4171990819741 skip tried "fleer"
+T115.41724084498128 skip tried "flier"
+T115.41744677297538 skip tried "flyer"
+T115.41830325397314 skip tried "fumer"
+T115.41918835998513 skip tried "giber"
+T115.41930618998595 skip tried "giver"
+T115.41950693799299 skip tried "gluer"
+T115.42159574199468 skip tried "heder"
+T115.42203059699386 skip tried "hewer"
+T115.42205601299065 skip tried "hexer"
+T115.42209210697911 skip tried "hider"
+T115.4221414589847 skip tried "hiker"
+T115.42308378897724 skip tried "huger"
+T115.42334913497325 skip tried "hyper"
+T115.42357259598793 skip tried "icier"
+T115.42357810298563 skip tried "icker"
+T115.4236335689784 skip tried "idler"
+T115.4236916039954 skip tried "iller"
+T115.42428040897357 skip tried "incur"
+T115.42449833298451 skip tried "infer"
+T115.42466716698254 skip tried "inker"
+T115.42469434297527 skip tried "inner"
+T115.42495409198455 skip tried "inter"
+T115.42568310699426 skip tried "ither"
+T115.42593146397849 skip tried "jiber"
+T115.42597700998886 skip tried "jiver"
+T115.42630504997214 skip tried "kefir"
+T115.42640115399263 skip tried "keyer"
+T115.42657045298256 skip tried "kiter"
+T115.42737804498756 skip tried "leger"
+T115.42743382998742 skip tried "lemur"
+T115.42746331397211 skip tried "leper"
+T115.42754228899139 skip tried "lever"
+T115.42759789197589 skip tried "liber"
+T115.42768932998297 skip tried "lifer"
+T115.42770742499852 skip tried "liger"
+T115.4277526299993 skip tried "liker"
+T115.427844359976 skip tried "liner"
+T115.42799604599713 skip tried "liter"
+T115.42807233697386 skip tried "liver"
+T115.42849604398361 skip tried "luger"
+T115.42863599397242 skip tried "luxer"
+T115.42993642497458 skip tried "meter"
+T115.43022476197802 skip tried "miler"
+T115.43030953299603 skip tried "mimer"
+T115.43033648998244 skip tried "miner"
+T115.43058446599753 skip tried "miser"
+T115.43084975899546 skip tried "miter"
+T115.43087813799502 skip tried "mixer"
+T115.4317300739931 skip tried "muser"
+T115.43179693998536 skip tried "muter"
+T115.43243876297493 skip tried "never"
+T115.43244980598683 skip tried "newer"
+T115.4324940519873 skip tried "nicer"
+T115.43258008698467 skip tried "niner"
+T115.43260164198 skip tried "niter"
+T115.4333100829972 skip tried "nuder"
+T115.4366470539826 skip tried "peter"
+T115.4375830909994 skip tried "piker"
+T115.43788884798414 skip tried "piper"
+T115.43856780597707 skip tried "plier"
+T115.43874339197646 skip tried "plyer"
+T115.44104921299731 skip tried "puler"
+T115.44149852497503 skip tried "queer"
+T115.44215460697887 skip tried "rebbe"
+T115.44215898198308 skip tried "rebec"
+T115.44216470298124 skip tried "rebel"
+T115.44217063797987 skip tried "rebid"
+T115.44220442598453 skip tried "rebus"
+T115.44220793698332 skip tried "rebut"
+T115.44221434998326 skip tried "rebuy"
+T115.44224317098269 skip tried "recce"
+T115.44229260497377 skip tried "recit"
+T115.44230440398678 skip tried "recks"
+T115.4424380659766 skip tried "recti"
+T115.44246278097853 skip tried "recut"
+T115.44248911199975 skip tried "redds"
+T115.44249236298492 skip tried "reddy"
+T115.44249931897502 skip tried "reded"
+T115.44251804798841 skip tried "redes"
+T115.44253471697448 skip tried "redid"
+T115.44254327798262 skip tried "redip"
+T115.44256666698493 skip tried "redly"
+T115.44259805098409 skip tried "redub"
+T115.44261875399388 skip tried "redux"
+T115.44263330998365 skip tried "redye"
+T115.44265148197883 skip tried "reeds"
+T115.44265685099526 skip tried "reedy"
+T115.4426628559886 skip tried "reefs"
+T115.44266617498943 skip tried "reefy"
+T115.44267206199584 skip tried "reeks"
+T115.44267722699442 skip tried "reeky"
+T115.44268593000015 skip tried "reels"
+T115.4427294099878 skip tried "reest"
+T115.44273983797757 skip tried "reeve"
+T115.44276996399276 skip tried "refed"
+T115.44277608898119 skip tried "refel"
+T115.4428082019731 skip tried "refit"
+T115.44281327797216 skip tried "refix"
+T115.44284348998917 skip tried "refly"
+T115.4429222829931 skip tried "reges"
+T115.44292759697419 skip tried "regie"
+T115.44300400398788 skip tried "rehem"
+T115.44302104300004 skip tried "reifs"
+T115.44302434899146 skip tried "reify"
+T115.44302793199313 skip tried "reign"
+T115.44303348998073 skip tried "reiki"
+T115.44307444698643 skip tried "reink"
+T115.44308194098994 skip tried "reins"
+T115.44312006997643 skip tried "reive"
+T115.44313050198252 skip tried "rejig"
+T115.4431451849814 skip tried "rekey"
+T115.44318908097921 skip tried "relet"
+T115.44319911699858 skip tried "relic"
+T115.44322352099698 skip tried "relit"
+T115.44327934697503 skip tried "remet"
+T115.44328238998423 skip tried "remex"
+T115.44329993298743 skip tried "remit"
+T115.44330717698904 skip tried "remix"
+T115.44335849498748 skip tried "rends"
+T115.44336960898363 skip tried "renew"
+T115.44337665298372 skip tried "renig"
+T115.44338058898575 skip tried "renin"
+T115.44340154598467 skip tried "rente"
+T115.44340678799199 skip tried "rents"
+T115.44347012598882 skip tried "repeg"
+T115.44347422898863 skip tried "repel"
+T115.44349370599957 skip tried "repin"
+T115.44352768198587 skip tried "reply"
+T115.44355660298606 skip tried "repps"
+T115.44369494597777 skip tried "resee"
+T115.44372575299349 skip tried "reses"
+T115.443729488994 skip tried "reset"
+T115.4437365369813 skip tried "resew"
+T115.44375905397465 skip tried "resid"
+T115.44378124098876 skip tried "resin"
+T115.44379798398586 skip tried "resit"
+T115.44392331299605 skip tried "rests"
+T115.4439778039814 skip tried "retch"
+T115.44398781997734 skip tried "retem"
+T115.44401056898641 skip tried "retie"
+T115.44410802799393 skip tried "reuse"
+T115.44413140899269 skip tried "revel"
+T115.44416411197744 skip tried "revet"
+T115.44420939398697 skip tried "revue"
+T115.44422580199898 skip tried "rewed"
+T115.44423210297828 skip tried "rewet"
+T115.44423721099156 skip tried "rewin"
+T115.44425234899973 skip tried "rexes"
+T115.44427313297638 skip tried "rheme"
+T115.44428504898679 skip tried "rheum"
+T115.4443228559976 skip tried "rhumb"
+T115.44432802099618 skip tried "rhyme"
+T115.44435359898489 skip tried "ribby"
+T115.44435690599494 skip tried "ribes"
+T115.44436884098104 skip tried "riced"
+T115.44437414398999 skip tried "rices"
+T115.44438076199731 skip tried "ricin"
+T115.4443896469893 skip tried "ricks"
+T115.44440331798978 skip tried "rides"
+T115.44440759698045 skip tried "ridge"
+T115.44441669297521 skip tried "ridgy"
+T115.44442423197324 skip tried "riels"
+T115.44443504197989 skip tried "riffs"
+T115.4444383669761 skip tried "rifle"
+T115.44444621598814 skip tried "rifts"
+T115.44445325998822 skip tried "right"
+T115.44446568598505 skip tried "rigid"
+T115.44447933597257 skip tried "riled"
+T115.44448243197985 skip tried "riles"
+T115.4444854479807 skip tried "riley"
+T115.44448961297167 skip tried "rille"
+T115.44449445197824 skip tried "rills"
+T115.44449807298952 skip tried "rimed"
+T115.4445017639955 skip tried "rimes"
+T115.44451457998366 skip tried "rinds"
+T115.44451762898825 skip tried "rindy"
+T115.44452995297615 skip tried "rings"
+T115.44453884797986 skip tried "rinks"
+T115.44454329498694 skip tried "rinse"
+T115.4445528559736 skip tried "riped"
+T115.44455631999881 skip tried "ripen"
+T115.44456200697459 skip tried "ripes"
+T115.44457827298902 skip tried "risen"
+T115.44458229499287 skip tried "rises"
+T115.44458540098276 skip tried "rishi"
+T115.44459348497912 skip tried "risks"
+T115.44459657097468 skip tried "risky"
+T115.44460285099922 skip tried "risus"
+T115.44460803098627 skip tried "rites"
+T115.4446256699739 skip tried "rived"
+T115.44463037597598 skip tried "riven"
+T115.44463976097177 skip tried "rives"
+T115.44464282298577 skip tried "rivet"
+T115.444948430988 skip tried "rubby"
+T115.44495369200013 skip tried "rubel"
+T115.44496120300028 skip tried "rubes"
+T115.44496826897375 skip tried "ruble"
+T115.44497165299254 skip tried "rubli"
+T115.44497992898687 skip tried "rubus"
+T115.44498449197272 skip tried "ruche"
+T115.44499032999738 skip tried "rucks"
+T115.44500208398676 skip tried "rudds"
+T115.44500531998347 skip tried "ruddy"
+T115.44501748299808 skip tried "ruffe"
+T115.44502537397784 skip tried "ruffs"
+T115.44503184998757 skip tried "rugby"
+T115.44504636898637 skip tried "ruing"
+T115.44505113098421 skip tried "ruins"
+T115.44505457798368 skip tried "rukhs"
+T115.44505818997277 skip tried "ruled"
+T115.44506288997945 skip tried "rules"
+T115.44507273897761 skip tried "rumen"
+T115.44508001298527 skip tried "rumly"
+T115.4450863529928 skip tried "rummy"
+T115.44509677798487 skip tried "rumps"
+T115.44510647599236 skip tried "runes"
+T115.4451103649917 skip tried "rungs"
+T115.4451134519768 skip tried "runic"
+T115.44512131199008 skip tried "runny"
+T115.4451287809934 skip tried "runts"
+T115.44513190499856 skip tried "runty"
+T115.44513551899581 skip tried "rupee"
+T115.44514615397202 skip tried "ruses"
+T115.44515312698786 skip tried "rushy"
+T115.44515678199241 skip tried "rusks"
+T115.4451734329923 skip tried "rusts"
+T115.44517654599622 skip tried "rusty"
+T115.44518436197541 skip tried "ruths"
+T115.445188357 skip tried "rutin"
+T115.44519493597909 skip tried "rutty"
+T115.4451998959994 skip tried "ryked"
+T115.44520293999813 skip tried "rykes"
+T115.44520655999077 skip tried "rynds"
+T115.44634064898128 skip tried "seder"
+T115.44681201997446 skip tried "sever"
+T115.44682962697698 skip tried "sewer"
+T115.44684162997873 skip tried "sexer"
+T115.44702976098051 skip tried "sheer"
+T115.44709697199869 skip tried "shier"
+T115.44718925197958 skip tried "shiur"
+T115.4474110409792 skip tried "shyer"
+T115.44748876997619 skip tried "sieur"
+T115.44753551998292 skip tried "siker"
+T115.44773584298673 skip tried "siver"
+T115.44774070498534 skip tried "sixer"
+T115.44782737499918 skip tried "skier"
+T115.44804518998717 skip tried "slier"
+T115.44819554497371 skip tried "slyer"
+T115.44835519997287 skip tried "sneer"
+T115.44903697297559 skip tried "speer"
+T115.4490431349841 skip tried "speir"
+T115.44911695597693 skip tried "spier"
+T115.44977996798116 skip tried "steer"
+T115.45050324199838 skip tried "suber"
+T115.45098922098987 skip tried "super"
+T115.45140982998419 skip tried "sweer"
+T115.4528311319882 skip tried "their"
+T115.45346488099312 skip tried "tiger"
+T115.45349796998198 skip tried "tiler"
+T115.4535619749804 skip tried "timer"
+T115.45372722897446 skip tried "titer"
+T115.45533853798406 skip tried "tuber"
+T115.45541085198056 skip tried "tuner"
+T115.45553827399272 skip tried "tuyer"
+T115.45556191698415 skip tried "tweer"
+T115.45558622098179 skip tried "twier"
+T115.45563159699668 skip tried "twyer"
+T115.45571697398555 skip tried "udder"
+T115.45574308099458 skip tried "ulcer"
+T115.45583157599322 skip tried "umber"
+T115.45617864397354 skip tried "under"
+T115.45729109898093 skip tried "upper"
+T115.45746697499999 skip tried "usher"
+T115.45750775898341 skip tried "utter"
+T115.45801027899142 skip tried "vexer"
+T115.45811285398668 skip tried "viler"
+T115.45817284597433 skip tried "viper"
+T115.45887179797865 skip tried "weber"
+T115.45920431998093 skip tried "wider"
+T115.45935796297272 skip tried "wiper"
+T115.45939060897217 skip tried "wiser"
+T115.45943986499333 skip tried "wiver"
+T122.14225290698232 3.2> tried first
+T122.14241272700019 tried: first
+T124.1937243489956 3.3> word ____t
+T124.19391137798084 word: ____t
+T127.08519726898521 3.3> no fis
+T127.08550886099692 nope: afiorsz
+T130.14125732998946 3.3> *
+T130.14152719199774 select pattern r"r[b-eghj-npqt-y][b-eghj-npqt-y][b-eghj-npqt-y]t|[b-eghj-npqt-y]r[b-eghj-npqt-y][b-eghj-npqt-y]t|[b-eghj-npqt-y][b-eghj-npqt-y]r[b-eghj-npqt-y]t|[b-eghj-npqt-y][b-eghj-npqt-y][b-eghj-npqt-y]rt"
+T130.15233216798515 skip tried "beret"
+T130.15580251597567 skip tried "buret"
+T130.15587631997187 skip tried "burnt"
+T130.16128470297554 skip tried "curet"
+T130.16517949398258 skip tried "egret"
+T130.1888599419908 skip tried "rebut"
+T130.18912013899535 skip tried "recut"
+T130.18977351099602 skip tried "relet"
+T130.1898570379999 skip tried "remet"
+T130.1905364849954 skip tried "revet"
+T130.19059027198819 skip tried "rewet"
+T138.41686251497595 3.3> tried crypt
+T138.4170580759819 tried: crypt
+T141.7955548739992 3.4> no cyp
+T141.79566033097217 nope: acfioprsyz
+T142.56603385097696 3.4> *
+T142.56643176198122 select pattern r"r[bdeghj-nqt-x][bdeghj-nqt-x][bdeghj-nqt-x]t|[bdeghj-nqt-x]r[bdeghj-nqt-x][bdeghj-nqt-x]t|[bdeghj-nqt-x][bdeghj-nqt-x]r[bdeghj-nqt-x]t|[bdeghj-nqt-x][bdeghj-nqt-x][bdeghj-nqt-x]rt"
+T142.57942207099404 skip tried "beret"
+T142.58353175097727 skip tried "brent"
+T142.58413298998494 skip tried "brunt"
+T142.58474108600058 skip tried "buret"
+T142.58484678997775 skip tried "burnt"
+T142.60306997297448 skip tried "egret"
+T142.60878902798868 skip tried "greet"
+T142.60896501599927 skip tried "grunt"
+T142.6250910399831 skip tried "rebut"
+T142.62583004997578 skip tried "relet"
+T142.62593790199026 skip tried "remet"
+T142.62714450698695 skip tried "revet"
+T142.627243541996 skip tried "rewet"
+T151.3801552709774 3.4> tried exert
+T151.38039409098565 tried: exert
+T152.4704369599931 3.5> no ex
+T152.47064782498637 nope: acefioprsxyz
+T153.17610509498627 3.5> *
+T153.17642813097336 select pattern r"r[bdghj-nqt-w][bdghj-nqt-w][bdghj-nqt-w]t|[bdghj-nqt-w]r[bdghj-nqt-w][bdghj-nqt-w]t|[bdghj-nqt-w][bdghj-nqt-w]r[bdghj-nqt-w]t|[bdghj-nqt-w][bdghj-nqt-w][bdghj-nqt-w]rt"
+T153.189851343981 skip tried "blurt"
+T153.19092852598988 skip tried "brunt"
+T153.19122044398682 skip tried "burnt"
+T153.20383960899198 skip tried "grunt"
+T155.4208166609751 3.5> *
+T155.42112617197563 select pattern r"r[bdghj-nqt-w][bdghj-nqt-w][bdghj-nqt-w]t|[bdghj-nqt-w]r[bdghj-nqt-w][bdghj-nqt-w]t|[bdghj-nqt-w][bdghj-nqt-w]r[bdghj-nqt-w]t|[bdghj-nqt-w][bdghj-nqt-w][bdghj-nqt-w]rt"
+T155.43480214499868 skip tried "blurt"
+T155.43574177799746 skip tried "brunt"
+T155.43609996099258 skip tried "burnt"
+T155.45053091298905 skip tried "grunt"
+T161.14105968698277 3.5> word ___rt
+T161.14128614898073 word: ___rt
+T162.89748301997315 3.5> may .
+T162.89761539798928 may: 
+T163.398532444 3.5> *
+T163.3987195919908 select pattern r"[bdghj-nqt-w][bdghj-nqt-w][bdghj-nqt-w]rt"
+T168.37354719397263 3.5> word blurt
+T168.37383525099722 word: blurt
+T172.50987663399428 4.1> tried blurt
+T172.51001344699762 tried: blurt
+T175.04744259899599 4.2> no blur
+T175.04758895997657 nope: blru
+T177.20429279498057 4.2> word ____t
+T177.2045442549861 word: ____t
+T177.84394859397435 4.2> *
+T177.84425391198602 select pattern r"[ac-km-qstv-z][ac-km-qstv-z][ac-km-qstv-z][ac-km-qstv-z]t"
+T188.9857671939826 4.2> tried coast
+T188.98599765799008 tried: coast
+T192.5579796609818 4.3> no coas
+T192.55834489298286 nope: abclorsu
+T194.18336494499817 4.3> *
+T194.18357259198092 select pattern r"[d-kmnpqtv-z][d-kmnpqtv-z][d-kmnpqtv-z][d-kmnpqtv-z]t"
+T204.50034985598177 4.3> tried eight
+T204.50059036698076 tried: eight
+T206.17772680599592 4.4> word _ight
+T206.17790452297777 word: _ight
+T207.24624330899678 4.4> no e
+T207.24636721797287 nope: abcelorsu
+T207.88386873799027 4.4> *
+T207.88413739498355 select pattern r"[df-kmnpqtv-z]ight"
+T214.72984560398618 4.4> tried night
+T214.72991585099953 tried: night
+T216.2127709669876 4.5> no n
+T216.2130221069965 nope: abcelnorsu
+T216.87077791398042 4.5> *
+T216.87106340398896 select pattern r"[df-kmpqtv-z]ight"
+T226.4307794579945 4.5> tried might
+T226.43090176099213 tried: might
+T227.84864641798777 4.6> no m
+T227.84894830099074 nope: abcelmnorsu
+T228.45696409299853 4.6> *
+T228.4572131909954 select pattern r"[df-kpqtv-z]ight"
+T233.179529326997 4.6> word tight
+T233.1797359599732 word: tight
+T239.34199672398972 5.1> tried chunk
+T239.34219830599613 tried: chunk
+T241.75948565197177 5.2> tried razor
+T241.75955745700048 tried: razor
+T243.85724083299283 5.3> tried blurt
+T243.85764497698983 tried: blurt
+T246.25631303398404 5.4> tried tight
+T246.25654080798267 tried: tight
+T250.0452946269943 5.5> word _l
+T250.04539442699752 word: _l___
+T251.57688195598894 5.5> may . ag
+T251.57713991298806 may: ag
+T255.94443956000032 5.5> no rtuio hk zcbn
+T255.94456194597296 nope: bchiknortuz
+T256.6801912659721 5.5> *
+T256.68034583798726 select pattern r"alg[ad-gjlmpqsv-y][ad-gjlmpqsv-y]|gla[ad-gjlmpqsv-y][ad-gjlmpqsv-y]|al[ad-gjlmpqsv-y]g[ad-gjlmpqsv-y]|gl[ad-gjlmpqsv-y]a[ad-gjlmpqsv-y]|al[ad-gjlmpqsv-y][ad-gjlmpqsv-y]g|gl[ad-gjlmpqsv-y][ad-gjlmpqsv-y]a|[ad-gjlmpqsv-y]lag[ad-gjlmpqsv-y]|[ad-gjlmpqsv-y]lga[ad-gjlmpqsv-y]|[ad-gjlmpqsv-y]la[ad-gjlmpqsv-y]g|[ad-gjlmpqsv-y]lg[ad-gjlmpqsv-y]a|[ad-gjlmpqsv-y]l[ad-gjlmpqsv-y]ag|[ad-gjlmpqsv-y]l[ad-gjlmpqsv-y]ga"
+T256.68498916199314 skip tried "algae"
+T256.6850339129742 skip tried "algal"
+T256.6850678209739 skip tried "algas"
+T269.9422751889797 5.5> tried glade
+T269.94247122699744 tried: glade
+T271.4418834549724 5.6> word gla
+T271.4420993149979 word: gla__
+T272.55675889199483 5.6> no de
+T272.5569434609788 nope: bcdehiknortuz
+T274.19278910098365 5.6> may .
+T274.1930202249787 may: 
+T274.81345008898643 5.6> *
+T274.813540475996 select pattern r"gla[afgjlmpqsv-y][afgjlmpqsv-y]"
+T281.88429424198694 5.6> word glass
+T281.8846186789742 word: glass
+T285.023307535972 Press <Enter> to 📋 or `>` for line prompt 
+T285.0264359859866 result: "Hurdle 1134\n\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n6/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,600"
+T285.0271144969738 puzzle_id: #1134
+T285.02714184398064 <STOP>
