@@ -1,195 +1,181 @@
-# 2025-02-08
+# 2025-02-09
 
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1134 🥳 20 ⏱️ 0:04:45.027142
-- 🔗 squareword.org 🧩 #1104 🥳 12 ⏱️ 0:03:18.016988
-- 🔗 alphaguess.com 🧩 #564 🥳 17 ⏱️ 0:00:33.830578
-- 🔗 alfagok.diginaut.net 🧩 #98 🥳 18 ⏱️ 0:00:48.272890
-- 🔗 cemantle.certitudes.org 🧩 #1041 🥳 177 ⏱️ 0:10:56.185780
-- 🔗 cemantix.certitudes.org 🧩 #1074 🥳 127 ⏱️ 0:06:33.618079
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1135 🥳 19 ⏱️ 0:04:25.422372
+- 🔗 squareword.org 🧩 #1105 🥳 12 ⏱️ 0:02:40.593962
+- 🔗 alphaguess.com 🧩 #565 🥳 16 ⏱️ 0:00:32.765753
+- 🔗 alfagok.diginaut.net 🧩 #99 🥳 9 ⏱️ 0:00:26.474252
+- 🔗 cemantle.certitudes.org 🧩 #1042 🥳 409 ⏱️ 0:29:12.418315
+- 🔗 cemantix.certitudes.org 🧩 #1075 🥳 40 ⏱️ 0:02:36.412084
 
 - ❌
 - ✅
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1134 🥳 20
-- ✅ squareword.org 🧩 #1104 🥳 12
-- ✅ alphaguess.com 🧩 #564 🥳 17
-- ✅ alfagok.diginaut.net 🧩 #98 🥳 18
-- ✅ cemantle.certitudes.org 🧩 #1041 🥳 177
-- ✅ cemantix.certitudes.org 🧩 #1074 🥳 127
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1135 🥳 19
+- ✅ squareword.org 🧩 #1105 🥳 12
+- ✅ alphaguess.com 🧩 #565 🥳 16
+- ✅ alfagok.diginaut.net 🧩 #99 🥳 9
+- ✅ cemantle.certitudes.org 🧩 #1042 🥳 409
+- ✅ cemantix.certitudes.org 🧩 #1075 🥳 40
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$8cZIGj53ZclKGf5e3oaZfa9riwkF3nY7wM8TchvBEGc?via=aelf.land&via=matrix.org
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$MyUnOXZkp5OppHmR__beTfz8MOSFewm1o4CiBB0gOGg?via=aelf.land&via=matrix.org
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1134 🥳 20 ⏱️ 0:04:45.027142
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1135 🥳 19 ⏱️ 0:04:25.422372
 
 📜 1 sessions
-💰 score: 9600
+💰 score: 9700
 
-    3/6
-    > D R I V E
-      ⬜⬜⬜⬜⬜
-    > C L U M P
-      🟩⬜🟩⬜⬜
-    > C H U N K
+    5/6
+    > T H O R N
+      ⬜⬜🟩🟨⬜
+    > B R O I L
+      ⬜🟨🟩⬜⬜
+    > O D O U R
+      🟨⬜🟩⬜🟩
+    > S P O O R
+      ⬜⬜🟩🟨🟩
+    > W O O E R
       🟩🟩🟩🟩🟩
     4/6
-    > R O Y A L
+    > G L A N D
       ⬜⬜⬜⬜⬜
-    > R A D I O
-      🟩🟨⬜🟨⬜
-    > R A Z O R
-      🟩🟩⬜⬜🟨
-    > F I R S T
+    > F U C K S
+      ⬜⬜⬜⬜⬜
+    > T H U M P
+      ⬜🟨⬜⬜⬜
+    > M I C R O
       🟩🟩🟩🟩🟩
     5/6
-    > C R Y P T
-      🟨⬜⬜⬜⬜
-    > E X E R T
-      ⬜⬜🟨⬜🟩
-    > B L U R T
-      ⬜🟨⬜⬜🟩
-    > C O A S T
-      ⬜⬜⬜🟩🟩
-    > E I G H T
+    > A M O N G
+      ⬜⬜⬜🟨⬜
+    > W O M E N
+      🟨⬜⬜⬜🟨
+    > V E N O M
+      ⬜🟨🟨🟨⬜
+    > C L A I M
+      ⬜🟨🟨🟨🟨
+    > C H A R M
       🟩🟩🟩🟩🟩
-    6/6
-    > N I G H T
+    4/6
+    > C H A S M
       ⬜⬜⬜⬜🟩
-    > M I G H T
-      ⬜⬜⬜⬜🟩
-    > T I G H T
-      ⬜🟩🟩🟩🟩
-    > G L A D E
-      ⬜🟩🟩🟩🟩
-    > G L A S S
-      ⬜🟩🟩🟩🟩
+    > W R O T E
+      🟩⬜🟩⬜🟩
+      🟩🟩🟩⬜🟩
       🟩🟩🟩🟩🟩
-    Final 2/2
-      🟩🟩🟩⬜⬜
+    Final 1/2
       🟩🟩🟩🟩🟩
 
-# squareword.org 🧩 #1104 🥳 12 ⏱️ 0:03:18.016988
+# squareword.org 🧩 #1105 🥳 12 ⏱️ 0:02:40.593962
 
 📜 1 sessions
 
 Guesses:
-1. betel
 
 Score Heatmap:
-    🟨 🟩 🟧 🟩 🟨
+    🟩 🟩 🟩 🟩 🟩
     🟨 🟨 🟨 🟨 🟨
-    🟨 🟨 🟨 🟨 🟨
-    🟨 🟩 🟩 🟨 🟩
-    🟧 🟩 🟧 🟧 🟧
+    🟩 🟩 🟩 🟨 🟩
+    🟧 🟧 🟧 🟧 🟩
+    🟧 🟧 🟧 🟧 🟧
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    B E T E L
-    L A R V A
-    A G A I N
-    S L I C E
-    T E N T S
+    S C R U M
+    C L O N E
+    R E A D S
+    E A S E S
+    E N T R Y
 
-# alphaguess.com 🧩 #564 🥳 17 ⏱️ 0:00:33.830578
+# alphaguess.com 🧩 #565 🥳 16 ⏱️ 0:00:32.765753
 
-🤔 17 attempts
+🤔 16 attempts
 📜 1 sessions
 
-    @        [     0] aa              
-    @+1      [     1] aah             
-    @+2      [     2] aahed           
-    @+3      [     3] aahing          
-    @+98252  [ 98252] mach            q0  ? after
-    @+122817 [122817] parr            q2  ? after
-    @+135047 [135047] prop            q3  ? after
-    @+140556 [140556] rec             q4  ? after
-    @+142253 [142253] ref             q6  ? after
-    @+143088 [143088] rei             q7  ? after
-    @+143534 [143534] relapse         q8  ? after
-    @+143759 [143759] reload          q9  ? after
-    @+143863 [143863] remark          q10 ? after
-    @+143893 [143893] remate          q12 ? after
-    @+143903 [143903] remeasure       q13 ? after
-    @+143909 [143909] remediabilities q15 ? after
-    @+143912 [143912] remedial        q16 ? it
-    @+143912 [143912] remedial        done. it
-    @+143914 [143914] remediate       q14 ? before
-    @+143922 [143922] remediless      q11 ? before
-    @+143981 [143981] reminisce       q5  ? before
-    @+147417 [147417] rhumb           q1  ? before
+    @       [    0] aa         
+    @+1     [    1] aah        
+    @+2     [    2] aahed      
+    @+3     [    3] aahing     
+    @+47410 [47410] dis        q1  ? after
+    @+72831 [72831] gremolatas q2  ? after
+    @+79164 [79164] hood       q4  ? after
+    @+80749 [80749] hydroxy    q6  ? after
+    @+81540 [81540] iamb       q7  ? after
+    @+81616 [81616] ich        q10 ? after
+    @+81658 [81658] ick        q11 ? after
+    @+81663 [81663] ickily     q13 ? after
+    @+81666 [81666] icky       q15 ? it
+    @+81666 [81666] icky       done. it
+    @+81667 [81667] icon       q12 ? before
+    @+81709 [81709] idea       q9  ? before
+    @+81940 [81940] ignitions  q8  ? before
+    @+82341 [82341] immaterial q5  ? before
+    @+85536 [85536] ins        q3  ? before
+    @+98251 [98251] mach       q0  ? before
 
-# alfagok.diginaut.net 🧩 #98 🥳 18 ⏱️ 0:00:48.272890
+# alfagok.diginaut.net 🧩 #99 🥳 9 ⏱️ 0:00:26.474252
 
-🤔 18 attempts
+🤔 9 attempts
 📜 1 sessions
 
-    @        [     0] &-teken     
-    @+1      [     1] &-tekens    
-    @+2      [     2] -cijferig   
-    @+3      [     3] -e-mail     
-    @+199895 [199895] lij         q0  ? after
-    @+248562 [248562] op          q2  ? after
-    @+274373 [274373] proef       q3  ? after
-    @+280647 [280647] rechts      q5  ? after
-    @+281427 [281427] recreatie   q8  ? after
-    @+281575 [281575] red         q9  ? after
-    @+281584 [281584] redactie    q13 ? after
-    @+281609 [281609] redacties   q14 ? after
-    @+281627 [281627] redde       q15 ? after
-    @+281631 [281631] redden      q17 ? it
-    @+281631 [281631] redden      done. it
-    @+281634 [281634] redder      q16 ? before
-    @+281643 [281643] redding     q12 ? before
-    @+281738 [281738] rede        q11 ? before
-    @+281929 [281929] redzaamheid q10 ? before
-    @+282283 [282283] regel       q7  ? before
-    @+283958 [283958] rekrutering q6  ? before
-    @+287276 [287276] rijm        q4  ? before
-    @+300237 [300237] schrijn     q1  ? before
+    @        [     0] &-teken   
+    @+1      [     1] &-tekens  
+    @+2      [     2] -cijferig 
+    @+3      [     3] -e-mail   
+    @+199895 [199895] lij       q0 ? after
+    @+248562 [248562] op        q2 ? after
+    @+254967 [254967] out       q6 ? after
+    @+255154 [255154] over      q8 ? it
+    @+255154 [255154] over      done. it
+    @+257724 [257724] pa        q7 ? before
+    @+261449 [261449] pater     q4 ? before
+    @+274372 [274372] proef     q3 ? before
+    @+300236 [300236] schrijn   q1 ? before
 
-# cemantle.certitudes.org 🧩 #1041 🥳 177 ⏱️ 0:10:56.185780
+# cemantle.certitudes.org 🧩 #1042 🥳 409 ⏱️ 0:29:12.418315
 
-🤔 178 attempts
+🤔 410 attempts
 📜 1 sessions
-🫧 8 chat sessions
-⁉️ 46 chat prompts
-🤖 46 qwen2.5:7b replies
-🔥   1 🥵  14 😎  47 🥶 110 🧊   5
+🫧 14 chat sessions
+⁉️ 85 chat prompts
+🤖 28 gemma2:latest replies
+🤖 57 qwen2.5:7b replies
+🔥   3 🥵   7 😎  44 🥶 349 🧊   6
 
-      $1 #178   ~1 wrap         100.00°C 🥳 1000‰
-      $2 #167   ~5 unwrap        45.37°C 🔥  996‰
-      $3 #177   ~2 tie           40.31°C 🥵  989‰
-      $4  #54  ~51 loosen        39.71°C 🥵  987‰
-      $5  #40  ~57 seal          37.61°C 🥵  975‰
-      $6 #148   ~9 unpack        37.54°C 🥵  973‰
-      $7  #82  ~40 break         37.18°C 🥵  968‰
-      $8 #126  ~21 unfurl        36.48°C 🥵  960‰
-      $9  #97  ~34 unravel       34.95°C 🥵  946‰
-     $10 #105  ~29 flex          34.41°C 🥵  940‰
-     $11  #63  ~45 tighten       33.14°C 🥵  921‰
-     $17  #51  ~53 attach        32.19°C 😎  896‰
-     $64 #101      disassemble   22.40°C 🥶
-    $174 #132      position      -0.13°C 🧊
+      $1 #410   ~1 occasional       100.00°C 🥳 1000‰
+      $2 #395   ~2 infrequent        58.84°C 🔥  997‰
+      $3 #381   ~5 intermittent      53.26°C 🔥  996‰
+      $4 #386   ~4 sporadic          51.39°C 🔥  994‰
+      $5 #365  ~12 momentary         42.85°C 🥵  987‰
+      $6 #347  ~15 impromptu         40.17°C 🥵  976‰
+      $7 #318  ~18 oddball           38.35°C 🥵  969‰
+      $8 #370   ~9 fleeting          38.10°C 🥵  964‰
+      $9 #387   ~3 uncommon          37.90°C 🥵  961‰
+     $10 #211  ~41 amusing           35.72°C 🥵  923‰
+     $11 #256  ~32 droll             34.84°C 🥵  903‰
+     $12 #124  ~51 amiably           34.21°C 😎  873‰
+     $56 #246      knockabout        27.16°C 🥶
+    $405 #117      tender            -0.21°C 🧊
 
-# cemantix.certitudes.org 🧩 #1074 🥳 127 ⏱️ 0:06:33.618079
+# cemantix.certitudes.org 🧩 #1075 🥳 40 ⏱️ 0:02:36.412084
 
-🤔 128 attempts
+🤔 41 attempts
 📜 1 sessions
-🫧 5 chat sessions
-⁉️ 23 chat prompts
-🤖 23 qwen2.5:7b replies
-🥵  1 😎  9 🥶 82 🧊 35
+🫧 3 chat sessions
+⁉️ 12 chat prompts
+🤖 12 qwen2.5:7b replies
+🥵  3 😎  6 🥶 26 🧊  5
 
-      $1 #128   ~1 scandaleux       100.00°C 🥳 1000‰
-      $2 #126   ~2 scandale          55.17°C 🥵  986‰
-      $3 #108   ~8 chantage          40.62°C 😎  840‰
-      $4 #121   ~3 malversation      37.23°C 😎  713‰
-      $5  #75  ~10 lobby             36.27°C 😎  669‰
-      $6 #107   ~9 bidonnage         34.63°C 😎  590‰
-      $7  #18  ~11 gouvernement      31.57°C 😎  354‰
-      $8 #115   ~4 tricherie         31.45°C 😎  343‰
-      $9 #109   ~7 clientélisme      31.36°C 😎  325‰
-     $10 #113   ~5 racket            30.66°C 😎  256‰
-     $11 #112   ~6 népotisme         30.62°C 😎  248‰
-     $12 #111      favoritisme       28.77°C 🥶
-     $13  #83      voter             28.37°C 🥶
-     $94 #103      circonscription   -0.09°C 🧊
+     $1 #41  ~1 composition  100.00°C 🥳 1000‰
+     $2 #15  ~8 mélodie       36.35°C 🥵  974‰
+     $3 #34  ~5 tessiture     34.89°C 🥵  960‰
+     $4 #25  ~6 sonorité      32.92°C 🥵  920‰
+     $5 #21  ~7 partition     32.10°C 😎  898‰
+     $6 #40  ~2 polyphonie    31.95°C 😎  896‰
+     $7 #12  ~9 harmonie      31.90°C 😎  893‰
+     $8 #36  ~4 contrepoint   31.14°C 😎  865‰
+     $9 #38  ~3 dissonance    28.08°C 😎  696‰
+    $10  #6 ~10 musique       27.14°C 😎  606‰
+    $11 #22     orchestre     23.49°C 🥶
+    $12 #24     rythme        22.52°C 🥶
+    $13 #20     note          21.75°C 🥶
+    $37  #7     rivière       -1.24°C 🧊
