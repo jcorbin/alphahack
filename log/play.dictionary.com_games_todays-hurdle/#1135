@@ -1,0 +1,582 @@
+T0.00017780199414119124 now: 2025-02-09T09:44:47EST
+T0.00021865699090994895 site: https://play.dictionary.com/games/todays-hurdle
+T0.7007708410092164 1.1> *
+T0.7011386649974156 select pattern r"....."
+T6.77350745399599 1.1> tried thorn
+T6.773658316000365 tried: thorn
+T9.623567253001966 1.2> word __o
+T9.624073423008667 word: __o__
+T10.911263365997002 1.2> may r
+T10.911560028005624 may: r
+T12.127828288008459 1.2> no thn
+T12.128209640010027 nope: hnt
+T13.478629185003228 1.2> *
+T13.47913551700185 select pattern r"r[a-gi-mo-su-z]o[a-gi-mo-su-z][a-gi-mo-su-z]|[a-gi-mo-su-z]ro[a-gi-mo-su-z][a-gi-mo-su-z]|[a-gi-mo-su-z][a-gi-mo-su-z]or[a-gi-mo-su-z]|[a-gi-mo-su-z][a-gi-mo-su-z]o[a-gi-mo-su-z]r"
+T13.48342527000932 skip tried "adore"
+T13.484243004000746 skip tried "afore"
+T13.484618427988607 skip tried "agora"
+T13.494926729996223 skip tried "boors"
+T13.497494382987497 skip tried "ceorl"
+T13.501596156012965 skip tried "crore"
+T13.50438448600471 skip tried "doors"
+T13.50755443199887 skip tried "fiord"
+T13.50765181099996 skip tried "fjord"
+T13.507878747012 skip tried "flora"
+T13.5087626070017 skip tried "frore"
+T13.509729167999467 skip tried "glory"
+T13.514918058004696 skip tried "ivory"
+T13.514944043010473 skip tried "ixora"
+T13.519787097000517 skip tried "moors"
+T13.519792814011453 skip tried "moory"
+T13.522006951010553 skip tried "odors"
+T13.526412219012855 skip tried "poori"
+T13.529907243006164 skip tried "reorg"
+T13.533148613001686 skip tried "score"
+T13.535402470006375 skip tried "smorg"
+T13.536258504987927 skip tried "spore"
+T13.536263687012251 skip tried "spork"
+T13.538033585995436 skip tried "sword"
+T13.538043142994866 skip tried "swore"
+T22.17978626000695 1.2> tried broil
+T22.180020439991495 tried: broil
+T22.453544943011366 1.3> 
+T27.295307332009543 1.3> no bil
+T27.29565237800125 nope: bhilnt
+T29.34806199101149 1.3> *
+T29.348502559005283 select pattern r"r[ac-gjkmo-su-z]o[ac-gjkmo-su-z][ac-gjkmo-su-z]|[ac-gjkmo-su-z]ro[ac-gjkmo-su-z][ac-gjkmo-su-z]|[ac-gjkmo-su-z][ac-gjkmo-su-z]or[ac-gjkmo-su-z]|[ac-gjkmo-su-z][ac-gjkmo-su-z]o[ac-gjkmo-su-z]r"
+T29.353195786010474 skip tried "adore"
+T29.354239989013877 skip tried "afore"
+T29.354715791007038 skip tried "agora"
+T29.36054786501336 skip tried "aroma"
+T29.36058109399164 skip tried "arose"
+T29.370450140995672 skip tried "croak"
+T29.370467172004282 skip tried "crock"
+T29.37047499101027 skip tried "crocs"
+T29.37048453898751 skip tried "crook"
+T29.37049709499115 skip tried "crops"
+T29.370502965000924 skip tried "crore"
+T29.370507045998238 skip tried "cross"
+T29.37054209501366 skip tried "croup"
+T29.37055242000497 skip tried "crowd"
+T29.370566268014954 skip tried "crows"
+T29.37057086301502 skip tried "croze"
+T29.37327545401058 skip tried "doors"
+T29.373539430001983 skip tried "droke"
+T29.373552550008753 skip tried "droop"
+T29.37356596501195 skip tried "drops"
+T29.373575141013134 skip tried "dross"
+T29.37358121399302 skip tried "drouk"
+T29.37358669101377 skip tried "drove"
+T29.37497524599894 skip tried "erode"
+T29.37498223199509 skip tried "erose"
+T29.376466734014684 skip tried "fjord"
+T29.377319819002878 skip tried "frock"
+T29.377324792003492 skip tried "froes"
+T29.37733479400049 skip tried "frogs"
+T29.377358236000873 skip tried "frore"
+T29.377379807003308 skip tried "frows"
+T29.377387199987425 skip tried "froze"
+T29.3788413410075 skip tried "grody"
+T29.37884776899591 skip tried "grogs"
+T29.37885330399149 skip tried "groks"
+T29.378858120995574 skip tried "groom"
+T29.378866134007694 skip tried "grope"
+T29.378872275003232 skip tried "gross"
+T29.378878810006427 skip tried "grosz"
+T29.378903928998625 skip tried "group"
+T29.378915929992218 skip tried "grove"
+T29.378923704003682 skip tried "grovy"
+T29.378934718988603 skip tried "grows"
+T29.39054327699705 skip tried "moors"
+T29.390584556007525 skip tried "moory"
+T29.393148219009163 skip tried "odors"
+T29.399045873986324 skip tried "proas"
+T29.39918361400487 skip tried "prods"
+T29.39920038598939 skip tried "proem"
+T29.399256986012915 skip tried "profs"
+T29.399310486012837 skip tried "progs"
+T29.399389574013185 skip tried "promo"
+T29.39940925000701 skip tried "proms"
+T29.399458998988848 skip tried "proof"
+T29.399589531996753 skip tried "props"
+T29.399628648010548 skip tried "prose"
+T29.399667455989402 skip tried "proso"
+T29.399696885986486 skip tried "pross"
+T29.39973438900779 skip tried "prosy"
+T29.39987088998896 skip tried "proud"
+T29.399883865000447 skip tried "prove"
+T29.399938385991845 skip tried "prows"
+T29.39994989699335 skip tried "proxy"
+T29.4027057409985 skip tried "reorg"
+T29.40476746400236 skip tried "score"
+T29.406603162991814 skip tried "smorg"
+T29.407486242009327 skip tried "spore"
+T29.407491707999725 skip tried "spork"
+T29.409321003011428 skip tried "sword"
+T29.4093304759881 skip tried "swore"
+T29.414029334002407 skip tried "vroom"
+T29.41404347101343 skip tried "vrouw"
+T29.414049760001944 skip tried "vrows"
+T38.83562803501263 1.3> tried odour
+T38.83569443100714 tried: odour
+T40.690244083001744 1.4> word __o_r
+T40.69058172299992 word: __o_r
+T43.63800051799626 1.4> no du
+T43.63810130499769 nope: bdhilntu
+T45.1527395430021 1.4> may . o
+T45.15305362798972 may: o
+T46.01180012000259 1.4> *
+T46.01190842100186 select pattern r"o[ace-gjkmo-sv-z]o[ace-gjkmo-sv-z]r|[ace-gjkmo-sv-z]oo[ace-gjkmo-sv-z]r|[ace-gjkmo-sv-z][ace-gjkmo-sv-z]oor"
+T46.02428942901315 skip tried "cooer"
+T46.059415083000204 skip tried "spoor"
+T46.067613338003866 skip tried "wooer"
+T48.549083543999586 1.4> *
+T48.54935171001125 select pattern r"o[ace-gjkmo-sv-z]o[ace-gjkmo-sv-z]r|[ace-gjkmo-sv-z]oo[ace-gjkmo-sv-z]r|[ace-gjkmo-sv-z][ace-gjkmo-sv-z]oor"
+T48.569577810005285 skip tried "cooer"
+T48.6037516570068 skip tried "spoor"
+T48.610958152014064 skip tried "wooer"
+T57.624241009994876 1.4> may .
+T57.62445394700626 may: 
+T58.0677198379999 1.4> *
+T58.067935514991404 select pattern r"[ace-gjkmo-sv-z][ace-gjkmo-sv-z]o[ace-gjkmo-sv-z]r"
+T68.20472418199643 1.4> tried spoor
+T68.20498765801312 tried: spoor
+T71.9783914659929 1.5> no sp
+T71.97871940900222 nope: bdhilnpstu
+T72.49687603101484 1.5> *
+T72.49713733998942 select pattern r"[ace-gjkmoqrv-z][ace-gjkmoqrv-z]o[ace-gjkmoqrv-z]r"
+T82.16451736100134 1.5> word wooer
+T82.16471932799323 word: wooer
+T86.43234450599994 2.1> tried wooer
+T86.43254456299474 tried: wooer
+T88.0371852919925 2.2> no woer
+T88.03744681901298 nope: eorw
+T88.88461555101094 2.2> *
+T88.88485796301393 select pattern r"[a-df-npqs-vx-z][a-df-npqs-vx-z][a-df-npqs-vx-z][a-df-npqs-vx-z][a-df-npqs-vx-z]"
+T95.08593209899846 2.2> tried gland
+T95.08615285699489 tried: gland
+T96.04272130600293 2.3> no gland
+T96.04300568101462 nope: adeglnorw
+T99.06333108601393 2.3> *
+T99.06350239200401 select pattern r"[bcfh-kmpqs-vx-z][bcfh-kmpqs-vx-z][bcfh-kmpqs-vx-z][bcfh-kmpqs-vx-z][bcfh-kmpqs-vx-z]"
+T106.42786275499384 2.3> tried fucks
+T106.42806539300364 tried: fucks
+T108.61657607500092 2.4> no fcks
+T108.61685719998786 nope: acdefgklnorsw
+T109.66506382598891 2.4> may u
+T109.66521027201088 may: u
+T110.12730621400988 2.4> (*
+T110.93525117699755 2.4> *
+T110.93564840400359 select pattern r"u[bh-jmpqt-vx-z][bh-jmpqt-vx-z][bh-jmpqt-vx-z][bh-jmpqt-vx-z]|[bh-jmpqt-vx-z]u[bh-jmpqt-vx-z][bh-jmpqt-vx-z][bh-jmpqt-vx-z]|[bh-jmpqt-vx-z][bh-jmpqt-vx-z]u[bh-jmpqt-vx-z][bh-jmpqt-vx-z]|[bh-jmpqt-vx-z][bh-jmpqt-vx-z][bh-jmpqt-vx-z]u[bh-jmpqt-vx-z]|[bh-jmpqt-vx-z][bh-jmpqt-vx-z][bh-jmpqt-vx-z][bh-jmpqt-vx-z]u"
+T110.95090014199377 skip tried "bubby"
+T110.95109711500118 skip tried "bumph"
+T110.95110900700092 skip tried "bumpy"
+T110.95114659200772 skip tried "buppy"
+T110.95129727799213 skip tried "butty"
+T110.95130120500107 skip tried "butut"
+T110.95132572800503 skip tried "buzzy"
+T110.96506485101418 skip tried "hubby"
+T110.96517621100065 skip tried "humph"
+T110.96518566599116 skip tried "humpy"
+T110.96928464100347 skip tried "jumpy"
+T110.96933570399415 skip tried "jutty"
+T110.97386460599955 skip tried "mummy"
+T110.97402011099621 skip tried "muzzy"
+T110.98096225201152 skip tried "puppy"
+T110.98107636498753 skip tried "putti"
+T110.98108331800904 skip tried "putty"
+T110.98128640299547 skip tried "qubit"
+T110.98138850400574 skip tried "quipu"
+T110.99227362399688 skip tried "tubby"
+T110.99233950400958 skip tried "tummy"
+T110.99245680798776 skip tried "tutti"
+T110.99246843598667 skip tried "tutty"
+T110.99627289600903 skip tried "yummy"
+T110.99628141798894 skip tried "yuppy"
+T110.99644251400605 skip tried "zuzim"
+T118.5427268309868 2.4> word thump
+T118.54307307500858 word: thump
+T128.96074122199207 3.1> tried thump
+T128.96089437798946 tried: thump
+T131.6395300849981 3.2> no thup
+T131.63982094201492 nope: hptu
+T132.67615031599416 3.2> may m
+T132.67641700600507 may: m
+T133.15107095701387 3.2> *
+T133.151676879992 select pattern r"m[a-gi-oq-sv-z][a-gi-oq-sv-z][a-gi-oq-sv-z][a-gi-oq-sv-z]|[a-gi-oq-sv-z]m[a-gi-oq-sv-z][a-gi-oq-sv-z][a-gi-oq-sv-z]|[a-gi-oq-sv-z][a-gi-oq-sv-z]m[a-gi-oq-sv-z][a-gi-oq-sv-z]|[a-gi-oq-sv-z][a-gi-oq-sv-z][a-gi-oq-sv-z]m[a-gi-oq-sv-z]|[a-gi-oq-sv-z][a-gi-oq-sv-z][a-gi-oq-sv-z][a-gi-oq-sv-z]m"
+T133.15336310199928 skip tried "aboma"
+T133.1565887980105 skip tried "agama"
+T133.15740186200128 skip tried "alamo"
+T133.1595611530065 skip tried "anima"
+T133.1596092430118 skip tried "anime"
+T133.15961718800827 skip tried "animi"
+T133.1597655969963 skip tried "anomy"
+T133.16085988099803 skip tried "arame"
+T133.16117406598642 skip tried "aroma"
+T133.1627137089963 skip tried "balms"
+T133.1627214240143 skip tried "balmy"
+T133.1631162269914 skip tried "barms"
+T133.16312072600704 skip tried "barmy"
+T133.16337262900197 skip tried "beams"
+T133.16337988901068 skip tried "beamy"
+T133.16386120399693 skip tried "berme"
+T133.1638668430096 skip tried "berms"
+T133.16426495701307 skip tried "biome"
+T133.1644725750084 skip tried "blame"
+T133.1644805780088 skip tried "blams"
+T133.16456284400192 skip tried "blimy"
+T133.16494296101155 skip tried "booms"
+T133.16494744998636 skip tried "boomy"
+T133.16541678700014 skip tried "brims"
+T133.16550048900535 skip tried "brome"
+T133.16551355400588 skip tried "bromo"
+T133.1663710080029 skip tried "calms"
+T133.16881646300317 skip tried "clams"
+T133.16906315099914 skip tried "climb"
+T133.16907329901005 skip tried "clime"
+T133.16915146898828 skip tried "clomb"
+T133.1699917410151 skip tried "comma"
+T133.17008617700776 skip tried "commo"
+T133.1701051130076 skip tried "comms"
+T133.17013255300117 skip tried "commy"
+T133.17081836800207 skip tried "coomb"
+T133.1709610199905 skip tried "corms"
+T133.171136732999 skip tried "cosmo"
+T133.17145947099198 skip tried "crams"
+T133.17156526100007 skip tried "creme"
+T133.17162026901497 skip tried "crime"
+T133.17276731898892 skip tried "deems"
+T133.1734139439941 skip tried "derma"
+T133.17342687401106 skip tried "derms"
+T133.17442095599836 skip tried "disme"
+T133.1747701659915 skip tried "dogma"
+T133.17480988800526 skip tried "dolma"
+T133.17488613599562 skip tried "dooms"
+T133.17489222600125 skip tried "doomy"
+T133.1749247070111 skip tried "dorms"
+T133.17492802199558 skip tried "dormy"
+T133.1751257260039 skip tried "drama"
+T133.17513902499923 skip tried "drams"
+T133.1756881659967 skip tried "edema"
+T133.17591226799414 skip tried "elemi"
+T133.17640741699142 skip tried "enema"
+T133.1764117470011 skip tried "enemy"
+T133.17729498600238 skip tried "exams"
+T133.17745189901325 skip tried "exome"
+T133.177930025995 skip tried "farms"
+T133.1781890639977 skip tried "femme"
+T133.17822578799678 skip tried "fermi"
+T133.17844267800683 skip tried "filmi"
+T133.178451373009 skip tried "films"
+T133.17845702898921 skip tried "filmy"
+T133.17857015901245 skip tried "firms"
+T133.17866431199946 skip tried "flame"
+T133.1786775770015 skip tried "flams"
+T133.1786807749886 skip tried "flamy"
+T133.17903438399662 skip tried "foams"
+T133.17903870198643 skip tried "foamy"
+T133.17933585200808 skip tried "forme"
+T133.17934692298877 skip tried "forms"
+T133.17946611400112 skip tried "frame"
+T133.17955339400214 skip tried "fremd"
+T133.18011184799252 skip tried "gamma"
+T133.1801200649934 skip tried "gammy"
+T133.18035322299693 skip tried "gemma"
+T133.1803627590125 skip tried "gemmy"
+T133.18051209000987 skip tried "germs"
+T133.18051549998927 skip tried "germy"
+T133.18062810899573 skip tried "gimme"
+T133.1806758689927 skip tried "gismo"
+T133.18068694300018 skip tried "gizmo"
+T133.18072780800867 skip tried "glams"
+T133.18078528001206 skip tried "glime"
+T133.18080077000195 skip tried "glims"
+T133.1808561880025 skip tried "gloms"
+T133.18097008400946 skip tried "gnome"
+T133.18116343999282 skip tried "gorms"
+T133.18124863601406 skip tried "grama"
+T133.18126240899437 skip tried "grams"
+T133.18147318900446 skip tried "grime"
+T133.18148098498932 skip tried "grimy"
+T133.18426140601514 skip tried "imams"
+T133.18632373798755 skip tried "jammy"
+T133.18641299099545 skip tried "jemmy"
+T133.18647717000567 skip tried "jimmy"
+T133.186496609007 skip tried "jisms"
+T133.1867853679869 skip tried "karma"
+T133.18724574201042 skip tried "korma"
+T133.1879024330119 skip tried "lemma"
+T133.18848294898635 skip tried "llama"
+T133.18849559000228 skip tried "loams"
+T133.18849877698813 skip tried "loamy"
+T133.1886660119926 skip tried "looms"
+T133.18915695900796 skip tried "magma"
+T133.18923266700585 skip tried "maims"
+T133.1893634129956 skip tried "malms"
+T133.18936749000568 skip tried "malmy"
+T133.1894153149915 skip tried "mamma"
+T133.18943518199376 skip tried "mammy"
+T133.19196631599334 skip tried "momma"
+T133.19197146198712 skip tried "mommy"
+T133.1929230260139 skip tried "myoma"
+T133.1932596040133 skip tried "neems"
+T133.19419463499798 skip tried "norms"
+T133.19466587199713 skip tried "ogams"
+T133.19616518501425 skip tried "oxime"
+T133.19617044599727 skip tried "oxims"
+T133.20079005599837 skip tried "rammy"
+T133.2010676949867 skip tried "reams"
+T133.20238843301195 skip tried "regma"
+T133.20442246898892 skip tried "roams"
+T133.20454409200465 skip tried "rooms"
+T133.2045477789943 skip tried "roomy"
+T133.20501743699424 skip tried "salmi"
+T133.20540836299188 skip tried "scams"
+T133.2058649380051 skip tried "seams"
+T133.2058694610023 skip tried "seamy"
+T133.20600761999958 skip tried "seems"
+T133.2071597329923 skip tried "sigma"
+T133.20739114598837 skip tried "sixmo"
+T133.20751545298845 skip tried "skims"
+T133.2076300960034 skip tried "slams"
+T133.20773461600766 skip tried "slime"
+T133.207747982 skip tried "slims"
+T133.2077536919969 skip tried "slimy"
+T133.2078142609971 skip tried "slomo"
+T133.21129032800673 skip tried "swami"
+T133.2112992730108 skip tried "swamy"
+T133.21138132800115 skip tried "swims"
+T133.21664683701238 skip tried "warms"
+T133.2176492580038 skip tried "worms"
+T133.21765809800127 skip tried "wormy"
+T133.21798131000833 skip tried "ylems"
+T133.21824832400307 skip tried "zooms"
+T142.56014520200551 3.2> tried micro
+T142.56025376700563 tried: micro
+T145.33468518601148 3.3> no icr
+T145.33500598499086 nope: chiprtu
+T146.9117634750146 3.3> may mo
+T146.9119828279945 may: mo
+T147.47252515598666 3.3> *
+T147.47285557800205 select pattern r"mo[abd-gj-oqsv-z][abd-gj-oqsv-z][abd-gj-oqsv-z]|om[abd-gj-oqsv-z][abd-gj-oqsv-z][abd-gj-oqsv-z]|m[abd-gj-oqsv-z]o[abd-gj-oqsv-z][abd-gj-oqsv-z]|o[abd-gj-oqsv-z]m[abd-gj-oqsv-z][abd-gj-oqsv-z]|m[abd-gj-oqsv-z][abd-gj-oqsv-z]o[abd-gj-oqsv-z]|o[abd-gj-oqsv-z][abd-gj-oqsv-z]m[abd-gj-oqsv-z]|m[abd-gj-oqsv-z][abd-gj-oqsv-z][abd-gj-oqsv-z]o|o[abd-gj-oqsv-z][abd-gj-oqsv-z][abd-gj-oqsv-z]m|[abd-gj-oqsv-z]mo[abd-gj-oqsv-z][abd-gj-oqsv-z]|[abd-gj-oqsv-z]om[abd-gj-oqsv-z][abd-gj-oqsv-z]|[abd-gj-oqsv-z]m[abd-gj-oqsv-z]o[abd-gj-oqsv-z]|[abd-gj-oqsv-z]o[abd-gj-oqsv-z]m[abd-gj-oqsv-z]|[abd-gj-oqsv-z]m[abd-gj-oqsv-z][abd-gj-oqsv-z]o|[abd-gj-oqsv-z]o[abd-gj-oqsv-z][abd-gj-oqsv-z]m|[abd-gj-oqsv-z][abd-gj-oqsv-z]mo[abd-gj-oqsv-z]|[abd-gj-oqsv-z][abd-gj-oqsv-z]om[abd-gj-oqsv-z]|[abd-gj-oqsv-z][abd-gj-oqsv-z]m[abd-gj-oqsv-z]o|[abd-gj-oqsv-z][abd-gj-oqsv-z]o[abd-gj-oqsv-z]m|[abd-gj-oqsv-z][abd-gj-oqsv-z][abd-gj-oqsv-z]mo|[abd-gj-oqsv-z][abd-gj-oqsv-z][abd-gj-oqsv-z]om"
+T147.47667461799574 skip tried "aboma"
+T147.47986095500528 skip tried "alamo"
+T147.48170601201127 skip tried "anomy"
+T147.48803232199862 skip tried "booms"
+T147.4880464739981 skip tried "boomy"
+T147.49747439101338 skip tried "dogma"
+T147.49752687400905 skip tried "dolma"
+T147.49762507798732 skip tried "dooms"
+T147.49763312499272 skip tried "doomy"
+T147.50135852899984 skip tried "exome"
+T147.50416491099168 skip tried "foams"
+T147.50417047200608 skip tried "foamy"
+T147.50638912498835 skip tried "gloms"
+T147.50653652200708 skip tried "gnome"
+T147.5066597900004 skip tried "gombo"
+T147.5146698979952 skip tried "loams"
+T147.51467520199367 skip tried "loamy"
+T147.51490034200833 skip tried "looms"
+T147.51558284499333 skip tried "makos"
+T147.51569185600965 skip tried "mambo"
+T147.51578675501514 skip tried "mango"
+T147.51585950999288 skip tried "manos"
+T147.51613327598898 skip tried "mason"
+T147.51638297899626 skip tried "mayos"
+T147.51682296401123 skip tried "melon"
+T147.5168935059919 skip tried "memos"
+T147.5170117430098 skip tried "meows"
+T147.5171880830021 skip tried "meson"
+T147.51753585299593 skip tried "mezzo"
+T147.51927369800978 skip tried "moans"
+T147.51932739000767 skip tried "modal"
+T147.51934041900677 skip tried "model"
+T147.5193525410141 skip tried "modem"
+T147.519386400003 skip tried "modes"
+T147.51943026098888 skip tried "mofos"
+T147.51943759201095 skip tried "moggy"
+T147.51947962699342 skip tried "mojos"
+T147.51948490500217 skip tried "mokes"
+T147.5194915799948 skip tried "molal"
+T147.5195000449894 skip tried "molas"
+T147.51951603998896 skip tried "molds"
+T147.5195211209939 skip tried "moldy"
+T147.51952950601117 skip tried "moles"
+T147.51954745000694 skip tried "molls"
+T147.5195575520047 skip tried "molly"
+T147.5195760919887 skip tried "molys"
+T147.519591727003 skip tried "momes"
+T147.51959818901378 skip tried "momma"
+T147.51960427701124 skip tried "mommy"
+T147.5196171439893 skip tried "monad"
+T147.51964117999887 skip tried "monas"
+T147.51965450600255 skip tried "monde"
+T147.51966063299915 skip tried "mondo"
+T147.5196834350063 skip tried "money"
+T147.5197048370028 skip tried "mongo"
+T147.5197571160097 skip tried "monks"
+T147.51998372201342 skip tried "monos"
+T147.52010965600493 skip tried "moods"
+T147.52011652401416 skip tried "moody"
+T147.5201237339934 skip tried "mooed"
+T147.5201312470017 skip tried "mooks"
+T147.52013737199013 skip tried "moola"
+T147.52014690299984 skip tried "mools"
+T147.5201904650021 skip tried "moons"
+T147.5202142460039 skip tried "moony"
+T147.52023425899097 skip tried "moose"
+T147.52044362400193 skip tried "mosey"
+T147.52045841899235 skip tried "mosks"
+T147.52047625998966 skip tried "mosso"
+T147.5204832490126 skip tried "mossy"
+T147.52072690200293 skip tried "moved"
+T147.5207378169871 skip tried "moves"
+T147.52075581700774 skip tried "mowed"
+T147.52076421899255 skip tried "moxas"
+T147.52077387299505 skip tried "mozos"
+T147.52145483001368 skip tried "myoma"
+T147.52374168499955 skip tried "ogams"
+T147.53452003799612 skip tried "sambo"
+T147.53839590999996 skip tried "slomo"
+T147.55049744198914 skip tried "zooms"
+T153.063830641011 3.3> tried among
+T153.0640264310059 tried: among
+T154.52733747201273 3.4> no ag
+T154.5274274669937 nope: acghiprtu
+T156.48763291101204 3.4> man mon
+T157.00357557099778 3.4> *
+T157.00383761400008 select pattern r"mo[bd-fj-oqsv-z][bd-fj-oqsv-z][bd-fj-oqsv-z]|om[bd-fj-oqsv-z][bd-fj-oqsv-z][bd-fj-oqsv-z]|m[bd-fj-oqsv-z]o[bd-fj-oqsv-z][bd-fj-oqsv-z]|o[bd-fj-oqsv-z]m[bd-fj-oqsv-z][bd-fj-oqsv-z]|m[bd-fj-oqsv-z][bd-fj-oqsv-z]o[bd-fj-oqsv-z]|o[bd-fj-oqsv-z][bd-fj-oqsv-z]m[bd-fj-oqsv-z]|m[bd-fj-oqsv-z][bd-fj-oqsv-z][bd-fj-oqsv-z]o|o[bd-fj-oqsv-z][bd-fj-oqsv-z][bd-fj-oqsv-z]m|[bd-fj-oqsv-z]mo[bd-fj-oqsv-z][bd-fj-oqsv-z]|[bd-fj-oqsv-z]om[bd-fj-oqsv-z][bd-fj-oqsv-z]|[bd-fj-oqsv-z]m[bd-fj-oqsv-z]o[bd-fj-oqsv-z]|[bd-fj-oqsv-z]o[bd-fj-oqsv-z]m[bd-fj-oqsv-z]|[bd-fj-oqsv-z]m[bd-fj-oqsv-z][bd-fj-oqsv-z]o|[bd-fj-oqsv-z]o[bd-fj-oqsv-z][bd-fj-oqsv-z]m|[bd-fj-oqsv-z][bd-fj-oqsv-z]mo[bd-fj-oqsv-z]|[bd-fj-oqsv-z][bd-fj-oqsv-z]om[bd-fj-oqsv-z]|[bd-fj-oqsv-z][bd-fj-oqsv-z]m[bd-fj-oqsv-z]o|[bd-fj-oqsv-z][bd-fj-oqsv-z]o[bd-fj-oqsv-z]m|[bd-fj-oqsv-z][bd-fj-oqsv-z][bd-fj-oqsv-z]mo|[bd-fj-oqsv-z][bd-fj-oqsv-z][bd-fj-oqsv-z]om"
+T157.01647597600822 skip tried "bloom"
+T157.01709050600766 skip tried "booms"
+T157.0171096539998 skip tried "boomy"
+T157.02789839199977 skip tried "dooms"
+T157.02792024600785 skip tried "doomy"
+T157.0293399989896 skip tried "embow"
+T157.03103119600564 skip tried "exome"
+T157.04250076200697 skip tried "looms"
+T157.04416062499513 skip tried "melon"
+T157.04420354298782 skip tried "memos"
+T157.04428203200223 skip tried "meows"
+T157.0444052510138 skip tried "meson"
+T157.04464568098774 skip tried "mezzo"
+T157.0457593809988 skip tried "model"
+T157.04576818298665 skip tried "modem"
+T157.04579295500298 skip tried "modes"
+T157.04582284399658 skip tried "mofos"
+T157.04585422598757 skip tried "mojos"
+T157.04585758098983 skip tried "mokes"
+T157.04587228101445 skip tried "molds"
+T157.04587663701386 skip tried "moldy"
+T157.0458833189914 skip tried "moles"
+T157.0458967369923 skip tried "molls"
+T157.0459052869992 skip tried "molly"
+T157.0459198569879 skip tried "molys"
+T157.04593074601144 skip tried "momes"
+T157.04593658298836 skip tried "mommy"
+T157.045965761994 skip tried "monde"
+T157.0459703390079 skip tried "mondo"
+T157.0459863030119 skip tried "money"
+T157.0460361269943 skip tried "monks"
+T157.04615625701263 skip tried "monos"
+T157.04621917998884 skip tried "moods"
+T157.04622239200398 skip tried "moody"
+T157.04622543801088 skip tried "mooed"
+T157.04622919499525 skip tried "mooks"
+T157.04623494000407 skip tried "mools"
+T157.0462605000066 skip tried "moons"
+T157.04627526100376 skip tried "moony"
+T157.0462872890057 skip tried "moose"
+T157.04642168499413 skip tried "mosey"
+T157.04642999800853 skip tried "mosks"
+T157.04644177900627 skip tried "mosso"
+T157.04644557001302 skip tried "mossy"
+T157.0465920419956 skip tried "moved"
+T157.04659872499178 skip tried "moves"
+T157.04661025298992 skip tried "mowed"
+T157.0466192140011 skip tried "mozos"
+T157.0494279990089 skip tried "omens"
+T157.0625147529936 skip tried "slomo"
+T157.06268280101358 skip tried "smoke"
+T157.0626978900109 skip tried "smoky"
+T157.074000143999 skip tried "zooms"
+T158.4503368609876 3.4> may mon
+T158.45046917401487 may: mno
+T159.35537425501388 3.4> *
+T159.35574519899092 select pattern r"mno[bd-fj-oqsv-z][bd-fj-oqsv-z]|mon[bd-fj-oqsv-z][bd-fj-oqsv-z]|nmo[bd-fj-oqsv-z][bd-fj-oqsv-z]|nom[bd-fj-oqsv-z][bd-fj-oqsv-z]|omn[bd-fj-oqsv-z][bd-fj-oqsv-z]|onm[bd-fj-oqsv-z][bd-fj-oqsv-z]|mn[bd-fj-oqsv-z]o[bd-fj-oqsv-z]|mo[bd-fj-oqsv-z]n[bd-fj-oqsv-z]|nm[bd-fj-oqsv-z]o[bd-fj-oqsv-z]|no[bd-fj-oqsv-z]m[bd-fj-oqsv-z]|om[bd-fj-oqsv-z]n[bd-fj-oqsv-z]|on[bd-fj-oqsv-z]m[bd-fj-oqsv-z]|mn[bd-fj-oqsv-z][bd-fj-oqsv-z]o|mo[bd-fj-oqsv-z][bd-fj-oqsv-z]n|nm[bd-fj-oqsv-z][bd-fj-oqsv-z]o|no[bd-fj-oqsv-z][bd-fj-oqsv-z]m|om[bd-fj-oqsv-z][bd-fj-oqsv-z]n|on[bd-fj-oqsv-z][bd-fj-oqsv-z]m|m[bd-fj-oqsv-z]no[bd-fj-oqsv-z]|m[bd-fj-oqsv-z]on[bd-fj-oqsv-z]|n[bd-fj-oqsv-z]mo[bd-fj-oqsv-z]|n[bd-fj-oqsv-z]om[bd-fj-oqsv-z]|o[bd-fj-oqsv-z]mn[bd-fj-oqsv-z]|o[bd-fj-oqsv-z]nm[bd-fj-oqsv-z]|m[bd-fj-oqsv-z]n[bd-fj-oqsv-z]o|m[bd-fj-oqsv-z]o[bd-fj-oqsv-z]n|n[bd-fj-oqsv-z]m[bd-fj-oqsv-z]o|n[bd-fj-oqsv-z]o[bd-fj-oqsv-z]m|o[bd-fj-oqsv-z]m[bd-fj-oqsv-z]n|o[bd-fj-oqsv-z]n[bd-fj-oqsv-z]m|m[bd-fj-oqsv-z][bd-fj-oqsv-z]no|m[bd-fj-oqsv-z][bd-fj-oqsv-z]on|n[bd-fj-oqsv-z][bd-fj-oqsv-z]mo|n[bd-fj-oqsv-z][bd-fj-oqsv-z]om|o[bd-fj-oqsv-z][bd-fj-oqsv-z]mn|o[bd-fj-oqsv-z][bd-fj-oqsv-z]nm|[bd-fj-oqsv-z]mno[bd-fj-oqsv-z]|[bd-fj-oqsv-z]mon[bd-fj-oqsv-z]|[bd-fj-oqsv-z]nmo[bd-fj-oqsv-z]|[bd-fj-oqsv-z]nom[bd-fj-oqsv-z]|[bd-fj-oqsv-z]omn[bd-fj-oqsv-z]|[bd-fj-oqsv-z]onm[bd-fj-oqsv-z]|[bd-fj-oqsv-z]mn[bd-fj-oqsv-z]o|[bd-fj-oqsv-z]mo[bd-fj-oqsv-z]n|[bd-fj-oqsv-z]nm[bd-fj-oqsv-z]o|[bd-fj-oqsv-z]no[bd-fj-oqsv-z]m|[bd-fj-oqsv-z]om[bd-fj-oqsv-z]n|[bd-fj-oqsv-z]on[bd-fj-oqsv-z]m|[bd-fj-oqsv-z]m[bd-fj-oqsv-z]no|[bd-fj-oqsv-z]m[bd-fj-oqsv-z]on|[bd-fj-oqsv-z]n[bd-fj-oqsv-z]mo|[bd-fj-oqsv-z]n[bd-fj-oqsv-z]om|[bd-fj-oqsv-z]o[bd-fj-oqsv-z]mn|[bd-fj-oqsv-z]o[bd-fj-oqsv-z]nm|[bd-fj-oqsv-z][bd-fj-oqsv-z]mno|[bd-fj-oqsv-z][bd-fj-oqsv-z]mon|[bd-fj-oqsv-z][bd-fj-oqsv-z]nmo|[bd-fj-oqsv-z][bd-fj-oqsv-z]nom|[bd-fj-oqsv-z][bd-fj-oqsv-z]omn|[bd-fj-oqsv-z][bd-fj-oqsv-z]onm"
+T159.41719158299384 skip tried "melon"
+T159.41757682801108 skip tried "meson"
+T159.4200983470073 skip tried "monde"
+T159.4201068019902 skip tried "mondo"
+T159.4201279330009 skip tried "money"
+T159.4202050610038 skip tried "monks"
+T159.42037437399267 skip tried "monos"
+T159.42050085499068 skip tried "moons"
+T159.42052022001008 skip tried "moony"
+T159.42538709798828 skip tried "omens"
+T165.8862027869909 3.4> tried women
+T165.8864464930084 tried: women
+T167.54283627899713 3.5> no w
+T167.5430213070067 nope: acghiprtuw
+T170.5319943340146 3.5> may . omen
+T170.5322487789963 may: emno
+T171.53064783100854 3.5> *
+T171.53118517799885 select pattern r"emno[bd-fj-oqsvx-z]|emon[bd-fj-oqsvx-z]|enmo[bd-fj-oqsvx-z]|enom[bd-fj-oqsvx-z]|eomn[bd-fj-oqsvx-z]|eonm[bd-fj-oqsvx-z]|meno[bd-fj-oqsvx-z]|meon[bd-fj-oqsvx-z]|mneo[bd-fj-oqsvx-z]|mnoe[bd-fj-oqsvx-z]|moen[bd-fj-oqsvx-z]|mone[bd-fj-oqsvx-z]|nemo[bd-fj-oqsvx-z]|neom[bd-fj-oqsvx-z]|nmeo[bd-fj-oqsvx-z]|nmoe[bd-fj-oqsvx-z]|noem[bd-fj-oqsvx-z]|nome[bd-fj-oqsvx-z]|oemn[bd-fj-oqsvx-z]|oenm[bd-fj-oqsvx-z]|omen[bd-fj-oqsvx-z]|omne[bd-fj-oqsvx-z]|onem[bd-fj-oqsvx-z]|onme[bd-fj-oqsvx-z]|emn[bd-fj-oqsvx-z]o|emo[bd-fj-oqsvx-z]n|enm[bd-fj-oqsvx-z]o|eno[bd-fj-oqsvx-z]m|eom[bd-fj-oqsvx-z]n|eon[bd-fj-oqsvx-z]m|men[bd-fj-oqsvx-z]o|meo[bd-fj-oqsvx-z]n|mne[bd-fj-oqsvx-z]o|mno[bd-fj-oqsvx-z]e|moe[bd-fj-oqsvx-z]n|mon[bd-fj-oqsvx-z]e|nem[bd-fj-oqsvx-z]o|neo[bd-fj-oqsvx-z]m|nme[bd-fj-oqsvx-z]o|nmo[bd-fj-oqsvx-z]e|noe[bd-fj-oqsvx-z]m|nom[bd-fj-oqsvx-z]e|oem[bd-fj-oqsvx-z]n|oen[bd-fj-oqsvx-z]m|ome[bd-fj-oqsvx-z]n|omn[bd-fj-oqsvx-z]e|one[bd-fj-oqsvx-z]m|onm[bd-fj-oqsvx-z]e|em[bd-fj-oqsvx-z]no|em[bd-fj-oqsvx-z]on|en[bd-fj-oqsvx-z]mo|en[bd-fj-oqsvx-z]om|eo[bd-fj-oqsvx-z]mn|eo[bd-fj-oqsvx-z]nm|me[bd-fj-oqsvx-z]no|me[bd-fj-oqsvx-z]on|mn[bd-fj-oqsvx-z]eo|mn[bd-fj-oqsvx-z]oe|mo[bd-fj-oqsvx-z]en|mo[bd-fj-oqsvx-z]ne|ne[bd-fj-oqsvx-z]mo|ne[bd-fj-oqsvx-z]om|nm[bd-fj-oqsvx-z]eo|nm[bd-fj-oqsvx-z]oe|no[bd-fj-oqsvx-z]em|no[bd-fj-oqsvx-z]me|oe[bd-fj-oqsvx-z]mn|oe[bd-fj-oqsvx-z]nm|om[bd-fj-oqsvx-z]en|om[bd-fj-oqsvx-z]ne|on[bd-fj-oqsvx-z]em|on[bd-fj-oqsvx-z]me|e[bd-fj-oqsvx-z]mno|e[bd-fj-oqsvx-z]mon|e[bd-fj-oqsvx-z]nmo|e[bd-fj-oqsvx-z]nom|e[bd-fj-oqsvx-z]omn|e[bd-fj-oqsvx-z]onm|m[bd-fj-oqsvx-z]eno|m[bd-fj-oqsvx-z]eon|m[bd-fj-oqsvx-z]neo|m[bd-fj-oqsvx-z]noe|m[bd-fj-oqsvx-z]oen|m[bd-fj-oqsvx-z]one|n[bd-fj-oqsvx-z]emo|n[bd-fj-oqsvx-z]eom|n[bd-fj-oqsvx-z]meo|n[bd-fj-oqsvx-z]moe|n[bd-fj-oqsvx-z]oem|n[bd-fj-oqsvx-z]ome|o[bd-fj-oqsvx-z]emn|o[bd-fj-oqsvx-z]enm|o[bd-fj-oqsvx-z]men|o[bd-fj-oqsvx-z]mne|o[bd-fj-oqsvx-z]nem|o[bd-fj-oqsvx-z]nme|[bd-fj-oqsvx-z]emno|[bd-fj-oqsvx-z]emon|[bd-fj-oqsvx-z]enmo|[bd-fj-oqsvx-z]enom|[bd-fj-oqsvx-z]eomn|[bd-fj-oqsvx-z]eonm|[bd-fj-oqsvx-z]meno|[bd-fj-oqsvx-z]meon|[bd-fj-oqsvx-z]mneo|[bd-fj-oqsvx-z]mnoe|[bd-fj-oqsvx-z]moen|[bd-fj-oqsvx-z]mone|[bd-fj-oqsvx-z]nemo|[bd-fj-oqsvx-z]neom|[bd-fj-oqsvx-z]nmeo|[bd-fj-oqsvx-z]nmoe|[bd-fj-oqsvx-z]noem|[bd-fj-oqsvx-z]nome|[bd-fj-oqsvx-z]oemn|[bd-fj-oqsvx-z]oenm|[bd-fj-oqsvx-z]omen|[bd-fj-oqsvx-z]omne|[bd-fj-oqsvx-z]onem|[bd-fj-oqsvx-z]onme"
+T171.56642495299457 skip tried "demon"
+T171.60730155798956 skip tried "lemon"
+T171.61138578198734 skip tried "melon"
+T171.61174718200346 skip tried "meson"
+T171.61498114999267 skip tried "monde"
+T171.61504411601345 skip tried "money"
+T171.6208079670032 skip tried "nomen"
+T171.6208596130018 skip tried "nomes"
+T171.6233687190106 skip tried "omens"
+T176.40865425099037 3.5> word venom
+T176.4088923659874 word: venom
+T181.10187525101355 4.1> tried venom
+T181.10209378000582 tried: venom
+T184.7352018149977 4.2> word ____m
+T184.73550888200407 word: ____m
+T187.0893471710151 4.2> no veno
+T187.08957681199536 nope: enov
+T187.87514126001042 4.2> *
+T187.875348622998 select pattern r"[a-df-mp-uw-z][a-df-mp-uw-z][a-df-mp-uw-z][a-df-mp-uw-z]m"
+T193.28311362600653 4.2> tried claim
+T193.28331134098698 tried: claim
+T195.22986303200014 4.3> word c_a_m
+T195.230083544011 word: c_a_m
+T196.5558530089911 4.3> no li
+T196.55606856400846 nope: eilnov
+T197.07223690999672 4.3> *
+T197.07251749600982 select pattern r"c[a-df-hjkmp-uw-z]a[a-df-hjkmp-uw-z]m"
+T205.01519361400278 4.3> tried charm
+T205.01539129199227 tried: charm
+T210.23554315100773 4.4> word cha_m
+T210.23579973599408 word: cha_m
+T211.46384743100498 4.4> no r
+T211.46421425999142 nope: eilnorv
+T211.92512160001206 4.4> *
+T211.92544210501364 select pattern r"cha[a-df-hjkmpqs-uw-z]m"
+T215.59860413399292 4.4> word chasm
+T215.59883204998914 word: chasm
+T223.11479261599015 5.1> tried wooer
+T223.11487402100465 tried: wooer
+T225.03542719301186 5.2> tried thump
+T225.03563802101417 tried: thump
+T226.82870529498905 5.3> tried venom
+T226.8288518130139 tried: venom
+T228.56254918398918 5.4> tried chasm
+T228.56276835800963 tried: chasm
+T237.19279673098936 5.5> word w_o
+T237.19306371899438 word: w_o__
+T240.8173130399955 5.5> may . ert
+T240.81760523898993 may: ert
+T252.46179875000962 5.5> no up ash cvnm
+T252.46199594601057 nope: achmnpsuv
+T253.47888071701163 5.5> *
+T253.4792269919999 select pattern r"weort|weotr|wroet|wrote|wtoer|wtore"
+T260.3867361730081 5.5> word wrote
+T260.3869460730057 word: wrote
+T265.4156432930031 Press <Enter> to 📋 or `>` for line prompt 
+T265.42090617801296 result: "Hurdle 1135\n\n5/6\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,700"
+T265.4223038489872 puzzle_id: #1135
+T265.422371527995 <STOP>
