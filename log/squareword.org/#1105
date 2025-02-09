@@ -1,0 +1,130 @@
+T0.00015364499995484948 now: 2025-02-09T09:41:27EST
+T0.00019646098371595144 site: squareword.org
+T2.5319295579975005 🧩  ? #1105
+T2.532365586986998 puzzle_id: #1105
+T3.0779443710052874 > 
+T3.7224786019942258 > *
+T3.811546184006147 questioning: ["mercs", "#5 found:4861 hypo:11881376"]
+T6.571132245997433 mercs ( #5 found:4861 hypo:11881376 ) ? 
+T7.358246510993922 mercs ( #5 found:4861 hypo:11881376 ) > 
+T9.468137564981589 mercs ( #5 found:4861 hypo:11881376 ) 1> __r ~ mcs
+T9.469236884004204 word: 0 __r__
+T9.469265755004017 may: 0 c m s
+T12.02961952899932 mercs ( #5 found:4861 hypo:11881376 ) 2> ~ ec
+T12.03020134899998 word: 1 _____
+T12.030225945985876 may: 1 c e
+T15.199139862001175 mercs ( #5 found:4861 hypo:11881376 ) 3> _e__s ~ r
+T15.199340435006889 word: 2 _e__s
+T15.199358815996675 may: 2 r
+T20.19665201898897 mercs ( #5 found:4861 hypo:11881376 ) 4> ____s ~ es
+T20.19711697800085 word: 3 ____s
+T20.197202274983283 may: 3 e s
+T21.63416057100403 mercs ( #5 found:4861 hypo:11881376 ) 5> ~ er
+T21.634355568006868 word: 4 _____
+T21.63437476498075 may: 4 e r
+T21.63439557500533 question done
+T22.95919147899258 > *
+T23.356964895006968 questioning: ["scram", "#1 found:4 hypo:156"]
+T26.24325515399687 scram ( #1 found:4 hypo:156 ) ? 
+T26.378576378978323 scram ( #1 found:4 hypo:156 ) > 
+T28.47877872598474 scram ( #1 found:4 hypo:156 ) 1> scr_m
+T28.47902709900518 word: 0 scr_m
+T28.479059645993402 may: 0 
+T30.03963854498579 scram ( #1 found:4 hypo:156 ) 2> 
+T33.29151708900463 scram ( #1 found:4 hypo:156 ) 3> ~ ra
+T33.29178444397985 word: 2 _e__s
+T33.29181950300699 may: 2 a r
+T36.3201427559834 scram ( #1 found:4 hypo:156 ) 4> ~ esa
+T36.3203436860058 word: 3 ____s
+T36.320366312982515 may: 3 a e s
+T38.01041831698967 scram ( #1 found:4 hypo:156 ) 5> 
+T38.01055025399546 question done
+T39.3131739749806 > *
+T39.585702540993225 questioning: ["scrim", "#1 found:2 hypo:26"]
+T44.760634224978276 scrim ( #1 found:2 hypo:26 ) ? 
+T46.860257728985744 scrim ( #1 found:2 hypo:26 ) > /no i
+T48.75256742499187 question done
+T49.98005858997931 > /no i
+T49.98053593898658 nope: i
+T51.07113762098015 > *
+T51.57837682799436 questioning: ["scrum", "#1 found:2 hypo:25"]
+T55.65935575298499 scrum ( #1 found:2 hypo:25 ) ? 
+T56.18809158500517 scrum ( #1 found:2 hypo:25 ) > 
+T57.4363046369981 scrum ( #1 found:2 hypo:25 ) 1> scrum
+T57.436428575980244 word: 0 scrum
+T57.4364418220066 may: 0 
+T59.938314846978756 question done
+T60.59533962098067 > *
+T60.76358223799616 questioning: ["reals", "#3 found:2 hypo:50"]
+T63.84347968900693 reals ( #3 found:2 hypo:50 ) ? 
+T65.59049296300509 reals ( #3 found:2 hypo:50 ) > 
+T66.02841985100531 reals ( #3 found:2 hypo:50 ) 1> 
+T67.93152397999074 reals ( #3 found:2 hypo:50 ) 2> ~ ecl
+T67.9317943759961 word: 1 _____
+T67.93182102698484 may: 1 c e l
+T70.28205675299978 reals ( #3 found:2 hypo:50 ) 3> rea_s
+T70.28222736000316 word: 2 rea_s
+T70.2822450560052 may: 2 
+T73.2586536440067 question done
+T73.74062807500013 > *
+T74.52778582999599 questioning: ["reams", "#3 found:3 hypo:25"]
+T80.22954318698612 reams ( #3 found:3 hypo:25 ) ? 
+T82.08963692400721 reams ( #3 found:3 hypo:25 ) > 
+T83.84223981798277 question done
+T84.47111716898507 > *
+T85.1474932099809 questioning: ["reaps", "#3 found:4 hypo:25"]
+T90.45542338999803 reaps ( #3 found:4 hypo:25 ) ? 
+T90.82591228198726 question done
+T91.754819261987 > /no p
+T91.75499041599687 nope: i p
+T92.27787072898354 > *
+T93.60073260500212 questioning: ["reams", "#3 found:3 hypo:24"]
+T94.70558045999496 reams ( #3 found:3 hypo:24 ) ? !
+T94.7057221599971 reject: reams
+T95.26768229500158 > *
+T96.60981943598017 questioning: ["reals", "#3 found:2 hypo:24"]
+T103.2678241719841 question done
+T103.77274595398922 > *
+T105.092171287979 questioning: ["reals", "#3 found:2 hypo:24"]
+T106.60215886597871 reals ( #3 found:2 hypo:24 ) ? !
+T106.6023298749933 reject: reals
+T107.08611079899129 > *
+T108.47419399599312 questioning: ["reads", "#3 found:1 hypo:24"]
+T111.30828728698543 reads ( #3 found:1 hypo:24 ) ? 
+T111.98369803800597 reads ( #3 found:1 hypo:24 ) > 
+T114.68232192099094 reads ( #3 found:1 hypo:24 ) 1> 3 READS
+T114.68247812398477 word: 2 reads
+T114.6825130689831 may: 2 
+T120.05813259998104 reads ( #3 found:1 hypo:24 ) 4> *
+T120.71024919199408 question done
+T121.28270949798753 > *
+T122.42602010400151 questioning: ["clone", "#2 found:1 hypo:3456"]
+T125.16758022099384 clone ( #2 found:1 hypo:3456 ) ? 
+T126.14840778999496 clone ( #2 found:1 hypo:3456 ) > 2 clone
+T126.14862342597917 word: 1 clone
+T126.14864585798932 may: 1 
+T130.181031805987 clone ( #2 found:1 hypo:3456 ) 3> 5 ~ ern
+T130.1812220159918 word: 4 _____
+T130.18124182499014 may: 4 e n r
+T130.18125903600594 question done
+T131.69270408098237 > *
+T132.58109931999934 questioning: ["entry", "#5 found:1 hypo:3456"]
+T135.83797261698055 entry ( #5 found:1 hypo:3456 ) ? 
+T141.21713960400666 entry ( #5 found:1 hypo:3456 ) > 4 e___s ~ esa
+T141.21738982899114 word: 3 e___s
+T141.2174150570063 may: 3 a e s
+T143.52570198499598 entry ( #5 found:1 hypo:3456 ) 5> entry
+T143.5260132009862 word: 4 entry
+T143.52604225598043 may: 4 
+T143.52607105998322 question done
+T145.38668535399484 > *
+T145.88019494898617 questioning: ["eases", "#4 found:1 hypo:6"]
+T153.0947929309914 eases ( #4 found:1 hypo:6 ) ? 
+T155.5383467829961 eases ( #4 found:1 hypo:6 ) > 4 eases
+T155.5385404319968 word: 3 eases
+T155.5385605089832 may: 3 
+T156.30250840599183 eases ( #4 found:1 hypo:6 ) 5> 
+T156.30261668100138 question done
+T160.5900323529786 Press <Enter> to 📋 or `>` for line prompt 
+T160.59292198700132 result: "squareword.org 1105: 12 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe9\n\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1105"
+T160.59396174899302 <STOP>
