@@ -6530,3 +6530,7 @@ See log/play.dictionary.com_games_todays-hurdle/#1135
 # 2025-02-10 squareword.org
 
 See log/squareword.org/#1106
+
+# 2025-02-10 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1136
