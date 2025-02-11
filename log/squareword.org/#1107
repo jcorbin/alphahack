@@ -1,0 +1,147 @@
+T0.00014979502884671092 now: 2025-02-11T11:31:34EST
+T0.0001906540128402412 site: squareword.org
+T2.392398331023287 🧩  ? #1107
+T2.3927522050216794 puzzle_id: #1107
+T3.693341630976647 > *
+T3.7831590290297754 questioning: ["dorty", "#5 found:2213 hypo:11881376"]
+T6.309591786994133 dorty ( #5 found:2213 hypo:11881376 ) ? 
+T6.912726285983808 dorty ( #5 found:2213 hypo:11881376 ) > 
+T7.833329386019614 dorty ( #5 found:2213 hypo:11881376 ) 1> ~ r
+T7.834524395002518 word: 0 _____
+T7.834549991006497 may: 0 r
+T9.367458989028819 dorty ( #5 found:2213 hypo:11881376 ) 2> ~ dr
+T9.367670354025904 word: 1 _____
+T9.367692490981426 may: 1 d r
+T10.893342936993577 dorty ( #5 found:2213 hypo:11881376 ) 3> ~ dor
+T10.8935381139745 word: 2 _____
+T10.893557303003035 may: 2 d o r
+T12.032446717028506 dorty ( #5 found:2213 hypo:11881376 ) 4> 
+T14.418469988973811 dorty ( #5 found:2213 hypo:11881376 ) 5> __r ~ ty
+T14.418893531023059 word: 4 __r__
+T14.418929192994256 may: 4 t y
+T14.418953834974673 question done
+T15.46652759303106 > *
+T15.76177004800411 questioning: ["tyres", "#5 found:15 hypo:1352"]
+T18.207022960996255 tyres ( #5 found:15 hypo:1352 ) ? 
+T18.414103930001147 tyres ( #5 found:15 hypo:1352 ) > 
+T23.153329526016023 tyres ( #5 found:15 hypo:1352 ) 1> 3 ___e
+T23.153575907985214 word: 2 ___e_
+T23.153608280001208 may: 2 d o r
+T25.60945792502025 tyres ( #5 found:15 hypo:1352 ) 4> ~ e
+T25.609818487020675 word: 3 _____
+T25.609865540987812 may: 3 e
+T26.63752345001558 tyres ( #5 found:15 hypo:1352 ) 5> tyres
+T26.637719649006613 word: 4 tyres
+T26.637741771002766 may: 4 
+T26.637763145030476 question done
+T27.505372474028263 > *
+T27.78280420397641 questioning: ["doser", "#3 found:6 hypo:156"]
+T31.874552937981207 doser ( #3 found:6 hypo:156 ) ? 
+T32.913793298997916 doser ( #3 found:6 hypo:156 ) > 
+T37.117653562978376 doser ( #3 found:6 hypo:156 ) 1> 3 ___er
+T37.117823218984995 word: 2 ___er
+T37.11783251998713 may: 2 d o
+T39.4346085920115 question done
+T40.096493873978034 > *
+T40.19562277197838 questioning: ["doter", "#3 found:4 hypo:52"]
+T44.99752006097697 doter ( #3 found:4 hypo:52 ) ? 
+T50.41703807201702 doter ( #3 found:4 hypo:52 ) > 
+T50.893137715000194 question done
+T51.596583820995875 > *
+T51.60817036998924 questioning: ["dozer", "#3 found:6 hypo:52"]
+T55.10706776601728 dozer ( #3 found:6 hypo:52 ) ? 
+T56.74411200202303 question done
+T57.84898210997926 > /no z
+T57.84998887201073 nope: z
+T58.377869234012906 > *
+T58.83651334501337 questioning: ["odder", "#3 found:6 hypo:50"]
+T63.39362041500863 odder ( #3 found:6 hypo:50 ) ? 
+T64.06659692001995 odder ( #3 found:6 hypo:50 ) > 
+T64.87479417701252 odder ( #3 found:6 hypo:50 ) 1> 
+T66.0326287880307 odder ( #3 found:6 hypo:50 ) 2> __d
+T66.03293668298284 word: 1 __d__
+T66.03298130602343 may: 1 r
+T69.58865865401458 odder ( #3 found:6 hypo:50 ) 3> o_der
+T69.58890739799244 word: 2 o_der
+T69.58894417301053 may: 2 
+T71.32966385100735 question done
+T72.48293537902646 > *
+T72.87461463699583 questioning: ["order", "#3 found:3 hypo:25"]
+T76.26872066402575 order ( #3 found:3 hypo:25 ) ? 
+T78.09950251400005 order ( #3 found:3 hypo:25 ) > 
+T79.11664136097534 order ( #3 found:3 hypo:25 ) 1> _r
+T79.11683959601214 word: 0 _r___
+T79.11685835599201 may: 0 
+T82.75421510101296 question done
+T83.31906251999317 > *
+T83.74340372497682 questioning: ["odder", "#3 found:1 hypo:25"]
+T92.52762521698605 question done
+T93.16718835500069 > *
+T93.74065626901574 questioning: ["older", "#3 found:2 hypo:25"]
+T96.09397830202943 older ( #3 found:2 hypo:25 ) ? 
+T99.83353240799624 older ( #3 found:2 hypo:25 ) > 
+T101.30532753100852 older ( #3 found:2 hypo:25 ) 1> 3 older
+T101.30556507100118 word: 2 older
+T101.30558766197646 may: 2 
+T102.4559236060013 older ( #3 found:2 hypo:25 ) 4> _l
+T102.45606818399392 word: 3 _l___
+T102.45608341600746 may: 3 e
+T104.45397005201085 question done
+T105.03759757702937 > *
+T105.4235268009943 questioning: ["padre", "#2 found:6 hypo:15625"]
+T111.42639926599804 padre ( #2 found:6 hypo:15625 ) ? 
+T111.74167865299387 padre ( #2 found:6 hypo:15625 ) > 
+T112.57457875600085 padre ( #2 found:6 hypo:15625 ) 1> ~ a
+T112.57489620900014 word: 0 _r___
+T112.57496647798689 may: 0 a
+T115.04004808102036 padre ( #2 found:6 hypo:15625 ) 2> _ad
+T115.04038612102158 word: 1 _ad__
+T115.0404544500052 may: 1 r
+T117.57067374797771 question done
+T118.10581135499524 > *
+T118.85903116402915 questioning: ["lader", "#2 found:3 hypo:625"]
+T128.98247938300483 question done
+T129.82213280297583 > *
+T130.50932636501966 questioning: ["madre", "#2 found:4 hypo:625"]
+T136.3401011400274 question done
+T138.08329369698185 > /no zmp
+T138.08350904699182 nope: m p z
+T138.55666871200083 > *
+T139.5820392810274 questioning: ["alert", "#4 found:1 hypo:12167"]
+T144.72875458101043 alert ( #4 found:1 hypo:12167 ) ? 
+T146.2907447059988 alert ( #4 found:1 hypo:12167 ) > 4 _le
+T146.29094797500875 word: 3 _le__
+T146.29097232798813 may: 3 
+T147.7038299079868 question done
+T148.23451493598986 > *
+T149.28829654998844 questioning: ["fleck", "#4 found:2 hypo:12167"]
+T153.9331469030003 fleck ( #4 found:2 hypo:12167 ) ? 
+T154.63846086902777 fleck ( #4 found:2 hypo:12167 ) > 
+T156.15813468798297 fleck ( #4 found:2 hypo:12167 ) 1> ~ ac
+T156.15831692499341 word: 0 _r___
+T156.15834435698343 may: 0 a c
+T161.88980317802634 fleck ( #4 found:2 hypo:12167 ) 2> 1 _r__k
+T161.89004139398457 word: 0 _r__k
+T161.89006952400086 may: 0 a c
+T185.71258124901215 fleck ( #4 found:2 hypo:12167 ) 2> 4 fleck
+T185.71280472300714 word: 3 fleck
+T185.71282889001304 may: 3 
+T199.96855986700393 fleck ( #4 found:2 hypo:12167 ) 5> ␚
+T199.96868249197723 question done
+T200.6473970490042 > *
+T201.41102988098282 questioning: ["crank", "#1 found:1 hypo:46"]
+T208.0090963380062 crank ( #1 found:1 hypo:46 ) ? 
+T209.41983297199477 crank ( #1 found:1 hypo:46 ) > 1 crank
+T209.42005057702772 word: 0 crank
+T209.42007247399306 may: 0 
+T211.06834375602193 question done
+T211.53134956100257 > *
+T212.03127973998198 questioning: ["radii", "#2 found:1 hypo:529"]
+T218.3578226090176 radii ( #2 found:1 hypo:529 ) ? 
+T219.6387232610141 radii ( #2 found:1 hypo:529 ) > 2 radii
+T219.6389427210088 word: 1 radii
+T219.6389646769967 may: 1 
+T222.47475650598062 question done
+T225.0744684879901 Press <Enter> to 📋 or `>` for line prompt 
+T225.0798047480057 result: "squareword.org 1107: 16 guesses\n\n\ud83d\udfe7\ud83d\udfe8\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\n\ud83d\udfe5\ud83d\udfe8\ud83d\udfe8\ud83d\udfe5\ud83d\udfe5\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe7\ud83d\udfe8\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1107"
+T225.08089153602486 <STOP>
