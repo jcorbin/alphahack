@@ -1,0 +1,418 @@
+T0.0001350009988527745 now: 2025-02-12T10:13:48EST
+T0.0001731410011416301 site: https://play.dictionary.com/games/todays-hurdle
+T0.7375203039991902 1.1> *
+T0.7381787109989091 select pattern r"....."
+T8.184480109994183 1.1> tried worse
+T8.184635974997946 tried: worse
+T11.717200093000429 1.2> word ____e
+T11.717399190994911 word: ____e
+T14.438323495996883 1.2> no wor
+T14.438544289994752 nope: orw
+T15.672448113997234 1.2> may s
+T15.672596723001334 may: s
+T16.32167951399606 1.2> *
+T16.321946390999074 select pattern r"s[a-npqs-vx-z][a-npqs-vx-z][a-npqs-vx-z]e|[a-npqs-vx-z]s[a-npqs-vx-z][a-npqs-vx-z]e|[a-npqs-vx-z][a-npqs-vx-z]s[a-npqs-vx-z]e|[a-npqs-vx-z][a-npqs-vx-z][a-npqs-vx-z]se"
+T16.322680000994296 skip tried "abase"
+T16.32334575999994 skip tried "abuse"
+T16.32921100499516 skip tried "amuse"
+T16.32997285699821 skip tried "anise"
+T16.335662603996752 skip tried "blase"
+T16.33826302799571 skip tried "cause"
+T16.33834486699925 skip tried "cease"
+T16.338412097997207 skip tried "cense"
+T16.3387807409963 skip tried "chase"
+T16.339308645998244 skip tried "chuse"
+T16.34396179599571 skip tried "dense"
+T16.345830093996483 skip tried "dulse"
+T16.348038493997592 skip tried "false"
+T16.34827492999466 skip tried "fease"
+T16.348438506000093 skip tried "fesse"
+T16.350233402001322 skip tried "geese"
+T16.351367686998856 skip tried "guise"
+T16.351758018994587 skip tried "hanse"
+T16.357334291998995 skip tried "jesse"
+T16.35916333899513 skip tried "lapse"
+T16.359571736000362 skip tried "lease"
+T16.35979569999472 skip tried "lense"
+T16.360863658999733 skip tried "lyase"
+T16.361286439998366 skip tried "manse"
+T16.361461540000164 skip tried "masse"
+T16.361833536997437 skip tried "mense"
+T16.36679475299752 skip tried "paise"
+T16.367261280000093 skip tried "passe"
+T16.367392020998523 skip tried "pause"
+T16.367460597997706 skip tried "pease"
+T16.36754894099431 skip tried "peise"
+T16.3680210120001 skip tried "phase"
+T16.37057494399778 skip tried "pulse"
+T16.37651307899796 skip tried "seise"
+T16.376693219994195 skip tried "sense"
+T16.381530332000693 skip tried "tasse"
+T16.381623509994824 skip tried "tease"
+T16.38183970499813 skip tried "tense"
+T16.382124905998353 skip tried "these"
+T16.38370505900093 skip tried "ukase"
+T16.385251378997054 skip tried "valse"
+T21.009292536997236 1.2> tried paste
+T21.009506087000773 tried: paste
+T22.441283460000705 1.3> no pat
+T22.441575894998095 nope: aoprtw
+T23.938909183998476 1.3> *
+T23.93922003699845 select pattern r"s[b-nqsuvx-z][b-nqsuvx-z][b-nqsuvx-z]e|[b-nqsuvx-z]s[b-nqsuvx-z][b-nqsuvx-z]e|[b-nqsuvx-z][b-nqsuvx-z]s[b-nqsuvx-z]e|[b-nqsuvx-z][b-nqsuvx-z][b-nqsuvx-z]se"
+T23.957285989999946 skip tried "cense"
+T23.959040412999457 skip tried "chuse"
+T23.963684327994997 skip tried "dense"
+T23.964955657000246 skip tried "disme"
+T23.965970113000367 skip tried "dulse"
+T23.967281958000967 skip tried "ensue"
+T23.968843965994893 skip tried "fesse"
+T23.970241652001278 skip tried "fusee"
+T23.970604402995377 skip tried "geese"
+T23.972321957997337 skip tried "guise"
+T23.977404826997372 skip tried "issue"
+T23.977593477000482 skip tried "jesse"
+T23.97895212399453 skip tried "lense"
+T23.979331032998743 skip tried "lisle"
+T23.980767460998322 skip tried "mense"
+T23.980878087000747 skip tried "mesne"
+T23.996471959995688 skip tried "seise"
+T23.996683721998124 skip tried "sense"
+T24.00744105099875 skip tried "unsee"
+T27.430217761000677 1.3> tried shine
+T27.430354457996145 tried: shine
+T30.28141273399524 1.4> word s_i_e
+T30.28157323099731 word: s_i_e
+T31.70241381899541 1.4> no hn
+T31.70251033800014 nope: ahnoprtw
+T33.05794854499982 1.4> may .
+T33.058086099998036 may: 
+T33.50405486199452 1.4> *
+T33.50429375100066 select pattern r"s[b-gi-mqsuvx-z]i[b-gi-mqsuvx-z]e"
+T38.980119715997716 1.4> tried slice
+T38.98039486799826 tried: slice
+T40.621586820998346 1.5> no lc
+T40.621987585996976 nope: achlnoprtw
+T42.75425602099858 1.5> *
+T42.754556337000395 select pattern r"s[bd-gi-kmqsuvx-z]i[bd-gi-kmqsuvx-z]e"
+T50.543486509996 1.5> word seize
+T50.54369517399755 word: seize
+T54.05838783899526 2.1> tried seize
+T54.058601320997695 tried: seize
+T56.78265909000038 2.2> word se__e
+T56.78278113799752 word: se__e
+T57.94173470099486 2.2> no iz
+T57.942008639998676 nope: iz
+T58.611037392998696 2.2> *
+T58.61124787299923 select pattern r"se[a-hj-y][a-hj-y]e"
+T65.69698913799948 2.2> tried sense
+T65.69720874400082 tried: sense
+T66.89538829199591 2.3> no ns
+T66.89546819999669 nope: insz
+T66.89547701099946 word: _e__e
+T72.80157160199451 2.3> no . zin
+T72.80181645699486 nope: inz
+T75.39538900899788 2.3> word se__e
+T75.39562917599687 word: se__e
+T76.1023311530007 2.3> *
+T76.1026254909957 select pattern r"se[a-hj-mo-y][a-hj-mo-y]e"
+T85.89433104400086 2.3> tried serve
+T85.89444042999821 tried: serve
+T88.85353769699577 2.4> no rv
+T88.85374292399501 nope: inrvz
+T89.77047663700068 2.4> *
+T89.77080483299505 select pattern r"se[a-hj-mo-qs-uw-y][a-hj-mo-qs-uw-y]e"
+T98.43457804599893 2.4> word segue
+T98.43483108600049 word: segue
+T101.31818542899418 3.1> tried segue
+T101.31845337199775 tried: segue
+T161.768800439997 3.2> word _e
+T161.7689454509964 word: _e___
+T163.347140975995 3.2> no sgue
+T163.3474745009953 nope: egsu
+T163.34752141499484 word: _____
+T165.80643108699587 3.2> *
+T165.80655712899897 select pattern r"[a-dfh-rtv-z]_[a-dfh-rtv-z][a-dfh-rtv-z][a-dfh-rtv-z]"
+T168.07764397199935 3.2> *
+T168.07797020399448 select pattern r"[a-dfh-rtv-z]_[a-dfh-rtv-z][a-dfh-rtv-z][a-dfh-rtv-z]"
+T170.12366071699944 3.2> *
+T170.12392803599505 select pattern r"[a-dfh-rtv-z]_[a-dfh-rtv-z][a-dfh-rtv-z][a-dfh-rtv-z]"
+T178.60565517199575 3.2> word _e
+T178.60601298899564 word: _e___
+T181.29719952599407 3.2> no . sug
+T181.29763132299558 nope: gsu
+T181.91033301499556 3.2> *
+T181.91060640900105 select pattern r"[a-fh-rtv-z]e[a-fh-rtv-z][a-fh-rtv-z][a-fh-rtv-z]"
+T194.58143153599667 3.2> tried hefty
+T194.581570716 tried: hefty
+T197.02165799799695 3.3> may t
+T197.0219400759961 may: t
+T201.53091246500117 3.3> no hfy
+T201.5311455129995 nope: fghsuy
+T202.381874298997 3.3> *
+T202.3821523660008 select pattern r"te[a-ei-rtv-xz][a-ei-rtv-xz][a-ei-rtv-xz]|[a-ei-rtv-xz]et[a-ei-rtv-xz][a-ei-rtv-xz]|[a-ei-rtv-xz]e[a-ei-rtv-xz]t[a-ei-rtv-xz]|[a-ei-rtv-xz]e[a-ei-rtv-xz][a-ei-rtv-xz]t"
+T202.392328832997 skip tried "bento"
+T202.39285126300092 skip tried "betta"
+T202.39601378699444 skip tried "cento"
+T202.40153770399775 skip tried "delta"
+T202.413649807997 skip tried "kente"
+T202.41461127599905 skip tried "lento"
+T202.41463177299738 skip tried "lepta"
+T202.4163792190011 skip tried "menta"
+T202.41639031099476 skip tried "mento"
+T202.41854587399575 skip tried "nertz"
+T202.42231247999734 skip tried "petti"
+T202.4223243949964 skip tried "petto"
+T202.42591959899437 skip tried "reata"
+T202.42624227399938 skip tried "recta"
+T202.42624856199836 skip tried "recti"
+T202.42625677299657 skip tried "recto"
+T202.42702357899543 skip tried "rente"
+T202.43355452999822 skip tried "tecta"
+T208.2039231269955 3.3> tried metal
+T208.20407042499573 tried: metal
+T210.1107062730007 3.4> word _et
+T210.11101625199808 word: _et__
+T213.42929474599805 3.4> no mal
+T213.42960323599982 nope: afghlmsuy
+T214.0669962969987 3.4> *
+T214.06711511499452 select pattern r"tet[b-ei-kn-rtv-xz][b-ei-kn-rtv-xz]|[b-ei-kn-rtv-xz]ett[b-ei-kn-rtv-xz]|[b-ei-kn-rtv-xz]et[b-ei-kn-rtv-xz]t"
+T214.10274473999743 skip tried "petit"
+T214.10280336099822 skip tried "petti"
+T214.10282064599596 skip tried "petto"
+T214.1142065469976 skip tried "tetri"
+T217.0704194159989 3.4> may .
+T217.0709108039955 may: 
+T217.5362582050002 3.4> *
+T217.5364886959942 select pattern r"[b-ei-kn-rtv-xz]et[b-ei-kn-rtv-xz][b-ei-kn-rtv-xz]"
+T223.3736667080011 3.4> tried detox
+T223.37401461399713 tried: detox
+T225.6753296389943 3.5> may . o
+T225.67545561799488 may: o
+T228.58185586499894 3.5> no dx
+T228.581969052997 nope: adfghlmsuxy
+T229.19585564299632 3.5> *
+T229.19597821099887 select pattern r"oet[bcei-kn-rtvwz][bcei-kn-rtvwz]|[bcei-kn-rtvwz]eto[bcei-kn-rtvwz]|[bcei-kn-rtvwz]et[bcei-kn-rtvwz]o"
+T229.20060406199627 skip tried "beton"
+T229.2186773699941 skip tried "jeton"
+T229.22338560799835 skip tried "netop"
+T237.3476566649988 3.5> word retro
+T237.34793548699963 word: retro
+T563.9110795460001 4.1> tried retro
+T563.9112556039981 tried: retro
+T565.9319270209962 4.2> no reo
+T565.9320679609955 nope: eor
+T567.2748745229983 4.2> may t
+T567.2751316409995 may: t
+T567.7847255140005 4.2> *
+T567.7849852110012 select pattern r"t[a-df-npqs-z][a-df-npqs-z][a-df-npqs-z][a-df-npqs-z]|[a-df-npqs-z]t[a-df-npqs-z][a-df-npqs-z][a-df-npqs-z]|[a-df-npqs-z][a-df-npqs-z]t[a-df-npqs-z][a-df-npqs-z]|[a-df-npqs-z][a-df-npqs-z][a-df-npqs-z]t[a-df-npqs-z]|[a-df-npqs-z][a-df-npqs-z][a-df-npqs-z][a-df-npqs-z]t"
+T567.7876223729982 skip tried "actin"
+T567.7892126119987 skip tried "aitch"
+T567.7913527919955 skip tried "antas"
+T567.7915223239979 skip tried "antic"
+T567.7918620380005 skip tried "antis"
+T567.7919682930005 skip tried "antsy"
+T567.7923973799989 skip tried "aptly"
+T567.7934489799954 skip tried "attic"
+T567.7947074469994 skip tried "batch"
+T567.7947288869982 skip tried "baths"
+T567.7947406329986 skip tried "batik"
+T567.7947806499942 skip tried "batts"
+T567.7947844890004 skip tried "battu"
+T567.7947893199962 skip tried "batty"
+T567.7958643589955 skip tried "bitch"
+T567.7958830329953 skip tried "bitsy"
+T567.7958998049944 skip tried "bitts"
+T567.7959037889959 skip tried "bitty"
+T567.7973565110005 skip tried "butch"
+T567.7973968109945 skip tried "butts"
+T567.7974009719983 skip tried "butty"
+T567.7974042009955 skip tried "butut"
+T567.7974100379943 skip tried "butyl"
+T567.7983120599965 skip tried "catch"
+T567.7983779569986 skip tried "caths"
+T567.7984030999942 skip tried "catty"
+T567.802625999997 skip tried "cutch"
+T567.8026488239993 skip tried "cutin"
+T567.8026576959965 skip tried "cutis"
+T567.8026840889943 skip tried "cutty"
+T567.8026886480002 skip tried "cutup"
+T567.8030639770004 skip tried "datum"
+T567.8056435609979 skip tried "ditas"
+T567.8056499980012 skip tried "ditch"
+T567.805663950996 skip tried "ditsy"
+T567.8056705299969 skip tried "ditty"
+T567.805675495998 skip tried "ditzy"
+T567.8064795120008 skip tried "dutch"
+T567.8086823949998 skip tried "fatal"
+T567.8087070969996 skip tried "fatly"
+T567.8087184839969 skip tried "fatty"
+T567.8087236579959 skip tried "fatwa"
+T567.809320014996 skip tried "fitch"
+T567.8093266989963 skip tried "fitly"
+T567.8109122940004 skip tried "gatch"
+T567.8113456409992 skip tried "gitch"
+T567.8123808859964 skip tried "gutsy"
+T567.8123843520007 skip tried "gutta"
+T567.8123964900005 skip tried "gutty"
+T567.8129108639987 skip tried "hatch"
+T567.8135792370012 skip tried "hitch"
+T567.814175087995 skip tried "hutch"
+T567.8145225769986 skip tried "ictic"
+T567.8145260489982 skip tried "ictus"
+T567.8160681839945 skip tried "intis"
+T567.8169360159955 skip tried "jutty"
+T567.8170344210012 skip tried "katas"
+T567.8173209390006 skip tried "kiths"
+T567.8173350139987 skip tried "kitty"
+T567.8178874969963 skip tried "latch"
+T567.8179169869982 skip tried "lathi"
+T567.8179226509965 skip tried "laths"
+T567.8179289850013 skip tried "lathy"
+T567.8186550760001 skip tried "litai"
+T567.8186596029991 skip tried "litas"
+T567.8192512690002 skip tried "lytic"
+T567.8192555239948 skip tried "lytta"
+T567.819940991998 skip tried "match"
+T567.8199725719969 skip tried "maths"
+T567.8199772269945 skip tried "matin"
+T567.8200079320013 skip tried "matts"
+T567.8200169229967 skip tried "matza"
+T567.8216868489981 skip tried "mitis"
+T567.8217024580008 skip tried "mitts"
+T567.8226644440001 skip tried "mutch"
+T567.8226725869972 skip tried "mutha"
+T567.822690424 skip tried "mutts"
+T567.8228009079976 skip tried "myths"
+T567.8228049839963 skip tried "mythy"
+T567.8229554819991 skip tried "natal"
+T567.8229623769948 skip tried "natch"
+T567.82298515 skip tried "natty"
+T567.8234193929966 skip tried "nitid"
+T567.8234447489958 skip tried "nitty"
+T567.8242100659991 skip tried "nutsy"
+T567.8242166540003 skip tried "nutty"
+T567.8264682619993 skip tried "patch"
+T567.8265042109997 skip tried "paths"
+T567.8265104099992 skip tried "patin"
+T567.8265210940008 skip tried "patly"
+T567.8265490799968 skip tried "patsy"
+T567.8265592089956 skip tried "patty"
+T567.8279261889984 skip tried "pitas"
+T567.8279316330008 skip tried "pitch"
+T567.8279514739988 skip tried "piths"
+T567.8279546689955 skip tried "pithy"
+T567.8279727099944 skip tried "pitta"
+T567.8308957939953 skip tried "putti"
+T567.8309057919978 skip tried "putts"
+T567.8309100319966 skip tried "putty"
+T567.8349861829993 skip tried "satay"
+T567.8350010879949 skip tried "satin"
+T567.8350174929947 skip tried "satis"
+T567.8368084929971 skip tried "shtik"
+T567.8368152359981 skip tried "shtum"
+T567.8368203479986 skip tried "shtup"
+T567.8372137999977 skip tried "sitch"
+T567.8372306509991 skip tried "situp"
+T567.8372351430007 skip tried "situs"
+T567.8408740969971 skip tried "sutta"
+T567.8417098130012 skip tried "tatty"
+T567.842884959995 skip tried "titan"
+T567.8428978299999 skip tried "titch"
+T567.8429106889962 skip tried "titis"
+T567.8429309540006 skip tried "titty"
+T567.8442698619983 skip tried "tutti"
+T567.8442750039976 skip tried "tutty"
+T567.8442792089991 skip tried "tutus"
+T567.8458394099944 skip tried "until"
+T567.846377914997 skip tried "vatic"
+T567.8463864119985 skip tried "vatus"
+T567.8468530530008 skip tried "vital"
+T567.8468824609954 skip tried "vitta"
+T567.8472994019976 skip tried "watap"
+T567.847303990995 skip tried "watch"
+T567.8473638200012 skip tried "watts"
+T567.8479962419951 skip tried "witan"
+T567.8479999080009 skip tried "witch"
+T567.8480250809953 skip tried "withy"
+T567.8480385570001 skip tried "witty"
+T567.8486281799997 skip tried "zitis"
+T573.018839256998 4.2> stuck
+T580.9352744889984 4.2> tried stuck
+T580.9354127719998 tried: stuck
+T582.0706186460011 4.3> word s
+T582.070705569 word: s____
+T583.4838244999992 4.3> no uk
+T583.4840554109978 nope: ekoru
+T587.4546555609995 4.3> may tc
+T587.4547850800009 may: ct
+T591.1726801619952 4.3> no eruok
+T593.2850139250004 4.3> no . eruok
+T593.2852770359968 nope: ekoru
+T593.8581643750003 4.3> *
+T593.8584183619969 select pattern r"sct[a-df-jl-npqstv-z][a-df-jl-npqstv-z]|stc[a-df-jl-npqstv-z][a-df-jl-npqstv-z]|sc[a-df-jl-npqstv-z]t[a-df-jl-npqstv-z]|st[a-df-jl-npqstv-z]c[a-df-jl-npqstv-z]|sc[a-df-jl-npqstv-z][a-df-jl-npqstv-z]t|st[a-df-jl-npqstv-z][a-df-jl-npqstv-z]c|s[a-df-jl-npqstv-z]ct[a-df-jl-npqstv-z]|s[a-df-jl-npqstv-z]tc[a-df-jl-npqstv-z]|s[a-df-jl-npqstv-z]c[a-df-jl-npqstv-z]t|s[a-df-jl-npqstv-z]t[a-df-jl-npqstv-z]c|s[a-df-jl-npqstv-z][a-df-jl-npqstv-z]ct|s[a-df-jl-npqstv-z][a-df-jl-npqstv-z]tc"
+T593.9046015200001 skip tried "sitch"
+T593.9068522039961 skip tried "stich"
+T601.3656599559981 4.3> word scant
+T601.3657922269995 word: scant
+T815.6362674659977 5.1> tried seize
+T815.6365095579968 tried: seize
+T818.1293681139941 5.2> tried segue
+T818.1295686629965 tried: segue
+T820.1537647359946 5.3> tried retro
+T820.1538524119969 tried: retro
+T822.2755124539981 5.4> tried scant
+T822.2756650499941 tried: scant
+T823.3378971569982 5.5> *
+T823.3381099909966 select pattern r"....."
+T840.0031994199962 5.5> word ____e
+T840.0034165830002 word: ____e
+T842.7339408309999 5.5> may . a
+T842.7341491830011 may: a
+T851.2199630899995 5.5> no rt uio sg zcn
+T851.2202391789979 nope: cginorstuz
+T852.0540438030002 5.5> *
+T852.0543998879948 select pattern r"a[abd-fhj-mpqv-y][abd-fhj-mpqv-y][abd-fhj-mpqv-y]e|[abd-fhj-mpqv-y]a[abd-fhj-mpqv-y][abd-fhj-mpqv-y]e|[abd-fhj-mpqv-y][abd-fhj-mpqv-y]a[abd-fhj-mpqv-y]e|[abd-fhj-mpqv-y][abd-fhj-mpqv-y][abd-fhj-mpqv-y]ae"
+T852.0676767119949 skip tried "awake"
+T852.0725397329952 skip tried "blade"
+T852.0725787859992 skip tried "blame"
+T852.0844921839962 skip tried "deave"
+T852.0877992809983 skip tried "dwale"
+T852.0892604379987 skip tried "evade"
+T852.0905732109968 skip tried "flake"
+T852.0905853509976 skip tried "flame"
+T852.0938733359944 skip tried "heave"
+T852.0989212700006 skip tried "leave"
+T852.1216976859941 skip tried "weave"
+T852.1218128179971 skip tried "whale"
+T870.6788234289997 5.5> no . rt uio s g z c n
+T870.6791784129964 nope: cginorstuz
+T871.7269677879958 5.5> *
+T871.7273062669992 select pattern r"a[abd-fhj-mpqv-y][abd-fhj-mpqv-y][abd-fhj-mpqv-y]e|[abd-fhj-mpqv-y]a[abd-fhj-mpqv-y][abd-fhj-mpqv-y]e|[abd-fhj-mpqv-y][abd-fhj-mpqv-y]a[abd-fhj-mpqv-y]e|[abd-fhj-mpqv-y][abd-fhj-mpqv-y][abd-fhj-mpqv-y]ae"
+T871.7402892280006 skip tried "awake"
+T871.742915705996 skip tried "blade"
+T871.7429342989999 skip tried "blame"
+T871.7518430470009 skip tried "deave"
+T871.754631359996 skip tried "dwale"
+T871.7561250129947 skip tried "evade"
+T871.7574271689955 skip tried "flake"
+T871.7574391339949 skip tried "flame"
+T871.760715862998 skip tried "heave"
+T871.7658629719954 skip tried "leave"
+T871.7907987360013 skip tried "weave"
+T871.7909301749969 skip tried "whale"
+T890.279365493996 5.5> tried maybe
+T890.2795270879942 tried: maybe
+T893.0421368949974 5.6> word _a__e
+T893.042335872 word: _a__e
+T895.6628050299987 5.6> may . b
+T895.6630502099943 may: b
+T897.4918885219959 5.6> no my
+T897.4920494830003 nope: cgimnorstuyz
+T898.1504766369981 5.6> *
+T898.1506098389946 select pattern r"ba[abd-fhj-lpqv-x][abd-fhj-lpqv-x]e|[abd-fhj-lpqv-x]ab[abd-fhj-lpqv-x]e|[abd-fhj-lpqv-x]a[abd-fhj-lpqv-x]be"
+T902.9139153649958 5.6> word fable
+T902.9140988009967 word: fable
+T906.611654321001 Press <Enter> to 📋 or `>` for line prompt 
+T906.6205660499982 result: "Hurdle 1138\n\n5/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,700"
+T906.6216342349944 puzzle_id: #1138
+T906.6216781760013 <STOP>
