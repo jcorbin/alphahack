@@ -1,192 +1,185 @@
-# 2025-02-11
+# 2025-02-12
 
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1137 🥳 20 ⏱️ 0:04:56.802942
-- 🔗 squareword.org 🧩 #1107 🥳 16 ⏱️ 0:03:45.080892
-- 🔗 alphaguess.com 🧩 #567 🥳 16 ⏱️ 0:00:26.888974
-- 🔗 alfagok.diginaut.net 🧩 #101 🥳 18 ⏱️ 0:00:40.897177
-- 🔗 cemantle.certitudes.org 🧩 #1044 🥳 58 ⏱️ 0:01:39.564591
-- 🔗 cemantix.certitudes.org 🧩 #1077 🥳 197 ⏱️ 0:13:25.946032
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1138 🥳 19 ⏱️ 0:15:06.621678
+- 🔗 squareword.org 🧩 #1108 🥳 10 ⏱️ 0:02:19.801580
+- 🔗 alphaguess.com 🧩 #568 🥳 14 ⏱️ 0:00:26.739294
+- 🔗 alfagok.diginaut.net 🧩 #102 🥳 13 ⏱️ 0:00:31.737458
+- 🔗 cemantle.certitudes.org 🧩 #1045 🥳 63 ⏱️ 0:02:14.698503
+- 🔗 cemantix.certitudes.org 🧩 #1078 🥳 286 ⏱️ 0:35:05.353022
 
 - ❌
 - ✅
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1137 🥳 20
-- ✅ squareword.org 🧩 #1107 🥳 16
-- ✅ alphaguess.com 🧩 #567 🥳 16
-- ✅ alfagok.diginaut.net 🧩 #101 🥳 18
-- ✅ cemantle.certitudes.org 🧩 #1044 🥳 58
-- ✅ cemantix.certitudes.org 🧩 #1077 🥳 197
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1138 🥳 19
+- ✅ squareword.org 🧩 #1108 🥳 10
+- ✅ alphaguess.com 🧩 #568 🥳 14
+- ✅ alfagok.diginaut.net 🧩 #102 🥳 13
+- ✅ cemantle.certitudes.org 🧩 #1045 🥳 63
+- ✅ cemantix.certitudes.org 🧩 #1078 🥳 286
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$mvB48d9kjqHDP1iiMPSfH4ce7ydaIhqNeFwqgiaWsGs?via=aelf.land&via=matrix.org
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$FtQKKxuBpUbImPXTbYCsVhwrY0ionMSumCJ7lsuAF5k?via=aelf.land&via=matrix.org
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1137 🥳 20 ⏱️ 0:04:56.802942
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1138 🥳 19 ⏱️ 0:15:06.621678
 
 📜 1 sessions
-💰 score: 9600
+💰 score: 9700
 
-    4/6
-    > C O U L D
-      ⬜⬜⬜🟨⬜
-    > L I G H T
-      🟨⬜⬜⬜🟨
-    > P E T A L
-      ⬜⬜🟨🟨🟨
-    > S A L T Y
-      🟩🟩🟩🟩🟩
     5/6
-    > S T U D Y
-      🟩⬜⬜🟨🟩
-    > S T O R Y
+    > W O R S E
+      ⬜⬜⬜🟨🟩
+    > P A S T E
+      ⬜⬜🟨⬜🟩
+    > S H I N E
+      🟩⬜🟩⬜🟩
+    > S L I C E
+      🟩⬜🟩⬜🟩
+    > S E I Z E
+      🟩🟩🟩🟩🟩
+    4/6
+    > S E N S E
       🟩🟩⬜⬜🟩
-    > S T O N Y
-      🟩🟩🟩⬜🟩
-    > S P I C E
-      🟩🟩🟩🟩⬜
-    > S H A D E
-      🟩🟩🟩🟩🟩
-    4/6
-    > S H A V E
-      🟩⬜⬜⬜⬜
-    > A L B U M
-      🟩⬜⬜⬜🟩
-    > A D M I N
-      🟩🟩🟩⬜🟩
-    > A N I M A
+    > S E R V E
+      🟩🟩⬜⬜🟩
+    > S E G U E
+      🟩🟩⬜⬜🟩
+    > H E F T Y
       🟩🟩🟩🟩🟩
     5/6
-    > A M I N O
+    > M E T A L
+      ⬜🟩⬜⬜⬜
+    > D E T O X
+      ⬜🟩⬜🟨⬜
+    > R E T R O
+      ⬜🟩🟩⬜⬜
+    > S T U C K
+      ⬜🟩🟩🟨⬜
+    > S C A N T
+      🟩🟩🟩🟩🟩
+    3/6
+    > M A Y B E
       ⬜⬜🟨⬜⬜
-    > B R O K E
-      🟩⬜⬜⬜🟨
-    > F R O Z E
-      🟩⬜🟨🟨🟨
-      🟩🟨🟩🟨⬜
+    > F A B L E
+      🟩🟨⬜🟨⬜
       🟩🟩🟩🟩🟩
     Final 2/2
-      ⬜🟩🟩⬜🟩
+      ⬜🟩⬜🟨🟩
       🟩🟩🟩🟩🟩
 
-# squareword.org 🧩 #1107 🥳 16 ⏱️ 0:03:45.080892
+# squareword.org 🧩 #1108 🥳 10 ⏱️ 0:02:19.801580
 
-📜 1 sessions
+📜 2 sessions
 
 Guesses:
+1. wrist
 
 Score Heatmap:
-    🟧 🟨 🟧 🟧 🟧
-    🟥 🟨 🟨 🟥 🟥
-    🟨 🟨 🟨 🟩 🟩
-    🟧 🟨 🟧 🟧 🟧
+    🟩 🟩 🟨 🟨 🟩
+    🟨 🟨 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
+    🟨 🟨 🟨 🟨 🟨
+    🟨 🟨 🟨 🟨 🟨
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    C R A N K
-    R A D I I
-    O L D E R
-    F L E C K
-    T Y R E S
+    W R I S T
+    H E N C E
+    A R D O R
+    C A I R N
+    K N E E S
 
-# alphaguess.com 🧩 #567 🥳 16 ⏱️ 0:00:26.888974
+# alphaguess.com 🧩 #568 🥳 14 ⏱️ 0:00:26.739294
 
-🤔 16 attempts
+🤔 14 attempts
 📜 1 sessions
 
-    @        [     0] aa            
-    @+1      [     1] aah           
-    @+2      [     2] aahed         
-    @+3      [     3] aahing        
-    @+98251  [ 98251] mach          q0  ? after
-    @+102793 [102793] mi            q4  ? after
-    @+106363 [106363] mono          q5  ? after
-    @+107713 [107713] mu            q6  ? after
-    @+108818 [108818] mut           q7  ? after
-    @+109382 [109382] nail          q8  ? after
-    @+109676 [109676] narratologist q9  ? after
-    @+109748 [109748] nastiness     q11 ? after
-    @+109759 [109759] natations     q13 ? after
-    @+109765 [109765] natch         q14 ? after
-    @+109769 [109769] nation        q15 ? it
-    @+109769 [109769] nation        done. it
-    @+109770 [109770] national      q12 ? before
-    @+109819 [109819] natter        q10 ? before
-    @+109970 [109970] ne            q3  ? before
-    @+122816 [122816] parr          q2  ? before
-    @+147416 [147416] rhumb         q1  ? before
+    @       [    0] aa          
+    @+1     [    1] aah         
+    @+2     [    2] aahed       
+    @+3     [    3] aahing      
+    @+47410 [47410] dis         q1  ? after
+    @+60113 [60113] face        q3  ? after
+    @+66469 [66469] french      q4  ? after
+    @+69650 [69650] geosyncline q5  ? after
+    @+71241 [71241] gnomon      q6  ? after
+    @+72036 [72036] gracious    q7  ? after
+    @+72042 [72042] grad        q11 ? after
+    @+72052 [72052] grade       q13 ? it
+    @+72052 [72052] grade       done. it
+    @+72068 [72068] gradual     q12 ? before
+    @+72102 [72102] graft       q10 ? before
+    @+72173 [72173] grand       q9  ? before
+    @+72427 [72427] grass       q8  ? before
+    @+72831 [72831] gremolatas  q2  ? before
+    @+98251 [98251] mach        q0  ? before
 
-# alfagok.diginaut.net 🧩 #101 🥳 18 ⏱️ 0:00:40.897177
+# alfagok.diginaut.net 🧩 #102 🥳 13 ⏱️ 0:00:31.737458
 
-🤔 18 attempts
+🤔 13 attempts
 📜 1 sessions
 
-    @        [     0] &-teken      
-    @+1      [     1] &-tekens     
-    @+2      [     2] -cijferig    
-    @+3      [     3] -e-mail      
-    @+24270  [ 24270] ba           q3  ? after
-    @+30525  [ 30525] beelden      q5  ? after
-    @+31863  [ 31863] behandel     q7  ? after
-    @+32163  [ 32163] beheers      q9  ? after
-    @+32388  [ 32388] behoeft      q10 ? after
-    @+32410  [ 32410] behoeftig    q13 ? after
-    @+32420  [ 32420] behoor       q14 ? after
-    @+32424  [ 32424] behoorlijk   q15 ? after
-    @+32429  [ 32429] behoorlijkst q16 ? after
-    @+32431  [ 32431] behoren      q17 ? it
-    @+32431  [ 32431] behoren      done. it
-    @+32434  [ 32434] behoud       q12 ? before
-    @+32485  [ 32485] bei          q11 ? before
-    @+32659  [ 32659] bejubel      q8  ? before
-    @+33465  [ 33465] belasting    q6  ? before
-    @+36841  [ 36841] beroeps      q4  ? before
-    @+49894  [ 49894] boks         q2  ? before
-    @+99873  [ 99873] ex           q1  ? before
-    @+199895 [199895] lij          q0  ? before
+    @        [     0] &-teken       
+    @+1      [     1] &-tekens      
+    @+2      [     2] -cijferig     
+    @+3      [     3] -e-mail       
+    @+99873  [ 99873] ex            q1  ? after
+    @+149820 [149820] huishoud      q2  ? after
+    @+174759 [174759] kind          q3  ? after
+    @+176185 [176185] klank         q7  ? after
+    @+176590 [176590] klapper       q9  ? after
+    @+176670 [176670] klapzittingen q11 ? after
+    @+176697 [176697] klas          q12 ? it
+    @+176697 [176697] klas          done. it
+    @+176750 [176750] klassen       q10 ? before
+    @+177009 [177009] klaverjas     q8  ? before
+    @+177838 [177838] kleur         q6  ? before
+    @+180951 [180951] koel          q5  ? before
+    @+187324 [187324] kromst        q4  ? before
+    @+199895 [199895] lij           q0  ? before
 
-# cemantle.certitudes.org 🧩 #1044 🥳 58 ⏱️ 0:01:39.564591
+# cemantle.certitudes.org 🧩 #1045 🥳 63 ⏱️ 0:02:14.698503
 
-🤔 59 attempts
+🤔 64 attempts
 📜 1 sessions
 🫧 2 chat sessions
-⁉️ 8 chat prompts
-🤖 8 qwen2.5:7b replies
-🔥  1 🥵  6 😎  7 🥶 38 🧊  6
+⁉️ 10 chat prompts
+🤖 10 qwen2.5:7b replies
+🔥  1 🥵  2 😎 12 🥶 48
 
-     $1 #59  ~1 reservation    100.00°C 🥳 1000‰
-     $2 #57  ~2 lodging         35.55°C 🔥  994‰
-     $3 #28 ~12 cabin           30.23°C 🥵  982‰
-     $4 #42  ~7 accommodation   29.78°C 🥵  977‰
-     $5 #53  ~3 campsite        28.94°C 🥵  973‰
-     $6 #48  ~5 boarding        25.62°C 🥵  933‰
-     $7 #35  ~9 itinerary       25.45°C 🥵  930‰
-     $8 #21 ~14 resort          25.01°C 🥵  922‰
-     $9 #18 ~15 cruise          23.11°C 😎  859‰
-    $10 #31 ~10 destination     22.90°C 😎  844‰
-    $11 #27 ~13 amenities       21.69°C 😎  775‰
-    $12 #46  ~6 excursion       19.24°C 😎  531‰
-    $16 #38     relaxation      16.40°C 🥶
-    $54 #26     yacht           -0.80°C 🧊
+     $1 #64  ~1 species       100.00°C 🥳 1000‰
+     $2 #50  ~3 habitat        68.70°C 🔥  998‰
+     $3 #28 ~14 biodiversity   60.46°C 🥵  988‰
+     $4 #48  ~4 endangered     56.39°C 🥵  956‰
+     $5 #18 ~16 coral          52.44°C 😎  872‰
+     $6 #30 ~12 fish           51.21°C 😎  836‰
+     $7 #26 ~15 anemone        51.09°C 😎  830‰
+     $8 #29 ~13 ecology        47.95°C 😎  670‰
+     $9 #31 ~11 mollusk        47.70°C 😎  651‰
+    $10 #45  ~6 ecological     47.55°C 😎  638‰
+    $11 #33 ~10 plankton       46.84°C 😎  593‰
+    $12 #47  ~5 ecosystem      45.48°C 😎  517‰
+    $13 #57  ~2 mangrove       44.56°C 😎  466‰
+    $17 #49     forest         38.87°C 🥶
 
-# cemantix.certitudes.org 🧩 #1077 🥳 197 ⏱️ 0:13:25.946032
+# cemantix.certitudes.org 🧩 #1078 🥳 286 ⏱️ 0:35:05.353022
 
-🤔 198 attempts
+🤔 287 attempts
 📜 1 sessions
-🫧 7 chat sessions
-⁉️ 45 chat prompts
-🤖 45 qwen2.5:7b replies
-😱   1 🔥   3 🥵  13 😎  41 🥶 119 🧊  20
+🫧 15 chat sessions
+⁉️ 101 chat prompts
+🤖 101 qwen2.5:7b replies
+😱   1 🔥   4 🥵   8 😎  53 🥶 182 🧊  38
 
-      $1 #198   ~1 littérature      100.00°C 🥳 1000‰
-      $2 #185  ~12 littéraire        76.48°C 😱  999‰
-      $3 #180  ~15 roman             60.09°C 🔥  996‰
-      $4  #62  ~57 poésie            57.38°C 🔥  994‰
-      $5 #194   ~4 contemporain      55.44°C 🔥  993‰
-      $6 #127  ~32 poétique          50.65°C 🥵  989‰
-      $7 #182  ~14 auteur            48.96°C 🥵  983‰
-      $8 #139  ~29 histoire          47.58°C 🥵  978‰
-      $9 #109  ~40 fiction           46.55°C 🥵  975‰
-     $10 #141  ~27 récit             44.06°C 🥵  963‰
-     $11  #67  ~56 imaginaire        43.32°C 🥵  956‰
-     $19  #95  ~44 rhétorique        38.38°C 😎  883‰
-     $60 #114      conteur           25.39°C 🥶
-    $179  #46      adorateur         -0.47°C 🧊
+      $1 #287   ~1 affirmation         100.00°C 🥳 1000‰
+      $2 #250  ~12 affirmer             65.74°C 😱  999‰
+      $3 #230  ~24 contredire           62.20°C 🔥  998‰
+      $4 #232  ~22 nier                 57.84°C 🔥  996‰
+      $5 #235  ~19 réfuter              57.50°C 🔥  994‰
+      $6 #147  ~59 contradiction        55.34°C 🔥  993‰
+      $7 #163  ~49 contradictoire       53.06°C 🥵  988‰
+      $8 #237  ~18 contester            49.83°C 🥵  976‰
+      $9 #192  ~36 sophisme             48.32°C 🥵  959‰
+     $10 #226  ~26 réfutation           48.28°C 🥵  958‰
+     $11 #154  ~56 paradoxal            48.00°C 🥵  954‰
+     $15 #241  ~16 opposer              43.96°C 😎  896‰
+     $68 #174      réciproquement       30.81°C 🥶
+    $250  #52      cadence              -0.02°C 🧊
