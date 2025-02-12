@@ -1,0 +1,133 @@
+T0.0001528349966974929 now: 2025-02-12T10:08:15EST
+T0.0002138540003215894 site: squareword.org
+T2.712273673998425 🧩  ? #1108
+T2.7127709729975322 puzzle_id: #1108
+T3.5125197269953787 > *
+T3.5962396639952203 questioning: ["tolar", "#5 found:8174 hypo:11881376"]
+T5.839870951000194 tolar ( #5 found:8174 hypo:11881376 ) ? 
+T6.2465984459995525 tolar ( #5 found:8174 hypo:11881376 ) > 
+T7.738240355000016 tolar ( #5 found:8174 hypo:11881376 ) 1> ~ tr
+T7.739534100997844 word: 0 _____
+T7.739562620001379 may: 0 r t
+T8.357070461999683 tolar ( #5 found:8174 hypo:11881376 ) 2> 
+T11.576345805995516 tolar ( #5 found:8174 hypo:11881376 ) 3> ____r ~ oar
+T11.57674851000047 word: 2 ____r
+T11.576779505994637 may: 2 a o r
+T13.726779157994315 tolar ( #5 found:8174 hypo:11881376 ) 4> ~ ar
+T13.726985961999162 word: 3 _____
+T13.727007952998974 may: 3 a r
+T14.652391579998948 question done
+T15.634114966997004 > /no l
+T15.63490506800008 nope: l
+T16.48653692699736 > *
+T16.796125695000228 questioning: ["arbor", "#3 found:1 hypo:150"]
+T19.996723956995993 arbor ( #3 found:1 hypo:150 ) ? 
+T20.37989932399796 arbor ( #3 found:1 hypo:150 ) > 
+T22.230745864995697 arbor ( #3 found:1 hypo:150 ) 1> _r
+T22.23098235699581 word: 0 _r___
+T22.23100707100093 may: 0 t
+T23.188360422995174 arbor ( #3 found:1 hypo:150 ) 2> 
+T25.024951463994512 arbor ( #3 found:1 hypo:150 ) 3> ar_or
+T25.02514119699481 word: 2 ar_or
+T25.025160031997075 may: 2 
+T26.86604367000109 question done
+T27.917150051995122 > /no b
+T27.917416126998432 nope: b l
+T40.94058957899688 > *
+T41.32974734099844 questioning: ["ardor", "#3 found:1 hypo:24"]
+T43.96124212099676 ardor ( #3 found:1 hypo:24 ) ? 
+T44.25388035400101 ardor ( #3 found:1 hypo:24 ) > 
+T46.49811087700073 ardor ( #3 found:1 hypo:24 ) 1> 3 ardor
+T46.498400999000296 word: 2 ardor
+T46.49843564799812 may: 2 
+T48.130141620997165 question done
+T48.73037016899616 > *
+T48.78164682699571 questioning: ["graft", "#1 found:38 hypo:13824"]
+T52.39030396299495 graft ( #1 found:38 hypo:13824 ) ? 
+T52.71825910700136 graft ( #1 found:38 hypo:13824 ) > 
+T54.33239519799827 graft ( #1 found:38 hypo:13824 ) 1> _r__t
+T54.33257706299628 word: 0 _r__t
+T54.332594738996704 may: 0 
+T55.94893132699508 question done
+T57.344834716997866 > /no fglb
+T57.34498261199769 nope: b f g l
+T58.0287267639942 > *
+T58.39440582599491 questioning: ["wrapt", "#1 found:27 hypo:10648"]
+T61.13994849899609 wrapt ( #1 found:27 hypo:10648 ) ? 
+T61.55922250299773 wrapt ( #1 found:27 hypo:10648 ) > 
+T64.73157139799878 wrapt ( #1 found:27 hypo:10648 ) 1> wr__t
+T64.7318001579988 word: 0 wr__t
+T64.73182657000143 may: 0 
+T67.63413959299942 question done
+T68.87644464099867 > /no p
+T68.87662935999833 nope: b f g l p
+T69.46101038299821 > *
+T70.66550205899694 questioning: ["wrist", "#1 found:2 hypo:441"]
+T72.99045068399573 wrist ( #1 found:2 hypo:441 ) ? 
+T73.88299936999829 wrist ( #1 found:2 hypo:441 ) > 
+T74.81230147499446 wrist ( #1 found:2 hypo:441 ) 1> wrist
+T74.81248095200135 word: 0 wrist
+T74.81249828 may: 0 
+T77.21329434799554 wrist ( #1 found:2 hypo:441 ) 2> 5 ~ s
+T77.21351473699906 word: 4 _____
+T77.21353388299758 may: 4 s
+T77.21355038199545 question done
+T78.9046616669948 <INT>
+T0.001731135998852551 now: 2025-02-12T10:09:35EST
+T2.2138975440029753 > wrist
+T2.215332927000418 questioning: ["wrist", "entered"]
+T7.051392196000961 wrist ( entered ) ? 1 ~
+T7.052432568001677 guess: wrist
+T7.052589058002923 word: 0 wrist
+T7.0526084279990755 may: 0 
+T10.231118089002848 wrist ( entered ) 2> 3 ~
+T10.231470377999358 word: 2 ardor
+T10.231501046997437 may: 2 
+T13.28419307799777 wrist ( entered ) 4> 4 __i
+T13.284384591999697 word: 3 __i__
+T13.284419518000504 may: 3 a r
+T16.624891048995778 question done
+T17.480090518001816 > *
+T17.835764165 questioning: ["henna", "#2 found:4 hypo:4084101"]
+T20.476035327999853 henna ( #2 found:4 hypo:4084101 ) ? 
+T20.685540398997546 henna ( #2 found:4 hypo:4084101 ) > 
+T24.115492397002527 henna ( #2 found:4 hypo:4084101 ) 1> 2 hen ~ e
+T24.11573881300137 word: 1 hen__
+T24.115770108997822 may: 1 e
+T27.332692420997773 henna ( #2 found:4 hypo:4084101 ) 3> 
+T29.13446601600299 henna ( #2 found:4 hypo:4084101 ) 4> ~ arn
+T29.134764387999894 word: 3 __i__
+T29.13482712300174 may: 3 a n r
+T31.184859980996407 henna ( #2 found:4 hypo:4084101 ) 5> ~ sen
+T31.185116833999928 word: 4 _____
+T31.185153095000715 may: 4 e n s
+T31.185185486996488 question done
+T33.96776386699639 > *
+T34.30032069599838 questioning: ["hence", "#2 found:1 hypo:21"]
+T37.58867633999762 hence ( #2 found:1 hypo:21 ) ? 
+T39.10909520599671 hence ( #2 found:1 hypo:21 ) > 2 hence
+T39.109363265000866 word: 1 hence
+T39.10938926500239 may: 1 
+T43.1426950189998 hence ( #2 found:1 hypo:21 ) 3> 4 ~ arnc
+T43.14309139100078 word: 3 __i__
+T43.14312693000102 may: 3 a c n r
+T44.20833808700263 hence ( #2 found:1 hypo:21 ) 5> 
+T44.208493111997086 question done
+T45.23747252400062 > *
+T45.38019715200062 questioning: ["cairn", "#4 found:1 hypo:24"]
+T48.63733422199584 cairn ( #4 found:1 hypo:24 ) ? 
+T48.99774006899679 cairn ( #4 found:1 hypo:24 ) > 
+T50.67705992000265 cairn ( #4 found:1 hypo:24 ) 1> 4 cairn
+T50.677360909001436 word: 3 cairn
+T50.67744449900056 may: 3 
+T52.135747202002676 question done
+T53.02030908600136 > *
+T53.19441479800298 questioning: ["knees", "#5 found:1 hypo:2646"]
+T56.46731283299596 knees ( #5 found:1 hypo:2646 ) ? 
+T58.137671819997195 knees ( #5 found:1 hypo:2646 ) > 5 knees
+T58.13781827099592 word: 4 knees
+T58.13783397399675 may: 4 
+T58.137848334998125 question done
+T62.58162602700031 Press <Enter> to 📋 or `>` for line prompt 
+T62.58703882499685 result: "squareword.org 1108: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1108"
+T62.58818234100181 <STOP>
