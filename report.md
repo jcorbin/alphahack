@@ -1,92 +1,95 @@
-# 2025-02-14
+# 2025-02-15
 
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1140 🥳 17 ⏱️ 0:04:57.777910
-- 🔗 squareword.org 🧩 #1110 🥳 13 ⏱️ 0:04:02.670272
-- 🔗 alphaguess.com 🧩 #570 🥳 15 ⏱️ 0:00:27.816614
-- 🔗 alfagok.diginaut.net 🧩 #104 🥳 12 ⏱️ 0:00:40.291754
-- 🔗 cemantle.certitudes.org 🧩 #1047 🥳 37 ⏱️ 0:00:44.226234
-- 🔗 cemantix.certitudes.org 🧩 #1080 🥳 449 ⏱️ 0:47:10.539216
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1141 🥳 19 ⏱️ 0:09:12.171941
+- 🔗 squareword.org 🧩 #1111 🥳 14 ⏱️ 0:05:06.178921
+- 🔗 alphaguess.com 🧩 #571 🥳 17 ⏱️ 0:00:35.775511
+- 🔗 alfagok.diginaut.net 🧩 #105 🥳 15 ⏱️ 0:00:42.729163
+- 🔗 cemantle.certitudes.org 🧩 #1048 🥳 29 ⏱️ 0:00:47.897050
+- 🔗 cemantix.certitudes.org 🧩 #1081 🥳 62 ⏱️ 0:03:21.793826
 
 - ❌
 - ✅
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1140 🥳 17
-- ✅ squareword.org 🧩 #1110 🥳 13
-- ✅ alphaguess.com 🧩 #570 🥳 15
-- ✅ alfagok.diginaut.net 🧩 #104 🥳 12
-- ✅ cemantle.certitudes.org 🧩 #1047 🥳 37
-- ✅ cemantix.certitudes.org 🧩 #1080 🥳 449
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1141 🥳 19
+- ✅ squareword.org 🧩 #1111 🥳 14
+- ✅ alphaguess.com 🧩 #571 🥳 17
+- ✅ alfagok.diginaut.net 🧩 #105 🥳 15
+- ✅ cemantle.certitudes.org 🧩 #1048 🥳 29
+- ✅ cemantix.certitudes.org 🧩 #1081 🥳 62
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$_GRpYoq6dNipnmH_1AYWW6BlQHZMe7SuvLHO1PZ2Y64?via=aelf.land&via=matrix.org
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$4hmyFH3wVLpB9BiiX2Cay5oM-UnNQHHSbhkKOOW_-sg?via=aelf.land&via=matrix.org
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1140 🥳 17 ⏱️ 0:04:57.777910
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1141 🥳 19 ⏱️ 0:09:12.171941
 
-📜 1 sessions
-💰 score: 9900
+📜 2 sessions
+💰 score: 9700
 
-    4/6
-    > S H A K E
-      ⬜⬜🟨⬜🟩
-    > A B O V E
-      🟨⬜⬜⬜🟩
-    > D A N C E
-      ⬜🟩🟩⬜🟩
-    > R A N G E
-      🟩🟩🟩🟩🟩
-    4/6
-    > M O A T S
-      ⬜🟨⬜⬜⬜
-    > V O D K A
+    5/6
+    > V I R U S
+      ⬜⬜⬜⬜⬜
+    > P L A C E
       ⬜🟩🟨⬜⬜
-    > V O I L A
-      🟩🟩⬜⬜🟩
-    > S T U D Y
+    > A L O N G
+      🟩🟩⬜⬜⬜
+    > A L W A Y
+      🟩🟩⬜🟩🟩
+    > A L L A Y
       🟩🟩🟩🟩🟩
     5/6
-    > J U D G Y
-      ⬜⬜⬜⬜⬜
-    > D U C K Y
-      ⬜⬜🟨🟨🟩
-    > D U C H Y
-      ⬜🟩🟨⬜🟩
-    > A D E P T
-      🟩🟩🟩⬜🟩
-    > P L E A D
+    > S A U C E
+      🟨⬜⬜⬜⬜
+    > C H A S M
+      ⬜🟨⬜⬜🟨
+    > M E D I A
+      ⬜⬜🟨⬜🟨
+    > O M E G A
+      🟨🟨⬜⬜🟩
+    > S M O K E
       🟩🟩🟩🟩🟩
     3/6
-    > P Y L O N
-      🟨⬜⬜⬜⬜
-      🟨🟨🟩🟨⬜
+    > S M O T E
+      🟨🟩🟨⬜⬜
+    > D R I N K
+      🟩🟩🟩⬜🟩
+    > F L U I D
       🟩🟩🟩🟩🟩
-    Final 1/2
+    4/6
+    > V A L I D
+      ⬜⬜⬜⬜⬜
+    > Q U I E T
+      🟨⬜🟨⬜⬜
+    > F E I N T
+      ⬜🟨⬜🟩🟩
+      🟩🟩🟩🟩🟩
+    Final 2/2
+      ⬜⬜🟩🟨🟩
       🟩🟩🟩🟩🟩
 
-# squareword.org 🧩 #1110 🥳 13 ⏱️ 0:04:02.670272
+# squareword.org 🧩 #1111 🥳 14 ⏱️ 0:05:06.178921
 
 📜 1 sessions
 
 Guesses:
-1. debts
-2. yechy
+1. based
 
 Score Heatmap:
-    🟨 🟩 🟨 🟨 🟩
-    🟧 🟧 🟧 🟨 🟧
-    🟧 🟧 🟧 🟩 🟧
-    🟩 🟩 🟩 🟧 🟧
-    🟨 🟩 🟨 🟩 🟩
+    🟧 🟧 🟧 🟨 🟨
+    🟧 🟧 🟧 🟧 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟨 🟩 🟩 🟨 🟩
+    🟨 🟧 🟨 🟨 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    M E R C Y
-    A L O H A
-    R I G O R
-    S T E R N
-    H E R D S
+    B A S E D
+    A P P L E
+    T R O U T
+    H O R D E
+    S N E E R
 
-# alphaguess.com 🧩 #570 🥳 15 ⏱️ 0:00:27.816614
+# alphaguess.com 🧩 #571 🥳 17 ⏱️ 0:00:35.775511
 
-🤔 15 attempts
+🤔 17 attempts
 📜 1 sessions
 
     @       [    0] aa         
@@ -94,89 +97,93 @@ Solution:
     @+2     [    2] aahed      
     @+3     [    3] aahing     
     @+47410 [47410] dis        q1  ? after
-    @+60113 [60113] face       q3  ? after
-    @+63269 [63269] flag       q5  ? after
-    @+64866 [64866] foment     q6  ? after
-    @+65665 [65665] format     q7  ? after
-    @+65854 [65854] foss       q9  ? after
-    @+65869 [65869] fossil     q12 ? after
-    @+65879 [65879] fossilize  q13 ? after
-    @+65885 [65885] foster     q14 ? it
-    @+65885 [65885] foster     done. it
-    @+65895 [65895] fou        q11 ? before
-    @+65940 [65940] four       q10 ? before
-    @+66062 [66062] fractional q8  ? before
-    @+66469 [66469] french     q4  ? before
-    @+72830 [72830] gremolata  q2  ? before
+    @+72830 [72830] gremolata  q2  ? after
+    @+79163 [79163] hood       q4  ? after
+    @+80748 [80748] hydroxy    q6  ? after
+    @+81539 [81539] iamb       q7  ? after
+    @+81708 [81708] idea       q9  ? after
+    @+81824 [81824] idiopathy  q10 ? after
+    @+81855 [81855] idol       q11 ? after
+    @+81898 [81898] if         q12 ? after
+    @+81909 [81909] igg        q14 ? after
+    @+81912 [81912] iggs       q16 ? after
+    @+81913 [81913] igloo      done. it
+    @+81914 [81914] igloos     q15 ? before
+    @+81919 [81919] igneous    q13 ? before
+    @+81940 [81940] ignitor    q8  ? before
+    @+82340 [82340] immaterial q5  ? before
+    @+85535 [85535] ins        q3  ? before
     @+98250 [98250] mach       q0  ? before
 
-# alfagok.diginaut.net 🧩 #104 🥳 12 ⏱️ 0:00:40.291754
+# alfagok.diginaut.net 🧩 #105 🥳 15 ⏱️ 0:00:42.729163
 
-🤔 12 attempts
+🤔 15 attempts
 📜 1 sessions
 
-    @        [     0] &-teken       
-    @+1      [     1] &-tekens      
-    @+2      [     2] -cijferig     
-    @+3      [     3] -e-mail       
-    @+199895 [199895] lij           q0  ? after
-    @+300236 [300236] schrijn       q1  ? after
-    @+350382 [350382] vakantie      q2  ? after
-    @+362757 [362757] vervijfvoudig q4  ? after
-    @+368914 [368914] vocht         q5  ? after
-    @+371407 [371407] voor          q6  ? after
-    @+372331 [372331] voorleg       q8  ? after
-    @+372796 [372796] voorschansen  q10 ? after
-    @+373028 [373028] voort         q11 ? it
-    @+373028 [373028] voort         done. it
-    @+373259 [373259] voortplanting q7  ? before
-    @+375136 [375136] vrij          q3  ? before
+    @        [     0] &-teken         
+    @+1      [     1] &-tekens        
+    @+2      [     2] -cijferig       
+    @+3      [     3] -e-mail         
+    @+199895 [199895] lij             q0  ? after
+    @+300236 [300236] schrijn         q1  ? after
+    @+350382 [350382] vakantie        q2  ? after
+    @+375136 [375136] vrij            q3  ? after
+    @+381348 [381348] weer            q5  ? after
+    @+382905 [382905] wegwerp         q7  ? after
+    @+383709 [383709] wende           q8  ? after
+    @+383735 [383735] wenk            q11 ? after
+    @+383748 [383748] wenkt           q12 ? after
+    @+383754 [383754] wennen          q14 ? it
+    @+383754 [383754] wennen          done. it
+    @+383759 [383759] wens            q10 ? before
+    @+383842 [383842] wereld          q9  ? before
+    @+384523 [384523] werkgelegenheid q6  ? before
+    @+387706 [387706] wind            q4  ? before
 
-# cemantle.certitudes.org 🧩 #1047 🥳 37 ⏱️ 0:00:44.226234
+# cemantle.certitudes.org 🧩 #1048 🥳 29 ⏱️ 0:00:47.897050
 
-🤔 38 attempts
+🤔 30 attempts
 📜 1 sessions
 🫧 2 chat sessions
 ⁉️ 6 chat prompts
 🤖 6 qwen2.5:latest replies
-😎  4 🥶 32 🧊  1
+🔥  1 🥵  1 😎  2 🥶 24 🧊  1
 
-     $1 #38  ~1 stem         100.00°C 🥳 1000‰
-     $2 #32  ~2 leaf          25.72°C 😎  543‰
-     $3 #13  ~5 squash        24.84°C 😎  458‰
-     $4 #22  ~4 vine          24.02°C 😎  374‰
-     $5 #23  ~3 blossom       21.70°C 😎   32‰
-     $6 #26     flower        21.32°C 🥶
-     $7 #27     fruiting      19.00°C 🥶
-     $8 #33     plant         17.28°C 🥶
-     $9 #35     pruning       16.97°C 🥶
-    $10 #16     zucchini      14.05°C 🥶
-    $11 #15     vegetable     13.88°C 🥶
-    $12 #11     carrot        13.02°C 🥶
-    $13  #7     pumpkin       12.84°C 🥶
-    $38  #1     coffee        -0.79°C 🧊
+     $1 #30  ~1 packaging    100.00°C 🥳 1000‰
+     $2 #25  ~2 wrapper       48.38°C 🔥  990‰
+     $3 #19  ~3 coating       40.90°C 🥵  938‰
+     $4 #13  ~5 chocolate     27.12°C 😎   91‰
+     $5 #15  ~4 candy         26.86°C 😎   48‰
+     $6 #26     encapsulate   25.06°C 🥶
+     $7 #23     sugar         22.89°C 🥶
+     $8 #18     caramel       22.49°C 🥶
+     $9 #16     cocoa         20.17°C 🥶
+    $10 #11     cone          19.82°C 🥶
+    $11 #29     layer         19.82°C 🥶
+    $12 #22     rack          18.75°C 🥶
+    $13  #4     icecream      18.01°C 🥶
+    $30  #9     symphony      -3.94°C 🧊
 
-# cemantix.certitudes.org 🧩 #1080 🥳 449 ⏱️ 0:47:10.539216
+# cemantix.certitudes.org 🧩 #1081 🥳 62 ⏱️ 0:03:21.793826
 
-🤔 450 attempts
+🤔 63 attempts
 📜 1 sessions
-🫧 19 chat sessions
-⁉️ 117 chat prompts
-🤖 46 gemma2:latest replies
-🤖 71 qwen2.5:latest replies
-😱   1 🔥   1 🥵  12 😎  52 🥶 340 🧊  43
+🫧 3 chat sessions
+⁉️ 14 chat prompts
+🤖 14 qwen2.5:latest replies
+🔥  1 🥵  6 😎 12 🥶 31 🧊 12
 
-      $1 #450   ~1 médiatique       100.00°C 🥳 1000‰
-      $2 #434   ~7 média             71.34°C 😱  999‰
-      $3 #447   ~2 journalistique    54.65°C 🔥  992‰
-      $4 #433   ~8 journaliste       47.74°C 🥵  980‰
-      $5 #393  ~14 politique         47.73°C 🥵  979‰
-      $6 #440   ~5 désinformation    46.26°C 🥵  973‰
-      $7 #283  ~37 propagande        45.43°C 🥵  969‰
-      $8 #285  ~36 discours          44.93°C 🥵  964‰
-      $9 #298  ~34 opinion           42.97°C 🥵  957‰
-     $10 #326  ~27 rhétorique        41.10°C 🥵  935‰
-     $11 #444   ~4 autocensure       41.01°C 🥵  934‰
-     $16 #266  ~40 dénigrement       38.91°C 😎  897‰
-     $68 #418      réaction          26.79°C 🥶
-    $408 #352      norme             -0.06°C 🧊
+     $1 #63  ~1 délit           100.00°C 🥳 1000‰
+     $2 #61  ~3 infraction       63.25°C 😱  999‰
+     $3 #46 ~14 condamnation     45.17°C 🥵  988‰
+     $4 #57  ~5 amende           44.38°C 🥵  986‰
+     $5 #56  ~6 sanction         41.03°C 🥵  969‰
+     $6 #58  ~4 contravention    40.82°C 🥵  966‰
+     $7 #48 ~12 inculpation      40.24°C 🥵  961‰
+     $8 #18 ~18 justice          35.05°C 🥵  917‰
+     $9 #49 ~11 peine            31.16°C 😎  858‰
+    $10 #54  ~8 prison           28.63°C 😎  793‰
+    $11 #47 ~13 culpabilité      26.10°C 😎  700‰
+    $12 #51 ~10 condamné         25.58°C 😎  669‰
+    $21 #36     intégrité        18.32°C 🥶
+    $52  #2     chien            -0.72°C 🧊
