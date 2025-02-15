@@ -1,189 +1,185 @@
-# 2025-02-15
+# 2025-02-16
 
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1141 🥳 19 ⏱️ 0:09:12.171941
-- 🔗 squareword.org 🧩 #1111 🥳 14 ⏱️ 0:05:06.178921
-- 🔗 alphaguess.com 🧩 #571 🥳 17 ⏱️ 0:00:35.775511
-- 🔗 alfagok.diginaut.net 🧩 #105 🥳 15 ⏱️ 0:00:42.729163
-- 🔗 cemantle.certitudes.org 🧩 #1048 🥳 29 ⏱️ 0:00:47.897050
-- 🔗 cemantix.certitudes.org 🧩 #1081 🥳 62 ⏱️ 0:03:21.793826
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1142 😦 18 ⏱️ 0:04:44.746429
+- 🔗 squareword.org 🧩 #1112 🥳 9 ⏱️ 0:02:17.902794
+- 🔗 alphaguess.com 🧩 #572 🥳 11 ⏱️ 0:00:26.495122
+- 🔗 alfagok.diginaut.net 🧩 #106 🥳 20 ⏱️ 0:00:55.751152
+- 🔗 cemantle.certitudes.org 🧩 #1049 🥳 729 ⏱️ 1:33:19.052604
+- 🔗 cemantix.certitudes.org 🧩 #1082 🥳 108 ⏱️ 0:12:18.529344
 
 - ❌
 - ✅
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1141 🥳 19
-- ✅ squareword.org 🧩 #1111 🥳 14
-- ✅ alphaguess.com 🧩 #571 🥳 17
-- ✅ alfagok.diginaut.net 🧩 #105 🥳 15
-- ✅ cemantle.certitudes.org 🧩 #1048 🥳 29
-- ✅ cemantix.certitudes.org 🧩 #1081 🥳 62
+- ❌ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1142 😦 18
+- ✅ squareword.org 🧩 #1112 🥳 9
+- ✅ alphaguess.com 🧩 #572 🥳 11
+- ✅ alfagok.diginaut.net 🧩 #106 🥳 20
+- ✅ cemantle.certitudes.org 🧩 #1049 🥳 729
+- ✅ cemantix.certitudes.org 🧩 #1082 🥳 108
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$4hmyFH3wVLpB9BiiX2Cay5oM-UnNQHHSbhkKOOW_-sg?via=aelf.land&via=matrix.org
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$PehSDFz3TiIxUohKEWi1W0bhI6Y4hXTXB2sOY9Ro8qY?via=aelf.land&via=matrix.org
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1141 🥳 19 ⏱️ 0:09:12.171941
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1142 😦 18 ⏱️ 0:04:44.746429
 
 📜 2 sessions
-💰 score: 9700
+💰 score: 4870
 
-    5/6
-    > V I R U S
-      ⬜⬜⬜⬜⬜
-    > P L A C E
-      ⬜🟩🟨⬜⬜
-    > A L O N G
-      🟩🟩⬜⬜⬜
-    > A L W A Y
-      🟩🟩⬜🟩🟩
-    > A L L A Y
-      🟩🟩🟩🟩🟩
-    5/6
-    > S A U C E
-      🟨⬜⬜⬜⬜
-    > C H A S M
-      ⬜🟨⬜⬜🟨
-    > M E D I A
-      ⬜⬜🟨⬜🟨
-    > O M E G A
-      🟨🟨⬜⬜🟩
-    > S M O K E
-      🟩🟩🟩🟩🟩
-    3/6
-    > S M O T E
-      🟨🟩🟨⬜⬜
-    > D R I N K
-      🟩🟩🟩⬜🟩
-    > F L U I D
+    2/6
+    > A N G L E
+      ⬜⬜⬜⬜🟨
+    > T O W E R
       🟩🟩🟩🟩🟩
     4/6
-    > V A L I D
-      ⬜⬜⬜⬜⬜
-    > Q U I E T
-      🟨⬜🟨⬜⬜
-    > F E I N T
-      ⬜🟨⬜🟩🟩
+    > R A I S E
+      ⬜⬜⬜🟨🟨
+    > D R E A M
+      🟨🟨⬜⬜🟨
+    > F R E A K
+      ⬜🟩🟩🟩⬜
+    > R A V E N
+      🟩🟩🟩🟩🟩
+    5/6
+    > W A G E R
+      ⬜🟨🟨🟨⬜
+    > C A T E R
+      🟨🟩⬜🟩⬜
+    > L A S E R
+      ⬜🟩⬜🟩🟩
+    > S C O R E
+      ⬜🟩⬜🟩🟩
+    > S N O R E
+      🟩🟩🟩🟩🟩
+    5/6
+    > S W O R E
+      ⬜⬜🟨🟨🟨
+    > S P O R E
+      🟩⬜🟩🟩🟩
+    > B O U N D
+      🟩⬜🟩🟩🟩
+    > C O U G H
+      🟩⬜🟩🟩🟩
       🟩🟩🟩🟩🟩
     Final 2/2
-      ⬜⬜🟩🟨🟩
-      🟩🟩🟩🟩🟩
+      ⬜🟩🟩⬜⬜
+      🟨🟩🟩⬜🟩
 
-# squareword.org 🧩 #1111 🥳 14 ⏱️ 0:05:06.178921
+# squareword.org 🧩 #1112 🥳 9 ⏱️ 0:02:17.902794
 
 📜 1 sessions
 
 Guesses:
-1. based
 
 Score Heatmap:
-    🟧 🟧 🟧 🟨 🟨
-    🟧 🟧 🟧 🟧 🟩
+    🟩 🟨 🟩 🟨 🟨
+    🟨 🟩 🟩 🟩 🟨
+    🟨 🟨 🟨 🟨 🟨
+    🟩 🟨 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
-    🟨 🟩 🟩 🟨 🟩
-    🟨 🟧 🟨 🟨 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    B A S E D
-    A P P L E
-    T R O U T
-    H O R D E
-    S N E E R
+    T H E S E
+    R U L E D
+    A M O N G
+    C O P S E
+    T R E E S
 
-# alphaguess.com 🧩 #571 🥳 17 ⏱️ 0:00:35.775511
+# alphaguess.com 🧩 #572 🥳 11 ⏱️ 0:00:26.495122
 
-🤔 17 attempts
+🤔 11 attempts
 📜 1 sessions
 
     @       [    0] aa         
     @+1     [    1] aah        
     @+2     [    2] aahed      
     @+3     [    3] aahing     
-    @+47410 [47410] dis        q1  ? after
-    @+72830 [72830] gremolata  q2  ? after
-    @+79163 [79163] hood       q4  ? after
-    @+80748 [80748] hydroxy    q6  ? after
-    @+81539 [81539] iamb       q7  ? after
-    @+81708 [81708] idea       q9  ? after
-    @+81824 [81824] idiopathy  q10 ? after
-    @+81855 [81855] idol       q11 ? after
-    @+81898 [81898] if         q12 ? after
-    @+81909 [81909] igg        q14 ? after
-    @+81912 [81912] iggs       q16 ? after
-    @+81913 [81913] igloo      done. it
-    @+81914 [81914] igloos     q15 ? before
-    @+81919 [81919] igneous    q13 ? before
-    @+81940 [81940] ignitor    q8  ? before
-    @+82340 [82340] immaterial q5  ? before
-    @+85535 [85535] ins        q3  ? before
+    @+23591 [23591] cam        q2  ? after
+    @+26123 [26123] cautious   q5  ? after
+    @+27357 [27357] char       q6  ? after
+    @+27676 [27676] cheap      q8  ? after
+    @+27712 [27712] check      q10 ? it
+    @+27712 [27712] check      done. it
+    @+27829 [27829] cheese     q9  ? before
+    @+28005 [28005] cherub     q7  ? before
+    @+28659 [28659] chloroform q4  ? before
+    @+33726 [33726] con        q3  ? before
+    @+47410 [47410] dis        q1  ? before
     @+98250 [98250] mach       q0  ? before
 
-# alfagok.diginaut.net 🧩 #105 🥳 15 ⏱️ 0:00:42.729163
+# alfagok.diginaut.net 🧩 #106 🥳 20 ⏱️ 0:00:55.751152
 
-🤔 15 attempts
+🤔 20 attempts
+📜 2 sessions
+
+    @        [     0] &-teken   
+    @+1      [     1] &-tekens  
+    @+2      [     2] -cijferig 
+    @+3      [     3] -e-mail   
+    @+24270  [ 24270] ba        q4  ? after
+    @+30525  [ 30525] beelden   q6  ? after
+    @+33465  [ 33465] belasting q7  ? after
+    @+35147  [ 35147] benader   q8  ? after
+    @+35570  [ 35570] benzine   q11 ? after
+    @+35782  [ 35782] bepak     q13 ? after
+    @+35786  [ 35786] bepakt    q18 ? after
+    @+35789  [ 35789] bepalen   q19 ? it
+    @+35789  [ 35789] bepalen   done. it
+    @+35790  [ 35790] bepalend  q17 ? before
+    @+35803  [ 35803] bepantser q16 ? before
+    @+35824  [ 35824] beperk    q15 ? before
+    @+35883  [ 35883] bepoeder  q14 ? before
+    @+35993  [ 35993] berd      q9  ? before
+    @+36839  [ 36839] beroeps   q5  ? before
+    @+49892  [ 49892] boks      q3  ? before
+    @+99871  [ 99871] ex        q2  ? before
+    @+199893 [199893] lij       q0  ? after
+    @+199893 [199893] lij       q1  ? before
+
+# cemantle.certitudes.org 🧩 #1049 🥳 729 ⏱️ 1:33:19.052604
+
+🤔 730 attempts
+📜 2 sessions
+🫧 36 chat sessions
+⁉️ 239 chat prompts
+🤖 85 gemma2:latest replies
+🤖 154 qwen2.5:latest replies
+😱   1 🔥   4 🥵  33 😎 113 🥶 559 🧊  19
+
+      $1 #730   ~1 lab                100.00°C 🥳 1000‰
+      $2 #125 ~124 laboratory          84.97°C 😱  999‰
+      $3 #685   ~9 forensic            50.70°C 🔥  997‰
+      $4  #69 ~143 testing             46.36°C 🔥  996‰
+      $5  #66 ~145 research            42.35°C 🔥  992‰
+      $6 #598  ~18 toxicology          42.11°C 🔥  990‰
+      $7 #223  ~80 beaker              41.73°C 🥵  989‰
+      $8 #131 ~120 microbiology        41.45°C 🥵  988‰
+      $9 #167 ~103 serology            40.69°C 🥵  987‰
+     $10 #138 ~114 test                40.21°C 🥵  985‰
+     $11 #237  ~75 technician          39.08°C 🥵  977‰
+     $40 #222  ~81 bacteriology        33.08°C 😎  895‰
+    $153 #622      ultrasound          22.74°C 🥶
+    $712 #509      sharing             -0.05°C 🧊
+
+# cemantix.certitudes.org 🧩 #1082 🥳 108 ⏱️ 0:12:18.529344
+
+🤔 109 attempts
 📜 1 sessions
+🫧 7 chat sessions
+⁉️ 45 chat prompts
+🤖 45 qwen2.5:latest replies
+😱  1 🔥  1 🥵  1 😎 15 🥶 84 🧊  6
 
-    @        [     0] &-teken         
-    @+1      [     1] &-tekens        
-    @+2      [     2] -cijferig       
-    @+3      [     3] -e-mail         
-    @+199895 [199895] lij             q0  ? after
-    @+300236 [300236] schrijn         q1  ? after
-    @+350382 [350382] vakantie        q2  ? after
-    @+375136 [375136] vrij            q3  ? after
-    @+381348 [381348] weer            q5  ? after
-    @+382905 [382905] wegwerp         q7  ? after
-    @+383709 [383709] wende           q8  ? after
-    @+383735 [383735] wenk            q11 ? after
-    @+383748 [383748] wenkt           q12 ? after
-    @+383754 [383754] wennen          q14 ? it
-    @+383754 [383754] wennen          done. it
-    @+383759 [383759] wens            q10 ? before
-    @+383842 [383842] wereld          q9  ? before
-    @+384523 [384523] werkgelegenheid q6  ? before
-    @+387706 [387706] wind            q4  ? before
-
-# cemantle.certitudes.org 🧩 #1048 🥳 29 ⏱️ 0:00:47.897050
-
-🤔 30 attempts
-📜 1 sessions
-🫧 2 chat sessions
-⁉️ 6 chat prompts
-🤖 6 qwen2.5:latest replies
-🔥  1 🥵  1 😎  2 🥶 24 🧊  1
-
-     $1 #30  ~1 packaging    100.00°C 🥳 1000‰
-     $2 #25  ~2 wrapper       48.38°C 🔥  990‰
-     $3 #19  ~3 coating       40.90°C 🥵  938‰
-     $4 #13  ~5 chocolate     27.12°C 😎   91‰
-     $5 #15  ~4 candy         26.86°C 😎   48‰
-     $6 #26     encapsulate   25.06°C 🥶
-     $7 #23     sugar         22.89°C 🥶
-     $8 #18     caramel       22.49°C 🥶
-     $9 #16     cocoa         20.17°C 🥶
-    $10 #11     cone          19.82°C 🥶
-    $11 #29     layer         19.82°C 🥶
-    $12 #22     rack          18.75°C 🥶
-    $13  #4     icecream      18.01°C 🥶
-    $30  #9     symphony      -3.94°C 🧊
-
-# cemantix.certitudes.org 🧩 #1081 🥳 62 ⏱️ 0:03:21.793826
-
-🤔 63 attempts
-📜 1 sessions
-🫧 3 chat sessions
-⁉️ 14 chat prompts
-🤖 14 qwen2.5:latest replies
-🔥  1 🥵  6 😎 12 🥶 31 🧊 12
-
-     $1 #63  ~1 délit           100.00°C 🥳 1000‰
-     $2 #61  ~3 infraction       63.25°C 😱  999‰
-     $3 #46 ~14 condamnation     45.17°C 🥵  988‰
-     $4 #57  ~5 amende           44.38°C 🥵  986‰
-     $5 #56  ~6 sanction         41.03°C 🥵  969‰
-     $6 #58  ~4 contravention    40.82°C 🥵  966‰
-     $7 #48 ~12 inculpation      40.24°C 🥵  961‰
-     $8 #18 ~18 justice          35.05°C 🥵  917‰
-     $9 #49 ~11 peine            31.16°C 😎  858‰
-    $10 #54  ~8 prison           28.63°C 😎  793‰
-    $11 #47 ~13 culpabilité      26.10°C 😎  700‰
-    $12 #51 ~10 condamné         25.58°C 😎  669‰
-    $21 #36     intégrité        18.32°C 🥶
-    $52  #2     chien            -0.72°C 🧊
+      $1 #109   ~1 liquide         100.00°C 🥳 1000‰
+      $2 #100   ~6 gazeux           57.72°C 😱  999‰
+      $3  #97   ~7 fluide           52.68°C 🔥  991‰
+      $4  #74  ~11 compressible     48.68°C 🥵  975‰
+      $5 #106   ~2 vapeur           42.30°C 😎  888‰
+      $6  #67  ~14 dilatabilité     40.69°C 😎  830‰
+      $7  #70  ~12 dilatable        39.69°C 😎  773‰
+      $8  #25  ~18 dilatation       39.10°C 😎  745‰
+      $9  #43  ~16 vésicule         38.89°C 😎  728‰
+     $10  #69  ~13 expansible       37.99°C 😎  681‰
+     $11  #79   ~9 déformable       37.69°C 😎  660‰
+     $12 #101   ~5 aérosol          37.29°C 😎  627‰
+     $20  #36      systole          31.73°C 🥶
+    $104   #2      bouquet          -0.32°C 🧊
