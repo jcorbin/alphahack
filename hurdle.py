@@ -65,7 +65,7 @@ class Search(StoredLog):
     def __init__(self):
         super().__init__()
 
-        self.debug = 2
+        self.debug = 0
 
         self.size: int = 5
         self.wordlist: str = ''
