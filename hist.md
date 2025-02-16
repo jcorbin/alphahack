@@ -6949,3 +6949,7 @@ See log/play.dictionary.com_games_todays-hurdle/#1141
 # 2025-02-16 squareword.org
 
 See log/squareword.org/#1112
+
+# 2025-02-16 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1142
