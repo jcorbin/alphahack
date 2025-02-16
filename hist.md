@@ -6902,3 +6902,25 @@ See log/play.dictionary.com_games_todays-hurdle/#1141
 🫧 7 chat sessions
 ⁉️ 45 chat prompts
 🤖 45 qwen2.5:latest replies
+
+# 2025-02-16 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 1049
+🤔 729 guesses
+    😱   1
+    🔥   4
+    🥵  33
+    😎 113
+    🥶 559
+    🧊  19
+⏱️ 1:33:19.081348
+```
+
+🤔 730 attempts
+📜 1 sessions
+🫧 36 chat sessions
+⁉️ 239 chat prompts
+🤖 85 gemma2:latest replies
+🤖 154 qwen2.5:latest replies
