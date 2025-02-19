@@ -446,8 +446,12 @@ class Search(StoredLog):
                 return self.do_choose(ui)
 
             if tokens.have(r'(?x) ( ! | /n(o(pe?)?)? ) $'):
-                for m in re.finditer(r'[A-Za-z]', tokens.rest):
-                    self.nope.add(m.group(0).lower())
+                for m in re.finditer(r'[.A-Za-z]', tokens.rest):
+                    c = m.group(0).lower()
+                    if c == '.':
+                        self.nope.clear()
+                    else:
+                        self.nope.add(c)
                 ui.log(f'nope: {" ".join(sorted(self.nope))}')
                 return
 
