@@ -161,7 +161,7 @@ class Search(StoredLog):
                 match = re.match(r'''(?x)
                     may :
                     \s+ (?P<index> \d+ )
-                    (?P<may> (?: \s+ [A-Za-z] )+ )
+                    (?P<may> (?: \s+ [A-Za-z] )* )
                     \s* ( .* )
                     $''', rest)
                 if match:
