@@ -7223,3 +7223,7 @@ See log/play.dictionary.com_games_todays-hurdle/#1145
 
 🔗 alphaguess.com
 ```
+
+# 2025-02-20 squareword.org
+
+See log/squareword.org/#1116
