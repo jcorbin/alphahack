@@ -1,0 +1,103 @@
+T0.000163101009093225 now: 2025-02-21T11:54:59EST
+T0.00020735801081173122 site: squareword.org
+T2.5212909700057935 🧩  ? #1117
+T2.52171307100798 puzzle_id: #1117
+T3.7449428279942367 > *
+T3.836025989992777 questioning: ["yells", "#5 found:9133 hypo:11881376"]
+T6.545394785993267 yells ( #5 found:9133 hypo:11881376 ) ? 
+T7.112483659002464 yells ( #5 found:9133 hypo:11881376 ) > 
+T9.589522540016333 yells ( #5 found:9133 hypo:11881376 ) 1> ____s ~ s
+T9.590801506012212 word: 0 ____s
+T9.59083718401962 may: 0 s
+T11.452715121995425 yells ( #5 found:9133 hypo:11881376 ) 2> ~ ys
+T11.453292719990714 word: 1 _____
+T11.453316286002519 may: 1 s y
+T14.750785720010754 yells ( #5 found:9133 hypo:11881376 ) 3> _e ~ e
+T14.750964965001913 word: 2 _e___
+T14.750982090015896 may: 2 e
+T17.23423479500343 yells ( #5 found:9133 hypo:11881376 ) 4> ~ e
+T17.23450467301882 word: 3 _____
+T17.234529580018716 may: 3 e
+T18.39216150599532 yells ( #5 found:9133 hypo:11881376 ) 5> ~ els
+T18.39238285101601 word: 4 _____
+T18.392403709003702 may: 4 e l s
+T18.392424968013074 question done
+T19.142518876004033 > *
+T19.511126808007248 questioning: ["bosky", "#2 found:8 hypo:35152"]
+T23.842528292996576 bosky ( #2 found:8 hypo:35152 ) ? 
+T25.886308343004202 bosky ( #2 found:8 hypo:35152 ) > 
+T26.921242114010965 bosky ( #2 found:8 hypo:35152 ) 1> 
+T31.332299503992544 bosky ( #2 found:8 hypo:35152 ) 2> 4 ~ eo
+T31.332624191010837 word: 3 _____
+T31.332656751998 may: 3 e o
+T33.635798338014865 bosky ( #2 found:8 hypo:35152 ) 5> __s
+T33.636017806013115 word: 4 __s__
+T33.63604259601561 may: 4 e l
+T33.63606480101589 question done
+T35.46793991801678 > /no bk
+T35.46858178899856 nope: b k
+T36.23438570799772 > *
+T36.696162770007504 questioning: ["aisle", "#5 found:1 hypo:1152"]
+T41.379609380994225 aisle ( #5 found:1 hypo:1152 ) ? 
+T41.70427621001727 aisle ( #5 found:1 hypo:1152 ) > 
+T43.38727404701058 aisle ( #5 found:1 hypo:1152 ) 1> ~ sa
+T43.38747588399565 word: 0 ____s
+T43.38749694699072 may: 0 a s
+T45.00587757999892 aisle ( #5 found:1 hypo:1152 ) 2> 
+T49.82265828899108 aisle ( #5 found:1 hypo:1152 ) 3> _e__e ~ ei
+T49.82296936700004 word: 2 _e__e
+T49.82300299601047 may: 2 e i
+T54.43029781800578 aisle ( #5 found:1 hypo:1152 ) 4> a___e
+T54.43053179999697 word: 3 a___e
+T54.43055275999359 may: 3 o
+T57.07478460299899 aisle ( #5 found:1 hypo:1152 ) 5> ~ ela
+T57.07498928401037 word: 4 __s__
+T57.07501010099077 may: 4 a e l
+T57.075027707993286 question done
+T58.459002481016796 > *
+T58.758188203006284 questioning: ["eerie", "#3 found:1 hypo:48"]
+T61.83446037999238 eerie ( #3 found:1 hypo:48 ) ? 
+T63.478825700003654 eerie ( #3 found:1 hypo:48 ) > 
+T65.04067854399909 eerie ( #3 found:1 hypo:48 ) 1> 
+T67.13216872600606 eerie ( #3 found:1 hypo:48 ) 2> ~ ysr
+T67.13240906700958 word: 1 _____
+T67.13243255100679 may: 1 r s y
+T68.94447441399097 eerie ( #3 found:1 hypo:48 ) 3> eerie
+T68.94465074001346 word: 2 eerie
+T68.94467445000191 may: 2 
+T71.8683170620061 eerie ( #3 found:1 hypo:48 ) 4> 
+T73.08494024601532 eerie ( #3 found:1 hypo:48 ) 5> ~ elar
+T73.08514498500153 word: 4 __s__
+T73.08517407500767 may: 4 a e l r
+T73.08520028501516 question done
+T74.77508470599423 > *
+T75.35735402299906 questioning: ["tryst", "#2 found:1 hypo:3456"]
+T77.98628363601165 tryst ( #2 found:1 hypo:3456 ) ? 
+T79.7828023180191 tryst ( #2 found:1 hypo:3456 ) > 2 tryst
+T79.78299311600858 word: 1 tryst
+T79.78301344599458 may: 1 
+T84.55754721999983 question done
+T85.17189694999252 > *
+T85.92526273900876 questioning: ["laser", "#5 found:1 hypo:24"]
+T90.89963778000674 laser ( #5 found:1 hypo:24 ) ? 
+T92.78018942900235 laser ( #5 found:1 hypo:24 ) > 5 laser
+T92.78038532301434 word: 4 laser
+T92.78040427001542 may: 4 
+T92.78042221299256 question done
+T95.26697454601526 > *
+T96.04351256001974 questioning: ["sagas", "#1 found:1 hypo:1152"]
+T99.22557981600403 sagas ( #1 found:1 hypo:1152 ) ? 
+T100.85129600900109 sagas ( #1 found:1 hypo:1152 ) > 1 sagas
+T100.8515477500041 word: 0 sagas
+T100.85156915101106 may: 0 
+T102.87406604501302 question done
+T103.4533452730102 > *
+T103.93621442100266 questioning: ["anode", "#4 found:1 hypo:576"]
+T106.87201784699573 anode ( #4 found:1 hypo:576 ) ? 
+T108.23833679701784 anode ( #4 found:1 hypo:576 ) > 4 anode
+T108.23845664900728 word: 3 anode
+T108.23847095301608 may: 3 
+T110.5030517730047 question done
+T113.10230680700624 Press <Enter> to 📋 or `>` for line prompt 
+T113.11284272599733 result: "squareword.org 1117: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1117"
+T113.11599039001158 <STOP>
