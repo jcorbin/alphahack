@@ -1641,11 +1641,11 @@ class Search(StoredLog):
             for line in spliterate(body, '\n'):
                 ui.print(f'< {line}')
 
+        prior_keys = set(self.http_client.cookies.iterkeys())
         for name, value in self.http_client.cookies.iteritems():
+            prior_keys.remove(name)
             if self.logged_cookies.get(name, '') != value:
                 ui.log(f'http cookie: {name} {json.dumps(value)}')
-        prior_keys = set(self.http_client.cookies)
-        prior_keys.difference_update(self.http_client.cookies.iterkeys())
         for name in prior_keys:
             ui.log(f'http cookie: {name} _')
 
