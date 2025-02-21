@@ -7231,3 +7231,23 @@ See log/squareword.org/#1116
 # 2025-02-20 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1146
+
+# 2025-02-20 cemantix.certitudes.org
+
+```
+🔗 cemantix.certitudes.org
+🧩 1087
+🤔 373 guesses
+    🔥   1
+    🥵   5
+    😎  44
+    🥶 287
+    🧊  36
+⏱️ 1:40:59.381955
+```
+
+🤔 374 attempts
+📜 14 sessions
+🫧 26 chat sessions
+⁉️ 174 chat prompts
+🤖 174 qwen2.5:latest replies
