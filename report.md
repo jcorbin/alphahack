@@ -1,182 +1,185 @@
-# 2025-02-20
+# 2025-02-21
 
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1146 🥳 20 ⏱️ 0:06:58.033362
-- 🔗 squareword.org 🧩 #1116 🥳 10 ⏱️ 0:03:20.512484
-- 🔗 alphaguess.com 🧩 #576 🥳 13 ⏱️ 0:00:25.380243
-- 🔗 alfagok.diginaut.net 🧩 #110 🥳 13 ⏱️ 0:00:42.416809
-- 🔗 cemantle.certitudes.org 🧩 #1053 🥳 228 ⏱️ 0:15:54.471382
-- 🔗 cemantix.certitudes.org 🧩 #1086 🥳 26 ⏱️ 0:00:57.113263
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1147 🥳 21 ⏱️ 0:05:58.137000
+- 🔗 squareword.org 🧩 #1117 🥳 8 ⏱️ 0:01:53.115990
+- 🔗 alphaguess.com 🧩 #577 🥳 12 ⏱️ 0:00:21.876948
+- 🔗 alfagok.diginaut.net 🧩 #111 🥳 12 ⏱️ 0:00:30.998239
+- 🔗 cemantle.certitudes.org 🧩 #1054 🥳 71 ⏱️ 0:03:53.339295
+- 🔗 cemantix.certitudes.org 🧩 #1087 🥳 373 ⏱️ 1:40:59.348995
 
 - ❌
 - ✅
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1146 🥳 20
-- ✅ squareword.org 🧩 #1116 🥳 10
-- ✅ alphaguess.com 🧩 #576 🥳 13
-- ✅ alfagok.diginaut.net 🧩 #110 🥳 13
-- ✅ cemantle.certitudes.org 🧩 #1053 🥳 228
-- ✅ cemantix.certitudes.org 🧩 #1086 🥳 26
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1147 🥳 21
+- ✅ squareword.org 🧩 #1117 🥳 8
+- ✅ alphaguess.com 🧩 #577 🥳 12
+- ✅ alfagok.diginaut.net 🧩 #111 🥳 12
+- ✅ cemantle.certitudes.org 🧩 #1054 🥳 71
+- ✅ cemantix.certitudes.org 🧩 #1087 🥳 373
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$q2GSqP2-W1Hvjo-ba2AFDK7JILYtrzO5bQD1sfzgeMo?via=aelf.land&via=matrix.org
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$Q0ezKPKWl4ZCGN7WV-5aTOdf8NmOSwei_XcY_ZUQHuo?via=aelf.land&via=matrix.org
 
-# squareword.org 🧩 #1116 🥳 10 ⏱️ 0:03:20.512484
+# squareword.org 🧩 #1117 🥳 8 ⏱️ 0:01:53.115990
 
 📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
-    🟨 🟩 🟨 🟨 🟨
     🟨 🟨 🟨 🟨 🟩
-    🟩 🟨 🟨 🟨 🟩
-    🟨 🟨 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟩 🟨 🟨 🟨 🟩
+    🟨 🟨 🟩 🟨 🟨
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    S E M I S
-    C R O N E
-    R O U S E
-    I D L E D
-    P E T T Y
+    S A G A S
+    T R Y S T
+    E E R I E
+    A N O D E
+    L A S E R
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1146 🥳 20 ⏱️ 0:06:58.033362
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1147 🥳 21 ⏱️ 0:05:58.137000
 
 📜 1 sessions
-💰 score: 9600
+💰 score: 9500
 
     5/6
-    > C A T E R
-      ⬜⬜⬜🟩🟨
-    > P R I E D
-      ⬜🟩⬜🟩🟩
-    > U R G E D
-      ⬜🟩⬜🟩🟩
-    > B R E E D
-      ⬜🟩🟩🟩🟩
-    > F R E E D
+    > A M I N O
+      ⬜⬜⬜⬜🟨
+    > C H O S E
+      🟩⬜🟩⬜⬜
+    > C L O U D
+      🟩⬜🟩⬜⬜
+    > C R O C K
+      🟩🟩🟩⬜🟩
+    > C R O O K
       🟩🟩🟩🟩🟩
     4/6
-    > J O I S T
-      ⬜⬜⬜⬜⬜
-    > C L O A K
-      ⬜🟨⬜⬜⬜
-    > B L O O M
-      ⬜🟩🟩⬜⬜
-    > C A P E R
+    > B L A C K
+      🟨⬜⬜⬜🟩
+    > C L I C K
+      ⬜🟩⬜🟩🟩
+    > F L I C K
+      ⬜🟩🟩🟩🟩
+    > W H I T E
       🟩🟩🟩🟩🟩
     5/6
-    > W A S T E
-      ⬜⬜⬜⬜⬜
-    > V A G U E
-      ⬜🟩⬜🟨⬜
-    > N A I V E
-      ⬜🟩⬜⬜🟩
-    > S M O K E
-      🟨🟩⬜⬜🟩
-    > J U D G E
-      🟩🟩🟩🟩🟩
-    5/6
-    > H E D G E
-      ⬜⬜⬜⬜🟩
-    > L E D G E
-      ⬜⬜⬜⬜🟩
-    > D O W E L
+    > N O I S E
+      ⬜⬜🟩⬜⬜
+    > R A I S E
+      ⬜⬜🟩⬜🟩
+    > A R I S E
       ⬜⬜🟩🟩🟩
+    > F L O C K
+      🟨🟨🟩🟩🟩
+    > T H U M B
+      🟩🟩🟩🟩🟩
+    5/6
+    > J U D G Y
+      ⬜⬜⬜⬜⬜
+    > P U D G Y
+      ⬜⬜⬜⬜⬜
+    > P A V E R
+      ⬜⬜🟨⬜⬜
+    > P A P E R
       ⬜🟩🟩🟩🟩
       🟩🟩🟩🟩🟩
-    Final 1/2
+    Final 2/2
+      🟩🟩⬜🟩🟩
       🟩🟩🟩🟩🟩
 
-# cemantix.certitudes.org 🧩 #1086 🥳 26 ⏱️ 0:00:57.113263
+# alfagok.diginaut.net 🧩 #111 🥳 12 ⏱️ 0:00:30.998239
 
-🤔 27 attempts
-📜 1 sessions
-🫧 2 chat sessions
-⁉️ 6 chat prompts
-🤖 6 qwen2.5:latest replies
-🔥  1 🥵  4 😎  4 🥶 11 🧊  6
-
-     $1 #27  ~1 bus          100.00°C 🥳 1000‰
-     $2 #24  ~4 trajet        56.77°C 🔥  995‰
-     $3 #26  ~2 autocar       49.68°C 🥵  988‰
-     $4 #17  ~7 trolley       37.61°C 🥵  954‰
-     $5 #25  ~3 transport     35.67°C 🥵  944‰
-     $6 #19  ~6 déplacement   32.46°C 🥵  915‰
-     $7 #13  ~9 valise        24.18°C 😎  683‰
-     $8 #14  ~8 bagage        23.89°C 😎  665‰
-     $9  #9 ~10 sac           22.85°C 😎  596‰
-    $10 #22  ~5 course        21.59°C 😎  509‰
-    $11 #18     chariot       17.46°C 🥶
-    $12 #21     roue          15.10°C 🥶
-    $13 #15     coffre        13.21°C 🥶
-    $22  #8     papillon      -0.42°C 🧊
-
-# cemantle.certitudes.org 🧩 #1053 🥳 228 ⏱️ 0:15:54.471382
-
-🤔 229 attempts
-📜 1 sessions
-🫧 10 chat sessions
-⁉️ 60 chat prompts
-🤖 60 qwen2.5:latest replies
-🥵  11 😎  37 🥶 172 🧊   8
-
-      $1 #229   ~1 bedroom        100.00°C 🥳 1000‰
-      $2 #166  ~24 sofa            54.19°C 🥵  982‰
-      $3 #161  ~27 bed             52.46°C 🥵  978‰
-      $4 #142  ~33 closet          49.92°C 🥵  967‰
-      $5 #174  ~18 dresser         49.08°C 🥵  963‰
-      $6 #172  ~19 couch           47.66°C 🥵  958‰
-      $7 #175  ~17 duvet           45.16°C 🥵  936‰
-      $8 #163  ~26 mattress        44.06°C 🥵  926‰
-      $9 #169  ~22 bedframe        42.46°C 🥵  915‰
-     $10 #186  ~11 recliner        41.70°C 🥵  909‰
-     $11 #189  ~10 ottoman         41.47°C 🥵  908‰
-     $13 #171  ~20 comforter       40.03°C 😎  887‰
-     $50 #209      reclining       24.71°C 🥶
-    $222  #90      chalk           -0.21°C 🧊
-
-# alfagok.diginaut.net 🧩 #110 🥳 13 ⏱️ 0:00:42.416809
-
-🤔 13 attempts
+🤔 12 attempts
 📜 1 sessions
 
     @        [     0] &-teken   
     @+1      [     1] &-tekens  
     @+2      [     2] -cijferig 
     @+3      [     3] -e-mail   
-    @+49955  [ 49955] bol       q2  ? after
-    @+56128  [ 56128] brood     q7  ? after
-    @+57466  [ 57466] bui       q10 ? after
-    @+58287  [ 58287] bul       q11 ? after
-    @+58702  [ 58702] burger    q12 ? it
-    @+58702  [ 58702] burger    done. it
-    @+59238  [ 59238] butlers   q9  ? before
-    @+62346  [ 62346] cement    q6  ? before
-    @+74830  [ 74830] dc        q5  ? before
-    @+100087 [100087] examen    q1  ? before
-    @+200289 [200289] lijs      q0  ? before
+    @+200289 [200289] lijs      q0  ? after
+    @+248553 [248553] op        q2  ? after
+    @+261440 [261440] pater     q4  ? after
+    @+267894 [267894] plomp     q5  ? after
+    @+270968 [270968] pot       q6  ? after
+    @+272629 [272629] prijs     q7  ? after
+    @+273439 [273439] privé     q8  ? after
+    @+273585 [273585] pro       q9  ? after
+    @+273766 [273766] proces    q11 ? it
+    @+273766 [273766] proces    done. it
+    @+273962 [273962] product   q10 ? before
+    @+274363 [274363] proef     q3  ? before
+    @+300390 [300390] schroef   q1  ? before
 
-# alphaguess.com 🧩 #576 🥳 13 ⏱️ 0:00:25.380243
+# alphaguess.com 🧩 #577 🥳 12 ⏱️ 0:00:21.876948
 
-🤔 13 attempts
+🤔 12 attempts
 📜 1 sessions
 
-    @        [     0] aa     
-    @+1      [     1] aah    
-    @+2      [     2] aahed  
-    @+3      [     3] aahing 
-    @+98250  [ 98250] mach   q0  ? after
-    @+122815 [122815] parr   q2  ? after
-    @+135045 [135045] prop   q3  ? after
-    @+136284 [136284] public q6  ? after
-    @+136904 [136904] puri   q7  ? after
-    @+137051 [137051] push   q9  ? after
-    @+137125 [137125] put    q10 ? after
-    @+137171 [137171] putt   q11 ? after
-    @+137191 [137191] putty  q12 ? it
-    @+137191 [137191] putty  done. it
-    @+137216 [137216] pya    q8  ? before
-    @+137534 [137534] qua    q5  ? before
-    @+140554 [140554] rec    q4  ? before
-    @+147415 [147415] rhumb  q1  ? before
+    @       [    0] aa        
+    @+1     [    1] aah       
+    @+2     [    2] aahed     
+    @+3     [    3] aahing    
+    @+47410 [47410] dis       q1  ? after
+    @+60113 [60113] face      q3  ? after
+    @+63269 [63269] flag      q5  ? after
+    @+64066 [64066] flood     q7  ? after
+    @+64226 [64226] flour     q9  ? after
+    @+64258 [64258] flower    q11 ? it
+    @+64258 [64258] flower    done. it
+    @+64312 [64312] flue      q10 ? before
+    @+64409 [64409] fluor     q8  ? before
+    @+64866 [64866] foment    q6  ? before
+    @+66469 [66469] french    q4  ? before
+    @+72830 [72830] gremolata q2  ? before
+    @+98250 [98250] mach      q0  ? before
+
+# cemantix.certitudes.org 🧩 #1087 🥳 373 ⏱️ 1:40:59.348995
+
+🤔 374 attempts
+📜 15 sessions
+🫧 26 chat sessions
+⁉️ 174 chat prompts
+🤖 174 qwen2.5:latest replies
+🔥   1 🥵   5 😎  44 🥶 287 🧊  36
+
+      $1 #374   ~1 passif             100.00°C 🥳 1000‰
+      $2 #368   ~4 inactif             39.60°C 🔥  995‰
+      $3 #352  ~10 négatif             33.45°C 🥵  977‰
+      $4 #209  ~25 comportement        33.12°C 🥵  975‰
+      $5 #199  ~27 attitude            32.93°C 🥵  972‰
+      $6 #171  ~34 manière             30.80°C 🥵  945‰
+      $7 #353   ~9 positif             30.54°C 🥵  936‰
+      $8 #133  ~36 différer            28.83°C 😎  896‰
+      $9  #70  ~48 dissocier           28.80°C 😎  894‰
+     $10 #113  ~43 exclure             28.23°C 😎  871‰
+     $11 #371   ~2 inertie             28.18°C 😎  869‰
+     $52 #325      écart               20.84°C 🥶
+    $338  #60  ~49 déconnexion          0.21°C 😎   14‰
+    $339 #299      variété             -0.03°C 🧊
+
+# cemantle.certitudes.org 🧩 #1054 🥳 71 ⏱️ 0:03:53.339295
+
+🤔 72 attempts
+📜 1 sessions
+🫧 4 chat sessions
+⁉️ 16 chat prompts
+🤖 16 qwen2.5:latest replies
+😱  1 🔥  2 🥵  8 😎 14 🥶 46
+
+     $1 #72  ~1 bacterium      100.00°C 🥳 1000‰
+     $2 #29 ~22 bacteria        84.70°C 😱  999‰
+     $3 #53 ~13 microorganism   74.71°C 🔥  996‰
+     $4 #65  ~6 pathogen        74.29°C 🔥  995‰
+     $5 #68  ~4 phage           62.70°C 🥵  985‰
+     $6 #37 ~20 microbial       62.13°C 🥵  984‰
+     $7 #52 ~14 germ            59.94°C 🥵  977‰
+     $8 #71  ~2 bacteriophage   55.26°C 🥵  951‰
+     $9 #60 ~10 antigen         55.13°C 🥵  949‰
+    $10 #42 ~17 yeast           54.68°C 🥵  947‰
+    $11 #64  ~7 mutation        54.58°C 🥵  944‰
+    $12 #49 ~15 spore           53.59°C 🥵  935‰
+    $13 #67  ~5 infection       50.27°C 😎  881‰
+    $27 #56     oxidation       37.15°C 🥶
