@@ -1523,6 +1523,7 @@ class Search(StoredLog):
         referer: str|None = None,
         headers: dict[str, str]|None=None,
         data: dict[str, object]|None=None,
+        params: dict[str, str]|None=None,
         allow_redirects: bool=True,
         timeout: int = 3,
         verbose: int|None = None,
@@ -1544,6 +1545,7 @@ class Search(StoredLog):
             requests.Request(
                 method=method.upper(),
                 url=f'{self.origin}{path}',
+                params=params,
                 headers=headers,
                 data=data,
             ),
