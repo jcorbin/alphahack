@@ -575,7 +575,7 @@ class BadWordError(RuntimeError):
 @dataclass
 class WordScore:
     word: str
-    score: float|None = None
+    score: float
     prog: int|None = None
     puzzle_num: int|None = None
     solvers: int|None = None
@@ -600,6 +600,9 @@ class WordScore:
             elif key in ('solvers', 'v') and isinstance(value, int):
                 solvers = value
             else: unknown.add(key)
+
+        if score is None:
+            raise ValueError(f'no word score found in {data!r}')
 
         if unknown:
             raise ValueError(f'unknown keys {unknown!r} in word score data {data!r}')
