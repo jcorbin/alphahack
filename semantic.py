@@ -568,6 +568,9 @@ class ExtractedWords:
     def __str__(self):
         return ' '.join(self.notes)
 
+class BadWordError(RuntimeError):
+    pass
+
 @final
 @dataclass
 class WordScore:
@@ -587,7 +590,7 @@ class WordScore:
 
         for key, value in data.items():
             if key in ('error', 'e'):
-                raise ValueError(value)
+                raise BadWordError(value)
             elif key in ('num', 'n') and isinstance(value, int):
                 puzzle_num = value
             elif key in ('score', 's') and isinstance(value, float):
@@ -2748,10 +2751,14 @@ class Search(StoredLog):
                 data = cast(dict[str, object], data)
                 ws = WordScore.extract(word, data)
 
-            except ValueError as err:
+            except BadWordError as err:
                 ui.fin(f' ! {err}')
                 self.reject(ui, word)
                 return
+
+            except ValueError as err:
+                ui.fin(f' ! {err}')
+                raise KeyboardInterrupt
 
             if f'#{ws.puzzle_num}' != self.puzzle_id:
                 ui.fin(f' ! ❌ #{ws.puzzle_num} 🧩 {self.puzzle_id}')
