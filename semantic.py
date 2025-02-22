@@ -2731,22 +2731,24 @@ class Search(StoredLog):
             ui.write(f'Auto scoring {word!r:{ww}}...')
 
             res = self.request(ui, 'post', '/score', data={'word': word})
-            data = cast(object, res.json())
-            if isinstance(data, dict):
+
+            try:
+                data = cast(object, res.json())
+                if not isinstance(data, dict):
+                    raise ValueError('response json is not an object')
                 data = cast(dict[str, object], data)
+                ws = WordScore.extract(word, data)
 
-                try:
-                    ws = WordScore.extract(word, data)
-                except ValueError as err:
-                    ui.fin(f' ! {err}')
-                    self.reject(ui, word)
-                    return
+            except ValueError as err:
+                ui.fin(f' ! {err}')
+                self.reject(ui, word)
+                return
 
-                if f'#{ws.puzzle_num}' != self.puzzle_id:
-                    ui.fin(f' ! ❌ #{ws.puzzle_num} 🧩 {self.puzzle_id}')
-                    raise StopIteration
+            if f'#{ws.puzzle_num}' != self.puzzle_id:
+                ui.fin(f' ! ❌ #{ws.puzzle_num} 🧩 {self.puzzle_id}')
+                raise StopIteration
 
-                # TODO track ws.solvers?
+            # TODO track ws.solvers?
 
         score = None
         prog = None
