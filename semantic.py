@@ -2722,8 +2722,6 @@ class Search(StoredLog):
             ui.print(f'{self.describe_word(i, word=word)} is already known')
             return
 
-        ws = WordScore(word)
-
         ww = max(
             len(word),
             max(len(word) for word in self.word) if self.word else 0,
@@ -2757,27 +2755,26 @@ class Search(StoredLog):
 
             # TODO track ws.solvers?
 
-        score = None
-        prog = None
-
-        if ws.score is not None:
             score = 100.0*ws.score
-            ui.write(f' score {ws.score:7.4f} ...')
-
             prog = ws.prog
 
             prog_at = self.prog_after
             if prog_at is not None:
-                if prog is None or prog >= prog_at:
-                    i = self.record(ui, word, score, prog)
-                    if i is not None:
-                        ui.fin(f' 💿 {self.describe_word(i)}')
-                    return self.finish if self.found else None
+                if prog is None and score > prog_at:
+                    ui.fin(f' ! auto score missing prog at={prog_at} {ws!r}')
+                    raise KeyboardInterrupt
+
+            ui.write(f' score {ws.score:7.4f} ...')
+
+            i = self.record(ui, word, score, prog)
+            if i is not None:
+                ui.fin(f' 💿 {self.describe_word(i)}')
+            return self.finish if self.found else None
 
         with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
             ui.br()
             ui.copy(word)
-            return self.attempt_score_word(ui, word, desc, score, prog)
+            return self.attempt_score_word(ui, word, desc)
 
     @property
     def prog_after(self):
