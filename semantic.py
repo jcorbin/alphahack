@@ -1991,20 +1991,11 @@ class Search(StoredLog):
 
     def check_stats(self, ui: PromptUI):
         ui.write('Fetching stats...')
-        res = self.request(ui, 'get', '/stats')
+        res = self.request(ui, 'get', '/stats', params={'n': f'{self.puzzle_num}'})
 
         stats = cast(object, res.json())
         if isinstance(stats, dict):
             stats = cast(dict[str, object], stats)
-            try:
-                num = stats['num']
-            except KeyError:
-                ui.print(f'! no puzzle num in {stats!r}')
-                return
-            if self.puzzle_id != f'#{num}':
-                ui.print(f'! puzzle id mismatch, expected {self.puzzle_id}, have {num}')
-                raise StopIteration
-
             try:
                 solvers = stats['solvers']
             except KeyError:
@@ -2752,7 +2743,7 @@ class Search(StoredLog):
         if self.auto_score:
             ui.write(f'Auto scoring {word!r:{ww}}...')
 
-            res = self.request(ui, 'post', '/score', data={'word': word})
+            res = self.request(ui, 'post', '/score', params={'n': f'{self.puzzle_num}'}, data={'word': word})
 
             try:
                 data = cast(object, res.json())
@@ -2770,6 +2761,7 @@ class Search(StoredLog):
                 ui.fin(f' ! {err}')
                 raise KeyboardInterrupt
 
+            # TODO probably obsolete now that we never get puzzle_num response data
             if ws.puzzle_num is not None and ws.puzzle_num != self.puzzle_num:
                 ui.fin(f' ! ❌ #{ws.puzzle_num} 🧩 {self.puzzle_id}')
                 raise KeyboardInterrupt
