@@ -642,6 +642,8 @@ class Search(StoredLog):
     def __init__(self):
         super().__init__()
 
+        self._puzzle_num: int|None = None
+
         self.pubtime: datetime.datetime|None = None
         self.lang: str = self.default_lang
         self.scale: Scale = dict(scale_fixed)
@@ -687,6 +689,19 @@ class Search(StoredLog):
         self.explain_auto: bool = False
         self.auto_token_limit = 400
         self.full_auto: bool = False
+
+    @property
+    def puzzle_num(self):
+        if self._puzzle_num is None:
+            match = re.match(r'#(\d+)', self.puzzle_id)
+            if not match:
+                raise ValueError('unable to infer puzzle_num')
+            self._puzzle_num = int(match.group(1))
+        return self._puzzle_num
+
+    @puzzle_num.setter
+    def puzzle_num(self, val: int):
+        self._puzzle_num = val
 
     @property
     def result(self):
@@ -910,7 +925,8 @@ class Search(StoredLog):
         if script:
             spn = script.attrs.get('data-puzzle-number')
             if isinstance(spn, str):
-                self.puzzle_id = f'#{spn}'
+                self.puzzle_num = int(spn)
+                self.puzzle_id = f'#{self.puzzle_num}'
                 ui.log(f'puzzle_id: {self.puzzle_id}')
                 ui.write(f' 🧩 {self.puzzle_id}')
 
@@ -1235,6 +1251,7 @@ class Search(StoredLog):
                         if res:
                             if res.site: self.site = res.site
                             if not self.puzzle_id:
+                                self.puzzle_num = res.puzzle_id
                                 self.puzzle_id = f'#{res.puzzle_id}'
                     continue
 
@@ -1755,6 +1772,7 @@ class Search(StoredLog):
                     ui.print('! puzzle_id must be like #<NUMBER>')
                     return
                 ui.log(f'puzzle_id: {ps}')
+                self.puzzle_num = int(ps)
                 self.puzzle_id = ps
 
     def do_scale(self, ui: PromptUI):
@@ -1973,20 +1991,11 @@ class Search(StoredLog):
 
     def check_stats(self, ui: PromptUI):
         ui.write('Fetching stats...')
-        res = self.request(ui, 'get', '/stats')
+        res = self.request(ui, 'get', '/stats', params={'n': f'{self.puzzle_num}'})
 
         stats = cast(object, res.json())
         if isinstance(stats, dict):
             stats = cast(dict[str, object], stats)
-            try:
-                num = stats['num']
-            except KeyError:
-                ui.print(f'! no puzzle num in {stats!r}')
-                return
-            if self.puzzle_id != f'#{num}':
-                ui.print(f'! puzzle id mismatch, expected {self.puzzle_id}, have {num}')
-                raise StopIteration
-
             try:
                 solvers = stats['solvers']
             except KeyError:
@@ -2734,7 +2743,7 @@ class Search(StoredLog):
         if self.auto_score:
             ui.write(f'Auto scoring {word!r:{ww}}...')
 
-            res = self.request(ui, 'post', '/score', data={'word': word})
+            res = self.request(ui, 'post', '/score', params={'n': f'{self.puzzle_num}'}, data={'word': word})
 
             try:
                 data = cast(object, res.json())
@@ -2752,9 +2761,10 @@ class Search(StoredLog):
                 ui.fin(f' ! {err}')
                 raise KeyboardInterrupt
 
-            if f'#{ws.puzzle_num}' != self.puzzle_id:
+            # TODO probably obsolete now that we never get puzzle_num response data
+            if ws.puzzle_num is not None and ws.puzzle_num != self.puzzle_num:
                 ui.fin(f' ! ❌ #{ws.puzzle_num} 🧩 {self.puzzle_id}')
-                raise StopIteration
+                raise KeyboardInterrupt
 
             # TODO track ws.solvers?
 
