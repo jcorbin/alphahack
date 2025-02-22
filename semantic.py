@@ -18,6 +18,7 @@ from itertools import chain
 from typing import assert_never, cast, final, overload, override, Callable, Literal
 from urllib.parse import urlparse
 
+from chat import get_olm_models
 from mdkit import break_sections, capture_fences, fenceit
 from store import StoredLog, git_txn
 from strkit import matchgen, spliterate, wraplines, MarkedSpec
@@ -206,16 +207,6 @@ def parse_digit_int(s: str, default: int = 0):
     for n in parse_digits(s):
         nn = n if nn is None else 10*nn + n
     return default if nn is None else nn
-
-def get_olm_models(client: ollama.Client) -> Generator[str]:
-    models = cast(object, client.list()['models'])
-    assert isinstance(models, list)
-    for x in cast(list[object], models):
-        assert isinstance(x, dict)
-        x = cast(dict[str, object], x)
-        name = x.get('name')
-        assert isinstance(name, str)
-        yield name
 
 def olm_find_model(client: ollama.Client, name: str):
     try:
