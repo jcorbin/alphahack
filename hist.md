@@ -7488,3 +7488,15 @@ See log/play.dictionary.com_games_todays-hurdle/#1149
 ⏱️ 31s
 🔗 alfagok.diginaut.net
 ```
+
+# 2025-02-24 alphaguess.com
+
+```
+🧩 Puzzle #580
+
+🤔 17 guesses
+
+⏱️ 35s
+
+🔗 alphaguess.com
+```
