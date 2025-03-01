@@ -1,0 +1,152 @@
+T0.00014845700934529305 now: 2025-03-01T16:35:21EST
+T0.00018888298654928803 site: squareword.org
+T2.5625877490092535 🧩  ? #1125
+T2.562936547008576 puzzle_id: #1125
+T4.21929443400586 > *
+T4.313702048006235 questioning: ["ouphe", "#5 found:5546 hypo:11881376"]
+T7.962927604996366 ouphe ( #5 found:5546 hypo:11881376 ) ? 
+T8.106884681008523 ouphe ( #5 found:5546 hypo:11881376 ) > 
+T10.099020942987408 ouphe ( #5 found:5546 hypo:11881376 ) 1> ~ o
+T10.10057290099212 word: 0 _____
+T10.100620465993416 may: 0 o
+T10.819162105995929 ouphe ( #5 found:5546 hypo:11881376 ) 2> 
+T12.035453155986033 ouphe ( #5 found:5546 hypo:11881376 ) 3> ~ pe
+T12.035804084996926 word: 2 _____
+T12.03583554000943 may: 2 e p
+T15.754620294988854 ouphe ( #5 found:5546 hypo:11881376 ) 4> _u ~ e
+T15.75473084000987 word: 3 _u___
+T15.754742588003865 may: 3 e
+T18.17889204400126 ouphe ( #5 found:5546 hypo:11881376 ) 5> 
+T18.17903945798753 question done
+T19.10696958898916 > /no h
+T19.1078120279999 nope: h
+T20.202932291984325 > *
+T20.503626413992606 questioning: ["tunes", "#4 found:223 hypo:15625"]
+T23.28287753899349 tunes ( #4 found:223 hypo:15625 ) ? 
+T23.786269825010095 tunes ( #4 found:223 hypo:15625 ) > 
+T27.555133273010142 tunes ( #4 found:223 hypo:15625 ) 1> t___s
+T27.555322765983874 word: 0 t___s
+T27.55534082799568 may: 0 o
+T29.9549813719932 tunes ( #4 found:223 hypo:15625 ) 2> ~ t
+T29.95518652998726 word: 1 _____
+T29.955206085985992 may: 1 t
+T31.68306232098257 tunes ( #4 found:223 hypo:15625 ) 3> ~ pet
+T31.683280041994294 word: 2 _____
+T31.683303189987782 may: 2 e p t
+T34.794611972989514 tunes ( #4 found:223 hypo:15625 ) 4> _u_e
+T34.79482034500688 word: 3 _u_e_
+T34.79484191600932 may: 3 
+T36.76315458599129 tunes ( #4 found:223 hypo:15625 ) 5> ~ ts
+T36.7634539080027 word: 4 _____
+T36.76348315298674 may: 4 s t
+T36.76351021998562 question done
+T37.89101170698996 > /no hn
+T37.89118946000235 nope: h n
+T38.6029600519978 > *
+T39.123400056996616 questioning: ["trois", "#1 found:42 hypo:576"]
+T43.21887554600835 trois ( #1 found:42 hypo:576 ) ? 
+T43.38716490101069 trois ( #1 found:42 hypo:576 ) > 
+T47.18694840700482 trois ( #1 found:42 hypo:576 ) 1> t_o_s
+T47.18712176400004 word: 0 t_o_s
+T47.187139115005266 may: 0 
+T49.62680265799281 trois ( #1 found:42 hypo:576 ) 2> 1 ~ o
+T49.62701437700889 word: 0 t_o_s
+T49.62703303998569 may: 0 o
+T53.6984479209932 trois ( #1 found:42 hypo:576 ) 2> ___i
+T53.698561086988775 word: 1 ___i_
+T53.698572663997766 may: 1 t
+T55.970845236995956 trois ( #1 found:42 hypo:576 ) 3> ~ peti
+T55.971037788985996 word: 2 _____
+T55.971058086986886 may: 2 e i p t
+T63.87514941900736 trois ( #1 found:42 hypo:576 ) 4> ~ r
+T63.87536047201138 word: 3 _u_e_
+T63.87538166399463 may: 3 r
+T65.23501057398971 trois ( #1 found:42 hypo:576 ) 5> ~ tsr
+T65.23522432998288 word: 4 _____
+T65.2352476719825 may: 4 r s t
+T65.23526870299247 question done
+T69.85887843300588 > * 3
+T70.06520713301143 questioning: ["stipe", "#3 found:6 hypo:576"]
+T73.53898610698525 stipe ( #3 found:6 hypo:576 ) ? 
+T73.73089656699449 stipe ( #3 found:6 hypo:576 ) > 
+T82.86684793498716 stipe ( #3 found:6 hypo:576 ) 1> 5 s
+T82.86705979099497 word: 4 s____
+T82.86708085698774 may: 4 r t
+T82.86709943198366 question done
+T86.61139687799732 > * 
+T86.84474219198455 questioning: ["toots", "#1 found:2 hypo:24"]
+T89.6506130709895 toots ( #1 found:2 hypo:24 ) ? 
+T89.81103049099329 toots ( #1 found:2 hypo:24 ) > 
+T92.09888225400937 toots ( #1 found:2 hypo:24 ) 1> too_s
+T92.09906327800127 word: 0 too_s
+T92.0990814609977 may: 0 
+T97.9309892859892 toots ( #1 found:2 hypo:24 ) 2> 
+T102.45913061199826 toots ( #1 found:2 hypo:24 ) 3> ___t ~ pei
+T102.45939124500728 word: 2 ___t_
+T102.45941728100297 may: 2 e i p
+T105.21907904400723 toots ( #1 found:2 hypo:24 ) 4> 
+T105.69137779000448 toots ( #1 found:2 hypo:24 ) 5> 
+T105.6915501600015 question done
+T106.98697212300613 > *
+T107.6564937059884 questioning: ["smart", "#5 found:1 hypo:1152"]
+T112.68299211698468 smart ( #5 found:1 hypo:1152 ) ? 
+T114.9465657910041 smart ( #5 found:1 hypo:1152 ) > 
+T115.41917472699424 smart ( #5 found:1 hypo:1152 ) 1> 
+T119.59475683199707 smart ( #5 found:1 hypo:1152 ) 2> ___it ~ ma
+T119.59499747300288 word: 1 ___it
+T119.59503245700034 may: 1 a m
+T122.78708962799283 smart ( #5 found:1 hypo:1152 ) 3> ~ peia
+T122.78731706299004 word: 2 ___t_
+T122.78734075298416 may: 2 a e i p
+T125.86683312398964 smart ( #5 found:1 hypo:1152 ) 4> ~ ra
+T125.86707415399724 word: 3 _u_e_
+T125.86709724200773 may: 3 a r
+T128.8994408409926 smart ( #5 found:1 hypo:1152 ) 5> smart
+T128.89968440198572 word: 4 smart
+T128.8997383469832 may: 4 
+T128.89976323599694 question done
+T130.05888303200481 > *
+T131.07602446700912 questioning: ["admit", "#2 found:1 hypo:48"]
+T134.51493159899837 admit ( #2 found:1 hypo:48 ) ? 
+T135.15523096499965 admit ( #2 found:1 hypo:48 ) > 
+T136.60336662700865 admit ( #2 found:1 hypo:48 ) 1> 
+T137.66681116900872 admit ( #2 found:1 hypo:48 ) 2> admit
+T137.6670050789835 word: 1 admit
+T137.66702463600086 may: 1 
+T141.21123402001103 admit ( #2 found:1 hypo:48 ) 3> 
+T144.46707623900147 admit ( #2 found:1 hypo:48 ) 4> au_e
+T144.467282291007 word: 3 au_e_
+T144.46730239098542 may: 3 r
+T145.92317118798383 admit ( #2 found:1 hypo:48 ) 5> 
+T145.92332205400453 question done
+T159.40260142000625 > *
+T160.4105693770107 questioning: ["pieta", "#3 found:1 hypo:24"]
+T164.81092710999656 pieta ( #3 found:1 hypo:24 ) ? 
+T165.0026516999933 pieta ( #3 found:1 hypo:24 ) > 
+T166.5713363130053 pieta ( #3 found:1 hypo:24 ) 1> 3 pieta
+T166.5716268600081 word: 2 pieta
+T166.57165604099282 may: 2 
+T170.3549742049945 question done
+T171.12299427500693 > *
+T171.87607176898746 questioning: ["auger", "#4 found:1 hypo:24"]
+T174.9064778769971 auger ( #4 found:1 hypo:24 ) ? 
+T176.9064940380049 auger ( #4 found:1 hypo:24 ) > 4 auger
+T176.90667051199125 word: 3 auger
+T176.9066873730044 may: 3 
+T178.0025388179929 question done
+T178.4663540289912 > *
+T179.048569726001 questioning: ["toots", "#1 found:2 hypo:24"]
+T181.34705706499517 toots ( #1 found:2 hypo:24 ) ? !
+T181.34722252198844 reject: toots
+T181.90694044198608 > *
+T182.41928281198489 questioning: ["tools", "#1 found:1 hypo:24"]
+T190.25103915599175 tools ( #1 found:1 hypo:24 ) ? 
+T190.42693204298848 tools ( #1 found:1 hypo:24 ) > 
+T190.92277775600087 tools ( #1 found:1 hypo:24 ) 1> 
+T194.44239333301084 tools ( #1 found:1 hypo:24 ) 2> 1 tools
+T194.4425041670038 word: 0 tools
+T194.44251237998833 may: 0 
+T195.043356663984 question done
+T199.04322829199373 Press <Enter> to 📋 or `>` for line prompt 
+T199.0491935769969 result: "squareword.org 1125: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1125"
+T199.0502260059875 <STOP>
