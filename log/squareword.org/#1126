@@ -1,0 +1,144 @@
+T0.00014795500101172365 now: 2025-03-02T09:34:19EST
+T0.00018569299936643802 site: squareword.org
+T2.558176774000458 🧩  ? #1126
+T2.5585903430001053 puzzle_id: #1126
+T5.592880767002498 > *
+T5.690121014999022 questioning: ["peppy", "#5 found:5776 hypo:11881376"]
+T8.587890355000127 peppy ( #5 found:5776 hypo:11881376 ) ? 
+T8.907581750001555 peppy ( #5 found:5776 hypo:11881376 ) > 
+T9.769871737000358 peppy ( #5 found:5776 hypo:11881376 ) 1> 
+T10.706408574002126 peppy ( #5 found:5776 hypo:11881376 ) 2> ~ e
+T10.70751146800103 word: 1 _____
+T10.707537995000166 may: 1 e
+T11.647830247999082 peppy ( #5 found:5776 hypo:11881376 ) 3> 
+T13.914165132002381 peppy ( #5 found:5776 hypo:11881376 ) 4> ~e
+T13.91437329800101 word: 3 _____
+T13.914393757000653 may: 3 e
+T17.112603908000892 peppy ( #5 found:5776 hypo:11881376 ) 5> _e__y ~ e
+T17.1130007890024 word: 4 _e__y
+T17.113036791000923 may: 4 e
+T17.11306909600171 question done
+T19.635882369002502 > /no p
+T19.636756853000406 nope: p
+T20.679011813001125 > *
+T20.92961271099921 questioning: ["reedy", "#5 found:8 hypo:625"]
+T24.64389522300189 reedy ( #5 found:8 hypo:625 ) ? 
+T25.031582256000547 reedy ( #5 found:8 hypo:625 ) > 
+T25.88847364799949 reedy ( #5 found:8 hypo:625 ) 1> 
+T26.781697201000497 reedy ( #5 found:8 hypo:625 ) 2> 
+T28.372729160000745 reedy ( #5 found:8 hypo:625 ) 3> r__d
+T28.372925448002206 word: 2 r__d_
+T28.372951306999312 may: 2 
+T31.484363280000252 reedy ( #5 found:8 hypo:625 ) 4> ~ ed
+T31.484577324001293 word: 3 _____
+T31.48459826600083 may: 3 d e
+T33.04564039899924 reedy ( #5 found:8 hypo:625 ) 5> __e_y
+T33.0459450260023 word: 4 __e_y
+T33.046022403999814 may: 4 
+T33.04605642000024 question done
+T35.34670997899957 > reedy
+T35.34746992000146 questioning: ["reedy", "entered"]
+T36.80815554600122 reedy ( entered ) ? 
+T39.72442759399928 reedy ( entered ) > 5 _ee_y
+T39.72464840500106 word: 4 _ee_y
+T39.7246685329992 may: 4 
+T39.72469037400151 question done
+T41.76969200000167 > *
+T42.01491695500226 questioning: ["seely", "#5 found:7 hypo:625"]
+T46.8184142680002 seely ( #5 found:7 hypo:625 ) ? 
+T47.783339874000376 seely ( #5 found:7 hypo:625 ) > 
+T48.66561511300097 seely ( #5 found:7 hypo:625 ) 1> ~ s
+T48.66570289200172 word: 0 _____
+T48.665710306999244 may: 0 s
+T52.07249816799958 seely ( #5 found:7 hypo:625 ) 2> ___l
+T52.07269780000206 word: 1 ___l_
+T52.07271764899997 may: 1 e
+T55.40232934999949 seely ( #5 found:7 hypo:625 ) 3> ~ s
+T55.402540728999156 word: 2 r__d_
+T55.40256738899916 may: 2 s
+T57.962773826002376 seely ( #5 found:7 hypo:625 ) 4> ~ eds
+T57.96311386900197 word: 3 _____
+T57.96314817500024 may: 3 d e s
+T61.14238683400254 seely ( #5 found:7 hypo:625 ) 5> ␚
+T61.14254083199921 question done
+T62.40286667300097 > *
+T62.70880678300091 questioning: ["teeny", "#5 found:4 hypo:625"]
+T73.76324421800018 teeny ( #5 found:4 hypo:625 ) ? 
+T75.67548554200039 teeny ( #5 found:4 hypo:625 ) > 3 ~ sn
+T75.67571512699942 word: 2 r__d_
+T75.67573773000186 may: 2 n s
+T78.49378252300085 teeny ( #5 found:4 hypo:625 ) 4> 5 teeny
+T78.49406489100147 word: 4 teeny
+T78.49410555900249 may: 4 
+T78.49413061800078 question done
+T79.81922862600186 > *
+T79.95342200700179 questioning: ["rynds", "#3 found:4 hypo:50"]
+T82.82511383900055 rynds ( #3 found:4 hypo:50 ) ? 
+T87.3026181660025 rynds ( #3 found:4 hypo:50 ) > 3 r_nds
+T87.30284157099959 word: 2 r_nds
+T87.30286406300002 may: 2 
+T90.15768853700138 rynds ( #3 found:4 hypo:50 ) 4> ____s
+T90.15791356499903 word: 3 ____s
+T90.15793949400177 may: 3 d e
+T91.36079388800135 rynds ( #3 found:4 hypo:50 ) 5> 
+T91.36090971100202 question done
+T92.19206542500251 > *
+T92.37653074199989 questioning: ["rends", "#3 found:2 hypo:25"]
+T99.04259654199996 rends ( #3 found:2 hypo:25 ) ? ␚
+T99.0427460259998 question done
+T100.19932410500041 > *
+T100.20462340300219 questioning: ["rinds", "#3 found:3 hypo:25"]
+T102.98304554599963 rinds ( #3 found:3 hypo:25 ) ? 
+T105.61033762100124 rinds ( #3 found:3 hypo:25 ) > 3 rinds
+T105.61053818900109 word: 2 rinds
+T105.6105585080004 may: 2 
+T108.46394349299953 rinds ( #3 found:3 hypo:25 ) 4> 2 ~ ei
+T108.46417716799988 word: 1 ___l_
+T108.46419835100096 may: 1 e i
+T110.0811452070011 rinds ( #3 found:3 hypo:25 ) 3> ␚
+T110.08126860199991 question done
+T110.62338996399922 > *
+T110.73559813999964 questioning: ["adzes", "#4 found:1 hypo:1250"]
+T114.09676951800066 adzes ( #4 found:1 hypo:1250 ) ? 
+T118.06336037599976 adzes ( #4 found:1 hypo:1250 ) > 4 _d_es
+T118.06359148400225 word: 3 _d_es
+T118.06361229600225 may: 3 
+T121.23210125400146 adzes ( #4 found:1 hypo:1250 ) 5> ␚
+T121.23226592300125 question done
+T123.91274562400213 > /no azp
+T123.91294975200071 nope: a p z
+T124.46162408000237 > *
+T125.51220839000234 questioning: ["edges", "#4 found:1 hypo:529"]
+T130.77347623600144 edges ( #4 found:1 hypo:529 ) ? 
+T133.87377372400078 edges ( #4 found:1 hypo:529 ) > 2 e__l
+T133.8740289439993 word: 1 e__l_
+T133.87406457100224 may: 1 i
+T136.66750829300145 edges ( #4 found:1 hypo:529 ) 3> 2 ~ ei
+T136.66775146900181 word: 1 e__l_
+T136.667783339999 may: 1 e i
+T141.68374679400222 edges ( #4 found:1 hypo:529 ) 3> 4 edges
+T141.68395784699896 word: 3 edges
+T141.6840083930001 may: 3 
+T144.53604100400116 edges ( #4 found:1 hypo:529 ) 5> 
+T144.53620814200258 question done
+T145.5396938720005 > *
+T146.3035768080008 questioning: ["exile", "#2 found:1 hypo:46"]
+T149.66821252199952 exile ( #2 found:1 hypo:46 ) ? 
+T152.14830301199981 exile ( #2 found:1 hypo:46 ) > 2 exile
+T152.1483969760011 word: 1 exile
+T152.14840348800135 may: 1 
+T153.89802698900166 exile ( #2 found:1 hypo:46 ) 3> ␚
+T153.89813837900147 question done
+T154.38263725400247 > *
+T154.9132196520004 questioning: ["bosom", "#1 found:1 hypo:279841"]
+T159.6097228990002 bosom ( #1 found:1 hypo:279841 ) ? 
+T160.93509308799912 bosom ( #1 found:1 hypo:279841 ) > 1 bosom
+T160.9352365070008 word: 0 bosom
+T160.93524925100064 may: 0 
+T162.27771450100045 bosom ( #1 found:1 hypo:279841 ) 2> ␚
+T162.27789213600045 question done
+T168.6520945000011 Press <Enter> to 📋 or `>` for line prompt ␚
+T168.65220027100077 <EOF>
+T5.078847044002032 now: 2025-03-02T09:37:14EST
+T5.9970648550006445 Press <Enter> to 📋 or `>` for line prompt 
+T6.001610350002011 result: "squareword.org 1126: 11 guesses\n\n\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1126"
