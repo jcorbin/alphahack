@@ -1,0 +1,118 @@
+T0.00016363399481633678 now: 2025-03-03T09:04:35EST
+T0.00021394599752966315 site: squareword.org
+T2.3425308049991145 🧩  ? #1127
+T2.3430474769993452 puzzle_id: #1127
+T4.087135016998218 > *
+T4.178195722997771 questioning: ["purty", "#5 found:6188 hypo:11881376"]
+T6.9974088439994375 purty ( #5 found:6188 hypo:11881376 ) ? 
+T7.170306598993193 purty ( #5 found:6188 hypo:11881376 ) > 
+T9.730028609999863 purty ( #5 found:6188 hypo:11881376 ) 1> ~ t
+T9.730663527996512 word: 0 _____
+T9.730677849998756 may: 0 t
+T11.001770705996023 purty ( #5 found:6188 hypo:11881376 ) 2> 
+T12.920463331000064 purty ( #5 found:6188 hypo:11881376 ) 3> __r ~ r
+T12.920814146993507 word: 2 __r__
+T12.920855248994485 may: 2 r
+T14.153354148998915 purty ( #5 found:6188 hypo:11881376 ) 4> 
+T17.210183576993586 purty ( #5 found:6188 hypo:11881376 ) 5> ___ty ~ t
+T17.210367966996273 word: 4 ___ty
+T17.210383999998157 may: 4 t
+T17.210400891999598 question done
+T18.61445543899754 > /no up
+T18.615083270997275 nope: p u
+T19.289768973998434 > *
+T19.617190419994586 questioning: ["natty", "#5 found:9 hypo:576"]
+T23.697605080997164 natty ( #5 found:9 hypo:576 ) ? 
+T23.894472534993838 natty ( #5 found:9 hypo:576 ) > 
+T25.697587862996443 natty ( #5 found:9 hypo:576 ) 1> _a
+T25.697778463996656 word: 0 _a___
+T25.69779391499469 may: 0 t
+T27.5493695979967 natty ( #5 found:9 hypo:576 ) 2> ~ a
+T27.549574347998714 word: 1 _____
+T27.549592954994296 may: 1 a
+T29.995073254998715 natty ( #5 found:9 hypo:576 ) 3> 
+T31.95109535699885 natty ( #5 found:9 hypo:576 ) 4> ~ n
+T31.95131905899325 word: 3 _____
+T31.951342921995092 may: 3 n
+T33.92287573899375 question done
+T34.49575121599628 > *
+T34.70191801099281 questioning: ["bitty", "#5 found:2 hypo:576"]
+T40.81556663799711 bitty ( #5 found:2 hypo:576 ) ? 
+T46.14410753699485 bitty ( #5 found:2 hypo:576 ) > 4 _i
+T46.1443712669934 word: 3 _i___
+T46.14439687499544 may: 3 n
+T49.423642161993484 bitty ( #5 found:2 hypo:576 ) 5> 
+T49.42373983099969 question done
+T51.36678652199771 > /no 
+T51.3669400889994 nope: p u
+T52.54991902199981 > /no b
+T52.550190344998555 nope: b p u
+T53.19266212999355 > *
+T53.68873520899797 questioning: ["tasty", "#5 found:12 hypo:529"]
+T62.392027108995535 tasty ( #5 found:12 hypo:529 ) ? 
+T68.47700091699517 tasty ( #5 found:12 hypo:529 ) > 5 t_sty
+T68.47724819799623 word: 4 t_sty
+T68.47727433899854 may: 4 
+T68.47729763199459 question done
+T71.69983199799753 > *
+T71.79113543499989 questioning: ["testy", "#5 found:2 hypo:23"]
+T76.04885329999524 testy ( #5 found:2 hypo:23 ) ? 
+T76.33586782399652 testy ( #5 found:2 hypo:23 ) > 
+T78.24787856599869 testy ( #5 found:2 hypo:23 ) 1> ~ te
+T78.24805791399558 word: 0 _a___
+T78.24807299799431 may: 0 e t
+T82.60844983099378 testy ( #5 found:2 hypo:23 ) 2> _e ~ ae
+T82.60870014199463 word: 1 _e___
+T82.60872538599506 may: 1 a e
+T85.5671256689966 testy ( #5 found:2 hypo:23 ) 3> ~ re
+T85.56738237299578 word: 2 __r__
+T85.56741036699532 may: 2 e r
+T95.4775466439969 testy ( #5 found:2 hypo:23 ) 4> ~ nne
+T95.4777426599976 word: 3 _i___
+T95.47776179799985 may: 3 e n
+T99.47016167199763 testy ( #5 found:2 hypo:23 ) 5> testy
+T99.47034070699738 word: 4 testy
+T99.4703598979977 may: 4 
+T99.47038035799778 question done
+T101.59473938699375 <INT>
+T0.001725914997223299 now: 2025-03-03T09:06:21EST
+T0.9255071749939816 > *
+T1.325874442998611 questioning: ["erred", "#3 found:1 hypo:1058"]
+T5.103364328999305 erred ( #3 found:1 hypo:1058 ) ? 
+T5.399788534996333 erred ( #3 found:1 hypo:1058 ) > 
+T10.109274276997894 erred ( #3 found:1 hypo:1058 ) 1> _a_e ~ td
+T10.110443674995622 word: 0 _a_e_
+T10.110479159993702 may: 0 d t
+T13.28677739399427 erred ( #3 found:1 hypo:1058 ) 2> 
+T14.551934188995801 erred ( #3 found:1 hypo:1058 ) 3> erred
+T14.552165548993798 word: 2 erred
+T14.552188757996191 may: 2 
+T17.765816666993487 erred ( #3 found:1 hypo:1058 ) 4> _i__d
+T17.766015443994547 word: 3 _i__d
+T17.7660344889955 may: 3 e n
+T19.22428465399571 erred ( #3 found:1 hypo:1058 ) 5> 
+T19.224440867998055 question done
+T20.44471049099957 > *
+T20.706646111997543 questioning: ["fiend", "#4 found:1 hypo:46"]
+T23.304774905998784 fiend ( #4 found:1 hypo:46 ) ? 
+T24.90289939200011 fiend ( #4 found:1 hypo:46 ) > 4 fiend
+T24.903142881994427 word: 3 fiend
+T24.903166938995128 may: 3 
+T28.519882093998604 question done
+T29.06559052800003 > *
+T29.230019267997704 questioning: ["leave", "#2 found:2 hypo:1058"]
+T31.798137004996534 leave ( #2 found:2 hypo:1058 ) ? 
+T33.190787813997304 leave ( #2 found:2 hypo:1058 ) > 2 leave
+T33.191009547997965 word: 1 leave
+T33.19102960199962 may: 1 
+T34.297203040994646 question done
+T34.77039812399744 > *
+T34.93985839399829 questioning: ["cadet", "#1 found:1 hypo:46"]
+T38.17762113399658 cadet ( #1 found:1 hypo:46 ) ? 
+T39.95937517299899 cadet ( #1 found:1 hypo:46 ) > 1 cadet
+T39.95961704399815 word: 0 cadet
+T39.95965175799938 may: 0 
+T41.32409565099806 question done
+T44.99490816099569 Press <Enter> to 📋 or `>` for line prompt 
+T44.9989225169993 result: "squareword.org 1127: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1127"
+T44.99997102999623 <STOP>
