@@ -14,6 +14,7 @@ from collections import Counter
 from collections.abc import Generator, Iterable, MutableMapping, Sequence
 from dataclasses import dataclass
 from dateutil.tz import gettz
+from dotenv import load_dotenv
 from itertools import chain
 from typing import assert_never, cast, final, overload, override, Callable, Literal
 from urllib.parse import urlparse
@@ -23,6 +24,8 @@ from mdkit import break_sections, capture_fences, fenceit
 from store import StoredLog, git_txn
 from strkit import matchgen, spliterate, wraplines, MarkedSpec
 from ui import PromptUI
+
+_ = load_dotenv()
 
 def retry_backoffs(
     retries: int,

@@ -7,3 +7,4 @@ __pycache__/
 !*.exclude.txt
 !nwl2023.txt
 !opentaal-wordlist.txt
+.env

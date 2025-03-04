@@ -11,6 +11,7 @@ python-dateutil = "*"
 pytest = "*"
 requests = "*"
 html5lib = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
