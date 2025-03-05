@@ -1,0 +1,147 @@
+T0.00016280899581033736 now: 2025-03-05T10:51:16EST
+T0.00020558899268507957 site: squareword.org
+T2.553514471001108 🧩  ? #1129
+T2.5538768940023147 puzzle_id: #1129
+T3.5912727319955593 > *
+T3.710433448999538 questioning: ["shist", "#5 found:7064 hypo:11881376"]
+T6.493662939989008 shist ( #5 found:7064 hypo:11881376 ) ? 
+T6.999622331990395 shist ( #5 found:7064 hypo:11881376 ) > 
+T8.679359349989682 shist ( #5 found:7064 hypo:11881376 ) 1> ~ ht
+T8.680450682993978 word: 0 _____
+T8.680476536988863 may: 0 h t
+T9.822225880998303 shist ( #5 found:7064 hypo:11881376 ) 2> ~ h
+T9.822453496992239 word: 1 _____
+T9.822488053992856 may: 1 h
+T10.742096248999587 shist ( #5 found:7064 hypo:11881376 ) 3> 
+T11.989323048997903 shist ( #5 found:7064 hypo:11881376 ) 4> s
+T11.989534041989828 word: 3 s____
+T11.989561583002796 may: 3 
+T15.692383984991466 shist ( #5 found:7064 hypo:11881376 ) 5> ~ sh
+T15.692668928997591 word: 4 _____
+T15.692708629998378 may: 4 h s
+T15.692740671991487 question done
+T17.153235931997187 > /no i
+T17.154211467990535 nope: i
+T18.121761522997986 <INT>
+T0.0014231440000003204 now: 2025-03-05T11:00:56EST
+T1.323529959001462 > *
+T1.7134609420027118 questioning: ["garth", "#1 found:46 hypo:31250"]
+T3.9352182500006165 garth ( #1 found:46 hypo:31250 ) ? 
+T4.210480623005424 garth ( #1 found:46 hypo:31250 ) > 
+T6.3527325940085575 garth ( #1 found:46 hypo:31250 ) 1> _a__h 
+T6.3534773660067 word: 0 _a__h
+T6.353500017008628 may: 0 t
+T8.634043800004292 garth ( #1 found:46 hypo:31250 ) 2> ~ ha
+T8.634971568011679 word: 1 _____
+T8.63501442100096 may: 1 a h
+T10.301491633013939 garth ( #1 found:46 hypo:31250 ) 3> ~ r
+T10.301714259010623 word: 2 _____
+T10.301733206011704 may: 2 r
+T12.012498556010542 garth ( #1 found:46 hypo:31250 ) 4> ~ a
+T12.012749840010656 word: 3 s____
+T12.01277714400203 may: 3 a
+T13.642852231001598 garth ( #1 found:46 hypo:31250 ) 5> 
+T13.642940540012205 question done
+T14.57969980800408 > /no g
+T14.580436648000614 nope: g i
+T15.245148144007544 > *
+T15.698191643008613 questioning: ["natch", "#1 found:7 hypo:576"]
+T19.000540818000445 natch ( #1 found:7 hypo:576 ) ? 
+T19.863915957001154 natch ( #1 found:7 hypo:576 ) > 
+T21.06021482399956 natch ( #1 found:7 hypo:576 ) 1> _atch
+T21.0604421080061 word: 0 _atch
+T21.06046562800475 may: 0 
+T25.602092900007847 natch ( #1 found:7 hypo:576 ) 2> 4 ~ an
+T25.602302514002076 word: 3 s____
+T25.602325712010497 may: 3 a n
+T29.526173979000305 natch ( #1 found:7 hypo:576 ) 5> 
+T29.526259873004165 question done
+T30.137865151002188 > *
+T30.307464684010483 questioning: ["ratch", "#1 found:8 hypo:24"]
+T33.36749049001082 ratch ( #1 found:8 hypo:24 ) ? 
+T39.28155903800507 ratch ( #1 found:8 hypo:24 ) > 3 r ~ r
+T39.28176971600624 word: 2 r____
+T39.28178845300863 may: 2 r
+T42.15457184900879 ratch ( #1 found:8 hypo:24 ) 4> 
+T42.38741026401112 ratch ( #1 found:8 hypo:24 ) 5> 
+T42.38755201800086 question done
+T43.80669326000498 > *
+T43.8953687200119 questioning: ["aloha", "#2 found:2 hypo:27648"]
+T46.53104861800966 aloha ( #2 found:2 hypo:27648 ) ? 
+T48.238236449004035 aloha ( #2 found:2 hypo:27648 ) > 2 aloha
+T48.23842149300617 word: 1 aloha
+T48.2384409350052 may: 1 
+T51.09357778800768 aloha ( #2 found:2 hypo:27648 ) 3> ~ ro
+T51.09379304700997 word: 2 r____
+T51.09381308800948 may: 2 o r
+T54.581549602007726 aloha ( #2 found:2 hypo:27648 ) 4> 5 ~ shl
+T54.58174598601181 word: 4 _____
+T54.581765574999736 may: 4 h l s
+T54.58178081900405 question done
+T57.39814362800098 > *
+T58.10753539401048 questioning: ["patch", "#1 found:4 hypo:24"]
+T61.7546072860132 patch ( #1 found:4 hypo:24 ) ? 
+T65.65284543301095 patch ( #1 found:4 hypo:24 ) > 5 ~ shlp
+T65.65304032700078 word: 4 _____
+T65.65306167100789 may: 4 h l p s
+T65.65307976701297 question done
+T66.76879040300264 > * 5
+T66.98187910600973 questioning: ["helps", "#5 found:1 hypo:576"]
+T70.22351028201228 helps ( #5 found:1 hypo:576 ) ? 
+T76.49731111100118 helps ( #5 found:1 hypo:576 ) > 3 ~ roe
+T76.4976829590014 word: 2 r____
+T76.49772057500377 may: 2 e o r
+T78.00119738800277 helps ( #5 found:1 hypo:576 ) 4> 4 ~ ane
+T78.00157848700474 word: 3 s____
+T78.00166012000409 may: 3 a e n
+T79.86763044301188 helps ( #5 found:1 hypo:576 ) 5> 5 helps
+T79.86794784900849 word: 4 helps
+T79.8679723580135 may: 4 
+T79.86799446601071 question done
+T83.65123076901364 > *3
+T84.48833095699956 questioning: ["rower", "#3 found:1 hypo:144"]
+T87.73710409800697 rower ( #3 found:1 hypo:144 ) ? 
+T89.56269785000768 rower ( #3 found:1 hypo:144 ) > 3 rower
+T89.56288126100844 word: 2 rower
+T89.56289947600453 may: 2 
+T92.10097095000674 question done
+T93.76187564300199 > *4
+T94.46798738000507 questioning: ["hatch", "#1 found:1 hypo:24"]
+T103.22865744600131 hatch ( #1 found:1 hypo:24 ) ? 
+T104.54209112000535 question done
+T106.01368277300207 > * 4
+T106.26518586100428 questioning: ["sneap", "#4 found:2 hypo:144"]
+T114.18656638200628 sneap ( #4 found:2 hypo:144 ) ? 
+T116.85797060299956 sneap ( #4 found:2 hypo:144 ) > 4 snea
+T116.8581580290047 word: 3 snea_
+T116.8581750250014 may: 3 
+T119.09096554100688 question done
+T119.74109202600084 > *
+T120.47372413100675 questioning: ["hatch", "#1 found:1 hypo:24"]
+T125.07340249800473 question done
+T125.8637099010084 > *
+T126.59697971800051 questioning: ["hatch", "#1 found:1 hypo:24"]
+T127.85227302501153 hatch ( #1 found:1 hypo:24 ) ? !
+T127.8523963720072 reject: hatch
+T128.41086920301314 > *
+T129.1469646810001 questioning: ["match", "#1 found:1 hypo:24"]
+T131.61285949801095 match ( #1 found:1 hypo:24 ) ? 
+T132.69217053600005 match ( #1 found:1 hypo:24 ) > 1 match
+T132.69234833800874 word: 0 match
+T132.6923652710102 may: 0 
+T134.6779830870073 question done
+T135.24022229500406 > *
+T135.7341586190014 questioning: ["sneap", "#4 found:2 hypo:24"]
+T137.9436497570132 sneap ( #4 found:2 hypo:24 ) ? !
+T137.94379381900944 reject: sneap
+T139.330851798004 > *
+T139.826350096002 questioning: ["sneak", "#4 found:1 hypo:24"]
+T142.28484066700912 sneak ( #4 found:1 hypo:24 ) ? 
+T143.3534012700111 sneak ( #4 found:1 hypo:24 ) > 4 sneak
+T143.35366346900992 word: 3 sneak
+T143.35369405600068 may: 3 
+T143.86050918200635 sneak ( #4 found:1 hypo:24 ) 5> 
+T143.8606395310053 question done
+T147.94186564900156 Press <Enter> to 📋 or `>` for line prompt 
+T147.9482638710033 result: "squareword.org 1129: 12 guesses\n\n\ud83d\udfe7\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe7\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1129"
+T147.94959290401312 <STOP>
