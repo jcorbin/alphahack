@@ -196,8 +196,10 @@ class Search(StoredLog):
             ui.print(f'Word: {" ".join(x.upper() if x else "_" for x in self.word)}')
 
         with ui.input(f'{len(self.words)+1}.{len(self.tried)+1}> ') as tokens:
-            if tokens.have(r'\*'):
-                return self.guess(ui)
+            guess = tokens.have(r'(\*+)(\d+)?',
+                lambda match: int(match.group(2)) if match.group(2) else 0 if len(match.group(1)) > 1 else 10)
+            if guess is not None:
+                return self.guess(ui, show=guess)
 
             if tokens.have(r'fail'):
                 return self.finish
