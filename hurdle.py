@@ -305,9 +305,13 @@ class Search(StoredLog):
 
         return '|'.join(alts())
 
-    def guess(self, ui: PromptUI):
-        words = sorted(word for _, word in self.select(ui, 10))
-        for n, word in enumerate(words, 1):
+    def guess(self, ui: PromptUI, show: int=10):
+        words: list[str] = []
+        for i, (_, word) in enumerate(self.select(ui)):
+            if not show or i < show:
+                words.append(word)
+
+        for n, word in enumerate(sorted(words), 1):
             ui.print(f'{n}. {word}')
 
     def tried_letters(self, word: str):
@@ -317,7 +321,7 @@ class Search(StoredLog):
             if let in self.may_letters
             if any(prior[i] == let for prior in self.tried))
 
-    def select(self, ui: PromptUI, topn: int):
+    def select(self, ui: PromptUI):
         choices: list[tuple[float, str]] = []
 
         pattern = self.pattern(ui)
@@ -337,12 +341,7 @@ class Search(StoredLog):
                 m = n/len(lc)
                 v = sum((v - m)**2 for v in lc.values())
                 score = math.pow(score, 0.01 + v)
-
-            choice = (score, word)
-            if len(choices) < topn:
-                heapq.heappush(choices, choice)
-            elif choice > choices[0]:
-                choice = heapq.heapreplace(choices, choice)
+            heapq.heappush(choices, (score, word))
 
         while choices:
             yield heapq.heappop(choices)
