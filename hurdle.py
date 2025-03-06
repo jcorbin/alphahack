@@ -306,13 +306,17 @@ class Search(StoredLog):
         return '|'.join(alts())
 
     def guess(self, ui: PromptUI, show: int=10):
-        words: list[str] = []
-        for i, (_, word) in enumerate(self.select(ui)):
+        have = 0
+        words: list[tuple[str, float]] = []
+        for i, (score, word) in enumerate(self.select(ui)):
+            have += 1
             if not show or i < show:
-                words.append(word)
+                words.append((word, score))
 
-        for n, word in enumerate(sorted(words), 1):
-            ui.print(f'{n}. {word}')
+        for n, (word, score) in enumerate(sorted(words), 1):
+            ui.print(f'{n}. {word} {100*score:0.2f}%')
+        if show and have > show:
+            ui.print(f'* ... showing {show} of {have}')
 
     def tried_letters(self, word: str):
         return(
