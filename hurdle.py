@@ -343,8 +343,7 @@ class Search(StoredLog):
             score = random.random()
             if score > 0:
                 lc = Counter(word)
-                n = sum(lc.values())
-                m = n/len(lc)
+                m = len(lc)/len(word)
                 v = sum((v - m)**2 for v in lc.values())
                 score = math.pow(score, 0.01 + v)
             heapq.heappush(choices, (-score, word))
