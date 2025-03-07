@@ -1,0 +1,144 @@
+T0.0001475589961046353 now: 2025-03-07T10:02:15EST
+T0.00018702801025938243 site: squareword.org
+T2.2068440680013737 🧩  ? #1131
+T2.2071192459989106 puzzle_id: #1131
+T3.089094698007102 > 
+T3.810434081009589 > *
+T3.900538244008203 questioning: ["letup", "#5 found:4402 hypo:11881376"]
+T5.909637857010239 letup ( #5 found:4402 hypo:11881376 ) ? 
+T6.096320937998826 letup ( #5 found:4402 hypo:11881376 ) > 
+T8.148201240997878 letup ( #5 found:4402 hypo:11881376 ) 1> ~l
+T8.14915074899909 word: 0 _____
+T8.149172561010346 may: 0 l
+T10.474044938004226 letup ( #5 found:4402 hypo:11881376 ) 2> l ~ t
+T10.47418509000272 word: 1 l____
+T10.474195736009278 may: 1 t
+T13.234682274996885 letup ( #5 found:4402 hypo:11881376 ) 3> ~ etu
+T13.234918369009392 word: 2 _____
+T13.234941093003727 may: 2 e t u
+T14.766669752003509 letup ( #5 found:4402 hypo:11881376 ) 4> _e
+T14.766895722001209 word: 3 _e___
+T14.766916827007663 may: 3 
+T15.903854888005299 letup ( #5 found:4402 hypo:11881376 ) 5> ~t
+T15.904069199998048 word: 4 _____
+T15.904086352005834 may: 4 t
+T15.904105993002304 question done
+T17.812202079003328 > /no p
+T17.81287742299901 nope: p
+T19.23341937700752 <INT>
+T0.0014540520060108975 now: 2025-03-07T10:21:12EST
+T0.8270036680041812 > *
+T1.271223702991847 questioning: ["lofts", "#2 found:43 hypo:15625"]
+T4.022993286998826 lofts ( #2 found:43 hypo:15625 ) ? 
+T4.61093520000577 lofts ( #2 found:43 hypo:15625 ) > 
+T8.715984609996667 lofts ( #2 found:43 hypo:15625 ) 1> ____s ~ ls
+T8.717187161993934 word: 0 ____s
+T8.717221956001595 may: 0 l s
+T13.482209487003274 lofts ( #2 found:43 hypo:15625 ) 2> ___t ~ eu
+T13.482481938001001 word: 1 ___t_
+T13.482517349999398 may: 1 e u
+T19.886743518000003 lofts ( #2 found:43 hypo:15625 ) 3> 2 l___ ~ t
+T19.88698907000071 word: 1 l____
+T19.887019485991914 may: 1 t
+T23.594523728999775 lofts ( #2 found:43 hypo:15625 ) 3> ___t 
+T23.594718969005044 word: 2 ___t_
+T23.59474931600562 may: 2 e u
+T27.581652912995196 lofts ( #2 found:43 hypo:15625 ) 4> 5 ~ tos
+T27.582260019000387 word: 4 _____
+T27.58228714299912 may: 4 o s t
+T27.582307878998108 question done
+T34.43668966200494 > /no f
+T34.437243100997875 nope: f p
+T35.24801850599761 > *
+T35.75736144599796 questioning: ["brute", "#3 found:2 hypo:1152"]
+T45.81672098299896 brute ( #3 found:2 hypo:1152 ) ? 
+T51.31256946000212 brute ( #3 found:2 hypo:1152 ) > 3 ___te
+T51.3127615639969 word: 2 ___te
+T51.312782185996184 may: 2 u
+T53.783837590002804 brute ( #3 found:2 hypo:1152 ) 4> be
+T53.78400810000312 word: 3 be___
+T53.78403036600503 may: 3 
+T57.63078649999807 brute ( #3 found:2 hypo:1152 ) 5> ~ tosr
+T57.63099010899896 word: 4 _____
+T57.631013955993694 may: 4 o r s t
+T57.63103347600554 question done
+T59.62888442199619 > * 5
+T59.8262810689921 questioning: ["stour", "#5 found:10 hypo:576"]
+T65.18582317599794 stour ( #5 found:10 hypo:576 ) ? 
+T66.17824010099866 stour ( #5 found:10 hypo:576 ) > 
+T72.51379729699693 stour ( #5 found:10 hypo:576 ) 1> 5 s_o
+T72.51400546499644 word: 4 s_o__
+T72.51402410300216 may: 4 r t
+T72.51403984200442 question done
+T74.05430433999572 > *
+T74.31762786400213 questioning: ["unite", "#3 found:3 hypo:576"]
+T77.32330298000306 unite ( #3 found:3 hypo:576 ) ? 
+T77.65313152699673 unite ( #3 found:3 hypo:576 ) > 
+T80.78570739099814 unite ( #3 found:3 hypo:576 ) 1> 2 ~ ti
+T80.78590540199366 word: 1 l____
+T80.78604896400066 may: 1 i t
+T83.18721284199273 unite ( #3 found:3 hypo:576 ) 3> unite
+T83.18739388299582 word: 2 unite
+T83.18741377600236 may: 2 
+T85.74855293400469 unite ( #3 found:3 hypo:576 ) 4> ~ n
+T85.74885053400067 word: 3 be___
+T85.74888156799716 may: 3 n
+T88.19196265999926 unite ( #3 found:3 hypo:576 ) 5> sno
+T88.19215299500502 word: 4 sno__
+T88.1921743809944 may: 4 r t
+T88.19219356800022 question done
+T99.41077841000515 <INT>
+T0.0019539030035957694 now: 2025-03-07T10:22:53EST
+T4.477700283998274 > *
+T4.882342327997321 questioning: ["snort", "#5 found:1 hypo:2"]
+T7.58257921099721 snort ( #5 found:1 hypo:2 ) ? 
+T12.814836749996175 snort ( #5 found:1 hypo:2 ) > 5 snort
+T12.815749216999393 word: 4 snort
+T12.815790275999461 may: 4 
+T12.815814182002214 question done
+T19.680965370003833 > snort
+T19.681744810994132 questioning: ["snort", "entered"]
+T23.11813949799398 snort ( entered ) ? 2 l___t
+T23.118308368997532 guess: snort
+T23.118366772992886 word: 1 l___t
+T23.11838061599701 may: 1 i
+T27.643264477999764 question done
+T28.144419685995672 > *
+T28.280562512998586 questioning: ["lirot", "#2 found:2 hypo:576"]
+T77.83179851000023 lirot ( #2 found:2 hypo:576 ) ? 
+T80.56107184800203 lirot ( #2 found:2 hypo:576 ) > 2 li__t
+T80.56136141199386 word: 1 li__t
+T80.56138916099735 may: 1 
+T84.13528209799551 question done
+T84.796805830003 > *
+T84.88311898699612 questioning: ["lirot", "#2 found:2 hypo:576"]
+T86.70576871499361 lirot ( #2 found:2 hypo:576 ) ? !
+T86.70591116399737 reject: lirot
+T87.23502456900314 > *
+T87.23600047299988 questioning: ["limit", "#2 found:1 hypo:576"]
+T90.25924739699985 limit ( #2 found:1 hypo:576 ) ? 
+T90.61993074399652 limit ( #2 found:1 hypo:576 ) > 2
+T93.50329490999866 limit ( #2 found:1 hypo:576 ) 2> limit
+T93.50347496400354 word: 1 limit
+T93.50350383200566 may: 1 
+T110.62610893500096 question done
+T111.2645423310023 > *
+T111.35147152500576 questioning: ["began", "#4 found:1 hypo:576"]
+T114.40928369500034 began ( #4 found:1 hypo:576 ) ? 
+T116.38798206399952 began ( #4 found:1 hypo:576 ) > 4 began
+T116.38818833199912 word: 3 began
+T116.38820917499834 may: 3 
+T118.96422235800128 began ( #4 found:1 hypo:576 ) 5> 1 ~ lsa
+T118.96471052900597 word: 0 ____s
+T118.96480836899718 may: 0 a l s
+T119.63861555699259 question done
+T120.09849137200217 > *
+T120.28829144900374 questioning: ["class", "#1 found:1 hypo:144"]
+T128.60064281200175 class ( #1 found:1 hypo:144 ) ? 
+T129.91187727599754 class ( #1 found:1 hypo:144 ) > 1 class
+T129.91195706400322 word: 0 class
+T129.911963696999 may: 0 
+T130.8930949689966 question done
+T134.68269995199807 Press <Enter> to 📋 or `>` for line prompt 
+T134.6885615939973 result: "squareword.org 1131: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1131"
+T134.69039117799548 <STOP>
