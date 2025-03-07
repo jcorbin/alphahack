@@ -345,10 +345,11 @@ class Search(StoredLog):
                 m = n/len(lc)
                 v = sum((v - m)**2 for v in lc.values())
                 score = math.pow(score, 0.01 + v)
-            heapq.heappush(choices, (score, word))
+            heapq.heappush(choices, (-score, word))
 
         while choices:
-            yield heapq.heappop(choices)
+            score, word = heapq.heappop(choices)
+            yield -score, word
 
     def find(self, pattern: re.Pattern[str]):
         with open(self.wordlist) as f:
