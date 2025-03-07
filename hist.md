@@ -8249,3 +8249,15 @@ See log/play.dictionary.com_games_todays-hurdle/#1160
 ⏱️ 1m 15s
 🔗 alfagok.diginaut.net
 ```
+
+# 2025-03-07 alphaguess.com
+
+```
+🧩 Puzzle #591
+
+🤔 15 guesses
+
+⏱️ 25s
+
+🔗 alphaguess.com
+```
