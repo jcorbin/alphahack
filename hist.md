@@ -8413,3 +8413,22 @@ See log/squareword.org/#1133
 # 2025-03-09 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1163
+
+# 2025-03-09 cemantix.certitudes.org
+
+```
+🔗 cemantix.certitudes.org
+🧩 1104
+🤔 146 guesses
+    🥵  3
+    😎 11
+    🥶 71
+    🧊 61
+⏱️ 0:39:20.416844
+```
+
+🤔 147 attempts
+📜 0 sessions
+🫧 5 chat sessions
+⁉️ 18 chat prompts
+🤖 17 gemma2:latest replies
