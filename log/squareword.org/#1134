@@ -1,0 +1,109 @@
+T0.0001430549891665578 now: 2025-03-10T10:44:57EDT
+T0.00018283998360857368 site: squareword.org
+T1.8947187309968285 🧩  ? #1134
+T1.8951129159831908 puzzle_id: #1134
+T2.670850477006752 > *
+T2.7715143779932987 questioning: ["pagan", "#5 found:5606 hypo:11881376"]
+T4.791654789994936 pagan ( #5 found:5606 hypo:11881376 ) ? 
+T6.0228582579875365 pagan ( #5 found:5606 hypo:11881376 ) > ~ pag
+T7.466278968990082 pagan ( #5 found:5606 hypo:11881376 ) > 
+T8.38128629498533 pagan ( #5 found:5606 hypo:11881376 ) 1> ~ pag
+T8.382444277987815 word: 0 _____
+T8.382474185986212 may: 0 a g p
+T9.63019687900669 pagan ( #5 found:5606 hypo:11881376 ) 2> _a
+T9.630407146003563 word: 1 _a___
+T9.630429216980701 may: 1 
+T14.845644430984976 pagan ( #5 found:5606 hypo:11881376 ) 3> ____n ~ a
+T14.845909085997846 word: 2 ____n
+T14.845932612981414 may: 2 a
+T16.225212600984378 pagan ( #5 found:5606 hypo:11881376 ) 4> p
+T16.225418721005553 word: 3 p____
+T16.225440593989333 may: 3 
+T17.253935308981454 question done
+T17.761867041001096 > *
+T18.061686743982136 questioning: ["pagod", "#1 found:21 hypo:4056"]
+T25.71619620200363 pagod ( #1 found:21 hypo:4056 ) ? 
+T29.254561969981296 pagod ( #1 found:21 hypo:4056 ) > 
+T32.077659751987085 pagod ( #1 found:21 hypo:4056 ) 1> 
+T33.385457444004714 pagod ( #1 found:21 hypo:4056 ) 2> ~ o
+T33.38563890499063 word: 1 _a___
+T33.38565773400478 may: 1 o
+T35.97488222300308 pagod ( #1 found:21 hypo:4056 ) 3> ~ aod
+T35.975167819007766 word: 2 ____n
+T35.97519701800775 may: 2 a d o
+T38.99500793000334 pagod ( #1 found:21 hypo:4056 ) 4> p___d
+T38.99529060398345 word: 3 p___d
+T38.99532208699384 may: 3 
+T41.00271067698486 pagod ( #1 found:21 hypo:4056 ) 5> ~ od
+T41.00294933299301 word: 4 _____
+T41.0029931209865 may: 4 d o
+T41.00302727697999 question done
+T42.04857752099633 > *
+T42.31512265998754 questioning: ["adown", "#3 found:2 hypo:156"]
+T45.999279031006154 adown ( #3 found:2 hypo:156 ) ? 
+T48.35736937599722 adown ( #3 found:2 hypo:156 ) > 
+T51.06968466399121 adown ( #3 found:2 hypo:156 ) 1> 3 ado_n
+T51.069959399988875 word: 2 ado_n
+T51.06998349298374 may: 2 
+T57.86962841398781 question done
+T58.906862953997916 > /no w
+T58.90751896399888 nope: w
+T60.39468801199109 > * 3
+T60.65821485800552 questioning: ["adorn", "#3 found:1 hypo:25"]
+T63.10768521600403 adorn ( #3 found:1 hypo:25 ) ? 
+T64.51556279600482 adorn ( #3 found:1 hypo:25 ) > 3 adorn
+T64.5158869799925 word: 2 adorn
+T64.5159154739813 may: 2 
+T67.02400242400472 adorn ( #3 found:1 hypo:25 ) 4> 2 ~ or
+T67.02419569500489 word: 1 _a___
+T67.02421476398013 may: 1 o r
+T70.54926516598789 adorn ( #3 found:1 hypo:25 ) 3> 1 ~ pagr
+T70.5494518429914 word: 0 _____
+T70.54947376999189 may: 0 a g p r
+T72.28632967799786 question done
+T73.99114149599336 > * 2
+T74.0918086959864 questioning: ["carbo", "#2 found:1 hypo:1250"]
+T77.72460718898219 carbo ( #2 found:1 hypo:1250 ) ? 
+T81.33052005898207 carbo ( #2 found:1 hypo:1250 ) > 2 _a__o
+T81.33073078998132 word: 1 _a__o
+T81.3307518280053 may: 1 r
+T84.84538278498803 question done
+T85.87458509099088 > /no cb
+T85.87478735100012 nope: b c w
+T87.1030906259839 > * 2
+T87.37327991300845 questioning: ["ratio", "#2 found:4 hypo:529"]
+T90.67629471898545 ratio ( #2 found:4 hypo:529 ) ? 
+T91.75002792998566 ratio ( #2 found:4 hypo:529 ) > 2 ratio
+T91.75011951799388 word: 1 ratio
+T91.75012641900685 may: 1 
+T96.62584037898341 ratio ( #2 found:4 hypo:529 ) 3> 4 ~ i
+T96.62603874600609 word: 3 p___d
+T96.62605832199915 may: 3 i
+T97.21678432100452 question done
+T98.03070443900651 > * 4
+T98.24685982998926 questioning: ["piled", "#4 found:3 hypo:529"]
+T101.45830649900017 piled ( #4 found:3 hypo:529 ) ? 
+T103.21359371900326 piled ( #4 found:3 hypo:529 ) > 4 piled
+T103.21377781699994 word: 3 piled
+T103.21379455499118 may: 3 
+T106.57851836600457 question done
+T107.99432703200728 > * 1
+T108.31083529899479 questioning: ["grasp", "#1 found:2 hypo:552"]
+T111.65907439598232 grasp ( #1 found:2 hypo:552 ) ? 
+T112.83738922898192 grasp ( #1 found:2 hypo:552 ) > 1 grasp
+T112.83747884098557 word: 0 grasp
+T112.83748622398707 may: 0 
+T114.74726156500401 grasp ( #1 found:2 hypo:552 ) 2> 5 ~ ods
+T114.74752085798536 word: 4 _____
+T114.74756244398304 may: 4 d o s
+T114.74758413698873 question done
+T115.83969967899611 > *
+T116.48673516898998 questioning: ["holds", "#5 found:1 hypo:3174"]
+T119.04832480600453 holds ( #5 found:1 hypo:3174 ) ? 
+T120.12944367399905 holds ( #5 found:1 hypo:3174 ) > 5 holds
+T120.12966135199531 word: 4 holds
+T120.12968491599895 may: 4 
+T120.12970691599185 question done
+T125.64102343900595 Press <Enter> to 📋 or `>` for line prompt 
+T125.65159389798646 result: "squareword.org 1134: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1134"
+T125.65352443198208 <STOP>
