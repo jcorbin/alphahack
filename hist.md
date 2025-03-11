@@ -8528,3 +8528,15 @@ See log/play.dictionary.com_games_todays-hurdle/#1164
 ⏱️ 39s
 🔗 alfagok.diginaut.net
 ```
+
+# 2025-03-11 alphaguess.com
+
+```
+🧩 Puzzle #595
+
+🤔 8 guesses
+
+⏱️ 10s
+
+🔗 alphaguess.com
+```
