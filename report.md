@@ -1,183 +1,182 @@
-# 2025-03-11
+# 2025-03-12
 
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1165 🥳 19 ⏱️ 0:05:41.507709
-- 🔗 squareword.org 🧩 #1135 🥳 8 ⏱️ 0:02:08.340207
-- 🔗 alphaguess.com 🧩 #595 🥳 8 ⏱️ 0:00:16.618743
-- 🔗 alfagok.diginaut.net 🧩 #129 🥳 19 ⏱️ 0:00:49.864470
-- 🔗 cemantle.certitudes.org 🧩 #1072 🥳 333 ⏱️ 0:17:51.437763
-- 🔗 cemantix.certitudes.org 🧩 #1105 🥳 40 ⏱️ 0:14:53.868715
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1166 🥳 18 ⏱️ 0:05:04.682332
+- 🔗 squareword.org 🧩 #1136 🥳 11 ⏱️ 0:02:30.711118
+- 🔗 alphaguess.com 🧩 #596 🥳 14 ⏱️ 0:00:31.945443
+- 🔗 alfagok.diginaut.net 🧩 #130 🥳 26 ⏱️ 0:01:14.702298
+- 🔗 cemantle.certitudes.org 🧩 #1073 🥳 851 ⏱️ 3:27:31.815488
+- 🔗 cemantix.certitudes.org 🧩 #1106 🥳 176 ⏱️ 0:16:09.553598
 
 - ❌
 - ✅
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1165 🥳 19
-- ✅ squareword.org 🧩 #1135 🥳 8
-- ✅ alphaguess.com 🧩 #595 🥳 8
-- ✅ alfagok.diginaut.net 🧩 #129 🥳 19
-- ✅ cemantle.certitudes.org 🧩 #1072 🥳 333
-- ✅ cemantix.certitudes.org 🧩 #1105 🥳 40
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1166 🥳 18
+- ✅ squareword.org 🧩 #1136 🥳 11
+- ✅ alphaguess.com 🧩 #596 🥳 14
+- ✅ alfagok.diginaut.net 🧩 #130 🥳 26
+- ✅ cemantle.certitudes.org 🧩 #1073 🥳 851
+- ✅ cemantix.certitudes.org 🧩 #1106 🥳 176
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$qxEOb9-qrFF2wtEBh1tNUlVu_XI3XEYOIKv5A6lD02o?via=aelf.land&via=matrix.org
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$CCxT5WQBMe0EFZnasrN_GfPVK-z21D2_ig31snx63oM?via=aelf.land&via=matrix.org
 
-# squareword.org 🧩 #1135 🥳 8 ⏱️ 0:02:08.340207
+# squareword.org 🧩 #1136 🥳 11 ⏱️ 0:02:30.711118
 
-📜 1 sessions
+📜 2 sessions
 
 Guesses:
 
 Score Heatmap:
-    🟨 🟨 🟩 🟨 🟩
-    🟩 🟩 🟩 🟩 🟩
-    🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟨 🟨 🟩
+    🟨 🟨 🟨 🟨 🟨
+    🟨 🟩 🟨 🟨 🟩
+    🟧 🟧 🟧 🟧 🟩
+    🟩 🟨 🟨 🟩 🟨
     🟨 🟨 🟨 🟨 🟨
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    S P I E S
-    M O R A L
-    U S A G E
-    T I T L E
-    S T E E P
+    S C R A M
+    C L O N E
+    R O U G E
+    A S S E T
+    P E E R S
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1165 🥳 19 ⏱️ 0:05:41.507709
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1166 🥳 18 ⏱️ 0:05:04.682332
 
 📜 1 sessions
-💰 score: 9700
+💰 score: 9800
 
     4/6
-    > B R O T H
-      ⬜⬜🟩⬜⬜
-    > S C O W L
-      🟩⬜🟩⬜⬜
-    > S M O K E
-      🟩⬜🟩🟩🟩
-    > S P O K E
-      🟩🟩🟩🟩🟩
-    4/6
-    > I T C H Y
-      ⬜⬜⬜⬜⬜
-    > T R U L Y
-      ⬜🟨⬜⬜🟩
-    > T A L L Y
-      🟩⬜⬜🟩🟩
-    > C A M P Y
-      🟩🟩🟩🟩🟩
-    4/6
-    > H A I R Y
-      ⬜🟩⬜⬜🟩
-    > H A R D Y
-      ⬜🟩⬜⬜🟩
-    > B U N C H
-      🟩🟩⬜🟨🟩
-    > F L E S H
+    > A B O R T
+      ⬜⬜⬜🟨⬜
+    > P R I C K
+      🟨🟩⬜🟨⬜
+    > C R U M P
+      🟩🟩⬜⬜🟩
+    > C R E E P
       🟩🟩🟩🟩🟩
     5/6
-    > T H I G H
-      🟨⬜⬜⬜⬜
-    > T O O T H
-      ⬜⬜⬜⬜🟩
-    > G R A I N
-      ⬜⬜⬜⬜🟩
-    > U M B R A
-      🟩⬜⬜⬜🟩
+    > I N F E R
+      ⬜🟨🟨🟩⬜
+    > S H R E D
+      ⬜⬜⬜🟩🟨
+    > R A V E L
+      ⬜⬜🟨🟩⬜
+    > R E V E L
+      🟩⬜🟩🟩🟩
+    > R A K I S
       🟩🟩🟩🟩🟩
-    Final 2/2
-      ⬜🟨🟨⬜⬜
+    4/6
+    > R O M A N
+      🟩⬜⬜⬜⬜
+    > R O A C H
+      🟩🟨⬜⬜⬜
+    > F O U N D
+      🟩🟩⬜🟨⬜
+    > J O U S T
+      🟩🟩🟩🟩🟩
+    4/6
+    > G O U G E
+      ⬜🟩⬜⬜⬜
+    > C R U M B
+      ⬜🟩🟩⬜⬜
+      ⬜🟩🟩⬜⬜
+      🟩🟩🟩🟩🟩
+    Final 1/2
       🟩🟩🟩🟩🟩
 
-# alfagok.diginaut.net 🧩 #129 🥳 19 ⏱️ 0:00:49.864470
+# alfagok.diginaut.net 🧩 #130 🥳 26 ⏱️ 0:01:14.702298
 
-🤔 19 attempts
+🤔 26 attempts
 📜 1 sessions
 
-    @        [     0] &-teken      
-    @+1      [     1] &-tekens     
-    @+2      [     2] -cijferig    
-    @+3      [     3] -e-mail      
-    @+200253 [200253] lijst        q0  ? after
-    @+300339 [300339] schroef      q1  ? after
-    @+350322 [350322] vakantie     q2  ? after
-    @+353893 [353893] ver          q4  ? after
-    @+359188 [359188] verluiert    q7  ? after
-    @+361832 [361832] verstrak     q8  ? after
-    @+363155 [363155] verwaai      q9  ? after
-    @+363190 [363190] verwacht     q14 ? after
-    @+363193 [363193] verwachte    q16 ? after
-    @+363194 [363194] verwachten   done. it
-    @+363195 [363195] verwachtend  q18 ? before
-    @+363196 [363196] verwachtende q17 ? before
-    @+363199 [363199] verwachting  q15 ? before
-    @+363224 [363224] verward      q13 ? before
-    @+363299 [363299] verwed       q12 ? before
-    @+363449 [363449] verwerking   q11 ? before
-    @+363818 [363818] verwurgingen q10 ? before
-    @+364481 [364481] verzot       q5  ? before
-    @+375074 [375074] vrij         q3  ? before
+    @        [     0] &-teken   
+    @+1      [     1] &-tekens  
+    @+2      [     2] -cijferig 
+    @+3      [     3] -e-mail   
+    @+100081 [100081] examen    q1  ? after
+    @+149572 [149572] huis      q2  ? after
+    @+151619 [151619] hypotheek q20 ? after
+    @+152668 [152668] ijshockey q21 ? after
+    @+152914 [152914] ijver     q23 ? after
+    @+152944 [152944] ijzer     q25 ? it
+    @+152944 [152944] ijzer     done. it
+    @+153053 [153053] ijzig     q24 ? before
+    @+153199 [153199] imago     q22 ? before
+    @+153744 [153744] in        q19 ? before
+    @+162143 [162143] ja        q18 ? before
+    @+174697 [174697] kind      q3  ? before
+    @+200239 [200239] lijst     q0  ? before
 
-# alphaguess.com 🧩 #595 🥳 8 ⏱️ 0:00:16.618743
+# alphaguess.com 🧩 #596 🥳 14 ⏱️ 0:00:31.945443
 
-🤔 8 attempts
+🤔 14 attempts
 📜 1 sessions
 
-    @        [     0] aa     
-    @+1      [     1] aah    
-    @+2      [     2] aahed  
-    @+3      [     3] aahing 
-    @+98249  [ 98249] mach   q0 ? after
-    @+147414 [147414] rhumb  q1 ? after
-    @+159528 [159528] slop   q3 ? after
-    @+165570 [165570] stick  q4 ? after
-    @+168622 [168622] sue    q5 ? after
-    @+169272 [169272] super  q7 ? it
-    @+169272 [169272] super  done. it
-    @+170129 [170129] surf   q6 ? before
-    @+171681 [171681] ta     q2 ? before
+    @       [    0] aa      
+    @+1     [    1] aah     
+    @+2     [    2] aahed   
+    @+3     [    3] aahing  
+    @+5347  [ 5347] an      q4  ? after
+    @+8512  [ 8512] arch    q5  ? after
+    @+10146 [10146] ate     q6  ? after
+    @+10852 [10852] auto    q7  ? after
+    @+11319 [11319] avo     q8  ? after
+    @+11375 [11375] aw      q10 ? after
+    @+11383 [11383] awake   q13 ? it
+    @+11383 [11383] awake   done. it
+    @+11410 [11410] awe     q12 ? before
+    @+11461 [11461] axe     q11 ? before
+    @+11556 [11556] azaleas q9  ? before
+    @+11792 [11792] backbit q3  ? before
+    @+23590 [23590] cam     q2  ? before
+    @+47409 [47409] dis     q1  ? before
+    @+98249 [98249] mach    q0  ? before
 
-# cemantix.certitudes.org 🧩 #1105 🥳 40 ⏱️ 0:14:53.868715
+# cemantix.certitudes.org 🧩 #1106 🥳 176 ⏱️ 0:16:09.553598
 
-🤔 41 attempts
+🤔 177 attempts
 📜 1 sessions
-🫧 2 chat sessions
-⁉️ 6 chat prompts
-🤖 6 gemma2:latest replies
-🥵  1 🥶 37 🧊  2
+🫧 4 chat sessions
+⁉️ 20 chat prompts
+🤖 20 gemma2:latest replies
+🔥   3 🥵  11 😎  53 🥶 100 🧊   9
 
-     $1 #41  ~1 ancêtre         100.00°C 🥳 1000‰
-     $2 #32  ~2 légende          38.24°C 🥵  904‰
-     $3 #37     symbole          25.98°C 🥶
-     $4 #34     prophétie        22.62°C 🥶
-     $5 #25     mystère          22.36°C 🥶
-     $6  #3     ciel             21.61°C 🥶
-     $7 #30     fable            20.85°C 🥶
-     $8 #28     divination       19.49°C 🥶
-     $9  #9     rêve             18.30°C 🥶
-    $10 #14     lune             17.81°C 🥶
-    $11 #24     magie            16.53°C 🥶
-    $12 #23     inspiration      16.33°C 🥶
-    $13 #20     cosmos           16.08°C 🥶
-    $40 #19     clair            -3.06°C 🧊
+      $1 #177   ~1 vengeance        100.00°C 🥳 1000‰
+      $2 #120  ~17 meurtre           53.37°C 🔥  996‰
+      $3 #123  ~14 sanglant          47.76°C 🔥  992‰
+      $4 #128  ~10 tueur             47.49°C 🔥  991‰
+      $5 #126  ~12 crime             46.02°C 🥵  985‰
+      $6 #122  ~15 sadique           42.52°C 🥵  971‰
+      $7  #13  ~67 horreur           41.60°C 🥵  961‰
+      $8  #81  ~33 carnage           41.58°C 🥵  959‰
+      $9  #19  ~61 violence          41.48°C 🥵  957‰
+     $10  #15  ~65 terreur           40.56°C 🥵  947‰
+     $11 #160   ~3 punition          39.51°C 🥵  936‰
+     $15  #98  ~25 malédiction       37.64°C 😎  899‰
+     $69  #74      diable            25.39°C 🥶
+    $169   #2      biscuit           -0.22°C 🧊
 
-# cemantle.certitudes.org 🧩 #1072 🥳 333 ⏱️ 0:17:51.437763
+# cemantle.certitudes.org 🧩 #1073 🥳 851 ⏱️ 3:27:31.815488
 
-🤔 334 attempts
+🤔 852 attempts
 📜 1 sessions
-🫧 8 chat sessions
-⁉️ 41 chat prompts
-🤖 41 gemma2:latest replies
-🔥   4 🥵  10 😎  30 🥶 282 🧊   7
+🫧 39 chat sessions
+⁉️ 236 chat prompts
+🤖 81 qwen2.5:latest replies
+🤖 155 gemma2:latest replies
+🔥   5 🥵  25 😎 179 🥶 582 🧊  60
 
-      $1 #334   ~1 marker          100.00°C 🥳 1000‰
-      $2 #240   ~7 headstone        47.07°C 🔥  998‰
-      $3 #249   ~5 tombstone        42.04°C 🔥  997‰
-      $4 #225  ~10 gravestone       41.46°C 🔥  996‰
-      $5 #128  ~27 monument         40.85°C 🔥  995‰
-      $6 #126  ~28 inscription      38.88°C 🔥  991‰
-      $7 #172  ~18 epitaph          34.96°C 🥵  979‰
-      $8 #124  ~29 etching          33.30°C 🥵  968‰
-      $9 #106  ~33 engraving        33.02°C 🥵  965‰
-     $10  #90  ~36 pictograph       32.96°C 🥵  964‰
-     $11 #206  ~13 totem            32.36°C 🥵  953‰
-     $16  #93  ~35 artifact         29.87°C 😎  890‰
-     $46  #89      icon             22.61°C 🥶
-    $328 #313      forest           -0.11°C 🧊
+      $1 #852   ~1 allege             100.00°C 🥳 1000‰
+      $2 #764  ~41 accuse              55.96°C 🔥  997‰
+      $3 #509  ~95 accused             52.96°C 🔥  996‰
+      $4 #788  ~29 contend             50.42°C 🔥  995‰
+      $5 #578  ~78 argue               47.72°C 🔥  993‰
+      $6 #323 ~144 claim               46.18°C 🔥  991‰
+      $7 #306 ~152 complaint           43.38°C 🥵  989‰
+      $8 #518  ~92 charged             42.88°C 🥵  988‰
+      $9 #304 ~153 allegation          42.42°C 🥵  986‰
+     $10 #770  ~38 complain            41.41°C 🥵  982‰
+     $11 #599  ~68 implicate           40.55°C 🥵  978‰
+     $32 #456 ~105 substantiate        31.07°C 😎  897‰
+    $211 #311      jury                18.93°C 🥶
+    $793 #648      dire                -0.02°C 🧊
