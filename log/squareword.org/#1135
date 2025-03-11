@@ -1,0 +1,104 @@
+T0.00023052900360198691 now: 2025-03-11T09:44:33EDT
+T0.0003020080039277673 site: squareword.org
+T4.64486416499858 🧩  ? #1135
+T4.645102075999603 puzzle_id: #1135
+T6.090227228000003 > *
+T6.180716481998388 questioning: ["myrrh", "#5 found:5167 hypo:11881376"]
+T10.653489399002865 myrrh ( #5 found:5167 hypo:11881376 ) ? 
+T11.114822825002193 myrrh ( #5 found:5167 hypo:11881376 ) > 
+T11.419084264998673 myrrh ( #5 found:5167 hypo:11881376 ) 1> 
+T12.583503187001043 myrrh ( #5 found:5167 hypo:11881376 ) 2> m_r
+T12.584525703001418 word: 1 m_r__
+T12.584556465997593 may: 1 
+T14.137646235998545 question done
+T15.406489763998252 > /no yh
+T15.407027296001615 nope: h y
+T26.03591554200102 > *
+T26.22883017500135 questioning: ["moras", "#2 found:30 hypo:13824"]
+T29.59801016200072 moras ( #2 found:30 hypo:13824 ) ? 
+T29.79899691200262 moras ( #2 found:30 hypo:13824 ) > 
+T32.79905586100358 moras ( #2 found:30 hypo:13824 ) 1> ____s ~ s
+T32.79946653100342 word: 0 ____s
+T32.79949675399985 may: 0 s
+T34.97257418499794 moras ( #2 found:30 hypo:13824 ) 2> mora
+T34.97275718900346 word: 1 mora_
+T34.972806279001816 may: 1 
+T36.81090725099784 moras ( #2 found:30 hypo:13824 ) 3> ~ as
+T36.81139287199767 word: 2 _____
+T36.811420980004186 may: 2 a s
+T38.09538513100415 moras ( #2 found:30 hypo:13824 ) 4> 
+T40.27832936800405 moras ( #2 found:30 hypo:13824 ) 5> ~ s
+T40.27853807100473 word: 4 _____
+T40.278564378997544 may: 4 s
+T40.27858956500131 question done
+T43.58678922300169 > *
+T43.93135353099933 questioning: ["moral", "#2 found:2 hypo:24"]
+T50.162381752998044 moral ( #2 found:2 hypo:24 ) ? 
+T50.730836980001186 moral ( #2 found:2 hypo:24 ) > 
+T51.010718931000156 moral ( #2 found:2 hypo:24 ) 1> 
+T52.11694512900431 moral ( #2 found:2 hypo:24 ) 2> moral
+T52.117126229997666 word: 1 moral
+T52.11714612899959 may: 1 
+T54.671595494997746 moral ( #2 found:2 hypo:24 ) 3> 
+T55.77454112099804 moral ( #2 found:2 hypo:24 ) 4> ~ l
+T55.774750953001785 word: 3 _____
+T55.77479446199868 may: 3 l
+T56.86519679600315 question done
+T57.449409950997506 > *
+T57.553913278003165 questioning: ["aside", "#3 found:10 hypo:27648"]
+T60.7018548499982 aside ( #3 found:10 hypo:27648 ) ? 
+T61.088817484000174 aside ( #3 found:10 hypo:27648 ) > 
+T65.01768454899866 aside ( #3 found:10 hypo:27648 ) 1> __i_s ~ se
+T65.01788353099982 word: 0 __i_s
+T65.01790138900105 may: 0 e s
+T69.02771270999801 aside ( #3 found:10 hypo:27648 ) 2> 
+T70.60166159099754 aside ( #3 found:10 hypo:27648 ) 3> _s__e
+T70.60187351999775 word: 2 _s__e
+T70.60189243600325 may: 2 a
+T76.95240285099862 aside ( #3 found:10 hypo:27648 ) 4> ____e ~ li
+T76.95262014499895 word: 3 ____e
+T76.95264267099992 may: 3 i l
+T78.80254188200342 aside ( #3 found:10 hypo:27648 ) 5> ~ se
+T78.80275030300254 word: 4 _____
+T78.8028026000029 may: 4 e s
+T78.80282412200177 question done
+T80.99785345300188 > /no d
+T80.99803780700313 nope: d h y
+T81.92965002600249 > *
+T82.35661661699851 questioning: ["usage", "#3 found:2 hypo:529"]
+T85.12430588700227 usage ( #3 found:2 hypo:529 ) ? 
+T86.37458893900475 usage ( #3 found:2 hypo:529 ) > 3 usage
+T86.3748049220012 word: 2 usage
+T86.37482337200345 may: 2 
+T89.24091075400065 question done
+T90.37687578600162 > *
+T90.62981559600303 questioning: ["title", "#4 found:1 hypo:1058"]
+T94.54071625800134 title ( #4 found:1 hypo:1058 ) ? 
+T97.36545448499965 title ( #4 found:1 hypo:1058 ) > 4 title
+T97.36566424299963 word: 3 title
+T97.36568568999792 may: 3 
+T100.02712458200403 title ( #4 found:1 hypo:1058 ) 5> ~ set
+T100.02737315500417 word: 4 _____
+T100.02739895899867 may: 4 e s t
+T100.02742019700236 question done
+T102.76346926599945 > *
+T103.32917688100133 questioning: ["spies", "#1 found:1 hypo:46"]
+T106.60020852299931 spies ( #1 found:1 hypo:46 ) ? 
+T107.07514946399897 spies ( #1 found:1 hypo:46 ) > 
+T109.19360818600398 spies ( #1 found:1 hypo:46 ) 1> spies
+T109.19381554100255 word: 0 spies
+T109.19383561499853 may: 0 
+T115.12037237500044 spies ( #1 found:1 hypo:46 ) 2> 5 s__e ~ etp
+T115.12062398900161 word: 4 s__e_
+T115.12064775600447 may: 4 e p t
+T115.12066893700103 question done
+T117.08116353399964 > *
+T117.51163059499959 questioning: ["steep", "#5 found:1 hypo:6"]
+T122.74159877000056 steep ( #5 found:1 hypo:6 ) ? 
+T124.08070068000234 steep ( #5 found:1 hypo:6 ) > 5 steep
+T124.08092320000287 word: 4 steep
+T124.0809440400044 may: 4 
+T124.08096279000165 question done
+T128.33204139400186 Press <Enter> to 📋 or `>` for line prompt 
+T128.33884368299914 result: "squareword.org 1135: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1135"
+T128.34020740700362 <STOP>
