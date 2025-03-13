@@ -1,0 +1,123 @@
+T0.00017989899970416445 now: 2025-03-13T14:39:51EDT
+T0.00021911099975113757 site: squareword.org
+T3.041783058999499 🧩  ? #1137
+T3.0421424739997747 puzzle_id: #1137
+T3.708308685998418 > *
+T3.794411899998522 questioning: ["ideas", "#5 found:3885 hypo:11881376"]
+T6.383532090998415 ideas ( #5 found:3885 hypo:11881376 ) ? 
+T6.537261299999955 ideas ( #5 found:3885 hypo:11881376 ) > 
+T7.578293281998413 ideas ( #5 found:3885 hypo:11881376 ) 1> ~ i
+T7.579472968000118 word: 0 _____
+T7.57949690499845 may: 0 i
+T8.491604852999444 ideas ( #5 found:3885 hypo:11881376 ) 2> ~ a
+T8.491921626999101 word: 1 _____
+T8.491952783999295 may: 1 a
+T11.630811045999508 ideas ( #5 found:3885 hypo:11881376 ) 3> ___as ~ ds
+T11.63103387099909 word: 2 ___as
+T11.631053066999812 may: 2 d s
+T13.839977769999678 ideas ( #5 found:3885 hypo:11881376 ) 4> ~ eas
+T13.840211202999853 word: 3 _____
+T13.840234928999052 may: 3 a e s
+T16.49814007599889 ideas ( #5 found:3885 hypo:11881376 ) 5> i ~ es
+T16.498402319999514 word: 4 i____
+T16.49842409499979 may: 4 e s
+T16.498444191998715 question done
+T18.408984939998845 > *
+T18.817049241999484 questioning: ["sodas", "#3 found:2 hypo:52"]
+T21.313749959999768 sodas ( #3 found:2 hypo:52 ) ? 
+T23.32973015799871 sodas ( #3 found:2 hypo:52 ) > 
+T24.51229089699882 sodas ( #3 found:2 hypo:52 ) 1> ~ io
+T24.512505601000157 word: 0 _____
+T24.512529081999674 may: 0 i o
+T26.06188168100016 sodas ( #3 found:2 hypo:52 ) 2> ~ ao
+T26.06222303999857 word: 1 _____
+T26.062255713999548 may: 1 a o
+T27.450621406998835 sodas ( #3 found:2 hypo:52 ) 3> sodas
+T27.450746333999632 word: 2 sodas
+T27.45075732499936 may: 2 
+T30.639035014999536 sodas ( #3 found:2 hypo:52 ) 4> s
+T30.639242589999412 word: 3 s____
+T30.639264417999584 may: 3 a e
+T33.48064051399888 sodas ( #3 found:2 hypo:52 ) 5> 
+T33.480769504998534 question done
+T35.48583691599924 > *
+T35.77190036299908 questioning: ["isled", "#5 found:5 hypo:1352"]
+T40.119223984998825 isled ( #5 found:5 hypo:1352 ) ? 
+T40.55228108499978 isled ( #5 found:5 hypo:1352 ) > 
+T41.83867882699997 isled ( #5 found:5 hypo:1352 ) 1> ~ iol
+T41.838869987999715 word: 0 _____
+T41.83889072799866 may: 0 i l o
+T47.34735788299986 isled ( #5 found:5 hypo:1352 ) 2> 5 isle
+T47.34756861099959 word: 4 isle_
+T47.347588306000034 may: 4 
+T47.34760795699913 question done
+T48.59152041999914 > *
+T48.84186668399889 questioning: ["isles", "#5 found:2 hypo:26"]
+T53.882220354998935 isles ( #5 found:2 hypo:26 ) ? 
+T55.713992711000174 question done
+T56.43987977100005 > *
+T56.44211357199856 questioning: ["islet", "#5 found:3 hypo:26"]
+T61.546886594998796 islet ( #5 found:3 hypo:26 ) ? 
+T63.57384358199852 islet ( #5 found:3 hypo:26 ) > 5 islet
+T63.57423744799962 word: 4 islet
+T63.57427181499952 may: 4 
+T63.574304716999904 question done
+T64.88279262499964 > *
+T64.93144278399996 questioning: ["lingo", "#1 found:2 hypo:4056"]
+T67.5626528799985 lingo ( #1 found:2 hypo:4056 ) ? 
+T67.89691435099849 lingo ( #1 found:2 hypo:4056 ) > 
+T69.39794283499941 lingo ( #1 found:2 hypo:4056 ) 1> li__o
+T69.39827956799854 word: 0 li__o
+T69.39831324599982 may: 0 
+T71.70760345300005 lingo ( #1 found:2 hypo:4056 ) 2> ~ aon
+T71.70782293899902 word: 1 _____
+T71.70784568899944 may: 1 a n o
+T73.0039198909999 lingo ( #1 found:2 hypo:4056 ) 3> 
+T75.99537245600004 lingo ( #1 found:2 hypo:4056 ) 4> ~ ean
+T75.99546829499923 word: 3 s____
+T75.9954760290002 may: 3 a e n
+T77.41770981599984 lingo ( #1 found:2 hypo:4056 ) 5> /no g
+T79.49946585399994 lingo ( #1 found:2 hypo:4056 ) 5> 
+T79.49966203199983 question done
+T80.37895652499901 > /no g
+T80.38001217700003 nope: g
+T81.42380552399845 > *
+T82.21329072699882 questioning: ["litho", "#1 found:2 hypo:625"]
+T88.19048478100012 question done
+T89.03985806399942 > /no h
+T89.04005906999919 nope: g h
+T89.68148387099973 > *
+T90.74641851900014 questioning: ["limbo", "#1 found:1 hypo:576"]
+T94.24052090699843 limbo ( #1 found:1 hypo:576 ) ? 
+T94.40584399699947 limbo ( #1 found:1 hypo:576 ) > 
+T95.97274351399938 limbo ( #1 found:1 hypo:576 ) 1> limbo
+T95.97293239999999 word: 0 limbo
+T95.97295349699925 may: 0 
+T99.52623992999906 question done
+T100.4548540099986 > *
+T101.32941107299848 questioning: ["adorn", "#2 found:2 hypo:3456"]
+T104.10271268799988 adorn ( #2 found:2 hypo:3456 ) ? 
+T104.38565612599996 adorn ( #2 found:2 hypo:3456 ) > 
+T104.94698437099942 adorn ( #2 found:2 hypo:3456 ) 1> 
+T108.59938004600008 adorn ( #2 found:2 hypo:3456 ) 2> a_orn
+T108.59960818799846 word: 1 a_orn
+T108.59963755299941 may: 1 
+T110.08441277499878 question done
+T110.57812943299905 > *
+T111.30164305899962 questioning: ["snake", "#4 found:1 hypo:144"]
+T114.14782737899986 snake ( #4 found:1 hypo:144 ) ? 
+T115.48682720999932 snake ( #4 found:1 hypo:144 ) > 4 snake
+T115.48699060399849 word: 3 snake
+T115.48703377799939 may: 3 
+T117.75471140599984 question done
+T118.21408673199949 > *
+T118.70386170399979 questioning: ["acorn", "#2 found:1 hypo:24"]
+T121.02296968599876 acorn ( #2 found:1 hypo:24 ) ? 
+T121.28462644399951 acorn ( #2 found:1 hypo:24 ) > 2
+T122.1345684959997 acorn ( #2 found:1 hypo:24 ) 2> acorn
+T122.13470756499919 word: 1 acorn
+T122.1347300389989 may: 1 
+T123.91925883600015 question done
+T127.02759304399842 Press <Enter> to 📋 or `>` for line prompt 
+T127.03069233199858 result: "squareword.org 1137: 11 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe7\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1137"
+T127.03141404300004 <STOP>
