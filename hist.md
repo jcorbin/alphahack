@@ -8689,3 +8689,21 @@ See log/squareword.org/#1137
 # 2025-03-13 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1167
+
+# 2025-03-13 cemantix.certitudes.org
+
+```
+🔗 cemantix.certitudes.org
+🧩 1108
+🤔 40 guesses
+    😎  6
+    🥶 19
+    🧊 15
+⏱️ 0:06:30.227008
+```
+
+🤔 41 attempts
+📜 0 sessions
+🫧 2 chat sessions
+⁉️ 7 chat prompts
+🤖 7 phi4:latest replies
