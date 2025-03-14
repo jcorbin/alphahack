@@ -1,0 +1,140 @@
+T0.00016942000002018176 now: 2025-03-14T10:16:00EDT
+T0.00020822199803660624 site: squareword.org
+T2.0265276479985914 🧩  ? #1138
+T2.0268628309968335 puzzle_id: #1138
+T3.0786373619994265 > *
+T3.172357995998027 questioning: ["moper", "#5 found:5039 hypo:11881376"]
+T7.46083593000003 moper ( #5 found:5039 hypo:11881376 ) ? 
+T8.345734636997804 moper ( #5 found:5039 hypo:11881376 ) > ~ e
+T10.593074455999158 moper ( #5 found:5039 hypo:11881376 ) > 
+T11.498385041999427 moper ( #5 found:5039 hypo:11881376 ) 1> ~ e
+T11.498963475998607 word: 0 _____
+T11.498977605999244 may: 0 e
+T12.133036788000027 moper ( #5 found:5039 hypo:11881376 ) 2> ~ r
+T12.133247945999756 word: 1 _____
+T12.133268300000054 may: 1 r
+T13.508158387998265 moper ( #5 found:5039 hypo:11881376 ) 3> ~ mor
+T13.508398000998568 word: 2 _____
+T13.508424194998952 may: 2 m o r
+T15.601809788997343 moper ( #5 found:5039 hypo:11881376 ) 4> ___er
+T15.601995829998486 word: 3 ___er
+T15.602016990000266 may: 3 
+T17.18841368899666 moper ( #5 found:5039 hypo:11881376 ) 5> ~ e
+T17.188631917997554 word: 4 _____
+T17.188653208999312 may: 4 e
+T17.188675969999167 question done
+T19.472225620000245 > /no p
+T19.472889247997955 nope: p
+T20.408480320998933 > *
+T20.813453647999268 questioning: ["wormy", "#3 found:48 hypo:3750"]
+T23.73163737499999 wormy ( #3 found:48 hypo:3750 ) ? 
+T23.994796101000247 wormy ( #3 found:48 hypo:3750 ) > 
+T25.813538139998855 wormy ( #3 found:48 hypo:3750 ) 1> 
+T28.432783208998444 wormy ( #3 found:48 hypo:3750 ) 2> __r ~ y
+T28.433019012998557 word: 1 __r__
+T28.433041412998136 may: 1 y
+T30.891399901000113 wormy ( #3 found:48 hypo:3750 ) 3> ___m
+T30.891542761997698 word: 2 ___m_
+T30.891554443998757 may: 2 o r
+T33.61080841599687 wormy ( #3 found:48 hypo:3750 ) 4> w__er
+T33.611021292999794 word: 3 w__er
+T33.61104210299891 may: 3 
+T37.390611487997376 wormy ( #3 found:48 hypo:3750 ) 5> ____y
+T37.39080343000023 word: 4 ____y
+T37.39082254099776 may: 4 e
+T37.39084316499793 question done
+T38.838612037998246 > *
+T39.2139354840001 questioning: ["aroma", "#3 found:1 hypo:1250"]
+T41.78881075800018 aroma ( #3 found:1 hypo:1250 ) ? 
+T42.168696883996745 aroma ( #3 found:1 hypo:1250 ) > 
+T43.70873548199961 aroma ( #3 found:1 hypo:1250 ) 1> ~ ea
+T43.708946176997415 word: 0 _____
+T43.708977513997525 may: 0 a e
+T46.7105822659978 aroma ( #3 found:1 hypo:1250 ) 2> 
+T48.17768266699932 aroma ( #3 found:1 hypo:1250 ) 3> aroma
+T48.177877231999446 word: 2 aroma
+T48.177901724997355 may: 2 
+T50.90589231299964 question done
+T51.55980267199993 > *
+T51.80133311999816 questioning: ["lyric", "#2 found:1 hypo:15625"]
+T54.82423508200009 lyric ( #2 found:1 hypo:15625 ) ? 
+T55.6027793439971 lyric ( #2 found:1 hypo:15625 ) > 
+T57.11638344699895 lyric ( #2 found:1 hypo:15625 ) 1> 
+T58.368561071998556 lyric ( #2 found:1 hypo:15625 ) 2> lyric
+T58.36870855599773 word: 1 lyric
+T58.36872768399917 may: 1 
+T61.565114508997794 lyric ( #2 found:1 hypo:15625 ) 3> 
+T63.18954456799838 lyric ( #2 found:1 hypo:15625 ) 4> ~ i
+T63.189730668000266 word: 3 w__er
+T63.189748855998914 may: 3 i
+T64.67033622699819 question done
+T65.30104760499671 > *
+T65.6014179479971 questioning: ["wiver", "#4 found:4 hypo:25"]
+T72.41457357299805 wiver ( #4 found:4 hypo:25 ) ? 
+T77.19761491999816 wiver ( #4 found:4 hypo:25 ) > 4 wi_er
+T77.19793314699928 word: 3 wi_er
+T77.19796491799934 may: 3 
+T82.17351338299704 question done
+T83.00497242900019 > /no v
+T83.00514380499953 nope: p v
+T84.17592729199896 > *
+T85.18467688300007 questioning: ["wirer", "#4 found:2 hypo:24"]
+T87.2120142849999 question done
+T88.59422905199972 > *1
+T89.62578308199954 questioning: ["wiser", "#4 found:3 hypo:24"]
+T94.78415194199988 question done
+T96.098392934 > * 1
+T96.37172371599809 questioning: ["fears", "#1 found:7 hypo:27648"]
+T99.64384219799831 fears ( #1 found:7 hypo:27648 ) ? 
+T100.10847650199867 fears ( #1 found:7 hypo:27648 ) > 
+T101.91751228499925 fears ( #1 found:7 hypo:27648 ) 1> fea_s
+T101.91774710000027 word: 0 fea_s
+T101.9177800619982 may: 0 
+T107.19160270799694 fears ( #1 found:7 hypo:27648 ) 2> 4 ~ s
+T107.19181116699838 word: 3 wi_er
+T107.19184077699902 may: 3 s
+T112.2509557960002 fears ( #1 found:7 hypo:27648 ) 5> _e__y ~ es
+T112.25116671199794 word: 4 _e__y
+T112.25119447999896 may: 4 e s
+T112.25121930499881 question done
+T113.22794433099989 > *
+T114.25939039899822 questioning: ["wiser", "#4 found:1 hypo:1"]
+T121.34662891699918 wiser ( #4 found:1 hypo:1 ) ? 
+T125.76460344799852 wiser ( #4 found:1 hypo:1 ) > 4 wiser
+T125.76481337899895 word: 3 wiser
+T125.764833412999 may: 3 
+T127.37079405199984 wiser ( #4 found:1 hypo:1 ) 5> 1 fears
+T127.37104166399877 word: 0 fears
+T127.37107464399742 may: 0 
+T130.06624138400002 question done
+T130.59556515099757 > *
+T131.0840835309973 questioning: ["seedy", "#5 found:1 hypo:48"]
+T135.9873925920001 question done
+T137.03536352399897 > fears
+T137.03580865999902 questioning: ["fears", "entered"]
+T139.63624764299675 fears ( entered ) ? 1 fea_s
+T139.6364989649992 guess: fears
+T139.63661840499844 word: 0 fea_s
+T139.63663854199694 may: 0 
+T143.39584770599686 question done
+T144.3772728699987 > * 1
+T144.62588182499894 questioning: ["feats", "#1 found:1 hypo:24"]
+T148.3381455159979 feats ( #1 found:1 hypo:24 ) ? 
+T148.76460294199933 feats ( #1 found:1 hypo:24 ) > 
+T150.16250364699954 feats ( #1 found:1 hypo:24 ) 1> feat
+T150.1627230339982 word: 0 feats
+T150.1627459409974 may: 0 
+T154.0811573109968 feats ( #1 found:1 hypo:24 ) 2> 1 feats
+T154.0815345209994 word: 0 feats
+T154.0815730159993 may: 0 
+T156.2806466059992 question done
+T156.78008710299764 > *
+T157.27812288899804 questioning: ["seedy", "#5 found:1 hypo:48"]
+T160.82541655199748 seedy ( #5 found:1 hypo:48 ) ? 
+T162.14711612999963 seedy ( #5 found:1 hypo:48 ) > 5 seedy
+T162.14736377999725 word: 4 seedy
+T162.1473958059978 may: 4 
+T162.14742528699935 question done
+T166.42684195399852 Press <Enter> to 📋 or `>` for line prompt 
+T166.43504407799992 result: "squareword.org 1138: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1138"
+T166.43652522699995 <STOP>
