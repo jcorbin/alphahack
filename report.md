@@ -1,183 +1,170 @@
-# 2025-03-15
+# 2025-03-16
 
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1169 🥳 18 ⏱️ 0:04:28.865566
-- 🔗 squareword.org 🧩 #1139 🥳 10 ⏱️ 0:02:44.605864
-- 🔗 alphaguess.com 🧩 #599 🥳 13 ⏱️ 0:00:45.759049
-- 🔗 alfagok.diginaut.net 🧩 #133 🥳 25 ⏱️ 0:00:58.145379
-- 🔗 cemantle.certitudes.org 🧩 #1076 🥳 315 ⏱️ 0:21:03.968050
-- 🔗 cemantix.certitudes.org 🧩 #1109 🥳 190 ⏱️ 0:11:18.061897
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1170 😦 12 ⏱️ 0:07:25.836606
+- 🔗 squareword.org 🧩 #1140 🥳 10 ⏱️ 0:07:34.296151
+- 🔗 alphaguess.com 🧩 #600 🥳 13 ⏱️ 0:00:39.650632
+- 🔗 alfagok.diginaut.net 🧩 #134 🥳 14 ⏱️ 0:00:35.977110
+- 🔗 cemantle.certitudes.org 🧩 #1077 🥳 257 ⏱️ 0:12:02.301160
+- 🔗 cemantix.certitudes.org 🧩 #1110 🥳 118 ⏱️ 0:06:47.733586
 
 - ❌
 - ✅
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1169 🥳 18
-- ✅ squareword.org 🧩 #1139 🥳 10
-- ✅ alphaguess.com 🧩 #599 🥳 13
-- ✅ alfagok.diginaut.net 🧩 #133 🥳 25
-- ✅ cemantle.certitudes.org 🧩 #1076 🥳 315
-- ✅ cemantix.certitudes.org 🧩 #1109 🥳 190
+- ❌ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1170 😦 12
+- ✅ squareword.org 🧩 #1140 🥳 10
+- ✅ alphaguess.com 🧩 #600 🥳 13
+- ✅ alfagok.diginaut.net 🧩 #134 🥳 14
+- ✅ cemantle.certitudes.org 🧩 #1077 🥳 257
+- ✅ cemantix.certitudes.org 🧩 #1110 🥳 118
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$3jjrZljrwWFEcbSgYQkZ-JVSldDPMENlfoU0W_ZrPJ4?via=aelf.land&via=matrix.org
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$V0AJmKclpRdX8veid1-YmhXT4GVjqqKicwVVsJ4quVc?via=aelf.land&via=matrix.org
 
-# squareword.org 🧩 #1139 🥳 10 ⏱️ 0:02:44.605864
+# squareword.org 🧩 #1140 🥳 10 ⏱️ 0:07:34.296151
 
-📜 1 sessions
+📜 2 sessions
 
 Guesses:
+1. dales
+2. trist
+3. twist
 
 Score Heatmap:
     🟨 🟨 🟨 🟨 🟩
-    🟨 🟩 🟨 🟨 🟨
-    🟨 🟨 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
-    🟩 🟩 🟩 🟩 🟨
+    🟨 🟨 🟨 🟨 🟩
+    🟩 🟩 🟩 🟨 🟩
+    🟨 🟨 🟩 🟩 🟨
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    G L A R E
-    R E D I D
-    A M O N G
-    N U R S E
-    T R E E D
+    T W I S T
+    R O D E O
+    I N E R T
+    A G A V E
+    D A L E S
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1169 🥳 18 ⏱️ 0:04:28.865566
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1170 😦 12 ⏱️ 0:07:25.836606
 
-📜 2 sessions
-💰 score: 9800
+📜 1 sessions
+💰 score: 1080
 
-    5/6
-    > B A G E L
-      ⬜🟩⬜⬜⬜
-    > P A N I C
-      ⬜🟩⬜⬜⬜
-    > M A R S H
+    6/6
+    > C H A R T
+      ⬜⬜⬜🟨⬜
+    > F O R U M
+      ⬜⬜🟩⬜⬜
+    > P E R I L
       ⬜🟩🟩⬜⬜
-    > T A R D Y
-      🟩🟩🟩⬜⬜
-    > T A R O T
+    > J E R K Y
+      ⬜🟩🟩⬜⬜
+    > N E R V E
+      ⬜🟩🟩🟩🟩
+    > S E R V E
       🟩🟩🟩🟩🟩
-    3/6
-    > C O M F Y
-      ⬜⬜⬜🟨⬜
-    > F O C U S
-      🟨🟩⬜🟨⬜
-    > B I T C H
-      🟩🟩🟩🟩🟩
-    5/6
-    > C L E A R
-      ⬜⬜🟨⬜⬜
-    > C R A M P
-      ⬜⬜⬜🟨⬜
-    > C R A N K
-      🟩⬜⬜🟨🟨
-    > F O L D S
-      🟩🟩🟩⬜⬜
-    > S H I F T
-      🟩🟩🟩🟩🟩
-    3/6
-    > B U M P Y
-      ⬜⬜⬜⬜⬜
-    > M U D D Y
-      🟨⬜⬜⬜🟨
-      🟩🟩🟩🟩🟩
-    Final 2/2
-      ⬜🟩🟨⬜🟩
-      🟩🟩🟩🟩🟩
+    6/6
+    > T R I C K
+      ⬜🟨🟨⬜⬜
+    > D I N E R
+      ⬜🟨🟨⬜⬜
+    > F I X E R
+      ⬜🟩⬜🟩🟩
+    > W I P E R
+      ⬜🟩⬜🟩🟩
+    > R I P E R
+      ⬜🟩🟩🟩🟩
+      ⬜🟩🟩🟩🟩
 
-# alfagok.diginaut.net 🧩 #133 🥳 25 ⏱️ 0:00:58.145379
+# alfagok.diginaut.net 🧩 #134 🥳 14 ⏱️ 0:00:35.977110
 
-🤔 25 attempts
+🤔 14 attempts
 📜 1 sessions
 
-    @        [     0] &-teken     
-    @+1      [     1] &-tekens    
-    @+2      [     2] -cijferig   
-    @+3      [     3] -e-mail     
-    @+100081 [100081] examen      q1  ? after
-    @+149572 [149572] huis        q2  ? after
-    @+153744 [153744] in          q12 ? after
-    @+154220 [154220] inco        q17 ? after
-    @+154469 [154469] indianen    q20 ? after
-    @+154544 [154544] indiceer    q22 ? after
-    @+154558 [154558] indien      q24 ? it
-    @+154558 [154558] indien      done. it
-    @+154579 [154579] indifferent q23 ? before
-    @+154621 [154621] individu    q21 ? before
-    @+154788 [154788] indruis     q16 ? before
-    @+155834 [155834] ingedamde   q14 ? before
-    @+157927 [157927] inrichting  q13 ? before
-    @+162133 [162133] ja          q11 ? before
-    @+174687 [174687] kind        q3  ? before
-    @+200243 [200243] lijster     q0  ? before
+    @        [     0] &-teken   
+    @+1      [     1] &-tekens  
+    @+2      [     2] -cijferig 
+    @+3      [     3] -e-mail   
+    @+200243 [200243] lijster   q0  ? after
+    @+300315 [300315] schroef   q1  ? after
+    @+350298 [350298] vakantie  q2  ? after
+    @+353869 [353869] ver       q4  ? after
+    @+364457 [364457] verzot    q5  ? after
+    @+367087 [367087] vizier    q7  ? after
+    @+367205 [367205] vlak      q13 ? it
+    @+367205 [367205] vlak      done. it
+    @+367404 [367404] vlees     q12 ? before
+    @+367734 [367734] vlezig    q11 ? before
+    @+368377 [368377] vloer     q8  ? before
+    @+369719 [369719] voetbalt  q6  ? before
+    @+375048 [375048] vrij      q3  ? before
 
-# alphaguess.com 🧩 #599 🥳 13 ⏱️ 0:00:45.759049
+# alphaguess.com 🧩 #600 🥳 13 ⏱️ 0:00:39.650632
 
 🤔 13 attempts
+📜 2 sessions
+
+    @       [    0] aa      
+    @+1     [    1] aah     
+    @+2     [    2] aahed   
+    @+3     [    3] aahing  
+    @+11792 [11792] backbit q4  ? after
+    @+12202 [12202] baffle  q8  ? after
+    @+12274 [12274] bail    q10 ? after
+    @+12307 [12307] bait    q11 ? after
+    @+12322 [12322] bake    q12 ? it
+    @+12322 [12322] bake    done. it
+    @+12353 [12353] bal     q9  ? before
+    @+12617 [12617] ban     q7  ? before
+    @+13821 [13821] be      q6  ? before
+    @+17690 [17690] bless   q5  ? before
+    @+23590 [23590] cam     q3  ? before
+    @+47408 [47408] dis     q2  ? before
+    @+98248 [98248] mach    q0  ? after
+    @+98248 [98248] mach    q1  ? before
+
+# cemantix.certitudes.org 🧩 #1110 🥳 118 ⏱️ 0:06:47.733586
+
+🤔 119 attempts
 📜 1 sessions
+🫧 3 chat sessions
+⁉️ 12 chat prompts
+🤖 12 phi4:latest replies
+🥵  1 😎 10 🥶 84 🧊 23
 
-    @        [     0] aa     
-    @+1      [     1] aah    
-    @+2      [     2] aahed  
-    @+3      [     3] aahing 
-    @+98248  [ 98248] mach   q0  ? after
-    @+122813 [122813] parr   q2  ? after
-    @+125845 [125845] petti  q5  ? after
-    @+127358 [127358] pidgin q6  ? after
-    @+128111 [128111] pis    q7  ? after
-    @+128488 [128488] plain  q8  ? after
-    @+128530 [128530] plan   q10 ? after
-    @+128559 [128559] planet q12 ? it
-    @+128559 [128559] planet done. it
-    @+128601 [128601] plank  q11 ? before
-    @+128672 [128672] plasm  q9  ? before
-    @+128882 [128882] play   q4  ? before
-    @+135043 [135043] prop   q3  ? before
-    @+147413 [147413] rhumb  q1  ? before
+      $1 #119   ~1 larme          100.00°C 🥳 1000‰
+      $2 #111   ~4 chagrin         49.04°C 🥵  984‰
+      $3  #24  ~11 ciel            38.17°C 😎  854‰
+      $4 #117   ~3 goutte          37.94°C 😎  847‰
+      $5 #118   ~2 humecter        33.61°C 😎  659‰
+      $6   #6  ~12 pluie           33.52°C 😎  648‰
+      $7  #92   ~8 rosée           33.42°C 😎  642‰
+      $8 #102   ~6 torrent         32.80°C 😎  593‰
+      $9  #73   ~9 glacial         31.90°C 😎  528‰
+     $10  #67  ~10 éclat           31.38°C 😎  472‰
+     $11  #96   ~7 brume           31.18°C 😎  445‰
+     $12 #108   ~5 ondée           28.71°C 😎  116‰
+     $13  #46      nuage           27.81°C 🥶
+     $97  #40      cirrus          -0.36°C 🧊
 
-# cemantix.certitudes.org 🧩 #1109 🥳 190 ⏱️ 0:11:18.061897
+# cemantle.certitudes.org 🧩 #1077 🥳 257 ⏱️ 0:12:02.301160
 
-🤔 191 attempts
+🤔 258 attempts
 📜 1 sessions
-🫧 5 chat sessions
-⁉️ 20 chat prompts
-🤖 20 phi4:latest replies
-😱   1 🔥   2 🥵   1 😎  23 🥶 126 🧊  37
+🫧 6 chat sessions
+⁉️ 32 chat prompts
+🤖 32 phi4:latest replies
+🔥   1 🥵  11 😎  18 🥶 189 🧊  38
 
-      $1 #191   ~1 permission         100.00°C 🥳 1000‰
-      $2 #135  ~22 autorisation        46.18°C 😱  999‰
-      $3 #175   ~8 autoriser           44.58°C 🔥  998‰
-      $4 #177   ~6 consentement        35.70°C 🔥  994‰
-      $5 #161  ~13 dérogation          25.43°C 🥵  906‰
-      $6 #141  ~20 détention           24.24°C 😎  863‰
-      $7 #165  ~12 licence             23.93°C 😎  848‰
-      $8 #186   ~3 commandement        23.58°C 😎  834‰
-      $9 #188   ~2 endossement         22.69°C 😎  781‰
-     $10 #167  ~11 permis              22.39°C 😎  759‰
-     $11 #144  ~18 légal               22.27°C 😎  748‰
-     $12 #120  ~24 cas                 21.79°C 😎  723‰
-     $29 #166      obligation          16.17°C 🥶
-    $155  #31      chargeur            -0.15°C 🧊
-
-# cemantle.certitudes.org 🧩 #1076 🥳 315 ⏱️ 0:21:03.968050
-
-🤔 316 attempts
-📜 1 sessions
-🫧 8 chat sessions
-⁉️ 49 chat prompts
-🤖 49 phi4:latest replies
-🔥   1 🥵  22 😎  62 🥶 220 🧊  10
-
-      $1 #316   ~1 lower             100.00°C 🥳 1000‰
-      $2 #163  ~57 lowering           56.18°C 🔥  998‰
-      $3 #142  ~68 decrease           49.28°C 🥵  989‰
-      $4 #177  ~50 decreasing         49.16°C 🥵  988‰
-      $5 #305   ~5 reduce             48.45°C 🥵  986‰
-      $6 #120  ~74 reduction          46.37°C 🥵  984‰
-      $7 #261  ~14 decreased          45.49°C 🥵  981‰
-      $8 #181  ~47 reducing           45.05°C 🥵  979‰
-      $9 #242  ~20 slightly           44.48°C 🥵  977‰
-     $10 #150  ~65 drop               44.07°C 🥵  976‰
-     $11 #210  ~32 sharply            42.52°C 🥵  969‰
-     $25 #273   ~8 slashing           32.71°C 😎  896‰
-     $87 #232      slide              20.83°C 🥶
-    $307 #137      series             -0.42°C 🧊
+      $1 #258   ~1 subscribe        100.00°C 🥳 1000‰
+      $2 #182  ~23 click             44.23°C 🔥  997‰
+      $3 #208  ~15 opt               31.93°C 🥵  986‰
+      $4 #244   ~9 register          31.83°C 🥵  984‰
+      $5 #241  ~11 endorse           30.28°C 🥵  980‰
+      $6 #194  ~21 choose            29.87°C 🥵  978‰
+      $7 #242  ~10 enroll            29.31°C 🥵  969‰
+      $8 #256   ~3 participate       27.69°C 🥵  955‰
+      $9 #246   ~7 affiliate         26.45°C 🥵  936‰
+     $10 #197  ~18 agree             26.34°C 🥵  935‰
+     $11 #133  ~25 link              25.54°C 🥵  923‰
+     $14 #250   ~5 commit            24.55°C 😎  899‰
+     $32 #229      preference        17.17°C 🥶
+    $221  #67      housing           -0.03°C 🧊
