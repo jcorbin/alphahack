@@ -8890,3 +8890,7 @@ See log/play.dictionary.com_games_todays-hurdle/#1169
 # 2025-03-16 squareword.org
 
 See log/squareword.org/#1140
+
+# 2025-03-16 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1170
