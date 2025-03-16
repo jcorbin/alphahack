@@ -1,0 +1,167 @@
+T0.0001357910077786073 now: 2025-03-16T10:05:52EDT
+T0.0001723380119074136 site: squareword.org
+T1.84557385800872 🧩  ? #1140
+T1.8461291040002834 puzzle_id: #1140
+T2.5635974489996443 > *
+T2.652112964002299 questioning: ["glair", "#5 found:3236 hypo:11881376"]
+T4.899127395008691 glair ( #5 found:3236 hypo:11881376 ) ? 
+T5.078187182007241 glair ( #5 found:3236 hypo:11881376 ) > 
+T5.989206135011045 glair ( #5 found:3236 hypo:11881376 ) 1> ~ i
+T5.990276616008487 word: 0 _____
+T5.990300848003244 may: 0 i
+T7.261619746001088 glair ( #5 found:3236 hypo:11881376 ) 2> ~ r
+T7.261848481008201 word: 1 _____
+T7.261871089009219 may: 1 r
+T8.829603133999626 glair ( #5 found:3236 hypo:11881376 ) 3> ~ ir
+T8.82984925400524 word: 2 _____
+T8.829877846001182 may: 2 i r
+T11.476434373005759 glair ( #5 found:3236 hypo:11881376 ) 4> __a ~ ga
+T11.476705908004078 word: 3 __a__
+T11.476733202012838 may: 3 a g
+T13.461839031006093 glair ( #5 found:3236 hypo:11881376 ) 5> ~ la
+T13.462109246000182 word: 4 _____
+T13.46213822500431 may: 4 a l
+T13.462166438010172 question done
+T14.224452784008463 > *
+T14.547826895999606 questioning: ["chaga", "#4 found:10 hypo:1352"]
+T19.061264850010048 chaga ( #4 found:10 hypo:1352 ) ? !
+T19.061485357000493 reject: chaga
+T20.411144159006653 > *
+T20.425508056010585 questioning: ["agate", "#4 found:6 hypo:1352"]
+T23.108875737001654 agate ( #4 found:6 hypo:1352 ) ? 
+T23.41450103200623 agate ( #4 found:6 hypo:1352 ) > 
+T24.559836674001417 agate ( #4 found:6 hypo:1352 ) 1> ~ it
+T24.56004397200013 word: 0 _____
+T24.56006635801168 may: 0 i t
+T25.825981023008353 agate ( #4 found:6 hypo:1352 ) 2> ~ re
+T25.826300095010083 word: 1 _____
+T25.826353807002306 may: 1 e r
+T27.358381209007348 agate ( #4 found:6 hypo:1352 ) 3> ~ irte
+T27.358706990009523 word: 2 _____
+T27.35875241800386 may: 2 e i r t
+T30.079295050003566 agate ( #4 found:6 hypo:1352 ) 4> aga_e
+T30.079557101009414 word: 3 aga_e
+T30.079591184010496 may: 3 
+T33.03808400200796 agate ( #4 found:6 hypo:1352 ) 5> ~ lae
+T33.038532894002856 word: 4 _____
+T33.03861852201226 may: 4 a e l
+T33.038649212001474 question done
+T34.886121897012345 > * 3
+T35.08279221200792 questioning: ["liter", "#3 found:8 hypo:624"]
+T44.647260805009864 liter ( #3 found:8 hypo:624 ) ? 
+T45.720575106010074 liter ( #3 found:8 hypo:624 ) > 
+T47.074200426010066 liter ( #3 found:8 hypo:624 ) 1> 
+T49.65085282101063 liter ( #3 found:8 hypo:624 ) 2> ___e
+T49.65107170800911 word: 1 ___e_
+T49.65110177900351 may: 1 r
+T55.18119077000301 liter ( #3 found:8 hypo:624 ) 3> 5 ___e
+T55.18146813500789 word: 4 ___e_
+T55.18150370800868 may: 4 a l
+T55.181529366003815 question done
+T57.434166691004066 > * 3
+T57.48317177500576 questioning: ["relit", "#3 found:18 hypo:624"]
+T61.48043989800499 relit ( #3 found:18 hypo:624 ) ? 
+T61.677403325011255 relit ( #3 found:18 hypo:624 ) > 
+T65.28617784600647 relit ( #3 found:18 hypo:624 ) 1> 3 ____t
+T65.28637916500156 word: 2 ____t
+T65.28639756901248 may: 2 e i r
+T67.96039555000607 relit ( #3 found:18 hypo:624 ) 4> 2 r__e
+T67.96063783900172 word: 1 r__e_
+T67.96067039400805 may: 1 
+T70.55618858399976 relit ( #3 found:18 hypo:624 ) 3> 1 ____t
+T70.55641312101216 word: 0 ____t
+T70.55643785600842 may: 0 i
+T76.39373100201192 relit ( #3 found:18 hypo:624 ) 2> 5 __le
+T76.39398896800412 word: 4 __le_
+T76.39401533501223 may: 4 a
+T76.39403705000586 question done
+T78.26553794099891 <INT>
+T0.041527287001372315 now: 2025-03-16T10:07:12EDT
+T1.2036068029992748 > * 3
+T1.4648569569981191 questioning: ["relit", "#3 found:4 hypo:156"]
+T3.141023504998884 question done
+T4.512315137995756 > *
+T4.6903510849952 questioning: ["rodeo", "#2 found:1 hypo:17576"]
+T7.617092745000264 rodeo ( #2 found:1 hypo:17576 ) ? 
+T9.08152405799774 rodeo ( #2 found:1 hypo:17576 ) > 2 rodeo
+T9.08228067199525 word: 1 rodeo
+T9.082306313997833 may: 1 
+T22.15034958999604 rodeo ( #2 found:1 hypo:17576 ) 3> 1 ~ it
+T22.1513009420014 word: 0 ____t
+T22.151338236988522 may: 0 i t
+T25.111226695997175 rodeo ( #2 found:1 hypo:17576 ) 2> 5 ~ ad
+T25.111466417991323 word: 4 __le_
+T25.11148934099765 may: 4 a d
+T25.11151192599209 question done
+T27.015409874002216 > * 
+T27.236695574989426 questioning: ["inert", "#3 found:1 hypo:156"]
+T29.79782942699967 inert ( #3 found:1 hypo:156 ) ? 
+T31.574863126996206 inert ( #3 found:1 hypo:156 ) > 3 inert
+T31.57507070498832 word: 2 inert
+T31.575092728991876 may: 2 
+T35.65987043699715 question done
+T36.84114200399199 > *
+T37.01524313099799 questioning: ["agave", "#4 found:1 hypo:26"]
+T39.76331033698807 agave ( #4 found:1 hypo:26 ) ? 
+T40.94117928999185 agave ( #4 found:1 hypo:26 ) > 4 agave
+T40.94138023699634 word: 3 agave
+T40.941402646989445 may: 3 
+T44.73401500399632 question done
+T45.588767062989064 > *
+T45.640442417992745 questioning: ["dales", "#5 found:1 hypo:52"]
+T48.20011182098824 dales ( #5 found:1 hypo:52 ) ? 
+T49.470425202991464 dales ( #5 found:1 hypo:52 ) > 5 dales
+T49.47063343199261 word: 4 dales
+T49.470652107993374 may: 4 
+T49.470671110990224 question done
+T51.97827339099604 > dales
+T51.9789325419988 questioning: ["dales", "entered"]
+T53.23378187698836 dales ( entered ) ? 1 ~ its
+T53.233927682987996 guess: dales
+T53.23397189899697 word: 0 ____t
+T53.2339807949902 may: 0 i s t
+T56.02438279199123 question done
+T56.617803150002146 > *
+T60.31587828199554 > *
+T61.01804330899904 > * 1
+T63.01546624999901 > * 1
+T75.00341289099015 > 1 ~ is
+T85.75900646399532 > dales
+T85.75929842999903 questioning: ["dales", "entered"]
+T88.41100466399803 dales ( entered ) > 1 ~ is
+T88.4112767429906 word: 0 ____t
+T88.41129910899326 may: 0 i s
+T89.69455616398773 question done
+T90.57738342799712 > * 1
+T91.50733166599821 > *
+T92.62284186799661 > *
+T100.90837177498906 > dales
+T100.90858704099082 questioning: ["dales", "entered"]
+T101.69515136399423 dales ( entered ) > 1 ~
+T101.69547938399774 word: 0 ____t
+T101.69555684798979 may: 0 
+T102.84108453699446 question done
+T103.95368270599283 > *
+T104.98402130098839 > *
+T329.12508253598935 > trist
+T329.12528024498897 questioning: ["trist", "entered"]
+T332.816033169991 trist ( entered ) ? 1 t_ist
+T332.8162905299978 guess: trist
+T332.81637282700103 word: 0 t_ist
+T332.81638940700213 may: 0 
+T362.5818617059995 trist ( entered ) 2> *(
+T363.375741181997 trist ( entered ) 2> *
+T363.8896116019896 trist ( entered ) 2> *
+T364.7133233189961 question done
+T365.2225281009887 > *
+T366.0830458769924 > *
+T371.4153003489919 > twist
+T371.41558792498836 questioning: ["twist", "entered"]
+T373.99753511699964 twist ( entered ) ? 1 twist
+T373.9976703279972 guess: twist
+T373.9977163769945 word: 0 twist
+T373.9977292269905 may: 0 
+T375.1947788779944 question done
+T377.897067812999 Press <Enter> to 📋 or `>` for line prompt 
+T377.90146851498866 result: "squareword.org 1140: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1140"
+T377.9022497709957 <STOP>
