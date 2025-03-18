@@ -1,0 +1,105 @@
+T0.00013904401566833258 now: 2025-03-18T19:00:03EDT
+T0.0001749250222928822 site: squareword.org
+T5.360003228008281 🧩  ? #1142
+T5.3604324820043985 puzzle_id: #1142
+T6.1877546420146246 > *
+T6.27598902900354 questioning: ["lobar", "#5 found:4515 hypo:11881376"]
+T8.310407926997868 lobar ( #5 found:4515 hypo:11881376 ) ? 
+T8.52068608099944 lobar ( #5 found:4515 hypo:11881376 ) > 
+T10.505051103013102 lobar ( #5 found:4515 hypo:11881376 ) 1> _o__r
+T10.505469762021676 word: 0 _o__r
+T10.505485337023856 may: 0 
+T11.566365959006362 lobar ( #5 found:4515 hypo:11881376 ) 2> ~ la
+T11.56738156202482 word: 1 _____
+T11.567424241016852 may: 1 a l
+T12.402864816016518 lobar ( #5 found:4515 hypo:11881376 ) 3> ~ 
+T12.403052993002348 word: 2 _____
+T12.403070357016986 may: 2 
+T15.591395563998958 lobar ( #5 found:4515 hypo:11881376 ) 4> 3 ~ r
+T15.591643108025892 word: 2 _____
+T15.591667023021728 may: 2 r
+T16.996082183002727 lobar ( #5 found:4515 hypo:11881376 ) 4> ~ ar
+T16.99628165102331 word: 3 _____
+T16.99630062500364 may: 3 a r
+T19.36050017402158 lobar ( #5 found:4515 hypo:11881376 ) 5> ____r ~ a
+T19.36073452301207 word: 4 ____r
+T19.36075660600909 may: 4 a
+T19.360779330017976 question done
+T20.598975435015745 > /no b
+T20.59926411701599 nope: b
+T21.221161870023934 > *
+T21.66836016002344 questioning: ["roper", "#1 found:47 hypo:15625"]
+T24.273699302022578 roper ( #1 found:47 hypo:15625 ) ? 
+T24.456786193011794 roper ( #1 found:47 hypo:15625 ) > 
+T27.1928464610246 roper ( #1 found:47 hypo:15625 ) 1> _o_er ~ p
+T27.193110769003397 word: 0 _o_er
+T27.193145302007906 may: 0 p
+T30.930890390009154 roper ( #1 found:47 hypo:15625 ) 2> __p ~ lape
+T30.931135902006645 word: 1 __p__
+T30.931171371019445 may: 1 a e l p
+T34.503152087010676 roper ( #1 found:47 hypo:15625 ) 3> ~ re
+T34.50327829000889 word: 2 _____
+T34.50329306401545 may: 2 e r
+T36.63939440401737 roper ( #1 found:47 hypo:15625 ) 4> ~ are
+T36.639612669008784 word: 3 _____
+T36.63964175601723 may: 3 a e r
+T41.60134779702639 roper ( #1 found:47 hypo:15625 ) 5> ___er ~ ae
+T41.60159715102054 word: 4 ___er
+T41.60162775602657 may: 4 a e
+T41.601653161022114 question done
+T43.6617684920202 > * 2
+T43.798971692012856 questioning: ["apple", "#2 found:1 hypo:24"]
+T46.08021904100315 apple ( #2 found:1 hypo:24 ) ? 
+T47.510556842025835 apple ( #2 found:1 hypo:24 ) > 2 apple
+T47.510696337005356 word: 1 apple
+T47.51071344301454 may: 1 
+T54.10311662600725 apple ( #2 found:1 hypo:24 ) 3> 4 ____e
+T54.103237763018114 word: 3 ____e
+T54.10325234301854 may: 3 a r
+T55.70773716000258 question done
+T57.06733932500356 > * 1
+T57.28131992300041 questioning: ["poser", "#1 found:1 hypo:25"]
+T59.49538519899943 poser ( #1 found:1 hypo:25 ) ? 
+T61.00547165001626 poser ( #1 found:1 hypo:25 ) > 1 poser
+T61.00566473501385 word: 0 poser
+T61.00568617001409 may: 0 
+T63.887446789012756 poser ( #1 found:1 hypo:25 ) 2> 3 ~ res
+T63.88775785500184 word: 2 _____
+T63.88778746500611 may: 2 e r s
+T65.43000009702519 question done
+T67.47609198300052 > * 3
+T67.69343240500893 questioning: ["serif", "#3 found:1 hypo:3750"]
+T70.04917951501557 serif ( #3 found:1 hypo:3750 ) ? 
+T71.31824021402281 serif ( #3 found:1 hypo:3750 ) > 3 serif
+T71.31860837500426 word: 2 serif
+T71.31864253201638 may: 2 
+T74.96698065599776 question done
+T76.6926763850206 > * 5
+T76.94755599502241 questioning: ["eager", "#5 found:1 hypo:50"]
+T79.98765026099863 eager ( #5 found:1 hypo:50 ) ? 
+T83.86393412901089 eager ( #5 found:1 hypo:50 ) > 5 ea_er
+T83.86420186900068 word: 4 ea_er
+T83.86422675100039 may: 4 
+T83.86424944002647 question done
+T84.95276980800554 > /no g
+T84.95286019099876 nope: b g
+T86.01599554502172 > * 
+T86.82824730101856 questioning: ["trade", "#4 found:1 hypo:1152"]
+T90.51204452000093 trade ( #4 found:1 hypo:1152 ) ? 
+T91.71988143600174 trade ( #4 found:1 hypo:1152 ) > 4 trade
+T91.7201334190031 word: 3 trade
+T91.72016012301901 may: 3 
+T97.26320325300912 trade ( #4 found:1 hypo:1152 ) 5> ~ t
+T97.26342911200481 word: 4 ea_er
+T97.26347907099989 may: 4 t
+T97.26350069601904 question done
+T99.62640654400457 > eater
+T99.62709315802203 questioning: ["eater", "entered"]
+T102.95377557000029 eater ( entered ) ? 5 eater
+T102.9540014610102 guess: eater
+T102.95408530000714 word: 4 eater
+T102.95410309600993 may: 4 
+T102.95411748602055 question done
+T106.70692306401907 Press <Enter> to 📋 or `>` for line prompt 
+T106.71404534802423 result: "squareword.org 1142: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1142"
+T106.71571024000878 <STOP>
