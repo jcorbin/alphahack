@@ -9090,3 +9090,7 @@ See log/squareword.org/#1143
 🫧 22 chat sessions
 ⁉️ 124 chat prompts
 🤖 124 gemma2:latest replies
+
+# 2025-03-19 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1173
