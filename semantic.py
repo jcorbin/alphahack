@@ -2776,7 +2776,7 @@ class Search(StoredLog):
 
             prog_at = self.prog_after
             if prog_at is not None:
-                if prog is None and score > prog_at:
+                if prog is None and score > prog_at and not math.isclose(score, prog_at):
                     ui.fin(f' ! auto score missing prog at={prog_at} {ws!r}')
                     raise KeyboardInterrupt
 
