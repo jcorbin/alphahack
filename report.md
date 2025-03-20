@@ -1,189 +1,190 @@
-# 2025-03-20
+# 2025-03-21
 
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1174 🥳 22 ⏱️ 0:05:55.005882
-- 🔗 squareword.org 🧩 #1144 🥳 11 ⏱️ 0:02:58.702918
-- 🔗 alphaguess.com 🧩 #604 🥳 11 ⏱️ 0:00:23.891572
-- 🔗 alfagok.diginaut.net 🧩 #138 🥳 13 ⏱️ 0:00:27.958956
-- 🔗 cemantle.certitudes.org 🧩 #1081 🥳 581 ⏱️ 0:32:50.489001
-- 🔗 cemantix.certitudes.org 🧩 #1114 🥳 162 ⏱️ 0:11:05.269638
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1175 🥳 22 ⏱️ 0:07:53.731259
+- 🔗 squareword.org 🧩 #1145 🥳 16 ⏱️ 0:05:21.507865
+- 🔗 alphaguess.com 🧩 #605 🥳 12 ⏱️ 0:00:23.063998
+- 🔗 alfagok.diginaut.net 🧩 #139 🥳 13 ⏱️ 0:00:54.101972
+- 🔗 cemantle.certitudes.org 🧩 #1082 🥳 253 ⏱️ 0:11:03.038864
+- 🔗 cemantix.certitudes.org 🧩 #1115 🥳 134 ⏱️ 0:06:25.773064
 
 - ❌
 - ✅
 - ⏳
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1174 🥳 22
-- ✅ squareword.org 🧩 #1144 🥳 11
-- ✅ alphaguess.com 🧩 #604 🥳 11
-- ✅ alfagok.diginaut.net 🧩 #138 🥳 13
-- ✅ cemantle.certitudes.org 🧩 #1081 🥳 581
-- ✅ cemantix.certitudes.org 🧩 #1114 🥳 162
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1175 🥳 22
+- ✅ squareword.org 🧩 #1145 🥳 16
+- ✅ alphaguess.com 🧩 #605 🥳 12
+- ✅ alfagok.diginaut.net 🧩 #139 🥳 13
+- ✅ cemantle.certitudes.org 🧩 #1082 🥳 253
+- ✅ cemantix.certitudes.org 🧩 #1115 🥳 134
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$C62v9rNxTFtl2eFSFhb2bw5zOqkrULbrEva0b3M0sKc?via=aelf.land&via=matrix.org
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$9i8RBKY0o5a4nHGzlf6EFCPa46qkkuVluMv0pk02wws?via=aelf.land&via=matrix.org
 
-# squareword.org 🧩 #1144 🥳 11 ⏱️ 0:02:58.702918
+# squareword.org 🧩 #1145 🥳 16 ⏱️ 0:05:21.507865
 
-📜 1 sessions
+📜 2 sessions
 
 Guesses:
-1. minds
+1. toxic
 
 Score Heatmap:
-    🟨 🟨 🟩 🟨 🟨
-    🟨 🟩 🟨 🟩 🟩
-    🟨 🟩 🟨 🟨 🟩
-    🟧 🟧 🟧 🟩 🟩
-    🟨 🟨 🟨 🟨 🟨
+    🟥 🟨 🟥 🟨 🟥
+    🟧 🟨 🟧 🟧 🟩
+    🟧 🟩 🟧 🟧 🟧
+    🟩 🟩 🟩 🟩 🟩
+    🟩 🟨 🟨 🟨 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    P E C A N
-    S N A R E
-    A N I M E
-    L U R E D
-    M I N D S
+    N A M E D
+    O L I V E
+    T O X I C
+    C H E C K
+    H A R T S
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1174 🥳 22 ⏱️ 0:05:55.005882
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1175 🥳 22 ⏱️ 0:07:53.731259
 
 📜 1 sessions
 💰 score: 9400
 
+    5/6
+    > B L A N D
+      ⬜⬜🟨⬜⬜
+    > W A K E S
+      ⬜🟩⬜🟩⬜
+    > H A R E M
+      ⬜🟩⬜🟩🟨
+    > G A M E Y
+      ⬜🟩🟩🟩⬜
+    > C A M E O
+      🟩🟩🟩🟩🟩
     6/6
-    > E M O J I
-      🟨⬜⬜⬜⬜
-    > F A R E S
-      ⬜🟩⬜🟨⬜
-    > B A D G E
-      ⬜🟩⬜⬜🟩
-    > H A L V E
-      ⬜🟩🟩🟩🟩
-    > C A L V E
-      ⬜🟩🟩🟩🟩
-    > V A L V E
-      🟩🟩🟩🟩🟩
-    5/6
-    > O X I D E
-      ⬜⬜⬜⬜🟩
-    > S P I T E
-      ⬜⬜🟩⬜🟩
-    > S H I N E
-      🟩⬜🟩⬜🟩
-    > S W I N E
-      🟩⬜🟩🟩🟩
-    > U M B R A
-      🟩🟩🟩🟩🟩
-    5/6
-    > C H A R T
+    > F I G H T
       ⬜⬜⬜⬜⬜
-    > A G G R O
-      ⬜⬜⬜🟩🟨
-    > P A R R Y
-      ⬜⬜🟨🟩⬜
-    > C L O S E
-      🟨⬜⬜🟩⬜
-    > T H I N G
+    > B L I N G
+      ⬜🟨🟨⬜⬜
+    > S W I N G
+      ⬜⬜🟩🟩🟩
+    > D Y I N G
+      ⬜⬜🟩🟩🟩
+    > V Y I N G
+      ⬜🟩🟩🟩🟩
+    > B A G E L
+      🟩🟩🟩🟩🟩
+    5/6
+    > P A G E D
+      ⬜⬜⬜⬜🟨
+    > J A G E R
+      ⬜🟩🟩🟩⬜
+    > E A G E R
+      ⬜🟩🟩🟩⬜
+    > R O B E D
+      ⬜🟩🟩🟩🟩
+    > B R I E F
       🟩🟩🟩🟩🟩
     4/6
-    > T H I N K
-      ⬜⬜⬜⬜⬜
-    > M E T R O
-      ⬜⬜⬜⬜⬜
-    > E X E R T
-      🟩🟩🟩🟩⬜
+    > B E R E T
+      🟨⬜⬜🟩🟨
+    > W H O R E
+      🟨⬜🟨🟩⬜
+    > S W O R E
+      🟩🟨⬜🟩⬜
       🟩🟩🟩🟩🟩
     Final 2/2
-      ⬜🟨🟨🟩⬜
+      🟨⬜🟩🟩🟩
       🟩🟩🟩🟩🟩
 
-# alfagok.diginaut.net 🧩 #138 🥳 13 ⏱️ 0:00:27.958956
+# alfagok.diginaut.net 🧩 #139 🥳 13 ⏱️ 0:00:54.101972
 
 🤔 13 attempts
+📜 2 sessions
+
+    @        [     0] &-teken   
+    @+1      [     1] &-tekens  
+    @+2      [     2] -cijferig 
+    @+3      [     3] -e-mail   
+    @+100081 [100081] examen    q2  ? after
+    @+149572 [149572] huis      q3  ? after
+    @+174683 [174683] kind      q4  ? after
+    @+187444 [187444] krop      q5  ? after
+    @+190576 [190576] laag      q7  ? after
+    @+190785 [190785] laat      q10 ? after
+    @+190915 [190915] labo      q11 ? after
+    @+190987 [190987] lach      q12 ? it
+    @+190987 [190987] lach      done. it
+    @+191126 [191126] lading    q9  ? before
+    @+191700 [191700] land      q8  ? before
+    @+193824 [193824] lcd       q6  ? before
+    @+200225 [200225] lijst     q0  ? after
+    @+200225 [200225] lijst     q1  ? before
+
+# alphaguess.com 🧩 #605 🥳 12 ⏱️ 0:00:23.063998
+
+🤔 12 attempts
+📜 2 sessions
+
+    @        [     0] aa     
+    @+1      [     1] aah    
+    @+2      [     2] aahed  
+    @+3      [     3] aahing 
+    @+98247  [ 98247] mach   q0  ? after
+    @+147412 [147412] rhumb  q1  ? after
+    @+148118 [148118] river  q7  ? after
+    @+148471 [148471] roller q8  ? after
+    @+148587 [148587] roo    q9  ? after
+    @+148703 [148703] rope   q10 ? after
+    @+148762 [148762] rose   q11 ? it
+    @+148762 [148762] rose   done. it
+    @+148844 [148844] rot    q6  ? before
+    @+150378 [150378] sallow q5  ? before
+    @+153356 [153356] sea    q4  ? before
+    @+159526 [159526] slop   q3  ? before
+    @+171679 [171679] ta     q2  ? before
+
+# cemantix.certitudes.org 🧩 #1115 🥳 134 ⏱️ 0:06:25.773064
+
+🤔 135 attempts
 📜 1 sessions
+🫧 3 chat sessions
+⁉️ 13 chat prompts
+🤖 13 gemma2:latest replies
+🔥  3 🥵  7 😎 30 🥶 71 🧊 23
 
-    @        [     0] &-teken      
-    @+1      [     1] &-tekens     
-    @+2      [     2] -cijferig    
-    @+3      [     3] -e-mail      
-    @+200225 [200225] lijst        q0  ? after
-    @+203101 [203101] los          q6  ? after
-    @+204463 [204463] lui          q7  ? after
-    @+205273 [205273] lymf         q8  ? after
-    @+205378 [205378] maag         q10 ? after
-    @+205500 [205500] maai         q11 ? after
-    @+205555 [205555] maal         q12 ? it
-    @+205555 [205555] maal         done. it
-    @+205645 [205645] maand        q9  ? before
-    @+206093 [206093] maatschappij q5  ? before
-    @+212034 [212034] mede         q4  ? before
-    @+224351 [224351] monist       q3  ? before
-    @+248475 [248475] op           q2  ? before
-    @+300311 [300311] schroef      q1  ? before
+      $1 #135   ~1 progression      100.00°C 🥳 1000‰
+      $2  #87  ~23 croissance        55.85°C 🔥  998‰
+      $3  #63  ~32 évolution         51.09°C 🔥  994‰
+      $4 #101  ~15 ralentissement    50.95°C 🔥  993‰
+      $5  #25  ~41 rythme            44.24°C 🥵  980‰
+      $6  #90  ~20 accélération      42.33°C 🥵  970‰
+      $7 #133   ~3 expansion         38.40°C 🥵  945‰
+      $8 #113  ~11 consolidation     37.96°C 🥵  940‰
+      $9 #104  ~13 stabilisation     37.46°C 🥵  937‰
+     $10 #132   ~4 dynamisme         35.97°C 🥵  918‰
+     $11  #68  ~31 dynamique         35.03°C 🥵  901‰
+     $12  #75  ~28 variation         34.66°C 😎  896‰
+     $42 #110      ancrage           20.85°C 🥶
+    $113  #38      signature         -0.10°C 🧊
 
-# alphaguess.com 🧩 #604 🥳 11 ⏱️ 0:00:23.891572
+# cemantle.certitudes.org 🧩 #1082 🥳 253 ⏱️ 0:11:03.038864
 
-🤔 11 attempts
+🤔 254 attempts
 📜 1 sessions
+🫧 6 chat sessions
+⁉️ 27 chat prompts
+🤖 27 gemma2:latest replies
+🔥   2 🥵   6 😎  21 🥶 209 🧊  15
 
-    @       [    0] aa             
-    @+1     [    1] aah            
-    @+2     [    2] aahed          
-    @+3     [    3] aahing         
-    @+23590 [23590] cam            q2  ? after
-    @+28658 [28658] chloroform     q4  ? after
-    @+29923 [29923] civvies        q6  ? after
-    @+30079 [30079] clap           q9  ? after
-    @+30152 [30152] class          q10 ? it
-    @+30152 [30152] class          done. it
-    @+30240 [30240] claustrophobes q8  ? before
-    @+30556 [30556] climes         q7  ? before
-    @+31188 [31188] coapt          q5  ? before
-    @+33724 [33724] con            q3  ? before
-    @+47407 [47407] dis            q1  ? before
-    @+98247 [98247] mach           q0  ? before
-
-# cemantix.certitudes.org 🧩 #1114 🥳 162 ⏱️ 0:11:05.269638
-
-🤔 163 attempts
-📜 1 sessions
-🫧 4 chat sessions
-⁉️ 18 chat prompts
-🤖 18 gemma2:latest replies
-🔥   1 🥵   5 😎  19 🥶 125 🧊  12
-
-      $1 #163   ~1 conquête          100.00°C 🥳 1000‰
-      $2 #121  ~13 lutte              43.78°C 🔥  990‰
-      $3 #140   ~6 offensive          39.21°C 🥵  971‰
-      $4 #144   ~3 bataille           38.42°C 🥵  962‰
-      $5  #93  ~19 progrès            35.25°C 🥵  934‰
-      $6  #18  ~25 ambition           35.23°C 🥵  933‰
-      $7 #127   ~9 combat             35.17°C 🥵  930‰
-      $8 #113  ~16 héritage           31.07°C 😎  813‰
-      $9 #119  ~15 souveraineté       30.94°C 😎  804‰
-     $10 #134   ~7 stratégie          30.61°C 😎  790‰
-     $11  #88  ~20 ascension          30.52°C 😎  786‰
-     $12 #161   ~2 défaite            30.38°C 😎  779‰
-     $27 #153      résistance         23.05°C 🥶
-    $152  #55      délicatesse        -0.18°C 🧊
-
-# cemantle.certitudes.org 🧩 #1081 🥳 581 ⏱️ 0:32:50.489001
-
-🤔 582 attempts
-📜 1 sessions
-🫧 13 chat sessions
-⁉️ 74 chat prompts
-🤖 74 gemma2:latest replies
-🔥   2 🥵   6 😎  56 🥶 446 🧊  71
-
-      $1 #582   ~1 reception         100.00°C 🥳 1000‰
-      $2 #494  ~30 gala               44.14°C 🔥  995‰
-      $3 #571   ~7 soirée             38.66°C 🔥  991‰
-      $4 #511  ~27 celebration        34.56°C 🥵  981‰
-      $5 #578   ~3 invitation         34.49°C 🥵  980‰
-      $6 #478  ~34 celebratory        34.29°C 🥵  977‰
-      $7 #573   ~6 ballroom           29.57°C 🥵  941‰
-      $8 #531  ~22 commemorative      27.90°C 🥵  908‰
-      $9 #242  ~51 mood               27.74°C 🥵  904‰
-     $10 #447  ~36 lavish             26.58°C 😎  874‰
-     $11 #254  ~49 vibes              26.47°C 😎  869‰
-     $12 #534  ~20 commendation       26.47°C 😎  868‰
-     $66  #12      rain               16.63°C 🥶
-    $512 #556      enchantment        -0.06°C 🧊
+      $1 #254   ~1 destruction     100.00°C 🥳 1000‰
+      $2 #235   ~6 annihilation     60.57°C 🔥  997‰
+      $3 #222  ~13 disintegration   50.66°C 🔥  992‰
+      $4 #246   ~2 preservation     42.56°C 🥵  962‰
+      $5 #231   ~9 demolition       42.39°C 🥵  957‰
+      $6 #237   ~5 collapse         41.23°C 🥵  942‰
+      $7 #171  ~22 rebirth          38.87°C 🥵  914‰
+      $8 #234   ~7 ruin             38.77°C 🥵  912‰
+      $9 #183  ~18 deconstruction   38.63°C 🥵  909‰
+     $10 #238   ~4 decimate         36.45°C 😎  871‰
+     $11 #189  ~14 resurrection     35.54°C 😎  856‰
+     $12 #227  ~11 erosion          35.24°C 😎  848‰
+     $31 #247      remnant          25.19°C 🥶
+    $240 #252      solidify         -0.05°C 🧊
