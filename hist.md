@@ -9163,3 +9163,23 @@ See log/squareword.org/#1144
 # 2025-03-20 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1174
+
+# 1970-01-01 cemantix.certitudes.org
+
+```
+🔗 cemantix.certitudes.org
+🧩 1115
+🤔 134 guesses
+    🔥  3
+    🥵  7
+    😎 30
+    🥶 71
+    🧊 23
+⏱️ 0:06:25.786832
+```
+
+🤔 135 attempts
+📜 0 sessions
+🫧 3 chat sessions
+⁉️ 13 chat prompts
+🤖 13 gemma2:latest replies
