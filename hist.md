@@ -9253,3 +9253,24 @@ See log/play.dictionary.com_games_todays-hurdle/#1175
 
 🔗 alphaguess.com
 ```
+
+# 1970-01-01 cemantix.certitudes.org
+
+```
+🔗 cemantix.certitudes.org
+🧩 1116
+🤔 368 guesses
+    🔥   2
+    🥵   4
+    😎  31
+    🥶 238
+    🧊  93
+⏱️ 0:47:12.209043
+```
+
+🤔 369 attempts
+📜 2 sessions
+🫧 17 chat sessions
+⁉️ 85 chat prompts
+🤖 15 phi4:latest replies
+🤖 68 gemma2:latest replies
