@@ -1,0 +1,133 @@
+T0.00015438600166817196 now: 2025-03-22T19:28:06EDT
+T0.00019235999934608117 site: squareword.org
+T2.989298944001348 🧩  ? #1146
+T2.9896572760007984 puzzle_id: #1146
+T4.246403651999572 > *
+T4.33688087200062 questioning: ["serer", "#5 found:6971 hypo:11881376"]
+T11.944008517999464 question done
+T13.838770228001522 > serve
+T13.839588052000181 questioning: ["serve", "entered"]
+T22.15184768200197 serve ( entered ) ? 
+T23.351318598000944 serve ( entered ) > 
+T25.254960750000464 serve ( entered ) 1> s ~ s
+T25.255704872000933 word: 0 s____
+T25.255730848002713 may: 0 s
+T29.363690318001318 serve ( entered ) 2> ____e ~ s
+T29.36405857900172 word: 1 ____e
+T29.364108785001008 may: 1 s
+T31.36062062700148 serve ( entered ) 3> ~ er
+T31.361338973001693 word: 2 _____
+T31.36137074400176 may: 2 e r
+T32.70580304200121 serve ( entered ) 4> ~ e
+T32.706073290999484 word: 3 _____
+T32.706097631002194 may: 3 e
+T35.566305772001215 serve ( entered ) 5> _e ~ s
+T35.56656154700249 word: 4 _e___
+T35.56658633900224 may: 4 s
+T35.5666095350025 question done
+T36.98279969700161 > /no v
+T36.98313455400057 nope: v
+T44.61623519100249 > *
+T45.072998738000024 questioning: ["pease", "#2 found:61 hypo:15625"]
+T52.71091698199962 pease ( #2 found:61 hypo:15625 ) ? 
+T53.30431664199932 pease ( #2 found:61 hypo:15625 ) > 
+T57.20271997600139 pease ( #2 found:61 hypo:15625 ) 1> s_as
+T57.202897025999846 word: 0 s_as_
+T57.202915150999615 may: 0 
+T60.06652498200128 pease ( #2 found:61 hypo:15625 ) 2> ~ sa
+T60.066784127000574 word: 1 ____e
+T60.06681295100134 may: 1 a s
+T61.90931590400214 pease ( #2 found:61 hypo:15625 ) 3> 
+T63.345081610001216 pease ( #2 found:61 hypo:15625 ) 4> ~ ea
+T63.34529268500046 word: 3 _____
+T63.34531413900186 may: 3 a e
+T65.35959896799977 question done
+T66.5716520140013 > /no p
+T66.57182227800149 nope: p v
+T67.30581304900261 > *
+T67.74967151199962 questioning: ["slash", "#1 found:1 hypo:576"]
+T78.09667015000014 slash ( #1 found:1 hypo:576 ) ? 
+T78.53078537100009 slash ( #1 found:1 hypo:576 ) > 
+T79.69418496100116 slash ( #1 found:1 hypo:576 ) 1> slash
+T79.69435750699995 word: 0 slash
+T79.69437283300067 may: 0 
+T81.79187525499947 slash ( #1 found:1 hypo:576 ) 2> ~ sah
+T81.79205918200023 word: 1 ____e
+T81.79207766900072 may: 1 a h s
+T83.56461774200216 slash ( #1 found:1 hypo:576 ) 3> ~ erh
+T83.56510799100215 word: 2 _____
+T83.56515503300034 may: 2 e h r
+T85.19150685500063 slash ( #1 found:1 hypo:576 ) 4> ~ eah
+T85.19171651600118 word: 3 _____
+T85.19173705600042 may: 3 a e h
+T88.36079208600131 slash ( #1 found:1 hypo:576 ) 5> ~ sl
+T88.36110280000139 word: 4 _e___
+T88.361135698 may: 4 l s
+T88.36116525200123 question done
+T98.88769490900086 > *
+T99.27228356900014 questioning: ["haste", "#2 found:1 hypo:144"]
+T102.11911431000044 haste ( #2 found:1 hypo:144 ) ? 
+T102.32343276400206 haste ( #2 found:1 hypo:144 ) > 
+T102.88577958400128 haste ( #2 found:1 hypo:144 ) 1> 
+T104.68556599899966 haste ( #2 found:1 hypo:144 ) 2> haste
+T104.68571121400237 word: 1 haste
+T104.68572547499934 may: 1 
+T107.29818656100178 haste ( #2 found:1 hypo:144 ) 3> ~ erht
+T107.29843657799938 word: 2 _____
+T107.29846067800099 may: 2 e h r t
+T109.87903753700084 question done
+T110.44602028300142 > *
+T111.22254380300001 questioning: ["ether", "#3 found:1 hypo:576"]
+T113.62579294500028 ether ( #3 found:1 hypo:576 ) ? 
+T114.12532143700082 ether ( #3 found:1 hypo:576 ) > 
+T114.7516950499994 ether ( #3 found:1 hypo:576 ) 1> 
+T115.30134479000117 ether ( #3 found:1 hypo:576 ) 2> 
+T117.71878423200178 ether ( #3 found:1 hypo:576 ) 3> _ther
+T117.71903818200008 word: 2 _ther
+T117.71906380200016 may: 2 
+T121.65059990000009 question done
+T140.67702824799926 > *
+T141.71400152299975 questioning: ["ither", "#3 found:2 hypo:24"]
+T146.14087541100162 ither ( #3 found:2 hypo:24 ) ? 
+T148.2586446660025 question done
+T150.5708146420002 > /no i
+T150.5709531930006 nope: i p v
+T158.15202569100074 > * 5
+T158.42384483600108 questioning: ["tesla", "#5 found:5 hypo:1058"]
+T173.76124712000092 question done
+T175.47266920900074 > * 4
+T175.7756461220015 questioning: ["shear", "#4 found:4 hypo:3174"]
+T187.72488519300168 shear ( #4 found:4 hypo:3174 ) ? 
+T193.32630219299972 shear ( #4 found:4 hypo:3174 ) > 4 _hea ~ a
+T193.3265863150009 word: 3 _hea_
+T193.32661361200007 may: 3 a
+T194.6265013910015 question done
+T195.41847552000036 > * 4
+T195.67266508000102 questioning: ["ahead", "#4 found:1 hypo:23"]
+T202.97853897700043 ahead ( #4 found:1 hypo:23 ) ? 
+T204.30217738899955 ahead ( #4 found:1 hypo:23 ) > 4 ahead
+T204.30243655800223 word: 3 ahead
+T204.3024591909998 may: 3 
+T208.33999924300224 ahead ( #4 found:1 hypo:23 ) 5> ~ sld
+T208.34030162400086 word: 4 _e___
+T208.34033045700198 may: 4 d l s
+T208.34035721400141 question done
+T209.5859952339997 > * 5
+T209.8580102550004 questioning: ["lends", "#5 found:1 hypo:138"]
+T214.78170828300063 lends ( #5 found:1 hypo:138 ) ? 
+T216.06313829099963 lends ( #5 found:1 hypo:138 ) > 5 lends
+T216.06336630900114 word: 4 lends
+T216.06338956500258 may: 4 
+T216.06341094500021 question done
+T227.6027173370021 > * 3
+T227.84729819300264 questioning: ["other", "#3 found:2 hypo:23"]
+T230.11806967899975 other ( #3 found:2 hypo:23 ) ? 
+T232.50144922899926 other ( #3 found:2 hypo:23 ) > 
+T236.15389804500228 other ( #3 found:2 hypo:23 ) 1> 3
+T237.32247130500036 other ( #3 found:2 hypo:23 ) 3> other
+T237.3226050910016 word: 2 other
+T237.32261570700211 may: 2 
+T237.9717585360013 question done
+T241.02293963600096 Press <Enter> to 📋 or `>` for line prompt 
+T241.02829174900035 result: "squareword.org 1146: 11 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe7\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1146"
+T241.0295061700017 <STOP>
