@@ -9512,3 +9512,7 @@ See log/play.dictionary.com_games_todays-hurdle/#1178
 # 2025-03-25 squareword.org
 
 See log/squareword.org/#1149
+
+# 2025-03-25 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1179
