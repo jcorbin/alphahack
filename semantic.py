@@ -1638,10 +1638,16 @@ class Search(StoredLog):
                     ui.print(f'! {err}')
                 continue
 
+            if not res:
+                err = requests.HTTPError(f'http {res.status_code} {res.reason}')
+                if verbose:
+                    ui.print(f'! {err}')
+                continue
+
             else:
                 break
 
-        if not res: raise err or RuntimeError('no response')
+        if res is None: raise err or RuntimeError('no response')
 
         if verbose:
             if verbose > 1:
