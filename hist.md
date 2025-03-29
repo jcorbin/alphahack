@@ -9788,3 +9788,7 @@ See log/play.dictionary.com_games_todays-hurdle/#1182
 # 2025-03-29 squareword.org
 
 See log/squareword.org/#1153
+
+# 2025-03-29 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1183
