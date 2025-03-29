@@ -1,0 +1,124 @@
+T0.00013771699741482735 now: 2025-03-29T09:41:38EDT
+T0.00017452199244871736 site: squareword.org
+T1.7424275359953754 🧩  ? #1153
+T1.7427832639950793 puzzle_id: #1153
+T2.5364476600079797 > *
+T2.6272611599997617 questioning: ["micra", "#5 found:4898 hypo:11881376"]
+T6.016843524994329 micra ( #5 found:4898 hypo:11881376 ) ? 
+T6.235312433011131 micra ( #5 found:4898 hypo:11881376 ) > 
+T7.429093179991469 micra ( #5 found:4898 hypo:11881376 ) 1> ~ mca
+T7.4302907759847585 word: 0 _____
+T7.430327459005639 may: 0 a c m
+T8.878676463005831 micra ( #5 found:4898 hypo:11881376 ) 2> ~ ia
+T8.878902263008058 word: 1 _____
+T8.878934101987397 may: 1 a i
+T11.504126109997742 micra ( #5 found:4898 hypo:11881376 ) 3> ___r ~ c
+T11.504392756003654 word: 2 ___r_
+T11.504424060985912 may: 2 c
+T12.401465358008863 micra ( #5 found:4898 hypo:11881376 ) 4> ~ r
+T12.401678788999561 word: 3 _____
+T12.401706350996392 may: 3 r
+T14.166809547983576 question done
+T14.743511098000454 > *
+T15.038220724993153 questioning: ["maced", "#1 found:38 hypo:4056"]
+T18.803333223011578 maced ( #1 found:38 hypo:4056 ) ? 
+T20.986468729999615 maced ( #1 found:38 hypo:4056 ) > 
+T21.25426998999319 maced ( #1 found:38 hypo:4056 ) 1> 
+T22.82526690000668 maced ( #1 found:38 hypo:4056 ) 2> ~ iad
+T22.825567949010292 word: 1 _____
+T22.825633469998138 may: 1 a d i
+T24.714341257989872 maced ( #1 found:38 hypo:4056 ) 3> 
+T27.08026504999725 maced ( #1 found:38 hypo:4056 ) 4> ___ed ~ re
+T27.080478599003982 word: 3 ___ed
+T27.080496356997173 may: 3 e r
+T28.931327369005885 maced ( #1 found:38 hypo:4056 ) 5> ~ e
+T28.931524972984334 word: 4 _____
+T28.931560305005405 may: 4 e
+T28.931590902997414 question done
+T32.67219925898826 > maced
+T32.67331653498695 questioning: ["maced", "entered"]
+T34.20613259499078 maced ( entered ) ? 5 ~ ed
+T34.20633415499469 guess: maced
+T34.206414051004685 word: 4 _____
+T34.20644047198584 may: 4 d e
+T34.20645977498498 question done
+T34.944539149990305 <INT>
+T0.04209060501307249 now: 2025-03-29T09:42:19EDT
+T1.0568763480114285 > * 4
+T1.2326086130051408 questioning: ["freed", "#4 found:7 hypo:52"]
+T5.1273214780085254 freed ( #4 found:7 hypo:52 ) ? 
+T5.312309753004229 freed ( #4 found:7 hypo:52 ) > 
+T10.369835331017384 freed ( #4 found:7 hypo:52 ) 1> 4 _r_ed ~ re
+T10.371044219005853 word: 3 _r_ed
+T10.371078997006407 may: 3 e r
+T16.775801808020333 freed ( #4 found:7 hypo:52 ) 5> __e ~ ed
+T16.77611982502276 word: 4 __e__
+T16.776151591999223 may: 4 d e
+T16.776176495011896 question done
+T18.18529247000697 > /no f
+T18.185650255007204 nope: f
+T19.672585591004463 > * 4
+T19.9434218230017 questioning: ["erred", "#4 found:1 hypo:2"]
+T24.00876104302006 erred ( #4 found:1 hypo:2 ) ? 
+T24.231704390025698 erred ( #4 found:1 hypo:2 ) > 
+T25.77419346701936 erred ( #4 found:1 hypo:2 ) 1> 4 erred
+T25.774423791008303 word: 3 erred
+T25.774443556001643 may: 3 
+T29.81477262300905 question done
+T32.28379637902253 > * 5
+T32.4365567760251 questioning: ["deets", "#5 found:11 hypo:1250"]
+T35.561208777013235 deets ( #5 found:11 hypo:1250 ) ? 
+T35.75805896602105 deets ( #5 found:11 hypo:1250 ) > 
+T43.157895322015975 deets ( #5 found:11 hypo:1250 ) 1> 5 dee_s ~ d
+T43.158095987018896 word: 4 dee_s
+T43.15811626901268 may: 4 d
+T43.15813537102076 question done
+T46.62043132801773 > /no t
+T46.6207009460195 nope: f t
+T47.89165627700277 > deeds
+T47.892151989013655 questioning: ["deeds", "entered"]
+T50.01938632200472 deeds ( entered ) ? 5 deeds
+T50.019559221022064 guess: deeds
+T50.01961798800039 word: 4 deeds
+T50.01963164500194 may: 4 
+T50.01964350201888 question done
+T55.71231969402288 > *
+T56.14094942199881 questioning: ["media", "#2 found:19 hypo:3456"]
+T58.9430940610182 media ( #2 found:19 hypo:3456 ) ? 
+T59.14680441701785 media ( #2 found:19 hypo:3456 ) > 
+T60.604599849000806 media ( #2 found:19 hypo:3456 ) 1> 
+T63.93555052499869 media ( #2 found:19 hypo:3456 ) 2> __di ~ a
+T63.93583482899703 word: 1 __di_
+T63.935869135020766 may: 1 a
+T66.35665450801025 media ( #2 found:19 hypo:3456 ) 3> ~ cs
+T66.35728153801756 word: 2 ___r_
+T66.35734802202205 may: 2 c s
+T69.06993943802081 question done
+T69.86681001601391 > *
+T70.06672586101922 questioning: ["scorn", "#3 found:2 hypo:1152"]
+T72.99441909501911 scorn ( #3 found:2 hypo:1152 ) ? 
+T75.35423607900157 scorn ( #3 found:2 hypo:1152 ) > 3 scorn
+T75.35439469502307 word: 2 scorn
+T75.35440946600283 may: 2 
+T77.59039021100034 scorn ( #3 found:2 hypo:1152 ) 4> 2 ~ ao
+T77.5905758520239 word: 1 __di_
+T77.59059421200072 may: 1 a o
+T78.53364581501228 question done
+T79.04641852300847 > *
+T79.56480749201728 questioning: ["audio", "#2 found:1 hypo:48"]
+T81.79684223700315 audio ( #2 found:1 hypo:48 ) ? 
+T82.89915091500734 audio ( #2 found:1 hypo:48 ) > 2 audio
+T82.89937511301832 word: 1 audio
+T82.89939468100783 may: 1 
+T83.55875173700042 question done
+T84.23343257201486 > *
+T84.76672336901538 questioning: ["clamp", "#1 found:1 hypo:3456"]
+T87.11729719300638 clamp ( #1 found:1 hypo:3456 ) ? 
+T87.71588728702045 clamp ( #1 found:1 hypo:3456 ) > 
+T89.92628482202417 clamp ( #1 found:1 hypo:3456 ) 1> clamp
+T89.9265055040014 word: 0 clamp
+T89.92652640401502 may: 0 
+T91.61729397001909 question done
+T94.06728483800543 Press <Enter> to 📋 or `>` for line prompt 
+T94.07044640101958 result: "squareword.org 1153: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1153"
+T94.07120810201741 <STOP>
