@@ -1,0 +1,171 @@
+T0.0001270500069949776 now: 2025-03-30T09:36:59EDT
+T0.00016676398809067905 site: squareword.org
+T2.046788484993158 🧩  ? #1154
+T2.0469573170121294 puzzle_id: #1154
+T3.341176526999334 > *
+T3.4311635229969397 questioning: ["mofos", "#5 found:4986 hypo:11881376"]
+T7.737724714010255 mofos ( #5 found:4986 hypo:11881376 ) ? !
+T7.737920965999365 reject: mofos
+T8.660163026012015 > *
+T8.712122475000797 questioning: ["ivies", "#5 found:3997 hypo:11881376"]
+T12.662513187009608 ivies ( #5 found:3997 hypo:11881376 ) ? 
+T12.871603039006004 ivies ( #5 found:3997 hypo:11881376 ) > 
+T13.620889920013724 ivies ( #5 found:3997 hypo:11881376 ) 1> 
+T15.178279843006749 ivies ( #5 found:3997 hypo:11881376 ) 2> __i ~ e
+T15.179202847008128 word: 1 __i__
+T15.179231090005487 may: 1 e
+T17.79635696101468 ivies ( #5 found:3997 hypo:11881376 ) 3> ___e ~ v
+T17.79659248900134 word: 2 ___e_
+T17.796613243990578 may: 2 v
+T19.829744591988856 ivies ( #5 found:3997 hypo:11881376 ) 4> _v ~ e
+T19.82996940900921 word: 3 _v___
+T19.829989146004664 may: 3 e
+T22.566398789989762 ivies ( #5 found:3997 hypo:11881376 ) 5> ____s ~ e
+T22.566599765996216 word: 4 ____s
+T22.566617450997 may: 4 e
+T22.566638118994888 question done
+T23.558204349013977 > *
+T23.921880673005944 questioning: ["avers", "#4 found:2 hypo:17576"]
+T30.16730292700231 avers ( #4 found:2 hypo:17576 ) ? 
+T30.374658465007087 avers ( #4 found:2 hypo:17576 ) > 
+T31.905653068999527 avers ( #4 found:2 hypo:17576 ) 1> ~ ar
+T31.906162644008873 word: 0 _____
+T31.906184332008706 may: 0 a r
+T34.578325431997655 avers ( #4 found:2 hypo:17576 ) 2> a_i ~ e
+T34.57861686300021 word: 1 a_i__
+T34.578710064000916 may: 1 e
+T36.88044712599367 avers ( #4 found:2 hypo:17576 ) 3> ~ var
+T36.880652646999806 word: 2 ___e_
+T36.88067191198934 may: 2 a r v
+T39.05924364499515 avers ( #4 found:2 hypo:17576 ) 4> _ver
+T39.05944531800924 word: 3 _ver_
+T39.05947170700529 may: 3 
+T41.21928380400641 question done
+T41.7576182569901 > *
+T42.08875401201658 questioning: ["overs", "#4 found:5 hypo:676"]
+T44.916247937013395 overs ( #4 found:5 hypo:676 ) ? 
+T45.119573825009866 overs ( #4 found:5 hypo:676 ) > 
+T51.474813536013244 overs ( #4 found:5 hypo:676 ) 1> 4 over
+T51.47503868798958 word: 3 over_
+T51.47506037101266 may: 3 
+T52.673860120004974 question done
+T53.526245042012306 > *
+T53.61183048400562 questioning: ["overt", "#4 found:2 hypo:26"]
+T56.35448538401397 overt ( #4 found:2 hypo:26 ) ? 
+T56.67445771000348 overt ( #4 found:2 hypo:26 ) > 
+T59.25210521699046 overt ( #4 found:2 hypo:26 ) 1> ____t
+T59.25228232101654 word: 0 ____t
+T59.252299289015355 may: 0 a r
+T65.23288676599623 overt ( #4 found:2 hypo:26 ) 2> 4 overt
+T65.23335573999793 word: 3 overt
+T65.23339614600991 may: 3 
+T66.81590482301544 overt ( #4 found:2 hypo:26 ) 5> ~ et
+T66.81609089599806 word: 4 ____s
+T66.81610961499973 may: 4 e t
+T66.81612865801435 question done
+T67.59567795001203 > *
+T67.73984410401317 questioning: ["anime", "#2 found:5 hypo:676"]
+T72.67012319300557 anime ( #2 found:5 hypo:676 ) ? 
+T72.84576313500293 anime ( #2 found:5 hypo:676 ) > 
+T74.95905616501113 anime ( #2 found:5 hypo:676 ) 1> 
+T76.71058379599708 anime ( #2 found:5 hypo:676 ) 2> a_i_e
+T76.7107787829882 word: 1 a_i_e
+T76.7107974679966 may: 1 
+T79.50736918899929 anime ( #2 found:5 hypo:676 ) 3> ~ varn
+T79.50757543399232 word: 2 ___e_
+T79.50759817298967 may: 2 a n r v
+T82.49182696000207 anime ( #2 found:5 hypo:676 ) 4> 
+T83.900823398988 anime ( #2 found:5 hypo:676 ) 5> ~ etn
+T83.90103449099115 word: 4 ____s
+T83.9010551859974 may: 4 e n t
+T83.90107349099708 question done
+T85.4979745419987 > /no m
+T85.49852527401526 nope: m
+T89.85229098401032 > * 3
+T90.11765666599968 questioning: ["raven", "#3 found:1 hypo:24"]
+T94.84881725299056 raven ( #3 found:1 hypo:24 ) ? 
+T95.0425625150092 raven ( #3 found:1 hypo:24 ) > 
+T97.45669301599264 raven ( #3 found:1 hypo:24 ) 1> 3 raven
+T97.45689945001504 word: 2 raven
+T97.45692071400117 may: 2 
+T101.5279094610014 question done
+T103.34190896298969 > * 2
+T103.59115339600248 questioning: ["arise", "#2 found:6 hypo:625"]
+T109.77010146100656 arise ( #2 found:6 hypo:625 ) ? 
+T113.05414970300626 question done
+T114.46403376798844 > * 5
+T114.74076164199505 questioning: ["nites", "#5 found:8 hypo:150"]
+T122.02214886399452 question done
+T123.41154282001662 > * 1
+T123.6848928600084 questioning: ["start", "#1 found:14 hypo:1250"]
+T128.941914799012 question done
+T129.46794584699092 > *
+T130.50587473800988 questioning: ["anile", "#2 found:4 hypo:625"]
+T133.5537727990013 anile ( #2 found:4 hypo:625 ) ? 
+T133.7540154060116 anile ( #2 found:4 hypo:625 ) > 
+T134.85305095999502 anile ( #2 found:4 hypo:625 ) 1> 
+T136.20970772200963 anile ( #2 found:4 hypo:625 ) 2> a_ile
+T136.20979140000418 word: 1 a_ile
+T136.2097977430094 may: 1 
+T141.31332789800945 question done
+T142.16457181301666 > start
+T142.16504572500708 questioning: ["start", "entered"]
+T145.23058320899145 start ( entered ) ? 1 _a__t
+T145.23073000699515 guess: start
+T145.23078057300881 word: 0 _a__t
+T145.23079258200596 may: 0 r
+T146.48827165400144 question done
+T147.06653462498798 > *
+T148.0925023210002 questioning: ["agile", "#2 found:1 hypo:25"]
+T150.35787636501482 agile ( #2 found:1 hypo:25 ) ? 
+T150.59556127799442 agile ( #2 found:1 hypo:25 ) > 
+T151.59033902999363 agile ( #2 found:1 hypo:25 ) 1> 2 agile
+T151.59054212001502 word: 1 agile
+T151.5905711860105 may: 1 
+T154.3734236349992 question done
+T154.9152802019962 > *
+T155.67581455101026 questioning: ["karat", "#1 found:2 hypo:625"]
+T158.63226535599097 karat ( #1 found:2 hypo:625 ) ? 
+T158.83551148499828 karat ( #1 found:2 hypo:625 ) > 
+T163.36200316200848 karat ( #1 found:2 hypo:625 ) 1> _arat
+T163.3621354229981 word: 0 _arat
+T163.36215040201205 may: 0 
+T164.1323625119985 question done
+T164.7504322360037 > *
+T165.48890395101625 questioning: ["karat", "#1 found:2 hypo:25"]
+T167.47880325300503 question done
+T168.24850359698758 > * 5
+T168.51048774900846 questioning: ["nerts", "#5 found:4 hypo:150"]
+T171.33613857699675 nerts ( #5 found:4 hypo:150 ) ? 
+T171.52380266899127 nerts ( #5 found:4 hypo:150 ) > 
+T176.01510129499366 nerts ( #5 found:4 hypo:150 ) 1> 5 _e_ts ~ n
+T176.01537295000162 word: 4 _e_ts
+T176.0153963160119 may: 4 n
+T176.0154173799965 question done
+T177.1735865889932 <INT>
+T0.04394484098884277 now: 2025-03-30T09:39:58EDT
+T0.9174120339739602 > *
+T1.2145920229959302 questioning: ["karat", "#1 found:2 hypo:25"]
+T2.3957300119800493 question done
+T3.0886454889841843 > * 5
+T3.0896062119863927 questioning: ["nerts", "#5 found:4 hypo:25"]
+T4.873181090981234 question done
+T5.687870750989532 > *
+T5.688711387978401 questioning: ["carat", "#1 found:1 hypo:25"]
+T9.022224268992431 carat ( #1 found:1 hypo:25 ) ? 
+T9.424308158981148 carat ( #1 found:1 hypo:25 ) > 
+T11.082106036978075 carat ( #1 found:1 hypo:25 ) 1> carat
+T11.082938943989575 word: 0 carat
+T11.082969574985327 may: 0 
+T11.69338267899002 question done
+T12.273145537998062 > *
+T12.320298156992067 questioning: ["bents", "#5 found:1 hypo:25"]
+T14.952815249998821 bents ( #5 found:1 hypo:25 ) ? 
+T15.140607645997079 bents ( #5 found:1 hypo:25 ) > 
+T16.549591540999245 bents ( #5 found:1 hypo:25 ) 1> 5 bents
+T16.549838717997773 word: 4 bents
+T16.549863618973177 may: 4 
+T16.54988870298257 question done
+T18.452161483000964 Press <Enter> to 📋 or `>` for line prompt 
+T18.45773170699249 result: "bents"
+T18.96078784999554 <INT>
