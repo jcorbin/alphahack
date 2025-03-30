@@ -488,30 +488,26 @@ class Search(StoredLog):
 
     def finish(self, ui: PromptUI):
         res = self.result
-        if not res:
-            ui.print('Provide share result:')
-            self.result_text = ui.may_paste()
-            ui.log(f'result: {json.dumps(self.result_text)}')
-            return
+        if res:
+            ui.print('finish: have result, stop')
+            raise StopIteration
 
-        raise StopIteration
+        ui.print('Provide share result:')
+        self.result_text = ui.may_paste()
+        ui.print(f'finish: pasted {self.result_text!r}')
+        ui.log(f'result: {json.dumps(self.result_text)}')
 
     @override
     def review(self, ui: PromptUI):
         # TODO common store result fixup routine
-        res = self.result
-        if not res:
+        if not self.result:
             with (
                 git_txn(f'{self.site} {self.puzzle_id} result fixup') as txn,
                 txn.will_add(self.log_file),
                 self.log_to(ui),
             ):
-                try:
-                    st = self.finish
-                    while not self.result_text:
-                        st = st(ui) or st
-                except StopIteration:
-                    pass
+                ui.interact(self.finish)
+            return
 
         return super().review(ui)
 
