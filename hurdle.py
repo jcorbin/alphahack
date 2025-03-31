@@ -328,28 +328,44 @@ class Search(StoredLog):
             if any(prior[i] == let for prior in self.tried))
 
     def select(self, ui: PromptUI):
-        choices: list[tuple[float, str]] = []
-
+        # collect all possible words
+        words: list[str] = []
         pattern = self.pattern(ui)
         if self.debug:
             ui.log(f'select pattern r"{pattern}"')
-
         for word in self.find(re.compile(pattern)):
             if any(self.tried_letters(word)):
                 if self.debug > 1:
                     ui.log(f'skip tried "{word}"')
                 continue
+            words.append(word)
 
-            score = random.random()
-            if score > 0:
-                lc = Counter(word)
-                m = len(lc)/len(word)
-                v = sum((v - m)**2 for v in lc.values())
-                score = math.pow(score, 0.01 + v)
-            heapq.heappush(choices, (-score, word))
+        # pick a random score for each word
+        scores: list[float] = [
+            random.random()
+            for _ in words]
 
+        # letter frequency stats
+        wfs = [Counter(word) for word in words]
+
+        # novelty score, used to down-score words that repeat letters
+        novelty: list[float] = []
+        for word, wf in zip(words, wfs):
+            m = len(wf)/len(word)
+            nov = sum((v - m)**2 for v in wf.values())
+            novelty.append(nov)
+        for i, nov in enumerate(novelty):
+            if nov > 0:
+                scores[i] = math.pow(scores[i], 0.01 + nov)
+
+        choices: list[tuple[float, int]] = [
+            (-score, i)
+            for i, score in enumerate(scores)
+        ]
+        heapq.heapify(choices)
         while choices:
-            score, word = heapq.heappop(choices)
+            score, i = heapq.heappop(choices)
+            word = words[i]
             yield -score, word
 
     def find(self, pattern: re.Pattern[str]):
