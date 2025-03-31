@@ -362,7 +362,7 @@ class Search(StoredLog):
 
         # pick a random score for each word
         scores: list[float] = [
-            random.random()
+            random.random() * 0.50 + 0.25
             for _ in words]
 
         # letter frequency stats
