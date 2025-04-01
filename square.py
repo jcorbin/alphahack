@@ -489,12 +489,10 @@ class Search(StoredLog):
     def finish(self, ui: PromptUI):
         res = self.result
         if res:
-            ui.print('finish: have result, stop')
             raise StopIteration
 
         ui.print('Provide share result:')
         self.result_text = ui.may_paste()
-        ui.print(f'finish: pasted {self.result_text!r}')
         ui.log(f'result: {json.dumps(self.result_text)}')
 
     @override
