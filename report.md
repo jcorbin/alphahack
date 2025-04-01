@@ -1,188 +1,188 @@
-# 2025-04-01
+# 2025-04-02
 
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1186 🥳 17 ⏱️ 0:05:15.157616
-- 🔗 squareword.org 🧩 #1156 🥳 10 ⏱️ 0:02:49.363349
-- 🔗 alphaguess.com 🧩 #616 🥳 15 ⏱️ 0:00:38.482576
-- 🔗 alfagok.diginaut.net 🧩 #150 🥳 19 ⏱️ 0:01:08.074002
-- 🔗 cemantle.certitudes.org 🧩 #1093 🥳 167 ⏱️ 0:08:25.355211
-- 🔗 cemantix.certitudes.org 🧩 #1126 🥳 67 ⏱️ 0:03:23.434314
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1187 🥳 19 ⏱️ 0:08:09.600172
+- 🔗 squareword.org 🧩 #1157 🥳 12 ⏱️ 0:02:49.989204
+- 🔗 alphaguess.com 🧩 #617 🥳 12 ⏱️ 0:00:39.088440
+- 🔗 alfagok.diginaut.net 🧩 #151 🥳 18 ⏱️ 0:00:58.591212
+- 🔗 cemantle.certitudes.org 🧩 #1094 🥳 372 ⏱️ 0:22:53.052319
+- 🔗 cemantix.certitudes.org 🧩 #1127 🥳 279 ⏱️ 0:23:44.720761
 
 - ❌
 - ✅
 - ⏳
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1186 🥳 17
-- ✅ squareword.org 🧩 #1156 🥳 10
-- ✅ alphaguess.com 🧩 #616 🥳 15
-- ✅ alfagok.diginaut.net 🧩 #150 🥳 19
-- ✅ cemantle.certitudes.org 🧩 #1093 🥳 167
-- ✅ cemantix.certitudes.org 🧩 #1126 🥳 67
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1187 🥳 19
+- ✅ squareword.org 🧩 #1157 🥳 12
+- ✅ alphaguess.com 🧩 #617 🥳 12
+- ✅ alfagok.diginaut.net 🧩 #151 🥳 18
+- ✅ cemantle.certitudes.org 🧩 #1094 🥳 372
+- ✅ cemantix.certitudes.org 🧩 #1127 🥳 279
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$RsZb4aRsiSnHjD2ctZL_BmQE_2QRi2YMivqjbWvsJmo?via=aelf.land&via=matrix.org
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$jj7uClmwOT0AxtyKYm3mtxFL2pYwtP-vkeGNZGq4L04?via=aelf.land&via=matrix.org
 
-# squareword.org 🧩 #1156 🥳 10 ⏱️ 0:02:49.363349
+# squareword.org 🧩 #1157 🥳 12 ⏱️ 0:02:49.989204
 
 📜 2 sessions
 
 Guesses:
-1. slier
 
 Score Heatmap:
-    🟨 🟨 🟨 🟩 🟩
-    🟨 🟨 🟨 🟨 🟨
-    🟩 🟨 🟨 🟨 🟨
+    🟨 🟨 🟧 🟧 🟩
     🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟨 🟩 🟩
+    🟨 🟨 🟨 🟨 🟨
+    🟩 🟨 🟧 🟧 🟩
+    🟨 🟨 🟨 🟨 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    P A S T S
-    O P E R A
-    S P R I G
-    E L I T E
-    D E F E R
+    C H A P S
+    R E L I C
+    I N T E R
+    S N A R E
+    P A R S E
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1186 🥳 17 ⏱️ 0:05:15.157616
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1187 🥳 19 ⏱️ 0:08:09.600172
 
 📜 1 sessions
-💰 score: 9900
+💰 score: 9700
 
     4/6
-    > S M E A R
-      ⬜⬜⬜⬜⬜
-    > B I N G O
-      ⬜⬜⬜⬜🟨
-    > C O U L D
-      ⬜🟩⬜🟩🟨
-    > D O L L Y
-      🟩🟩🟩🟩🟩
-    3/6
-    > L A D E N
-      🟨⬜🟨⬜⬜
-    > M E D A L
-      🟨🟨🟩🟨⬜
-    > H O U R S
+    > S A U C E
+      ⬜🟩⬜🟨⬜
+    > N A C H O
+      🟨🟩🟨⬜⬜
+    > P A N I C
+      ⬜🟩🟨🟩🟨
+    > C A B I N
       🟩🟩🟩🟩🟩
     5/6
-    > S T I C K
-      ⬜⬜⬜⬜⬜
-    > S T I N G
-      ⬜⬜⬜⬜🟨
-    > S T I F F
-      🟩🟩🟩⬜⬜
-    > T R I P S
-      🟩🟩🟩⬜⬜
-    > M O I S T
+    > B O X E R
+      ⬜⬜🟨⬜⬜
+    > B O K E H
+      🟩🟩⬜🟩⬜
+    > B O D E S
+      🟩🟩⬜🟩⬜
+    > B O W E L
+      🟩🟩⬜🟩⬜
+    > R E S I N
       🟩🟩🟩🟩🟩
-    3/6
-    > K N O T S
-      🟨🟨🟩⬜⬜
-    > G U S T O
-      🟨⬜🟩⬜🟨
+    5/6
+    > S T A K E
+      ⬜⬜⬜🟨⬜
+    > S T E A M
+      ⬜🟨🟨⬜⬜
+    > S T E A D
+      🟩🟩🟨⬜🟨
+    > P R O B E
+      🟩🟩🟩🟩⬜
+    > I M P E L
       🟩🟩🟩🟩🟩
-    Final 2/2
-      ⬜⬜🟨🟩🟨
+    4/6
+    > E Q U I P
+      ⬜⬜🟨⬜⬜
+    > C A D E T
+      🟨⬜⬜⬜🟨
+      🟨⬜🟨🟨⬜
+      🟩🟩🟩🟩🟩
+    Final 1/2
       🟩🟩🟩🟩🟩
 
-# alfagok.diginaut.net 🧩 #150 🥳 19 ⏱️ 0:01:08.074002
+# alfagok.diginaut.net 🧩 #151 🥳 18 ⏱️ 0:00:58.591212
 
-🤔 19 attempts
+🤔 18 attempts
 📜 1 sessions
 
     @        [     0] &-teken   
     @+1      [     1] &-tekens  
     @+2      [     2] -cijferig 
     @+3      [     3] -e-mail   
-    @+100070 [100070] examen    q1  ? after
-    @+149561 [149561] huis      q2  ? after
-    @+150315 [150315] hulp      q7  ? after
-    @+150609 [150609] huls      q9  ? after
-    @+150755 [150755] hun       q10 ? after
-    @+150791 [150791] hunt      q12 ? after
-    @+150804 [150804] hup       q13 ? after
-    @+150821 [150821] hups      q14 ? after
-    @+150830 [150830] hupst     q15 ? after
-    @+150832 [150832] hupt      q16 ? after
-    @+150836 [150836] huren     q18 ? it
-    @+150836 [150836] huren     done. it
-    @+150838 [150838] hurk      q11 ? before
-    @+150922 [150922] huur      q8  ? before
-    @+151607 [151607] hypotheek q6  ? before
-    @+153732 [153732] in        q5  ? before
-    @+162116 [162116] izabel    q4  ? before
-    @+174671 [174671] kind      q3  ? before
-    @+200212 [200212] lijst     q0  ? before
+    @+200212 [200212] lijst     q0  ? after
+    @+300298 [300298] schroef   q1  ? after
+    @+350278 [350278] vakantie  q2  ? after
+    @+353849 [353849] ver       q4  ? after
+    @+364436 [364436] verzot    q5  ? after
+    @+369449 [369449] voetbal   q6  ? after
+    @+370158 [370158] vol       q8  ? after
+    @+370436 [370436] volks     q9  ? after
+    @+370862 [370862] volleybal q10 ? after
+    @+370967 [370967] volraakt  q12 ? after
+    @+370982 [370982] volst     q14 ? after
+    @+370993 [370993] volstort  q15 ? after
+    @+370998 [370998] volstouw  q16 ? after
+    @+371003 [371003] volstrekt q17 ? it
+    @+371003 [371003] volstrekt done. it
+    @+371010 [371010] volta     q13 ? before
+    @+371076 [371076] voltrek   q11 ? before
+    @+371298 [371298] voor      q7  ? before
+    @+375027 [375027] vrij      q3  ? before
 
-# alphaguess.com 🧩 #616 🥳 15 ⏱️ 0:00:38.482576
+# alphaguess.com 🧩 #617 🥳 12 ⏱️ 0:00:39.088440
 
-🤔 15 attempts
-📜 2 sessions
-
-    @        [     0] aa         
-    @+1      [     1] aah        
-    @+2      [     2] aahed      
-    @+3      [     3] aahing     
-    @+98247  [ 98247] mach       q0  ? after
-    @+122812 [122812] parr       q2  ? after
-    @+135102 [135102] proper     q3  ? after
-    @+140551 [140551] rec        q4  ? after
-    @+143976 [143976] reminisce  q5  ? after
-    @+144448 [144448] rep        q7  ? after
-    @+144637 [144637] replace    q9  ? after
-    @+144736 [144736] replumb    q10 ? after
-    @+144740 [144740] replunge   q12 ? after
-    @+144743 [144743] replunging q13 ? after
-    @+144744 [144744] reply      done. it
-    @+144745 [144745] replying   q14 ? before
-    @+144746 [144746] repo       q11 ? before
-    @+144838 [144838] repp       q8  ? before
-    @+145228 [145228] res        q6  ? before
-    @+147410 [147410] rhumb      q1  ? before
-
-# cemantix.certitudes.org 🧩 #1126 🥳 67 ⏱️ 0:03:23.434314
-
-🤔 68 attempts
+🤔 12 attempts
 📜 1 sessions
-🫧 3 chat sessions
-⁉️ 8 chat prompts
-🤖 8 gemma2:latest replies
-🔥  2 🥵  6 😎 14 🥶 35 🧊 10
 
-     $1 #68  ~1 dictionnaire   100.00°C 🥳 1000‰
-     $2 #44 ~12 lexique         60.21°C 😱  999‰
-     $3 #50  ~8 glossaire       51.91°C 🔥  991‰
-     $4 #33 ~16 traduction      42.87°C 🥵  973‰
-     $5 #66  ~3 terminologie    42.60°C 🥵  970‰
-     $6 #35 ~14 abréviation     40.66°C 🥵  959‰
-     $7 #48 ~10 définition      39.71°C 🥵  954‰
-     $8 #28 ~17 index           38.91°C 🥵  948‰
-     $9 #34 ~15 édition         35.44°C 🥵  905‰
-    $10 #53  ~7 langue          34.55°C 😎  891‰
-    $11 #55  ~6 référence       34.24°C 😎  883‰
-    $12 #57  ~5 linguistique    33.61°C 😎  871‰
-    $24 #36     acronyme        19.70°C 🥶
-    $59 #23     police          -1.47°C 🧊
+    @       [    0] aa         
+    @+1     [    1] aah        
+    @+2     [    2] aahed      
+    @+3     [    3] aahing     
+    @+47407 [47407] dis        q1  ? after
+    @+72827 [72827] gremolata  q2  ? after
+    @+79160 [79160] hood       q4  ? after
+    @+79943 [79943] hoy        q7  ? after
+    @+80073 [80073] hum        q9  ? after
+    @+80208 [80208] humor      q10 ? after
+    @+80273 [80273] hundred    q11 ? it
+    @+80273 [80273] hundred    done. it
+    @+80343 [80343] hurrah     q8  ? before
+    @+80745 [80745] hydroxy    q6  ? before
+    @+82337 [82337] immaterial q5  ? before
+    @+85532 [85532] ins        q3  ? before
+    @+98247 [98247] mach       q0  ? before
 
-# cemantle.certitudes.org 🧩 #1093 🥳 167 ⏱️ 0:08:25.355211
+# cemantix.certitudes.org 🧩 #1127 🥳 279 ⏱️ 0:23:44.720761
 
-🤔 168 attempts
+🤔 280 attempts
 📜 1 sessions
-🫧 4 chat sessions
-⁉️ 19 chat prompts
-🤖 19 gemma2:latest replies
-🔥   2 🥵   4 😎  18 🥶 137 🧊   6
+🫧 7 chat sessions
+⁉️ 39 chat prompts
+🤖 39 gemma2:latest replies
+🔥   1 🥵  17 😎  54 🥶 192 🧊  15
 
-      $1 #168   ~1 nest             100.00°C 🥳 1000‰
-      $2 #110  ~13 fledge            57.71°C 😱  999‰
-      $3 #112  ~12 hatchling         54.95°C 🔥  995‰
-      $4 #138   ~7 mating            49.30°C 🥵  978‰
-      $5 #102  ~16 brood             47.11°C 🥵  960‰
-      $6 #156   ~4 flightless        44.33°C 🥵  925‰
-      $7  #25  ~23 habitat           43.34°C 🥵  906‰
-      $8 #104  ~15 chick             40.93°C 😎  857‰
-      $9 #159   ~3 downy             40.77°C 😎  850‰
-     $10 #142   ~6 offspring         39.36°C 😎  817‰
-     $11  #84  ~18 breeding          38.13°C 😎  779‰
-     $12  #71  ~20 species           37.95°C 😎  771‰
-     $26 #141      nursery           27.35°C 🥶
-    $163  #31      distribution      -0.78°C 🧊
+      $1 #280   ~1 occurrence       100.00°C 🥳 1000‰
+      $2 #269   ~6 lemmatisation     44.41°C 🔥  995‰
+      $3 #193  ~27 corpus            42.81°C 🔥  990‰
+      $4 #163  ~34 syntaxe           41.14°C 🥵  983‰
+      $5 #265   ~7 concordance       40.49°C 🥵  976‰
+      $6 #232  ~16 quantificateur    40.41°C 🥵  975‰
+      $7  #60  ~56 nombre            40.01°C 🥵  971‰
+      $8 #249  ~14 pronom            39.43°C 🥵  966‰
+      $9 #258  ~10 syntaxique        39.19°C 🥵  965‰
+     $10 #224  ~20 prédicat          37.94°C 🥵  956‰
+     $11 #226  ~19 adverbe           37.64°C 🥵  951‰
+     $20  #24  ~72 phrase            35.00°C 😎  895‰
+     $74  #75      quantifiable      23.66°C 🥶
+    $266 #146      suite             -0.28°C 🧊
+
+# cemantle.certitudes.org 🧩 #1094 🥳 372 ⏱️ 0:22:53.052319
+
+🤔 373 attempts
+📜 1 sessions
+🫧 10 chat sessions
+⁉️ 56 chat prompts
+🤖 56 gemma2:latest replies
+🥵  15 😎  67 🥶 286 🧊   4
+
+      $1 #373   ~1 passage          100.00°C 🥳 1000‰
+      $2 #362   ~4 passing           35.77°C 🥵  984‰
+      $3 #109  ~58 deliverance       32.11°C 🥵  963‰
+      $4 #269  ~19 demise            30.14°C 🥵  950‰
+      $5 #130  ~50 resurrection      30.07°C 🥵  947‰
+      $6  #37  ~75 ascension         29.83°C 🥵  945‰
+      $7  #73  ~69 victory           29.77°C 🥵  944‰
+      $8 #110  ~57 emancipation      29.54°C 🥵  940‰
+      $9 #145  ~43 triumph           29.11°C 🥵  928‰
+     $10 #152  ~40 restoration       28.65°C 🥵  924‰
+     $11 #189  ~30 ascent            28.55°C 🥵  918‰
+     $17 #120  ~53 journey           27.49°C 😎  894‰
+     $84 #323      endgame           18.88°C 🥶
+    $370  #67      leverage          -0.29°C 🧊
