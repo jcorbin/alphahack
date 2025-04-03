@@ -315,7 +315,7 @@ class Search(StoredLog):
             if not show or i < show:
                 words.append((word, score))
 
-        for n, (word, score) in enumerate(sorted(words), 1):
+        for n, (word, score) in enumerate(words, 1):
             ui.print(f'{n}. {word} {100*score:0.2f}%')
         if show and have > show:
             ui.print(f'* ... showing {show} of {have}')
