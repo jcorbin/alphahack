@@ -200,7 +200,8 @@ class Search(StoredLog):
             if match:
                 guess = int(match.group(3)) if match.group(3) else 0 if len(match.group(1)) > 1 else 10
                 shuffle = True if match.group(2) else False
-                return self.guess(ui, show=guess, shuffle=shuffle)
+                verbose = True if tokens.have(r'-v') else False
+                return self.guess(ui, show=guess, shuffle=shuffle, verbose=verbose)
 
             if tokens.have(r'fail'):
                 return self.finish
@@ -308,7 +309,10 @@ class Search(StoredLog):
 
         return '|'.join(alts())
 
-    def guess(self, ui: PromptUI, show: int=10, shuffle: bool=False):
+    def guess(self, ui: PromptUI,
+              show: int=10,
+              shuffle: bool=False,
+              verbose: bool=False):
         have = 0
         words: list[tuple[str, float]] = []
         for i, (score, word) in enumerate(self.select(ui, shuffle=shuffle)):
@@ -317,7 +321,23 @@ class Search(StoredLog):
                 words.append((word, score))
 
         for n, (word, score) in enumerate(words, 1):
-            ui.print(f'{n}. {word} {100*score:0.2f}%')
+            extra: list[str] = []
+            line = f'{n}. {word}'
+            if verbose:
+                extra.insert(0, f'{100*score:0.2f}%')
+                lw = 70
+                while extra:
+                    cat = f'{line} {extra[0]}'
+                    if not line.strip() or len(cat) <= lw:
+                        line = cat
+                        _ = extra.pop(0)
+                        continue
+                    else:
+                        ui.print(line)
+                        line = f'    '
+            if line.strip():
+                ui.print(line)
+
         if show and have > show:
             ui.print(f'* ... showing {show} of {have}')
 
