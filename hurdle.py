@@ -196,10 +196,11 @@ class Search(StoredLog):
             ui.print(f'Word: {" ".join(x.upper() if x else "_" for x in self.word)}')
 
         with ui.input(f'{len(self.words)+1}.{len(self.tried)+1}> ') as tokens:
-            guess = tokens.have(r'(\*+)(\d+)?',
-                lambda match: int(match.group(2)) if match.group(2) else 0 if len(match.group(1)) > 1 else 10)
-            if guess is not None:
-                return self.guess(ui, show=guess)
+            match = tokens.have(r'(\*+)(~)?(\d+)?')
+            if match:
+                guess = int(match.group(3)) if match.group(3) else 0 if len(match.group(1)) > 1 else 10
+                shuffle = True if match.group(2) else False
+                return self.guess(ui, show=guess, shuffle=shuffle)
 
             if tokens.have(r'fail'):
                 return self.finish
@@ -307,10 +308,10 @@ class Search(StoredLog):
 
         return '|'.join(alts())
 
-    def guess(self, ui: PromptUI, show: int=10):
+    def guess(self, ui: PromptUI, show: int=10, shuffle: bool=False):
         have = 0
         words: list[tuple[str, float]] = []
-        for i, (score, word) in enumerate(self.select(ui)):
+        for i, (score, word) in enumerate(self.select(ui, shuffle=shuffle)):
             have += 1
             if not show or i < show:
                 words.append((word, score))
@@ -327,7 +328,7 @@ class Search(StoredLog):
             if let in self.may_letters
             if any(prior[i] == let for prior in self.tried))
 
-    def select(self, ui: PromptUI):
+    def select(self, ui: PromptUI, shuffle: bool=False):
         # collect all possible words
         words: list[str] = []
         pattern = self.pattern(ui)
@@ -358,15 +359,21 @@ class Search(StoredLog):
             if nov > 0:
                 scores[i] = math.pow(scores[i], 0.01 + nov)
 
-        choices: list[tuple[float, int]] = [
-            (-score, i)
-            for i, score in enumerate(scores)
-        ]
-        heapq.heapify(choices)
-        while choices:
-            score, i = heapq.heappop(choices)
-            word = words[i]
-            yield -score, word
+        if shuffle:
+            ix = list(range(len(scores)))
+            random.shuffle(ix)
+            for i in ix:
+                yield scores[i], words[i]
+
+        else:
+            choices: list[tuple[float, int]] = [
+                (-score, i)
+                for i, score in enumerate(scores)
+            ]
+            heapq.heapify(choices)
+            while choices:
+                score, i = heapq.heappop(choices)
+                yield -score, words[i]
 
     def find(self, pattern: re.Pattern[str]):
         with open(self.wordlist) as f:
