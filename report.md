@@ -1,182 +1,189 @@
-# 2025-04-03
+# 2025-04-04
 
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1188 🥳 19 ⏱️ 0:07:29.779126
-- 🔗 squareword.org 🧩 #1158 🥳 10 ⏱️ 0:02:15.967920
-- 🔗 alphaguess.com 🧩 #618 🥳 14 ⏱️ 0:00:25.814662
-- 🔗 alfagok.diginaut.net 🧩 #152 🥳 10 ⏱️ 0:00:21.635482
-- 🔗 cemantle.certitudes.org 🧩 #1095 🥳 107 ⏱️ 0:05:20.584664
-- 🔗 cemantix.certitudes.org 🧩 #1128 🥳 270 ⏱️ 0:11:54.045205
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1189 🥳 20 ⏱️ 0:07:05.603842
+- 🔗 squareword.org 🧩 #1159 🥳 12 ⏱️ 0:03:27.154847
+- 🔗 alphaguess.com 🧩 #619 🥳 13 ⏱️ 0:00:36.187906
+- 🔗 alfagok.diginaut.net 🧩 #153 🥳 25 ⏱️ 0:00:55.158923
+- 🔗 cemantle.certitudes.org 🧩 #1096 🥳 131 ⏱️ 0:05:45.693928
+- 🔗 cemantix.certitudes.org 🧩 #1129 🥳 121 ⏱️ 0:07:25.482055
 
 - ❌
 - ✅
 - ⏳
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1188 🥳 19
-- ✅ squareword.org 🧩 #1158 🥳 10
-- ✅ alphaguess.com 🧩 #618 🥳 14
-- ✅ alfagok.diginaut.net 🧩 #152 🥳 10
-- ✅ cemantle.certitudes.org 🧩 #1095 🥳 107
-- ✅ cemantix.certitudes.org 🧩 #1128 🥳 270
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1189 🥳 20
+- ✅ squareword.org 🧩 #1159 🥳 12
+- ✅ alphaguess.com 🧩 #619 🥳 13
+- ✅ alfagok.diginaut.net 🧩 #153 🥳 25
+- ✅ cemantle.certitudes.org 🧩 #1096 🥳 131
+- ✅ cemantix.certitudes.org 🧩 #1129 🥳 121
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$5Yq3d2ATb9bfOerzPgoHpYpxGcvo9vMbcFb8fG0PP5g?via=aelf.land&via=matrix.org
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$syiHlCQoy5jAWW_OXoO4rTE_FdEmeKI4m9433Up_C0k?via=aelf.land&via=matrix.org
 
-# squareword.org 🧩 #1158 🥳 10 ⏱️ 0:02:15.967920
+# squareword.org 🧩 #1159 🥳 12 ⏱️ 0:03:27.154847
 
-📜 2 sessions
+📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
-    🟩 🟩 🟩 🟩 🟩
-    🟨 🟩 🟨 🟨 🟨
-    🟩 🟩 🟩 🟨 🟨
-    🟨 🟩 🟨 🟩 🟨
+    🟨 🟨 🟩 🟨 🟨
     🟨 🟨 🟨 🟨 🟨
+    🟧 🟧 🟩 🟨 🟨
+    🟩 🟨 🟨 🟨 🟨
+    🟨 🟩 🟨 🟨 🟧
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    A P A R T
-    M O V E R
-    A P A C E
-    S P I T E
-    S A L A D
+    C A D E T
+    O M E G A
+    L U N G S
+    A S S E T
+    S E E D Y
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1188 🥳 19 ⏱️ 0:07:29.779126
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1189 🥳 20 ⏱️ 0:07:05.603842
 
-📜 3 sessions
-💰 score: 9700
+📜 2 sessions
+💰 score: 9600
 
     5/6
-    > R O A S T
-      ⬜⬜🟨🟩⬜
-    > A M U S E
-      🟨⬜⬜🟩⬜
-    > D A I S Y
-      ⬜🟩⬜🟩⬜
-    > S A L S A
-      ⬜🟩🟩🟩🟩
-    > B A L S A
-      🟩🟩🟩🟩🟩
-    4/6
-    > R I D G E
-      ⬜⬜⬜⬜⬜
-    > P R U D E
-      🟨⬜🟨⬜🟩
+    > N O M A D
+      ⬜🟨⬜⬜🟨
+    > K U D O S
+      ⬜⬜🟨🟨⬜
+    > D I L D O
+      ⬜⬜⬜🟩🟨
     > E R O D E
-      ⬜🟩⬜🟩🟩
-    > H A I R Y
+      ⬜🟩🟩🟩⬜
+    > G R O D Y
       🟩🟩🟩🟩🟩
     5/6
-    > S H A R P
-      ⬜🟨⬜⬜⬜
-    > S H A R N
-      🟨🟨⬜🟩⬜
-    > S H A R K
-      🟩🟩🟩🟩⬜
-    > S U P E R
-      🟩🟩🟩🟩⬜
-    > S E R U M
+    > A I S L E
+      ⬜⬜⬜⬜⬜
+    > F A T E S
+      🟨⬜🟨⬜🟨
+    > S T E A M
+      ⬜🟨🟨🟨🟨
+    > S W E A T
+      🟩🟨🟩🟩⬜
+    > J U D A S
       🟩🟩🟩🟩🟩
     3/6
-    > T E P I D
-      🟩⬜⬜🟨⬜
-    > D E I T Y
-      🟩🟨⬜🟨🟨
+    > U S U A L
+      🟨⬜⬜🟩⬜
+    > S A L V E
+      ⬜🟨⬜🟩🟨
+    > L E A F S
+      🟩🟩🟩🟩🟩
+    5/6
+    > L E A S T
+      ⬜🟨⬜🟨🟨
+    > L E A S H
+      🟨🟨🟨⬜🟨
+    > S P E N T
+      🟩🟩🟩⬜🟨
+    > S C E N T
+      🟩🟩🟩🟩⬜
       🟩🟩🟩🟩🟩
     Final 2/2
-      🟨🟩⬜🟨🟨
+      🟩⬜🟩🟩🟩
       🟩🟩🟩🟩🟩
 
-# alfagok.diginaut.net 🧩 #152 🥳 10 ⏱️ 0:00:21.635482
+# alfagok.diginaut.net 🧩 #153 🥳 25 ⏱️ 0:00:55.158923
 
-🤔 10 attempts
+🤔 25 attempts
 📜 1 sessions
 
-    @        [     0] &-teken         
-    @+1      [     1] &-tekens        
-    @+2      [     2] -cijferig       
-    @+3      [     3] -e-mail         
-    @+12485  [ 12485] afstand         q4  ? after
-    @+18742  [ 18742] antroposofische q5  ? after
-    @+21836  [ 21836] assem           q6  ? after
-    @+22966  [ 22966] auto            q7  ? after
-    @+23785  [ 23785] avond           q8  ? after
-    @+24302  [ 24302] baan            q9  ? it
-    @+24302  [ 24302] baan            done. it
-    @+24998  [ 24998] badkamer        q3  ? before
-    @+50027  [ 50027] bolle           q2  ? before
-    @+100070 [100070] examen          q1  ? before
-    @+200212 [200212] lijst           q0  ? before
+    @        [     0] &-teken   
+    @+1      [     1] &-tekens  
+    @+2      [     2] -cijferig 
+    @+3      [     3] -e-mail   
+    @+50027  [ 50027] bolle     q2  ? after
+    @+56112  [ 56112] brood     q5  ? after
+    @+56887  [ 56887] brutaal   q8  ? after
+    @+57192  [ 57192] budget    q9  ? after
+    @+57417  [ 57417] buffet    q10 ? after
+    @+57450  [ 57450] bui       q12 ? after
+    @+57478  [ 57478] buig      q13 ? after
+    @+57509  [ 57509] buigt     q14 ? after
+    @+57525  [ 57525] buik      q24 ? it
+    @+57525  [ 57525] buik      done. it
+    @+57530  [ 57530] buikdans  q11 ? before
+    @+57659  [ 57659] buis      q7  ? before
+    @+59235  [ 59235] buur      q6  ? before
+    @+62407  [ 62407] center    q4  ? before
+    @+74805  [ 74805] dc        q3  ? before
+    @+100061 [100061] examen    q1  ? before
+    @+200203 [200203] lijst     q0  ? before
 
-# alphaguess.com 🧩 #618 🥳 14 ⏱️ 0:00:25.814662
+# alphaguess.com 🧩 #619 🥳 13 ⏱️ 0:00:36.187906
 
-🤔 14 attempts
+🤔 13 attempts
 📜 1 sessions
 
-    @       [    0] aa          
-    @+1     [    1] aah         
-    @+2     [    2] aahed       
-    @+3     [    3] aahing      
-    @+47407 [47407] dis         q1  ? after
-    @+60110 [60110] face        q3  ? after
-    @+66466 [66466] french      q4  ? after
-    @+66549 [66549] fret        q10 ? after
-    @+66590 [66590] fricassee   q11 ? after
-    @+66610 [66610] friend      q12 ? after
-    @+66622 [66622] friends     q13 ? it
-    @+66622 [66622] friends     done. it
-    @+66633 [66633] frig        q9  ? before
-    @+66850 [66850] front       q8  ? before
-    @+67246 [67246] full        q7  ? before
-    @+68032 [68032] gall        q6  ? before
-    @+69647 [69647] geosyncline q5  ? before
-    @+72827 [72827] gremolata   q2  ? before
-    @+98247 [98247] mach        q0  ? before
+    @       [    0] aa        
+    @+1     [    1] aah       
+    @+2     [    2] aahed     
+    @+3     [    3] aahing    
+    @+47407 [47407] dis       q1  ? after
+    @+72827 [72827] gremolata q2  ? after
+    @+85532 [85532] ins       q3  ? after
+    @+91877 [91877] knot      q4  ? after
+    @+92454 [92454] lac       q7  ? after
+    @+92615 [92615] lad       q9  ? after
+    @+92694 [92694] lag       q10 ? after
+    @+92758 [92758] lair      q11 ? after
+    @+92778 [92778] lake      q12 ? it
+    @+92778 [92778] lake      done. it
+    @+92830 [92830] lam       q8  ? before
+    @+93297 [93297] lar       q6  ? before
+    @+94974 [94974] lib       q5  ? before
+    @+98247 [98247] mach      q0  ? before
 
-# cemantix.certitudes.org 🧩 #1128 🥳 270 ⏱️ 0:11:54.045205
+# cemantix.certitudes.org 🧩 #1129 🥳 121 ⏱️ 0:07:25.482055
 
-🤔 271 attempts
+🤔 122 attempts
 📜 1 sessions
-🫧 6 chat sessions
-⁉️ 26 chat prompts
-🤖 26 gemma2:latest replies
-🔥   3 🥵   7 😎  47 🥶 117 🧊  96
+🫧 4 chat sessions
+⁉️ 16 chat prompts
+🤖 16 gemma2:latest replies
+🥵  2 😎 23 🥶 80 🧊 16
 
-      $1 #271   ~1 inspection       100.00°C 🥳 1000‰
-      $2 #243  ~12 contrôle          51.99°C 🔥  998‰
-      $3 #123  ~47 évaluation        44.58°C 🔥  996‰
-      $4 #211  ~22 suivi             40.42°C 🔥  991‰
-      $5 #268   ~3 procédure         36.00°C 🥵  968‰
-      $6 #212  ~21 examen            34.61°C 🥵  956‰
-      $7 #208  ~23 pédagogique       32.83°C 🥵  940‰
-      $8 #147  ~38 mesure            32.19°C 🥵  933‰
-      $9 #260   ~7 élaboration       31.60°C 🥵  925‰
-     $10 #143  ~40 formation         30.95°C 🥵  914‰
-     $11 #202  ~26 effectif          30.77°C 🥵  907‰
-     $12 #122  ~48 validation        30.29°C 😎  899‰
-     $59 #205      individualisé     17.80°C 🥶
-    $176  #38      farine            -0.04°C 🧊
+      $1 #122   ~1 clientèle         100.00°C 🥳 1000‰
+      $2 #104   ~6 service            44.31°C 🥵  981‰
+      $3 #102   ~7 qualité            40.08°C 🥵  955‰
+      $4 #109   ~4 gestion            32.94°C 😎  859‰
+      $5 #116   ~3 logistique         32.54°C 😎  851‰
+      $6  #16  ~26 destination        29.75°C 😎  775‰
+      $7  #84  ~13 capacité           28.60°C 😎  740‰
+      $8  #98   ~8 maintenance        28.22°C 😎  723‰
+      $9 #121   ~2 assistance         27.97°C 😎  711‰
+     $10  #93  ~10 communication      27.90°C 😎  706‰
+     $11 #107   ~5 utilisateur        27.37°C 😎  680‰
+     $12  #80  ~14 réseau             27.03°C 😎  664‰
+     $27  #77      flux               19.68°C 🥶
+    $107  #38      vision             -0.55°C 🧊
 
-# cemantle.certitudes.org 🧩 #1095 🥳 107 ⏱️ 0:05:20.584664
+# cemantle.certitudes.org 🧩 #1096 🥳 131 ⏱️ 0:05:45.693928
 
-🤔 108 attempts
+🤔 132 attempts
 📜 1 sessions
 🫧 3 chat sessions
-⁉️ 13 chat prompts
-🤖 13 gemma2:latest replies
-🥵  5 😎 21 🥶 75 🧊  6
+⁉️ 14 chat prompts
+🤖 14 gemma2:latest replies
+🔥  3 🥵  8 😎 47 🥶 70 🧊  3
 
-      $1 #108   ~1 portfolio         100.00°C 🥳 1000‰
-      $2 #101   ~5 acquisition        35.87°C 🥵  982‰
-      $3 #106   ~2 leverage           34.28°C 🥵  973‰
-      $4  #86   ~9 strategy           33.16°C 🥵  965‰
-      $5  #69  ~14 management         32.97°C 🥵  961‰
-      $6  #57  ~16 allocation         28.99°C 🥵  908‰
-      $7 #100   ~6 customer           27.34°C 😎  875‰
-      $8  #29  ~25 network            26.89°C 😎  852‰
-      $9  #98   ~7 development        25.81°C 😎  822‰
-     $10  #79  ~11 pipeline           25.73°C 😎  820‰
-     $11  #94   ~8 innovation         24.06°C 😎  740‰
-     $12 #104   ~4 experience         24.01°C 😎  738‰
-     $28  #71      modular            18.09°C 🥶
-    $103   #5      happiness          -0.33°C 🧊
+      $1 #132   ~1 vocal            100.00°C 🥳 1000‰
+      $2  #23  ~54 chorus            49.46°C 🔥  992‰
+      $3 #130   ~2 singing           48.67°C 🔥  991‰
+      $4 #103  ~17 voice             45.95°C 🔥  990‰
+      $5  #84  ~24 vocalist          43.21°C 🥵  982‰
+      $6 #102  ~18 vocalize          42.10°C 🥵  973‰
+      $7  #85  ~23 alto              42.05°C 🥵  971‰
+      $8 #121   ~7 tenor             41.58°C 🥵  969‰
+      $9  #83  ~25 soprano           40.83°C 🥵  963‰
+     $10  #76  ~30 choir             38.48°C 🥵  933‰
+     $11  #91  ~21 countertenor      38.48°C 🥵  932‰
+     $13 #118   ~8 phrasing          36.26°C 😎  881‰
+     $60  #14      harmony           25.63°C 🥶
+    $130   #2      banana            -2.76°C 🧊
