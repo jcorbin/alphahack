@@ -10301,3 +10301,15 @@ See log/play.dictionary.com_games_todays-hurdle/#1190
 ⏱️ 1m 11s
 🔗 alfagok.diginaut.net
 ```
+
+# 2025-04-06 alphaguess.com
+
+```
+🧩 Puzzle #621
+
+🤔 14 guesses
+
+⏱️ 27s
+
+🔗 alphaguess.com
+```
