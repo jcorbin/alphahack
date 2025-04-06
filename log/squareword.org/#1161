@@ -1,0 +1,137 @@
+T0.00020397600019350648 now: 2025-04-06T08:15:30EDT
+T0.00026483600959181786 site: squareword.org
+T10.399438073014608 🧩  ? #1161
+T10.399843353021424 puzzle_id: #1161
+T12.583348336018389 > *
+T12.671180901001208 questioning: ["salty", "#5 found:6772 hypo:11881376"]
+T16.423431340022944 salty ( #5 found:6772 hypo:11881376 ) ? 
+T16.623192070022924 salty ( #5 found:6772 hypo:11881376 ) > 
+T19.37531849401421 salty ( #5 found:6772 hypo:11881376 ) 1> ~ a
+T19.37640434500645 word: 0 _____
+T19.376428734016372 may: 0 a
+T22.415459572017426 salty ( #5 found:6772 hypo:11881376 ) 2> ~ al
+T22.41574877500534 word: 1 _____
+T22.415776299021672 may: 1 a l
+T28.711369238008047 salty ( #5 found:6772 hypo:11881376 ) 3> s_
+T28.711572500003967 word: 2 s____
+T28.711612478015013 may: 2 
+T30.255072024010587 salty ( #5 found:6772 hypo:11881376 ) 4> 
+T31.767532181023853 salty ( #5 found:6772 hypo:11881376 ) 5> ~ sl
+T31.76781843500794 word: 4 _____
+T31.767844282003352 may: 4 l s
+T31.767871150019346 question done
+T33.783061818015995 > /no ty
+T33.783281361014815 nope: t y
+T34.43935046202387 > *
+T34.768212864000816 questioning: ["afoul", "#2 found:9 hypo:27648"]
+T39.5674560930056 afoul ( #2 found:9 hypo:27648 ) ? 
+T40.31131091702264 afoul ( #2 found:9 hypo:27648 ) > 
+T41.65537400901667 afoul ( #2 found:9 hypo:27648 ) 1> 
+T43.19167653901968 afoul ( #2 found:9 hypo:27648 ) 2> a_o
+T43.191932842019014 word: 1 a_o__
+T43.19195500400383 may: 1 l
+T48.31940446799854 afoul ( #2 found:9 hypo:27648 ) 3> ~ u
+T48.319697568018455 word: 2 s____
+T48.31972291599959 may: 2 u
+T51.96753051300766 afoul ( #2 found:9 hypo:27648 ) 4> 
+T52.895149440999376 afoul ( #2 found:9 hypo:27648 ) 5> 
+T52.89529182200204 question done
+T54.375138974020956 > /no f
+T54.3752843470138 nope: f t y
+T54.95141168200644 > *
+T55.2934555390093 questioning: ["acold", "#2 found:2 hypo:529"]
+T59.239375649020076 acold ( #2 found:2 hypo:529 ) ? 
+T59.46329782099929 acold ( #2 found:2 hypo:529 ) > 
+T66.46342571100104 acold ( #2 found:2 hypo:529 ) 1> 4 ____d ~ d
+T66.46379426101339 word: 3 ____d
+T66.46383439100464 may: 3 d
+T70.22367342602229 acold ( #2 found:2 hypo:529 ) 5> ___l
+T70.22397565899882 word: 4 ___l_
+T70.22402982899803 may: 4 s
+T70.22405570599949 question done
+T72.55134401802206 > /no c
+T72.55152036601794 nope: c f t y
+T73.21533503301907 > *
+T73.66617388700251 questioning: ["along", "#2 found:7 hypo:484"]
+T76.98339204501826 along ( #2 found:7 hypo:484 ) ? 
+T77.19937831899733 along ( #2 found:7 hypo:484 ) > 
+T79.95116880600108 along ( #2 found:7 hypo:484 ) 1> ~ ang
+T79.95136878199992 word: 0 _____
+T79.95138979301555 may: 0 a g n
+T82.44742797501385 along ( #2 found:7 hypo:484 ) 2> alon
+T82.4476842690201 word: 1 alon_
+T82.447706269013 may: 1 
+T88.71138111400069 along ( #2 found:7 hypo:484 ) 3> ~ ug
+T88.7116179279983 word: 2 s____
+T88.71164158501779 may: 2 g u
+T90.60700165599701 along ( #2 found:7 hypo:484 ) 4> ~ dg
+T90.60720707502333 word: 3 ____d
+T90.60722768001142 may: 3 d g
+T92.88760398101294 question done
+T93.87932250500307 > *
+T94.89525038099964 questioning: ["edged", "#4 found:1 hypo:968"]
+T99.11939236501348 edged ( #4 found:1 hypo:968 ) ? 
+T99.98347802500939 edged ( #4 found:1 hypo:968 ) > 
+T108.69531720000668 edged ( #4 found:1 hypo:968 ) 1> __g ~ ane
+T108.69554424501257 word: 0 __g__
+T108.6955664170091 may: 0 a e n
+T112.85539640800562 edged ( #4 found:1 hypo:968 ) 2> ~ e
+T112.85570871600066 word: 1 alon_
+T112.85573897801805 may: 1 e
+T116.36723929402069 edged ( #4 found:1 hypo:968 ) 3> ~ uge
+T116.36746007000329 word: 2 s____
+T116.36748429801082 may: 2 e g u
+T121.05533369301702 edged ( #4 found:1 hypo:968 ) 4> edged
+T121.05555307501345 word: 3 edged
+T121.05557218601461 may: 3 
+T122.95151237602113 edged ( #4 found:1 hypo:968 ) 5> ~ se
+T122.95177172499825 word: 4 ___l_
+T122.95179605201702 may: 4 e s
+T122.95181730401237 question done
+T125.95922460901784 > alone
+T125.95968855899991 questioning: ["alone", "entered"]
+T128.97528654901544 alone ( entered ) ? 
+T131.02350846800255 alone ( entered ) > 
+T132.16732983200927 alone ( entered ) 1> 
+T133.1671682970191 alone ( entered ) 2> alone
+T133.16737507100333 word: 1 alone
+T133.1674151670013 may: 1 
+T137.23152974102413 alone ( entered ) 3> s___e 
+T137.231825535011 word: 2 s___e
+T137.23185600401484 may: 2 g u
+T139.14341051800875 alone ( entered ) 4> 
+T139.60728695601574 alone ( entered ) 5> 
+T139.60739392100368 question done
+T140.27931281601195 > *
+T141.24384874702082 questioning: ["surge", "#3 found:1 hypo:44"]
+T145.6070135300106 surge ( #3 found:1 hypo:44 ) ? 
+T145.94351819800795 surge ( #3 found:1 hypo:44 ) > 
+T148.59942430700175 surge ( #3 found:1 hypo:44 ) 1> 3 surge
+T148.59964000500622 word: 2 surge
+T148.59965867901337 may: 2 
+T152.42357002900098 surge ( #3 found:1 hypo:44 ) 4> 5 ~ ser
+T152.42382784801885 word: 4 ___l_
+T152.4238497230108 may: 4 e r s
+T152.42386843499844 question done
+T155.24762509702123 > *
+T156.0268201630097 questioning: ["reels", "#5 found:1 hypo:132"]
+T159.31942214802257 reels ( #5 found:1 hypo:132 ) ? 
+T159.6474232870096 reels ( #5 found:1 hypo:132 ) > 
+T162.36708002802334 reels ( #5 found:1 hypo:132 ) 1> _eg
+T162.36728027000208 word: 0 _eg__
+T162.3673024160089 may: 0 a n
+T164.79108035500394 reels ( #5 found:1 hypo:132 ) 2> 5 reels
+T164.7912298630108 word: 4 reels
+T164.79124604500248 may: 4 
+T164.79126118100248 question done
+T165.83895459299674 > *
+T166.34987677400932 questioning: ["began", "#1 found:1 hypo:44"]
+T169.27104529499775 began ( #1 found:1 hypo:44 ) ? 
+T169.52766931400402 began ( #1 found:1 hypo:44 ) > 
+T171.47992944699945 began ( #1 found:1 hypo:44 ) 1> began
+T171.48024417000124 word: 0 began
+T171.4802818490134 may: 0 
+T172.76748766901437 question done
+T175.78347304600175 Press <Enter> to 📋 or `>` for line prompt 
+T175.7927032970183 result: "squareword.org 1161: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1161"
+T175.7945406800136 <STOP>
