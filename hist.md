@@ -10321,3 +10321,28 @@ See log/squareword.org/#1161
 # 2025-04-06 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1191
+
+# 1970-01-02 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 1098
+🤔 3424 guesses
+    😱    1
+    🔥    6
+    🥵   67
+    😎  337
+    🥶 2623
+    🧊  390
+⏱️ 6:16:04.343063
+```
+
+🤔 3425 attempts
+📜 0 sessions
+🫧 152 chat sessions
+⁉️ 804 chat prompts
+🤖 141 zephyr:latest replies
+🤖 17 qwen2.5:latest replies
+🤖 464 gemma2:latest replies
+🤖 167 llama3.2:latest replies
+🤖 10 phi4:latest replies
