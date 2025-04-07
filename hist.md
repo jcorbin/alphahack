@@ -10389,3 +10389,7 @@ See log/play.dictionary.com_games_todays-hurdle/#1191
 # 2025-04-07 squareword.org
 
 See log/squareword.org/#1162
+
+# 2025-04-07 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1192
