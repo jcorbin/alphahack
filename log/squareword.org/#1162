@@ -1,0 +1,110 @@
+T0.0001438329927623272 now: 2025-04-07T07:57:13EDT
+T0.00018268899293616414 site: squareword.org
+T2.791127312986646 🧩  ? #1162
+T2.791535000986187 puzzle_id: #1162
+T5.928714335983386 > *
+T6.018800552992616 questioning: ["sties", "#5 found:7631 hypo:11881376"]
+T8.798729186004493 sties ( #5 found:7631 hypo:11881376 ) ? 
+T8.991450106987031 sties ( #5 found:7631 hypo:11881376 ) > 
+T11.055561627988936 sties ( #5 found:7631 hypo:11881376 ) 1> st__s
+T11.056424395996146 word: 0 st__s
+T11.056453172001056 may: 0 
+T11.992501072993036 sties ( #5 found:7631 hypo:11881376 ) 2> 
+T14.45113019598648 sties ( #5 found:7631 hypo:11881376 ) 3> __i ~ se
+T14.451567837997572 word: 2 __i__
+T14.451594460988417 may: 2 e s
+T16.404677245998755 sties ( #5 found:7631 hypo:11881376 ) 4> ~ ie
+T16.4052176559926 word: 3 _____
+T16.40524138798355 may: 3 e i
+T19.6520022850018 sties ( #5 found:7631 hypo:11881376 ) 5> st ~ te
+T19.652224992983975 word: 4 st___
+T19.65224518798641 may: 4 e t
+T19.65226581998286 question done
+T21.002177235001 > *
+T21.364505703997565 questioning: ["stets", "#5 found:3 hypo:52"]
+T26.208729147998383 question done
+T27.463047519006068 > * 5
+T27.465035259985598 questioning: ["state", "#5 found:1 hypo:52"]
+T30.471004535997054 state ( #5 found:1 hypo:52 ) ? 
+T30.708933800982777 state ( #5 found:1 hypo:52 ) > 
+T33.30321487598121 state ( #5 found:1 hypo:52 ) 1> sta_s
+T33.303391928988276 word: 0 sta_s
+T33.3034107160056 may: 0 
+T35.80058917799033 state ( #5 found:1 hypo:52 ) 2> ~ a
+T35.80078637599945 word: 1 _____
+T35.80080483900383 may: 1 a
+T40.36737214500317 state ( #5 found:1 hypo:52 ) 3> __i_e ~ sa
+T40.367611267982284 word: 2 __i_e
+T40.36763258598512 may: 2 a s
+T44.88406032198691 state ( #5 found:1 hypo:52 ) 4> ____e
+T44.88429247599561 word: 3 ____e
+T44.88431326000136 may: 3 i
+T48.86902574499254 question done
+T51.86699913800112 > *
+T52.1338267030078 questioning: ["stent", "#5 found:1 hypo:52"]
+T57.53868206398329 stent ( #5 found:1 hypo:52 ) ? 
+T57.76216581699555 stent ( #5 found:1 hypo:52 ) > 
+T62.33800018200418 stent ( #5 found:1 hypo:52 ) 1> 5 stent
+T62.33824910200201 word: 4 stent
+T62.338270103005925 may: 4 
+T62.33829236298334 question done
+T74.60602058199584 <INT>
+T0.04137623298447579 now: 2025-04-07T07:58:29EDT
+T7.874371405981947 > *
+T8.260671064985218 questioning: ["anise", "#3 found:1 hypo:52"]
+T11.65842210399569 anise ( #3 found:1 hypo:52 ) ? 
+T11.852519915992161 anise ( #3 found:1 hypo:52 ) > 
+T15.0793424929725 anise ( #3 found:1 hypo:52 ) 1> 3 a_ise
+T15.080124431988224 word: 2 a_ise
+T15.080151005997322 may: 2 
+T17.76579379098257 question done
+T18.34710155898938 > *
+T18.469313365989365 questioning: ["stars", "#1 found:2 hypo:26"]
+T26.530379977979464 stars ( #1 found:2 hypo:26 ) ? 
+T29.572113766975235 stars ( #1 found:2 hypo:26 ) > 3 ~ r
+T29.572705036989646 word: 2 a_ise
+T29.572745334997308 may: 2 r
+T33.31032116597635 question done
+T37.11688381698332 > arise
+T37.11769718598225 questioning: ["arise", "entered"]
+T38.520337815978564 arise ( entered ) ? 3 arise
+T38.520536408992484 guess: arise
+T38.520609674975276 word: 2 arise
+T38.52062572797877 may: 2 
+T40.489465449994896 question done
+T41.365064529993106 > *
+T41.410895959998015 questioning: ["stars", "#1 found:2 hypo:26"]
+T43.83717764398898 question done
+T44.83731088897912 > *4
+T44.842178033984965 questioning: ["stars", "#1 found:2 hypo:26"]
+T46.33905826098635 question done
+T47.02861925997422 > * 4
+T47.02951757397386 questioning: ["locie", "#4 found:2 hypo:17576"]
+T52.66894622097607 locie ( #4 found:2 hypo:17576 ) ? !
+T52.66914431299665 reject: locie
+T54.10675651699421 > * 4
+T54.1071158979903 questioning: ["movie", "#4 found:3 hypo:17576"]
+T57.81635281298077 movie ( #4 found:3 hypo:17576 ) ? 
+T58.01310375297908 movie ( #4 found:3 hypo:17576 ) > 
+T59.82089685898973 movie ( #4 found:3 hypo:17576 ) 1> 4 movie
+T59.821305078978185 word: 3 movie
+T59.8213434270001 may: 3 
+T60.93513015698409 question done
+T61.4791756849736 > *
+T61.65186603498296 questioning: ["halal", "#2 found:1 hypo:456976"]
+T64.00904750198242 halal ( #2 found:1 hypo:456976 ) ? 
+T65.2774375389854 halal ( #2 found:1 hypo:456976 ) > 2 halal
+T65.27770829497604 word: 1 halal
+T65.27775087798364 may: 1 
+T66.1274735229963 question done
+T66.63770002199453 > *
+T66.83938477598713 questioning: ["stabs", "#1 found:1 hypo:26"]
+T69.25302835798357 stabs ( #1 found:1 hypo:26 ) ? 
+T69.56529041097383 stabs ( #1 found:1 hypo:26 ) > 
+T71.34917866098112 stabs ( #1 found:1 hypo:26 ) 1> 1 stabs
+T71.3493656499777 word: 0 stabs
+T71.34938456199598 may: 0 
+T72.58464339599595 question done
+T76.19592187498347 Press <Enter> to 📋 or `>` for line prompt 
+T76.19791332099703 result: "squareword.org 1162: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1162"
+T76.19838110497221 <STOP>
