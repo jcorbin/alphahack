@@ -358,13 +358,10 @@ class Search(StoredLog):
                 continue
             words.append(word)
 
-        # pick a random score for each word
-        scores: list[float] = [
-            random.random() * 0.50 + 0.25
-            for _ in words]
-
-        # letter frequency stats
+        # letter frequency over all possible words
         lf = Counter(l for word in words for l in set(word))
+
+        # letter frequency per-word
         wfs = [Counter(word) for word in words]
 
         # compute word relevance, analogously to tf-idf search scoring
@@ -373,8 +370,19 @@ class Search(StoredLog):
             wfilf.append(sum(
                 (1.0 - n/len(word)) * lf[l]/len(words) for l, n in wf.items()
             )/len(wf))
-        for i, wf in enumerate(wfilf):
-            scores[i] = math.pow(scores[i], 0.01 + 1/round(100 * wf))
+
+        weight = [
+            round(100 * wf)
+            for i, wf in enumerate(wfilf)]
+
+        # pick a random score for each word
+        scores: list[float] = [
+            random.random() * 0.50 + 0.25
+            for _ in words]
+
+        for i, wgt in enumerate(weight):
+            if wgt > 1:
+                scores[i] = math.pow(scores[i], 1/wgt)
 
         # novelty score, used to down-score words that repeat letters
         novelty: list[float] = []
@@ -389,17 +397,20 @@ class Search(StoredLog):
                 novelty[i] = nov
 
         def annotate(i: int):
+            wgt = weight[i]
+            exp = 1/wgt if wgt > 1 else 0
+            yield f'^= {exp:.3e}'
+            yield f'weight = {wgt}'
+
+            nov = novelty[i]
+            yield f'^= {nov:.2f} (novelty)'
+
             i_wfilf = wfilf[i]
-            wgt = round(100 * i_wfilf)
-            exp = 0.01 + 1/wgt
-            yield f'^= {exp:.3f} (wf-ilf weight = {wgt})'
+            yield f'wf-ilf score = {100*i_wfilf:.1f}%'
 
             i_wf = wfs[i]
             i_lf = { l: lf[l] for l in i_wf }
             yield f'wf-ilf counts: {' '.join(f'{l.upper()}:{i_wf[l]}/{i_lf[l]}' for l in i_wf)}'
-
-            nov = novelty[i]
-            yield f'^= {nov:.2f} (novelty)'
 
         if shuffle:
             ix = list(range(len(scores)))
