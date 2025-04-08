@@ -366,11 +366,12 @@ class Search(StoredLog):
         wfs = [Counter(word) for word in words]
 
         # compute word relevance, analogously to tf-idf search scoring
-        wfilf: list[float] = []
-        for word, wf in zip(words, wfs):
-            wfilf.append(sum(
-                (1.0 - n/len(word)) * lf[l]/len(words) for l, n in wf.items()
-            )/len(wf))
+        wfilf = [
+            sum(
+                (1.0 - n/len(word)) # up-score words with good letter diversity
+                *lf[l]/len(words)   # up-score words whose letters are diagnostic
+                for l, n in wf.items())/len(wf) #      ... average from all letters in each word
+            for word, wf in zip(words, wfs)]
 
         wfilf_weight = [
             round(sc * 100)
