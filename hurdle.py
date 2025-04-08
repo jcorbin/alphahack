@@ -374,7 +374,7 @@ class Search(StoredLog):
             for word, wf in zip(words, wfs)]
 
         wfilf_weight = [
-            round(sc * 100)
+            round(sc * len(words))
             for sc in wfilf]
 
         # novelty score, used to down-score words that repeat letters
