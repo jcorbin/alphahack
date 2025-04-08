@@ -314,7 +314,7 @@ class Search(StoredLog):
               shuffle: bool=False,
               verbose: bool=False):
         have = 0
-        words: list[tuple[str, float, list[str]]] = []
+        words: list[tuple[str, float, Iterable[str]]] = []
         for i, (score, word, extra) in enumerate(self.select(ui, shuffle=shuffle)):
             have += 1
             if not show or i < show:
@@ -323,17 +323,15 @@ class Search(StoredLog):
         for n, (word, score, extra) in enumerate(words, 1):
             line = f'{n}. {word}'
             if verbose:
-                extra.insert(0, f'{100*score:0.2f}%')
+                line = f'{line} {100*score:0.2f}%'
                 lw = 70
-                while extra:
-                    cat = f'{line} {extra[0]}'
-                    if not line.strip() or len(cat) <= lw:
+                for part in extra:
+                    cat = f'{line} {part}'
+                    if not line.strip() or len(cat) < lw:
                         line = cat
-                        _ = extra.pop(0)
-                        continue
                     else:
                         ui.print(line)
-                        line = f'    '
+                        line = f'    {part}'
             if line.strip():
                 ui.print(line)
 
@@ -407,7 +405,7 @@ class Search(StoredLog):
             ix = list(range(len(scores)))
             random.shuffle(ix)
             for i in ix:
-                yield scores[i], words[i], list(annotate(i))
+                yield scores[i], words[i], annotate(i)
 
         else:
             choices: list[tuple[float, int]] = [
@@ -417,7 +415,7 @@ class Search(StoredLog):
             heapq.heapify(choices)
             while choices:
                 score, i = heapq.heappop(choices)
-                yield -score, words[i], list(annotate(i))
+                yield -score, words[i], annotate(i)
 
     def find(self, pattern: re.Pattern[str]):
         with open(self.wordlist) as f:
