@@ -368,6 +368,9 @@ class Search(StoredLog):
         # compute word relevance, analogously to tf-idf search scoring
         wfilf = [
             sum(
+                # (len(word) - n)                 # co-wf -- co-frequency of letter per-word
+                # n                               # wf    --    frequency of letter per-word
+                # /lf[l]                          # ilf   -- inverse frequency over all possible words
                 (1.0 - n/len(word)) # up-score words with good letter diversity
                 *lf[l]/len(words)   # up-score words whose letters are diagnostic
                 for l, n in wf.items())/len(wf) #      ... average from all letters in each word
@@ -375,6 +378,7 @@ class Search(StoredLog):
 
         wfilf_weight = [
             round(sc * len(words))
+            # round((1.0 - sc) * len(words))
             for sc in wfilf]
 
         # novelty score, used to down-score words that repeat letters
