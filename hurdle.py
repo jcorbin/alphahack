@@ -9,6 +9,7 @@ import re
 from collections import Counter
 from collections.abc import Generator, Iterable
 from dataclasses import dataclass
+from functools import reduce
 from typing import cast, final, override
 
 from strkit import spliterate, PeekIter
@@ -371,9 +372,19 @@ class Search(StoredLog):
                 (1.0 - n/len(word)) * lf[l]/len(words) for l, n in wf.items()
             )/len(wf))
 
+        wfilf_weight = [
+            round(sc * 100)
+            for sc in wfilf]
+
+        # novelty score, used to down-score words that repeat letters
+        dupes = [
+            reduce(lambda a, b: a*b, (v**2 for v in wf.values()))
+            for wf in wfs
+        ]
+
         weight = [
-            round(100 * wf)
-            for i, wf in enumerate(wfilf)]
+            max(1, round(wgt / dup))
+            for wgt, dup in zip(wfilf_weight, dupes)]
 
         # pick a random score for each word
         scores: list[float] = [
@@ -384,26 +395,17 @@ class Search(StoredLog):
             if wgt > 1:
                 scores[i] = math.pow(scores[i], 1/wgt)
 
-        # novelty score, used to down-score words that repeat letters
-        novelty: list[float] = []
-        for word, wf in zip(words, wfs):
-            m = len(wf)/len(word)
-            nov = sum((v - m)**2 for v in wf.values())
-            novelty.append(nov)
-        for i, nov in enumerate(novelty):
-            if nov > 0:
-                nov += 0.01
-                scores[i] = math.pow(scores[i], nov)
-                novelty[i] = nov
-
         def annotate(i: int):
             wgt = weight[i]
             exp = 1/wgt if wgt > 1 else 0
             yield f'^= {exp:.3e}'
             yield f'weight = {wgt}'
 
-            nov = novelty[i]
-            yield f'^= {nov:.2f} (novelty)'
+            i_wfilf_wgt = wfilf_weight[i]
+            yield f'wf-ilf weight = {i_wfilf_wgt}'
+
+            dupe = dupes[i]
+            yield f'dupe divisor = {dupe}'
 
             i_wfilf = wfilf[i]
             yield f'wf-ilf score = {100*i_wfilf:.1f}%'
