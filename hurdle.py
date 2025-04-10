@@ -7,7 +7,7 @@ import math
 import random
 import re
 from collections import Counter
-from collections.abc import Generator, Iterable
+from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
 from typing import cast, final, override
 
@@ -313,15 +313,30 @@ class Search(StoredLog):
               show: int=10,
               shuffle: bool=False,
               verbose: bool=False):
-        have = 0
-        words: list[tuple[str, float, Iterable[str]]] = []
-        for i, (score, word, extra) in enumerate(self.select(ui, shuffle=shuffle)):
-            have += 1
+
+        # collect all possible words
+        pattern = self.pattern(ui)
+        words = set(self.find(re.compile(pattern)))
+        if self.debug:
+            ui.log(f'select pattern r"{pattern}" found {len(words)}')
+
+        # drop any words that intersect tried prior letters
+        skip_words = set(
+            word for word in words
+            if any(self.tried_letters(word)))
+        words.difference_update(skip_words)
+        if skip_words and self.debug > 1:
+            ui.log(f'skip ∩tried remain:{len(words)} dropped:{len(skip_words)} -- {sorted(skip_words)!r}')
+
+        words = sorted(words)
+
+        choices: list[tuple[str, float, Iterable[str]]] = []
+        for i, (score, word, extra) in enumerate(self.select(ui, words, shuffle=shuffle)):
             if not show or i < show:
-                words.append((word, score, extra))
+                choices.append((word, score, extra))
 
         bw = len(str(show)) + 1
-        for n, (word, score, extra) in enumerate(words, 1):
+        for n, (word, score, extra) in enumerate(choices, 1):
             bullet = f'{n}.'
             line = f'{bullet:{bw}} {word}'
             if verbose:
@@ -336,8 +351,8 @@ class Search(StoredLog):
             if line.strip():
                 ui.print(line)
 
-        if show and have > show:
-            ui.print(f'* ... showing {show} of {have}')
+        if show and len(words) > show:
+            ui.print(f'* ... showing {show} of {len(words)} possible')
 
     def tried_letters(self, word: str):
         return(
@@ -346,19 +361,7 @@ class Search(StoredLog):
             if let in self.may_letters
             if any(prior[i] == let for prior in self.tried))
 
-    def select(self, ui: PromptUI, shuffle: bool=False):
-        # collect all possible words
-        words: list[str] = []
-        pattern = self.pattern(ui)
-        if self.debug:
-            ui.log(f'select pattern r"{pattern}"')
-        for word in self.find(re.compile(pattern)):
-            if any(self.tried_letters(word)):
-                if self.debug > 1:
-                    ui.log(f'skip tried "{word}"')
-                continue
-            words.append(word)
-
+    def select(self, _ui: PromptUI, words: Sequence[str], shuffle: bool=False):
         # pick a random score for each word
         scores: list[float] = [
             random.random() * 0.50 + 0.25
