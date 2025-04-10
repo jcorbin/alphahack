@@ -210,7 +210,7 @@ class Search(StoredLog):
             match = tokens.have(r'(\*+)(\d+)?')
             if match:
                 guess = int(match.group(2)) if match.group(2) else 0 if len(match.group(1)) > 1 else 10
-                return self.guess(ui, show=guess)
+                return self.guess(ui, show_n=guess)
 
             if tokens.have(r'fail'):
                 return self.finish
@@ -318,9 +318,13 @@ class Search(StoredLog):
 
         return '|'.join(alts())
 
-    def guess(self, ui: PromptUI, show: int=10):
+    def guess(self, ui: PromptUI, show_n: int=10):
         shuffle = False
         verbose = False
+        show_top = 0
+        show_bot = 0
+        rng_band = 0.5
+        any_tb = False
 
         while ui.tokens.peek():
             if ui.tokens.have(r'-v'):
@@ -331,9 +335,39 @@ class Search(StoredLog):
                 shuffle = True
                 continue
 
+            if ui.tokens.have(r'-j(itter)?'):
+                n = ui.tokens.have(r'\d+(?:\.\d+)?', lambda match: float(match[0]))
+                if n is not None:
+                    if n < 0:
+                        rng_band = 0
+                        ui.print('! clamped -jitter value to 0')
+                    elif n > 1:
+                        rng_band = 1
+                        ui.print('! clamped -jitter value to 1')
+                    else:
+                        rng_band = n
+                else:
+                    ui.print('! -jitter expected value')
+                continue
+
+            match = ui.tokens.have(r'-([tbTB])(\d+)?')
+            if match:
+                n = (
+                    int(match[2]) if match[2]
+                    else ui.tokens.have(r'\d+', lambda match: int(match[0])) or show_n)
+                if match[1].lower() == 'b':
+                    show_bot = n
+                else:
+                    show_top = n
+                any_tb = True
+                continue
+
             arg = ui.tokens.take()
             ui.print(f'! invalid * arg {arg!r}')
             return
+
+        if not any_tb:
+            show_top = show_n
 
         # collect all possible words
         pattern = self.pattern(ui)
@@ -350,19 +384,11 @@ class Search(StoredLog):
             ui.log(f'skip ∩tried remain:{len(words)} dropped:{len(skip_words)} -- {sorted(skip_words)!r}')
 
         words = sorted(words)
-        ix = list(range(len(words)))
 
         scores = None
         explain_score = None
-        if verbose or show:
-            scores, explain_score = self.select(ui, words)
-
-        if shuffle:
-            random.shuffle(ix)
-            if show:
-                ix = ix[:show]
-        elif show and scores is not None:
-            ix = list(top(show, scores))
+        if verbose:
+            scores, explain_score = self.select(ui, words, rng_band=rng_band)
 
         def explain(i: int) -> Generator[str]:
             if scores is not None:
@@ -372,9 +398,10 @@ class Search(StoredLog):
                 yield from explain_score(i)
 
         bw = len(str(len(words))) + 1
-        for i in ix:
-            n = i + 1
+
+        def disp(i: int, n: int|None = None):
             word = words[i]
+            if n is None: n = i + 1
             bullet = f'{n}.'
             line = f'{bullet:{bw}} {word}'
             if verbose:
@@ -384,13 +411,51 @@ class Search(StoredLog):
                     if not line.strip() or len(cat) < lw:
                         line = cat
                     else:
-                        ui.print(line)
+                        yield line
                         line = f'    {part}'
             if line.strip():
+                yield line
+
+        def show(i: int, n: int|None = None):
+            for line in disp(i, n):
                 ui.print(line)
 
-        if show and len(words) > show:
-            ui.print(f'* ... showing {show} of {len(words)} possible')
+        def run():
+            ix = range(len(words))
+
+            if shuffle:
+                ix = list(ix)
+                random.shuffle(ix)
+
+            if shuffle:
+                n = show_top + show_bot
+                if n and len(words) > n:
+                    ix = ix[:n]
+                    for i in ix: show(i)
+                    return f'showing random {n}'
+                for i in ix: show(i)
+                return 'showing all shuffled'
+
+            if show_top or show_bot:
+                nonlocal scores, explain_score
+                if scores is None:
+                    scores, explain_score = self.select(ui, words)
+                desc: list[str] = []
+                if show_top:
+                    for i in top(show_top, scores): show(i)
+                    if len(words) > show_top:
+                        desc.append(f'top {show_top}')
+                if show_bot:
+                    for i in top(show_bot, [-score for score in scores]): show(i)
+                    if len(words) > show_bot:
+                        desc.append(f'bottom {show_bot}')
+                return f'showing {" and ".join(desc)}'
+
+            for i in ix: show(i)
+            return 'showing all'
+
+        desc = run()
+        ui.print(f'... {desc} of {len(words)} possible words')
 
     def tried_letters(self, word: str):
         return(
@@ -399,10 +464,13 @@ class Search(StoredLog):
             if let in self.may_letters
             if any(prior[i] == let for prior in self.tried))
 
-    def select(self, _ui: PromptUI, words: Sequence[str]):
+    def select(self, _ui: PromptUI, words: Sequence[str], rng_band: float = 0.5):
+        rng_band = max(0, min(1, rng_band))
+        rng_lo = rng_band/2
+
         # pick a random score for each word
         scores: list[float] = [
-            random.random() * 0.50 + 0.25
+            rng_lo + random.random() * rng_band
             for _ in words]
 
         # letter frequency stats
