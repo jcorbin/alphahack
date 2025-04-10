@@ -323,6 +323,7 @@ class Search(StoredLog):
         verbose = False
         show_top = 0
         show_bot = 0
+        rng_band = 0.5
         any_tb = False
 
         while ui.tokens.peek():
@@ -332,6 +333,21 @@ class Search(StoredLog):
 
             if ui.tokens.have(r'-r(and|ng)?'):
                 shuffle = True
+                continue
+
+            if ui.tokens.have(r'-j(itter)?'):
+                n = ui.tokens.have(r'\d+(?:\.\d+)?', lambda match: float(match[0]))
+                if n is not None:
+                    if n < 0:
+                        rng_band = 0
+                        ui.print('! clamped -jitter value to 0')
+                    elif n > 1:
+                        rng_band = 1
+                        ui.print('! clamped -jitter value to 1')
+                    else:
+                        rng_band = n
+                else:
+                    ui.print('! -jitter expected value')
                 continue
 
             match = ui.tokens.have(r'-([tbTB])(\d+)?')
@@ -372,7 +388,7 @@ class Search(StoredLog):
         scores = None
         explain_score = None
         if verbose:
-            scores, explain_score = self.select(ui, words)
+            scores, explain_score = self.select(ui, words, rng_band=rng_band)
 
         def explain(i: int) -> Generator[str]:
             if scores is not None:
@@ -445,10 +461,13 @@ class Search(StoredLog):
             if let in self.may_letters
             if any(prior[i] == let for prior in self.tried))
 
-    def select(self, _ui: PromptUI, words: Sequence[str]):
+    def select(self, _ui: PromptUI, words: Sequence[str], rng_band: float = 0.5):
+        rng_band = max(0, min(1, rng_band))
+        rng_lo = rng_band/2
+
         # pick a random score for each word
         scores: list[float] = [
-            random.random() * 0.50 + 0.25
+            rng_lo + random.random() * rng_band
             for _ in words]
 
         # letter frequency stats
