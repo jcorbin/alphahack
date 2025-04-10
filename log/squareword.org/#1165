@@ -1,0 +1,120 @@
+T0.00016328000492649153 now: 2025-04-10T08:06:27EDT
+T0.0002015270001720637 site: squareword.org
+T9.88902139000129 🧩  ? #1165
+T9.889369486998476 puzzle_id: #1165
+T13.162879909003095 > *
+T13.249326110999391 questioning: ["rates", "#5 found:6353 hypo:11881376"]
+T16.683962824004993 rates ( #5 found:6353 hypo:11881376 ) ? 
+T17.82204462899972 rates ( #5 found:6353 hypo:11881376 ) > 
+T20.626661788999627 rates ( #5 found:6353 hypo:11881376 ) 1> ____s ~ as
+T20.627615546000015 word: 0 ____s
+T20.627642550003657 may: 0 a s
+T21.98651265600347 rates ( #5 found:6353 hypo:11881376 ) 2> 
+T24.58037716900435 rates ( #5 found:6353 hypo:11881376 ) 3> ~ aes
+T24.580933133001963 word: 2 _____
+T24.58096761500201 may: 2 a e s
+T26.091847137002333 rates ( #5 found:6353 hypo:11881376 ) 4> ~ e
+T26.092120482004248 word: 3 _____
+T26.092144959002326 may: 3 e
+T28.429645115000312 rates ( #5 found:6353 hypo:11881376 ) 5> ___e ~ rtes
+T28.429887687998416 word: 4 ___e_
+T28.429908602003707 may: 4 e r s t
+T28.42992888599838 question done
+T29.749042319999717 > * 5
+T29.890553869998257 questioning: ["trees", "#5 found:5 hypo:24"]
+T33.46573670900398 trees ( #5 found:5 hypo:24 ) ? 
+T34.43585381699813 trees ( #5 found:5 hypo:24 ) > 
+T43.75111157399806 trees ( #5 found:5 hypo:24 ) 1> 5 __ee
+T43.751314039000135 word: 4 __ee_
+T43.751332886000455 may: 4 r s t
+T43.751350701000774 question done
+T45.24149934700108 > * 5
+T45.29481544400187 questioning: ["steer", "#5 found:1 hypo:6"]
+T49.05636007599969 steer ( #5 found:1 hypo:6 ) ? 
+T49.26265753900225 steer ( #5 found:1 hypo:6 ) > 
+T51.18312816099933 steer ( #5 found:1 hypo:6 ) 1> s___s
+T51.18330820600386 word: 0 s___s
+T51.1833305830005 may: 0 a
+T55.04191355000512 steer ( #5 found:1 hypo:6 ) 2> 5 steer
+T55.042133554998145 word: 4 steer
+T55.042155659000855 may: 4 
+T55.04217590500048 question done
+T55.769315024001116 > *
+T56.0741993690026 questioning: ["snags", "#1 found:60 hypo:676"]
+T59.567427476002194 snags ( #1 found:60 hypo:676 ) ? 
+T60.05599968000024 snags ( #1 found:60 hypo:676 ) > 
+T62.32525716999953 snags ( #1 found:60 hypo:676 ) 1> s_a_s
+T62.32547489699937 word: 0 s_a_s
+T62.32549690000451 may: 0 
+T63.435238459001994 snags ( #1 found:60 hypo:676 ) 2> ~ ng
+T63.435461107001174 word: 1 _____
+T63.435482496002805 may: 1 g n
+T68.612225416 snags ( #1 found:60 hypo:676 ) 3> 4 ___g ~ e
+T68.61250428899803 word: 3 ___g_
+T68.61253094900167 may: 3 e
+T69.65310941500502 snags ( #1 found:60 hypo:676 ) 5> 
+T69.65321542799938 question done
+T78.23129246900498 > *
+T78.46226731400384 questioning: ["angst", "#2 found:5 hypo:35152"]
+T81.67487398900266 angst ( #2 found:5 hypo:35152 ) ? 
+T81.86648663600499 angst ( #2 found:5 hypo:35152 ) > 
+T85.17167365200294 angst ( #2 found:5 hypo:35152 ) 1> 
+T87.52395120900474 angst ( #2 found:5 hypo:35152 ) 2> __g 
+T87.5241973939992 word: 1 __g__
+T87.52422593200026 may: 1 n
+T89.55137158199796 angst ( #2 found:5 hypo:35152 ) 3> a
+T89.55161983200378 word: 2 a____
+T89.5516461080042 may: 2 e s
+T91.21716498200112 question done
+T92.45078108100279 > * 3
+T92.53504917800456 questioning: ["aside", "#3 found:1 hypo:1352"]
+T96.25004416500451 aside ( #3 found:1 hypo:1352 ) ? 
+T96.4644487100013 aside ( #3 found:1 hypo:1352 ) > 
+T97.57167558600486 aside ( #3 found:1 hypo:1352 ) 1> 3 aside
+T97.57192788900284 word: 2 aside
+T97.57195357399905 may: 2 
+T103.76539138200314 aside ( #3 found:1 hypo:1352 ) 4> ___ge ~ i
+T103.76562240900239 word: 3 ___ge
+T103.76564460399823 may: 3 i
+T106.65003448299831 aside ( #3 found:1 hypo:1352 ) 5> 2 ~ ni
+T106.65025659000094 word: 1 __g__
+T106.65030609600217 may: 1 i n
+T107.96465574800095 question done
+T111.15421118400263 > *
+T111.4284393390044 questioning: ["bilge", "#4 found:1 hypo:676"]
+T114.23656622900307 bilge ( #4 found:1 hypo:676 ) ? 
+T114.43767196000408 bilge ( #4 found:1 hypo:676 ) > 
+T115.46314565800276 bilge ( #4 found:1 hypo:676 ) 1> 4 bilge
+T115.46334583400312 word: 3 bilge
+T115.46337203599978 may: 3 
+T118.11569528400287 bilge ( #4 found:1 hypo:676 ) 5> 2 ~nil
+T118.11582067899872 word: 1 __g__
+T118.11583688400424 may: 1 i l n
+T118.9183929330029 question done
+T119.44279211600224 > *
+T119.83707554400462 questioning: ["ligan", "#2 found:1 hypo:156"]
+T123.56336678699881 ligan ( #2 found:1 hypo:156 ) ? 
+T123.74431193299824 ligan ( #2 found:1 hypo:156 ) > 
+T124.2605289819985 ligan ( #2 found:1 hypo:156 ) 1> 
+T126.8233833330014 ligan ( #2 found:1 hypo:156 ) 2> l_g_n ~ i
+T126.82357957299973 word: 1 l_g_n
+T126.82359854200331 may: 1 i
+T129.01779371099838 question done
+T129.57744600700244 > *
+T130.06954599500023 questioning: ["login", "#2 found:2 hypo:26"]
+T133.14368160899903 login ( #2 found:2 hypo:26 ) ? 
+T134.2890895160017 login ( #2 found:2 hypo:26 ) > 2 login
+T134.28923884899996 word: 1 login
+T134.28925386699848 may: 1 
+T135.03643100400222 question done
+T135.56335899500118 > *
+T135.89494071700028 questioning: ["spams", "#1 found:1 hypo:676"]
+T137.97204856300232 spams ( #1 found:1 hypo:676 ) ? 
+T138.4746386629995 spams ( #1 found:1 hypo:676 ) > 
+T139.3246357090029 spams ( #1 found:1 hypo:676 ) 1> spams
+T139.32490133999818 word: 0 spams
+T139.32493843200064 may: 0 
+T140.34417937500257 question done
+T143.20643569000094 Press <Enter> to 📋 or `>` for line prompt 
+T143.20974827399914 result: "squareword.org 1165: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1165"
+T143.21092512200266 <STOP>
