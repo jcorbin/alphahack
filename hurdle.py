@@ -568,7 +568,7 @@ class Result:
                 tooks = match.group(2)
                 limit = int(match.group(3))
                 took = limit if tooks == 'X' else int(tooks)
-                for i in range(took):
+                for _ in range(took):
                     row = next(lines, None)
                     if row is None:
                         raise ValueError(f'missing record row for round {len(rounds)+1}')
