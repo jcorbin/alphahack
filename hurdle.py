@@ -207,12 +207,10 @@ class Search(StoredLog):
             ui.print(f'Word: {" ".join(x.upper() if x else "_" for x in self.word)}')
 
         with ui.input(f'{len(self.words)+1}.{len(self.tried)+1}> ') as tokens:
-            match = tokens.have(r'(\*+)(~)?(\d+)?')
+            match = tokens.have(r'(\*+)(\d+)?')
             if match:
-                guess = int(match.group(3)) if match.group(3) else 0 if len(match.group(1)) > 1 else 10
-                shuffle = True if match.group(2) else False
-                verbose = True if tokens.have(r'-v') else False
-                return self.guess(ui, show=guess, shuffle=shuffle, verbose=verbose)
+                guess = int(match.group(2)) if match.group(2) else 0 if len(match.group(1)) > 1 else 10
+                return self.guess(ui, show=guess)
 
             if tokens.have(r'fail'):
                 return self.finish
@@ -320,10 +318,22 @@ class Search(StoredLog):
 
         return '|'.join(alts())
 
-    def guess(self, ui: PromptUI,
-              show: int=10,
-              shuffle: bool=False,
-              verbose: bool=False):
+    def guess(self, ui: PromptUI, show: int=10):
+        shuffle = False
+        verbose = False
+
+        while ui.tokens.peek():
+            if ui.tokens.have(r'-v'):
+                verbose = True
+                continue
+
+            if ui.tokens.have(r'-r(and|ng)?'):
+                shuffle = True
+                continue
+
+            arg = ui.tokens.take()
+            ui.print(f'! invalid * arg {arg!r}')
+            return
 
         # collect all possible words
         pattern = self.pattern(ui)
