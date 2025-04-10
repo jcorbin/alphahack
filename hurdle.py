@@ -210,7 +210,7 @@ class Search(StoredLog):
             match = tokens.have(r'(\*+)(\d+)?')
             if match:
                 guess = int(match.group(2)) if match.group(2) else 0 if len(match.group(1)) > 1 else 10
-                return self.guess(ui, show=guess)
+                return self.guess(ui, show_top=guess)
 
             if tokens.have(r'fail'):
                 return self.finish
@@ -318,7 +318,7 @@ class Search(StoredLog):
 
         return '|'.join(alts())
 
-    def guess(self, ui: PromptUI, show: int=10):
+    def guess(self, ui: PromptUI, show_top: int=10):
         shuffle = False
         verbose = False
 
@@ -350,19 +350,11 @@ class Search(StoredLog):
             ui.log(f'skip ∩tried remain:{len(words)} dropped:{len(skip_words)} -- {sorted(skip_words)!r}')
 
         words = sorted(words)
-        ix = list(range(len(words)))
 
         scores = None
         explain_score = None
-        if verbose or show:
+        if verbose:
             scores, explain_score = self.select(ui, words)
-
-        if shuffle:
-            random.shuffle(ix)
-            if show:
-                ix = ix[:show]
-        elif show and scores is not None:
-            ix = list(top(show, scores))
 
         def explain(i: int) -> Generator[str]:
             if scores is not None:
@@ -372,9 +364,10 @@ class Search(StoredLog):
                 yield from explain_score(i)
 
         bw = len(str(len(words))) + 1
-        for i in ix:
-            n = i + 1
+
+        def disp(i: int, n: int|None = None):
             word = words[i]
+            if n is None: n = i + 1
             bullet = f'{n}.'
             line = f'{bullet:{bw}} {word}'
             if verbose:
@@ -384,13 +377,33 @@ class Search(StoredLog):
                     if not line.strip() or len(cat) < lw:
                         line = cat
                     else:
-                        ui.print(line)
+                        yield line
                         line = f'    {part}'
             if line.strip():
+                yield line
+
+        def show(i: int, n: int|None = None):
+            for line in disp(i, n):
                 ui.print(line)
 
-        if show and len(words) > show:
-            ui.print(f'* ... showing {show} of {len(words)} possible')
+        if shuffle:
+            ix = list(range(len(words)))
+            random.shuffle(ix)
+            n = show_top
+            if n: ix = ix[:n]
+            for i in ix: show(i)
+            if len(words) > n:
+                ui.print(f'... showing {n} random words of {len(words)} possible')
+
+        elif show_top:
+            if scores is None:
+                scores, explain_score = self.select(ui, words)
+            for i in top(show_top, scores): show(i)
+            if len(words) > show_top:
+                ui.print(f'... {len(words) - show_top} other words possible')
+
+        else:
+            for i in range(len(words)): show(i)
 
     def tried_letters(self, word: str):
         return(
