@@ -3,12 +3,12 @@
 import argparse
 import heapq
 import json
-import math
 import random
 import re
 from collections import Counter
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
+from functools import reduce
 from typing import cast, final, override
 
 from strkit import spliterate, PeekIter
@@ -491,48 +491,53 @@ class Search(StoredLog):
         rng_band = max(0, min(1, rng_band))
         rng_lo = rng_band/2
 
-        # pick a random score for each word
-        scores: list[float] = [
-            rng_lo + random.random() * rng_band
-            for _ in words]
+        # letter frequency over all possible words
+        lf = Counter(l for word in words for l in word)
+        lf_norm = {l: c / len(words) for l, c in lf.items()}
 
-        # letter frequency stats
-        lf = Counter(l for word in words for l in set(word))
+        # letter frequency per-word
         wfs = [Counter(word) for word in words]
 
-        # compute word relevance, analogously to tf-idf search scoring
-        wfilf: list[float] = []
-        for word, wf in zip(words, wfs):
-            wfilf.append(sum(
-                (1.0 - n/len(word)) * lf[l]/len(words) for l, n in wf.items()
-            )/len(wf))
-        for i, wf in enumerate(wfilf):
-            scores[i] = math.pow(scores[i], 0.01 + 1/round(100 * wf))
+        # word average letter frequency
+        mean_lf = [
+            sum(lf_norm[l] for l in word)/len(word)
+            for word in words]
 
-        # novelty score, used to down-score words that repeat letters
-        novelty: list[float] = []
-        for word, wf in zip(words, wfs):
-            m = len(wf)/len(word)
-            nov = sum((v - m)**2 for v in wf.values())
-            novelty.append(nov)
-        for i, nov in enumerate(novelty):
-            if nov > 0:
-                nov += 0.01
-                scores[i] = math.pow(scores[i], nov)
-                novelty[i] = nov
+        # exponentially growing duplicate count
+        dupes = [
+            reduce(lambda a, b: a*b, (v**2 for v in wf.values()))
+            for wf in wfs
+        ]
+        novelty = [
+            1/dupe if dupe > 0 else 1
+            for dupe in dupes]
+
+        # weighted random score for each word
+        weights = [
+            max(1, round(len(words) * mlf * nov))
+            for mlf, nov in zip(mean_lf, novelty)]
+        scores = weights if rng_band == 0 else [
+            (rng_lo + random.random() * rng_band) ** (1/wgt)
+            for wgt in weights]
 
         def annotate(i: int):
-            i_wfilf = wfilf[i]
-            wgt = round(100 * i_wfilf)
-            exp = 0.01 + 1/wgt
-            yield f'^= {exp:.3f} (wf-ilf weight = {wgt})'
+            wgt = weights[i]
+            if rng_band != 0:
+                yield f'^= {1/wgt:.3e}'
+            nov = novelty[i]
+            if nov == 1:
+                yield f'weight = {wgt} =~ mean_lf:{100*mean_lf[i]:.1f}%'
+            else:
+                yield f'weight = {wgt} =~ mean_lf:{100*mean_lf[i]:.1f}% * nov:{100*nov:.1f}%'
+
+            yield f'mean_lf = avg( { " ".join(f"{l}:{lf_norm[l]}" for l in words[i]) } )'
 
             i_wf = wfs[i]
-            i_lf = { l: lf[l] for l in i_wf }
-            yield f'wf-ilf counts: {' '.join(f'{l.upper()}:{i_wf[l]}/{i_lf[l]}' for l in i_wf)}'
+            if nov != 1:
+                yield f'nov = 1/{dupes[i]} = prod-sq( { " ".join(f"{l}:{n}" for l, n in i_wf.items()) } )'
 
-            nov = novelty[i]
-            yield f'^= {nov:.2f} (novelty)'
+            i_lf = { l: lf[l] for l in i_wf }
+            yield f'wf/lf counts: {' '.join(f'{l.upper()}:{i_wf[l]}/{i_lf[l]}' for l in i_wf)}'
 
         return scores, annotate
 
