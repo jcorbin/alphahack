@@ -15,6 +15,17 @@ from strkit import spliterate, PeekIter
 from ui import PromptUI
 from store import StoredLog, git_txn
 
+def top(k: int, scores: Sequence[float]):
+    choices: list[tuple[float, int]] = []
+    for i, score in enumerate(scores):
+        if len(choices) < k:
+            heapq.heappush(choices, (score, i))
+        elif score > choices[0][0]:
+            _ = heapq.heappushpop(choices, (score, i))
+    while choices:
+        _, i = heapq.heappop(choices)
+        yield i
+
 def char_pairs(alpha: Iterable[str]):
     a, b = '', ''
     for c in sorted(alpha):
@@ -329,19 +340,36 @@ class Search(StoredLog):
             ui.log(f'skip ∩tried remain:{len(words)} dropped:{len(skip_words)} -- {sorted(skip_words)!r}')
 
         words = sorted(words)
+        ix = list(range(len(words)))
 
-        choices: list[tuple[str, float, Iterable[str]]] = []
-        for i, (score, word, extra) in enumerate(self.select(ui, words, shuffle=shuffle)):
-            if not show or i < show:
-                choices.append((word, score, extra))
+        scores = None
+        explain_score = None
+        if verbose or show:
+            scores, explain_score = self.select(ui, words)
 
-        bw = len(str(show)) + 1
-        for n, (word, score, extra) in enumerate(choices, 1):
+        if shuffle:
+            random.shuffle(ix)
+            if show:
+                ix = ix[:show]
+        elif show and scores is not None:
+            ix = list(top(show, scores))
+
+        def explain(i: int) -> Generator[str]:
+            if scores is not None:
+                score = scores[i]
+                yield f'{100*score:0.2f}%'
+            if explain_score is not None:
+                yield from explain_score(i)
+
+        bw = len(str(len(words))) + 1
+        for i in ix:
+            n = i + 1
+            word = words[i]
             bullet = f'{n}.'
             line = f'{bullet:{bw}} {word}'
             if verbose:
                 lw = 70
-                for part in extra:
+                for part in explain(i):
                     cat = f'{line} {part}'
                     if not line.strip() or len(cat) < lw:
                         line = cat
@@ -361,7 +389,7 @@ class Search(StoredLog):
             if let in self.may_letters
             if any(prior[i] == let for prior in self.tried))
 
-    def select(self, _ui: PromptUI, words: Sequence[str], shuffle: bool=False):
+    def select(self, _ui: PromptUI, words: Sequence[str]):
         # pick a random score for each word
         scores: list[float] = [
             random.random() * 0.50 + 0.25
@@ -405,21 +433,7 @@ class Search(StoredLog):
             nov = novelty[i]
             yield f'^= {nov:.2f} (novelty)'
 
-        if shuffle:
-            ix = list(range(len(scores)))
-            random.shuffle(ix)
-            for i in ix:
-                yield scores[i], words[i], annotate(i)
-
-        else:
-            choices: list[tuple[float, int]] = [
-                (-score, i)
-                for i, score in enumerate(scores)
-            ]
-            heapq.heapify(choices)
-            while choices:
-                score, i = heapq.heappop(choices)
-                yield -score, words[i], annotate(i)
+        return scores, annotate
 
     def find(self, pattern: re.Pattern[str]):
         with open(self.wordlist) as f:
