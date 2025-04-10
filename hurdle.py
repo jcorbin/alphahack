@@ -322,6 +322,7 @@ class Search(StoredLog):
         shuffle = False
         verbose = False
         show_top = 0
+        show_bot = 0
         any_tb = False
 
         while ui.tokens.peek():
@@ -333,12 +334,15 @@ class Search(StoredLog):
                 shuffle = True
                 continue
 
-            match = ui.tokens.have(r'-[tT](\d+)?')
+            match = ui.tokens.have(r'-([tbTB])(\d+)?')
             if match:
                 n = (
-                    int(match[1]) if match[1]
+                    int(match[2]) if match[2]
                     else ui.tokens.have(r'\d+', lambda match: int(match[0])) or show_n)
-                show_top = n
+                if match[1].lower() == 'b':
+                    show_bot = n
+                else:
+                    show_top = n
                 any_tb = True
                 continue
 
@@ -403,11 +407,19 @@ class Search(StoredLog):
         if shuffle:
             ix = list(range(len(words)))
             random.shuffle(ix)
-            n = show_top
+            n = show_top + show_bot
             if n: ix = ix[:n]
             for i in ix: show(i)
             if len(words) > n:
                 ui.print(f'... showing {n} random words of {len(words)} possible')
+
+        elif show_top and show_bot:
+            if scores is None:
+                scores, explain_score = self.select(ui, words)
+            for i in top(show_top, scores): show(i)
+            if len(words) > show_top + show_bot:
+                ui.print(f'... {len(words) - show_top - show_bot} other words possible')
+            for i in top(show_bot, [-score for score in scores]): show(i)
 
         elif show_top:
             if scores is None:
@@ -415,6 +427,13 @@ class Search(StoredLog):
             for i in top(show_top, scores): show(i)
             if len(words) > show_top:
                 ui.print(f'... {len(words) - show_top} other words possible')
+
+        elif show_bot:
+            if scores is None:
+                scores, explain_score = self.select(ui, words)
+            if len(words) > show_bot:
+                ui.print(f'... {len(words) - show_bot} other words possible')
+            for i in top(show_bot, [-score for score in scores]): show(i)
 
         else:
             for i in range(len(words)): show(i)
