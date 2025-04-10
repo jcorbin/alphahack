@@ -320,10 +320,11 @@ class Search(StoredLog):
             if not show or i < show:
                 words.append((word, score, extra))
 
+        bw = len(str(show)) + 1
         for n, (word, score, extra) in enumerate(words, 1):
-            line = f'{n}. {word}'
+            bullet = f'{n}.'
+            line = f'{bullet:{bw}} {word}'
             if verbose:
-                line = f'{line} {100*score:0.2f}%'
                 lw = 70
                 for part in extra:
                     cat = f'{line} {part}'
