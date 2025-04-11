@@ -325,6 +325,7 @@ class Search(StoredLog):
         show_bot = 0
         rng_band = 0.5
         any_tb = False
+        search: list[str] = []
 
         while ui.tokens.peek():
             if ui.tokens.have(r'-v'):
@@ -360,6 +361,11 @@ class Search(StoredLog):
                 else:
                     show_top = n
                 any_tb = True
+                continue
+
+            match = ui.tokens.have(r'/(.+)')
+            if match:
+                search.append(match[1])
                 continue
 
             arg = ui.tokens.take()
@@ -426,6 +432,23 @@ class Search(StoredLog):
             if shuffle:
                 ix = list(ix)
                 random.shuffle(ix)
+
+            if search:
+                n = show_top + show_bot
+                pats = [
+                    re.compile(res)
+                    for res in search]
+                k = 0
+                for i in ix:
+                    lines = tuple(disp(i))
+                    if any(pat.search(line)
+                           for line in lines
+                           for pat in pats):
+                        k += 1
+                        for line in lines:
+                            ui.print(line)
+                        if n and k >= n: break
+                return f'matched {k}'
 
             if shuffle:
                 n = show_top + show_bot
