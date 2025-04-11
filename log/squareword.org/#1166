@@ -1,0 +1,127 @@
+T0.0001697919942671433 now: 2025-04-11T10:57:57EDT
+T0.00021271199511829764 site: squareword.org
+T2.0932619749946753 🧩  ? #1166
+T2.0937754169863183 puzzle_id: #1166
+T6.161691228990094 > *
+T6.255174609992537 questioning: ["texas", "#5 found:8034 hypo:11881376"]
+T13.822571430995595 texas ( #5 found:8034 hypo:11881376 ) ? 
+T14.51589173899265 texas ( #5 found:8034 hypo:11881376 ) > 
+T15.951800585986348 texas ( #5 found:8034 hypo:11881376 ) 1> ~ as
+T15.95306149899261 word: 0 _____
+T15.953089534988976 may: 0 a s
+T16.712541200991836 texas ( #5 found:8034 hypo:11881376 ) 2> ~ ta
+T16.712761552989832 word: 1 _____
+T16.712783609997132 may: 1 a t
+T18.3971516439924 texas ( #5 found:8034 hypo:11881376 ) 3> _e
+T18.397418333988753 word: 2 _e___
+T18.397445989990956 may: 2 
+T24.46424705599202 texas ( #5 found:8034 hypo:11881376 ) 4> ____s ~ a
+T24.464426688995445 word: 3 ____s
+T24.464442937998683 may: 3 a
+T27.631394168987754 texas ( #5 found:8034 hypo:11881376 ) 5> te ~ eas
+T27.63161808998848 word: 4 te___
+T27.631640782987233 may: 4 a e s
+T27.631663982989267 question done
+T28.96623326400004 > /no x
+T28.966805147996638 nope: x
+T31.86363561899634 > * 5
+T32.08819232499809 questioning: ["tease", "#5 found:1 hypo:6"]
+T35.83601819499745 tease ( #5 found:1 hypo:6 ) ? 
+T36.56137953099096 tease ( #5 found:1 hypo:6 ) > 
+T40.27288581499306 tease ( #5 found:1 hypo:6 ) 1> __as
+T40.273084126994945 word: 0 __as_
+T40.273106121996534 may: 0 
+T41.99575538899808 tease ( #5 found:1 hypo:6 ) 2> 1 ~ s
+T41.995973101991694 word: 0 __as_
+T41.99599310499616 may: 0 s
+T49.75836113198602 tease ( #5 found:1 hypo:6 ) 2> 5 tease
+T49.75856679199205 word: 4 tease
+T49.75858409999637 may: 4 
+T49.75860296598694 question done
+T51.15633372099546 > *
+T51.4976245299913 questioning: ["frass", "#1 found:4 hypo:625"]
+T55.514913136998075 frass ( #1 found:4 hypo:625 ) ? 
+T55.792619255997124 frass ( #1 found:4 hypo:625 ) > 
+T63.19227430799219 frass ( #1 found:4 hypo:625 ) 1> 3 ~ r
+T63.19254474599438 word: 2 _e___
+T63.19257200199354 may: 2 r
+T67.1002436849958 question done
+T68.1261677149887 > /no f
+T68.12633872398874 nope: f x
+T68.66224536199297 > *
+T69.08782621899445 questioning: ["glass", "#1 found:4 hypo:576"]
+T73.40999986398674 glass ( #1 found:4 hypo:576 ) ? 
+T73.58840720499575 glass ( #1 found:4 hypo:576 ) > 
+T78.10626828399836 question done
+T78.94675894199463 > /no gl
+T78.94700040698808 nope: f g l x
+T79.66148799599614 > *
+T80.85479708499042 questioning: ["trass", "#1 found:7 hypo:484"]
+T82.77333937298681 question done
+T88.15634593198774 > * 4
+T88.38331280498824 questioning: ["rates", "#4 found:196 hypo:10648"]
+T92.80245415499667 rates ( #4 found:196 hypo:10648 ) ? 
+T92.99364633098594 rates ( #4 found:196 hypo:10648 ) > 
+T96.28842816699762 rates ( #4 found:196 hypo:10648 ) 1> 
+T97.32731475798937 rates ( #4 found:196 hypo:10648 ) 2> __t
+T97.32748102099868 word: 1 __t__
+T97.32749720399443 may: 1 a
+T102.47131037499639 rates ( #4 found:196 hypo:10648 ) 3> re ~ r
+T102.47152201998688 word: 2 re___
+T102.47154348999902 may: 2 r
+T105.99227613999392 question done
+T107.39773748299922 > * 3
+T107.61271480099822 questioning: ["reran", "#3 found:1 hypo:484"]
+T111.19448706399999 reran ( #3 found:1 hypo:484 ) ? 
+T111.37015508199693 reran ( #3 found:1 hypo:484 ) > 
+T119.7222403059859 reran ( #3 found:1 hypo:484 ) 1> 2 ~ ta
+T119.72244006699475 word: 1 __t__
+T119.7224613869912 may: 1 a t
+T123.99678566098737 reran ( #3 found:1 hypo:484 ) 3> rer_n
+T123.99697596298938 word: 2 rer_n
+T123.99699363998661 may: 2 
+T128.85874980399967 reran ( #3 found:1 hypo:484 ) 4> 
+T129.29686841199873 reran ( #3 found:1 hypo:484 ) 5> 
+T129.2969766779861 question done
+T129.90776324798935 > *
+T131.22897136298707 questioning: ["pitta", "#2 found:2 hypo:968"]
+T134.26724890498735 pitta ( #2 found:2 hypo:968 ) ? 
+T134.4607991889934 pitta ( #2 found:2 hypo:968 ) > 
+T136.00214709099964 pitta ( #2 found:2 hypo:968 ) 1> 2 pitta
+T136.00243696999678 word: 1 pitta
+T136.00250288899406 may: 1 
+T138.6079835089913 pitta ( #2 found:2 hypo:968 ) 3> 1 ~ sp
+T138.60819702298613 word: 0 __as_
+T138.6082168879948 may: 0 p s
+T141.5375882119988 pitta ( #2 found:2 hypo:968 ) 2> 4 ~ ai
+T141.53785473499738 word: 3 ____s
+T141.53789460299595 may: 3 a i
+T142.89585279198945 question done
+T143.69713355400017 > *
+T144.71675463899737 questioning: ["spasm", "#1 found:1 hypo:44"]
+T147.1868000789982 spasm ( #1 found:1 hypo:44 ) ? 
+T147.3857999789907 spasm ( #1 found:1 hypo:44 ) > 
+T148.71754812498693 spasm ( #1 found:1 hypo:44 ) 1> spasm
+T148.71772390899423 word: 0 spasm
+T148.71774307999294 may: 0 
+T152.69993486898602 question done
+T153.23136151899234 > *
+T154.0132978529873 questioning: ["acids", "#4 found:1 hypo:968"]
+T156.97310185398965 acids ( #4 found:1 hypo:968 ) ? 
+T157.2089546549978 acids ( #4 found:1 hypo:968 ) > 
+T161.37094073998742 acids ( #4 found:1 hypo:968 ) 1> 4 acids
+T161.371138107992 word: 3 acids
+T161.37115949799772 may: 3 
+T162.74823961599031 question done
+T163.35034419699514 > *
+T163.84415875699779 questioning: ["rerun", "#3 found:1 hypo:22"]
+T167.08082612299768 rerun ( #3 found:1 hypo:22 ) ? 
+T167.26863405799668 rerun ( #3 found:1 hypo:22 ) > 
+T170.33402232799563 rerun ( #3 found:1 hypo:22 ) 1> 3 rerun
+T170.3341874209873 word: 2 rerun
+T170.33421088199248 may: 2 
+T171.55428545699397 rerun ( #3 found:1 hypo:22 ) 4> 
+T172.6029372599878 question done
+T177.545760072986 Press <Enter> to 📋 or `>` for line prompt 
+T177.55026434799947 result: "squareword.org 1166: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1166"
+T177.55133004799427 <STOP>
