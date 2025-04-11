@@ -1,183 +1,188 @@
-# 2025-04-11
+# 2025-04-12
 
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1196 🥳 17 ⏱️ 0:07:29.480905
-- 🔗 squareword.org 🧩 #1166 🥳 10 ⏱️ 0:02:57.551330
-- 🔗 alphaguess.com 🧩 #626 🥳 14 ⏱️ 0:00:37.492417
-- 🔗 alfagok.diginaut.net 🧩 #160 🥳 16 ⏱️ 0:00:44.547663
-- 🔗 cemantle.certitudes.org 🧩 #1103 🥳 73 ⏱️ 0:04:20.611352
-- 🔗 cemantix.certitudes.org 🧩 #1136 🥳 563 ⏱️ 1:09:32.787185
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1197 🥳 17 ⏱️ 0:05:19.207553
+- 🔗 squareword.org 🧩 #1167 🥳 10 ⏱️ 0:03:09.310095
+- 🔗 alfagok.diginaut.net 🧩 #161 🥳 18 ⏱️ 0:00:57.380065
+- 🔗 alphaguess.com 🧩 #627 🥳 16 ⏱️ 0:00:33.523147
+- 🔗 cemantix.certitudes.org 🧩 #1137 🥳 528 ⏱️ 0:45:38.391394
+- 🔗 cemantle.certitudes.org 🧩 #1104 🥳 18 ⏱️ 0:01:18.895292
 
 - ❌
 - ✅
 - ⏳
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1196 🥳 17
-- ✅ squareword.org 🧩 #1166 🥳 10
-- ✅ alphaguess.com 🧩 #626 🥳 14
-- ✅ alfagok.diginaut.net 🧩 #160 🥳 16
-- ✅ cemantle.certitudes.org 🧩 #1103 🥳 73
-- ✅ cemantix.certitudes.org 🧩 #1136 🥳 563
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1197 🥳 17
+- ✅ squareword.org 🧩 #1167 🥳 10
+- ✅ alfagok.diginaut.net 🧩 #161 🥳 18
+- ✅ alphaguess.com 🧩 #627 🥳 16
+- ✅ cemantix.certitudes.org 🧩 #1137 🥳 528
+- ✅ cemantle.certitudes.org 🧩 #1104 🥳 18
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$Te3121Dui0gO7CZ6heSRC6SdQNS5TjWd390TtH8VEQE?via=aelf.land&via=matrix.org
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$L290CFEfQ6M7jWgRO3Z7kZL7oBHsuzr4Kg9KbSt9-Qk?via=aelf.land&via=matrix.org
 
-# squareword.org 🧩 #1166 🥳 10 ⏱️ 0:02:57.551330
+# squareword.org 🧩 #1167 🥳 10 ⏱️ 0:03:09.310095
 
 📜 1 sessions
 
 Guesses:
+1. favus
+2. aloud
 
 Score Heatmap:
-    🟨 🟨 🟩 🟩 🟨
-    🟨 🟨 🟩 🟨 🟨
-    🟩 🟩 🟨 🟨 🟨
-    🟨 🟨 🟨 🟨 🟩
+    🟨 🟩 🟩 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
+    🟨 🟨 🟩 🟨 🟩
+    🟨 🟨 🟨 🟨 🟨
+    🟨 🟨 🟨 🟨 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    S P A S M
-    P I T T A
-    R E R U N
-    A C I D S
-    T E A S E
+    C L A M P
+    A U D I O
+    G N O M E
+    E G R E T
+    D E E D S
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1196 🥳 17 ⏱️ 0:07:29.480905
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1197 🥳 17 ⏱️ 0:05:19.207553
 
-📜 2 sessions
+📜 1 sessions
 💰 score: 9900
 
+    3/6
+    > N E A R S
+      ⬜🟨⬜🟩🟨
+    > S H O R E
+      🟩🟩⬜🟩🟩
+    > S H I R E
+      🟩🟩🟩🟩🟩
     5/6
-    > A R I S E
-      🟨⬜⬜⬜⬜
-    > B A C O N
-      ⬜🟩⬜⬜⬜
-    > L A T C H
-      ⬜🟩🟨⬜⬜
-    > G A U N T
-      🟩🟩🟨⬜🟩
-    > G A M U T
+    > N A K E D
+      ⬜⬜⬜⬜🟨
+    > O F T E N
+      🟨⬜⬜🟩⬜
+    > E L V E N
+      ⬜⬜⬜🟩🟩
+    > Q U E E N
+      🟨⬜⬜🟩🟩
+    > P I L O T
+      🟩🟩🟩🟩🟩
+    4/6
+    > B A D L Y
+      ⬜⬜⬜⬜⬜
+    > B R A W L
+      ⬜⬜🟨⬜⬜
+    > N O I S Y
+      🟩🟨⬜🟨⬜
+    > N O O S E
       🟩🟩🟩🟩🟩
     3/6
-    > H I N T S
-      ⬜⬜⬜⬜🟨
-    > S T O N E
-      ⬜⬜🟨🟨🟨
-    > S W U N G
+    > Q U A R T
+      ⬜⬜⬜⬜⬜
+    > Q U A R K
+      🟩🟩⬜🟩⬜
       🟩🟩🟩🟩🟩
-    4/6
-    > S H I N Y
-      🟩⬜⬜🟩⬜
-    > S L I N K
-      🟩⬜⬜🟩⬜
-    > T R I A L
-      🟩⬜🟩🟩⬜
-    > W H I L E
-      🟩🟩🟩🟩🟩
-    4/6
-    > C H I L D
-      ⬜🟨🟩⬜⬜
-    > W A G E R
-      ⬜⬜🟩⬜🟨
-      ⬜🟩🟩🟩⬜
-      🟩🟩🟩🟩🟩
-    Final 1/2
+    Final 2/2
+      🟩🟩🟩🟩⬜
       🟩🟩🟩🟩🟩
 
-# alfagok.diginaut.net 🧩 #160 🥳 16 ⏱️ 0:00:44.547663
+# alfagok.diginaut.net 🧩 #161 🥳 18 ⏱️ 0:00:57.380065
+
+🤔 18 attempts
+📜 1 sessions
+
+    @        [     0] &-teken         
+    @+1      [     1] &-tekens        
+    @+2      [     2] -cijferig       
+    @+3      [     3] -e-mail         
+    @+12485  [ 12485] afstand         q4  ? after
+    @+18742  [ 18742] antroposofische q5  ? after
+    @+20271  [ 20271] archief         q7  ? after
+    @+21048  [ 21048] arrogant        q8  ? after
+    @+21384  [ 21384] asbest          q9  ? after
+    @+21562  [ 21562] asiel           q10 ? after
+    @+21699  [ 21699] asman           q13 ? after
+    @+21711  [ 21711] asparagussen    q16 ? after
+    @+21715  [ 21715] aspect          q17 ? it
+    @+21715  [ 21715] aspect          done. it
+    @+21722  [ 21722] asperge         q15 ? before
+    @+21764  [ 21764] aspirant        q14 ? before
+    @+21834  [ 21834] assem           q6  ? before
+    @+24996  [ 24996] badkamer        q3  ? before
+    @+50025  [ 50025] bolle           q2  ? before
+    @+100059 [100059] examen          q1  ? before
+    @+200200 [200200] lijst           q0  ? before
+
+# alphaguess.com 🧩 #627 🥳 16 ⏱️ 0:00:33.523147
 
 🤔 16 attempts
 📜 1 sessions
 
-    @        [     0] &-teken   
-    @+1      [     1] &-tekens  
-    @+2      [     2] -cijferig 
-    @+3      [     3] -e-mail   
-    @+200202 [200202] lijst     q0  ? after
-    @+300288 [300288] schroef   q1  ? after
-    @+350267 [350267] vakantie  q2  ? after
-    @+375015 [375015] vrij      q3  ? after
-    @+387584 [387584] wind      q4  ? after
-    @+389174 [389174] woest     q7  ? after
-    @+389846 [389846] woon      q8  ? after
-    @+390154 [390154] woord     q9  ? after
-    @+390474 [390474] wort      q10 ? after
-    @+390477 [390477] wortel    q12 ? after
-    @+390553 [390553] wou       q14 ? after
-    @+390556 [390556] woud      q15 ? it
-    @+390556 [390556] woud      done. it
-    @+390626 [390626] wraak     q11 ? before
-    @+390793 [390793] wrik      q6  ? before
-    @+394002 [394002] zelfmoord q5  ? before
+    @        [     0] aa      
+    @+1      [     1] aah     
+    @+2      [     2] aahed   
+    @+3      [     3] aahing  
+    @+98247  [ 98247] mach    q0  ? after
+    @+109966 [109966] ne      q3  ? after
+    @+111516 [111516] no      q5  ? after
+    @+113879 [113879] nu      q6  ? after
+    @+115046 [115046] od      q7  ? after
+    @+115711 [115711] on      q8  ? after
+    @+115974 [115974] ope     q9  ? after
+    @+116172 [116172] oppress q10 ? after
+    @+116217 [116217] opt     q11 ? after
+    @+116300 [116300] or      q12 ? after
+    @+116314 [116314] oral    q14 ? after
+    @+116324 [116324] orange  q15 ? it
+    @+116324 [116324] orange  done. it
+    @+116341 [116341] orate   q13 ? before
+    @+116385 [116385] orchard q4  ? before
+    @+122812 [122812] parr    q2  ? before
+    @+147410 [147410] rhumb   q1  ? before
 
-# alphaguess.com 🧩 #626 🥳 14 ⏱️ 0:00:37.492417
+# cemantix.certitudes.org 🧩 #1137 🥳 528 ⏱️ 0:45:38.391394
 
-🤔 14 attempts
+🤔 529 attempts
 📜 1 sessions
+🫧 15 chat sessions
+⁉️ 79 chat prompts
+🤖 79 gemma2:latest replies
+🔥   3 🥵  16 😎  57 🥶 267 🧊 185
 
-    @        [     0] aa         
-    @+1      [     1] aah        
-    @+2      [     2] aahed      
-    @+3      [     3] aahing     
-    @+98247  [ 98247] mach       q0  ? after
-    @+122812 [122812] parr       q2  ? after
-    @+135102 [135102] proper     q3  ? after
-    @+140551 [140551] rec        q4  ? after
-    @+142248 [142248] ref        q6  ? after
-    @+143083 [143083] rei        q7  ? after
-    @+143529 [143529] relapse    q8  ? after
-    @+143754 [143754] reload     q9  ? after
-    @+143858 [143858] remark     q10 ? after
-    @+143917 [143917] remediless q11 ? after
-    @+143927 [143927] remember   q13 ? it
-    @+143927 [143927] remember   done. it
-    @+143947 [143947] remet      q12 ? before
-    @+143976 [143976] reminisce  q5  ? before
-    @+147410 [147410] rhumb      q1  ? before
+      $1 #529   ~1 gagnant          100.00°C 🥳 1000‰
+      $2 #367  ~48 finaliste         50.68°C 🔥  997‰
+      $3 #434  ~25 vainqueur         49.64°C 🔥  996‰
+      $4 #432  ~27 tirage            46.81°C 🔥  995‰
+      $5 #358  ~53 concours          40.47°C 🥵  987‰
+      $6 #318  ~61 récompense        37.77°C 🥵  978‰
+      $7 #433  ~26 tournoi           36.54°C 🥵  974‰
+      $8 #442  ~21 chance            36.15°C 🥵  972‰
+      $9 #368  ~47 jury              35.86°C 🥵  971‰
+     $10 #407  ~33 participant       35.54°C 🥵  969‰
+     $11 #520   ~5 loto              35.32°C 🥵  968‰
+     $21 #462  ~18 surprise          24.32°C 😎  857‰
+     $78 #221      départ            13.82°C 🥶
+    $345 #105      paix              -0.02°C 🧊
 
-# cemantix.certitudes.org 🧩 #1136 🥳 563 ⏱️ 1:09:32.787185
+# cemantle.certitudes.org 🧩 #1104 🥳 18 ⏱️ 0:01:18.895292
 
-🤔 564 attempts
-📜 2 sessions
-🫧 22 chat sessions
-⁉️ 126 chat prompts
-🤖 126 gemma2:latest replies
-🔥   3 🥵  21 😎 118 🥶 366 🧊  55
-
-      $1 #564   ~1 partisan           100.00°C 🥳 1000‰
-      $2 #391  ~41 nationaliste        60.43°C 🔥  997‰
-      $3  #53 ~140 opposition          59.67°C 🔥  996‰
-      $4 #238  ~89 parti               59.22°C 🔥  995‰
-      $5 #224  ~95 politique           52.38°C 🥵  987‰
-      $6 #393  ~40 républicain         51.97°C 🥵  986‰
-      $7 #394  ~39 socialiste          51.37°C 🥵  984‰
-      $8 #532  ~10 souverainiste       50.55°C 🥵  981‰
-      $9 #444  ~25 politicien          49.99°C 🥵  978‰
-     $10 #560   ~4 démocratique        48.54°C 🥵  967‰
-     $11 #334  ~63 militant            48.50°C 🥵  965‰
-     $26 #375  ~46 communiste          44.65°C 😎  899‰
-    $144 #204      législatif          31.48°C 🥶
-    $510 #125      mystère             -0.13°C 🧊
-
-# cemantle.certitudes.org 🧩 #1103 🥳 73 ⏱️ 0:04:20.611352
-
-🤔 74 attempts
+🤔 19 attempts
 📜 1 sessions
-🫧 3 chat sessions
-⁉️ 12 chat prompts
-🤖 12 gemma2:latest replies
-🔥  2 🥵  2 😎  7 🥶 52 🧊 10
+🫧 2 chat sessions
+⁉️ 5 chat prompts
+🤖 5 gemma2:latest replies
+🥵  2 😎  4 🥶 12
 
-     $1 #74  ~1 reinforce      100.00°C 🥳 1000‰
-     $2 #63  ~6 bolster         62.76°C 🔥  995‰
-     $3 #58  ~8 fortify         57.61°C 🔥  991‰
-     $4 #68  ~3 enhance         56.53°C 🥵  988‰
-     $5 #66  ~4 augment         51.17°C 🥵  979‰
-     $6 #52 ~12 safeguard       36.95°C 😎  849‰
-     $7 #60  ~7 insulate        34.67°C 😎  799‰
-     $8 #54 ~10 protect         33.45°C 😎  747‰
-     $9 #72  ~2 mend            30.12°C 😎  585‰
-    $10 #53 ~11 defend          27.66°C 😎  384‰
-    $11 #55  ~9 secure          26.52°C 😎  273‰
-    $12 #64  ~5 conceal         25.59°C 😎  167‰
-    $13 #70     hide            22.42°C 🥶
-    $65 #50     pin             -0.05°C 🧊
+     $1 #19  ~1 delight        100.00°C 🥳 1000‰
+     $2 #11  ~6 amusement       46.20°C 🥵  965‰
+     $3 #12  ~5 enjoyment       44.94°C 🥵  959‰
+     $4  #7  ~7 laughter        39.76°C 😎  899‰
+     $5 #16  ~3 celebration     35.65°C 😎  775‰
+     $6 #17  ~2 bliss           32.75°C 😎  646‰
+     $7 #14  ~4 fun             31.49°C 😎  557‰
+     $8 #18     convivial       24.50°C 🥶
+     $9  #4     feather         22.66°C 🥶
+    $10  #9     symphony        18.08°C 🥶
+    $11 #13     entertainment   17.28°C 🥶
+    $12  #1     banana          10.97°C 🥶
+    $13  #5     galaxy          10.27°C 🥶
+    $14  #2     cactus           8.58°C 🥶
