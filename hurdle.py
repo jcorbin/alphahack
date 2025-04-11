@@ -512,7 +512,7 @@ class Search(StoredLog):
 
         # exponentially growing duplicate count
         dupes = [
-            reduce(lambda a, b: a*b, (v**2 for v in wf.values()))
+            reduce(lambda a, b: a*b, wf.values())
             for wf in wfs
         ]
         novelty = [
@@ -541,7 +541,7 @@ class Search(StoredLog):
 
             i_wf = wfs[i]
             if nov != 1:
-                yield f'nov = 1/{dupes[i]} = prod-sq( { " ".join(f"{l}:{n}" for l, n in i_wf.items()) } )'
+                yield f'nov = 1/{dupes[i]} = prod( { " ".join(f"{l}:{n}" for l, n in i_wf.items()) } )'
 
             i_lf = { l: lf[l] for l in i_wf }
             yield f'wf/lf counts: {' '.join(f'{l.upper()}:{i_wf[l]}/{i_lf[l]}' for l in i_wf)}'
