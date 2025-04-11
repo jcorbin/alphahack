@@ -420,39 +420,42 @@ class Search(StoredLog):
             for line in disp(i, n):
                 ui.print(line)
 
-        if shuffle:
-            ix = list(range(len(words)))
-            random.shuffle(ix)
-            n = show_top + show_bot
-            if n: ix = ix[:n]
+        def run():
+            ix = range(len(words))
+
+            if shuffle:
+                ix = list(ix)
+                random.shuffle(ix)
+
+            if shuffle:
+                n = show_top + show_bot
+                if n and len(words) > n:
+                    ix = ix[:n]
+                    for i in ix: show(i)
+                    return f'showing random {n}'
+                for i in ix: show(i)
+                return 'showing all shuffled'
+
+            if show_top or show_bot:
+                nonlocal scores, explain_score
+                if scores is None:
+                    scores, explain_score = self.select(ui, words)
+                desc: list[str] = []
+                if show_top:
+                    for i in top(show_top, scores): show(i)
+                    if len(words) > show_top:
+                        desc.append(f'top {show_top}')
+                if show_bot:
+                    for i in top(show_bot, [-score for score in scores]): show(i)
+                    if len(words) > show_bot:
+                        desc.append(f'bottom {show_bot}')
+                return f'showing {" and ".join(desc)}'
+
             for i in ix: show(i)
-            if len(words) > n:
-                ui.print(f'... showing {n} random words of {len(words)} possible')
+            return 'showing all'
 
-        elif show_top and show_bot:
-            if scores is None:
-                scores, explain_score = self.select(ui, words)
-            for i in top(show_top, scores): show(i)
-            if len(words) > show_top + show_bot:
-                ui.print(f'... {len(words) - show_top - show_bot} other words possible')
-            for i in top(show_bot, [-score for score in scores]): show(i)
-
-        elif show_top:
-            if scores is None:
-                scores, explain_score = self.select(ui, words)
-            for i in top(show_top, scores): show(i)
-            if len(words) > show_top:
-                ui.print(f'... {len(words) - show_top} other words possible')
-
-        elif show_bot:
-            if scores is None:
-                scores, explain_score = self.select(ui, words)
-            if len(words) > show_bot:
-                ui.print(f'... {len(words) - show_bot} other words possible')
-            for i in top(show_bot, [-score for score in scores]): show(i)
-
-        else:
-            for i in range(len(words)): show(i)
+        desc = run()
+        ui.print(f'... {desc} of {len(words)} possible words')
 
     def tried_letters(self, word: str):
         return(
