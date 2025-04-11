@@ -498,10 +498,17 @@ class Search(StoredLog):
         # letter frequency per-word
         wfs = [Counter(word) for word in words]
 
-        # word average letter frequency
-        mean_lf = [
-            sum(lf_norm[l] for l in word)/len(word)
+        # an ideally diagnostic letter occurs in half of possible words
+        diag_lets = [
+            tuple(
+                (l, 1.0 - abs(lf_norm[l] - 0.5))
+                for l in set(word)
+                if lf_norm[l] < 1 # ignore letters that occur in every word
+            )
             for word in words]
+        diag = [
+            reduce(lambda a, b: a*b, (d for _, d in dlts), 1)
+            for dlts in diag_lets]
 
         # exponentially growing duplicate count
         dupes = [
@@ -514,8 +521,8 @@ class Search(StoredLog):
 
         # weighted random score for each word
         weights = [
-            max(1, round(len(words) * mlf * nov))
-            for mlf, nov in zip(mean_lf, novelty)]
+            max(1, round(len(words) * sc * nov))
+            for sc, nov in zip(diag, novelty)]
         scores = weights if rng_band == 0 else [
             (rng_lo + random.random() * rng_band) ** (1/wgt)
             for wgt in weights]
@@ -526,11 +533,11 @@ class Search(StoredLog):
                 yield f'^= {1/wgt:.3e}'
             nov = novelty[i]
             if nov == 1:
-                yield f'weight = {wgt} =~ mean_lf:{100*mean_lf[i]:.1f}%'
+                yield f'weight = {wgt} =~ diag:{100*diag[i]:.1f}%'
             else:
-                yield f'weight = {wgt} =~ mean_lf:{100*mean_lf[i]:.1f}% * nov:{100*nov:.1f}%'
+                yield f'weight = {wgt} =~ diag:{100*diag[i]:.1f}% * nov:{100*nov:.1f}%'
 
-            yield f'mean_lf = avg( { " ".join(f"{l}:{lf_norm[l]}" for l in words[i]) } )'
+            yield f'diag = prod( { " ".join(f"{l}:{d:.2f}" for l, d in diag_lets[i]) } )'
 
             i_wf = wfs[i]
             if nov != 1:
