@@ -271,8 +271,8 @@ class Search(StoredLog):
         if row is not None:
             col_may: list[set[str]] = [set() for _ in range(self.size)]
             for col in range(self.size):
-                p, _ = self.pattern(col=col)
-                col_may[col].update(word[row] for word in self._find(re.compile(p)))
+                poss = self.possible(col=col)
+                col_may[col].update(word[row] for word in self._find(poss.pattern))
             for word in self._find(pattern):
                 if all(
                     word[col] in may
@@ -314,37 +314,16 @@ class Search(StoredLog):
 
     recent_sug: dict[str, int] = dict()
 
-    def select(self, ui: PromptUI, word_i: int|None = None) -> tuple[int, re.Pattern[str]]|None:
-        if word_i is not None:
-            p, _ = self.pattern(row=word_i)
-            pattern = re.compile(p)
-            return word_i, pattern
-
-        pattern: re.Pattern[str]|None = None
-        smallest = 0
-        for word_j in range(self.size):
-            if all(self.grid[k] for k in self.row_word_range(word_j)): continue
-            p, _ = self.pattern(row=word_j)
-            p = re.compile(p)
-            have = sum(1 for _ in self.find(ui, p, row=word_j))
-            if not have: continue
-            if not pattern or have < smallest:
-                word_i, pattern, smallest = word_j, p, have
-
-        if word_i is None: return None
-        if pattern is None: return None
-        return word_i, pattern
-
     def choose(self, ui: PromptUI, word_i: int|None = None):
         sel = self.select(ui, word_i)
         if not sel: return
-        word_i, pattern = sel
+        word_i, poss = sel
 
         best, choice = 0.0, ''
         count = 0
         okay = set(self.okay_letters())
 
-        for word in self.find(ui, pattern, row=word_i):
+        for word in self.find(ui, poss.pattern, row=word_i):
             count += 1
 
             score = random.random()
@@ -372,53 +351,100 @@ class Search(StoredLog):
                 self.recent_sug[word] = 10
                 yield word_i, best, choice, count
 
-    @overload
-    def pattern(self, *, row: int) -> tuple[str, int]: pass
+    @final
+    class Possible:
+        alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
+        def __init__(self,
+                     word: Iterable[str],
+                     may: Iterable[str] = (),
+                     nope: Iterable[str] = ()):
+            self.word = tuple(word)
+            self.may = tuple(sorted(may))
+            self.nope = tuple(sorted(nope))
+
+            self.alpha = set(self.alphabet)
+            self.uni = '.'
+            if self.nope:
+                self.alpha.difference_update(self.nope)
+                self.uni = f'[{"".join(char_ranges(self.alpha))}]'
+
+            self.free = sum((1 for let in self.word if not let), 0)
+            if self.may:
+                self.free -= len(self.may)
+
+            self.space: int = len(self.alpha)**self.free
+            if self.may:
+                for n in range(len(self.may), 1, -1): self.space *= n
+
+        @property
+        def size(self):
+            return len(self.word)
+
+        @property
+        def pattern_str(self):
+            if self.free == self.size:
+                return self.uni * self.size
+
+            if not self.may:
+                return ''.join(
+                    self.uni if not let else let
+                    for let in self.word)
+
+            def alts():
+                from itertools import combinations, permutations
+                ix = [i for i in range(len(self.word)) if not self.word[i]]
+                for mix in combinations(ix, len(self.may)):
+                    parts = [self.uni if not let else let for let in self.word]
+                    for pmay in permutations(self.may):
+                        for j, i in enumerate(mix):
+                            parts[i] = pmay[j]
+                        yield ''.join(parts)
+
+            return '|'.join(alts())
+
+        @property
+        def pattern(self):
+            return re.compile(self.pattern_str)
 
     @overload
-    def pattern(self, *, col: int) -> tuple[str, int]: pass
+    def possible(self, *, row: int) -> Possible: pass
 
-    def pattern(self, *, row: int|None = None, col: int|None = None) -> tuple[str, int]:
+    @overload
+    def possible(self, *, col: int) -> Possible: pass
+
+    def possible(self, *, row: int|None = None, col: int|None = None) -> Possible:
         if row is not None:
-            word = [self.grid[k] for k in self.row_word_range(row)]
-            may = sorted(self.row_may[row])
+            # TODO reduce possible based on intersecting cols
+            return self.Possible(
+                (self.grid[k] for k in self.row_word_range(row)),
+                may = self.row_may[row],
+                nope = self.nope)
+
         elif col is not None:
-            word = [self.grid[k] for k in self.col_word_range(col)]
-            may = []
+            # TODO reduce possible based on intersecting rows
+            return self.Possible(
+                (self.grid[k] for k in self.col_word_range(col)),
+                nope = self.nope)
+
         else:
             raise RuntimeError('must provide either row or col')
 
-        alpha = set('abcdefghijklmnopqrstuvwxyz')
-        uni = '.'
-
-        # TODO reduce pattern based on other dimension
-
-        if self.nope:
-            alpha.difference_update(self.nope)
-            uni = f'[{"".join(char_ranges(alpha))}]'
-
-        free = sum((1 for let in word if not let), 0)
-        if may: free -= len(may)
-        space: int = len(alpha)**free
-        if may:
-            for n in range(len(may), 1, -1): space *= n
-
-        if not may:
-            if free == self.size:
-                return uni * self.size, space
-            return ''.join(uni if not let else let for let in word), space
-
-        def alts():
-            from itertools import combinations, permutations
-            ix = [i for i in range(len(word)) if not word[i]]
-            for mix in combinations(ix, len(may)):
-                parts = [uni if not let else let for let in word]
-                for pmay in permutations(may):
-                    for j, i in enumerate(mix):
-                        parts[i] = pmay[j]
-                    yield ''.join(parts)
-
-        return '|'.join(alts()), space
+    def select(self, ui: PromptUI, word_i: int|None = None) -> tuple[int, Possible]|None:
+        poss: Search.Possible|None = None
+        if word_i is None:
+            smallest = 0
+            for word_j in range(self.size):
+                if all(self.grid[k] for k in self.row_word_range(word_j)): continue
+                p = self.possible(row=word_j)
+                have = sum(1 for _ in self.find(ui, p.pattern, row=word_j))
+                if not have: continue
+                if not poss or have < smallest:
+                    word_i, poss, smallest = word_j, p, have
+            assert word_i is not None
+        if poss is None:
+            poss = self.possible(row=word_i)
+        return word_i, poss
 
     skip_show: bool = False
 
@@ -609,8 +635,8 @@ class Search(StoredLog):
         if not choice: return
         assert word_i is not None
 
-        _, uni_count = self.pattern(row=word_i)
-        return self.ask_question(ui, choice, f'#{word_i+1} found:{count} hypo:{uni_count}')
+        poss = self.possible(row=word_i)
+        return self.ask_question(ui, choice, f'#{word_i+1} found:{count} hypo:{poss.space}')
 
     def ask_question(self, ui: PromptUI, word: str, desc: str):
         word = word.lower()
