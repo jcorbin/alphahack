@@ -1,189 +1,183 @@
-# 2025-04-13
+# 2025-04-14
 
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1198 😦 19 ⏱️ 0:07:41.752372
-- 🔗 squareword.org 🧩 #1168 🥳 8 ⏱️ 0:01:51.189340
-- 🔗 alphaguess.com 🧩 #628 🥳 17 ⏱️ 0:00:45.685744
-- 🔗 alfagok.diginaut.net 🧩 #162 🥳 16 ⏱️ 0:00:37.477704
-- 🔗 cemantle.certitudes.org 🧩 #1105 🥳 80 ⏱️ 0:03:17.190927
-- 🔗 cemantix.certitudes.org 🧩 #1138 🥳 555 ⏱️ 1:07:41.193752
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1199 🥳 19 ⏱️ 0:05:28.685386
+- 🔗 squareword.org 🧩 #1169 🥳 17 ⏱️ 0:04:55.716822
+- 🔗 alphaguess.com 🧩 #629 🥳 15 ⏱️ 0:00:32.741577
+- 🔗 alfagok.diginaut.net 🧩 #163 🥳 9 ⏱️ 0:00:24.461296
+- 🔗 cemantle.certitudes.org 🧩 #1106 🥳 37 ⏱️ 0:02:37.467788
+- 🔗 cemantix.certitudes.org 🧩 #1139 🥳 75 ⏱️ 0:04:32.391957
 
 - ❌
 - ✅
 - ⏳
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1198 😦 19
-- ✅ squareword.org 🧩 #1168 🥳 8
-- ✅ alphaguess.com 🧩 #628 🥳 17
-- ✅ alfagok.diginaut.net 🧩 #162 🥳 16
-- ✅ cemantle.certitudes.org 🧩 #1105 🥳 80
-- ✅ cemantix.certitudes.org 🧩 #1138 🥳 555
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1199 🥳 19
+- ✅ squareword.org 🧩 #1169 🥳 17
+- ✅ alphaguess.com 🧩 #629 🥳 15
+- ✅ alfagok.diginaut.net 🧩 #163 🥳 9
+- ✅ cemantle.certitudes.org 🧩 #1106 🥳 37
+- ✅ cemantix.certitudes.org 🧩 #1139 🥳 75
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$nA9kVJ1pdxQF9aTP55_KKGJ_Ttl-nVF7dVYgvr80fgo?via=aelf.land&via=matrix.org
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$fpdtKs-QNSGNYNUMM1Ngwv-5RqtFfZCPpbkmkFKe1KI?via=aelf.land&via=matrix.org
 
-# squareword.org 🧩 #1168 🥳 8 ⏱️ 0:01:51.189340
+# squareword.org 🧩 #1169 🥳 17 ⏱️ 0:04:55.716822
 
-📜 1 sessions
+📜 2 sessions
 
 Guesses:
+1. noils
 
 Score Heatmap:
-    🟩 🟩 🟩 🟩 🟩
-    🟨 🟩 🟨 🟩 🟩
-    🟩 🟩 🟩 🟩 🟩
-    🟩 🟩 🟩 🟩 🟩
-    🟨 🟩 🟨 🟩 🟨
+    🟩 🟩 🟩 🟨 🟧
+    🟩 🟨 🟨 🟨 🟩
+    🟨 🟨 🟨 🟩 🟩
+    🟥 🟩 🟧 🟧 🟧
+    🟩 🟨 🟨 🟧 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    S C A R E
-    W A D E R
-    A M O U R
-    T E R S E
-    H O N E D
+    S E R I F
+    C R O R E
+    A R G O N
+    M O U N D
+    P R E Y S
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1198 😦 19 ⏱️ 0:07:41.752372
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1199 🥳 19 ⏱️ 0:05:28.685386
 
-📜 6 sessions
-💰 score: 3570
-
-    5/6
-    > B L I T Z
-      ⬜⬜⬜⬜⬜
-    > N U D E S
-      ⬜⬜⬜🟨🟨
-    > S C O R E
-      🟨⬜⬜⬜🟩
-    > P H A S E
-      ⬜⬜🟨🟩🟩
-    > M A S S E
-      🟩🟩🟩🟩🟩
-    5/6
-    > T U R B O
-      ⬜⬜⬜⬜⬜
-    > I C H O R
-      ⬜⬜🟨⬜🟨
-    > G L O R Y
-      ⬜⬜⬜🟨🟨
-    > P R O X Y
-      ⬜⬜🟩🟨🟩
-    > F R A M E
-      🟩🟩🟩🟩🟩
-    3/6
-    > B R U S H
-      ⬜🟩⬜⬜⬜
-    > R E A L M
-      ⬜🟩⬜⬜⬜
-    > D E C O R
-      🟩🟩🟩🟩🟩
-    6/6
-    > J E R K Y
-      ⬜🟨⬜⬜⬜
-    > G E N R E
-      🟨🟩⬜⬜⬜
-    > T W I R P
-      ⬜🟩⬜⬜🟨
-      ⬜🟩🟨⬜⬜
-      ⬜🟩⬜🟩⬜
-      🟨⬜🟨🟩🟨
-
-# alfagok.diginaut.net 🧩 #162 🥳 16 ⏱️ 0:00:37.477704
-
-🤔 16 attempts
 📜 2 sessions
+💰 score: 9700
 
-    @        [     0] &-teken        
-    @+1      [     1] &-tekens       
-    @+2      [     2] -cijferig      
-    @+3      [     3] -e-mail        
-    @+24996  [ 24996] badkamer       q4  ? after
-    @+31160  [ 31160] begeleiding    q6  ? after
-    @+32578  [ 32578] bejaarden      q8  ? after
-    @+33264  [ 33264] bel            q9  ? after
-    @+33326  [ 33326] belangen       q11 ? after
-    @+33387  [ 33387] belangregeling q12 ? after
-    @+33389  [ 33389] belangrijk     q15 ? it
-    @+33389  [ 33389] belangrijk     done. it
-    @+33400  [ 33400] belangstellen  q14 ? before
-    @+33414  [ 33414] belangwekkend  q13 ? before
-    @+33447  [ 33447] belasting      q10 ? before
-    @+34033  [ 34033] beleid         q7  ? before
-    @+37387  [ 37387] bescherm       q5  ? before
-    @+50025  [ 50025] bolle          q2  ? after
-    @+50025  [ 50025] bolle          q3  ? before
-    @+100059 [100059] examen         q1  ? before
-    @+200200 [200200] lijst          q0  ? before
+    3/6
+    > T O I L S
+      🟩⬜⬜⬜🟨
+    > T E A S E
+      🟩⬜🟨🟨⬜
+    > T A S T Y
+      🟩🟩🟩🟩🟩
+    4/6
+    > T R A I L
+      🟩🟨⬜⬜⬜
+    > T E A C H
+      🟩⬜🟩⬜⬜
+    > T H A N K
+      🟩⬜🟩⬜🟨
+    > O L I V E
+      🟩🟩🟩🟩🟩
+    5/6
+    > D R U M S
+      ⬜⬜⬜⬜⬜
+    > R U G B Y
+      ⬜⬜⬜⬜⬜
+    > C U R R Y
+      ⬜🟨🟨⬜⬜
+    > B R A I D
+      🟨🟩⬜⬜🟩
+    > L O S E R
+      🟩🟩🟩🟩🟩
+    5/6
+    > M O V E R
+      ⬜⬜🟨⬜⬜
+    > H O V E R
+      ⬜🟨⬜⬜⬜
+    > C O L I N
+      ⬜🟩⬜🟩🟩
+    > C O L O N
+      ⬜🟩🟩🟩🟩
+      🟩🟩🟩🟩🟩
+    Final 2/2
+      🟩🟩🟩⬜🟩
+      🟩🟩🟩🟩🟩
 
-# alphaguess.com 🧩 #628 🥳 17 ⏱️ 0:00:45.685744
+# alfagok.diginaut.net 🧩 #163 🥳 9 ⏱️ 0:00:24.461296
 
-🤔 17 attempts
+🤔 9 attempts
 📜 1 sessions
 
-    @        [     0] aa         
-    @+1      [     1] aah        
-    @+2      [     2] aahed      
-    @+3      [     3] aahing     
-    @+98247  [ 98247] mach       q0  ? after
-    @+147410 [147410] rhumb      q1  ? after
-    @+153354 [153354] sea        q4  ? after
-    @+154869 [154869] sequence   q6  ? after
-    @+155165 [155165] serve      q8  ? after
-    @+155235 [155235] sestertius q10 ? after
-    @+155265 [155265] sett       q11 ? after
-    @+155285 [155285] setulose   q12 ? after
-    @+155287 [155287] setup      q16 ? it
-    @+155287 [155287] setup      done. it
-    @+155288 [155288] setups     q15 ? before
-    @+155289 [155289] seven      q13 ? before
-    @+155304 [155304] sever      q9  ? before
-    @+155468 [155468] sha        q7  ? before
-    @+156390 [156390] ship       q5  ? before
-    @+159523 [159523] slop       q3  ? before
-    @+171676 [171676] ta         q2  ? before
+    @        [     0] &-teken    
+    @+1      [     1] &-tekens   
+    @+2      [     2] -cijferig  
+    @+3      [     3] -e-mail    
+    @+100059 [100059] examen     q1 ? after
+    @+149549 [149549] huis       q2 ? after
+    @+153720 [153720] in         q5 ? after
+    @+157903 [157903] inrichting q6 ? after
+    @+158798 [158798] instelling q8 ? it
+    @+158798 [158798] instelling done. it
+    @+159730 [159730] internet   q7 ? before
+    @+162104 [162104] izabel     q4 ? before
+    @+174659 [174659] kind       q3 ? before
+    @+200200 [200200] lijst      q0 ? before
 
-# cemantix.certitudes.org 🧩 #1138 🥳 555 ⏱️ 1:07:41.193752
+# alphaguess.com 🧩 #629 🥳 15 ⏱️ 0:00:32.741577
 
-🤔 556 attempts
+🤔 15 attempts
 📜 1 sessions
-🫧 21 chat sessions
-⁉️ 114 chat prompts
-🤖 114 gemma2:latest replies
-😱   1 🔥   3 🥵  16 😎  41 🥶 322 🧊 172
 
-      $1 #556   ~1 colonel          100.00°C 🥳 1000‰
-      $2 #225  ~48 commandant        72.39°C 😱  999‰
-      $3 #333  ~24 lieutenant        69.36°C 🔥  997‰
-      $4 #288  ~30 sergent           62.20°C 🔥  996‰
-      $5 #177  ~54 officier          59.73°C 🔥  995‰
-      $6 #286  ~31 capitaine         55.56°C 🔥  990‰
-      $7 #257  ~41 régiment          53.79°C 🥵  987‰
-      $8 #322  ~25 bataillon         52.04°C 🥵  983‰
-      $9 #252  ~43 escadron          52.03°C 🥵  982‰
-     $10 #147  ~58 armée             51.37°C 🥵  979‰
-     $11 #173  ~55 soldat            48.86°C 🥵  975‰
-     $22 #253  ~42 légion            38.70°C 😎  888‰
-     $63 #166      écuyer            24.11°C 🥶
-    $385 #417      supervision       -0.07°C 🧊
+    @        [     0] aa       
+    @+1      [     1] aah      
+    @+2      [     2] aahed    
+    @+3      [     3] aahing   
+    @+98247  [ 98247] mach     q0  ? after
+    @+147411 [147411] rhumb    q1  ? after
+    @+171677 [171677] ta       q2  ? after
+    @+182046 [182046] un       q3  ? after
+    @+189309 [189309] vicar    q4  ? after
+    @+191116 [191116] wall     q6  ? after
+    @+192017 [192017] wear     q7  ? after
+    @+192236 [192236] weep     q9  ? after
+    @+192260 [192260] weevil   q12 ? after
+    @+192273 [192273] weigelas q13 ? after
+    @+192276 [192276] weigh    q14 ? it
+    @+192276 [192276] weigh    done. it
+    @+192285 [192285] weight   q11 ? before
+    @+192346 [192346] weld     q10 ? before
+    @+192472 [192472] western  q8  ? before
+    @+192942 [192942] whish    q5  ? before
 
-# cemantle.certitudes.org 🧩 #1105 🥳 80 ⏱️ 0:03:17.190927
+# cemantix.certitudes.org 🧩 #1139 🥳 75 ⏱️ 0:04:32.391957
 
-🤔 81 attempts
+🤔 76 attempts
 📜 1 sessions
 🫧 3 chat sessions
-⁉️ 10 chat prompts
-🤖 10 gemma2:latest replies
-🔥  1 🥵  2 😎  7 🥶 64 🧊  6
+⁉️ 9 chat prompts
+🤖 9 gemma2:latest replies
+🥵  6 😎 13 🥶 27 🧊 29
 
-     $1 #81  ~1 scope          100.00°C 🥳 1000‰
-     $2 #78  ~4 extent          51.69°C 🔥  998‰
-     $3 #70  ~5 magnitude       38.58°C 🥵  979‰
-     $4 #79  ~3 range           33.20°C 🥵  938‰
-     $5 #38 ~10 spectrum        29.59°C 😎  869‰
-     $6 #29 ~11 aperture        24.47°C 😎  565‰
-     $7 #80  ~2 reach           22.63°C 😎  299‰
-     $8 #44  ~8 array           22.53°C 😎  281‰
-     $9 #69  ~6 luminosity      22.44°C 😎  263‰
-    $10 #62  ~7 redshift        22.42°C 😎  257‰
-    $11 #43  ~9 expansion       21.90°C 😎  135‰
-    $12 #76     singularity     21.11°C 🥶
-    $13 #31     distance        19.91°C 🥶
-    $76 #23     hydrogen        -1.20°C 🧊
+     $1 #76  ~1 douane           100.00°C 🥳 1000‰
+     $2 #66  ~6 visa              33.75°C 🥵  974‰
+     $3 #56 ~10 embarquement      32.36°C 🥵  968‰
+     $4 #20 ~19 bagage            29.48°C 🥵  948‰
+     $5 #60  ~9 passeport         28.61°C 🥵  945‰
+     $6 #55 ~11 déclaration       28.28°C 🥵  940‰
+     $7 #75  ~2 transport         26.27°C 🥵  909‰
+     $8 #31 ~18 bordereau         25.93°C 😎  899‰
+     $9 #49 ~14 aéroport          25.86°C 😎  897‰
+    $10 #69  ~3 consulat          25.71°C 😎  894‰
+    $11 #42 ~16 passager          24.38°C 😎  870‰
+    $12 #18 ~20 destination       23.72°C 😎  852‰
+    $21 #47     valise            13.93°C 🥶
+    $48 #36     dos               -0.45°C 🧊
+
+# cemantle.certitudes.org 🧩 #1106 🥳 37 ⏱️ 0:02:37.467788
+
+🤔 38 attempts
+📜 1 sessions
+🫧 2 chat sessions
+⁉️ 8 chat prompts
+🤖 8 gemma2:latest replies
+🥵  2 😎  4 🥶 30 🧊  1
+
+     $1 #38  ~1 census          100.00°C 🥳 1000‰
+     $2 #28  ~4 genealogy        31.21°C 🥵  927‰
+     $3 #30  ~3 ancestry         31.11°C 🥵  921‰
+     $4 #14  ~6 prehistoric      25.95°C 😎  737‰
+     $5 #22  ~5 hominid          24.83°C 😎  646‰
+     $6 #11  ~7 fossil           23.55°C 😎  479‰
+     $7 #35  ~2 lineage          22.81°C 😎  386‰
+     $8 #24     bipedalism       20.26°C 🥶
+     $9 #32     chromosome       19.56°C 🥶
+    $10 #19     archaeology      19.30°C 🥶
+    $11  #4     dinosaur         18.78°C 🥶
+    $12 #13     paleontologist   17.67°C 🥶
+    $13 #16     ancient          17.56°C 🥶
+    $38 #36     arms             -1.47°C 🧊
