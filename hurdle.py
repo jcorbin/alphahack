@@ -9,11 +9,12 @@ import re
 from collections import Counter
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
+from os import path
 from typing import cast, final, override
 
 from strkit import spliterate, PeekIter
 from ui import PromptUI
-from store import StoredLog, git_txn
+from store import StoredLog, atomic_rewrite, git_txn
 
 def top(k: int, scores: Sequence[float]):
     choices: list[tuple[float, int]] = []
@@ -88,6 +89,9 @@ class Search(StoredLog):
         self.attempts: list[list[str]] = []
         self.words: list[str] = []
 
+        self.failed: bool = False
+        self.fail_text: str = ''
+
         self.result_text: str = ''
         self._result: Result|None = None
 
@@ -112,6 +116,17 @@ class Search(StoredLog):
         for t, rest in super().load(ui, lines):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
+
+                match = re.match(r'''(?x)
+                    fail :
+                    \s+
+                    (?P<rest> .* )
+                    $''', rest)
+                if match:
+                    rest, = match.groups()
+                    self.failed = True
+                    self.fail_text = rest
+                    continue
 
                 match = re.match(r'''(?x)
                     wordlist :
@@ -190,6 +205,10 @@ class Search(StoredLog):
     @property
     @override
     def run_done(self) -> bool:
+        if self.failed: return True
+        elif self.fail_text:
+            self.failed = True
+            return True
         if self.result is not None: return True
         return False
 
@@ -213,6 +232,9 @@ class Search(StoredLog):
                 return self.guess(ui, show_n=guess)
 
             if tokens.have(r'fail'):
+                self.failed = True
+                self.fail_text = tokens.rest
+                ui.log('fail: {self.fail_text}')
                 return self.finish
 
             if tokens.have(r'tried'):
@@ -544,7 +566,39 @@ class Search(StoredLog):
                 word = word.lower()
                 if pattern.fullmatch(word): yield word
 
+    def check_fail_text(self, ui: PromptUI):
+        try:
+            word = self.fail_text.strip().split()[0]
+        except IndexError:
+            return
+        if not word:
+            return
+
+        if len(word) != self.size:
+            ui.print(f'! invalid fail word:{word!r} length:{len(word)} ; expected {self.size}')
+            return
+
+        if any(self.find(re.compile(re.escape(word)))):
+            ui.print(f'ℹ️ fail word {word!r} already in list')
+            return
+
+        with git_txn(f'{path.basename(self.wordlist)}: add missing {word!r}') as txn:
+            with (
+                txn.will_add(self.wordlist),
+                atomic_rewrite(self.wordlist) as (fr, fw)):
+                for line in fr:
+                    if line.lower() > word:
+                        _ = fw.write(f'{word}\n')
+                        _ = fw.write(line)
+                        break
+                    _ = fw.write(line)
+                fw.writelines(fr)
+            txn.commit()
+            ui.write(f'🗃️ {self.wordlist} added {word!r}')
+
     def finish(self, ui: PromptUI):
+        self.check_fail_text(ui)
+
         res = self.result
         if res:
             if not res.puzzle_id:
@@ -570,6 +624,8 @@ class Search(StoredLog):
             ):
                 ui.interact(self.finish)
             return
+
+        self.check_fail_text(ui)
 
         return super().review(ui)
 
