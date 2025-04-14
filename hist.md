@@ -10847,3 +10847,22 @@ See log/play.dictionary.com_games_todays-hurdle/#1198
 
 🔗 alphaguess.com
 ```
+
+# 1970-01-01 cemantix.certitudes.org
+
+```
+🔗 cemantix.certitudes.org
+🧩 1139
+🤔 75 guesses
+    🥵  6
+    😎 13
+    🥶 27
+    🧊 29
+⏱️ 0:04:32.414262
+```
+
+🤔 76 attempts
+📜 0 sessions
+🫧 3 chat sessions
+⁉️ 9 chat prompts
+🤖 9 gemma2:latest replies
