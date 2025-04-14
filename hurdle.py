@@ -1,31 +1,17 @@
 #!/usr/bin/env python
 
 import argparse
-import heapq
 import json
-import math
-import random
 import re
-from collections import Counter
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
 from os import path
 from typing import cast, final, override
 
+from sortem import DiagScores, RandScores, Sample
 from strkit import spliterate, PeekIter
 from ui import PromptUI
 from store import StoredLog, atomic_rewrite, git_txn
-
-def top(k: int, scores: Sequence[float]):
-    choices: list[tuple[float, int]] = []
-    for i, score in enumerate(scores):
-        if len(choices) < k:
-            heapq.heappush(choices, (score, i))
-        elif score > choices[0][0]:
-            _ = heapq.heappushpop(choices, (score, i))
-    while choices:
-        _, i = heapq.heappop(choices)
-        yield i
 
 def char_pairs(alpha: Iterable[str]):
     a, b = '', ''
@@ -352,7 +338,7 @@ class Search(StoredLog):
         verbose = 0
         show_top = 0
         show_bot = 0
-        rng_band = 0.5
+        jitter = 0.5
         any_tb = False
         search: list[str] = []
 
@@ -370,13 +356,13 @@ class Search(StoredLog):
                 n = ui.tokens.have(r'\d+(?:\.\d+)?', lambda match: float(match[0]))
                 if n is not None:
                     if n < 0:
-                        rng_band = 0
+                        jitter = 0
                         ui.print('! clamped -jitter value to 0')
                     elif n > 1:
-                        rng_band = 1
+                        jitter = 1
                         ui.print('! clamped -jitter value to 1')
                     else:
-                        rng_band = n
+                        jitter = n
                 else:
                     ui.print('! -jitter expected value')
                 continue
@@ -439,7 +425,7 @@ class Search(StoredLog):
         scores = None
         explain_score = None
         if verbose:
-            scores, explain_score = self.select(ui, words, rng_band=rng_band)
+            scores, explain_score = self.select(ui, words, jitter=jitter)
 
         def explain(i: int) -> Generator[str]:
             if scores is not None:
@@ -471,56 +457,33 @@ class Search(StoredLog):
             for line in disp(i, n):
                 ui.print(line)
 
-        def run():
-            ix = range(len(words))
-
-            if shuffle:
-                ix = list(ix)
-                random.shuffle(ix)
-
+        def sample_wants() -> Generator[Sample.Choice]:
             if search:
-                n = show_top + show_bot
-                pats = [
-                    re.compile(res)
-                    for res in search]
-                k = 0
-                for i in ix:
-                    lines = tuple(disp(i))
-                    if any(pat.search(line)
-                           for line in lines
-                           for pat in pats):
-                        k += 1
-                        for line in lines:
-                            ui.print(line)
-                        if n and k >= n: break
-                return f'matched {k}'
+                pats = tuple(re.compile(res) for res in search)
+                yield lambda i: any(
+                    pat.search(line)
+                    for line in disp(i)
+                    for pat in pats)
+                return
 
             if shuffle:
-                n = show_top + show_bot
-                if n and len(words) > n:
-                    ix = ix[:n]
-                    for i in ix: show(i)
-                    return f'showing random {n}'
-                for i in ix: show(i)
-                return 'showing all shuffled'
+                yield 'rand', show_top + show_bot
+                return
 
             if show_top or show_bot:
-                nonlocal scores, explain_score
-                if scores is None:
-                    scores, explain_score = self.select(ui, words)
-                desc: list[str] = []
-                if show_top:
-                    for i in top(show_top, scores): show(i)
-                    if len(words) > show_top:
-                        desc.append(f'top {show_top}')
-                if show_bot:
-                    for i in top(show_bot, [-score for score in scores]): show(i)
-                    if len(words) > show_bot:
-                        desc.append(f'bottom {show_bot}')
-                return f'showing {" and ".join(desc) if desc else "all"}'
+                if show_top: yield 'top', show_top
+                if show_bot: yield 'bot', show_bot
+                return
 
-            for i in ix: show(i)
-            return 'showing all'
+            yield 'top', 0
+
+        def run():
+            nonlocal scores, explain_score
+            if scores is None:
+                scores, explain_score = self.select(ui, words)
+            samp = Sample(sample_wants())
+            for i in samp.index(scores): show(i)
+            return str(samp)
 
         if words:
             desc = run()
@@ -541,53 +504,19 @@ class Search(StoredLog):
                 if prior[i] == let:
                     yield let, j, i
 
-    def select(self, _ui: PromptUI, words: Sequence[str], rng_band: float = 0.5):
-        rng_band = max(0, min(1, rng_band))
-        rng_lo = rng_band/2
-
-        # pick a random score for each word
-        scores: list[float] = [
-            rng_lo + random.random() * rng_band
-            for _ in words]
-
-        # letter frequency stats
-        lf = Counter(l for word in words for l in set(word))
-        wfs = [Counter(word) for word in words]
-
-        # compute word relevance, analogously to tf-idf search scoring
-        wfilf: list[float] = []
-        for word, wf in zip(words, wfs):
-            wfilf.append(sum(
-                (1.0 - n/len(word)) * lf[l]/len(words) for l, n in wf.items()
-            )/len(wf))
-        for i, wf in enumerate(wfilf):
-            scores[i] = math.pow(scores[i], 0.01 + 1/round(100 * wf))
-
-        # novelty score, used to down-score words that repeat letters
-        novelty: list[float] = []
-        for word, wf in zip(words, wfs):
-            m = len(wf)/len(word)
-            nov = sum((v - m)**2 for v in wf.values())
-            novelty.append(nov)
-        for i, nov in enumerate(novelty):
-            if nov > 0:
-                nov += 0.01
-                scores[i] = math.pow(scores[i], nov)
-                novelty[i] = nov
-
-        def annotate(i: int):
-            i_wfilf = wfilf[i]
-            wgt = round(100 * i_wfilf)
-            exp = 0.01 + 1/wgt
-            yield f'^= {exp:.3f} (wf-ilf weight = {wgt})'
-
-            i_wf = wfs[i]
-            i_lf = { l: lf[l] for l in i_wf }
-            yield f'wf-ilf counts: {' '.join(f'{l.upper()}:{i_wf[l]}/{i_lf[l]}' for l in i_wf)}'
-
-            nov = novelty[i]
-            yield f'^= {nov:.2f} (novelty)'
-
+    def select(self, _ui: PromptUI, words: Sequence[str], jitter: float = 0.5):
+        diag = DiagScores(words)
+        rand = None if jitter == 0 else RandScores(diag.scores, jitter=jitter)
+        scores = diag.scores if rand is None else rand.scores
+        def annotate(i: int) -> Generator[str]:
+            if rand is not None:
+                yield from rand.explain(i)
+            yield from diag.explain(i)
+            wf_parts = list(diag.explain_wf(i))
+            if wf_parts:
+                yield f'WF:{" ".join(wf_parts)}'
+            yield f'LF:{" ".join(diag.explain_lf(i))}'
+            yield f'LF norm:{" ".join(diag.explain_lf_norm(i))}'
         return scores, annotate
 
     def find(self, pattern: re.Pattern[str]):

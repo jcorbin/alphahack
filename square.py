@@ -2,13 +2,13 @@
 
 import argparse
 import json
-import math
-import random
 import re
-from collections import Counter, OrderedDict
-from collections.abc import Generator, Iterable
+from collections import OrderedDict
+from collections.abc import Generator, Iterable, Sequence
+from dataclasses import dataclass
 from typing import cast, final, overload, override
 
+from sortem import DiagScores, RandScores, Sample
 from store import StoredLog, git_txn
 from strkit import MarkedSpec, PeekStr, spliterate
 from ui import PromptUI
@@ -40,6 +40,12 @@ def char_ranges(alpha: Iterable[str]):
             yield '-'
             yield b
 
+@dataclass
+class Choosem:
+    word_i: int
+    verbose: int = 0
+    show: tuple[Sample.Choice, ...] = ()
+
 @final
 class Search(StoredLog):
     log_file: str = 'squareword.log'
@@ -67,6 +73,9 @@ class Search(StoredLog):
         self.given_wordlist: bool = False
 
         self.grid: list[str] = ['' for _ in range(self.size**2)]
+
+        self.choosing: Choosem|None = None
+
         self.qmode: str = '?'
         self.questioning: str = ''
         self.question_desc: str = ''
@@ -109,6 +118,9 @@ class Search(StoredLog):
 
         if self.questioning:
             return self.question
+
+        if self.choosing is not None:
+            return self.present_choice
 
         return self.display
 
@@ -323,41 +335,85 @@ class Search(StoredLog):
     recent_sug: dict[str, int] = dict()
 
     def choose(self, ui: PromptUI, word_i: int|None = None):
+        # TODO expand choose scoring over all possible words when word_i not given
         sel = self.select(ui, word_i)
-        if not sel: return
-        word_i, poss = sel
+        if sel:
+            word_i, poss = sel
+            words = list(self.find(ui, poss.pattern, row=word_i))
+            scores, explain_score = self.score_words(word_i, words)
+            for i, word in enumerate(words):
+                if word in self.recent_sug:
+                    penalty = self.recent_sug[word]
+                    if penalty > 1:
+                        self.recent_sug[word] = penalty - 1
+                    else:
+                        del self.recent_sug[word]
+                    scores[i] /= penalty
 
-        best, choice = 0.0, ''
-        count = 0
-        okay = set(self.okay_letters())
+            return word_i, poss, words, scores, explain_score
 
-        for word in self.find(ui, poss.pattern, row=word_i):
-            count += 1
+    def score_words(self,
+                    word_i: int,
+                    words: Sequence[str],
+                    jitter: float = 0.5,
+                    ):
+        diag = DiagScores(words)
 
-            score = random.random()
+        # count letters not yet seen in prior rounds
+        seen = set(self.okay_letters())
+        unseens = [
+            sum(1 for let in word if let not in seen)
+            for word in words]
 
-            novel = sum(1 for let in word if let not in okay)
-            if novel > 0:
-                score = math.pow(score, 1/novel)
+        # count overlaps with prior attempts
+        row_unk = tuple(
+            i
+            for i, k in enumerate(self.row_word_range(word_i))
+            if not self.grid[k])
+        neg_unk = set(
+            (i, prior[i])
+            for prior in self.guesses
+            for i in row_unk)
+        negs = [
+            (sum(1
+                for i, l in enumerate(word)
+                if (i, l) in neg_unk) + 1)**3
+            for word in words]
+
+        # combine scores
+        scores = [
+            score / neg if neg > 1
+            else score * (unseen + 1) if unseen > 0
+            else score
+            for score, unseen, neg in zip(diag.scores, unseens, negs)]
+
+        rand = None
+        if jitter != 0:
+            rand = RandScores(scores, jitter)
+            scores = rand.scores
+
+        def annotate(i: int) -> Generator[str]:
+            score = scores[i]
+            yield f'{100*score:0.2f}%'
+
+            if rand is not None:
+                yield from rand.explain(i)
+
+            yield from diag.explain(i)
+
+            neg = negs[i]
+            if neg > 1:
+                yield f'/= neg:{neg}'
             else:
-                lc = Counter(word)
-                n = sum(lc.values())
-                m = n/len(lc)
-                v = sum((v - m)**2 for v in lc.values())
-                score = math.pow(score, 0.01 + v)
+                yield f'*= unseen:{100*unseens[i]:.1f}%'
 
-            if word in self.recent_sug:
-                penalty = self.recent_sug[word]
-                score /= penalty
-                if penalty > 1:
-                    self.recent_sug[word] = penalty - 1
-                else:
-                    del self.recent_sug[word]
+            wf_parts = list(diag.explain_wf(i))
+            if wf_parts:
+                yield f'WF:{" ".join(wf_parts)}'
+            yield f'LF:{" ".join(diag.explain_lf(i))}'
+            yield f'LF norm:{" ".join(diag.explain_lf_norm(i))}'
 
-            if not word or score > best:
-                best, choice = score, word
-                self.recent_sug[word] = 10
-                yield word_i, best, choice, count
+        return scores, annotate
 
     @final
     class Possible:
@@ -632,19 +688,109 @@ class Search(StoredLog):
         return True
 
     def do_choose(self, ui: PromptUI) -> PromptUI.State|None:
-        word_n = ui.tokens.have(r'\d+$', lambda m: int(m.group(0)))
-        word_i = None
-        choice = ''
-        count = 0
+        if self.choosing is None:
+            word_n: int|None = None
+            verbose = 0
+            show_n = 10
+            show: list[Sample.Choice] = []
 
-        for word_i, _, choice, count in self.choose(ui, None if word_n is None else word_n-1):
-            pass
+            while ui.tokens.peek():
+                n = ui.tokens.have(r'\d+$', lambda m: int(m.group(0)))
+                if n is not None:
+                    word_n = n
+                    continue
 
-        if not choice: return
-        assert word_i is not None
+                match = ui.tokens.have(r'-(v+)')
+                if match:
+                    verbose += len(match.group(1))
+                    continue
 
-        poss = self.possible(row=word_i)
-        return self.ask_question(ui, choice, f'#{word_i+1} found:{count} hypo:{poss.space}')
+                match = ui.tokens.have(r'-([tTbBrR])(\d+)?')
+                if match:
+                    n = (
+                        int(match[2]) if match[2]
+                        else ui.tokens.have(r'\d+', lambda match: int(match[0])) or show_n)
+                    if match[1].lower() == 't': show.append(('top', n))
+                    elif match[1].lower() == 'b': show.append(('bot', n))
+                    elif match[1].lower() == 'r': show = [('rand', n)]
+                    continue
+
+                arg = ui.tokens.take()
+                ui.print(f'! invalid * arg {arg!r}')
+                return
+
+            res = self.choose(ui, None if word_n is None else word_n-1)
+            if res:
+                word_i = res[0]
+                self.choosing = Choosem(word_i,
+                                        verbose=verbose,
+                                        show=tuple(show) if show else (('top', show_n),))
+        return self.present_choice
+
+    def present_choice(self, ui: PromptUI):
+        if self.choosing is None:
+            return self.display
+        res = self.choose(ui, self.choosing.word_i)
+        if not res:
+            return self.display
+
+        verbose = self.choosing.verbose
+
+        word_i, poss, words, scores, explain = res
+
+        def disp(i: int, n: int|None = None):
+            word = words[i]
+            if n is None: n = i + 1
+            line = f'{n}. {word}'
+            if verbose:
+                lw = 70
+                for part in explain(i):
+                    cat = f'{line} {part}'
+                    if not line.strip() or len(cat) < lw:
+                        line = cat
+                    else:
+                        yield line
+                        line = f'    {part}'
+            if line.strip():
+                yield line
+
+        samp = Sample(self.choosing.show)
+        ix = list(samp.index(scores))
+
+        if len(ix) == 0:
+            ui.print('!!! #{word_i+1} no choices')
+            return self.display
+
+        if len(ix) == 1:
+            ui.print(f'=== #{word_i+1} must be')
+            i = ix[0]
+            choice = words[i]
+            self.recent_sug[choice] = 10
+            return self.ask_question(ui, choice, f'#{word_i+1}')
+
+        for n, i in enumerate(ix, 1):
+            for line in disp(i, n):
+                ui.print(line)
+        ui.print(f'#{word_i+1} {samp} of {len(words)} words ; hypo {poss.space}')
+
+        with (
+            ui.catch_state((EOFError, KeyboardInterrupt), self.choice_abort),
+            ui.input('try? ') as tokens):
+            n = tokens.have(r'\d+', lambda match: int(match[0]))
+            i = None
+            if n is not None:
+                try:
+                    i = ix[n-1]
+                except IndexError:
+                    pass
+            if i is not None:
+                choice = words[i]
+                self.recent_sug[choice] = 10
+                return self.ask_question(ui, choice, f'#{word_i+1}')
+
+    def choice_abort(self, _ui: PromptUI):
+        self.choosing = None
+        return self.display
 
     def ask_question(self, ui: PromptUI, word: str, desc: str):
         word = word.lower()
@@ -652,6 +798,7 @@ class Search(StoredLog):
         self.qmode = '>' if word in self.guesses else '?' # TODO auto N> wen
         self.questioning = word
         self.question_desc = desc
+        self.choosing = None
         return self.question
 
     def question_abort(self, ui: PromptUI):
@@ -738,7 +885,6 @@ class Search(StoredLog):
         self.questioning = ''
         self.question_desc = ''
 
-from dataclasses import dataclass
 @dataclass
 class Result:
     size: int
