@@ -342,7 +342,7 @@ class Search(StoredLog):
 
     def guess(self, ui: PromptUI, show_n: int=10):
         shuffle = False
-        verbose = False
+        verbose = 0
         show_top = 0
         show_bot = 0
         rng_band = 0.5
@@ -350,8 +350,9 @@ class Search(StoredLog):
         search: list[str] = []
 
         while ui.tokens.peek():
-            if ui.tokens.have(r'-v'):
-                verbose = True
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                verbose += len(match.group(1))
                 continue
 
             if ui.tokens.have(r'-r(and|ng)?'):
@@ -402,14 +403,24 @@ class Search(StoredLog):
         words = set(self.find(re.compile(pattern)))
         if self.debug:
             ui.log(f'select pattern r"{pattern}" found {len(words)}')
+        if verbose:
+            ui.print(f'- pattern r"{pattern}" found {len(words)}')
 
         # drop any words that intersect tried prior letters
-        skip_words = set(
-            word for word in words
-            if any(self.tried_letters(word)))
+        tried_words = [
+            (i, word)
+            for i, word in enumerate(words)
+            if any(self.tried_letters(word))]
+        skip_words = set(word for _, word in tried_words)
         words.difference_update(skip_words)
-        if skip_words and self.debug > 1:
-            ui.log(f'skip ∩tried remain:{len(words)} dropped:{len(skip_words)} -- {sorted(skip_words)!r}')
+        if skip_words:
+            if self.debug > 1:
+                ui.log(f'skip ∩tried remain:{len(words)} dropped:{len(skip_words)} -- {sorted(skip_words)!r}')
+            if verbose:
+                ui.print(f'- pruned {len(skip_words)} words based on priors')
+                if verbose > 1:
+                    for i, word in tried_words:
+                        ui.print(f'  {i+1}. {word}')
 
         words = sorted(words)
 
