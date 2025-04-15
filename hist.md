@@ -10893,3 +10893,12 @@ See log/squareword.org/#1169
 # 2025-04-14 https://play.dictionary.com/games/todays-hurdle
 
 See log/play.dictionary.com_games_todays-hurdle/#1199
+
+# 2025-04-15 alfagok.diginaut.net
+
+```
+🧩 Puzzel #164
+🤔 16 gokken
+⏱️ 30s
+🔗 alfagok.diginaut.net
+```
