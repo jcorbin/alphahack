@@ -10958,3 +10958,7 @@ See log/squareword.org/#1170
 🫧 5 chat sessions
 ⁉️ 21 chat prompts
 🤖 21 gemma2:latest replies
+
+# 2025-04-15 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1200
