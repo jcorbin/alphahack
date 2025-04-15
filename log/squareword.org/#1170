@@ -1,0 +1,105 @@
+T0.00014156899851514027 now: 2025-04-15T08:02:54EDT
+T0.00018056700355373323 site: squareword.org
+T1.9401842320003198 🧩  ? #1170
+T1.940627616000711 puzzle_id: #1170
+T2.6138570589973824 > *
+T2.744873551004275 questioning: ["malty", "#5 found:9271 hypo:11881376"]
+T4.866702831001021 malty ( #5 found:9271 hypo:11881376 ) ? 
+T5.090241172001697 malty ( #5 found:9271 hypo:11881376 ) > 
+T8.327857789998234 malty ( #5 found:9271 hypo:11881376 ) 1> _al ~ m
+T8.328178905998357 word: 0 _al__
+T8.328189473002567 may: 0 m
+T9.052325702003145 malty ( #5 found:9271 hypo:11881376 ) 2> ~ at
+T9.052890947001288 word: 1 _____
+T9.052915861997462 may: 1 a t
+T12.248697495997476 malty ( #5 found:9271 hypo:11881376 ) 3> _a_t ~ a
+T12.248861644999124 word: 2 _a_t_
+T12.248878295002214 may: 2 a
+T13.173435151002195 malty ( #5 found:9271 hypo:11881376 ) 4> ~ at
+T13.173618054002873 word: 3 _____
+T13.173637145999237 may: 3 a t
+T14.795699841000896 malty ( #5 found:9271 hypo:11881376 ) 5> 
+T14.795798694998666 question done
+T15.739341713997419 > /no y
+T15.739927485003136 nope: y
+T47.06656835800095 > *
+T47.404217465998954 questioning: ["manta", "#3 found:4 hypo:625"]
+T52.00040912300028 manta ( #3 found:4 hypo:625 ) ? 
+T55.04329698700167 manta ( #3 found:4 hypo:625 ) > 3 _a_ta
+T55.04358503500407 word: 2 _a_ta
+T55.04360897600418 may: 2 
+T57.027814523004054 question done
+T58.385754381997685 > /no n
+T58.38585132500157 nope: n y
+T58.884373398002936 > *
+T59.27404814000329 questioning: ["pasta", "#3 found:3 hypo:576"]
+T63.57571264600119 pasta ( #3 found:3 hypo:576 ) ? 
+T63.85239834799722 pasta ( #3 found:3 hypo:576 ) > 
+T66.62324700200406 pasta ( #3 found:3 hypo:576 ) 1> pal ~ ms
+T66.62353243299731 word: 0 pal__
+T66.62355909200414 may: 0 m s
+T67.95416227899841 pasta ( #3 found:3 hypo:576 ) 2> 
+T69.00727980199736 pasta ( #3 found:3 hypo:576 ) 3> pasta
+T69.00748390400258 word: 2 pasta
+T69.00750409899774 may: 2 
+T72.75467605800077 pasta ( #3 found:3 hypo:576 ) 4> __s ~ ats
+T72.75486171000375 word: 3 __s__
+T72.75488138299988 may: 3 a s t
+T73.71702170700155 pasta ( #3 found:3 hypo:576 ) 5> ~ s
+T73.71719888900407 word: 4 _____
+T73.71721729599813 may: 4 s
+T73.71723509299773 question done
+T75.721773244004 > * 4
+T75.86379362599837 questioning: ["asset", "#4 found:1 hypo:144"]
+T78.66168448000099 asset ( #4 found:1 hypo:144 ) ? 
+T79.25556885699916 asset ( #4 found:1 hypo:144 ) > 
+T83.20600192100392 asset ( #4 found:1 hypo:144 ) 1> 
+T86.28899341500073 asset ( #4 found:1 hypo:144 ) 2> a___t ~ a
+T86.28919006499927 word: 1 a___t
+T86.28921954899852 may: 1 a
+T87.91461117200379 asset ( #4 found:1 hypo:144 ) 3> 
+T89.8668901600031 asset ( #4 found:1 hypo:144 ) 4> asset
+T89.86708864800312 word: 3 asset
+T89.86711094900238 may: 3 
+T91.49844399699941 asset ( #4 found:1 hypo:144 ) 5> ~ se
+T91.49862380500417 word: 4 _____
+T91.49864366999827 may: 4 e s
+T91.49866085700342 question done
+T94.21319904799748 > * 1
+T94.41539647599711 questioning: ["palms", "#1 found:1 hypo:2"]
+T97.9080780860022 palms ( #1 found:1 hypo:2 ) ? 
+T98.15109430099983 palms ( #1 found:1 hypo:2 ) > 
+T99.94831970299856 palms ( #1 found:1 hypo:2 ) 1> palms
+T99.94842648500344 word: 0 palms
+T99.94844446599745 may: 0 
+T102.33012280899857 question done
+T103.04812846099958 > *
+T103.45511015199736 questioning: ["await", "#2 found:1 hypo:576"]
+T106.24923152800329 await ( #2 found:1 hypo:576 ) ? 
+T106.44100348700158 await ( #2 found:1 hypo:576 ) > 
+T109.44891221800208 await ( #2 found:1 hypo:576 ) 1> 2 await
+T109.4490294740026 word: 1 await
+T109.44904182800383 may: 1 
+T110.3997008150036 question done
+T110.87662857900432 > *
+T111.20463647600263 questioning: ["shire", "#5 found:3 hypo:27648"]
+T113.98745161099941 shire ( #5 found:3 hypo:27648 ) ? 
+T114.19697753000219 shire ( #5 found:3 hypo:27648 ) > 
+T115.8785878790004 shire ( #5 found:3 hypo:27648 ) 1> 5 sh_re
+T115.87875123300182 word: 4 sh_re
+T115.8787684140043 may: 4 
+T115.878785273002 question done
+T117.76412842600257 > *
+T118.16833311699884 questioning: ["shire", "#5 found:2 hypo:24"]
+T119.67641376500251 shire ( #5 found:2 hypo:24 ) ? !
+T119.67655979600386 reject: shire
+T120.18692056400323 > *
+T120.54395068799931 questioning: ["shore", "#5 found:1 hypo:24"]
+T125.04029561400239 shore ( #5 found:1 hypo:24 ) ? 
+T126.09649671299849 shore ( #5 found:1 hypo:24 ) > 5 shore
+T126.09667153000191 word: 4 shore
+T126.09668996599794 may: 4 
+T126.09670842700143 question done
+T129.02006564399926 Press <Enter> to 📋 or `>` for line prompt 
+T129.02779409800132 result: "squareword.org 1170: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1170"
+T129.02998915399803 <STOP>
