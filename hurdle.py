@@ -494,13 +494,22 @@ class Search(StoredLog):
                     for i in top(show_bot, [-score for score in scores]): show(i)
                     if len(words) > show_bot:
                         desc.append(f'bottom {show_bot}')
-                return f'showing {" and ".join(desc)}'
+                return f'showing {" and ".join(desc) if desc else "all"}'
 
             for i in ix: show(i)
             return 'showing all'
 
-        desc = run()
-        ui.print(f'... {desc} of {len(words)} possible words')
+        if words:
+            desc = run()
+            ui.print(f'... {desc} of {len(words)} possible words')
+
+        elif tried_words:
+            ui.print('no words probable; reconsider:')
+            for i, word in tried_words:
+                ui.print(f'{i+1}. {word}')
+
+        else:
+            ui.print('no words possible')
 
     def tried_letters(self, word: str):
         return(
