@@ -408,9 +408,11 @@ class Search(StoredLog):
 
         # drop any words that intersect tried prior letters
         tried_words = [
-            (i, word)
-            for i, word in enumerate(words)
-            if any(self.tried_letters(word))]
+            (wi, word)
+            for wi, word in enumerate(words)
+            if any(
+                not self.word[li]
+                for _, _, li in self.tried_letters(word))]
         skip_words = set(word for _, word in tried_words)
         words.difference_update(skip_words)
         if skip_words:
@@ -421,6 +423,9 @@ class Search(StoredLog):
                 if verbose > 1:
                     for i, word in tried_words:
                         ui.print(f'  {i+1}. {word}')
+                        for let, j, i in self.tried_letters(word):
+                            if not self.word[i]:
+                                ui.print(f'    - {let.upper()} from {self.tried[j]!r}[{i}]')
 
         words = sorted(words)
 
@@ -523,11 +528,11 @@ class Search(StoredLog):
             ui.print('no words possible')
 
     def tried_letters(self, word: str):
-        return(
-            (i, let)
-            for i, let in enumerate(word)
-            if let in self.may_letters
-            if any(prior[i] == let for prior in self.tried))
+        for i, let in enumerate(word):
+            if let not in self.may_letters: continue
+            for j, prior in enumerate(self.tried):
+                if prior[i] == let:
+                    yield let, j, i
 
     def select(self, _ui: PromptUI, words: Sequence[str], rng_band: float = 0.5):
         rng_band = max(0, min(1, rng_band))
