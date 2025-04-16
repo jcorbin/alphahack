@@ -64,6 +64,7 @@ class Search(StoredLog):
 
         self.size: int = 5
         self.wordlist: str = ''
+        self.given_wordlist: bool = False
 
         self.grid: list[str] = ['' for _ in range(self.size**2)]
         self.qmode: str = '?'
@@ -96,9 +97,15 @@ class Search(StoredLog):
             if not self.wordlist:
                 with ui.input(f'📜 {self.default_wordlist} ? ') as tokens:
                     self.wordlist = next(tokens, self.default_wordlist)
-                    ui.log(f'wordlist: {self.wordlist}')
             self.do_puzzle(ui)
             if not self.puzzle_id: return
+
+        if not self.wordlist:
+            self.wordlist = self.default_wordlist
+
+        if not self.given_wordlist:
+            self.given_wordlist = True
+            ui.log(f'wordlist: {self.wordlist}')
 
         if self.questioning:
             return self.question
@@ -148,6 +155,7 @@ class Search(StoredLog):
                     wordlist, rest = match.groups()
                     assert rest == ''
                     self.wordlist = wordlist
+                    self.given_wordlist = True
                     continue
 
                 match = re.match(r'''(?x)

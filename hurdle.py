@@ -81,6 +81,7 @@ class Search(StoredLog):
 
         self.size: int = 5
         self.wordlist: str = ''
+        self.given_wordlist: bool = False
 
         self.may_letters: set[str] = set()
         self.nope_letters: set[str] = set()
@@ -138,6 +139,7 @@ class Search(StoredLog):
                     wordlist, rest = match.groups()
                     assert rest == ''
                     self.wordlist = wordlist
+                    self.given_wordlist = True
                     continue
 
                 match = re.match(r'''(?x)
@@ -198,7 +200,12 @@ class Search(StoredLog):
         if not self.wordlist:
             with ui.input(f'📜 {self.default_wordlist} ? ') as tokens:
                 self.wordlist = next(tokens, self.default_wordlist)
-                ui.log(f'wordlist: {self.wordlist}')
+            if not self.wordlist:
+                return
+
+        if not self.given_wordlist:
+            self.given_wordlist = True
+            ui.log(f'wordlist: {self.wordlist}')
 
         return self.display
 
