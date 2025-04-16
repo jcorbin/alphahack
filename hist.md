@@ -11004,3 +11004,23 @@ See log/play.dictionary.com_games_todays-hurdle/#1200
 # 2025-04-16 squareword.org
 
 See log/squareword.org/#1171
+
+# 1970-01-02 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 1108
+🤔 123 guesses
+    🔥  1
+    🥵  8
+    😎 12
+    🥶 96
+    🧊  6
+⏱️ 0:06:42.183434
+```
+
+🤔 124 attempts
+📜 0 sessions
+🫧 4 chat sessions
+⁉️ 13 chat prompts
+🤖 13 gemma2:latest replies
