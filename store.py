@@ -190,10 +190,11 @@ class StoredLog:
                 for _ in self.load(ui, f): pass
         self.loaded = True
         self.log_file = log_file
+        return self
 
     def __call__(self, ui: PromptUI) -> PromptUI.State|None:
-        if self.log_file:
-            self.load_log(ui, self.log_file)
+        if self.log_file and not self.loaded:
+            return self.load_log(ui)
 
         if self.stored:
             return self.review
