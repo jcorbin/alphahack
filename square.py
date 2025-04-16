@@ -100,7 +100,10 @@ class Search(StoredLog):
             self.do_puzzle(ui)
             if not self.puzzle_id: return
 
-        return self.question if self.questioning else self.display
+        if self.questioning:
+            return self.question
+
+        return self.display
 
     @property
     @override
