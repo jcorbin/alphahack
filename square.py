@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
 import argparse
+import base64
 import json
+import random
 import re
 from collections import OrderedDict
 from collections.abc import Generator, Iterable, Sequence
@@ -68,6 +70,7 @@ class Search(StoredLog):
         self.given_wordlist: bool = False
         self._wordlist: WordList|None = None
 
+        self.seed: str = ''
         self.grid: list[str] = ['' for _ in range(self.size**2)]
 
         self.choosing: tuple[int, 'Search.Select', Possible[str]]|None = None
@@ -84,6 +87,13 @@ class Search(StoredLog):
 
         self.result_text: str = ''
         self._result: Result|None = None
+
+    def next_seed(self, ui: PromptUI):
+        rand = (random.Random(self.seed) if self.seed else random)
+        seed = f'{base64.b85encode(rand.randbytes(32)).decode('ascii')}'
+        self.seed = seed
+        ui.log(f'seed: {seed}')
+        return seed
 
     @property
     def wordlist(self):
@@ -151,6 +161,15 @@ class Search(StoredLog):
         for t, rest in super().load(ui, lines):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
+
+                match = re.match(r'''(?x)
+                    seed :
+                    \s+
+                    (?P<seed> [^\s]+ )
+                    $''', rest)
+                if match:
+                    self.seed = match.group(1)
+                    continue
 
                 match = re.match(r'''(?x)
                     wordlist :
