@@ -39,6 +39,17 @@ def atomic_rewrite(name: str):
     ):
         yield r, w
 
+def backup_old(name: str):
+    try:
+        return open(name, 'x')
+    except FileExistsError as err:
+        mtime = os.path.getmtime(name)
+        bak_name = f'{name}.old_{round(mtime)}'
+        if os.path.exists(bak_name):
+            raise err
+        os.rename(name, bak_name)
+    return open(name, 'x')
+
 @final
 @dataclass
 class LogSession:
@@ -97,6 +108,124 @@ class StoredLog:
         with ui.input(f'> ') as tokens:
             if tokens.have(r'report$'):
                 return self.do_report(ui)
+
+            if tokens.have(r'replay$'):
+                return self.Replay(self)
+
+    @final
+    class Replay:
+        def __init__(self, stl: 'StoredLog'):
+            self.stl = stl
+            self.cursor: int = 1
+
+        def parse_log(self):
+            with open(self.stl.log_file, 'r') as f:
+                for line_no, line in enumerate(f, 1):
+                    match = re.match(r'''(?x)
+                        T (?P<time> [^\s]+ )
+                        \s+
+                        (?P<mess> .+ )
+                        $''', line)
+                    if not match: continue
+                    time = float(match.group(1))
+                    mess = str(match.group(2))
+                    yield line_no, time, mess
+
+        def cursor_context(self, C: int = 5):
+            line_lo = max(0, self.cursor - C)
+            line_hi = self.cursor + C
+            for line_no, time, mess in self.parse_log():
+                if line_no < line_lo: continue
+                if line_no >= line_hi: break
+                yield line_no, time, mess
+
+        def __call__(self, ui: PromptUI):
+            found = False
+            for line_no, time, mess in self.cursor_context():
+                found = True
+                ui.print(f'{"***" if line_no == self.cursor else "   "} {line_no}. T{time:.1f} {mess}')
+            if not found:
+                ui.print(f'!!! lost cursor, resetting')
+                self.cursor = 1
+                return
+
+            with ui.input(f'replay> ') as tokens:
+                match = tokens.have(r'S(\d*)')
+                if match:
+                    sn = str(match.group(1))
+                    want = int(sn) if sn else None
+
+                    n = 0
+                    for line_no, time, mess in self.parse_log():
+                        match = re.match(r'''(?x)
+                            now :
+                            \s+
+                            (?P<then> .+ )
+                            $''', mess)
+                        if not match: continue
+                        n += 1
+                        if want is None:
+                            then = match.group(1)
+                            ui.print(f'... {line_no}. S{n} {then}')
+                        elif n == want:
+                            self.cursor = line_no
+                            return
+
+                    if want is not None:
+                        ui.print(f'!!! S{want} not found')
+                    ui.print('')
+                    return
+
+                at = tokens.have(r'@(\d+)', lambda match: int(match.group(1)))
+                if at is not None:
+                    self.cursor = at
+                    return
+
+                off = tokens.have(r'([\-+]\d+)', lambda match: int(match.group(1)))
+                if off is not None:
+                    self.cursor = max(1, self.cursor + off)
+                    return
+
+                patstr = tokens.have(r'/(.+)', lambda match: str(match[1]))
+                if patstr:
+                    try:
+                        pattern = re.compile(patstr)
+                    except re.PatternError as err:
+                        ui.print(f'!!! invalid pattern /{patstr}/ : {err}')
+                        return
+                    for line_no, time, mess in self.parse_log():
+                        if not pattern.match(mess): continue
+                        ui.print(f'... {line_no}. T{time:.1f} {mess}')
+                    ui.print('')
+                    return
+
+                litstr = tokens.have(r'"(.+)', lambda match: str(match[1]))
+                if litstr:
+                    for line_no, time, mess in self.parse_log():
+                        if litstr not in mess: continue
+                        ui.print(f'... {line_no}. T{time:.1f} {mess}')
+                    ui.print('')
+                    return
+
+                if tokens.have(r'start$'):
+                    return self.restart
+
+        def restart(self, ui: PromptUI):
+            init_log_file = self.stl.__class__.log_file
+            with ui.input(f'log file (default: {init_log_file}) ? ') as tokens:
+                new_log_file = tokens.rest.strip() or init_log_file
+                with (
+                    open(self.stl.log_file, 'r') as fr,
+                    backup_old(new_log_file) as fw):
+                    for line_no, line in enumerate(fr, 1):
+                        _ = fw.write(line)
+                        if line_no >= self.cursor: break
+                    ui.print('Truncated log into {new_log_file}')
+
+                if not self.stl.ephemeral:
+                    raise NotImplementedError('cut-over in progress log session')
+
+                return self.stl.load_log(ui, new_log_file)
 
     def load(self, ui: PromptUI, lines: Iterable[str]):
         prior_t: float|None = None
