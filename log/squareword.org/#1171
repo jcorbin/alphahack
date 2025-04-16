@@ -1,0 +1,119 @@
+T0.00013873899297323078 now: 2025-04-16T07:47:32EDT
+T0.00017520299297757447 site: squareword.org
+T2.0103270010004053 🧩  ? #1171
+T2.0106466909928713 puzzle_id: #1171
+T2.931423903995892 > *
+T3.0511660589982057 questioning: ["saber", "#5 found:9271 hypo:11881376"]
+T6.168727552998462 saber ( #5 found:9271 hypo:11881376 ) ? 
+T7.333767663993058 saber ( #5 found:9271 hypo:11881376 ) > 
+T8.884908472988172 saber ( #5 found:9271 hypo:11881376 ) 1> ~ aer
+T8.886643158999505 word: 0 _____
+T8.886711898987414 may: 0 a e r
+T10.102364266989753 saber ( #5 found:9271 hypo:11881376 ) 2> ~ se
+T10.102580386999762 word: 1 _____
+T10.10260833198845 may: 1 e s
+T13.683750128999236 saber ( #5 found:9271 hypo:11881376 ) 3> __b ~ ab
+T13.684183177989325 word: 2 __b__
+T13.684223469987046 may: 2 a b
+T15.784877509999205 saber ( #5 found:9271 hypo:11881376 ) 4> ~ se
+T15.7851655229897 word: 3 _____
+T15.785201683989726 may: 3 e s
+T18.046702817999176 saber ( #5 found:9271 hypo:11881376 ) 5> ___er ~ e
+T18.046932709999965 word: 4 ___er
+T18.04695373198774 may: 4 e
+T18.046975890989415 question done
+T19.393936847991426 > *
+T19.76290034200065 questioning: ["baboo", "#3 found:25 hypo:1352"]
+T24.41850505898765 baboo ( #3 found:25 hypo:1352 ) ? 
+T24.68936006599688 baboo ( #3 found:25 hypo:1352 ) > 
+T25.73175975198683 baboo ( #3 found:25 hypo:1352 ) 1> 
+T28.698408857992035 baboo ( #3 found:25 hypo:1352 ) 2> ___o
+T28.698554040995077 word: 1 ___o_
+T28.698574303998612 may: 1 e s
+T33.1588737009879 baboo ( #3 found:25 hypo:1352 ) 3> __bo ~ ab
+T33.15917675598757 word: 2 __bo_
+T33.159207974997116 may: 2 a b
+T39.35893272799149 question done
+T42.78058490398689 > * 5
+T42.82871619198704 questioning: ["newer", "#5 found:45 hypo:676"]
+T45.8401038019947 newer ( #5 found:45 hypo:676 ) ? 
+T46.100329512992175 newer ( #5 found:45 hypo:676 ) > 
+T48.78225065699371 newer ( #5 found:45 hypo:676 ) 1> ~ aern
+T48.7825379279966 word: 0 _____
+T48.782561946994974 may: 0 a e n r
+T53.378617023990955 newer ( #5 found:45 hypo:676 ) 2> _e_o ~ s
+T53.37878792099946 word: 1 _e_o_
+T53.3788013769954 may: 1 s
+T57.326317629995174 newer ( #5 found:45 hypo:676 ) 3> _e ~ se
+T57.32656871799554 word: 2 _ebo_
+T57.326593380988925 may: 2 e s
+T58.23938461398939 question done
+T59.00863215098798 > /no w
+T59.00915955498931 nope: w
+T59.54745748399 > *
+T0.04132350099098403 now: 2025-04-16T07:49:15EDT
+T1.1634252749936422 > *
+T1.7020468679984333 questioning: ["arene", "#1 found:6 hypo:600"]
+T8.226021587004652 arene ( #1 found:6 hypo:600 ) ? !
+T8.226186689993483 reject: arene
+T9.609413288999349 > *
+T9.616849698999431 questioning: ["snare", "#1 found:5 hypo:600"]
+T13.847925798996584 snare ( #1 found:5 hypo:600 ) ? 
+T21.22628688099212 snare ( #1 found:5 hypo:600 ) > 4 _e__e ~ se
+T21.22716870000295 word: 3 _e__e
+T21.2271927910042 may: 3 e s
+T22.452534971002024 question done
+T26.441812093995395 > snare
+T26.44268160199863 questioning: ["snare", "entered"]
+T33.0291842000006 snare ( entered ) ? 3 __bo ~ ab
+T33.02939651499037 guess: snare
+T33.0294822309952 word: 2 __bo_
+T33.02949833399907 may: 2 a b
+T37.37986820399237 question done
+T42.994625564999296 > * 3
+T43.13629075499193 questioning: ["abbot", "#3 found:1 hypo:50"]
+T45.99998522500391 abbot ( #3 found:1 hypo:50 ) ? 
+T46.17854572000215 abbot ( #3 found:1 hypo:50 ) > 
+T47.440317738990416 abbot ( #3 found:1 hypo:50 ) 1> 3 abbot
+T47.440526521997526 word: 2 abbot
+T47.44054897899332 may: 2 
+T51.21787358500296 abbot ( #3 found:1 hypo:50 ) 4> 1 a_ ~ aern
+T51.218086534994654 word: 0 a____
+T51.21810827999434 may: 0 a e n r
+T56.12782314499782 question done
+T56.906181889993604 > * 1
+T57.077686631004326 questioning: ["arena", "#1 found:1 hypo:24"]
+T59.23206888999266 arena ( #1 found:1 hypo:24 ) ? 
+T59.56733978400007 arena ( #1 found:1 hypo:24 ) > 
+T60.92145936199813 arena ( #1 found:1 hypo:24 ) 1> arena
+T60.92160746999434 word: 0 arena
+T60.92162387499411 may: 0 
+T66.72131065400026 arena ( #1 found:1 hypo:24 ) 2> 4 _ee_e
+T66.7216261029971 word: 3 _ee_e
+T66.72165805999248 may: 3 s
+T68.3771700859943 question done
+T69.62653988400416 > *
+T69.83990857799654 questioning: ["geese", "#4 found:1 hypo:25"]
+T73.10478306299774 geese ( #4 found:1 hypo:25 ) ? 
+T74.90053053900192 geese ( #4 found:1 hypo:25 ) > 4 geese
+T74.90081267099595 word: 3 geese
+T74.90084343899798 may: 3 
+T76.85070236699539 question done
+T77.34937922199606 > *
+T77.43662462200155 questioning: ["demos", "#2 found:1 hypo:625"]
+T79.85404454499076 demos ( #2 found:1 hypo:625 ) ? 
+T80.1097051389952 demos ( #2 found:1 hypo:625 ) > 
+T81.54963139399479 demos ( #2 found:1 hypo:625 ) 1> 2 demos
+T81.54981954800314 word: 1 demos
+T81.54984683699149 may: 1 
+T82.79659129799984 question done
+T83.34928050299641 > *
+T83.5479730310035 questioning: ["elder", "#5 found:1 hypo:625"]
+T87.54531959499582 elder ( #5 found:1 hypo:625 ) ? 
+T90.9592850219924 elder ( #5 found:1 hypo:625 ) > 5 elder
+T90.9595180269971 word: 4 elder
+T90.95955615400453 may: 4 
+T90.95958680199692 question done
+T94.26965488999849 Press <Enter> to 📋 or `>` for line prompt 
+T94.27192794799339 result: "squareword.org 1171: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1171"
+T94.2724196719937 <STOP>
