@@ -544,7 +544,7 @@ class Search(StoredLog):
             yield f'    {lets}'
 
     def proc_re_word(self, ui: PromptUI, word_i: int):
-        with ui.tokens as tokens:
+        with ui.tokens as _tokens:
             match = self.re_word_match(ui)
             if match:
                 return self.proc_re_word_match(ui, word_i, match)
