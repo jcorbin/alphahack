@@ -1,26 +1,26 @@
-# 2025-04-17
+# 2025-04-18
 
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1202 🥳 12 ⏱️ 0:03:22.764563
-- 🔗 squareword.org 🧩 #1172 🥳 6 ⏱️ 0:02:15.544259
-- 🔗 alfagok.diginaut.net 🧩 #166 🥳 34 ⏱️ 0:01:31.927916
-- 🔗 alphaguess.com 🧩 #632 🥳 18 ⏱️ 0:00:38.186466
-- 🔗 cemantix.certitudes.org 🧩 #1142 🥳 548 ⏱️ 1:18:50.139115
-- 🔗 cemantle.certitudes.org 🧩 #1109 🥳 102 ⏱️ 0:03:45.264640
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1203 🥳 20 ⏱️ 0:05:56.381342
+- 🔗 squareword.org 🧩 #1173 🥳 7 ⏱️ 0:02:40.647662
+- 🔗 alphaguess.com 🧩 #633 🥳 10 ⏱️ 0:00:24.210167
+- 🔗 alfagok.diginaut.net 🧩 #167 🥳 12 ⏱️ 0:00:28.740642
+- 🔗 cemantle.certitudes.org 🧩 #1110 🥳 895 ⏱️ 1:26:27.729061
+- 🔗 cemantix.certitudes.org 🧩 #1143 🥳 92 ⏱️ 0:05:01.076182
 
 - ❌
 - ✅
 - ⏳
 
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1202 🥳 12
-- ✅ squareword.org 🧩 #1172 🥳 6
-- ✅ alfagok.diginaut.net 🧩 #166 🥳 34
-- ✅ alphaguess.com 🧩 #632 🥳 18
-- ✅ cemantix.certitudes.org 🧩 #1142 🥳 548
-- ✅ cemantle.certitudes.org 🧩 #1109 🥳 102
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1203 🥳 20
+- ✅ squareword.org 🧩 #1173 🥳 7
+- ✅ alphaguess.com 🧩 #633 🥳 10
+- ✅ alfagok.diginaut.net 🧩 #167 🥳 12
+- ✅ cemantle.certitudes.org 🧩 #1110 🥳 895
+- ✅ cemantix.certitudes.org 🧩 #1143 🥳 92
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$iG4i9dHUBeSCbxHJsZ-mpbfGyqEoTv9fHHvT1WMVQhU?via=aelf.land&via=matrix.org
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$yx4U3LPws_w-FG23ayGKDPI9PtYW-IZubs-gOgbWGJo?via=aelf.land&via=matrix.org
 
-# squareword.org 🧩 #1172 🥳 6 ⏱️ 0:02:15.544259
+# squareword.org 🧩 #1173 🥳 7 ⏱️ 0:02:40.647662
 
 📜 1 sessions
 
@@ -30,151 +30,154 @@ Score Heatmap:
     🟩 🟩 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
-    🟩 🟩 🟩 🟩 🟩
-    🟩 🟩 🟨 🟩 🟩
+    🟨 🟨 🟨 🟨 🟩
+    🟩 🟨 🟨 🟨 🟨
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    T R A D E
-    O U T E D
-    A L O N G
-    S E N S E
-    T R E E D
+    D U S T S
+    I N T R O
+    S T A I R
+    C I G A R
+    S E E D Y
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1202 🥳 12 ⏱️ 0:03:22.764563
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1203 🥳 20 ⏱️ 0:05:56.381342
 
 📜 1 sessions
-💰 score: 10400
+💰 score: 9600
 
-    2/6
-    > S T A L E
-      ⬜🟨⬜🟩⬜
-    > G U I L T
-      🟩🟩🟩🟩🟩
-    2/6
-    > P I L O T
-      ⬜⬜🟨🟨🟩
-    > S H O R T
-      🟩🟩🟩🟩🟩
     3/6
-    > F R O N T
-      ⬜⬜⬜🟨🟩
-    > H O L E S
-      ⬜⬜🟩🟨🟩
-    > L O D G E
+    > S T A R E
+      🟩⬜🟩⬜⬜
+    > S N A C K
+      🟩⬜🟩⬜⬜
+    > S L A S H
       🟩🟩🟩🟩🟩
-    3/6
-    > M O U T H
-      ⬜⬜🟨⬜⬜
-    > S O U T H
-      ⬜🟩🟨🟨⬜
-      🟩🟩🟩🟩🟩
-    Final 2/2
+    6/6
+    > B A T C H
+      ⬜⬜🟨⬜🟩
+    > W A T C H
       ⬜🟩🟩🟩🟩
+    > P A T C H
+      ⬜🟩🟩🟩🟩
+    > C A T C H
+      ⬜🟩🟩🟩🟩
+    > H A T C H
+      ⬜🟩🟩🟩🟩
+    > S P O I L
+      🟩🟩🟩🟩🟩
+    6/6
+    > F L O W N
+      ⬜⬜⬜⬜⬜
+    > G L O V E
+      ⬜⬜🟩⬜🟨
+    > G L O R Y
+      ⬜🟩🟩⬜⬜
+    > G L O O M
+      🟩🟩🟩⬜⬜
+    > S T A I R
+      🟩🟩🟩⬜⬜
+    > I D E A S
+      🟩🟩🟩🟩🟩
+    4/6
+    > D A I S Y
+      ⬜⬜⬜⬜⬜
+    > I G L O O
+      🟨⬜🟨🟨⬜
+      🟨🟨⬜🟨🟨
+      🟩🟩🟩🟩🟩
+    Final 1/2
       🟩🟩🟩🟩🟩
 
-# alfagok.diginaut.net 🧩 #166 🥳 34 ⏱️ 0:01:31.927916
+# alfagok.diginaut.net 🧩 #167 🥳 12 ⏱️ 0:00:28.740642
 
-🤔 34 attempts
-📜 2 sessions
-
-    @        [     0] &-teken        
-    @+1      [     1] &-tekens       
-    @+2      [     2] -cijferig      
-    @+3      [     3] -e-mail        
-    @+200200 [200200] lijst          q0  ? after
-    @+224326 [224326] monist         q3  ? after
-    @+227948 [227948] na             q6  ? after
-    @+229834 [229834] natuur         q8  ? after
-    @+230794 [230794] neer           q9  ? after
-    @+231416 [231416] nel            q10 ? after
-    @+231447 [231447] neme           q15 ? after
-    @+231448 [231448] nemen          done. it
-    @+231449 [231449] nemend         q33 ? before
-    @+231450 [231450] nemende        q32 ? before
-    @+231452 [231452] nemers         q31 ? before
-    @+231456 [231456] neobarok       q21 ? before
-    @+231469 [231469] neofascist     q14 ? before
-    @+231537 [231537] neoplasticisme q13 ? before
-    @+231670 [231670] nest           q11 ? before
-    @+232074 [232074] neu            q7  ? before
-    @+236364 [236364] octrooi        q4  ? before
-    @+248434 [248434] op             q2  ? before
-    @+300270 [300270] schroef        q1  ? before
-
-# alphaguess.com 🧩 #632 🥳 18 ⏱️ 0:00:38.186466
-
-🤔 18 attempts
+🤔 12 attempts
 📜 1 sessions
 
-    @       [    0] aa        
-    @+1     [    1] aah       
-    @+2     [    2] aahed     
-    @+3     [    3] aahing    
-    @+2544  [ 2544] aff       q5  ? after
-    @+3530  [ 3530] al        q6  ? after
-    @+4433  [ 4433] alphabet  q7  ? after
-    @+4483  [ 4483] alt       q10 ? after
-    @+4550  [ 4550] alto      q11 ? after
-    @+4574  [ 4574] alumin    q12 ? after
-    @+4600  [ 4600] aluminums q13 ? after
-    @+4614  [ 4614] alveolar  q14 ? after
-    @+4620  [ 4620] alvine    q15 ? after
-    @+4622  [ 4622] always    q17 ? it
-    @+4622  [ 4622] always    done. it
-    @+4623  [ 4623] alyssum   q16 ? before
-    @+4626  [ 4626] ama       q9  ? before
-    @+4877  [ 4877] amen      q8  ? before
-    @+5347  [ 5347] an        q4  ? before
-    @+11792 [11792] backbit   q3  ? before
-    @+23590 [23590] cam       q2  ? before
-    @+47407 [47407] dis       q1  ? before
-    @+98247 [98247] mach      q0  ? before
+    @        [     0] &-teken   
+    @+1      [     1] &-tekens  
+    @+2      [     2] -cijferig 
+    @+3      [     3] -e-mail   
+    @+200214 [200214] lijster   q0  ? after
+    @+225036 [225036] mor       q3  ? after
+    @+237605 [237605] olies     q4  ? after
+    @+239492 [239492] on        q5  ? after
+    @+244122 [244122] ont       q6  ? after
+    @+247180 [247180] onweren   q7  ? after
+    @+248434 [248434] op        q8  ? after
+    @+248866 [248866] opduik    q10 ? after
+    @+248937 [248937] open      q11 ? it
+    @+248937 [248937] open      done. it
+    @+249309 [249309] opens     q9  ? before
+    @+250237 [250237] ophaal    q2  ? before
+    @+300270 [300270] schroef   q1  ? before
 
-# cemantix.certitudes.org 🧩 #1142 🥳 548 ⏱️ 1:18:50.139115
+# alphaguess.com 🧩 #633 🥳 10 ⏱️ 0:00:24.210167
 
-🤔 549 attempts
+🤔 10 attempts
 📜 1 sessions
-🫧 25 chat sessions
-⁉️ 120 chat prompts
-🤖 120 gemma2:latest replies
-🔥   2 🥵   8 😎  52 🥶 458 🧊  28
 
-      $1 #549   ~1 rond             100.00°C 🥳 1000‰
-      $2 #505  ~10 ovale             56.07°C 🔥  998‰
-      $3 #495  ~13 rondeur           43.26°C 🔥  990‰
-      $4 #427  ~23 joli              40.30°C 🥵  975‰
-      $5  #17  ~59 rouge             39.57°C 🥵  970‰
-      $6  #61  ~50 gris              37.69°C 🥵  946‰
-      $7 #124  ~43 lisse             37.38°C 🥵  943‰
-      $8 #200  ~36 silhouette        37.14°C 🥵  936‰
-      $9  #21  ~57 bleu              36.28°C 🥵  918‰
-     $10  #24  ~56 blanc             36.22°C 🥵  916‰
-     $11 #499  ~11 boule             36.06°C 🥵  912‰
-     $12 #463  ~17 bouche            35.21°C 😎  893‰
-     $64 #445      sourire           26.62°C 🥶
-    $522 #522      fermeture         -0.02°C 🧊
+    @        [     0] aa     
+    @+1      [     1] aah    
+    @+2      [     2] aahed  
+    @+3      [     3] aahing 
+    @+98247  [ 98247] mach   q0  ? after
+    @+147411 [147411] rhumb  q1  ? after
+    @+159524 [159524] slop   q3  ? after
+    @+160263 [160263] snath  q7  ? after
+    @+160406 [160406] snip   q9  ? it
+    @+160406 [160406] snip   done. it
+    @+160578 [160578] snow   q8  ? before
+    @+161003 [161003] soft   q6  ? before
+    @+162511 [162511] spec   q5  ? before
+    @+165566 [165566] stick  q4  ? before
+    @+171677 [171677] ta     q2  ? before
 
-# cemantle.certitudes.org 🧩 #1109 🥳 102 ⏱️ 0:03:45.264640
+# cemantix.certitudes.org 🧩 #1143 🥳 92 ⏱️ 0:05:01.076182
 
-🤔 103 attempts
+🤔 93 attempts
 📜 1 sessions
 🫧 3 chat sessions
-⁉️ 9 chat prompts
-🤖 9 gemma2:latest replies
-😱  1 🔥  1 🥵  8 😎 20 🥶 66 🧊  6
+⁉️ 11 chat prompts
+🤖 11 gemma2:latest replies
+🥵  5 😎 24 🥶 61 🧊  2
 
-      $1 #103   ~1 tsunami          100.00°C 🥳 1000‰
-      $2  #16  ~26 earthquake        68.27°C 😱  999‰
-      $3  #76   ~8 disaster          53.23°C 🔥  993‰
-      $4 #100   ~2 tremor            45.58°C 🥵  987‰
-      $5  #12  ~29 eruption          41.60°C 🥵  979‰
-      $6   #9  ~31 volcano           40.68°C 🥵  977‰
-      $7  #24  ~23 landslide         39.72°C 🥵  975‰
-      $8  #19  ~25 magnitude         33.91°C 🥵  958‰
-      $9  #99   ~3 wave              33.36°C 🥵  955‰
-     $10  #78   ~7 evacuation        32.77°C 🥵  947‰
-     $11  #15  ~27 seismic           32.04°C 🥵  943‰
-     $12  #27  ~21 debris            27.62°C 😎  894‰
-     $32  #18      instability       17.08°C 🥶
-     $98  #26      creep             -1.04°C 🧊
+     $1 #93  ~1 invisible      100.00°C 🥳 1000‰
+     $2 #88  ~2 fantôme         43.30°C 🥵  982‰
+     $3 #28 ~23 créature        42.53°C 🥵  976‰
+     $4 #53 ~12 lumière         41.66°C 🥵  968‰
+     $5 #65 ~10 âme             41.44°C 🥵  966‰
+     $6 #18 ~27 mystère         41.11°C 🥵  960‰
+     $7 #77  ~7 inconnu         36.97°C 😎  896‰
+     $8 #74  ~8 univers         36.21°C 😎  879‰
+     $9 #68  ~9 mystique        35.13°C 😎  849‰
+    $10 #40 ~18 transcendance   34.93°C 😎  843‰
+    $11 #48 ~15 cosmos          34.84°C 😎  839‰
+    $12 #50 ~14 fantasmagorie   34.48°C 😎  823‰
+    $31 #22     symbole         25.84°C 🥶
+    $92 #10     voyage          -1.47°C 🧊
+
+# cemantle.certitudes.org 🧩 #1110 🥳 895 ⏱️ 1:26:27.729061
+
+🤔 896 attempts
+📜 2 sessions
+🫧 33 chat sessions
+⁉️ 193 chat prompts
+🤖 40 llama3.2:latest replies
+🤖 153 gemma2:latest replies
+🔥   3 🥵  20 😎  74 🥶 705 🧊  93
+
+      $1 #896   ~1 provincial        100.00°C 🥳 1000‰
+      $2 #445  ~49 municipal          52.84°C 🔥  997‰
+      $3 #386  ~70 municipality       49.89°C 🔥  996‰
+      $4 #241  ~96 government         39.19°C 🔥  992‰
+      $5 #362  ~79 bylaw              37.45°C 🥵  989‰
+      $6 #381  ~73 legislature        36.87°C 🥵  987‰
+      $7 #463  ~45 local              36.22°C 🥵  985‰
+      $8 #864  ~12 federal            35.87°C 🥵  983‰
+      $9 #412  ~59 city               34.66°C 🥵  979‰
+     $10 #873  ~11 regional           34.07°C 🥵  977‰
+     $11 #892   ~2 territorial        33.30°C 🥵  972‰
+     $25 #414  ~57 town               25.59°C 😎  895‰
+     $99 #255      accountability     15.75°C 🥶
+    $804 #655      beat               -0.05°C 🧊
