@@ -2,6 +2,7 @@
 
 import argparse
 import re
+from collections import Counter, OrderedDict
 from collections.abc import Iterable
 from typing import cast, final, override
 
@@ -58,6 +59,26 @@ class Search(StoredLog):
 
                 yield t, rest
 
+    _find_cache: OrderedDict[str, tuple[str, ...]] = OrderedDict()
+
+    def find(self, pattern: re.Pattern[str]):
+        if pattern.pattern not in self._find_cache:
+            maxsize = self.size**2
+            while len(self._find_cache) >= maxsize:
+                _ = self._find_cache.popitem(last=True)
+            self._find_cache[pattern.pattern] = tuple(self._match_wordlist(pattern))
+        else:
+            self._find_cache.move_to_end(pattern.pattern)
+        return self._find_cache[pattern.pattern]
+
+    def _match_wordlist(self, pattern: re.Pattern[str]):
+        with open(self.wordlist) as f:
+            for line in f:
+                line = line.strip().lower()
+                word = line.partition(' ')[0]
+                word = word.lower()
+                if pattern.fullmatch(word): yield word
+
     @override
     def startup(self, ui: PromptUI):
         if not self.wordlist:
@@ -67,21 +88,50 @@ class Search(StoredLog):
             self.given_wordlist = True
             ui.log(f'wordlist: {self.wordlist}')
 
-        return self.edit_letters
-
-    def show_letters(self, ui: PromptUI, fill: str = '_'):
         nx, ny = self.let_size
-        rule = f'|{"|".join(["---"] * nx)}|'
-        ui.print(rule)
+        n = nx*ny
+        if len(self.letters) != n:
+            return self.edit_letters
+
+        return self.play
+
+    def show_letters(self, ui: PromptUI,
+                     fill: str = '_',
+                     head: str|None = '',
+                     foot: str|None = '',
+                     width: int = 0):
+        nx, ny = self.let_size
+        w = max(nx * 2, width)
+        if head is not None:
+            ui.print(f'-{head:-<{w-1}}')
         for y in range(ny):
             row = (
                 self.letters[i] if i < len(self.letters) else fill
                 for i in range(nx*y, nx*y+nx))
-            ui.print(f'| {" | ".join(row)} |')
-        ui.print(rule)
+            srow = ''.join(f'{let} ' for let in row)
+            ui.print(f'{srow: ^{w}}')
+        if foot is not None:
+            ui.print(f'-{foot:-<{w-1}}')
+
+    def show_grid(self, ui: PromptUI,
+                  head: str|None='',
+                  foot: str|None=''):
+        sz = self.size
+        w = 2 * (sz + 2)
+        if head is not None:
+            ui.print(f'-{head:-<{w-1}}')
+        for y in range(sz):
+            row = (
+                self.grid[i]
+                for i in range(sz*y, sz*y+sz))
+            srow = ''.join(f'{let or "_"} ' for let in row)
+            ui.print(f'{srow: ^{w}}')
+        if foot is not None:
+            ui.print(f'-{foot:-<{w-1}}')
+        return w
 
     def edit_letters(self, ui: PromptUI):
-        self.show_letters(ui, fill = '?')
+        self.show_letters(ui, fill = '?', head='Edit Letters')
 
         nx, ny = self.let_size
         n = nx*ny
@@ -91,36 +141,67 @@ class Search(StoredLog):
             '?')
         with ui.input(f'letters{sep} ') as tokens:
             if tokens.empty:
-                ui.print(f'NOP {tokens.rest!r}')
                 if sep == '.':
                     return self.play
                 return
 
             if tokens.have('/clear'):
+                self.letters = []
                 ui.print('- cleared letters')
             else:
-                ui.print(f'EXT {tokens.rest!r}')
-                self.letters.extend(
+                addlet = [
                     let
                     for token in tokens
-                    for let in token.strip().upper())
+                    for let in token.strip().upper()]
+                self.letters.extend(addlet)
+                ui.print(f'- added lettes: {" ".join(addlet)}')
 
-            self.letters = []
             ui.log(f'letters: |{"".join(self.letters)}|')
 
     def play(self, ui: PromptUI):
-        # TODO show grid
-        self.show_letters(ui)
+        width = self.show_grid(ui)
+        self.show_letters(ui, head=None, width=width)
 
         with ui.input(f'> ') as tokens:
             if tokens.have(r'/let(ters)?'):
                 return self.edit_letters
 
-            ui.print('TODO wat f{tokens.rest}')
+            gen = tokens.have(r'\*(.*)', lambda match: str(match[1]))
+            if gen is not None:
+                return self.generate(ui, gen)
 
             # TODO * to search for words
 
-            # TODO @x,y WORD
+            # TODO @x,y cursor
+
+            # TODO write from letters -> cursor
+
+            ui.print('TODO wat f{tokens.rest}')
+
+    def generate(self, ui: PromptUI, arg: str = ''):
+        gen_n = 10
+        try:
+            gen_n = int(arg)
+        except ValueError:
+            pass
+
+        lc = Counter(self.letters)
+        al = ''.join(sorted(lc)).lower()
+        pattern = re.compile(f'[{al}]{{{1},{self.size}}}')
+
+        ui.print(f'/{pattern}')
+        words = self.find(pattern)
+        ui.print(f'- found: {len(words)}')
+
+        words = tuple( word for word in words if not any(
+            wn > lc[l]
+            for l, wn in Counter(word.upper()).items()
+        ))
+        ui.print(f'- filtered: {len(words)}')
+
+        for i, word in enumerate(words):
+            if i > gen_n-1: break
+            ui.print(f'{i+1}. {word}')
 
 if __name__ == '__main__':
     Search.main()
