@@ -4,7 +4,7 @@ import argparse
 import re
 from collections import Counter, OrderedDict
 from collections.abc import Iterable
-from typing import cast, final, override
+from typing import Literal, cast, final, override
 
 from sortem import RandScores, Sample
 from store import StoredLog
@@ -41,6 +41,8 @@ class Search(StoredLog):
         self.letters: list[str] = []
         self.grid: list[str] = [''] * self.size**2
 
+        self.cursor: tuple[int, int, Literal['X', 'Y']] = (0, 0, 'X')
+
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
         for t, rest in super().load(ui, lines):
@@ -56,6 +58,19 @@ class Search(StoredLog):
                     $''', rest)
                 if match:
                     self.letters = list(match[1])
+                    continue
+
+                match = re.match(r'''(?x)
+                    at :
+                    \s+ (?P<x> \d+ )
+                    \s+ (?P<y> \d+ )
+                    \s+ (?P<dir> [xyXY] )
+                    $''', rest)
+                if match:
+                    x = int(match[1])
+                    y = int(match[2])
+                    xy = cast(Literal['X', 'Y'], match[3].upper())
+                    self.cursor = x, y , xy
                     continue
 
                 yield t, rest
@@ -118,14 +133,17 @@ class Search(StoredLog):
                   head: str|None='',
                   foot: str|None=''):
         sz = self.size
-        w = 2 * (sz + 2)
+        def cell_str(x: int, y: int):
+            i = sz * y + x
+            let = self.grid[i]
+            mark = '@' if self.cursor[0] == x and self.cursor[1] == y else ' '
+            return f'{let or '_'}{mark}'
+
+        w = 2 * (self.size + 2)
         if head is not None:
             ui.print(f'-{head:-<{w-1}}')
         for y in range(sz):
-            row = (
-                self.grid[i]
-                for i in range(sz*y, sz*y+sz))
-            srow = ''.join(f'{let or "_"} ' for let in row)
+            srow = ''.join(cell_str(x, y) for x in range(sz))
             ui.print(f'{srow: ^{w}}')
         if foot is not None:
             ui.print(f'-{foot:-<{w-1}}')
@@ -171,44 +189,64 @@ class Search(StoredLog):
             if gen is not None:
                 return self.generate(ui, gen)
 
-            # TODO @x,y cursor
+            if tokens.have(r'@'):
+                x = tokens.have(r'\d+', lambda match: int(match[0]))
+                y = tokens.have(r'\d+', lambda match: int(match[0]))
+                xy = cast(Literal['X', 'Y'], tokens.have(r'[xyXY]', lambda match: match[0].upper()) or 'X')
+                if x is None or y is None or tokens:
+                    ui.print('! usage: @ x y [X|Y]')
+                    return
+                self.cursor = x, y, xy
+                ui.log(f'at: {x} {y} {xy}')
+                return
 
             # TODO write from letters -> cursor
 
-            ui.print('TODO wat f{tokens.rest}')
+            ui.print(f'TODO wat {tokens.rest}')
 
     def generate(self, ui: PromptUI, arg: str = ''):
-        gen_n = 10
+        cur_rem = (
+            self.size - self.cursor[0] if self.cursor[2] == 'X'
+            else self.size - self.cursor[1])
+
+        # TODO consider cur_rum
+        ideal_word_len = self.size // 2
+        verbose = 0
+        show_n = 10
+
         try:
-            gen_n = int(arg)
+            ideal_word_len = int(arg)
         except ValueError:
             pass
 
-
-        choices: list[Sample.Choice] = []
+        choices: list[Sample.Choice|re.Pattern[str]] = []
         while ui.tokens:
-            ch = Sample.parse_choice_arg(ui.tokens, show_n = gen_n)
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                verbose += len(match.group(1))
+                continue
+
+            ch = (
+                Sample.parse_choice_arg(ui.tokens, show_n=show_n) or
+                ui.tokens.have(r'/(.+)', lambda match: re.compile(str(match[1]))))
             if ch is not None:
                 choices.append(ch)
                 continue
 
-            # TODO -vv...
-
-            # TODO -jitter
-
-            # TODO /search
-
-            ui.print(f'!!! invalid * arg {ui.tokens.peek()}')
+            ui.print(f'! invalid * arg {next(ui.tokens)!r}')
             return
 
-        if not choices:
-            choices.append(('top', gen_n))
-
-        samp = Sample(choices)
+        samp = Sample(
+            Sample.compile_choices(choices,
+                lambda pats: lambda i: any(
+                    pat.search(line)
+                    for line in display(i)
+                    for pat in pats))
+            if choices else (('top', show_n),))
 
         lc = Counter(self.letters)
         al = ''.join(sorted(lc)).lower()
-        pattern = re.compile(f'[{al}]{{{1},{self.size}}}')
+        pattern = re.compile(f'[{al}]{{{1},{cur_rem}}}')
 
         ui.print(f'- find {pattern}')
         words = self.find(pattern)
@@ -220,9 +258,8 @@ class Search(StoredLog):
         ))
         ui.print(f'- filtered: {len(words)}')
 
-        half = self.size // 2
         midsc = tuple(
-            1.0 - abs(half - len(word))/half
+            1.0 - abs(ideal_word_len - len(word))/ideal_word_len
             for word in words)
 
         rand = RandScores(midsc, jitter = 0.5)
