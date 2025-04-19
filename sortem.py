@@ -8,6 +8,8 @@ from functools import reduce
 from itertools import count
 from typing import final, override, Callable, Literal, Never
 
+from strkit import PeekStr
+
 def nope(_arg: Never, mess: str =  'inconceivable'):
     assert False, mess
 
@@ -252,8 +254,25 @@ def top(k: int,
 
 @final
 class Sample:
+    Select = Literal['head','top','bot','rand']
     Filter = Callable[[int], bool]
-    Choice = tuple[Literal['head','top','bot','rand'], int] | Filter
+    Choice = tuple[Select, int] | Filter
+
+    @staticmethod
+    def parse_choice_arg(pk: PeekStr, show_n: int = 0):
+        match = pk.have(r'(?i)-(head|t(?:op)?|b(?:ot)?|r(?:and)?)(\d*)')
+        if match:
+            sel: Sample.Select
+            s = match[1].lower()
+            if s.startswith('t'): sel = 'top'
+            elif s.startswith('b'): sel = 'bot'
+            elif s.startswith('r'): sel = 'rand'
+            elif s.startswith('h'): sel = 'head'
+            else: assert False, 'inconceivable sel string'
+            n = (
+                pk.have(r'\d*', lambda match: int(match[0])) or show_n
+                if not match[2] else int(match[2]))
+            return sel, n
 
     def __init__(self, choices: Iterable[Choice]):
         self.choices = tuple(choices)
