@@ -46,7 +46,7 @@ def char_ranges(alpha: Iterable[str]):
 class Choosem:
     word_i: int
     verbose: int = 0
-    show: tuple[Sample.Choice, ...] = ()
+    show: tuple[Sample.Choice | re.Pattern[str], ...] = ()
 
 @final
 class Search(StoredLog):
@@ -711,7 +711,7 @@ class Search(StoredLog):
             word_n: int|None = None
             verbose = 0
             show_n = 10
-            show: list[Sample.Choice] = []
+            show: list[Sample.Choice|re.Pattern[str]] = []
 
             while ui.tokens.peek():
                 n = ui.tokens.have(r'\d+$', lambda m: int(m.group(0)))
@@ -724,7 +724,9 @@ class Search(StoredLog):
                     verbose += len(match.group(1))
                     continue
 
-                ch = Sample.parse_choice_arg(ui.tokens, show_n=show_n)
+                ch = (
+                    Sample.parse_choice_arg(ui.tokens, show_n=show_n) or
+                    ui.tokens.have(r'/(.+)', lambda match: re.compile(str(match[1]))))
                 if ch:
                     show.append(ch)
                     continue
@@ -767,7 +769,12 @@ class Search(StoredLog):
             if line.strip():
                 yield line
 
-        samp = Sample(self.choosing.show)
+        samp = Sample(Sample.compile_choices(
+            self.choosing.show,
+            lambda pats: lambda i: any(
+                pat.search(line)
+                for line in disp(i)
+                for pat in pats)))
         ix = list(samp.index(scores))
 
         if len(ix) == 0:
