@@ -11208,3 +11208,22 @@ See log/play.dictionary.com_games_todays-hurdle/#1203
 
 🔗 alphaguess.com
 ```
+
+# 1970-01-02 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 1111
+🤔 136 guesses
+    🥵   2
+    😎  12
+    🥶 117
+    🧊   5
+⏱️ 0:05:21.316073
+```
+
+🤔 137 attempts
+📜 0 sessions
+🫧 3 chat sessions
+⁉️ 12 chat prompts
+🤖 12 gemma2:latest replies
