@@ -6,6 +6,7 @@ from collections import Counter
 from collections.abc import Generator, Iterable, Sequence
 from functools import reduce
 from itertools import count
+import re
 from typing import final, override, Callable, Literal, Never
 
 from strkit import PeekStr
@@ -274,6 +275,22 @@ class Sample:
                 if not match[2] else int(match[2]))
             return sel, n
 
+    @staticmethod
+    def compile_choices(
+        choices: Iterable[Choice|re.Pattern[str]],
+        compile: Callable[[tuple[re.Pattern[str], ...]], Filter]):
+        pats: list[re.Pattern[str]] = []
+        for ch in choices:
+            if isinstance(ch, re.Pattern):
+                pats.append(ch)
+            else:
+                if len(pats):
+                    yield compile(tuple(pats))
+                    pats.clear()
+                yield ch
+        if len(pats):
+            yield compile(tuple(pats))
+
     def __init__(self, choices: Iterable[Choice]):
         self.choices = tuple(choices)
 
@@ -438,25 +455,15 @@ def main():
     rng_seed = cast(str|None, args.seed)
     verbose = cast(int, args.v)
 
-    def make_result_filter(*pats: re.Pattern[str]) -> Sample.Filter:
-        return lambda i: any(
-            pat.search(line)
-            for line in result(i)
-            for pat in pats)
+    choices = cast(list[Sample.Choice|re.Pattern[str]]|None, args.choices) or ()
 
-    def arg_samp_choices() -> Generator[Sample.Choice]:
-        choices = cast(list[Sample.Choice|re.Pattern[str]]|None, args.choices)
-        if not choices:
-            yield 'top', 0
-            return
-
-        for ch in choices:
-            if isinstance(ch, re.Pattern):
-                yield make_result_filter(ch)
-            else:
-                yield ch
-
-    samp = Sample(arg_samp_choices())
+    samp = Sample(
+        Sample.compile_choices(choices,
+            lambda pats: lambda i: any(
+                pat.search(line)
+                for line in result(i)
+                for pat in pats))
+        if choices else (('top', 0),))
 
     # wordlist from stdin, any filtering left as caller's exercise 
     words = [
