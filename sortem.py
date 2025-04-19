@@ -6,7 +6,10 @@ from collections import Counter
 from collections.abc import Generator, Iterable, Sequence
 from functools import reduce
 from itertools import count
+import re
 from typing import final, override, Callable, Literal, Never
+
+from strkit import PeekStr
 
 def nope(_arg: Never, mess: str =  'inconceivable'):
     assert False, mess
@@ -252,8 +255,41 @@ def top(k: int,
 
 @final
 class Sample:
+    Select = Literal['head','top','bot','rand']
     Filter = Callable[[int], bool]
-    Choice = tuple[Literal['head','top','bot','rand'], int] | Filter
+    Choice = tuple[Select, int] | Filter
+
+    @staticmethod
+    def parse_choice_arg(pk: PeekStr, show_n: int = 0):
+        match = pk.have(r'(?i)-(head|t(?:op)?|b(?:ot)?|r(?:and)?)(\d*)')
+        if match:
+            sel: Sample.Select
+            s = match[1].lower()
+            if s.startswith('t'): sel = 'top'
+            elif s.startswith('b'): sel = 'bot'
+            elif s.startswith('r'): sel = 'rand'
+            elif s.startswith('h'): sel = 'head'
+            else: assert False, 'inconceivable sel string'
+            n = (
+                pk.have(r'\d*', lambda match: int(match[0])) or show_n
+                if not match[2] else int(match[2]))
+            return sel, n
+
+    @staticmethod
+    def compile_choices(
+        choices: Iterable[Choice|re.Pattern[str]],
+        compile: Callable[[tuple[re.Pattern[str], ...]], Filter]):
+        pats: list[re.Pattern[str]] = []
+        for ch in choices:
+            if isinstance(ch, re.Pattern):
+                pats.append(ch)
+            else:
+                if len(pats):
+                    yield compile(tuple(pats))
+                    pats.clear()
+                yield ch
+        if len(pats):
+            yield compile(tuple(pats))
 
     def __init__(self, choices: Iterable[Choice]):
         self.choices = tuple(choices)
@@ -419,25 +455,15 @@ def main():
     rng_seed = cast(str|None, args.seed)
     verbose = cast(int, args.v)
 
-    def make_result_filter(*pats: re.Pattern[str]) -> Sample.Filter:
-        return lambda i: any(
-            pat.search(line)
-            for line in result(i)
-            for pat in pats)
+    choices = cast(list[Sample.Choice|re.Pattern[str]]|None, args.choices) or ()
 
-    def arg_samp_choices() -> Generator[Sample.Choice]:
-        choices = cast(list[Sample.Choice|re.Pattern[str]]|None, args.choices)
-        if not choices:
-            yield 'top', 0
-            return
-
-        for ch in choices:
-            if isinstance(ch, re.Pattern):
-                yield make_result_filter(ch)
-            else:
-                yield ch
-
-    samp = Sample(arg_samp_choices())
+    samp = Sample(
+        Sample.compile_choices(choices,
+            lambda pats: lambda i: any(
+                pat.search(line)
+                for line in result(i)
+                for pat in pats))
+        if choices else (('top', 0),))
 
     # wordlist from stdin, any filtering left as caller's exercise 
     words = [

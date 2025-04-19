@@ -334,22 +334,19 @@ class Search(StoredLog):
         return '|'.join(alts())
 
     def guess(self, ui: PromptUI, show_n: int=10):
-        shuffle = False
-        verbose = 0
-        show_top = 0
-        show_bot = 0
         jitter = 0.5
-        any_tb = False
-        search: list[str] = []
+        choices: list[Sample.Choice|re.Pattern[str]] = []
+        verbose = 0
 
-        while ui.tokens.peek():
+        while ui.tokens:
+            ch = Sample.parse_choice_arg(ui.tokens, show_n=show_n)
+            if ch is not None:
+                choices.append(ch)
+                continue
+
             match = ui.tokens.have(r'-(v+)')
             if match:
                 verbose += len(match.group(1))
-                continue
-
-            if ui.tokens.have(r'-r(and|ng)?'):
-                shuffle = True
                 continue
 
             if ui.tokens.have(r'-j(itter)?'):
@@ -367,29 +364,21 @@ class Search(StoredLog):
                     ui.print('! -jitter expected value')
                 continue
 
-            match = ui.tokens.have(r'-([tbTB])(\d+)?')
-            if match:
-                n = (
-                    int(match[2]) if match[2]
-                    else ui.tokens.have(r'\d+', lambda match: int(match[0])) or show_n)
-                if match[1].lower() == 'b':
-                    show_bot = n
-                else:
-                    show_top = n
-                any_tb = True
-                continue
-
             match = ui.tokens.have(r'/(.+)')
             if match:
-                search.append(match[1])
+                choices.append(re.compile(match[1]))
                 continue
 
-            arg = ui.tokens.take()
-            ui.print(f'! invalid * arg {arg!r}')
+            ui.print(f'! invalid * arg {next(ui.tokens)!r}')
             return
 
-        if not any_tb:
-            show_top = show_n
+        samp = Sample(
+            Sample.compile_choices(choices,
+                lambda pats: lambda i: any(
+                    pat.search(line)
+                    for line in disp(i)
+                    for pat in pats))
+            if choices else (('top', show_n),))
 
         # collect all possible words
         pattern = self.pattern(ui)
@@ -457,31 +446,10 @@ class Search(StoredLog):
             for line in disp(i, n):
                 ui.print(line)
 
-        def sample_wants() -> Generator[Sample.Choice]:
-            if search:
-                pats = tuple(re.compile(res) for res in search)
-                yield lambda i: any(
-                    pat.search(line)
-                    for line in disp(i)
-                    for pat in pats)
-                return
-
-            if shuffle:
-                yield 'rand', show_top + show_bot
-                return
-
-            if show_top or show_bot:
-                if show_top: yield 'top', show_top
-                if show_bot: yield 'bot', show_bot
-                return
-
-            yield 'top', 0
-
         def run():
             nonlocal scores, explain_score
             if scores is None:
                 scores, explain_score = self.select(ui, words)
-            samp = Sample(sample_wants())
             for i in samp.index(scores): show(i)
             return str(samp)
 
