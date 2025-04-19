@@ -132,6 +132,9 @@ class PeekIter[V]:
             self._val = next(self.it, default)
         return self._val
 
+    def __bool__(self):
+        return self.peek() is not None
+
     # TODO @deprecated('just use next(...)')
     def take(self):
         val = self._val
