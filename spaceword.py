@@ -6,6 +6,7 @@ from collections import Counter, OrderedDict
 from collections.abc import Iterable
 from typing import cast, final, override
 
+from sortem import RandScores, Sample
 from store import StoredLog
 from ui import PromptUI
 
@@ -170,8 +171,6 @@ class Search(StoredLog):
             if gen is not None:
                 return self.generate(ui, gen)
 
-            # TODO * to search for words
-
             # TODO @x,y cursor
 
             # TODO write from letters -> cursor
@@ -185,11 +184,33 @@ class Search(StoredLog):
         except ValueError:
             pass
 
+
+        choices: list[Sample.Choice] = []
+        while ui.tokens:
+            ch = Sample.parse_choice_arg(ui.tokens, show_n = gen_n)
+            if ch is not None:
+                choices.append(ch)
+                continue
+
+            # TODO -vv...
+
+            # TODO -jitter
+
+            # TODO /search
+
+            ui.print(f'!!! invalid * arg {ui.tokens.peek()}')
+            return
+
+        if not choices:
+            choices.append(('top', gen_n))
+
+        samp = Sample(choices)
+
         lc = Counter(self.letters)
         al = ''.join(sorted(lc)).lower()
         pattern = re.compile(f'[{al}]{{{1},{self.size}}}')
 
-        ui.print(f'/{pattern}')
+        ui.print(f'- find {pattern}')
         words = self.find(pattern)
         ui.print(f'- found: {len(words)}')
 
@@ -199,9 +220,24 @@ class Search(StoredLog):
         ))
         ui.print(f'- filtered: {len(words)}')
 
-        for i, word in enumerate(words):
-            if i > gen_n-1: break
-            ui.print(f'{i+1}. {word}')
+        half = self.size // 2
+        midsc = tuple(
+            1.0 - abs(half - len(word))/half
+            for word in words)
+
+        rand = RandScores(midsc, jitter = 0.5)
+
+        scores = rand.scores
+
+        def display(i: int):
+            yield f'[{i}]'
+
+            word = words[i]
+            yield f'{word}'
+
+        for n, i in enumerate(samp.index(scores), 1):
+            mess = ' '.join(display(i)) # TODO wrapping ex hurdle/square
+            ui.print(f'{n}. {mess}')
 
 if __name__ == '__main__':
     Search.main()
