@@ -8,7 +8,7 @@ import re
 from collections import OrderedDict
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
-from typing import cast, final, overload, override, Literal
+from typing import cast, final, overload, override
 
 from sortem import DiagScores, RandScores, Sample
 from store import StoredLog, git_txn
@@ -41,8 +41,6 @@ def char_ranges(alpha: Iterable[str]):
             yield a
             yield '-'
             yield b
-
-ShowChoice = tuple[Literal['top','bot','rand'], int]
 
 @dataclass
 class Choosem:
@@ -713,7 +711,7 @@ class Search(StoredLog):
             word_n: int|None = None
             verbose = 0
             show_n = 10
-            show: list[ShowChoice] = []
+            show: list[Sample.Choice] = []
 
             while ui.tokens.peek():
                 n = ui.tokens.have(r'\d+$', lambda m: int(m.group(0)))
