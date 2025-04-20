@@ -11280,3 +11280,7 @@ See log/squareword.org/#1175
 🫧 4 chat sessions
 ⁉️ 14 chat prompts
 🤖 14 gemma2:latest replies
+
+# 2025-04-20 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1205
