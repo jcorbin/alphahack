@@ -775,7 +775,7 @@ class Search(StoredLog):
         ui.print(f'#{word_i+1} {samp} of {len(words)} words ; hypo {poss.space}')
 
         with (
-            ui.catch_state((EOFError, KeyboardInterrupt), self.choice_abort),
+            ui.catch_state(EOFError, self.choice_abort),
             ui.input('try? ') as tokens):
             n = tokens.have(r'\d+', lambda match: int(match[0]))
             i = None
@@ -808,7 +808,7 @@ class Search(StoredLog):
         return self.display
 
     def question(self, ui: PromptUI):
-        with ui.catch_state((EOFError, KeyboardInterrupt), self.question_abort):
+        with ui.catch_state(EOFError, self.question_abort):
             q = self.qmode
             word = self.questioning.lower()
             desc = self.question_desc
