@@ -1,3 +1,4 @@
+import itertools
 import re
 from collections.abc import Generator, Iterable, Iterator
 from hashlib import md5
@@ -136,11 +137,26 @@ class PeekIter[V]:
     def __bool__(self):
         return self.peek() is not None
 
+    def give(self, val: V):
+        if self._val is not None:
+            self.it = itertools.chain((self._val,), self.it)
+        self._val = val
+
     # TODO @deprecated('just use next(...)')
     def take(self):
         return next(self)
 
 class PeekStr(PeekIter[str]):
+    def under(self, pattern: str|re.Pattern[str]):
+        token = self.peek()
+        if token is None: return False
+        match = re.match(pattern, token) if isinstance(pattern, str) else pattern.match(token)
+        if not match: return False
+        _ = next(self)
+        token = token[match.end():]
+        if token: self.give(token)
+        return True
+
     @overload
     def have(self, pattern: str|re.Pattern[str]) -> re.Match[str]|None:
         pass
