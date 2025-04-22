@@ -111,11 +111,12 @@ class PeekIter[V]:
         return self
 
     def __next__(self):
-        if self._val is not None:
-            val = self._val
+        val = self._val
+        if val is None:
+            val = next(self.it)
+        else:
             self._val = None
-            return val
-        return next(self.it)
+        return val
 
     @property
     def val(self):
@@ -137,12 +138,7 @@ class PeekIter[V]:
 
     # TODO @deprecated('just use next(...)')
     def take(self):
-        val = self._val
-        if val is None:
-            val = next(self.it)
-        else:
-            self._val = None
-        return val
+        return next(self)
 
 class PeekStr(PeekIter[str]):
     @overload
