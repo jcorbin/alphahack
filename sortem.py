@@ -7,9 +7,30 @@ from collections.abc import Generator, Iterable, Sequence
 from functools import reduce
 from itertools import count
 import re
-from typing import final, override, Callable, Literal, Never
+from typing import final, override, Callable, Literal, Never, TypeVar
 
 from strkit import PeekStr
+
+# TODO into strkit
+
+def wrap_items(items: Iterable[tuple[str, Iterable[str]]],
+               width: int = 70,
+               indent: str = '  '):
+    for line, body in items:
+        for part in body:
+            cat = f'{line} {part}'
+            if not line.strip() or len(cat) < width:
+                line = cat
+            else:
+                yield line
+                line = f'{indent}{part}'
+        if line.strip():
+            yield line
+
+def numbered_item(n: int, parts: Iterable[str]):
+    it = iter(parts)
+    item = f'{n}. {next(it)}'
+    return item, parts
 
 def nope(_arg: Never, mess: str =  'inconceivable'):
     assert False, mess
@@ -376,6 +397,106 @@ class Sample:
     @override
     def __str__(self):
         return ' and '.join(self.describe())
+
+@final
+class Chooser:
+    def __init__(self, show_n: int = 10):
+        self.show_n = show_n
+        self._choices: list[Sample.Choice|re.Pattern[str]] = []
+
+    def append(self, choiceOrPattern: Sample.Choice|re.Pattern[str]):
+        self._choices.append(choiceOrPattern)
+
+    def parse(self, pk: PeekStr):
+        return (
+            Sample.parse_choice_arg(pk, show_n=self.show_n) or
+            pk.have(r'/(.+)', lambda match: re.compile(str(match[1]))))
+
+    def collect(self, pk: PeekStr):
+        part = self.parse(pk)
+        if part:
+            self.append(part)
+            return True
+        return False
+
+    @property
+    def choices(self) -> Generator[Sample.Choice|re.Pattern[str]]:
+        if not self._choices:
+            yield 'top', self.show_n,
+        yield from self._choices
+
+Dat = TypeVar('Dat')
+Explainer = Callable[[int], Iterable[str]]
+Scorer = Callable[[Sequence[Dat]], tuple[Iterable[float], Explainer]]
+
+@final
+class Possible[Dat]:
+    def __init__(self, 
+                 data: Iterable[Dat],
+                 score: Scorer[Dat],
+                 show: Callable[[Dat], Iterable[str]] = lambda dat: (f'{dat}',),
+                 choices: Iterable[Sample.Choice|re.Pattern[str]] = (),
+                 verbose: int = 0, 
+                 ):
+        self.data = tuple(data)
+        self.show_dat = show
+        scores, explain = score(self.data)
+        self.scores = tuple(scores)
+        self.explain = explain
+        self.verbose = verbose
+        self.sample = Sample(Sample.compile_choices(choices, self.match_show))
+
+    @override
+    def __str__(self):
+        def parts():
+            yield f'{self.sample}'
+            have = sum(1 for _ in self.index())
+            if have < len(self.data):
+                yield f'of {len(self.data)}'
+        return ' '.join(parts())
+
+    def match_show(self, pats: tuple[re.Pattern[str], ...]) -> Callable[[int], bool]:
+        if not len(pats):
+            return lambda _: True
+
+        if len(pats) == 1:
+            pat = pats[0]
+            return lambda i: any(
+                pat.search(line)
+                for line in self.show_datum(i))
+
+        def and_match(i: int):
+            lines = tuple(self.show_datum(i))
+            return all(
+                any(
+                    pat.search(line)
+                    for line in lines)
+                for pat in pats)
+
+        return and_match
+
+    def show_datum(self, i: int) -> Generator[str]:
+        if self.verbose:
+            yield f'[{i:{len(str(len(self.data)))}}]'
+        yield from self.show_dat(self.data[i])
+        if self.verbose:
+            yield f'{100*self.scores[i]:0.2f}%'
+            yield from self.explain(i)
+
+    def index(self) -> Generator[int]:
+        yield from self.sample.index(self.scores)
+
+    def show_list(self) -> Generator[str]:
+        if self.data:
+            yield from wrap_items(
+                numbered_item(n, self.show_datum(i))
+                for n, i in enumerate(self.index(), 1))
+
+    def get(self, n: int):
+        for ln, i in enumerate(self.index(), 1):
+            if ln == n:
+                return i
+        raise IndexError('possible list ordinal out of range')
 
 def main():
     import argparse

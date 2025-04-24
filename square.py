@@ -8,7 +8,7 @@ from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
 from typing import cast, final, overload, override
 
-from sortem import DiagScores, RandScores, Sample
+from sortem import Chooser, DiagScores, Possible, RandScores
 from store import StoredLog, git_txn
 from strkit import MarkedSpec, PeekStr, spliterate
 from ui import PromptUI
@@ -40,12 +40,6 @@ def char_ranges(alpha: Iterable[str]):
             yield '-'
             yield b
 
-@dataclass
-class Choosem:
-    word_i: int
-    verbose: int = 0
-    show: tuple[Sample.Choice | re.Pattern[str], ...] = ()
-
 @final
 class Search(StoredLog):
     log_file: str = 'squareword.log'
@@ -74,7 +68,7 @@ class Search(StoredLog):
 
         self.grid: list[str] = ['' for _ in range(self.size**2)]
 
-        self.choosing: Choosem|None = None
+        self.choosing: tuple[int, 'Search.Select', Possible[str]]|None = None
 
         self.qmode: str = '?'
         self.questioning: str = ''
@@ -291,8 +285,8 @@ class Search(StoredLog):
         if row is not None:
             col_may: list[set[str]] = [set() for _ in range(self.size)]
             for col in range(self.size):
-                poss = self.possible(col=col)
-                col_may[col].update(word[row] for word in self._find(poss.pattern))
+                sel = self.select(col=col)
+                col_may[col].update(word[row] for word in self._find(sel.pattern))
             for word in self._find(pattern):
                 if all(
                     word[col] in may
@@ -333,24 +327,6 @@ class Search(StoredLog):
             yield from may
 
     recent_sug: dict[str, int] = dict()
-
-    def choose(self, ui: PromptUI, word_i: int|None = None):
-        # TODO expand choose scoring over all possible words when word_i not given
-        sel = self.select(ui, word_i)
-        if sel:
-            word_i, poss = sel
-            words = list(self.find(ui, poss.pattern, row=word_i))
-            scores, explain_score = self.score_words(word_i, words)
-            for i, word in enumerate(words):
-                if word in self.recent_sug:
-                    penalty = self.recent_sug[word]
-                    if penalty > 1:
-                        self.recent_sug[word] = penalty - 1
-                    else:
-                        del self.recent_sug[word]
-                    scores[i] /= penalty
-
-            return word_i, poss, words, scores, explain_score
 
     def score_words(self,
                     word_i: int,
@@ -416,7 +392,7 @@ class Search(StoredLog):
         return scores, annotate
 
     @final
-    class Possible:
+    class Select:
         alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
         def __init__(self,
@@ -440,6 +416,20 @@ class Search(StoredLog):
             self.space: int = len(self.alpha)**self.free
             if self.may:
                 for n in range(len(self.may), 1, -1): self.space *= n
+
+        @override
+        def __str__(self):
+            def parts():
+                word = ''.join(l if l else '_' for l in self.word).upper()
+                yield f'{word}'
+                if self.may:
+                    may = ''.join(self.may).upper()
+                    yield f'may: {may}'
+                if self.nope:
+                    nope = ''.join(self.nope).upper()
+                    yield f'nope: {nope}'
+                yield f'hypo: {self.space}'
+            return ' '.join(parts())
 
         @property
         def size(self):
@@ -472,43 +462,27 @@ class Search(StoredLog):
             return re.compile(self.pattern_str)
 
     @overload
-    def possible(self, *, row: int) -> Possible: pass
+    def select(self, *, row: int) -> Select: pass
 
     @overload
-    def possible(self, *, col: int) -> Possible: pass
+    def select(self, *, col: int) -> Select: pass
 
-    def possible(self, *, row: int|None = None, col: int|None = None) -> Possible:
+    def select(self, *, row: int|None = None, col: int|None = None) -> Select:
         if row is not None:
             # TODO reduce possible based on intersecting cols
-            return self.Possible(
+            return self.Select(
                 (self.grid[k] for k in self.row_word_range(row)),
                 may = self.row_may[row],
                 nope = self.nope)
 
         elif col is not None:
             # TODO reduce possible based on intersecting rows
-            return self.Possible(
+            return self.Select(
                 (self.grid[k] for k in self.col_word_range(col)),
                 nope = self.nope)
 
         else:
             raise RuntimeError('must provide either row or col')
-
-    def select(self, ui: PromptUI, word_i: int|None = None) -> tuple[int, Possible]|None:
-        poss: Search.Possible|None = None
-        if word_i is None:
-            smallest = 0
-            for word_j in range(self.size):
-                if all(self.grid[k] for k in self.row_word_range(word_j)): continue
-                p = self.possible(row=word_j)
-                have = sum(1 for _ in self.find(ui, p.pattern, row=word_j))
-                if not have: continue
-                if not poss or have < smallest:
-                    word_i, poss, smallest = word_j, p, have
-            assert word_i is not None
-        if poss is None:
-            poss = self.possible(row=word_i)
-        return word_i, poss
 
     skip_show: bool = False
 
@@ -534,6 +508,7 @@ class Search(StoredLog):
 
         self.show(ui)
         with ui.input(f'> ') as tokens:
+
             if tokens.have(r'\*'):
                 self.skip_show = True
                 return self.do_choose(ui)
@@ -689,103 +664,114 @@ class Search(StoredLog):
 
     def do_choose(self, ui: PromptUI) -> PromptUI.State|None:
         if self.choosing is None:
-            word_n: int|None = None
             verbose = 0
-            show_n = 10
-            show: list[Sample.Choice|re.Pattern[str]] = []
+            chooser = Chooser()
+            word_i: int|None = None
 
-            while ui.tokens.peek():
+            while ui.tokens:
                 n = ui.tokens.have(r'\d+$', lambda m: int(m.group(0)))
                 if n is not None:
-                    word_n = n
+                    word_i = n-1
                     continue
 
                 match = ui.tokens.have(r'-(v+)')
                 if match:
+                    ui.print(f'parse choosing verbose: {verbose}')
                     verbose += len(match.group(1))
                     continue
 
-                ch = (
-                    Sample.parse_choice_arg(ui.tokens, show_n=show_n) or
-                    ui.tokens.have(r'/(.+)', lambda match: re.compile(str(match[1]))))
-                if ch:
-                    show.append(ch)
+                if chooser.collect(ui.tokens):
                     continue
 
                 ui.print(f'! invalid * arg {next(ui.tokens)!r}')
                 return
 
-            res = self.choose(ui, None if word_n is None else word_n-1)
-            if res:
-                word_i = res[0]
-                self.choosing = Choosem(word_i,
-                                        verbose=verbose,
-                                        show=tuple(show) if show else (('top', show_n),))
+            # TODO expand scoring over all possible words when word_i not given
+
+            sel: Search.Select|None = None
+
+            if word_i is None:
+                smallest = 0
+                for word_j in range(self.size):
+                    if all(self.grid[k] for k in self.row_word_range(word_j)): continue
+                    p = self.select(row=word_j)
+                    have = sum(1 for _ in self.find(ui, p.pattern, row=word_j))
+                    if not have: continue
+                    if not sel or have < smallest:
+                        word_i, sel, smallest = word_j, p, have
+                if word_i is None or sel is None:
+                    ui.print('! unable to select')
+                    for word_j in range(self.size):
+                        row = tuple(self.grid[k] for k in self.row_word_range(word_j))
+                        if all(row):
+                            ui.print(f'#{word_j}: done {"".join(l or "_" for l in row)}')
+                        else:
+                            p = self.select(row=word_j)
+                            have = sum(1 for _ in self.find(ui, p.pattern, row=word_j))
+                            ui.print(f'#{word_j}: have={have} for {p} pattern: {p.pattern}')
+                    return
+
+            else:
+                sel = self.select(row=word_i)
+
+            words = list(self.find(ui, sel.pattern, row=word_i))
+            scores, explain_score = self.score_words(word_i, words)
+            for i, word in enumerate(words):
+                if word in self.recent_sug:
+                    penalty = self.recent_sug[word]
+                    if penalty > 1:
+                        self.recent_sug[word] = penalty - 1
+                    else:
+                        del self.recent_sug[word]
+                    scores[i] /= penalty
+
+            self.choosing = word_i, sel, Possible(
+                words,
+                lambda _: (scores, explain_score),
+                verbose=verbose,
+                choices=chooser.choices)
+
         return self.present_choice
 
     def present_choice(self, ui: PromptUI):
         if self.choosing is None:
             return self.display
-        res = self.choose(ui, self.choosing.word_i)
-        if not res:
-            return self.display
 
-        verbose = self.choosing.verbose
+        word_i, sel, pos = self.choosing
 
-        word_i, poss, words, scores, explain = res
-
-        def disp(i: int, n: int|None = None):
-            word = words[i]
-            if n is None: n = i + 1
-            line = f'{n}. {word}'
-            if verbose:
-                lw = 70
-                for part in explain(i):
-                    cat = f'{line} {part}'
-                    if not line.strip() or len(cat) < lw:
-                        line = cat
-                    else:
-                        yield line
-                        line = f'    {part}'
-            if line.strip():
-                yield line
-
-        samp = Sample(Sample.compile_choices(
-            self.choosing.show,
-            lambda pats: lambda i: any(
-                pat.search(line)
-                for line in disp(i)
-                for pat in pats)))
-        ix = list(samp.index(scores))
-
-        if len(ix) == 0:
+        if len(pos.data) == 0:
             ui.print('!!! #{word_i+1} no choices')
             return self.display
 
-        if len(ix) == 1:
+        if len(pos.data) == 1:
             ui.print(f'=== #{word_i+1} must be')
-            i = ix[0]
-            choice = words[i]
+            i = next(pos.index())
+            choice = pos.data[i]
             self.recent_sug[choice] = 10
             return self.ask_question(ui, choice, f'#{word_i+1}')
 
-        for n, i in enumerate(ix, 1):
-            for line in disp(i, n):
-                ui.print(line)
-        ui.print(f'#{word_i+1} {samp} of {len(words)} words ; hypo {poss.space}')
+        ui.print(f'#{word_i+1} {pos} from {sel}')
+        for line in pos.show_list():
+            ui.print(line)
 
         with (
             ui.catch_state(EOFError, self.choice_abort),
             ui.input('try? ') as tokens):
+
+            if tokens.have(r'\*'):
+                self.skip_show = True
+                self.choosing = None
+                return self.do_choose(ui)
+
             n = tokens.have(r'\d+', lambda match: int(match[0]))
             i = None
             if n is not None:
                 try:
-                    i = ix[n-1]
+                    i = pos.get(n)
                 except IndexError:
                     pass
             if i is not None:
-                choice = words[i]
+                choice = pos.data[i]
                 self.recent_sug[choice] = 10
                 return self.ask_question(ui, choice, f'#{word_i+1}')
 

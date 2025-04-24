@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from os import path
 from typing import cast, final, override
 
-from sortem import DiagScores, RandScores, Sample
+from sortem import Chooser, DiagScores, Possible, RandScores
 from strkit import spliterate, PeekIter
 from ui import PromptUI
 from store import StoredLog, atomic_rewrite, git_txn
@@ -305,6 +305,18 @@ class Search(StoredLog):
         self.nope_letters = set()
         self.may_letters = set()
 
+    def describe_space(self):
+        def parts():
+            word = ''.join(l if l else '_' for l in self.word).upper()
+            yield f'{word}'
+            if self.may_letters:
+                may = ''.join(self.may_letters).upper()
+                yield f'may: {may}'
+            if self.nope_letters:
+                nope = ''.join(self.nope_letters).upper()
+                yield f'nope: {nope}'
+        return ' '.join(parts())
+
     def pattern(self, _ui: PromptUI):
         alpha = set('abcdefghjiklmnopqrstuvwxyz')
         uni = '.'
@@ -334,14 +346,12 @@ class Search(StoredLog):
         return '|'.join(alts())
 
     def guess(self, ui: PromptUI, show_n: int=10):
-        jitter = 0.5
-        choices: list[Sample.Choice|re.Pattern[str]] = []
         verbose = 0
+        jitter = 0.5
+        chooser = Chooser(show_n=show_n)
 
         while ui.tokens:
-            ch = Sample.parse_choice_arg(ui.tokens, show_n=show_n)
-            if ch is not None:
-                choices.append(ch)
+            if chooser.collect(ui.tokens):
                 continue
 
             match = ui.tokens.have(r'-(v+)')
@@ -364,29 +374,10 @@ class Search(StoredLog):
                     ui.print('! -jitter expected value')
                 continue
 
-            match = ui.tokens.have(r'/(.+)')
-            if match:
-                choices.append(re.compile(match[1]))
-                continue
-
             ui.print(f'! invalid * arg {next(ui.tokens)!r}')
             return
 
-        samp = Sample(
-            Sample.compile_choices(choices,
-                lambda pats: lambda i: any(
-                    pat.search(line)
-                    for line in disp(i)
-                    for pat in pats))
-            if choices else (('top', show_n),))
-
-        # collect all possible words
-        pattern = self.pattern(ui)
-        words = set(self.find(re.compile(pattern)))
-        if self.debug:
-            ui.log(f'select pattern r"{pattern}" found {len(words)}')
-        if verbose:
-            ui.print(f'- pattern r"{pattern}" found {len(words)}')
+        words = set(self.find(re.compile(self.pattern(ui))))
 
         # drop any words that intersect tried prior letters
         tried_words = [
@@ -409,61 +400,25 @@ class Search(StoredLog):
                             if not self.word[i]:
                                 ui.print(f'    - {let.upper()} from {self.tried[j]!r}[{i}]')
 
-        words = sorted(words)
+        pos = Possible(
+            sorted(words),
+            lambda words: self.select(ui, words, jitter=jitter),
+            choices=chooser.choices,
+            verbose=verbose)
 
-        scores = None
-        explain_score = None
-        if verbose:
-            scores, explain_score = self.select(ui, words, jitter=jitter)
+        def parts():
+            yield f'{pos} from {self.describe_space()}'
+            if tried_words:
+                yield f'less ∩tried {len(tried_words)}'
 
-        def explain(i: int) -> Generator[str]:
-            if scores is not None:
-                score = scores[i]
-                yield f'{100*score:0.2f}%'
-            if explain_score is not None:
-                yield from explain_score(i)
+        ui.print(' '.join(parts()))
+        for line in pos.show_list():
+            ui.print(line)
 
-        bw = len(str(len(words))) + 1
-
-        def disp(i: int, n: int|None = None):
-            word = words[i]
-            if n is None: n = i + 1
-            bullet = f'{n}.'
-            line = f'{bullet:{bw}} {word}'
-            if verbose:
-                lw = 70
-                for part in explain(i):
-                    cat = f'{line} {part}'
-                    if not line.strip() or len(cat) < lw:
-                        line = cat
-                    else:
-                        yield line
-                        line = f'    {part}'
-            if line.strip():
-                yield line
-
-        def show(i: int, n: int|None = None):
-            for line in disp(i, n):
-                ui.print(line)
-
-        def run():
-            nonlocal scores, explain_score
-            if scores is None:
-                scores, explain_score = self.select(ui, words)
-            for i in samp.index(scores): show(i)
-            return str(samp)
-
-        if words:
-            desc = run()
-            ui.print(f'... {desc} of {len(words)} possible words')
-
-        elif tried_words:
-            ui.print('no words probable; reconsider:')
+        if not pos.data and tried_words:
+            ui.print('; maybe reconsider:')
             for i, word in tried_words:
                 ui.print(f'{i+1}. {word}')
-
-        else:
-            ui.print('no words possible')
 
     def tried_letters(self, word: str):
         for i, let in enumerate(word):
