@@ -174,12 +174,16 @@ class Board:
         for line in self.show_grid(
                 mark=mark,
                 head=head, head_align=head_align,
-                foot=mid, foot_align=mid_align,
-                ):
+                foot=None):
             width = max(width, len(line))
             yield line
-        yield from self.show_letters(head=None, width=width,
-                                     foot=foot, foot_align=foot_align)
+        if mid is not None:
+            yield ruler(mid, width, mid_align)
+        if any(l for l in self.letters):
+            yield from self.show_letters(head=None, width=width,
+                                         foot=foot, foot_align=foot_align)
+        elif foot:
+            yield ruler(foot, width, foot_align)
 
     def show_letters(self,
                      fill: str = '_',
