@@ -767,6 +767,9 @@ class SpaceWord(StoredLog):
                 ui.log(f'result: {json.dumps(self.result_text)}')
             return
 
+        if ui.tokens.have(r'/st(ore)?'):
+            return self.store
+
         if ui.tokens.have(r'/let(ters)?'):
             return self.edit_letters
 
