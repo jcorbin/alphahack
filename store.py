@@ -431,10 +431,6 @@ class StoredLog:
                 return self.review
             ui.print(f'Fixing stored log file name {self.log_file} -> {want_log_file}')
 
-        if not (self.run_done or self.is_expired):
-            ui.print('! declining to store unfinished and unexpired log')
-            raise StopIteration
-
         if not self.site:
             with ui.input('🔗 site ? ') as tokens:
                 site = next(tokens, '')
