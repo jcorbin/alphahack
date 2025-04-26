@@ -610,8 +610,11 @@ class SpaceWord(StoredLog):
                     ''', tokens.raw)
                 if not match: return
                 kind = str(match[1])
-                d = date(int(match[2]), int(match[3]), int(match[4]))
-                self.puzzle_id = f'{kind}_{d:%Y%m%d}'
+                y, m, d = int(match[2]), int(match[3]), int(match[4])
+                if kind == 'weekly':
+                    self.puzzle_id = f'{date(y, m, d+1):%Y-W%V}'
+                else:
+                    self.puzzle_id = f'{date(y, m, d):%Y-%m-%d}'
                 ui.log(f'puzzle_id: {self.puzzle_id}')
 
         if not self.num_letters:
@@ -633,19 +636,23 @@ class SpaceWord(StoredLog):
 
     def _id_parts(self) -> tuple[Literal['daily', 'weekly'], date] | None:
         match = re.match(r'''(?x)
-            (?P<kind> daily | weekly )
-            _
-            (?P<year> \d{4} )
-            (?: \s* | [-_:.] )
-            (?P<month> \d{2} )
-            (?: \s* | [-_:.] )
-            (?P<day> \d{2} )
+            (?P<year> \d{4} ) - (?:
+                (?P<month> \d{2} ) - (?P<day> \d{2} )
+              | W (?P<week> \d{2} ) )
             ''', self.puzzle_id)
         if not match:
             return None
-        kind = cast(Literal['daily', 'weekly'], str(match[1]))
-        d = date(int(match[2]), int(match[3]), int(match[4]))
-        return kind, d
+
+        y = int(match.group('year'))
+        gw = cast(str|None, match.group('week'))
+        if gw:
+            dt = date.fromisocalendar(y, int(gw), 1)
+            return 'weekly', dt - timedelta(days=1)
+
+        gm = cast(str|None, match.group('month'))
+        gd = cast(str|None, match.group('day'))
+        if gm and gd:
+            return 'daily', date(y, int(gm), int(gd))
 
     @property
     def kind(self) -> Literal['daily', 'weekly'] | None:
