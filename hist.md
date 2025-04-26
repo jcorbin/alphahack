@@ -11694,3 +11694,23 @@ See log/spaceword.org/daily_20250425
 
 🔗 alphaguess.com
 ```
+
+# 1970-01-02 cemantle.certitudes.org
+
+```
+🔗 cemantle.certitudes.org
+🧩 1118
+🤔 124 guesses
+    🔥  6
+    🥵 10
+    😎 27
+    🥶 80
+    🧊  1
+⏱️ 0:08:21.536620
+```
+
+🤔 125 attempts
+📜 0 sessions
+🫧 4 chat sessions
+⁉️ 17 chat prompts
+🤖 17 gemma2:latest replies
