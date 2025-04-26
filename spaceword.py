@@ -747,6 +747,14 @@ class SpaceWord(StoredLog):
         if ui.tokens.have(r'/let(ters)?'):
             return self.edit_letters
 
+        if ui.tokens.have(r'/cl(ear)?'):
+            self.update(ui, (
+                (i, '')
+                for i, let in enumerate(self.board.grid)
+                if let))
+            ui.print('cleared board')
+            return
+
         if ui.tokens.under(r'\*'):
             return self.generate(ui)
 
