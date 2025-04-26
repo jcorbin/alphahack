@@ -220,9 +220,6 @@ class StoredLog:
                         if line_no >= self.cursor: break
                     ui.print('Truncated log into {new_log_file}')
 
-                if not self.stl.ephemeral:
-                    raise NotImplementedError('cut-over in progress log session')
-
                 return self.stl.load_log(ui, new_log_file)
 
     def load(self, ui: PromptUI, lines: Iterable[str]):
@@ -309,6 +306,10 @@ class StoredLog:
     def load_log(self, ui: PromptUI, log_file: str|None = None):
         if log_file is None:
             log_file = self.log_file
+        if log_file == self.log_file and self.loaded:
+            return self
+        if not self.ephemeral:
+            raise CutoverLogError(log_file)
         if self.loaded:
             self.__init__()
         if log_file and os.path.exists(log_file):
@@ -336,6 +337,10 @@ class StoredLog:
             try:
                 with self.log_to(ui):
                     ui.interact(self.run)
+            except CutoverLogError as cutover:
+                self.__init__()
+                self.log_file = cutover.log_file
+                return self
             except (EOFError, KeyboardInterrupt):
                 raise StopIteration
         return self.store
@@ -363,12 +368,6 @@ class StoredLog:
         return sum(
             (s.elapsed for s in self.sessions),
             start=datetime.timedelta(seconds=0))
-
-    def reload(self, ui: PromptUI, filename: str):
-        self.__init__()
-        with open(filename, 'r') as f:
-            for _ in self.load(ui, f): pass
-        self.log_file = filename
 
     @contextmanager
     def log_to(self, ui: PromptUI, log_file: str|None=None):
@@ -468,26 +467,12 @@ class StoredLog:
             self.store_extra(ui, txn)
 
     @contextmanager
-    def _pending_log_file(self, ui: PromptUI, filename: str):
-        prior_log = self.log_file
-        self.log_file = filename
-        try:
-            yield
-        except:
-            self.log_file = prior_log
-            raise
-        self.reload(ui, self.log_file)
-
-    @contextmanager
     def storing_to(self, ui: PromptUI):
         store_to = self.should_store_to or ''
         prior_log = self.log_file
         if not prior_log or not store_to: return
         was_stored = self.stored
-        with (
-            self._pending_log_file(ui, store_to),
-            git_txn(f'{self.site_name or self.store_name} day {self.puzzle_id}', ui=ui) as txn
-        ):
+        with git_txn(f'{self.site_name or self.store_name} day {self.puzzle_id}', ui=ui) as txn:
             with (
                 txn.will_rm(prior_log) if was_stored else nullcontext(),
                 txn.will_add(store_to)):
@@ -504,6 +489,8 @@ class StoredLog:
                 os.unlink(prior_log)
                 ui.write(f' <- {prior_log}')
             ui.fin()
+
+        _ = self.load_log(ui, store_to)
 
     def store_extra(self, _ui: PromptUI, _txn: 'git_txn'):
         pass
@@ -594,6 +581,12 @@ class StoredLog:
 
             for line in lines:
                 print(line, file=w)
+
+@final
+class CutoverLogError(RuntimeError):
+    def __init__(self, log_file: str):
+        super().__init__('cutover to new log file')
+        self.log_file = log_file
 
 @final
 class git_txn:
