@@ -84,11 +84,13 @@ class Board:
         self.letters: list[str] = list(letters)
         self.grid: list[str] = [''] * self.size**2
         for i, l in enumerate(grid):
-            if i < len(self.grid[i]):
+            if i < len(self.grid):
                 self.grid[i] = l
 
     @property
     def re_letter(self):
+        if not any(l for l in self.letters):
+            return '\\0'
         ls = set(l for l in self.letters if l)
         return f'[{''.join(sorted(ls)).lower()}]'
 
@@ -205,7 +207,7 @@ class Board:
             row = (
                 letters[i] if i < len(letters) else fill
                 for i in range(nx*y, nx*y+nx))
-            srow = ''.join(f'{let} ' for let in row)
+            srow = ''.join(f'{let or " "} ' for let in row)
             yield f'{srow: ^{w}}'
         if foot is not None:
             yield ruler(foot, w, foot_align)
@@ -527,6 +529,19 @@ class SpaceWord(StoredLog):
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
 
                 match = re.match(r'''(?x)
+                    wordlist :
+                    \s+
+                    (?P<wordlist> [^\s]+ )
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    wordlist, rest = match.groups()
+                    assert rest == ''
+                    self.wordlist = wordlist
+                    self.given_wordlist = True
+                    continue
+
+                match = re.match(r'''(?x)
                     result :
                     \s* (?P<json> .+ )
                     $''', rest)
@@ -737,6 +752,9 @@ class SpaceWord(StoredLog):
             return self.handle_play(ui)
 
     def handle_play(self, ui: PromptUI):
+        if not ui.tokens:
+            return
+
         if ui.tokens.have(r'/res(ult)?'):
             ui.print('Provide share result:')
             self.result_text = ui.may_paste()
@@ -807,10 +825,16 @@ class SpaceWord(StoredLog):
             self.update(ui, sel.updates(word))
             return
 
-        erase_n = ui.tokens.have(r'(\d*)_', lambda match: int(match[1]))
+        erase_n = ui.tokens.have(
+            r'(?x) ( \d* ) _ | _ ( \d* )', lambda match:
+                int(match[1]) if match[1] else
+                int(match[2]) if match[2] else
+                1)
         if erase_n is not None:
             self.erase_at(ui, erase_n)
             return
+
+        ui.print(f'! unknown input {ui.tokens.rest!r}')
 
     def move_to(self, ui: PromptUI, x: int, y: int, xy: Literal['X', 'Y'] = 'X'):
         self.cursor = x, y, xy
@@ -827,7 +851,7 @@ class SpaceWord(StoredLog):
 
         changes = tuple(
             (i, '')
-            for i, l in zip(ic, prior)
+            for i, l in zip(ic, prior[:erase_n])
             if l)
         if not changes:
             ui.print(f'- noop erase {erase_n} @ {self.cursor}')
@@ -859,7 +883,7 @@ class SpaceWord(StoredLog):
                 try:
                     word = pos.data[pos.get(n)]
                 except IndexError as err:
-                    ui.print('! invalid *-list reference: {err}')
+                    ui.print(f'! invalid *-list reference: {err}')
                     return
                 ui.print(f'- writing {word!r} @ {sel.cursor}')
                 self.update(ui, sel.updates(word))
@@ -902,7 +926,7 @@ class Result:
                 \s+
                 at
                 \s+
-                ( .+? )
+                ( .+ )
                 ''', line)
             if match:
                 url = match[1]
