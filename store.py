@@ -128,22 +128,21 @@ class StoredLog:
                     mess = str(match.group(2))
                     yield line_no, time, mess
 
-        def cursor_context(self, C: int = 5):
+        def __call__(self, ui: PromptUI):
+            C = 5
             line_lo = max(0, self.cursor - C)
             line_hi = self.cursor + C
-            for line_no, time, mess in self.parse_log():
-                if line_no < line_lo: continue
-                if line_no >= line_hi: break
-                yield line_no, time, mess
-
-        def __call__(self, ui: PromptUI):
             found = False
-            for line_no, time, mess in self.cursor_context():
-                found = True
-                ui.print(f'{"***" if line_no == self.cursor else "   "} {line_no}. T{time:.1f} {mess}')
+            last_line = 0
+            for line_no, time, mess in self.parse_log():
+                if line_lo < line_no <= line_hi:
+                    found = True
+                    ui.print(f'{"***" if line_no == self.cursor else "   "} {line_no}. T{time:.1f} {mess}')
+                elif found: break
+                last_line = line_no
+
             if not found:
-                ui.print(f'!!! lost cursor, resetting')
-                self.cursor = 1
+                self.cursor = last_line if self.cursor > last_line else 1
                 return
 
             with ui.input(f'replay> ') as tokens:
