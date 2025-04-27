@@ -252,12 +252,6 @@ class Search(StoredLog):
         return self.orient
 
     @override
-    def hist_body(self, ui: PromptUI):
-        return break_sections(
-            fenceit(self.describe_result(ui)),
-            self.info())
-
-    @override
     def review(self, ui: PromptUI):
         # TODO reconcile with result fixup ala square/hurdle
         if self.result is None and not self.stored: return self.orient

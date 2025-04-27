@@ -98,9 +98,6 @@ class StoredLog:
     def run_done(self) -> bool:
         return False
 
-    def hist_body(self, _ui: PromptUI) -> Generator[str]:
-        yield f'See {self.log_file}'
-
     def review(self, ui: PromptUI) -> PromptUI.State|None:
         for line in self.report_body:
             ui.print(line)
@@ -305,7 +302,6 @@ class StoredLog:
     ### store specifics
 
     store_dir: str = 'log/'
-    hist_file: str = 'hist.md'
     log_file: str = 'unknown.log'
     ephemeral: bool = True
 
@@ -361,45 +357,6 @@ class StoredLog:
         exp = self.expire
         return exp is not None and datetime.datetime.now(tzlocal()) >= exp
 
-    def update_hist_file(self, ui: PromptUI):
-        if not self.hist_file:
-            ui.print('! no hist file set to update')
-            return
-
-        date = self.today
-        if date is None:
-            ui.print('! cannot find hist entry, today undefined')
-            return
-
-        site = self.site
-        if not site:
-            ui.print('! cannot find hist entry, site empty')
-            return
-
-        with atomic_file(self.hist_file) as f:
-            for line in self.update_hist_lines(ui, date, site):
-                print(line, file=f)
-
-        ui.print(f'💾 updated {self.hist_file}')
-
-    def update_hist_lines(self, ui: PromptUI, date: datetime.date, site: str) -> Generator[str]:
-        header = f'# {date:%Y-%m-%d} {site}'
-        body = self.hist_lines(ui, date)
-        with open(self.hist_file, mode='r') as f:
-            yield from break_sections(
-                replace_sections(f,
-                    lambda line: body if line.startswith(header) else None),
-                body)
-
-    def hist_lines(self, ui: PromptUI, date: datetime.date) -> Generator[str]:
-        it = self.hist_body(ui)
-        yield f'# {date:%Y-%m-%d} {self.site}'.strip()
-        for line in it:
-            if line: yield ''
-            yield line
-            break
-        yield from it
-
     @property
     def elapsed(self):
         return sum(
@@ -432,14 +389,12 @@ class StoredLog:
 
     def add_args(self, parser: argparse.ArgumentParser):
         _ = parser.add_argument('--store-log', default=self.store_dir)
-        _ = parser.add_argument('--store-hist', default=self.hist_file)
         _ = parser.add_argument('--site', default=self.default_site)
         _ = parser.add_argument('log_file', nargs='?', default=self.log_file)
 
     def from_args(self, args: argparse.Namespace):
         self.log_file = cast(str, args.log_file)
         self.store_dir = cast(str, args.store_log)
-        self.hist_file = cast(str, args.store_hist)
         self.site = self.default_site = cast(str, args.site)
 
     @property
@@ -467,8 +422,8 @@ class StoredLog:
         return os.path.join(self.store_dir, self.store_name, puzzle_id)
 
     def store(self, ui: PromptUI) -> PromptUI.State|None:
-        if not self.store_dir and not self.hist_file:
-            ui.print('! no store dir or hist file set')
+        if not self.store_dir:
+            ui.print('! no store dir')
             raise StopIteration
 
         if self.stored:
@@ -511,17 +466,9 @@ class StoredLog:
         self.do_store(ui, date)
         self.do_report(ui)
 
-    def do_store(self, ui: PromptUI, date: datetime.date):
+    def do_store(self, ui: PromptUI, _date: datetime.date):
         with self.storing_to(ui) as txn:
             self.store_extra(ui, txn)
-            if self.hist_file:
-                with (
-                    txn.will_add(self.hist_file),
-                    open(self.hist_file, mode='a') as f
-                ):
-                    print('', file=f)
-                    for line in self.hist_lines(ui, date):
-                        print(line, file=f)
 
     @contextmanager
     def _pending_log_file(self, ui: PromptUI, filename: str):

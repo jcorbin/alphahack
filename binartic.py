@@ -12,7 +12,7 @@ from typing import cast, final, override, Literal
 from urllib.parse import urlparse
 
 from store import StoredLog, git_txn
-from strkit import spliterate, MarkedSpec
+from strkit import MarkedSpec
 from wordlist import Browser, WordList, format_browser_lines, whatadded
 from ui import PromptUI
 
@@ -705,12 +705,6 @@ class Search(StoredLog):
     @override
     def run_done(self) -> bool:
         return self.result is not None
-
-    @override
-    def hist_body(self, _ui: PromptUI) -> Generator[str]:
-        yield '```'
-        yield from spliterate(self.result_text, '\n', trim = True)
-        yield '```'
 
     @override
     def store_extra(self, ui: PromptUI, txn: git_txn):

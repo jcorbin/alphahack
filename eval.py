@@ -30,7 +30,6 @@ def strat_hack(words: Sequence[str], echo: bool=False, log: bool=False) -> Guess
     search = Search()
     search.set_words(ui, words)
     search.store_dir = ''
-    search.hist_file = ''
     search.log_file = ''
 
     state: PromptUI.State = search
