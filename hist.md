@@ -11751,3 +11751,7 @@ See log/spaceword.org/2025-04-26
 # 2025-04-27 squareword.org
 
 See log/squareword.org/#1182
+
+# 2025-04-27 https://play.dictionary.com/games/todays-hurdle
+
+See log/play.dictionary.com_games_todays-hurdle/#1212
