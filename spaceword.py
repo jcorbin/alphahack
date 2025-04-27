@@ -728,7 +728,12 @@ class SpaceWord(StoredLog):
             mid=f'[score: {self.board.score}]', mid_align='>',
             mark=lambda x, y: '@' if self.cursor[0] == x and self.cursor[1] == y else ' ',
         ): ui.print(line)
-        with ui.input(f'> '):
+        def prompt_parts():
+            res = self.result
+            if res:
+                yield f'[best:{res.score}]'
+            yield '> '
+        with ui.input(' '.join(prompt_parts())):
             return self.handle_play(ui)
 
     def handle_play(self, ui: PromptUI):
