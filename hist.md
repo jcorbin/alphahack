@@ -11747,3 +11747,7 @@ See log/spaceword.org/2025-04-26
 
 🔗 alphaguess.com
 ```
+
+# 2025-04-27 squareword.org
+
+See log/squareword.org/#1182
