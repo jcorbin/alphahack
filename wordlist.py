@@ -35,12 +35,12 @@ class WordList:
         self.name = fable if isinstance(fable, str) else str(fable.name)
         self.asof = asof
         self.exclude_file = exclude_file(self.name, exclude_suffix)
-        self._tokens: list[str]|None = None if isinstance(fable, str) else list(tokens_from(fable))
+        self._tokens: tuple[str, ...]|None = None if isinstance(fable, str) else tuple(tokens_from(fable))
 
     @property
     def tokens(self):
         if self._tokens is None:
-            self._tokens = list(tokens_from(self.name))
+            self._tokens = tuple(tokens_from(self.name))
         return self._tokens
 
     def validate(self, sig: str|None = None, size: int|None = None, excludes: int|None = None):
