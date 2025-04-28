@@ -497,26 +497,29 @@ class SpaceWord(StoredLog):
         def parts():
             res = self.result
             if not res:
-                yield f'😦 incomplete'
-                yield f'score: {self.board.score}'
-                used = sum(1
-                    for l in self.board.letters
-                    if not l)
-                yield f'tiles: {used}/{len(self.board.letters)}'
-
+                yield f'😦 incomplete {self.board.score}'
             else:
-                yield  f'🥳 rank: {res.rank[0]}/{res.rank[1]}'
-                yield f'score: {res.score}'
-                yield f'tiles: {res.tiles[0]}/{res.tiles[1]}'
-
+                yield f'🥳 {res.score} rank {res.rank[0]}'
             yield f'⏱️ {self.elapsed}'
-
         return ' '.join(parts())
 
     @property
     @override
     def report_body(self) -> Generator[str]:
         yield from super().report_body
+
+        res = self.result
+        if not res:
+            used = sum(1
+                for l in self.board.letters
+                if not l)
+            yield f'- tiles: {used}/{len(self.board.letters)}'
+            yield f'- score: {self.board.score} bonus: {self.board.space_bonus:+}'
+
+        else:
+            yield f'- tiles: {res.tiles[0]}/{res.tiles[1]}'
+            yield f'- score: {res.score} bonus: {res.bonus:+}'
+            yield f'- rank: {res.rank[0]}/{res.rank[1]}'
 
         yield ''
         for line in self.board.show_grid(head=None, foot=None):
