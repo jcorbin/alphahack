@@ -9,10 +9,10 @@ from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from dateutil.tz import gettz
-from itertools import chain
+from itertools import chain, islice, repeat
 from typing import Callable, Literal, Never, cast, final, override
 
-from sortem import Chooser, Possible, RandScores
+from sortem import Chooser, Possible, Sample, RandScores, match_show, numbered_item, wrap_item
 from store import StoredLog
 from strkit import MarkedSpec, spliterate
 from ui import PromptUI
@@ -106,6 +106,11 @@ def re_count(atoms: Iterable[str]):
     if last and n:
         lo = 0 if did else 1
         yield f'{last}{{{lo},{n}}}' if n > 1 else last
+
+def re_letter(lets: Iterable[str]):
+    lets = (l.strip() for l in lets)
+    s = ''.join(sorted(l for l in set(lets) if l))
+    return f'[{s.lower()}]' if s else '\\0'
 
 def ruler(
     content: str,
@@ -232,12 +237,28 @@ class Board:
                     yield j, l
         yield from simplify(updates(), self.grid, self.letters)
 
+    def diff(self, other: 'Board') -> Generator[tuple[int, str]]:
+        assert self.size == other.size
+        def updates():
+            for i, (a, b) in enumerate(zip(self.grid, other.grid)):
+                if a and a != b:
+                    # TODO could narrow down to "only if needed for reuse"
+                    yield i, ''
+            for i, (a, b) in enumerate(zip(self.grid, other.grid)):
+                if b and a != b: yield i, b
+        yield from simplify(updates(), self.grid, self.letters)
+
     @property
-    def re_letter(self):
-        if not any(l for l in self.letters):
-            return '\\0'
-        ls = set(l for l in self.letters if l)
-        return f'[{''.join(sorted(ls)).lower()}]'
+    def re_letter_avail(self):
+        return re_letter(self.letters)
+
+    @property
+    def re_letter_all(self):
+        return re_letter(chain(self.letters, self.grid))
+
+    @property
+    def all_pattern(self):
+        return re.compile(f'{self.re_letter_all}{{2,{self.size}}}')
 
     def ix_defined(self):
         sz = self.size
@@ -483,7 +504,7 @@ class Board:
                 if let:
                     yield let.lower()
                 elif not dot:
-                    dot = self.board.re_letter
+                    dot = self.board.re_letter_avail
                     yield dot
                 else:
                     yield dot
@@ -1066,6 +1087,7 @@ class SpaceWord(StoredLog):
             ui.print('cleared board')
             return
 
+<<<<<<< HEAD
         if ui.tokens.have(r'/shift'):
             dx = 0
             dy = 0
@@ -1110,6 +1132,22 @@ class SpaceWord(StoredLog):
             self.update(ui, self.board.shift(dx, dy))
             ui.print(f'centered board D:{dx:+},{dy:+}')
             return
+=======
+        if ui.tokens.under(r'~'):
+            def done(board: Board|None):
+                if board:
+                    self.update(ui, self.board.diff(board))
+                return self.play
+
+            def reject(board: Board):
+                sc = board.score
+                res = self.result
+                if res and sc <= res.score: return True
+                if sc <= self.board.score: return True
+                return False
+
+            return Search(self.board, self.wordlist, done, reject)
+>>>>>>> 8ed3114 (spaceword: add frontier Search.Halo)
 
         if ui.tokens.under(r'\*'):
             return self.generate(ui)
@@ -1222,6 +1260,446 @@ class SpaceWord(StoredLog):
                 return self.play
 
         return interact
+
+@final
+class Search:
+    def __init__(self,
+                 board: Board,
+                 wordlist: WordList,
+                 ret: Callable[[Board|None], PromptUI.State],
+                 reject: Callable[[Board], bool] = lambda _: False,
+                 ):
+        self.board = board.copy()
+        self.wordlist = wordlist
+        self.ret = ret
+        self.reject = reject
+
+        self.frontier: Search.Halo = Search.Halo.of([self.board])
+        self.frontier_cap: int = 0
+        self.halos: dict[str, Search.Halo] = dict()
+        self.last_shown: str = 'may'
+
+    def all_words(self):
+        return grep(
+            self.wordlist.words,
+            self.board.all_pattern,
+            anchor='full')
+
+    def get_halo(self, key: str) -> 'Search.Halo|None':
+        return self.frontier if key == 'frontier' else self.halos.get(key)
+
+    def update_halos(self, items: Iterable[tuple[str, 'Halo|None']]):
+        for key, halo in items:
+            if halo:
+                self.halos[key] = halo
+            elif key in self.halos:
+                del self.halos[key]
+
+    def offer_halo(self, may: 'Halo'):
+        done = may.split(lambda board, i: may.scores[i] > 1)
+        reject = None if done is None else done.split(lambda board, i: self.reject(board))
+        self.update_halos((
+            ('may', may),
+            ('done', done),
+            ('dead', may.split(lambda board, i: may.scores[i] < 0)),
+            ('reject', reject),
+        ))
+
+    def offer_boards(self,
+                     from_boards: tuple[Board, ...],
+                     new_boards: tuple[Board, ...],
+                     pos_scores: tuple[float, ...]|None = None,
+                     explain_pos_score: Callable[[int], Iterable[str]]|None = None,
+                     wordlist: Iterable[str]|None = None):
+        wordset = set(self.all_words() if wordlist is None else wordlist)
+
+        # TODO catch and try to fix bad words earlier ; i.e. they're actually critical seed sites
+        all_words = tuple(
+            tuple(board.all_words())
+            for board in new_boards)
+        bad_words = tuple(
+            tuple(
+                word
+                for word_sel in aw
+                for word in (str(word_sel),)
+                if word not in wordset)
+            for aw in all_words)
+
+        uplifts = tuple(
+            0.5 + b.score/b.max_score/2 - a.score/b.max_score/2
+            for a, b in zip(from_boards, new_boards))
+
+        scores = tuple(
+            ps * uplift if any(l for l in may_board.letters)
+            else -2.0 if bw
+            else 2.0
+            for (
+                may_board,
+                ps,
+                uplift,
+                bw
+            ) in zip(
+                new_boards,
+                repeat(0.0) if pos_scores is None else pos_scores,
+                uplifts,
+                bad_words,
+            ))
+
+        def explain(i: int) -> Generator[str]:
+            from_board = from_boards[i]
+            new_board = new_boards[i]
+            score = scores[i]
+            if score > 1:
+                sc = new_board.score
+                ds = sc - self.board.score
+                yield f'done; score:{ds:+}'
+                aw = all_words[i]
+                yield f'all words: {aw!r}'
+
+            elif score < 0:
+                bw = bad_words[i]
+                yield f'bad words: {bw!r}'
+
+            else:
+                yield f'score:{100*score:.2f}%'
+                yield f'*= uplift: {100*uplifts[i]:.2f}% ('
+                yield f'score:{new_board.score - from_board.score:+}'
+                yield f'bonus:{new_board.space_bonus - from_board.space_bonus:+}'
+                yield f')'
+
+                if explain_pos_score:
+                    yield from explain_pos_score(i)
+
+        self.offer_halo(self.Halo(new_boards, scores, explain))
+
+    def __call__(self, ui: PromptUI):
+        with (
+            ui.catch_state(EOFError, lambda _ui: self.ret(None)),
+            ui.input(self.make_prompt())):
+            return self.handle(ui)
+
+    def make_prompt(self):
+        def halo_sort_key(k: str):
+            halo = self.halos[k]
+            sc = math.floor(max(halo.scores))
+            return (
+                2*sc if sc > 0 else
+                2*(-sc) + 1 if sc < 0 else
+                0)
+
+        def prompt_parts() -> Generator[str]:
+            yield f'{len(self.frontier)}'
+            cap = self.frontier_cap
+            if cap:
+                yield f'cap:{cap}'
+            for key in sorted(self.halos, key=halo_sort_key):
+                yield f'{key}:{len(self.halos[key])}'
+
+        parts = tuple(prompt_parts())
+        return f'search[{" ".join(prompt_parts())}]> ' if parts else f'search> '
+
+    def handle(self, ui: PromptUI):
+        any_bail = False
+        while ui.tokens:
+            if ui.tokens.have('clear'):
+                for i, let in enumerate(self.board.grid):
+                    if let: self.board.update(i, '')
+                ui.print('Cleared board.')
+                any_bail = True
+
+            elif ui.tokens.have('reset'):
+                self.frontier = Search.Halo.of([self.board])
+                self.halos.clear()
+                ui.print('Frontier Reset.')
+                any_bail = True
+
+            elif ui.tokens.under('cap'):
+                n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+                if n is None:
+                    ui.print(f'cap: {self.frontier_cap}')
+                elif n > 0:
+                    if len(self.frontier) > n:
+                        self.frontier = self.frontier.take(n)
+                    self.frontier_cap = n
+                    ui.print(f'set cap: {self.frontier_cap}')
+                else:
+                    ui.print(f'cleared cap')
+                any_bail = True
+
+            else: break
+        if any_bail:
+            return
+
+        if ui.tokens.under('drop'):
+            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+            if n is not None:
+                m = min(len(self.frontier), n)
+                self.frontier = self.frontier.take(-n)
+                ui.print(f'dropped {m} from frontier')
+            return
+
+        if ui.tokens.under('take'):
+            self.take_halo(ui)
+            return
+
+        if not ui.tokens or ui.tokens.under(r'board'):
+            for line in self.board.show(
+                mid=f'[score: {self.board.score}]', mid_align='>',
+            ): ui.print(line)
+            return
+
+        halo_match = ui.tokens.under(r'ret|show')
+        if halo_match:
+            halo_cmd = halo_match[0]
+
+            default_key = 'done' if halo_cmd == 'ret' else 'may'
+            key = (ui.tokens.have(r'[^\d].+', lambda m: m[0])
+                   or self.last_shown
+                   or default_key)
+            halo = self.get_halo(key)
+            if not halo:
+                ui.print(f'! no {key} halo')
+                return
+
+            if halo_cmd == 'ret':
+                board, reason = halo.ref(ui)
+                if not board:
+                    ui.print(f'! {key} halo {reason}')
+                    return
+                ui.print(f'returning {key} halo {reason}')
+                return self.ret(board)
+
+            if halo_cmd == 'show':
+                n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+                if n is not None:
+                    key = self.last_shown or 'may'
+                    halo.show_n(ui, n, f'{key} halo')
+                else:
+                    halo.show(ui, title=f'{key} halo')
+                    self.last_shown = key
+                return
+
+            ui.print(f'! unknown halo command {halo_cmd!r}')
+            return
+
+        ui.print(f'! unknown input {ui.tokens.rest!r}')
+
+    def take_halo(self, ui: PromptUI, name: str = 'may'):
+        halo = self.halos.get(name)
+        if not halo:
+            ui.print(f'! no {name} halo')
+            return
+
+        if not halo.parse_choices(ui, prior_n = self.frontier_cap):
+            return
+
+        self.frontier = Search.Halo.of(
+            chain(
+                self.frontier.boards,
+                (halo.boards[i] for i in halo.index())),
+            Search.Halo.WithWordLabels(self.wordlist))
+
+        if self.frontier_cap:
+            self.frontier = self.frontier.take(self.frontier_cap)
+
+        def parts():
+            yield f'Took {halo.sample} from {name} {len(halo)}'
+            yield f'frontier now {len(self.frontier)}'
+            if self.frontier_cap:
+                yield f'cap {self.frontier_cap}'
+
+        ui.print(' '.join(parts()))
+        self.halos.clear()
+
+    @final
+    class Halo:
+        Explainer = Callable[[int], Iterable[str]]
+        Scorer = Callable[[Sequence[Board]], tuple[tuple[float, ...], Explainer]]
+
+        @staticmethod
+        def ExplainBoard(board: Board):
+            yield f'('
+            yield f'score:{board.score}'
+            yield f'bonus:{board.space_bonus:+}'
+            yield f')'
+
+        @staticmethod
+        def NaturalScores(boards: Sequence[Board]):
+            scores = tuple(board.score/board.max_score for board in boards)
+            def explain(i: int) -> Iterable[str]:
+                score = scores[i]
+                yield f'score:{100*score:.2f}%'
+                yield from Search.Halo.ExplainBoard(boards[i])
+            return scores, explain
+
+        @staticmethod
+        def WithWordLabels(wordlist: WordList, scorer: Scorer = NaturalScores) -> Scorer:
+            def with_words(boards: Sequence[Board]):
+                ok_words = wordlist.uniq_words
+                scores, sub_explain = scorer(boards)
+
+                def explain(i: int) -> Iterable[str]:
+                    yield from sub_explain(i)
+
+                    board = boards[i]
+                    aw = tuple(str(w) for w in board.all_words())
+                    bw = tuple(
+                        word
+                        for word in aw
+                        if word not in ok_words)
+                    aw = tuple(w for w in aw if w not in bw)
+                    yield f'all words: {aw!r}'
+                    if bw: yield f'bad words: {bw!r}'
+
+                return scores, explain
+
+            return with_words
+
+        @classmethod
+        def of(cls, itBoards: Iterable[Board], scorer: Scorer = NaturalScores):
+            boards = tuple(itBoards)
+            scores, explain = scorer(boards)
+            return cls(boards, scores, explain)
+
+        def __init__(self,
+                     boards: tuple[Board, ...],
+                     scores: tuple[float, ...],
+                     explain: Callable[[int], Iterable[str]] = lambda _i: (),
+                     ix: Iterable[int]|None = None
+                     ):
+            self.boards = boards
+            self.scores = scores
+            self.explain = explain
+            self.sample: Sample|None = None
+            self.ix: tuple[int, ...]|None = tuple(ix) if ix is not None else None
+            self.last_shown: int|None = None
+
+        def take(self, n: int):
+            return self.__class__(
+                self.boards,
+                self.scores,
+                self.explain,
+                ix=tuple(islice(self.descending(), n)))
+
+        def __len__(self):
+            return len(self.ix) if self.ix is not None else len(self.boards)
+
+        def __iter__(self):
+            for i in self.ix or range(len(self.scores)):
+                yield self.boards[i]
+
+        def descending(self):
+            ix = sorted(
+                self.ix or range(len(self.scores)),
+                key=lambda i: self.scores[i],
+                reverse = True)
+            for i in ix:
+                yield i
+
+        def index(self):
+            if not self.sample:
+                self.set_choices()
+                assert self.sample
+            return self.sample.index(self.scores, self.ix)
+
+        def split(self, where: Callable[[Board, int], bool]):
+            ix = self.ix or range(len(self.scores))
+            other = self.__class__(self.boards,
+                                   self.scores,
+                                   self.explain,
+                                   ix=(i for i in ix if where(self.boards[i], i)))
+            if other.ix:
+                self.ix = tuple(i for i in ix if i not in set(other.ix))
+                return other
+            return None
+
+        def set_choices(self, *choices: Sample.Choice|re.Pattern[str]):
+            self.sample = Sample(Sample.compile_choices(
+                choices,
+                lambda pats: match_show(self.explain, pats)))
+
+        def parse_choices(self,
+                          ui: PromptUI,
+                          prior_n: int | None = None,
+                          extra: Callable[[PromptUI], bool] = lambda _: False,
+                          ):
+            chooser = Chooser()
+            any_choice = False
+
+            if prior_n is not None:
+                chooser.show_n = prior_n
+                any_choice = True
+
+            while ui.tokens:
+                n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+                if n is not None:
+                    chooser.show_n = n
+                    any_choice = True
+                    continue
+
+                if chooser.parse(ui.tokens):
+                    any_choice = True
+                    continue
+
+                if extra(ui):
+                    continue
+
+                ui.print(f'! invalid arg {ui.tokens.rest}')
+                return False
+
+            if any_choice:
+                self.set_choices(*chooser.choices)
+
+            return True
+
+        def show(self, ui: PromptUI, title: str = ''):
+            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+            if n is not None:
+                return self.show_n(ui, n, title)
+
+            chooser = Chooser()
+            while ui.tokens:
+                if chooser.parse(ui.tokens):
+                    continue
+                ui.print(f'! invalid arg {ui.tokens.rest}')
+                return
+            self.set_choices(*chooser.choices)
+
+            ui.print(f'{title} {self.sample}:' if title else f'{self.sample}:')
+            for n, i in enumerate(self.index(), 1):
+                for line in wrap_item(*numbered_item(n, self.explain(i))):
+                    ui.print(line)
+
+        def show_n(self, ui: PromptUI, n: int, title: str = ''):
+            ui.print(f'{title} #{n}' if title else f'#{n}')
+            for m, i in enumerate(self.index(), 1):
+                if m == n:
+                    board = self.boards[i]
+                    for line in board.show(
+                        mid=f'[score: {board.score}]', mid_align='>',
+                    ): ui.print(line)
+                    self.last_shown = n
+                    return
+            ui.print(f'! invalid {title} choice {n}' if title else f'! invalid choice {n}')
+
+        def ref(self, ui: PromptUI, n: int|None = None):
+            if n is None:
+                n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+
+            if n is not None:
+                for m, i in enumerate(self.index(), 1):
+                    if m == n: return self.boards[i], f'#{n} given'
+                return None, f'#{n} not found'
+
+            if n is None:
+                n = self.last_shown
+                for m, i in enumerate(self.index(), 1):
+                    if m == n: return self.boards[i], f'#{n} last shown'
+
+            for i in self.index():
+                return self.boards[i], '#1 default'
+
+            return None, 'empty'
 
 @dataclass
 class Result:
