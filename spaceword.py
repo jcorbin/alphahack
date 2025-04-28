@@ -1358,6 +1358,9 @@ class Result:
     > Play at https://spaceword.org
     > #spaceword
     - title: Daily 2025-04-25
+    - url: ```
+    https://spaceword.org
+    ```
     - score: 2158
     - rank: (165, 322)
     - tiles: (21, 21)
@@ -1368,6 +1371,7 @@ def test_parse_result(spec: MarkedSpec):
     res = Result.parse(spec.input)
     for key, value in spec.props:
         if key == 'title': assert res.title == value
+        elif key == 'url': assert res.url == value
         elif key == 'score': assert f'{res.score}' == value
         elif key == 'rank': assert f'{res.rank}' == value
         elif key == 'tiles': assert f'{res.tiles}' == value
