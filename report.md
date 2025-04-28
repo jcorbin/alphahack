@@ -1,210 +1,215 @@
-# 2025-04-28
+# 2025-04-29
 
-- 🔗 spaceword.org 🧩 2025-04-27 🥳 rank: 218/297 score: 2144 ⏱️ 0:06:29.183397
-- 🔗 squareword.org 🧩 #1183 🥳 11 ⏱️ 0:00:00
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1213 🥳 20 ⏱️ 0:04:05.084398
-- 🔗 alfagok.diginaut.net 🧩 #177 🥳 17 ⏱️ 0:00:00
-- 🔗 alphaguess.com 🧩 #643 🥳 11 ⏱️ 0:00:00
-- 🔗 cemantix.certitudes.org 🧩 #1153 🥳 190 ⏱️ 0:10:34.385602
-- 🔗 cemantle.certitudes.org 🧩 #1120 🥳 419 ⏱️ 0:00:00
+- 🔗 spaceword.org 🧩 2025-04-28 🥳 2146 rank 256 ⏱️ 0:16:09.736485
+- 🔗 squareword.org 🧩 #1184 🥳 7 ⏱️ 0:29:11.646443
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1214 🥳 17 ⏱️ 0:00:00
+- 🔗 alfagok.diginaut.net 🧩 #178 🥳 19 ⏱️ 0:00:00
+- 🔗 alphaguess.com 🧩 #644 🥳 14 ⏱️ 0:00:00
+- 🔗 cemantix.certitudes.org 🧩 #1154 🥳 66 ⏱️ 0:00:00
+- 🔗 cemantle.certitudes.org 🧩 #1121 🥳 361 ⏱️ 0:00:00
 
 - ❌
 - ✅
 - ⏳
 
-- ✅ squareword.org 🧩 #1183 🥳 11
-- ✅ spaceword.org 🧩 2025-04-27 🥳 rank: 218/297 score: 2144
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1213 🥳 20
-- ✅ alfagok.diginaut.net 🧩 #177 🥳 17
-- ✅ alphaguess.com 🧩 #643 🥳 11
-- ✅ cemantix.certitudes.org 🧩 #1153 🥳 190
-- ✅ cemantle.certitudes.org 🧩 #1120 🥳 419
+- ✅ spaceword.org 🧩 2025-04-28 🥳 2146 rank 256
+- ✅ squareword.org 🧩 #1184 🥳 7
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1214 🥳 17
+- ✅ alfagok.diginaut.net 🧩 #178 🥳 19
+- ✅ alphaguess.com 🧩 #644 🥳 14
+- ✅ cemantix.certitudes.org 🧩 #1154 🥳 66
+- ✅ cemantle.certitudes.org 🧩 #1121 🥳 361
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$pna3vWhBvj5ksaZX3pblZUBIQLpDzlWUDv0Z5Jkp2So?via=aelf.land&via=matrix.org&via=midov.pl
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$ccGS-tm3QCys_rfHR00PFm_RsLBd-Qi1O3iGkR594pE?via=aelf.land&via=matrix.org&via=midov.pl
 
-# spaceword.org 🧩 2025-04-27 🥳 rank: 218/297 score: 2144 tiles: 21/21 ⏱️ 0:06:29.183397
+# spaceword.org 🧩 2025-04-28 🥳 2146 rank 256 ⏱️ 0:16:09.736485
 
-📜 4 sessions
+📜 6 sessions
+- tiles: 21/21
+- score: 2146 bonus: +46
+- rank: 256/340
 
+      _ _ _ O _ _ _ _ _ _   
+      _ _ _ W _ O _ _ _ _   
+      _ _ S E Q U I N _ _   
+      _ _ U _ _ T _ _ _ _   
+      _ _ B _ _ F _ _ _ _   
+      _ _ Z _ _ E _ _ _ _   
+      _ _ E _ _ N _ _ _ _   
+      _ _ R _ _ C _ _ _ _   
+      _ _ O _ _ E _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ Y _ _ _ _   
-      _ _ R E J E C T O R   
-      _ _ A _ _ A _ _ _ E   
-      _ _ D _ _ H I _ _ Q   
-      _ _ I _ _ _ _ _ _ U   
-      _ _ X _ _ _ _ _ _ I   
-      _ _ _ _ _ _ _ _ _ N   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
 
-# squareword.org 🧩 #1183 🥳 11 ⏱️ 0:00:00
+# squareword.org 🧩 #1184 🥳 7 ⏱️ 0:03:02.913513
 
-📜 0 sessions
+📜 3 sessions
 
 Guesses:
-1. wanna
-2. heels
+1. treed
+2. toads
+3. adore
+4. orbit
+5. sedge
 
 Score Heatmap:
-    🟩 🟨 🟨 🟨 🟨
-    🟨 🟨 🟨 🟨 🟨
-    🟨 🟨 🟨 🟨 🟨
+    🟩 🟩 🟩 🟩 🟩
     🟨 🟩 🟨 🟨 🟩
-    🟧 🟩 🟧 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟨 🟨 🟨 🟨 🟩
+    🟩 🟩 🟩 🟩 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    S P I K Y
-    W A N N A
-    A D D E R
-    T R I E D
-    H E E L S
+    T O A D S
+    O R B I T
+    A D O R E
+    S E D G E
+    T R E E D
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1213 🥳 20 ⏱️ 0:04:05.084398
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1214 🥳 17 ⏱️ 0:00:00
 
-📜 1 sessions
-💰 score: 9600
+📜 0 sessions
+💰 score: 9900
 
-    5/6
-    > A L O N E
-      🟨⬜🟨🟨⬜
-    > B A C O N
-      ⬜🟩⬜🟩🟩
-    > R A D O N
-      ⬜🟩⬜🟩🟩
-    > M A S O N
-      ⬜🟩⬜🟩🟩
-    > C O W E R
-      🟩🟩🟩🟩🟩
-    6/6
-    > O R B I T
-      ⬜⬜⬜🟩⬜
-    > P R O U D
-      ⬜🟨⬜⬜🟨
-    > P R O X Y
-      🟨🟩⬜⬜⬜
-    > P R O O F
+    4/6
+    > A S I D E
+      ⬜⬜⬜⬜🟨
+    > E N T R Y
+      🟨⬜⬜⬜⬜
+    > B E L C H
       🟩🟩🟩⬜⬜
-    > S C O O P
-      🟩🟩🟩⬜⬜
-    > D E P O T
+    > B E L O W
       🟩🟩🟩🟩🟩
     3/6
-    > R A I S E
-      🟨⬜⬜🟩⬜
-    > C R I M E
-      ⬜⬜⬜🟩🟨
-    > B R I N E
+    > C O D E R
+      ⬜🟨⬜🟨⬜
+    > A D O R E
+      ⬜🟨🟨🟨🟨
+    > K N E L T
+      🟩🟩🟩🟩🟩
+    4/6
+    > T Y P E S
+      ⬜⬜⬜⬜🟨
+    > H E F T Y
+      ⬜⬜🟨⬜🟨
+    > S A B R E
+      🟨🟨⬜🟨⬜
+    > B O N E D
       🟩🟩🟩🟩🟩
     5/6
-    > U R I N G
+    > B I K E D
       ⬜🟨⬜⬜⬜
-    > U R I N E
-      🟨⬜🟩⬜🟩
-    > T H I R D
-      ⬜🟩🟩⬜🟩
-      ⬜🟩🟩🟩🟩
+    > B I P E D
+      ⬜⬜🟨⬜🟨
+    > H E A V Y
+      🟩⬜⬜🟩🟩
+      🟩🟩⬜🟩🟩
       🟩🟩🟩🟩🟩
     Final 1/2
       🟩🟩🟩🟩🟩
 
-# alfagok.diginaut.net 🧩 #177 🥳 17 ⏱️ 0:00:00
+# alfagok.diginaut.net 🧩 #178 🥳 19 ⏱️ 0:00:00
 
-🤔 17 attempts
+🤔 19 attempts
 📜 0 sessions
 
-    @-108751 [200192] lijst      q0  ? a
-    @-8682   [300261] schroef    q1  ? a
-    @-2459   [306484] sliert     q5  ? a
-    @-1000   [307943] smelt      q7  ? a
-    @-289    [308654] snelheid   q8  ? a
-    @-100    [308843] sneren     q10 ? a
-    @-33     [308910] snij       q11 ? a
-    @-4      [308939] snijd      q13 ? a
-    @-3      [308940] snijdbaar  
-    @-2      [308941] snijdbare  
-    @-1      [308942] snijden    q16 ? it
-    @-1      [308942] snijden    done. it
-    @        [308943] snijdend   
-    @+1      [308944] snijdende  
-    @+2      [308945] snijdender 
-    @+3      [308946] snijder    q15 ? b
-    @+13     [308956] snijdsels  q14 ? b
-    @+30     [308973] snijkop    q12 ? b
-    @+93     [309036] snip       q9  ? b
-    @+526    [309469] so         q6  ? b
-    @+3775   [312718] spiert     q4  ? b
-    @+16240  [325183] subsidie   q3  ? b
-    @+41296  [350239] vakantie   q2  ? b
+    @-65965 [100059] examen       q1  ? a
+    @-16475 [149549] huis         q2  ? a
+    @-3920  [162104] izabel       q4  ? a
+    @-813   [165211] ju           q6  ? a
+    @-164   [165860] ka           q7  ? a
+    @-85    [165939] kaal         q11 ? a
+    @-44    [165980] kaap         q12 ? a
+    @-16    [166008] kaar         q13 ? a
+    @-13    [166011] kaarde       q15 ? a
+    @-8     [166016] kaarder      q16 ? a
+    @-3     [166021] kaardt       q17 ? a
+    @-2     [166022] kaardwol     
+    @-1     [166023] kaars        q18 ? it
+    @-1     [166023] kaars        done. it
+    @       [166024] kaarschot    
+    @+1     [166025] kaarsdragers 
+    @+2     [166026] kaarsen      q14 ? b
+    @+3     [166027] kaarsenactie 
+    @+45    [166069] kaart        q10 ? b
+    @+423   [166447] kabel        q9  ? b
+    @+1065  [167089] kalender     q8  ? b
+    @+2352  [168376] kano         q5  ? b
+    @+8635  [174659] kind         q3  ? b
+    @+34168 [200192] lijst        q0  ? b
 
-# alphaguess.com 🧩 #643 🥳 11 ⏱️ 0:00:00
+# alphaguess.com 🧩 #644 🥳 14 ⏱️ 0:00:00
 
-🤔 11 attempts
+🤔 14 attempts
 📜 0 sessions
 
-    @-44427 [ 98246] mach           q0  ? a
-    @-19862 [122811] parr           q2  ? a
-    @-7571  [135102] proper         q3  ? a
-    @-2122  [140551] rec            q4  ? a
-    @-425   [142248] ref            q6  ? a
-    @-7     [142666] refutabilities q8  ? a
-    @-3     [142670] refutal        
-    @-2     [142671] refutals       
-    @-1     [142672] refutation     
-    @       [142673] refutations    
-    @+1     [142674] refute         q10 ? it
-    @+1     [142674] refute         done. it
-    @+2     [142675] refuted        
-    @+3     [142676] refuter        
-    @+7     [142680] reg            q9  ? b
-    @+410   [143083] rei            q7  ? b
-    @+1303  [143976] reminisce      q5  ? b
-    @+4737  [147410] rhumb          q1  ? b
+    @-13867 [23589] cam         q2  ? a
+    @-3733  [33723] con         q3  ? a
+    @-324   [37132] count       q5  ? a
+    @-115   [37341] counters    q9  ? a
+    @-9     [37447] coup        q10 ? a
+    @-4     [37452] couple      q13 ? it
+    @-4     [37452] couple      done. it
+    @-3     [37453] coupled     
+    @-2     [37454] coupledom   
+    @-1     [37455] coupledoms  
+    @       [37456] couplement  
+    @+1     [37457] couplements 
+    @+2     [37458] coupler     
+    @+3     [37459] couplers    
+    @+9     [37465] coupon      q12 ? b
+    @+34    [37490] course      q11 ? b
+    @+99    [37555] couth       q8  ? b
+    @+520   [37976] cram        q7  ? b
+    @+1376  [38832] crook       q6  ? b
+    @+3093  [40549] cyclo       q4  ? b
+    @+9950  [47406] dis         q1  ? b
+    @+60790 [98246] mach        q0  ? b
 
-# cemantix.certitudes.org 🧩 #1153 🥳 190 ⏱️ 0:10:34.385602
+# cemantix.certitudes.org 🧩 #1154 🥳 66 ⏱️ 0:00:00
 
-🤔 191 attempts
-📜 1 sessions
-🫧 5 chat sessions
-⁉️ 21 chat prompts
-🤖 21 gemma2:latest replies
-🔥   2 🥵   4 😎  33 🥶 117 🧊  34
-
-      $1 #191   ~1 cible            100.00°C 🥳 1000‰
-      $2 #177   ~6 stratégie         44.06°C 🔥  997‰
-      $3 #130  ~16 positionnement    40.38°C 🔥  993‰
-      $4 #178   ~5 objectif          37.00°C 🥵  985‰
-      $5 #180   ~3 tactique          32.43°C 🥵  954‰
-      $6  #82  ~33 récepteur         32.19°C 🥵  950‰
-      $7  #96  ~29 paramètre         31.96°C 🥵  946‰
-      $8 #153   ~8 performance       28.69°C 😎  882‰
-      $9 #137  ~12 efficacité        26.92°C 😎  824‰
-     $10 #102  ~27 système           26.81°C 😎  818‰
-     $11 #105  ~25 variable          26.52°C 😎  803‰
-     $12 #117  ~19 émetteur          26.49°C 😎  801‰
-     $41 #103      sélection         19.74°C 🥶
-    $158  #33      chaleur           -0.36°C 🧊
-
-# cemantle.certitudes.org 🧩 #1120 🥳 419 ⏱️ 0:00:00
-
-🤔 420 attempts
+🤔 67 attempts
 📜 0 sessions
-🫧 12 chat sessions
-⁉️ 61 chat prompts
-🤖 61 gemma2:latest replies
-😱   1 🔥   5 🥵  28 😎  91 🥶 280 🧊  14
+🫧 2 chat sessions
+⁉️ 7 chat prompts
+🤖 7 gemma2:latest replies
+🥵  1 😎 13 🥶 48 🧊  4
 
-      $1 #420   ~1 portal           100.00°C 🥳 1000‰
-      $2 #212  ~76 web               54.39°C 😱  999‰
-      $3 #393  ~11 website           48.71°C 🔥  995‰
-      $4 #323  ~34 site              47.97°C 🔥  994‰
-      $5  #26 ~123 database          46.98°C 🔥  992‰
-      $6 #251  ~54 repository        46.83°C 🔥  991‰
-      $7 #191  ~81 interactive       46.72°C 🔥  990‰
-      $8 #373  ~17 homepage          46.60°C 🥵  989‰
-      $9 #394  ~10 platform          46.51°C 🥵  988‰
-     $10 #398   ~7 widget            44.94°C 🥵  987‰
-     $11 #186  ~83 content           43.34°C 🥵  985‰
-     $36 #346  ~29 commerce          29.84°C 😎  898‰
-    $127 #174      document          18.33°C 🥶
-    $407 #385      lead              -0.02°C 🧊
+     $1 #67  ~1 voile        100.00°C 🥳 1000‰
+     $2 #38  ~8 brise         38.26°C 🥵  943‰
+     $3  #8 ~14 soleil        29.37°C 😎  817‰
+     $4  #5 ~15 nuage         26.27°C 😎  742‰
+     $5 #20 ~11 ciel          25.54°C 😎  723‰
+     $6 #39  ~7 cirrus        25.14°C 😎  708‰
+     $7 #17 ~12 crépuscule    21.83°C 😎  498‰
+     $8 #48  ~4 translucide   21.40°C 😎  456‰
+     $9 #13 ~13 lumière       21.10°C 😎  417‰
+    $10 #45  ~6 scintillant   20.28°C 😎  310‰
+    $11 #47  ~5 tempête       19.57°C 😎  194‰
+    $12 #60  ~3 opalescent    19.44°C 😎  161‰
+    $16 #22     doux          18.43°C 🥶
+    $64 #19     aubergine     -0.18°C 🧊
+
+# cemantle.certitudes.org 🧩 #1121 🥳 361 ⏱️ 0:00:00
+
+🤔 362 attempts
+📜 0 sessions
+🫧 11 chat sessions
+⁉️ 56 chat prompts
+🤖 56 gemma2:latest replies
+🔥   4 🥵  12 😎  30 🥶 287 🧊  28
+
+      $1 #362   ~1 globe               100.00°C 🥳 1000‰
+      $2 #129  ~27 continent            61.54°C 🔥  997‰
+      $3 #340   ~2 country              51.37°C 🔥  995‰
+      $4 #227  ~14 global               51.18°C 🔥  994‰
+      $5  #18  ~44 planet               48.55°C 🔥  993‰
+      $6 #314   ~6 nation               39.10°C 🥵  988‰
+      $7 #176  ~20 hemisphere           35.91°C 🥵  983‰
+      $8 #289   ~8 international        33.81°C 🥵  977‰
+      $9  #90  ~35 continental          33.53°C 🥵  976‰
+     $10  #15  ~46 universe             33.32°C 🥵  974‰
+     $11 #106  ~33 archipelago          31.99°C 🥵  968‰
+     $18 #299   ~7 network              25.34°C 😎  891‰
+     $48  #98      hydrosphere          17.47°C 🥶
+    $335 #284      regulation           -0.03°C 🧊
