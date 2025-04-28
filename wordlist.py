@@ -23,14 +23,18 @@ def tokens_from(path_or_io: str|Iterable[str]) -> Generator[str]:
     for line in path_or_io:
         yield line.strip().lower().partition(' ')[0]
 
-def exclude_file(name: str):
-    return f'{os.path.splitext(name)[0]}.exclude.txt'
+default_exclude_suffix = '.exclude.txt'
+
+def exclude_file(name: str, exclude_suffix: str = ''):
+    basename = os.path.splitext(name)[0]
+    return f'{basename}{exclude_suffix or default_exclude_suffix}'
 
 @final
 class WordList:
-    def __init__(self, fable: str|TextIO, asof: str = ''):
+    def __init__(self, fable: str|TextIO, asof: str = '', exclude_suffix: str = ''):
         self.name = fable if isinstance(fable, str) else str(fable.name)
         self.asof = asof
+        self.exclude_file = exclude_file(self.name, exclude_suffix)
         self._tokens: list[str]|None = None if isinstance(fable, str) else list(tokens_from(fable))
 
     @property
@@ -89,10 +93,6 @@ class WordList:
     def sig(self):
         with open(self.name, 'rb') as f:
             return hashlib.file_digest(f, 'sha256')
-
-    @property
-    def exclude_file(self):
-        return exclude_file(self.name)
 
     @property
     def exclude_file_tokens(self) -> Generator[str]:
