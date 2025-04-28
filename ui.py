@@ -58,11 +58,18 @@ class CopyAndThen:
     def paste(self) -> str:
         return self.clip.paste()
 
+def fmt_dt(td: float):
+    if td >= 1: return f'{td:.1f}s'
+    if td >= 1: return f'{td:.1f}s'
+    if td >= .000_1: return f'{1_000*td:.2f}ms'
+    if td >= .000_000_1: return f'{1_000_000*td:.2f}µs'
+    return f'{1_000_000_000*td:.2f}ns'
+
 @final
 class Timer:
     def __init__(self, start: float|None = None):
         self.start = time.clock_gettime(time.CLOCK_MONOTONIC) if start is None else start
-        self.last = self.start
+        self.last = 0
 
     @property
     def now(self):
@@ -70,7 +77,40 @@ class Timer:
         return now - self.start
 
     def sub(self):
-        return Timer(self.now)
+        return Timer(self.start + self.now)
+
+    def mark(self):
+        now = self.now
+        since = now - self.last if self.last else 0
+        self.last = now
+        return now, since
+
+    @contextmanager
+    def elapsed(self,
+                name: str,
+                collect: Callable[[str, float, float], None] = lambda _lable, _now, _elapsed: None,
+                print: Callable[[str], None] = print,
+                final: Callable[[str], None]|None = None):
+
+        def fmt(label: str, now: float, elapsed: float):
+            return f'T{now:.2f} +{fmt_dt(elapsed)} {name} {label}'
+
+        def obs(label: str, now: float, elapsed: float, print: Callable[[str], None] = print):
+            print(fmt(label, now, elapsed))
+            collect(label, now, elapsed)
+
+        def mark(label: str, print: Callable[[str], None] = print):
+            now, since = t.mark()
+            obs(label, now, since, print)
+
+        t = self.sub()
+        start = t.now
+
+        yield mark
+
+        end = t.now
+        elapsed = end - start
+        obs('done', end, elapsed, final or print)
 
 State = Callable[['PromptUI'], 'State|None']
 
