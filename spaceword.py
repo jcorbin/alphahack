@@ -598,11 +598,6 @@ class SpaceWord(StoredLog):
     def wordlist(self):
         return load_wordlist(self.wordlist_file)
 
-    def find(self, pattern: re.Pattern[str]):
-        for word in self.wordlist.words:
-            if pattern.fullmatch(word):
-                yield word
-
     def set_num_letters(self, ui: PromptUI, n: int):
         ui.log(f'num_letters: {n}')
         self.num_letters = n
@@ -903,7 +898,10 @@ class SpaceWord(StoredLog):
 
     def generate(self, ui: PromptUI):
         sel = self.board.select(self.iter_curosr())
-        pos = sel.possible(ui, self.find)
+        pos = sel.possible(ui, lambda pat: (
+            word
+            for word in self.wordlist.words
+            if pat.fullmatch(word)))
         if not pos: return
 
         def interact(ui: PromptUI):
