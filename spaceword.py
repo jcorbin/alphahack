@@ -122,14 +122,19 @@ class Board:
             hi_y = max(hi_y, y + 1)
         return lo_x, lo_y, hi_x, hi_y
 
+    per_let = 100 # TODO is this also size^2?
+
     @property
     def score(self):
-        per_let = 100 # TODO is this also size^2?
-        let_score = per_let*sum(
+        let_score = self.per_let*sum(
             1
             for let in self.letters
             if not let)
         return let_score + self.space_bonus
+
+    @property
+    def max_score(self):
+        return self.per_let*len(self.letters) + self.max_bonus
 
     @property
     def space_bonus(self):
@@ -141,6 +146,10 @@ class Board:
             w = abs(x2 - x1)
             h = abs(y2 - y1)
         return area - w*h
+
+    @property
+    def max_bonus(self):
+        return self.size**2
 
     def update(self, i: int, let: str):
         prior = self.grid[i]
