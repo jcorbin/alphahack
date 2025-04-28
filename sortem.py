@@ -11,6 +11,29 @@ from typing import final, override, Callable, Literal, Never, TypeVar
 
 from strkit import PeekStr
 
+def match_show(
+    show: Callable[[int], Iterable[str]],
+    pats: tuple[re.Pattern[str], ...],
+) -> Callable[[int], bool]:
+    if not len(pats):
+        return lambda _: True
+
+    if len(pats) == 1:
+        pat = pats[0]
+        return lambda i: any(
+            pat.search(line)
+            for line in show(i))
+
+    def and_match(i: int):
+        lines = tuple(show(i))
+        return all(
+            any(
+                pat.search(line)
+                for line in lines)
+            for pat in pats)
+
+    return and_match
+
 # TODO into strkit
 
 def wrap_item(line: str, body: Iterable[str],
@@ -461,24 +484,7 @@ class Possible[Dat]:
         return ' '.join(parts())
 
     def match_show(self, pats: tuple[re.Pattern[str], ...]) -> Callable[[int], bool]:
-        if not len(pats):
-            return lambda _: True
-
-        if len(pats) == 1:
-            pat = pats[0]
-            return lambda i: any(
-                pat.search(line)
-                for line in self.show_datum(i))
-
-        def and_match(i: int):
-            lines = tuple(self.show_datum(i))
-            return all(
-                any(
-                    pat.search(line)
-                    for line in lines)
-                for pat in pats)
-
-        return and_match
+        return match_show(lambda i: self.show_datum(i), pats)
 
     def show_datum(self, i: int) -> Generator[str]:
         if self.verbose:
