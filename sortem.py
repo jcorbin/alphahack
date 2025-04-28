@@ -13,19 +13,24 @@ from strkit import PeekStr
 
 # TODO into strkit
 
+def wrap_item(line: str, body: Iterable[str],
+              width: int = 70,
+              indent: str = '  '):
+    for part in body:
+        cat = f'{line} {part}'
+        if not line.strip() or len(cat) < width:
+            line = cat
+        else:
+            yield line
+            line = f'{indent}{part}'
+    if line.strip():
+        yield line
+
 def wrap_items(items: Iterable[tuple[str, Iterable[str]]],
                width: int = 70,
-               indent: str = '  '):
+               indent: str = '  ') -> Generator[str]:
     for line, body in items:
-        for part in body:
-            cat = f'{line} {part}'
-            if not line.strip() or len(cat) < width:
-                line = cat
-            else:
-                yield line
-                line = f'{indent}{part}'
-        if line.strip():
-            yield line
+        yield from wrap_item(line, body, width, indent)
 
 def numbered_item(n: int, parts: Iterable[str]):
     it = iter(parts)
