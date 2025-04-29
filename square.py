@@ -485,6 +485,12 @@ class Search(StoredLog):
         else:
             raise RuntimeError('must provide either row or col')
 
+    def select_all(self, avoid: bool = True):
+        for i in range(self.size):
+            yield self.select(row=i, avoid=avoid)
+        for i in range(self.size):
+            yield self.select(col=i, avoid=avoid)
+
     skip_show: bool = False
 
     def show(self, ui: PromptUI):
@@ -556,6 +562,13 @@ class Search(StoredLog):
         self.row_may[word_i].clear()
 
     def finish(self, ui: PromptUI):
+        words = self.wordlist.uniq_words
+        for sel in self.select_all():
+            word = sel.word.word
+            if word.lower() not in words:
+                ui.print(f'Novel {sel}')
+                # TODO add to wordlist
+
         return self.finalize
 
     @override
