@@ -547,6 +547,12 @@ class Search(StoredLog):
         else:
             raise RuntimeError('must provide either row or col')
 
+    def select_all(self, avoid: bool = True):
+        for i in range(self.size):
+            yield self.select(row=i, avoid=avoid)
+        for i in range(self.size):
+            yield self.select(col=i, avoid=avoid)
+
     def show(self, ui: PromptUI):
         for line in pad_rows(self.show_parts(i) for i in range(self.size)):
             ui.print(line)
@@ -617,7 +623,14 @@ class Search(StoredLog):
             self.grid[j] = ''
         self.row_may[word_i].clear()
 
-    def finish(self, _ui: PromptUI):
+    def finish(self, ui: PromptUI):
+        words = self.wordlist.uniq_words
+        for sel in self.select_all():
+            word = sel.word.word
+            if word.lower() not in words:
+                ui.print(f'Novel {sel}')
+                # TODO add to wordlist
+
         return self.finalize
 
     @override
