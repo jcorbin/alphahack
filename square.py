@@ -8,7 +8,7 @@ from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
 from typing import cast, final, overload, override
 
-from sortem import Chooser, DiagScores, Possible, RandScores
+from sortem import Chooser, DiagScores, Possible, RandScores, wrap_item
 from store import StoredLog, git_txn
 from strkit import MarkedSpec, PeekStr, spliterate
 from ui import PromptUI
@@ -401,10 +401,15 @@ class Search(StoredLog):
         def __init__(self,
                      word: Iterable[str],
                      may: Iterable[str] = (),
-                     nope: Iterable[str] = ()):
+                     nope: Iterable[str] = (),
+                     row: int|None = None,
+                     col: int|None = None,
+                     ):
             self.word = tuple(word)
             self.may = tuple(sorted(may))
             self.nope = tuple(sorted(nope))
+            self.row = row
+            self.col = col
 
             self.alpha = set(self.alphabet)
             self.uni = '.'
@@ -423,15 +428,20 @@ class Search(StoredLog):
         @override
         def __str__(self):
             def parts():
+                if self.row is not None:
+                    yield f'row:{self.row}'
+                elif self.col is not None:
+                    yield f'col:{self.col}'
+
                 word = ''.join(l if l else '_' for l in self.word).upper()
-                yield f'{word}'
+                yield f'word:{word}'
                 if self.may:
                     may = ''.join(self.may).upper()
-                    yield f'may: {may}'
+                    yield f'may:{may}'
                 if self.nope:
                     nope = ''.join(self.nope).upper()
-                    yield f'nope: {nope}'
-                yield f'hypo: {self.space}'
+                    yield f'nope:{nope}'
+                yield f'hypo:{self.space}'
             return ' '.join(parts())
 
         @property
@@ -476,13 +486,15 @@ class Search(StoredLog):
             return self.Select(
                 (self.grid[k] for k in self.row_word_range(row)),
                 may = self.row_may[row],
-                nope = self.nope)
+                nope = self.nope,
+                row = row)
 
         elif col is not None:
             # TODO reduce possible based on intersecting rows
             return self.Select(
                 (self.grid[k] for k in self.col_word_range(col)),
-                nope = self.nope)
+                nope = self.nope,
+                col = col)
 
         else:
             raise RuntimeError('must provide either row or col')
@@ -696,8 +708,8 @@ class Search(StoredLog):
             if word_i is None:
                 smallest = 0
                 for word_j in range(self.size):
-                    if all(self.grid[k] for k in self.row_word_range(word_j)): continue
                     p = self.select(row=word_j)
+                    if all(p.word): continue
                     have = sum(1 for _ in self.find(p.pattern, row=word_j))
                     if not have: continue
                     if not sel or have < smallest:
@@ -705,13 +717,10 @@ class Search(StoredLog):
                 if word_i is None or sel is None:
                     ui.print('! unable to select')
                     for word_j in range(self.size):
-                        row = tuple(self.grid[k] for k in self.row_word_range(word_j))
-                        if all(row):
-                            ui.print(f'#{word_j}: done {"".join(l or "_" for l in row)}')
-                        else:
-                            p = self.select(row=word_j)
-                            have = sum(1 for _ in self.find(p.pattern, row=word_j))
-                            ui.print(f'#{word_j}: have={have} for {p} pattern: {p.pattern}')
+                        p = self.select(row=word_j)
+                        lines = self.explain_select(p)
+                        for line in wrap_item(f'#{word_j+1}: {next(lines)}', lines, indent='   '):
+                            ui.print(line)
                     return
 
             else:
@@ -736,6 +745,19 @@ class Search(StoredLog):
 
         return self.present_choice
 
+    def explain_select(self, sel: Select) -> Generator[str]:
+        if all(sel.word):
+            yield f'done {sel}'
+            return
+
+        yield f'for {sel}'
+
+        pat = sel.pattern
+        yield f'pattern: {pat}'
+
+        have = sum(1 for _ in self.find(pat, row=sel.row))
+        yield f'have: {have}'
+
     def present_choice(self, ui: PromptUI):
         if self.choosing is None:
             return self.display
@@ -743,7 +765,9 @@ class Search(StoredLog):
         word_i, sel, pos = self.choosing
 
         if len(pos.data) == 0:
-            ui.print('!!! #{word_i+1} no choices')
+            lines = self.explain_select(sel)
+            for line in wrap_item(f'!!! #{word_i+1} no choices', lines, indent='... '):
+                ui.print(line)
             self.choosing = None
             return self.display
 
