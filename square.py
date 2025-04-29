@@ -281,17 +281,20 @@ class Search(StoredLog):
 
                 yield t, rest
 
-    def find(self, _ui: PromptUI, pattern: re.Pattern[str], row: int|None = None) -> Generator[str]:
+    def find(self,
+             pattern: re.Pattern[str],
+             row: int|None = None,
+             ) -> Generator[str]:
         if row is not None:
-            col_may: list[set[str]] = [set() for _ in range(self.size)]
+            col_may: tuple[set[str], ...] = tuple(set() for _ in range(self.size))
             for col in range(self.size):
                 sel = self.select(col=col)
                 col_may[col].update(word[row] for word in self._find(sel.pattern))
             for word in self._find(pattern):
                 if all(
                     word[col] in may
-                    for col, may in enumerate(col_may)
-                ): yield word
+                    for col, may in enumerate(col_may)):
+                    yield word
             return
 
         yield from self._find(pattern)
@@ -695,7 +698,7 @@ class Search(StoredLog):
                 for word_j in range(self.size):
                     if all(self.grid[k] for k in self.row_word_range(word_j)): continue
                     p = self.select(row=word_j)
-                    have = sum(1 for _ in self.find(ui, p.pattern, row=word_j))
+                    have = sum(1 for _ in self.find(p.pattern, row=word_j))
                     if not have: continue
                     if not sel or have < smallest:
                         word_i, sel, smallest = word_j, p, have
@@ -707,14 +710,14 @@ class Search(StoredLog):
                             ui.print(f'#{word_j}: done {"".join(l or "_" for l in row)}')
                         else:
                             p = self.select(row=word_j)
-                            have = sum(1 for _ in self.find(ui, p.pattern, row=word_j))
+                            have = sum(1 for _ in self.find(p.pattern, row=word_j))
                             ui.print(f'#{word_j}: have={have} for {p} pattern: {p.pattern}')
                     return
 
             else:
                 sel = self.select(row=word_i)
 
-            words = list(self.find(ui, sel.pattern, row=word_i))
+            words = tuple(self.find(sel.pattern, row=word_i))
             scores, explain_score = self.score_words(word_i, words)
             for i, word in enumerate(words):
                 if word in self.recent_sug:
