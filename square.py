@@ -12,6 +12,7 @@ from sortem import Chooser, DiagScores, Possible, RandScores, wrap_item
 from store import StoredLog, git_txn
 from strkit import MarkedSpec, PeekStr, spliterate
 from ui import PromptUI
+from wordlist import WordList
 
 def char_pairs(alpha: Iterable[str]):
     a, b = '', ''
@@ -56,15 +57,16 @@ class Search(StoredLog):
         super().from_args(args)
         wordlist = cast(str, args.wordlist)
         if wordlist:
-            self.wordlist = wordlist
+            self.wordlist_file = wordlist
             self.default_wordlist = wordlist
 
     def __init__(self):
         super().__init__()
 
         self.size: int = 5
-        self.wordlist: str = ''
+        self.wordlist_file: str = ''
         self.given_wordlist: bool = False
+        self._wordlist: WordList|None = None
 
         self.grid: list[str] = ['' for _ in range(self.size**2)]
 
@@ -84,6 +86,17 @@ class Search(StoredLog):
         self._result: Result|None = None
 
     @property
+    def wordlist(self):
+        if self._wordlist is not None:
+            if self._wordlist.name != self.wordlist_file:
+                self._wordlist = None
+        if self._wordlist is None:
+            self._wordlist = WordList(
+                self.wordlist_file,
+                exclude_suffix='.squareword_exclude.txt')
+        return self._wordlist
+
+    @property
     def result(self):
         if self._result is None and self.result_text:
             try:
@@ -97,18 +110,18 @@ class Search(StoredLog):
     def startup(self, ui: PromptUI):
         if not self.puzzle_id:
             ui.br()
-            if not self.wordlist:
+            if not self.wordlist_file:
                 with ui.input(f'📜 {self.default_wordlist} ? ') as tokens:
-                    self.wordlist = next(tokens, self.default_wordlist)
+                    self.wordlist_file = next(tokens, self.default_wordlist)
             self.do_puzzle(ui)
             if not self.puzzle_id: return
 
-        if not self.wordlist:
-            self.wordlist = self.default_wordlist
+        if not self.wordlist_file:
+            self.wordlist_file = self.default_wordlist
 
         if not self.given_wordlist:
             self.given_wordlist = True
-            ui.log(f'wordlist: {self.wordlist}')
+            ui.log(f'wordlist: {self.wordlist_file}')
 
         if self.questioning:
             return self.question
@@ -160,7 +173,7 @@ class Search(StoredLog):
                 if match:
                     wordlist, rest = match.groups()
                     assert rest == ''
-                    self.wordlist = wordlist
+                    self.wordlist_file = wordlist
                     self.given_wordlist = True
                     continue
 
@@ -325,12 +338,8 @@ class Search(StoredLog):
             yield word
 
     def _match_wordlist(self, pattern: re.Pattern[str]):
-        with open(self.wordlist) as f:
-            for line in f:
-                line = line.strip().lower()
-                word = line.partition(' ')[0]
-                word = word.lower()
-                if pattern.fullmatch(word): yield word
+        for word in self.wordlist.words:
+            if pattern.fullmatch(word): yield word
 
     def okay_letters(self) -> Generator[str]:
         for let in self.grid:

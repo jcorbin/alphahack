@@ -9,9 +9,10 @@ from os import path
 from typing import cast, final, override
 
 from sortem import Chooser, DiagScores, Possible, RandScores
+from store import StoredLog, git_txn
 from strkit import spliterate, PeekIter
 from ui import PromptUI
-from store import StoredLog, atomic_rewrite, git_txn
+from wordlist import WordList
 
 def char_pairs(alpha: Iterable[str]):
     a, b = '', ''
@@ -53,7 +54,7 @@ class Search(StoredLog):
         wordlist = cast(str, args.wordlist)
         if wordlist:
             self.default_wordlist = wordlist
-            self.wordlist = wordlist
+            self.wordlist_file = wordlist
 
     log_file: str = 'hurdle.log'
     default_site: str = 'https://play.dictionary.com/games/todays-hurdle'
@@ -66,8 +67,9 @@ class Search(StoredLog):
         self.debug = 0
 
         self.size: int = 5
-        self.wordlist: str = ''
+        self.wordlist_file: str = ''
         self.given_wordlist: bool = False
+        self._wordlist: WordList|None = None
 
         self.may_letters: set[str] = set()
         self.nope_letters: set[str] = set()
@@ -81,6 +83,17 @@ class Search(StoredLog):
 
         self.result_text: str = ''
         self._result: Result|None = None
+
+    @property
+    def wordlist(self):
+        if self._wordlist is not None:
+            if self._wordlist.name != self.wordlist_file:
+                self._wordlist = None
+        if self._wordlist is None:
+            self._wordlist = WordList(
+                self.wordlist_file,
+                exclude_suffix='.hurdle_exclude.txt')
+        return self._wordlist
 
     @property
     def result(self):
@@ -124,7 +137,7 @@ class Search(StoredLog):
                 if match:
                     wordlist, rest = match.groups()
                     assert rest == ''
-                    self.wordlist = wordlist
+                    self.wordlist_file = wordlist
                     self.given_wordlist = True
                     continue
 
@@ -183,15 +196,15 @@ class Search(StoredLog):
 
     @override
     def startup(self, ui: PromptUI):
-        if not self.wordlist:
+        if not self.wordlist_file:
             with ui.input(f'📜 {self.default_wordlist} ? ') as tokens:
-                self.wordlist = next(tokens, self.default_wordlist)
-            if not self.wordlist:
+                self.wordlist_file = next(tokens, self.default_wordlist)
+            if not self.wordlist_file:
                 return
 
         if not self.given_wordlist:
             self.given_wordlist = True
-            ui.log(f'wordlist: {self.wordlist}')
+            ui.log(f'wordlist: {self.wordlist_file}')
 
         return self.display
 
@@ -443,12 +456,8 @@ class Search(StoredLog):
         return scores, annotate
 
     def find(self, pattern: re.Pattern[str]):
-        with open(self.wordlist) as f:
-            for line in f:
-                line = line.strip().lower()
-                word = line.partition(' ')[0]
-                word = word.lower()
-                if pattern.fullmatch(word): yield word
+        for word in self.wordlist.words:
+            if pattern.fullmatch(word): yield word
 
     def check_fail_text(self, ui: PromptUI):
         try:
@@ -466,19 +475,11 @@ class Search(StoredLog):
             ui.print(f'ℹ️ fail word {word!r} already in list')
             return
 
-        with git_txn(f'{path.basename(self.wordlist)}: add missing {word!r}') as txn:
-            with (
-                txn.will_add(self.wordlist),
-                atomic_rewrite(self.wordlist) as (fr, fw)):
-                for line in fr:
-                    if line.lower() > word:
-                        _ = fw.write(f'{word}\n')
-                        _ = fw.write(line)
-                        break
-                    _ = fw.write(line)
-                fw.writelines(fr)
+        with git_txn(f'{path.basename(self.wordlist_file)}: add missing {word!r}') as txn:
+            with txn.will_add(self.wordlist_file):
+                self.wordlist.add_word(word)
             txn.commit()
-            ui.write(f'🗃️ {self.wordlist} added {word!r}')
+            ui.write(f'🗃️ {self.wordlist_file} added {word!r}')
 
     def finish(self, ui: PromptUI):
         self.check_fail_text(ui)

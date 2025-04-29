@@ -16,26 +16,19 @@ from sortem import Chooser, Possible, RandScores
 from store import StoredLog
 from strkit import MarkedSpec, spliterate
 from ui import PromptUI
+from wordlist import WordList
 
 def nope(_arg: Never, mess: str =  'inconceivable'):
     assert False, mess
 
-def read_wordlist(name: str):
-    with open(name) as f:
-        for line in f:
-            line = line.strip().lower()
-            word = line.partition(' ')[0]
-            word = word.lower()
-            yield word
-
 wordlist_cache_limit: int = 10
-wordlist_cache: OrderedDict[str, tuple[str, ...]] = OrderedDict()
+wordlist_cache: OrderedDict[str, WordList] = OrderedDict()
 
 def load_wordlist(name: str):
     if name not in wordlist_cache:
         while len(wordlist_cache) >= wordlist_cache_limit:
             _ = wordlist_cache.popitem(last=True)
-        wordlist_cache[name] = tuple(read_wordlist(name))
+        wordlist_cache[name] = WordList(name, exclude_suffix='.spaceword_exclude.txt')
     else:
         wordlist_cache.move_to_end(name)
     return wordlist_cache[name]
@@ -452,13 +445,13 @@ class SpaceWord(StoredLog):
         super().from_args(args)
         wordlist = cast(str, args.wordlist)
         if wordlist:
-            self.wordlist = wordlist
+            self.wordlist_file = wordlist
             self.default_wordlist = wordlist
 
     def __init__(self):
         super().__init__()
 
-        self.wordlist: str = ''
+        self.wordlist_file: str = ''
         self.given_wordlist: bool = False
 
         self.board = Board()
@@ -540,7 +533,7 @@ class SpaceWord(StoredLog):
                 if match:
                     wordlist, rest = match.groups()
                     assert rest == ''
-                    self.wordlist = wordlist
+                    self.wordlist_file = wordlist
                     self.given_wordlist = True
                     continue
 
@@ -601,8 +594,12 @@ class SpaceWord(StoredLog):
 
                 yield t, rest
 
+    @property
+    def wordlist(self):
+        return load_wordlist(self.wordlist_file)
+
     def find(self, pattern: re.Pattern[str]):
-        for word in load_wordlist(self.wordlist):
+        for word in self.wordlist.words:
             if pattern.fullmatch(word):
                 yield word
 
@@ -612,12 +609,12 @@ class SpaceWord(StoredLog):
 
     @override
     def startup(self, ui: PromptUI):
-        if not self.wordlist:
+        if not self.wordlist_file:
             with ui.input(f'📜 {self.default_wordlist} ? ') as tokens:
-                self.wordlist = next(tokens, self.default_wordlist)
+                self.wordlist_file = next(tokens, self.default_wordlist)
         if not self.given_wordlist:
             self.given_wordlist = True
-            ui.log(f'wordlist: {self.wordlist}')
+            ui.log(f'wordlist: {self.wordlist_file}')
 
         if not self.puzzle_id:
             with ui.input(f'🧩 {self.puzzle_id} ? ') as tokens:
