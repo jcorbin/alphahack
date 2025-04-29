@@ -5,6 +5,8 @@ import subprocess
 from collections.abc import Generator, Iterable, Sequence
 from typing import final, TextIO
 
+from store import atomic_rewrite
+from strkit import PeekIter
 from ui import PromptUI
 
 def whatadded(filename: str) -> str:
@@ -28,6 +30,18 @@ default_exclude_suffix = '.exclude.txt'
 def exclude_file(name: str, exclude_suffix: str = ''):
     basename = os.path.splitext(name)[0]
     return f'{basename}{exclude_suffix or default_exclude_suffix}'
+
+def merge_words_into(filename: str, words: Iterable[str]):
+    words = PeekIter(sorted(words))
+    with atomic_rewrite(filename) as (fr, fw):
+        lines = PeekIter(fr)
+        while lines and words:
+            _ = fw.write(
+                f'{next(words)}\n'
+                if lines.peek('').strip().lower() > words.peek('').lower()
+                else next(lines))
+        fw.writelines(lines)
+        fw.writelines(f'{word}\n' for word in words)
 
 @final
 class WordList:
@@ -111,6 +125,18 @@ class WordList:
     @property
     def excluded_words(self):
         return set(self.exclude_file_tokens)
+
+    def add_word(self, word: str):
+        merge_words_into(self.name, (word,))
+
+    def add_words(self, words: Iterable[str]):
+        merge_words_into(self.name, words)
+
+    def remove_word(self, word: str):
+        merge_words_into(self.exclude_file, word)
+
+    def remove_words(self, words: Iterable[str]):
+        merge_words_into(self.exclude_file, words)
 
 @final
 class Browser:
