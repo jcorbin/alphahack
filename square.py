@@ -741,6 +741,7 @@ class Search(StoredLog):
 
         if len(pos.data) == 0:
             ui.print('!!! #{word_i+1} no choices')
+            self.choosing = None
             return self.display
 
         if len(pos.data) == 1:
