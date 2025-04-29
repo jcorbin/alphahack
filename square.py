@@ -6,7 +6,7 @@ import re
 from collections import OrderedDict
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
-from typing import cast, final, overload, override
+from typing import Callable, cast, final, overload, override
 
 from sortem import Chooser, DiagScores, Possible, RandScores, wrap_item
 from store import StoredLog, git_txn
@@ -284,17 +284,26 @@ class Search(StoredLog):
     def find(self,
              pattern: re.Pattern[str],
              row: int|None = None,
+             verbose: Callable[[str], None]|None = None,
              ) -> Generator[str]:
         if row is not None:
             col_may: tuple[set[str], ...] = tuple(set() for _ in range(self.size))
             for col in range(self.size):
                 sel = self.select(col=col)
                 col_may[col].update(word[row] for word in self._find(sel.pattern))
+            if verbose:
+                verbose(f'col_may: {''.join(
+                    f'[{''.join(sorted(may)).upper()}]'
+                    for may in col_may
+                )}')
+
             for word in self._find(pattern):
                 if all(
                     word[col] in may
                     for col, may in enumerate(col_may)):
                     yield word
+                elif verbose:
+                    verbose(f'skip:{word}')
             return
 
         yield from self._find(pattern)
@@ -755,8 +764,10 @@ class Search(StoredLog):
         pat = sel.pattern
         yield f'pattern: {pat}'
 
-        have = sum(1 for _ in self.find(pat, row=sel.row))
+        extra: list[str] = []
+        have = sum(1 for _ in self.find(pat, row=sel.row, verbose=extra.append))
         yield f'have: {have}'
+        yield from extra
 
     def present_choice(self, ui: PromptUI):
         if self.choosing is None:
