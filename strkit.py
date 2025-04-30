@@ -149,13 +149,13 @@ class PeekIter[V]:
 class PeekStr(PeekIter[str]):
     def under(self, pattern: str|re.Pattern[str]):
         token = self.peek()
-        if token is None: return False
+        if token is None: return
         match = re.match(pattern, token) if isinstance(pattern, str) else pattern.match(token)
-        if not match: return False
+        if not match: return
         _ = next(self)
         token = token[match.end():]
         if token: self.give(token)
-        return True
+        return match
 
     @overload
     def have(self, pattern: str|re.Pattern[str]) -> re.Match[str]|None:
