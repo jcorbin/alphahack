@@ -242,6 +242,18 @@ class Board:
     def max_bonus(self):
         return self.size**2
 
+    def all_words(self):
+        bounds = self.defined_rect
+        if bounds:
+            lo_x, lo_y, hi_x, hi_y = bounds
+            for cur in chain(
+                (self.cursor(lo_x, y, 'X') for y in range(lo_y, hi_y)),
+                (self.cursor(x, lo_y, 'Y') for x in range(lo_x, hi_x)),
+            ):
+                for token in self.select(cur).tokens():
+                    if len(token) > 1:
+                        yield token
+
     def update(self, i: int, let: str):
         prior = self.grid[i]
         if prior == let: return
