@@ -1496,8 +1496,10 @@ class Search:
             self.take_halo(ui)
             return
 
-        star = ui.tokens.under(r'\*')
+        star = ui.tokens.under(r'\*+')
         if star:
+            if len(star[0]) > 1:
+                return self.auto_generate
             return self.generate(ui)
 
         if not ui.tokens or ui.tokens.under(r'board'):
@@ -1596,6 +1598,30 @@ class Search:
 
         ui.print(' '.join(parts()))
         self.halos.clear()
+
+    def auto_generate(self, ui: PromptUI):
+        if not self.frontier_cap:
+            ui.print('! refusing to auto generate without a frontier cap')
+            return self
+
+        verbose = 0
+        while ui.tokens:
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                verbose += len(match.group(1))
+                continue
+
+            ui.print(f'! invalid arg {next(ui.tokens)!r}')
+            return
+
+        with ui.catch_state(KeyboardInterrupt, self):
+            st = self.generate(ui, verbose=verbose)
+            if st is not None: return st
+
+            if self.halos.get('done'): return self
+            if not self.halos.get('may'): return self
+
+            return self.take_halo(ui)
 
     def generate(self,
                  ui: PromptUI,
