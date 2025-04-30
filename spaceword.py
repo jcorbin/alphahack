@@ -2064,8 +2064,10 @@ class Search:
                 ui.print(f'dropped {m} from frontier')
             return
 
-        star = ui.tokens.under(r'\*')
+        star = ui.tokens.under(r'\*+')
         if star:
+            if len(star[0]) > 1:
+                return self.auto_generate
             return self.generate(ui)
 
         if ui.tokens.have(r'hist(o(ry?)?)?'):
@@ -2685,6 +2687,53 @@ class Search:
 
     def generate(self, ui: PromptUI):
         return self.add_word(ui)
+
+    def auto_generate(self, ui: PromptUI):
+        if not self.frontier_cap:
+            ui.print('! refusing to auto generate without a frontier cap')
+            return self
+
+        verbose = self.verbose
+        while ui.tokens:
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                verbose += len(match.group(1))
+                continue
+
+            ui.print(f'! invalid arg {next(ui.tokens)!r}')
+            return
+        self.verbose = verbose
+
+        if self.verbose:
+            ui.print('Auto Generation Starting')
+        else:
+            ui.write('Auto generating: ')
+
+        return self.auto_generate_do
+
+    def auto_generate_do(self, ui: PromptUI):
+        with ui.catch_state(KeyboardInterrupt, self):
+            if not self.verbose: ui.write('*')
+            st = self.generate(ui)
+            if st is not None: return st
+
+            if self.halos.get('done'): return self.auto_generate_fin
+            if not self.halos.get('may'): return self.auto_generate_fin
+
+            if not self.verbose: ui.write('T')
+            st = self.take_halo(ui)
+            if st is not None: return st
+
+            if not self.verbose: ui.write('C')
+            st = self.recenter(ui)
+            if st is not None: return st
+
+    def auto_generate_fin(self, ui: PromptUI):
+        if self.verbose:
+            ui.print('Auto Generation Finished')
+        else:
+            ui.fin()
+        return self
 
 @final
 class Halo:
