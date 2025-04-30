@@ -649,7 +649,7 @@ class SpaceWord(StoredLog):
                 self.set_num_letters(ui, n)
 
         if len(self.board.letters) != self.num_letters:
-            return self.edit_letters
+            return self.EditLetters(self.board, self.num_letters, self.play)
 
         return self.play
 
@@ -707,35 +707,62 @@ class SpaceWord(StoredLog):
         dt = timedelta(days=1 if kind == 'daily' else 7)
         return datetime.combine(d + dt, datetime.min.time(), self.pub_tz)
 
-    def edit_letters(self, ui: PromptUI):
-        for line in self.board.show_letters(
-            fill='?',
-            head=f'{self.num_letters} Letters',
-            num=self.num_letters,
-        ): ui.print(line)
+    @final
+    class EditLetters:
+        def __init__(self,
+                     board: Board,
+                     num: int,
+                     ret: PromptUI.State,
+                     ):
+            self.board = board
+            self.num = num
+            self.ret = ret
+            self.span = max(7, math.ceil(math.sqrt(self.num)))
 
-        sep = (
-            '!' if len(self.board.letters) > self.num_letters else
-            '.' if len(self.board.letters) == self.num_letters else
-            '?')
-        with ui.input(f'letters{sep} ') as tokens:
-            if tokens.empty:
-                if sep == '.':
-                    return self.play
-                return
+        def __call__(self, ui: PromptUI):
+            for line in self.board.show_letters(
+                fill='?',
+                head=f'{self.num} Letters',
+                num=self.num,
+                span=self.span,
+            ): ui.print(line)
 
-            if tokens.have('/clear'):
-                self.board.letters = []
-                ui.print('- cleared letters')
-            else:
-                addlet = [
-                    let
-                    for token in tokens
-                    for let in token.strip().upper()]
-                self.board.letters.extend(addlet)
-                ui.print(f'- added letters: {" ".join(addlet)}')
+            sep = (
+                '!' if len(self.board.letters) > self.num else
+                '.' if len(self.board.letters) == self.num else
+                '?')
+            with ui.input(f'letters{sep} ') as tokens:
+                if tokens.empty:
+                    if sep == '.': return self.ret
 
-            ui.log(f'letters: |{"".join(self.board.letters)}|')
+                elif tokens.under('/span'):
+                    n = ui.tokens.have(r'\d+', lambda match: int(match[0]))
+                    if n is None:
+                        ui.print(f'- span: {self.span}')
+                    else:
+                        self.span = n
+                        ui.print(f'- set span: {self.span}')
+
+                elif tokens.have('/clear'):
+                    self.board.letters = []
+                    ui.log(f'letters: |{"".join(self.board.letters)}|')
+                    ui.print('- cleared letters')
+
+                elif tokens.have('/back'):
+                    i = (len(self.board.letters) // self.span) * self.span
+                    if i < len(self.board.letters):
+                        self.board.letters = self.board.letters[:i]
+                        ui.log(f'letters: |{"".join(self.board.letters)}|')
+                        ui.print(f'- truncated letters :{i}')
+
+                else:
+                    addlet = [
+                        let
+                        for token in tokens
+                        for let in token.strip().upper()]
+                    self.board.letters.extend(addlet)
+                    ui.log(f'letters: |{"".join(self.board.letters)}|')
+                    ui.print(f'- added letters: {" ".join(addlet)}')
 
     def play(self, ui: PromptUI):
         for line in self.board.show(
@@ -771,7 +798,7 @@ class SpaceWord(StoredLog):
             return self.store
 
         if ui.tokens.have(r'/let(ters)?'):
-            return self.edit_letters
+            return self.EditLetters(self.board, self.num_letters, self.play)
 
         if ui.tokens.have(r'/cl(ear)?'):
             self.update(ui, (
