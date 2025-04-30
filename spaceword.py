@@ -1739,6 +1739,7 @@ class Search:
 
         return ui.dispatch(ui, {
             'add': self.do_add,
+            'auto': self.do_auto,
             'board': self.do_board,
             'cap': self.do_cap,
             'center': self.do_center,
@@ -1754,6 +1755,7 @@ class Search:
             'zero': self.do_zero,
 
             '*': 'add',
+            '**': 'auto',
         })
 
     def do_add(self, ui: PromptUI):
@@ -2007,6 +2009,34 @@ class Search:
             explain_pos_score=explain,
             wordlist=wordlist,
             metadata=meta())
+
+    def do_auto(self, ui: PromptUI):
+        '''
+        start auto generation loop
+        '''
+        if not self.frontier_cap:
+            ui.print('! refusing to auto generate without a frontier cap')
+            return self
+
+        verbose = self.verbose
+        while ui.tokens:
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                verbose += len(match.group(1))
+                continue
+
+            ui.print(f'! invalid arg {next(ui.tokens)!r}')
+            return
+        self.verbose = verbose
+
+        if self.verbose:
+            ui.print('Auto Generation Starting')
+        else:
+            ui.write('Auto generating: ')
+
+        # TODO collect and report run stats
+
+        return self.auto_generate_do
 
     def do_board(self, ui: PromptUI):
         '''
@@ -2617,6 +2647,30 @@ class Search:
         # TODO do_center wen
         # TODO do_prune wen
         return self.do_add(ui)
+
+    def auto_generate_do(self, ui: PromptUI):
+        with ui.catch_state(KeyboardInterrupt, self):
+            if not self.verbose: ui.write('*')
+            st = self.generate(ui)
+            if st is not None: return st
+
+            if self.halos.get('done'): return self.auto_generate_fin
+            if not self.halos.get('may'): return self.auto_generate_fin
+
+            if not self.verbose: ui.write('T')
+            st = self.do_take(ui)
+            if st is not None: return st
+
+            if not self.verbose: ui.write('C')
+            st = self.do_center(ui)
+            if st is not None: return st
+
+    def auto_generate_fin(self, ui: PromptUI):
+        if self.verbose:
+            ui.print('Auto Generation Finished')
+        else:
+            ui.fin()
+        return self
 
 @final
 class Halo:
