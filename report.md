@@ -1,216 +1,215 @@
-# 2025-05-01
+# 2025-05-02
 
-- 🔗 spaceword.org 🧩 2025-04-30 🥳 2151 rank 180 ⏱️ 0:02:00.297157
-- 🔗 squareword.org 🧩 #1186 🥳 12 ⏱️ 0:00:00
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1216 🥳 18 ⏱️ 0:00:00
-- 🔗 alfagok.diginaut.net 🧩 #180 🥳 22 ⏱️ 0:00:32.989803
-- 🔗 alphaguess.com 🧩 #646 🥳 16 ⏱️ 0:00:00
-- 🔗 cemantix.certitudes.org 🧩 #1156 🥳 107 ⏱️ 0:00:00
-- 🔗 cemantle.certitudes.org 🧩 #1123 🥳 682 ⏱️ 0:00:00
+- 🔗 spaceword.org 🧩 2025-05-01 🥳 2152 rank 180 ⏱️ 0:02:25.791914
+- 🔗 squareword.org 🧩 #1187 🥳 7 ⏱️ 0:00:00
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1217 🥳 18 ⏱️ 0:00:10.837941
+- 🔗 alfagok.diginaut.net 🧩 #181 🥳 12 ⏱️ 0:00:00
+- 🔗 alphaguess.com 🧩 #647 🥳 17 ⏱️ 0:00:00
+- 🔗 cemantix.certitudes.org 🧩 #1157 🥳 139 ⏱️ 0:00:00
+- 🔗 cemantle.certitudes.org 🧩 #1124 🥳 521 ⏱️ 0:00:00
 
 - ❌
 - ✅
 - ⏳
 
-- ✅ spaceword.org 🧩 2025-04-30 🥳 2151 rank 180
-- ✅ squareword.org 🧩 #1186 🥳 12
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1216 🥳 18
-- ✅ alfagok.diginaut.net 🧩 #180 🥳 22
-- ✅ alphaguess.com 🧩 #646 🥳 16
-- ✅ cemantix.certitudes.org 🧩 #1156 🥳 107
-- ✅ cemantle.certitudes.org 🧩 #1123 🥳 682
+- ✅ spaceword.org 🧩 2025-05-01 🥳 2152 rank 180
+- ✅ squareword.org 🧩 #1187 🥳 7
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1217 🥳 18
+- ✅ alfagok.diginaut.net 🧩 #181 🥳 12
+- ✅ alphaguess.com 🧩 #647 🥳 17
+- ✅ cemantix.certitudes.org 🧩 #1157 🥳 139
+- ✅ cemantle.certitudes.org 🧩 #1124 🥳 521
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$nPqOwxdr70NXq0xU47f8cebiQ2eWgj8Bzd4ncJNiA1o?via=aelf.land&via=matrix.org&via=midov.pl
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$JH_s4u9Iwh6i1H6ffITHzOSf-TWgNEI-O_EMRUPJ3vo?via=aelf.land&via=matrix.org&via=midov.pl
 
-# spaceword.org 🧩 2025-04-30 🥳 2151 rank 180 ⏱️ 0:02:00.297157
+# spaceword.org 🧩 2025-05-01 🥳 2152 rank 180 ⏱️ 0:02:25.791914
 
 📜 1 sessions
 - tiles: 21/21
-- score: 2151 bonus: +51
+- score: 2152 bonus: +52
 - rank: 180/249
 
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ Q _ _ _ _ _ _   
-      _ _ L U R E X _ _ _   
-      _ _ _ O _ _ _ _ _ _   
-      _ A R M O I R E _ _   
-      _ _ _ O _ _ _ _ _ _   
-      _ _ _ D _ _ _ _ _ _   
-      _ B O O Z Y _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ H _ _ _ _ O _ _   
+      Q U E T Z A L S _ _   
+      _ _ X _ _ _ _ E _ _   
+      _ _ O _ _ _ _ _ _ _   
+      G U N B O A T _ _ _   
+      _ _ E _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
 
-# squareword.org 🧩 #1186 🥳 12 ⏱️ 0:00:00
+# squareword.org 🧩 #1187 🥳 7 ⏱️ 0:00:00
 
 📜 0 sessions
 
 Guesses:
-1. sperm
-2. emery
-3. adage
-4. agate
-5. loser
+1. arise
+2. inset
+3. sprat
+4. beers
+5. hunts
+6. beery
 
 Score Heatmap:
-    🟧 🟨 🟧 🟨 🟧
     🟩 🟩 🟩 🟩 🟩
-    🟧 🟧 🟧 🟧 🟨
-    🟩 🟨 🟩 🟨 🟩
-    🟨 🟩 🟨 🟨 🟨
+    🟩 🟩 🟩 🟩 🟩
+    🟨 🟨 🟨 🟨 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟩 🟩 🟩 🟩 🟨
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    C A V I L
-    E M E R Y
-    D I N A R
-    A G A T E
-    R O L E S
+    S P R A T
+    A R I S E
+    H U N T S
+    I N S E T
+    B E E R Y
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1216 🥳 18 ⏱️ 0:00:00
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1217 🥳 18 ⏱️ 0:00:10.837941
 
-📜 0 sessions
+📜 2 sessions
 💰 score: 9800
 
+    5/6
+    > A N T E S
+      🟨🟨⬜⬜⬜
+    > G R O A N
+      ⬜⬜⬜🟨🟨
+    > C A N I D
+      ⬜🟩🟩⬜🟨
+    > H A N D Y
+      ⬜🟩🟩🟩⬜
+    > P A N D A
+      🟩🟩🟩🟩🟩
     4/6
-    > S P A R E
-      ⬜⬜🟨⬜⬜
-    > A L I G N
+    > A I S L E
+      ⬜🟨⬜⬜⬜
+    > Y E A S T
       🟨⬜🟨⬜🟨
-    > K I N D A
-      ⬜🟩🟩⬜🟩
-    > N I N J A
+    > F E A S T
+      ⬜🟩🟩🟩🟩
+    > B A T O N
       🟩🟩🟩🟩🟩
-    5/6
-    > R A C E S
-      ⬜⬜⬜⬜🟨
-    > B L A S T
-      ⬜🟨⬜⬜🟨
-    > S H A K Y
-      ⬜⬜🟩🟨⬜
-    > L I T E R
-      🟩⬜🟩⬜⬜
-    > T R O P E
+    4/6
+    > U L T R A
+      ⬜⬜🟨⬜🟨
+    > A L T A R
+      ⬜🟨🟩⬜⬜
+    > M O A N S
+      ⬜🟩🟩🟨🟨
+    > A S I D E
       🟩🟩🟩🟩🟩
-    5/6
-    > R O U T E
-      ⬜⬜⬜⬜⬜
-    > F O R T E
-      ⬜⬜🟨🟨🟨
-    > T O R U S
-      🟨🟨🟨⬜🟩
-    > W O R S T
-      🟨🟩⬜🟩🟩
-    > F A I N T
-      🟩🟩🟩🟩🟩
-    3/6
-      ⬜🟩🟩🟨⬜
-      🟨🟩🟩⬜🟨
+    4/6
+    > S E P I A
+      🟨⬜⬜⬜⬜
+    > C L E F T
+      ⬜⬜🟨⬜🟨
+      🟨🟨🟨⬜🟨
       🟩🟩🟩🟩🟩
     Final 1/2
       🟩🟩🟩🟩🟩
 
-# alfagok.diginaut.net 🧩 #180 🥳 22 ⏱️ 0:00:32.989803
+# alfagok.diginaut.net 🧩 #181 🥳 12 ⏱️ 0:00:00
 
-🤔 22 attempts
-📜 1 sessions
-
-    @-23633  [ 50025] bolle       q2  ? after
-    @-11253  [ 62405] center      q4  ? after
-    @-5054   [ 68604] consecutief q5  ? after
-    @-1961   [ 71697] crème       q6  ? after
-    @-744    [ 72914] dag         q8  ? after
-    @-287    [ 73371] dahlia      q10 ? after
-    @-117    [ 73541] dal         q12 ? after
-    @-117    [ 73541] dal         q13 ? a
-    @-56     [ 73602] dalperiode  q17 ? a
-    @-30     [ 73628] dam         q18 ? a
-    @-12     [ 73646] dambord     q19 ? a
-    @-4      [ 73654] damde       q20 ? a
-    @-3      [ 73655] damden      
-    @-2      [ 73656] dame        q21 ? it
-    @-2      [ 73656] dame        done. it
-    @-1      [ 73657] damegambiet 
-    @        [ 73658] damen       
-    @+1      [ 73659] dameoffer   
-    @+2      [ 73660] dameruil    
-    @+3      [ 73661] dames       q14 ? b
-    @+166    [ 73824] damp        q9  ? before
-    @+1141   [ 74799] dc          q3  ? before
-    @+26397  [100055] examen      q1  ? before
-    @+126530 [200188] lijst       q0  ? before
-
-# alphaguess.com 🧩 #646 🥳 16 ⏱️ 0:00:00
-
-🤔 16 attempts
+🤔 12 attempts
 📜 0 sessions
 
-    @-17683 [ 98246] mach     q0  ? a
-    @-5964  [109965] ne       q3  ? a
-    @-4414  [111515] no       q5  ? a
-    @-2051  [113878] nu       q6  ? a
-    @-884   [115045] od       q7  ? a
-    @-219   [115710] on       q8  ? a
-    @-87    [115842] onward   q10 ? a
-    @-21    [115908] oophytic q11 ? a
-    @-9     [115920] oot      q14 ? a
-    @-3     [115926] oots     
-    @-2     [115927] ooze     q15 ? it
-    @-2     [115927] ooze     done. it
-    @-1     [115928] oozed    
-    @       [115929] oozes    
-    @+1     [115930] oozier   
-    @+2     [115931] ooziest  
-    @+3     [115932] oozily   
-    @+8     [115937] op       q13 ? b
-    @+43    [115972] ope      q9  ? b
-    @+454   [116383] orchard  q4  ? b
-    @+6881  [122810] parr     q2  ? b
-    @+31480 [147409] rhumb    q1  ? b
+    @-165566 [200188] lijst                q0  ? a
+    @-65497  [300257] schroef              q1  ? a
+    @-15519  [350235] vakantie             q2  ? a
+    @-3149   [362605] vervijfvoudig        q4  ? a
+    @-76     [365678] vijfhonderd          q6  ? a
+    @-6      [365748] vijftig              q11 ? it
+    @-6      [365748] vijftig              done. it
+    @-3      [365751] vijftigers           
+    @-2      [365752] vijftigeurobiljet    
+    @-1      [365753] vijftigeurobiljetten 
+    @        [365754] vijftigjarig         
+    @+1      [365755] vijftigjarige        
+    @+2      [365756] vijftigjarigen       
+    @+3      [365757] vijftigmaal          
+    @+75     [365829] vijzel               q10 ? b
+    @+227    [365981] vinger               q9  ? b
+    @+576    [366330] vis                  q8  ? b
+    @+1431   [367185] vlam                 q7  ? b
+    @+3005   [368759] vocht                q5  ? b
+    @+9227   [374981] vrij                 q3  ? b
 
-# cemantix.certitudes.org 🧩 #1156 🥳 107 ⏱️ 0:00:00
+# alphaguess.com 🧩 #647 🥳 17 ⏱️ 0:00:00
 
-🤔 108 attempts
+🤔 17 attempts
 📜 0 sessions
-🫧 4 chat sessions
-⁉️ 16 chat prompts
-🤖 16 gemma2:latest replies
-😱  1 🔥  1 🥵 13 😎 22 🥶 61 🧊  9
 
-      $1 #108   ~1 pollution        100.00°C 🥳 1000‰
-      $2  #45  ~26 polluant          70.89°C 😱  999‰
-      $3  #65  ~17 environnement     49.79°C 🔥  991‰
-      $4 #107   ~2 contamination     46.88°C 🥵  987‰
-      $5  #72  ~12 dégradation       46.76°C 🥵  986‰
-      $6  #66  ~16 impact            42.65°C 🥵  975‰
-      $7  #84   ~8 bioaccumulation   41.84°C 🥵  968‰
-      $8  #50  ~23 contaminant       40.84°C 🥵  963‰
-      $9  #53  ~21 toxique           40.81°C 🥵  962‰
-     $10  #52  ~22 nocif             40.63°C 🥵  960‰
-     $11  #20  ~35 ruissellement     38.83°C 🥵  948‰
-     $17  #75  ~11 protection        34.79°C 😎  895‰
-     $39  #36      drainage          21.21°C 🥶
-    $100  #14      nageur            -0.53°C 🧊
+    @-23032 [ 98246] mach         q0  ? a
+    @-11313 [109965] ne           q3  ? a
+    @-4900  [116378] orc          q4  ? a
+    @-2514  [118764] over         q5  ? a
+    @-590   [120688] ox           q6  ? a
+    @-382   [120896] pa           q8  ? a
+    @-5     [121273] pal          q9  ? a
+    @-3     [121275] palabras     
+    @-2     [121276] palace       q16 ? it
+    @-2     [121276] palace       done. it
+    @-1     [121277] palaced      
+    @       [121278] palaces      
+    @+1     [121279] palacinke    
+    @+2     [121280] palacinkes   
+    @+3     [121281] palacsinta   
+    @+5     [121283] paladin      q15 ? b
+    @+14    [121292] palaeolithic q14 ? b
+    @+33    [121311] palatable    q13 ? b
+    @+71    [121349] pale         q12 ? b
+    @+190   [121468] pall         q10 ? b
+    @+395   [121673] pan          q7  ? b
+    @+1531  [122809] parr         q2  ? b
+    @+26130 [147408] rhumb        q1  ? b
 
-# cemantle.certitudes.org 🧩 #1123 🥳 682 ⏱️ 0:00:00
+# cemantix.certitudes.org 🧩 #1157 🥳 139 ⏱️ 0:00:00
 
-🤔 683 attempts
+🤔 140 attempts
 📜 0 sessions
-🫧 22 chat sessions
-⁉️ 122 chat prompts
-🤖 122 gemma2:latest replies
-😱   1 🔥   2 🥵  24 😎  86 🥶 534 🧊  35
+🫧 3 chat sessions
+⁉️ 13 chat prompts
+🤖 13 gemma2:latest replies
+🔥  4 🥵  6 😎 23 🥶 89 🧊 17
 
-      $1 #683   ~1 tech              100.00°C 🥳 1000‰
-      $2 #218  ~84 technology         57.46°C 😱  999‰
-      $3 #322  ~61 electronics        46.46°C 🔥  997‰
-      $4 #206  ~85 robotics           45.87°C 🔥  996‰
-      $5 #660   ~9 biotechnology      39.81°C 🥵  988‰
-      $6 #220  ~83 gadget             38.43°C 🥵  985‰
-      $7 #285  ~71 computing          38.14°C 🥵  984‰
-      $8 #299  ~67 computer           37.61°C 🥵  983‰
-      $9 #199  ~87 software           36.91°C 🥵  980‰
-     $10 #186  ~90 hardware           36.63°C 🥵  978‰
-     $11 #205  ~86 nanotechnology     36.51°C 🥵  976‰
-     $29 #233  ~80 cybernetics        27.76°C 😎  897‰
-    $116 #451      tracking           18.71°C 🥶
-    $649 #113      delivery           -0.09°C 🧊
+      $1 #140   ~1 dictature       100.00°C 🥳 1000‰
+      $2 #117  ~10 totalitaire      62.82°C 🔥  997‰
+      $3 #107  ~14 démocratie       57.64°C 🔥  996‰
+      $4  #99  ~19 tyrannie         56.63°C 🔥  994‰
+      $5 #100  ~18 autoritarisme    51.48°C 🔥  991‰
+      $6  #86  ~24 oppression       50.84°C 🥵  987‰
+      $7 #106  ~15 despotisme       49.77°C 🥵  983‰
+      $8 #119   ~9 censure          46.14°C 🥵  965‰
+      $9  #84  ~25 terreur          46.13°C 🥵  964‰
+     $10  #92  ~23 domination       44.39°C 🥵  948‰
+     $11 #136   ~3 révolution       42.78°C 🥵  932‰
+     $12 #114  ~11 propagande       40.50°C 😎  890‰
+     $35  #32      aliénation       27.39°C 🥶
+    $124  #26      énigme           -0.39°C 🧊
+
+# cemantle.certitudes.org 🧩 #1124 🥳 521 ⏱️ 0:00:00
+
+🤔 522 attempts
+📜 0 sessions
+🫧 14 chat sessions
+⁉️ 79 chat prompts
+🤖 79 gemma2:latest replies
+🔥   1 🥵  22 😎 106 🥶 345 🧊  47
+
+      $1 #522   ~1 lease              100.00°C 🥳 1000‰
+      $2 #196 ~113 contract            54.80°C 🔥  993‰
+      $3 #415  ~40 easement            48.04°C 🥵  989‰
+      $4 #189 ~116 agreement           47.93°C 🥵  988‰
+      $5 #422  ~35 quitclaim           45.54°C 🥵  987‰
+      $6 #229  ~93 renegotiate         44.42°C 🥵  984‰
+      $7 #184 ~120 purchase            43.09°C 🥵  980‰
+      $8 #515   ~4 landlord            41.14°C 🥵  978‰
+      $9 #456  ~24 permit              38.52°C 🥵  969‰
+     $10 #222  ~97 concession          38.06°C 🥵  965‰
+     $11 #281  ~77 property            37.93°C 🥵  964‰
+     $25 #313  ~70 novation            31.78°C 😎  897‰
+    $131 #225      legally             17.93°C 🥶
+    $476 #130      recursion           -0.07°C 🧊
