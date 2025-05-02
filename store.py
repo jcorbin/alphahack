@@ -61,14 +61,14 @@ class StoredLog:
     def main(cls):
         import argparse
 
-        search = cls()
+        self = cls()
 
         parser = argparse.ArgumentParser()
-        search.add_args(parser)
+        self.add_args(parser)
         args = parser.parse_args()
-        search.from_args(args)
+        self.from_args(args)
 
-        return PromptUI.main(search)
+        return PromptUI.main(self)
 
     dt_fmt: str = '%Y-%m-%dT%H:%M:%S%Z'
     default_site: str = ''
