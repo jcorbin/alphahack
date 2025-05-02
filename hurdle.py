@@ -246,6 +246,9 @@ class Search(StoredLog):
             if tokens.have(r'tried'):
                 word = next(tokens, None)
                 if word is not None:
+                    if len(word) != self.size:
+                        ui.print(f'expected {self.size}-length word, got {len(word)}')
+                        return
                     ui.log(f'tried: {word}')
                     self.tried.append(word)
                 return
@@ -291,8 +294,14 @@ class Search(StoredLog):
                 return
 
             if tokens.have(r'word'):
-                if not tokens.empty:
-                    self.update_word(ui, next(tokens))
+                if not tokens:
+                    ui.print('no word feedback given')
+                    return
+                word = next(tokens)
+                if len(word) > self.size:
+                    ui.print(f'given word too long ({len(word)}) must be at most {self.size}')
+                    return
+                self.update_word(ui, word)
                 return
 
             ui.print(f'unknown input: {tokens.raw!r}')
