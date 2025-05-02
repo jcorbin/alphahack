@@ -331,11 +331,11 @@ class StoredLog:
 
     def handle(self, ui: PromptUI):
         if not self.run_done:
-            with self.log_to(ui):
-                try:
+            try:
+                with self.log_to(ui):
                     ui.interact(self.run)
-                except (EOFError, KeyboardInterrupt):
-                    raise StopIteration
+            except (EOFError, KeyboardInterrupt):
+                raise StopIteration
         return self.store
 
     def run(self, ui: PromptUI) -> PromptUI.State|None:
