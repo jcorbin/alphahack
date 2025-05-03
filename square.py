@@ -153,18 +153,6 @@ class Search(StoredLog):
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
 
                 match = re.match(r'''(?x)
-                    puzzle_id :
-                    \s+
-                    (?P<token> [^\s]+ )
-                    \s* ( .* )
-                    $''', rest)
-                if match:
-                    token, rest = match.groups()
-                    assert rest == ''
-                    self.puzzle_id = token
-                    continue
-
-                match = re.match(r'''(?x)
                     wordlist :
                     \s+
                     (?P<wordlist> [^\s]+ )
