@@ -223,6 +223,8 @@ class StoredLog:
     def fin_result(self) -> bool:
         return self.have_result()
 
+    # TODO browse(r)
+
     def skim_log(self) -> Generator[tuple[int, str]]:
         with open(self.log_file, 'r') as f:
             yield from enumerate(f, 1)
