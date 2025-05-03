@@ -454,14 +454,20 @@ class StoredLog:
         return site
 
     @property
-    def should_store_to(self):
+    def store_subdir(self):
         if not self.store_dir: return None
+        return os.path.join(self.store_dir, self.store_name)
+
+    @property
+    def should_store_to(self):
+        store_dir = self.store_subdir
+        if not store_dir: return None
         puzzle_id = self.puzzle_id
         if not puzzle_id:
             date = self.today
             if date is None: return None
             puzzle_id = f'{date:%Y-%m-%d}'
-        return os.path.join(self.store_dir, self.store_name, puzzle_id)
+        return os.path.join(store_dir, puzzle_id)
 
     def store(self, ui: PromptUI) -> PromptUI.State|None:
         if not self.store_dir:
