@@ -109,6 +109,8 @@ class StoredLog:
             if tokens.have(r'replay$'):
                 return self.Replay(self)
 
+            ui.print(f'! invalid review command {tokens.rest!r}')
+
     @final
     class Replay:
         def __init__(self, stl: 'StoredLog'):
