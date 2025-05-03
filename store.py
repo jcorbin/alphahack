@@ -99,6 +99,8 @@ class StoredLog:
     def run_done(self) -> bool:
         return False
 
+    # TODO browse(r)
+
     def review(self, ui: PromptUI) -> PromptUI.State|None:
         for line in self.report_body:
             ui.print(line)
