@@ -175,6 +175,8 @@ class StoredLog:
     def handle_review(self, ui: PromptUI):
         return self.review_prompt.handle(ui)
 
+    # TODO browse(r)
+
     def skim_log(self) -> Generator[tuple[int, str]]:
         with open(self.log_file, 'r') as f:
             yield from enumerate(f, 1)
