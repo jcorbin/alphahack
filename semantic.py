@@ -647,7 +647,7 @@ class Search(StoredLog):
 
         self._puzzle_num: int|None = None
 
-        self.pubtime: datetime.datetime|None = None
+        self.pubtime: datetime.time|None = None
         self.lang: str = self.default_lang
         self.scale: Scale = dict(scale_fixed)
         self.prog_at: float|None = None
@@ -768,12 +768,20 @@ class Search(StoredLog):
 
     @property
     def pub(self):
-        if self.pubtime is not None: return self.pubtime
-        if self.start is None: return None
-        return self.next_pub(self.start - datetime.timedelta(days=1))
+        start = self.start
+        if start is None:
+            return None
+
+        pt = self.pubtime
+        if pt is not None:
+            dt = start.astimezone(pt.tzinfo)
+            dt = datetime.datetime.combine(dt.date(), pt)
+            return dt
+
+        return self.next_pub(start - datetime.timedelta(days=1))
 
     def set_pubtime(self, ui: PromptUI, ut: int):
-        dut = datetime.datetime.fromtimestamp(ut, datetime.UTC)
+        dut = datetime.datetime.fromtimestamp(ut, datetime.UTC).time()
         if self.pubtime != dut:
             ui.log(f'pubtime: {ut}')
             self.pubtime = dut
@@ -3682,7 +3690,7 @@ def test_startup(spec: MarkedSpec):
         elif name == 'puzzle_id': assert srch.puzzle_id == value
 
         elif name == 'pubtime':
-            pt = f'{time.mktime(srch.pubtime.timetuple())}' if srch.pubtime else 'None'
+            pt = f'{srch.pubtime}' if srch.pubtime else 'None'
             assert pt == value
 
         elif name == 'scale':
