@@ -2920,7 +2920,8 @@ class Search(StoredLog):
                             ui.write(line if ui.last == 'write' else f'... {line}')
                             first = False
                         else:
-                            ui.write(f'\n... {line}')
+                            ui.fin()
+                            ui.write(f'... {line}')
 
             except ollama.ResponseError as err:
                 ui.print(f'! ollama error: {err}')
