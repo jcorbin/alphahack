@@ -1585,6 +1585,8 @@ class Search(StoredLog):
     ):
         if verbose is None: verbose = self.http_verbose
 
+        prior_cookies = set(self.http_client.cookies.iterkeys())
+
         res, err = None, None
         for retry, delay in retry_backoffs(retries, backoff, backoff_max):
             if delay > 0:
@@ -1666,12 +1668,13 @@ class Search(StoredLog):
             for line in spliterate(body, '\n'):
                 ui.print(f'< {line}')
 
-        prior_keys = set(self.http_client.cookies.iterkeys())
-        for name, value in self.http_client.cookies.iteritems():
-            prior_keys.remove(name)
+        for name, value in res.cookies.iteritems():
+            if name in prior_cookies:
+                prior_cookies.remove(name)
             if self.logged_cookies.get(name, '') != value:
                 ui.log(f'http cookie: {name} {json.dumps(value)}')
-        for name in prior_keys:
+
+        for name in prior_cookies:
             ui.log(f'http cookie: {name} _')
 
         return res
