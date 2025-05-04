@@ -3038,9 +3038,23 @@ class Search(StoredLog):
             # TODO tee content into a word scanner
 
             try:
+                # thinking = False
+
                 for _, content in self.chat_say(ui, prompt):
                     lines = spliterate(content, '\n', trim=True)
                     first = True
+
+                    # for tk, line in match_between(
+                    #     lines,
+                    #     re.compile('<think>'),
+                    #     re.compile('</think>'),
+                    #     inside=thinking):
+                    #     if tk == 0 and not thinking:
+                    #         ui.print('/// thinking ...')
+                    #         thinking = True
+                    #     elif tk == -1:
+                    #         thinking = False
+
                     for line in lines:
                         if first:
                             ui.write(line if ui.last == 'write' else f'... {line}')
