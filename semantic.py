@@ -431,6 +431,58 @@ def find_match_words(match: re.Match[str]):
             for match in re.finditer(r'\w+', word):
                 yield n, match.group(0)
 
+def match_between(
+    tokens: Iterable[str],
+    start: re.Pattern[str],
+    end: re.Pattern[str],
+    inside: bool = False,
+) -> Generator[tuple[Literal[-1,0,1], str]]:
+    for token in tokens:
+        if inside and end.match(token):
+            inside = False
+            yield 0, token
+
+        elif not inside and start.match(token):
+            inside = True
+            yield 0, token
+
+        elif inside:
+            yield -1, token
+
+        else:
+            yield 1, token
+
+def test_match_between():
+    assert list(match_between(
+        [
+            'bob',
+            '<think>',
+            'lob',
+            '</think>',
+            'law',
+        ],
+        re.compile('<think>'),
+        re.compile('</think>'),
+    )) == [
+        (-1,'bob'),
+        ( 0,'<think>'),
+        ( 1,'lob'),
+        ( 0,'</think>'),
+        (-1,'law'),
+    ]
+
+def between(lines: Iterable[str], start: re.Pattern[str], end: re.Pattern[str]):
+    return (
+        line
+        for kind, line in match_between(lines, start, end)
+        if kind == 1)
+
+def not_between(lines: Iterable[str], start: re.Pattern[str], end: re.Pattern[str]):
+    return (
+        line
+        for kind, line in match_between(lines, start, end)
+        if kind == -1)
+
 @final
 @dataclass
 class ChatStats:
@@ -2474,7 +2526,9 @@ class Search(StoredLog):
                 lambda word: word in self.search.wordgood)
             exw.consume(self.search.filter_words(
                 word
-                for line in spliterate(self.reply, '\n', trim=True)
+                for line in not_between(
+                    spliterate(self.reply, '\n', trim=True),
+                    re.compile('<think>'), re.compile('</think>'))
                 for _, word in find_match_words(line)
             ))
             return exw
