@@ -134,6 +134,7 @@ class StoredLog:
         self.puzzle_id: str = ''
         self.sessions: list[LogSession] = []
         self.loaded: bool = False
+        self.log_start: datetime.datetime|None = None
 
         self.expired_prompt: PromptUI.Prompt = PromptUI.Prompt(self.expired_prompt_mess, {
             'archive': self.expired_do_archive,
@@ -489,6 +490,8 @@ class StoredLog:
                     elif prior_then is not None:
                         dur = 0 if prior_t is None else prior_t
                         self.sessions.append(LogSession(prior_then, datetime.timedelta(seconds=dur)))
+                    if self.log_start is None:
+                        self.log_start = then
                     prior_then = then
                     prior_t, cur_t = None, t
                 continue
@@ -661,6 +664,7 @@ class StoredLog:
             with open(self.log_file, 'a') as f:
                 with ui.deps(log_file=f) as ui:
                     now = datetime.datetime.now(tzlocal())
+                    self.log_start = now
                     ui.log(f'now: {now:{self.dt_fmt}}')
                     yield self, ui
         finally:
