@@ -1,218 +1,206 @@
-# 2025-05-04
+# 2025-05-05
 
-- 🔗 spaceword.org 🧩 2025-05-03 🥳 2146 rank 216 ⏱️ 0:01:22.093463
-- 🔗 squareword.org 🧩 #1189 🥳 11 ⏱️ 0:03:01.278292
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1219 🥳 18 ⏱️ 0:00:00
-- 🔗 cemantix.certitudes.org 🧩 #1159 🥳 173 ⏱️ 0:00:00
-- 🔗 cemantle.certitudes.org 🧩 #1126 🥳 2479 ⏱️ 5:48:17.567406
-- 🔗 alfagok.diginaut.net 🧩 #183 🥳 57 ⏱️ 0:02:07.940352
-- 🔗 alphaguess.com 🧩 #649 🥳 9 ⏱️ 0:00:00
+- 🔗 spaceword.org 🧩 2025-05-04 🥳 2146 rank 157 ⏱️ 0:02:13.856467
+- 🔗 squareword.org 🧩 #1190 🥳 9 ⏱️ 0:02:23.081620
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1220 🥳 16 ⏱️ 0:00:00
+- 🔗 alfagok.diginaut.net 🧩 #184 🥳 17 ⏱️ 0:00:00
+- 🔗 alphaguess.com 🧩 #650 🥳 11 ⏱️ 0:00:00
+- 🔗 cemantix.certitudes.org 🧩 #1160 🥳 1170 ⏱️ 0:14:46.457067
+- 🔗 cemantle.certitudes.org 🧩 #1127 🥳 684 ⏱️ 0:00:00
 
 - ❌
 - ✅
 - ⏳
 
-- ✅ spaceword.org 🧩 2025-05-03 🥳 2146 rank 216
-- ✅ squareword.org 🧩 #1189 🥳 11
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1219 🥳 18
-- ✅ cemantix.certitudes.org 🧩 #1159 🥳 173
-- ✅ cemantle.certitudes.org 🧩 #1126 🥳 2479
-- ✅ alfagok.diginaut.net 🧩 #183 🥳 57
-- ✅ alphaguess.com 🧩 #649 🥳 9
+- ✅ spaceword.org 🧩 2025-05-04 🥳 2146 rank 157
+- ✅ squareword.org 🧩 #1190 🥳 9
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1220 🥳 16
+- ✅ alfagok.diginaut.net 🧩 #184 🥳 17
+- ✅ alphaguess.com 🧩 #650 🥳 11
+- ✅ cemantix.certitudes.org 🧩 #1160 🥳 1170
+- ✅ cemantle.certitudes.org 🧩 #1127 🥳 684
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$2Is7WbmTas4iNbJ9CPnfhm_e4zSlq-EYzefMPokPFZY?via=aelf.land&via=matrix.org&via=midov.pl
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$EYvfC3OMfb7tiaMIVlZqhb6y3SCH49x_Gj3nZmwp5dw?via=aelf.land&via=matrix.org&via=midov.pl
 
-# spaceword.org 🧩 2025-05-03 🥳 2146 rank 216 ⏱️ 0:01:22.093463
+# spaceword.org 🧩 2025-05-04 🥳 2146 rank 157 ⏱️ 0:02:13.856467
 
 📜 1 sessions
 - tiles: 21/21
 - score: 2146 bonus: +46
-- rank: 216/272
+- rank: 157/201
 
-      _ _ _ _ _ _ _ V _ _   
-      _ _ _ _ F _ H A _ _   
-      _ _ H O A X E R _ _   
-      _ _ _ _ R _ N A _ _   
-      _ _ _ _ I _ E _ _ _   
-      _ _ _ _ N _ Q _ _ _   
-      _ _ _ _ A _ U _ _ _   
-      _ _ _ _ _ _ I _ _ _   
-      _ _ _ _ _ _ N _ _ _   
+      _ _ _ _ _ _ _ E _ _   
+      _ _ _ _ M _ _ U _ _   
+      _ _ Q U I N O L _ _   
+      _ _ _ _ S _ _ O _ _   
+      _ _ _ _ K _ _ G _ _   
+      _ _ _ _ E _ _ I _ _   
+      _ _ _ _ E _ _ Z _ _   
+      _ _ _ _ P _ _ E _ _   
+      _ _ _ _ S _ _ D _ _   
       _ _ _ _ _ _ _ _ _ _   
 
-# squareword.org 🧩 #1189 🥳 11 ⏱️ 0:03:01.278292
+# squareword.org 🧩 #1190 🥳 9 ⏱️ 0:02:23.081620
 
 📜 1 sessions
 
 Guesses:
-1. allow
-2. close
-3. finer
-4. feeds
+1. elide
 
 Score Heatmap:
-    🟩 🟩 🟩 🟩 🟩
-    🟩 🟩 🟩 🟩 🟩
     🟨 🟨 🟨 🟨 🟩
+    🟩 🟨 🟨 🟩 🟨
+    🟩 🟩 🟩 🟩 🟩
+    🟩 🟨 🟩 🟩 🟨
     🟨 🟨 🟨 🟩 🟨
-    🟨 🟨 🟨 🟧 🟨
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    C A C H E
-    A L L O W
-    L O O S E
-    I N N E R
-    F E E D S
+    S I G H S
+    E G R E T
+    E L I D E
+    D O N G A
+    Y O D E L
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1219 🥳 18 ⏱️ 0:00:00
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1220 🥳 16 ⏱️ 0:00:00
 
 📜 0 sessions
-💰 score: 9800
+💰 score: 10000
 
-    5/6
-    > P E A R S
-      ⬜🟩⬜🟨⬜
-    > R E F I T
-      🟨🟩⬜⬜⬜
-    > M E R C Y
-      ⬜🟩🟨⬜⬜
-    > N E W E R
-      🟩🟩⬜🟩🟩
-    > N E V E R
-      🟩🟩🟩🟩🟩
-    4/6
-    > S N I P E
-      🟨🟨⬜⬜⬜
-    > S P E N T
-      🟩🟨⬜🟨🟨
-    > S P E N D
-      🟩🟩🟩🟩⬜
-    > I N L E T
-      🟩🟩🟩🟩🟩
-    4/6
-    > O F T E N
-      ⬜⬜🟨🟨⬜
-    > T A K E N
-      ⬜🟨⬜🟩🟨
-    > S N O U T
-      ⬜⬜🟨🟩🟩
-    > S T I N T
+    3/6
+    > D E A L S
+      ⬜🟨⬜⬜🟨
+    > N U R S E
+      ⬜⬜🟨🟩🟨
+    > F R E S H
       🟩🟩🟩🟩🟩
     3/6
-    > G U L C H
+    > M O N A D
+      ⬜⬜⬜⬜⬜
+    > P O U N D
+      ⬜🟩🟨⬜🟩
+    > L A S E R
+      🟩🟩🟩🟩🟩
+    4/6
+    > M I S T Y
+      ⬜⬜⬜⬜⬜
+    > M I S S Y
+      ⬜⬜🟩⬜⬜
+    > T R A I N
+      🟩🟩🟩⬜🟩
+    > I D L E R
+      🟩🟩🟩🟩🟩
+    4/6
+    > Q U I R K
+      ⬜🟨⬜⬜⬜
+    > A N G E L
+      ⬜🟨⬜🟨⬜
+    > T E N E T
       🟨⬜⬜⬜🟨
-    > C U B B Y
-      🟩🟨⬜⬜🟩
       🟩🟩🟩🟩🟩
     Final 2/2
-      ⬜🟩⬜🟨⬜
+      ⬜🟨⬜🟩⬜
       🟩🟩🟩🟩🟩
 
-# alfagok.diginaut.net 🧩 #183 🥳 57 ⏱️ 0:02:07.940352
+# alfagok.diginaut.net 🧩 #184 🥳 17 ⏱️ 0:00:00
 
-🤔 57 attempts
-📜 1 sessions
-
-    @-32689  [ 49937] bol          q2  ? after
-    @-7835   [ 74791] dc           q3  ? after
-    @-1698   [ 80928] dijk         q5  ? after
-    @-181    [ 82445] dj           q45 ? a
-    @-126    [ 82500] dna-leden    q44 ? after
-    @-96     [ 82530] do           q46 ? a
-    @-38     [ 82588] docent       q50 ? a
-    @-36     [ 82590] docenten     q52 ? a
-    @-16     [ 82610] docententeam q53 ? a
-    @-6      [ 82620] docentniveau q54 ? a
-    @-3      [ 82623] doceren      q55 ? a
-    @-2      [ 82624] docerend     
-    @-1      [ 82625] docerende    
-    @        [ 82626] doch         q56 ? it
-    @        [ 82626] doch         done. it
-    @+1      [ 82627] docht        
-    @+2      [ 82628] dochten      
-    @+3      [ 82629] dochter      q51 ? b
-    @+83     [ 82709] documentaire q49 ? b
-    @+268    [ 82894] dodijn       q48 ? b
-    @+633    [ 83259] dog          q47 ? b
-    @+1409   [ 84035] donor        q6  ? before
-    @+4629   [ 87255] draag        q4  ? before
-    @+17384  [100010] examen       q1  ? before
-    @+117517 [200143] lijst        q0  ? before
-
-# alphaguess.com 🧩 #649 🥳 9 ⏱️ 0:00:00
-
-🤔 9 attempts
+🤔 17 attempts
 📜 0 sessions
 
-    @-50957 [ 98246] mach          q0 ? a
-    @-1795  [147408] rhumb         q1 ? a
-    @-363   [148840] rot           q6 ? a
-    @-4     [149199] rubber        q8 ? it
-    @-4     [149199] rubber        done. it
-    @-3     [149200] rubbered      
-    @-2     [149201] rubberier     
-    @-1     [149202] rubberiest    
-    @       [149203] rubberiness   
-    @+1     [149204] rubberinesses 
-    @+2     [149205] rubbering     
-    @+3     [149206] rubberise     
-    @+362   [149565] run           q7 ? b
-    @+1171  [150374] sallow        q5 ? b
-    @+4149  [153352] sea           q4 ? b
-    @+10318 [159521] slop          q3 ? b
-    @+22472 [171675] ta            q2 ? b
+    @-19179  [ 24933] bad         q3  ? a
+    @-6681   [ 37431] bescherming q4  ? a
+    @-431    [ 43681] bijkom      q5  ? a
+    @-131    [ 43981] bijstand    q10 ? a
+    @-39     [ 44073] bijstort    q13 ? a
+    @-20     [ 44092] bijt        q14 ? a
+    @-3      [ 44109] bijtelt     
+    @-2      [ 44110] bijten      q16 ? it
+    @-2      [ 44110] bijten      done. it
+    @-1      [ 44111] bijtend     
+    @        [ 44112] bijtende    
+    @+1      [ 44113] bijtender   
+    @+2      [ 44114] bijtendste  
+    @+3      [ 44115] bijter      
+    @+20     [ 44132] bijtje      q15 ? b
+    @+60     [ 44172] bijveld     q12 ? b
+    @+250    [ 44362] bil         q9  ? b
+    @+1110   [ 45222] bint        q7  ? b
+    @+2665   [ 46777] bloed       q6  ? b
+    @+5823   [ 49935] bol         q2  ? b
+    @+55896  [100008] examen      q1  ? b
+    @+156029 [200141] lijst       q0  ? b
 
-# cemantix.certitudes.org 🧩 #1159 🥳 173 ⏱️ 0:00:00
+# alphaguess.com 🧩 #650 🥳 11 ⏱️ 0:00:00
 
-🤔 174 attempts
+🤔 11 attempts
 📜 0 sessions
-🫧 5 chat sessions
-⁉️ 18 chat prompts
-🤖 18 gemma2:latest replies
-🥵   8 😎  25 🥶 109 🧊  31
 
-      $1 #174   ~1 récompense      100.00°C 🥳 1000‰
-      $2 #142  ~13 honneur          40.34°C 🥵  986‰
-      $3 #144  ~11 distinction      36.36°C 🥵  981‰
-      $4  #71  ~24 recevoir         30.57°C 🥵  963‰
-      $5 #114  ~17 consécration     30.45°C 🥵  961‰
-      $6 #167   ~4 mérite           28.36°C 🥵  949‰
-      $7  #51  ~29 cadeau           25.24°C 🥵  920‰
-      $8 #147  ~10 dévouement       24.99°C 🥵  918‰
-      $9  #88  ~20 spécial          24.46°C 🥵  908‰
-     $10  #37  ~33 décoration       22.16°C 😎  862‰
-     $11 #143  ~12 reconnaissance   21.40°C 😎  850‰
-     $12 #129  ~14 obtenir          21.27°C 😎  847‰
-     $35  #49      boisson          12.95°C 🥶
-    $144  #32      tarte            -0.20°C 🧊
+    @-67396 [ 98246] mach        q0  ? a
+    @-18234 [147408] rhumb       q1  ? a
+    @-6121  [159521] slop        q3  ? a
+    @-78    [165564] stick       q4  ? a
+    @-18    [165624] stiff       q10 ? it
+    @-18    [165624] stiff       done. it
+    @-3     [165639] stiffly     
+    @-2     [165640] stiffness   
+    @-1     [165641] stiffnesses 
+    @       [165642] stiffs      
+    @+1     [165643] stiffy      
+    @+2     [165644] stifle      
+    @+3     [165645] stifled     
+    @+77    [165719] stim        q9  ? b
+    @+237   [165879] stock       q8  ? b
+    @+681   [166323] straddle    q7  ? b
+    @+1441  [167083] stuff       q6  ? b
+    @+2974  [168616] sue         q5  ? b
+    @+6033  [171675] ta          q2  ? b
 
-# cemantle.certitudes.org 🧩 #1126 🥳 2479 ⏱️ 5:48:17.567406
+# cemantix.certitudes.org 🧩 #1160 🥳 1170 ⏱️ 0:14:46.457067
 
-🤔 2480 attempts
-📜 35 sessions
-🫧 397 chat sessions
-⁉️ 988 chat prompts
-🤖 527 deepseek-r1:latest replies
-🤖 15 gemma3:12b replies
-🤖 2 deepseek-r1:14b replies
-🤖 182 gemma2:latest replies
-🤖 2 llama4:scout replies
-🤖 74 phi4:latest replies
-🤖 182 llama3.2:latest replies
-🥵   12 😎   52 🥶 1883 🧊  532
+🤔 1171 attempts
+📜 2 sessions
+🫧 56 chat sessions
+⁉️ 329 chat prompts
+🤖 74 llama3.2:latest replies
+🤖 181 gemma3:12b replies
+🤖 73 gemma2:latest replies
+😱   9 🔥   5 🥵  13 😎  46 🥶 586 🧊 511
 
-       $1 #2480    ~1 berlin              100.00°C 🥳 1000‰
-       $2 #1112   ~30 benjamin             39.12°C 🥵  974‰
-       $3  #818   ~43 john                 38.84°C 🥵  970‰
-       $4  #850   ~40 henry                38.66°C 🥵  968‰
-       $5 #1083   ~36 cummings             38.04°C 🥵  958‰
-       $6 #2383    ~7 ab                   37.80°C 🥵  955‰
-       $7 #1102   ~32 smith                37.75°C 🥵  953‰
-       $8 #2420    ~4 bm                   37.67°C 🥵  952‰
-       $9 #2076   ~17 heller               37.11°C 🥵  945‰
-      $10 #1893   ~22 palindrome           35.63°C 🥵  915‰
-      $11  #430   ~58 fauvism              35.39°C 🥵  908‰
-      $14  #998   ~38 christ               35.00°C 😎  899‰
-      $66  #677       postmodern           24.09°C 🥶
-    $1949 #1794       genial               -0.02°C 🧊
+       $1 #1171    ~1 tennis            100.00°C 🥳 1000‰
+       $2 #1144    ~5 volley             51.97°C 🔥  992‰
+       $3  #560   ~32 badminton          50.25°C 🔥  991‰
+       $4  #232   ~76 tournoi            48.53°C 🥵  988‰
+       $5  #559   ~33 raquette           45.86°C 🥵  981‰
+      $15  #752   ~23 set                30.82°C 😎  887‰
+      $79   #20       controverse        16.46°C 🥶
+      $80  #166   ~87 podium             16.36°C 😎  264‰
+      $85  #119       poésie             15.81°C 🥶
+      $86  #837   ~19 coach              15.73°C 😎  157‰
+      $92   #17       censure            15.27°C 🥶
+      $93  #495   ~41 saut               15.26°C 😎   83‰
+      $99 #1126       équiper            14.73°C 🥶
+     $661  #712       poignée            -0.01°C 🧊
+
+# cemantle.certitudes.org 🧩 #1127 🥳 684 ⏱️ 0:00:00
+
+🤔 685 attempts
+📜 0 sessions
+🫧 29 chat sessions
+⁉️ 199 chat prompts
+🤖 199 gemma3:12b replies
+🔥   7 🥵  34 😎 113 🥶 487 🧊  43
+
+      $1 #685   ~1 extended         100.00°C 🥳 1000‰
+      $2 #681   ~4 stretched         50.99°C 🔥  998‰
+      $3  #60 ~143 extension         50.79°C 🔥  997‰
+      $4 #274  ~74 lengthened        49.82°C 🔥  996‰
+      $5 #207 ~106 shortened         49.37°C 🔥  995‰
+      $6 #220 ~100 expanded          48.85°C 🔥  993‰
+      $7 #166 ~118 duration          44.05°C 🔥  991‰
+      $8 #258  ~78 prolonged         42.59°C 🔥  990‰
+      $9 #300  ~62 shorten           42.15°C 🥵  988‰
+     $10 #392  ~48 shortening        41.35°C 🥵  987‰
+     $11 #230  ~96 renewed           41.07°C 🥵  986‰
+     $43 #208 ~105 augmented         28.64°C 😎  899‰
+    $157 #505      application       17.64°C 🥶
+    $643 #338      sculpt            -0.02°C 🧊
