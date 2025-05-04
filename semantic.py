@@ -900,6 +900,17 @@ class Search(StoredLog):
         if self.system_prompt:
             ui.log(f'system_prompt: {json.dumps(self.system_prompt)}')
 
+        self.do_startup_scrape(ui)
+
+        if not self.puzzle_id:
+            ui.br()
+            self.do_site(ui)
+            self.do_lang(ui)
+            self.do_puzzle(ui)
+            if not self.puzzle_id: return
+        return self.startup_scale
+
+    def do_startup_scrape(self, ui: PromptUI):
         ui.write('Scraping index...')
         res = self.request(ui, 'get', '/')
         if res.status_code != 200:
@@ -910,14 +921,6 @@ class Search(StoredLog):
             soup = bs4.BeautifulSoup(res.content, 'html5lib')
             self.startup_scrape(ui, soup)
             ui.fin(' done.')
-
-        if not self.puzzle_id:
-            ui.br()
-            self.do_site(ui)
-            self.do_lang(ui)
-            self.do_puzzle(ui)
-            if not self.puzzle_id: return
-        return self.startup_scale
 
     def startup_scrape(self, ui: PromptUI, soup: bs4.BeautifulSoup):
         doc = soup.select_one('html')
@@ -1742,6 +1745,7 @@ class Search(StoredLog):
             'model': self.chat_model_cmd,
             'last': self.chat_last,
             'system': self.chat_system_cmd,
+            'scrape': self.do_startup_scrape,
         }
 
         if token == '?' or token == '/?':
