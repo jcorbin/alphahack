@@ -2913,12 +2913,14 @@ class Search(StoredLog):
 
             try:
                 for _, content in self.chat_say(ui, prompt):
-                    a, sep, b = content.partition('\n')
-                    ui.write(a if ui.last == 'write' else f'... {a}')
-                    while sep:
-                        end = sep
-                        a, sep, b = b.partition('\n')
-                        ui.write(f'{end}... {a}')
+                    lines = spliterate(content, '\n', trim=True)
+                    first = True
+                    for line in lines:
+                        if first:
+                            ui.write(line if ui.last == 'write' else f'... {line}')
+                            first = False
+                        else:
+                            ui.write(f'\n... {line}')
 
             except ollama.ResponseError as err:
                 ui.print(f'! ollama error: {err}')
