@@ -910,7 +910,7 @@ class SpaceWord(StoredLog):
                 ui.print(line)
             with (
                 ui.catch_state(EOFError, self.play),
-                ui.input(f'try? ') as tokens):
+                ui.input(f'try? ')):
                 n = ui.tokens.have(r'(\d+)', lambda match: int(match[1]))
                 if n is None: return
                 try:
