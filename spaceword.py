@@ -178,13 +178,38 @@ class Board:
             self.letters[self.letters.index(let)] = ''
         self.grid[i] = let
 
-    def x_cursor(self, x: int, y: int) -> Generator[int]:
-        sz = self.size
-        yield from range(y*sz + x, (y+1)*sz)
+    def cursor(self, x: int, y: int, axis: Literal['X', 'Y']):
+        return self.Cursor(x, y, axis, self.size, len(self.grid))
 
-    def y_cursor(self, x: int, y: int) -> Generator[int]:
-        sz = self.size
-        yield from range(y*sz + x, len(self.grid), sz)
+    @final
+    class Cursor:
+        def __init__(self, x: int, y: int, axis: Literal['X', 'Y'], size: int, max: int):
+            self.x = x
+            self.y = y
+            self.axis: Literal['X', 'Y'] = axis
+            self.size = size
+            self.max = max
+
+        @override
+        def __str__(self):
+            if self.size == 0 or self.max == 0:
+                return 'nil_cursor'
+            return f'{self.x},{self.y}+{self.axis}'
+
+        def range(self):
+            x = self.x
+            y = self.y
+            axis = self.axis
+            sz = self.size
+            if axis == 'X':
+                return range(y*sz + x, (y+1)*sz)
+            elif axis == 'Y':
+                return range(y*sz + x, self.max, sz)
+            else:
+                return range(0)
+
+        def __iter__(self):
+            return iter(self.range())
 
     def show(self,
              head: str|None = '',
@@ -260,6 +285,9 @@ class Board:
         return w
 
     def select(self, ix: Iterable[int]):
+        for j, i in enumerate(ix):
+            if not 0 <= i < len(self.grid):
+                raise IndexError(f'board ix[{j}] out of range')
         return self.Select(self, ix)
 
     @final
@@ -267,9 +295,13 @@ class Board:
         def __init__(self, board: 'Board', ix: Iterable[int]):
             self.board = board
             self.ix = tuple(ix)
-            for j, i in enumerate(self.ix):
-                if not 0 <= i < len(self.board.grid):
-                    raise IndexError(f'board ix[{j}] out of range')
+
+        def __len__(self):
+            return len(self.ix)
+
+        def __iter__(self):
+            for i in self.ix:
+                yield self.board.grid[i]
 
         @property
         def letters(self):
@@ -297,24 +329,13 @@ class Board:
             try:
                 i = self.ix[0]
             except IndexError:
-                return 'nil_cursor'
-
+                return Board.Cursor(0, 0, 'X', 0, 0)
             sz = self.board.size
+            mx = max(self.ix)
+            dmx = mx - i
             y = i // sz
             x = i % sz
-
-            try:
-                j = self.ix[1]
-            except IndexError:
-                return f'{x},{y}'
-
-            di = j - i
-            orient = (
-                'X' if di == 1 else
-                'Y' if di == sz else
-                '?')
-
-            return f'{x},{y} {orient}+{len(self.ix)}'
+            return Board.Cursor(x, y, 'Y' if (dmx % sz) == 0 else 'X', sz, mx+1)
 
         def updates(self, word: str, replace: bool = False):
             lc = Counter(self.board.letters)
@@ -490,7 +511,7 @@ class SpaceWord(StoredLog):
 
         self.num_letters: int = 0
 
-        self.cursor: tuple[int, int, Literal['X', 'Y']] = (0, 0, 'X')
+        self.at_cursor: tuple[int, int, Literal['X', 'Y']] = (0, 0, 'X')
 
     def _parse_result(self):
         res = Result.parse(self.result_text)
@@ -617,7 +638,7 @@ class SpaceWord(StoredLog):
                     x = int(match[1])
                     y = int(match[2])
                     xy = cast(Literal['X', 'Y'], match[3].upper())
-                    self.cursor = x, y , xy
+                    self.at_cursor = x, y , xy
                     continue
 
                 match = re.match(r'''(?x)
@@ -800,9 +821,9 @@ class SpaceWord(StoredLog):
 
     def play(self, ui: PromptUI):
         for line in self.board.show(
-            head=f'<{self.cursor[0]} {self.cursor[1]} {self.cursor[2]}>',
+            head=f'<{self.at_cursor[0]} {self.at_cursor[1]} {self.at_cursor[2]}>',
             mid=f'[score: {self.board.score}]', mid_align='>',
-            mark=lambda x, y: '@' if self.cursor[0] == x and self.cursor[1] == y else ' ',
+            mark=lambda x, y: '@' if self.at_cursor[0] == x and self.at_cursor[1] == y else ' ',
         ): ui.print(line)
         def prompt_parts():
             sc = self.board.score
@@ -864,9 +885,9 @@ class SpaceWord(StoredLog):
                 ui.print('       : @ x y X|Y')
                 ui.print('       : @ X|Y')
             else:
-                if x is None: x = self.cursor[0]
-                if y is None: y = self.cursor[1]
-                if xy is None: xy = self.cursor[2]
+                if x is None: x = self.at_cursor[0]
+                if y is None: y = self.at_cursor[1]
+                if xy is None: xy = self.at_cursor[2]
                 self.move_to(ui, x, y, xy)
             return
 
@@ -880,9 +901,9 @@ class SpaceWord(StoredLog):
                 for let in part
             ).upper()
 
-            sel = self.board.select(self.iter_curosr())
+            sel = self.board.select(self.cursor)
             if len(word) > len(sel.ix):
-                ui.print(f'! cannot write {word!r} @ {self.cursor}: not enough space')
+                ui.print(f'! cannot write {word!r} @ {self.at_cursor}: not enough space')
                 return
 
             try:
@@ -891,7 +912,7 @@ class SpaceWord(StoredLog):
                 ui.print(f'! {err}')
                 return
 
-            ui.print(f'- writing {word!r} @ {sel.cursor}')
+            ui.print(f'- writing {word!r} @{sel.cursor}+{len(sel)}')
             self.update(ui, sel.updates(word))
             return
 
@@ -907,28 +928,27 @@ class SpaceWord(StoredLog):
         ui.print(f'! unknown input {ui.tokens.rest!r}')
 
     def move_to(self, ui: PromptUI, x: int, y: int, xy: Literal['X', 'Y'] = 'X'):
-        self.cursor = x, y, xy
+        self.at_cursor = x, y, xy
         ui.log(f'at: {x} {y} {xy}')
 
-    def iter_curosr(self):
-        x, y, xy = self.cursor
-        if xy == 'X': return self.board.x_cursor(x, y)
-        else:         return self.board.y_cursor(x, y)
+    @property
+    def cursor(self):
+        return self.board.cursor(*self.at_cursor)
 
     def erase_at(self, ui: PromptUI, erase_n: int):
-        ic = tuple(self.iter_curosr())
-        prior = tuple(self.board.grid[i] for i in ic)
+        cur = self.cursor
+        prior = tuple(self.board.grid[i] for i in cur)
 
         changes = tuple(
             (i, '')
-            for i, l in zip(ic, prior[:erase_n])
+            for i, l in zip(cur, prior[:erase_n])
             if l)
         if not changes:
-            ui.print(f'- noop erase {erase_n} @ {self.cursor}')
+            ui.print(f'- noop erase {erase_n} @ {self.at_cursor}')
             return
 
         lets = tuple(self.board.grid[i] for i, _ in changes)
-        ui.print(f'- erasing @ {self.cursor} -- {' '.join(lets)}')
+        ui.print(f'- erasing @ {self.at_cursor} -- {' '.join(lets)}')
         self.update(ui, changes)
 
     def update(self, ui: PromptUI, changes: Iterable[tuple[int, str]]):
@@ -937,12 +957,12 @@ class SpaceWord(StoredLog):
             ui.log(f'change: {i} {let}')
 
     def generate(self, ui: PromptUI):
-        sel = self.board.select(self.iter_curosr())
+        sel = self.board.select(self.cursor)
         pos = sel.possible(ui, lambda pat: grep(self.wordlist.words, pat, anchor='full'))
         if not pos: return
 
         def interact(ui: PromptUI):
-            ui.print(f'{pos} to write @{sel.cursor}')
+            ui.print(f'{pos} to write @{sel.cursor}+{len(sel)}')
             for line in pos.show_list():
                 ui.print(line)
             with (
@@ -955,7 +975,7 @@ class SpaceWord(StoredLog):
                 except IndexError as err:
                     ui.print(f'! invalid *-list reference: {err}')
                     return
-                ui.print(f'- writing {word!r} @ {sel.cursor}')
+                ui.print(f'- writing {word!r} @{sel.cursor}+{len(sel)}')
                 self.update(ui, sel.updates(word))
                 return self.play
 
