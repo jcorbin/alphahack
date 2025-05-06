@@ -733,6 +733,22 @@ class Board:
             for i, j in self.token_ranges():
                 yield cls(self.board, self.ix[i:j])
 
+        def expand(self, max: int|None = None):
+            cur = self.cursor
+            cur.max = max or len(self.board.grid)
+            return self.board.select(cur)
+
+        def continuations(self):
+            may = self.expand()
+            i = len(self)
+            while True:
+                j = may.index(lambda c, _i: bool(c), start=i)
+                if j - i < 2: break
+                for k in range(i+1, j-1):
+                    yield may.slice(k)
+                i = j+1
+            yield may
+
         def updates(self, word: str, replace: bool = False):
             lc = Counter(self.board.letters)
             for i, a, b in zip(self.ix, word.upper(), self.letters):
