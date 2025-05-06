@@ -303,10 +303,21 @@ class Board:
             for i in self.ix:
                 yield self.board.grid[i]
 
+        @override
+        def __str__(self):
+            return ''.join(self).lower()
+
+        def iter_xy(self):
+            sz = self.board.size
+            for i in self.ix:
+                y = i // sz
+                x = i % sz
+                yield x, y, i
+
         @property
         def letters(self):
-            for i in self.ix:
-                yield self.board.grid[i].upper()
+            for let in self:
+                yield let.upper()
 
         @property
         def pattern(self):
@@ -336,6 +347,35 @@ class Board:
             y = i // sz
             x = i % sz
             return Board.Cursor(x, y, 'Y' if (dmx % sz) == 0 else 'X', sz, mx+1)
+
+        def index(self,
+                  where: Callable[[str, int], bool] = lambda c, _i: bool(c),
+                  start: int = 0):
+            for i in iter(range(start, len(self.ix))):
+                c = self.board.grid[self.ix[i]]
+                if where(c, i): return i
+            return -1
+
+        def slice(self, end: int):
+            return self.__class__(self.board, self.ix[:end])
+
+        def token_ranges(self):
+            i = 0
+            n = len(self.ix)
+            while i < n:
+                i = self.index(lambda c, _i: bool(c), i)
+                if i < 0: break
+                j = self.index(lambda c, _i: not c, i)
+                if j < 0:
+                    yield i, n
+                    break
+                yield i, j
+                i = j + 1
+
+        def tokens(self):
+            cls = self.__class__
+            for i, j in self.token_ranges():
+                yield cls(self.board, self.ix[i:j])
 
         def updates(self, word: str, replace: bool = False):
             lc = Counter(self.board.letters)
