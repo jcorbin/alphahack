@@ -21,6 +21,17 @@ from wordlist import WordList
 def nope(_arg: Never, mess: str =  'inconceivable'):
     assert False, mess
 
+def grep(tokens: Iterable[str],
+         pat: re.Pattern[str],
+         anchor: Literal['start', 'full']|None = None):
+    fn = (
+        pat.fullmatch if anchor == 'full' else
+        pat.match if anchor == 'start' else
+        pat.search)
+    for word in tokens:
+        if fn(word):
+            yield word        
+
 wordlist_cache_limit: int = 10
 wordlist_cache: OrderedDict[str, WordList] = OrderedDict()
 
@@ -898,10 +909,7 @@ class SpaceWord(StoredLog):
 
     def generate(self, ui: PromptUI):
         sel = self.board.select(self.iter_curosr())
-        pos = sel.possible(ui, lambda pat: (
-            word
-            for word in self.wordlist.words
-            if pat.fullmatch(word)))
+        pos = sel.possible(ui, lambda pat: grep(self.wordlist.words, pat, anchor='full'))
         if not pos: return
 
         def interact(ui: PromptUI):
