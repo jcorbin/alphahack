@@ -78,6 +78,82 @@ def ruler(
         return f'{content:{fill}^{width}}'
     else: nope(align, 'invalid ruler align')
 
+def test_board_copy():
+    board = Board(letters=sorted('helloworld'.upper()))
+    assert list(board.show()) == [
+        '------------------------',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '------------------------',
+        '     D E H L L L O      ',
+        '     O R W _ _ _ _      ',
+        '------------------------']
+
+    for ilet in board.select(board.cursor(2, 2, 'X')).updates('hello'.upper()):
+        board.update(*ilet)
+
+    assert list(board.show()) == [
+        '------------------------',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ H E L L O _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '------------------------',
+        '     D         L        ',
+        '     O R W _ _ _ _      ',
+        '------------------------']
+
+    other = board.copy(
+        board.select(board.cursor(6, 1, 'Y')).updates('world'.upper()))
+
+    assert list(other.show()) == [
+        '------------------------',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ W _ _ _   ',
+        '  _ _ H E L L O _ _ _   ',
+        '  _ _ _ _ _ _ R _ _ _   ',
+        '  _ _ _ _ _ _ L _ _ _   ',
+        '  _ _ _ _ _ _ D _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '------------------------',
+        '                        ',
+        '     O     _ _ _ _      ',
+        '------------------------']
+
+    assert list(board.show()) == [
+        '------------------------',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ H E L L O _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '------------------------',
+        '     D         L        ',
+        '     O R W _ _ _ _      ',
+        '------------------------']
+
 @final
 class Board:
     def __init__(self,
@@ -90,6 +166,11 @@ class Board:
         for i, l in enumerate(grid):
             if i < len(self.grid):
                 self.grid[i] = l
+
+    def copy(self, updates: Iterable[tuple[int, str]] = ()):
+        b = Board(self.size, self.letters, self.grid)
+        for ilet in updates: b.update(*ilet)
+        return b
 
     @property
     def re_letter(self):
