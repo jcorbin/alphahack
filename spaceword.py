@@ -21,6 +21,16 @@ from wordlist import WordList
 def nope(_arg: Never, mess: str =  'inconceivable'):
     assert False, mess
 
+def isurround(pre: str, parts: Iterable[str], post: str):
+    any_part = False
+    for part in parts:
+        if not any_part:
+            any_part = True
+            yield pre
+        yield part
+    if any_part:
+        yield post
+
 def grep(tokens: Iterable[str],
          pat: re.Pattern[str],
          anchor: Literal['start', 'full']|None = None):
@@ -248,6 +258,23 @@ class Board:
                 if b and a != b: yield i, b
         yield from simplify(updates(), self.grid, self.letters)
 
+    def seeds(self):
+        bounds = self.defined_rect
+        if not bounds:
+            # TODO just straight up mid?
+            sz = self.size
+            at = sz // 5
+            yield self.cursor(at, at, 'X')
+            yield self.cursor(at, at, 'Y')
+        else:
+            lo_x, lo_y, hi_x, hi_y = bounds
+            for y in range(lo_y, hi_y):
+                yield self.cursor(lo_x, y, 'X')
+            for x in range(lo_x, hi_x):
+                yield self.cursor(x, lo_y, 'Y')
+
+    # TODO cross-check -> fixup points
+
     @property
     def re_letter_avail(self):
         return re_letter(self.letters)
@@ -384,6 +411,15 @@ class Board:
 
         def __iter__(self):
             return iter(self.range())
+
+        def pre(self):
+            cls = self.__class__
+            if self.axis == 'X':
+                for x in range(0, self.x):
+                    yield cls(x, self.y, self.axis, self.size, self.max)
+            elif self.axis == 'Y':
+                for y in range(0, self.y):
+                    yield cls(self.x, y, self.axis, self.size, self.max)
 
     def show(self,
              head: str|None = '',
@@ -1087,7 +1123,6 @@ class SpaceWord(StoredLog):
             ui.print('cleared board')
             return
 
-<<<<<<< HEAD
         if ui.tokens.have(r'/shift'):
             dx = 0
             dy = 0
@@ -1132,7 +1167,7 @@ class SpaceWord(StoredLog):
             self.update(ui, self.board.shift(dx, dy))
             ui.print(f'centered board D:{dx:+},{dy:+}')
             return
-=======
+
         if ui.tokens.under(r'~'):
             def done(board: Board|None):
                 if board:
@@ -1147,7 +1182,6 @@ class SpaceWord(StoredLog):
                 return False
 
             return Search(self.board, self.wordlist, done, reject)
->>>>>>> 8ed3114 (spaceword: add frontier Search.Halo)
 
         if ui.tokens.under(r'\*'):
             return self.generate(ui)
@@ -1442,6 +1476,10 @@ class Search:
             self.take_halo(ui)
             return
 
+        star = ui.tokens.under(r'\*')
+        if star:
+            return self.generate(ui)
+
         if not ui.tokens or ui.tokens.under(r'board'):
             for line in self.board.show(
                 mid=f'[score: {self.board.score}]', mid_align='>',
@@ -1510,6 +1548,138 @@ class Search:
 
         ui.print(' '.join(parts()))
         self.halos.clear()
+
+    def generate(self,
+                 ui: PromptUI,
+                 jitter: float = 0.5,
+                 per_n: int = 10,
+                 verbose: int = 0,
+                 ):
+        if self.frontier_cap:
+            while per_n > 2 and len(self.frontier) * per_n > self.frontier_cap:
+                per_n -= 1
+        chooser = Chooser(show_n=per_n)
+
+        while ui.tokens:
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                verbose += len(match.group(1))
+                continue
+
+            try:
+                if chooser.collect(ui.tokens):
+                    continue
+            except ValueError as err:
+                ui.print(f'! {err}')
+                return
+
+            ui.print(f'! invalid arg {next(ui.tokens)!r}')
+            return
+
+        with ui.time.elapsed('search',
+                             print=ui.print if verbose > 1 else lambda _: None,
+                             final=ui.print if verbose > 0 else lambda _: None,
+                             ) as mark:
+            wordlist = tuple(self.all_words())
+            mark('filter all words')
+
+            # NOTE should be redundant by proper result handling
+            ded = self.frontier.split(lambda board, i: not any(l for l in board.letters))
+            if ded:
+                ui.print(f'pruned {len(ded)} boards from frontier')
+            mark('prune')
+
+            boards = tuple(self.frontier)
+
+            # seed points for each board:
+            # - for empty boards, this is just a couple of empty selections
+            #   somewhere in the middle
+            # - for boards with a region of defined letters, this is every
+            #   row/col selection over the region's bounding rectangle
+            seed_points = tuple(tuple(board.seeds()) for board in boards)
+            mark('seed points')
+
+            # seeds are selected regions of each board where we'll try to write a new word
+            seeds = tuple(
+                (board, seed)
+                for board, points in zip(boards, seed_points)
+                for seed in (
+                    seed
+                    for point in points
+                    for sel in (board.select(point),)
+                    for seed in chain(
+                        (sel,),
+                        # TODO relax and evaluate pre-cursors ex nihilo?
+                        (board.select(pre) for pre in point.pre()) if any(sel) else ()
+                    )
+                ))
+            mark('elaborate seeds')
+
+            ui.print(f'searching {len(seeds)} seeds from {len(boards)} boards')
+
+            # TODO suggest erasures
+
+            # pull all possible words for every boards' seeds...
+            seed_words = tuple(
+                (board, seed, tuple(grep(wordlist, seed.pattern, anchor='full')))
+                for board, seed in seeds)
+            mark('grep words')
+
+            # ...but the regex may be too permissive, so apply a further
+            # feasibility filter on each boards' possible words per-seed
+            seed_words = tuple(
+                (board, seed, tuple(
+                    word for word in words
+                    if not seed.nop_write(word)
+                    if seed.can_write(word)))
+                for board, seed, words in seed_words)
+            mark('filter words')
+
+            # now, that's getting to be **rather a lot** of words, so take a
+            # parametric sample of each boards' filtered word list 
+            seed_pos = tuple(
+                (board, seed, Possible(
+                    words,
+                    wsr.score,
+                    choices=chooser.choices,
+                    verbose=verbose))
+                for board, seed, words in seed_words
+                for wsr in (WordScorer(max(2, len(seed.ix) - 2), jitter=jitter),))
+            mark('seed pos')
+
+            # unroll and enumerate each possible word for every board
+            seed_posi = tuple(
+                (board, seed, pos, pi)
+                for board, seed, pos in seed_pos
+                for pi in pos.index())
+            mark('seed posi')
+
+            if not seed_posi:
+                ui.print(f'no search seeds possible ; make some edits?')
+                return
+
+            # finally apply possible words, generating new potential boards
+            may_boards = tuple(
+                board.copy(seed.updates(pos.data[pi]))
+                for board, seed, pos, pi in seed_posi)
+            mark('may boards')
+
+            # each final board score is its possible word score
+            scores = tuple(
+                pos.scores[pi]
+                for (_, _, pos, pi) in seed_posi)
+
+            from_boards = tuple(b for (b, _, _, _) in seed_posi)
+            mark('offer prep')
+
+        def explain(i: int) -> Generator[str]:
+            _, seed, pos, pi = seed_posi[i]
+            yield f'word:{pos.data[pi]!r}'
+            yield f'@{seed.cursor}+{len(seed)}'
+            yield f'*= word_score: {100*pos.scores[pi]:.2f}%'
+            yield from isurround(f'= (', pos.explain(pi), f')')
+
+        self.offer_boards(from_boards, may_boards, scores, explain, wordlist)
 
     @final
     class Halo:
