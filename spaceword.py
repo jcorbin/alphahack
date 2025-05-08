@@ -2709,6 +2709,7 @@ class Search:
             drop += n - len(self.frontier)
 
         scorer: Halo.Scorer = Halo.NaturalScores
+        # TODO scorer = self.score_taken_boards
         scorer = Halo.WithWordLabels(self.wordlist, scorer)
 
         self.frontier = Halo.of(chain(self.frontier, take), scorer)
@@ -2899,6 +2900,35 @@ class Search:
             new_boards, scores, explain,
             meta = meta(),
         ))
+
+    @staticmethod
+    def score_taken_boards(boards: Sequence[Board]):
+        result = tuple(board.score/board.max_score for board in boards)
+
+        density = tuple(
+            1.0 if da == 0 else board.used_letters / da
+            for board in boards
+            for da in (board.defined_area,))
+
+        scores = tuple(
+            res * den
+            for res, den in zip(result, density))
+
+        def explain(i: int) -> Iterable[str]:
+            score = scores[i]
+            yield f'score:{100*score:.2f}% ='
+
+            res = result[i]
+            yield f'*= res:{100*res:.2f}%'
+
+            board = boards[i]
+            den = density[i]
+            if den != 1.0:
+                yield f'*= den:{100*den:.2f}% = ( ul:{board.used_letters} / da:{board.defined_area} )'
+
+            yield from Halo.ExplainBoard(boards[i])
+
+        return scores, explain
 
     def prune_word(self,
                    ui: PromptUI,
