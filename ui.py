@@ -75,7 +75,7 @@ State = Callable[['PromptUI'], 'State|None']
 
 @final
 class Next(BaseException):
-    def __init__(self, state: State):
+    def __init__(self, state: State|None=None):
         super().__init__()
         self.state = state
 
@@ -338,7 +338,7 @@ class PromptUI:
                 state = state(self) or state
 
             except Next as n:
-                state = n.state
+                state = n.state or state
 
             except EOFError:
                 self.log('<EOF>')
