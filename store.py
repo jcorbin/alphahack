@@ -109,6 +109,13 @@ class StoredLog:
             if tokens.have(r'replay$'):
                 return self.Replay(self)
 
+            if tokens.have(r'cont(i(n(ue?)?)?)?$'):
+                rep = self.Replay(self)
+                line_no, time, mess = rep.seek(0)
+                rep.cursor = line_no
+                ui.print(f'*** {line_no}. T{time:.1f} {mess}')
+                return rep.restart(ui, mess=f'^^^ continuing from last line')
+
             ui.print(f'! invalid review command {tokens.rest!r}')
 
     @final
@@ -133,8 +140,38 @@ class StoredLog:
                 mess = str(match.group(2))
                 yield line_no, time, mess
 
+        def seek(self, offset: int):
+            '''
+            Seek line number offset.
+
+            Since line numbers count naturally from 1,
+            we use offset 0 to mean last line (aka EOF).
+
+            Furthermore, negative offsets count back from the last line.
+
+            So pass a postive number, and it will be truncated if necessary;
+            i.e. `seek(10)` can mean "you wanted line 10, best I can do is 5".
+
+            For the last line `seek(0)`, 2nd-to last line is `seek(-1)`, etc.
+            '''
+            if offset <= 0:
+                line_no = 0
+                for line_no, _ in self.skim_log():
+                    pass
+                offset = max(0, line_no - offset)
+            line_no, time, mess = 0, 0.0, ''
+            for line_no, time, mess in self.parse_log():
+                if line_no >= offset: break
+            return line_no, time, mess
+
         def __call__(self, ui: PromptUI):
             with ui.input(f'replay> ') as tokens:
+                if tokens.have(r'cont(i(n(ue?)?)?)?$'):
+                    line_no, time, mess = self.seek(0)
+                    self.cursor = line_no
+                    ui.print(f'*** {line_no}. T{time:.1f} {mess}')
+                    return self.restart(ui, mess=f'^^^ continuing from last line')
+
                 C = 5
                 line_lo = max(0, self.cursor - C)
                 line_hi = self.cursor + C
