@@ -1548,11 +1548,39 @@ class Search:
         if not halo.parse_choices(ui, prior_n = self.frontier_cap):
             return
 
+        def score_boards(boards: Sequence[Board]):
+            result = tuple(board.score/board.max_score for board in boards)
+
+            density = tuple(
+                1.0 if da == 0 else board.used_letters / da
+                for board in boards
+                for da in (board.defined_area,))
+
+            scores = tuple(
+                res * den
+                for res, den in zip(result, density))
+
+            def explain(i: int) -> Iterable[str]:
+                score = scores[i]
+                yield f'score:{100*score:.2f}% ='
+
+                res = result[i]
+                yield f'*= res:{100*res:.2f}%'
+
+                board = boards[i]
+                den = density[i]
+                if den != 1.0:
+                    yield f'*= den:{100*den:.2f}% = ( ul:{board.used_letters} / da:{board.defined_area} )'
+
+                yield from Search.Halo.ExplainBoard(boards[i])
+
+            return scores, explain
+
         self.frontier = Search.Halo.of(
             chain(
                 self.frontier.boards,
                 (halo.boards[i] for i in halo.index())),
-            Search.Halo.WithWordLabels(self.wordlist))
+            Search.Halo.WithWordLabels(self.wordlist, score_boards))
 
         if self.frontier_cap:
             self.frontier = self.frontier.take(self.frontier_cap)
