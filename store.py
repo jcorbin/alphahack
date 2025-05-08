@@ -117,18 +117,21 @@ class StoredLog:
             self.stl = stl
             self.cursor: int = 1
 
-        def parse_log(self):
+        def skim_log(self) -> Generator[tuple[int, str]]:
             with open(self.stl.log_file, 'r') as f:
-                for line_no, line in enumerate(f, 1):
-                    match = re.match(r'''(?x)
-                        T (?P<time> [^\s]+ )
-                        \s+
-                        (?P<mess> .+ )
-                        $''', line)
-                    if not match: continue
-                    time = float(match.group(1))
-                    mess = str(match.group(2))
-                    yield line_no, time, mess
+                yield from enumerate(f, 1)
+
+        def parse_log(self):
+            for line_no, line in self.skim_log():
+                match = re.match(r'''(?x)
+                    T (?P<time> [^\s]+ )
+                    \s+
+                    (?P<mess> .+ )
+                    $''', line)
+                if not match: continue
+                time = float(match.group(1))
+                mess = str(match.group(2))
+                yield line_no, time, mess
 
         def __call__(self, ui: PromptUI):
             with ui.input(f'replay> ') as tokens:
