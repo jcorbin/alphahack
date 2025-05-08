@@ -798,12 +798,17 @@ class SpaceWord(StoredLog):
         def prompt_parts():
             sc = self.board.score
             res = self.result
-            if res:
-                yield f'prior:{res.score}'
-                if sc > res.score:
+            prior = (
+                res.score if res is not None else
+                0)
+            if prior:
+                yield f'prior:{prior}'
+                if sc > prior:
                     yield f'bet:{sc}'
+                elif sc != prior:
+                    yield f'meh:{sc}'
             else:
-                yield f'cur:{sc}'
+                yield f'doit:{sc}'
 
         with ui.input(f'[{' '.join(prompt_parts())}]> '):
             return self.handle_play(ui)
