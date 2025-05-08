@@ -514,6 +514,12 @@ class SpaceWord(StoredLog):
     def result(self):
         self._result = None
 
+    def proc_result(self, ui: PromptUI, text: str):
+        self.result_text = text
+        del self.result
+        _ = self._parse_result()
+        ui.log(f'result: {json.dumps(self.result_text)}')
+
     @property
     @override
     def report_desc(self) -> str:
@@ -575,7 +581,10 @@ class SpaceWord(StoredLog):
                     (raw), = match.groups()
                     dat = cast(object, json.loads(raw))
                     assert isinstance(dat, str)
-                    self.result_text = dat
+                    try:
+                        self.proc_result(ui, dat)
+                    except:
+                        pass
                     continue
 
                 match = re.match(r'''(?x)
@@ -819,14 +828,10 @@ class SpaceWord(StoredLog):
 
         if ui.tokens.have(r'/res(ult)?'):
             ui.print('Provide share result:')
-            self.result_text = ui.may_paste()
-            del self.result
             try:
-                _ = self._parse_result()
+                self.proc_result(ui, ui.may_paste())
             except ValueError as err:
                 ui.print(f'! {err}')
-            else:
-                ui.log(f'result: {json.dumps(self.result_text)}')
             return
 
         if ui.tokens.have(r'/st(ore)?'):
