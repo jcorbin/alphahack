@@ -126,11 +126,14 @@ class Board:
 
     @property
     def score(self):
-        let_score = self.per_let*sum(
+        return self.per_let*self.used_letters + self.space_bonus
+
+    @property
+    def used_letters(self):
+        return sum(
             1
             for let in self.letters
             if not let)
-        return let_score + self.space_bonus
 
     @property
     def max_score(self):
