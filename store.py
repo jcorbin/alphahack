@@ -205,7 +205,9 @@ class StoredLog:
                 if tokens.have(r'start$'):
                     return self.restart
 
-        def restart(self, ui: PromptUI):
+        def restart(self,
+                    ui: PromptUI,
+                    mess: str|None = None):
             init_log_file = self.stl.__class__.log_file
             with ui.input(f'log file (default: {init_log_file}) ? ') as tokens:
                 new_log_file = tokens.rest.strip() or init_log_file
@@ -215,7 +217,10 @@ class StoredLog:
                     for line_no, line in enumerate(fr, 1):
                         _ = fw.write(line)
                         if line_no >= self.cursor: break
-                    ui.print('Truncated log into {new_log_file}')
+                    if mess is None:
+                        ui.print(f'Truncated log into {new_log_file}')
+                    elif mess:
+                        ui.print(mess)
 
                 return self.stl.load_log(ui, new_log_file)
 
