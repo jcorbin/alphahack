@@ -102,7 +102,7 @@ class StoredLog:
         for line in self.report_body:
             ui.print(line)
 
-        with ui.input(f'> ') as tokens:
+        with ui.tokens_or(f'> ') as tokens:
             if tokens.have(r'report$'):
                 return self.do_report(ui)
 
@@ -362,6 +362,43 @@ class StoredLog:
         return self
 
     def __call__(self, ui: PromptUI) -> PromptUI.State|None:
+        spec_match = re.fullmatch(r'''(?x)
+                                  (?P<puzzle_id> .*? )
+                                  :
+                                  (?P<action> .* )
+                                  ''', self.log_file)
+        if spec_match:
+            puzzle_id = str(spec_match[1])
+            action = str(spec_match[2])
+
+            sd = self.store_subdir
+            if not sd:
+                ui.print(f'! no store directory available to look for {puzzle_id!r}')
+                raise StopIteration
+
+            def find():
+                if not puzzle_id:
+                    return max((
+                        ent.path
+                        for ent in os.scandir(sd)
+                        if ent.is_file()
+                    ), default='')
+
+                maybe_log_file = os.path.join(sd, puzzle_id)
+                if os.path.isfile(maybe_log_file):
+                    return maybe_log_file
+
+            found_log_file = find()
+            if not found_log_file:
+                ui.print(f'! unable to find prior log {puzzle_id!r} in {sd}')
+                raise StopIteration
+
+            ui.print(f'Found log file {found_log_file}')
+            self.log_file = found_log_file
+
+            if action:
+                ui.tokens = ui.Tokens(action)
+
         if self.log_file and not self.loaded:
             return self.load_log(ui)
 
@@ -432,7 +469,9 @@ class StoredLog:
     def add_args(self, parser: argparse.ArgumentParser):
         _ = parser.add_argument('--store-log', default=self.store_dir)
         _ = parser.add_argument('--site', default=self.default_site)
-        _ = parser.add_argument('log_file', nargs='?', default=self.log_file)
+        _ = parser.add_argument('log_file', nargs='?', default=self.log_file,
+                                metavar='FILE | [PUZZLE_ID]:[COMMAND]',
+                                help='E.g. pass `:cont` to continue the latest stored log')
 
     def from_args(self, args: argparse.Namespace):
         self.log_file = cast(str, args.log_file)
