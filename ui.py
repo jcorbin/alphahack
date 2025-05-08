@@ -334,8 +334,6 @@ class PromptUI:
 
     def interact(self, state: State):
         while True:
-            self.tokens.raw = ''
-
             try:
                 state = state(self) or state
 
