@@ -1684,6 +1684,24 @@ class Search:
                 for board, frags, seed, words in seed_words)
             mark('filter words')
 
+            def ideal_len_for(seed: Board.Select):
+                board = seed.board
+
+                bounds = board.defined_rect
+                if bounds:
+                    lo_x, lo_y, hi_x, hi_y = bounds
+                    return max(2, sum(
+                        1
+                        for x, y, _ in seed.iter_xy()
+                        if lo_x < x < hi_x
+                        if lo_y < y < hi_y
+                    ))
+
+                return max(2, board.size//2)
+
+                # TODO can return to this once seed selections are more centered?
+                # return max(2, len(seed.ix) - 2)
+
             # now, that's getting to be **rather a lot** of words, so take a
             # parametric sample of each boards' filtered word list 
             seed_pos = tuple(
@@ -1693,7 +1711,7 @@ class Search:
                     choices=chooser.choices,
                     verbose=verbose))
                 for board, frags, seed, words in seed_words
-                for wsr in (WordScorer(max(2, len(seed.ix) - 2), jitter=jitter),))
+                for wsr in (WordScorer(ideal_len_for(seed), jitter=jitter),))
             mark('seed pos')
 
             # unroll and enumerate each possible word for every board
