@@ -140,15 +140,22 @@ class Board:
         return self.per_let*len(self.letters) + self.max_bonus
 
     @property
-    def space_bonus(self):
-        area = self.size**2
-        w, h = 0, 0
+    def defined_area(self):
         bounds = self.defined_rect
-        if bounds:
-            x1, y1, x2, y2 = bounds
-            w = abs(x2 - x1)
-            h = abs(y2 - y1)
-        return area - w*h
+        if not bounds:
+            return 0
+        x1, y1, x2, y2 = bounds
+        w = abs(x2 - x1)
+        h = abs(y2 - y1)
+        return w*h
+
+    @property
+    def max_area(self):
+        return self.size**2
+
+    @property
+    def space_bonus(self):
+        return self.max_area - self.defined_area
 
     @property
     def max_bonus(self):
