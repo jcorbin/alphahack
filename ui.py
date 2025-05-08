@@ -74,7 +74,7 @@ class Timer:
 State = Callable[['PromptUI'], 'State|None']
 
 @final
-class NextState(BaseException):
+class Next(BaseException):
     def __init__(self, state: State):
         super().__init__()
         self.state = state
@@ -330,14 +330,14 @@ class PromptUI:
             self.get_input = prior_get_input
 
     State = State
-    NextState = NextState
+    Next = Next
 
     def interact(self, state: State):
         while True:
             try:
                 state = state(self) or state
 
-            except NextState as n:
+            except Next as n:
                 state = n.state
 
             except EOFError:
@@ -361,7 +361,7 @@ class PromptUI:
         try:
             yield
         except type_:
-            raise NextState(st)
+            raise Next(st)
 
     @contextmanager
     def exc_print(self, mess: str|Callable[[], str]):
@@ -390,7 +390,7 @@ class PromptUI:
             if then_ == 'pass': return
             elif then_ == 'stop': raise StopIteration
             elif isinstance(then_, Exception): raise then_
-            else: raise NextState(then_)
+            else: raise Next(then_)
 
     def run(self, state: State):
         try:
