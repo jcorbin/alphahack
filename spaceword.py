@@ -627,6 +627,7 @@ class SpaceWord(StoredLog):
         self.given_wordlist: bool = False
 
         self.board = Board()
+        self.best: Board|None = None
         self.result_text: str = ''
         self._result: Result|None = None
 
@@ -659,8 +660,10 @@ class SpaceWord(StoredLog):
     def proc_result(self, ui: PromptUI, text: str):
         self.result_text = text
         del self.result
-        _ = self._parse_result()
+        res = self._parse_result()
         ui.log(f'result: {json.dumps(self.result_text)}')
+        if res.score == self.board.score:
+            self.best = self.board.copy()
 
     @property
     @override
@@ -950,6 +953,7 @@ class SpaceWord(StoredLog):
             sc = self.board.score
             res = self.result
             prior = (
+                self.best.score if self.best is not None else
                 res.score if res is not None else
                 0)
             if prior:
