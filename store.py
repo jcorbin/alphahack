@@ -131,23 +131,20 @@ class StoredLog:
                     yield line_no, time, mess
 
         def __call__(self, ui: PromptUI):
-            C = 5
-            line_lo = max(0, self.cursor - C)
-            line_hi = self.cursor + C
-            found = False
-            last_line = 0
-            for line_no, time, mess in self.parse_log():
-                if line_lo < line_no <= line_hi:
-                    found = True
-                    ui.print(f'{"***" if line_no == self.cursor else "   "} {line_no}. T{time:.1f} {mess}')
-                elif found: break
-                last_line = line_no
-
-            if not found:
-                self.cursor = last_line if self.cursor > last_line else 1
-                return
-
             with ui.input(f'replay> ') as tokens:
+                C = 5
+                line_lo = max(0, self.cursor - C)
+                line_hi = self.cursor + C
+                found = False
+                last_line = 0
+                for line_no, time, mess in self.parse_log():
+                    if line_lo < line_no <= line_hi:
+                        found = True
+                        ui.print(f'{"***" if line_no == self.cursor else "   "} {line_no}. T{time:.1f} {mess}')
+                    last_line = line_no
+                if not found:
+                    self.cursor = last_line if self.cursor > last_line else 1
+
                 match = tokens.have(r'S(\d*)')
                 if match:
                     sn = str(match.group(1))
