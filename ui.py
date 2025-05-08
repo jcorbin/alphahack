@@ -75,9 +75,10 @@ State = Callable[['PromptUI'], 'State|None']
 
 @final
 class Next(BaseException):
-    def __init__(self, state: State|None=None):
+    def __init__(self, state: State|None=None, input: str|None=None):
         super().__init__()
         self.state = state
+        self.input = input
 
 @final
 class Tokens(PeekStr):
@@ -339,6 +340,8 @@ class PromptUI:
 
             except Next as n:
                 state = n.state or state
+                if n.input is not None:
+                    self.tokens.raw = n.input
 
             except EOFError:
                 self.log('<EOF>')
