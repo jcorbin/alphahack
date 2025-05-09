@@ -1569,12 +1569,14 @@ class Search:
     def generate(self,
                  ui: PromptUI,
                  jitter: float = 0.5,
-                 per_n: int = 10,
+                 per_n: int|None = None,
                  verbose: int = 0,
                  ):
+
+        if per_n is None:
+            per_n = 3 if self.frontier_cap else 10
         if self.frontier_cap:
-            while per_n > 2 and len(self.frontier) * per_n > self.frontier_cap:
-                per_n -= 1
+            per_n = max(per_n, math.ceil(self.frontier_cap / len(self.frontier)))
         chooser = Chooser(show_n=per_n)
 
         while ui.tokens:
