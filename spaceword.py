@@ -1095,6 +1095,9 @@ class SpaceWord(StoredLog):
             mid=f'[score: {self.board.score}]', mid_align='>',
             mark=lambda x, y: '@' if self.at_cursor[0] == x and self.at_cursor[1] == y else ' ',
         ): ui.print(line)
+
+        # TODO present for word in self.board.all_words():
+
         def prompt_parts():
             sc = self.board.score
             res = self.result
