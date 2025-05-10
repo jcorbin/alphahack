@@ -1,0 +1,56 @@
+T3.0169352860000345 now: 2025-05-10T08:52:15EDT
+T3.016973214000018 site: spaceword.org
+T5.320298300000104 📜 nwl2023.txt ? 
+T5.320361446000106 wordlist: nwl2023.txt
+T18.60769948899997 🧩  ? daily 20250510
+T18.608040659000153 puzzle_id: 2025-05-10
+T19.471488292999993 num letters (default: 21) ? 
+T19.471546708999995 num_letters: 21
+T28.88685687100019 letters? aabbdee
+T28.887035981000054 letters: |AABBDEE|
+T32.47070414600012 letters? ehiioos
+T32.47078875200009 letters: |AABBDEEEHIIOOS|
+T35.54261643000018 letters? sstuvxz
+T35.54270491500006 letters: |AABBDEEEHIIOOSSSTUVXZ|
+T36.318558808000034 letters. 
+T38.638365368999985 [doit:100]> ~
+T40.14234885400015 search[1]> cap 300
+T42.03822253300018 search[1 cap:300]> **
+T56.16563431700001 search[300 cap:300 may:8911 done:40 dead:43]> show done
+T65.30123064500003 search[300 cap:300 may:8911 done:40 dead:43]> sho 1
+T67.11705518300005 search[300 cap:300 may:8911 done:40 dead:43]> show 1
+T124.035285574 search[300 cap:300 may:8911 done:40 dead:43]> ret
+T124.03545080800018 change: 2 S
+T124.03546198800018 change: 3 A
+T124.03546875799998 change: 4 T
+T124.03547539800002 change: 12 U
+T124.03548108700011 change: 16 B
+T124.03548670700002 change: 22 B
+T124.0354921170001 change: 23 A
+T124.03549763700016 change: 24 I
+T124.03550325700007 change: 25 Z
+T124.03550894600016 change: 26 E
+T124.03551431599999 change: 27 S
+T124.03551982600015 change: 32 O
+T124.03552526600015 change: 36 H
+T124.03553090600008 change: 42 X
+T124.03553632500007 change: 46 O
+T124.035541835 change: 52 I
+T124.03554756500012 change: 56 V
+T124.03555310500019 change: 62 D
+T124.035558455 change: 66 E
+T124.035563895 change: 72 E
+T124.03556928400008 change: 76 S
+T129.51472811300005 [doit:2152]> /res
+T130.32291145199997 Press <Enter> to 📋 or `>` for line prompt 
+T130.32605525000008 result: "\u2728 Spaceword.org Daily 2025-05-10 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 162/219 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
+T143.29038242600018 [prior:2152]> /res
+T144.12244553699998 Press <Enter> to 📋 or `>` for line prompt 
+T144.12455422300013 result: "\u2728 Spaceword.org Daily 2025-05-10 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 162/219 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
+T223.160535193 [prior:2152]> ␚
+T223.160576472 <EOF>
+T0.04945279899993693 now: 2025-05-10T08:56:38EDT
+T6.844627470999967 [prior:2152]> /res
+T7.4446792099997765 Press <Enter> to 📋 or `>` for line prompt 
+T7.44707299799984 result: "\u2728 Spaceword.org Daily 2025-05-10 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 162/223 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
+T10.212596191999864 [prior:2152]> /store
