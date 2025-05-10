@@ -32,6 +32,49 @@ def grep(tokens: Iterable[str],
         if fn(word):
             yield word        
 
+def simplify(
+    changes: Iterable[tuple[int, str]],
+    grid: Sequence[str],
+    letters: Sequence[str],
+) -> Generator[tuple[int, str]]:
+    od: OrderedDict[int, str] = OrderedDict()
+    for i, let in changes:
+        od[i] = let
+
+    avail = Counter(let for let in letters if let)
+    pending = list(od.items())
+
+    while pending:
+        for j, (i, let) in enumerate(pending):
+            if avail[let] <= 0:
+                yield from pending[:j]
+                break
+            prior = grid[i]
+            avail[let] -= 1
+            if prior: avail[prior] += 1
+        else: break
+
+        pending = pending[j:]
+
+        need = let
+        reuse_j = next((
+            j
+            for j, (i, _) in enumerate(pending)
+            if grid[i] == need
+        ), None)
+        if reuse_j is None:
+            raise ValueError('invalid changes')
+
+        i, dep = pending[reuse_j]
+        if avail[dep] <= 0:
+            yield i, ''
+        else:
+            yield pending.pop(reuse_j)
+            avail[dep] -= 1
+        avail[need] += 1
+
+    yield from pending
+
 wordlist_cache_limit: int = 10
 wordlist_cache: OrderedDict[str, WordList] = OrderedDict()
 
@@ -171,6 +214,23 @@ class Board:
         b = Board(self.size, self.letters, self.grid)
         for ilet in updates: b.update(*ilet)
         return b
+
+    def shift(self, dx: int, dy: int) -> Generator[tuple[int, str]]:
+        if dx == 0 and dy == 0:
+            return
+        sz = self.size
+        ix = tuple(self.ix_defined())
+        jx = tuple(
+            (y + dy)*sz + (x + dx)
+            for _, x, y in self.ix_defined())
+        ls = tuple(self.grid[i] for i, _, _ in ix)
+        def updates():
+            for i, _, _ in ix:
+                yield i, ''
+            for j, l in zip(jx, ls):
+                if 0 <= j < len(self.grid):
+                    yield j, l
+        yield from simplify(updates(), self.grid, self.letters)
 
     @property
     def re_letter(self):
@@ -1022,6 +1082,51 @@ class SpaceWord(StoredLog):
                 for i, let in enumerate(self.board.grid)
                 if let))
             ui.print('cleared board')
+            return
+
+        if ui.tokens.have(r'/shift'):
+            dx = 0
+            dy = 0
+
+            while ui.tokens:
+                match = ui.tokens.have(r'([xyXY])([-+]\d+)')
+                if match:
+                    xy = str(match[1])
+                    d = int(match[2])
+                    if xy.lower() == 'x':
+                        dx = d
+                        continue
+                    if xy.lower() == 'y':
+                        dy = d
+                        continue
+
+                ui.print(f'! invalid arg {next(ui.tokens)!r}')
+                return
+
+            if dx == 0 and dy == 0:
+                ui.print('shift noop')
+            else:
+                self.update(ui, self.board.shift(dx, dy))
+                ui.print(f'shifted board D:{dx:+},{dy:+}')
+
+            return
+
+        if ui.tokens.have(r'/cen(t(er?|re?)?)?'):
+            bounds = self.board.defined_rect
+            if not bounds:
+                ui.print('empty board, what even is center')
+                return
+
+            x1, y1, x2, y2 = bounds
+            h = self.board.size//2
+            cx, cy = math.floor(x1/2 + x2/2), math.floor(y1/2 + y2/2)
+            if cx == h and cy == h:
+                ui.print('board already centered')
+                return
+
+            dx, dy = h - cx, h - cy
+            self.update(ui, self.board.shift(dx, dy))
+            ui.print(f'centered board D:{dx:+},{dy:+}')
             return
 
         if ui.tokens.under(r'\*'):
