@@ -1600,6 +1600,8 @@ class Search:
         self.halos.clear()
 
     def auto_generate(self, ui: PromptUI):
+        # TODO collect and report run stats
+
         if not self.frontier_cap:
             ui.print('! refusing to auto generate without a frontier cap')
             return self
