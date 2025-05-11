@@ -35,6 +35,12 @@ def partition_any(s: str, chars: str):
             return s[:i], s[i], s[i+1:]
     return  s, '', ''
 
+def block_lines(s: str):
+    lines = spliterate(s, '\n', trim=True)
+    lines = trimlines(lines)
+    lines = striperate(lines)
+    return lines
+
 def spliterate(s: str, chars: str, trim: bool = False):
     fin = ''
     while s:
@@ -293,9 +299,7 @@ class MarkedSpec:
 
     @classmethod
     def iterlines(cls, spec: str):
-        lines = spliterate(spec, '\n')
-        lines = trimlines(lines)
-        lines = striperate(lines)
+        lines = block_lines(spec)
         lines = uncomment_lines(lines)
         return lines
 
