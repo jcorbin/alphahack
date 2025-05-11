@@ -3,18 +3,19 @@
 import argparse
 import math
 import json
+import pytest
 import re
 from collections import Counter, OrderedDict
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from dateutil.tz import gettz
-from itertools import chain
+from itertools import batched, chain
 from typing import Callable, Literal, Never, cast, final, override
 
 from sortem import Chooser, Possible, RandScores
 from store import StoredLog, git_txn
-from strkit import MarkedSpec, spliterate
+from strkit import MarkedSpec, block_lines, spliterate
 
 from ui import PromptUI
 from wordlist import WordList
@@ -203,6 +204,56 @@ def test_board_copy():
         '     O R W _ _ _ _      ',
         '------------------------']
 
+def parse_test_board(s: str):
+    lines = list(block_lines(s))
+    rows = tuple(
+        tuple(b[0] for b in batched(line, 2))
+        for line in lines)
+    sz = len(rows[0])
+    assert all(len(row) == sz for row in rows)
+    return Board(size=sz,
+        grid = tuple(
+            '' if let == '_' else let.upper()
+            for row in rows[:sz]
+            for let in row),
+        letters = tuple(
+            '' if let == '_' else let.upper()
+            for row in rows[sz:]
+            for let in row))
+
+@pytest.mark.parametrize('a, b, expect', [
+    pytest.param(
+        '''
+        _ _ _
+        C A T
+        _ _ _
+        _ _ _
+        I E Z
+        ''',
+
+        '''
+        _ _ _
+        A T C
+        _ _ _
+        ''',
+
+        '''
+        4 _
+        3 A
+        5 C
+        4 T
+        ''',
+
+        id='cat_atc'),
+])
+def test_board_diff(a: str, b: str, expect: str):
+    ba = parse_test_board(a)
+    bb = parse_test_board(b)
+    assert list(
+        f'{i} {let or "_"}'
+        for i, let in ba.diff(bb)
+    ) == list(block_lines(expect))
+
 @final
 class Board:
     def __init__(self,
@@ -261,6 +312,18 @@ class Board:
             for j, l in zip(jx, ls):
                 if 0 <= j < len(self.grid):
                     yield j, l
+        yield from simplify(updates(), self.grid, self.letters)
+
+    def diff(self, other: 'Board') -> Generator[tuple[int, str]]:
+        if self.size != other.size:
+            raise ValueError(f'board size mismatch mine:{self.size} vs theirs:{other.size}')
+        def updates():
+            for i, (a, b) in enumerate(zip(self.grid, other.grid)):
+                if a and a != b:
+                    # TODO could narrow down to "only if needed for reuse"
+                    yield i, ''
+            for i, (a, b) in enumerate(zip(self.grid, other.grid)):
+                if b and a != b: yield i, b
         yield from simplify(updates(), self.grid, self.letters)
 
     @property
