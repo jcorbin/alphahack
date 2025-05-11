@@ -2123,6 +2123,21 @@ class Search:
             mark('filter words')
 
             def ideal_len_for(seed: Board.Select):
+                board = seed.board
+
+                bounds = board.defined_rect
+                if bounds:
+                    lo_x, lo_y, hi_x, hi_y = bounds
+                    return max(2, sum(
+                        1
+                        for x, y, _ in seed.iter_xy()
+                        if lo_x < x < hi_x
+                        if lo_y < y < hi_y
+                    ))
+
+                # TODO is this useful?
+                # return max(2, board.size//2)
+
                 return max(2, len(seed.ix) - 2)
 
             # now, that's getting to be **rather a lot** of words, so take a
