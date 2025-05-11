@@ -405,7 +405,45 @@ class Board:
                     yield j, l
         yield from simplify(updates(), self.grid, self.letters)
 
+    def _datar(self):
+        dat = list(self.grid)
+        dat.extend(self.letters)
+        return dat
+
     def diff(self, other: 'Board') -> Generator[tuple[int, str]]:
+
+        data = self._datar()
+        datb = other._datar()
+        if len(data) != len(datb):
+            raise ValueError(f'board data size mismatch mine:{len(data)} vs theirs:{len(datb)}')
+
+        sdata = set(l for l in data if l)
+        sdatb = set(l for l in datb if l)
+        sdatx = sdata.symmetric_difference(sdatb)
+        if sdatx:
+            sdf = (
+                f'{"-" if x in sdata else "+"}{x}'
+                for x in sdatx)
+            raise ValueError(f'board letter set mismatch {" ".join(sdf)}')
+
+        done: set[str] = set()
+        cycle: set[str] = set()
+
+        # ___ CAT ___ ___ IEZ
+        # ___ ATC ___ ___ IEZ
+        # (C A T)
+        # (C T) (C A)
+
+        # C A T
+        # C _ T          1 _
+        # A _ T          0 A
+        # A C T          1 C
+        # A C T (C A)
+        # A C _          2 _
+        # A T _          1 T
+        # A T C          2 C
+        # A T C (C T)
+
         if self.size != other.size:
             raise ValueError(f'board size mismatch mine:{self.size} vs theirs:{other.size}')
         def updates():
