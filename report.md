@@ -1,111 +1,113 @@
-# 2025-05-11
+# 2025-05-12
 
-- 🔗 spaceword.org 🧩 2025-05-10 🥳 2160 rank 145 ⏱️ 0:13:30.090937
-- 🔗 squareword.org 🧩 #1196 🥳 8 ⏱️ 0:04:19.970307
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1226 🥳 17 ⏱️ 0:05:06.012560
-- 🔗 alfagok.diginaut.net 🧩 #190 🥳 14 ⏱️ 0:01:31.298673
-- 🔗 alphaguess.com 🧩 #656 🥳 13 ⏱️ 0:00:59.772053
-- 🔗 cemantix.certitudes.org 🧩 #1166 🥳 105 ⏱️ 0:01:56.872443
-- 🔗 cemantle.certitudes.org 🧩 #1133 🥳 310 ⏱️ 0:03:36.931897
+- 🔗 spaceword.org 🧩 2025-05-11 🥳 2168 rank 70 ⏱️ 0:13:14.676584
+- 🔗 squareword.org 🧩 #1197 🥳 8 ⏱️ 0:02:43.069912
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1227 🥳 18 ⏱️ 0:04:53.890928
+- 🔗 alfagok.diginaut.net 🧩 #191 🥳 10 ⏱️ 0:01:45.151485
+- 🔗 alphaguess.com 🧩 #657 🥳 11 ⏱️ 0:00:34.130909
+- 🔗 cemantix.certitudes.org 🧩 #1167 🥳 341 ⏱️ 0:05:52.389583
+- 🔗 cemantle.certitudes.org 🧩 #1134 🥳 52 ⏱️ 0:00:27.982423
 
 - ❌
 - ✅
 - ⏳
 
-- ✅ spaceword.org 🧩 2025-05-10 🥳 2160 rank 145
-- ✅ squareword.org 🧩 #1196 🥳 8
-- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1226 🥳 17
-- ✅ alfagok.diginaut.net 🧩 #190 🥳 14
-- ✅ alphaguess.com 🧩 #656 🥳 13
-- ✅ cemantix.certitudes.org 🧩 #1166 🥳 105
-- ✅ cemantle.certitudes.org 🧩 #1133 🥳 310
+- ✅ spaceword.org 🧩 2025-05-11 🥳 2168 rank 70
+- ✅ squareword.org 🧩 #1197 🥳 8
+- ✅ [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1227 🥳 18
+- ✅ alfagok.diginaut.net 🧩 #191 🥳 10
+- ✅ alphaguess.com 🧩 #657 🥳 11
+- ✅ cemantix.certitudes.org 🧩 #1167 🥳 341
+- ✅ cemantle.certitudes.org 🧩 #1134 🥳 52
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$LOqN4eRK3mxyQwcZc1_IPUbZ2b1BJfClhtQanx8FhVU?via=aelf.land&via=matrix.org&via=midov.pl
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$vuwhKItlWytYzOBD2fxo6oxWmCraqIip7KoyPY4P08Y?via=aelf.land&via=matrix.org&via=midov.pl
 
-# spaceword.org 🧩 2025-05-10 🥳 2160 rank 145 ⏱️ 0:13:30.090937
+# spaceword.org 🧩 2025-05-11 🥳 2168 rank 70 ⏱️ 0:13:14.676584
 
-📜 8 sessions
+📜 3 sessions
 - tiles: 21/21
-- score: 2160 bonus: +60
-- rank: 145/230
+- score: 2168 bonus: +68
+- rank: 70/202
 
-      A V A S T _ _ _ _ _   
-      _ _ _ _ U _ _ _ _ _   
-      _ _ B O X _ _ _ _ _   
-      _ _ I _ E _ _ _ _ _   
-      _ _ S _ D _ _ _ _ _   
-      _ _ H _ O _ _ _ _ _   
-      Z E E _ _ _ _ _ _ _   
-      _ _ S I B _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      Y _ _ H _ _ _ Z _ _   
+      A _ Q U A E R E _ _   
+      G _ _ L _ _ O E _ _   
+      E X U L T E D _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
 
-# squareword.org 🧩 #1196 🥳 8 ⏱️ 0:04:19.970307
+# squareword.org 🧩 #1197 🥳 8 ⏱️ 0:02:43.069912
 
 📜 2 sessions
 
 Guesses:
 
 Score Heatmap:
+    🟨 🟩 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟨 🟨 🟨
-    🟨 🟨 🟩 🟨 🟨
-    🟨 🟨 🟨 🟨 🟩
     🟩 🟩 🟩 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟨 🟩 🟨 🟨 🟨
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    L U C R E
-    E N R O L
-    A L O U D
-    D I R G E
-    S T E E R
+    M A T C H
+    A G I L E
+    R A D A R
+    S T A I D
+    H E L M S
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1226 🥳 17 ⏱️ 0:05:06.012560
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1227 🥳 18 ⏱️ 0:04:53.890928
 
 📜 1 sessions
-💰 score: 9900
+💰 score: 9800
 
-    5/6
-    > O R A T E
-      🟨⬜⬜⬜⬜
-    > C L O W N
-      ⬜⬜🟨⬜🟨
-    > N O I S Y
-      🟨🟨🟨⬜⬜
-    > B I N G O
-      🟨🟨🟨⬜🟨
-    > I N B O X
-      🟩🟩🟩🟩🟩
-    3/6
-    > S A T I N
-      🟨🟨⬜⬜⬜
-    > R I S E N
-      🟨⬜⬜🟨🟩
-    > L I T E R
-      🟩🟩🟩🟩🟩
-    5/6
-    > F I B E R
-      🟨🟩⬜🟩⬜
-    > F I V E R
+    4/6
+    > C A S T E
+      ⬜⬜⬜⬜⬜
+    > D O I N G
+      ⬜⬜⬜⬜⬜
+    > B U L K Y
       ⬜🟩⬜🟩🟩
-    > F I X E R
-      🟩🟩⬜🟩🟩
-    > S L A T E
-      🟩🟩⬜🟩🟩
-    > T H E M E
+    > M U R K Y
       🟩🟩🟩🟩🟩
-    3/6
-    > D E B U G
-      ⬜⬜⬜🟨⬜
-      ⬜⬜⬜🟨🟩
+    4/6
+    > D E A L S
+      ⬜⬜⬜⬜⬜
+    > C L A S T
+      ⬜⬜🟩🟨🟨
+    > S N A I L
+      ⬜🟨🟩🟨⬜
+    > F E R A L
       🟩🟩🟩🟩🟩
-    Final 1/2
+    4/6
+    > B A G E L
+      ⬜⬜🟨⬜🟩
+    > L A B E L
+      ⬜🟨⬜🟨🟩
+    > T H I N S
+      🟨🟩⬜🟩🟩
+    > W O R T H
+      🟩🟩🟩🟩🟩
+    4/6
+    > O U G H T
+      ⬜⬜⬜⬜⬜
+    > A D O P T
+      🟨🟨⬜⬜⬜
+    > A F O O T
+      ⬜🟨⬜🟨🟨
+      🟩🟩🟩🟩🟩
+    Final 2/2
+      🟩⬜🟩⬜🟩
       🟩🟩🟩🟩🟩
 
-# alfagok.diginaut.net 🧩 #190 🥳 14 ⏱️ 0:01:31.298673
+# alfagok.diginaut.net 🧩 #191 🥳 10 ⏱️ 0:01:45.151485
 
-🤔 14 attempts
+🤔 10 attempts
 📜 1 sessions
 
     @        [     0] &-teken   
@@ -114,90 +116,82 @@ Solution:
     @+3      [     3] -e-mail   
     @+200140 [200140] lijst     q0  ? after
     @+300208 [300208] schroef   q1  ? after
-    @+350186 [350186] vakantie  q2  ? after
-    @+374932 [374932] vrij      q3  ? after
-    @+387501 [387501] wind      q4  ? after
-    @+393919 [393919] zelfmoord q5  ? after
-    @+397128 [397128] zone      q6  ? after
-    @+398753 [398753] zuurstof  q7  ? after
-    @+398881 [398881] zwaar     q10 ? after
-    @+399018 [399018] zwad      q11 ? after
-    @+399036 [399036] zwak      q13 ? it
-    @+399036 [399036] zwak      done. it
-    @+399084 [399084] zwalk     q12 ? before
-    @+399155 [399155] zwanen    q9  ? before
-    @+399562 [399562] zweet     q8  ? before
+    @+325130 [325130] subsidie  q3  ? after
+    @+330711 [330711] tel       q5  ? after
+    @+330871 [330871] telefoon  q9  ? it
+    @+330871 [330871] telefoon  done. it
+    @+331160 [331160] televisie q8  ? before
+    @+332000 [332000] tepel     q7  ? before
+    @+333297 [333297] test      q6  ? before
+    @+336328 [336328] toe       q4  ? before
+    @+350186 [350186] vakantie  q2  ? before
 
-# alphaguess.com 🧩 #656 🥳 13 ⏱️ 0:00:59.772053
+# alphaguess.com 🧩 #657 🥳 11 ⏱️ 0:00:34.130909
 
-🤔 13 attempts
+🤔 11 attempts
 📜 1 sessions
 
-    @       [    0] aa              
-    @+1     [    1] aah             
-    @+2     [    2] aahed           
-    @+3     [    3] aahing          
-    @+23695 [23695] camp            q2  ? after
-    @+35539 [35539] convention      q3  ? after
-    @+36740 [36740] cos             q6  ? after
-    @+37092 [37092] council         q8  ? after
-    @+37139 [37139] counter         q9  ? after
-    @+37300 [37300] counterpose     q10 ? after
-    @+37383 [37383] countertendency q11 ? after
-    @+37424 [37424] country         q12 ? it
-    @+37424 [37424] country         done. it
-    @+37466 [37466] courant         q7  ? before
-    @+38198 [38198] crazy           q5  ? before
-    @+40856 [40856] da              q4  ? before
-    @+47397 [47397] dis             q1  ? before
-    @+98237 [98237] mach            q0  ? before
+    @        [     0] aa     
+    @+1      [     1] aah    
+    @+2      [     2] aahed  
+    @+3      [     3] aahing 
+    @+98237  [ 98237] mach   q0  ? after
+    @+147399 [147399] rhumb  q1  ? after
+    @+148105 [148105] river  q7  ? after
+    @+148458 [148458] roller q8  ? after
+    @+148574 [148574] roo    q9  ? after
+    @+148690 [148690] rope   q10 ? it
+    @+148690 [148690] rope   done. it
+    @+148831 [148831] rot    q6  ? before
+    @+150365 [150365] sallow q5  ? before
+    @+153343 [153343] sea    q4  ? before
+    @+159512 [159512] slop   q3  ? before
+    @+171666 [171666] ta     q2  ? before
 
-# cemantix.certitudes.org 🧩 #1166 🥳 105 ⏱️ 0:01:56.872443
+# cemantix.certitudes.org 🧩 #1167 🥳 341 ⏱️ 0:05:52.389583
 
-🤔 106 attempts
+🤔 342 attempts
 📜 1 sessions
-🫧 4 chat sessions
-⁉️ 20 chat prompts
-🤖 20 gemma3:12b replies
-🥵  5 😎 12 🥶 63 🧊 25
+🫧 12 chat sessions
+⁉️ 68 chat prompts
+🤖 68 gemma3:12b replies
+😱   1 🔥   4 🥵  26 😎  75 🥶 162 🧊  73
 
-      $1 #106   ~1 transit         100.00°C 🥳 1000‰
-      $2  #71   ~9 embarquement     33.27°C 🥵  967‰
-      $3 #100   ~2 zone             33.23°C 🥵  966‰
-      $4  #50  ~15 aéroport         33.22°C 🥵  965‰
-      $5  #61  ~13 déplacement      32.65°C 🥵  959‰
-      $6  #98   ~3 visa             29.49°C 🥵  918‰
-      $7  #65  ~11 chargement       27.18°C 😎  874‰
-      $8  #72   ~8 escale           27.07°C 😎  871‰
-      $9  #57  ~14 gare             24.96°C 😎  795‰
-     $10  #77   ~6 itinéraire       23.66°C 😎  733‰
-     $11  #63  ~12 arrivée          23.19°C 😎  707‰
-     $12  #73   ~7 hub              22.40°C 😎  657‰
-     $19  #40      voyage           17.75°C 🥶
-     $82  #44      malle            -0.10°C 🧊
+      $1 #342   ~1 séminaire          100.00°C 🥳 1000‰
+      $2 #322  ~16 colloque            68.46°C 😱  999‰
+      $3 #323  ~15 conférence          63.84°C 🔥  998‰
+      $4 #304  ~25 session             51.35°C 🔥  994‰
+      $5 #135  ~78 thématique          50.92°C 🔥  993‰
+      $6 #238  ~40 présentation        47.11°C 🔥  990‰
+      $7 #341   ~2 symposium           46.70°C 🥵  989‰
+      $8 #306  ~24 atelier             45.16°C 🥵  986‰
+      $9 #314  ~21 séance              44.33°C 🥵  982‰
+     $10 #324  ~14 congrès             42.77°C 🥵  979‰
+     $11 #155  ~73 programme           42.64°C 🥵  978‰
+     $34 #179  ~63 centre              31.89°C 😎  899‰
+    $108 #114      confrontation       18.63°C 🥶
+    $270 #302      intérêt             -0.01°C 🧊
 
-# cemantle.certitudes.org 🧩 #1133 🥳 310 ⏱️ 0:03:36.931897
+# cemantle.certitudes.org 🧩 #1134 🥳 52 ⏱️ 0:00:27.982423
 
-🤔 311 attempts
+🤔 53 attempts
 📜 1 sessions
-🫧 10 chat sessions
-⁉️ 54 chat prompts
-🤖 1 deepseek-r1:latest replies
-🤖 2 deepseek-coder-v2:latest replies
-🤖 51 gemma3:12b replies
-🔥   4 🥵  14 😎  11 🥶 253 🧊  28
+🫧 3 chat sessions
+⁉️ 11 chat prompts
+🤖 11 gemma3:12b replies
+🔥  1 🥵  2 😎 16 🥶 33
 
-      $1 #311   ~1 teen                100.00°C 🥳 1000‰
-      $2 #284  ~17 teenager             66.65°C 🔥  997‰
-      $3 #295  ~11 preteen              60.45°C 🔥  996‰
-      $4 #307   ~3 toddler              58.82°C 🔥  994‰
-      $5 #260  ~22 adolescent           57.24°C 🔥  992‰
-      $6 #245  ~24 child                51.52°C 🔥  990‰
-      $7 #298   ~9 youth                50.80°C 🥵  989‰
-      $8 #285  ~16 adult                50.20°C 🥵  988‰
-      $9 #283  ~18 juvenile             48.72°C 🥵  985‰
-     $10 #292  ~12 kid                  48.04°C 🥵  984‰
-     $11 #299   ~8 infant               44.18°C 🥵  979‰
-     $20 #242  ~25 foster               31.33°C 😎  842‰
-     $31 #108      guardian             21.93°C 🥶
-    $284  #87      milestone            -0.07°C 🧊
+     $1 #53  ~1 jazz             100.00°C 🥳 1000‰
+     $2 #13 ~18 music             68.35°C 🔥  996‰
+     $3 #19 ~13 acoustic          49.40°C 🥵  911‰
+     $4 #21 ~12 composer          49.23°C 🥵  909‰
+     $5 #32  ~6 improvisation     47.43°C 😎  877‰
+     $6 #15 ~17 melody            46.47°C 😎  861‰
+     $7  #7 ~20 symphony          44.83°C 😎  835‰
+     $8 #43  ~3 syncopation       43.58°C 😎  816‰
+     $9 #12 ~19 concert           43.29°C 😎  809‰
+    $10 #25 ~10 cadenza           39.51°C 😎  720‰
+    $11 #26  ~9 arpeggio          39.38°C 😎  711‰
+    $12 #23 ~11 ballad            37.19°C 😎  648‰
+    $13 #38  ~5 ostinato          37.05°C 😎  640‰
+    $21 #33     instrumentation   27.92°C 🥶
