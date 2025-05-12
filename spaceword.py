@@ -955,12 +955,30 @@ class SpaceWord(StoredLog):
                     ui.log(f'letters: |{"".join(self.board.letters)}|')
                     ui.print(f'- added letters: {" ".join(addlet)}')
 
-    def play(self, ui: PromptUI):
-        for line in self.board.show(
+    def show_board(self, board: Board) -> Generator[str]:
+        yield from board.show(
             head=f'<{self.at_cursor[0]} {self.at_cursor[1]} {self.at_cursor[2]}>',
-            mid=f'[score: {self.board.score}]', mid_align='>',
-            mark=lambda x, y: '@' if self.at_cursor[0] == x and self.at_cursor[1] == y else ' ',
-        ): ui.print(line)
+            mid=f'[score: {board.score}]', mid_align='>',
+            mark=lambda x, y: '@' if self.at_cursor[0] == x and self.at_cursor[1] == y else ' ',)
+
+        wordset = self.wordlist.uniq_words
+        good_words: list[str] = []
+        bad_words: list[tuple[str, Board.Cursor]] = []
+        for word in board.all_words():
+            w = str(word)
+            if w in wordset: good_words.append(w)
+            else: bad_words.append((w, word.cursor))
+        if good_words:
+            yield f'* Good Words: {" ".join(good_words)}'
+        if bad_words:
+            yield f'* Bad Words:'
+            for word, cur in bad_words:
+                yield f'  - @{cur} {word}'
+
+    def play(self, ui: PromptUI):
+        for line in self.show_board(self.board):
+            ui.print(line)
+
         def prompt_parts():
             sc = self.board.score
             res = self.result
