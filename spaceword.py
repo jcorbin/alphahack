@@ -2132,6 +2132,7 @@ class Search:
             elif not data:
                 ui.print('-- empty --')
             else:
+                # TODO maybe do a table
                 for n, h in enumerate(data, 1):
                     ui.print(f'{n}. {plain_dictify(h)!r}')
             return
