@@ -5,6 +5,7 @@ import time
 import traceback
 from contextlib import contextmanager
 from collections.abc import Generator, Sequence
+from io import StringIO
 from types import TracebackType
 from typing import final, override, Callable, Literal, Protocol, TextIO
 
@@ -225,6 +226,12 @@ class PromptUI:
 
     def copy(self, mess: str):
         self.clip.copy(mess)
+
+    @contextmanager
+    def copy_writer(self):
+        buf = StringIO()
+        yield buf
+        self.clip.copy(buf.getvalue())
 
     def consume_copy(self, final_newline: bool = True, nl: str = '\n') -> Generator[None, str, None]:
         lines: list[str] = []
