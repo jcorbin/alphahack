@@ -548,6 +548,7 @@ class Search(StoredLog):
                 self.questioning = None
                 return
 
+            if not tokens: return
             token = next(tokens)
 
             if tokens.rest:
