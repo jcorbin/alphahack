@@ -536,12 +536,12 @@ class Search(StoredLog):
         word = self.words[qi]
         ui.copy(word)
         with ui.input(f'[{self.lo} : {qi} : {self.hi}] {word}? ') as tokens:
-            self.quest.append(Questioned(ui.time.now, self.lo, qi, self.hi, word, tokens.raw))
-
             if tokens.have(r'\.+$'):
                 self.may_suggest = False
                 self.questioning = None
                 return
+
+            self.quest.append(Questioned(ui.time.now, self.lo, qi, self.hi, word, tokens.raw))
 
             if tokens.have(r'!$'):
                 self.remove(ui, qi)
