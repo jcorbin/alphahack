@@ -552,6 +552,7 @@ class Search(StoredLog):
             token = next(tokens)
 
             if tokens.rest:
+                tokens.give(token)
                 self.may_suggest = False
                 self.questioning = None
                 return self.handle_choose(ui)
