@@ -254,6 +254,11 @@ class Browser:
             self.cur = self.setat
             return True
 
+        match = tokens.have(r'@([\-+]?\d+)')
+        if match:
+            self.cur += int(match[1])
+            return True
+
         if tokens.have(r'-$'):
             self.context *= self.zoom_factor
             return True
