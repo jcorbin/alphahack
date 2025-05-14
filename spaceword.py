@@ -407,7 +407,7 @@ class Board:
              head_align: Literal['<', '^', '>'] = '<',
              mid_align: Literal['<', '^', '>'] = '<',
              foot_align: Literal['<', '^', '>'] = '<',
-             mark: Callable[[int, int], str] = lambda _x, _y: ' '
+             mark: Callable[[int, int, int], str] = lambda _x, _y, _i: ' '
              ) -> Generator[str]:
         width = 0
         for line in self.show_grid(
@@ -454,9 +454,13 @@ class Board:
                   foot: str|None='',
                   head_align: Literal['<', '^', '>'] = '<',
                   foot_align: Literal['<', '^', '>'] = '<',
-                  mark: Callable[[int, int], str] = lambda _x, _y: ' '):
+                  cell: Callable[[int, int, int], str] | None = None,
+                  mark: Callable[[int, int, int], str] = lambda _x, _y, _i: ' ',
+                  ):
+        if cell is None:
+            grid = self.grid
+            cell = lambda x, y, i: grid[i] or '_'
         sz = self.size
-        grid = self.grid
         w = 2 * (sz + 2)
         if head is not None:
             yield ruler(head, w, head_align)
@@ -464,9 +468,10 @@ class Board:
             srow = ''.join(
                 part
                 for x in range(sz)
+                for i in (sz * y + x,)
                 for part in (
-                    grid[sz * y + x] or '_',
-                    mark(x, y)
+                    cell(x, y, i),
+                    mark(x, y, i)
                 ))
             yield f'{srow: ^{w}}'
         if foot is not None:
@@ -1050,7 +1055,7 @@ class SpaceWord(StoredLog):
         yield from board.show(
             head=f'<{self.at_cursor[0]} {self.at_cursor[1]} {self.at_cursor[2]}>',
             mid=f'[score: {board.score}]', mid_align='>',
-            mark=lambda x, y: '@' if self.at_cursor[0] == x and self.at_cursor[1] == y else ' ',)
+            mark=lambda x, y, i: '@' if self.at_cursor[0] == x and self.at_cursor[1] == y else ' ',)
 
         wordset = self.wordlist.uniq_words
         good_words: list[str] = []
