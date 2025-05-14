@@ -13,7 +13,7 @@ from dateutil.tz import gettz
 from itertools import batched, chain, islice
 from typing import Callable, Literal, Never, Self, cast, final, override
 
-from sortem import Chooser, Possible, RandScores
+from sortem import Chooser, Possible, Sample, RandScores, match_show, numbered_item, wrap_item
 from store import StoredLog, git_txn, parse_log_line
 from strkit import MarkedSpec, block_lines, spliterate
 
@@ -1506,6 +1506,7 @@ class Search:
 
         self.frontier: Halo = Halo.of([self.board])
         self.frontier_cap: int = 0
+        self.halos: dict[str, Halo] = dict()
 
     def __call__(self, ui: PromptUI):
         with (
@@ -1514,11 +1515,21 @@ class Search:
             return self.handle(ui)
 
     def make_prompt(self):
+        def halo_sort_key(k: str):
+            halo = self.halos[k]
+            sc = math.floor(max(halo.scores))
+            return (
+                2*sc if sc > 0 else
+                2*(-sc) + 1 if sc < 0 else
+                0)
+
         def prompt_parts() -> Generator[str]:
             yield f'{len(self.frontier)}'
             cap = self.frontier_cap
             if cap:
                 yield f'cap:{cap}'
+            for key in sorted(self.halos, key=halo_sort_key):
+                yield f'{key}:{len(self.halos[key])}'
 
         parts = tuple(prompt_parts())
         return f'search[{" ".join(parts)}]> ' if parts else f'search> '
@@ -1547,6 +1558,7 @@ class Search:
 
             elif ui.tokens.have('reset'):
                 self.frontier = Halo.of([self.board])
+                self.halos.clear()
                 ui.print('Frontier Reset.')
                 any_bail = True
 
@@ -1569,7 +1581,49 @@ class Search:
                 ui.print(f'dropped {m} from frontier')
             return
 
+        halo_match = ui.tokens.under(r'ret|show')
+        if halo_match:
+            halo_cmd = halo_match[0]
+
+            try_keys: tuple[str|None, ...] = (
+                ui.tokens.have(r'[^\d].+', lambda m: m[0]),
+                ('done' if halo_cmd == 'ret' else 'may'),
+                'frontier')
+
+            halo: Halo|None = None
+            key: str|None = None
+            for key in try_keys:
+                if not key: continue
+                halo = self.get_halo(key)
+                if halo: break
+            else:
+                ui.print(f'! no {key} halo')
+                return
+            assert halo and key
+
+            if halo_cmd == 'ret':
+                board, reason = halo.ref(ui)
+                if not board:
+                    ui.print(f'! {key} halo {reason}')
+                    return
+                ui.print(f'returning {key} halo {reason}')
+                return self.ret(board)
+
+            if halo_cmd == 'show':
+                n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+                if n is not None:
+                    halo.show_n(ui, n, f'{key} halo')
+                else:
+                    halo.show(ui, title=f'{key} halo')
+                return
+
+            ui.print(f'! unknown halo command {halo_cmd!r}')
+            return
+
         ui.print(f'! unknown input {ui.tokens.rest!r}')
+
+    def get_halo(self, key: str) -> 'Halo|None':
+        return self.frontier if key == 'frontier' else self.halos.get(key)
 
 @final
 class Halo:
@@ -1589,6 +1643,8 @@ class Halo:
         self.scores = scores
         self.explain = explain
         self.ix: tuple[int, ...]|None = tuple(ix) if ix is not None else None
+
+        self.sample: Sample|None = None
 
     def __len__(self):
         return len(self.ix) if self.ix is not None else len(self.boards)
@@ -1613,6 +1669,60 @@ class Halo:
             reverse = True)
         for i in ix:
             yield i
+
+    def set_choices(self, *choices: Sample.Choice|re.Pattern[str]):
+        self.sample = Sample(Sample.compile_choices(
+            choices,
+            lambda pats: match_show(self.explain, pats)))
+
+    def choices(self):
+        if not self.sample:
+            self.set_choices()
+            assert self.sample
+        return self.sample.index(self.scores, self.ix)
+
+    def show(self, ui: PromptUI, title: str = ''):
+        n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+        if n is not None:
+            return self.show_n(ui, n, title)
+
+        chooser = Chooser()
+        while ui.tokens:
+            if chooser.parse(ui.tokens):
+                continue
+            ui.print(f'! invalid arg {ui.tokens.rest}')
+            return
+        self.set_choices(*chooser.choices)
+
+        ui.print(f'{title} {self.sample}:' if title else f'{self.sample}:')
+        for n, i in enumerate(self.choices(), 1):
+            for line in wrap_item(*numbered_item(n, self.explain(i))):
+                ui.print(line)
+
+    def show_n(self, ui: PromptUI, n: int, title: str = ''):
+        ui.print(f'{title} #{n}' if title else f'#{n}')
+        for m, i in enumerate(self.choices(), 1):
+            if m == n:
+                board = self.boards[i]
+                for line in board.show(
+                    mid=f'[score: {board.score}]', mid_align='>',
+                ): ui.print(line)
+                return
+        ui.print(f'! invalid {title} choice {n}' if title else f'! invalid choice {n}')
+
+    def ref(self, ui: PromptUI, n: int|None = None):
+        if n is None:
+            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+
+        if n is not None:
+            for m, i in enumerate(self.choices(), 1):
+                if m == n: return self.boards[i], f'#{n} given'
+            return None, f'#{n} not found'
+
+        for i in self.choices():
+            return self.boards[i], '#1 default'
+
+        return None, 'empty'
 
 @dataclass
 class Result:
