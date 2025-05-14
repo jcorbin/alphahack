@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import argparse
+import hashlib
 import math
 import json
 import pytest
@@ -10,18 +11,89 @@ from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from dateutil.tz import gettz
-from itertools import batched, chain
+from itertools import batched, chain, islice, repeat
 from typing import Callable, Literal, Never, cast, final, override
 
-from sortem import Chooser, Possible, RandScores
+from sortem import Chooser, Possible, Sample, RandScores, match_show, numbered_item, wrap_item
 from store import StoredLog, git_txn
 from strkit import MarkedSpec, block_lines, spliterate
 
 from ui import PromptUI
 from wordlist import WordList
 
+PlainEntry = tuple[str, 'PlainValue']
+PlainData = tuple[PlainEntry, ...]
+PlainVal = str|float|int
+PlainVals = tuple[str, ...]|tuple[float, ...]|tuple[int, ...]|tuple['PlainVals', ...]
+PlainValue = PlainData|PlainVals|PlainVal
+
+def plain_get(dat: PlainData, key: str):
+    for k, v in dat:
+        if k == key:
+            return v
+
+def plain_dictify(dat: PlainData):
+    def entries():
+        for k, v in dat: yield k, (
+            dict(cast(PlainData, v)) if (
+                isinstance(v, tuple) and
+                all(isinstance(vv, tuple) and len(vv) == 2 for vv in v)
+            ) else v)
+    return dict(entries())
+
+def plain_chain_matcher(*matchers: Callable[[PlainData], bool]|None) -> Callable[[PlainData], bool]:
+    matchers = tuple(m for m in matchers if m is not None)
+    if len(matchers) == 0:
+        return lambda _: True
+    if len(matchers) == 1:
+        return matchers[0]
+    return lambda dat: all(m(dat) for m in matchers)
+
+def plain_make_matcher(field: str, spat: str):
+    pat = re.compile(spat)
+    def field_pat_where(dat: PlainData):
+        val = plain_get(dat, field)
+        if val is None: return False
+        return bool(pat.search(val if isinstance(val, str) else repr(val)))
+    return field_pat_where
+
+def plain_describe(
+    sample: Iterable[float],
+    qs: tuple[float, ...]=(0.75, 0.5, 0.25),
+) -> Generator[PlainEntry]:
+    S = sorted(sample)
+
+    N = len(S)
+    yield 'N', N
+
+    if not N: return
+    yield 'μ', sum(S) / N
+
+    if N < 2: return
+    yield '⊥', min(S)
+
+    n = N - 1
+    for q in qs:
+        qi = q * n
+        i = math.floor(qi)
+        j = math.ceil(qi)
+        if i == 0 or j == n: continue
+        yield f'Q{100*q}', S[i] if i == j else (S[i] + S[j])/2
+
+    yield '⊤', max(S)
+
 def nope(_arg: Never, mess: str =  'inconceivable'):
     assert False, mess
+
+def isurround(pre: str, parts: Iterable[str], post: str):
+    any_part = False
+    for part in parts:
+        if not any_part:
+            any_part = True
+            yield pre
+        yield part
+    if any_part:
+        yield post
 
 def grep(tokens: Iterable[str],
          pat: re.Pattern[str],
@@ -326,6 +398,21 @@ class Board:
                 if b and a != b: yield i, b
         yield from simplify(updates(), self.grid, self.letters)
 
+    def seeds(self):
+        bounds = self.defined_rect
+        if not bounds:
+            # TODO just straight up mid?
+            sz = self.size
+            at = sz // 5
+            yield self.cursor(at, at, 'X')
+            yield self.cursor(at, at, 'Y')
+        else:
+            lo_x, lo_y, hi_x, hi_y = bounds
+            for y in range(lo_y, hi_y):
+                yield self.cursor(lo_x, y, 'X')
+            for x in range(lo_x, hi_x):
+                yield self.cursor(x, lo_y, 'Y')
+
     @property
     def re_letter_avail(self):
         return re_letter(self.letters)
@@ -462,6 +549,15 @@ class Board:
 
         def __iter__(self):
             return iter(self.range())
+
+        def pre(self):
+            cls = self.__class__
+            if self.axis == 'X':
+                for x in range(0, self.x):
+                    yield cls(x, self.y, self.axis, self.size, self.max)
+            elif self.axis == 'Y':
+                for y in range(0, self.y):
+                    yield cls(self.x, y, self.axis, self.size, self.max)
 
     def show(self,
              head: str|None = '',
@@ -807,9 +903,20 @@ class SpaceWord(StoredLog):
         self.result_text: str = ''
         self._result: Result|None = None
 
+        self.sids: set[str] = set()
+        self.last_sid: str = ''
+
         self.num_letters: int = 0
 
         self.at_cursor: tuple[int, int, Literal['X', 'Y']] = (0, 0, 'X')
+
+    def make_sid(self, hash: str):
+        n = 6
+        while hash[:n] in self.sids and n < len(hash):
+            n += 1
+        sid = hash[:n]
+        self.sids.add(sid)
+        return sid
 
     def _parse_result(self):
         res = Result.parse(self.result_text)
@@ -1267,6 +1374,34 @@ class SpaceWord(StoredLog):
             ui.print(f'centered board D:{dx:+},{dy:+}')
             return
 
+        if ui.tokens.under(r'~'):
+            h = hashlib.sha256(f'{self.start} + {ui.time.now}'.encode())
+            sid = self.make_sid(h.hexdigest())
+            self.last_sid = sid
+
+            def done(board: Board|None):
+                if board:
+                    self.update(ui, self.board.diff(board))
+                return self.play
+
+            def reject(board: Board):
+                sc = board.score
+                res = self.result
+                if res and sc <= res.score: return True
+                if sc <= self.board.score: return True
+                return False
+
+            return Search(
+                sid,
+                self.board,
+                self.wordlist,
+                done,
+                reject=reject,
+                sources=(
+                    ('priors', self.prior_result_boards),
+                ),
+            )
+
         if ui.tokens.under(r'\*'):
             return self.generate(ui)
 
@@ -1378,6 +1513,796 @@ class SpaceWord(StoredLog):
                 return self.play
 
         return interact
+
+@final
+class Search:
+    def __init__(self,
+                 sid: str,
+                 board: Board,
+                 wordlist: WordList,
+                 ret: Callable[[Board|None], PromptUI.State],
+                 reject: Callable[[Board], bool] = lambda _: False,
+                 sources: Iterable[tuple[str, Callable[[], Iterable[Board]]]] | None = None,
+                 verbose: int = 0,
+                 ):
+        self.sid = sid
+        self.board = board.copy()
+        self.wordlist = wordlist
+        self.ret = ret
+        self.reject = reject
+        self.sources = dict(sources or ()) 
+        self.verbose = verbose
+
+        self.frontier: Halo = Halo.of([self.board])
+        self.frontier_cap: int = 0
+        self.halos: dict[str, Halo] = dict()
+        self.last_shown: str|None = None
+        self.history: list[PlainData] = []
+
+    def __call__(self, ui: PromptUI):
+        with (
+            ui.catch_state(EOFError, lambda _ui: self.ret(None)),
+            ui.input(self.make_prompt())):
+            return self.handle(ui)
+
+    def make_prompt(self):
+        def halo_sort_key(k: str):
+            halo = self.halos[k]
+            sc = math.floor(max(halo.scores))
+            return (
+                2*sc if sc > 0 else
+                2*(-sc) + 1 if sc < 0 else
+                0)
+
+        def prompt_parts() -> Generator[str]:
+            yield f'{len(self.frontier)}'
+            cap = self.frontier_cap
+            if cap:
+                yield f'cap:{cap}'
+            for key in sorted(self.halos, key=halo_sort_key):
+                yield f'{key}:{len(self.halos[key])}'
+
+        return f'search {self.sid} {" ".join(isurround("[", prompt_parts(), "]"))}> '
+
+    def handle(self, ui: PromptUI):
+        any_bail = False
+        while ui.tokens:
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                self.verbose = len(match.group(1))
+                ui.print(f'set verbose:{self.verbose}')
+
+            elif ui.tokens.under('cap'):
+                n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+                if n is None:
+                    ui.print(f'cap: {self.frontier_cap}')
+                else:
+                    self.frontier_cap = n
+                    prior = len(self.frontier)
+                    if n > 0 and len(self.frontier) > n:
+                        self.frontier = self.frontier.take(n)
+                    def meta() -> Generator[PlainEntry]:
+                        yield 'action', 'cap'
+                        yield 'cap', self.frontier_cap
+                        if n:
+                            yield 'prior', prior
+                    self.history.append(tuple(meta()))
+                    ui.print(
+                        f'set cap: {self.frontier_cap}'
+                        if n else f'cleared cap')
+
+            elif ui.tokens.have('clear'):
+                for i, let in enumerate(self.board.grid):
+                    if let: self.board.update(i, '')
+                ui.print('Cleared board.')
+
+            elif ui.tokens.have('reset'):
+                self.history.clear()
+                self.frontier = Halo.of([self.board])
+                self.halos.clear()
+                ui.print('Frontier Reset.')
+                any_bail = True
+
+            else: break
+        if any_bail:
+            return
+
+        if ui.tokens.under(r'a(dd?)?'):
+            return self.add_word(ui)
+
+        if ui.tokens.have(r'cen(t(er?|re?)?)?'):
+            return self.recenter(ui)
+
+        if ui.tokens.under(r'imp(o(rt?)?)?'):
+            if not ui.tokens:
+                ui.print('Available Sources')
+                for name in sorted(self.sources):
+                    ui.print(f'- {name}')
+                return
+
+            names = tuple(ui.tokens)
+            srcs = tuple( self.sources.get(name) for name in names)
+            boards = tuple( tuple(src()) if src else () for src in srcs)
+
+            if not any(srcs):
+                ui.print('! no valid sources provided ; run without arg to list available')
+                return
+
+            for name, src, got in zip(names, srcs, boards):
+                if not src:
+                    ui.print(f'! ignoring unknown source {name!r}')
+                else:
+                    ui.print(f'* importing {len(got)} boards from {name!r}')
+
+            self.frontier = Halo.of(
+                chain(self.frontier, chain.from_iterable(boards)),
+                Halo.WithWordLabels(self.wordlist))
+
+            if self.frontier_cap:
+                self.frontier = self.frontier.take(self.frontier_cap)
+
+            def meta() -> Generator[PlainEntry]:
+                yield 'action', 'import'
+                yield 'sources', names
+                yield 'cap', self.frontier_cap
+                yield 'got', tuple(
+                    -1 if src is None else len(bs) # TODO maybe math.nan instead?
+                    for src, bs in zip(srcs, boards))
+            self.history.append(tuple(meta()))
+
+            return
+
+        if ui.tokens.under(r'board'):
+            for line in self.board.show(
+                mid=f'[score: {self.board.score}]', mid_align='>',
+            ): ui.print(line)
+            return
+
+        if ui.tokens.under('drop'):
+            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+            if n is not None:
+                m = min(len(self.frontier), n)
+                prior = len(self.frontier)
+                self.frontier = self.frontier.take(-m)
+                def meta() -> Generator[PlainEntry]:
+                    yield 'action', 'drop'
+                    yield 'given', n
+                    yield 'drop', m
+                    yield 'prior', prior
+                self.history.append(tuple(meta()))
+                ui.print(f'dropped {m} from frontier')
+            return
+
+        if ui.tokens.have(r'hist(o(ry?)?)?'):
+            as_json = False
+            wheres: list[Callable[[PlainData], bool]] = []
+
+            while ui.tokens:
+                if ui.tokens.have(r'-j(s(on?)?)?'):
+                    as_json = True
+                    continue
+
+                match = ui.tokens.have(r'/q:(?:(.+?):)?(.+)')
+                if match:
+                    wheres.append(plain_make_matcher(match[1] or 'action', match[2]))
+                    continue
+
+                ui.print(f'! invalid arg {next(ui.tokens)!r}')
+                return
+
+            data = self.history
+            if wheres:
+                where = plain_chain_matcher(*wheres)
+                data = [dat for dat in data if where(dat)]
+
+            if as_json:
+                with ui.copy_writer() as w:
+                    _ = w.write('[')
+                    for i, h in enumerate(data):
+                        if i > 0: _ = w.write(',')
+                        json.dump(plain_dictify(h), w)
+                    _ = w.write(']')
+                    ui.print(f'📋 {len(data)} history entries as JSON')
+            elif not data:
+                ui.print('-- empty --')
+            else:
+                for n, h in enumerate(data, 1):
+                    ui.print(f'{n}. {plain_dictify(h)!r}')
+            return
+
+        halo_match = ui.tokens.under(r'ret|show')
+        if halo_match:
+            halo_cmd = halo_match[0]
+
+            try_keys: tuple[str|None, ...] = (
+                ui.tokens.have(r'[^\d].*', lambda m: m[0]),
+                self.last_shown,
+                ('done' if halo_cmd == 'ret' else 'may'),
+                'frontier')
+
+            halo: Halo|None = None
+            key: str|None = None
+            for key in try_keys:
+                if not key: continue
+                halo = self.get_halo(key)
+                if halo: break
+            else:
+                ui.print(f'! no {key} halo')
+                return
+            assert halo and key
+
+            if halo_cmd == 'ret':
+                board, reason = halo.ref(ui)
+                if not board:
+                    ui.print(f'! {key} halo {reason}')
+                    return
+                ui.print(f'returning {key} halo {reason}')
+                return self.ret(board)
+
+            if halo_cmd == 'show':
+                n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+                if n is not None:
+                    halo.show_n(ui, n, f'{key} halo')
+                else:
+                    halo.show(ui, title=f'{key} halo')
+                    self.last_shown = key
+                return
+
+            ui.print(f'! unknown halo command {halo_cmd!r}')
+            return
+
+        if ui.tokens.under('take'):
+            self.take_halo(ui)
+            return
+
+        if ui.tokens:
+            ui.print(f'! unknown input {ui.tokens.rest!r}')
+
+    def get_halo(self, key: str) -> 'Halo|None':
+        return self.frontier if key == 'frontier' else self.halos.get(key)
+
+    def update_halos(self, items: Iterable[tuple[str, 'Halo|None']]):
+        for key, halo in items:
+            if halo:
+                self.halos[key] = halo
+            elif key in self.halos:
+                del self.halos[key]
+
+    def offer_halo(self, may: 'Halo'):
+        done = may.split(lambda board, i: may.scores[i] > 1)
+        reject = None if done is None else done.split(lambda board, i: self.reject(board))
+        dead = may.split(lambda board, i: may.scores[i] < 0)
+        def meta() -> Generator[PlainEntry]:
+            yield from may.meta
+            yield 'may', len(may)
+            yield 'done', len(done) if done else 0
+            yield 'dead', len(dead) if dead else 0
+            yield 'reject', len(reject) if reject else 0
+        self.history.append(tuple(meta()))
+        self.update_halos((
+            ('may', may),
+            ('done', done),
+            ('dead', dead),
+            ('reject', reject),
+        ))
+
+    def all_words(self):
+        return grep(
+            self.wordlist.words,
+            self.board.all_pattern,
+            anchor='full')
+
+    def offer_boards(self,
+                     from_boards: tuple[Board, ...],
+                     new_boards: tuple[Board, ...],
+                     pos_scores: tuple[float, ...]|None = None,
+                     explain_pos_score: Callable[[int], Iterable[str]]|None = None,
+                     metadata: Iterable[PlainEntry] = (),
+                     wordlist: Iterable[str]|None = None,
+                     ):
+        wordset = set(self.all_words() if wordlist is None else wordlist)
+
+        # TODO catch and try to fix bad words earlier ; i.e. they're actually critical seed sites
+        all_words = tuple(
+            tuple(board.all_words())
+            for board in new_boards)
+        bad_words = tuple(
+            tuple(
+                word
+                for word in aw
+                if str(word) not in wordset)
+            for aw in all_words)
+
+        uplifts = tuple(
+            0.5 + b.score/b.max_score/2 - a.score/b.max_score/2
+            for a, b in zip(from_boards, new_boards))
+
+        scores = tuple(
+            ps * uplift if any(l for l in may_board.letters)
+            else -2.0 if bw
+            else 2.0
+            for (
+                may_board,
+                ps,
+                uplift,
+                bw
+            ) in zip(
+                new_boards,
+                repeat(0.0) if pos_scores is None else pos_scores,
+                uplifts,
+                bad_words,
+            ))
+
+        def explain(i: int) -> Generator[str]:
+            from_board = from_boards[i]
+            new_board = new_boards[i]
+            score = scores[i]
+            if score > 1:
+                yield f'done; score:{new_board.score - self.board.score:+}'
+                yield f'all words: {" ".join(str(w) for w in all_words[i])}'
+
+            elif score < 0:
+                yield f'bad words: {" ".join(str(w) for w in bad_words[i])}'
+
+            else:
+                yield f'score:{100*score:.2f}%'
+                yield f'*= uplift: {100*uplifts[i]:.2f}% ('
+                yield f'score:{new_board.score - from_board.score:+}'
+                yield f'bonus:{new_board.space_bonus - from_board.space_bonus:+}'
+                yield f')'
+
+                if explain_pos_score:
+                    yield from explain_pos_score(i)
+
+        def meta() -> Generator[PlainEntry]:
+            yield from metadata
+            yield 'words', tuple(plain_describe(len(aw) for aw in all_words))
+            yield 'bad_words', tuple(plain_describe(len(bw) for bw in all_words))
+            if pos_scores:
+                yield 'pos', tuple(plain_describe(pos_scores))
+            yield 'uplifts', tuple(plain_describe(uplifts))
+            yield 'scores', tuple(plain_describe(scores))
+
+        self.offer_halo(Halo(
+            new_boards, scores, explain,
+            meta = meta(),
+        ))
+
+    def recenter(self, ui: PromptUI):
+        verbose = self.verbose
+
+        while ui.tokens:
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                verbose += len(match.group(1))
+                continue
+
+            ui.print(f'! invalid arg {next(ui.tokens)!r}')
+            return
+
+        boards = tuple(self.frontier)
+        shifts = tuple(
+            ( h - math.floor(bounds[0]/2 + bounds[2]/2),
+              h - math.floor(bounds[1]/2 + bounds[3]/2)
+            ) if bounds else (0, 0)
+            for board in boards
+            for bounds in (board.defined_rect,)
+            for h in (board.size//2,))
+
+        for n, (board, (dx, dy)) in enumerate(zip(boards, shifts), 1):
+            if dx != 0 or dy != 0:
+                if verbose:
+                    ui.write(f'{n}. D:{dx:+},{dy:+}: ')
+                for i, c in board.shift(dx, dy):
+                    board.update(i, c)
+                if verbose:
+                    ui.fin()
+
+        def meta() -> Generator[PlainEntry]:
+            yield 'action', 'center'
+            yield 'shifts', shifts
+
+        self.history.append(tuple(meta()))
+
+    def take_halo(self, ui: PromptUI, name: str = 'may'):
+        halo = self.get_halo(name)
+        if not halo:
+            ui.print(f'! no {name} halo')
+            return
+
+        if not halo.parse_choices(ui, prior_n = self.frontier_cap):
+            return
+
+        chosen = (halo.boards[i] for i in halo.choices())
+        self.frontier = Halo.of(
+            chain(self.frontier, chosen),
+            Halo.WithWordLabels(self.wordlist))
+
+        if self.frontier_cap:
+            self.frontier = self.frontier.take(self.frontier_cap)
+
+        self.halos.clear()
+
+        def meta() -> Generator[PlainEntry]:
+            yield 'action', 'take'
+            yield 'name', name
+            yield 'sample', str(halo.sample)
+            yield 'halo', len(halo)
+            yield 'cap', self.frontier_cap
+            yield 'frontier', len(self.frontier)
+
+        def parts():
+            yield f'Took {halo.sample} from {name} {len(halo)}'
+            yield f'frontier now {len(self.frontier)}'
+            if self.frontier_cap:
+                yield f'cap {self.frontier_cap}'
+
+        if self.verbose:
+            ui.print(' '.join(parts()))
+
+        self.history.append(tuple(meta()))
+
+    def add_word(self,
+                 ui: PromptUI,
+                 jitter: float = 0.5,
+                 per_n: int|None = None):
+
+        mn = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+        if mn is not None:
+            per_n = mn
+        if per_n is None:
+            per_n = 3 if self.frontier_cap else 10
+        if self.frontier_cap:
+            per_n = max(per_n, math.ceil(self.frontier_cap / len(self.frontier)))
+        chooser = Chooser(show_n=per_n)
+
+        verbose = self.verbose
+        while ui.tokens:
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                verbose += len(match.group(1))
+                continue
+
+            try:
+                if chooser.collect(ui.tokens):
+                    continue
+            except ValueError as err:
+                ui.print(f'! {err}')
+                return
+
+            ui.print(f'! invalid arg {next(ui.tokens)!r}')
+            return
+
+        timing: list[tuple[str, float, float]] = list()
+        with ui.time.elapsed('add_word',
+                             collect=lambda label, now, elapsed: timing.append((label, now, elapsed)),
+                             print=ui.print if verbose > 1 else lambda _: None,
+                             final=ui.print if verbose > 0 else lambda _: None,
+                             ) as mark:
+            wordlist = tuple(self.all_words())
+            mark('filter all words')
+
+            # NOTE should be redundant by proper result handling
+            ded = self.frontier.split(lambda board, i: not any(l for l in board.letters))
+            if ded and verbose:
+                ui.print(f'pruned {len(ded)} boards from frontier')
+            mark('prune')
+
+            boards = tuple(self.frontier)
+
+            # seed points for each board:
+            # - for empty boards, this is just a couple of empty selections
+            #   somewhere in the middle
+            # - for boards with a region of defined letters, this is every
+            #   row/col selection over the region's bounding rectangle
+            seed_points = tuple(tuple(board.seeds()) for board in boards)
+            mark('seed points')
+
+            # seeds are selected regions of each board where we'll try to write a new word
+            seeds = tuple(
+                (board, seed)
+                for board, points in zip(boards, seed_points)
+                for seed in (
+                    seed
+                    for point in points
+                    for sel in (board.select(point),)
+                    for seed in chain(
+                        (sel,),
+                        # TODO relax and evaluate pre-cursors ex nihilo?
+                        (board.select(pre) for pre in point.pre()) if any(sel) else ()
+                    )
+                ))
+            mark('elaborate seeds')
+
+            if verbose:
+                ui.print(f'searching {len(seeds)} seeds from {len(boards)} boards')
+
+
+            # pull all possible words for every boards' seeds...
+            seed_words = tuple(
+                (board, seed, tuple(grep(wordlist, seed.pattern, anchor='full')))
+                for board, seed in seeds)
+            mark('grep words')
+
+            # ...but the regex may be too permissive, so apply a further
+            # feasibility filter on each boards' possible words per-seed
+            seed_words = tuple(
+                (board, seed, tuple(
+                    word for word in words
+                    if not seed.nop_write(word)
+                    if seed.can_write(word)))
+                for board, seed, words in seed_words)
+            mark('filter words')
+
+            def ideal_len_for(seed: Board.Select):
+                board = seed.board
+
+                bounds = board.defined_rect
+                if bounds:
+                    lo_x, lo_y, hi_x, hi_y = bounds
+                    return max(2, sum(
+                        1
+                        for x, y, _ in seed.iter_xy()
+                        if lo_x < x < hi_x
+                        if lo_y < y < hi_y
+                    ))
+
+                # TODO is this useful?
+                # return max(2, board.size//2)
+
+                return max(2, len(seed.ix) - 2)
+
+            # now, that's getting to be **rather a lot** of words, so take a
+            # parametric sample of each boards' filtered word list 
+            seed_pos = tuple(
+                (board, seed, Possible(
+                    words,
+                    wsr.score,
+                    choices=chooser.choices,
+                    verbose=verbose))
+                for board, seed, words in seed_words
+                for wsr in (WordScorer(ideal_len_for(seed), jitter=jitter),))
+            mark('seed pos')
+
+            # unroll and enumerate each possible word for every board
+            seed_posi = tuple(
+                (board, seed, pos, pi)
+                for board, seed, pos in seed_pos
+                for pi in pos.index())
+            mark('seed posi')
+
+            if not seed_posi:
+                ui.print(f'no search seeds possible ; make some edits?')
+                return
+
+            # finally apply possible words, generating new potential boards
+            may_boards = tuple(
+                board.copy(seed.updates(pos.data[pi]))
+                for board, seed, pos, pi in seed_posi)
+            mark('may boards')
+
+            # each final board score is its possible word score
+            scores = tuple(
+                pos.scores[pi]
+                for (_, _, pos, pi) in seed_posi)
+
+            from_boards = tuple(b for (b, _, _, _) in seed_posi)
+            mark('offer prep')
+
+        def explain(i: int) -> Generator[str]:
+            _, seed, pos, pi = seed_posi[i]
+            yield f'word:{pos.data[pi]!r}'
+            yield f'@{seed.cursor}+{len(seed)}'
+            yield f'*= word_score: {100*pos.scores[pi]:.2f}%'
+            yield from isurround(f'= (', pos.explain(pi), f')')
+
+        def meta() -> Generator[PlainEntry]:
+            yield 'action', 'add word',
+            yield 'ded_pruned', len(ded) if ded else 0,
+            yield 'from', len(boards),
+            yield 'seeds', len(seeds),
+            tim = tuple(
+                (label, elapsed)
+                for label, _now, elapsed in timing)
+            yield 'timing', tim
+
+        self.offer_boards(
+            from_boards, may_boards,
+            pos_scores=scores,
+            explain_pos_score=explain,
+            wordlist=wordlist,
+            metadata=meta())
+
+@final
+class Halo:
+    Explainer = Callable[[int], Iterable[str]]
+    Scorer = Callable[[Sequence[Board]], tuple[tuple[float, ...], Explainer]]
+
+    @staticmethod
+    def ExplainBoard(board: Board):
+        yield f'('
+        yield f'score:{board.score}'
+        yield f'bonus:{board.space_bonus:+}'
+        yield f')'
+
+    @staticmethod
+    def NaturalScores(boards: Sequence[Board]):
+        scores = tuple(board.score/board.max_score for board in boards)
+        def explain(i: int) -> Iterable[str]:
+            score = scores[i]
+            yield f'score:{100*score:.2f}%'
+            yield from Halo.ExplainBoard(boards[i])
+        return scores, explain
+
+    @staticmethod
+    def WithWordLabels(wordlist: WordList, scorer: Scorer = NaturalScores) -> Scorer:
+        def with_words(boards: Sequence[Board]):
+            ok_words = wordlist.uniq_words
+            scores, sub_explain = scorer(boards)
+
+            def explain(i: int) -> Iterable[str]:
+                yield from sub_explain(i)
+
+                board = boards[i]
+                aw = tuple(str(w) for w in board.all_words())
+                bw = tuple(
+                    word
+                    for word in aw
+                    if word not in ok_words)
+                aw = tuple(w for w in aw if w not in bw)
+                yield f'all words: {aw!r}'
+                if bw: yield f'bad words: {bw!r}'
+
+            return scores, explain
+
+        return with_words
+
+    @classmethod
+    def of(cls, itBoards: Iterable[Board], scorer: Scorer = NaturalScores):
+        boards = tuple(itBoards)
+        scores, explain = scorer(boards)
+        return cls(boards, scores, explain)
+
+    def __init__(self,
+                 boards: tuple[Board, ...],
+                 scores: tuple[float, ...],
+                 explain: Callable[[int], Iterable[str]] = lambda _i: (),
+                 ix: Iterable[int]|None = None,
+                 meta: Iterable[PlainEntry] = (),
+                 ):
+        self.boards = boards
+        self.scores = scores
+        self.explain = explain
+        self.ix: tuple[int, ...]|None = tuple(ix) if ix is not None else None
+        self.meta = tuple(meta)
+
+        self.sample: Sample|None = None
+        self.last_shown: int|None = None
+
+    def __len__(self):
+        return len(self.ix) if self.ix is not None else len(self.boards)
+
+    def __iter__(self):
+        for i in self.ix or range(len(self.scores)):
+            yield self.boards[i]
+
+    def take(self, n: int):
+        if n < 0:
+            n = len(self) + n
+        return self.__class__(
+            self.boards,
+            self.scores,
+            self.explain,
+            ix=tuple(islice(self.descending(), n)))
+
+    def descending(self):
+        ix = sorted(
+            self.ix or range(len(self.scores)),
+            key=lambda i: self.scores[i],
+            reverse = True)
+        for i in ix:
+            yield i
+
+    def set_choices(self, *choices: Sample.Choice|re.Pattern[str]):
+        self.sample = Sample(Sample.compile_choices(
+            choices,
+            lambda pats: match_show(self.explain, pats)))
+
+    def choices(self):
+        if not self.sample:
+            self.set_choices()
+            assert self.sample
+        return self.sample.index(self.scores, self.ix)
+
+    def split(self, where: Callable[[Board, int], bool]):
+        ix = self.ix or range(len(self.scores))
+        other = self.__class__(self.boards,
+                               self.scores,
+                               self.explain,
+                               ix=(i for i in ix if where(self.boards[i], i)))
+        if other.ix:
+            self.ix = tuple(i for i in ix if i not in set(other.ix))
+            return other
+        return None
+
+    def parse_choices(self,
+                      ui: PromptUI,
+                      prior_n: int | None = None,
+                      ):
+        chooser = Chooser()
+        any_choice = False
+
+        if prior_n is not None:
+            chooser.show_n = prior_n
+            any_choice = True
+
+        while ui.tokens:
+            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+            if n is not None:
+                chooser.show_n = n
+                any_choice = True
+                continue
+
+            if chooser.parse(ui.tokens):
+                any_choice = True
+                continue
+
+            ui.print(f'! invalid arg {ui.tokens.rest}')
+            return False
+
+        if any_choice:
+            self.set_choices(*chooser.choices)
+
+        return True
+
+    def show(self, ui: PromptUI, title: str = ''):
+        n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+        if n is not None:
+            return self.show_n(ui, n, title)
+
+        chooser = Chooser()
+        while ui.tokens:
+            if chooser.parse(ui.tokens):
+                continue
+            ui.print(f'! invalid arg {ui.tokens.rest}')
+            return
+        self.set_choices(*chooser.choices)
+
+        ui.print(f'{title} {self.sample}:' if title else f'{self.sample}:')
+        for n, i in enumerate(self.choices(), 1):
+            for line in wrap_item(*numbered_item(n, self.explain(i))):
+                ui.print(line)
+
+    def show_n(self, ui: PromptUI, n: int, title: str = ''):
+        ui.print(f'{title} #{n}' if title else f'#{n}')
+        for m, i in enumerate(self.choices(), 1):
+            if m == n:
+                board = self.boards[i]
+                for line in board.show(
+                    mid=f'[score: {board.score}]', mid_align='>',
+                ): ui.print(line)
+                self.last_shown = n
+                return
+        ui.print(f'! invalid {title} choice {n}' if title else f'! invalid choice {n}')
+
+    def ref(self, ui: PromptUI, n: int|None = None):
+        if n is None:
+            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+
+        if n is not None:
+            for m, i in enumerate(self.choices(), 1):
+                if m == n: return self.boards[i], f'#{n} given'
+            return None, f'#{n} not found'
+
+        if n is None:
+            n = self.last_shown
+            for m, i in enumerate(self.choices(), 1):
+                if m == n: return self.boards[i], f'#{n} last shown'
+
+        for i in self.choices():
+            return self.boards[i], '#1 default'
+
+        return None, 'empty'
 
 @dataclass
 class Result:
