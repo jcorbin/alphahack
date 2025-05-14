@@ -10,7 +10,7 @@ from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from dateutil.tz import gettz
-from itertools import batched, chain
+from itertools import batched, chain, islice
 from typing import Callable, Literal, Never, Self, cast, final, override
 
 from sortem import Chooser, Possible, RandScores
@@ -1505,6 +1505,7 @@ class Search:
         self.verbose = verbose
 
         self.frontier: Halo = Halo.of([self.board])
+        self.frontier_cap: int = 0
 
     def __call__(self, ui: PromptUI):
         with (
@@ -1515,6 +1516,9 @@ class Search:
     def make_prompt(self):
         def prompt_parts() -> Generator[str]:
             yield f'{len(self.frontier)}'
+            cap = self.frontier_cap
+            if cap:
+                yield f'cap:{cap}'
 
         parts = tuple(prompt_parts())
         return f'search[{" ".join(parts)}]> ' if parts else f'search> '
@@ -1526,6 +1530,20 @@ class Search:
             if match:
                 self.verbose = len(match.group(1))
                 ui.print(f'set verbose:{self.verbose}')
+
+            elif ui.tokens.under('cap'):
+                n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+                if n is None:
+                    ui.print(f'cap: {self.frontier_cap}')
+                else:
+                    self.frontier_cap = n
+                    prior = len(self.frontier)
+                    if n > 0 and len(self.frontier) > n:
+                        self.frontier = self.frontier.take(n)
+                    ui.print(
+                        f'set cap: {self.frontier_cap}'
+                        if n else f'cleared cap')
+                any_bail = True
 
             elif ui.tokens.have('reset'):
                 self.frontier = Halo.of([self.board])
@@ -1563,6 +1581,23 @@ class Halo:
     def __iter__(self):
         for i in self.ix or range(len(self.scores)):
             yield self.boards[i]
+
+    def take(self, n: int):
+        if n < 0:
+            n = len(self) + n
+        return self.__class__(
+            self.boards,
+            self.scores,
+            self.explain,
+            ix=tuple(islice(self.descending(), n)))
+
+    def descending(self):
+        ix = sorted(
+            self.ix or range(len(self.scores)),
+            key=lambda i: self.scores[i],
+            reverse = True)
+        for i in ix:
+            yield i
 
 @dataclass
 class Result:
