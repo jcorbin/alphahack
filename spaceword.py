@@ -1357,6 +1357,26 @@ class SpaceWord(StoredLog):
             ui.print(f'centered board D:{dx:+},{dy:+}')
             return
 
+        if ui.tokens.under(r'~'):
+            def done(board: Board|None):
+                if board:
+                    self.update(ui, self.board.diff(board))
+                return self.play
+
+            def reject(board: Board):
+                sc = board.score
+                res = self.result
+                if res and sc <= res.score: return True
+                if sc <= self.board.score: return True
+                return False
+
+            return Search(
+                self.board,
+                self.wordlist,
+                done,
+                reject=reject,
+            )
+
         if ui.tokens.under(r'\*'):
             return self.generate(ui)
 
@@ -1468,6 +1488,45 @@ class SpaceWord(StoredLog):
                 return self.play
 
         return interact
+
+@final
+class Search:
+    def __init__(self,
+                 board: Board,
+                 wordlist: WordList,
+                 ret: Callable[[Board|None], PromptUI.State],
+                 reject: Callable[[Board], bool] = lambda _: False,
+                 verbose: int = 0,
+                 ):
+        self.board = board.copy()
+        self.wordlist = wordlist
+        self.ret = ret
+        self.reject = reject
+        self.verbose = verbose
+
+    def __call__(self, ui: PromptUI):
+        with (
+            ui.catch_state(EOFError, lambda _ui: self.ret(None)),
+            ui.input(self.make_prompt())):
+            return self.handle(ui)
+
+    def make_prompt(self):
+        def prompt_parts() -> Generator[str]:
+            if False: yield 'TODO'
+
+        parts = tuple(prompt_parts())
+        return f'search[{" ".join(parts)}]> ' if parts else f'search> '
+
+    def handle(self, ui: PromptUI):
+        while ui.tokens:
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                self.verbose = len(match.group(1))
+                ui.print(f'set verbose:{self.verbose}')
+
+            else: break
+
+        ui.print(f'! unknown input {ui.tokens.rest!r}')
 
 @dataclass
 class Result:
