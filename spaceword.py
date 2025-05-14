@@ -2320,6 +2320,7 @@ class Search:
             if verbose:
                 ui.print(f'searching {len(seeds)} seeds from {len(boards)} boards')
 
+            # TODO suggest erasures
 
             # pull all possible words for every boards' seeds...
             seed_words = tuple(
