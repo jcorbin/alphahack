@@ -241,6 +241,14 @@ class Board:
     def re_letter_avail(self):
         return re_letter(self.letters)
 
+    @property
+    def re_letter_all(self):
+        return re_letter(chain(self.letters, self.grid))
+
+    @property
+    def all_pattern(self):
+        return re.compile(f'{self.re_letter_all}{{2,{self.size}}}')
+
     def ix_defined(self):
         sz = self.size
         for i, l in enumerate(self.grid):
