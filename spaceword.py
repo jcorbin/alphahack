@@ -1504,6 +1504,8 @@ class Search:
         self.reject = reject
         self.verbose = verbose
 
+        self.frontier: Halo = Halo.of([self.board])
+
     def __call__(self, ui: PromptUI):
         with (
             ui.catch_state(EOFError, lambda _ui: self.ret(None)),
@@ -1512,21 +1514,55 @@ class Search:
 
     def make_prompt(self):
         def prompt_parts() -> Generator[str]:
-            if False: yield 'TODO'
+            yield f'{len(self.frontier)}'
 
         parts = tuple(prompt_parts())
         return f'search[{" ".join(parts)}]> ' if parts else f'search> '
 
     def handle(self, ui: PromptUI):
+        any_bail = False
         while ui.tokens:
             match = ui.tokens.have(r'-(v+)')
             if match:
                 self.verbose = len(match.group(1))
                 ui.print(f'set verbose:{self.verbose}')
 
+            elif ui.tokens.have('reset'):
+                self.frontier = Halo.of([self.board])
+                ui.print('Frontier Reset.')
+                any_bail = True
+
             else: break
+        if any_bail:
+            return
 
         ui.print(f'! unknown input {ui.tokens.rest!r}')
+
+@final
+class Halo:
+    @classmethod
+    def of(cls, itBoards: Iterable[Board], scorer: Scorer = NaturalScores):
+        boards = tuple(itBoards)
+        scores, explain = scorer(boards)
+        return cls(boards, scores, explain)
+
+    def __init__(self,
+                 boards: tuple[Board, ...],
+                 scores: tuple[float, ...],
+                 explain: Callable[[int], Iterable[str]] = lambda _i: (),
+                 ix: Iterable[int]|None = None,
+                 ):
+        self.boards = boards
+        self.scores = scores
+        self.explain = explain
+        self.ix: tuple[int, ...]|None = tuple(ix) if ix is not None else None
+
+    def __len__(self):
+        return len(self.ix) if self.ix is not None else len(self.boards)
+
+    def __iter__(self):
+        for i in self.ix or range(len(self.scores)):
+            yield self.boards[i]
 
 @dataclass
 class Result:
