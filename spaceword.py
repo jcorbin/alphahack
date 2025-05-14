@@ -10,7 +10,7 @@ from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from dateutil.tz import gettz
-from itertools import batched, chain, islice
+from itertools import batched, chain, islice, repeat
 from typing import Callable, Literal, Never, Self, cast, final, override
 
 from sortem import Chooser, Possible, Sample, RandScores, match_show, numbered_item, wrap_item
@@ -1657,6 +1657,77 @@ class Search:
             ('done', done),
             ('dead', dead),
             ('reject', reject),
+        ))
+
+    def all_words(self):
+        return grep(
+            self.wordlist.words,
+            self.board.all_pattern,
+            anchor='full')
+
+    def offer_boards(self,
+                     from_boards: tuple[Board, ...],
+                     new_boards: tuple[Board, ...],
+                     pos_scores: tuple[float, ...]|None = None,
+                     explain_pos_score: Callable[[int], Iterable[str]]|None = None,
+                     wordlist: Iterable[str]|None = None,
+                     ):
+        wordset = set(self.all_words() if wordlist is None else wordlist)
+
+        # TODO catch and try to fix bad words earlier ; i.e. they're actually critical seed sites
+        all_words = tuple(
+            tuple(board.all_words())
+            for board in new_boards)
+        bad_words = tuple(
+            tuple(
+                word
+                for word in aw
+                if str(word) not in wordset)
+            for aw in all_words)
+
+        uplifts = tuple(
+            0.5 + b.score/b.max_score/2 - a.score/b.max_score/2
+            for a, b in zip(from_boards, new_boards))
+
+        scores = tuple(
+            ps * uplift if any(l for l in may_board.letters)
+            else -2.0 if bw
+            else 2.0
+            for (
+                may_board,
+                ps,
+                uplift,
+                bw
+            ) in zip(
+                new_boards,
+                repeat(0.0) if pos_scores is None else pos_scores,
+                uplifts,
+                bad_words,
+            ))
+
+        def explain(i: int) -> Generator[str]:
+            from_board = from_boards[i]
+            new_board = new_boards[i]
+            score = scores[i]
+            if score > 1:
+                yield f'done; score:{new_board.score - self.board.score:+}'
+                yield f'all words: {" ".join(str(w) for w in all_words[i])}'
+
+            elif score < 0:
+                yield f'bad words: {" ".join(str(w) for w in bad_words[i])}'
+
+            else:
+                yield f'score:{100*score:.2f}%'
+                yield f'*= uplift: {100*uplifts[i]:.2f}% ('
+                yield f'score:{new_board.score - from_board.score:+}'
+                yield f'bonus:{new_board.space_bonus - from_board.space_bonus:+}'
+                yield f')'
+
+                if explain_pos_score:
+                    yield from explain_pos_score(i)
+
+        self.offer_halo(Halo(
+            new_boards, scores, explain,
         ))
 
     def recenter(self, ui: PromptUI):
