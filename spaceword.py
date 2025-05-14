@@ -1554,6 +1554,12 @@ class Search:
         if any_bail:
             return
 
+        if not ui.tokens or ui.tokens.under(r'board'):
+            for line in self.board.show(
+                mid=f'[score: {self.board.score}]', mid_align='>',
+            ): ui.print(line)
+            return
+
         if ui.tokens.under('drop'):
             n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
             if n is not None:
