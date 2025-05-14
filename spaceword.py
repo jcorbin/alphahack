@@ -1554,6 +1554,15 @@ class Search:
         if any_bail:
             return
 
+        if ui.tokens.under('drop'):
+            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+            if n is not None:
+                m = min(len(self.frontier), n)
+                prior = len(self.frontier)
+                self.frontier = self.frontier.take(-m)
+                ui.print(f'dropped {m} from frontier')
+            return
+
         ui.print(f'! unknown input {ui.tokens.rest!r}')
 
 @final
