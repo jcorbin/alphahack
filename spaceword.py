@@ -1632,6 +1632,10 @@ class Search:
             ui.print(f'! unknown halo command {halo_cmd!r}')
             return
 
+        if ui.tokens.under('take'):
+            self.take_halo(ui)
+            return
+
         ui.print(f'! unknown input {ui.tokens.rest!r}')
 
     def get_halo(self, key: str) -> 'Halo|None':
@@ -1672,8 +1676,79 @@ class Search:
             if verbose:
                 ui.fin(f'done.')
 
+    def take_halo(self, ui: PromptUI, name: str = 'may'):
+        halo = self.get_halo(name)
+        if not halo:
+            ui.print(f'! no {name} halo')
+            return
+
+        if not halo.parse_choices(ui, prior_n = self.frontier_cap):
+            return
+
+        self.frontier = Halo.of(
+            chain(
+                self.frontier.boards,
+                (halo.boards[i] for i in halo.choices())),
+            Halo.WithWordLabels(self.wordlist))
+
+        if self.frontier_cap:
+            self.frontier = self.frontier.take(self.frontier_cap)
+
+        self.halos.clear()
+
+        def parts():
+            yield f'Took {halo.sample} from {name} {len(halo)}'
+            yield f'frontier now {len(self.frontier)}'
+            if self.frontier_cap:
+                yield f'cap {self.frontier_cap}'
+
+        if self.verbose:
+            ui.print(' '.join(parts()))
+
 @final
 class Halo:
+    Explainer = Callable[[int], Iterable[str]]
+    Scorer = Callable[[Sequence[Board]], tuple[tuple[float, ...], Explainer]]
+
+    @staticmethod
+    def ExplainBoard(board: Board):
+        yield f'('
+        yield f'score:{board.score}'
+        yield f'bonus:{board.space_bonus:+}'
+        yield f')'
+
+    @staticmethod
+    def NaturalScores(boards: Sequence[Board]):
+        scores = tuple(board.score/board.max_score for board in boards)
+        def explain(i: int) -> Iterable[str]:
+            score = scores[i]
+            yield f'score:{100*score:.2f}%'
+            yield from Halo.ExplainBoard(boards[i])
+        return scores, explain
+
+    @staticmethod
+    def WithWordLabels(wordlist: WordList, scorer: Scorer = NaturalScores) -> Scorer:
+        def with_words(boards: Sequence[Board]):
+            ok_words = wordlist.uniq_words
+            scores, sub_explain = scorer(boards)
+
+            def explain(i: int) -> Iterable[str]:
+                yield from sub_explain(i)
+
+                board = boards[i]
+                aw = tuple(str(w) for w in board.all_words())
+                bw = tuple(
+                    word
+                    for word in aw
+                    if word not in ok_words)
+                aw = tuple(w for w in aw if w not in bw)
+                yield f'all words: {aw!r}'
+                if bw: yield f'bad words: {bw!r}'
+
+            return scores, explain
+
+        return with_words
+
     @classmethod
     def of(cls, itBoards: Iterable[Board], scorer: Scorer = NaturalScores):
         boards = tuple(itBoards)
@@ -1728,6 +1803,36 @@ class Halo:
             self.set_choices()
             assert self.sample
         return self.sample.index(self.scores, self.ix)
+
+    def parse_choices(self,
+                      ui: PromptUI,
+                      prior_n: int | None = None,
+                      ):
+        chooser = Chooser()
+        any_choice = False
+
+        if prior_n is not None:
+            chooser.show_n = prior_n
+            any_choice = True
+
+        while ui.tokens:
+            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+            if n is not None:
+                chooser.show_n = n
+                any_choice = True
+                continue
+
+            if chooser.parse(ui.tokens):
+                any_choice = True
+                continue
+
+            ui.print(f'! invalid arg {ui.tokens.rest}')
+            return False
+
+        if any_choice:
+            self.set_choices(*chooser.choices)
+
+        return True
 
     def show(self, ui: PromptUI, title: str = ''):
         n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
