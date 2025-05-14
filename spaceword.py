@@ -1543,6 +1543,12 @@ class Search:
                 self.verbose = len(match.group(1))
                 ui.print(f'set verbose:{self.verbose}')
 
+            elif ui.tokens.have('clear'):
+                for i, let in enumerate(self.board.grid):
+                    if let: self.board.update(i, '')
+                ui.print('Cleared board.')
+                any_bail = True
+
             elif ui.tokens.under('cap'):
                 n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
                 if n is None:
