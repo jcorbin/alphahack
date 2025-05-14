@@ -20,6 +20,67 @@ from strkit import MarkedSpec, block_lines, spliterate
 from ui import PromptUI
 from wordlist import WordList
 
+PlainEntry = tuple[str, 'PlainValue']
+PlainData = tuple[PlainEntry, ...]
+PlainVal = str|float|int
+PlainVals = tuple[str, ...]|tuple[float, ...]|tuple[int, ...]
+PlainValue = PlainData|PlainVals|PlainVal
+
+def plain_get(dat: PlainData, key: str):
+    for k, v in dat:
+        if k == key:
+            return v
+
+def plain_dictify(dat: PlainData):
+    def entries():
+        for k, v in dat: yield k, (
+            dict(cast(PlainData, v)) if (
+                isinstance(v, tuple) and
+                all(isinstance(vv, tuple) and len(vv) == 2 for vv in v)
+            ) else v)
+    return dict(entries())
+
+def plain_chain_matcher(*matchers: Callable[[PlainData], bool]|None) -> Callable[[PlainData], bool]:
+    matchers = tuple(m for m in matchers if m is not None)
+    if len(matchers) == 0:
+        return lambda _: True
+    if len(matchers) == 1:
+        return matchers[0]
+    return lambda dat: all(m(dat) for m in matchers)
+
+def plain_make_matcher(field: str, spat: str):
+    pat = re.compile(spat)
+    def field_pat_where(dat: PlainData):
+        val = plain_get(dat, field)
+        if val is None: return False
+        return bool(pat.search(val if isinstance(val, str) else repr(val)))
+    return field_pat_where
+
+def plain_describe(
+    sample: Iterable[float],
+    qs: tuple[float, ...]=(0.75, 0.5, 0.25),
+) -> Generator[PlainEntry]:
+    S = sorted(sample)
+
+    N = len(S)
+    yield 'N', N
+
+    if not N: return
+    yield 'μ', sum(S) / N
+
+    if N < 2: return
+    yield '⊥', min(S)
+
+    n = N - 1
+    for q in qs:
+        qi = q * n
+        i = math.floor(qi)
+        j = math.ceil(qi)
+        if i == 0 or j == n: continue
+        yield f'Q{100*q}', S[i] if i == j else (S[i] + S[j])/2
+
+    yield '⊤', max(S)
+
 def nope(_arg: Never, mess: str =  'inconceivable'):
     assert False, mess
 
@@ -1545,6 +1606,7 @@ class Search:
         self.frontier_cap: int = 0
         self.halos: dict[str, Halo] = dict()
         self.last_shown: str|None = None
+        self.history: list[PlainData] = []
 
     def __call__(self, ui: PromptUI):
         with (
@@ -1595,12 +1657,19 @@ class Search:
                     prior = len(self.frontier)
                     if n > 0 and len(self.frontier) > n:
                         self.frontier = self.frontier.take(n)
+                    def meta() -> Generator[PlainEntry]:
+                        yield 'action', 'cap'
+                        yield 'cap', self.frontier_cap
+                        if n:
+                            yield 'prior', prior
+                    self.history.append(tuple(meta()))
                     ui.print(
                         f'set cap: {self.frontier_cap}'
                         if n else f'cleared cap')
                 any_bail = True
 
             elif ui.tokens.have('reset'):
+                self.history.clear()
                 self.frontier = Halo.of([self.board])
                 self.halos.clear()
                 ui.print('Frontier Reset.')
@@ -1638,6 +1707,14 @@ class Search:
                 chain(self.frontier.boards, chain.from_iterable(boards)),
                 Halo.WithWordLabels(self.wordlist))
 
+            def meta() -> Generator[PlainEntry]:
+                yield 'action', 'import'
+                yield 'sources', names
+                yield 'got', tuple(
+                    -1 if src is None else len(bs) # TODO maybe math.nan instead?
+                    for src, bs in zip(srcs, boards))
+            self.history.append(tuple(meta()))
+
             if self.frontier_cap:
                 self.frontier = self.frontier.take(self.frontier_cap)
 
@@ -1655,7 +1732,50 @@ class Search:
                 m = min(len(self.frontier), n)
                 prior = len(self.frontier)
                 self.frontier = self.frontier.take(-m)
+                def meta() -> Generator[PlainEntry]:
+                    yield 'action', 'drop'
+                    yield 'given', n
+                    yield 'drop', m
+                    yield 'prior', prior
+                self.history.append(tuple(meta()))
                 ui.print(f'dropped {m} from frontier')
+            return
+
+        if ui.tokens.have(r'hist(o(ry?)?)?'):
+            as_json = False
+            wheres: list[Callable[[PlainData], bool]] = []
+
+            while ui.tokens:
+                if ui.tokens.have(r'-j(s(on?)?)?'):
+                    as_json = True
+                    continue
+
+                match = ui.tokens.have(r'/q:(?:(.+?):)?(.+)')
+                if match:
+                    wheres.append(plain_make_matcher(match[1] or 'action', match[2]))
+                    continue
+
+                ui.print(f'! invalid arg {next(ui.tokens)!r}')
+                return
+
+            data = self.history
+            if wheres:
+                where = plain_chain_matcher(*wheres)
+                data = [dat for dat in data if where(dat)]
+
+            if as_json:
+                with ui.copy_writer() as w:
+                    _ = w.write('[')
+                    for i, h in enumerate(data):
+                        if i > 0: _ = w.write(',')
+                        json.dump(plain_dictify(h), w)
+                    _ = w.write(']')
+                    ui.print(f'📋 {len(data)} history entries as JSON')
+            elif not data:
+                ui.print('-- empty --')
+            else:
+                for n, h in enumerate(data, 1):
+                    ui.print(f'{n}. {plain_dictify(h)!r}')
             return
 
         halo_match = ui.tokens.under(r'ret|show')
@@ -1719,6 +1839,13 @@ class Search:
         done = may.split(lambda board, i: may.scores[i] > 1)
         reject = None if done is None else done.split(lambda board, i: self.reject(board))
         dead = may.split(lambda board, i: may.scores[i] < 0)
+        def meta() -> Generator[PlainEntry]:
+            yield from may.meta
+            yield 'may', len(may)
+            yield 'done', len(done) if done else 0
+            yield 'dead', len(dead) if dead else 0
+            yield 'reject', len(reject) if reject else 0
+        self.history.append(tuple(meta()))
         self.update_halos((
             ('may', may),
             ('done', done),
@@ -1737,6 +1864,7 @@ class Search:
                      new_boards: tuple[Board, ...],
                      pos_scores: tuple[float, ...]|None = None,
                      explain_pos_score: Callable[[int], Iterable[str]]|None = None,
+                     metadata: Iterable[PlainEntry] = (),
                      wordlist: Iterable[str]|None = None,
                      ):
         wordset = set(self.all_words() if wordlist is None else wordlist)
@@ -1793,8 +1921,18 @@ class Search:
                 if explain_pos_score:
                     yield from explain_pos_score(i)
 
+        def meta() -> Generator[PlainEntry]:
+            yield from metadata
+            yield 'words', tuple(plain_describe(len(aw) for aw in all_words))
+            yield 'bad_words', tuple(plain_describe(len(bw) for bw in all_words))
+            if pos_scores:
+                yield 'pos', tuple(plain_describe(pos_scores))
+            yield 'uplifts', tuple(plain_describe(uplifts))
+            yield 'scores', tuple(plain_describe(scores))
+
         self.offer_halo(Halo(
             new_boards, scores, explain,
+            meta = meta(),
         ))
 
     def recenter(self, ui: PromptUI):
@@ -1852,6 +1990,14 @@ class Search:
 
         self.halos.clear()
 
+        def meta() -> Generator[PlainEntry]:
+            yield 'action', 'take'
+            yield 'name', name
+            yield 'sample', str(halo.sample)
+            yield 'halo', len(halo)
+            yield 'cap', self.frontier_cap
+            yield 'frontier', len(self.frontier)
+
         def parts():
             yield f'Took {halo.sample} from {name} {len(halo)}'
             yield f'frontier now {len(self.frontier)}'
@@ -1860,6 +2006,10 @@ class Search:
 
         if self.verbose:
             ui.print(' '.join(parts()))
+
+        def meta() -> Generator[PlainEntry]:
+            yield 'action', 'center'
+        self.history.append(tuple(meta()))
 
 @final
 class Halo:
@@ -1916,11 +2066,13 @@ class Halo:
                  scores: tuple[float, ...],
                  explain: Callable[[int], Iterable[str]] = lambda _i: (),
                  ix: Iterable[int]|None = None,
+                 meta: Iterable[PlainEntry] = (),
                  ):
         self.boards = boards
         self.scores = scores
         self.explain = explain
         self.ix: tuple[int, ...]|None = tuple(ix) if ix is not None else None
+        self.meta = tuple(meta)
 
         self.sample: Sample|None = None
         self.last_shown: int|None = None
