@@ -84,6 +84,16 @@ def plain_describe(
 def nope(_arg: Never, mess: str =  'inconceivable'):
     assert False, mess
 
+def isurround(pre: str, parts: Iterable[str], post: str):
+    any_part = False
+    for part in parts:
+        if not any_part:
+            any_part = True
+            yield pre
+        yield part
+    if any_part:
+        yield post
+
 def grep(tokens: Iterable[str],
          pat: re.Pattern[str],
          anchor: Literal['start', 'full']|None = None):
@@ -1679,6 +1689,9 @@ class Search:
         if any_bail:
             return
 
+        if ui.tokens.under(r'a(dd?)?'):
+            return self.add_word(ui)
+
         if ui.tokens.have(r'cen(t(er?|re?)?)?'):
             return self.recenter(ui)
 
@@ -2010,6 +2023,162 @@ class Search:
         def meta() -> Generator[PlainEntry]:
             yield 'action', 'center'
         self.history.append(tuple(meta()))
+
+    def add_word(self,
+                 ui: PromptUI,
+                 jitter: float = 0.5,
+                 per_n: int|None = None):
+
+        mn = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+        if mn is not None:
+            per_n = mn
+        if per_n is None:
+            per_n = 3 if self.frontier_cap else 10
+        if self.frontier_cap:
+            per_n = max(per_n, math.ceil(self.frontier_cap / len(self.frontier)))
+        chooser = Chooser(show_n=per_n)
+
+        verbose = self.verbose
+        while ui.tokens:
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                verbose += len(match.group(1))
+                continue
+
+            try:
+                if chooser.collect(ui.tokens):
+                    continue
+            except ValueError as err:
+                ui.print(f'! {err}')
+                return
+
+            ui.print(f'! invalid arg {next(ui.tokens)!r}')
+            return
+
+        timing: list[tuple[str, float, float]] = list()
+        with ui.time.elapsed('add_word',
+                             collect=lambda label, now, elapsed: timing.append((label, now, elapsed)),
+                             print=ui.print if verbose > 1 else lambda _: None,
+                             final=ui.print if verbose > 0 else lambda _: None,
+                             ) as mark:
+            wordlist = tuple(self.all_words())
+            mark('filter all words')
+
+            # NOTE should be redundant by proper result handling
+            ded = self.frontier.split(lambda board, i: not any(l for l in board.letters))
+            if ded and verbose:
+                ui.print(f'pruned {len(ded)} boards from frontier')
+            mark('prune')
+
+            boards = tuple(self.frontier)
+
+            # seed points for each board:
+            # - for empty boards, this is just a couple of empty selections
+            #   somewhere in the middle
+            # - for boards with a region of defined letters, this is every
+            #   row/col selection over the region's bounding rectangle
+            seed_points = tuple(tuple(board.seeds()) for board in boards)
+            mark('seed points')
+
+            # seeds are selected regions of each board where we'll try to write a new word
+            seeds = tuple(
+                (board, seed)
+                for board, points in zip(boards, seed_points)
+                for seed in (
+                    seed
+                    for point in points
+                    for sel in (board.select(point),)
+                    for seed in chain(
+                        (sel,),
+                        # TODO relax and evaluate pre-cursors ex nihilo?
+                        (board.select(pre) for pre in point.pre()) if any(sel) else ()
+                    )
+                ))
+            mark('elaborate seeds')
+
+            if verbose:
+                ui.print(f'searching {len(seeds)} seeds from {len(boards)} boards')
+
+
+            # pull all possible words for every boards' seeds...
+            seed_words = tuple(
+                (board, seed, tuple(grep(wordlist, seed.pattern, anchor='full')))
+                for board, seed in seeds)
+            mark('grep words')
+
+            # ...but the regex may be too permissive, so apply a further
+            # feasibility filter on each boards' possible words per-seed
+            seed_words = tuple(
+                (board, seed, tuple(
+                    word for word in words
+                    if not seed.nop_write(word)
+                    if seed.can_write(word)))
+                for board, seed, words in seed_words)
+            mark('filter words')
+
+            def ideal_len_for(seed: Board.Select):
+                return max(2, len(seed.ix) - 2)
+
+            # now, that's getting to be **rather a lot** of words, so take a
+            # parametric sample of each boards' filtered word list 
+            seed_pos = tuple(
+                (board, seed, Possible(
+                    words,
+                    wsr.score,
+                    choices=chooser.choices,
+                    verbose=verbose))
+                for board, seed, words in seed_words
+                for wsr in (WordScorer(ideal_len_for(seed), jitter=jitter),))
+            mark('seed pos')
+
+            # unroll and enumerate each possible word for every board
+            seed_posi = tuple(
+                (board, seed, pos, pi)
+                for board, seed, pos in seed_pos
+                for pi in pos.index())
+            mark('seed posi')
+
+            if not seed_posi:
+                ui.print(f'no search seeds possible ; make some edits?')
+                return
+
+            # finally apply possible words, generating new potential boards
+            may_boards = tuple(
+                board.copy(seed.updates(pos.data[pi]))
+                for board, seed, pos, pi in seed_posi)
+            mark('may boards')
+
+            # each final board score is its possible word score
+            scores = tuple(
+                pos.scores[pi]
+                for (_, _, pos, pi) in seed_posi)
+
+            from_boards = tuple(b for (b, _, _, _) in seed_posi)
+            mark('offer prep')
+
+        def explain(i: int) -> Generator[str]:
+            _, seed, pos, pi = seed_posi[i]
+            yield f'word:{pos.data[pi]!r}'
+            yield f'@{seed.cursor}+{len(seed)}'
+            yield f'*= word_score: {100*pos.scores[pi]:.2f}%'
+            yield from isurround(f'= (', pos.explain(pi), f')')
+
+        def meta() -> Generator[PlainEntry]:
+            yield 'action', 'add word',
+            yield 'ded_pruned', len(ded) if ded else 0,
+            yield 'from', len(boards),
+            yield 'seeds', len(seeds),
+            tim = tuple(
+                (label, elapsed)
+                for label, _now, elapsed in timing)
+            yield 'timing', tim
+
+        self.offer_boards(
+            from_boards, may_boards,
+            pos_scores=scores,
+            explain_pos_score=explain,
+            wordlist=wordlist,
+            metadata=meta())
 
 @final
 class Halo:
