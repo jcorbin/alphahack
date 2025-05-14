@@ -107,6 +107,11 @@ def re_count(atoms: Iterable[str]):
         lo = 0 if did else 1
         yield f'{last}{{{lo},{n}}}' if n > 1 else last
 
+def re_letter(lets: Iterable[str]):
+    lets = (l.strip() for l in lets)
+    s = ''.join(sorted(l for l in set(lets) if l))
+    return f'[{s.lower()}]' if s else '\\0'
+
 def ruler(
     content: str,
     width: int,
@@ -233,11 +238,8 @@ class Board:
         yield from simplify(updates(), self.grid, self.letters)
 
     @property
-    def re_letter(self):
-        if not any(l for l in self.letters):
-            return '\\0'
-        ls = set(l for l in self.letters if l)
-        return f'[{''.join(sorted(ls)).lower()}]'
+    def re_letter_avail(self):
+        return re_letter(self.letters)
 
     def ix_defined(self):
         sz = self.size
@@ -483,7 +485,7 @@ class Board:
                 if let:
                     yield let.lower()
                 elif not dot:
-                    dot = self.board.re_letter
+                    dot = self.board.re_letter_avail
                     yield dot
                 else:
                     yield dot
