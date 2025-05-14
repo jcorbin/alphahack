@@ -400,6 +400,15 @@ class Board:
         def __iter__(self):
             return iter(self.range())
 
+        def pre(self):
+            cls = self.__class__
+            if self.axis == 'X':
+                for x in range(0, self.x):
+                    yield cls(x, self.y, self.axis, self.size, self.max)
+            elif self.axis == 'Y':
+                for y in range(0, self.y):
+                    yield cls(self.x, y, self.axis, self.size, self.max)
+
     def show(self,
              head: str|None = '',
              mid: str|None = '',
