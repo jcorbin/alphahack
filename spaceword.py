@@ -1641,6 +1641,24 @@ class Search:
     def get_halo(self, key: str) -> 'Halo|None':
         return self.frontier if key == 'frontier' else self.halos.get(key)
 
+    def update_halos(self, items: Iterable[tuple[str, 'Halo|None']]):
+        for key, halo in items:
+            if halo:
+                self.halos[key] = halo
+            elif key in self.halos:
+                del self.halos[key]
+
+    def offer_halo(self, may: 'Halo'):
+        done = may.split(lambda board, i: may.scores[i] > 1)
+        reject = None if done is None else done.split(lambda board, i: self.reject(board))
+        dead = may.split(lambda board, i: may.scores[i] < 0)
+        self.update_halos((
+            ('may', may),
+            ('done', done),
+            ('dead', dead),
+            ('reject', reject),
+        ))
+
     def recenter(self, ui: PromptUI):
         verbose = self.verbose
 
@@ -1803,6 +1821,17 @@ class Halo:
             self.set_choices()
             assert self.sample
         return self.sample.index(self.scores, self.ix)
+
+    def split(self, where: Callable[[Board, int], bool]):
+        ix = self.ix or range(len(self.scores))
+        other = self.__class__(self.boards,
+                               self.scores,
+                               self.explain,
+                               ix=(i for i in ix if where(self.boards[i], i)))
+        if other.ix:
+            self.ix = tuple(i for i in ix if i not in set(other.ix))
+            return other
+        return None
 
     def parse_choices(self,
                       ui: PromptUI,
