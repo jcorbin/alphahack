@@ -326,6 +326,21 @@ class Board:
                 if b and a != b: yield i, b
         yield from simplify(updates(), self.grid, self.letters)
 
+    def seeds(self):
+        bounds = self.defined_rect
+        if not bounds:
+            # TODO just straight up mid?
+            sz = self.size
+            at = sz // 5
+            yield self.cursor(at, at, 'X')
+            yield self.cursor(at, at, 'Y')
+        else:
+            lo_x, lo_y, hi_x, hi_y = bounds
+            for y in range(lo_y, hi_y):
+                yield self.cursor(lo_x, y, 'X')
+            for x in range(lo_x, hi_x):
+                yield self.cursor(x, lo_y, 'Y')
+
     @property
     def re_letter_avail(self):
         return re_letter(self.letters)
