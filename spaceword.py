@@ -1507,6 +1507,7 @@ class Search:
         self.frontier: Halo = Halo.of([self.board])
         self.frontier_cap: int = 0
         self.halos: dict[str, Halo] = dict()
+        self.last_shown: str|None = None
 
     def __call__(self, ui: PromptUI):
         with (
@@ -1586,7 +1587,8 @@ class Search:
             halo_cmd = halo_match[0]
 
             try_keys: tuple[str|None, ...] = (
-                ui.tokens.have(r'[^\d].+', lambda m: m[0]),
+                ui.tokens.have(r'[^\d].*', lambda m: m[0]),
+                self.last_shown,
                 ('done' if halo_cmd == 'ret' else 'may'),
                 'frontier')
 
@@ -1615,6 +1617,7 @@ class Search:
                     halo.show_n(ui, n, f'{key} halo')
                 else:
                     halo.show(ui, title=f'{key} halo')
+                    self.last_shown = key
                 return
 
             ui.print(f'! unknown halo command {halo_cmd!r}')
@@ -1645,6 +1648,7 @@ class Halo:
         self.ix: tuple[int, ...]|None = tuple(ix) if ix is not None else None
 
         self.sample: Sample|None = None
+        self.last_shown: int|None = None
 
     def __len__(self):
         return len(self.ix) if self.ix is not None else len(self.boards)
@@ -1707,6 +1711,7 @@ class Halo:
                 for line in board.show(
                     mid=f'[score: {board.score}]', mid_align='>',
                 ): ui.print(line)
+                self.last_shown = n
                 return
         ui.print(f'! invalid {title} choice {n}' if title else f'! invalid choice {n}')
 
@@ -1718,6 +1723,11 @@ class Halo:
             for m, i in enumerate(self.choices(), 1):
                 if m == n: return self.boards[i], f'#{n} given'
             return None, f'#{n} not found'
+
+        if n is None:
+            n = self.last_shown
+            for m, i in enumerate(self.choices(), 1):
+                if m == n: return self.boards[i], f'#{n} last shown'
 
         for i in self.choices():
             return self.boards[i], '#1 default'
