@@ -10,7 +10,7 @@ from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from dateutil.tz import gettz
 from itertools import chain
-from typing import Callable, Literal, Never, cast, final, override
+from typing import Callable, Literal, Never, Self, cast, final, override
 
 from sortem import Chooser, Possible, RandScores
 from store import StoredLog, git_txn, parse_log_line
@@ -550,8 +550,10 @@ class Board:
                 if where(c, i): return i
             return -1
 
-        def slice(self, end: int):
-            return self.__class__(self.board, self.ix[:end])
+        def slice(self, start: int, end: int|None = None) -> Self:
+            if end is None:
+                start, end = 0, start
+            return self.__class__(self.board, self.ix[start:end])
 
         def cut_ranges(self,
             where: Callable[[str, int], bool],
