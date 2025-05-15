@@ -2465,6 +2465,8 @@ class Search:
             metadata=meta())
 
     def generate(self, ui: PromptUI):
+        # TODO recenter wen
+        # TODO prune wen
         return self.add_word(ui)
 
     def auto_generate(self, ui: PromptUI):
