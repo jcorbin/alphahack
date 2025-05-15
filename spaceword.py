@@ -12,7 +12,7 @@ from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from dateutil.tz import gettz
 from itertools import batched, chain, islice, repeat
-from typing import Callable, Literal, Never, cast, final, override
+from typing import Callable, Literal, Never, Self, cast, final, override
 
 flatten = chain.from_iterable
 
@@ -714,8 +714,10 @@ class Board:
                 if where(c, i): return i
             return -1
 
-        def slice(self, end: int):
-            return self.__class__(self.board, self.ix[:end])
+        def slice(self, start: int, end: int|None = None) -> Self:
+            if end is None:
+                start, end = 0, start
+            return self.__class__(self.board, self.ix[start:end])
 
         def token_ranges(self):
             i = 0
