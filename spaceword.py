@@ -1573,6 +1573,9 @@ class Search:
         if any_bail:
             return
 
+        if ui.tokens.have(r'cen(t(er?|re?)?)?'):
+            return self.recenter(ui)
+
         if not ui.tokens or ui.tokens.under(r'board'):
             for line in self.board.show(
                 mid=f'[score: {self.board.score}]', mid_align='>',
@@ -1633,6 +1636,41 @@ class Search:
 
     def get_halo(self, key: str) -> 'Halo|None':
         return self.frontier if key == 'frontier' else self.halos.get(key)
+
+    def recenter(self, ui: PromptUI):
+        verbose = self.verbose
+
+        while ui.tokens:
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                verbose += len(match.group(1))
+                continue
+
+            ui.print(f'! invalid arg {next(ui.tokens)!r}')
+            return
+
+        for n, board in enumerate(self.frontier, 1):
+            bounds = board.defined_rect
+            if not bounds:
+                if verbose:
+                    ui.print(f'{n}. no bounds')
+                continue
+
+            x1, y1, x2, y2 = bounds
+            h = self.board.size//2
+            cx, cy = math.floor(x1/2 + x2/2), math.floor(y1/2 + y2/2)
+            if cx == h and cy == h:
+                if verbose:
+                    ui.print(f'{n}. already centered')
+                continue
+
+            dx, dy = h - cx, h - cy
+            if verbose:
+                ui.write(f'{n}. D:{dx:+},{dy:+}: ')
+            for i, c in board.shift(dx, dy):
+                board.update(i, c)
+            if verbose:
+                ui.fin(f'done.')
 
 @final
 class Halo:
