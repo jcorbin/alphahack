@@ -771,6 +771,19 @@ class Board:
                 if where(c, i): return i
             return -1
 
+        def rindex(self,
+                  where: Callable[[str, int], bool] = lambda c, _i: bool(c),
+                  start: int = -1):
+            if start < 0:
+                start = len(self.ix) + start
+            for i in iter(range(start, -1, -1)):
+                print('???', i)
+                c = self.board.grid[self.ix[i]]
+                if where(c, i):
+                    print('===', i)
+                    return i
+            return -1
+
         def slice(self, start: int, end: int|None = None) -> Self:
             if end is None:
                 start, end = 0, start
