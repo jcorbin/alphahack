@@ -553,22 +553,34 @@ class Board:
         def slice(self, end: int):
             return self.__class__(self.board, self.ix[:end])
 
-        def token_ranges(self):
+        def cut_ranges(self,
+            where: Callable[[str, int], bool],
+            until: Callable[[str, int], bool] | None = None,
+        ):
+            if not until:
+                until = lambda c, i: not where(c, i)
             i = 0
             n = len(self.ix)
             while i < n:
-                i = self.index(lambda c, _i: bool(c), i)
+                i = self.index(where, i)
                 if i < 0: break
-                j = self.index(lambda c, _i: not c, i)
+                j = self.index(until, i)
                 if j < 0:
                     yield i, n
                     break
                 yield i, j
                 i = j + 1
 
-        def tokens(self):
+        def token_ranges(self):
+            return self.cut_ranges(
+                lambda c, _i: bool(c),
+                lambda c, _i: not c)
+
+        def tokens(self, ranges: Iterable[tuple[int, int]] | None = None):
+            if ranges is None:
+                ranges = self.token_ranges()
             cls = self.__class__
-            for i, j in self.token_ranges():
+            for i, j in ranges:
                 yield cls(self.board, self.ix[i:j])
 
         def updates(self, word: str, replace: bool = False):
