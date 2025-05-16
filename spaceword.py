@@ -13,8 +13,9 @@ from itertools import chain
 from typing import Callable, Literal, Never, cast, final, override
 
 from sortem import Chooser, Possible, RandScores
-from store import StoredLog
+from store import StoredLog, parse_log_line
 from strkit import MarkedSpec, spliterate
+
 from ui import PromptUI
 from wordlist import WordList
 
@@ -810,6 +811,17 @@ class SpaceWord(StoredLog):
         for line in self.board.show_grid(head=None, foot=None):
             yield f'    {line}'
 
+    def prior_result_boards(self):
+        with open(self.log_file) as f:
+            board = Board(self.board.size)
+            for line in f:
+                _, line = parse_log_line(line)
+                if board.load_line(line):
+                    # TODO maybe examine intermediate boards
+                    continue
+                if re.match(r'(?x) result :', line):
+                    yield board
+
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
         for t, rest in super().load(ui, lines):
@@ -1087,6 +1099,13 @@ class SpaceWord(StoredLog):
                 self.proc_result(ui, ui.may_paste())
             except ValueError as err:
                 ui.print(f'! {err}')
+            return
+
+        if ui.tokens.have(r'/pri(o(rs?)?)?'):
+            for n, board in enumerate(self.prior_result_boards(), 1):
+                for line in board.show_grid(head=f'Prior {n}:', foot=None):
+                    ui.print(line)
+            # TODO final foot?
             return
 
         if ui.tokens.have(r'/st(ore)?'):
