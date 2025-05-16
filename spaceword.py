@@ -215,6 +215,31 @@ class Board:
             if i < len(self.grid):
                 self.grid[i] = l
 
+    def load_line(self, line: str):
+        match = re.match(r'''(?x)
+            letters :
+            \s+
+            \|
+            (?P<letters> .* )
+            \|
+            $''', line)
+        if match:
+            self.letters = list(match[1])
+            return True
+
+        match = re.match(r'''(?x)
+            change :
+            \s+ (?P<i> \d+ )
+            (?: \s+ (?P<let> [a-zA-Z] ) )?
+            ''', line)
+        if match:
+            i = int(match[1])
+            let = str(match[2] or '')
+            self.update(i, let)
+            return True
+
+        return False
+
     def copy(self, updates: Iterable[tuple[int, str]] = ()):
         b = Board(self.size, self.letters, self.grid)
         for ilet in updates: b.update(*ilet)
@@ -790,6 +815,8 @@ class SpaceWord(StoredLog):
         for t, rest in super().load(ui, lines):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
+                if self.board.load_line(rest):
+                    continue
 
                 match = re.match(r'''(?x)
                     wordlist :
@@ -828,17 +855,6 @@ class SpaceWord(StoredLog):
                     continue
 
                 match = re.match(r'''(?x)
-                    letters :
-                    \s+
-                    \|
-                    (?P<letters> .* )
-                    \|
-                    $''', rest)
-                if match:
-                    self.board.letters = list(match[1])
-                    continue
-
-                match = re.match(r'''(?x)
                     at :
                     \s+ (?P<x> \d+ )
                     \s+ (?P<y> \d+ )
@@ -849,17 +865,6 @@ class SpaceWord(StoredLog):
                     y = int(match[2])
                     xy = cast(Literal['X', 'Y'], match[3].upper())
                     self.at_cursor = x, y , xy
-                    continue
-
-                match = re.match(r'''(?x)
-                    change :
-                    \s+ (?P<i> \d+ )
-                    (?: \s+ (?P<let> [a-zA-Z] ) )?
-                    ''', rest)
-                if match:
-                    i = int(match[1])
-                    let = str(match[2] or '')
-                    self.update(ui, ((i, let),))
                     continue
 
                 yield t, rest
