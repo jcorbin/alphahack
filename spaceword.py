@@ -1375,6 +1375,9 @@ class SpaceWord(StoredLog):
                 self.wordlist,
                 done,
                 reject=reject,
+                sources=(
+                    ('priors', self.prior_result_boards),
+                ),
             )
 
         if ui.tokens.under(r'\*'):
