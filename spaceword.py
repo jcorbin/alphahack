@@ -1125,6 +1125,7 @@ class SpaceWord(StoredLog):
             '/centre': '/center',
             '/clear': self.cmd_clear,
             '/erase': self.cmd_erase,
+            '/foo': self.cmd_foo,
             '/generate': self.cmd_generate,
             '/letters': self.cmd_letters,
             '/priors': self.cmd_priors,
@@ -1670,6 +1671,36 @@ class SpaceWord(StoredLog):
             ui.print('usage: /erase <COUNT>')
             return
         self.erase_at(ui, n)
+
+    def cmd_foo(self, ui: PromptUI):
+        '''
+        dev playground
+        '''
+        n: int = 1
+
+        board = self.board
+
+        # word_count = Counter(
+        #     i
+        #     for token in board.all_words()
+        #     for i in token.ix)
+        # for line in board.show_grid(
+        #     cell = lambda x, y, i: f'{word_count[i]}' if word_count[i] else ' ',
+        # ): ui.print(line)
+
+        affixes = tuple(board.word_affixes())
+        n = max(1, min(len(affixes), n))
+
+        for choices in combinations(affixes, n):
+            maybe = board.copy(
+                (i, '')
+                for token in choices
+                for i in token.ix)
+
+            for line in maybe.show_grid(
+                head = ''.join(f'X{token}' for token in choices),
+                foot = None,
+            ): ui.print(line)
 
     def cmd_generate(self, ui: PromptUI):
         '''
