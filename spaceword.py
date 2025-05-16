@@ -489,18 +489,6 @@ class Board:
     def max_bonus(self):
         return self.size**2
 
-    def all_words(self):
-        bounds = self.defined_rect
-        if bounds:
-            lo_x, lo_y, hi_x, hi_y = bounds
-            for cur in chain(
-                (self.cursor(lo_x, y, 'X') for y in range(lo_y, hi_y)),
-                (self.cursor(x, lo_y, 'Y') for x in range(lo_x, hi_x)),
-            ):
-                for token in self.select(cur).tokens():
-                    if len(token) > 1:
-                        yield token
-
     def update(self, changes: Iterable[tuple[int, str]]):
         for i, let in changes:
             self.set(i, let)
@@ -524,6 +512,48 @@ class Board:
 
     def cursor(self, x: int, y: int, axis: Literal['X', 'Y']):
         return self.Cursor(x, y, axis, self.size, len(self.grid))
+
+    def all_words(self):
+        bounds = self.defined_rect
+        if bounds:
+            lo_x, lo_y, hi_x, hi_y = bounds
+            for cur in chain(
+                (self.cursor(lo_x, y, 'X') for y in range(lo_y, hi_y)),
+                (self.cursor(x, lo_y, 'Y') for x in range(lo_x, hi_x)),
+            ):
+                for token in self.select(cur).tokens():
+                    if len(token) > 1:
+                        yield token
+
+    def word_affixes(self) -> Generator['Select']:
+        all_words = tuple(self.all_words())
+        word_count = Counter(
+            i
+            for token in all_words
+            for i in token.ix)
+        cixs = tuple(
+            tuple(word_count[i] for i in token.ix)
+            for token in all_words)
+        heads = tuple(cix[0] for cix in cixs)
+        tails = tuple(cix[-1] for cix in cixs)
+        want = min(min(heads), min(tails))
+
+        def extract(i: int):
+            token = all_words[i]
+            cix = cixs[i]
+            i = 0
+            if cix[i] == want:
+                while cix[i] == want:
+                    i += 1
+                    if i == len(cix): return
+                yield token.slice(i)
+            i = -1
+            if cix[i] == want:
+                while cix[i] == want: i -= 1
+                yield token.slice(i+1, len(token))
+
+        for i in range(len(all_words)):
+            yield from extract(i)
 
     @final
     class Cursor:
