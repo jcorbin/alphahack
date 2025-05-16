@@ -56,6 +56,17 @@ class LogSession:
     start: datetime.datetime
     elapsed: datetime.timedelta
 
+def parse_log_line(line: str):
+    m = re.match(r'''(?x)
+        T (?P<time> [^\s]+ )
+        \s+
+        (?P<rest> .+ )
+        $''', line)
+    return (
+        float(m[1]) if m else None,
+        str(m[2]) if m else line)
+
+
 class StoredLog:
     @classmethod
     def main(cls):
@@ -271,17 +282,10 @@ class StoredLog:
         cur_t: float|None = None
 
         for line in lines:
-            match = re.match(r'''(?x)
-                T (?P<time> [^\s]+ )
-                \s+
-                (?P<rest> .+ )
-                $''', line)
-            if not match:
+            t, rest = parse_log_line(line)
+            if t is None:
                 yield 0, line
                 continue
-
-            st, rest = match.groups()
-            t = float(st)
 
             match = re.match(r'''(?x)
                 now :
