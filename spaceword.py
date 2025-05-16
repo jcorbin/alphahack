@@ -1570,6 +1570,35 @@ class SpaceWord(StoredLog):
 
             return
 
+        if ui.tokens.have(r'/foo'):
+            n: int = 1
+
+            board = self.board
+
+            # word_count = Counter(
+            #     i
+            #     for token in board.all_words()
+            #     for i in token.ix)
+            # for line in board.show_grid(
+            #     cell = lambda x, y, i: f'{word_count[i]}' if word_count[i] else ' ',
+            # ): ui.print(line)
+
+            affixes = tuple(board.word_affixes())
+            n = max(1, min(len(affixes), n))
+
+            for choices in combinations(affixes, n):
+                maybe = board.copy(
+                    (i, '')
+                    for token in choices
+                    for i in token.ix)
+
+                for line in maybe.show_grid(
+                    head = ''.join(f'X{token}' for token in choices),
+                    foot = None,
+                ): ui.print(line)
+
+            return
+
         if ui.tokens.have(r'/res(ult)?'):
             ui.print('Provide share result:')
             try:
