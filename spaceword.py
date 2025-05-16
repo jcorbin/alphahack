@@ -753,9 +753,13 @@ class SpaceWord(StoredLog):
         def parts():
             res = self.result
             if not res:
-                yield f'😦 incomplete {self.board.score}'
+                yield f'😦'
+                yield f'incomplete score {self.board.score}'
             else:
-                yield f'🥳 {res.score} rank {res.rank[0]}'
+                yield f'🥳'
+                yield '🏁' if res.final else '🏗️'
+                yield f'score {res.score}'
+                yield f'rank {res.rank[0]}'
             yield f'⏱️ {self.elapsed}'
         return ' '.join(parts())
 
