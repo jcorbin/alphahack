@@ -428,6 +428,28 @@ class Board:
                     if len(token) > 1:
                         yield token
 
+    def word_affixes(self):
+        all_words = tuple(self.all_words())
+        word_count = Counter(
+            i
+            for token in all_words
+            for i in token.ix)
+        cixs = tuple(
+            tuple(word_count[i] for i in token.ix)
+            for token in all_words)
+        heads = tuple(cix[0] for cix in cixs)
+        tails = tuple(cix[-1] for cix in cixs)
+        want = min(min(heads), min(tails))
+        for (token, cix) in zip(all_words, cixs):
+            i = 0
+            if cix[i] == want:
+                while cix[i] == want: i += 1
+                yield token.slice(i)
+            i = -1
+            if cix[i] == want:
+                while cix[i] == want: i -= 1
+                yield token.slice(i+1, len(token))
+
     def update(self, i: int, let: str):
         prior = self.grid[i]
         if prior == let: return
