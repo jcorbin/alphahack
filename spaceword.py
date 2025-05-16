@@ -1496,12 +1496,14 @@ class Search:
                  wordlist: WordList,
                  ret: Callable[[Board|None], PromptUI.State],
                  reject: Callable[[Board], bool] = lambda _: False,
+                 sources: Iterable[tuple[str, Callable[[], Iterable[Board]]]] | None = None,
                  verbose: int = 0,
                  ):
         self.board = board.copy()
         self.wordlist = wordlist
         self.ret = ret
         self.reject = reject
+        self.sources = dict(sources or ()) 
         self.verbose = verbose
 
         self.frontier: Halo = Halo.of([self.board])
@@ -1575,6 +1577,36 @@ class Search:
 
         if ui.tokens.have(r'cen(t(er?|re?)?)?'):
             return self.recenter(ui)
+
+        if ui.tokens.under(r'imp(o(rt?)?)?'):
+            if not ui.tokens:
+                ui.print('Available Sources')
+                for name in sorted(self.sources):
+                    ui.print(f'- {name}')
+                return
+
+            names = tuple(ui.tokens)
+            srcs = tuple( self.sources.get(name) for name in names)
+            boards = tuple( tuple(src()) if src else () for src in srcs)
+
+            if not any(srcs):
+                ui.print('! no valid sources provided ; run without arg to list available')
+                return
+
+            for name, src, got in zip(names, srcs, boards):
+                if not src:
+                    ui.print(f'! ignoring unknown source {name!r}')
+                else:
+                    ui.print(f'* importing {len(got)} boards from {name!r}')
+
+            self.frontier = Halo.of(
+                chain(self.frontier.boards, chain.from_iterable(boards)),
+                Halo.WithWordLabels(self.wordlist))
+
+            if self.frontier_cap:
+                self.frontier = self.frontier.take(self.frontier_cap)
+
+            return
 
         if not ui.tokens or ui.tokens.under(r'board'):
             for line in self.board.show(
