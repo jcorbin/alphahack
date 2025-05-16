@@ -150,3 +150,8 @@ T1219.6926035220004 [prior:2165 bet:2168]> /res
 T1220.0045950600002 Press <Enter> to 📋 or `>` for line prompt 
 T1220.0073872000003 result: "\u2728 Spaceword.org Daily 2025-05-15 \u2728\n\n\ud83c\udfc6 Score: 2168\n\ud83c\udfc5 Rank: 84/271 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +68\n\n\nPlay at https://spaceword.org\n#spaceword"
 T1221.2525230740002 [prior:2168]> /store
+T2.9212509380013216 now: 2025-05-16T08:42:30EDT
+T4.3287998779997 [prior:2168]> /res
+T4.91296730900649 Press <Enter> to 📋 or `>` for line prompt 
+T4.915310647003935 result: "\u2728 Spaceword.org Daily 2025-05-15 \u2728\n\n\ud83c\udfc6 Score: 2168\n\ud83c\udfc5 Final Rank: 178/520 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +68\n\n\nPlay at https://spaceword.org\n#spaceword"
+T8.297358809009893 [prior:2168]> /store
