@@ -1259,6 +1259,7 @@ class Result:
     rank: tuple[int, int]
     tiles: tuple[int, int]
     bonus: int
+    final: bool
 
     @classmethod
     def parse(cls, s: str):
@@ -1266,6 +1267,7 @@ class Result:
         url = ''
         score = 0
         rank = (0, 0)
+        final = False
         tiles = (0, 0)
         bonus = 0
 
@@ -1306,12 +1308,13 @@ class Result:
             match = re.match(r'''(?x)
                 🏅
                 \s*
-                Rank:
+                ( Final \s+ )? Rank:
                 \s*
                 ( \d+ ) \s* / \s* ( \d+ )
                 ''', line)
             if match:
-                rank = int(match[1]), int(match[2])
+                final = True if match[1] else False
+                rank = int(match[2]), int(match[3])
                 continue
 
             match = re.match(r'''(?x)
@@ -1342,7 +1345,7 @@ class Result:
                 continue
 
         if not title: raise ValueError('missing spaceword result title')
-        return cls(title, url, score, rank, tiles, bonus)
+        return cls(title, url, score, rank, tiles, bonus, final)
 
 @MarkedSpec.mark('''
 
@@ -1365,6 +1368,28 @@ class Result:
     - rank: (165, 322)
     - tiles: (21, 21)
     - bonus: 58
+    - final: False
+
+    #final_solve
+    > ✨ Spaceword.org Daily 2025-05-15 ✨
+    > 
+    > 🏆 Score: 2168
+    > 🏅 Final Rank: 178/520 👏
+    > 🧩 Tiles: 21/21 ✅
+    > 📏 Space Bonus: +68
+    > 
+    > 
+    > Play at https://spaceword.org
+    > #spaceword
+    - title: Daily 2025-05-15
+    - url: ```
+    https://spaceword.org
+    ```
+    - score: 2168
+    - rank: (178, 520)
+    - tiles: (21, 21)
+    - bonus: 68
+    - final: True
 
 ''')
 def test_parse_result(spec: MarkedSpec):
@@ -1376,6 +1401,7 @@ def test_parse_result(spec: MarkedSpec):
         elif key == 'rank': assert f'{res.rank}' == value
         elif key == 'tiles': assert f'{res.tiles}' == value
         elif key == 'bonus': assert f'{res.bonus}' == value
+        elif key == 'final': assert f'{res.final}' == value
 
 if __name__ == '__main__':
     SpaceWord.main()
