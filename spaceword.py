@@ -2064,6 +2064,10 @@ class Search:
                 ui.print(f'dropped {m} from frontier')
             return
 
+        star = ui.tokens.under(r'\*')
+        if star:
+            return self.generate(ui)
+
         if ui.tokens.have(r'hist(o(ry?)?)?'):
             as_json = False
             wheres: list[Callable[[PlainData], bool]] = []
@@ -2678,6 +2682,9 @@ class Search:
             explain_pos_score=explain,
             wordlist=wordlist,
             metadata=meta())
+
+    def generate(self, ui: PromptUI):
+        return self.add_word(ui)
 
 @final
 class Halo:
