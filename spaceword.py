@@ -1121,6 +1121,45 @@ class SpaceWord(StoredLog):
             if re.match(r'(?x) result :', line):
                 yield board
 
+    def prior_reject_bones(self):
+        for _n, _t, _z, line in self.parse_log():
+            match = re.match(r'''(?x)
+                reject
+                \s+
+                sid : (?P<sid> [^\s]+ )
+                \s+
+                bone : (?P<bone> .* )
+                $''', line)
+            if match:
+                sid = match[1]
+                bone = match[2]
+                yield sid, bone
+
+    def prior_reject_sids(self):
+        for sid, _ in self.prior_reject_bones():
+            yield sid
+
+    def prior_reject_boards(self, sid: str=''):
+        for s, bone in self.prior_reject_bones():
+            if not sid or s == sid:
+                try:
+                    board = Board.from_bone(bone)
+                except ValueError:
+                    pass
+                else:
+                    yield board
+
+    def browse_reject_boards(self):
+        def bind(sid: str):
+            return lambda: self.prior_reject_boards(sid)
+
+        seen: set[str] = set()
+        for sid, _ in self.prior_reject_bones():
+            if sid not in seen:
+                seen.add(sid)
+                yield sid, bind(sid)
+        yield 'all', lambda: self.prior_reject_boards()
+
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
         for t, rest in super().load(ui, lines):
@@ -1154,6 +1193,17 @@ class SpaceWord(StoredLog):
                         self.proc_result(ui, dat)
                     except:
                         pass
+                    continue
+
+                match = re.match(r'''(?x)
+                    reject
+                    \s+
+                    sid : (?P<sid> [^\s]+ )
+                    \s+
+                    bone : (?P<bone> .* )
+                    $''', rest)
+                if match:
+                    self.sids.add(match[1])
                     continue
 
                 match = re.match(r'''(?x)
@@ -1464,6 +1514,48 @@ class SpaceWord(StoredLog):
             # TODO final foot?
             return
 
+        if ui.tokens.have(r'/rej(e(c(ts?)?)?)?'):
+            arg = next(ui.tokens, '')
+            if not arg:
+                cur, n = '', 0
+                for sid, bone in self.prior_reject_bones():
+                    if sid == cur:
+                        n += 1
+                    else:
+                        if n:
+                            ui.print(f'- {cur} {n}')
+                        cur, n = sid, 1
+                if n:
+                    ui.print(f'- {cur} {n}')
+                return
+            want_sid = self.last_sid if arg.lower().startswith('last') else arg
+
+            arg = next(ui.tokens, '')
+            if not arg:
+                ui.print(f'Reject {want_sid}:')
+                for n, (sid, bone) in enumerate(self.prior_reject_bones(), 1):
+                    if sid == want_sid:
+                        try:
+                            board = Board.from_bone(bone)
+                        except Exception as err:
+                            ui.print(f'{n}. err:{err}')
+                        else:
+                            ui.print(f'{n}. score:{board.score}')
+                return
+            want_n = int(arg)
+
+            for n, (sid, bone) in enumerate(self.prior_reject_bones(), 1):
+                if n == want_n:
+                    try:
+                        board = Board.from_bone(bone)
+                    except Exception as err:
+                        ui.print(f'{n}. err:{err}')
+                        ui.print(f'  bone:{bone!r}')
+                    else:
+                        for line in board.show_grid(head=f'[ Reject {want_sid} {n} ]', foot=None):
+                            ui.print(line)
+            return
+
         if ui.tokens.have(r'/st(ore)?'):
             return self.store
 
@@ -1533,11 +1625,17 @@ class SpaceWord(StoredLog):
                     self.update(ui, self.board.diff(board))
                 return self.play
 
-            def reject(board: Board):
+            def is_improvement(board: Board):
                 sc = board.score
                 res = self.result
-                if res and sc <= res.score: return True
-                if sc <= self.board.score: return True
+                if res and sc <= res.score: return False
+                if sc <= self.board.score: return False
+                return True
+
+            def reject(board: Board):
+                if not is_improvement(board):
+                    ui.logz(f'reject sid:{sid} bone:{board.to_bone()}')
+                    return True
                 return False
 
             return Search(
@@ -1548,6 +1646,7 @@ class SpaceWord(StoredLog):
                 reject=reject,
                 sources=(
                     ('priors', self.prior_result_boards),
+                    ('rejects', self.browse_reject_boards),
                 ),
             )
 
