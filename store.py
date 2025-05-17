@@ -112,22 +112,24 @@ class StoredLog:
     def review(self, ui: PromptUI) -> PromptUI.State|None:
         for line in self.report_body:
             ui.print(line)
+        with ui.tokens_or(f'> '):
+            return self.handle_review(ui)
 
-        with ui.tokens_or(f'> ') as tokens:
-            if tokens.have(r'report$'):
-                return self.do_report(ui)
+    def handle_review(self, ui: PromptUI) -> PromptUI.State|None:
+        if ui.tokens.have(r'report$'):
+            return self.do_report(ui)
 
-            if tokens.have(r'replay$'):
-                return self.Replay(self)
+        if ui.tokens.have(r'replay$'):
+            return self.Replay(self)
 
-            if tokens.have(r'cont(i(n(ue?)?)?)?$'):
-                rep = self.Replay(self)
-                line_no, time, mess = rep.seek(0)
-                rep.cursor = line_no
-                ui.print(f'*** {line_no}. T{time:.1f} {mess}')
-                return rep.restart(ui, mess=f'^^^ continuing from last line')
+        if ui.tokens.have(r'cont(i(n(ue?)?)?)?$'):
+            rep = self.Replay(self)
+            line_no, time, mess = rep.seek(0)
+            rep.cursor = line_no
+            ui.print(f'*** {line_no}. T{time:.1f} {mess}')
+            return rep.restart(ui, mess=f'^^^ continuing from last line')
 
-            ui.print(f'! invalid review command {tokens.rest!r}')
+        ui.print(f'! invalid review command {ui.tokens.rest!r}')
 
     @final
     class Replay:
