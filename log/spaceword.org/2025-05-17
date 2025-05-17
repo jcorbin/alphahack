@@ -225,3 +225,65 @@ T117.67413570800272 [prior:2144 bet:2152]> /res
 T119.41022271900147 Press <Enter> to 📋 or `>` for line prompt 
 T119.41252016300132 result: "\u2728 Spaceword.org Daily 2025-05-17 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 199/276 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
 T120.99421113700373 [prior:2152]> /store
+T2.500041343002522 now: 2025-05-17T10:54:29EDT
+T4.473411135004426 [prior:2152]> ~
+T8.153251577998162 search[1]> prune 1
+T9.921245628000179 search[1 may:3]> take
+T11.593311238997558 search[4]> prune 1
+T12.425271223997697 search[4 may:10]> take
+T13.977334535004047 search[14]> add
+T16.66542114799813 search[13 may:9 reject:4]> take
+T17.57745875100227 search[23]> add
+T18.833487691998016 search[22 may:9 reject:4]> take
+T24.06563019999885 search[32]> prune 1
+T26.065571849998378 search[32 may:71]> take
+T27.193555548001314 search[103]> prune 1
+T28.025582130001567 search[103 may:186]> take
+T30.13770212000236 search[289]> add 10
+T36.20997081499809 search[288 may:1546 reject:40]> take
+T40.59426700200129 search[1835]> drop 835
+T43.68975724300253 search[1000]> add 5
+T61.57818984200276 search[999 may:432 done:60 reject:64]> show done
+T72.82633351199911 search[999 may:432 done:60 reject:64]> show 1
+T75.95425558400166 search[999 may:432 done:60 reject:64]> show 2
+T77.96250346500165 search[999 may:432 done:60 reject:64]> show 8
+T79.28247149399976 search[999 may:432 done:60 reject:64]> show 1
+T86.06651618899923 search[999 may:432 done:60 reject:64]> ret
+T86.06670632099849 change: 21 
+T86.06672236200393 change: 26 
+T86.06673134199809 change: 21 
+T86.06674196200038 change: 36 
+T86.06674916200427 change: 41 Q
+T86.06675554200046 change: 51 U
+T86.06676274200436 change: 21 
+T86.06677129200398 change: 76 
+T86.0667770029977 change: 21 T
+T86.06678244299837 change: 30 B
+T86.06678765299876 change: 31 O
+T90.67495325200434 [prior:2152 bet:2155]> ~
+T93.17864865400043 search[1]> prune 1
+T94.81871093300288 search[1 may:2]> take
+T95.83476301700284 search[3]> prune 1
+T96.49874819999968 search[3 may:4]> take
+T103.95485248800105 search[7]> add 25
+T106.29887680300453 search[6 may:21 reject:4]> take
+T108.2669627380019 search[28]> prune 1
+T109.32292521699856 search[28 may:43]> take
+T111.70707928999764 search[71]> add 25
+T115.61910438199993 search[70 may:513 reject:10]> take
+T118.90727155299828 search[584]> add 10
+T131.0432978040044 search[583 may:1186 dead:3 reject:83]> take
+T135.35544597000262 search[1770]> drop 770
+T138.6435202069988 search[1000]> add 10
+T156.78014280999923 search[999 may:260 dead:7 reject:62]> take
+T158.8438371960001 search[2030]> drop 1030
+T160.77985843000351 search[1000]> add 10
+T193.81235525500233 search[999 may:45 reject:65]> take
+T231.67716044699773 search[2075]> cap 600
+T232.68507660300384 search[600 cap:600]> **
+T265.49372057300207 search[599 cap:600 reject:46]> **
+T276.40596503100096 search[599 cap:600 reject:46]> ␚
+T310.8139480890022 [prior:2152 bet:2155]> /res
+T311.5261798319989 Press <Enter> to 📋 or `>` for line prompt 
+T311.5290344189998 result: "\u2728 Spaceword.org Daily 2025-05-17 \u2728\n\n\ud83c\udfc6 Score: 2155\n\ud83c\udfc5 Rank: 199/279 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +55\n\n\nPlay at https://spaceword.org\n#spaceword"
+T313.43012371700024 [prior:2155]> /store
