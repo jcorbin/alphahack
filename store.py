@@ -591,24 +591,25 @@ class StoredLog:
         pass
 
     def expired(self, ui: PromptUI) -> PromptUI.State|None:
-        with ui.input(f'[a]rchive, [r]emove, or [c]ontinue? ') as tokens:
-            token = next(tokens, '').lower()
+        with ui.input(f'[a]rchive, [r]emove, or [c]ontinue? '):
+            return self.handle_expired(ui)
 
-            if 'archive'.startswith(token):
-                ui.print('Archiving expired log')
-                return self.store
+    def handle_expired(self, ui: PromptUI):
+        if ui.tokens.have(r'a(r(c(h(i(ve?)?)?)?)?)?'):
+            ui.print('Archiving expired log')
+            return self.store
 
-            elif 'remove'.startswith(token):
-                os.unlink(self.log_file)
-                ui.print(f'// removed {self.log_file}')
-                self.__init__()
-                return self
+        if ui.tokens.have(r'r(e(m(o(ve?)?)?)?)?'):
+            os.unlink(self.log_file)
+            ui.print(f'// removed {self.log_file}')
+            self.__init__()
+            return self
 
-            elif 'continue'.startswith(token):
-                return self.handle
+        if ui.tokens.have(r'c(o(n(t(i(n(ue?)?)?)?)?)?)?'):
+            return self.handle
 
-            elif token:
-                ui.print('! invalid choice')
+        if ui.tokens:
+            ui.print(f'! invalid choice {next(ui.tokens)!r}')
 
     report_file: str = 'report.md' # TODO hoist and wire up to arg
 
