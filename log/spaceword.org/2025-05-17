@@ -385,3 +385,66 @@ T1277.086582826 [prior:2155 bet:2160]> /res
 T1278.1971228580003 Press <Enter> to 📋 or `>` for line prompt 
 T1278.2074161390003 result: "\u2728 Spaceword.org Daily 2025-05-17 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 244/399 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"
 T1281.3595469210002 [prior:2160]> /store
+T1304.8625539440002 now: 2025-05-17T17:36:31EDT
+T1307.184332166 [prior:2160]> ~
+T1311.9820395610002 search[1]> prune
+T1317.0253025190002 search[1 may:5]> take
+T1319.70305634 search[6]> **
+T1323.069540137 search[6]> cap 700
+T1324.211080199 search[6 cap:700]> **
+T1464.065593122 search[189 cap:700]> ␚
+T1465.5453582790003 [prior:2160]> ~
+T1466.8222361620003 search[1]> prune 2
+T1468.244713681 search[1 may:10]> take
+T1472.9267833010001 search[11]> cap 900
+T1473.7680556930002 search[11 cap:900]> **
+T1557.363824576 search[899 cap:900 reject:75]> reset
+T1559.4485828570002 search[1 cap:900]> clear
+T1562.1445610840003 search[1 cap:900]> cap 900
+T1563.377669657 search[1 cap:900]> **
+T1660.489576025 reject sid:306afc bone:10:               OR        BE       BOX       REI       I N       Q E      GUV        E         TAN                        
+T1660.489620211 reject sid:306afc bone:10:               OR        BE       BOX       REI       I N       Q E      VUG        E         TAN                        
+T1660.4897186710002 reject sid:306afc bone:10:                               R       N I  B   TE V BAROQUE EXOGEN I                                                    
+T1660.4897432180003 reject sid:306afc bone:10:                               E       V R  B   TI N BAROQUE EXOGEN I                                                    
+T1671.5218181780003 search[900 cap:900 may:2720 done:4 dead:82 reject:43]> show done
+T1676.3096383110003 search[900 cap:900 may:2720 done:4 dead:82 reject:43]> show 1
+T1836.454015783 search[900 cap:900 may:2720 done:4 dead:82 reject:43]> ret
+T1836.454433835 change: 16 
+T1836.4544623490003 change: 3 
+T1836.454479196 change: 16 
+T1836.4544947810002 change: 13 
+T1836.4545078930003 change: 15 O
+T1836.454520855 change: 16 
+T1836.454533535 change: 23 
+T1836.454544379 change: 16 
+T1836.454556716 change: 24 
+T1836.4545684380003 change: 44 
+T1836.454582515 change: 25 B
+T1836.454592233 change: 44 
+T1836.4546055880003 change: 33 
+T1836.4546162480003 change: 35 O
+T1836.454626167 change: 36 X
+T1836.4546400720003 change: 54 I
+T1836.4546551210003 change: 44 R
+T1836.454665639 change: 45 E
+T1836.4546771400003 change: 64 Q
+T1836.454690536 change: 46 I
+T1836.4547011740003 change: 16 
+T1836.454715744 change: 55 
+T1836.454726366 change: 56 N
+T1836.4547352030002 change: 66 E
+T1836.4547455920003 change: 74 U
+T1836.4547555810002 change: 16 
+T1836.454799885 change: 76 
+T1836.4548101560001 change: 94 T
+T1836.454818888 change: 16 R
+T1836.4548267900002 change: 26 E
+T1836.454834598 change: 34 B
+T1836.454842416 change: 73 G
+T1836.454850899 change: 75 V
+T1836.4548581000001 change: 95 A
+T1836.4548656570003 change: 96 N
+T1837.2781696270001 [prior:2160 bet:2164]> /res
+T1837.476222129 Press <Enter> to 📋 or `>` for line prompt 
+T1837.482724195 result: "\u2728 Spaceword.org Daily 2025-05-17 \u2728\n\n\ud83c\udfc6 Score: 2164\n\ud83c\udfc5 Rank: 207/401 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +64\n\n\nPlay at https://spaceword.org\n#spaceword"
+T1838.6653343780001 [prior:2164]> /store
