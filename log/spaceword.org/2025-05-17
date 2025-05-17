@@ -191,3 +191,37 @@ T5052.315075860002 [prior:2137 bet:2144]> /res
 T5059.099164134001 Press <Enter> to 📋 or `>` for line prompt 
 T5059.102217160005 result: "\u2728 Spaceword.org Daily 2025-05-17 \u2728\n\n\ud83c\udfc6 Score: 2144\n\ud83c\udfc5 Rank: 221/276 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +44\n\n\nPlay at https://spaceword.org\n#spaceword"
 T5061.875252666003 [prior:2144]> /store
+T1.4709535269939806 now: 2025-05-17T10:51:58EDT
+T4.75645789400005 [prior:2144]> /prune
+T19.517391876994225 <INT>
+T0.04936498199822381 now: 2025-05-17T10:52:18EDT
+T14.720454581998638 [prior:2144]> ~
+T18.00845366899739 search[1]> prune 1
+T20.136482141999295 search[1 may:2]> show may
+T23.76055114599876 search[1 may:2]> show 1
+T25.720622230001027 search[1 may:2]> show 2
+T29.928785511998285 search[1 may:2]> take
+T30.728687681003066 search[3]> cen
+T33.177782097998715 search[3]> center
+T35.52892790300393 search[3]> *
+T39.57694071900187 search[2 may:9 reject:1]> take
+T40.28885457399883 search[12]> show
+T46.29695195199747 search[12]> add
+T48.584931976001826 search[11 may:18 done:2 reject:1]> show
+T60.34518992000085 search[11 may:18 done:2 reject:1]> show 1
+T71.06532652799797 search[11 may:18 done:2 reject:1]> show done
+T75.8497944050032 search[11 may:18 done:2 reject:1]> show 1
+T80.72963165600231 search[11 may:18 done:2 reject:1]> ret
+T80.72980924900185 change: 26 
+T80.72982413900172 change: 8 
+T80.72983296900202 change: 26 Q
+T80.72984118900058 change: 18 
+T80.72984820899728 change: 36 U
+T80.72985571900062 change: 28 
+T80.7298633399987 change: 41 O
+T80.72987115000433 change: 38 
+T80.72987658000056 change: 76 T
+T117.67413570800272 [prior:2144 bet:2152]> /res
+T119.41022271900147 Press <Enter> to 📋 or `>` for line prompt 
+T119.41252016300132 result: "\u2728 Spaceword.org Daily 2025-05-17 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 199/276 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
+T120.99421113700373 [prior:2152]> /store
