@@ -13,7 +13,7 @@ from itertools import chain
 from typing import Callable, Literal, Never, cast, final, override
 
 from sortem import Chooser, Possible, RandScores
-from store import StoredLog, parse_log_line
+from store import StoredLog, git_txn, parse_log_line
 from strkit import MarkedSpec, spliterate
 
 from ui import PromptUI
@@ -784,13 +784,14 @@ class SpaceWord(StoredLog):
         def parts():
             res = self.result
             if not res:
-                yield f'😦'
-                yield f'incomplete score {self.board.score}'
+                yield f'😦 incomplete score {self.board.score}'
             else:
-                yield f'🥳'
-                yield '🏁' if res.final else '🏗️'
-                yield f'score {res.score}'
-                yield f'rank {res.rank[0]}'
+                r1, r2 = res.rank
+                if res.final:
+                    yield f'🏁 score {res.score} ranked {100*r1/r2:.1f}% {r1}/{r2}'
+                else:
+                    yield f'🏗️ score {res.score} current ranking {r1}/{r2}'
+
             yield f'⏱️ {self.elapsed}'
         return ' '.join(parts())
 
@@ -939,6 +940,39 @@ class SpaceWord(StoredLog):
             return self.EditLetters(self.board, self.num_letters, self.play)
 
         return self.play
+
+    @override
+    def expired(self, ui: PromptUI):
+        with ui.input(f'[f]inalize, [a]rchive, [r]emove, or [c]ontinue? '):
+            if ui.tokens.have(r'f(i(n(a(l(i(ze?)?)?)?)?)?)?'):
+                return (
+                    self.interact(ui, self.finalize)
+                    if self.ephemeral else self.finalize)
+            return self.handle_expired(ui)
+
+    @override
+    def handle_review(self, ui: PromptUI):
+        if ui.tokens.have(r'fin(a(l(i(ze?)?)?)?)?'):
+            return (
+                self.interact(ui, self.finalize)
+                if self.ephemeral else self.finalize)
+        return super().handle_review(ui)
+
+    def finalize(self, ui: PromptUI):
+        res = self.result
+        if res and res.final:
+            if not self.stored: return self.store
+            if self.dirty:
+                with git_txn(f'{self.site_name or self.store_name} day {self.puzzle_id} final', ui=ui) as txn:
+                    txn.add(self.log_file)
+                raise StopIteration
+            return self.review
+
+        ui.print('Provide final share result:')
+        try:
+            self.proc_result(ui, ui.may_paste())
+        except ValueError as err:
+            ui.print(f'! {err}')
 
     def _id_parts(self) -> tuple[Literal['daily', 'weekly'], date] | None:
         match = re.match(r'''(?x)
