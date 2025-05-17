@@ -340,6 +340,23 @@ class Board:
             if i < len(self.grid):
                 self.grid[i] = l
 
+    def to_bone(self):
+        dat = ''.join(
+            let or ' '
+            for let in chain(self.grid, self.letters))
+        return f'{self.size}:{dat}'
+
+    @classmethod
+    def from_bone(cls, s: str):
+        m = re.match(r'(\d+):(.+)', s)
+        if not m:
+            raise ValueError('invalid bone string')
+        size = int(m[1])
+        s = m[2]
+        n = size * size
+        l = tuple(let.strip() for let in s)
+        return cls(size, grid=l[:n], letters=l[n:])
+
     def load_line(self, line: str):
         match = re.match(r'''(?x)
             letters :
@@ -854,6 +871,61 @@ class Board:
                 wsr.score,
                 choices=chooser.choices,
                 verbose=verbose)
+
+def test_board_bones():
+    board = Board(letters='bdehlllmooorw')
+    board.update(board.select(board.cursor(3, 3, 'X')).updates('hello'))
+    board.update(board.select(board.cursor(7, 2, 'Y')).updates('world'))
+
+    assert list(board.show()) == [
+        '------------------------',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ W _ _   ',
+        '  _ _ _ H E L L O _ _   ',
+        '  _ _ _ _ _ _ _ R _ _   ',
+        '  _ _ _ _ _ _ _ L _ _   ',
+        '  _ _ _ _ _ _ _ D _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '------------------------',
+        '     B                  ',
+        '     M   O O     _      ',
+        '------------------------']
+
+    bone = board.to_bone()
+    assert bone == ''.join((
+        '10:',
+        '          ',
+        '          ',
+        '       W  ',
+        '   HELLO  ',
+        '       R  ',
+        '       L  ',
+        '       D  ',
+        '          ',
+        '          ',
+        '          ',
+        'B      M OO  '))
+
+    reboard = Board.from_bone(bone)
+    assert list(reboard.show()) == [
+        '------------------------',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ W _ _   ',
+        '  _ _ _ H E L L O _ _   ',
+        '  _ _ _ _ _ _ _ R _ _   ',
+        '  _ _ _ _ _ _ _ L _ _   ',
+        '  _ _ _ _ _ _ _ D _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '  _ _ _ _ _ _ _ _ _ _   ',
+        '------------------------',
+        '     B                  ',
+        '     M   O O     _      ',
+        '------------------------']
 
 @final
 class WordScorer:
