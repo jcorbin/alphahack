@@ -6,6 +6,7 @@
 # search[2075]> 
 
 import argparse
+import hashlib
 import math
 import json
 import pytest
@@ -344,6 +345,22 @@ class Board:
         for i, l in enumerate(grid):
             if i < len(self.grid):
                 self.grid[i] = l
+
+    def to_bone(self):
+        dat = ''.join(
+            let or ' '
+            for let in chain(self.grid, self.letters))
+        return f'{self.size}:{dat}'
+
+    @classmethod
+    def from_bone(cls, s: str):
+        m = re.match(r'(\d+):(.+)', s)
+        if not m:
+            raise ValueError('invalid bone string')
+        size = int(m[1])
+        s = m[2]
+        n = size * size
+        return cls(size, s[:n], s[n:])
 
     def load_line(self, line: str):
         match = re.match(r'''(?x)
@@ -975,9 +992,19 @@ class SpaceWord(StoredLog):
         self.result_text: str = ''
         self._result: Result|None = None
 
+        self.sids: set[str] = set()
+
         self.num_letters: int = 0
 
         self.at_cursor: tuple[int, int, Literal['X', 'Y']] = (0, 0, 'X')
+
+    def make_sid(self, hash: str):
+        n = 6
+        while hash[:n] in self.sids and n < len(hash):
+            n += 1
+        sid = hash[:n]
+        self.sids.add(sid)
+        return sid
 
     def _parse_result(self):
         res = Result.parse(self.result_text)
@@ -1059,6 +1086,22 @@ class SpaceWord(StoredLog):
                 if re.match(r'(?x) result :', line):
                     yield board
 
+    def prior_reject_bones(self):
+        with open(self.log_file) as f:
+            for line in f:
+                _, line = parse_log_line(line)
+                match = re.match(r'''(?x)
+                    reject
+                    \s+
+                    sid : (?P<sid> [^\s]+ )
+                    \s+
+                    bone : (?P<sid> .* )
+                    $''', line)
+                if match:
+                    sid = match[1]
+                    bone = match[2]
+                    yield sid, bone
+
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
         for t, rest in super().load(ui, lines):
@@ -1092,6 +1135,18 @@ class SpaceWord(StoredLog):
                         self.proc_result(ui, dat)
                     except:
                         pass
+                    continue
+
+
+                match = re.match(r'''(?x)
+                    reject
+                    \s+
+                    sid : (?P<sid> [^\s]+ )
+                    \s+
+                    bone : (?P<sid> .* )
+                    $''', rest)
+                if match:
+                    self.sids.add(match[1])
                     continue
 
                 match = re.match(r'''(?x)
@@ -1408,6 +1463,23 @@ class SpaceWord(StoredLog):
             # TODO final foot?
             return
 
+        if ui.tokens.have(r'/rej(e(c(ts?)?)?)?'):
+
+            # TODO sid argument
+
+            for n, (sid, bone) in enumerate(self.prior_reject_bones(), 1):
+                try:
+                    board = Board.from_bone(bone)
+                except Exception as err:
+                    ui.print(f'! Reject {sid} {n}: {err}')
+                else:
+                    for line in board.show_grid(head=f'Reject {sid} {n}:', foot=None):
+                        ui.print(line)
+
+            # TODO final foot?
+
+            return
+
         if ui.tokens.have(r'/st(ore)?'):
             return self.store
 
@@ -1468,6 +1540,10 @@ class SpaceWord(StoredLog):
             return
 
         if ui.tokens.under(r'~'):
+            h = hashlib.sha256(f'{self.start}{ui.time.now}'.encode())
+            sid = self.make_sid(h.hexdigest())
+
+
             def done(board: Board|None):
                 if board:
                     self.update(ui, self.board.diff(board))
@@ -1478,6 +1554,7 @@ class SpaceWord(StoredLog):
                 res = self.result
                 if res and sc <= res.score: return True
                 if sc <= self.board.score: return True
+                ui.log(f'reject sid:{sid} bone:{board.to_bone()}')
                 return False
 
             return Search(
@@ -1487,6 +1564,7 @@ class SpaceWord(StoredLog):
                 reject=reject,
                 sources=(
                     ('priors', self.prior_result_boards),
+                    # TODO ('rejects', self.prior_reject_boards),
                 ),
             )
 
