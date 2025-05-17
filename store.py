@@ -495,6 +495,15 @@ class StoredLog:
         return self.log_file.startswith(self.store_dir)
 
     @property
+    def dirty(self):
+        if self.ephemeral: return False # not appending to log
+        if not self.stored: return False # untracked log
+        code = subprocess.call(['git', 'diff', '--quiet', self.log_file])
+        if code == 0: return False
+        if code == 1: return True
+        raise RuntimeError(f'unexpected git-diff exit code {code}')
+
+    @property
     def store_name(self):
         site = self.site
         if '://' in site:
