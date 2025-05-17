@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+# XXX debug
+# search[1000]> add 10
+# search[999 may:45 reject:65]> take
+# search[2075]> 
+
 import argparse
 import math
 import json
