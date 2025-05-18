@@ -3,12 +3,14 @@ import datetime
 import os
 import re
 import subprocess
+import zlib
+from base64 import b85decode, b85encode
 from collections.abc import Generator, Iterable
 from contextlib import contextmanager, nullcontext
 from dataclasses import dataclass
 from dateutil.parser import parse as _parse_datetime
 from dateutil.tz import gettz, tzlocal, tzoffset
-from typing import cast, final
+from typing import Callable, cast, final
 from types import TracebackType
 
 from mdkit import break_sections, replace_sections
@@ -59,18 +61,27 @@ class LogSession:
 
 @final
 class LogParser:
-    def __init__(self):
-        pass
+    def __init__(self, rez: Callable[[bytes], None]|None = None):
+        self.unz = zlib.decompressobj()
+        self.rez = rez
 
     def __call__(self, line: str):
         m = re.match(r'''(?x)
             T (?P<time> [^\s]+ )
             \s+
+            (?P<iz> Z \s+ )?
             (?P<rest> .+ )
             $''', line)
         t = float(m[1]) if m else None
-        line = str(m[2]) if m else line
-        return t, line
+        z = bool(m[2]) if m else False
+        line = str(m[3]) if m else line
+        if z:
+            zb = b85decode(line)
+            b = self.unz.decompress(zb)
+            if self.rez is not None:
+                self.rez(b)
+            line = b.decode()
+        return t, z, line
 
 class StoredLog:
     @classmethod
@@ -143,6 +154,35 @@ class StoredLog:
             ui.print(f'*** {line_no}. T{time:.1f} {mess}')
             return rep.restart(ui, mess=f'^^^ continuing from last line')
 
+        if ui.tokens.have(r'comp'):
+            pat = re.compile(ui.tokens.rest)
+            count = 0
+
+            before = os.stat(self.log_file)
+            with atomic_rewrite(self.log_file) as (r, w):
+                rez = zlib.compressobj()
+                parse = LogParser()
+                for line in r:
+                    t, z, line = parse(line)
+                    if not z and pat.search(line):
+                        z = True
+                        count += 1
+                    if z:
+                        zb1 = rez.compress(line.encode())
+                        zb2 = rez.flush(zlib.Z_SYNC_FLUSH)
+                        _ = w.write(f'T{t} Z {b85encode(zb1 + zb2).decode()}\n')
+                    else:
+                        _ = w.write(f'T{t} {line}\n')
+
+                w.flush()
+            after = os.stat(self.log_file)
+
+            ds = after.st_size - before.st_size
+            ch = after.st_size/before.st_size - 1.0
+            ui.print(f'compressed {count} lines, change: {ds:+} bytes ( {100*ch:.1f}% )')
+
+            return
+
         ui.print(f'! invalid review command {ui.tokens.rest!r}')
 
     @final
@@ -171,7 +211,7 @@ class StoredLog:
                     pass
                 offset = max(0, line_no - offset)
             line_no, time, mess = 0, 0.0, ''
-            for line_no, time, mess in self.stl.parse_log():
+            for line_no, time, _z, mess in self.stl.parse_log():
                 if line_no >= offset: break
             return line_no, time, mess
 
@@ -188,7 +228,7 @@ class StoredLog:
                 line_hi = self.cursor + C
                 found = False
                 last_line = 0
-                for line_no, time, mess in self.stl.parse_log():
+                for line_no, time, _z, mess in self.stl.parse_log():
                     if line_lo < line_no <= line_hi:
                         found = True
                         ui.print(f'{"***" if line_no == self.cursor else "   "} {line_no}. T{time:.1f} {mess}')
@@ -202,7 +242,7 @@ class StoredLog:
                     want = int(sn) if sn else None
 
                     n = 0
-                    for line_no, time, mess in self.stl.parse_log():
+                    for line_no, time, _z, mess in self.stl.parse_log():
                         match = re.match(r'''(?x)
                             now :
                             \s+
@@ -239,7 +279,7 @@ class StoredLog:
                     except re.PatternError as err:
                         ui.print(f'!!! invalid pattern /{patstr}/ : {err}')
                         return
-                    for line_no, time, mess in self.stl.parse_log():
+                    for line_no, time, _z, mess in self.stl.parse_log():
                         if not pattern.match(mess): continue
                         ui.print(f'... {line_no}. T{time:.1f} {mess}')
                     ui.print('')
@@ -247,7 +287,7 @@ class StoredLog:
 
                 litstr = tokens.have(r'"(.+)', lambda match: str(match[1]))
                 if litstr:
-                    for line_no, time, mess in self.stl.parse_log():
+                    for line_no, time, _z, mess in self.stl.parse_log():
                         if litstr not in mess: continue
                         ui.print(f'... {line_no}. T{time:.1f} {mess}')
                     ui.print('')
@@ -276,14 +316,18 @@ class StoredLog:
                 return self.stl.load_log(ui, new_log_file)
 
     def load(self, ui: PromptUI, lines: Iterable[str]):
-        parse = LogParser()
+        rez = zlib.compressobj()
+        def flushit(b: bytes):
+            _ = rez.compress(b)
+            _ = rez.flush(zlib.Z_SYNC_FLUSH)
+        parse = LogParser(rez=flushit)
 
         prior_t: float|None = None
         prior_then: datetime.datetime|None = None
         cur_t: float|None = None
 
         for line in lines:
-            t, rest = parse(line)
+            t, _z, rest = parse(line)
             if t is None:
                 yield 0, line
                 continue
@@ -339,6 +383,8 @@ class StoredLog:
 
         if prior_then is not None and cur_t is not None:
             self.sessions.append(LogSession(prior_then, datetime.timedelta(seconds=cur_t)))
+
+        ui.zlog = rez
 
     ### store specifics
 

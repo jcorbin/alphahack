@@ -1114,7 +1114,7 @@ class SpaceWord(StoredLog):
 
     def prior_result_boards(self):
         board = Board(self.board.size)
-        for _n, _t, line in self.parse_log():
+        for _n, _t, _z, line in self.parse_log():
             if board.load_line(line):
                 # TODO maybe examine intermediate boards
                 continue
