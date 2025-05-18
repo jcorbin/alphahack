@@ -50,3 +50,119 @@ T1056.1010106130052 [doit:2144]> /res
 T1056.5411341979998 Press <Enter> to 📋 or `>` for line prompt 
 T1056.5442332650055 result: "\u2728 Spaceword.org Daily 2025-05-18 \u2728\n\n\ud83c\udfc6 Score: 2144\n\ud83c\udfc5 Rank: 177/223 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +44\n\n\nPlay at https://spaceword.org\n#spaceword"
 T1057.5410262980004 [prior:2144]> /store
+T1062.1824174310022 now: 2025-05-18T09:41:32EDT
+T1064.0932362780004 [prior:2144]> ~
+T1066.5411911250048 search[1]> prune
+T1068.6131844570045 search[1 may:6]> take
+T1069.6211462320061 search[7]> cen
+T1072.8214618310012 search[7]> prune
+T1073.6552491300026 search[7 may:36]> take
+T1075.5413989460067 search[43]> cen
+T1076.589710760003 search[43]> prune
+T1077.7813509770058 search[43 may:187]> take
+T1078.374167824004 search[230]> cen
+T1081.4214349480026 search[230]> add 100
+T1083.8006808420032 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1083.8007175630046 reject sid:b2aee6 bone:10:       V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                            
+T1083.8007364330042 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1083.8007529840033 reject sid:b2aee6 bone:10:       V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                            
+T1083.8007690140003 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1083.8007845640022 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1083.800800544006 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1083.8008164740022 reject sid:b2aee6 bone:10:       V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                            
+T1083.800832275003 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1083.8008564150005 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1083.8009166260017 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1083.8009395160043 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1091.6467048980048 search[229 may:525 reject:12]> take
+T1138.318458171001 search[755]> cen
+T1142.0626045420067 search[755]> add 50
+T1155.936117095007 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9361534660056 reject sid:b2aee6 bone:10:       V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                            
+T1155.9361726660063 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.936189857006 reject sid:b2aee6 bone:10:       V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                            
+T1155.9362068570044 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1155.9362226869998 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1155.936240617004 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9362568580036 reject sid:b2aee6 bone:10:       V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                            
+T1155.9362724680032 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1155.936288238001 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1155.9363042680052 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1155.9363198690044 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1155.936335409002 reject sid:b2aee6 bone:10:       V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                            
+T1155.9363511390038 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9363667990037 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9363821590014 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.936397450001 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9364130400063 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9364287400022 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.936444720006 reject sid:b2aee6 bone:10:       V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                            
+T1155.936466031002 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9364888810014 reject sid:b2aee6 bone:10:       V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                            
+T1155.9365049810003 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1155.936520522002 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.936535892004 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9365511420037 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1155.9365666720041 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9365821320025 reject sid:b2aee6 bone:10:       V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                            
+T1155.9366106130037 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9366259330054 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9366413530006 reject sid:b2aee6 bone:10:       V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                            
+T1155.9366688740047 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1155.936684444001 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9367116540016 reject sid:b2aee6 bone:10:       V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                            
+T1155.9367269550057 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9367423150034 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1155.9367574350035 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9367729450023 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1155.9367884260064 reject sid:b2aee6 bone:10:                 V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                  
+T1155.9368037960012 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.936819076007 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9368585270058 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9368872370032 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9369044870036 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9369203380047 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9369519880056 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9369707180012 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1155.9369864590044 reject sid:b2aee6 bone:10:                V         I     HYDRAE       ET        GOX       AR    OUZEL         E                                   
+T1171.7670005270047 search[754 may:3060 done:9 dead:6 reject:48]> show done
+T1177.8950688040059 search[754 may:3060 done:9 dead:6 reject:48]> show 2
+T1219.9277522180055 search[754 may:3060 done:9 dead:6 reject:48]> ret
+T1219.9279463010025 change: 15 
+T1219.927960481 change: 16 
+T1219.9279693610006 change: 15 
+T1219.9279775120012 change: 26 
+T1219.927984602 change: 15 
+T1219.9279942320063 change: 32 
+T1219.928001002001 change: 33 H
+T1219.9280068420048 change: 34 Y
+T1219.9280127620004 change: 35 D
+T1219.9280184320014 change: 36 R
+T1219.928024012006 change: 37 A
+T1219.9280306220026 change: 15 
+T1219.928038062004 change: 45 
+T1219.9280439130016 change: 46 E
+T1219.9280501730027 change: 15 
+T1219.928057973004 change: 55 
+T1219.928063833002 change: 56 G
+T1219.9280696330025 change: 57 O
+T1219.9280764130017 change: 15 X
+T1219.928091173002 change: 65 
+T1219.9280975230067 change: 66 A
+T1219.928104273 change: 17 V
+T1219.9281126440037 change: 71 
+T1219.9281185640066 change: 72 O
+T1219.9281244140002 change: 73 U
+T1219.928129894004 change: 74 Z
+T1219.9281352940015 change: 75 E
+T1219.9281414040015 change: 25 E
+T1219.9281490540016 change: 85 
+T1219.9281543040051 change: 27 I
+T1219.9281592640036 change: 47 T
+T1219.9281640240006 change: 67 R
+T1219.9281693640005 change: 76 L
+T1219.9281740850056 change: 86 E
+T1221.2886380840064 [prior:2144 bet:2152]> /res
+T1221.8798948300027 Press <Enter> to 📋 or `>` for line prompt 
+T1221.8828252640014 result: "\u2728 Spaceword.org Daily 2025-05-18 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 161/226 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
+T1223.0478348130055 [prior:2152]> /store
