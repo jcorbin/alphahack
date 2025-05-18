@@ -248,3 +248,123 @@ T510.4717222870022 [prior:2152 bet:2160]> /res
 T510.9039068080019 Press <Enter> to 📋 or `>` for line prompt 
 T510.90721399599715 result: "\u2728 Spaceword.org Daily 2025-05-18 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 164/261 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"
 T512.9283397249965 [prior:2160]> /store
+T513.882327940999 now: 2025-05-18T11:05:20EDT
+T514.7680543440001 [prior:2160]> 
+T530.3202924669968 [prior:2160]> ~
+T532.0803970950001 search d34a9a [ 1 ]> prune
+T533.4242676580034 search d34a9a [ 1 may:6 ]> take
+T534.5682531920029 search d34a9a [ 7 ]> cen
+T537.3762769199966 search d34a9a [ 7 ]> prune
+T538.8402740599995 search d34a9a [ 7 may:36 ]> take
+T544.0964333029988 search d34a9a [ 43 ]> cen
+T545.049003797998 search d34a9a [ 43 ]> prune
+T547.1524818140024 search d34a9a [ 43 may:188 ]> take
+T549.2164919760035 search d34a9a [ 231 ]> cen
+T551.160638688998 search d34a9a [ 231 ]> add 100
+T555.3815609279991 reject sid:d34a9a bone:10:                               E     R   A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3815969679999 reject sid:d34a9a bone:10:                               E     R   A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3816145279998 reject sid:d34a9a bone:10:                     D         E     R   A REHEAT  V   O XI  EULOGY Z                                                    
+T555.3816305689979 reject sid:d34a9a bone:10:                               ER        A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3816459790032 reject sid:d34a9a bone:10:                              RE         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3816612189985 reject sid:d34a9a bone:10:                     R         E         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3816757989989 reject sid:d34a9a bone:10:                               E     R   A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3816907400033 reject sid:d34a9a bone:10:                               E     R   A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3817056400003 reject sid:d34a9a bone:10:                               E     R   A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3817203400031 reject sid:d34a9a bone:10:                     D         E     R   A REHEAT  V   O XI  EULOGY Z                                                    
+T555.381735201001 reject sid:d34a9a bone:10:                               ER        A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3817510009976 reject sid:d34a9a bone:10:                              RE         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3817661010034 reject sid:d34a9a bone:10:                     R         E         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.381780800999 reject sid:d34a9a bone:10:                               E     R   A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3817956519997 reject sid:d34a9a bone:10:                                 V   R     E HEAT    A O XI  EULOGY Z  D E         R                                     
+T555.3818103719968 reject sid:d34a9a bone:10:             R         E         V   R     E HEAT    A O XI  EULOGY Z  D                                                 
+T555.3818250019976 reject sid:d34a9a bone:10:                                 V   R     E HEAT    A O XI  EULOGY Z  D E         R                                     
+T555.3818395619965 reject sid:d34a9a bone:10:             R         E         V   R     E HEAT    A O XI  EULOGY Z  D                                                 
+T555.3818539830027 reject sid:d34a9a bone:10:                               E     R   A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3818773029998 reject sid:d34a9a bone:10:                     E         V     R   A REHEAT  D   O XI  EULOGY Z                                                    
+T555.381899492997 reject sid:d34a9a bone:10:                     D         E     R   A REHEAT  V   O XI  EULOGY Z                                                    
+T555.3819145439993 reject sid:d34a9a bone:10:           R         E         A REHEAT  V   O XI  EULOGY Z  D                                                           
+T555.381929283998 reject sid:d34a9a bone:10:                               E     R   A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3819441640007 reject sid:d34a9a bone:10:                     D         E     R   A REHEAT  V   O XI  EULOGY Z                                                    
+T555.3819587640028 reject sid:d34a9a bone:10:                     E         V     R   A REHEAT  D   O XI  EULOGY Z                                                    
+T555.3819856949995 reject sid:d34a9a bone:10:                     R         E         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3820128250009 reject sid:d34a9a bone:10:           R         E         A REHEAT  V   O XI  EULOGY Z  D                                                           
+T555.3820394759969 reject sid:d34a9a bone:10:                     R         E         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3820659959965 reject sid:d34a9a bone:10:                              REZ        A REHEAT  V   O XI  EULOGY    D                                                 
+T555.382080976 reject sid:d34a9a bone:10:                              REZ        A REHEAT  V   O XI  EULOGY    D                                                 
+T555.3820960369994 reject sid:d34a9a bone:10:                               E     R   A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3821108470001 reject sid:d34a9a bone:10:                               E     R   A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3821255570001 reject sid:d34a9a bone:10:                     D         E     R   A REHEAT  V   O XI  EULOGY Z                                                    
+T555.3821406369971 reject sid:d34a9a bone:10:                               ER        A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3821614280023 reject sid:d34a9a bone:10:                              RE         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.382177047999 reject sid:d34a9a bone:10:                     R         E         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3821916980014 reject sid:d34a9a bone:10:                               E     R   A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3822065490021 reject sid:d34a9a bone:10:                                 V   R     E HEAT    A O XI  EULOGY Z  D E         R                                     
+T555.3822211890001 reject sid:d34a9a bone:10:             R         E         V   R     E HEAT    A O XI  EULOGY Z  D                                                 
+T555.3822358890029 reject sid:d34a9a bone:10:                                 V   R     E HEAT    A O XI  EULOGY Z  D E         R                                     
+T555.3822503389965 reject sid:d34a9a bone:10:             R         E         V   R     E HEAT    A O XI  EULOGY Z  D                                                 
+T555.382265029999 reject sid:d34a9a bone:10:                               E     R   A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.382279630001 reject sid:d34a9a bone:10:                     E         V     R   A REHEAT  D   O XI  EULOGY Z                                                    
+T555.3822979300021 reject sid:d34a9a bone:10:                     D         E     R   A REHEAT  V   O XI  EULOGY Z                                                    
+T555.3823160199972 reject sid:d34a9a bone:10:           R         E         A REHEAT  V   O XI  EULOGY Z  D                                                           
+T555.3823314809997 reject sid:d34a9a bone:10:                               E     R   A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3823571009998 reject sid:d34a9a bone:10:                     D         E     R   A REHEAT  V   O XI  EULOGY Z                                                    
+T555.3823743309986 reject sid:d34a9a bone:10:                     E         V     R   A REHEAT  D   O XI  EULOGY Z                                                    
+T555.382401871997 reject sid:d34a9a bone:10:                     R         E         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3824285919982 reject sid:d34a9a bone:10:           R         E         A REHEAT  V   O XI  EULOGY Z  D                                                           
+T555.3824552630031 reject sid:d34a9a bone:10:                     R         E         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3824817030036 reject sid:d34a9a bone:10:                              REZ        A REHEAT  V   O XI  EULOGY    D                                                 
+T555.3824965739987 reject sid:d34a9a bone:10:                              REZ        A REHEAT  V   O XI  EULOGY    D                                                 
+T555.3825112139966 reject sid:d34a9a bone:10:                                 V   R     E HEAT    A O XI  EULOGY Z  D E         R                                     
+T555.3825257740027 reject sid:d34a9a bone:10:             R         E         V   R     E HEAT    A O XI  EULOGY Z  D                                                 
+T555.3825402939983 reject sid:d34a9a bone:10:                                 V   R     E HEAT    A O XI  EULOGY Z  D E         R                                     
+T555.3825548550012 reject sid:d34a9a bone:10:             R         E         V   R     E HEAT    A O XI  EULOGY Z  D                                                 
+T555.382569344998 reject sid:d34a9a bone:10:                               E     R   A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3825836649994 reject sid:d34a9a bone:10:                     E         V     R   A REHEAT  D   O XI  EULOGY Z                                                    
+T555.3825981850023 reject sid:d34a9a bone:10:                     D         E     R   A REHEAT  V   O XI  EULOGY Z                                                    
+T555.3826128759974 reject sid:d34a9a bone:10:           R         E         A REHEAT  V   O XI  EULOGY Z  D                                                           
+T555.382627535997 reject sid:d34a9a bone:10:                               E     R   A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3826420260011 reject sid:d34a9a bone:10:                     D         E     R   A REHEAT  V   O XI  EULOGY Z                                                    
+T555.3826565260024 reject sid:d34a9a bone:10:                     E         V     R   A REHEAT  D   O XI  EULOGY Z                                                    
+T555.382682686999 reject sid:d34a9a bone:10:                     R         E         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.382708666999 reject sid:d34a9a bone:10:           R         E         A REHEAT  V   O XI  EULOGY Z  D                                                           
+T555.3827347580009 reject sid:d34a9a bone:10:                     R         E         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3827612879977 reject sid:d34a9a bone:10:                              REZ        A REHEAT  V   O XI  EULOGY    D                                                 
+T555.3827795589968 reject sid:d34a9a bone:10:                              REZ        A REHEAT  V   O XI  EULOGY    D                                                 
+T555.3827967289981 reject sid:d34a9a bone:10:                       R         A   R     V HEAT    E O XI  EULOGY Z    E         D                                     
+T555.3828117590019 reject sid:d34a9a bone:10:             R         A         V HEAT    E O XI  EULOGY Z  D E         R                                               
+T555.3828263789983 reject sid:d34a9a bone:10:                       R         A   R     V HEAT    E O XI  EULOGY Z    E         D                                     
+T555.3828409199996 reject sid:d34a9a bone:10:             R         A         V HEAT    E O XI  EULOGY Z  D E         R                                               
+T555.3828556099979 reject sid:d34a9a bone:10:                       R         A   R     V HEAT    E O XI  EULOGY Z    E         D                                     
+T555.3828701800012 reject sid:d34a9a bone:10:             R         A         V HEAT    E O XI  EULOGY Z  D E         R                                               
+T555.3828848400008 reject sid:d34a9a bone:10:                       R         A   R     V HEAT    E O XI  EULOGY Z    E         D                                     
+T555.3828993810021 reject sid:d34a9a bone:10:                     R         E         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3829139809968 reject sid:d34a9a bone:10:                     E         V         A REHEAT  D   O XI  EULOGY Z  R                                                 
+T555.3829286309992 reject sid:d34a9a bone:10:             R         A         V HEAT    E O XI  EULOGY Z  D E         R                                               
+T555.3829433110004 reject sid:d34a9a bone:10:                     R         E         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3829577319993 reject sid:d34a9a bone:10:                     E         V         A REHEAT  D   O XI  EULOGY Z  R                                                 
+T555.3829723219969 reject sid:d34a9a bone:10:                       R         A   R     V HEAT    E O XI  EULOGY Z    E         D                                     
+T555.3829869320034 reject sid:d34a9a bone:10:                       R         A   R     V HEAT    E O XI  EULOGY Z    E         D                                     
+T555.3830015019994 reject sid:d34a9a bone:10:                     E         V         A REHEAT  D   O XI  EULOGY Z  R                                                 
+T555.3830159630015 reject sid:d34a9a bone:10:                     R         E         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3830304229996 reject sid:d34a9a bone:10:                     E         V         A REHEAT  D   O XI  EULOGY Z  R                                                 
+T555.3830448430017 reject sid:d34a9a bone:10:                     R         E         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3830593129969 reject sid:d34a9a bone:10:             R         A         V HEAT    E O XI  EULOGY Z  D E         R                                               
+T555.3830738539982 reject sid:d34a9a bone:10:             R         A         V HEAT    E O XI  EULOGY Z  D E         R                                               
+T555.3830883039991 reject sid:d34a9a bone:10:                     E         V         A REHEAT  D   O XI  EULOGY Z  R                                                 
+T555.3831029139983 reject sid:d34a9a bone:10:                     R         E         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3831175040032 reject sid:d34a9a bone:10:                     R         E         A REHEAT  V   O XI  EULOGY Z  D                                                 
+T555.3831321149992 reject sid:d34a9a bone:10:                     E         V         A REHEAT  D   O XI  EULOGY Z  R                                                 
+T561.3287657850015 search d34a9a [ 230 may:2484 done:12 dead:48 reject:93 ]> show done
+T565.585310196002 search d34a9a [ 230 may:2484 done:12 dead:48 reject:93 ]> show 2
+T587.9374449940005 search d34a9a [ 230 may:2484 done:12 dead:48 reject:93 ]> /ret
+T589.2494207619966 search d34a9a [ 230 may:2484 done:12 dead:48 reject:93 ]> ret
+T589.2496025950022 change: 34 
+T589.2496161259987 change: 37 
+T589.249624885997 change: 34 R
+T589.2496332860028 change: 71 
+T589.2496388759973 change: 54 D
+T591.9135460519974 [prior:2160 bet:2168]> /res
+T597.5135481570032 Press <Enter> to 📋 or `>` for line prompt 
+T597.5163192740001 result: "\u2728 Spaceword.org Daily 2025-05-18 \u2728\n\n\ud83c\udfc6 Score: 2168\n\ud83c\udfc5 Rank: 93/262 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +68\n\n\nPlay at https://spaceword.org\n#spaceword"
+T597.9695274429978 [prior:2168]> 
+T601.425580905001 [prior:2168]> /store
