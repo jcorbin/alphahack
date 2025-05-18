@@ -368,3 +368,310 @@ T597.5135481570032 Press <Enter> to 📋 or `>` for line prompt
 T597.5163192740001 result: "\u2728 Spaceword.org Daily 2025-05-18 \u2728\n\n\ud83c\udfc6 Score: 2168\n\ud83c\udfc5 Rank: 93/262 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +68\n\n\nPlay at https://spaceword.org\n#spaceword"
 T597.9695274429978 [prior:2168]> 
 T601.425580905001 [prior:2168]> /store
+T0.5115578339973581 now: 2025-05-18T11:11:38EDT
+T2.7640020859980723 [prior:2168]> ~
+T3.7078462060017046 search c10238 [ 1 ]> clear
+T7.516186145003303 search c10238 [ 1 ]> cap 1500
+T8.636131207997096 search c10238 [ 1 cap:1500 ]> **
+T232.6764430330004 reject sid:c10238 bone:10:            E         Y R       EGOTIZE     UH        LO       VAR        DA        EX                                   
+T232.67648372399708 reject sid:c10238 bone:10:                 Y      R  E    EGOTIZE     UH        LO       VAR        DA        EX                                   
+T232.67650673400203 reject sid:c10238 bone:10:                  E     R   Y   EGOTIZE     UH        LO       VAR        DA        EX                                   
+T232.6765258239975 reject sid:c10238 bone:10:        R         A      H  Z      U  E    GAROTE   VOILE D    X E         Y                                             
+T232.67657677499665 reject sid:c10238 bone:10:           L         U         X         AY  V     TOERAG    E HEROIZE D                                                 
+T252.1564544139983 reject sid:c10238 bone:10:                            R      H  A      U  Z    GAROTE   VOILE E    X E  D      Y                                   
+T252.1564924350023 reject sid:c10238 bone:10:               R         A       ZED        XI       HEAVY     ORT      LOGE        U         E                          
+T252.15651017500204 reject sid:c10238 bone:10:            VOYAGED      Z X     H U       E R       A I       LOT       E E       R                                     
+T252.15652669499832 reject sid:c10238 bone:10:                            H     V G Y    OOZIER   TELAE A     E   X   URD                                              
+T252.1565433249998 reject sid:c10238 bone:10:               U       EARTH       GO       LEX       A O       V I       E D      YEZ        R                          
+T252.1565586259967 reject sid:c10238 bone:10:             Y U       EARTH     Z GO       LEX       A O       V I       E D       E         R                          
+T252.15657405599632 reject sid:c10238 bone:10:            E         Y R       EGOTIZE     UH        LO       VAR        DA        EX                                   
+T252.15658950599754 reject sid:c10238 bone:10:                 Y      R  E    EGOTIZE     UH        LO       VAR        DA        EX                                   
+T252.15660473600292 reject sid:c10238 bone:10:                  E     R   Y   EGOTIZE     UH        LO       VAR        DA        EX                                   
+T252.15661984599865 reject sid:c10238 bone:10:               H      GEOID        YE       TAV       E O       A U       Z R      REX        L                          
+T252.15663495699846 reject sid:c10238 bone:10:             ZAG         I         TO       LEX       A H       V E       E R       E D    YOUR                          
+T252.15665047700168 reject sid:c10238 bone:10:                          T        HO     RIVER        XU     ZOEAL        DAG     EYE                                   
+T252.15667696700257 reject sid:c10238 bone:10:                      Z   T     E  HO     RIVER     O  XU        AL        DAG     EYE                                   
+T252.15670064799633 reject sid:c10238 bone:10:                 Y     HE  U     EX  L    GROOVE     ER        AD        TIZ        A                                    
+T252.15671642799862 reject sid:c10238 bone:10:                      Y   T     O  HO     RIVER     E  XU        AL        DAG     ZEE                                   
+T252.15673165799672 reject sid:c10238 bone:10:            O         Y   T     E  HO     RIVER        XU        AL        DAG     ZEE                                   
+T252.1567469579968 reject sid:c10238 bone:10:                H      TYRO         LA       GOD       R I       E E       A U       V X     ZEE                         
+T252.15676207900106 reject sid:c10238 bone:10:              HET         O       LEX       A O       V I       E D   GRAZE         RYU                                  
+T252.15677723899717 reject sid:c10238 bone:10:              ZIT         U       REX        YE    GRAVED        HO        O         L        AE                         
+T252.15679230899696 reject sid:c10238 bone:10:                               L         AY  V   D TOERAG  U E HEROIZE X                                                 
+T252.15680728900043 reject sid:c10238 bone:10:             GRIDE        E       TAV       E O       A U       Z R      YEH        LOX                                  
+T252.156821949 reject sid:c10238 bone:10:              RUT         O       LEX       A O       V I       E D      YEZ      GERAH                                  
+T252.15683680000075 reject sid:c10238 bone:10:             HURT        YO       LEX       A O       V I       E D       E        GRAZE                                 
+T252.15685133999796 reject sid:c10238 bone:10:             HURT        YO       LEX       A O       V I       E D       E     GAZER                                    
+T252.1568662599966 reject sid:c10238 bone:10:   V         I         R  T      E HO      OYER        XU        AL        DAG      ZEE                                  
+T252.15688110000337 reject sid:c10238 bone:10:                             E L       X AY  V   U TOERAG  D   HEROIZE                                                   
+T252.15689601100166 reject sid:c10238 bone:10:               XED         E       TAV       E O       A U       Z R     HOE      GIRLY                                  
+T252.15691088099993 reject sid:c10238 bone:10:             GUARD         O       V O       E Z       A I       LYE     THE         REX                                 
+T252.15692585099896 reject sid:c10238 bone:10:                               VIZOR     U         GOD         EATERY   EXHALE                                           
+T252.15694079099922 reject sid:c10238 bone:10:             GHAUT         O       LEX       A O       V I       E D     RYE         REZ                                 
+T252.1569555410024 reject sid:c10238 bone:10:             AUGHT         O       LEX       A O       V I       E D     RYE         REZ                                 
+T252.1569703319983 reject sid:c10238 bone:10:           Z         O         RET       I E       L U A       GYVED     HOAXER                                          
+T252.1569848720028 reject sid:c10238 bone:10:           L         U         X         AY  V     TOERAG    E HEROIZE D                                                 
+T252.15699933200085 reject sid:c10238 bone:10:                   D         E         L AY  V   U TOERAG  X   HEROIZE                                                   
+T272.627296288003 reject sid:c10238 bone:10:                               L         AY  V   D TOERAG  U E HEROIZE X                                                 
+T272.6273342889981 reject sid:c10238 bone:10:            O         Y   T     E  HO     RIVER        XU        AL        DAG     ZEE                                   
+T272.6273530089966 reject sid:c10238 bone:10:               ZIG         O       V U       E R       A D       LYE    HATE      OXER                                   
+T272.6273930399984 reject sid:c10238 bone:10:               XED         E       TAV       E O       A U       Z R     HOE      GIRLY                                  
+T272.62741921999987 reject sid:c10238 bone:10:                            R      H  A      U  Z    GAROTE   VOILE E    X E  D      Y                                   
+T272.62743590000173 reject sid:c10238 bone:10:               R         A       ZED        XI       HEAVY     ORT      LOGE        U         E                          
+T272.6274515510013 reject sid:c10238 bone:10:               R         A       ZED        XI       HEAVY     ORT      LOGE        U         E                          
+T272.62746690100175 reject sid:c10238 bone:10:                     AX        D         U         L   V   E TOERAG  Y   HEROIZE                                         
+T272.6274822310006 reject sid:c10238 bone:10:                     A         D        XU         L   V   E TOERAG  Y   HEROIZE                                         
+T272.62749788100336 reject sid:c10238 bone:10:                    YE         X         A         L   V   D TOERAG  U   HEROIZE                                         
+T272.62751321199903 reject sid:c10238 bone:10:                     E         X         AY        L   V   D TOERAG  U   HEROIZE                                         
+T272.6275289719997 reject sid:c10238 bone:10:                     E         X        YA         L   V   D TOERAG  U   HEROIZE                                         
+T272.6275447719963 reject sid:c10238 bone:10:            VOYAGED      Z X     H U       E R       A I       LOT       E E       R                                     
+T272.62756040199747 reject sid:c10238 bone:10:            AVERAGE   R   U         DE       ZIT        OH         O       LEX         Y                                 
+T272.62757606300147 reject sid:c10238 bone:10:            AVERAGE     R U         DE       ZIT        OH         O       LEX         Y                                 
+T272.62759164300223 reject sid:c10238 bone:10:    R       AVERAGE       U         DE       ZIT        OH         O       LEX         Y                                 
+T272.627607223003 reject sid:c10238 bone:10:            AVERAGE       U R       DE       ZIT        OH         O       LEX         Y                                 
+T272.62762267299695 reject sid:c10238 bone:10:        R   AVERAGE       U         DE       ZIT        OH         O       LEX         Y                                 
+T272.6276383730001 reject sid:c10238 bone:10:                     Z        LO         RET       I E         U A       GYVED     HOAXER                                
+T272.6276536639998 reject sid:c10238 bone:10:                     Z         O         RET       I E       L U A       GYVED     HOAXER                                
+T272.62766925399774 reject sid:c10238 bone:10:             HURT        YO       LEX       A O       V I       E D      ZEE      GAR                                    
+T272.62768468399736 reject sid:c10238 bone:10:              RUT         O       LEX       A O       V I       E D      YEZ      GERAH                                  
+T272.62769980399753 reject sid:c10238 bone:10:                               Z    L V  A HERETO  I U  E X  DOGEAR    Y                                                 
+T272.62771559500106 reject sid:c10238 bone:10:              RAG        U         DE       ZIT        OH       A O       LEX      VERY       E                          
+T272.62773107500107 reject sid:c10238 bone:10:              GID         E       TAV      HERO       A U       Z R     EYE         LOX                                  
+T272.627746735001 reject sid:c10238 bone:10:             RUT         O       LEX       AHOY      V I       E D     ZEE         RAG                                   
+T272.6277623950009 reject sid:c10238 bone:10:               H        OE         LA       GOD       R I      RETE       A U       V X      YEZ                         
+T272.62778185599745 reject sid:c10238 bone:10:               A         UT        GO       LEX       ARO       V I       E D      YEZ      HER                          
+T272.62780022600055 reject sid:c10238 bone:10:                     L         AY  V   E TOERAG  X U HEROIZE         D                                                   
+T272.62781611600076 reject sid:c10238 bone:10:           D         U         ELHI        O  V  O   GAZER X    EATERY                                                   
+T272.6278318359982 reject sid:c10238 bone:10:                          D    ELHI U      O  V  O   GAZER X    EATERY                                                   
+T272.6278472670019 reject sid:c10238 bone:10:            VUG        D Z       OXO         AH        RE       TIE        AL         E       YER                        
+T272.6278630570014 reject sid:c10238 bone:10:            GUV        D Z       OXO         AH        RE       TIE        AL         E       YER                        
+T272.62787861700053 reject sid:c10238 bone:10:                               DUO       I  GREAVE TYRO      Z EXHALE                                                    
+T272.6278941569981 reject sid:c10238 bone:10:                              UDO        I  GREAVE TYRO      Z EXHALE                                                    
+T272.62790943800064 reject sid:c10238 bone:10:              GIT         U       REX        YE        ED        HO      AZO         L       AVER                        
+T272.6279248580031 reject sid:c10238 bone:10:              U        ARTY       GO       LEX       A O       V I       E D       EH        REZ                         
+T272.62794011799997 reject sid:c10238 bone:10:                               D       L AY  V   U TOERAG  X E HEROIZE                                                   
+T272.62795534799807 reject sid:c10238 bone:10:                   D         E         L AY  V   U TOERAG  X   HEROIZE                                                   
+T272.62797087799845 reject sid:c10238 bone:10:                               Z      V  A HERETO  I U    X  DOGEAR E  Y      L                                          
+T272.62798614899657 reject sid:c10238 bone:10:                               Z      V  A HERETO  I U    X  DOGEAR E  Y      L                                          
+T272.62800133899873 reject sid:c10238 bone:10:                            H     V G Y    OOZIER   TELAE A     E   X   URD                                              
+T272.62801697899704 reject sid:c10238 bone:10:               U       EARTH       GO       LEX       A O       V I       E D      YEZ        R                          
+T272.6280324489999 reject sid:c10238 bone:10:             Y U       EARTH     Z GO       LEX       A O       V I       E D       E         R                          
+T272.6280481099966 reject sid:c10238 bone:10:               R         A       ZED        XI       HEAVY     ORT      LOGE        U         E                          
+T272.62806375999935 reject sid:c10238 bone:10:              Y U      HEART      Z GO       LEX       A O       V I       E D       E         R                         
+T272.6280790899982 reject sid:c10238 bone:10:              R H      GEOID      X YE       TAV       E O       A U       Z R       E         L                         
+T272.6280944500031 reject sid:c10238 bone:10:            E         Y R       EGOTIZE     UH        LO       VAR        DA        EX                                   
+T272.6281097910032 reject sid:c10238 bone:10:                 Y      R  E    EGOTIZE     UH        LO       VAR        DA        EX                                   
+T272.6281251010005 reject sid:c10238 bone:10:                  E     R   Y   EGOTIZE     UH        LO       VAR        DA        EX                                   
+T272.6281405510017 reject sid:c10238 bone:10:                       T        LOR        U A       GYVED     HOAXER    I        ZEE                                    
+T272.62815898100234 reject sid:c10238 bone:10:                       T        LOR        U A       GYVED     HOAXER    I       ZEE                                     
+T272.62817650200304 reject sid:c10238 bone:10:              HID         E       TAV       EGO       A U       Z R     OXER        LEY                                  
+T272.62819210199814 reject sid:c10238 bone:10:              HID         E       TAV       EGO       A U       Z R    YORE         LEX                                  
+T272.6282075220006 reject sid:c10238 bone:10:              HID         E       TAV       EGO       A U       Z R     OYER        LEX                                  
+T272.6282287520007 reject sid:c10238 bone:10:               H         ID        YE       TAV       E O       A U       Z R    OGRE         LEX                        
+T272.6282447429985 reject sid:c10238 bone:10:               H         ID        YE       TAV       E O       A U       Z R    GORE         LEX                        
+T272.6282601330022 reject sid:c10238 bone:10:               H         ID        YE       TAV       E O       A U       Z R     GOER        LEX                        
+T272.6282755130014 reject sid:c10238 bone:10:                               L         AY  V   D TOERAG  U E HEROIZE X                                                 
+T272.6282908229987 reject sid:c10238 bone:10:           IZAR        HOG        OUR       TYE        EL        DE         V       AXE                                  
+T272.628306022998 reject sid:c10238 bone:10:              R        HOG        OUR       TYE        EL     AZIDE         V       AXE                                  
+T272.6283213240022 reject sid:c10238 bone:10:              RUT         O       LEX       A O       V I       E D      YEZ      GERAH                                  
+T272.6283366339994 reject sid:c10238 bone:10:             RUTH        O       LEX       A O       V I       E D     GEEZ        RAY                                   
+T272.6283519339995 reject sid:c10238 bone:10:              ZAG         O       V U     THEIR       A D       LYE      OE         REX                                  
+T272.62836711399723 reject sid:c10238 bone:10:                V      YAHOO      GEL        XU        ET        RE       ZED      RAI                                   
+T272.6283919549969 reject sid:c10238 bone:10:               H      GEOID        YE       TAV       E O       A U       Z R      REX        L                          
+T272.6284093150025 reject sid:c10238 bone:10:             ZAG         I         TO       LEX       A H       V E       E R       E D    YOUR                          
+T272.62842572500085 reject sid:c10238 bone:10:           H         E         LID       O U  V  O   GAZER X    EATERY                                                   
+T272.62844134499755 reject sid:c10238 bone:10:           H         O         LID       E U  V  O   GAZER X    EATERY                                                   
+T272.6284566760005 reject sid:c10238 bone:10:                               HOD       E U  V  O I GAZER X L  EATERY                                                   
+T272.6284716059963 reject sid:c10238 bone:10:           E         L         HOD       I U  V  O   GAZER X    EATERY                                                   
+T272.6284866459973 reject sid:c10238 bone:10: H         E         L         OUD         I  V  O   GAZER X    EATERY                                                   
+T272.62850200600224 reject sid:c10238 bone:10:             GIT         U       REX        YE       ZEDA       HO     ARVO         L         E                          
+T272.6285174069999 reject sid:c10238 bone:10:             GIT         U       REX        YE       ZEDA       HO        O         L      RAVE                          
+T272.62853266699676 reject sid:c10238 bone:10:             GIT         U       REX        YE       ZEDA       HO        O         L       AVER                         
+T272.62854775699816 reject sid:c10238 bone:10:             ZAG         I         TO       LEX       A H       V E       E R       E D    YOUR                          
+T272.62856653700146 reject sid:c10238 bone:10:                             O  D      Y  U GREAVE TIRO    Z   EXHALE                                                    
+T272.62858417799725 reject sid:c10238 bone:10:              ZIT         U       REX        YE     RAVED        HO        O         L       GAE                         
+T272.62859965799726 reject sid:c10238 bone:10:              ZIT         U       REX        YE        ED        HO     ARVO         L       GAE                         
+T272.62861499800056 reject sid:c10238 bone:10:              GIT         U       REX        YE     RAZED        HO      AVO         L         E                         
+T272.6286303079978 reject sid:c10238 bone:10:              GIT         U       REX        YE        ED        HO      AVO         L      RAZE                         
+T272.62864561800234 reject sid:c10238 bone:10:              D V      YAHOO      GEL        XU        ET        RE     RAZE         I                                   
+T294.6758743090031 reject sid:c10238 bone:10:              ZA         UT        GO       LEX       ARO       V I       E D      HE         RYE                        
+T294.6759237200022 reject sid:c10238 bone:10:              YA         UT        GO       LEX       ARO       V I       E D      HE         REZ                        
+T294.67594221000036 reject sid:c10238 bone:10:               A        HUT        GO       LEX       ARO       V I       E D      YE         REZ                        
+T294.6759707110032 reject sid:c10238 bone:10:              YA         UT        GO       LEX       ARO       V I       E D      HE         REZ                        
+T294.67598737100343 reject sid:c10238 bone:10:   ZA         GIT       A U       REX        YE        ED        HO        O         L        REV                        
+T294.67601597199973 reject sid:c10238 bone:10:             YEA         Z       H U       E R       AGIO      LOT      VEXED      R                                     
+T294.67603181199956 reject sid:c10238 bone:10:             GUT         O       LEX       A O       VAIR      E D      YEH        REZ                                   
+T294.6760473719987 reject sid:c10238 bone:10:              GID         E       TAV      HERO       A U       Z R     EYE         LOX                                  
+T294.6760628519987 reject sid:c10238 bone:10:             HURT        YO       LEX       A O       V I       E D      ZEE      GAR                                    
+T294.67607814200164 reject sid:c10238 bone:10:              ZAG         O       V U     THEIR       A D       LYE      OE         REX                                  
+T294.6760934729973 reject sid:c10238 bone:10:              ZAG         O       V U      HEIR       A D       LYE     TOE         REX                                  
+T294.67610903299646 reject sid:c10238 bone:10:              GID         E       TAV      HERO       A U       Z R     EYE         LOX                                  
+T294.6761247329996 reject sid:c10238 bone:10:                               L         AY  V   D TOERAG  U E HEROIZE X                                                 
+T294.6761404029967 reject sid:c10238 bone:10:             GIT         U       REX        YE       ZEDA       HO        O        AL        REV                         
+T294.67615588400076 reject sid:c10238 bone:10:               H        OE         LA       GOD       R I      RETE       A U       V X      YEZ                         
+T294.6761714640015 reject sid:c10238 bone:10:               H       GRID        YE       TAV       E O       A U       Z R      OE         LEX                        
+T294.67618673400284 reject sid:c10238 bone:10:               A        HUT        GO       LEX       ARO       V I       E D      YEZ       ER                          
+T294.67620205399726 reject sid:c10238 bone:10:               U       HART        GO       LEX       A O       V I       E D      YEZ       ER                          
+T294.67623016500147 reject sid:c10238 bone:10:                               L         AY  V   D TOERAG  U E HEROIZE X                                                 
+T294.676260045002 reject sid:c10238 bone:10:                      L        HOD       U I  V  O E GAZER X    EATERY                                                   
+T294.676276295002 reject sid:c10238 bone:10:                             O  D      Y  U GREAVE TIRO    Z   EXHALE                                                    
+T294.67629216599744 reject sid:c10238 bone:10:             GIT         U       REX        YE       ZEDA       HO        O        AL        REV                         
+T294.67630766599905 reject sid:c10238 bone:10:                      L        HOD       I U  V  O E GAZER X    EATERY                                                   
+T294.6763229060016 reject sid:c10238 bone:10:              U        ARTY       GO       LEX       A O       V I       E D       EH        REZ                         
+T294.67633843600197 reject sid:c10238 bone:10:              U        ARTY       GO       LEX       A O       V I       E D      HE         REZ                         
+T294.67635371699726 reject sid:c10238 bone:10:                     H         OUD       L I  V  O E GAZER X    EATERY                                                   
+T294.67636958700314 reject sid:c10238 bone:10:              U        ARTY       GO       LEX       A O       V I       E D       EH        REZ                         
+T294.6763958169977 reject sid:c10238 bone:10:              ZA         UT        GO       LEX       ARO       V I       E D      HEY       ER                          
+T294.6764127569986 reject sid:c10238 bone:10:               A         UT        GO       LEX       ARO       V I       E D      YEZ      HER                          
+T294.67642801799957 reject sid:c10238 bone:10:              ZA         UT        GO       LEX       ARO       V I       E D      YEH       ER                          
+T294.6764432880009 reject sid:c10238 bone:10:              U        ARTY       GO       LEX       A O       V I       E D       EH        REZ                         
+T294.676458517999 reject sid:c10238 bone:10:              U        ARTY       GO       LEX       A O       V I       E D      HE         REZ                         
+T294.67647409799974 reject sid:c10238 bone:10:               H       OXID        YE       TAV       E O       A U       Z R     GREE        L                          
+T294.67648975899647 reject sid:c10238 bone:10:                              UDO        I  GREAVE TYRO      Z EXHALE                                                    
+T294.676505069001 reject sid:c10238 bone:10:             G         IRED         E       TAV       E O       A U       Z R      YEH        LOX                        
+T294.6765203890027 reject sid:c10238 bone:10:             GRODY        E       TAV       E O       A U       Z R      HEX        LIE                                  
+T294.6765356589967 reject sid:c10238 bone:10:              YEA         Z       H U       E R      VAGI       LOT       EXED     OR                                    
+T294.6765510699988 reject sid:c10238 bone:10:               HID         E       TAV       EGO       A U       Z R    YORE         LEX                                 
+T294.676566189999 reject sid:c10238 bone:10:             GYRED     I   E       TAV       E O       A U       Z R       EH        LOX                                 
+T294.6765814099999 reject sid:c10238 bone:10:                               Z    L V  A HERETO  I U  E X  DOGEAR    Y                                                 
+T294.6765963200014 reject sid:c10238 bone:10:             OXER      I  Y        TAV       E O       A G       Z U      HERE       L D                                 
+T294.6766114999991 reject sid:c10238 bone:10:                               Z    V L  A HERETO  I U  E X  DOGEAR    Y                                                 
+T294.67662663100054 reject sid:c10238 bone:10:             GRODY        E       TAV       E O       A U       Z R      HE        ILEX                                  
+T294.67664541099657 reject sid:c10238 bone:10:             GRODY        E       TAV       E O       A U       Z R      HE        ILEX                                  
+T294.6766632009967 reject sid:c10238 bone:10:            O         Y   T     E  HO     RIVER        XU        AL        DAG     ZEE                                   
+T294.6766787410015 reject sid:c10238 bone:10:              ZAG         I         TO       LEX       A H       V E       E R       E D    YOUR                         
+T294.67669412199757 reject sid:c10238 bone:10:              R H      GEOID      X YE       TAV       E O       A U       Z R       E         L                         
+T294.67670944199926 reject sid:c10238 bone:10:              GIT         U       REX        YE       ZEDA       HO        O         L       AVER                        
+T294.67672492199927 reject sid:c10238 bone:10:              GIT         U       REX        YE       ZEDA       HO        O         L      RAVE                         
+T294.6767402319965 reject sid:c10238 bone:10:                H         ID        YE       TAV       E O       A U       Z R    GORE         LEX                       
+T294.67675558300107 reject sid:c10238 bone:10:   Z         AGITA        U       REX        YE        ED        HO        O         L        REV                        
+T294.6767708330008 reject sid:c10238 bone:10:       Z     AGITA        U       REX        YE        ED        HO        O         L        REV                        
+T294.6767860530017 reject sid:c10238 bone:10:                               AL        XU         D  V   E TOERAG  Y   HEROIZE                                         
+T294.6768013030014 reject sid:c10238 bone:10:              Y U      HEART      Z GO       LEX       A O       V I       E D       E         R                         
+T294.6768165329995 reject sid:c10238 bone:10:                               AL        XU         D  V   E TOERAG  Y   HEROIZE                                         
+T294.6768316040034 reject sid:c10238 bone:10:              ZAG         I         TO       LEX       A H       V E       E R       E D    YOUR                         
+T294.6768468139999 reject sid:c10238 bone:10:                               H        LOUD       E I  V  O   GAZER X    EATERY                                         
+T294.6768621540032 reject sid:c10238 bone:10:                               E  TIZ    LORE         U A       GYVED     HOAXER                                         
+T294.6768773139993 reject sid:c10238 bone:10:               U       EARTH       GO       LEX       A O       V I       E D      YEZ        R                          
+T294.67689238500316 reject sid:c10238 bone:10:             Y U       EARTH     Z GO       LEX       A O       V I       E D       E         R                          
+T294.67690755499643 reject sid:c10238 bone:10:                               OH        LID       E U  V  O   GAZER X    EATERY                                         
+T294.6769227850018 reject sid:c10238 bone:10:                              HO         LID       E U  V  O   GAZER X    EATERY                                         
+T294.6769379249963 reject sid:c10238 bone:10:                     H         O         LID       E U  V  O   GAZER X    EATERY                                         
+T294.676952916001 reject sid:c10238 bone:10:                               OH        LID       E U  V  O   GAZER X    EATERY                                         
+T294.6769678760029 reject sid:c10238 bone:10:                               L         AY  V   E TOERAG  X U HEROIZE         D                                         
+T294.6769830659978 reject sid:c10238 bone:10:               ZIG         O       V U       E R       A D       LYE    HATE      OXER                                   
+T294.6769981960024 reject sid:c10238 bone:10:               XED         E       TAV       E O       A U       Z R     HOE      GIRLY                                  
+T294.67701744600345 reject sid:c10238 bone:10:              RUTH        O       LEX       A O       V I       E D     GEEZ        RAY                                  
+T294.677035187 reject sid:c10238 bone:10:                     D  Y  T   O HEAVER  ZOEAL G   I     U   EX        R                                                 
+T294.6770510069982 reject sid:c10238 bone:10:                     OI        L         EDH        U  V  O   GAZER X    EATERY                                          
+T294.6770662670024 reject sid:c10238 bone:10:                     D  Y  T   O HEAVER  ZOEAL G   I     U   EX        R                                                 
+T294.677081556998 reject sid:c10238 bone:10:                     LO        I         EDH        U  V  O   GAZER X    EATERY                                          
+T294.6770970380021 reject sid:c10238 bone:10:                     L        OI         EDH        U  V  O   GAZER X    EATERY                                          
+T294.6771123380022 reject sid:c10238 bone:10:                     L        HE         UDO        I  V  O   GAZER X    EATERY                                          
+T294.67712798799766 reject sid:c10238 bone:10:            OXER      I  Y        TAV       E O       ARGH      Z U       E E       L D                                  
+T294.67714337800135 reject sid:c10238 bone:10:            OXER       I Y        TAV       E O       ARGH      Z U       E E       L D                                  
+T294.6771587289986 reject sid:c10238 bone:10:                            R      H  A      U  Z    GAROTE   VOILE E    X E  D      Y                                   
+T294.67717408899625 reject sid:c10238 bone:10:            E         Y R       EGOTIZE     UH        LO       VAR        DA        EX                                   
+T294.67718942899955 reject sid:c10238 bone:10:                  E     R   Y   EGOTIZE     UH        LO       VAR        DA        EX                                   
+T294.6772046490005 reject sid:c10238 bone:10:               R         A       ZED        XI       HEAVY     ORT      LOGE        U         E                          
+T294.6772198100007 reject sid:c10238 bone:10:               R         A       ZED        XI       HEAVY     ORT      LOGE        U         E                          
+T294.6772401999988 reject sid:c10238 bone:10:                     AX        D         U         L   V   E TOERAG  Y   HEROIZE                                         
+T294.67725603000144 reject sid:c10238 bone:10:                     A         D        XU         L   V   E TOERAG  Y   HEROIZE                                         
+T294.6772714100007 reject sid:c10238 bone:10:                    YE         X         A         L   V   D TOERAG  U   HEROIZE                                         
+T294.67728655000246 reject sid:c10238 bone:10:                     E         X         AY        L   V   D TOERAG  U   HEROIZE                                         
+T294.6773017910018 reject sid:c10238 bone:10:                     E         X        YA         L   V   D TOERAG  U   HEROIZE                                         
+T294.67731687099877 reject sid:c10238 bone:10:                     UH         O        LED         I  V  O   GAZER X    EATERY                                         
+T294.6773319109998 reject sid:c10238 bone:10:                     HO        I         ELD         U  V  O   GAZER X    EATERY                                         
+T294.6773469710024 reject sid:c10238 bone:10:                    OH         I         ELD         U  V  O   GAZER X    EATERY                                         
+T294.6773620820022 reject sid:c10238 bone:10:                     H        OI         ELD         U  V  O   GAZER X    EATERY                                         
+T294.67737721199956 reject sid:c10238 bone:10:                      L        HE        OUD         I  V  O   GAZER X    EATERY                                         
+T294.6774036720017 reject sid:c10238 bone:10:                     HI        O         ELD         U  V  O   GAZER X    EATERY                                         
+T294.6774240930026 reject sid:c10238 bone:10:                     HO         I        ELD         U  V  O   GAZER X    EATERY                                         
+T294.67744159299764 reject sid:c10238 bone:10:                      O        HI        ELD         U  V  O   GAZER X    EATERY                                         
+T294.6774569729969 reject sid:c10238 bone:10:                      O         I       HELD         U  V  O   GAZER X    EATERY                                         
+T294.67747225300263 reject sid:c10238 bone:10:                    YE         X         A         L   V   D TOERAG  U   HEROIZE                                         
+T294.67748809300247 reject sid:c10238 bone:10:                     E         X         AY        L   V   D TOERAG  U   HEROIZE                                         
+T294.67750346400135 reject sid:c10238 bone:10:                     E         X        YA         L   V   D TOERAG  U   HEROIZE                                         
+T294.67751869399945 reject sid:c10238 bone:10:                     OH         U        LED         I  V  O   GAZER X    EATERY                                         
+T294.67753399399953 reject sid:c10238 bone:10:                      D  Y  T   O HEAVER  ZOEAL G  XI     U   E         R                                                
+T294.67754926400085 reject sid:c10238 bone:10:            VOYAGED      Z X     H U       E R       A I       LOT       E E       R                                     
+T294.67756456499774 reject sid:c10238 bone:10:            AVERAGE   R   U         DE       ZIT        OH         O       LEX         Y                                 
+T294.67757999499736 reject sid:c10238 bone:10:            AVERAGE     R U         DE       ZIT        OH         O       LEX         Y                                 
+T294.6775952750031 reject sid:c10238 bone:10:    R       AVERAGE       U         DE       ZIT        OH         O       LEX         Y                                 
+T294.67761056499876 reject sid:c10238 bone:10:            AVERAGE       U R       DE       ZIT        OH         O       LEX         Y                                 
+T294.67762556600064 reject sid:c10238 bone:10:        R   AVERAGE       U         DE       ZIT        OH         O       LEX         Y                                 
+T294.6776406759964 reject sid:c10238 bone:10:                     Z        LO         RET       I E         U A       GYVED     HOAXER                                
+T294.67765560599946 reject sid:c10238 bone:10:                     Z         O         RET       I E       L U A       GYVED     HOAXER                                
+T294.67768337600137 reject sid:c10238 bone:10:              HID         E       TAV       EGO       A U       Z R     OXER        LEY                                  
+T294.67769892700016 reject sid:c10238 bone:10:              HID         E       TAV       EGO       A U       Z R     OYER        LEX                                  
+T294.6777141970015 reject sid:c10238 bone:10:              GIT         U       REX        YE       ZEDA       HO        O        AL        REV                        
+T294.67772933700326 reject sid:c10238 bone:10:                               L         AY  V   D TOERAG  U E HEROIZE X                                                 
+T294.67774479700165 reject sid:c10238 bone:10:               H         ID        YE       TAV       E O       A U       Z R     GOER        LEX                        
+T294.6777600869973 reject sid:c10238 bone:10:              THY       OE         LA       GOD       R I       E E       A U       V X      REZ                         
+T294.677775518001 reject sid:c10238 bone:10:              ZA         UT        GO       LEX       ARO       V I       E D       EH      YER                          
+T294.67779061799956 reject sid:c10238 bone:10:               H        GID        YE       TAV       E O       A U       Z R     ORE         LEX                        
+T294.67780882799707 reject sid:c10238 bone:10:               H        GID        YE       TAV       E O       A U       Z R     ROE         LEX                        
+T294.6778262180014 reject sid:c10238 bone:10:             AGITA        U       REX        YE       ZED        HO        O         L        REV                        
+T294.67784152900276 reject sid:c10238 bone:10:              GIT         U       REX        YE       ZED        HO        O       AAL        REV                        
+T294.6778568890004 reject sid:c10238 bone:10:                               L         A Y V   D TOERAG  U E HEROIZE X                                                 
+T294.6778721090013 reject sid:c10238 bone:10:              ZA         UT        GO       LEX       ARO       V I       E D      HEY        RE                         
+T294.6778872790019 reject sid:c10238 bone:10:              ZA         UT        GO       LEX       ARO       V I       E D      YEH        RE                         
+T294.6779024999996 reject sid:c10238 bone:10:              OH       GRID        YE       TAV       E O       A U       Z R       E         LEX                        
+T294.67793276999873 reject sid:c10238 bone:10:                               L         AY  V   D TOERAG  U E HEROIZE X                                                 
+T294.67797203100054 reject sid:c10238 bone:10:             HURT        YO       LEX       A O       V I       E D      ZEE      GAR                                    
+T294.67798753100215 reject sid:c10238 bone:10:              RUT         O       LEX       A O       V I       E D      YEZ      GERAH                                  
+T294.67800290099694 reject sid:c10238 bone:10:                               Z    L V  A HERETO  I U  E X  DOGEAR    Y                                                 
+T294.67801820099703 reject sid:c10238 bone:10:              RAG        U         DE       ZIT        OH       A O       LEX      VERY       E                          
+T294.6780338919998 reject sid:c10238 bone:10:              GID         E       TAV      HERO       A U       Z R     EYE         LOX                                  
+T294.67804968199925 reject sid:c10238 bone:10:             RUT         O       LEX       AHOY      V I       E D     ZEE         RAG                                   
+T294.67806509199727 reject sid:c10238 bone:10:             YODH        E       TAV       EGO       A U       Z R      REX        LIE                                   
+T294.67808023199905 reject sid:c10238 bone:10:              HID         E       TAV       EGO       A U       Z R    YORE         LEX                                  
+T294.67809573200066 reject sid:c10238 bone:10:              HID         E       TAV       EGO       A U       Z R     OYER        LEX                                  
+T294.6781111730015 reject sid:c10238 bone:10:              RUT         O       LEX       A O       V I       E D      YEZ      GERAH                                  
+T294.67812658299954 reject sid:c10238 bone:10:             YEA         Z       H U       E R      VAGI       LOTO      EXED      R                                     
+T294.6781416829981 reject sid:c10238 bone:10:           OXER         Y        TAV       E O       ARGH      Z U       E E       LID                                   
+T294.6781569629966 reject sid:c10238 bone:10:                               Z    L V  A HERETO  I U  E X  DOGEAR    Y                                                 
+T294.67817201399885 reject sid:c10238 bone:10:           IZAR        HOG        OUR       TYE        EL        DE         V       AXE                                  
+T294.67818714400346 reject sid:c10238 bone:10:              RUT         O       LEX       A O       V I       E D      YEZ      GERAH                                  
+T294.67820235399995 reject sid:c10238 bone:10:             YOD         E       TAV       EGO       A U       Z R      HEX        LIER                                  
+T294.67821760399966 reject sid:c10238 bone:10:             GRODY        E       TAV       E O       A U       Z R      HEX        LIE                                  
+T294.6782408650033 reject sid:c10238 bone:10:              ROD         E       TAV       EGO       A U       Z R      HEY       ILEX                                  
+T294.678259084998 reject sid:c10238 bone:10:                               Z    V L  A HERETO  I U  E X  DOGEAR    Y                                                 
+T294.67827484499867 reject sid:c10238 bone:10:           IZAR        HOG        OUR       TYE        EL        DE         V       AXE                                  
+T294.6782901550032 reject sid:c10238 bone:10:             GRODY        E       TAV       E O       A U       Z R      HE        ILEX                                  
+T459.55563206900115 search c10238 [ 1500 cap:1500 may:345 done:8 dead:124 reject:145 ]> show done
+T465.36375535299885 search c10238 [ 1500 cap:1500 may:345 done:8 dead:124 reject:145 ]> show 1
+T547.8690719570004 search c10238 [ 1500 cap:1500 may:345 done:8 dead:124 reject:145 ]> ret
+T547.8692609099962 change: 52 
+T547.8692767300017 change: 31 
+T547.8692859099974 change: 52 
+T547.8692942109992 change: 34 
+T547.8693023509986 change: 68 
+T547.8693105310012 change: 41 Z
+T547.8693188010002 change: 45 R
+T547.8693270209988 change: 43 H
+T547.8693345110005 change: 48 
+T547.8693420909985 change: 47 T
+T547.8693492009988 change: 55 
+T547.869356852003 change: 48 O
+T547.869363222002 change: 51 E
+T547.8693691419976 change: 54 V
+T547.8693763219999 change: 58 
+T547.8694034919972 change: 55 I
+T547.8694116519982 change: 58 
+T547.8694269530024 change: 57 
+T547.8694326629993 change: 58 X
+T547.8694387130017 change: 61 D
+T547.8694460229963 change: 64 E
+T547.8694537830015 change: 62 O
+T547.8694608029982 change: 65 A
+T547.8694695930026 change: 63 G
+T547.8694758030033 change: 66 R
+T547.8694809430017 change: 68 Y
+T547.8694860329997 change: 52 L
+T547.8694911330022 change: 53 U
+T547.8694960639987 change: 56 A
+T549.9571806230015 [prior:2168 bet:2176]> /res
+T550.4371883400017 Press <Enter> to 📋 or `>` for line prompt 
+T550.4401169030025 result: "\u2728 Spaceword.org Daily 2025-05-18 \u2728\n\n\ud83c\udfc6 Score: 2176\n\ud83c\udfc5 Rank: 1/265 \ud83c\udf0c\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +76\n\n\nPlay at https://spaceword.org\n#spaceword"
+T554.0212970970024 [prior:2176]> /store
