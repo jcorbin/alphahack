@@ -166,3 +166,85 @@ T1221.2886380840064 [prior:2144 bet:2152]> /res
 T1221.8798948300027 Press <Enter> to 📋 or `>` for line prompt 
 T1221.8828252640014 result: "\u2728 Spaceword.org Daily 2025-05-18 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 161/226 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
 T1223.0478348130055 [prior:2152]> /store
+T0.7692276009984198 now: 2025-05-18T10:56:47EDT
+T3.8391721619991586 [prior:2152]> ~
+T19.6152041940004 search f23d35 [ 1 ]> clear
+T23.38340426999639 search f23d35 [ 1 ]> cap 1000
+T24.72746622699924 search f23d35 [ 1 cap:1000 ]> **
+T177.62714814399806 reject sid:f23d35 bone:10:             V         A         L         OX        REHEAT  GUIDE       Z       OYER                                    
+T177.6271951949966 reject sid:f23d35 bone:10:             V         A         L         OX        REHEAT  GUIDE       Z      YORE                                     
+T177.62721595499897 reject sid:f23d35 bone:10:        U         R         G         E    LAVEER  DIAZO     ETHOXY                                                      
+T177.62723279499914 reject sid:f23d35 bone:10:                     E         X         I  THROVE LAZY      E AERUGO  D                                                 
+T177.6272492450007 reject sid:f23d35 bone:10:            OUTAGE        L        HA        ER        RE       YOD        I         Z        VEX                        
+T177.6272654159984 reject sid:f23d35 bone:10:             EXHEDRA      U       V L       O O       TEG       A I       R Z       Y E                                  
+T177.62728084599803 reject sid:f23d35 bone:10:           A         Y         U         R GEEZER  V I    H  EXTOL  O  D         A                                       
+T194.08070735100046 reject sid:f23d35 bone:10:       D         A     LOVAGE      OI     HURRY        TE       ZEE        X                                             
+T194.0807475010006 reject sid:f23d35 bone:10:             V         A         L         OX        REHEAT  GUIDE       Z      YORE                                     
+T194.08077351200336 reject sid:f23d35 bone:10:        U         R         G         E    LAVEER  DIAZO     ETHOXY                                                      
+T194.08079797199753 reject sid:f23d35 bone:10:       D         O         G         I   R LAVEER  U A    E  ETHOXY Z                                                    
+T194.0808143719987 reject sid:f23d35 bone:10:       R         O         U         G   D LAVEER  I A    E  ETHOXY Z                                                    
+T194.08083004200307 reject sid:f23d35 bone:10:       R         O         G         U   D LAVEER  I A    E  ETHOXY Z                                                    
+T194.08084544199664 reject sid:f23d35 bone:10:       R         O         U         G   D LAVEER  I A    E  ETHOXY Z                                                    
+T194.08086043300136 reject sid:f23d35 bone:10:       R         O         G         U   D LAVEER  I A    E  ETHOXY Z                                                    
+T194.0809121229977 reject sid:f23d35 bone:10:        T         R         U        YE  G LAVEER  O A   Z   OXHIDE                                                      
+T194.080939984 reject sid:f23d35 bone:10:                     E         X         I  THROVE LAZY      E AERUGO  D                                                 
+T194.08095568400313 reject sid:f23d35 bone:10:            OUTAGE        L        HA        ER        RE       YOD        I         Z        VEX                        
+T194.0809718140008 reject sid:f23d35 bone:10:           R         E         V     Z   I DOGEAR  L A    U  ETHOXY E                                                    
+T194.08098697399691 reject sid:f23d35 bone:10:           R         E         L     Z   I DOGEAR  V A    U  ETHOXY E                                                    
+T194.0810019549972 reject sid:f23d35 bone:10:                     E         V     Z   I DOGEAR  L A    U  ETHOXY E  R                                                 
+T194.08101679499669 reject sid:f23d35 bone:10:                     V         E     Z   I DOGEAR  L A    U  ETHOXY E  R                                                 
+T194.08103207500244 reject sid:f23d35 bone:10:                                  R  Z     REHEAT     LO  U  VOYAGE I     X         E         D                          
+T387.63797907999833 search f23d35 [ 1000 cap:1000 may:5225 done:5 dead:48 reject:16 ]> show done
+T393.31756793800014 search f23d35 [ 1000 cap:1000 may:5225 done:5 dead:48 reject:16 ]> show 2
+T505.6877626560017 search f23d35 [ 1000 cap:1000 may:5225 done:5 dead:48 reject:16 ]> ret
+T505.68795442899864 change: 31 
+T505.68796914999984 change: 15 
+T505.68797806999646 change: 31 
+T505.6879858500033 change: 17 
+T505.68800113999896 change: 31 
+T505.6880092499996 change: 25 
+T505.6880177299972 change: 31 E
+T505.68802370999765 change: 27 
+T505.6880291109992 change: 41 
+T505.688034701001 change: 33 
+T505.68803995099734 change: 41 
+T505.6880457410007 change: 34 
+T505.68805088099907 change: 41 
+T505.68805712099856 change: 35 
+T505.6880626409984 change: 41 
+T505.68806905100064 change: 36 
+T505.6880738809996 change: 37 R
+T505.68807854100305 change: 47 A
+T505.68808352199994 change: 41 
+T505.6880894220012 change: 56 
+T505.6880940120027 change: 57 X
+T505.68809834199783 change: 66 Y
+T505.6881034620019 change: 41 A
+T505.6881087119982 change: 67 
+T505.6881137320015 change: 43 R
+T505.68811898199783 change: 72 
+T505.6881238220012 change: 44 
+T505.6881292320031 change: 73 
+T505.68813388200215 change: 44 
+T505.6881392430005 change: 74 
+T505.6881436830008 change: 44 
+T505.6881484629994 change: 75 
+T505.68815331299993 change: 44 E
+T505.6881584130024 change: 76 
+T505.6881632029981 change: 45 H
+T505.68816993299697 change: 86 
+T505.68817406299786 change: 48 T
+T505.6881780629992 change: 51 V
+T505.6881819129994 change: 55 O
+T505.68819653399987 change: 58 I
+T505.6882010240006 change: 61 E
+T505.6882051939974 change: 62 U
+T505.688209093998 change: 63 L
+T505.68821296399983 change: 64 O
+T505.68821683400165 change: 65 G
+T505.68822084400017 change: 68 Z
+T505.688224714002 change: 71 D
+T510.4717222870022 [prior:2152 bet:2160]> /res
+T510.9039068080019 Press <Enter> to 📋 or `>` for line prompt 
+T510.90721399599715 result: "\u2728 Spaceword.org Daily 2025-05-18 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 164/261 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"
+T512.9283397249965 [prior:2160]> /store
