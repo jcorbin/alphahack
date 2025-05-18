@@ -1,115 +1,109 @@
-# 2025-05-18
+# 2025-05-19
 
-- 🔗 spaceword.org 🧩 2025-05-17 🏁 score 2173 ranked 2.6% 12/461 ⏱️ 1:37:28.865371
-- 🔗 squareword.org 🧩 #1203 🥳 10 ⏱️ 0:04:45.430416
-- 🔗 dictionary.com hurdle 🧩 #1233 🥳 18 ⏱️ 0:06:15.795188
-- 🔗 alfagok.diginaut.net 🧩 #197 🥳 14 ⏱️ 0:00:38.296182
-- 🔗 alphaguess.com 🧩 #663 🥳 16 ⏱️ 0:00:37.511128
-- 🔗 cemantix.certitudes.org 🧩 #1173 🥳 130 ⏱️ 0:05:11.487553
-- 🔗 cemantle.certitudes.org 🧩 #1140 🥳 107 ⏱️ 0:04:01.285086
+- 🔗 spaceword.org 🧩 2025-05-18 🏁 score 2176 ranked 0.2% 1/436 ⏱️ 0:40:02.658536
+- 🔗 squareword.org 🧩 #1204 🥳 10 ⏱️ 0:05:27.964860
+- 🔗 dictionary.com hurdle 🧩 #1234 🥳 16 ⏱️ 0:04:18.784312
+- 🔗 alfagok.diginaut.net 🧩 #198 🥳 15 ⏱️ 0:01:00.445067
+- 🔗 alphaguess.com 🧩 #664 🥳 11 ⏱️ 0:00:38.842417
+- 🔗 cemantix.certitudes.org 🧩 #1174 🥳 351 ⏱️ 0:04:30.943188
+- 🔗 cemantle.certitudes.org 🧩 #1141 🥳 119 ⏱️ 0:01:07.238835
 
 ```ex
 '<,'>norm ^f dt f🧩2f dt 0f P
 ```
 
-- 🏁 spaceword.org 🧩 2025-05-17 score 2173 ranked 2.6% 12/461 ⏱️ 1:37:28.865371
-- 🥳 squareword.org 🧩 #1203 10 ⏱️ 0:04:45.430416
-- 🥳 dictionary.com 🧩 #1233 18 ⏱️ 0:06:15.795188
-- 🥳 alfagok.diginaut.net 🧩 #197 14 ⏱️ 0:00:38.296182
-- 🥳 alphaguess.com 🧩 #663 16 ⏱️ 0:00:37.511128
-- 🥳 cemantix.certitudes.org 🧩 #1173 130 ⏱️ 0:05:11.487553
-- 🥳 cemantle.certitudes.org 🧩 #1140 107 ⏱️ 0:04:01.285086
+- 🏁 spaceword.org 🧩 2025-05-18 score 2176 ranked 0.2% 1/436 ⏱️ 0:40:02.658536
+- 🥳 squareword.org 🧩 #1204 10 ⏱️ 0:05:27.964860
+- 🥳 dictionary.com hurdle 🧩 #1234 16 ⏱️ 0:04:18.784312
+- 🥳 alfagok.diginaut.net 🧩 #198 15 ⏱️ 0:01:00.445067
+- 🥳 alphaguess.com 🧩 #664 11 ⏱️ 0:00:38.842417
+- 🥳 cemantix.certitudes.org 🧩 #1174 351 ⏱️ 0:04:30.943188
+- 🥳 cemantle.certitudes.org 🧩 #1141 119 ⏱️ 0:01:07.238835
 
-Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$PlQPAn_Jzfw4Lh2GdrgvfhzzSl05u4vgxbxUyVx_DS0?via=aelf.land&via=matrix.org&via=midov.pl
+Details and spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$bgjm2Hr2X3nZZj13yWK7Wc7HHVTq_FpOE-xQND0OWAM?via=aelf.land&via=matrix.org&via=midov.pl
 
-# spaceword.org 🧩 2025-05-17 🏁 score 2173 ranked 2.6% 12/461 ⏱️ 1:37:28.865371
+# spaceword.org 🧩 2025-05-18 🏁 score 2176 ranked 0.2% 1/436 ⏱️ 0:40:02.658536
 
-📜 7 sessions
+📜 6 sessions
 - tiles: 21/21
-- score: 2173 bonus: +73
-- rank: 12/461
+- score: 2176 bonus: +76
+- rank: 1/436
 
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
-      _ T _ _ _ _ _ _ _ _   
-      B O _ _ _ _ _ _ _ _   
-      _ Q _ _ _ _ A R E _   
-      _ U _ B O X I E R _   
-      _ E V E N I N G _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ Z _ H E R E T O _   
+      _ E L U V I A _ X _   
+      _ D O G E A R _ Y _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
 
-# squareword.org 🧩 #1203 🥳 10 ⏱️ 0:04:45.430416
+# squareword.org 🧩 #1204 🥳 10 ⏱️ 0:05:27.964860
 
-📜 1 sessions
+📜 2 sessions
 
 Guesses:
-1. retro
-2. treed
 
 Score Heatmap:
-    🟨 🟨 🟩 🟨 🟩
-    🟩 🟩 🟨 🟨 🟩
-    🟨 🟨 🟨 🟨 🟨
+    🟨 🟨 🟨 🟩 🟨
+    🟨 🟩 🟨 🟨 🟩
     🟩 🟩 🟩 🟩 🟩
-    🟩 🟩 🟩 🟩 🟨
+    🟩 🟨 🟨 🟩 🟨
+    🟨 🟨 🟨 🟨 🟨
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    C L E F S
-    H O L L Y
-    A V I A N
-    R E T R O
-    T R E E D
+    P R I E S
+    S A R G E
+    A D O R E
+    L I N E D
+    M I S T Y
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1233 🥳 18 ⏱️ 0:06:15.795188
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1234 🥳 16 ⏱️ 0:04:18.784312
 
 📜 1 sessions
-💰 score: 9800
+💰 score: 10000
 
     4/6
-    > F A R E S
-      ⬜⬜⬜🟨⬜
-    > U N I T E
-      ⬜⬜🟨⬜🟩
-    > O L D I E
-      ⬜⬜⬜🟩🟩
-    > P I X I E
+    > R O L E S
+      🟨⬜⬜⬜🟨
+    > S K I R T
+      🟩⬜⬜🟨⬜
+    > S C R U M
+      🟩⬜🟩⬜⬜
+    > S P R A Y
       🟩🟩🟩🟩🟩
     4/6
-    > S P L I T
-      🟨⬜⬜🟩⬜
-    > R A P I D
-      ⬜🟨⬜🟩⬜
-    > V A P I D
-      ⬜🟩🟩🟩🟩
-    > C R I E S
+    > A G E N T
+      ⬜⬜⬜🟨⬜
+    > B L A D E
+      🟨⬜🟨⬜⬜
+    > B A B E L
+      🟩🟨🟨⬜🟨
+    > S L I D E
+      🟩🟩🟩🟩🟩
+    4/6
+    > L E T C H
+      ⬜⬜⬜🟨🟨
+    > W H E L M
+      ⬜🟨⬜⬜🟨
+    > S C O W L
+      🟨🟨⬜⬜🟨
+    > B Y L A W
       🟩🟩🟩🟩🟩
     3/6
-    > T R I C K
-      ⬜⬜⬜🟨⬜
-    > R A G E S
-      🟨🟩🟩⬜⬜
-    > L A R G E
+    > P S A L M
+      🟨⬜⬜🟨⬜
+      ⬜⬜⬜🟨🟨
       🟩🟩🟩🟩🟩
-    5/6
-    > M A R G E
-      ⬜🟨⬜⬜⬜
-    > B A R G E
-      🟨🟩🟨🟨⬜
-    > F L A M E
-      ⬜🟩🟩🟩🟩
-    > L E A S E
-      ⬜🟩🟩🟩🟩
-      🟩🟩🟩🟩🟩
-    Final 2/2
-      ⬜🟨🟩⬜🟩
+    Final 1/2
       🟩🟩🟩🟩🟩
 
-# alfagok.diginaut.net 🧩 #197 🥳 14 ⏱️ 0:00:38.296182
+# alfagok.diginaut.net 🧩 #198 🥳 15 ⏱️ 0:01:00.445067
 
-🤔 14 attempts
+🤔 15 attempts
 📜 1 sessions
 
     @        [     0] &-teken    
@@ -117,91 +111,88 @@ Solution:
     @+2      [     2] -cijferig  
     @+3      [     3] -e-mail    
     @+199935 [199935] lijm       q0  ? after
-    @+299701 [299701] schro      q2  ? after
-    @+312091 [312091] spier      q5  ? after
-    @+318294 [318294] stem       q6  ? after
-    @+319033 [319033] sterven    q9  ? after
-    @+319190 [319190] steur      q11 ? after
-    @+319226 [319226] stevig     q13 ? it
-    @+319226 [319226] stevig     done. it
-    @+319265 [319265] stichting  q12 ? before
-    @+319367 [319367] stier      q10 ? before
-    @+319779 [319779] stimulatie q8  ? before
-    @+321269 [321269] straat     q7  ? before
-    @+324654 [324654] subsidie   q4  ? before
-    @+349710 [349710] vakantie   q3  ? before
+    @+247898 [247898] op         q2  ? after
+    @+273706 [273706] proef      q3  ? after
+    @+286698 [286698] rijns      q4  ? after
+    @+293010 [293010] samen      q5  ? after
+    @+296335 [296335] schenk     q6  ? after
+    @+298015 [298015] schooi     q7  ? after
+    @+298851 [298851] schoppen   q8  ? after
+    @+299254 [299254] schrap     q9  ? after
+    @+299290 [299290] schreef    q12 ? after
+    @+299295 [299295] schreeuw   q14 ? it
+    @+299295 [299295] schreeuw   done. it
+    @+299303 [299303] schreeuwer q13 ? before
+    @+299325 [299325] schrei     q11 ? before
+    @+299418 [299418] schrijf    q10 ? before
+    @+299701 [299701] schro      q1  ? before
 
-# alphaguess.com 🧩 #663 🥳 16 ⏱️ 0:00:37.511128
+# alphaguess.com 🧩 #664 🥳 11 ⏱️ 0:00:38.842417
 
-🤔 16 attempts
+🤔 11 attempts
 📜 1 sessions
 
-    @        [     0] aa       
-    @+1      [     1] aah      
-    @+2      [     2] aahed    
-    @+3      [     3] aahing   
-    @+98237  [ 98237] mach     q0  ? after
-    @+147399 [147399] rhumb    q1  ? after
-    @+171666 [171666] ta       q2  ? after
-    @+174215 [174215] term     q5  ? after
-    @+174798 [174798] the      q7  ? after
-    @+175041 [175041] therm    q8  ? after
-    @+175277 [175277] thin     q9  ? after
-    @+175393 [175393] this     q10 ? after
-    @+175445 [175445] thorn    q11 ? after
-    @+175469 [175469] thorough q12 ? after
-    @+175494 [175494] thou     q13 ? after
-    @+175497 [175497] thought  q15 ? it
-    @+175497 [175497] thought  done. it
-    @+175508 [175508] thous    q14 ? before
-    @+175523 [175523] thrash   q6  ? before
-    @+176837 [176837] toil     q4  ? before
-    @+182034 [182034] un       q3  ? before
+    @        [     0] aa     
+    @+1      [     1] aah    
+    @+2      [     2] aahed  
+    @+3      [     3] aahing 
+    @+98237  [ 98237] mach   q0  ? after
+    @+147399 [147399] rhumb  q1  ? after
+    @+148831 [148831] rot    q6  ? after
+    @+149190 [149190] rubber q8  ? after
+    @+149372 [149372] ruff   q9  ? after
+    @+149459 [149459] rule   q10 ? it
+    @+149459 [149459] rule   done. it
+    @+149556 [149556] run    q7  ? before
+    @+150365 [150365] sallow q5  ? before
+    @+153343 [153343] sea    q4  ? before
+    @+159512 [159512] slop   q3  ? before
+    @+171666 [171666] ta     q2  ? before
 
-# cemantle.certitudes.org 🧩 #1140 🥳 107 ⏱️ 0:04:01.285086
+# cemantix.certitudes.org 🧩 #1174 🥳 351 ⏱️ 0:04:30.943188
 
-🤔 108 attempts
+🤔 352 attempts
 📜 1 sessions
-🫧 4 chat sessions
-⁉️ 18 chat prompts
-🤖 18 gemma3:12b replies
-🔥  3 🥵  8 😎 25 🥶 66 🧊  5
+🫧 10 chat sessions
+⁉️ 61 chat prompts
+🤖 61 gemma3:12b replies
+🔥   5 🥵  20 😎  96 🥶 177 🧊  53
 
-      $1 #108   ~1 premier         100.00°C 🥳 1000‰
-      $2  #63  ~23 leading          55.72°C 🔥  998‰
-      $3 #103   ~5 foremost         39.14°C 🔥  993‰
-      $4  #81  ~16 flagship         36.29°C 🔥  990‰
-      $5  #93  ~11 unrivaled        35.02°C 🥵  988‰
-      $6  #95  ~10 best             34.13°C 🥵  983‰
-      $7  #72  ~21 prime            32.08°C 🥵  970‰
-      $8  #14  ~36 pinnacle         31.39°C 🥵  964‰
-      $9  #33  ~30 leadership       30.26°C 🥵  953‰
-     $10  #60  ~26 champion         30.26°C 🥵  954‰
-     $11  #61  ~25 excellence       27.78°C 🥵  930‰
-     $13  #74  ~19 superior         25.78°C 😎  884‰
-     $38  #56      splendor         15.86°C 🥶
-    $104  #86      illustrative     -2.46°C 🧊
+      $1 #352   ~1 employeur          100.00°C 🥳 1000‰
+      $2 #349   ~4 embauche            60.14°C 🔥  997‰
+      $3 #332  ~16 licenciement        57.20°C 🔥  996‰
+      $4 #183  ~82 contrat             56.03°C 🔥  995‰
+      $5 #313  ~25 entreprise          51.49°C 🔥  991‰
+      $6 #188  ~80 obligation          50.12°C 🔥  990‰
+      $7 #218  ~73 emploi              49.80°C 🥵  989‰
+      $8 #341  ~10 salaire             49.35°C 🥵  988‰
+      $9 #205  ~76 préavis             48.91°C 🥵  986‰
+     $10 #337  ~12 congé               48.88°C 🥵  985‰
+     $11 #213  ~74 travail             48.49°C 🥵  982‰
+     $27 #219  ~72 charge              35.43°C 😎  881‰
+    $123 #248      contentieux         21.87°C 🥶
+    $300  #30      archive             -0.11°C 🧊
 
-# cemantix.certitudes.org 🧩 #1173 🥳 130 ⏱️ 0:05:11.487553
+# cemantle.certitudes.org 🧩 #1141 🥳 119 ⏱️ 0:01:07.238835
 
-🤔 131 attempts
+🤔 120 attempts
 📜 1 sessions
 🫧 4 chat sessions
 ⁉️ 23 chat prompts
 🤖 23 gemma3:12b replies
-🔥  1 🥵 11 😎 30 🥶 64 🧊 24
+🔥  1 🥵  2 😎 12 🥶 79 🧊 25
 
-      $1 #131   ~1 identification  100.00°C 🥳 1000‰
-      $2 #114   ~9 analyse          47.70°C 🔥  993‰
-      $3 #110  ~13 vérification     46.55°C 🥵  987‰
-      $4 #122   ~3 diagnostic       44.05°C 🥵  977‰
-      $5  #92  ~22 contrôle         42.74°C 🥵  969‰
-      $6  #95  ~21 formalisation    42.67°C 🥵  968‰
-      $7  #63  ~34 processus        42.31°C 🥵  965‰
-      $8 #112  ~11 validation       41.69°C 🥵  959‰
-      $9 #113  ~10 évaluation       41.58°C 🥵  957‰
-     $10  #76  ~29 application      39.98°C 🥵  942‰
-     $11 #106  ~16 suivi            39.06°C 🥵  932‰
-     $14 #109  ~14 transmission     36.82°C 😎  890‰
-     $44  #98      instruction      25.36°C 🥶
-    $108   #3      clavier          -1.88°C 🧊
+      $1 #120   ~1 headquarters    100.00°C 🥳 1000‰
+      $2  #94  ~12 hub              39.02°C 🔥  992‰
+      $3 #113   ~4 consulate        33.67°C 🥵  975‰
+      $4  #98  ~10 center           33.37°C 🥵  974‰
+      $5  #96  ~11 liaison          25.74°C 😎  861‰
+      $6 #110   ~5 embassy          24.91°C 😎  822‰
+      $7 #117   ~3 courier          23.46°C 😎  768‰
+      $8 #102   ~8 delegate         22.73°C 😎  740‰
+      $9 #108   ~6 dispatch         21.29°C 😎  631‰
+     $10 #101   ~9 core             21.13°C 😎  622‰
+     $11  #85  ~15 network          20.28°C 😎  545‰
+     $12  #89  ~14 sanctum          19.61°C 😎  487‰
+     $17  #20      clandestine      14.21°C 🥶
+     $96  #72      intimate         -0.06°C 🧊
