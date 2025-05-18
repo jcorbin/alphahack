@@ -3,6 +3,8 @@ import re
 import subprocess
 import time
 import traceback
+import zlib
+from base64 import b85encode
 from contextlib import contextmanager
 from collections.abc import Generator, Sequence
 from io import StringIO
@@ -255,6 +257,7 @@ class PromptUI:
         self.sink = sink
         self.clip = clip
         self.last: Literal['empty']|Literal['prompt']|Literal['print']|Literal['write']|Literal['remark'] = 'empty'
+        self.zlog = zlib.compressobj()
 
     @property
     def screen_lines(self):
@@ -307,6 +310,11 @@ class PromptUI:
 
     def log(self, mess: str):
         self.sink(f'T{self.time.now} {mess}')
+
+    def logz(self, s: str):
+        zb1 = self.zlog.compress(s.encode())
+        zb2 = self.zlog.flush(zlib.Z_SYNC_FLUSH)
+        self.sink(f'T{self.time.now} Z {b85encode(zb1 + zb2).decode()}')
 
     def write(self, mess: str):
         self.last = 'print' if mess.endswith('\n') else 'write'
