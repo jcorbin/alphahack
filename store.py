@@ -56,16 +56,20 @@ class LogSession:
     start: datetime.datetime
     elapsed: datetime.timedelta
 
-def parse_log_line(line: str):
-    m = re.match(r'''(?x)
-        T (?P<time> [^\s]+ )
-        \s+
-        (?P<rest> .+ )
-        $''', line)
-    return (
-        float(m[1]) if m else None,
-        str(m[2]) if m else line)
+@final
+class LogParser:
+    def __init__(self):
+        pass
 
+    def __call__(self, line: str):
+        m = re.match(r'''(?x)
+            T (?P<time> [^\s]+ )
+            \s+
+            (?P<rest> .+ )
+            $''', line)
+        t = float(m[1]) if m else None
+        line = str(m[2]) if m else line
+        return t, line
 
 class StoredLog:
     @classmethod
@@ -115,6 +119,15 @@ class StoredLog:
         with ui.tokens_or(f'> '):
             return self.handle_review(ui)
 
+    def skim_log(self) -> Generator[tuple[int, str]]:
+        with open(self.log_file, 'r') as f:
+            yield from enumerate(f, 1)
+
+    def parse_log(self):
+        parse = LogParser()
+        for n, line in self.skim_log():
+            yield n, *parse(line)
+
     def handle_review(self, ui: PromptUI) -> PromptUI.State|None:
         if ui.tokens.have(r'report$'):
             return self.do_report(ui)
@@ -137,22 +150,6 @@ class StoredLog:
             self.stl = stl
             self.cursor: int = 1
 
-        def skim_log(self) -> Generator[tuple[int, str]]:
-            with open(self.stl.log_file, 'r') as f:
-                yield from enumerate(f, 1)
-
-        def parse_log(self):
-            for line_no, line in self.skim_log():
-                match = re.match(r'''(?x)
-                    T (?P<time> [^\s]+ )
-                    \s+
-                    (?P<mess> .+ )
-                    $''', line)
-                if not match: continue
-                time = float(match.group(1))
-                mess = str(match.group(2))
-                yield line_no, time, mess
-
         def seek(self, offset: int):
             '''
             Seek line number offset.
@@ -169,11 +166,11 @@ class StoredLog:
             '''
             if offset <= 0:
                 line_no = 0
-                for line_no, _ in self.skim_log():
+                for line_no, _ in self.stl.skim_log():
                     pass
                 offset = max(0, line_no - offset)
             line_no, time, mess = 0, 0.0, ''
-            for line_no, time, mess in self.parse_log():
+            for line_no, time, mess in self.stl.parse_log():
                 if line_no >= offset: break
             return line_no, time, mess
 
@@ -190,7 +187,7 @@ class StoredLog:
                 line_hi = self.cursor + C
                 found = False
                 last_line = 0
-                for line_no, time, mess in self.parse_log():
+                for line_no, time, mess in self.stl.parse_log():
                     if line_lo < line_no <= line_hi:
                         found = True
                         ui.print(f'{"***" if line_no == self.cursor else "   "} {line_no}. T{time:.1f} {mess}')
@@ -204,7 +201,7 @@ class StoredLog:
                     want = int(sn) if sn else None
 
                     n = 0
-                    for line_no, time, mess in self.parse_log():
+                    for line_no, time, mess in self.stl.parse_log():
                         match = re.match(r'''(?x)
                             now :
                             \s+
@@ -241,7 +238,7 @@ class StoredLog:
                     except re.PatternError as err:
                         ui.print(f'!!! invalid pattern /{patstr}/ : {err}')
                         return
-                    for line_no, time, mess in self.parse_log():
+                    for line_no, time, mess in self.stl.parse_log():
                         if not pattern.match(mess): continue
                         ui.print(f'... {line_no}. T{time:.1f} {mess}')
                     ui.print('')
@@ -249,7 +246,7 @@ class StoredLog:
 
                 litstr = tokens.have(r'"(.+)', lambda match: str(match[1]))
                 if litstr:
-                    for line_no, time, mess in self.parse_log():
+                    for line_no, time, mess in self.stl.parse_log():
                         if litstr not in mess: continue
                         ui.print(f'... {line_no}. T{time:.1f} {mess}')
                     ui.print('')
@@ -278,13 +275,15 @@ class StoredLog:
                 return self.stl.load_log(ui, new_log_file)
 
     def load(self, ui: PromptUI, lines: Iterable[str]):
+        parse = LogParser()
+
         prior_t: float|None = None
         prior_then_t: float|None = None
         prior_then: datetime.datetime|None = None
         cur_t: float|None = None
 
         for line in lines:
-            t, rest = parse_log_line(line)
+            t, rest = parse(line)
             if t is None:
                 yield 0, line
                 continue

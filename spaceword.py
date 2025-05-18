@@ -13,7 +13,7 @@ from itertools import chain
 from typing import Callable, Literal, Never, cast, final, override
 
 from sortem import Chooser, Possible, RandScores
-from store import StoredLog, git_txn, parse_log_line
+from store import StoredLog, git_txn
 from strkit import MarkedSpec, spliterate
 
 from ui import PromptUI
@@ -818,15 +818,13 @@ class SpaceWord(StoredLog):
             yield f'    {line}'
 
     def prior_result_boards(self):
-        with open(self.log_file) as f:
-            board = Board(self.board.size)
-            for line in f:
-                _, line = parse_log_line(line)
-                if board.load_line(line):
-                    # TODO maybe examine intermediate boards
-                    continue
-                if re.match(r'(?x) result :', line):
-                    yield board
+        board = Board(self.board.size)
+        for _n, _t, line in self.parse_log():
+            if board.load_line(line):
+                # TODO maybe examine intermediate boards
+                continue
+            if re.match(r'(?x) result :', line):
+                yield board
 
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
