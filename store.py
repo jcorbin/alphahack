@@ -11,6 +11,7 @@ from contextlib import contextmanager, nullcontext
 from dataclasses import dataclass
 from dateutil.parser import parse as _parse_datetime
 from dateutil.tz import gettz, tzlocal, tzoffset
+from itertools import pairwise
 from typing import Callable, cast, final
 from types import TracebackType
 
@@ -162,6 +163,48 @@ class StoredLog:
             yield n, *parse(line)
 
     def handle_review(self, ui: PromptUI) -> PromptUI.State|None:
+        if ui.tokens.have(r'foo$'):
+
+            tms = tuple(
+                (t, m)
+                for _n, t, _z, m in self.parse_log())
+
+            times = tuple(t or 0.0 for t, _ in tms)
+
+            ix = tuple(
+                i
+                for i, (_, m) in enumerate(tms)
+                if m.startswith('now: '))
+
+            i = 0
+            for j in ix:
+                if i == j: continue
+                sess = times[i:j]
+                if len(sess) < 3: continue
+
+                ts = tuple(int(t * 1e6) for t in sess)
+
+                ui.print(f'session {i} : {j}')
+
+                s0 = ' '.join(f'T{t}' for t in sess)
+
+                s1 = ' '.join(f't{t}' for t in ts)
+
+                d1 = tuple(b - a for a, b in pairwise(ts))
+                s2 = f'T{ts[0]} ' + ' '.join(f'D{d}' for d in d1)
+
+                d2 = tuple(b - a for a, b in pairwise(d1))
+                s3 = f'T{ts[0]} D{d1[0]} ' + ' '.join(f'A{d:x}' for d in d2)
+
+                ui.print(f'- s0: {len(s0)} {s0[:70]}')
+                ui.print(f'- s1: {len(s1)} {100*len(s1)/len(s0)-1.0:.1f}% {s1[:70]}')
+                ui.print(f'- s2: {len(s2)} {100*len(s3)/len(s2)-1.0:.1f}% {s2[:70]}')
+                ui.print(f'- s3: {len(s3)} {100*len(s3)/len(s2)-1.0:.1f}% {s3[:70]}')
+
+                i = j
+
+            return
+
         if ui.tokens.have(r'report$'):
             return self.do_report(ui)
 
