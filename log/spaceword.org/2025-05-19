@@ -198,3 +198,466 @@ T175.43202329300402 [prior:2137 bet:2155]> /res
 T175.7280579549988 Press <Enter> to 📋 or `>` for line prompt 
 T175.73118663400237 result: "\u2728 Spaceword.org Daily 2025-05-19 \u2728\n\n\ud83c\udfc6 Score: 2155\n\ud83c\udfc5 Rank: 127/187 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +55\n\n\nPlay at https://spaceword.org\n#spaceword"
 T179.4560630180058 [prior:2155]> /store
+T181.3705651580094 now: 2025-05-19T08:02:36EDT
+T183.00014056600048 [prior:2155]> ~
+T185.7122064310097 search c8c8ee [ 1 ]> prune
+T186.7843704179977 search c8c8ee [ 1 may:4 ]> take
+T187.51217399499728 search c8c8ee [ 5 ]> cen
+T188.53615831201023 search c8c8ee [ 5 ]> prune
+T189.3762390940101 search c8c8ee [ 5 may:16 ]> take
+T190.10422998599824 search c8c8ee [ 21 ]> cen
+T192.25623609100876 search c8c8ee [ 21 ]> prune
+T193.7524358369992 search c8c8ee [ 21 may:54 ]> take
+T194.3043034910079 search c8c8ee [ 75 ]> cen
+T195.66427049999766 search c8c8ee [ 75 ]> prune
+T196.32836173899705 search c8c8ee [ 75 may:158 ]> take
+T197.52040506999765 search c8c8ee [ 233 ]> cen
+T202.68058817200654 search c8c8ee [ 233 ]> cap 1000
+T203.77643280499615 search c8c8ee [ 233 cap:1000 ]> **
+T208.24661774800916 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24666008900385 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T208.24667863899958 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E       GOD                           
+T208.2466950490052 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.2467112000013 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T208.24672701999953 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS      TE         D                           
+T208.2467425299983 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24675843000296 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T208.24677382000664 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T208.2467891300039 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.2468046110007 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T208.24682067100366 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E       GOD                           
+T208.24683641101 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24685198100633 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T208.24686759100587 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS      TE         D                           
+T208.24688888200035 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.2469113420084 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T208.2469267120032 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T208.24694199200894 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24695763300406 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24697316299716 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T208.24698857300973 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24700389300415 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24701923300745 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T208.2470456840092 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24706270400202 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T208.24707826400117 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E       GOD                           
+T208.24709370400524 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24710945400875 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T208.2471249250084 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS      TE         D                           
+T208.24714016499638 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24715574500442 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T208.2471711649996 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T208.24718664500688 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24720217600407 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24721783600398 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T208.24723327600805 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24724866599718 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24726400600048 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T208.24728075700114 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24730036700203 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.2473184870032 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T208.24733455700334 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.2473499970074 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24736573800328 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T208.24738140800036 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24739684800443 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T208.24741197800904 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E       GOD                           
+T208.24742762799724 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24744316900615 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T208.2474585489981 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS      TE         D                           
+T208.24747386900708 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24748924899905 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T208.24750495899934 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T208.24752020899905 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24753547999717 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24755075000576 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T208.24756602999696 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24758132999705 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24760073999641 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T208.24761727100122 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24763785100367 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.2476537409966 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T208.24766933100182 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.2476879820024 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.2477057119977 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T208.2477212320082 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24773672199808 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24775203200988 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T208.2477676030103 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24778334300208 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T208.24779873300577 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.81510170300317 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81514005300414 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T241.81515919300728 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS      TE         D                           
+T241.81517667400476 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81519276399922 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T241.81520851400273 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS      TE         D                           
+T241.81522406400472 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8152399440005 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T241.8152558849979 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS      TE         D                           
+T241.8152715449978 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81528673499997 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T241.81530254500103 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS      TE         D                           
+T241.81531792500755 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      TE         DOG                         
+T241.81533341600152 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      TE         DOG                         
+T241.81534861600085 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      TE         DOG                         
+T241.8153637159994 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81537874600326 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T241.81539872600115 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS      TE         D                           
+T241.8154221270088 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      TE         DOG                         
+T241.81543849699665 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      TE         DOG                         
+T241.81545397700393 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81546945699665 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T241.8154847870028 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS      TE         D                           
+T241.81550066800264 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      TE         DOG                         
+T241.8155163880001 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81553192800493 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T241.815547598002 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS      TE         D                           
+T241.8155629880057 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      TE         DOG                         
+T241.81557841900212 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      TE         DOG                         
+T241.81559986900538 reject sid:c8c8ee bone:10:              GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                          
+T241.81561579900153 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      TE         DOG                         
+T241.8156314490043 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8156466490036 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T241.81566201000533 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS      TE         D                           
+T241.8156776100077 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81569275000948 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T241.81570791000559 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T241.81572305000736 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T241.81573828100227 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T241.81575337100367 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.81576863100054 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T241.8157872610027 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T241.81580536100955 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T241.81582147200243 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T241.8158369520097 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T241.81585246200848 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E       GOD                           
+T241.81586771200818 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.8158829620079 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T241.81589854300546 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.81591393300914 reject sid:c8c8ee bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T241.81592966300377 reject sid:c8c8ee bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T241.81594525300898 reject sid:c8c8ee bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T241.81596108300437 reject sid:c8c8ee bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T241.8159763730073 reject sid:c8c8ee bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T241.81599166399974 reject sid:c8c8ee bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T241.8160071940074 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81602254400786 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81605035399843 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81606743500743 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81608302499808 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81609845500498 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81611410500773 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81612946500536 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.8161448160099 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81616093599587 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81617927600746 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81619673600653 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.8162128660042 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81622822700592 reject sid:c8c8ee bone:10:               AT        I       FUR       I W       X A       A Y       TIS     ZEE         DOG                         
+T241.81624354700034 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.8162594269961 reject sid:c8c8ee bone:10:               AT        I       FUR       I W       X A       A Y       TIS     ZEE         DOG                         
+T241.81627499700699 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.8162902870099 reject sid:c8c8ee bone:10:               AT        I       FUR       I W       X A       A Y       TIS     ZEE         DOG                         
+T241.81630598800257 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.8163217580004 reject sid:c8c8ee bone:10:               AT        I       FUR       I W       X A       A Y       TIS     ZEE         DOG                         
+T241.8163369380054 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.8163522780087 reject sid:c8c8ee bone:10:               AT        I       FUR       I W       X A       A Y       TIS     ZEE         DOG                         
+T241.81636765800067 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81638311900315 reject sid:c8c8ee bone:10:               AT        I       FUR       I W       X A       A Y       TIS     ZEE         DOG                         
+T241.816398519004 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.8164136090054 reject sid:c8c8ee bone:10:               AT        I       FUR       I W       X A       A Y       TIS     ZEE         DOG                         
+T241.8164289289998 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81644407899876 reject sid:c8c8ee bone:10:               AT        I       FUR       I W       X A       A Y       TIS     ZEE         DOG                         
+T241.81645960999595 reject sid:c8c8ee bone:10:              GOA         I       FUR       I W       X A       A Y       TIS      TE       ZED                          
+T241.81647494999925 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81649018000462 reject sid:c8c8ee bone:10:               AT        I       FUR       I W       X A       A Y       TIS     ZEE         DOG                         
+T241.81650544999866 reject sid:c8c8ee bone:10:              GOA         I       FUR       I W       X A       A Y       TIS      TE       ZED                          
+T241.8165334899968 reject sid:c8c8ee bone:10:              GOA         I       FUR       I W       X A       A Y       TIS      TE       ZED                          
+T241.81654889100173 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81656414100144 reject sid:c8c8ee bone:10:               AT        I       FUR       I W       X A       A Y       TIS     ZEE         DOG                         
+T241.81658230100584 reject sid:c8c8ee bone:10:             ZETA         I       FUR       I W       X A       A Y       TIS       E       GOD                          
+T241.8166063009994 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81662256200798 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81663791200845 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81665323200286 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81666858200333 reject sid:c8c8ee bone:10:               AT        I       FUR       I W       X A       A Y       TIS     ZEE         DOG                         
+T241.81669675200828 reject sid:c8c8ee bone:10:              GOA         I       FUR       I W       X A       A Y       TIS      TE       ZED                          
+T241.81671220299904 reject sid:c8c8ee bone:10:             ZETA         I       FUR       I W       X A       A Y       TIS       E       GOD                          
+T241.81672806300048 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81674339300662 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81675859300594 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81677421300265 reject sid:c8c8ee bone:10:              GOA         I       FUR       I W       X A       A Y       TIS      TE       ZED                          
+T241.81680177400995 reject sid:c8c8ee bone:10:              GOA         I       FUR       I W       X A       A Y       TIS      TE       ZED                          
+T241.81681722399662 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8168325739971 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81684794400644 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.816863155007 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81687838499784 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81689404499775 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81690973500372 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8169249450002 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.816940196004 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81695533600578 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81697021600849 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.8169885660027 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81700574600836 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8170211770048 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81704664700374 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81706375700014 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81707939700573 reject sid:c8c8ee bone:10:               AT        I       FUR       I W       X A       A Y       TIS     ZEE         DOG                         
+T241.81709491700167 reject sid:c8c8ee bone:10:             ZETA         I       FUR       I W       X A       A Y       TIS       E       GOD                          
+T241.81712325800618 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81713850800588 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81715410800825 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.8171818490082 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81719768900075 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81721297900367 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81722811900545 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8172433389991 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.8172587290028 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81728632999875 reject sid:c8c8ee bone:10:             ZETA         I       FUR       I W       X A       A Y       TIS       E       GOD                          
+T241.81730180000886 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81731737000518 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81733263000206 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.8173481910053 reject sid:c8c8ee bone:10:             ZETA         I       FUR       I W       X A       A Y       TIS       E       GOD                          
+T241.8173633210099 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81737854100356 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81739373100572 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.8174091109977 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81742746199598 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81744488200638 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81746043200837 reject sid:c8c8ee bone:10:              GOA         I       FUR       I W       X A       A Y       TIS      TE       ZED                          
+T241.81747553200694 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8174907520006 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81750630300667 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.8175221929996 reject sid:c8c8ee bone:10:             ZETA         I       FUR       I W       X A       A Y       TIS       E       GOD                          
+T241.81753752300574 reject sid:c8c8ee bone:10:              GOA         I       FUR       I W       X A       A Y       TIS      TE       ZED                          
+T241.81755279299978 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81756823300384 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81758372300828 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81760545400903 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8176211240061 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81763663400488 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.8176520440029 reject sid:c8c8ee bone:10:             ZETA         I       FUR       I W       X A       A Y       TIS       E       GOD                          
+T241.81766716499988 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81768210500013 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81769756499853 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81771312499768 reject sid:c8c8ee bone:10:              GOA         I       FUR       I W       X A       A Y       TIS      TE       ZED                          
+T241.8177283850091 reject sid:c8c8ee bone:10:             TOGA         I       FUR       I W       X A       A Y       TIS     ZEE         D                          
+T241.8177435950056 reject sid:c8c8ee bone:10:             TOGA         I       FUR       I W       X A       A Y       TIS       E       ZED                          
+T241.81775885600655 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81777415600664 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81778954599577 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81782028599991 reject sid:c8c8ee bone:10:             TOGA         I       FUR       I W       X A       A Y       TIS     ZEE         D                          
+T241.81783774700307 reject sid:c8c8ee bone:10:             TOGA         I       FUR       I W       X A       A Y       TIS       E       ZED                          
+T241.8178655570082 reject sid:c8c8ee bone:10:             ZETA         I       FUR       I W       X A       A Y       TIS       E       GOD                          
+T241.81789292700705 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8179081670096 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.8179234679992 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81793863800704 reject sid:c8c8ee bone:10:             TOGA         I       FUR       I W       X A       A Y       TIS     ZEE         D                          
+T241.81795381799748 reject sid:c8c8ee bone:10:             TOGA         I       FUR       I W       X A       A Y       TIS       E       ZED                          
+T241.81796909800323 reject sid:c8c8ee bone:10:              GOA         I       FUR       I W       X A       A Y       TIS      TE       ZED                          
+T241.81798463800806 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8180003190064 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81801525900664 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81803945900174 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8180568490061 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81807269899582 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.8181130699959 reject sid:c8c8ee bone:10:             ZETA         I       FUR       I W       X A       A Y       TIS       E       GOD                          
+T241.81812844000524 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81814362001023 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS     ZEE         D                           
+T241.81815884100797 reject sid:c8c8ee bone:10:             GOAT        I       FUR       I W       X A       A Y       TIS       E       ZED                           
+T241.81817415100522 reject sid:c8c8ee bone:10:             ZETA         I       FUR       I W       X A       A Y       TIS       E       GOD                          
+T241.81818938099605 reject sid:c8c8ee bone:10:             ZETA         I       FUR       I W       X A       A Y       TIS       E       GOD                          
+T241.81821679099812 reject sid:c8c8ee bone:10:             ZETA         I       FUR       I W       X A       A Y       TIS       E       GOD                          
+T241.81823228100257 reject sid:c8c8ee bone:10:              GOA         I       FUR       I W       X A       A Y       TIS      TE       ZED                          
+T241.81824748200597 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81826267200813 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81828098199912 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E       GOD                           
+T241.8182983220031 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81831377200433 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81832904300245 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E       GOD                           
+T241.81834430299932 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.818359693003 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.8183746230061 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E       GOD                           
+T241.818389913009 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8184054739977 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81842055400193 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E       GOD                           
+T241.81843675400887 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.81845194399648 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.81846713399864 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8184823150077 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81849723499909 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E       GOD                           
+T241.81851221500256 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T241.8185272450064 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T241.81854251500044 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.81855749500392 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.8185727759992 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T241.81859445601003 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T241.8186106360081 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.8186257260095 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.81864105600107 reject sid:c8c8ee bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T241.8186591170088 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T241.81867624699953 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.81869137700414 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.8187063570076 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.81872148699767 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.81873673800146 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81875192800362 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81876723800087 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E       GOD                           
+T241.81878253800096 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.81879772800312 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.81881298900407 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.81882791900716 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.81884317900403 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.81885849899845 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.8188736489974 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.81888875000004 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.8189040300058 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81891920999624 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81893434999802 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E       GOD                           
+T241.81894954999734 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8189647399995 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81897986099648 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E       GOD                           
+T241.81899509100185 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81901054100308 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E         DOG                         
+T241.81902825100406 reject sid:c8c8ee bone:10:               AT        I       FURZE     I W       X A       A Y       TIS       E       GOD                           
+T241.81906224200793 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T241.819079021996 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      TE       GOD                           
+T241.81909469200764 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A       A Y       TIS      TE       GOD                           
+T241.81955692800693 reject sid:c8c8ee bone:10:                A         I       FUR       I W       X A      OATY       TIS     GEEZ        D                          
+T241.81957288800913 reject sid:c8c8ee bone:10:                A         I       FUR       I W       X A      OATY       TIS     GEEZ        D                          
+T241.81959428799746 reject sid:c8c8ee bone:10:                A         I       FUR       I W       X A      OATY       TIS     GEEZ        D                          
+T241.81961078899621 reject sid:c8c8ee bone:10:                A         I       FUR       I W       X A      OATY       TIS     GEEZ        D                          
+T241.81963852900662 reject sid:c8c8ee bone:10:                A         I       FUR       I W       X A      OATY       TIS     GEEZ        D                          
+T241.81965417900938 reject sid:c8c8ee bone:10:                A         I       FUR       I W       X A      OATY       TIS     GEEZ        D                          
+T241.81966920899868 reject sid:c8c8ee bone:10:                A         I       FUR       I W       X A      OATY       TIS     GEEZ        D                          
+T241.81968469900312 reject sid:c8c8ee bone:10:                A         I       FUR       I W       X A      OATY       TIS     GEEZ        D                          
+T241.8196999100037 reject sid:c8c8ee bone:10:                A         I       FUR       I W       X A      OATY       TIS     GEEZ        D                          
+T241.81971533999604 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.819730660005 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81974590000755 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.81976116000442 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81977638100216 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81979176100867 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.81980709100026 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8198224910011 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8198378609959 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.81985295200138 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81986800199957 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81988326199644 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.81990242200845 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8199194720073 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81993464300467 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.81994978300645 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.81996507300937 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8199802129966 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.81999557300878 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82001076400047 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82002598400868 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.82005227400805 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82006872400234 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82008411400602 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.82009945499885 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8201149450033 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82013021499733 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.82014554500347 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82016089500394 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82017627599998 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.82019161600329 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82020705600735 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8202224560082 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.8202380760049 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82025340700056 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8202691470069 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.8202885070059 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.82030589701026 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.820321606996 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8203369480034 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82035224800347 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.82036764800432 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.8203829779959 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.8203982880077 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.82041352801025 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.8204287289991 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.82044445900829 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.82045979899704 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.82047526900715 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82049061900761 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82050585999968 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.8205211099994 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.82053645999986 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.8205515800073 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.82056732999627 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8205827710044 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8206037409982 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.82061951099604 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82063489100256 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82065049100493 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.82066633200157 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.82068454200635 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.82070220200694 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.82071766200534 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.8207330120058 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.8207484230079 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.8207641129993 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.82077981300245 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.8207956230035 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82081104299868 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82082639400323 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.82084240400582 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.82085827400442 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.82087349399808 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.82088898400252 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.82090484500804 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.82092007499887 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.820935405005 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8209506849962 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.8209660450084 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.82098122499883 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.82099656600622 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.8210119860014 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.82102753600338 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8210534760001 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82107297700713 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.8210908970068 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82110632699914 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8211215170013 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.82113757700427 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.82115321799938 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.82116873800987 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.82118411800184 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8211994279991 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8212146779988 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.82123015901016 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS     ZEE         D                         
+T241.82124544899852 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82126072900428 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8212762290059 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.82129132900445 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82130654000503 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82132206999813 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T241.82133756999974 reject sid:c8c8ee bone:10:                 A         I       FUR       I W       X A     GOATY       TIS       E       ZED                         
+T241.82135275000473 reject sid:c8c8ee bone:10:             GOAT        I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.82136814000842 reject sid:c8c8ee bone:10:            TOGA         I       FURZE     I W       X A       A Y       TIS       E         D                           
+T241.8213832600013 reject sid:c8c8ee bone:10:               A         I       FURZE     I W       X A     GOATY       TIS       E         D                           
+T250.00913419100107 search c8c8ee [ 1000 cap:1000 may:3199 done:50 dead:227 reject:355 ]> show done
+T251.8250731270091 search c8c8ee [ 1000 cap:1000 may:3199 done:50 dead:227 reject:355 ]> show 1
+T292.59366295300424 search c8c8ee [ 1000 cap:1000 may:3199 done:50 dead:227 reject:355 ]> ret
+T292.59386737601017 change: 15 
+T292.59388213600323 change: 14 O
+T292.5938911560079 change: 38 
+T292.593898556006 change: 15 E
+T292.59390497600543 change: 38 
+T292.59391247600433 change: 17 
+T292.5939185870084 change: 38 
+T292.5939368870022 change: 37 
+T292.59395191700605 change: 38 
+T292.5939590869966 change: 38 
+T292.5939647070045 change: 13 Z
+T292.59396994700364 change: 83 G
+T292.59397520699713 change: 85 T
+T294.5137007620069 [prior:2155 bet:2164]> /res
+T294.7698332200089 Press <Enter> to 📋 or `>` for line prompt 
+T294.77279577699665 result: "\u2728 Spaceword.org Daily 2025-05-19 \u2728\n\n\ud83c\udfc6 Score: 2164\n\ud83c\udfc5 Rank: 90/187 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +64\n\n\nPlay at https://spaceword.org\n#spaceword"
+T296.4657090219989 [prior:2164]> /store
