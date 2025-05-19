@@ -499,6 +499,12 @@ class PromptUI:
             elif isinstance(then_, Exception): raise then_
             else: raise Next(then_)
 
+    def print_exception(self, exc: BaseException):
+        tb = traceback.TracebackException.from_exception(exc)
+        for chunk in tb.format():
+            for line in chunk.rstrip('\n').splitlines():
+                self.print(f'! {line}')
+
     def run(self, state: State):
         try:
             self.interact(state)
