@@ -47,3 +47,154 @@ T270.1306578669901 [doit:2137]> /res
 T272.49874245599494 Press <Enter> to 📋 or `>` for line prompt 
 T272.50172999099595 result: "\u2728 Spaceword.org Daily 2025-05-19 \u2728\n\n\ud83c\udfc6 Score: 2137\n\ud83c\udfc5 Rank: 149/187 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +37\n\n\nPlay at https://spaceword.org\n#spaceword"
 T273.57071606599493 [prior:2137]> /store
+T276.71603734299424 now: 2025-05-19T07:56:49EDT
+T278.60402649598836 [prior:2137]> ~
+T279.82698588399217 search 34a79d [ 1 ]> prune
+T281.2748515790008 search 34a79d [ 1 may:4 ]> take
+T281.978775030002 search 34a79d [ 5 ]> cen
+T283.62684158899356 search 34a79d [ 5 ]> prune
+T284.36289222999767 search 34a79d [ 5 may:16 ]> take
+T285.03495639500034 search 34a79d [ 21 ]> cen
+T286.22684771999775 search 34a79d [ 21 ]> prune
+T286.8508536369918 search 34a79d [ 21 may:56 ]> take
+T287.8188856630004 search 34a79d [ 77 ]> cen
+T289.77889664299437 search 34a79d [ 77 ]> prune
+T290.5069344509975 search 34a79d [ 77 may:184 ]> take
+T291.3309469019878 search 34a79d [ 261 ]> cen
+T293.1470259959897 search 34a79d [ 261 ]> add 100
+T306.6266543899983 reject sid:34a79d bone:10:           OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                           
+T306.62669422099134 reject sid:34a79d bone:10:           OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                           
+T306.626713560996 reject sid:34a79d bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T306.62673100100073 reject sid:34a79d bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T306.62674859099207 reject sid:34a79d bone:10:           OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                           
+T306.6267655119882 reject sid:34a79d bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T306.6267829619901 reject sid:34a79d bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T306.62679879200005 reject sid:34a79d bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T306.62682021199726 reject sid:34a79d bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T306.6268434829981 reject sid:34a79d bone:10:           OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                           
+T306.626859652999 reject sid:34a79d bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T306.6268757529906 reject sid:34a79d bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T306.62689182299073 reject sid:34a79d bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T306.6269075529999 reject sid:34a79d bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T306.6269236539956 reject sid:34a79d bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T306.6269395339914 reject sid:34a79d bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T319.60339784200187 search 34a79d [ 260 may:61098 reject:16 ]> take
+T324.66751752598793 search 34a79d [ 61358 ]> drop 51358
+T329.2834529709944 search 34a79d [ 10000 ]> add 1
+T440.07406588199956 <INT>
+T0.050968173003639095 now: 2025-05-19T07:59:34EDT
+T2.373642523001763 [prior:2137]> ~
+T5.709996650999528 search 835175 [ 1 ]> prune
+T6.67801515100291 search 835175 [ 1 may:4 ]> tkae
+T8.893672413003515 search 835175 [ 1 may:4 ]> take
+T9.701673921998008 search 835175 [ 5 ]> cen
+T10.605728067996097 search 835175 [ 5 ]> prune
+T11.541743421999854 search 835175 [ 5 may:16 ]> take
+T12.23774612499983 search 835175 [ 21 ]> cen
+T13.14978555199923 search 835175 [ 21 ]> prune
+T14.925833072004025 search 835175 [ 21 may:56 ]> take
+T15.645809588007978 search 835175 [ 77 ]> cen
+T16.99781764400541 search 835175 [ 77 ]> add 100
+T19.487225828997907 reject sid:835175 bone:10:           OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                           
+T19.48727353900904 reject sid:835175 bone:10:           OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                           
+T19.487292849007645 reject sid:835175 bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T19.48730945000716 reject sid:835175 bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T19.487325609996333 reject sid:835175 bone:10:           OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                           
+T19.48734167999646 reject sid:835175 bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T19.48735738999676 reject sid:835175 bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T19.487373099997058 reject sid:835175 bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T19.48738860100275 reject sid:835175 bone:10:            OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                          
+T69.04651344999729 search 835175 [ 76 may:7245 reject:9 ]> take
+T74.1827059060015 search 835175 [ 7321 ]> cap 1000
+T88.19087139199837 search 835175 [ 1000 cap:1000 ]> **
+T119.20826668399968 reject sid:835175 bone:10:       A         D    OUTGAZE       I     FIXER         W         A         Y       TIS                                  
+T119.20831053399888 reject sid:835175 bone:10:    F         I       OUTGAZE   X   I     I   R     D   W     A   A     T   Y     E   S                                  
+T119.20833528399817 reject sid:835175 bone:10:     F         I      OUTGAZE   X   I     I   R     D   W     A   A     T   Y     E   S                                  
+T119.20835196500411 reject sid:835175 bone:10:       F         I    OUTGAZE   X   I     I   R     D   W     A   A     T   Y     E   S                                  
+T119.20836704500834 reject sid:835175 bone:10:        F         I   OUTGAZE   X   I     I   R     D   W     A   A     T   Y     E   S                                  
+T119.20838199500577 reject sid:835175 bone:10:       A         D    OUTGAZE       I     FIXER         W         A         Y       TIS                                  
+T119.20839687500848 reject sid:835175 bone:10:       A         D    OUTGAZE       I     FIXER         W         A         Y       TIS                                  
+T119.20841129499604 reject sid:835175 bone:10:       A         D    OUTGAZE       I     FIXER         W         A         Y       TIS                                  
+T119.20842611600528 reject sid:835175 bone:10:    F         I       OUTGAZE   X   I     I   R     D   W     A   A     T   Y     E   S                                  
+T119.20844087599835 reject sid:835175 bone:10:     F         I      OUTGAZE   X   I     I   R     D   W     A   A     T   Y     E   S                                  
+T119.20845586599899 reject sid:835175 bone:10:       F         I    OUTGAZE   X   I     I   R     D   W     A   A     T   Y     E   S                                  
+T119.20847073600453 reject sid:835175 bone:10:        F         I   OUTGAZE   X   I     I   R     D   W     A   A     T   Y     E   S                                  
+T119.2084851260006 reject sid:835175 bone:10:       A         D    OUTGAZE       I     FIXER         W         A         Y       TIS                                  
+T119.20849982599611 reject sid:835175 bone:10:       A         D    OUTGAZE       I     FIXER         W         A         Y       TIS                                  
+T119.20851490700443 reject sid:835175 bone:10:        A         X   OUTGAZE       I         R         W         A         Y    FIDEIST                                 
+T119.20852943700447 reject sid:835175 bone:10:        A         X   OUTGAZE       I         R         W         A         Y    FIDEIST                                 
+T119.20854411700566 reject sid:835175 bone:10:          FAD         OUTGAZE   X   I     I   R     E   W         A         Y       TIS                                  
+T119.2085588970076 reject sid:835175 bone:10:          FAD         OUTGAZE   X   I     I   R     E   W         A         Y       TIS                                  
+T119.20857353700558 reject sid:835175 bone:10:          FAD         OUTGAZE   X   I     I   R     E   W         A         Y       TIS                                  
+T119.20858796700486 reject sid:835175 bone:10:          FAD         OUTGAZE   X   I     I   R     E   W         A         Y       TIS                                  
+T119.20860235800501 reject sid:835175 bone:10:          FAD         OUTGAZE   X   I     I   R     E   W         A         Y       TIS                                  
+T119.20861679800146 reject sid:835175 bone:10:          FAD         OUTGAZE   X   I     I   R     E   W         A         Y       TIS                                  
+T119.20863177800493 reject sid:835175 bone:10:        D         I   OUTGAZE       I         R         W         A         Y   FIXATES                                  
+T119.20864649800933 reject sid:835175 bone:10:        D         I   OUTGAZE       I         R         W         A         Y   FIXATES                                  
+T119.20866124800523 reject sid:835175 bone:10:  F         OUTGAZE   X   I         R         W         A         Y       TIS       E       AID                          
+T119.20867982899654 reject sid:835175 bone:10:  F         OUTGAZE   X   I         R         W         A         Y       TIS       E       AID                          
+T119.20869722899806 reject sid:835175 bone:10:  F         OUTGAZE   X   I         R         W         A         Y       TIS       E       AID                          
+T119.20879550000245 reject sid:835175 bone:10:           OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                           
+T119.20885102100146 reject sid:835175 bone:10:                A         I       FURZE     I W       X A     GOATY       TIS       E         D                          
+T119.20888942100282 reject sid:835175 bone:10:                A         I       FURZE     I W       X A     GOATY       TIS       E         D                          
+T119.20890461100498 reject sid:835175 bone:10:           OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                           
+T119.20895376200497 reject sid:835175 bone:10:                A         I       FURZE     I W       X A     GOATY       TIS       E         D                          
+T119.20896839200577 reject sid:835175 bone:10:           OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                           
+T119.20901739300461 reject sid:835175 bone:10:                A         I       FURZE     I W       X A     GOATY       TIS       E         D                          
+T119.20906554300745 reject sid:835175 bone:10:                A         I       FURZE     I W       X A     GOATY       TIS       E         D                          
+T119.20910479400482 reject sid:835175 bone:10:                A         I       FURZE     I W       X A     GOATY       TIS       E         D                          
+T119.20914343399636 reject sid:835175 bone:10:   F         A        OUTGAZE    X  I I       R D       W E       A         Y       TIS                                  
+T119.20915831399907 reject sid:835175 bone:10:   F         A        OUTGAZE    X  I I       R D       W E       A         Y       TIS                                  
+T119.20917314500548 reject sid:835175 bone:10:   F         A        OUTGAZE    X  I I       R D       W E       A         Y       TIS                                  
+T119.20918787500705 reject sid:835175 bone:10:   F         A        OUTGAZE    X  I I       R D       W E       A         Y       TIS                                  
+T119.20920257500256 reject sid:835175 bone:10:   F         A        OUTGAZE    X  I I       R D       W E       A         Y       TIS                                  
+T119.20921773499867 reject sid:835175 bone:10:   F         A        OUTGAZE    X  I I       R D       W E       A         Y       TIS                                  
+T119.209232565001 reject sid:835175 bone:10:                  D   OUTGAZE       I F       R I       W         A         Y    AXITES                                  
+T119.2092469860072 reject sid:835175 bone:10:                  D   OUTGAZE       I F       R I       W         A         Y    AXITES                                  
+T119.20926183600386 reject sid:835175 bone:10:                  D   OUTGAZE       I F       R I       W         A         Y    TAXIES                                  
+T119.20927618599671 reject sid:835175 bone:10:                  F   OUTGAZE       I A       R T       W         A         Y    DEIXIS                                  
+T119.2092908360064 reject sid:835175 bone:10:                  D   OUTGAZE       I F       R I       W         A         Y    TAXIES                                  
+T119.20930584600137 reject sid:835175 bone:10:   E         A    D   OUTGAZE    X  I F       R I       W         A         Y       TIS                                  
+T119.20932044599613 reject sid:835175 bone:10:   E         A    D   OUTGAZE    X  I F       R I       W         A         Y       TIS                                  
+T119.20933487699949 reject sid:835175 bone:10:   E         A    D   OUTGAZE    X  I F       R I       W         A         Y       TIS                                  
+T119.20935267700406 reject sid:835175 bone:10:   E         A    D   OUTGAZE    X  I F       R I       W         A         Y       TIS                                  
+T119.20936966700538 reject sid:835175 bone:10:   E         A    D   OUTGAZE    X  I F       R I       W         A         Y       TIS                                  
+T119.20938435700373 reject sid:835175 bone:10:                  F   OUTGAZE       I A       R T       W         A         Y    DEIXIS                                  
+T119.2093988770066 reject sid:835175 bone:10:                  F   OUTGAZE       I T       R A       W         A         Y    DEIXIS                                  
+T119.2094134180079 reject sid:835175 bone:10:   E         A    D   OUTGAZE    X  I F       R I       W         A         Y       TIS                                  
+T119.20942802799982 reject sid:835175 bone:10: DEFI        A        OUTGAZE    X  I         R         W         A         Y       TIS                                  
+T119.20944259800308 reject sid:835175 bone:10: DEFI        A        OUTGAZE    X  I         R         W         A         Y       TIS                                  
+T119.2094569280016 reject sid:835175 bone:10: DEFI        A        OUTGAZE    X  I         R         W         A         Y       TIS                                  
+T119.20947137800977 reject sid:835175 bone:10:  DEFI       A        OUTGAZE    X  I         R         W         A         Y       TIS                                  
+T119.20948589799809 reject sid:835175 bone:10:  DEFI       A        OUTGAZE    X  I         R         W         A         Y       TIS                                  
+T119.20950029900996 reject sid:835175 bone:10: DEFI        A        OUTGAZE    X  I         R         W         A         Y       TIS                                  
+T119.20951475900074 reject sid:835175 bone:10: DEFI        A        OUTGAZE    X  I         R         W         A         Y       TIS                                  
+T119.20952914899681 reject sid:835175 bone:10:  DEFI       A        OUTGAZE    X  I         R         W         A         Y       TIS                                  
+T119.20954368900857 reject sid:835175 bone:10:  DEFI       A        OUTGAZE    X  I         R         W         A         Y       TIS                                  
+T119.2095580890018 reject sid:835175 bone:10:  DEFI       A        OUTGAZE    X  I         R         W         A         Y       TIS                                  
+T119.20957258999988 reject sid:835175 bone:10: DEFI        A        OUTGAZE    X  I         R         W         A         Y       TIS                                  
+T119.20958743999654 reject sid:835175 bone:10:           OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                           
+T119.20960221000132 reject sid:835175 bone:10:           OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                           
+T119.20961671000987 reject sid:835175 bone:10:           OUTGAZE       I       F R       I W       X A       A Y       TIS       E         D                           
+T119.2100695160043 reject sid:835175 bone:10:    F         E       OUTGAZE     I I       D R         W         A         Y     TAXIS                                  
+T119.21008626600087 reject sid:835175 bone:10:    F         E       OUTGAZE     I I       D R         W         A         Y     TAXIS                                  
+T119.21010130600189 reject sid:835175 bone:10:       A         D    OUTGAZE       I     FIXER         W         A         Y       TIS                                  
+T132.69539128600445 search 835175 [ 1000 cap:1000 may:5966 done:60 dead:126 reject:72 ]> show done
+T135.74345850500686 search 835175 [ 1000 cap:1000 may:5966 done:60 dead:126 reject:72 ]> show 1
+T172.84804842200538 search 835175 [ 1000 cap:1000 may:5966 done:60 dead:126 reject:72 ]> /res
+T174.59207529800187 search 835175 [ 1000 cap:1000 may:5966 done:60 dead:126 reject:72 ]> ret
+T174.59230478100653 change: 35 
+T174.59232743100438 change: 12 
+T174.59233626100468 change: 35 
+T174.59234444100002 change: 13 
+T174.5923527910054 change: 15 O
+T174.5923617410008 change: 14 G
+T174.5923682010034 change: 17 T
+T174.59237480199954 change: 35 U
+T174.5923827420047 change: 18 
+T174.59238839200407 change: 37 Z
+T174.59239369200077 change: 38 E
+T175.43202329300402 [prior:2137 bet:2155]> /res
+T175.7280579549988 Press <Enter> to 📋 or `>` for line prompt 
+T175.73118663400237 result: "\u2728 Spaceword.org Daily 2025-05-19 \u2728\n\n\ud83c\udfc6 Score: 2155\n\ud83c\udfc5 Rank: 127/187 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +55\n\n\nPlay at https://spaceword.org\n#spaceword"
+T179.4560630180058 [prior:2155]> /store
