@@ -1858,7 +1858,7 @@ class Search(StoredLog):
             self.log_to(ui),
         ):
             ok = False
-            with ui.print_exception((IndexError, ValueError, requests.JSONDecodeError), 'pass'):
+            with ui.catch_exception((IndexError, ValueError, requests.JSONDecodeError), 'pass'):
                 self.yesterreq(ui)
                 ok = True
             if not ok:
@@ -3052,7 +3052,7 @@ class Search(StoredLog):
         for resp in self.llm_client.chat(model=self.llm_model, messages=self.chat, stream=True):
             resp = cast(ollama.ChatResponse, resp)
 
-            with ui.print_exception(Exception,
+            with ui.catch_exception(Exception,
                                     extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
 
                 # TODO care about resp['done'] / resp['done_reason'] ?

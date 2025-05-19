@@ -973,7 +973,7 @@ class Search(StoredLog):
         # TODO simplify over PromptUI evolution
         with (
             ui.catch_state(KeyboardInterrupt, self.ideate),
-            ui.print_exception(Exception, self.ideate)
+            ui.catch_exception(Exception, self.ideate)
         ):
             if self.chat.chat_ui(ui, prompt):
                 return self.ideate

@@ -481,14 +481,13 @@ class PromptUI:
             raise
 
     @contextmanager
-    def print_exception(self,
+    def catch_exception(self,
                         type_: type[BaseException]|tuple[type[BaseException], ...],
                         then_: Literal['pass', 'stop']|Exception|State = 'stop',
                         extra: Callable[['PromptUI'], None]|None = None,
                         ):
         try:
             yield
-
         except type_ as exc:
             tb = traceback.TracebackException.from_exception(exc)
             if extra: extra(self)
