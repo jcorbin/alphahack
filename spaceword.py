@@ -3149,6 +3149,166 @@ class Search:
                 self)),
         ))
 
+    # @final
+    # class Program:
+    #     Dat = int | Literal[
+    #         'Pop', # ( a -- )
+    #         'Dup', # ( a -- a a )
+    #         'Swap', # ( a b -- b a )
+    #         'Over', # ( a b -- a b a )
+    #
+    #         'Dec',
+    #         'Inc',
+    #         'Add', # ( a b -- a+b )
+    #         'Neg', # (   a --  -a )
+    #     ]
+    #
+    #     Ctl = Literal[
+    #         'Lst', # loop start
+    #         'Lnz', # loop if non zero
+    #         'Lz',  # loop if zero
+    #         'L',   # loop unconditional
+    #     ]
+    #
+    #     Op = Literal[
+    #         'Gen',
+    #         'Prun',
+    #         'Take',
+    #         'Cent',
+    #     ]
+    #
+    #     Step = Dat | Ctl | Op | tuple[Op, int]
+    #
+    #     def __init__(self, srch: 'Search', steps: Iterable[Step]):
+    #         self.srch = srch
+    #         self.prog = tuple(steps)
+    #         self.cur: int = 0
+    #         self.exc: BaseException|None = None
+    #         self.dat: list[int] = []
+    #         self.ctl: list[int] = []
+    #
+    #     def __call__(self, ui: PromptUI):
+    #         if self.cur < 0:
+    #             at = -self.cur
+    #             ui.print(f'! Program Error @{at} : {self.prog[at]!r}')
+    #             if self.exc is not None:
+    #                 ui.print_exception(self.exc)
+    #             return self.srch
+    #
+    #         if self.cur >= len(self.prog):
+    #             ui.print(f'. Halted')
+    #             return self.srch
+    #
+    #         at = self.cur
+    #         try:
+    #             self.step(ui)
+    #
+    #         except Exception as exc:
+    #             self.cur = -at
+    #
+    #     def step(self, ui: PromptUI):
+    #         ### Decode and advance
+    #         st = self.prog[self.cur]
+    #         self.cur += 1
+    #
+    #         ### Dat
+    #
+    #         if isinstance(st, int):
+    #             self.dat.append(st)
+    #             return
+    #
+    #         elif st == 'Pop':
+    #             _ = self.dat.pop()
+    #             return
+    #
+    #         elif st == 'Dup':
+    #             self.dat.append(self.dat[-1])
+    #             return
+    #
+    #         elif st == 'Swap':
+    #             b = self.dat.pop()
+    #             a = self.dat.pop()
+    #             self.dat.append(b)
+    #             self.dat.append(a)
+    #             return
+    #
+    #         elif st == 'Over':
+    #             self.dat.append(self.dat[-2])
+    #             return
+    #
+    #         elif st == 'Add':
+    #             b = self.dat.pop()
+    #             a = self.dat.pop()
+    #             self.dat.append(a + b)
+    #             return
+    #
+    #         elif st == 'Neg':
+    #             a = self.dat.pop()
+    #             self.dat.append(-a)
+    #             return
+    #
+    #         elif st == 'Dec':
+    #             self.dat[-1] -= 1
+    #             return
+    #
+    #         elif st == 'Inc':
+    #             self.dat[1] += 1
+    #             return
+    #
+    #         ### Ctl
+    #
+    #         if st == 'Lst':
+    #             ui.write('[')
+    #             self.ctl.append(self.cur-1)
+    #             return
+    #
+    #         elif st == 'L':
+    #             self.cur = self.ctl.pop()
+    #             ui.write(']')
+    #             return
+    #
+    #         elif st == 'Lz':
+    #             if self.dat.pop() == 0:
+    #                 self.cur = self.ctl.pop()
+    #                 ui.write('Z]')
+    #             else:
+    #                 _ = self.ctl.pop()
+    #                 _ = self.dat.pop()
+    #                 ui.write(']NZ')
+    #             return
+    #
+    #         elif st == 'Lnz':
+    #             if self.dat.pop() != 0:
+    #                 self.cur = self.ctl.pop()
+    #                 ui.write('NZ]')
+    #             else:
+    #                 _ = self.ctl.pop()
+    #                 ui.write(']Z')
+    #             return
+    #
+    #         ### Op | tuple[Op, int]
+    #
+    #         op, arg = st if isinstance(st, tuple) else (st, None)
+    #
+    #         if op == 'Gen':
+    #             ui.write('G' if arg is None else f'G{arg}')
+    #             self.srch.add_word(ui, per_n=arg)
+    #
+    #         elif op == 'Prun':
+    #             ui.write('P' if arg is None else  f'P{arg}')
+    #             self.srch.do_prune(ui, num_prunes=1 if arg is None else arg)
+    #
+    #         elif op == 'Take':
+    #             ui.write('T')
+    #             self.srch.do_take(ui)
+    #
+    #         elif op == 'Cent':
+    #             ui.write('C')
+    #             self.srch.do_center(ui)
+    #
+    #         else:
+    #             nope(op, 'invalid step')
+
 @final
 class Halo:
     Explainer = Callable[[int], Iterable[str]]
