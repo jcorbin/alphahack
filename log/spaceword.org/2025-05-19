@@ -661,3 +661,1004 @@ T294.5137007620069 [prior:2155 bet:2164]> /res
 T294.7698332200089 Press <Enter> to 📋 or `>` for line prompt 
 T294.77279577699665 result: "\u2728 Spaceword.org Daily 2025-05-19 \u2728\n\n\ud83c\udfc6 Score: 2164\n\ud83c\udfc5 Rank: 90/187 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +64\n\n\nPlay at https://spaceword.org\n#spaceword"
 T296.4657090219989 [prior:2164]> /store
+T300.0466583399975 now: 2025-05-19T08:04:34EDT
+T303.0659089460096 [prior:2164]> ~
+T304.3378293720016 search 2a7e05 [ 1 ]> prune
+T305.4259480190085 search 2a7e05 [ 1 may:3 ]> take 
+T305.93791903799865 search 2a7e05 [ 4 ]> cen
+T308.22597632100224 search 2a7e05 [ 4 ]> prune
+T308.88186439500714 search 2a7e05 [ 4 may:10 ]> take
+T309.5302939060057 search 2a7e05 [ 14 ]> cen
+T310.41001659100584 search 2a7e05 [ 14 ]> prune
+T311.20194950200676 search 2a7e05 [ 14 may:29 ]> take
+T311.9219950780098 search 2a7e05 [ 43 ]> cen
+T313.6820290309988 search 2a7e05 [ 43 ]> prune
+T316.082067506999 search 2a7e05 [ 43 may:72 ]> take
+T316.91408661300375 search 2a7e05 [ 115 ]> cen
+T318.8501428180025 search 2a7e05 [ 115 ]> **
+T321.9143290229986 search 2a7e05 [ 115 ]> cap 1000
+T322.79416593100177 search 2a7e05 [ 115 cap:1000 ]> **
+T326.15680780200637 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T326.1568439630064 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T326.15686209300475 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T326.1568784330011 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T326.15689581399783 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T326.1569135739992 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T326.1569291839987 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T326.15694488400186 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6794156190008 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.67945291999786 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.67947945000196 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6794988199981 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6795144100033 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6795295510092 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.679544781 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6795600409969 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6795749209996 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6795946610073 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6796163120016 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6796318620036 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.679646812001 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.679661821996 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.67967661200964 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6796916230087 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6797066029976 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T351.67972164299863 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T351.67973652300134 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T351.679751543008 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T351.6797665729973 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T351.6797814340098 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T351.67979623400606 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T351.67981096400763 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T351.6798257240007 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T351.67984045400226 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T351.679855164999 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T351.67986962500436 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T351.67988412499835 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T351.6798986950016 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T351.67991310500656 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T351.6799276660022 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T351.67994206600997 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T351.6799596960045 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T351.67997684600414 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T351.6799918559991 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T351.6800066660071 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T351.6800213469978 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T351.68004727699736 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T351.68006341700675 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T351.68007821700303 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T351.68009295800584 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T351.6801077179989 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T351.68012221800745 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T351.68013696800335 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T351.68015164800454 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T351.6801663880033 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T351.6801810589968 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T351.68019530900347 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T351.6802098190092 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T351.6802243590064 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T351.6802388990036 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T351.68025384000794 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6802685300063 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68028313000104 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6802979900094 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68031250999775 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68033058100264 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68034750100924 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6803622209991 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6803767310048 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6803911610041 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6804057510017 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68042038200656 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68043502200453 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6804496219993 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.680464642006 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6804925230099 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6805092529976 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68052448300296 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68053932300245 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68055423299666 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68056898399664 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68058374400425 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68059867400734 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6806133540085 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6806279739976 reject sid:2a7e05 bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T351.68064280399994 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T351.6806574049988 reject sid:2a7e05 bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T351.6806720050081 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T351.680686615 reject sid:2a7e05 bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T351.68070123500365 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T351.68071905500256 reject sid:2a7e05 bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T351.68073607599945 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T351.6807508960046 reject sid:2a7e05 bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T351.6807653760043 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T351.68077969600563 reject sid:2a7e05 bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T351.6807944059983 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T351.68080901700887 reject sid:2a7e05 bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T351.68082352700003 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T351.68083807700896 reject sid:2a7e05 bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T351.680852467005 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T351.68086675700033 reject sid:2a7e05 bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T351.68088110700774 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T351.6808956780005 reject sid:2a7e05 bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T351.68091043800814 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T351.68092518800404 reject sid:2a7e05 bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T351.6809398979967 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T351.68095447799715 reject sid:2a7e05 bone:10:             GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                           
+T351.6809690390073 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T351.68098410899984 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6809990089969 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6810134789994 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6810280290083 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.68105811999703 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.68107366000186 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.68109203000495 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6811089200055 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6811237899965 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.68113838099816 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.68115294100426 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6811674710043 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.68118200100434 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.68119672100875 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.68121136199625 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.68122603200027 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6812408819969 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.68125550200057 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6812701320014 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.68128481200256 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6812991629995 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.68131389300106 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T351.6813284630043 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68134300300153 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.68135751300724 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6813721740036 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68138679400727 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.6814015639975 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68141630399623 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6814308640023 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.6814452539984 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6814623250102 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68149263500527 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.68151084501005 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6815258849965 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68154091600445 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.6815554960049 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68157009599963 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6815846859972 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.6815991559997 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6816135870031 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68162811700313 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.6816424770077 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6816568070062 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6816713770095 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.6816856869991 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6817001580057 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68171451801027 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.68172889800917 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68174330799957 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6817576379981 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.6817719690007 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6817861790041 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6818006090034 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.68181526901026 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68183262900857 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68184915000165 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.68186369999603 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68187827999645 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6818927300046 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.6819072500075 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6819217900047 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6819362210081 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.68195040100545 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68196462100605 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68197900100495 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.6819934110099 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68200787200476 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6820225620031 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.6820478620066 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68206374200236 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6820786620083 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.68209328300145 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6821078130015 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68212222300644 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.6821366829972 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6821512430033 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6821661330032 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.68218084399996 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6821953040053 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6822128640051 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.68222925400187 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68224398400343 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68225829499715 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.6822726649989 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6822875850048 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68230199500977 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.6823162350047 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.682330406009 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6823446960043 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.6823589160049 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T351.6823730460019 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T351.68238748599833 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS    GODET                                    
+T351.68240187600895 reject sid:2a7e05 bone:10:       D       A O       I G     FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19357627100544 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19361269200454 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19363092200365 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19364757199946 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19366321200505 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19367899300414 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19369490300596 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19371039299585 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.1937256030069 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.1937407730002 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.1937614740018 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19378515399876 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.1938008139987 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.1938160740101 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19383164499595 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.1938470449968 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19386285499786 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T379.193878045 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19389344500087 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T379.1939088150102 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.193924125997 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.1939392360073 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.1939543059998 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T379.1939693260065 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19398437600466 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T379.19399956699635 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T379.19401885700063 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T379.194045516997 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.1940625270072 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19407794800645 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T379.1940931680001 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19410828800756 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T379.19412340800045 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.194138648003 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.1941536890081 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.1941719489987 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.1941890290036 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.1942042390001 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.1942213590082 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.1942368000018 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19425188000605 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T379.19426674999704 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.1943289810006 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.19435610099754 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.194373241 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.1943887210073 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T379.19440377200954 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.19441912201 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.1944341920025 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.1944557520037 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T379.1944714130077 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.1944864230027 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T379.1945014630037 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.19451652299904 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T379.1945317930076 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19454681299976 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1945652840077 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19458027400833 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19459527400613 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1946135140024 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19463089499914 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19464677500946 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1946620950039 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19467710499885 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1946920949995 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1947071750037 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1947221760056 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1947375860036 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19475266600784 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1947806060052 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19479729700834 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1948126070056 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19482793699717 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.194843107005 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.194857976996 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19487279800524 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19488774800266 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1949026180082 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1949175379996 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1949324580055 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1949474080029 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.194963189002 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.194978369007 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19499355900916 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1950117590022 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1950422299997 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1950600900018 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19507624000835 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1950918799994 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19510718999663 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19512230099645 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19513752100465 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1951525110053 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19516748099704 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1951827110024 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1951976620039 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1952130419959 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1952281720005 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1952432219987 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1952583020029 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1952731229976 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1952882530022 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19530331299757 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1953183029982 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1953331929981 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1953482730023 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19536333400174 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1953879040084 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19540752400644 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19542497400835 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1954403450072 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1954622350022 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1954775350023 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1954925250029 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19550760500715 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1955228160077 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19553779599664 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1955528660037 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1955678660015 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1955926170049 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19560869700217 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19562388700433 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1956389870029 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1956541270047 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1956692570093 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19568428800267 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1956993979984 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.195714528003 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.195729708008 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19574467799976 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1957598890003 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.1957750090078 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19579060901015 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T379.195817808999 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T379.19583650000277 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T379.19585205000476 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T379.19586755000637 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T379.19588306000514 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T379.1958980700001 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T379.1959131409967 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T379.19592830100737 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T379.1959523109981 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T379.1959682710003 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T379.1959834510053 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T379.1960068120097 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T379.1960227719974 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T379.19604857200466 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T379.19606506200216 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T379.19608868300566 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T379.1961046829965 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS       ET      GOD                           
+T379.1961197729979 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T379.1961346629978 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T379.19614966301015 reject sid:2a7e05 bone:10:               A         I       FURZE     I W       X A       A Y       TIS      GET       OD                           
+T379.196165034009 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.19618030400306 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.1961955840088 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.1962169239996 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.19623649500136 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19625367500703 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.19627616500657 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.1962922649982 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19630745500035 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.19632256600016 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19633779600554 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.1963529659988 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19636799600266 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.1963828559965 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.1963980169967 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19641301700904 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.1964279070089 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.19644936700934 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.196464957 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.196480108003 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.19649550800386 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.19651084800716 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19652594800573 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.1965409580007 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.19655625900486 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19657137899776 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.196586459002 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.196601499003 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.1966165690101 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19663467000646 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.1966520200076 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.196667340002 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.1966825300042 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.19669763000275 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.1967124110088 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.19672733100015 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19674237100116 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.196757401005 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.1967722810077 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.1967874010006 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19680243200855 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.1968173119967 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19683243200416 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.19684743200196 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.19686245200865 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.1968773030094 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.1968921430089 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19690694300516 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.1969220230094 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.1969371830055 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19695223400777 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.1969672740088 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.1969824539992 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.197000294007 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.19701701399754 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19704631500645 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.1970635250036 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.1970788949984 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.19709406500624 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.1971090950101 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.19712405600876 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.19713924599637 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.1971543460095 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.1971694660024 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19718447599735 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.19719947699923 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.1972145269974 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.1972296169988 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.19724451699585 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.1972595069965 reject sid:2a7e05 bone:10:              GOA         I       FURZE     I W       X A       A Y       TIS       ET        D                          
+T379.1972745079984 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T379.19728961800865 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.19730457800324 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T379.1973194480088 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1973342679994 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1973493480036 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19736440900306 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19737958900805 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1973978890019 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19741501900717 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19743064000795 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1974518400093 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19746757000394 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19748263999645 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19749761000276 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1975129909988 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19752809099737 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1975432409963 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19755825100583 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1975830910087 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1975997720001 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19761512200057 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19763005200366 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1976450719958 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.197659922007 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.197674903 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1976899529982 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.197704952996 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19772007300344 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.197735032998 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19774993399915 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19776481400186 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1977831740078 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19780020399776 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19781550399784 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1978304649965 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1978456450015 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19786067500536 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1978757350007 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19789055500587 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19790553500934 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1979205060052 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19793555600336 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.197950546004 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19796553600463 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.197980596 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19799548700394 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19801043700136 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1980255170056 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19805173701025 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19806822700775 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1980835680006 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19809858800727 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1981137380062 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1981285579968 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1981436479982 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.1981586890033 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T379.19817679900734 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T407.1100017889985 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11004894900543 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11006827899837 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.1100853500102 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11010107000766 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.1101163900021 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.1101313399995 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11014646000694 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.1101615410007 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11017644099775 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11019174099783 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11020680100773 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11022150100325 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.1102360119985 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.1102507820033 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11026554199634 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11028060200624 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1102957920084 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11031035199994 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.110324993002 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.1103397830011 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.11035440300475 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.1103693030018 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11038958300196 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.110410734007 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11043206400063 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11044772400055 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.110462673998 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.1104777050059 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11049228500633 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1105066349992 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.1105211749964 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1105356150074 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.1105501849961 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11056459600513 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.110578945998 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11059335600294 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.1106079260062 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.110622416003 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.1106370970083 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11065185700136 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1106665170082 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.1106809470075 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11069533700356 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11070996700437 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.1107247379987 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11073913800647 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.110753838002 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11077179800486 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11078916800034 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11080423899693 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.1108190590021 reject sid:2a7e05 bone:10:             ZOEA         I       FUR       I W       X A       A Y       TIS      GET        D                          
+T407.11083392900764 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.1108491089981 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1108640790044 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.1108787700068 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.11089353999705 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11090821000107 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.1109229099966 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.11093729001004 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.110951759998 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.11096631099645 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11098095100897 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11099580100563 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11101034100284 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1110248909972 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11104924199753 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1110661020066 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.1110809320089 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.1110957519995 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11111046200676 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1111252030096 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11114315300074 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.11115989300015 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1111744630034 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11118904300383 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.111203804001 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.1112183540099 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.11123284400674 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11124724399997 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11126160400454 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.111276295007 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1112907450006 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.11130560500897 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11132036500203 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11133494500245 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1113493360026 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.11136391600303 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11137840599986 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.111392826002 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11140714600333 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1114269969985 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11144222700386 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1114567070035 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1114710969996 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1114854970074 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.1115033370006 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1115198680054 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1115347980085 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11154935800005 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11156389799726 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.1115785380098 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1115931289969 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.11160749899864 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11162193900964 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.1116362890025 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1116505789978 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11166486 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11167934999685 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.1116941299988 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11170865999884 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.11172346000967 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11173812999914 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.11175257099967 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1117669410014 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.1117813309975 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.1117958609975 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11181025100814 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11182465200545 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11183903200435 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1118535220012 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1118708419963 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11188724200474 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1119023030042 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.1119168130099 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1119314030075 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.1119458230096 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1119605029962 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1119749829959 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11198968401004 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.1120042440016 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11201884399634 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.1120437540085 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.112059674997 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11207421500876 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11208867499954 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.11210327500885 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.112117925004 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1121325450076 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11214697599644 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.1121617660101 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.112176345996 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11219091599924 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.1122056160093 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1122203870036 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1122378370055 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.112254467007 reject sid:2a7e05 bone:10:              GOA         I       FUR       I W       X A       A Y       TIS       ET      ZED                          
+T407.1122691269993 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11228378700616 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11229848800576 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11231294799654 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11232736799866 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11234206800873 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11235671800387 reject sid:2a7e05 bone:10:              ZOA         I       FUR       I W       X A       A Y       TIS       ET      GED                          
+T407.11237127800996 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.11238575899915 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1124002389988 reject sid:2a7e05 bone:10:      Z         E      GOAD        I       FUR       I W       X A       A Y       TIS       ET                          
+T407.1124202189967 reject sid:2a7e05 bone:10:               A D       I O     FURZE     I W       X A       A Y       TIS      GET                                    
+T407.11243595900305 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T407.112450739005 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T407.11246510999626 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T407.112479650008 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T407.1124942400056 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T407.1125087499968 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T407.1125231900078 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T407.11253735100036 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T407.11255159100983 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T407.11256617101026 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T407.1125806210039 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T407.11259496099956 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T407.11261241100146 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T407.11262849200284 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T407.11264312200365 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T407.1126575119997 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T407.112671941999 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T407.1126861619996 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T407.11270055299974 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T407.11271556300926 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T407.1127300030057 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T407.11274458300613 reject sid:2a7e05 bone:10:             ODA         I       FURZE     I W       X A       A Y       TIS      GET                                    
+T407.1127590830001 reject sid:2a7e05 bone:10:             GOAD        I       FURZE     I W       X A       A Y       TIS       ET                                    
+T407.1127734430047 reject sid:2a7e05 bone:10:               A O       I D     FURZE     I W       X A       A Y       TIS      GET                                    
+T441.1958943310019 search 2a7e05 [ 1000 cap:1000 dead:88 reject:182 ]> reset
+T445.5160150419979 search 2a7e05 [ 1 cap:1000 ]> clear
+T447.89195245000883 search 2a7e05 [ 1 cap:1000 ]> **
+T623.7486327869992 reject sid:2a7e05 bone:10:                T         A       F X       A I       TEW       I A       G Y       U S   DOZIER                         
+T648.4869406700018 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         EWE   SAROD                          
+T648.4869835200079 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I S       Z         ERA   YOWED                          
+T648.4870020700037 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I S       Z         EAR   YOWED                          
+T648.4870185510081 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z      SAWER       ODE                         
+T648.4870462910039 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I S       Z       ARE     YOWED                         
+T648.4870645010087 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y   WAREZ         E       SOD                         
+T648.4870807010011 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z         E       REDOWAS                     
+T648.4870967220049 reject sid:2a7e05 bone:10:                          O         U    S ZAFTIG  I   ED    TAXIWAY        R         E                                  
+T648.4871124220081 reject sid:2a7e05 bone:10:           R         E         D         O ZAFTIG  U   E  I  TAXIWAYS                                                    
+T648.4871277019993 reject sid:2a7e05 bone:10:                               R         O ZAFTIG  U   E  I  TAXIWAYS  E         D                                       
+T648.4871508420038 reject sid:2a7e05 bone:10:                          O         U      ZAFTIG      ED I  TAXIWAYS       R         E                                  
+T648.4871750830062 reject sid:2a7e05 bone:10:                T         A       F X       A I       TEW       I A       G Y       U S   DOZIER                         
+T648.4871911530063 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         E       REDOWAS                      
+T648.4872124429967 reject sid:2a7e05 bone:10:                               T      O  R TAXIWAY I U    F  AZIDES    G         E                                       
+T648.4872289830091 reject sid:2a7e05 bone:10:                F         O       TIZ       A I       X E       W R   YAUTIA        S        GED                         
+T648.4872444640059 reject sid:2a7e05 bone:10:                     R         E      S  D      I  O ZAFTIG  U   E     TAXIWAY                                           
+T648.4872598240036 reject sid:2a7e05 bone:10:                                    O S       U I    ZAFTIG      ED    TAXIWAY        R         E                        
+T648.487275143998 reject sid:2a7e05 bone:10:           AURATED         E       Z S       A O       FIX       T Y       I       WIG                                   
+T671.815105754009 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         E       REDOWAS                      
+T671.8151480939996 reject sid:2a7e05 bone:10:                F       ARIA      G X       A I       TUT       I Y       Z         EWE       DOS                        
+T671.8151660940057 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z        SEWAR     ODE                         
+T671.8151822450018 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       ARES     OWED                         
+T671.815203264996 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWES      REDO                        
+T671.815219074997 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I S       Z       OYER      WADE                        
+T671.8152342649992 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z         EWE   SAROD                         
+T671.8152518959978 reject sid:2a7e05 bone:10:           R         E         D         O ZAFTIG  U   E  I  TAXIWAYS                                                    
+T671.8152667859977 reject sid:2a7e05 bone:10:                                         O ZAFTIG  U   ER I  TAXIWAYS       D         E                                  
+T671.815281475996 reject sid:2a7e05 bone:10:                  E         R         U  D ZAFTIG  I   E  O  TAXIWAYS                                                    
+T671.8152960959997 reject sid:2a7e05 bone:10:                            R         U  D ZAFTIG  I   E  O  TAXIWAYS         E                                          
+T671.8153112360014 reject sid:2a7e05 bone:10:                D         O       TIZ      TAFIA      X E       W R       I         SAU      GEY                         
+T671.8153260960098 reject sid:2a7e05 bone:10:                               T      O  R TAXIWAY I U    F  AZIDES    G         E                                       
+T671.8153408670041 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z        WEARS     ODE                         
+T671.8153551970026 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z      SAWER       ODE                         
+T671.8153694570065 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z       SWEAR      ODE                         
+T671.8153842070024 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z        WE     SARODE                         
+T671.8154054769984 reject sid:2a7e05 bone:10:                         F         A  S  Z TAXIWAY I U E  G  TRIODE                                                      
+T671.8154274179979 reject sid:2a7e05 bone:10:                         F         A  G  Z TAXIWAY I U E  S  TRIODE                                                      
+T671.8154428179987 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWE       REDOS                       
+T671.8154576880042 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWE     ROSED                         
+T671.8154722080071 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWE     SORED                         
+T671.8154868490092 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWE       RODES                       
+T671.8155014890071 reject sid:2a7e05 bone:10:                 F       A I       G X       A I     ASTUTE      I Y       Z        WE       ROD                         
+T671.8155159090093 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z        WE     SARODE                        
+T671.8155301689985 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y     RAZE        EW      SOD                         
+T671.815544919009 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWES      REDO                        
+T671.8155595190037 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z         E       REDOWAS                     
+T671.8155741200026 reject sid:2a7e05 bone:10:                            G         EF        TO R TAXIWAY I U       AZIDES                                            
+T671.815588840007 reject sid:2a7e05 bone:10:                 F       A I       G X       A I     ASTUTE      I Y       Z         EW      ROD                         
+T671.8156032800034 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z         EW    SARODE                        
+T671.8156180000078 reject sid:2a7e05 bone:10:                  E         R         U  D ZAFTIG  I   E  O  TAXIWAYS                                                    
+T671.8156327500037 reject sid:2a7e05 bone:10:                            R         U  D ZAFTIG  I   E  O  TAXIWAYS         E                                          
+T671.8156474410061 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         EWE   SAROD                          
+T671.8156622210081 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I S       Z         ERA   YOWED                          
+T671.8156766510074 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I S       Z         EAR   YOWED                          
+T671.8156910410034 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z     AROSE         DEW                        
+T671.8157058810029 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I S       Z         EAR   YOWED                          
+T671.8157204610034 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         EW       ADORES                      
+T671.8157357120072 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y   WAREZ         ES        DO                         
+T671.8157501820097 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         ES      REDOWA                       
+T671.815768032 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         EW       ADORES                      
+T671.8157857120095 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         EW    SARODE                         
+T671.8158008120081 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z     SAREE         DOW                        
+T671.8158157130092 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z     ERASE         DOW                        
+T671.8158303730015 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         E       REDOWAS                      
+T671.8158452729986 reject sid:2a7e05 bone:10:         R         E         I         F G TAXIWAY O U    T  AZIDES                                                      
+T671.815859993003 reject sid:2a7e05 bone:10:         F         I         E         R G TAXIWAY O U    T  AZIDES                                                      
+T671.8158746730041 reject sid:2a7e05 bone:10:                F         O         G    R TAXIWAY I U  E T  AZIDES                                                      
+T671.8158892640058 reject sid:2a7e05 bone:10:         F         O         G         E R TAXIWAY I U    T  AZIDES                                                      
+T671.8159040540049 reject sid:2a7e05 bone:10:                         F         O     E TAXIWAY T U I  G  AZIDES        R                                             
+T671.8159190040024 reject sid:2a7e05 bone:10:                W         A       DIF       E E      GUIROS     T Y       Z        AI        TAX                         
+T671.8159340139973 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z        WE     SARODE                         
+T671.8159488740057 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         EW       ADORES                      
+T671.8159636750061 reject sid:2a7e05 bone:10:                               T      F  O TAXIWAY G U    I  AZIDES R  E                                                 
+T671.8159783849987 reject sid:2a7e05 bone:10:                                   T A       E G    TAXIWAY   U  I  E  FIORD  Z      S                                   
+T671.8159931450064 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I S       Z       ARE     YOWED                         
+T671.8160079049994 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y   WAREZ         E       SOD                         
+T671.8160225550091 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWE       RODES                       
+T671.8160490360024 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWE     RESOD                         
+T671.8160654960084 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWE     ROSED                         
+T671.8160803060018 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWE     SORED                         
+T671.8160952360049 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I S       Z       OWE     RAYED                         
+T671.8161102260055 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I S   WAREZ         E       YOD                         
+T671.8161249370023 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWE       RODES                       
+T671.8161395170027 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWE     ROSED                         
+T671.8161570670054 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWE     RESOD                         
+T671.8161741969961 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWE     SORED                         
+T671.8161946379987 reject sid:2a7e05 bone:10:                               F       T E       O R TAXIWAY I U    G  AZIDES                                            
+T671.8162106079981 reject sid:2a7e05 bone:10:                          O         U    S ZAFTIG  I   ED    TAXIWAY        R         E                                  
+T671.8162260280078 reject sid:2a7e05 bone:10:           R         E         D         O ZAFTIG  U   E  I  TAXIWAYS                                                    
+T671.8162407180062 reject sid:2a7e05 bone:10:                          O         U      ZAFTIG      ED I  TAXIWAYS       R         E                                  
+T671.8162556680036 reject sid:2a7e05 bone:10:                           A         G    TAXIWAY   U    TE  FIORD IS        Z         E                                 
+T671.8162703279959 reject sid:2a7e05 bone:10:                T         A       F X       A I       TEW       I A       G Y       U S   DOZIER                         
+T694.064712670006 reject sid:2a7e05 bone:10:               F       ARIE      G X       A I       TUT       I Y       Z         EW        DOSA                        
+T694.0647493810102 reject sid:2a7e05 bone:10:               F       ARIE      G X       A I       TUT       I Y       Z         EW       ADOS                         
+T694.0647671909974 reject sid:2a7e05 bone:10:               FA      ARIE      G X       A I       TUT       I Y       Z         EW        DOS                         
+T694.0647830310045 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       ZA       WERE      ODS                         
+T694.0647984910029 reject sid:2a7e05 bone:10:               F       ARIA      G X       A I       TUT       I S       Z        YEW        DOE                         
+T694.0648140220001 reject sid:2a7e05 bone:10:                               G TAXIWAY O U  F RE AZIDES  T         I                                                   
+T694.0648291620018 reject sid:2a7e05 bone:10:                            F  G TAXIWAY O U    RE AZIDES  T         I                                                   
+T694.0648441619996 reject sid:2a7e05 bone:10:                               T      F  O TAXIWAY G U    I  AZIDES R  E                                                 
+T694.0648592220095 reject sid:2a7e05 bone:10:                               T E    F  O TAXIWAY G U    I  AZIDES R                                                    
+T694.064874432006 reject sid:2a7e05 bone:10:                               T     EF  O TAXIWAY G U    I  AZIDES R                                                    
+T694.0648902230023 reject sid:2a7e05 bone:10:                                    FOG  R TAXIWAY I U  T E  AZIDES                                                      
+T694.0649055230024 reject sid:2a7e05 bone:10:                                    F GO R TAXIWAY I U  T E  AZIDES                                                      
+T694.0649205230002 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z        WEARS     ODE                         
+T694.0649356229987 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z       SWEAR      ODE                         
+T694.064950562999 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT      WIRY       ZA       OES        DE                         
+T694.0649654940062 reject sid:2a7e05 bone:10:                               O ZAFTIG  U   E  I  TAXIWAYS  R         ED                                                
+T694.0649800640094 reject sid:2a7e05 bone:10:                               O ZAFTIG  U   E  I  TAXIWAYS  R        DE                                                 
+T694.065000624003 reject sid:2a7e05 bone:10:                            E  R ZAFTIG  U   ES O  TAXIWAY        D         I                                            
+T694.0650230640022 reject sid:2a7e05 bone:10:                               R         O ZAFTIG  U   E  I  TAXIWAYS  ED                                                
+T694.0650500449992 reject sid:2a7e05 bone:10:                               R         O ZAFTIG  U   E  I  TAXIWAYS DE                                                 
+T694.0650664150016 reject sid:2a7e05 bone:10:                               R         O ZAFTIG  U   E  I  TAXIWAYS  E         D                                       
+T694.0650814050023 reject sid:2a7e05 bone:10:                               R         O ZAFTIG  U   E  I  TAXIWAYS  ED                                                
+T694.0650959549967 reject sid:2a7e05 bone:10:                               R         O ZAFTIG  U   E  I  TAXIWAYS DE                                                 
+T694.065110415002 reject sid:2a7e05 bone:10:                               R         O ZAFTIG  U   E  I  TAXIWAYS  E         D                                       
+T694.0651253359974 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWEE      RODS                        
+T694.0651401860086 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       ORES     AWED                         
+T694.0651550559996 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWEE      RODS                        
+T694.0651769660035 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWES      REDO                        
+T694.0651975270011 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWE       REDOS                       
+T694.065212697009 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWEE      RODS                        
+T694.0652273970045 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         EW       ADORES                      
+T694.0652421470004 reject sid:2a7e05 bone:10:               F       ARIAS     G X       A I       TUT       I Y       Z         EWE       DO                          
+T694.0652566170029 reject sid:2a7e05 bone:10:               F       ARIAS     G X       A I       TUT       I Y       Z        EEW        DO                          
+T694.0652712470037 reject sid:2a7e05 bone:10:               F       ARIAS     G X       A I       TUT       I Y       Z         EW        DOE                         
+T694.0652860679984 reject sid:2a7e05 bone:10:               F E     ARIAS     G X       A I       TUT       I Y       Z         EW        DO                          
+T694.0653006479988 reject sid:2a7e05 bone:10:               F       A I       G X       A I       TUT       I Y       Z         EWERS    ADO                          
+T694.0653153180028 reject sid:2a7e05 bone:10:                                 E    F  R TAXIWAY I U    G  AZIDES O         T                                          
+T694.0653299580008 reject sid:2a7e05 bone:10:                                     EF  R TAXIWAY I U    G  AZIDES O         T                                          
+T694.0653446180077 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         EW       ADORES                      
+T694.0653596390039 reject sid:2a7e05 bone:10:                     F         AIS   W Y   OXIDATE  GUITAR         E         Z                                           
+T694.0653746390017 reject sid:2a7e05 bone:10:                               AIS F W Y   OXIDATE  GUITAR         E         Z                                           
+T694.0653931289999 reject sid:2a7e05 bone:10:                               WIS   Y F   OXIDATE  GUITAR A         Z         E                                         
+T694.0654102289991 reject sid:2a7e05 bone:10:                               Z     W   AIS   E F   OXIDATE  GUITAR         Y                                           
+T694.0654252289969 reject sid:2a7e05 bone:10:               F       ARIAS     G X       A I       TUT       I Y       Z         EWE       DO                          
+T694.0654402799992 reject sid:2a7e05 bone:10:               F       ARIAS     G X       A I       TUT       I Y       Z        EEW        DO                          
+T694.0654553700006 reject sid:2a7e05 bone:10:               F       ARIAS     G X       A I       TUT       I Y       Z         EW        DOE                         
+T694.0654702199972 reject sid:2a7e05 bone:10:               F E     ARIAS     G X       A I       TUT       I Y       Z         EW        DO                          
+T694.0654849999992 reject sid:2a7e05 bone:10:               F       A I       GOX       A I       TUT       I Y       Z         EW        DEARS                       
+T694.065499520002 reject sid:2a7e05 bone:10:               F       ARIAS     G X       A I       TUT       I Y       Z        OE         DEW                         
+T694.0655139709997 reject sid:2a7e05 bone:10:               F O     ARIAS     G X       A I       TUT       I Y       Z         E         DEW                         
+T694.0655287810077 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         E       REDOWAS                      
+T694.0655434810033 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         E       REDOWAS                      
+T694.0655583110056 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z     AROSE         DEW                       
+T694.0655732110026 reject sid:2a7e05 bone:10:                F       ARIA      G X       A I       TUT       I Y       Z         EWE       DOS                        
+T694.0655877719983 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         EWE       DORSA                      
+T694.0656152520096 reject sid:2a7e05 bone:10:           R         E         D         O ZAFTIG  U   E  I  TAXIWAYS                                                    
+T694.0656301220006 reject sid:2a7e05 bone:10:                               R         O ZAFTIG  U   E  I  TAXIWAYS  E         D                                       
+T694.0656447820074 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z        SEWAR     ODE                         
+T694.065659341999 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z        SEWAR     ODE                         
+T694.0656739429978 reject sid:2a7e05 bone:10:                               Z     F W AIS   E Y   OXIDATE  GUITAR                                                     
+T694.06568853301 reject sid:2a7e05 bone:10:                               Z     F W AIS   E Y   OXIDATE  GUITAR                                                     
+T694.0657032830059 reject sid:2a7e05 bone:10:                             G F       O E TAXIWAY T U    I  AZIDES R                                                    
+T694.0657176829991 reject sid:2a7e05 bone:10:                   F         A Z TAXIWAY I U    G  TRIODE E         S                                                    
+T694.0657322729967 reject sid:2a7e05 bone:10:               F       ARIA      G X       A I       TUT       I Y       Z         EW        DOSE                        
+T694.0657468340069 reject sid:2a7e05 bone:10:             FIG         A       TIZ       I A       DURO      E S     TEW         AX        Y                           
+T694.0657614340016 reject sid:2a7e05 bone:10:               F       ARIE      G X       A I       TUT       I Y       Z       SAE         DOW                         
+T694.0657793639984 reject sid:2a7e05 bone:10:      S        FA      ARIE      G X       A I       TUT       I Y       Z         E         DOW                         
+T694.0657962740079 reject sid:2a7e05 bone:10:             RIOT         A       F X       A I       TEW       I A       G Y       U S      ZED                         
+T694.0658110939985 reject sid:2a7e05 bone:10:               F       ARIA      G X       A I       TUT       I Y     SEZ         EW        DO                          
+T694.0658254050068 reject sid:2a7e05 bone:10:               F       ARIA      G X       A I       TUT       I Y       Z         EWES      DO                          
+T694.0658398750093 reject sid:2a7e05 bone:10:               F       ARIA      G X       A I       TUT       I Y       Z         EW        DOES                        
+T694.0658541949961 reject sid:2a7e05 bone:10:      S        FE      ARIA      G X       A I       TUT       I Y       Z         EW        DO                          
+T694.0658686350071 reject sid:2a7e05 bone:10:               F       ARIA      G X       A I       TUT       I S       Z       WYE         DOE                         
+T694.0658830550092 reject sid:2a7e05 bone:10:               F       ARIA      G X       A I       TUT       I S       Z        YEW        DOE                         
+T694.0658978360007 reject sid:2a7e05 bone:10:               F       A I       G X       A I       TUT       I Y       Z         EWER     ADOS                         
+T694.0659125660022 reject sid:2a7e05 bone:10:                F         O         G    R TAXIWAY I U  E T  AZIDES                                                      
+T694.065927306001 reject sid:2a7e05 bone:10:                             F      G  O R TAXIWAY I U  E T  AZIDES                                                      
+T694.0659418260038 reject sid:2a7e05 bone:10:                                 E  F    G TAXIWAY O U  T I  AZIDES R                                                    
+T694.0659563160007 reject sid:2a7e05 bone:10:                                   A  F  Z TAXIWAY I U E  G  TRIODE S                                                    
+T694.0659707960003 reject sid:2a7e05 bone:10:                            F         IT G TAXIWAY O U    RE AZIDES                                                      
+T694.0659852570097 reject sid:2a7e05 bone:10:                                    ZA   WIS  EF Y   OXIDATE  GUITAR                                                     
+T694.0659996970062 reject sid:2a7e05 bone:10:                           F         ES  Z TAXIWAY I U    G  TRIODE A                                                    
+T694.066014327007 reject sid:2a7e05 bone:10:                            F       T I  G TAXIWAY O U  E R  AZIDES                                                      
+T694.0660288770014 reject sid:2a7e05 bone:10:                F      SARI       G X       A I       TUT       I Y       Z         EW       ODEA                        
+T694.066056317999 reject sid:2a7e05 bone:10:                               O ZAFTIG  R  DE  I  TAXIWAYS     E         U                                              
+T694.0660713980033 reject sid:2a7e05 bone:10:                               R ZAFTIG  O  DE  I  TAXIWAYS     E         U                                              
+T694.0660861880024 reject sid:2a7e05 bone:10:            W         IF  T     GAUZES     Y OX        AT       IRE        ID        A                                   
+T694.0661009680043 reject sid:2a7e05 bone:10:                 W     F  TI    GAUZES     Y OX        AT       IRE        ID        A                                   
+T694.0661156179995 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       ARES     OWED                         
+T694.0661302890076 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWES      REDO                        
+T694.0661477890098 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I S       Z       OYER      WADE                        
+T694.0661643890053 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z         EWE   SAROD                         
+T694.0661846790026 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWE       REDOS                       
+T694.0661997290008 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWE     SORED                         
+T694.0662144300004 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       ARE     SOWED                         
+T694.0662289500033 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z     SAREE         DOW                       
+T694.0662437099963 reject sid:2a7e05 bone:10:                                     S F       A E Z TAXIWAY I U    G  TRIODE                                            
+T694.0662583200028 reject sid:2a7e05 bone:10:                               F      G  E      O  R TAXIWAY I U    T  AZIDES                                            
+T694.0662726200098 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z     AROSE         DEW                       
+T694.0662870009983 reject sid:2a7e05 bone:10:                                     S F       E A Z TAXIWAY I U    G  TRIODE                                            
+T694.0663014910097 reject sid:2a7e05 bone:10:                                     S F       E A Z TAXIWAY I U    G  TRIODE                                            
+T694.066316010998 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y     SEZ         EW     ORAD                         
+T694.0663303309993 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y     SEZ         EW     ROAD                         
+T694.0663446910039 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I S       Z         ERA   YOWED                         
+T694.0663590210024 reject sid:2a7e05 bone:10:                                     T F       E O R TAXIWAY I U    G  AZIDES                                            
+T694.0663734020054 reject sid:2a7e05 bone:10:                                     F G       E A Z TAXIWAY I U    S  TRIODE                                            
+T694.0663877920015 reject sid:2a7e05 bone:10:                               F      G  E      O  R TAXIWAY I U    T  AZIDES                                            
+T694.0664021620032 reject sid:2a7e05 bone:10:                 F       A I       G X       A I       TUT       I Y       Z       AWEE      RODS                        
+T694.0664163519978 reject sid:2a7e05 bone:10:                                     F S       E A Z TAXIWAY I U    G  TRIODE                                            
+T694.0664307620027 reject sid:2a7e05 bone:10:                             G   E    FA Z TAXIWAY I U       TRIODE      S                                               
+T694.066445303004 reject sid:2a7e05 bone:10:                     T      O  R TAXIWAY I U    F  AZIDES    G         E                                                 
+T694.0664596429997 reject sid:2a7e05 bone:10:                   F T       O R TAXIWAY I U       AZIDES    G         E                                                 
+T694.0664742329973 reject sid:2a7e05 bone:10:           R         E         D         O ZAFTIG  U   E  I  TAXIWAYS                                                    
+T694.0664885430015 reject sid:2a7e05 bone:10:                               R         O ZAFTIG  U   E  I  TAXIWAYS  E         D                                       
+T694.0665027930081 reject sid:2a7e05 bone:10:                                         O ZAFTIG  U   ER I  TAXIWAYS       D         E                                  
+T694.0665202230011 reject sid:2a7e05 bone:10:                  E         R         U  D ZAFTIG  I   E  O  TAXIWAYS                                                    
+T694.0665379040001 reject sid:2a7e05 bone:10:                            R         U  D ZAFTIG  I   E  O  TAXIWAYS         E                                          
+T694.0665560140042 reject sid:2a7e05 bone:10:           R         E         D         O ZAFTIG  U   E  I  TAXIWAYS                                                    
+T694.0665704240091 reject sid:2a7e05 bone:10:                               R         O ZAFTIG  U   E  I  TAXIWAYS  E         D                                       
+T694.0665848640056 reject sid:2a7e05 bone:10:                                         O ZAFTIG  U   ER I  TAXIWAYS       D         E                                  
+T694.0665992840077 reject sid:2a7e05 bone:10:                  E         R         U  D ZAFTIG  I   E  O  TAXIWAYS                                                    
+T694.0666136450018 reject sid:2a7e05 bone:10:                            R         U  D ZAFTIG  I   E  O  TAXIWAYS         E                                          
+T694.0666280450096 reject sid:2a7e05 bone:10:                  E         R         U  D ZAFTIG  I   E  O  TAXIWAYS                                                    
+T694.0666424350056 reject sid:2a7e05 bone:10:                            R         U  D ZAFTIG  I   E  O  TAXIWAYS         E                                          
+T694.0666570449976 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         ES      REDOWA                       
+T694.0666714850086 reject sid:2a7e05 bone:10:                F       A I       G X       A I     ASTUTE      I Y       Z         EW        DOR                        
+T694.0666859060002 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         EW       ADORES                      
+T694.0667005860014 reject sid:2a7e05 bone:10:                                     W   AIS   E F   OXIDATE  GUITAR Z       Y                                           
+T694.0667150460067 reject sid:2a7e05 bone:10:              ZIT         A       F X      RADIO      TEW       I A       G Y       U S       E                          
+T694.0667295260064 reject sid:2a7e05 bone:10:              ZIT         A       F X       A I       TEW       I A       G Y       U S    DORE                          
+T694.0667439259996 reject sid:2a7e05 bone:10:              ZIT         A       F X       A I       TEW       I A       G Y       U S    RODE                          
+T694.0667582970054 reject sid:2a7e05 bone:10:              ZIT         A       F X       A I       TEW       I A       G Y       U S     DOER                         
+T694.0667729470006 reject sid:2a7e05 bone:10:                                         AIS   W F Y OXIDATE  GUITAR         E         Z                                 
+T694.0667876570078 reject sid:2a7e05 bone:10:                F       ARIAS     G X       A I       TUT       I Y       Z         EW        DOE                        
+T694.066802197005 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z        SEWAR      DOE                        
+T694.0668168470002 reject sid:2a7e05 bone:10:                            F         I  G TAXIWAY O U    RE AZIDES  T                                                   
+T694.0668314369977 reject sid:2a7e05 bone:10:                F       ARIAS     G X       A I       TUT       I Y       Z         EWE       DO                         
+T694.0668458980072 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         EWE       DORSA                      
+T694.0668603680097 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I S       ZA     WORE         DEY                        
+T694.0668781380082 reject sid:2a7e05 bone:10:                            F         I  G TAXIWAY O U    TE AZIDES  R                                                   
+T694.0668941680051 reject sid:2a7e05 bone:10:                F       ARIAS     G X       A I       TUT       I Y       Z         EWE       DO                         
+T694.0669088480063 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z         EWE       DORSA                      
+T694.0669233189983 reject sid:2a7e05 bone:10:                  T         O         G  R TAXIWAY I U  F E  AZIDES                                                      
+T694.0669378390012 reject sid:2a7e05 bone:10:                            F         E  WIS    AY   OXIDATE  GUITAR Z                                                   
+T694.0669523490069 reject sid:2a7e05 bone:10:              WUD         E     RAZES       A O       FIX       T Y      AIT        GI                                   
+T694.0669668589981 reject sid:2a7e05 bone:10:             XIS         E        DIF       AZO       WAR       T T       I Y    AGUE                                    
+T694.0669814389985 reject sid:2a7e05 bone:10:             WUD         E       Z S       A O       FIX       T Y     RAIA        GITE                                  
+T694.0669956900092 reject sid:2a7e05 bone:10:             WUD         E       Z S       A O       FIX       T Y     ARIA        GITE                                  
+T694.0670102400036 reject sid:2a7e05 bone:10:                D         O       TIZ      TAFIA      X E       W R       I         SAU      GEY                         
+T694.0670248000097 reject sid:2a7e05 bone:10:                               T      O  R TAXIWAY I U    F  AZIDES    G         E                                       
+T694.0670496500097 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z        WEARS     ODE                         
+T694.0670656800066 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z      SAWER       ODE                         
+T694.0670802109962 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z       SWEAR      ODE                         
+T694.0670947309991 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z        WE     SARODE                         
+T694.0671092109988 reject sid:2a7e05 bone:10:                         F         A  S  Z TAXIWAY I U E  G  TRIODE                                                      
+T694.0671238009963 reject sid:2a7e05 bone:10:                         F         A  G  Z TAXIWAY I U E  S  TRIODE                                                      
+T694.0671382410073 reject sid:2a7e05 bone:10:                         F         A  S  Z TAXIWAY I U E  G  TRIODE                                                      
+T694.0671527820086 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z        WEARS     ODE                         
+T694.0671671720047 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z      SAWER       ODE                         
+T694.0671932819969 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z       SWEAR      ODE                         
+T694.0672087620042 reject sid:2a7e05 bone:10:                F       A I       G X       A I       TUT       I Y       Z        WE     SARODE                         
+T694.0672235020029 reject sid:2a7e05 bone:10:                               Z     W   AIS   E F   OXIDATE  GUITAR         Y                                           
+T694.0672379430034 reject sid:2a7e05 bone:10:             RIOT         A       F X       A I       TEW       I A       G Y       U S      ZED                         
+T694.0672527630086 reject sid:2a7e05 bone:10:                F       A I       G X       A I     ASTUTE      I Y       Z        RE         DOW                        
+T694.0672705430043 reject sid:2a7e05 bone:10:                                     EF  R TAXIWAY I U    G  AZIDES O         T                                          
+T797.5050544149999 search 2a7e05 [ 1000 cap:1000 may:1665 done:1 dead:216 reject:165 ]> show done
+T799.4413581100089 search 2a7e05 [ 1000 cap:1000 may:1665 done:1 dead:216 reject:165 ]> show 1
+T876.1061667850008 search 2a7e05 [ 1000 cap:1000 may:1665 done:1 dead:216 reject:165 ]> ret
+T876.1063470369991 change: 37 
+T876.1063607670076 change: 13 
+T876.1063707470021 change: 37 Z
+T876.1063790379994 change: 14 
+T876.1063864379976 change: 42 
+T876.106394168004 change: 15 
+T876.106401418001 change: 42 
+T876.1064083980018 change: 16 
+T876.1064151080063 change: 42 
+T876.1064222880086 change: 26 
+T876.1064287879999 change: 42 
+T876.1064354280097 change: 34 
+T876.1064424780052 change: 94 
+T876.1064499979984 change: 35 D
+T876.1064564690023 change: 94 
+T876.1064630390028 change: 36 
+T876.1064703489974 change: 54 I
+T876.1064777490101 change: 44 X
+T876.1064841390034 change: 94 
+T876.1064906490064 change: 56 
+T876.1064972489985 change: 76 
+T876.1065042889968 change: 64 S
+T876.1065103389992 change: 66 A
+T876.1065163190069 change: 76 
+T876.1065228189982 change: 74 
+T876.106529059005 change: 76 
+T876.1065352099977 change: 75 
+T876.106540859997 change: 76 
+T876.106546370007 change: 76 
+T876.1065521400014 change: 94 
+T876.1065583800082 change: 83 
+T876.1065641900059 change: 94 
+T876.106570279997 change: 84 
+T876.1065758900077 change: 94 
+T876.1065824600082 change: 85 
+T876.1065881800023 change: 94 
+T876.1065967199975 change: 94 
+T876.1066018999991 change: 42 T
+T876.1066070410016 change: 43 A
+T876.1066121210024 change: 45 I
+T876.106617270998 change: 47 A
+T876.1066222910013 change: 48 Y
+T876.1066273309989 change: 51 O
+T876.1066322910046 change: 52 U
+T876.106637431003 change: 53 R
+T876.1066423209995 change: 55 E
+T876.1066472810053 change: 57 G
+T876.1066522809997 change: 61 F
+T876.1066572810087 change: 62 I
+T876.1066623610095 change: 63 E
+T876.1066673610039 change: 65 T
+T877.274223786997 [prior:2164 bet:2168]> /res
+T877.5062767420022 Press <Enter> to 📋 or `>` for line prompt 
+T877.5091484889999 result: "\u2728 Spaceword.org Daily 2025-05-19 \u2728\n\n\ud83c\udfc6 Score: 2168\n\ud83c\udfc5 Rank: 66/198 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +68\n\n\nPlay at https://spaceword.org\n#spaceword"
+T879.2102941159974 [prior:2168]> /store
