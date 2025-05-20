@@ -5,6 +5,6 @@ __pycache__/
 
 *.txt
 !*.exclude.txt
-!nwl2023.txt
+!nwl2023*.txt
 !opentaal-wordlist.txt
 .env
