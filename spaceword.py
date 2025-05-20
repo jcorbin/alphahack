@@ -838,6 +838,12 @@ class Board:
             cur.max = max or len(self.board.grid)
             return self.board.select(cur)
 
+        def reductions(self):
+            n = len(self)
+            for i in range(n-1):
+                yield self.slice(0, n - i)
+                yield self.slice(i, n)
+
         def continuations(self):
             may = self.expand()
             i = len(self)
