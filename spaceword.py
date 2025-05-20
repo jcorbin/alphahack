@@ -503,6 +503,20 @@ class Board:
         h = abs(y2 - y1)
         return w*h
 
+    def adds_area(self, sel: 'Select') -> int:
+        bounds = self.defined_rect
+        if not bounds:
+            return len(sel)
+        lo_x, lo_y, hi_x, hi_y = bounds
+        before = abs(hi_x - lo_x) * abs(hi_y - lo_y)
+        for x, y, _ in sel.iter_xy():
+            lo_x = min(lo_x, x)
+            lo_y = min(lo_y, y)
+            hi_x = max(hi_x, x + 1)
+            hi_y = max(hi_y, y + 1)
+        after = abs(hi_x - lo_x) * abs(hi_y - lo_y)
+        return after - before
+
     @property
     def max_area(self):
         return self.size**2
