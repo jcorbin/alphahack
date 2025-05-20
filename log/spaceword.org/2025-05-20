@@ -43,3 +43,327 @@ T310.33134994099964 [doit:2152]> /res
 T310.5794031749974 Press <Enter> to 📋 or `>` for line prompt 
 T310.5873068200017 result: "\u2728 Spaceword.org Daily 2025-05-20 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 157/214 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
 T312.986751917997 [prior:2152]> /store
+T315.876154743004 now: 2025-05-20T08:06:53EDT
+T318.1623684389924 [prior:2152]> ~
+T319.11654281799565 search e0776d [ 1 ]> prune
+T320.8021443680045 search e0776d [ 1 may:4 ]> take
+T321.5431029659958 search e0776d [ 5 ]> prune
+T322.1891884200013 search e0776d [ 5 may:17 ]> take
+T324.84741951100295 search e0776d [ 22 ]> prune
+T325.44544853099796 search e0776d [ 22 may:63 ]> take
+T326.05200752499513 search e0776d [ 85 ]> cen
+T330.18193517500185 search e0776d [ 85 ]> cap 700
+T331.0100974810048 search e0776d [ 85 cap:700 ]> **
+T331.78938945400296 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T331.78942191599344 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T331.7894346050016 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T331.7894455499918 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T331.7894567040057 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T331.78946759899554 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.90430395999283 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.904335788 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.90434785299294 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.9044032370002 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T333.9044507429935 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T333.9044677990023 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T333.90447893799865 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.90449000999797 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.9045010419941 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.90451180799573 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.90452292100235 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.90453387299203 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.90454464599316 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.90455560499686 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.90456634499424 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.90457693299686 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.90458769799443 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.9045983709948 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.90460940499906 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.9046200849989 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T333.9046307649987 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.94747176900273 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9475045809959 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.94751720299246 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9475287749956 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T339.94753962999675 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T339.9475505790033 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T339.94756164999853 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T339.9475803189998 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T339.94759590900503 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T339.94760720900376 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.94761835600366 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9476293829939 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9476402500004 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.947651126 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.947664516003 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9476752740011 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9476858459966 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.94769642400206 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.94770709300064 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9477178550005 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.94772841699887 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.94773936099955 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9477501229994 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9477606059954 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9477715279936 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.947782756004 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.94779373500205 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.94780458899913 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.947815994994 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9478266789956 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9478374350001 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.94784827200056 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.94786047999514 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9478720289917 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.94788296800107 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.94789363699965 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.947904421002 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9479150690022 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.94792585300456 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9479365290026 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9479471319937 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T339.9479578019964 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7381927679962 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7382313739945 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73824413899274 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7382558060053 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T353.7382669859944 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T353.7382777610037 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T353.73828828299884 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T353.73829917899275 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T353.7383099849976 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T353.73832063999726 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T353.7383313589962 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T353.73834207899927 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T353.73835297999904 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7383640049957 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73838127699855 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73839971699635 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.738411237995 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73842193400196 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73843287400086 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7384435779968 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73845427000197 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7384652000037 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7384758309927 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7384865149943 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7384974529996 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73850801099616 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73851899600413 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73852967600396 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73854028199275 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7385510360036 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7385620300047 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7385727200017 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7385835759924 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73859568500484 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73860628099646 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73861699999543 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73862774900044 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.738638469993 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7386490640056 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7386650349945 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7386773180042 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73869014400407 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7387139219936 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.738724513998 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7387351060024 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.738745937997 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7387568010017 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7387677959923 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7387787869957 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73878959499416 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7388009050046 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73881175099814 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7388227189949 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7388340329926 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7388452299929 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7388560919935 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73886693199165 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7388778570021 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73888864999753 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7388996369991 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7389104449976 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73892104999686 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7389316339977 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73894373299845 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7389551660017 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7389659079927 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.73897656600457 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7389877359965 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T353.7389982009918 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54292018500564 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54296252000495 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54297642099846 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5429899209994 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T378.5430026499962 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T378.54301454499364 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T378.54302680000546 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T378.543039021999 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T378.54305131800356 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T378.5430633700016 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T378.54307631800475 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T378.5430881719949 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T378.54310153199185 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T378.54311288100143 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T378.54312464100076 reject sid:e0776d bone:10:                         G  J      UH I      AA V   SIENITE     WAR        YE         D                                  
+T378.54313664199435 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54314875799173 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54316062599537 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54317252700275 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5431944930024 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54321186199377 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5432240950031 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5432359510014 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54324762099714 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5432598049956 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5432716889918 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54328366600384 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5432952209958 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5433072960004 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5433190729964 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5433312940004 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5433429489931 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54335483099567 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54336683099973 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54337861400563 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54339090699796 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5434028640011 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5434145199979 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54342617699876 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54343801199866 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5434497469978 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54346117000387 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54347295900516 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5434861120011 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.543499085994 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.543510796997 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5435223550012 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5435339919932 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5435457410058 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5435580399935 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5435698999936 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5435819879931 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5435939010058 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5436057129991 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5436174249917 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5436291109945 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54364082000393 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54365244599467 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5436663849978 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5436782600009 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54369151800347 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5437195629929 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.543731163998 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54374280299817 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54375462599273 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54376640000555 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54377846799616 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5437920080003 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5438053849939 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54381718300283 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5438285889977 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54384021599253 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54385174199706 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5438635000028 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5438750129979 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5438865509932 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5438979909959 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54390953799884 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5439207580057 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.54393226599495 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5439434639993 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T378.5439546800044 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T402.0927025639976 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T402.09273700199265 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T402.0927514310024 reject sid:e0776d bone:10:            J         I G       V UH      E AA      SENITI     WAR        YE         D                                   
+T435.9878284939914 search e0776d [ 700 cap:700 reject:3 ]> ␚
+T438.70363696500135 [prior:2152]> ~
+T443.22775876900414 search fc0861 [ 1 ]> cap 800
+T444.01244578800106 search fc0861 [ 1 cap:800 ]> **
+T448.7428821289941 search fc0861 [ 0 cap:800 ]> reset clear
+T449.4339037079917 search fc0861 [ 1 cap:800 ]> **
+T626.4647054590023 reject sid:fc0861 bone:10:               T         R        HI       JEU        AN        DE      GAWSIE      A       IVY                          
+T626.4647578330041 reject sid:fc0861 bone:10:      G      A  U      V  R     JIHADS     AE Y      TI       WEN         I         E                                    
+T626.4647739270004 reject sid:fc0861 bone:10:                  W         I  J      N  A   U  D  GAIETY I    SHEAVE         R                                          
+T626.4647882760037 reject sid:fc0861 bone:10:             JAY         A         UH        TI       WIN        AG         E   REVISED                                  
+T626.464801819995 reject sid:fc0861 bone:10:                     D         I     A   T     J   H GAWSIE  E    U    RAVINE    Y                                       
+T642.2132022290025 reject sid:fc0861 bone:10:                            H     E J I    ATWAIN  VAGUER       I      DYES                                              
+T642.2132613970025 reject sid:fc0861 bone:10:              JAY         A         UH        TI       WIN        AG         E   REVISED                                 
+T642.2132769979944 reject sid:fc0861 bone:10:             WAIVE        E       H S       E T       J I       I N     DURAG       AY                                   
+T642.213293806999 reject sid:fc0861 bone:10:                     DAW        U T  J    GYRASE    HEINIE      V         I         A                                    
+T642.2133062600042 reject sid:fc0861 bone:10:                     WAD        U T  J    GYRASE    HEINIE      V         I         A                                    
+T642.2133189250017 reject sid:fc0861 bone:10:            GAY        V        JIHADS     AE        TI       WEN         I       RUE                                    
+T642.2133314980019 reject sid:fc0861 bone:10:            GAY U      V  R     JIHADS     AE        TI       WEN         I         E                                    
+T642.2133446600055 reject sid:fc0861 bone:10:               T         R        HI       JEU        AN        DE      GAWSIE      A       IVY                          
+T642.2133575049957 reject sid:fc0861 bone:10:             JAYVEE      A         UH        TI       WIN        AG      RISE         D                                  
+T642.2133702879946 reject sid:fc0861 bone:10:          VEEJAY         A         UH        TI       WIN        AG      RISE         D                                  
+T642.2133825909987 reject sid:fc0861 bone:10:             JAY         A         UH        TI     REWINS       AG         E      VIED                                  
+T642.2133951599972 reject sid:fc0861 bone:10:             IVY         A         UH        TI     RAWINS       AG         E      JEED                                  
+T642.2134080510004 reject sid:fc0861 bone:10:              T         E      H GI      I AIRWAY  SUNDAE      E J       V                                               
+T642.2134208219941 reject sid:fc0861 bone:10:                     HAJI       D         WAIVES    A    U    RETYING   E                                                
+T642.2134334619914 reject sid:fc0861 bone:10:                            H     E J I    ATWAIN  VAGUER       I      DEYS                                              
+T642.2134457929933 reject sid:fc0861 bone:10:                            H     E J I    ATWAIN  VAGUER       I      DYES                                              
+T642.2134586860047 reject sid:fc0861 bone:10:                        H         E      J GAWSIE  I  V A A  NITERY U     D                                              
+T642.2134711249964 reject sid:fc0861 bone:10:              DYE        A         UH        TA     REVIEWS      AI         N       JIG                                  
+T642.2134836269979 reject sid:fc0861 bone:10:              V        JAY        RAH       SUE        TI     DEWING       AI         E                                  
+T642.2134962629934 reject sid:fc0861 bone:10:              J         I         H   T  Y GAWSIE  E  D U A  RAVINE                                                      
+T642.2135084939946 reject sid:fc0861 bone:10:                       J         U   V   H GAWSIE  I A  AD   NITERY      E                                               
+T642.2135207179963 reject sid:fc0861 bone:10:               U       DIN         EW       JAR        SI     GAIETY        H       AVE                                  
+T648.9664890249987 search fc0861 [ 800 cap:800 may:1912 done:3 dead:57 reject:22 ]> show done
+T651.3274531439965 search fc0861 [ 800 cap:800 may:1912 done:3 dead:57 reject:22 ]> show 1
+T750.1623923909938 search fc0861 [ 800 cap:800 may:1912 done:3 dead:57 reject:22 ]> ret
+T750.1628763359913 change: 14 
+T750.162908422004 change: 12 
+T750.1629283520015 change: 14 J
+T750.162962522998 change: 22 
+T750.1629917310056 change: 15 
+T750.163007819996 change: 24 
+T750.1630193829915 change: 15 
+T750.163032084005 change: 32 
+T750.1630443909962 change: 15 
+T750.1630573989969 change: 34 
+T750.163069133996 change: 15 
+T750.1630803890002 change: 35 
+T750.1630921680044 change: 15 
+T750.1631030510034 change: 42 
+T750.1631143419945 change: 15 
+T750.1631262049923 change: 44 
+T750.1631384469947 change: 15 A
+T750.1631508159917 change: 45 
+T750.163162494995 change: 16 
+T750.1631756269926 change: 52 
+T750.163188570994 change: 65 
+T750.1632056819944 change: 53 R
+T750.1632159979927 change: 54 E
+T750.1632291239948 change: 63 
+T750.1632442959963 change: 55 W
+T750.1632548890047 change: 56 I
+T750.1632650179963 change: 57 N
+T750.1632760219945 change: 63 
+T750.1632859829988 change: 63 
+T750.1632962430012 change: 65 
+T750.1633072889963 change: 64 
+T750.1633170760033 change: 65 
+T750.1633261539973 change: 65 
+T750.1633362139983 change: 16 
+T750.1633490139939 change: 74 
+T750.1633602170041 change: 16 Y
+T750.1633804839948 change: 75 
+T750.1633904259943 change: 85 S
+T750.1633987829991 change: 26 A
+T750.1634075269976 change: 36 U
+T750.1634158609959 change: 37 H
+T750.1634241159918 change: 46 T
+T750.1634320699959 change: 47 I
+T750.1634403100034 change: 66 A
+T750.1634489879943 change: 67 G
+T750.163457350005 change: 77 E
+T750.1634657889954 change: 83 V
+T750.163474105997 change: 84 I
+T750.1634822070046 change: 86 E
+T750.1634901549987 change: 87 D
+T757.0708116009919 [prior:2152 bet:2160]> /res
+T757.4657282760018 Press <Enter> to 📋 or `>` for line prompt 
+T757.4723849049915 result: "\u2728 Spaceword.org Daily 2025-05-20 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 133/217 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"
+T758.5365355620015 [prior:2160]> /store
