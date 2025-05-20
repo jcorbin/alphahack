@@ -1300,6 +1300,30 @@ class SpaceWord(StoredLog):
         if not ui.tokens:
             return
 
+        if ui.tokens.have(r'/bad'):
+            words = tuple(
+                word.lower()
+                for word in ui.tokens)
+            if not words:
+                ui.print('usage: /bad <word> [<word> ...]')
+                return
+
+            known = self.wordlist.uniq_words
+
+            words = tuple(
+                word
+                for word in words
+                if word in known)
+            if not words:
+                ui.print('no known words given')
+                return
+
+            with git_txn(f'{self.site} bad {"words" if len(words) > 1 else "word"}', ui=ui) as txn:
+                with txn.will_add(self.wordlist.exclude_file):
+                    self.wordlist.remove_words(words)
+
+            return
+
         if ui.tokens.have(r'/res(ult)?'):
             ui.print('Provide share result:')
             try:
