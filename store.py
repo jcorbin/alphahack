@@ -33,10 +33,11 @@ def atomic_file(name: str):
 
 @contextmanager
 def atomic_rewrite(name: str):
-    with (
-        open(name, 'r') as r,
-        atomic_file(name) as w,
-    ):
+    try:
+        r = open(name, 'r')
+    except FileNotFoundError:
+        r = open('/dev/null', 'r')
+    with r, atomic_file(name) as w:
         yield r, w
 
 def backup_old(name: str):
