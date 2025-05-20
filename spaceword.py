@@ -1644,6 +1644,13 @@ class Search:
                 ui.print('Frontier Reset.')
                 any_bail = True
 
+            elif ui.tokens.have('zero'):
+                self.history.clear()
+                self.frontier = Halo.of([])
+                self.halos.clear()
+                ui.print('Frontier Zeroed.')
+                any_bail = True
+
             else: break
         if any_bail:
             return
