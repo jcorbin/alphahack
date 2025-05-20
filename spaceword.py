@@ -1823,6 +1823,7 @@ class Search:
                  ):
         self.sid = sid
         self.board = board.copy()
+        self.max_area = self.board.max_area
         self.wordlist = wordlist
         self.ret = ret
         self.reject = reject
@@ -1867,6 +1868,8 @@ class Search:
 
         def prompt_parts() -> Generator[str]:
             yield f'{len(self.frontier)}'
+            if self.max_area != self.board.max_area:
+                yield f'max:{self.max_area}'
             cap = self.frontier_cap
             if cap:
                 yield f'cap:{cap}'
@@ -1924,6 +1927,19 @@ class Search:
 
             else: break
         if any_bail:
+            return
+
+        if ui.tokens.under(r'max'):
+            if ui.tokens.have('def'):
+                self.max_area = self.board.defined_area
+                ui.print(f'set max: {self.max_area} ( defined )')
+            else:
+                n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+                if n is None:
+                    ui.print(f'max: {self.max_area}')
+                else:
+                    self.max_area = n
+                    ui.print(f'set max: {self.max_area}')
             return
 
         if ui.tokens.under(r'a(dd?)?'):
@@ -2377,7 +2393,11 @@ class Search:
     def add_word(self,
                  ui: PromptUI,
                  jitter: float = 0.5,
+                 max_area: int|None = None,
                  per_n: int|None = None):
+
+        if max_area is None:
+            max_area = self.max_area
 
         mn = ui.tokens.have(r'\d+', lambda m: int(m[0]))
         if mn is not None:
@@ -2450,15 +2470,8 @@ class Search:
             mark('fragments')
 
             # seeds are selected regions of each board where we'll try to write a new word
-            # - first, we'll try to complete any fragments, since fragments
-            #   will kill a board solution if not completed
-            # - but if there are no fragments, then we'll consider every row
-            #   and column that intersects each board's already written region
-            # - which degenerates to a point selection somewhere in the middle of an empty board
-            seeds = tuple(
-                (board, frags, seed)
-                for board, points, frags in zip(boards, seed_points, fragments)
-                for seed in (
+            board_seeds = tuple(
+                (board, frags, tuple(
                     flatten(
                         flatten(
                             board.select(pre).continuations()
@@ -2474,7 +2487,21 @@ class Search:
                             (board.select(pre) for pre in point.pre()) if any(sel) else ()
                         ))
                 ))
+                for board, points, frags in zip(boards, seed_points, fragments))
             mark('elaborate seeds')
+
+            seeds = tuple(
+                (board, frags, red)
+                for board, frags, seeds in board_seeds
+                for may_area in (max_area - board.defined_area,)
+                for seed in seeds
+                for red in (
+                    (seed,) if board.adds_area(seed) <= may_area
+                    else (
+                        red
+                        for red in seed.reductions()
+                        if board.adds_area(red) <= may_area)))
+            mark('constrain seeds')
 
             if verbose:
                 ui.print(f'searching {len(seeds)} seeds from {len(boards)} boards')
