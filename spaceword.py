@@ -1540,13 +1540,16 @@ class SpaceWord(StoredLog):
 
 @final
 class Search:
+    SourceEntry = tuple[str, 'Source'] | Board
+    Source = Callable[[], Iterable[SourceEntry]]
+
     def __init__(self,
                  sid: str,
                  board: Board,
                  wordlist: WordList,
                  ret: Callable[[Board|None], PromptUI.State],
                  reject: Callable[[Board], bool] = lambda _: False,
-                 sources: Iterable[tuple[str, Callable[[], Iterable[Board]]]] | None = None,
+                 sources: Iterable[tuple[str, Source]] | None = None,
                  verbose: int = 0,
                  ):
         self.sid = sid
@@ -1562,6 +1565,20 @@ class Search:
         self.halos: dict[str, Halo] = dict()
         self.last_shown: str|None = None
         self.history: list[PlainData] = []
+
+    def get_source(self, token: str) -> Source|None:
+        src: Search.Source|None = lambda: ((nom, sub) for nom, sub in self.sources.items())
+        for name in token.split('/'):
+            if not name: break
+            got: Search.Source|None = None
+            for ent in src():
+                if not isinstance(ent, tuple): continue
+                nom, sub = ent
+                if nom == name:
+                    got = cast(Search.Source, sub)
+            if not got: return None
+            src = got
+        return src
 
     def __call__(self, ui: PromptUI):
         with (
@@ -1645,18 +1662,45 @@ class Search:
                 return
 
             names = tuple(ui.tokens)
-            srcs = tuple( self.sources.get(name) for name in names)
-            boards = tuple( tuple(src()) if src else () for src in srcs)
+            srcs = tuple(self.get_source(name) for name in names)
+
+            entries = tuple(
+                cast(tuple[Search.SourceEntry, ...],
+                    tuple(src()) if src else ())
+                for src in srcs)
 
             if not any(srcs):
                 ui.print('! no valid sources provided ; run without arg to list available')
                 return
 
-            for name, src, got in zip(names, srcs, boards):
+            any_feedback = False
+            for name, src, got in zip(names, srcs, entries):
                 if not src:
                     ui.print(f'! ignoring unknown source {name!r}')
-                else:
-                    ui.print(f'* importing {len(got)} boards from {name!r}')
+                    any_feedback = True
+                elif name.endswith('/'):
+                    ui.print(f'- listing {name}')
+                    boards = 0
+                    for ent in got:
+                        if isinstance(ent, Board):
+                            boards += 1
+                        else:
+                            ui.print(f'  - {ent[0]}/')
+                    if boards:
+                        ui.print(f'  * {boards} boards')
+                    any_feedback = True
+            if any_feedback:
+                return
+
+            boards = tuple(
+                tuple(
+                    ent
+                    for ent in ents
+                    if isinstance(ent, Board))
+                for ents in entries)
+
+            for name, got in zip(names, boards):
+                ui.print(f'* importing {len(got)} boards from {name!r}')
 
             self.frontier = Halo.of(
                 chain(self.frontier, chain.from_iterable(boards)),
