@@ -3146,6 +3146,14 @@ class Halo:
         self.sample: Sample|None = None
         self.last_shown: int|None = None
 
+    # TODO maybe
+    # def to_bone(self):
+    #     return '|'.join(
+    #         board.to_bone()
+    #         for board in self)
+    # @classmethod
+    # def from_bone(cls, s: str):
+
     def __len__(self):
         return len(self.ix) if self.ix is not None else len(self.boards)
 
