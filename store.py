@@ -1,5 +1,6 @@
 import argparse
 import datetime
+import math
 import os
 import re
 import subprocess
@@ -62,12 +63,14 @@ class LogSession:
 @final
 class LogParser:
     def __init__(self, rez: Callable[[bytes], None]|None = None):
+        self.t1 = math.nan
+        self.t2 = math.nan
         self.unz = zlib.decompressobj()
         self.rez = rez
 
     def __call__(self, line: str) -> tuple[float|None, bool, str]:
         m = re.match(r'''(?x)
-            (?P<tkind> T ) (?P<time> [^\s]+ )
+            (?P<tkind> T | TD | TDD ) (?P<time> [-+]? \d+ [^\s]* )
             \s+
             (?P<iz> Z \s+ )?
             (?P<rest> .+ )
@@ -79,8 +82,17 @@ class LogParser:
         td = str(m[1])
         if td == 'T':
             t = float(m[2])
+        elif td == 'TD':
+            d = float(int(m[2])) / 1e6
+            t = self.t2 + d
+        elif td == 'TDD':
+            a1 = float(int(m[2])) / 1e6
+            d1 = self.t2 - self.t1
+            d2 = a1 + d1
+            t = self.t2 + d2
         else:
             raise ValueError(f'invalid time kind {td}')
+        self.t1, self.t2 = self.t2, t
 
         z = bool(m[3])
         line = str(m[4])
