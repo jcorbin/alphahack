@@ -65,16 +65,25 @@ class LogParser:
         self.unz = zlib.decompressobj()
         self.rez = rez
 
-    def __call__(self, line: str):
+    def __call__(self, line: str) -> tuple[float|None, bool, str]:
         m = re.match(r'''(?x)
-            T (?P<time> [^\s]+ )
+            (?P<tkind> T ) (?P<time> [^\s]+ )
             \s+
             (?P<iz> Z \s+ )?
             (?P<rest> .+ )
             $''', line)
-        t = float(m[1]) if m else None
-        z = bool(m[2]) if m else False
-        line = str(m[3]) if m else line
+
+        if not m:
+            return None, False, line
+
+        td = str(m[1])
+        if td == 'T':
+            t = float(m[2])
+        else:
+            raise ValueError(f'invalid time kind {td}')
+
+        z = bool(m[3])
+        line = str(m[4])
         if z:
             zb = b85decode(line)
             b = self.unz.decompress(zb)
