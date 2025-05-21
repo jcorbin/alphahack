@@ -332,7 +332,7 @@ class Board:
                  letters: Iterable[str] = (),
                  grid: Iterable[str] = ()):
         self.size = size
-        self.letters: list[str] = list(letters)
+        self.letters: list[str] = [let.upper() for let in letters]
         self.grid: list[str] = [''] * self.size**2
         for i, l in enumerate(grid):
             if i < len(self.grid):
