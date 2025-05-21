@@ -1,3 +1,4 @@
+import math
 import os
 import re
 import subprocess
@@ -252,7 +253,11 @@ class PromptUI:
             sink = lambda mess: print(mess, file=log_file, flush=True)
         elif sink is None:
             sink = lambda _: None
+
         self.time = Timer() if time is None else time
+        self.t1 = math.nan
+        self.t2 = math.nan
+
         self.get_input = get_input
         self.sink = sink
         self.clip = clip
@@ -308,13 +313,27 @@ class PromptUI:
 
         return '\n'.join(read())
 
+    def _log_now(self):
+        now = self.time.now
+        d2 = now - self.t2
+        d1 = self.t2 - self.t1
+        a1 = d2 - d1
+        self.t1, self.t2 = self.t2, now
+        if not math.isnan(a1):
+            return f'TDD{int(a1 * 1e6)}'
+        if not math.isnan(d2):
+            return f'TD{int(d2 * 1e6)}'
+        return f'T{now}'
+
     def log(self, mess: str):
-        self.sink(f'T{self.time.now} {mess}')
+        now = self._log_now()
+        self.sink(f'{now} {mess}')
 
     def logz(self, s: str):
+        now = self._log_now()
         zb1 = self.zlog.compress(s.encode())
         zb2 = self.zlog.flush(zlib.Z_SYNC_FLUSH)
-        self.sink(f'T{self.time.now} Z {b85encode(zb1 + zb2).decode()}')
+        self.sink(f'{now} Z {b85encode(zb1 + zb2).decode()}')
 
     def write(self, mess: str):
         self.last = 'print' if mess.endswith('\n') else 'write'
@@ -437,6 +456,8 @@ class PromptUI:
             if callable(sink): self.sink = sink
             if callable(clip): self.clip = clip
             if callable(get_input): self.get_input = get_input
+            self.t1 = math.nan
+            self.t2 = math.nan
             yield self
         finally:
             self.sink = prior_sink
