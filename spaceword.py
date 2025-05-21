@@ -219,8 +219,7 @@ def test_board_copy():
         '     O R W _ _ _ _      ',
         '------------------------']
 
-    for ilet in board.select(board.cursor(2, 2, 'X')).updates('hello'.upper()):
-        board.update(*ilet)
+    board.update(board.select(board.cursor(2, 2, 'X')).updates('hello'))
 
     assert list(board.show()) == [
         '------------------------',
@@ -359,14 +358,14 @@ class Board:
         if match:
             i = int(match[1])
             let = str(match[2] or '')
-            self.update(i, let)
+            self.set(i, let)
             return True
 
         return False
 
     def copy(self, updates: Iterable[tuple[int, str]] = ()):
         b = Board(self.size, self.letters, self.grid)
-        for ilet in updates: b.update(*ilet)
+        for ilet in updates: b.set(*ilet)
         return b
 
     def shift(self, dx: int, dy: int) -> Generator[tuple[int, str]]:
@@ -500,7 +499,11 @@ class Board:
                     if len(token) > 1:
                         yield token
 
-    def update(self, i: int, let: str):
+    def update(self, changes: Iterable[tuple[int, str]]):
+        for i, let in changes:
+            self.set(i, let)
+
+    def set(self, i: int, let: str):
         prior = self.grid[i]
         if prior == let: return
         if prior:
@@ -1510,7 +1513,7 @@ class SpaceWord(StoredLog):
 
     def update(self, ui: PromptUI, changes: Iterable[tuple[int, str]]):
         for i, let in changes:
-            self.board.update(i, let)
+            self.board.set(i, let)
             ui.log(f'change: {i} {let}')
 
     def generate(self, ui: PromptUI):
@@ -1633,8 +1636,7 @@ class Search:
                         if n else f'cleared cap')
 
             elif ui.tokens.have('clear'):
-                for i, let in enumerate(self.board.grid):
-                    if let: self.board.update(i, '')
+                self.board.update((i, '') for i, let in enumerate(self.board.grid) if let)
                 ui.print('Cleared board.')
 
             elif ui.tokens.have('reset'):
@@ -1968,8 +1970,7 @@ class Search:
             if dx != 0 or dy != 0:
                 if verbose:
                     ui.write(f'{n}. D:{dx:+},{dy:+}: ')
-                for i, c in board.shift(dx, dy):
-                    board.update(i, c)
+                board.update(board.shift(dx, dy))
                 if verbose:
                     ui.fin()
 
