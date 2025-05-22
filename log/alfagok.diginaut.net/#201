@@ -1,0 +1,30 @@
+T0.0002274229991598986 now: 2025-05-22T07:29:34EDT
+TD39 site: alfagok.diginaut.net
+TDD215827 loaded 399889 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (963 words excluded) asof f3402fc60e46576bac0c62515a0eac0b2ea89b88
+TDD5008100 [0 : 199935 : 399889] lijm? b
+TDD-5223796 progress: -1 199935 lijm
+TDD1983632 [0 : 99789 : 199935] ex? a
+TDD-1983727 progress: 1 99789 ex
+TDD2143861 [99790 : 149497 : 199935] huis? b
+TDD-2143873 progress: -1 149497 huis
+TDD2600016 [99790 : 111445 : 149497] ge? a
+TDD-2600016 progress: 1 111445 ge
+TDD1887883 [111446 : 130471 : 149497] gracieus? a
+TDD-1887875 progress: 1 130471 gracieus
+TDD3375974 [130472 : 139949 : 149497] heij? [C!
+TDD552188 [130472 : 139949 : 149497] heij? !
+TDD-672342 [130472 : 139830 : 149496] hei? b
+TDD-3255793 progress: -1 139830 hei
+TDD3047865 [130472 : 135138 : 139830] haat? b
+TDD-3047889 progress: -1 135138 haat
+TDD2519848 [130472 : 132667 : 135138] groep? it
+TDD-2519832 progress: 0 132667 groep
+TDD-74 [130472 : 132667 : 135138] <Done>.
+TDD2856011 press <Return> to finish
+TDD-2687491 Press <Enter> to 📋 or `>` for line prompt 
+TDD-166622 share result: "\ud83e\udde9 Puzzel #201\n\ud83e\udd14 8 gokken\n\u23f1\ufe0f 25s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-1683 result puzzle: 201
+TDD-218 result guesses: 8
+TDD-3 result time: 25s
+TDD0 result link: alfagok.diginaut.net
+TDD1 <STOP>
