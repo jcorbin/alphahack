@@ -494,6 +494,21 @@ class Board:
         h = abs(y2 - y1)
         return w*h
 
+    def is_tangent(self, sel: 'Select'):
+        if any(sel): return True
+
+        stride = 1 if sel.dir == 'X' else self.size
+
+        if len(sel):
+            i = sel.ix[0] - stride
+            if i > 0 and self.grid[i]: return True
+
+        if len(sel) > 1:
+            i = sel.ix[-1] + stride
+            if i < len(self.grid) and self.grid[i]: return True
+
+        return False
+
     def adds_area(self, sel: 'Select') -> int:
         bounds = self.defined_rect
         if not bounds:
@@ -753,6 +768,17 @@ class Board:
                     yield dot
                 else:
                     yield dot
+
+        @property
+        def dir(self):
+            try:
+                i = self.ix[0]
+            except IndexError:
+                return 'X'
+            sz = self.board.size
+            mx = max(self.ix)
+            dmx = mx - i
+            return 'Y' if (dmx % sz) == 0 else 'X'
 
         @property
         def cursor(self):
@@ -2500,7 +2526,9 @@ class Search:
                     else (
                         red
                         for red in seed.reductions()
-                        if board.adds_area(red) <= may_area)))
+                        if board.is_tangent(red)
+                        if board.adds_area(red) <= may_area
+                    )))
             mark('constrain seeds')
 
             if verbose:
