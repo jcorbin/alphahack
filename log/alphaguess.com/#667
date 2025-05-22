@@ -1,0 +1,45 @@
+T0.0003256740019423887 now: 2025-05-22T07:39:16EDT
+TD362871 loaded 196560 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (43 words excluded) asof f3402fc60e46576bac0c62515a0eac0b2ea89b88
+TDD13896572 [0 : 98237 : 196560] mach? b
+TDD-14255763 progress: -1 98237 mach
+TDD2374420 [0 : 47397 : 98237] dis? a
+TDD-2377972 progress: 1 47397 dis
+TDD2935678 [47398 : 72817 : 98237] gremolata? b
+TDD-2935725 progress: -1 72817 gremolata
+TDD2119095 [47398 : 60100 : 72817] face? a
+TDD-2119101 progress: 1 60100 face
+TDD2920722 [60101 : 66456 : 72817] french? a
+TDD-2920487 progress: 1 66456 french
+TDD1550641 [66457 : 69637 : 72817] geosyncline? a
+TDD-1550881 progress: 1 69637 geosyncline
+TDD1560642 [69638 : 71228 : 72817] gnomon? a
+TDD-1560503 progress: 1 71228 gnomon
+TDD1695489 [71229 : 72023 : 72817] gracious? b
+TDD-1695403 progress: -1 72023 gracious
+TDD1647603 [71229 : 71622 : 72023] goo? b
+TDD-1646912 progress: -1 71622 goo
+TDD6898628 [71229 : 71422 : 71622] goggle? a
+TDD-6899304 progress: 1 71422 goggle
+TDD1890007 [71423 : 71521 : 71622] golly? b
+TDD-1890212 progress: -1 71521 golly
+TDD1783829 [71423 : 71467 : 71521] golden? a
+TDD-1783858 progress: 1 71467 golden
+TDD1824070 [71468 : 71490 : 71521] golds? b
+TDD-1824058 progress: -1 71490 golds
+TDD1792433 [71468 : 71479 : 71490] golder? a
+TDD-1792377 progress: 1 71479 golder
+TDD1695502 [71480 : 71485 : 71490] goldfinch? a
+TDD-1695577 progress: 1 71485 goldfinch
+TDD1599643 [71486 : 71488 : 71490] goldfishes? b
+TDD-1599649 progress: -1 71488 goldfishes
+TDD1960241 [71486 : 71487 : 71488] goldfish? it
+TDD-1960002 progress: 0 71487 goldfish
+TDD-207 [71486 : 71487 : 71488] <Done>.
+TDD2911965 press <Return> to finish
+TDD-2744409 Press <Enter> to 📋 or `>` for line prompt 
+TDD-162317 share result: "\ud83e\udde9 Puzzle #667\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 37s\n\n\ud83d\udd17 alphaguess.com"
+TDD-908 result puzzle: 667
+TDD-4387 result guesses: 17
+TDD-28 result time: 37s
+TDD-2 result link: alphaguess.com
+TDD70 <STOP>
