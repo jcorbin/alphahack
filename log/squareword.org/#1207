@@ -1,0 +1,91 @@
+T0.000310953997541219 now: 2025-05-22T07:40:30EDT
+TD40 site: squareword.org
+TDD13338220 🧩  ? #1207
+TDD-13337903 puzzle_id: #1207
+TDD-337 wordlist: nwl2023.txt
+TDD3271030 > *
+TDD1024607 try? 2
+TDD-4294416 questioning: ["spear", "#5"]
+TDD518328 spear ( #5 ) ? 
+TDD176549 spear ( #5 ) > 
+TDD1079948 spear ( #5 ) 1> sp_
+TDD-1775569 word: 0 sp___
+TDD-482 may: 0 
+TDD3728167 spear ( #5 ) 2> 1 ~ r
+TDD-3727860 word: 0 sp___
+TDD-308 may: 0 r
+TDD3598017 spear ( #5 ) 2> ____r ~ er
+TDD-3597874 word: 1 ____r
+TDD-145 may: 1 e r
+TDD2983889 spear ( #5 ) 3> ~ ser
+TDD-2983811 word: 2 _____
+TDD-77 may: 2 e r s
+TDD2025408 spear ( #5 ) 4> ~ e
+TDD-2025175 word: 3 _____
+TDD-219 may: 3 e
+TDD2679272 spear ( #5 ) 5> __e ~ sp
+TDD-2678981 word: 4 __e__
+TDD-279 may: 4 p s
+TDD-15 question done
+TDD2415445 > /no a
+TDD-2414985 nope: a
+TDD606289 > *
+TDD12682493 try? 6
+TDD-13288518 questioning: ["sport", "#1"]
+TDD821986 sport ( #1 ) ? 
+TDD289188 sport ( #1 ) > sport
+TDD312440 sport ( #1 ) > 
+TDD167791 sport ( #1 ) 1> sport
+TDD-1591773 word: 0 sport
+TDD-338 may: 0 
+TDD3935481 sport ( #1 ) 2> ~ ert
+TDD-3935242 word: 1 ____r
+TDD-252 may: 1 e r t
+TDD6167600 sport ( #1 ) 3> 5 ~ spot
+TDD-6167495 word: 4 __e__
+TDD-118 may: 4 o p s t
+TDD-2 question done
+TDD1607268 > ~ 5
+TDD1465715 > 
+TDD-2138042 > ~ 5'
+TDD1410101 > ~ 5
+TDD279126 > * 5
+TDD-2238474 questioning: ["poets", "#5"]
+TDD4508120 poets ( #5 ) ? 
+TDD746220 poets ( #5 ) > 5 poets
+TDD-5639923 word: 4 poets
+TDD-112 may: 4 
+TDD-1 question done
+TDD1919648 > * 2
+TDD-1490366 questioning: ["truer", "#2"]
+TDD3974096 truer ( #2 ) ? 
+TDD-1051349 truer ( #2 ) > 
+TDD-1536847 truer ( #2 ) 1> 2 truer
+TDD-1815099 word: 1 truer
+TDD-81 may: 1 
+TDD5288485 truer ( #2 ) 3> ␚
+TDD-5288319 question done
+TDD671175 > *
+TDD-333643 questioning: ["rinse", "#3"]
+TDD6101241 rinse ( #3 ) ? 
+TDD-3382561 rinse ( #3 ) > 3 rinse
+TDD-3056230 word: 2 rinse
+TDD-147 may: 2 
+TDD3487702 rinse ( #3 ) 4> ___ee ~ e
+TDD-3487354 word: 3 ___ee
+TDD-339 may: 3 e
+TDD1415144 rinse ( #3 ) 5> *
+TDD1289670 rinse ( #3 ) 5> ␚
+TDD-2704432 question done
+TDD910315 > *
+TDD142535 questioning: ["emcee", "#4"]
+TDD2013744 emcee ( #4 ) ? 
+TDD-2851447 emcee ( #4 ) > 
+TDD1792482 emcee ( #4 ) 1> 4 emcee
+TDD-2007948 word: 3 emcee
+TDD-76 may: 3 
+TDD4208896 emcee ( #4 ) 5> 
+TDD-4208854 question done
+TDD207208 Press <Enter> to 📋 or `>` for line prompt 
+TDD-202180 result: "squareword.org 1207: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1207"
+TDD21931 <STOP>
