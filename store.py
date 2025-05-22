@@ -394,6 +394,16 @@ class StoredLog:
                 if os.path.isfile(maybe_log_file):
                     return maybe_log_file
 
+                mayhaps = tuple(
+                    ent.path
+                    for ent in os.scandir(sd)
+                    if puzzle_id in ent.name)
+                if len(mayhaps) == 1:
+                    return mayhaps[0]
+
+                if len(mayhaps) > 1:
+                    ui.print(f'! ambiguous substring, mayhaps: {mayhaps!r}')
+
             found_log_file = find()
             if not found_log_file:
                 ui.print(f'! unable to find prior log {puzzle_id!r} in {sd}')
