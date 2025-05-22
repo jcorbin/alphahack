@@ -122,3 +122,48 @@ TDD903268 [prior:2158 bet:2165]> /res
 TDD-503253 Press <Enter> to 📋 or `>` for line prompt 
 TDD-397026 result: "\u2728 Spaceword.org Daily 2025-05-22 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 69/225 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD1337935 [prior:2165]> /store
+T1.5788887419985258 now: 2025-05-22T08:40:40EDT
+TD1669994 [prior:2165]> ~
+TDD-381987 search a58d32 [ 1 ]> max def
+TDD1599994 search a58d32 [ 1 max:35 ]> prune
+TDD-1192050 search a58d32 [ 1 max:35 may:3 ]> take
+TDD-623926 search a58d32 [ 4 max:35 ]> prune
+TDD-407982 search a58d32 [ 4 max:35 may:10 ]> take
+TDD271892 search a58d32 [ 14 max:35 ]> prune
+TDD-439917 search a58d32 [ 14 max:35 may:29 ]> take
+TDD303985 search a58d32 [ 43 max:35 ]> prune
+TDD-175950 search a58d32 [ 43 max:35 may:73 ]> take
+TDD1224247 search a58d32 [ 116 max:35 ]> prune
+TDD-1352626 search a58d32 [ 116 max:35 may:160 ]> take
+TDD2776486 search a58d32 [ 276 max:35 ]> cen
+TDD-1880265 search a58d32 [ 276 max:35 ]> add 100
+TDD9530413 Z LUxj=MT)TzAt%A2O+kS`5dcj7kVZ+Qf4C<?oUoGs00030{{
+TDD-10921886 Z 8iY;)00030{{
+TDD-379 Z 8iY;)00030{{
+TDD-14 Z 8iY;)00030{{
+TDD9 Z 8iY;)00030{{
+TDD-15 Z 8iY;)00030{{
+TDD-1 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD37 Z 8iY;)00030{{
+TDD-37 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD59 Z 8iY;)00030{{
+TDD-59 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD84 Z 8iY;)00030{{
+TDD-83 Z 8iY;)00030{{
+TDD-1 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD4100822 search a58d32 [ 275 max:35 may:50605 done:25 dead:95 reject:20 ]> show done
+TDD347165 search a58d32 [ 275 max:35 may:50605 done:25 dead:95 reject:20 ]> show 1
+TDD11159875 search a58d32 [ 275 max:35 may:50605 done:25 dead:95 reject:20 ]> ret
+TDD-15607678 change: 27 
+TDD-187 change: 87 
+TDD-9 change: 27 N
+TDD2553099 [prior:2165 bet:2170]> /res
+TDD-1930212 Press <Enter> to 📋 or `>` for line prompt 
+TDD-620376 result: "\u2728 Spaceword.org Daily 2025-05-22 \u2728\n\n\ud83c\udfc6 Score: 2170\n\ud83c\udfc5 Rank: 30/230 \ud83c\udf8a\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +70\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD3138935 [prior:2170]> /store
