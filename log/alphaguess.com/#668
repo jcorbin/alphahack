@@ -1,0 +1,41 @@
+T0.00023595200036652386 now: 2025-05-23T08:41:02EDT
+TD61797 loaded 196560 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (43 words excluded) asof 81173e64268b773bf474766f3fdf435913319447
+TDD3449746 [0 : 98237 : 196560] mach? b
+TDD-3511335 progress: -1 98237 mach
+TDD1791562 [0 : 47397 : 98237] dis? b
+TDD-1791686 progress: -1 47397 dis
+TDD1535844 [0 : 23695 : 47397] camp? a
+TDD-1535869 progress: 1 23695 camp
+TDD1535907 [23696 : 35539 : 47397] convention? b
+TDD-1535898 progress: -1 35539 convention
+TDD1487926 [23696 : 29617 : 35539] circuit? b
+TDD-1487903 progress: -1 29617 circuit
+TDD1327862 [23696 : 26649 : 29617] cep? a
+TDD-1327883 progress: 1 26649 cep
+TDD1407854 [26650 : 28127 : 29617] chick? b
+TDD-1407862 progress: -1 28127 chick
+TDD1287793 [26650 : 27346 : 28127] char? a
+TDD-1287776 progress: 1 27346 char
+TDD1503941 [27347 : 27701 : 28127] check? b
+TDD-1503958 progress: -1 27701 check
+TDD1271927 [27347 : 27525 : 27701] chase? a
+TDD-1271920 progress: 1 27525 chase
+TDD1327893 [27526 : 27572 : 27701] chat? a
+TDD-1327891 progress: 1 27572 chat
+TDD1295899 [27573 : 27637 : 27701] chautauqua? a
+TDD-1295902 progress: 1 27637 chautauqua
+TDD2335857 [27638 : 27665 : 27701] cheap? a
+TDD-2335861 progress: 1 27665 cheap
+TDD1431848 [27666 : 27683 : 27701] cheapo? a
+TDD-1431834 progress: 1 27683 cheapo
+TDD1615804 [27684 : 27688 : 27701] cheat? it
+TDD-1615810 progress: 0 27688 cheat
+TDD-57 [27684 : 27688 : 27701] <Done>.
+TDD3784094 press <Return> to finish
+TDD-3368174 Press <Enter> to 📋 or `>` for line prompt 
+TDD-413687 share result: "\ud83e\udde9 Puzzle #668\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1975 result puzzle: 668
+TDD-260 result guesses: 15
+TDD-4 result time: 22s
+TDD0 result link: alphaguess.com
+TDD1 <STOP>
