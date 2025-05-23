@@ -279,7 +279,6 @@ class StoredLog:
         parse = LogParser()
 
         prior_t: float|None = None
-        prior_then_t: float|None = None
         prior_then: datetime.datetime|None = None
         cur_t: float|None = None
 
@@ -304,13 +303,9 @@ class StoredLog:
                     if self.start is None:
                         self.start = then
                     elif prior_then is not None:
-                        dur = 0
-                        if prior_t is not None:
-                            assert prior_then_t is not None
-                            dur = prior_t - prior_then_t
+                        dur = 0 if prior_t is None else prior_t
                         self.sessions.append(LogSession(prior_then, datetime.timedelta(seconds=dur)))
                     prior_then = then
-                    prior_then_t = t
                     prior_t, cur_t = None, t
                 continue
 
