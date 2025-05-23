@@ -1,0 +1,132 @@
+T0.00022667199664283544 now: 2025-05-23T08:29:16EDT
+TD36 site: squareword.org
+TDD5821562 🧩  ? #1208
+TDD-5821446 puzzle_id: #1208
+TDD-135 wordlist: nwl2023.txt
+TDD1319913 > *
+TDD3479927 try? 1
+TDD-4798753 questioning: ["laser", "#5"]
+TDD317725 laser ( #5 ) ? 
+TDD441581 laser ( #5 ) > 
+TDD4327647 laser ( #5 ) 1> ___er
+TDD-5087723 word: 0 ___er
+TDD-320 may: 0 
+TDD2255277 laser ( #5 ) 2> ~ e
+TDD-2255035 word: 1 _____
+TDD-245 may: 1 e
+TDD1887727 laser ( #5 ) 3> ~ aer
+TDD-1887632 word: 2 _____
+TDD-94 may: 2 a e r
+TDD5400276 laser ( #5 ) 4> ___e ~ er
+TDD-5400175 word: 3 ___e_
+TDD-100 may: 3 e r
+TDD3591544 laser ( #5 ) 5> _a ~ r
+TDD-3591463 word: 4 _a___
+TDD-81 may: 4 r
+TDD0 question done
+TDD2607933 > /no sl
+TDD-2607672 nope: l s
+TDD767643 > *
+TDD4544398 try? 
+TDD-4872714 try? 
+TDD1128451 try? 1
+TDD-1567884 questioning: ["defer", "#4"]
+TDD439721 defer ( #4 ) ? 
+TDD296307 defer ( #4 ) > 
+TDD928160 defer ( #4 ) 1> 
+TDD5567119 defer ( #4 ) 2> 3 _e
+TDD-7231352 word: 2 _e___
+TDD-110 may: 2 a r
+TDD3839853 defer ( #4 ) 4> ~ erd
+TDD-3839755 word: 3 ___e_
+TDD-98 may: 3 d e r
+TDD6280127 defer ( #4 ) 5> ␚
+TDD-6280075 question done
+TDD3056050 > /no f
+TDD-3056014 nope: f l s
+TDD887691 > *
+TDD12320185 try? 5
+TDD-13207854 questioning: ["greed", "#4"]
+TDD2951917 greed ( #4 ) ? 
+TDD-2648202 greed ( #4 ) > 
+TDD4360195 greed ( #4 ) 1> 4 _reed
+TDD-4663936 word: 3 _reed
+TDD-84 may: 3 
+TDD3816077 greed ( #4 ) 5> ␚
+TDD-3816033 question done
+TDD1391726 > /no g
+TDD-1391707 nope: f g l s
+TDD9840045 > *
+TDD-2447924 try? 2
+TDD-7392087 questioning: ["opera", "#2"]
+TDD3215773 opera ( #2 ) ? 
+TDD-2135947 opera ( #2 ) > 
+TDD352016 opera ( #2 ) 1> ~ o
+TDD-1431853 word: 0 ___er
+TDD-85 may: 0 o
+TDD3887893 opera ( #2 ) 2> op_
+TDD-3887814 word: 1 op___
+TDD-79 may: 1 e
+TDD3607953 opera ( #2 ) 3> _e__a
+TDD-3607859 word: 2 _e__a
+TDD-93 may: 2 r
+TDD6399965 opera ( #2 ) 4> 5 _a_r ~ r
+TDD-6399865 word: 4 _a_r_
+TDD-99 may: 4 r
+TDD0 question done
+TDD8208101 > *
+TDD-5589635 questioning: ["opine", "#2"]
+TDD394994 opine ( #2 ) ? 
+TDD-2477438 opine ( #2 ) > 
+TDD1007928 opine ( #2 ) 1> 2 opine
+TDD-1543861 word: 1 opine
+TDD-88 may: 1 
+TDD3127888 opine ( #2 ) 3> 1 ~ on
+TDD-3127810 word: 0 ___er
+TDD-76 may: 0 n o
+TDD15080184 opine ( #2 ) 2> ␚
+TDD-15080123 question done
+TDD2007757 > *
+TDD273683 questioning: ["recta", "#3"]
+TDD1501121 recta ( #3 ) ? 
+TDD-3102457 recta ( #3 ) > 
+TDD1527637 recta ( #3 ) 1> 3 recta
+TDD-2207727 word: 2 recta
+TDD-77 may: 2 
+TDD3672216 recta ( #3 ) 4> 1 ~ ont
+TDD-3672115 word: 0 ___er
+TDD-100 may: 0 n o t
+TDD3239725 recta ( #3 ) 2> 4 ~ c
+TDD-3239631 word: 3 _reed
+TDD-93 may: 3 c
+TDD2656075 recta ( #3 ) 5> ␚
+TDD-2656029 question done
+TDD583600 > *
+TDD1322570 questioning: ["toner", "#1"]
+TDD1947671 toner ( #1 ) ? 
+TDD-3685141 toner ( #1 ) > 
+TDD2134481 toner ( #1 ) 1> toner
+TDD-2303146 word: 0 toner
+TDD-83 may: 0 
+TDD2640159 toner ( #1 ) 2> ␚
+TDD-2640113 question done
+TDD479541 > *
+TDD921889 questioning: ["creed", "#4"]
+TDD965172 creed ( #4 ) ? 
+TDD-2134729 creed ( #4 ) > 
+TDD1416160 creed ( #4 ) 1> 4 creed
+TDD-1647998 word: 3 creed
+TDD-82 may: 3 
+TDD1759912 creed ( #4 ) 5> ␚
+TDD-1759871 question done
+TDD607860 > *
+TDD333414 questioning: ["harry", "#5"]
+TDD1405456 harry ( #5 ) ? 
+TDD-2178865 harry ( #5 ) > 
+TDD1456113 harry ( #5 ) 1> 5 harry
+TDD-1623944 word: 4 harry
+TDD-75 may: 4 
+TDD0 question done
+TDD4911964 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4909878 result: "squareword.org 1208: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1208"
+TDD17562 <STOP>
