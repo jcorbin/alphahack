@@ -1,0 +1,144 @@
+T0.00021366200235206634 now: 2025-05-23T08:33:03EDT
+TD39 site: https://play.dictionary.com/games/todays-hurdle
+TDD-8 wordlist: nwl2023.txt
+TDD30123330 1.1> *
+TDD-20923300 1.1> tried sware
+TDD-9199904 tried: sware
+TDD5183796 1.2> no sawe
+TDD-5183802 nope: aesw
+TDD2079686 1.2> may r
+TDD-2079708 may: r
+TDD983810 1.2> *
+TDD2032106 1.2> 
+TDD-120112 1.2> tried robin
+TDD-2895854 tried: robin
+TDD2799905 1.3> no bin
+TDD-2799897 nope: abeinsw
+TDD2871897 1.3> may ro
+TDD-2871905 may: or
+TDD959791 1.3> *
+TDD7256287 1.3> tried froth
+TDD-8216091 tried: froth
+TDD1487817 1.4> word _ro
+TDD-1487755 word: _ro__
+TDD2079867 1.4> no fth
+TDD-2079914 nope: abefhinstw
+TDD671714 1.4> *
+TDD1984298 1.4> may .
+TDD-2656018 may: 
+TDD495789 1.4> *
+TDD18720367 1.4> tried group
+TDD-19216164 tried: group
+TDD4087939 1.5> word _rou
+TDD-4087930 word: _rou_
+TDD2367945 1.5> no g
+TDD-2367930 nope: abefghinstw
+TDD1031691 1.5> may . p
+TDD-1031690 may: p
+TDD607827 1.5> *
+TDD12520152 1.5> word proud
+TDD-13128005 word: proud
+TDD1615944 2.1> tried proud
+TDD-1615951 tried: proud
+TDD36560308 2.2> no prou
+TDD-36560277 nope: opru
+TDD1223841 2.2> may d
+TDD-1223864 may: d
+TDD527816 2.2> *
+TDD9896346 2.2> tried admin
+TDD-10424156 tried: admin
+TDD2223928 2.3> no min
+TDD-2223924 nope: imnopru
+TDD2599753 2.3> may ad
+TDD-2599737 may: ad
+TDD520159 2.3> *
+TDD5583390 2.3> tried fades
+TDD-6103577 tried: fades
+TDD1383881 2.4> no fs
+TDD-1383872 nope: fimnoprsu
+TDD1343896 2.4> may ade
+TDD-1343901 may: ade
+TDD639851 2.4> *
+TDD6520235 2.4> tried death
+TDD-7160081 tried: death
+TDD1527755 2.5> word dea
+TDD-1527764 word: dea__
+TDD1447944 2.5> may . t
+TDD-1447735 may: t
+TDD1519387 2.5> no h
+TDD-1519582 nope: fhimnoprsu
+TDD1015985 2.5> *
+TDD4351966 2.5> word dealt
+TDD-5367952 word: dealt
+TDD6591889 3.1> no dealt
+TDD-6591887 nope: adelt
+TDD2623845 3.1> *
+TDD5784589 3.1> tried sonic
+TDD-8408427 tried: sonic
+TDD5087381 3.2> word ___ic
+TDD-5087390 word: ___ic
+TDD1839888 3.2> no son
+TDD-1839886 nope: adelnost
+TDD935876 3.2> *
+TDD13112232 3.2> tried pubic
+TDD-14048133 tried: pubic
+TDD2143996 3.3> word _ubic
+TDD-2143965 word: _ubic
+TDD2351858 3.3> no p
+TDD-2351849 nope: adelnopst
+TDD567685 3.3> *
+TDD4144273 3.3> word cubic
+TDD-4711965 word: cubic
+TDD12191926 4.1> tried cubic
+TDD-12191946 tried: cubic
+TDD2311907 4.2> word c
+TDD-2311904 word: c____
+TDD5079922 4.2> no ubi
+TDD-5079918 nope: biu
+TDD767882 4.2> *
+TDD5008047 4.2> tried clean
+TDD-5775941 tried: clean
+TDD2591975 4.3> no lan
+TDD-2591953 nope: abilnu
+TDD1239732 4.3> may . e
+TDD-1239746 may: e
+TDD1096381 4.3> *
+TDD12015150 4.3> tried coder
+TDD-13111537 tried: coder
+TDD3512192 4.4> no d
+TDD-3512177 nope: abdilnu
+TDD2191573 4.4> may . oer
+TDD-2191582 may: eor
+TDD671984 4.4> *
+TDD11832006 4.4> word chore
+TDD-12503993 word: chore
+TDD16048015 5.1> tried proud
+TDD-16048018 tried: proud
+TDD2303922 5.2> tried dealt
+TDD-2303906 tried: dealt
+TDD3735833 5.3> tried cubic
+TDD-3735843 tried: cubic
+TDD1943862 5.4> tried chore
+TDD-1943862 tried: chore
+TDD2999946 5.5> word p_
+TDD-2999933 word: p____
+TDD2063763 5.5> may a
+TDD-2063780 may: a
+TDD5272084 5.5> no ert uio d h l c b
+TDD-5272065 nope: bcdehilortu
+TDD8367967 5.5> *
+TDD6072070 5.5> tried pangs
+TDD-14440057 tried: pangs
+TDD2655911 5.6> word pan
+TDD-2655892 word: pan__
+TDD3023754 5.6> no g
+TDD-3023764 nope: bcdeghilortu
+TDD1975794 5.6> may . s
+TDD-1975795 may: s
+TDD1271850 5.6> *
+TDD3064161 5.6> word pansy
+TDD-4336015 word: pansy
+TDD7631989 Press <Enter> to 📋 or `>` for line prompt 
+TDD-7629650 result: "Hurdle 1238\n\n5/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,600"
+TDD-2096 puzzle_id: #1238
+TDD-303 <STOP>
