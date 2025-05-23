@@ -1,0 +1,46 @@
+T1.7338706640002783 now: 2025-05-23T08:39:41EDT
+TD38 site: spaceword.org
+TDD4455541 📜 nwl2023.txt ? 
+TDD-4455507 wordlist: nwl2023.txt
+TDD3223738 🧩  ? daily 20250523
+TDD-3223454 puzzle_id: 2025-05-23
+TDD5095474 num letters (default: 21) ? 
+TDD-5095773 num_letters: 21
+TDD3255781 letters? aaabcdd
+TDD-3255647 letters: |AAABCDD|
+TDD2680236 letters? eeefiii
+TDD-2680344 letters: |AAABCDDEEEFIII|
+TDD2895574 letters? lnorvwx
+TDD-2895574 letters: |AAABCDDEEEFIIILNORVWX|
+TDD607729 letters. 
+TDD1792287 [doit:100]> ~
+TDD600044 search d4f9ba [ 1 ]> cap 600
+TDD-2320281 search d4f9ba [ 1 cap:600 ]> **
+TDD107513295 search d4f9ba [ 600 cap:600 may:2772 done:12 dead:19 ]> show done
+TDD-103761060 search d4f9ba [ 600 cap:600 may:2772 done:12 dead:19 ]> show 4
+TDD65728776 search d4f9ba [ 600 cap:600 may:2772 done:12 dead:19 ]> ret
+TDD-70160644 change: 15 I
+TDD-217 change: 23 F
+TDD-5 change: 24 A
+TDD-1 change: 25 R
+TDD0 change: 34 D
+TDD0 change: 35 E
+TDD0 change: 44 A
+TDD0 change: 45 N
+TDD0 change: 54 X
+TDD0 change: 55 I
+TDD0 change: 63 V
+TDD0 change: 64 I
+TDD0 change: 65 C
+TDD0 change: 66 E
+TDD0 change: 67 D
+TDD0 change: 74 A
+TDD0 change: 83 E
+TDD0 change: 84 L
+TDD0 change: 85 B
+TDD0 change: 86 O
+TDD0 change: 87 W
+TDD839659 [doit:2160]> /resa
+TDD72642 Press <Enter> to 📋 or `>` for line prompt 
+TDD-909112 result: "\u2728 Spaceword.org Daily 2025-05-23 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 133/216 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD7745478 [prior:2160]> /store
