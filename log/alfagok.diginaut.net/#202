@@ -1,0 +1,53 @@
+T0.00025497100432403386 now: 2025-05-23T08:27:25EDT
+TD37 site: alfagok.diginaut.net
+TDD227492 loaded 399888 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (964 words excluded) asof 81173e64268b773bf474766f3fdf435913319447
+TDD10497239 [0 : 199934 : 399888] lijm? a
+TDD-10724580 progress: 1 199934 lijm
+TDD2271648 [199935 : 299700 : 399888] schro? b
+TDD-2271737 progress: -1 299700 schro
+TDD5407820 [199935 : 247897 : 299700] op? a
+TDD-5407848 progress: 1 247897 op
+TDD4471968 [247898 : 273705 : 299700] proef? a
+TDD-4471967 progress: 1 273705 proef
+TDD2319920 [273706 : 286697 : 299700] rijns? a
+TDD-2319915 progress: 1 286697 rijns
+TDD3263819 [286698 : 293009 : 299700] samen? a
+TDD-3263818 progress: 1 293009 samen
+TDD1919944 [293010 : 296334 : 299700] schenk? a
+TDD-1919934 progress: 1 296334 schenk
+TDD2047769 [296335 : 298014 : 299700] schooi? b
+TDD-2047760 progress: -1 298014 schooi
+TDD1927837 [296335 : 297152 : 298014] schilder? b
+TDD-1927835 progress: -1 297152 schilder
+TDD1927765 [296335 : 296707 : 297152] scheur? a
+TDD-1927787 progress: 1 296707 scheur
+TDD2575908 [296708 : 296772 : 297152] schie? !
+TDD1944074 [296708 : 296930 : 297151] schiffelers? !
+TDD-1848014 [296708 : 296930 : 297150] schiffer? !
+TDD207920 [296708 : 296931 : 297149] schift? a
+TDD-2879869 progress: 1 296931 schift
+TDD2431756 [296932 : 296968 : 297149] schijn? a
+TDD-2431780 progress: 1 296968 schijn
+TDD1767973 [296969 : 297059 : 297149] schijnvriend? b
+TDD-1767945 progress: -1 297059 schijnvriend
+TDD1687798 [296969 : 297012 : 297059] schijnheil? b
+TDD-1687805 progress: -1 297012 schijnheil
+TDD1840150 [296969 : 296990 : 297012] schijndode? a
+TDD-1840164 progress: 1 296990 schijndode
+TDD1871536 [296991 : 297001 : 297012] schijngehakt? b
+TDD-1871544 progress: -1 297001 schijngehakt
+TDD1823869 [296991 : 296995 : 297001] schijnen? it
+TDD-1823867 progress: 0 296995 schijnen
+TDD-59 [296991 : 296995 : 297001] <Done>.
+TDD183910 press <Return> to finish
+TDD88455 Press <Enter> to 📋 or `>` for line prompt 
+TDD-270380 share result: "schijnen"
+TDD587697 Press <Enter> to 📋 or `>` for line prompt 
+TDD-587574 share result: "schijnen"
+TDD3619713 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3619700 share result: "\ud83e\udde9 Puzzel #202\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 50s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-2073 result puzzle: 202
+TDD-53 result guesses: 17
+TDD-3 result time: 50s
+TDD0 result link: alfagok.diginaut.net
+TDD4 <STOP>
