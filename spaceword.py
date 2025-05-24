@@ -1690,6 +1690,7 @@ class Search:
         self.halos: dict[str, Halo] = dict()
         self.last_shown: str|None = None
         self.history: list[PlainData] = []
+        self.seen: set[str] = set()
 
     def get_source(self, token: str) -> Source|None:
         src: Search.Source|None = lambda: ((nom, sub) for nom, sub in self.sources.items())
@@ -1762,6 +1763,7 @@ class Search:
                 ui.print('Cleared board.')
 
             elif ui.tokens.have('reset'):
+                self.seen.clear()
                 self.history.clear()
                 self.frontier = Halo.of([self.board])
                 self.halos.clear()
@@ -1769,6 +1771,7 @@ class Search:
                 any_bail = True
 
             elif ui.tokens.have('zero'):
+                self.seen.clear()
                 self.history.clear()
                 self.frontier = Halo.of([])
                 self.halos.clear()
@@ -1971,19 +1974,29 @@ class Search:
                 del self.halos[key]
 
     def offer_halo(self, may: 'Halo'):
+        def seen_before(board: Board, _i: int):
+            bone = board.to_bone()
+            if bone in self.seen: return True
+            self.seen.add(bone)
+            return False
+        prune = may.split(seen_before)
+
         done = may.split(lambda board, i: may.scores[i] > 1)
         reject = None if done is None else done.split(lambda board, i: self.reject(board))
         dead = may.split(lambda board, i: may.scores[i] < 0)
+
         def meta() -> Generator[PlainEntry]:
             yield from may.meta
             yield 'may', len(may)
             yield 'done', len(done) if done else 0
+            yield 'prune', len(prune) if prune else 0
             yield 'dead', len(dead) if dead else 0
             yield 'reject', len(reject) if reject else 0
         self.history.append(tuple(meta()))
         self.update_halos((
             ('may', may),
             ('done', done),
+            ('prune', prune),
             ('dead', dead),
             ('reject', reject),
         ))
