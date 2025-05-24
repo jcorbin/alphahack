@@ -1,0 +1,35 @@
+T0.00019770400001561939 now: 2025-05-24T07:28:48EDT
+TD101299 loaded 196560 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (43 words excluded) asof 7f59ce970ffde25dd2dbc6ab8631a976427307ce
+TDD6538064 [0 : 98237 : 196560] mach? a
+TDD-6639196 progress: 1 98237 mach
+TDD1871894 [98238 : 147399 : 196560] rhumb? a
+TDD-1871990 progress: 1 147399 rhumb
+TDD1879351 [147400 : 171666 : 196560] ta? b
+TDD-1879360 progress: -1 171666 ta
+TDD5887560 [147400 : 159512 : 171666] slop? a
+TDD-5887551 progress: 1 159512 slop
+TDD1799785 [159513 : 165555 : 171666] stick? b
+TDD-1799783 progress: -1 165555 stick
+TDD1751821 [159513 : 162500 : 165555] spec? a
+TDD-1751831 progress: 1 162500 spec
+TDD1703696 [162501 : 164026 : 165555] squab? b
+TDD-1703699 progress: -1 164026 squab
+TDD1927867 [162501 : 163236 : 164026] spit? b
+TDD-1927862 progress: -1 163236 spit
+TDD1639733 [162501 : 162868 : 163236] spheric? a
+TDD-1639731 progress: 1 162868 spheric
+TDD1527850 [162869 : 163036 : 163236] spin? b
+TDD-1527846 progress: -1 163036 spin
+TDD1479815 [162869 : 162946 : 163036] spider? a
+TDD-1479808 progress: 1 162946 spider
+TDD1776864 [162947 : 162990 : 163036] spike? it
+TDD-1776879 progress: 0 162990 spike
+TDD-49 [162947 : 162990 : 163036] <Done>.
+TDD2806802 press <Return> to finish
+TDD-2614853 Press <Enter> to 📋 or `>` for line prompt 
+TDD-189335 share result: "\ud83e\udde9 Puzzle #669\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 24s\n\n\ud83d\udd17 alphaguess.com"
+TDD-2363 result puzzle: 669
+TDD-236 result guesses: 12
+TDD-21 result time: 24s
+TDD-1 result link: alphaguess.com
+TDD2 <STOP>
