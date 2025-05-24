@@ -1,0 +1,112 @@
+T0.00023199399998929948 now: 2025-05-24T07:29:31EDT
+TD38 site: squareword.org
+TDD5914583 🧩  ? #1209
+TDD-5914491 puzzle_id: #1209
+TDD-114 wordlist: nwl2023.txt
+TDD1232130 > *
+TDD4655410 try? 3
+TDD-5886541 questioning: ["races", "#5"]
+TDD766058 races ( #5 ) ? 
+TDD-375106 races ( #5 ) > 
+TDD1927920 races ( #5 ) 1> ~ es
+TDD-2319460 word: 0 _____
+TDD-415 may: 0 e s
+TDD1992221 races ( #5 ) 2> ~ aes
+TDD-1992113 word: 1 _____
+TDD-110 may: 1 a e s
+TDD3231157 races ( #5 ) 3> ___e ~ r
+TDD-3231071 word: 2 ___e_
+TDD-84 may: 2 r
+TDD3055870 races ( #5 ) 4> ~ e
+TDD-3055796 word: 3 _____
+TDD-75 may: 3 e
+TDD2919786 races ( #5 ) 5> ____s ~ e
+TDD-2919701 word: 4 ____s
+TDD-85 may: 4 e
+TDD-1 question done
+TDD2471966 > /no c
+TDD-2471726 nope: c
+TDD1143531 > *
+TDD4016063 try? 1
+TDD-5159670 questioning: ["skate", "#2"]
+TDD495723 skate ( #2 ) ? 
+TDD-199949 skate ( #2 ) > 
+TDD2687969 skate ( #2 ) 1> s_ ~ et
+TDD-2983824 word: 0 s____
+TDD-81 may: 0 e t
+TDD4487862 skate ( #2 ) 2> __a_e ~ s
+TDD-4487793 word: 1 __a_e
+TDD-70 may: 1 s
+TDD2735879 skate ( #2 ) 3> ~ rt
+TDD-2735798 word: 2 ___e_
+TDD-79 may: 2 r t
+TDD3927861 skate ( #2 ) 4> 5 ~ et
+TDD-3927790 word: 4 ____s
+TDD-71 may: 4 e t
+TDD0 question done
+TDD1303913 > /no k
+TDD-1303855 nope: c k
+TDD1039840 > *
+TDD6248146 try? 3
+TDD-7287947 questioning: ["phase", "#2"]
+TDD1431754 phase ( #2 ) ? 
+TDD-911847 phase ( #2 ) > 
+TDD2343919 phase ( #2 ) 1> ~ etp
+TDD-2863834 word: 0 s____
+TDD-86 may: 0 e p t
+TDD2159926 phase ( #2 ) 2> phase
+TDD-2159873 word: 1 phase
+TDD-55 may: 1 
+TDD5136445 phase ( #2 ) 3> 
+TDD-4545042 phase ( #2 ) 4> ␚
+TDD-591353 question done
+TDD920014 > *
+TDD2944091 try? 1
+TDD-3864063 questioning: ["swept", "#1"]
+TDD295741 swept ( #1 ) ? 
+TDD-111899 swept ( #1 ) > 
+TDD2048886 swept ( #1 ) 1> swept
+TDD-2232752 word: 0 swept
+TDD-67 may: 0 
+TDD7199526 swept ( #1 ) 2> 4 __e
+TDD-7199450 word: 3 __e__
+TDD-73 may: 3 
+TDD1584016 swept ( #1 ) 5> ␚
+TDD-1583947 question done
+TDD623847 > *
+TDD237165 questioning: ["tends", "#5"]
+TDD1558022 tends ( #5 ) ? 
+TDD-2211134 tends ( #5 ) > 
+TDD3664088 tends ( #5 ) 1> 5 tends
+TDD-3871985 word: 4 tends
+TDD-72 may: 4 
+TDD0 question done
+TDD2440181 > *
+TDD-1394963 questioning: ["ileum", "#4"]
+TDD2357589 ileum ( #4 ) ? 
+TDD-3098520 ileum ( #4 ) > 
+TDD5167511 ileum ( #4 ) 1> 3 ~ rtil
+TDD-5471728 word: 2 ___e_
+TDD-68 may: 2 i l r t
+TDD2295993 ileum ( #4 ) 4> ileum
+TDD-2295929 word: 3 ileum
+TDD-65 may: 3 
+TDD1847991 ileum ( #4 ) 5> ␚
+TDD-1847957 question done
+TDD967960 > *
+TDD-188648 questioning: ["liter", "#3"]
+TDD2913485 liter ( #3 ) ? 
+TDD-3228892 liter ( #3 ) > 
+TDD3056090 liter ( #3 ) 1> 3 liter
+TDD-3519951 word: 2 liter
+TDD-77 may: 2 
+TDD4208038 liter ( #3 ) 4> 
+TDD-4000042 liter ( #3 ) 5> 
+TDD-207961 question done
+TDD719966 Press <Enter> to 📋 or `>` for line prompt 
+TDD-717553 result: "liter"
+TDD635069 Press <Enter> to 📋 or `>` for line prompt 
+TDD-635230 result: "liter"
+TDD3891418 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3891656 result: "squareword.org 1209: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1209"
+TDD26297 <STOP>
