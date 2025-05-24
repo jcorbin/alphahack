@@ -2984,3 +2984,346 @@ TDD1031573 [prior:2164 bet:2168]> /res
 TDD-615531 Press <Enter> to 📋 or `>` for line prompt 
 TDD-413328 result: "\u2728 Spaceword.org Daily 2025-05-24 \u2728\n\n\ud83c\udfc6 Score: 2168\n\ud83c\udfc5 Rank: 65/212 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +68\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD2226594 [prior:2168]> /store
+T198.35096164599963 now: 2025-05-24T08:30:21EDT
+TD1528729 [prior:2168]> ~
+TDD710886 search 70a8d6 [ 1 ]> cap 1000
+TDD-919655 search 70a8d6 [ 1 cap:1000 ]> prune
+TDD-407899 search 70a8d6 [ 1 cap:1000 may:3 ]> take
+TDD39919 search 70a8d6 [ 4 cap:1000 ]> prune
+TDD-335907 search 70a8d6 [ 4 cap:1000 may:7 prune:3 ]> take
+TDD255888 search 70a8d6 [ 11 cap:1000 ]> prune
+TDD-191914 search 70a8d6 [ 11 cap:1000 may:13 prune:10 ]> take
+TDD256407 search 70a8d6 [ 24 cap:1000 ]> prune
+TDD-312908 search 70a8d6 [ 24 cap:1000 may:21 prune:23 ]> take
+TDD4536551 search 70a8d6 [ 45 cap:1000 ]> prune
+TDD-3208127 search 70a8d6 [ 45 cap:1000 may:31 prune:44 ]> take
+TDD-623877 search 70a8d6 [ 76 cap:1000 ]> cen
+TDD463916 search 70a8d6 [ 76 cap:1000 ]> add 200
+TDD-1266395 Z LUNM1L83*98IBD^@RLTVvw;X700000|Nj
+TDD5076906 search 70a8d6 [ 75 cap:1000 may:250 prune:26 reject:1 ]> take
+TDD-3738466 search 70a8d6 [ 325 cap:1000 ]> cen
+TDD408007 search 70a8d6 [ 325 cap:1000 ]> add 200
+TDD5792459 search 70a8d6 [ 325 cap:1000 may:493 prune:653 dead:2 ]> take
+TDD-7368516 search 70a8d6 [ 818 cap:1000 ]> cen
+TDD3383720 search 70a8d6 [ 818 cap:1000 ]> add 100
+TDD8488557 search 70a8d6 [ 818 cap:1000 may:114 prune:1435 ]> take
+TDD-12032339 search 70a8d6 [ 932 cap:1000 ]> cen
+TDD1584192 search 70a8d6 [ 932 cap:1000 ]> add 100
+TDD10688069 search 70a8d6 [ 932 cap:1000 may:9 prune:1561 ]> take
+TDD-11432309 search 70a8d6 [ 941 cap:1000 ]> cen
+TDD-303827 search 70a8d6 [ 941 cap:1000 ]> add 100
+TDD8748669 Z BF;&O${%T;E68b(5OZ?$p<)jO00030{{
+TDD-9820649 Z A~KZV0D1d8$V~y%cM|{r0RR6
+TDD-49 Z BGO6lVDb+|UG7B#CjkHe0RR6
+TDD2356808 search 70a8d6 [ 941 cap:1000 may:3 prune:1574 reject:3 ]> take
+TDD-742261 search 70a8d6 [ 944 cap:1000 ]> cen
+TDD-174593 search 70a8d6 [ 944 cap:1000 ]> add 100
+TDD7646835 Z A~BTwk)sgBZPbfG00000|Nj
+TDD-9086744 Z A~oXZkg5Ox00960
+TDD-54 Z q9BxL6@vf(00960
+TDD-4 Z B0H35m#6>$00960
+TDD5817299 search 70a8d6 [ 944 cap:1000 may:1560 prune:1580 dead:24 reject:4 ]> drop 500
+TDD-5217367 search 70a8d6 [ 444 cap:1000 may:1560 prune:1580 dead:24 reject:4 ]> take
+TDD1120102 search 70a8d6 [ 1000 cap:1000 ]> cen
+TDD-463957 search 70a8d6 [ 1000 cap:1000 ]> add 100
+TDD9376550 Z 8ieH%00030{{
+TDD-10632587 Z 8iY;)00030{{
+TDD-38 Z 8iY;)00030{{
+TDD-4 Z 8iY;)00030{{
+TDD-1 Z 8iY;)00030{{
+TDD0 Z 8iaKm00030{{
+TDD7 Z 8iY;)00030{{
+TDD-8 Z 8iY;)00030{{
+TDD0 Z 8iXwY00000|Nj
+TDD2 Z 8iXwY00000|Nj
+TDD-1 Z 8iXwY00000|Nj
+TDD0 Z 8iXwY00000|Nj
+TDD0 Z 8iXwY00000|Nj
+TDD0 Z 8iXwY00000|Nj
+TDD0 Z 8ib()00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8ib`c00030{{
+TDD0 Z 8ib`c00030{{
+TDD16007298 search 70a8d6 [ 990 cap:1000 may:490 prune:549 dead:39 reject:20 ]> take
+TDD-14735288 search 70a8d6 [ 1000 cap:1000 ]> cen
+TDD48074 search 70a8d6 [ 1000 cap:1000 ]> add 100
+TDD9907352 Z 8ieg700000|Nj
+TDD-11227395 Z 8iY;)00030{{
+TDD-34 Z 8iY;)00030{{
+TDD-3 Z 8iY;)00030{{
+TDD-1 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iZ|c00000|Nj
+TDD0 Z 8iY;)00030{{
+TDD-1 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY+a00000|Nj
+TDD3 Z 8iY+a00000|Nj
+TDD-3 Z 8id^e00000|Nj
+TDD0 Z 8id^e00000|Nj
+TDD0 Z 8iZX-00000|Nj
+TDD1 Z 8iZX-00000|Nj
+TDD2 Z 8ib()00030{{
+TDD12 Z 8ib()00030{{
+TDD-12 Z 8iY9x00030{{
+TDD-2 Z 8iY9x00030{{
+TDD2 Z 8ib`c00030{{
+TDD-2 Z 8ib`c00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8ib()00030{{
+TDD5 Z 8iaKm00030{{
+TDD-3 Z 8iaKm00030{{
+TDD-1 Z 8iZ*H00030{{
+TDD0 Z 8iZ*H00030{{
+TDD10612087 search 70a8d6 [ 1000 cap:1000 may:213 prune:252 reject:39 ]> drop 150
+TDD-10020216 search 70a8d6 [ 850 cap:1000 may:213 prune:252 reject:39 ]> take
+TDD920187 search 70a8d6 [ 1000 cap:1000 ]> cen
+TDD-264065 search 70a8d6 [ 1000 cap:1000 ]> add 100
+TDD9914927 Z 8iYe$00000|Nj
+TDD-11162877 Z 8iY;)00030{{
+TDD-33 Z 8iY;)00030{{
+TDD-3 Z 8iY;)00030{{
+TDD-3 Z 8iY;)00030{{
+TDD-1 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD6 Z 8iY;)00030{{
+TDD1 Z 8iY;)00030{{
+TDD-7 Z 8ib>800000|Nj
+TDD0 Z 8iY;)00030{{
+TDD-1 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iXBi00000|Nj
+TDD1 Z 8iXBi00000|Nj
+TDD-1 Z 8ia#600000|Nj
+TDD12 Z 8ia#600000|Nj
+TDD-7 Z 8ia$)00000|Nj
+TDD-2 Z 8ia$)00000|Nj
+TDD-1 Z 8ib()00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8ib`c00030{{
+TDD0 Z 8ib`c00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8iaKm00030{{
+TDD6 Z 8iaKm00030{{
+TDD-5 Z 8iZ*H00030{{
+TDD0 Z 8iZ*H00030{{
+TDD-1 Z 8ib`c00030{{
+TDD0 Z 8ib`c00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8ib`c00030{{
+TDD0 Z 8ib`c00030{{
+TDD0 Z 8iZ*H00030{{
+TDD0 Z 8iZ*H00030{{
+TDD0 Z 8iZ*H00030{{
+TDD0 Z 8iZ*H00030{{
+TDD0 Z 8iZ*H00030{{
+TDD0 Z 8iZ*H00030{{
+TDD0 Z 8iaKm00030{{
+TDD0 Z 8iaKm00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD5195928 search 70a8d6 [ 1000 cap:1000 may:174 prune:243 reject:69 ]> take
+TDD-4667962 search 70a8d6 [ 1000 cap:1000 ]> cen
+TDD2152134 search 70a8d6 [ 1000 cap:1000 ]> add 100
+TDD8435209 Z 8idPW00000|Nj
+TDD-11115268 Z 8iY;)00030{{
+TDD-34 Z 8iY;)00030{{
+TDD-4 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD-1 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD8 Z 8iY;)00030{{
+TDD-5 Z 8ieZv00000|Nj
+TDD0 Z 8iY;)00030{{
+TDD-2 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iY;)00030{{
+TDD0 Z 8iXUd00000|Nj
+TDD1 Z 8iXUd00000|Nj
+TDD-1 Z 8icb000000|Nj
+TDD0 Z 8icb000000|Nj
+TDD9 Z 8iX@V00000|Nj
+TDD-6 Z 8iX@V00000|Nj
+TDD-2 Z 8ib()00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8ib`c00030{{
+TDD0 Z 8ib`c00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8iaKm00030{{
+TDD0 Z 8iaKm00030{{
+TDD0 Z 8iZ*H00030{{
+TDD30 Z 8iZ*H00030{{
+TDD-22 Z 8ib`c00030{{
+TDD-5 Z 8ib`c00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8ib`c00030{{
+TDD0 Z 8ib`c00030{{
+TDD0 Z 8iZ*H00030{{
+TDD0 Z 8iZ*H00030{{
+TDD0 Z 8iZ*H00030{{
+TDD0 Z 8iZ*H00030{{
+TDD0 Z 8iZ*H00030{{
+TDD0 Z 8iZ*H00030{{
+TDD0 Z 8iaKm00030{{
+TDD0 Z 8iaKm00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8ieH%00030{{
+TDD0 Z 8ieH%00030{{
+TDD0 Z 8ieH%00030{{
+TDD0 Z 8ieH%00030{{
+TDD0 Z 8iZ*H00030{{
+TDD0 Z 8iZ*H00030{{
+TDD0 Z 8iZ*H00030{{
+TDD12 Z 8iZ*H00030{{
+TDD-11 Z 8iZ*H00030{{
+TDD5 Z 8iZ*H00030{{
+TDD-6 Z 8iZ*H00030{{
+TDD0 Z 8iZ*H00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8ib()00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8iY9x00030{{
+TDD0 Z 8icJ%00000|Nj
+TDD0 Z 8icJ%00000|Nj
+TDD0 Z 8ib()00030{{
+TDD0 Z 8ib()00030{{
+TDD5610798 search 70a8d6 [ 1000 cap:1000 may:96 prune:200 reject:104 ]> take
+TDD-3706441 search 70a8d6 [ 1000 cap:1000 ]> prune
+TDD3823419 search 70a8d6 [ 1000 cap:1000 may:323 prune:2714 ]> drop 200
+TDD-4263448 search 70a8d6 [ 800 cap:1000 may:323 prune:2714 ]> take
+TDD-920592 search 70a8d6 [ 1000 cap:1000 ]> cen
+TDD600278 search 70a8d6 [ 1000 cap:1000 ]> add 100
+TDD9320669 Z BF;%Ja28qRk^)JE00000|Nj
+TDD-10464628 Z A}y3$C@chsavJ~u0RR6
+TDD-39 Z qNEUTft3Q(brJvo0RR6
+TDD-3 Z q9ByWNJ~UH2><{9|Nj
+TDD-2 Z A~%#=$V%QsISBv&0RR6
+TDD2967280 search 70a8d6 [ 1000 cap:1000 may:69 done:1 prune:258 reject:5 ]> show done
+TDD-310445 search 70a8d6 [ 1000 cap:1000 may:69 done:1 prune:258 reject:5 ]> show 1
+TDD43783262 search 70a8d6 [ 1000 cap:1000 may:69 done:1 prune:258 reject:5 ]> ret
+TDD-46439908 change: 24 
+TDD-200 change: 13 
+TDD-2 change: 24 
+TDD-2 change: 14 
+TDD-1 change: 24 O
+TDD0 change: 15 
+TDD-1 change: 23 P
+TDD0 change: 33 U
+TDD0 change: 25 X
+TDD0 change: 37 T
+TDD0 change: 35 
+TDD0 change: 43 B
+TDD0 change: 36 
+TDD0 change: 55 
+TDD0 change: 46 T
+TDD0 change: 64 
+TDD0 change: 55 O
+TDD0 change: 65 
+TDD0 change: 56 O
+TDD0 change: 64 
+TDD0 change: 63 
+TDD-1 change: 64 
+TDD0 change: 64 
+TDD1 change: 74 U
+TDD0 change: 65 W
+TDD0 change: 75 
+TDD0 change: 66 O
+TDD0 change: 76 L
+TDD0 change: 75 E
+TDD0 change: 44 A
+TDD0 change: 83 
+TDD0 change: 45 
+TDD0 change: 84 
+TDD0 change: 45 
+TDD2 change: 85 
+TDD15 change: 45 L
+TDD-16 change: 47 I
+TDD-1 change: 54 G
+TDD0 change: 57 K
+TDD0 change: 67 E
+TDD0 change: 73 D
+TDD935540 [prior:2168 bet:2170]> /res
+TDD-383556 Press <Enter> to 📋 or `>` for line prompt 
+TDD-549291 result: "\u2728 Spaceword.org Daily 2025-05-24 \u2728\n\n\ud83c\udfc6 Score: 2170\n\ud83c\udfc5 Rank: 36/216 \ud83c\udf8a\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +70\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD1682686 [prior:2170]> /store
