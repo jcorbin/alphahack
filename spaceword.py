@@ -1690,7 +1690,7 @@ class Search:
         self.halos: dict[str, Halo] = dict()
         self.last_shown: str|None = None
         self.history: list[PlainData] = []
-        self.seen: set[str] = set()
+        self.explored: set[str] = set()
 
     def get_source(self, token: str) -> Source|None:
         src: Search.Source|None = lambda: ((nom, sub) for nom, sub in self.sources.items())
@@ -1763,7 +1763,7 @@ class Search:
                 ui.print('Cleared board.')
 
             elif ui.tokens.have('reset'):
-                self.seen.clear()
+                self.explored.clear()
                 self.history.clear()
                 self.frontier = Halo.of([self.board])
                 self.halos.clear()
@@ -1771,7 +1771,7 @@ class Search:
                 any_bail = True
 
             elif ui.tokens.have('zero'):
-                self.seen.clear()
+                self.explored.clear()
                 self.history.clear()
                 self.frontier = Halo.of([])
                 self.halos.clear()
@@ -1974,10 +1974,15 @@ class Search:
                 del self.halos[key]
 
     def offer_halo(self, may: 'Halo'):
+        have: set[str] = set()
+        rex: set[str] = set()
         def seen_before(board: Board, _i: int):
             bone = board.to_bone()
-            if bone in self.seen: return True
-            self.seen.add(bone)
+            if bone in self.explored:
+                rex.add(bone)
+                return True
+            if bone in have: return True
+            have.add(bone)
             return False
         prune = may.split(seen_before)
 
@@ -1990,6 +1995,8 @@ class Search:
             yield 'may', len(may)
             yield 'done', len(done) if done else 0
             yield 'prune', len(prune) if prune else 0
+            yield 'explored', len(rex)
+            yield 'duped', len(have)
             yield 'dead', len(dead) if dead else 0
             yield 'reject', len(reject) if reject else 0
         self.history.append(tuple(meta()))
@@ -2426,6 +2433,8 @@ class Search:
 
             from_boards = tuple(b for (b, _, _, _, _) in seed_posi)
             mark('offer prep')
+
+        self.explored.update(board.to_bone() for board in boards)
 
         def explain(i: int) -> Generator[str]:
             _, frags, seed, pos, pi = seed_posi[i]
