@@ -1,0 +1,29 @@
+T0.00023163395235314965 now: 2025-05-25T07:30:59EDT
+TD61115 loaded 196560 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (43 words excluded) asof bcadb966142162756671154623feab6d7fb21cca
+TDD10665218 [0 : 98237 : 196560] mach? a
+TDD-10725835 progress: 1 98237 mach
+TDD1684699 [98238 : 147399 : 196560] rhumb? a
+TDD-1684996 progress: 1 147399 rhumb
+TDD1460898 [147400 : 171666 : 196560] ta? a
+TDD-1460929 progress: 1 171666 ta
+TDD1526962 [171667 : 182034 : 196560] un? a
+TDD-1526949 progress: 1 182034 un
+TDD1776056 [182035 : 189297 : 196560] vicar? b
+TDD-1776028 progress: -1 189297 vicar
+TDD1764856 [182035 : 185665 : 189297] unretire? b
+TDD-1764871 progress: -1 185665 unretire
+TDD1632442 [182035 : 183850 : 185665] unembittered? b
+TDD-1632441 progress: -1 183850 unembittered
+TDD1628887 [182035 : 182817 : 183850] unco? a
+TDD-1628883 progress: 1 182817 unco
+TDD1850229 [182818 : 183144 : 183850] under? it
+TDD-1850185 progress: 0 183144 under
+TDD-210 [182818 : 183144 : 183850] <Done>.
+TDD2610724 press <Return> to finish
+TDD-2432006 Press <Enter> to 📋 or `>` for line prompt 
+TDD-171770 share result: "\ud83e\udde9 Puzzle #670\n\n\ud83e\udd14 9 guesses\n\n\u23f1\ufe0f 13s\n\n\ud83d\udd17 alphaguess.com"
+TDD-6055 result puzzle: 670
+TDD-893 result guesses: 9
+TDD-16 result time: 13s
+TDD-3 result link: alphaguess.com
+TDD5 <STOP>
