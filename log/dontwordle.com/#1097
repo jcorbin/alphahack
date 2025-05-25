@@ -1,0 +1,87 @@
+T0.00021644996013492346 now: 2025-05-25T07:39:25EDT
+TD33 site: dontwordle.com
+TDD-5 wordlist: nwl2023.txt
+TDD1795161 1> *
+TDD18840400 1> tried buzzy
+TDD-20635343 tried: buzzy
+TDD2737761 2> no buzy
+TDD-2737807 nope: buyz
+TDD736816 2> *
+TDD3476560 2> tried tooth
+TDD-4213381 tried: tooth
+TDD4481554 3> no toh
+TDD-4481438 nope: bhotuyz
+TDD592704 3> *
+TDD15565055 3> tried peeve
+TDD-16157871 tried: peeve
+TDD23498280 4> ␚
+TDD-23498367 <EOF>
+T0.04063124302774668 now: 2025-05-25T07:43:16EDT
+TD995472 4> undo
+TDD-994994 undo
+TDD2197535 3> undo
+TDD-2197804 undo
+TDD1234706 2> *
+TDD4475700 2> no . yuzb
+TDD-5710149 nope: buyz
+TDD1391500 2> *
+TDD8134232 2> tried papal
+TDD-9526008 tried: papal
+TDD5599650 3> no l
+TDD-5599419 nope: bluyz
+TDD1584846 3> word _ap
+TDD-1585012 word: _ap__
+TDD772950 3> *
+TDD13223723 3> undo
+TDD-13996741 undo
+TDD666061 2> undo
+TDD-666048 undo
+TDD854626 1> *
+TDD7558291 1> tried pappi
+TDD-8412951 tried: pappi
+TDD11070841 2> undo
+TDD-11070839 undo
+TDD962016 1> *
+TDD2930234 1> *
+TDD-2162955 1> no .
+TDD-1729255 nope: 
+TDD2712887 1> word _____
+TDD-2712777 word: _____
+TDD1307786 1> *
+TDD8120139 1> tried nutty
+TDD-9428042 tried: nutty
+TDD4905311 2> no nuty
+TDD-4905285 nope: ntuy
+TDD692942 2> *
+TDD4854051 2> tried sexes
+TDD-5547059 tried: sexes
+TDD3409454 3> no sxe
+TDD-3409367 nope: enstuxy
+TDD1326898 3> *
+TDD8747292 3> babka
+TDD-4963889 3> tried babka
+TDD-5110369 tried: babka
+TDD8545177 4> no bk
+TDD-8545134 nope: beknstuxy
+TDD2928403 4> word _a
+TDD-2928451 word: _a___
+TDD854498 4> *
+TDD15589037 4> tried hallo
+TDD-16443443 tried: hallo
+TDD5562906 5> no hol
+TDD-5562966 nope: behklnostuxy
+TDD2064457 5> *
+TDD15112986 5> *
+TDD-2294702 5> tried gaddi
+TDD-14882709 tried: gaddi
+TDD4659994 6> no g
+TDD-4659867 nope: beghklnostuxy
+TDD1031847 6> may di
+TDD-1031973 may: di
+TDD3257878 6> *
+TDD9695077 6> tried caird
+TDD-12952943 tried: caird
+TDD4150101 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4145234 result: "Don't Wordle 1097 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5072\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c921\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c85\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c29\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe87\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe92\nUndos used: 5\n\n  2 words remaining\nx 8 unused letters\n= 16 total score"
+TDD-3150 puzzle_id: #1097
+TDD-1939 <STOP>
