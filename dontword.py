@@ -167,6 +167,16 @@ class DontWord(StoredLog):
                     continue
 
                 match = re.match(r'''(?x)
+                    undo
+                    \s* ( .* )
+                    $''', rest)
+                if match:
+                    rest = match[1]
+                    assert rest == ''
+                    self.tried = self.tried[:-1]
+                    continue
+
+                match = re.match(r'''(?x)
                     word : \s+ ( [^\s]+ )
                     \s* ( .* )
                     $''', rest)
@@ -231,9 +241,19 @@ class DontWord(StoredLog):
                 'may': self.do_may,
                 'no': self.do_no,
                 'tried': self.do_tried,
+                'undo': self.do_undo,
                 'word': self.do_word,
                 '*': 'guess',
             })
+
+    def do_undo(self, ui: PromptUI):
+        '''
+        rollback last `tried <word>`
+        '''
+        if len(self.tried) > 0:
+            # TODO would be nice to undo word feedback as well
+            self.tried = self.tried[:-1]
+            ui.log('undo')
 
     def do_guess(self, ui: PromptUI):
         '''
