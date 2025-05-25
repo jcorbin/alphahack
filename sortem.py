@@ -71,13 +71,14 @@ class DiagScores:
     Score values are in the unit interval [0, 1].
 
     An ideally diagnostic letter occurs in half of the word list because, when
-    validated or eliminated by a guess, it will winnow away number of words.
+    validated or eliminated by a guess, it will winnow away half of possible
+    words.
 
     All words in the list are presumed to be of the same length N,
     but the minimal word length is used for the value of N in the event that
     word length varies over the list.
 
-    Each word's diagnostic score is then the average if its letter diagnostics.
+    Each word's diagnostic score is then the average of its letter diagnostics.
 
     Additionally each word's score is divided by the per-word letter counts, so
     that duplicate letters quickly reduce its score.
