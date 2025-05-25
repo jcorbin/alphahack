@@ -2,20 +2,29 @@
 
 This repository is my ongoing fascination with solving word games semi-automatically.
 
-1. originally started out as an alphaguess.com binary search solver
+1. originally started out as an [alphaguess.com](https://alphaguess.com/) binary search solver
   - was initially curious to modify mid point selection to try simpler prefix words first
   - this paired with an official scrabble word list proved very effective
-  - later on paired with a dutch wordlist to solve alfagok.diginaut.net
+  - later on paired with a dutch wordlist to solve [alfagok.diginaut.net](https://alfagok.diginaut.net/)
 
-2. LLM assisted solver for cemantle was made next
-  - this later was applied to the twin cemantix french puzzle
+2. LLM assisted solver for [cemantle](https://cemantle.certitudes.org/) was made next
+  - this later was applied to the twin [cemantix](https://cemantix.certitudes.org/) french puzzle
   - and even later became fully automated
 
-3. regular expression driven solver for squareword.org came next
+3. regular expression driven solver for [squareword.org](https://squareword.org/) came next
 
-4. and a similar regular expression solver for dictionary.com hurdle was made shortly after
+4. and a similar regular expression solver for
+   [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle)
+   was made shortly after
 
-5. currently working on a solver for spaceword.org
+5. a randomized/heuristic search solver for
+   [spaceword.org](https://spaceword.org/game/70836qp8h14zg6f) is working well
+   enough to solve its daily puzzles, but doesn't yet work efficiently enough
+   to solve weeklies
+
+6. most recently, have been managing to "not solve wordle" (
+   [dontwordle.com](https://dontwordle.com/) ), by a simplified and
+   score-inverted descendent of hurdle solver
 
 Throughout I've developed a few modules:
 - `sortem.py` -- handles possible word scoring, sampling, and choice
