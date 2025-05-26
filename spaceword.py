@@ -1752,6 +1752,8 @@ class Search:
             'show': self.do_show,
             'take': self.do_take,
             'zero': self.do_zero,
+
+            '*': 'add',
         })
 
     def do_add(self, ui: PromptUI):
@@ -2610,6 +2612,11 @@ class Search:
             # pos_scores=scores,
             # explain_pos_score=explain,
             metadata=meta())
+
+    def generate(self, ui: PromptUI):
+        # TODO do_center wen
+        # TODO do_prune wen
+        return self.do_add(ui)
 
 @final
 class Halo:
