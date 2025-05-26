@@ -2004,7 +2004,44 @@ class Search:
         '''
         sort 'may' halo boards into frontier
         '''
-        return self.take_halo(ui) # TODO merge
+        name: str = 'may'
+
+        halo = self.get_halo(name)
+        if not halo:
+            ui.print(f'! no {name} halo')
+            return
+
+        if not halo.parse_choices(ui, prior_n = self.frontier_cap):
+            return
+
+        chosen = (halo.boards[i] for i in halo.choices())
+        self.frontier = Halo.of(
+            chain(self.frontier, chosen),
+            Halo.WithWordLabels(self.wordlist))
+
+        if self.frontier_cap:
+            self.frontier = self.frontier.take(self.frontier_cap)
+
+        self.halos.clear()
+
+        def meta() -> Generator[PlainEntry]:
+            yield 'action', 'take'
+            yield 'name', name
+            yield 'sample', str(halo.sample)
+            yield 'halo', len(halo)
+            yield 'cap', self.frontier_cap
+            yield 'frontier', len(self.frontier)
+
+        def parts():
+            yield f'Took {halo.sample} from {name} {len(halo)}'
+            yield f'frontier now {len(self.frontier)}'
+            if self.frontier_cap:
+                yield f'cap {self.frontier_cap}'
+
+        if self.verbose:
+            ui.print(' '.join(parts()))
+
+        self.history.append(tuple(meta()))
 
     def do_zero(self, ui: PromptUI):
         '''
@@ -2175,44 +2212,6 @@ class Search:
         def meta() -> Generator[PlainEntry]:
             yield 'action', 'center'
             yield 'shifts', shifts
-
-        self.history.append(tuple(meta()))
-
-    def take_halo(self, ui: PromptUI, name: str = 'may'):
-        halo = self.get_halo(name)
-        if not halo:
-            ui.print(f'! no {name} halo')
-            return
-
-        if not halo.parse_choices(ui, prior_n = self.frontier_cap):
-            return
-
-        chosen = (halo.boards[i] for i in halo.choices())
-        self.frontier = Halo.of(
-            chain(self.frontier, chosen),
-            Halo.WithWordLabels(self.wordlist))
-
-        if self.frontier_cap:
-            self.frontier = self.frontier.take(self.frontier_cap)
-
-        self.halos.clear()
-
-        def meta() -> Generator[PlainEntry]:
-            yield 'action', 'take'
-            yield 'name', name
-            yield 'sample', str(halo.sample)
-            yield 'halo', len(halo)
-            yield 'cap', self.frontier_cap
-            yield 'frontier', len(self.frontier)
-
-        def parts():
-            yield f'Took {halo.sample} from {name} {len(halo)}'
-            yield f'frontier now {len(self.frontier)}'
-            if self.frontier_cap:
-                yield f'cap {self.frontier_cap}'
-
-        if self.verbose:
-            ui.print(' '.join(parts()))
 
         self.history.append(tuple(meta()))
 
