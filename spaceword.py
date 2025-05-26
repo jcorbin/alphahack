@@ -1794,7 +1794,38 @@ class Search:
         '''
         recenter all frontier boards
         '''
-        return self.recenter(ui) # TODO merge
+        verbose = self.verbose
+        while ui.tokens:
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                verbose += len(match.group(1))
+                continue
+
+            ui.print(f'! invalid arg {next(ui.tokens)!r}')
+            return
+
+        boards = tuple(self.frontier)
+        shifts = tuple(
+            ( h - math.floor(bounds[0]/2 + bounds[2]/2),
+              h - math.floor(bounds[1]/2 + bounds[3]/2)
+            ) if bounds else (0, 0)
+            for board in boards
+            for bounds in (board.defined_rect,)
+            for h in (board.size//2,))
+
+        for n, (board, (dx, dy)) in enumerate(zip(boards, shifts), 1):
+            if dx != 0 or dy != 0:
+                if verbose:
+                    ui.write(f'{n}. D:{dx:+},{dy:+}: ')
+                board.update(board.shift(dx, dy))
+                if verbose:
+                    ui.fin()
+
+        def meta() -> Generator[PlainEntry]:
+            yield 'action', 'center'
+            yield 'shifts', shifts
+
+        self.history.append(tuple(meta()))
 
     def do_clear(self, ui: PromptUI):
         '''
@@ -2266,41 +2297,6 @@ class Search:
             new_boards, scores, explain,
             meta = meta(),
         ))
-
-    def recenter(self, ui: PromptUI):
-        verbose = self.verbose
-
-        while ui.tokens:
-            match = ui.tokens.have(r'-(v+)')
-            if match:
-                verbose += len(match.group(1))
-                continue
-
-            ui.print(f'! invalid arg {next(ui.tokens)!r}')
-            return
-
-        boards = tuple(self.frontier)
-        shifts = tuple(
-            ( h - math.floor(bounds[0]/2 + bounds[2]/2),
-              h - math.floor(bounds[1]/2 + bounds[3]/2)
-            ) if bounds else (0, 0)
-            for board in boards
-            for bounds in (board.defined_rect,)
-            for h in (board.size//2,))
-
-        for n, (board, (dx, dy)) in enumerate(zip(boards, shifts), 1):
-            if dx != 0 or dy != 0:
-                if verbose:
-                    ui.write(f'{n}. D:{dx:+},{dy:+}: ')
-                board.update(board.shift(dx, dy))
-                if verbose:
-                    ui.fin()
-
-        def meta() -> Generator[PlainEntry]:
-            yield 'action', 'center'
-            yield 'shifts', shifts
-
-        self.history.append(tuple(meta()))
 
     def prune_word(self,
                    ui: PromptUI,
