@@ -1757,8 +1757,254 @@ class Search:
     def do_add(self, ui: PromptUI):
         '''
         generates new boards by adding a word to each frontier boards
+        usage: `add [-v[v...]] [<COUNT-PER> = <CAP>/<FRONTIER>(min:3) or 10] [...chooser-per options]`
         '''
-        return self.add_word(ui) # TODO merge
+
+        chooser = Chooser(show_n=10)
+        jitter: float = 0.5
+        verbose = self.verbose
+
+        if self.frontier_cap:
+            chooser.show_n = max(3, math.ceil(self.frontier_cap / len(self.frontier)))
+        while ui.tokens:
+            mn = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+            if mn is not None:
+                chooser.show_n = mn
+                continue
+
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                verbose += len(match.group(1))
+                continue
+
+            try:
+                if chooser.collect(ui.tokens):
+                    continue
+            except ValueError as err:
+                ui.print(f'! {err}')
+                return
+
+            ui.print(f'! invalid arg {next(ui.tokens)!r}')
+            return
+
+        timing: list[tuple[str, float, float]] = list()
+        with ui.time.elapsed('add_word',
+                             collect=lambda label, now, elapsed: timing.append((label, now, elapsed)),
+                             print=ui.print if verbose > 1 else lambda _: None,
+                             final=ui.print if verbose > 0 else lambda _: None,
+                             ) as mark:
+            wordlist = tuple(self.all_words())
+            mark('filter all words')
+
+            # NOTE should be redundant by proper result handling
+            ded = self.frontier.split(lambda board, i: not any(l for l in board.letters))
+            if ded and verbose:
+                ui.print(f'pruned {len(ded)} boards from frontier')
+            mark('prune')
+
+            boards = tuple(self.frontier)
+
+            # seed points for each board:
+            # - for empty boards, this is just a couple of empty selections
+            #   somewhere in the middle
+            # - for boards with a region of defined letters, this is every
+            #   row/col selection over the region's bounding rectangle
+            seed_points = tuple(tuple(board.seeds()) for board in boards)
+            mark('seed points')
+
+            # collect potential word fragments for every board:
+            # - a fragment is a sequence of defined letters in some row/col
+            # - that is at least 2 letters long and not in the wordlist
+            wordset = set(wordlist)
+            fragments = tuple(
+                tuple(
+                    frag
+                    for point in points
+                    for seed in (board.select(point),)
+                    if any(seed)
+                    for frag in islice((
+                        frag
+                        for frag in seed.tokens()
+                        if len(frag) > 1
+                        if str(frag) not in wordset
+                    ), 1))
+                for board, points in zip(boards, seed_points))
+            mark('fragments')
+
+            # seeds are selected regions of each board where we'll try to write a new word
+            # - first, we'll try to complete any fragments, since fragments
+            #   will kill a board solution if not completed
+            # - but if there are no fragments, then we'll consider every row
+            #   and column that intersects each board's already written region
+            # - which degenerates to a point selection somewhere in the middle of an empty board
+            seeds = tuple(
+                (board, frags, seed)
+                for board, points, frags in zip(boards, seed_points, fragments)
+                for seed in (
+                    flatten(
+                        flatten(
+                            board.select(pre).continuations()
+                            for pre in frag.cursor.pre())
+                        for frag in frags)
+                    if frags else (
+                        seed
+                        for point in points
+                        for sel in (board.select(point),)
+                        for seed in chain(
+                            (sel,),
+                            # TODO relax and evaluate pre-cursors ex nihilo?
+                            (board.select(pre) for pre in point.pre()) if any(sel) else ()
+                        ))
+                ))
+            mark('elaborate seeds')
+
+            if verbose:
+                ui.print(f'searching {len(seeds)} seeds from {len(boards)} boards')
+
+
+            # pull all possible words for every boards' seeds...
+            seed_words = tuple(
+                (board, frags, seed, tuple(grep(wordlist, seed.pattern, anchor='full')))
+                for board, frags, seed in seeds)
+            mark('grep words')
+
+            # ...but the regex may be too permissive, so apply a further
+            # feasibility filter on each boards' possible words per-seed
+            seed_words = tuple(
+                (board, frags, seed, tuple(
+                    word for word in words
+                    if not seed.nop_write(word)
+                    if seed.can_write(word)))
+                for board, frags, seed, words in seed_words)
+            mark('filter words')
+
+            def ideal_len_for(seed: Board.Select):
+                board = seed.board
+
+                bounds = board.defined_rect
+                if bounds:
+                    lo_x, lo_y, hi_x, hi_y = bounds
+                    return max(2, sum(
+                        1
+                        for x, y, _ in seed.iter_xy()
+                        if lo_x < x < hi_x
+                        if lo_y < y < hi_y
+                    ))
+
+                # TODO is this useful?
+                # return max(2, board.size//2)
+
+                return max(2, len(seed.ix) - 2)
+
+            # now, that's getting to be **rather a lot** of words, so take a
+            # parametric sample of each boards' filtered word list 
+            seed_pos = tuple(
+                (board, frags, seed, Possible(
+                    words,
+                    wsr.score,
+                    choices=chooser.choices,
+                    verbose=verbose))
+                for board, frags, seed, words in seed_words
+                for wsr in (WordScorer(ideal_len_for(seed), jitter=jitter),))
+            mark('seed pos')
+
+            # unroll and enumerate each possible word for every board
+            seed_posi = tuple(
+                (board, frags, seed, pos, pi)
+                for board, frags, seed, pos in seed_pos
+                for pi in pos.index())
+            mark('seed posi')
+
+            if not seed_posi:
+                ui.print(f'no search seeds possible ; make some edits?')
+                return
+
+            # finally apply possible words, generating new potential boards
+            may_boards = tuple(
+                board.copy(seed.updates(pos.data[pi]))
+                for board, _, seed, pos, pi in seed_posi)
+            mark('may boards')
+
+            # remnants are like fragments above, but for each potential board
+            remnants = tuple(
+                tuple(
+                    frag
+                    for point in board.seeds()
+                    for seed in (board.select(point),)
+                    if any(seed)
+                    for frag in islice((
+                        frag
+                        for frag in seed.tokens()
+                        if len(frag) > 1
+                        if str(frag) not in wordset
+                    ), 1))
+                for board in may_boards)
+            mark('remnants')
+
+            # each potential board gets a bonus score based on how many
+            # fragments it fixed or caused:
+            # - if a potential board fixes N fragments, its score gets an N+1 weight boon
+            # - but if a potential board adds N fragments, its score gets an N-exponential bane
+            bonus = tuple(
+                len(frags) - len(rems)
+                for ((_, frags, _, _, _), rems) in zip(seed_posi, remnants))
+
+            # each final board score is its possible word score
+            # amplified/attenuated by any boon/bane
+            scores = tuple(
+                pos.scores[pi] ** (1.0 / (1 + boon)) if boon > 0 else
+                pos.scores[pi] ** -boon if boon < 0 else
+                pos.scores[pi]
+                for ((_, _, _, pos, pi), boon) in zip(seed_posi, bonus))
+
+            from_boards = tuple(b for (b, _, _, _, _) in seed_posi)
+            mark('offer prep')
+
+        self.explored.update(board.to_bone() for board in boards)
+
+        def explain(i: int) -> Generator[str]:
+            _, frags, seed, pos, pi = seed_posi[i]
+            rems = remnants[i]
+            yield f'word:{pos.data[pi]!r}'
+            yield f'@{seed.cursor}+{len(seed)}'
+            yield f'*= word_score: {100*pos.scores[pi]:.2f}%'
+            yield from isurround(f'= (', pos.explain(pi), f')')
+
+            boon = bonus[i]
+            if boon > 0:
+                yield f'^1/= boon:{1+boon}'
+            elif boon < 0:
+                yield f'^= bane:{-boon}'
+
+            def parts():
+                a = set(str(sel) for sel in frags)
+                b = set(str(sel) for sel in rems)
+                x = a.symmetric_difference(b)
+                u = a.union(b)
+                for token in x:
+                    if token in a: yield f'-{token}'
+                    if token in b: yield f'+{token}'
+                for token in u: yield f'={token}'
+
+            yield from isurround(f'frags:(', parts(), f')')
+
+        def meta() -> Generator[PlainEntry]:
+            yield 'action', 'add word',
+            yield 'ded_pruned', len(ded) if ded else 0,
+            yield 'from', len(boards),
+            yield 'seeds', len(seeds),
+            tim = tuple(
+                (label, elapsed)
+                for label, _now, elapsed in timing)
+            yield 'timing', tim
+            # TODO frag stats
+
+        self.offer_boards(
+            from_boards, may_boards,
+            pos_scores=scores,
+            explain_pos_score=explain,
+            wordlist=wordlist,
+            metadata=meta())
 
     def do_board(self, ui: PromptUI):
         '''
@@ -2363,256 +2609,6 @@ class Search:
             from_boards, may_boards,
             # pos_scores=scores,
             # explain_pos_score=explain,
-            metadata=meta())
-
-    def add_word(self,
-                 ui: PromptUI,
-                 jitter: float = 0.5,
-                 per_n: int|None = None):
-
-        mn = ui.tokens.have(r'\d+', lambda m: int(m[0]))
-        if mn is not None:
-            per_n = mn
-        if per_n is None:
-            per_n = 3 if self.frontier_cap else 10
-        if self.frontier_cap:
-            per_n = max(per_n, math.ceil(self.frontier_cap / len(self.frontier)))
-        chooser = Chooser(show_n=per_n)
-
-        verbose = self.verbose
-        while ui.tokens:
-            match = ui.tokens.have(r'-(v+)')
-            if match:
-                verbose += len(match.group(1))
-                continue
-
-            try:
-                if chooser.collect(ui.tokens):
-                    continue
-            except ValueError as err:
-                ui.print(f'! {err}')
-                return
-
-            ui.print(f'! invalid arg {next(ui.tokens)!r}')
-            return
-
-        timing: list[tuple[str, float, float]] = list()
-        with ui.time.elapsed('add_word',
-                             collect=lambda label, now, elapsed: timing.append((label, now, elapsed)),
-                             print=ui.print if verbose > 1 else lambda _: None,
-                             final=ui.print if verbose > 0 else lambda _: None,
-                             ) as mark:
-            wordlist = tuple(self.all_words())
-            mark('filter all words')
-
-            # NOTE should be redundant by proper result handling
-            ded = self.frontier.split(lambda board, i: not any(l for l in board.letters))
-            if ded and verbose:
-                ui.print(f'pruned {len(ded)} boards from frontier')
-            mark('prune')
-
-            boards = tuple(self.frontier)
-
-            # seed points for each board:
-            # - for empty boards, this is just a couple of empty selections
-            #   somewhere in the middle
-            # - for boards with a region of defined letters, this is every
-            #   row/col selection over the region's bounding rectangle
-            seed_points = tuple(tuple(board.seeds()) for board in boards)
-            mark('seed points')
-
-            # collect potential word fragments for every board:
-            # - a fragment is a sequence of defined letters in some row/col
-            # - that is at least 2 letters long and not in the wordlist
-            wordset = set(wordlist)
-            fragments = tuple(
-                tuple(
-                    frag
-                    for point in points
-                    for seed in (board.select(point),)
-                    if any(seed)
-                    for frag in islice((
-                        frag
-                        for frag in seed.tokens()
-                        if len(frag) > 1
-                        if str(frag) not in wordset
-                    ), 1))
-                for board, points in zip(boards, seed_points))
-            mark('fragments')
-
-            # seeds are selected regions of each board where we'll try to write a new word
-            # - first, we'll try to complete any fragments, since fragments
-            #   will kill a board solution if not completed
-            # - but if there are no fragments, then we'll consider every row
-            #   and column that intersects each board's already written region
-            # - which degenerates to a point selection somewhere in the middle of an empty board
-            seeds = tuple(
-                (board, frags, seed)
-                for board, points, frags in zip(boards, seed_points, fragments)
-                for seed in (
-                    flatten(
-                        flatten(
-                            board.select(pre).continuations()
-                            for pre in frag.cursor.pre())
-                        for frag in frags)
-                    if frags else (
-                        seed
-                        for point in points
-                        for sel in (board.select(point),)
-                        for seed in chain(
-                            (sel,),
-                            # TODO relax and evaluate pre-cursors ex nihilo?
-                            (board.select(pre) for pre in point.pre()) if any(sel) else ()
-                        ))
-                ))
-            mark('elaborate seeds')
-
-            if verbose:
-                ui.print(f'searching {len(seeds)} seeds from {len(boards)} boards')
-
-
-            # pull all possible words for every boards' seeds...
-            seed_words = tuple(
-                (board, frags, seed, tuple(grep(wordlist, seed.pattern, anchor='full')))
-                for board, frags, seed in seeds)
-            mark('grep words')
-
-            # ...but the regex may be too permissive, so apply a further
-            # feasibility filter on each boards' possible words per-seed
-            seed_words = tuple(
-                (board, frags, seed, tuple(
-                    word for word in words
-                    if not seed.nop_write(word)
-                    if seed.can_write(word)))
-                for board, frags, seed, words in seed_words)
-            mark('filter words')
-
-            def ideal_len_for(seed: Board.Select):
-                board = seed.board
-
-                bounds = board.defined_rect
-                if bounds:
-                    lo_x, lo_y, hi_x, hi_y = bounds
-                    return max(2, sum(
-                        1
-                        for x, y, _ in seed.iter_xy()
-                        if lo_x < x < hi_x
-                        if lo_y < y < hi_y
-                    ))
-
-                # TODO is this useful?
-                # return max(2, board.size//2)
-
-                return max(2, len(seed.ix) - 2)
-
-            # now, that's getting to be **rather a lot** of words, so take a
-            # parametric sample of each boards' filtered word list 
-            seed_pos = tuple(
-                (board, frags, seed, Possible(
-                    words,
-                    wsr.score,
-                    choices=chooser.choices,
-                    verbose=verbose))
-                for board, frags, seed, words in seed_words
-                for wsr in (WordScorer(ideal_len_for(seed), jitter=jitter),))
-            mark('seed pos')
-
-            # unroll and enumerate each possible word for every board
-            seed_posi = tuple(
-                (board, frags, seed, pos, pi)
-                for board, frags, seed, pos in seed_pos
-                for pi in pos.index())
-            mark('seed posi')
-
-            if not seed_posi:
-                ui.print(f'no search seeds possible ; make some edits?')
-                return
-
-            # finally apply possible words, generating new potential boards
-            may_boards = tuple(
-                board.copy(seed.updates(pos.data[pi]))
-                for board, _, seed, pos, pi in seed_posi)
-            mark('may boards')
-
-            # remnants are like fragments above, but for each potential board
-            remnants = tuple(
-                tuple(
-                    frag
-                    for point in board.seeds()
-                    for seed in (board.select(point),)
-                    if any(seed)
-                    for frag in islice((
-                        frag
-                        for frag in seed.tokens()
-                        if len(frag) > 1
-                        if str(frag) not in wordset
-                    ), 1))
-                for board in may_boards)
-            mark('remnants')
-
-            # each potential board gets a bonus score based on how many
-            # fragments it fixed or caused:
-            # - if a potential board fixes N fragments, its score gets an N+1 weight boon
-            # - but if a potential board adds N fragments, its score gets an N-exponential bane
-            bonus = tuple(
-                len(frags) - len(rems)
-                for ((_, frags, _, _, _), rems) in zip(seed_posi, remnants))
-
-            # each final board score is its possible word score
-            # amplified/attenuated by any boon/bane
-            scores = tuple(
-                pos.scores[pi] ** (1.0 / (1 + boon)) if boon > 0 else
-                pos.scores[pi] ** -boon if boon < 0 else
-                pos.scores[pi]
-                for ((_, _, _, pos, pi), boon) in zip(seed_posi, bonus))
-
-            from_boards = tuple(b for (b, _, _, _, _) in seed_posi)
-            mark('offer prep')
-
-        self.explored.update(board.to_bone() for board in boards)
-
-        def explain(i: int) -> Generator[str]:
-            _, frags, seed, pos, pi = seed_posi[i]
-            rems = remnants[i]
-            yield f'word:{pos.data[pi]!r}'
-            yield f'@{seed.cursor}+{len(seed)}'
-            yield f'*= word_score: {100*pos.scores[pi]:.2f}%'
-            yield from isurround(f'= (', pos.explain(pi), f')')
-
-            boon = bonus[i]
-            if boon > 0:
-                yield f'^1/= boon:{1+boon}'
-            elif boon < 0:
-                yield f'^= bane:{-boon}'
-
-            def parts():
-                a = set(str(sel) for sel in frags)
-                b = set(str(sel) for sel in rems)
-                x = a.symmetric_difference(b)
-                u = a.union(b)
-                for token in x:
-                    if token in a: yield f'-{token}'
-                    if token in b: yield f'+{token}'
-                for token in u: yield f'={token}'
-
-            yield from isurround(f'frags:(', parts(), f')')
-
-        def meta() -> Generator[PlainEntry]:
-            yield 'action', 'add word',
-            yield 'ded_pruned', len(ded) if ded else 0,
-            yield 'from', len(boards),
-            yield 'seeds', len(seeds),
-            tim = tuple(
-                (label, elapsed)
-                for label, _now, elapsed in timing)
-            yield 'timing', tim
-            # TODO frag stats
-
-        self.offer_boards(
-            from_boards, may_boards,
-            pos_scores=scores,
-            explain_pos_score=explain,
-            wordlist=wordlist,
             metadata=meta())
 
 @final
