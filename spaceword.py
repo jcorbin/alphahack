@@ -1934,8 +1934,72 @@ class Search:
     def do_prune(self, ui: PromptUI):
         '''
         generates new boards by pruning word(s) from frontier boards
+        usage: `prune [-v[v...]] [<COUNT>]
         '''
-        return self.prune_word(ui) # TODO merge
+
+        num_prunes = 1
+        verbose = self.verbose
+        while ui.tokens:
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                verbose += len(match.group(1))
+                continue
+
+            mn = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+            if mn is not None:
+                num_prunes = mn
+                continue
+
+            ui.print(f'! invalid arg {next(ui.tokens)!r}')
+            return
+
+        timing: list[tuple[str, float, float]] = list()
+        with ui.time.elapsed('add_word',
+                             collect=lambda label, now, elapsed: timing.append((label, now, elapsed)),
+                             print=ui.print if verbose > 1 else lambda _: None,
+                             final=ui.print if verbose > 0 else lambda _: None,
+                             ) as mark:
+
+            boards = tuple(self.frontier)
+            affixes = tuple(
+                tuple(board.word_affixes())
+                for board in boards)
+            mark('affixes')
+
+            choose = tuple(
+                max(1, min(len(afs), num_prunes))
+                for afs in affixes)
+
+            board_choices = tuple(
+                (board, choices)
+                for board, afs, bn in zip(boards, affixes, choose)
+                for choices in combinations(afs, bn))
+            mark('choose tokens')
+
+            may_boards = tuple(
+                board.copy(
+                    (i, '')
+                    for token in choices
+                    for i in token.ix)
+                for board, choices in board_choices)
+            mark('gen boards')
+
+            from_boards = tuple(
+                board
+                for board, _choices in board_choices)
+
+        # TODO particular socring?
+        # def explain(i: int) -> Generator[str]:
+        #     pass
+
+        def meta() -> Generator[PlainEntry]:
+            yield 'action', 'prune word',
+
+        self.offer_boards(
+            from_boards, may_boards,
+            # pos_scores=scores,
+            # explain_pos_score=explain,
+            metadata=meta())
 
     def do_reset(self, ui: PromptUI):
         '''
