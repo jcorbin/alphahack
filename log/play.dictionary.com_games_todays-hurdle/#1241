@@ -1,0 +1,125 @@
+T0.00023352299467660487 now: 2025-05-26T08:01:27EDT
+TD41 site: https://play.dictionary.com/games/todays-hurdle
+TDD-6 wordlist: nwl2023.txt
+TDD175578440 1.1> pipenv run hurdle
+TDD-173377412 1.1> *
+TDD6014506 1.1> tried heals
+TDD-8215320 tried: heals
+TDD2022990 1.2> no heal
+TDD-2023139 nope: aehl
+TDD905906 1.2> may s
+TDD-905749 may: s
+TDD469961 1.2> *
+TDD7905271 1.2> tried skirt
+TDD-8375425 tried: skirt
+TDD1552229 1.3> no kit
+TDD-1552204 nope: aehiklt
+TDD2871694 1.3> word s
+TDD-2871706 word: s____
+TDD2899855 1.3> may r
+TDD-2899674 may: rs
+TDD1531718 1.3> may . r
+TDD-1531743 may: r
+TDD824097 1.3> *
+TDD70664274 1.3> word scrum
+TDD-71488518 word: scrum
+TDD2840195 2.1> tried scrum
+TDD-2840228 tried: scrum
+TDD3199142 2.2> no scum
+TDD-3199121 nope: cmsu
+TDD928549 2.2> may r
+TDD-928553 may: r
+TDD7055928 2.2> *
+TDD9195977 2.2> tried triad
+TDD-16251768 tried: triad
+TDD2348561 2.3> word _r
+TDD-2348686 word: _r___
+TDD3134571 2.3> may . tad
+TDD-3134583 may: adt
+TDD1856010 2.3> no i
+TDD-1855992 nope: cimsu
+TDD671817 2.3> *
+TDD12720436 2.3> word draft
+TDD-13392272 word: draft
+TDD13144117 3.1> tried draft
+TDD-13144121 tried: draft
+TDD10807710 3.2> *
+TDD15408779 3.2> no drtf
+TDD-26216461 nope: dfrt
+TDD1496168 3.2> word __a
+TDD-1496002 word: __a__
+TDD31431502 3.2> *
+TDD-26881040 3.2> tried slack
+TDD-4550516 tried: slack
+TDD1505330 3.3> no ck
+TDD-1505251 nope: cdfkrt
+TDD2478853 3.3> word s_a
+TDD-2479078 word: s_a__
+TDD1111951 3.3> may l
+TDD-1111862 may: l
+TDD559846 3.3> *
+TDD12016557 3.3> tried snail
+TDD-12576495 tried: snail
+TDD4727454 3.4> no ni
+TDD-4727429 nope: cdfiknrt
+TDD1696394 3.4> may .
+TDD-1696195 may: 
+TDD2670824 3.4> word s_a_l
+TDD-2671038 word: s_a_l
+TDD9665218 3.4> *
+TDD4253895 3.4> tried small
+TDD-13919115 tried: small
+TDD1727806 3.5> no m
+TDD-1727792 nope: cdfikmnrt
+TDD815828 3.5> *
+TDD9800201 3.5> word shawl
+TDD-10616034 word: shawl
+TDD7263943 4.1> tried shawl
+TDD-7263948 tried: shawl
+TDD2679930 4.2> no shal
+TDD-2679920 nope: ahls
+TDD3039778 4.2> may w
+TDD-3039792 may: w
+TDD12128069 4.2> *
+TDD-2303950 4.2> tried owner
+TDD-9823902 tried: owner
+TDD2207556 4.3> no on
+TDD-2207723 nope: ahlnos
+TDD2895884 4.3> word _w
+TDD-2895870 word: _w___
+TDD2751524 4.3> may . er
+TDD-2751572 may: er
+TDD1167973 4.3> *
+TDD8176073 4.3> tried twerk
+TDD-9344046 tried: twerk
+TDD2439868 4.4> word twer
+TDD-2439850 word: twer_
+TDD1023803 4.4> may .
+TDD-1023785 may: 
+TDD1431805 4.4> no k
+TDD-1431810 nope: ahklnos
+TDD2527786 4.4> *
+TDD3024130 4.4> word twerp
+TDD-5551916 word: twerp
+TDD18888181 5.1> tried scrum
+TDD-18888199 tried: scrum
+TDD2759672 5.2> tried draft
+TDD-2759694 tried: draft
+TDD2951812 5.3> tried shawl
+TDD-2951825 tried: shawl
+TDD3288074 5.4> tried twerp
+TDD-3288073 tried: twerp
+TDD5255976 5.5> may ah
+TDD-5255948 may: ah
+TDD1879755 5.5> word ___r
+TDD-1879766 word: ___r_
+TDD6631961 5.5> no we t u p sdf l c m
+TDD-6631919 nope: cdeflmpstuw
+TDD8575906 5.5> *
+TDD896039 5.5> word hairty
+TDD-5880093 5.5> word hairy
+TDD-3591884 word: hairy
+TDD3751985 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3744940 result: "Hurdle 1241\n\n3/6*\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6*\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6*\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6*\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2*\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 15,000"
+TDD-6159 puzzle_id: #1241
+TDD-943 <STOP>
