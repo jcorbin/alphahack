@@ -2032,19 +2032,19 @@ class Search:
 
         if self.frontier_cap:
             take_n = take_n or self.frontier_cap
-
         if not halo.parse_choices(ui, prior_n=take_n):
             return
+        choices = set(halo.choices())
+        take = halo.split(lambda board, i: i in choices)
+        if not take:
+            return
 
-        chosen = (halo.boards[i] for i in halo.choices())
         self.frontier = Halo.of(
-            chain(self.frontier, chosen),
+            chain(self.frontier, take),
             Halo.WithWordLabels(self.wordlist))
 
         if self.frontier_cap:
             self.frontier = self.frontier.take(self.frontier_cap)
-
-        self.halos.clear()
 
         def meta() -> Generator[PlainEntry]:
             yield 'action', 'take'
