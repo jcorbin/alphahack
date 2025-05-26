@@ -503,6 +503,21 @@ class Board:
         h = abs(y2 - y1)
         return w*h
 
+    def is_tangent(self, sel: 'Select'):
+        if any(sel): return True
+
+        stride = 1 if sel.dir == 'X' else self.size
+
+        if len(sel):
+            i = sel.ix[0] - stride
+            if i > 0 and self.grid[i]: return True
+
+        if len(sel) > 1:
+            i = sel.ix[-1] + stride
+            if i < len(self.grid) and self.grid[i]: return True
+
+        return False
+
     def adds_area(self, sel: 'Select') -> int:
         bounds = self.defined_rect
         if not bounds:
@@ -763,6 +778,17 @@ class Board:
                     yield dot
                 else:
                     yield dot
+
+        @property
+        def dir(self):
+            try:
+                i = self.ix[0]
+            except IndexError:
+                return 'X'
+            sz = self.board.size
+            mx = max(self.ix)
+            dmx = mx - i
+            return 'Y' if (dmx % sz) == 0 else 'X'
 
         @property
         def cursor(self):
@@ -1879,6 +1905,7 @@ class Search:
                  ):
         self.sid = sid
         self.board = board.copy()
+        self.max_area = self.board.max_area
         self.wordlist = wordlist
         self.ret = ret
         self.reject = reject
@@ -1902,6 +1929,7 @@ class Search:
             'drop': self.do_drop,
             'history': self.do_hist,
             'import': self.do_import,
+            'max': self.do_max,
             'prune': self.do_prune,
             'reset': self.do_reset,
             'return': self.do_ret,
@@ -1943,6 +1971,8 @@ class Search:
 
         def prompt_parts() -> Generator[str]:
             yield f'{len(self.frontier)}'
+            if self.max_area != self.board.max_area:
+                yield f'max:{self.max_area}'
             cap = self.frontier_cap
             if cap:
                 yield f'cap:{cap}'
@@ -1959,6 +1989,7 @@ class Search:
 
         chooser = Chooser(show_n=10)
         jitter: float = 0.5
+        max_area: int|None = None
         verbose = self.verbose
 
         if self.frontier_cap:
@@ -2027,15 +2058,8 @@ class Search:
             mark('fragments')
 
             # seeds are selected regions of each board where we'll try to write a new word
-            # - first, we'll try to complete any fragments, since fragments
-            #   will kill a board solution if not completed
-            # - but if there are no fragments, then we'll consider every row
-            #   and column that intersects each board's already written region
-            # - which degenerates to a point selection somewhere in the middle of an empty board
-            seeds = tuple(
-                (board, frags, seed)
-                for board, points, frags in zip(boards, seed_points, fragments)
-                for seed in (
+            board_seeds = tuple(
+                (board, frags, tuple(
                     flatten(
                         flatten(
                             board.select(pre).continuations()
@@ -2051,11 +2075,33 @@ class Search:
                             (board.select(pre) for pre in point.pre()) if any(sel) else ()
                         ))
                 ))
+                for board, points, frags in zip(boards, seed_points, fragments))
             mark('elaborate seeds')
+
+            seeds = tuple(
+                ( (board, frags, seed)
+                  for board, frags, seeds in board_seeds
+                  for seed in seeds )
+                if max_area is None else
+                ( (board, frags, red)
+                  for board, frags, seeds in board_seeds
+                  for may_area in (max_area - board.defined_area,)
+                  for seed in seeds
+                  for red in (
+                      (seed,) if board.adds_area(seed) <= may_area
+                      else (
+                          red
+                          for red in seed.reductions()
+                          if board.is_tangent(red)
+                          if board.adds_area(red) <= may_area
+                      )) )
+            )
+            mark('constrain seeds')
 
             if verbose:
                 ui.print(f'searching {len(seeds)} seeds from {len(boards)} boards')
 
+            # TODO suggest erasures
 
             # pull all possible words for every boards' seeds...
             seed_words = tuple(
@@ -2454,6 +2500,24 @@ class Search:
                 -1 if src is None else len(bs) # TODO maybe math.nan instead?
                 for src, bs in zip(srcs, boards))
         self.history.append(tuple(meta()))
+
+    def do_max(self, ui: PromptUI):
+        '''
+        set max board area to be used
+        usage: `max`         -- show current max
+        usage: `max def`     -- use defined area of referent board
+        usage: `max <COUNT>` -- specific area limit
+        '''
+        if ui.tokens.have('def'):
+            self.max_area = self.board.defined_area
+            ui.print(f'set max: {self.max_area} ( defined )')
+        else:
+            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+            if n is None:
+                ui.print(f'max: {self.max_area}')
+            else:
+                self.max_area = n
+                ui.print(f'set max: {self.max_area}')
 
     def do_prune(self, ui: PromptUI):
         '''
