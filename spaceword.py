@@ -2003,10 +2003,19 @@ class Search:
     def do_take(self, ui: PromptUI):
         '''
         sort halo boards into frontier
-        usage: `take [<HALO> = may]`
+        usage: `take [<HALO> = may] [<COUNT> = <CAP>]`
         '''
         name: str = ''
+        take_n: int|None = None
         while ui.tokens:
+            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+            if n is not None:
+                if take_n is not None:
+                    ui.print(f'! usage: take [<HALO>] [<COUNT>]')
+                    return
+                take_n = n
+                continue
+
             if not name:
                 name = next(ui.tokens)
                 continue
@@ -2021,7 +2030,10 @@ class Search:
             ui.print(f'! no {name} halo')
             return
 
-        if not halo.parse_choices(ui, prior_n = self.frontier_cap):
+        if self.frontier_cap:
+            take_n = take_n or self.frontier_cap
+
+        if not halo.parse_choices(ui, prior_n=take_n):
             return
 
         chosen = (halo.boards[i] for i in halo.choices())
@@ -2037,6 +2049,7 @@ class Search:
         def meta() -> Generator[PlainEntry]:
             yield 'action', 'take'
             yield 'name', name
+            yield 'count', take_n or len(halo)
             yield 'sample', str(halo.sample)
             yield 'halo', len(halo)
             yield 'cap', self.frontier_cap
