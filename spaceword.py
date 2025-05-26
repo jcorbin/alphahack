@@ -2002,10 +2002,20 @@ class Search:
 
     def do_take(self, ui: PromptUI):
         '''
-        sort 'may' halo boards into frontier
+        sort halo boards into frontier
+        usage: `take [<HALO> = may]`
         '''
-        name: str = 'may'
+        name: str = ''
+        while ui.tokens:
+            if not name:
+                name = next(ui.tokens)
+                continue
 
+            ui.print(f'! usage: take [<HALO>] [<COUNT>]')
+            return
+
+        if not name:
+            name = 'may'
         halo = self.get_halo(name)
         if not halo:
             ui.print(f'! no {name} halo')
