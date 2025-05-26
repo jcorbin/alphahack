@@ -1732,236 +1732,289 @@ class Search:
         return f'search {self.sid} {" ".join(isurround("[", prompt_parts(), "]"))}> '
 
     def handle(self, ui: PromptUI):
-        any_bail = False
-        while ui.tokens:
-            match = ui.tokens.have(r'-(v+)')
-            if match:
-                self.verbose = len(match.group(1))
-                ui.print(f'set verbose:{self.verbose}')
+        match = ui.tokens.have(r'-(v+)')
+        if match:
+            self.verbose = len(match.group(1))
+            ui.print(f'set verbose:{self.verbose}')
 
-            elif ui.tokens.under('cap'):
-                n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
-                if n is None:
-                    ui.print(f'cap: {self.frontier_cap}')
-                else:
-                    self.frontier_cap = n
-                    prior = len(self.frontier)
-                    if n > 0 and len(self.frontier) > n:
-                        self.frontier = self.frontier.take(n)
-                    def meta() -> Generator[PlainEntry]:
-                        yield 'action', 'cap'
-                        yield 'cap', self.frontier_cap
-                        if n:
-                            yield 'prior', prior
-                    self.history.append(tuple(meta()))
-                    ui.print(
-                        f'set cap: {self.frontier_cap}'
-                        if n else f'cleared cap')
+        return ui.dispatch(ui, {
+            'add': self.do_add,
+            'board': self.do_board,
+            'cap': self.do_cap,
+            'center': self.do_center,
+            'clear': self.do_clear,
+            'drop': self.do_drop,
+            'history': self.do_hist,
+            'import': self.do_import,
+            'prune': self.do_prune,
+            'reset': self.do_reset,
+            'return': self.do_ret,
+            'show': self.do_show,
+            'take': self.do_take,
+            'zero': self.do_zero,
+        })
 
-            elif ui.tokens.have('clear'):
-                self.board.update((i, '') for i, let in enumerate(self.board.grid) if let)
-                ui.print('Cleared board.')
+    def do_add(self, ui: PromptUI):
+        '''
+        generates new boards by adding a word to each frontier boards
+        '''
+        return self.add_word(ui) # TODO merge
 
-            elif ui.tokens.have('reset'):
-                self.explored.clear()
-                self.history.clear()
-                self.frontier = Halo.of([self.board])
-                self.halos.clear()
-                ui.print('Frontier Reset.')
-                any_bail = True
+    def do_board(self, ui: PromptUI):
+        '''
+        show referent board ( the prior passed in at search start )
+        '''
+        for line in self.board.show(
+            mid=f'[score: {self.board.score}]', mid_align='>',
+        ): ui.print(line)
 
-            elif ui.tokens.have('zero'):
-                self.explored.clear()
-                self.history.clear()
-                self.frontier = Halo.of([])
-                self.halos.clear()
-                ui.print('Frontier Zeroed.')
-                any_bail = True
-
-            else: break
-        if any_bail:
-            return
-
-        if ui.tokens.under(r'a(dd?)?'):
-            return self.add_word(ui)
-
-        if ui.tokens.have(r'cen(t(er?|re?)?)?'):
-            return self.recenter(ui)
-
-        if ui.tokens.under(r'imp(o(rt?)?)?'):
-            if not ui.tokens:
-                ui.print('Available Sources')
-                for name in sorted(self.sources):
-                    ui.print(f'- {name}')
-                return
-
-            names = tuple(ui.tokens)
-            srcs = tuple(self.get_source(name) for name in names)
-
-            entries = tuple(
-                cast(tuple[Search.SourceEntry, ...],
-                    tuple(src()) if src else ())
-                for src in srcs)
-
-            if not any(srcs):
-                ui.print('! no valid sources provided ; run without arg to list available')
-                return
-
-            any_feedback = False
-            for name, src, got in zip(names, srcs, entries):
-                if not src:
-                    ui.print(f'! ignoring unknown source {name!r}')
-                    any_feedback = True
-                elif name.endswith('/'):
-                    ui.print(f'- listing {name}')
-                    boards = 0
-                    for ent in got:
-                        if isinstance(ent, Board):
-                            boards += 1
-                        else:
-                            ui.print(f'  - {ent[0]}/')
-                    if boards:
-                        ui.print(f'  * {boards} boards')
-                    any_feedback = True
-            if any_feedback:
-                return
-
-            boards = tuple(
-                tuple(
-                    ent
-                    for ent in ents
-                    if isinstance(ent, Board))
-                for ents in entries)
-
-            for name, got in zip(names, boards):
-                ui.print(f'* importing {len(got)} boards from {name!r}')
-
-            self.frontier = Halo.of(
-                chain(self.frontier, chain.from_iterable(boards)),
-                Halo.WithWordLabels(self.wordlist))
-
-            if self.frontier_cap:
-                self.frontier = self.frontier.take(self.frontier_cap)
-
+    def do_cap(self, ui: PromptUI):
+        '''
+        frontier size limit, show or set
+        '''
+        n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+        if n is None:
+            ui.print(f'cap: {self.frontier_cap}')
+        else:
+            self.frontier_cap = n
+            prior = len(self.frontier)
+            if n > 0 and len(self.frontier) > n:
+                self.frontier = self.frontier.take(n)
             def meta() -> Generator[PlainEntry]:
-                yield 'action', 'import'
-                yield 'sources', names
+                yield 'action', 'cap'
                 yield 'cap', self.frontier_cap
-                yield 'got', tuple(
-                    -1 if src is None else len(bs) # TODO maybe math.nan instead?
-                    for src, bs in zip(srcs, boards))
-            self.history.append(tuple(meta()))
-
-            return
-
-        if ui.tokens.under(r'p(r(u(ne?)?)?)?'):
-            return self.prune_word(ui)
-
-        if ui.tokens.under(r'board'):
-            for line in self.board.show(
-                mid=f'[score: {self.board.score}]', mid_align='>',
-            ): ui.print(line)
-            return
-
-        if ui.tokens.under('drop'):
-            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
-            if n is not None:
-                m = min(len(self.frontier), n)
-                prior = len(self.frontier)
-                self.frontier = self.frontier.take(-m)
-                def meta() -> Generator[PlainEntry]:
-                    yield 'action', 'drop'
-                    yield 'given', n
-                    yield 'drop', m
+                if n:
                     yield 'prior', prior
-                self.history.append(tuple(meta()))
-                ui.print(f'dropped {m} from frontier')
+            self.history.append(tuple(meta()))
+            ui.print(
+                f'set cap: {self.frontier_cap}'
+                if n else f'cleared cap')
+
+    def do_center(self, ui: PromptUI):
+        '''
+        recenter all frontier boards
+        '''
+        return self.recenter(ui) # TODO merge
+
+    def do_clear(self, ui: PromptUI):
+        '''
+        clear referent board grid, freeing all letters
+        '''
+        self.board.update((i, '') for i, let in enumerate(self.board.grid) if let)
+        ui.print('Cleared board.')
+
+    def do_drop(self, ui: PromptUI):
+        '''
+        remove trailing N frontier boards; usage `drop <COUNT>`
+        '''
+        n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+        if n is None:
+            ui.print('usage: drop <COUNT>')
             return
 
-        if ui.tokens.have(r'hist(o(ry?)?)?'):
-            as_json = False
-            wheres: list[Callable[[PlainData], bool]] = []
+        m = min(len(self.frontier), n)
+        prior = len(self.frontier)
+        self.frontier = self.frontier.take(-m)
+        def meta() -> Generator[PlainEntry]:
+            yield 'action', 'drop'
+            yield 'given', n
+            yield 'drop', m
+            yield 'prior', prior
+        self.history.append(tuple(meta()))
+        ui.print(f'dropped {m} from frontier')
 
-            while ui.tokens:
-                if ui.tokens.have(r'-j(s(on?)?)?'):
-                    as_json = True
-                    continue
+    def do_hist(self, ui: PromptUI):
+        '''
+        show search history; usage `hist [-json] [/q:[FIELD:]PATTERN]`
+        '''
+        as_json = False
+        wheres: list[Callable[[PlainData], bool]] = []
 
-                match = ui.tokens.have(r'/q:(?:(.+?):)?(.+)')
-                if match:
-                    wheres.append(plain_make_matcher(match[1] or 'action', match[2]))
-                    continue
+        while ui.tokens:
+            if ui.tokens.have(r'-j(s(on?)?)?'):
+                as_json = True
+                continue
 
-                ui.print(f'! invalid arg {next(ui.tokens)!r}')
-                return
+            match = ui.tokens.have(r'/q:(?:(.+?):)?(.+)')
+            if match:
+                wheres.append(plain_make_matcher(match[1] or 'action', match[2]))
+                continue
 
-            data = self.history
-            if wheres:
-                where = plain_chain_matcher(*wheres)
-                data = [dat for dat in data if where(dat)]
-
-            if as_json:
-                with ui.copy_writer() as w:
-                    _ = w.write('[')
-                    for i, h in enumerate(data):
-                        if i > 0: _ = w.write(',')
-                        json.dump(plain_dictify(h), w)
-                    _ = w.write(']')
-                    ui.print(f'📋 {len(data)} history entries as JSON')
-            elif not data:
-                ui.print('-- empty --')
-            else:
-                for n, h in enumerate(data, 1):
-                    ui.print(f'{n}. {plain_dictify(h)!r}')
+            ui.print(f'! invalid arg {next(ui.tokens)!r}')
             return
 
-        halo_match = ui.tokens.under(r'ret|show')
-        if halo_match:
-            halo_cmd = halo_match[0]
+        data = self.history
+        if wheres:
+            where = plain_chain_matcher(*wheres)
+            data = [dat for dat in data if where(dat)]
 
-            try_keys: tuple[str|None, ...] = (
-                ui.tokens.have(r'[^\d].*', lambda m: m[0]),
-                self.last_shown,
-                ('done' if halo_cmd == 'ret' else 'may'),
-                'frontier')
+        if as_json:
+            with ui.copy_writer() as w:
+                _ = w.write('[')
+                for i, h in enumerate(data):
+                    if i > 0: _ = w.write(',')
+                    json.dump(plain_dictify(h), w)
+                _ = w.write(']')
+                ui.print(f'📋 {len(data)} history entries as JSON')
+        elif not data:
+            ui.print('-- empty --')
+        else:
+            # TODO maybe do a table
+            for n, h in enumerate(data, 1):
+                ui.print(f'{n}. {plain_dictify(h)!r}')
 
-            halo: Halo|None = None
-            key: str|None = None
-            for key in try_keys:
-                if not key: continue
-                halo = self.get_halo(key)
-                if halo: break
-            else:
-                ui.print(f'! no {key} halo')
-                return
-            assert halo and key
-
-            if halo_cmd == 'ret':
-                board, reason = halo.ref(ui)
-                if not board:
-                    ui.print(f'! {key} halo {reason}')
-                    return
-                ui.print(f'returning {key} halo {reason}')
-                return self.ret(board)
-
-            if halo_cmd == 'show':
-                n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
-                if n is not None:
-                    halo.show_n(ui, n, f'{key} halo')
-                else:
-                    halo.show(ui, title=f'{key} halo')
-                    self.last_shown = key
-                return
-
-            ui.print(f'! unknown halo command {halo_cmd!r}')
+    def do_import(self, ui: PromptUI):
+        '''
+        available prior source boards, list and merge into frontier
+        usage: `import <NAME> [<NAME> ...]`
+        '''
+        if not ui.tokens:
+            ui.print('Available Sources')
+            for name in sorted(self.sources):
+                ui.print(f'- {name}')
             return
 
-        if ui.tokens.under('take'):
-            self.take_halo(ui)
+        names = tuple(ui.tokens)
+        srcs = tuple(self.get_source(name) for name in names)
+
+        entries = tuple(
+            cast(tuple[Search.SourceEntry, ...],
+                tuple(src()) if src else ())
+            for src in srcs)
+
+        if not any(srcs):
+            ui.print('! no valid sources provided ; run without arg to list available')
             return
 
-        if ui.tokens:
-            ui.print(f'! unknown input {ui.tokens.rest!r}')
+        any_feedback = False
+        for name, src, got in zip(names, srcs, entries):
+            if not src:
+                ui.print(f'! ignoring unknown source {name!r}')
+                any_feedback = True
+            elif name.endswith('/'):
+                ui.print(f'- listing {name}')
+                boards = 0
+                for ent in got:
+                    if isinstance(ent, Board):
+                        boards += 1
+                    else:
+                        ui.print(f'  - {ent[0]}/')
+                if boards:
+                    ui.print(f'  * {boards} boards')
+                any_feedback = True
+        if any_feedback:
+            return
+
+        boards = tuple(
+            tuple(
+                ent
+                for ent in ents
+                if isinstance(ent, Board))
+            for ents in entries)
+
+        for name, got in zip(names, boards):
+            ui.print(f'* importing {len(got)} boards from {name!r}')
+
+        self.frontier = Halo.of(
+            chain(self.frontier, chain.from_iterable(boards)),
+            Halo.WithWordLabels(self.wordlist))
+
+        if self.frontier_cap:
+            self.frontier = self.frontier.take(self.frontier_cap)
+
+        def meta() -> Generator[PlainEntry]:
+            yield 'action', 'import'
+            yield 'sources', names
+            yield 'cap', self.frontier_cap
+            yield 'got', tuple(
+                -1 if src is None else len(bs) # TODO maybe math.nan instead?
+                for src, bs in zip(srcs, boards))
+        self.history.append(tuple(meta()))
+
+    def do_prune(self, ui: PromptUI):
+        '''
+        generates new boards by pruning word(s) from frontier boards
+        '''
+        return self.prune_word(ui) # TODO merge
+
+    def do_reset(self, ui: PromptUI):
+        '''
+        reset history, reset frontier to referent prior board
+        '''
+        self.explored.clear()
+        self.history.clear()
+        self.frontier = Halo.of([self.board])
+        self.halos.clear()
+        ui.print('Frontier Reset.')
+
+    def do_ret(self, ui: PromptUI):
+        '''
+        return a result board; usage: `ret [<halo>] [<N>]` defaults to last shown, 'done', or 'frontier' halo
+        '''
+        try_keys: tuple[str|None, ...] = (
+            ui.tokens.have(r'[^\d].*', lambda m: m[0]),
+            self.last_shown, 'done', 'frontier')
+
+        halo: Halo|None = None
+        key: str|None = None
+        for key in try_keys:
+            if not key: continue
+            halo = self.get_halo(key)
+            if halo: break
+        else:
+            ui.print(f'! no {key} halo')
+            return
+        assert halo and key
+
+        board, reason = halo.ref(ui)
+        if not board:
+            ui.print(f'! {key} halo {reason}')
+            return
+        ui.print(f'returning {key} halo {reason}')
+        return self.ret(board)
+
+    def do_show(self, ui: PromptUI):
+        '''
+        show a board from a halo; usage: `show [<halo>] [<N>]` defaults to last shown, 'may', or 'frontier' halo
+        '''
+        try_keys: tuple[str|None, ...] = (
+            ui.tokens.have(r'[^\d].*', lambda m: m[0]),
+            self.last_shown, 'may', 'frontier')
+
+        halo: Halo|None = None
+        key: str|None = None
+        for key in try_keys:
+            if not key: continue
+            halo = self.get_halo(key)
+            if halo: break
+        else:
+            ui.print(f'! no {key} halo')
+            return
+        assert halo and key
+
+        n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+        if n is not None:
+            halo.show_n(ui, n, f'{key} halo')
+        else:
+            halo.show(ui, title=f'{key} halo')
+            self.last_shown = key
+        return
+
+    def do_take(self, ui: PromptUI):
+        '''
+        sort 'may' halo boards into frontier
+        '''
+        return self.take_halo(ui) # TODO merge
+
+    def do_zero(self, ui: PromptUI):
+        '''
+        reset history, reset frontier to empty
+        '''
+        self.explored.clear()
+        self.history.clear()
+        self.frontier = Halo.of([])
+        self.halos.clear()
+        ui.print('Frontier Zeroed.')
 
     def get_halo(self, key: str) -> 'Halo|None':
         return self.frontier if key == 'frontier' else self.halos.get(key)
