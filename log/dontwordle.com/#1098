@@ -1,0 +1,66 @@
+T0.0002221730010205647 now: 2025-05-24T10:40:11EDT
+TD36 site: dontwordle.com
+TDD-5 wordlist: nwl2023.txt
+TDD1411701 1> /help
+TDD5956340 1> /help word
+TDD26728786 1> ?
+TDD-24712149 1> ␚
+TDD-9384677 <EOF>
+T0.050365471999612055 now: 2025-05-24T10:41:04EDT
+TD795121 1> ?
+TDD3636879 1> ? may
+TDD96921671 1> ␚
+TDD-101353630 <EOF>
+T0.04759051299879502 now: 2025-05-24T10:52:02EDT
+TD1024564 1> /?
+TDD-48433 1> ?
+TDD123876521 <INT>
+T0.0483559399999649 now: 2025-05-24T10:54:10EDT
+TD782540 1> help
+TDD1345330 1> /help
+TDD7719982 1> *
+TDD-7463898 1> ␚
+TDD-2383902 <EOF>
+T0.06622587598394603 now: 2025-05-26T08:12:01EDT
+TD20684423 1> *
+TDD-11964439 1> tried hooch
+TDD-8719891 tried: hooch
+TDD1623786 2> no hoc
+TDD-1623781 nope: cho
+TDD551788 2> *
+TDD6712269 2> tried wanna
+TDD-7264074 tried: wanna
+TDD3271943 3> no wan
+TDD-3271915 nope: achnow
+TDD2335742 3> *
+TDD10880406 3> tried feese
+TDD-13216180 tried: feese
+TDD2143825 4> word _e
+TDD-2143816 word: _e___
+TDD3063962 4> no fs
+TDD-3063957 nope: acfhnosw
+TDD1071748 4> *
+TDD22920444 4> tried leggy
+TDD-23992199 tried: leggy
+TDD1727920 5> may l
+TDD-1727917 may: l
+TDD3039843 5> word _e__y
+TDD-3039834 word: _e__y
+TDD743817 5> no g
+TDD-743842 nope: acfghnosw
+TDD2119860 5> *
+TDD15240378 5> tried melty
+TDD-17360228 tried: melty
+TDD4423891 6> word _el_y
+TDD-4423888 word: _el_y
+TDD1127757 6> no mt
+TDD-1127745 nope: acfghmnostw
+TDD1007879 6> may .
+TDD-1007888 may: 
+TDD815914 6> *
+TDD11977304 6> tried kelpy
+TDD-12793216 tried: kelpy
+TDD2894697 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2891941 result: "Don't Wordle 1098 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6849\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2455\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c115\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe911\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe95\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe93\nUndos used: 0\n\n  3 words remaining\nx 10 unused letters\n= 30 total score"
+TDD-2078 puzzle_id: #1098
+TDD-757 <STOP>
