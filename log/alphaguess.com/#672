@@ -1,0 +1,47 @@
+T0.00027178399614058435 now: 2025-05-27T08:05:02EDT
+TD93286 loaded 196560 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (43 words excluded) asof fd4d18fd98d24dac568832897e5fe5321cb808f2
+TDD9503307 [0 : 98237 : 196560] mach? b
+TDD-9596403 progress: -1 98237 mach
+TDD1736000 [0 : 47397 : 98237] dis? b
+TDD-1736104 progress: -1 47397 dis
+TDD1519482 [0 : 23695 : 47397] camp? a
+TDD-1519505 progress: 1 23695 camp
+TDD1786922 [23696 : 35539 : 47397] convention? b
+TDD-1786908 progress: -1 35539 convention
+TDD1740969 [23696 : 29617 : 35539] circuit? b
+TDD-1740980 progress: -1 29617 circuit
+TDD5200543 [23696 : 26649 : 29617] cep? b
+TDD-5200375 progress: -1 26649 cep
+TDD1823442 [23696 : 25117 : 26649] carp? b
+TDD-1823500 progress: -1 25117 carp
+TDD1614950 [23696 : 24241 : 25117] cap? b
+TDD-1615062 progress: -1 24241 cap
+TDD1632135 [23696 : 23781 : 24241] can? a
+TDD-1632136 progress: 1 23781 can
+TDD1439805 [23782 : 23999 : 24241] cannibal? a
+TDD-1439644 progress: 1 23999 cannibal
+TDD2103984 [24000 : 24115 : 24241] cant? b
+TDD-2104130 progress: -1 24115 cant
+TDD2303768 [24000 : 24055 : 24115] canoe? b
+TDD-2303781 progress: -1 24055 canoe
+TDD1527632 [24000 : 24027 : 24055] cannon? a
+TDD-1527631 progress: 1 24027 cannon
+TDD1575750 [24028 : 24041 : 24055] cannonry? a
+TDD-1575741 progress: 1 24041 cannonry
+TDD2735857 [24042 : 24044 : 24055] cannula? a
+TDD-2735870 progress: 1 24044 cannula
+TDD1585470 [24045 : 24048 : 24055] cannulate? a
+TDD-1585469 progress: 1 24048 cannulate
+TDD1582354 [24049 : 24052 : 24055] cannulation? a
+TDD-1582351 progress: 1 24052 cannulation
+TDD1768073 [24053 : 24054 : 24055] canny? it
+TDD-1768078 progress: 0 24054 canny
+TDD-53 [24053 : 24054 : 24055] <Done>.
+TDD2576191 press <Return> to finish[C
+TDD-2016042 Press <Enter> to 📋 or `>` for line prompt 
+TDD-557580 share result: "\ud83e\udde9 Puzzle #672\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 36s\n\n\ud83d\udd17 alphaguess.com"
+TDD-2269 result puzzle: 672
+TDD-298 result guesses: 18
+TDD-6 result time: 36s
+TDD0 result link: alphaguess.com
+TDD2 <STOP>
