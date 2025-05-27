@@ -1451,262 +1451,322 @@ class SpaceWord(StoredLog):
     def play(self, ui: PromptUI):
         for line in self.show_board(self.board):
             ui.print(line)
+        with ui.input(f'[{' '.join(self.prompt_parts())}]> '):
+            return ui.dispatch(ui, {
+                '/at': self.cmd_at,
+                '/bad': self.cmd_bad,
+                '/center': self.cmd_center,
+                '/centre': '/center',
+                '/clear': self.cmd_clear,
+                '/erase': self.cmd_erase,
+                '/generate': self.cmd_generate,
+                '/letters': self.cmd_letters,
+                '/priors': self.cmd_priors,
+                '/rejects': self.cmd_rejects,
+                '/result': self.cmd_result,
+                '/search': self.cmd_search,
+                '/shift': self.cmd_shift,
+                '/store': self.cmd_store,
+                '/write': self.cmd_write,
 
-        def prompt_parts():
-            sc = self.board.score
-            res = self.result
-            prior = (
-                self.best.score if self.best is not None else
-                res.score if res is not None else
-                0)
-            if prior:
-                yield f'prior:{prior}'
-                if sc > prior:
-                    yield f'bet:{sc}'
-                elif sc != prior:
-                    yield f'meh:{sc}'
-            else:
-                yield f'doit:{sc}'
+                '@': '/at', # TODO wants to be an under... prefix
+                '_': '/erase', # TODO wants to match r'(?x) ( \d* ) _ | _ ( \d* )'
+                '*': '/generate',
+                '~': '/search',
+                '^': '/write', # TODO wants to be an under... prefix
+            })
 
-        with ui.input(f'[{' '.join(prompt_parts())}]> '):
-            return self.handle_play(ui)
+    def prompt_parts(self):
+        sc = self.board.score
+        res = self.result
+        prior = (
+            self.best.score if self.best is not None else
+            res.score if res is not None else
+            0)
+        if prior:
+            yield f'prior:{prior}'
+            if sc > prior:
+                yield f'bet:{sc}'
+            elif sc != prior:
+                yield f'meh:{sc}'
+        else:
+            yield f'doit:{sc}'
 
-    def handle_play(self, ui: PromptUI):
-        if not ui.tokens:
+    def cmd_at(self, ui: PromptUI):
+        '''
+        move editor cursor; usage `/at <X> [<Y>] [X|Y]`
+        '''
+        x = ui.tokens.have(r'\d+', lambda match: int(match[0]))
+        y = ui.tokens.have(r'\d+', lambda match: int(match[0]))
+        xy = cast(Literal['X', 'Y']|None, ui.tokens.have(
+            r'([xXrRhH])|([yYdDvV])',
+            lambda match: 'Y' if match[2] else 'X')
+        )
+        if x is None and y is None and xy is None:
+            ui.print('! usage: @ x')
+            ui.print('       : @ x y')
+            ui.print('       : @ x y X|Y')
+            ui.print('       : @ X|Y')
+        else:
+            if x is None: x = self.at_cursor[0]
+            if y is None: y = self.at_cursor[1]
+            if xy is None: xy = self.at_cursor[2]
+            self.move_to(ui, x, y, xy)
+
+    def cmd_bad(self, ui: PromptUI):
+        '''
+        remove one or more words from the list; usage `/bad <word> [<word> ...]`
+        '''
+        words = tuple(
+            word.lower()
+            for word in ui.tokens)
+        if not words:
+            ui.print('usage: /bad <word> [<word> ...]')
             return
 
-        if ui.tokens.have(r'/bad'):
-            words = tuple(
-                word.lower()
-                for word in ui.tokens)
-            if not words:
-                ui.print('usage: /bad <word> [<word> ...]')
-                return
-
-            known = self.wordlist.uniq_words
-
-            words = tuple(
-                word
-                for word in words
-                if word in known)
-            if not words:
-                ui.print('no known words given')
-                return
-
-            with git_txn(f'{self.site} bad {"words" if len(words) > 1 else "word"}', ui=ui) as txn:
-                with txn.will_add(self.wordlist.exclude_file):
-                    self.wordlist.remove_words(words)
-
+        known = self.wordlist.uniq_words
+        words = tuple(
+            word
+            for word in words
+            if word in known)
+        if not words:
+            ui.print('no known words given')
             return
 
-        if ui.tokens.have(r'/res(ult)?'):
-            ui.print('Provide share result:')
-            try:
-                self.proc_result(ui, ui.may_paste())
-            except ValueError as err:
-                ui.print(f'! {err}')
+        with git_txn(f'{self.site} bad {"words" if len(words) > 1 else "word"}', ui=ui) as txn:
+            with txn.will_add(self.wordlist.exclude_file):
+                self.wordlist.remove_words(words)
+
+    def cmd_center(self, ui: PromptUI):
+        '''
+        recenter the board
+        '''
+        bounds = self.board.defined_rect
+        if not bounds:
+            ui.print('empty board, what even is center')
             return
 
-        if ui.tokens.have(r'/pri(o(rs?)?)?'):
-            for n, board in enumerate(self.prior_result_boards(), 1):
-                for line in board.show_grid(head=f'Prior {n}:', foot=None):
-                    ui.print(line)
-            # TODO final foot?
+        x1, y1, x2, y2 = bounds
+        h = self.board.size//2
+        cx, cy = math.floor(x1/2 + x2/2), math.floor(y1/2 + y2/2)
+        if cx == h and cy == h:
+            ui.print('board already centered')
             return
 
-        if ui.tokens.have(r'/rej(e(c(ts?)?)?)?'):
-            arg = next(ui.tokens, '')
-            if not arg:
-                cur, n = '', 0
-                for sid, bone in self.prior_reject_bones():
-                    if sid == cur:
-                        n += 1
-                    else:
-                        if n:
-                            ui.print(f'- {cur} {n}')
-                        cur, n = sid, 1
-                if n:
-                    ui.print(f'- {cur} {n}')
-                return
-            want_sid = self.last_sid if arg.lower().startswith('last') else arg
+        dx, dy = h - cx, h - cy
+        self.update(ui, self.board.shift(dx, dy))
+        ui.print(f'centered board D:{dx:+},{dy:+}')
 
-            arg = next(ui.tokens, '')
-            if not arg:
-                ui.print(f'Reject {want_sid}:')
-                for n, (sid, bone) in enumerate(self.prior_reject_bones(), 1):
-                    if sid == want_sid:
-                        try:
-                            board = Board.from_bone(bone)
-                        except Exception as err:
-                            ui.print(f'{n}. err:{err}')
-                        else:
-                            ui.print(f'{n}. score:{board.score}')
-                return
-            want_n = int(arg)
+    def cmd_clear(self, ui: PromptUI):
+        '''
+        clear the board
+        '''
+        self.update(ui, (
+            (i, '')
+            for i, let in enumerate(self.board.grid)
+            if let))
+        ui.print('cleared board')
 
+    def cmd_erase(self, ui: PromptUI):
+        '''
+        erase at cursor; usage `/erase <COUNT>`
+        '''
+        n = ui.tokens.have(r'\d+', lambda match: int(match[0]))
+        if n is None:
+            ui.print('usage: /erase <COUNT>')
+            return
+        self.erase_at(ui, n)
+
+    def cmd_generate(self, ui: PromptUI):
+        '''
+        generate word suggestions
+        '''
+        sel = self.board.select(self.cursor)
+        pos = sel.possible(ui, lambda pat: grep(self.wordlist.words, pat, anchor='full'))
+        if not pos: return
+
+        def interact(ui: PromptUI):
+            ui.print(f'{pos} to write @{sel.cursor}+{len(sel)}')
+            for line in pos.show_list():
+                ui.print(line)
+            with (
+                ui.catch_state(EOFError, self.play),
+                ui.input(f'try? ')):
+                n = ui.tokens.have(r'(\d+)', lambda match: int(match[1]))
+                if n is None: return
+                try:
+                    word = pos.data[pos.get(n)]
+                except IndexError as err:
+                    ui.print(f'! invalid *-list reference: {err}')
+                    return
+                ui.print(f'- writing {word!r} @{sel.cursor}+{len(sel)}')
+                self.update(ui, sel.updates(word))
+                return self.play
+
+        return interact
+
+    def cmd_letters(self, _ui: PromptUI):
+        '''
+        edit board free letters
+        '''
+        return self.EditLetters(self.board, self.num_letters, self.play)
+
+    def cmd_priors(self, ui: PromptUI):
+        '''
+        list prior result boards
+        '''
+        for n, board in enumerate(self.prior_result_boards(), 1):
+            for line in board.show_grid(head=f'Prior {n}:', foot=None):
+                ui.print(line)
+        # TODO final foot?
+
+    def cmd_rejects(self, ui: PromptUI):
+        '''
+        list search-rejected boards
+        '''
+        arg = next(ui.tokens, '')
+        if not arg:
+            cur, n = '', 0
+            for sid, bone in self.prior_reject_bones():
+                if sid == cur:
+                    n += 1
+                else:
+                    if n:
+                        ui.print(f'- {cur} {n}')
+                    cur, n = sid, 1
+            if n:
+                ui.print(f'- {cur} {n}')
+            return
+        want_sid = self.last_sid if arg.lower().startswith('last') else arg
+
+        arg = next(ui.tokens, '')
+        if not arg:
+            ui.print(f'Reject {want_sid}:')
             for n, (sid, bone) in enumerate(self.prior_reject_bones(), 1):
-                if n == want_n:
+                if sid == want_sid:
                     try:
                         board = Board.from_bone(bone)
                     except Exception as err:
                         ui.print(f'{n}. err:{err}')
-                        ui.print(f'  bone:{bone!r}')
                     else:
-                        for line in board.show_grid(head=f'[ Reject {want_sid} {n} ]', foot=None):
-                            ui.print(line)
+                        ui.print(f'{n}. score:{board.score}')
             return
+        want_n = int(arg)
 
-        if ui.tokens.have(r'/st(ore)?'):
-            return self.store
+        for n, (sid, bone) in enumerate(self.prior_reject_bones(), 1):
+            if n == want_n:
+                try:
+                    board = Board.from_bone(bone)
+                except Exception as err:
+                    ui.print(f'{n}. err:{err}')
+                    ui.print(f'  bone:{bone!r}')
+                else:
+                    for line in board.show_grid(head=f'[ Reject {want_sid} {n} ]', foot=None):
+                        ui.print(line)
 
-        if ui.tokens.have(r'/let(ters)?'):
-            return self.EditLetters(self.board, self.num_letters, self.play)
+    def cmd_result(self, ui: PromptUI):
+        '''
+        record share result from site
+        '''
+        ui.print('Provide share result:')
+        try:
+            self.proc_result(ui, ui.may_paste())
+        except ValueError as err:
+            ui.print(f'! {err}')
 
-        if ui.tokens.have(r'/cl(ear)?'):
-            self.update(ui, (
-                (i, '')
-                for i, let in enumerate(self.board.grid)
-                if let))
-            ui.print('cleared board')
-            return
+    def cmd_search(self, ui: PromptUI):
+        '''
+        start a search session
+        '''
+        h = hashlib.sha256(f'{self.start} + {ui.time.now}'.encode())
+        sid = self.make_sid(h.hexdigest())
+        self.last_sid = sid
 
-        if ui.tokens.have(r'/shift'):
-            dx = 0
-            dy = 0
+        def done(board: Board|None):
+            if board:
+                self.update(ui, self.board.diff(board))
+            return self.play
 
-            while ui.tokens:
-                match = ui.tokens.have(r'([xyXY])([-+]\d+)')
-                if match:
-                    xy = str(match[1])
-                    d = int(match[2])
-                    if xy.lower() == 'x':
-                        dx = d
-                        continue
-                    if xy.lower() == 'y':
-                        dy = d
-                        continue
+        def is_improvement(board: Board):
+            sc = board.score
+            res = self.result
+            if res and sc <= res.score: return False
+            if sc <= self.board.score: return False
+            return True
 
-                ui.print(f'! invalid arg {next(ui.tokens)!r}')
-                return
-
-            if dx == 0 and dy == 0:
-                ui.print('shift noop')
-            else:
-                self.update(ui, self.board.shift(dx, dy))
-                ui.print(f'shifted board D:{dx:+},{dy:+}')
-
-            return
-
-        if ui.tokens.have(r'/cen(t(er?|re?)?)?'):
-            bounds = self.board.defined_rect
-            if not bounds:
-                ui.print('empty board, what even is center')
-                return
-
-            x1, y1, x2, y2 = bounds
-            h = self.board.size//2
-            cx, cy = math.floor(x1/2 + x2/2), math.floor(y1/2 + y2/2)
-            if cx == h and cy == h:
-                ui.print('board already centered')
-                return
-
-            dx, dy = h - cx, h - cy
-            self.update(ui, self.board.shift(dx, dy))
-            ui.print(f'centered board D:{dx:+},{dy:+}')
-            return
-
-        if ui.tokens.under(r'~'):
-            h = hashlib.sha256(f'{self.start} + {ui.time.now}'.encode())
-            sid = self.make_sid(h.hexdigest())
-            self.last_sid = sid
-
-            def done(board: Board|None):
-                if board:
-                    self.update(ui, self.board.diff(board))
-                return self.play
-
-            def is_improvement(board: Board):
-                sc = board.score
-                res = self.result
-                if res and sc <= res.score: return False
-                if sc <= self.board.score: return False
+        def reject(board: Board):
+            if not is_improvement(board):
+                ui.logz(f'reject sid:{sid} bone:{board.to_bone()}')
                 return True
+            return False
 
-            def reject(board: Board):
-                if not is_improvement(board):
-                    ui.logz(f'reject sid:{sid} bone:{board.to_bone()}')
-                    return True
-                return False
+        return Search(
+            sid,
+            self.board,
+            self.wordlist,
+            done,
+            reject=reject,
+            sources=(
+                ('priors', self.prior_result_boards),
+                ('rejects', self.browse_reject_boards),
+            ),
+        )
 
-            return Search(
-                sid,
-                self.board,
-                self.wordlist,
-                done,
-                reject=reject,
-                sources=(
-                    ('priors', self.prior_result_boards),
-                    ('rejects', self.browse_reject_boards),
-                ),
-            )
+    def cmd_shift(self, ui: PromptUI):
+        '''
+        shift the board; usage `/shift <dX> <dY>`
+        '''
+        dx, dy = 0, 0
+        while ui.tokens:
+            match = ui.tokens.have(r'([xyXY])([-+]\d+)')
+            if match:
+                xy = str(match[1])
+                d = int(match[2])
+                if xy.lower() == 'x':
+                    dx = d
+                    continue
+                if xy.lower() == 'y':
+                    dy = d
+                    continue
 
-        if ui.tokens.under(r'\*'):
-            return self.generate(ui)
-
-        if ui.tokens.under(r'@'):
-            x = ui.tokens.have(r'\d+', lambda match: int(match[0]))
-            y = ui.tokens.have(r'\d+', lambda match: int(match[0]))
-            xy = cast(Literal['X', 'Y']|None, ui.tokens.have(
-                r'([xXrRhH])|([yYdDvV])',
-                lambda match: 'Y' if match[2] else 'X')
-            )
-            if x is None and y is None and xy is None:
-                ui.print('! usage: @ x')
-                ui.print('       : @ x y')
-                ui.print('       : @ x y X|Y')
-                ui.print('       : @ X|Y')
-            else:
-                if x is None: x = self.at_cursor[0]
-                if y is None: y = self.at_cursor[1]
-                if xy is None: xy = self.at_cursor[2]
-                self.move_to(ui, x, y, xy)
+            ui.print(f'! invalid arg {next(ui.tokens)!r}')
             return
 
-        match = ui.tokens.have(r'\^([a-zA-Z]*)')
-        if match:
-            word = ''.join(
-                let
-                for part in chain(
-                    str(match[1]),
-                    ui.tokens.consume(r'[a-zA-Z]+', lambda match: str(match[0])))
-                for let in part
-            ).upper()
+        if dx == 0 and dy == 0:
+            ui.print('shift noop')
+        else:
+            self.update(ui, self.board.shift(dx, dy))
+            ui.print(f'shifted board D:{dx:+},{dy:+}')
 
-            sel = self.board.select(self.cursor)
-            if len(word) > len(sel.ix):
-                ui.print(f'! cannot write {word!r} @ {self.at_cursor}: not enough space')
-                return
+    def cmd_store(self, _ui: PromptUI):
+        '''
+        store log and enter review mode
+        '''
+        return self.store
 
-            try:
-                for _ in sel.updates(word): pass
-            except ValueError as err:
-                ui.print(f'! {err}')
-                return
+    def cmd_write(self, ui: PromptUI):
+        '''
+        write letters at curtsor; usage `/write ABCDEF...`
+        '''
+        word = ''.join(
+            let
+            for match in ui.tokens.consume(r'[a-zA-Z]+')
+            for let in str(match[0])
+        ).upper()
 
-            ui.print(f'- writing {word!r} @{sel.cursor}+{len(sel)}')
-            self.update(ui, sel.updates(word))
+        sel = self.board.select(self.cursor)
+        if len(word) > len(sel.ix):
+            ui.print(f'! cannot write {word!r} @ {self.at_cursor}: not enough space')
             return
 
-        erase_n = ui.tokens.have(
-            r'(?x) ( \d* ) _ | _ ( \d* )', lambda match:
-                int(match[1]) if match[1] else
-                int(match[2]) if match[2] else
-                1)
-        if erase_n is not None:
-            self.erase_at(ui, erase_n)
+        try:
+            for _ in sel.updates(word): pass
+        except ValueError as err:
+            ui.print(f'! {err}')
             return
 
-        ui.print(f'! unknown input {ui.tokens.rest!r}')
+        ui.print(f'- writing {word!r} @{sel.cursor}+{len(sel)}')
+        self.update(ui, sel.updates(word))
 
     def move_to(self, ui: PromptUI, x: int, y: int, xy: Literal['X', 'Y'] = 'X'):
         self.at_cursor = x, y, xy
@@ -1736,31 +1796,6 @@ class SpaceWord(StoredLog):
         for i, let in changes:
             self.board.set(i, let)
             ui.log(f'change: {i} {let}')
-
-    def generate(self, ui: PromptUI):
-        sel = self.board.select(self.cursor)
-        pos = sel.possible(ui, lambda pat: grep(self.wordlist.words, pat, anchor='full'))
-        if not pos: return
-
-        def interact(ui: PromptUI):
-            ui.print(f'{pos} to write @{sel.cursor}+{len(sel)}')
-            for line in pos.show_list():
-                ui.print(line)
-            with (
-                ui.catch_state(EOFError, self.play),
-                ui.input(f'try? ')):
-                n = ui.tokens.have(r'(\d+)', lambda match: int(match[1]))
-                if n is None: return
-                try:
-                    word = pos.data[pos.get(n)]
-                except IndexError as err:
-                    ui.print(f'! invalid *-list reference: {err}')
-                    return
-                ui.print(f'- writing {word!r} @{sel.cursor}+{len(sel)}')
-                self.update(ui, sel.updates(word))
-                return self.play
-
-        return interact
 
 SourceEntry = tuple[str, 'Source'] | Board
 Source = Callable[[], Iterable[SourceEntry]]
