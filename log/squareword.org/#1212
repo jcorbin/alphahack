@@ -1,0 +1,117 @@
+T0.0003014050016645342 now: 2025-05-27T08:06:06EDT
+TD83 site: squareword.org
+TDD2545284 🧩  ? #1212
+TDD-2544941 puzzle_id: #1212
+TDD-368 wordlist: nwl2023.txt
+TDD1256456 > *
+TDD7446836 try? 2
+TDD-8702370 questioning: ["neats", "#5"]
+TDD501431 neats ( #5 ) ? 
+TDD-374305 neats ( #5 ) > 
+TDD3503796 neats ( #5 ) 1> _e ~ na
+TDD-3631558 word: 0 _e___
+TDD-333 may: 0 a n
+TDD2367637 neats ( #5 ) 2> __a ~ ea
+TDD-2367552 word: 1 __a__
+TDD-86 may: 1 a e
+TDD2711989 neats ( #5 ) 3> _e ~ es
+TDD-2711912 word: 2 _e___
+TDD-77 may: 2 e s
+TDD2730925 neats ( #5 ) 4> ~ net
+TDD-2730735 word: 3 _____
+TDD-189 may: 3 e n t
+TDD1245085 neats ( #5 ) 5> ~ as
+TDD-1244987 word: 4 _____
+TDD-95 may: 4 a s
+TDD-4 question done
+TDD1392259 > *
+TDD3559188 try? 1
+TDD-4951335 questioning: ["agave", "#2"]
+TDD271669 agave ( #2 ) ? 
+TDD5024387 agave ( #2 ) > 2 a_a_e
+TDD-5296089 word: 1 a_a_e
+TDD-80 may: 1 
+TDD1728132 agave ( #2 ) 3> ~ esv
+TDD-1728063 word: 2 _e___
+TDD-69 may: 2 e s v
+TDD2232059 agave ( #2 ) 4> 
+TDD503846 agave ( #2 ) 5> a_~ as
+TDD-2735818 word: 4 a____
+TDD-87 may: 4 a s
+TDD0 question done
+TDD4359589 > /no g
+TDD-4359348 nope: g
+TDD1880199 > *
+TDD9199529 try? 2
+TDD-11079879 questioning: ["serve", "#3"]
+TDD5031598 serve ( #3 ) ? 
+TDD-3103490 serve ( #3 ) > 
+TDD-1144128 serve ( #3 ) 1> 
+TDD1687877 serve ( #3 ) 2> ~ r
+TDD-2471739 word: 1 a_a_e
+TDD-178 may: 1 r
+TDD5079568 serve ( #3 ) 3> se_ ~ evr
+TDD-5079517 word: 2 se___
+TDD-77 may: 2 e r v
+TDD2961013 serve ( #3 ) 4> ~ netr
+TDD-2960942 word: 3 _____
+TDD-72 may: 3 e n r t
+TDD2359580 serve ( #3 ) 5> 
+TDD-2359411 question done
+TDD863483 > *
+TDD2991628 try? 1
+TDD-3855192 questioning: ["aware", "#2"]
+TDD1000364 aware ( #2 ) ? 
+TDD663137 aware ( #2 ) > 
+TDD8460 aware ( #2 ) 1> 
+TDD-368166 aware ( #2 ) 2> aware
+TDD-1303816 word: 1 aware
+TDD-68 may: 1 
+TDD4935989 aware ( #2 ) 3> ␚
+TDD-4935950 question done
+TDD768138 > *
+TDD5232207 try? 1
+TDD-6000291 questioning: ["sever", "#3"]
+TDD1457106 sever ( #3 ) ? 
+TDD188905 sever ( #3 ) > 3 sever
+TDD-1645971 word: 2 sever
+TDD-129 may: 2 
+TDD3959921 sever ( #3 ) 4> ␚
+TDD-3959882 question done
+TDD1400713 > *
+TDD6326802 try? 
+TDD-6790428 try? 3
+TDD-936899 questioning: ["assay", "#5"]
+TDD889720 assay ( #5 ) ? 
+TDD-629703 assay ( #5 ) > 
+TDD2443931 assay ( #5 ) 1> _e_a
+TDD-2704101 word: 0 _e_a_
+TDD-77 may: 0 n
+TDD3152577 assay ( #5 ) 2> 5 assay
+TDD-3152299 word: 4 assay
+TDD-260 may: 4 
+TDD-10 question done
+TDD1758905 > ␚
+TDD-1758884 <EOF>
+T0.05073118100699503 now: 2025-05-27T08:08:20EDT
+TD1019008 > *
+TDD-283529 questioning: ["trend", "#4"]
+TDD8666587 trend ( #4 ) ? 
+TDD-8555448 trend ( #4 ) > 
+TDD2017160 trend ( #4 ) 1> 4 trend
+TDD-2863470 word: 3 trend
+TDD-295 may: 3 
+TDD2527964 trend ( #4 ) 5> ␚
+TDD-2527894 question done
+TDD527933 > *
+TDD-100201 questioning: ["pecan", "#1"]
+TDD5256280 pecan ( #1 ) ? 
+TDD-5248955 pecan ( #1 ) > 
+TDD3611156 pecan ( #1 ) 1> pecan
+TDD-4046018 word: 0 pecan
+TDD-242 may: 0 
+TDD1166030 pecan ( #1 ) 2> ␚
+TDD-1166011 question done
+TDD7312369 Press <Enter> to 📋 or `>` for line prompt 
+TDD-7310408 result: "squareword.org 1212: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1212"
+TDD25961 <STOP>
