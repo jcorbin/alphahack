@@ -49,3 +49,132 @@ TDD1744047 [doit:2155]> /res
 TDD-936200 Press <Enter> to 📋 or `>` for line prompt 
 TDD-802202 result: "\u2728 Spaceword.org Daily 2025-05-27 \u2728\n\n\ud83c\udfc6 Score: 2155\n\ud83c\udfc5 Rank: 160/229 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +55\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD3221304 [prior:2155]> /store
+T1.2227193900034763 now: 2025-05-27T08:35:07EDT
+TD216800 [prior:2155]> 
+TDD980790 [prior:2155]> ~
+TDD-189596 search 38f39f [ 1 ]> prune
+TDD-455695 search 38f39f [ 1 may:2 ]> take
+TDD143699 search 38f39f [ 3 may:0 ]> prune
+TDD-223788 search 38f39f [ 3 may:4 ]> take
+TDD543685 search 38f39f [ 7 may:0 ]> prune
+TDD-367976 search 38f39f [ 7 may:12 prune:6 ]> take
+TDD232047 search 38f39f [ 19 may:0 prune:6 ]> prune
+TDD-327946 search 38f39f [ 19 may:24 prune:20 ]> take
+TDD1448479 search 38f39f [ 43 may:0 prune:20 ]> cen
+TDD-537297 search 38f39f [ 43 may:0 prune:20 ]> add 100
+TDD-775253 Z c$_Lq%}Px!Q7Fz#u`;$uGqy}qNXpMkwK6oYQa}Z+a8?A25$qohWjXr6q@5L9psYXzcPJ}V!4qx>M4g9!uxqda4gdfE0RR6
+TDD-687503 Z Dk9cNa6qm@JX|C2IRpU!00030{{
+TDD3663547 search 38f39f [ 42 may:474 prune:163 dead:1 reject:2 ]> take
+TDD-2591885 search 38f39f [ 516 may:0 prune:163 dead:1 reject:2 ]> cen
+TDD5519672 search 38f39f [ 516 may:0 prune:163 dead:1 reject:2 ]> add 50
+TDD3678231 Z BHBsx3nc&m00960
+TDD-10269936 Z 8ib()00030{{
+TDD0 Z BF;$&gZ$xc0$M?8;DDHf-2?yt0RR6
+TDD-29 Z A~KZxkz7Y>CjkHe0RR6
+TDD-18 Z A~oXBLn)a0P67Y`0RR6
+TDD-1 Z A~`Mj)7(h_00030{{
+TDD0 Z BH2k;qs`wXm|6}}Pyhe`0RR6
+TDD1 Z B0I;S29iJZ0!aY?00960
+TDD11 Z BHc+eF9rYr00960
+TDD-14 Z qEaXkmz01GBIF(*00000|Nj
+TDD16 Z qE=dhI*vfRDG-yE00000|Nj
+TDD-13 Z BFafX`(05=OBB~BkY1tSbsYcz0RR6
+TDD25 Z qM$+vCMPA~G8G8`00030{{
+TDD-26 Z A~)g`P=W>+aS;Suq!8>uR1u({00000|Nj
+TDD0 Z qMwr#fSJvM7$*S$00960
+TDD-2 Z qHFRdE|dTO00960
+TDD11 Z BIqP4wv&QA{E3M>00000|Nj
+TDD-7 Z BIqP4<}}odixU6<00960
+TDD-3 Z qGu@KZA&5m00030{{
+TDD0 Z BBMefzxXC9-V^`;00960
+TDD-1 Z 8i=+xfiwjG00960
+TDD-1 Z 8VDy5h(G`U00960
+TDD0 Z 8mI~dkCOlZ00960
+TDD0 Z B07}lm-7Gs00960
+TDD0 Z BHc-pwU%(Z1P%ZI00960
+TDD9833342 search 38f39f [ 516 may:5647 prune:1042 dead:41 reject:25 done:8 ]> take 200'
+TDD-2585051 search 38f39f [ 716 may:5447 prune:1042 dead:41 reject:25 done:8 ]> prune
+TDD-4368304 search 38f39f [ 716 may:1332 prune:210 ]> take 200
+TDD-1351580 search 38f39f [ 916 may:1132 prune:210 ]> cen
+TDD2647479 search 38f39f [ 916 may:1132 prune:210 ]> add 25
+TDD14187659 Z 8iZX-00000|Nj
+TDD-18363486 Z 8iZX-00000|Nj
+TDD-11 Z 8iZX-00000|Nj
+TDD-31 Z 8iZX-00000|Nj
+TDD-13 Z 8iZX-00000|Nj
+TDD10 Z 8iZX-00000|Nj
+TDD-7 Z 8iZX-00000|Nj
+TDD-3 Z 8iZX-00000|Nj
+TDD12 Z 8iZX-00000|Nj
+TDD-13 Z 8iZX-00000|Nj
+TDD48 Z 8iZX-00000|Nj
+TDD-33 Z 8iZX-00000|Nj
+TDD13 Z 8iZX-00000|Nj
+TDD-27 Z 8iZX-00000|Nj
+TDD0 Z 8iZX-00000|Nj
+TDD0 Z 8iZX-00000|Nj
+TDD0 Z 8iZX-00000|Nj
+TDD-1 Z 8iZX-00000|Nj
+TDD0 Z 8iZX-00000|Nj
+TDD0 Z 8iZX-00000|Nj
+TDD0 Z 8iZX-00000|Nj
+TDD0 Z 8iZX-00000|Nj
+TDD0 Z 8iZX-00000|Nj
+TDD0 Z 8iZX-00000|Nj
+TDD0 Z 8iZX-00000|Nj
+TDD0 Z qE>qe1_EIW_fSt4SD2HafH)@s00030{{
+TDD12 Z qE^?Eu#<@HS^@w70RR6
+TDD-7 Z BBNY_J4pfNBw*TbflEUpE-=*5)7c{!*-;9_ISBv&0RR6
+TDD7 Z qO_=lieU*RU}6Hh&=piCdlK0&0RaF200960
+TDD3899776 search 38f39f [ 916 may:14972 prune:2072 done:8 dead:53 reject:29 ]> show done
+TDD-1755373 search 38f39f [ 916 may:14972 prune:2072 done:8 dead:53 reject:29 ]> show 5
+TDD35735580 search 38f39f [ 916 may:14972 prune:2072 done:8 dead:53 reject:29 ]> ret
+TDD-37879614 change: 23 
+TDD-385 change: 15 
+TDD-7 change: 36 
+TDD0 change: 25 W
+TDD0 change: 45 
+TDD0 change: 34 N
+TDD-1 change: 35 E
+TDD0 change: 36 
+TDD0 change: 36 
+TDD0 change: 44 O
+TDD0 change: 56 
+TDD0 change: 45 D
+TDD0 change: 56 
+TDD0 change: 54 
+TDD0 change: 56 
+TDD0 change: 56 
+TDD0 change: 23 S
+TDD0 change: 64 
+TDD0 change: 24 
+TDD0 change: 66 
+TDD0 change: 24 
+TDD0 change: 74 
+TDD0 change: 24 
+TDD0 change: 76 
+TDD0 change: 92 
+TDD0 change: 86 H
+TDD0 change: 92 
+TDD0 change: 92 
+TDD0 change: 24 
+TDD0 change: 93 
+TDD0 change: 24 O
+TDD0 change: 94 
+TDD0 change: 33 A
+TDD0 change: 95 
+TDD0 change: 43 C
+TDD2 change: 96 
+TDD-2 change: 47 X
+TDD0 change: 53 Q
+TDD0 change: 55 G
+TDD0 change: 63 U
+TDD0 change: 65 I
+TDD0 change: 73 E
+TDD0 change: 75 E
+TDD0 change: 83 S
+TDD0 change: 85 S
+TDD5864976 [prior:2155 bet:2165]> /res
+TDD-5386617 Press <Enter> to 📋 or `>` for line prompt 
+TDD-475525 result: "\u2728 Spaceword.org Daily 2025-05-27 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 110/232 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD1114816 [prior:2165]> /store
