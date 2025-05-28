@@ -1762,11 +1762,11 @@ class SpaceWord(StoredLog):
 
         return interact
 
+SourceEntry = tuple[str, 'Source'] | Board
+Source = Callable[[], Iterable[SourceEntry]]
+
 @final
 class Search:
-    SourceEntry = tuple[str, 'Source'] | Board
-    Source = Callable[[], Iterable[SourceEntry]]
-
     def __init__(self,
                  sid: str,
                  board: Board,
@@ -1792,15 +1792,15 @@ class Search:
         self.explored: set[str] = set()
 
     def get_source(self, token: str) -> Source|None:
-        src: Search.Source|None = lambda: ((nom, sub) for nom, sub in self.sources.items())
+        src: Source|None = lambda: ((nom, sub) for nom, sub in self.sources.items())
         for name in token.split('/'):
             if not name: break
-            got: Search.Source|None = None
+            got: Source|None = None
             for ent in src():
                 if not isinstance(ent, tuple): continue
                 nom, sub = ent
                 if nom == name:
-                    got = cast(Search.Source, sub)
+                    got = cast(Source, sub)
             if not got: return None
             src = got
         return src
@@ -2286,7 +2286,7 @@ class Search:
         srcs = tuple(self.get_source(name) for name in names)
 
         entries = tuple(
-            cast(tuple[Search.SourceEntry, ...],
+            cast(tuple[SourceEntry, ...],
                 tuple(src()) if src else ())
             for src in srcs)
 
