@@ -1,0 +1,43 @@
+T0.0002530170022509992 now: 2025-05-28T08:17:56EDT
+TD39 site: dontwordle.com
+TDD-7 wordlist: nwl2023.txt
+TDD6120496 1> *
+TDD4887715 1> tried mommy
+TDD-11008138 tried: mommy
+TDD2615814 2> no moy
+TDD-2615804 nope: moy
+TDD1167749 2> *
+TDD12040571 2> tried phpht
+TDD-13208339 tried: phpht
+TDD1759850 3> no ph
+TDD-1759840 nope: hmopy
+TDD2479808 3> word ____t
+TDD-2479810 word: ____t
+TDD1903931 3> *
+TDD12056384 3> tried zizit
+TDD-13960335 tried: zizit
+TDD2536226 4> no zi
+TDD-2536206 nope: himopyz
+TDD727424 4> *
+TDD27897271 4> tried sweet
+TDD-28624702 tried: sweet
+TDD2943776 5> no we
+TDD-2943774 nope: ehimopwyz
+TDD863982 5> may s
+TDD-864008 may: s
+TDD663802 5> *
+TDD16840521 5> tried avast
+TDD-17504303 tried: avast
+TDD2967990 6> word a__st
+TDD-2967991 word: a__st
+TDD1927874 6> no v
+TDD-1927851 nope: ehimopvwyz
+TDD1559687 6> may .
+TDD-1559709 may: 
+TDD855860 6> *
+TDD9216345 6> tried adust
+TDD-10072209 tried: adust
+TDD3368033 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3365886 result: "Don't Wordle 1100 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6438\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9343\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9216\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe916\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe92\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe91\nUndos used: 0\n\n  1 words remaining\nx 11 unused letters\n= 11 total score"
+TDD-1586 puzzle_id: #1100
+TDD-640 <STOP>
