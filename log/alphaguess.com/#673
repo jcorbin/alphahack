@@ -1,0 +1,36 @@
+T0.00026611299836076796 now: 2025-05-28T08:02:52EDT
+TD154445 loaded 196560 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (43 words excluded) asof c7118ee5d957f835a6bb955a89525e1dfb8fd5b8
+TDD2635122 [0 : 98237 : 196560] mach? a
+TDD-2789405 progress: 1 98237 mach
+TDD2207630 [98238 : 147399 : 196560] rhumb? a
+TDD-2207708 progress: 1 147399 rhumb
+TDD1647804 [147400 : 171666 : 196560] ta? a
+TDD-1647836 progress: 1 171666 ta
+TDD2208088 [171667 : 182034 : 196560] un? a
+TDD-2208071 progress: 1 182034 un
+TDD6631858 [182035 : 189297 : 196560] vicar? b
+TDD-6631842 progress: -1 189297 vicar
+TDD2111946 [182035 : 185665 : 189297] unretire? b
+TDD-2111961 progress: -1 185665 unretire
+TDD1903732 [182035 : 183850 : 185665] unembittered? b
+TDD-1903742 progress: -1 183850 unembittered
+TDD1791935 [182035 : 182817 : 183850] unco? b
+TDD-1791937 progress: -1 182817 unco
+TDD1639910 [182035 : 182424 : 182817] unblock? az
+TDD-639939 [182035 : 182424 : 182817] unblock? a
+TDD-999970 progress: 1 182424 unblock
+TDD1967917 [182425 : 182621 : 182817] uncensorious? a
+TDD-1967902 progress: 1 182621 uncensorious
+TDD1752598 [182622 : 182706 : 182817] unci? a
+TDD-1752613 progress: 1 182706 unci
+TDD1759159 [182707 : 182752 : 182817] uncle? it
+TDD-1759151 progress: 0 182752 uncle
+TDD-57 [182707 : 182752 : 182817] <Done>.
+TDD2944004 press <Return> to finish
+TDD-2775978 Press <Enter> to 📋 or `>` for line prompt 
+TDD-166000 share result: "\ud83e\udde9 Puzzle #673\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 27s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1742 result puzzle: 673
+TDD-282 result guesses: 12
+TDD-6 result time: 27s
+TDD0 result link: alphaguess.com
+TDD1 <STOP>
