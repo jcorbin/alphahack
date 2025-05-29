@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import argparse
+from functools import cached_property, lru_cache
 import hashlib
 import math
 import json
@@ -1931,8 +1932,6 @@ class Search:
                              print=ui.print if verbose > 1 else lambda _: None,
                              final=ui.print if verbose > 0 else lambda _: None,
                              ) as mark:
-            wordlist = tuple(self.all_words())
-            mark('filter all words')
 
             # NOTE should be redundant by proper result handling
             ded = self.frontier.split(lambda board, i: not any(l for l in board.letters))
@@ -1953,7 +1952,7 @@ class Search:
             # collect potential word fragments for every board:
             # - a fragment is a sequence of defined letters in some row/col
             # - that is at least 2 letters long and not in the wordlist
-            wordset = set(wordlist)
+            wordset = set(self.all_words())
             fragments = tuple(
                 tuple(
                     frag
@@ -2002,7 +2001,7 @@ class Search:
 
             # pull all possible words for every boards' seeds...
             seed_words = tuple(
-                (board, frags, seed, tuple(grep(wordlist, seed.pattern, anchor='full')))
+                (board, frags, seed, self.search(seed.pattern))
                 for board, frags, seed in seeds)
             mark('grep words')
 
@@ -2141,7 +2140,7 @@ class Search:
             from_boards, may_boards,
             pos_scores=scores,
             explain_pos_score=explain,
-            wordlist=wordlist,
+            wordlist=self.all_words(),
             metadata=meta())
 
     def do_auto(self, ui: PromptUI):
@@ -2628,11 +2627,24 @@ class Search:
             ('reject', reject),
         ))
 
+    _all_words: tuple[str, ...] | None = None
+
     def all_words(self):
-        return grep(
-            self.wordlist.words,
-            self.board.all_pattern,
-            anchor='full')
+        if self._all_words is None:
+            self._all_words = tuple(grep(
+                self.wordlist.words,
+                self.board.all_pattern,
+                anchor='full'))
+        return self._all_words
+
+    _search_cache: OrderedDict[re.Pattern[str], tuple[str, ...]] = OrderedDict()
+
+    def search(self, pattern: re.Pattern[str]):
+        if pattern not in self._search_cache:
+            self._search_cache[pattern] = tuple(
+                grep(self.all_words(), pattern, anchor='full'))
+        return self._search_cache[pattern]
+
 
     def offer_boards(self,
                      from_boards: tuple[Board, ...],
