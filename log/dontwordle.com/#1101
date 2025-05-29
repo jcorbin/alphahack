@@ -1,0 +1,71 @@
+T0.00021807299344800413 now: 2025-05-29T09:38:43EDT
+TD38 site: dontwordle.com
+TDD-7 wordlist: nwl2023.txt
+TDD5690751 1> *
+TDD5021474 1> tired mamma
+TDD-6143600 1> tried mamma
+TDD-4568554 tried: mamma
+TDD4311293 2> no m
+TDD-4311292 nope: m
+TDD815677 2> may a
+TDD-815688 may: a
+TDD839913 2> *
+TDD10560170 2> tried pzazz
+TDD-11400094 tried: pzazz
+TDD2711799 3> no pz
+TDD-2711789 nope: mpz
+TDD759803 3> *
+TDD18664425 3> undo
+TDD-19424244 undo
+TDD775814 2> undo
+TDD-775824 undo
+TDD3640105 1> *
+TDD-1552308 1> no .
+TDD-2087770 nope: 
+TDD1055820 1> may .
+TDD-1055811 may: 
+TDD1119870 1> *
+TDD11824312 1> tried commo
+TDD-12944212 tried: commo
+TDD3175842 2> no com
+TDD-3175819 nope: cmo
+TDD1743766 2> *
+TDD19896552 2> tried egger
+TDD-21640338 tried: egger
+TDD4111849 3> no egr
+TDD-4111842 nope: cegmor
+TDD599795 3> *
+TDD34632683 3> *20
+TDD-33120543 3> * 20
+TDD8616095 3> tried skiff
+TDD-10728029 tried: skiff
+TDD3639946 4> no skif
+TDD-3639953 nope: cefgikmors
+TDD1167822 4> *
+TDD2832221 4> * 20
+TDD31008435 4> tried alway
+TDD-35008470 tried: alway
+TDD5015918 5> may l
+TDD-5015918 may: l
+TDD959790 5> no y
+TDD-959777 nope: cefgikmorsy
+TDD1207768 5> no w
+TDD-1207779 nope: cefgikmorswy
+TDD6105144 5> word ___a
+TDD-6105146 word: ___a_
+TDD870632 5> *
+TDD7849338 5> **
+TDD-6216002 5> * 15
+TDD14320290 5> tried uhlan
+TDD-16824268 tried: uhlan
+TDD4679899 6> no hn
+TDD-4679867 nope: cefghikmnorswy
+TDD2271751 6> may ul
+TDD-2271771 may: lu
+TDD1375954 6> *
+TDD8536040 6> tried bubal
+TDD-9911996 tried: bubal
+TDD3896492 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3894394 result: "Don't Wordle 1101 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6585\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1830\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c286\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c4\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c3\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"
+TDD-1274 puzzle_id: #1101
+TDD-899 <STOP>
