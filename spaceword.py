@@ -2397,7 +2397,7 @@ class Search:
             return
 
         timing: list[tuple[str, float, float]] = list()
-        with ui.time.elapsed('add_word',
+        with ui.time.elapsed('prune_word',
                              collect=lambda label, now, elapsed: timing.append((label, now, elapsed)),
                              print=ui.print if verbose > 1 else lambda _: None,
                              final=ui.print if verbose > 0 else lambda _: None,
