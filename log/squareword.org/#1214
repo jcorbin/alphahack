@@ -1,0 +1,122 @@
+T0.00022172299213707447 now: 2025-05-29T09:28:41EDT
+TD41 site: squareword.org
+TDD22986293 🧩  ? #1214
+TDD-22986206 puzzle_id: #1214
+TDD-111 wordlist: nwl2023.txt
+TDD1335843 > *
+TDD1584152 try? 1
+TDD-2918989 questioning: ["snare", "#5"]
+TDD614757 snare ( #5 ) ? /
+TDD2967635 snare ( #5 ) 1> ~ a
+TDD-3583011 word: 0 _____
+TDD-390 may: 0 a
+TDD2423467 snare ( #5 ) 2> ____e ~ a
+TDD-2423383 word: 1 ____e
+TDD-86 may: 1 a
+TDD1799894 snare ( #5 ) 3> ~ ar
+TDD-1799803 word: 2 _____
+TDD-91 may: 2 a r
+TDD2384012 snare ( #5 ) 4> s_a
+TDD-2383930 word: 3 s_a__
+TDD-82 may: 3 
+TDD1207814 snare ( #5 ) 5> ~ se
+TDD-1207746 word: 4 _____
+TDD-66 may: 4 e s
+TDD0 question done
+TDD1479940 > /no n
+TDD-1479708 nope: n
+TDD1519602 > *
+TDD3424219 try? 1
+TDD-4943942 questioning: ["stamp", "#4"]
+TDD2103791 stamp ( #4 ) ? 
+TDD-1431899 stamp ( #4 ) > 
+TDD879948 stamp ( #4 ) 1> ~ at
+TDD-1551890 word: 0 _____
+TDD-61 may: 0 a t
+TDD5408047 stamp ( #4 ) 2> 4 sta
+TDD-5407983 word: 3 sta__
+TDD-67 may: 3 
+TDD5520028 stamp ( #4 ) 5> 5 ___m
+TDD-5519949 word: 4 ___m_
+TDD-75 may: 4 e s
+TDD0 question done
+TDD1367884 > /no p
+TDD-1367815 nope: n p
+TDD911821 > *
+TDD10016254 try? 2
+TDD-10928047 questioning: ["items", "#5"]
+TDD3831903 items ( #5 ) ? 
+TDD-303949 items ( #5 ) > 2 ~ ai
+TDD-3527965 word: 1 ____e
+TDD-81 may: 1 a i
+TDD5327946 items ( #5 ) 3> 4 ~ i
+TDD-5327875 word: 3 sta__
+TDD-76 may: 3 i
+TDD9415984 items ( #5 ) 5> 5 ___ms
+TDD-9415909 word: 4 ___ms
+TDD-74 may: 4 e
+TDD0 question done
+TDD7272250 > *
+TDD21199990 try? 2
+TDD-28472154 questioning: ["staid", "#4"]
+TDD3751857 staid ( #4 ) ? 
+TDD-3600032 staid ( #4 ) > 
+TDD3584122 staid ( #4 ) 1> 3 ~ ard
+TDD-3735965 word: 2 _____
+TDD-69 may: 2 a d r
+TDD5431947 staid ( #4 ) 4> 4 staid
+TDD-5431884 word: 3 staid
+TDD-62 may: 3 
+TDD4016123 staid ( #4 ) 5> ␚
+TDD-4016078 question done
+TDD647782 > *
+TDD9496355 try? 2
+TDD-10144083 questioning: ["helms", "#5"]
+TDD1239921 helms ( #5 ) ? 
+TDD-584051 helms ( #5 ) > 
+TDD2647962 helms ( #5 ) 1> h_ ~ ath
+TDD-3303856 word: 0 h____
+TDD-75 may: 0 a h t
+TDD1592225 helms ( #5 ) 2> ~ ail
+TDD-1592156 word: 1 ____e
+TDD-68 may: 1 a i l
+TDD2591688 helms ( #5 ) 3> 5 helms
+TDD-2591617 word: 4 helms
+TDD-71 may: 4 
+TDD-1 question done
+TDD2343965 > *
+TDD-948739 questioning: ["hatch", "#1"]
+TDD1553600 hatch ( #1 ) ? 
+TDD-2748859 hatch ( #1 ) > 
+TDD2064001 hatch ( #1 ) 1> hatch
+TDD-2263893 word: 0 hatch
+TDD-72 may: 0 
+TDD2936031 hatch ( #1 ) 2> 
+TDD159947 hatch ( #1 ) 3> _a ~ ard
+TDD-3095904 word: 2 _a___
+TDD-75 may: 2 a d r
+TDD1463921 hatch ( #1 ) 4> *
+TDD2473441 hatch ( #1 ) 4> 
+TDD-3121850 hatch ( #1 ) 5> 
+TDD-815481 question done
+TDD791086 > *
+TDD656360 questioning: ["agile", "#2"]
+TDD2369173 agile ( #2 ) ? 
+TDD-3632753 agile ( #2 ) > 
+TDD1288144 agile ( #2 ) 1> 2 agile
+TDD-1471970 word: 1 agile
+TDD-72 may: 1 
+TDD2943968 agile ( #2 ) 3> ␚
+TDD-2943919 question done
+TDD663923 > *
+TDD316380 questioning: ["radar", "#3"]
+TDD2487364 radar ( #3 ) ? 
+TDD-3299724 radar ( #3 ) > 
+TDD2407894 radar ( #3 ) 1> 3 radar
+TDD-2575820 word: 2 radar
+TDD-69 may: 2 
+TDD655998 radar ( #3 ) 4> ␚
+TDD-655929 question done
+TDD2639935 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2637898 result: "squareword.org 1214: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1214"
+TDD21969 <STOP>
