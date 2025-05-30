@@ -1,0 +1,37 @@
+T0.0002072629977192264 now: 2025-05-30T07:49:23EDT
+TD77583 loaded 196560 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (43 words excluded) asof d1b731aeb12bac8e3d646c5f2011c6881cccc294
+TDD3550796 [0 : 98237 : 196560] mach? a
+TDD-3628217 progress: 1 98237 mach
+TDD3255765 [98238 : 147399 : 196560] rhumb? b
+TDD-3255854 progress: -1 147399 rhumb
+TDD1823820 [98238 : 122800 : 147399] parr? a
+TDD-1823834 progress: 1 122800 parr
+TDD4535970 [122801 : 135091 : 147399] proper? b
+TDD-4535972 progress: -1 135091 proper
+TDD2503933 [122801 : 128870 : 135091] play? b
+TDD-2503926 progress: -1 128870 play
+TDD7487994 [122801 : 125704 : 128870] pet? b
+TDD-7487992 progress: -1 125704 pet
+TDD3271829 [122801 : 123713 : 125704] pe? a
+TDD-3271830 progress: 1 123713 pe
+TDD3104001 [123714 : 124697 : 125704] pepper? b
+TDD-3103999 progress: -1 124697 pepper
+TDD3463895 [123714 : 124202 : 124697] peise? a
+TDD-3463888 progress: 1 124202 peise
+TDD2439874 [124203 : 124332 : 124697] pen? b
+TDD-2439887 progress: -1 124332 pen
+TDD2311968 [124203 : 124252 : 124332] pellet? b
+TDD-2311962 progress: -1 124252 pellet
+TDD3311813 [124203 : 124227 : 124252] pelargoniums? a
+TDD-3311814 progress: 1 124227 pelargoniums
+TDD6408079 [124228 : 124240 : 124252] pelican? it
+TDD-6408063 progress: 0 124240 pelican
+TDD-68 [124228 : 124240 : 124252] <Done>.
+TDD4575860 press <Return> to finish
+TDD-4119838 Press <Enter> to 📋 or `>` for line prompt 
+TDD-453958 share result: "\ud83e\udde9 Puzzle #675\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 40s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1762 result puzzle: 675
+TDD-304 result guesses: 13
+TDD-4 result time: 40s
+TDD0 result link: alphaguess.com
+TDD1 <STOP>
