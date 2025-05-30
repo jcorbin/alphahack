@@ -1,0 +1,56 @@
+T0.00021927399939158931 now: 2025-05-30T08:03:33EDT
+TD40 site: dontwordle.com
+TDD-7 wordlist: nwl2023.txt
+TDD5919485 1> *
+TDD2296779 1> tried zanza
+TDD-8216197 tried: zanza
+TDD1855518 2> no zan
+TDD-1855506 nope: anz
+TDD943841 2> *
+TDD11560341 2> tried lotto
+TDD-12504203 tried: lotto
+TDD1655788 3> undo
+TDD-1655791 undo
+TDD30216450 2> *
+TDD-21368448 2> tried keeve
+TDD-8847986 tried: keeve
+TDD3120268 3> no kv
+TDD-3120261 nope: aknvz
+TDD1079386 3> may e
+TDD-1079390 may: e
+TDD711937 3> *
+TDD30824311 3> tried truer
+TDD-31536264 tried: truer
+TDD2007937 4> word ___er
+TDD-2007928 word: ___er
+TDD4527870 4> no t
+TDD-4527870 nope: akntvz
+TDD776008 4> *
+TDD1183719 4> may .
+TDD-1959722 may: 
+TDD583795 4> *
+TDD42664849 4> *
+TDD-32968551 4> tried cyber
+TDD-10280116 tried: cyber
+TDD1087796 5> no cyb
+TDD-1087786 nope: abckntvyz
+TDD551805 5> *
+TDD21576518 5> no u
+TDD-22128305 nope: abckntuvyz
+TDD495692 5> *
+TDD11160419 5> * 20
+TDD2304111 5> tried poler
+TDD-13960250 tried: poler
+TDD3239990 6> no p
+TDD-3239966 nope: abcknptuvyz
+TDD751754 6> may l
+TDD-751764 may: l
+TDD2135757 6> word _o_er
+TDD-2135763 word: _o_er
+TDD2743952 6> *
+TDD19376162 6> tried loser
+TDD-22120134 tried: loser
+TDD744042 Press <Enter> to 📋 or `>` for line prompt 
+TDD-741564 result: "Don't Wordle 1102 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5808\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c872\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe984\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe957\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe92\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe91\nUndos used: 1\n\n  1 words remaining\nx 10 unused letters\n= 10 total score"
+TDD-1882 puzzle_id: #1102
+TDD-655 <STOP>
