@@ -1,0 +1,126 @@
+T0.0002429529995424673 now: 2025-05-30T07:51:25EDT
+TD39 site: squareword.org
+TDD35740973 🧩  ? #1215
+TDD-35740831 puzzle_id: #1215
+TDD-162 wordlist: nwl2023.txt
+TDD1687577 > *
+TDD4136567 try? 1
+TDD-5823001 questioning: ["aisle", "#5"]
+TDD941762 aisle ( #5 ) ? 
+TDD-182894 aisle ( #5 ) > 
+TDD535879 aisle ( #5 ) 1> ~ s
+TDD-1295442 word: 0 _____
+TDD-453 may: 0 s
+TDD807566 aisle ( #5 ) 2> ~ a
+TDD-807494 word: 1 _____
+TDD-73 may: 1 a
+TDD45800663 aisle ( #5 ) 3> a_
+TDD-45800567 word: 2 a____
+TDD-95 may: 2 
+TDD15944231 aisle ( #5 ) 4> ~ is
+TDD-15944122 word: 3 _____
+TDD-107 may: 3 i s
+TDD1327907 aisle ( #5 ) 5> ~ as
+TDD-1327810 word: 4 _____
+TDD-98 may: 4 a s
+TDD0 question done
+TDD2063849 > /no el
+TDD-2063584 nope: e l
+TDD951440 > *
+TDD17096821 try? 6
+TDD-18048375 questioning: ["acrid", "#3"]
+TDD647690 acrid ( #3 ) ? 
+TDD-343870 acrid ( #3 ) > 
+TDD2040347 acrid ( #3 ) 1> _c
+TDD-2344242 word: 0 _c___
+TDD-76 may: 0 s
+TDD2231624 acrid ( #3 ) 2> ~ acr
+TDD-2231541 word: 1 _____
+TDD-83 may: 1 a c r
+TDD2663956 acrid ( #3 ) 3> ac_ ~ r
+TDD-2663876 word: 2 ac___
+TDD-80 may: 2 r
+TDD4088023 acrid ( #3 ) 4> 5 ~ asc
+TDD-4087900 word: 4 _____
+TDD-114 may: 4 a c s
+TDD-2 question done
+TDD1783722 > /no d
+TDD-1783670 nope: d e l
+TDD815966 > *
+TDD13544325 try? 1
+TDD-14360244 questioning: ["actor", "#3"]
+TDD927822 actor ( #3 ) ? 
+TDD1472424 actor ( #3 ) > 
+TDD-1200743 actor ( #3 ) 1> ~ so
+TDD-1199521 word: 0 _c___
+TDD-85 may: 0 o s
+TDD2600005 actor ( #3 ) 2> ~ acro
+TDD-2599919 word: 1 _____
+TDD-85 may: 1 a c o r
+TDD4167936 actor ( #3 ) 3> actor
+TDD-4167845 word: 2 actor
+TDD-92 may: 2 
+TDD2520032 actor ( #3 ) 4> ~ isto
+TDD-2519940 word: 3 _____
+TDD-91 may: 3 i o s t
+TDD2031875 actor ( #3 ) 5> ~ asct
+TDD-2031784 word: 4 _____
+TDD-91 may: 4 a c s t
+TDD-2 question done
+TDD6392063 > *
+TDD7240161 try? 6
+TDD-13632092 questioning: ["icons", "#1"]
+TDD647751 icons ( #1 ) ? 
+TDD-480024 icons ( #1 ) > 
+TDD5912309 icons ( #1 ) 1> _co ~ s
+TDD-6080074 word: 0 _co__
+TDD-93 may: 0 s
+TDD10896132 icons ( #1 ) 2> 5 ____s ~ act
+TDD-10896042 word: 4 ____s
+TDD-88 may: 4 a c t
+TDD-1 question done
+TDD7024015 > /no ednl
+TDD-7023944 nope: d e l n
+TDD1567867 > *
+TDD10336715 try? 2
+TDD-11904545 questioning: ["scoff", "#1"]
+TDD527388 scoff ( #1 ) ? 
+TDD-375560 scoff ( #1 ) > 
+TDD1640105 scoff ( #1 ) 1> scoff
+TDD-1791958 word: 0 scoff
+TDD-76 may: 0 
+TDD4224091 scoff ( #1 ) 2> ␚
+TDD-4224027 question done
+TDD1127850 > *
+TDD996686 questioning: ["copra", "#2"]
+TDD7735026 copra ( #2 ) ? 
+TDD-9595706 copra ( #2 ) > 
+TDD1808044 copra ( #2 ) 1> 2 copra
+TDD-2071884 word: 1 copra
+TDD-87 may: 1 
+TDD5431989 copra ( #2 ) 3> 4 _o ~ ist
+TDD-5431897 word: 3 _o___
+TDD-92 may: 3 i s t
+TDD2432105 copra ( #2 ) 5> ~ actp
+TDD-2432009 word: 4 ____s
+TDD-96 may: 4 a c p t
+TDD-1 question done
+TDD1919924 > *
+TDD-555094 questioning: ["moist", "#4"]
+TDD2270281 moist ( #4 ) ? 
+TDD-2083167 moist ( #4 ) > 4 moist
+TDD-1551862 word: 3 moist
+TDD-81 may: 3 
+TDD2264022 moist ( #4 ) 5> ␚
+TDD-2263972 question done
+TDD663770 > *
+TDD214306 questioning: ["pacts", "#5"]
+TDD8660036 pacts ( #5 ) ? 
+TDD-8786180 pacts ( #5 ) > 
+TDD1920010 pacts ( #5 ) 1> 5 pacts
+TDD-2671910 word: 4 pacts
+TDD-82 may: 4 
+TDD-1 question done
+TDD4112041 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4110005 result: "squareword.org 1215: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1215"
+TDD17339 <STOP>
