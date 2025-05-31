@@ -381,7 +381,7 @@ class PromptUI:
     def tokens_or(self, prompt: str):
         return self.input(prompt) if self.tokens.empty else self.tokens
 
-    def dispatch(self, ui: 'PromptUI', spec: dict[str, State|str]):
+    def dispatch(self, spec: dict[str, State|str]):
         def resolve(name: str) -> State:
             st = spec[name]
             return resolve(st) if isinstance(st, str) else st
@@ -394,23 +394,23 @@ class PromptUI:
             for res in (spec[name],))
 
         def show_help(name: str, then: State, short: bool=True):
-            ui.write(f'- {name}')
+            self.write(f'- {name}')
             doc = then.__doc__
             if doc:
                 lines = block_lines(doc)
-                ui.fin(f' -- {next(lines)}')
+                self.fin(f' -- {next(lines)}')
                 for line in lines:
                     if short and not line: break
-                    ui.print(f'  {line}')
+                    self.print(f'  {line}')
             else:
-                ui.fin()
+                self.fin()
 
-        if ui.tokens.have(r'/help|\?+'):
-            token = next(ui.tokens, None)
+        if self.tokens.have(r'/help|\?+'):
+            token = next(self.tokens, None)
             if not token:
                 for name, als, then in zip(names, alias, thens):
                     if als:
-                        ui.print(f'- {name} -- alias for {als}')
+                        self.print(f'- {name} -- alias for {als}')
                     else:
                         show_help(name, then)
                 return
@@ -419,25 +419,25 @@ class PromptUI:
                 for i, name in enumerate(names)
                 if name.startswith(token))
             if not may:
-                ui.print(f'invalid command {token!r}')
+                self.print(f'invalid command {token!r}')
             elif len(may) == 1:
                 show_help(names[may[0]], thens[may[0]], short=False)
             else:
-                ui.print(f'ambiguous command; may be: {" ".join(repr(names[i]) for i in may)}')
+                self.print(f'ambiguous command; may be: {" ".join(repr(names[i]) for i in may)}')
             return
 
-        token = next(ui.tokens, None)
+        token = next(self.tokens, None)
         if token:
             may = tuple(
                 i
                 for i, name in enumerate(names)
                 if name.startswith(token))
             if not may:
-                ui.print(f'invalid command {token!r} ; maybe ask for /help ?')
+                self.print(f'invalid command {token!r} ; maybe ask for /help ?')
             elif len(may) == 1:
-                return thens[may[0]](ui)
+                return thens[may[0]](self)
             else:
-                ui.print(f'ambiguous command; may be: {" ".join(repr(names[i]) for i in may)}')
+                self.print(f'ambiguous command; may be: {" ".join(repr(names[i]) for i in may)}')
 
     @contextmanager
     def deps(self,
