@@ -381,63 +381,99 @@ class PromptUI:
     def tokens_or(self, prompt: str):
         return self.input(prompt) if self.tokens.empty else self.tokens
 
-    def dispatch(self, spec: dict[str, State|str]):
-        def resolve(name: str) -> State:
-            st = spec[name]
-            return resolve(st) if isinstance(st, str) else st
+    class Dispatcher:
+        def __init__(self, spec: dict[str, State|str]):
+            def resolve(name: str) -> State:
+                st = spec[name]
+                return resolve(st) if isinstance(st, str) else st
+            self.names: tuple[str, ...] = tuple(sorted(spec))
+            self.thens: tuple[State, ...] = tuple(resolve(name) for name in self.names)
+            self.alias: tuple[str, ...] = tuple(
+                res if isinstance(res, str) else ''
+                for name in self.names
+                for res in (spec[name],))
+            self.re: int = 0
 
-        names = tuple(sorted(spec))
-        thens = tuple(resolve(name) for name in names)
-        alias = tuple(
-            res if isinstance(res, str) else ''
-            for name in names
-            for res in (spec[name],))
-
-        def show_help(name: str, then: State, short: bool=True):
-            self.write(f'- {name}')
+        def show_help(self, ui: 'PromptUI', name: str, then: State, short: bool=True):
+            ui.write(f'- {name}')
             doc = then.__doc__
             if doc:
                 lines = block_lines(doc)
-                self.fin(f' -- {next(lines)}')
+                ui.fin(f' -- {next(lines)}')
                 for line in lines:
                     if short and not line: break
-                    self.print(f'  {line}')
+                    ui.print(f'  {line}')
             else:
-                self.fin()
+                ui.fin()
 
-        if self.tokens.have(r'/help|\?+'):
-            token = next(self.tokens, None)
-            if not token:
-                for name, als, then in zip(names, alias, thens):
-                    if als:
-                        self.print(f'- {name} -- alias for {als}')
-                    else:
-                        show_help(name, then)
-                return
-            may = tuple(
-                i
-                for i, name in enumerate(names)
-                if name.startswith(token))
-            if not may:
-                self.print(f'invalid command {token!r}')
-            elif len(may) == 1:
-                show_help(names[may[0]], thens[may[0]], short=False)
-            else:
-                self.print(f'ambiguous command; may be: {" ".join(repr(names[i]) for i in may)}')
-            return
+        def show_help_list(self, ui: 'PromptUI'):
+            for name, als, then in zip(self.names, self.alias, self.thens):
+                if not name.strip(): continue
+                if als:
+                    ui.print(f'- {name} -- alias for {als}')
+                else:
+                    self.show_help(ui, name, then)
 
-        token = next(self.tokens, None)
-        if token:
-            may = tuple(
-                i
-                for i, name in enumerate(names)
-                if name.startswith(token))
-            if not may:
-                self.print(f'invalid command {token!r} ; maybe ask for /help ?')
-            elif len(may) == 1:
-                return thens[may[0]](self)
+        def do_help(self, ui: 'PromptUI'):
+            if not ui.tokens:
+                return self.show_help_list(ui)
+            maybe: list[str] = []
+            mayst: list[State] = []
+            token = next(ui.tokens)
+            for name, then in zip(self.names, self.thens):
+                if name.startswith(token):
+                    maybe.append(name)
+                    mayst.append(then)
+            if not maybe:
+                ui.print(f'invalid command {token!r}')
+            elif len(maybe) == 1:
+                self.show_help(ui, maybe[0], mayst[0], short=False)
             else:
-                self.print(f'ambiguous command; may be: {" ".join(repr(names[i]) for i in may)}')
+                ui.print(f'ambiguous command; may be: {" ".join(repr(s) for s in maybe)}')
+
+        def dispatch(self, ui: 'PromptUI') -> State|None:
+            if ui.tokens.have(r'/help|\?+'):
+                return self.do_help
+
+            token = ui.tokens.peek()
+            slurp: State|None = None
+            dflt: State|None = None
+            only: State|None = None
+            maybe: list[str] = []
+            for name, then in zip(self.names, self.thens):
+                if name == token:
+                    _ = next(ui.tokens, None)
+                    return then
+                if name == '': dflt = then
+                elif name == ' ': slurp = then
+                elif token and name.startswith(token):
+                    only = then if not maybe else None
+                    maybe.append(name)
+
+            if ui.tokens and slurp is not None:
+                return slurp
+            if only:
+                _ = next(ui.tokens, None)
+                return only
+            if maybe:
+                return lambda ui: ui.print(f'! ambiguous command {token!r}; may be: {" ".join(repr(s) for s in maybe)}')
+            if ui.tokens:
+                return lambda ui: ui.print(f'! invalid command {token!r}; maybe ask for /help ?')
+            if dflt is not None:
+                return dflt
+
+        def __call__(self, ui: 'PromptUI'):
+            st = self.dispatch(ui)
+            if st is not None:
+                self.re = 0
+                return st(ui)
+            else:
+                self.re += 1
+                if self.re > 1:
+                    self.show_help_list(ui)
+
+    def dispatch(self, spec: dict[str, State|str]):
+        return self.Dispatcher(spec)(self)
 
     @contextmanager
     def deps(self,
