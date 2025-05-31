@@ -1,0 +1,58 @@
+T0.00025434300187043846 now: 2025-05-31T08:28:08EDT
+TD40 site: dontwordle.com
+TDD5 wordlist: nwl2023.txt
+TDD5598210 1> *
+TDD3306058 1> tried yukky
+TDD-8904218 tried: yukky
+TDD1503660 2> no yuk
+TDD-1503648 nope: kuy
+TDD1111870 2> *
+TDD7104279 2> tried civic
+TDD-8216163 tried: civic
+TDD1767833 3> undo
+TDD-1767839 undo
+TDD4567641 2> *
+TDD21568669 2> tried frere
+TDD-26136291 tried: frere
+TDD2087716 3> undo
+TDD-2087725 undo
+TDD4559934 2> *
+TDD2504194 2> tried mamba
+TDD-7064139 tried: mamba
+TDD5584066 3> no mab
+TDD-5584039 nope: abkmuy
+TDD959599 3> *
+TDD12208575 3> tried oppos
+TDD-13168190 tried: oppos
+TDD4407887 4> no op
+TDD-4407888 nope: abkmopuy
+TDD839776 4> may s
+TDD-839794 may: s
+TDD2967875 4> *
+TDD6976504 4> tried fesse
+TDD-9944379 tried: fesse
+TDD5039927 5> no f
+TDD-5039911 nope: abfkmopuy
+TDD1783745 5> may e
+TDD-1783749 may: es
+TDD687777 5> *
+TDD15232490 5> word ___s
+TDD-15920250 word: ___s_
+TDD3015805 5> may . e
+TDD-3015820 may: e
+TDD863894 5> *
+TDD22104480 5> tried wrest
+TDD-22968390 tried: wrest
+TDD4663920 6> no w
+TDD-4663900 nope: abfkmopuwy
+TDD1623788 6> word _rest
+TDD-1623790 word: _rest
+TDD1664880 6> may .
+TDD-1664878 may: 
+TDD414802 6> *
+TDD6873690 6> tried drest
+TDD-7288464 tried: drest
+TDD3447396 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3445035 result: "Don't Wordle 1103 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7806\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3168\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8252\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c7\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe93\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe92\nUndos used: 2\n\n  2 words remaining\nx 11 unused letters\n= 22 total score"
+TDD-1873 puzzle_id: #1103
+TDD-605 <STOP>
