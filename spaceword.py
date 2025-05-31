@@ -1036,6 +1036,30 @@ class SpaceWord(StoredLog):
 
         self.at_cursor: tuple[int, int, Literal['X', 'Y']] = (0, 0, 'X')
 
+        self.play = PromptUI.Prompt(self.prompt_mess, {
+            '/at': self.cmd_at,
+            '/bad': self.cmd_bad,
+            '/center': self.cmd_center,
+            '/centre': '/center',
+            '/clear': self.cmd_clear,
+            '/erase': self.cmd_erase,
+            '/generate': self.cmd_generate,
+            '/letters': self.cmd_letters,
+            '/priors': self.cmd_priors,
+            '/rejects': self.cmd_rejects,
+            '/result': self.cmd_result,
+            '/search': self.cmd_search,
+            '/shift': self.cmd_shift,
+            '/store': self.cmd_store,
+            '/write': self.cmd_write,
+
+            '@': '/at', # TODO wants to be an under... prefix
+            '_': '/erase', # TODO wants to match r'(?x) ( \d* ) _ | _ ( \d* )'
+            '*': '/generate',
+            '~': '/search',
+            '^': '/write', # TODO wants to be an under... prefix
+        })
+
     def make_sid(self, hash: str):
         n = 6
         while hash[:n] in self.sids and n < len(hash):
@@ -1449,33 +1473,10 @@ class SpaceWord(StoredLog):
             for word, cur in bad_words:
                 yield f'  - @{cur} {word}'
 
-    def play(self, ui: PromptUI):
+    def prompt_mess(self, ui: PromptUI):
         for line in self.show_board(self.board):
             ui.print(line)
-        with ui.input(f'[{' '.join(self.prompt_parts())}]> '):
-            return ui.dispatch({
-                '/at': self.cmd_at,
-                '/bad': self.cmd_bad,
-                '/center': self.cmd_center,
-                '/centre': '/center',
-                '/clear': self.cmd_clear,
-                '/erase': self.cmd_erase,
-                '/generate': self.cmd_generate,
-                '/letters': self.cmd_letters,
-                '/priors': self.cmd_priors,
-                '/rejects': self.cmd_rejects,
-                '/result': self.cmd_result,
-                '/search': self.cmd_search,
-                '/shift': self.cmd_shift,
-                '/store': self.cmd_store,
-                '/write': self.cmd_write,
-
-                '@': '/at', # TODO wants to be an under... prefix
-                '_': '/erase', # TODO wants to match r'(?x) ( \d* ) _ | _ ( \d* )'
-                '*': '/generate',
-                '~': '/search',
-                '^': '/write', # TODO wants to be an under... prefix
-            })
+        return f'[{' '.join(self.prompt_parts())}]> '
 
     def prompt_parts(self):
         sc = self.board.score
