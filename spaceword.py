@@ -1453,7 +1453,7 @@ class SpaceWord(StoredLog):
         for line in self.show_board(self.board):
             ui.print(line)
         with ui.input(f'[{' '.join(self.prompt_parts())}]> '):
-            return ui.dispatch(ui, {
+            return ui.dispatch({
                 '/at': self.cmd_at,
                 '/bad': self.cmd_bad,
                 '/center': self.cmd_center,
@@ -1872,7 +1872,7 @@ class Search:
             self.verbose = len(match.group(1))
             ui.print(f'set verbose:{self.verbose}')
 
-        return ui.dispatch(ui, {
+        return ui.dispatch({
             'add': self.do_add,
             'auto': self.do_auto,
             'board': self.do_board,

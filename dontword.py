@@ -235,7 +235,7 @@ class DontWord(StoredLog):
             ui.print(f'Word: {" ".join(x.upper() if x else "_" for x in self.word)}')
 
         with ui.input(f'{len(self.tried)+1}> ') as tokens:
-            return ui.dispatch(ui, {
+            return ui.dispatch({
                 'fail': self.do_fail,
                 'guess': self.do_guess,
                 'may': self.do_may,
