@@ -1828,6 +1828,28 @@ class Search:
         self.history: list[PlainData] = []
         self.explored: set[str] = set()
 
+        self.prompt = PromptUI.Prompt(self.make_prompt, {
+            'add': self.do_add,
+            'auto': self.do_auto,
+            'board': self.do_board,
+            'cap': self.do_cap,
+            'center': self.do_center,
+            'clear': self.do_clear,
+            'drop': self.do_drop,
+            'history': self.do_hist,
+            'import': self.do_import,
+            'prune': self.do_prune,
+            'reset': self.do_reset,
+            'return': self.do_ret,
+            'show': self.do_show,
+            'take': self.do_take,
+            'verbose': self.do_verbose,
+            'zero': self.do_zero,
+
+            '*': 'add',
+            '**': 'auto',
+        })
+
     def get_source(self, token: str) -> Source|None:
         src: Source|None = lambda: ((nom, sub) for nom, sub in self.sources.items())
         for name in token.split('/'):
@@ -1843,12 +1865,10 @@ class Search:
         return src
 
     def __call__(self, ui: PromptUI):
-        with (
-            ui.catch_state(EOFError, lambda _ui: self.ret(None)),
-            ui.input(self.make_prompt())):
-            return self.handle(ui)
+        with ui.catch_state(EOFError, lambda _ui: self.ret(None)):
+            return self.prompt(ui)
 
-    def make_prompt(self):
+    def make_prompt(self, _ui: PromptUI):
         def halo_sort_key(k: str):
             halo = self.halos[k]
             sc = math.floor(max(halo.scores))
@@ -1866,33 +1886,6 @@ class Search:
                 yield f'{key}:{len(self.halos[key])}'
 
         return f'search {self.sid} {" ".join(isurround("[", prompt_parts(), "]"))}> '
-
-    def handle(self, ui: PromptUI):
-        match = ui.tokens.have(r'-(v+)')
-        if match:
-            self.verbose = len(match.group(1))
-            ui.print(f'set verbose:{self.verbose}')
-
-        return ui.dispatch({
-            'add': self.do_add,
-            'auto': self.do_auto,
-            'board': self.do_board,
-            'cap': self.do_cap,
-            'center': self.do_center,
-            'clear': self.do_clear,
-            'drop': self.do_drop,
-            'history': self.do_hist,
-            'import': self.do_import,
-            'prune': self.do_prune,
-            'reset': self.do_reset,
-            'return': self.do_ret,
-            'show': self.do_show,
-            'take': self.do_take,
-            'zero': self.do_zero,
-
-            '*': 'add',
-            '**': 'auto',
-        })
 
     def do_add(self, ui: PromptUI):
         '''
@@ -2572,6 +2565,14 @@ class Search:
             ui.print(' '.join(parts()))
 
         self.history.append(tuple(meta()))
+
+    def do_verbose(self, ui: PromptUI):
+        n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+        if n is None:
+            ui.print(f'verbose: {self.verbose}')
+        else:
+            self.verbose = n
+            ui.print(f'set verbose:{self.verbose}')
 
     def do_zero(self, ui: PromptUI):
         '''
