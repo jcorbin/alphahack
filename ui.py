@@ -472,6 +472,19 @@ class PromptUI:
                 if self.re > 1:
                     self.show_help_list(ui)
 
+    class Prompt(Dispatcher):
+        def __init__(self,
+                     mess: str|Callable[['PromptUI'], str],
+                     spec: dict[str, State|str]):
+            super().__init__(spec)
+            self.mess: str|Callable[['PromptUI'], str] = mess
+
+        @override
+        def __call__(self, ui: 'PromptUI'):
+            mess = self.mess(ui) if callable(self.mess) else self.mess
+            with ui.input(mess):
+                return super().__call__(ui)
+
     def dispatch(self, spec: dict[str, State|str]):
         return self.Dispatcher(spec)(self)
 
