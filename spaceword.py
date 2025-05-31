@@ -1036,6 +1036,30 @@ class SpaceWord(StoredLog):
 
         self.at_cursor: tuple[int, int, Literal['X', 'Y']] = (0, 0, 'X')
 
+        self.play = PromptUI.Prompt(self.prompt_mess, {
+            '/at': self.cmd_at,
+            '/bad': self.cmd_bad,
+            '/center': self.cmd_center,
+            '/centre': '/center',
+            '/clear': self.cmd_clear,
+            '/erase': self.cmd_erase,
+            '/generate': self.cmd_generate,
+            '/letters': self.cmd_letters,
+            '/priors': self.cmd_priors,
+            '/rejects': self.cmd_rejects,
+            '/result': self.cmd_result,
+            '/search': self.cmd_search,
+            '/shift': self.cmd_shift,
+            '/store': self.cmd_store,
+            '/write': self.cmd_write,
+
+            '@': '/at', # TODO wants to be an under... prefix
+            '_': '/erase', # TODO wants to match r'(?x) ( \d* ) _ | _ ( \d* )'
+            '*': '/generate',
+            '~': '/search',
+            '^': '/write', # TODO wants to be an under... prefix
+        })
+
     def make_sid(self, hash: str):
         n = 6
         while hash[:n] in self.sids and n < len(hash):
@@ -1373,7 +1397,7 @@ class SpaceWord(StoredLog):
         return datetime.combine(d + dt, datetime.min.time(), self.pub_tz)
 
     @final
-    class EditLetters:
+    class EditLetters(PromptUI.Prompt):
         def __init__(self,
                      board: Board,
                      num: int,
@@ -1383,51 +1407,69 @@ class SpaceWord(StoredLog):
             self.num = num
             self.ret = ret
             self.span = max(7, math.ceil(math.sqrt(self.num)))
+            super().__init__(self.show_prompt, {
+                '/back': self.do_back,
+                '/clear': self.do_clear,
+                '/span': self.do_span,
+                '': self.do_letters,
+            })
 
-        def __call__(self, ui: PromptUI):
+        def show_prompt(self, ui: PromptUI):
             for line in self.board.show_letters(
                 fill='?',
                 head=f'{self.num} Letters',
                 num=self.num,
                 span=self.span,
             ): ui.print(line)
+            return f'letters{self.sigil} '
 
-            sep = (
+        @property
+        def sigil(self):
+            return (
                 '!' if len(self.board.letters) > self.num else
                 '.' if len(self.board.letters) == self.num else
                 '?')
-            with ui.input(f'letters{sep} ') as tokens:
-                if tokens.empty:
-                    if sep == '.': return self.ret
 
-                elif tokens.under('/span'):
-                    n = ui.tokens.have(r'\d+', lambda match: int(match[0]))
-                    if n is None:
-                        ui.print(f'- span: {self.span}')
-                    else:
-                        self.span = n
-                        ui.print(f'- set span: {self.span}')
+        def do_back(self, ui: PromptUI):
+            '''
+            erase last row
+            '''
+            i = (len(self.board.letters) // self.span) * self.span
+            if i < len(self.board.letters):
+                self.board.letters = self.board.letters[:i]
+                ui.log(f'letters: |{"".join(self.board.letters)}|')
+                ui.print(f'- truncated letters :{i}')
 
-                elif tokens.have('/clear'):
-                    self.board.letters = []
-                    ui.log(f'letters: |{"".join(self.board.letters)}|')
-                    ui.print('- cleared letters')
+        def do_clear(self, ui: PromptUI):
+            '''
+            clear all rows
+            '''
+            self.board.letters = []
+            ui.log(f'letters: |{"".join(self.board.letters)}|')
+            ui.print('- cleared letters')
 
-                elif tokens.have('/back'):
-                    i = (len(self.board.letters) // self.span) * self.span
-                    if i < len(self.board.letters):
-                        self.board.letters = self.board.letters[:i]
-                        ui.log(f'letters: |{"".join(self.board.letters)}|')
-                        ui.print(f'- truncated letters :{i}')
+        def do_letters(self, ui: PromptUI):
+            if ui.tokens.empty:
+                if self.sigil == '.': return self.ret
+            else:
+                addlet = [
+                    let
+                    for token in ui.tokens
+                    for let in token.strip().upper()]
+                self.board.letters.extend(addlet)
+                ui.log(f'letters: |{"".join(self.board.letters)}|')
+                ui.print(f'- added letters: {" ".join(addlet)}')
 
-                else:
-                    addlet = [
-                        let
-                        for token in tokens
-                        for let in token.strip().upper()]
-                    self.board.letters.extend(addlet)
-                    ui.log(f'letters: |{"".join(self.board.letters)}|')
-                    ui.print(f'- added letters: {" ".join(addlet)}')
+        def do_span(self, ui: PromptUI):
+            '''
+            show/change row span
+            '''
+            n = ui.tokens.have(r'\d+', lambda match: int(match[0]))
+            if n is None:
+                ui.print(f'- span: {self.span}')
+            else:
+                self.span = n
+                ui.print(f'- set span: {self.span}')
 
     def show_board(self, board: Board) -> Generator[str]:
         yield from board.show(
@@ -1449,33 +1491,10 @@ class SpaceWord(StoredLog):
             for word, cur in bad_words:
                 yield f'  - @{cur} {word}'
 
-    def play(self, ui: PromptUI):
+    def prompt_mess(self, ui: PromptUI):
         for line in self.show_board(self.board):
             ui.print(line)
-        with ui.input(f'[{' '.join(self.prompt_parts())}]> '):
-            return ui.dispatch({
-                '/at': self.cmd_at,
-                '/bad': self.cmd_bad,
-                '/center': self.cmd_center,
-                '/centre': '/center',
-                '/clear': self.cmd_clear,
-                '/erase': self.cmd_erase,
-                '/generate': self.cmd_generate,
-                '/letters': self.cmd_letters,
-                '/priors': self.cmd_priors,
-                '/rejects': self.cmd_rejects,
-                '/result': self.cmd_result,
-                '/search': self.cmd_search,
-                '/shift': self.cmd_shift,
-                '/store': self.cmd_store,
-                '/write': self.cmd_write,
-
-                '@': '/at', # TODO wants to be an under... prefix
-                '_': '/erase', # TODO wants to match r'(?x) ( \d* ) _ | _ ( \d* )'
-                '*': '/generate',
-                '~': '/search',
-                '^': '/write', # TODO wants to be an under... prefix
-            })
+        return f'[{' '.join(self.prompt_parts())}]> '
 
     def prompt_parts(self):
         sc = self.board.score
@@ -1827,6 +1846,28 @@ class Search:
         self.history: list[PlainData] = []
         self.explored: set[str] = set()
 
+        self.prompt = PromptUI.Prompt(self.make_prompt, {
+            'add': self.do_add,
+            'auto': self.do_auto,
+            'board': self.do_board,
+            'cap': self.do_cap,
+            'center': self.do_center,
+            'clear': self.do_clear,
+            'drop': self.do_drop,
+            'history': self.do_hist,
+            'import': self.do_import,
+            'prune': self.do_prune,
+            'reset': self.do_reset,
+            'return': self.do_ret,
+            'show': self.do_show,
+            'take': self.do_take,
+            'verbose': self.do_verbose,
+            'zero': self.do_zero,
+
+            '*': 'add',
+            '**': 'auto',
+        })
+
     def get_source(self, token: str) -> Source|None:
         src: Source|None = lambda: ((nom, sub) for nom, sub in self.sources.items())
         for name in token.split('/'):
@@ -1842,12 +1883,10 @@ class Search:
         return src
 
     def __call__(self, ui: PromptUI):
-        with (
-            ui.catch_state(EOFError, lambda _ui: self.ret(None)),
-            ui.input(self.make_prompt())):
-            return self.handle(ui)
+        with ui.catch_state(EOFError, lambda _ui: self.ret(None)):
+            return self.prompt(ui)
 
-    def make_prompt(self):
+    def make_prompt(self, _ui: PromptUI):
         def halo_sort_key(k: str):
             halo = self.halos[k]
             sc = math.floor(max(halo.scores))
@@ -1865,33 +1904,6 @@ class Search:
                 yield f'{key}:{len(self.halos[key])}'
 
         return f'search {self.sid} {" ".join(isurround("[", prompt_parts(), "]"))}> '
-
-    def handle(self, ui: PromptUI):
-        match = ui.tokens.have(r'-(v+)')
-        if match:
-            self.verbose = len(match.group(1))
-            ui.print(f'set verbose:{self.verbose}')
-
-        return ui.dispatch({
-            'add': self.do_add,
-            'auto': self.do_auto,
-            'board': self.do_board,
-            'cap': self.do_cap,
-            'center': self.do_center,
-            'clear': self.do_clear,
-            'drop': self.do_drop,
-            'history': self.do_hist,
-            'import': self.do_import,
-            'prune': self.do_prune,
-            'reset': self.do_reset,
-            'return': self.do_ret,
-            'show': self.do_show,
-            'take': self.do_take,
-            'zero': self.do_zero,
-
-            '*': 'add',
-            '**': 'auto',
-        })
 
     def do_add(self, ui: PromptUI):
         '''
@@ -2571,6 +2583,14 @@ class Search:
             ui.print(' '.join(parts()))
 
         self.history.append(tuple(meta()))
+
+    def do_verbose(self, ui: PromptUI):
+        n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+        if n is None:
+            ui.print(f'verbose: {self.verbose}')
+        else:
+            self.verbose = n
+            ui.print(f'set verbose:{self.verbose}')
 
     def do_zero(self, ui: PromptUI):
         '''
