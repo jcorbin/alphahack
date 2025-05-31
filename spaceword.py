@@ -1397,7 +1397,7 @@ class SpaceWord(StoredLog):
         return datetime.combine(d + dt, datetime.min.time(), self.pub_tz)
 
     @final
-    class EditLetters:
+    class EditLetters(PromptUI.Prompt):
         def __init__(self,
                      board: Board,
                      num: int,
@@ -1407,51 +1407,69 @@ class SpaceWord(StoredLog):
             self.num = num
             self.ret = ret
             self.span = max(7, math.ceil(math.sqrt(self.num)))
+            super().__init__(self.show_prompt, {
+                '/back': self.do_back,
+                '/clear': self.do_clear,
+                '/span': self.do_span,
+                '': self.do_letters,
+            })
 
-        def __call__(self, ui: PromptUI):
+        def show_prompt(self, ui: PromptUI):
             for line in self.board.show_letters(
                 fill='?',
                 head=f'{self.num} Letters',
                 num=self.num,
                 span=self.span,
             ): ui.print(line)
+            return f'letters{self.sigil} '
 
-            sep = (
+        @property
+        def sigil(self):
+            return (
                 '!' if len(self.board.letters) > self.num else
                 '.' if len(self.board.letters) == self.num else
                 '?')
-            with ui.input(f'letters{sep} ') as tokens:
-                if tokens.empty:
-                    if sep == '.': return self.ret
 
-                elif tokens.under('/span'):
-                    n = ui.tokens.have(r'\d+', lambda match: int(match[0]))
-                    if n is None:
-                        ui.print(f'- span: {self.span}')
-                    else:
-                        self.span = n
-                        ui.print(f'- set span: {self.span}')
+        def do_back(self, ui: PromptUI):
+            '''
+            erase last row
+            '''
+            i = (len(self.board.letters) // self.span) * self.span
+            if i < len(self.board.letters):
+                self.board.letters = self.board.letters[:i]
+                ui.log(f'letters: |{"".join(self.board.letters)}|')
+                ui.print(f'- truncated letters :{i}')
 
-                elif tokens.have('/clear'):
-                    self.board.letters = []
-                    ui.log(f'letters: |{"".join(self.board.letters)}|')
-                    ui.print('- cleared letters')
+        def do_clear(self, ui: PromptUI):
+            '''
+            clear all rows
+            '''
+            self.board.letters = []
+            ui.log(f'letters: |{"".join(self.board.letters)}|')
+            ui.print('- cleared letters')
 
-                elif tokens.have('/back'):
-                    i = (len(self.board.letters) // self.span) * self.span
-                    if i < len(self.board.letters):
-                        self.board.letters = self.board.letters[:i]
-                        ui.log(f'letters: |{"".join(self.board.letters)}|')
-                        ui.print(f'- truncated letters :{i}')
+        def do_letters(self, ui: PromptUI):
+            if ui.tokens.empty:
+                if self.sigil == '.': return self.ret
+            else:
+                addlet = [
+                    let
+                    for token in ui.tokens
+                    for let in token.strip().upper()]
+                self.board.letters.extend(addlet)
+                ui.log(f'letters: |{"".join(self.board.letters)}|')
+                ui.print(f'- added letters: {" ".join(addlet)}')
 
-                else:
-                    addlet = [
-                        let
-                        for token in tokens
-                        for let in token.strip().upper()]
-                    self.board.letters.extend(addlet)
-                    ui.log(f'letters: |{"".join(self.board.letters)}|')
-                    ui.print(f'- added letters: {" ".join(addlet)}')
+        def do_span(self, ui: PromptUI):
+            '''
+            show/change row span
+            '''
+            n = ui.tokens.have(r'\d+', lambda match: int(match[0]))
+            if n is None:
+                ui.print(f'- span: {self.span}')
+            else:
+                self.span = n
+                ui.print(f'- set span: {self.span}')
 
     def show_board(self, board: Board) -> Generator[str]:
         yield from board.show(
