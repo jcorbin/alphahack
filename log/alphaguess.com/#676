@@ -1,0 +1,37 @@
+T0.00020634199609048665 now: 2025-05-31T08:14:55EDT
+TD78163 loaded 196560 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (43 words excluded) asof 153ebee0a92ab9f5cac54be87d9c2141323c40f9
+TDD7338177 [0 : 98237 : 196560] mach? a
+TDD-7416166 progress: 1 98237 mach
+TDD1671678 [98238 : 147399 : 196560] rhumb? a
+TDD-1671777 progress: 1 147399 rhumb
+TDD1479849 [147400 : 171666 : 196560] ta? b
+TDD-1479863 progress: -1 171666 ta
+TDD1447973 [147400 : 159512 : 171666] slop? b
+TDD-1447962 progress: -1 159512 slop
+TDD1463778 [147400 : 153343 : 159512] sea? b
+TDD-1463783 progress: -1 153343 sea
+TDD1496914 [147400 : 150365 : 153343] sallow? a
+TDD-1496923 progress: 1 150365 sallow
+TDD1600255 [150366 : 151840 : 153343] scar? b
+TDD-1600253 progress: -1 151840 scar
+TDD1486587 [150366 : 151103 : 151840] sarcoma? b
+TDD-1486579 progress: -1 151103 sarcoma
+TDD3079948 [150366 : 150690 : 151103] sand? a
+TDD-3079953 progress: 1 150690 sand
+TDD1423882 [150691 : 150897 : 151103] sannyasi? b
+TDD-1423877 progress: -1 150897 sannyasi
+TDD1679814 [150691 : 150786 : 150897] sands? a
+TDD-1679823 progress: 1 150786 sands
+TDD1447955 [150787 : 150817 : 150897] sang? b
+TDD-1447946 progress: -1 150817 sang
+TDD1703842 [150787 : 150799 : 150817] sandwich? it
+TDD-1703844 progress: 0 150799 sandwich
+TDD-52 [150787 : 150799 : 150817] <Done>.
+TDD2433130 press <Return> to finish
+TDD-2242279 Press <Enter> to 📋 or `>` for line prompt 
+TDD-188705 share result: "\ud83e\udde9 Puzzle #676\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1825 result puzzle: 676
+TDD-322 result guesses: 13
+TDD-5 result time: 21s
+TDD-1 result link: alphaguess.com
+TDD1 <STOP>
