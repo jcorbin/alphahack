@@ -1,0 +1,172 @@
+T0.00020646199845941737 now: 2025-05-31T08:15:34EDT
+TD40 site: squareword.org
+TDD3094493 🧩  ? #1216
+TDD-3094379 puzzle_id: #1216
+TDD-136 wordlist: nwl2023.txt
+TDD1207769 > *
+TDD2608345 try? 1
+TDD-3814964 questioning: ["raise", "#5"]
+TDD2053606 raise ( #5 ) ? '
+TDD-1846732 raise ( #5 ) 1> 
+TDD3335987 raise ( #5 ) 2> 1 ~ ris
+TDD-3543636 word: 0 _____
+TDD-378 may: 0 i r s
+TDD3991657 raise ( #5 ) 2> __i ~ a
+TDD-3991583 word: 1 __i__
+TDD-77 may: 1 a
+TDD4007917 raise ( #5 ) 3> r_ ~ rie
+TDD-4007830 word: 2 r____
+TDD-86 may: 2 e i r
+TDD1999947 raise ( #5 ) 4> ~ a
+TDD-1999887 word: 3 _____
+TDD-62 may: 3 a
+TDD1039851 raise ( #5 ) 5> ~ se
+TDD-1039790 word: 4 _____
+TDD-60 may: 4 e s
+TDD0 question done
+TDD512035 > *
+TDD5943946 try? 1
+TDD-6455887 questioning: ["rider", "#3"]
+TDD2215960 rider ( #3 ) ? 
+TDD-1928168 rider ( #3 ) > 
+TDD3744167 rider ( #3 ) 1> 3 ri_er
+TDD-4031979 word: 2 ri_er
+TDD-73 may: 2 
+TDD1319856 rider ( #3 ) 4> ~ ad
+TDD-1319790 word: 3 _____
+TDD-66 may: 3 a d
+TDD2071983 rider ( #3 ) 5> ␚
+TDD-2071945 question done
+TDD711853 > *
+TDD7248324 try? ␚
+TDD-5760237 > * 1
+TDD5152084 try? 2
+TDD-7351947 questioning: ["tires", "#1"]
+TDD2023812 tires ( #1 ) ? 
+TDD-1655975 tires ( #1 ) > 
+TDD4472061 tires ( #1 ) 1> __r ~ is
+TDD-4839938 word: 0 __r__
+TDD-74 may: 0 i s
+TDD3295972 tires ( #1 ) 2> 3 ~ adt
+TDD-3295888 word: 2 ri_er
+TDD-83 may: 2 a d t
+TDD2992580 tires ( #1 ) 4> 4 ~
+TDD-2992504 word: 3 _____
+TDD-75 may: 3 
+TDD3431355 tires ( #1 ) 5> 3 ~ .
+TDD-3431264 word: 2 ri_er
+TDD-92 may: 2 
+TDD3263891 tires ( #1 ) 4> 4 ~ adt
+TDD-3263808 word: 3 _____
+TDD-82 may: 3 a d t
+TDD8599938 tires ( #1 ) 5> 5 ____s ~ et
+TDD-8599841 word: 4 ____s
+TDD-96 may: 4 e t
+TDD-1 question done
+TDD4136132 > * 5
+TDD511874 try? ␚
+TDD-2968065 > * 1
+TDD9648076 try? 5
+TDD-11327908 questioning: ["serif", "#1"]
+TDD575844 serif ( #1 ) ? 
+TDD-159986 serif ( #1 ) > 
+TDD2520126 serif ( #1 ) 1> s_ri
+TDD-2936016 word: 0 s_ri_
+TDD-77 may: 0 
+TDD7568037 serif ( #1 ) 2> 5 _e__s
+TDD-7567969 word: 4 _e__s
+TDD-69 may: 4 t
+TDD0 question done
+TDD2695802 > /no f
+TDD-2695561 nope: f
+TDD1495620 > *
+TDD11304266 try? ␚
+TDD-11008096 > * 4
+TDD7360396 try? 2
+TDD-9152317 questioning: ["adopt", "#4"]
+TDD2391509 adopt ( #4 ) ? 
+TDD-2191681 adopt ( #4 ) > 
+TDD4568099 adopt ( #4 ) 1> ~ p
+TDD-4767958 word: 0 s_ri_
+TDD-75 may: 0 p
+TDD8600022 adopt ( #4 ) 2> 4 ad_pt ~ a
+TDD-8599929 word: 3 ad_pt
+TDD-91 may: 3 a
+TDD8856460 adopt ( #4 ) 5> ␚
+TDD-8856414 question done
+TDD1015466 > /no o
+TDD-1015440 nope: f o
+TDD527839 > *
+TDD2260096 questioning: ["adapt", "#4"]
+TDD-23954 adapt ( #4 ) ? 
+TDD-2604087 adapt ( #4 ) > 
+TDD1816289 adapt ( #4 ) 1> 4 adapt
+TDD-1976178 word: 3 adapt
+TDD-78 may: 3 
+TDD6695978 adapt ( #4 ) 5> *
+TDD2119947 adapt ( #4 ) 5> ␚
+TDD-8815877 question done
+TDD767840 > *
+TDD1474422 questioning: ["river", "#3"]
+TDD651580 river ( #3 ) ? 
+TDD-134018 river ( #3 ) > 3 river
+TDD-2759792 word: 2 river
+TDD-80 may: 2 
+TDD7560131 river ( #3 ) 4> ␚
+TDD-7560091 question done
+TDD831750 > *
+TDD23776697 try? 1
+TDD-24608377 questioning: ["sprig", "#1"]
+TDD983817 sprig ( #1 ) ? 
+TDD4432075 sprig ( #1 ) > ␚
+TDD-5415957 question done
+TDD1399950 > /no g
+TDD-1399926 nope: f g o
+TDD639858 > *
+TDD6056496 try? 1
+TDD-6696344 questioning: ["scrip", "#1"]
+TDD1551498 scrip ( #1 ) ? 
+TDD-479462 scrip ( #1 ) > 
+TDD527691 scrip ( #1 ) 1> scrip
+TDD-1599732 word: 0 scrip
+TDD-75 may: 0 
+TDD2615877 scrip ( #1 ) 2> ~ ac
+TDD-2615794 word: 1 __i__
+TDD-82 may: 1 a c
+TDD4472127 scrip ( #1 ) 3> ␚
+TDD-4472074 question done
+TDD567710 > *
+TDD853875 questioning: ["china", "#2"]
+TDD2388831 china ( #2 ) ? 
+TDD-3546636 china ( #2 ) > 
+TDD1608326 china ( #2 ) 1> 2 china
+TDD-1872060 word: 1 china
+TDD-96 may: 1 
+TDD1983849 china ( #2 ) 3> ␚
+TDD-1983808 question done
+TDD503825 > *
+TDD7280255 try? 1
+TDD-7784021 questioning: ["pelts", "#5"]
+TDD295841 pelts ( #5 ) ? 
+TDD1495975 pelts ( #5 ) > 5 _eltws
+TDD-1791826 word: 4 _eltw
+TDD-94 may: 4 
+TDD0 question done
+TDD2423860 > pelts
+TDD-2423688 questioning: ["pelts", "entered"]
+TDD3279763 pelts ( entered ) ? 5 _elts
+TDD-3279863 guess: pelts
+TDD-56 word: 4 _elts
+TDD-17 may: 4 
+TDD6 question done
+TDD2112125 > *
+TDD-1193489 questioning: ["melts", "#5"]
+TDD2066610 melts ( #5 ) ? 
+TDD-2777389 melts ( #5 ) > 
+TDD1448119 melts ( #5 ) 1> 5 melts
+TDD-1655905 word: 4 melts
+TDD-74 may: 4 
+TDD-1 question done
+TDD24112294 Press <Enter> to 📋 or `>` for line prompt 
+TDD-24110259 result: "squareword.org 1216: 12 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe7\ud83d\udfe9\ud83d\udfe7\ud83d\udfe7\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1216"
+TDD17252 <STOP>
