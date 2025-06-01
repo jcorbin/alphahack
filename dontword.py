@@ -79,6 +79,17 @@ class DontWord(StoredLog):
         self.result_text: str = ''
         self._result: Result|None = None
 
+        self.play_prompt = PromptUI.Prompt(self.play_prompt_mess, {
+            'fail': self.do_fail,
+            'guess': self.do_guess,
+            'may': self.do_may,
+            'no': self.do_no,
+            'tried': self.do_tried,
+            'undo': self.do_undo,
+            'word': self.do_word,
+            '*': 'guess',
+        })
+
     @property
     def wordlist(self):
         if self._wordlist is not None:
@@ -211,7 +222,7 @@ class DontWord(StoredLog):
             self.given_wordlist = True
             ui.log(f'wordlist: {self.wordlist_file}')
 
-        return self.display
+        return self.play
 
     @property
     @override
@@ -223,28 +234,21 @@ class DontWord(StoredLog):
             return True
         return False
 
-    def display(self, ui: PromptUI):
+    def play_prompt_mess(self, ui: PromptUI):
+        if self.play_prompt.re == 0:
+            if self.nope_letters:
+                ui.print(f'No: {" ".join(x.upper() for x in sorted(self.nope_letters))}')
+            if self.may_letters:
+                ui.print(f'May: {" ".join(x.upper() for x in sorted(self.may_letters))}')
+            if self.word:
+                ui.print(f'Word: {" ".join(x.upper() if x else "_" for x in self.word)}')
+        return f'{len(self.tried)+1}> '
+
+    def play(self, ui: PromptUI):
         if self.run_done: return self.finish
         if all(self.word): return self.finish
         if len(self.tried) >= 6: return self.finish
-        if self.nope_letters:
-            ui.print(f'No: {" ".join(x.upper() for x in sorted(self.nope_letters))}')
-        if self.may_letters:
-            ui.print(f'May: {" ".join(x.upper() for x in sorted(self.may_letters))}')
-        if self.word:
-            ui.print(f'Word: {" ".join(x.upper() if x else "_" for x in self.word)}')
-
-        with ui.input(f'{len(self.tried)+1}> ') as tokens:
-            return ui.dispatch({
-                'fail': self.do_fail,
-                'guess': self.do_guess,
-                'may': self.do_may,
-                'no': self.do_no,
-                'tried': self.do_tried,
-                'undo': self.do_undo,
-                'word': self.do_word,
-                '*': 'guess',
-            })
+        return self.play_prompt(ui)
 
     def do_undo(self, ui: PromptUI):
         '''
