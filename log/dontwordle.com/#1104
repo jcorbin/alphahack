@@ -1,0 +1,58 @@
+T0.0002619820006657392 now: 2025-06-01T07:34:15EDT
+TD50 site: dontwordle.com
+TDD-16 wordlist: nwl2023.txt
+TDD4484394 1> *
+T0.0465755640034331 now: 2025-06-01T07:34:56EDT
+TD2786703 1> *
+TDD8893437 1> tried xylyl nnnnn
+TDD-11680040 tried: xylyl 00000
+TDD840315 2> *
+TDD11919149 2> tried kabab nnnYn
+TDD-12759487 tried: kabab 00020
+TDD1503943 3> *
+TDD11479930 3> tried pupae nnnYm
+TDD-12983879 tried: pupae 00021
+TDD495824 4> *
+TDD20104543 4> tried wheat mnYYY
+TDD-20600385 tried: wheat 10222
+TDD10680033 4> ␚
+TDD-10680069 <EOF>
+T0.048820803000126034 now: 2025-06-01T08:45:15EDT
+TD1429060 5> undo
+TDD-1428870 undo
+TDD11447793 4> undo
+TDD-11447904 undo
+TDD11248099 3> *
+TDD-7895990 3> ␚
+TDD-3352147 <EOF>
+T0.04949383100029081 now: 2025-06-01T09:09:52EDT
+TD19732661 3> *
+TDD14803862 3> tried hodad nnnYn
+TDD-34536282 tried: hodad 0
+TDD3983452 4> *
+TDD13208759 4> tried pujas nnnYm
+TDD-17192334 tried: pujas 00021
+TDD2455818 5> ␚
+TDD-2455879 <EOF>
+T0.051140139999915846 now: 2025-06-01T09:11:43EDT
+TD2314750 5> *
+TDD40605937 5> tried scram YnnYn
+TDD-42920430 tried: scram 2
+TDD3583393 6> *
+TDD56321516 6> ␚
+TDD-59905119 <EOF>
+T0.0498717310038046 now: 2025-06-01T09:19:41EDT
+TD970924 6> *
+TDD36117567 6> no o
+TDD-37088383 nope: bhjklopuxy
+TDD2167872 6> *
+TDD21728298 6> no r yu op d hjkl xc bm
+TDD-23896149 nope: bcdhjklmopruxy
+TDD1479920 6> *
+TDD2895908 6> * -sans
+TDD16536306 6> tried setae
+TDD-20912171 tried: setae 
+TDD2543928 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2541603 result: "Don't Wordle 1104 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c8089\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c335\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c154\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe829\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\u2b1c4\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c2\nUndos used: 2\n\n  2 words remaining\nx 8 unused letters\n= 16 total score"
+TDD-1638 puzzle_id: #1104
+TDD-770 <STOP>
