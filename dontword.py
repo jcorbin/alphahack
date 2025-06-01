@@ -237,6 +237,8 @@ class DontWord(StoredLog):
 
     def play_prompt_mess(self, ui: PromptUI):
         if self.play_prompt.re == 0:
+            for n, word in enumerate(self.tried, 1):
+                ui.print(f'{n}. {" ".join(word.upper())}')
             if self.nope_letters:
                 ui.print(f'No: {" ".join(x.upper() for x in sorted(self.nope_letters))}')
             if self.may_letters:
