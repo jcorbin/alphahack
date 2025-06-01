@@ -5,6 +5,7 @@ import json
 import re
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
+from itertools import chain
 from os import path
 from typing import Literal, cast, final, override
 
@@ -73,6 +74,7 @@ class DontWord(StoredLog):
 
         self.may_letters: set[str] = set()
         self.nope_letters: set[str] = set()
+        self.void_letters: set[str] = set()
         self.word: list[str] = ['' for _ in range(self.size)]
 
         self.failed: bool = False
@@ -260,6 +262,8 @@ class DontWord(StoredLog):
                 ui.print(f'May: {" ".join(x.upper() for x in sorted(self.may_letters))}')
             if self.word:
                 ui.print(f'Word: {" ".join(x.upper() if x else "_" for x in self.word)}')
+            if self.void_letters:
+                ui.print(f'Avoid: {" ".join(x.upper() for x in sorted(self.void_letters))}')
         return f'{len(self.tried)+1}> '
 
     def play(self, ui: PromptUI):
@@ -280,11 +284,20 @@ class DontWord(StoredLog):
         self.apply_undo()
 
     def apply_undo(self):
+        prior = set(chain(
+            (c for c in self.word if c),
+            self.may_letters))
         tried = self.tried[:-1]
         feedback = self.feedback[:-1]
+        void = tuple(self.void_letters)
         self.reset_word()
         for word, fb in zip(tried, feedback):
             self.apply_tried(word, fb)
+        prior.difference_update(chain(
+            (c for c in self.word if c),
+            self.may_letters))
+        self.void_letters.update(void)
+        self.void_letters.update(prior)
 
     def do_guess(self, ui: PromptUI):
         '''
@@ -423,6 +436,7 @@ class DontWord(StoredLog):
         for i in range(self.size): self.word[i] = ''
         self.nope_letters = set()
         self.may_letters = set()
+        self.void_letters = set()
 
     def describe_space(self):
         def parts():
@@ -436,12 +450,14 @@ class DontWord(StoredLog):
                 yield f'nope: {nope}'
         return ' '.join(parts())
 
-    def pattern(self, _ui: PromptUI):
+    def pattern(self, _ui: PromptUI, nope: Iterable[str]|None = None):
         alpha = set('abcdefghjiklmnopqrstuvwxyz')
         uni = '.'
 
-        if self.nope_letters:
-            alpha.difference_update(self.nope_letters)
+        if nope is None:
+            nope = chain(self.nope_letters, self.void_letters)
+        if nope:
+            alpha.difference_update(nope)
             uni = f'[{"".join(char_ranges(alpha))}]'
 
         if not self.may_letters:
@@ -467,6 +483,7 @@ class DontWord(StoredLog):
     def guess(self, ui: PromptUI, show_n: int=10):
         verbose = 0
         jitter = 0.5
+        sans = False
         chooser = Chooser(show_n=show_n)
 
         while ui.tokens:
@@ -476,6 +493,10 @@ class DontWord(StoredLog):
             match = ui.tokens.have(r'-(v+)')
             if match:
                 verbose += len(match.group(1))
+                continue
+
+            if ui.tokens.have(r'-sans'):
+                sans = True
                 continue
 
             if ui.tokens.have(r'-j(itter)?'):
@@ -496,7 +517,10 @@ class DontWord(StoredLog):
             ui.print(f'! invalid * arg {next(ui.tokens)!r}')
             return
 
-        words = set(self.find(re.compile(self.pattern(ui))))
+        pat = re.compile(self.pattern(ui, nope=self.nope_letters if sans else None))
+        if verbose:
+            ui.print(f'* pattern: {pat}')
+        words = set(self.find(pat))
 
         # drop any words that intersect tried prior letters
         tried_words = [
