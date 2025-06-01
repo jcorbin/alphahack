@@ -138,6 +138,13 @@ class StoredLog:
             'remove': self.expired_do_remove,
         })
 
+        self.review_prompt: PromptUI.Prompt = PromptUI.Prompt(self.review_prompt_mess, {
+            'compress': self.review_do_comp,
+            'continue': self.review_do_cont,
+            'replay': lambda _: self.Replay(self),
+            'report': self.do_report,
+        })
+
     @property
     def expire(self) -> datetime.datetime|None:
         return None
@@ -153,11 +160,19 @@ class StoredLog:
     def run_done(self) -> bool:
         return False
 
+    def review_prompt_mess(self, ui: PromptUI):
+        if self.review_prompt.re == 0:
+            for line in self.report_body:
+                ui.print(line)
+        return '> '
+
+    @deprecated('use .review_prompt directly')
     def review(self, ui: PromptUI) -> PromptUI.State|None:
-        for line in self.report_body:
-            ui.print(line)
-        with ui.tokens_or(f'> '):
-            return self.handle_review(ui)
+        return self.review_prompt(ui)
+
+    @deprecated('use .review_prompt.handle directly')
+    def handle_review(self, ui: PromptUI):
+        return self.review_prompt.handle(ui)
 
     def skim_log(self) -> Generator[tuple[int, str]]:
         with open(self.log_file, 'r') as f:
@@ -168,50 +183,39 @@ class StoredLog:
         for n, line in self.skim_log():
             yield n, *parse(line)
 
-    def handle_review(self, ui: PromptUI) -> PromptUI.State|None:
-        if ui.tokens.have(r'report$'):
-            return self.do_report(ui)
+    def review_do_comp(self, ui: PromptUI):
+        pat = re.compile(ui.tokens.rest)
+        count = 0
 
-        if ui.tokens.have(r'replay$'):
-            return self.Replay(self)
+        before = os.stat(self.log_file)
+        with atomic_rewrite(self.log_file) as (r, w):
+            rez = zlib.compressobj()
+            parse = LogParser()
+            for line in r:
+                t, z, line = parse(line)
+                if not z and pat.search(line):
+                    z = True
+                    count += 1
+                if z:
+                    zb1 = rez.compress(line.encode())
+                    zb2 = rez.flush(zlib.Z_SYNC_FLUSH)
+                    _ = w.write(f'T{t} Z {b85encode(zb1 + zb2).decode()}\n')
+                else:
+                    _ = w.write(f'T{t} {line}\n')
 
-        if ui.tokens.have(r'cont(i(n(ue?)?)?)?$'):
-            rep = self.Replay(self)
-            line_no, time, mess = rep.seek(0)
-            rep.cursor = line_no
-            ui.print(f'*** {line_no}. T{time:.1f} {mess}')
-            return rep.restart(ui, mess=f'^^^ continuing from last line')
+            w.flush()
+        after = os.stat(self.log_file)
 
-        if ui.tokens.have(r'comp'):
-            pat = re.compile(ui.tokens.rest)
-            count = 0
+        ds = after.st_size - before.st_size
+        ch = after.st_size/before.st_size - 1.0
+        ui.print(f'compressed {count} lines, change: {ds:+} bytes ( {100*ch:.1f}% )')
 
-            before = os.stat(self.log_file)
-            with atomic_rewrite(self.log_file) as (r, w):
-                rez = zlib.compressobj()
-                parse = LogParser()
-                for line in r:
-                    t, z, line = parse(line)
-                    if not z and pat.search(line):
-                        z = True
-                        count += 1
-                    if z:
-                        zb1 = rez.compress(line.encode())
-                        zb2 = rez.flush(zlib.Z_SYNC_FLUSH)
-                        _ = w.write(f'T{t} Z {b85encode(zb1 + zb2).decode()}\n')
-                    else:
-                        _ = w.write(f'T{t} {line}\n')
-
-                w.flush()
-            after = os.stat(self.log_file)
-
-            ds = after.st_size - before.st_size
-            ch = after.st_size/before.st_size - 1.0
-            ui.print(f'compressed {count} lines, change: {ds:+} bytes ( {100*ch:.1f}% )')
-
-            return
-
-        ui.print(f'! invalid review command {ui.tokens.rest!r}')
+    def review_do_cont(self, ui: PromptUI):
+        rep = self.Replay(self)
+        line_no, time, mess = rep.seek(0)
+        rep.cursor = line_no
+        ui.print(f'*** {line_no}. T{time:.1f} {mess}')
+        return rep.restart(ui, mess=f'^^^ continuing from last line')
 
     @final
     class Replay:
@@ -488,7 +492,7 @@ class StoredLog:
             return self.load_log(ui)
 
         if self.stored:
-            return self.review
+            return self.review_prompt
 
         if self.is_expired:
             ui.print(f'! expired puzzle log started {self.start:{self.dt_fmt}}, but next puzzle expected at {self.expire:{self.dt_fmt}}')
@@ -614,7 +618,7 @@ class StoredLog:
         if self.stored:
             want_log_file = self.should_store_to
             if want_log_file and self.log_file == want_log_file:
-                return self.review
+                return self.review_prompt
             ui.print(f'Fixing stored log file name {self.log_file} -> {want_log_file}')
 
         if not self.site:
