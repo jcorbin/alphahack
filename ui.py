@@ -496,7 +496,7 @@ class PromptUI:
             if ui.tokens:
                 return lambda ui: ui.print(f'! invalid command {token!r}; maybe ask for /help ?')
 
-        def __call__(self, ui: 'PromptUI'):
+        def handle(self, ui: 'PromptUI'):
             st = self.dispatch(ui)
             if st is not None:
                 self.re = 0
@@ -505,6 +505,9 @@ class PromptUI:
                 self.re += 1
                 if self.re > 1:
                     self.show_help_list(ui)
+
+        def __call__(self, ui: 'PromptUI'):
+            return self.handle(ui)
 
     class Prompt(Dispatcher):
         def __init__(self,
