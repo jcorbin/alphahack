@@ -6,13 +6,19 @@ import time
 import traceback
 import zlib
 from base64 import b85encode
+from bisect import bisect
 from contextlib import contextmanager
-from collections.abc import Generator, Sequence
+from collections.abc import Generator, Iterable, Sequence
 from io import StringIO
 from types import TracebackType
-from typing import final, override, Callable, Literal, Protocol, TextIO
+from typing import Callable, Literal, Protocol, TextIO, final, override, runtime_checkable
 
 from strkit import block_lines, matcherate, PeekStr
+
+@runtime_checkable
+class Itemsable[K, V](Protocol):
+    def items(self) -> Iterable[tuple[K, V]]:
+        return ()
 
 class Clipboard(Protocol):
     def copy(self, mess: str) -> None:
@@ -386,13 +392,41 @@ class PromptUI:
             def resolve(name: str) -> State:
                 st = spec[name]
                 return resolve(st) if isinstance(st, str) else st
-            self.names: tuple[str, ...] = tuple(sorted(spec))
-            self.thens: tuple[State, ...] = tuple(resolve(name) for name in self.names)
-            self.alias: tuple[str, ...] = tuple(
+            self.names: list[str] = sorted(spec)
+            self.thens: list[State] = [resolve(name) for name in self.names]
+            self.alias: list[str] = [
                 res if isinstance(res, str) else ''
                 for name in self.names
-                for res in (spec[name],))
+                for res in (spec[name],)]
             self.re: int = 0
+
+        def get(self, name: str):
+            i = bisect(self.names, name)
+            if 0 < i <= len(self.names) and self.names[i-1] == name:
+                return self.thens[i-1]
+
+        def update(self, items: Itemsable[str, State|str]|Iterable[tuple[str, State|str]]):
+            if isinstance(items, Itemsable):
+                items = items.items()
+            for name, then in items:
+                self.set(name, then)
+
+        def set(self, name: str, then: State|str):
+            alas = ''
+            if isinstance(then, str):
+                alas = then
+                st = self.get(then)
+                if st is None:
+                    raise KeyError('undefined alias target')
+                then = st
+            i = bisect(self.names, name)
+            if 0 <= i < len(self.names) and self.names[i] == name:
+                self.thens[i] = then
+                self.alias[i] = alas
+            else:
+                self.names.insert(i, name)
+                self.thens.insert(i, then)
+                self.alias.insert(i, alas)
 
         def show_help(self, ui: 'PromptUI', name: str, then: State, short: bool=True):
             ui.write(f'- {name}')
