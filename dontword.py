@@ -460,6 +460,8 @@ class DontWord(StoredLog):
             alpha.difference_update(nope)
             uni = f'[{"".join(char_ranges(alpha))}]'
 
+        # TODO enforce may counts here or in post
+
         if not self.may_letters:
             pat = ''.join(x if x else uni for x in self.word)
             # ui.print(f'PATTERN {pat!r}')
