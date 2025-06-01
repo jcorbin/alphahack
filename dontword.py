@@ -168,13 +168,14 @@ class DontWord(StoredLog):
                     continue
 
                 match = re.match(r'''(?x)
-                    tried : \s+ ( [\w_]+ )
+                    tried : \s+ (?P<word> [\w_]+ )
                     \s* ( .* )
                     $''', rest)
                 if match:
-                    word, rest = match.groups()
+                    word = match[1]
+                    rest = match[2]
                     assert rest == ''
-                    self.tried.append(word)
+                    self.apply_tried(word)
                     continue
 
                 match = re.match(r'''(?x)
@@ -328,8 +329,14 @@ class DontWord(StoredLog):
             if len(word) != self.size:
                 ui.print(f'expected {self.size}-length word, got {len(word)}')
                 return
-            ui.log(f'tried: {word}')
-            self.tried.append(word)
+            self.record_tried(ui, word)
+
+    def record_tried(self, ui: PromptUI, word: str):
+        ui.log(f'tried: {word}')
+        self.apply_tried(word)
+
+    def apply_tried(self, word: str):
+        self.tried.append(word)
 
     def do_word(self, ui: PromptUI):
         '''
