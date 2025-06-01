@@ -1,0 +1,35 @@
+T0.00022356800036504865 now: 2025-06-01T07:21:32EDT
+TD87818 loaded 196560 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (43 words excluded) asof 2202b5163a1ffccc2a7c1686f8f82cf1d35bdf5c
+TDD5051296 [0 : 98237 : 196560] mach? a
+TDD-5138911 progress: 1 98237 mach
+TDD1399530 [98238 : 147399 : 196560] rhumb? a
+TDD-1399658 progress: 1 147399 rhumb
+TDD1343825 [147400 : 171666 : 196560] ta? a
+TDD-1343841 progress: 1 171666 ta
+TDD1407881 [171667 : 182034 : 196560] un? b
+TDD-1407875 progress: -1 182034 un
+TDD1287885 [171667 : 176837 : 182034] toil? b
+TDD-1287886 progress: -1 176837 toil
+TDD1303842 [171667 : 174215 : 176837] term? b
+TDD-1303839 progress: -1 174215 term
+TDD1415855 [171667 : 172927 : 174215] taw? a
+TDD-1415858 progress: 1 172927 taw
+TDD2288215 [172928 : 173409 : 174215] tele? a
+TDD-2288217 progress: 1 173409 tele
+TDD1679490 [173410 : 173730 : 174215] temp? b
+TDD-1679493 progress: -1 173730 temp
+TDD1407913 [173410 : 173570 : 173730] teleprompters? a
+TDD-1407901 progress: 1 173570 teleprompters
+TDD1367793 [173571 : 173646 : 173730] telfer? a
+TDD-1367805 progress: 1 173646 telfer
+TDD1631883 [173647 : 173661 : 173730] tell? it
+TDD-1631880 progress: 0 173661 tell
+TDD-50 [173647 : 173661 : 173730] <Done>.
+TDD2655945 press <Return> to finish
+TDD-2463924 Press <Enter> to 📋 or `>` for line prompt 
+TDD-189774 share result: "\ud83e\udde9 Puzzle #677\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 16s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1999 result puzzle: 677
+TDD-251 result guesses: 12
+TDD-3 result time: 16s
+TDD0 result link: alphaguess.com
+TDD1 <STOP>
