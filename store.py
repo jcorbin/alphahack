@@ -4,6 +4,7 @@ import math
 import os
 import re
 import subprocess
+from warnings import deprecated
 import zlib
 from base64 import b85decode, b85encode
 from collections.abc import Generator, Iterable
@@ -130,6 +131,12 @@ class StoredLog:
         self.puzzle_id: str = ''
         self.sessions: list[LogSession] = []
         self.loaded: bool = False
+
+        self.expired_prompt: PromptUI.Prompt = PromptUI.Prompt(self.expired_prompt_mess, {
+            'archive': self.expired_do_archive,
+            'continue': lambda _: self.handle,
+            'remove': self.expired_do_remove,
+        })
 
     @property
     def expire(self) -> datetime.datetime|None:
@@ -485,7 +492,7 @@ class StoredLog:
 
         if self.is_expired:
             ui.print(f'! expired puzzle log started {self.start:{self.dt_fmt}}, but next puzzle expected at {self.expire:{self.dt_fmt}}')
-            return self.expired
+            return self.expired_prompt
 
         return self.handle
 
@@ -673,26 +680,26 @@ class StoredLog:
     def store_extra(self, _ui: PromptUI, _txn: 'git_txn'):
         pass
 
+    def expired_prompt_mess(self, _ui: PromptUI):
+        return f'[a]rchive, [r]emove, or [c]ontinue? '
+
+    @deprecated('use .expired_prompt directly')
     def expired(self, ui: PromptUI) -> PromptUI.State|None:
-        with ui.input(f'[a]rchive, [r]emove, or [c]ontinue? '):
-            return self.handle_expired(ui)
+        return self.expired_prompt(ui)
 
+    @deprecated('use .expired_prompt.handle directly')
     def handle_expired(self, ui: PromptUI):
-        if ui.tokens.have(r'a(r(c(h(i(ve?)?)?)?)?)?'):
-            ui.print('Archiving expired log')
-            return self.store
+        return self.expired_prompt.handle(ui)
 
-        if ui.tokens.have(r'r(e(m(o(ve?)?)?)?)?'):
-            os.unlink(self.log_file)
-            ui.print(f'// removed {self.log_file}')
-            self.__init__()
-            return self
+    def expired_do_archive(self, ui: PromptUI):
+        ui.print('Archiving expired log')
+        return self.store
 
-        if ui.tokens.have(r'c(o(n(t(i(n(ue?)?)?)?)?)?)?'):
-            return self.handle
-
-        if ui.tokens:
-            ui.print(f'! invalid choice {next(ui.tokens)!r}')
+    def expired_do_remove(self, ui: PromptUI):
+        os.unlink(self.log_file)
+        ui.print(f'// removed {self.log_file}')
+        self.__init__()
+        return self
 
     report_file: str = 'report.md' # TODO hoist and wire up to arg
 
