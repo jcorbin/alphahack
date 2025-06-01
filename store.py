@@ -222,6 +222,22 @@ class StoredLog:
         def __init__(self, stl: 'StoredLog'):
             self.stl = stl
             self.cursor: int = 1
+            self.prompt = PromptUI.Prompt(self.prompt_mess, {
+                'at': self.do_at,
+                'contains': self.do_contains,
+                'continue': self.do_continue,
+                'grep': self.do_grep,
+                'offset': self.do_offset,
+                'session': self.do_session,
+                'start': self.do_start,
+
+                '@': 'at',
+                # TODO would be nice to match r'([\-+]\d+)' -> offset
+                # TODO would be nice to match r'S(\d*)'
+            })
+
+        def __call__(self, ui: PromptUI):
+            return self.prompt(ui)
 
         def seek(self, offset: int):
             '''
@@ -247,14 +263,8 @@ class StoredLog:
                 if line_no >= offset: break
             return line_no, time, mess
 
-        def __call__(self, ui: PromptUI):
-            with ui.input(f'replay> ') as tokens:
-                if tokens.have(r'cont(i(n(ue?)?)?)?$'):
-                    line_no, time, mess = self.seek(0)
-                    self.cursor = line_no
-                    ui.print(f'*** {line_no}. T{time:.1f} {mess}')
-                    return self.restart(ui, mess=f'^^^ continuing from last line')
-
+        def prompt_mess(self, ui: PromptUI):
+            if self.prompt.re == 0:
                 C = 5
                 line_lo = max(0, self.cursor - C)
                 line_hi = self.cursor + C
@@ -267,66 +277,93 @@ class StoredLog:
                     last_line = line_no
                 if not found:
                     self.cursor = last_line if self.cursor > last_line else 1
+            return f'replay> '
 
-                match = tokens.have(r'S(\d*)')
-                if match:
-                    sn = str(match.group(1))
-                    want = int(sn) if sn else None
+        def do_at(self, ui: PromptUI):
+            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+            if n is None:
+                ui.print(f'at: {self.cursor}')
+            else:
+                ui.print(f'at: {n} <- {self.cursor}')
+                self.cursor = n
 
-                    n = 0
-                    for line_no, time, _z, mess in self.stl.parse_log():
-                        match = re.match(r'''(?x)
-                            now :
-                            \s+
-                            (?P<then> .+ )
-                            $''', mess)
-                        if not match: continue
-                        n += 1
-                        if want is None:
-                            then = match.group(1)
-                            ui.print(f'... {line_no}. S{n} {then}')
-                        elif n == want:
-                            self.cursor = line_no
-                            return
+        def do_contains(self, ui: PromptUI):
+            '''
+            print lines that contain all given tokens
+            usage: `contains <token> [<token> ...]`
+            '''
+            lits = tuple(ui.tokens)
+            if not lits: return
+            for line_no, time, _z, mess in self.stl.parse_log():
+                if not any(lit in mess for lit in lits): continue
+                ui.print(f'... {line_no}. T{time:.1f} {mess}')
+            ui.print('')
 
-                    if want is not None:
-                        ui.print(f'!!! S{want} not found')
-                    ui.print('')
+        def do_continue(self, ui: PromptUI):
+            '''
+            continue after last prior line
+            '''
+            line_no, time, mess = self.seek(0)
+            self.cursor = line_no
+            ui.print(f'*** {line_no}. T{time:.1f} {mess}')
+            return self.restart(ui, mess=f'^^^ continuing from last line')
+
+        def do_grep(self, ui: PromptUI):
+            '''
+            print lines that match give regular expression
+            usage: `grep <pattern ...>`
+            '''
+            patstr = ui.tokens.rest
+            if not patstr:
+                ui.print('! missing pattern')
+                return
+
+            try:
+                pattern = re.compile(patstr)
+            except re.PatternError as err:
+                ui.print(f'!!! invalid pattern /{patstr}/ : {err}')
+                return
+            for line_no, time, _z, mess in self.stl.parse_log():
+                if not pattern.match(mess): continue
+                ui.print(f'... {line_no}. T{time:.1f} {mess}')
+            ui.print('')
+
+        def do_offset(self, ui: PromptUI):
+            off = ui.tokens.have(r'[\-+]\d+', lambda m: int(m[0]))
+            if off is not None:
+                n = max(1, self.cursor + off)
+                ui.print(f'at: {n} <- {self.cursor}')
+                self.cursor = n
+
+        def do_session(self, ui: PromptUI):
+            want = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+
+            n = 0
+            for line_no, _t, _z, mess in self.stl.parse_log():
+                match = re.match(r'''(?x)
+                    now :
+                    \s+
+                    (?P<then> .+ )
+                    $''', mess)
+                if not match: continue
+                n += 1
+                if want is None:
+                    then = match.group(1)
+                    ui.print(f'... {line_no}. S{n} {then}')
+                elif n == want:
+                    ui.print(f'at: {line_no} <- {self.cursor}')
+                    self.cursor = line_no
                     return
 
-                at = tokens.have(r'@(\d+)', lambda match: int(match.group(1)))
-                if at is not None:
-                    self.cursor = at
-                    return
+            if want is not None:
+                ui.print(f'!!! S{want} not found')
+            ui.print('')
 
-                off = tokens.have(r'([\-+]\d+)', lambda match: int(match.group(1)))
-                if off is not None:
-                    self.cursor = max(1, self.cursor + off)
-                    return
-
-                patstr = tokens.have(r'/(.+)', lambda match: str(match[1]))
-                if patstr:
-                    try:
-                        pattern = re.compile(patstr)
-                    except re.PatternError as err:
-                        ui.print(f'!!! invalid pattern /{patstr}/ : {err}')
-                        return
-                    for line_no, time, _z, mess in self.stl.parse_log():
-                        if not pattern.match(mess): continue
-                        ui.print(f'... {line_no}. T{time:.1f} {mess}')
-                    ui.print('')
-                    return
-
-                litstr = tokens.have(r'"(.+)', lambda match: str(match[1]))
-                if litstr:
-                    for line_no, time, _z, mess in self.stl.parse_log():
-                        if litstr not in mess: continue
-                        ui.print(f'... {line_no}. T{time:.1f} {mess}')
-                    ui.print('')
-                    return
-
-                if tokens.have(r'start$'):
-                    return self.restart
+        def do_start(self, _ui: PromptUI):
+            '''
+            start a new session at current line
+            '''
+            return self.restart
 
         def restart(self,
                     ui: PromptUI,
