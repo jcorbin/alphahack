@@ -6,7 +6,7 @@ import re
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
 from os import path
-from typing import cast, final, override
+from typing import Literal, cast, final, override
 
 from sortem import Chooser, DiagScores, Possible, RandScores
 from store import StoredLog, git_txn
@@ -68,10 +68,12 @@ class DontWord(StoredLog):
         self.given_wordlist: bool = False
         self._wordlist: WordList|None = None
 
+        self.tried: list[str] = []
+        self.feedback: list[tuple[Literal[0,1,2], ...]] = []
+
         self.may_letters: set[str] = set()
         self.nope_letters: set[str] = set()
         self.word: list[str] = ['' for _ in range(self.size)]
-        self.tried: list[str] = []
 
         self.failed: bool = False
         self.fail_text: str = ''
@@ -169,13 +171,21 @@ class DontWord(StoredLog):
 
                 match = re.match(r'''(?x)
                     tried : \s+ (?P<word> [\w_]+ )
+                    (?: \s+ (?P<feedback> [012]+ ) )?
                     \s* ( .* )
                     $''', rest)
                 if match:
                     word = match[1]
-                    rest = match[2]
+                    fs = match[2]
+                    rest = match[3]
                     assert rest == ''
-                    self.apply_tried(word)
+                    def fp():
+                        for c in fs or '':
+                            if c == '0': yield 0
+                            elif c == '1': yield 1
+                            elif c == '2': yield 2
+                            else: raise ValueError(f'invalid feedback char {c}')
+                    self.apply_tried(word, tuple(fp()))
                     continue
 
                 match = re.match(r'''(?x)
@@ -237,8 +247,13 @@ class DontWord(StoredLog):
 
     def play_prompt_mess(self, ui: PromptUI):
         if self.play_prompt.re == 0:
-            for n, word in enumerate(self.tried, 1):
-                ui.print(f'{n}. {" ".join(word.upper())}')
+            for n, (word, feedback) in enumerate(zip(self.tried, self.feedback), 1):
+                fb = (
+                    'Y' if c == 2 else
+                    'm' if c == 1 else
+                    'n'
+                    for c in feedback)
+                ui.print(f'{n}. {" ".join(word.upper())} {" ".join(fb)}')
             if self.nope_letters:
                 ui.print(f'No: {" ".join(x.upper() for x in sorted(self.nope_letters))}')
             if self.may_letters:
@@ -266,9 +281,10 @@ class DontWord(StoredLog):
 
     def apply_undo(self):
         tried = self.tried[:-1]
+        feedback = self.feedback[:-1]
         self.reset_word()
-        for word in tried:
-            self.apply_tried(word)
+        for word, fb in zip(tried, feedback):
+            self.apply_tried(word, fb)
 
     def do_guess(self, ui: PromptUI):
         '''
@@ -339,14 +355,40 @@ class DontWord(StoredLog):
             if len(word) != self.size:
                 ui.print(f'expected {self.size}-length word, got {len(word)}')
                 return
-            self.record_tried(ui, word)
+            feedback: list[Literal[0,1,2]] = []
+            for m in ui.tokens.consume(r'(?x) ([Nn0]) | ([Mm1]) | ([Yy2])'):
+                feedback.append(0 if m[1] else 1 if m[2] else 2)
+                if len(feedback) >= self.size: break
+            self.record_tried(ui, word, tuple(feedback))
 
-    def record_tried(self, ui: PromptUI, word: str):
-        ui.log(f'tried: {word}')
-        self.apply_tried(word)
+    def record_tried(self, ui: PromptUI, word: str, feedback: tuple[Literal[0, 1, 2], ...]):
+        fb = ''.join(f'{c}' for c in feedback)
+        ui.log(f'tried: {word} {fb}')
+        self.apply_tried(word, feedback)
 
-    def apply_tried(self, word: str):
+    def apply_tried(self, word: str, feedback: tuple[Literal[0, 1, 2], ...]):
         self.tried.append(word)
+        self.feedback.append(feedback)
+        for i, (c, f) in enumerate(zip(word, feedback)):
+            if f == 2:
+                self.word[i] = c
+                if c in self.may_letters:
+                    self.may_letters.remove(c)
+        mayc = set(
+            c
+            for c, f in zip(word, feedback)
+            if f in (0, 1))
+        for c in mayc:
+            g = tuple(
+                f
+                for cc, f in zip(word, feedback)
+                if cc == c)
+            if any(f == 1 for f in g):
+                self.may_letters.add(c)
+            elif c in self.may_letters:
+                self.may_letters.remove(c)
+            if all(f == 0 for f in g) and c not in self.word:
+                self.nope_letters.add(c)
 
     def do_word(self, ui: PromptUI):
         '''
@@ -372,11 +414,13 @@ class DontWord(StoredLog):
         if all(self.word):
             if word not in self.tried:
                 self.tried.append(word)
+                self.feedback.append(tuple(2 for _ in word))
             self.reset_word()
 
     def reset_word(self):
-        for i in range(self.size): self.word[i] = ''
         self.tried = []
+        self.feedback = []
+        for i in range(self.size): self.word[i] = ''
         self.nope_letters = set()
         self.may_letters = set()
 
