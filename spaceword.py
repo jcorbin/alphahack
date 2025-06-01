@@ -1059,6 +1059,9 @@ class SpaceWord(StoredLog):
             '^': '/write', # TODO wants to be an under... prefix
         })
 
+        self.expired_prompt.set('finalize', self.do_finalize)
+        self.review_prompt.set('finalize', self.do_finalize)
+
     def make_sid(self, hash: str):
         n = 6
         while hash[:n] in self.sids and n < len(hash):
@@ -1309,21 +1312,13 @@ class SpaceWord(StoredLog):
         return self.play
 
     @override
-    def expired(self, ui: PromptUI):
-        with ui.input(f'[f]inalize, [a]rchive, [r]emove, or [c]ontinue? '):
-            if ui.tokens.have(r'f(i(n(a(l(i(ze?)?)?)?)?)?)?'):
-                return (
-                    self.interact(ui, self.finalize)
-                    if self.ephemeral else self.finalize)
-            return self.handle_expired(ui)
+    def expired_prompt_mess(self, _ui: PromptUI):
+        return f'[f]inalize, [a]rchive, [r]emove, or [c]ontinue? '
 
-    @override
-    def handle_review(self, ui: PromptUI):
-        if ui.tokens.have(r'fin(a(l(i(ze?)?)?)?)?'):
-            return (
-                self.interact(ui, self.finalize)
-                if self.ephemeral else self.finalize)
-        return super().handle_review(ui)
+    def do_finalize(self, ui: PromptUI):
+        return (
+            self.interact(ui, self.finalize)
+            if self.ephemeral else self.finalize)
 
     def finalize(self, ui: PromptUI):
         res = self.result
@@ -1333,7 +1328,7 @@ class SpaceWord(StoredLog):
                 with git_txn(f'{self.site_name or self.store_name} day {self.puzzle_id} final', ui=ui) as txn:
                     txn.add(self.log_file)
                 raise StopIteration
-            return self.review
+            return self.review_prompt
 
         ui.print('Provide final share result:')
         try:
