@@ -1,0 +1,110 @@
+T0.00024849700275808573 now: 2025-06-01T07:22:01EDT
+TD41 site: squareword.org
+TDD10244444 🧩  ? #1217
+TDD-10244319 puzzle_id: #1217
+TDD-150 wordlist: nwl2023.txt
+TDD1271785 > *
+TDD5328246 try? 3
+TDD-6598976 questioning: ["resay", "#5"]
+TDD613768 resay ( #5 ) ? 
+TDD1217158 resay ( #5 ) > 
+TDD1415980 resay ( #5 ) 1> ___a ~ a
+TDD-3247625 word: 0 ___a_
+TDD-340 may: 0 a
+TDD1848930 resay ( #5 ) 2> _e ~ re
+TDD-1848858 word: 1 _e___
+TDD-74 may: 1 e r
+TDD1998475 resay ( #5 ) 3> ~ re
+TDD-1998247 word: 2 _____
+TDD-226 may: 2 e r
+TDD1943793 resay ( #5 ) 4> ~ e
+TDD-1943727 word: 3 _____
+TDD-68 may: 3 e
+TDD5160858 resay ( #5 ) 5> _e__y ~ es
+TDD-5160782 word: 4 _e__y
+TDD-74 may: 4 e s
+TDD0 question done
+TDD7238828 > *
+TDD7233160 try? 1
+TDD-14471888 questioning: ["seedy", "#5"]
+TDD2832896 seedy ( #5 ) ? 
+TDD2757749 seedy ( #5 ) > 3 ___d
+TDD-5590659 word: 2 ___d_
+TDD-85 may: 2 e r
+TDD2959780 seedy ( #5 ) 4> ~ ed
+TDD-2959711 word: 3 _____
+TDD-69 may: 3 d e
+TDD2911929 seedy ( #5 ) 5> seedy
+TDD-2911857 word: 4 seedy
+TDD-73 may: 4 
+TDD0 question done
+TDD743848 > *
+TDD7168105 try? 2
+TDD-7911858 questioning: ["eerie", "#2"]
+TDD775833 eerie ( #2 ) ? 
+TDD1072487 eerie ( #2 ) > 
+TDD-1200854 eerie ( #2 ) 1> 
+TDD1832318 eerie ( #2 ) 2> eerie
+TDD-2479806 word: 1 eerie
+TDD-74 may: 1 
+TDD3544021 eerie ( #2 ) 3> e__de
+TDD-3543966 word: 2 e__de
+TDD-54 may: 2 r
+TDD3207833 eerie ( #2 ) 4> ~ edi
+TDD-3207763 word: 3 _____
+TDD-68 may: 3 d e i
+TDD831832 eerie ( #2 ) 5> *
+TDD1000321 eerie ( #2 ) 5> 
+TDD-1832106 question done
+TDD1031714 > *
+TDD-525180 questioning: ["erode", "#3"]
+TDD2730938 erode ( #3 ) ? 
+TDD-813729 erode ( #3 ) > 3 erode
+TDD-2423716 word: 2 erode
+TDD-76 may: 2 
+TDD2743929 erode ( #3 ) 4> ␚
+TDD-2743889 question done
+TDD495858 > *
+TDD5224136 try? 1
+TDD-5719944 questioning: ["tired", "#4"]
+TDD3192772 tired ( #4 ) ? 
+TDD222115 tired ( #4 ) > 4 _i_ed
+TDD-3414896 word: 3 _i_ed
+TDD-82 may: 3 
+TDD1823913 tired ( #4 ) 5> 
+TDD-1823873 question done
+TDD1087816 > /no t
+TDD-1087621 nope: t
+TDD759628 > *
+TDD18135963 try? 4
+TDD-18895730 questioning: ["japan", "#1"]
+TDD687767 japan ( #1 ) ? 
+TDD-351799 japan ( #1 ) > 
+TDD4095866 japan ( #1 ) 1> _a_an ~ p
+TDD-4431847 word: 0 _a_an
+TDD-82 may: 0 p
+TDD4527819 japan ( #1 ) 2> ␚
+TDD-4527780 question done
+TDD1295926 > /no j
+TDD-1295913 nope: j t
+TDD887783 > *
+TDD5032172 try? 1
+TDD-5919929 questioning: ["pagan", "#1"]
+TDD1048070 pagan ( #1 ) ? 
+TDD671538 pagan ( #1 ) > 1 pagan
+TDD-1719616 word: 0 pagan
+TDD-72 may: 0 
+TDD1280007 pagan ( #1 ) 2> ␚
+TDD-1279961 question done
+TDD471845 > *
+TDD11896060 try? 1
+TDD-12367855 questioning: ["lived", "#4"]
+TDD575861 lived ( #4 ) ? 
+TDD1383967 lived ( #4 ) > 4 lived
+TDD-1959860 word: 3 lived
+TDD-64 may: 3 
+TDD14159900 lived ( #4 ) 5> 
+TDD-14159859 question done
+TDD431960 Press <Enter> to 📋 or `>` for line prompt 
+TDD-429771 result: "squareword.org 1217: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1217"
+TDD17374 <STOP>
