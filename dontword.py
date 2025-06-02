@@ -599,6 +599,7 @@ class Result:
 
     puzzle_id: int
     outcome: str
+    fortune: str
     records: tuple[tuple[int, ...], ...]
     remains: tuple[int, ...] # after each record
     undos: int
@@ -609,6 +610,7 @@ class Result:
     def report_body(self, words: Iterable[str]):
         ws = tuple(words)
         yield self.outcome
+        yield f'> {self.fortune}'
         yield ''
         for ri, (rec, rem) in enumerate(zip(self.records, self.remains)):
             word = ws[ri] if ri < len(ws) else '?????'
@@ -629,6 +631,7 @@ class Result:
     def parse(cls, s: str):
         puzzle_id: int|None = None
         outcome: str = 'UNKNOWN'
+        fortune: str = 'Outlook Cloudy'
         records: list[tuple[int, ...]] = []
         rems: list[int] = []
         undos: int = 0
@@ -649,9 +652,8 @@ class Result:
                 puzzle_id = int(match[1])
                 outcome = match[2]
                 assert outcome == 'SURVIVED' # TODO what does failure look like
+                fortune = next(lines)
                 continue
-
-            # TODO gaf? 'Hooray! I didn't Wordle today!'
 
             match = re.match(r'''(?x)
                              # TODO
@@ -720,6 +722,7 @@ class Result:
         return cls(
             puzzle_id,
             outcome,
+            fortune,
             tuple(records),
             tuple(rems),
             undos,
@@ -748,6 +751,7 @@ from strkit import MarkedSpec
     > = 20 total score
     - puzzle_id: 1095
     - outcome: SURVIVED
+    - fortune: Hooray! I didn't Wordle today!
     - record: (0, 0, 0, 0, 0)
     - rem: 6482
     - record: (0, 0, 0, 0, 0)
@@ -773,6 +777,7 @@ def test_result_parse(spec: MarkedSpec):
     for name, value in spec.props:
         if name == 'puzzle_id': assert str(res.puzzle_id) == value
         elif name == 'outcome': assert res.outcome == value
+        elif name == 'fortune': assert res.fortune == value
         elif name == 'record':
             try:
                 rec = res.records[record_i]
