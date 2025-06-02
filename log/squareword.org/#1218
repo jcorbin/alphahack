@@ -1,0 +1,149 @@
+T0.000287284012301825 now: 2025-06-02T07:31:30EDT
+TD50 site: squareword.org
+TDD2911558 🧩  ? #1218
+TDD-2911476 puzzle_id: #1218
+TDD-116 wordlist: nwl2023.txt
+TDD1560008 > *
+TDD3905449 try? 1
+TDD-5464386 questioning: ["scare", "#5"]
+TDD5348433 scare ( #5 ) ? 
+TDD-4717488 scare ( #5 ) > 
+TDD1305754 scare ( #5 ) 1> ~ sa
+TDD-1937388 word: 0 _____
+TDD-387 may: 0 a s
+TDD1613804 scare ( #5 ) 2> ~ a
+TDD-1613716 word: 1 _____
+TDD-88 may: 1 a
+TDD5879997 scare ( #5 ) 3> __a_e ~ e
+TDD-5879900 word: 2 __a_e
+TDD-97 may: 2 e
+TDD2079753 scare ( #5 ) 4> ~ are
+TDD-2079679 word: 3 _____
+TDD-75 may: 3 a e r
+TDD3376114 scare ( #5 ) 5> s_are
+TDD-3376037 word: 4 s_are
+TDD-77 may: 4 
+TDD0 question done
+TDD888650 > /no c
+TDD-888393 nope: c
+TDD566573 > *
+TDD52210042 <INT>
+T0.04987614399578888 now: 2025-06-02T07:32:57EDT
+TD6544683 > * 3
+TDD5095023 try? 6
+TDD-11639511 questioning: ["tease", "#3"]
+TDD1527662 tease ( #3 ) ? 
+TDD-1359925 tease ( #3 ) > 
+TDD6648262 tease ( #3 ) 1> 3 _ea_e
+TDD-6815898 word: 2 _ea_e
+TDD-284 may: 2 
+TDD3583678 tease ( #3 ) 4> 5 ~ t
+TDD-3583399 word: 4 s_are
+TDD-274 may: 4 t
+TDD-1 question done
+TDD967737 > *
+TDD-340998 questioning: ["stare", "#5"]
+TDD3458527 stare ( #5 ) ? 
+TDD-2957384 stare ( #5 ) > 5 stare
+TDD-1127805 word: 4 stare
+TDD-80 may: 4 
+TDD0 question done
+TDD1280006 > *
+TDD10152127 try? 2
+TDD-11432001 questioning: ["heave", "#3"]
+TDD847742 heave ( #3 ) ? 
+TDD3432227 heave ( #3 ) > 3 _eave
+TDD-4280037 word: 2 _eave
+TDD-64 may: 2 
+TDD1895861 heave ( #3 ) 4> ␚
+TDD-1895803 question done
+TDD831849 > /no h
+TDD-831659 nope: c h
+TDD575528 > *
+TDD4888343 try? ␚
+TDD-3488189 > *4
+TDD-151927 try? ␚
+TDD-919913 > 
+TDD303860 > * 4
+TDD883941554 <INT>
+T0.04952117601351347 now: 2025-06-02T07:48:53EDT
+TD5694116 > * 4 -v t
+TDD10290169 > ?
+TDD48536673 <INT>
+T0.049189170997124165 now: 2025-06-02T07:51:04EDT
+TD4013978 > * 4 :v t
+TDD4994050 try? ␚
+TDD-2175754 > * 4 :v t -t 10
+TDD16703943 try? 2
+TDD-23535849 questioning: ["denar", "#4"]
+TDD1063381 denar ( #4 ) ? 
+TDD6192343 denar ( #4 ) > 4 ~ ared
+TDD-7255645 word: 3 _____
+TDD-435 may: 3 a d e r
+TDD1928016 denar ( #4 ) 5> /no n
+TDD8807626 denar ( #4 ) 5> * 4 :v t -t 10
+TDD656749 denar ( #4 ) 5> ␚
+TDD-11392339 question done
+TDD3599974 > * 4 :v t -t 10
+TDD6511820 try? ␚
+TDD-9199870 > * 1
+TDD24136420 try? 7
+TDD-25048224 questioning: ["goals", "#1"]
+TDD815705 goals ( #1 ) ? 
+TDD176224 goals ( #1 ) > 
+TDD2727754 goals ( #1 ) 1> g__ls ~ al
+TDD-3719761 word: 0 g__ls
+TDD-99 may: 0 a l
+TDD4720556 goals ( #1 ) 2> ~ aol
+TDD-4720475 word: 1 _____
+TDD-83 may: 1 a l o
+TDD3719433 goals ( #1 ) 3> ~ l
+TDD-3719347 word: 2 _eave
+TDD-84 may: 2 l
+TDD3191927 goals ( #1 ) 4> ␚
+TDD-3191877 question done
+TDD5719817 > leave
+TDD-5719591 questioning: ["leave", "entered"]
+TDD2799432 leave ( entered ) ? 3 leave
+TDD-2799639 guess: leave
+TDD-51 word: 2 leave
+TDD-19 may: 2 
+TDD2744025 leave ( entered ) 4> ␚
+TDD-2743981 question done
+TDD463812 > *
+TDD-26672 questioning: ["galls", "#1"]
+TDD3957710 galls ( #1 ) ? 
+TDD-4226842 galls ( #1 ) > 
+TDD2512007 galls ( #1 ) 1> 1 galls
+TDD-2679968 word: 0 galls
+TDD-89 may: 0 
+TDD4679837 galls ( #1 ) 2> __l ~ aol
+TDD-4679744 word: 1 __l__
+TDD-91 may: 1 a l o
+TDD2159981 galls ( #1 ) 3> ␚
+TDD-2159941 question done
+TDD631880 > *
+TDD-382221 questioning: ["armed", "#4"]
+TDD4452799 armed ( #4 ) ? 
+TDD-4550683 armed ( #4 ) > 
+TDD3912295 armed ( #4 ) 1> 4 armed
+TDD-4064020 word: 3 armed
+TDD-92 may: 3 
+TDD4695893 armed ( #4 ) 5> 2 a_l ~ ol
+TDD-4695795 word: 1 a_l__
+TDD-97 may: 1 l o
+TDD911934 armed ( #4 ) 3> *
+TDD1520149 armed ( #4 ) 3> ␚
+TDD-2432043 question done
+TDD487833 > *
+TDD-28278 questioning: ["allow", "#2"]
+TDD2320970 allow ( #2 ) ? 
+TDD-2620720 allow ( #2 ) > 
+TDD3336177 allow ( #2 ) 1> 2 allow
+TDD-3495929 word: 1 allow
+TDD-91 may: 1 
+TDD9216192 allow ( #2 ) 3> ␚
+TDD-9216142 question done
+TDD3423889 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3421967 result: "squareword.org 1218: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1218"
+TDD17546 <STOP>
