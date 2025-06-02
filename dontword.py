@@ -272,7 +272,7 @@ class DontWord(StoredLog):
         '''
         self.failed = True
         self.fail_text = ui.tokens.rest
-        ui.log('fail: {self.fail_text}')
+        ui.log(f'fail: {self.fail_text}')
         return self.finish
 
     def do_may(self, ui: PromptUI):
