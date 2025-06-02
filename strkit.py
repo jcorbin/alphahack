@@ -205,7 +205,10 @@ class PeekStr(PeekIter[str]):
             if token is None: return
             match = re.match(pattern, token) if isinstance(pattern, str) else pattern.match(token)
             if not match: return
-            _ = self.take()
+            s = self.take()
+            s = s[match.end():]
+            if s:
+                self.give(s)
             yield then(match) if then else match
 
     def consume_until(self, pattern: str|re.Pattern[str], trim: bool = False):
