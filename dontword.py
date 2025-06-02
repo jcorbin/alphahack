@@ -774,10 +774,18 @@ def test_result_parse(spec: MarkedSpec):
         if name == 'puzzle_id': assert str(res.puzzle_id) == value
         elif name == 'outcome': assert res.outcome == value
         elif name == 'record':
-            assert repr(res.records[record_i]) == value, f'records[{record_i}]'
+            try:
+                rec = res.records[record_i]
+            except IndexError:
+                rec = None
+            assert repr(rec) == value, f'records[{record_i}]'
             record_i += 1
         elif name == 'rem':
-            assert repr(res.remains[rem_i]) == value, f'remains[{rem_i}]'
+            try:
+                rem = res.remains[rem_i]
+            except IndexError:
+                rem = None
+            assert repr(rem) == value, f'remains[{rem_i}]'
             rem_i += 1
         elif name == 'undos': assert str(res.undos) == value
         elif name == 'remain': assert str(res.remain) == value
