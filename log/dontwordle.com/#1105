@@ -1,0 +1,55 @@
+T0.000210423007956706 now: 2025-06-02T08:10:11EDT
+TD39 site: dontwordle.com
+TDD-7 wordlist: nwl2023.txt
+TDD3855048 1> *
+TDD16297464 1> tried bobos nnYnn
+TDD-20152305 tried: bobos 00200
+TDD4255328 2> undo
+TDD-4255571 undo
+TDD6511974 1> ␚
+TDD-6512016 <EOF>
+T0.04850318399257958 now: 2025-06-02T08:16:59EDT
+TD3345562 1> *
+TDD19726826 1> tried yummy 10000
+TDD-19736048 tried: yummy 10000
+TDD2375526 2> undo
+TDD-2375692 undo
+TDD1383818 1> ␚
+TDD-1383851 <EOF>
+T0.04787309699167963 now: 2025-06-02T08:18:15EDT
+TD6474163 1> *
+TDD22630057 1> tried grrrl 01000
+TDD-29103959 tried: grrrl 01000
+TDD3719474 2> undo
+TDD-3719662 undo
+TDD3976006 1> *
+TDD12448150 1> tried cluck 20000
+TDD-16424122 tried: cluck 20000
+TDD1439749 2> undo
+TDD-1439779 undo
+TDD4896104 1> *
+TDD6120148 1> tried pipit 00000
+TDD-11016235 tried: pipit 00000
+TDD3383526 2> *
+TDD53769629 2> tried shush 00000
+TDD-57153167 tried: shush 00000
+TDD2551657 3> *
+TDD57345555 3> tried wowee 00020
+TDD-59897195 tried: wowee 00020
+TDD2599337 4> *
+TDD12793075 4> tried added 00020
+TDD-15392419 tried: added 00020
+TDD1599531 5> *
+TDD29040821 5> * :v e.*e 
+TDD-8736019 5> * -sans :v e.*e
+TDD3471885 5> tried xylem 02020
+TDD-25376213 tried: xylem 02020
+TDD5447929 6> undo
+TDD-5447959 undo
+TDD9863921 5> * -sans :v e.*e
+TDD22984493 5> tried flyer 00122
+TDD-32848392 tried: flyer 00122
+TDD9463938 6> fail cyber
+TDD-9463962 fail: cyber
+TDD10256029 Press <Enter> to 📋 or `>` for line prompt 
+TDD-10253706 result: "Don't Wordle 1105 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6049\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2118\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c185\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c5\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe91\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"
