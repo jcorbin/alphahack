@@ -588,7 +588,7 @@ class DontWord(StoredLog):
 @final
 @dataclass
 class Result:
-    marks = ('⬜', '🟨', '🟩')
+    marks = ('⬜', '🟨', '🟩', '⬛')
 
     @final
     @dataclass
@@ -625,7 +625,7 @@ class Result:
 
     @property
     def found(self):
-        return all(x == 2 for x in self.records[-1])
+        return all(x in (2, 3) for x in self.records[-1])
 
     @classmethod
     def parse(cls, s: str):
@@ -651,26 +651,19 @@ class Result:
             if match:
                 puzzle_id = int(match[1])
                 outcome = match[2]
-                assert outcome == 'SURVIVED' # TODO what does failure look like
+                assert outcome in ('SURVIVED', 'ELIMINATED') # TODO others?
                 fortune = next(lines)
                 continue
 
             match = re.match(r'''(?x)
-                             # TODO
-                             # '⬜⬜⬜⬜⬜6482'
-                             # '⬜⬜⬜⬜⬜2683'
-                             # '⬜🟨⬜🟩⬜44'
-                             # '🟩⬜⬜🟩⬜17'
-                             # '🟩⬜⬜🟩⬜7'
-                             # '🟩⬜🟩🟩🟨2'
                              \s*
-                             (?P<marks> [⬜🟨🟩]{5} )
+                             (?P<marks> [⬜🟨🟩⬛]{5} )
                              \s*
-                             (?P<rem> \d+ )
+                             (?P<rem> \d+ )?
                              ''', line)
             if match:
                 marks = match[1]
-                rem = int(match[2])
+                rem = int(match[2]) if match[2] else 0
                 record = tuple(cls.marks.index(mark) for mark in marks)
                 records.append(record)
                 rems.append(rem)
@@ -764,10 +757,42 @@ from strkit import MarkedSpec
     - rem: 7
     - record: (2, 0, 2, 2, 1)
     - rem: 2
+    - found: False
     - undos: 0
     - remain: 2
     - unused: 10
     - score: 20
+
+    #fail
+    > Don't Wordle 1105 - ELIMINATED
+    > Well technically I didn't Wordle!
+    > ⬜⬜⬜⬜⬜6049
+    > ⬜⬜⬜⬜⬜2118
+    > ⬜⬜⬜🟩⬜185
+    > ⬜⬜⬜🟩⬜5
+    > ⬜⬜🟨🟩🟩1
+    > ⬛⬛⬛⬛⬛
+    > Undos used: 5
+    - puzzle_id: 1105
+    - outcome: ELIMINATED
+    - fortune: Well technically I didn't Wordle!
+    - record: (0, 0, 0, 0, 0)
+    - rem: 6049
+    - record: (0, 0, 0, 0, 0)
+    - rem: 2118
+    - record: (0, 0, 0, 2, 0)
+    - rem: 185
+    - record: (0, 0, 0, 2, 0)
+    - rem: 5
+    - record: (0, 0, 1, 2, 2)
+    - rem: 1
+    - record: (3, 3, 3, 3, 3)
+    - rem: 0
+    - found: True
+    - undos: 5
+    - remain: 0
+    - unused: 0
+    - score: 0
 
 ''')
 def test_result_parse(spec: MarkedSpec):
@@ -796,6 +821,7 @@ def test_result_parse(spec: MarkedSpec):
         elif name == 'remain': assert str(res.remain) == value
         elif name == 'unused': assert str(res.unused) == value
         elif name == 'score': assert str(res.score) == value
+        elif name == 'found': assert str(res.found) == value
     assert record_i == len(res.records) == rem_i
 
 if __name__ == '__main__':
