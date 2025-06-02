@@ -16,7 +16,7 @@ from typing import Callable, Literal, Never, Self, cast, final, override
 
 flatten = chain.from_iterable
 
-from sortem import Chooser, Possible, Sample, RandScores, match_show, numbered_item, wrap_item
+from sortem import Chooser, MatchPat, Possible, Sample, RandScores, match_show, numbered_item, wrap_item
 from store import StoredLog, git_txn
 from strkit import MarkedSpec, block_lines, spliterate
 
@@ -2927,7 +2927,7 @@ class Halo:
         for i in ix:
             yield i
 
-    def set_choices(self, *choices: Sample.Choice|re.Pattern[str]):
+    def set_choices(self, *choices: Sample.Choice|MatchPat):
         self.sample = Sample(Sample.compile_choices(
             choices,
             lambda pats: match_show(self.explain, pats)))

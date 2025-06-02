@@ -4,6 +4,7 @@ import heapq
 import random
 from collections import Counter
 from collections.abc import Generator, Iterable, Sequence
+from dataclasses import dataclass
 from functools import reduce
 from itertools import count
 import re
@@ -11,9 +12,23 @@ from typing import final, override, Callable, Literal, Never, TypeVar
 
 from strkit import PeekStr
 
+@dataclass
+class MatchPat:
+    @classmethod
+    def parse_arg(cls, pk: PeekStr):
+        match = pk.have(r'/(.+)')
+        if match:
+            return cls(re.compile(str(match[1])))
+
+    pat: re.Pattern[str]
+
+    def __call__(self, s: str):
+        have = bool(self.pat.search(s))
+        return have
+
 def match_show(
     show: Callable[[int], Iterable[str]],
-    pats: tuple[re.Pattern[str], ...],
+    pats: tuple[MatchPat, ...],
 ) -> Callable[[int], bool]:
     if not len(pats):
         return lambda _: True
@@ -21,14 +36,14 @@ def match_show(
     if len(pats) == 1:
         pat = pats[0]
         return lambda i: any(
-            pat.search(line)
+            pat(line)
             for line in show(i))
 
     def and_match(i: int):
         lines = tuple(show(i))
         return all(
             any(
-                pat.search(line)
+                pat(line)
                 for line in lines)
             for pat in pats)
 
@@ -327,11 +342,11 @@ class Sample:
 
     @staticmethod
     def compile_choices(
-        choices: Iterable[Choice|re.Pattern[str]],
-        compile: Callable[[tuple[re.Pattern[str], ...]], Filter]):
-        pats: list[re.Pattern[str]] = []
+        choices: Iterable[Choice|MatchPat],
+        compile: Callable[[tuple[MatchPat, ...]], Filter]):
+        pats: list[MatchPat] = []
         for ch in choices:
-            if isinstance(ch, re.Pattern):
+            if isinstance(ch, MatchPat):
                 pats.append(ch)
             else:
                 if len(pats):
@@ -431,15 +446,15 @@ class Sample:
 class Chooser:
     def __init__(self, show_n: int = 10):
         self.show_n = show_n
-        self._choices: list[Sample.Choice|re.Pattern[str]] = []
+        self._choices: list[Sample.Choice|MatchPat] = []
 
-    def append(self, choiceOrPattern: Sample.Choice|re.Pattern[str]):
+    def append(self, choiceOrPattern: Sample.Choice|MatchPat):
         self._choices.append(choiceOrPattern)
 
     def parse(self, pk: PeekStr):
         return (
             Sample.parse_choice_arg(pk, show_n=self.show_n) or
-            pk.have(r'/(.+)', lambda match: re.compile(str(match[1]))))
+            MatchPat.parse_arg(pk))
 
     def collect(self, pk: PeekStr):
         part = self.parse(pk)
@@ -449,7 +464,7 @@ class Chooser:
         return False
 
     @property
-    def choices(self) -> Generator[Sample.Choice|re.Pattern[str]]:
+    def choices(self) -> Generator[Sample.Choice|MatchPat]:
         if not self._choices:
             yield 'top', self.show_n,
         yield from self._choices
@@ -464,7 +479,7 @@ class Possible[Dat]:
                  data: Iterable[Dat],
                  score: Scorer[Dat],
                  show: Callable[[Dat], Iterable[str]] = lambda dat: (f'{dat}',),
-                 choices: Iterable[Sample.Choice|re.Pattern[str]] = (),
+                 choices: Iterable[Sample.Choice|MatchPat] = (),
                  verbose: int = 0, 
                  ):
         self.data = tuple(data)
@@ -484,7 +499,7 @@ class Possible[Dat]:
                 yield f'of {len(self.data)}'
         return ' '.join(parts())
 
-    def match_show(self, pats: tuple[re.Pattern[str], ...]) -> Callable[[int], bool]:
+    def match_show(self, pats: tuple[MatchPat, ...]) -> Callable[[int], bool]:
         return match_show(lambda i: self.show_datum(i), pats)
 
     def show_datum(self, i: int) -> Generator[str]:
@@ -588,12 +603,12 @@ def main():
     rng_seed = cast(str|None, args.seed)
     verbose = cast(int, args.v)
 
-    choices = cast(list[Sample.Choice|re.Pattern[str]]|None, args.choices) or ()
+    choices = cast(list[Sample.Choice|MatchPat]|None, args.choices) or ()
 
     samp = Sample(
         Sample.compile_choices(choices,
             lambda pats: lambda i: any(
-                pat.search(line)
+                pat(line)
                 for line in result(i)
                 for pat in pats))
         if choices else (('top', 0),))
