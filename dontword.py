@@ -747,6 +747,7 @@ from strkit import MarkedSpec
     > x 10 unused letters
     > = 20 total score
     - puzzle_id: 1095
+    - outcome: SURVIVED
     - record: (0, 0, 0, 0, 0)
     - rem: 6482
     - record: (0, 0, 0, 0, 0)
@@ -771,6 +772,7 @@ def test_result_parse(spec: MarkedSpec):
     rem_i = 0
     for name, value in spec.props:
         if name == 'puzzle_id': assert str(res.puzzle_id) == value
+        elif name == 'outcome': assert res.outcome == value
         elif name == 'record':
             assert repr(res.records[record_i]) == value, f'records[{record_i}]'
             record_i += 1
