@@ -645,7 +645,7 @@ class DontWord(StoredLog):
 
         self.check_fail_text(ui)
 
-        return super().review(ui)
+        return super().review_prompt(ui)
 
     @override
     def info(self) -> Generator[str]:
