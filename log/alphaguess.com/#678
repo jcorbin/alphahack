@@ -1,0 +1,37 @@
+T0.0003228839923394844 now: 2025-06-02T07:30:51EDT
+TD89068 loaded 196560 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (43 words excluded) asof c393641f2d199222f35e95de51b452ec0b3deae1
+TDD6056401 [0 : 98237 : 196560] mach? b
+TDD-6145300 progress: -1 98237 mach
+TDD2047685 [0 : 47397 : 98237] dis? b
+TDD-2047775 progress: -1 47397 dis
+TDD1439882 [0 : 23695 : 47397] camp? a
+TDD-1439898 progress: 1 23695 camp
+TDD1583885 [23696 : 35539 : 47397] convention? b
+TDD-1583885 progress: -1 35539 convention
+TDD1447955 [23696 : 29617 : 35539] circuit? b
+TDD-1447955 progress: -1 29617 circuit
+TDD1399840 [23696 : 26649 : 29617] cep? a
+TDD-1399853 progress: 1 26649 cep
+TDD1352950 [26650 : 28127 : 29617] chick? a
+TDD-1352939 progress: 1 28127 chick
+TDD1326929 [28128 : 28872 : 29617] choragic? a
+TDD-1326882 progress: 1 28872 choragic
+TDD1415805 [28873 : 29244 : 29617] chuff? a
+TDD-1415850 progress: 1 29244 chuff
+TDD1826317 [29245 : 29431 : 29617] cicatrix? b
+TDD-1826303 progress: -1 29431 cicatrix
+TDD1437477 [29245 : 29313 : 29431] church? b
+TDD-1437495 progress: -1 29313 church
+TDD1407902 [29245 : 29271 : 29313] chum? a
+TDD-1407892 progress: 1 29271 chum
+TDD1623803 [29272 : 29292 : 29313] chunk? it
+TDD-1623809 progress: 0 29292 chunk
+TDD-48 [29272 : 29292 : 29313] <Done>.
+TDD2584081 press <Return> to finish
+TDD-2400160 Press <Enter> to 📋 or `>` for line prompt 
+TDD-181782 share result: "\ud83e\udde9 Puzzle #678\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1821 result puzzle: 678
+TDD-319 result guesses: 13
+TDD-4 result time: 19s
+TDD0 result link: alphaguess.com
+TDD1 <STOP>
