@@ -20,10 +20,20 @@ class MatchPat:
         if match:
             return cls(re.compile(str(match[1])))
 
+        arg = pk.have(':g') and next(pk, None)
+        if arg:
+            return cls(re.compile(arg))
+
+        arg = pk.have(':v') and next(pk, None)
+        if arg:
+            return cls(re.compile(arg), neg=True)
+
     pat: re.Pattern[str]
+    neg: bool = False
 
     def __call__(self, s: str):
         have = bool(self.pat.search(s))
+        if self.neg: have = not have
         return have
 
 def match_show(
