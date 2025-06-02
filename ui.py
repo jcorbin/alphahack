@@ -457,10 +457,10 @@ class PromptUI:
                 return only
             if maybe:
                 return lambda ui: ui.print(f'! ambiguous command {token!r}; may be: {" ".join(repr(s) for s in maybe)}')
-            if ui.tokens:
-                return lambda ui: ui.print(f'! invalid command {token!r}; maybe ask for /help ?')
             if dflt is not None:
                 return dflt
+            if ui.tokens:
+                return lambda ui: ui.print(f'! invalid command {token!r}; maybe ask for /help ?')
 
         def __call__(self, ui: 'PromptUI'):
             st = self.dispatch(ui)
