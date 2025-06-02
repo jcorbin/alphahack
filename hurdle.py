@@ -240,7 +240,7 @@ class Search(StoredLog):
             if tokens.have(r'fail'):
                 self.failed = True
                 self.fail_text = tokens.rest
-                ui.log('fail: {self.fail_text}')
+                ui.log(f'fail: {self.fail_text}')
                 return self.finish
 
             if tokens.have(r'tried'):
