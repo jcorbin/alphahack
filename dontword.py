@@ -573,7 +573,10 @@ class DontWord(StoredLog):
     def report_desc(self) -> str:
         res = self.result
         guesses = len(res.records) if res else 0
-        status = '🥳' if res and not res.found else '😦'
+        status = (
+            '❓' if not res else
+            '🥳' if not res.found else
+            '🤷')
         return  f'{status} {guesses} ⏱️ {self.elapsed}'
 
     @property
