@@ -1052,7 +1052,7 @@ def test_parse_result(spec: str):
             val = cast(object, json.loads(value))
             assert isinstance(val, list)
             assert all(isinstance(x, int) for x in cast(list[object], val))
-            expect_scores = val
+            expect_scores = cast(list[int], val)
         elif key == 'legend':
             val = cast(object, json.loads(value))
             assert isinstance(val, list)
