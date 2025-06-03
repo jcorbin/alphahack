@@ -596,7 +596,7 @@ class Search(StoredLog):
                 ui.interact(self.finish)
             return
 
-        return super().review(ui)
+        return super().review_prompt(ui)
 
     @property
     @override
