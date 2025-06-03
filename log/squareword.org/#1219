@@ -1,0 +1,123 @@
+T0.000241735004237853 now: 2025-06-03T07:46:00EDT
+TD39 site: squareword.org
+TDD6387035 🧩  ? #1219
+TDD-6386922 puzzle_id: #1219
+TDD-136 wordlist: nwl2023.txt
+TDD1776565 > *
+TDD10238848 try? 1
+TDD-12014418 questioning: ["stoae", "#5"]
+TDD614047 stoae ( #5 ) ? 
+TDD-374004 stoae ( #5 ) > 
+TDD1469883 stoae ( #5 ) 1> ~ t
+TDD-1710496 word: 0 _____
+TDD-429 may: 0 t
+TDD1863583 stoae ( #5 ) 2> s_o_e
+TDD-1863520 word: 1 s_o_e
+TDD-65 may: 1 
+TDD2719951 stoae ( #5 ) 3> _t ~ a
+TDD-2719880 word: 2 _t___
+TDD-70 may: 2 a
+TDD2183946 stoae ( #5 ) 4> ~ s
+TDD-2183881 word: 3 _____
+TDD-64 may: 3 s
+TDD2967975 stoae ( #5 ) 5> s_ ~ te
+TDD-2967893 word: 4 s____
+TDD-80 may: 4 e t
+TDD0 question done
+TDD3295958 > *
+TDD1880448 try? 1
+TDD-5176290 questioning: ["spore", "#2"]
+TDD1439624 spore ( #2 ) ? 
+TDD-919788 spore ( #2 ) > 
+TDD688046 spore ( #2 ) 1> 
+TDD2808288 spore ( #2 ) 2> s_ore
+TDD-4016197 word: 1 s_ore
+TDD-90 may: 1 
+TDD2415617 spore ( #2 ) 3> ~ ar
+TDD-2415537 word: 2 _t___
+TDD-78 may: 2 a r
+TDD1271946 spore ( #2 ) 4> ~ sr
+TDD-1271856 word: 3 _____
+TDD-90 may: 3 r s
+TDD1696010 spore ( #2 ) 5> ␚
+TDD-1695968 question done
+TDD1160979 > /no p
+TDD-1160756 nope: p
+TDD438201 > *
+TDD29682312 try? 3
+TDD-30120651 questioning: ["score", "#2"]
+TDD5911782 score ( #2 ) ? 
+TDD-5023551 score ( #2 ) > ␚
+TDD-888310 question done
+TDD855492 > /no c
+TDD-855463 nope: c p
+TDD495788 > *
+TDD10528379 try? 3
+TDD-11024143 questioning: ["snore", "#2"]
+TDD815928 snore ( #2 ) ? 
+TDD-536219 snore ( #2 ) > 
+TDD3040221 snore ( #2 ) 1> 2 snore
+TDD-3319960 word: 1 snore
+TDD-70 may: 1 
+TDD2695956 snore ( #2 ) 3> 4 ~ srn
+TDD-2695857 word: 3 _____
+TDD-96 may: 3 n r s
+TDD2424024 snore ( #2 ) 5> ␚
+TDD-2423978 question done
+TDD735972 > *
+TDD9920099 try? ␚
+TDD-4863850 > * 4 :v ^s
+TDD3679752 try? ␚
+TDD664096 > *3 :v ^s
+TDD4800076 try? 1
+TDD-14936089 questioning: ["atria", "#3"]
+TDD815913 atria ( #3 ) ? 
+TDD2112000 atria ( #3 ) > 3 atria
+TDD-2927944 word: 2 atria
+TDD-74 may: 2 
+TDD3151880 atria ( #3 ) 4> ~ srni
+TDD-3151797 word: 3 _____
+TDD-81 may: 3 i n r s
+TDD2848019 atria ( #3 ) 5> ␚
+TDD-2847976 question done
+TDD655826 > *
+TDD14120451 try? 3
+TDD-14776193 questioning: ["rings", "#4"]
+TDD6096185 rings ( #4 ) ? 4 rin_s
+TDD-6096242 guess: rings
+TDD-55 word: 3 rin_s
+TDD-18 may: 3 
+TDD4023935 rings ( #4 ) 5> ␚
+TDD-4023890 question done
+TDD1095585 > /no g
+TDD-1095563 nope: c g p
+TDD935879 > *
+TDD947725 questioning: ["sleet", "#5"]
+TDD2496873 sleet ( #5 ) ? 
+TDD-4204107 sleet ( #5 ) > 
+TDD2943079 sleet ( #5 ) 1> 5 sleet
+TDD-3119436 word: 4 sleet
+TDD-79 may: 4 
+TDD1 question done
+TDD3320161 > *
+TDD16664368 try? 
+TDD-16368594 try? 2
+TDD-3615834 questioning: ["tubby", "#1"]
+TDD1479447 tubby ( #1 ) ? 1 tubby
+TDD-1479483 guess: tubby
+TDD-49 word: 0 tubby
+TDD-18 may: 0 
+TDD1392199 tubby ( #1 ) 2> ␚
+TDD-1392155 question done
+TDD463643 > *
+TDD424314 questioning: ["rinds", "#4"]
+TDD2224158 rinds ( #4 ) ? 
+TDD-2936336 rinds ( #4 ) > 
+TDD2344231 rinds ( #4 ) 1> 4 rinds
+TDD-2519952 word: 3 rinds
+TDD-98 may: 3 
+TDD944254 rinds ( #4 ) 5> ␚
+TDD-944214 question done
+TDD20839939 Press <Enter> to 📋 or `>` for line prompt 
+TDD-20837898 result: "squareword.org 1219: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1219"
+TDD17200 <STOP>
