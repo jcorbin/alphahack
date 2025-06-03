@@ -272,6 +272,11 @@ class Search(StoredLog):
         self.suggested: int = 0
         self.guessed: int = 0
 
+        self.review_prompt.set('show', self.show_quest)
+        self.review_prompt.set('list', 'show')
+        self.review_prompt.set('ls', 'list')
+        self.review_prompt.set('summary', self.show_summary)
+
     @property
     def result(self):
         if self._result is None and self.result_text:
@@ -752,26 +757,6 @@ class Search(StoredLog):
         # return super().review(ui)
 
         return self.show_quest
-
-    def review_prompt(self, ui: PromptUI) -> PromptUI.State|None:
-        with ui.tokens_or('> ') as tokens:
-            if tokens.empty:
-                return self.show_quest
-
-            token = next(tokens)
-
-            if any(cmd.startswith(token) for cmd in ('list', 'ls', 'show')):
-                return self.show_quest
-
-            if 'summary'.startswith(token):
-                return self.show_summary
-
-            if 'report'.startswith(token):
-                return self.do_report(ui)
-
-            ui.print(f'unknown command {token!r}')
-            # TODO other command dispatch like /report
-            # TODO crib from / generalize semantic.Search.do_cmd
 
     @override
     def info(self):
