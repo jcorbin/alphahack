@@ -706,6 +706,10 @@ class Search(StoredLog):
             self._ix: tuple[tuple[int, int], ...]|None = None
 
         @property
+        def complete(self) -> bool:
+            raise NotImplementedError('FIXME')
+
+        @property
         def ix(self):
             if self._ix is None:
                 self._ix = tuple(
