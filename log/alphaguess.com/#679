@@ -1,0 +1,37 @@
+T0.00028747599571943283 now: 2025-06-03T07:45:08EDT
+TD86428 loaded 196560 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (43 words excluded) asof 0bd692bb5a6b5c585b1463caaeaf2f19961c20df
+TDD7927360 [0 : 98237 : 196560] mach? a
+TDD-8013612 progress: 1 98237 mach
+TDD1751674 [98238 : 147399 : 196560] rhumb? b
+TDD-1751766 progress: -1 147399 rhumb
+TDD1727802 [98238 : 122800 : 147399] parr? a
+TDD-1727824 progress: 1 122800 parr
+TDD1631893 [122801 : 135091 : 147399] proper? b
+TDD-1631898 progress: -1 135091 proper
+TDD1559921 [122801 : 128870 : 135091] play? b
+TDD-1559918 progress: -1 128870 play
+TDD1583900 [122801 : 125704 : 128870] pet? b
+TDD-1583896 progress: -1 125704 pet
+TDD1495860 [122801 : 123713 : 125704] pe? b
+TDD-1495865 progress: -1 123713 pe
+TDD1519924 [122801 : 123148 : 123713] past? a
+TDD-1519912 progress: 1 123148 past
+TDD1519932 [123149 : 123427 : 123713] patriarch? b
+TDD-1519936 progress: -1 123427 patriarch
+TDD1663901 [123149 : 123270 : 123427] patch? b
+TDD-1663899 progress: -1 123270 patch
+TDD1599835 [123149 : 123209 : 123270] pastis? b
+TDD-1599834 progress: -1 123209 pastis
+TDD1735950 [123149 : 123152 : 123209] paste? b
+TDD-1735953 progress: -1 123152 paste
+TDD1655798 [123149 : 123150 : 123152] pastalike? b
+TDD-1655797 progress: -1 123150 pastalike
+TDD-55 [123149 : 123149 : 123150] <Done>.
+TDD4720017 press <Return> to finish
+TDD-4543988 Press <Enter> to 📋 or `>` for line prompt 
+TDD-174135 share result: "\ud83e\udde9 Puzzle #679\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1638 result puzzle: 679
+TDD-257 result guesses: 14
+TDD-4 result time: 22s
+TDD0 result link: alphaguess.com
+TDD1 <STOP>
