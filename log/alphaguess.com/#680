@@ -1,0 +1,44 @@
+T0.00023205501202028245 now: 2025-06-04T07:57:16EDT
+TD76394 loaded 196560 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (43 words excluded) asof dfa9c1388a9075ec1e404a8591be4ef7a0d4e4fc
+TDD4313642 [0 : 98237 : 196560] mach? b
+TDD-4389856 progress: -1 98237 mach
+TDD1485406 [0 : 47397 : 98237] dis? b
+TDD-1485500 progress: -1 47397 dis
+TDD1383901 [0 : 23695 : 47397] camp? a
+TDD-1383914 progress: 1 23695 camp
+TDD1327819 [23696 : 35539 : 47397] convention? a
+TDD-1327826 progress: 1 35539 convention
+TDD1343913 [35540 : 40856 : 47397] da? a
+TDD-1343914 progress: 1 40856 da
+TDD1263874 [40857 : 44088 : 47397] den? a
+TDD-1263867 progress: 1 44088 den
+TDD2415926 [44089 : 45734 : 47397] devi? !
+TDD536049 [44089 : 45680 : 47396] dev? a
+TDD-2951962 progress: 1 45680 dev
+TDD1455861 [45681 : 46503 : 47396] did? a
+TDD-1455870 progress: 1 46503 did
+TDD1415889 [46504 : 46946 : 47396] dimer? b
+TDD-1415905 progress: -1 46946 dimer
+TDD1623946 [46504 : 46719 : 46946] digest? a
+TDD-1623933 progress: 1 46719 digest
+TDD1623840 [46720 : 46833 : 46946] dike? a
+TDD-1623843 progress: 1 46833 dike
+TDD2881223 [46834 : 46891 : 46946] dilettanti? a
+TDD-2881226 progress: 1 46891 dilettanti
+TDD2342740 [46892 : 46914 : 46946] dilute? b
+TDD-2342745 progress: -1 46914 dilute
+TDD1655768 [46892 : 46899 : 46914] dill? b
+TDD-1655775 progress: -1 46899 dill
+TDD1359894 [46892 : 46895 : 46899] diligence? a
+TDD-1359881 progress: 1 46895 diligence
+TDD1639914 [46896 : 46897 : 46899] diligent? it
+TDD-1639919 progress: 0 46897 diligent
+TDD-48 [46896 : 46897 : 46899] <Done>.
+TDD2384038 press <Return> to finish
+TDD-2232086 Press <Enter> to 📋 or `>` for line prompt 
+TDD-149412 share result: "\ud83e\udde9 Puzzle #680\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 28s\n\n\ud83d\udd17 alphaguess.com"
+TDD-2278 result puzzle: 680
+TDD-265 result guesses: 16
+TDD-4 result time: 28s
+TDD0 result link: alphaguess.com
+TDD1 <STOP>
