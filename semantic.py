@@ -716,6 +716,8 @@ class Search(StoredLog):
             '/last': self.chat_last,
             '/system': self.chat_system_cmd,
             '/scrape': self.do_startup_scrape,
+
+            '/store': self.store,
         })
 
     @property
