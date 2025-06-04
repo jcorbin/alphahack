@@ -693,6 +693,31 @@ class Search(StoredLog):
         self.auto_token_limit = 400
         self.full_auto: bool = False
 
+        self.play = PromptUI.Prompt('> ', {
+            '/auto': self.do_auto,
+            '/http': self.do_http,
+
+            '/prog': self.show_prog,
+            '/tiers': self.show_tiers,
+
+            '/site': self.do_site,
+            '/lang': self.do_lang,
+            '/puzzle': self.do_puzzle,
+            '/scale': self.do_scale,
+            '/result': self.show_result,
+            '/report': self.do_report,
+            '/yester': self.do_yester,
+            '/notbad': self.do_notbad,
+
+            '/abbr': self.do_abbr,
+            '/clear': self.chat_clear_cmd,
+            '/extract': self.chat_extract,
+            '/model': self.chat_model_cmd,
+            '/last': self.chat_last,
+            '/system': self.chat_system_cmd,
+            '/scrape': self.do_startup_scrape,
+        })
+
     @property
     def puzzle_num(self):
         if self._puzzle_num is None:
@@ -1714,59 +1739,7 @@ class Search(StoredLog):
             ui.log(f'abbr: {abbr} {self.abbr[abbr]}') # TODO load
 
     def do_cmd(self, ui: PromptUI):
-        with ui.tokens_or('> '):
-            cmd = next(ui.tokens, None)
-            if cmd:
-                return self.dispatch_cmd(ui, cmd)
-
-    def dispatch_cmd(self, ui: PromptUI, token: str):
-        cmds: dict[str, PromptUI.State] = {
-            # TODO proper help command ; reuse for '?' token
-            # TODO add '/' prefix here ; generalize dispatch
-
-            'auto': self.do_auto,
-            'http': self.do_http,
-
-            'prog': self.show_prog,
-            'tiers': self.show_tiers,
-
-            'site': self.do_site,
-            'lang': self.do_lang,
-            'puzzle': self.do_puzzle,
-            'scale': self.do_scale,
-            'result': self.show_result,
-            'report': self.do_report,
-            'yester': self.do_yester,
-            'notbad': self.do_notbad,
-
-            'abbr': self.do_abbr,
-            'clear': self.chat_clear_cmd,
-            'extract': self.chat_extract,
-            'model': self.chat_model_cmd,
-            'last': self.chat_last,
-            'system': self.chat_system_cmd,
-            'scrape': self.do_startup_scrape,
-        }
-
-        if token == '?' or token == '/?':
-            for cmd in sorted(cmds):
-                ui.print(f'    /{cmd}')
-            return
-
-        if not token.startswith('/'): return
-
-        tok = token[1:].lower()
-        comp = [cmd for cmd in cmds if cmd.startswith(tok)]
-        if not comp:
-            ui.print(f'! unknown command {token}')
-            return
-
-        if len(comp) > 1:
-            comp = sorted(f'/{cmd}' for cmd in comp)
-            ui.print(f'! ambiguous command {token}; clarify: {' '.join(comp)}')
-            return
-
-        return cmds[comp[0]](ui)
+        return self.play(ui)
 
     def do_site(self, ui: PromptUI):
         with ui.input(f'🔗 {self.site} ? ') as tokens:
@@ -2286,7 +2259,7 @@ class Search(StoredLog):
                 return self.chat_prompt(ui, '.') # TODO can this be an abbr?
 
             if tokens.peek('').startswith('/'):
-                return self.do_cmd(ui)
+                return self.play.handle(ui)
 
             match = tokens.have(word_ref_pattern)
             if match:
@@ -3258,9 +3231,8 @@ class Search(StoredLog):
             if tokens.have(r'_$'):
                 return self.chat_prompt(ui, '_')
 
-            cmd = tokens.have(r'/.+$', lambda m: m[0])
-            if cmd:
-                return self.dispatch_cmd(ui, cmd)
+            if re.match(r'/.+', tokens.peek('')):
+                return self.play.handle(ui)
 
             if tokens.have(r'\.\.\.$'):
                 return self.chat_extract_all
