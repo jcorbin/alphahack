@@ -6,6 +6,7 @@ import re
 from collections import OrderedDict
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
+from itertools import chain
 from typing import Callable, cast, final, overload, override
 
 from sortem import Chooser, DiagScores, Possible, RandScores, wrap_item
@@ -407,12 +408,14 @@ class Search(StoredLog):
         def __init__(self,
                      word: Iterable[str],
                      may: Iterable[str] = (),
+                     void: Iterable[str] = (),
                      nope: Iterable[str] = (),
                      row: int|None = None,
                      col: int|None = None,
                      ):
             self.word = tuple(word)
             self.may = tuple(sorted(may))
+            self.void = tuple(sorted(void))
             self.nope = tuple(sorted(nope))
             self.row = row
             self.col = col
@@ -420,6 +423,8 @@ class Search(StoredLog):
             self.alpha = set(self.alphabet)
             if self.nope:
                 self.alpha.difference_update(self.nope)
+            if self.void:
+                self.alpha.difference_update(self.void)
 
             self.uni = (
                 '.' if len(self.alpha) == len(self.alphabet) else
@@ -446,6 +451,9 @@ class Search(StoredLog):
                 if self.may:
                     may = ''.join(self.may).upper()
                     yield f'may:{may}'
+                if self.void:
+                    void = ''.join(self.void).upper()
+                    yield f'void:{void}'
                 if self.nope:
                     nope = ''.join(self.nope).upper()
                     yield f'nope:{nope}'
@@ -483,27 +491,36 @@ class Search(StoredLog):
             return re.compile(self.pattern_str)
 
     @overload
-    def select(self, *, row: int) -> Select: pass
+    def select(self, *, row: int, avoid: bool = True) -> Select: pass
 
     @overload
-    def select(self, *, col: int) -> Select: pass
+    def select(self, *, col: int, avoid: bool = True) -> Select: pass
 
-    def select(self, *, row: int|None = None, col: int|None = None) -> Select:
+    def select(self, *, row: int|None = None, col: int|None = None, avoid: bool = True) -> Select:
+        prior = set(
+            l
+            for prior in self.guesses
+            for l in prior)
+
         if row is not None:
             word = tuple(self.grid[k] for k in self.row_word_range(row))
             may = self.row_may[row]
+            maybe_not = prior.difference(chain(may, word))
             # TODO reduce possible based on intersecting cols
             return self.Select(
                 word,
                 may = may,
+                void = maybe_not if avoid else (),
                 nope = self.nope,
                 row = row)
 
         elif col is not None:
             word = tuple(self.grid[k] for k in self.col_word_range(col))
+            maybe_not = prior.difference(word)
             # TODO reduce possible based on intersecting rows
             return self.Select(
                 word,
+                void = maybe_not if avoid else (),
                 nope = self.nope,
                 col = col)
 
@@ -690,6 +707,7 @@ class Search(StoredLog):
 
     def do_choose(self, ui: PromptUI) -> PromptUI.State|None:
         if self.choosing is None:
+            avoid = True
             verbose = 0
             chooser = Chooser()
             word_i: int|None = None
@@ -706,6 +724,10 @@ class Search(StoredLog):
                     verbose += len(match.group(1))
                     continue
 
+                if ui.tokens.have(r'-sans'):
+                    avoid = False
+                    continue
+
                 if chooser.collect(ui.tokens):
                     continue
 
@@ -719,7 +741,7 @@ class Search(StoredLog):
             if word_i is None:
                 smallest = 0
                 for word_j in range(self.size):
-                    p = self.select(row=word_j)
+                    p = self.select(row=word_j, avoid=avoid)
                     if all(p.word): continue
                     have = sum(1 for _ in self.find(p.pattern, row=word_j))
                     if not have: continue
@@ -728,14 +750,14 @@ class Search(StoredLog):
                 if word_i is None or sel is None:
                     ui.print('! unable to select')
                     for word_j in range(self.size):
-                        p = self.select(row=word_j)
+                        p = self.select(row=word_j, avoid=avoid)
                         lines = self.explain_select(p)
                         for line in wrap_item(f'#{word_j+1}: {next(lines)}', lines, indent='   '):
                             ui.print(line)
                     return
 
             else:
-                sel = self.select(row=word_i)
+                sel = self.select(row=word_i, avoid=avoid)
 
             words = tuple(self.find(sel.pattern, row=word_i))
             scores, explain_score = self.score_words(word_i, words)
