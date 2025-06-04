@@ -490,17 +490,20 @@ class Search(StoredLog):
 
     def select(self, *, row: int|None = None, col: int|None = None) -> Select:
         if row is not None:
+            word = tuple(self.grid[k] for k in self.row_word_range(row))
+            may = self.row_may[row]
             # TODO reduce possible based on intersecting cols
             return self.Select(
-                (self.grid[k] for k in self.row_word_range(row)),
-                may = self.row_may[row],
+                word,
+                may = may,
                 nope = self.nope,
                 row = row)
 
         elif col is not None:
+            word = tuple(self.grid[k] for k in self.col_word_range(col))
             # TODO reduce possible based on intersecting rows
             return self.Select(
-                (self.grid[k] for k in self.col_word_range(col)),
+                word,
                 nope = self.nope,
                 col = col)
 
