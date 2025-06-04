@@ -418,10 +418,12 @@ class Search(StoredLog):
             self.col = col
 
             self.alpha = set(self.alphabet)
-            self.uni = '.'
             if self.nope:
                 self.alpha.difference_update(self.nope)
-                self.uni = f'[{"".join(char_ranges(self.alpha))}]'
+
+            self.uni = (
+                '.' if len(self.alpha) == len(self.alphabet) else
+                f'[{"".join(char_ranges(self.alpha))}]')
 
             self.free = sum((1 for let in self.word if not let), 0)
             if self.may:
