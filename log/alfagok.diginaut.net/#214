@@ -1,0 +1,32 @@
+T0.00027881600544787943 now: 2025-06-04T07:55:15EDT
+TD37 site: alfagok.diginaut.net
+TDD163948 loaded 399874 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (978 words excluded) asof dfa9c1388a9075ec1e404a8591be4ef7a0d4e4fc
+TDD6312215 [0 : 199925 : 399874] lijm? b
+TDD-6476009 progress: -1 199925 lijm
+TDD2935577 [0 : 99785 : 199925] ex? b
+TDD-2935673 progress: -1 99785 ex
+TDD2079987 [0 : 49872 : 99785] boks? a
+TDD-2080004 progress: 1 49872 boks
+TDD1807875 [49873 : 74787 : 99785] dc? a
+TDD-1807879 progress: 1 74787 dc
+TDD1655764 [74788 : 87249 : 99785] draag? a
+TDD-1655764 progress: 1 87249 draag
+TDD1704006 [87250 : 93477 : 99785] eet? b
+TDD-1704002 progress: -1 93477 eet
+TDD1904132 [87250 : 90101 : 93477] dubbel? b
+TDD-1904119 progress: -1 90101 dubbel
+TDD2407498 [87250 : 88658 : 90101] drink? a
+TDD-2407510 progress: 1 88658 drink
+TDD2168206 [88659 : 89356 : 90101] drug? b
+TDD-2168194 progress: -1 89356 drug
+TDD2111463 [88659 : 88949 : 89356] droog? it
+TDD-2111477 progress: 0 88949 droog
+TDD-65 [88659 : 88949 : 89356] <Done>.
+TDD3479958 press <Return> to finish
+TDD-2966601 Press <Enter> to 📋 or `>` for line prompt 
+TDD-511377 share result: "\ud83e\udde9 Puzzel #214\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 20s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-1687 result puzzle: 214
+TDD-294 result guesses: 10
+TDD-4 result time: 20s
+TDD0 result link: alfagok.diginaut.net
+TDD1 <STOP>
