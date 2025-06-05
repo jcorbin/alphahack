@@ -1,0 +1,143 @@
+T0.00022165400150697678 now: 2025-06-05T07:20:42EDT
+TD59 site: https://play.dictionary.com/games/todays-hurdle
+TDD-27 wordlist: nwl2023.txt
+TDD1288410 1.1> *
+TDD15383010 1.1> tried aisle
+TDD-16671308 tried: aisle
+TDD2743776 1.2> no aie
+TDD-2743798 nope: aei
+TDD1376925 1.2> may sl
+TDD-1376936 may: ls
+TDD1654632 1.2> *
+TDD5433365 1.2> tried plush
+TDD-7088050 tried: plush
+TDD3807969 1.3> no h
+TDD-3807948 nope: aehi
+TDD1688456 1.3> word _lu
+TDD-1688339 word: _lu__
+TDD1711060 1.3> may ps
+TDD-1711186 may: lps
+TDD623804 1.3> *
+TDD3432432 1.3> may . ps
+TDD-4056240 may: ps
+TDD583699 1.3> *
+TDD6232467 1.3> tried slurp
+TDD-6816169 tried: slurp
+TDD3559891 1.4> word slu_p
+TDD-3559886 word: slu_p
+TDD1967923 1.4> no r
+TDD-1967921 nope: aehir
+TDD1759846 1.4> may .
+TDD-1759851 may: 
+TDD513868 1.4> *
+TDD4188181 1.4> word slump
+TDD-4702042 word: slump
+TDD14120143 2.1> tried slump
+TDD-14120150 tried: slump
+TDD3527972 2.2> no sump
+TDD-3527957 nope: mpsu
+TDD1439822 2.2> may l
+TDD-1439840 may: l
+TDD791882 2.2> *
+TDD5512221 2.2> tried oiler
+TDD-6304103 tried: oiler
+TDD3439964 2.3> no oier
+TDD-3439945 nope: eimoprsu
+TDD583764 2.3> *
+TDD44761095 2.3> tried lanky
+TDD-45344867 tried: lanky
+TDD1703995 2.4> no ky
+TDD-1703963 nope: eikmoprsuy
+TDD4023755 2.4> word _a
+TDD-4023786 word: _a___
+TDD1831876 2.4> may ln
+TDD-1831879 may: ln
+TDD551872 2.4> *
+TDD6584147 2.4> tried naval
+TDD-7136031 tried: naval
+TDD1887923 2.5> word na_al
+TDD-1887904 word: na_al
+TDD1063826 2.5> no v
+TDD-1063823 nope: eikmoprsuvy
+TDD2327996 2.5> may .
+TDD-2328003 may: 
+TDD3607930 2.5> word natal
+TDD-3607931 word: natal
+TDD9992523 3.1> tried natal
+TDD-9992500 tried: natal
+TDD2087330 3.2> no natal
+TDD-2087335 nope: alnt
+TDD631871 3.2> *
+TDD3023946 3.2> tried grids
+TDD-3655846 tried: grids
+TDD1311898 3.3> word _ri
+TDD-1311894 word: _ri__
+TDD3088063 3.3> no gds
+TDD-3088049 nope: adglnst
+TDD631693 3.3> *
+TDD5185109 3.3> tried crime
+TDD-5816818 tried: crime
+TDD2775258 3.4> word cri
+TDD-2775249 word: cri__
+TDD1455815 3.4> may e
+TDD-1455819 may: e
+TDD679774 3.4> no m
+TDD-679769 nope: adglmnst
+TDD431929 3.4> *
+TDD4928348 3.4> word crier
+TDD-5360279 word: crier
+TDD9695803 4.1> no cier
+TDD-9695791 nope: ceir
+TDD1807850 4.1> word _r
+TDD-1807863 word: _r___
+TDD1311851 4.1> *
+TDD7760368 4.1> tried traps
+TDD-9072230 tried: traps
+TDD1656718 4.2> word _ra
+TDD-1656693 word: _ra__
+TDD1000346 4.2> may t
+TDD-1000364 may: t
+TDD1150425 4.2> no ps
+TDD-1150417 nope: ceiprs
+TDD479902 4.2> *
+TDD10432151 4.2> word _ra
+TDD-10912055 word: _ra__
+TDD7776020 4.2> no eipsc
+TDD-7136083 4.2> *
+TDD2928040 4.2> word _ra
+TDD-3567979 word: _ra__
+TDD1175860 4.2> *
+TDD3848151 4.2> tried draft
+TDD-5024023 tried: draft
+TDD1991964 4.3> word _raft
+TDD-1991952 word: _raft
+TDD823962 4.3> no d
+TDD-823955 nope: cdeiprs
+TDD3775821 4.3> may .
+TDD-3775822 may: 
+TDD2432023 4.3> word _raft
+TDD-2432017 word: _raft
+TDD5895771 4.3> no . eipsdc
+TDD-5895753 nope: cdeips
+TDD871764 4.3> *
+TDD3776204 4.3> word graft
+TDD-4647985 word: graft
+TDD9048106 5.1> tried slump
+TDD-9048119 tried: slump
+TDD1935798 5.2> tried natal
+TDD-1935812 tried: natal
+TDD1839975 5.3> tried crier
+TDD-1839973 tried: crier
+TDD2255824 5.4> tried graft
+TDD-2255828 tried: graft
+TDD3791969 5.5> word s___p
+TDD-3791952 word: s___p
+TDD4967965 5.5> no ert ui a fg l c nm
+TDD-4967939 nope: acefgilmnrtu
+TDD1175882 5.5> *
+TDD5216161 5.5> word swoop
+TDD-6392069 word: swoop
+TDD4223934 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4221780 result: "Hurdle 1251\n\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,800"
+TDD-1925 puzzle_id: #1251
+TDD-293 <STOP>
