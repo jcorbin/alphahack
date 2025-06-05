@@ -1,0 +1,38 @@
+T0.0002278949978062883 now: 2025-06-05T07:15:02EDT
+TD41 site: alfagok.diginaut.net
+TDD166923 loaded 399874 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (978 words excluded) asof a73166a8832b73ef4931fa5df22f440af7be799b
+TDD9119594 [0 : 199925 : 399874] lijm? b
+TDD-9286378 progress: -1 199925 lijm
+TDD3439616 [0 : 99785 : 199925] ex? b
+TDD-3439728 progress: -1 99785 ex
+TDD5167941 [0 : 49872 : 99785] boks? a
+TDD-5167948 progress: 1 49872 boks
+TDD1896129 [49873 : 74787 : 99785] dc? b
+TDD-1896130 progress: -1 74787 dc
+TDD2647833 [49873 : 62313 : 74787] cement? b
+TDD-2647833 progress: -1 62313 cement
+TDD2440099 [49873 : 55964 : 62313] bron? a
+TDD-2440069 progress: 1 55964 bron
+TDD2887650 [55965 : 59132 : 62313] busse? !
+TDD7696625 [55965 : 59130 : 62312] buss? !
+TDD-6560305 [55965 : 58986 : 62311] bus? a
+TDD-4023990 progress: 1 58986 bus
+TDD2207857 [58987 : 60640 : 62311] cao? b
+TDD-2207867 progress: -1 60640 cao
+TDD1943942 [58987 : 59778 : 60640] cadeau? a
+TDD-1943938 progress: 1 59778 cadeau
+TDD1991935 [59779 : 60164 : 60640] camera? b
+TDD-1991927 progress: -1 60164 camera
+TDD4119921 [59779 : 59960 : 60164] calamiteiten? b
+TDD-4119928 progress: -1 59960 calamiteiten
+TDD2383964 [59779 : 59864 : 59960] café? it
+TDD-2383963 progress: 0 59864 café
+TDD-47 [59779 : 59864 : 59960] <Done>.
+TDD4063896 press <Return> to finish
+TDD-3823878 Press <Enter> to 📋 or `>` for line prompt 
+TDD-237741 share result: "\ud83e\udde9 Puzzel #215\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 46s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-2028 result puzzle: 215
+TDD-257 result guesses: 12
+TDD-4 result time: 46s
+TDD0 result link: alfagok.diginaut.net
+TDD2 <STOP>
