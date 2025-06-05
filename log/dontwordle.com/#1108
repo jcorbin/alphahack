@@ -1,0 +1,50 @@
+T0.00022961400100030005 now: 2025-06-05T07:25:59EDT
+TD40 site: dontwordle.com
+TDD-7 wordlist: nwl2023.txt
+TDD3499072 1> *
+TDD8612280 1> tried jujus nnnnM
+TDD-12111140 tried: jujus 00001
+TDD1783415 2> *
+TDD27497173 2> tried desex nnMnn
+TDD-29280720 tried: desex 00100
+TDD2711719 3> *
+TDD8752340 3> tried sniff YnMnn
+TDD-11464072 tried: sniff 20100
+TDD5983807 4> undo
+TDD-5983822 undo
+TDD943830 3> undo
+TDD-943839 undo
+TDD816032 2> undo
+TDD-816051 undo
+TDD5391895 1> *
+TDD5320545 1> tried heeze nnnnn
+TDD-10712403 tried: heeze 00000
+TDD1399489 2> *
+TDD6896488 2> tried papal nMnnn
+TDD-8295965 tried: papal 01000
+TDD7031801 3> undo
+TDD-7031813 undo
+TDD3743732 2> *
+TDD2208177 2> tried gloop nnnnn
+TDD-5951894 tried: gloop 00000
+TDD943834 3> *
+TDD4968229 3> tried cuddy nnnnn
+TDD-5912071 tried: cuddy 00000
+TDD1135641 4> *
+TDD2176320 4> *
+TDD4352134 4> * -sans
+TDD19464107 4> * -sans :v a :v s
+TDD-15848726 4> tried brink nnMnn
+TDD-11279482 tried: brink 00100
+TDD3912124 5> * -sans
+TDD4055752 5> * -sans :v a :v s
+TDD5752856 5> tried fixit nMnnn
+TDD-13720741 tried: fixit 01000
+TDD1895044 6> *
+TDD2160657 6> * -sans
+TDD21432986 6> tried imams MnYYM
+TDD-25488674 tried: imams 10221
+TDD4007514 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4005096 result: "Don't Wordle 1108 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5957\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1856\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c625\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c50\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c3\n\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe81\nUndos used: 4\n\n  1 words remaining\nx 4 unused letters\n= 4 total score"
+TDD-1771 puzzle_id: #1108
+TDD-735 <STOP>
