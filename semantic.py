@@ -720,6 +720,13 @@ class Search(StoredLog):
             '/store': self.store,
         })
 
+        self.review_prompt.update({
+            'prog': self.show_prog,
+            'tiers': self.show_tiers,
+            'last': self.chat_last,
+            'result': self.show_result,
+        })
+
     @property
     def puzzle_num(self):
         if self._puzzle_num is None:
@@ -1046,17 +1053,6 @@ class Search(StoredLog):
             ui.print(f'WARNING: incomplete temp scale ; use /scale to inspect and fix')
 
         return self.orient
-
-    @override
-    def review(self, ui: PromptUI):
-        # TODO converge store result fixup
-        if self.result is None and not self.stored: return self.orient
-
-        # TODO converge with
-        # return super().review(ui)
-
-        self.show_result(ui)
-        return self.do_cmd
 
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
@@ -1739,9 +1735,6 @@ class Search(StoredLog):
             self.abbr[abbr] = tokens.rest
             ui.print(f'  defined {abbr} = {self.abbr[abbr]!r}')
             ui.log(f'abbr: {abbr} {self.abbr[abbr]}') # TODO load
-
-    def do_cmd(self, ui: PromptUI):
-        return self.play(ui)
 
     def do_site(self, ui: PromptUI):
         with ui.input(f'🔗 {self.site} ? ') as tokens:
