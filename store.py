@@ -449,8 +449,23 @@ class StoredLog:
         prior_then: datetime.datetime|None = None
         cur_t: float|None = None
 
-        for line in lines:
-            t, _z, rest = parse(line)
+        failing: int = 0
+        for no, line in enumerate(lines, 1):
+            try:
+                t, _z, rest = parse(line)
+
+            except zlib.error as err:
+                failing += 1
+                if failing <= 1:
+                    ui.print(f'! failed to decompress line #{no} {line!r}: {err}')
+                continue
+
+            else:
+                if failing > 1:
+                    ui.print(f'! ... and {failing-1} more lines')
+                if failing:
+                    failing = 0
+
             if t is None:
                 yield 0, line
                 continue
