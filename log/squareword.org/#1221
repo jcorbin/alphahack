@@ -1,0 +1,102 @@
+T0.00024313500034622848 now: 2025-06-05T07:16:58EDT
+TD38 site: squareword.org
+TDD2192505 🧩  ? #1221
+TDD-2192362 puzzle_id: #1221
+TDD-164 wordlist: nwl2023.txt
+TDD5865123 > *
+TDD-410227 try? 4
+TDD-5453841 questioning: ["sonar", "#5"]
+TDD1237943 sonar ( #5 ) ? 
+TDD-1047062 sonar ( #5 ) > 
+TDD1784046 sonar ( #5 ) 1> ~ r
+TDD-1975567 word: 0 _____
+TDD-420 may: 0 r
+TDD2008148 sonar ( #5 ) 2> _on_r
+TDD-2008074 word: 1 _on_r
+TDD-67 may: 1 
+TDD2015338 sonar ( #5 ) 3> ~ a
+TDD-2015265 word: 2 _____
+TDD-81 may: 2 a
+TDD3120000 sonar ( #5 ) 4> s_n ~ s
+TDD-3119925 word: 3 s_n__
+TDD-75 may: 3 s
+TDD2095930 sonar ( #5 ) 5> ~ sn
+TDD-2095850 word: 4 _____
+TDD-79 may: 4 n s
+TDD0 question done
+TDD879923 > *
+TDD15953032 try? 1
+TDD-16832841 questioning: ["honer", "#2"]
+TDD2135147 honer ( #2 ) ? 
+TDD-1847209 honer ( #2 ) > 
+TDD2968047 honer ( #2 ) 1> 
+TDD-1728160 honer ( #2 ) 2> _oner
+TDD-1527854 word: 1 _oner
+TDD-86 may: 1 
+TDD2351848 honer ( #2 ) 3> ~ ae
+TDD-2351781 word: 2 _____
+TDD-67 may: 2 a e
+TDD5080458 honer ( #2 ) 4> 
+TDD-1720724 honer ( #2 ) 5> ___e ~ sne
+TDD-3359658 word: 4 ___e_
+TDD-75 may: 4 e n s
+TDD0 question done
+TDD1711855 > /no h
+TDD-1711583 nope: h
+TDD743595 > *
+TDD18944460 try? 2
+TDD-19688243 questioning: ["knees", "#5"]
+TDD12384155 knees ( #5 ) ? 
+TDD-12120383 knees ( #5 ) > 
+TDD4704224 knees ( #5 ) 1> 4 s_n_s
+TDD-4967979 word: 3 s_n_s
+TDD-98 may: 3 
+TDD3432469 knees ( #5 ) 5> knees
+TDD-3432381 word: 4 knees
+TDD-88 may: 4 
+TDD1 question done
+TDD823450 > *
+TDD-444810 questioning: ["loner", "#2"]
+TDD3834811 loner ( #2 ) ? 
+TDD-4053526 loner ( #2 ) > 
+TDD1384073 loner ( #2 ) 1> ~ rl
+TDD-1543919 word: 0 _____
+TDD-79 may: 0 l r
+TDD1223887 loner ( #2 ) 2> loner
+TDD-1223816 word: 1 loner
+TDD-71 may: 1 
+TDD1847962 loner ( #2 ) 3> ␚
+TDD-1847917 question done
+TDD559972 > *
+TDD-136900 questioning: ["flirt", "#1"]
+TDD2497771 flirt ( #1 ) ? 
+TDD-1704914 flirt ( #1 ) > flirt
+TDD2664075 flirt ( #1 ) > 1 flirt
+TDD-3879963 word: 0 flirt
+TDD-87 may: 0 
+TDD3023972 flirt ( #1 ) 2> 4 ~ i
+TDD-3023901 word: 3 s_n_s
+TDD-68 may: 3 i
+TDD1591894 flirt ( #1 ) 5> ␚
+TDD-1591857 question done
+TDD567950 > *
+TDD6120171 try? 1
+TDD-6688067 questioning: ["sinus", "#4"]
+TDD535868 sinus ( #4 ) ? 
+TDD2167997 sinus ( #4 ) > 4 sinus
+TDD-2703880 word: 3 sinus
+TDD-78 may: 3 
+TDD1296975 sinus ( #4 ) 5> ␚
+TDD-1296928 question done
+TDD502836 > *
+TDD371170 questioning: ["agave", "#3"]
+TDD2260049 agave ( #3 ) ? 
+TDD-2974148 agave ( #3 ) > 
+TDD2807988 agave ( #3 ) 1> 3 agave
+TDD-2967879 word: 2 agave
+TDD-65 may: 2 
+TDD15560518 agave ( #3 ) 4> ␚
+TDD-15560456 question done
+TDD3329284 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3327183 result: "squareword.org 1221: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1221"
+TDD17170 <STOP>
