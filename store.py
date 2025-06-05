@@ -63,13 +63,20 @@ class LogSession:
 
 @final
 class LogParser:
-    def __init__(self, rez: Callable[[bytes], None]|None = None):
+    def __init__(self,
+                 rez: Callable[[bytes], None]|None = None,
+                 warn: Callable[[str], None]|None = None,
+                 ):
         self.t1 = math.nan
         self.t2 = math.nan
         self.unz = zlib.decompressobj()
         self.rez = rez
+        self.warn = warn
+        self.zlib_fails: int = 0
 
     def __call__(self, line: str) -> tuple[float|None, bool, str]:
+        orig = line
+
         m = re.match(r'''(?x)
             (?P<tkind> T | TD | TDD ) (?P<time> [-+]? \d+ [^\s]* )
             \s+
@@ -99,10 +106,25 @@ class LogParser:
         line = str(m[4])
         if z:
             zb = b85decode(line)
-            b = self.unz.decompress(zb)
+            try:
+                b = self.unz.decompress(zb)
+            except zlib.error as err:
+                if not self.warn:
+                    raise
+                self.zlib_fails += 1
+                if self.zlib_fails <= 1:
+                    self.warn(f'failed to decompress line {orig!r}: {err}')
+                return t, False, f'Z {line}'
             if self.rez is not None:
                 self.rez(b)
             line = b.decode()
+
+        fails = self.zlib_fails
+        if fails:
+            if fails > 1 and self.warn:
+                self.warn(f'... and {fails-1} more lines')
+            self.zlib_fails = 0
+
         return t, z, line
 
 class StoredLog:
@@ -224,15 +246,14 @@ class StoredLog:
             yield from enumerate(f, 1)
 
     def parse_log(self, warn: Callable[[str], None]|None=None):
-        parse = LogParser()
+        if warn:
+            sink = warn
+            def log_warn(mess: str):
+                sink(f'#{n}: {mess}')
+            warn = log_warn
+        parse = LogParser(warn=warn)
         for n, line in self.skim_log():
-            try:
-                yield n, *parse(line)
-            except zlib.error as err:
-                if warn:
-                    warn(f'line:{n} {err}')
-                else:
-                    raise err
+            yield n, *parse(line)
 
     def review_do_comp(self, ui: PromptUI):
         pat = re.compile(ui.tokens.rest) if ui.tokens else None
@@ -265,7 +286,7 @@ class StoredLog:
 
     def review_do_cont(self, ui: PromptUI):
         rep = self.Replay(self)
-        line_no, time, mess = rep.seek(0, warn=lambda mess: ui.print(f'! seek skip {mess}'))
+        line_no, time, mess = rep.seek(0, warn=lambda mess: ui.print(f'! seek {mess}'))
         rep.cursor = line_no
         ui.print(f'*** {line_no}. T{time:.1f} {mess}')
         return rep.restart(ui, mess=f'^^^ continuing from last line')
@@ -440,19 +461,22 @@ class StoredLog:
 
                 return self.stl.load_log(ui, new_log_file)
 
-    def load(self, ui: PromptUI, lines: Iterable[str]):
+    def load(self, ui: PromptUI, lines: Iterable[str]) -> Generator[tuple[float, str]]:
         rez = zlib.compressobj()
         def flushit(b: bytes):
             _ = rez.compress(b)
             _ = rez.flush(zlib.Z_SYNC_FLUSH)
-        parse = LogParser(rez=flushit)
+        parse = LogParser(
+            rez=flushit,
+            warn=lambda mess: ui.print(f'! parse #{no}: {mess}'))
 
         prior_t: float|None = None
         prior_then: datetime.datetime|None = None
         cur_t: float|None = None
 
-        for line in lines:
+        for no, line in enumerate(lines, 1):
             t, _z, rest = parse(line)
+
             if t is None:
                 yield 0, line
                 continue
