@@ -1,0 +1,39 @@
+T0.0002667660010047257 now: 2025-06-06T07:36:28EDT
+TD65353 loaded 196559 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (44 words excluded) asof 213ba70bf98a2af443f1c51b66bacef7dfe3ae8e
+TDD7680831 [0 : 98236 : 196559] mach? b
+TDD-7745994 progress: -1 98236 mach
+TDD1871549 [0 : 47396 : 98236] dis? a
+TDD-1871660 progress: 1 47396 dis
+TDD1623879 [47397 : 72816 : 98236] gremolata? a
+TDD-1623885 progress: 1 72816 gremolata
+TDD1639885 [72817 : 85521 : 98236] ins? a
+TDD-1639893 progress: 1 85521 ins
+TDD1575871 [85522 : 91866 : 98236] knot? b
+TDD-1575857 progress: -1 91866 knot
+TDD2487880 [85522 : 88681 : 91866] jacks? a
+TDD-2487895 progress: 1 88681 jacks
+TDD2103980 [88682 : 90271 : 91866] kaf? b
+TDD-2103959 progress: -1 90271 kaf
+TDD1607828 [88682 : 89472 : 90271] jive? a
+TDD-1607836 progress: 1 89472 jive
+TDD1615915 [89473 : 89867 : 90271] judge? a
+TDD-1615913 progress: 1 89867 judge
+TDD1663812 [89868 : 90066 : 90271] junk? b
+TDD-1663807 progress: -1 90066 junk
+TDD1679874 [89868 : 89965 : 90066] juju? b
+TDD-1679889 progress: -1 89965 juju
+TDD1472149 [89868 : 89913 : 89965] jug? a
+TDD-1472013 progress: 1 89913 jug
+TDD1575440 [89914 : 89936 : 89965] jugula? a
+TDD-1575571 progress: 1 89936 jugula
+TDD2095769 [89937 : 89946 : 89965] juice? it
+TDD-2095767 progress: 0 89946 juice
+TDD-63 [89937 : 89946 : 89965] <Done>.
+TDD2664344 press <Return> to finish
+TDD-2462490 Press <Enter> to 📋 or `>` for line prompt 
+TDD-199941 share result: "\ud83e\udde9 Puzzle #682\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1639 result puzzle: 682
+TDD-277 result guesses: 14
+TDD-4 result time: 23s
+TDD0 result link: alphaguess.com
+TDD2 <STOP>
