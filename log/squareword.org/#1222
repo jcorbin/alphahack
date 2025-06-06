@@ -1,0 +1,129 @@
+T0.00022065400116844103 now: 2025-06-06T07:37:09EDT
+TD39 site: squareword.org
+TDD7547888 🧩  ? #1222
+TDD-7547777 puzzle_id: #1222
+TDD-133 wordlist: nwl2023.txt
+TDD1239919 > *
+TDD7120325 try? 9
+TDD-8359116 questioning: ["onset", "#5"]
+TDD469624 onset ( #5 ) ? 
+TDD-325487 onset ( #5 ) > 
+TDD2189451 onset ( #5 ) 1> ~ s
+TDD-2334324 word: 0 _____
+TDD-398 may: 0 s
+TDD1239569 onset ( #5 ) 2> ~ et
+TDD-1239492 word: 1 _____
+TDD-77 may: 1 e t
+TDD1215959 onset ( #5 ) 3> ~ ot
+TDD-1215889 word: 2 _____
+TDD-70 may: 2 o t
+TDD1959924 onset ( #5 ) 4> ____t
+TDD-1959851 word: 3 ____t
+TDD-73 may: 3 
+TDD2327990 onset ( #5 ) 5> ~ ost
+TDD-2327912 word: 4 _____
+TDD-78 may: 4 o s t
+TDD0 question done
+TDD927897 > /no n
+TDD-927655 nope: n
+TDD543577 > *
+TDD10224230 try? 5
+TDD-10767916 questioning: ["trios", "#5"]
+TDD744095 trios ( #5 ) ? 
+TDD-576541 trios ( #5 ) > 
+TDD2184506 trios ( #5 ) 1> 
+TDD7723 trios ( #5 ) 2> t_ ~ ei
+TDD-2359826 word: 1 t____
+TDD-90 may: 1 e i
+TDD5296016 trios ( #5 ) 3> _r__t ~ i
+TDD-5295925 word: 2 _r__t
+TDD-91 may: 2 i
+TDD6944343 trios ( #5 ) 4> 3 _____ ~ ot
+TDD-6944266 word: 2 _____
+TDD-79 may: 2 o t
+TDD3711640 trios ( #5 ) 4> _r__t ~ i
+TDD-3711549 word: 3 _r__t
+TDD-88 may: 3 i
+TDD5159981 trios ( #5 ) 5> ____s ~ otr
+TDD-5159872 word: 4 ____s
+TDD-107 may: 4 o r t
+TDD0 question done
+TDD7071992 > *
+TDD-631844 try? 1
+TDD-6440046 questioning: ["drift", "#4"]
+TDD895861 drift ( #4 ) ? 
+TDD-712180 drift ( #4 ) > 
+TDD6752411 drift ( #4 ) 1> 4 ~ if
+TDD-6936107 word: 3 _r__t
+TDD-86 may: 3 f i
+TDD2759958 drift ( #4 ) 5> ~ otrf
+TDD-2759859 word: 4 ____s
+TDD-98 may: 4 f o r t
+TDD-2 question done
+TDD2303955 > *
+TDD-2131473 questioning: ["forts", "#5"]
+TDD5343166 forts ( #5 ) ? 
+TDD-5187672 forts ( #5 ) > 
+TDD3360199 forts ( #5 ) 1> 4 fr__t
+TDD-3688076 word: 3 fr__t
+TDD-97 may: 3 i
+TDD4367759 forts ( #5 ) 5> forts
+TDD-4367688 word: 4 forts
+TDD-71 may: 4 
+TDD0 question done
+TDD1968021 > /no d
+TDD-1967952 nope: d n
+TDD903997 > *
+TDD5055805 try? 1
+TDD-5959765 questioning: ["fruit", "#4"]
+TDD1024442 fruit ( #4 ) ? 
+TDD518858 fruit ( #4 ) > 4 fruit
+TDD-1543323 word: 3 fruit
+TDD-81 may: 3 
+TDD3488044 fruit ( #4 ) 5> ␚
+TDD-3488000 question done
+TDD527865 > *
+TDD30432862 try? 3
+TDD-30960656 questioning: ["atoms", "#3"]
+TDD2255884 atoms ( #3 ) ? 
+TDD-1144237 atoms ( #3 ) > ~ sam
+TDD2537268 atoms ( #3 ) > 1 ~ sam
+TDD-3648946 word: 0 _____
+TDD-83 may: 0 a m s
+TDD3302939 atoms ( #3 ) 2> ~ eim
+TDD-3302850 word: 1 t____
+TDD-90 may: 1 e i m
+TDD2464072 atoms ( #3 ) 3> ato_
+TDD-2463998 word: 2 ato__
+TDD-74 may: 2 
+TDD3600114 atoms ( #3 ) 4> ␚
+TDD-3600069 question done
+TDD607659 > *
+TDD1000126 questioning: ["tempi", "#2"]
+TDD1472528 tempi ( #2 ) ? 
+TDD-2920257 tempi ( #2 ) > 
+TDD983727 tempi ( #2 ) 1> 2 tempi
+TDD-1143739 word: 1 tempi
+TDD-88 may: 1 
+TDD2360087 tempi ( #2 ) 3> ␚
+TDD-2360027 question done
+TDD671683 > *
+TDD658710 questioning: ["smash", "#1"]
+TDD2099276 smash ( #1 ) ? 
+TDD-3277895 smash ( #1 ) > 
+TDD912207 smash ( #1 ) 1> 1 smash
+TDD-1063946 word: 0 smash
+TDD-95 may: 0 
+TDD1680084 smash ( #1 ) 2> ␚
+TDD-1680042 question done
+TDD447977 > *
+TDD468391 questioning: ["atoll", "#3"]
+TDD2167105 atoll ( #3 ) ? 
+TDD-115580 atoll ( #3 ) > 3 atoll
+TDD-2967863 word: 2 atoll
+TDD-74 may: 2 
+TDD1416119 atoll ( #3 ) 4> ␚
+TDD-1416061 question done
+TDD3247707 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3245678 result: "squareword.org 1222: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1222"
+TDD17166 <STOP>
