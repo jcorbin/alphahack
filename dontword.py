@@ -661,6 +661,7 @@ class DontWord(StoredLog):
         status = (
             '❓' if not res else
             '🥳' if not res.found else
+            '😳' if res.oops else
             '🤷')
         return  f'{status} {guesses} ⏱️ {self.elapsed}'
 
@@ -714,6 +715,10 @@ class Result:
     @property
     def found(self):
         return all(x in (2, 3) for x in self.records[-1])
+
+    @property
+    def oops(self):
+        return self.found and self.outcome != 'ELIMINATED'
 
     @classmethod
     def parse(cls, s: str):
