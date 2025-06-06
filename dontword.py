@@ -739,7 +739,7 @@ class Result:
             if match:
                 puzzle_id = int(match[1])
                 outcome = match[2]
-                assert outcome in ('SURVIVED', 'ELIMINATED') # TODO others?
+                assert outcome in ('ELIMINATED', 'SURVIVED', 'WORDLED') # TODO others?
                 fortune = next(lines)
                 continue
 
@@ -878,6 +878,37 @@ from strkit import MarkedSpec
     - rem: 0
     - found: True
     - undos: 5
+    - remain: 0
+    - unused: 0
+    - score: 0
+
+    #oops
+    > Don't Wordle 1109 - WORDLED
+    > I must admit that I Wordled!
+    > ⬜⬜⬜⬜⬜6482
+    > ⬜⬜⬜⬜⬜3628
+    > ⬜⬜⬜⬜⬜783
+    > ⬜⬜🟨⬜⬜81
+    > 🟨🟩⬜⬜⬜8
+    > 🟩🟩🟩🟩🟩0
+    > Undos used: 0
+    - puzzle_id: 1109
+    - outcome: WORDLED
+    - fortune: I must admit that I Wordled!
+    - record: (0, 0, 0, 0, 0)
+    - rem: 6482
+    - record: (0, 0, 0, 0, 0)
+    - rem: 3628
+    - record: (0, 0, 0, 0, 0)
+    - rem: 783
+    - record: (0, 0, 1, 0, 0)
+    - rem: 81
+    - record: (1, 2, 0, 0, 0)
+    - rem: 8
+    - record: (2, 2, 2, 2, 2)
+    - rem: 0
+    - found: True
+    - undos: 0
     - remain: 0
     - unused: 0
     - score: 0
