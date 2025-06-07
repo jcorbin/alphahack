@@ -14,3 +14,148 @@ TDD3012662 letters? qstuuxz
 TDD-3012674 letters: |CCDEEEIIIILMNOQSTUUXZ|
 TDD638556 letters. 
 TDD1950249 [doit:100]> /store
+T2.0779310055077076 now: 2025-06-07T12:58:16UTC
+TD1651005 [doit:100]> /sea
+TDD3015279 search 75790c [ 1 ]> cap 800
+TDD-2700394 search 75790c [ 1 cap:800 ]> **
+TDD90766337 search 75790c [ 800 cap:800 may:6752 done:1 dead:2 ]> show done
+TDD-84624217 search 75790c [ 800 cap:800 may:6752 done:1 dead:2 ]> show 1
+TDD12227028 search 75790c [ 800 cap:800 may:6752 done:1 dead:2 ]> ret
+TDD-20334779 change: 16 L
+TDD-242 change: 26 E
+TDD-8 change: 34 S
+TDD-1 change: 35 E
+TDD0 change: 36 X
+TDD0 change: 44 U
+TDD0 change: 46 I
+TDD9 change: 54 I
+TDD-8 change: 56 C
+TDD0 change: 64 C
+TDD0 change: 66 O
+TDD0 change: 74 I
+TDD0 change: 76 N
+TDD0 change: 84 D
+TDD0 change: 93 M
+TDD0 change: 94 E
+TDD0 change: 95 Z
+TDD0 change: 96 Q
+TDD0 change: 97 U
+TDD0 change: 98 I
+TDD0 change: 99 T
+TDD1300334 [doit:2137]> /sea
+TDD856429 search ed992e [ 1 ]> prune
+TDD-264655 search ed992e [ 1 may:4 ]> take
+TDD-989093 search ed992e [ 5 may:0 ]> prune
+TDD-327365 search ed992e [ 5 may:16 ]> take
+TDD1212648 search ed992e [ 21 may:0 ]> prune
+TDD-1136974 search ed992e [ 21 may:44 prune:12 ]> take
+TDD1458799 search ed992e [ 65 may:0 prune:12 ]> cen
+TDD-143540 search ed992e [ 65 may:0 prune:12 ]> cap 1000
+TDD-1332807 search ed992e [ 65 cap:1000 may:0 prune:12 ]> **
+TDD1050920 Z c$_Lq%}Px!Q7Fz#u}V#`v@}XpNXpMkwK6oYQa}MdaF#2S4t9-zvO*O+p)5}YXDG{A!5=Q>2W7dyjPP}h3JmoOQNRuW00030{{
+TDD-1684274 Z Dk9QJbaWH|00960
+TDD-382 Z BFagAp3eUGT?7N3aF#O`G2(&=00030{{
+TDD-3 Z B07|aaFVA#(Cw5v2><{9|Nj
+TDD-4 Z qNbA+u!ItdGl_E&00030{{
+TDD11497573 Z BGyTCOx^$h00960
+TDD-11497483 Z B0hP8fPaK*FpTXN>g?m{3AGgl$d4`r00000|Nj
+TDD-63 Z BF#yD{s<?*qsukI(+3tg)Nm3200960
+TDD-24 Z A~BTw=-?y(00030{{
+TDD-5 Z BF#yz{(iJ~5&!@I|Nj
+TDD23 Z qJopKr6pu%lIkP?00030{{
+TDD-23 Z qC&(`+erWb00960
+TDD-2 Z qC)bfwvzw=00960
+TDD0 Z BF#z8KK{Y5atYxiKhFqHS5zlal9m7f00960
+TDD5 Z BF#xafF+bLo#YQJu}Cbl5dZ)H0RR6
+TDD0 Z qK%V${GC1Fp-HNf00000|Nj
+TDD0 Z qDI7FE4`7NNve|o00030{{
+TDD-1 Z qCAvPLWCMl0ssI2|Nj
+TDD-1 Z qTER+>4q9k0ssI2|Nj
+TDD24 Z qTESXTS=fo02XwlItc&(0RR6
+TDD-23 Z 8icJ%00000|Nj
+TDD0 Z 8icJ%00000|Nj
+TDD-1 Z 8icJ%00000|Nj
+TDD0 Z A}uZXxJF>sC{zj@H~;_u0RR6
+TDD7 Z A~AWp!qayI7AN_@o#aY^lK=n!0RR6
+TDD-4 Z BC*=_#1cx_O9Aqo1ONa4|Nj
+TDD-1 Z BDoMCu3$ncmPmFI00030{{
+TDD0 Z qLGsnV4(yGR}!5B00030{{
+TDD6 Z BC(DGT2EAiiIPwP00030{{
+TDD-6 Z qCzNPtK=wg5&!@I|Nj
+TDD0 Z 8id0X00000|Nj
+TDD116848056 search ed992e [ 1000 cap:1000 may:20749 prune:872 reject:26 done:6 dead:27 ]> show done
+TDD-83565231 search ed992e [ 1000 cap:1000 may:20749 prune:872 reject:26 done:6 dead:27 ]> show 4
+TDD-31007159 search ed992e [ 1000 cap:1000 may:20749 prune:872 reject:26 done:6 dead:27 ]> show 5
+TDD53414125 search ed992e [ 1000 cap:1000 may:20749 prune:872 reject:26 done:6 dead:27 ]> ret
+TDD-55689615 change: 23 
+TDD-188 change: 16 
+TDD-5 change: 23 
+TDD0 change: 26 
+TDD-1 change: 34 L
+TDD0 change: 46 
+TDD0 change: 35 I
+TDD-1 change: 46 
+TDD0 change: 36 
+TDD-1 change: 46 
+TDD0 change: 44 
+TDD0 change: 46 
+TDD0 change: 46 
+TDD1 change: 23 S
+TDD0 change: 54 
+TDD0 change: 31 
+TDD0 change: 56 
+TDD2 change: 76 
+TDD-2 change: 64 N
+TDD0 change: 76 
+TDD0 change: 66 
+TDD0 change: 76 
+TDD0 change: 74 
+TDD13 change: 76 
+TDD-1 change: 76 
+TDD-10 change: 95 
+TDD0 change: 84 Z
+TDD-1 change: 95 
+TDD0 change: 93 
+TDD0 change: 95 
+TDD0 change: 94 
+TDD0 change: 95 
+TDD0 change: 95 
+TDD0 change: 31 O
+TDD0 change: 96 
+TDD0 change: 32 C
+TDD0 change: 97 
+TDD0 change: 33 U
+TDD0 change: 98 
+TDD0 change: 43 I
+TDD3 change: 99 
+TDD-3 change: 53 C
+TDD0 change: 61 E
+TDD0 change: 62 X
+TDD0 change: 63 I
+TDD0 change: 65 E
+TDD0 change: 73 D
+TDD0 change: 82 M
+TDD0 change: 83 E
+TDD0 change: 85 Q
+TDD0 change: 86 U
+TDD5 change: 87 I
+TDD-5 change: 88 T
+TDD5707439 [doit:2144]> /res
+TDD-4435111 Press <Enter> to 📋 or `>` for line prompt 
+T0.05025188438594341 now: 2025-06-07T13:04:36UTC
+TD985870 [doit:2144]> /res
+TDD864726 Press <Enter> to 📋 or `>` for line prompt >
+TDD10144673 > ✨ Spaceword.org Daily 2025-06-07 ✨
+TDD-11995183 > 
+TDD-63 > 🏆 Score: 2144
+TDD-4 > 🏅 Rank: 165/221 😀
+TDD-1 > 🧩 Tiles: 21/21 ✅
+TDD0 > 📏 Space Bonus: +44
+TDD-1 > 
+TDD0 > 
+TDD0 > Play at https://spaceword.org
+TDD2923629 > #spaceword
+TDD-2237858 > 
+TDD99623 > ␚
+TDD-784649 result: "\u2728 Spaceword.org Daily 2025-06-07 \u2728\n\n\ud83c\udfc6 Score: 2144\n\ud83c\udfc5 Rank: 165/221 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +44\n\n\nPlay at https://spaceword.org\n#spaceword\n"
+TDD6249113 [prior:2144]> /store
