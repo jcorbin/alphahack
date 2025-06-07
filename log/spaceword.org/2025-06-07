@@ -159,3 +159,96 @@ TDD-2237858 >
 TDD99623 > ␚
 TDD-784649 result: "\u2728 Spaceword.org Daily 2025-06-07 \u2728\n\n\ud83c\udfc6 Score: 2144\n\ud83c\udfc5 Rank: 165/221 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +44\n\n\nPlay at https://spaceword.org\n#spaceword\n"
 TDD6249113 [prior:2144]> /store
+T30.082960087805986 now: 2025-06-07T13:05:06UTC
+TD970423 [prior:2144]> /sea
+TDD4023719 search 47a51b [ 1 ]> prune
+TDD-3652942 search 47a51b [ 1 may:7 ]> take
+TDD-406539 search 47a51b [ 8 may:0 ]> prune
+TDD-439660 search 47a51b [ 8 may:49 ]> take
+TDD866685 search 47a51b [ 57 may:0 ]> prune
+TDD-789664 search 47a51b [ 57 may:261 prune:42 ]> take
+TDD1834094 search 47a51b [ 318 may:0 prune:42 ]> cap 1000
+TDD363787 search 47a51b [ 318 cap:1000 may:0 prune:42 ]> **
+TDD-2028937 Z LUNLcd7`Od60vohzjLS$!W}SxRLA*|TgL$a00960
+TDD-740500 Z BGE}c2q(dlk~5YdqQpr600030{{
+TDD6264704 Z BGO5;4;usk00030{{
+TDD-6265057 Z A~lr!orB>HBG5%4*L45@00960
+TDD-75 Z BGE|^p2T&U6r6!B@`p5;NDVIl00030{{
+TDD0 Z 8idIk00030{{
+TDD-8 Z BGE~%Se)dCx8X)|;jI7w00960
+TDD18 Z BFahdLJwH~lj<bQP(ql79RL6T0RR6
+TDD-11 Z 8ia)a00030{{
+TDD-7 Z BEd=ULR$e+Xrrbkm`z|u0d4k+!djycat{yy00030{{
+TDD6767655 Z 8ieH%00030{{
+TDD-6767592 Z A~E8ChWmsB!yN>RyC{FG{U&VgBkUvq00030{{
+TDD-44 Z BF;(hD%aT`=qQY$Datd1=pZBPBme*a0RR6
+TDD-10 Z 8ib`c00030{{
+TDD17 Z 8ib`c00030{{
+TDD-14 Z !sjG}W`v!f_8O+EfHp;;yNc|H0{{R3|Nj
+TDD-5 Z !W&BdaAj~eIs15q(AY@;00030{{
+TDD-4 Z 8iaKm00030{{
+TDD-4 Z 8iaKm00030{{
+TDD11 Z qD|?ofLef)R(b;f00960
+TDD27 Z 8ids@00030{{
+TDD13274277 search 47a51b [ 1000 cap:1000 may:630 prune:344 dead:51 reject:11 done:7 ]> show done
+TDD-8338090 search 47a51b [ 1000 cap:1000 may:630 prune:344 dead:51 reject:11 done:7 ]> show 1
+TDD40596505 search 47a51b [ 1000 cap:1000 may:630 prune:344 dead:51 reject:11 done:7 ]> ret
+TDD-45532515 change: 33 
+TDD-218 change: 23 U
+TDD-9 change: 33 
+TDD0 change: 31 
+TDD-2 change: 33 O
+TDD1 change: 32 
+TDD-2 change: 34 C
+TDD2 change: 86 
+TDD4 change: 35 U
+TDD3 change: 88 
+TDD1 change: 53 T
+TDD-9 change: 86 
+TDD1 change: 61 
+TDD-3 change: 86 
+TDD0 change: 62 
+TDD12 change: 86 
+TDD-12 change: 63 
+TDD-1 change: 86 
+TDD2 change: 64 
+TDD-2 change: 65 I
+TDD0 change: 73 X
+TDD0 change: 86 
+TDD0 change: 82 
+TDD0 change: 86 
+TDD1 change: 83 
+TDD-1 change: 84 M
+TDD0 change: 85 E
+TDD0 change: 86 
+TDD0 change: 86 
+TDD0 change: 88 
+TDD0 change: 87 
+TDD0 change: 88 
+TDD3 change: 88 
+TDD-3 change: 13 Q
+TDD0 change: 25 S
+TDD0 change: 27 Z
+TDD0 change: 36 L
+TDD0 change: 37 I
+TDD0 change: 45 I
+TDD0 change: 47 N
+TDD0 change: 55 C
+TDD0 change: 57 E
+TDD0 change: 74 E
+TDD0 change: 75 D
+TDD2114173 [prior:2144 bet:2160]> /res
+TDD-1457873 Press <Enter> to 📋 or `>` for line prompt >
+TDD6911892 > ✨ Spaceword.org Daily 2025-06-07 ✨
+TDD-7568111 > 
+TDD-63 > 🏆 Score: 2160
+TDD-6 > 🏅 Rank: 109/221 🎈
+TDD-2 > 🧩 Tiles: 21/21 ✅
+TDD0 > 📏 Space Bonus: +60
+TDD0 > 
+TDD0 > 
+TDD0 > Play at https://spaceword.org
+TDD1806851 > #spaceword
+TDD-1088713 > ␚
+TDD-717242 result: "\u2728 Spaceword.org Daily 2025-06-07 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 109/221 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD1836727 [prior:2160]> /store
