@@ -1,0 +1,35 @@
+T0.00025431899848626927 now: 2025-06-07T07:45:17EDT
+TD68348 loaded 196559 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (44 words excluded) asof a7e45466971ed754686cd7ab0185f784221c30fd
+TDD4399378 [0 : 98236 : 196559] mach? b
+TDD-4467270 progress: -1 98236 mach
+TDD1598011 [0 : 47396 : 98236] dis? b
+TDD-1598136 progress: -1 47396 dis
+TDD1709768 [0 : 23695 : 47396] camp? a
+TDD-1709771 progress: 1 23695 camp
+TDD1502806 [23696 : 35539 : 47396] convention? a
+TDD-1502840 progress: 1 35539 convention
+TDD1698170 [35540 : 40856 : 47396] da? b
+TDD-1698254 progress: -1 40856 da
+TDD1455897 [35540 : 38198 : 40856] crazy? b
+TDD-1455858 progress: -1 38198 crazy
+TDD1523285 [35540 : 36740 : 38198] cos? a
+TDD-1523436 progress: 1 36740 cos
+TDD1442587 [36741 : 37466 : 38198] courant? a
+TDD-1442514 progress: 1 37466 courant
+TDD1918534 [37467 : 37818 : 38198] coz? b
+TDD-1918394 progress: -1 37818 coz
+TDD1799765 [37467 : 37580 : 37818] cove? b
+TDD-1799836 progress: -1 37580 cove
+TDD1664423 [37467 : 37494 : 37580] court? a
+TDD-1664412 progress: 1 37494 court
+TDD1820997 [37495 : 37531 : 37580] cousin? it
+TDD-1820937 progress: 0 37531 cousin
+TDD-261 [37495 : 37531 : 37580] <Done>.
+TDD3765550 press <Return> to finish
+TDD-3391979 Press <Enter> to 📋 or `>` for line prompt 
+TDD-368221 share result: "\ud83e\udde9 Puzzle #683\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 18s\n\n\ud83d\udd17 alphaguess.com"
+TDD-4342 result puzzle: 683
+TDD-1023 result guesses: 12
+TDD-14 result time: 18s
+TDD-2 result link: alphaguess.com
+TDD5 <STOP>
