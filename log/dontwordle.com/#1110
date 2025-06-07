@@ -1,0 +1,36 @@
+T0.00022632799664279446 now: 2025-06-07T08:10:11EDT
+TD36 site: dontwordle.com
+TDD-10 wordlist: nwl2023.txt
+TDD845420 1> *
+TDD8817642 1> tried xylyl nnnnn
+TDD-9662194 tried: xylyl 00000
+TDD2574758 2> *
+TDD3859488 2> tried vivid nnnnn
+TDD-6434852 tried: vivid 00000
+TDD1502313 3> *
+TDD11688427 3> tried agama nMnMn
+TDD-13190753 tried: agama 01010
+TDD2068869 4> undo
+TDD-2068904 undo
+TDD1595543 3> *
+TDD8001784 3> tried jesse nnnnn
+TDD-9597362 tried: jesse 00000
+TDD1269540 4> *
+TDD15825771 4> tried cocoa nMnYn
+TDD-17095296 tried: cocoa 01020
+TDD1724474 5> undo
+TDD-1724510 undo
+TDD3386096 4> *
+TDD7042944 4> tried tazza nnnnn
+TDD-10429004 tried: tazza 00000
+TDD2420609 5> *
+TDD6772367 5> tried chuff nnnnn
+TDD-9193002 tried: chuff 00000
+TDD1224360 6> *
+TDD2566414 6> * -sans
+TDD11720379 6> tried known nnYnn
+TDD-15511039 tried: known 00200
+TDD4124785 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4119800 result: "Don't Wordle 1110 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c8089\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4359\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c845\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c168\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c25\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c4\nUndos used: 2\n\n  4 words remaining\nx 6 unused letters\n= 24 total score"
+TDD-3612 puzzle_id: #1110
+TDD-1658 <STOP>
