@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import argparse
+from itertools import chain
 import json
 import re
 from collections.abc import Generator, Iterable, Sequence
@@ -10,36 +11,10 @@ from typing import cast, final, override
 
 from sortem import Chooser, DiagScores, Possible, RandScores
 from store import StoredLog, git_txn
-from strkit import spliterate, PeekIter
+from strkit import spliterate
 from ui import PromptUI
+from wordlish import Attempt, Word
 from wordlist import WordList
-
-def char_pairs(alpha: Iterable[str]):
-    a, b = '', ''
-    for c in sorted(alpha):
-        if not a: a = c
-        if not b: b = c
-        dcb = ord(c) - ord(b)
-        if dcb > 1:
-            yield a, b
-            a = b = c
-        else:
-            b = c
-    if a and b:
-        yield a, b
-
-def char_ranges(alpha: Iterable[str]):
-    for a, b in char_pairs(alpha):
-        dba = ord(b) - ord(a)
-        if dba == 0:
-            yield a
-        elif dba == 1:
-            yield a
-            yield b
-        else:
-            yield a
-            yield '-'
-            yield b
 
 @final
 class Search(StoredLog):
@@ -71,11 +46,10 @@ class Search(StoredLog):
         self.given_wordlist: bool = False
         self._wordlist: WordList|None = None
 
-        self.may_letters: set[str] = set()
-        self.nope_letters: set[str] = set()
-        self.word: list[str] = ['' for _ in range(self.size)]
-        self.tried: list[str] = []
-        self.attempts: list[list[str]] = []
+        self.tried: list[Attempt] = []
+        self.word = Word(self.size)
+
+        self.attempts: list[tuple[str, ...]] = []
         self.words: list[str] = []
 
         self.failed: bool = False
@@ -87,8 +61,6 @@ class Search(StoredLog):
         self.prompt = PromptUI.Prompt(self.display_mess, {
             'gen': self.do_gen,
             'fail': self.do_fail,
-            'may': self.do_may,
-            'no': self.do_no,
             'tried': self.do_tried,
             'word': self.do_word,
             '*': 'gen',
@@ -152,43 +124,11 @@ class Search(StoredLog):
                     continue
 
                 match = re.match(r'''(?x)
-                    nope : (?: \s+ ( [^\s]+ ) )?
-                    \s* ( .* )
+                    tried : \s+ ( .+ )
                     $''', rest)
                 if match:
-                    nope, rest = match.groups()
-                    assert rest == ''
-                    self.nope_letters = set(nope or '')
-                    continue
-
-                match = re.match(r'''(?x)
-                    may : (?: \s+ ( [^\s]+ ) )?
-                    \s* ( .* )
-                    $''', rest)
-                if match:
-                    may, rest = match.groups()
-                    assert rest == ''
-                    self.may_letters = set(may or '')
-                    continue
-
-                match = re.match(r'''(?x)
-                    tried : \s+ ( [\w_]+ )
-                    \s* ( .* )
-                    $''', rest)
-                if match:
-                    word, rest = match.groups()
-                    assert rest == ''
-                    self.tried.append(word)
-                    continue
-
-                match = re.match(r'''(?x)
-                    word : \s+ ( [^\s]+ )
-                    \s* ( .* )
-                    $''', rest)
-                if match:
-                    word, rest = match.groups()
-                    assert rest == ''
-                    self.update_word(ui, word)
+                    at = Attempt.parse(match[1], expected_size=self.size)
+                    self.apply_tried(at)
                     continue
 
                 match = re.match(r'''(?x)
@@ -230,12 +170,10 @@ class Search(StoredLog):
 
     def display_mess(self, ui: PromptUI):
         n = len(self.words)+1
-        if self.nope_letters:
-            ui.print(f'No: {" ".join(x.upper() for x in sorted(self.nope_letters))}')
-        if self.may_letters:
-            ui.print(f'May: {" ".join(x.upper() for x in sorted(self.may_letters))}')
+        for m, at in enumerate(self.tried, 1):
+            ui.print(f'{n}.{m}: {at}')
         if self.word:
-            ui.print(f'Word: {" ".join(x.upper() if x else "_" for x in self.word)}')
+            ui.print(f'Word: {self.word}')
         return f'{n}.{len(self.tried)+1}> '
 
     def display(self, ui: PromptUI):
@@ -254,122 +192,32 @@ class Search(StoredLog):
         return self.finish
 
     def do_tried(self, ui: PromptUI):
-        word = next(ui.tokens, None)
-        if word is not None:
-            if len(word) != self.size:
-                ui.print(f'expected {self.size}-length word, got {len(word)}')
-                return
-            ui.log(f'tried: {word}')
-            self.tried.append(word)
-
-    def do_may(self, ui: PromptUI):
-        some = False
-        for tok in ui.tokens:
-            if tok.startswith('.'):
-                tok = tok[1:]
-                self.may_letters = set()
-            self.may_letters.update(tok)
-            some = True
-        if some:
-            ui.log(f'may: {"".join(sorted(self.may_letters))}')
-
-    def do_no(self, ui: PromptUI):
-        nop: set[str] = set()
-
-        some = False
-
-        for tok in ui.tokens:
-            if tok.startswith('.'):
-                tok = tok[1:]
-                self.nope_letters = set()
-                some = True
-            nop.update(tok)
-
-        some = some or any(x not in self.nope_letters for x in nop)
-        some_may = any(x in self.may_letters for x in nop)
-        some_word = any(x in self.word for x in nop)
-
-        self.nope_letters.update(nop)
-        self.may_letters.difference_update(nop)
-        self.word = ['_' if x in self.nope_letters else x for x in self.word]
-
-        if some:
-            ui.log(f'nope: {"".join(sorted(self.nope_letters))}')
-        if some_may:
-            ui.log(f'may: {"".join(sorted(self.may_letters))}')
-        if some_word:
-            ui.log(f'word: {"".join(x if x else "_" for x in self.word)}')
+        try:
+            at = Attempt.parse(ui.tokens, expected_size=self.size)
+            at.word = at.word.upper()
+        except ValueError as err:
+            ui.print(f'! {err}')
+            return
+        ui.log(f'tried: {at}')
+        self.apply_tried(at)
 
     def do_word(self, ui: PromptUI):
-        if not ui.tokens:
-            ui.print('no word feedback given')
-            return
         word = next(ui.tokens)
-        if len(word) > self.size:
-            ui.print(f'given word too long ({len(word)}) must be at most {self.size}')
+        if len(word) != self.size:
+            ui.print(f'! given word wrong size ({len(word)}), must be {self.size}')
             return
-        self.update_word(ui, word)
+        at = Attempt(word.upper(), tuple(2 for _ in word))
+        ui.log(f'tried: {at}')
+        self.apply_tried(at)
 
-    def update_word(self, ui: PromptUI, word: str):
-        word = word.lower()
-        for i, x in enumerate(word[:self.size]):
-            self.word[i] = '' if x == '_' else x
-
-        word = ''.join(x if x else '_' for x in self.word)
-        ui.log(f'word: {word}')
-
-        if all(x for x in self.word):
-            if word not in self.tried:
-                self.tried.append(word)
-            self.words.append(word)
-            self.attempts.append(self.tried)
-            self.reset_word()
-
-    def reset_word(self):
-        for i in range(self.size): self.word[i] = ''
-        self.tried = []
-        self.nope_letters = set()
-        self.may_letters = set()
-
-    def describe_space(self):
-        def parts():
-            word = ''.join(l if l else '_' for l in self.word).upper()
-            yield f'{word}'
-            if self.may_letters:
-                may = ''.join(self.may_letters).upper()
-                yield f'may: {may}'
-            if self.nope_letters:
-                nope = ''.join(self.nope_letters).upper()
-                yield f'nope: {nope}'
-        return ' '.join(parts())
-
-    def pattern(self, _ui: PromptUI):
-        alpha = set('abcdefghjiklmnopqrstuvwxyz')
-        uni = '.'
-
-        if self.nope_letters:
-            alpha.difference_update(self.nope_letters)
-            uni = f'[{"".join(char_ranges(alpha))}]'
-
-        if not self.may_letters:
-            pat = ''.join(x if x else uni for x in self.word)
-            # ui.print(f'PATTERN {pat!r}')
-            return pat
-
-        def alts():
-            from itertools import combinations, permutations
-            may = sorted(self.may_letters)
-            ix = [i for i in range(len(self.word)) if not self.word[i]]
-            for mix in combinations(ix, len(may)):
-                parts = [uni if not let else let for let in self.word]
-                for pmay in permutations(may):
-                    for j, i in enumerate(mix):
-                        parts[i] = pmay[j]
-                    pat = ''.join(parts)
-                    # ui.print(f'PATTERN | {pat!r}')
-                    yield pat
-
-        return '|'.join(alts())
+    def apply_tried(self, at: Attempt):
+        self.tried.append(at)
+        self.word.collect(at)
+        if self.word.done:
+            self.words.append(self.word.word.lower())
+            self.attempts.append(tuple(at.word for at in self.tried))
+            self.word.reset()
+            self.tried = []
 
     def guess(self, ui: PromptUI, show_n: int=10):
         verbose = 0
@@ -403,14 +251,14 @@ class Search(StoredLog):
             ui.print(f'! invalid * arg {next(ui.tokens)!r}')
             return
 
-        words = set(self.find(re.compile(self.pattern(ui))))
+        words = set(self.find(re.compile(self.word.pattern())))
 
         # drop any words that intersect tried prior letters
         tried_words = [
             (wi, word)
             for wi, word in enumerate(words)
             if any(
-                not self.word[li]
+                not self.word.yes[li]
                 for _, _, li in self.tried_letters(word))]
         skip_words = set(word for _, word in tried_words)
         words.difference_update(skip_words)
@@ -423,7 +271,7 @@ class Search(StoredLog):
                     for i, word in tried_words:
                         ui.print(f'  {i+1}. {word}')
                         for let, j, i in self.tried_letters(word):
-                            if not self.word[i]:
+                            if not self.word.yes[i]:
                                 ui.print(f'    - {let.upper()} from {self.tried[j]!r}[{i}]')
 
         pos = Possible(
@@ -433,7 +281,7 @@ class Search(StoredLog):
             verbose=verbose)
 
         def parts():
-            yield f'{pos} from {self.describe_space()}'
+            yield f'{pos} from {self.word}'
             if tried_words:
                 yield f'less ∩tried {len(tried_words)}'
 
@@ -448,9 +296,9 @@ class Search(StoredLog):
 
     def tried_letters(self, word: str):
         for i, let in enumerate(word):
-            if let not in self.may_letters: continue
+            if let not in self.word.may: continue
             for j, prior in enumerate(self.tried):
-                if prior[i] == let:
+                if prior.word[i] == let:
                     yield let, j, i
 
     def select(self, _ui: PromptUI, words: Sequence[str], jitter: float = 0.5):
@@ -546,24 +394,7 @@ class Search(StoredLog):
     def report_body(self) -> Generator[str]:
         yield from super().report_body
 
-        def history() -> Generator[tuple[str, bool|None]]:
-            priors: set[str] = set()
-            for i, word in enumerate(self.words):
-                last: str = ''
-                for w in self.attempts[i]:
-                    if last:
-                        yield last, last in priors
-                    last = w
-                if last and last != word:
-                    yield last, last in priors
-                yield word, None
-                priors.add(word)
-            if self.tried:
-                for w in self.tried:
-                    yield w, w in priors
-
-        hist = PeekIter(enumerate(history(), 1))
-
+        attempts = iter(chain.from_iterable(self.attempts))
         res = self.result
         if res:
 
@@ -576,22 +407,12 @@ class Search(StoredLog):
                 else:
                     yield f'    {rnd.took}/{rnd.limit}'
 
-                if rnd.note.lower() == 'final':
-                    for _, (_, kind) in hist:
-                        if kind is not True: break
-
                 for _ in range(rnd.took):
                     rec = next(recs)
-                    for _, (word, kind) in hist:
-                        if kind is not True:
-                            yield f'    > {" ".join(word.upper())}'
-                            break
+                    for at in attempts:
+                        yield f'    > {" ".join(at.upper())}'
+                        break
                     yield f'      {"".join(Result.marks[i] for i in rec)}'
-
-        if hist.peek() is not None:
-            yield ''
-            for n, (word, kind) in hist:
-                yield f'{n}. {word} {"it" if kind is None else "prior" if kind is True else ""}'
 
 @final
 @dataclass

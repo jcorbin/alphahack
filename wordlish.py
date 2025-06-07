@@ -7,7 +7,6 @@ import re
 
 from strkit import MarkedSpec, PeekStr
 
-# TODO evolve hurdle to use
 # TODO evolve square to use
 
 def nope(_arg: Never, mess: str =  'inconceivable') -> Never:
@@ -190,7 +189,7 @@ class Word:
             del self.max[c]
         for known, can in zip(self.yes, self.can):
             if not known:
-                can.remove(c)
+                can.difference_update((c,))
 
     def collect(self, at: Attempt):
         mayc: set[str] = set()
@@ -223,7 +222,7 @@ class Word:
                     self.max[c] = may
                 for cc, f, i in at.letter_notes():
                     if cc == c and f != 2:
-                        self.can[i].remove(c)
+                        self.can[i].difference_update((c,))
             else:
                 self.cannot(c)
 
