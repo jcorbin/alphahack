@@ -1,0 +1,143 @@
+T0.0002700610020838212 now: 2025-06-07T07:47:39EDT
+TD40 site: squareword.org
+TDD2186680 🧩  ? #1223
+TDD-2186519 puzzle_id: #1223
+TDD-179 wordlist: nwl2023.txt
+TDD2053814 > *
+TDD3360579 try? 3
+TDD-5410739 questioning: ["rites", "#5"]
+TDD1299146 rites ( #5 ) ? 
+TDD-1167196 rites ( #5 ) > 
+TDD1034511 rites ( #5 ) 1> ~ s
+TDD-1168355 word: 0 _____
+TDD-1734 may: 0 s
+TDD3599274 rites ( #5 ) 2> ___e ~ re
+TDD-3598830 word: 1 ___e_
+TDD-449 may: 1 e r
+TDD2585804 rites ( #5 ) 3> ~ e
+TDD-2585538 word: 2 _____
+TDD-277 may: 2 e
+TDD3048552 rites ( #5 ) 4> r_ ~ e
+TDD-3048192 word: 3 r____
+TDD-352 may: 3 e
+TDD3264568 rites ( #5 ) 5> ____s ~ e
+TDD-3264433 word: 4 ____s
+TDD-159 may: 4 e
+TDD1 question done
+TDD1801751 > /no ti
+TDD-1801059 nope: i t
+TDD1413541 > *
+TDD7315860 try? 1
+TDD-8729820 questioning: ["drees", "#2"]
+TDD1278965 drees ( #2 ) ? 
+TDD-1106788 drees ( #2 ) > 
+TDD6837942 drees ( #2 ) 1> 3 ~ ed
+TDD-7010188 word: 2 _____
+TDD-197 may: 2 d e
+TDD14309329 drees ( #2 ) 4> 1 ___s
+TDD-14309091 word: 0 ___s_
+TDD-234 may: 0 
+TDD7566133 drees ( #2 ) 2> 5 __e_s ~ e
+TDD-7565927 word: 4 __e_s
+TDD-210 may: 4 e
+TDD-2 question done
+TDD3744953 > *
+TDD6818693 try? 1
+TDD-10563262 questioning: ["keels", "#5"]
+TDD1484749 keels ( #5 ) ? 
+TDD-1327247 keels ( #5 ) > 
+TDD2919182 keels ( #5 ) 1> ~ l
+TDD-3076909 word: 0 ___s_
+TDD-163 may: 0 l
+TDD4505921 keels ( #5 ) 2> _e_e ~ rl
+TDD-4505614 word: 1 _e_e_
+TDD-295 may: 1 l r
+TDD3183085 keels ( #5 ) 3> 4 re_
+TDD-3182981 word: 3 re___
+TDD-120 may: 3 
+TDD2486120 keels ( #5 ) 5> kee_s
+TDD-2485897 word: 4 kee_s
+TDD-213 may: 4 
+TDD0 question done
+TDD1889976 > *
+TDD3207978 try? 
+TDD-3718348 try? 1
+TDD-1379345 questioning: ["keens", "#5"]
+TDD328882 keens ( #5 ) ? 
+TDD4473998 keens ( #5 ) > 5 keens
+TDD-4803062 word: 4 keens
+TDD-91 may: 4 
+TDD0 question done
+TDD1107535 > *
+TDD5056966 try? 2
+TDD-6164230 questioning: ["lever", "#2"]
+TDD933240 lever ( #2 ) ? 
+TDD-769800 lever ( #2 ) > 
+TDD5501346 lever ( #2 ) 1> le_er
+TDD-5664890 word: 0 le_er
+TDD-156 may: 0 
+TDD11610855 lever ( #2 ) 2> 1 ___s ~ l
+TDD-11610542 word: 0 ___sr
+TDD-296 may: 0 l
+TDD6740497 lever ( #2 ) 2> 1 ___s_ ~ l
+TDD-6740232 word: 0 ___s_
+TDD-270 may: 0 l
+TDD3106497 lever ( #2 ) 2> le_er
+TDD-3106149 word: 1 le_er
+TDD-336 may: 1 
+TDD2948356 lever ( #2 ) 3> ~ edv
+TDD-2948097 word: 2 _____
+TDD-270 may: 2 d e v
+TDD4127904 lever ( #2 ) 4> ␚
+TDD-4127851 question done
+TDD601940 > *
+TDD6317 questioning: ["evade", "#3"]
+TDD2975685 evade ( #3 ) ? 
+TDD-3362934 evade ( #3 ) > 
+TDD1173123 evade ( #3 ) 1> 3 evade
+TDD-1394123 word: 2 evade
+TDD-81 may: 2 
+TDD3332517 evade ( #3 ) 4> ~ a
+TDD-3332256 word: 3 re___
+TDD-241 may: 3 a
+TDD3942088 evade ( #3 ) 5> 1 __as ~ l
+TDD-3941851 word: 0 __as_
+TDD-234 may: 0 l
+TDD7249516 evade ( #3 ) 2> ␚
+TDD-7249365 question done
+TDD582524 > *
+TDD1159695 questioning: ["clasp", "#1"]
+TDD1157869 clasp ( #1 ) ? 
+TDD-2729330 clasp ( #1 ) > 
+TDD1148060 clasp ( #1 ) 1> 1 clasp
+TDD-1318713 word: 0 clasp
+TDD-257 may: 0 
+TDD3832194 clasp ( #1 ) 2> ~ p
+TDD-3832109 word: 1 le_er
+TDD-105 may: 1 p
+TDD6283378 clasp ( #1 ) 3> 4 re__p ~ ac
+TDD-6283272 word: 3 re__p
+TDD-105 may: 3 a c
+TDD4240893 clasp ( #1 ) 5> 
+TDD-4240787 question done
+TDD932562 > *
+TDD326677 questioning: ["leper", "#2"]
+TDD1737581 leper ( #2 ) ? 
+TDD-2824699 leper ( #2 ) > 
+TDD1273223 leper ( #2 ) 1> 2 leper
+TDD-1445086 word: 1 leper
+TDD-339 may: 1 
+TDD2401178 leper ( #2 ) 3> ␚
+TDD-2401040 question done
+TDD558300 > *
+TDD347189 questioning: ["recap", "#4"]
+TDD2002898 recap ( #4 ) ? 
+TDD-2734178 recap ( #4 ) > 
+TDD1336649 recap ( #4 ) 1> 4 recap
+TDD-1510582 word: 3 recap
+TDD-350 may: 3 
+TDD1137762 recap ( #4 ) 5> ␚
+TDD-1137798 question done
+TDD2346725 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2344241 result: "squareword.org 1223: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1223"
+TDD28198 <STOP>
