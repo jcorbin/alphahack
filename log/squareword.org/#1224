@@ -1,0 +1,129 @@
+T0.0002574540012574289 now: 2025-06-08T07:21:21EDT
+TD36 site: squareword.org
+TDD31977780 🧩  ? #1224
+TDD-31977693 puzzle_id: #1224
+TDD-107 wordlist: nwl2023.txt
+TDD1503196 > *
+TDD1399995 try? 
+TDD-2711140 try? 
+TDD3151733 try? 1
+TDD-3342431 questioning: ["stale", "#5"]
+TDD661414 stale ( #5 ) ? 
+TDD-373304 stale ( #5 ) > 
+TDD2061326 stale ( #5 ) 1> ~ al
+TDD-2350116 word: 0 _____
+TDD-672 may: 0 a l
+TDD903379 stale ( #5 ) 2> ~ t
+TDD-903308 word: 1 _____
+TDD-77 may: 1 t
+TDD1096093 stale ( #5 ) 3> ~ tal
+TDD-1096034 word: 2 _____
+TDD-60 may: 2 a l t
+TDD1407796 stale ( #5 ) 4> ~ e
+TDD-1407726 word: 3 _____
+TDD-69 may: 3 e
+TDD1496036 stale ( #5 ) 5> ~ se
+TDD-1495965 word: 4 _____
+TDD-70 may: 4 e s
+TDD0 question done
+TDD1191619 > *
+TDD4944400 try? 7
+TDD-6135767 questioning: ["table", "#3"]
+TDD815835 table ( #3 ) ? 
+TDD-632777 table ( #3 ) > 
+TDD3291310 table ( #3 ) 1> _a
+TDD-3474338 word: 0 _a___
+TDD-263 may: 0 l
+TDD7973803 table ( #3 ) 2> ␚
+TDD-7973778 question done
+TDD879620 > /no b
+TDD-879463 nope: b
+TDD679353 > *
+TDD9675140 try? 6
+TDD-10354515 questioning: ["octal", "#3"]
+TDD1197195 octal ( #3 ) ? 
+TDD-1020850 octal ( #3 ) > 
+TDD3327756 octal ( #3 ) 1> __t
+TDD-3504214 word: 0 __t__
+TDD-66 may: 0 l
+TDD7967620 octal ( #3 ) 2> 1 _a___ ~ l
+TDD-7967551 word: 0 _a___
+TDD-69 may: 0 l
+TDD2383562 octal ( #3 ) 2> __t ~ o
+TDD-2383497 word: 1 __t__
+TDD-64 may: 1 o
+TDD2320494 octal ( #3 ) 3> __tal
+TDD-2320394 word: 2 __tal
+TDD-100 may: 2 
+TDD4223323 octal ( #3 ) 4> ␚
+TDD-4223276 question done
+TDD759878 > /no c
+TDD-759849 nope: b c
+TDD681241 > *
+TDD25214253 try? 6
+TDD-25895473 questioning: ["vital", "#3"]
+TDD800502 vital ( #3 ) ? 
+TDD446765 vital ( #3 ) > 3 vital
+TDD-1247293 word: 2 vital
+TDD-71 may: 2 
+TDD3192584 vital ( #3 ) 4> 2 ~ oi
+TDD-3192284 word: 1 __t__
+TDD-267 may: 1 i o
+TDD2311636 vital ( #3 ) 3> ␚
+TDD-2311475 question done
+TDD502706 > *
+TDD10066293 try? 1
+TDD-10568898 questioning: ["intro", "#2"]
+TDD654610 intro ( #2 ) ? 
+TDD-318869 intro ( #2 ) > 
+TDD848142 intro ( #2 ) 1> 2 intro
+TDD-1184110 word: 1 intro
+TDD-68 may: 1 
+TDD3511187 intro ( #2 ) 3> 4 ~ en
+TDD-3511107 word: 3 _____
+TDD-77 may: 3 e n
+TDD1799898 intro ( #2 ) 5> 5 ~ senr
+TDD-1799821 word: 4 _____
+TDD-77 may: 4 e n r s
+TDD0 question done
+TDD3472554 > *
+TDD1919680 try? 1
+TDD-5391905 questioning: ["laugh", "#1"]
+TDD304540 laugh ( #1 ) ? 
+TDD-146467 laugh ( #1 ) > 
+TDD1730200 laugh ( #1 ) 1> 
+TDD591006 laugh ( #1 ) 2> 1 laugh
+TDD-2479551 word: 0 laugh
+TDD-61 may: 0 
+TDD3407922 laugh ( #1 ) 2> ␚
+TDD-3407875 question done
+TDD503770 > *
+TDD606584 questioning: ["emend", "#4"]
+TDD2531712 emend ( #4 ) ? 
+TDD-3458852 emend ( #4 ) > 
+TDD3817132 emend ( #4 ) 1> 4 emend
+TDD-4000326 word: 3 emend
+TDD-67 may: 3 
+TDD2367668 emend ( #4 ) 5> ~ d
+TDD-2367599 word: 4 _____
+TDD-68 may: 4 d
+TDD0 question done
+TDD3312175 > emend
+TDD-3311994 questioning: ["emend", "entered"]
+TDD3671468 emend ( entered ) ? 5 ~ senrd
+TDD-3671587 guess: emend
+TDD-43 word: 4 _____
+TDD-19 may: 4 d e n r s
+TDD-1 question done
+TDD1631882 > *
+TDD21096419 > * -sans
+TDD-367744 > nerds
+TDD-22360461 questioning: ["nerds", "entered"]
+TDD3312230 nerds ( entered ) ? 5 nerds
+TDD-3312108 guess: nerds
+TDD-162 word: 4 nerds
+TDD-36 may: 4 
+TDD-16 question done
+TDD4391826 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4389676 result: "squareword.org 1224: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1224"
+TDD21317 <STOP>
