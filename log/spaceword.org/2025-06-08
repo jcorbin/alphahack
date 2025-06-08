@@ -105,3 +105,85 @@ TDD1135427 [prior:2137 bet:2158]> /res
 TDD-903220 Press <Enter> to 📋 or `>` for line prompt 
 TDD-229911 result: "\u2728 Spaceword.org Daily 2025-06-08 \u2728\n\n\ud83c\udfc6 Score: 2158\n\ud83c\udfc5 Rank: 135/208 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +58\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD1779242 [prior:2158]> /store
+T1.9396567279982264 now: 2025-06-08T08:27:45EDT
+TD1253973 [prior:2158]> /sea
+TDD1954054 search d67fe1 [ 1 ]> cap 1000
+TDD-2488093 search d67fe1 [ 1 cap:1000 ]> **
+TDD2496074 search d67fe1 [ 0 cap:1000 ]> reset
+TDD-2567882 search d67fe1 [ 1 cap:1000 ]> clear
+TDD343902 search d67fe1 [ 1 cap:1000 ]> **
+TDD75115763 Z LUK}ynR!~OAqk-bcZeG-rTe=2h4@2U>=y!bG(^-D>PT;x8}S1G00030{{
+TDD-76107464 Z BEd=MZgKVX_ws}ZIr_m^zA!O2f4G=8m<(}s3?af*00000|Nj
+TDD5936574 Z B0ZGcU<@yRm|H{rp;jS>4J=w6y<Opv26rPq00000|Nj
+TDD-5936833 Z qP>$~5eEz_N1{>`00030{{
+TDD-26 Z A|v8LU=io#=>m0?V~7GYx_}OX1O-O4fnu7dG!6g&0RR6
+TDD0 Z A}5rf$pIKj5G%l;1ZH6iC2vQBLx_qv00000|Nj
+TDD2 Z BHl?@a+)tJ>b!x$1P1=V1Prs+6XtYJxJ%qz;n9gZzyJUM0RR6
+TDD-13 Z BHl^xG^7A?hypw!ybxtn2sDraLxDjC6@xhmSPVc}E}poZ1ONa4|Nj
+TDD0 Z q9ByK{C#2R1s+Pijv;WnV4>uO2qmPj!R;gf00030{{
+TDD7 Z A|)+(p_=CcN-p5AbM*7~1$!Hms-U3+bB4EP2=N6s7ytkO0RR6
+TDD-7 Z B0YJ7?SVVV6N{7Fke%e^N~)6p00030{{
+TDD-4 Z BIG12i8=(D-%$$zD1hZRY=wZID<XB{0RR910RR6
+TDD0 Z B0ZF#w!6XIqX5b9UJw`g1%`q`1z6QOdO}M^e{>`80{{R30RR6
+TDD2 Z BHKwQR^f3HiqnY#00000|Nj
+TDD-5 Z BGyTP@Cp{mC2-5!5VbBO<#>hq0UZTb2-A$*puw5K00000|Nj
+TDD3 Z qOX$>WxB5;PA35X00960
+TDD-4 Z B0l20;VhU1NCl)H)N$Yf5^5Q|Y<EF)9N?~WbH(W-00000|Nj
+TDD4 Z qOOx%K~93%<%<YIOef)KH~|0v0RR6
+TDD10 Z 8icJ%00000|Nj
+TDD645109931 search d67fe1 [ 1000 cap:1000 may:3308 prune:147 dead:44 reject:17 done:4 ]> show done
+TDD-641317885 search d67fe1 [ 1000 cap:1000 may:3308 prune:147 dead:44 reject:17 done:4 ]> show 1
+TDD8672084 search d67fe1 [ 1000 cap:1000 may:3308 prune:147 dead:44 reject:17 done:4 ]> show 2
+TDD-1368046 search d67fe1 [ 1000 cap:1000 may:3308 prune:147 dead:44 reject:17 done:4 ]> showe 1
+TDD-9808065 search d67fe1 [ 1000 cap:1000 may:3308 prune:147 dead:44 reject:17 done:4 ]> show 1
+TDD64049081 search d67fe1 [ 1000 cap:1000 may:3308 prune:147 dead:44 reject:17 done:4 ]> ret
+TDD-65336919 change: 33 
+TDD-201 change: 24 
+TDD-5 change: 33 Q
+TDD-1 change: 34 
+TDD-1 change: 36 
+TDD0 change: 42 
+TDD0 change: 54 
+TDD0 change: 43 U
+TDD0 change: 54 M
+TDD0 change: 44 
+TDD0 change: 66 M
+TDD0 change: 45 F
+TDD0 change: 47 
+TDD0 change: 46 E
+TDD-1 change: 47 
+TDD0 change: 47 
+TDD0 change: 64 I
+TDD0 change: 76 
+TDD0 change: 72 E
+TDD0 change: 85 
+TDD0 change: 73 E
+TDD-1 change: 77 
+TDD0 change: 74 D
+TDD-1 change: 76 
+TDD0 change: 75 
+TDD0 change: 76 
+TDD0 change: 76 
+TDD0 change: 77 
+TDD0 change: 77 
+TDD0 change: 85 
+TDD0 change: 84 
+TDD0 change: 85 
+TDD0 change: 85 
+TDD0 change: 36 T
+TDD0 change: 86 
+TDD0 change: 52 O
+TDD2 change: 87 
+TDD-3 change: 53 O
+TDD0 change: 55 I
+TDD0 change: 56 A
+TDD6 change: 57 K
+TDD-6 change: 63 T
+TDD0 change: 65 N
+TDD0 change: 67 A
+TDD0 change: 68 N
+TDD0 change: 71 J
+TDD767476 [prior:2158 bet:2160]> /res
+TDD-311554 Press <Enter> to 📋 or `>` for line prompt 
+TDD-453331 result: "\u2728 Spaceword.org Daily 2025-06-08 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 131/220 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD3018991 [prior:2160]> /store
