@@ -14,3 +14,36 @@ TDD2869099 letters? nooqttu
 TDD-2869258 letters: |AADEEEFIIJKMMNNOOQTTU|
 TDD1096102 letters. 
 TDD3063579 [doit:100]> /store
+T2.0355347110016737 now: 2025-06-08T08:16:22EDT
+TD1326554 [doit:100]> /sea
+TDD2201503 search 25eb85 [ 1 ]> cap 1000
+TDD-2880068 search 25eb85 [ 1 cap:1000 ]> **
+TDD162642509 search 25eb85 [ 1000 cap:1000 may:6440 prune:134 done:4 dead:4 ]> show done
+TDD-160162678 search 25eb85 [ 1000 cap:1000 may:6440 prune:134 done:4 dead:4 ]> show 1
+TDD70313254 search 25eb85 [ 1000 cap:1000 may:6440 prune:134 done:4 dead:4 ]> show 3
+TDD2696065 search 25eb85 [ 1000 cap:1000 may:6440 prune:134 done:4 dead:4 ]> ret
+TDD-76136937 change: 23 Q
+TDD-192 change: 33 A
+TDD-4 change: 40 I
+TDD-1 change: 41 M
+TDD0 change: 42 A
+TDD0 change: 43 M
+TDD0 change: 53 U
+TDD0 change: 63 T
+TDD0 change: 65 F
+TDD0 change: 71 J
+TDD0 change: 72 O
+TDD0 change: 73 I
+TDD0 change: 74 N
+TDD0 change: 75 E
+TDD0 change: 76 D
+TDD0 change: 83 K
+TDD0 change: 84 E
+TDD0 change: 85 T
+TDD0 change: 86 O
+TDD0 change: 87 N
+TDD0 change: 88 E
+TDD1063537 [doit:2137]> /res
+TDD-551408 Press <Enter> to 📋 or `>` for line prompt 
+TDD-509039 result: "\u2728 Spaceword.org Daily 2025-06-08 \u2728\n\n\ud83c\udfc6 Score: 2137\n\ud83c\udfc5 Rank: 176/207 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +37\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD1089826 [prior:2137]> /store
