@@ -1,0 +1,60 @@
+T0.00020522200065897778 now: 2025-06-08T08:08:36EDT
+TD37 site: dontwordle.com
+TDD-6 wordlist: nwl2023.txt
+TDD4163841 1> *
+TDD1540228 <INT>
+T0.048407551999844145 now: 2025-06-08T08:09:04EDT
+TD1177229 1> * -v
+TDD7287781 <INT>
+T0.04751455800214899 now: 2025-06-08T08:10:07EDT
+TD867144 1> * 
+TDD7820935 1> *
+TDD28624383 1> tried tazza nMnnn
+TDD-37312203 tried: TAZZA n m n n n
+TDD1999452 2> *
+TDD11768566 2> tried gulag nnnMn
+TDD-13768174 tried: GULAG n n n m n
+TDD5927801 3> undo
+TDD-5927826 undo
+TDD1215796 2> undo
+TDD-1215834 undo
+TDD2967980 1> *
+TDD6520098 1> tried miffy nnnnn
+TDD-9488006 tried: MIFFY n n n n n
+TDD1727810 2> *
+TDD8168230 2> tried keeve nnnnn
+TDD-9896051 tried: KEEVE n n n n n
+TDD1111792 3> *
+TDD13008487 3> tried shush nnnnY
+TDD-14120272 tried: SHUSH n n n n Y
+TDD2175543 4> undo
+TDD-2175575 undo
+TDD3759974 3> *
+TDD9560014 3> tried cools MYnnn
+TDD-13319972 tried: COOLS m Y n n n
+TDD2624103 4> undo
+TDD-2624128 undo
+TDD4663630 3> *
+TDD6672542 3> tried sluts nnnnn
+TDD-11336146 tried: SLUTS n n n n n
+TDD695787 4> *
+TDD3968085 4> *
+TDD1592106 4> * -sans
+TDD51264711 4> tried razor YMnMn
+TDD-57520674 tried: RAZOR Y m n m n
+TDD1919865 5> undo
+TDD-1919911 undo
+TDD4096153 4> *
+TDD-2384501 4> * -sans
+TDD32552875 4> tried adobo MnMnn
+TDD-34264480 tried: ADOBO m n m n n
+TDD5655752 5> *
+TDD11624248 5> tried wagon nMnMn
+TDD-17280009 tried: WAGON n m n m n
+TDD2223808 6> *
+TDD8000239 6> tried poppa nYnnM
+TDD-10224041 tried: POPPA n Y n n m
+TDD3087833 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3085136 result: "Don't Wordle 1111 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6011\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2320\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c276\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c34\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c8\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe83\nUndos used: 5\n\n  3 words remaining\nx 7 unused letters\n= 21 total score"
+TDD-2162 puzzle_id: #1111
+TDD-636 <STOP>
