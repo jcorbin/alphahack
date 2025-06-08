@@ -1,0 +1,46 @@
+T0.00024135399871738628 now: 2025-06-08T07:18:50EDT
+TD40 site: alfagok.diginaut.net
+TDD184684 loaded 399871 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (981 words excluded) asof c287b600c8422e0c6a94058d186fdffd6354745d
+TDD11073916 [0 : 199922 : 399871] lijm? b
+TDD-11258477 progress: -1 199922 lijm
+TDD2039977 [0 : 99783 : 199922] ex? a
+TDD-2040064 progress: 1 99783 ex
+TDD1823723 [99784 : 149489 : 199922] huis? a
+TDD-1823741 progress: 1 149489 huis
+TDD1743886 [149490 : 174599 : 199922] kind? a
+TDD-1743874 progress: 1 174599 kind
+TDD1904119 [174600 : 187243 : 199922] kroon? a
+TDD-1904121 progress: 1 187243 kroon
+TDD1848060 [187244 : 193563 : 199922] lavendel? b
+TDD-1848064 progress: -1 193563 lavendel
+TDD1999821 [187244 : 190403 : 193563] l-kamer? !
+TDD1503949 [187244 : 190403 : 193562] l-kamers? !
+TDD-1295864 [187244 : 190403 : 193561] l-profiel? 
+TDD1216211 [187244 : 190403 : 193561] l-profiel? .
+TDD-3423977 viewing: @190403 C3 [ 190400 190406 ] search: [ 187244 193561 ]
+TDD4615579 > -
+TDD-4615387 viewing: @190403 C6 [ 190397 190409 ] search: [ 187244 193561 ]
+TDD1862968 > -
+TDD-1862841 viewing: @190403 C12 [ 190391 190415 ] search: [ 187244 193561 ]
+TDD3599393 > @+7
+TDD-3599666 viewing: @190410 C12 [ 190398 190422 ] search: [ 187244 193561 ]
+TDD1775817 > 
+TDD3159473 [187244 : 190410 : 193561] la? b
+TDD-4935473 progress: -1 190410 la
+TDD3146993 [187244 : 188815 : 190410] kunststof? b
+TDD-3146838 progress: -1 188815 kunststof
+TDD2157361 [187244 : 187990 : 188815] krul? b
+TDD-2157359 progress: -1 187990 krul
+TDD2103463 [187244 : 187421 : 187990] krui? a
+TDD-2103461 progress: 1 187421 krui
+TDD2079215 [187422 : 187663 : 187990] kruis? it
+TDD-2079219 progress: 0 187663 kruis
+TDD-176 [187422 : 187663 : 187990] <Done>.
+TDD2663321 press <Return> to finish
+TDD-2494652 Press <Enter> to 📋 or `>` for line prompt 
+TDD-164833 share result: "\ud83e\udde9 Puzzel #218\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 49s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-3593 result puzzle: 218
+TDD-279 result guesses: 11
+TDD-4 result time: 49s
+TDD0 result link: alfagok.diginaut.net
+TDD2 <STOP>
