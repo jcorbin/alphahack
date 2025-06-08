@@ -7,8 +7,8 @@ import re
 
 from strkit import MarkedSpec, PeekStr
 
-# TODO rework dontword over
 # TODO evolve hurdle to use
+# TODO evolve square to use
 
 def nope(_arg: Never, mess: str =  'inconceivable') -> Never:
     assert False, mess
@@ -130,13 +130,30 @@ def test_attempt_notes(spec: MarkedSpec):
 
 @final
 class Word:
-    def __init__(self, size: int, alpha: Iterable[str]):
+    '''
+    Word carries search state for a wordle-style game.
+    '''
+
+    def __init__(self,
+                 size: int,
+                 alpha: Iterable[str] = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+                 ):
         uni = tuple(alpha)
         self.alpha = uni
         self.yes: list[str] = [''] * size
         self.may: set[str] = set()
         self.max: dict[str, int] = dict()
         self.can: tuple[set[str], ...] = tuple(set(uni) for _ in range(size))
+
+    def __len__(self):
+        return len(self.can)
+
+    def reset(self):
+        size = len(self)
+        self.yes = [''] * size
+        self.may = set()
+        self.max = dict()
+        self.can = tuple(set(self.alpha) for _ in range(size))
 
     @property
     def word(self):
@@ -210,26 +227,32 @@ class Word:
             else:
                 self.cannot(c)
 
-    def re_may(self, i: int, less: Iterable[str] = ''):
+    def re_may(self,
+               i: int,
+               less: Iterable[str]|None = None,
+               void: Iterable[str]|None = None,
+               ):
         alpha = self.can[i]
-        lc = Counter(less)
-        if lc:
+        if less is not None:
+            lc = Counter(less)
             alpha = alpha.difference(
                 c
                 for c, n in lc.items()
                 if c in self.max
                 if self.max[c] - n <= 0)
+        if void is not None:
+            alpha = alpha.difference(void)
         return f'[{"".join(char_ranges(alpha))}]'
 
-    def re_can(self):
+    def re_can(self, void: Iterable[str]|None = None):
         return ''.join(
-            known or self.re_may(i)
+            known or self.re_may(i, void=void)
             for i, known in enumerate(self.yes))
 
-    def re_may_alts(self):
+    def re_may_alts(self, void: Iterable[str]|None = None):
         may = tuple(sorted(self.may))
         can = tuple(
-            known or self.re_may(i, may)
+            known or self.re_may(i, may, void=void)
             for i, known in enumerate(self.yes))
         ix = tuple(
             i
@@ -246,11 +269,11 @@ class Word:
                     parts[i] = pmay[j]
                 yield ''.join(parts)
 
-    def patstr(self):
-        return '|'.join(self.re_may_alts()) if self.may else self.re_can()
+    def patstr(self, void: Iterable[str]|None = None):
+        return '|'.join(self.re_may_alts(void=void)) if self.may else self.re_can(void=void)
 
-    def pattern(self):
-        return re.compile(self.patstr())
+    def pattern(self, void: Iterable[str]|None = None):
+        return re.compile(self.patstr(void=void), flags=re.I)
 
     # TODO def filter(self, word: str):
 
@@ -293,7 +316,7 @@ class Word:
 
 ''')
 def test_word(spec: MarkedSpec):
-    word = Word(5, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')
+    word = Word(5)
     for line in spec.inlines:
         at = Attempt.parse(line)
         at.word = at.word.upper()

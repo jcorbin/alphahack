@@ -5,42 +5,15 @@ import json
 import re
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
-from itertools import chain
 from os import path
-from typing import Literal, cast, final, override
+from typing import cast, final, override
 
 from sortem import Chooser, DiagScores, Possible, RandScores
 from store import StoredLog, git_txn
 from strkit import spliterate
 from ui import PromptUI
+from wordlish import Attempt, Word
 from wordlist import WordList
-
-def char_pairs(alpha: Iterable[str]):
-    a, b = '', ''
-    for c in sorted(alpha):
-        if not a: a = c
-        if not b: b = c
-        dcb = ord(c) - ord(b)
-        if dcb > 1:
-            yield a, b
-            a = b = c
-        else:
-            b = c
-    if a and b:
-        yield a, b
-
-def char_ranges(alpha: Iterable[str]):
-    for a, b in char_pairs(alpha):
-        dba = ord(b) - ord(a)
-        if dba == 0:
-            yield a
-        elif dba == 1:
-            yield a
-            yield b
-        else:
-            yield a
-            yield '-'
-            yield b
 
 @final
 class DontWord(StoredLog):
@@ -69,13 +42,9 @@ class DontWord(StoredLog):
         self.given_wordlist: bool = False
         self._wordlist: WordList|None = None
 
-        self.tried: list[str] = []
-        self.feedback: list[tuple[Literal[0,1,2], ...]] = []
-
-        self.may_letters: set[str] = set()
-        self.nope_letters: set[str] = set()
+        self.tried: list[Attempt] = []
         self.void_letters: set[str] = set()
-        self.word: list[str] = ['' for _ in range(self.size)]
+        self.word = Word(self.size)
 
         self.failed: bool = False
         self.fail_text: str = ''
@@ -86,11 +55,8 @@ class DontWord(StoredLog):
         self.play_prompt = PromptUI.Prompt(self.play_prompt_mess, {
             'fail': self.do_fail,
             'guess': self.do_guess,
-            'may': self.do_may,
-            'no': self.do_no,
             'tried': self.do_tried,
             'undo': self.do_undo,
-            'word': self.do_word,
             '*': 'guess',
         })
 
@@ -152,42 +118,11 @@ class DontWord(StoredLog):
                     continue
 
                 match = re.match(r'''(?x)
-                    nope : (?: \s+ ( [^\s]+ ) )?
-                    \s* ( .* )
+                    tried :
+                    \s+ (?P<attempt> .+ )
                     $''', rest)
                 if match:
-                    nope, rest = match.groups()
-                    assert rest == ''
-                    self.nope_letters = set(nope or '')
-                    continue
-
-                match = re.match(r'''(?x)
-                    may : (?: \s+ ( [^\s]+ ) )?
-                    \s* ( .* )
-                    $''', rest)
-                if match:
-                    may, rest = match.groups()
-                    assert rest == ''
-                    self.may_letters = set(may or '')
-                    continue
-
-                match = re.match(r'''(?x)
-                    tried : \s+ (?P<word> [\w_]+ )
-                    (?: \s+ (?P<feedback> [012]+ ) )?
-                    \s* ( .* )
-                    $''', rest)
-                if match:
-                    word = match[1]
-                    fs = match[2]
-                    rest = match[3]
-                    assert rest == ''
-                    def fp():
-                        for c in fs or '':
-                            if c == '0': yield 0
-                            elif c == '1': yield 1
-                            elif c == '2': yield 2
-                            else: raise ValueError(f'invalid feedback char {c}')
-                    self.apply_tried(word, tuple(fp()))
+                    self.apply_tried(Attempt.parse(match[1], expected_size=self.size))
                     continue
 
                 match = re.match(r'''(?x)
@@ -198,16 +133,6 @@ class DontWord(StoredLog):
                     rest = match[1]
                     assert rest == ''
                     self.apply_undo()
-                    continue
-
-                match = re.match(r'''(?x)
-                    word : \s+ ( [^\s]+ )
-                    \s* ( .* )
-                    $''', rest)
-                if match:
-                    word, rest = match.groups()
-                    assert rest == ''
-                    self.update_word(ui, word)
                     continue
 
                 match = re.match(r'''(?x)
@@ -249,26 +174,15 @@ class DontWord(StoredLog):
 
     def play_prompt_mess(self, ui: PromptUI):
         if self.play_prompt.re == 0:
-            for n, (word, feedback) in enumerate(zip(self.tried, self.feedback), 1):
-                fb = (
-                    'Y' if c == 2 else
-                    'm' if c == 1 else
-                    'n'
-                    for c in feedback)
-                ui.print(f'{n}. {" ".join(word.upper())} {" ".join(fb)}')
-            if self.nope_letters:
-                ui.print(f'No: {" ".join(x.upper() for x in sorted(self.nope_letters))}')
-            if self.may_letters:
-                ui.print(f'May: {" ".join(x.upper() for x in sorted(self.may_letters))}')
-            if self.word:
-                ui.print(f'Word: {" ".join(x.upper() if x else "_" for x in self.word)}')
+            for n, at in enumerate(self.tried, 1):
+                ui.print(f'{n}. {at}')
             if self.void_letters:
                 ui.print(f'Avoid: {" ".join(x.upper() for x in sorted(self.void_letters))}')
         return f'{len(self.tried)+1}> '
 
     def play(self, ui: PromptUI):
         if self.run_done: return self.finish
-        if all(self.word): return self.finish
+        if self.word.done: return self.finish
         if len(self.tried) >= 6: return self.finish
         return self.play_prompt(ui)
 
@@ -283,19 +197,19 @@ class DontWord(StoredLog):
         ui.log('undo')
         self.apply_undo()
 
+    def word_letters(self) -> Generator[str]:
+        for c in self.word.yes:
+            if c: yield c
+        yield from self.word.may
+
     def apply_undo(self):
-        prior = set(chain(
-            (c for c in self.word if c),
-            self.may_letters))
+        prior = set(self.word_letters())
         tried = self.tried[:-1]
-        feedback = self.feedback[:-1]
         void = tuple(self.void_letters)
         self.reset_word()
-        for word, fb in zip(tried, feedback):
-            self.apply_tried(word, fb)
-        prior.difference_update(chain(
-            (c for c in self.word if c),
-            self.may_letters))
+        for at in tried:
+            self.apply_tried(at)
+        prior.difference_update(self.word_letters())
         self.void_letters.update(void)
         self.void_letters.update(prior)
 
@@ -315,170 +229,27 @@ class DontWord(StoredLog):
         ui.log(f'fail: {self.fail_text}')
         return self.finish
 
-    def do_may(self, ui: PromptUI):
-        '''
-        record feedback on letters that may be used; usage `may AB C D ...`
-
-        NOTE: use `may .` to clear all prior may letters
-        '''
-        some = False
-        for tok in ui.tokens:
-            if tok.startswith('.'):
-                tok = tok[1:]
-                self.may_letters = set()
-            self.may_letters.update(tok)
-            some = True
-        if some:
-            ui.log(f'may: {"".join(sorted(self.may_letters))}')
-
-    def do_no(self, ui: PromptUI):
-        '''
-        record feedback on letters that cannot be used; usage `no AB C D ...`
-        '''
-        nop: set[str] = set()
-        some = False
-        for tok in ui.tokens:
-            if tok.startswith('.'):
-                tok = tok[1:]
-                self.nope_letters = set()
-                some = True
-            nop.update(tok)
-
-        some = some or any(x not in self.nope_letters for x in nop)
-        some_may = any(x in self.may_letters for x in nop)
-        some_word = any(x in self.word for x in nop)
-
-        self.nope_letters.update(nop)
-        self.may_letters.difference_update(nop)
-        self.word = ['_' if x in self.nope_letters else x for x in self.word]
-
-        if some:
-            ui.log(f'nope: {"".join(sorted(self.nope_letters))}')
-        if some_may:
-            ui.log(f'may: {"".join(sorted(self.may_letters))}')
-        if some_word:
-            ui.log(f'word: {"".join(x if x else "_" for x in self.word)}')
-
     def do_tried(self, ui: PromptUI):
         '''
         record an attempted word; usage: `tried <word>`
         '''
-        word = next(ui.tokens, None)
-        if word is not None:
-            if len(word) != self.size:
-                ui.print(f'expected {self.size}-length word, got {len(word)}')
-                return
-            feedback: list[Literal[0,1,2]] = []
-            for m in ui.tokens.consume(r'(?x) ([Nn0]) | ([Mm1]) | ([Yy2])'):
-                feedback.append(0 if m[1] else 1 if m[2] else 2)
-                if len(feedback) >= self.size: break
-            self.record_tried(ui, word, tuple(feedback))
-
-    def record_tried(self, ui: PromptUI, word: str, feedback: tuple[Literal[0, 1, 2], ...]):
-        fb = ''.join(f'{c}' for c in feedback)
-        ui.log(f'tried: {word} {fb}')
-        self.apply_tried(word, feedback)
-
-    def apply_tried(self, word: str, feedback: tuple[Literal[0, 1, 2], ...]):
-        self.tried.append(word)
-        self.feedback.append(feedback)
-        for i, (c, f) in enumerate(zip(word, feedback)):
-            if f == 2:
-                self.word[i] = c
-                if c in self.may_letters:
-                    self.may_letters.remove(c)
-        mayc = set(
-            c
-            for c, f in zip(word, feedback)
-            if f in (0, 1))
-        for c in mayc:
-            g = tuple(
-                f
-                for cc, f in zip(word, feedback)
-                if cc == c)
-            if any(f == 1 for f in g):
-                self.may_letters.add(c)
-            elif c in self.may_letters:
-                self.may_letters.remove(c)
-            if all(f == 0 for f in g) and c not in self.word:
-                self.nope_letters.add(c)
-
-    def do_word(self, ui: PromptUI):
-        '''
-        record feedback on found word letters; usage: `word A_B_C` ( _ means unknown )
-        '''
-        if not ui.tokens:
-            ui.print('no word feedback given')
+        try:
+            at = Attempt.parse(ui.tokens, expected_size=self.size)
+        except ValueError as err:
+            ui.print(f'! {err}')
             return
-        word = next(ui.tokens)
-        if len(word) > self.size:
-            ui.print(f'given word too long ({len(word)}) must be at most {self.size}')
-            return
-        self.update_word(ui, word)
+        at.word = at.word.upper()
+        ui.log(f'tried: {at}')
+        self.apply_tried(at)
 
-    def update_word(self, ui: PromptUI, word: str):
-        word = word.lower()
-        for i, x in enumerate(word[:self.size]):
-            self.word[i] = '' if x == '_' else x
-
-        word = ''.join(x if x else '_' for x in self.word)
-        ui.log(f'word: {word}')
-
-        if all(self.word):
-            if word not in self.tried:
-                self.tried.append(word)
-                self.feedback.append(tuple(2 for _ in word))
-            self.reset_word()
+    def apply_tried(self, at: Attempt):
+        self.tried.append(at)
+        self.word.collect(at)
 
     def reset_word(self):
         self.tried = []
-        self.feedback = []
-        for i in range(self.size): self.word[i] = ''
-        self.nope_letters = set()
-        self.may_letters = set()
         self.void_letters = set()
-
-    def describe_space(self):
-        def parts():
-            word = ''.join(l if l else '_' for l in self.word).upper()
-            yield f'{word}'
-            if self.may_letters:
-                may = ''.join(self.may_letters).upper()
-                yield f'may: {may}'
-            if self.nope_letters:
-                nope = ''.join(self.nope_letters).upper()
-                yield f'nope: {nope}'
-        return ' '.join(parts())
-
-    def pattern(self, _ui: PromptUI, nope: Iterable[str]|None = None):
-        alpha = set('abcdefghjiklmnopqrstuvwxyz')
-        uni = '.'
-
-        if nope is None:
-            nope = chain(self.nope_letters, self.void_letters)
-        if nope:
-            alpha.difference_update(nope)
-            uni = f'[{"".join(char_ranges(alpha))}]'
-
-        if not self.may_letters:
-            pat = ''.join(x if x else uni for x in self.word)
-            # ui.print(f'PATTERN {pat!r}')
-            return pat
-
-        def alts():
-            from itertools import combinations, permutations
-            may = sorted(self.may_letters)
-            ix = [i for i in range(len(self.word)) if not self.word[i]]
-            for mix in combinations(ix, len(may)):
-                parts = [uni if not let else let for let in self.word]
-                for pmay in permutations(may):
-                    for j, i in enumerate(mix):
-                        parts[i] = pmay[j]
-                    pat = ''.join(parts)
-                    # ui.print(f'PATTERN | {pat!r}')
-                    yield pat
-
-        return '|'.join(alts())
+        self.word.reset()
 
     def guess(self, ui: PromptUI, show_n: int=10):
         verbose = 0
@@ -517,7 +288,9 @@ class DontWord(StoredLog):
             ui.print(f'! invalid * arg {next(ui.tokens)!r}')
             return
 
-        pat = re.compile(self.pattern(ui, nope=self.nope_letters if sans else None))
+        pat = self.word.pattern(
+            void=None if sans or not self.void_letters else self.void_letters
+        )
         if verbose:
             ui.print(f'* pattern: {pat}')
         words = set(self.find(pat))
@@ -527,7 +300,7 @@ class DontWord(StoredLog):
             (wi, word)
             for wi, word in enumerate(words)
             if any(
-                not self.word[li]
+                not self.word.yes[li]
                 for _, _, li in self.tried_letters(word))]
         skip_words = set(word for _, word in tried_words)
         words.difference_update(skip_words)
@@ -538,7 +311,7 @@ class DontWord(StoredLog):
                     for i, word in tried_words:
                         ui.print(f'  {i+1}. {word}')
                         for let, j, i in self.tried_letters(word):
-                            if not self.word[i]:
+                            if not self.word.yes[i]:
                                 ui.print(f'    - {let.upper()} from {self.tried[j]!r}[{i}]')
 
         pos = Possible(
@@ -548,7 +321,7 @@ class DontWord(StoredLog):
             verbose=verbose)
 
         def parts():
-            yield f'{pos} from {self.describe_space()}'
+            yield f'{pos} from {self.word}'
             if tried_words:
                 yield f'less ∩tried {len(tried_words)}'
 
@@ -563,9 +336,9 @@ class DontWord(StoredLog):
 
     def tried_letters(self, word: str):
         for i, let in enumerate(word):
-            if let not in self.may_letters: continue
+            if let not in self.word.may: continue
             for j, prior in enumerate(self.tried):
-                if prior[i] == let:
+                if prior.word[i] == let:
                     yield let, j, i
 
     def select(self, _ui: PromptUI, words: Sequence[str], jitter: float = 0.5):
@@ -696,15 +469,15 @@ class Result:
     unused: int
     score: int
 
-    def report_body(self, words: Iterable[str]):
-        ws = tuple(words)
+    def report_body(self, tried: Iterable[Attempt]):
+        ws = tuple(tried)
         yield self.outcome
         yield f'> {self.fortune}'
         yield ''
         for ri, (rec, rem) in enumerate(zip(self.records, self.remains)):
             word = ws[ri] if ri < len(ws) else '?????'
             marks = ''.join(self.marks[i] for i in rec)
-            yield f'    {marks} tried:{word!r} remain:{rem}'
+            yield f'    {marks} tried:{word} remain:{rem}'
         yield ''
         yield f'    Undos used: {self.undos}'
         yield ''
