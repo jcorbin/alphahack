@@ -1,0 +1,39 @@
+T0.00021990300228935666 now: 2025-06-08T07:20:00EDT
+TD69667 loaded 196559 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (44 words excluded) asof c287b600c8422e0c6a94058d186fdffd6354745d
+TDD6488850 [0 : 98236 : 196559] mach? b
+TDD-6558364 progress: -1 98236 mach
+TDD1688012 [0 : 47396 : 98236] dis? a
+TDD-1688088 progress: 1 47396 dis
+TDD1480036 [47397 : 72816 : 98236] gremolata? b
+TDD-1480047 progress: -1 72816 gremolata
+TDD1471754 [47397 : 60099 : 72816] face? a
+TDD-1471742 progress: 1 60099 face
+TDD1527922 [60100 : 66455 : 72816] french? b
+TDD-1527934 progress: -1 66455 french
+TDD1447951 [60100 : 63255 : 66455] flag? a
+TDD-1447960 progress: 1 63255 flag
+TDD1384986 [63256 : 64852 : 66455] foment? b
+TDD-1384858 progress: -1 64852 foment
+TDD1342517 [63256 : 64052 : 64852] flood? a
+TDD-1342478 progress: 1 64052 flood
+TDD1351644 [64053 : 64395 : 64852] fluor? b
+TDD-1351797 progress: -1 64395 fluor
+TDD2680119 [64053 : 64212 : 64395] flour? b
+TDD-2680124 progress: -1 64212 flour
+TDD4417022 [64053 : 64132 : 64212] florentine? a
+TDD-4416861 progress: 1 64132 florentine
+TDD1743266 [64133 : 64166 : 64212] florist? a
+TDD-1743390 progress: 1 64166 florist
+TDD1655168 [64167 : 64188 : 64212] flota? b
+TDD-1655036 progress: -1 64188 flota
+TDD1782872 [64167 : 64175 : 64188] floss? it
+TDD-1783041 progress: 0 64175 floss
+TDD-54 [64167 : 64175 : 64188] <Done>.
+TDD2975929 press <Return> to finish
+TDD-2688054 Press <Enter> to 📋 or `>` for line prompt 
+TDD-285926 share result: "\ud83e\udde9 Puzzle #684\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 24s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1639 result puzzle: 684
+TDD-304 result guesses: 14
+TDD-10 result time: 24s
+TDD-1 result link: alphaguess.com
+TDD2 <STOP>
