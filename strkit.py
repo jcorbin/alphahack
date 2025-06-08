@@ -371,10 +371,21 @@ class MarkedSpec:
         return self.get_id()
 
     @property
-    def input(self):
+    def inlines(self) -> Generator[str]:
         lines = self.speclines
         for _ in lines.consume(self.id_pattern): pass
-        return '\n'.join(lines.consume(self.input_pattern, lambda m: cast(str, m.group(1) or '')))
+        yield from lines.consume(self.input_pattern, lambda m: cast(str, m.group(1) or ''))
+
+    @property
+    def input(self):
+        return '\n'.join(self.inlines)
+
+    @property
+    def bodylines(self) -> Generator[str]:
+        lines = self.speclines
+        for _ in lines.consume(self.id_pattern): pass
+        for _ in lines.consume(self.input_pattern): pass
+        yield from lines
 
     @property
     def props(self):
