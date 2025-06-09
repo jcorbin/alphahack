@@ -2,7 +2,7 @@ from collections import Counter
 from collections.abc import Iterable
 from dataclasses import dataclass
 from itertools import combinations, permutations
-from typing import Literal, Never, final, override
+from typing import Literal, Never, cast, final, override
 import re
 
 from strkit import MarkedSpec, PeekStr
@@ -155,6 +155,16 @@ class Word:
         self.may = set()
         self.max = dict()
         self.can = tuple(set(self.alpha) for _ in range(size))
+
+    @property
+    def possible(self) -> int:
+        free = sum(not let for let in self.yes)
+        if self.may:
+            free -= len(self.may)
+        space: int = cast(int, len(self.alpha) ** free) # valid because free is a natural number
+        if self.may:
+            for n in range(len(self.may), 1, -1): space *= n
+        return space
 
     @property
     def word(self):
