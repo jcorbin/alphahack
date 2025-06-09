@@ -137,18 +137,20 @@ class Word:
                  size: int,
                  alpha: Iterable[str] = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
                  ):
-        uni = tuple(alpha)
-        self.alpha = uni
+        self.uni = tuple(alpha)
+        self.alpha = set(self.uni)
         self.yes: list[str] = [''] * size
         self.may: set[str] = set()
         self.max: dict[str, int] = dict()
-        self.can: tuple[set[str], ...] = tuple(set(uni) for _ in range(size))
+        self.can: tuple[set[str], ...] = tuple(
+            set(self.alpha) for _ in range(size))
 
     def __len__(self):
         return len(self.can)
 
     def reset(self):
         size = len(self)
+        self.alpha = set(self.uni)
         self.yes = [''] * size
         self.may = set()
         self.max = dict()
@@ -167,9 +169,9 @@ class Word:
             if self.may:
                 yield f'~{"".join(sorted(self.may))}'
 
-            cant = set(self.alpha)
+            cant = set(self.uni)
             for cn in self.can:
-                cant.difference_update(cn)
+                cant = cant.difference(cn)
             if cant:
                 yield f'-{"".join(sorted(cant))}'
 
@@ -183,6 +185,7 @@ class Word:
         return all(l for l in self.yes)
 
     def cannot(self, c: str):
+        self.alpha.difference_update((c,))
         if c in self.may:
             self.may.remove(c)
         if c in self.max:
