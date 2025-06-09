@@ -1,0 +1,32 @@
+T0.00021130401000846177 now: 2025-06-09T09:07:44EDT
+TD38 site: dontwordle.com
+TDD-7 wordlist: nwl2023.txt
+TDD943471 1> *
+TDD8888657 1> tried ebbed nnnnn
+TDD-9831916 tried: EBBED n n n n n
+TDD751441 2> *
+TDD8512440 2> tried xylyl nnnnn
+TDD-9264037 tried: XYLYL n n n n n
+TDD695829 3> *
+TDD9912293 3> tried jujus nnnnn
+TDD-10608118 tried: JUJUS n n n n n
+TDD983825 4> *
+TDD10896374 4> tried hooch YnnYY
+TDD-11880190 tried: HOOCH Y n n Y Y
+TDD2159673 5> undo
+TDD-2159721 undo
+TDD3287950 4> *
+TDD4016141 4> tried mamma nnnnn
+TDD-7304064 tried: MAMMA n n n n n
+TDD735948 5> *
+TDD11240089 5> tried rotor nnYnn
+TDD-11976025 tried: ROTOR n n Y n n
+TDD1120126 6> *
+TDD2487455 6> *
+TDD-103413 6> * -sans
+TDD18247866 6> tried ictic mmYnn
+TDD-21752028 tried: ICTIC m m Y n n
+TDD3727856 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3725354 result: "Don't Wordle 1112 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5399\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3180\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c917\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c274\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c6\nUndos used: 1\n\n  6 words remaining\nx 10 unused letters\n= 60 total score"
+TDD-1745 puzzle_id: #1112
+TDD-845 <STOP>
