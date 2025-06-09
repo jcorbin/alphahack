@@ -84,6 +84,16 @@ class Search(StoredLog):
         self.result_text: str = ''
         self._result: Result|None = None
 
+        self.prompt = PromptUI.Prompt(self.display_mess, {
+            'gen': self.do_gen,
+            'fail': self.do_fail,
+            'may': self.do_may,
+            'no': self.do_no,
+            'tried': self.do_tried,
+            'word': self.do_word,
+            '*': 'gen',
+        })
+
     @property
     def wordlist(self):
         if self._wordlist is not None:
@@ -218,93 +228,87 @@ class Search(StoredLog):
         if self.result is not None: return True
         return False
 
+    def display_mess(self, ui: PromptUI):
+        n = len(self.words)+1
+        if self.nope_letters:
+            ui.print(f'No: {" ".join(x.upper() for x in sorted(self.nope_letters))}')
+        if self.may_letters:
+            ui.print(f'May: {" ".join(x.upper() for x in sorted(self.may_letters))}')
+        if self.word:
+            ui.print(f'Word: {" ".join(x.upper() if x else "_" for x in self.word)}')
+        return f'{n}.{len(self.tried)+1}> '
+
     def display(self, ui: PromptUI):
         if self.run_done or len(self.words) >= self.size:
             return self.finish
+        return self.prompt(ui)
 
-        if self.nope_letters:
-            ui.print(f'No: {" ".join(x.upper() for x in sorted(self.nope_letters))}')
+    def do_gen(self, ui: PromptUI):
+        n = ui.tokens.have(r'\d+', lambda m: int(m[0])) or 10
+        return self.guess(ui, show_n=n)
 
-        if self.may_letters:
-            ui.print(f'May: {" ".join(x.upper() for x in sorted(self.may_letters))}')
+    def do_fail(self, ui: PromptUI):
+        self.failed = True
+        self.fail_text = ui.tokens.rest
+        ui.log(f'fail: {self.fail_text}')
+        return self.finish
 
-        if self.word:
-            ui.print(f'Word: {" ".join(x.upper() if x else "_" for x in self.word)}')
-
-        with ui.input(f'{len(self.words)+1}.{len(self.tried)+1}> ') as tokens:
-            match = tokens.have(r'(\*+)(\d+)?')
-            if match:
-                guess = int(match.group(2)) if match.group(2) else 0 if len(match.group(1)) > 1 else 10
-                return self.guess(ui, show_n=guess)
-
-            if tokens.have(r'fail'):
-                self.failed = True
-                self.fail_text = tokens.rest
-                ui.log(f'fail: {self.fail_text}')
-                return self.finish
-
-            if tokens.have(r'tried'):
-                word = next(tokens, None)
-                if word is not None:
-                    if len(word) != self.size:
-                        ui.print(f'expected {self.size}-length word, got {len(word)}')
-                        return
-                    ui.log(f'tried: {word}')
-                    self.tried.append(word)
+    def do_tried(self, ui: PromptUI):
+        word = next(ui.tokens, None)
+        if word is not None:
+            if len(word) != self.size:
+                ui.print(f'expected {self.size}-length word, got {len(word)}')
                 return
+            ui.log(f'tried: {word}')
+            self.tried.append(word)
 
-            if tokens.have(r'no'):
-                nop: set[str] = set()
+    def do_may(self, ui: PromptUI):
+        some = False
+        for tok in ui.tokens:
+            if tok.startswith('.'):
+                tok = tok[1:]
+                self.may_letters = set()
+            self.may_letters.update(tok)
+            some = True
+        if some:
+            ui.log(f'may: {"".join(sorted(self.may_letters))}')
 
-                some = False
+    def do_no(self, ui: PromptUI):
+        nop: set[str] = set()
 
-                for tok in tokens:
-                    if tok.startswith('.'):
-                        tok = tok[1:]
-                        self.nope_letters = set()
-                        some = True
-                    nop.update(tok)
+        some = False
 
-                some = some or any(x not in self.nope_letters for x in nop)
-                some_may = any(x in self.may_letters for x in nop)
-                some_word = any(x in self.word for x in nop)
+        for tok in ui.tokens:
+            if tok.startswith('.'):
+                tok = tok[1:]
+                self.nope_letters = set()
+                some = True
+            nop.update(tok)
 
-                self.nope_letters.update(nop)
-                self.may_letters.difference_update(nop)
-                self.word = ['_' if x in self.nope_letters else x for x in self.word]
+        some = some or any(x not in self.nope_letters for x in nop)
+        some_may = any(x in self.may_letters for x in nop)
+        some_word = any(x in self.word for x in nop)
 
-                if some:
-                    ui.log(f'nope: {"".join(sorted(self.nope_letters))}')
-                if some_may:
-                    ui.log(f'may: {"".join(sorted(self.may_letters))}')
-                if some_word:
-                    ui.log(f'word: {"".join(x if x else "_" for x in self.word)}')
-                return
+        self.nope_letters.update(nop)
+        self.may_letters.difference_update(nop)
+        self.word = ['_' if x in self.nope_letters else x for x in self.word]
 
-            if tokens.have(r'may'):
-                some = False
-                for tok in tokens:
-                    if tok.startswith('.'):
-                        tok = tok[1:]
-                        self.may_letters = set()
-                    self.may_letters.update(tok)
-                    some = True
-                if some:
-                    ui.log(f'may: {"".join(sorted(self.may_letters))}')
-                return
+        if some:
+            ui.log(f'nope: {"".join(sorted(self.nope_letters))}')
+        if some_may:
+            ui.log(f'may: {"".join(sorted(self.may_letters))}')
+        if some_word:
+            ui.log(f'word: {"".join(x if x else "_" for x in self.word)}')
 
-            if tokens.have(r'word'):
-                if not tokens:
-                    ui.print('no word feedback given')
-                    return
-                word = next(tokens)
-                if len(word) > self.size:
-                    ui.print(f'given word too long ({len(word)}) must be at most {self.size}')
-                    return
-                self.update_word(ui, word)
-                return
-
-            ui.print(f'unknown input: {tokens.raw!r}')
+    def do_word(self, ui: PromptUI):
+        if not ui.tokens:
+            ui.print('no word feedback given')
+            return
+        word = next(ui.tokens)
+        if len(word) > self.size:
+            ui.print(f'given word too long ({len(word)}) must be at most {self.size}')
+            return
+        self.update_word(ui, word)
 
     def update_word(self, ui: PromptUI, word: str):
         word = word.lower()
