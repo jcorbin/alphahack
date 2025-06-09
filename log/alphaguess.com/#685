@@ -1,0 +1,43 @@
+T0.0003019439900526777 now: 2025-06-09T08:56:43EDT
+TD74672 loaded 196559 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (44 words excluded) asof 0db726323f4a7374d86596d537bc99045e67f754
+TDD2903315 [0 : 98236 : 196559] mach? a
+TDD-2977805 progress: 1 98236 mach
+TDD1559776 [98237 : 147398 : 196559] rhumb? b
+TDD-1559873 progress: -1 147398 rhumb
+TDD1447688 [98237 : 122799 : 147398] parr? a
+TDD-1447705 progress: 1 122799 parr
+TDD1623931 [122800 : 135090 : 147398] proper? b
+TDD-1623927 progress: -1 135090 proper
+TDD1391970 [122800 : 128869 : 135090] play? a
+TDD-1391980 progress: 1 128869 play
+TDD1551758 [128870 : 131978 : 135090] prearm? b
+TDD-1551755 progress: -1 131978 prearm
+TDD4975959 [128870 : 130083 : 131978] poly? b
+TDD-4975964 progress: -1 130083 poly
+TDD1591903 [128870 : 129465 : 130083] plush? a
+TDD-1591894 progress: 1 129465 plush
+TDD1479893 [129466 : 129759 : 130083] point? a
+TDD-1479890 progress: 1 129759 point
+TDD1768410 [129760 : 129831 : 130083] pol? a
+TDD-1768412 progress: 1 129831 pol
+TDD1575977 [129832 : 129956 : 130083] politic? b
+TDD-1575990 progress: -1 129956 politic
+TDD1415353 [129832 : 129867 : 129956] pole? a
+TDD-1415352 progress: 1 129867 pole
+TDD1583836 [129868 : 129910 : 129956] police? a
+TDD-1583821 progress: 1 129910 police
+TDD1471923 [129911 : 129932 : 129956] polio? a
+TDD-1471935 progress: 1 129932 polio
+TDD1367825 [129933 : 129940 : 129956] polish? a
+TDD-1367825 progress: 1 129940 polish
+TDD1591922 [129941 : 129948 : 129956] polite? it
+TDD-1591913 progress: 0 129948 polite
+TDD-58 [129941 : 129948 : 129956] <Done>.
+TDD2880017 press <Return> to finish
+TDD-2648031 Press <Enter> to 📋 or `>` for line prompt 
+TDD-230011 share result: "\ud83e\udde9 Puzzle #685\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 27s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1677 result puzzle: 685
+TDD-299 result guesses: 16
+TDD-4 result time: 27s
+TDD0 result link: alphaguess.com
+TDD2 <STOP>
