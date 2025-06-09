@@ -13,34 +13,8 @@ from sortem import Chooser, DiagScores, Possible, RandScores, wrap_item
 from store import StoredLog, git_txn
 from strkit import MarkedSpec, PeekStr, spliterate
 from ui import PromptUI
+from wordlish import Word
 from wordlist import WordList
-
-def char_pairs(alpha: Iterable[str]):
-    a, b = '', ''
-    for c in sorted(alpha):
-        if not a: a = c
-        if not b: b = c
-        dcb = ord(c) - ord(b)
-        if dcb > 1:
-            yield a, b
-            a = b = c
-        else:
-            b = c
-    if a and b:
-        yield a, b
-
-def char_ranges(alpha: Iterable[str]):
-    for a, b in char_pairs(alpha):
-        dba = ord(b) - ord(a)
-        if dba == 0:
-            yield a
-        elif dba == 1:
-            yield a
-            yield b
-        else:
-            yield a
-            yield '-'
-            yield b
 
 @final
 class Search(StoredLog):
@@ -81,7 +55,7 @@ class Search(StoredLog):
         self.rejects: set[str] = set()
 
         self.nope: set[str] = set()
-        self.row_may: list[set[str]] = [set() for _ in range(self.size)]
+        self.row_may: tuple[set[str], ...] = tuple(set() for _ in range(self.size))
 
         self.result_text: str = ''
         self._result: Result|None = None
@@ -188,7 +162,9 @@ class Search(StoredLog):
                     assert rest == ''
                     word_i = int(index)
                     may = cast(str, may)
-                    self.row_may[word_i] = set(let.strip().lower() for let in may.split())
+                    rm = self.row_may[word_i]
+                    rm.clear()
+                    rm.update(let.strip().upper() for let in may.split())
                     continue
 
                 match = re.match(r'''(?x)
@@ -200,7 +176,7 @@ class Search(StoredLog):
                     nope, rest = match.groups()
                     assert rest == ''
                     may = cast(str, nope)
-                    self.nope = set(let.strip().lower() for let in may.split())
+                    self.nope = set(let.strip().upper() for let in may.split())
                     continue
 
                 match = re.match(r'''(?x)
@@ -261,7 +237,7 @@ class Search(StoredLog):
                     index, word, rest = match.groups()
                     assert rest == ''
                     word_i = int(index)
-                    word = cast(str, word).lower()
+                    word = cast(str, word).upper()
                     word = ['' if let == '_' else let for let in word]
                     if len(word) > self.size:
                         word = word[:self.size]
@@ -328,7 +304,8 @@ class Search(StoredLog):
 
     def _match_wordlist(self, pattern: re.Pattern[str]):
         for word in self.wordlist.words:
-            if pattern.fullmatch(word): yield word
+            if pattern.fullmatch(word):
+                yield word.upper()
 
     def okay_letters(self) -> Generator[str]:
         for let in self.grid:
@@ -403,40 +380,35 @@ class Search(StoredLog):
 
     @final
     class Select:
-        alphabet = 'abcdefghijklmnopqrstuvwxyz'
-
         def __init__(self,
-                     word: Iterable[str],
+                     yes: Iterable[str],
                      may: Iterable[str] = (),
                      void: Iterable[str] = (),
                      nope: Iterable[str] = (),
+                     guesses: Iterable[str] = (),
                      row: int|None = None,
                      col: int|None = None,
                      ):
-            self.word = tuple(word)
-            self.may = tuple(sorted(may))
-            self.void = tuple(sorted(void))
-            self.nope = tuple(sorted(nope))
+
+            # TODO synthesize Attempt()s instead?
+
+            yes = tuple(yes)
+            word = Word(len(yes))
+            for i, c in enumerate(yes):
+                word.yes[i] = c
+            word.may.update(may)
+            for c in chain(nope, void):
+                word.cannot(c.upper())
+            for guess in guesses:
+                for i, c in enumerate(guess.upper()):
+                    if yes[i] != c:
+                        word.can[i].difference_update((c,))
+
+            # TODO word.max?
+
             self.row = row
             self.col = col
-
-            self.alpha = set(self.alphabet)
-            if self.nope:
-                self.alpha.difference_update(self.nope)
-            if self.void:
-                self.alpha.difference_update(self.void)
-
-            self.uni = (
-                '.' if len(self.alpha) == len(self.alphabet) else
-                f'[{"".join(char_ranges(self.alpha))}]')
-
-            self.free = sum((1 for let in self.word if not let), 0)
-            if self.may:
-                self.free -= len(self.may)
-
-            self.space: int = len(self.alpha)**self.free
-            if self.may:
-                for n in range(len(self.may), 1, -1): self.space *= n
+            self.word = word
 
         @override
         def __str__(self):
@@ -445,19 +417,9 @@ class Search(StoredLog):
                     yield f'row:{self.row}'
                 elif self.col is not None:
                     yield f'col:{self.col}'
-
-                word = ''.join(l if l else '_' for l in self.word).upper()
-                yield f'word:{word}'
-                if self.may:
-                    may = ''.join(self.may).upper()
-                    yield f'may:{may}'
-                if self.void:
-                    void = ''.join(self.void).upper()
-                    yield f'void:{void}'
-                if self.nope:
-                    nope = ''.join(self.nope).upper()
-                    yield f'nope:{nope}'
-                yield f'hypo:{self.space}'
+                yield f'{self.word}'
+                if not self.word.done:
+                    yield f'({self.word.possible} possible)'
             return ' '.join(parts())
 
         @property
@@ -465,30 +427,8 @@ class Search(StoredLog):
             return len(self.word)
 
         @property
-        def pattern_str(self):
-            if self.free == self.size:
-                return self.uni * self.size
-
-            if not self.may:
-                return ''.join(
-                    self.uni if not let else let
-                    for let in self.word)
-
-            def alts():
-                from itertools import combinations, permutations
-                ix = [i for i in range(len(self.word)) if not self.word[i]]
-                for mix in combinations(ix, len(self.may)):
-                    parts = [self.uni if not let else let for let in self.word]
-                    for pmay in permutations(self.may):
-                        for j, i in enumerate(mix):
-                            parts[i] = pmay[j]
-                        yield ''.join(parts)
-
-            return '|'.join(alts())
-
-        @property
         def pattern(self):
-            return re.compile(self.pattern_str)
+            return self.word.pattern()
 
     @overload
     def select(self, *, row: int, avoid: bool = True) -> Select: pass
@@ -512,6 +452,7 @@ class Search(StoredLog):
                 may = may,
                 void = maybe_not if avoid else (),
                 nope = self.nope,
+                guesses = self.guesses,
                 row = row)
 
         elif col is not None:
@@ -558,7 +499,7 @@ class Search(StoredLog):
 
             if tokens.have(r'(?x) ( ! | /n(o(pe?)?)? ) $'):
                 for m in re.finditer(r'[.A-Za-z]', tokens.rest):
-                    c = m.group(0).lower()
+                    c = m.group(0).upper()
                     if c == '.':
                         self.nope.clear()
                     else:
@@ -595,7 +536,7 @@ class Search(StoredLog):
         ui.log(f'forget: {word_i}')
         for j in self.row_word_range(word_i):
             self.grid[j] = ''
-        self.row_may[word_i] = set()
+        self.row_may[word_i].clear()
 
     def finish(self, ui: PromptUI):
         res = self.result
@@ -687,7 +628,7 @@ class Search(StoredLog):
                 if i >= self.size:
                     ui.print('! too much input, truncating')
                     break
-                c = let.lower()
+                c = let.upper()
                 if let == '_':
                     self.grid[offset + i] = ''
                 elif self.grid[offset + i] != c:
@@ -697,7 +638,7 @@ class Search(StoredLog):
         if may_str is not None:
             may.clear()
             may.update(
-                m.group(0).lower()
+                m.group(0).upper()
                 for m in re.finditer(r'[A-Za-z]', may_str))
 
         ui.log(f'word: {word_i} {"".join(self.grid[k] or "_" for k in self.row_word_range(word_i))}')
@@ -742,7 +683,7 @@ class Search(StoredLog):
                 smallest = 0
                 for word_j in range(self.size):
                     p = self.select(row=word_j, avoid=avoid)
-                    if all(p.word): continue
+                    if p.word.done: continue
                     have = sum(1 for _ in self.find(p.pattern, row=word_j))
                     if not have: continue
                     if not sel or have < smallest:
@@ -779,7 +720,7 @@ class Search(StoredLog):
         return self.present_choice
 
     def explain_select(self, sel: Select) -> Generator[str]:
-        if all(sel.word):
+        if sel.word.done:
             yield f'done {sel}'
             return
 
@@ -843,7 +784,7 @@ class Search(StoredLog):
         return self.display
 
     def ask_question(self, ui: PromptUI, word: str, desc: str):
-        word = word.lower()
+        word = word.upper()
         ui.log(f'questioning: {json.dumps([word, desc])}')
         self.qmode = '>' if word in self.guesses else '?' # TODO auto N> wen
         self.questioning = word
@@ -859,7 +800,7 @@ class Search(StoredLog):
     def question(self, ui: PromptUI):
         with ui.catch_state(EOFError, self.question_abort):
             q = self.qmode
-            word = self.questioning.lower()
+            word = self.questioning.upper()
             desc = self.question_desc
             prompt = f'{word} ( {desc} )' if desc else f'{word}'
             prompt = f'{prompt} {q} '
@@ -918,14 +859,16 @@ class Search(StoredLog):
             return word_i if 0 <= word_i < self.size else None
 
     def question_guess(self, ui: PromptUI, word: str):
+        word = word.upper()
         ui.log(f'guess: {word}')
         self.qmode = '>'
         if word not in self.guesses:
             self.guesses[word] = len(self.guesses)
 
     def question_reject(self, ui: PromptUI, word: str):
+        word = word.upper()
         ui.log(f'reject: {word}')
-        self.rejects.add(word.lower())
+        self.rejects.add(word)
         self.questioning = ''
         self.question_desc = ''
 
