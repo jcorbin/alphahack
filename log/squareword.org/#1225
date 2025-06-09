@@ -1,0 +1,133 @@
+T0.00019770300423260778 now: 2025-06-09T08:57:26EDT
+TD42 site: squareword.org
+TDD5085929 🧩  ? #1225
+TDD-5085847 puzzle_id: #1225
+TDD-110 wordlist: nwl2023.txt
+TDD2343893 > *
+TDD4984162 try? 1
+TDD-7326883 questioning: ["LASER", "#5"]
+TDD3661698 LASER ( #5 ) ? ~ ase
+TDD-1286874 LASER ( #5 ) 1> ~ ase
+TDD-2375610 word: 0 _____
+TDD-385 may: 0 A E S
+TDD2463573 LASER ( #5 ) 2> _a ~ la
+TDD-2463487 word: 1 _A___
+TDD-90 may: 1 A L
+TDD2135925 LASER ( #5 ) 3> ~ ae
+TDD-2135836 word: 2 _____
+TDD-89 may: 2 A E
+TDD2951943 LASER ( #5 ) 4> ~ e
+TDD-2951876 word: 3 _____
+TDD-68 may: 3 E
+TDD4848074 LASER ( #5 ) 5> ~ ase
+TDD-4847980 word: 4 _____
+TDD-91 may: 4 A E S
+TDD0 question done
+TDD2375927 > /no r
+TDD-2375701 nope: R
+TDD4655541 > *
+TDD21896627 try? 8
+TDD-26552285 questioning: ["CABAL", "#2"]
+TDD495843 CABAL ( #2 ) ? 
+TDD-327802 CABAL ( #2 ) > 
+TDD2535704 CABAL ( #2 ) 1> 
+TDD896064 CABAL ( #2 ) 2> _a_al ~ l
+TDD-3599857 word: 1 _A_AL
+TDD-64 may: 1 L
+TDD9120190 CABAL ( #2 ) 3> 5 ___a ~ se
+TDD-9120109 word: 4 ___A_
+TDD-77 may: 4 E S
+TDD-1 question done
+TDD6440016 > *
+TDD1688002 try? 2
+TDD-8127910 questioning: ["HALAL", "#2"]
+TDD1319927 HALAL ( #2 ) ? 
+TDD-1056157 HALAL ( #2 ) > 
+TDD1416259 HALAL ( #2 ) 1> 
+TDD-240153 HALAL ( #2 ) 2> halal
+TDD-1439920 word: 1 HALAL
+TDD-63 may: 1 
+TDD5807916 HALAL ( #2 ) 3> ␚
+TDD-5807870 question done
+TDD2279972 > /no rcb
+TDD-2279957 nope: B C R
+TDD1063886 > *
+TDD4352126 try? 
+TDD-5224104 try? 
+TDD1080057 try? 
+TDD-104079 try? 1
+TDD-1167839 questioning: ["STEAK", "#5"]
+TDD543814 STEAK ( #5 ) ? 
+TDD64074 STEAK ( #5 ) > 
+TDD2680005 STEAK ( #5 ) 1> s_ ~ ase
+TDD-3287933 word: 0 S____
+TDD-68 may: 0 A E S
+TDD2344004 STEAK ( #5 ) 2> 
+TDD239999 STEAK ( #5 ) 3> _t ~ ae
+TDD-2583936 word: 2 _T___
+TDD-68 may: 2 A E
+TDD2511960 STEAK ( #5 ) 4> 
+TDD1144117 STEAK ( #5 ) 5> s_eak
+TDD-3656010 word: 4 S_EAK
+TDD-68 may: 4 
+TDD0 question done
+TDD6776020 > *
+TDD2255977 try? 2
+TDD-9031902 questioning: ["SNEAK", "#5"]
+TDD1031928 SNEAK ( #5 ) ? 
+TDD-688106 SNEAK ( #5 ) > 
+TDD5560236 SNEAK ( #5 ) 1> 
+TDD-5240144 SNEAK ( #5 ) 2> 
+TDD5895996 SNEAK ( #5 ) 3> _t ~ aen
+TDD-6559922 word: 2 _T___
+TDD-81 may: 2 A E N
+TDD3000402 SNEAK ( #5 ) 4> ~ en
+TDD-3000323 word: 3 _____
+TDD-78 may: 3 E N
+TDD1743476 SNEAK ( #5 ) 5> sneak
+TDD-1743417 word: 4 SNEAK
+TDD-60 may: 4 
+TDD0 question done
+TDD4184358 > *
+TDD-3216748 questioning: ["ATONE", "#3"]
+TDD1952513 ATONE ( #3 ) ? 
+TDD-2768190 ATONE ( #3 ) > 
+TDD2016113 ATONE ( #3 ) 1> 3 atone
+TDD-2167982 word: 2 ATONE
+TDD-64 may: 2 
+TDD6095951 ATONE ( #3 ) 4> ____e ~ en
+TDD-6095890 word: 3 ____E
+TDD-60 may: 3 E N
+TDD3208036 ATONE ( #3 ) 5> ␚
+TDD-3207992 question done
+TDD552013 > *
+TDD17304094 try? 1
+TDD-17856064 questioning: ["SEAMS", "#1"]
+TDD536105 SEAMS ( #1 ) ? 
+TDD-368577 SEAMS ( #1 ) > 
+TDD1649144 SEAMS ( #1 ) 1> seams
+TDD-1816686 word: 0 SEAMS
+TDD-73 may: 0 
+TDD4063516 SEAMS ( #1 ) 2> _e__e
+TDD-4063431 word: 1 _E__E
+TDD-82 may: 1 
+TDD3767699 SEAMS ( #1 ) 3> 2 halal
+TDD-3767621 word: 1 HALAL
+TDD-73 may: 1 
+TDD3640043 SEAMS ( #1 ) 3> 4 _e__e
+TDD-3639976 word: 3 _E__E
+TDD-74 may: 3 N
+TDD6695989 SEAMS ( #1 ) 5> ␚
+TDD-6695950 question done
+TDD631824 > *
+TDD10752269 try? 1
+TDD-11384052 questioning: ["GENIE", "#4"]
+TDD839888 GENIE ( #4 ) ? 
+TDD1216023 GENIE ( #4 ) > 4 genie
+TDD-2055922 word: 3 GENIE
+TDD-70 may: 3 
+TDD1336028 GENIE ( #4 ) 5> ␚
+TDD-1335993 question done
+TDD4184443 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4182396 result: "squareword.org 1225: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1225"
+TDD17430 <STOP>
