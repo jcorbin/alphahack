@@ -185,6 +185,7 @@ class Word:
         return all(l for l in self.yes)
 
     def cannot(self, c: str):
+        c = c.upper()
         self.alpha.difference_update((c,))
         if c in self.may:
             self.may.remove(c)
@@ -195,6 +196,7 @@ class Word:
                 can.difference_update((c,))
 
     def collect(self, at: Attempt):
+        at = Attempt(at.word.upper(), at.res)
         mayc: set[str] = set()
         for c, f, i in at.letter_notes():
             if f in (0, 1):
