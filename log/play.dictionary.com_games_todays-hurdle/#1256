@@ -1,0 +1,73 @@
+T0.00023090399918146431 now: 2025-06-10T08:15:33EDT
+TD45 site: https://play.dictionary.com/games/todays-hurdle
+TDD14 wordlist: nwl2023.txt
+TDD16670144 1.1> *
+TDD-2789125 1.1> tried stare mnnnn
+TDD-13880201 tried: STARE m n n n n
+TDD3864326 1.2> *
+TDD5509428 1.2> tried fouls nnnnm
+TDD-9374102 tried: FOULS n n n n m
+TDD1214384 1.3> *
+TDD10262230 1.3> tried dishy nnmmm
+TDD-11476854 tried: DISHY n n m m m
+TDD989348 1.4> *
+TDD4984678 1.4> word psych
+TDD-5974054 tried: PSYCH Y Y Y Y Y
+TDD5488265 2.1> tried psych nnnnn
+TDD-5488126 tried: PSYCH n n n n n
+TDD1111292 2.2> *
+TDD6285772 2.2> tried learn nnnnm
+TDD-7397164 tried: LEARN n n n n m
+TDD911586 2.3> *
+TDD8783342 2.3> tried unfix yynyn
+TDD-9695099 tried: UNFIX Y Y n Y n
+TDD776177 2.4> *
+TDD8419347 2.4> tried unbid yynyn
+TDD-9195506 tried: UNBID Y Y n Y Y
+TDD3050900 2.5> ␚
+TDD-3050895 <EOF>
+T0.04384723700059112 now: 2025-06-10T08:17:54EDT
+TD2653571 2.5> *
+TDD4778555 2.5> word undid
+TDD-7431778 tried: UNDID Y Y Y Y Y
+TDD7681864 3.1> tried undid nnnmn
+TDD-7681982 tried: UNDID n n n m n
+TDD1576970 3.2> *
+TDD5416963 3.2> tried liter nYnnn
+TDD-6993863 tried: LITER n Y n n n
+TDD1873024 3.3> *
+TDD11011252 3.3> tried fishy nYnMn
+TDD-12884331 tried: FISHY n Y n m n
+TDD809429 3.4> *
+TDD8232947 3.4> word hippo
+TDD-9042400 tried: HIPPO Y Y Y Y Y
+TDD7750716 4.1> tried hippo nnnnY
+TDD-7750599 tried: HIPPO n n n n Y
+TDD1168012 4.2> *
+TDD11195125 4.2> tried mango nnnMY
+TDD-12363175 tried: MANGO n n n m Y
+TDD718179 4.3> *
+TDD20954658 4.3> tried gusto YnnnY
+TDD-21672586 tried: GUSTO Y n n n Y
+TDD3622605 4.4> *
+TDD7324169 4.4> word gecko
+TDD-10947106 tried: GECKO Y Y Y Y Y
+TDD4264900 5.1> tried psych nnnnn
+TDD-4264779 tried: PSYCH n n n n n
+TDD12613645 5.2> tried undid nMnYn
+TDD-12613659 tried: UNDID n m n Y n
+TDD7365953 5.3> tried nMnnn
+TDD769395 5.3> tried hippo nMnnn
+TDD-8135378 tried: HIPPO n m n n n
+TDD5335509 5.4> tried gecko YYnnn
+TDD-5335555 tried: GECKO Y Y n n n
+TDD2909440 5.5> *
+TDD12587186 5.5> tried genii yyyyn
+TDD-15496566 tried: GENII Y Y Y Y n
+TDD643671 5.6> *
+TDD16026436 5.6> word genie
+TDD-16670320 tried: GENIE Y Y Y Y Y
+TDD3552546 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3547081 result: "Hurdle 1256\n\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,700"
+TDD-4401 puzzle_id: #1256
+TDD-1123 <STOP>
