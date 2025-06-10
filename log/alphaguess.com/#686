@@ -1,0 +1,45 @@
+T0.00022133099992061034 now: 2025-06-10T08:03:15EDT
+TD62057 loaded 196559 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (44 words excluded) asof aac4712b6c618123a47c26bc697298344e06a719
+TDD2705232 [0 : 98236 : 196559] mach? b
+TDD-2766751 progress: -1 98236 mach
+TDD2014099 [0 : 47396 : 98236] dis? a
+TDD-2014296 progress: 1 47396 dis
+TDD1772438 [47397 : 72816 : 98236] gremolata? a
+TDD-1772507 progress: 1 72816 gremolata
+TDD3420169 [72817 : 85521 : 98236] ins? a
+TDD-3420199 progress: 1 85521 ins
+TDD1870500 [85522 : 91866 : 98236] knot? a
+TDD-1870405 progress: 1 91866 knot
+TDD2432845 [91867 : 94963 : 98236] lib? b
+TDD-2432950 progress: -1 94963 lib
+TDD2270962 [91867 : 93286 : 94963] lar? b
+TDD-2270865 progress: -1 93286 lar
+TDD2772616 [91867 : 92443 : 93286] lac? b
+TDD-2772735 progress: -1 92443 lac
+TDD1899675 [91867 : 92156 : 92443] krone? b
+TDD-1899676 progress: -1 92156 krone
+TDD1927589 [91867 : 92012 : 92156] kombu? b
+TDD-1927588 progress: -1 92012 kombu
+TDD2964914 [91867 : 91934 : 92012] knur? a
+TDD-2964902 progress: 1 91934 knur
+TDD1991005 [91935 : 91969 : 92012] koi? b
+TDD-1991001 progress: -1 91969 koi
+TDD2170792 [91935 : 91951 : 91969] kob? b
+TDD-2170866 progress: -1 91951 kob
+TDD1714486 [91935 : 91943 : 91951] knurrs? a
+TDD-1714481 progress: 1 91943 knurrs
+TDD1875841 [91944 : 91945 : 91951] koa? a
+TDD-1875655 progress: 1 91945 koa
+TDD4674999 [91946 : 91948 : 91951] koan? b
+TDD-4675125 progress: -1 91948 koan
+TDD2353200 [91946 : 91947 : 91948] koalas? b
+TDD-2353213 progress: -1 91947 koalas
+TDD-173 [91946 : 91946 : 91947] <Done>.
+TDD3905735 press <Return> to finish
+TDD-926908 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2972100 share result: "\ud83e\udde9 Puzzle #686\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 41s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5572 result puzzle: 686
+TDD-1141 result guesses: 18
+TDD-35 result time: 41s
+TDD-1 result link: alphaguess.com
+TDD5 <STOP>
