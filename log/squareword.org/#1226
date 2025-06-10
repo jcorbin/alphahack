@@ -1,0 +1,116 @@
+T0.00021961500169709325 now: 2025-06-10T08:04:15EDT
+TD39 site: squareword.org
+TDD2893243 🧩  ? #1226
+TDD-2892889 puzzle_id: #1226
+TDD-356 wordlist: nwl2023.txt
+TDD26562357 > *
+TDD-19571020 try? 1
+TDD-6988775 questioning: ["RAISE", "#5"]
+TDD2199812 RAISE ( #5 ) ? 
+TDD-1361439 RAISE ( #5 ) > 
+TDD2546728 RAISE ( #5 ) 1> _a ~ as
+TDD-3386883 word: 0 _A___
+TDD-792 may: 0 A S
+TDD2471781 RAISE ( #5 ) 2> ____e
+TDD-2471585 word: 1 ____E
+TDD-200 may: 1 
+TDD2240424 RAISE ( #5 ) 3> ~ ra
+TDD-2239906 word: 2 _____
+TDD-511 may: 2 A R
+TDD3779533 RAISE ( #5 ) 4> ~ rise
+TDD-3779384 word: 3 _____
+TDD-157 may: 3 E I R S
+TDD2631946 RAISE ( #5 ) 5> ~ se
+TDD-2631686 word: 4 _____
+TDD-249 may: 4 E S
+TDD-5 question done
+TDD46226920 > *
+TDD-31261871 try? 9
+TDD-14964714 questioning: ["SPIRE", "#4"]
+TDD7718165 SPIRE ( #4 ) ? 
+TDD-7060647 SPIRE ( #4 ) > 
+TDD12092223 SPIRE ( #4 ) 1> 3 ___r ~ a
+TDD-12749830 word: 2 ___R_
+TDD-247 may: 2 A
+TDD4850788 SPIRE ( #4 ) 4> s_ ~ rie
+TDD-4850465 word: 3 S____
+TDD-300 may: 3 E I R
+TDD2356703 SPIRE ( #4 ) 5> 
+TDD-2356650 question done
+TDD956274 > /no p
+TDD-955919 nope: P
+TDD613024 > *
+TDD19209952 try? 7
+TDD-19823076 questioning: ["SIREN", "#4"]
+TDD466078 SIREN ( #4 ) ? 
+TDD-284552 SIREN ( #4 ) > 
+TDD8319432 SIREN ( #4 ) 1> 2 ~ n
+TDD-8501088 word: 1 ____E
+TDD-203 may: 1 N
+TDD3834327 SIREN ( #4 ) 3> ___rn ~ a
+TDD-3834155 word: 2 ___RN
+TDD-175 may: 2 A
+TDD2119104 SIREN ( #4 ) 4> sire
+TDD-2118900 word: 3 SIRE_
+TDD-200 may: 3 
+TDD2912337 SIREN ( #4 ) 5> ___e 
+TDD-2912188 word: 4 ___E_
+TDD-154 may: 4 S
+TDD0 question done
+TDD2750510 > *
+TDD8065900 try? 1
+TDD-10816167 questioning: ["SIRED", "#4"]
+TDD283588 SIRED ( #4 ) ? 
+TDD-135769 SIRED ( #4 ) > 
+TDD1849904 SIRED ( #4 ) 1> 4 sired
+TDD-1997725 word: 3 SIRED
+TDD-232 may: 3 
+TDD3347212 SIRED ( #4 ) 5> 3 ~ ad
+TDD-3346888 word: 2 ___RN
+TDD-316 may: 2 A D
+TDD17464799 SIRED ( #4 ) 4> ␚
+TDD-17464706 question done
+TDD620572 > *
+TDD504000 questioning: ["ADORN", "#3"]
+TDD2942860 ADORN ( #3 ) ? 
+TDD-3829534 ADORN ( #3 ) > 
+TDD2029957 ADORN ( #3 ) 1> 3 adorn
+TDD-2267671 word: 2 ADORN
+TDD-280 may: 2 
+TDD9411534 ADORN ( #3 ) 4> 5 ~ so
+TDD-9411403 word: 4 ___E_
+TDD-145 may: 4 O S
+TDD-1 question done
+TDD961460 > *
+TDD7509631 try? 1
+TDD-8470842 questioning: ["LUNGE", "#2"]
+TDD316336 LUNGE ( #2 ) ? 
+TDD-81022 LUNGE ( #2 ) > 
+TDD2757140 LUNGE ( #2 ) 1> ~ asl
+TDD-2992525 word: 0 _A___
+TDD-175 may: 0 A L S
+TDD2967026 LUNGE ( #2 ) 2> lunge
+TDD-2966863 word: 1 LUNGE
+TDD-160 may: 1 
+TDD2707276 LUNGE ( #2 ) 3> ␚
+TDD-2707200 question done
+TDD572105 > *
+TDD812344 questioning: ["BASAL", "#1"]
+TDD1948195 BASAL ( #1 ) ? 
+TDD-2996233 BASAL ( #1 ) > 
+TDD1832179 BASAL ( #1 ) 1> basal
+TDD-2168604 word: 0 BASAL
+TDD-79 may: 0 
+TDD1982717 BASAL ( #1 ) 2> ␚
+TDD-1982638 question done
+TDD607956 > *
+TDD430100 questioning: ["TOTES", "#5"]
+TDD2600086 TOTES ( #5 ) ? 
+TDD-3441756 TOTES ( #5 ) > 
+TDD1061851 TOTES ( #5 ) 1> 5 totes
+TDD-1258049 word: 4 TOTES
+TDD-250 may: 4 
+TDD-1 question done
+TDD5213151 Press <Enter> to 📋 or `>` for line prompt 
+TDD-5209499 result: "squareword.org 1226: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1226"
+TDD22478 <STOP>
