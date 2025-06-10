@@ -1,0 +1,60 @@
+T0.00018065400217892602 now: 2025-06-10T08:09:05EDT
+TD49 site: dontwordle.com
+TDD-19 wordlist: nwl2023.txt
+TDD1339995 1> *
+TDD9129573 1> tried boffo nYnnn
+TDD-10468962 tried: BOFFO n Y n n n
+TDD1084011 2> *
+TDD12232223 2> tried coach nYnnn
+TDD-13316665 tried: COACH n Y n n n
+TDD5651706 3> undo
+TDD-5651706 undo
+TDD743798 2> undo
+TDD-743837 undo
+TDD1473900 1> *
+TDD8390970 1> tried llama nnnnn
+TDD-9864826 tried: LLAMA n n n n n
+TDD1855443 2> *
+TDD10378392 2> tried issei nnnnn
+TDD-12233850 tried: ISSEI n n n n n
+TDD1041695 3> *
+TDD11138875 3> tried fuzzy nMnnM
+TDD-12180530 tried: FUZZY n m n n m
+TDD4132196 4> undo
+TDD-4132236 undo
+TDD900996 3> *
+TDD13321020 3> tried phpht nnnnn
+TDD-14222011 tried: PHPHT n n n n n
+TDD1280076 4> *
+TDD10426580 4> * -sans :v o :v u
+TDD-4717263 4> * -sans :v o
+TDD2912336 4> * -sans :v o -top 10
+TDD12162386 4> * -sans :v y -top 10
+TDD-2641894 4> tried fjord nnMnn
+TDD-19422209 tried: FJORD n n m n n
+TDD5750368 5> * -sans :v y -top 10
+TDD18546581 5> * -sans :v y -v u
+TDD-16307179 5> * -sans :v y :V u
+TDD4156610 5> * -sans :v y :v u
+TDD5749286 5> * -sans :v y :v o
+TDD-9130441 5> * -sans :v u
+TDD15621190 5> tried wonky nYMnM
+TDD-24386378 tried: WONKY n Y m n m
+TDD1153537 6> undo
+TDD-1153643 undo
+TDD24696744 5> * -sans :v n
+TDD474161 5> tried bobby nYnnM
+TDD-25170867 tried: BOBBY n Y n n m
+TDD3213802 6> undo
+TDD-3213805 undo
+TDD4307515 5> * -sans
+TDD10151399 5> tried unwon mmnmn
+TDD-14458906 tried: UNWON m m n m n
+TDD903351 6> *
+TDD11139499 6> tried bunnko
+TDD-3125174 6> tried bunko nmmnm
+TDD-8917663 tried: BUNKO n m m n m
+TDD3051788 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3044243 result: "Don't Wordle 1113 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4962\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c562\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c248\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c32\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c4\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe81\nUndos used: 5\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TDD-5201 puzzle_id: #1113
+TDD-2510 <STOP>
