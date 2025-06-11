@@ -178,10 +178,16 @@ class StoredLog:
         with open(self.log_file, 'r') as f:
             yield from enumerate(f, 1)
 
-    def parse_log(self):
+    def parse_log(self, warn: Callable[[str], None]|None=None):
         parse = LogParser()
         for n, line in self.skim_log():
-            yield n, *parse(line)
+            try:
+                yield n, *parse(line)
+            except zlib.error as err:
+                if warn:
+                    warn(f'line:{n} {err}')
+                else:
+                    raise err
 
     def review_do_comp(self, ui: PromptUI):
         pat = re.compile(ui.tokens.rest)
@@ -212,7 +218,7 @@ class StoredLog:
 
     def review_do_cont(self, ui: PromptUI):
         rep = self.Replay(self)
-        line_no, time, mess = rep.seek(0)
+        line_no, time, mess = rep.seek(0, warn=lambda mess: ui.print(f'! seek skip {mess}'))
         rep.cursor = line_no
         ui.print(f'*** {line_no}. T{time:.1f} {mess}')
         return rep.restart(ui, mess=f'^^^ continuing from last line')
@@ -239,7 +245,7 @@ class StoredLog:
         def __call__(self, ui: PromptUI):
             return self.prompt(ui)
 
-        def seek(self, offset: int):
+        def seek(self, offset: int, warn: Callable[[str], None]|None=None):
             '''
             Seek line number offset.
 
@@ -252,6 +258,9 @@ class StoredLog:
             i.e. `seek(10)` can mean "you wanted line 10, best I can do is 5".
 
             For the last line `seek(0)`, 2nd-to last line is `seek(-1)`, etc.
+
+            If warn is given, unparseable lines will be skipped, so the
+            returned line number will be the first parseable line after offset.
             '''
             if offset <= 0:
                 line_no = 0
@@ -259,7 +268,7 @@ class StoredLog:
                     pass
                 offset = max(0, line_no - offset)
             line_no, time, mess = 0, 0.0, ''
-            for line_no, time, _z, mess in self.stl.parse_log():
+            for line_no, time, _z, mess in self.stl.parse_log(warn=warn):
                 if line_no >= offset: break
             return line_no, time, mess
 
