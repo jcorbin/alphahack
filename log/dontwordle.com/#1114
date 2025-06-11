@@ -1,0 +1,39 @@
+T0.0001810029789339751 now: 2025-06-11T07:35:46EDT
+TD41 site: dontwordle.com
+TDD-10 wordlist: nwl2023.txt
+TDD1960169 1> *
+TDD9416303 1> 2
+TDD-5392711 1> tried hooch nnnnn
+TDD-5983533 tried: HOOCH n n n n n
+TDD1639520 2> *
+TDD10712632 2> tried queue nnnnn
+TDD-12352307 tried: QUEUE n n n n n
+TDD727685 3> *
+TDD11048488 3> tried radar nMnnn
+TDD-11776179 tried: RADAR n m n n n
+TDD4191923 4> *
+TDD9472328 4> tried vitta nmnnm
+TDD-13664232 tried: VITTA n m n n m
+TDD10071888 5> *
+TDD2784169 5> tried alibi YYYnn
+TDD-12856098 tried: ALIBI Y Y Y n n
+TDD1215979 6> *
+TDD12728185 6> undo
+TDD-13944176 undo
+TDD1151946 5> undo
+TDD-1151950 undo
+TDD1223872 4> *
+TDD8056298 4> tried pzazz nnMnn
+TDD-9280156 tried: PZAZZ n n m n n
+TDD1239738 5> *
+TDD36761075 5> tried angst Ymmnn
+TDD-38000777 tried: ANGST Y m m n n
+TDD1399779 6> *
+TDD1264087 6> *
+TDD6192238 6> * -sans :v l
+TDD3440155 6> tried aging YmYmn
+TDD-12296280 tried: AGING Y m Y m n
+TDD3927874 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3925628 result: "Don't Wordle 1114 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6849\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2248\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c253\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c67\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c5\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\u2b1c1\nUndos used: 2\n\n  1 words remaining\nx 10 unused letters\n= 10 total score"
+TDD-1688 puzzle_id: #1114
+TDD-640 <STOP>
