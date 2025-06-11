@@ -248,10 +248,12 @@ class Word:
             alpha = alpha.difference(void)
         return f'[{"".join(char_ranges(alpha))}]'
 
+    def re_can_lets(self, void: Iterable[str]|None = None):
+        for i, known in enumerate(self.yes):
+            yield known or self.re_may(i, void=void)
+
     def re_can(self, void: Iterable[str]|None = None):
-        return ''.join(
-            known or self.re_may(i, void=void)
-            for i, known in enumerate(self.yes))
+        return ''.join(self.re_can_lets(void))
 
     def re_may_alts(self, void: Iterable[str]|None = None):
         may = tuple(sorted(self.may))
@@ -291,7 +293,13 @@ class Word:
     > mamma nMnnn
     - str: _____ ~A -M A:1
     - done: False
-    - can: [A-LN-Z][B-LN-Z][A-LN-Z][A-LN-Z][B-LN-Z]
+    - can_lets: ```
+    [A-LN-Z]
+    [B-LN-Z]
+    [A-LN-Z]
+    [A-LN-Z]
+    [B-LN-Z]
+    ```
     - may_alts: ```
     A[B-LN-Z][B-LN-Z][B-LN-Z][B-LN-Z]
     [B-LN-Z][B-LN-Z]A[B-LN-Z][B-LN-Z]
@@ -303,7 +311,13 @@ class Word:
     > ideal nMnYn
     - str: ___A_ ~D -EILM A:0
     - done: False
-    - can: [B-DF-HJKN-Z][BCF-HJKN-Z][B-DF-HJKN-Z]A[B-DF-HJKN-Z]
+    - can_lets: ```
+    [B-DF-HJKN-Z]
+    [BCF-HJKN-Z]
+    [B-DF-HJKN-Z]
+    A
+    [B-DF-HJKN-Z]
+    ```
     - may_alts: ```
     D[BCF-HJKN-Z][B-DF-HJKN-Z]A[B-DF-HJKN-Z]
     [B-DF-HJKN-Z][BCF-HJKN-Z]DA[B-DF-HJKN-Z]
@@ -328,6 +342,7 @@ def test_word(spec: MarkedSpec):
     for key, val in spec.props:
         if key == 'str': assert f'{word}' == val
         elif key == 'can': assert f'{word.re_can()}' == val
+        elif key == 'can_lets': assert f'{"\n".join(word.re_can_lets())}' == val
         elif key == 'may_alts': assert f'{"\n".join(word.re_may_alts())}' == val
         elif key == 'pat': assert f'{word.pattern()}' == val
         elif key == 'done': assert f'{word.done}' == val
