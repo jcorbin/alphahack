@@ -222,7 +222,8 @@ class Word:
         for c in mayc:
             may = sum(f == 1 for cc, f, _ in at.letter_notes() if cc == c)
             if may:
-                self.may.add(c)
+                if may > sum(yc == c for yc in self.yes):
+                    self.may.add(c)
                 if any(f == 0 for cc, f, _ in at.letter_notes() if cc == c):
                     self.max[c] = may
                 for cc, f, i in at.letter_notes():
@@ -331,6 +332,29 @@ class Word:
     - str: DUCAT
     - done: True
     - can: DUCAT
+
+    #hurdle_may_after_yes
+    > JUMPY n M n n n
+    > MIDST n M n n Y
+    > SHAPE n n n n n
+    > MONTE n n n M n
+    - str: ____T ~IU -ADEHJMNOPSY
+    - done: False
+    - can_lets: ```
+    [BCFGIKLQRT-XZ]
+    [BCFGKLQRTV-XZ]
+    [BCFGIKLQRT-XZ]
+    [BCFGIKLQRU-XZ]
+    T
+    ```
+    - may_alts: ```
+    I[BCFGKLQRTV-XZ]U[BCFGIKLQRU-XZ]T
+    U[BCFGKLQRTV-XZ]I[BCFGIKLQRU-XZ]T
+    I[BCFGKLQRTV-XZ][BCFGIKLQRT-XZ]UT
+    U[BCFGKLQRTV-XZ][BCFGIKLQRT-XZ]IT
+    [BCFGIKLQRT-XZ][BCFGKLQRTV-XZ]IUT
+    [BCFGIKLQRT-XZ][BCFGKLQRTV-XZ]UIT
+    ```
 
 ''')
 def test_word(spec: MarkedSpec):
