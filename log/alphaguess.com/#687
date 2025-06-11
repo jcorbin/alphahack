@@ -1,0 +1,35 @@
+T0.00021922399173490703 now: 2025-06-11T07:31:51EDT
+TD85221 loaded 196559 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (44 words excluded) asof 1a437c135621afbb0218aace28f858392858290b
+TDD6584437 [0 : 98236 : 196559] mach? b
+TDD-6669487 progress: -1 98236 mach
+TDD1775685 [0 : 47396 : 98236] dis? a
+TDD-1775778 progress: 1 47396 dis
+TDD1895845 [47397 : 72816 : 98236] gremolata? b
+TDD-1895861 progress: -1 72816 gremolata
+TDD2656009 [47397 : 60099 : 72816] face? b
+TDD-2655999 progress: -1 60099 face
+TDD1895813 [47397 : 53412 : 60099] el? a
+TDD-1895814 progress: 1 53412 el
+TDD1791858 [53413 : 56757 : 60099] equate? a
+TDD-1791858 progress: 1 56757 equate
+TDD2215979 [56758 : 58373 : 60099] ex? a
+TDD-2215979 progress: 1 58373 ex
+TDD1759853 [58374 : 59232 : 60099] expel? b
+TDD-1759855 progress: -1 59232 expel
+TDD1567872 [58374 : 58798 : 59232] exempt? a
+TDD-1567880 progress: 1 58798 exempt
+TDD1471914 [58799 : 59014 : 59232] exogen? a
+TDD-1471913 progress: 1 59014 exogen
+TDD2719968 [59015 : 59123 : 59232] exotropia? a
+TDD-2719946 progress: 1 59123 exotropia
+TDD2095865 [59124 : 59174 : 59232] expect? it
+TDD-2095875 progress: 0 59174 expect
+TDD-60 [59124 : 59174 : 59232] <Done>.
+TDD2511951 press <Return> to finish
+TDD-2343911 Press <Enter> to 📋 or `>` for line prompt 
+TDD-166067 share result: "\ud83e\udde9 Puzzle #687\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1699 result puzzle: 687
+TDD-277 result guesses: 12
+TDD-4 result time: 22s
+TDD7 result link: alphaguess.com
+TDD-5 <STOP>
