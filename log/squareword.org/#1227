@@ -1,0 +1,117 @@
+T0.00022088500554673374 now: 2025-06-11T07:32:32EDT
+TD43 site: squareword.org
+TDD8415908 🧩  ? #1227
+TDD-8415810 puzzle_id: #1227
+TDD-125 wordlist: nwl2023.txt
+TDD863826 > *
+TDD3480151 try? 2
+TDD-4342992 questioning: ["SCARE", "#5"]
+TDD454181 SCARE ( #5 ) ? 
+TDD-271301 SCARE ( #5 ) > 
+TDD2632150 SCARE ( #5 ) 1> __a ~ se
+TDD-2815663 word: 0 __A__
+TDD-356 may: 0 E S
+TDD2295608 SCARE ( #5 ) 2> ~ ce
+TDD-2295377 word: 1 _____
+TDD-229 may: 1 C E
+TDD5007991 SCARE ( #5 ) 3> ___re ~ e
+TDD-5007893 word: 2 ___RE
+TDD-101 may: 2 E
+TDD3743859 SCARE ( #5 ) 4> ____e ~ sr
+TDD-3743767 word: 3 ____E
+TDD-90 may: 3 R S
+TDD2519915 SCARE ( #5 ) 5> s_ ~ re
+TDD-2519836 word: 4 S____
+TDD-80 may: 4 E R
+TDD0 question done
+TDD1487877 > *
+TDD3448280 try? 1
+TDD-4936038 questioning: ["GENRE", "#3"]
+TDD247730 GENRE ( #3 ) ? 
+TDD112131 GENRE ( #3 ) > 
+TDD4512114 GENRE ( #3 ) 1> _ea ~ s
+TDD-4872007 word: 0 _EA__
+TDD-88 may: 0 S
+TDD7704139 GENRE ( #3 ) 2> 3 _e_re
+TDD-7704046 word: 2 _E_RE
+TDD-92 may: 2 
+TDD4199923 GENRE ( #3 ) 4> ␚
+TDD-4199871 question done
+TDD1191866 > /no gn
+TDD-1191675 nope: G N
+TDD1919539 > *
+TDD-1011201 questioning: ["METRE", "#3"]
+TDD2286889 METRE ( #3 ) ? 
+TDD-3003335 METRE ( #3 ) > 
+TDD6911834 METRE ( #3 ) 1> 3 metre
+TDD-7103883 word: 2 METRE
+TDD-87 may: 2 
+TDD4792056 METRE ( #3 ) 4> 5 ~ ret
+TDD-4791964 word: 4 S____
+TDD-90 may: 4 E R T
+TDD-1 question done
+TDD759798 > *
+TDD-489991 questioning: ["STREP", "#5"]
+TDD7116741 STREP ( #5 ) ? 
+TDD-7138708 STREP ( #5 ) > 
+TDD6336219 STREP ( #5 ) 1> 2 ___e ~ ce
+TDD-6583975 word: 1 ___E_
+TDD-78 may: 1 C E
+TDD4272066 STREP ( #5 ) 3> 4 ~ srp
+TDD-4271992 word: 3 ____E
+TDD-79 may: 3 P R S
+TDD2079894 STREP ( #5 ) 5> strep
+TDD-2079834 word: 4 STREP
+TDD-60 may: 4 
+TDD0 question done
+TDD3655948 > *
+TDD-2408269 questioning: ["EXCEL", "#2"]
+TDD2656838 EXCEL ( #2 ) ? 
+TDD-3240548 EXCEL ( #2 ) > 
+TDD2104029 EXCEL ( #2 ) 1> 2 excel
+TDD-2767935 word: 1 EXCEL
+TDD-64 may: 1 
+TDD5528064 EXCEL ( #2 ) 3> 1 ~ st
+TDD-5527986 word: 0 _EA__
+TDD-77 may: 0 S T
+TDD6783948 EXCEL ( #2 ) 2> ␚
+TDD-6783911 question done
+TDD671924 > *
+TDD875641 questioning: ["PROSE", "#4"]
+TDD1248938 PROSE ( #4 ) ? 
+TDD-2612609 PROSE ( #4 ) > 
+TDD2464108 PROSE ( #4 ) 1> 4 prose
+TDD-2647971 word: 3 PROSE
+TDD-72 may: 3 
+TDD1335904 PROSE ( #4 ) 5> ␚
+TDD-1335867 question done
+TDD479993 > *
+TDD5144138 try? 1
+TDD-5624056 questioning: ["HEATS", "#1"]
+TDD527752 HEATS ( #1 ) ? 
+TDD5976312 HEATS ( #1 ) > _eats ~ t
+TDD639919 HEATS ( #1 ) > 1 _eats ~ t
+TDD-7144010 word: 0 _EATS
+TDD-83 may: 0 T
+TDD2263927 HEATS ( #1 ) 2> ␚
+TDD-2263895 question done
+TDD3216019 > /no h
+TDD-3215980 nope: G H N
+TDD2479858 > 
+TDD-1080064 > teats
+TDD-1399666 questioning: ["TEATS", "entered"]
+TDD3535878 TEATS ( entered ) ? 1 teats
+TDD-3536016 guess: TEATS
+TDD-47 word: 0 TEATS
+TDD0 may: 0 
+TDD3631804 TEATS ( entered ) 2> 
+TDD-3439848 TEATS ( entered ) 3> 
+TDD1304042 TEATS ( entered ) 4> ␚
+TDD-1495978 question done
+TDD448038 Press <Enter> to 📋 or `>` for line prompt 
+TDD-445910 result: "TEATS"
+TDD403631 Press <Enter> to 📋 or `>` for line prompt 
+TDD-403625 result: "TEATS"
+TDD3075675 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3075703 result: "squareword.org 1227: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1227"
+TDD17942 <STOP>
