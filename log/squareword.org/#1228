@@ -1,0 +1,100 @@
+T0.0001913840023917146 now: 2025-06-12T07:31:18EDT
+TD40 site: squareword.org
+TDD19381620 🧩  ? #1228
+TDD-19381530 puzzle_id: #1228
+TDD-114 wordlist: nwl2023.txt
+TDD1543889 > *
+TDD9760379 try? 3
+TDD-11303313 questioning: ["STALE", "#5"]
+TDD1062122 STALE ( #5 ) ? 
+TDD-543048 STALE ( #5 ) > 
+TDD2647943 STALE ( #5 ) 1> __a ~ te
+TDD-3167608 word: 0 __A__
+TDD-366 may: 0 E T
+TDD1575625 STALE ( #5 ) 2> ~ ta
+TDD-1575397 word: 1 _____
+TDD-228 may: 1 A T
+TDD3671766 STALE ( #5 ) 3> __a ~ ste
+TDD-3671690 word: 2 __A__
+TDD-64 may: 2 E S T
+TDD2223860 STALE ( #5 ) 4> ~ te
+TDD-2223798 word: 3 _____
+TDD-77 may: 3 E T
+TDD5144149 STALE ( #5 ) 5> s_ ~ e
+TDD-5144065 word: 4 S____
+TDD-84 may: 4 E
+TDD0 question done
+TDD1087787 > /no l
+TDD-1087555 nope: L
+TDD503571 > *
+TDD9240320 try? 2
+TDD-9744010 questioning: ["BEAST", "#3"]
+TDD383797 BEAST ( #3 ) ? 
+TDD-231870 BEAST ( #3 ) > 
+TDD4375970 BEAST ( #3 ) 1> __a_t
+TDD-4527948 word: 0 __A_T
+TDD-63 may: 0 E
+TDD2415962 BEAST ( #3 ) 2> ~ tab
+TDD-2415886 word: 1 _____
+TDD-73 may: 1 A B T
+TDD4144012 BEAST ( #3 ) 3> jea ~ st
+TDD1792098 BEAST ( #3 ) 3> _ea ~ st
+TDD-5936042 word: 2 _EA__
+TDD-69 may: 2 S T
+TDD4696294 BEAST ( #3 ) 4> ____t ~ te
+TDD-4696201 word: 3 ____T
+TDD-91 may: 3 E T
+TDD4103830 BEAST ( #3 ) 5> se_ ~ e
+TDD-4103738 word: 4 SE___
+TDD-93 may: 4 E
+TDD0 question done
+TDD6351876 > *
+TDD-1511850 try? 2
+TDD-4839922 questioning: ["ENACT", "#1"]
+TDD271901 ENACT ( #1 ) ? 
+TDD376235 ENACT ( #1 ) > 
+TDD783431 ENACT ( #1 ) 1> enact
+TDD-1431591 word: 0 ENACT
+TDD-81 may: 0 
+TDD9120092 ENACT ( #1 ) 2> 4 ~ tec
+TDD-9120002 word: 3 ____T
+TDD-88 may: 3 C E T
+TDD1856000 ENACT ( #1 ) 5> ␚
+TDD-1855946 question done
+TDD655823 > *
+TDD-300848 questioning: ["TIBIA", "#2"]
+TDD3209976 TIBIA ( #2 ) ? 
+TDD-1628933 TIBIA ( #2 ) > 2 tibia
+TDD-1935993 word: 1 TIBIA
+TDD-79 may: 1 
+TDD4528097 TIBIA ( #2 ) 3> ␚
+TDD-4528045 question done
+TDD975864 > *&
+TDD-576066 questioning: ["OCTET", "#4"]
+TDD4600375 OCTET ( #4 ) ? 
+TDD-4384169 OCTET ( #4 ) > 
+TDD1191840 OCTET ( #4 ) 1> 4 octet
+TDD-1807816 word: 3 OCTET
+TDD-80 may: 3 
+TDD8440341 OCTET ( #4 ) 5> ␚
+TDD-8440300 question done
+TDD679578 > *
+TDD135126 questioning: ["HEATS", "#3"]
+TDD8146813 HEATS ( #3 ) ? 
+TDD-8769601 HEATS ( #3 ) > 
+TDD1464154 HEATS ( #3 ) 1> 3 heats
+TDD-1656023 word: 2 HEATS
+TDD-89 may: 2 
+TDD1783853 HEATS ( #3 ) 4> ␚
+TDD-1783797 question done
+TDD439743 > *
+TDD110261 questioning: ["SEEDY", "#5"]
+TDD2372071 SEEDY ( #5 ) ? 
+TDD-2770221 SEEDY ( #5 ) > 
+TDD3176215 SEEDY ( #5 ) 1> 5 seedy
+TDD-3328042 word: 4 SEEDY
+TDD-83 may: 4 
+TDD0 question done
+TDD5055942 Press <Enter> to 📋 or `>` for line prompt 
+TDD-5053721 result: "squareword.org 1228: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1228"
+TDD17061 <STOP>
