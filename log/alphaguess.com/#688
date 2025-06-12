@@ -1,0 +1,39 @@
+T0.00018655299936654046 now: 2025-06-12T07:30:27EDT
+TD83558 loaded 196559 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (44 words excluded) asof 3dd279542fa621e0fefe32425e16ec8bdcc5ad4d
+TDD11561521 [0 : 98236 : 196559] mach? b
+TDD-11644897 progress: -1 98236 mach
+TDD1503612 [0 : 47396 : 98236] dis? b
+TDD-1503713 progress: -1 47396 dis
+TDD1511933 [0 : 23695 : 47396] camp? a
+TDD-1511952 progress: 1 23695 camp
+TDD1391836 [23696 : 35539 : 47396] convention? a
+TDD-1391837 progress: 1 35539 convention
+TDD1600358 [35540 : 40856 : 47396] da? b
+TDD-1600357 progress: -1 40856 da
+TDD1951477 [35540 : 38198 : 40856] crazy? b
+TDD-1951482 progress: -1 38198 crazy
+TDD1967903 [35540 : 36740 : 38198] cos? a
+TDD-1967899 progress: 1 36740 cos
+TDD1527954 [36741 : 37466 : 38198] courant? a
+TDD-1527959 progress: 1 37466 courant
+TDD1519898 [37467 : 37818 : 38198] coz? a
+TDD-1519885 progress: 1 37818 coz
+TDD1583856 [37819 : 38004 : 38198] crane? a
+TDD-1583859 progress: 1 38004 crane
+TDD1487896 [38005 : 38095 : 38198] crash? a
+TDD-1487903 progress: 1 38095 crash
+TDD1487944 [38096 : 38142 : 38198] craven? a
+TDD-1487942 progress: 1 38142 craven
+TDD1487914 [38143 : 38165 : 38198] crawl? a
+TDD-1487908 progress: 1 38165 crawl
+TDD1895857 [38166 : 38179 : 38198] crayon? it
+TDD-1895854 progress: 0 38179 crayon
+TDD-58 [38166 : 38179 : 38198] <Done>.
+TDD2279950 press <Return> to finish
+TDD-2087907 Press <Enter> to 📋 or `>` for line prompt 
+TDD-190078 share result: "\ud83e\udde9 Puzzle #688\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1673 result puzzle: 688
+TDD-292 result guesses: 14
+TDD-5 result time: 21s
+TDD0 result link: alphaguess.com
+TDD2 <STOP>
