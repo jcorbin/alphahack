@@ -1,0 +1,43 @@
+T0.000216804000956472 now: 2025-06-12T07:40:27EDT
+TD40 site: dontwordle.com
+TDD-8 wordlist: nwl2023.txt
+TDD687476 1> *
+TDD8816625 1> tried gabba nMnnn
+TDD-9503855 tried: GABBA n m n n n
+TDD855836 2> *
+TDD9367695 2> tried khaki nnMnn
+TDD-10223688 tried: KHAKI n n m n n
+TDD4919890 3> undo
+TDD-4919932 undo
+TDD991821 2> undo
+TDD-991831 undo
+TDD663895 1> *
+TDD9705236 1> tried erred MMnnM
+TDD-10369106 tried: ERRED m m n n m
+TDD5119187 2> undo
+TDD-5119214 undo
+TDD799602 1> *
+TDD5096140 1> tried civic nnnnn
+TDD-5895707 tried: CIVIC n n n n n
+TDD1431712 2> *
+TDD3815887 2> tried gonzo nnnnn
+TDD-5247604 tried: GONZO n n n n n
+TDD663718 3> *
+TDD7543759 3> tried mumms nnnnn
+TDD-8207472 tried: MUMMS n n n n n
+TDD599782 4> *
+TDD8439747 4> tried xylyl nMnnn
+TDD-9039513 tried: XYLYL n m n n n
+TDD559528 5> *
+TDD4496148 5> * -sans :v r
+TDD7447599 5> * -sans :v r :v d -top 10
+TDD2600315 5> tried pappy nMnnY
+TDD-15103610 tried: PAPPY n m n n Y
+TDD13487451 6> * -sans :v d :v e :v r -t 10
+TDD15278463 6> * -sans :v d :v e -t 10
+TDD-18334332 6> tried array MMnnY
+TDD-10431581 tried: ARRAY m m n n Y
+TDD5207388 Press <Enter> to 📋 or `>` for line prompt 
+TDD-5205214 result: "Don't Wordle 1115 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7600\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3271\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c842\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c149\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe917\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe94\nUndos used: 3\n\n  4 words remaining\nx 10 unused letters\n= 40 total score"
+TDD-1486 puzzle_id: #1115
+TDD-771 <STOP>
