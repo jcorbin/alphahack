@@ -1,0 +1,554 @@
+T3.240007793996483 now: 2025-06-13T08:39:42EDT
+TD64 site: spaceword.org
+TDD1095635 📜 nwl2023.txt ? 
+TDD-1095593 wordlist: nwl2023.txt
+TDD12104011 🧩  ? daily 20250613
+TDD-12103786 puzzle_id: 2025-06-13
+TDD1167500 num letters (default: 21) ? 
+TDD-1167755 num_letters: 21
+TDD8623830 letters? cdeeeef
+TDD-8623810 letters: |CDEEEEF|
+TDD2671957 letters? iilnno
+TDD-2671954 letters: |CDEEEEFIILNNO|
+TDD4215785 letters? ?
+TDD584256 letters? /back
+TDD-4800054 letters: |CDEEEEF|
+TDD4576078 letters? iilnnoo
+TDD-4576074 letters: |CDEEEEFIILNNOO|
+TDD3167682 letters? oqruwyz
+TDD-3167690 letters: |CDEEEEFIILNNOOOQRUWYZ|
+TDD1000109 letters. 
+TDD855615 [doit:100]> /sea
+TDD424442 search 496598 [ 1 ]> cap 900
+TDD-1680391 search 496598 [ 1 cap:900 ]> **
+TDD88818319 search 496598 [ 900 cap:900 may:4811 prune:84 dead:13 done:4 ]> show done
+TDD-58601456 search 496598 [ 900 cap:900 may:4811 prune:84 dead:13 done:4 ]> show 3
+TDD-28528676 search 496598 [ 900 cap:900 may:4811 prune:84 dead:13 done:4 ]> ret
+TDD-2287771 change: 17 C
+TDD-250 change: 27 O
+TDD-7 change: 35 W
+TDD1 change: 36 I
+TDD0 change: 37 N
+TDD0 change: 46 O
+TDD0 change: 47 E
+TDD0 change: 52 Q
+TDD0 change: 53 U
+TDD0 change: 54 E
+TDD0 change: 55 E
+TDD0 change: 56 N
+TDD0 change: 57 Y
+TDD0 change: 66 I
+TDD0 change: 76 Z
+TDD0 change: 82 R
+TDD0 change: 83 O
+TDD0 change: 84 L
+TDD0 change: 85 F
+TDD0 change: 86 E
+TDD0 change: 87 D
+TDD927234 [doit:2152]> /sea'
+TDD880920 [doit:2152]> /sea
+TDD119839 search 092269 [ 1 ]> prune
+TDD-1280034 search 092269 [ 1 may:5 ]> take
+TDD216082 search 092269 [ 6 may:0 ]> prune
+TDD-368160 search 092269 [ 6 may:25 ]> take
+TDD320146 search 092269 [ 31 may:0 ]> prune
+TDD-296070 search 092269 [ 31 may:87 prune:20 ]> take
+TDD1384129 search 092269 [ 118 may:0 prune:20 ]> prune
+TDD-703981 search 092269 [ 118 may:231 prune:102 ]> cen
+TDD1912078 search 092269 [ 118 may:231 prune:102 ]> cap 1200
+TDD-1576037 search 092269 [ 118 cap:1200 may:231 prune:102 ]> **
+TDD-1283040 Z LUNLUrIC@DC2l7<!&xwohkN>=S{NAW>goqCaS+83q%aEd_i=M2Jm>`g00960
+TDD-252642 Z BGyT6a3}f0ofNJBbCM4hCk0_R2?U665&!@I|Nj
+TDD-409 Z BGyUaSe)bocaj@5odf^?0RR6
+TDD-16 Z B0ZFR;7;;~J1Lx+P67Y`0RR6
+TDD0 Z qGwui^Y?La4I=0y00000|Nj
+TDD1091952 Z 8idIk00030{{
+TDD-1091922 Z 8idIk00030{{
+TDD-31 Z 8idIk00030{{
+TDD-3 Z 8idIk00030{{
+TDD-1 Z 8idIk00030{{
+TDD2909326 Z 8idIk00030{{
+TDD-2909290 Z 8iWxC00030{{
+TDD-7 Z 8iY9x00030{{
+TDD-20 Z 8iY9x00030{{
+TDD-9 Z 8idIk00030{{
+TDD2744164 search 092269 [ 1200 cap:1200 may:1136 prune:833 dead:9 reject:5 done:2 ]> show done
+TDD1495905 search 092269 [ 1200 cap:1200 may:1136 prune:833 dead:9 reject:5 done:2 ]> show 1
+TDD-3376148 search 092269 [ 1200 cap:1200 may:1136 prune:833 dead:9 reject:5 done:2 ]> ret
+TDD-863760 change: 13 
+TDD-181 change: 17 
+TDD-7 change: 13 
+TDD0 change: 27 
+TDD4 change: 36 
+TDD-2 change: 35 I
+TDD0 change: 37 
+TDD0 change: 36 N
+TDD-2 change: 37 
+TDD0 change: 37 
+TDD0 change: 47 
+TDD6 change: 46 E
+TDD-9 change: 47 
+TDD3 change: 47 
+TDD2 change: 13 
+TDD0 change: 52 
+TDD0 change: 87 
+TDD-3 change: 53 D
+TDD43 change: 56 
+TDD-36 change: 55 N
+TDD0 change: 57 
+TDD-2 change: 56 Y
+TDD0 change: 57 
+TDD-3 change: 57 
+TDD0 change: 87 
+TDD0 change: 66 
+TDD0 change: 87 
+TDD2 change: 76 
+TDD-3 change: 87 
+TDD6 change: 82 
+TDD-5 change: 83 Q
+TDD8 change: 84 U
+TDD-6 change: 85 E
+TDD0 change: 87 R
+TDD-3 change: 13 F
+TDD0 change: 14 L
+TDD2 change: 15 O
+TDD-1 change: 16 C
+TDD0 change: 26 O
+TDD0 change: 34 W
+TDD0 change: 45 O
+TDD0 change: 65 I
+TDD0 change: 75 Z
+TDD1382893 [doit:2160]> /sea
+TDD-470715 search 05668b [ 1 ]> prune
+TDD-464262 search 05668b [ 1 may:5 ]> take
+TDD976149 search 05668b [ 6 may:0 ]> prune
+TDD-848190 search 05668b [ 6 may:26 ]> take
+TDD256149 search 05668b [ 32 may:0 ]> prune
+TDD-304084 search 05668b [ 32 may:100 prune:21 ]> take
+TDD320229 search 05668b [ 132 may:0 prune:21 ]> prune
+TDD599705 search 05668b [ 132 may:316 prune:116 ]> cen
+TDD1208189 search 05668b [ 132 may:316 prune:116 ]> cap 1200
+TDD-2039446 search 05668b [ 132 cap:1200 may:316 prune:116 ]> **
+TDD-213904 Z LUxj=nVCfrb|<;{_!HqGP|p*$iy$s0>?8mH00960
+TDD-402622 Z qNkIHbCCi700960
+TDD1603771 Z 8ib()00030{{
+TDD-1603786 Z qQFUkp`<!VA)FW|0RR91|Nj
+TDD-17 Z qNkI>U4w{ee**vj0RR6
+TDD-13 Z BGO3;m>JI1#|^_tF8<+^M;rhE0RR6
+TDD-5 Z 8idIk00030{{
+TDD3584405 search 05668b [ 867 cap:1200 may:911 prune:856 dead:5 reject:5 done:2 ]> show done
+TDD-1352204 search 05668b [ 867 cap:1200 may:911 prune:856 dead:5 reject:5 done:2 ]> show 1
+TDD-968145 search 05668b [ 867 cap:1200 may:911 prune:856 dead:5 reject:5 done:2 ]> ret
+TDD-1263908 change: 84 
+TDD-181 change: 34 U
+TDD0 change: 83 W
+TDD-4 change: 86 
+TDD1 change: 84 E
+TDD-1 change: 87 
+TDD0 change: 86 R
+TDD0 change: 87 
+TDD0 change: 87 
+TDD-1 change: 33 Q
+TDD1159457 [doit:2168]> /sea
+TDD-343415 search 05f965 [ 1 ]> prune
+TDD-352063 search 05f965 [ 1 may:5 ]> take
+TDD367957 search 05f965 [ 6 may:0 ]> prune
+TDD-271903 search 05f965 [ 6 may:26 ]> take
+TDD311895 search 05f965 [ 32 may:0 ]> prune
+TDD-303932 search 05f965 [ 32 may:100 prune:21 ]> take
+TDD216088 search 05f965 [ 132 may:0 prune:21 ]> prune
+TDD1215892 search 05f965 [ 132 may:316 prune:116 ]> cen
+TDD-271925 search 05f965 [ 132 may:316 prune:116 ]> cap 1200
+TDD-1168001 search 05f965 [ 132 cap:1200 may:316 prune:116 ]> **
+TDD-136367 Z LUB@>rI{%$(-KihNdW)=0RR6
+TDD-423568 Z qN|f!!-;Vc00030{{
+TDD-63 Z qNkIHOx^$h00960
+TDD2860604 Z 8iWxC00030{{
+TDD-2860579 Z 8ib()00030{{
+TDD-38 Z 8iZ*H00030{{
+TDD-3 Z BGO4%0N9n`a96s*Tp0yjX9aX+5V|Xg0ssI20RR6
+TDD54 Z qR>gO5gLDRiwfOIU^kKMBme*a0RR6
+TDD-36 Z BF{<TSez7u#Yqa}I0*m%0RR6
+TDD-10 Z qBNAk;ZAbJ;v}*{2><{9|Nj
+TDD0 Z BHBq<Q@1~KK#Qo<?M7VcRsaA10RR6
+TDD0 Z A|aHB$#UUTXy^g}00960
+TDD-4 Z qOz0lHU->VU44jf5&!@I|Nj
+TDD2125183 Z 8ib`c00030{{
+TDD-2125148 Z 8ib`c00030{{
+TDD-33 Z 8ib`c00030{{
+TDD-3 Z 8ia)a00030{{
+TDD9 Z 8iYk900030{{
+TDD-8 Z 8ia)a00030{{
+TDD0 Z 8iYk900030{{
+TDD1364237 Z 8ia)a00030{{
+TDD-1364202 Z 8ia)a00030{{
+TDD-31 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD4 Z 8ia)a00030{{
+TDD-5 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD1439247 Z 8ia)a00030{{
+TDD-1439209 Z 8ia)a00030{{
+TDD-32 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD29 Z 8ia)a00030{{
+TDD-29 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD1382245 Z 8ia)a00030{{
+TDD-1382206 Z 8ia)a00030{{
+TDD-39 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD2 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1332217 Z 8ia)a00030{{
+TDD-1332177 Z 8ia)a00030{{
+TDD-34 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1439330 Z 8ia)a00030{{
+TDD-1439292 Z 8ia)a00030{{
+TDD-33 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD28 Z 8ia)a00030{{
+TDD-26 Z 8ia)a00030{{
+TDD1362723 Z 8ia)a00030{{
+TDD-1362686 Z 8ia)a00030{{
+TDD-6 Z 8ia)a00030{{
+TDD-27 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1476288 Z 8ia)a00030{{
+TDD-1476249 Z 8ia)a00030{{
+TDD-33 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1384044 Z 8ia)a00030{{
+TDD-1383978 Z 8ia)a00030{{
+TDD-54 Z 8ia)a00030{{
+TDD-5 Z 8ia)a00030{{
+TDD-4 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1354011 Z 8ia)a00030{{
+TDD-1353949 Z 8ia)a00030{{
+TDD-55 Z 8ia)a00030{{
+TDD25 Z 8ia)a00030{{
+TDD-31 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1443441 Z 8ia)a00030{{
+TDD-1443402 Z 8ia)a00030{{
+TDD-33 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD13 Z 8ia)a00030{{
+TDD-13 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD1358750 Z 8ia)a00030{{
+TDD-1358702 Z 8ia)a00030{{
+TDD-39 Z 8ia)a00030{{
+TDD-5 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1473479 Z 8ia)a00030{{
+TDD-1473444 Z 8ia)a00030{{
+TDD-31 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD3 Z 8ia)a00030{{
+TDD-5 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD1411524 Z 8ia)a00030{{
+TDD-1411481 Z 8ia)a00030{{
+TDD-35 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD11 Z 8ia)a00030{{
+TDD1357816 Z 8ia)a00030{{
+TDD-1357786 Z 8ia)a00030{{
+TDD-22 Z 8ia)a00030{{
+TDD-11 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1450507 Z 8ia)a00030{{
+TDD-1450474 Z 8ia)a00030{{
+TDD-31 Z 8ia)a00030{{
+TDD-5 Z 8ia)a00030{{
+TDD10 Z 8ia)a00030{{
+TDD-7 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD1365713 Z 8ia)a00030{{
+TDD-1365669 Z 8ia)a00030{{
+TDD-20 Z 8ia)a00030{{
+TDD-20 Z 8ia)a00030{{
+TDD-4 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1488519 Z 8ia)a00030{{
+TDD-1488476 Z 8ia)a00030{{
+TDD-32 Z 8ia)a00030{{
+TDD-4 Z 8ia)a00030{{
+TDD13 Z 8ia)a00030{{
+TDD-11 Z 8ia)a00030{{
+TDD17 Z 8ia)a00030{{
+TDD1389604 Z 8ia)a00030{{
+TDD-1389593 Z 8ia)a00030{{
+TDD-38 Z 8ia)a00030{{
+TDD9 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD-5 Z 8ia)a00030{{
+TDD-4 Z 8ia)a00030{{
+TDD1351248 Z 8ia)a00030{{
+TDD-1351173 Z 8ia)a00030{{
+TDD-64 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1436751 Z 8ia)a00030{{
+TDD-1436711 Z 8ia)a00030{{
+TDD-32 Z 8ia)a00030{{
+TDD-4 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1375630 Z 8ia)a00030{{
+TDD-1375595 Z 8ia)a00030{{
+TDD-29 Z 8ia)a00030{{
+TDD-4 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1467319 Z 8ia)a00030{{
+TDD-1467275 Z 8ia)a00030{{
+TDD-37 Z 8ia)a00030{{
+TDD26 Z 8ia)a00030{{
+TDD-28 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD1385244 Z 8ia)a00030{{
+TDD-1385211 Z 8ia)a00030{{
+TDD-8 Z 8ia)a00030{{
+TDD-19 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD1346331 Z 8ia)a00030{{
+TDD-1346291 Z 8ia)a00030{{
+TDD-34 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1450094 Z 8ia)a00030{{
+TDD-1450052 Z 8ia)a00030{{
+TDD-36 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD35 Z 8ia)a00030{{
+TDD1351266 Z 8ia)a00030{{
+TDD-1351260 Z 8ia)a00030{{
+TDD-34 Z 8ia)a00030{{
+TDD22 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD-27 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD1447296 Z 8ia)a00030{{
+TDD-1447258 Z 8ia)a00030{{
+TDD-32 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1377176 Z 8ia)a00030{{
+TDD-1377120 Z 8ia)a00030{{
+TDD-48 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD27 Z 8ia)a00030{{
+TDD1515396 Z 8ia)a00030{{
+TDD-1515391 Z 8ia)a00030{{
+TDD-24 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD42 Z 8ia)a00030{{
+TDD-8 Z 8ia)a00030{{
+TDD-28 Z 8ia)a00030{{
+TDD1423420 Z 8ia)a00030{{
+TDD-1423390 Z 8ia)a00030{{
+TDD-32 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD5 Z 8ia)a00030{{
+TDD-5 Z 8ia)a00030{{
+TDD1583494 Z 8ia)a00030{{
+TDD-1583451 Z 8ia)a00030{{
+TDD-35 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD5 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1508704 Z 8ia)a00030{{
+TDD-1508675 Z 8ia)a00030{{
+TDD-32 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD24 Z 8ia)a00030{{
+TDD-11 Z 8ia)a00030{{
+TDD1442334 Z 8ia)a00030{{
+TDD-1442314 Z 8ia)a00030{{
+TDD-31 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD-5 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD1500845 Z 8ia)a00030{{
+TDD-1500800 Z 8ia)a00030{{
+TDD-33 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD9 Z 8ia)a00030{{
+TDD1424179 Z 8ia)a00030{{
+TDD-1424129 Z 8ia)a00030{{
+TDD-57 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD3 Z 8ia)a00030{{
+TDD1 Z 8ia)a00030{{
+TDD1513682 Z 8ia)a00030{{
+TDD-1513649 Z 8ia)a00030{{
+TDD-30 Z 8ia)a00030{{
+TDD-5 Z 8ia)a00030{{
+TDD2 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD2 Z 8ia)a00030{{
+TDD1434831 Z 8ia)a00030{{
+TDD-1434793 Z 8ia)a00030{{
+TDD-32 Z 8ia)a00030{{
+TDD-4 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1531858 Z 8ia)a00030{{
+TDD-1531820 Z 8ia)a00030{{
+TDD-32 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD5 Z 8ia)a00030{{
+TDD-6 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD1424504 Z 8ia)a00030{{
+TDD-1424464 Z 8ia)a00030{{
+TDD-34 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD4 Z 8ia)a00030{{
+TDD1550355 Z 8ia)a00030{{
+TDD-1550320 Z 8ia)a00030{{
+TDD-34 Z 8ia)a00030{{
+TDD-6 Z 8ia)a00030{{
+TDD2 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1450479 Z 8ia)a00030{{
+TDD-1450440 Z 8ia)a00030{{
+TDD-6 Z 8ia)a00030{{
+TDD-33 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1548858 Z 8ia)a00030{{
+TDD-1548810 Z 8ia)a00030{{
+TDD-32 Z 8ia)a00030{{
+TDD-11 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1423567 Z 8ia)a00030{{
+TDD-1423526 Z 8ia)a00030{{
+TDD-33 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1536921 Z 8ia)a00030{{
+TDD-1536882 Z 8ia)a00030{{
+TDD-32 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD5 Z 8ia)a00030{{
+TDD-5 Z 8ia)a00030{{
+TDD1417338 Z 8ia)a00030{{
+TDD-1417301 Z 8ia)a00030{{
+TDD-28 Z 8ia)a00030{{
+TDD-7 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD3 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD1392384 Z 8ia)a00030{{
+TDD-1392344 Z 8ia)a00030{{
+TDD-34 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1447459 Z 8ia)a00030{{
+TDD-1447417 Z 8ia)a00030{{
+TDD-4 Z 8ia)a00030{{
+TDD-28 Z 8ia)a00030{{
+TDD-8 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD3 Z 8ia)a00030{{
+TDD1367109 Z 8ia)a00030{{
+TDD-1367073 Z 8ia)a00030{{
+TDD-33 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD1456749 Z 8ia)a00030{{
+TDD-1456709 Z 8ia)a00030{{
+TDD-33 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD-1 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1376806 Z 8ia)a00030{{
+TDD-1376767 Z 8ia)a00030{{
+TDD-33 Z 8ia)a00030{{
+TDD8 Z 8ia)a00030{{
+TDD-11 Z 8ia)a00030{{
+TDD-3 Z 8ia)a00030{{
+TDD31 Z 8ia)a00030{{
+TDD1447586 Z 8ia)a00030{{
+TDD-1447581 Z 8ia)a00030{{
+TDD-26 Z 8ia)a00030{{
+TDD-9 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD31 Z 8ia)a00030{{
+TDD-29 Z 8ia)a00030{{
+TDD1554278 Z 8ia)a00030{{
+TDD-1554239 Z 8ia)a00030{{
+TDD-33 Z 8ia)a00030{{
+TDD-5 Z 8ia)a00030{{
+TDD-2 Z 8ia)a00030{{
+TDD0 Z 8ia)a00030{{
+TDD1 Z 8ia)a00030{{
+TDD3627278 search 05f965 [ 1200 cap:1200 may:0 prune:109 dead:5 reject:7 ]> 
+TDD-2683447 search 05f965 [ 1200 cap:1200 may:0 prune:109 dead:5 reject:7 ]> 
+TDD280281 search 05f965 [ 1200 cap:1200 may:0 prune:109 dead:5 reject:7 ]> ␚
+TDD-240209 [doit:2168]> /res
+TDD4872056 Press <Enter> to 📋 or `>` for line prompt 
+TDD-5852462 result: "\u2728 Spaceword.org Daily 2025-06-13 \u2728\n\n\ud83c\udfc6 Score: 2168\n\ud83c\udfc5 Rank: 70/213 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +68\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD225172 [prior:2168]> 
+TDD3419206 [prior:2168]> /store
