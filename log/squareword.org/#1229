@@ -1,0 +1,124 @@
+T0.0002068899993901141 now: 2025-06-13T07:46:53EDT
+TD59 site: squareword.org
+TDD6901634 🧩  ? #1229
+TDD-6901527 puzzle_id: #1229
+TDD-134 wordlist: nwl2023.txt
+TDD2287604 > *
+TDD584433 try? 
+TDD-2680108 try? 
+TDD1104160 try? 1
+TDD-1294918 questioning: ["AROSE", "#5"]
+TDD461628 AROSE ( #5 ) ? 
+TDD273123 AROSE ( #5 ) > 
+TDD2816147 AROSE ( #5 ) 1> ~ arse
+TDD-3551680 word: 0 _____
+TDD-398 may: 0 A E R S
+TDD3999584 AROSE ( #5 ) 2> ___se ~ ro
+TDD-3999503 word: 1 ___SE
+TDD-78 may: 1 O R
+TDD18808013 AROSE ( #5 ) 3> __o_e ~ e
+TDD-18807927 word: 2 __O_E
+TDD-93 may: 2 E
+TDD3384025 AROSE ( #5 ) 4> a_ ~ e
+TDD-3383941 word: 3 A____
+TDD-79 may: 3 E
+TDD2551847 AROSE ( #5 ) 5> ~ se
+TDD-2551783 word: 4 _____
+TDD-65 may: 4 E S
+TDD-2 question done
+TDD4631926 > *
+TDD6528256 try? 1
+TDD-11160081 questioning: ["GEODE", "#3"]
+TDD1247791 GEODE ( #3 ) ? 
+TDD-1039932 GEODE ( #3 ) > 
+TDD12760232 GEODE ( #3 ) 1> 4 ~ ed
+TDD-12968094 word: 3 A____
+TDD-89 may: 3 D E
+TDD12536082 GEODE ( #3 ) 5> _e_d ~ se
+TDD-12535991 word: 4 _E_D_
+TDD-91 may: 4 E S
+TDD-1 question done
+TDD1567705 > /no g
+TDD-1567486 nope: G
+TDD543582 > *
+TDD3832235 try? 1
+TDD-4375946 questioning: ["EVOKE", "#3"]
+TDD199751 EVOKE ( #3 ) ? 
+TDD-31787 EVOKE ( #3 ) > 
+TDD1759819 EVOKE ( #3 ) 1> 3 evoke
+TDD-1927790 word: 2 EVOKE
+TDD-82 may: 2 
+TDD15456233 EVOKE ( #3 ) 4> ␚
+TDD-15456194 question done
+TDD680344 > *
+TDD2304519 try? 1
+TDD-2984821 questioning: ["SMEAR", "#1"]
+TDD214399 SMEAR ( #1 ) ? 
+TDD-38446 SMEAR ( #1 ) > 
+TDD1200502 SMEAR ( #1 ) 1> 1 smear
+TDD-1376475 word: 0 SMEAR
+TDD-65 may: 0 
+TDD9183429 SMEAR ( #1 ) 2> 5 _eed ~ s
+TDD-9183321 word: 4 _EED_
+TDD-102 may: 4 S
+TDD-3 question done
+TDD6303946 > *
+TDD1520096 try? 2
+TDD-7823957 questioning: ["AIMED", "#4"]
+TDD1359949 AIMED ( #4 ) ? 
+TDD-1184188 AIMED ( #4 ) > 
+TDD3696243 AIMED ( #4 ) 1> 4 aide_ ~ d
+TDD-3872002 word: 3 AIDE_
+TDD-87 may: 3 D
+TDD6232020 AIMED ( #4 ) 5> _eeds
+TDD-6231940 word: 4 _EEDS
+TDD-80 may: 4 
+TDD0 question done
+TDD4823914 > *
+TDD-3287859 questioning: ["AIDED", "#4"]
+TDD2831958 AIDED ( #4 ) ? 
+TDD-4184200 AIDED ( #4 ) > 
+TDD2544211 AIDED ( #4 ) 1> 4 aided
+TDD-2727948 word: 3 AIDED
+TDD-78 may: 3 
+TDD8232126 AIDED ( #4 ) 5> ␚
+TDD-8232076 question done
+TDD3095871 > *
+TDD19192322 try? 1
+TDD-22288132 questioning: ["TORSE", "#2"]
+TDD239801 TORSE ( #2 ) ? 
+TDD-79937 TORSE ( #2 ) > 
+TDD3304001 TORSE ( #2 ) 1> 2 _orse
+TDD-3463909 word: 1 _ORSE
+TDD-74 may: 1 
+TDD2176093 TORSE ( #2 ) 3> ␚
+TDD-2176042 question done
+TDD783701 > /no t
+TDD-783671 nope: G T
+TDD495847 > *
+TDD8992215 try? 1
+TDD-9488038 questioning: ["WORSE", "#2"]
+TDD679803 WORSE ( #2 ) ? ␚
+TDD-679861 question done
+TDD823832 > /no w
+TDD-823812 nope: G T W
+TDD431820 > *
+TDD3984170 try? 1
+TDD-4415919 questioning: ["HORSE", "#2"]
+TDD383718 HORSE ( #2 ) ? 
+TDD-199855 HORSE ( #2 ) > 
+TDD1416025 HORSE ( #2 ) 1> 2 horse
+TDD-1599929 word: 1 HORSE
+TDD-89 may: 1 
+TDD6296160 HORSE ( #2 ) 3> ␚
+TDD-6296116 question done
+TDD767574 > *
+TDD67090046 try? 1
+TDD-67857546 questioning: ["FEEDS", "#5"]
+TDD1039368 FEEDS ( #5 ) ? 
+TDD640459 FEEDS ( #5 ) > 5 feeds
+TDD-1679854 word: 4 FEEDS
+TDD-91 may: 4 
+TDD-2 question done
+TDD1816016 Press <Enter> to 📋 or `>` for line prompt ␚
+TDD-1815986 <EOF>
