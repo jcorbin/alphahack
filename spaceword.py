@@ -1059,9 +1059,6 @@ class SpaceWord(StoredLog):
             '^': '/write', # TODO wants to be an under... prefix
         })
 
-        self.expired_prompt.set('finalize', self.do_finalize)
-        self.review_prompt.set('finalize', self.do_finalize)
-
     def make_sid(self, hash: str):
         n = 6
         while hash[:n] in self.sids and n < len(hash):
@@ -1092,6 +1089,16 @@ class SpaceWord(StoredLog):
     def result(self):
         self._result = None
 
+    @override
+    def have_result(self):
+        return self.result is not None
+
+    @override
+    def fin_result(self):
+        res = self.result
+        return res is not None and res.final
+
+    @override
     def proc_result(self, ui: PromptUI, text: str):
         self.result_text = text
         del self.result
@@ -1314,27 +1321,6 @@ class SpaceWord(StoredLog):
     @override
     def expired_prompt_mess(self, _ui: PromptUI):
         return f'[f]inalize, [a]rchive, [r]emove, or [c]ontinue? '
-
-    def do_finalize(self, ui: PromptUI):
-        return (
-            self.interact(ui, self.finalize)
-            if self.ephemeral else self.finalize)
-
-    def finalize(self, ui: PromptUI):
-        res = self.result
-        if res and res.final:
-            if not self.stored: return self.store
-            if self.dirty:
-                with git_txn(f'{self.site_name or self.store_name} day {self.puzzle_id} final', ui=ui) as txn:
-                    txn.add(self.log_file)
-                raise StopIteration
-            return self.review_prompt
-
-        ui.print('Provide final share result:')
-        try:
-            self.proc_result(ui, ui.may_paste())
-        except ValueError as err:
-            ui.print(f'! {err}')
 
     def _id_parts(self) -> tuple[Literal['daily', 'weekly'], date] | None:
         match = re.match(r'''(?x)
