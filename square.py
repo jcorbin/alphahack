@@ -13,7 +13,7 @@ from sortem import Chooser, DiagScores, Possible, RandScores, wrap_item
 from store import StoredLog, git_txn
 from strkit import MarkedSpec, PeekStr, spliterate
 from ui import PromptUI
-from wordlish import Word
+from wordlish import Attempt, Word
 from wordlist import WordList
 
 @final
