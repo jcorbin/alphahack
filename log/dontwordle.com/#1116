@@ -1,0 +1,32 @@
+T0.0002003190020332113 now: 2025-06-13T08:25:44EDT
+TD68 site: dontwordle.com
+TDD-14 wordlist: nwl2023.txt
+TDD4591801 1> *
+TDD7048238 1> tried booby nnYnn
+TDD-11639828 tried: BOOBY n n Y n n
+TDD1655449 2> undo
+TDD-1655640 undo
+TDD3759858 1> *
+TDD6200329 1> tried phpht nnnnn
+TDD-9960143 tried: PHPHT n n n n n
+TDD12223947 2> *
+TDD-527631 2> tried babka nnnnn
+TDD-11696286 tried: BABKA n n n n n
+TDD639335 3> *
+TDD6296549 3> tried seels nnnnn
+TDD-6935884 tried: SEELS n n n n n
+TDD1383804 4> *
+TDD5696513 4> tried mimic nnnnn
+TDD-7080363 tried: MIMIC n n n n n
+TDD591425 5> *
+TDD24224861 5> tried fuzzy Ynnnn
+TDD-24816267 tried: FUZZY Y n n n n
+TDD1063787 6> *
+TDD10976228 6> * - sans
+TDD-9183911 6> * -sans
+TDD20543858 6> tried fjord YnYMY
+TDD-23399963 tried: FJORD Y n Y m Y
+TDD15423847 Press <Enter> to 📋 or `>` for line prompt 
+TDD-15421708 result: "Don't Wordle 1116 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7300\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2958\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c357\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c108\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c6\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe91\nUndos used: 1\n\n  1 words remaining\nx 6 unused letters\n= 6 total score"
+TDD-1588 puzzle_id: #1116
+TDD-647 <STOP>
