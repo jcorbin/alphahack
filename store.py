@@ -135,12 +135,14 @@ class StoredLog:
         self.expired_prompt: PromptUI.Prompt = PromptUI.Prompt(self.expired_prompt_mess, {
             'archive': self.expired_do_archive,
             'continue': lambda _: self.handle,
+            'finalize': self.do_finalize,
             'remove': self.expired_do_remove,
         })
 
         self.review_prompt: PromptUI.Prompt = PromptUI.Prompt(self.review_prompt_mess, {
             'compress': self.review_do_comp,
             'continue': self.review_do_cont,
+            'finalize': self.do_finalize,
             'replay': lambda _: self.Replay(self),
             'report': self.do_report,
         })
@@ -173,6 +175,39 @@ class StoredLog:
     @deprecated('use .review_prompt.handle directly')
     def handle_review(self, ui: PromptUI):
         return self.review_prompt.handle(ui)
+
+    def do_finalize(self, ui: PromptUI):
+        return (
+            self.interact(ui, self.finalize)
+            if self.ephemeral else self.finalize)
+
+    def finalize(self, ui: PromptUI):
+        if not self.fin_result():
+            reason = 'final' if self.have_result() else ''
+            ui.print(f'Provide{" " + reason if reason else ""} share result:')
+            try:
+                self.proc_result(ui, ui.may_paste())
+            except ValueError as err:
+                ui.print(f'! {err}')
+
+        if not self.stored:
+            return self.store
+
+        if self.dirty:
+            with git_txn(f'{self.site_name or self.store_name} {self.puzzle_id} result', ui=ui) as txn:
+                txn.add(self.log_file)
+            raise StopIteration
+
+        return self.review_prompt
+
+    def have_result(self) -> bool:
+        raise NotImplementedError('abstract result processing')
+
+    def proc_result(self, _ui: PromptUI, _text: str) -> None:
+        raise NotImplementedError('abstract result processing')
+
+    def fin_result(self) -> bool:
+        return self.have_result()
 
     def skim_log(self) -> Generator[tuple[int, str]]:
         with open(self.log_file, 'r') as f:
