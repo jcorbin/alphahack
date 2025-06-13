@@ -81,6 +81,10 @@ class Search(StoredLog):
             self._result = res
         return self._result
 
+    @result.deleter
+    def result(self):
+        self._result = None
+
     @override
     def startup(self, ui: PromptUI):
         if not self.puzzle_id:
@@ -537,13 +541,18 @@ class Search(StoredLog):
         self.row_may[word_i].clear()
 
     def finish(self, ui: PromptUI):
-        res = self.result
-        if res:
-            raise StopIteration
+        return self.finalize
 
-        ui.print('Provide share result:')
-        self.result_text = ui.may_paste()
-        ui.log(f'result: {json.dumps(self.result_text)}')
+    @override
+    def have_result(self):
+        return self.result is not None
+
+    @override
+    def proc_result(self, ui: PromptUI, text: str):
+        self.result_text = text
+        del self.result
+        if self.have_result():
+            ui.log(f'result: {json.dumps(text)}')
 
     @override
     def review(self, ui: PromptUI):
