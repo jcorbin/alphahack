@@ -1,0 +1,94 @@
+T0.00019534199964255095 now: 2025-06-14T09:18:02EDT
+TD40 site: squareword.org
+TDD2348754 🧩  ? #1230
+TDD-2348662 puzzle_id: #1230
+TDD-110 wordlist: nwl2023.txt
+TDD2015756 > *
+TDD3624310 try? 1
+TDD-5638970 questioning: ["SLATE", "#5"]
+TDD797945 SLATE ( #5 ) ? 
+TDD-638655 SLATE ( #5 ) > 
+TDD3367040 SLATE ( #5 ) 1> s_at ~ st
+TDD-3527104 word: 0 S_AT_
+TDD-331 may: 0 S T
+TDD3719779 SLATE ( #5 ) 2> ____e ~ lat
+TDD-3719703 word: 1 ____E
+TDD-77 may: 1 A L T
+TDD2743906 SLATE ( #5 ) 3> ~ e
+TDD-2743712 word: 2 _____
+TDD-194 may: 2 E
+TDD783788 SLATE ( #5 ) 4> 
+TDD3136279 SLATE ( #5 ) 5> s_a_e ~ t
+TDD-3919999 word: 4 S_A_E
+TDD-69 may: 4 T
+TDD0 question done
+TDD1783857 > *
+TDD-1083635 questioning: ["STATS", "#1"]
+TDD2799654 STATS ( #1 ) ? 
+TDD-3323953 STATS ( #1 ) > 
+TDD1376091 STATS ( #1 ) 1> stats
+TDD-1551950 word: 0 STATS
+TDD-63 may: 0 
+TDD7872063 STATS ( #1 ) 2> 5 sta_e
+TDD-7871963 word: 4 STA_E
+TDD-99 may: 4 
+TDD-1 question done
+TDD983733 > *
+TDD2417759 try? 1
+TDD-3401418 questioning: ["LATHE", "#2"]
+TDD214461 LATHE ( #2 ) ? 
+TDD-38561 LATHE ( #2 ) > 
+TDD720061 LATHE ( #2 ) 1> 
+TDD127876 LATHE ( #2 ) 2> lathe
+TDD-1023854 word: 1 LATHE
+TDD-59 may: 1 
+TDD3352035 LATHE ( #2 ) 3> ␚
+TDD-3352002 question done
+TDD559804 > *
+TDD4792302 try? 2
+TDD-5352037 questioning: ["AIRED", "#3"]
+TDD399868 AIRED ( #3 ) ? 
+TDD-248087 AIRED ( #3 ) > 
+TDD3936155 AIRED ( #3 ) 1> 3 __r ~ er
+TDD-4087954 word: 2 __R__
+TDD-82 may: 2 E R
+TDD2560009 AIRED ( #3 ) 4> ~ id
+TDD-2559896 word: 3 _____
+TDD-112 may: 3 D I
+TDD5647890 AIRED ( #3 ) 5> ␚
+TDD-5647849 question done
+TDD623957 > *
+TDD13376124 try? 2
+TDD-14000025 questioning: ["ERROR", "#3"]
+TDD255700 ERROR ( #3 ) ? 
+TDD-111775 ERROR ( #3 ) > 
+TDD2504052 ERROR ( #3 ) 1> 3 error
+TDD-2648014 word: 2 ERROR
+TDD-63 may: 2 
+TDD3879972 ERROR ( #3 ) 4> ~ ido
+TDD-3879907 word: 3 _____
+TDD-67 may: 3 D I O
+TDD1529383 ERROR ( #3 ) 5> ␚
+TDD-1529349 question done
+TDD534377 > *
+TDD-4192 questioning: ["DOING", "#4"]
+TDD2323697 DOING ( #4 ) ? 
+TDD-2685933 DOING ( #4 ) > 
+TDD744022 DOING ( #4 ) 1> 4 doing
+TDD-911924 word: 3 DOING
+TDD-79 may: 3 
+TDD2991907 DOING ( #4 ) 5> ~ g
+TDD-2991839 word: 4 STA_E
+TDD-68 may: 4 G
+TDD-1 question done
+TDD1191851 > *
+TDD-224619 questioning: ["STAGE", "#5"]
+TDD1057628 STAGE ( #5 ) ? 
+TDD-1848904 STAGE ( #5 ) > 
+TDD4448098 STAGE ( #5 ) 1> 5 stage
+TDD-4623980 word: 4 STAGE
+TDD-73 may: 4 
+TDD0 question done
+TDD4223943 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4221606 result: "squareword.org 1230: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1230"
+TDD163295 📆 2025-06-14 ? 
