@@ -1,0 +1,46 @@
+T0.00023182699806056917 now: 2025-06-14T09:26:07EDT
+TD38 site: dontwordle.com
+TDD-6 wordlist: nwl2023.txt
+TDD2715417 1> *
+TDD8356915 1> tried addax nnnYn
+TDD-11072109 tried: ADDAX n n n Y n
+TDD11999912 2> undo
+TDD-12000096 undo
+TDD10280097 1> *
+TDD920159 1> tried fesse nnMnn
+TDD-11200199 tried: FESSE n n m n n
+TDD2247788 2> undo
+TDD-2247841 undo
+TDD43297003 1> *
+TDD-36448825 1> tried femme nnnnn
+TDD-6848148 tried: FEMME n n n n n
+TDD671759 2> *
+TDD7344380 2> tried xylyl nnnnn
+TDD-8016140 tried: XYLYL n n n n n
+TDD759928 3> *
+TDD7104204 3> tried union nnnnn
+TDD-7864142 tried: UNION n n n n n
+TDD663759 4> *
+TDD11232472 4> tried phpht MnnnM
+TDD-11896208 tried: PHPHT m n n n m
+TDD6497182 5> undo
+TDD-6497229 undo
+TDD582625 4> *
+TDD117340409 4> * -sans :v a :v t :v s
+TDD-107538841 4> * -sans :v a :v t :v p
+TDD847970 4> * -sans :v a :v t
+TDD-2056058 4> * -sans :v a
+TDD18496564 4> tried wrwth nMnMn
+TDD-27672627 tried: WRWTH n m n m n
+TDD1583721 5> *
+TDD2032229 5> * -sans
+TDD27408768 5> tried tatar MnnYM
+TDD-31024700 tried: TATAR m n n Y m
+TDD1151711 6> *
+TDD880187 6> * -sans
+TDD14688454 6> tried sprat YmYYm
+TDD-16720369 tried: SPRAT Y m Y Y m
+TDD3743783 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3741654 result: "Don't Wordle 1117 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5567\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3282\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c420\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c24\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe85\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe81\nUndos used: 3\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"
+TDD-1591 puzzle_id: #1117
+TDD-641 <STOP>
