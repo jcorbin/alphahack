@@ -137,6 +137,7 @@ class StoredLog:
             'continue': lambda _: self.handle,
             'finalize': self.do_finalize,
             'remove': self.expired_do_remove,
+            'result': self.do_result,
         })
 
         self.review_prompt: PromptUI.Prompt = PromptUI.Prompt(self.review_prompt_mess, {
@@ -145,6 +146,7 @@ class StoredLog:
             'finalize': self.do_finalize,
             'replay': lambda _: self.Replay(self),
             'report': self.do_report,
+            'result': self.do_result,
         })
 
     @property
@@ -181,14 +183,14 @@ class StoredLog:
             self.interact(ui, self.finalize)
             if self.ephemeral else self.finalize)
 
+    def do_result(self, ui: PromptUI):
+        return (
+            self.interact(ui, self.prompt_result)
+            if self.ephemeral else self.prompt_result)
+
     def finalize(self, ui: PromptUI):
         if not self.fin_result():
-            reason = 'final' if self.have_result() else ''
-            ui.print(f'Provide{" " + reason if reason else ""} share result:')
-            try:
-                self.proc_result(ui, ui.may_paste())
-            except ValueError as err:
-                ui.print(f'! {err}')
+            return self.prompt_result(ui, 'final' if self.have_result() else '')
 
         if not self.stored:
             return self.store
@@ -199,6 +201,14 @@ class StoredLog:
             raise StopIteration
 
         return self.review_prompt
+
+    def prompt_result(self, ui: PromptUI, reason: str=''):
+        ui.print(f'Provide{" " + reason if reason else ""} share result:')
+        try:
+            self.proc_result(ui, ui.may_paste())
+        except ValueError as err:
+            ui.print(f'! {err}')
+        return self.finalize
 
     def have_result(self) -> bool:
         raise NotImplementedError('abstract result processing')
