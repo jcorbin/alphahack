@@ -1,0 +1,41 @@
+T0.0002499429974704981 now: 2025-06-14T09:16:28EDT
+TD86462 loaded 196559 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (44 words excluded) asof 770e4e43ce4ef415ddb93d19f167861935be262a
+TDD2539888 [0 : 98236 : 196559] mach? a
+TDD-2626190 progress: 1 98236 mach
+TDD1871343 [98237 : 147398 : 196559] rhumb? b
+TDD-1871419 progress: -1 147398 rhumb
+TDD1447828 [98237 : 122799 : 147398] parr? a
+TDD-1447835 progress: 1 122799 parr
+TDD2055942 [122800 : 135090 : 147398] proper? b
+TDD-2055946 progress: -1 135090 proper
+TDD1551808 [122800 : 128869 : 135090] play? a
+TDD-1551797 progress: 1 128869 play
+TDD2263825 [128870 : 131978 : 135090] prearm? a
+TDD-2263843 progress: 1 131978 prearm
+TDD1647892 [131979 : 133530 : 135090] press? a
+TDD-1647888 progress: 1 133530 press
+TDD1607890 [133531 : 134293 : 135090] prob? a
+TDD-1607888 progress: 1 134293 prob
+TDD4256036 [134294 : 134687 : 135090] prognostic? b
+TDD-4256029 progress: -1 134687 prognostic
+TDD2904659 [134294 : 134488 : 134687] procure? b
+TDD-2904674 progress: -1 134488 procure
+TDD1742942 [134294 : 134387 : 134488] process? a
+TDD-1742933 progress: 1 134387 process
+TDD1767913 [134388 : 134439 : 134488] procreate? b
+TDD-1767909 progress: -1 134439 procreate
+TDD1783857 [134388 : 134410 : 134439] proclaim? a
+TDD-1783856 progress: 1 134410 proclaim
+TDD2207837 [134411 : 134424 : 134439] proconsul? a
+TDD-2207851 progress: 1 134424 proconsul
+TDD1848010 [134425 : 134431 : 134439] procrastinate? it
+TDD-1848006 progress: 0 134431 procrastinate
+TDD-55 [134425 : 134431 : 134439] <Done>.
+TDD4608034 press <Return> to finish
+TDD-4416117 Press <Enter> to 📋 or `>` for line prompt 
+TDD-189748 share result: "\ud83e\udde9 Puzzle #690\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 29s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1871 result puzzle: 690
+TDD-298 result guesses: 15
+TDD-5 result time: 29s
+TDD0 result link: alphaguess.com
+TDD2 <STOP>
