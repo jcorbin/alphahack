@@ -826,6 +826,7 @@ class Search(StoredLog):
             with ui.input(prompt) as tokens:
                 if q == '?':
                     if tokens.empty:
+                        self.question_guess(ui, word)
                         self.qmode = '>' # TODO: auto N> wen
                         return
 
