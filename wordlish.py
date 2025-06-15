@@ -1,7 +1,7 @@
 from collections import Counter
 from collections.abc import Iterable
 from dataclasses import dataclass
-from itertools import combinations, permutations
+from itertools import chain, combinations, permutations
 from typing import Literal, Never, cast, final, override
 import re
 
@@ -207,40 +207,34 @@ class Word:
 
     def collect(self, at: Attempt):
         at = Attempt(at.word.upper(), at.res)
-        mayc: set[str] = set()
-        for c, f, i in at.letter_notes():
-            if f in (0, 1):
-                mayc.add(c)
-            elif f == 2:
+        for c in set(at.word):
+            fis = tuple((f, i) for cc, f, i in at.letter_notes() if cc == c)
+            ni = tuple(i for f, i in fis if f == 0)
+            mi = tuple(i for f, i in fis if f == 1)
+            yi = tuple(i for f, i in fis if f == 2)
+            for i in yi:
                 self.yes[i] = c
                 self.can[i].clear()
                 self.can[i].update((c,))
-
-                if self.max.get(c):
-                    self.max[c] -= 1
-                    if self.max[c] < 1:
-                        if c in self.may:
-                            self.may.remove(c)
-                        for j, cn in enumerate(self.can):
-                            if j != i and c in cn:
-                                cn.remove(c)
-
-                if c in self.may:
-                    self.may.remove(c)
-
-            else: nope(f, 'invalid feedback')
-        for c in mayc:
-            may = sum(f == 1 for cc, f, _ in at.letter_notes() if cc == c)
-            if may:
-                if may > sum(yc == c for yc in self.yes):
+            for i in chain(mi, ni):
+                self.can[i].difference_update((c,))
+            if mi:
+                if c not in self.yes:
                     self.may.add(c)
-                if any(f == 0 for cc, f, _ in at.letter_notes() if cc == c):
-                    self.max[c] = may
-                for cc, f, i in at.letter_notes():
-                    if cc == c and f != 2:
-                        self.can[i].difference_update((c,))
-            else:
-                self.cannot(c)
+            elif c in self.may:
+                self.may.remove(c)
+            if yi or mi:
+                if ni and mi:
+                    self.max[c] = len(mi)
+                elif c in self.max:
+                    if len(yi) >= self.max[c]:
+                        del self.max[c]
+                        for i, can in enumerate(self.can):
+                            if i not in yi:
+                                can.difference_update((c,))
+            elif ni:
+                for can in self.can:
+                    can.difference_update((c,))
 
     def re_may(self,
                i: int,
@@ -320,7 +314,7 @@ class Word:
     # 2_ideal
     > mamma nMnnn
     > ideal nMnYn
-    - str: ___A_ ~D -EILM A:0
+    - str: ___A_ ~D -EILM
     - done: False
     - can_lets: ```
     [B-DF-HJKN-Z]
@@ -365,6 +359,40 @@ class Word:
     [BCFGIKLQRT-XZ][BCFGKLQRTV-XZ]IUT
     [BCFGIKLQRT-XZ][BCFGKLQRTV-XZ]UIT
     ```
+
+    #must_be_aches
+    > REAMS n m m n Y
+    > RISEN n n m Y n
+    > RINSE n n n m m
+    > EMCEE n n m Y n
+    > SPELL m n m n n
+    > CHEAT m m m m n
+    - str: ___ES ~ACH -ILMNPRT
+    - done: False
+    - can_lets: ```
+    [ABDF-HJKOQU-Z]
+    [A-DFGJKOQSU-Z]
+    [BDF-HJKOQU-Z]
+    E
+    S
+    ```
+    - may_alts: ```
+    ACHES
+    ```
+
+    #may_after_max
+    > VUGGY n n n n n
+    > KAKAS n m n n n
+    > AFFIX m n n n n
+    - str: _____ ~A -FGIKSUVXY A:1
+    - can_lets: ```
+    [B-EHJL-RTWZ]
+    [B-EHJL-RTWZ]
+    [A-EHJL-RTWZ]
+    [B-EHJL-RTWZ]
+    [A-EHJL-RTWZ]
+    ```
+
 
 ''')
 def test_word(spec: MarkedSpec):
