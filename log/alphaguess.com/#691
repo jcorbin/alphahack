@@ -1,0 +1,37 @@
+T0.00021367299632402137 now: 2025-06-15T07:37:11EDT
+TD59505 loaded 196559 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (44 words excluded) asof 8e058ebfd4fd773905f9b4ac532b2a79a232cd32
+TDD5048683 [0 : 98236 : 196559] mach? b
+TDD-5107985 progress: -1 98236 mach
+TDD1599543 [0 : 47396 : 98236] dis? b
+TDD-1599672 progress: -1 47396 dis
+TDD1919919 [0 : 23695 : 47396] camp? b
+TDD-1919906 progress: -1 23695 camp
+TDD2471891 [0 : 11771 : 23695] back? a
+TDD-2471896 progress: 1 11771 back
+TDD7399993 [11772 : 17726 : 23695] blind? a
+TDD-7399948 progress: 1 17726 blind
+TDD1655710 [17727 : 20698 : 23695] brill? a
+TDD-1655767 progress: 1 20698 brill
+TDD2055809 [20699 : 22038 : 23695] bur? b
+TDD-2055810 progress: -1 22038 bur
+TDD1631881 [20699 : 21368 : 22038] bryologists? b
+TDD-1631881 progress: -1 21368 bryologists
+TDD3744063 [20699 : 21025 : 21368] bronchi? b
+TDD-3744060 progress: -1 21025 bronchi
+TDD1943785 [20699 : 20845 : 21025] broad? a
+TDD-1943786 progress: 1 20845 broad
+TDD1599843 [20846 : 20931 : 21025] brogue? a
+TDD-1599844 progress: 1 20931 brogue
+TDD1735923 [20932 : 20978 : 21025] bromate? b
+TDD-1735928 progress: -1 20978 bromate
+TDD1951914 [20932 : 20954 : 20978] broke? it
+TDD-1951895 progress: 0 20954 broke
+TDD-71 [20932 : 20954 : 20978] <Done>.
+TDD2751941 press <Return> to finish
+TDD-2543970 Press <Enter> to 📋 or `>` for line prompt 
+TDD-205969 share result: "\ud83e\udde9 Puzzle #691\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 30s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1740 result puzzle: 691
+TDD-267 result guesses: 13
+TDD-3 result time: 30s
+TDD0 result link: alphaguess.com
+TDD2 <STOP>
