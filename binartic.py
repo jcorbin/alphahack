@@ -688,13 +688,19 @@ class Search(StoredLog):
         elif cmp == 0: self.chosen = ix
         else: raise ValueError('invalid comparison') # unreachable
 
-    def finish(self, ui: PromptUI) -> PromptUI.State|None:
+    def finish(self, _ui: PromptUI) -> PromptUI.State|None:
+        return self.finalize
+
+    @override
+    def have_result(self):
+        return self.result is not None
+
+    @override
+    def proc_result(self, ui: PromptUI, text: str) -> None:
+        del self.result
+        self.result_text = text
         res = self.result
-        if not res:
-            ui.print('Provide share result:')
-            self.result_text = ui.may_paste()
-            ui.log(f'share result: {json.dumps(self.result_text)}')
-            return
+        if not res: return
 
         if not res.puzzle:
             del self.result
@@ -703,10 +709,9 @@ class Search(StoredLog):
         self.puzzle_id = f'#{res.puzzle}'
         if not self.site: self.site = res.site
 
+        ui.log(f'share result: {json.dumps(text)}')
         for k, v in res.log_items():
             ui.log(f'result {k}: {v}')
-
-        raise StopIteration
 
     @property
     @override
