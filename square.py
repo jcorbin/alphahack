@@ -268,12 +268,10 @@ class Search(StoredLog):
             col_may: tuple[set[str], ...] = tuple(set() for _ in range(self.size))
             for col in range(self.size):
                 sel = self.select(col=col)
-                col_may[col].update(word[row] for word in self._find(sel.pattern))
+                col_may[col].update(word[row].upper() for word in self._find(sel.pattern))
             if verbose:
-                verbose(f'col_may: {''.join(
-                    f'[{''.join(sorted(may)).upper()}]'
-                    for may in col_may
-                )}')
+                for n, may in enumerate(col_may, 1):
+                    verbose(f'col_may_{n}: [{''.join(sorted(may))}]')
 
             for word in self._find(pattern):
                 if all(
