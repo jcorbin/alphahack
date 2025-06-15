@@ -267,7 +267,7 @@ class Search(StoredLog):
         if row is not None:
             col_may: tuple[set[str], ...] = tuple(set() for _ in range(self.size))
             for col in range(self.size):
-                sel = self.select(col=col)
+                sel = self.select(col=col, avoid=False)
                 col_may[col].update(word[row].upper() for word in self._find(sel.pattern))
             if verbose:
                 for n, may in enumerate(col_may, 1):
