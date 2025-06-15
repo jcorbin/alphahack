@@ -41,3 +41,35 @@ TDD0 change: 67 L
 TDD0 change: 76 Y
 TDD0 change: 77 E
 TDD1551800 [doit:2158]> /store
+T215.31138823599758 now: 2025-06-15T07:34:55EDT
+TD1182843 [doit:2158]> /sea
+TDD-246836 search a4ab68 [ 1 ]> purne
+TDD303994 search a4ab68 [ 1 ]> pru
+TDD512012 search a4ab68 [ 1 may:2 ]> ta
+TDD-55973 search a4ab68 [ 3 may:0 ]> prune
+TDD-1024035 search a4ab68 [ 3 may:5 ]> t
+TDD319973 search a4ab68 [ 8 may:0 ]> prune
+TDD-519885 search a4ab68 [ 8 may:8 prune:3 ]> t
+TDD863851 search a4ab68 [ 16 may:0 prune:3 ]> prune 
+TDD-951943 search a4ab68 [ 16 may:8 prune:9 ]> t
+TDD1224314 search a4ab68 [ 24 may:0 prune:9 ]> pr
+TDD-1200589 search a4ab68 [ 24 may:8 prune:15 ]> t
+TDD224288 search a4ab68 [ 32 may:0 prune:15 ]> cen
+TDD1792057 search a4ab68 [ 32 may:0 prune:15 ]> cap 1200
+TDD-1752078 search a4ab68 [ 32 cap:1200 may:0 prune:15 ]> **
+TDD-496373 Z c$_Lq%}Px!Q7Fz#u}U;aOfs`jNXpMkwK6oYQoss4T)jMl9D{)@M+F79&>)al7!dopf><CT+#jaa(Fewgbj5BORsaA10RR6
+TDD-175243 Z Dk92B!DvoWprw-l00030{{
+TDD-312 Z BF;$&K&g`up2G<M00030{{
+TDD-31 Z qPLTXa1#Ik0RR6
+TDD-5 Z BF{;|5H~@c1acF^Ngy{-9B}{u00960
+TDD10088042 search a4ab68 [ 31 cap:1200 may:99 prune:388 done:3 dead:3 reject:5 ]> ishow 
+TDD-8200049 search a4ab68 [ 31 cap:1200 may:99 prune:388 done:3 dead:3 reject:5 ]> show done
+TDD1848000 search a4ab68 [ 31 cap:1200 may:99 prune:388 done:3 dead:3 reject:5 ]> show 1
+TDD9088144 search a4ab68 [ 31 cap:1200 may:99 prune:388 done:3 dead:3 reject:5 ]> ret
+TDD-12823999 change: 62 
+TDD-154 change: 28 
+TDD-6 change: 62 S
+TDD2200178 [doit:2164]> /res
+TDD-1776474 Press <Enter> to 📋 or `>` for line prompt 
+TDD-420321 result: "\u2728 Spaceword.org Daily 2025-06-15 \u2728\n\n\ud83c\udfc6 Score: 2164\n\ud83c\udfc5 Rank: 104/181 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +64\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD1113186 [prior:2164]> /store
