@@ -1,0 +1,43 @@
+T0.0003162239954690449 now: 2025-06-15T07:31:20EDT
+TD38 site: spaceword.org
+TDD-5 wordlist: nwl2023.txt
+TDD5514490 🧩  ? daily 20250615
+TDD-5514202 puzzle_id: 2025-06-15
+TDD680133 num letters (default: 21) ? 
+TDD-680407 num_letters: 21
+TDD7183190 letters? aaaeeee
+TDD-7183085 letters: |AAAEEEE|
+TDD3543753 letters? fhijlno
+TDD-3543813 letters: |AAAEEEEFHIJLNO|
+TDD2672103 letters? rrsuvwy
+TDD-2672111 letters: |AAAEEEEFHIJLNORRSUVWY|
+TDD1783692 letters. 
+TDD11288387 [doit:100]> /sea
+TDD-11088154 search 4d12f1 [ 1 ]> cap 1200
+TDD8520173 search 4d12f1 [ 1 cap:1200 ]> cap 500
+TDD-9840158 search 4d12f1 [ 1 cap:500 ]> **
+TDD90610194 search 4d12f1 [ 500 cap:500 may:2584 done:4 prune:22 dead:11 ]> show done
+TDD-88147013 search 4d12f1 [ 500 cap:500 may:2584 done:4 prune:22 dead:11 ]> show 1
+TDD67289941 search 4d12f1 [ 500 cap:500 may:2584 done:4 prune:22 dead:11 ]> ret
+TDD-70416951 change: 22 H
+TDD-183 change: 23 E
+TDD-5 change: 24 J
+TDD-1 change: 25 I
+TDD0 change: 26 R
+TDD0 change: 27 A
+TDD0 change: 28 S
+TDD0 change: 32 A
+TDD0 change: 35 F
+TDD0 change: 36 U
+TDD0 change: 37 R
+TDD0 change: 42 V
+TDD0 change: 46 N
+TDD0 change: 47 E
+TDD0 change: 52 E
+TDD0 change: 56 W
+TDD0 change: 57 O
+TDD0 change: 66 A
+TDD0 change: 67 L
+TDD0 change: 76 Y
+TDD0 change: 77 E
+TDD1551800 [doit:2158]> /store
