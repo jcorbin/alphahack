@@ -2427,7 +2427,7 @@ class Search(StoredLog):
             i, ix, _ = self.word_iref(k, n)
             ui.print(f'💿 {self.describe_word(i, ix)}')
 
-    def fin_result(self, ui: PromptUI):
+    def syn_result(self, ui: PromptUI):
         if self.full_auto:
             ui.print('🚉🚋🚉  Disengaging full auto, synthesising share result')
             self.full_auto = False
@@ -2458,7 +2458,7 @@ class Search(StoredLog):
 
         res = self.result
         if not res:
-            self.result_text = self.fin_result(ui)
+            self.result_text = self.syn_result(ui)
             ui.log(f'share result: {json.dumps(self.result_text)}')
             return
 
