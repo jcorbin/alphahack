@@ -13,7 +13,7 @@ from sortem import Chooser, DiagScores, Possible, RandScores, wrap_item
 from store import StoredLog, git_txn
 from strkit import MarkedSpec, PeekStr, spliterate
 from ui import PromptUI
-from wordlish import Word
+from wordlish import Attempt, Word
 from wordlist import WordList
 
 @final
@@ -51,7 +51,7 @@ class Search(StoredLog):
         self.questioning: str = ''
         self.question_desc: str = ''
 
-        self.guesses: dict[str, int] = dict()
+        self.guesses: dict[str, int] = dict() # TODO keep feedback alongside or use Attempt
         self.rejects: set[str] = set()
 
         self.nope: set[str] = set()
@@ -392,21 +392,36 @@ class Search(StoredLog):
                      col: int|None = None,
                      ):
 
-            # TODO synthesize Attempt()s instead?
+            yes = tuple(l.upper() for l in yes)
+            may = tuple(l.upper() for l in may)
+            nope = tuple(l.upper() for l in nope)
+            void = tuple(l.upper() for l in void)
+            guesses = tuple(w.upper() for w in guesses)
 
-            yes = tuple(yes)
             word = Word(len(yes))
-            for i, c in enumerate(yes):
-                word.yes[i] = c
-            word.may.update(may)
-            for c in chain(nope, void):
-                word.cannot(c.upper())
-            for guess in guesses:
-                for i, c in enumerate(guess.upper()):
-                    if yes[i] != c:
-                        word.can[i].difference_update((c,))
+            for c in void:
+                word.cannot(c)
 
-            # TODO word.max?
+            if guesses:
+                for guess in guesses:
+                    word.collect(Attempt(guess, tuple(
+                        2 if yes[i] == gl else
+                        1 if gl in yes else
+                        1 if gl in may else
+                        0
+                        for i, gl in enumerate(guess)
+                    )))
+
+            else:
+                for i, c in enumerate(yes):
+                    word.yes[i] = c
+                word.may.update(may)
+                for c in nope:
+                    word.cannot(c)
+                for guess in guesses:
+                    for i, c in enumerate(guess):
+                        if yes[i] != c:
+                            word.can[i].difference_update((c,))
 
             self.row = row
             self.col = col
@@ -454,7 +469,7 @@ class Search(StoredLog):
                 may = may,
                 void = maybe_not if avoid else (),
                 nope = self.nope,
-                guesses = self.guesses,
+                guesses = self.guesses, # TODO collect and pass attempts instead?
                 row = row)
 
         elif col is not None:
