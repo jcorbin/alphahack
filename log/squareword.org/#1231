@@ -1,0 +1,178 @@
+T0.0002122229998349212 now: 2025-06-15T07:50:11EDT
+TD39 site: squareword.org
+TDD7156105 🧩  ? #1231
+TDD-7156009 puzzle_id: #1231
+TDD-117 wordlist: nwl2023.txt
+TDD967961 > *
+TDD3872160 try? 1
+TDD-4839067 questioning: ["LASER", "#5"]
+TDD285794 LASER ( #5 ) ? 
+TDD-134833 guess: LASER
+TDD1 LASER ( #5 ) > 
+TDD3759921 LASER ( #5 ) 1> ___e ~ as
+TDD-3911560 word: 0 ___E_
+TDD-378 may: 0 A S
+TDD2439608 LASER ( #5 ) 2> ~ ae
+TDD-2439380 word: 1 _____
+TDD-230 may: 1 A E
+TDD2247804 LASER ( #5 ) 3> ~ ser
+TDD-2247728 word: 2 _____
+TDD-78 may: 2 E R S
+TDD3647935 LASER ( #5 ) 4> ___e ~ e
+TDD-3647864 word: 3 ___E_
+TDD-71 may: 3 E
+TDD4816078 LASER ( #5 ) 5> ~ lse
+TDD-4815983 word: 4 _____
+TDD-92 may: 4 E L S
+TDD0 question done
+TDD2815858 > *
+TDD12672364 try? 1
+TDD-15487049 questioning: ["TONES", "#5"]
+TDD301727 TONES ( #5 ) ? 
+TDD-103022 guess: TONES
+TDD1 TONES ( #5 ) > 
+TDD5536245 TONES ( #5 ) 1> ___es ~ a
+TDD-5736023 word: 0 ___ES
+TDD-99 may: 0 A
+TDD2455950 TONES ( #5 ) 2> ~ aet
+TDD-2455855 word: 1 _____
+TDD-94 may: 1 A E T
+TDD4831966 TONES ( #5 ) 3> __n ~ ser
+TDD-4831885 word: 2 __N__
+TDD-80 may: 2 E R S
+TDD8599963 TONES ( #5 ) 4> 
+TDD-8143936 TONES ( #5 ) 5> 
+TDD-455993 question done
+TDD1559906 > /no o
+TDD-1559695 nope: O
+TDD815557 > *
+TDD4280147 try? 1
+TDD-5094967 questioning: ["VOICE", "#5"]
+TDD189966 VOICE ( #5 ) ? 
+TDD14585446 guess: VOICE
+TDD1 VOICE ( #5 ) > 
+TDD-14576564 VOICE ( #5 ) 1> 
+TDD7200196 VOICE ( #5 ) 2> 1 ~ ac
+TDD-7399953 word: 0 ___ES
+TDD-75 may: 0 A C
+TDD2583938 VOICE ( #5 ) 2> ~ aetc
+TDD-2583853 word: 1 _____
+TDD-84 may: 1 A C E T
+TDD4608104 VOICE ( #5 ) 3> __n_e ~ sri
+TDD-4608010 word: 2 __N_E
+TDD-94 may: 2 I R S
+TDD6055908 VOICE ( #5 ) 4> ___ee ~ ec
+TDD-6055833 word: 3 ___EE
+TDD-75 may: 3 C E
+TDD3079997 VOICE ( #5 ) 5> ␚
+TDD-3079950 question done
+TDD839834 > /no v
+TDD-839814 nope: O V
+TDD711838 > *
+TDD7616249 try? ␚
+TDD-5720104 <INT>
+T0.04989177599782124 now: 2025-06-15T07:53:39EDT
+TD1159264 > *
+TDD34633353 try? ␚
+TDD-34712676 <INT>
+T0.05225784800131805 now: 2025-06-15T07:54:18EDT
+TD585179 > *
+TDD6623624 try? ␚
+TDD126864532 <INT>
+T0.048168052002438344 now: 2025-06-15T07:56:41EDT
+TD604746 > *
+TDD5003441 <INT>
+T0.04889578100119252 now: 2025-06-15T07:57:17EDT
+TD923196 > *
+TDD476886 try? ␚
+T0.05064016099640867 now: 2025-06-15T08:03:46EDT
+TD676696 > *
+TDD57923995 <INT>
+T0.04767779399844585 now: 2025-06-15T08:05:00EDT
+TD592937 > *
+TDD11983186 <INT>
+T0.048878248999244533 now: 2025-06-15T08:05:14EDT
+TD609140 > *
+TDD36375370 > * -sans
+TDD-34328458 <INT>
+T0.050167543995485175 now: 2025-06-15T08:07:19EDT
+TD644559 > *
+TDD4507677 > aches
+TDD-5151911 questioning: ["ACHES", "entered"]
+TDD12271413 ACHES ( entered ) ? 
+TDD-12271674 guess: ACHES
+TDD1735847 ACHES ( entered ) > 1 aches
+TDD-1735631 word: 0 ACHES
+TDD-269 may: 0 
+TDD4904133 ACHES ( entered ) 2> ~ aceth
+TDD-4903857 word: 1 _____
+TDD-275 may: 1 A C E H T
+TDD8831499 ACHES ( entered ) 3> ␚
+TDD-8831450 question done
+TDD759845 > *
+TDD6776117 > cheat
+TDD-7535923 questioning: ["CHEAT", "entered"]
+TDD863950 CHEAT ( entered ) ? 
+TDD-863998 guess: CHEAT
+TDD231863 CHEAT ( entered ) > 
+TDD1000031 CHEAT ( entered ) 1> 2 cheat
+TDD-1231857 word: 1 CHEAT
+TDD-82 may: 1 
+TDD6664154 CHEAT ( entered ) 3> ␚
+TDD-6664110 question done
+TDD607973 > *
+TDD3967742 > rinse
+TDD-4575674 questioning: ["RINSE", "entered"]
+TDD1632176 RINSE ( entered ) ? 
+TDD-1632207 guess: RINSE
+TDD3895721 RINSE ( entered ) > 3 rinse
+TDD-3895660 word: 2 RINSE
+TDD-114 may: 2 
+TDD2056003 RINSE ( entered ) 4> ␚
+TDD-2055957 question done
+TDD495635 > *
+TDD13472583 > emcee
+TDD-13968173 questioning: ["EMCEE", "entered"]
+TDD3159796 EMCEE ( entered ) ? 4 emcee
+TDD-3159815 guess: EMCEE
+TDD-60 word: 3 EMCEE
+TDD-16 may: 3 
+TDD2096063 EMCEE ( entered ) 5> __e
+TDD-2095974 word: 4 __E__
+TDD-85 may: 4 L S
+TDD0 question done
+TDD1839879 > 
+TDD-392047 > *
+TDD3344213 > seely
+TDD-4791963 questioning: ["SEELY", "entered"]
+TDD1232029 SEELY ( entered ) ? 
+TDD-1232059 guess: SEELY
+TDD5511765 SEELY ( entered ) > 
+TDD-1343677 SEELY ( entered ) 1> 5 s_el ~ l
+TDD-4168041 word: 4 S_EL_
+TDD-98 may: 4 L
+TDD0 question done
+TDD2575943 > /no y
+TDD-2575777 nope: O V Y
+TDD759539 > *
+TDD205393 questioning: ["SKELP", "#5"]
+TDD8926047 SKELP ( #5 ) ? 
+TDD-9891098 guess: SKELP
+TDD3095897 SKELP ( #5 ) > 
+TDD2368289 SKELP ( #5 ) 1> 5 s_el_ ~ lp
+TDD-5464116 word: 4 S_EL_
+TDD-118 may: 4 L P
+TDD-1 question done
+TDD2031553 > *
+TDD4864494 > spell
+TDD-6895970 questioning: ["SPELL", "entered"]
+TDD1448007 SPELL ( entered ) ? 
+TDD-1448039 guess: SPELL
+TDD167760 SPELL ( entered ) > 
+TDD1208162 SPELL ( entered ) 1> 5 spell
+TDD-1375884 word: 4 SPELL
+TDD-82 may: 4 
+TDD0 question done
+TDD5848001 Press <Enter> to 📋 or `>` for line prompt 
+TDD-5845698 result: "squareword.org 1231: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1231"
+TDD187348 📆 2025-06-15 ? 
