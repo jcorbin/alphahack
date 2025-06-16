@@ -1,0 +1,37 @@
+T0.00025644999914220534 now: 2025-06-16T07:35:38EDT
+TD90139 loaded 196559 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (44 words excluded) asof 52f7e998e50f21ab0bf23b8fa8865f2927f5aeca
+TDD6548780 [0 : 98236 : 196559] mach? a
+TDD-6638741 progress: 1 98236 mach
+TDD1662631 [98237 : 147398 : 196559] rhumb? b
+TDD-1662710 progress: -1 147398 rhumb
+TDD1679860 [98237 : 122799 : 147398] parr? b
+TDD-1679879 progress: -1 122799 parr
+TDD1879871 [98237 : 109955 : 122799] ne? b
+TDD-1879873 progress: -1 109955 ne
+TDD1583922 [98237 : 102778 : 109955] mi? a
+TDD-1583918 progress: 1 102778 mi
+TDD1983882 [102779 : 106348 : 109955] mono? a
+TDD-1983872 progress: 1 106348 mono
+TDD1591808 [106349 : 107698 : 109955] mu? b
+TDD-1591815 progress: -1 107698 mu
+TDD1863832 [106349 : 106957 : 107698] mor? a
+TDD-1863828 progress: 1 106957 mor
+TDD1624318 [106958 : 107271 : 107698] mot? a
+TDD-1624327 progress: 1 107271 mot
+TDD1487413 [107272 : 107472 : 107698] mould? a
+TDD-1487372 progress: 1 107472 mould
+TDD1495725 [107473 : 107580 : 107698] mousse? a
+TDD-1495776 progress: 1 107580 mousse
+TDD2456016 [107581 : 107634 : 107698] move? b
+TDD-2455994 progress: -1 107634 move
+TDD1751760 [107581 : 107594 : 107634] mouth? it
+TDD-1751776 progress: 0 107594 mouth
+TDD-54 [107581 : 107594 : 107634] <Done>.
+TDD2575932 press <Return> to finish
+TDD-2127883 Press <Enter> to 📋 or `>` for line prompt 
+TDD-445752 share result: "\ud83e\udde9 Puzzle #692\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+TDD-2281 result puzzle: 692
+TDD-16 result guesses: 13
+TDD-2 result time: 21s
+TDD0 result link: alphaguess.com
+TDD685789 📆 2025-06-16 ? 
