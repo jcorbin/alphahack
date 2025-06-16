@@ -1,0 +1,57 @@
+T0.0002936999953817576 now: 2025-06-16T07:42:59EDT
+TD68 site: dontwordle.com
+TDD3 wordlist: nwl2023.txt
+TDD4552770 1> *
+TDD5543330 1> tried xylyl nnMnn
+TDD-10095908 tried: XYLYL n n m n n
+TDD1791356 2> *
+TDD6321151 2> tried plump nMnMn
+TDD-8112661 tried: PLUMP n m n m n
+TDD1567121 3> undo
+TDD-1567155 undo
+TDD703878 2> undo
+TDD-703883 undo
+TDD4799958 1> *
+TDD2760088 1> tried vuggy nnnnn
+TDD-7559993 tried: VUGGY n n n n n
+TDD1463747 2> *
+TDD6168179 2> tried keeks nYnnn
+TDD-7631941 tried: KEEKS n Y n n n
+TDD1055872 3> undo
+TDD-1055891 undo
+TDD3176022 2> *
+TDD8455999 2> tried kakas nMnnn
+TDD-11632009 tried: KAKAS n m n n n
+TDD592142 3> *
+TDD7399671 3> tried affix Mnnnn
+TDD-7991796 tried: AFFIX m n n n n
+TDD999609 4> *
+TDD11864412 4> * -sans :v l :v m
+TDD-6391854 4> * -sans :v e :v l
+TDD791619 4> * -sans :v e :v m
+TDD-4247825 4> * -sans :v m
+TDD207852 4> * -sans :v l
+TDD136210 4> * -sans :v e
+TDD1336841 4> * -sans
+TDD1366163 4> * -sans
+TDD12441144 4> * -v 
+TDD-14272242 4> * -v -sans
+TDD4176003 4> ␚
+TDD-8408006 <EOF>
+T0.06090427500021178 now: 2025-06-16T07:47:50EDT
+TD762688 4> *
+TDD1829425 4> * -v
+TDD46232467 4> * -v -sans
+T0.060776525002438575 now: 2025-06-16T08:02:22EDT
+TD730557 4> *
+TDD14699354 4> tried pooja nnnnM
+TDD-15429780 tried: POOJA n n n n m
+TDD1223810 5> *
+TDD10688113 5> tried drawn nMYnn
+TDD-11911935 tried: DRAWN n m Y n n
+TDD991675 6> *
+TDD6896423 6> tried chart nnYMn
+TDD-7888096 tried: CHART n n Y m n
+TDD3855814 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3853033 result: "Don't Wordle 1119 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7276\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c604\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c238\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8100\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c20\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c3\nUndos used: 3\n\n  3 words remaining\nx 6 unused letters\n= 18 total score"
+TDD418266 📆 2025-06-16 ? 
