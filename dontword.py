@@ -288,10 +288,13 @@ class DontWord(StoredLog):
             ui.print(f'! invalid * arg {next(ui.tokens)!r}')
             return
 
-        pat = self.word.pattern(
-            void=None if sans or not self.void_letters else self.void_letters
-        )
+        void = None if sans or not self.void_letters else self.void_letters
+        pat = self.word.pattern(void=void)
         if verbose:
+            for n, part in enumerate(self.word.re_can_lets(void=void), 1):
+                ui.print(f'* re_can_let_{n}: {part}')
+            for part in self.word.re_may_alts(void=void):
+                ui.print(f'* re_may_alt: {part}')
             ui.print(f'* pattern: {pat}')
         words = set(self.find(pat))
 
