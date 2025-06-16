@@ -1,0 +1,120 @@
+T0.0002534500017645769 now: 2025-06-16T07:36:35EDT
+TD64 site: squareword.org
+TDD2451632 🧩  ? #1232
+TDD-2451539 puzzle_id: #1232
+TDD-124 wordlist: nwl2023.txt
+TDD3375929 > *
+TDD271983 try? 2
+TDD-3646745 questioning: ["RAISE", "#5"]
+TDD317743 RAISE ( #5 ) ? 
+TDD-318876 guess: RAISE
+TDD191749 RAISE ( #5 ) > 
+TDD2736689 RAISE ( #5 ) 1> _a ~ e
+TDD-2928204 word: 0 _A___
+TDD-281 may: 0 E
+TDD3095272 RAISE ( #5 ) 2> __i_e
+TDD-3095183 word: 1 __I_E
+TDD-85 may: 1 
+TDD2071860 RAISE ( #5 ) 3> ~ i
+TDD-2071607 word: 2 _____
+TDD-256 may: 2 I
+TDD1071512 RAISE ( #5 ) 4> ~ s
+TDD-1071436 word: 3 _____
+TDD-71 may: 3 S
+TDD2039957 RAISE ( #5 ) 5> _a ~ rs
+TDD-2039886 word: 4 _A___
+TDD-69 may: 4 R S
+TDD-1 question done
+TDD791828 > *
+TDD4944324 try? 1
+TDD-5736024 questioning: ["OLIVE", "#2"]
+TDD607712 OLIVE ( #2 ) ? 
+TDD-607770 guess: OLIVE
+TDD1447732 OLIVE ( #2 ) > 2 olive
+TDD-1447746 word: 1 OLIVE
+TDD-60 may: 1 
+TDD2599914 OLIVE ( #2 ) 3> ~ io
+TDD-2599805 word: 2 _____
+TDD-110 may: 2 I O
+TDD1159758 OLIVE ( #2 ) 4> ~ so
+TDD-1159686 word: 3 _____
+TDD-72 may: 3 O S
+TDD4264180 OLIVE ( #2 ) 5> ␚
+TDD-4264125 question done
+TDD711796 > *
+TDD15824528 try? 2
+TDD-16536284 questioning: ["SYNOD", "#4"]
+TDD455634 SYNOD ( #4 ) ? 
+TDD-455697 guess: SYNOD
+TDD191781 SYNOD ( #4 ) > 
+TDD3568499 SYNOD ( #4 ) 1> _a__d
+TDD-3760247 word: 0 _A__D
+TDD-62 may: 0 E
+TDD3111799 SYNOD ( #4 ) 2> 
+TDD-1431452 SYNOD ( #4 ) 3> __n
+TDD-1680277 word: 2 __N__
+TDD-27 may: 2 I O
+TDD3671511 SYNOD ( #4 ) 4> s_
+TDD-3671473 word: 3 S____
+TDD-67 may: 3 O
+TDD3071676 SYNOD ( #4 ) 5> ␚
+TDD-3071660 question done
+TDD831827 > /no y
+TDD-831643 nope: Y
+TDD3143779 > *
+TDD2568088 try? 1
+TDD-5711985 questioning: ["TONIC", "#3"]
+TDD247671 TONIC ( #3 ) ? 
+TDD-247725 guess: TONIC
+TDD175870 TONIC ( #3 ) > 
+TDD4512130 TONIC ( #3 ) 1> 3 _onic ~ i
+TDD-4687953 word: 2 _ONIC
+TDD-88 may: 2 I
+TDD2895795 TONIC ( #3 ) 4> ~ oc
+TDD-2895728 word: 3 S____
+TDD-64 may: 3 C O
+TDD4752002 TONIC ( #3 ) 5> ta_ ~ rst
+TDD-4751948 word: 4 TA___
+TDD-61 may: 4 R S T
+TDD34 question done
+TDD6879959 > *
+TDD-4785808 questioning: ["IONIC", "#3"]
+TDD907711 IONIC ( #3 ) ? 
+TDD-3001857 guess: IONIC
+TDD3375791 IONIC ( #3 ) > 3 ionic
+TDD-3375771 word: 2 IONIC
+TDD-60 may: 2 
+TDD3336033 IONIC ( #3 ) 4> ␚
+TDD-3335993 question done
+TDD808095 > *
+TDD863889 questioning: ["SHOCK", "#4"]
+TDD775752 SHOCK ( #4 ) ? 
+TDD-2447744 guess: SHOCK
+TDD175833 SHOCK ( #4 ) > 
+TDD928061 SHOCK ( #4 ) 1> 4 shock
+TDD-1103861 word: 3 SHOCK
+TDD-65 may: 3 
+TDD4360173 SHOCK ( #4 ) 5> ␚
+TDD-4360140 question done
+TDD631828 > *
+TDD729636 questioning: ["TARTS", "#5"]
+TDD1764929 TARTS ( #5 ) ? 
+TDD-3126394 guess: TARTS
+TDD255982 TARTS ( #5 ) > 
+TDD2607874 TARTS ( #5 ) 1> 5 tarts
+TDD-2863821 word: 4 TARTS
+TDD-64 may: 4 
+TDD-5 question done
+TDD1688004 > *
+TDD-730477 questioning: ["FAMED", "#1"]
+TDD1708979 FAMED ( #1 ) ? 
+TDD-2666468 guess: FAMED
+TDD839862 FAMED ( #1 ) > 
+TDD616011 FAMED ( #1 ) 1> 1 famed
+TDD-1455841 word: 0 FAMED
+TDD-68 may: 0 
+TDD6088087 FAMED ( #1 ) 2> ␚
+TDD-6088043 question done
+TDD3599846 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3597379 result: "squareword.org 1232: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1232"
+TDD547014 📆 2025-06-16 ? 
