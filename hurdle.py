@@ -106,8 +106,7 @@ class Search(StoredLog):
                     $''', rest)
                 if match:
                     rest, = match.groups()
-                    self.failed = True
-                    self.fail_text = rest
+                    self.apply_failed(rest)
                     continue
 
                 match = re.match(r'''(?x)
@@ -186,10 +185,14 @@ class Search(StoredLog):
         return self.guess(ui, show_n=n)
 
     def do_fail(self, ui: PromptUI):
-        self.failed = True
-        self.fail_text = ui.tokens.rest
+        word = ui.tokens.rest
         ui.log(f'fail: {self.fail_text}')
+        self.apply_failed(word)
         return self.finish
+
+    def apply_failed(self, text: str):
+        self.failed = True
+        self.fail_text = text
 
     def do_tried(self, ui: PromptUI):
         try:
