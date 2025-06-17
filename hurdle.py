@@ -434,8 +434,7 @@ class Search(StoredLog):
                     rec = next(recs, None)
                     marks = () if rec is None else tuple(Result.marks[i] for i in rec)
                     at = sa[i] if i < len(sa) else '?'*self.size
-                    yield f'    > {" ".join(at)}'
-                    yield f'      {"".join(marks)}'
+                    yield f'    {at} {"".join(marks)}'
 
 @final
 @dataclass
