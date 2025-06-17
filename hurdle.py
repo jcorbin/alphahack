@@ -436,6 +436,9 @@ class Search(StoredLog):
                     at = sa[i] if i < len(sa) else '?'*self.size
                     yield f'    {at} {"".join(marks)}'
 
+        if self.fail_text:
+            yield f'    FAIL: {self.fail_text}'
+
 @final
 @dataclass
 class Result:
