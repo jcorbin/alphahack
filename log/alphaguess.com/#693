@@ -1,0 +1,41 @@
+T0.0002166139893233776 now: 2025-06-17T08:01:02EDT
+TD97934 loaded 196559 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (44 words excluded) asof 620c4bd47713504ac8c9f37978ad11eab454e1bc
+TDD7036037 [0 : 98236 : 196559] mach? a
+TDD-7133795 progress: 1 98236 mach
+TDD1695726 [98237 : 147398 : 196559] rhumb? a
+TDD-1695814 progress: 1 147398 rhumb
+TDD1655807 [147399 : 171665 : 196559] ta? b
+TDD-1655834 progress: -1 171665 ta
+TDD1607962 [147399 : 159511 : 171665] slop? a
+TDD-1607955 progress: 1 159511 slop
+TDD1487926 [159512 : 165554 : 171665] stick? b
+TDD-1487927 progress: -1 165554 stick
+TDD1583807 [159512 : 162499 : 165554] spec? b
+TDD-1583815 progress: -1 162499 spec
+TDD1455945 [159512 : 160991 : 162499] soft? a
+TDD-1455936 progress: 1 160991 soft
+TDD1415864 [160992 : 161742 : 162499] sore? a
+TDD-1415866 progress: 1 161742 sore
+TDD1471921 [161743 : 162117 : 162499] sozin? b
+TDD-1471917 progress: -1 162117 sozin
+TDD1591917 [161743 : 161847 : 162117] sou? b
+TDD-1591927 progress: -1 161847 sou
+TDD1383890 [161743 : 161795 : 161847] sorrow? a
+TDD-1383887 progress: 1 161795 sorrow
+TDD1607932 [161796 : 161806 : 161847] sort? b
+TDD-1607926 progress: -1 161806 sort
+TDD2111849 [161796 : 161799 : 161806] sorrowful? a
+TDD-2111852 progress: 1 161799 sorrowful
+TDD1511914 [161800 : 161803 : 161806] sorrowing? a
+TDD-1511914 progress: 1 161803 sorrowing
+TDD1743934 [161804 : 161805 : 161806] sorry? it
+TDD-1743931 progress: 0 161805 sorry
+TDD-58 [161804 : 161805 : 161806] <Done>.
+TDD2695888 press <Return> to finish
+TDD-2535872 Press <Enter> to 📋 or `>` for line prompt 
+TDD-157862 share result: "\ud83e\udde9 Puzzle #693\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"
+TDD-2155 result puzzle: 693
+TDD-6 result guesses: 15
+TDD-1 result time: 23s
+TDD0 result link: alphaguess.com
+TDD1821891 📆 2025-06-17 ? 
