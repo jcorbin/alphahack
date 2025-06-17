@@ -1,0 +1,106 @@
+T0.00018370400357525796 now: 2025-06-17T08:02:00EDT
+TD39 site: squareword.org
+TDD1500339 🧩  ? #1233
+TDD-1500225 puzzle_id: #1233
+TDD-131 wordlist: nwl2023.txt
+TDD783796 > *
+TDD2840279 try? 2
+TDD-3623166 questioning: ["AROSE", "#5"]
+TDD422200 AROSE ( #5 ) ? 
+TDD-423073 guess: AROSE
+TDD151826 AROSE ( #5 ) > 
+TDD1864105 AROSE ( #5 ) 1> ~ ar
+TDD-2015547 word: 0 _____
+TDD-432 may: 0 A R
+TDD2631929 AROSE ( #5 ) 2> ~ re
+TDD-2631857 word: 1 _____
+TDD-66 may: 1 E R
+TDD3879709 AROSE ( #5 ) 3> ____e ~ e
+TDD-3879645 word: 2 ____E
+TDD-71 may: 2 E
+TDD3503856 AROSE ( #5 ) 4> ____e ~ ar
+TDD-3503768 word: 3 ____E
+TDD-86 may: 3 A R
+TDD1671929 AROSE ( #5 ) 5> ~ os
+TDD-1671848 word: 4 _____
+TDD-81 may: 4 O S
+TDD0 question done
+TDD479921 > *
+TDD5856257 try? 1
+TDD-6336036 questioning: ["BARGE", "#4"]
+TDD527727 BARGE ( #4 ) ? 
+TDD-527832 guess: BARGE
+TDD151813 BARGE ( #4 ) > 
+TDD4832310 BARGE ( #4 ) 1> ␚
+TDD-4984109 question done
+TDD1399799 > /no bg
+TDD-1399604 nope: B G
+TDD5655778 > *
+TDD1135941 try? 4
+TDD-6791875 questioning: ["FLARE", "#4"]
+TDD527987 FLARE ( #4 ) ? 
+TDD-528046 guess: FLARE
+TDD167788 FLARE ( #4 ) > 
+TDD2264221 FLARE ( #4 ) 1> __ar
+TDD-2431974 word: 0 __AR_
+TDD-70 may: 0 
+TDD3007920 FLARE ( #4 ) 2> ~ rel
+TDD-3007854 word: 1 _____
+TDD-65 may: 1 E L R
+TDD4888071 FLARE ( #4 ) 3> _l__e ~ e
+TDD-4887994 word: 2 _L__E
+TDD-77 may: 2 E
+TDD2231873 FLARE ( #4 ) 4> flare
+TDD-2231806 word: 3 FLARE
+TDD-66 may: 3 
+TDD10064150 FLARE ( #4 ) 5> ␚
+TDD-10064104 question done
+TDD847928 > *
+TDD4904211 try? 2
+TDD-5752091 questioning: ["CHART", "#1"]
+TDD391774 CHART ( #1 ) ? 
+TDD-391835 guess: CHART
+TDD151859 CHART ( #1 ) > 
+TDD1344117 CHART ( #1 ) 1> chart
+TDD-1495947 word: 0 CHART
+TDD-62 may: 0 
+TDD4424021 CHART ( #1 ) 2> 3 ~ et
+TDD-4423945 word: 2 _L__E
+TDD-75 may: 2 E T
+TDD2511942 CHART ( #1 ) 4> ␚
+TDD-2511904 question done
+TDD569143 > *
+TDD5085694 try? 1
+TDD-5654801 questioning: ["ELITE", "#3"]
+TDD2159891 ELITE ( #3 ) ? 
+TDD-2159926 guess: ELITE
+TDD1951952 ELITE ( #3 ) > 3 elite
+TDD-1951927 word: 2 ELITE
+TDD-66 may: 2 
+TDD2935946 ELITE ( #3 ) 4> 2 ~ reli
+TDD-2935873 word: 1 _____
+TDD-72 may: 1 E I L R
+TDD4640038 ELITE ( #3 ) 3> ␚
+TDD-4640006 question done
+TDD648284 > *
+TDD667797 questioning: ["LIVER", "#2"]
+TDD1831445 LIVER ( #2 ) ? 
+TDD-3147523 guess: LIVER
+TDD151865 LIVER ( #2 ) > 
+TDD1592168 LIVER ( #2 ) 1> 2 liver
+TDD-1743993 word: 1 LIVER
+TDD-76 may: 1 
+TDD1919990 LIVER ( #2 ) 3> ␚
+TDD-1919946 question done
+TDD455970 > *
+TDD527170 questioning: ["SYNOD", "#5"]
+TDD1665560 SYNOD ( #5 ) ? 
+TDD-2648715 guess: SYNOD
+TDD167922 SYNOD ( #5 ) > 
+TDD1320007 SYNOD ( #5 ) 1> 5 synod
+TDD-1487887 word: 4 SYNOD
+TDD-75 may: 4 
+TDD0 question done
+TDD6216000 Press <Enter> to 📋 or `>` for line prompt 
+TDD-6213416 result: "squareword.org 1233: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1233"
+TDD147937 📆 2025-06-17 ? 
