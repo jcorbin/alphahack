@@ -1,0 +1,62 @@
+T5.146620996994898 now: 2025-06-17T08:49:35EDT
+TD41 site: spaceword.org
+TDD1767593 📜 nwl2023.txt ? 
+TDD-1767566 wordlist: nwl2023.txt
+TDD607797 🧩  ? 
+TDD17944492 🧩  ? daily 20250617
+TDD-18552234 puzzle_id: 2025-06-17
+TDD1184078 num letters (default: 21) ? 
+TDD-1184144 num_letters: 21
+TDD7671578 letters? acdeeeg
+TDD-7671539 letters: |ACDEEEG|
+TDD4175842 letters? iiimooq
+TDD-4175846 letters: |ACDEEEGIIIMOOQ|
+TDD3280019 letters? 
+TDD23825 letters? rrssuxz
+TDD-3303851 letters: |ACDEEEGIIIMOOQRRSSUXZ|
+TDD1119945 letters. 
+TDD1391836 [doit:100]> /sea
+TDD-655793 search 4c012a [ 1 ]> cap 600
+TDD239989 search 4c012a [ 1 cap:600 ]> **
+TDD84809316 search 4c012a [ 600 cap:600 may:4824 prune:20 done:3 dead:3 ]> show done
+TDD-78505227 search 4c012a [ 600 cap:600 may:4824 prune:20 done:3 dead:3 ]> show 2
+TDD-7112188 search 4c012a [ 600 cap:600 may:4824 prune:20 done:3 dead:3 ]> /sea
+TDD-767992 search 4c012a [ 600 cap:600 may:4824 prune:20 done:3 dead:3 ]> pr
+TDD64102 search 4c012a [ 600 cap:600 may:1649 prune:96 ]> ta
+TDD11088204 <INT>
+T0.04997439599537756 now: 2025-06-17T08:52:18EDT
+TD1060656 [doit:100]> /sea
+TDD1283712 search f8aeca [ 1 ]> cap 700
+TDD-1672690 search f8aeca [ 1 cap:700 ]> **
+TDD114194167 search f8aeca [ 700 cap:700 may:468 prune:31 dead:2 done:4 ]> show done
+TDD-112273773 search f8aeca [ 700 cap:700 may:468 prune:31 dead:2 done:4 ]> show 1
+TDD1127959 search f8aeca [ 700 cap:700 may:468 prune:31 dead:2 done:4 ]> show 2
+TDD-1199832 search f8aeca [ 700 cap:700 may:468 prune:31 dead:2 done:4 ]> 
+TDD-1096099 search f8aeca [ 700 cap:700 may:468 prune:31 dead:2 done:4 ]> 
+TDD6919780 search f8aeca [ 700 cap:700 may:468 prune:31 dead:2 done:4 ]> ret
+TDD-8343660 change: 3 Q
+TDD-209 change: 13 U
+TDD-4 change: 15 G
+TDD0 change: 23 A
+TDD0 change: 24 D
+TDD0 change: 25 O
+TDD0 change: 35 R
+TDD0 change: 36 E
+TDD0 change: 44 S
+TDD0 change: 45 E
+TDD0 change: 46 X
+TDD0 change: 54 I
+TDD0 change: 56 O
+TDD0 change: 64 Z
+TDD0 change: 66 S
+TDD0 change: 74 I
+TDD0 change: 76 M
+TDD0 change: 84 E
+TDD0 change: 86 I
+TDD0 change: 94 R
+TDD0 change: 96 C
+TDD1135862 [doit:2160]> 
+TDD61312985 [doit:2160]> /res
+TDD-61576663 Press <Enter> to 📋 or `>` for line prompt 
+TDD-869001 result: "\u2728 Spaceword.org Daily 2025-06-17 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 133/229 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD1057521 [prior:2160]> /store
