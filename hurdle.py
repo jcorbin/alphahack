@@ -185,7 +185,13 @@ class Search(StoredLog):
         return self.guess(ui, show_n=n)
 
     def do_fail(self, ui: PromptUI):
-        word = ui.tokens.rest
+        if not ui.tokens:
+            ui.print(f'! must provide fail word')
+            return
+        word = next(ui.tokens).upper()
+        if len(word) != self.size:
+            ui.print(f'! wrong sized fail word; must be {self.size} got {len(word)}')
+            return
         ui.log(f'fail: {self.fail_text}')
         self.apply_failed(word)
         return self.finish
