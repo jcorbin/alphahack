@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
 import argparse
-from itertools import chain
 import json
 import re
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
+from itertools import zip_longest
 from os import path
 from typing import cast, final, override
 
@@ -414,25 +414,28 @@ class Search(StoredLog):
     def report_body(self) -> Generator[str]:
         yield from super().report_body
 
-        attempts = iter(chain.from_iterable(self.attempts))
         res = self.result
         if res:
 
             yield ''
 
             recs = iter(res.records)
-            for rnd in res.rounds:
-                if rnd.note:
+            for (rnd, attempts) in zip_longest(res.rounds, self.attempts, fillvalue=None):
+                if rnd is None:
+                    yield f'    ??? No Round'
+                elif rnd.note:
                     yield f'    {rnd.note} {rnd.took}/{rnd.limit}'
                 else:
                     yield f'    {rnd.took}/{rnd.limit}'
 
-                for _ in range(rnd.took):
-                    rec = next(recs)
-                    for at in attempts:
-                        yield f'    > {" ".join(at.upper())}'
-                        break
-                    yield f'      {"".join(Result.marks[i] for i in rec)}'
+                n = rnd.took if rnd is not None else len(attempts) if attempts is not None else 0
+                sa = () if attempts is None else attempts[-n:]
+                for i in range(n):
+                    rec = next(recs, None)
+                    marks = () if rec is None else tuple(Result.marks[i] for i in rec)
+                    at = sa[i] if i < len(sa) else '?'*self.size
+                    yield f'    > {" ".join(at)}'
+                    yield f'      {"".join(marks)}'
 
 @final
 @dataclass
