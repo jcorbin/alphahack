@@ -199,6 +199,7 @@ class Search(StoredLog):
     def apply_failed(self, text: str):
         self.failed = True
         self.fail_text = text
+        self.attempts.append(tuple(at.word for at in self.tried))
 
     def do_tried(self, ui: PromptUI):
         try:
