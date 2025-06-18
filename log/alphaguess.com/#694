@@ -1,0 +1,41 @@
+T0.0004201760020805523 now: 2025-06-18T08:12:02EDT
+TD104797 loaded 196559 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (44 words excluded) asof 5879235048693dae2fd0a867727ba4446f71a00d
+TDD6801163 [0 : 98236 : 196559] mach? a
+TDD-6905783 progress: 1 98236 mach
+TDD1535656 [98237 : 147398 : 196559] rhumb? b
+TDD-1535756 progress: -1 147398 rhumb
+TDD2447699 [98237 : 122799 : 147398] parr? b
+TDD-2447714 progress: -1 122799 parr
+TDD1591720 [98237 : 109955 : 122799] ne? a
+TDD-1591717 progress: 1 109955 ne
+TDD1504647 [109956 : 116373 : 122799] orchard? b
+TDD-1504511 progress: -1 116373 orchard
+TDD2102763 [109956 : 111505 : 116373] no? a
+TDD-2102899 progress: 1 111505 no
+TDD1687926 [111506 : 113868 : 116373] nu? a
+TDD-1687922 progress: 1 113868 nu
+TDD1527800 [113869 : 115035 : 116373] od? a
+TDD-1527812 progress: 1 115035 od
+TDD1599965 [115036 : 115700 : 116373] on? b
+TDD-1599958 progress: -1 115700 on
+TDD1616938 [115036 : 115363 : 115700] oi? a
+TDD-1616935 progress: 1 115363 oi
+TDD1542852 [115364 : 115532 : 115700] oligogene? a
+TDD-1542853 progress: 1 115532 oligogene
+TDD1689685 [115533 : 115612 : 115700] omen? b
+TDD-1689608 progress: -1 115612 omen
+TDD2206083 [115533 : 115573 : 115612] ollie? b
+TDD-2206159 progress: -1 115573 ollie
+TDD1815929 [115533 : 115553 : 115573] oligotrophy? a
+TDD-1815930 progress: 1 115553 oligotrophy
+TDD1767885 [115554 : 115563 : 115573] olive? it
+TDD-1767876 progress: 0 115563 olive
+TDD-61 [115554 : 115563 : 115573] <Done>.
+TDD3265893 press <Return> to finish
+TDD-2844028 Press <Enter> to 📋 or `>` for line prompt 
+TDD-419611 share result: "\ud83e\udde9 Puzzle #694\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 25s\n\n\ud83d\udd17 alphaguess.com"
+TDD-2250 result puzzle: 694
+TDD-10 result guesses: 15
+TDD-1 result time: 25s
+TDD0 result link: alphaguess.com
+TDD1550280 📆 2025-06-18 ? 
