@@ -1,0 +1,58 @@
+T0.000268154006334953 now: 2025-06-18T08:25:44EDT
+TD38 site: spaceword.org
+TDD-5 wordlist: nwl2023.txt
+TDD3726940 🧩  ? daily 20250618
+TDD-3726645 puzzle_id: 2025-06-18
+TDD807298 num letters (default: 21) ? 
+TDD-807572 num_letters: 21
+TDD6952072 letters? aaaceef
+TDD-6951957 letters: |AAACEEF|
+TDD3375661 letters? giiijlo
+TDD-3375754 letters: |AAACEEFGIIIJLO|
+TDD3167865 letters? qrrrtuv
+TDD-3167859 letters: |AAACEEFGIIIJLOQRRRTUV|
+TDD10456184 letters. 
+TDD18319903 [doit:100]> /sea
+TDD-27016173 search d2e3f2 [ 1 ]> cap 700
+TDD464139 search d2e3f2 [ 1 cap:700 ]> *
+TDD17984281 search d2e3f2 [ 1 cap:700 may:1400 ]> **
+TDD63800622 search d2e3f2 [ 700 cap:700 may:4098 prune:34 dead:52 done:22 ]> show done
+TDD-80568860 search d2e3f2 [ 700 cap:700 may:4098 prune:34 dead:52 done:22 ]> show 8
+TDD60072669 search d2e3f2 [ 700 cap:700 may:4098 prune:34 dead:52 done:22 ]> show
+TDD-58960769 search d2e3f2 [ 700 cap:700 may:4098 prune:34 dead:52 done:22 ]> show7
+TDD-2528064 search d2e3f2 [ 700 cap:700 may:4098 prune:34 dead:52 done:22 ]> show 7
+TDD29152398 search d2e3f2 [ 700 cap:700 may:4098 prune:34 dead:52 done:22 ]> ␚
+TDD-28920408 [doit:100]> 
+TDD-1447255 [doit:100]> 
+TDD3782570 [doit:100]> /bad fav
+TDD-2575263 [doit:100]> /sea
+TDD791966 search cf74a2 [ 1 ]> cap 700
+TDD-2031976 search cf74a2 [ 1 cap:700 ]> **
+TDD73193018 search cf74a2 [ 700 cap:700 may:1341 prune:57 dead:15 done:1 ]> show done
+TDD-72248960 search cf74a2 [ 700 cap:700 may:1341 prune:57 dead:15 done:1 ]> show 1
+TDD74952987 search cf74a2 [ 700 cap:700 may:1341 prune:57 dead:15 done:1 ]> ret
+TDD-76672908 change: 14 C
+TDD-172 change: 16 F
+TDD-4 change: 24 I
+TDD0 change: 26 I
+TDD0 change: 34 G
+TDD0 change: 35 A
+TDD0 change: 36 R
+TDD0 change: 45 R
+TDD0 change: 46 E
+TDD0 change: 50 A
+TDD0 change: 51 Q
+TDD0 change: 52 U
+TDD0 change: 53 I
+TDD0 change: 54 V
+TDD0 change: 55 E
+TDD0 change: 56 R
+TDD0 change: 65 O
+TDD0 change: 75 L
+TDD0 change: 84 T
+TDD0 change: 85 A
+TDD0 change: 86 J
+TDD3991792 [doit:2144]> /res
+TDD-3511757 Press <Enter> to 📋 or `>` for line prompt 
+TDD-477097 result: "\u2728 Spaceword.org Daily 2025-06-18 \u2728\n\n\ud83c\udfc6 Score: 2144\n\ud83c\udfc5 Rank: 149/204 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +44\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD2506105 [prior:2144]> /store
