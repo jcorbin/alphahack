@@ -1,0 +1,108 @@
+T0.00020592199871316552 now: 2025-06-19T07:46:35EDT
+TD41 site: squareword.org
+TDD12381657 🧩  ? #1235
+TDD-12381561 puzzle_id: #1235
+TDD-115 wordlist: nwl2023.txt
+TDD5695943 > *
+TDD2168154 try? 1
+TDD-7863148 questioning: ["EARNS", "#5"]
+TDD598108 EARNS ( #5 ) ? 
+TDD-599035 guess: EARNS
+TDD175892 EARNS ( #5 ) > 
+TDD3416467 EARNS ( #5 ) 1> ____s ~ as
+TDD-3592033 word: 0 ____S
+TDD-357 may: 0 A S
+TDD4599343 EARNS ( #5 ) 2> _a ~ e
+TDD-4599246 word: 1 _A___
+TDD-97 may: 1 E
+TDD4463844 EARNS ( #5 ) 3> e_ ~ e
+TDD-4463770 word: 2 E____
+TDD-77 may: 2 E
+TDD3696092 EARNS ( #5 ) 4> e_r ~ e
+TDD-3696005 word: 3 E_R__
+TDD-84 may: 3 E
+TDD2607817 EARNS ( #5 ) 5> ~ ear
+TDD-2607590 word: 4 _____
+TDD-226 may: 4 A E R
+TDD-1 question done
+TDD1095720 > /no n
+TDD-1095475 nope: N
+TDD8207987 > *
+TDD4183560 try? 3
+TDD-12391686 questioning: ["EERIE", "#4"]
+TDD3336155 EERIE ( #4 ) ? 
+TDD-3336215 guess: EERIE
+TDD423645 EERIE ( #4 ) > 
+TDD9960470 EERIE ( #4 ) 1> 3 e___e 
+TDD-10384079 word: 2 E___E
+TDD-80 may: 2 
+TDD3559899 EERIE ( #4 ) 4> eerie
+TDD-3559824 word: 3 EERIE
+TDD-75 may: 3 
+TDD1736071 EERIE ( #4 ) 5> 
+TDD-1736022 question done
+TDD17976223 > *
+TDD-11312430 try? 3
+TDD-6663735 questioning: ["LAPEL", "#2"]
+TDD735964 LAPEL ( #2 ) ? 
+TDD-736029 guess: LAPEL
+TDD175740 LAPEL ( #2 ) > 
+TDD4256272 LAPEL ( #2 ) 1> ~ asl
+TDD-4431969 word: 0 ____S
+TDD-85 may: 0 A L S
+TDD4256129 LAPEL ( #2 ) 2> _a_el
+TDD-4256042 word: 1 _A_EL
+TDD-78 may: 1 
+TDD3535803 LAPEL ( #2 ) 3> ␚
+TDD-3535756 question done
+TDD928254 > /no p
+TDD-928256 nope: N P
+TDD7255512 > *
+TDD10250006 try? 2
+TDD-17505482 questioning: ["GAVEL", "#2"]
+TDD1646598 GAVEL ( #2 ) ? ␚
+TDD-1646646 question done
+TDD295773 > 
+TDD1240198 > /no gv
+TDD-1535946 nope: G N P V
+TDD1264304 > *
+TDD348541 questioning: ["HAZEL", "#2"]
+TDD4469934 HAZEL ( #2 ) ? 
+TDD-6082803 guess: HAZEL
+TDD2200771 HAZEL ( #2 ) > 2 hazel
+TDD-2200740 word: 1 HAZEL
+TDD-78 may: 1 
+TDD8119182 HAZEL ( #2 ) 3> ␚
+TDD-8119138 question done
+TDD895862 > *
+TDD631468 questioning: ["TREAT", "#5"]
+TDD3233345 TREAT ( #5 ) ? 
+TDD-4760679 guess: TREAT
+TDD183827 TREAT ( #5 ) > 
+TDD3776310 TREAT ( #5 ) 1> 5 treat
+TDD-3960097 word: 4 TREAT
+TDD-81 may: 4 
+TDD-1 question done
+TDD1343941 > *
+TDD86061 questioning: ["SLAMS", "#1"]
+TDD-364040 SLAMS ( #1 ) ? 
+TDD-1065917 guess: SLAMS
+TDD167744 SLAMS ( #1 ) > 
+TDD10872411 SLAMS ( #1 ) 1> slams
+TDD-11040095 word: 0 SLAMS
+TDD-103 may: 0 
+TDD912227 SLAMS ( #1 ) 2> ␚
+TDD-912173 question done
+TDD815542 > *
+TDD125823 questioning: ["EXUDE", "#3"]
+TDD2717220 EXUDE ( #3 ) ? 
+TDD-3658600 guess: EXUDE
+TDD247860 EXUDE ( #3 ) > 
+TDD1064142 EXUDE ( #3 ) 1> 3 exude
+TDD-1311967 word: 2 EXUDE
+TDD-75 may: 2 
+TDD1159892 EXUDE ( #3 ) 4> ␚
+TDD-1159844 question done
+TDD2727844 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2725379 result: "squareword.org 1235: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1235"
+TDD218967 📆 2025-06-19 ? 
