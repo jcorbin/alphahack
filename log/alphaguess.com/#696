@@ -1,0 +1,35 @@
+T0.0003191840078216046 now: 2025-06-20T07:31:57EDT
+TD67616 loaded 196559 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (44 words excluded) asof eba7ad179b40afcf97eef373ba8f44f03cd860ce
+TDD6668258 [0 : 98236 : 196559] mach? b
+TDD-6735706 progress: -1 98236 mach
+TDD1671626 [0 : 47396 : 98236] dis? b
+TDD-1671706 progress: -1 47396 dis
+TDD1663833 [0 : 23695 : 47396] camp? b
+TDD-1663844 progress: -1 23695 camp
+TDD1991868 [0 : 11771 : 23695] back? a
+TDD-1991872 progress: 1 11771 back
+TDD2231990 [11772 : 17726 : 23695] blind? a
+TDD-2231991 progress: 1 17726 blind
+TDD2193299 [17727 : 20698 : 23695] brill? b
+TDD-2193312 progress: -1 20698 brill
+TDD2230459 [17727 : 19171 : 20698] boot? b
+TDD-2230446 progress: -1 19171 boot
+TDD2207827 [17727 : 18438 : 19171] bobs? b
+TDD-2207829 progress: -1 18438 bobs
+TDD1727932 [17727 : 18043 : 18438] blow? a
+TDD-1727933 progress: 1 18043 blow
+TDD1767871 [18044 : 18241 : 18438] bluish? a
+TDD-1767867 progress: 1 18241 bluish
+TDD2015924 [18242 : 18317 : 18438] boar? b
+TDD-2015925 progress: -1 18317 boar
+TDD1847798 [18242 : 18272 : 18317] blur? it
+TDD-1847802 progress: 0 18272 blur
+TDD-52 [18242 : 18272 : 18317] <Done>.
+TDD2431989 press <Return> to finish
+TDD-1919999 Press <Enter> to 📋 or `>` for line prompt 
+TDD-509635 share result: "\ud83e\udde9 Puzzle #696\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+TDD-2353 result puzzle: 696
+TDD-7 result guesses: 12
+TDD-1 result time: 21s
+TDD0 result link: alphaguess.com
+TDD837707 📆 2025-06-20 ? 
