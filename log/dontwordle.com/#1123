@@ -1,0 +1,41 @@
+T0.00021328299771994352 now: 2025-06-20T07:42:23EDT
+TD43 site: dontwordle.com
+TDD-5 wordlist: nwl2023.txt
+TDD19864703 1> *
+TDD-10720462 1> tried cacao nnnnn
+TDD-9144014 tried: CACAO n n n n n
+TDD711451 2> *
+TDD11352431 2> tried bevel nYYYn
+TDD-12064035 tried: BEVEL n Y Y Y n
+TDD3407705 3> undo
+TDD-3407736 undo
+TDD4591953 2> *
+TDD7056506 2> tried swiss Ynnnn
+TDD-11648433 tried: SWISS Y n n n n
+TDD3615536 3> undo
+TDD-3615566 undo
+TDD4800242 2> *
+TDD10239665 2> tried nnnnY
+TDD-7776005 2> tried linin nnnnY
+TDD-7263875 tried: LININ n n n n Y
+TDD1199665 3> undo
+TDD-1199686 undo
+TDD3215907 2> *
+TDD4688200 2> tried phpht nnnnn
+TDD-7904087 tried: PHPHT n n n n n
+TDD896145 3> *
+TDD4575323 3> tried yukky nnnnn
+TDD-5471468 tried: YUKKY n n n n n
+TDD647838 4> *
+TDD8984265 4> tried grrrl nnnnn
+TDD-9632112 tried: GRRRL n n n n n
+TDD2295763 5> *
+TDD7497676 5> tried immix nnnnn
+TDD-9793429 tried: IMMIX n n n n n
+TDD1302460 6> *
+TDD35441832 6> * -sans
+TDD-17936096 6> tried jesse nYmnM
+TDD-18808193 tried: JESSE n Y m n m
+TDD2615799 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2613156 result: "Don't Wordle 1123 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3948\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2133\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c986\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c317\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c70\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe823\nUndos used: 3\n\n  23 words remaining\nx 8 unused letters\n= 184 total score"
+TDD162419 📆 2025-06-20 ? 
