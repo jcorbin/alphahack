@@ -1,0 +1,117 @@
+T0.00023841200163587928 now: 2025-06-20T07:33:39EDT
+TD38 site: squareword.org
+TDD2506692 🧩  ? #1236
+TDD-2506597 puzzle_id: #1236
+TDD-112 wordlist: nwl2023.txt
+TDD1607791 > *
+TDD3592264 try? 2
+TDD-5199070 questioning: ["STALE", "#5"]
+TDD718025 STALE ( #5 ) ? 
+TDD-718973 guess: STALE
+TDD241122 STALE ( #5 ) > 
+TDD2093631 STALE ( #5 ) 1> __a ~ st
+TDD-2334490 word: 0 __A__
+TDD-307 may: 0 S T
+TDD1791640 STALE ( #5 ) 2> ~ le
+TDD-1791413 word: 1 _____
+TDD-227 may: 1 E L
+TDD1695722 STALE ( #5 ) 3> ~ a
+TDD-1695631 word: 2 _____
+TDD-92 may: 2 A
+TDD1367821 STALE ( #5 ) 4> ~ e
+TDD-1367740 word: 3 _____
+TDD-81 may: 3 E
+TDD1776064 STALE ( #5 ) 5> st_ ~ e
+TDD-1775981 word: 4 ST___
+TDD-82 may: 4 E
+TDD0 question done
+TDD1975852 > *
+TDD14984299 try? 1
+TDD-16960012 questioning: ["STERN", "#5"]
+TDD599836 STERN ( #5 ) ? 
+TDD-599928 guess: STERN
+TDD167805 STERN ( #5 ) > 
+TDD2704140 STERN ( #5 ) 1> ~ str
+TDD-2871914 word: 0 __A__
+TDD-79 may: 0 R S T
+TDD1967911 STERN ( #5 ) 2> ~ ler
+TDD-1967837 word: 1 _____
+TDD-75 may: 1 E L R
+TDD2607927 STERN ( #5 ) 3> 4 ~ er
+TDD-2607838 word: 3 _____
+TDD-87 may: 3 E R
+TDD1767904 STERN ( #5 ) 5> stern
+TDD-1767845 word: 4 STERN
+TDD-59 may: 4 
+TDD0 question done
+TDD8856024 > *
+TDD-399907 try? 3
+TDD-8456017 questioning: ["TRAPS", "#1"]
+TDD663781 TRAPS ( #1 ) ? 
+TDD-663848 guess: TRAPS
+TDD1175971 TRAPS ( #1 ) > 
+TDD2888038 TRAPS ( #1 ) 1> _ra_s 
+TDD-4063954 word: 0 _RA_S
+TDD-89 may: 0 T
+TDD11599979 TRAPS ( #1 ) 2> ␚
+TDD-11599933 question done
+TDD1023955 > /no p
+TDD-1023736 nope: P
+TDD823293 > *
+TDD8016640 try? 3
+TDD-8840105 questioning: ["BRATS", "#1"]
+TDD551765 BRATS ( #1 ) ? 
+TDD-551823 guess: BRATS
+TDD392017 BRATS ( #1 ) > 
+TDD1191842 BRATS ( #1 ) 1> brats
+TDD-1583811 word: 0 BRATS
+TDD-83 may: 0 
+TDD3496008 BRATS ( #1 ) 2> ␚
+TDD-3495959 question done
+TDD583798 > *
+TDD4296241 try? 1
+TDD-4880004 questioning: ["RELIC", "#2"]
+TDD239798 RELIC ( #2 ) ? 
+TDD-239854 guess: RELIC
+TDD159895 RELIC ( #2 ) > 
+TDD1488147 RELIC ( #2 ) 1> 
+TDD-232100 RELIC ( #2 ) 2> relic
+TDD-1415882 word: 1 RELIC
+TDD-87 may: 1 
+TDD1855856 RELIC ( #2 ) 3> ~ ai
+TDD-1855789 word: 2 _____
+TDD-66 may: 2 A I
+TDD1847970 RELIC ( #2 ) 4>  eri
+TDD-1847906 word: 3 ERI__
+TDD-64 may: 3 
+TDD6079982 RELIC ( #2 ) 5> 4 _____ ~ eri
+TDD-6079897 word: 3 _____
+TDD-84 may: 3 E I R
+TDD22176188 RELIC ( #2 ) 5> ␚
+TDD-22176147 question done
+TDD991881 > *
+TDD480244 questioning: ["AMIGO", "#3"]
+TDD1903721 AMIGO ( #3 ) ? 
+TDD-3375860 guess: AMIGO
+TDD216612 AMIGO ( #3 ) > 
+TDD1206665 AMIGO ( #3 ) 1> 3 amigo
+TDD-1423234 word: 2 AMIGO
+TDD-72 may: 2 
+TDD3071914 AMIGO ( #3 ) 4> ~ erig
+TDD-3071836 word: 3 _____
+TDD-77 may: 3 E G I R
+TDD1607871 AMIGO ( #3 ) 5> ␚
+TDD-1607839 question done
+TDD687978 > *
+TDD270667 questioning: ["GIVER", "#4"]
+TDD2186698 GIVER ( #4 ) ? 
+TDD-3145336 guess: GIVER
+TDD175953 GIVER ( #4 ) > 
+TDD1279917 GIVER ( #4 ) 1> 4 giver
+TDD-1455836 word: 3 GIVER
+TDD-74 may: 3 
+TDD7281226 GIVER ( #4 ) 5> ␚
+TDD-7281186 question done
+TDD310630 Press <Enter> to 📋 or `>` for line prompt 
+TDD-308464 result: "squareword.org 1236: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1236"
+TDD155597 📆 2025-06-20 ? 
