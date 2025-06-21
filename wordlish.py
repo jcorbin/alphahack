@@ -170,6 +170,39 @@ class Word:
     def word(self):
         return ''.join(l or '_' for l in self.yes)
 
+    @classmethod
+    def parse(cls, s: str):
+        parts = PeekStr(s.split())
+        if not parts: raise ValueError('invalid Word string')
+
+        # TODO whence alpha
+        yes = next(parts)
+        size = len(yes)
+        self = cls(size)
+        for i, c in enumerate(yes):
+            self.yes[i] = '' if c == '_' else c
+
+        while parts:
+            match = parts.have(r'(?x) ~ ( [^\s]+ )')
+            if match:
+                self.may.update(match[1])
+                continue
+
+            match = parts.have(r'(?x) - ( [^\s]+ )')
+            if match:
+                for can in self.can:
+                    can.difference_update(match[1])
+                continue
+
+            match = parts.have(r'(?x) ( [^\s] ) : ( \d+ )')
+            if match:
+                self.max[match[1]] = int(match[2])
+                continue
+
+            raise ValueError('invalid Word string')
+
+        return self
+
     @override
     def __str__(self):
         def parts():
@@ -393,8 +426,8 @@ class Word:
     [A-EHJL-RTWZ]
     ```
 
-
 ''')
+
 def test_word(spec: MarkedSpec):
     word = Word(5)
     for line in spec.inlines:
@@ -408,4 +441,21 @@ def test_word(spec: MarkedSpec):
         elif key == 'may_alts': assert f'{"\n".join(word.re_may_alts())}' == val
         elif key == 'pat': assert f'{word.pattern()}' == val
         elif key == 'done': assert f'{word.done}' == val
+        else: raise NotImplementedError(f'unknown spec prop {key!r}')
+
+@MarkedSpec.mark('''
+
+    #empty
+    > _____
+    - str: _____
+
+    #ary
+    > _A___ ~R -Y
+    - str: _A___ ~R -Y
+
+''')
+def test_word_parse(spec: MarkedSpec):
+    word = Word.parse(spec.input)
+    for key, val in spec.props:
+        if key == 'str': assert f'{word}' == val
         else: raise NotImplementedError(f'unknown spec prop {key!r}')
