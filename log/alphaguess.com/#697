@@ -1,0 +1,41 @@
+T0.00021165399999745205 now: 2025-06-21T09:10:27EDT
+TD77979 loaded 196559 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (44 words excluded) asof 62ee0a13f9fc3854f177ced7efca2ec820600049
+TDD10023111 [0 : 98236 : 196559] mach? b
+TDD-10100907 progress: -1 98236 mach
+TDD1607658 [0 : 47396 : 98236] dis? a
+TDD-1607757 progress: 1 47396 dis
+TDD1487843 [47397 : 72816 : 98236] gremolata? b
+TDD-1487849 progress: -1 72816 gremolata
+TDD1439943 [47397 : 60099 : 72816] face? b
+TDD-1439950 progress: -1 60099 face
+TDD1503861 [47397 : 53412 : 60099] el? b
+TDD-1503861 progress: -1 53412 el
+TDD1423903 [47397 : 49443 : 53412] do? a
+TDD-1423902 progress: 1 49443 do
+TDD1463867 [49444 : 51417 : 53412] drunk? b
+TDD-1463868 progress: -1 51417 drunk
+TDD1391901 [49444 : 50420 : 51417] dove? a
+TDD-1391900 progress: 1 50420 dove
+TDD1407970 [50421 : 50914 : 51417] drawl? b
+TDD-1407971 progress: -1 50914 drawl
+TDD1399894 [50421 : 50663 : 50914] doze? a
+TDD-1399899 progress: 1 50663 doze
+TDD1375934 [50664 : 50744 : 50914] drag? b
+TDD-1375928 progress: -1 50744 drag
+TDD1415873 [50664 : 50700 : 50744] drachm? b
+TDD-1415849 progress: -1 50700 drachm
+TDD1375795 [50664 : 50681 : 50700] drab? b
+TDD-1375818 progress: -1 50681 drab
+TDD1199911 [50664 : 50672 : 50681] dozers? b
+TDD-1199889 progress: -1 50672 dozers
+TDD1567870 [50664 : 50665 : 50672] dozen? it
+TDD-1567894 progress: 0 50665 dozen
+TDD-55 [50664 : 50665 : 50672] <Done>.
+TDD3160193 press <Return> to finish
+TDD-2992336 Press <Enter> to 📋 or `>` for line prompt 
+TDD-165565 share result: "\ud83e\udde9 Puzzle #697\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"
+TDD-2291 result puzzle: 697
+TDD-7 result guesses: 15
+TDD-1 result time: 20s
+TDD0 result link: alphaguess.com
+TDD557718 📆 2025-06-21 ? 
