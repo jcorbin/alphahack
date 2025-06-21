@@ -170,6 +170,39 @@ class Word:
     def word(self):
         return ''.join(l or '_' for l in self.yes)
 
+    @classmethod
+    def parse(cls, s: str):
+        parts = PeekStr(s.split())
+        if not parts: raise ValueError('invalid Word string')
+
+        # TODO whence alpha
+        yes = next(parts)
+        size = len(yes)
+        self = cls(size)
+        for i, c in enumerate(yes):
+            self.yes[i] = '' if c == '_' else c
+
+        while parts:
+            match = parts.have(r'(?x) ~ ( [^\s]+ )')
+            if match:
+                self.may.update(match[1])
+                continue
+
+            match = parts.have(r'(?x) - ( [^\s]+ )')
+            if match:
+                for can in self.can:
+                    can.difference_update(match[1])
+                continue
+
+            match = parts.have(r'(?x) ( [^\s] ) : ( \d+ )')
+            if match:
+                self.max[match[1]] = int(match[2])
+                continue
+
+            raise ValueError('invalid Word string')
+
+        return self
+
     @override
     def __str__(self):
         def parts():
