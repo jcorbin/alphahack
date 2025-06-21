@@ -45,7 +45,7 @@ class Search(StoredLog):
 
         self.grid: list[str] = ['' for _ in range(self.size**2)]
 
-        self.choosing: tuple[int, 'Search.Select', Possible[str]]|None = None
+        self.choosing: tuple[int, Word, Possible[str]]|None = None
 
         self.qmode: str = '?'
         self.questioning: str = ''
@@ -730,7 +730,7 @@ class Search(StoredLog):
                     ui.print('! unable to select')
                     for word_j in range(self.size):
                         p = self.select(row=word_j, avoid=avoid)
-                        lines = self.explain_select(p)
+                        lines = self.explain_select(p.word)
                         for line in wrap_item(f'#{word_j+1}: {next(lines)}', lines, indent='   '):
                             ui.print(line)
                     return
@@ -749,7 +749,7 @@ class Search(StoredLog):
                         del self.recent_sug[word]
                     scores[i] /= penalty
 
-            self.choosing = word_i, sel, Possible(
+            self.choosing = word_i, sel.word, Possible(
                 words,
                 lambda _: (scores, explain_score),
                 verbose=verbose,
@@ -757,29 +757,30 @@ class Search(StoredLog):
 
         return self.present_choice
 
-    def explain_select(self, sel: Select) -> Generator[str]:
-        if sel.word.done:
-            yield f'done {sel}'
+    def explain_select(self, word: Word) -> Generator[str]:
+        if word.done:
+            yield f'done {word}'
             return
 
-        yield f'for {sel}'
+        yield f'for {word}'
 
-        pat = sel.pattern
+        pat = word.pattern()
         yield f'pattern: {pat}'
 
-        extra: list[str] = []
-        have = sum(1 for _ in self.find(pat, row=sel.row, verbose=extra.append))
-        yield f'have: {have}'
-        yield from extra
+        # RIP prior over Select
+        # extra: list[str] = []
+        # have = sum(1 for _ in self.find(pat, row=sel.row, verbose=extra.append))
+        # yield f'have: {have}'
+        # yield from extra
 
     def present_choice(self, ui: PromptUI):
         if self.choosing is None:
             return self.display
 
-        word_i, sel, pos = self.choosing
+        word_i, sel_word, pos = self.choosing
 
         if len(pos.data) == 0:
-            lines = self.explain_select(sel)
+            lines = self.explain_select(sel_word)
             for line in wrap_item(f'!!! #{word_i+1} no choices', lines, indent='... '):
                 ui.print(line)
             self.choosing = None
@@ -792,7 +793,7 @@ class Search(StoredLog):
             self.recent_sug[choice] = 10
             return self.ask_question(ui, choice, f'#{word_i+1}')
 
-        ui.print(f'#{word_i+1} {pos} from {sel}')
+        ui.print(f'#{word_i+1} {pos} from {sel_word}')
         for line in pos.show_list():
             ui.print(line)
 
