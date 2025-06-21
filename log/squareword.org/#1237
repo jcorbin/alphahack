@@ -1,0 +1,123 @@
+T0.0002677319999975225 now: 2025-06-21T09:11:59EDT
+TD44 site: squareword.org
+TDD17102552 🧩  ? #1237
+TDD-17102453 puzzle_id: #1237
+TDD-122 wordlist: nwl2023.txt
+TDD759822 > *
+TDD3432263 try? 2
+TDD-4190901 questioning: ["AIDES", "#5"]
+TDD597683 AIDES ( #5 ) ? 
+TDD-598840 guess: AIDES
+TDD167830 AIDES ( #5 ) > 
+TDD2425572 AIDES ( #5 ) 1> ~ aas
+TDD-2593013 word: 0 _____
+TDD-424 may: 0 A S
+TDD2926372 AIDES ( #5 ) 2> ~ as
+TDD-2926269 word: 1 _____
+TDD-103 may: 1 A S
+TDD2864026 AIDES ( #5 ) 3> ___e ~ e
+TDD-2863938 word: 2 ___E_
+TDD-91 may: 2 E
+TDD5288083 AIDES ( #5 ) 4> a_ ~ e
+TDD-5287995 word: 3 A____
+TDD-86 may: 3 E
+TDD3384084 AIDES ( #5 ) 5> ____s ~ a
+TDD-3384005 word: 4 ____S
+TDD-80 may: 4 A
+TDD0 question done
+TDD2255974 > /no di
+TDD-2255726 nope: D I
+TDD567534 > *
+TDD4256485 try? 2
+TDD-4824126 questioning: ["ALERT", "#4"]
+TDD319669 ALERT ( #4 ) ? 
+TDD-319773 guess: ALERT
+TDD143907 ALERT ( #4 ) > 
+TDD1904329 ALERT ( #4 ) 1> 
+TDD-632378 ALERT ( #4 ) 2> ~ ast
+TDD-1415812 word: 1 _____
+TDD-84 may: 1 A S T
+TDD2519998 ALERT ( #4 ) 3> ~ ert
+TDD-2519907 word: 2 ___E_
+TDD-91 may: 2 E R T
+TDD3232010 ALERT ( #4 ) 4> a_e_t
+TDD-3231932 word: 3 A_E_T
+TDD-80 may: 3 
+TDD2480316 ALERT ( #4 ) 5> ~ art
+TDD-2480230 word: 4 ____S
+TDD-83 may: 4 A R T
+TDD0 question done
+TDD3287729 > /no dil
+TDD-3287662 nope: D I L
+TDD607774 > *
+TDD4872297 try? 2
+TDD-5480029 questioning: ["AGENT", "#4"]
+TDD639784 AGENT ( #4 ) ? 
+TDD-639851 guess: AGENT
+TDD183801 AGENT ( #4 ) > 
+TDD4256193 AGENT ( #4 ) 1> 3 ~ ertn
+TDD-4439949 word: 2 ___E_
+TDD-86 may: 2 E N R T
+TDD1904007 AGENT ( #4 ) 4> agent
+TDD-1903944 word: 3 AGENT
+TDD-65 may: 3 
+TDD7632038 AGENT ( #4 ) 5> ␚
+TDD-7631976 question done
+TDD687789 > *
+TDD4840229 try? 4
+TDD-5527971 questioning: ["ENTER", "#3"]
+TDD375873 ENTER ( #3 ) ? 
+TDD-375935 guess: ENTER
+TDD127832 ENTER ( #3 ) > 
+TDD3703982 ENTER ( #3 ) 1> 3 enter
+TDD-3831787 word: 2 ENTER
+TDD-55 may: 2 
+TDD8552153 ENTER ( #3 ) 4> ␚
+TDD-8552128 question done
+TDD719845 > *
+TDD5048243 try? 2
+TDD-5768037 questioning: ["PASTA", "#2"]
+TDD255829 PASTA ( #2 ) ? 
+TDD-255892 guess: PASTA
+TDD127793 PASTA ( #2 ) > 
+TDD1584229 PASTA ( #2 ) 1> 2 pasta
+TDD-1711977 word: 1 PASTA
+TDD-78 may: 1 
+TDD5352057 PASTA ( #2 ) 3> 5 _a_ts ~ r
+TDD-5351977 word: 4 _A_TS
+TDD-80 may: 4 R
+TDD-1 question done
+TDD3279969 > *
+TDD-1831640 questioning: ["SMASH", "#1"]
+TDD1759411 SMASH ( #1 ) ? 
+TDD-3207705 guess: SMASH
+TDD199884 SMASH ( #1 ) > 
+TDD2072167 SMASH ( #1 ) 1> 1 smash
+TDD-2272010 word: 0 SMASH
+TDD-77 may: 0 
+TDD3312054 SMASH ( #1 ) 2> ␚
+TDD-3312010 question done
+TDD679957 > *
+TDD1082446897 > *
+TDD-1052238364 <INT>
+T0.050359408000076655 now: 2025-06-21T09:57:51EDT
+TD1127254 > 
+TDD-551177 > 
+TDD975808 > /help
+TDD664288 > ␚
+TDD-2216132 <EOF>
+T0.05017662199998085 now: 2025-06-21T09:58:29EDT
+TD3258583 > ?
+TDD-1546181 > /man
+TDD31360290 > /man 5 _A_TS ~R -DEGHILMNP
+TDD-32534689 questioning: ["KARTS", "#5"]
+TDD7468239 KARTS ( #5 ) ? 
+TDD-8006185 guess: KARTS
+TDD1007940 KARTS ( #5 ) > 
+TDD799907 KARTS ( #5 ) 1> 5 karts
+TDD-1807568 word: 4 KARTS
+TDD-322 may: 4 
+TDD-2 question done
+TDD4423761 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4421061 result: "squareword.org 1237: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1237"
+TDD186611 📆 2025-06-21 ? 
