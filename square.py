@@ -63,6 +63,7 @@ class Search(StoredLog):
         self.prompt = PromptUI.Prompt(self.prompt_mess, {
             '/gen': self.do_gen,
             '/guesses': self.do_guesses,
+            '/man': self.do_manual_gen,
             '/nope': self.do_nope,
             '*': '/gen',
             '!': '/nope',
@@ -754,6 +755,58 @@ class Search(StoredLog):
                 lambda _: (scores, explain_score),
                 verbose=verbose,
                 choices=chooser.choices)
+
+        return self.present_choice
+
+    def do_manual_gen(self, ui: PromptUI):
+        verbose = 0
+        chooser = Chooser()
+        word_i: int|None = None
+        word: Word|None = None
+
+        while ui.tokens:
+            n = ui.tokens.have(r'\d+$', lambda m: int(m.group(0)))
+            if n is not None:
+                word_i = n-1
+                continue
+
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                ui.print(f'parse choosing verbose: {verbose}')
+                verbose += len(match.group(1))
+                continue
+
+            if chooser.collect(ui.tokens):
+                continue
+
+            try:
+                word = Word.parse(ui.tokens.rest)
+            except ValueError as err:
+                ui.print(f'! must have word spec: {err}')
+                return
+
+            break
+
+        if word_i is None:
+            ui.print(f'! must have word <NUMBER>')
+            return
+
+        if word is None:
+            ui.print(f'! must have word spec')
+            return
+
+        pat = word.pattern()
+        if verbose:
+            ui.print(f'manual gen {word} {pat}')
+
+        words = tuple(self.find(pat, row=word_i))
+        scores, explain_score = self.score_words(word_i, words)
+
+        self.choosing = word_i, word, Possible(
+            words,
+            lambda _: (scores, explain_score),
+            verbose=verbose,
+            choices=chooser.choices)
 
         return self.present_choice
 
