@@ -45,3 +45,47 @@ TDD631753 [doit:2155]> /res
 TDD1272307 Press <Enter> to 📋 or `>` for line prompt 
 TDD-1901008 result: "\u2728 Spaceword.org Daily 2025-06-21 \u2728\n\n\ud83c\udfc6 Score: 2155\n\ud83c\udfc5 Rank: 183/251 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +55\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD1001702 [prior:2155]> /store
+T2.4886262319996604 now: 2025-06-21T10:26:14EDT
+TD854594 [prior:2155]> /sea
+TDD-382676 search 529793 [ 1 ]> pr
+TDD-183859 search 529793 [ 1 may:6 ]> ta
+TDD152034 search 529793 [ 7 may:0 ]> pr
+TDD-151828 search 529793 [ 7 may:36 ]> ta
+TDD175382 search 529793 [ 43 may:0 ]> pr
+TDD-159708 search 529793 [ 43 may:158 prune:30 ]> ta
+TDD1136196 search 529793 [ 201 may:0 prune:30 ]> pr
+TDD-1032134 search 529793 [ 201 may:550 prune:182 ]> ta
+TDD199995 search 529793 [ 751 may:0 prune:182 ]> pr
+TDD1808092 search 529793 [ 751 may:1510 prune:726 ]> ce
+TDD-456103 search 529793 [ 751 may:1510 prune:726 ]> cap 1500
+TDD-1144014 search 529793 [ 751 cap:1500 may:1510 prune:726 ]> **
+TDD776821 Z c$_Lq%}Px!Q7Fz#u`)HXG`BQXNXpMkwK6oYQa}b#{;rNNb{JgL5hmv8=LZvW_lL1ugCMlCzmID$OfUkjIZ^=!00000|Nj
+TDD-1592397 Z Dk9!VFk{Ja5?l)rP67Y`0RR6
+TDD-363 Z BEd;8Hg+e$989^B00000|Nj
+TDD-6 Z qMDOnVi-;e_ID=DNdN!<0RR6
+TDD3052410 Z 8iWxC00030{{
+TDD-3052375 Z qJ1cloV)=500960
+TDD-33 Z BGO6pj5z=R00960
+TDD-4 Z 8idIk00030{{
+TDD11 Z BGO3+Gf9m$g<v07$0&bP2RZxWbdZ7q00030{{
+TDD-5 Z 8iY9x00030{{
+TDD-7 Z BGO6z{!wHHRIsxnNp1oF00960
+TDD2 Z BFagWI0&fB$JH5@(ufEo1poj50RR6
+TDD0 Z A~wfS*GWJ>;&u`M00960
+TDD-2 Z B07}dB@0<jf(a56N&o-=0RR6
+TDD1 Z BFah56gdf42EelhF-`&i00960
+TDD6242086 search 529793 [ 1500 cap:1500 may:1925 prune:2362 dead:10 reject:11 done:2 ]> show done
+TDD-3905950 search 529793 [ 1500 cap:1500 may:1925 prune:2362 dead:10 reject:11 done:2 ]> show 1
+TDD16183874 search 529793 [ 1500 cap:1500 may:1925 prune:2362 dead:10 reject:11 done:2 ]> ret
+TDD-18519842 change: 74 
+TDD-176 change: 44 O
+TDD0 change: 73 I
+TDD-6 change: 77 
+TDD-1 change: 74 S
+TDD0 change: 77 
+TDD0 change: 77 
+TDD-1 change: 43 C
+TDD695694 [prior:2155 bet:2164]> /res
+TDD-79592 Press <Enter> to 📋 or `>` for line prompt 
+TDD-613094 result: "\u2728 Spaceword.org Daily 2025-06-21 \u2728\n\n\ud83c\udfc6 Score: 2164\n\ud83c\udfc5 Rank: 149/251 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +64\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD890790 [prior:2164]> /store
