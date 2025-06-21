@@ -60,6 +60,15 @@ class Search(StoredLog):
         self.result_text: str = ''
         self._result: Result|None = None
 
+        self.prompt = PromptUI.Prompt(self.prompt_mess, {
+            '/gen': self.do_gen,
+            '/guesses': self.do_guesses,
+            '/nope': self.do_nope,
+            '*': '/gen',
+            '!': '/nope',
+            '': self.do_word,
+        })
+
     @property
     def wordlist(self):
         if self._wordlist is not None:
@@ -503,45 +512,48 @@ class Search(StoredLog):
             ui.write(f'  |  {" ".join(sorted(let.upper() for let in self.row_may[word_i]))}')
             ui.fin()
 
+    def prompt_mess(self, ui: PromptUI):
+        self.show(ui)
+        return '> '
+
     def display(self, ui: PromptUI):
         if self.run_done:
             return self.finish
+        return self.prompt(ui)
 
-        self.show(ui)
-        with ui.input(f'> ') as tokens:
+    def do_guesses(self, ui: PromptUI):
+        for word in self.guesses:
+            ui.print(f'Guesses ({len(self.guesses)})')
+            ui.print(f'- {word}')
 
-            if tokens.have(r'\*'):
-                self.skip_show = True
-                return self.do_choose(ui)
+    def do_nope(self, ui: PromptUI):
+        for m in re.finditer(r'[.A-Za-z]', ui.tokens.rest):
+            c = m.group(0).upper()
+            if c == '.':
+                self.nope.clear()
+            else:
+                self.nope.add(c)
+        ui.log(f'nope: {" ".join(sorted(self.nope))}')
 
-            if tokens.have(r'(?x) ( ! | /n(o(pe?)?)? ) $'):
-                for m in re.finditer(r'[.A-Za-z]', tokens.rest):
-                    c = m.group(0).upper()
-                    if c == '.':
-                        self.nope.clear()
-                    else:
-                        self.nope.add(c)
-                ui.log(f'nope: {" ".join(sorted(self.nope))}')
+    def do_word(self, ui: PromptUI):
+        word_i = self.re_word_i(ui)
+        if word_i is not None:
+            if ui.tokens.rest.strip() == '!':
+                self.forget(ui, word_i)
                 return
 
-            if tokens.have(r'/g(u(e(s(s(es?)?)?)?)?)?'):
-                for word in self.guesses:
-                    ui.print(f'Guesses ({len(self.guesses)})')
-                    ui.print(f'- {word}')
-                return
+        token = next(ui.tokens, None)
+        if not token: return
 
-            word_i = self.re_word_i(ui)
-            if word_i is not None:
-                if tokens.rest.strip() == '!':
-                    self.forget(ui, word_i)
-                    return
+        if token.startswith('/'):
+            ui.print(f'! invalid command {token!r}; maybe ask for /help ?')
+            return
 
-            word = next(tokens, None)
-            if word:
-                if len(word) == self.size:
-                    return self.ask_question(ui, word, 'entered')
-                ui.print(f'! wrong size {word!r}')
-                return
+        if len(token) != self.size:
+            ui.print(f'! wrong size {token!r}')
+            return
+
+        return self.ask_question(ui, token, 'entered')
 
     def row_word_range(self, row: int):
         return range(row * self.size, (row+1) * self.size)
@@ -667,6 +679,10 @@ class Search(StoredLog):
         ui.log(f'may: {word_i} {" ".join(sorted(self.row_may[word_i]))}')
 
         return True
+
+    def do_gen(self, ui: PromptUI):
+        self.skip_show = True
+        return self.do_choose(ui)
 
     def do_choose(self, ui: PromptUI) -> PromptUI.State|None:
         if self.choosing is None:
