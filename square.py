@@ -30,6 +30,56 @@ from wordlist import WordList
 #     
 #     5 _A_TS ~R -DEGHILMNP
 
+'''
+
+# orig
+
+attempts for: _A_TS ~AR -DEGHILMNP
+1. AIDES m n n n Y
+2. ALERT m n n m m
+3. AGENT m n n n m
+4. ENTER n n m n m
+5. PASTA n Y m Y m
+6. SMASH m n m m n
+
+> AIDES m n n n Y
+  ____S ~A -DEI
+> ALERT m n n m m
+  ____S ~ART -DEIL
+> AGENT m n n n m
+  ____S ~ART -DEGILN
+> ENTER n n m n m
+  ____S ~ART -DEGILN
+> PASTA n Y m Y m
+  _A__S ~ART -DEGILN XXX problem 2nd A should be N
+
+> SMASH m n m m n
+
+# wip
+
+attempts for: _A_TS ~AR -DEGHILMNP
+1. AIDES m n n n Y
+2. ALERT m n n m m
+3. AGENT m n n n m
+4. ENTER n n m n m
+5. PASTA n Y m Y m
+6. SMASH m n m m n
+
+> AIDES m n n n Y
+  ____S ~A -DEI
+> ALERT m n n m m
+  ____S ~ART -DEIL
+> AGENT m n n n m
+  ____S ~ART -DEGILN
+> ENTER n n m n m
+  ____S ~ART -DEGILN
+> PASTA n Y m Y m
+  _A_TS ~AR -DEGILNP
+> SMASH m n m m n
+  _A_TS ~AR -DEGHILMNP
+
+'''
+
 @final
 class Search(StoredLog):
     log_file: str = 'squareword.log'
