@@ -61,6 +61,7 @@ class Search(StoredLog):
         self._result: Result|None = None
 
         self.prompt = PromptUI.Prompt(self.prompt_mess, {
+            '/attempts': self.do_attempts,
             '/gen': self.do_gen,
             '/guesses': self.do_guesses,
             '/man': self.do_manual_gen,
@@ -691,6 +692,32 @@ class Search(StoredLog):
     def do_gen(self, ui: PromptUI):
         self.skip_show = True
         return self.do_choose(ui)
+
+    def do_attempts(self, ui: PromptUI):
+        avoid = True
+        word_i: int|None = None
+
+        while ui.tokens:
+            n = ui.tokens.have(r'\d+$', lambda m: int(m.group(0)))
+            if n is not None:
+                word_i = n-1
+                continue
+
+            if ui.tokens.have(r'-sans'):
+                avoid = False
+                continue
+
+            ui.print(f'! invalid * arg {next(ui.tokens)!r}')
+            return
+
+        if word_i is None:
+            ui.print(f'! must have word <NUMBER>')
+            return
+
+        sel = self.select(row=word_i, avoid=avoid)
+        ui.print(f'attempts for: {sel.word}')
+        for n, at in enumerate(sel.attempts, 1):
+            ui.print(f'{n}. {at}')
 
     def do_choose(self, ui: PromptUI) -> PromptUI.State|None:
         if self.choosing is None:
