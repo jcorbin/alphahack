@@ -1,0 +1,106 @@
+T0.00040909199998395707 now: 2025-06-22T08:08:41EDT
+TD38 site: squareword.org
+TDD1550685 🧩  ? #1238
+TDD-1550527 puzzle_id: #1238
+TDD-177 wordlist: nwl2023.txt
+TDD44289097 > *
+TDD-33361561 try? 6
+TDD-10923715 questioning: ["SPARE", "#5"]
+TDD719998 SPARE ( #5 ) ? 
+TDD-723719 guess: SPARE
+TDD287711 SPARE ( #5 ) > 
+TDD1712118 SPARE ( #5 ) 1> ~ spa
+TDD-1998956 word: 0 _____
+TDD-977 may: 0 A P S
+TDD3655070 SPARE ( #5 ) 2> _p_r ~ ae
+TDD-3654963 word: 1 _P_R_
+TDD-107 may: 1 A E
+TDD3311817 SPARE ( #5 ) 3> ~ ar
+TDD-3311742 word: 2 _____
+TDD-78 may: 2 A R
+TDD2503930 SPARE ( #5 ) 4> s_a_
+TDD-2503869 word: 3 S_A__
+TDD-60 may: 3 
+TDD2031929 SPARE ( #5 ) 5> ~ e
+TDD-2031838 word: 4 _____
+TDD-89 may: 4 E
+TDD17 question done
+TDD1999942 > *
+TDD1952058 try? 2
+TDD-3951927 questioning: ["OPERA", "#2"]
+TDD599863 OPERA ( #2 ) ? 
+TDD-599927 guess: OPERA
+TDD2175944 OPERA ( #2 ) > 
+TDD-896001 OPERA ( #2 ) 1> 
+TDD-208052 OPERA ( #2 ) 2> opera
+TDD-1071844 word: 1 OPERA
+TDD-74 may: 1 
+TDD143897263 OPERA ( #2 ) 3> ␚
+TDD-143897073 question done
+TDD887101 > *
+TDD8312766 try? 3
+TDD-9199948 questioning: ["PACTS", "#1"]
+TDD639874 PACTS ( #1 ) ? 
+TDD-639942 guess: PACTS
+TDD159756 PACTS ( #1 ) > 
+TDD5344199 PACTS ( #1 ) 1> _a__s ~ sp/
+TDD-5503902 word: 0 _A__S
+TDD-93 may: 0 P S
+TDD5408001 PACTS ( #1 ) 2> 
+TDD-3399725 PACTS ( #1 ) 3> _a
+TDD-2008195 word: 2 _A___
+TDD-82 may: 2 R
+TDD4863621 PACTS ( #1 ) 4> ~ ct
+TDD-4863542 word: 3 S_A__
+TDD-77 may: 3 C T
+TDD4583920 PACTS ( #1 ) 5> ___t ~ et
+TDD-4583806 word: 4 ___T_
+TDD-112 may: 4 E T
+TDD28 question done
+TDD2959735 > *
+TDD-2393714 questioning: ["SCANT", "#4"]
+TDD5284102 SCANT ( #4 ) ? 
+TDD-5850099 guess: SCANT
+TDD831859 SCANT ( #4 ) > 
+TDD4960133 SCANT ( #4 ) 1> 
+TDD-5624177 SCANT ( #4 ) 2> 
+TDD5464365 SCANT ( #4 ) 3> 4 scant
+TDD-5632147 word: 3 SCANT
+TDD-88 may: 3 
+TDD11023750 SCANT ( #4 ) 5> ~ etn
+TDD-11023665 word: 4 ___T_
+TDD-83 may: 4 E N T
+TDD6 question done
+TDD20557636 > *
+TDD-13203142 try? 1
+TDD-7354403 questioning: ["RADII", "#3"]
+TDD287768 RADII ( #3 ) ? 
+TDD-287837 guess: RADII
+TDD159849 RADII ( #3 ) > 
+TDD1872156 RADII ( #3 ) 1> 3 radii
+TDD-2031959 word: 2 RADII
+TDD-76 may: 2 
+TDD6664016 RADII ( #3 ) 4> ␚
+TDD-6663948 question done
+TDD551877 > *
+TDD869798 questioning: ["TENTH", "#5"]
+TDD1788522 TENTH ( #5 ) ? 
+TDD-3210233 guess: TENTH
+TDD287991 TENTH ( #5 ) > 
+TDD2575871 TENTH ( #5 ) 1> 5 tenth
+TDD-2863823 word: 4 TENTH
+TDD-73 may: 4 
+TDD0 question done
+TDD1527894 > *
+TDD-553820 questioning: ["WASPS", "#1"]
+TDD1859943 WASPS ( #1 ) ? 
+TDD-2833974 guess: WASPS
+TDD175863 WASPS ( #1 ) > 
+TDD1320071 WASPS ( #1 ) 1> 1 wasps
+TDD-1495914 word: 0 WASPS
+TDD-61 may: 0 
+TDD4351972 WASPS ( #1 ) 2> ␚
+TDD-4351932 question done
+TDD3647927 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3645267 result: "squareword.org 1238: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1238"
+TDD154577 📆 2025-06-22 ? 
