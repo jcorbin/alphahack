@@ -401,41 +401,48 @@ class Search(StoredLog):
                      row: int|None = None,
                      col: int|None = None,
                      ):
-
-            yes = tuple(l.upper() for l in yes)
-            may = tuple(l.upper() for l in may)
-            nope = tuple(l.upper() for l in nope)
-            void = tuple(l.upper() for l in void)
-            guesses = tuple(w.upper() for w in guesses)
-
-            word = Word(len(yes))
-            for c in void:
-                word.cannot(c)
-
-            if guesses:
-                for guess in guesses:
-                    word.collect(Attempt(guess, tuple(
-                        2 if yes[i] == gl else
-                        1 if gl in yes else
-                        1 if gl in may else
-                        0
-                        for i, gl in enumerate(guess)
-                    )))
-
-            else:
-                for i, c in enumerate(yes):
-                    word.yes[i] = c
-                word.may.update(may)
-                for c in nope:
-                    word.cannot(c)
-                for guess in guesses:
-                    for i, c in enumerate(guess):
-                        if yes[i] != c:
-                            word.can[i].difference_update((c,))
-
+            self.yes = tuple(l.upper() for l in yes)
+            self.may = tuple(l.upper() for l in may)
+            self.nope = tuple(l.upper() for l in nope)
+            self.void = tuple(l.upper() for l in void)
+            self.guesses = tuple(w.upper() for w in guesses)
             self.row = row
             self.col = col
-            self.word = word
+            self.word = Word(len(yes))
+            word = self.word
+            for c in self.void:
+                word.cannot(c)
+            if self.guesses:
+                for at in self.attempts:
+                    word.collect(at)
+            else:
+                for i, c in enumerate(self.yes):
+                    word.yes[i] = c
+                word.may.update(self.may)
+                for c in self.nope:
+                    word.cannot(c)
+                for guess in self.guesses:
+                    for i, c in enumerate(guess):
+                        if self.yes[i] != c:
+                            word.can[i].difference_update((c,))
+
+        def feedback(self, word: str):
+            for i, c in enumerate(word):
+                y = self.yes[i]
+                if y == c:
+                    yield 2
+                    continue
+
+                if c in self.yes or c in self.may:
+                    yield 1
+                    continue
+
+                yield 0
+
+        @property
+        def attempts(self):
+            for guess in self.guesses:
+                yield Attempt(guess, tuple(self.feedback(guess)))
 
         @override
         def __str__(self):
