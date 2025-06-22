@@ -16,6 +16,20 @@ from ui import PromptUI
 from wordlish import feedback_letters, Feedback, Question, Attempt, Word
 from wordlist import WordList
 
+# TODO chase down failure
+#
+# from log/squareword.org/#1237 :102
+# 
+#     #1: done row:0 SMASH
+#     #2: done row:1 PASTA
+#     #3: done row:2 ENTER
+#     #4: done row:3 AGENT
+#     #5: for row:4 _A_TS ~AR -DEGHILMNP (2 possible)
+#        pattern: re.compile('', re.IGNORECASE) have: 0 col_may_1: [KNR]
+#        col_may_2: [A] col_may_3: [R] col_may_4: [T] col_may_5: [S]
+#     
+#     5 _A_TS ~R -DEGHILMNP
+
 def re_word_match(ui: PromptUI):
     rest = ui.tokens.rest
     match = re.match(r'''(?x)
