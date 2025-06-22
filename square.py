@@ -16,6 +16,20 @@ from ui import PromptUI
 from wordlish import Attempt, Word
 from wordlist import WordList
 
+# TODO chase down failure
+#
+# from log/squareword.org/#1237 :102
+# 
+#     #1: done row:0 SMASH
+#     #2: done row:1 PASTA
+#     #3: done row:2 ENTER
+#     #4: done row:3 AGENT
+#     #5: for row:4 _A_TS ~AR -DEGHILMNP (2 possible)
+#        pattern: re.compile('', re.IGNORECASE) have: 0 col_may_1: [KNR]
+#        col_may_2: [A] col_may_3: [R] col_may_4: [T] col_may_5: [S]
+#     
+#     5 _A_TS ~R -DEGHILMNP
+
 @final
 class Search(StoredLog):
     log_file: str = 'squareword.log'
@@ -409,7 +423,7 @@ class Search(StoredLog):
             self.guesses = tuple(w.upper() for w in guesses)
             self.row = row
             self.col = col
-            self.word = Word(len(yes))
+            self.word = Word(len(self.yes))
             word = self.word
             for c in self.void:
                 word.cannot(c)
