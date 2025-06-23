@@ -332,7 +332,7 @@ class Search(StoredLog):
 
     def check_fail_text(self, ui: PromptUI):
         try:
-            word = self.fail_text.strip().split()[0]
+            word = self.fail_text.strip().split()[0].lower()
         except IndexError:
             return
         if not word:
