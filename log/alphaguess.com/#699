@@ -1,0 +1,37 @@
+T0.0002483530042809434 now: 2025-06-23T07:35:45EDT
+TD86721 loaded 196557 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (46 words excluded) asof 5c5792d05375e8102d8245c6936476f9abe9185d
+TDD6974366 [0 : 98236 : 196557] mach? b
+TDD-7060937 progress: -1 98236 mach
+TDD1655606 [0 : 47396 : 98236] dis? b
+TDD-1655683 progress: -1 47396 dis
+TDD1727918 [0 : 23695 : 47396] camp? b
+TDD-1727925 progress: -1 23695 camp
+TDD1703926 [0 : 11771 : 23695] back? a
+TDD-1703929 progress: 1 11771 back
+TDD1952152 [11772 : 17726 : 23695] blind? b
+TDD-1952151 progress: -1 17726 blind
+TDD1695669 [11772 : 13813 : 17726] be? a
+TDD-1695672 progress: 1 13813 be
+TDD1759879 [13814 : 15769 : 17726] bewrap? b
+TDD-1759868 progress: -1 15769 bewrap
+TDD2231895 [13814 : 14790 : 15769] bel? b
+TDD-2231905 progress: -1 14790 bel
+TDD1727946 [13814 : 14176 : 14790] bed? b
+TDD-1727935 progress: -1 14176 bed
+TDD1503781 [13814 : 13981 : 14176] beat? a
+TDD-1503787 progress: 1 13981 beat
+TDD1663888 [13982 : 14076 : 14176] becarpet? b
+TDD-1663893 progress: -1 14076 becarpet
+TDD3823922 [13982 : 14016 : 14076] beaut? a
+TDD-3823917 progress: 1 14016 beaut
+TDD1880246 [14017 : 14041 : 14076] beauty? it
+TDD-1880241 progress: 0 14041 beauty
+TDD-58 [14017 : 14041 : 14076] <Done>.
+TDD2991701 press <Return> to finish
+TDD-2807778 Press <Enter> to 📋 or `>` for line prompt 
+TDD-181593 share result: "\ud83e\udde9 Puzzle #699\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 24s\n\n\ud83d\udd17 alphaguess.com"
+TDD-2329 result puzzle: 699
+TDD-6 result guesses: 13
+TDD-1 result time: 24s
+TDD0 result link: alphaguess.com
+TDD181678 📆 2025-06-23 ? 
