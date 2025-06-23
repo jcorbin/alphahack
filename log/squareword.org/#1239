@@ -1,0 +1,112 @@
+T0.00022828300279797986 now: 2025-06-23T07:36:25EDT
+TD48 site: squareword.org
+TDD29434552 🧩  ? #1239
+TDD-29434468 puzzle_id: #1239
+TDD-118 wordlist: nwl2023.txt
+TDD465173 > *
+TDD3933597 try? 3
+TDD-4397285 questioning: ["LANES", "#5"]
+TDD365107 LANES ( #5 ) ? 
+TDD-366555 guess: LANES
+TDD127751 LANES ( #5 ) > 
+TDD3840297 LANES ( #5 ) 1> ____s ~ ae
+TDD-3967748 word: 0 ____S
+TDD-339 may: 0 A E
+TDD1079588 LANES ( #5 ) 2> ~ la
+TDD-1079361 word: 1 _____
+TDD-228 may: 1 A L
+TDD2375788 LANES ( #5 ) 3> ~ es
+TDD-2375717 word: 2 _____
+TDD-72 may: 2 E S
+TDD3776054 LANES ( #5 ) 4> ___e ~ e
+TDD-3775973 word: 3 ___E_
+TDD-81 may: 3 E
+TDD4407837 LANES ( #5 ) 5> __n ~ es
+TDD-4407761 word: 4 __N__
+TDD-75 may: 4 E S
+TDD0 question done
+TDD34736577 > *
+TDD-24552393 try? 2
+TDD-10184067 questioning: ["SINCE", "#5"]
+TDD2615832 SINCE ( #5 ) ? 
+TDD-2615898 guess: SINCE
+TDD655896 SINCE ( #5 ) > 
+TDD1216078 SINCE ( #5 ) 1> 
+TDD-184042 SINCE ( #5 ) 2> 
+TDD4408256 SINCE ( #5 ) 3> s___e ~ i
+TDD-6096155 word: 2 S___E
+TDD-85 may: 2 I
+TDD5959845 SINCE ( #5 ) 4> 
+TDD769234 SINCE ( #5 ) 5> __n_e ~ es
+TDD-6729006 word: 4 __N_E
+TDD-73 may: 4 E S
+TDD0 question done
+TDD2558770 > /no c
+TDD-2558631 nope: C
+TDD543749 > *
+TDD6816264 try? 3
+TDD-7360070 questioning: ["DENSE", "#5"]
+TDD1287907 DENSE ( #5 ) ? 
+TDD-1287947 guess: DENSE
+TDD175820 DENSE ( #5 ) > 
+TDD4264319 DENSE ( #5 ) 1> _e__s
+TDD-4440094 word: 0 _E__S
+TDD-86 may: 0 A
+TDD1935899 DENSE ( #5 ) 2> 
+TDD392131 DENSE ( #5 ) 3> 
+TDD2224107 DENSE ( #5 ) 4> ~ ed
+TDD-4552071 word: 3 ___E_
+TDD-68 may: 3 D E
+TDD10159950 DENSE ( #5 ) 5> dense
+TDD-10159878 word: 4 DENSE
+TDD-70 may: 4 
+TDD-1 question done
+TDD1207873 > *
+TDD3928239 try? 1
+TDD-5136030 questioning: ["ALLOW", "#2"]
+TDD255812 ALLOW ( #2 ) ? 
+TDD-255862 guess: ALLOW
+TDD143850 ALLOW ( #2 ) > 
+TDD3248280 ALLOW ( #2 ) 1> 
+TDD-2280317 ALLOW ( #2 ) 2> allow
+TDD-1111774 word: 1 ALLOW
+TDD-69 may: 1 
+TDD6760119 ALLOW ( #2 ) 3> ␚
+TDD-6760069 question done
+TDD959964 > *
+TDD1004495 questioning: ["SUITE", "#3"]
+TDD3671098 SUITE ( #3 ) ? 
+TDD-5635577 guess: SUITE
+TDD191825 SUITE ( #3 ) > 
+TDD3184162 SUITE ( #3 ) 1> 3 suite
+TDD-3375960 word: 2 SUITE
+TDD-60 may: 2 
+TDD3688053 SUITE ( #3 ) 4> ␚
+TDD-3688011 question done
+TDD27736372 > *
+TDD-26265858 questioning: ["EDGED", "#4"]
+TDD2202988 EDGED ( #4 ) ? 
+TDD-3673495 guess: EDGED
+TDD287875 EDGED ( #4 ) > 
+TDD1735981 EDGED ( #4 ) 1> 4 edged
+TDD-2023829 word: 3 EDGED
+TDD-75 may: 3 
+TDD1448073 EDGED ( #4 ) 5> ␚
+TDD-1448025 question done
+TDD535784 > *
+TDD13264397 > ?
+TDD-6632047 > /man 
+TDD-192096 > /man 1 _e__s ~ a
+TDD14968221 > /man 1 _E__S ~A
+TDD-8192044 try? 1
+TDD-13752159 questioning: ["BEAMS", "#1"]
+TDD2223748 BEAMS ( #1 ) ? 1 beams
+TDD-2223789 guess: BEAMS
+TDD-46 word: 0 BEAMS
+TDD-16 may: 0 
+TDD4743946 BEAMS ( #1 ) 2> ␚
+TDD-4743909 question done
+TDD5072051 <INT>
+T34.22085916099604 now: 2025-06-23T07:42:05EDT
+TD1783961 Press <Enter> to 📋 or `>` for line prompt 
+TDD-1781360 result: "squareword.org 1239: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1239"
