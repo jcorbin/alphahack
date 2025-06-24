@@ -1,0 +1,101 @@
+T0.00022973200248088688 now: 2025-06-24T07:56:41EDT
+TD38 site: squareword.org
+TDD4702237 🧩  ? #1240
+TDD-4702132 puzzle_id: #1240
+TDD-121 wordlist: nwl2023.txt
+TDD9368035 > *
+TDD360641 try? tried nears __a_s ~s
+TDD-4072887 try? 3
+TDD-5654704 questioning: ["NEARS", "#5"]
+TDD597876 NEARS ( #5 ) ? 
+TDD-598923 guess: NEARS
+TDD759873 NEARS ( #5 ) > 
+TDD3984144 NEARS ( #5 ) 1> __a_s ~s
+TDD-4743729 word: 0 __A_S
+TDD-336 may: 0 S
+TDD1791818 NEARS ( #5 ) 2> 
+TDD1168098 NEARS ( #5 ) 3> ~ nea
+TDD-2959697 word: 2 _____
+TDD-219 may: 2 A E N
+TDD2199800 NEARS ( #5 ) 4> ~ ner
+TDD-2199721 word: 3 _____
+TDD-81 may: 3 E N R
+TDD1903972 NEARS ( #5 ) 5> ~ es
+TDD-1903896 word: 4 _____
+TDD-76 may: 4 E S
+TDD0 question done
+TDD2335973 > *
+TDD3224801 try? 2
+TDD-5560656 questioning: ["DRONE", "#4"]
+TDD1239217 DRONE ( #4 ) ? 
+TDD-1239285 guess: DRONE
+TDD431832 DRONE ( #4 ) > 
+TDD1896232 DRONE ( #4 ) 1> 
+TDD-1104183 DRONE ( #4 ) 2> ~ do
+TDD-1223855 word: 1 _____
+TDD-57 may: 1 D O
+TDD4496047 DRONE ( #4 ) 3> __one ~a
+TDD-4495975 word: 2 __ONE
+TDD-88 may: 2 A
+TDD4271995 DRONE ( #4 ) 4> ___ne ~ ro
+TDD-4271918 word: 3 ___NE
+TDD-77 may: 3 O R
+TDD1696003 DRONE ( #4 ) 5> 
+TDD-1695954 question done
+TDD767828 > *
+TDD-28333 questioning: ["BORNE", "#4"]
+TDD2801127 BORNE ( #4 ) ? 
+TDD-3540627 guess: BORNE
+TDD159791 BORNE ( #4 ) > 
+TDD2104957 BORNE ( #4 ) 1> 4 borne
+TDD-2264709 word: 3 BORNE
+TDD-82 may: 3 
+TDD13215623 BORNE ( #4 ) 5> ␚
+TDD-13215570 question done
+TDD711821 > *
+TDD-98080 questioning: ["WIDOW", "#2"]
+TDD3772584 WIDOW ( #2 ) ? 
+TDD-4386330 guess: WIDOW
+TDD231810 WIDOW ( #2 ) > 
+TDD2216288 WIDOW ( #2 ) 1> 
+TDD-888218 WIDOW ( #2 ) 2> widow
+TDD-1559844 word: 1 WIDOW
+TDD-83 may: 1 
+TDD4928579 WIDOW ( #2 ) 3> ␚
+TDD-4928535 question done
+TDD487357 > *
+TDD7320860 try? 3
+TDD-7808162 questioning: ["ALONE", "#3"]
+TDD519856 ALONE ( #3 ) ? 
+TDD-519911 guess: ALONE
+TDD159751 ALONE ( #3 ) > 
+TDD920232 ALONE ( #3 ) 1> 3 alone
+TDD-1079955 word: 2 ALONE
+TDD-76 may: 2 
+TDD3400301 ALONE ( #3 ) 4> ␚
+TDD-3400261 question done
+TDD503652 > *
+TDD1015293 questioning: ["STEEP", "#5"]
+TDD2818274 STEEP ( #5 ) ? 
+TDD-4337203 guess: STEEP
+TDD159745 STEEP ( #5 ) > 
+TDD4160341 STEEP ( #5 ) 1> s_a_s ~ tp
+TDD-4320036 word: 0 S_A_S
+TDD-105 may: 0 P T
+TDD2743908 STEEP ( #5 ) 2> 5 steep
+TDD-2743830 word: 4 STEEP
+TDD-78 may: 4 
+TDD-1 question done
+TDD656010 > *
+TDD326685 questioning: ["SPATS", "#1"]
+TDD2946695 SPATS ( #1 ) ? 
+TDD-3929350 guess: SPATS
+TDD151821 SPATS ( #1 ) > 
+TDD1904156 SPATS ( #1 ) 1> spats
+TDD-2055947 word: 0 SPATS
+TDD-70 may: 0 
+TDD1664123 SPATS ( #1 ) 2> ␚
+TDD-1664079 question done
+TDD3143924 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3140876 result: "squareword.org 1240: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1240"
+TDD161760 📆 2025-06-24 ? 
