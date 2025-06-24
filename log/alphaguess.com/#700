@@ -1,0 +1,37 @@
+T0.000256882998655783 now: 2025-06-24T07:53:41EDT
+TD87531 loaded 196557 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (46 words excluded) asof 7678f288087eb351e0748eaff60d9584fe3f6e67
+TDD4853297 [0 : 98236 : 196557] mach? a
+TDD-4940619 progress: 1 98236 mach
+TDD1807628 [98237 : 147398 : 196557] rhumb? a
+TDD-1807760 progress: 1 147398 rhumb
+TDD1567876 [147399 : 171665 : 196557] ta? b
+TDD-1567882 progress: -1 171665 ta
+TDD1519886 [147399 : 159511 : 171665] slop? a
+TDD-1519897 progress: 1 159511 slop
+TDD1431874 [159512 : 165554 : 171665] stick? a
+TDD-1431860 progress: 1 165554 stick
+TDD1463828 [165555 : 168606 : 171665] sue? b
+TDD-1463838 progress: -1 168606 sue
+TDD1512046 [165555 : 167073 : 168606] stuff? b
+TDD-1512047 progress: -1 167073 stuff
+TDD1439746 [165555 : 166313 : 167073] straddle? a
+TDD-1439741 progress: 1 166313 straddle
+TDD2016452 [166314 : 166689 : 167073] stria? b
+TDD-2016444 progress: -1 166689 stria
+TDD1495393 [166314 : 166502 : 166689] stratovolcano? a
+TDD-1321289 progress: 1 166502 stratovolcano
+TDD1307648 [166503 : 166584 : 166689] street? b
+TDD-1481758 progress: -1 166584 street
+TDD1759885 [166503 : 166539 : 166584] streak? b
+TDD-1759860 progress: -1 166539 streak
+TDD1751778 [166503 : 166517 : 166539] straw? it
+TDD-1751800 progress: 0 166517 straw
+TDD-60 [166503 : 166517 : 166539] <Done>.
+TDD2625519 press <Return> to finish
+TDD-2458981 Press <Enter> to 📋 or `>` for line prompt 
+TDD-163516 share result: "\ud83e\udde9 Puzzle #700\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"
+TDD-3018 result puzzle: 700
+TDD-10 result guesses: 13
+TDD-1 result time: 19s
+TDD0 result link: alphaguess.com
+TDD190457 📆 2025-06-24 ? 
