@@ -1,0 +1,45 @@
+T0.00025429400193388574 now: 2025-06-24T08:16:51EDT
+TD42 site: dontwordle.com
+TDD-9 wordlist: nwl2023.txt
+TDD9216178 1> *
+TDD-2143261 1> tried yummy nnnnn
+TDD-7072685 tried: YUMMY n n n n n
+TDD454636 2> *
+TDD16417440 2> tried qajaq nMnnn
+TDD-16872230 tried: QAJAQ n m n n n
+TDD20688183 3> *
+TDD-13379840 3> tried affix Mnnnn
+TDD-7308221 tried: AFFIX m n n n n
+TDD4691460 4> *
+TDD7972247 4> tried roars MnYnn
+TDD-12663832 tried: ROARS m n Y n n
+TDD1223777 5> undo
+TDD-1223808 undo
+TDD695850 4> undo
+TDD-695841 undo
+TDD4952006 3> undo
+TDD-4952024 undo
+TDD656373 2> *
+TDD11783176 2> tried bezel nnnnn
+TDD-12439521 tried: BEZEL n n n n n
+TDD584808 3> *
+TDD6526293 3> tried spiff nnnnn
+TDD-7111113 tried: SPIFF n n n n n
+TDD585530 4> *
+TDD8756742 4> tried convo nnMnn
+TDD-9342268 tried: CONVO n n m n n
+TDD751845 5> *
+TDD6224233 5> * -sans :v r
+TDD3623987 5> tried thank nnYYY
+TDD-10600069 tried: THANK n n Y Y Y
+TDD3921099 6> undo
+TDD-3921127 undo
+TDD3902761 5> * -sans :v r
+TDD24657679 5> tried jawan nMnnM
+TDD-28560393 tried: JAWAN n m n n m
+TDD2271810 6> * -sans
+TDD11216252 6> tried grant nYYYn
+TDD-13488066 tried: GRANT n Y Y Y n
+TDD2199991 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2087775 result: "Don't Wordle 1127 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7572\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2287\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c311\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c33\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe812\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c1\nUndos used: 4\n\n  1 words remaining\nx 5 unused letters\n= 5 total score"
+TDD-86057 📆 2025-06-24 ? 
