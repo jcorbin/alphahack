@@ -1,0 +1,55 @@
+T0.00023076300567481667 now: 2025-06-25T08:21:19EDT
+TD48 site: dontwordle.com
+TDD-18 wordlist: nwl2023.txt
+TDD3603339 1> *
+TDD3140683 1> tried yukky nnnnn
+TDD-6743773 tried: YUKKY n n n n n
+TDD431422 2> *
+TDD10704484 2> tried twixt nnMnn
+TDD-11136062 tried: TWIXT n n m n n
+TDD1487882 3> undo
+TDD-1487927 undo
+TDD3167811 2> *
+TDD5088315 2> tried qajaq nMnnn
+TDD-8256086 tried: QAJAQ n m n n n
+TDD1639713 3> undo
+TDD-1639784 undo
+TDD2887918 2> *
+TDD3984285 2> tried verve nnYnn
+TDD-6872138 tried: VERVE n n Y n n
+TDD1103866 3> undo
+TDD-1103902 undo
+TDD3183697 2> *
+TDD6520388 2> tried doggo Mnnnn
+TDD-9704062 tried: DOGGO m n n n n
+TDD1695790 3> undo
+TDD-1695807 undo
+TDD2775908 2> *
+TDD8840245 2> tried hooch nnnMn
+TDD-11616113 tried: HOOCH n n n m n
+TDD3799916 3> undo
+TDD-3799952 undo
+TDD503726 2> *
+TDD5624342 2> *
+TDD1312055 2> tried noons
+TDD-2952394 2> tried noons nnnnn
+TDD-4487715 tried: NOONS n n n n n
+TDD936115 3> *
+TDD7231866 3> tried peeve nnnnn
+TDD-8167983 tried: PEEVE n n n n n
+TDD495608 4> *
+TDD10616688 4> * sans :v [acid]
+TDD-3376268 4> * -sans :v [ACID]
+TDD4480496 4> * -sans :v [acid]
+TDD1191407 4> tried grrrl nnYnn
+TDD-13407924 tried: GRRRL n n Y n n
+TDD2552028 5> *
+TDD-512398 5> * -sans
+TDD20649050 5> tried mirth nMYnn
+TDD-22688683 tried: MIRTH n m Y n n
+TDD2255628 6> * -sans
+TDD14152789 6> tried farci nMYMM
+TDD-16408401 tried: FARCI n m Y m m
+TDD3872028 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3869385 result: "Don't Wordle 1128 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7806\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1924\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c478\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c39\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c7\n\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe81\nUndos used: 5\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TDD146069 📆 2025-06-25 ? 
