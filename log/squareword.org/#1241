@@ -1,0 +1,170 @@
+T0.00023003300157142803 now: 2025-06-25T08:05:19EDT
+TD54 site: squareword.org
+TDD23268142 🧩  ? #1241
+TDD-23268062 puzzle_id: #1241
+TDD-103 wordlist: nwl2023.txt
+TDD1295844 > *
+TDD4600263 try? 7
+TDD-5894918 questioning: ["TAKES", "#5"]
+TDD197550 TAKES ( #5 ) ? 
+TDD-198721 guess: TAKES
+TDD135862 TAKES ( #5 ) > 
+TDD3376150 TAKES ( #5 ) 1> ___e ~ e
+TDD-3511725 word: 0 ___E_
+TDD-323 may: 0 E
+TDD4167690 TAKES ( #5 ) 2> _a ~ e
+TDD-4167594 word: 1 _A___
+TDD-97 may: 1 E
+TDD1975842 TAKES ( #5 ) 3> ~ a
+TDD-1975640 word: 2 _____
+TDD-202 may: 2 A
+TDD2599856 TAKES ( #5 ) 4> ___e ~ s
+TDD-2599777 word: 3 ___E_
+TDD-81 may: 3 S
+TDD2535952 TAKES ( #5 ) 5> ____s ~ te
+TDD-2535880 word: 4 ____S
+TDD-70 may: 4 E T
+TDD-1 question done
+TDD1735911 > /no k
+TDD-1735765 nope: K
+TDD559721 > *
+TDD7912237 try? 7
+TDD-8471995 questioning: ["CABLE", "#2"]
+TDD575724 CABLE ( #2 ) ? 
+TDD-575799 guess: CABLE
+TDD159907 CABLE ( #2 ) > 
+TDD2864207 CABLE ( #2 ) 1> c__e ~ el
+TDD-3024057 word: 0 C__E_
+TDD-91 may: 0 E L
+TDD3479881 CABLE ( #2 ) 2> _a__e ~ l
+TDD-3479793 word: 1 _A__E
+TDD-87 may: 1 L
+TDD6103911 CABLE ( #2 ) 3> ␚
+TDD-6103843 question done
+TDD807895 > /no b
+TDD-807894 nope: B K
+TDD7823905 > *
+TDD-6939859 questioning: ["LARGE", "#2"]
+TDD2271874 LARGE ( #2 ) ? 
+TDD-3155956 guess: LARGE
+TDD327884 LARGE ( #2 ) > 
+TDD608101 LARGE ( #2 ) 1> 
+TDD880023 LARGE ( #2 ) 2> large
+TDD-1815973 word: 1 LARGE
+TDD-69 may: 1 
+TDD2776119 LARGE ( #2 ) 3> 1 ~ elr
+TDD-2776016 word: 0 C__E_
+TDD-103 may: 0 E L R
+TDD3087600 LARGE ( #2 ) 2> 3 ~ ar
+TDD-3087516 word: 2 _____
+TDD-83 may: 2 A R
+TDD2087975 LARGE ( #2 ) 4> ␚
+TDD-2087936 question done
+TDD1055883 > *
+TDD4728230 try? 1
+TDD-5784043 questioning: ["CRUEL", "#1"]
+TDD167697 CRUEL ( #1 ) ? 
+TDD-167764 guess: CRUEL
+TDD3487934 CRUEL ( #1 ) > cr_el ~ e
+TDD1472204 CRUEL ( #1 ) > 
+TDD-1360167 CRUEL ( #1 ) 1> cr_el ~ e
+TDD-3599929 word: 0 CR_EL
+TDD-85 may: 0 E
+TDD1255867 CRUEL ( #1 ) 2> 
+TDD2648220 CRUEL ( #1 ) 3> ␚
+TDD-3904052 question done
+TDD1031934 > /no u
+TDD-1031895 nope: B K U
+TDD1415777 > *
+TDD1029644 questioning: ["CREEL", "#1"]
+TDD-1386936 CREEL ( #1 ) ? 
+TDD-1058519 guess: CREEL
+TDD183830 CREEL ( #1 ) > 
+TDD3472274 CREEL ( #1 ) 1> 1 creel
+TDD-3656047 word: 0 CREEL
+TDD-99 may: 0 
+TDD4495929 CREEL ( #1 ) 2> 5 __e_s
+TDD-4495838 word: 4 __E_S
+TDD-90 may: 4 T
+TDD-1 question done
+TDD1671832 > *
+TDD12976401 try? 1
+TDD-14648140 questioning: ["MEETS", "#5"]
+TDD8639901 MEETS ( #5 ) ? 5 __ets
+TDD-8639920 guess: MEETS
+TDD-57 word: 4 __ETS
+TDD-17 may: 4 
+TDD-1 question done
+TDD1671911 > *
+TDD5416269 try? 4
+TDD-7088075 questioning: ["AWARD", "#3"]
+TDD447748 AWARD ( #3 ) ? 
+TDD-447800 guess: AWARD
+TDD167825 AWARD ( #3 ) > 
+TDD4344115 AWARD ( #3 ) 1> 3 a__r ~
+TDD-4511914 word: 2 A__R_
+TDD-77 may: 2 
+TDD2399949 AWARD ( #3 ) 4> 3 ~ d
+TDD-2399876 word: 2 A__R_
+TDD-72 may: 2 D
+TDD1800017 AWARD ( #3 ) 4> ~ sd
+TDD-1799941 word: 3 ___E_
+TDD-74 may: 3 D S
+TDD2863809 AWARD ( #3 ) 5> 3 ___ed ~ sd
+TDD-2863738 word: 2 ___ED
+TDD-71 may: 2 D S
+TDD4319955 AWARD ( #3 ) 4> 4 ___ed ~ sd
+TDD-4319890 word: 3 ___ED
+TDD-65 may: 3 D S
+TDD6448059 AWARD ( #3 ) 5> 3 a__r_ ~ d
+TDD-6447979 word: 2 A__R_
+TDD-80 may: 2 D
+TDD3847968 AWARD ( #3 ) 4> ␚
+TDD-3847929 question done
+TDD1303903 > /no wm
+TDD-1303870 nope: B K M U W
+TDD1159843 > *
+TDD13544334 try? 1
+TDD-14704176 questioning: ["NOSED", "#4"]
+TDD719828 NOSED ( #4 ) ? 
+TDD-719869 guess: NOSED
+TDD3167989 NOSED ( #4 ) > 3 ~ dno
+TDD-3167951 word: 2 A__R_
+TDD-68 may: 2 D N O
+TDD6615913 NOSED ( #4 ) 4> 5 _oets
+TDD-6615838 word: 4 _OETS
+TDD-78 may: 4 
+TDD0 question done
+TDD12120088 > adorn
+TDD-12119985 questioning: ["ADORN", "entered"]
+TDD1015852 ADORN ( entered ) ? 
+TDD-1015917 guess: ADORN
+TDD455899 ADORN ( entered ) > 
+TDD912035 ADORN ( entered ) 1> 3 adorn
+TDD-1367900 word: 2 ADORN
+TDD-67 may: 2 
+TDD8344598 ADORN ( entered ) 4> ␚
+TDD-8344564 question done
+TDD639342 > *
+TDD823481 questioning: ["SIDED", "#4"]
+TDD1698439 SIDED ( #4 ) ? 
+TDD-3161262 guess: SIDED
+TDD439839 SIDED ( #4 ) > 
+TDD688097 SIDED ( #4 ) 1> 4 sided
+TDD-1127895 word: 3 SIDED
+TDD-75 may: 3 
+TDD975943 SIDED ( #4 ) 5> ␚
+TDD-975909 question done
+TDD519897 > *
+TDD14896651 > /man 5 _OETS -ABCDGIKLMNRUW
+TDD-14937429 questioning: ["POETS", "#5"]
+TDD3994489 POETS ( #5 ) ? 
+TDD-4473610 guess: POETS
+TDD166856 POETS ( #5 ) > 
+TDD1033210 POETS ( #5 ) 1> 5 poets
+TDD-1200028 word: 4 POETS
+TDD-65 may: 4 
+TDD-3 question done
+TDD6231856 Press <Enter> to 📋 or `>` for line prompt 
+TDD-6229309 result: "squareword.org 1241: 11 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe7\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1241"
+TDD186832 📆 2025-06-25 ? 
