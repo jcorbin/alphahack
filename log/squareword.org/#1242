@@ -1,0 +1,120 @@
+T0.00022350299695972353 now: 2025-06-26T08:47:27EDT
+TD38 site: squareword.org
+TDD128438737 🧩  ? #1242
+TDD-128430283 puzzle_id: #1242
+TDD-8330 wordlist: nwl2023.txt
+TDD96982399 > *
+TDD-91878480 try? 2
+TDD-5102820 questioning: ["STALE", "#5"]
+TDD228820 STALE ( #5 ) ? 
+TDD-229997 guess: STALE
+TDD151928 STALE ( #5 ) > 
+TDD1911875 STALE ( #5 ) 1> s_ ~ sl
+TDD-2063305 word: 0 S____
+TDD-563 may: 0 L S
+TDD2983360 STALE ( #5 ) 2> ____e ~ a
+TDD-2983272 word: 1 ____E
+TDD-93 may: 1 A
+TDD2344494 STALE ( #5 ) 3> ____e ~ a
+TDD-2344417 word: 2 ____E
+TDD-79 may: 2 A
+TDD1991263 STALE ( #5 ) 4> ~ te
+TDD-1991012 word: 3 _____
+TDD-216 may: 3 E T
+TDD1903819 STALE ( #5 ) 5> s__l ~ l
+TDD-1903769 word: 4 S__L_
+TDD-58 may: 4 L
+TDD-23 question done
+TDD2224768 > *
+TDD7086285 try? 1
+TDD-9310935 questioning: ["SHILY", "#5"]
+TDD232554 SHILY ( #5 ) ? 
+TDD-232498 guess: SHILY
+TDD143543 SHILY ( #5 ) > 
+TDD6095795 SHILY ( #5 ) 1> 3 __i_e
+TDD-6239384 word: 2 __I_E
+TDD-129 may: 2 A
+TDD4831672 SHILY ( #5 ) 4> 5 s__ly ~ ly
+TDD-4831569 word: 4 S__LY
+TDD-102 may: 4 L Y
+TDD-1 question done
+TDD3207881 > *
+TDD14944076 try? 4
+TDD-18151855 questioning: ["SLYLY", "#5"]
+TDD2983997 SLYLY ( #5 ) ? 
+TDD-2984068 guess: SLYLY
+TDD192264 SLYLY ( #5 ) > 
+TDD4671325 SLYLY ( #5 ) 1> sl_ 
+TDD-4863535 word: 0 SL___
+TDD-84 may: 0 S
+TDD5368160 SLYLY ( #5 ) 2> 5 slyly
+TDD-5368085 word: 4 SLYLY
+TDD-79 may: 4 
+TDD-1 question done
+TDD22303982 > *
+TDD-22019623 questioning: ["ABIDE", "#3"]
+TDD4199204 ABIDE ( #3 ) ? 
+TDD-4483518 guess: ABIDE
+TDD137362 ABIDE ( #3 ) > 
+TDD909567 ABIDE ( #3 ) 1> 3 abide
+TDD-1046675 word: 2 ABIDE
+TDD-272 may: 2 
+TDD2535152 ABIDE ( #3 ) 4> ~ ted
+TDD-2535084 word: 3 _____
+TDD-90 may: 3 D E T
+TDD12144710 ABIDE ( #3 ) 5> ␚
+TDD-12144624 question done
+TDD1031208 > /no h
+TDD-1031138 nope: H
+TDD1376097 > *
+TDD3591978 try? 
+TDD-4351620 try? 1
+TDD-616317 questioning: ["CANOE", "#2"]
+TDD686724 CANOE ( #2 ) ? 
+TDD-686980 guess: CANOE
+TDD1336836 CANOE ( #2 ) > 2 canoe
+TDD-1336802 word: 1 CANOE
+TDD-74 may: 1 
+TDD2110499 CANOE ( #2 ) 3> ␚
+TDD-2110440 question done
+TDD496274 > *
+TDD52159970 try? 1
+TDD-52656209 questioning: ["DETER", "#4"]
+TDD3808312 DETER ( #4 ) ? 
+TDD-3808364 guess: DETER
+TDD207370 DETER ( #4 ) > 
+TDD4529355 DETER ( #4 ) 1> 4 _ete_ ~ d
+TDD-4736568 word: 3 _ETE_
+TDD-200 may: 3 D
+TDD2015680 DETER ( #4 ) 5> *
+TDD744068 DETER ( #4 ) 5> ␚
+TDD-2759560 question done
+TDD2015951 > /no r
+TDD-2015842 nope: H R
+TDD626457 > *
+TDD883956 questioning: ["METED", "#4"]
+TDD1031054 METED ( #4 ) ? 
+TDD-2541721 guess: METED
+TDD176248 METED ( #4 ) > 
+TDD1383331 METED ( #4 ) 1> 4 meted
+TDD-1559537 word: 3 METED
+TDD-87 may: 3 
+TDD3320864 METED ( #4 ) 5> 1 ~ sm
+TDD-3320787 word: 0 SL___
+TDD-77 may: 0 M S
+TDD1383872 METED ( #4 ) 2> ␚
+TDD-1383723 question done
+TDD647448 > *
+TDD23192273 > /man 1 SL___ ~SM -ABCDEHINORTY
+TDD-23258511 questioning: ["SLUMS", "#1"]
+TDD4597719 SLUMS ( #1 ) ? 
+TDD-5179041 guess: SLUMS
+TDD551365 SLUMS ( #1 ) > 
+TDD1288600 SLUMS ( #1 ) 1> 1 slums
+TDD-1839923 word: 0 SLUMS
+TDD-80 may: 0 
+TDD1976087 SLUMS ( #1 ) 2> ␚
+TDD-1976047 question done
+TDD2656180 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2652700 result: "squareword.org 1242: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1242"
+TDD144475 📆 2025-06-26 ? 
