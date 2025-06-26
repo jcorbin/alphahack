@@ -43,3 +43,95 @@ TDD67846876 [doit:2160]> /res
 TDD-67644995 Press <Enter> to 📋 or `>` for line prompt 
 TDD-189293 result: "\u2728 Spaceword.org Daily 2025-06-26 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 159/262 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD736339 [prior:2160]> /store
+T215.44402687599995 now: 2025-06-26T09:31:56EDT
+TD887620 [prior:2160]> /sea
+TDD219557 search bb0435 [ 1 ]> pr
+TDD-741036 search bb0435 [ 1 may:4 ]> ta
+TDD33259 search bb0435 [ 5 may:0 ]> pr
+TDD-150048 search bb0435 [ 5 may:18 ]> ta
+TDD134066 search bb0435 [ 23 may:0 ]> pr
+TDD-118160 search bb0435 [ 23 may:60 prune:14 ]> ta
+TDD135469 search bb0435 [ 83 may:0 prune:14 ]> pr
+TDD-133058 search bb0435 [ 83 may:166 prune:70 ]> ta
+TDD161731 search bb0435 [ 249 may:0 prune:70 ]> r
+TDD453871 search bb0435 [ 249 may:0 prune:70 ]> pr
+TDD-426837 search bb0435 [ 249 may:382 prune:232 ]> ta
+TDD-63883 search bb0435 [ 631 may:0 prune:232 ]> pr
+TDD121120 search bb0435 [ 631 may:622 prune:610 ]> ta
+TDD180302 search bb0435 [ 1253 may:0 prune:610 ]> pr
+TDD1603254 search bb0435 [ 1253 may:622 prune:1228 ]> cap 1500
+TDD-482599 search bb0435 [ 1253 cap:1500 may:622 prune:1228 ]> ce
+TDD-1257176 search bb0435 [ 1253 cap:1500 may:622 prune:1228 ]> **
+TDD16159976 Z c$_Lq%}Px!Q7Fz#u}VrZFfle&NXpMkwK6oYQos*fBmDg$eS_hAM+h0_@9Y|aEEE{(AL8mlz%Ud500030{{
+TDD-16717113 Z Dk9fOv~v>x00960
+TDD24535791 Z 8iY;)00030{{
+TDD-24536030 Z BHKx{i#PxP00960
+TDD16326108 Z 8ib()00030{{
+TDD-16326080 Z 8ib()00030{{
+TDD9649383 Z 8ib()00030{{
+TDD-9649408 Z 8ib()00030{{
+TDD-54 Z BF#y@{{DWhk*)}b1j1RNAR+|r5`^0#V9o^rV%!D*00960
+TDD8798781 Z BGyUHP})DjA1>wxXN5UJTnP#inEjCou;6lqdC1YlRe>-700030{{
+TDD-8798704 Z B0nuDfWyciVtXjmfr!BIRRB5;DC-yz>`Ge10RR91|Nj
+TDD-65 Z BGE~a{-KCiLwGp?9)%$o5vKr;IA4E1VuA?(00960
+TDD-5 Z 8iY9x00030{{
+TDD-8 Z BGpO$e!*}Xq0t5gkU;WPfTnXKr$xd;$uWW`rvU%}0RR6
+TDD11 Z A~nZ_x{@Dpk-&%}!bt!C00960
+TDD-7 Z BGE~%l%yphodf^?0RR6
+TDD-4 Z A~E8C!4wR435}ct00030{{
+TDD17 Z 8ib`c00030{{
+TDD-20 Z BEw0(a270eBRj;;5#$u8Ln0tzkqD2#SqRUd0{{R30RR6
+TDD91311932 search bb0435 [ 1500 cap:1500 may:4355 prune:440 dead:19 reject:10 done:1 ]> show done
+TDD-89179479 search bb0435 [ 1500 cap:1500 may:4355 prune:440 dead:19 reject:10 done:1 ]> show 1
+TDD1591035 search bb0435 [ 1500 cap:1500 may:4355 prune:440 dead:19 reject:10 done:1 ]> ret
+TDD-3723320 change: 22 
+TDD-177 change: 31 
+TDD-4 change: 22 
+TDD0 change: 32 
+TDD0 change: 22 
+TDD0 change: 33 
+TDD1 change: 22 
+TDD-2 change: 34 
+TDD0 change: 22 
+TDD0 change: 35 
+TDD0 change: 36 O
+TDD0 change: 22 
+TDD0 change: 37 
+TDD0 change: 54 
+TDD0 change: 53 V
+TDD0 change: 55 
+TDD0 change: 54 O
+TDD0 change: 56 E
+TDD1 change: 55 C
+TDD-1 change: 58 
+TDD0 change: 57 T
+TDD0 change: 58 
+TDD0 change: 58 
+TDD0 change: 22 
+TDD0 change: 66 
+TDD0 change: 22 
+TDD0 change: 71 
+TDD0 change: 22 Q
+TDD0 change: 72 
+TDD0 change: 23 U
+TDD7 change: 73 
+TDD-1 change: 24 E
+TDD-4 change: 74 
+TDD0 change: 76 
+TDD0 change: 75 D
+TDD0 change: 76 
+TDD1 change: 76 
+TDD-1 change: 25 E
+TDD0 change: 26 N
+TDD0 change: 27 Y
+TDD0 change: 42 S
+TDD0 change: 46 T
+TDD0 change: 52 A
+TDD0 change: 62 X
+TDD0 change: 65 A
+TDD0 change: 67 O
+TDD0 change: 77 M
+TDD55042947 [prior:2160 bet:2164]> /res
+TDD-54787198 Press <Enter> to 📋 or `>` for line prompt 
+TDD-247099 result: "\u2728 Spaceword.org Daily 2025-06-26 \u2728\n\n\ud83c\udfc6 Score: 2164\n\ud83c\udfc5 Rank: 144/264 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +64\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD758055 [prior:2164]> /store
