@@ -1,0 +1,31 @@
+T0.00023920399689814076 now: 2025-06-26T08:46:25EDT
+TD88049 loaded 196557 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (46 words excluded) asof c02abc97e390608cfa643c7ad73be338ed7a8cf5
+TDD14700983 [0 : 98236 : 196557] mach? b
+TDD-14788856 progress: -1 98236 mach
+TDD1775533 [0 : 47396 : 98236] dis? a
+TDD-1775635 progress: 1 47396 dis
+TDD1559658 [47397 : 72816 : 98236] gremolata? a
+TDD-1559670 progress: 1 72816 gremolata
+TDD1679887 [72817 : 85521 : 98236] ins? a
+TDD-1679888 progress: 1 85521 ins
+TDD1440190 [85522 : 91866 : 98236] knot? a
+TDD-1440194 progress: 1 91866 knot
+TDD1503763 [91867 : 94963 : 98236] lib? b
+TDD-1503754 progress: -1 94963 lib
+TDD1575982 [91867 : 93286 : 94963] lar? b
+TDD-1575986 progress: -1 93286 lar
+TDD1535985 [91867 : 92443 : 93286] lac? a
+TDD-1535983 progress: 1 92443 lac
+TDD1839760 [92444 : 92819 : 93286] lam? a
+TDD-1839640 progress: 1 92819 lam
+TDD1672037 [92820 : 93018 : 93286] land? it
+TDD-1672123 progress: 0 93018 land
+TDD-84 [92820 : 93018 : 93286] <Done>.
+TDD2863377 press <Return> to finish
+TDD-2694838 Press <Enter> to 📋 or `>` for line prompt 
+TDD-164703 share result: "\ud83e\udde9 Puzzle #702\n\n\ud83e\udd14 10 guesses\n\n\u23f1\ufe0f 18s\n\n\ud83d\udd17 alphaguess.com"
+TDD-3825 result puzzle: 702
+TDD-16 result guesses: 10
+TDD-1 result time: 18s
+TDD0 result link: alphaguess.com
+TDD164273 📆 2025-06-26 ? 
