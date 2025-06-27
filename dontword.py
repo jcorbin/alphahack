@@ -258,8 +258,12 @@ class DontWord(StoredLog):
         chooser = Chooser(show_n=show_n)
 
         while ui.tokens:
-            if chooser.collect(ui.tokens):
-                continue
+            try:
+                if chooser.collect(ui.tokens):
+                    continue
+            except re.PatternError as err:
+                ui.print(f'! {err}')
+                return
 
             match = ui.tokens.have(r'-(v+)')
             if match:
