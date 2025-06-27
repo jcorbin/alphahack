@@ -1,0 +1,42 @@
+T0.00022355799592332914 now: 2025-06-27T09:33:03EDT
+TD60180 loaded 196557 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (46 words excluded) asof a9c917ac6c4ae46b302ce761b4abb7c2826f8de8
+TDD5891386 [0 : 98236 : 196557] mach? b
+TDD-5951045 progress: -1 98236 mach
+TDD1552748 [0 : 47396 : 98236] dis? b
+TDD-1553054 progress: -1 47396 dis
+TDD1522631 [0 : 23695 : 47396] camp? b
+TDD-1522532 progress: -1 23695 camp
+TDD1450270 [0 : 11771 : 23695] back? 
+TDD-870293 [0 : 11771 : 23695] back? a
+TDD-580133 progress: 1 11771 back
+TDD1591189 [11772 : 17726 : 23695] blind? a
+TDD-1591084 progress: 1 17726 blind
+TDD1569686 [17727 : 20698 : 23695] brill? a
+TDD-1569640 progress: 1 20698 brill
+TDD1609937 [20699 : 22038 : 23695] bur? b
+TDD-1610041 progress: -1 22038 bur
+TDD1583766 [20699 : 21368 : 22038] bryologists? a
+TDD-1583755 progress: 1 21368 bryologists
+TDD1910424 [21369 : 21698 : 22038] bulk? b
+TDD-1910468 progress: -1 21698 bulk
+TDD1516693 [21369 : 21524 : 21698] budge? b
+TDD-1516579 progress: -1 21524 budge
+TDD1675907 [21369 : 21430 : 21524] buck? a
+TDD-1675974 progress: 1 21430 buck
+TDD3517643 [21431 : 21476 : 21524] buckra? b
+TDD-3517621 progress: -1 21476 buckra
+TDD1656230 [21431 : 21448 : 21476] bucket? a
+TDD-1656268 progress: 1 21448 bucket
+TDD1507238 [21449 : 21462 : 21476] buckhounds? a
+TDD-1507230 progress: 1 21462 buckhounds
+TDD1853756 [21463 : 21465 : 21476] buckle? it
+TDD-1853776 progress: 0 21465 buckle
+TDD-160 [21463 : 21465 : 21476] <Done>.
+TDD2291853 press <Return> to finish
+TDD-2104670 Press <Enter> to 📋 or `>` for line prompt 
+TDD-184610 share result: "\ud83e\udde9 Puzzle #703\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 25s\n\n\ud83d\udd17 alphaguess.com"
+TDD-2578 result puzzle: 703
+TDD-14 result guesses: 15
+TDD-2 result time: 25s
+TDD0 result link: alphaguess.com
+TDD255965 📆 2025-06-27 ? 
