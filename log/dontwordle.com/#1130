@@ -1,0 +1,48 @@
+T0.00020034100452903658 now: 2025-06-27T09:46:12EDT
+TD34 site: dontwordle.com
+TDD-8 wordlist: nwl2023.txt
+TDD12394554 1> *
+TDD-3080350 1> tried puppy nnnnn
+TDD-9313746 tried: PUPPY n n n n n
+TDD873292 2> *
+TDD8075730 2> tried nanna nnnnY
+TDD-8949187 tried: NANNA n n n n Y
+TDD1222377 3> undo
+TDD-1222533 undo
+TDD3927126 2> *
+TDD13467189 2> tried tests YMnYn
+TDD-17394154 tried: TESTS Y m n Y n
+TDD1211121 3> undo
+TDD-1211351 undo
+TDD2857277 2> *
+TDD5168875 2> tried hooch Mnnnn
+TDD-8026019 tried: HOOCH m n n n n
+TDD1091579 3> undo
+TDD-1091661 undo
+TDD4289333 2> *
+TDD1787868 2> tried immix nnnnn
+TDD-6077043 tried: IMMIX n n n n n
+TDD590773 3> *
+TDD7754849 3> tried orzos nnnnn
+TDD-8345778 tried: ORZOS n n n n n
+TDD450246 4> *
+TDD977565 4> *
+TDD4264360 4> * -sans :v [aeh]
+TDD535623 4> * -sans :v [aet]
+TDD442169 4> * -sans :v [aht
+T0.04096942600153852 now: 2025-06-27T09:50:01EDT
+TD9186218 4> * -sans :v [aht]
+TDD5132452 4> * -sans :v [aht] -top 10
+TDD9506639 4> tried effed Mnnnn
+TDD-23825015 tried: EFFED m n n n n
+TDD9034309 5> * -sans :v [aht] -top 10
+TDD1812984 5> tried kvell nnYnn
+TDD-10847230 tried: KVELL n n Y n n
+TDD3377027 6> * -sans :v [aht] -top 10
+TDD5365944 6> * -sans :v [at] -top 10
+TDD-5189507 6> * -sans 
+TDD14514110 6> tried agent MnYnM
+TDD-18067594 tried: AGENT m n Y n m
+TDD3839639 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3831921 result: "Don't Wordle 1130 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7572\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4131\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c576\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c119\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c11\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe82\nUndos used: 3\n\n  2 words remaining\nx 6 unused letters\n= 12 total score"
+TDD164950 📆 2025-06-27 ? 
