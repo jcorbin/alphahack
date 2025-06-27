@@ -1,0 +1,118 @@
+T0.00022136599727673456 now: 2025-06-27T09:33:59EDT
+TD35 site: squareword.org
+TDD13509416 🧩  ? #1243
+TDD-13509109 puzzle_id: #1243
+TDD-310 wordlist: nwl2023.txt
+TDD3976003 > *
+TDD-401037 try? 
+TDD-3405268 try? 
+TDD1206834 try? 1
+TDD-1374244 questioning: ["STARE", "#5"]
+TDD231065 STARE ( #5 ) ? 
+TDD-233226 guess: STARE
+TDD122683 STARE ( #5 ) > 
+TDD1348842 STARE ( #5 ) 1> __a
+TDD-1470755 word: 0 __A__
+TDD-899 may: 0 
+TDD1383501 STARE ( #5 ) 2> ~ ae
+TDD-1383044 word: 1 _____
+TDD-467 may: 1 A E
+TDD1600771 STARE ( #5 ) 3> ~ are
+TDD-1600560 word: 2 _____
+TDD-209 may: 2 A E R
+TDD2909061 STARE ( #5 ) 4> ___r ~ tae
+TDD-2908690 word: 3 ___R_
+TDD-354 may: 3 A E T
+TDD2644183 STARE ( #5 ) 5> ~ ste
+TDD-2643941 word: 4 _____
+TDD-250 may: 4 E S T
+TDD0 question done
+TDD1941541 > *
+TDD3621396 try? 2
+TDD-5562667 questioning: ["EXTRA", "#4"]
+TDD261926 EXTRA ( #4 ) ? 
+TDD-262055 guess: EXTRA
+TDD144821 EXTRA ( #4 ) > 
+TDD2367872 EXTRA ( #4 ) 1> 
+TDD206686 EXTRA ( #4 ) 2> ____a
+TDD-2719304 word: 1 ____A
+TDD-205 may: 1 E
+TDD5270925 EXTRA ( #4 ) 3> e_ ~ are
+TDD-5270734 word: 2 E____
+TDD-179 may: 2 A E R
+TDD4294123 EXTRA ( #4 ) 4> ␚
+TDD-4294034 question done
+TDD713304 > /no x
+TDD-713128 nope: X
+TDD408147 > *
+TDD9121031 try? 2
+TDD-9529228 questioning: ["ALERT", "#4"]
+TDD809568 ALERT ( #4 ) ? 
+TDD-809728 guess: ALERT
+TDD187753 ALERT ( #4 ) > 
+TDD2081041 ALERT ( #4 ) 1> _la
+TDD-2268793 word: 0 _LA__
+TDD-98 may: 0 
+TDD5643592 ALERT ( #4 ) 2> 4 a_ert
+TDD-5643369 word: 3 A_ERT
+TDD-212 may: 3 
+TDD4510435 ALERT ( #4 ) 5> ~ stel
+TDD-4510231 word: 4 _____
+TDD-202 may: 4 E L S T
+TDD-2 question done
+T0.04159844300011173 now: 2025-06-27T09:36:26EDT
+TD1524900 > *
+TDD-610554 questioning: ["AVERT", "#4"]
+TDD2603679 AVERT ( #4 ) ? 
+TDD-3517920 guess: AVERT
+TDD147432 AVERT ( #4 ) > 
+TDD1112512 AVERT ( #4 ) 1> 4 avert
+TDD-1259199 word: 3 AVERT
+TDD-819 may: 3 
+TDD9604756 AVERT ( #4 ) 5> ␚
+TDD-9604633 question done
+TDD6339020 > *
+TDD-5892745 questioning: ["EAGER", "#3"]
+TDD2755121 EAGER ( #3 ) ? 
+TDD-3201365 guess: EAGER
+TDD187687 EAGER ( #3 ) > 
+TDD1145599 EAGER ( #3 ) 1> 3 eager
+TDD-1333094 word: 2 EAGER
+TDD-342 may: 2 
+TDD6287896 EAGER ( #3 ) 4> ␚
+TDD-6287804 question done
+TDD649688 > *
+TDD9493478 try? 1
+TDD-10142828 questioning: ["HENNA", "#2"]
+TDD293586 HENNA ( #2 ) ? 
+TDD-293833 guess: HENNA
+TDD125150 HENNA ( #2 ) > 
+TDD1579082 HENNA ( #2 ) 1> 2 henna
+TDD-1704154 word: 1 HENNA
+TDD-271 may: 1 
+TDD8775734 HENNA ( #2 ) 3> 5 _e
+TDD-8775613 word: 4 _E___
+TDD-134 may: 4 L S T
+TDD-2 question done
+TDD1118240 > *
+TDD-141869 questioning: ["CLAIM", "#1"]
+TDD4594172 CLAIM ( #1 ) ? 
+TDD-5570417 guess: CLAIM
+TDD135111 CLAIM ( #1 ) > 
+TDD871364 CLAIM ( #1 ) 1> 1 claim
+TDD-1006293 word: 0 CLAIM
+TDD-274 may: 0 
+TDD3427153 CLAIM ( #1 ) 2> ␚
+TDD-3427071 question done
+TDD426721 > *
+TDD370383 questioning: ["PELTS", "#5"]
+TDD4443542 PELTS ( #5 ) ? 
+TDD-5240661 guess: PELTS
+TDD131901 PELTS ( #5 ) > 
+TDD2395311 PELTS ( #5 ) 1> 5 pelts
+TDD-2527042 word: 4 PELTS
+TDD-253 may: 4 
+TDD0 question done
+TDD6435800 Press <Enter> to 📋 or `>` for line prompt 
+TDD-6430578 result: "squareword.org 1243: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1243"
+TDD136815 📆 2025-06-27 ? 
