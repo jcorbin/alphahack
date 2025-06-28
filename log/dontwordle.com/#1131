@@ -1,0 +1,40 @@
+T0.0002851750032277778 now: 2025-06-28T08:32:50EDT
+TD49 site: dontwordle.com
+TDD-13 wordlist: nwl2023.txt
+TDD1189429 1> *
+TDD5325033 1> tried civic nnnnn
+TDD-6514257 tried: CIVIC n n n n n
+TDD761969 2> *
+TDD9894165 2> tried kudzu nYnnn
+TDD-10656268 tried: KUDZU n Y n n n
+TDD2012375 3> undo
+TDD-2012304 undo
+TDD3534609 2> *
+TDD2886715 2> tried babka nnnnn
+TDD-6421250 tried: BABKA n n n n n
+TDD987263 3> *
+TDD5504337 3> tried jeeze Ynnnn
+TDD-6491589 tried: JEEZE Y n n n n
+TDD918450 4> undo
+TDD-918469 undo
+TDD3005588 3> *
+TDD3276107 3> tried feeze nnnnn
+TDD-6281726 tried: FEEZE n n n n n
+TDD746904 4> *
+TDD6626562 4> tried phpht nnnnM
+TDD-7373144 tried: PHPHT n n n n m
+TDD1682924 5> *
+TDD11808930 5> tried toots nMnYn
+TDD-13492133 tried: TOOTS n m n Y n
+TDD843608 6> undo
+TDD-843700 undo
+TDD4776227 5> *
+TDD23165620 5> tried xysts nnnYn
+TDD-27941799 tried: XYSTS n n n Y n
+TDD1147284 6> *
+TDD1030800 6> * -sans
+TDD10852275 6> tried motto nnnYY
+TDD-13030365 tried: MOTTO n n n Y Y
+TDD2877953 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2869217 result: "Don't Wordle 1131 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7600\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3125\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1096\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8184\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c5\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 9 unused letters\n= 9 total score"
+TDD133180 📆 2025-06-28 ? 
