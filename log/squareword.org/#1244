@@ -1,0 +1,139 @@
+T0.00017727298836689442 now: 2025-06-28T08:22:59EDT
+TD37 site: squareword.org
+TDD2303212 🧩  ? #1244
+TDD-2302926 puzzle_id: #1244
+TDD-290 wordlist: nwl2023.txt
+TDD1082379 > *
+TDD2721887 try? 2
+TDD-3800714 questioning: ["TEARS", "#5"]
+TDD235963 TEARS ( #5 ) ? 
+TDD-239434 guess: TEARS
+TDD157886 TEARS ( #5 ) > 
+TDD2620916 TEARS ( #5 ) 1> __a ~ ts
+TDD-2777308 word: 0 __A__
+TDD-1536 may: 0 S T
+TDD1823182 TEARS ( #5 ) 2> ~ ar
+TDD-1822500 word: 1 _____
+TDD-708 may: 1 A R
+TDD1041121 TEARS ( #5 ) 3> 
+TDD1220034 TEARS ( #5 ) 4> t_ ~ e
+TDD-2260814 word: 3 T____
+TDD-336 may: 3 E
+TDD2249027 TEARS ( #5 ) 5> ~ ters
+TDD-2248780 word: 4 _____
+TDD-251 may: 4 E R S T
+TDD-2 question done
+TDD1335297 > *
+TDD14643476 try? 1
+TDD-15978392 questioning: ["STREP", "#5"]
+TDD578764 STREP ( #5 ) ? 
+TDD-579049 guess: STREP
+TDD160657 STREP ( #5 ) > 
+TDD2537728 STREP ( #5 ) 1> sta
+TDD-2698280 word: 0 STA__
+TDD-213 may: 0 
+TDD5012486 STREP ( #5 ) 2> 5 st_e
+TDD-5012205 word: 4 ST_E_
+TDD-279 may: 4 R
+TDD-4 question done
+TDD5105425 > strep
+TDD-5105316 questioning: ["STREP", "entered"]
+TDD5115007 STREP ( entered ) > 5 st_e ~ er
+TDD-5114939 word: 4 ST_E_
+TDD-186 may: 4 E R
+TDD-3 question done
+TDD14645449 > ␚
+TDD-14645360 <EOF>
+T0.04696854899520986 now: 2025-06-28T08:24:10EDT
+TD965522 > /no p
+TDD-964877 nope: P
+TDD1134005 > *
+TDD23848 questioning: ["STEER", "#5"]
+TDD1496621 STEER ( #5 ) ? 
+TDD-2655032 guess: STEER
+TDD184594 STEER ( #5 ) > 
+TDD4956786 STEER ( #5 ) 1> 2 ____r ~ ar
+TDD-5140936 word: 1 ____R
+TDD-511 may: 1 A R
+TDD4176145 STEER ( #5 ) 3> 5 steer
+TDD-4175430 word: 4 STEER
+TDD-604 may: 4 
+TDD-42 question done
+TDD1524896 > *
+TDD2906806 try? 2
+TDD-4431154 questioning: ["STAND", "#1"]
+TDD200004 STAND ( #1 ) ? 
+TDD-200477 guess: STAND
+TDD135659 STAND ( #1 ) > 
+TDD1166619 STAND ( #1 ) 1> stand
+TDD-1302220 word: 0 STAND
+TDD-188 may: 0 
+TDD3895765 STAND ( #1 ) 2> ␚
+TDD-3895674 question done
+TDD498674 > *
+TDD10140351 try? 3
+TDD-10638872 questioning: ["TITLE", "#4"]
+TDD1939872 TITLE ( #4 ) ? 
+TDD-1940018 guess: TITLE
+TDD163210 TITLE ( #4 ) > 
+TDD2454855 TITLE ( #4 ) 1> 3 ~ l
+TDD-2617670 word: 2 _____
+TDD-486 may: 2 L
+TDD6396653 TITLE ( #4 ) 4> t__le ~ l
+TDD-6396589 word: 3 T__LE
+TDD-97 may: 3 L
+TDD1927410 TITLE ( #4 ) 5> /no i
+TDD109049 TITLE ( #4 ) 5> ␚
+TDD-2036361 question done
+TDD909259 > /no i
+TDD-909084 nope: I P
+TDD2619605 > *
+TDD-1409040 questioning: ["TULLE", "#4"]
+TDD4381044 TULLE ( #4 ) ? 
+TDD-5591783 guess: TULLE
+TDD578202 TULLE ( #4 ) > 
+TDD1850461 TULLE ( #4 ) 1> 4 tulle
+TDD-2428550 word: 3 TULLE
+TDD-195 may: 3 
+TDD2054733 TULLE ( #4 ) 5> ␚
+TDD-2054664 question done
+TDD524750 > *
+TDD5256500 try? 
+TDD-4704807 try? 1
+TDD-1076265 questioning: ["ARMOR", "#2"]
+TDD1169890 ARMOR ( #2 ) ? 
+TDD-1170010 guess: ARMOR
+TDD1587561 ARMOR ( #2 ) > 2 amor
+TDD-1587574 word: 1 AMORR
+TDD-122 may: 1 
+TDD1596129 ARMOR ( #2 ) 3> ~ lo
+TDD-1595900 word: 2 _____
+TDD-220 may: 2 L O
+TDD1933851 ARMOR ( #2 ) 4> ␚
+TDD-1933687 question done
+TDD516156 > *
+TDD15704726 > armor
+TDD-16220856 questioning: ["ARMOR", "entered"]
+TDD1171429 ARMOR ( entered ) > 2 armor
+TDD-1171494 word: 1 ARMOR
+TDD-132 may: 1 
+TDD2713098 ARMOR ( entered ) 3> ␚
+TDD-2713004 question done
+TDD781844 > *
+TDD5304964 try? 1
+TDD-6086803 questioning: ["LOBBY", "#3"]
+TDD214548 LOBBY ( #3 ) ? 
+TDD-214429 guess: LOBBY
+TDD138029 LOBBY ( #3 ) > 
+TDD2329958 LOBBY ( #3 ) 1> 3 lobby
+TDD-2468114 word: 2 LOBBY
+TDD-95 may: 2 
+TDD6980258 LOBBY ( #3 ) 4> 
+TDD-6796740 LOBBY ( #3 ) 5> 
+TDD-183400 question done
+TDD187930 Press <Enter> to 📋 or `>` for line prompt 
+TDD934212 Press <Enter> to 📋 or `>` for line prompt 
+TDD-857727 Press <Enter> to 📋 or `>` for line prompt 
+TDD1959742 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2215919 result: "squareword.org 1244: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1244"
+TDD155947 📆 2025-06-28 ? 
