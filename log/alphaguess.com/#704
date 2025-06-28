@@ -1,0 +1,37 @@
+T0.0003316899965284392 now: 2025-06-28T08:21:48EDT
+TD79707 loaded 196557 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (46 words excluded) asof ecf615fab66ba0a27b7afdc4a5a5dcc774da16cb
+TDD1998234 [0 : 98236 : 196557] mach? b
+TDD-2077215 progress: -1 98236 mach
+TDD1526550 [0 : 47396 : 98236] dis? b
+TDD-1527094 progress: -1 47396 dis
+TDD3516457 [0 : 23695 : 47396] camp? a
+TDD-3516433 progress: 1 23695 camp
+TDD11731630 [23696 : 35539 : 47396] convention? b
+TDD-11731657 progress: -1 35539 convention
+TDD1565404 [23696 : 29617 : 35539] circuit? b
+TDD-1565385 progress: -1 29617 circuit
+TDD1603818 [23696 : 26649 : 29617] cep? b
+TDD-1603773 progress: -1 26649 cep
+TDD1578185 [23696 : 25117 : 26649] carp? a
+TDD-1578130 progress: 1 25117 carp
+TDD1417382 [25118 : 25599 : 26649] cat? a
+TDD-1417448 progress: 1 25599 cat
+TDD1608191 [25600 : 26116 : 26649] cava? b
+TDD-1608155 progress: -1 26116 cava
+TDD1565617 [25600 : 25858 : 26116] catfaces? a
+TDD-1565670 progress: 1 25858 catfaces
+TDD1838899 [25859 : 25985 : 26116] cattie? a
+TDD-1838975 progress: 1 25985 cattie
+TDD1708999 [25986 : 26031 : 26116] caul? a
+TDD-1708920 progress: 1 26031 caul
+TDD1896252 [26032 : 26069 : 26116] cause? it
+TDD-1896289 progress: 0 26069 cause
+TDD-145 [26032 : 26069 : 26116] <Done>.
+TDD4383655 press <Return> to finish
+TDD-4199449 Press <Enter> to 📋 or `>` for line prompt 
+TDD-179488 share result: "\ud83e\udde9 Puzzle #704\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 32s\n\n\ud83d\udd17 alphaguess.com"
+TDD-4704 result puzzle: 704
+TDD-36 result guesses: 13
+TDD-4 result time: 32s
+TDD0 result link: alphaguess.com
+TDD179540 📆 2025-06-28 ? 
