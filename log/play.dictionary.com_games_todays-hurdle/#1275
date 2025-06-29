@@ -1,0 +1,61 @@
+T0.0002995060058310628 now: 2025-06-29T10:47:26EDT
+TD52 site: https://play.dictionary.com/games/todays-hurdle
+TDD-12 wordlist: nwl2023.txt
+TDD854993 1.1> *
+TDD9325375 1.1> tried tales nnnnM
+TDD-10180054 tried: TALES n n n n m
+TDD572520 1.2> *
+TDD8595980 1.2> tried spiny YnnMn
+TDD-9168477 tried: SPINY Y n n m n
+TDD512871 1.3> *
+TDD5939868 1.3> word sworn
+TDD-6452934 tried: SWORN Y Y Y Y Y
+TDD5904300 2.1> tried sworn nnnYM
+TDD-5904327 tried: SWORN n n n Y m
+TDD594155 2.2> *
+TDD6473941 2.2> tried inert nYmYm
+TDD-7067961 tried: INERT n Y m Y m
+TDD947531 2.3> *
+TDD3511661 2.3> word entry
+TDD-4459291 tried: ENTRY Y Y Y Y Y
+TDD8924969 3.1> tried entry nnnMn
+TDD-8925029 tried: ENTRY n n n m n
+TDD2596392 3.2> *
+TDD5304258 3.2> tried scrap MMMnY
+TDD-7900460 tried: SCRAP m m m n Y
+TDD697869 3.3> *
+TDD7975270 3.3> tried crips YYYmm
+TDD-7900460 tried: CRIPS Y Y Y m m
+TDD10 3.4> word crisp
+TDD10 tried: CRISP Y Y Y Y Y
+TDD14310303 4.1> tried crisp nnnMM
+TDD-14310375 tried: CRISP n n n m m
+TDD2374085 4.2> *
+TDD7511685 4.2> tried spale YYMMn
+TDD-9885656 tried: SPALE Y Y m m n
+TDD386566 <INT>
+T0.04368156401324086 now: 2025-06-29T10:50:58EDT
+TD2292129 4.3> *
+TDD6807658 4.3> tried splay YYYYn
+TDD-9099143 tried: SPLAY Y Y Y Y n
+TDD5621437 4.4> word splat
+TDD-5621907 tried: SPLAT Y Y Y Y Y
+TDD11999948 5.1> tried sworn nnMnM
+TDD-11999760 tried: SWORN n n m n m
+TDD4566214 5.2> tried entry nMnnn
+TDD-4566149 tried: ENTRY n m n n n
+TDD5496898 5.3> tried crisp nnnnn
+TDD-5497100 tried: CRISP n n n n n
+TDD4168427 5.4> tried splat nnnnn
+TDD-4168393 tried: SPLAT n n n n n
+TDD598001 5.5> *
+TDD9751365 5.5> tried mound nYYYY
+TDD-10349416 tried: MOUND n Y Y Y Y
+TDD554336 5.6> *
+TDD13712595 5.6> tried bound nYYYY
+TDD-14266822 tried: BOUND n Y Y Y Y
+TDD1475648 5.7> fail found
+TDD-1475854 fail: 
+TDD5889771 Press <Enter> to 📋 or `>` for line prompt 
+TDD-5882957 result: "Hurdle 1275\n\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 5,080"
+TDD148020 📆 2025-06-29 ? 
