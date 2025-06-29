@@ -1,0 +1,35 @@
+T0.0003665100084617734 now: 2025-06-29T10:32:02EDT
+TD72652 loaded 196557 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (46 words excluded) asof 8993c5f3ec76bc1d26d5b20049f19ca651540561
+TDD4850704 [0 : 98236 : 196557] mach? b
+TDD-4922867 progress: -1 98236 mach
+TDD1532598 [0 : 47396 : 98236] dis? a
+TDD-1532964 progress: 1 47396 dis
+TDD1406430 [47397 : 72816 : 98236] gremolata? a
+TDD-1406395 progress: 1 72816 gremolata
+TDD1728232 [72817 : 85521 : 98236] ins? a
+TDD-1728137 progress: 1 85521 ins
+TDD1661224 [85522 : 91866 : 98236] knot? a
+TDD-1661332 progress: 1 91866 knot
+TDD1657964 [91867 : 94963 : 98236] lib? a
+TDD-1657933 progress: 1 94963 lib
+TDD1957113 [94964 : 96596 : 98236] locks? b
+TDD-1957152 progress: -1 96596 locks
+TDD1881567 [94964 : 95593 : 96596] lin? a
+TDD-1881448 progress: 1 95593 lin
+TDD1887241 [95594 : 96080 : 96596] literal? b
+TDD-1887324 progress: -1 96080 literal
+TDD1605413 [95594 : 95827 : 96080] lion? b
+TDD-1605423 progress: -1 95827 lion
+TDD1496732 [95594 : 95685 : 95827] ling? b
+TDD-1496530 progress: -1 95685 ling
+TDD1733848 [95594 : 95617 : 95685] line? it
+TDD-1734019 progress: 0 95617 line
+TDD-156 [95594 : 95617 : 95685] <Done>.
+TDD2222771 press <Return> to finish
+TDD-2023812 Press <Enter> to 📋 or `>` for line prompt 
+TDD-192981 share result: "\ud83e\udde9 Puzzle #705\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 18s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5950 result puzzle: 705
+TDD-52 result guesses: 12
+TDD-4 result time: 18s
+TDD-1 result link: alphaguess.com
+TDD160642 📆 2025-06-29 ? 
