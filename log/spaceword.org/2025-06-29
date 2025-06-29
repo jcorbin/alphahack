@@ -50,3 +50,51 @@ TDD632941 [doit:2152]> /res
 TDD-224382 Press <Enter> to 📋 or `>` for line prompt 
 TDD-401515 result: "\u2728 Spaceword.org Daily 2025-06-29 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 198/283 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD1293214 [prior:2152]> /store
+T366.14727260702057 now: 2025-06-29T11:01:09EDT
+TD1137496 [prior:2152]> /sea
+TDD-708259 search 61dd11 [ 1 ]> pr
+TDD-166988 search 61dd11 [ 1 may:2 ]> ta
+TDD130870 search 61dd11 [ 3 may:0 ]> pr
+TDD-109475 search 61dd11 [ 3 may:4 ]> ta
+TDD150234 search 61dd11 [ 7 may:0 ]> pr
+TDD115065 search 61dd11 [ 7 may:12 prune:6 ]> ta
+TDD-123419 search 61dd11 [ 19 may:0 prune:6 ]> pr
+TDD-98281 search 61dd11 [ 19 may:24 prune:20 ]> ta
+TDD84281 search 61dd11 [ 43 may:0 prune:20 ]> pr
+TDD-38009 search 61dd11 [ 43 may:38 prune:48 ]> ta
+TDD42383 search 61dd11 [ 81 may:0 prune:48 ]> pr
+TDD-76610 search 61dd11 [ 81 may:52 prune:90 ]> ta
+TDD74974 search 61dd11 [ 133 may:0 prune:90 ]> pr
+TDD-87502 search 61dd11 [ 133 may:52 prune:146 ]> ta
+TDD65307 search 61dd11 [ 185 may:0 prune:146 ]> pr
+TDD-51035 search 61dd11 [ 185 may:52 prune:202 ]> ta
+TDD75079 search 61dd11 [ 237 may:0 prune:202 ]> pr
+TDD-34707 search 61dd11 [ 237 may:52 prune:258 ]> ta
+TDD33564 search 61dd11 [ 289 may:0 prune:258 ]> pr
+TDD-91029 search 61dd11 [ 289 may:52 prune:314 ]> ta
+TDD1835654 search 61dd11 [ 341 may:0 prune:314 ]> cap 1500
+TDD-1581056 search 61dd11 [ 341 cap:1500 may:0 prune:314 ]> **
+TDD-310830 Z c$_Lq%}Px!Q7Fz#u`)AENij53NXpMkwK6oYQosUy{KH&>p=?(LXBaCm)YH!u#Pag=4fgi~u^i!gBC#2S4*&oF0RR6
+TDD626278 Z DjIxF0ssI2|Nj
+TDD-893906 Z BGE~%Vg4{S=}rn(APN8g00960
+TDD-49 Z B0ZF7?j!&J00960
+TDD16 Z BF#w(3Sn>-sZR3o4~BaOF8}}l0RR6
+TDD6779432 search 61dd11 [ 518 cap:1500 may:1001 prune:1201 dead:10 reject:4 done:3 ]> show done
+TDD-4901186 search 61dd11 [ 518 cap:1500 may:1001 prune:1201 dead:10 reject:4 done:3 ]> show 1
+TDD14757162 search 61dd11 [ 518 cap:1500 may:1001 prune:1201 dead:10 reject:4 done:3 ]> ret
+TDD-16634933 change: 82 
+TDD-479 change: 20 
+TDD-21 change: 82 
+TDD0 change: 21 
+TDD-4 change: 82 
+TDD1 change: 23 
+TDD-3 change: 82 
+TDD7 change: 24 
+TDD-7 change: 82 S
+TDD-2 change: 83 O
+TDD0 change: 84 L
+TDD0 change: 85 E
+TDD627974 [prior:2152 bet:2158]> /res
+TDD-440811 Press <Enter> to 📋 or `>` for line prompt 
+TDD-180806 result: "\u2728 Spaceword.org Daily 2025-06-29 \u2728\n\n\ud83c\udfc6 Score: 2158\n\ud83c\udfc5 Rank: 177/283 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +58\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD774999 [prior:2158]> /store
