@@ -1,0 +1,149 @@
+T0.00017855101032182574 now: 2025-06-30T07:58:36EDT
+TD37 site: squareword.org
+TDD6110336 🧩  ? #1246
+TDD-6110233 puzzle_id: #1246
+TDD-128 wordlist: nwl2023.txt
+TDD1969966 > *
+TDD3719100 try? 1
+TDD-5685931 questioning: ["AISLE", "#5"]
+TDD238769 AISLE ( #5 ) ? 
+TDD-241783 guess: AISLE
+TDD132259 AISLE ( #5 ) > 
+TDD879873 AISLE ( #5 ) 1> 
+TDD1313956 AISLE ( #5 ) 2> 1 ~ ai
+TDD-2325647 word: 0 _____
+TDD-556 may: 0 A I
+TDD3514375 AISLE ( #5 ) 2> a___e
+TDD-3514182 word: 1 A___E
+TDD-192 may: 1 
+TDD2307999 AISLE ( #5 ) 3> ~ le
+TDD-2307740 word: 2 _____
+TDD-252 may: 2 E L
+TDD2805762 AISLE ( #5 ) 4> ~ as
+TDD-2805369 word: 3 _____
+TDD-381 may: 3 A S
+TDD3599636 AISLE ( #5 ) 5> ___le ~ s
+TDD-3599407 word: 4 ___LE
+TDD-245 may: 4 S
+TDD0 question done
+TDD1457720 > *
+TDD12960038 try? 5
+TDD-14417463 questioning: ["STYLE", "#5"]
+TDD1390363 STYLE ( #5 ) ? 
+TDD-1390569 guess: STYLE
+TDD613628 STYLE ( #5 ) > 
+TDD6625835 STYLE ( #5 ) 1> ~ ait
+TDD-7239386 word: 0 _____
+TDD-166 may: 0 A I T
+TDD2132024 STYLE ( #5 ) 2> 
+TDD-561649 STYLE ( #5 ) 3> 
+TDD506669 STYLE ( #5 ) 4> ~ ast
+TDD-2076833 word: 3 _____
+TDD-211 may: 3 A S T
+TDD1813918 STYLE ( #5 ) 5> style
+TDD-1813756 word: 4 STYLE
+TDD-159 may: 4 
+TDD0 question done
+TDD13622594 > *
+TDD-3818786 try? 3
+TDD-9803421 questioning: ["TACOS", "#4"]
+TDD455007 TACOS ( #4 ) ? 
+TDD-455301 guess: TACOS
+TDD175178 TACOS ( #4 ) > 
+TDD3662121 TACOS ( #4 ) 1> __a ~ it
+TDD-3837235 word: 0 __A__
+TDD-160 may: 0 I T
+TDD4211102 TACOS ( #4 ) 2> 1 _a ~ it
+TDD-4210829 word: 0 _AA__
+TDD-267 may: 0 I T
+TDD4557013 TACOS ( #4 ) 2> 1 _a___ ~ it
+TDD-4556813 word: 0 _A___
+TDD-204 may: 0 I T
+TDD3317293 TACOS ( #4 ) 2> ~ o
+TDD-3317081 word: 1 A___E
+TDD-212 may: 1 O
+TDD3373741 TACOS ( #4 ) 3> ~ leo
+TDD-3373397 word: 2 _____
+TDD-320 may: 2 E L O
+TDD4381837 TACOS ( #4 ) 4> t___s ~ a
+TDD-4381529 word: 3 T___S
+TDD-319 may: 3 A
+TDD3004357 TACOS ( #4 ) 5> /no c
+TDD-1714724 TACOS ( #4 ) 5> 
+TDD-1289552 question done
+TDD956539 > /no c
+TDD-956489 nope: C
+TDD1101409 > *
+TDD6890928 try? 5
+TDD-7992082 questioning: ["PAINT", "#1"]
+TDD778435 PAINT ( #1 ) ? 
+TDD-778709 guess: PAINT
+TDD245794 PAINT ( #1 ) > 
+TDD4632192 PAINT ( #1 ) 1> _a__t
+TDD-4877784 word: 0 _A__T
+TDD-316 may: 0 I
+TDD3201447 PAINT ( #1 ) 2> 
+TDD-1190321 PAINT ( #1 ) 3> ~ leon
+TDD-2010940 word: 2 _____
+TDD-195 may: 2 E L N O
+TDD4175210 PAINT ( #1 ) 4> 
+TDD-3589699 PAINT ( #1 ) 5> 
+TDD-585424 question done
+TDD1735337 > /no p
+TDD-1735262 nope: C P
+TDD901388 > *
+TDD5422437 try? 
+TDD-5580470 try? 2
+TDD-743298 questioning: ["HABIT", "#1"]
+TDD483187 HABIT ( #1 ) ? 
+TDD-483285 guess: HABIT
+TDD219831 HABIT ( #1 ) > 
+TDD927951 HABIT ( #1 ) 1> habit
+TDD-1147573 word: 0 HABIT
+TDD-268 may: 0 
+TDD2259692 HABIT ( #1 ) 2> ~ ob
+TDD-2259441 word: 1 A___E
+TDD-293 may: 1 B O
+TDD2797641 HABIT ( #1 ) 3> ␚
+TDD-2797471 question done
+TDD531570 > *
+TDD1510399 questioning: ["ABODE", "#2"]
+TDD699709 ABODE ( #2 ) ? 
+TDD-2741732 guess: ABODE
+TDD204379 ABODE ( #2 ) > 
+TDD1752453 ABODE ( #2 ) 1> 2 abode
+TDD-1956769 word: 1 ABODE
+TDD-197 may: 1 
+TDD5703679 ABODE ( #2 ) 3> 4 ~ an
+TDD-5703520 word: 3 T___S
+TDD-164 may: 3 A N
+TDD2446488 ABODE ( #2 ) 5> ␚
+TDD-2446337 question done
+TDD534533 > *
+TDD1045437 questioning: ["LONER", "#3"]
+TDD1850674 LONER ( #3 ) ? 
+TDD-3430628 guess: LONER
+TDD178580 LONER ( #3 ) > 
+TDD403933 LONER ( #3 ) 1> 
+TDD-80766 LONER ( #3 ) 2> 
+TDD3454956 LONER ( #3 ) 3> loner
+TDD-3956788 word: 2 LONER
+TDD-94 may: 2 
+TDD5778943 LONER ( #3 ) 4> t_n_s ~ a
+TDD-5778735 word: 3 T_N_S
+TDD-194 may: 3 A
+TDD8404820 LONER ( #3 ) 5> ␚
+TDD-8404719 question done
+TDD881508 > *
+TDD136529 questioning: ["TUNAS", "#4"]
+TDD2156524 TUNAS ( #4 ) ? 
+TDD-3174549 guess: TUNAS
+TDD385026 TUNAS ( #4 ) > 
+TDD1224884 TUNAS ( #4 ) 1> 4 tunas
+TDD-1609702 word: 3 TUNAS
+TDD-317 may: 3 
+TDD739167 TUNAS ( #4 ) 5> ␚
+TDD-739023 question done
+TDD3309610 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3301530 result: "squareword.org 1246: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1246"
+TDD154817 📆 2025-06-30 ? 
