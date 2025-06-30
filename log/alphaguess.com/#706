@@ -1,0 +1,40 @@
+T0.00020435400074347854 now: 2025-06-30T07:57:19EDT
+TD66330 loaded 196557 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (46 words excluded) asof e397bc3b0baa3df69384fd032290f29bacc980d9
+TDD6175429 [0 : 98236 : 196557] mach? a
+TDD-6241097 progress: 1 98236 mach
+TDD1565417 [98237 : 147398 : 196557] rhumb? a
+TDD-1565788 progress: 1 147398 rhumb
+TDD1553547 [147399 : 171665 : 196557] ta? b
+TDD-1553622 progress: -1 171665 ta
+TDD1450183 [147399 : 159511 : 171665] slop? b
+TDD-1450172 progress: -1 159511 slop
+TDD1502984 [147399 : 153342 : 159511] sea? a
+TDD-1502995 progress: 1 153342 sea
+TDD1366407 [153343 : 156378 : 159511] ship? a
+TDD-1366397 progress: 1 156378 ship
+TDD1372618 [156379 : 157907 : 159511] sim? b
+TDD-1372678 progress: -1 157907 sim
+TDD4449957 [156379 : 157143 : 157907] shrub? b
+TDD-4449927 progress: -1 157143 shrub
+TDD14796240 [156379 : 156761 : 157143] shop? b
+TDD-14796282 progress: -1 156761 shop
+TDD1923178 [156379 : 156570 : 156761] shlemiel? a
+TDD-1923045 progress: 1 156570 shlemiel
+TDD2062927 [156571 : 156665 : 156761] shod? b
+TDD-2062951 progress: -1 156665 shod
+TDD1758292 [156571 : 156616 : 156665] shmo? a
+TDD-1758196 progress: 1 156616 shmo
+TDD1706919 [156617 : 156639 : 156665] shoal? a
+TDD-1707082 progress: 1 156639 shoal
+TDD2749466 [156640 : 156652 : 156665] shochu? !
+TDD530659 [156640 : 156653 : 156664] shock? it
+TDD-3280057 progress: 0 156653 shock
+TDD-227 [156640 : 156653 : 156664] <Done>.
+TDD4197153 press <Return> to finish
+TDD-4006439 Press <Enter> to 📋 or `>` for line prompt 
+TDD-185389 share result: "\ud83e\udde9 Puzzle #706\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 41s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5311 result puzzle: 706
+TDD-30 result guesses: 14
+TDD-5 result time: 41s
+TDD-1 result link: alphaguess.com
+TDD613657 📆 2025-06-30 ? 
