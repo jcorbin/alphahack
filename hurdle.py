@@ -192,6 +192,7 @@ class Search(StoredLog):
         if len(word) != self.size:
             ui.print(f'! wrong sized fail word; must be {self.size} got {len(word)}')
             return
+        self.fail_text = word
         ui.log(f'fail: {self.fail_text}')
         self.apply_failed(word)
         return self.finish
