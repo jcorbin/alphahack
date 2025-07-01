@@ -1,0 +1,105 @@
+T0.0001745409972500056 now: 2025-07-01T16:03:33EDT
+TD37 site: squareword.org
+TDD3939259 🧩  ? #1247
+TDD-3938710 puzzle_id: #1247
+TDD-532 wordlist: nwl2023.txt
+TDD1086253 > *
+TDD4361393 try? 3
+TDD-5444260 questioning: ["HEARS", "#5"]
+TDD213615 HEARS ( #5 ) ? 
+TDD-216899 guess: HEARS
+TDD135589 HEARS ( #5 ) > 
+TDD2346507 HEARS ( #5 ) 1> _e ~ e
+TDD-2481256 word: 0 _E___
+TDD-968 may: 0 E
+TDD2570771 HEARS ( #5 ) 2> ~ ea
+TDD-2570224 word: 1 _____
+TDD-549 may: 1 A E
+TDD3096884 HEARS ( #5 ) 3> _e_r ~ e
+TDD-3096507 word: 2 _E_R_
+TDD-366 may: 2 E
+TDD2664019 HEARS ( #5 ) 4> __a ~ e
+TDD-2663942 word: 3 __A__
+TDD-103 may: 3 E
+TDD3688441 HEARS ( #5 ) 5> ____s ~ ear
+TDD-3688265 word: 4 ____S
+TDD-164 may: 4 A E R
+TDD0 question done
+TDD1840696 > /no h
+TDD-1840401 nope: H
+TDD601315 > *
+TDD3851269 try? 1
+TDD-4452633 questioning: ["IMAGE", "#4"]
+TDD1343886 IMAGE ( #4 ) ? 
+TDD-1343957 guess: IMAGE
+TDD205842 IMAGE ( #4 ) > 
+TDD3956024 IMAGE ( #4 ) 1> 
+TDD-2585634 IMAGE ( #4 ) 2> ~ eai
+TDD-1576123 word: 1 _____
+TDD-278 may: 1 A E I
+TDD2154219 IMAGE ( #4 ) 3> 
+TDD5004303 IMAGE ( #4 ) 4> _ma ~ ei
+TDD-7158377 word: 3 _MA__
+TDD-154 may: 3 E I
+TDD10874691 IMAGE ( #4 ) 5> 3 _e_re ~ g
+TDD-10874543 word: 2 _E_RE
+TDD-142 may: 2 G
+TDD7061441 IMAGE ( #4 ) 4> ␚
+TDD-7061245 question done
+TDD537057 > *
+TDD159222 questioning: ["GENRE", "#3"]
+TDD2259301 GENRE ( #3 ) ? 
+TDD-2955708 guess: GENRE
+TDD171992 GENRE ( #3 ) > 
+TDD1479888 GENRE ( #3 ) 1> 3 genre
+TDD-1651873 word: 2 GENRE
+TDD-92 may: 2 
+TDD7643315 GENRE ( #3 ) 4> ␚
+TDD-7643215 question done
+TDD606080 > *
+TDD-13274 questioning: ["ADIEU", "#2"]
+TDD2683717 ADIEU ( #2 ) ? 
+TDD-3276486 guess: ADIEU
+TDD241885 ADIEU ( #2 ) > 
+TDD2063940 ADIEU ( #2 ) 1> 2 adieu
+TDD-2305783 word: 1 ADIEU
+TDD-159 may: 1 
+TDD5950343 ADIEU ( #2 ) 3> 1 _e_e ~ d
+TDD-5950111 word: 0 _E_E_
+TDD-235 may: 0 D
+TDD6546239 ADIEU ( #2 ) 2> 5 ___es ~ ard
+TDD-6545949 word: 4 ___ES
+TDD-287 may: 4 A D R
+TDD-2 question done
+TDD1856916 > *
+TDD317111 questioning: ["EMAIL", "#4"]
+TDD1359497 EMAIL ( #4 ) ? 
+TDD-3533401 guess: EMAIL
+TDD197438 EMAIL ( #4 ) > 
+TDD1614366 EMAIL ( #4 ) 1> 4 email
+TDD-1811575 word: 3 EMAIL
+TDD-347 may: 3 
+TDD2648654 EMAIL ( #4 ) 5> ␚
+TDD-2648598 question done
+TDD494610 > *
+TDD1335054 questioning: ["CEDED", "#1"]
+TDD1535882 CEDED ( #1 ) ? 
+TDD-3365542 guess: CEDED
+TDD252232 CEDED ( #1 ) > 
+TDD1458955 CEDED ( #1 ) 1> ceded
+TDD-1711083 word: 0 CEDED
+TDD-175 may: 0 
+TDD646710 CEDED ( #1 ) 2> ␚
+TDD-646575 question done
+TDD612438 > *
+TDD449001 questioning: ["DARES", "#5"]
+TDD1953635 DARES ( #5 ) ? 
+TDD-3015049 guess: DARES
+TDD212486 DARES ( #5 ) > 
+TDD2278319 DARES ( #5 ) 1> 5 dares
+TDD-2490812 word: 4 DARES
+TDD-150 may: 4 
+TDD-4 question done
+TDD6175155 Press <Enter> to 📋 or `>` for line prompt 
+TDD-6171893 result: "squareword.org 1247: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1247"
+TDD159500 📆 2025-07-01 ? 
