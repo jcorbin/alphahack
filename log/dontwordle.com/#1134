@@ -1,0 +1,45 @@
+T0.00018068801728077233 now: 2025-07-01T16:11:16EDT
+TD40 site: dontwordle.com
+TDD-15 wordlist: nwl2023.txt
+TDD1732377 1> *
+TDD5996759 1> tried mimic nnnnn
+TDD-7728934 tried: MIMIC n n n n n
+TDD1562927 2> *
+TDD8295460 2> tried kudzu nMnnn
+TDD-9858366 tried: KUDZU n m n n n
+TDD1008166 3> undo
+TDD-1008284 undo
+TDD2745694 2> *
+TDD6575476 2> tried kabab nnMnn
+TDD-9320911 tried: KABAB n n m n n
+TDD1083383 3> undo
+TDD-1083665 undo
+TDD2729559 2> *
+TDD6616973 2> tried eases nnnnY
+TDD-9346379 tried: EASES n n n n Y
+TDD981895 3> undo
+TDD-982011 undo
+TDD4944374 2> *
+TDD4087230 2> *
+TDD922967 2> tried erred nnnnn
+TDD-9954492 tried: ERRED n n n n n
+TDD611703 3> *
+TDD10147964 3> tried phpht nnnnn
+TDD-10759604 tried: PHPHT n n n n n
+TDD526678 4> *
+TDD1603739 4> *
+TDD3628241 4> * -sans :v [bs]
+TDD2928402 4> * -sans :v [bu] -top 10
+TDD13962342 4> tried savvy Mnnnn
+TDD-22649456 tried: SAVVY m n n n n
+TDD8566416 5> * -sans :v b
+TDD-811621 5> * -sans :v b -top 10
+TDD3368456 5> * -sans :v s$ :v b
+TDD2303121 5> tried kusso nMMnM
+TDD-13426510 tried: KUSSO n m m n m
+TDD2016590 6> * -sans
+TDD12266966 6> tried fouls nYMnY
+TDD-14283384 tried: FOULS n Y m n Y
+TDD3123099 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3117137 result: "Don't Wordle 1134 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6772\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1944\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c838\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c143\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe812\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe94\nUndos used: 3\n\n  4 words remaining\nx 8 unused letters\n= 32 total score"
+TDD243287 📆 2025-07-01 ? 
