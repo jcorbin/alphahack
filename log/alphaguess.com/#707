@@ -1,0 +1,44 @@
+T0.00023412200971506536 now: 2025-07-01T16:01:41EDT
+TD61856 loaded 196556 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (47 words excluded) asof 9b4e44c1e8bdc7c7acdd3e4bfbab2fd041e8d8f1
+TDD2585278 [0 : 98236 : 196556] mach? a
+TDD-2646753 progress: 1 98236 mach
+TDD1693922 [98237 : 147393 : 196556] rhotic? a
+TDD-1694096 progress: 1 147393 rhotic
+TDD1539594 [147394 : 171664 : 196556] ta? b
+TDD-1539608 progress: -1 171664 ta
+TDD1528364 [147394 : 159510 : 171664] slop? b
+TDD-1528350 progress: -1 159510 slop
+TDD1590371 [147394 : 153342 : 159510] sea? a
+TDD-1590408 progress: 1 153342 sea
+TDD1499718 [153343 : 156378 : 159510] ship? b
+TDD-1499703 progress: -1 156378 ship
+TDD1441121 [153343 : 154857 : 156378] sequence? a
+TDD-1441085 progress: 1 154857 sequence
+TDD1501201 [154858 : 155456 : 156378] sha? b
+TDD-1501244 progress: -1 155456 sha
+TDD1387066 [154858 : 155153 : 155456] serve? a
+TDD-1387038 progress: 1 155153 serve
+TDD1982575 [155154 : 155292 : 155456] sever? b
+TDD-1982601 progress: -1 155292 sever
+TDD1910255 [155154 : 155223 : 155292] sestertius? a
+TDD-1910238 progress: 1 155223 sestertius
+T0.24122738698497415 now: 2025-07-01T16:02:35EDT
+TD1936115 [155224 : 155253 : 155292] sett? a
+TDD-1935416 progress: 1 155253 sett
+TDD2167548 [155254 : 155273 : 155292] setulose? b
+TDD-2167987 progress: -1 155273 setulose
+TDD2782871 [155254 : 155260 : 155273] settle? b
+TDD-2782831 progress: -1 155260 settle
+TDD1944206 [155254 : 155257 : 155260] setters? a
+TDD-1944339 progress: 1 155257 setters
+TDD2247191 [155258 : 155259 : 155260] settings? b
+TDD-2247175 progress: -1 155259 settings
+TDD-154 [155258 : 155258 : 155259] <Done>.
+TDD5175169 press <Return> to finish
+TDD-5006389 Press <Enter> to 📋 or `>` for line prompt 
+TDD-163114 share result: "\ud83e\udde9 Puzzle #707\n\n\ud83e\udd14 20 guesses\n\n\u23f1\ufe0f 1m 5s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5652 result puzzle: 707
+TDD-27 result guesses: 20
+TDD-4 result time: 1m 5s
+TDD-1 result link: alphaguess.com
+TDD193735 📆 2025-07-01 ? 
