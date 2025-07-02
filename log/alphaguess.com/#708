@@ -1,0 +1,35 @@
+T0.00021930900402367115 now: 2025-07-02T08:17:47EDT
+TD65716 loaded 196556 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (47 words excluded) asof 5a7b6aa488730e7b67e3660dd2fced056c969726
+TDD13739642 [0 : 98236 : 196556] mach? b
+TDD-13805173 progress: -1 98236 mach
+TDD1435457 [0 : 47396 : 98236] dis? a
+TDD-1435352 progress: 1 47396 dis
+TDD1471384 [47397 : 72816 : 98236] gremolata? b
+TDD-1471429 progress: -1 72816 gremolata
+TDD1711703 [47397 : 60099 : 72816] face? a
+TDD-1711699 progress: 1 60099 face
+TDD1486466 [60100 : 66455 : 72816] french? b
+TDD-1486477 progress: -1 66455 french
+TDD1429770 [60100 : 63255 : 66455] flag? a
+TDD-1429825 progress: 1 63255 flag
+TDD1645327 [63256 : 64852 : 66455] foment? a
+TDD-1645344 progress: 1 64852 foment
+TDD1619045 [64853 : 65651 : 66455] format? b
+TDD-1619032 progress: -1 65651 format
+TDD1393019 [64853 : 65181 : 65651] fore? a
+TDD-1392889 progress: 1 65181 fore
+TDD1348523 [65182 : 65377 : 65651] fores? a
+TDD-1348661 progress: 1 65377 fores
+TDD1323655 [65378 : 65511 : 65651] forfeit? a
+TDD-1323638 progress: 1 65511 forfeit
+TDD1940402 [65512 : 65581 : 65651] fork? it
+TDD-1940400 progress: 0 65581 fork
+TDD-151 [65512 : 65581 : 65651] <Done>.
+TDD2514772 press <Return> to finish
+TDD-2329178 Press <Enter> to 📋 or `>` for line prompt 
+TDD-178797 share result: "\ud83e\udde9 Puzzle #708\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 18s\n\n\ud83d\udd17 alphaguess.com"
+TDD-6786 result puzzle: 708
+TDD-35 result guesses: 12
+TDD-4 result time: 18s
+TDD0 result link: alphaguess.com
+TDD204032 📆 2025-07-02 ? 
