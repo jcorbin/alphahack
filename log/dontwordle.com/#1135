@@ -1,0 +1,43 @@
+T0.00018437497783452272 now: 2025-07-02T08:25:35EDT
+TD38 site: dontwordle.com
+TDD-11 wordlist: nwl2023.txt
+TDD2978515 1> *
+TDD2111094 1> tried boffo nnnnn
+TDD-5089034 tried: BOFFO n n n n n
+TDD725341 2> *
+TDD5314751 2> tried kayak nMnnn
+TDD-6040474 tried: KAYAK n m n n n
+TDD2750964 3> undo
+TDD-2751042 undo
+TDD2925489 2> 8
+TDD-2211362 2> *
+TDD9217836 2> tried reeve nnnnn
+TDD-9931881 tried: REEVE n n n n n
+TDD530511 3> *
+TDD8947464 3> tried husks MnMnn
+TDD-9477946 tried: HUSKS m n m n n
+TDD847761 4> undo
+TDD-847787 undo
+TDD2414744 3> *
+TDD5707219 3> tried ictic nnMnn
+TDD-8121955 tried: ICTIC n n m n n
+TDD1242543 4> undo
+TDD-1242618 undo
+TDD2695598 3> *
+TDD2757990 3> tried immix nnnnn
+TDD-5453383 tried: IMMIX n n n n n
+TDD578529 4> *
+TDD5925212 4> tried junky nnnnn
+TDD-6503917 tried: JUNKY n n n n n
+TDD648189 5> *
+TDD8729894 5> * -sans :v [ahs]
+TDD-3737753 5> * -sans :v [aht]
+TDD8388967 5> * -sans :v [hst]
+TDD520013 5> tried pzazz nnYnn
+TDD-14549238 tried: PZAZZ n n Y n n
+TDD3978291 6> * -sans :v [st]
+TDD4629556 6> tried clach nMYnM
+TDD-8607898 tried: CLACH n m Y n m
+TDD3108646 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3101464 result: "Don't Wordle 1135 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7320\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2497\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1117\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c222\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c62\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe84\nUndos used: 3\n\n  4 words remaining\nx 6 unused letters\n= 24 total score"
+TDD145357 📆 2025-07-02 ? 
