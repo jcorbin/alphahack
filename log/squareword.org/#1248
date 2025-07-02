@@ -1,0 +1,112 @@
+T0.0001843710197135806 now: 2025-07-02T08:19:04EDT
+TD37 site: squareword.org
+TDD8291224 🧩  ? #1248
+TDD-8291064 puzzle_id: #1248
+TDD-182 wordlist: nwl2023.txt
+TDD1569549 > *
+TDD2793628 try? 6
+TDD-4360364 questioning: ["ALERT", "#5"]
+TDD405208 ALERT ( #5 ) ? 
+TDD-407919 guess: ALERT
+TDD147030 ALERT ( #5 ) > 
+TDD1529852 ALERT ( #5 ) 1> ~ rt
+TDD-1675927 word: 0 _____
+TDD-1041 may: 0 R T
+TDD1838665 ALERT ( #5 ) 2> a_ ~ e
+TDD-1838403 word: 1 A____
+TDD-261 may: 1 E
+TDD1721494 ALERT ( #5 ) 3> ~ a
+TDD-1721376 word: 2 _____
+TDD-136 may: 2 A
+TDD1749615 ALERT ( #5 ) 4> ~ er
+TDD-1749260 word: 3 _____
+TDD-332 may: 3 E R
+TDD2254323 ALERT ( #5 ) 5> __e_t
+TDD-2254163 word: 4 __E_T
+TDD-179 may: 4 
+TDD3 question done
+TDD1845992 > /no l
+TDD-1845528 nope: L
+TDD1364110 > *
+TDD2576191 try? 1
+TDD-3940486 questioning: ["SCENT", "#5"]
+TDD170546 SCENT ( #5 ) ? 
+TDD-170789 guess: SCENT
+TDD183237 SCENT ( #5 ) > 
+TDD2980433 SCENT ( #5 ) 1> ~ rts
+TDD-3163543 word: 0 _____
+TDD-161 may: 0 R S T
+TDD2918256 SCENT ( #5 ) 2> ~ esn
+TDD-2918089 word: 1 A____
+TDD-167 may: 1 E N S
+TDD3183405 SCENT ( #5 ) 3> ___n ~ a
+TDD-3183185 word: 2 ___N_
+TDD-215 may: 2 A
+TDD19780483 SCENT ( #5 ) 4> 
+TDD-17793059 SCENT ( #5 ) 5> s_ent
+TDD-1987333 word: 4 S_ENT
+TDD-100 may: 4 
+TDD0 question done
+TDD2350717 > *
+TDD15782 try? ␚
+TDD-988128 > /no c
+TDD-1378130 nope: C L
+TDD657304 > *
+TDD3579045 try? 1
+TDD-4236334 questioning: ["ASHEN", "#2"]
+TDD343129 ASHEN ( #2 ) ? 
+TDD-343243 guess: ASHEN
+TDD1574006 ASHEN ( #2 ) > 2 ashen
+TDD-1573917 word: 1 ASHEN
+TDD-220 may: 1 
+TDD19705500 ASHEN ( #2 ) 3> ␚
+TDD-19705337 question done
+TDD1295833 > *
+TDD4930392 try? 1
+TDD-6226131 questioning: ["SPENT", "#5"]
+TDD310950 SPENT ( #5 ) ? 
+TDD-311161 guess: SPENT
+TDD158182 SPENT ( #5 ) > 
+TDD3441481 SPENT ( #5 ) 1> 5 spent
+TDD-3599495 word: 4 SPENT
+TDD-214 may: 4 
+TDD-1 question done
+TDD746072 > *
+TDD1461382 questioning: ["GUANO", "#3"]
+TDD1599099 GUANO ( #3 ) ? 
+TDD-3806442 guess: GUANO
+TDD340001 GUANO ( #3 ) > 
+TDD1439544 GUANO ( #3 ) 1> _u
+TDD-1779461 word: 0 _U___
+TDD-187 may: 0 R S T
+TDD4119192 GUANO ( #3 ) 2> 4 ~ ero
+TDD-4119023 word: 3 _____
+TDD-170 may: 3 E O R
+TDD3515129 GUANO ( #3 ) 5> 3 guano
+TDD-3515065 word: 2 GUANO
+TDD-85 may: 2 
+TDD2427016 GUANO ( #3 ) 4> ␚
+TDD-2426801 question done
+TDD507954 > *
+TDD1110831 questioning: ["RUSTS", "#1"]
+TDD1166137 RUSTS ( #1 ) ? 
+TDD-2784971 guess: RUSTS
+TDD184210 RUSTS ( #1 ) > 
+TDD1043172 RUSTS ( #1 ) 1> rusts
+TDD-1227218 word: 0 RUSTS
+TDD-294 may: 0 
+TDD4681864 RUSTS ( #1 ) 2> ␚
+TDD-4681582 question done
+TDD1142836 > *
+TDD21078 questioning: ["ERROR", "#4"]
+TDD1891326 ERROR ( #4 ) ? 
+TDD-3055506 guess: ERROR
+TDD163287 ERROR ( #4 ) > 
+TDD1127185 ERROR ( #4 ) 1> 4 error
+TDD-1290319 word: 3 ERROR
+TDD-185 may: 3 
+TDD1506926 ERROR ( #4 ) 5> ␚
+TDD-1506871 question done
+TDD3486659 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3481135 result: "squareword.org 1248: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1248"
+TDD180925 📆 2025-07-02 ? 
