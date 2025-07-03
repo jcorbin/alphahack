@@ -2162,15 +2162,8 @@ class Search:
             return
         self.verbose = verbose
 
-        prog = PromptUI.Chain(
-            self.nom_op('*', self.generate),
-            self.may_op(
-                lambda ui: 'done' in self.halos or 'may' not in self.halos,
-                'Auto Generation Finished',
-                self),
-            self.nom_op('T', self.do_take),
-            self.nom_op('C', self.do_center),
-        )
+        # TODO maybe parse program
+        prog = self.auto_mod.compile('*?TC')
 
         def monitor(state: PromptUI.State):
             def mon(ui: PromptUI):
@@ -2844,6 +2837,33 @@ class Search:
                     ui.fin()
                 return then
         return may_state
+
+    def nom_ops(self, *nomops: tuple[str, PromptUI.State]):
+        for nom, op in nomops:
+            yield nom, self.NomOp(self, nom, op)
+
+    @final
+    class Module:
+        def __init__(self, *ops: tuple[str, PromptUI.State]):
+            self.ops = dict(ops)
+
+        def compile(self, src: str, *then: PromptUI.State):
+            return PromptUI.Chain(*(self.ops[op] for op in src), *then)
+
+        def extend(self, *ops: tuple[str, PromptUI.State]):
+            return self.__class__(*chain(self.ops.items(), ops))
+
+    @property
+    def auto_mod(self):
+        return self.Module(*self.nom_ops(
+            ('*', self.generate),
+            ('C', self.do_center),
+            ('T', self.do_take),
+            ('?', self.may_op(
+                lambda ui: 'done' in self.halos or 'may' not in self.halos,
+                'Auto Generation Finished',
+                self)),
+        ))
 
 @final
 class Halo:
