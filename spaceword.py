@@ -2164,6 +2164,19 @@ class Search:
 
         # TODO maybe parse program
         prog = self.auto_mod.compile('*?TC')
+        if self.board.done:
+            expand = prog
+            sub = self.auto_mod.extend(*self.nom_ops(
+                ('?', self.may_op(
+                    lambda ui: 'may' not in self.halos,
+                    'Prune exhausted',
+                    expand)),
+                ('_', self.may_op(
+                    lambda ui: len(self.frontier) >= self.frontier_cap // 2,
+                    lambda ui: f'Reduced {len(self.frontier)} boards, expanding',
+                    expand)),
+            ))
+            prog = sub.compile('P?TC_')
 
         def monitor(state: PromptUI.State):
             def mon(ui: PromptUI):
@@ -2858,6 +2871,7 @@ class Search:
         return self.Module(*self.nom_ops(
             ('*', self.generate),
             ('C', self.do_center),
+            ('P', self.do_prune),
             ('T', self.do_take),
             ('?', self.may_op(
                 lambda ui: 'done' in self.halos or 'may' not in self.halos,
