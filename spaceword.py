@@ -2821,25 +2821,30 @@ class Search:
     def nom_op(self, nom: str, op: PromptUI.State):
         return self.NomOp(self, nom, op)
 
+    def may_op(self,
+               when: Callable[[PromptUI], bool],
+               mess: Callable[[PromptUI], str]|str,
+               then: PromptUI.State,
+               ):
+        def may_state(ui: PromptUI):
+            if when(ui):
+                if self.verbose:
+                    ui.print(mess(ui) if callable(mess) else mess)
+                else:
+                    ui.fin()
+                return then
+        return may_state
+
     def auto_generate_do(self, ui: PromptUI):
-        if not self.verbose: ui.write('*')
-        st = self.generate(ui)
-        if st is not None: return st
-
-        if self.halos.get('done'): return self.auto_generate_fin
-        if not self.halos.get('may'): return self.auto_generate_fin
-
         return PromptUI.Chain(
+            self.nom_op('*', self.generate),
+            self.may_op(
+                lambda ui: 'done' in self.halos or 'may' not in self.halos,
+                'Auto Generation Finished',
+                self),
             self.nom_op('T', self.do_take),
             self.nom_op('C', self.do_center),
         )(ui)
-
-    def auto_generate_fin(self, ui: PromptUI):
-        if self.verbose:
-            ui.print('Auto Generation Finished')
-        else:
-            ui.fin()
-        return self
 
 @final
 class Halo:
