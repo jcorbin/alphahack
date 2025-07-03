@@ -1,0 +1,115 @@
+T0.00022716500097885728 now: 2025-07-03T06:48:16EDT
+TD46 site: squareword.org
+TDD6274721 🧩  ? #1249
+TDD-6274600 puzzle_id: #1249
+TDD-155 wordlist: nwl2023.txt
+TDD1772931 > *
+TDD1777064 try? 2
+TDD-3546862 questioning: ["EARNS", "#5"]
+TDD256118 EARNS ( #5 ) ? 
+TDD-259207 guess: EARNS
+TDD160186 EARNS ( #5 ) > 
+TDD1980205 EARNS ( #5 ) 1> ~ s
+TDD-2139117 word: 0 _____
+TDD-1303 may: 0 S
+TDD1138249 EARNS ( #5 ) 2> ~ rn
+TDD-1137949 word: 1 _____
+TDD-292 may: 1 N R
+TDD1752953 EARNS ( #5 ) 3> ~ s
+TDD-1752644 word: 2 _____
+TDD-293 may: 2 S
+TDD1463750 EARNS ( #5 ) 4> ~ es
+TDD-1463690 word: 3 _____
+TDD-102 may: 3 E S
+TDD1527646 EARNS ( #5 ) 5> ~ es
+TDD-1527557 word: 4 _____
+TDD-89 may: 4 E S
+TDD0 question done
+TDD1239287 > /no a
+TDD-1239129 nope: A
+TDD554553 > *
+TDD7478539 try? 4
+TDD-8033079 questioning: ["INCUR", "#2"]
+TDD269423 INCUR ( #2 ) ? 
+TDD-269491 guess: INCUR
+TDD171902 INCUR ( #2 ) > 
+TDD2803290 INCUR ( #2 ) 1> ~ si
+TDD-2975152 word: 0 _____
+TDD-132 may: 0 I S
+TDD2627268 INCUR ( #2 ) 2> in_ ~ r
+TDD-2627168 word: 1 IN___
+TDD-107 may: 1 R
+TDD3238010 INCUR ( #2 ) 3> 4 ~ esu
+TDD-3237748 word: 3 _____
+TDD-239 may: 3 E S U
+TDD1742863 INCUR ( #2 ) 5> 
+TDD-1742729 question done
+TDD1357076 > /no c
+TDD-1357054 nope: A C
+TDD107861706 > *
+TDD-103198068 try? 1
+TDD-4663585 questioning: ["INTRO", "#2"]
+TDD507728 INTRO ( #2 ) ? 
+TDD-507777 guess: INTRO
+TDD137592 INTRO ( #2 ) > 
+TDD1705168 INTRO ( #2 ) 1> 2 intro
+TDD-1842752 word: 1 INTRO
+TDD-184 may: 1 
+TDD6275300 INTRO ( #2 ) 3> 3 ~ so
+TDD-6275210 word: 2 _____
+TDD-98 may: 2 O S
+TDD5006187 INTRO ( #2 ) 4> 5 ~ est
+TDD-5006074 word: 4 _____
+TDD-98 may: 4 E S T
+TDD-14 question done
+TDD1947110 > *
+TDD3253388 try? 1
+TDD-5200166 questioning: ["WISPY", "#1"]
+TDD315287 WISPY ( #1 ) ? 
+TDD-315508 guess: WISPY
+TDD787448 WISPY ( #1 ) > 
+TDD374534 WISPY ( #1 ) 1> wispy
+TDD-1161892 word: 0 WISPY
+TDD-188 may: 0 
+TDD2642365 WISPY ( #1 ) 2> 3 ~ sop
+TDD-2642259 word: 2 _____
+TDD-116 may: 2 O P S
+TDD5322479 WISPY ( #1 ) 4> ~ esup
+TDD-5322339 word: 3 _____
+TDD-136 may: 3 E P S U
+TDD2500870 WISPY ( #1 ) 5> ␚
+TDD-2500749 question done
+TDD557228 > *
+TDD817623 questioning: ["PULSE", "#4"]
+TDD2120731 PULSE ( #4 ) ? 
+TDD-3495658 guess: PULSE
+TDD184817 PULSE ( #4 ) > 
+TDD1188929 PULSE ( #4 ) 1> 4 pulse
+TDD-1373692 word: 3 PULSE
+TDD-105 may: 3 
+TDD2449348 PULSE ( #4 ) 5> ␚
+TDD-2449223 question done
+TDD549425 > *
+TDD1200576 questioning: ["SPOOK", "#3"]
+TDD1713761 SPOOK ( #3 ) ? 
+TDD-3463738 guess: SPOOK
+TDD226494 SPOOK ( #3 ) > 
+TDD1382549 SPOOK ( #3 ) 1> 3 spook
+TDD-1608870 word: 2 SPOOK
+TDD-310 may: 2 
+TDD2577183 SPOOK ( #3 ) 4> 5 s_
+TDD-2577055 word: 4 S____
+TDD-137 may: 4 E T
+TDD-3 question done
+TDD726034 > *
+TDD439110 questioning: ["STEED", "#5"]
+TDD2275477 STEED ( #5 ) ? 
+TDD-3440517 guess: STEED
+TDD199848 STEED ( #5 ) > 
+TDD1318091 STEED ( #5 ) 1> 5 steed
+TDD-1517857 word: 4 STEED
+TDD-183 may: 4 
+TDD1 question done
+TDD4261039 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4257333 result: "squareword.org 1249: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1249"
+TDD198651 📆 2025-07-03 ? 
