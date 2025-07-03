@@ -481,6 +481,14 @@ class Board:
             if not let)
 
     @property
+    def free_letters(self):
+        return len(self.letters) - self.used_letters
+
+    @property
+    def done(self):
+        return self.free_letters <= 0
+
+    @property
     def max_score(self):
         return self.per_let*len(self.letters) + self.max_bonus
 
