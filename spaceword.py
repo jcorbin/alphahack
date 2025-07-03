@@ -2809,6 +2809,18 @@ class Search:
         # TODO do_prune wen
         return self.do_add(ui)
 
+    @dataclass
+    class NomOp:
+        srch: 'Search'
+        nom: str
+        op: PromptUI.State
+        def __call__(self, ui: PromptUI):
+            if not self.srch.verbose: ui.write(self.nom)
+            return self.op(ui)
+
+    def nom_op(self, nom: str, op: PromptUI.State):
+        return self.NomOp(self, nom, op)
+
     def auto_generate_do(self, ui: PromptUI):
         if not self.verbose: ui.write('*')
         st = self.generate(ui)
@@ -2817,13 +2829,10 @@ class Search:
         if self.halos.get('done'): return self.auto_generate_fin
         if not self.halos.get('may'): return self.auto_generate_fin
 
-        if not self.verbose: ui.write('T')
-        st = self.do_take(ui)
-        if st is not None: return st
-
-        if not self.verbose: ui.write('C')
-        st = self.do_center(ui)
-        if st is not None: return st
+        return PromptUI.Chain(
+            self.nom_op('T', self.do_take),
+            self.nom_op('C', self.do_center),
+        )(ui)
 
     def auto_generate_fin(self, ui: PromptUI):
         if self.verbose:
