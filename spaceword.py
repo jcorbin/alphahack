@@ -2162,14 +2162,21 @@ class Search:
             return
         self.verbose = verbose
 
+        def monitor(state: PromptUI.State):
+            def mon(ui: PromptUI):
+                # TODO collect and report run stats
+                with ui.catch_state(KeyboardInterrupt, self):
+                    st = state(ui)
+                    if st is None or st is self: return st
+                    return monitor(st)
+            return mon
+
         if self.verbose:
             ui.print('Auto Generation Starting')
         else:
             ui.write('Auto generating: ')
 
-        # TODO collect and report run stats
-
-        return self.auto_generate_do
+        return monitor(self.auto_generate_do)
 
     def do_board(self, ui: PromptUI):
         '''
@@ -2803,21 +2810,20 @@ class Search:
         return self.do_add(ui)
 
     def auto_generate_do(self, ui: PromptUI):
-        with ui.catch_state(KeyboardInterrupt, self):
-            if not self.verbose: ui.write('*')
-            st = self.generate(ui)
-            if st is not None: return st
+        if not self.verbose: ui.write('*')
+        st = self.generate(ui)
+        if st is not None: return st
 
-            if self.halos.get('done'): return self.auto_generate_fin
-            if not self.halos.get('may'): return self.auto_generate_fin
+        if self.halos.get('done'): return self.auto_generate_fin
+        if not self.halos.get('may'): return self.auto_generate_fin
 
-            if not self.verbose: ui.write('T')
-            st = self.do_take(ui)
-            if st is not None: return st
+        if not self.verbose: ui.write('T')
+        st = self.do_take(ui)
+        if st is not None: return st
 
-            if not self.verbose: ui.write('C')
-            st = self.do_center(ui)
-            if st is not None: return st
+        if not self.verbose: ui.write('C')
+        st = self.do_center(ui)
+        if st is not None: return st
 
     def auto_generate_fin(self, ui: PromptUI):
         if self.verbose:
