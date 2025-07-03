@@ -2162,6 +2162,16 @@ class Search:
             return
         self.verbose = verbose
 
+        prog = PromptUI.Chain(
+            self.nom_op('*', self.generate),
+            self.may_op(
+                lambda ui: 'done' in self.halos or 'may' not in self.halos,
+                'Auto Generation Finished',
+                self),
+            self.nom_op('T', self.do_take),
+            self.nom_op('C', self.do_center),
+        )
+
         def monitor(state: PromptUI.State):
             def mon(ui: PromptUI):
                 # TODO collect and report run stats
@@ -2176,7 +2186,7 @@ class Search:
         else:
             ui.write('Auto generating: ')
 
-        return monitor(self.auto_generate_do)
+        return monitor(prog)
 
     def do_board(self, ui: PromptUI):
         '''
@@ -2834,17 +2844,6 @@ class Search:
                     ui.fin()
                 return then
         return may_state
-
-    def auto_generate_do(self, ui: PromptUI):
-        return PromptUI.Chain(
-            self.nom_op('*', self.generate),
-            self.may_op(
-                lambda ui: 'done' in self.halos or 'may' not in self.halos,
-                'Auto Generation Finished',
-                self),
-            self.nom_op('T', self.do_take),
-            self.nom_op('C', self.do_center),
-        )(ui)
 
 @final
 class Halo:
