@@ -1,0 +1,39 @@
+T0.00022621899552177638 now: 2025-07-04T08:23:25EDT
+TD82808 loaded 196556 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (47 words excluded) asof 570961d2b300ac2c2b396bbec1092b71d6524bff
+TDD9425778 [0 : 98236 : 196556] mach? b
+TDD-9508406 progress: -1 98236 mach
+TDD1559609 [0 : 47396 : 98236] dis? a
+TDD-1559714 progress: 1 47396 dis
+TDD1687898 [47397 : 72816 : 98236] gremolata? b
+TDD-1687904 progress: -1 72816 gremolata
+TDD1551916 [47397 : 60099 : 72816] face? b
+TDD-1551923 progress: -1 60099 face
+TDD1584069 [47397 : 53412 : 60099] el? b
+TDD-1584064 progress: -1 53412 el
+TDD1559762 [47397 : 49443 : 53412] do? a
+TDD-1559759 progress: 1 49443 do
+TDD2528085 [49444 : 51417 : 53412] drunk? a
+TDD-2528082 progress: 1 51417 drunk
+TDD1575827 [51418 : 52410 : 53412] earth? b
+TDD-1575831 progress: -1 52410 earth
+TDD1695975 [51418 : 51911 : 52410] dupe? b
+TDD-1695981 progress: -1 51911 dupe
+TDD1583875 [51418 : 51663 : 51911] dug? b
+TDD-1583861 progress: -1 51663 dug
+TDD3015989 [51418 : 51540 : 51663] ducats? a
+TDD-3016007 progress: 1 51540 ducats
+TDD1551885 [51541 : 51593 : 51663] dud? a
+TDD-1551882 progress: 1 51593 dud
+TDD2208078 [51594 : 51614 : 51663] duel? b
+TDD-2208079 progress: -1 51614 duel
+TDD169741581 [51594 : 51596 : 51614] dude? it
+TDD-169741564 progress: 0 51596 dude
+TDD-63 [51594 : 51596 : 51614] <Done>.
+TDD2647908 press <Return> to finish
+TDD-2471809 Press <Enter> to 📋 or `>` for line prompt 
+TDD-173687 share result: "\ud83e\udde9 Puzzle #710\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 3m 11s\n\n\ud83d\udd17 alphaguess.com"
+TDD-2404 result puzzle: 710
+TDD-15 result guesses: 14
+TDD-1 result time: 3m 11s
+TDD0 result link: alphaguess.com
+TDD925653 📆 2025-07-04 ? 
