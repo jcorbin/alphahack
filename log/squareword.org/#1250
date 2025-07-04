@@ -1,0 +1,124 @@
+T0.00025415699928998947 now: 2025-07-04T08:27:48EDT
+TD38 site: squareword.org
+TDD13523455 🧩  ? #1250
+TDD-13523346 puzzle_id: #1250
+TDD-125 wordlist: nwl2023.txt
+TDD2687933 > *
+TDD3792101 try? 3
+TDD-6478988 questioning: ["SHEAR", "#5"]
+TDD285917 SHEAR ( #5 ) ? 
+TDD-286926 guess: SHEAR
+TDD151878 SHEAR ( #5 ) > 
+TDD2784616 SHEAR ( #5 ) 1> ___ar ~ e
+TDD-2936243 word: 0 ___AR
+TDD-300 may: 0 E
+TDD138403008 SHEAR ( #5 ) 2> __e ~ a
+TDD-138402898 word: 1 __E__
+TDD-108 may: 1 A
+TDD1607719 SHEAR ( #5 ) 3> ~ e
+TDD-1607495 word: 2 _____
+TDD-223 may: 2 E
+TDD1255759 SHEAR ( #5 ) 4> ~ ea
+TDD-1255661 word: 3 _____
+TDD-96 may: 3 A E
+TDD1239922 SHEAR ( #5 ) 5> ~ se
+TDD-1239837 word: 4 _____
+TDD-87 may: 4 E S
+TDD0 question done
+TDD1000042 > /no h
+TDD-999865 nope: H
+TDD455437 > *
+TDD7144661 try? 2
+TDD-7600130 questioning: ["CEDAR", "#1"]
+TDD271585 CEDAR ( #1 ) ? 
+TDD-271698 guess: CEDAR
+TDD143958 CEDAR ( #1 ) > 
+TDD2352169 CEDAR ( #1 ) 1> _e_ar
+TDD-2496068 word: 0 _E_AR
+TDD-91 may: 0 
+TDD5311817 CEDAR ( #1 ) 2> 3 c_
+TDD-5311720 word: 2 C____
+TDD-97 may: 2 E
+TDD5888260 CEDAR ( #1 ) 4> 5 _e
+TDD-5888177 word: 4 _E___
+TDD-83 may: 4 S
+TDD0 question done
+TDD1439770 > /no d
+TDD-1439690 nope: D H
+TDD1039784 > *
+TDD6248264 try? 3
+TDD-7288022 questioning: ["REBAR", "#1"]
+TDD207774 REBAR ( #1 ) ? 
+TDD-207841 guess: REBAR
+TDD1023994 REBAR ( #1 ) > 
+TDD744064 REBAR ( #1 ) 1> 
+TDD8336087 REBAR ( #1 ) 2> 5 ~ sb
+TDD-10104096 word: 4 _E___
+TDD-90 may: 4 B S
+TDD-1 question done
+TDD4975888 > *
+TDD-4532757 questioning: ["VELAR", "#1"]
+TDD36082762 VELAR ( #1 ) ? 
+TDD-36525836 guess: VELAR
+TDD199691 VELAR ( #1 ) > 
+TDD1265001 VELAR ( #1 ) 1> velar
+TDD-1464676 word: 0 VELAR
+TDD-73 may: 0 
+TDD11719617 VELAR ( #1 ) 2> ␚
+TDD-11719555 question done
+TDD799803 > *
+TDD602798 questioning: ["OMEGA", "#2"]
+TDD2130831 OMEGA ( #2 ) ? 
+TDD-3533445 guess: OMEGA
+TDD185293 OMEGA ( #2 ) > 
+TDD2733123 OMEGA ( #2 ) 1> 2 omega
+TDD-2918381 word: 1 OMEGA
+TDD-82 may: 1 
+TDD3768008 OMEGA ( #2 ) 3> ~ eom
+TDD-3767927 word: 2 C____
+TDD-80 may: 2 E M O
+TDD3648023 OMEGA ( #2 ) 4> ~ eao
+TDD-3647940 word: 3 _____
+TDD-83 may: 3 A E O
+TDD22168536 OMEGA ( #2 ) 5> ␚
+TDD-22168479 question done
+TDD783834 > *
+TDD1069964 questioning: ["COMET", "#3"]
+TDD5540375 COMET ( #3 ) ? 
+TDD-7394192 guess: COMET
+TDD175865 COMET ( #3 ) > 
+TDD1008140 COMET ( #3 ) 1> 3 comet
+TDD-1183966 word: 2 COMET
+TDD-78 may: 2 
+TDD2376353 COMET ( #3 ) 4> ~ eaot
+TDD-2376272 word: 3 _____
+TDD-81 may: 3 A E O T
+TDD2375407 COMET ( #3 ) 5> ~ sbt
+TDD-2375321 word: 4 _E___
+TDD-85 may: 4 B S T
+TDD-1 question done
+TDD728287 > *
+TDD753837 questioning: ["ATONE", "#4"]
+TDD4243632 ATONE ( #4 ) ? 
+TDD-5725715 guess: ATONE
+TDD192347 ATONE ( #4 ) > 
+TDD1071044 ATONE ( #4 ) 1> 4 atone
+TDD-1263353 word: 3 ATONE
+TDD-80 may: 3 
+TDD2528137 ATONE ( #4 ) 5> ~ sbtn
+TDD-2528052 word: 4 _E___
+TDD-84 may: 4 B N S T
+TDD-2 question done
+T0.051791052996122744 now: 2025-07-04T08:36:46EDT
+TD1490083 > *
+TDD-974706 questioning: ["BENTS", "#5"]
+TDD753529 BENTS ( #5 ) ? 
+TDD-1268842 guess: BENTS
+TDD536569 BENTS ( #5 ) > 
+TDD3438491 BENTS ( #5 ) 1> 5 bents
+TDD-3974768 word: 4 BENTS
+TDD-339 may: 4 
+TDD-3 question done
+TDD4079600 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4077408 result: "squareword.org 1250: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1250"
+TDD171598 📆 2025-07-04 ? 
