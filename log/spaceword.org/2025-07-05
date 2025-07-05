@@ -44,3 +44,52 @@ TDD75213882 [doit:2152]> /res
 TDD-74629143 Press <Enter> to 📋 or `>` for line prompt 
 TDD-578749 result: "\u2728 Spaceword.org Daily 2025-07-05 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 153/201 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD1135879 [prior:2152]> /store
+T1546.1770807130015 now: 2025-07-05T08:20:23EDT
+TD1591864 [prior:2152]> /sea
+TDD1607161 search da8173 [ 1 ]> cap 1500
+TDD-2522437 search da8173 [ 1 cap:1500 ]> **
+TDD2418272 Z c$_Lq%}Px!Q7Fz#u}Vp_Ff=z-NXpMkwK6oYQa}c-3JUIEhO?_<u&WE0>8;@C2a^x*gfaphLttWF{xFt*5R4V7Ko|f300960
+TDD-3094599 Z Dk9EF^mG#d00960
+TDD-224 Z !s{egxH4}nE>fUTC;<Qf0RR6
+TDD97549088 search da8173 [ 1414 cap:1500 may:1818 prune:1495 done:3 dead:1 reject:3 ]> show done
+TDD-94035223 search da8173 [ 1414 cap:1500 may:1818 prune:1495 done:3 dead:1 reject:3 ]> show 1
+TDD18421904 search da8173 [ 1414 cap:1500 may:1818 prune:1495 done:3 dead:1 reject:3 ]> ret
+TDD-21935469 change: 14 
+TDD-314 change: 13 
+TDD-9 change: 14 
+TDD0 change: 16 
+TDD-2 change: 14 
+TDD4 change: 22 
+TDD-4 change: 23 C
+TDD-2 change: 24 E
+TDD0 change: 25 A
+TDD0 change: 26 S
+TDD0 change: 27 E
+TDD3 change: 14 D
+TDD18 change: 33 
+TDD-19 change: 17 G
+TDD0 change: 35 
+TDD-2 change: 36 A
+TDD0 change: 34 K
+TDD3 change: 45 
+TDD-4 change: 46 P
+TDD0 change: 37 N
+TDD2 change: 54 
+TDD-3 change: 55 Q
+TDD0 change: 56 A
+TDD0 change: 44 E
+TDD2 change: 65 
+TDD-2 change: 66 J
+TDD0 change: 47 I
+TDD2 change: 75 
+TDD-2 change: 76 O
+TDD0 change: 57 T
+TDD3 change: 85 
+TDD-5 change: 67 O
+TDD0 change: 77 R
+TDD0 change: 86 U
+TDD1164341 [prior:2152 bet:2160]> /res
+TDD2765670 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3922235 result: "\u2728 Spaceword.org Daily 2025-07-05 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 129/201 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD135200 [prior:2160]> 
+TDD7113834 [prior:2160]> /store
