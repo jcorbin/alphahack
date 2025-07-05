@@ -1,0 +1,133 @@
+T0.00017391800065524876 now: 2025-07-05T07:42:32EDT
+TD35 site: squareword.org
+TDD3886479 🧩  ? #1251
+TDD-3886197 puzzle_id: #1251
+TDD-286 wordlist: nwl2023.txt
+TDD2071859 > *
+TDD3528932 try? 2
+TDD-5598127 questioning: ["AROSE", "#5"]
+TDD735834 AROSE ( #5 ) ? 
+TDD-738403 guess: AROSE
+TDD238413 AROSE ( #5 ) > 
+TDD3743268 AROSE ( #5 ) 1> ~ arse
+TDD-3980473 word: 0 _____
+TDD-1267 may: 0 A E R S
+TDD1852061 AROSE ( #5 ) 2> ~ ar
+TDD-1851998 word: 1 _____
+TDD-117 may: 1 A R
+TDD1667786 AROSE ( #5 ) 3> ~ re
+TDD-1667697 word: 2 _____
+TDD-89 may: 2 E R
+TDD1924704 AROSE ( #5 ) 4> 
+TDD645093 AROSE ( #5 ) 5> ~ ase
+TDD-2569686 word: 4 _____
+TDD-109 may: 4 A E S
+TDD-1 question done
+TDD2353364 > /no o
+TDD-2352733 nope: O
+TDD2078523 > *
+TDD1661398 try? 1
+TDD-3740297 questioning: ["LASER", "#1"]
+TDD181021 LASER ( #1 ) ? 
+TDD-181179 guess: LASER
+TDD163409 LASER ( #1 ) > 
+TDD4308355 LASER ( #1 ) 1> ____r ~ ase
+TDD-4471626 word: 0 ____R
+TDD-214 may: 0 A E S
+TDD6272109 LASER ( #1 ) 2> 5 _a_e
+TDD-6271925 word: 4 _A_E_
+TDD-187 may: 4 S
+TDD-1 question done
+TDD2732893 > /no l
+TDD-2732726 nope: L O
+TDD549281 > *
+TDD4941448 try? 2
+TDD-5490808 questioning: ["SPEAR", "#1"]
+TDD302604 SPEAR ( #1 ) ? 
+TDD-302602 guess: SPEAR
+TDD150626 SPEAR ( #1 ) > 
+TDD1525947 SPEAR ( #1 ) 1> s_ear
+TDD-1676513 word: 0 S_EAR
+TDD-152 may: 0 
+TDD3538831 SPEAR ( #1 ) 2> ␚
+TDD-3538783 question done
+TDD1027239 > /no p
+TDD-1027100 nope: L O P
+TDD588938 > *
+TDD5701049 try? 1
+TDD-6289862 questioning: ["SWEAR", "#1"]
+TDD812650 SWEAR ( #1 ) ? ␚
+TDD-812863 question done
+TDD1005387 > /no w
+TDD-1005282 nope: L O P W
+TDD487769 > *
+TDD5827985 try? 2
+TDD-6315850 questioning: ["SMEAR", "#1"]
+TDD648698 SMEAR ( #1 ) ? 
+TDD-648692 guess: SMEAR
+TDD296791 SMEAR ( #1 ) > 
+TDD167703 SMEAR ( #1 ) 1> ␚
+TDD-464556 question done
+TDD890430 > /no m
+TDD-890350 nope: L M O P W
+TDD505064 > *
+TDD2762545 questioning: ["SHEAR", "#1"]
+TDD493847 SHEAR ( #1 ) ? 
+TDD-3761509 guess: SHEAR
+TDD178762 SHEAR ( #1 ) > 
+TDD789506 SHEAR ( #1 ) 1> shear
+TDD-968150 word: 0 SHEAR
+TDD-199 may: 0 
+TDD1611962 SHEAR ( #1 ) 2> ~ arh
+TDD-1611789 word: 1 _____
+TDD-176 may: 1 A H R
+TDD7011014 SHEAR ( #1 ) 3> ␚
+TDD-7010917 question done
+TDD795524 > *
+TDD14353998 try? 1
+TDD-15149384 questioning: ["HYDRA", "#2"]
+TDD690914 HYDRA ( #2 ) ? 
+TDD-690982 guess: HYDRA
+TDD188444 HYDRA ( #2 ) > 
+TDD2140767 HYDRA ( #2 ) 1> 2 hydra
+TDD-2329223 word: 1 HYDRA
+TDD-138 may: 1 
+TDD5478044 HYDRA ( #2 ) 3> ␚
+TDD-5477908 question done
+TDD682394 > *
+TDD1357743 questioning: ["REIGN", "#3"]
+TDD2748189 REIGN ( #3 ) ? 
+TDD-4788388 guess: REIGN
+TDD357658 REIGN ( #3 ) > 
+TDD4427077 REIGN ( #3 ) 1> 3 reign
+TDD-4784586 word: 2 REIGN
+TDD-230 may: 2 
+TDD2913079 REIGN ( #3 ) 4> 5 ~ sg
+TDD-2912780 word: 4 _A_E_
+TDD-290 may: 4 G S
+TDD-5 question done
+TDD703594 > *
+TDD784277 questioning: ["GATES", "#5"]
+TDD2550008 GATES ( #5 ) ? 
+TDD-4037823 guess: GATES
+TDD197731 GATES ( #5 ) > 
+TDD4732819 GATES ( #5 ) 1> 4 ~ nt
+TDD-4930434 word: 3 _____
+TDD-188 may: 3 N T
+TDD2805628 GATES ( #5 ) 5> 5 gates
+TDD-2805430 word: 4 GATES
+TDD-196 may: 4 
+TDD-2 question done
+TDD1069034 > *
+TDD43246 questioning: ["UNCUT", "#4"]
+TDD3350487 UNCUT ( #4 ) ? 
+TDD-4462732 guess: UNCUT
+TDD204135 UNCUT ( #4 ) > 
+TDD2537880 UNCUT ( #4 ) 1> 4 uncut
+TDD-2741937 word: 3 UNCUT
+TDD-123 may: 3 
+TDD7982227 UNCUT ( #4 ) 5> ␚
+TDD-7982095 question done
+TDD404911 Press <Enter> to 📋 or `>` for line prompt 
+TDD-399641 result: "squareword.org 1251: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1251"
+TDD169548 📆 2025-07-05 ? 
