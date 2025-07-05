@@ -1,0 +1,38 @@
+T0.0002484380020177923 now: 2025-07-05T07:41:28EDT
+TD62500 loaded 196556 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (47 words excluded) asof 0ab4a19046b28b3d62d5ffcf7f693eed20543ac0
+TDD4054454 [0 : 98236 : 196556] mach? b
+TDD-4116559 progress: -1 98236 mach
+TDD1825824 [0 : 47396 : 98236] dis? b
+TDD-1825977 progress: -1 47396 dis
+TDD1514951 [0 : 23695 : 47396] camp? a
+TDD-1514995 progress: 1 23695 camp
+TDD1791436 [23696 : 35539 : 47396] convention? b
+TDD-1791443 progress: -1 35539 convention
+TDD1685904 [23696 : 29617 : 35539] circuit? b
+TDD-1685771 progress: -1 29617 circuit
+TDD1657233 [23696 : 26649 : 29617] cep? b
+TDD-1657282 progress: -1 26649 cep
+TDD1933057 [23696 : 25117 : 26649] carp? a
+TDD-1933112 progress: 1 25117 carp
+TDD1726518 [25118 : 25599 : 26649] cat? a
+TDD-1726575 progress: 1 25599 cat
+TDD1598916 [25600 : 26116 : 26649] cava? b
+TDD-1598894 progress: -1 26116 cava
+TDD1761600 [25600 : 25858 : 26116] catfaces? b
+TDD-1761599 progress: -1 25858 catfaces
+TDD2416251 [25600 : 25729 : 25858] catbriars? !
+TDD642429 [25600 : 25729 : 25857] catbrier? a
+TDD-3058430 progress: 1 25729 catbrier
+TDD2866382 [25730 : 25768 : 25857] cate? b
+TDD-2866660 progress: -1 25768 cate
+TDD2100687 [25730 : 25737 : 25768] catch? it
+TDD-2100668 progress: 0 25737 catch
+TDD-146 [25730 : 25737 : 25768] <Done>.
+TDD3674776 press <Return> to finish
+TDD-1860821 Press <Enter> to 📋 or `>` for line prompt 
+TDD-1807319 share result: "\ud83e\udde9 Puzzle #711\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 27s\n\n\ud83d\udd17 alphaguess.com"
+TDD-6611 result puzzle: 711
+TDD-41 result guesses: 13
+TDD-4 result time: 27s
+TDD-1 result link: alphaguess.com
+TDD140936 📆 2025-07-05 ? 
