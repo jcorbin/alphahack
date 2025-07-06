@@ -1,0 +1,111 @@
+T0.00019936999888159335 now: 2025-07-06T08:06:45EDT
+TD43 site: squareword.org
+TDD3804167 🧩  ? #1252
+TDD-3803653 puzzle_id: #1252
+TDD-510 wordlist: nwl2023.txt
+TDD1264923 > *
+TDD5748640 try? 3
+TDD-7009267 questioning: ["TESLA", "#5"]
+TDD173384 TESLA ( #5 ) ? 
+TDD-177600 guess: TESLA
+TDD154298 TESLA ( #5 ) > 
+TDD2451234 TESLA ( #5 ) 1> ~ es
+TDD-2604693 word: 0 _____
+TDD-943 may: 0 E S
+TDD1982461 TESLA ( #5 ) 2> ~ ela
+TDD-1982210 word: 1 _____
+TDD-250 may: 1 A E L
+TDD1926047 TESLA ( #5 ) 3> ~ te
+TDD-1925744 word: 2 _____
+TDD-290 may: 2 E T
+TDD1388019 TESLA ( #5 ) 4> ~ e
+TDD-1387868 word: 3 _____
+TDD-170 may: 3 E
+TDD1303900 TESLA ( #5 ) 5> ~ ts
+TDD-1303155 word: 4 _____
+TDD-618 may: 4 S T
+TDD-83 question done
+TDD3119654 > *
+TDD8697122 try? 7
+TDD-11816283 questioning: ["LADEN", "#2"]
+TDD292010 LADEN ( #2 ) ? 
+TDD-292452 guess: LADEN
+TDD180167 LADEN ( #2 ) > 
+TDD8924774 LADEN ( #2 ) 1> 2 la_ ~ en
+TDD-9104798 word: 1 LA___
+TDD-234 may: 1 E N
+TDD3209997 LADEN ( #2 ) 3> ___e ~ t
+TDD-3209653 word: 2 ___E_
+TDD-329 may: 2 T
+TDD2379223 LADEN ( #2 ) 4> ~ edn
+TDD-2378887 word: 3 _____
+TDD-334 may: 3 D E N
+TDD2189563 LADEN ( #2 ) 5> ␚
+TDD-2189399 question done
+TDD693655 > *
+TDD92982 questioning: ["LANCE", "#2"]
+TDD4353680 LANCE ( #2 ) ? 
+TDD-5140450 guess: LANCE
+TDD1424305 LANCE ( #2 ) > 
+TDD-293499 LANCE ( #2 ) 1> 
+TDD-221995 LANCE ( #2 ) 2> lance
+TDD-908717 word: 1 LANCE
+TDD-139 may: 1 
+TDD5235171 LANCE ( #2 ) 3> ␚
+TDD-5234937 question done
+TDD563219 > *
+TDD3650718 try? 2
+TDD-4213721 questioning: ["FIEND", "#4"]
+TDD569569 FIEND ( #4 ) ? 
+TDD-569911 guess: FIEND
+TDD163123 FIEND ( #4 ) > 
+TDD2094547 FIEND ( #4 ) 1> f_e ~ s
+TDD-2257414 word: 0 F_E__
+TDD-348 may: 0 S
+TDD4967904 FIEND ( #4 ) 2> 4 fiend
+TDD-4967703 word: 3 FIEND
+TDD-217 may: 3 
+TDD2990435 FIEND ( #4 ) 5> f_
+TDD-2990237 word: 4 F____
+TDD-198 may: 4 S T
+TDD0 question done
+TDD9136721 > ␚
+TDD-9136635 <EOF>
+T0.04372051599784754 now: 2025-07-06T08:08:21EDT
+TD1341611 > *
+TDD-589861 questioning: ["FRESH", "#1"]
+TDD2279289 FRESH ( #1 ) ? 
+TDD-3030871 guess: FRESH
+TDD169142 FRESH ( #1 ) > 
+TDD1638101 FRESH ( #1 ) 1> fresh
+TDD-1805803 word: 0 FRESH
+TDD-1505 may: 0 
+TDD3302527 FRESH ( #1 ) 2> 3 ~ tr
+TDD-3301540 word: 2 ___E_
+TDD-1048 may: 2 R T
+TDD3408383 FRESH ( #1 ) 4> 5 ~ tsr
+TDD-3408120 word: 4 F____
+TDD-279 may: 4 R S T
+TDD-2 question done
+TDD1201007 > *
+TDD-747878 questioning: ["UTTER", "#3"]
+TDD2143990 UTTER ( #3 ) ? 
+TDD-2597078 guess: UTTER
+TDD178394 UTTER ( #3 ) > 
+TDD1371476 UTTER ( #3 ) 1> 3 utter
+TDD-1549581 word: 2 UTTER
+TDD-294 may: 2 
+TDD1491090 UTTER ( #3 ) 4> ␚
+TDD-1491027 question done
+TDD606051 > *
+TDD-157430 questioning: ["FORTS", "#5"]
+TDD1985742 FORTS ( #5 ) ? 
+TDD-2434418 guess: FORTS
+TDD163704 FORTS ( #5 ) > 
+TDD1457742 FORTS ( #5 ) 1> 5 forts
+TDD-1621189 word: 4 FORTS
+TDD-224 may: 4 
+TDD-38 question done
+TDD4589303 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4582076 result: "squareword.org 1252: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1252"
+TDD158409 📆 2025-07-06 ? 
