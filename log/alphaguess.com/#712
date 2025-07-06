@@ -1,0 +1,49 @@
+T0.00020582599972840399 now: 2025-07-06T08:05:57EDT
+TD61991 loaded 196555 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (48 words excluded) asof e46f001b2355d192d82d4344d08299694f299ae1
+TDD5191288 [0 : 98235 : 196555] mach? b
+TDD-5252561 progress: -1 98235 mach
+TDD2181088 [0 : 47395 : 98235] dis? a
+TDD-2181594 progress: 1 47395 dis
+TDD1759861 [47396 : 72815 : 98235] gremolata? b
+TDD-1759791 progress: -1 72815 gremolata
+TDD1713777 [47396 : 60098 : 72815] face? b
+TDD-1713808 progress: -1 60098 face
+TDD2084349 [47396 : 53411 : 60098] el? b
+TDD-2084453 progress: -1 53411 el
+TDD1619766 [47396 : 49442 : 53411] do? a
+TDD-1619669 progress: 1 49442 do
+TDD1553987 [49443 : 51416 : 53411] drunk? b
+TDD-1553935 progress: -1 51416 drunk
+TDD1464046 [49443 : 50419 : 51416] dove? b
+TDD-1464087 progress: -1 50419 dove
+TDD1356370 [49443 : 49863 : 50419] dom? a
+TDD-1356470 progress: 1 49863 dom
+TDD1843055 [49864 : 50141 : 50419] dopiest? b
+TDD-1843001 progress: -1 50141 dopiest
+TDD1424587 [49864 : 49948 : 50141] don? a
+TDD-1424540 progress: 1 49948 don
+TDD1553130 [49949 : 50045 : 50141] doohickies? b
+TDD-1553090 progress: -1 50045 doohickies
+TDD1477580 [49949 : 49990 : 50045] donne? a
+TDD-1477639 progress: 1 49990 donne
+TDD1364020 [49991 : 50018 : 50045] donuts? b
+TDD-1364036 progress: -1 50018 donuts
+TDD1349755 [49991 : 50002 : 50018] donnish? a
+TDD-1349712 progress: 1 50002 donnish
+TDD1290051 [50003 : 50008 : 50018] donor? a
+TDD-1290123 progress: 1 50008 donor
+TDD1308002 [50009 : 50012 : 50018] dons? a
+TDD-1308008 progress: 1 50012 dons
+TDD1376157 [50013 : 50015 : 50018] donsie? a
+TDD-1376249 progress: 1 50015 donsie
+TDD1525235 [50016 : 50017 : 50018] donut? it
+TDD-1525135 progress: 0 50017 donut
+TDD-153 [50016 : 50017 : 50018] <Done>.
+TDD2462051 press <Return> to finish
+TDD-2317012 Press <Enter> to 📋 or `>` for line prompt 
+TDD-139542 share result: "\ud83e\udde9 Puzzle #712\n\n\ud83e\udd14 19 guesses\n\n\u23f1\ufe0f 28s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5482 result puzzle: 712
+TDD-36 result guesses: 19
+TDD-5 result time: 28s
+TDD-1 result link: alphaguess.com
+TDD124193 📆 2025-07-06 ? 
