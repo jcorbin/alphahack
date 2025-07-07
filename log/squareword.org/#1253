@@ -1,0 +1,136 @@
+T0.0002068699977826327 now: 2025-07-07T08:57:11EDT
+TD36 site: squareword.org
+TDD7865151 🧩  ? #1253
+TDD-7865016 puzzle_id: #1253
+TDD-157 wordlist: nwl2023.txt
+TDD1002337 > *
+TDD1887111 try? 1
+TDD-2888622 questioning: ["SOLAR", "#5"]
+TDD140055 SOLAR ( #5 ) ? 
+TDD-140825 guess: SOLAR
+TDD126129 SOLAR ( #5 ) > 
+TDD2868228 SOLAR ( #5 ) 1> ___a ~ sa
+TDD-2993195 word: 0 ___A_
+TDD-1182 may: 0 A S
+TDD2075658 SOLAR ( #5 ) 2> ~ sar
+TDD-2075035 word: 1 _____
+TDD-647 may: 1 A R S
+TDD2998756 SOLAR ( #5 ) 3> s_ ~ s
+TDD-2998538 word: 2 S____
+TDD-225 may: 2 S
+TDD1224310 SOLAR ( #5 ) 4> 
+TDD-311496 SOLAR ( #5 ) 5> ~ sa
+TDD-912620 word: 4 _____
+TDD-195 may: 4 A S
+TDD0 question done
+TDD1410280 > /no ol
+TDD-1409861 nope: L O
+TDD836125 > *
+TDD7114901 try? 3
+TDD-7950944 questioning: ["RATES", "#2"]
+TDD192749 RATES ( #2 ) ? 
+TDD-193162 guess: RATES
+TDD138433 RATES ( #2 ) > 
+TDD2469453 RATES ( #2 ) 1> _a_as
+TDD-2607651 word: 0 _A_AS
+TDD-287 may: 0 
+TDD2477839 RATES ( #2 ) 2> ~ sare
+TDD-2477623 word: 1 _____
+TDD-237 may: 1 A E R S
+TDD2208332 RATES ( #2 ) 3> ~ se
+TDD-2208094 word: 2 S____
+TDD-237 may: 2 E S
+TDD2634750 RATES ( #2 ) 4> ___e ~ e
+TDD-2634495 word: 3 ___E_
+TDD-257 may: 3 E
+TDD3167543 RATES ( #2 ) 5> _a ~ st
+TDD-3167310 word: 4 _A___
+TDD-238 may: 4 S T
+TDD0 question done
+TDD1870498 > *
+TDD3197419 try? 1
+TDD-5067712 questioning: ["ARISE", "#2"]
+TDD185406 ARISE ( #2 ) ? 
+TDD-185500 guess: ARISE
+TDD166175 ARISE ( #2 ) > 
+TDD6017507 ARISE ( #2 ) 1> 2 _r_se ~ ae
+TDD-6183498 word: 1 _R_SE
+TDD-282 may: 1 A E
+TDD3680317 ARISE ( #2 ) 3> s__se ~ e
+TDD-3680124 word: 2 S__SE
+TDD-212 may: 2 E
+TDD9509358 ARISE ( #2 ) 4> ␚
+TDD-9509218 question done
+TDD2043010 > /no i
+TDD-2042822 nope: I L O
+TDD8484447 > *
+TDD-7326397 questioning: ["SENSE", "#3"]
+TDD1958352 SENSE ( #3 ) ? 
+TDD-3116619 guess: SENSE
+TDD156415 SENSE ( #3 ) > 
+TDD3001694 SENSE ( #3 ) 1> 3 sense
+TDD-3157945 word: 2 SENSE
+TDD-257 may: 2 
+TDD6214614 SENSE ( #3 ) 4> 4 ___e ~ en
+TDD-6214361 word: 3 ___E_
+TDD-253 may: 3 E N
+TDD9982357 SENSE ( #3 ) 5> ␚
+TDD-9982217 question done
+TDD570558 > *
+TDD9408314 try? 1
+TDD-9978746 questioning: ["KNEED", "#4"]
+TDD186963 KNEED ( #4 ) ? 
+TDD-187011 guess: KNEED
+TDD159376 KNEED ( #4 ) > 
+TDD8434824 KNEED ( #4 ) 1> 4 _n_ed ~ ed
+TDD-8594229 word: 3 _N_ED
+TDD-204 may: 3 D E
+TDD3617385 KNEED ( #4 ) 5> ␚
+TDD-3617269 question done
+TDD1818774 > /no k
+TDD-1818634 nope: I K L O
+TDD595407 > *
+TDD1918786 questioning: ["ENDED", "#4"]
+TDD-391520 ENDED ( #4 ) ? 
+TDD-2122822 guess: ENDED
+TDD169161 ENDED ( #4 ) > 
+TDD2017979 ENDED ( #4 ) 1> 4 ended
+TDD-2187057 word: 3 ENDED
+TDD-191 may: 3 
+TDD2324693 ENDED ( #4 ) 5> 2 er_se
+TDD-2324360 word: 1 ER_SE
+TDD-313 may: 1 A
+TDD2495481 ENDED ( #4 ) 3> ␚
+TDD-2495371 question done
+TDD1014049 > *
+TDD991419 questioning: ["BABAS", "#1"]
+TDD1820481 BABAS ( #1 ) ? 
+TDD-3825971 guess: BABAS
+TDD174728 BABAS ( #1 ) > 
+TDD1112221 BABAS ( #1 ) 1> 1 babas
+TDD-1286860 word: 0 BABAS
+TDD-190 may: 0 
+TDD5205875 BABAS ( #1 ) 2> ␚
+TDD-5205784 question done
+TDD998519 > *
+TDD560583 questioning: ["ERASE", "#2"]
+TDD2918807 ERASE ( #2 ) ? 
+TDD-4477872 guess: ERASE
+TDD169003 ERASE ( #2 ) > 
+TDD2479419 ERASE ( #2 ) 1> 2 erase
+TDD-2648470 word: 1 ERASE
+TDD-96 may: 1 
+TDD2415609 ERASE ( #2 ) 3> ␚
+TDD-2415500 question done
+TDD983766 > *
+TDD19851 questioning: ["TASTY", "#5"]
+TDD4728384 TASTY ( #5 ) ? 
+TDD-5731984 guess: TASTY
+TDD421303 TASTY ( #5 ) > 
+TDD1825034 TASTY ( #5 ) 1> 5 tasty
+TDD-2246238 word: 4 TASTY
+TDD-209 may: 4 
+TDD-2 question done
+TDD4435212 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4428511 result: "squareword.org 1253: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1253"
+TDD159317 📆 2025-07-07 ? 
