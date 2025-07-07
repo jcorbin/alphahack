@@ -1,0 +1,45 @@
+T0.00020149198826402426 now: 2025-07-07T08:56:12EDT
+TD61440 loaded 196555 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (48 words excluded) asof 68c136df865891e0eb53a9eb1050689da5046bed
+TDD6631931 [0 : 98235 : 196555] mach? b
+TDD-6692911 progress: -1 98235 mach
+TDD1804295 [0 : 47395 : 98235] dis? b
+TDD-1804567 progress: -1 47395 dis
+TDD1564056 [0 : 23581 : 47395] cam? b
+TDD-1564004 progress: -1 23581 cam
+TDD1451931 [0 : 11771 : 23581] back? b
+TDD-1451987 progress: -1 11771 back
+TDD1777745 [0 : 5882 : 11771] angel? b
+TDD-1777711 progress: -1 5882 angel
+TDD1588200 [0 : 2802 : 5882] ag? b
+TDD-1588126 progress: -1 2802 ag
+TDD1463950 [0 : 1398 : 2802] acrogen? a
+TDD-1464069 progress: 1 1398 acrogen
+TDD1528983 [1399 : 2097 : 2802] ads? a
+TDD-1528971 progress: 1 2097 ads
+TDD1627211 [2098 : 2391 : 2802] aero? b
+TDD-1627242 progress: -1 2391 aero
+TDD1619221 [2098 : 2245 : 2391] advert? b
+TDD-1619165 progress: -1 2245 advert
+TDD1523866 [2098 : 2171 : 2245] adunc? a
+TDD-1523933 progress: 1 2171 adunc
+TDD1583573 [2172 : 2205 : 2245] adventure? a
+TDD-1583516 progress: 1 2205 adventure
+TDD1517009 [2206 : 2222 : 2245] adverb? a
+TDD-1516972 progress: 1 2222 adverb
+TDD1453708 [2223 : 2234 : 2245] adversarinesses? a
+TDD-1453747 progress: 1 2234 adversarinesses
+TDD1427559 [2235 : 2239 : 2245] adverse? a
+TDD-1427549 progress: 1 2239 adverse
+TDD2263885 [2240 : 2242 : 2245] adversenesses? a
+TDD-2263647 progress: 1 2242 adversenesses
+TDD1736849 [2243 : 2244 : 2245] adversity? it
+TDD-1737077 progress: 0 2244 adversity
+TDD-179 [2243 : 2244 : 2245] <Done>.
+TDD2322816 press <Return> to finish
+TDD-2159748 Press <Enter> to 📋 or `>` for line prompt 
+TDD-157152 share result: "\ud83e\udde9 Puzzle #713\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 26s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5884 result puzzle: 713
+TDD-57 result guesses: 17
+TDD-4 result time: 26s
+TDD-1 result link: alphaguess.com
+TDD159746 📆 2025-07-07 ? 
