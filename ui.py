@@ -580,7 +580,7 @@ class PromptUI:
             except EOFError:
                 self.log('<EOF>')
                 self.print(' <EOF>')
-                raise
+                return
 
             except KeyboardInterrupt:
                 self.log('<INT>')
