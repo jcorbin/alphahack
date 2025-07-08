@@ -656,3 +656,47 @@ class PromptUI:
             for state in self.states:
                 st = state(ui)
                 if st is not None: return st
+
+    @final
+    class Choose[D]:
+        def __init__(self,
+                     items: Iterable[D],
+                     then: Callable[[D], State|None],
+                     show: Callable[['PromptUI', D], None] = lambda ui, d: ui.print(f'{d}'),
+                     head: Callable[['PromptUI'], None] = lambda _: None,
+                     foot: Callable[['PromptUI'], None] = lambda _: None,
+                     mess: str|Callable[['PromptUI'], str] = '? ',
+                     ) -> None:
+            self.items = tuple(items)
+            self.then = then
+            self.show = show
+            self.head = head
+            self.foot = foot
+            self.mess = mess
+            self.prompt = PromptUI.Prompt(self.show_list, {
+                " ": self.slurp_num,
+            })
+
+        def show_list(self, ui: 'PromptUI'):
+            self.head(ui)
+            for n, d in enumerate(self.items, 1):
+                ui.write(f'{n}. ')
+                self.show(ui, d)
+                ui.fin()
+            self.foot(ui)
+            return self.mess(ui) if callable(self.mess) else self.mess
+
+        def slurp_num(self, ui: 'PromptUI') -> State|None:
+            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+            if n is None: return
+            i = n - 1
+            if 0 <= i < len(self.items):
+                return lambda _: self.then(self.items[i])
+            ui.print(f'selection out of range')
+
+        def __call__(self, ui: 'PromptUI'):
+            if not len(self.items):
+                raise StopIteration()
+            if len(self.items) == 1:
+                return self.then(self.items[0])
+            return self.prompt(ui)
