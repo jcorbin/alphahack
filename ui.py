@@ -564,16 +564,6 @@ class PromptUI:
     State = State
     Next = Next
 
-    @final
-    class Chain:
-        def __init__(self, *states: State):
-            self.states = states
-
-        def __call__(self, ui: 'PromptUI'):
-            for state in self.states:
-                st = state(ui)
-                if st is not None: return st
-
     def interact(self, state: State):
         while True:
             try:
@@ -651,3 +641,13 @@ class PromptUI:
     def main(cls, state: State):
         ui = cls()
         ui.run(state)
+
+    @final
+    class Chain:
+        def __init__(self, *states: State):
+            self.states = states
+
+        def __call__(self, ui: 'PromptUI'):
+            for state in self.states:
+                st = state(ui)
+                if st is not None: return st
