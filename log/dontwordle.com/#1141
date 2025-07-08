@@ -1,0 +1,64 @@
+T0.00018331699538975954 now: 2025-07-08T09:59:15EDT
+TD35 site: dontwordle.com
+TDD-10 wordlist: nwl2023.txt
+TDD528244 1> *
+TDD2220519 1> ␚
+TDD-2748714 <EOF>
+T0.04082029600976966 now: 2025-07-08T09:59:27EDT
+TD797234 1> *
+TDD117651 1> ␚
+TDD-914811 <EOF>
+T0.042680259999542614 now: 2025-07-08T12:45:53EDT
+TD1726681 1> *
+TDD3429342 <INT>
+T0.042913827000120364 now: 2025-07-08T12:47:16EDT
+TD1053149 1> *
+TDD1686616 <INT>
+T0.04068420699968556 now: 2025-07-08T12:47:41EDT
+TD1258443 1> *
+TDD4198629 ? 1
+TDD15795392 📋 "commo" ? nnnnn
+TDD-21251560 tried: COMMO n n n n n
+T0.04131427900028939 now: 2025-07-08T13:07:24EDT
+TD5853237 2> *
+TDD-660490 ? 1
+TDD-2059006 📋 "benne" ? nMnnn
+TDD-3133320 tried: BENNE n m n n n
+TDD4079492 3> undo
+TDD-4079710 undo
+TDD5032956 2> *
+TDD1038419 ? 2
+TDD-3930591 📋 "aurar" ? nnnnn
+TDD-2140769 tried: AURAR n n n n n
+TDD11144486 3> *
+TDD-2703772 ? 2
+TDD-6180320 📋 "zizit" ? nnnnn
+TDD-2260370 tried: ZIZIT n n n n n
+TDD968272 4> *
+TDD2439146 ? 1
+TDD262526 📋 "wynds" ? nnnnM
+TDD-3669978 tried: WYNDS n n n n m
+TDD1731819 5> undo
+TDD-1731849 undo
+TDD2981652 4> *
+TDD4628366 ? tried xylyl
+TDD-2651119 ? 2
+TDD-508463 📋 "xylyl" ? 
+TDD577256 ? nnMnn
+TDD-5027679 tried: XYLYL n n m n n
+TDD5656558 5> *
+TDD1561068 5> * -sans :v e
+TDD-3774367 ? * -sans :v s
+TDD-190837 ? ␚
+TDD-3252522 <EOF>
+TDD2846822 5> * -sans :v s
+TDD15097079 ? 1
+TDD-14526979 📋 "bleed" ? nMYnn
+TDD-3416812 tried: BLEED n m Y n n
+TDD5173008 6> * -sans
+TDD9239157 ? 2
+TDD-11354243 📋 "whelp" ? nYYYn
+TDD-3057938 tried: WHELP n Y Y Y n
+TDD4189817 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4162028 result: "Don't Wordle 1141 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6585\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1625\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c451\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c65\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c6\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c1\nUndos used: 2\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"
+TDD148931 📆 2025-07-08 ? 
