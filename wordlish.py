@@ -2,10 +2,11 @@ from collections import Counter
 from collections.abc import Iterable
 from dataclasses import dataclass
 from itertools import chain, combinations, permutations
-from typing import Literal, Never, cast, final, override
+from typing import Callable, Literal, Never, cast, final, override
 import re
 
 from strkit import MarkedSpec, PeekStr
+from ui import PromptUI
 
 # TODO evolve square to use
 
@@ -59,6 +60,65 @@ def parse_feedback(tokensOrStr: PeekStr|str) -> Feedback:
     return tuple(
         0 if m[1] else 1 if m[2] else 2
         for m in pk.consume(r'(?x) ([Nn0]) | ([Mm1]) | ([Yy2])'))
+
+@final
+class Question:
+    def __init__(self,
+                 word: str,
+                 then: Callable[[str, Feedback], PromptUI.State],
+                 reject: Callable[[str], PromptUI.State]|None = None,
+                 prefix: Callable[[], str]|str = '',
+                 mark: str = '? ',
+                 ):
+        self.prefix = prefix
+        self.mark = mark
+        self.word = word
+        self.then = then
+        self.reject = reject
+        self.prompt = PromptUI.Prompt(self.mess, {
+            " ": self.parse,
+            '/bad': self.do_bad,
+            '!': '/bad',
+        })
+
+    def parse_feedback(self, ui: PromptUI) -> Feedback:
+        if ui.tokens.have(r'(?i)it$'):
+            return (2,) * len(self.word)
+        return parse_feedback(ui.tokens)
+
+    def do_bad(self, ui: PromptUI):
+        if not self.reject:
+            ui.print(f'! bad word {self.word}!r')
+            raise StopIteration
+        return self.reject(self.word)
+
+    def mess_parts(self, ui: PromptUI):
+        if self.prefix:
+            if callable(self.prefix):
+                yield self.prefix()
+            else:
+                yield self.prefix
+        if self.prompt.re == 0:
+            ui.copy(self.word)
+            yield f'📋 "{self.word}"'
+        yield self.mark
+
+    def mess(self, ui: PromptUI):
+        return ' '.join(self.mess_parts(ui))
+
+    def parse(self, ui: PromptUI) -> PromptUI.State|None:
+        fb = self.parse_feedback(ui)
+        if not fb: return None
+        if len(fb) < len(self.word):
+            ui.print(f'! insufficient feedback, need {len(self.word)} parts')
+            return self
+        elif len(fb) > len(self.word):
+            ui.print(f'! extraneous feedback, only need {len(self.word)} parts')
+            return self
+        return self.then(self.word, fb)
+
+    def __call__(self, ui: PromptUI):
+        return self.prompt(ui)
 
 @dataclass
 class Attempt:
