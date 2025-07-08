@@ -1,0 +1,39 @@
+T0.0002338479971513152 now: 2025-07-08T07:43:57EDT
+TD60313 loaded 196555 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (48 words excluded) asof b1b91cec3af94d6adba953d997df4bebdbafecee
+TDD18156700 [0 : 98235 : 196555] mach? b
+TDD-18216476 progress: -1 98235 mach
+TDD1521485 [0 : 47395 : 98235] dis? a
+TDD-1521807 progress: 1 47395 dis
+TDD1531440 [47396 : 72815 : 98235] gremolata? a
+TDD-1531364 progress: 1 72815 gremolata
+TDD1365945 [72816 : 85520 : 98235] ins? a
+TDD-1366027 progress: 1 85520 ins
+TDD2057231 [85521 : 91865 : 98235] knot? a
+TDD-2057187 progress: 1 91865 knot
+TDD1453202 [91866 : 94962 : 98235] lib? b
+TDD-1453284 progress: -1 94962 lib
+TDD1624478 [91866 : 93285 : 94962] lar? a
+TDD-1624405 progress: 1 93285 lar
+TDD1586399 [93286 : 93913 : 94962] lea? b
+TDD-1586484 progress: -1 93913 lea
+TDD1367260 [93286 : 93577 : 93913] lati? a
+TDD-1367194 progress: 1 93577 lati
+TDD1838417 [93578 : 93731 : 93913] lava? a
+TDD-1838458 progress: 1 93731 lava
+TDD1498189 [93732 : 93785 : 93913] law? b
+TDD-1498188 progress: -1 93785 law
+TDD1404900 [93732 : 93756 : 93785] lave? a
+TDD-1404803 progress: 1 93756 lave
+TDD1495682 [93757 : 93772 : 93785] lavish? b
+TDD-1495714 progress: -1 93772 lavish
+TDD1786680 [93757 : 93762 : 93772] lavender? it
+TDD-1786742 progress: 0 93762 lavender
+TDD-151 [93757 : 93762 : 93772] <Done>.
+TDD2426047 press <Return> to finish
+TDD-2231934 Press <Enter> to 📋 or `>` for line prompt 
+TDD-187251 share result: "\ud83e\udde9 Puzzle #714\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"
+TDD-6842 result puzzle: 714
+TDD-47 result guesses: 14
+TDD-4 result time: 20s
+TDD-1 result link: alphaguess.com
+TDD176121 📆 2025-07-08 ? 
