@@ -9,8 +9,10 @@ from functools import reduce
 from itertools import count
 import re
 from typing import final, override, Callable, Literal, Never, TypeVar
+from warnings import deprecated
 
 from strkit import PeekStr
+from ui import PromptUI
 
 @dataclass
 class MatchPat:
@@ -523,17 +525,39 @@ class Possible[Dat]:
     def index(self) -> Generator[int]:
         yield from self.sample.index(self.scores)
 
+    @deprecated('use .choose()')
     def show_list(self) -> Generator[str]:
         if self.data:
             yield from wrap_items(
                 numbered_item(n, self.show_datum(i))
                 for n, i in enumerate(self.index(), 1))
 
+    @deprecated('use .choose()')
     def get(self, n: int):
         for ln, i in enumerate(self.index(), 1):
             if ln == n:
                 return i
         raise IndexError('possible list ordinal out of range')
+
+    def show_item(self, ui: PromptUI, i: int):
+        # TODO would be nice to recover line wrapping ala wrap_item(s)
+        ui.write(' '.join(self.show_datum(i)))
+
+    def choose(
+        self,
+        then: Callable[[Dat], PromptUI.State|None],
+        head: Callable[[PromptUI], None] = lambda _: None,
+        foot: Callable[[PromptUI], None] = lambda _: None,
+        mess: str | Callable[[PromptUI], str] = '? ',
+    ):
+        return PromptUI.Choose(
+            self.index(),
+            then=lambda i: then(self.data[i]),
+            show=self.show_item,
+            head=head,
+            foot=foot,
+            mess=mess,
+        )
 
 def main():
     import argparse
