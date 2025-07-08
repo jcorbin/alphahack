@@ -574,6 +574,9 @@ class PromptUI:
                 if n.input is not None:
                     self.tokens.raw = n.input
 
+            except StopIteration:
+                return
+
             except EOFError:
                 self.log('<EOF>')
                 self.print(' <EOF>')
@@ -583,11 +586,6 @@ class PromptUI:
                 self.log('<INT>')
                 self.print(' <INT>')
                 raise
-
-            except StopIteration:
-                self.log('<STOP>')
-                self.print(' <STOP>')
-                return
 
     @staticmethod
     @contextmanager
