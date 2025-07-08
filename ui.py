@@ -632,7 +632,7 @@ class PromptUI:
     def run(self, state: State):
         try:
             self.interact(state)
-        except (EOFError, KeyboardInterrupt):
+        except KeyboardInterrupt:
             pass
 
     @classmethod
