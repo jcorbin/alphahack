@@ -46,6 +46,14 @@ def char_ranges(alpha: Iterable[str]):
 Letres = Literal[0,1,2]
 Feedback = tuple[Letres, ...]
 
+def parse_feedback(tokensOrStr: PeekStr|str) -> Feedback:
+    pk = (
+        PeekStr(m[0] for m in re.finditer(r'[^\s+]+', tokensOrStr))
+        if isinstance(tokensOrStr, str) else tokensOrStr)
+    return tuple(
+        0 if m[1] else 1 if m[2] else 2
+        for m in pk.consume(r'(?x) ([Nn0]) | ([Mm1]) | ([Yy2])'))
+
 @dataclass
 class Attempt:
     '''
@@ -70,9 +78,7 @@ class Attempt:
         if expected_size and len(word) != expected_size:
             raise ValueError(f'expected word to be {expected_size} letters, got {len(word)}')
 
-        res: Feedback = tuple(
-            0 if m[1] else 1 if m[2] else 2
-            for m in pk.consume(r'(?x) ([Nn0]) | ([Mm1]) | ([Yy2])'))
+        res = parse_feedback(pk)
         if require_feedback and not res:
             raise ValueError('must provide word feedback')
         if res and len(res) != len(word):
