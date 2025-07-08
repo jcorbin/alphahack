@@ -1,0 +1,106 @@
+T0.0001833930000429973 now: 2025-07-08T13:15:00EDT
+TD36 site: squareword.org
+TDD7648424 🧩  ? #1254
+TDD-7648125 puzzle_id: #1254
+TDD-303 wordlist: nwl2023.txt
+TDD1790912 > *
+TDD2845916 try? 1
+TDD-4634364 questioning: ["ARISE", "#5"]
+TDD1055263 ARISE ( #5 ) ? 
+TDD-1057691 guess: ARISE
+TDD166194 ARISE ( #5 ) > 
+TDD2569970 ARISE ( #5 ) 1> __ise ~ ar
+TDD-2734619 word: 0 __ISE
+TDD-1562 may: 0 A R
+TDD2752163 ARISE ( #5 ) 2> a_ ~ a
+TDD-2752016 word: 1 A____
+TDD-181 may: 1 A
+TDD2185832 ARISE ( #5 ) 3> ~ r
+TDD-2184781 word: 2 _____
+TDD-1021 may: 2 R
+TDD1589956 ARISE ( #5 ) 4> __i
+TDD-1589784 word: 3 __I__
+TDD-197 may: 3 
+TDD1129948 ARISE ( #5 ) 5> ~ se
+TDD-1129788 word: 4 _____
+TDD-162 may: 4 E S
+TDD0 question done
+TDD1709374 > *
+TDD-915619 questioning: ["RAISE", "#1"]
+TDD2236515 RAISE ( #1 ) ? 
+TDD-3030169 guess: RAISE
+TDD162376 RAISE ( #1 ) > 
+TDD926855 RAISE ( #1 ) 1> raise
+TDD-1089192 word: 0 RAISE
+TDD-140 may: 0 
+TDD7540627 RAISE ( #1 ) 2> ␚
+TDD-7540500 question done
+TDD601025 > *
+TDD10218123 try? 1
+TDD-10818958 questioning: ["TUMOR", "#3"]
+TDD229778 TUMOR ( #3 ) ? 
+TDD-230004 guess: TUMOR
+TDD163271 TUMOR ( #3 ) > 
+TDD5172730 TUMOR ( #3 ) 1> 
+TDD-4099500 TUMOR ( #3 ) 2> ~ ao
+TDD-1236404 word: 1 A____
+TDD-185 may: 1 A O
+TDD4049732 TUMOR ( #3 ) 3> ___or ~ o
+TDD-4049531 word: 2 ___OR
+TDD-198 may: 2 O
+TDD2698047 TUMOR ( #3 ) 4> __io ~ o
+TDD-2697906 word: 3 __IO_
+TDD-146 may: 3 O
+TDD2667827 TUMOR ( #3 ) 5> 
+TDD-2667725 question done
+TDD1623789 > /no tum
+TDD-1623536 nope: M T U
+TDD605518 > *
+TDD182991 questioning: ["DONOR", "#3"]
+TDD2142937 DONOR ( #3 ) ? 
+TDD-2931706 guess: DONOR
+TDD138592 DONOR ( #3 ) > 
+TDD1833230 DONOR ( #3 ) 1> 3 donor
+TDD-1971760 word: 2 DONOR
+TDD-157 may: 2 
+TDD5993847 DONOR ( #3 ) 4> 4 ~ on
+TDD-5993644 word: 3 __IO_
+TDD-200 may: 3 N O
+TDD2219378 DONOR ( #3 ) 5> ~ sen
+TDD-2219211 word: 4 _____
+TDD-166 may: 4 E N S
+TDD-3 question done
+TDD1201261 > *
+TDD8292 questioning: ["ALOHA", "#2"]
+TDD1820831 ALOHA ( #2 ) ? 
+TDD-3030223 guess: ALOHA
+TDD184524 ALOHA ( #2 ) > 
+TDD1047837 ALOHA ( #2 ) 1> 2 aloha
+TDD-1232253 word: 1 ALOHA
+TDD-256 may: 1 
+TDD4330862 ALOHA ( #2 ) 3> ␚
+TDD-4330756 question done
+TDD613542 > *
+TDD866754 questioning: ["NECKS", "#5"]
+TDD1989994 NECKS ( #5 ) ? 
+TDD-3470284 guess: NECKS
+TDD221568 NECKS ( #5 ) > 
+TDD4842987 NECKS ( #5 ) 1> 5 necks
+TDD-5064452 word: 4 NECKS
+TDD-229 may: 4 
+TDD-1 question done
+TDD1245603 > ␚
+TDD-1245533 <EOF>
+T0.04145593300017936 now: 2025-07-08T13:16:54EDT
+TD1602291 > *
+TDD-1053720 questioning: ["ONION", "#4"]
+TDD3586731 ONION ( #4 ) ? 
+TDD-4135157 guess: ONION
+TDD3651995 ONION ( #4 ) > 4 onion
+TDD-3651512 word: 3 ONION
+TDD-608 may: 3 
+TDD1618923 ONION ( #4 ) 5> ␚
+TDD-1618792 question done
+TDD3334096 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3329588 result: "squareword.org 1254: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1254"
+TDD159922 📆 2025-07-08 ? 
