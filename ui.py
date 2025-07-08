@@ -502,7 +502,8 @@ class PromptUI:
                     maybe.append(name)
 
             if ui.tokens and slurp is not None:
-                return slurp
+                st = slurp(ui)
+                if st is not None: return st
             if only:
                 _ = next(ui.tokens, None)
                 return only
