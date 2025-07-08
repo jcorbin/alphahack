@@ -389,6 +389,17 @@ class PromptUI:
 
     class Dispatcher:
         def __init__(self, spec: dict[str, State|str]):
+            '''
+            Spec keys match next token, preferring exact match, then
+            unambiguous prefix match.
+
+            The special key " " may provide preemptively parse a state,
+            overriding such exact or prefix matching.
+
+            The special key "" can override default fallthrough behavior, which
+            just prints '! invalid command ...'.
+
+            '''
             def resolve(name: str) -> State:
                 st = spec[name]
                 return resolve(st) if isinstance(st, str) else st
