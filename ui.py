@@ -411,6 +411,12 @@ class PromptUI:
                 for res in (spec[name],)]
             self.re: int = 0
 
+        def items(self) -> Generator[tuple[str, State|str]]:
+            for name, als, then in zip(self.names, self.alias, self.thens):
+                if not als: yield name, then
+            for name, als, then in zip(self.names, self.alias, self.thens):
+                if als: yield name, als
+
         def get(self, name: str):
             i = bisect(self.names, name)
             if 0 < i <= len(self.names) and self.names[i-1] == name:
