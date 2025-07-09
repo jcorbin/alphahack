@@ -174,10 +174,11 @@ class Search(StoredLog):
 
     def display_mess(self, ui: PromptUI):
         pfx = self.prompt_prefix()
-        for m, at in enumerate(self.tried, 1):
-            ui.print(f'{pfx}: {at}')
-        if self.word:
-            ui.print(f'Word: {self.word}')
+        if self.prompt.re == 0:
+            for m, at in enumerate(self.tried, 1):
+                ui.print(f'{pfx}: {at}')
+            if self.word:
+                ui.print(f'Word: {self.word}')
         return f'{pfx}> '
 
     def display(self, ui: PromptUI):
