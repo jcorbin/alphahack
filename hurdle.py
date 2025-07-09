@@ -184,6 +184,28 @@ class Search(StoredLog):
     def display(self, ui: PromptUI):
         if self.run_done or len(self.words) >= self.size:
             return self.finish
+
+        # question prior words at start of round
+        word_n = len(self.words) + 1
+        num_priors = (
+            0 if word_n <= 1
+            else len(self.words) if word_n == self.size
+            else 1)
+        prior_back = num_priors - len(self.tried)
+        back_i = len(self.words) - prior_back
+        if 0 <= back_i < len(self.words):
+            q = self.question(self.words[back_i])
+            rename: dict[str, str] = dict()
+            for name, then in self.prompt.items():
+                if re.match(r'[a-zA-Z]', name):
+                    nom = f'/{name}'
+                    rename[name] = nom
+                    name = nom
+                if isinstance(then, str) and then in rename:
+                    then = rename[then]
+                q.prompt.set(name, then)
+            return ui.interact(q)
+
         return self.prompt(ui)
 
     def do_gen(self, ui: PromptUI):
