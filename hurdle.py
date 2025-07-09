@@ -13,7 +13,7 @@ from sortem import Chooser, DiagScores, Possible, RandScores
 from store import StoredLog, git_txn
 from strkit import spliterate
 from ui import PromptUI
-from wordlish import Attempt, Word
+from wordlish import Attempt, Feedback, Question, Word
 from wordlist import WordList
 
 @final
@@ -211,19 +211,20 @@ class Search(StoredLog):
     def do_tried(self, ui: PromptUI):
         try:
             at = Attempt.parse(ui.tokens, expected_size=self.size)
-            at.word = at.word.upper()
         except ValueError as err:
             ui.print(f'! {err}')
             return
-        ui.log(f'tried: {at}')
-        self.apply_tried(at)
+        self.handle_tried(ui, at)
 
     def do_word(self, ui: PromptUI):
         word = next(ui.tokens)
         if len(word) != self.size:
             ui.print(f'! given word wrong size ({len(word)}), must be {self.size}')
             return
-        at = Attempt(word.upper(), tuple(2 for _ in word))
+        self.handle_tried(ui, Attempt(word, tuple(2 for _ in word)))
+
+    def handle_tried(self, ui: PromptUI, at: Attempt):
+        at.word = at.word.upper()
         ui.log(f'tried: {at}')
         self.apply_tried(at)
 
@@ -302,14 +303,27 @@ class Search(StoredLog):
             if tried_words:
                 yield f'less ∩tried {len(tried_words)}'
 
-        ui.print(' '.join(parts()))
-        for line in pos.show_list():
-            ui.print(line)
+        if pos.data:
+            return ui.interact(pos.choose(
+                then=self.question,
+                head=lambda ui: ui.print(' '.join(parts())),
+                mess=f'{self.prompt_prefix()} ? ',
+            ))
 
-        if not pos.data and tried_words:
-            ui.print('; maybe reconsider:')
-            for i, word in tried_words:
-                ui.print(f'{i+1}. {word}')
+        elif tried_words:
+            return ui.interact(ui.Choose(
+                range(len(tried_words)),
+                then=lambda i: self.question(tried_words[i][1]),
+                head=lambda ui: ui.print(f'{' '.join(parts())}; maybe reconsider:'),
+            ))
+
+    def question(self, word: str):
+        def then(word: str, res: Feedback):
+            def and_then(ui: PromptUI):
+                self.handle_tried(ui, Attempt(word, res))
+                raise StopIteration()
+            return and_then
+        return Question(word, prefix=self.prompt_prefix(), then=then)
 
     def tried_letters(self, word: str):
         for i, let in enumerate(word):
