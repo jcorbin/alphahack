@@ -1,0 +1,139 @@
+T0.00018752399773802608 now: 2025-07-09T09:36:11EDT
+TD35 site: squareword.org
+TDD8218530 🧩  ? #1255
+TDD-8218383 puzzle_id: #1255
+TDD-168 wordlist: nwl2023.txt
+TDD863788 > *
+TDD6678826 try? 
+TDD-5089261 try? 7
+TDD-2450730 questioning: ["RAISE", "#5"]
+TDD2003708 RAISE ( #5 ) ? 
+TDD-2006031 guess: RAISE
+TDD192972 RAISE ( #5 ) > 
+TDD1058068 RAISE ( #5 ) 1> ~ ras
+TDD-1250226 word: 0 _____
+TDD-1099 may: 0 A R S
+TDD1630195 RAISE ( #5 ) 2> ~~ e
+TDD-1630011 word: 1 _____
+TDD-194 may: 1 
+TDD4763071 RAISE ( #5 ) 3> 2 ~ e
+TDD-4762845 word: 1 _____
+TDD-184 may: 1 E
+TDD3269597 RAISE ( #5 ) 3> __i_e
+TDD-3269412 word: 2 __I_E
+TDD-222 may: 2 
+TDD2697792 RAISE ( #5 ) 4> _a ~ se
+TDD-2697644 word: 3 _A___
+TDD-155 may: 3 E S
+TDD25065600 RAISE ( #5 ) 5> __i_e ~ s
+TDD-25065327 word: 4 __I_E
+TDD-262 may: 4 S
+TDD2 question done
+TDD5281311 > *
+TDD5858751 try? snide
+TDD-9465837 try? ␚
+TDD-318577 > snide
+TDD-1355408 questioning: ["SNIDE", "entered"]
+TDD6485024 SNIDE ( entered ) ? 
+TDD-6485146 guess: SNIDE
+TDD489762 SNIDE ( entered ) > 
+TDD2557988 SNIDE ( entered ) 1> s_
+TDD-3047800 word: 0 S____
+TDD-88 may: 0 A R
+TDD4183851 SNIDE ( entered ) 2> _ni_e
+TDD-4183601 word: 1 _NI_E
+TDD-233 may: 1 
+TDD4599050 SNIDE ( entered ) 3> 2 _____ ~ e
+TDD-4598774 word: 1 _____
+TDD-271 may: 1 E
+TDD2495968 SNIDE ( entered ) 3> _ni_e
+TDD-2495778 word: 2 _NI_E
+TDD-188 may: 2 
+TDD5936250 SNIDE ( entered ) 4> 5 s_ide
+TDD-5936049 word: 4 S_IDE
+TDD-200 may: 4 
+TDD0 question done
+TDD11033506 > *
+TDD-10307692 questioning: ["SLIDE", "#5"]
+TDD2526139 SLIDE ( #5 ) ? 
+TDD-3251788 guess: SLIDE
+TDD169327 SLIDE ( #5 ) > 
+TDD2187577 SLIDE ( #5 ) 1> 2 ~ el
+TDD-2356836 word: 1 _____
+TDD-229 may: 1 E L
+TDD2844827 SLIDE ( #5 ) 3> 5 slide
+TDD-2844658 word: 4 SLIDE
+TDD-175 may: 4 
+TDD-4 question done
+TDD671695 > *
+TDD2557963 try? 2
+TDD-3229325 questioning: ["KNIFE", "#3"]
+TDD3610660 KNIFE ( #3 ) ? 
+TDD-3610875 guess: KNIFE
+TDD162231 KNIFE ( #3 ) > 
+TDD2300484 KNIFE ( #3 ) 1> 4 ~ sek
+TDD-2462679 word: 3 _A___
+TDD-156 may: 3 E K S
+TDD6849641 KNIFE ( #3 ) 5> ␚
+TDD-6849299 question done
+TDD766793 > /no f
+TDD-766983 nope: F
+TDD526772 > *
+TDD1768523 questioning: ["UNITE", "#3"]
+TDD1293276 UNITE ( #3 ) ? 
+TDD-3588622 guess: UNITE
+TDD157569 UNITE ( #3 ) > 
+TDD1291121 UNITE ( #3 ) 1> 3 unite
+TDD-1448630 word: 2 UNITE
+TDD-166 may: 2 
+TDD4506003 UNITE ( #3 ) 4> 1 ~ rat
+TDD-4505809 word: 0 S____
+TDD-187 may: 0 A R T
+TDD2615506 UNITE ( #3 ) 2> ␚
+TDD-2615409 question done
+TDD437811 > *
+TDD5409187 try? 1
+TDD-5846882 questioning: ["BAKES", "#4"]
+TDD153734 BAKES ( #4 ) ? 
+TDD-153831 guess: BAKES
+TDD135361 BAKES ( #4 ) > 
+TDD1710623 BAKES ( #4 ) 1> 4 _akes
+TDD-1845929 word: 3 _AKES
+TDD-172 may: 3 
+TDD2828002 BAKES ( #4 ) 5> ␚
+TDD-2827903 question done
+TDD742462 > *
+TDD1402491 questioning: ["LEECH", "#2"]
+TDD2117431 LEECH ( #2 ) ? 
+TDD-4262390 guess: LEECH
+TDD141326 LEECH ( #2 ) > 
+TDD1115386 LEECH ( #2 ) 1> 2 leech
+TDD-1256620 word: 1 LEECH
+TDD-194 may: 1 
+TDD3266830 LEECH ( #2 ) 3> ␚
+TDD-3266775 question done
+TDD722394 > /no b
+TDD-722276 nope: B F
+TDD428475 > *
+TDD1076329 questioning: ["SPRAT", "#1"]
+TDD1971238 SPRAT ( #1 ) ? 
+TDD-3476173 guess: SPRAT
+TDD166522 SPRAT ( #1 ) > 
+TDD1186459 SPRAT ( #1 ) 1> 1 sprat
+TDD-1352947 word: 0 SPRAT
+TDD-91 may: 0 
+TDD2552098 SPRAT ( #1 ) 2> ␚
+TDD-2551997 question done
+TDD652536 > *
+TDD454996 questioning: ["MAKES", "#4"]
+TDD2134376 MAKES ( #4 ) ? 
+TDD-3241860 guess: MAKES
+TDD222324 MAKES ( #4 ) > 
+TDD1085143 MAKES ( #4 ) 1> 4 makes
+TDD-1307264 word: 3 MAKES
+TDD-317 may: 3 
+TDD5791021 MAKES ( #4 ) 5> ␚
+TDD-5790950 question done
+TDD2538067 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2532290 result: "squareword.org 1255: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1255"
+TDD147236 📆 2025-07-09 ? 
