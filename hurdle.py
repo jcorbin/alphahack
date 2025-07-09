@@ -167,13 +167,18 @@ class Search(StoredLog):
         if self.result is not None: return True
         return False
 
+    def prompt_prefix(self):
+        word_n = len(self.words) + 1
+        word_m = len(self.tried) + 1
+        return f'{word_n}.{word_m}'
+
     def display_mess(self, ui: PromptUI):
-        n = len(self.words)+1
+        pfx = self.prompt_prefix()
         for m, at in enumerate(self.tried, 1):
-            ui.print(f'{n}.{m}: {at}')
+            ui.print(f'{pfx}: {at}')
         if self.word:
             ui.print(f'Word: {self.word}')
-        return f'{n}.{len(self.tried)+1}> '
+        return f'{pfx}> '
 
     def display(self, ui: PromptUI):
         if self.run_done or len(self.words) >= self.size:
