@@ -1,0 +1,95 @@
+T0.0003866420011036098 now: 2025-07-09T08:49:09EDT
+TD80 site: https://play.dictionary.com/games/todays-hurdle
+TDD-33 wordlist: nwl2023.txt
+TDD44306334 1.1> *
+TDD-42690152 ? 1
+TDD3225684 📋 "cares" ? nMnnM
+TDD-4841037 tried: CARES n m n n m
+TDD2302226 1.2> *
+TDD2049042 ? 2
+TDD-1053104 📋 "slant" ? YnYnn
+TDD-3298735 tried: SLANT Y n Y n n
+TDD817251 1.3> *
+TDD1563253 ? 3
+TDD4333290 📋 "spasm" ? YnYnn
+TDD-6713742 tried: SPASM Y n Y n n
+TDD868539 1.4> *
+TDD4637834 ? 1
+TDD-2486132 📋 "shaky" ? YYYnY
+TDD-3020259 tried: SHAKY Y Y Y n Y
+TDD1357373 1.5> *
+TDD75451 ? 1
+TDD2386404 📋 "shady" ? it
+TDD-3819309 tried: SHADY Y Y Y Y Y
+T0.040655510005308315 now: 2025-07-09T08:54:00EDT
+T0.04109221800172236 now: 2025-07-09T08:54:48EDT
+T0.04112539000198012 now: 2025-07-09T08:54:59EDT
+T0.04226253700471716 now: 2025-07-09T08:57:23EDT
+TD18872406 📋 "shady" ? nnnMn
+TDD-18871658 tried: SHADY n n n m n
+TDD1423286 2.2> *
+TDD1326068 ? 2
+TDD1406854 📋 "drink" ? YnnMn
+TDD-4156628 tried: DRINK Y n n m n
+TDD1338113 2.3> *
+TDD5723258 ? 1
+TDD-3974135 📋 "dozen" ? YYnnM
+TDD-3087168 tried: DOZEN Y Y n n m
+TDD1268856 2.4> *
+TDD1395010 ? 1
+TDD10944396 📋 "donut" ? it
+TDD-13608553 tried: DONUT Y Y Y Y Y
+T0.041726802999619395 now: 2025-07-09T09:08:17EDT
+TD4360450 3.1 📋 "donut" ? MYnnn
+TDD-4359494 tried: DONUT m Y n n n
+TDD1176183 3.2> *
+TDD780083 ? 2
+TDD8775771 📋 "lords" ? nYnYn
+TDD-10732845 tried: LORDS n Y n Y n
+TDD711632 3.3> ␚
+TDD-711698 <EOF>
+T0.04135761699581053 now: 2025-07-09T09:14:25EDT
+TD3058343 3.3> *
+TDD2384386 3.3 ? 4
+TDD2499420 3.3 📋 "poked" ? nYnnM
+TDD-7941677 tried: POKED n Y n n m
+TDD1381922 3.4> *
+TDD3254332 <INT>
+TDD-4636509 <INT>
+T0.04249948500364553 now: 2025-07-09T09:16:48EDT
+TD873906 3.4> *
+TDD35624847 3.4 📋 "iodic" ? nYMnn
+TDD-36498052 tried: IODIC n Y m n n
+TDD2271765 <INT>
+T0.05059050300042145 now: 2025-07-09T09:17:48EDT
+TD703251 3.5> *
+TDD9977682 3.5 ? 1
+TDD-5970884 3.5 📋 "howdy" ? it
+TDD-4709525 tried: HOWDY Y Y Y Y Y
+TDD7437314 4.1 📋 "howdy" ? nMnnn
+TDD-7437568 tried: HOWDY n m n n n
+TDD22426519 4.2> *
+TDD-20916855 4.2 ? 1
+TDD4884427 4.2 📋 "arose" ? nnYnY
+TDD-6394117 tried: AROSE n n Y n Y
+TDD897332 4.3> *
+TDD778661 4.3 ? 1
+TDD4806308 4.3 📋 "clone" ? it
+TDD-6482339 tried: CLONE Y Y Y Y Y
+T0.04133501600153977 now: 2025-07-09T09:21:33EDT
+TD5923615 5.1 📋 "shady" ? Ynnnn
+TDD-5923163 tried: SHADY Y n n n n
+TDD2857278 5.2 📋 "donut" ? nnMnn
+TDD-2857455 tried: DONUT n n m n n
+TDD3896088 5.3 📋 "howdy" ? nnMnn
+TDD-3896040 tried: HOWDY n n m n n
+TDD2681335 5.4 📋 "clone" ? nnnYn
+TDD-2681202 tried: CLONE n n n Y n
+TDD1809649 5.5> *
+TDD3654367 5.5 ? it
+TDD-2093708 5.5 ? 2
+TDD-2416999 5.5 📋 "swing" ? it
+TDD-953548 tried: SWING Y Y Y Y Y
+TDD3630028 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3623568 result: "Hurdle 1285\n\n5/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,800"
+TDD129369 📆 2025-07-09 ? 
