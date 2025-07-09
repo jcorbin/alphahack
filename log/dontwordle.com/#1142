@@ -1,0 +1,43 @@
+T0.0001792960028978996 now: 2025-07-09T07:31:34EDT
+TD34 site: dontwordle.com
+TDD-10 wordlist: nwl2023.txt
+TDD2238713 1> *
+TDD-746490 ? 1
+TDD3940918 📋 "whizz" ? nnnnn
+TDD-5432441 tried: WHIZZ n n n n n
+TDD985222 2> *
+TDD421227 ? 1
+TDD4077351 📋 "qajaq" ? nnnnn
+TDD-5484150 tried: QAJAQ n n n n n
+TDD743149 3> *
+TDD790174 ? 1
+TDD6466109 📋 "poopy" ? nYnnn
+TDD-7999614 tried: POOPY n Y n n n
+TDD1712355 4> undo
+TDD-1712393 undo
+TDD862483 3> *
+TDD7887564 ? 1
+TDD-3949910 📋 "emcee" ? nnnnY
+TDD-4800019 tried: EMCEE n n n n Y
+TDD2068860 4> undo
+TDD-2068846 undo
+TDD1199987 3> *
+TDD9421404 ? 1
+TDD-4313953 📋 "cusps" ? nnnnn
+TDD-6307496 tried: CUSPS n n n n n
+TDD3378593 4> *
+TDD-710326 ? 3
+TDD5816467 📋 "xylyl" ? nnMnn
+TDD-8484732 tried: XYLYL n n m n n
+TDD1117793 5> *
+TDD2419169 5> * -sans :v o
+TDD4822204 ? 2
+TDD-5555644 📋 "blend" ? nMMnM
+TDD-2803433 tried: BLEND n m m n m
+TDD2289591 6> * -sans
+TDD8120907 ? 1
+TDD-8498880 📋 "lodge" ? yyyyy
+TDD-1911535 tried: LODGE Y Y Y Y Y
+TDD3328230 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3322523 result: "Don't Wordle 1142 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7148\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3723\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c784\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c86\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe85\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 2"
+TDD307402 📆 2025-07-09 ? 
