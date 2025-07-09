@@ -1,0 +1,37 @@
+T0.00021966599888401106 now: 2025-07-09T07:25:06EDT
+TD62929 loaded 196555 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (48 words excluded) asof 82ef6f7cd2b204f9c5040664c7542f86330a396b
+TDD5329234 [0 : 98235 : 196555] mach? b
+TDD-5391487 progress: -1 98235 mach
+TDD1479156 [0 : 47395 : 98235] dis? b
+TDD-1479650 progress: -1 47395 dis
+TDD1995280 [0 : 23581 : 47395] cam? a
+TDD-1995331 progress: 1 23581 cam
+TDD1513994 [23582 : 33713 : 47395] con? a
+TDD-1513919 progress: 1 33713 con
+TDD2077034 [33714 : 40539 : 47395] cyclo? b
+TDD-2077014 progress: -1 40539 cyclo
+TDD1921048 [33714 : 37122 : 40539] count? a
+TDD-1920992 progress: 1 37122 count
+TDD1807081 [37123 : 38822 : 40539] crook? b
+TDD-1807070 progress: -1 38822 crook
+TDD1809578 [37123 : 37966 : 38822] cram? a
+TDD-1809657 progress: 1 37966 cram
+TDD1554793 [37967 : 38378 : 38822] crenel? b
+TDD-1554834 progress: -1 38378 crenel
+TDD1511591 [37967 : 38155 : 38378] craw? b
+TDD-1511549 progress: -1 38155 craw
+TDD1705552 [37967 : 38058 : 38155] crannog? b
+TDD-1705587 progress: -1 38058 crannog
+TDD1563993 [37967 : 38008 : 38058] crania? b
+TDD-1564009 progress: -1 38008 crania
+TDD1801620 [37967 : 37980 : 38008] cramp? it
+TDD-1801588 progress: 0 37980 cramp
+TDD-157 [37967 : 37980 : 38008] <Done>.
+TDD2691925 press <Return> to finish
+TDD-2525788 Press <Enter> to 📋 or `>` for line prompt 
+TDD-160256 share result: "\ud83e\udde9 Puzzle #715\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5849 result puzzle: 715
+TDD-41 result guesses: 13
+TDD-7 result time: 21s
+TDD-2 result link: alphaguess.com
+TDD203207 📆 2025-07-09 ? 
