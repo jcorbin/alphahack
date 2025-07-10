@@ -1,0 +1,188 @@
+T0.00017069699242711067 now: 2025-07-10T08:59:36EDT
+TD43 site: squareword.org
+TDD6909753 🧩  ? #1256
+TDD-6909618 puzzle_id: #1256
+TDD-155 wordlist: nwl2023.txt
+TDD2455914 > *
+TDD957458 try? 1
+TDD-3413021 questioning: ["STEAL", "#5"]
+TDD4056476 STEAL ( #5 ) ? 
+TDD-4056729 guess: STEAL
+TDD173077 STEAL ( #5 ) > 
+TDD1753822 STEAL ( #5 ) 1> ~ sa
+TDD-1925997 word: 0 _____
+TDD-999 may: 0 A S
+TDD1643901 STEAL ( #5 ) 2> ~ teal
+TDD-1643668 word: 1 _____
+TDD-229 may: 1 A E L T
+TDD3050260 STEAL ( #5 ) 3> ~ tea
+TDD-3050022 word: 2 _____
+TDD-235 may: 2 A E T
+TDD1412845 STEAL ( #5 ) 4> ~ a
+TDD-1412644 word: 3 _____
+TDD-207 may: 3 A
+TDD1344900 STEAL ( #5 ) 5> ~ st
+TDD-1344706 word: 4 _____
+TDD-198 may: 4 S T
+TDD0 question done
+TDD1058984 > *
+TDD3211321 try? 3
+TDD-4270055 questioning: ["LATER", "#2"]
+TDD3208486 LATER ( #2 ) ? 
+TDD-3208578 guess: LATER
+TDD161823 LATER ( #2 ) > 
+TDD13540377 LATER ( #2 ) 1> 3 _ater ~ e
+TDD-13702074 word: 2 _ATER
+TDD-283 may: 2 E
+TDD3798959 LATER ( #2 ) 4> ~ ar
+TDD-3798775 word: 3 _____
+TDD-183 may: 3 A R
+TDD5952171 LATER ( #2 ) 5> ~ str
+TDD-5951971 word: 4 _____
+TDD-199 may: 4 R S T
+TDD-2 question done
+TDD908949 > *
+TDD1625160 try? 1
+TDD-2533888 questioning: ["DEALT", "#2"]
+TDD3871114 DEALT ( #2 ) ? 
+TDD-3871147 guess: DEALT
+TDD162527 DEALT ( #2 ) > 
+TDD2965515 DEALT ( #2 ) 1> __a ~ sa
+TDD-3128039 word: 0 __A__
+TDD-192 may: 0 A S
+TDD4802906 DEALT ( #2 ) 2> de_ ~ tal
+TDD-4802660 word: 1 DE___
+TDD-238 may: 1 A L T
+TDD3407596 DEALT ( #2 ) 3> 
+TDD-912683 DEALT ( #2 ) 4> __a
+TDD-2494571 word: 3 __A__
+TDD-335 may: 3 R
+TDD1828868 DEALT ( #2 ) 5> 
+TDD-1828774 question done
+TDD850808 > *
+TDD-139831 questioning: ["DELTA", "#2"]
+TDD3920327 DELTA ( #2 ) ? 
+TDD-4631256 guess: DELTA
+TDD144794 DELTA ( #2 ) > 
+TDD2376803 DELTA ( #2 ) 1> 2 delta
+TDD-2521525 word: 1 DELTA
+TDD-190 may: 1 
+TDD4425495 DELTA ( #2 ) 3> ␚
+TDD-4425363 question done
+TDD681115 > *
+TDD7469825 try? eater
+TDD-5299289 try? 2
+TDD-2851588 questioning: ["GATER", "#3"]
+TDD5074369 GATER ( #3 ) ? 
+TDD-5074484 guess: GATER
+TDD142032 GATER ( #3 ) > 
+TDD1245994 GATER ( #3 ) 1> 3 eater
+TDD-1387898 word: 2 EATER
+TDD-236 may: 2 
+TDD6210084 GATER ( #3 ) 4> ␚
+TDD-6209981 question done
+TDD556896 > *
+TDD1396145 questioning: ["EATER", "#3"]
+TDD8272236 EATER ( #3 ) ? ␚
+TDD-10225278 question done
+TDD1512114 > *
+TDD451916 questioning: ["EATER", "#3"]
+TDD12204608 EATER ( #3 ) ? ␚
+TDD-14168711 question done
+TDD1368122 <INT>
+TDD-1367991 <INT>
+TDD-162 <INT>
+TDD13 <INT>
+TDD-19 <INT>
+TDD-3 <INT>
+TDD0 <INT>
+TDD1 <INT>
+T0.04147622099844739 now: 2025-07-10T09:03:24EDT
+TD1745774 > *
+TDD-946400 questioning: ["EATER", "#3"]
+TDD3093991 <INT>
+TDD-3893203 <INT>
+T0.04181512599461712 now: 2025-07-10T09:05:06EDT
+TD738648 EATER ( #3 ) ? *
+TDD1625955 <INT>
+T0.0418459780048579 now: 2025-07-10T09:05:10EDT
+TD2687146 EATER ( #3 ) ? *
+TDD1953342 <INT>
+T0.04270448700117413 now: 2025-07-10T09:05:20EDT
+TD928624 EATER ( #3 ) ? ␚
+TDD-928471 question done
+TDD2023069 > *
+TDD-1207477 questioning: ["EATER", "#3"]
+TDD507511305 <INT>
+TDD-508326901 <INT>
+T0.04221007600426674 now: 2025-07-10T09:13:55EDT
+TD1522808 EATER ( #3 ) ? ␚
+TDD-1522662 question done
+TDD692639 > *
+TDD107801 questioning: ["EATER", "#3"]
+TDD70388109 <INT>
+TDD-71188570 <INT>
+T0.04139611301070545 now: 2025-07-10T09:15:40EDT
+TD2981038 EATER ( #3 ) ? ␚
+TDD-2980862 question done
+TDD529321 > *
+TDD269795 questioning: ["EATER", "#3"]
+TDD41818816 <INT>
+TDD-42617983 <INT>
+T0.04171190501074307 now: 2025-07-10T09:16:28EDT
+TD1905908 EATER ( #3 ) ? ␚
+TDD-1905799 question done
+TDD448348 > *
+TDD350475 questioning: ["EATER", "#3"]
+TDD59435472 <INT>
+TDD-60234274 <INT>
+T0.04294365699752234 now: 2025-07-10T09:17:32EDT
+TD938170 EATER ( #3 ) ? ␚
+TDD-937972 question done
+TDD461252 > *
+TDD341499 questioning: ["EATER", "#3"]
+TDD78646482 EATER ( #3 ) ? ␚
+TDD-79449301 question done
+TDD22500121 > ␚
+TDD-22500155 <EOF>
+TDD873887 <INT>
+T0.04239220599993132 now: 2025-07-10T09:19:19EDT
+TD868729 > *
+TDD2263890 try? ␚
+TDD-3132530 <EOF>
+TDD13468199 > ␚
+TDD-13468209 <EOF>
+T0.042882806999841705 now: 2025-07-10T09:19:41EDT
+TD1310477 > *
+TDD9384753 try? 2
+TDD-10694791 questioning: ["AWASH", "#1"]
+TDD490615 AWASH ( #1 ) ? 
+TDD-490979 guess: AWASH
+TDD677062 AWASH ( #1 ) > 
+TDD1914471 AWASH ( #1 ) 1> awash
+TDD-2590828 word: 0 AWASH
+TDD-754 may: 0 
+TDD6222414 AWASH ( #1 ) 2> ␚
+TDD-6222285 question done
+TDD852407 > *
+TDD-339118 questioning: ["PRANK", "#4"]
+TDD4059493 PRANK ( #4 ) ? 
+TDD-4572832 guess: PRANK
+TDD412248 PRANK ( #4 ) > 
+TDD1143691 PRANK ( #4 ) 1> 4 prank
+TDD-1555861 word: 3 PRANK
+TDD-166 may: 3 
+TDD1467335 PRANK ( #4 ) 5> ␚
+TDD-1467207 question done
+TDD594189 > *
+TDD-102002 questioning: ["TYROS", "#5"]
+TDD3196587 TYROS ( #5 ) ? 
+TDD-3688728 guess: TYROS
+TDD174919 TYROS ( #5 ) > 
+TDD2946232 TYROS ( #5 ) 1> 5 tyros
+TDD-3121170 word: 4 TYROS
+TDD-158 may: 4 
+TDD1 question done
+TDD6786670 Press <Enter> to 📋 or `>` for line prompt 
+TDD-6779998 result: "squareword.org 1256: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1256"
+TDD384736 📆 2025-07-10 ? 
