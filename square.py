@@ -412,7 +412,8 @@ class Search(StoredLog):
             self.word = Word(len(self.yes))
             word = self.word
             for c in self.void:
-                word.cannot(c)
+                if c not in self.yes:
+                    word.cannot(c)
             if self.guesses:
                 for at in self.attempts:
                     word.collect(at)
