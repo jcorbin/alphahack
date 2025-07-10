@@ -127,7 +127,7 @@ class Search(StoredLog):
                     $''', rest)
                 if match:
                     at = Attempt.parse(match[1], expected_size=self.size)
-                    self.apply_tried(at)
+                    _ = self.apply_tried(at)
                     continue
 
                 match = re.match(r'''(?x)
@@ -248,9 +248,11 @@ class Search(StoredLog):
     def handle_tried(self, ui: PromptUI, at: Attempt):
         at.word = at.word.upper()
         ui.log(f'tried: {at}')
-        self.apply_tried(at)
+        if self.apply_tried(at):
+            ui.print('')
+            ui.print('--- next word')
 
-    def apply_tried(self, at: Attempt):
+    def apply_tried(self, at: Attempt) -> bool:
         self.tried.append(at)
         self.word.collect(at)
         if self.word.done:
@@ -258,6 +260,8 @@ class Search(StoredLog):
             self.attempts.append(tuple(at.word for at in self.tried))
             self.word.reset()
             self.tried = []
+            return True
+        return False
 
     def guess(self, ui: PromptUI, show_n: int=10):
         verbose = 0
