@@ -417,6 +417,8 @@ class Search(StoredLog):
             if self.guesses:
                 for at in self.attempts:
                     word.collect(at)
+                for i, c in enumerate(self.yes):
+                    word.yes[i] = c
             else:
                 for i, c in enumerate(self.yes):
                     word.yes[i] = c
