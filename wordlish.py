@@ -46,6 +46,12 @@ def char_ranges(alpha: Iterable[str]):
 Letres = Literal[0,1,2]
 Feedback = tuple[Letres, ...]
 
+def feedback_letters(res: Feedback):
+    for c in res:
+        if c == 2: yield 'Y'
+        elif c == 1: yield 'm'
+        else: yield 'n'
+
 def parse_feedback(tokensOrStr: PeekStr|str) -> Feedback:
     pk = (
         PeekStr(m[0] for m in re.finditer(r'[^\s+]+', tokensOrStr))
@@ -88,10 +94,7 @@ class Attempt:
 
     @property
     def feedback_letters(self):
-        for c in self.res:
-            if c == 2: yield 'Y'
-            elif c == 1: yield 'm'
-            else: yield 'n'
+        return feedback_letters(self.res)
 
     @override
     def __str__(self):
