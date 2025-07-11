@@ -1,0 +1,173 @@
+T0.0001875959860626608 now: 2025-07-11T09:21:46EDT
+TD34 site: squareword.org
+TDD7465250 🧩  ? #1257
+TDD-7464999 puzzle_id: #1257
+TDD-257 wordlist: nwl2023.txt
+TDD861583 > *
+TDD2907202 try? 2
+TDD-3768339 questioning: ["SPATE", "#5"]
+T0.0409795599989593 now: 2025-07-11T09:41:17EDT
+TD73 questioning: ["SPATE", "#5"]
+TDD7848656 #1 📋 "SPATE" ? __a ~ s
+TDD-2538154 #1 ? __a__ ~ s
+TDD-5310088 attempt 0 SPATE m n Y n n
+TDD3112818 #2 📋 "SPATE" ? ~ p
+TDD-296120 #2 ? _____ ~ p
+TDD-2816796 attempt 1 SPATE n m n n n
+TDD7766367 #3 📋 "SPATE" ? __a__ ~ a
+TDD-7766419 attempt 2 SPATE n n Y n n
+TDD6818321 #4 📋 "SPATE" ? ___t_ ~ ae
+TDD-6818057 attempt 3 SPATE n n m Y m
+TDD3948177 #5 📋 "SPATE" ? s____ ~ e
+TDD-3948299 attempt 4 SPATE Y n n n m
+TDD4604156 ? 
+T0.04148090598755516 now: 2025-07-11T09:47:32EDT
+TD55 questioning: ["SPATE", "#5"]
+TDD3884573 ? 
+TDD-3884189 question done
+TDD12057606 > *
+TDD-7909766 try? 2
+TDD-4147818 questioning: ["SPITE", "#5"]
+TDD16609796 #1 📋 "SPITE" ? 
+TDD-6706008 #1 ? __a__ ~ s
+TDD-9903191 attempt 0 SPITE m n n n n
+TDD3566863 #2 📋 "SPITE" ? ~ pi
+TDD936662 #2 ? _____ ~ pi
+TDD-4504224 attempt 1 SPITE n m m n n
+TDD5323421 #3 📋 "SPITE" ? __a__ ~ ai
+TDD-5323386 attempt 2 SPITE n n m n n
+TDD3747895 #4 📋 "SPITE" ? ___t_ ~ ae
+TDD-3747858 attempt 3 SPITE n n n Y m
+TDD9392271 #5 📋 "SPITE" ? s____ ~ e
+TDD-9392024 attempt 4 SPITE Y n n n m
+TDD1069481 ? 
+TDD17877388 > 
+TDD-14902826 > 
+TDD-3607359 > 
+TDD-268994 > 
+TDD19634 > 
+TDD817255 > ␚
+TDD-1005045 <EOF>
+T0.041927056008717045 now: 2025-07-11T09:55:57EDT
+TD49 questioning: ["SPITE", "#5"]
+TDD7104362 ? 
+TDD-7104061 question done
+TDD6946097 > *
+TDD5794045 try? 3
+TDD-12740102 questioning: ["EARTH", "#4"]
+TDD7317962 #1 📋 "EARTH" ? __a__ ~ s
+TDD-7317052 attempt 0 EARTH n n n n n
+TDD2881330 #2 📋 "EARTH" ? ~ pih
+TDD892630 #2 ? _____ ~ pih
+TDD-3774767 attempt 1 EARTH n n n n m
+TDD4335414 #3 📋 "EARTH" ? __a__ ~ ai
+TDD-4335635 attempt 2 EARTH n m n n n
+TDD6035802 #4 📋 "EARTH" ? ___t_ ~ aer
+TDD-6035689 attempt 3 EARTH m m m Y n
+TDD4202447 #5 📋 "EARTH" ? s____ ~ er
+TDD-4202452 attempt 4 EARTH m n m n n
+TDD1620435 ? 
+TDD-221317 > *
+TDD-890497 questioning: ["RECTA", "#4"]
+TDD14772113 #1 📋 "RECTA" ? !
+TDD-15280924 reject: RECTA
+TDD1945928 > *
+TDD6936076 try? 1
+TDD-8881956 questioning: ["HIPLY", "#2"]
+TDD339117 #1 📋 "HIPLY" ? 
+TDD4537360 #1 ? __a__ ~ sl
+TDD-4876383 attempt 0 HIPLY n n n m n
+TDD17062949 #2 📋 "HIPLY" ? hip__ ~ p
+TDD-17063005 attempt 1 HIPLY Y Y Y n n
+TDD5396720 #3 📋 "HIPLY" ? __a__ ~ ail
+TDD-5396759 attempt 2 HIPLY n m n m n
+TDD4635612 #4 📋 "HIPLY" ? ___t_ ~ aer
+TDD-4635472 attempt 3 HIPLY n n n n n
+TDD3895383 #5 📋 "HIPLY" ? s____ ~ er
+TDD-3895436 attempt 4 HIPLY n n n n n
+TDD1784368 ? 
+TDD-1090924 > *
+TDD-223471 questioning: ["HIPPO", "#2"]
+TDD4313474 #1 📋 "HIPPO" ? 
+TDD-1910640 #1 ? 
+TDD6405558 #1 ? __a__ ~ sl
+TDD-9278282 attempt 0 HIPPO n n n n n
+TDD8286072 #2 📋 "HIPPO" ? it
+TDD-4812878 #2 ? hippo
+TDD-3472947 attempt 1 HIPPO Y Y Y Y Y
+TDD4740153 #3 📋 "HIPPO" ? __a__ ~ ail
+TDD-4740476 attempt 2 HIPPO n m n n n
+TDD4149564 #4 📋 "HIPPO" ? ___t_ ~ aer
+TDD-4149487 attempt 3 HIPPO n n n n n
+TDD3505655 #5 📋 "HIPPO" ? s____ ~ er
+TDD-3505747 attempt 4 HIPPO n n n n n
+TDD2291266 ? 
+TDD-1717915 > *
+TDD5653253 try? 3
+TDD-6226693 questioning: ["SNEER", "#5"]
+TDD4806337 #1 📋 "SNEER" ? 
+TDD-1304350 #1 ? __a__ ~ sl
+TDD-3501916 attempt 0 SNEER m n n n n
+TDD6549841 #3 📋 "SNEER" ? __a__ ~ ail
+TDD-6549704 attempt 2 SNEER n n n n n
+TDD19214854 #4 📋 "SNEER" ? ___t_ ~ aer
+TDD-19215072 attempt 3 SNEER n n m m m
+TDD1344541 #5 📋 "SNEER" ? sneer
+TDD-1344434 attempt 4 SNEER Y Y Y Y Y
+TDD1618311 ? *
+TDD2282605 #5 📋 "SNEER" ? 
+TDD-2822053 #5 ? ␚
+TDD-1079108 <EOF>
+TDD1021561 > *
+TDD2957416 try? 1
+TDD-3978763 questioning: ["AVAIL", "#3"]
+TDD4121028 #1 📋 "AVAIL" ? 
+TDD392385 #1 ? __a__ ~ sl
+TDD-4513351 attempt 0 AVAIL n n Y n m
+TDD3825606 #3 📋 "AVAIL" ? avail
+TDD-3825606 attempt 2 AVAIL Y Y Y Y Y
+TDD8446869 #4 📋 "AVAIL" ? ___t_ ~ aer
+TDD-8446850 attempt 3 AVAIL m n m n n
+TDD1598346 ? 
+TDD-710244 > *
+TDD7954529 try? 1
+TDD-8842700 questioning: ["FLAWS", "#1"]
+TDD6148834 #1 📋 "FLAWS" ? 
+TDD-1311826 #1 ? _la_s ~ s
+TDD-4836821 attempt 0 FLAWS n Y Y n Y
+TDD5362040 #4 📋 "FLAWS" ? ___t_ ~ aer
+TDD-5362182 attempt 3 FLAWS n n m n n
+TDD1382263 ? 
+TDD-804648 > *
+TDD9077791 try? 5
+TDD-9655440 questioning: ["CLAMS", "#1"]
+TDD20790375 <INT>
+TDD-20790537 <INT>
+T0.044226565019926056 now: 2025-07-11T10:01:17EDT
+TD51 questioning: ["CLAMS", "#1"]
+TDD4279611 #1 📋 "CLAMS" ? cla_s ~ s
+TDD-4279241 attempt 0 CLAMS Y Y Y n Y
+TDD7244422 #4 📋 "CLAMS" ? ___t_ ~ aerc
+TDD-7244424 attempt 3 CLAMS m n m n n
+TDD1649732 ? 
+T0.04576124998857267 now: 2025-07-11T10:01:32EDT
+TD46 questioning: ["CLAMS", "#1"]
+TDD856666 ? *
+TDD74398 ? 
+TDD-930811 question done
+TDD944255 > *
+TDD-317674 questioning: ["CLASS", "#1"]
+TDD5545916 #1 📋 "CLASS" ? class
+TDD-6171768 attempt 0 CLASS Y Y Y Y Y
+TDD6043631 #4 📋 "CLASS" ? ___t_ ~ aerc
+TDD-6044489 attempt 3 CLASS m n m n n
+TDD1417992 ? 
+TDD-635818 > *
+TDD36346770 > recta
+TDD-37128606 questioning: ["RECTA", "entered"]
+TDD2278039 #4 📋 "RECTA" ? recta
+TDD-2278328 attempt 3 RECTA Y Y Y Y Y
+TDD1175751 ? 
+T16.749881942989305 now: 2025-07-11T10:03:54EDT
+TD529294 Press <Enter> to 📋 or `>` for line prompt 
+TDD-524454 result: "squareword.org 1257: 12 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe7\ud83d\udfe7\ud83d\udfe7\ud83d\udfe9\ud83d\udfe7\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1257"
