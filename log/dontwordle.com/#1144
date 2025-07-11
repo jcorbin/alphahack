@@ -1,0 +1,56 @@
+T0.00020536500960588455 now: 2025-07-11T07:29:21EDT
+TD40 site: dontwordle.com
+TDD-12 wordlist: nwl2023.txt
+TDD3751285 1> *
+T0.0406676169950515 now: 2025-07-11T07:33:20EDT
+TD789848 1> *
+TDD4418404 ? ␚
+TDD-5208172 <EOF>
+TDD1906104 1> * -bot 10
+TDD559065 ? 9
+TDD3331349 📋 "laser" ? nMnMM
+TDD-5795984 tried: LASER n m n m m
+TDD1009072 2> undo
+TDD-1009561 undo
+TDD5661490 1> * 
+TDD-2966415 ? 1
+TDD1932722 📋 "yukky" ? nnnnn
+TDD-4627657 tried: YUKKY n n n n n
+TDD919819 2> *
+TDD5091931 ? 1
+TDD-1502723 📋 "iodid" ? nnnnn
+TDD-4508990 tried: IODID n n n n n
+TDD53550853 3> *
+TDD-47599333 📋 "phpht" ? nnnnn
+TDD-5951682 tried: PHPHT n n n n n
+TDD885327 4> *
+TDD2450871 4> * -sans :v [ae]
+TDD7580144 📋 "grrrl" ? nMnYn
+TDD-10916171 tried: GRRRL n m n Y n
+TDD1893131 5> undo
+TDD-1893229 undo
+TDD11082137 4> * -sans :v [ar]
+TDD-5417843 ? * -sans :v [ar] -top 10
+TDD-3918689 ? ␚
+TDD-1745744 <EOF>
+TDD4973062 4> * * -sans :v [ar] -top 10
+TDD2073585 4> * -sans :v [ar] -top 10
+TDD8951585 ? 1
+TDD-13308736 📋 "sense" ? nYnnn
+TDD-2689352 tried: SENSE n Y n n n
+TDD6088908 5> * -sans
+TDD8142058 ? * -sans :v [e.*e]
+TDD-10525310 ? ␚
+TDD-3705829 <EOF>
+TDD3759268 5> * -sans :v [e.*e]
+TDD18553586 5> * -sans
+TDD2360621 ? 7
+TDD-13915595 📋 "legal" ? nYnMn
+TDD-10757608 tried: LEGAL n Y n m n
+TDD1517721 6> * -sans
+TDD5717683 ? 1
+TDD-1487125 📋 "mecca" ? MYnnM
+TDD-5748356 tried: MECCA m Y n n m
+TDD3365741 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3358433 result: "Don't Wordle 1144 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7806\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2455\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1128\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c29\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c5\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe82\nUndos used: 2\n\n  2 words remaining\nx 9 unused letters\n= 18 total score"
+TDD182196 📆 2025-07-11 ? 
