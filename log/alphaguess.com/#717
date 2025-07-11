@@ -1,0 +1,37 @@
+T0.0002000989916268736 now: 2025-07-11T07:28:39EDT
+TD61429 loaded 196555 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (48 words excluded) asof 50b184f95f77c387e300a73c07aad9ed5725592b
+TDD4415854 [0 : 98235 : 196555] mach? a
+TDD-4476703 progress: 1 98235 mach
+TDD1512387 [98236 : 147392 : 196555] rhotic? b
+TDD-1512786 progress: -1 147392 rhotic
+TDD1468350 [98236 : 122798 : 147392] parr? b
+TDD-1468288 progress: -1 122798 parr
+TDD1408016 [98236 : 109954 : 122798] ne? b
+TDD-1408076 progress: -1 109954 ne
+TDD1554730 [98236 : 102777 : 109954] mi? b
+TDD-1554705 progress: -1 102777 mi
+TDD4747366 [98236 : 100478 : 102777] mater? b
+TDD-4747501 progress: -1 100478 mater
+TDD1532360 [98236 : 99351 : 100478] mane? b
+TDD-1532294 progress: -1 99351 mane
+TDD1564828 [98236 : 98778 : 99351] main? b
+TDD-1564747 progress: -1 98778 main
+TDD1450459 [98236 : 98507 : 98778] mafic? b
+TDD-1450356 progress: -1 98507 mafic
+TDD1460721 [98236 : 98307 : 98507] macro? a
+TDD-1460819 progress: 1 98307 macro
+TDD1498153 [98308 : 98399 : 98507] mad? a
+TDD-1498205 progress: 1 98399 mad
+TDD1630593 [98400 : 98449 : 98507] madre? b
+TDD-1630591 progress: -1 98449 madre
+TDD1690325 [98400 : 98417 : 98449] made? it
+TDD-1690319 progress: 0 98417 made
+TDD-151 [98400 : 98417 : 98449] <Done>.
+TDD2404289 press <Return> to finish
+TDD-2211624 Press <Enter> to 📋 or `>` for line prompt 
+TDD-187314 share result: "\ud83e\udde9 Puzzle #717\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5338 result puzzle: 717
+TDD-31 result guesses: 13
+TDD-4 result time: 22s
+TDD-1 result link: alphaguess.com
+TDD490229 📆 2025-07-11 ? 
