@@ -1,0 +1,72 @@
+T0.0002320769999641925 now: 2025-07-12T09:38:51EDT
+TD48 site: dontwordle.com
+TDD-20 wordlist: nwl2023.txt
+TDD5498524 1> * -bot 10
+TDD-2850214 ? 8
+TDD1686509 📋 "raise" ? MMnnn
+TDD-4334036 tried: RAISE m m n n n
+TDD893476 2> undo
+TDD-894121 undo
+TDD5082177 1> *
+TDD-1494037 ? * -bot 10
+TDD743568 ? ␚
+TDD-4331747 <EOF>
+TDD1428172 1> * -bot 10
+TDD2155308 ? 4
+TDD7723013 📋 "loins" ? MYnnn
+TDD-11306393 tried: LOINS m Y n n n
+TDD1258313 2> undo
+TDD-1258346 undo
+TDD7961066 1> *
+TDD-1646990 ? 3
+TDD1182834 📋 "queue" ? nnnnn
+TDD-7496887 tried: QUEUE n n n n n
+TDD512497 2> *
+TDD3887620 ? 2
+TDD-2007129 📋 "pimps" ? nnnnn
+TDD-2392890 tried: PIMPS n n n n n
+TDD451296 3> *
+TDD1393266 3> *
+TDD3053015 3> * -sans :v [alo]
+TDD17443907 📋 "crwth" ? YMnnn
+TDD-22341493 tried: CRWTH Y m n n n
+TDD824542 4> undo
+TDD-824658 undo
+TDD10521280 3> * -sans :v [aclo]
+TDD-4323050 3> * -sans :v [aclr]
+TDD-2301133 ? ␚
+TDD-3897087 <EOF>
+TDD7237405 3> * -sans :v [aclr] -top 10
+TDD-3353794 ? 1
+TDD2300945 📋 "booby" ? nYnnn
+TDD-6184550 tried: BOOBY n Y n n n
+TDD3389280 4> * -sans 
+TDD9540771 ? ␚
+TDD-12930158 <EOF>
+TDD4815057 4> * -sans :v [ar]
+TDD16876208 ? 6
+TDD-19761067 📋 "conch" ? YYnnn
+TDD-1930026 tried: CONCH Y Y n n n
+TDD541079 5> *
+TDD941888 5> *
+TDD1040949 5> * -sans
+TDD14720397 ? 6
+TDD-15141872 📋 "coxal" ? YYnYY
+TDD-2102433 tried: COXAL Y Y n Y Y
+TDD2068737 6> * -sans
+TDD8610358 📋 "coral" ? ␚
+TDD-10679268 <EOF>
+TDD1260559 6> undo
+TDD-1260472 undo
+TDD3854546 5> * -sans
+TDD3320066 ? 6
+TDD-3298218 📋 "coala" ? YYMMn
+TDD-3876364 tried: COALA Y Y m m n
+TDD2019665 6> * -sans
+TDD537714 ? 
+TDD425378 ? 1
+TDD-216178 📋 "coxal" ? YYnYY
+TDD-2766525 tried: COXAL Y Y n Y Y
+TDD2958068 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2950710 result: "Don't Wordle 1145 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5479\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1117\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c106\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c6\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c3\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe92\nUndos used: 4\n\n  2 words remaining\nx 10 unused letters\n= 20 total score"
+TDD138643 📆 2025-07-12 ? 
