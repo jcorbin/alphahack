@@ -1,0 +1,28 @@
+T0.0001977600040845573 now: 2025-07-12T09:38:17EDT
+TD73651 loaded 196555 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (48 words excluded) asof 01d4000a1411e41fb341538738d9c42a6d736381
+TDD4067325 [0 : 98235 : 196555] mach? a
+TDD-4140479 progress: 1 98235 mach
+TDD1559172 [98236 : 147392 : 196555] rhotic? b
+TDD-1559531 progress: -1 147392 rhotic
+TDD1456130 [98236 : 122798 : 147392] parr? a
+TDD-1456031 progress: 1 122798 parr
+TDD1394728 [122799 : 135089 : 147392] proper? vb
+TDD221619 [122799 : 135089 : 147392] proper? b
+TDD-1616399 progress: -1 135089 proper
+TDD1713454 [122799 : 128868 : 135089] play? b
+TDD-1713394 progress: -1 128868 play
+TDD1633190 [122799 : 125702 : 128868] pet? a
+TDD-1633149 progress: 1 125702 pet
+TDD1572076 [125703 : 127137 : 128868] pic? a
+TDD-1572047 progress: 1 127137 pic
+TDD1797372 [127138 : 127965 : 128868] pipe? it
+TDD-1797362 progress: 0 127965 pipe
+TDD11 [127138 : 127965 : 128868] <Done>.
+TDD2783601 press <Return> to finish
+TDD-2593980 Press <Enter> to 📋 or `>` for line prompt 
+TDD-183458 share result: "\ud83e\udde9 Puzzle #718\n\n\ud83e\udd14 8 guesses\n\n\u23f1\ufe0f 12s\n\n\ud83d\udd17 alphaguess.com"
+TDD-6437 result puzzle: 718
+TDD-50 result guesses: 8
+TDD-4 result time: 12s
+TDD-1 result link: alphaguess.com
+TDD127019 📆 2025-07-12 ? 
