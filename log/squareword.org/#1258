@@ -1,0 +1,150 @@
+T0.00024629998370073736 now: 2025-07-12T09:47:47EDT
+TD61 site: squareword.org
+TDD1840136 🧩  ? #1258
+TDD-1839842 puzzle_id: #1258
+TDD-321 wordlist: nwl2023.txt
+TDD883373 > *
+TDD5820612 try? 2
+TDD-6703564 questioning: ["LOSER", "#5"]
+TDD2446416 #1 📋 "LOSER" ? ~ ls
+TDD576620 #1 ? _____ ~ ls
+TDD-3023070 attempt 0 LOSER m n m n n
+TDD12454311 #2 📋 "LOSER" ? _o___ ~ r
+TDD-12454344 attempt 1 LOSER n Y n n m
+TDD5253372 #3 📋 "LOSER" ? _____ ~ e
+TDD-5253290 attempt 2 LOSER n n n m n
+TDD2840576 #4 📋 "LOSER" ? __s__ 
+TDD-2840854 attempt 3 LOSER n n Y n n
+TDD3334895 #5 📋 "LOSER" ? ___e_ ~ lse
+TDD-3334910 attempt 4 LOSER m n m Y n
+TDD1828718 ? 
+TDD-472277 > *
+TDD8088667 try? 2
+TDD-9444877 questioning: ["IDLES", "#5"]
+TDD863494 #1 📋 "IDLES" ? 
+TDD-313322 #1 ? 
+TDD3284211 #1 ? 
+TDD15072785 #1 ? ____s ~ l
+TDD-18907178 attempt 0 IDLES n n m n Y
+TDD8752331 #2 📋 "IDLES" ? _o___ ~ r
+TDD-8752336 attempt 1 IDLES n n n n n
+TDD7005655 #3 📋 "IDLES" ? _____ ~ e
+TDD-7005584 attempt 2 IDLES n n n m n
+TDD4911423 #4 📋 "IDLES" ? __s__ 
+TDD-4911576 attempt 3 IDLES n n n n n
+TDD6278050 #5 📋 "IDLES" ? ___e_ ~ lse
+TDD-6277699 attempt 4 IDLES n n m Y m
+TDD5149212 ? *
+TDD6601091 #5 📋 "IDLES" ? ___e_ ~ lse
+TDD-11750501 attempt 4 IDLES n n m Y m
+TDD764352 ? 
+TDD492613 > *
+TDD4909017 try? 1
+TDD-6166180 questioning: ["SLEEP", "#5"]
+TDD3512777 #1 📋 "SLEEP" ? 
+TDD-3346317 #1 ? 
+TDD6283310 #1 ? _l__s ~
+TDD-6449715 attempt 0 SLEEP n Y n n n
+TDD14128871 #2 📋 "SLEEP" ? _o___ ~ r
+TDD-14128861 attempt 1 SLEEP n n n n n
+TDD4596860 #3 📋 "SLEEP" ? _____ ~ e
+TDD-4596897 attempt 2 SLEEP n n m m n
+TDD3020055 #4 📋 "SLEEP" ? __s__ ~ p
+TDD-3020141 attempt 3 SLEEP n n n n m
+TDD3698982 #5 📋 "SLEEP" ? slee_
+TDD-3698876 attempt 4 SLEEP Y Y Y Y n
+TDD6110620 ? *
+TDD-3044569 #5 📋 "SLEEP" ? slee_ 
+TDD-3066128 attempt 4 SLEEP Y Y Y Y n
+TDD891828 ? ␚
+TDD-891875 <EOF>
+TDD563713 > *
+TDD6510026 try? 1
+TDD-7073647 questioning: ["SLEEK", "#5"]
+TDD3628007 #1 📋 "SLEEK" ? 
+TDD-3209990 #1 ? 
+TDD4227075 #1 ? _l__s
+TDD-4644906 attempt 0 SLEEK n Y n n n
+TDD5044156 #2 📋 "SLEEK" ? _o___ ~ r
+TDD-5044057 attempt 1 SLEEK n n n n n
+TDD4014265 #3 📋 "SLEEK" ? _____ ~ e
+TDD-4014465 attempt 2 SLEEK n n m m n
+TDD2688939 #4 📋 "SLEEK" ? __s__ ~ p
+TDD-2688909 attempt 3 SLEEK n n n n n
+TDD3730422 #5 📋 "SLEEK" ? __s__ ~ p
+TDD-3730510 attempt 4 SLEEK n n n n n
+TDD6102460 ? 5 sleek
+TDD-4280581 #5 📋 "SLEEK" ? sleek
+TDD-1821796 attempt 4 SLEEK Y Y Y Y Y
+TDD20481584 ? 
+TDD-19925385 > *
+TDD8204016 try? 3
+TDD-8760094 questioning: ["WASPY", "#4"]
+TDD3332521 #1 📋 "WASPY" ? 
+TDD-3145031 #1 ? 
+TDD4207312 #1 ? _l__s ~ a
+TDD-4394762 attempt 0 WASPY n m n n n
+TDD5126247 #2 📋 "WASPY" ? _o___ ~ ra
+TDD-5126259 attempt 1 WASPY n m n n n
+TDD4881611 #3 📋 "WASPY" ? _____ ~ ea
+TDD-4881846 attempt 2 WASPY n m n n n
+TDD5268193 #4 📋 "WASPY" ? _as__ ~ pa
+TDD-5268035 attempt 3 WASPY n Y Y m n
+TDD3169507 ? 
+TDD-1806203 > *
+TDD9653449 try? 2
+TDD-11017006 questioning: ["PASTA", "#4"]
+TDD2147988 #1 📋 "PASTA" ? 
+TDD907781 #1 ? _l__s ~ a
+TDD-3055730 attempt 0 PASTA n m n n m
+TDD2941919 #2 📋 "PASTA" ? _o___ ~ ra
+TDD-2941972 attempt 1 PASTA n m n n m
+TDD4189281 #3 📋 "PASTA" ? ___t_ ~ ea
+TDD-4189073 attempt 2 PASTA n m n Y m
+TDD1965672 #4 📋 "PASTA" ? pasta
+TDD-1965797 attempt 3 PASTA Y Y Y Y Y
+TDD1362669 ? 
+TDD-822688 > *
+TDD10048577 try? 3
+TDD-10588591 questioning: ["ROACH", "#2"]
+TDD11194385 #1 📋 "ROACH" ? _la_s ~ c
+TDD-11194191 attempt 0 ROACH n n Y m n
+TDD4190644 #2 📋 "ROACH" ? ro___ ~ a
+TDD-4190666 attempt 1 ROACH Y Y m n n
+TDD4622165 #3 📋 "ROACH" ? ___t_ ~ eac
+TDD-4622234 attempt 2 ROACH n n m m n
+TDD2360850 ? *
+TDD13875578 #3 📋 "ROACH" ? ___t_ ~ eac
+TDD-16236474 attempt 2 ROACH n n m m n
+TDD577306 ? 
+TDD89906 > *
+TDD30632 questioning: ["ROMAN", "#2"]
+TDD2831688 #1 📋 "ROMAN" ? 
+TDD-3348574 #1 ? 
+TDD3384958 #1 ? _la_s ~ cm
+TDD-3565953 attempt 0 ROMAN n n m n n
+TDD1575687 #2 📋 "ROMAN" ? roman
+TDD-1575594 attempt 1 ROMAN Y Y Y Y Y
+TDD3174274 #3 📋 "ROMAN" ? ___t_ ~ eac
+TDD-3174256 attempt 2 ROMAN n n n m n
+TDD1362786 ? 
+TDD-911997 > *
+TDD81445 questioning: ["CLAMS", "#1"]
+TDD3434383 #1 📋 "CLAMS" ? 
+TDD-3828513 #1 ? 
+TDD1054192 #1 ? clams
+TDD-1192479 attempt 0 CLAMS Y Y Y Y Y
+TDD3929569 #3 📋 "CLAMS" ? ___t_ ~ eac
+TDD-3929402 attempt 2 CLAMS m n m n n
+TDD716181 ? *
+TDD2950512 #3 📋 "CLAMS" ? ␚
+TDD-3666919 <EOF>
+TDD2004973 > *
+TDD-1639411 questioning: ["ACUTE", "#3"]
+TDD3694608 #3 📋 "ACUTE" ? 
+TDD-2683884 #3 ? acute
+TDD-1376146 attempt 2 ACUTE Y Y Y Y Y
+TDD1079273 ? 
+TDD946938 > 
+TDD41096649 > ␚
+TDD-43122987 <EOF>
