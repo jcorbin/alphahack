@@ -1,0 +1,228 @@
+T0.00017016701167449355 now: 2025-07-13T07:37:47EDT
+TD39 site: squareword.org
+TDD9508205 🧩  ? #1259
+TDD-9507875 puzzle_id: #1259
+TDD-334 wordlist: nwl2023.txt
+TDD845703 > *
+TDD1456210 try? 1
+TDD-2301489 questioning: ["AROSE", "#5"]
+TDD2121387 #1 📋 "AROSE" ? 
+TDD-1725436 #1 ? 
+TDD2103622 #1 ? _ro_e
+TDD-2499132 attempt 0 AROSE n Y Y n Y
+TDD4890116 #2 📋 "AROSE" ? _____ ~ re
+TDD-4890831 attempt 1 AROSE n m n n m
+TDD4596345 #3 📋 "AROSE" ? a___e 
+TDD-4596229 attempt 2 AROSE Y n n n Y
+TDD5103980 #4 📋 "AROSE" ? _____ ~ a
+TDD-5104109 attempt 3 AROSE m n n n n
+TDD3765918 #5 📋 "AROSE" ? _____ ~ se
+TDD-3765825 attempt 4 AROSE n n n m m
+TDD2217300 ? 
+TDD-1151317 > *
+TDD21579343 try? ␚
+TDD-22645464 <EOF>
+TDD1200051 > ␚
+TDD-1200093 <EOF>
+T0.04151060798903927 now: 2025-07-13T07:40:14EDT
+TD54 questioning: ["AROSE", "#5"]
+TDD9087948 ? ␚
+TDD-9087915 <EOF>
+T0.04147655004635453 now: 2025-07-13T07:40:28EDT
+TD47 questioning: ["AROSE", "#5"]
+TDD1389487 <INT>
+T0.04140523599926382 now: 2025-07-13T07:40:30EDT
+TD61 questioning: ["AROSE", "#5"]
+TDD511676 #1 📋 "AROSE" ? ␚
+TDD-511630 <EOF>
+T0.0421266210032627 now: 2025-07-13T07:41:09EDT
+TD59 questioning: ["AROSE", "#5"]
+TDD783961 <INT>
+T0.04150288202799857 now: 2025-07-13T07:41:49EDT
+TD84 questioning: ["AROSE", "#5"]
+TDD4886267 #1 📋 "AROSE" ? ␚
+TDD-4886257 <EOF>
+T0.0420836639823392 now: 2025-07-13T07:42:34EDT
+TD82 questioning: ["AROSE", "#5"]
+TDD924540 #1 📋 "AROSE" ? ␚
+TDD-924527 <EOF>
+T0.041914998029824346 now: 2025-07-13T07:44:25EDT
+TD84 questioning: ["AROSE", "#5"]
+TDD5021435 #1 📋 "AROSE" ? ␚
+TDD-5021368 question done
+TDD9895647 > ␚
+TDD-9895729 <EOF>
+T0.04202319402247667 now: 2025-07-13T07:44:42EDT
+TD13742332 > *
+TDD-1477562 try? 3
+TDD-12264234 questioning: ["DRONE", "#1"]
+TDD4334732 #1 📋 "DRONE" ? 
+TDD148964 <INT>
+TDD-4484081 <INT>
+T0.04291239200392738 now: 2025-07-13T08:35:58EDT
+TD67 questioning: ["DRONE", "#1"]
+TDD15112741 #1 _RO_E -AS  📋 "DRONE" ? ?
+TDD-10735716 #1 _RO_E -AS  📋 "DRONE" ? .
+TDD-4376735 attempt 0 DRONE n Y Y n Y
+TDD12731810 ? 2
+TDD-3154508 #2 _____ ~ER -AOS  📋 "DRONE" ? .
+TDD-9577319 attempt 1 DRONE n m n n m
+TDD3466725 ? 3
+TDD-254670 #3 A___E -ORS  📋 "DRONE" ? .
+TDD-3212049 attempt 2 DRONE n n n n Y
+TDD10569619 ? 4
+TDD-4176751 #4 _____ ~A -EORS  📋 "DRONE" ? _____ ~ an
+TDD-6391970 attempt 3 DRONE n n n m n
+TDD11490129 ? ␚
+TDD-11491227 question done
+TDD1127007 > ␚
+TDD-1127066 <EOF>
+T0.042237087967805564 now: 2025-07-13T08:37:23EDT
+TD909738 <INT>
+T0.042540075024589896 now: 2025-07-13T08:40:21EDT
+TD3806593 > *
+TDD2529227 try? 1
+TDD-6335491 questioning: ["TROPE", "#1"]
+TDD13947033 #1 _RO_E -ADNS  📋 "TROPE" ? _ro_e ~ p
+TDD-13946385 attempt 0 TROPE n Y Y m Y
+TDD18060659 ! 
+TDD-5428769 #2 _____ ~ER -ADNOS  📋 "TROPE" ? _____ ~ rep
+TDD-12632385 attempt 1 TROPE n m n m m
+DD1010367 ! 
+T0.04240502399625257 now: 2025-07-13T08:45:02EDT
+TD49 questioning: ["TROPE", "#1"]
+TDD1225811 ! /show
+TDD33318312 ! 
+TDD-32626714 #3 A___E -DNORS  📋 "TROPE" ? 
+TDD-1607938 #3 A___E -DNORS  ? 
+TDD-138986 #3 A___E -DNORS  ? 
+TDD774130 #3 A___E -DNORS  ? /show
+TDD8581619 #3 A___E -DNORS  📋 "TROPE" ? .
+TDD-9525797 attempt 2 TROPE n n n n Y
+TDD9113134 #4 _____ ~AN -DEORS  📋 "TROPE" ? .
+TDD-9113272 attempt 3 TROPE n n n n n
+TDD3673665 #5 _____ ~ES -AOR  📋 "TROPE" ? _____ ~ set
+TDD-3672927 attempt 4 TROPE m n n n m
+TDD19947060 ? 
+TDD-19947766 question done
+TDD3114747 > ␚
+TDD-3115013 <EOF>
+T0.04345936299068853 now: 2025-07-13T08:48:21EDT
+TD1829023 > 
+TDD-1028696 > 
+TDD-308123 > *
+TDD4282474 try? 3
+TDD-4774189 questioning: ["PROVE", "#1"]
+TDD4193625 #1 _RO_E ~P -ADNST  📋 "PROVE" ? 
+TDD13720730 #1 _RO_E ~P -ADNST  ? pro_e 
+TDD-17913943 attempt 0 PROVE Y Y Y n Y
+TDD8777630 #2 _____ ~EPR -ADNOST  📋 "PROVE" ? _____ ~ rep
+TDD-8778120 attempt 1 PROVE m m n n m
+TDD8494948 #3 A___E -DNOPRST  📋 "PROVE" ? .
+TDD-8495040 attempt 2 PROVE n n n n Y
+TDD9423566 #4 _____ ~AN -DEOPRST  📋 "PROVE" ? .
+TDD-9423511 attempt 3 PROVE n n n n n
+TDD4800037 #5 _____ ~EST -AOPR  📋 "PROVE" ? .
+TDD-4800091 attempt 4 PROVE n n n n m
+TDD2406079 ? 
+TDD-2406147 question done
+TDD1201029 > *
+TDD1067699 try? 1
+TDD-2268760 questioning: ["PROBE", "#1"]
+TDD3575067 #1 PRO_E -ADNSTV  📋 "PROBE" ? 
+TDD-1437991 #1 PRO_E -ADNSTV  ? it
+TDD-434868 #1 PRO_E -ADNSTV  ? /it
+TDD-1702061 attempt 0 PROBE Y Y Y Y Y
+TDD10633147 #2 _____ ~EPR -ADNOSTV  📋 "PROBE" ? .
+TDD-10633358 attempt 1 PROBE m m n n m
+TDD6122601 #3 A___E -DNOPRSTV  📋 "PROBE" ? 
+TDD-4972030 #3 A___E -DNOPRSTV  ? 
+TDD8378882 #3 A___E -DNOPRSTV  ? .
+TDD-9524187 attempt 2 PROBE n n n n Y
+TDD4867115 #4 _____ ~AN -DEOPRSTV  📋 "PROBE" ? .
+TDD-4872119 attempt 3 PROBE n n n n n
+TDD880416 #5 _____ ~EST -AOPRV  📋 "PROBE" ? .
+TDD-880515 attempt 4 PROBE n n n n m
+TDD1966375 ? 
+TDD-1966476 question done
+TDD739046 > *
+TDD4612739 try? 1
+TDD-5351701 questioning: ["REPLY", "#2"]
+TDD3183343 ! 
+TDD11859791 #2 _____ ~EPR -ABDNOSTV  📋 "REPLY" ? rep__ ~ el
+TDD-15043034 attempt 1 REPLY Y Y Y m n
+TDD12547005 <INT>
+TDD-12547341 <INT>
+TDD-58 <INT>
+TDD4 <INT>
+T0.044692865980323404 now: 2025-07-13T08:51:19EDT
+TD87 questioning: ["REPLY", "#2"]
+TDD1019914 ! 
+TDD1343186 ! 
+TDD-2091331 #3 A___E -BDNOPRSTV  📋 "REPLY" ? 
+TDD2819111 #3 A___E -BDNOPRSTV  ? 
+TDD-2911910 #3 A___E -BDNOPRSTV  ? 
+TDD1284745 #3 A___E -BDNOPRSTV  ? /show
+TDD10094055 #3 A___E -BDNOPRSTV  📋 "REPLY" ? a__le
+TDD-11556650 attempt 2 REPLY n n n Y n
+TDD7075824 #4 _____ ~AN -BDEOPRSTV  📋 "REPLY" ? .
+TDD-7076705 attempt 3 REPLY n n n n n
+TDD4429539 #5 _____ ~EST -ABOPRV  📋 "REPLY" ? _____ ~ setl
+TDD-4429668 attempt 4 REPLY n m n m n
+TDD3559754 ? 
+TDD-3559583 question done
+TDD2496596 > *
+TDD-1636394 questioning: ["REPEL", "#2"]
+TDD12141390 ! 
+TDD-7423304 #2 REP__ ~L -ABDNOSTVY  📋 "REPEL" ? it
+TDD-4840341 #2 REP__ ~L -ABDNOSTVY  ? /it
+TDD-738041 attempt 1 REPEL Y Y Y Y Y
+TDD5184278 #3 A__LE -BDENOPRSTVY  📋 "REPEL" ? .
+TDD-5184302 attempt 2 REPEL n n n n n
+TDD3180445 #4 _____ ~AN -BDELOPRSTVY  📋 "REPEL" ? .
+TDD-3180492 attempt 3 REPEL n n n n n
+TDD4772479 #5 _____ ~ELST -ABOPRVY  📋 "REPEL" ? ___e_ ~ setl
+TDD-4772394 attempt 4 REPEL n m n Y m
+TDD3903929 ? 
+TDD-3903934 question done
+TDD1182083 > *
+TDD-832838 questioning: ["MANIC", "#4"]
+TDD4567332 ! 
+TDD-4320932 ! 
+TDD34886771 #3 A__LE -BDELNOPRSTVY  📋 "MANIC" ? a__le ~ i
+TDD-35482384 attempt 2 MANIC n n n m n
+TDD3276304 #4 _____ ~AN -BDELOPRSTVY  📋 "MANIC" ? /it
+TDD-3276248 attempt 3 MANIC Y Y Y Y Y
+TDD5332848 #5 ___E_ ~ELST -ABOPRVY  📋 "MANIC" ? .
+TDD-5332817 attempt 4 MANIC n n n n n
+TDD1458862 ? 
+TDD-1458971 question done
+TDD989479 > *
+TDD-418462 questioning: ["AGILE", "#3"]
+TDD674010 ! 
+TDD-848672 ! 
+TDD7306937 #3 A__LE ~I -ABCDELMNOPRSTVY  📋 "AGILE" ? /it
+TDD-7703089 attempt 2 AGILE Y Y Y Y Y
+TDD3365292 ! 5
+TDD4835103 #5 ___E_ ~ELST -ABCIMNOPRVY  📋 "AGILE" ? .
+TDD-8200773 attempt 4 AGILE n n n m m
+TDD7997141 ? 
+TDD-7997161 question done
+TDD875350 > *
+TDD-679320 questioning: ["SLEET", "#5"]
+TDD3310676 ! 
+TDD-3137451 ! 
+TDD56445 ! 
+TDD-62409 ! 
+TDD-184646 #5 ___E_ ~ELST -ABCGIMNOPRVY  📋 "SLEET" ? 
+TDD756178 #5 ___E_ ~ELST -ABCGIMNOPRVY  ? 
+TDD-751920 #5 ___E_ ~ELST -ABCGIMNOPRVY  ? 
+TDD-8609 #5 ___E_ ~ELST -ABCGIMNOPRVY  ? 
+TDD32417 #5 ___E_ ~ELST -ABCGIMNOPRVY  ? 
+TDD13024413 #5 ___E_ ~ELST -ABCGIMNOPRVY  ? /it
+TDD-13230834 attempt 4 SLEET Y Y Y Y Y
+TDD1773190 ? 
+TDD-1773475 question done
+TDD3585548 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3582999 result: "squareword.org 1259: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1259"
+TDD177932 📆 2025-07-13 ? 
