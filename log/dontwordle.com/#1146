@@ -1,0 +1,51 @@
+T0.00021052599186077714 now: 2025-07-13T07:34:55EDT
+TD38 site: dontwordle.com
+TDD-10 wordlist: nwl2023.txt
+TDD5539067 1> *
+TDD-2584788 ? ␚
+TDD-2954226 <EOF>
+TDD2145095 1> * -bot 10
+TDD1049055 ? 4
+TDD3664709 📋 "arles" ? MMnYn
+TDD-6858158 tried: ARLES m m n Y n
+TDD5278663 2> * -bot 10
+TDD6142448 ? 9
+TDD-6074933 📋 "hater" ? nYnYM
+TDD-5346657 tried: HATER n Y n Y m
+TDD3049258 3> undo
+TDD-3049367 undo
+TDD700948 2> undo
+TDD-700910 undo
+TDD5050135 1> * 
+TDD803901 ? 3
+TDD-4325243 📋 "booby" ? nnnnn
+TDD-1528789 tried: BOOBY n n n n n
+TDD524105 2> *
+TDD2577985 ? 1
+TDD-937192 📋 "wisps" ? nnnnn
+TDD-2164921 tried: WISPS n n n n n
+TDD489296 3> *
+TDD2711384 ? 1
+TDD-1148767 📋 "chuck" ? nnnnn
+TDD-2051886 tried: CHUCK n n n n n
+TDD603609 4> *
+TDD3034589 4> * -sans :v [ae]
+TDD2859291 📋 "grrrl" ? nMnnn
+TDD-6497511 tried: GRRRL n m n n n
+TDD5610051 5> * -sans :v [er]
+TDD953598 5> * -sans :v [ar]
+TDD-3903756 5> * -sans
+TDD10347569 ? 1
+TDD-10030903 📋 "anear" ? MMMnM
+TDD-2976567 tried: ANEAR m m m n m
+TDD588663 6> *
+TDD2193337 ? * -sans
+TDD6153 ? ␚
+TDD-2788282 <EOF>
+TDD1145041 6> * -sans
+TDD18278337 ? 1
+TDD-16541328 📋 "ranee" ? YYMYn
+TDD-2882018 tried: RANEE Y Y m Y n
+TDD3398035 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3390706 result: "Don't Wordle 1146 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6682\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1441\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c595\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c63\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe83\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\u2b1c2\nUndos used: 2\n\n  2 words remaining\nx 9 unused letters\n= 18 total score"
+TDD307304 📆 2025-07-13 ? 
