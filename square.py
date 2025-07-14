@@ -16,6 +16,20 @@ from ui import PromptUI
 from wordlish import Attempt, Word
 from wordlist import WordList
 
+def pad_rows(rows: Iterable[Iterable[str]]):
+    rows = tuple(tuple(row) for row in rows)
+    num_cols = max(len(row) for row in rows)
+    col_widths = tuple(
+        max(len(row[i]) if i < len(row) else 0
+            for row in rows)
+        for i in range(num_cols))
+    for i, row in enumerate(rows):
+        yield ' '.join(
+            f'{cell: <{w}}'
+            for j, cell in enumerate(row)
+            for w in (col_widths[j],)
+            if w > 0)
+
 @final
 class Search(StoredLog):
     log_file: str = 'squareword.log'
@@ -521,8 +535,8 @@ class Search(StoredLog):
         if self.skip_show:
             self.skip_show = False
             return
-        for word_i in range(self.size):
-            ui.print(' | '.join(self.show_parts(word_i)))
+        for line in pad_rows(self.show_parts(i) for i in range(self.size)):
+            ui.print(line)
         if self.nope:
             ui.print(f'no: {" ".join(sorted(let.upper() for let in self.nope))}')
 
