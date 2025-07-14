@@ -1,0 +1,43 @@
+T0.0002029950264841318 now: 2025-07-14T07:57:13EDT
+TD58141 loaded 196555 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (48 words excluded) asof 2f993d5ac35cd61e572fb47e9730be9d67aa771d
+TDD10710833 [0 : 98235 : 196555] mach? b
+TDD-10768408 progress: -1 98235 mach
+TDD1684013 [0 : 47395 : 98235] dis? b
+TDD-1684372 progress: -1 47395 dis
+TDD1596242 [0 : 23581 : 47395] cam? b
+TDD-1596177 progress: -1 23581 cam
+TDD1654858 [0 : 11771 : 23581] back? b
+TDD-1654925 progress: -1 11771 back
+TDD1809378 [0 : 5882 : 11771] angel? b
+TDD-1809337 progress: -1 5882 angel
+TDD1671171 [0 : 2802 : 5882] ag? a
+TDD-1671124 progress: 1 2802 ag
+TDD1476608 [2803 : 4336 : 5882] alma? a
+TDD-1476629 progress: 1 4336 alma
+TDD1590363 [4337 : 4625 : 5882] am? a
+TDD-1590466 progress: 1 4625 am
+TDD1767146 [4626 : 5155 : 5882] amp? b
+TDD-1767090 progress: -1 5155 amp
+TDD1905076 [4626 : 4877 : 5155] amen? b
+TDD-1905034 progress: -1 4877 amen
+TDD1864060 [4626 : 4751 : 4877] ambiguities? a
+TDD-1864061 progress: 1 4751 ambiguities
+TDD1939030 [4752 : 4814 : 4877] ambsaces? a
+TDD-1939085 progress: 1 4814 ambsaces
+TDD1901607 [4815 : 4840 : 4877] ambush? b
+TDD-1901515 progress: -1 4840 ambush
+TDD1794237 [4815 : 4827 : 4840] ambulator? b
+TDD-1794287 progress: -1 4827 ambulator
+TDD1882110 [4815 : 4821 : 4827] ambulate? b
+TDD-1882105 progress: -1 4821 ambulate
+TDD1769196 [4815 : 4818 : 4821] ambulance? it
+TDD-1769201 progress: 0 4818 ambulance
+TDD-202 [4815 : 4818 : 4821] <Done>.
+TDD2703132 press <Return> to finish
+TDD-2505070 Press <Enter> to 📋 or `>` for line prompt 
+TDD-192726 share result: "\ud83e\udde9 Puzzle #720\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 27s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5258 result puzzle: 720
+TDD-96 result guesses: 16
+TDD-18 result time: 27s
+TDD-3 result link: alphaguess.com
+TDD210798 📆 2025-07-14 ? 
