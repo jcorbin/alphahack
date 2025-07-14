@@ -1,0 +1,128 @@
+T0.00024401501286774874 now: 2025-07-14T08:06:02EDT
+TD51 site: squareword.org
+TDD2021664 🧩  ? #1260
+TDD-2021333 puzzle_id: #1260
+TDD-347 wordlist: nwl2023.txt
+TDD2478746019 <INT>
+T0.04095691500697285 now: 2025-07-14T09:04:51EDT
+TD873699 > *
+TDD2034051 try? 1
+TDD-2907176 questioning: ["arose", "#5"]
+T0.04128085600677878 now: 2025-07-14T09:08:38EDT
+TD94 questioning: ["arose", "#5"]
+TDD5817520 #1 _____  📋 "arose" ? _____ ~ oe
+TDD-5816628 attempt 0 AROSE n n m n m
+TDD3726341 #2 _____  📋 "arose" ? _r__e ~ a
+TDD-3726933 attempt 1 AROSE m Y n n Y
+TDD4345673 #3 _____  📋 "arose" ? _____ ~ are
+TDD-4345599 attempt 2 AROSE m m n n m
+TDD7301331 #4 _____  📋 "arose" ? _____ ~ e
+TDD-7301319 attempt 3 AROSE n n n n m
+TDD3627112 #5 _____  📋 "arose" ? _____ ~ se
+TDD-3627180 attempt 4 AROSE n n n m m
+TDD2802611 ? 
+TDD-2802802 question done
+TDD335853734 <INT>
+T0.0415987289743498 now: 2025-07-14T09:14:43EDT
+TD3855290 <INT>
+T0.042830172984395176 now: 2025-07-14T09:15:02EDT
+TD4679558 > *
+TDD-2212170 try? 1
+TDD-2467086 questioning: ["trace", "#2"]
+TDD4854002 #1 _____ ~EO -ARS  📋 "trace" ? 
+TDD289471 #1 _____ ~EO -ARS  ? _____ ~ oet
+TDD-5142975 attempt 0 TRACE m n n n m
+TDD6479981 #2 _R__E ~A -OS  📋 "trace" ? _ra_e ~ c
+TDD-6480401 attempt 1 TRACE n Y Y m Y
+TDD5400482 #3 _____ ~AER -OS  📋 "trace" ? t____ ~ are
+TDD-5400469 attempt 2 TRACE Y m m n m
+TDD10575425 #4 _____ ~E -AORS  📋 "trace" ? .
+TDD-10575507 attempt 3 TRACE n n n n m
+TDD5740200 #5 _____ ~ES -AOR  📋 "trace" ? t____ ~ set
+TDD-5740263 attempt 4 TRACE Y n n n m
+TDD2349535 ? 
+TDD-2349521 question done
+TDD1408109 > 
+TDD37558123 > *
+TDD-36627854 try? 1
+TDD-2338272 questioning: ["crane", "#2"]
+TDD8037607 #1 _____ ~EOT -ACRS  📋 "crane" ? _____ ~ oetn
+TDD-8037671 attempt 0 CRANE n n n m m
+TDD4325658 #2 _RA_E ~C -OST  📋 "crane" ? cra_e 
+TDD-4325468 attempt 1 CRANE Y Y Y n Y
+TDD6359086 #3 T____ ~AER -COS  📋 "crane" ? .
+TDD-6359432 attempt 2 CRANE n m m n m
+TDD4539218 #4 _____ ~E -ACORST  📋 "crane" ? ___n_ ~ e
+TDD-4539023 attempt 3 CRANE n n n Y m
+TDD7184638 #5 T____ ~ES -ACOR  📋 "crane" ? t____ ~ setn
+TDD-7184210 attempt 4 CRANE n n n m m
+TDD3194493 ? *
+TDD-445244 #2 CRA_E -NOST  📋 "crane" ? 
+TDD-2034057 #2 CRA_E -NOST  ? 
+TDD129635 #2 CRA_E -NOST  ? ␚
+TDD-845460 question done
+TDD2209718 > 
+TDD-1062337 > *
+TDD-494529 questioning: ["often", "#1"]
+TDD14693559 #1 _____ ~ENOT -ACRS  📋 "often" ? it
+TDD-13822762 #1 _____ ~ENOT -ACRS  ? /it
+TDD-1523406 attempt 0 OFTEN Y Y Y Y Y
+TDD8515631 #2 CRA_E -NOST  📋 "often" ? .
+TDD-8515711 attempt 1 OFTEN n n n n n
+TDD9110891 #3 T____ ~AER -CNOS  📋 "often" ? t__e_ ~ ar
+TDD-9110828 attempt 2 OFTEN n n n Y n
+TDD5679161 #4 ___N_ ~E -ACORST  📋 "often" ? .
+TDD-5679167 attempt 3 OFTEN n n n m n
+TDD8114500 #5 T____ ~ENS -ACOR  📋 "often" ? t____ ~ setn
+TDD-8110548 attempt 4 OFTEN n n m m m
+TDD1468389 ? 
+TDD-1472463 question done
+TDD1171552 > *
+TDD943848 questioning: ["crave", "#2"]
+TDD12364932 ! 
+TDD-7182672 #2 CRA_E -EFNOST  📋 "crave" ? /it
+TDD-7297577 attempt 1 CRAVE Y Y Y Y Y
+TDD4049221 #3 T__E_ ~AR -CFNOST  📋 "crave" ? .
+TDD-4049210 attempt 2 CRAVE n m m n n
+TDD1637927 #4 ___N_ ~E -ACFNORST  📋 "crave" ? .
+TDD-1637757 attempt 3 CRAVE n n n n m
+TDD1859577 #5 T____ ~ENS -ACFOR  📋 "crave" ? .
+TDD-1859680 attempt 4 CRAVE n n n n m
+TDD8233238 ? 
+TDD-8233401 question done
+TDD1393125 > 
+TDD4300434 > *
+TDD-4028081 questioning: ["tents", "#5"]
+TDD-159131 ! 
+TDD532511 ! 
+TDD15726511 #3 T__E_ ~AR -CEFNOSTV  📋 "tents" ? .
+TDD-17765442 attempt 2 TENTS Y n n n n
+TDD1724623 #4 ___N_ ~E -ACFNORSTV  📋 "tents" ? .
+TDD-1724410 attempt 3 TENTS n m n n n
+TDD1199458 #5 T____ ~ENS -ACFORV  📋 "tents" ? /it
+TDD-1199417 attempt 4 TENTS Y Y Y Y Y
+TDD2025727 ? 
+TDD-2025951 question done
+TDD535351 > 
+TDD2128937 > *
+TDD-1096113 questioning: ["emend", "#4"]
+TDD-125588 ! 
+TDD-1048977 ! 
+TDD9640961 #3 T__E_ ~AR -CEFNOSV  📋 "emend" ? .
+TDD-10034391 attempt 2 EMEND n n n n n
+TDD883181 #4 ___N_ ~E -ACFNORSTV  📋 "emend" ? /it
+TDD-883235 attempt 3 EMEND Y Y Y Y Y
+TDD1112200 ? 
+TDD-1112281 question done
+TDD381640 > 
+TDD1523533 > *
+TDD-850591 questioning: ["taker", "#3"]
+TDD207608 ! 
+TDD-1050481 ! 
+TDD5116431 #3 T__E_ ~AR -CDEFMNOSV  📋 "taker" ? /it
+TDD-5327918 attempt 2 TAKER Y Y Y Y Y
+TDD1847940 ? 
+TDD-1848135 question done
+TDD4832849 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4824910 result: "squareword.org 1260: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1260"
+TDD372824 📆 2025-07-14 ? 
