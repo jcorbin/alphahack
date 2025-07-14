@@ -1,0 +1,52 @@
+T0.00017326301895081997 now: 2025-07-14T07:58:11EDT
+TD39 site: dontwordle.com
+TDD-11 wordlist: nwl2023.txt
+TDD3179567 1> 
+TDD-2570708 1> *
+TDD1432588 ? * -bot 10
+TDD2926600 ? ␚
+TDD-4967951 <EOF>
+TDD1741898 1> * -bot 10
+TDD39339 ? 7
+TDD7454855 📋 "snare" ? nnnMn
+TDD-9235249 tried: SNARE n n n m n
+TDD8509775 2> * -bot 10
+TDD-1097503 ? 5
+TDD4429735 📋 "torch" ? nYYnY
+TDD-11842713 tried: TORCH n Y Y n Y
+TDD1047777 3> undo
+TDD-1047848 undo
+TDD652599 2> undo
+TDD-652549 undo
+TDD3917287 1> *
+TDD-626459 ? 3
+TDD1541619 📋 "ceded" ? nnnnn
+TDD-4832456 tried: CEDED n n n n n
+TDD2523744 2> *
+TDD2027319 ? 1
+TDD-2693676 📋 "nanna" ? nnnnn
+TDD-1857252 tried: NANNA n n n n n
+TDD1622377 3> *
+TDD-28940 ? 1
+TDD3479066 📋 "xylyl" ? nnnnn
+TDD-5072563 tried: XYLYL n n n n n
+TDD1393699 4> *
+TDD2262234 ? 1
+TDD-400643 📋 "titis" ? Mnnnn
+TDD-3255361 tried: TITIS m n n n n
+TDD1257416 5> *
+TDD-135883 5> *
+TDD4744648 5> * -sans :v [ho]
+TDD1624117 5> * -sans :v [hr[
+TDD-953737 5> * -sans :v [hr]
+TDD-400378 5> * -sans :v [or]
+TDD5134914 📋 "phpht" ? nMnnM
+TDD-11271085 tried: PHPHT n m n n m
+TDD2915730 6> * -sans
+TDD4482530 ? nYnYY
+TDD-5660498 ? 1
+TDD496155 📋 "mouth" ? nYnYY
+TDD-2233942 tried: MOUTH n Y n Y Y
+TDD3933179 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3925702 result: "Don't Wordle 1147 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5104\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1897\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c963\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c27\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe813\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe95\nUndos used: 2\n\n  5 words remaining\nx 10 unused letters\n= 50 total score"
+TDD179264 📆 2025-07-14 ? 
