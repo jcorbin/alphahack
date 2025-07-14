@@ -1,0 +1,48 @@
+T10.770689311029855 now: 2025-07-14T09:23:13EDT
+TD78 site: spaceword.org
+TDD1173401 📜 nwl2023.txt ? 
+TDD-1173369 wordlist: nwl2023.txt
+TDD2052202 🧩  ? daily 20250714
+TDD-2050622 puzzle_id: 2025-07-14
+TDD626441 num letters (default: 21) ? 
+TDD-627988 num_letters: 21
+TDD3125138 letters? acdeeef
+TDD-3125083 letters: |ACDEEEF|
+TDD2635189 letters? giijklo
+TDD-2635059 letters: |ACDEEEFGIIJKLO|
+TDD2660789 letters? ooqrssu
+TDD-2660811 letters: |ACDEEEFGIIJKLOOOQRSSU|
+TDD1164083 letters. 
+TDD84729 [doit:100]> /sea
+TDD692558 search 447370 [ 1 ]> cap 750
+TDD-955083 search 447370 [ 1 cap:750 ]> *(*
+TDD-1293 search 447370 [ 1 cap:750 ]> **
+TDD192836346 search 447370 [ 750 cap:750 may:2888 prune:56 done:2 dead:4 ]> show donw
+TDD-192045691 search 447370 [ 750 cap:750 may:2888 prune:56 done:2 dead:4 ]> show done
+TDD104505 search 447370 [ 750 cap:750 may:2888 prune:56 done:2 dead:4 ]> show 2
+TDD19426711 search 447370 [ 750 cap:750 may:2888 prune:56 done:2 dead:4 ]> ret
+TDD-21306511 change: 12 F
+TDD-627 change: 13 L
+TDD-17 change: 14 U
+TDD-3 change: 15 K
+TDD-1 change: 16 E
+TDD0 change: 17 S
+TDD0 change: 27 C
+TDD0 change: 35 E
+TDD1 change: 37 R
+TDD0 change: 45 J
+TDD0 change: 47 O
+TDD0 change: 55 I
+TDD0 change: 57 O
+TDD-1 change: 65 D
+TDD0 change: 66 A
+TDD0 change: 67 G
+TDD0 change: 75 O
+TDD0 change: 77 E
+TDD0 change: 83 Q
+TDD0 change: 84 I
+TDD0 change: 85 S
+TDD42950765 [doit:2152]> /res
+TDD-42588398 Press <Enter> to 📋 or `>` for line prompt 
+TDD-355418 result: "\u2728 Spaceword.org Daily 2025-07-14 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 178/232 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD982240 [prior:2152]> /store
