@@ -30,6 +30,19 @@ def pad_rows(rows: Iterable[Iterable[str]]):
             for w in (col_widths[j],)
             if w > 0)
 
+def re_word_match(ui: PromptUI):
+    rest = ui.tokens.rest
+    match = re.match(r'''(?x)
+        \s* (?P<word> [_A-Za-z ]+ )
+        (?: \s* ~ \s* (?P<may> [A-Za-z ]* ) )?
+    ''', rest) or re.match(r'''(?x)
+        (?P<word> )
+        \s* ~ \s* (?P<may> [A-Za-z ]* )
+    ''', rest)
+    if match:
+        ui.tokens.rest = rest[match.end(0):] 
+    return match
+
 @final
 class Search(StoredLog):
     log_file: str = 'squareword.log'
@@ -658,23 +671,10 @@ class Search(StoredLog):
 
     def proc_re_word(self, ui: PromptUI, word_i: int):
         with ui.tokens as _tokens:
-            match = self.re_word_match(ui)
+            match = re_word_match(ui)
             if match:
                 return self.proc_re_word_match(ui, word_i, match)
         return False
-
-    def re_word_match(self, ui: PromptUI):
-        rest = ui.tokens.rest
-        match = re.match(r'''(?x)
-            \s* (?P<word> [_A-Za-z ]+ )
-            (?: \s* ~ \s* (?P<may> [A-Za-z ]* ) )?
-        ''', rest) or re.match(r'''(?x)
-            (?P<word> )
-            \s* ~ \s* (?P<may> [A-Za-z ]* )
-        ''', rest)
-        if match:
-            ui.tokens.rest = rest[match.end(0):] 
-        return match
 
     def proc_re_word_match(self, ui: PromptUI, word_i: int, match: re.Match[str]):
         word_str = cast(str, match.group(1) or '')
