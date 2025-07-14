@@ -274,23 +274,31 @@ class Word:
 
     @override
     def __str__(self):
-        def parts():
-            yield f'{self.word}'
-            if self.done: return
+        return ' '.join(part for part in self.str_parts() if part)
 
-            if self.may:
-                yield f'~{"".join(sorted(self.may))}'
+    def str_parts(self):
+        yield f'{self.word}'
+        yield self.may_str()
+        yield self.cant_str()
+        yield self.max_str()
 
-            cant = set(self.uni)
-            for cn in self.can:
-                cant = cant.difference(cn)
-            if cant:
-                yield f'-{"".join(sorted(cant))}'
+    def may_str(self):
+        return f'~{"".join(sorted(self.may))}' if self.may else ''
 
-            for c in sorted(self.max):
-                yield f'{c}:{self.max[c]}'
+    def cant_str(self):
+        cant = self.cant()
+        return f'-{"".join(sorted(cant))}' if cant else ''
 
-        return ' '.join(parts())
+    def max_str(self):
+        return ' '.join(
+            f'{c}:{self.max[c]}'
+            for c in sorted(self.max))
+
+    def cant(self):
+        cant = set(self.uni)
+        for cn in self.can:
+            cant = cant.difference(cn)
+        return cant
 
     @property
     def done(self):
