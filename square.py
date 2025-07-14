@@ -3,7 +3,7 @@
 import argparse
 import json
 import re
-from collections import OrderedDict
+from collections import Counter, OrderedDict
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
 from itertools import chain
@@ -431,6 +431,8 @@ class Search(StoredLog):
                             word.can[i].difference_update((c,))
 
         def feedback(self, word: str):
+            mx = self.word.max
+            may: Counter[str] = Counter()
             for i, c in enumerate(word):
                 y = self.yes[i]
                 if y == c:
@@ -442,8 +444,11 @@ class Search(StoredLog):
                     continue
 
                 if c in self.yes or c in self.may:
-                    yield 1
-                    continue
+                    x = mx.get(c, None)
+                    if x is None or may[c] < x:
+                        may[c] += 1
+                        yield 1
+                        continue
 
                 yield 0
 
