@@ -437,6 +437,10 @@ class Search(StoredLog):
                     yield 2
                     continue
 
+                if c in self.nope or c in self.void:
+                    yield 0
+                    continue
+
                 if c in self.yes or c in self.may:
                     yield 1
                     continue
