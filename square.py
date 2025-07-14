@@ -521,17 +521,19 @@ class Search(StoredLog):
         if self.skip_show:
             self.skip_show = False
             return
-        self.show_grid(ui)
+        for word_i in range(self.size):
+            ui.print(' | '.join(self.show_parts(word_i)))
         if self.nope:
             ui.print(f'no: {" ".join(sorted(let.upper() for let in self.nope))}')
 
-    def show_grid(self, ui: PromptUI):
-        for word_i in range(self.size):
-            ui.write(f'#{word_i+1}  | ')
-            for k in self.row_word_range(word_i):
-                ui.write(f' {self.grid[k].upper() or "_"}')
-            ui.write(f'  |  {" ".join(sorted(let.upper() for let in self.row_may[word_i]))}')
-            ui.fin()
+    def show_parts(self, word_i: int):
+        grid_yes = tuple(
+            self.grid[k].upper().strip()
+            for k in self.row_word_range(word_i))
+
+        yield f'#{word_i+1}'
+        yield ' '.join(c or '_' for c in grid_yes)
+        yield ' '.join(sorted(let.upper() for let in self.row_may[word_i]))
 
     def prompt_mess(self, ui: PromptUI):
         self.show(ui)
