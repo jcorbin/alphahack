@@ -1,0 +1,56 @@
+T0.0002038010279648006 now: 2025-07-15T09:34:39EDT
+TD37 site: dontwordle.com
+TDD-10 wordlist: nwl2023.txt
+TDD5187520526 1> *
+TDD-5183155493 ? ␚
+TDD-4364921 <EOF>
+TDD2069425 1> * -bot 10
+TDD2733068 ? 9
+TDD-1229586 📋 "tares" ? nMnnM
+TDD-3572416 tried: TARES n m n n m
+TDD1648938 2> * -bot 10
+TDD5945638 ? 9
+TDD-4820824 📋 "flask" ? nMYMn
+TDD-2774038 tried: FLASK n m Y m n
+TDD903730 3> undo
+TDD-903972 undo
+TDD835544 2> undo
+TDD-835531 undo
+TDD4670180 1> *
+TDD-1468982 ? 2
+TDD1516241 📋 "deedy" ? nnnnn
+TDD-4717313 tried: DEEDY n n n n n
+TDD1022841 2> *
+TDD810086 ? 1
+TDD2873733 📋 "zizit" ? nnnnn
+TDD-4706757 tried: ZIZIT n n n n n
+TDD604772 3> *
+TDD1351468 ? 1
+TDD2565655 📋 "known" ? nnnnn
+TDD-4521805 tried: KNOWN n n n n n
+TDD646476 4> *
+TDD8507323 ? 3
+TDD-2601046 📋 "humph" ? nnMMn
+TDD-6552868 tried: HUMPH n n m m n
+TDD2673350 5> undo
+TDD-2673200 undo
+TDD3388774 4> *
+TDD5048557 ? 3
+TDD-4144705 📋 "churr" ? nnnnn
+TDD-4292707 tried: CHURR n n n n n
+TDD1151482 5> *
+TDD4588665 5> * -sans :v [almp]
+TDD-783071 5> * -sans :v [alms]
+TDD3355427 5> * -sans :v [alps]
+TDD2739530 5> * -sans :v [amps]
+TDD-4526213 5> * -sans :v [lmps]
+TDD-4261462 ? 1
+TDD2914127 📋 "gabba" ? nMnnn
+TDD-5178442 tried: GABBA n m n n n
+TDD1448566 6> * -sans
+TDD4434240 ? 1
+TDD427890 📋 "slaps" ? MMYMn
+TDD-6310769 tried: SLAPS m m Y m n
+TDD3377304 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3370573 result: "Don't Wordle 1148 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5075\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2302\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c691\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c121\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c14\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\u2b1c1\nUndos used: 3\n\n  1 words remaining\nx 6 unused letters\n= 6 total score"
+TDD500259 📆 2025-07-15 ? 
