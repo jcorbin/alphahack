@@ -1,0 +1,127 @@
+T0.00020107603631913662 now: 2025-07-15T11:08:24EDT
+TD42 site: squareword.org
+TDD7968522 🧩  ? #1261
+TDD-7968342 puzzle_id: #1261
+TDD-202 wordlist: nwl2023.txt
+TDD861713 > *
+TDD2777860 try? 1
+TDD-3639321 questioning: ["raise", "#5"]
+TDD3722507 #1 _____  📋 "raise" ? ___s_ ~ a
+TDD-3722414 attempt 0 RAISE n m n Y n
+TDD3578758 #2 _____  📋 "raise" ? r____ ~ re
+TDD-3578858 attempt 1 RAISE Y n n n m
+TDD6156835 #3 _____  📋 "raise" ? __i_e ~ ra
+TDD-6156751 attempt 2 RAISE m m Y n Y
+TDD3924379 #4 _____  📋 "raise" ? ____e ~ as
+TDD-3924404 attempt 3 RAISE n m n m Y
+TDD5571031 #5 _____  📋 "raise" ? _____ ~ s
+TDD-5571147 attempt 4 RAISE n n n m n
+TDD2301040 ? 
+TDD-2300973 question done
+TDD4049747 > *
+TDD-3177261 questioning: ["afire", "#3"]
+TDD3256908 #1 ___S_ ~A -EIR  📋 "afire" ? 
+TDD38993 #1 ___S_ ~A -EIR  ? .
+TDD-4168380 attempt 0 AFIRE m n n n n
+TDD6398787 #2 R____ ~E -AIS  📋 "afire" ? r____ ~ re
+TDD-6398874 attempt 1 AFIRE n n n m m
+TDD4136536 #3 __I_E ~AR -S  📋 "afire" ? /it
+TDD-4136505 attempt 2 AFIRE Y Y Y Y Y
+TDD9202885 #4 ____E ~AS -IR  📋 "afire" ? .
+TDD-9202521 attempt 3 AFIRE m n n n Y
+TDD3485836 #5 _____ ~S -AEIR  📋 "afire" ? .
+TDD-3485986 attempt 4 AFIRE n n n n n
+TDD1344792 ? 
+TDD-1344980 question done
+TDD777082 > *
+TDD1776544 try? 1
+TDD-2553745 questioning: ["coast", "#1"]
+TDD5869901 #1 ___S_ ~A -EFIR  📋 "coast" ? __ast
+TDD-5869894 attempt 0 COAST n n Y Y Y
+TDD7640434 #2 R____ ~E -AFIS  📋 "coast" ? ro___ ~ re
+TDD-7640398 attempt 1 COAST n Y n n n
+TDD15244669 ! 
+TDD-5669609 #4 ____E ~AS -FIR  📋 "coast" ? __a_e ~ st
+TDD-9574943 attempt 3 COAST n n Y m m
+TDD6791761 #5 _____ ~S -AEFIR  📋 "coast" ? _____ ~ so
+TDD-6791698 attempt 4 COAST n m n m n
+TDD5057769 ? 
+TDD-5058019 question done
+TDD996164 > ␚
+TDD-996220 <EOF>
+TDD1521567418 <INT>
+TDD-1521567231 <INT>
+TDD-170 <INT>
+T0.045016545976977795 now: 2025-07-15T11:35:57EDT
+TD14766243 <INT>
+T0.04414394899504259 now: 2025-07-15T11:37:14EDT
+TD55484809 <INT>
+T0.0434969260240905 now: 2025-07-15T11:38:11EDT
+TD2991608 <INT>
+T0.044966636050958186 now: 2025-07-15T11:38:44EDT
+TD2177550 > *
+TDD-1261588 questioning: ["blast", "#1"]
+TDD6172923 #1 __AST -CEFIOR  📋 "blast" ? /it
+TDD-7088490 attempt 0 BLAST Y Y Y Y Y
+TDD9619309 ! 
+TDD-7599649 ! 
+TDD7960919 <INT>
+TDD-9980868 <INT>
+T0.048237204959150404 now: 2025-07-15T11:40:22EDT
+TD59 questioning: ["blast", "#1"]
+TDD7664722 #2 RO___ ~E -ACFIST  📋 "blast" ? ro___ ~ re
+TDD-7663696 attempt 1 BLAST n n n n n
+TDD13694090 #2 RO___ ~E -ABCFILST  📋 "blast" ? .
+TDD-13694761 attempt 1 BLAST n n n n n
+TDD1645225 #2 RO___ ~E -ABCFILST  📋 "blast" ? .
+TDD-1645484 attempt 1 BLAST n n n n n
+TDD1645829 <INT>
+T0.04951727297157049 now: 2025-07-15T11:41:37EDT
+TD92 questioning: ["blast", "#1"]
+TDD7229108 #4 __A_E ~ST -CFIOR  📋 "blast" ? .
+TDD-7228715 attempt 3 BLAST n n Y m m
+TDD1353880 #5 _____ ~OS -ACEFIRT  📋 "blast" ? .
+TDD-1354138 attempt 4 BLAST n n n m n
+TDD1592076 ? *
+TDD397369 ? 
+TDD-1989395 question done
+TDD1450425 > *
+TDD3903303 try? 1
+TDD-5353868 questioning: ["roper", "#2"]
+TDD7847508 #2 RO___ ~E -ABCFILST  📋 "roper" ? ro_er
+TDD-7846879 attempt 1 ROPER Y Y n Y Y
+TDD3695532 #4 __A_E ~ST -BCFILOR  📋 "roper" ? .
+TDD-3696149 attempt 3 ROPER n n n n n
+TDD590829 #5 _____ ~OS -ABCEFILRT  📋 "roper" ? .
+TDD-590822 attempt 4 ROPER n m n n n
+TDD853885 ? *
+TDD479594 ? 
+TDD-1333547 question done
+TDD729789 > *
+TDD-232905 questioning: ["rover", "#2"]
+TDD4588119 #2 RO_ER -ABCFILPST  📋 "rover" ? /it
+TDD-5084574 attempt 1 ROVER Y Y Y Y Y
+TDD6072741 #4 __A_E ~ST -BCEFILOPR  📋 "rover" ? __a_e ~ stv
+TDD-6072734 attempt 3 ROVER n n m n n
+TDD2301352 #5 _____ ~OS -ABCEFILPRT  📋 "rover" ? .
+TDD-2301563 attempt 4 ROVER n m n n n
+TDD968891 ? *
+TDD27457 ? 
+TDD-996473 question done
+TDD577333 > *
+TDD-230141 questioning: ["stave", "#4"]
+TDD4041198 #4 __A_E ~STV -BCEFILOPR  📋 "stave" ? /it
+TDD-4388222 attempt 3 STAVE Y Y Y Y Y
+TDD4180227 #5 _____ ~OS -ABCEFILPRTV  📋 "stave" ? s____ ~ o
+TDD-4180415 attempt 4 STAVE Y n n n n
+TDD1781576 ? 
+TDD-1781585 question done
+TDD943104 > *
+TDD-583044 questioning: ["synod", "#5"]
+TDD9542106 #5 S____ ~O -ABCEFILPRTV  📋 "synod" ? /it
+TDD-9901847 attempt 4 SYNOD Y Y Y Y Y
+TDD901679 ? 
+TDD-902006 question done
+TDD4761715 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4756366 result: "squareword.org 1261: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1261"
+TDD496256 📆 2025-07-15 ? 
