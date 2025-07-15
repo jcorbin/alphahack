@@ -1,0 +1,60 @@
+T0.00026280496967956424 now: 2025-07-15T11:45:27EDT
+TD38 site: spaceword.org
+TDD-8 wordlist: nwl2023.txt
+TDD3427304 🧩  ? daily 20250715
+TDD-3427017 puzzle_id: 2025-07-15
+TDD1129311 num letters (default: 21) ? 
+TDD-1129456 num_letters: 21
+TDD5265483 letters? aeefgii
+TDD-5265259 letters: |AEEFGII|
+TDD2665105 letters? ikloooq
+TDD-2665114 letters: |AEEFGIIIKLOOOQ|
+TDD2705495 letters? rrrsuyz
+TDD-2705792 letters: |AEEFGIIIKLOOOQRRRSUYZ|
+TDD1919245 letters. *
+TDD-1919187 letters: |AEEFGIIIKLOOOQRRRSUYZ*|
+TDD2714232 letters! 
+TDD182802 letters! ?
+TDD-1447743 letters! /clear
+TDD-1449349 letters: ||
+TDD2946284 letters? aeefgii
+TDD-2946246 letters: |AEEFGII|
+TDD2758876 letters? ikloooq
+TDD-2758905 letters: |AEEFGIIIKLOOOQ|
+TDD2475461 letters? rrrsuyz
+TDD-2475268 letters: |AEEFGIIIKLOOOQRRRSUYZ|
+TDD643762 letters. 
+TDD935432 [doit:100]> /sea
+TDD2026 search d56917 [ 1 ]> cap 750
+TDD-952660 search d56917 [ 1 cap:750 ]> **
+TDD100073450 search d56917 [ 750 cap:750 may:701 prune:98 dead:14 done:9 ]> show done
+TDD-96788562 search d56917 [ 750 cap:750 may:701 prune:98 dead:14 done:9 ]> 8
+TDD-1616651 search d56917 [ 750 cap:750 may:701 prune:98 dead:14 done:9 ]> sho w8
+TDD-338486 search d56917 [ 750 cap:750 may:701 prune:98 dead:14 done:9 ]> show done
+TDD-684322 search d56917 [ 750 cap:750 may:701 prune:98 dead:14 done:9 ]> show 8
+TDD48209199 search d56917 [ 750 cap:750 may:701 prune:98 dead:14 done:9 ]> ret
+TDD-49482857 change: 35 Y
+TDD-589 change: 38 Z
+TDD-17 change: 43 G
+TDD-4 change: 44 O
+TDD0 change: 45 O
+TDD-1 change: 46 F
+TDD0 change: 47 I
+TDD0 change: 48 E
+TDD0 change: 49 R
+TDD0 change: 55 L
+TDD0 change: 56 A
+TDD1 change: 58 R
+TDD-1 change: 59 E
+TDD1 change: 61 Q
+TDD0 change: 62 U
+TDD0 change: 63 I
+TDD0 change: 64 R
+TDD0 change: 65 K
+TDD0 change: 66 S
+TDD0 change: 68 O
+TDD0 change: 69 I
+TDD640650 [doit:2164]> /res
+TDD-391559 Press <Enter> to 📋 or `>` for line prompt 
+TDD-243075 result: "\u2728 Spaceword.org Daily 2025-07-15 \u2728\n\n\ud83c\udfc6 Score: 2164\n\ud83c\udfc5 Rank: 136/297 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +64\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD726844 [prior:2164]> /store
