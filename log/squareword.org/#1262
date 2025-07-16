@@ -1,0 +1,128 @@
+T0.0001704749884083867 now: 2025-07-16T08:27:30EDT
+TD35 site: squareword.org
+TDD8903468 🧩  ? #1262
+TDD-8903260 puzzle_id: #1262
+TDD-218 wordlist: nwl2023.txt
+TDD760013 > *
+TDD3750642 try? 1
+TDD-4510363 questioning: ["rates", "#5"]
+TDD5119059 #1 _____  📋 "rates" ? _____ ~ raes
+TDD-5118588 attempt 0 RATES m m n m m
+TDD5817399 #2 _____  📋 "rates" ? _____ ~ te
+TDD-5817599 attempt 1 RATES n n m m n
+TDD3441934 #3 _____  📋 "rates" ? _____ ~ ra
+TDD-3441699 attempt 2 RATES m m n n n
+TDD2120336 #4 _____  📋 "rates" ? 3
+TDD2972695 #3 _____ ~AR -EST  📋 "rates" ? _____ ~ rat
+TDD-5093528 attempt 2 RATES m m m n n
+TDD6097734 #4 _____  📋 "rates" ? _____ ~ ts
+TDD-6097530 attempt 3 RATES n n m n m
+TDD3502583 #5 _____  📋 "rates" ? ___es
+TDD-3502770 attempt 4 RATES n n n Y Y
+TDD22378620 ? 
+TDD-22378734 question done
+TDD1968354 > ␚
+TDD-1968526 <EOF>
+TDD1232625 > ␚
+TDD-1232571 <EOF>
+T0.04158111399738118 now: 2025-07-16T08:31:40EDT
+TD10129057 > *
+TDD-5811155 try? 1
+TDD-4317229 questioning: ["spare", "#1"]
+TDD6909828 #1 _____ ~AERS -T  📋 "spare" ? s____ ~ rae
+TDD-6910030 attempt 0 SPARE Y n m m m
+TDD7844754 #2 _____ ~ET -ARS  📋 "spare" ? ____e ~ t
+TDD-7845010 attempt 1 SPARE n n n n Y
+TDD6601678 #3 _____ ~ART -EST  📋 "spare" ? .
+TDD-6601494 attempt 2 SPARE n n m m n
+TDD7356162 #4 _____ ~ST -AER  📋 "spare" ? s____ ~ tp
+TDD-7356160 attempt 3 SPARE Y m n n n
+TDD2279108 #5 ___ES -ART  📋 "spare" ? .
+TDD-2279163 attempt 4 SPARE n n n n n
+TDD19553178 ? 
+TDD-19553330 question done
+TDD3055978 <INT>
+TDD-3056067 <INT>
+T0.04333717201370746 now: 2025-07-16T08:33:27EDT
+TD1688087 > *
+TDD2446097 try? 1
+TDD-4133935 questioning: ["swear", "#1"]
+TDD6495178 #1 S____ ~AER -PT  📋 "swear" ? s_ear 
+TDD-6494657 attempt 0 SWEAR Y n Y Y Y
+TDD6660234 #2 ____E ~T -APRS  📋 "swear" ? .
+TDD-6660506 attempt 1 SWEAR n n n n n
+TDD4155571 #3 _____ ~ART -EPST  📋 "swear" ? .
+TDD-4155759 attempt 2 SWEAR n n n m m
+TDD4473623 #4 S____ ~PT -AER  📋 "swear" ? .
+TDD-4473568 attempt 3 SWEAR Y n n n n
+TDD1027967 #5 ___ES -AEPRST  📋 "swear" ? .
+TDD-1028146 attempt 4 SWEAR n n n n n
+TDD3507181 ? 
+TDD-3507171 question done
+TDD915548 > *
+TDD4804362 try? ␚
+TDD-5720051 <EOF>
+TDD5871190 > * 3
+TDD6388256 > * 4
+TDD-1922603 try? 2
+TDD-10336370 questioning: ["stomp", "#4"]
+TDD4675576 #1 S_EAR -PTW  📋 "stomp" ? 
+TDD6048716 #1 S_EAR -PTW  ? s_ear ~ m
+TDD-10724216 attempt 0 STOMP Y n n m n
+TDD7358736 #2 ____E ~T -AEPRSW  📋 "stomp" ? ____e ~ to
+TDD-7359065 attempt 1 STOMP n m m n n
+TDD6700927 #3 _____ ~ART -EPSTW  📋 "stomp" ? _t___ ~ ra
+TDD-6700645 attempt 2 STOMP n Y n n n
+TDD3021799 #4 S____ ~PT -AERW  📋 "stomp" ? /it
+TDD-3021700 attempt 3 STOMP Y Y Y Y Y
+TDD6160908 #5 ___ES -AEPRSTW  📋 "stomp" ? ___es ~ o
+TDD-6161266 attempt 4 STOMP n n m n n
+TDD7030156 ? 
+TDD-7030313 question done
+TDD1586789 > *
+TDD-867081 questioning: ["smear", "#1"]
+TDD2909356 #1 S_EAR ~M -OPTW  📋 "smear" ? 
+TDD-2361578 #1 S_EAR ~M -OPTW  ? 
+TDD465642 #1 S_EAR ~M -OPTW  ? /it
+TDD-1732771 attempt 0 SMEAR Y Y Y Y Y
+TDD3654233 #2 ____E ~OT -AEMPRSW  📋 "smear" ? .
+TDD-3654542 attempt 1 SMEAR n n n n n
+TDD2830425 #3 _T___ ~AR -EMOPSW  📋 "smear" ? .
+TDD-2830297 attempt 2 SMEAR n n n m m
+TDD2309579 #5 ___ES ~O -AEMPRSTW  📋 "smear" ? .
+TDD-2309438 attempt 4 SMEAR n n n n n
+TDD756377 ? *
+TDD662363 ? *
+TDD-785134 ? 
+TDD-633976 question done
+TDD623096 > *
+TDD-518468 questioning: ["tonne", "#2"]
+TDD2898706 #2 ____E ~OT -AEMPRSW  📋 "tonne" ? 
+TDD-861847 #2 ____E ~OT -AEMPRSW  ? /it
+TDD-2141397 attempt 1 TONNE Y Y Y Y Y
+TDD3226746 #3 _T___ ~AR -EMOPSW  📋 "tonne" ? .
+TDD-3226678 attempt 2 TONNE n n n n n
+TDD2521093 #5 ___ES ~O -AEMPRSTW  📋 "tonne" ? _o_es
+TDD-2521128 attempt 4 TONNE n Y n n n
+TDD5325193 ? 
+TDD-5325257 question done
+TDD817537 > *
+TDD477297 questioning: ["atria", "#3"]
+TDD2361242 #3 _T___ ~AR -EMNOPSTW  📋 "atria" ? 
+TDD-2012001 #3 _T___ ~AR -EMNOPSTW  ? /it
+TDD-1644085 attempt 2 ATRIA Y Y Y Y Y
+TDD2096484 #5 _O_ES -AEMNPRSTW  📋 "atria" ? .
+TDD-2096431 attempt 4 ATRIA n n n n n
+TDD584433 ? *
+TDD463935 ? 
+TDD-1048324 question done
+TDD687435 > *
+TDD107647 questioning: ["holes", "#5"]
+TDD3075788 #5 _O_ES -AEIMNPRSTW  📋 "holes" ? 
+TDD-1955722 #5 _O_ES -AEIMNPRSTW  ? /it
+TDD-1915186 attempt 4 HOLES Y Y Y Y Y
+TDD785630 ? 
+TDD-785740 question done
+TDD6729324 Press <Enter> to 📋 or `>` for line prompt 
+TDD-6723670 result: "squareword.org 1262: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1262"
+TDD510316 📆 2025-07-16 ? 
