@@ -1,0 +1,23 @@
+T0.00020441901870071888 now: 2025-07-16T08:19:55EDT
+TD60904 loaded 196555 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (48 words excluded) asof 8e01026a1fb05273ee73f60832d748330f454b2d
+TDD39798764 [0 : 98235 : 196555] mach? b
+TDD-39859268 progress: -1 98235 mach
+TDD1440741 [0 : 47395 : 98235] dis? b
+TDD-1441014 progress: -1 47395 dis
+TDD1352437 [0 : 23581 : 47395] cam? a
+TDD-1352386 progress: 1 23581 cam
+TDD1457178 [23582 : 33713 : 47395] con? a
+TDD-1457231 progress: 1 33713 con
+TDD1477393 [33714 : 40539 : 47395] cyclo? b
+TDD-1477413 progress: -1 40539 cyclo
+TDD1666469 [33714 : 37122 : 40539] count? it
+TDD-1666474 progress: 0 37122 count
+TDD-90 [33714 : 37122 : 40539] <Done>.
+TDD2842240 press <Return> to finish
+TDD-2594821 Press <Enter> to 📋 or `>` for line prompt 
+TDD-243947 share result: "\ud83e\udde9 Puzzle #722\n\n\ud83e\udd14 6 guesses\n\n\u23f1\ufe0f 8s\n\n\ud83d\udd17 alphaguess.com"
+TDD-3449 result puzzle: 722
+TDD-23 result guesses: 6
+TDD-2 result time: 8s
+TDD0 result link: alphaguess.com
+TDD284052 📆 2025-07-16 ? 
