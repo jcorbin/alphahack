@@ -236,8 +236,12 @@ class Word:
         return space
 
     @property
+    def letters(self):
+        return tuple(l or '_' for l in self.yes)
+
+    @property
     def word(self):
-        return ''.join(l or '_' for l in self.yes)
+        return ''.join(self.letters)
 
     @classmethod
     def parse(cls, s: str):
