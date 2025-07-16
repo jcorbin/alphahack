@@ -1,0 +1,60 @@
+T0.00016749196220189333 now: 2025-07-16T08:20:58EDT
+TD37 site: dontwordle.com
+TDD-11 wordlist: nwl2023.txt
+TDD10613537 1> * -bot 10
+TDD-7390825 ? 7
+TDD1367582 📋 "stela" ? nnMnn
+TDD-4590056 tried: STELA n n m n n
+TDD1543006 2> * -bot 10
+TDD7181642 ? 5
+TDD-5183331 📋 "horde" ? nnMnM
+TDD-3541468 tried: HORDE n n m n m
+TDD1637531 3> undo
+TDD-1637540 undo
+TDD758471 2> undo
+TDD-758369 undo
+TDD5132915 1> * -bot 10
+TDD-2301301 ? 4
+TDD5235823 📋 "autos" ? nnnnn
+TDD-8067523 tried: AUTOS n n n n n
+TDD1399764 2> undo
+TDD-1399623 undo
+TDD1632583 1> *
+TDD6806180 ? 1
+TDD-6483702 📋 "zizit" ? nMnnn
+TDD-1954829 tried: ZIZIT n m n n n
+TDD990768 2> undo
+TDD-991088 undo
+TDD3603283 1> *
+TDD-812028 ? 1
+TDD1343870 📋 "potto" ? nnnnn
+TDD-4135092 tried: POTTO n n n n n
+TDD948748 2> *
+TDD1333501 ? 1
+TDD7004154 📋 "nanna" ? Mnnnn
+TDD-9286489 tried: NANNA m n n n n
+TDD1022686 3> undo
+TDD-1022552 undo
+TDD3915604 2> *
+TDD485677 ? 1
+TDD-52422 📋 "shahs" ? nnnnn
+TDD-4348908 tried: SHAHS n n n n n
+TDD624598 3> *
+TDD1578031 ? 1
+TDD2743727 📋 "yukky" ? nnnnn
+TDD-4946337 tried: YUKKY n n n n n
+TDD1013326 4> *
+TDD3768998 4> * -sans :v [ein]
+TDD1497294 📋 "grrrl" ? nMnnn
+TDD-6279730 tried: GRRRL n m n n n
+TDD1172176 5> *
+TDD5059492 5> * -san :v [eir]
+TDD-3586731 5> * -sans
+TDD5839349 ? 2
+TDD429372 📋 "fewer" ? MnnYY
+TDD-8913637 tried: FEWER m n n Y Y
+TDD6792623 6> fail infer
+TDD-6792625 fail: infer
+TDD2616325 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2613582 result: "Don't Wordle 1149 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5809\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1231\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c513\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c70\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe91\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"
+TDD209918 📆 2025-07-16 ? 
