@@ -552,9 +552,24 @@ class Search(StoredLog):
             self.grid[k].upper().strip()
             for k in self.row_word_range(word_i))
 
+        def check():
+            if any(
+                a != b
+                for a, b in zip(grid_yes, word.yes)):
+                yield f'!="{word.word}"'
+
+        problems = tuple(check())
+
         yield f'#{word_i+1}'
-        yield ' '.join(c or '_' for c in grid_yes)
+        yield (
+            '🛑 ' if problems
+            else '📦 ' if word.done
+            else '🤔 ')
+        yield from (c or '_' for c in grid_yes)
         yield word.may_str()
+        yield word.cant_str()
+        yield word.max_str()
+        yield ' '.join(problems)
 
     def prompt_mess(self, ui: PromptUI):
         self.show(ui)
