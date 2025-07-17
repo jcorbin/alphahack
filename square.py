@@ -99,6 +99,9 @@ class Search(StoredLog):
         self.nope: set[str] = set()
         self.row_may: tuple[set[str], ...] = tuple(set() for _ in range(self.size))
 
+        # TODO fully replace above grid, nope, and may?
+        self.row_words = tuple(Word(self.size) for _ in range(self.size))
+
         self._result: Result|None = None
 
         self.prompt = PromptUI.Prompt(self.prompt_mess, {
@@ -271,6 +274,7 @@ class Search(StoredLog):
                     rest, = match.groups()
                     assert rest == ''
                     self.questioning = None
+                    self.update_grid()
                     continue
 
                 match = re.match(r'''(?x)
@@ -941,6 +945,13 @@ class Search(StoredLog):
         ch.prompt.set('*', self.do_choose)
         return ch
 
+    def update_grid(self):
+        for i, c in enumerate(
+            c
+            for word in self.row_words
+            for c in word.yes
+        ): self.grid[i] = c
+
     def do_round(self, rnd: 'Search.Round'):
         def start(ui: PromptUI):
             ui.log(f'questioning: {json.dumps([rnd.guess, rnd.desc])}')
@@ -959,6 +970,7 @@ class Search(StoredLog):
         def fin(ui: PromptUI):
             ui.log('question done')
             self.questioning = None
+            self.update_grid()
             return self.display
 
         return start
