@@ -420,7 +420,7 @@ class Search(StoredLog):
                      may: Iterable[str] = (),
                      void: Iterable[str] = (),
                      nope: Iterable[str] = (),
-                     guesses: Iterable[str] = (),
+                     guesses: Iterable[Attempt|str] = (),
                      row: int|None = None,
                      col: int|None = None,
                      word: Word|None = None,
@@ -429,7 +429,7 @@ class Search(StoredLog):
             self.may = tuple(l.upper() for l in may)
             self.nope = tuple(l.upper() for l in nope)
             self.void = tuple(l.upper() for l in void)
-            self.guesses = tuple(w.upper() for w in guesses)
+            self.guesses = tuple(w.upper() if isinstance(w, str) else w for w in guesses)
             self.row = row
             self.col = col
             if word is None:
@@ -450,9 +450,10 @@ class Search(StoredLog):
                     for c in self.nope:
                         word.cannot(c)
                     for guess in self.guesses:
-                        for i, c in enumerate(guess):
-                            if self.yes[i] != c:
-                                word.can[i].difference_update((c,))
+                        if isinstance(guess, str):
+                            for i, c in enumerate(guess):
+                                if self.yes[i] != c:
+                                    word.can[i].difference_update((c,))
             else:
                 self.word = word
 
@@ -481,7 +482,10 @@ class Search(StoredLog):
         @property
         def attempts(self):
             for guess in self.guesses:
-                yield Attempt(guess, tuple(self.feedback(guess)))
+                if isinstance(guess, str):
+                    yield Attempt(guess, tuple(self.feedback(guess)))
+                else:
+                    yield guess
 
         @override
         def __str__(self):
