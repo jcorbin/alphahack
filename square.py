@@ -59,8 +59,6 @@ class Search(StoredLog):
 
         self.grid: list[str] = ['' for _ in range(self.size**2)]
 
-        self.choosing: tuple[int, Word, Possible[str]]|None = None
-
         self.qmode: str = '?'
         self.questioning: str = ''
         self.question_desc: str = ''
@@ -129,9 +127,6 @@ class Search(StoredLog):
 
         if self.questioning:
             return self.question
-
-        if self.choosing is not None:
-            return self.present_choice
 
         return self.display
 
@@ -739,77 +734,78 @@ class Search(StoredLog):
             ui.print(f'{n}. {at}')
 
     def do_choose(self, ui: PromptUI) -> PromptUI.State|None:
-        if self.choosing is None:
-            avoid = True
-            verbose = 0
-            chooser = Chooser()
-            word_i: int|None = None
+        avoid = True
+        verbose = 0
+        chooser = Chooser()
+        word_i: int|None = None
 
-            while ui.tokens:
-                n = ui.tokens.have(r'\d+$', lambda m: int(m.group(0)))
-                if n is not None:
-                    word_i = n-1
-                    continue
+        while ui.tokens:
+            n = ui.tokens.have(r'\d+$', lambda m: int(m.group(0)))
+            if n is not None:
+                word_i = n-1
+                continue
 
-                match = ui.tokens.have(r'-(v+)')
-                if match:
-                    ui.print(f'parse choosing verbose: {verbose}')
-                    verbose += len(match.group(1))
-                    continue
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                ui.print(f'parse choosing verbose: {verbose}')
+                verbose += len(match.group(1))
+                continue
 
-                if ui.tokens.have(r'-sans'):
-                    avoid = False
-                    continue
+            if ui.tokens.have(r'-sans'):
+                avoid = False
+                continue
 
-                if chooser.collect(ui.tokens):
-                    continue
+            if chooser.collect(ui.tokens):
+                continue
 
-                ui.print(f'! invalid * arg {next(ui.tokens)!r}')
-                return
+            ui.print(f'! invalid * arg {next(ui.tokens)!r}')
+            return
 
-            # TODO expand scoring over all possible words when word_i not given
+        # TODO expand scoring over all possible words when word_i not given
 
-            sel: Search.Select|None = None
+        sel: Search.Select|None = None
 
-            if word_i is None:
-                smallest = 0
+        if word_i is None:
+            smallest = 0
+            for word_j in range(self.size):
+                p = self.select(row=word_j, avoid=avoid)
+                if p.word.done: continue
+                have = sum(1 for _ in self.find(p.pattern, row=word_j))
+                if not have: continue
+                if not sel or have < smallest:
+                    word_i, sel, smallest = word_j, p, have
+            if word_i is None or sel is None:
+                ui.print('! unable to select')
                 for word_j in range(self.size):
                     p = self.select(row=word_j, avoid=avoid)
-                    if p.word.done: continue
-                    have = sum(1 for _ in self.find(p.pattern, row=word_j))
-                    if not have: continue
-                    if not sel or have < smallest:
-                        word_i, sel, smallest = word_j, p, have
-                if word_i is None or sel is None:
-                    ui.print('! unable to select')
-                    for word_j in range(self.size):
-                        p = self.select(row=word_j, avoid=avoid)
-                        lines = self.explain_select(p.word)
-                        for line in wrap_item(f'#{word_j+1}: {next(lines)}', lines, indent='   '):
-                            ui.print(line)
-                    return
+                    lines = self.explain_select(p.word)
+                    for line in wrap_item(f'#{word_j+1}: {next(lines)}', lines, indent='   '):
+                        ui.print(line)
+                return
 
-            else:
-                sel = self.select(row=word_i, avoid=avoid)
+        else:
+            sel = self.select(row=word_i, avoid=avoid)
 
-            words = tuple(self.find(sel.pattern, row=word_i))
-            scores, explain_score = self.score_words(word_i, words)
-            for i, word in enumerate(words):
-                if word in self.recent_sug:
-                    penalty = self.recent_sug[word]
-                    if penalty > 1:
-                        self.recent_sug[word] = penalty - 1
-                    else:
-                        del self.recent_sug[word]
-                    scores[i] /= penalty
+        words = tuple(self.find(sel.pattern, row=word_i))
+        scores, explain_score = self.score_words(word_i, words)
+        for i, word in enumerate(words):
+            if word in self.recent_sug:
+                penalty = self.recent_sug[word]
+                if penalty > 1:
+                    self.recent_sug[word] = penalty - 1
+                else:
+                    del self.recent_sug[word]
+                scores[i] /= penalty
 
-            self.choosing = word_i, sel.word, Possible(
-                words,
-                lambda _: (scores, explain_score),
-                verbose=verbose,
-                choices=chooser.choices)
+        pos = Possible(
+            words,
+            lambda _: (scores, explain_score),
+            verbose=verbose,
+            choices=chooser.choices)
 
-        return self.present_choice
+        ch = self.choose(ui, word_i, sel.word, pos)
+        if ch is not None:
+            ui.interact(ch)
 
     def do_manual_gen(self, ui: PromptUI):
         verbose = 0
@@ -854,14 +850,15 @@ class Search(StoredLog):
 
         words = tuple(self.find(pat, row=word_i))
         scores, explain_score = self.score_words(word_i, words)
-
-        self.choosing = word_i, word, Possible(
+        pos = Possible(
             words,
             lambda _: (scores, explain_score),
             verbose=verbose,
             choices=chooser.choices)
 
-        return self.present_choice
+        ch = self.choose(ui, word_i, word, pos)
+        if ch is not None:
+            ui.interact(ch)
 
     def explain_select(self, word: Word) -> Generator[str]:
         if word.done:
@@ -879,53 +876,32 @@ class Search(StoredLog):
         # yield f'have: {have}'
         # yield from extra
 
-    def present_choice(self, ui: PromptUI):
-        if self.choosing is None:
-            return self.display
-
-        word_i, sel_word, pos = self.choosing
-
+    def choose(self, ui: PromptUI, word_i: int, sel_word: Word, pos: Possible[str]):
+        # TODO recover / Choose / StopIteration
         if len(pos.data) == 0:
             lines = self.explain_select(sel_word)
             for line in wrap_item(f'!!! #{word_i+1} no choices', lines, indent='... '):
                 ui.print(line)
-            self.choosing = None
-            return self.display
+            return
 
-        if len(pos.data) == 1:
-            ui.print(f'=== #{word_i+1} must be')
-            i = next(pos.index())
-            choice = pos.data[i]
+        # XXX should be good wrt Choose singular behavior
+        # if len(pos.data) == 1:
+        #     ui.print(f'=== #{word_i+1} must be')
+        #     i = next(pos.index())
+        #     choice = pos.data[i]
+        #     self.recent_sug[choice] = 10
+        #     return self.ask_question(ui, choice, f'#{word_i+1}')
+
+        def then(choice: str) -> PromptUI.State:
             self.recent_sug[choice] = 10
-            return self.ask_question(ui, choice, f'#{word_i+1}')
+            return lambda ui: self.ask_question(ui, choice, f'#{word_i+1}')
 
-        ui.print(f'#{word_i+1} {pos} from {sel_word}')
-        for line in pos.show_list():
-            ui.print(line)
-
-        with (
-            ui.catch_state(EOFError, self.choice_abort),
-            ui.input('try? ') as tokens):
-
-            if tokens.have(r'\*'):
-                self.choosing = None
-                return self.do_choose(ui)
-
-            n = tokens.have(r'\d+', lambda match: int(match[0]))
-            i = None
-            if n is not None:
-                try:
-                    i = pos.get(n)
-                except IndexError:
-                    pass
-            if i is not None:
-                choice = pos.data[i]
-                self.recent_sug[choice] = 10
-                return self.ask_question(ui, choice, f'#{word_i+1}')
-
-    def choice_abort(self, _ui: PromptUI):
-        self.choosing = None
-        return self.display
+        ch = pos.choose(
+            then,
+            head=lambda ui: ui.print(f'#{word_i+1} {pos} from {sel_word}'),
+            mess='try? ')
+        ch.prompt.set('*', self.do_choose)
+        return ch
 
     def ask_question(self, ui: PromptUI, word: str, desc: str):
         word = word.upper()
@@ -933,7 +909,6 @@ class Search(StoredLog):
         self.qmode = '>' if word in self.guesses else '?' # TODO auto N> wen
         self.questioning = word
         self.question_desc = desc
-        self.choosing = None
         return self.question
 
     def question_abort(self, ui: PromptUI):
