@@ -1,0 +1,53 @@
+T0.0001711529985186644 now: 2025-07-17T09:40:25EDT
+TD36 site: dontwordle.com
+TDD-10 wordlist: nwl2023.txt
+TDD18383811 1> *
+TDD6021531 ? ␚
+TDD-24405257 <EOF>
+TDD21722308 1> * -bot 10
+TDD-19092384 ? 7
+TDD3954005 📋 "spear" ? nnYnM
+TDD-6582943 tried: SPEAR n n Y n m
+TDD1383689 2> undo
+TDD-1384597 undo
+TDD3339499 1> *
+TDD-1644496 ? 1
+TDD3847915 📋 "nappa" ? nnnnn
+TDD-5542843 tried: NAPPA n n n n n
+TDD748162 2> *
+TDD1393267 ? 1
+TDD2767326 📋 "sibbs" ? nnnnn
+TDD-4908820 tried: SIBBS n n n n n
+TDD677513 3> *
+TDD722146 ? 1
+TDD2829900 📋 "cooch" ? nMnnn
+TDD-4229507 tried: COOCH n m n n n
+TDD2254721 4> undo
+TDD-2254783 undo
+TDD2666925 3> *
+TDD516716 ? 1
+TDD-466391 📋 "mummy" ? nnnnn
+TDD-2717084 tried: MUMMY n n n n n
+TDD535169 4> *
+TDD3594481 4> * -sans :v [eo]
+TDD-83627 ? 1
+TDD984510 📋 "crwth" ? nMnMn
+TDD-5030644 tried: CRWTH n m n m n
+TDD1887670 5> * -sans
+TDD7575140 ? 1
+TDD-4793144 📋 "torot" ? nMMnY
+TDD-4669613 tried: TOROT n m m n Y
+TDD1103726 6> undo
+TDD-1103873 undo
+TDD2814158 5> *
+TDD-741120 5> * -sans
+TDD18653259 ? 5
+TDD-16968061 📋 "toker" ? MMnMM
+TDD-3758117 tried: TOKER m m n m m
+TDD1281977 6> * -sans
+TDD4782618 ? 1
+TDD-3358249 📋 "retro" ? nMMYM
+TDD-2706343 tried: RETRO n m m Y m
+TDD3378897 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3372741 result: "Don't Wordle 1150 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4982\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1282\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c501\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c23\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe83\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe81\nUndos used: 3\n\n  1 words remaining\nx 9 unused letters\n= 9 total score"
+TDD426547 📆 2025-07-17 ? 
