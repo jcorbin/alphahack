@@ -1,0 +1,42 @@
+T0.00021106500207679346 now: 2025-07-17T09:23:01EDT
+TD64023 loaded 196555 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (48 words excluded) asof f0da27fbbdd12f7ea3a8b72265e0d037a65d8159
+TDD4410659 [0 : 98235 : 196555] mach? b
+TDD-4474183 progress: -1 98235 mach
+TDD1706405 [0 : 47395 : 98235] dis? a
+TDD-1706729 progress: 1 47395 dis
+TDD1332540 [47396 : 72815 : 98235] gremolata? a
+TDD-1332550 progress: 1 72815 gremolata
+TDD1889924 [72816 : 85520 : 98235] ins? b
+TDD-1889817 progress: -1 85520 ins
+TDD1478025 [72816 : 79148 : 85520] hood? b
+TDD-1478063 progress: -1 79148 hood
+TDD1844705 [72816 : 75972 : 79148] haw? b
+TDD-1844710 progress: -1 75972 haw
+TDD2796733 [72816 : 74377 : 75972] had? b
+TDD-2796785 progress: -1 74377 had
+TDD1401845 [72816 : 73587 : 74377] guess? a
+TDD-1401445 progress: 1 73587 guess
+TDD1459210 [73588 : 73979 : 74377] gusset? b
+TDD-1459547 progress: -1 73979 gusset
+TDD1460996 [73588 : 73779 : 73979] gumbo? b
+TDD-1461036 progress: -1 73779 gumbo
+TDD1334333 [73588 : 73683 : 73779] guilt? a
+TDD-1334332 progress: 1 73683 guilt
+TDD2071342 [73684 : 73721 : 73779] gul? b
+TDD-2071287 progress: -1 73721 gul
+TDD2262210 [73684 : 73702 : 73721] guineps? !
+TDD1538480 [73684 : 73702 : 73720] guipure? a
+TDD-3800706 progress: 1 73702 guipure
+TDD1557250 [73703 : 73708 : 73720] guise? a
+TDD-1557269 progress: 1 73708 guise
+TDD1700854 [73709 : 73712 : 73720] guitar? it
+TDD-1700869 progress: 0 73712 guitar
+TDD-171 [73709 : 73712 : 73720] <Done>.
+TDD3017463 press <Return> to finish
+TDD-2828686 Press <Enter> to 📋 or `>` for line prompt 
+TDD-180987 share result: "\ud83e\udde9 Puzzle #723\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 28s\n\n\ud83d\udd17 alphaguess.com"
+TDD-7777 result puzzle: 723
+TDD-39 result guesses: 15
+TDD-2 result time: 28s
+TDD0 result link: alphaguess.com
+TDD228511 📆 2025-07-17 ? 
