@@ -576,7 +576,7 @@ class Search(StoredLog):
             self.grid[j] = ''
         self.row_may[word_i].clear()
 
-    def finish(self, ui: PromptUI):
+    def finish(self, _ui: PromptUI):
         return self.finalize
 
     @override
