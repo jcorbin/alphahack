@@ -76,7 +76,7 @@ class Search(StoredLog):
 
         self.prompt = PromptUI.Prompt(self.prompt_mess, {
             '/attempts': self.do_attempts,
-            '/gen': self.do_gen,
+            '/gen': self.do_choose,
             '/guesses': self.do_guesses,
             '/man': self.do_manual_gen,
             '/nope': self.do_nope,
@@ -529,12 +529,7 @@ class Search(StoredLog):
         else:
             raise RuntimeError('must provide either row or col')
 
-    skip_show: bool = False
-
     def show(self, ui: PromptUI):
-        if self.skip_show:
-            self.skip_show = False
-            return
         for line in pad_rows(self.show_parts(i) for i in range(self.size)):
             ui.print(line)
         if self.nope:
@@ -716,10 +711,6 @@ class Search(StoredLog):
         ui.log(f'may: {word_i} {" ".join(sorted(self.row_may[word_i]))}')
 
         return True
-
-    def do_gen(self, ui: PromptUI):
-        self.skip_show = True
-        return self.do_choose(ui)
 
     def do_attempts(self, ui: PromptUI):
         avoid = True
@@ -917,7 +908,6 @@ class Search(StoredLog):
             ui.input('try? ') as tokens):
 
             if tokens.have(r'\*'):
-                self.skip_show = True
                 self.choosing = None
                 return self.do_choose(ui)
 
