@@ -93,7 +93,8 @@ class Search(StoredLog):
 
         self.questioning: Search.Round|None = None
 
-        self.guesses: dict[str, int] = dict() # TODO keep feedback alongside or use Attempt
+        # TODO rework this over Round(s)/Attempt(s)
+        self.guesses: dict[str, int] = dict()
         self.rejects: set[str] = set()
 
         self.nope: set[str] = set()
