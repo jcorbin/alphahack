@@ -603,7 +603,7 @@ class Search(StoredLog):
             ui.print(f'! wrong size {token!r}')
             return
 
-        return self.do_round(self.round(token, 'entered'))
+        return self.do_round(self.round(token.lower(), 'entered'))
 
     def row_word_range(self, row: int):
         return range(row * self.size, (row+1) * self.size)
