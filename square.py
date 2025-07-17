@@ -97,9 +97,8 @@ class Search(StoredLog):
         self.rejects: set[str] = set()
 
         self.nope: set[str] = set()
-        self.row_may: tuple[set[str], ...] = tuple(set() for _ in range(self.size))
 
-        # TODO fully replace above grid, nope, and may?
+        # TODO fully replace above grid and nope?
         self.row_words = tuple(Word(self.size) for _ in range(self.size))
 
         self._result: Result|None = None
@@ -234,7 +233,7 @@ class Search(StoredLog):
                     assert rest == ''
                     word_i = int(index)
                     may = cast(str, may)
-                    rm = self.row_may[word_i]
+                    rm = self.row_words[word_i].may
                     rm.clear()
                     rm.update(let.strip().upper() for let in may.split())
                     continue
@@ -359,8 +358,8 @@ class Search(StoredLog):
     def okay_letters(self) -> Generator[str]:
         for let in self.grid:
             if let: yield let
-        for may in self.row_may:
-            yield from may
+        for word in self.row_words:
+            yield from word.may
 
     recent_sug: dict[str, int] = dict()
 
@@ -535,7 +534,7 @@ class Search(StoredLog):
 
         if row is not None:
             word = tuple(self.grid[k] for k in self.row_word_range(row))
-            may = self.row_may[row]
+            may = self.row_words[row].may
             maybe_not = prior.difference(chain(may, word))
             # TODO reduce possible based on intersecting cols
             return self.Select(
@@ -565,14 +564,15 @@ class Search(StoredLog):
         if self.nope:
             ui.print(f'no: {" ".join(sorted(let.upper() for let in self.nope))}')
 
-    def show_parts(self, word_i: int):
+    def show_parts(self, word_i: int) -> Generator[str]:
+        word = self.row_words[word_i]
         grid_yes = tuple(
             self.grid[k].upper().strip()
             for k in self.row_word_range(word_i))
 
         yield f'#{word_i+1}'
         yield ' '.join(c or '_' for c in grid_yes)
-        yield ' '.join(sorted(let.upper() for let in self.row_may[word_i]))
+        yield word.may_str()
 
     def prompt_mess(self, ui: PromptUI):
         self.show(ui)
@@ -627,7 +627,7 @@ class Search(StoredLog):
         ui.log(f'forget: {word_i}')
         for j in self.row_word_range(word_i):
             self.grid[j] = ''
-        self.row_may[word_i].clear()
+        self.row_words[word_i].reset()
 
     def finish(self, _ui: PromptUI):
         return self.finalize
@@ -695,7 +695,7 @@ class Search(StoredLog):
         word_str = cast(str, match.group(1) or '')
         may_str = cast(str|None, match.group(2))
 
-        may = self.row_may[word_i]
+        word = self.row_words[word_i]
 
         if word_str:
             lets = (c for c in word_str if c != ' ')
@@ -709,16 +709,16 @@ class Search(StoredLog):
                     self.grid[offset + i] = ''
                 elif self.grid[offset + i] != c:
                     self.grid[offset + i] = c
-                    if c in may: may.remove(c)
+                    if c in word.may: word.may.remove(c)
 
         if may_str is not None:
-            may.clear()
-            may.update(
+            word.may.clear()
+            word.may.update(
                 m.group(0).upper()
                 for m in re.finditer(r'[A-Za-z]', may_str))
 
         ui.log(f'word: {word_i} {"".join(self.grid[k] or "_" for k in self.row_word_range(word_i))}')
-        ui.log(f'may: {word_i} {" ".join(sorted(self.row_may[word_i]))}')
+        ui.log(f'may: {word_i} {" ".join(sorted(word.may))}')
 
         return True
 
