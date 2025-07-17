@@ -409,7 +409,7 @@ class Search(StoredLog):
             self.guesses = tuple(w.upper() for w in guesses)
             self.row = row
             self.col = col
-            self.word = Word(len(yes))
+            self.word = Word(len(self.yes))
             word = self.word
             for c in self.void:
                 word.cannot(c)
