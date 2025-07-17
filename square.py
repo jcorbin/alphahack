@@ -820,8 +820,8 @@ class Search(StoredLog):
             sel = self.select(row=word_i, avoid=avoid)
 
         words = tuple(
-            # TODO word.lower() for word in
-            self.find(sel.pattern, row=word_i))
+            word.lower()
+            for word in self.find(sel.pattern, row=word_i))
         scores, explain_score = self.score_words(word_i, words)
         for i, word in enumerate(words):
             if word in self.recent_sug:
