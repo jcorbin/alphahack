@@ -532,17 +532,17 @@ class Search(StoredLog):
             for l in prior)
 
         if row is not None:
-            word = tuple(self.grid[k] for k in self.row_word_range(row))
-            may = self.row_words[row].may
-            maybe_not = prior.difference(chain(may, word))
+            word = self.row_words[row]
+            yes = tuple(self.grid[k] for k in self.row_word_range(row))
+            maybe_not = prior.difference(chain(word.may, yes))
             # TODO reduce possible based on intersecting cols
             return self.Select(
-                word,
-                may = may,
+                yes,
                 void = maybe_not if avoid else (),
                 nope = self.nope,
                 guesses = self.guesses, # TODO collect and pass attempts instead?
-                row = row)
+                row = row,
+                word = word)
 
         elif col is not None:
             word = tuple(self.grid[k] for k in self.col_word_range(col))
