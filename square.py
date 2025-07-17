@@ -423,6 +423,7 @@ class Search(StoredLog):
                      guesses: Iterable[str] = (),
                      row: int|None = None,
                      col: int|None = None,
+                     word: Word|None = None,
                      ):
             self.yes = tuple(l.upper() for l in yes)
             self.may = tuple(l.upper() for l in may)
@@ -431,26 +432,29 @@ class Search(StoredLog):
             self.guesses = tuple(w.upper() for w in guesses)
             self.row = row
             self.col = col
-            self.word = Word(len(self.yes))
-            word = self.word
-            for c in self.void:
-                if c not in self.yes:
-                    word.cannot(c)
-            if self.guesses:
-                for at in self.attempts:
-                    word.collect(at)
-                for i, c in enumerate(self.yes):
-                    word.yes[i] = c
+            if word is None:
+                self.word = Word(len(self.yes))
+                word = self.word
+                for c in self.void:
+                    if c not in self.yes:
+                        word.cannot(c)
+                if self.guesses:
+                    for at in self.attempts:
+                        word.collect(at)
+                    for i, c in enumerate(self.yes):
+                        word.yes[i] = c
+                else:
+                    for i, c in enumerate(self.yes):
+                        word.yes[i] = c
+                    word.may.update(self.may)
+                    for c in self.nope:
+                        word.cannot(c)
+                    for guess in self.guesses:
+                        for i, c in enumerate(guess):
+                            if self.yes[i] != c:
+                                word.can[i].difference_update((c,))
             else:
-                for i, c in enumerate(self.yes):
-                    word.yes[i] = c
-                word.may.update(self.may)
-                for c in self.nope:
-                    word.cannot(c)
-                for guess in self.guesses:
-                    for i, c in enumerate(guess):
-                        if self.yes[i] != c:
-                            word.can[i].difference_update((c,))
+                self.word = word
 
         def feedback(self, word: str):
             mx = self.word.max
