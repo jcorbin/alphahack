@@ -4,7 +4,7 @@ import argparse
 import json
 import re
 from collections import Counter, OrderedDict
-from collections.abc import Generator, Iterable, Sequence
+from collections.abc import Container, Generator, Iterable, Sequence
 from dataclasses import dataclass
 from functools import partial
 from itertools import chain
@@ -14,7 +14,7 @@ from sortem import Chooser, DiagScores, Possible, RandScores, wrap_item
 from store import StoredLog, git_txn
 from strkit import MarkedSpec, PeekStr, spliterate
 from ui import PromptUI
-from wordlish import Attempt, Word
+from wordlish import Attempt, Feedback, Word
 from wordlist import WordList
 
 def pad_rows(rows: Iterable[Iterable[str]]):
@@ -43,6 +43,24 @@ def re_word_match(ui: PromptUI):
     if match:
         ui.tokens.rest = rest[match.end(0):] 
     return match
+
+def re_word_feedback(word: str, match: re.Match[str]):
+    word_str = cast(str, match[1] or '')
+    may_str = cast(str, match[2] or '')
+    yes = tuple('' if c == '_' else c for c in word_str.upper() if c != ' ')
+    may = set(
+        m.group(0).upper()
+        for m in re.finditer(r'[A-Z]', may_str.upper()))
+    return infer_word_feedback(word, yes, may)
+
+def infer_word_feedback(word: str,
+                        yes: Sequence[str],
+                        may: Container[str]|Iterable[str]) -> Feedback:
+    return tuple(
+        2 if yes[j].upper() == c
+        else 1 if c in may
+        else 0
+        for j, c in enumerate(word.upper()))
 
 @final
 class Search(StoredLog):
