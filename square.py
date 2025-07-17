@@ -97,6 +97,7 @@ class Search(StoredLog):
         self.guesses: dict[str, int] = dict()
         self.rejects: set[str] = set()
 
+        # TODO do we even need nope anymore?
         self.nope: set[str] = set()
 
         # TODO fully replace above grid and nope?
