@@ -1,0 +1,73 @@
+T0.00020276100258342922 now: 2025-07-18T09:05:20EDT
+TD35 site: https://play.dictionary.com/games/todays-hurdle
+TDD-11 wordlist: nwl2023.txt
+TDD49584203 1.1> *
+TDD-44012776 1.1 ? 2
+TDD-269648 1.1 📋 "anise" ? nnnnM
+TDD-5301004 tried: ANISE n n n n m
+TDD4138261 1.2> *
+TDD5074503 1.2 ? 1
+TDD-4193537 1.2 📋 "redly" ? MMnnn
+TDD-5019698 tried: REDLY m m n n n
+TDD2339244 1.3> *
+TDD1901965 1.3 ? 2
+TDD715633 1.3 📋 "other" ? nnMYY
+TDD-4956852 tried: OTHER n n m Y Y
+TDD1994980 1.4> *
+TDD925093 1.4 ? 1
+TDD702005 1.4 📋 "cheer" ? it
+TDD-3622112 tried: CHEER Y Y Y Y Y
+TDD9107774 2.1 📋 "cheer" ? nnnnn
+TDD-9107687 tried: CHEER n n n n n
+TDD1643027 2.2> *
+TDD1622289 2.2 ? 2
+TDD1799773 2.2 📋 "solid" ? nnnnM
+TDD-5065112 tried: SOLID n n n n m
+TDD775297 2.3> *
+TDD2758313 2.3 ? 1
+TDD2353074 2.3 📋 "fudgy" ? nMMMY
+TDD-5886748 tried: FUDGY n m m m Y
+TDD953744 2.4> *
+TDD3465664 2.4 📋 "gaudy" ? it
+TDD-4419582 tried: GAUDY Y Y Y Y Y
+TDD8808910 3.1 📋 "gaudy" ? nnMnY
+TDD-8808649 tried: GAUDY n n m n Y
+TDD909760 3.2> *
+TDD5908124 3.2 ? 1
+TDD-4647737 3.2 📋 "purty" ? YYnnY
+TDD-2170263 tried: PURTY Y Y n n Y
+TDD578821 3.3> *
+TDD6693715 3.3 ? 1
+TDD-2488385 3.3 📋 "punky" ? YYnnY
+TDD-4784168 tried: PUNKY Y Y n n Y
+TDD670706 3.4> *
+TDD7035962 3.4 ? 2
+TDD-3489190 3.4 📋 "pushy" ? it
+TDD-4217436 tried: PUSHY Y Y Y Y Y
+TDD7563653 4.1 📋 "pushy" ? nnnYn
+TDD-7563537 tried: PUSHY n n n Y n
+TDD726037 4.2> *
+TDD2593921 4.2 ? 1
+TDD-257571 4.2 📋 "eight" ? nYYYY
+TDD-3062372 tried: EIGHT n Y Y Y Y
+TDD2408837 4.3> *
+TDD1259135 4.3 ? 1
+TDD429152 4.3 📋 "night" ? nYYYY
+TDD-4097172 tried: NIGHT n Y Y Y Y
+TDD534759 4.4> *
+TDD5187674 4.4 ? 1
+TDD-3559594 4.4 📋 "might" ? nYYYY
+TDD-2162882 tried: MIGHT n Y Y Y Y
+TDD537416 4.5> *
+TDD10393879 4.5 ? 4
+TDD-6772532 4.5 📋 "light" ? nYYYY
+TDD-4158892 tried: LIGHT n Y Y Y Y
+TDD1051540 4.6> *
+TDD3913833 4.6 ? 3
+TDD969314 4.6 📋 "right" ? nYYYY
+TDD-5934583 tried: RIGHT n Y Y Y Y
+TDD2503468 4.7> fail wight
+TDD-2503622 fail: WIGHT
+TDD5437653 Press <Enter> to 📋 or `>` for line prompt 
+TDD-5430677 result: "Hurdle 1294\n\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nX/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 3,680"
+TDD407361 📆 2025-07-18 ? 
