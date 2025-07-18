@@ -1,0 +1,62 @@
+T0.0002106239990098402 now: 2025-07-18T09:10:22EDT
+TD35 site: dontwordle.com
+TDD-6 wordlist: nwl2023.txt
+TDD9152454 1> * -bot 10
+TDD-4566097 ? 2
+TDD233476 📋 "laser" ? nYnnY
+TDD-4818675 tried: LASER n Y n n Y
+TDD916573 2> undo
+TDD-917564 undo
+TDD4908745 1> *
+TDD-755287 ? 1
+TDD-1806608 📋 "villi" ? nnnnn
+TDD-2346782 tried: VILLI n n n n n
+TDD862560 2> *
+TDD590950 ? 1
+TDD3173876 📋 "ended" ? nnnnn
+TDD-4627311 tried: ENDED n n n n n
+TDD556242 3> *
+TDD3749517 ? 1
+TDD-107698 📋 "shogs" ? nnMnn
+TDD-4198021 tried: SHOGS n n m n n
+TDD818322 4> undo
+TDD-818548 undo
+TDD3890180 3> *
+TDD-1581851 ? 1
+TDD2001007 📋 "mumms" ? Ynnnn
+TDD-4309240 tried: MUMMS Y n n n n
+TDD997016 4> undo
+TDD-997109 undo
+TDD2426215 3> *
+TDD303925 ? 1
+TDD-62252 📋 "shush" ? nnnnn
+TDD-2667774 tried: SHUSH n n n n n
+TDD556366 4> *
+TDD2985266 4> * -sans :v [amo]
+TDD5520056 📋 "crypt" ? nMYnn
+TDD-9061724 tried: CRYPT n m Y n n
+TDD2459508 5> undo
+TDD-2459512 undo
+TDD7922784 4> * -sans :v [mor]
+TDD-3556394 ? ␚
+TDD-4366540 <EOF>
+TDD5234052 4> * -san :v [mory]
+TDD-19346 4> * -sans :v [mory]
+TDD22733453 ? ␚
+TDD-27948135 <EOF>
+TDD7160163 4> * -sans :v [mory]
+TDD5677714 ? 13
+TDD-3074671 📋 "pzazz" ? nnMnn
+TDD-9763061 tried: PZAZZ n n m n n
+TDD5685086 5> * -sans :v [mory]
+TDD8131085 ? 3
+TDD-4901306 📋 "facta" ? nYnnnn
+TDD-6086706 📋 "facta" ? nYnnn
+TDD-2828157 tried: FACTA n Y n n n
+TDD2840129 6> * -sans
+TDD2495272 ? 2
+TDD-408728 📋 "jaggy" ? nYnnM
+TDD-4926688 tried: JAGGY n Y n n m
+TDD4902544 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4894531 result: "Don't Wordle 1151 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6812\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2282\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c468\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c201\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c29\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe82\nUndos used: 4\n\n  2 words remaining\nx 8 unused letters\n= 16 total score"
+TDD183212 📆 2025-07-18 ? 
