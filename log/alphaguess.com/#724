@@ -1,0 +1,29 @@
+T0.00022227899899007753 now: 2025-07-18T09:04:33EDT
+TD60032 loaded 196554 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (49 words excluded) asof 89c9c1006e210da17371335913e64f227a10bad1
+TDD5992969 [0 : 98234 : 196554] mach? a
+TDD-6052375 progress: 1 98234 mach
+TDD2353676 [98235 : 147391 : 196554] rhotic? a
+TDD-2354078 progress: 1 147391 rhotic
+TDD1758302 [147392 : 171662 : 196554] ta? a
+TDD-1758278 progress: 1 171662 ta
+TDD1714932 [171663 : 182030 : 196554] un? b
+TDD-1714987 progress: -1 182030 un
+TDD1674416 [171663 : 176833 : 182030] toil? a
+TDD-1674376 progress: 1 176833 toil
+TDD1807429 [176834 : 179430 : 182030] tricot? a
+TDD-1807574 progress: 1 179430 tricot
+TDD1666685 [179431 : 180665 : 182030] tum? b
+TDD-1666694 progress: -1 180665 tum
+TDD1546748 [179431 : 180037 : 180665] trop? b
+TDD-1546622 progress: -1 180037 trop
+TDD2286979 [179431 : 179693 : 180037] trip? it
+TDD-2286990 progress: 0 179693 trip
+TDD-164 [179431 : 179693 : 180037] <Done>.
+TDD2379216 press <Return> to finish
+TDD-2185394 Press <Enter> to 📋 or `>` for line prompt 
+TDD-188967 share result: "\ud83e\udde9 Puzzle #724\n\n\ud83e\udd14 9 guesses\n\n\u23f1\ufe0f 15s\n\n\ud83d\udd17 alphaguess.com"
+TDD-4832 result puzzle: 724
+TDD-30 result guesses: 9
+TDD-5 result time: 15s
+TDD-1 result link: alphaguess.com
+TDD172141 📆 2025-07-18 ? 
