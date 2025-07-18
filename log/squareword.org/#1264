@@ -1,0 +1,101 @@
+T0.00021420700068119913 now: 2025-07-18T09:14:36EDT
+TD42 site: squareword.org
+TDD2022050 🧩  ? #1264
+TDD-2021582 puzzle_id: #1264
+TDD-431 wordlist: nwl2023.txt
+TDD1519984 > *
+TDD-206897 try? 1
+TDD-1312589 questioning: ["lears", "#5"]
+TDD5541264 #1 _____  📋 "lears" ? _ea_s ~ s
+TDD-5540888 attempt 0 LEARS n Y Y n Y
+TDD4154635 #2 _____  📋 "lears" ? _____ ~ a
+TDD-4155212 attempt 1 LEARS n n m n n
+TDD3187734 #3 _____  📋 "lears" ? _____ ~ ea
+TDD-3187804 attempt 2 LEARS n m m n n
+TDD2980860 #4 _____  📋 "lears" ? _e___ ~ e
+TDD-2980832 attempt 3 LEARS n Y n n n
+TDD4683871 #5 _____  📋 "lears" ? _____ ~ er
+TDD-4683943 attempt 4 LEARS n m n m n
+TDD2996893 ? 
+TDD4715246 > *
+TDD-3261382 try? 3
+TDD-4450713 questioning: ["teams", "#1"]
+TDD2592744 #1 _EA_S -LR  📋 "teams" ? 
+TDD-2173131 #1 _EA_S -LR  ? 
+TDD7873477 #1 _EA_S -LR  ? _eams ~ s
+TDD-8293238 attempt 0 TEAMS n Y Y Y Y
+TDD6339524 #2 _____ ~A -ELRS  📋 "teams" ? _____ ~ at
+TDD-6339311 attempt 1 TEAMS m n m n n
+TDD5068390 #3 _____ ~AE -LRS  📋 "teams" ? _____ ~ eat
+TDD-5068214 attempt 2 TEAMS m m m n n
+TDD5543868 #4 _E___ -ALRS  📋 "teams" ? _e___ ~~ e
+TDD-5544125 attempt 3 TEAMS n Y n n n
+TDD2964755 #5 _____ ~ER -ALS  📋 "teams" ? _____ ~ ert
+TDD-2964876 attempt 4 TEAMS m m n n n
+TDD9098607 ? 
+TDD-7648400 > *
+TDD2232173 try? 
+TDD-3464635 try? 
+TDD1112337 try? 2
+TDD-1329975 questioning: ["seams", "#1"]
+TDD1468109 #1 _EAMS -LRT  📋 "seams" ? it
+TDD103493 #1 _EAMS -LRT  ? /it
+TDD-1571447 attempt 0 SEAMS Y Y Y Y Y
+TDD2883814 #2 _____ ~AT -ELMRS  📋 "seams" ? .
+TDD-2883982 attempt 1 SEAMS n n m n n
+TDD1178366 #3 _____ ~AET -LMRS  📋 "seams" ? .
+TDD-1178323 attempt 2 SEAMS n m m n n
+TDD5131792 #4 _E___ -ALMRST  📋 "seams" ? .
+TDD-5131608 attempt 3 SEAMS n Y n n n
+TDD2142327 #5 _____ ~ERT -ALMS  📋 "seams" ? .
+TDD-2142305 attempt 4 SEAMS n m n n n
+TDD1952590 ? 
+TDD-953631 > *
+TDD2489758 try? 3
+TDD-3488913 questioning: ["cheat", "#3"]
+TDD2866351 #2 _____ ~AT -ELMRS  📋 "cheat" ? 
+TDD-2308060 #2 _____ ~AT -ELMRS  ? 
+TDD5724886 #2 _____ ~AT -ELMRS  ? ____t ~ ah
+TDD-6283253 attempt 1 CHEAT n m n m Y
+TDD3350924 #3 _____ ~AET -LMRS  📋 "cheat" ? .
+TDD-3350817 attempt 2 CHEAT n n m m m
+TDD2860058 #4 _E___ -ALMRST  📋 "cheat" ? _e___ ~ ec
+TDD-2860043 attempt 3 CHEAT m n m n n
+TDD4753821 #5 _____ ~ERT -ALMS  📋 "cheat" ? .
+TDD-4753930 attempt 4 CHEAT n n m n m
+TDD1478424 ? 
+TDD4902611 > *
+TDD-5901997 questioning: ["habit", "#2"]
+TDD5842541 #2 ____T ~AH -CELMRS  📋 "habit" ? /it
+TDD-6321536 attempt 1 HABIT Y Y Y Y Y
+TDD2957492 #3 _____ ~AET -CHLMRS  📋 "habit" ? .
+TDD-2957516 attempt 2 HABIT n m n n m
+TDD4270016 #4 _E___ ~C -AHLMRST  📋 "habit" ? .
+TDD-4269992 attempt 3 HABIT n n n n n
+TDD3078751 #5 _____ ~ERT -ACHLMS  📋 "habit" ? .
+TDD-3078770 attempt 4 HABIT n n n n m
+TDD794555 ? 
+TDD155779 > *
+TDD-76900 questioning: ["atone", "#3"]
+TDD4417580 #3 _____ ~AET -BCHILMRS  📋 "atone" ? /it
+TDD-5291027 attempt 2 ATONE Y Y Y Y Y
+TDD6781848 #4 _E___ ~C -ABHILMRST  📋 "atone" ? _e__e ~ c
+TDD-6781707 attempt 3 ATONE n n n n Y
+TDD4784899 #5 _____ ~ERT -ABCHILMS  📋 "atone" ? _____ ~ ertn
+TDD-4785042 attempt 4 ATONE n m n m m
+TDD1053715 ? 
+TDD139751 > *
+TDD503007 questioning: ["deuce", "#4"]
+TDD4423642 #4 _E__E ~C -ABHILMNORST  📋 "deuce" ? /it
+TDD-6120081 attempt 3 DEUCE Y Y Y Y Y
+TDD5949921 #5 _____ ~ENRT -ABCHILMOS  📋 "deuce" ? _____ ~ ertn
+TDD-5949913 attempt 4 DEUCE n m n n m
+TDD916143 ? 
+TDD-58954 > *
+TDD237967 questioning: ["enter", "#5"]
+TDD2613760 #5 _____ ~ENRT -ABCDHILMOSU  📋 "enter" ? /it
+TDD-3708980 attempt 4 ENTER Y Y Y Y Y
+TDD1589252 ? 
+TDD4074325 Press <Enter> to 📋 or `>` for line prompt 
+TDD-5660544 result: "squareword.org 1264: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1264"
+TDD143404 📆 2025-07-18 ? 
