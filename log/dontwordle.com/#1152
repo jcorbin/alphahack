@@ -1,0 +1,49 @@
+T0.0002496599918231368 now: 2025-07-19T08:58:59EDT
+TD48 site: dontwordle.com
+TDD6 wordlist: nwl2023.txt
+TDD4230398 1> * -bot 10
+TDD-2000983 ? 6
+TDD4718691 📋 "pears" ? nnnnn
+TDD-6947575 tried: PEARS n n n n n
+TDD4341743 2> * -bot 10
+TDD3179186 ? 5
+TDD-1704232 📋 "until" ? nnnYn
+TDD-5817146 tried: UNTIL n n n Y n
+TDD711069 3> undo
+TDD-711043 undo
+TDD941558 2> undo
+TDD-941533 undo
+TDD3795992 1> *
+TDD-1048924 ? 4
+TDD5249761 📋 "mommy" ? nMnnn
+TDD-7996686 tried: MOMMY n m n n n
+TDD949736 2> undo
+TDD-949895 undo
+TDD3217194 1> *
+TDD-1666559 ? 1
+TDD2937786 📋 "jeeze" ? nnnnn
+TDD-4488196 tried: JEEZE n n n n n
+TDD686386 2> *
+TDD1642610 ? 1
+TDD-14582 📋 "allay" ? nnnnn
+TDD-2314591 tried: ALLAY n n n n n
+TDD528897 3> *
+TDD1100610 ? 1
+TDD2884464 📋 "bubus" ? nnnnn
+TDD-4513931 tried: BUBUS n n n n n
+TDD762289 4> *
+TDD4384466 ? 2
+TDD-3476784 📋 "phpht" ? nnnnn
+TDD-1669977 tried: PHPHT n n n n n
+TDD457452 5> *
+TDD2590147 5> * -sans :v i
+TDD11729093 ? 23
+TDD-10425589 📋 "knock" ? nnYnn
+TDD-4351138 tried: KNOCK n n Y n n
+TDD3002937 6> * -sans
+TDD686228 ? 2
+TDD1408653 📋 "groom" ? nnYMn
+TDD-5097730 tried: GROOM n n Y m n
+TDD3104593 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3097353 result: "Don't Wordle 1152 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6889\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2020\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c386\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c127\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c7\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c1\nUndos used: 3\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TDD166433 📆 2025-07-19 ? 
