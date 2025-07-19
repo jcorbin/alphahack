@@ -1,0 +1,100 @@
+T0.0001792639959603548 now: 2025-07-19T09:01:14EDT
+TD43 site: squareword.org
+TDD5299759 🧩  ? #1265
+TDD-5299399 puzzle_id: #1265
+TDD-366 wordlist: nwl2023.txt
+TDD1353397 > *
+TDD1830918 try? 5
+TDD-3183916 questioning: ["solar", "#5"]
+TDD6286063 #1 _____  📋 "solar" ? ___a
+TDD-2869211 #1 _____  ? ___a_ 
+TDD-3416898 attempt 0 SOLAR n n n Y n
+TDD3821779 #2 _____  📋 "solar" ? _____
+TDD-3821999 attempt 1 SOLAR n n n n n
+TDD4340575 #3 _____  📋 "solar" ? ___a_ ~ la
+TDD-4340167 attempt 2 SOLAR n n m Y n
+TDD3338875 #4 _____  📋 "solar" ? s____ ~ l
+TDD-3339136 attempt 3 SOLAR Y n m n n
+TDD2189566 #5 _____  📋 "solar" ? _o___ ~ s
+TDD-2189276 attempt 4 SOLAR m Y n n n
+TDD696479 ? *
+T0.04324278901913203 now: 2025-07-19T09:03:19EDT
+TD60 questioning: ["solar", "#5"]
+TDD907199 ? 
+TDD-907100 question done
+TDD4688881 > *
+TDD-607101 try? 5
+TDD-4081653 questioning: ["slice", "#4"]
+TDD2905458 #1 ___A_ -LORS  📋 "slice" ? 
+TDD830742 #1 ___A_ -LORS  ? ___a_ ~ ce
+TDD-3736045 attempt 0 SLICE n n n m m
+TDD4106436 #2 _____ -ALORS  📋 "slice" ? ____e ~ e
+TDD-4106511 attempt 1 SLICE n n n n Y
+TDD5905614 #3 ___A_ ~L -ORS  📋 "slice" ? _l_a_ ~ la
+TDD-5905717 attempt 2 SLICE n Y n n n
+TDD3266428 #4 S____ ~L -AOR  📋 "slice" ? sl___ ~ e
+TDD-3266387 attempt 3 SLICE Y Y n n m
+TDD4166727 #5 _O___ ~S -ALR  📋 "slice" ? _o___ ~ se
+TDD-4166568 attempt 4 SLICE m n n n m
+TDD1347954 ? *
+TDD7164084 #6 <IndexError>  📋 "slice" ? 
+TDD-7428366 #6 <IndexError>  ? 
+TDD67007 #6 <IndexError>  ? ␚
+TDD-1151036 question done
+TDD682348 > 
+TDD10497742 > *
+TDD-10564620 questioning: ["slept", "#4"]
+TDD6409084 #1 ___A_ ~CE -ILORS  📋 "slept" ? 
+TDD-2886871 #1 ___A_ ~CE -ILORS  ? __ea_ ~ cp
+TDD-4137471 attempt 0 SLEPT n n Y m n
+TDD5898919 #2 ____E -ACILORS  📋 "slept" ? ____e ~ e
+TDD-5898741 attempt 1 SLEPT n n m n n
+TDD8005899 #3 _L_A_ -CEIORS  📋 "slept" ? _l_a_ ~ la
+TDD-8006119 attempt 2 SLEPT n Y n n n
+TDD2414560 #4 SL___ ~E -ACIOR  📋 "slept" ? /it
+TDD-2414478 attempt 3 SLEPT Y Y Y Y Y
+TDD3458753 #5 _O___ ~ES -ACILR  📋 "slept" ? .
+TDD-3458983 attempt 4 SLEPT m n m n n
+TDD891153 ? 
+TDD-891176 question done
+TDD800488 > *
+TDD-209086 questioning: ["cheap", "#1"]
+TDD4352178 #1 __EA_ ~CP -ILORST  📋 "cheap" ? /it
+TDD-4943514 attempt 0 CHEAP Y Y Y Y Y
+TDD4698483 #2 ____E -ACILOPRST  📋 "cheap" ? ____e ~ eh
+TDD-4698199 attempt 1 CHEAP n m m n n
+TDD2061589 #3 _L_A_ -CEIOPRST  📋 "cheap" ? .
+TDD-2061805 attempt 2 CHEAP n n n Y n
+TDD1969628 #5 _O___ ~ES -ACILPRT  📋 "cheap" ? .
+TDD-1969576 attempt 4 CHEAP n n m n n
+TDD1238191 ? 
+TDD-1238312 question done
+TDD954188 > *
+TDD295590 questioning: ["algal", "#3"]
+TDD3508989 #2 ____E ~H -ACILOPRST  📋 "algal" ? 
+TDD-982136 #2 ____E ~H -ACILOPRST  ? ____e ~ ehg
+TDD-3776472 attempt 1 ALGAL n n m n n
+TDD2084919 #3 _L_A_ -CEHIOPRST  📋 "algal" ? /it
+TDD-2084677 attempt 2 ALGAL Y Y Y Y Y
+TDD2710196 #5 _O___ ~ES -ACHILPRT  📋 "algal" ? 
+TDD-1328755 #5 _O___ ~ES -ACHILPRT  ? .
+TDD-1381759 attempt 4 ALGAL n n n n n
+TDD2579554 ? 
+TDD-2579585 question done
+TDD1509502 > *
+TDD12173 questioning: ["hedge", "#2"]
+TDD2467715 #2 ____E ~GH -ACILOPRST  📋 "hedge" ? /it
+TDD-3989311 attempt 1 HEDGE Y Y Y Y Y
+TDD3827332 #5 _O___ ~ES -ACGHILPRT  📋 "hedge" ? _od__ ~ se
+TDD-3827041 attempt 4 HEDGE n m Y n m
+TDD842999 ? 
+TDD-843395 question done
+TDD767692 > *
+TDD238317 questioning: ["modes", "#5"]
+TDD3315858 #5 _OD__ ~ES -ACGHILPRT  📋 "modes" ? /it
+TDD-4321921 attempt 4 MODES Y Y Y Y Y
+TDD1050469 ? 
+TDD-1050374 question done
+TDD3657083 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3649844 result: "squareword.org 1265: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1265"
+TDD168927 📆 2025-07-19 ? 
