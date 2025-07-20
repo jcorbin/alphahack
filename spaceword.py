@@ -2564,6 +2564,7 @@ class Search:
         if not halo:
             ui.print(f'! no {name} halo')
             return
+        have = len(halo)
 
         if self.frontier_cap:
             take_n = take_n or self.frontier_cap
@@ -2583,15 +2584,16 @@ class Search:
 
         def meta() -> Generator[PlainEntry]:
             yield 'action', 'take'
-            yield 'name', name
-            yield 'count', take_n or len(halo)
             yield 'sample', str(halo.sample)
-            yield 'halo', len(halo)
-            yield 'cap', self.frontier_cap
+            yield 'name', name
+            yield 'count', take_n or have
+            yield 'halo', have
             yield 'frontier', len(self.frontier)
+            yield 'cap', self.frontier_cap
 
         def parts():
-            yield f'Took {halo.sample} from {name} {len(halo)}'
+            yield f'Took {halo.sample} from {name}'
+            yield f'had {have}'
             yield f'frontier now {len(self.frontier)}'
             if self.frontier_cap:
                 yield f'cap {self.frontier_cap}'
