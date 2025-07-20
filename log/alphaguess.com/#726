@@ -1,0 +1,39 @@
+T0.00021183499484322965 now: 2025-07-20T08:07:58EDT
+TD64313 loaded 196554 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (49 words excluded) asof ad2d7fb678a5009cc09622c1c40ef460db5b6749
+TDD3619917 [0 : 98234 : 196554] mach? a
+TDD-3683247 progress: 1 98234 mach
+TDD1536994 [98235 : 147391 : 196554] rhotic? a
+TDD-1537803 progress: 1 147391 rhotic
+TDD1520086 [147392 : 171662 : 196554] ta? b
+TDD-1519942 progress: -1 171662 ta
+TDD1572991 [147392 : 159508 : 171662] slop? a
+TDD-1573134 progress: 1 159508 slop
+TDD1514167 [159509 : 165551 : 171662] stick? b
+TDD-1514060 progress: -1 165551 stick
+TDD1640846 [159509 : 162496 : 165551] spec? b
+TDD-1640858 progress: -1 162496 spec
+TDD1511824 [159509 : 160988 : 162496] soft? b
+TDD-1511925 progress: -1 160988 soft
+TDD1493680 [159509 : 160248 : 160988] snath? b
+TDD-1493586 progress: -1 160248 snath
+TDD1641191 [159509 : 159869 : 160248] smell? b
+TDD-1641261 progress: -1 159869 smell
+TDD1615031 [159509 : 159687 : 159869] slung? a
+TDD-1615006 progress: 1 159687 slung
+TDD1604151 [159688 : 159774 : 159869] smalt? a
+TDD-1604143 progress: 1 159774 smalt
+TDD1900704 [159775 : 159800 : 159869] smart? a
+TDD-1900727 progress: 1 159800 smart
+TDD1864788 [159801 : 159827 : 159869] smash? a
+TDD-1864692 progress: 1 159827 smash
+TDD1748001 [159828 : 159846 : 159869] smear? it
+TDD-1748129 progress: 0 159846 smear
+TDD-137 [159828 : 159846 : 159869] <Done>.
+TDD2769522 press <Return> to finish
+TDD-2577324 Press <Enter> to 📋 or `>` for line prompt 
+TDD-187044 share result: "\ud83e\udde9 Puzzle #726\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5126 result puzzle: 726
+TDD-44 result guesses: 14
+TDD-4 result time: 21s
+TDD-1 result link: alphaguess.com
+TDD167556 📆 2025-07-20 ? 
