@@ -2532,11 +2532,17 @@ class Search:
     def do_take(self, ui: PromptUI):
         '''
         sort halo boards into frontier
-        usage: `take [<HALO> = may] [<COUNT> = <CAP>]`
+        usage: `take [-v] [<HALO> = may] [<COUNT> = <CAP>]`
         '''
         name: str = ''
         take_n: int|None = None
+        verbose = self.verbose
         while ui.tokens:
+            match = ui.tokens.have(r'-(v+)')
+            if match:
+                verbose += len(match.group(1))
+                continue
+
             n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
             if n is not None:
                 if take_n is not None:
@@ -2590,7 +2596,7 @@ class Search:
             if self.frontier_cap:
                 yield f'cap {self.frontier_cap}'
 
-        if self.verbose:
+        if verbose:
             ui.print(' '.join(parts()))
 
         self.history.append(tuple(meta()))
