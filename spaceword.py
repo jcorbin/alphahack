@@ -2584,7 +2584,7 @@ class Search:
 
         self.frontier = Halo.of(chain(self.frontier, take), scorer)
 
-        if self.frontier_cap:
+        if len(self.frontier) > self.frontier_cap:
             n = len(self.frontier)
             self.frontier = self.frontier.take(self.frontier_cap)
             drop += n - len(self.frontier)
