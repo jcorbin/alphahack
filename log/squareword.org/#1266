@@ -1,0 +1,120 @@
+T0.00019464499200694263 now: 2025-07-20T08:17:13EDT
+TD34 site: squareword.org
+TDD2374369 🧩  ? #1266
+TDD-2374229 puzzle_id: #1266
+TDD-160 wordlist: nwl2023.txt
+TDD1944491 > *
+TDD2655095 try? 3
+TDD-4599193 questioning: ["reals", "#5"]
+TDD6374567 #1 _____  📋 "reals" ? nnYnn ~ el
+TDD-6374037 attempt 0 REALS n m n m n
+TDD46057687 #2 _____  📋 "reals" ? _____ ~ al
+TDD-46058080 attempt 1 REALS n n m m n
+TDD2281345 #3 _____  📋 "reals" ? _____ ~ ea
+TDD-2281530 attempt 2 REALS n m m n n
+TDD2720752 #4 _____  📋 "reals" ? _____ ~ re
+TDD-2720753 attempt 3 REALS m m n n n
+TDD2958104 #5 _____  📋 "reals" ? r___s ~ a
+TDD-2958105 attempt 4 REALS Y n m n Y
+TDD996457 ? 
+TDD-996534 question done
+TDD763737 > *
+TDD2844164 try? 3
+TDD-3608007 questioning: ["ranks", "#5"]
+TDD11881379 #1 _____ ~EL -ARS  📋 "ranks" ? __a__ ~ el
+TDD-11881154 attempt 0 RANKS n n n n n
+TDD3058133 #2 _____ ~AL -ERS  📋 "ranks" ? _____ ~ al
+TDD-3058176 attempt 1 RANKS n m n n n
+TDD3179029 #3 _____ ~AE -LRS  📋 "ranks" ? _a___ ~ e
+TDD-3178850 attempt 2 RANKS n Y n n n
+TDD2737522 #4 _____ ~ER -ALS  📋 "ranks" ? _____ ~ re
+TDD-2737661 attempt 3 RANKS m n n n n
+TDD23288118 #5 R___S ~A -EL  📋 "ranks" ? ra__s ~ n
+TDD-23288158 attempt 4 RANKS Y Y m n Y
+TDD22573137 ? 
+TDD-22573210 question done
+TDD592503 > *
+TDD11350 questioning: ["rains", "#5"]
+TDD3782342 #1 _____ ~EL -AKNRS  📋 "rains" ? 
+TDD-603843 #1 _____ ~EL -AKNRS  ? .
+TDD-3782222 attempt 0 RAINS n n n n n
+TDD1290459 #2 _____ ~AL -EKNRS  📋 "rains" ? .
+TDD-1290547 attempt 1 RAINS n m n n n
+TDD4403448 #3 _A___ ~E -KLNRS  📋 "rains" ? _ai__ ~ e
+TDD-4403228 attempt 2 RAINS n Y Y n n
+TDD2108558 #4 _____ ~ER -AKLNS  📋 "rains" ? .
+TDD-2108821 attempt 3 RAINS m n n n n
+TDD1398104 #5 RA__S ~N -EKL  📋 "rains" ? /it
+TDD-1398203 attempt 4 RAINS Y Y Y Y Y
+TDD1105014 ? 
+TDD-1104984 question done
+TDD706594 > *
+TDD3467401 try? 3
+TDD-4173862 questioning: ["waive", "#3"]
+TDD17334357 #1 _____ ~EL -AIKNRS  📋 "waive" ? __a_e ~l
+TDD-17334372 attempt 0 WAIVE n n n n Y
+TDD9257833 #2 _____ ~AL -EIKNRS  📋 "waive" ? _____ ~ alw
+TDD-9257846 attempt 1 WAIVE m m n n n
+TDD4573361 #3 _AI__ ~E -KLNRS  📋 "waive" ? _ai_e
+TDD-4573295 attempt 2 WAIVE n Y Y n Y
+TDD3439523 #4 _____ ~ER -AIKLNS  📋 "waive" ? .
+TDD-3439592 attempt 3 WAIVE n n n n m
+TDD3075289 ? 
+TDD-3075286 question done
+TDD901947 > *
+TDD831276 try? 1
+TDD-1733116 questioning: ["maize", "#3"]
+TDD3187804 #1 ____E ~L -AIKNRSVW  📋 "maize" ? 
+TDD689123 #1 ____E ~L -AIKNRSVW  ? .
+TDD-3877198 attempt 0 MAIZE n n n n Y
+TDD1465804 #2 _____ ~ALW -EIKNRSV  📋 "maize" ? .
+TDD-1465641 attempt 1 MAIZE n m n n n
+TDD1232824 #3 _AI_E -KLNRSVW  📋 "maize" ? /it
+TDD-1232663 attempt 2 MAIZE Y Y Y Y Y
+TDD4513441 #4 _____ ~ER -AIKLNSVW  📋 "maize" ? _____ ~ rem
+TDD-4513601 attempt 3 MAIZE m n n n m
+TDD1619295 ? 
+TDD-1619455 question done
+TDD623221 > *
+TDD657223 questioning: ["loche", "#1"]
+TDD6653729 #1 ____E ~L -AIKMNRSVWZ  📋 "loche" ? !
+TDD-7934129 reject: loche
+TDD-166 question done
+TDD17444361 > *
+TDD-11754372 try? 
+TDD-4993647 try? 2
+TDD-695958 questioning: ["allow", "#2"]
+TDD5490369 #1 ____E ~L -AIKMNRSVWZ  📋 "allow" ? _la_e
+TDD-5490508 attempt 0 ALLOW n Y n n n
+TDD1906886 #2 _____ ~ALW -EIKMNRSVZ  📋 "allow" ? /it
+TDD-1906878 attempt 1 ALLOW Y Y Y Y Y
+TDD3005325 #4 _____ ~EMR -AIKLNSVWZ  📋 "allow" ? .
+TDD-3005473 attempt 3 ALLOW n n n n n
+TDD757675 ? 
+TDD-757680 question done
+TDD808478 > *
+TDD828981 questioning: ["ember", "#4"]
+TDD12459962 #1 _L__E -AIKMNORSVWZ  📋 "ember" ? _la_e
+TDD-14097112 attempt 0 EMBER n n n n n
+TDD2080952 #4 _____ ~EMR -AIKLNOSVWZ  📋 "ember" ? /it
+TDD-2081174 attempt 3 EMBER Y Y Y Y Y
+TDD1267963 ? 
+TDD-1268095 question done
+TDD13959049 > 
+TDD-13369201 > ?
+TDD11558786 > /guesses
+TDD2667542 > /attempts
+TDD-9584985 > /attempts 1
+TDD40552450 > /man
+TDD-43728636 > /man 1
+TDD12952983 > /man 1 _la_e -BEIKMNORSVWZ         
+TDD-10199168 try? 2
+TDD-4808611 questioning: ["GLADE", "#1"]
+TDD4610387 #1 _L__E -ABEIKMNORSVWZ  📋 "GLADE" ? it
+TDD-3022304 #1 _L__E -ABEIKMNORSVWZ  ? /it
+TDD-1588246 attempt 0 GLADE Y Y Y Y Y
+TDD1663327 ? 
+TDD-1663115 question done
+TDD4056839 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4050858 result: "squareword.org 1266: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1266"
+TDD364247 📆 2025-07-20 ? 
