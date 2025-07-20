@@ -2577,13 +2577,17 @@ class Search:
             return
         took = len(take)
 
+        drop = 0
+
         scorer: Halo.Scorer = Halo.NaturalScores
         scorer = Halo.WithWordLabels(self.wordlist, scorer)
 
         self.frontier = Halo.of(chain(self.frontier, take), scorer)
 
         if self.frontier_cap:
+            n = len(self.frontier)
             self.frontier = self.frontier.take(self.frontier_cap)
+            drop += n - len(self.frontier)
 
         def meta() -> Generator[PlainEntry]:
             yield 'action', 'take'
@@ -2593,6 +2597,7 @@ class Search:
             yield 'halo', have
             yield 'frontier', len(self.frontier)
             yield 'cap', self.frontier_cap
+            yield 'dropped', drop
 
         def parts():
             yield f'Took {halo.sample} from {name}'
@@ -2601,6 +2606,7 @@ class Search:
             yield f'frontier now {len(self.frontier)}'
             if self.frontier_cap:
                 yield f'cap {self.frontier_cap}'
+                yield f'dropped {drop}'
 
         if verbose:
             ui.print(' '.join(parts()))
