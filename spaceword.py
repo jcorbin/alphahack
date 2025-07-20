@@ -2579,6 +2579,12 @@ class Search:
 
         drop = 0
 
+        want = len(self.frontier) + took 
+        if want > self.frontier_cap:
+            n = len(self.frontier)
+            self.frontier = self.frontier.take(-min(len(self.frontier), want))
+            drop += n - len(self.frontier)
+
         scorer: Halo.Scorer = Halo.NaturalScores
         scorer = Halo.WithWordLabels(self.wordlist, scorer)
 
