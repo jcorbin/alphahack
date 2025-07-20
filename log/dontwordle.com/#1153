@@ -1,0 +1,49 @@
+T0.00019429498934186995 now: 2025-07-20T08:09:02EDT
+TD36 site: dontwordle.com
+TDD-9 wordlist: nwl2023.txt
+TDD4756567 1> * -bot 10
+TDD-2716940 ? 6
+TDD2848419 📋 "stare" ? nnnnY
+TDD-4887316 tried: STARE n n n n Y
+TDD2127910 2> undo
+TDD-2128484 undo
+TDD3851554 1> *
+TDD3213333 ? 1
+TDD-5956664 📋 "babka" ? nnnnn
+TDD-1108189 tried: BABKA n n n n n
+TDD2134562 2> *
+TDD-290538 ? 2
+TDD5231729 📋 "doggo" ? MnMnn
+TDD-7075745 tried: DOGGO m n m n n
+TDD908312 3> undo
+TDD-908225 undo
+TDD3294524 2> *
+TDD624553 ? 2
+TDD2370946 📋 "xylyl" ? nnMnn
+TDD-6290099 tried: XYLYL n n m n n
+TDD942656 3> undo
+TDD-942697 undo
+TDD3116199 2> *
+TDD2378718 ? 3
+TDD16679 📋 "jutty" ? nnnnn
+TDD-5511409 tried: JUTTY n n n n n
+TDD996203 3> *
+TDD2399617 ? 1
+TDD-1028794 📋 "onion" ? nnYnn
+TDD-2367072 tried: ONION n n Y n n
+TDD1220061 4> *
+TDD3062018 ? 1
+TDD-1191823 📋 "swims" ? nnMnn
+TDD-3090240 tried: SWIMS n n m n n
+TDD648816 5> *
+TDD3833090 ? 1
+TDD2819606 📋 "frizz" ? nnYnn
+TDD-7301527 tried: FRIZZ n n Y n n
+TDD697328 6> *
+TDD1047115 6> * -sans
+TDD5457469 ? 1
+TDD-3273666 📋 "exile" ? nnYMY
+TDD-3928390 tried: EXILE n n Y m Y
+TDD3262213 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3255476 result: "Don't Wordle 1153 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5942\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2585\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c215\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c61\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c19\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe92\nUndos used: 3\n\n  2 words remaining\nx 7 unused letters\n= 14 total score"
+TDD188580 📆 2025-07-20 ? 
