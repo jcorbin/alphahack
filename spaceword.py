@@ -2571,9 +2571,11 @@ class Search:
         if not halo.parse_choices(ui, prior_n=take_n):
             return
         choices = set(halo.choices())
+
         take = halo.split(lambda board, i: i in choices)
         if not take:
             return
+        took = len(take)
 
         self.frontier = Halo.of(
             chain(self.frontier, take),
@@ -2586,7 +2588,7 @@ class Search:
             yield 'action', 'take'
             yield 'sample', str(halo.sample)
             yield 'name', name
-            yield 'count', take_n or have
+            yield 'count', took
             yield 'halo', have
             yield 'frontier', len(self.frontier)
             yield 'cap', self.frontier_cap
@@ -2594,6 +2596,7 @@ class Search:
         def parts():
             yield f'Took {halo.sample} from {name}'
             yield f'had {have}'
+            yield f'got {took}'
             yield f'frontier now {len(self.frontier)}'
             if self.frontier_cap:
                 yield f'cap {self.frontier_cap}'
