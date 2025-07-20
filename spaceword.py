@@ -2577,9 +2577,10 @@ class Search:
             return
         took = len(take)
 
-        self.frontier = Halo.of(
-            chain(self.frontier, take),
-            Halo.WithWordLabels(self.wordlist))
+        scorer: Halo.Scorer = Halo.NaturalScores
+        scorer = Halo.WithWordLabels(self.wordlist, scorer)
+
+        self.frontier = Halo.of(chain(self.frontier, take), scorer)
 
         if self.frontier_cap:
             self.frontier = self.frontier.take(self.frontier_cap)
