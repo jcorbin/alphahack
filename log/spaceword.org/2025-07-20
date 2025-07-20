@@ -4430,3 +4430,33 @@ TDD34493636 [prior:2158 bet:2160]> /res
 TDD-34247815 Press <Enter> to 📋 or `>` for line prompt 
 TDD-238653 result: "\u2728 Spaceword.org Daily 2025-07-20 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 136/223 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD752800 [prior:2160]> /store
+T821.1457430569862 now: 2025-07-20T09:23:42EDT
+TD914457 [prior:2160]> /sea
+TDD-319767 search 90a753 [ 1 ]> 
+TDD1481749 search 90a753 [ 1 ]> cap 1600
+TDD-1426830 search 90a753 [ 1 cap:1600 ]> **
+TDD1078379 Z LUNL&L87^-F;Nkx04{=%#=hW{pcgE%{QUhPEfzP|aM$1v4E?wP00030{{
+TDD477720 Z 8iY;)00030{{
+TDD-2205625 Z BHu}&C{BV!92J}d00030{{
+TDD-27 Z BF9OPybVdL=uT3g+(`fc00960
+TDD-28 Z BHKw`p`OlILJ3|?knbb_00030{{
+TDD20 Z A~)jD^A8n62><{9|Nj
+TDD-29 Z BJ3nYA&2NXVWb?O2rPm7LD~uAI|%>)0RR6
+TDD25880184 search 90a753 [ 1600 cap:1600 may:1774 prune:651 reject:6 done:4 dead:6 ]> show done
+TDD-24280065 search 90a753 [ 1600 cap:1600 may:1774 prune:651 reject:6 done:4 dead:6 ]> show 1
+TDD21641978 search 90a753 [ 1600 cap:1600 may:1774 prune:651 reject:6 done:4 dead:6 ]> /res
+TDD-22824826 search 90a753 [ 1600 cap:1600 may:1774 prune:651 reject:6 done:4 dead:6 ]> 
+TDD280470 search 90a753 [ 1600 cap:1600 may:1774 prune:651 reject:6 done:4 dead:6 ]> ret
+TDD-697146 change: 37 
+TDD-567 change: 31 
+TDD-24 change: 32 P
+TDD0 change: 46 I
+TDD-1 change: 33 U
+TDD-3 change: 36 N
+TDD4 change: 34 R
+TDD-8 change: 35 I
+TDD-2 change: 37 E
+TDD604850 [prior:2160 bet:2165]> /res
+TDD-398251 Press <Enter> to 📋 or `>` for line prompt 
+TDD-198246 result: "\u2728 Spaceword.org Daily 2025-07-20 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 100/223 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD650974 [prior:2165]> /store
