@@ -1,0 +1,111 @@
+T0.00021906199981458485 now: 2025-07-21T07:47:13EDT
+TD35 site: squareword.org
+TDD22929971 🧩  ? #1267
+TDD-22929590 puzzle_id: #1267
+TDD-362 wordlist: nwl2023.txt
+TDD936919 > *
+TDD441881 try? 1
+TDD-1378606 questioning: ["snore", "#5"]
+TDD10709467 #1 _____  📋 "snore" ? S__R_
+TDD-10708423 attempt 0 SNORE Y n n Y n
+TDD3686104 #2 _____  📋 "snore" ? _____ ~ re
+TDD-3686856 attempt 1 SNORE n n n m m
+TDD3566341 #3 _____  📋 "snore" ? _n__e
+TDD-3566507 attempt 2 SNORE n Y n n Y
+TDD2581618 #4 _____  📋 "snore" ? ____e ~~ e
+TDD-2581781 attempt 3 SNORE n n n n Y
+TDD6587059 #5 _____  📋 "snore" ? _____ ~ snr
+TDD-6587039 attempt 4 SNORE m m n m n
+TDD11727099 ? 4
+TDD-7945110 #4 ____E -NORS  📋 "snore" ? ____e ~ e
+TDD-3781913 attempt 3 SNORE n n n n Y
+TDD4536637 ? ␚
+TDD-4536819 question done
+TDD1498711 > *
+TDD1430195 try? 2
+TDD-2928621 questioning: ["unite", "#3"]
+TDD10354455 #1 S__R_ -ENO  📋 "unite" ? s__r_ ~ t
+TDD-10354363 attempt 0 UNITE n n n m n
+TDD3863519 #2 _____ ~ER -NOS  📋 "unite" ? .
+TDD-3863851 attempt 1 UNITE n n n n m
+TDD7917806 #3 _N__E -ORS  📋 "unite" ? _n__e ~ i
+TDD-7917816 attempt 2 UNITE n Y m n Y
+TDD4234767 #4 ____E -NORS  📋 "unite" ? ____e ~ ei
+TDD-4234329 attempt 3 UNITE n n m n Y
+TDD4919879 #5 _____ ~NRS -EO  📋 "unite" ? _____ ~ snrt
+TDD-4920177 attempt 4 UNITE n m n m n
+TDD956980 ? *
+TDD1388362 #6 <IndexError>  📋 "unite" ? 
+TDD-1253627 #6 <IndexError>  ? ␚
+TDD-1091924 question done
+TDD7289204 > *
+TDD-3194067 try? 1
+TDD-4094974 questioning: ["trans", "#5"]
+TDD11000254 #1 S__R_ ~T -EINOU  📋 "trans" ? s_ar_ ~ t
+TDD-11000302 attempt 0 TRANS m n Y n n
+TDD4438099 #2 _____ ~ER -INOSTU  📋 "trans" ? _____ ~ rea
+TDD-4437844 attempt 1 TRANS n m m n n
+TDD4124453 #3 _N__E ~I -ORSTU  📋 "trans" ? _n__e ~ i
+TDD-4124626 attempt 2 TRANS n n n n n
+TDD4572543 #4 ____E ~I -NORSTU  📋 "trans" ? ____e ~ ei
+TDD-4572684 attempt 3 TRANS n n n n n
+TDD4036693 #5 _____ ~NRST -EIOU  📋 "trans" ? t__ns ~ ra
+TDD-4036463 attempt 4 TRANS Y m m Y Y
+TDD1004902 ? 
+TDD-1004909 question done
+TDD816672 > *
+TDD-30139 questioning: ["tarns", "#5"]
+TDD4835372 #1 S_AR_ ~T -EINORSU  📋 "tarns" ? 
+TDD-5117028 #1 S_AR_ ~T -EINORSU  ? 
+TDD3205497 #1 S_AR_ ~T -EINORSU  ? s_ar_ ~ t
+TDD-3710355 attempt 0 TARNS m n n n n
+TDD4641849 #2 _____ ~AER -INOSTU  📋 "tarns" ? _a___ ~ re
+TDD-4641895 attempt 1 TARNS n Y m n n
+TDD4112763 #3 _N__E ~I -ANORSTU  📋 "tarns" ? .
+TDD-4112853 attempt 2 TARNS n n n n n
+TDD2568669 #4 ____E ~I -ANORSTU  📋 "tarns" ? .
+TDD-2568642 attempt 3 TARNS n n n n n
+TDD1214752 #5 T__NS ~AR -EIOU  📋 "tarns" ? /it
+TDD-1214747 attempt 4 TARNS Y Y Y Y Y
+TDD752233 ? 
+TDD-752022 question done
+TDD845915 > *
+TDD340922 questioning: ["liege", "#4"]
+TDD26345910 #1 S_AR_ ~T -AEINORSU  📋 "liege" ? s_ar_ ~ t
+TDD-27532985 attempt 0 LIEGE n n n n n
+TDD3249477 #2 _A___ ~ER -INOSTU  📋 "liege" ? _a___ ~ rel
+TDD-3249441 attempt 1 LIEGE m n m n m
+TDD2823917 #3 _N__E ~I -ANORSTU  📋 "liege" ? _n__e ~ i
+TDD-2823802 attempt 2 LIEGE n m n n Y
+TDD2187662 #4 ____E ~I -ANORSTU  📋 "liege" ? /it
+TDD-2187760 attempt 3 LIEGE Y Y Y Y Y
+TDD885880 ? 
+TDD-886009 question done
+TDD630805 > *
+TDD1025712 questioning: ["smart", "#1"]
+TDD2489817 #1 S_AR_ ~T -AEGILNORSU  📋 "smart" ? /it
+TDD-4146001 attempt 0 SMART Y Y Y Y Y
+TDD2715305 #2 _A___ ~ELR -GINOSTU  📋 "smart" ? .
+TDD-2715281 attempt 1 SMART n n n m n
+TDD1692779 #3 _N__E ~I -AGLNORSTU  📋 "smart" ? .
+TDD-1693008 attempt 2 SMART n n n n n
+TDD1350481 ? *
+TDD278039 ? 
+TDD-1628657 question done
+TDD669130 > *
+TDD738928 questioning: ["indie", "#3"]
+TDD5621417 #2 _A___ ~ELR -AGIMNOSTU  📋 "indie" ? .
+TDD-7029274 attempt 1 INDIE n n n n m
+TDD866644 #3 _N__E ~I -AGLMNORSTU  📋 "indie" ? /it
+TDD-866773 attempt 2 INDIE Y Y Y Y Y
+TDD421071 ? 
+TDD-421132 question done
+TDD689630 > *
+TDD304372 questioning: ["paler", "#2"]
+TDD2708650 #2 _A___ ~ELR -ADGIMNOSTU  📋 "paler" ? /it
+TDD-3702469 attempt 1 PALER Y Y Y Y Y
+TDD1047886 ? 
+TDD-1048004 question done
+TDD4303509 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4297546 result: "squareword.org 1267: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1267"
+TDD189640 📆 2025-07-21 ? 
