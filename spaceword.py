@@ -2266,10 +2266,14 @@ class Search:
             return
         self.verbose = verbose
 
+        # TODO prune if any frontier board is done
+
         # TODO maybe parse program
         prog = self.auto_mod.compile('*?TC')
+
+        expand = prog
+
         if self.board.done:
-            expand = prog
             sub = self.auto_mod.extend(*self.nom_ops(
                 ('?', self.may_op(
                     lambda ui: 'may' not in self.halos,
@@ -2281,6 +2285,25 @@ class Search:
                     expand)),
             ))
             prog = sub.compile('P?TC_')
+
+        # had = len(self.frontier)
+        # sub = self.auto_mod.extend(*self.nom_ops(
+        #     ('?', self.may_op(
+        #         lambda ui: 'may' not in self.halos,
+        #         'Backtrack exhausted',
+        #         expand)),
+        #     ('_', self.may_op(
+        #         lambda ui: len(self.frontier) >= self.frontier_cap,
+        #         lambda ui: f'Backtracked {had} -> {len(self.frontier)} boards, expanding',
+        #         expand)),
+        # ))
+        # backtrack = sub.compile('P?TC_')
+
+        # TODO result check phase
+        # return if any done, otherwise
+        # ... drop 0.9x * frontier_cap ( e.g. 0.975 )
+        # ... take reject
+        # ... backtrack
 
         def monitor(state: PromptUI.State):
             def mon(ui: PromptUI):
