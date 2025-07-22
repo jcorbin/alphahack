@@ -1,0 +1,37 @@
+T0.0002495240005373489 now: 2025-07-22T08:34:48EDT
+TD62219 loaded 196554 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (49 words excluded) asof 9b72d7a287b26399de8b8a6c883666fb524a6102
+TDD4495182 [0 : 98234 : 196554] mach? a
+TDD-4556981 progress: 1 98234 mach
+TDD1876054 [98235 : 147391 : 196554] rhotic? a
+TDD-1876230 progress: 1 147391 rhotic
+TDD15507877 [147392 : 171662 : 196554] ta? a
+TDD-15507861 progress: 1 171662 ta
+TDD2480463 [171663 : 182030 : 196554] un? b
+TDD-2480531 progress: -1 182030 un
+TDD2015665 [171663 : 176833 : 182030] toil? b
+TDD-2015547 progress: -1 176833 toil
+TDD2354931 [171663 : 174211 : 176833] term? b
+TDD-2354983 progress: -1 174211 term
+TDD1865719 [171663 : 172923 : 174211] taw? a
+TDD-1865779 progress: 1 172923 taw
+TDD7048169 [172924 : 173405 : 174211] tele? b
+TDD-7048055 progress: -1 173405 tele
+TDD1621956 [172924 : 173023 : 173405] tea? a
+TDD-1622055 progress: 1 173023 tea
+TDD1607468 [173024 : 173200 : 173405] techno? b
+TDD-1607399 progress: -1 173200 techno
+TDD1802099 [173024 : 173084 : 173200] tear? b
+TDD-1802107 progress: -1 173084 tear
+TDD1584711 [173024 : 173052 : 173084] teacup? b
+TDD-1584701 progress: -1 173052 teacup
+TDD1867288 [173024 : 173036 : 173052] teach? it
+TDD-1867286 progress: 0 173036 teach
+TDD-236 [173024 : 173036 : 173052] <Done>.
+TDD2902249 press <Return> to finish
+TDD-2748108 Press <Enter> to 📋 or `>` for line prompt 
+TDD-148844 share result: "\ud83e\udde9 Puzzle #728\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 42s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5289 result puzzle: 728
+TDD-36 result guesses: 13
+TDD-5 result time: 42s
+TDD-1 result link: alphaguess.com
+TDD203251 📆 2025-07-22 ? 
