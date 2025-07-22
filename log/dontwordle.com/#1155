@@ -1,0 +1,61 @@
+T0.00021872499928576872 now: 2025-07-22T08:36:14EDT
+TD35 site: dontwordle.com
+TDD-8 wordlist: nwl2023.txt
+TDD4229857 1> * -bot 10
+TDD-2431970 ? 2
+TDD3324060 📋 "stare" ? MnnnY
+TDD-5121017 tried: STARE m n n n Y
+TDD2084382 2> undo
+TDD-2085148 undo
+TDD3113207 1> *
+TDD-485246 ? 1
+TDD148678 📋 "zizit" ? nMnnn
+TDD-2776572 tried: ZIZIT n m n n n
+TDD1949702 2> undo
+TDD-1949714 undo
+TDD3155857 1> *
+TDD-1241336 ? 2
+TDD2476437 📋 "mamma" ? nnnnn
+TDD-4390952 tried: MAMMA n n n n n
+TDD1051612 2> *
+TDD8415881 ? 2
+TDD-4655308 📋 "yuppy" ? nnMnn
+TDD-4812196 tried: YUPPY n n m n n
+TDD847616 3> undo
+TDD-847651 undo
+TDD3169284 2> *
+TDD905900 ? 2
+TDD764971 📋 "known" ? nnMnn
+TDD-4840134 tried: KNOWN n n m n n
+TDD2840212 3> undo
+TDD-2840269 undo
+TDD3176536 2> *
+TDD1410306 ? 1
+TDD-305930 📋 "nubby" ? nnnnn
+TDD-4280980 tried: NUBBY n n n n n
+TDD525223 3> *
+TDD2275689 ? 1
+TDD859489 📋 "crwth" ? nnnnn
+TDD-3660199 tried: CRWTH n n n n n
+TDD1223529 4> *
+TDD2398975 4> * -sans :v [eiop]
+TDD2325614 4> * -sanv :v [eips]
+TDD2631791 4> * -sans [eops]
+TDD-2267926 4> * -sans :v [iops]
+TDD5257610 ? 20
+TDD-6791927 📋 "kvell" ? nnMnn
+TDD-4777728 tried: KVELL n n m n n
+TDD6249544 5> * -sans :v [op]
+TDD-4173935 ? ␚
+TDD-2075770 <EOF>
+TDD3442582 5> * -sans :v [ops]
+TDD6137010 ? 7
+TDD-2995633 📋 "fidge" ? nMnnY
+TDD-6583844 tried: FIDGE n m n n Y
+TDD1237358 6> * -sans
+TDD4567000 ? 1
+TDD49258 📋 "seize" ? MnYnY
+TDD-5853619 tried: SEIZE m n Y n Y
+TDD3198632 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3190584 result: "Don't Wordle 1155 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6571\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2730\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c627\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c120\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe96\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 5 unused letters\n= 5 total score"
+TDD202238 📆 2025-07-22 ? 
