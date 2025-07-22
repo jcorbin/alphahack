@@ -1,0 +1,93 @@
+T0.00017245300114154816 now: 2025-07-22T08:43:49EDT
+TD39 site: squareword.org
+TDD15322495 🧩  ? #1268
+TDD-15322060 puzzle_id: #1268
+TDD-427 wordlist: nwl2023.txt
+TDD22603577 > *
+TDD-21047871 try? 1
+TDD-1555183 questioning: ["least", "#5"]
+T0.042318101001001196 now: 2025-07-22T08:48:45EDT
+TD66 questioning: ["least", "#5"]
+TDD11083405 #1 _____  📋 "least" ? __as_ ~ t
+TDD-11082205 attempt 0 LEAST n n Y Y m
+TDD3286873 #2 _____  📋 "least" ? _____ ~ at
+TDD-3287753 attempt 1 LEAST n n m n m
+TDD3270174 #3 _____  📋 "least" ? _____ ~ east
+TDD-3270344 attempt 2 LEAST n m m m m
+TDD3084441 #4 _____  📋 "least" ? ____t ~ eas
+TDD-3084210 attempt 3 LEAST n m m m Y
+TDD4204459 #5 _____  📋 "least" ? _____ ~ lest
+TDD-4204557 attempt 4 LEAST m m n m m
+TDD1077517 ? *
+TDD5244275 #6 <IndexError>  📋 "least" ? ␚
+TDD-6322019 question done
+TDD1034891 > *
+TDD3259436 try? 1
+TDD-4293878 questioning: ["sweat", "#4"]
+TDD9581812 #1 __AS_ ~T -EL  📋 "sweat" ? .
+TDD-9582076 attempt 0 SWEAT n n n n m
+TDD943999 #2 _____ ~AT -ELS  📋 "sweat" ? .
+TDD-943987 attempt 1 SWEAT n n n m m
+TDD1921320 #3 _____ ~AEST -L  📋 "sweat" ? .
+TDD-1921358 attempt 2 SWEAT m n m m m
+TDD2672541 #4 ____T ~AES -L  📋 "sweat" ? .
+TDD-2672512 attempt 3 SWEAT m n m m Y
+TDD4729703 #5 _____ ~ELST -A  📋 "sweat" ? s____ ~ let
+TDD-4729570 attempt 4 SWEAT Y n m n m
+TDD887352 ? 
+TDD-887491 question done
+TDD773741 > *
+TDD-137594 questioning: ["trash", "#1"]
+TDD4659374 #1 __AS_ ~T -AELSW  📋 "trash" ? /it
+TDD-5295557 attempt 0 TRASH Y Y Y Y Y
+TDD4288920 #2 _____ ~AT -ELSW  📋 "trash" ? _____ ~ atr
+TDD-4288603 attempt 1 TRASH m m m n n
+TDD2648204 #3 _____ ~AEST -LW  📋 "trash" ? .
+TDD-2648507 attempt 2 TRASH m n m m n
+TDD1346151 #4 ____T ~AES -LW  📋 "trash" ? .
+TDD-1346071 attempt 3 TRASH n n m m n
+TDD1118337 #5 S____ ~ELT -AW  📋 "trash" ? .
+TDD-1118388 attempt 4 TRASH m n n n n
+TDD1500162 ? 
+TDD-1500319 question done
+TDD725103 > *
+TDD-648 questioning: ["asset", "#4"]
+TDD7285729 #2 _____ ~ART -EHLSW  📋 "asset" ? a____ ~ atr
+TDD-8009960 attempt 1 ASSET Y n n n m
+TDD5704487 #3 _____ ~AEST -HLRW  📋 "asset" ? ___e_ ~ ast
+TDD-5704572 attempt 2 ASSET m m m Y m
+TDD2119894 #4 ____T ~AES -HLRTW  📋 "asset" ? /it
+TDD-2119895 attempt 3 ASSET Y Y Y Y Y
+TDD2745374 #5 S____ ~ELT -AHRSW  📋 "asset" ? .
+TDD-2745203 attempt 4 ASSET n n n m m
+TDD766820 ? 
+TDD-766972 question done
+TDD1033145 > *
+TDD567259 questioning: ["aorta", "#2"]
+TDD3387803 #2 A____ ~RT -EHLSW  📋 "aorta" ? /it
+TDD-4988025 attempt 1 AORTA Y Y Y Y Y
+TDD3342701 #3 ___E_ ~AST -HLRW  📋 "aorta" ? .
+TDD-3342876 attempt 2 AORTA m n n m m
+TDD2681715 #5 S____ ~ELT -AHRSW  📋 "aorta" ? .
+TDD-2681664 attempt 4 AORTA n n n m n
+TDD991474 ? *
+TDD1161015 ? 
+TDD-2152668 question done
+TDD738677 > *
+TDD681535 questioning: ["pates", "#3"]
+TDD2948972 #3 ___E_ ~AST -HLORW  📋 "pates" ? /it
+TDD-4369069 attempt 2 PATES Y Y Y Y Y
+TDD3750805 #5 S____ ~ELT -AHORSW  📋 "pates" ? 
+TDD-1218392 #5 S____ ~ELT -AHORSW  ? .
+TDD-2532335 attempt 4 PATES n n m m n
+TDD605432 ? 
+TDD-605591 question done
+TDD830061 > *
+TDD269944 questioning: ["style", "#5"]
+TDD2674834 #5 S____ ~ELT -AHOPRSW  📋 "style" ? /it
+TDD-3774739 attempt 4 STYLE Y Y Y Y Y
+TDD1139907 ? 
+TDD-1139912 question done
+TDD5717567 Press <Enter> to 📋 or `>` for line prompt 
+TDD-5713162 result: "squareword.org 1268: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1268"
+TDD218118 📆 2025-07-22 ? 
