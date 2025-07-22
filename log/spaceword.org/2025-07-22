@@ -44,3 +44,66 @@ TDD54823792 [doit:2144]> /res
 TDD-54623263 Press <Enter> to 📋 or `>` for line prompt 
 TDD-190961 result: "\u2728 Spaceword.org Daily 2025-07-22 \u2728\n\n\ud83c\udfc6 Score: 2144\n\ud83c\udfc5 Rank: 173/217 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +44\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD885976 [prior:2144]> /store
+T393.8078821850031 now: 2025-07-22T08:58:20EDT
+TD699700 [prior:2144]> /sea
+TDD930328 search a8cf32 [ 1 ]> 
+TDD1022344 search a8cf32 [ 1 ]> cap 1500
+TDD-1973609 search a8cf32 [ 1 cap:1500 ]> **
+TDD850117 Z c$_Lq%}Px!Q7Fz#u}ZW^PBS)ANXpMkwK6oYQosfR{Nc<{I4cB11Ol;tkiWaDpQkgB=@{Yf=Nb%>2!pG0#cCu500000|Nj
+TDD-1528454 Z Dk9BE3KTdgfJi3+00030{{
+TDD-384 Z BGpNB2qpjk00960
+TDD2627457 Z BGF0oh&TWM00960
+TDD-2627421 Z 8iWxC00030{{
+TDD-55 Z BHu}9zQ^UH&;V4Y69xbP00960
+TDD-1 Z qPde4;7$r9(n$aS00960
+TDD15 Z 8idIk00030{{
+TDD15808569 search a8cf32 [ 1499 cap:1500 may:2237 prune:910 reject:5 done:2 ]> show done
+TDD-13904220 search a8cf32 [ 1499 cap:1500 may:2237 prune:910 reject:5 done:2 ]> show 2
+TDD-652928 search a8cf32 [ 1499 cap:1500 may:2237 prune:910 reject:5 done:2 ]> ret
+TDD-1251030 change: 25 
+TDD-399 change: 21 
+TDD-8 change: 32 P
+TDD-3 change: 22 U
+TDD-2 change: 52 
+TDD1 change: 42 R
+TDD0 change: 57 
+TDD-1 change: 47 I
+TDD-3 change: 52 
+TDD2 change: 51 
+TDD0 change: 62 T
+TDD-1 change: 52 A
+TDD0 change: 63 
+TDD3 change: 53 X
+TDD-6 change: 54 O
+TDD2 change: 56 
+TDD0 change: 55 N
+TDD-4 change: 56 E
+TDD4 change: 67 
+TDD-1 change: 57 S
+TDD0 change: 63 
+TDD1 change: 58 
+TDD-1 change: 63 
+TDD0 change: 63 
+TDD18 change: 67 
+TDD-15 change: 64 
+TDD-1 change: 67 
+TDD1 change: 65 
+TDD-3 change: 67 
+TDD1 change: 66 
+TDD0 change: 67 
+TDD0 change: 67 
+TDD0 change: 72 E
+TDD0 change: 25 O
+TDD4 change: 82 
+TDD-6 change: 35 V
+TDD0 change: 37 Q
+TDD0 change: 41 O
+TDD0 change: 43 O
+TDD0 change: 44 G
+TDD0 change: 45 E
+TDD0 change: 46 N
+TDD0 change: 48 C
+TDD27578087 [prior:2144 bet:2152]> /res
+TDD-27312594 Press <Enter> to 📋 or `>` for line prompt 
+TDD-256747 result: "\u2728 Spaceword.org Daily 2025-07-22 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 159/219 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD756313 [prior:2152]> /store
