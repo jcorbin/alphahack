@@ -44,3 +44,36 @@ TDD-61359627 [doit:2160]> /res
 TDD-818096 Press <Enter> to 📋 or `>` for line prompt 
 TDD-214688 result: "\u2728 Spaceword.org Daily 2025-07-23 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 131/220 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD3970254 [prior:2160]> /store
+T273.52965839400713 now: 2025-07-23T08:49:54EDT
+TD671976 [prior:2160]> /sea
+TDD2211149 search c75425 [ 1 ]> cap 1500
+TDD-2171851 search c75425 [ 1 cap:1500 ]> **
+TDD1207415 Z c$_Lq%}Px!Q7Fz#u}U^KH8C<(NXpMkwK6oYQa}bya8{^-50vGn;2Hv91^GJ$ff?bBo?)&KF>eJ|H<%6uN4Rzm1%dzo00960
+TDD-1918411 Z Dk9EF^mG#d00960
+TDD-249 Z BGyTmj`MH~g}IFs#}Nhq00030{{
+TDD-5 Z BHu~K77*toWKZA$00000|Nj
+TDD2116789 Z BGO6pOiKU&00960
+TDD-2116725 Z 8iZ*H00030{{
+TDD-61 Z 8iZ*H00030{{
+TDD-8 Z 8iZ*H00030{{
+TDD50419020 search c75425 [ 1499 cap:1500 may:2540 prune:1349 dead:2 reject:4 done:1 ]> show done
+TDD-48902113 search c75425 [ 1499 cap:1500 may:2540 prune:1349 dead:2 reject:4 done:1 ]> show 1
+TDD4003044 search c75425 [ 1499 cap:1500 may:2540 prune:1349 dead:2 reject:4 done:1 ]> ret
+TDD-5519499 change: 23 
+TDD-434 change: 14 
+TDD-13 change: 77 
+TDD1 change: 24 A
+TDD-8 change: 77 
+TDD3 change: 34 
+TDD17 change: 77 
+TDD-21 change: 77 
+TDD0 change: 23 
+TDD6 change: 87 
+TDD-7 change: 23 H
+TDD0 change: 25 U
+TDD0 change: 73 N
+TDD0 change: 75 B
+TDD24809494 [prior:2160 bet:2170]> /res
+TDD-24547174 Press <Enter> to 📋 or `>` for line prompt 
+TDD-256112 result: "\u2728 Spaceword.org Daily 2025-07-23 \u2728\n\n\ud83c\udfc6 Score: 2170\n\ud83c\udfc5 Rank: 53/222 \ud83c\udf89\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +70\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD800752 [prior:2170]> /store
