@@ -1,0 +1,118 @@
+T0.00028284000291023403 now: 2025-07-23T08:36:58EDT
+TD63 site: squareword.org
+TDD49627980 🧩  ? #1269
+TDD-49627618 puzzle_id: #1269
+TDD-387 wordlist: nwl2023.txt
+TDD799669 > *
+TDD4094371 try? 1
+TDD-4893440 questioning: ["nares", "#5"]
+T0.04148039300343953 now: 2025-07-23T08:38:40EDT
+TD85 questioning: ["nares", "#5"]
+TDD4086968 #1 _____  📋 "nares" ? __r__ ~ as
+TDD-4086340 attempt 0 NARES n m Y n m
+TDD3554308 #2 _____  📋 "nares" ? _____ ~ r
+TDD-3554624 attempt 1 NARES n n m n n
+TDD2744694 #3 _____  📋 "nares" ? ___e_ ~ r
+TDD-2744703 attempt 2 NARES n n m Y n
+TDD4398139 #4 _____  📋 "nares" ? _____ ~ nae
+TDD-4397863 attempt 3 NARES m m n m n
+TDD5980856 #5 _____  📋 "nares" ? ____s ~ ne
+TDD-5980958 attempt 4 NARES m n n m Y
+TDD15630742 ? *
+TDD-14024076 #6 <IndexError>  📋 "nares" ? 
+TDD-1099636 #6 <IndexError>  ? ␚
+TDD-507548 question done
+TDD2699449 > *
+TDD-540185 try? 1
+TDD-2158878 questioning: ["scrap", "#1"]
+TDD4902417 #1 __R__ ~AS -EN  📋 "scrap" ? scra_
+TDD-4902706 attempt 0 SCRAP Y Y Y Y n
+TDD2802266 #2 _____ ~R -AENS  📋 "scrap" ? _____ ~ rp
+TDD-2801910 attempt 1 SCRAP n n m n m
+TDD3691958 #3 ___E_ ~R -ANS  📋 "scrap" ? ___e_ ~ r
+TDD-3692049 attempt 2 SCRAP n n m n n
+TDD3999932 #4 _____ ~AEN -RS  📋 "scrap" ? .
+TDD-3999963 attempt 3 SCRAP n n n m n
+TDD1870720 #5 ____S ~EN -AR  📋 "scrap" ? .
+TDD-1870645 attempt 4 SCRAP n n n n n
+TDD523632 ? *
+TDD905288 ? 
+TDD-1429199 question done
+TDD620972 > *
+TDD3990344 try? 2
+TDD-4611041 questioning: ["scram", "#1"]
+TDD3628167 #1 SCRA_ -ENP  📋 "scram" ? /it
+TDD-3628328 attempt 0 SCRAM Y Y Y Y Y
+TDD7998974 #2 _____ ~PR -ACENS  📋 "scram" ? _____ ~ rpm
+TDD-7998909 attempt 1 SCRAM n n m n m
+TDD2187944 #3 ___E_ ~R -ACNPS  📋 "scram" ? .
+TDD-2187993 attempt 2 SCRAM n n m n n
+TDD1337023 #4 _____ ~AEN -CPRS  📋 "scram" ? .
+TDD-1336857 attempt 3 SCRAM n n n m n
+TDD1124784 #5 ____S ~EN -ACPRS  📋 "scram" ? .
+TDD-1124911 attempt 4 SCRAM n n n n n
+TDD850618 ? 
+TDD-850719 question done
+TDD780280 > *
+TDD8412845 try? 3
+TDD-9193068 questioning: ["primo", "#2"]
+TDD4190268 #2 _____ ~MPR -ACENS  📋 "primo" ? pr_mo ~ o
+TDD-4190398 attempt 1 PRIMO Y Y n Y Y
+TDD6561411 #3 ___E_ ~R -ACMNPS  📋 "primo" ? ___e_ ~ ro
+TDD-6561137 attempt 2 PRIMO n m n n m
+TDD5204752 #4 _____ ~AEN -CMPRS  📋 "primo" ? _____ ~ naei
+TDD-5204616 attempt 3 PRIMO n n m n n
+TDD2091299 #5 ____S ~EN -ACMPRS  📋 "primo" ? .
+TDD-2091454 attempt 4 PRIMO n n n n n
+TDD727901 ? *
+TDD536409 ? 
+TDD-1264407 question done
+TDD616069 > *
+TDD1516848 questioning: ["promo", "#2"]
+TDD363740 #2 PR_MO -ACEINS  📋 "promo" ? /it
+TDD-2496633 attempt 1 PROMO Y Y Y Y Y
+TDD4135820 #3 ___E_ ~OR -ACIMNPS  📋 "promo" ? .
+TDD-4135512 attempt 2 PROMO n m m n m
+TDD2459141 #4 _____ ~AEIN -CMOPRS  📋 "promo" ? .
+TDD-2459555 attempt 3 PROMO n n n n n
+TDD1650510 #5 ____S ~EN -ACIMOPRS  📋 "promo" ? .
+TDD-1650461 attempt 4 PROMO n n n n n
+TDD1101296 ? 
+TDD-1101315 question done
+TDD513038 > *
+TDD991927 questioning: ["inane", "#4"]
+TDD16172980 #3 ___E_ ~OR -ACIMNPS  📋 "inane" ? .
+TDD-17678073 attempt 2 INANE n n n n n
+TDD1146965 #4 _____ ~AEIN -CMOPRS  📋 "inane" ? /it
+TDD-1146787 attempt 3 INANE Y Y Y Y Y
+TDD2078222 #5 ____S ~EN -ACIMOPRS  📋 "inane" ? .
+TDD-2078240 attempt 4 INANE n m n m m
+TDD917719 ? 
+TDD-917821 question done
+TDD1039349 > *
+TDD4978906 try? 1
+TDD-6017974 questioning: ["gents", "#5"]
+TDD6118664 #3 ___E_ ~OR -ACEIMNPS  📋 "gents" ? .
+TDD-6118797 attempt 2 GENTS n n n n n
+TDD11256241 #5 ____S ~EN -ACIMOPRS  📋 "gents" ? _en_s ~ t
+TDD-11256432 attempt 4 GENTS n Y Y m Y
+TDD1063543 ? 
+TDD-1063445 question done
+TDD574221 > *
+TDD1029838 questioning: ["tends", "#5"]
+TDD3040453 #3 ___E_ ~OR -ACEGIMNPST  📋 "tends" ? .
+TDD-4644331 attempt 2 TENDS n n n n n
+TDD1140106 #5 _EN_S ~T -ACGIMOPR  📋 "tends" ? /it
+TDD-1140161 attempt 4 TENDS Y Y Y Y Y
+TDD510472 ? 
+TDD-510588 question done
+TDD836281 > *
+TDD3849065 try? 2
+TDD-4685369 questioning: ["lower", "#3"]
+TDD3350626 #3 ___E_ ~OR -ACDEGIMNPST  📋 "lower" ? /it
+TDD-3350552 attempt 2 LOWER Y Y Y Y Y
+TDD1699785 ? 
+TDD-1699882 question done
+TDD3573429 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3567848 result: "squareword.org 1269: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1269"
+TDD174222 📆 2025-07-23 ? 
