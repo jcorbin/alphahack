@@ -1,0 +1,101 @@
+T0.00019865100330207497 now: 2025-07-24T08:27:18EDT
+TD37 site: squareword.org
+TDD5143311 🧩  ? #1270
+TDD-5142902 puzzle_id: #1270
+TDD-393 wordlist: nwl2023.txt
+TDD477310 > *
+TDD2721567 try? 1
+TDD-3198520 questioning: ["taser", "#5"]
+TDD7425436 #1 _____  📋 "taser" ? _____ ~ asr
+TDD-7424874 attempt 0 TASER n m m n m
+TDD3422734 #2 _____  📋 "taser" ? _____ ~ tae
+TDD-3423282 attempt 1 TASER m m n m n
+TDD2800084 #3 _____  📋 "taser" ? _____ ~ ar
+TDD-2800348 attempt 2 TASER n m n n m
+TDD2948715 #4 _____  📋 "taser" ? _____ ~ ase
+TDD-2948274 attempt 3 TASER n m m m n
+TDD2487776 #5 _____  📋 "taser" ? _a___ ~ s
+TDD-2487974 attempt 4 TASER n Y m n n
+TDD1129939 ? 
+TDD-1130131 question done
+TDD679721 > *
+TDD3435860 try? 2
+TDD-4115422 questioning: ["leapt", "#2"]
+TDD8909083 #1 _____ ~ARS -ET  📋 "leapt" ? _____ ~ asrp
+TDD-8909176 attempt 0 LEAPT n n m m n
+TDD4587659 #2 _____ ~AET -RS  📋 "leapt" ? _____ ~ taep
+TDD-4587732 attempt 1 LEAPT n m m m m
+TDD3628171 #3 _____ ~AR -EST  📋 "leapt" ? _____ ~ ar
+TDD-3628052 attempt 2 LEAPT n n m n n
+TDD6799365 #4 _____ ~AES -RT  📋 "leapt" ? __a__ ~ sel
+TDD-6799410 attempt 3 LEAPT m m Y n n
+TDD6541381 #5 _A___ ~S -ERT  📋 "leapt" ? _a___ ~ sl
+TDD-6540992 attempt 4 LEAPT m n n n n
+TDD1073468 ? 
+TDD-1073858 question done
+TDD802308 > *
+TDD-127737 questioning: ["pieta", "#2"]
+TDD10485334 #1 _____ ~APRS -ELT  📋 "pieta" ? .
+TDD-11159878 attempt 0 PIETA m n n n m
+TDD1418271 #2 _____ ~AEPT -LRS  📋 "pieta" ? /it
+TDD-1418237 attempt 1 PIETA Y Y Y Y Y
+TDD2412012 #3 _____ ~AR -ELPST  📋 "pieta" ? .
+TDD-2412204 attempt 2 PIETA n n n n m
+TDD1565058 #4 __A__ ~ELS -PRT  📋 "pieta" ? .
+TDD-1564989 attempt 3 PIETA n n m n n
+TDD1511938 #5 _A___ ~LS -AEPRT  📋 "pieta" ? .
+TDD-1511977 attempt 4 PIETA n n n n n
+TDD642669 ? 
+TDD-642601 question done
+TDD952246 > *
+TDD2026534 try? 2
+TDD-2978760 questioning: ["spray", "#1"]
+TDD8253093 #1 _____ ~APRS -EILT  📋 "spray" ? s_ra_ ~ p
+TDD-8253037 attempt 0 SPRAY Y m Y Y n
+TDD4172471 #3 _____ ~AR -EILPST  📋 "spray" ? .
+TDD-4172252 attempt 2 SPRAY n n m m n
+TDD5195277 #4 __A__ ~ELS -AIPRT  📋 "spray" ? s_a__ ~ el
+TDD-5195287 attempt 3 SPRAY Y n n n n
+TDD1551211 #5 _A___ ~LS -AEIPRT  📋 "spray" ? .
+TDD-1551354 attempt 4 SPRAY m n n n n
+TDD729049 ? 
+TDD-729200 question done
+TDD1946851 > *
+TDD-370924 questioning: ["scrap", "#1"]
+TDD3276755 #1 S_RA_ ~P -EILTY  📋 "scrap" ? /it
+TDD-4852583 attempt 0 SCRAP Y Y Y Y Y
+TDD3019074 #3 _____ ~AR -EILPSTY  📋 "scrap" ? .
+TDD-3019146 attempt 2 SCRAP n n m m n
+TDD2832437 #4 S_A__ ~EL -AIPRTY  📋 "scrap" ? sca__ ~ el
+TDD-2832316 attempt 3 SCRAP Y Y n n n
+TDD2792142 #5 _A___ ~LS -AEIPRTY  📋 "scrap" ? .
+TDD-2792239 attempt 4 SCRAP m n n n n
+TDD1871167 ? 
+TDD-1871210 question done
+TDD765805 > *
+TDD1216118 questioning: ["argon", "#3"]
+TDD2367129 #3 _____ ~AR -CEILPSTY  📋 "argon" ? /it
+TDD-4348977 attempt 2 ARGON Y Y Y Y Y
+TDD2572068 #4 SCA__ ~EL -AIPRTY  📋 "argon" ? .
+TDD-2572092 attempt 3 ARGON n n n n n
+TDD926365 #5 _A___ ~LS -ACEIPRTY  📋 "argon" ? .
+TDD-926351 attempt 4 ARGON n n n n n
+TDD1031190 ? 
+TDD-1031279 question done
+TDD709226 > *
+TDD956260 questioning: ["scale", "#4"]
+TDD2587997 #4 SCA__ ~EL -AGINOPRTY  📋 "scale" ? /it
+TDD-4253336 attempt 3 SCALE Y Y Y Y Y
+TDD4749925 #5 _A___ ~LS -ACEGINOPRTY  📋 "scale" ? _a_l_ ~ sl
+TDD-4749692 attempt 4 SCALE m n n Y n
+TDD802343 ? 
+TDD-802728 question done
+TDD867347 > *
+TDD197877 questioning: ["malls", "#5"]
+TDD3983343 #5 _A_L_ ~S -ACEGINOPRTY  📋 "malls" ? /it
+TDD-5048296 attempt 4 MALLS Y Y Y Y Y
+TDD1219448 ? 
+TDD-1219751 question done
+TDD3915659 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3911448 result: "squareword.org 1270: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1270"
+TDD363333 📆 2025-07-24 ? 
