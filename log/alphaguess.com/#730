@@ -1,0 +1,35 @@
+T0.0004202419950161129 now: 2025-07-24T08:22:53EDT
+TD66324 loaded 196554 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (49 words excluded) asof c81bbb75f591316d5b2c783d43803a0fc8963021
+TDD5636446 [0 : 98234 : 196554] mach? b
+TDD-5702003 progress: -1 98234 mach
+TDD2849263 [0 : 47395 : 98234] dis? a
+TDD-2849635 progress: 1 47395 dis
+TDD1883255 [47396 : 72815 : 98234] gremolata? b
+TDD-1883223 progress: -1 72815 gremolata
+TDD1600363 [47396 : 60098 : 72815] face? b
+TDD-1600621 progress: -1 60098 face
+TDD1396235 [47396 : 53411 : 60098] el? b
+TDD-1396201 progress: -1 53411 el
+TDD1346861 [47396 : 49442 : 53411] do? a
+TDD-1346803 progress: 1 49442 do
+TDD1445110 [49443 : 51416 : 53411] drunk? b
+TDD-1445244 progress: -1 51416 drunk
+TDD1406824 [49443 : 50419 : 51416] dove? a
+TDD-1406721 progress: 1 50419 dove
+TDD1410578 [50420 : 50913 : 51416] drawl? a
+TDD-1410634 progress: 1 50913 drawl
+TDD1449041 [50914 : 51145 : 51416] drive? b
+TDD-1449009 progress: -1 51145 drive
+TDD1543339 [50914 : 51029 : 51145] dreidls? b
+TDD-1543297 progress: -1 51029 dreidls
+TDD2384704 [50914 : 50959 : 51029] dream? it
+TDD-2384661 progress: 0 50959 dream
+TDD-238 [50914 : 50959 : 51029] <Done>.
+TDD3237310 press <Return> to finish
+TDD-3058050 Press <Enter> to 📋 or `>` for line prompt 
+TDD-172661 share result: "\ud83e\udde9 Puzzle #730\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"
+TDD-6598 result puzzle: 730
+TDD-31 result guesses: 12
+TDD-6 result time: 19s
+TDD-2 result link: alphaguess.com
+TDD172452 📆 2025-07-24 ? 
