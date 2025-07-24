@@ -1,0 +1,41 @@
+T0.00019883300410583615 now: 2025-07-24T08:30:25EDT
+TD37 site: dontwordle.com
+TDD-11 wordlist: nwl2023.txt
+TDD13250985 1> * -bot 10
+TDD-9956276 ? 5
+TDD8425297 📋 "raise" ? nnnnn
+TDD-11719032 tried: RAISE n n n n n
+TDD23000294 2> undo
+TDD-23001130 undo
+TDD10592061 1> * :v [ai] -top 10
+TDD-6872197 ? 1
+TDD4282801 📋 "morro" ? nnnnn
+TDD-8002583 tried: MORRO n n n n n
+TDD7778181 2> * :v [ai] -top 10
+TDD-6113675 ? 1
+TDD4396289 📋 "level" ? nnnnn
+TDD-6060737 tried: LEVEL n n n n n
+TDD6387202 3> *
+TDD3575812 ? 1
+TDD-8701262 📋 "qajaq" ? nnnnn
+TDD-1261840 tried: QAJAQ n n n n n
+TDD782157 4> *
+TDD1638884 ? 1
+TDD3107438 📋 "kibbi" ? Mnnnn
+TDD-5528511 tried: KIBBI m n n n n
+TDD1174420 5> undo
+TDD-1174417 undo
+TDD3218894 4> *
+TDD2806629 ? 2
+TDD-725200 📋 "widdy" ? nnnnn
+TDD-5300302 tried: WIDDY n n n n n
+TDD828948 5> *
+TDD4951817 ? 1
+TDD979636 📋 "scups" ? nMYnn
+TDD-6760411 tried: SCUPS n m Y n n
+TDD805439 6> *
+TDD10450723 📋 "chuff" ? YYYnn
+TDD-11256036 tried: CHUFF Y Y Y n n
+TDD4416118 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4409541 result: "Don't Wordle 1157 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5248\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1762\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c674\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c114\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c3\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c2\nUndos used: 2\n\n  2 words remaining\nx 7 unused letters\n= 14 total score"
+TDD268438 📆 2025-07-24 ? 
