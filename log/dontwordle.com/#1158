@@ -1,0 +1,50 @@
+T0.0001900160059449263 now: 2025-07-25T08:45:59EDT
+TD35 site: dontwordle.com
+TDD-9 wordlist: nwl2023.txt
+TDD3025258 1> * -bot 10
+TDD-327671 ? 2
+TDD2948063 📋 "ideas" ? nnnMn
+TDD-5644666 tried: IDEAS n n n m n
+TDD7451559 2> * -bot 10
+TDD2045623 ? 2
+TDD-5349382 📋 "apron" ? MMMnM
+TDD-4148574 tried: APRON m m m n m
+TDD888319 3> undo
+TDD-888367 undo
+TDD742632 2> undo
+TDD-742621 undo
+TDD3261848 1> *
+TDD-2118989 ? 1
+TDD2784378 📋 "zizit" ? nnnnn
+TDD-3927238 tried: ZIZIT n n n n n
+TDD557583 2> *
+TDD1040455 ? 1
+TDD2638497 📋 "edged" ? nnnnn
+TDD-4236529 tried: EDGED n n n n n
+TDD889733 3> *
+TDD5532884 ? nnnnn
+TDD-3995027 ? 1
+TDD-1385476 📋 "mosso" ? nnnnn
+TDD-1042052 tried: MOSSO n n n n n
+TDD688945 4> *
+TDD1109627 ? 1
+TDD3203673 📋 "cluck" ? nnnnY
+TDD-5002207 tried: CLUCK n n n n Y
+TDD3131147 5> undo
+TDD-3131346 undo
+TDD2901403 4> *
+TDD-972802 ? 1
+TDD1719697 📋 "cully" ? nnnnn
+TDD-3648280 tried: CULLY n n n n n
+TDD1199961 5> *
+TDD1743324 5> * -sans 
+TDD6451502 ? 1
+TDD-7058705 📋 "navar" ? MMnnM
+TDD-2335997 tried: NAVAR m m n n m
+TDD1527070 6> * -sans
+TDD4999724 ? 2
+TDD-2770313 📋 "frank" ? nYYYY
+TDD-3756340 tried: FRANK n Y Y Y Y
+TDD3772140 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3766776 result: "Don't Wordle 1158 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6979\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2488\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c426\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c49\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe85\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe92\nUndos used: 3\n\n  2 words remaining\nx 7 unused letters\n= 14 total score"
+TDD485932 📆 2025-07-25 ? 
