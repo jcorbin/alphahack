@@ -1,0 +1,110 @@
+T0.00017294699500780553 now: 2025-07-25T08:38:28EDT
+TD37 site: squareword.org
+TDD10344388 🧩  ? #1271
+TDD-10344247 puzzle_id: #1271
+TDD-162 wordlist: nwl2023.txt
+TDD1203381 > *
+TDD365605 try? 1
+TDD-1568722 questioning: ["earns", "#5"]
+TDD5280255 #1 _____  📋 "earns" ? _a___ ~ a
+TDD-5279396 attempt 0 EARNS n Y n n n
+TDD3173826 #2 _____  📋 "earns" ? e____ ~ ea
+TDD-3174406 attempt 1 EARNS Y m n n n
+TDD2483883 #3 _____  📋 "earns" ? _a__s 
+TDD-2484070 attempt 2 EARNS n Y n n Y
+TDD2847158 #4 _____  📋 "earns" ? ___n_ ~ ea
+TDD-2847013 attempt 3 EARNS m m n Y n
+TDD3239832 #5 _____  📋 "earns" ? _____ ~ e
+TDD-3239781 attempt 4 EARNS m n n n n
+TDD1171550 ? *
+TDD-148235 #6 <IndexError>  📋 "earns" ? 
+TDD-310598 #6 <IndexError>  ? ␚
+TDD-713145 question done
+TDD1506063 > *
+TDD4102171 try? 5
+TDD-5607973 questioning: ["evade", "#2"]
+TDD7891691 #1 _A___ -ENRS  📋 "evade" ? .
+TDD-7891597 attempt 0 EVADE n n n n n
+TDD5458009 #2 E____ ~A -NRS  📋 "evade" ? e____ ~ ead
+TDD-5458179 attempt 1 EVADE Y n m m m
+TDD4926169 #3 _A__S -ENR  📋 "evade" ? _a__s ~ d
+TDD-4926174 attempt 2 EVADE n n n m n
+TDD4991455 #4 ___N_ ~AE -RS  📋 "evade" ? .
+TDD-4991472 attempt 3 EVADE m n m n m
+TDD4086986 #5 _____ ~E -ANRS  📋 "evade" ? ____e ~ ed
+TDD-4087118 attempt 4 EVADE m n n m Y
+TDD980256 ? 
+TDD-979961 question done
+TDD525137 > *
+TDD33252 questioning: ["edema", "#2"]
+TDD8402625 #1 _A___ -ADENRSV  📋 "edema" ? _a___ ~ am
+TDD-8961165 attempt 0 EDEMA n n n m m
+TDD1233492 #2 E____ ~AD -NRSV  📋 "edema" ? /it
+TDD-1233486 attempt 1 EDEMA Y Y Y Y Y
+TDD2569837 #3 _A__S ~D -AENRV  📋 "edema" ? .
+TDD-2569650 attempt 2 EDEMA n m n n n
+TDD5049510 #4 ___N_ ~AE -DRSV  📋 "edema" ? __en_ ~ a
+TDD-5049596 attempt 3 EDEMA n n Y n m
+TDD2057982 #5 ____E ~DE -ANRSV  📋 "edema" ? .
+TDD-2058111 attempt 4 EDEMA m m m n n
+TDD932282 ? 
+TDD-932250 question done
+TDD697317 > *
+TDD32059 questioning: ["agent", "#4"]
+TDD12257701 #1 _A___ ~M -ADENRSV  📋 "agent" ? _a___ ~ am
+TDD-12986895 attempt 0 AGENT m n n n n
+TDD3614405 #3 _A__S ~D -AEMNRV  📋 "agent" ? .
+TDD-3614336 attempt 2 AGENT n n n n n
+TDD1442326 #4 __EN_ ~A -DMRSV  📋 "agent" ? /it
+TDD-1442336 attempt 3 AGENT Y Y Y Y Y
+TDD2962583 #5 ____E ~DE -AMNRSV  📋 "agent" ? ____e ~ edg
+TDD-2962575 attempt 4 AGENT n m m n n
+TDD860157 ? *
+TDD697857 #6 <IndexError>  📋 "agent" ? ␚
+TDD-1558491 question done
+TDD851375 > *
+TDD3923781 try? 1
+TDD-4774849 questioning: ["malic", "#1"]
+TDD10899124 #1 _A___ ~M -ADEGNRSTV  📋 "malic" ? ma___ ~ ac
+TDD-10899201 attempt 0 MALIC Y Y n n m
+TDD7916938 #3 _A__S ~D -AEGMNRTV  📋 "malic" ? .
+TDD-7916970 attempt 2 MALIC n Y n n n
+TDD3810162 #5 ____E ~DEG -AMNRSTV  📋 "malic" ? ____e ~ edgl
+TDD-3810084 attempt 4 MALIC n n m n n
+TDD767373 ? 
+TDD-767544 question done
+TDD811605 > *
+TDD1228367 questioning: ["dados", "#3"]
+TDD9536705 #1 MA___ ~C -DEGILNRSTV  📋 "dados" ? ma___ ~ ac
+TDD-11576578 attempt 0 DADOS n Y n n n
+TDD4225319 #3 _A__S ~D -CEGILMNRTV  📋 "dados" ? /it
+TDD-4225473 attempt 2 DADOS Y Y Y Y Y
+TDD4492330 #5 ____E ~DEGL -ACIMNRSTV  📋 "dados" ? __d_e ~ egl
+TDD-4492046 attempt 4 DADOS n n Y n n
+TDD781087 ? 
+TDD-781214 question done
+TDD799527 > *
+TDD821716 questioning: ["ledge", "#5"]
+TDD5847662 #1 MA___ ~C -DEGILNORSTV  📋 "ledge" ? 
+TDD-5628405 #1 MA___ ~C -DEGILNORSTV  ? .
+TDD-1840507 attempt 0 LEDGE n n n n n
+TDD1048182 #5 __D_E ~EGL -ACIMNORSTV  📋 "ledge" ? /it
+TDD-1048118 attempt 4 LEDGE Y Y Y Y Y
+TDD305755 ? 
+TDD-305889 question done
+TDD640689 > *
+TDD50206734 > ?
+TDD-46487502 > /at
+TDD-2396163 > /at 1
+TDD53032412 > /man
+TDD-53025026 > /man 1
+TDD5170742 > /man 1 MA___ ~ AC
+TDD6203809 > /man 1 MA___ ~AC
+TDD-12778871 questioning: ["MACAW", "#1"]
+TDD7872784 #1 MA___ ~C -DEGILNORSTV  📋 "MACAW" ? /it
+TDD-8439552 attempt 0 MACAW Y Y Y Y Y
+TDD1680042 ? 
+TDD-1680241 question done
+TDD3889802 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3883621 result: "squareword.org 1271: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1271"
+TDD221652 📆 2025-07-25 ? 
