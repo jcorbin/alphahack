@@ -1,0 +1,35 @@
+T0.00020841399964410812 now: 2025-07-25T08:33:48EDT
+TD68025 loaded 196554 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (49 words excluded) asof 3be142fa52a912341b5094cc92acd9be87557baa
+TDD4561947 [0 : 98234 : 196554] mach? a
+TDD-4629287 progress: 1 98234 mach
+TDD1491136 [98235 : 147391 : 196554] rhotic? a
+TDD-1491631 progress: 1 147391 rhotic
+TDD1910827 [147392 : 171662 : 196554] ta? b
+TDD-1910694 progress: -1 171662 ta
+TDD2100096 [147392 : 159508 : 171662] slop? a
+TDD-2100177 progress: 1 159508 slop
+TDD2104355 [159509 : 165551 : 171662] stick? b
+TDD-2104326 progress: -1 165551 stick
+TDD1628279 [159509 : 162496 : 165551] spec? b
+TDD-1628283 progress: -1 162496 spec
+TDD2034626 [159509 : 160988 : 162496] soft? b
+TDD-2034663 progress: -1 160988 soft
+TDD1772212 [159509 : 160248 : 160988] snath? b
+TDD-1772301 progress: -1 160248 snath
+TDD1512028 [159509 : 159869 : 160248] smell? a
+TDD-1511945 progress: 1 159869 smell
+TDD1568251 [159870 : 160060 : 160248] smudge? b
+TDD-1568245 progress: -1 160060 smudge
+TDD1666937 [159870 : 159961 : 160060] smog? b
+TDD-1666933 progress: -1 159961 smog
+TDD1690137 [159870 : 159907 : 159961] smile? it
+TDD-1690109 progress: 0 159907 smile
+TDD-217 [159870 : 159907 : 159961] <Done>.
+TDD2344286 press <Return> to finish
+TDD-2152775 Press <Enter> to 📋 or `>` for line prompt 
+TDD-183281 share result: "\ud83e\udde9 Puzzle #731\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"
+TDD-8016 result puzzle: 731
+TDD-217 result guesses: 12
+TDD-25 result time: 19s
+TDD-3 result link: alphaguess.com
+TDD163448 📆 2025-07-25 ? 
