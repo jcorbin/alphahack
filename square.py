@@ -852,9 +852,30 @@ class Search(StoredLog):
             ui.print(f'! must have word spec')
             return
 
+        if verbose:
+            ui.print(f'manual gen {word}')
+
+        if verbose:
+            ui.print(f'- uni: {"".join(word.uni)}')
+            ui.print(f'- alpha: {"".join(word.alpha)}')
+            ui.print(f'- yes: {word.yes}')
+            ui.print(f'- may: {word.may}')
+            ui.print(f'- max: {word.max}')
+            for i, lets in enumerate(word.can, 1):
+                ui.print(f'- can_{i}: {"".join(sorted(lets))}')
+            ui.print('- re can lets:')
+            for n, r in enumerate(word.re_can_lets(), 1):
+                ui.print(f'  {n}. {r!r}')
+            ui.print(f'- re may perms')
+            for mix, perm in word.re_may_perms():
+                ui.print(f'  - {perm} {mix}')
+            ui.print('- re may alts:')
+            for n, r in enumerate(word.re_may_alts(), 1):
+                ui.print(f'  {n}. {r!r}')
+
         pat = word.pattern()
         if verbose:
-            ui.print(f'manual gen {word} {pat}')
+            ui.print(f'- pattern: {pat}')
 
         words = tuple(self.find(pat, row=word_i))
         scores, explain_score = self.score_words(word_i, words)
