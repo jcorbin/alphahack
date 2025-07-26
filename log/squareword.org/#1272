@@ -1,0 +1,140 @@
+T0.00018079200526699424 now: 2025-07-26T09:02:00EDT
+TD40 site: squareword.org
+TDD5370137 🧩  ? #1272
+TDD-5369740 puzzle_id: #1272
+TDD-394 wordlist: nwl2023.txt
+TDD3116926 > *
+TDD235214 try? 4
+TDD-3351467 questioning: ["anise", "#5"]
+TDD6847345 #1 _____  📋 "anise" ? _____ ~ a
+TDD-6846877 attempt 0 ANISE m n n n n
+TDD4113149 #2 _____  📋 "anise" ? a_i_e
+TDD-4113676 attempt 1 ANISE Y n Y n Y
+TDD2508305 #3 _____  📋 "anise" ? _____ ~ e
+TDD-2508447 attempt 2 ANISE n n n n m
+TDD2999972 #4 _____  📋 "anise" ? __i__ ~ s
+TDD-2999894 attempt 3 ANISE n n Y m n
+TDD2226702 #5 _____  📋 "anise" ? _____ ~ as
+TDD-2226655 attempt 4 ANISE m n n m n
+TDD1234382 ? 
+TDD-1234602 question done
+TDD666734 > *
+TDD1563180 try? 1
+TDD-2230175 questioning: ["alike", "#2"]
+TDD4624056 #1 _____ ~A -EINS  📋 "alike" ? .
+TDD-4623773 attempt 0 ALIKE m n n n n
+TDD1400413 #2 A_I_E -NS  📋 "alike" ? ali_e
+TDD-1400319 attempt 1 ALIKE Y Y Y n Y
+TDD2370456 #3 _____ ~E -AINS  📋 "alike" ? .
+TDD-2370650 attempt 2 ALIKE n n n n m
+TDD1489662 #4 __I__ ~S -AEN  📋 "alike" ? .
+TDD-1489647 attempt 3 ALIKE n n Y n n
+TDD3257211 #5 _____ ~AS -EIN  📋 "alike" ? _____ ~ asl
+TDD-3257238 attempt 4 ALIKE m m n n n
+TDD789724 ? 
+TDD-789760 question done
+TDD609082 > *
+TDD2802 questioning: ["alive", "#2"]
+TDD8173273 #1 _____ ~A -EIKLNS  📋 "alive" ? _____ ~ av
+TDD-8785053 attempt 0 ALIVE m n n m n
+TDD1565081 #2 ALI_E -KNS  📋 "alive" ? /it
+TDD-1565176 attempt 1 ALIVE Y Y Y Y Y
+TDD2131806 #3 _____ ~E -AIKLNS  📋 "alive" ? .
+TDD-2131773 attempt 2 ALIVE n n n n m
+TDD1361917 #4 __I__ ~S -AEKLN  📋 "alive" ? .
+TDD-1361951 attempt 3 ALIVE n n Y n n
+TDD1265048 #5 _____ ~ALS -EIKN  📋 "alive" ? .
+TDD-1265004 attempt 4 ALIVE m m n n n
+TDD1193372 ? 
+TDD-1193545 question done
+TDD661651 > *
+TDD1401474 try? 1
+TDD-2063017 questioning: ["favor", "#1"]
+TDD4470498 #1 _____ ~AV -EIKLNS  📋 "favor" ? _avo_
+TDD-4470421 attempt 0 FAVOR n Y Y Y n
+TDD5006584 #3 _____ ~E -AIKLNSV  📋 "favor" ? ____r ~ eor
+TDD-5006503 attempt 2 FAVOR n n n m Y
+TDD6457104 #4 __I__ ~S -AEKLNV  📋 "favor" ? __i__ ~ sr
+TDD-6457231 attempt 3 FAVOR n n n n m
+TDD3774851 #5 _____ ~ALS -EIKNV  📋 "favor" ? _a___ ~ sl
+TDD-3774970 attempt 4 FAVOR n Y n n n
+TDD880238 ? 
+TDD-880221 question done
+TDD671318 > *
+TDD3241231 try? 1
+TDD-3912444 questioning: ["havoc", "#1"]
+TDD7024128 #1 _AVO_ -EFIKLNRS  📋 "havoc" ? /it
+TDD-7023986 attempt 0 HAVOC Y Y Y Y Y
+TDD5605496 #3 ____R ~EO -AFIKLNSV  📋 "havoc" ? ____r ~ r
+TDD-5605560 attempt 2 HAVOC n n n n n
+TDD7786985 #4 __I__ ~RS -AEFKLNOV  📋 "havoc" ? __i__ ~ srh
+TDD-7787201 attempt 3 HAVOC m n n n n
+TDD4120192 #5 _A___ ~LS -EFIKNORV  📋 "havoc" ? ha___ ~ sl
+TDD-4119922 attempt 4 HAVOC Y Y n n n
+TDD819164 ? 
+TDD-819349 question done
+TDD7014023 > *
+TDD-4980288 questioning: ["shirt", "#4"]
+TDD1586280 #3 ____R ~E -ACFHIKLNOSV  📋 "shirt" ? 
+TDD10152001 #3 ____R ~E -ACFHIKLNOSV  ? ____r ~ eor
+TDD-13771854 attempt 2 SHIRT n n n m n
+TDD2041460 #4 __I__ ~HRS -ACEFKLNOV  📋 "shirt" ? /it
+TDD-2041378 attempt 3 SHIRT Y Y Y Y Y
+TDD4024119 #5 HA___ ~LS -CEFIKNORV  📋 "shirt" ? ha___ ~ slt
+TDD-4024162 attempt 4 SHIRT m n n n m
+TDD830864 ? 
+TDD-830973 question done
+TDD3381428 > *
+TDD-1860099 questioning: ["halts", "#5"]
+TDD6705594 #3 ____R ~E -ACFHIKLNOSTV  📋 "halts" ? ____r ~ eor
+TDD-8226947 attempt 2 HALTS n n n n n
+TDD1662221 #5 HA___ ~LST -CEFHIKNORV  📋 "halts" ? /it
+TDD-1662067 attempt 4 HALTS Y Y Y Y Y
+TDD761955 ? 
+TDD-762115 question done
+TDD780605 > *
+TDD10428445 > /man 3 ____r ~eor
+TDD26176605 > /man =j
+TDD-34821305 > /man -h
+TDD31802427 > /man 3 -v ____r ~ eor
+TDD-17189110 > /man 3 -v ____r ~eor
+TDD278983064 > ␚
+TDD-296160973 <EOF>
+TDD833275 <INT>
+TDD-833232 <INT>
+TDD-110 <INT>
+TDD-2 <INT>
+TDD-1 <INT>
+TDD-1 <INT>
+TDD-1 <INT>
+T0.04357075100415386 now: 2025-07-26T09:11:31EDT
+TD25288287 > /man 3 -v ____r ~eor
+TDD351339026 > ␚
+TDD-376627177 <EOF>
+T0.04407615998934489 now: 2025-07-26T09:18:15EDT
+TD6155270 > /man 3 -v ____r ~eor 
+TDD78305768 <INT>
+T0.04511051099689212 now: 2025-07-26T09:19:47EDT
+TD2455708 > /man 3 -v ____r ~eor 
+TDD15378969 <INT>
+T0.04534846599563025 now: 2025-07-26T09:20:08EDT
+TD1940579 > /man 3 -v ____r ~eor 
+TDD10928134 <INT>
+T0.04416638299881015 now: 2025-07-26T09:27:27EDT
+TD5665991 > 
+TDD-5481615 > 
+TDD1704691 > /man 3 -v ____r ~eor 
+TDD18413583 > ␚
+TDD-20302510 <EOF>
+T0.04472123400773853 now: 2025-07-26T09:30:18EDT
+TD1560663 > "a
+TDD1175249 > /man 3 -v ____r ~eor 
+TDD-2142947 questioning: ["ROGER", "#3"]
+TDD10383152 #3 ____R ~E -ACFHIKLNOSTV  📋 "ROGER" ? it
+TDD-6478515 #3 ____R ~E -ACFHIKLNOSTV  ? /it
+TDD-4497276 attempt 2 ROGER Y Y Y Y Y
+TDD1361021 ? 
+TDD-1361231 question done
+TDD3154392 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3147670 result: "squareword.org 1272: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1272"
+TDD170922 📆 2025-07-26 ? 
