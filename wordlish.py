@@ -388,19 +388,19 @@ class Word:
                 yield mix, pmay
 
     def re_may_alts(self, void: Iterable[str]|None = None):
+        may = tuple(sorted(self.may))
         can = tuple(
             known or self.re_may(i, may, void=void)
             for i, known in enumerate(self.yes))
-        for mix in combinations(ix, len(may)):
-            for pmay in permutations(may):
-                if any(
-                    pmay[j] not in self.can[i]
-                    for j, i in enumerate(mix)
-                ): continue
-                parts = list(can)
-                for j, i in enumerate(mix):
-                    parts[i] = pmay[j]
-                yield ''.join(parts)
+        for mix, pmay in self.re_may_perms():
+            if any(
+                pmay[j] not in self.can[i]
+                for j, i in enumerate(mix)
+            ): continue
+            parts = list(can)
+            for j, i in enumerate(mix):
+                parts[i] = pmay[j]
+            yield ''.join(parts)
 
     def patstr(self, void: Iterable[str]|None = None):
         return '|'.join(self.re_may_alts(void=void)) if self.may else self.re_can(void=void)
