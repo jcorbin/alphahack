@@ -805,3 +805,6 @@ TDD56206895 [prior:2170 bet:2173]> /res
 TDD-55985018 Press <Enter> to 📋 or `>` for line prompt 
 TDD-213420 result: "\u2728 Spaceword.org Daily 2025-07-25 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Rank: 25/363 \ud83c\udfc5\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD714776 [prior:2173]> /store
+T15.000097803989775 now: 2025-07-26T08:55:11EDT
+TD374087 Press <Enter> to 📋 or `>` for line prompt 
+TDD-366711 result: "\u2728 Spaceword.org Daily 2025-07-25 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Final Rank: 30/440 \ud83c\udfc5\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"
