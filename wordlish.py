@@ -258,18 +258,21 @@ class Word:
         while parts:
             match = parts.have(r'(?x) ~ ( [^\s]+ )')
             if match:
-                self.may.update(match[1])
+                may = match[1]
+                self.may.update(may)
                 continue
 
             match = parts.have(r'(?x) - ( [^\s]+ )')
             if match:
+                nope = match[1]
                 for can in self.can:
-                    can.difference_update(match[1])
+                    can.difference_update(nope)
                 continue
 
             match = parts.have(r'(?x) ( [^\s] ) : ( \d+ )')
             if match:
-                self.max[match[1]] = int(match[2])
+                let = match[1]
+                self.max[let] = int(match[2])
                 continue
 
             raise ValueError('invalid Word string')
