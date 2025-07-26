@@ -249,7 +249,7 @@ class Word:
         if not parts: raise ValueError('invalid Word string')
 
         # TODO whence alpha
-        yes = next(parts)
+        yes = next(parts).upper()
         size = len(yes)
         self = cls(size)
         for i, c in enumerate(yes):
@@ -258,20 +258,20 @@ class Word:
         while parts:
             match = parts.have(r'(?x) ~ ( [^\s]+ )')
             if match:
-                may = match[1]
+                may = match[1].upper()
                 self.may.update(may)
                 continue
 
             match = parts.have(r'(?x) - ( [^\s]+ )')
             if match:
-                nope = match[1]
+                nope = match[1].upper()
                 for can in self.can:
                     can.difference_update(nope)
                 continue
 
             match = parts.have(r'(?x) ( [^\s] ) : ( \d+ )')
             if match:
-                let = match[1]
+                let = match[1].upper()
                 self.max[let] = int(match[2])
                 continue
 
