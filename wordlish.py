@@ -374,15 +374,20 @@ class Word:
     def re_can(self, void: Iterable[str]|None = None):
         return ''.join(self.re_can_lets(void))
 
-    def re_may_alts(self, void: Iterable[str]|None = None):
+    def re_may_perms(self):
         may = tuple(sorted(self.may))
-        can = tuple(
-            known or self.re_may(i, may, void=void)
-            for i, known in enumerate(self.yes))
         ix = tuple(
             i
             for i, known in enumerate(self.yes)
             if not known)
+        for mix in combinations(ix, len(may)):
+            for pmay in permutations(may):
+                yield mix, pmay
+
+    def re_may_alts(self, void: Iterable[str]|None = None):
+        can = tuple(
+            known or self.re_may(i, may, void=void)
+            for i, known in enumerate(self.yes))
         for mix in combinations(ix, len(may)):
             for pmay in permutations(may):
                 if any(
