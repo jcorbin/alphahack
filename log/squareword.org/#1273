@@ -1,0 +1,103 @@
+T0.00017559999832883477 now: 2025-07-27T08:28:18EDT
+TD41 site: squareword.org
+TDD6624133 🧩  ? #1273
+TDD-6623969 puzzle_id: #1273
+TDD-189 wordlist: nwl2023.txt
+TDD1197316 > *
+TDD3676572 try? 1
+TDD-4873332 questioning: ["aside", "#5"]
+TDD2864177 #1 _____  📋 "aside" ? _____ ~ as
+TDD-2864252 attempt 0 ASIDE m m n n n
+TDD2772852 #2 _____  📋 "aside" ? ____e ~ ad
+TDD-2772726 attempt 1 ASIDE m n n m Y
+TDD3859802 #3 _____  📋 "aside" ? a_i__ ~ a
+TDD-3860084 attempt 2 ASIDE Y n Y n n
+TDD3315794 #4 _____  📋 "aside" ? _____ ~ se
+TDD-3315606 attempt 3 ASIDE n m n n m
+TDD2701065 #5 _____  📋 "aside" ? ____e
+TDD-2701235 attempt 4 ASIDE n n n n Y
+TDD859832 ? 
+TDD-859674 question done
+TDD564609 > *
+TDD1941371 try? 1
+TDD-2506149 questioning: ["cadre", "#2"]
+TDD5733386 #1 _____ ~AS -DEI  📋 "cadre" ? .
+TDD-5733402 attempt 0 CADRE n m n n n
+TDD1568446 #2 ____E ~AD -IS  📋 "cadre" ? /it
+TDD-1568640 attempt 1 CADRE Y Y Y Y Y
+TDD2193806 #3 A_I__ -DES  📋 "cadre" ? .
+TDD-2193598 attempt 2 CADRE n n n n n
+TDD4008468 #4 _____ ~ES -ADI  📋 "cadre" ? _____ ~ ser
+TDD-4008667 attempt 3 CADRE n n n m m
+TDD804556 #5 ____E -ADIS  📋 "cadre" ? .
+TDD-804362 attempt 4 CADRE n n n n Y
+TDD806781 ? 
+TDD-806928 question done
+TDD726994 > *
+TDD1614844 try? 1
+TDD-2341776 questioning: ["amigo", "#3"]
+TDD9571633 #1 _____ ~AS -CDEIR  📋 "amigo" ? ___g_ ~ as
+TDD-9571431 attempt 0 AMIGO m n n Y n
+TDD10057758 #3 A_I__ -ACDERS  📋 "amigo" ? a_i__ ~ a
+TDD-10057764 attempt 2 AMIGO Y n Y n n
+TDD7064444 #4 _____ ~ERS -ACDI  📋 "amigo" ? .
+TDD-7064514 attempt 3 AMIGO n n n n n
+TDD1287348 #5 ____E -ACDIRS  📋 "amigo" ? .
+TDD-1287375 attempt 4 AMIGO n n n n n
+TDD1543931 ? 
+TDD-1543896 question done
+TDD1773831 > *
+TDD556217 try? 1
+TDD-2330163 questioning: ["shags", "#1"]
+TDD5936618 #1 ___G_ ~AS -CDEIMOR  📋 "shags" ? s_ags
+TDD-5936567 attempt 0 SHAGS Y n Y Y Y
+TDD11489380 #3 A_I__ -CDEGMORS  📋 "shags" ? a_i__ ~ a
+TDD-11489438 attempt 2 SHAGS n n m n n
+TDD5647330 #4 _____ ~ERS -ACDGIMO  📋 "shags" ? ____s ~ er
+TDD-5647164 attempt 3 SHAGS n n n n Y
+TDD2506603 #5 ____E -ACDGIMORS  📋 "shags" ? .
+TDD-2506600 attempt 4 SHAGS n n n n n
+TDD1010678 ? 
+TDD-1010831 question done
+TDD500212 > *
+TDD3929212 try? 1
+TDD-4429528 questioning: ["flute", "#5"]
+TDD8353175 #1 S_AGS -CDEHIMOR  📋 "flute" ? .
+TDD-8352949 attempt 0 FLUTE n n n n n
+TDD3032987 #3 A_I__ -CDEGHMORS  📋 "flute" ? .
+TDD-3033046 attempt 2 FLUTE n n n n n
+TDD4852473 #4 ____S ~ER -ACDGHIMO  📋 "flute" ? ____s ~ erf
+TDD-4852318 attempt 3 FLUTE m n n n m
+TDD825165 #5 ____E -ACDGHIMORS  📋 "flute" ? /it
+TDD-825248 attempt 4 FLUTE Y Y Y Y Y
+TDD827474 ? 
+TDD-827708 question done
+TDD979169 > *
+TDD761325 questioning: ["snags", "#1"]
+TDD2543743 #1 S_AGS -CDEFHILMORTU  📋 "snags" ? /it
+TDD-4283939 attempt 0 SNAGS Y Y Y Y Y
+TDD4630716 #3 A_I__ -CDEFGHLMORSTU  📋 "snags" ? a_i__ ~ an
+TDD-4630647 attempt 2 SNAGS n m m n n
+TDD1020088 #4 ____S ~EFR -ACDGHILMOTU  📋 "snags" ? .
+TDD-1020235 attempt 3 SNAGS n n n n Y
+TDD1452892 ? 
+TDD-1452968 question done
+TDD650445 > *
+TDD886435 questioning: ["reefs", "#4"]
+TDD12198010 #3 A_I__ ~N -CDEFGHLMORSTU  📋 "reefs" ? a_i__ ~ an
+TDD-13734874 attempt 2 REEFS n n n n n
+TDD1411228 #4 ____S ~EFR -ACDGHILMNOTU  📋 "reefs" ? /it
+TDD-1411288 attempt 3 REEFS Y Y Y Y Y
+TDD483769 ? 
+TDD-483837 question done
+TDD614003 > *
+TDD6597915 > /man 3 a_i__ ~ an
+TDD-2311224 > /man 3 a_i__ ~an
+TDD-4354391 questioning: ["AVIAN", "#3"]
+TDD4087480 #3 A_I__ ~N -CDEFGHLMORSTU  📋 "AVIAN" ? /it
+TDD-4633690 attempt 2 AVIAN Y Y Y Y Y
+TDD1259605 ? ␚
+TDD-1259830 question done
+TDD6144758 Press <Enter> to 📋 or `>` for line prompt 
+TDD-6139558 result: "squareword.org 1273: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1273"
+TDD223697 📆 2025-07-27 ? 
