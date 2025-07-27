@@ -1,0 +1,69 @@
+T0.0002293010038556531 now: 2025-07-27T08:31:48EDT
+TD48 site: dontwordle.com
+TDD-11 wordlist: nwl2023.txt
+TDD11097548 1> * -bot 10
+TDD-9917574 ? 1
+TDD3322819 📋 "arose" ? nnYnn
+TDD-4501954 tried: AROSE n n Y n n
+TDD1864905 2> *
+TDD-70249 ? ␚
+TDD-1795403 <EOF>
+TDD1691303 2> * -bot 10
+TDD2099444 ? 1
+TDD3138609 📋 "phony" ? nMYnn
+TDD-6929012 tried: PHONY n m Y n n
+TDD956258 3> undo
+TDD-956582 undo
+TDD712282 2> undo
+TDD-712207 undo
+TDD5228413 1> * 
+TDD-3926289 ? 1
+TDD3427270 📋 "villi" ? nnnnn
+TDD-4729363 tried: VILLI n n n n n
+TDD701070 2> *
+TDD346161 ? 1
+TDD3133613 📋 "dewed" ? nnnnn
+TDD-4180886 tried: DEWED n n n n n
+TDD1445862 3> *
+TDD-323330 ? 1
+TDD3368608 📋 "gamma" ? nnnnn
+TDD-4491140 tried: GAMMA n n n n n
+TDD860695 4> *
+TDD248677 ? 1
+TDD3847018 📋 "yukky" ? nnnnn
+TDD-4956212 tried: YUKKY n n n n n
+TDD1258424 5> *
+TDD2278570 5> * -sans :v h
+TDD-1421421 ? ␚
+TDD-2115874 <EOF>
+TDD3283038 5> * -sans :v o
+TDD5422985 📋 "phpht" ? nMnnM
+TDD-8705898 tried: PHPHT n m n n m
+TDD9896663 6> undo
+TDD-9896729 undo
+TDD1308696 5> undo
+TDD-1308645 undo
+TDD1374765 4> undo
+TDD-1374756 undo
+TDD981679 3> *
+TDD306511 ? 1
+TDD3283119 📋 "pzazz" ? nnnnn
+TDD-4571186 tried: PZAZZ n n n n n
+TDD1731737 4> *
+TDD2613577 ? 1
+TDD64224 📋 "cuffs" ? nnnnn
+TDD-4409620 tried: CUFFS n n n n n
+TDD1433981 5> **
+TDD-376463 5> *
+TDD2159345 5> *
+TDD3143473 5> * -sans :v [ot]
+TDD1893390 📋 "myrrh" ? nnnnY
+TDD-8253709 tried: MYRRH n n n n Y
+TDD1706087 6> * -sans
+TDD15205064 ? nYYYY
+TDD-15186016 ? 2
+TDD-570 📋 "booth" ? nYYYY
+TDD-1724623 tried: BOOTH n Y Y Y Y
+TDD2712691 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2703040 result: "Don't Wordle 1160 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6812\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2760\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c970\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c93\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe92\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe91\nUndos used: 5\n\n  1 words remaining\nx 6 unused letters\n= 6 total score"
+TDD152513 📆 2025-07-27 ? 
