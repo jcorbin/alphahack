@@ -1,11 +1,12 @@
 import hashlib
+import json
 import math
 import os
 import subprocess
 from collections.abc import Generator, Iterable, Sequence
 from typing import final, TextIO
 
-from store import atomic_rewrite
+from store import atomic_rewrite, git_txn
 from strkit import PeekIter
 from ui import PromptUI
 
@@ -137,6 +138,37 @@ class WordList:
 
     def remove_words(self, words: Iterable[str]):
         merge_words_into(self.exclude_file, words)
+
+    def do_bad(self, ui: PromptUI, *words: str, mark: str = ''):
+        words = tuple(
+            word.lower()
+            for word in (words if words else ui.tokens))
+
+        ui.log(f'bad: {json.dumps(words)}')
+
+        known = self.uniq_words
+        words = tuple(
+            word
+            for word in words
+            if word in known)
+
+        if len(words) == 0:
+            ui.print('no known words given')
+            return
+
+        elif len(words) > 1:
+            mess = f'bad words'
+        else:
+            mess = f'bad {words[0]!r}'
+
+        if mark:
+            mess = f'{mark} {mess}'
+        else:
+            mess = f'{self.exclude_file}: {mess}'
+
+        with git_txn(mess, ui=ui) as txn:
+            with txn.will_add(self.exclude_file):
+                self.remove_words(words)
 
 @final
 class Browser:
