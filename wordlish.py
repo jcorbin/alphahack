@@ -88,7 +88,7 @@ class Question:
 
     def do_bad(self, ui: PromptUI):
         if not self.reject:
-            ui.print(f'! bad word {self.word}!r')
+            ui.print(f'! bad word {self.word!r}')
             raise StopIteration
         return self.reject(self.word)
 
