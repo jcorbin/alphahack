@@ -349,7 +349,15 @@ class Search(StoredLog):
                 self.handle_tried(ui, Attempt(word, res))
                 raise StopIteration()
             return and_then
-        return Question(word, prefix=self.prompt_prefix(), then=then)
+
+        def reject(ui: PromptUI, word: str):
+            self.wordlist.do_bad(ui, word, mark=f'{self.site}:')
+            raise StopIteration()
+
+        return Question(word,
+                        prefix=self.prompt_prefix(),
+                        then=then,
+                        reject=lambda word: lambda ui: reject(ui, word))
 
     def tried_letters(self, word: str):
         for i, let in enumerate(word):
