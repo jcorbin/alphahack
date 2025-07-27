@@ -1,0 +1,40 @@
+T0.0002657309960341081 now: 2025-07-27T08:21:27EDT
+TD62461 loaded 196554 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (49 words excluded) asof 1087a521f918729a163c7db2dfa81837a0718cb0
+TDD3496649 [0 : 98234 : 196554] mach? a
+TDD-3558565 progress: 1 98234 mach
+TDD1373327 [98235 : 147391 : 196554] rhotic? b
+TDD-1373598 progress: -1 147391 rhotic
+TDD1407303 [98235 : 122797 : 147391] parr? a
+TDD-1407255 progress: 1 122797 parr
+TDD1438728 [122798 : 135088 : 147391] proper? b
+TDD-1438775 progress: -1 135088 proper
+TDD1548750 [122798 : 128867 : 135088] play? b
+TDD-1548583 progress: -1 128867 play
+TDD1373451 [122798 : 125701 : 128867] pet? a
+TDD-1373739 progress: 1 125701 pet
+TDD1465728 [125702 : 127136 : 128867] pic? b
+TDD-1465680 progress: -1 127136 pic
+TDD1450581 [125702 : 126366 : 127136] phon? b
+TDD-1450510 progress: -1 126366 phon
+TDD1609308 [125702 : 126034 : 126366] pharyngals? b
+TDD-1609166 progress: -1 126034 pharyngals
+TDD1420174 [125702 : 125868 : 126034] petunia? b
+TDD-1420327 progress: -1 125868 petunia
+TDD6377970 [125702 : 125772 : 125868] petri? !
+TDD-3880327 [125702 : 125785 : 125867] petrochemicals? b
+TDD-2497721 progress: -1 125785 petrochemicals
+TDD2178416 [125702 : 125741 : 125785] petiole? b
+TDD-2178382 progress: -1 125741 petiole
+TDD2075677 [125702 : 125721 : 125741] petards? b
+TDD-2075794 progress: -1 125721 petards
+TDD1691969 [125702 : 125708 : 125721] petal? it
+TDD-1691792 progress: 0 125708 petal
+TDD-231 [125702 : 125708 : 125721] <Done>.
+TDD2732278 press <Return> to finish
+TDD-2522860 Press <Enter> to 📋 or `>` for line prompt 
+TDD-204218 share result: "\ud83e\udde9 Puzzle #733\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 28s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5174 result puzzle: 733
+TDD-45 result guesses: 14
+TDD-7 result time: 28s
+TDD-1 result link: alphaguess.com
+TDD181904 📆 2025-07-27 ? 
