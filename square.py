@@ -974,6 +974,7 @@ class Search(StoredLog):
             word = word.upper()
             ui.log(f'reject: {word.lower()}')
             self.rejects.add(word)
+            self.wordlist.do_bad(ui, word, mark=f'{self.site}:')
             raise StopIteration()
 
         return self.Round(guess,
