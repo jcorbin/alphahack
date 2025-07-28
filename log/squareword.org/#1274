@@ -1,0 +1,90 @@
+T0.0002505049997125752 now: 2025-07-28T07:46:51EDT
+TD37 site: squareword.org
+TDD9856299 🧩  ? #1274
+TDD-9856100 puzzle_id: #1274
+TDD-194 wordlist: nwl2023.txt
+TDD2291799 > *
+TDD-566551 try? 1
+TDD-1724766 questioning: ["stale", "#5"]
+TDD5199453 #1 _____  📋 "stale" ? s____ ~ e
+TDD-5198936 attempt 0 STALE Y n n n m
+TDD4180351 #2 _____  📋 "stale" ? __a_e ~ l
+TDD-4181010 attempt 1 STALE n n Y m Y
+TDD2603458 #3 _____  📋 "stale" ? _____ ~ e
+TDD-2603493 attempt 2 STALE n n n n m
+TDD1880480 #4 _____  📋 "stale" ? _____ ~ a
+TDD-1880406 attempt 3 STALE n n m n n
+TDD2305609 #5 _____  📋 "stale" ? _____ ~ ste
+TDD-2305664 attempt 4 STALE m m n n m
+TDD736768 ? *
+TDD1147505 #6 <IndexError>  📋 "stale" ? ␚
+TDD-1884530 question done
+TDD937875 > (*
+TDD239757 > *
+TDD6190290 try? 1
+TDD-7367616 questioning: ["plane", "#2"]
+TDD5343939 #1 S____ ~E -ALT  📋 "plane" ? .
+TDD-5343998 attempt 0 PLANE n n n n m
+TDD6346659 #2 __A_E ~L -ST  📋 "plane" ? /it
+TDD-6346866 attempt 1 PLANE Y Y Y Y Y
+TDD1977792 #3 _____ ~E -ALST  📋 "plane" ? .
+TDD-1977660 attempt 2 PLANE n n n n m
+TDD6545329 #4 _____ ~A -ELST  📋 "plane" ? _____ ~ an
+TDD-6545216 attempt 3 PLANE n n m m n
+TDD3017006 #5 _____ ~EST -AL  📋 "plane" ? _____ ~ sten
+TDD-3017228 attempt 4 PLANE n n n m m
+TDD1169689 ? 
+TDD-1169628 question done
+TDD876104 > *
+TDD4386745 try? 7
+TDD-5262578 questioning: ["tends", "#5"]
+TDD8989846 #1 S____ ~E -ALNPT  📋 "tends" ? se___
+TDD-8990074 attempt 0 TENDS n Y n n n
+TDD3984744 #3 _____ ~E -ALNPST  📋 "tends" ? _____ ~ ed
+TDD-3984702 attempt 2 TENDS n m n m n
+TDD3680880 #4 _____ ~AN -ELPST  📋 "tends" ? _____ ~ and
+TDD-3680793 attempt 3 TENDS n n m m n
+TDD2902511 #5 _____ ~ENST -ALP  📋 "tends" ? ten_s ~ t
+TDD-2902370 attempt 4 TENDS Y Y Y n Y
+TDD965956 ? 
+TDD-966315 question done
+TDD926251 > *
+TDD-173800 questioning: ["tents", "#5"]
+TDD3340961 #1 SE___ -ADLNPST  📋 "tents" ? 
+TDD-1088682 #1 SE___ -ADLNPST  ? .
+TDD-3004519 attempt 0 TENTS n Y n n n
+TDD1855571 #3 _____ ~DE -ALNPST  📋 "tents" ? .
+TDD-1855730 attempt 2 TENTS n m n n n
+TDD1501511 #4 _____ ~ADN -ELPST  📋 "tents" ? .
+TDD-1501285 attempt 3 TENTS n n m n n
+TDD765124 #5 TEN_S -ADLP  📋 "tents" ? /it
+TDD-765365 attempt 4 TENTS Y Y Y Y Y
+TDD1286077 ? 
+TDD-1286183 question done
+TDD15233128 > *
+TDD-15125125 questioning: ["adorn", "#4"]
+TDD7876655 #1 SE___ -ADLNPST  📋 "adorn" ? se___ ~ r
+TDD-7984245 attempt 0 ADORN n n n m n
+TDD5258601 #3 _____ ~DE -ALNPST  📋 "adorn" ? _____ ~ edr
+TDD-5258945 attempt 2 ADORN n m n m n
+TDD1469563 #4 _____ ~ADN -ELPST  📋 "adorn" ? /it
+TDD-1469443 attempt 3 ADORN Y Y Y Y Y
+TDD807325 ? 
+TDD-807452 question done
+TDD1354131 > *
+TDD233184 questioning: ["serif", "#1"]
+TDD3849535 #1 SE___ ~R -ADLNOPST  📋 "serif" ? /it
+TDD-5436734 attempt 0 SERIF Y Y Y Y Y
+TDD2180532 #3 _____ ~DER -ALNOPST  📋 "serif" ? .
+TDD-2180686 attempt 2 SERIF n m m n n
+TDD829552 ? 
+TDD-829438 question done
+TDD786913 > *
+TDD285377 questioning: ["ruder", "#3"]
+TDD2652056 #3 _____ ~DER -AFILNOPST  📋 "ruder" ? /it
+TDD-3724091 attempt 2 RUDER Y Y Y Y Y
+TDD1338769 ? ␚
+TDD-1339194 question done
+TDD6036082 Press <Enter> to 📋 or `>` for line prompt 
+TDD-6029501 result: "squareword.org 1274: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1274"
+TDD207423 📆 2025-07-28 ? 
