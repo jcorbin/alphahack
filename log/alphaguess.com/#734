@@ -1,0 +1,39 @@
+T0.0001952559978235513 now: 2025-07-28T07:41:13EDT
+TD86730 loaded 196553 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (50 words excluded) asof 9174f242d804a80f9005ca06bbff2203055d1d2f
+TDD10446789 [0 : 98234 : 196553] mach? a
+TDD-10533045 progress: 1 98234 mach
+TDD1602878 [98235 : 147395 : 196553] rhumb? a
+TDD-1603132 progress: 1 147395 rhumb
+TDD1694893 [147396 : 171661 : 196553] ta? b
+TDD-1694788 progress: -1 171661 ta
+TDD1775127 [147396 : 159507 : 171661] slop? b
+TDD-1775213 progress: -1 159507 slop
+TDD1890758 [147396 : 153339 : 159507] sea? b
+TDD-1890722 progress: -1 153339 sea
+TDD1620754 [147396 : 150361 : 153339] sallow? a
+TDD-1620783 progress: 1 150361 sallow
+TDD1748995 [150362 : 151836 : 153339] scar? b
+TDD-1749040 progress: -1 151836 scar
+TDD1659204 [150362 : 151099 : 151836] sarcoma? a
+TDD-1659214 progress: 1 151099 sarcoma
+TDD1543843 [151100 : 151468 : 151836] savate? a
+TDD-1543771 progress: 1 151468 savate
+TDD1578444 [151469 : 151648 : 151836] scag? b
+TDD-1578415 progress: -1 151648 scag
+TDD2172657 [151469 : 151529 : 151648] saw? b
+TDD-2172674 progress: -1 151529 saw
+TDD1731589 [151469 : 151489 : 151529] savor? b
+TDD-1731571 progress: -1 151489 savor
+TDD1880217 [151469 : 151478 : 151489] savin? b
+TDD-1880232 progress: -1 151478 savin
+TDD2021447 [151469 : 151470 : 151478] save? it
+TDD-2021458 progress: 0 151470 save
+TDD-204 [151469 : 151470 : 151478] <Done>.
+TDD3062768 press <Return> to finish
+TDD-2862677 Press <Enter> to 📋 or `>` for line prompt 
+TDD-193992 share result: "\ud83e\udde9 Puzzle #734\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"
+TDD-6106 result puzzle: 734
+TDD-33 result guesses: 14
+TDD-5 result time: 23s
+TDD-2 result link: alphaguess.com
+TDD577164 📆 2025-07-28 ? 
