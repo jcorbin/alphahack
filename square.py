@@ -229,7 +229,7 @@ class Search(StoredLog):
                     word, desc = dat
                     assert isinstance(word, str)
                     assert isinstance(desc, str)
-                    _ = self.ask_question(ui, word, desc)
+                    _ = self.round(word, desc)(ui)
                     continue
 
                 match = re.match(r'''(?x)
@@ -601,7 +601,7 @@ class Search(StoredLog):
             ui.print(f'! wrong size {token!r}')
             return
 
-        return self.ask_question(ui, token, 'entered')
+        return self.do_round(self.round(token, 'entered'))
 
     def row_word_range(self, row: int):
         return range(row * self.size, (row+1) * self.size)
@@ -919,11 +919,11 @@ class Search(StoredLog):
         #     i = next(pos.index())
         #     choice = pos.data[i]
         #     self.recent_sug[choice] = 10
-        #     return self.ask_question(ui, choice, f'#{word_i+1}')
+        #     return self.do_round(self.round(choice, f'#{word_i+1}'))
 
         def then(choice: str) -> PromptUI.State:
             self.recent_sug[choice] = 10
-            return lambda ui: self.ask_question(ui, choice, f'#{word_i+1}')
+            return self.do_round(self.round(choice, f'#{word_i+1}'))
 
         ch = pos.choose(
             then,
@@ -931,6 +931,12 @@ class Search(StoredLog):
             mess='try? ')
         ch.prompt.set('*', self.do_choose)
         return ch
+
+    def do_round(self, rnd: PromptUI.State):
+        return state
+
+    def round(self, guess: str, desc: str = '<unknown>'):
+        return lambda ui: self.ask_question(ui, guess, desc)
 
     def ask_question(self, ui: PromptUI, word: str, desc: str):
         word = word.upper()
