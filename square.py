@@ -6,6 +6,7 @@ import re
 from collections import Counter, OrderedDict
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
+from functools import partial
 from itertools import chain
 from typing import Callable, cast, final, overload, override
 
@@ -72,9 +73,8 @@ class Search(StoredLog):
 
         self.grid: list[str] = ['' for _ in range(self.size**2)]
 
+        self.questioning: Search.Round|None = None
         self.qmode: str = '?'
-        self.questioning: str = ''
-        self.question_desc: str = ''
 
         self.guesses: dict[str, int] = dict() # TODO keep feedback alongside or use Attempt
         self.rejects: set[str] = set()
@@ -139,7 +139,7 @@ class Search(StoredLog):
             ui.log(f'wordlist: {self.wordlist_file}')
 
         if self.questioning:
-            return self.question
+            return self.do_round(self.questioning)
 
         return self.display
 
@@ -229,7 +229,7 @@ class Search(StoredLog):
                     word, desc = dat
                     assert isinstance(word, str)
                     assert isinstance(desc, str)
-                    _ = self.round(word, desc)(ui)
+                    self.questioning = self.round(word, desc)
                     continue
 
                 match = re.match(r'''(?x)
@@ -239,7 +239,7 @@ class Search(StoredLog):
                 if match:
                     rest, = match.groups()
                     assert rest == ''
-                    self.question_done(ui)
+                    self.questioning = None
                     continue
 
                 match = re.match(r'''(?x)
@@ -932,80 +932,95 @@ class Search(StoredLog):
         ch.prompt.set('*', self.do_choose)
         return ch
 
-    def do_round(self, rnd: PromptUI.State):
-        return state
+    def do_round(self, rnd: 'Search.Round'):
+        def start(ui: PromptUI):
+            ui.log(f'questioning: {json.dumps([rnd.guess, rnd.desc])}')
+            self.questioning = rnd
+            self.qmode = '>' if rnd.guess in self.guesses else '?' # TODO auto N> wen
+            return partial(wrap, st=self.question)
+
+        def wrap(ui: PromptUI, st: PromptUI.State = rnd) -> PromptUI.State:
+            try:
+                nx = st(ui)
+                return partial(wrap, st=nx or st)
+
+            except (EOFError, StopIteration):
+                return fin
+
+        def fin(ui: PromptUI):
+            ui.log('question done')
+            self.qmode = '?'
+            self.questioning = None
+            ui.print('')
+            return self.display
+
+        return wrap
 
     def round(self, guess: str, desc: str = '<unknown>'):
-        return lambda ui: self.ask_question(ui, guess, desc)
+        return self.Round(guess, desc=desc)
 
-    def ask_question(self, ui: PromptUI, word: str, desc: str):
-        word = word.upper()
-        ui.log(f'questioning: {json.dumps([word, desc])}')
-        self.qmode = '>' if word in self.guesses else '?' # TODO auto N> wen
-        self.questioning = word
-        self.question_desc = desc
-        return self.question
-
-    def question_abort(self, ui: PromptUI):
-        self.question_done(ui)
-        ui.print('')
-        return self.display
+    @final
+    class Round:
+        def __init__(self,
+                     guess: str,
+                     desc: str = '<unknown>',
+                     ):
+            self.guess = guess
+            self.desc = desc
 
     def question(self, ui: PromptUI):
-        with ui.catch_state(EOFError, self.question_abort):
-            q = self.qmode
-            word = self.questioning.upper()
-            desc = self.question_desc
-            prompt = f'{word} ( {desc} )' if desc else f'{word}'
-            prompt = f'{prompt} {q} '
+        q = self.qmode
+        word = self.questioning.guess.upper()
+        desc = self.questioning.desc
+        prompt = f'{word} ( {desc} )' if desc else f'{word}'
+        prompt = f'{prompt} {q} '
 
-            word_i = None
-            qim = re.fullmatch(r'(?x) ( \d+ ) >', q)
-            if qim:
-                word_i = int(qim.group(1))-1
-                q = '>'
+        word_i = None
+        qim = re.fullmatch(r'(?x) ( \d+ ) >', q)
+        if qim:
+            word_i = int(qim.group(1))-1
+            q = '>'
 
-            ui.copy(word)
-            self.show(ui)
+        ui.copy(word)
+        self.show(ui)
 
-            with ui.input(prompt) as tokens:
-                if q == '?':
-                    if tokens.empty:
-                        self.question_guess(ui, word)
-                        self.qmode = '>' # TODO: auto N> wen
-                        return
+        with ui.input(prompt) as tokens:
+            if q == '?':
+                if tokens.empty:
+                    self.question_guess(ui, word)
+                    self.qmode = '>' # TODO: auto N> wen
+                    return
 
-                    if tokens.rest.strip() == '!':
-                        self.question_reject(ui, word)
-                        return self.display
-                    if tokens.rest.strip() == '.':
-                        return self.question_guess(ui, word)
-
-                    word_i = ui.tokens.have(r'(\d+):?', lambda m: int(m[1]), default=0) - 1
-                    if 0 <= word_i < self.size:
-                        match = self.re_word_match(ui)
-                        if match:
-                            self.question_guess(ui, word)
-                            if self.proc_re_word_match(ui, word_i, match): word_i += 1
-
-                elif q == '>':
-                    if tokens.empty:
-                        word_i = 0 if word_i is None else word_i+1
-                    else:
-                        i = ui.tokens.have(r'(\d+):?', lambda m: int(m[1]), default=0) - 1
-                        if 0 <= i < self.size:
-                            word_i = i
-                        else: return
-                        if self.proc_re_word(ui, word_i): word_i += 1
-
-                else:
-                    raise RuntimeError(f'invalid qmode:{q!r}')
-
-                if word_i is None: word_i = 0
-                if word_i >= self.size:
-                    self.question_done(ui)
+                if tokens.rest.strip() == '!':
+                    self.question_reject(ui, word)
                     return self.display
-                self.qmode = f'{word_i+1}>'
+                if tokens.rest.strip() == '.':
+                    return self.question_guess(ui, word)
+
+                word_i = ui.tokens.have(r'(\d+):?', lambda m: int(m[1]), default=0) - 1
+                if 0 <= word_i < self.size:
+                    match = self.re_word_match(ui)
+                    if match:
+                        self.question_guess(ui, word)
+                        if self.proc_re_word_match(ui, word_i, match): word_i += 1
+
+            elif q == '>':
+                if tokens.empty:
+                    word_i = 0 if word_i is None else word_i+1
+                else:
+                    i = ui.tokens.have(r'(\d+):?', lambda m: int(m[1]), default=0) - 1
+                    if 0 <= i < self.size:
+                        word_i = i
+                    else: return
+                    if self.proc_re_word(ui, word_i): word_i += 1
+
+            else:
+                raise RuntimeError(f'invalid qmode:{q!r}')
+
+            if word_i is None: word_i = 0
+            if word_i >= self.size:
+                raise StopIteration()
+            self.qmode = f'{word_i+1}>'
 
     def question_guess(self, ui: PromptUI, word: str):
         word = word.upper()
@@ -1018,14 +1033,7 @@ class Search(StoredLog):
         word = word.upper()
         ui.log(f'reject: {word}')
         self.rejects.add(word)
-        self.questioning = ''
-        self.question_desc = ''
-
-    def question_done(self, ui: PromptUI):
-        ui.log('question done')
-        self.qmode = '?'
-        self.questioning = ''
-        self.question_desc = ''
+        self.questioning = None
 
 @dataclass
 class Result:
