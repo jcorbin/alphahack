@@ -1,0 +1,41 @@
+T0.00019114901078864932 now: 2025-07-29T07:24:43EDT
+TD68018 loaded 196553 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (50 words excluded) asof 82c5fd08924e5c47bba1ea63b96631cbbbefec8a
+TDD2259608 [0 : 98234 : 196553] mach? a
+TDD-2326926 progress: 1 98234 mach
+TDD3764071 [98235 : 147395 : 196553] rhumb? b
+TDD-3764469 progress: -1 147395 rhumb
+TDD2329503 [98235 : 122797 : 147395] parr? a
+TDD-2329485 progress: 1 122797 parr
+TDD3206463 [122798 : 135087 : 147395] proper? b
+TDD-3206641 progress: -1 135087 proper
+TDD1664402 [122798 : 128866 : 135087] play? b
+TDD-1664325 progress: -1 128866 play
+TDD1707368 [122798 : 125829 : 128866] petti? b
+TDD-1707312 progress: -1 125829 petti
+TDD1518894 [122798 : 123710 : 125829] pe? a
+TDD-1518918 progress: 1 123710 pe
+TDD1428709 [123711 : 124764 : 125829] per? a
+TDD-1428839 progress: 1 124764 per
+TDD1532852 [124765 : 125247 : 125829] perm? b
+TDD-1532633 progress: -1 125247 perm
+TDD1438644 [124765 : 125001 : 125247] peri? a
+TDD-1438716 progress: 1 125001 peri
+TDD1471816 [125002 : 125124 : 125247] perionychium? a
+TDD-1471849 progress: 1 125124 perionychium
+TDD5507576 [125125 : 125167 : 125247] peris? a
+TDD-5507584 progress: 1 125167 peris
+TDD2414002 [125168 : 125207 : 125247] peritoneums? b
+TDD-2413922 progress: -1 125207 peritoneums
+TDD3727658 [125168 : 125187 : 125207] perisperms? b
+TDD-3727704 progress: -1 125187 perisperms
+TDD2820168 [125168 : 125174 : 125187] perish? it
+TDD-2820133 progress: 0 125174 perish
+TDD-253 [125168 : 125174 : 125187] <Done>.
+TDD2573001 press <Return> to finish
+TDD-2361438 Press <Enter> to 📋 or `>` for line prompt 
+TDD-203079 share result: "\ud83e\udde9 Puzzle #735\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 34s\n\n\ud83d\udd17 alphaguess.com"
+TDD-8447 result puzzle: 735
+TDD-62 result guesses: 16
+TDD-4 result time: 34s
+TDD-2 result link: alphaguess.com
+TDD1139315 📆 2025-07-29 ? 
