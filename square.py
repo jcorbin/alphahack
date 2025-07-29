@@ -584,8 +584,8 @@ class Search(StoredLog):
         ui.log(f'nope: {" ".join(sorted(self.nope))}')
 
     def do_word(self, ui: PromptUI):
-        word_i = self.re_word_i(ui)
-        if word_i is not None:
+        word_i = ui.tokens.have(r'(\d+):?', lambda m: int(m[1]), default=0) - 1
+        if 0 <= word_i < self.size:
             if ui.tokens.rest.strip() == '!':
                 self.forget(ui, word_i)
                 return
@@ -975,8 +975,8 @@ class Search(StoredLog):
                     if tokens.rest.strip() == '.':
                         return self.question_guess(ui, word)
 
-                    word_i = self.re_word_i(ui)
-                    if word_i is not None:
+                    word_i = ui.tokens.have(r'(\d+):?', lambda m: int(m[1]), default=0) - 1
+                    if 0 <= word_i < self.size:
                         match = self.re_word_match(ui)
                         if match:
                             self.question_guess(ui, word)
@@ -986,10 +986,10 @@ class Search(StoredLog):
                     if tokens.empty:
                         word_i = 0 if word_i is None else word_i+1
                     else:
-                        re_word_i = self.re_word_i(ui)
-                        if re_word_i is not None:
-                            word_i = re_word_i
-                        if word_i is None: return
+                        i = ui.tokens.have(r'(\d+):?', lambda m: int(m[1]), default=0) - 1
+                        if 0 <= i < self.size:
+                            word_i = i
+                        else: return
                         if self.proc_re_word(ui, word_i): word_i += 1
 
                 else:
@@ -1000,12 +1000,6 @@ class Search(StoredLog):
                     self.question_done(ui)
                     return self.display
                 self.qmode = f'{word_i+1}>'
-
-    def re_word_i(self, ui: PromptUI):
-        n = ui.tokens.have(r'(\d+):?', lambda m: int(m.group(1)))
-        if n is not None:
-            word_i = n - 1
-            return word_i if 0 <= word_i < self.size else None
 
     def question_guess(self, ui: PromptUI, word: str):
         word = word.upper()
