@@ -1,0 +1,88 @@
+T0.0002405359991826117 now: 2025-07-29T07:33:24EDT
+TD40 site: squareword.org
+TDD18304625 🧩  ? #1275
+TDD-18304289 puzzle_id: #1275
+TDD-337 wordlist: nwl2023.txt
+TDD1408366 > *
+TDD3001020 try? 2
+TDD-4408834 questioning: ["reads", "#5"]
+TDD3288698 #1 _____  📋 "reads" ? _ea_s
+TDD-3288815 attempt 0 READS n Y Y n Y
+TDD1427897 #2 _____  📋 "reads" ? _____
+TDD-1428065 attempt 1 READS n n n n n
+TDD3229726 #3 _____  📋 "reads" ? __a__ ~ es
+TDD-3229519 attempt 2 READS n m Y n m
+TDD2649738 #4 _____  📋 "reads" ? _____ ~ re
+TDD-2649799 attempt 3 READS m m n n n
+TDD2247007 #5 _____  📋 "reads" ? _____ ~ ds
+TDD-2246975 attempt 4 READS n n n m m
+TDD8818244 ? ␚
+TDD-8818576 question done
+TDD647290 > *
+TDD3395543 try? 3
+TDD-4042594 questioning: ["synod", "#5"]
+TDD8640330 #1 _EA_S -DR  📋 "synod" ? .
+TDD-8640470 attempt 0 SYNOD n n n n n
+TDD4045383 #2 _____ -ADERS  📋 "synod" ? ___o_ ~ n
+TDD-4045266 attempt 1 SYNOD n n m Y n
+TDD3381257 #3 __A__ ~ES -DR  📋 "synod" ? s_a__ ~ e
+TDD-3381259 attempt 2 SYNOD Y n n n n
+TDD4404341 #4 _____ ~ER -ADS  📋 "synod" ? _____ ~ re
+TDD-4404560 attempt 3 SYNOD n n n n n
+TDD1930249 #5 _____ ~DS -AER  📋 "synod" ? /it
+TDD-1929839 attempt 4 SYNOD Y Y Y Y Y
+TDD391475 ? 
+TDD-391774 question done
+TDD733039 > *
+TDD2428585 try? 1
+TDD-3161706 questioning: ["ingot", "#2"]
+TDD5438833 #1 _EA_S -DNORSY  📋 "ingot" ? .
+TDD-5438635 attempt 0 INGOT n n n n n
+TDD735735 #2 ___O_ ~N -ADERSY  📋 "ingot" ? /it
+TDD-735851 attempt 1 INGOT Y Y Y Y Y
+TDD4206303 #3 S_A__ ~E -DNORY  📋 "ingot" ? s_a__ ~ et
+TDD-4206132 attempt 2 INGOT n n n n m
+TDD3951017 #4 _____ ~ER -ADNOSY  📋 "ingot" ? _____ ~ reit
+TDD-3951028 attempt 3 INGOT m n n n m
+TDD14319152 ? 
+TDD-14319243 question done
+TDD880921 > *
+TDD2957605 try? 1
+TDD-3838420 questioning: ["stale", "#3"]
+TDD6205387 #1 _EA_S -DGINORSTY  📋 "stale" ? _eals
+TDD-6205215 attempt 0 STALE n n Y Y n
+TDD3649107 #3 S_A__ ~ET -DGINORY  📋 "stale" ? sta_e ~ t
+TDD-3649279 attempt 2 STALE Y Y Y n Y
+TDD3856364 #4 _____ ~EIRT -ADGNOSY  📋 "stale" ? ____e ~ rit
+TDD-3856380 attempt 3 STALE n m n n Y
+TDD1086530 ? 
+TDD-1086639 question done
+TDD1652690 > *
+TDD43435 questioning: ["state", "#3"]
+TDD1254505 #1 _EALS -DEGINORSTY  📋 "state" ? 
+TDD2340589 #1 _EALS -DEGINORSTY  ? .
+TDD-5291177 attempt 0 STATE n n Y n n
+TDD3468796 #3 STA_E -DGILNORY  📋 "state" ? /it
+TDD-3468688 attempt 2 STATE Y Y Y Y Y
+TDD6543512 #4 ____E ~IRT -ADGLNOSY  📋 "state" ? ___te ~ rit
+TDD-6543497 attempt 3 STATE n m n Y Y
+TDD975466 ? 
+TDD-975730 question done
+TDD987900 > *
+TDD368441 questioning: ["trite", "#4"]
+TDD4951153 #1 _EALS -DEGINORSTY  📋 "trite" ? .
+TDD-6307243 attempt 0 TRITE n n n n n
+TDD1045055 #4 ___TE ~IRT -ADGLNOSY  📋 "trite" ? /it
+TDD-1045114 attempt 3 TRITE Y Y Y Y Y
+TDD713679 ? 
+TDD-713919 question done
+TDD526865 > *
+TDD8537168 try? 3
+TDD-9064054 questioning: ["meals", "#1"]
+TDD3601866 #1 _EALS -DEGINORSTY  📋 "meals" ? /it
+TDD-3601823 attempt 0 MEALS Y Y Y Y Y
+TDD2398760 ? 
+TDD-2398726 question done
+TDD3554229 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3549018 result: "squareword.org 1275: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1275"
+TDD218540 📆 2025-07-29 ? 
