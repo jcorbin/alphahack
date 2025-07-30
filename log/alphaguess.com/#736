@@ -1,0 +1,38 @@
+T0.0002051820047199726 now: 2025-07-30T09:03:19EDT
+TD68772 loaded 196553 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (50 words excluded) asof 74524b189d3ed041a8ecb5397cc3e474f85af947
+TDD1718359 [0 : 98234 : 196553] mach? a
+TDD-1786475 progress: 1 98234 mach
+TDD1424495 [98235 : 147395 : 196553] rhumb? a
+TDD-1424838 progress: 1 147395 rhumb
+TDD3335465 [147396 : 171661 : 196553] ta? b
+TDD-3335498 progress: -1 171661 ta
+TDD1490178 [147396 : 159507 : 171661] slop? a
+TDD-1490169 progress: 1 159507 slop
+TDD1549399 [159508 : 165550 : 171661] stick? b
+TDD-1549363 progress: -1 165550 stick
+TDD1527325 [159508 : 162495 : 165550] spec? a
+TDD-1527412 progress: 1 162495 spec
+TDD3695627 [162496 : 164021 : 165550] squab? 
+TDD-3092071 [162496 : 164021 : 165550] squab? a
+TDD-603607 progress: 1 164021 squab
+TDD1634020 [164022 : 164749 : 165550] star? b
+TDD-1633968 progress: -1 164749 star
+TDD1810170 [164022 : 164375 : 164749] stack? b
+TDD-1810198 progress: -1 164375 stack
+TDD1679462 [164022 : 164197 : 164375] squid? b
+TDD-1679462 progress: -1 164197 squid
+TDD1691537 [164022 : 164097 : 164197] squash? a
+TDD-1691437 progress: 1 164097 squash
+TDD1567359 [164098 : 164139 : 164197] squeak? a
+TDD-1567399 progress: 1 164139 squeak
+TDD1910532 [164140 : 164168 : 164197] squeeze? it
+TDD-1910681 progress: 0 164168 squeeze
+TDD-102 [164140 : 164168 : 164197] <Done>.
+TDD2294374 press <Return> to finish
+TDD-2108191 Press <Enter> to 📋 or `>` for line prompt 
+TDD-179169 share result: "\ud83e\udde9 Puzzle #736\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 24s\n\n\ud83d\udd17 alphaguess.com"
+TDD-6975 result puzzle: 736
+TDD-45 result guesses: 13
+TDD-4 result time: 24s
+TDD-1 result link: alphaguess.com
+TDD181048 📆 2025-07-30 ? 
