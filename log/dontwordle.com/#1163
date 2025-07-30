@@ -1,0 +1,64 @@
+T0.00019158798386342824 now: 2025-07-30T09:15:17EDT
+TD35 site: dontwordle.com
+TDD-10 wordlist: nwl2023.txt
+TDD3743718 1> * -bot 10
+TDD-2815543 ? 1
+TDD9673661 📋 "arise" ? nMMnM
+TDD-10601102 tried: ARISE n m m n m
+TDD1491679 2> undo
+TDD-1492218 undo
+TDD3863089 1> *
+TDD-2627986 ? 1
+TDD2583634 📋 "mamba" ? nnnnn
+TDD-3818754 tried: MAMBA n n n n n
+TDD703657 2> *
+TDD721458 ? 1
+TDD3112192 📋 "cocos" ? nnnnn
+TDD-4537282 tried: COCOS n n n n n
+TDD707079 3> *
+TDD477259 ? 1
+TDD2916795 📋 "yukky" ? nnnnn
+TDD-4101085 tried: YUKKY n n n n n
+TDD18482390 4> *
+TDD-12730732 📋 "phpht" ? nnnnn
+TDD-5751708 tried: PHPHT n n n n n
+TDD568707 5> *
+TDD1511852 5> * -sans 
+TDD2940752 ? 1
+TDD797558 📋 "freer" ? nnnYY
+TDD-5818859 tried: FREER n n n Y Y
+TDD1737499 6> * -sans
+TDD891837 ? 1
+TDD2334777 📋 "ender" ? 
+TDD-4071344 ? 
+TDD618071 ? ␚
+TDD-1510956 <EOF>
+TDD1382775 6> 
+TDD-872858 6> 
+TDD-337600 6> 
+TDD479991 6> 
+TDD-501570 6> 
+TDD372509 6> *
+TDD1250731 6> * -sans
+TDD6532521 ? * -sans :v e.*e
+TDD-474317 ? ␚
+TDD-7832217 <EOF>
+TDD6929268 6> * -sans :v e.*e
+TDD19699982 ? ␚
+TDD-26629238 <EOF>
+TDD1574688 6> undo
+TDD-1574604 undo
+TDD6712951 5> * -sans :v i
+TDD-1969915 ? ␚
+TDD-4743121 <EOF>
+TDD5606176 5> * -sans :v i :v e.*e
+TDD-891814 ? 3
+TDD4661995 📋 "grrrl" ? nMnnM
+TDD-9376151 tried: GRRRL n m n n m
+TDD2737928 6> * -sans :v i
+TDD2200576 ? 4
+TDD-576317 📋 "lever" ? MnnYY
+TDD-4362108 tried: LEVER m n n Y Y
+TDD3603558 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3597287 result: "Don't Wordle 1163 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5774\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1326\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c592\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c283\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe816\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe94\nUndos used: 2\n\n  4 words remaining\nx 9 unused letters\n= 36 total score"
+TDD177780 📆 2025-07-30 ? 
