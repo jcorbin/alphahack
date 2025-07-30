@@ -1,0 +1,108 @@
+T0.0002509509795345366 now: 2025-07-30T09:08:27EDT
+TD48 site: squareword.org
+TDD19079281 🧩  ? #1276
+TDD-19078968 puzzle_id: #1276
+TDD-325 wordlist: nwl2023.txt
+TDD2730840 > *
+TDD-911333 try? 1
+TDD-1819254 questioning: ["aides", "#5"]
+TDD5386542 #1 _____  📋 "aides" ? nnnnY ~ s
+TDD-5385980 attempt 0 AIDES n n n n Y
+TDD4259551 #2 _____  📋 "aides" ? a__e_ ~ s
+TDD-4259971 attempt 1 AIDES Y n n Y m
+TDD2598866 #3 _____  📋 "aides" ? _____ ~ a
+TDD-2598888 attempt 2 AIDES m n n n n
+TDD2222820 #4 _____  📋 "aides" ? _____ ~ e
+TDD-2222645 attempt 3 AIDES n n n m n
+TDD2092606 #5 _____  📋 "aides" ? _____ ~ es
+TDD-2092799 attempt 4 AIDES n n n m m
+TDD592712 ? *
+TDD1060534 #6 <IndexError>  📋 "aides" ? 
+TDD-952398 #6 <IndexError>  ? 
+TDD641709 #6 <IndexError>  ? ␚
+TDD-1342771 question done
+TDD1451152 > *
+TDD5156951 try? 2
+TDD-6607753 questioning: ["ashen", "#2"]
+TDD19558868 #1 _____ ~S -ADEI  📋 "ashen" ? ____s ~ s
+TDD-19559088 attempt 0 ASHEN n m n n n
+TDD3067048 #2 A__E_ ~S -DI  📋 "ashen" ? /it
+TDD-3067057 attempt 1 ASHEN Y Y Y Y Y
+TDD2395368 #3 _____ ~A -DEIS  📋 "ashen" ? _____ ~ an
+TDD-2395363 attempt 2 ASHEN m n n n m
+TDD3483241 #4 _____ ~E -ADIS  📋 "ashen" ? _____ ~ e
+TDD-3483217 attempt 3 ASHEN n n n m n
+TDD2450580 #5 _____ ~ES -ADI  📋 "ashen" ? _____ ~ esn
+TDD-2450775 attempt 4 ASHEN n m n m m
+TDD844134 ? 
+TDD-844173 question done
+TDD14348874 > ␚
+TDD-14348806 <EOF>
+TDD949710 <INT>
+TDD-949794 <INT>
+T0.04254106100415811 now: 2025-07-30T09:12:58EDT
+TD14982337 > *
+TDD-12458836 try? 1
+TDD-2522847 questioning: ["stone", "#5"]
+TDD8103958 #1 ____S -ADEHIN  📋 "stone" ? ____S ~ ST
+TDD-8103832 attempt 0 STONE m m n n n
+TDD5774667 #3 _____ ~AN -DEHIS  📋 "stone" ? ___N_ ~ AO
+TDD-5774955 attempt 2 STONE n n m Y n
+TDD3858140 #4 _____ ~E -ADHINS  📋 "stone" ? _____ ~ EO
+TDD-3858280 attempt 3 STONE n n m n m
+TDD3640971 #5 _____ ~ENS -ADHI  📋 "stone" ? S__N_ ~ ET
+TDD-3640692 attempt 4 STONE Y m n Y m
+TDD760216 ? 
+TDD-760400 question done
+TDD3841826 > *
+TDD-851199 try? 1
+TDD-2990765 questioning: ["scent", "#5"]
+TDD9663790 #1 ____S ~T -ADEHINO  📋 "scent" ? ____S ~ ST
+TDD-9663950 attempt 0 SCENT m n n n m
+TDD3735207 #3 ___N_ ~AO -DEHIST  📋 "scent" ? ___N_ ~ AO
+TDD-3734994 attempt 2 SCENT n n n Y n
+TDD2701108 #4 _____ ~EO -ADHINST  📋 "scent" ? _____ ~ EO
+TDD-2700937 attempt 3 SCENT n n m n n
+TDD4228580 #5 S__N_ ~ET -ADHIO  📋 "scent" ? S_ENT
+TDD-4228748 attempt 4 SCENT Y n Y Y Y
+TDD698827 ? 
+TDD-698906 question done
+TDD765380 > *
+TDD-218830 questioning: ["spent", "#5"]
+TDD8588847 #1 ____S ~T -ACDEHINO  📋 "spent" ? ____S ~ ST
+TDD-9135515 attempt 0 SPENT m n n n m
+TDD2728672 #3 ___N_ ~AO -CDEHIST  📋 "spent" ? ___N_ ~ AO
+TDD-2728667 attempt 2 SPENT n n n Y n
+TDD3629020 #4 _____ ~EO -ACDHINST  📋 "spent" ? _____ ~ EO
+TDD-3628855 attempt 3 SPENT n n m n n
+TDD1285843 #5 S_ENT -ACDHIO  📋 "spent" ? /it
+TDD-1285791 attempt 4 SPENT Y Y Y Y Y
+TDD491690 ? 
+TDD-491747 question done
+TDD1006483 > *
+TDD-591815 questioning: ["guano", "#3"]
+TDD8632543 #1 ____S ~T -ACDEHINOP  📋 "guano" ? GU__S ~ ST
+TDD-9046927 attempt 0 GUANO Y Y n n n
+TDD3312310 #3 ___N_ ~AO -CDEHIPST  📋 "guano" ? /it
+TDD-3312563 attempt 2 GUANO Y Y Y Y Y
+TDD2887190 #4 _____ ~EO -ACDHINPST  📋 "guano" ? _____ ~ EO
+TDD-2886897 attempt 3 GUANO n n n n m
+TDD1281712 ? 
+TDD-1282180 question done
+TDD997186 > *
+TDD398777 questioning: ["gusts", "#1"]
+TDD2214145 #1 GU__S ~T -ACDEHINOP  📋 "gusts" ? /it
+TDD-3609953 attempt 0 GUSTS Y Y Y Y Y
+TDD4993060 #4 _____ ~EO -ACDGHINPSTU  📋 "gusts" ? _____ ~ EO
+TDD-4993207 attempt 3 GUSTS n n n n n
+TDD893472 ? 
+TDD-893409 question done
+TDD627134 > *
+TDD351571 questioning: ["error", "#4"]
+TDD2098393 #4 _____ ~EO -ACDGHINPSTU  📋 "error" ? /it
+TDD-3077129 attempt 3 ERROR Y Y Y Y Y
+TDD2068524 ? 
+TDD-2068542 question done
+TDD4535625 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4530157 result: "squareword.org 1276: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1276"
+TDD145248 📆 2025-07-30 ? 
