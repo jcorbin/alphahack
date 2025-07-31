@@ -1,0 +1,54 @@
+T0.0001812370028346777 now: 2025-07-31T08:16:57EDT
+TD39 site: dontwordle.com
+TDD-13 wordlist: nwl2023.txt
+TDD5869174 1> * -bot 10
+TDD-3935948 ? 2
+TDD3488119 📋 "aeons" ? MnnnM
+TDD-5420491 tried: AEONS m n n n m
+TDD1348460 2> undo
+TDD-1349139 undo
+TDD3227206 1> *
+TDD27756 ? 1
+TDD-822508 📋 "motto" ? nnnYn
+TDD-2432359 tried: MOTTO n n n Y n
+TDD892161 2> undo
+TDD-892288 undo
+TDD3633701 1> *
+TDD-1377814 ? 1
+TDD2240533 📋 "feeze" ? nnnnn
+TDD-4496314 tried: FEEZE n n n n n
+TDD650451 2> *
+TDD523421 ? 1
+TDD3347147 📋 "whoop" ? MMnnn
+TDD-4521026 tried: WHOOP m m n n n
+TDD863432 3> undo
+TDD-863611 undo
+TDD2758842 2> *
+TDD-871412 ? 1
+TDD1590785 📋 "onion" ? nnnnn
+TDD-3478122 tried: ONION n n n n n
+TDD1182936 3> *
+TDD-214734 ? 1
+TDD1450383 📋 "vuggy" ? nnnnn
+TDD-2418357 tried: VUGGY n n n n n
+TDD1198451 4> *
+TDD2308557 4> * -sans
+TDD208980 ? 1
+TDD4260373 📋 "kakas" ? nMnnM
+TDD-7976447 tried: KAKAS n m n n m
+TDD2421023 5> * -sans
+TDD6617878 ? YnYnn
+TDD-7245254 ? 1
+TDD1121649 📋 "smarm" ? YnYnn
+TDD-2915206 tried: SMARM Y n Y n n
+TDD691715 6> *
+TDD569339 ? * -sans
+TDD474177 ? ␚
+TDD-1735564 <EOF>
+TDD2257699 6> * -sans
+TDD2989427 ? 1
+TDD646829 📋 "shall" ? YMYnn
+TDD-5893823 tried: SHALL Y m Y n n
+TDD2954230 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2947601 result: "Don't Wordle 1164 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6482\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1835\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c631\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe860\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c20\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c5\nUndos used: 3\n\n  5 words remaining\nx 9 unused letters\n= 45 total score"
+TDD177218 📆 2025-07-31 ? 
