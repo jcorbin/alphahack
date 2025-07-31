@@ -1,0 +1,100 @@
+T0.0002582219894975424 now: 2025-07-31T08:14:00EDT
+TD41 site: squareword.org
+TDD5342127 🧩  ? #1277
+TDD-5341873 puzzle_id: #1277
+TDD-256 wordlist: nwl2023.txt
+TDD2251868 > *
+TDD-292681 try? 2
+TDD-1958709 questioning: ["tesla", "#5"]
+TDD5091306 #1 _____  📋 "tesla" ? _____ ~ sa
+TDD-5091474 attempt 0 TESLA n n m n m
+TDD2713473 #2 _____  📋 "tesla" ? _____ ~ la
+TDD-2713379 attempt 1 TESLA n n n m m
+TDD2264535 #3 _____  📋 "tesla" ? ____a ~ e
+TDD-2264729 attempt 2 TESLA n m n n Y
+TDD3012960 #4 _____  📋 "tesla" ? te___ ~ te
+TDD-3012749 attempt 3 TESLA Y Y n n n
+TDD2724750 #5 _____  📋 "tesla" ? _____ ~ esa
+TDD-2724625 attempt 4 TESLA n m m n m
+TDD631887 ? *
+TDD598373 #6 <IndexError>  📋 "tesla" ? ␚
+TDD-1230778 question done
+TDD943461 > (*
+TDD420349 > *
+TDD5584074 try? 6
+TDD-6947638 questioning: ["arena", "#3"]
+TDD8237057 #1 _____ ~AS -ELT  📋 "arena" ? _____ ~ sar
+TDD-8237017 attempt 0 ARENA m m n n m
+TDD2487283 #2 _____ ~AL -EST  📋 "arena" ? _____ ~ lar
+TDD-2487166 attempt 1 ARENA m m n n m
+TDD3725740 #3 ____A ~E -LST  📋 "arena" ? __e_a
+TDD-3725733 attempt 2 ARENA n n Y n Y
+TDD2663105 #4 TE___ -ALS  📋 "arena" ? te___ ~ ten
+TDD-2663145 attempt 3 ARENA n n m m n
+TDD5447140 #5 _____ ~AES -LT  📋 "arena" ? _r___ ~ esa
+TDD-5447160 attempt 4 ARENA m Y m n m
+TDD951069 ? 
+TDD-951379 question done
+TDD848221 > *
+TDD6366791 try? 2
+TDD-7214768 questioning: ["erase", "#5"]
+TDD3932172 #1 _____ ~ARS -ELNT  📋 "erase" ? __a__ ~ sr
+TDD-3932353 attempt 0 ERASE n m Y m n
+TDD2536703 #2 _____ ~ALR -ENST  📋 "erase" ? .
+TDD-2536575 attempt 1 ERASE n m m n n
+TDD3023587 #3 __E_A -LNRST  📋 "erase" ? .
+TDD-3023528 attempt 2 ERASE n n n n n
+TDD3739031 #4 TE___ ~N -ALRS  📋 "erase" ? te___ ~ ten
+TDD-3739197 attempt 3 ERASE m n n n m
+TDD2282210 #5 _R___ ~AES -LNT  📋 "erase" ? /it
+TDD-2281954 attempt 4 ERASE Y Y Y Y Y
+TDD629806 ? 
+TDD-630068 question done
+TDD1008525 > 
+TDD539695 > *
+TDD-793775 questioning: ["omega", "#3"]
+TDD3558082 #1 __A__ ~RS -ELNT  📋 "omega" ? 
+TDD-1244802 #1 __A__ ~RS -ELNT  ? .
+TDD-3067470 attempt 0 OMEGA n n n n n
+TDD4772504 #2 _____ ~ALR -ENST  📋 "omega" ? _____ ~ larom
+TDD-4772460 attempt 1 OMEGA m m n n m
+TDD1612805 #3 __E_A -AELNRST  📋 "omega" ? /it
+TDD-1612900 attempt 2 OMEGA Y Y Y Y Y
+TDD2646435 #4 TE___ ~N -ALRS  📋 "omega" ? te___ ~ ten
+TDD-2646473 attempt 3 OMEGA n n m n n
+TDD667972 ? 
+TDD-668143 question done
+TDD666798 > *
+TDD818684 questioning: ["moral", "#2"]
+TDD6427175 #1 __A__ ~RS -AEGLMNOT  📋 "moral" ? .
+TDD-7912663 attempt 0 MORAL n n m n n
+TDD816404 #2 _____ ~ALMOR -EGNST  📋 "moral" ? /it
+TDD-816440 attempt 1 MORAL Y Y Y Y Y
+TDD2857234 #4 TE___ ~N -AGLMORS  📋 "moral" ? te___ ~ ten
+TDD-2856941 attempt 3 MORAL n n n n n
+TDD837089 ? 
+TDD-837315 question done
+TDD1426967 > *
+TDD110010 questioning: ["tenet", "#4"]
+TDD8856556 #1 __A__ ~RS -AEGLMNOT  📋 "tenet" ? .
+TDD-10393550 attempt 0 TENET n n n n n
+TDD819371 #4 TE___ ~N -AGLMORS  📋 "tenet" ? /it
+TDD-819015 attempt 3 TENET Y Y Y Y Y
+TDD384898 ? 
+TDD-385012 question done
+TDD650463 > *
+TDD3609894 try? 1
+TDD-4260463 questioning: ["sharp", "#1"]
+TDD3664504 #1 __A__ ~RS -AEGLMNOT  📋 "sharp" ? s_ar_ ~ s
+TDD-3664629 attempt 0 SHARP Y n Y Y n
+TDD1668734 ? 
+TDD-1668600 question done
+TDD581158 > *
+TDD481033 questioning: ["scars", "#1"]
+TDD2652480 #1 S_AR_ -EGHLMNOPT  📋 "scars" ? /it
+TDD-3714544 attempt 0 SCARS Y Y Y Y Y
+TDD981105 ? 
+TDD-981363 question done
+TDD4180665 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4175178 result: "squareword.org 1277: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1277"
+TDD169851 📆 2025-07-31 ? 
