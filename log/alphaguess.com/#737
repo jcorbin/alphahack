@@ -1,0 +1,43 @@
+T0.00022027999511919916 now: 2025-07-31T08:08:56EDT
+TD62987 loaded 196553 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (50 words excluded) asof cb8b7cfb9b8a2042bbdf4bd988c4873a8488bdec
+TDD1829545 [0 : 98234 : 196553] mach? a
+TDD-1891456 progress: 1 98234 mach
+TDD1745294 [98235 : 147395 : 196553] rhumb? b
+TDD-1746086 progress: -1 147395 rhumb
+TDD1770319 [98235 : 122797 : 147395] parr? b
+TDD-1770395 progress: -1 122797 parr
+TDD1886451 [98235 : 109953 : 122797] ne? a
+TDD-1886355 progress: 1 109953 ne
+TDD2082968 [109954 : 116371 : 122797] orchard? b
+TDD-2082994 progress: -1 116371 orchard
+TDD1840168 [109954 : 111503 : 116371] no? b
+TDD-1840216 progress: -1 111503 no
+TDD1755567 [109954 : 110725 : 111503] neuroglia? b
+TDD-1755568 progress: -1 110725 neuroglia
+TDD1644270 [109954 : 110339 : 110725] neoclassic? b
+TDD-1644259 progress: -1 110339 neoclassic
+TDD1650349 [109954 : 110139 : 110339] need? a
+TDD-1650369 progress: 1 110139 need
+TDD1715714 [110140 : 110192 : 110339] neg? a
+TDD-1715752 progress: 1 110192 neg
+TDD1738404 [110193 : 110266 : 110339] negrophobes? b
+TDD-1738284 progress: -1 110266 negrophobes
+TDD1677467 [110193 : 110223 : 110266] neglect? a
+TDD-1677487 progress: 1 110223 neglect
+TDD1691250 [110224 : 110245 : 110266] negligibly? b
+TDD-1691425 progress: -1 110245 negligibly
+TDD1987517 [110224 : 110234 : 110245] neglige? a
+TDD-1987431 progress: 1 110234 neglige
+TDD1803090 [110235 : 110240 : 110245] negligently? b
+TDD-1803053 progress: -1 110240 negligently
+TDD2071888 [110235 : 110237 : 110240] negligence? it
+TDD-2071843 progress: 0 110237 negligence
+TDD-224 [110235 : 110237 : 110240] <Done>.
+TDD3977789 press <Return> to finish
+TDD-3793627 Press <Enter> to 📋 or `>` for line prompt 
+TDD-176072 share result: "\ud83e\udde9 Puzzle #737\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 27s\n\n\ud83d\udd17 alphaguess.com"
+TDD-8050 result puzzle: 737
+TDD-70 result guesses: 16
+TDD-5 result time: 27s
+TDD-1 result link: alphaguess.com
+TDD1414162 📆 2025-07-31 ? 
