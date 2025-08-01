@@ -1,0 +1,68 @@
+T0.00018199201440438628 now: 2025-08-01T10:02:23EDT
+TD37 site: dontwordle.com
+TDD-11 wordlist: nwl2023.txt
+TDD44806432 1> *
+TDD30663721 ? ␚
+TDD-75470049 <EOF>
+TDD12542450 1> * -bot 10
+TDD147841330 ? 10
+TDD-141857783 📋 "arose" ? nnnMn
+TDD-18525346 tried: AROSE n n n m n
+TDD11010350 2> *
+TDD9772978 ? ␚
+TDD-20783981 <EOF>
+TDD2483037 2> * -bot 10
+TDD2243903 ? 4
+TDD2711229 📋 "split" ? YnnMY
+TDD-7438022 tried: SPLIT Y n n m Y
+TDD8251419 3> undo
+TDD-8251505 undo
+TDD1875985 2> undo
+TDD-1875899 undo
+TDD5808177 1> *
+TDD12319294 ? 1
+TDD-11259878 📋 "nanna" ? nnnYn
+TDD-6867595 tried: NANNA n n n Y n
+TDD810558 2> undo
+TDD-810574 undo
+TDD3694462 1> *
+TDD-387715 ? 2
+TDD4117777 📋 "hapax" ? nnnnn
+TDD-7424511 tried: HAPAX n n n n n
+TDD2516801 2> *
+TDD1850511 ? 1
+TDD79901 📋 "yukky" ? nnnnn
+TDD-4447174 tried: YUKKY n n n n n
+TDD1554749 3> *
+TDD253341 ? 1
+TDD2824648 📋 "refer" ? nnnnn
+TDD-4632490 tried: REFER n n n n n
+TDD922089 4> *
+TDD421640 ? 1
+TDD2910748 📋 "doggo" ? nnnnn
+TDD-4254769 tried: DOGGO n n n n n
+TDD1686500 5> *
+TDD10025256 5> * -sans
+TDD19198460 ? * -sans :v [ist]
+TDD-15667806 ? * -sans :v i :v s :v t
+TDD-3479278 ? ␚
+TDD-11763321 <EOF>
+TDD2361231 5> * -sans :v [ist]
+TDD3616427 5> * -sans :v [it]
+TDD-2506899 5> * -sans :v [is]
+TDD11132169 5> * -sans :v [ins]
+TDD-10579460 5> * -sans :v [int
+TDD-505698 5> * -sans :v [int]
+TDD796828 5> * -sans :v [in]
+TDD1681088 5> * -sans :v [nst]
+TDD1994578 ? 1
+TDD-589716 📋 "civic" ? nMnnn
+TDD-7400387 tried: CIVIC n m n n n
+TDD10089283 6> * -sans :v [nst]
+TDD-7861863 6> * -sans
+TDD4516894 ? 1
+TDD749759 📋 "slits" ? YnYMn
+TDD-7494038 tried: SLITS Y n Y m n
+TDD3078388 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3070634 result: "Don't Wordle 1165 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5377\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2865\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c588\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c103\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c25\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c1\nUndos used: 3\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TDD150024 📆 2025-08-01 ? 
