@@ -1,0 +1,97 @@
+T0.00021560495952144265 now: 2025-08-01T09:58:30EDT
+TD39 site: squareword.org
+TDD2226866 🧩  ? #1278
+TDD-2226556 puzzle_id: #1278
+TDD-315 wordlist: nwl2023.txt
+TDD1447673 > *
+TDD2454813 try? ␚
+TDD-3902429 <EOF>
+TDD488651 > *
+TDD2558582 try? "leans"
+TDD-1859291 try? ␚
+TDD-1187946 <EOF>
+TDD1706314 > "leans"
+TDD-2837 > leans
+TDD-1702908 questioning: ["leans", "entered"]
+TDD22239061 #1 _____  📋 "leans" ? __A__ ~ LS
+TDD-22238871 attempt 0 LEANS m n Y n m
+TDD3464562 #2 _____  📋 "leans" ? ___N_ ~ AN
+TDD-3464851 attempt 1 LEANS n n m Y n
+TDD2654889 #3 _____  📋 "leans" ? _____ ~ A
+TDD-2655116 attempt 2 LEANS n n m n n
+TDD5213215 #4 _____  📋 "leans" ? LE___ ~ N
+TDD-5213119 attempt 3 LEANS Y Y n m n
+TDD2903267 #5 _____  📋 "leans" ? ____S ~ E
+TDD-2903244 attempt 4 LEANS n m n n Y
+TDD1135662 ? 
+TDD-1135945 question done
+TDD7941661 > *
+TDD-3825540 try? 3
+TDD-4115934 questioning: ["lemon", "#4"]
+TDD8827497 #1 __A__ ~LS -EN  📋 "lemon" ? .
+TDD-8827505 attempt 0 LEMON m n n n n
+TDD5185299 #2 ___N_ ~A -ELS  📋 "lemon" ? ___N_ ~ AN
+TDD-5185327 attempt 1 LEMON n n n n m
+TDD4481766 #3 _____ ~A -ELNS  📋 "lemon" ? ___O_ ~ AM
+TDD-4481693 attempt 2 LEMON n n m Y n
+TDD2209788 #4 LE___ ~N -AS  📋 "lemon" ? /it
+TDD-2209827 attempt 3 LEMON Y Y Y Y Y
+TDD2820997 #5 ____S ~E -ALN  📋 "lemon" ? 
+TDD629762 #5 ____S ~E -ALN  ? .
+TDD-3450710 attempt 4 LEMON n m n n n
+TDD1014660 ? 
+TDD-1014852 question done
+TDD1219174 > 
+TDD9983273 > *
+TDD-10507961 questioning: ["axiom", "#3"]
+TDD9408680 #1 __A__ ~LS -EMNO  📋 "axiom" ? .
+TDD-10102965 attempt 0 AXIOM n n n n n
+TDD4323714 #2 ___N_ ~A -ELMOS  📋 "axiom" ? ___N_ ~ AN
+TDD-4323549 attempt 1 AXIOM m n n n n
+TDD2033177 #3 ___O_ ~AM -ELNS  📋 "axiom" ? /it
+TDD-2033455 attempt 2 AXIOM Y Y Y Y Y
+TDD1293265 #5 ____S ~E -ALMNO  📋 "axiom" ? .
+TDD-1293172 attempt 4 AXIOM n n n n n
+TDD811171 ? 
+TDD-811354 question done
+TDD1639964 > *
+TDD6424395 try? 2
+TDD-8063829 questioning: ["wanna", "#2"]
+TDD11472023 #1 __A__ ~LS -AEIMNOX  📋 "wanna" ? .
+TDD-11472403 attempt 0 WANNA n n n n n
+TDD2459821 #2 ___N_ ~A -EILMOSX  📋 "wanna" ? _ann_
+TDD-2459751 attempt 1 WANNA n Y Y Y n
+TDD2522260 #5 ____S ~E -AILMNOX  📋 "wanna" ? .
+TDD-2522401 attempt 4 WANNA n n n n n
+TDD572950 ? 
+TDD-572934 question done
+TDD760933 > *
+TDD587744 questioning: ["canny", "#2"]
+TDD3440887 #1 __A__ ~LS -AEIMNOWX  📋 "canny" ? .
+TDD-4789616 attempt 0 CANNY n n n n n
+TDD885755 #2 _ANN_ -EILMOSWX  📋 "canny" ? /it
+TDD-885882 attempt 1 CANNY Y Y Y Y Y
+TDD991146 #5 ____S ~E -AILMNOWX  📋 "canny" ? .
+TDD-990602 attempt 4 CANNY n n n n n
+TDD634716 ? *
+TDD161308 ? 
+TDD-796496 question done
+TDD1247436 > 
+TDD-712201 > *
+TDD1025391 questioning: ["slash", "#1"]
+TDD2060164 #1 __A__ ~LS -ACEIMNOWXY  📋 "slash" ? /it
+TDD-3620708 attempt 0 SLASH Y Y Y Y Y
+TDD2014828 #5 ____S ~E -ACILMNOWXY  📋 "slash" ? .
+TDD-2014663 attempt 4 SLASH n n n n n
+TDD594152 ? 
+TDD-594420 question done
+TDD890996 > *
+TDD3038230 try? 2
+TDD-3929113 questioning: ["preps", "#5"]
+TDD4546938 #5 ____S ~E -ACHILMNOSWXY  📋 "preps" ? /it
+TDD-4546932 attempt 4 PREPS Y Y Y Y Y
+TDD1811196 ? 
+TDD-1811163 question done
+TDD5018124 Press <Enter> to 📋 or `>` for line prompt 
+TDD-5012302 result: "squareword.org 1278: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1278"
+TDD171574 📆 2025-08-01 ? 
