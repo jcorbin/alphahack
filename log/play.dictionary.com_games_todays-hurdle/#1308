@@ -1,0 +1,99 @@
+T0.00020381296053528786 now: 2025-08-01T09:44:16EDT
+TD46 site: https://play.dictionary.com/games/todays-hurdle
+TDD-15 wordlist: nwl2023.txt
+TDD23825474 1.1> ?
+TDD-19431976 1.1> *
+TDD2183714 1.1 ? 8
+TDD3368003 1.1 📋 "lakes" ? nnMnn
+TDD-9944834 tried: LAKES n n m n n
+TDD1603846 1.2> *
+TDD9982890 1.2 ? nnnYY
+TDD-8035446 1.2 ? 4
+TDD-1559140 1.2 📋 "picky" ? nnnYY
+TDD-1992225 tried: PICKY n n n Y Y
+TDD1506808 1.3> *
+TDD6074587 1.3 ? 2
+TDD-3171984 1.3 📋 "forky" ? nnnYY
+TDD-4409376 tried: FORKY n n n Y Y
+TDD928253 1.4> *
+TDD4935429 1.4 ? 1
+TDD-1072508 1.4 📋 "junky" ? nYYYY
+TDD-4791019 tried: JUNKY n Y Y Y Y
+TDD588968 1.5> *
+TDD2270592 1.5 ? 2
+TDD4771029 1.5 📋 "hunky" ? it
+TDD-7630814 tried: HUNKY Y Y Y Y Y
+TDD12063502 2.1 📋 "hunky" ? nnnnn
+TDD-12063424 tried: HUNKY n n n n n
+TDD2225838 2.2> *
+TDD6009272 2.2 ? nnnYM
+TDD-99826 2.2 ? 3
+TDD-4458923 2.2 📋 "tries" ? nnnYM
+TDD-3676486 tried: TRIES n n n Y m
+TDD75759778 <INT>
+T0.042394649994093925 now: 2025-08-01T09:50:12EDT
+TD8541435 2.3> *
+TDD48773008 2.3 ? 7
+TDD-50152122 2.3 📋 "sowed" ? YnnYY
+TDD-7161899 tried: SOWED Y n n Y Y
+TDD2830483 2.4> *
+TDD1049915 2.4 ? 3
+TDD705225 2.4 📋 "saved" ? YnnYY
+TDD-4585841 tried: SAVED Y n n Y Y
+TDD485223 2.5> *
+TDD2033049 2.5 ? 2
+TDD420215 2.5 📋 "speed" ? it
+TDD-2938297 tried: SPEED Y Y Y Y Y
+TDD28091884 3.1 📋 "speed" ? nnnnn
+TDD-28091856 tried: SPEED n n n n n
+TDD509713 3.2> *
+TDD5349236 3.2 ? 1
+TDD-2044517 3.2 📋 "actor" ? MMnnn
+TDD-3814382 tried: ACTOR m m n n n
+TDD10650739 3.3> *
+TDD-8615811 3.3 ? 1
+TDD2263141 3.3 📋 "china" ? MnnnM
+TDD-4298300 tried: CHINA m n n n m
+TDD754638 3.4> *
+TDD1860756 3.4 ? 3
+TDD4759580 3.4 📋 "black" ? nnYYY
+TDD-7374859 tried: BLACK n n Y Y Y
+TDD955653 3.5> *
+TDD4574144 3.5 ? it
+TDD6026852 3.5 ? 1
+TDD-10847508 3.5 📋 "quack" ? it
+TDD-709164 tried: QUACK Y Y Y Y Y
+TDD22334525 4.1 📋 "quack" ? nnMnn
+TDD-22334522 tried: QUACK n n m n n
+TDD2761316 4.2> *
+TDD5853960 4.2 ? 2
+TDD-3132803 4.2 📋 "earns" ? nYnnn
+TDD-5482444 tried: EARNS n Y n n n
+TDD5303416 4.3> *
+TDD-2901610 4.3 ? 2
+TDD8424652 4.3 📋 "daily" ? nYnMn
+TDD-10826351 tried: DAILY n Y n m n
+TDD18376186 4.4> *
+TDD-10919818 4.4 ? 8
+TDD2651493 4.4 📋 "vagal" ? nYnYY
+TDD-10108180 tried: VAGAL n Y n Y Y
+TDD688509 4.5> *
+TDD3558119 4.5 ? 5
+TDD1184528 4.5 📋 "fatal" ? it
+TDD-5431124 tried: FATAL Y Y Y Y Y
+TDD8015543 5.1 📋 "hunky" ? nnnnn
+TDD-8015431 tried: HUNKY n n n n n
+TDD3208436 5.2 📋 "speed" ? nnnYn
+TDD-3208541 tried: SPEED n n n Y n
+TDD2674642 5.3 📋 "quack" ? nnMnn
+TDD-2674452 tried: QUACK n n m n n
+TDD2778801 5.4 📋 "fatal" ? MMYnn
+TDD-2778857 tried: FATAL m m Y n n
+TDD1288438 5.5> *
+TDD4843515 5.5 📋 "after" ? it
+TDD-6131778 tried: AFTER Y Y Y Y Y
+TDD2711105 Press <Enter> to 📋 or `>` for line prompt 
+TDD4025485 Press <Enter> to 📋 or `>` for line prompt 
+TDD-6728717 result: "Hurdle 1308\n\n5/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,500"
+TDD171006 📆 2025-08-01 ? 
+T1.1313833490130492 now: 2025-08-01T09:55:30EDT
