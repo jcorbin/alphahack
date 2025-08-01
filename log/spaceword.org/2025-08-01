@@ -1,0 +1,101 @@
+T3.1990349810221232 now: 2025-08-01T10:14:37EDT
+TD91 site: spaceword.org
+TDD1332906 📜 nwl2023.txt ? 
+TDD-1332780 wordlist: nwl2023.txt
+TDD16243825 🧩  ? daily 20250801
+TDD-16243371 puzzle_id: 2025-08-01
+TDD7017913 num letters (default: 21) ? aaaceef
+TDD-7018208 num_letters: 21
+TDD3894849 letters? aaaceef
+TDD-3894963 letters: |AAACEEF|
+TDD2904504 letters? iijlmoo
+TDD-2904544 letters: |AAACEEFIIJLMOO|
+TDD2615041 letters? rrrtuwx
+TDD-2615073 letters: |AAACEEFIIJLMOORRRTUWX|
+TDD693705 letters. 
+TDD98443 [doit:100]> /sea
+TDD1270517 search 036763 [ 1 ]> cap 800
+TDD-1461851 search 036763 [ 1 cap:800 ]> **
+TDD76599431 search 036763 [ 800 cap:800 may:4795 dead:15 done:8 prune:38 ]> show done
+TDD-70518745 search 036763 [ 800 cap:800 may:4795 dead:15 done:8 prune:38 ]> show 1
+TDD82001085 search 036763 [ 800 cap:800 may:4795 dead:15 done:8 prune:38 ]> ret
+TDD-88681999 change: 21 J
+TDD-735 change: 22 U
+TDD-23 change: 23 C
+TDD-4 change: 24 O
+TDD-1 change: 33 A
+TDD0 change: 43 M
+TDD0 change: 53 E
+TDD0 change: 57 F
+TDD0 change: 62 O
+TDD0 change: 63 R
+TDD-1 change: 64 A
+TDD2 change: 65 T
+TDD0 change: 66 R
+TDD-1 change: 67 I
+TDD1 change: 68 X
+TDD0 change: 72 W
+TDD0 change: 73 A
+TDD0 change: 74 L
+TDD0 change: 75 I
+TDD0 change: 76 E
+TDD0 change: 77 R
+TDD78662959 [doit:2152]> /res
+TDD-78431396 Press <Enter> to 📋 or `>` for line prompt 
+TDD-223639 result: "\u2728 Spaceword.org Daily 2025-08-01 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 172/239 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD15412182 [prior:2152]> /sea
+TDD-12840849 search a8f1b0 [ 1 ]> cap 1600
+TDD-1094494 search a8f1b0 [ 1 cap:1600 ]> **
+TDD389937 Z LUK}~MVeuf0sc_(3U!7jB1DVH7tR8?2kdtLAjgm(Pmn{y9eqgK*#H0l0RR6
+TDD-300910 Z 8iY;)00030{{
+TDD1525099 Z 8iY;)00030{{
+TDD-3098796 Z qR>gcIITw{J<{gC6%+sf00960
+TDD24317804 search a8f1b0 [ 1599 cap:1600 may:3354 prune:1762 reject:2 done:3 dead:10 ]> show reject
+TDD-18578324 search a8f1b0 [ 1599 cap:1600 may:3354 prune:1762 reject:2 done:3 dead:10 ]> show done
+TDD-488931 search a8f1b0 [ 1599 cap:1600 may:3354 prune:1762 reject:2 done:3 dead:10 ]> show 3
+TDD-919588 search a8f1b0 [ 1599 cap:1600 may:3354 prune:1762 reject:2 done:3 dead:10 ]> ret
+TDD-4330312 change: 35 
+TDD-704 change: 21 
+TDD-22 change: 35 
+TDD-3 change: 22 
+TDD-3 change: 35 
+TDD0 change: 23 
+TDD15 change: 35 C
+TDD-9 change: 24 
+TDD-9 change: 33 J
+TDD-2 change: 43 O
+TDD6 change: 63 A
+TDD1 change: 53 R
+TDD-4 change: 67 
+TDD2 change: 57 I
+TDD-2 change: 72 
+TDD2 change: 62 W
+TDD-3 change: 74 
+TDD1 change: 64 L
+TDD0 change: 75 E
+TDD0 change: 65 I
+TDD-2 change: 76 
+TDD1 change: 66 E
+TDD-7 change: 67 R
+TDD0 change: 72 
+TDD3 change: 68 
+TDD-3 change: 72 
+TDD13 change: 72 
+TDD-12 change: 73 M
+TDD0 change: 74 
+TDD0 change: 74 
+TDD0 change: 76 
+TDD0 change: 76 
+TDD2 change: 37 F
+TDD6 change: 77 
+TDD-9 change: 45 U
+TDD-1 change: 47 A
+TDD0 change: 52 O
+TDD0 change: 54 A
+TDD0 change: 55 T
+TDD0 change: 56 R
+TDD0 change: 58 X
+TDD49369168 [prior:2152 bet:2165]> /res
+TDD-48947173 Press <Enter> to 📋 or `>` for line prompt 
+TDD-413807 result: "\u2728 Spaceword.org Daily 2025-08-01 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 101/239 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD843134 [prior:2165]> /store
