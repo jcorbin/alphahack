@@ -1,0 +1,39 @@
+T0.00021015998208895326 now: 2025-08-01T09:42:17EDT
+TD66870 loaded 196553 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (50 words excluded) asof a59a3faa367ca7bc04a91515699a64b8ea21a089
+TDD18208081 [0 : 98234 : 196553] mach? a
+TDD-18274385 progress: 1 98234 mach
+TDD1841387 [98235 : 147395 : 196553] rhumb? b
+TDD-1841698 progress: -1 147395 rhumb
+TDD2158395 [98235 : 122797 : 147395] parr? a
+TDD-2158443 progress: 1 122797 parr
+TDD1911231 [122798 : 135087 : 147395] proper? b
+TDD-1911258 progress: -1 135087 proper
+TDD1895365 [122798 : 128866 : 135087] play? b
+TDD-1895286 progress: -1 128866 play
+TDD1977707 [122798 : 125829 : 128866] petti? b
+TDD-1977772 progress: -1 125829 petti
+TDD1662252 [122798 : 123710 : 125829] pe? b
+TDD-1662019 progress: -1 123710 pe
+TDD1556097 [122798 : 123145 : 123710] past? b
+TDD-1556211 progress: -1 123145 past
+TDD1642973 [122798 : 122858 : 123145] part? a
+TDD-1643077 progress: 1 122858 part
+TDD1699970 [122859 : 123000 : 123145] parve? b
+TDD-1699990 progress: -1 123000 parve
+TDD1469473 [122859 : 122913 : 123000] particular? a
+TDD-1469412 progress: 1 122913 particular
+TDD1679788 [122914 : 122956 : 123000] partitive? a
+TDD-1679875 progress: 1 122956 partitive
+TDD1849578 [122957 : 122975 : 123000] partridge? b
+TDD-1849475 progress: -1 122975 partridge
+TDD1872653 [122957 : 122964 : 122975] partner? it
+TDD-1872703 progress: 0 122964 partner
+TDD-172 [122957 : 122964 : 122975] <Done>.
+TDD2704737 press <Return> to finish
+TDD-2496267 Press <Enter> to 📋 or `>` for line prompt 
+TDD-202520 share result: "\ud83e\udde9 Puzzle #738\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5930 result puzzle: 738
+TDD-40 result guesses: 14
+TDD-6 result time: 23s
+TDD-1 result link: alphaguess.com
+TDD200543 📆 2025-08-01 ? 
