@@ -173,13 +173,13 @@ class Search(StoredLog):
         return f'{word_n}.{word_m}'
 
     def display_mess(self, ui: PromptUI):
-        pfx = self.prompt_prefix()
         if self.prompt.re == 0:
-            for m, at in enumerate(self.tried, 1):
-                ui.print(f'{pfx}: {at}')
             if self.word:
                 ui.print(f'Word: {self.word}')
-        return f'{pfx}> '
+            word_n = len(self.words) + 1
+            for m, at in enumerate(self.tried, 1):
+                ui.print(f'{word_n}.{m}: {at}')
+        return f'{self.prompt_prefix()}> '
 
     def display(self, ui: PromptUI):
         if self.run_done or len(self.words) >= self.size:
