@@ -1667,6 +1667,12 @@ class SpaceWord(StoredLog):
     def cmd_search(self, ui: PromptUI):
         '''
         start a search session
+        usage: /search [-cap <NUMBER>] [-clear]
+
+        -cap will sets a limit on frontier size
+        -clear will clear the seed board
+
+        if -cap was given, search starts automatically
         '''
         h = hashlib.sha256(f'{self.start} + {ui.time.now}'.encode())
         sid = self.make_sid(h.hexdigest())
@@ -1690,7 +1696,7 @@ class SpaceWord(StoredLog):
                 return True
             return False
 
-        return Search(
+        srch = Search(
             sid,
             self.board,
             self.wordlist,
@@ -1701,6 +1707,19 @@ class SpaceWord(StoredLog):
                 ('rejects', self.browse_reject_boards),
             ),
         )
+
+        opts = ui.Dispatcher({
+            '-cap': srch.do_cap,
+            '-clear': srch.do_clear,
+            # TODO '-import': srch.do_import,  XXX but limited to only consume one token
+            # TODO -no-reject
+        })
+        try:
+            opts.dispatch_all(ui)
+        except (EOFError, StopIteration):
+            return
+
+        return srch.do_auto if srch.frontier_cap else srch
 
     def cmd_shift(self, ui: PromptUI):
         '''
