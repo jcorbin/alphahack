@@ -482,13 +482,15 @@ class PromptUI:
             else:
                 ui.print(f'ambiguous command; may be: {" ".join(repr(s) for s in maybe)}')
 
-        def dispatch(self, ui: 'PromptUI') -> State|None:
+        def dispatch(self,
+                     ui: 'PromptUI',
+                     dflt: State|None = lambda ui: ui.print(f'! invalid command {next(ui.tokens)!r}; maybe ask for /help ?'),
+                     ) -> State|None:
             if ui.tokens.have(r'/help|\?+'):
                 return self.do_help
 
             token = ui.tokens.peek()
             slurp: State|None = None
-            dflt: State|None = None
             only: State|None = None
             maybe: list[str] = []
             for name, then in zip(self.names, self.thens):
@@ -509,10 +511,7 @@ class PromptUI:
                 return only
             if maybe:
                 return lambda ui: ui.print(f'! ambiguous command {token!r}; may be: {" ".join(repr(s) for s in maybe)}')
-            if dflt is not None:
-                return dflt
-            if ui.tokens:
-                return lambda ui: ui.print(f'! invalid command {token!r}; maybe ask for /help ?')
+            return dflt
 
         def handle(self, ui: 'PromptUI'):
             st = self.dispatch(ui)
