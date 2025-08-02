@@ -1,0 +1,89 @@
+T0.00020292302360758185 now: 2025-08-02T07:59:57EDT
+TD37 site: squareword.org
+TDD2929414 🧩  ? #1279
+TDD-2929026 puzzle_id: #1279
+TDD-388 wordlist: nwl2023.txt
+TDD971287 > *
+TDD2194912 try? 3
+TDD-3165913 questioning: ["scare", "#5"]
+TDD6551069 #1 _____  📋 "scare" ? S____ ~ A
+TDD-6550416 attempt 0 SCARE Y n m n n
+TDD4247157 #2 _____  📋 "scare" ? ____E ~ A
+TDD-4247943 attempt 1 SCARE n n m n Y
+TDD3225705 #3 _____  📋 "scare" ? _____ ~ SRE
+TDD-3225374 attempt 2 SCARE m n n m m
+TDD3005394 #4 _____  📋 "scare" ? S____ ~ AE
+TDD-3005598 attempt 3 SCARE Y n m n m
+TDD2725227 #5 _____  📋 "scare" ? _____ ~ SRE
+TDD-2725129 attempt 4 SCARE m n n m m
+TDD1283359 ? 
+TDD-1283643 question done
+TDD652901 > *
+TDD3047712 try? 2
+TDD-3700351 questioning: ["dries", "#3"]
+TDD5557066 #1 S____ ~A -CER  📋 "dries" ? .
+TDD-5557167 attempt 0 DRIES n n n n n
+TDD1910878 #2 ____E ~A -CRS  📋 "dries" ? .
+TDD-1911042 attempt 1 DRIES n n n n n
+TDD5640244 #3 _____ ~ERS -AC  📋 "dries" ? ___E_ ~ SR
+TDD-5640076 attempt 2 DRIES n m n Y m
+TDD3112390 #4 S____ ~AE -CR  📋 "dries" ? .
+TDD-3112531 attempt 3 DRIES n n n m n
+TDD3724938 #5 _____ ~ERS -AC  📋 "dries" ? ____S ~ RED
+TDD-3724629 attempt 4 DRIES m m n m Y
+TDD649913 ? 
+TDD-650266 question done
+TDD728252 > *
+TDD-43216 questioning: ["herds", "#5"]
+TDD6256959 #1 S____ ~A -CDEIRS  📋 "herds" ? 
+TDD-5205111 #1 S____ ~A -CDEIRS  ? .
+TDD-1736466 attempt 0 HERDS n n n n n
+TDD3882599 #2 ____E ~A -CDEIRS  📋 "herds" ? ____E ~ AH
+TDD-3883002 attempt 1 HERDS m n n n n
+TDD7276993 #3 ___E_ ~RS -ACDI  📋 "herds" ? ___E_ ~ SRH
+TDD-7276720 attempt 2 HERDS m n m n m
+TDD4362702 #4 S____ ~AE -CDIRS  📋 "herds" ? S____ ~ AE
+TDD-4362697 attempt 3 HERDS n m n n n
+TDD1194617 #5 ____S ~DER -ACI  📋 "herds" ? /it
+TDD-1194707 attempt 4 HERDS Y Y Y Y Y
+TDD381673 ? 
+TDD-381800 question done
+TDD8464736 > *
+TDD-7661563 questioning: ["lathe", "#2"]
+TDD7066643 #1 S____ ~A -CDEHIRS  📋 "lathe" ? S____ ~ AT
+TDD-7869565 attempt 0 LATHE n m m n n
+TDD823710 #2 ____E ~AH -CDEIRS  📋 "lathe" ? /it
+TDD-823691 attempt 1 LATHE Y Y Y Y Y
+TDD4307493 #3 ___E_ ~HRS -ACDEI  📋 "lathe" ? .
+TDD-4307591 attempt 2 LATHE n n n m n
+TDD3669099 #4 S____ ~AE -CDHIRS  📋 "lathe" ? S____ ~ AET
+TDD-3669195 attempt 3 LATHE n m m n m
+TDD521487 ? 
+TDD-521478 question done
+TDD933907 > *
+TDD537482 questioning: ["stoat", "#1"]
+TDD3875989 #1 S____ ~AT -CDEHILRS  📋 "stoat" ? /it
+TDD-5347512 attempt 0 STOAT Y Y Y Y Y
+TDD5251766 #3 ___E_ ~HRS -ACDEILT  📋 "stoat" ? .
+TDD-5251600 attempt 2 STOAT m n n n n
+TDD3082861 #4 S____ ~AET -CDHILRS  📋 "stoat" ? ST_A_ ~ E
+TDD-3082693 attempt 3 STOAT Y Y n Y n
+TDD586879 ? 
+TDD-587073 question done
+TDD1068395 > *
+TDD530959 questioning: ["usher", "#3"]
+TDD2074355 #3 ___E_ ~HRS -ACDEILOT  📋 "usher" ? /it
+TDD-3673570 attempt 2 USHER Y Y Y Y Y
+TDD1865969 #4 ST_A_ ~E -CDHILOR  📋 "usher" ? .
+TDD-1866039 attempt 3 USHER n n n m n
+TDD627522 ? 
+TDD-627765 question done
+TDD636233 > *
+TDD458644 questioning: ["steam", "#4"]
+TDD2748902 #4 ST_A_ ~E -CDHILORSU  📋 "steam" ? /it
+TDD-3843414 attempt 3 STEAM Y Y Y Y Y
+TDD18235859 ? 
+TDD-18236017 question done
+TDD8926107 Press <Enter> to 📋 or `>` for line prompt 
+TDD-8923831 result: "squareword.org 1279: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1279"
+TDD208502 📆 2025-08-02 ? 
