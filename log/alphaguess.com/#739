@@ -1,0 +1,39 @@
+T0.00023538002278655767 now: 2025-08-02T07:53:30EDT
+TD72013 loaded 196553 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (50 words excluded) asof f1d127771ddfd2b57da250f650d7ce78299f5645
+TDD4879010 [0 : 98234 : 196553] mach? b
+TDD-4950322 progress: -1 98234 mach
+TDD2231515 [0 : 47395 : 98234] dis? b
+TDD-2232001 progress: -1 47395 dis
+TDD1692171 [0 : 23581 : 47395] cam? a
+TDD-1692192 progress: 1 23581 cam
+TDD1712134 [23582 : 33713 : 47395] con? b
+TDD-1712022 progress: -1 33713 con
+TDD1621800 [23582 : 28647 : 33713] chloroform? b
+TDD-1621882 progress: -1 28647 chloroform
+TDD1552479 [23582 : 26111 : 28647] cautious? a
+TDD-1552483 progress: 1 26111 cautious
+TDD2001427 [26112 : 27345 : 28647] char? a
+TDD-2001466 progress: 1 27345 char
+TDD1836810 [27346 : 27993 : 28647] cherub? b
+TDD-1836780 progress: -1 27993 cherub
+TDD1535456 [27346 : 27664 : 27993] cheap? a
+TDD-1535452 progress: 1 27664 cheap
+TDD1542647 [27665 : 27817 : 27993] cheese? b
+TDD-1542629 progress: -1 27817 cheese
+TDD1476018 [27665 : 27700 : 27817] check? a
+TDD-1476038 progress: 1 27700 check
+TDD1525923 [27701 : 27759 : 27817] chedites? a
+TDD-1525875 progress: 1 27759 chedites
+TDD1515181 [27760 : 27783 : 27817] cheer? b
+TDD-1515191 progress: -1 27783 cheer
+TDD2472031 [27760 : 27762 : 27783] cheek? it
+TDD-2472183 progress: 0 27762 cheek
+TDD-84 [27760 : 27762 : 27783] <Done>.
+TDD2806306 press <Return> to finish
+TDD-2605950 Press <Enter> to 📋 or `>` for line prompt 
+TDD-193615 share result: "\ud83e\udde9 Puzzle #739\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"
+TDD-6701 result puzzle: 739
+TDD-32 result guesses: 14
+TDD-5 result time: 22s
+TDD-1 result link: alphaguess.com
+TDD1010460 📆 2025-08-02 ? 
