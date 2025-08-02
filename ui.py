@@ -513,6 +513,38 @@ class PromptUI:
                 return lambda ui: ui.print(f'! ambiguous command {token!r}; may be: {" ".join(repr(s) for s in maybe)}')
             return dflt
 
+        def dispatch_all(self, ui: 'PromptUI'):
+            do_help = False
+            cont: list[PromptUI.State] = []
+            while ui.tokens:
+                if ui.tokens.have(r'/help|\?+'):
+                    do_help = True
+                    continue
+                st = self.dispatch(ui, dflt=None)
+                if st:
+                    st = st(ui)
+                    if st:
+                        cont.append(st)
+                elif ui.tokens:
+                    ui.print(f'! unrecognized token {next(ui.tokens)!r} ; try /help')
+                    return
+                else:
+                    break
+
+            if do_help:
+                self.do_help(ui)
+                raise StopIteration()
+
+            for st in cont:
+                try:
+                    # TODO this is the (only? first?)) one-shot state execution
+                    #      loop; is that okay?'should we make that more of a
+                    #      thing separate from Dispatcher?
+                    while st:
+                        st = st(ui)
+                except (EOFError, StopIteration):
+                    continue
+
         def handle(self, ui: 'PromptUI'):
             st = self.dispatch(ui)
             if st is not None:
