@@ -1,0 +1,53 @@
+T0.0001908450503833592 now: 2025-08-02T08:03:40EDT
+TD37 site: dontwordle.com
+TDD-10 wordlist: nwl2023.txt
+TDD10813891 1> * -bot 10
+TDD-3177542 ? 6
+TDD-965694 📋 "arles" ? nnMMn
+TDD-6669911 tried: ARLES n n m m n
+TDD1322654 2> undo
+TDD-1323217 undo
+TDD3301228 1> *
+TDD1640864 ? nnnnn
+TDD-3847438 ? 1
+TDD-38741 📋 "babka" ? nnnnn
+TDD-1055752 tried: BABKA n n n n n
+TDD504635 2> *
+TDD1139482 ? 1
+TDD2092440 📋 "duddy" ? nnnnn
+TDD-3736703 tried: DUDDY n n n n n
+TDD741923 3> *
+TDD1209870 ? 1
+TDD3397028 📋 "onion" ? nnYnn
+TDD-5348862 tried: ONION n n Y n n
+TDD1087557 4> undo
+TDD-1087564 undo
+TDD4685386 3> *
+TDD3002631 ? 1
+TDD-6599988 📋 "vroom" ? nnnnn
+TDD-1087868 tried: VROOM n n n n n
+TDD514205 4> *
+TDD7787286 📋 "phpht" ? nYnnn
+TDD-8301477 tried: PHPHT n Y n n n
+TDD1165506 5> undo
+TDD-1165592 undo
+TDD3251771 4> *
+TDD599025 4> * -sans :v [ehi]
+TDD189811 4> * -sans :v [ehl]
+TDD-2382503 ? ␚
+TDD-1658243 <EOF>
+TDD5264983 4> * -sans :v [ehl] -top 10
+TDD-3609385 ? 1
+TDD5196437 📋 "ictic" ? Mnnnn
+TDD-6851937 tried: ICTIC m n n n n
+TDD5634812 5> * -sans :v [ehl] -top 10
+TDD-3396738 ? 1
+TDD3877983 📋 "wisps" ? YMnnn
+TDD-6115991 tried: WISPS Y m n n n
+TDD1299948 6> * -sans
+TDD6307194 ? 2
+TDD2001988 📋 "whine" ? YYYnY
+TDD-9609189 tried: WHINE Y Y Y n Y
+TDD2663639 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2657118 result: "Don't Wordle 1166 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5942\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2915\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c768\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c175\n\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\u2b1c6\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TDD314053 📆 2025-08-02 ? 
