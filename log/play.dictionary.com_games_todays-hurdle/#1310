@@ -1,0 +1,56 @@
+T0.00018922501476481557 now: 2025-08-03T08:22:07EDT
+TD45 site: https://play.dictionary.com/games/todays-hurdle
+TDD-16 wordlist: nwl2023.txt
+TDD42845724 1.1> *
+TDD-40696822 1.1 ? 2
+TDD12876357 1.1 📋 "steal" ? nnnMn
+TDD-15024431 tried: STEAL n n n m n
+TDD841453 1.2> *
+TDD1611367 1.2 ? 1
+TDD2318251 1.2 📋 "nadir" ? nYnnn
+TDD-4771773 tried: NADIR n Y n n n
+TDD542947 1.3> *
+TDD4655498 1.3 ? 7
+TDD-681938 1.3 📋 "wacko" ? nYYnY
+TDD-4516293 tried: WACKO n Y Y n Y
+TDD568181 1.4> *
+TDD3528323 1.4 📋 "macho" ? it
+TDD-4096749 tried: MACHO Y Y Y Y Y
+TDD8445273 2.1 📋 "macho" ? nMMnM
+TDD-8445109 tried: MACHO n m m n m
+TDD537430 2.2> *
+TDD1342018 2.2 ? 1
+TDD3977275 2.2 📋 "actor" ? YYnMM
+TDD-5856820 tried: ACTOR Y Y n m m
+TDD606970 2.3> *
+TDD2406722 2.3 📋 "acorn" ? it
+TDD-3013558 tried: ACORN Y Y Y Y Y
+TDD10590651 3.1 📋 "acorn" ? MnnMn
+TDD-10590668 tried: ACORN m n n m n
+TDD753548 3.2> *
+TDD1637570 3.2 ? 2
+TDD3863887 3.2 📋 "saber" ? nYnYY
+TDD-6255046 tried: SABER n Y n Y Y
+TDD3053870 3.3> *
+TDD-1414587 3.3 ? 1
+TDD3957424 3.3 📋 "taper" ? nYMYY
+TDD-5596552 tried: TAPER n Y m Y Y
+TDD819790 3.4> *
+TDD1763215 3.4 ? 3
+TDD792410 3.4 📋 "paver" ? YYnYY
+TDD-3375441 tried: PAVER Y Y n Y Y
+TDD882885 3.5> *
+TDD2420319 3.5 ? 3
+TDD867943 3.5 📋 "pager" ? YYnYY
+TDD-4171221 tried: PAGER Y Y n Y Y
+TDD520734 3.6> *
+TDD3150315 3.6 ? 2
+TDD2666565 3.6 📋 "payer" ? YYnYY
+TDD-6337679 tried: PAYER Y Y n Y Y
+TDD1145912 3.7> fail
+TDD2828182 3.7> /fail
+TDD-1190207 3.7> fail parer
+TDD-2783956 fail: PARER
+TDD4306974 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4296143 result: "Hurdle 1310\n\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nX/6\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\nscore: 2,580"
+TDD152054 📆 2025-08-03 ? 
