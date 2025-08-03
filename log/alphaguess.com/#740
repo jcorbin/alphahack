@@ -1,0 +1,39 @@
+T0.0004014219739474356 now: 2025-08-03T08:21:31EDT
+TD64375 loaded 196553 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (50 words excluded) asof d1aea7c09c95ba9654d0a945d6825c2ca75354dd
+TDD4039297 [0 : 98234 : 196553] mach? a
+TDD-4103103 progress: 1 98234 mach
+TDD3282684 [98235 : 147395 : 196553] rhumb? a
+TDD-3282991 progress: 1 147395 rhumb
+TDD1922713 [147396 : 171661 : 196553] ta? b
+TDD-1922719 progress: -1 171661 ta
+TDD1899932 [147396 : 159507 : 171661] slop? b
+TDD-1899856 progress: -1 159507 slop
+TDD1855827 [147396 : 153339 : 159507] sea? b
+TDD-1855973 progress: -1 153339 sea
+TDD1528397 [147396 : 150361 : 153339] sallow? a
+TDD-1528335 progress: 1 150361 sallow
+TDD1580649 [150362 : 151836 : 153339] scar? b
+TDD-1580641 progress: -1 151836 scar
+TDD1516823 [150362 : 151099 : 151836] sarcoma? a
+TDD-1516800 progress: 1 151099 sarcoma
+TDD1571051 [151100 : 151468 : 151836] savate? b
+TDD-1571036 progress: -1 151468 savate
+TDD1729010 [151100 : 151276 : 151468] satin? a
+TDD-1728866 progress: 1 151276 satin
+TDD1385334 [151277 : 151372 : 151468] sau? a
+TDD-1385487 progress: 1 151372 sau
+TDD1422826 [151373 : 151415 : 151468] saunter? b
+TDD-1422914 progress: -1 151415 saunter
+TDD1485967 [151373 : 151394 : 151415] sauciness? b
+TDD-1485988 progress: -1 151394 sauciness
+TDD1727872 [151373 : 151384 : 151394] saucer? it
+TDD-1727833 progress: 0 151384 saucer
+TDD-175 [151373 : 151384 : 151394] <Done>.
+TDD2537315 press <Return> to finish
+TDD-2346061 Press <Enter> to 📋 or `>` for line prompt 
+TDD-184217 share result: "\ud83e\udde9 Puzzle #740\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"
+TDD-6995 result puzzle: 740
+TDD-48 result guesses: 14
+TDD-21 result time: 23s
+TDD-1 result link: alphaguess.com
+TDD178269 📆 2025-08-03 ? 
