@@ -1,0 +1,49 @@
+T0.00017870101146399975 now: 2025-08-03T08:28:53EDT
+TD40 site: dontwordle.com
+TDD-13 wordlist: nwl2023.txt
+TDD4692562 1> * -bot 10
+TDD-2461414 ? 3
+TDD10176851 📋 "nears" ? nYMnn
+TDD-12407125 tried: NEARS n Y m n n
+TDD1152458 2> undo
+TDD-1153104 undo
+TDD4263450 1> *
+TDD-2001998 ? 1
+TDD5121884 📋 "motto" ? nnMnn
+TDD-7383288 tried: MOTTO n n m n n
+TDD766742 2> undo
+TDD-766834 undo
+TDD2935349 1> *
+TDD-1211636 ? 1
+TDD2603862 📋 "kibbi" ? nnMnn
+TDD-4327513 tried: KIBBI n n m n n
+TDD874070 2> undo
+TDD-874159 undo
+TDD3223760 1> *
+TDD-761676 ? 2
+TDD4475270 📋 "xylol" ? nnnnn
+TDD-6937323 tried: XYLOL n n n n n
+TDD1535731 2> *
+TDD513315 ? 2
+TDD2344392 📋 "pumps" ? nnnnn
+TDD-4393361 tried: PUMPS n n n n n
+TDD954632 3> *
+TDD1085032 ? 1
+TDD2660678 📋 "kinin" ? nnnnn
+TDD-4700449 tried: KININ n n n n n
+TDD817595 4> *
+TDD4140468 4> * -sans :v [abe]
+TDD2402175 📋 "crwth" ? nnnMn
+TDD-7360128 tried: CRWTH n n n m n
+TDD654494 5> *
+TDD4062702 5> * -sans
+TDD11772 ? 2
+TDD3113393 📋 "tazza" ? MMnnn
+TDD-7842347 tried: TAZZA m m n n n
+TDD1351621 6> * -sans
+TDD6529194 ? 3
+TDD200198 📋 "defat" ? nYnYY
+TDD-8081096 tried: DEFAT n Y n Y Y
+TDD2860716 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2853294 result: "Don't Wordle 1167 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5531\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1420\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c468\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c17\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c3\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 5 unused letters\n= 5 total score"
+TDD150717 📆 2025-08-03 ? 
