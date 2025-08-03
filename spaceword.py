@@ -11,6 +11,7 @@ from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from dateutil.tz import gettz
+from functools import partial
 from itertools import batched, chain, combinations, islice, repeat
 from typing import Callable, Literal, Never, Self, cast, final, override
 
@@ -1155,17 +1156,22 @@ class SpaceWord(StoredLog):
         for line in self.board.show_grid(head=None, foot=None):
             yield f'    {line}'
 
-    def prior_result_boards(self):
+    def prior_log_lines(self, ui: PromptUI):
+        for _n, _t, _z, line in self.parse_log(
+            warn=lambda mess: ui.print(f'! parse log {mess}')):
+            yield line
+
+    def prior_result_boards(self, ui: PromptUI):
         board = Board(self.board.size)
-        for _n, _t, _z, line in self.parse_log():
+        for line in self.prior_log_lines(ui):
             if board.load_line(line):
                 # TODO maybe examine intermediate boards
                 continue
             if re.match(r'(?x) result :', line):
                 yield board
 
-    def prior_reject_bones(self):
-        for _n, _t, _z, line in self.parse_log():
+    def prior_reject_bones(self, ui: PromptUI):
+        for line in self.prior_log_lines(ui):
             match = re.match(r'''(?x)
                 reject
                 \s+
@@ -1178,12 +1184,12 @@ class SpaceWord(StoredLog):
                 bone = match[2]
                 yield sid, bone
 
-    def prior_reject_sids(self):
-        for sid, _ in self.prior_reject_bones():
+    def prior_reject_sids(self, ui: PromptUI):
+        for sid, _ in self.prior_reject_bones(ui):
             yield sid
 
-    def prior_reject_boards(self, sid: str=''):
-        for s, bone in self.prior_reject_bones():
+    def prior_reject_boards(self, ui: PromptUI, sid: str=''):
+        for s, bone in self.prior_reject_bones(ui):
             if not sid or s == sid:
                 try:
                     board = Board.from_bone(bone)
@@ -1192,16 +1198,13 @@ class SpaceWord(StoredLog):
                 else:
                     yield board
 
-    def browse_reject_boards(self):
-        def bind(sid: str):
-            return lambda: self.prior_reject_boards(sid)
-
+    def browse_reject_boards(self, ui: PromptUI):
         seen: set[str] = set()
-        for sid, _ in self.prior_reject_bones():
+        for sid, _ in self.prior_reject_bones(ui):
             if sid not in seen:
                 seen.add(sid)
-                yield sid, bind(sid)
-        yield 'all', lambda: self.prior_reject_boards()
+                yield sid, partial(self.prior_reject_boards, sid=sid)
+        yield 'all', self.prior_reject_boards
 
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
@@ -1606,7 +1609,7 @@ class SpaceWord(StoredLog):
         '''
         list prior result boards
         '''
-        for n, board in enumerate(self.prior_result_boards(), 1):
+        for n, board in enumerate(self.prior_result_boards(ui), 1):
             for line in board.show_grid(head=f'Prior {n}:', foot=None):
                 ui.print(line)
         # TODO final foot?
@@ -1618,7 +1621,7 @@ class SpaceWord(StoredLog):
         arg = next(ui.tokens, '')
         if not arg:
             cur, n = '', 0
-            for sid, bone in self.prior_reject_bones():
+            for sid, bone in self.prior_reject_bones(ui):
                 if sid == cur:
                     n += 1
                 else:
@@ -1633,7 +1636,7 @@ class SpaceWord(StoredLog):
         arg = next(ui.tokens, '')
         if not arg:
             ui.print(f'Reject {want_sid}:')
-            for n, (sid, bone) in enumerate(self.prior_reject_bones(), 1):
+            for n, (sid, bone) in enumerate(self.prior_reject_bones(ui), 1):
                 if sid == want_sid:
                     try:
                         board = Board.from_bone(bone)
@@ -1644,7 +1647,7 @@ class SpaceWord(StoredLog):
             return
         want_n = int(arg)
 
-        for n, (sid, bone) in enumerate(self.prior_reject_bones(), 1):
+        for n, (sid, bone) in enumerate(self.prior_reject_bones(ui), 1):
             if n == want_n:
                 try:
                     board = Board.from_bone(bone)
@@ -1808,7 +1811,7 @@ class SpaceWord(StoredLog):
             ui.log(f'change: {i} {let}')
 
 SourceEntry = tuple[str, 'Source'] | Board
-Source = Callable[[], Iterable[SourceEntry]]
+Source = Callable[[PromptUI], Iterable[SourceEntry]]
 
 @final
 class Search:
@@ -1858,12 +1861,12 @@ class Search:
             '**': 'auto',
         })
 
-    def get_source(self, token: str) -> Source|None:
-        src: Source|None = lambda: ((nom, sub) for nom, sub in self.sources.items())
+    def get_source(self, ui: PromptUI, token: str) -> Source|None:
+        src: Source|None = lambda _: ((nom, sub) for nom, sub in self.sources.items())
         for name in token.split('/'):
             if not name: break
             got: Source|None = None
-            for ent in src():
+            for ent in src(ui):
                 if not isinstance(ent, tuple): continue
                 nom, sub = ent
                 if nom == name:
@@ -2342,11 +2345,11 @@ class Search:
             return
 
         names = tuple(ui.tokens)
-        srcs = tuple(self.get_source(name) for name in names)
+        srcs = tuple(self.get_source(ui, name) for name in names)
 
         entries = tuple(
             cast(tuple[SourceEntry, ...],
-                tuple(src()) if src else ())
+                tuple(src(ui)) if src else ())
             for src in srcs)
 
         if not any(srcs):
