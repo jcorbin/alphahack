@@ -1,0 +1,118 @@
+T0.00024444900918751955 now: 2025-08-03T08:25:32EDT
+TD56 site: squareword.org
+TDD8529549 🧩  ? #1280
+TDD-8529426 puzzle_id: #1280
+TDD-161 wordlist: nwl2023.txt
+TDD2777474 > *
+TDD1886489 try? 1
+TDD-4663182 questioning: ["hares", "#5"]
+TDD5414514 #1 _____  📋 "hares" ? ____S ~ AR
+TDD-5414949 attempt 0 HARES n m m n Y
+TDD2894846 #2 _____  📋 "hares" ? ___E_ ~ RE
+TDD-2894948 attempt 1 HARES n n m Y n
+TDD2453053 #3 _____  📋 "hares" ? _____ ~ AE
+TDD-2452780 attempt 2 HARES n m n m n
+TDD2132585 #4 _____  📋 "hares" ? _____ ~ RE
+TDD-2132870 attempt 3 HARES n n m m n
+TDD2669337 #5 _____  📋 "hares" ? ___E_ ~ ES
+TDD-2669118 attempt 4 HARES n n n Y m
+TDD710280 ? 
+TDD-710525 question done
+TDD1103333 > *
+TDD2133164 try? 4
+TDD-3236456 questioning: ["cruel", "#2"]
+TDD7458998 #1 ____S ~AR -EH  📋 "cruel" ? _R__S ~ A
+TDD-7458879 attempt 0 CRUEL n Y n n n
+TDD3189685 #2 ___E_ ~R -AHS  📋 "cruel" ? ___EL ~ RE
+TDD-3189546 attempt 1 CRUEL n m n Y Y
+TDD3110719 #3 _____ ~AE -HRS  📋 "cruel" ? .
+TDD-3110695 attempt 2 CRUEL n n n m n
+TDD965124 #4 _____ ~ER -AHS  📋 "cruel" ? .
+TDD-965158 attempt 3 CRUEL n m n m n
+TDD5141584 #5 ___E_ ~S -AHR  📋 "cruel" ? ___E_ ~ ES
+TDD-5141606 attempt 4 CRUEL n n n Y n
+TDD654151 ? 
+TDD-654437 question done
+TDD617235 > *
+TDD5623565 try? 3
+TDD-6240531 questioning: ["repel", "#2"]
+TDD6508786 #1 _R__S ~A -CEHLU  📋 "repel" ? .
+TDD-6508945 attempt 0 REPEL n n n n n
+TDD2347959 #2 ___EL ~R -ACHSU  📋 "repel" ? RE_EL
+TDD-2347947 attempt 1 REPEL Y Y n Y Y
+TDD3236295 #3 _____ ~AE -CHLRSU  📋 "repel" ? _____ ~ AE
+TDD-3236250 attempt 2 REPEL n m n m n
+TDD2648040 #4 _____ ~ER -ACHLSU  📋 "repel" ? _E___ ~ RE
+TDD-2647950 attempt 3 REPEL m Y n m n
+TDD5899220 #5 ___E_ ~S -ACHLRU  📋 "repel" ? ___E_ ~ ESP
+TDD-5899282 attempt 4 REPEL n m m Y n
+TDD668575 ? 
+TDD-668825 question done
+TDD497052 > *
+TDD3072553 try? 1
+TDD-3569604 questioning: ["steep", "#5"]
+TDD5836940 #1 _R__S ~A -CEHLPRU  📋 "steep" ? .
+TDD-5836889 attempt 0 STEEP n n n n n
+TDD2002948 #2 RE_EL -ACHPSU  📋 "steep" ? .
+TDD-2002826 attempt 1 STEEP n n n Y n
+TDD1333782 #3 _____ ~AE -CHLPRSU  📋 "steep" ? .
+TDD-1333784 attempt 2 STEEP n n m m n
+TDD3450664 #4 _E___ ~ER -ACHLPSU  📋 "steep" ? _E___ ~ RET
+TDD-3450522 attempt 3 STEEP n m m m n
+TDD7108683 #5 ___E_ ~PS -ACHLRU  📋 "steep" ? S_EEP
+TDD-7108615 attempt 4 STEEP Y n Y Y Y
+TDD621712 ? 
+TDD-622146 question done
+TDD696476 > *
+TDD1401799 questioning: ["metre", "#4"]
+TDD3868165 #1 _R__S ~A -CEHLPRSTU  📋 "metre" ? .
+TDD-5966053 attempt 0 METRE n n n n n
+TDD1494562 #2 RE_EL -ACHPSTU  📋 "metre" ? .
+TDD-1494755 attempt 1 METRE n Y n n n
+TDD4377893 #3 _____ ~AE -CHLPRSTU  📋 "metre" ? ____E ~ A
+TDD-4377790 attempt 2 METRE n n n n Y
+TDD2291967 #4 _E___ ~ERT -ACHLPSU  📋 "metre" ? /it
+TDD-2292028 attempt 3 METRE Y Y Y Y Y
+TDD2393341 #5 S_EEP -ACHLRTU  📋 "metre" ? .
+TDD-2393395 attempt 4 METRE n n n n n
+TDD574379 ? 
+TDD-574560 question done
+TDD825403 > *
+TDD1909178 questioning: ["sweep", "#5"]
+TDD3048276 #1 _R__S ~A -CEHLMPRSTU  📋 "sweep" ? .
+TDD-5782599 attempt 0 SWEEP n n n n n
+TDD1191925 #2 RE_EL -ACHMPRSTU  📋 "sweep" ? .
+TDD-1191716 attempt 1 SWEEP n n n Y n
+TDD969859 #3 ____E ~A -CHLMPRSTU  📋 "sweep" ? .
+TDD-969804 attempt 2 SWEEP n n n n n
+TDD1208717 #5 S_EEP -ACEHLMRTU  📋 "sweep" ? /it
+TDD-1208957 attempt 4 SWEEP Y Y Y Y Y
+TDD562972 ? 
+TDD-563155 question done
+TDD1006881 > *
+TDD1177201 questioning: ["inane", "#3"]
+TDD5503105 #1 _R__S ~A -CEHLMPRSTUW  📋 "inane" ? _RA_S 
+TDD-7687237 attempt 0 INANE n n Y n n
+TDD2098049 #2 RE_EL -ACHMPRSTUW  📋 "inane" ? .
+TDD-2097963 attempt 1 INANE n n n n n
+TDD723600 #3 ____E ~A -CEHLMPRSTUW  📋 "inane" ? /it
+TDD-723307 attempt 2 INANE Y Y Y Y Y
+TDD224301 ? 
+TDD-224525 question done
+TDD771073 > *
+TDD873715 questioning: ["brags", "#1"]
+TDD2288598 #1 _RA_S -CEHILMNPRSTUW  📋 "brags" ? /it
+TDD-3933415 attempt 0 BRAGS Y Y Y Y Y
+TDD5075818 #2 RE_EL -ACEHIMNPRSTUW  📋 "brags" ? RE_EL ~ B
+TDD-5075781 attempt 1 BRAGS m n n n n
+TDD794587 ? 
+TDD-794651 question done
+TDD549669 > *
+TDD534924 questioning: ["rebel", "#2"]
+TDD2191613 #2 RE_EL ~B -ACEGHIMNPRSTUW  📋 "rebel" ? /it
+TDD-3276059 attempt 1 REBEL Y Y Y Y Y
+TDD853545 ? 
+TDD-853735 question done
+TDD3326573 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3321208 result: "squareword.org 1280: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1280"
+TDD151981 📆 2025-08-03 ? 
