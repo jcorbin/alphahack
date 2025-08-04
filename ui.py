@@ -242,6 +242,65 @@ def test_tokens(input: str, tokens: list[str]):
     assert list(Tokens(input)) == tokens
 
 @final
+class LogTime:
+    def __init__(self,
+            t1: float = math.nan,
+            t2: float = math.nan,
+            d1: float = math.nan,
+            d2: float = math.nan,
+            a1: float = math.nan):
+        self.t1: float = t1
+        self.t2: float = t2
+        self.d1: float = d1
+        self.d2: float = d2
+        self.a1: float = a1
+
+    def reset(self):
+        self.__init__()
+
+    def update(self, now: float):
+        t2 = self.t2
+        t1 = self.t1
+        d2 = now - t2
+        d1 = t2 - t1
+        a1 = d2 - d1
+        self.t2 = now
+        self.t1 = t2
+        self.d2 = d2
+        self.d1 = d1
+        self.a1 = a1
+
+    @property
+    def tdd_str(self):
+        return '' if math.isnan(self.a1) else f'TDD{int(self.a1 * 1e6)}'
+
+    @property
+    def td_str(self):
+        return '' if math.isnan(self.d2) else f'TD{int(self.d2 * 1e6)}'
+
+    @property
+    def t_str(self):
+        return '' if math.isnan(self.t2) else f'T{self.t2}'
+
+    @override
+    def __str__(self):
+        return self.tdd_str or self.td_str or self.t_str or 'None'
+
+    def items(self) -> Generator[tuple[str, float]]:
+        yield 't1', self.t1
+        yield 't2', self.t2
+        yield 'd1', self.d1
+        yield 'd2', self.d2
+        yield 'a1', self.a1
+
+    @override
+    def __repr__(self):
+        def parts() -> Generator[str]:
+            for k, v in self.items():
+                if not math.isnan(v): yield f'{k}={v}'
+        return f'LogTime({", ".join(parts())})'
+
+@final
 class PromptUI:
     @staticmethod
     def end_input(_: str):
@@ -281,8 +340,7 @@ class PromptUI:
             sink = lambda _: None
 
         self.time = Timer() if time is None else time
-        self.t1 = math.nan
-        self.t2 = math.nan
+        self._log_time = LogTime()
 
         self.get_input = get_input
         self.sink = sink
@@ -339,27 +397,15 @@ class PromptUI:
 
         return '\n'.join(read())
 
-    def _log_now(self):
-        now = self.time.now
-        d2 = now - self.t2
-        d1 = self.t2 - self.t1
-        a1 = d2 - d1
-        self.t1, self.t2 = self.t2, now
-        if not math.isnan(a1):
-            return f'TDD{int(a1 * 1e6)}'
-        if not math.isnan(d2):
-            return f'TD{int(d2 * 1e6)}'
-        return f'T{now}'
-
     def log(self, mess: str):
-        now = self._log_now()
-        self.sink(f'{now} {mess}')
+        self._log_time.update(self.time.now)
+        self.sink(f'{self._log_time} {mess}')
 
     def logz(self, s: str):
-        now = self._log_now()
+        self._log_time.update(self.time.now)
         zb1 = self.zlog.compress(s.encode())
         zb2 = self.zlog.flush(zlib.Z_SYNC_FLUSH)
-        self.sink(f'{now} Z {b85encode(zb1 + zb2).decode()}')
+        self.sink(f'{self._log_time} Z {b85encode(zb1 + zb2).decode()}')
 
     def write(self, mess: str):
         self.last = 'print' if mess.endswith('\n') else 'write'
@@ -611,8 +657,7 @@ class PromptUI:
             if callable(sink): self.sink = sink
             if callable(clip): self.clip = clip
             if callable(get_input): self.get_input = get_input
-            self.t1 = math.nan
-            self.t2 = math.nan
+            self._log_time.reset()
             yield self
         finally:
             self.sink = prior_sink
