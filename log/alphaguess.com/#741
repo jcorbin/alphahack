@@ -1,0 +1,40 @@
+T0.00019355601398274302 now: 2025-08-04T08:30:40EDT
+TD65209 loaded 196553 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (50 words excluded) asof f96d0994d88aa6dd1616da96fd341eeeb7a87721
+TDD6557995 [0 : 98234 : 196553] mach? a
+TDD-6622954 progress: 1 98234 mach
+TDD1463556 [98235 : 147395 : 196553] rhumb? b
+TDD-1463555 progress: -1 147395 rhumb
+TDD1447375 [98235 : 122797 : 147395] parr? a
+TDD-1447350 progress: 1 122797 parr
+TDD1628176 [122798 : 135087 : 147395] proper? b
+TDD-1628268 progress: -1 135087 proper
+TDD1540553 [122798 : 128866 : 135087] play? a
+TDD-1540522 progress: 1 128866 play
+TDD1341034 [128867 : 131975 : 135087] prearm? a
+TDD-1341022 progress: 1 131975 prearm
+TDD1389705 [131976 : 133527 : 135087] press? a
+TDD-1389646 progress: 1 133527 press
+TDD1398184 [133528 : 134290 : 135087] prob? a
+TDD-1398187 progress: 1 134290 prob
+TDD1432700 [134291 : 134684 : 135087] prognostic? a
+TDD-1432755 progress: 1 134684 prognostic
+TDD1418123 [134685 : 134870 : 135087] prom? b
+TDD-1418106 progress: -1 134870 prom
+TDD1665505 [134685 : 134774 : 134870] prolamin? 
+TDD-792823 [134685 : 134774 : 134870] prolamin? b
+TDD-872600 progress: -1 134774 prolamin
+TDD1476261 [134685 : 134713 : 134774] progress? a
+TDD-1476367 progress: 1 134713 progress
+TDD1613406 [134714 : 134733 : 134774] prohibit? a
+TDD-1613368 progress: 1 134733 prohibit
+TDD3895812 [134734 : 134750 : 134774] project? it
+TDD-3895747 progress: 0 134750 project
+TDD-266 [134734 : 134750 : 134774] <Done>.
+TDD2096517 press <Return> to finish
+TDD-1899488 Press <Enter> to 📋 or `>` for line prompt 
+TDD-190325 share result: "\ud83e\udde9 Puzzle #741\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"
+TDD-6701 result puzzle: 741
+TDD-35 result guesses: 14
+TDD-6 result time: 23s
+TDD-1 result link: alphaguess.com
+TDD176233 📆 2025-08-04 ? 
