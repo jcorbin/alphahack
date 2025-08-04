@@ -258,14 +258,19 @@ class StoredLog:
     def review_do_comp(self, ui: PromptUI):
         pat = re.compile(ui.tokens.rest) if ui.tokens else None
         count = 0
+        skip = 0
 
         before = os.stat(self.log_file)
         with atomic_rewrite(self.log_file) as (r, w):
             rez = zlib.compressobj()
-            parse = LogParser()
+            parse = LogParser(
+                warn=lambda mess: ui.print(f'! rez parse {mess}'))
             for line in r:
                 t, z, line = parse(line)
                 if not z:
+                    if line.startswith('Z '):
+                        skip += 1
+                        continue
                     if pat and pat.search(line):
                         z = True
                         count += 1
@@ -282,7 +287,7 @@ class StoredLog:
 
         ds = after.st_size - before.st_size
         ch = after.st_size/before.st_size - 1.0
-        ui.print(f'compressed {count} lines, change: {ds:+} bytes ( {100*ch:.1f}% )')
+        ui.print(f'compressed {count} lines, {skip} elided, change: {ds:+} bytes ( {100*ch:.1f}% )')
 
     def review_do_cont(self, ui: PromptUI):
         rep = self.Replay(self)
