@@ -559,6 +559,7 @@ class Board:
         cixs = tuple(
             tuple(word_count[i] for i in token.ix)
             for token in all_words)
+        if not cixs: return
         heads = tuple(cix[0] for cix in cixs)
         tails = tuple(cix[-1] for cix in cixs)
         want = min(min(heads), min(tails))
