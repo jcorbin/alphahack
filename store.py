@@ -1,6 +1,5 @@
 import argparse
 import datetime
-import math
 import os
 import re
 import subprocess
@@ -67,8 +66,7 @@ class LogParser:
                  rez: Callable[[bytes], None]|None = None,
                  warn: Callable[[str], None]|None = None,
                  ):
-        self.t1 = math.nan
-        self.t2 = math.nan
+        self.log_time = LogTime()
         self.unz = zlib.decompressobj()
         self.rez = rez
         self.warn = warn
@@ -79,30 +77,11 @@ class LogParser:
 
         tokens = PromptUI.Tokens(line)
 
-        m = tokens.have(r'''(?x)
-            (?P<tkind> T | TD | TDD )
-            (?P<time> [-+]? \d+ [^\s]* )
-            ''')
-        if not m:
+        if not self.log_time.parse(tokens):
             if not self.warn:
                 raise ValueError('invalid log line, missing time')
             self.warn(f'invalid log line {orig!r}, missing time')
             return None, False, line
-
-        td = str(m[1])
-        if td == 'T':
-            t = float(m[2])
-        elif td == 'TD':
-            d = float(int(m[2])) / 1e6
-            t = self.t2 + d
-        elif td == 'TDD':
-            a1 = float(int(m[2])) / 1e6
-            d1 = self.t2 - self.t1
-            d2 = a1 + d1
-            t = self.t2 + d2
-        else:
-            raise ValueError(f'invalid time kind {td}')
-        self.t1, self.t2 = self.t2, t
 
         z = bool(tokens.have(r'''(?x) Z $'''))
         if z:
@@ -116,7 +95,7 @@ class LogParser:
                 self.zlib_fails += 1
                 if self.zlib_fails <= 1:
                     self.warn(f'failed to decompress line {orig!r}: {err}')
-                return t, False, f'Z {zline}'
+                return self.log_time.t2, False, f'Z {zline}'
             if self.rez is not None:
                 self.rez(b)
             tokens.rest = b.decode()
@@ -127,7 +106,7 @@ class LogParser:
                 self.warn(f'... and {fails-1} more lines')
             self.zlib_fails = 0
 
-        return t, z, tokens.rest
+        return self.log_time.t2, z, tokens.rest
 
 class StoredLog:
     @classmethod
