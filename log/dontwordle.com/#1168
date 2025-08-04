@@ -1,0 +1,52 @@
+T0.0002023379784077406 now: 2025-08-04T08:39:21EDT
+TD36 site: dontwordle.com
+TDD-9 wordlist: nwl2023.txt
+TDD5073207 1> * -bot 10
+TDD-3560199 ? 1
+TDD2995467 📋 "rales" ? nMMnn
+TDD-4508139 tried: RALES n m m n n
+TDD883432 2> undo
+TDD-883552 undo
+TDD1051929 1> *
+TDD5594233 ? nnnnn
+TDD-5866286 ? *
+TDD30596 ? 1
+TDD412535 📋 "zizit" ? nnnnn
+TDD-1222867 tried: ZIZIT n n n n n
+TDD1197800 2> *
+TDD89404 ? 1
+TDD3115612 📋 "seeds" ? nnnnn
+TDD-4403094 tried: SEEDS n n n n n
+TDD770035 3> *
+TDD-5576 ? 1
+TDD3455582 📋 "yobbo" ? Mnnnn
+TDD-4219920 tried: YOBBO m n n n n
+TDD828220 4> undo
+TDD-828278 undo
+TDD3649466 3> *
+TDD-1735447 ? 1
+TDD2986881 📋 "jugum" ? nnnnn
+TDD-4900671 tried: JUGUM n n n n n
+TDD1032542 4> *
+TDD371154 ? 1
+TDD3225759 📋 "boffo" ? nnnnn
+TDD-4629605 tried: BOFFO n n n n n
+TDD538698 5> *
+TDD4950484 5> * -sans :v [al]
+TDD-2263990 5> * -sans :v [ay]
+TDD1115456 5> * -sans :v [ly]
+TDD-2042648 ? 1
+TDD4023742 📋 "canna" ? ␚
+TDD-6321816 <EOF>
+TDD5695902 5> * -sans :v [ly] :v a.*a
+TDD-2098354 ? 2
+TDD1915309 📋 "charr" ? nnMnn
+TDD-5512767 tried: CHARR n n m n n
+TDD4122313 6> * -sans :v [ly]
+TDD-1960054 ? 1
+TDD5528497 📋 "kappa" ? nMYMn
+TDD-7690703 tried: KAPPA n m Y m n
+TDD4630157 Press <Enter> to 📋 or `>` for line prompt /res
+TDD-3132795 Press <Enter> to 📋 or `>` for line prompt 
+TDD-1490789 result: "Don't Wordle 1168 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6979\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1352\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c553\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c155\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c44\n\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\u2b1c1\nUndos used: 2\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TDD1464404 📆 2025-08-04 ? 
