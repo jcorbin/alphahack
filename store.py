@@ -16,7 +16,7 @@ from typing import Callable, cast, final
 from types import TracebackType
 
 from mdkit import break_sections, replace_sections
-from ui import PromptUI
+from ui import LogTime, PromptUI
 
 def parse_datetime(s: str):
     return _parse_datetime(s,
@@ -267,8 +267,13 @@ class StoredLog:
             rez = zlib.compressobj()
             parse = LogParser(
                 warn=lambda mess: ui.print(f'! rez parse {mess}'))
+            log_time = LogTime()
             for line in r:
                 t, z, line = parse(line)
+                if t is None:
+                    log_time.reset()
+                else:
+                    log_time.update(t)
                 if not z:
                     if line.startswith('Z '):
                         skip += 1
@@ -280,9 +285,9 @@ class StoredLog:
                 if z:
                     zb1 = rez.compress(line.encode())
                     zb2 = rez.flush(zlib.Z_SYNC_FLUSH)
-                    _ = w.write(f'T{t} Z {b85encode(zb1 + zb2).decode()}\n')
+                    _ = w.write(f'{log_time} Z {b85encode(zb1 + zb2).decode()}\n')
                 else:
-                    _ = w.write(f'T{t} {line}\n')
+                    _ = w.write(f'{log_time} {line}\n')
 
             w.flush()
         after = os.stat(self.log_file)
