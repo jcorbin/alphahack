@@ -270,6 +270,47 @@ class LogTime:
         self.d1 = d1
         self.a1 = a1
 
+    def update_d(self, td: float):
+        t1 = self.t2
+        d2 = self.d2
+        t2 = t1 + td
+        a1 = td - d2
+        self.t2 = t2
+        self.t1 = t1
+        self.d2 = td
+        self.d1 = d2
+        self.a1 = a1
+
+    def update_dd(self, tdd: float):
+        t1 = self.t2
+        d1 = self.d2
+        d2 = tdd + d1
+        t2 = t1 + d2
+        self.t2 = t2
+        self.t1 = t1
+        self.d2 = d2
+        self.d1 = d1
+        self.a1 = tdd
+
+    def parse(self, tokens: PeekStr):
+        t = tokens.have(r'(?x) T ( [-+]? \d+ [^\s]* )', then=lambda m: float(m[1]))
+        if t is not None:
+            self.update(t)
+            return True
+
+        td = tokens.have(r'(?x) TD ( [-+]? \d+ [^\s]* )', then=lambda m: float(m[1])/1e6)
+        if td is not None:
+            self.update_d(td)
+            return True
+
+        tdd = tokens.have(r'(?x) TDD ( [-+]? \d+ [^\s]* )', then=lambda m: float(m[1])/1e6)
+        if tdd is not None:
+            self.update_dd(tdd)
+            return True
+
+        self.reset()
+        return False
+
     @property
     def tdd_str(self):
         return '' if math.isnan(self.a1) else f'TDD{int(self.a1 * 1e6)}'
@@ -299,6 +340,68 @@ class LogTime:
             for k, v in self.items():
                 if not math.isnan(v): yield f'{k}={v}'
         return f'LogTime({", ".join(parts())})'
+
+def test_logtime():
+    # TODO parametrize
+    raw_log = '''
+    T1.23 one d1 nan d2 nan a1 nan
+    T2.34 two d1 nan d2 1.11 a1 nan
+    T3.45 three d1 1.11 d2 1.11 a1 0.00
+    T4.56 five
+    T5.67 six
+    T6.78 seven
+    T7.89 eight
+    '''
+
+    def parse_times(lines: Iterable[str]):
+        lt = LogTime()
+        for ln, line in enumerate(lines, 1):
+            tokens = PeekStr(m[0] for m in re.finditer(r'[^\s+]+', line))
+            assert lt.parse(tokens), f'#{ln} must parse time token'
+            yield lt, tokens
+
+    def isclose(a: float, b: float):
+        return math.isclose(a, b, abs_tol=1e-5)
+
+    def check_entry(lt: LogTime, tokens: Iterable[str], mark: str = ''):
+        it = iter(tokens)
+        parts = dict(lt.items())
+        rest: list[str] = []
+        for tok in it:
+            rest.append(tok)
+            if tok in {'t1', 't2', 'd1', 'd2', 'a1'}:
+                vtok = next(it, None)
+                assert vtok is not None, f'{mark}must have {tok} value'
+                rest.append(vtok)
+                val = float(vtok)
+                got = parts.pop(tok)
+                assert (
+                    ( math.isnan(got) and math.isnan(val) )
+                    or isclose(got, val)
+                ), f'{mark}expected {tok} {got} =~ {val}'
+
+    orig_lines = tuple(block_lines(raw_log))
+    orig_times: list[float] = []
+    td_log_lines: list[str] = []
+    tdd_log_lines: list[str] = []
+
+    for ln, (lt, pk) in enumerate(parse_times(orig_lines), 1):
+        tokens = tuple(pk)
+        check_entry(lt, tokens, mark=f'T #{ln} ')
+        orig_times.append(lt.t2)
+        mess = ' '.join(tokens)
+        td_log_lines.append(f'{lt.td_str or lt.t_str or "None"} {mess}')
+        tdd_log_lines.append(f'{lt} {mess}')
+
+    for li, (lt, tokens) in enumerate(parse_times(td_log_lines)):
+        ln = li + 1
+        assert isclose(lt.t2, orig_times[li]), f'TD #{ln} time roundtrip'
+        check_entry(lt, tokens, mark=f'TD #{ln} ')
+
+    for li, (lt, tokens) in enumerate(parse_times(tdd_log_lines)):
+        ln = li + 1
+        assert isclose(lt.t2, orig_times[li]), f'TDD #{ln} time roundtrip'
+        check_entry(lt, tokens, mark=f'TDD #{ln} ')
 
 @final
 class PromptUI:
