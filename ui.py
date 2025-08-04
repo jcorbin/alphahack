@@ -245,6 +245,47 @@ class LogTime:
         self.d1 = d1
         self.a1 = a1
 
+    def update_d(self, td: float):
+        t1 = self.t2
+        d2 = self.d2
+        t2 = t1 + td
+        a1 = td - d2
+        self.t2 = t2
+        self.t1 = t1
+        self.d2 = td
+        self.d1 = d2
+        self.a1 = a1
+
+    def update_dd(self, tdd: float):
+        t1 = self.t2
+        d1 = self.d2
+        d2 = tdd + d1
+        t2 = t1 + d2
+        self.t2 = t2
+        self.t1 = t1
+        self.d2 = d2
+        self.d1 = d1
+        self.a1 = tdd
+
+    def parse(self, tokens: PeekStr):
+        t = tokens.have(r'(?x) T ( [-+]? \d+ [^\s]* )', then=lambda m: float(m[1]))
+        if t is not None:
+            self.update(t)
+            return
+
+        td = tokens.have(r'(?x) TD ( [-+]? \d+ [^\s]* )', then=lambda m: float(m[1])/1e6)
+        if td is not None:
+            self.update_d(td)
+            return
+
+        tdd = tokens.have(r'(?x) TDD ( [-+]? \d+ [^\s]* )', then=lambda m: float(m[1])/1e6)
+        if tdd is not None:
+            self.update_dd(tdd)
+            return
+
+        # TODO warn?
+        self.reset()
+
     @override
     def __str__(self):
         if not math.isnan(self.a1):
