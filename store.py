@@ -235,7 +235,7 @@ class StoredLog:
                     raise err
 
     def review_do_comp(self, ui: PromptUI):
-        pat = re.compile(ui.tokens.rest)
+        pat = re.compile(ui.tokens.rest) if ui.tokens else None
         count = 0
 
         before = os.stat(self.log_file)
@@ -244,9 +244,11 @@ class StoredLog:
             parse = LogParser()
             for line in r:
                 t, z, line = parse(line)
-                if not z and pat.search(line):
-                    z = True
-                    count += 1
+                if not z:
+                    if pat and pat.search(line):
+                        z = True
+                        count += 1
+
                 if z:
                     zb1 = rez.compress(line.encode())
                     zb2 = rez.flush(zlib.Z_SYNC_FLUSH)
