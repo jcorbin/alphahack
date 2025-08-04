@@ -77,6 +77,8 @@ class LogParser:
     def __call__(self, line: str) -> tuple[float|None, bool, str]:
         orig = line
 
+        # TODO refactor / ui.LogTime.parse
+
         m = re.match(r'''(?x)
             (?P<tkind> T | TD | TDD ) (?P<time> [-+]? \d+ [^\s]* )
             \s+
