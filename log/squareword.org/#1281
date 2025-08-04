@@ -1,0 +1,101 @@
+T0.0002336630132049322 now: 2025-08-04T08:36:16EDT
+TD40 site: squareword.org
+TDD7215574 🧩  ? #1281
+TDD-7215270 puzzle_id: #1281
+TDD-310 wordlist: nwl2023.txt
+TDD747280 > *
+TDD1475615 try? 2
+TDD-2222259 questioning: ["slate", "#5"]
+TDD4091576 #1 _____  📋 "slate" ? Ynnnn
+TDD-4091401 attempt 0 SLATE n n n n n
+TDD3734662 #2 _____  📋 "slate" ? nnnnY ~ S
+TDD-3734956 attempt 1 SLATE m n n n n
+TDD2922854 #3 _____  📋 "slate" ? _____ ~ SA
+TDD-2922793 attempt 2 SLATE m n m n n
+TDD2874315 #4 _____  📋 "slate" ? ____E ~ A
+TDD-2874583 attempt 3 SLATE n n m n Y
+TDD3366330 #5 _____  📋 "slate" ? SL___ ~ TE
+TDD-3366349 attempt 4 SLATE Y Y n m m
+TDD1005447 ? 
+TDD-1005633 question done
+TDD519027 > *
+TDD5897569 try? 1
+TDD-6416377 questioning: ["slept", "#5"]
+TDD8491854 #1 _____ -AELST  📋 "slept" ? .
+TDD-8491769 attempt 0 SLEPT n n n n n
+TDD3400875 #2 _____ ~S -AELT  📋 "slept" ? ____E ~ SP
+TDD-3400778 attempt 1 SLEPT m n n m n
+TDD1757677 #3 _____ ~AS -ELT  📋 "slept" ? .
+TDD-1757645 attempt 2 SLEPT m n n n n
+TDD1741006 #4 ____E ~A -LST  📋 "slept" ? .
+TDD-1741436 attempt 3 SLEPT n n n n n
+TDD2365496 #5 SL___ ~ET -A  📋 "slept" ? SLE_T ~ E
+TDD-2365441 attempt 4 SLEPT Y Y Y n Y
+TDD831053 ? 
+TDD-830920 question done
+TDD683139 > *
+TDD57212 questioning: ["sleet", "#5"]
+TDD6640156 #1 _____ -AELPST  📋 "sleet" ? .
+TDD-7380278 attempt 0 SLEET n n n n n
+TDD1555899 #2 _____ ~PS -AELT  📋 "sleet" ? .
+TDD-1556186 attempt 1 SLEET m n n n n
+TDD947302 #3 _____ ~AS -ELPT  📋 "sleet" ? .
+TDD-947224 attempt 2 SLEET m n n n n
+TDD1312078 #4 ____E ~A -ELPST  📋 "sleet" ? .
+TDD-1312108 attempt 3 SLEET n n n n n
+TDD893921 #5 SLE_T -AP  📋 "sleet" ? /it
+TDD-893947 attempt 4 SLEET Y Y Y Y Y
+TDD601380 ? 
+TDD-601272 question done
+TDD512154 > *
+TDD1080249 try? 1
+TDD-1592495 questioning: ["carve", "#4"]
+TDD8765396 #1 _____ -AELPST  📋 "carve" ? S____ ~ CR
+TDD-8765290 attempt 0 CARVE m n m n n
+TDD3175330 #2 _____ ~PS -AELT  📋 "carve" ? C___E ~ SP
+TDD-3175188 attempt 1 CARVE Y n n n Y
+TDD3874169 #3 _____ ~AS -ELPT  📋 "carve" ? _____ ~ SAR
+TDD-3874587 attempt 2 CARVE n m m n n
+TDD6141235 #4 ____E ~A -ELPST  📋 "carve" ? _A__E
+TDD-6140936 attempt 3 CARVE n Y n n Y
+TDD739580 ? 
+TDD-739809 question done
+TDD641358 > *
+TDD50100 questioning: ["copse", "#2"]
+TDD10442639 #1 _____ ~CR -AELPSTV  📋 "copse" ? S____ ~ CRO
+TDD-11133839 attempt 0 COPSE m m n n n
+TDD928509 #2 C___E ~PS -ALRTV  📋 "copse" ? /it
+TDD-928470 attempt 1 COPSE Y Y Y Y Y
+TDD1920221 #3 _____ ~ARS -CELPTV  📋 "copse" ? .
+TDD-1920354 attempt 2 COPSE n n n m n
+TDD2531566 #4 _A__E -CLPRSTV  📋 "copse" ? .
+TDD-2531775 attempt 3 COPSE n n n n Y
+TDD522942 ? 
+TDD-522768 question done
+TDD668262 > *
+TDD1010923 questioning: ["arias", "#3"]
+TDD9448421 #1 _____ ~COR -AELPSTV  📋 "arias" ? S____ ~ CRO
+TDD-11127635 attempt 0 ARIAS n m n n n
+TDD3541807 #3 _____ ~ARS -CELOPTV  📋 "arias" ? /it
+TDD-3541627 attempt 2 ARIAS Y Y Y Y Y
+TDD1224060 #4 _A__E -CLOPRSTV  📋 "arias" ? 
+TDD-1224460 question done
+TDD1628955 > 
+TDD-833920 > *
+TDD1013701 questioning: ["mange", "#4"]
+TDD6900695 #1 _____ ~COR -AEILPSTV  📋 "mange" ? S____ ~ CRO
+TDD-8709165 attempt 0 MANGE n n n n n
+TDD2049445 #4 _A__E -CLOPRSTV  📋 "mange" ? /it
+TDD-2049344 attempt 3 MANGE Y Y Y Y Y
+TDD211072 ? 
+TDD-211307 question done
+TDD563651 > *
+TDD4995434 > /man 1 S____ ~CRO
+TDD-5018507 questioning: ["SCOUR", "#1"]
+TDD6794039 #1 _____ ~COR -AEGILMNPSTV  📋 "SCOUR" ? /it
+TDD-7334606 attempt 0 SCOUR Y Y Y Y Y
+TDD809294 ? 
+TDD-809416 question done
+TDD3287312 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3281150 result: "squareword.org 1281: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1281"
+TDD144622 📆 2025-08-04 ? 
