@@ -1,0 +1,45 @@
+T0.00019724108278751373 now: 2025-08-05T07:59:55EDT
+TD66219 loaded 196553 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (50 words excluded) asof 35c51bde67e34edf589ce725578eb68123a42003
+TDD48471965 [0 : 98234 : 196553] mach? a
+TDD-48537642 progress: 1 98234 mach
+TDD1633411 [98235 : 147395 : 196553] rhumb? b
+TDD-1633715 progress: -1 147395 rhumb
+TDD1563178 [98235 : 122797 : 147395] parr? a
+TDD-1563164 progress: 1 122797 parr
+TDD1500941 [122798 : 135087 : 147395] proper? a
+TDD-1500979 progress: 1 135087 proper
+TDD1644004 [135088 : 140536 : 147395] rec? a
+TDD-1644003 progress: 1 140536 rec
+TDD1946010 [140537 : 143961 : 147395] reminisce? b
+TDD-1945967 progress: -1 143961 reminisce
+TDD1636142 [140537 : 142233 : 143961] ref? a
+TDD-1636032 progress: 1 142233 ref
+TDD1484378 [142234 : 143068 : 143961] rei? a
+TDD-1484653 progress: 1 143068 rei
+TDD1609138 [143069 : 143514 : 143961] relapse? a
+TDD-1609036 progress: 1 143514 relapse
+TDD1624225 [143515 : 143739 : 143961] reload? b
+TDD-1624276 progress: -1 143739 reload
+TDD2066036 [143515 : 143621 : 143739] relet? a
+TDD-2066011 progress: 1 143621 relet
+TDD1696470 [143622 : 143679 : 143739] religion? b
+TDD-1696549 progress: -1 143679 religion
+TDD1527589 [143622 : 143647 : 143679] relic? a
+TDD-1527473 progress: 1 143647 relic
+TDD1427825 [143648 : 143663 : 143679] reliers? b
+TDD-1427715 progress: -1 143663 reliers
+TDD1723944 [143648 : 143655 : 143663] relict? a
+TDD-1723982 progress: 1 143655 relict
+TDD1408359 [143656 : 143659 : 143663] relied? a
+TDD-1408346 progress: 1 143659 relied
+TDD1475761 [143660 : 143661 : 143663] reliefs? b
+TDD-1475748 progress: -1 143661 reliefs
+TDD-245 [143660 : 143660 : 143661] <Done>.
+TDD4835000 press <Return> to finish
+TDD-4646965 Press <Enter> to 📋 or `>` for line prompt 
+TDD-182040 share result: "\ud83e\udde9 Puzzle #742\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 28s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5979 result puzzle: 742
+TDD-52 result guesses: 18
+TDD-6 result time: 28s
+TDD-1 result link: alphaguess.com
+TDD186586 📆 2025-08-05 ? 
