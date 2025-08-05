@@ -1,0 +1,60 @@
+T0.00022110692225396633 now: 2025-08-05T08:17:56EDT
+TD41 site: dontwordle.com
+TDD-12 wordlist: nwl2023.txt
+TDD4905780 1> * -bot 10
+TDD-3627373 ? 1
+TDD5263862 📋 "nears" ? MnYnM
+TDD-6541367 tried: NEARS m n Y n m
+TDD727907 2> undo
+TDD-728737 undo
+TDD1256082 1> *
+TDD3257198 ? 1
+TDD130066 📋 "yuppy" ? nnnnn
+TDD-4643069 tried: YUPPY n n n n n
+TDD823357 2> *
+TDD242202 ? 1
+TDD4186981 📋 "belle" ? nnMnn
+TDD-5252520 tried: BELLE n n m n n
+TDD842799 3> undo
+TDD-842920 undo
+TDD2651523 2> *
+TDD-1200487 ? 1
+TDD8039036 📋 "cooee" ? !
+TDD-7283658 2> *
+TDD3123603 ? 1
+TDD372774 📋 "feoff" ? nnnnn
+TDD-5702796 tried: FEOFF n n n n n
+TDD561181 3> *
+TDD1729700 ? 2
+TDD1650321 📋 "civic" ? nnnnn
+TDD-3941248 tried: CIVIC n n n n n
+TDD705461 4> *
+TDD746201 4> *
+TDD1209325 4> * -sans :v [aln]
+TDD1049529 4> * -sans :v [als]
+TDD336745 4> * -sans :v [ans]
+TDD7711394 📋 "grrrl" ? MnnnM
+TDD-11758614 tried: GRRRL m n n n m
+TDD1987127 5> * -sans
+TDD2793429 ? undo
+TDD-1260235 ? 
+TDD-2012081 5> undo
+TDD-1508254 undo
+TDD8757847 4> * -sans :v [agns]
+TDD2081817 4> * -sans :v [ags]
+TDD-4778949 4> * -sans :v [
+TDD-3877649 4> * -sans
+TDD21470 ? 1
+TDD5093456 📋 "addax" ? Mnnnn
+TDD-7297916 tried: ADDAX m n n n n
+TDD2904635 5> * -sans
+TDD3475916 ? 1
+TDD-3720886 📋 "shahs" ? YnYnn
+TDD-2659758 tried: SHAHS Y n Y n n
+TDD1609928 6> * -sans
+TDD302322 ? 1
+TDD1842597 📋 "start" ? YnYnn
+TDD-3754736 tried: START Y n Y n n
+TDD2913229 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2906948 result: "Don't Wordle 1169 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7572\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1894\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c637\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c285\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c26\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c7\nUndos used: 3\n\n  7 words remaining\nx 10 unused letters\n= 70 total score"
+TDD177889 📆 2025-08-05 ? 
