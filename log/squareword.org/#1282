@@ -1,0 +1,125 @@
+T0.00021108193323016167 now: 2025-08-05T08:13:59EDT
+TD46 site: squareword.org
+TDD5412263 🧩  ? #1282
+TDD-5411914 puzzle_id: #1282
+TDD-351 wordlist: nwl2023.txt
+TDD1390163 > *
+TDD1321520 try? 1
+TDD-2710873 questioning: ["arise", "#5"]
+TDD4861308 #1 _____  📋 "arise" ? _____ ~ as
+TDD-4861466 attempt 0 ARISE m n n m n
+TDD2105385 #2 _____  📋 "arise" ? _____ ~ ai
+TDD-2105774 attempt 1 ARISE m n m n n
+TDD1620578 #3 _____  📋 "arise" ? a____
+TDD-1620645 attempt 2 ARISE Y n n n n
+TDD3943982 #4 _____  📋 "arise" ? ____e ~ ri
+TDD-3943954 attempt 3 ARISE n m m n Y
+TDD2410149 #5 _____  📋 "arise" ? _____ ~ rse
+TDD-2409906 attempt 4 ARISE n m n m m
+TDD594223 ? *
+TDD544074 #6 <IndexError>  📋 "arise" ? 
+TDD-1138573 question done
+TDD1439923 > *
+TDD689200 try? 1
+TDD-2128785 questioning: ["rifle", "#4"]
+TDD7365997 #1 _____ ~AS -EIR  📋 "rifle" ? _____ ~ asl
+TDD-7366055 attempt 0 RIFLE n n n m n
+TDD3359106 #2 _____ ~AI -ERS  📋 "rifle" ? _i___ ~ ai
+TDD-3358919 attempt 1 RIFLE n Y n n n
+TDD6444607 #3 A____ -EIRS  📋 "rifle" ? a____ 
+TDD-6444902 attempt 2 RIFLE n n n n n
+TDD3480234 #4 ____E ~IR -AS  📋 "rifle" ? re__e 
+TDD-3480253 attempt 3 RIFLE Y n n n Y
+TDD4313996 #5 _____ ~ERS -AI  📋 "rifle" ? _____ ~ rse
+TDD-4313912 attempt 4 RIFLE m n n n m
+TDD2046780 ? 
+TDD-2047129 question done
+TDD500521 > *
+TDD3104382 try? 4
+TDD-3604830 questioning: ["rhyme", "#4"]
+TDD5249849 #1 _____ ~ALS -EFIR  📋 "rhyme" ? .
+TDD-5249635 attempt 0 RHYME n n n n n
+TDD1477613 #2 _I___ ~A -EFLRS  📋 "rhyme" ? .
+TDD-1477772 attempt 1 RHYME n n n n n
+TDD4552635 #3 A____ -EFILRS  📋 "rhyme" ? a____ ~ m
+TDD-4552704 attempt 2 RHYME n n n m n
+TDD3136171 #4 R___E -AFILS  📋 "rhyme" ? re__e
+TDD-3135855 attempt 3 RHYME Y n n n Y
+TDD4269194 #5 _____ ~ERS -AFIL  📋 "rhyme" ? 4
+TDD-1196770 #4 R___E -AFHILMSY  📋 "rhyme" ? ri__e
+TDD-3072465 attempt 3 RHYME Y n n n Y
+TDD3867844 #5 _____ ~ERS -AFIL  📋 "rhyme" ? .
+TDD-3867692 attempt 4 RHYME m n n n m
+TDD781639 ? 
+TDD-781986 question done
+TDD10101056 > /man 4 ri__e
+TDD-6114539 try? 2
+TDD-3986382 questioning: ["RINSE", "#4"]
+TDD6211824 #1 _____ ~ALS -EFHIMRY  📋 "RINSE" ? .
+TDD-6211766 attempt 0 RINSE n n n m n
+TDD5163040 #2 _I___ ~A -EFHLMRSY  📋 "RINSE" ? _i___ ~ ai
+TDD-5163061 attempt 1 RINSE n Y n n n
+TDD3025260 #3 A____ ~M -EFHILRSY  📋 "RINSE" ? a____ ~ mn
+TDD-3024089 attempt 2 RINSE n n m n n
+TDD3002636 #4 R___E -AFHILMSY  📋 "RINSE" ? re__e
+TDD-3003990 attempt 3 RINSE Y n n n Y
+TDD2389459 #5 _____ ~ERS -AFHILMY  📋 "RINSE" ? 4
+TDD-747087 #4 R___E -AFHILMNSY  📋 "RINSE" ? ri__e
+TDD-1642297 attempt 3 RINSE Y Y n n Y
+TDD4414033 #5 _____ ~ERS -AFHILMY  📋 "RINSE" ? .
+TDD-4414202 attempt 4 RINSE m n n m m
+TDD927207 ? 
+TDD-926971 question done
+TDD18611696 > *
+TDD-17917812 questioning: ["ridge", "#4"]
+TDD5407765 #1 _____ ~ALS -EFHIMNRY  📋 "ridge" ? .
+TDD-6101681 attempt 0 RIDGE n n n n n
+TDD3267311 #2 _I___ ~A -EFHLMNRSY  📋 "ridge" ? _i___ ~ ai
+TDD-3267229 attempt 1 RIDGE n Y n n n
+TDD3652246 #3 A____ ~MN -EFHILRSY  📋 "ridge" ? a____ ~ mng
+TDD-3652251 attempt 2 RIDGE n n n m n
+TDD1288723 #4 RI__E -AFHLMNSY  📋 "ridge" ? /it
+TDD-1288755 attempt 3 RIDGE Y Y Y Y Y
+TDD2129648 #5 _____ ~ERS -AFHILMNY  📋 "ridge" ? .
+TDD-2129701 attempt 4 RIDGE m n n n m
+TDD495378 ? 
+TDD-495402 question done
+TDD657739 > *
+TDD518590 questioning: ["among", "#3"]
+TDD4127381 #1 _____ ~ALS -DEFGHIMNRY  📋 "among" ? .
+TDD-5303636 attempt 0 AMONG m n n n n
+TDD3360153 #2 _I___ ~A -DEFGHLMNRSY  📋 "among" ? _i___ ~ ai
+TDD-3360392 attempt 1 AMONG m n n n n
+TDD2189631 #3 A____ ~GMN -DEFHILRSY  📋 "among" ? /it
+TDD-2189567 attempt 2 AMONG Y Y Y Y Y
+TDD1517273 #5 _____ ~ERS -ADFGHILMNY  📋 "among" ? .
+TDD-1517103 attempt 4 AMONG n n n n n
+TDD333081 ? 
+TDD-333256 question done
+TDD639579 > *
+TDD1452280 questioning: ["tibia", "#2"]
+TDD5694452 #1 _____ ~ALS -DEFGHIMNORY  📋 "tibia" ? _____ ~ aslt
+TDD-7786193 attempt 0 TIBIA m n n n m
+TDD1032140 #2 _I___ ~A -DEFGHLMNORSY  📋 "tibia" ? /it
+TDD-1032123 attempt 1 TIBIA Y Y Y Y Y
+TDD3918590 #5 _____ ~ERS -ADFGHILMNOY  📋 "tibia" ? _____ ~ rset
+TDD-3918584 attempt 4 TIBIA m n n n n
+TDD579740 ? 
+TDD-579806 question done
+TDD542117 > *
+TDD1396143 questioning: ["slats", "#1"]
+TDD1679727 #1 _____ ~ALST -BDEFGHIMNORY  📋 "slats" ? /it
+TDD-3618102 attempt 0 SLATS Y Y Y Y Y
+TDD2647373 #5 _____ ~ERST -ABDFGHILMNOY  📋 "slats" ? s____ ~ ret
+TDD-2647202 attempt 4 SLATS Y n n m n
+TDD771592 ? 
+TDD-771723 question done
+TDD804971 > *
+TDD288402 questioning: ["steer", "#5"]
+TDD2186898 #5 S____ ~ERT -ABDFGHILMNOY  📋 "steer" ? /it
+TDD-3280008 attempt 4 STEER Y Y Y Y Y
+TDD500697 ? 
+TDD-501037 question done
+TDD6673188 Press <Enter> to 📋 or `>` for line prompt 
+TDD-6669670 result: "squareword.org 1282: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1282"
+TDD167786 📆 2025-08-05 ? 
