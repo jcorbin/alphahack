@@ -1,0 +1,105 @@
+T0.00018189207185059786 now: 2025-08-06T08:05:43EDT
+TD39 site: squareword.org
+TDD5992927 🧩  ? #1283
+TDD-5992442 puzzle_id: #1283
+TDD-474 wordlist: nwl2023.txt
+TDD2801582 > ?
+TDD8289343 <INT>
+T0.04375489696394652 now: 2025-08-06T08:06:10EDT
+TD3354370 > /help /man
+TDD-800210 > /man
+TDD2427595 > /man sedan 1
+TDD10233705 > /man 1 sedan
+TDD-14985885 questioning: ["SEDAN", "#1"]
+TDD9811844 #1 _____  📋 "SEDAN" ? S____ ~ SA
+TDD-10040376 attempt 0 SEDAN Y n n m n
+TDD2866605 #2 _____  📋 "SEDAN" ? _E___
+TDD-2867179 attempt 1 SEDAN n Y n n n
+TDD4170085 #3 _____  📋 "SEDAN" ? ____N ~ EA
+TDD-4170286 attempt 2 SEDAN n m n m Y
+TDD6345364 #4 _____  📋 "SEDAN" ? _E___ ~ E
+TDD-6345456 attempt 3 SEDAN n Y n n n
+TDD3474274 #5 _____  📋 "SEDAN" ? _E___ ~ SE
+TDD-3474013 attempt 4 SEDAN m Y n n n
+TDD514912 ? 
+TDD-515077 questioning: ["ARSON", "#3"]
+T0.04313747689593583 now: 2025-08-06T08:08:35EDT
+TD92 questioning: ["ARSON", "#3"]
+TDD13057593 #1 S____ ~A -DEN  📋 "ARSON" ? S____ ~ SA
+TDD-13056572 attempt 0 ARSON m n m n n
+TDD3875294 #2 _E___ -ADNS  📋 "ARSON" ? _E___ ~ O
+TDD-3876022 attempt 1 ARSON n n n m n
+TDD5019027 #3 ____N ~AE -DS  📋 "ARSON" ? A___N ~ E
+TDD-5019006 attempt 2 ARSON Y n n n Y
+TDD3399164 #4 _E___ -ADNS  📋 "ARSON" ? _E___ ~ E
+TDD-3399412 attempt 3 ARSON n n n n n
+TDD2758568 #5 _E___ ~S -ADN  📋 "ARSON" ? _E___ ~ SE
+TDD-2758555 attempt 4 ARSON n n m n n
+TDD456976 ? 
+TDD-456848 question done
+TDD5258933 > *
+TDD-4381567 questioning: ["alien", "#3"]
+TDD9993285 #1 S____ ~A -DENOR  📋 "alien" ? S____ ~ SA
+TDD-10870553 attempt 0 ALIEN m n n n n
+TDD3435419 #2 _E___ ~O -ADNRS  📋 "alien" ? _E___ ~ OL
+TDD-3435661 attempt 1 ALIEN n m n n n
+TDD1151479 #3 A___N ~E -DORS  📋 "alien" ? /it
+TDD-1151446 attempt 2 ALIEN Y Y Y Y Y
+TDD5002893 #4 _E___ -ADNORS  📋 "alien" ? _E_E_ ~ EL
+TDD-5002740 attempt 3 ALIEN n m n Y n
+TDD3156018 #5 _E___ ~S -ADNOR  📋 "alien" ? _E___ ~ SEL
+TDD-3155886 attempt 4 ALIEN n m n m n
+TDD386599 ? 
+TDD-386829 question done
+TDD1138549 > *
+TDD6219853 try? 1
+TDD-7358106 questioning: ["smack", "#1"]
+TDD3588595 #1 S____ ~A -DEILNOR  📋 "smack" ? sma__ ~ s
+TDD-3588647 attempt 0 SMACK Y Y Y n n
+TDD2738367 #2 _E___ ~LO -ADEINRS  📋 "smack" ? .
+TDD-2738415 attempt 1 SMACK n n n n n
+TDD3340342 #4 _E_E_ ~L -ADINORS  📋 "smack" ? _E_E_ ~ EL
+TDD-3340232 attempt 3 SMACK n n n n n
+TDD3031931 #5 _E___ ~LS -ADINOR  📋 "smack" ? _E___ ~ SELK
+TDD-3032308 attempt 4 SMACK m n n n m
+TDD1961309 ? 
+TDD-1961247 question done
+TDD513494 > *
+TDD73156 questioning: ["smash", "#1"]
+TDD4091948 #1 SMA__ -CDEIKLNOR  📋 "smash" ? /it
+TDD-4678530 attempt 0 SMASH Y Y Y Y Y
+TDD4660371 #2 _E___ ~LO -ACDEIKMNRS  📋 "smash" ? _E___ ~ OLH
+TDD-4660346 attempt 1 SMASH n n n n m
+TDD3330521 #4 _E_E_ ~L -ACDIKMNORS  📋 "smash" ? _E_E_ ~ EL
+TDD-3330357 attempt 3 SMASH n n n n n
+TDD2914446 #5 _E___ ~KLS -ACDIMNOR  📋 "smash" ? _E___ ~ SELK
+TDD-2914449 attempt 4 SMASH m n n m n
+TDD1021678 ? 
+TDD-1021946 question done
+TDD492185 > *
+TDD274655 questioning: ["hello", "#2"]
+TDD2202527 #2 _E___ ~HLO -ACDEIKMNRS  📋 "hello" ? /it
+TDD-2969263 attempt 1 HELLO Y Y Y Y Y
+TDD4963137 #4 _E_E_ ~L -ACDHIKMNORS  📋 "hello" ? _E_E_ ~ EL
+TDD-4963307 attempt 3 HELLO n Y m m n
+TDD2491391 #5 _E___ ~KLS -ACDHIMNOR  📋 "hello" ? _E___ ~ SELK
+TDD-2491382 attempt 4 HELLO n Y m m n
+TDD732963 ? 
+TDD-732928 question done
+TDD481066 > *
+TDD875742 questioning: ["levee", "#4"]
+TDD4168140 #4 _E_E_ ~L -ACDHIKMNORS  📋 "levee" ? /it
+TDD-5524730 attempt 3 LEVEE Y Y Y Y Y
+TDD3451915 #5 _E___ ~KLS -ACDHIMNOR  📋 "levee" ? LE___ ~ SEK
+TDD-3452185 attempt 4 LEVEE Y Y n m m
+TDD776579 ? 
+TDD-776464 question done
+TDD491521 > *
+TDD579834 questioning: ["leeks", "#5"]
+TDD2705533 #5 LE___ ~KS -ACDHIMNORV  📋 "leeks" ? /it
+TDD-3776696 attempt 4 LEEKS Y Y Y Y Y
+TDD259850 ? 
+TDD-260192 question done
+TDD5417352 Press <Enter> to 📋 or `>` for line prompt 
+TDD-5414029 result: "squareword.org 1283: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1283"
+TDD156883 📆 2025-08-06 ? 
