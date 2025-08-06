@@ -1,0 +1,35 @@
+T0.00019088899716734886 now: 2025-08-06T07:45:55EDT
+TD64022 loaded 196553 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (50 words excluded) asof 735bc17a31283208e25e0cc5e1c899b9fc97e81a
+TDD8198380 [0 : 98234 : 196553] mach? b
+TDD-8262048 progress: -1 98234 mach
+TDD1555291 [0 : 47395 : 98234] dis? a
+TDD-1555491 progress: 1 47395 dis
+TDD1493865 [47396 : 72815 : 98234] gremolata? b
+TDD-1493931 progress: -1 72815 gremolata
+TDD1462869 [47396 : 60098 : 72815] face? a
+TDD-1462872 progress: 1 60098 face
+TDD1492219 [60099 : 66454 : 72815] french? b
+TDD-1492175 progress: -1 66454 french
+TDD1484580 [60099 : 63254 : 66454] flag? b
+TDD-1484619 progress: -1 63254 flag
+TDD1388723 [60099 : 61634 : 63254] fen? a
+TDD-1388721 progress: 1 61634 fen
+TDD1808266 [61635 : 62438 : 63254] fila? b
+TDD-1808128 progress: -1 62438 fila
+TDD1628321 [61635 : 62032 : 62438] feudal? b
+TDD-1628342 progress: -1 62032 feudal
+TDD1537786 [61635 : 61714 : 62032] fer? b
+TDD-1537844 progress: -1 61714 fer
+TDD1418498 [61635 : 61665 : 61714] fenestra? b
+TDD-1418523 progress: -1 61665 fenestra
+TDD1822061 [61635 : 61639 : 61665] fence? it
+TDD-1821958 progress: 0 61639 fence
+TDD-195 [61635 : 61639 : 61665] <Done>.
+TDD2602266 press <Return> to finish
+TDD-2413035 Press <Enter> to 📋 or `>` for line prompt 
+TDD-184976 share result: "\ud83e\udde9 Puzzle #743\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 17s\n\n\ud83d\udd17 alphaguess.com"
+TDD-4232 result puzzle: 743
+TDD-34 result guesses: 12
+TDD-5 result time: 17s
+TDD-2 result link: alphaguess.com
+TDD175364 📆 2025-08-06 ? 
