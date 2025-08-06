@@ -1,0 +1,78 @@
+T0.0002566151088103652 now: 2025-08-06T07:47:45EDT
+TD42 site: https://play.dictionary.com/games/todays-hurdle
+TDD-11 wordlist: nwl2023.txt
+TDD750129 1.1> *
+TDD2702231 1.1 ? 1
+TDD561090 1.1 📋 "rales" ? nnnMn
+TDD-4012605 tried: RALES n n n m n
+TDD473763 1.2> *
+TDD8726383 1.2 ? 10
+TDD-5067697 1.2 📋 "fiend" ? nnMnn
+TDD-4133008 tried: FIEND n n m n n
+TDD1317606 1.3> *
+TDD650488 1.3 ? 1
+TDD4987543 1.3 📋 "thyme" ? nnnnY
+TDD-6955725 tried: THYME n n n n Y
+TDD540452 1.4> *
+TDD5137451 1.4 ? 3
+TDD-2325639 1.4 📋 "vogue" ? it
+TDD-3352249 tried: VOGUE Y Y Y Y Y
+TDD8169040 2.1 📋 "vogue" ? nYnnn
+TDD-8169139 tried: VOGUE n Y n n n
+TDD1848515 2.2> *
+TDD131147 2.2 ? 1
+TDD2135393 2.2 📋 "sonar" ? nYnnY
+TDD-4114912 tried: SONAR n Y n n Y
+TDD542307 2.3> *
+TDD1817500 2.3 ? 2
+TDD1033089 2.3 📋 "color" ? it
+TDD-3392876 tried: COLOR Y Y Y Y Y
+TDD8438546 3.1 📋 "color" ? nnnnn
+TDD-8438523 tried: COLOR n n n n n
+TDD747583 3.2> *
+TDD986113 3.2 ? 1
+TDD2226528 3.2 📋 "pitas" ? nnMMn
+TDD-3960233 tried: PITAS n n m m n
+TDD458900 3.3> *
+TDD728622 3.3 ? 1
+TDD2542914 3.3 📋 "agent" ? it
+TDD-3730486 tried: AGENT Y Y Y Y Y
+T0.04794696194585413 now: 2025-08-06T07:50:14EDT
+TD4158024 4.1 📋 "agent" ? nnnnn
+TDD-4157144 tried: AGENT n n n n n
+T0.043109535006806254 now: 2025-08-06T07:59:50EDT
+TD2564444 4.2> ?
+TDD-516400 4.2> /help tried
+TDD3177299 4.2> tried vogue 
+TDD-289405 4.2> tried vogue nnnMn
+TDD-4935644 tried: VOGUE n n n m n
+TDD1777582 4.3> *
+TDD367170 4.3 ? 2
+TDD1918596 4.3 📋 "slurp" ? nMMnn
+TDD-4063439 tried: SLURP n m m n n
+TDD530806 4.4> *
+TDD1135628 4.4 ? 1
+TDD2210571 4.4 📋 "lucid" ? MYnnn
+TDD-3876825 tried: LUCID m Y n n n
+TDD1839259 4.5> *
+TDD1762098 4.5 ? 1
+TDD151991 4.5 📋 "bulky" ? it
+TDD-3753449 tried: BULKY Y Y Y Y Y
+TDD51399828 5.1 📋 "vogue" ? nYMnn
+TDD-51399985 tried: VOGUE n Y m n n
+TDD2185973 5.2 📋 "color" ? nYnnn
+TDD-2185656 tried: COLOR n Y n n n
+TDD1685790 5.3 📋 "agent" ? nMnnn
+TDD-1686083 tried: AGENT n m n n n
+TDD2104508 5.4 📋 "bulky" ? nnnnY
+TDD-2104308 tried: BULKY n n n n Y
+TDD703185 5.5> *
+TDD9403683 5.5 ? 1
+TDD-6114195 5.5 📋 "podgy" ? nYYYY
+TDD-3992581 tried: PODGY n Y Y Y Y
+TDD484415 5.6> *
+TDD2788980 5.6 📋 "dodgy" ? it
+TDD-3273672 tried: DODGY Y Y Y Y Y
+TDD8590778 Press <Enter> to 📋 or `>` for line prompt 
+TDD-8586928 result: "Hurdle 1313\n\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,900"
+TDD161438 📆 2025-08-06 ? 
