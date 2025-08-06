@@ -1,0 +1,52 @@
+T0.00021809700410813093 now: 2025-08-06T08:11:09EDT
+TD50 site: dontwordle.com
+TDD-21 wordlist: nwl2023.txt
+TDD4019551 1> * -bot 10
+TDD-1116632 ? 9
+TDD1558801 📋 "arise" ? MMnnn
+TDD-4461004 tried: ARISE m m n n n
+TDD860786 2> undo
+TDD-861353 undo
+TDD3170211 1> *
+TDD-1054424 ? 2
+TDD1889019 📋 "femme" ? nnnnn
+TDD-4004664 tried: FEMME n n n n n
+TDD564800 2> *
+TDD1272225 ? 2
+TDD3895815 📋 "ovolo" ? Mnnnn
+TDD-5732825 tried: OVOLO m n n n n
+TDD767672 3> undo
+TDD-767788 undo
+TDD2956832 2> *
+TDD638947 ? 1
+TDD621623 📋 "swiss" ? nnnnn
+TDD-4217393 tried: SWISS n n n n n
+TDD1546718 3> *
+TDD123290 ? 1
+TDD2278784 📋 "bubby" ? nnnnn
+TDD-3948741 tried: BUBBY n n n n n
+TDD865964 4> *
+TDD3096437 📋 "phpht" ? nnnnY
+TDD-3962357 tried: PHPHT n n n n Y
+T0.04242249997332692 now: 2025-08-06T08:12:29EDT
+TD4346545 5> undo
+TDD-4346084 undo
+TDD2546601 4> *
+TDD5220175 4> * -sans :v [aor]
+TDD-3944803 📋 "phpht" ? 
+TDD-273815 4> * -sans :v [aot]
+TDD3689893 📋 "grrrl" ? nnYnn
+TDD-7237998 tried: GRRRL n n Y n n
+TDD914455 5> *
+TDD2056497 5> * -sans :v [ao]
+TDD-523322 5> * -sans :v a
+TDD-914450 ? 1
+TDD5404511 📋 "north" ? nMYMn
+TDD-6938044 tried: NORTH n m Y m n
+TDD1852070 6> * -sans
+TDD12329136 ? 3
+TDD-8376870 📋 "tardo" ? YYYnM
+TDD-5804270 tried: TARDO Y Y Y n m
+TDD3716322 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3713289 result: "Don't Wordle 1170 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5567\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1562\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c551\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c34\n\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\u2b1c4\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe83\nUndos used: 3\n\n  3 words remaining\nx 8 unused letters\n= 24 total score"
+TDD150621 📆 2025-08-06 ? 
