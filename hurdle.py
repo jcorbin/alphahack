@@ -209,10 +209,16 @@ class Search(StoredLog):
         return self.prompt(ui)
 
     def do_gen(self, ui: PromptUI):
+        '''
+        generate [<NUMBER>=10]  # presents N score-randomized words
+        '''
         n = ui.tokens.have(r'\d+', lambda m: int(m[0])) or 10
         return self.guess(ui, show_n=n)
 
     def do_fail(self, ui: PromptUI):
+        '''
+        fail <WORD>  # marks the puzzle search as failed, providing the unfound word
+        '''
         if not ui.tokens:
             ui.print(f'! must provide fail word')
             return
@@ -231,6 +237,13 @@ class Search(StoredLog):
         self.attempts.append(tuple(at.word for at in self.tried))
 
     def do_tried(self, ui: PromptUI):
+        '''
+        tried <WORD> <FEEDBACK>  # records an attempted word
+
+        Feedback is a word-sized sequence of n/m/y responses
+
+        Word and feedback case does not matter
+        '''
         try:
             at = Attempt.parse(ui.tokens, expected_size=self.size)
         except ValueError as err:
@@ -239,6 +252,9 @@ class Search(StoredLog):
         self.handle_tried(ui, at)
 
     def do_word(self, ui: PromptUI):
+        '''
+        word <WORD>  # records a found word
+        '''
         word = next(ui.tokens)
         if len(word) != self.size:
             ui.print(f'! given word wrong size ({len(word)}), must be {self.size}')
