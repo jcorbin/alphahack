@@ -1,0 +1,128 @@
+T0.00034189599955425365 now: 2025-08-07T09:57:08EDT
+TD61 site: squareword.org
+TDD2255042 🧩  ? #1284
+TDD-2254926 puzzle_id: #1284
+TDD-162 wordlist: nwl2023.txt
+TDD1404685 > *
+TDD432170 try? 1
+TDD-1836629 questioning: ["parse", "#5"]
+TDD8514369 #1 _____  📋 "parse" ? _A___ ~ PAS
+TDD-8513682 attempt 0 PARSE m Y n m n
+TDD2998705 #2 _____  📋 "parse" ? _____ ~ E
+TDD-2999401 attempt 1 PARSE n n n n m
+TDD3072534 #3 _____  📋 "parse" ? ____E ~ AR
+TDD-3072604 attempt 2 PARSE n m m n Y
+TDD2850114 #4 _____  📋 "parse" ? _____ ~ A
+TDD-2850078 attempt 3 PARSE n m n n n
+TDD3576390 #5 _____  📋 "parse" ? _____ ~ SE
+TDD-3576364 attempt 4 PARSE n n n m m
+TDD959778 ? 
+TDD-959870 question done
+TDD784186 > *
+TDD9705242 try? 3
+TDD-10489389 questioning: ["damps", "#1"]
+TDD7029238 #1 _A___ ~PS -ER  📋 "damps" ? _A__S ~ PA
+TDD-7029219 attempt 0 DAMPS n Y n m Y
+TDD3359818 #2 _____ ~E -APRS  📋 "damps" ? _____ ~ EM
+TDD-3359873 attempt 1 DAMPS n n m n n
+TDD5317746 #3 ____E ~AR -PS  📋 "damps" ? .
+TDD-5317711 attempt 2 DAMPS n m n n n
+TDD1944645 #4 _____ ~A -EPRS  📋 "damps" ? .
+TDD-1944596 attempt 3 DAMPS n m n n n
+TDD1063975 #5 _____ ~ES -APR  📋 "damps" ? .
+TDD-1063992 attempt 4 DAMPS n n n n m
+TDD950029 ? 
+TDD-950167 question done
+TDD560908 > *
+TDD14395184 try? 8
+TDD-14956010 questioning: ["napas", "#1"]
+TDD6497487 #1 _A__S ~P -DEMR  📋 "napas" ? _APAS
+TDD-6497466 attempt 0 NAPAS n Y Y Y Y
+TDD1460936 #2 _____ ~EM -ADPRS  📋 "napas" ? .
+TDD-1460965 attempt 1 NAPAS n n n n n
+TDD2284790 #3 ____E ~AR -DMPS  📋 "napas" ? .
+TDD-2284779 attempt 2 NAPAS n m n m n
+TDD3001084 #4 _____ ~A -DEMPRS  📋 "napas" ? ___A_
+TDD-3001051 attempt 3 NAPAS n n n Y n
+TDD1883764 #5 _____ ~ES -ADMPR  📋 "napas" ? .
+TDD-1883787 attempt 4 NAPAS n n n n m
+TDD400827 ? 
+TDD-400892 question done
+TDD762426 > *
+TDD2166917 try? 2
+TDD-2929256 questioning: ["tapas", "#1"]
+TDD3102968 #1 _APAS -DEMNR  📋 "tapas" ? /it
+TDD-3102954 attempt 0 TAPAS Y Y Y Y Y
+TDD1800666 #2 _____ ~EM -ADNPRS  📋 "tapas" ? .
+TDD-1800699 attempt 1 TAPAS n n n n n
+TDD1805573 #3 ____E ~AR -DMNPS  📋 "tapas" ? .
+TDD-1805593 attempt 2 TAPAS n m n m n
+TDD1130120 #4 ___A_ -DEMNPRS  📋 "tapas" ? .
+TDD-1130133 attempt 3 TAPAS n n n Y n
+TDD940088 #5 _____ ~ES -ADMNPR  📋 "tapas" ? .
+TDD-939695 attempt 4 TAPAS n n n n m
+TDD873883 ? 
+TDD-874297 question done
+TDD795264 > *
+TDD4607111 try? 2
+TDD-5402352 questioning: ["whelm", "#2"]
+TDD6107219 #2 _____ ~EM -ADNPRST  📋 "whelm" ? __E_M ~ L
+TDD-6107060 attempt 1 WHELM n n Y m Y
+TDD4472125 #3 ____E ~AR -DMNPST  📋 "whelm" ? ____E ~ ARL
+TDD-4472196 attempt 2 WHELM n n n m n
+TDD4298621 #4 ___A_ -DEMNPRST  📋 "whelm" ? ___A_ ~ L
+TDD-4298609 attempt 3 WHELM n n n m n
+TDD3576990 #5 _____ ~ES -ADMNPRT  📋 "whelm" ? __EL_ ~ SWL
+TDD-3577074 attempt 4 WHELM m n Y Y n
+TDD575714 ? 
+TDD-575766 question done
+TDD1197794 > *
+TDD1528537 questioning: ["swell", "#5"]
+TDD4662815 #2 __E_M ~L -ADHNPRSTW  📋 "swell" ? .
+TDD-7389083 attempt 1 SWELL n n Y m m
+TDD1817438 #3 ____E ~ALR -DEHMNPSTW  📋 "swell" ? .
+TDD-1817437 attempt 2 SWELL n n n m m
+TDD2767557 #4 ___A_ ~L -DEHMNPRSTW  📋 "swell" ? ___AL
+TDD-2767592 attempt 3 SWELL n n n n Y
+TDD1171743 #5 __EL_ ~SW -ADHMNPRT  📋 "swell" ? /it
+TDD-1171689 attempt 4 SWELL Y Y Y Y Y
+TDD865373 ? 
+TDD-865412 question done
+TDD1499762 > *
+TDD4670090 try? 2
+TDD-6169761 questioning: ["oleum", "#2"]
+TDD7036715 #2 __E_M ~L -ADHNPRSTW  📋 "oleum" ? _LEUM
+TDD-7036820 attempt 1 OLEUM n Y Y Y Y
+TDD3054371 #3 ____E ~ALR -DEHMNPSTW  📋 "oleum" ? _L__E ~ AR
+TDD-3054328 attempt 2 OLEUM n Y n n n
+TDD6377551 #4 ___AL -DEHMNPRSTW  📋 "oleum" ? ___AL ~ O
+TDD-6377582 attempt 3 OLEUM m n n n n
+TDD896402 ? 
+TDD-896429 question done
+TDD1357594 > *
+TDD1065058 questioning: ["ileum", "#2"]
+TDD4528942 #2 _LEUM -ADHNOPRSTW  📋 "ileum" ? /it
+TDD-6951550 attempt 1 ILEUM Y Y Y Y Y
+TDD3303122 #3 _L__E ~AR -DEHMNOPSTUW  📋 "ileum" ? .
+TDD-3303111 attempt 2 ILEUM n Y n n n
+TDD1018490 #4 ___AL ~O -DEHLMNPRSTUW  📋 "ileum" ? .
+TDD-1018521 attempt 3 ILEUM n n n n n
+TDD690481 ? 
+TDD-690529 question done
+TDD828328 > *
+TDD1302278 questioning: ["flare", "#3"]
+TDD3356651 #3 _L__E ~AR -DEHIMNOPSTUW  📋 "flare" ? /it
+TDD-5487209 attempt 2 FLARE Y Y Y Y Y
+TDD2488445 #4 ___AL ~O -DEHILMNPRSTUW  📋 "flare" ? f__AL ~ O
+TDD-2488413 attempt 3 FLARE Y n n n n
+TDD1434600 ? 
+TDD-1434678 question done
+TDD2742925 > *
+TDD-1487066 questioning: ["focal", "#4"]
+TDD3289367 #4 F__AL ~O -ADEHILMNPRSTUW  📋 "focal" ? /i
+TDD-4545003 attempt 3 FOCAL Y Y Y Y Y
+TDD3270488 ? 
+TDD-3270703 question done
+TDD13532079 Press <Enter> to 📋 or `>` for line prompt 
+TDD-13529328 result: "squareword.org 1284: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1284"
+TDD154515 📆 2025-08-07 ? 
