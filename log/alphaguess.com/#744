@@ -1,0 +1,48 @@
+T0.00023372499981633155 now: 2025-08-07T09:52:31EDT
+TD75022 loaded 196553 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (50 words excluded) asof 2b4e156767ec3cc92d56de432800eff966a78520
+TDD5536103 [0 : 98234 : 196553] mach? a
+TDD-5610809 progress: 1 98234 mach
+TDD2830087 [98235 : 147395 : 196553] rhumb? a
+TDD-2830250 progress: 1 147395 rhumb
+TDD2044634 [147396 : 171661 : 196553] ta? a
+TDD-2044699 progress: 1 171661 ta
+TDD2337262 [171662 : 182029 : 196553] un? s
+TDD-700556 [171662 : 182029 : 196553] un? a
+TDD-1636676 progress: 1 182029 un
+TDD2484771 [182030 : 189292 : 196553] vicar? a
+TDD-2484779 progress: 1 189292 vicar
+TDD2193003 [189293 : 192896 : 196553] whir? a
+TDD-2192992 progress: 1 192896 whir
+TDD2053805 [192897 : 194721 : 196553] worship? b
+TDD-2053788 progress: -1 194721 worship
+TDD2419972 [192897 : 193512 : 194721] win? a
+TDD-2419957 progress: 1 193512 win
+TDD1756302 [193513 : 194092 : 194721] wo? b
+TDD-1756362 progress: -1 194092 wo
+TDD1794416 [193513 : 193767 : 194092] winter? a
+TDD-1794416 progress: 1 193767 winter
+TDD1578451 [193768 : 193923 : 194092] wisp? a
+TDD-1578437 progress: 1 193923 wisp
+TDD1794505 [193924 : 193982 : 194092] with? a
+TDD-1794482 progress: 1 193982 with
+TDD1687790 [193983 : 194033 : 194092] witless? b
+TDD-1687827 progress: -1 194033 witless
+TDD1842460 [193983 : 193994 : 194033] withe? a
+TDD-1842464 progress: 1 193994 withe
+TDD1622069 [193995 : 194011 : 194033] withhold? a
+TDD-1622071 progress: 1 194011 withhold
+TDD1572924 [194012 : 194020 : 194033] within? a
+TDD-1572922 progress: 1 194020 within
+TDD1883553 [194021 : 194024 : 194033] without? a
+TDD-1883557 progress: 1 194024 without
+TDD1840568 [194025 : 194027 : 194033] withstand? it
+TDD-1840571 progress: 0 194027 withstand
+TDD-65 [194025 : 194027 : 194033] <Done>.
+TDD3021588 press <Return> to finish
+TDD-2832954 Press <Enter> to 📋 or `>` for line prompt 
+TDD-185679 share result: "\ud83e\udde9 Puzzle #744\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 36s\n\n\ud83d\udd17 alphaguess.com"
+TDD-2930 result puzzle: 744
+TDD-16 result guesses: 18
+TDD-8 result time: 36s
+TDD-1 result link: alphaguess.com
+TDD646067 📆 2025-08-07 ? 
