@@ -1,0 +1,45 @@
+T0.00018916399949375773 now: 2025-08-07T10:01:20EDT
+TD42 site: dontwordle.com
+TDD-15 wordlist: nwl2023.txt
+TDD2164284 1> * -bot 10
+TDD961848 ? 5
+TDD1792714 📋 "arose" ? MMnnn
+TDD-4918505 tried: AROSE m m n n n
+TDD3253766 2> undo
+TDD-3254053 undo
+TDD3334487 1> *
+TDD-1466482 ? 2
+TDD3385287 📋 "phpht" ? nnnnn
+TDD-5253274 tried: PHPHT n n n n n
+TDD987289 2> *
+TDD902844 ? 3
+TDD2326390 📋 "civic" ? nnnnn
+TDD-4216505 tried: CIVIC n n n n n
+TDD527426 3> *
+TDD666350 ? 1
+TDD3786589 📋 "deedy" ? Mnnnn
+TDD-4980361 tried: DEEDY m n n n n
+TDD1050190 4> undo
+TDD-1050234 undo
+TDD3005588 3> *
+TDD-50806 ? 1
+TDD576886 📋 "sooks" ? nnnnn
+TDD-3531564 tried: SOOKS n n n n n
+TDD2249206 4> *
+TDD-888064 ? 1
+TDD3543028 📋 "jewel" ? nnnnn
+TDD-4904179 tried: JEWEL n n n n n
+TDD607115 5> *
+TDD841885 ? 1
+TDD2742138 📋 "yummy" ? nnnnn
+TDD-4191217 tried: YUMMY n n n n n
+TDD931990 6> *
+TDD3943317 6> * -sans :v [ad]
+TDD-515166 6> * -sans :v [ar]
+TDD840733 6> * -sans :v [dr]
+TDD-2574126 ? 1
+TDD2068869 📋 "fanga" ? nYnnM
+TDD-4695608 tried: FANGA n Y n n m
+TDD3314239 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3311011 result: "Don't Wordle 1171 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7300\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4104\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1158\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c220\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c33\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe82\nUndos used: 2\n\n  2 words remaining\nx 6 unused letters\n= 12 total score"
+TDD150435 📆 2025-08-07 ? 
