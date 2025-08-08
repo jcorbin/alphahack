@@ -1,0 +1,39 @@
+T0.0004754230030812323 now: 2025-08-08T08:37:24EDT
+TD94 site: dontwordle.com
+TDD-28 wordlist: nwl2023.txt
+TDD5190974 1> * -bot 10
+TDD-3423478 ? 1
+TDD4670543 📋 "arose" ? nYMnM
+TDD-6437379 tried: AROSE n Y m n m
+TDD2171063 2> undo
+TDD-2171583 undo
+TDD4007648 1> *
+TDD-2172050 ? 1
+TDD2234186 📋 "jujus" ? nnnnn
+TDD-4069851 tried: JUJUS n n n n n
+TDD570213 2> *
+TDD704530 ? 1
+TDD3343262 📋 "zakat" ? nnnnn
+TDD-4617911 tried: ZAKAT n n n n n
+TDD778281 3> *
+TDD1542803 ? 1
+TDD1505344 📋 "whiff" ? nnnnn
+TDD-3826409 tried: WHIFF n n n n n
+TDD548442 4> *
+TDD1048697 ? 1
+TDD2945931 📋 "pygmy" ? nnnnn
+TDD-4543168 tried: PYGMY n n n n n
+TDD672602 5> *
+TDD1861688 5> * -sans :v [eo]
+TDD1807623 5> * -sans :v [er]
+TDD-2847458 ? 1
+TDD3236673 📋 "blond" ? nnMnM
+TDD-4731047 tried: BLOND n n m n m
+TDD2167901 6> *
+TDD28742 6> * -sans
+TDD8317437 ? 5
+TDD-5162914 📋 "codec" ? YMMMn
+TDD-5351006 tried: CODEC Y m m m n
+TDD5429498 Press <Enter> to 📋 or `>` for line prompt 
+TDD-5423542 result: "Don't Wordle 1172 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5557\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1836\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c697\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c208\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe812\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c1\nUndos used: 1\n\n  1 words remaining\nx 4 unused letters\n= 4 total score"
+TDD1112710 📆 2025-08-08 ? 
