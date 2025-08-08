@@ -1,0 +1,41 @@
+T0.0002441809920128435 now: 2025-08-08T08:24:37EDT
+TD75766 loaded 196553 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (50 words excluded) asof 15ee5adad8a7971458a8d7f1050d4dcbc87fe177
+TDD4320272 [0 : 98234 : 196553] mach? a
+TDD-4395410 progress: 1 98234 mach
+TDD1554419 [98235 : 147395 : 196553] rhumb? a
+TDD-1554669 progress: 1 147395 rhumb
+TDD1651792 [147396 : 171661 : 196553] ta? a
+TDD-1651958 progress: 1 171661 ta
+TDD1731920 [171662 : 182029 : 196553] un? a
+TDD-1731990 progress: 1 182029 un
+TDD1772970 [182030 : 189292 : 196553] vicar? b
+TDD-1772806 progress: -1 189292 vicar
+TDD1858729 [182030 : 185660 : 189292] unretire? b
+TDD-1858748 progress: -1 185660 unretire
+TDD1763503 [182030 : 183845 : 185660] unembittered? b
+TDD-1763579 progress: -1 183845 unembittered
+TDD1635947 [182030 : 182812 : 183845] unco? a
+TDD-1635876 progress: 1 182812 unco
+TDD1726578 [182813 : 183139 : 183845] under? a
+TDD-1726690 progress: 1 183139 under
+TDD1562469 [183140 : 183489 : 183845] undershirt? b
+TDD-1562435 progress: -1 183489 undershirt
+TDD4642458 [183140 : 183313 : 183489] undergo? a
+TDD-4642572 progress: 1 183313 undergo
+TDD1761066 [183314 : 183401 : 183489] undernutrition? a
+TDD-1760887 progress: 1 183401 undernutrition
+TDD1678547 [183402 : 183443 : 183489] underprice? a
+TDD-1678550 progress: 1 183443 underprice
+TDD1527478 [183444 : 183465 : 183489] underreport? a
+TDD-1527547 progress: 1 183465 underreport
+TDD1785934 [183466 : 183474 : 183489] underscore? it
+TDD-1785902 progress: 0 183474 underscore
+TDD-179 [183466 : 183474 : 183489] <Done>.
+TDD2519013 press <Return> to finish
+TDD-2335371 Press <Enter> to 📋 or `>` for line prompt 
+TDD-178155 share result: "\ud83e\udde9 Puzzle #745\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 27s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5473 result puzzle: 745
+TDD-42 result guesses: 15
+TDD-5 result time: 27s
+TDD-1 result link: alphaguess.com
+TDD174276 📆 2025-08-08 ? 
