@@ -1,0 +1,99 @@
+T0.0001806660002330318 now: 2025-08-08T08:25:33EDT
+TD40 site: squareword.org
+TDD3944754 🧩  ? #1285
+TDD-3944651 puzzle_id: #1285
+TDD-131 wordlist: nwl2023.txt
+TDD1818773 > *
+TDD657540 try? 2
+TDD-2475604 questioning: ["earns", "#5"]
+TDD3465137 #1 _____  📋 "earns" ? 
+T0.04533860400260892 now: 2025-08-08T08:26:03EDT
+TD94 questioning: ["earns", "#5"]
+TDD4576544 #1 _____  📋 "earns" ? _____ ~ AR
+TDD-4574852 attempt 0 EARNS n m m n n
+TDD3840729 #2 _____  📋 "earns" ? E____ ~ ERN
+TDD-3842347 attempt 1 EARNS Y n m m n
+TDD3873394 #3 _____  📋 "earns" ? __R__ ~ ES
+TDD-3873053 attempt 2 EARNS m n Y n m
+TDD3512314 #4 _____  📋 "earns" ? ____S ~ ER
+TDD-3512098 attempt 3 EARNS m n m n Y
+TDD4079827 #5 _____  📋 "earns" ? _____ ~ EAS
+TDD-4080026 attempt 4 EARNS m m n n m
+TDD1095915 ? 
+TDD-1096078 question done
+TDD2978567 > *
+TDD-409232 try? 1
+TDD-2569456 questioning: ["entry", "#2"]
+TDD7366617 #1 _____ ~AR -ENS  📋 "entry" ? ___r_ ~ at
+TDD-7366663 attempt 0 ENTRY n n m Y n
+TDD3427276 #2 E____ ~NR -AS  📋 "entry" ? ent__ ~ er
+TDD-3426981 attempt 1 ENTRY Y Y Y m n
+TDD6067689 #3 __R__ ~ES -AN  📋 "entry" ? .
+TDD-6067802 attempt 2 ENTRY m n n n n
+TDD4704041 #4 ____S ~ER -AN  📋 "entry" ? ____S ~ ERT
+TDD-4704049 attempt 3 ENTRY m n m m n
+TDD4509982 #5 _____ ~AES -NR  📋 "entry" ? _____ ~ EAST
+TDD-4510190 attempt 4 ENTRY m n m n n
+TDD783265 ? 
+TDD-783094 question done
+TDD1181801 > *
+TDD-350779 questioning: ["enter", "#2"]
+TDD4860620 #1 ___R_ ~AT -ENSY  📋 "enter" ? .
+TDD-5691530 attempt 0 ENTER n n m n n
+TDD875377 #2 ENT__ ~R -ASY  📋 "enter" ? /it
+TDD-875478 attempt 1 ENTER Y Y Y Y Y
+TDD2550654 #3 __R__ ~ES -ANRTY  📋 "enter" ? .
+TDD-2550676 attempt 2 ENTER m n n m n
+TDD5907893 #4 ____S ~ERT -ANY  📋 "enter" ? ___es ~ rt
+TDD-5907879 attempt 3 ENTER n n m Y m
+TDD1598982 #5 _____ ~AEST -NRY  📋 "enter" ? .
+TDD-1599016 attempt 4 ENTER m n m m n
+TDD299201 ? 
+TDD-299236 question done
+TDD1017733 > *
+TDD5337692 try? 2
+TDD-6355483 questioning: ["tiara", "#1"]
+TDD1091221 #1 ___R_ ~AT -ENRSY  📋 "tiara" ? /it
+TDD-1091036 attempt 0 TIARA Y Y Y Y Y
+TDD3202601 #3 __R__ ~ES -ANRTY  📋 "tiara" ? .
+TDD-3202699 attempt 2 TIARA n n n n n
+TDD2925890 #4 ___ES ~RT -ANY  📋 "tiara" ? t__es ~ RI
+TDD-2921707 attempt 3 TIARA Y m n m n
+TDD3733026 #5 _____ ~AEST -NRY  📋 "tiara" ? __a__ ~ EST
+TDD-3737140 attempt 4 TIARA m n Y n n
+TDD701521 ? 
+TDD-701523 question done
+TDD1258846 > *
+TDD297243 questioning: ["servo", "#3"]
+T0.04498323300504126 now: 2025-08-08T08:29:01EDT
+TD87 questioning: ["servo", "#3"]
+TDD2852135 #3 __R__ ~ES -AINRTY  📋 "servo" ? /it
+TDD-2851700 attempt 2 SERVO Y Y Y Y Y
+TDD3443456 #4 T__ES ~IR -ANY  📋 "servo" ? .
+TDD-3443818 attempt 3 SERVO n n m n n
+TDD7786279 #5 __A__ ~EST -INRY  📋 "servo" ? s_a__ ~~ ET
+TDD-7784844 attempt 4 SERVO Y n n n n
+TDD722110 ? 
+TDD-723441 question done
+TDD3363630 > *
+TDD-2690536 questioning: ["tries", "#4"]
+TDD3457186 #4 T__ES ~IR -AENOSVY  📋 "tries" ? /it
+TDD-4130146 attempt 3 TRIES Y Y Y Y Y
+TDD4859062 #5 S_A__ ~T -EINORVY  📋 "tries" ? S_A__ ~ ET
+TDD-4859026 attempt 4 TRIES m n n m n
+TDD621586 ? *
+TDD159506 #6 <IndexError>  📋 "tries" ? 
+TDD-781261 question done
+TDD1274459 > *
+TDD507746 > *
+TDD7894719 > /man 5 S_A__ ~ ET
+TDD-3778946 > /man 5 S_A__ ~ET
+TDD-257317 try? 1
+TDD-5640303 questioning: ["STALE", "#5"]
+TDD3980505 #5 S_A__ ~ET -EINORSVY  📋 "STALE" ? /it
+TDD-3980817 attempt 4 STALE Y Y Y Y Y
+TDD2393958 ? 
+TDD-2394119 question done
+TDD3760607 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3754143 result: "squareword.org 1285: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1285"
+TDD150019 📆 2025-08-08 ? 
