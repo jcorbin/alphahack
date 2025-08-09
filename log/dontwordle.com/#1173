@@ -1,0 +1,40 @@
+T0.0003504050000628922 now: 2025-08-09T08:34:34EDT
+TD89 site: dontwordle.com
+TDD-38 wordlist: nwl2023.txt
+TDD6911571 1> * -bot 10
+TDD-2245211 ? 9
+TDD70743 📋 "aides" ? YnnMn
+TDD-4735970 tried: AIDES Y n n m n
+TDD2326639 2> undo
+TDD-2327658 undo
+TDD3509134 1> *
+TDD-146988 ? 5
+TDD581204 📋 "sunns" ? nnnnn
+TDD-3943346 tried: SUNNS n n n n n
+TDD623794 2> *
+TDD2323231 ? 1
+TDD1601115 📋 "iodid" ? nnnnn
+TDD-4548088 tried: IODID n n n n n
+TDD580607 3> *
+TDD7219442 ? 3
+TDD-3434140 📋 "xylyl" ? nnnnn
+TDD-4365853 tried: XYLYL n n n n n
+TDD1130917 4> *
+TDD2293529 ? 2
+TDD1392142 📋 "phpht" ? nnnnn
+TDD-4816636 tried: PHPHT n n n n n
+TDD490455 5> *
+TDD1811079 5> * -sans :v e
+TDD9116645 ? ␚
+TDD-11418298 <EOF>
+TDD7154198 5> * -sans :v e :v a.*a
+TDD-5589315 ? 1
+TDD4206591 📋 "crack" ? nMYnn
+TDD-5771352 tried: CRACK n m Y n n
+TDD1690444 6> * -sans
+TDD2776444 ? 3
+TDD934830 📋 "reave" ? MnYnY
+TDD-5401724 tried: REAVE m n Y n Y
+TDD2537815 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2530378 result: "Don't Wordle 1173 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4267\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1308\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c582\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c227\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c10\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe92\nUndos used: 1\n\n  2 words remaining\nx 8 unused letters\n= 16 total score"
+TDD165699 📆 2025-08-09 ? 
