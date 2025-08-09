@@ -1,0 +1,29 @@
+T0.0002667280004970962 now: 2025-08-09T08:26:35EDT
+TD81865 loaded 196553 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (50 words excluded) asof 15ee5adad8a7971458a8d7f1050d4dcbc87fe177
+TDD13642868 [0 : 98234 : 196553] mach? b
+TDD-13724200 progress: -1 98234 mach
+TDD1616016 [0 : 47395 : 98234] dis? b
+TDD-1616302 progress: -1 47395 dis
+TDD1541476 [0 : 23581 : 47395] cam? a
+TDD-1541549 progress: 1 23581 cam
+TDD3135061 [23582 : 33713 : 47395] con? b
+TDD-3135058 progress: -1 33713 con
+TDD1558675 [23582 : 28647 : 33713] chloroform? a
+TDD-1558741 progress: 1 28647 chloroform
+TDD1533950 [28648 : 31177 : 33713] coapt? b
+TDD-1533921 progress: -1 31177 coapt
+TDD1433309 [28648 : 29912 : 31177] civvies? a
+TDD-1433250 progress: 1 29912 civvies
+TDD1444675 [29913 : 30545 : 31177] climes? a
+TDD-1444648 progress: 1 30545 climes
+TDD1663040 [30546 : 30840 : 31177] cloud? it
+TDD-1663105 progress: 0 30840 cloud
+TDD-131 [30546 : 30840 : 31177] <Done>.
+TDD2313860 press <Return> to finish
+TDD-2172393 Press <Enter> to 📋 or `>` for line prompt 
+TDD-138123 share result: "\ud83e\udde9 Puzzle #746\n\n\ud83e\udd14 9 guesses\n\n\u23f1\ufe0f 14s\n\n\ud83d\udd17 alphaguess.com"
+TDD-3330 result puzzle: 746
+TDD-24 result guesses: 9
+TDD-4 result time: 14s
+TDD-1 result link: alphaguess.com
+TDD390365 📆 2025-08-09 ? 
