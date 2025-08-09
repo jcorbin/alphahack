@@ -1344,6 +1344,8 @@ class LogTime:
         self.d1 = d1
         self.a1 = tdd
 
+    # TODO unify update* paths
+
     def parse(self, tokens: PeekStr):
         t = tokens.have(r'(?x) T ( [-+]? \d+ [^\s]* )', then=lambda m: float(m[1]))
         if t is not None:
