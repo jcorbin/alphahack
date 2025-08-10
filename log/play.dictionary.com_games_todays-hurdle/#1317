@@ -1,0 +1,65 @@
+T0.0002534420054871589 now: 2025-08-10T08:26:11EDT
+TD57 site: https://play.dictionary.com/games/todays-hurdle
+TDD-26 wordlist: nwl2023.txt
+TDD2813837 1.1> *
+TDD670729 1.1 ? 1
+TDD3224108 1.1 📋 "acres" ? nMnnM
+TDD-6707798 tried: ACRES n m n n m
+TDD642704 1.2> *
+TDD1551839 1.2 ? 2
+TDD2447252 1.2 📋 "sonic" ? YnMnM
+TDD-4642466 tried: SONIC Y n m n m
+TDD904616 1.3> *
+TDD7074332 1.3 📋 "snuck" ? it
+TDD-7978973 tried: SNUCK Y Y Y Y Y
+TDD12258752 2.1 📋 "snuck" ? nnYnn
+TDD-12258685 tried: SNUCK n n Y n n
+TDD6981590 2.2> *
+TDD-3695378 2.2 ? 3
+TDD2163106 2.2 📋 "fault" ? nYYnn
+TDD-5449336 tried: FAULT n Y Y n n
+TDD579601 2.3> *
+TDD1584831 2.3 ? 3
+TDD3423997 2.3 📋 "gauge" ? YYYnY
+TDD-5588271 tried: GAUGE Y Y Y n Y
+TDD3481115 2.4> *
+TDD1229983 2.4 📋 "gauze" ? it
+TDD-4711332 tried: GAUZE Y Y Y Y Y
+TDD11768157 3.1 📋 "gauze" ? nMMnn
+TDD-11767933 tried: GAUZE n m m n n
+TDD709769 3.2> *
+TDD6709518 3.2 ? MnMnY
+TDD-6764108 3.2 ? *
+TDD4265965 3.2 ? 2
+TDD-1682731 3.2 📋 "unarm" ? MnMnY
+TDD-3238551 tried: UNARM m n m n Y
+TDD626784 3.3> *
+TDD3481803 3.3 📋 "album" ? it
+TDD-4108625 tried: ALBUM Y Y Y Y Y
+TDD9214327 4.1 📋 "album" ? Mnnnn
+TDD-9214207 tried: ALBUM m n n n n
+TDD500280 4.2> *
+TDD3274978 4.2 ? 7
+TDD-38342 4.2 📋 "earth" ? MMMnn
+TDD-3737105 tried: EARTH m m m n n
+TDD508140 4.3> *
+TDD1807365 4.3 ? 1
+TDD2009941 4.3 📋 "reads" ? MMYnn
+TDD-4325176 tried: READS m m Y n n
+TDD532933 4.4> *
+TDD1553929 4.4 ? 2
+TDD2838767 4.4 📋 "grape" ? YYYnY
+TDD-4925662 tried: GRAPE Y Y Y n Y
+TDD510048 4.5> *
+TDD4845244 4.5 ? 3
+TDD2591 4.5 📋 "grace" ? YYYnY
+TDD-5357876 tried: GRACE Y Y Y n Y
+TDD499853 4.6> *
+TDD9246566 4.6 ? fail graze
+TDD-4455623 4.6 ? ␚
+TDD-5291044 <EOF>
+TDD1945156 4.6> fail graze
+TDD-1944988 fail: GRAZE
+TDD4570654 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4563457 result: "Hurdle 1317\n\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nX/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\nscore: 3,880"
+TDD135031 📆 2025-08-10 ? 
