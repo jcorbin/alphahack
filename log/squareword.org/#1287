@@ -1,0 +1,78 @@
+T0.0002250260004075244 now: 2025-08-10T08:23:11EDT
+TD65 site: squareword.org
+TDD2612362 🧩  ? #1287
+TDD-2612006 puzzle_id: #1287
+TDD-380 wordlist: nwl2023.txt
+TDD1237128 > *
+TDD2637732 try? 5
+TDD-3874240 questioning: ["dares", "#5"]
+TDD6481066 #1 _____  📋 "dares" ? _____ ~ AS
+TDD-6480440 attempt 0 DARES n m n n m
+TDD5264792 #2 _____  📋 "dares" ? __R__ ~ E
+TDD-5265906 attempt 1 DARES n n Y m n
+TDD2253334 #3 _____  📋 "dares" ? _____ ~ DE
+TDD-2253346 attempt 2 DARES m n n m n
+TDD2623254 #4 _____  📋 "dares" ? _____ ~ RES
+TDD-2622953 attempt 3 DARES n n m m m
+TDD3292344 #5 _____  📋 "dares" ? _AR_S
+TDD-3292407 attempt 4 DARES n Y Y n Y
+TDD878010 ? 
+TDD-878172 question done
+TDD691926 > *
+TDD1673162 try? 1
+TDD-2364913 questioning: ["snore", "#4"]
+TDD4518303 #1 _____ ~AS -DER  📋 "snore" ? S____ ~ A
+TDD-4518493 attempt 0 SNORE Y n n n n
+TDD5796359 #2 __R__ ~E -ADS  📋 "snore" ? __R__ ~ ENO
+TDD-5796108 attempt 1 SNORE n m m n m
+TDD5495106 #3 _____ ~DE -ARS  📋 "snore" ? _N__E ~ D
+TDD-5495137 attempt 2 SNORE n Y n n Y
+TDD1835084 #4 _____ ~ERS -AD  📋 "snore" ? /it
+TDD-1835294 attempt 3 SNORE Y Y Y Y Y
+TDD2062376 #5 _AR_S -DE  📋 "snore" ? .
+TDD-2062201 attempt 4 SNORE n n n n n
+TDD299202 ? 
+TDD-299243 question done
+TDD866454 > *
+TDD3631554 try? 2
+TDD-4498223 questioning: ["heron", "#2"]
+TDD5660639 #1 S____ ~A -DENOR  📋 "heron" ? s____ ~ AH
+TDD-5660498 attempt 0 HERON m n n n n
+TDD1667539 #2 __R__ ~ENO -ADRS  📋 "heron" ? /it
+TDD-1667523 attempt 1 HERON Y Y Y Y Y
+TDD2543394 #3 _N__E ~D -AORS  📋 "heron" ? .
+TDD-2543405 attempt 2 HERON n n n n n
+TDD4557466 #5 _AR_S -DENORS  📋 "heron" ? har_s
+TDD-4557572 attempt 4 HERON Y n Y n n
+TDD682239 ? 
+TDD-682115 question done
+TDD778093 > *
+TDD-129165 questioning: ["shack", "#1"]
+TDD3462247 #1 S____ ~AH -DENOR  📋 "shack" ? /it
+TDD-4111122 attempt 0 SHACK Y Y Y Y Y
+TDD3181122 #3 _N__E ~D -AEHNORS  📋 "shack" ? .
+TDD-3181213 attempt 2 SHACK n n n n n
+TDD1355541 #5 HAR_S -DENOS  📋 "shack" ? .
+TDD-1355240 attempt 4 SHACK n n n n n
+TDD516391 ? *
+TDD159900 ? 
+TDD-676633 question done
+TDD659415 > *
+TDD786701 questioning: ["undue", "#3"]
+TDD3743352 #3 _N__E ~D -ACEHKNORS  📋 "undue" ? /it
+TDD-5189432 attempt 2 UNDUE Y Y Y Y Y
+TDD883885 #5 HAR_S -ACDEHKNOS  📋 "undue" ? .
+TDD-883908 attempt 4 UNDUE n n n n n
+TDD227156 ? 
+TDD-227130 question done
+TDD876630 > *
+TDD137042 questioning: ["harts", "#5"]
+T0.04729733499698341 now: 2025-08-10T08:25:14EDT
+TD63 questioning: ["harts", "#5"]
+TDD1609704 #5 HAR_S -ACDEHKNOSU  📋 "harts" ? /it
+TDD-1609250 attempt 4 HARTS Y Y Y Y Y
+TDD887313 ? 
+TDD-887713 question done
+TDD2825485 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2817871 result: "squareword.org 1287: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1287"
+TDD158783 📆 2025-08-10 ? 
