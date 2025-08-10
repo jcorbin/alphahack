@@ -1,0 +1,44 @@
+T0.0002912809941335581 now: 2025-08-10T08:21:56EDT
+TD88859 loaded 196553 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (50 words excluded) asof 26d3aa0ed52b8566096c0e8377f9850d51329eb6
+TDD7369166 [0 : 98234 : 196553] mach? a
+TDD-7457492 progress: 1 98234 mach
+TDD1620766 [98235 : 147395 : 196553] rhumb? a
+TDD-1621103 progress: 1 147395 rhumb
+TDD1765272 [147396 : 171661 : 196553] ta? b
+TDD-1765279 progress: -1 171661 ta
+TDD1519646 [147396 : 159507 : 171661] slop? a
+TDD-1519596 progress: 1 159507 slop
+TDD1574918 [159508 : 165550 : 171661] stick? b
+TDD-1574866 progress: -1 165550 stick
+TDD1554886 [159508 : 162495 : 165550] spec? b
+TDD-1554985 progress: -1 162495 spec
+TDD1519795 [159508 : 160987 : 162495] soft? b
+TDD-1519712 progress: -1 160987 soft
+TDD1716755 [159508 : 160247 : 160987] snath? b
+TDD-1716784 progress: -1 160247 snath
+TDD1532005 [159508 : 159868 : 160247] smell? a
+TDD-1532074 progress: 1 159868 smell
+TDD1723839 [159869 : 160059 : 160247] smudge? a
+TDD-1723753 progress: 1 160059 smudge
+TDD1655103 [160060 : 160142 : 160247] snake? b
+TDD-1655089 progress: -1 160142 snake
+TDD1525550 [160060 : 160088 : 160142] smut? a
+TDD-1525629 progress: 1 160088 smut
+TDD1604089 [160089 : 160114 : 160142] snaffle? a
+TDD-1604015 progress: 1 160114 snaffle
+TDD1382489 [160115 : 160122 : 160142] snag? a
+TDD-1382583 progress: 1 160122 snag
+TDD4054486 [160123 : 160129 : 160142] snaggle? !
+TDD-922708 [160123 : 160132 : 160141] snaggletoothed? a
+TDD-3131676 progress: 1 160132 snaggletoothed
+TDD1964033 [160133 : 160136 : 160141] snail? it
+TDD-1964073 progress: 0 160136 snail
+TDD-194 [160133 : 160136 : 160141] <Done>.
+TDD2398499 press <Return> to finish
+TDD-2207774 Press <Enter> to 📋 or `>` for line prompt 
+TDD-184967 share result: "\ud83e\udde9 Puzzle #747\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 32s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5754 result puzzle: 747
+TDD-15 result guesses: 16
+TDD-16 result time: 32s
+TDD-3 result link: alphaguess.com
+TDD142314 📆 2025-08-10 ? 
