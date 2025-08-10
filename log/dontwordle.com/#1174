@@ -1,0 +1,51 @@
+T0.00023461099772248417 now: 2025-08-10T08:30:26EDT
+TD46 site: dontwordle.com
+TDD-17 wordlist: nwl2023.txt
+TDD1548309 1> * -bot 10
+TDD2275491 ? 8
+TDD17648846 📋 "tares" ? nYnnn
+TDD-21471783 tried: TARES n Y n n n
+TDD1480824 2> * -bot 10
+TDD2440354 ? 4
+TDD644348 📋 "lanky" ? nYYnn
+TDD-4566099 tried: LANKY n Y Y n n
+TDD1021791 3> undo
+TDD-1021966 undo
+TDD922620 2> undo
+TDD-922509 undo
+TDD101488123 1> *
+TDD-100222073 ? 1
+TDD2621981 📋 "biffy" ? nnnnn
+TDD-3888076 tried: BIFFY n n n n n
+TDD620662 2> *
+TDD1872039 ? 1
+TDD3159577 📋 "emcee" ? nnMnn
+TDD-5652283 tried: EMCEE n n m n n
+TDD788665 3> *
+TDD2497843 ? undo
+TDD-753713 ? ␚
+TDD-2532889 <EOF>
+TDD1092479 3> undo
+TDD-1092451 undo
+TDD2698663 2> *
+TDD8642077 ? 1
+TDD-10202802 📋 "sexed" ? nnnnn
+TDD-1137725 tried: SEXED n n n n n
+TDD472776 3> *
+TDD1297429 ? 1
+TDD2187323 📋 "grrrl" ? nnnnn
+TDD-3957692 tried: GRRRL n n n n n
+TDD677160 4> *
+TDD546434 ? 1
+TDD1725508 📋 "phpht" ? nnnnn
+TDD-2948953 tried: PHPHT n n n n n
+TDD4167904 5> *
+TDD2738916 📋 "kokum" ? nMnnn
+TDD-6906882 tried: KOKUM n m n n n
+TDD4461740 6> * -sans
+TDD-1378102 ? 1
+TDD2322076 📋 "cacao" ? YYnnM
+TDD-5405756 tried: CACAO Y Y n n m
+TDD3225281 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3218540 result: "Don't Wordle 1174 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6172\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c982\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c301\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c62\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c5\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe82\nUndos used: 3\n\n  2 words remaining\nx 6 unused letters\n= 12 total score"
+TDD149767 📆 2025-08-10 ? 
