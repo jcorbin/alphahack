@@ -1,0 +1,103 @@
+T0.0005178170104045421 now: 2025-08-11T08:29:51EDT
+TD89 site: squareword.org
+TDD10616695 🧩  ? #1288
+TDD-10616549 puzzle_id: #1288
+TDD-205 wordlist: nwl2023.txt
+TDD1212364 > *
+TDD1588762 try? 3
+TDD-2800574 questioning: ["raise", "#5"]
+TDD6009338 #1 _____  📋 "raise" ? _A___ ~ AS
+TDD-6008883 attempt 0 RAISE n Y n m n
+TDD2585737 #2 _____  📋 "raise" ? _____ ~ RAE
+TDD-2586384 attempt 1 RAISE m m n n m
+TDD3490221 #3 _____  📋 "raise" ? ____E ~ RSE
+TDD-3490206 attempt 2 RAISE m n n m Y
+TDD3080305 #4 _____  📋 "raise" ? __I_E 
+TDD-3080534 attempt 3 RAISE n n Y n Y
+TDD2745738 #5 _____  📋 "raise" ? _A___ ~ AS
+TDD-2745424 attempt 4 RAISE n Y n m n
+TDD701867 ? 
+TDD-702038 question done
+TDD652345 > *
+TDD1374009 try? 1
+TDD-2026334 questioning: ["score", "#3"]
+TDD8890054 #1 _A___ ~S -EIR  📋 "score" ? _A___ ~ AS
+TDD-8890013 attempt 0 SCORE m n n n n
+TDD4534113 #2 _____ ~AER -IS  📋 "score" ? ___R_ ~ AE
+TDD-4534126 attempt 1 SCORE n n n Y m
+TDD3754616 #3 ____E ~RS -AI  📋 "score" ? S___E ~ RE
+TDD-3754598 attempt 2 SCORE Y n n m Y
+TDD3938447 #4 __I_E -ARS  📋 "score" ? .
+TDD-3938550 attempt 3 SCORE n n n n Y
+TDD2483605 #5 _A___ ~S -EIR  📋 "score" ? SA___ ~ A
+TDD-2483640 attempt 4 SCORE Y n n n n
+TDD771708 ? 
+TDD-771856 question done
+TDD630583 > *
+TDD3079409 try? 1
+TDD-3709732 questioning: ["pearl", "#2"]
+TDD6605056 #1 _A___ ~S -CEIOR  📋 "pearl" ? PA___ ~ ASP
+TDD-6604820 attempt 0 PEARL Y n m n n
+TDD4673526 #2 ___R_ ~AE -CIOS  📋 "pearl" ? ___R_ ~ AEL
+TDD-4673674 attempt 1 PEARL n m m Y m
+TDD4139851 #3 S___E ~R -ACIO  📋 "pearl" ? S___E ~ REP
+TDD-4139950 attempt 2 PEARL m m n m n
+TDD3717074 #4 __I_E -ACORS  📋 "pearl" ? .
+TDD-3717055 attempt 3 PEARL n n n n n
+TDD2655237 #5 SA___ -CEIOR  📋 "pearl" ? SA___ ~ AL
+TDD-2655444 attempt 4 PEARL n n m n m
+TDD531302 ? 
+TDD-531339 question done
+TDD590961 > *
+TDD-48003 questioning: ["alert", "#2"]
+TDD12414427 #1 PA___ ~S -CEILOR  📋 "alert" ? PA___ ~ ASP
+TDD-12957122 attempt 0 ALERT m n n n n
+TDD908272 #2 ___R_ ~AEL -CIOPS  📋 "alert" ? /it
+TDD-908211 attempt 1 ALERT Y Y Y Y Y
+TDD6620323 #3 S___E ~PR -ACILO  📋 "alert" ? S___E ~ REP
+TDD-6620440 attempt 2 ALERT n n m m n
+TDD4992666 #4 __I_E -ACELOPRS  📋 "alert" ? __I_E ~ T
+TDD-4992638 attempt 3 ALERT n n n n m
+TDD5912395 #5 SA___ ~L -CEIOPR  📋 "alert" ? SA___ ~ AL
+TDD-5912129 attempt 4 ALERT m m n n n
+TDD433473 ? 
+TDD-433926 question done
+TDD31724605 > *
+TDD-30203385 questioning: ["thine", "#4"]
+TDD8677511 #1 PA___ ~S -CEILORT  📋 "thine" ? PA___ ~ ASP
+TDD-10198617 attempt 0 THINE n n n n n
+TDD5257247 #3 S___E ~PR -ACILOT  📋 "thine" ? S___E ~ REP
+TDD-5257182 attempt 2 THINE n n n n Y
+TDD1379344 #4 __I_E ~T -ACELOPRS  📋 "thine" ? /it
+TDD-1379266 attempt 3 THINE Y Y Y Y Y
+TDD4195803 #5 SA___ ~L -CEIOPRT  📋 "thine" ? SA___ ~ AL
+TDD-4195862 attempt 4 THINE n n n n n
+TDD23178035 ? 
+TDD-23178198 question done
+TDD848214 > *
+TDD936893 questioning: ["papas", "#1"]
+TDD2073547 #1 PA___ ~S -CEHILNORT  📋 "papas" ? /it
+TDD-3858388 attempt 0 PAPAS Y Y Y Y Y
+TDD4729875 #3 S___E ~PR -ACHILNOT  📋 "papas" ? S___E ~ REP
+TDD-4729851 attempt 2 PAPAS m n m n n
+TDD2998921 #5 SA___ ~L -CEHINOPRT  📋 "papas" ? SA_A_ ~ L
+TDD-2998877 attempt 4 PAPAS n Y n Y n
+TDD885921 ? 
+TDD-886184 question done
+TDD750589 > *
+TDD730823 questioning: ["spree", "#3"]
+TDD2789375 #3 S___E ~PR -ACHILNOST  📋 "spree" ? /it
+TDD-4270948 attempt 2 SPREE Y Y Y Y Y
+TDD2775808 #5 SA_A_ ~L -CEHINOPRST  📋 "spree" ? .
+TDD-2775612 attempt 4 SPREE Y n n n n
+TDD407355 ? 
+TDD-407323 question done
+TDD794546 > *
+TDD287859 questioning: ["salad", "#5"]
+TDD5036444 #5 SA_A_ ~L -CEHINOPRT  📋 "salad" ? /it
+TDD-6118732 attempt 4 SALAD Y Y Y Y Y
+TDD787133 ? 
+TDD-787453 question done
+TDD2942554 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2936040 result: "squareword.org 1288: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1288"
+TDD212547 📆 2025-08-11 ? 
