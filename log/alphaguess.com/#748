@@ -1,0 +1,34 @@
+T0.00018869599443860352 now: 2025-08-11T08:23:27EDT
+TD70371 loaded 196552 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (51 words excluded) asof 77ec7e494b38dcbda1896ed89bf3a4649a0e4dfd
+TDD11920214 [0 : 98234 : 196552] mach? 
+TDD-9802509 [0 : 98234 : 196552] mach? a
+TDD-2187293 progress: 1 98234 mach
+TDD2438943 [98235 : 147390 : 196552] rhotic? a
+TDD-2439615 progress: 1 147390 rhotic
+TDD1611104 [147391 : 171660 : 196552] ta? a
+TDD-1610956 progress: 1 171660 ta
+TDD1476098 [171661 : 182028 : 196552] un? a
+TDD-1476014 progress: 1 182028 un
+TDD1443135 [182029 : 189291 : 196552] vicar? b
+TDD-1443210 progress: -1 189291 vicar
+TDD1585264 [182029 : 185659 : 189291] unretire? a
+TDD-1585453 progress: 1 185659 unretire
+TDD3822620 [185660 : 187440 : 189291] us? a
+TDD-3822619 progress: 1 187440 us
+TDD2117862 [187441 : 188366 : 189291] veal? a
+TDD-2117818 progress: 1 188366 veal
+TDD1784929 [188367 : 188829 : 189291] verdant? b
+TDD-1784972 progress: -1 188829 verdant
+TDD1863495 [188367 : 188591 : 188829] veneer? b
+TDD-1863487 progress: -1 188591 veneer
+TDD1777413 [188367 : 188468 : 188591] vein? it
+TDD-1777387 progress: 0 188468 vein
+TDD-90 [188367 : 188468 : 188591] <Done>.
+TDD2292231 press <Return> to finish
+TDD-2101945 Press <Enter> to 📋 or `>` for line prompt 
+TDD-187609 share result: "\ud83e\udde9 Puzzle #748\n\n\ud83e\udd14 11 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"
+TDD-2671 result puzzle: 748
+TDD-22 result guesses: 11
+TDD-2 result time: 22s
+TDD0 result link: alphaguess.com
+TDD193533 📆 2025-08-11 ? 
