@@ -1,0 +1,45 @@
+T0.0002064180007437244 now: 2025-08-11T08:34:26EDT
+TD39 site: dontwordle.com
+TDD-11 wordlist: nwl2023.txt
+TDD3862487 1> * -bot 10
+TDD-974909 ? 3
+TDD3197753 📋 "earns" ? nnnnM
+TDD-6084173 tried: EARNS n n n n m
+TDD1554341 2> * -bot 10
+TDD81059 ? 1
+TDD11122701 📋 "hoist" ? MnYMY
+TDD-12759128 tried: HOIST m n Y m Y
+TDD1154931 3> undo
+TDD-1154906 undo
+TDD1395647 2> undo
+TDD-1395656 undo
+TDD4825904 1> *
+TDD-1850284 ? 1
+TDD1918259 📋 "papal" ? nnnnn
+TDD-4893826 tried: PAPAL n n n n n
+TDD867250 2> *
+TDD5123231 ? 1
+TDD-3182496 📋 "keeve" ? nnnnn
+TDD-2807983 tried: KEEVE n n n n n
+TDD718407 3> *
+TDD2272896 ? 1
+TDD1723928 📋 "woozy" ? nnnnn
+TDD-4715151 tried: WOOZY n n n n n
+TDD964786 4> *
+TDD1611602 ? 2
+TDD2309264 📋 "crumb" ? nnnnn
+TDD-4885683 tried: CRUMB n n n n n
+TDD930950 5> *
+TDD5332920 5> * -sans :v [his]
+TDD-3203369 5> * -sans :v [hit]
+TDD12742622 5> * -sans :v [hst]
+TDD-13887383 ? 1
+TDD4859585 📋 "djinn" ? nnYnn
+TDD-6775208 tried: DJINN n n Y n n
+TDD2199699 6> * -sans
+TDD3785718 ? 3
+TDD-1310231 📋 "thigh" ? MYYnn
+TDD-4675245 tried: THIGH m Y Y n n
+TDD3249307 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3242719 result: "Don't Wordle 1175 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4911\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1876\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c556\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c71\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c7\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c3\nUndos used: 2\n\n  3 words remaining\nx 4 unused letters\n= 12 total score"
+TDD171583 📆 2025-08-11 ? 
