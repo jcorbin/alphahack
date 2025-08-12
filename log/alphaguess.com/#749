@@ -1,0 +1,41 @@
+T0.0002221610011474695 now: 2025-08-12T08:12:16EDT
+TD65475 loaded 196552 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (51 words excluded) asof e5878ec98fe2ddf88b5cf8ed6c5d0068f5e4786a
+TDD5061150 [0 : 98234 : 196552] mach? b
+TDD-5126003 progress: -1 98234 mach
+TDD1880719 [0 : 47395 : 98234] dis? a
+TDD-1881216 progress: 1 47395 dis
+TDD1765043 [47396 : 72815 : 98234] gremolata? a
+TDD-1764891 progress: 1 72815 gremolata
+TDD1570150 [72816 : 85519 : 98234] ins? a
+TDD-1570186 progress: 1 85519 ins
+TDD1827974 [85520 : 91864 : 98234] knot? b
+TDD-1827945 progress: -1 91864 knot
+TDD1507328 [85520 : 88679 : 91864] jacks? a
+TDD-1507409 progress: 1 88679 jacks
+TDD1640558 [88680 : 90269 : 91864] kaf? b
+TDD-1640501 progress: -1 90269 kaf
+TDD1546363 [88680 : 89470 : 90269] jive? a
+TDD-1546351 progress: 1 89470 jive
+TDD1713940 [89471 : 89865 : 90269] judge? b
+TDD-1713972 progress: -1 89865 judge
+TDD1670191 [89471 : 89486 : 89865] jo? a
+TDD-1670151 progress: 1 89486 jo
+TDD1627698 [89487 : 89672 : 89865] jones? b
+TDD-1627751 progress: -1 89672 jones
+TDD1647681 [89487 : 89576 : 89672] johns? a
+TDD-1647727 progress: 1 89576 johns
+TDD1662816 [89577 : 89620 : 89672] joke? b
+TDD-1662652 progress: -1 89620 joke
+TDD2242657 [89577 : 89593 : 89620] joint? b
+TDD-2242735 progress: -1 89593 joint
+TDD1873793 [89577 : 89581 : 89593] join? it
+TDD-1873900 progress: 0 89581 join
+TDD-117 [89577 : 89581 : 89593] <Done>.
+TDD2348652 press <Return> to finish
+TDD-2159128 Press <Enter> to 📋 or `>` for line prompt 
+TDD-184108 share result: "\ud83e\udde9 Puzzle #749\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 24s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5386 result puzzle: 749
+TDD-33 result guesses: 15
+TDD-5 result time: 24s
+TDD-2 result link: alphaguess.com
+TDD187268 📆 2025-08-12 ? 
