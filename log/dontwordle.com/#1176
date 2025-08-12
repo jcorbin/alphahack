@@ -1,0 +1,47 @@
+T0.00020425499678822234 now: 2025-08-12T08:19:47EDT
+TD41 site: dontwordle.com
+TDD-17 wordlist: nwl2023.txt
+TDD1426448 1> * -bot 10
+TDD447355 ? 2
+TDD2415319 📋 "tesla" ? YMnnn
+TDD-4288283 tried: TESLA Y m n n n
+TDD855391 2> undo
+TDD-856093 undo
+TDD3127412 1> *
+TDD3956169 ? 1
+TDD-6054143 📋 "gabba" ? nnnnn
+TDD-1029422 tried: GABBA n n n n n
+TDD1821079 2> *
+TDD-731886 ? 1
+TDD2146055 📋 "xylyl" ? nnnnn
+TDD-3235162 tried: XYLYL n n n n n
+TDD1008951 3> *
+TDD1246325 ? 1
+TDD3225915 📋 "civic" ? nYnnn
+TDD-5481206 tried: CIVIC n Y n n n
+TDD1054026 4> *
+TDD2257392 ? undo
+TDD-2093140 ? ␚
+TDD-1218432 <EOF>
+TDD738716 4> undo
+TDD-738599 undo
+TDD2794492 3> *
+TDD-303640 ? 1
+TDD2020581 📋 "woofs" ? nnnnn
+TDD-4511349 tried: WOOFS n n n n n
+TDD456942 4> *
+TDD965163 ? 1
+TDD2980109 📋 "kudzu" ? nnnnn
+TDD-4402268 tried: KUDZU n n n n n
+TDD705712 5> *
+TDD2780256 5> * -sans :v [ei]
+TDD2066917 📋 "phpht" ? nnnnM
+TDD-5552840 tried: PHPHT n n n n m
+TDD1252105 6> *
+TDD1146253 6> * -sans
+TDD-104873 ? 1
+TDD3118583 📋 "meter" ? MnMYY
+TDD-5412162 tried: METER m n m Y Y
+TDD3386655 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3379965 result: "Don't Wordle 1176 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5913\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3569\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c658\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c227\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe831\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe91\nUndos used: 2\n\n  1 words remaining\nx 6 unused letters\n= 6 total score"
+TDD124939 📆 2025-08-12 ? 
