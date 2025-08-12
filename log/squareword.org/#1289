@@ -1,0 +1,75 @@
+T0.00020755999867105857 now: 2025-08-12T08:13:02EDT
+TD44 site: squareword.org
+TDD3855791 🧩  ? #1289
+TDD-3855608 puzzle_id: #1289
+TDD-204 wordlist: nwl2023.txt
+TDD1008450 > *
+TDD417107 try? 1
+TDD-1425278 questioning: ["hares", "#5"]
+TDD4603126 #1 _____  📋 "hares" ? ___E_ ~ HAS
+TDD-4602504 attempt 0 HARES m m n Y m
+TDD3359401 #2 _____  📋 "hares" ? _____ ~ HAES
+TDD-3359922 attempt 1 HARES m m n m m
+TDD2444972 #3 _____  📋 "hares" ? _A_E_ ~ RS
+TDD-2444779 attempt 2 HARES n Y m Y m
+TDD2462302 #4 _____  📋 "hares" ? _____ ~ E
+TDD-2462454 attempt 3 HARES n n n m n
+TDD3095193 #5 _____  📋 "hares" ? ____S ~ E
+TDD-3094923 attempt 4 HARES n n n m Y
+TDD680813 ? 
+TDD-681314 question done
+TDD1339866 > *
+TDD817464 try? 1
+TDD-2157210 questioning: ["ashen", "#1"]
+TDD2734979 #1 ___E_ ~AHS -R  📋 "ashen" ? /it
+TDD-2735066 attempt 0 ASHEN Y Y Y Y Y
+TDD3300826 #2 _____ ~AEHS -R  📋 "ashen" ? .
+TDD-3300753 attempt 1 ASHEN m m m m n
+TDD1520321 #3 _A_E_ ~RS -H  📋 "ashen" ? .
+TDD-1520361 attempt 2 ASHEN n m n Y n
+TDD3787610 #4 _____ ~E -AHRS  📋 "ashen" ? _____ ~ EN
+TDD-3787437 attempt 3 ASHEN n n n m m
+TDD4349119 #5 ____S ~E -AHR  📋 "ashen" ? ____S ~ EN
+TDD-4349134 attempt 4 ASHEN n n n m m
+TDD780000 ? 
+TDD-780097 question done
+TDD604192 > *
+TDD1540234 try? 1
+TDD-2144404 questioning: ["shave", "#2"]
+TDD2743927 #2 _____ ~AEHS -NR  📋 "shave" ? /it
+TDD-2743762 attempt 1 SHAVE Y Y Y Y Y
+TDD4824327 #3 _A_E_ ~RS -AHN  📋 "shave" ? SA_E_ ~ RV
+TDD-4824474 attempt 2 SHAVE Y n n m n
+TDD1470085 #4 _____ ~EN -AHRS  📋 "shave" ? .
+TDD-1469919 attempt 3 SHAVE n n n n m
+TDD958408 #5 ____S ~EN -AHRS  📋 "shave" ? .
+TDD-958602 attempt 4 SHAVE n n n n m
+TDD448412 ? 
+TDD-448507 question done
+TDD524012 > *
+TDD164963 questioning: ["saver", "#3"]
+TDD2912379 #3 SA_E_ ~RV -AEHN  📋 "saver" ? /it
+TDD-3601283 attempt 2 SAVER Y Y Y Y Y
+TDD2321610 #4 _____ ~EN -AHRSV  📋 "saver" ? .
+TDD-2321465 attempt 3 SAVER n n n m n
+TDD758314 #5 ____S ~EN -AHRSV  📋 "saver" ? .
+TDD-758366 attempt 4 SAVER n n n m n
+TDD253211 ? 
+TDD-253389 question done
+TDD558746 > *
+TDD-26812 questioning: ["emend", "#4"]
+TDD4020129 #4 _____ ~EN -AHRSV  📋 "emend" ? /it
+TDD-4552124 attempt 3 EMEND Y Y Y Y Y
+TDD1853400 #5 ____S ~EN -AHRSV  📋 "emend" ? .
+TDD-1853329 attempt 4 EMEND m n m m n
+TDD584172 ? 
+TDD-584235 question done
+TDD631150 > *
+TDD390315 questioning: ["tents", "#5"]
+TDD2354488 #5 ____S ~EN -ADHMRSV  📋 "tents" ? /it
+TDD-3375731 attempt 4 TENTS Y Y Y Y Y
+TDD870997 ? 
+TDD-871271 question done
+TDD5185198 Press <Enter> to 📋 or `>` for line prompt 
+TDD-5179201 result: "squareword.org 1289: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1289"
+TDD186115 📆 2025-08-12 ? 
