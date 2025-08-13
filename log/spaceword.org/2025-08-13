@@ -16608,3 +16608,8 @@ TDD-9 Z BGyTCJf#W%00960
 TDD-9 Z BFahhJ*5f&00960
 TDD280451252 search 8271ef [ 2400 cap:2400 prune:605 reject:130 dead:96 ]> ␚
 TDD-280333711 [doit:2165]> 
+T137.33624650799902 now: 2025-08-13T08:58:08EDT
+TD13867991 [doit:2165]> /res
+TDD-13473116 Press <Enter> to 📋 or `>` for line prompt 
+TDD-389001 result: "\u2728 Spaceword.org Daily 2025-08-13 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 67/183 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD712901 [prior:2165]> /store
