@@ -1,0 +1,47 @@
+T0.00017399901116732508 now: 2025-08-13T08:20:26EDT
+TD42 site: dontwordle.com
+TDD-14 wordlist: nwl2023.txt
+TDD4641432 1> * -bot 10
+TDD-2541434 ? 1
+TDD3280331 📋 "laser" ? MMnnn
+TDD-5379671 tried: LASER m m n n n
+TDD1477707 2> undo
+TDD-1478242 undo
+TDD3166503 1> *
+TDD2491808 ? 3
+TDD-1169229 📋 "chuck" ? nnnnn
+TDD-4488916 tried: CHUCK n n n n n
+TDD777160 2> *
+TDD511456 ? 1
+TDD3654408 📋 "rebbe" ? nnMnn
+TDD-4943103 tried: REBBE n n m n n
+TDD764918 3> undo
+TDD-765070 undo
+TDD2802494 2> *
+TDD-636634 ? 1
+TDD2343474 📋 "effed" ? nnnnn
+TDD-4509094 tried: EFFED n n n n n
+TDD449269 3> *
+TDD976416 ? 1
+TDD2475303 📋 "morro" ? nnnnn
+TDD-3901052 tried: MORRO n n n n n
+TDD667290 4> *
+TDD745241 ? 1
+TDD5301671 📋 "twixt" ? nMnnn
+TDD-6714201 tried: TWIXT n m n n n
+TDD1024447 5> undo
+TDD-1024501 undo
+TDD3190674 4> *
+TDD-1433888 ? 1
+TDD2244844 📋 "zizit" ? nnnnn
+TDD-4001520 tried: ZIZIT n n n n n
+TDD722412 5> *
+TDD6051804 📋 "gypsy" ? nYnnn
+TDD-6774265 tried: GYPSY n Y n n n
+TDD1256688 6> * -sans
+TDD8152489 ? 2
+TDD973099 📋 "bylaw" ? it
+TDD-10382325 tried: BYLAW Y Y Y Y Y
+TDD1531853 Press <Enter> to 📋 or `>` for line prompt 
+TDD-1525466 result: "Don't Wordle 1177 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6975\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2496\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c751\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c229\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c3\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 3"
+TDD907317 📆 2025-08-13 ? 
