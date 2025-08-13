@@ -1,0 +1,104 @@
+T0.0002513859944883734 now: 2025-08-13T08:16:39EDT
+TD52 site: squareword.org
+TDD2117834 🧩  ? #1290
+TDD-2117650 puzzle_id: #1290
+TDD-201 wordlist: nwl2023.txt
+TDD1195785 > *
+TDD49030224 try? 5
+TDD-50225378 questioning: ["aside", "#5"]
+TDD6962990 #1 _____  📋 "aside" ? A____ ~ AS
+TDD-6961948 attempt 0 ASIDE Y m n n n
+TDD2966587 #2 _____  📋 "aside" ? __I__ ~ DE
+TDD-2967901 attempt 1 ASIDE n n Y m m
+TDD2177017 #3 _____  📋 "aside" ? _____ ~ I
+TDD-2177198 attempt 2 ASIDE n n m n n
+TDD1759858 #4 _____  📋 "aside" ? _____ ~ E
+TDD-1759732 attempt 3 ASIDE n n n n m
+TDD2037447 #5 _____  📋 "aside" ? _____ ~ SE
+TDD-2037268 attempt 4 ASIDE n m n n m
+TDD615336 ? 
+TDD-615580 question done
+TDD555015 > *
+TDD4196450 try? 7
+TDD-4751420 questioning: ["weird", "#2"]
+TDD7461167 #1 A____ ~S -DEI  📋 "weird" ? A____ ~ AS
+TDD-7461281 attempt 0 WEIRD n n n n n
+TDD3235565 #2 __I__ ~DE -AS  📋 "weird" ? _EI__ ~ D
+TDD-3235459 attempt 1 WEIRD n Y Y n m
+TDD3940036 #3 _____ ~I -ADES  📋 "weird" ? ___R_ ~ I
+TDD-3939804 attempt 2 WEIRD n n m Y n
+TDD2642729 #4 _____ ~E -ADIS  📋 "weird" ? _____ ~ ER
+TDD-2642862 attempt 3 WEIRD n m n m n
+TDD1510188 #5 _____ ~ES -ADI  📋 "weird" ? .
+TDD-1510251 attempt 4 WEIRD n m n n n
+TDD648045 ? 
+TDD-648138 question done
+TDD615908 > *
+TDD2367884 try? 1
+TDD-2983718 questioning: ["deity", "#2"]
+TDD7542704 #1 A____ ~S -DEIRW  📋 "deity" ? A____ ~ AST
+TDD-7542531 attempt 0 DEITY n n n m n
+TDD2247934 #2 _EI__ ~D -ARSW  📋 "deity" ? DEI__
+TDD-2248114 attempt 1 DEITY Y Y Y n n
+TDD7632159 #3 ___R_ ~I -ADESW  📋 "deity" ? ___R_ ~ IT
+TDD-7632124 attempt 2 DEITY n n m m n
+TDD1664903 #4 _____ ~ER -ADISW  📋 "deity" ? .
+TDD-1664713 attempt 3 DEITY n m n n n
+TDD2900519 #5 _____ ~ES -ADIRW  📋 "deity" ? _____ ~ SET
+TDD-2900563 attempt 4 DEITY n m n m n
+TDD469877 ? 
+TDD-470234 question done
+TDD672774 > *
+TDD-41495 questioning: ["deign", "#2"]
+TDD10145683 #1 A____ ~ST -DEIRWY  📋 "deign" ? A____ ~ AST
+TDD-10776964 attempt 0 DEIGN n n n n n
+TDD1910723 #2 DEI__ -ARSTWY  📋 "deign" ? /it
+TDD-1910235 attempt 1 DEIGN Y Y Y Y Y
+TDD3484982 #3 ___R_ ~IT -ADESWY  📋 "deign" ? ___R_ ~ ITN
+TDD-3485053 attempt 2 DEIGN n n m n m
+TDD2361963 #4 _____ ~ER -ADISTWY  📋 "deign" ? .
+TDD-2362305 attempt 3 DEIGN n m n n n
+TDD854773 #5 _____ ~EST -ADIRWY  📋 "deign" ? .
+TDD-852501 attempt 4 DEIGN n m n n n
+TDD346556 ? 
+TDD-348879 question done
+TDD516278 > *
+TDD343571 questioning: ["intro", "#3"]
+TDD7702789 #1 A____ ~ST -DEGINRWY  📋 "intro" ? A____ ~ AST
+TDD-8562523 attempt 0 INTRO n n m n n
+TDD1218790 #3 ___R_ ~INT -ADEGSWY  📋 "intro" ? /it
+TDD-1218736 attempt 2 INTRO Y Y Y Y Y
+TDD3246081 #4 _____ ~ER -ADGINSTWY  📋 "intro" ? _____ ~ ERO
+TDD-3245799 attempt 3 INTRO n n n m m
+TDD1553090 #5 _____ ~EST -ADGINRWY  📋 "intro" ? .
+TDD-1553326 attempt 4 INTRO n n m n n
+TDD210634 ? 
+TDD-210791 question done
+TDD857142 > *
+TDD3471784 try? 1
+TDD-4328644 questioning: ["atlas", "#1"]
+TDD2747076 #1 A____ ~ST -DEGINORWY  📋 "atlas" ? /it
+TDD-2747360 attempt 0 ATLAS Y Y Y Y Y
+TDD2191746 #4 _____ ~EOR -ADGINSTWY  📋 "atlas" ? .
+TDD-2191341 attempt 3 ATLAS n n n n n
+TDD713186 #5 _____ ~EST -ADGINORWY  📋 "atlas" ? .
+TDD-713347 attempt 4 ATLAS n m n n m
+TDD289365 ? 
+TDD-289611 question done
+TDD546121 > *
+TDD1073570 questioning: ["ocher", "#4"]
+TDD6733665 #4 _____ ~EOR -ADGILNSTWY  📋 "ocher" ? /it
+TDD-8353201 attempt 3 OCHER Y Y Y Y Y
+TDD3472854 #5 _____ ~EST -ADGILNORWY  📋 "ocher" ? ___E_ ~ SETH
+TDD-3472623 attempt 4 OCHER n n m Y n
+TDD735964 ? 
+TDD-736193 question done
+TDD583318 > *
+TDD567369 questioning: ["sheet", "#5"]
+TDD2492290 #5 ___E_ ~HST -ACDGILNORWY  📋 "sheet" ? /it
+TDD-3643076 attempt 4 SHEET Y Y Y Y Y
+TDD496939 ? 
+TDD-497108 question done
+TDD6592376 Press <Enter> to 📋 or `>` for line prompt 
+TDD-6586006 result: "squareword.org 1290: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1290"
+TDD147608 📆 2025-08-13 ? 
