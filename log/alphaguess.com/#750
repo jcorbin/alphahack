@@ -1,0 +1,37 @@
+T0.0002236909931525588 now: 2025-08-13T08:11:06EDT
+TD63442 loaded 196552 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (51 words excluded) asof 408b4c7d82d6ac66c43c37a7f4dd811a4435caf1
+TDD4361036 [0 : 98234 : 196552] mach? a
+TDD-4423979 progress: 1 98234 mach
+TDD1425436 [98235 : 147390 : 196552] rhotic? a
+TDD-1425844 progress: 1 147390 rhotic
+TDD1411771 [147391 : 171660 : 196552] ta? b
+TDD-1411658 progress: -1 171660 ta
+TDD1478595 [147391 : 159507 : 171660] slop? b
+TDD-1478592 progress: -1 159507 slop
+TDD1371501 [147391 : 153339 : 159507] sea? a
+TDD-1371507 progress: 1 153339 sea
+TDD1366776 [153340 : 156375 : 159507] ship? b
+TDD-1366784 progress: -1 156375 ship
+TDD1620666 [153340 : 154854 : 156375] sequence? b
+TDD-1620577 progress: -1 154854 sequence
+TDD2151948 [153340 : 154077 : 154854] select? b
+TDD-2152060 progress: -1 154077 select
+TDD1538641 [153340 : 153565 : 154077] sec? a
+TDD-1538562 progress: 1 153565 sec
+TDD1944628 [153566 : 153821 : 154077] seducing? b
+TDD-1944676 progress: -1 153821 seducing
+TDD1542993 [153566 : 153684 : 153821] sectional? b
+TDD-1542952 progress: -1 153684 sectional
+TDD1363457 [153566 : 153609 : 153684] second? a
+TDD-1363526 progress: 1 153609 second
+TDD1584279 [153610 : 153635 : 153684] secret? it
+TDD-1584337 progress: 0 153635 secret
+TDD-96 [153610 : 153635 : 153684] <Done>.
+TDD2301975 press <Return> to finish
+TDD-2118744 Press <Enter> to 📋 or `>` for line prompt 
+TDD-176475 share result: "\ud83e\udde9 Puzzle #750\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"
+TDD-6707 result puzzle: 750
+TDD-42 result guesses: 13
+TDD-5 result time: 19s
+TDD10 result link: alphaguess.com
+TDD140284 📆 2025-08-13 ? 
