@@ -1,0 +1,43 @@
+T0.00018678701599128544 now: 2025-08-14T08:04:09EDT
+TD46 site: dontwordle.com
+TDD-5 wordlist: nwl2023.txt
+TDD4561365 1> * -bot 10
+TDD-2687075 ? 1
+TDD2296488 📋 "slate" ? YnnnM
+TDD-4170159 tried: SLATE Y n n n m
+TDD2145026 2> undo
+TDD-2145436 undo
+TDD3581836 1> *
+TDD-1939903 ? 1
+TDD2677510 📋 "gamma" ? nnMnn
+TDD-4319500 tried: GAMMA n n m n n
+TDD1275371 2> undo
+TDD-1275459 undo
+TDD2257375 1> *
+TDD-905571 ? 1
+TDD3211342 📋 "hooch" ? nnnnn
+TDD-4562918 tried: HOOCH n n n n n
+TDD445235 2> *
+TDD638053 ? 1
+TDD3020640 📋 "kabab" ? nnnnn
+TDD-4103875 tried: KABAB n n n n n
+TDD758611 3> *
+TDD448194 ? 1
+TDD2404537 📋 "gliff" ? nnnnn
+TDD-3611496 tried: GLIFF n n n n n
+TDD887612 4> *
+TDD103978 ? 1
+TDD4147479 📋 "nutty" ? nMnnn
+TDD-5138874 tried: NUTTY n m n n n
+TDD503644 5> *
+TDD5172157 5> * -sans :v [em]
+TDD-2790770 ? 3
+TDD3880911 📋 "usurp" ? MMnMn
+TDD-6766220 tried: USURP m m n m n
+TDD1962561 6> * -sans
+TDD384046 ? 2
+TDD5787010 📋 "xerus" ? nYYYm
+TDD-8133457 tried: XERUS n Y Y Y m
+TDD3009449 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3004335 result: "Don't Wordle 1178 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6849\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2618\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c781\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c41\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c3\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe81\nUndos used: 2\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TDD167745 📆 2025-08-14 ? 
