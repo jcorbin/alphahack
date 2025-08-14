@@ -1,0 +1,105 @@
+T0.0002170009829569608 now: 2025-08-14T07:57:35EDT
+TD42 site: squareword.org
+TDD4283014 🧩  ? #1291
+TDD-4282723 puzzle_id: #1291
+TDD-300 wordlist: nwl2023.txt
+TDD22697393 > *
+TDD-20685018 try? 2
+TDD-2011856 questioning: ["bares", "#5"]
+TDD5430810 #1 _____  📋 "bares" ? ____s ~ es
+TDD-5430975 attempt 0 BARES n n n m Y
+TDD2010648 #2 _____  📋 "bares" ? __r__
+TDD-2010404 attempt 1 BARES n n Y n n
+TDD2233017 #3 _____  📋 "bares" ? _____ ~ ar
+TDD-2233476 attempt 2 BARES n m m n n
+TDD2546960 #4 _____  📋 "bares" ? ___e_ ~ r
+TDD-2546781 attempt 3 BARES n n m Y n
+TDD3122295 #5 _____  📋 "bares" ? _____ ~ es
+TDD-3122446 attempt 4 BARES n n n m m
+TDD639621 ? 
+TDD-639506 question done
+TDD490422 > *
+TDD4435929 try? 4
+TDD-4926199 questioning: ["girth", "#2"]
+TDD7723414 #1 ____S ~E -ABR  📋 "girth" ? ___ts ~ es
+TDD-7723473 attempt 0 GIRTH n n n Y n
+TDD4439999 #2 __R__ -ABES  📋 "girth" ? __r__ ~ i
+TDD-4440132 attempt 1 GIRTH n m Y n n
+TDD1626487 #3 _____ ~AR -BES  📋 "girth" ? .
+TDD-1626635 attempt 2 GIRTH n n m n n
+TDD2908050 #4 ___E_ ~R -ABS  📋 "girth" ? _i_e_ ~ r
+TDD-2907794 attempt 3 GIRTH n Y m n n
+TDD2109114 #5 _____ ~ES -ABR  📋 "girth" ? .
+TDD-2109326 attempt 4 GIRTH n n n n n
+TDD288533 ? 
+TDD-288603 question done
+TDD463197 > *
+TDD6449535 try? 2
+TDD-6912525 questioning: ["curio", "#2"]
+TDD7555232 #1 ___TS ~E -ABGHIR  📋 "curio" ? ___ts ~ esc
+TDD-7555116 attempt 0 CURIO m n n n n
+TDD3517290 #2 __R__ ~I -ABEGHST  📋 "curio" ? __ri_ ~ c
+TDD-3517568 attempt 1 CURIO m n Y Y n
+TDD3634443 #3 _____ ~AR -BEGHIST  📋 "curio" ? _____ ~ aro
+TDD-3634382 attempt 2 CURIO n n m n m
+TDD1776020 #4 _I_E_ ~R -ABGHST  📋 "curio" ? .
+TDD-1775878 attempt 3 CURIO n n m n n
+TDD917993 #5 _____ ~ES -ABGHIRT  📋 "curio" ? .
+TDD-918228 attempt 4 CURIO n n n n n
+TDD197727 ? 
+TDD-197589 question done
+TDD531822 > *
+TDD59051 questioning: ["sects", "#1"]
+TDD6805464 #1 ___TS ~CE -ABGHIORU  📋 "sects" ? /it
+TDD-7396460 attempt 0 SECTS Y Y Y Y Y
+TDD3886327 #2 __RI_ ~C -ABEGHOSTU  📋 "sects" ? .
+TDD-3886267 attempt 1 SECTS n n m n n
+TDD1206027 #3 _____ ~AOR -BCEGHISTU  📋 "sects" ? .
+TDD-1206086 attempt 2 SECTS n n n n n
+TDD1202229 #4 _I_E_ ~R -ABCGHIOSTU  📋 "sects" ? .
+TDD-1202235 attempt 3 SECTS n n n n n
+TDD2226848 #5 _____ ~ES -ABCGHIORTU  📋 "sects" ? se___ ~ e
+TDD-2226647 attempt 4 SECTS Y Y n n n
+TDD462246 ? 
+TDD-462384 question done
+TDD542069 > *
+TDD4029760 try? /it
+TDD-3036142 try? 1
+TDD-1535530 questioning: ["lyric", "#2"]
+TDD1129173 #2 __RI_ ~C -ABEGHOSTU  📋 "lyric" ? /it
+TDD-1129150 attempt 1 LYRIC Y Y Y Y Y
+TDD2222515 #3 _____ ~AOR -BCEGHISTU  📋 "lyric" ? .
+TDD-2222359 attempt 2 LYRIC n n m n n
+TDD1251580 #4 _I_E_ ~R -ABCEGHIOSTU  📋 "lyric" ? .
+TDD-1251864 attempt 3 LYRIC n n m n n
+TDD4073034 #5 SE___ -ABCGHIORTU  📋 "lyric" ? se___ ~ ey
+TDD-4072988 attempt 4 LYRIC n m n n n
+TDD598033 ? 
+TDD-598189 question done
+TDD883737 > *
+TDD1219585 questioning: ["aroma", "#3"]
+TDD1757629 #3 _____ ~AOR -BCEGHILSTUY  📋 "aroma" ? /it
+TDD-3860707 attempt 2 AROMA Y Y Y Y Y
+TDD3348214 #4 _I_E_ ~R -ABCEGHILOSTUY  📋 "aroma" ? _i_e_ ~ rm
+TDD-3348446 attempt 3 AROMA n m n m n
+TDD3815007 #5 SE___ ~Y -ABCGHILORTU  📋 "aroma" ? se___ ~ ey
+TDD-3814943 attempt 4 AROMA n n n n n
+TDD1509090 ? 
+TDD-1509132 question done
+TDD589481 > *
+TDD967275 questioning: ["miner", "#4"]
+TDD1733180 #4 _I_E_ ~MR -ABCEGHILOSTUY  📋 "miner" ? /it
+TDD-3289974 attempt 3 MINER Y Y Y Y Y
+TDD4887743 #5 SE___ ~Y -ABCGHILMORTU  📋 "miner" ? se___ ~ ey
+TDD-4887363 attempt 4 MINER n n n m n
+TDD1091039 ? 
+TDD-1091317 question done
+TDD644029 > *
+TDD385428 questioning: ["seedy", "#5"]
+TDD2055682 #5 SE___ ~Y -ABCGHILMNORTU  📋 "seedy" ? /it
+TDD-3085102 attempt 4 SEEDY Y Y Y Y Y
+TDD938695 ? 
+TDD-938865 question done
+TDD12865812 Press <Enter> to 📋 or `>` for line prompt 
+TDD-12863327 result: "squareword.org 1291: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1291"
+TDD471212 📆 2025-08-14 ? 
