@@ -1671,11 +1671,12 @@ class SpaceWord(StoredLog):
     def cmd_search(self, ui: PromptUI):
         '''
         start a search session
-        usage: /search [-cap <NUMBER>] [-clear] [-zero]
+        usage: /search [-cap <NUMBER>] [-clear] [-zero] [-import <SOURCE>]
 
         -cap will sets a limit on frontier size
         -clear will clear the seed board
         -zero will clear the seed board and empty the frontier
+        -import will populate frontier with prior results
 
         if -cap was given, search starts automatically
         '''
@@ -1713,11 +1714,16 @@ class SpaceWord(StoredLog):
             ),
         )
 
+        def opt_import(ui: PromptUI):
+            if ui.tokens:
+                return srch.import_names(ui, next(ui.tokens))
+            # TODO else required argument error
+
         opts = ui.Dispatcher({
             '-cap': srch.do_cap,
             '-clear': srch.do_clear,
             '-zero': srch.do_zero,
-            # TODO '-import': srch.do_import,  XXX but limited to only consume one token
+            '-import': opt_import,
             # TODO -no-reject
         })
         try:
@@ -2344,9 +2350,10 @@ class Search:
             ui.print('Available Sources')
             for name in sorted(self.sources):
                 ui.print(f'- {name}')
-            return
+        else:
+            return self.import_names(ui, *ui.tokens)
 
-        names = tuple(ui.tokens)
+    def import_names(self, ui: PromptUI, *names: str):
         srcs = tuple(self.get_source(ui, name) for name in names)
 
         entries = tuple(
