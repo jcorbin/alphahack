@@ -1671,10 +1671,11 @@ class SpaceWord(StoredLog):
     def cmd_search(self, ui: PromptUI):
         '''
         start a search session
-        usage: /search [-cap <NUMBER>] [-clear]
+        usage: /search [-cap <NUMBER>] [-clear] [-zero]
 
         -cap will sets a limit on frontier size
         -clear will clear the seed board
+        -zero will clear the seed board and empty the frontier
 
         if -cap was given, search starts automatically
         '''
@@ -1715,6 +1716,7 @@ class SpaceWord(StoredLog):
         opts = ui.Dispatcher({
             '-cap': srch.do_cap,
             '-clear': srch.do_clear,
+            '-zero': srch.do_zero,
             # TODO '-import': srch.do_import,  XXX but limited to only consume one token
             # TODO -no-reject
         })
