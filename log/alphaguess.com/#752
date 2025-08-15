@@ -1,0 +1,41 @@
+T0.00020415399922057986 now: 2025-08-15T08:21:35EDT
+TD64584 loaded 196552 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (51 words excluded) asof 812c10d8262fb49b5758d518ccf12da4d33742c8
+TDD6864699 [0 : 98234 : 196552] mach? a
+TDD-6929063 progress: 1 98234 mach
+TDD1537854 [98235 : 147390 : 196552] rhotic? a
+TDD-1537870 progress: 1 147390 rhotic
+TDD1515945 [147391 : 171660 : 196552] ta? b
+TDD-1516067 progress: -1 171660 ta
+TDD1495519 [147391 : 159507 : 171660] slop? a
+TDD-1495371 progress: 1 159507 slop
+TDD2106904 [159508 : 165549 : 171660] stick? b
+TDD-2107029 progress: -1 165549 stick
+TDD1728188 [159508 : 162494 : 165549] spec? b
+TDD-1728078 progress: -1 162494 spec
+TDD1633286 [159508 : 160986 : 162494] soft? b
+TDD-1633309 progress: -1 160986 soft
+TDD1508696 [159508 : 160246 : 160986] snath? a
+TDD-1508769 progress: 1 160246 snath
+TDD1527125 [160247 : 160561 : 160986] snow? b
+TDD-1526966 progress: -1 160561 snow
+TDD1545606 [160247 : 160389 : 160561] snip? a
+TDD-1545611 progress: 1 160389 snip
+TDD1531088 [160390 : 160471 : 160561] snook? a
+TDD-1531243 progress: 1 160471 snook
+TDD1685835 [160472 : 160515 : 160561] snoozle? a
+TDD-1685856 progress: 1 160515 snoozle
+TDD1701335 [160516 : 160527 : 160561] snorkel? a
+TDD-1701346 progress: 1 160527 snorkel
+TDD1735967 [160528 : 160539 : 160561] snort? a
+TDD-1735846 progress: 1 160539 snort
+TDD2238078 [160540 : 160545 : 160561] snot? it
+TDD-2238217 progress: 0 160545 snot
+TDD-54 [160540 : 160545 : 160561] <Done>.
+TDD2599499 press <Return> to finish
+TDD-2396200 Press <Enter> to 📋 or `>` for line prompt 
+TDD-200248 share result: "\ud83e\udde9 Puzzle #752\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"
+TDD-3040 result puzzle: 752
+TDD-15 result guesses: 15
+TDD-2 result time: 23s
+TDD-1 result link: alphaguess.com
+TDD1540918 📆 2025-08-15 ? 
