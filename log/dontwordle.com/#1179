@@ -1,0 +1,51 @@
+T0.00017741500050760806 now: 2025-08-15T08:29:16EDT
+TD37 site: dontwordle.com
+TDD-12 wordlist: nwl2023.txt
+TDD9144477 1> * 
+TDD-7492625 ? 1
+TDD2789842 📋 "yobby" ? nnnnn
+TDD-4441115 tried: YOBBY n n n n n
+TDD493266 2> *
+TDD443715 ? 1
+TDD13987705 📋 "queue" ? nnMnY
+TDD-14925074 tried: QUEUE n n m n Y
+TDD942393 3> undo
+TDD-942546 undo
+TDD2844432 2> *
+TDD-1171974 ? 1
+TDD2678607 📋 "halal" ? Mnnnn
+TDD-4351006 tried: HALAL m n n n n
+TDD798989 3> undo
+TDD-799019 undo
+TDD2484818 2> *
+TDD2122792 ? 1
+TDD25726 📋 "walla" ? nnnnn
+TDD-4633334 tried: WALLA n n n n n
+TDD966661 3> *
+TDD1026519 ? 1
+TDD2567599 📋 "tutus" ? Ynnnn
+TDD-4560714 tried: TUTUS Y n n n n
+TDD762225 4> undo
+TDD-762310 undo
+TDD3121649 3> *
+TDD-1225784 ? 1
+TDD3775213 📋 "mumus" ? nnnnn
+TDD-5671070 tried: MUMUS n n n n n
+TDD927196 4> *
+TDD1766807 ? 1
+TDD1665709 📋 "icing" ? nnnnn
+TDD-4359681 tried: ICING n n n n n
+TDD857230 5> *
+TDD2049203 5> * -sans :v [he]
+TDD411642 5> * -sanns :v [ht]
+TDD874560 5> * -sans :v [ht]
+TDD-2526448 ? 1
+TDD7994058 📋 "defer" ? nMnYM
+TDD-9660207 tried: DEFER n m n Y m
+TDD1347412 6> * -sans
+TDD3432587 ? 1
+TDD3264469 📋 "kreep" ? nMMYn
+TDD-8044306 tried: KREEP n m m Y n
+TDD3939001 Press <Enter> to 📋 or `>` for line prompt 
+TDD-3931243 result: "Don't Wordle 1179 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6682\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2229\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c522\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c66\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe82\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c1\nUndos used: 3\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TDD662680 📆 2025-08-15 ? 
