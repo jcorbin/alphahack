@@ -1,204 +1,214 @@
-# 2025-08-15
+# 2025-08-16
 
-- 🔗 dontwordle.com 🧩 #1179 🥳 6 ⏱️ 0:02:02.278277
-- 🔗 spaceword.org 🧩 2025-08-14 🏁 score 2168 ranked 41.2% 170/413 ⏱️ 1:15:40.391770
-- 🔗 squareword.org 🧩 #1292 🥳 8 ⏱️ 0:02:42.868675
-- 🔗 dictionary.com hurdle 🧩 #1322 🥳 16 ⏱️ 0:02:49.405849
-- 🔗 alfagok.diginaut.net 🧩 #286 🥳 19 ⏱️ 0:00:54.828559
-- 🔗 alphaguess.com 🧩 #752 🥳 15 ⏱️ 0:00:34.837297
-- 🔗 cemantix.certitudes.org 🧩 #1262 🥳 106 ⏱️ 0:17:32.704896
-- 🔗 cemantle.certitudes.org 🧩 #1229 🥳 250 ⏱️ 0:23:36.613050
+- 🔗 dontwordle.com 🧩 #1180 🥳 6 ⏱️ 0:01:36.994239
+- 🔗 spaceword.org 🧩 2025-08-15 🏁 score 2173 ranked 3.1% 13/420 ⏱️ 7:04:01.051255
+- 🔗 squareword.org 🧩 #1293 🥳 8 ⏱️ 0:04:43.746357
+- 🔗 dictionary.com hurdle 🧩 #1323 🥳 17 ⏱️ 0:03:46.535629
+- 🔗 alfagok.diginaut.net 🧩 #287 🥳 19 ⏱️ 0:00:51.284662
+- 🔗 alphaguess.com 🧩 #753 🥳 17 ⏱️ 0:00:33.115175
+- 🔗 cemantix.certitudes.org 🧩 #1263 🥳 427 ⏱️ 1:41:17.533578
+- 🔗 cemantle.certitudes.org 🧩 #1230 🥳 362 ⏱️ 1:08:17.574886
 
 ```ex
 '<,'>norm ^f dt f🧩2f dt 0f P
 ```
 
-Details spoilers:
+- 🥳 dontwordle.com 🧩 #1180 6 ⏱️ 0:01:36.994239
+- 🏁 spaceword.org 🧩 2025-08-15 score 2173 ranked 3.1% 13/420 ⏱️ 7:04:01.051255
+- 🥳 squareword.org 🧩 #1293 8 ⏱️ 0:04:43.746357
+- 🥳 dictionary.com hurdle 🧩 #1323 17 ⏱️ 0:03:46.535629
+- 🥳 alfagok.diginaut.net 🧩 #287 19 ⏱️ 0:00:51.284662
+- 🥳 alphaguess.com 🧩 #753 17 ⏱️ 0:00:33.115175
+- 🥳 cemantix.certitudes.org 🧩 #1263 427 ⏱️ 1:41:17.533578
+- 🥳 cemantle.certitudes.org 🧩 #1230 362 ⏱️ 1:08:17.574886
 
-# dontwordle.com 🧩 #1179 🥳 6 ⏱️ 0:02:02.278277
+Details spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$OVo84LBIlCnP1B8biI-U8ydMKnaNVpSv0YnfAXf9QWI?via=aelf.land&via=matrix.org
 
-📜 1 sessions
-💰 score: 7
+# dontwordle.com 🧩 #1180 🥳 6 ⏱️ 0:01:36.994239
+
+📜 2 sessions
+💰 score: 21
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:YOBBY n n n n n remain:6682
-    ⬜⬜⬜⬜⬜ tried:WALLA n n n n n remain:2229
-    ⬜⬜⬜⬜⬜ tried:MUMUS n n n n n remain:522
-    ⬜⬜⬜⬜⬜ tried:ICING n n n n n remain:66
-    ⬜🟨⬜🟩🟨 tried:DEFER n m n Y m remain:2
-    ⬜🟨🟨🟩⬜ tried:KREEP n m m Y n remain:1
+    ⬜⬜⬜⬜⬜ tried:XYLYL n n n n n remain:8089
+    ⬜⬜⬜⬜⬜ tried:JUGUM n n n n n remain:4647
+    ⬜⬜⬜⬜⬜ tried:ZOOID n n n n n remain:1386
+    ⬜⬜⬜⬜🟨 tried:PHPHT n n n n m remain:260
+    🟨⬜🟨⬜⬜ tried:ENTER m n m n n remain:39
+    🟩🟨⬜🟨⬜ tried:SECTS Y m n m n remain:3
 
-    Undos used: 3
+    Undos used: 2
 
-      1 words remaining
+      3 words remaining
     x 7 unused letters
-    = 7 total score
+    = 21 total score
 
-# spaceword.org 🧩 2025-08-14 🏁 score 2168 ranked 41.2% 170/413 ⏱️ 1:15:40.391770
+# spaceword.org 🧩 2025-08-15 🏁 score 2173 ranked 3.1% 13/420 ⏱️ 7:04:01.051255
 
 📜 2 sessions
 - tiles: 21/21
-- score: 2168 bonus: +68
-- rank: 170/413
+- score: 2173 bonus: +73
+- rank: 13/420
 
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ J _ D _ _ _ _   
-      _ _ _ U K E _ _ _ _   
-      _ _ _ N _ X U _ _ _   
-      _ _ _ _ H I N _ _ _   
-      _ _ _ H O E D _ _ _   
-      _ _ _ _ _ _ O _ _ _   
-      _ _ _ _ _ _ E _ _ _   
-      _ _ _ B I A S _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ E F _ Q U A E R E   
+      _ L O _ _ _ J _ A X   
+      _ S P O O L I N G _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
 
-# squareword.org 🧩 #1292 🥳 8 ⏱️ 0:02:42.868675
+# squareword.org 🧩 #1293 🥳 8 ⏱️ 0:04:43.746357
 
 📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
-    🟨 🟨 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟨 🟨 🟨
-    🟨 🟨 🟨 🟩 🟨
+    🟩 🟨 🟨 🟨 🟩
+    🟨 🟨 🟨 🟨 🟩
+    🟨 🟨 🟨 🟩 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    B E R E T
-    E L I D E
-    G O N G S
-    U P S E T
-    N E E D Y
+    G R A S S
+    R E N E W
+    A B O D E
+    N U D G E
+    S T E E P
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1322 🥳 16 ⏱️ 0:02:49.405849
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1323 🥳 17 ⏱️ 0:03:46.535629
 
 📜 1 sessions
-💰 score: 10000
+💰 score: 9900
 
-    3/6
-    SABER ⬜⬜⬜⬜⬜
-    LITHO ⬜⬜🟨⬜⬜
-    UNCUT 🟩🟩🟩🟩🟩
-    3/6
-    UNCUT 🟨🟩⬜⬜⬜
-    KNURL ⬜🟩🟨⬜⬜
-    SNAFU 🟩🟩🟩🟩🟩
     4/6
-    SNAFU ⬜⬜🟨⬜⬜
-    EXTRA 🟨⬜⬜⬜🟩
-    GLEBA ⬜⬜🟨⬜🟩
-    MEDIA 🟩🟩🟩🟩🟩
+    DATES ⬜⬜⬜🟨⬜
+    PRONE ⬜🟨🟨⬜🟩
+    ROGUE 🟨🟩⬜⬜🟩
+    FORCE 🟩🟩🟩🟩🟩
     5/6
-    MEDIA ⬜🟨⬜⬜🟨
-    ASPER 🟨⬜⬜🟨🟨
-    CREAK ⬜🟩🟩🟩🟩
-    FREAK ⬜🟩🟩🟩🟩
-    BREAK 🟩🟩🟩🟩🟩
+    FORCE ⬜🟩⬜🟨⬜
+    COLDS 🟨🟩⬜⬜⬜
+    YOGIC ⬜🟩⬜🟩🟩
+    TOPIC 🟩🟩⬜🟩🟩
+    TOXIC 🟩🟩🟩🟩🟩
+    3/6
+    TOXIC ⬜🟨⬜⬜🟨
+    SCONE ⬜🟨🟨⬜⬜
+    MACRO 🟩🟩🟩🟩🟩
+    4/6
+    MACRO ⬜⬜⬜🟩🟨
+    SHORT 🟩⬜🟩🟩🟩
+    SPORT 🟩⬜🟩🟩🟩
+    SNORT 🟩🟩🟩🟩🟩
     Final 1/2
-    CONDO 🟩🟩🟩🟩🟩
+    CATER 🟩🟩🟩🟩🟩
 
-# alfagok.diginaut.net 🧩 #286 🥳 19 ⏱️ 0:00:54.828559
+# alfagok.diginaut.net 🧩 #287 🥳 19 ⏱️ 0:00:51.284662
 
 🤔 19 attempts
 📜 1 sessions
 
-    @        [     0] &-teken           
-    @+1      [     1] &-tekens          
-    @+2      [     2] -cijferig         
-    @+3      [     3] -e-mail           
-    @+199875 [199875] lijm              q0  ? after
-    @+205788 [205788] maas              q5  ? after
-    @+207012 [207012] mais              q7  ? after
-    @+207119 [207119] majuskel          q12 ? after
-    @+207145 [207145] makel             q13 ? after
-    @+207148 [207148] makelaars         q16 ? after
-    @+207167 [207167] makelaarswereldje q17 ? after
-    @+207177 [207177] maken             q18 ? it
-    @+207177 [207177] maken             done. it
-    @+207185 [207185] maki              q15 ? before
-    @+207224 [207224] mal               q10 ? before
-    @+207647 [207647] mande             q8  ? before
-    @+208300 [208300] mar               q6  ? before
-    @+211787 [211787] me                q4  ? before
-    @+223837 [223837] molest            q3  ? before
-    @+247811 [247811] op                q2  ? before
-    @+299820 [299820] schub             q1  ? before
+    @        [     0] &-teken   
+    @+1      [     1] &-tekens  
+    @+2      [     2] -cijferig 
+    @+3      [     3] -e-mail   
+    @+199875 [199875] lijm      q0  ? after
+    @+223837 [223837] molest    q3  ? after
+    @+229694 [229694] natuur    q5  ? after
+    @+231216 [231216] neig      q7  ? after
+    @+231939 [231939] neuk      q8  ? after
+    @+232315 [232315] neven     q9  ? after
+    @+232534 [232534] nieges    q13 ? after
+    @+232555 [232555] niemand   q18 ? it
+    @+232555 [232555] niemand   done. it
+    @+232573 [232573] nier      q14 ? before
+    @+232747 [232747] nieuw     q6  ? before
+    @+235812 [235812] odeur     q4  ? before
+    @+247805 [247805] op        q2  ? before
+    @+299814 [299814] schub     q1  ? before
 
-# alphaguess.com 🧩 #752 🥳 15 ⏱️ 0:00:34.837297
+# alphaguess.com 🧩 #753 🥳 17 ⏱️ 0:00:33.115175
 
-🤔 15 attempts
+🤔 17 attempts
 📜 1 sessions
 
-    @        [     0] aa      
-    @+1      [     1] aah     
-    @+2      [     2] aahed   
-    @+3      [     3] aahing  
-    @+98234  [ 98234] mach    q0  ? after
-    @+147390 [147390] rhotic  q1  ? after
-    @+159507 [159507] slop    q3  ? after
-    @+160246 [160246] snath   q7  ? after
-    @+160389 [160389] snip    q9  ? after
-    @+160471 [160471] snook   q10 ? after
-    @+160515 [160515] snoozle q11 ? after
-    @+160527 [160527] snorkel q12 ? after
-    @+160539 [160539] snort   q13 ? after
-    @+160545 [160545] snot    q14 ? it
-    @+160545 [160545] snot    done. it
-    @+160561 [160561] snow    q8  ? before
-    @+160986 [160986] soft    q6  ? before
-    @+162494 [162494] spec    q5  ? before
-    @+165549 [165549] stick   q4  ? before
-    @+171660 [171660] ta      q2  ? before
+    @        [     0] aa            
+    @+1      [     1] aah           
+    @+2      [     2] aahed         
+    @+3      [     3] aahing        
+    @+98234  [ 98234] mach          q0  ? after
+    @+100477 [100477] mater         q5  ? after
+    @+100480 [100480] material      q12 ? after
+    @+100487 [100487] materialist   q14 ? after
+    @+100488 [100488] materialistic done. it
+    @+100489 [100489] materialists  q16 ? before
+    @+100490 [100490] materialities q15 ? before
+    @+100493 [100493] materialize   q13 ? before
+    @+100506 [100506] maternally    q11 ? before
+    @+100534 [100534] matin         q10 ? before
+    @+100600 [100600] matt          q9  ? before
+    @+100738 [100738] maxim         q8  ? before
+    @+101029 [101029] med           q7  ? before
+    @+101620 [101620] memo          q6  ? before
+    @+102776 [102776] mi            q4  ? before
+    @+109953 [109953] ne            q3  ? before
+    @+122797 [122797] parr          q2  ? before
+    @+147390 [147390] rhotic        q1  ? before
 
-# cemantix.certitudes.org 🧩 #1262 🥳 106 ⏱️ 0:17:32.704896
+# cemantix.certitudes.org 🧩 #1263 🥳 427 ⏱️ 1:41:17.533578
 
-🤔 107 attempts
+🤔 428 attempts
 📜 1 sessions
-🫧 4 chat sessions
-⁉️ 21 chat prompts
-🤖 21 gemma3:12b replies
-🔥  1 🥵  3 😎 14 🥶 43 🧊 45
+🫧 18 chat sessions
+⁉️ 101 chat prompts
+🤖 5 llama3.2:latest replies
+🤖 94 gemma3:12b replies
+😱   1 🔥   1 🥵  13 😎  56 🥶 257 🧊  99
 
-      $1 #107   ~1 modernisation    100.00°C 🥳 1000‰
-      $2  #97   ~5 amélioration      51.96°C 🔥  993‰
-      $3 #104   ~2 infrastructure    44.49°C 🥵  984‰
-      $4  #99   ~3 aménagement       41.21°C 🥵  969‰
-      $5  #56  ~19 dispositif        39.10°C 🥵  953‰
-      $6  #73  ~14 innovation        35.19°C 😎  876‰
-      $7  #61  ~17 adaptation        35.08°C 😎  870‰
-      $8  #84  ~11 progrès           33.46°C 😎  829‰
-      $9  #82  ~12 processus         33.33°C 😎  824‰
-     $10  #90   ~9 système           30.49°C 😎  736‰
-     $11  #96   ~6 procédure         28.97°C 😎  682‰
-     $12  #76  ~13 maîtrise          27.98°C 😎  642‰
-     $20 #103      disposition       20.20°C 🥶
-     $63  #57      chemin            -0.05°C 🧊
+      $1 #428   ~1 chanteur         100.00°C 🥳 1000‰
+      $2  #90  ~65 chanson           67.22°C 😱  999‰
+      $3 #145  ~49 parolier          59.05°C 🔥  995‰
+      $4 #352  ~14 mélodiste         54.01°C 🥵  989‰
+      $5  #97  ~62 concert           50.82°C 🥵  976‰
+      $6 #219  ~33 chant             48.36°C 🥵  962‰
+      $7 #115  ~57 tournée           47.25°C 🥵  955‰
+      $8  #99  ~61 interprète        45.94°C 🥵  947‰
+      $9 #393   ~6 guitare           45.71°C 🥵  945‰
+     $10  #71  ~67 mélodie           44.61°C 🥵  934‰
+     $11 #251  ~24 danseur           43.92°C 🥵  923‰
+     $17 #412   ~2 arrangeur         41.00°C 😎  875‰
+     $73 #216      personnage        25.66°C 🥶
+    $330 #307      séquence          -0.05°C 🧊
 
-# cemantle.certitudes.org 🧩 #1229 🥳 250 ⏱️ 0:23:36.613050
+# cemantle.certitudes.org 🧩 #1230 🥳 362 ⏱️ 1:08:17.574886
 
-🤔 251 attempts
+🤔 363 attempts
 📜 1 sessions
-🫧 6 chat sessions
-⁉️ 33 chat prompts
-🤖 33 gemma3:12b replies
-😱   1 🥵   7 😎  23 🥶 163 🧊  56
+🫧 14 chat sessions
+⁉️ 88 chat prompts
+🤖 88 gemma3:12b replies
+🔥   2 🥵  13 😎  47 🥶 288 🧊  12
 
-      $1 #251   ~1 veteran          100.00°C 🥳 1000‰
-      $2 #248   ~3 seasoned          53.66°C 😱  999‰
-      $3 #215  ~15 talented          35.32°C 🥵  971‰
-      $4 #185  ~22 skilled           31.98°C 🥵  941‰
-      $5  #82  ~29 troubleshooter    31.81°C 🥵  937‰
-      $6 #239   ~4 astute            31.61°C 🥵  935‰
-      $7 #237   ~5 shrewd            31.36°C 🥵  931‰
-      $8 #231   ~7 professional      30.62°C 🥵  920‰
-      $9 #199  ~19 experienced       30.21°C 🥵  912‰
-     $10 #216  ~14 accomplished      28.59°C 😎  862‰
-     $11 #155  ~23 craftsman         27.24°C 😎  807‰
-     $12  #70  ~31 mechanic          25.97°C 😎  751‰
-     $33  #52      engineer          19.03°C 🥶
-    $196   #5      galaxy            -0.14°C 🧊
+      $1 #363   ~1 depict               100.00°C 🥳 1000‰
+      $2 #349   ~6 illustrate            60.20°C 🔥  995‰
+      $3 #188  ~39 depiction             57.40°C 🔥  993‰
+      $4  #68  ~52 chronicle             47.11°C 🥵  978‰
+      $5 #203  ~32 graphic               43.87°C 🥵  963‰
+      $6 #189  ~38 portrait              43.17°C 🥵  960‰
+      $7 #191  ~37 illustration          42.67°C 🥵  957‰
+      $8 #232  ~27 tableau               42.22°C 🥵  953‰
+      $9 #348   ~7 highlight             41.93°C 🥵  951‰
+     $10 #314  ~17 caricature            40.88°C 🥵  934‰
+     $11 #351   ~5 portraiture           40.55°C 🥵  929‰
+     $17 #215  ~31 painting              38.71°C 😎  894‰
+     $64  #21      archetype             27.36°C 🥶
+    $352 #290      margin                -0.86°C 🧊
