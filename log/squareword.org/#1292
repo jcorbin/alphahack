@@ -1,0 +1,104 @@
+T0.00025486497906968 now: 2025-08-15T08:26:17EDT
+TD56 site: squareword.org
+TDD6304165 🧩  ? #1292
+TDD-6303988 puzzle_id: #1292
+TDD-213 wordlist: nwl2023.txt
+TDD6731760 > *
+TDD-4712232 try? 2
+TDD-2018910 questioning: ["raise", "#5"]
+TDD7157685 #1 _____  📋 "raise" ? _____ ~ RE
+TDD-7157688 attempt 0 RAISE m n n n m
+TDD3382449 #2 _____  📋 "raise" ? __I_E_ ~ E
+TDD-3382898 attempt 1 RAISE n n Y n Y
+TDD10769314 #3 _____  📋 "raise" ? _____ ~ S
+TDD-10769177 attempt 2 RAISE n n n m n
+TDD5254405 #4 _____  📋 "raise" ? _____ ~ SE
+TDD-5254546 attempt 3 RAISE n n n m m
+TDD2170750 #5 _____  📋 "raise" ? _____ ~ E
+TDD-2170706 attempt 4 RAISE n n n n m
+TDD4532301 ? 
+TDD-4532258 question done
+TDD2294419 > *
+TDD183266 try? 2
+TDD-2477829 questioning: ["olive", "#2"]
+TDD6193052 #1 _____ ~ER -AIS  📋 "olive" ? .
+TDD-6192989 attempt 0 OLIVE n n n n m
+TDD4841448 #2 __I_E -ARS  📋 "olive" ? _LI_E ~ E
+TDD-4841494 attempt 1 OLIVE n Y Y n Y
+TDD2791426 #3 _____ ~S -AEIR  📋 "olive" ? _____ ~ SO
+TDD-2791430 attempt 2 OLIVE m n n n n
+TDD1025711 #4 _____ ~ES -AIR  📋 "olive" ? .
+TDD-1025446 attempt 3 OLIVE n n n n m
+TDD847322 #5 _____ ~E -AIRS  📋 "olive" ? .
+TDD-847452 attempt 4 OLIVE n n n n m
+TDD576384 ? 
+TDD-576364 question done
+TDD538974 > *
+TDD4494667 try? 3
+TDD-5033693 questioning: ["glide", "#2"]
+TDD4622562 #1 _____ ~ER -AILOSV  📋 "glide" ? .
+TDD-4622677 attempt 0 GLIDE n n n n m
+TDD3238027 #2 _LI_E -AORSV  📋 "glide" ? _LIDE ~ E
+TDD-3238014 attempt 1 GLIDE n Y Y Y Y
+TDD4345825 #3 _____ ~OS -AEILRV  📋 "glide" ? G____ ~ SOG
+TDD-4345787 attempt 2 GLIDE Y n n n n
+TDD1170039 #4 _____ ~ES -AILORV  📋 "glide" ? .
+TDD-1169846 attempt 3 GLIDE n n n n m
+TDD2670954 #5 _____ ~E -AILORSV  📋 "glide" ? ___D_ ~ E
+TDD-2671181 attempt 4 GLIDE n n n Y m
+TDD548745 ? 
+TDD-548718 question done
+TDD699494 > *
+TDD53688 questioning: ["elide", "#2"]
+TDD6731286 #1 _____ ~ER -ADGILOSV  📋 "elide" ? .
+TDD-7484486 attempt 0 ELIDE m n n n m
+TDD765710 #2 _LIDE -AGORSV  📋 "elide" ? /it
+TDD-765733 attempt 1 ELIDE Y Y Y Y Y
+TDD3797158 #3 G____ ~OS -ADEILRV  📋 "elide" ? G____ ~ SOG
+TDD-3797059 attempt 2 ELIDE n n n n n
+TDD1295201 #4 _____ ~ES -ADGILORV  📋 "elide" ? .
+TDD-1295100 attempt 3 ELIDE m n n n m
+TDD1006091 #5 ___D_ ~E -AGILORSV  📋 "elide" ? .
+TDD-1006267 attempt 4 ELIDE m n n Y m
+TDD604197 ? 
+TDD-604187 question done
+TDD542337 > *
+TDD-136283 questioning: ["gongs", "#3"]
+TDD4687895 #1 _____ ~ER -ADGILOSV  📋 "gongs" ? .
+TDD-5093980 attempt 0 GONGS n n n n n
+TDD990545 #3 G____ ~OS -ADEILRV  📋 "gongs" ? /it
+TDD-990520 attempt 2 GONGS Y Y Y Y Y
+TDD2384626 #4 _____ ~ES -ADGILORV  📋 "gongs" ? .
+TDD-2384613 attempt 3 GONGS n n n n m
+TDD5126448 #5 ___D_ ~E -AGILORSV  📋 "gongs" ? ___D_ ~ EN
+TDD-5126455 attempt 4 GONGS n n m n n
+TDD825355 ? 
+TDD-825399 question done
+TDD922851 > *
+TDD1331834 questioning: ["beret", "#1"]
+TDD2501743 #1 _____ ~ER -ADGILNOSV  📋 "beret" ? /it
+TDD-4756300 attempt 0 BERET Y Y Y Y Y
+TDD5859291 #4 _____ ~ES -ADGILNORV  📋 "beret" ? ___ET ~ S
+TDD-5859128 attempt 3 BERET n n n Y Y
+TDD5383232 #5 ___D_ ~EN -AGILORSV  📋 "beret" ? _E_D_ ~ EN
+TDD-5383460 attempt 4 BERET n Y n m n
+TDD731392 ? 
+TDD-731296 question done
+TDD567053 > *
+TDD1163860 questioning: ["upset", "#4"]
+TDD1751983 #4 ___ET ~S -ABDGILNORV  📋 "upset" ? /it
+TDD-3482961 attempt 3 UPSET Y Y Y Y Y
+TDD2331489 #5 _E_D_ ~EN -ABGILORSTV  📋 "upset" ? .
+TDD-2331535 attempt 4 UPSET n n n m n
+TDD504414 ? *
+TDD23464 ? 
+TDD-527964 question done
+TDD576273 > *
+TDD485088 questioning: ["needy", "#5"]
+TDD2510222 #5 _E_D_ ~EN -ABGILOPRSTUV  📋 "needy" ? /it
+TDD-3571565 attempt 4 NEEDY Y Y Y Y Y
+TDD806348 ? 
+TDD-806358 question done
+TDD4277917 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4275506 result: "squareword.org 1292: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1292"
+TDD183178 📆 2025-08-15 ? 
