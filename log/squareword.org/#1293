@@ -1,0 +1,103 @@
+T0.0002117840340360999 now: 2025-08-16T10:12:08EDT
+TD40 site: squareword.org
+TDD2152402 🧩  ? #1293
+TDD-2152013 puzzle_id: #1293
+TDD-386 wordlist: nwl2023.txt
+TDD1551669 > *
+TDD179842 try? 2
+TDD-1730736 questioning: ["anise", "#5"]
+TDD30742084 #1 _____  📋 "anise" ? ___S_ ~ AS
+TDD-30742065 attempt 0 ANISE m n n Y n
+TDD2794080 #2 _____  📋 "anise" ? _____ ~ NE
+TDD-2794521 attempt 1 ANISE n m n n m
+TDD2062067 #3 _____  📋 "anise" ? A___E 
+TDD-2062070 attempt 2 ANISE Y n n n Y
+TDD2451697 #4 _____  📋 "anise" ? ____E ~ N
+TDD-2451649 attempt 3 ANISE n m n n Y
+TDD2404463 #5 _____  📋 "anise" ? _____ ~ SE
+TDD-2404465 attempt 4 ANISE n n n m m
+TDD543921 ? 
+TDD-544094 question done
+TDD832079 > *
+TDD2292460 try? 2
+TDD-3124549 questioning: ["coast", "#1"]
+TDD5273705 #1 ___S_ ~A -EIN  📋 "coast" ? __AS_ ~ S
+TDD-5273660 attempt 0 COAST n n Y Y n
+TDD2334983 #2 _____ ~EN -AIS  📋 "coast" ? .
+TDD-2335150 attempt 1 COAST n n n n n
+TDD4026838 #3 A___E -INS  📋 "coast" ? A___E ~ O
+TDD-4026536 attempt 2 COAST n m n n n
+TDD2244621 #4 ____E ~N -AIS  📋 "coast" ? .
+TDD-2244623 attempt 3 COAST n n n n n
+TDD3943745 #5 _____ ~ES -AIN  📋 "coast" ? _____ ~ SET
+TDD-3943980 attempt 4 COAST n n n m m
+TDD7182823 ? 
+TDD-7182818 question done
+TDD13912720 > *
+TDD-12178377 try? 1
+TDD-1734272 questioning: ["grasp", "#1"]
+TDD4664058 #1 __AS_ -CEINOT  📋 "grasp" ? gras_ ~ S
+TDD-4664034 attempt 0 GRASP Y Y Y Y n
+TDD3465697 #2 _____ ~EN -ACIOST  📋 "grasp" ? _____ ~ NER
+TDD-3465682 attempt 1 GRASP n m n n n
+TDD1572056 #3 A___E ~O -ACINST  📋 "grasp" ? .
+TDD-1572037 attempt 2 GRASP n n n n n
+TDD3451802 #4 ____E ~N -ACIOST  📋 "grasp" ? ____E ~ NG
+TDD-3451991 attempt 3 GRASP m n n n n
+TDD3168466 #5 _____ ~EST -ACINO  📋 "grasp" ? ____P ~ SET
+TDD-3168288 attempt 4 GRASP n n n m Y
+TDD9666882 ? 
+TDD-9666886 question done
+TDD89294358 > *
+TDD-88493870 questioning: ["grass", "#1"]
+TDD3973672 #1 GRAS_ -CEINOPT  📋 "grass" ? /it
+TDD-4774227 attempt 0 GRASS Y Y Y Y Y
+TDD2178850 #2 _____ ~ENR -ACGIOPST  📋 "grass" ? .
+TDD-2178777 attempt 1 GRASS n m n n n
+TDD843476 #3 A___E ~O -ACGINPRST  📋 "grass" ? .
+TDD-843438 attempt 2 GRASS n n n n n
+TDD1389727 #4 ____E ~GN -ACIOPRST  📋 "grass" ? .
+TDD-1389805 attempt 3 GRASS m n n n n
+TDD883059 #5 ____P ~EST -ACGINOR  📋 "grass" ? .
+TDD-883067 attempt 4 GRASS n n n m m
+TDD634283 ? 
+TDD-634250 question done
+TDD659288 > *
+TDD-573381 questioning: ["renew", "#2"]
+TDD3582647 #2 _____ ~ENR -ACGIOPST  📋 "renew" ? /it
+TDD-3668506 attempt 1 RENEW Y Y Y Y Y
+TDD1477721 #3 A___E ~O -ACGINPRST  📋 "renew" ? .
+TDD-1477507 attempt 2 RENEW n n n n n
+TDD1211014 #4 ____E ~GN -ACIOPRST  📋 "renew" ? .
+TDD-1211245 attempt 3 RENEW n n m n n
+TDD3023258 #5 ____P ~EST -ACGINOR  📋 "renew" ? ___EP ~ SET
+TDD-3023301 attempt 4 RENEW n m n Y n
+TDD599611 ? 
+TDD-599765 question done
+TDD22165029 > *
+TDD-20017320 questioning: ["nudge", "#4"]
+TDD5432142 #3 A___E ~O -ACEGINPRSTW  📋 "nudge" ? A___E ~ OD
+TDD-7579719 attempt 2 NUDGE n n m n Y
+TDD1575446 #4 ____E ~GN -ACEIOPRSTW  📋 "nudge" ? /it
+TDD-1575469 attempt 3 NUDGE Y Y Y Y Y
+TDD1628360 #5 ___EP ~EST -ACGINORW  📋 "nudge" ? .
+TDD-1628227 attempt 4 NUDGE n n n n m
+TDD612201 ? 
+TDD-612378 question done
+TDD622353 > *
+TDD1025420 questioning: ["abode", "#3"]
+TDD2717059 #3 A___E ~DO -ACGINPRSTUW  📋 "abode" ? /it
+TDD-4364730 attempt 2 ABODE Y Y Y Y Y
+TDD1576500 #5 ___EP ~EST -ACDGINORUW  📋 "abode" ? .
+TDD-1576470 attempt 4 ABODE n n n n m
+TDD671675 ? 
+TDD-671764 question done
+TDD448116 > *
+TDD613329 questioning: ["steep", "#5"]
+TDD2688286 #5 ___EP ~EST -ABCDGINORUW  📋 "steep" ? /it
+TDD-3749658 attempt 4 STEEP Y Y Y Y Y
+TDD471041 ? 
+TDD-471199 question done
+TDD4666678 Press <Enter> to 📋 or `>` for line prompt 
+TDD-4659663 result: "squareword.org 1293: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1293"
+TDD155304 📆 2025-08-16 ? 
