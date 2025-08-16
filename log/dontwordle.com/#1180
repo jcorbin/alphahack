@@ -1,0 +1,49 @@
+T0.0001736590056680143 now: 2025-08-16T10:24:57EDT
+TD39 site: dontwordle.com
+TDD-13 wordlist: nwl2023.txt
+TDD1463090 1> * -bot 10
+TDD3534475 <INT>
+TDD-4997447 <INT>
+T0.045258808007929474 now: 2025-08-16T10:25:06EDT
+TD1972210 1> * -bot 10
+TDD-510049 ? 1
+TDD3844501 📋 "arise" ? MnnMM
+TDD-5306073 tried: ARISE m n n m m
+TDD3591293 2> undo
+TDD-3591725 undo
+TDD2991766 1> *
+TDD-2061800 ? 1
+TDD3841137 📋 "phpht" ? nnnnM
+TDD-4770998 tried: PHPHT n n n n m
+TDD822295 2> undo
+TDD-822374 undo
+TDD2195603 1> *
+TDD-454400 ? 1
+TDD2158273 📋 "xylyl" ? nnnnn
+TDD-3899446 tried: XYLYL n n n n n
+TDD727903 2> *
+TDD707545 ? 1
+TDD3711226 📋 "jugum" ? nnnnn
+TDD-5146691 tried: JUGUM n n n n n
+TDD770366 3> *
+TDD889998 ? 1
+TDD2236204 📋 "zooid" ? nnnnn
+TDD-3896327 tried: ZOOID n n n n n
+TDD890419 4> *
+TDD4827371 4> * -sans :v [aes]
+TDD-1361729 ? 2
+TDD-162436 📋 "phpht" ? nnnnM
+TDD-4193760 tried: PHPHT n n n n m
+TDD4837498 5> * -sans :v [aes]
+TDD311516 5> * -sans :v [ae]
+TDD-1898908 5> * -sans :v [as]
+TDD-2057046 ? 1
+TDD4008074 📋 "enter" ? MnMnn
+TDD-5201332 tried: ENTER m n m n n
+TDD1225959 6> * -sans
+TDD2606292 ? 1
+TDD689846 📋 "sects" ? YMnMn
+TDD-4521889 tried: SECTS Y m n m n
+TDD2646782 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2640574 result: "Don't Wordle 1180 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c8089\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4647\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1386\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8260\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c39\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c3\nUndos used: 2\n\n  3 words remaining\nx 7 unused letters\n= 21 total score"
+TDD128402 📆 2025-08-16 ? 
