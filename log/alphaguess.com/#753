@@ -1,0 +1,45 @@
+T0.00018514401745051146 now: 2025-08-16T10:11:09EDT
+TD94156 loaded 196552 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (51 words excluded) asof 4e771a14a39a169f154d5e9b2ce1d3c3fc7689f9
+TDD4752547 [0 : 98234 : 196552] mach? a
+TDD-4846054 progress: 1 98234 mach
+TDD1360870 [98235 : 147390 : 196552] rhotic? b
+TDD-1361156 progress: -1 147390 rhotic
+TDD1393339 [98235 : 122797 : 147390] parr? b
+TDD-1393554 progress: -1 122797 parr
+TDD1785824 [98235 : 109953 : 122797] ne? b
+TDD-1785824 progress: -1 109953 ne
+TDD1482094 [98235 : 102776 : 109953] mi? b
+TDD-1482019 progress: -1 102776 mi
+TDD1294381 [98235 : 100477 : 102776] mater? a
+TDD-1294361 progress: 1 100477 mater
+TDD1379854 [100478 : 101620 : 102776] memo? b
+TDD-1379941 progress: -1 101620 memo
+TDD1272822 [100478 : 101029 : 101620] med? b
+TDD-1272714 progress: -1 101029 med
+TDD1304962 [100478 : 100738 : 101029] maxim? b
+TDD-1304965 progress: -1 100738 maxim
+TDD1274474 [100478 : 100600 : 100738] matt? b
+TDD-1274508 progress: -1 100600 matt
+TDD1550006 [100478 : 100534 : 100600] matin? b
+TDD-1550076 progress: -1 100534 matin
+TDD1888706 [100478 : 100506 : 100534] maternally? b
+TDD-1888630 progress: -1 100506 maternally
+TDD1347948 [100478 : 100480 : 100506] material? a
+TDD-1348008 progress: 1 100480 material
+TDD2269774 [100481 : 100493 : 100506] materialize? b
+TDD-2269719 progress: -1 100493 materialize
+TDD1545193 [100481 : 100487 : 100493] materialist? a
+TDD-1545107 progress: 1 100487 materialist
+TDD1402027 [100488 : 100490 : 100493] materialities? b
+TDD-1402092 progress: -1 100490 materialities
+TDD1610339 [100488 : 100489 : 100490] materialists? b
+TDD-1610411 progress: -1 100489 materialists
+TDD-150 [100488 : 100488 : 100489] <Done>.
+TDD1593389 press <Return> to finishit
+TDD620544 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2208445 share result: "\ud83e\udde9 Puzzle #753\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 26s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5443 result puzzle: 753
+TDD-50 result guesses: 18
+TDD-6 result time: 26s
+TDD-1 result link: alphaguess.com
+TDD190211 📆 2025-08-16 ? 
