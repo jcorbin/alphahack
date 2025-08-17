@@ -1,0 +1,54 @@
+T0.00018865196034312248 now: 2025-08-17T08:35:40EDT
+TD38 site: dontwordle.com
+TDD-13 wordlist: nwl2023.txt
+TDD2341705 1> * -bot 10
+TDD-427692 ? 2
+TDD4774316 📋 "arise" ? MnYnn
+TDD-6687516 tried: ARISE m n Y n n
+TDD886019 2> undo
+TDD-886754 undo
+TDD3117965 1> *
+TDD-1354928 ? 1
+TDD1650013 📋 "femme" ? nnnnn
+TDD-3412859 tried: FEMME n n n n n
+TDD531207 2> *
+TDD5477483 ? 3
+TDD-2538307 📋 "known" ? nnnnn
+TDD-3470567 tried: KNOWN n n n n n
+TDD530937 3> *
+TDD5606246 ? 1
+TDD-1946864 📋 "sudds" ? nnnnn
+TDD-4190216 tried: SUDDS n n n n n
+TDD496867 4> *
+TDD696680 ? 1
+TDD3778316 📋 "xylyl" ? nnMnn
+TDD-4971851 tried: XYLYL n n m n n
+TDD806814 5> undo
+TDD-806933 undo
+TDD3947899 4> *
+TDD-2203405 ? 2
+TDD3470662 📋 "crypt" ? Mnnnn
+TDD-5215020 tried: CRYPT m n n n n
+TDD874453 5> undo
+TDD-874429 undo
+TDD3306305 4> *
+TDD1083794 📋 "phpht" ? nnnnn
+TDD-4390131 tried: PHPHT n n n n n
+TDD2005255 5> *
+TDD2426449 5> * -sans :v [aci]
+TDD-1388072 ? 2
+TDD2660095 📋 "xylyl" ? nnMnn
+TDD-5703731 tried: XYLYL n n m n n
+TDD1901853 6> *
+TDD1854228 6> * -sans :v [aci]
+TDD625828 6> * -sanc :v [ai]
+TDD1272836 6> * -sans :v [ai]
+TDD-1907887 6> * -sans :v [ac]
+TDD2304130 📋 "libri" ? MMnnM
+TDD-6050921 tried: LIBRI m m n n m
+TDD17079673 Press <Enter> to 📋 or `>` for line prompt 
+TDD-15613309 Press <Enter> to 📋 or `>` for line prompt repo
+TDD-8399 Press <Enter> to 📋 or `>` for line prompt 
+TDD1241552 Press <Enter> to 📋 or `>` for line prompt 
+TDD-2694484 result: "Don't Wordle 1181 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5567\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1910\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c467\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c163\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c18\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe81\nUndos used: 3\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TDD152733 📆 2025-08-17 ? 
