@@ -84,6 +84,9 @@ class LogParser:
             (?P<time> [-+]? \d+ [^\s]* )
             ''')
         if not m:
+            if not self.warn:
+                raise ValueError('invalid log line, missing time')
+            self.warn(f'invalid log line {orig!r}, missing time')
             return None, False, line
 
         td = str(m[1])
