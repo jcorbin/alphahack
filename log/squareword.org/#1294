@@ -1,0 +1,119 @@
+T0.00022053299471735954 now: 2025-08-17T08:11:21EDT
+TD41 site: squareword.org
+TDD10027235 🧩  ? #1294
+TDD-10026715 puzzle_id: #1294
+TDD-501 wordlist: nwl2023.txt
+TDD19348094 > *
+TDD-18057927 try? 1
+TDD-1289408 questioning: ["earns", "#5"]
+TDD5668309 #1 _____  📋 "earns" ? _____ ~ ES
+TDD-5668257 attempt 0 EARNS m n n n m
+TDD2696210 #2 _____  📋 "earns" ? _A___ ~ ER
+TDD-2696568 attempt 1 EARNS m Y m n n
+TDD2480645 #3 _____  📋 "earns" ? _____ ~ eA
+TDD-2480770 attempt 2 EARNS m m n n n
+TDD3326216 #4 _____  📋 "earns" ? _____ ~ E
+TDD-3326252 attempt 3 EARNS m n n n n
+TDD2356066 #5 _____  📋 "earns" ? _____ ~ ERS
+TDD-2355926 attempt 4 EARNS m n m n m
+TDD536920 ? 
+TDD-537323 question done
+TDD695597 > *
+TDD9902835 try? 3
+TDD-10598227 questioning: ["poser", "#5"]
+TDD5121371 #1 _____ ~ES -ANR  📋 "poser" ? .
+TDD-5121380 attempt 0 POSER n n m m n
+TDD2504937 #2 _A___ ~ER -NS  📋 "poser" ? _A_ER
+TDD-2504894 attempt 1 POSER n n n Y Y
+TDD2998191 #3 _____ ~AE -NRS  📋 "poser" ? .
+TDD-2998361 attempt 2 POSER n n n m n
+TDD735790 #4 _____ ~E -ANRS  📋 "poser" ? .
+TDD-735643 attempt 3 POSER n n n m n
+TDD2317017 #5 _____ ~ERS -AN  📋 "poser" ? ___ER ~ ES
+TDD-2317157 attempt 4 POSER n n m Y Y
+TDD536154 ? 
+TDD-536001 question done
+TDD614238 > *
+TDD5083746 try? 3
+TDD-5698153 questioning: ["sizer", "#5"]
+TDD7796868 #1 _____ ~ES -ANOPR  📋 "sizer" ? S____ ~ E
+TDD-7796603 attempt 0 SIZER Y n n m n
+TDD1697605 #2 _A_ER -NOPS  📋 "sizer" ? .
+TDD-1697826 attempt 1 SIZER n n n Y Y
+TDD3306912 #3 _____ ~AE -NOPRS  📋 "sizer" ? _____ ~ EAI
+TDD-3306664 attempt 2 SIZER n m n m n
+TDD3320941 #4 _____ ~E -ANOPRS  📋 "sizer" ? _I___ ~ E
+TDD-3321215 attempt 3 SIZER n Y n m n
+TDD3679969 #5 ___ER ~S -ANOP  📋 "sizer" ? S__ER ~ E
+TDD-3679581 attempt 4 SIZER Y n n Y Y
+TDD623451 ? 
+TDD-623560 question done
+TDD673069 > *
+TDD7113392 try? 1
+TDD-7783917 questioning: ["sewer", "#5"]
+TDD10967505 #1 S____ ~E -AINOPRZ  📋 "sewer" ? .
+TDD-10969969 attempt 0 SEWER Y m n m n
+TDD1422037 #2 _A_ER -INOPSZ  📋 "sewer" ? .
+TDD-1422015 attempt 1 SEWER n n n Y Y
+TDD1437634 #3 _____ ~AEI -NOPRSZ  📋 "sewer" ? .
+TDD-1437786 attempt 2 SEWER n m n m n
+TDD1483167 #4 _I___ ~E -ANOPRSZ  📋 "sewer" ? .
+TDD-1483429 attempt 3 SEWER n m n m n
+TDD6440483 #5 S__ER -AINOPZ  📋 "sewer" ? S__ER ~ E
+TDD-6440137 attempt 4 SEWER Y m n Y Y
+TDD783906 ? 
+TDD-784083 question done
+TDD763900 > *
+TDD3032679 try? 2
+TDD-3796661 questioning: ["steer", "#5"]
+TDD5951930 #1 S____ ~E -AINOPRWZ  📋 "steer" ? S_E__
+TDD-5951663 attempt 0 STEER Y n Y n n
+TDD1534849 #2 _A_ER -INOPSWZ  📋 "steer" ? .
+TDD-1535062 attempt 1 STEER n n n Y Y
+TDD1007592 #3 _____ ~AEI -NOPRSWZ  📋 "steer" ? .
+TDD-1007549 attempt 2 STEER n n m m n
+TDD907226 #4 _I___ ~E -ANOPRSWZ  📋 "steer" ? .
+TDD-907266 attempt 3 STEER n n m m n
+TDD1043752 #5 S__ER -AINOPWZ  📋 "steer" ? /it
+TDD-1043455 attempt 4 STEER Y Y Y Y Y
+TDD160910 ? 
+TDD-161220 question done
+TDD592303 > *
+TDD1583517 questioning: ["shelf", "#1"]
+TDD1427267 #1 S_E__ -AINOPRTWZ  📋 "shelf" ? /it
+TDD-3603188 attempt 0 SHELF Y Y Y Y Y
+TDD5336840 #2 _A_ER -INOPSTWZ  📋 "shelf" ? _A_ER ~ L
+TDD-5336629 attempt 1 SHELF n n n m n
+TDD1950016 #3 _____ ~AEI -NOPRSTWZ  📋 "shelf" ? .
+TDD-1950108 attempt 2 SHELF n n m n n
+TDD3150353 #4 _I___ ~E -ANOPRSTWZ  📋 "shelf" ? _I___ ~ EL
+TDD-3150314 attempt 3 SHELF n n m m n
+TDD905106 ? 
+TDD-905154 question done
+TDD5813663 > *
+TDD-3696334 questioning: ["abide", "#3"]
+TDD2981934 #2 _A_ER ~L -EFHINOPSTWZ  📋 "abide" ? .
+TDD-5099252 attempt 1 ABIDE n n n n n
+TDD775631 #3 _____ ~AEI -FHLNOPRSTWZ  📋 "abide" ? /it
+TDD-775549 attempt 2 ABIDE Y Y Y Y Y
+TDD5514326 #4 _I___ ~EL -AFHNOPRSTWZ  📋 "abide" ? _I__E ~ LB
+TDD-5514170 attempt 3 ABIDE n m n n Y
+TDD931066 ? 
+TDD-931335 question done
+TDD781089 > *
+TDD984080 questioning: ["bilge", "#4"]
+TDD7476876 #2 _A_ER ~L -ABDEFHINOPSTWZ  📋 "bilge" ? .
+TDD-9242030 attempt 1 BILGE n n m n n
+TDD1496836 #4 _I__E ~BL -ADFHINOPRSTWZ  📋 "bilge" ? /it
+TDD-1496771 attempt 3 BILGE Y Y Y Y Y
+TDD1625013 ? 
+TDD-1625246 question done
+TDD1013619 > *
+TDD21865 questioning: ["laxer", "#2"]
+TDD3064513 #2 _A_ER ~L -ABDEFGHINOPSTWZ  📋 "laxer" ? /it
+TDD-4099659 attempt 1 LAXER Y Y Y Y Y
+TDD9053114 ? 
+TDD-9053309 question done
+TDD416019 Press <Enter> to 📋 or `>` for line prompt 
+TDD-410572 result: "squareword.org 1294: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1294"
+TDD843155 📆 2025-08-17 ? 
