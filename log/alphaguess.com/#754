@@ -1,0 +1,38 @@
+T0.00018536101561039686 now: 2025-08-17T08:09:27EDT
+TD63595 loaded 196552 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (51 words excluded) asof 7f108cabf33df0ce7bd1a9dee5d49252220df377
+TDD5194185 [0 : 98234 : 196552] mach? a
+TDD-5257371 progress: 1 98234 mach
+TDD1555377 [98235 : 147390 : 196552] rhotic? a
+TDD-1555558 progress: 1 147390 rhotic
+TDD1816931 [147391 : 171660 : 196552] ta? b
+TDD-1816840 progress: -1 171660 ta
+TDD1606228 [147391 : 159507 : 171660] slop? a
+TDD-1606272 progress: 1 159507 slop
+TDD1625961 [159508 : 165549 : 171660] stick? b
+TDD-1626119 progress: -1 165549 stick
+TDD1519838 [159508 : 162494 : 165549] spec? a
+TDD-1519678 progress: 1 162494 spec
+TDD1893703 [162495 : 164020 : 165549] squab? b
+TDD-1893715 progress: -1 164020 squab
+TDD1590921 [162495 : 163230 : 164020] spit? 
+TDD-888624 [162495 : 163230 : 164020] spit? a
+TDD-702391 progress: 1 163230 spit
+TDD1589691 [163231 : 163625 : 164020] sporopollenins? a
+TDD-1589516 progress: 1 163625 sporopollenins
+TDD1623464 [163626 : 163811 : 164020] spring? b
+TDD-1623519 progress: -1 163811 spring
+TDD1487453 [163626 : 163702 : 163811] spot? a
+TDD-1487664 progress: 1 163702 spot
+TDD1600032 [163703 : 163754 : 163811] sprat? a
+TDD-1599901 progress: 1 163754 sprat
+TDD1747554 [163755 : 163775 : 163811] spread? it
+TDD-1747592 progress: 0 163775 spread
+TDD-135 [163755 : 163775 : 163811] <Done>.
+TDD2064615 press <Return> to finish
+TDD-1900841 Press <Enter> to 📋 or `>` for line prompt 
+TDD-158457 share result: "\ud83e\udde9 Puzzle #754\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"
+TDD-5300 result puzzle: 754
+TDD-39 result guesses: 13
+TDD-4 result time: 20s
+TDD0 result link: alphaguess.com
+TDD520478 📆 2025-08-17 ? 
