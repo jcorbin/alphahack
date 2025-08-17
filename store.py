@@ -77,13 +77,12 @@ class LogParser:
     def __call__(self, line: str) -> tuple[float|None, bool, str]:
         orig = line
 
-        m = re.match(r'''(?x)
-            (?P<tkind> T | TD | TDD ) (?P<time> [-+]? \d+ [^\s]* )
-            \s+
-            (?P<iz> Z \s+ )?
-            (?P<rest> .+ )
-            $''', line)
+        tokens = PromptUI.Tokens(line)
 
+        m = tokens.have(r'''(?x)
+            (?P<tkind> T | TD | TDD )
+            (?P<time> [-+]? \d+ [^\s]* )
+            ''')
         if not m:
             return None, False, line
 
@@ -102,10 +101,10 @@ class LogParser:
             raise ValueError(f'invalid time kind {td}')
         self.t1, self.t2 = self.t2, t
 
-        z = bool(m[3])
-        line = str(m[4])
+        z = bool(tokens.have(r'''(?x) Z $'''))
         if z:
-            zb = b85decode(line)
+            zline = tokens.rest
+            zb = b85decode(zline)
             try:
                 b = self.unz.decompress(zb)
             except zlib.error as err:
@@ -114,10 +113,10 @@ class LogParser:
                 self.zlib_fails += 1
                 if self.zlib_fails <= 1:
                     self.warn(f'failed to decompress line {orig!r}: {err}')
-                return t, False, f'Z {line}'
+                return t, False, f'Z {zline}'
             if self.rez is not None:
                 self.rez(b)
-            line = b.decode()
+            tokens.rest = b.decode()
 
         fails = self.zlib_fails
         if fails:
@@ -125,7 +124,7 @@ class LogParser:
                 self.warn(f'... and {fails-1} more lines')
             self.zlib_fails = 0
 
-        return t, z, line
+        return t, z, tokens.rest
 
 class StoredLog:
     @classmethod
