@@ -1,0 +1,50 @@
+T0.00020876247435808182 now: 2025-08-18T13:10:01UTC
+TD40 site: alfagok.diginaut.net
+TDD150310 loaded 399770 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1082 words excluded) asof 32d440954a208fbe639cb34a530c1be38e39902e
+TDD12629341 <INT>
+T0.3964253254234791 now: 2025-08-18T13:10:16UTC
+TD11929594 <INT>
+T0.3907041950151324 now: 2025-08-18T13:18:43UTC
+TD10597481 [0 : 199874 : 399770] lijm? a
+TDD-10597253 progress: 1 199874 lijm
+TDD1895175 [199875 : 299813 : 399770] schub? b
+TDD-1895265 progress: -1 299813 schub
+TDD1740691 [199875 : 247804 : 299813] op? a
+TDD-1740737 progress: 1 247804 op
+TDD3815044 [247805 : 273612 : 299813] proef? b
+TDD-3815041 progress: -1 273612 proef
+TDD3284006 [247805 : 260691 : 273612] pater? b
+TDD-3284005 progress: -1 260691 pater
+TDD1875640 [247805 : 254209 : 260691] out? b
+TDD-1875640 progress: -1 254209 out
+TDD2651780 [247805 : 250993 : 254209] oproep? a
+TDD-2651775 progress: 1 250993 oproep
+TDD1853434 [250994 : 252596 : 254209] oranje? b
+TDD-1853407 progress: -1 252596 oranje
+TDD1852776 [250994 : 251782 : 252596] optel? a
+TDD-1852803 progress: 1 251782 optel
+TDD1792848 [251783 : 252185 : 252596] opvoer? b
+TDD-1792860 progress: -1 252185 opvoer
+TDD1674672 [251783 : 251974 : 252185] opvang? a
+TDD-1674657 progress: 1 251974 opvang
+TDD6360540 [251975 : 252079 : 252185] opvijzel? a
+TDD-6360549 progress: 1 252079 opvijzel
+TDD2026234 [252080 : 252125 : 252185] opvoeding? it
+TDD-2026239 progress: 0 252125 opvoeding
+TDD-62 [252080 : 252125 : 252185] <Done>.
+TDD3161286 press <Return> to finish
+TDD-2953494 Press <Enter> to 📋 or `>` for line prompt 
+TDD1402117 Press <Enter> to 📋 or `>` for line prompt >
+TDD303082 > opvoeding
+TDD4036018 Press <Enter> to 📋 or `>` for line prompt >
+TDD-5147061 > 🧩 Puzzel #289
+TDD-801891 > 🤔 13 gokken
+TDD-62 > ⏱️ 32s
+TDD605226 > 🔗 alfagok.diginaut.net
+TDD424190 > ␚
+TDD-1029352 share result: "\ud83e\udde9 Puzzel #289\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 32s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-70 result puzzle: 289
+TDD8 result guesses: 13
+TDD-14 result time: 32s
+TDD-1 result link: alfagok.diginaut.net
+TDD971079 📆 2025-08-18 ? 
