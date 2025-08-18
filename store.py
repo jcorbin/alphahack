@@ -1237,6 +1237,8 @@ class StoredLog:
         head_id = self.report_header(desc='')
         note_id = self.report_note(desc='')
 
+        # TODO factor def rep_lines(lines: Iterable[str]) -> Generator[str] out of below
+
         def rep(line: str) -> Iterable[str]|None:
             if line.startswith(head_id):
                 return body
