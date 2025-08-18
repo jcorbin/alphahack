@@ -829,6 +829,10 @@ class StoredLog:
     report_file: str = 'report.md' # TODO hoist and wire up to arg
 
     @property
+    def report_date(self) -> datetime.date|None:
+        return self.today
+
+    @property
     def report_desc(self) -> str:
         return  f'⏱️ {self.elapsed}'
 
