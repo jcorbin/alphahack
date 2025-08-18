@@ -35,24 +35,31 @@ class NullClipboard:
     def paste(self) -> str:
         return ''
 
-# TODO snip the pyperclip dep, just implement command dispatchers and/or an osc52 fallback provider
+DefaultClipboard = NullClipboard()
 
+# TODO snip the pyperclip dep, just implement command dispatchers and/or an osc52 fallback provider
 try:
-    import pyperclip # pyright: ignore[reportMissingImports]
+    import pyperclip # pyright: ignore[reportMissingImports, reportMissingTypeStubs]
+except:
+    pyperclip = None
+    pass
+
+if pyperclip and  pyperclip.is_available():
+    pyp_copy = pyperclip.copy # pyright: ignore[reportUnknownMemberType, reportUnknownVariableType]
+    pyp_paste = pyperclip.paste
 
     @final
     class Pyperclip:
         def copy(self, mess: str):
-            pyperclip.copy(mess) # pyright: ignore[reportUnknownMemberType]
+            pyp_copy(mess)
 
         def paste(self) -> str:
-            return pyperclip.paste() # pyright: ignore[reportUnknownMemberType, reportUnknownVariableType]
+            return pyp_paste()
 
     DefaultClipboard = Pyperclip()
 
-except:
+else:
     print('WARNING: no clipboard access available')
-    DefaultClipboard = NullClipboard()
 
 @final
 class CopyAndThen:
