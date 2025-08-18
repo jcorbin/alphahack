@@ -1,0 +1,65 @@
+T0.0002031419426202774 now: 2025-08-18T13:36:14UTC
+TD39 site: dontwordle.com
+TDD-11 wordlist: nwl2023.txt
+TDD7775988 1> * -bot 10
+TDD-6426442 ? 1
+TDD3048980 📋 "raise" ? MnYMn
+TDD-4398228 tried: RAISE m n Y m n
+TDD1484563 2> undo
+TDD-1484775 undo
+TDD3990228 1> *
+TDD-3308203 ? 1
+TDD4126913 📋 "ceded" ? nnnnn
+TDD-4808933 tried: CEDED n n n n n
+TDD496296 2> *
+TDD414988 ? 1
+TDD4544107 📋 "kabab" ? Mnnnn
+TDD-5455399 tried: KABAB m n n n n
+TDD775162 3> undo
+TDD-775187 undo
+TDD2733748 2> *
+TDD-1140063 ? 1
+TDD3517189 📋 "phpht" ? nYnnn
+TDD-5110823 tried: PHPHT n Y n n n
+TDD2074783 3> undo
+TDD-2074843 undo
+TDD2344208 2> *
+TDD-678214 ? 1
+TDD3701222 📋 "qajaq" ? nnnnn
+TDD-5367181 tried: QAJAQ n n n n n
+TDD587261 3> *
+TDD1199864 ? 1
+TDD1677102 📋 "woozy" ? nnnnn
+TDD-3464220 tried: WOOZY n n n n n
+TDD685497 4> *
+TDD768657 ? 1
+TDD2214828 📋 "butut" ? nnnnn
+TDD-3668988 tried: BUTUT n n n n n
+TDD966823 5> *
+TDD2834512 5> * -sans :v [hikr]
+T0.0017072837799787521 now: 2025-08-18T13:37:54UTC
+TD4005679 5> * -sans :v [hiks]
+TDD-1053277 📋 "grrrl" ? nnnYn
+TDD-2952192 tried: GRRRL n n n Y n
+TDD1070877 6> *
+TDD-22108 6> * -sans
+TDD2591166 ? 1
+TDD2917203 📋 "smirk" ? YnYYY
+TDD-6557225 tried: SMIRK Y n Y Y Y
+TDD2423575 Press <Enter> to 📋 or `>` for line prompt >
+TDD1316605 > Don't Wordle 1182 - SURVIVED
+TDD-3740223 > Hooray! I didn't Wordle today!
+TDD-57 > ⬜⬜⬜⬜⬜5104
+TDD-4 > ⬜⬜⬜⬜⬜2420
+TDD-1 > ⬜⬜⬜⬜⬜766
+TDD-1 > ⬜⬜⬜⬜⬜183
+TDD0 > ⬜⬜⬜🟩⬜4
+TDD1 > 🟩⬜🟩🟩🟩1
+TDD0 > Undos used: 3
+TDD28 > 
+TDD-24 >   1 words remaining
+TDD-4 > x 6 unused letters
+TDD494462 > = 6 total score
+TDD324158 > ␚
+TDD-817764 result: "Don't Wordle 1182 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5104\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2420\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c766\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c183\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c4\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 6 unused letters\n= 6 total score"
+TDD1294702 📆 2025-08-18 ? 
