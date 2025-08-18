@@ -1,0 +1,102 @@
+T0.000201432965695858 now: 2025-08-18T13:31:36UTC
+TD39 site: https://play.dictionary.com/games/todays-hurdle
+TDD-12 wordlist: nwl2023.txt
+TDD46334464 1.1> *
+TDD-39594236 1.1 ? 1
+TDD-3311899 1.1 📋 "cares" ? nMMMn
+TDD-3428052 tried: CARES n m m m n
+TDD1970990 1.2> *
+TDD3176353 1.2 ? nMMnY
+TDD-2421101 1.2 ? 1
+TDD-505440 1.2 📋 "trade" ? nMMnY
+TDD-2220939 tried: TRADE n m m n Y
+TDD2747399 1.3> *
+TDD-1399702 1.3 ? 1
+TDD2000020 1.3 📋 "azure" ? it
+TDD-3347781 tried: AZURE Y Y Y Y Y
+TDD8196450 2.1 📋 "azure" ? Mnnnn
+TDD-8196392 tried: AZURE m n n n n
+TDD432586 2.2> *
+TDD8188087 2.2 ? 2
+TDD-3056111 2.2 📋 "stalk" ? nnMYn
+TDD-5564583 tried: STALK n n m Y n
+TDD803498 2.3> *
+TDD446358 2.3 ? 1
+TDD3680364 2.3 📋 "daily" ? MYnYY
+TDD-4930226 tried: DAILY m Y n Y Y
+TDD534380 2.4> *
+TDD2080194 2.4 ? 1
+TDD631232 2.4 📋 "madly" ? it
+TDD-3245843 tried: MADLY Y Y Y Y Y
+TDD7951335 3.1 📋 "madly" ? nnnYn
+TDD-7951309 tried: MADLY n n n Y n
+TDD3667419 3.2> *
+TDD-338984 3.2 ? 3
+TDD1749168 3.2 📋 "joule" ? nnnYM
+TDD-5077597 tried: JOULE n n n Y m
+TDD540995 3.3> *
+TDD4160457 3.3 ? 2
+TDD-1051267 3.3 📋 "whelp" ? it
+TDD-3650204 tried: WHELP Y Y Y Y Y
+TDD9793596 4.1 📋 "whelp" ? nnnnn
+TDD-9793566 tried: WHELP n n n n n
+TDD1114393 4.2> *
+TDD5270630 4.2 ? 10
+TDD-416719 4.2 📋 "groan" ? nnnMn
+TDD-5968308 tried: GROAN n n n m n
+TDD585147 4.3> *
+TDD4786974 4.3 ? 1
+TDD-980224 4.3 📋 "staid" ? nMMnn
+TDD-4391917 tried: STAID n m m n n
+TDD4295923 4.4> *
+TDD709295 4.4 ? 1
+TDD663397 4.4 📋 "tacky" ? YYnnY
+TDD-5668611 tried: TACKY Y Y n n Y
+TDD542388 4.5> *
+TDD7406295 4.5 ? 3
+TDD-2841015 4.5 📋 "tabby" ? YYnnY
+TDD-5107668 tried: TABBY Y Y n n Y
+TDD819605 4.6> *
+TDD2332632 4.6 ? 1
+TDD1301636 4.6 📋 "taffy" ? it
+TDD-4453902 tried: TAFFY Y Y Y Y Y
+TDD6051383 5.1 📋 "azure" ? MnnMn
+TDD-6051354 tried: AZURE m n n m n
+TDD2598310 5.2 📋 "madly" ? nYnMn
+TDD-2598321 tried: MADLY n Y n m n
+TDD2650676 5.3 📋 "whelp" ? nMnMM
+TDD-2650675 tried: WHELP n m n m m
+TDD2178899 5.4 📋 "taffy" ? nYnnn
+TDD-2178893 tried: TAFFY n Y n n n
+TDD847048 5.5> *
+TDD3602404 5.5 📋 "ralph" ? it
+TDD-4449470 tried: RALPH Y Y Y Y Y
+TDD868768 Press <Enter> to 📋 or `>` for line prompt >
+TDD3345094 > Hurdle 1325
+TDD-4213898 > 
+TDD-43 > 3/6
+TDD-2 > ⬜🟨🟨🟨⬜
+TDD5 > ⬜🟨🟨⬜🟩
+TDD-2 > 🟩🟩🟩🟩🟩
+TDD-1 > 4/6
+TDD2 > 🟨⬜⬜⬜⬜
+TDD1 > ⬜⬜🟨🟩⬜
+TDD0 > 🟨🟩⬜🟩🟩
+TDD2 > 🟩🟩🟩🟩🟩
+TDD0 > 3/6
+TDD0 > ⬜⬜⬜🟩⬜
+TDD0 > ⬜⬜⬜🟩🟨
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > 6/6
+TDD0 > ⬜⬜⬜⬜⬜
+TDD15 > ⬜⬜⬜🟨⬜
+TDD-17 > ⬜🟨🟨⬜⬜
+TDD1 > 🟩🟩⬜⬜🟩
+TDD-1 > 🟩🟩⬜⬜🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > Final 1/2
+TDD0 > 🟩🟩🟩🟩🟩
+TDD980852 > score: 9,900
+TDD307355 > ␚
+TDD-1287790 result: "Hurdle 1325\n\n3/6\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\n\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n6/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,900"
+TDD1089722 📆 2025-08-18 ? 
