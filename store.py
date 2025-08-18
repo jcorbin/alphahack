@@ -876,25 +876,61 @@ class StoredLog:
             lines = break_sections(replace_sections(r, rep), body)
 
             note = self.report_note()
+            rep_day = self.report_date or datetime.datetime.today().date()
+            in_today = 0
+
             for line in lines:
+                tokens = PromptUI.Tokens(line)
+
+                if tokens.have(r'#+'):
+                    sec_day = tokens.have(r'(?x) ( \d{4} ) - ( \d{2} ) - ( \d{2} )',
+                                          then=lambda m: datetime.date(int(m[1]), int(m[2]), int(m[3])))
+                    if sec_day == rep_day:
+                        print(f'{line}', file=w)
+                        in_today = 1
+                        continue
+
+                    else:
+                        print(f'# {rep_day}', file=w)
+                        print('', file=w)
+                        print(note, file=w)
+                        print('', file=w)
+                        print(line, file=w)
+                        in_today = 0
+                        break
+
                 if line.startswith(note_id):
                     print(note, file=w)
-                    continue
-
-                if not line:
-                    print(note, file=w)
-                    print(line, file=w)
                     break
 
-                if not line.startswith('- '):
-                    print(note, file=w)
+                if in_today:
+                    if in_today == 1 and line.startswith('- '):
+                        print(line, file=w)
+                        in_today = 2
+                    elif in_today == 2 and not line.startswith('- '):
+                        print(note, file=w)
+                        print(line, file=w)
+                        break
+                    elif in_today == 1 and not line.startswith('- ') and line.strip():
+                        print(note, file=w)
+                        print('', file=w)
+                        print(line, file=w)
+                        break
+                    else:
+                        print(line, file=w)
+
+                elif line:
+                    print(f'# {rep_day}', file=w)
                     print('', file=w)
+                    print(note, file=w)
+                    if not line:
+                        print('', file=w)
                     print(line, file=w)
                     break
-
-                print(line, file=w)
 
             for line in lines:
+                if in_today and line.startswith('#'):
+                    in_today = 0
                 print(line, file=w)
 
 @final
