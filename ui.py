@@ -5,7 +5,7 @@ import subprocess
 import time
 import traceback
 import zlib
-from base64 import b85encode
+from base64 import b64encode, b85encode
 from bisect import bisect
 from contextlib import contextmanager
 from collections.abc import Generator, Iterable, Sequence
@@ -35,6 +35,18 @@ class NullClipboard:
     def paste(self) -> str:
         return ''
 
+@final
+class OSC52Clipboard:
+    def copy(self, mess: str) -> None:
+        # TODO print directly to tty? stderr? /dev/fd/2?
+        encoded = b64encode(mess.encode())
+        encoded_str = encoded.decode().replace("\n", "")
+        print(f'\033]52;c;{encoded_str}\007', end='')
+
+    def paste(self) -> str:
+        # TODO implement
+        return ''
+
 DefaultClipboard = NullClipboard()
 
 # TODO snip the pyperclip dep, just implement command dispatchers and/or an osc52 fallback provider
@@ -59,7 +71,8 @@ if pyperclip and  pyperclip.is_available():
     DefaultClipboard = Pyperclip()
 
 else:
-    print('WARNING: no clipboard access available')
+    print('WARNING: falling back on OSC-52 half-implemented clipboard')
+    DefaultClipboard = OSC52Clipboard()
 
 @final
 class CopyAndThen:
