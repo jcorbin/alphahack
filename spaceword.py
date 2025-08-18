@@ -1370,6 +1370,19 @@ class SpaceWord(StoredLog):
         return parts[1]
 
     @property
+    @override
+    def report_date(self):
+        parts = self._id_parts()
+        if not parts:
+            return None
+        k, d = parts
+        if k == 'daily':
+            d += timedelta(days=1)
+        elif k == 'weekly':
+            d += timedelta(days=7)
+        return d
+
+    @property
     def pub_tz(self):
         if not self.pub_tzname:
             raise RuntimeError('no publish timezone set')
