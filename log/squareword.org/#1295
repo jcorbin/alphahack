@@ -1,0 +1,170 @@
+T0.00020883139222860336 now: 2025-08-18T13:23:36UTC
+TD40 site: squareword.org
+TDD13689605 🧩  ? #1295
+TDD-13689456 puzzle_id: #1295
+TDD-164 wordlist: nwl2023.txt
+TDD1312536 > *
+TDD1359253 try? 3
+TDD-2671569 questioning: ["spear", "#5"]
+TDD4752879 #1 _____  📋 "spear" ? _____ ~ P
+TDD-4752735 attempt 0 SPEAR n m n n n
+TDD4183074 #2 _____  📋 "spear" ? ____R ~ EA
+TDD-4183278 attempt 1 SPEAR n n m m Y
+TDD2471355 #3 _____  📋 "spear" ? _____ ~ EA
+TDD-2471366 attempt 2 SPEAR n n m m n
+TDD2221612 #4 _____  📋 "spear" ? __E__ ~ ER
+TDD-2221601 attempt 3 SPEAR n n Y n m
+TDD2684580 #5 _____  📋 "spear" ? _____ ~ SEAR
+TDD-2684592 attempt 4 SPEAR m n m m m
+TDD330595 ? 
+TDD-330656 question done
+TDD511459 > *
+TDD4621806 try? 4
+TDD-5133192 questioning: ["acres", "#5"]
+TDD5335556 #1 _____ ~P -AERS  📋 "acres" ? .
+TDD-5335581 attempt 0 ACRES n n n n n
+TDD2058891 #2 ____R ~AE -PS  📋 "acres" ? A__ER
+TDD-2058906 attempt 1 ACRES Y n n Y n
+TDD1913129 #3 _____ ~AE -PRS  📋 "acres" ? .
+TDD-1913120 attempt 2 ACRES m n n m n
+TDD4523361 #4 __E__ ~R -APS  📋 "acres" ? __E__ ~ ER
+TDD-4523360 attempt 3 ACRES n n m m n
+TDD2834958 #5 _____ ~AERS -P  📋 "acres" ? __RES ~ A
+TDD-2834950 attempt 4 ACRES m n Y Y Y
+TDD571580 ? 
+TDD-571656 question done
+TDD1142569 > *
+TDD7015828 try? ␚
+TDD-8158415 <EOF>
+TDD3106451 > * 2
+TDD2387511 try? ␚
+TDD-5493974 <EOF>
+TDD8675782 > * 3
+TDD-6431846 try? 2
+TDD-2243842 questioning: ["table", "#3"]
+TDD4560145 #1 _____ ~P -ACERS  📋 "table" ? 
+TDD-4560194 question done
+TDD6300611 > 
+TDD-4926413 > * 2
+TDD1457333 try? ␚
+TDD-2831580 <EOF>
+TDD1981212 > * 2
+TDD608870 try? ␚
+TDD-2590072 <EOF>
+TDD1933564 > "table"
+TDD-198385 > ?
+TDD5668496 > * 2
+TDD-3383318 try? ␚
+TDD-4020362 <EOF>
+TDD1564372 > * 2
+TDD1454831 try? ␚
+TDD-3019215 <EOF>
+TDD896804 > * 2
+TDD1994410 try? ␚
+TDD-2891205 <EOF>
+TDD636736 > * 2
+TDD2064737 try? "table"
+TDD-886806 try? ␚
+TDD-1814675 <EOF>
+TDD927930 > * 2
+TDD4144361 try? ␚
+TDD-5072287 <EOF>
+TDD714157 > ?
+TDD10032807 <INT>
+TDD-10746938 <INT>
+TDD-49 <INT>
+TDD-7 <INT>
+T0.0027223778888583183 now: 2025-08-18T13:28:29UTC
+TD879477 > table
+TDD-879171 questioning: ["table", "entered"]
+TDD10687095 #1 _____ ~P -ACERS  📋 "table" ? _____ ~ PL
+TDD-10686983 attempt 0 TABLE n n n m n
+TDD4232287 #2 A__ER -CPRS  📋 "table" ? A__ER ~ TL
+TDD-4232539 attempt 1 TABLE m n n m n
+TDD3100644 #3 _____ ~AE -CPRS  📋 "table" ? _A__E ~ Tl
+TDD-3100643 attempt 2 TABLE m Y n m Y
+TDD4620205 #4 __E__ ~R -ACPS  📋 "table" ? __E__ ~ ER
+TDD-4620210 attempt 3 TABLE n n n n m
+TDD5125583 #5 __RES ~A -CP  📋 "table" ? _ARES
+TDD-5125557 attempt 4 TABLE n Y n n n
+TDD1791628 ? ␚
+TDD-1791725 question done
+TDD2262383 <INT>
+T0.0032438850030303 now: 2025-08-18T13:29:20UTC
+TD2325806 > *
+TDD-1463036 questioning: ["alter", "#2"]
+TDD7507407 #1 _____ ~LP -ABCERST  📋 "alter" ? _L___ ~ P
+TDD-8369732 attempt 0 ALTER n Y n n n
+TDD795377 #2 A__ER ~LT -ABCEPRS  📋 "alter" ? /it
+TDD-795736 attempt 1 ALTER Y Y Y Y Y
+TDD4141908 #3 _A__E ~LT -BCPRS  📋 "alter" ? _AT_E ~ TL
+TDD-4141830 attempt 2 ALTER n m Y n n
+TDD3444760 #4 __E__ ~R -ABCLPST  📋 "alter" ? __E__ ~ ER
+TDD-3444774 attempt 3 ALTER n n n m m
+TDD2510070 #5 _ARES -BCELPT  📋 "alter" ? .
+TDD-2510073 attempt 4 ALTER n n n Y n
+TDD217465 ? 
+TDD-217503 question done
+TDD531337 > *
+TDD5202193 try? 1
+TDD-5733479 questioning: ["flump", "#1"]
+TDD5089172 #1 _L___ ~P -ABCERST  📋 "flump" ? _LUMP ~ P
+TDD-5089174 attempt 0 FLUMP n Y Y Y Y
+TDD7113009 #3 _AT_E ~L -ABCEPRS  📋 "flump" ? _AT_E ~ TL
+TDD-7113001 attempt 2 FLUMP n m n n n
+TDD3010509 #4 __E__ ~R -ABCLPST  📋 "flump" ? __E__ ~ ERM
+TDD-3010517 attempt 3 FLUMP n n n m n
+TDD1730559 #5 _ARES -ABCLPRT  📋 "flump" ? .
+TDD-1730553 attempt 4 FLUMP n n n n n
+TDD701627 ? 
+TDD-701692 question done
+TDD1472740 > *
+TDD-938213 questioning: ["plump", "#1"]
+TDD3140420 #1 _LUMP -ABCEFRST  📋 "plump" ? /it
+TDD-3674910 attempt 0 PLUMP Y Y Y Y Y
+TDD5340461 #3 _AT_E ~L -ABCEFMPRSU  📋 "plump" ? _AT_E_ ~TL
+TDD-5340439 attempt 2 PLUMP n m n n n
+TDD4517378 #4 __E__ ~MR -ABCFLPSTU  📋 "plump" ? __E__ ~ ERM
+TDD-4517367 attempt 3 PLUMP n n n m n
+TDD1726526 #5 _ARES -ABCFLMPRTU  📋 "plump" ? .
+TDD-1726594 attempt 4 PLUMP n n n n n
+TDD266796 ? 
+TDD-266828 question done
+TDD536696 > *
+TDD-460100 questioning: ["latte", "#3"]
+TDD4283616 #3 _AT_E ~L -ABCEFMPRSU  📋 "latte" ? /it
+TDD-4360138 attempt 2 LATTE Y Y Y Y Y
+TDD3445683 #4 __E__ ~MR -ABCFLPSTU  📋 "latte" ? __E__ ~ ERM
+TDD-3445669 attempt 3 LATTE n n n n m
+TDD1377115 #5 _ARES -ABCFLMPRTU  📋 "latte" ? .
+TDD-1377184 attempt 4 LATTE n Y n n n
+TDD171281 ? 
+TDD-171313 question done
+TDD611859 > *
+TDD-461587 questioning: ["emery", "#4"]
+TDD3484976 #4 __E__ ~MR -ABCFLPSTU  📋 "emery" ? /it
+TDD-3635158 attempt 3 EMERY Y Y Y Y Y
+TDD2775852 #5 _ARES -BCEFLMPRTU  📋 "emery" ? .
+TDD-2775872 attempt 4 EMERY n n n n n
+TDD670466 ? 
+TDD-670533 question done
+TDD550369 > *
+TDD190991 questioning: ["dares", "#5"]
+TDD3274820 #5 _ARES -BCEFLMPRTUY  📋 "dares" ? /it
+TDD-4016089 attempt 4 DARES Y Y Y Y Y
+TDD1655711 ? 
+TDD-1655789 question done
+TDD5981093 Press <Enter> to 📋 or `>` for line prompt >
+TDD-5287881 > squareword.org 1295: 9 guesses
+TDD-693244 > 
+TDD-12 > 🟨🟩🟩🟩🟩
+TDD-3 > 🟩🟩🟩🟩🟩
+TDD0 > 🟨🟩🟩🟨🟩
+TDD-2 > 🟨🟨🟩🟨🟨
+TDD0 > 🟨🟩🟩🟩🟩
+TDD0 > 
+TDD1 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD313835 > #squareword #squareword1295
+TDD1590953 > ␚
+TDD-1904356 result: "squareword.org 1295: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1295"
+TDD758222 📆 2025-08-18 ? 
