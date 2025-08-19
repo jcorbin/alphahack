@@ -1,0 +1,54 @@
+T0.00025826413184404373 now: 2025-08-19T12:51:30UTC
+TD76741 loaded 196552 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (51 words excluded) asof d806f9ab35b56bb1165fcea8e815cfc2bd930afe
+TDD5840955 <INT>
+T0.20278046745806932 now: 2025-08-19T12:51:37UTC
+TD5949133 [0 : 98234 : 196552] mach? a
+TDD-5948890 progress: 1 98234 mach
+TDD2189953 [98235 : 147390 : 196552] rhotic? a
+TDD-2190075 progress: 1 147390 rhotic
+TDD2156302 [147391 : 171660 : 196552] ta? b
+TDD-2156311 progress: -1 171660 ta
+TDD1804744 [147391 : 159507 : 171660] slop? b
+TDD-1804756 progress: -1 159507 slop
+TDD1670088 [147391 : 153339 : 159507] sea? a
+TDD-1670061 progress: 1 153339 sea
+TDD1668517 [153340 : 156375 : 159507] ship? b
+TDD-1668553 progress: -1 156375 ship
+TDD1535770 [153340 : 154854 : 156375] sequence? a
+TDD-1535751 progress: 1 154854 sequence
+TDD1716782 [154855 : 155453 : 156375] sha? a
+TDD-1716782 progress: 1 155453 sha
+TDD1935270 [155454 : 155905 : 156375] shaw? b
+TDD-1935273 progress: -1 155905 shaw
+TDD2464767 [155454 : 155673 : 155905] shame? b
+TDD-2464745 progress: -1 155673 shame
+TDD1504036 [155454 : 155550 : 155673] shag? a
+TDD-1503979 progress: 1 155550 shag
+TDD1939745 [155551 : 155611 : 155673] shako? b
+TDD-1939841 progress: -1 155611 shako
+TDD1628672 [155551 : 155570 : 155611] shah? a
+TDD-1628668 progress: 1 155570 shah
+TDD3725578 [155571 : 155591 : 155611] shaitans? a
+TDD-3725571 progress: 1 155591 shaitans
+TDD2476274 [155592 : 155593 : 155611] shake? it
+TDD-2476203 progress: 0 155593 shake
+TDD-108 [155592 : 155593 : 155611] <Done>.
+TDD3535907 press <Return> to finish
+TDD-3297602 Press <Enter> to 📋 or `>` for line prompt 
+TDD113825 Press <Enter> to 📋 or `>` for line prompt 
+TDD594048 Press <Enter> to 📋 or `>` for line prompt >
+TDD-373190 > 🧩 Puzzle #756
+TDD-572969 > 
+TDD-56 > 🤔 15 guesses
+TDD0 > 
+TDD-1 > ⏱️ 30s
+TDD8 > 
+TDD412037 > 🔗 alphaguess.com
+TDD40224 > 
+TDD-17343 > ␚
+TDD-434589 share result: "\ud83e\udde9 Puzzle #756\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 30s\n\n\ud83d\udd17 alphaguess.com\n"
+TDD-322 result puzzle: 756
+TDD-26 result guesses: 15
+TDD-2 result time: 30s
+TDD0 result link: alphaguess.com
+TDD896241 📆 2025-08-19 ? 
