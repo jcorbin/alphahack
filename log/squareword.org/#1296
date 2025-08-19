@@ -1,0 +1,127 @@
+T0.00023082364350557327 now: 2025-08-19T13:30:06UTC
+TD44 site: squareword.org
+TDD2467282 🧩  ? #1296
+TDD-2467147 puzzle_id: #1296
+TDD-156 wordlist: nwl2023.txt
+TDD828402 > *
+TDD578149 try? 1
+TDD-1406302 questioning: ["arose", "#5"]
+TDD6586519 #1 _____  📋 "arose" ? _____ ~ AE
+TDD-6586358 attempt 0 AROSE m n n n m
+TDD2811077 #2 _____  📋 "arose" ? A___E
+TDD-2811329 attempt 1 AROSE Y n n n Y
+TDD4771037 #3 _____  📋 "arose" ? _____ ~ O
+TDD-4771065 attempt 2 AROSE n n m n n
+TDD2121561 #4 _____  📋 "arose" ? _____ ~ E
+TDD-2121529 attempt 3 AROSE n n n n m
+TDD2655920 #5 _____  📋 "arose" ? _____ ~ AS
+TDD-2655934 attempt 4 AROSE m n n m n
+TDD330405 ? 
+TDD-330397 question done
+TDD3876549 > *
+TDD-528485 try? 2
+TDD-3348057 questioning: ["angle", "#2"]
+TDD5645358 #1 _____ ~AE -ORS  📋 "angle" ? .
+TDD-5645314 attempt 0 ANGLE m n n n m
+TDD4406995 #2 A___E -ORS  📋 "angle" ? A___E ~ L
+TDD-4407057 attempt 1 ANGLE Y n n m Y
+TDD1304695 #3 _____ ~O -AERS  📋 "angle" ? .
+TDD-1304694 attempt 2 ANGLE n n n n n
+TDD1571853 #4 _____ ~E -AORS  📋 "angle" ? .
+TDD-1571854 attempt 3 ANGLE n n n n m
+TDD2849112 #5 _____ ~AS -EOR  📋 "angle" ? _____ ~ ASL
+TDD-2849096 attempt 4 ANGLE m n n m n
+TDD11490587 ? 
+TDD-11490679 question done
+TDD693199 > *
+TDD1866255 try? 1
+TDD-2559394 questioning: ["alike", "#2"]
+TDD9362345 #1 _____ ~AE -GLNORS  📋 "alike" ? .
+TDD-9362334 attempt 0 ALIKE m n n n m
+TDD2069340 #2 A___E ~L -GNORS  📋 "alike" ? ALI_E
+TDD-2069344 attempt 1 ALIKE Y Y Y n Y
+TDD2944252 #3 _____ ~O -AEGLNRS  📋 "alike" ? _____ ~ OI
+TDD-2944236 attempt 2 ALIKE n n m n n
+TDD2395022 #4 _____ ~E -AGLNORS  📋 "alike" ? _____ ~ EK
+TDD-2395053 attempt 3 ALIKE n n n m m
+TDD694893 #5 _____ ~ALS -EGNOR  📋 "alike" ? .
+TDD-694864 attempt 4 ALIKE m m n n n
+TDD457700 ? 
+TDD-457756 question done
+TDD484598 > *
+TDD285824 questioning: ["alive", "#2"]
+TDD3681610 #1 _____ ~AE -GIKLNORS  📋 "alive" ? .
+TDD-4452005 attempt 0 ALIVE m n n n m
+TDD1007019 #2 ALI_E -GKNORS  📋 "alive" ? /it
+TDD-1007019 attempt 1 ALIVE Y Y Y Y Y
+TDD1454065 #3 _____ ~IO -AEGKLNRS  📋 "alive" ? .
+TDD-1454040 attempt 2 ALIVE n n m n n
+TDD693059 #4 _____ ~EK -AGILNORS  📋 "alive" ? .
+TDD-693056 attempt 3 ALIVE n n n n m
+TDD1088995 #5 _____ ~ALS -EGIKNOR  📋 "alive" ? .
+TDD-1089024 attempt 4 ALIVE m m n n n
+TDD326657 ? 
+TDD-326688 question done
+TDD467705 > *
+TDD40005780 try? 2
+TDD-40473428 questioning: ["ketch", "#4"]
+TDD8450763 #1 _____ ~AE -GIKLNORSV  📋 "ketch" ? _____ ~ AEC
+TDD-8450764 attempt 0 KETCH n m n m n
+TDD288881908 #3 _____ ~IO -AEGKLNRSV  📋 "ketch" ? _____ ~ OITC
+TDD-288881886 attempt 2 KETCH n n m m n
+TDD3351478 #4 _____ ~EK -AGILNORSV  📋 "ketch" ? ___C_ ~ EKCH
+TDD-3351498 attempt 3 KETCH m m n Y m
+TDD3553579 #5 _____ ~ALS -EGIKNORV  📋 "ketch" ? _____ ~ ASLTH
+TDD-3553586 attempt 4 KETCH n n m n m
+TDD567101 ? 
+TDD-567137 question done
+TDD773494 > *
+TDD1169277 questioning: ["check", "#4"]
+TDD3901181 #1 _____ ~ACE -GHIKLNORSTV  📋 "check" ? C____ ~ AE
+TDD-5843904 attempt 0 CHECK Y n m n n
+TDD2159253 #3 _____ ~CIOT -AEGHKLNRSV  📋 "check" ? .
+TDD-2159259 attempt 2 CHECK m n n m n
+TDD1860983 #4 ___C_ ~EHK -AGILNORSTV  📋 "check" ? /it
+TDD-1861019 attempt 3 CHECK Y Y Y Y Y
+TDD1812117 #5 _____ ~AHLST -CEGIKNORV  📋 "check" ? .
+TDD-1812098 attempt 4 CHECK n m n n n
+TDD645945 ? 
+TDD-645996 question done
+TDD34215966 > *
+TDD-31933306 questioning: ["halts", "#5"]
+TDD9696862 #1 C____ ~AE -GHIKLNORSTV  📋 "halts" ? CA___ ~ E
+TDD-11979464 attempt 0 HALTS n Y n n n
+TDD4605677 #3 _____ ~CIOT -AEGHKLNRSV  📋 "halts" ? .
+TDD-4605647 attempt 2 HALTS n n n m n
+TDD1720667 #5 _____ ~AHLST -CEGIKNORV  📋 "halts" ? /it
+TDD-1720654 attempt 4 HALTS Y Y Y Y Y
+TDD656337 ? 
+TDD-656431 question done
+TDD15731509 > *
+TDD-14189242 questioning: ["caped", "#1"]
+TDD2477411 #1 CA___ ~E -GHIKLNORSTV  📋 "caped" ? /it
+TDD-4019649 attempt 0 CAPED Y Y Y Y Y
+TDD12839760 #3 _____ ~CIOT -AEGHKLNRSV  📋 "caped" ? 
+TDD-12839784 question done
+TDD926855 > 
+TDD10174076 > *
+TDD-9910801 questioning: ["toxic", "#3"]
+TDD2982228 #3 _____ ~CIOT -AEGHKLNRSV  📋 "toxic" ? /it
+TDD-4172311 attempt 2 TOXIC Y Y Y Y Y
+TDD1145029 ? 
+TDD-1145097 question done
+TDD8846044 Press <Enter> to 📋 or `>` for line prompt >
+TDD-8299705 > squareword.org 1296: 9 guesses
+TDD-546368 > 
+TDD-43 > 🟨🟨🟨🟨🟨
+TDD-5 > 🟩🟩🟩🟩🟩
+TDD0 > 🟨🟨🟨🟨🟨
+TDD-2 > 🟨🟨🟨🟩🟨
+TDD0 > 🟨🟨🟨🟨🟨
+TDD0 > 
+TDD1 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD276857 > #squareword #squareword1296
+TDD1014998 > 
+TDD-431458 > ␚
+TDD-859867 result: "squareword.org 1296: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1296\n"
+TDD1661144 📆 2025-08-19 ? 
