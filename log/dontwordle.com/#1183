@@ -1,0 +1,82 @@
+T0.00020731240510940552 now: 2025-08-19T13:52:50UTC
+TD42 site: dontwordle.com
+TDD-4 wordlist: nwl2023.txt
+TDD7538983 1> * 
+TDD1788396 ? ␚
+TDD-9327340 <EOF>
+TDD5292519 1> * -bot 10
+TDD-3238627 ? 2
+TDD6926163 📋 "arise" ? nnnnn
+TDD-8979846 tried: ARISE n n n n n
+TDD4401061 2> * -bot 10
+TDD-2827810 ? 1
+TDD7320860 📋 "bulky" ? YMMnn
+TDD-8894239 tried: BULKY Y m m n n
+TDD960306 3> undo
+TDD-960358 undo
+TDD635049 2> undo
+TDD-635047 undo
+TDD4308475 1> *
+TDD-2894953 ? 1
+TDD4109926 📋 "refer" ? nnnnn
+TDD-5523429 tried: REFER n n n n n
+TDD773738 2> *
+TDD833686 ? 1
+TDD3116773 📋 "masas" ? nnnnn
+TDD-4724200 tried: MASAS n n n n n
+TDD608276 3> *
+TDD3764874 ? 9
+TDD1329751 📋 "titty" ? Mnnnn
+TDD-5702888 tried: TITTY m n n n n
+TDD808030 4> undo
+TDD-808091 undo
+TDD3555668 3> *
+TDD-2356694 ? 1
+TDD3389386 📋 "hooch" ? nnnnn
+TDD-4588301 tried: HOOCH n n n n n
+TDD765022 4> *
+TDD387755 ? 1
+TDD4584135 📋 "ninny" ? nnnYn
+TDD-5736918 tried: NINNY n n n Y n
+TDD699425 5> undo
+TDD-699465 undo
+TDD2959171 4> *
+TDD-1847049 ? 1
+TDD5499146 📋 "kiddy" ? nnnnn
+TDD-6611236 tried: KIDDY n n n n n
+TDD5866751 5> undo
+TDD-5866775 undo
+TDD461992 4> *
+TDD2013307 ? 1
+TDD1439023 📋 "piggy" ? ␚
+TDD-3914345 <EOF>
+TDD1355449 4> *
+TDD1600788 ? 2
+TDD2453429 📋 "vivid" ? nnnnn
+TDD-5409598 tried: VIVID n n n n n
+TDD577678 5> *
+TDD3189080 5> * -sans :v [blnt]
+TDD778417 ? 1
+TDD369424 📋 "guppy" ? nMnnn
+TDD-4914618 tried: GUPPY n m n n n
+TDD1070218 6> * -sans
+TDD1146962 ? 2
+TDD3543945 📋 "klutz" ? nYYMn
+TDD-5761137 tried: KLUTZ n Y Y m n
+TDD1481097 Press <Enter> to 📋 or `>` for line prompt >
+TDD1666094 > Don't Wordle 1183 - SURVIVED
+TDD-3147221 > Hooray! I didn't Wordle today!
+TDD-67 > ⬜⬜⬜⬜⬜4802
+TDD-3 > ⬜⬜⬜⬜⬜863
+TDD-1 > ⬜⬜⬜⬜⬜223
+TDD0 > ⬜⬜⬜⬜⬜47
+TDD0 > ⬜🟨⬜⬜⬜3
+TDD0 > ⬜🟩🟩🟨⬜1
+TDD-1 > Undos used: 5
+TDD1 > 
+TDD0 >   1 words remaining
+TDD0 > x 6 unused letters
+TDD350151 > = 6 total score
+TDD314280 > ␚
+TDD-663600 result: "Don't Wordle 1183 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4802\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c863\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c223\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c47\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c3\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c1\nUndos used: 5\n\n  1 words remaining\nx 6 unused letters\n= 6 total score"
+TDD901376 📆 2025-08-19 ? 
