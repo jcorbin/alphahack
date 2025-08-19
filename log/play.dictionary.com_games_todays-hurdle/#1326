@@ -1,0 +1,105 @@
+T0.0002348329871892929 now: 2025-08-19T13:48:34UTC
+TD43 site: https://play.dictionary.com/games/todays-hurdle
+TDD-13 wordlist: nwl2023.txt
+TDD5700870 1.1> *
+TDD-709147 1.1 ? 1
+TDD-1345163 1.1 📋 "slate" ? nnnnn
+TDD-3646288 tried: SLATE n n n n n
+TDD562547 1.2> *
+TDD2101023 1.2 ? 5
+TDD2076741 1.2 📋 "munch" ? MYnnM
+TDD-4740454 tried: MUNCH m Y n n m
+TDD9537288 1.3> *
+TDD-7584271 1.3 ? 1
+TDD1636565 1.3 📋 "humor" ? it
+TDD-3589630 tried: HUMOR Y Y Y Y Y
+TDD8526443 2.1 📋 "humor" ? nnnnM
+TDD-8526417 tried: HUMOR n n n n m
+TDD1145914 2.2> *
+TDD1882064 2.2 ? 1
+TDD1147921 2.2 📋 "rites" ? MnMnn
+TDD-4175797 tried: RITES m n m n n
+TDD814284 2.3> *
+TDD1092192 2.3 ? 1
+TDD7997942 2.3 📋 "tryna" ? ?
+TDD-8832967 2.3 📋 "tryna" ? /bad
+TDD-1071568 bad: ["tryna"]
+TDD4924247 2.3> *
+TDD-727082 2.3 ? 4
+TDD1837373 2.3 📋 "graft" ? nYYnM
+TDD-6034532 tried: GRAFT n Y Y n m
+TDD1015070 2.4> *
+TDD3560015 2.4 ? 2
+TDD-1027349 2.4 📋 "track" ? it
+TDD-3547749 tried: TRACK Y Y Y Y Y
+TDD8690440 3.1 📋 "track" ? nnnnM
+TDD-8690438 tried: TRACK n n n n m
+TDD1626712 3.2> *
+TDD618369 3.2 ? 2
+TDD3317651 3.2 📋 "liked" ? nnMnn
+TDD-5562745 tried: LIKED n n m n n
+TDD612365 3.3> *
+TDD9470975 3.3 ? 7
+TDD-4935647 3.3 📋 "husky" ? nnMYY
+TDD-5147659 tried: HUSKY n n m Y Y
+TDD795440 3.4> *
+TDD8841412 3.4 📋 "smoky" ? it
+TDD-9636879 tried: SMOKY Y Y Y Y Y
+TDD8274434 4.1 📋 "smoky" ? nMMnn
+TDD-8274423 tried: SMOKY n m m n n
+TDD925123 4.2> *
+TDD1273472 4.2 ? 2
+TDD2298746 4.2 📋 "roman" ? nYMMn
+TDD-4497342 tried: ROMAN n Y m m n
+TDD675532 4.3> *
+TDD1182737 4.3 ? 2
+TDD4188365 4.3 📋 "dogma" ? nYnMY
+TDD-6046619 tried: DOGMA n Y n m Y
+TDD1329994 4.4> *
+TDD5292284 4.4 📋 "mocha" ? it
+TDD-6622301 tried: MOCHA Y Y Y Y Y
+TDD9756590 5.1 📋 "humor" ? Mnnnn
+TDD-9756566 tried: HUMOR m n n n n
+TDD2306972 5.2 📋 "track" ? Mnnnn
+TDD-2306982 tried: TRACK m n n n n
+TDD1733370 5.3 📋 "smoky" ? nnnnn
+TDD-1733371 tried: SMOKY n n n n n
+TDD1675324 5.4 📋 "mocha" ? nnnYn
+TDD-1675333 tried: MOCHA n n n Y n
+TDD1139283 5.5> *
+TDD1599431 5.5 ? 3
+TDD3990700 5.5 📋 "fight" ? nYnYM
+TDD-6729377 tried: FIGHT n Y n Y m
+TDD569202 5.6> *
+TDD1634344 5.6 ? 1
+TDD1432842 5.6 📋 "lithe" ? it
+TDD-3636428 tried: LITHE Y Y Y Y Y
+TDD4155884 Press <Enter> to 📋 or `>` for line prompt >
+TDD-3500597 > Hurdle 1326
+TDD-655327 > 
+TDD-58 > 3/6
+TDD-4 > ⬜⬜⬜⬜⬜
+TDD0 > 🟨🟩⬜⬜🟨
+TDD-3 > 🟩🟩🟩🟩🟩
+TDD0 > 4/6
+TDD0 > ⬜⬜⬜⬜🟨
+TDD0 > 🟨⬜🟨⬜⬜
+TDD0 > ⬜🟩🟩⬜🟨
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > 4/6
+TDD0 > ⬜⬜⬜⬜🟨
+TDD18 > ⬜⬜🟨⬜⬜
+TDD-16 > ⬜⬜🟨🟩🟩
+TDD-1 > 🟩🟩🟩🟩🟩
+TDD0 > 4/6
+TDD0 > ⬜🟨🟨⬜⬜
+TDD0 > ⬜🟩🟨🟨⬜
+TDD6 > ⬜🟩⬜🟨🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD-6 > Final 2/2
+TDD0 > ⬜🟩⬜🟩🟨
+TDD0 > 🟩🟩🟩🟩🟩
+TDD386592 > score: 9,900
+TDD366121 > ␚
+TDD-752240 result: "Hurdle 1326\n\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,900"
+TDD426971 📆 2025-08-19 ? 
