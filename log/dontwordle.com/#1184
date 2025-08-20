@@ -1,0 +1,64 @@
+T0.00019968301057815552 now: 2025-08-20T12:36:33UTC
+TD40 site: dontwordle.com
+TDD-14 wordlist: nwl2023.txt
+TDD4977038 1> * -bot 10
+TDD-3487068 ? 2
+TDD2541710 📋 "nears" ? nnnnn
+TDD-4031398 tried: NEARS n n n n n
+TDD1715882 2> * -bot 10
+TDD-158399 ? 1
+TDD2795784 📋 "culti" ? nYnnn
+TDD-4353444 tried: CULTI n Y n n n
+TDD879160 3> undo
+TDD-879191 undo
+TDD667604 2> undo
+TDD-667609 undo
+TDD6321270 1> *
+TDD-4858270 ? 1
+TDD3153238 📋 "heeze" ? nnnnn
+TDD-4616201 tried: HEEZE n n n n n
+TDD445385 2> *
+TDD588543 ? 1
+TDD3403165 📋 "doggo" ? nnnnn
+TDD-4437105 tried: DOGGO n n n n n
+TDD822183 3> *
+TDD379446 ? 1
+TDD3790374 📋 "appal" ? nMYnn
+TDD-4992000 tried: APPAL n m Y n n
+TDD650064 4> undo
+TDD-650092 undo
+TDD2627278 3> *
+TDD217633 ? 1
+TDD1957485 📋 "qajaq" ? nnnnn
+TDD-4802359 tried: QAJAQ n n n n n
+TDD651082 4> *
+TDD663375 ? 1
+TDD3233980 📋 "immix" ? nnnnn
+TDD-4548445 tried: IMMIX n n n n n
+TDD462514 5> *
+TDD1115290 ? 1
+TDD4423621 📋 "slyly" ? nnnnY
+TDD-6001417 tried: SLYLY n n n n Y
+TDD675839 6> *
+TDD813809 6> * -sans
+TDD-146977 ? 1
+TDD4187146 📋 "curry" ? nYnnY
+TDD-5529827 tried: CURRY n Y n n Y
+TDD2594977 Press <Enter> to 📋 or `>` for line prompt >
+TDD65085 > Don't Wordle 1184 - SURVIVED
+TDD-2660114 > Hooray! I didn't Wordle today!
+TDD-47 > ⬜⬜⬜⬜⬜5957
+TDD-5 > ⬜⬜⬜⬜⬜2673
+TDD-1 > ⬜⬜⬜⬜⬜936
+TDD0 > ⬜⬜⬜⬜⬜289
+TDD1 > ⬜⬜⬜⬜🟩40
+TDD-2 > ⬜🟩⬜⬜🟩25
+TDD0 > Undos used: 3
+TDD0 > 
+TDD0 >   25 words remaining
+TDD0 > x 8 unused letters
+TDD224277 > = 200 total score
+TDD-50272 > 
+TDD271268 > ␚
+TDD-444503 result: "Don't Wordle 1184 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5957\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2673\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c936\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c289\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe940\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe925\nUndos used: 3\n\n  25 words remaining\nx 8 unused letters\n= 200 total score\n"
+TDD995910 📆 2025-08-20 ? 
