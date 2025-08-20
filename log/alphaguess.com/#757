@@ -1,0 +1,49 @@
+T0.00020802300423383713 now: 2025-08-20T12:27:12UTC
+TD68073 loaded 196552 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (51 words excluded) asof d806f9ab35b56bb1165fcea8e815cfc2bd930afe
+TDD12780127 [0 : 98234 : 196552] mach? b
+TDD-12847992 progress: -1 98234 mach
+TDD1375298 [0 : 47395 : 98234] dis? b
+TDD-1375394 progress: -1 47395 dis
+TDD1288950 [0 : 23581 : 47395] cam? a
+TDD-1288989 progress: 1 23581 cam
+TDD1338123 [23582 : 33713 : 47395] con? a
+TDD-1338116 progress: 1 33713 con
+TDD1369441 [33714 : 40539 : 47395] cyclo? b
+TDD-1369412 progress: -1 40539 cyclo
+TDD1429506 [33714 : 37122 : 40539] count? b
+TDD-1429526 progress: -1 37122 count
+TDD1334519 [33714 : 35318 : 37122] contra? a
+TDD-1334539 progress: 1 35318 contra
+TDD1295515 [35319 : 36202 : 37122] core? a
+TDD-1295484 progress: 1 36202 core
+TDD1234090 [36203 : 36662 : 37122] cortex? a
+TDD-1234105 progress: 1 36662 cortex
+TDD1255156 [36663 : 36878 : 37122] cost? a
+TDD-1255154 progress: 1 36878 cost
+TDD1257991 [36879 : 36929 : 37122] cot? a
+TDD-1257980 progress: 1 36929 cot
+TDD1296293 [36930 : 37024 : 37122] cotyledon? b
+TDD-1296288 progress: -1 37024 cotyledon
+TDD1372158 [36930 : 36975 : 37024] cotransfer? a
+TDD-1372178 progress: 1 36975 cotransfer
+TDD1787188 [36976 : 36988 : 37024] cotta? a
+TDD-1787186 progress: 1 36988 cotta
+TDD2537697 [36989 : 37007 : 37024] cotton? it
+TDD-2537666 progress: 0 37007 cotton
+TDD-96 [36989 : 37007 : 37024] <Done>.
+TDD512408 press <Return> to finish
+TDD486573 Press <Enter> to 📋 or `>` for line prompt >
+TDD3664742 > 🧩 Puzzle #757
+TDD-4663650 > 
+TDD-75 > 🤔 15 guesses
+TDD-3 > 
+TDD0 > ⏱️ 19s
+TDD0 > 
+TDD337402 > 🔗 alphaguess.com
+TDD673687 > ␚
+TDD-1010703 share result: "\ud83e\udde9 Puzzle #757\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"
+TDD-384 result puzzle: 757
+TDD-7 result guesses: 15
+TDD-1 result time: 19s
+TDD0 result link: alphaguess.com
+TDD422600 📆 2025-08-20 ? 
