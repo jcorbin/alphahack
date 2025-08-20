@@ -1,0 +1,135 @@
+T0.000218893401324749 now: 2025-08-20T12:28:34UTC
+TD44 site: squareword.org
+TDD14696269 🧩  ? #1297
+TDD-14696097 puzzle_id: #1297
+TDD-186 wordlist: nwl2023.txt
+TDD1905928 > *
+TDD597022 try? 3
+TDD-2502719 questioning: ["meals", "#5"]
+TDD7348802 #1 _____  📋 "meals" ? _____ ~ M
+TDD-7348664 attempt 0 MEALS m n n n n
+TDD2874930 #2 _____  📋 "meals" ? __A__ ~ A
+TDD-2875136 attempt 1 MEALS n n Y n n
+TDD2071729 #3 _____  📋 "meals" ? _E___ ~ ES
+TDD-2071753 attempt 2 MEALS n Y n n m
+TDD2674041 #4 _____  📋 "meals" ? _____ ~ E
+TDD-2674047 attempt 3 MEALS n m n n n
+TDD2791826 #5 _____  📋 "meals" ? _____ ~ EAS
+TDD-2791820 attempt 4 MEALS n m m n m
+TDD689204 ? 
+TDD-689244 question done
+TDD4235331 > *
+TDD-1317617 try? 2
+TDD-2917661 questioning: ["serif", "#3"]
+TDD4678831 #1 _____ ~M -AELS  📋 "serif" ? .
+TDD-4678836 attempt 0 SERIF n n n n n
+TDD3515601 #2 __A__ -ELMS  📋 "serif" ? __A__ ~ AR
+TDD-3515614 attempt 1 SERIF n n m n n
+TDD2830170 #3 _E___ ~S -ALM  📋 "serif" ? _E___ ~ ESR
+TDD-2830148 attempt 2 SERIF m Y m n n
+TDD3120141 #4 _____ ~E -ALMS  📋 "serif" ? _____ ~ ER
+TDD-3120158 attempt 3 SERIF n m m n n
+TDD2888596 #5 _____ ~AES -LM  📋 "serif" ? S____ ~ EAR
+TDD-2888588 attempt 4 SERIF Y m m n n
+TDD464021 ? 
+TDD-464093 question done
+TDD660508 > *
+TDD6342607 try? 2
+TDD-7003025 questioning: ["resew", "#3"]
+TDD7349209 #1 _____ ~M -AEFILRS  📋 "resew" ? .
+TDD-7349261 attempt 0 RESEW n n n n n
+TDD3567714 #2 __A__ ~R -EFILMS  📋 "resew" ? __A__ ~ AR
+TDD-3567660 attempt 1 RESEW m n n n n
+TDD2870381 #3 _E___ ~RS -AFILM  📋 "resew" ? RESE_
+TDD-2870313 attempt 2 RESEW Y Y Y Y n
+TDD4287035 #4 _____ ~ER -AFILMS  📋 "resew" ? _____ ~ ER
+TDD-4287146 attempt 3 RESEW m m n m n
+TDD2260824 #5 S____ ~AER -FILM  📋 "resew" ? S__E_ ~ AR
+TDD-2260798 attempt 4 RESEW m n n Y n
+TDD647303 ? 
+TDD-647371 question done
+TDD650414 > *
+TDD1673287 try? 1
+TDD-2323681 questioning: ["reset", "#3"]
+TDD5848310 #1 _____ ~M -AEFILRSW  📋 "reset" ? .
+TDD-5848300 attempt 0 RESET n n n n n
+TDD2459301 #2 __A__ ~R -EFILMSW  📋 "reset" ? __A_T ~ AR
+TDD-2459290 attempt 1 RESET m n n n Y
+TDD1934409 #3 RESE_ -AFILMW  📋 "reset" ? /it
+TDD-1934436 attempt 2 RESET Y Y Y Y Y
+TDD1589154 #4 _____ ~ER -AFILMSW  📋 "reset" ? .
+TDD-1588971 attempt 3 RESET m m n m n
+TDD1216332 #5 S__E_ ~AR -FILMSW  📋 "reset" ? .
+TDD-1216533 attempt 4 RESET m n n Y n
+TDD287858 ? 
+TDD-287916 question done
+TDD567881 > *
+TDD3421533 try? 1
+TDD-3989310 questioning: ["saner", "#5"]
+TDD4436661 #1 _____ ~M -AEFILRSTW  📋 "saner" ? .
+TDD-4436671 attempt 0 SANER n n n n n
+TDD3178041 #2 __A_T ~R -EFILMSW  📋 "saner" ? __A_T ~ AR
+TDD-3178039 attempt 1 SANER n m n n m
+TDD2378075 #4 _____ ~ER -AFILMSTW  📋 "saner" ? .
+TDD-2378047 attempt 3 SANER n n n m m
+TDD673949 #5 S__E_ ~AR -FILMSTW  📋 "saner" ? /it
+TDD-673977 attempt 4 SANER Y Y Y Y Y
+TDD153562 ? 
+TDD-153602 question done
+TDD730998 > *
+TDD3282098 try? 2
+TDD-4013036 questioning: ["chart", "#2"]
+TDD5559314 #1 _____ ~M -AEFILNRSTW  📋 "chart" ? C____ ~ M
+TDD-5559327 attempt 0 CHART Y n n n n
+TDD2373606 #2 __A_T ~R -EFILMNSW  📋 "chart" ? __ART ~ A
+TDD-2373573 attempt 1 CHART n n Y Y Y
+TDD5235685 #4 _____ ~ER -AFILMNSTW  📋 "chart" ? .
+TDD-5235714 attempt 3 CHART n n n m n
+TDD373763 ? 
+TDD-373812 question done
+TDD612814 > *
+TDD1275187 questioning: ["apart", "#2"]
+TDD4499007 #1 C____ ~M -AEFHILNRSTW  📋 "apart" ? .
+TDD-6386965 attempt 0 APART n n n n n
+TDD876369 #2 __ART -CEFHILMNSW  📋 "apart" ? /it
+TDD-876388 attempt 1 APART Y Y Y Y Y
+TDD1589093 #4 _____ ~ER -ACFHILMNSTW  📋 "apart" ? .
+TDD-1589100 attempt 3 APART n n n m n
+TDD326575 ? 
+TDD-326634 question done
+TDD568553 > *
+TDD830004 questioning: ["combo", "#1"]
+TDD1491033 #1 C____ ~M -AEFHILNPRSTW  📋 "combo" ? /it
+TDD-2889513 attempt 0 COMBO Y Y Y Y Y
+TDD3341923 #4 _____ ~ER -ACFHILMNPSTW  📋 "combo" ? _____ ~ ERO
+TDD-3341907 attempt 3 COMBO n m n n m
+TDD281596 ? 
+TDD-281676 question done
+TDD1489169 > *
+TDD1771989 try? 2
+TDD-3261076 questioning: ["erode", "#4"]
+TDD7430928 #4 _____ ~EOR -ABCFHILMNPSTW  📋 "erode" ? _RO_E ~ D
+TDD-7430935 attempt 3 ERODE n Y Y m Y
+TDD699533 ? 
+TDD-699596 question done
+TDD736518 > *
+TDD175117 questioning: ["drove", "#4"]
+TDD1794757 #4 _RO_E ~D -ABCFHILMNPSTW  📋 "drove" ? /it
+TDD-2706349 attempt 3 DROVE Y Y Y Y Y
+TDD161264 ? 
+TDD-161312 question done
+TDD1447209 Press <Enter> to 📋 or `>` for line prompt >
+TDD3229759 > squareword.org 1297: 10 guesses
+TDD-4676974 > 
+TDD-63 > 🟨🟨🟨🟨🟨
+TDD-5 > 🟨🟨🟩🟨🟩
+TDD-1 > 🟩🟩🟩🟩🟩
+TDD0 > 🟨🟨🟨🟨🟨
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > 
+TDD17 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD247736 > #squareword #squareword1297
+TDD-106425 > 
+TDD367806 > ␚
+TDD-508631 result: "squareword.org 1297: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1297\n"
+TDD880671 📆 2025-08-20 ? 
