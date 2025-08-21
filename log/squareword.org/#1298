@@ -1,0 +1,100 @@
+T0.00023864395916461945 now: 2025-08-21T12:23:26UTC
+TD46 site: squareword.org
+TDD5512290 🧩  ? #1298
+TDD-5512123 puzzle_id: #1298
+TDD-182 wordlist: nwl2023.txt
+TDD3298933 > *
+TDD-874956 try? 5
+TDD-2423741 questioning: ["steal", "#5"]
+TDD3406797 #1 _____  📋 "steal" ? s____
+TDD-3406670 attempt 0 STEAL Y n n n n
+TDD3214753 #2 _____  📋 "steal" ? _____ ~ SE
+TDD-3214969 attempt 1 STEAL m n m n n
+TDD2154611 #3 _____  📋 "steal" ? _____ ~ EAL
+TDD-2154630 attempt 2 STEAL n n m m m
+TDD2415008 #4 _____  📋 "steal" ? __E__ ~ E
+TDD-2414972 attempt 3 STEAL n n Y n n
+TDD2811095 #5 _____  📋 "steal" ? _____ ~ STA
+TDD-2811111 attempt 4 STEAL m m n m n
+TDD593605 ? 
+TDD-593632 question done
+TDD554419 > *
+TDD6031088 try? 6
+TDD-6585492 questioning: ["crepe", "#4"]
+TDD6590899 #1 S____ -AELT  📋 "crepe" ? S____ ~ CRP
+TDD-6590906 attempt 0 CREPE m m n m n
+TDD6432059 #2 _____ ~ES -ALT  📋 "crepe" ? ____E ~ S
+TDD-6432060 attempt 1 CREPE n n n n Y
+TDD4147658 #3 _____ ~AEL -ST  📋 "crepe" ? ____E ~ ALP
+TDD-4147638 attempt 2 CREPE n n n m Y
+TDD2494873 #4 __E__ -ALST  📋 "crepe" ? CRE__ ~ EP
+TDD-2494879 attempt 3 CREPE Y Y Y m m
+TDD4518686 #5 _____ ~AST -EL  📋 "crepe" ? _____ ~ STAR
+TDD-4518695 attempt 4 CREPE n m n n n
+TDD1121046 ? 
+TDD-1121091 question done
+TDD676530 > *
+TDD51096 questioning: ["scrip", "#1"]
+TDD7035707 #1 S____ ~CPR -AELT  📋 "scrip" ? /it
+TDD-7763302 attempt 0 SCRIP Y Y Y Y Y
+TDD4558433 #2 ____E ~S -ACLPRT  📋 "scrip" ? ____E ~ SI
+TDD-4558392 attempt 1 SCRIP m n n m n
+TDD3362348 #3 ____E ~ALP -CRST  📋 "scrip" ? ____E ~ ALP
+TDD-3362347 attempt 2 SCRIP n n n n m
+TDD3219390 #4 CRE__ ~P -ALST  📋 "scrip" ? CRE_P ~ E
+TDD-3219403 attempt 3 SCRIP n n n n Y
+TDD2623368 #5 _____ ~ARST -CELP  📋 "scrip" ? __R__ ~ STA
+TDD-2623379 attempt 4 SCRIP m n Y n n
+TDD252900 ? 
+TDD-252944 question done
+TDD624841 > *
+TDD87291 questioning: ["apple", "#3"]
+TDD4030798 #2 ____E ~IS -ACLPRT  📋 "apple" ? .
+TDD-4742895 attempt 1 APPLE n n n n Y
+TDD1019857 #3 ____E ~ALP -CIRST  📋 "apple" ? /it
+TDD-1019871 attempt 2 APPLE Y Y Y Y Y
+TDD6386566 #4 CRE_P -ACILRST  📋 "apple" ? CRE_P ~ E
+TDD-6386561 attempt 3 APPLE n n n n m
+TDD2870219 #5 __R__ ~AST -CEILP  📋 "apple" ? .
+TDD-2870209 attempt 4 APPLE m n n n n
+TDD291541 ? 
+TDD-291591 question done
+TDD543153 > *
+TDD463839 questioning: ["creep", "#4"]
+TDD3685322 #2 ____E ~IS -ACLPRT  📋 "creep" ? .
+TDD-4692302 attempt 1 CREEP n n n n n
+TDD1047148 #4 CRE_P -ACILPRST  📋 "creep" ? /it
+TDD-1047187 attempt 3 CREEP Y Y Y Y Y
+TDD1116327 #5 __R__ ~AST -CEILP  📋 "creep" ? .
+TDD-1116323 attempt 4 CREEP n n n n n
+TDD144746 ? 
+TDD-144788 question done
+TDD551618 > *
+TDD313042 questioning: ["karts", "#5"]
+TDD4292041 #2 ____E ~IS -ACELPRT  📋 "karts" ? .
+TDD-5156587 attempt 1 KARTS n n n n m
+TDD624820 #5 __R__ ~AST -CEILPR  📋 "karts" ? /it
+TDD-624836 attempt 4 KARTS Y Y Y Y Y
+TDD267526 ? 
+TDD-267554 question done
+TDD586354 > *
+TDD5197207 try? 1
+TDD-5783518 questioning: ["noise", "#2"]
+TDD3854956 #2 ____E ~IS -ACEKLPRT  📋 "noise" ? /it
+TDD-3854961 attempt 1 NOISE Y Y Y Y Y
+TDD917770 ? 
+TDD-917815 question done
+TDD1306149 Press <Enter> to 📋 or `>` for line prompt >
+TDD2296126 > squareword.org 1298: 7 guesses
+TDD-3602294 > 
+TDD-59 > 🟩🟩🟩🟩🟩
+TDD-11 > 🟨🟨🟨🟨🟩
+TDD-4 > 🟩🟩🟩🟩🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > 🟨🟨🟩🟨🟨
+TDD0 > 
+TDD2 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD640699 > #squareword #squareword1298
+TDD-267587 > ␚
+TDD-372646 result: "squareword.org 1298: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1298"
+TDD292372 📆 2025-08-21 ? 
