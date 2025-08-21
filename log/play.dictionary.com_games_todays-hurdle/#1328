@@ -1,0 +1,62 @@
+T0.000210602767765522 now: 2025-08-21T12:26:13UTC
+TD41 site: https://play.dictionary.com/games/todays-hurdle
+TDD-12 wordlist: nwl2023.txt
+TDD88867430 1.1> *
+TDD-87302643 1.1 ? 1
+TDD3839121 1.1 📋 "dears" ? nnMnM
+TDD-5403625 tried: DEARS n n m n m
+TDD563683 1.2> *
+TDD801268 1.2 ? 1
+TDD3750347 1.2 📋 "salty" ? YMnnn
+TDD-5115471 tried: SALTY Y m n n n
+TDD573947 1.3> *
+TDD3779370 1.3 ? 9
+TDD82129 1.3 📋 "sigma" ? YnnnY
+TDD-4435476 tried: SIGMA Y n n n Y
+TDD864384 1.4> *
+TDD2502741 1.4 ? 1
+TDD228322 1.4 📋 "scuba" ? it
+TDD-3595461 tried: SCUBA Y Y Y Y Y
+TDD9497884 2.1 📋 "scuba" ? nnnnn
+TDD-9497863 tried: SCUBA n n n n n
+TDD572024 2.2> *
+TDD2267383 2.2 ? 1
+TDD1521801 2.2 📋 "oldie" ? nMnMn
+TDD-4361195 tried: OLDIE n m n m n
+TDD571692 2.3> *
+TDD1396659 2.3 ? 2
+TDD1862853 2.3 📋 "light" ? MYnnn
+TDD-3831203 tried: LIGHT m Y n n n
+TDD444551 2.4> *
+TDD1788594 2.4 ? 3
+TDD4266956 2.4 📋 "vinyl" ? nYnMM
+TDD-6500109 tried: VINYL n Y n m m
+TDD500576 2.5> *
+TDD2054059 2.5 ? 1
+TDD4437165 2.5 📋 "milky" ? nYYnY
+TDD-6991781 tried: MILKY n Y Y n Y
+TDD438774 2.6> *
+TDD1663597 2.6 ? 2
+TDD8181355 2.6 📋 "willy" ? nYYYY
+TDD-10283754 tried: WILLY n Y Y Y Y
+TDD1879083 2.7> fail filly
+TDD-1879105 fail: FILLY
+TDD1496828 Press <Enter> to 📋 or `>` for line prompt >
+TDD2249976 > Hurdle 1328
+TDD-3746817 > 
+TDD-65 > 4/6
+TDD-1 > ⬜⬜🟨⬜🟨
+TDD-1 > 🟩🟨⬜⬜⬜
+TDD-2 > 🟩⬜⬜⬜🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > X/6
+TDD0 > ⬜⬜⬜⬜⬜
+TDD0 > ⬜🟨⬜🟨⬜
+TDD0 > 🟨🟩⬜⬜⬜
+TDD-1 > ⬜🟩⬜🟨🟨
+TDD21 > ⬜🟩🟩⬜🟩
+TDD-18 > ⬜🟩🟩🟩🟩
+TDD441453 > score: 1,260
+TDD13752 > ␚
+TDD-454793 result: "Hurdle 1328\n\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nX/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 1,260"
+TDD3270133 📆 2025-08-21 ? 
