@@ -1,200 +1,217 @@
-# 2025-08-21
+# 2025-08-22
 
-- 🔗 alfagok.diginaut.net 🧩 #292 🥳 10 ⏱️ 0:00:36.072332
-- 🔗 alphaguess.com 🧩 #758 🥳 16 ⏱️ 0:00:39.269241
-- 🔗 squareword.org 🧩 #1298 🥳 7 ⏱️ 0:02:11.495598
-- 🔗 spaceword.org 🧩 2025-08-20 🏁 score 2173 ranked 6.9% 29/419 ⏱️ 1:32:39.160086
-- 🔗 dictionary.com hurdle 🧩 #1328 😦 10 ⏱️ 0:03:07.057611
-- 🔗 dontwordle.com 🧩 #1185 🥳 6 ⏱️ 0:02:01.921643
-- 🔗 cemantix.certitudes.org 🧩 #1268 🥳 218 ⏱️ 0:36:15.082037
-- 🔗 cemantle.certitudes.org 🧩 #1235 🥳 15 ⏱️ 0:01:18.497676
+- 🔗 alfagok.diginaut.net 🧩 #293 🥳 17 ⏱️ 0:00:52.852832
+- 🔗 alphaguess.com 🧩 #759 🥳 18 ⏱️ 0:00:49.100410
+- 🔗 spaceword.org 🧩 2025-08-21 🏁 score 2173 ranked 8.2% 35/429 ⏱️ 1:47:56.334213
+- 🔗 squareword.org 🧩 #1299 🥳 8 ⏱️ 0:02:40.629170
+- 🔗 dictionary.com hurdle 🧩 #1329 😦 16 ⏱️ 0:04:44.970709
+- 🔗 dontwordle.com 🧩 #1186 🥳 6 ⏱️ 0:01:15.091000
+- 🔗 cemantix.certitudes.org 🧩 #1269 🥳 84 ⏱️ 0:09:50.988935
+- 🔗 cemantle.certitudes.org 🧩 #1236 🥳 273 ⏱️ 0:40:03.791352
 
 ```ex
 '<,'>norm ^f dt f🧩2f dt 0f P
 ```
 
-- 🥳 alfagok.diginaut.net 🧩 #292 10 ⏱️ 0:00:36.072332
-- 🥳 alphaguess.com 🧩 #758 16 ⏱️ 0:00:39.269241
-- 🥳 squareword.org 🧩 #1298 7 ⏱️ 0:02:11.495598
-- 🏁 spaceword.org 🧩 2025-08-20 score 2173 ranked 6.9% 29/419 ⏱️ 1:32:39.160086
-- 😦 dictionary.com hurdle 🧩 #1328 10 ⏱️ 0:03:07.057611
-- 🥳 dontwordle.com 🧩 #1185 6 ⏱️ 0:02:01.921643
-- 🥳 cemantix.certitudes.org 🧩 #1268 218 ⏱️ 0:36:15.082037
-- 🥳 cemantle.certitudes.org 🧩 #1235 15 ⏱️ 0:01:18.497676
+- 🥳 alfagok.diginaut.net 🧩 #293 17 ⏱️ 0:00:52.852832
+- 🥳 alphaguess.com 🧩 #759 18 ⏱️ 0:00:49.100410
+- 🏁 spaceword.org 🧩 2025-08-21 score 2173 ranked 8.2% 35/429 ⏱️ 1:47:56.334213
+- 🥳 squareword.org 🧩 #1299 8 ⏱️ 0:02:40.629170
+- 😦 dictionary.com hurdle 🧩 #1329 16 ⏱️ 0:04:44.970709
+- 🥳 dontwordle.com 🧩 #1186 6 ⏱️ 0:01:15.091000
+- 🥳 cemantix.certitudes.org 🧩 #1269 84 ⏱️ 0:09:50.988935
+- 🥳 cemantle.certitudes.org 🧩 #1236 273 ⏱️ 0:40:03.791352
 
-Details spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$9xbUn9oyxEZ3ERxvPzY-J4Fx6hfY3YCckK268broED4?via=aelf.land&via=matrix.org
+Details spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$vq50s6F9hEtlce4nsS34CwXa8-Srb6A4uRAdk1IB5SI?via=aelf.land&via=matrix.org
 
-# alfagok.diginaut.net 🧩 #292 🥳 10 ⏱️ 0:00:36.072332
+# alfagok.diginaut.net 🧩 #293 🥳 17 ⏱️ 0:00:52.852832
 
-🤔 10 attempts
+🤔 17 attempts
 📜 1 sessions
 
-    @        [     0] &-teken   
-    @+1      [     1] &-tekens  
-    @+2      [     2] -cijferig 
-    @+3      [     3] -e-mail   
-    @+49851  [ 49851] boks      q2  ? after
-    @+74764  [ 74764] dc        q3  ? after
-    @+87226  [ 87226] draag     q4  ? after
-    @+93454  [ 93454] eet       q5  ? after
-    @+94055  [ 94055] eigen     q8  ? after
-    @+94500  [ 94500] einde     q9  ? it
-    @+94500  [ 94500] einde     done. it
-    @+94983  [ 94983] eiwit     q7  ? before
-    @+96593  [ 96593] energiek  q6  ? before
-    @+99761  [ 99761] ex        q1  ? before
-    @+199856 [199856] lijm      q0  ? before
+    @        [     0] &-teken     
+    @+1      [     1] &-tekens    
+    @+2      [     2] -cijferig   
+    @+3      [     3] -e-mail     
+    @+199856 [199856] lijm        q0  ? after
+    @+299795 [299795] schub       q1  ? after
+    @+305878 [305878] slijmer     q5  ? after
+    @+308817 [308817] so          q6  ? after
+    @+309353 [309353] sol         q8  ? after
+    @+309361 [309361] solarium    q15 ? after
+    @+309363 [309363] soldaat     q16 ? it
+    @+309363 [309363] soldaat     done. it
+    @+309367 [309367] soldaten    q13 ? before
+    @+309392 [309392] soldeer     q12 ? before
+    @+309447 [309447] soleren     q11 ? before
+    @+309544 [309544] solliciteer q10 ? before
+    @+309738 [309738] son         q9  ? before
+    @+310192 [310192] spa         q7  ? before
+    @+311965 [311965] spier       q4  ? before
+    @+324372 [324372] sub         q3  ? before
+    @+349581 [349581] vakantie    q2  ? before
 
-# alphaguess.com 🧩 #758 🥳 16 ⏱️ 0:00:39.269241
+# alphaguess.com 🧩 #759 🥳 18 ⏱️ 0:00:49.100410
 
-🤔 16 attempts
+🤔 18 attempts
 📜 1 sessions
 
-    @       [    0] aa           
-    @+1     [    1] aah          
-    @+2     [    2] aahed        
-    @+3     [    3] aahing       
-    @+47395 [47395] dis          q1  ? after
-    @+72815 [72815] gremolata    q2  ? after
-    @+85519 [85519] ins          q3  ? after
-    @+91864 [91864] knot         q4  ? after
-    @+94961 [94961] lib          q5  ? after
-    @+96594 [96594] locks        q6  ? after
-    @+97377 [97377] low          q7  ? after
-    @+97803 [97803] lurch        q8  ? after
-    @+97905 [97905] lutein       q10 ? after
-    @+97949 [97949] lux          q11 ? after
-    @+97982 [97982] lycanthropic q12 ? after
-    @+98000 [98000] lycopod      q13 ? after
-    @+98008 [98008] lyddite      q14 ? after
-    @+98012 [98012] lying        q15 ? it
-    @+98012 [98012] lying        done. it
-    @+98015 [98015] lymph        q9  ? before
-    @+98234 [98234] mach         q0  ? before
+    @       [    0] aa          
+    @+1     [    1] aah         
+    @+2     [    2] aahed       
+    @+3     [    3] aahing      
+    @+47395 [47395] dis         q2  ? after
+    @+72815 [72815] gremolata   q3  ? after
+    @+75971 [75971] haw         q6  ? after
+    @+76098 [76098] head        q10 ? after
+    @+76144 [76144] headhunt    q12 ? after
+    @+76173 [76173] headlock    q13 ? after
+    @+76188 [76188] headphone   q14 ? after
+    @+76189 [76189] headphones  done. it
+    @+76190 [76190] headpiece   q17 ? before
+    @+76192 [76192] headpin     q16 ? before
+    @+76196 [76196] headquarter q15 ? before
+    @+76202 [76202] headrail    q11 ? before
+    @+76306 [76306] heart       q9  ? before
+    @+76714 [76714] helio       q8  ? before
+    @+77515 [77515] hetero      q7  ? before
+    @+79147 [79147] hood        q5  ? before
+    @+85519 [85519] ins         q4  ? before
+    @+98234 [98234] mach        q0  ? after
+    @+98234 [98234] mach        q1  ? before
 
-# squareword.org 🧩 #1298 🥳 7 ⏱️ 0:02:11.495598
-
-📜 1 sessions
-
-Guesses:
-
-Score Heatmap:
-    🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟨 🟨 🟩
-    🟩 🟩 🟩 🟩 🟩
-    🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟩 🟨 🟨
-    🟩:<6 🟨:<11 🟧:<16 🟥:16+
-
-Solution:
-    S C R I P
-    N O I S E
-    A P P L E
-    C R E E P
-    K A R T S
-
-# spaceword.org 🧩 2025-08-20 🏁 score 2173 ranked 6.9% 29/419 ⏱️ 1:32:39.160086
+# spaceword.org 🧩 2025-08-21 🏁 score 2173 ranked 8.2% 35/429 ⏱️ 1:47:56.334213
 
 📜 3 sessions
 - tiles: 21/21
 - score: 2173 bonus: +73
-- rank: 29/419
+- rank: 35/429
 
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ J _ _ Z _ L _ A M   
-      _ U _ B E L I E V E   
-      _ T E O P A N _ E D   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ J A B _ _ _   
+      _ _ _ _ _ _ E _ _ _   
+      _ _ _ _ _ Z A _ _ _   
+      _ _ _ _ P E C _ _ _   
+      _ _ _ _ _ N O _ _ _   
+      _ _ _ _ D A N _ _ _   
+      _ _ _ _ A I S _ _ _   
+      _ _ _ _ _ D _ _ _ _   
+      _ _ _ _ W A E _ _ _   
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1328 😦 10 ⏱️ 0:03:07.057611
+# squareword.org 🧩 #1299 🥳 8 ⏱️ 0:02:40.629170
+
+📜 3 sessions
+
+Guesses:
+
+Score Heatmap:
+    🟨 🟨 🟩 🟩 🟨
+    🟨 🟩 🟨 🟨 🟨
+    🟩 🟩 🟩 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟨 🟨 🟨 🟨 🟨
+    🟩:<6 🟨:<11 🟧:<16 🟥:16+
+
+Solution:
+    C H A R T
+    L I V E R
+    A P A C E
+    S P I C E
+    P O L E S
+
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1329 😦 16 ⏱️ 0:04:44.970709
 
 📜 1 sessions
-💰 score: 1260
+💰 score: 5060
 
+    3/6
+    SCARE 🟨⬜⬜🟨🟨
+    RESIN 🟨🟨🟩⬜⬜
+    POSER 🟩🟩🟩🟩🟩
+    3/6
+    POSER ⬜🟨⬜🟨⬜
+    LEMON ⬜🟩🟩🟩🟩
+    DEMON 🟩🟩🟩🟩🟩
     4/6
-    DEARS ⬜⬜🟨⬜🟨
-    SALTY 🟩🟨⬜⬜⬜
-    SIGMA 🟩⬜⬜⬜🟩
-    SCUBA 🟩🟩🟩🟩🟩
-    6/6
-    SCUBA ⬜⬜⬜⬜⬜
-    OLDIE ⬜🟨⬜🟨⬜
-    LIGHT 🟨🟩⬜⬜⬜
-    VINYL ⬜🟩⬜🟨🟨
-    MILKY ⬜🟩🟩⬜🟩
-    WILLY ⬜🟩🟩🟩🟩
-    FAIL: FILLY
+    DEMON ⬜🟩⬜⬜🟨
+    NEARS 🟩🟩⬜🟨⬜
+    NEWER 🟩🟩⬜🟨🟨
+    NERVE 🟩🟩🟩🟩🟩
+    4/6
+    NERVE ⬜⬜🟨⬜⬜
+    STAIR ⬜🟨⬜🟨🟨
+    FLIRT ⬜🟨🟩🟨🟨
+    TRILL 🟩🟩🟩🟩🟩
+    Final 2/2
+    CHUNK ⬜⬜🟨🟩⬜
+    FUNNY ⬜🟩🟩🟩🟩
+    FAIL: BUNNY
 
-# dontwordle.com 🧩 #1185 🥳 6 ⏱️ 0:02:01.921643
+# dontwordle.com 🧩 #1186 🥳 6 ⏱️ 0:01:15.091000
 
 📜 1 sessions
-💰 score: 7
+💰 score: 45
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:BUBBY n n n n n remain:7824
-    ⬜⬜⬜⬜⬜ tried:WOOFS n n n n n remain:2034
-    ⬜⬜⬜⬜⬜ tried:RIGID n n n n n remain:385
-    🟩⬜⬜⬜⬜ tried:PHPHT Y n n n n remain:29
-    🟩🟩⬜⬜⬜ tried:PEEVE Y Y n n n remain:5
-    🟩🟩⬜🟩🟨 tried:PECAN Y Y n Y m remain:1
+    ⬜⬜⬜⬜⬜ tried:ADDAX n n n n n remain:6032
+    ⬜⬜⬜⬜⬜ tried:FEEZE n n n n n remain:2681
+    ⬜🟩⬜⬜⬜ tried:COMMO n Y n n n remain:334
+    ⬜🟩⬜⬜⬜ tried:YOBBY n Y n n n remain:195
+    ⬜🟩🟩⬜⬜ tried:GOING n Y Y n n remain:11
+    ⬜🟩🟩⬜⬜ tried:POILU n Y Y n n remain:5
 
-    Undos used: 2
+    Undos used: 1
 
-      1 words remaining
-    x 7 unused letters
-    = 7 total score
+      5 words remaining
+    x 9 unused letters
+    = 45 total score
 
-# cemantix.certitudes.org 🧩 #1268 🥳 218 ⏱️ 0:36:15.082037
+# cemantix.certitudes.org 🧩 #1269 🥳 84 ⏱️ 0:09:50.988935
 
-🤔 219 attempts
+🤔 85 attempts
 📜 1 sessions
-🫧 7 chat sessions
-⁉️ 35 chat prompts
-🤖 35 gemma3:12b replies
-😱   1 🔥   4 🥵   7 😎  48 🥶 151 🧊   7
+🫧 3 chat sessions
+⁉️ 11 chat prompts
+🤖 11 gemma3:12b replies
+😱  1 🔥  1 🥵  8 😎 14 🥶 45 🧊 15
 
-      $1 #219   ~1 variation         100.00°C 🥳 1000‰
-      $2  #52  ~54 fluctuation        66.00°C 😱  999‰
-      $3  #95  ~38 variabilité        57.86°C 🔥  998‰
-      $4  #66  ~49 amplitude          52.46°C 🔥  997‰
-      $5  #80  ~41 oscillation        50.90°C 🔥  995‰
-      $6 #118  ~29 intensité          50.14°C 🔥  994‰
-      $7  #69  ~47 corrélation        47.12°C 🥵  988‰
-      $8 #195   ~8 gradient           46.44°C 🥵  984‰
-      $9  #53  ~53 ajustement         45.45°C 🥵  978‰
-     $10  #70  ~46 courbe             44.68°C 🥵  974‰
-     $11 #141  ~22 évolution          42.98°C 🥵  960‰
-     $14 #178  ~14 ondulation         39.88°C 😎  892‰
-     $62 #161      profondeur         30.30°C 🥶
-    $213   #7      poire              -0.23°C 🧊
+     $1 #85  ~1 métro           100.00°C 🥳 1000‰
+     $2 #84  ~2 bus              57.73°C 😱  999‰
+     $3 #63  ~9 gare             48.48°C 🔥  995‰
+     $4 #75  ~5 train            42.25°C 🥵  988‰
+     $5 #47 ~12 station          40.22°C 🥵  987‰
+     $6 #14 ~23 rue              34.85°C 🥵  983‰
+     $7 #72  ~6 quai             33.25°C 🥵  975‰
+     $8 #67  ~7 navette          31.12°C 🥵  961‰
+     $9 #18 ~20 quartier         30.14°C 🥵  955‰
+    $10  #8 ~25 trottoir         27.67°C 🥵  933‰
+    $11 #24 ~18 place            26.45°C 🥵  912‰
+    $12 #25 ~17 ville            24.85°C 😎  872‰
+    $26 #74     billet           15.50°C 🥶
+    $71 #30     histoire         -0.32°C 🧊
 
-# cemantle.certitudes.org 🧩 #1235 🥳 15 ⏱️ 0:01:18.497676
+# cemantle.certitudes.org 🧩 #1236 🥳 273 ⏱️ 0:40:03.791352
 
-🤔 16 attempts
+🤔 274 attempts
 📜 1 sessions
-🫧 2 chat sessions
-⁉️ 5 chat prompts
-🤖 5 gemma3:12b replies
-🥵  1 🥶 13 🧊  1
+🫧 9 chat sessions
+⁉️ 57 chat prompts
+🤖 57 gemma3:12b replies
+😱   1 🔥   4 🥵  19 😎  65 🥶 158 🧊  26
 
-     $1 #16  ~1 peaceful   100.00°C 🥳 1000‰
-     $2 #15  ~2 calm        46.07°C 🥵  986‰
-     $3 #14     relax       18.96°C 🥶
-     $4 #12     rest        13.54°C 🥶
-     $5  #3     hibernate   12.00°C 🥶
-     $6  #2     gazebo      11.73°C 🥶
-     $7 #11     dormancy    10.35°C 🥶
-     $8 #13     leisure      9.92°C 🥶
-     $9 #10     zephyr       9.67°C 🥶
-    $10  #6     paradox      9.59°C 🥶
-    $11  #1     apricot      9.35°C 🥶
-    $12  #4     magenta      8.60°C 🥶
-    $13  #7     quill        6.35°C 🥶
-    $16  #9     velocity    -0.36°C 🧊
+      $1 #274   ~1 suspend          100.00°C 🥳 1000‰
+      $2 #240  ~29 cancel            64.67°C 😱  999‰
+      $3 #252  ~18 rescind           61.92°C 🔥  995‰
+      $4 #247  ~22 postpone          61.56°C 🔥  994‰
+      $5 #253  ~17 revoke            60.74°C 🔥  993‰
+      $6 #235  ~32 defer             59.13°C 🔥  992‰
+      $7 #267   ~6 reconsider        56.75°C 🥵  988‰
+      $8 #226  ~39 abandon           51.15°C 🥵  985‰
+      $9 #243  ~26 forego            48.89°C 🥵  979‰
+     $10 #225  ~40 waive             48.64°C 🥵  978‰
+     $11 #263  ~10 annul             48.35°C 🥵  976‰
+     $26 #209  ~46 abrogate          36.46°C 😎  898‰
+     $91 #170      permission        20.74°C 🥶
+    $249  #33      pungent           -0.08°C 🧊
