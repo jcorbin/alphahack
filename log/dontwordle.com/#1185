@@ -1,0 +1,62 @@
+T0.00021545309573411942 now: 2025-08-21T12:29:24UTC
+TD42 site: dontwordle.com
+TDD-14 wordlist: nwl2023.txt
+TDD4948307 1> * -bot 10
+TDD430563 ? 7
+TDD-1046790 📋 "lears" ? MYMnn
+TDD-4331814 tried: LEARS m Y m n n
+TDD796590 2> undo
+TDD-796802 undo
+TDD3453263 1> *
+TDD-1723976 ? 1
+TDD2285626 📋 "bubby" ? nnnnn
+TDD-4014875 tried: BUBBY n n n n n
+TDD489677 2> *
+TDD913533 ? 1
+TDD2769210 📋 "woofs" ? nnnnn
+TDD-4172402 tried: WOOFS n n n n n
+TDD851315 3> *
+TDD247136 ? 1
+TDD10401665 📋 "kinin" ? nnYnn
+TDD-11500114 tried: KININ n n Y n n
+TDD1276861 4> undo
+TDD-1276908 undo
+TDD803287 3> *
+TDD3245555 ? civic
+TDD-2312251 ? 1
+TDD9634321 📋 "civic" ? ␚
+TDD-11370934 <EOF>
+TDD7319179 3> *
+TDD-4270882 ? 1
+TDD1635530 📋 "rigid" ? nnnnn
+TDD-4683773 tried: RIGID n n n n n
+TDD610947 4> *
+TDD4770714 📋 "phpht" ? Ynnnn
+TDD-5381134 tried: PHPHT Y n n n n
+TDD4492535 5> *
+TDD-1619155 5> * -sans :v [ael]
+TDD1529729 5> * -sans :v [aen]
+TDD-272585 5> * -sans :v [aln]
+TDD1583156 📋 "peeve" ? YYnnn
+TDD-5714219 tried: PEEVE Y Y n n n
+TDD1467265 6> * -sans
+TDD1322802 ? 4
+TDD2322837 📋 "pecan" ? YYnYM
+TDD-5112912 tried: PECAN Y Y n Y m
+TDD3924628 Press <Enter> to 📋 or `>` for line prompt >
+TDD-3322800 > Don't Wordle 1185 - SURVIVED
+TDD-601874 > Hooray! I didn't Wordle today!
+TDD-43 > ⬜⬜⬜⬜⬜7824
+TDD-3 > ⬜⬜⬜⬜⬜2034
+TDD0 > ⬜⬜⬜⬜⬜385
+TDD-1 > 🟩⬜⬜⬜⬜29
+TDD0 > 🟩🟩⬜⬜⬜5
+TDD0 > 🟩🟩⬜🟩🟨1
+TDD0 > Undos used: 2
+TDD0 > 
+TDD0 >   1 words remaining
+TDD0 > x 7 unused letters
+TDD289774 > = 7 total score
+TDD399118 > ␚
+TDD-688075 result: "Don't Wordle 1185 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7824\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2034\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c385\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c29\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c5\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe81\nUndos used: 2\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TDD973887 📆 2025-08-21 ? 
