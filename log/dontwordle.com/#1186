@@ -1,0 +1,53 @@
+T0.00027597416192293167 now: 2025-08-22T14:01:27UTC
+TD54 site: dontwordle.com
+TDD-10 wordlist: nwl2023.txt
+TDD4819563 1> * -bot 10
+TDD-2840853 ? 2
+TDD2693561 📋 "rates" ? nnMnM
+TDD-4671938 tried: RATES n n m n m
+TDD1482827 2> undo
+TDD-1483105 undo
+TDD3454660 1> *
+TDD-850795 ? 1
+TDD-756728 📋 "addax" ? nnnnn
+TDD-1847090 tried: ADDAX n n n n n
+TDD472226 2> *
+TDD395656 ? 1
+TDD2770452 📋 "feeze" ? nnnnn
+TDD-3638377 tried: FEEZE n n n n n
+TDD532379 3> *
+TDD416998 ? 1
+TDD5222056 📋 "commo" ? nYnnn
+TDD-6171399 tried: COMMO n Y n n n
+TDD651872 4> *
+TDD833062 ? 1
+TDD3023900 📋 "yobby" ? nYnnn
+TDD-4508848 tried: YOBBY n Y n n n
+TDD864345 5> *
+TDD2112022 ? 1
+TDD5030982 📋 "nohow" ? 
+TDD-6911301 5> *
+TDD2449482 ? 3
+TDD891411 📋 "going" ? nYYnn
+TDD-4436956 tried: GOING n Y Y n n
+TDD1357511 6> *
+TDD4254718 📋 "poilu" ? nYYnn
+TDD-5612229 tried: POILU n Y Y n n
+TDD1576383 Press <Enter> to 📋 or `>` for line prompt 
+TDD-549134 Press <Enter> to 📋 or `>` for line prompt >
+TDD1331418 > Don't Wordle 1186 - SURVIVED
+TDD-2358710 > Hooray! I didn't Wordle today!
+TDD-46 > ⬜⬜⬜⬜⬜6032
+TDD-2 > ⬜⬜⬜⬜⬜2681
+TDD0 > ⬜🟩⬜⬜⬜334
+TDD-3 > ⬜🟩⬜⬜⬜195
+TDD0 > ⬜🟩🟩⬜⬜11
+TDD0 > ⬜🟩🟩⬜⬜5
+TDD0 > Undos used: 1
+TDD0 > 
+TDD0 >   5 words remaining
+TDD0 > x 9 unused letters
+TDD263879 > = 45 total score
+TDD508743 > ␚
+TDD-771786 result: "Don't Wordle 1186 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6032\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2681\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c334\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c195\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c11\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c5\nUndos used: 1\n\n  5 words remaining\nx 9 unused letters\n= 45 total score"
+TDD1052815 📆 2025-08-22 ? 
