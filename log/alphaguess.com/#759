@@ -1,0 +1,54 @@
+T0.0002101333811879158 now: 2025-08-22T13:20:39UTC
+TD77671 loaded 196552 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (51 words excluded) asof 24c402796d8a150bfed83a737e5f08a1ddf6029e
+TDD5504822 [0 : 98234 : 196552] mach? 
+TDD-2857806 [0 : 98234 : 196552] mach? b
+TDD-2724488 progress: -1 98234 mach
+TDD2149376 [0 : 47395 : 98234] dis? a
+TDD-2149463 progress: 1 47395 dis
+TDD1468686 [47396 : 72815 : 98234] gremolata? a
+TDD-1468707 progress: 1 72815 gremolata
+TDD1467495 [72816 : 85519 : 98234] ins? b
+TDD-1467481 progress: -1 85519 ins
+TDD1466220 [72816 : 79147 : 85519] hood? b
+TDD-1466213 progress: -1 79147 hood
+TDD1568485 [72816 : 75971 : 79147] haw? a
+TDD-1568501 progress: 1 75971 haw
+TDD1967080 [75972 : 77515 : 79147] hetero? b
+TDD-1967082 progress: -1 77515 hetero
+TDD1655198 [75972 : 76714 : 77515] helio? b
+TDD-1655178 progress: -1 76714 helio
+TDD2250903 [75972 : 76306 : 76714] heart? b
+TDD-2250919 progress: -1 76306 heart
+TDD1546461 [75972 : 76098 : 76306] head? a
+TDD-1546472 progress: 1 76098 head
+TDD1656713 [76099 : 76202 : 76306] headrail? b
+TDD-1656682 progress: -1 76202 headrail
+TDD1880118 [76099 : 76144 : 76202] headhunt? a
+TDD-1880146 progress: 1 76144 headhunt
+TDD1478159 [76145 : 76173 : 76202] headlock? a
+TDD-1478168 progress: 1 76173 headlock
+TDD3414884 [76174 : 76188 : 76202] headphone? a
+TDD-3414871 progress: 1 76188 headphone
+TDD1657782 [76189 : 76196 : 76202] headquarter? b
+TDD-1657795 progress: -1 76196 headquarter
+TDD1668207 [76189 : 76192 : 76196] headpin? b
+TDD-1668165 progress: -1 76192 headpin
+TDD1522899 [76189 : 76190 : 76192] headpiece? b
+TDD-1522924 progress: -1 76190 headpiece
+TDD-71 [76189 : 76189 : 76190] <Done>.
+TDD3119657 press <Return> to finish
+TDD-502250 Press <Enter> to 📋 or `>` for line prompt >
+TDD1099988 > 🧩 Puzzle #759
+TDD-3717334 > 
+TDD-65 > 🤔 18 guesses
+TDD-3 > 
+TDD0 > ⏱️ 31s
+TDD0 > 
+TDD807806 > 🔗 alphaguess.com
+TDD-439563 > ␚
+TDD-367860 share result: "\ud83e\udde9 Puzzle #759\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 31s\n\n\ud83d\udd17 alphaguess.com"
+TDD-365 result puzzle: 759
+TDD-21 result guesses: 18
+TDD-2 result time: 31s
+TDD0 result link: alphaguess.com
+TDD1261865 📆 2025-08-22 ? 
