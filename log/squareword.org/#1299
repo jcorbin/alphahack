@@ -1,0 +1,120 @@
+T0.0002137729898095131 now: 2025-08-22T13:22:05UTC
+TD40 site: squareword.org
+TDD5217983 🧩  ? #1299
+TDD-5217849 puzzle_id: #1299
+TDD-150 wordlist: nwl2023.txt
+TDD1355238 > *
+TDD1274404 try? 3
+TDD-2629412 questioning: ["score", "#5"]
+TDD4929647 #1 _____  📋 "score" ? ___r_ ~ C
+TDD-4929508 attempt 0 SCORE n m n Y n
+T0.0016389433294534683 now: 2025-08-22T13:22:53UTC
+TD66 questioning: ["score", "#5"]
+TDD3689507 #2 _____  📋 "score" ? _____ ~ RE
+TDD-3689111 attempt 1 SCORE n n n m m
+TDD3180281 #3 _____  📋 "score" ? ____E ~ C
+TDD-3180537 attempt 2 SCORE n m n n Y
+TDD3545928 #4 _____  📋 "score" ? S___E ~ C
+TDD-3545958 attempt 3 SCORE Y m n n Y
+TDD2910904 #5 _____  📋 "score" ? _____ ~ SOE
+TDD-2910922 attempt 4 SCORE m n m n m
+TDD1986991 ? ␚
+TDD-1987046 question done
+TDD844936 > *
+TDD13886417 try? 1
+TDD-14731295 questioning: ["since", "#4"]
+T0.0021270597353577614 now: 2025-08-22T13:23:37UTC
+TD60 questioning: ["since", "#4"]
+TDD5154601 #1 ___R_ ~C -EOS  📋 "since" ? .
+TDD-5154394 attempt 0 SINCE n n n m n
+TDD3511687 #2 _____ ~ER -COS  📋 "since" ? _I___ ~ RE
+TDD-3511539 attempt 1 SINCE n Y n n m
+TDD3525942 #3 ____E ~C -ORS  📋 "since" ? ___CE
+TDD-3526183 attempt 2 SINCE n n n Y Y
+TDD5053672 #4 S___E ~C -OR  📋 "since" ? S__CE ~ I
+TDD-5053680 attempt 3 SINCE Y m n Y Y
+TDD1409843 #5 _____ ~EOS -CR  📋 "since" ? .
+TDD-1409856 attempt 4 SINCE m n n n m
+TDD658313 ? 
+TDD-658365 question done
+TDD560749 > *
+TDD3264278 try? 2
+TDD-3824965 questioning: ["slice", "#4"]
+TDD5868646 #1 ___R_ ~C -EINOS  📋 "slice" ? .
+TDD-5868625 attempt 0 SLICE n n n m n
+TDD3702539 #2 _I___ ~ER -CNOS  📋 "slice" ? _I___ ~ REL
+TDD-3702540 attempt 1 SLICE n m n n m
+TDD2195471 #3 ___CE -INORS  📋 "slice" ? .
+TDD-2195517 attempt 2 SLICE n n n Y Y
+TDD2192307 #4 S__CE ~I -NOR  📋 "slice" ? S_ICE
+TDD-2192274 attempt 3 SLICE Y n Y Y Y
+TDD3533521 #5 _____ ~EOS -CINR  📋 "slice" ? _____ ~ SOEL
+TDD-3533524 attempt 4 SLICE m m n n m
+TDD721541 ? 
+TDD-721592 question done
+TDD783395 > *
+TDD2050854 try? 1
+TDD-2834184 questioning: ["spice", "#4"]
+TDD4175649 #1 ___R_ ~C -EILNOS  📋 "spice" ? .
+TDD-4175657 attempt 0 SPICE n n n m n
+TDD1694002 #2 _I___ ~ELR -CINOS  📋 "spice" ? .
+TDD-1694023 attempt 1 SPICE n n n n m
+TDD2247442 #3 ___CE -ILNORS  📋 "spice" ? _P_CE
+TDD-2247451 attempt 2 SPICE n Y n Y Y
+TDD826769 #4 S_ICE -LNOR  📋 "spice" ? /it
+TDD-826782 attempt 3 SPICE Y Y Y Y Y
+TDD3983614 #5 _____ ~ELOS -CINR  📋 "spice" ? _____ ~ SOELP
+TDD-3983576 attempt 4 SPICE m m n n m
+TDD1060952 ? 
+TDD-1061022 question done
+TDD928727 > *
+TDD-476577 questioning: ["apace", "#3"]
+TDD7344759 #1 ___R_ ~C -EILNOPS  📋 "apace" ? __AR_ ~ C
+TDD-7796834 attempt 0 APACE n n Y m n
+TDD1810507 #2 _I___ ~ELR -CINOPS  📋 "apace" ? .
+TDD-1810554 attempt 1 APACE n n n n m
+TDD1242761 #3 _P_CE -ILNORS  📋 "apace" ? /it
+TDD-1242765 attempt 2 APACE Y Y Y Y Y
+TDD3096725 #5 _____ ~ELOPS -CINR  📋 "apace" ? .
+TDD-3096692 attempt 4 APACE n m n n m
+TDD864669 ? 
+TDD-864726 question done
+TDD537739 > *
+TDD-205340 questioning: ["poles", "#5"]
+TDD6232447 #1 __AR_ ~C -EILNOPS  📋 "poles" ? .
+TDD-6564777 attempt 0 POLES n n n n n
+TDD4272965 #2 _I___ ~ELR -ACINOPS  📋 "poles" ? _I_E_ ~ RL
+TDD-4272940 attempt 1 POLES n n m Y n
+TDD1170745 #5 _____ ~ELOPS -ACINR  📋 "poles" ? /it
+TDD-1170780 attempt 4 POLES Y Y Y Y Y
+TDD347581 ? 
+TDD-347629 question done
+TDD1039669 > *
+TDD174654 questioning: ["liver", "#2"]
+TDD3370186 #1 __AR_ ~C -EILNOPS  📋 "liver" ? .
+TDD-4584446 attempt 0 LIVER n n n n n
+TDD1023568 #2 _I_E_ ~LR -ACINOPS  📋 "liver" ? /it
+TDD-1023576 attempt 1 LIVER Y Y Y Y Y
+TDD533804 ? 
+TDD-533852 question done
+TDD1068223 > *
+TDD5512168 try? 2
+TDD-6580351 questioning: ["chart", "#1"]
+TDD2426033 #1 __AR_ ~C -EILNOPRSV  📋 "chart" ? /it
+TDD-2426057 attempt 0 CHART Y Y Y Y Y
+TDD1153911 ? 
+TDD-1153927 question done
+TDD1246011 Press <Enter> to 📋 or `>` for line prompt >
+TDD2770429 > squareword.org 1299: 8 guesses
+TDD-4016461 > 
+TDD-59 > 🟨🟨🟩🟩🟨
+TDD-7 > 🟨🟩🟨🟨🟨
+TDD-7 > 🟩🟩🟩🟩🟩
+TDD5 > 🟩🟩🟩🟩🟩
+TDD-4 > 🟨🟨🟨🟨🟨
+TDD20 > 
+TDD-20 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD482671 > #squareword #squareword1299
+TDD-21794 > ␚
+TDD-460386 result: "squareword.org 1299: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1299"
+TDD816674 📆 2025-08-22 ? 
