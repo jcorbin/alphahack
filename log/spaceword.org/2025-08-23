@@ -1,0 +1,57 @@
+T1.3618601113557816 now: 2025-08-23T12:36:51UTC
+TD57 site: spaceword.org
+TDD910515 📜 nwl2023.txt ? 
+TDD-910468 wordlist: nwl2023.txt
+TDD5808076 🧩  ? daily 20250823
+TDD-5807856 puzzle_id: 2025-08-23
+TDD2136327 num letters (default: 21) ? 
+TDD-2136597 num_letters: 21
+TDD6480387 letters? aabeeee
+TDD-6480347 letters: |AABEEEE|
+TDD2569877 letters? egilnno
+TDD-2569894 letters: |AABEEEEEGILNNO|
+TDD2976007 letters? qstuvyz
+TDD-2975996 letters: |AABEEEEEGILNNOQSTUVYZ|
+TDD651372 letters. 
+TDD3808214 [doit:100]> /sea -cap 900
+TDD207266690 search b24cb6 [ 900 cap:900 may:6712 prune:96 done:17 dead:35 ]> show done
+TDD-210602437 search b24cb6 [ 900 cap:900 may:6712 prune:96 done:17 dead:35 ]> show 1
+TDD2817240 search b24cb6 [ 900 cap:900 may:6712 prune:96 done:17 dead:35 ]> ret
+TDD-3940950 change: 25 G
+TDD-202 change: 26 A
+TDD-6 change: 27 V
+TDD-1 change: 28 E
+TDD0 change: 31 Q
+TDD0 change: 32 U
+TDD0 change: 33 E
+TDD0 change: 34 Z
+TDD0 change: 35 A
+TDD0 change: 36 L
+TDD0 change: 37 E
+TDD0 change: 38 S
+TDD0 change: 45 B
+TDD11 change: 46 I
+TDD-11 change: 47 N
+TDD0 change: 56 Y
+TDD1 change: 57 E
+TDD-2 change: 66 O
+TDD0 change: 67 N
+TDD0 change: 76 T
+TDD0 change: 77 E
+TDD2155001 [doit:2152]> /sea -cap 1800
+TDD309843956 search 45c243 [ 1116 cap:1800 may:0 prune:5502 ]> ␚
+TDD-210724349 [doit:2152]> /res
+TDD-99801612 Press <Enter> to 📋 or `>` for line prompt >
+TDD-889947 > ✨ Spaceword.org Daily 2025-08-23 ✨
+TDD-582990 > 
+TDD-43 > 🏆 Score: 2152
+TDD-4 > 🏅 Rank: 144/197 😀
+TDD0 > 🧩 Tiles: 21/21 ✅
+TDD-1 > 📏 Space Bonus: +52
+TDD13 > 
+TDD-11 > 
+TDD0 > Play at https://spaceword.org
+TDD732889 > #spaceword
+TDD-399507 > ␚
+TDD-332502 result: "\u2728 Spaceword.org Daily 2025-08-23 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 144/197 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD1380459 [prior:2152]> /store
