@@ -1,0 +1,115 @@
+T0.0002215830609202385 now: 2025-08-23T12:22:06UTC
+TD48 site: squareword.org
+TDD3065636 🧩  ? #1300
+TDD-3065503 puzzle_id: #1300
+TDD-156 wordlist: nwl2023.txt
+TDD3184894 > *
+TDD-1087883 try? 2
+TDD-2096766 questioning: ["arose", "#5"]
+TDD5515605 #1 _____  📋 "arose" ? __O__ ~ S
+TDD-5515279 attempt 0 AROSE n n Y m n
+TDD2444346 #2 _____  📋 "arose" ? _____ ~ A
+TDD-2444767 attempt 1 AROSE m n n n n
+TDD2696713 #3 _____  📋 "arose" ? ____E
+TDD-2696573 attempt 2 AROSE n n n n Y
+TDD2123672 #4 _____  📋 "arose" ? _____ ~ A
+TDD-2123726 attempt 3 AROSE m n n n n
+TDD3262118 #5 _____  📋 "arose" ? _____ ~ SE
+TDD-3262104 attempt 4 AROSE n n n m m
+TDD534159 ? 
+TDD-534273 question done
+TDD1734636 > *
+TDD1708736 try? 2
+TDD-3443357 questioning: ["imbue", "#3"]
+TDD6440666 #1 __O__ ~S -AER  📋 "imbue" ? .
+TDD-6440668 attempt 0 IMBUE n n n n n
+TDD3482379 #2 _____ ~A -EORS  📋 "imbue" ? _____ ~ AIM
+TDD-3482340 attempt 1 IMBUE m m n n n
+TDD3204091 #3 ____E -AORS  📋 "imbue" ? ____E ~ IU
+TDD-3204140 attempt 2 IMBUE m n n m Y
+TDD2781950 #4 _____ ~A -EORS  📋 "imbue" ? _____ ~ AI
+TDD-2781928 attempt 3 IMBUE m n n n n
+TDD2797164 #5 _____ ~ES -AOR  📋 "imbue" ? .
+TDD-2797191 attempt 4 IMBUE n n n n m
+TDD698187 ? 
+TDD-698228 question done
+TDD570038 > *
+TDD1777560 try? 1
+TDD-2347547 questioning: ["untie", "#3"]
+TDD7564867 #1 __O__ ~S -ABEIMRU  📋 "untie" ? __O__ ~ ST
+TDD-7564861 attempt 0 UNTIE n n m n n
+TDD2817102 #2 _____ ~AIM -BEORSU  📋 "untie" ? ___I_ ~ AM
+TDD-2817108 attempt 1 UNTIE n n n Y n
+TDD3324878 #3 ____E ~IU -ABMORS  📋 "untie" ? UN__E ~ IT
+TDD-3324842 attempt 2 UNTIE Y Y m m Y
+TDD3849688 #4 _____ ~AI -BEMORSU  📋 "untie" ? _____ ~ AIT
+TDD-3849722 attempt 3 UNTIE n n m m n
+TDD3410032 #5 _____ ~ES -ABIMORU  📋 "untie" ? _____ ~ SENT
+TDD-3410041 attempt 4 UNTIE n m m n m
+TDD329141 ? 
+TDD-329179 question done
+TDD602414 > *
+TDD249146 questioning: ["unite", "#3"]
+TDD9083150 #1 __O__ ~ST -ABEIMNRU  📋 "unite" ? __OT_ ~ S
+TDD-9934662 attempt 0 UNITE n n n Y n
+TDD2463429 #2 ___I_ ~AM -BENORSTU  📋 "unite" ? .
+TDD-2463423 attempt 1 UNITE n n n n n
+TDD1035003 #3 UN__E ~IT -ABMORS  📋 "unite" ? /it
+TDD-1035045 attempt 2 UNITE Y Y Y Y Y
+TDD3254270 #4 _____ ~AIT -BEMNORSU  📋 "unite" ? .
+TDD-3254204 attempt 3 UNITE n n m m n
+TDD929700 #5 _____ ~ENST -ABIMORU  📋 "unite" ? .
+TDD-929760 attempt 4 UNITE n m n m m
+TDD709248 ? 
+TDD-709283 question done
+TDD750388 > *
+TDD1955464 try? 2
+TDD-2705791 questioning: ["tidal", "#4"]
+TDD6003922 #1 __OT_ ~S -ABEIMNRU  📋 "tidal" ? .
+TDD-6003919 attempt 0 TIDAL n n n n n
+TDD1332438 #2 ___I_ ~AM -BEINORSTU  📋 "tidal" ? .
+TDD-1332450 attempt 1 TIDAL n n n m n
+TDD1360055 #4 _____ ~AIT -BEMNORSU  📋 "tidal" ? /it
+TDD-1360077 attempt 3 TIDAL Y Y Y Y Y
+TDD2192505 #5 _____ ~ENST -ABIMORU  📋 "tidal" ? .
+TDD-2192468 attempt 4 TIDAL m n n n n
+TDD391892 ? 
+TDD-391969 question done
+TDD1995818 > *
+TDD-36192 questioning: ["maxim", "#2"]
+TDD4954162 #1 __OT_ ~S -ABDEILMNRTU  📋 "maxim" ? .
+TDD-6913737 attempt 0 MAXIM n n n n n
+TDD1776247 #2 ___I_ ~AM -BDEILNORSTU  📋 "maxim" ? /it
+TDD-1776203 attempt 1 MAXIM Y Y Y Y Y
+TDD2286858 #5 _____ ~ENST -ABDILMORU  📋 "maxim" ? .
+TDD-2286895 attempt 4 MAXIM n n n n n
+TDD2679981 ? 
+TDD-2680034 question done
+TDD5900249 > *
+TDD-4386221 questioning: ["scent", "#5"]
+TDD4939049 #1 __OT_ ~S -ABDEILMNRTUX  📋 "scent" ? S_OT_ ~ S
+TDD-6452975 attempt 0 SCENT Y n n n n
+TDD1793211 #5 _____ ~ENST -ABDILMORUX  📋 "scent" ? /it
+TDD-1793264 attempt 4 SCENT Y Y Y Y Y
+TDD806487 ? 
+TDD-806525 question done
+TDD607334 > *
+TDD350478 questioning: ["spots", "#1"]
+TDD1994553 #1 S_OT_ -ABCDEILMNRTUX  📋 "spots" ? /it
+TDD-2952322 attempt 0 SPOTS Y Y Y Y Y
+TDD2081392 ? 
+TDD-2081433 question done
+TDD45024877 Press <Enter> to 📋 or `>` for line prompt >
+TDD-38332214 > squareword.org 1300: 8 guesses
+TDD-6692688 > 
+TDD-64 > 🟨🟨🟩🟩🟨
+TDD-3 > 🟨🟨🟨🟩🟨
+TDD-2 > 🟩🟩🟩🟩🟩
+TDD-1 > 🟩🟩🟩🟩🟩
+TDD0 > 🟨🟨🟨🟨🟨
+TDD0 > 
+TDD0 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD630785 > #squareword #squareword1300
+TDD-47209 > ␚
+TDD-583102 result: "squareword.org 1300: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1300"
+TDD751982 📆 2025-08-23 ? 
