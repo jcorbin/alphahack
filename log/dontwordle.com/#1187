@@ -1,0 +1,57 @@
+T0.0002187732607126236 now: 2025-08-23T12:34:48UTC
+TD43 site: dontwordle.com
+TDD-13 wordlist: nwl2023.txt
+TDD9772359 1> * -bot 10
+TDD-7059378 ? 1
+TDD2669717 📋 "tesla" ? nnnnn
+TDD-5382407 tried: TESLA n n n n n
+TDD1685948 2> * -bot 10
+TDD2007364 ? 1
+TDD1306994 📋 "mincy" ? nnYnY
+TDD-5000484 tried: MINCY n n Y n Y
+TDD775166 3> undo
+TDD-775213 undo
+TDD672183 2> undo
+TDD-672196 undo
+TDD12794197 1> *
+TDD-10138987 ? 1
+TDD1737462 📋 "kappa" ? nnnnn
+TDD-4392657 tried: KAPPA n n n n n
+TDD1390040 2> *
+TDD1810461 ? 2
+TDD2652851 📋 "queue" ? nYnnn
+TDD-5853346 tried: QUEUE n Y n n n
+TDD1462892 3> *
+TDD3898895 ? 8
+TDD128410 📋 "suits" ? nYnnn
+TDD-5490196 tried: SUITS n Y n n n
+TDD1133101 4> *
+TDD1189387 ? 2
+TDD2350737 📋 "rumor" ? nYnnn
+TDD-4673235 tried: RUMOR n Y n n n
+TDD991882 5> *
+TDD1329674 ? 2
+TDD2519407 📋 "gulch" ? nYnnn
+TDD-4840950 tried: GULCH n Y n n n
+TDD820870 6> *
+TDD422456 6> * -sans
+TDD769341 ? 1
+TDD4375774 📋 "fuddy" ? nYnnY
+TDD-6388433 tried: FUDDY n Y n n Y
+TDD1708157 Press <Enter> to 📋 or `>` for line prompt >
+TDD748747 > Don't Wordle 1187 - SURVIVED
+TDD-2456945 > Hooray! I didn't Wordle today!
+TDD-59 > ⬜⬜⬜⬜⬜5707
+TDD0 > ⬜🟩⬜⬜⬜431
+TDD-3 > ⬜🟩⬜⬜⬜133
+TDD-1 > ⬜🟩⬜⬜⬜57
+TDD0 > ⬜🟩⬜⬜⬜19
+TDD0 > ⬜🟩⬜⬜🟩6
+TDD0 > Undos used: 2
+TDD0 > 
+TDD0 >   6 words remaining
+TDD0 > x 7 unused letters
+TDD298709 > = 42 total score
+TDD124879 > ␚
+TDD-422759 result: "Don't Wordle 1187 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5707\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c431\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c133\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c57\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c19\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe96\nUndos used: 2\n\n  6 words remaining\nx 7 unused letters\n= 42 total score"
+TDD503829 📆 2025-08-23 ? 
