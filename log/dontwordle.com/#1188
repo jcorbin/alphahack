@@ -1,0 +1,69 @@
+T0.0001942422240972519 now: 2025-08-24T12:28:06UTC
+TD38 site: dontwordle.com
+TDD-13 wordlist: nwl2023.txt
+TDD13963188 1> * -bot 10
+TDD-12182130 ? 1
+TDD3056349 📋 "arose" ? MnnMY
+TDD-4837128 tried: AROSE m n n m Y
+TDD1439342 2> undo
+TDD-1439537 undo
+TDD5210463 1> *
+TDD-3471805 ? 1
+TDD3941027 📋 "tooth" ? nnnnM
+TDD-5679660 tried: TOOTH n n n n m
+TDD3277156 2> undo
+TDD-3277195 undo
+TDD890439 1> *
+TDD410897 ? 1
+TDD6357134 📋 "kooky" ? nnnnn
+TDD-7658444 tried: KOOKY n n n n n
+TDD943726 2> *
+TDD1546179 ? 1
+TDD789952 📋 "civic" ? nnnnn
+TDD-3279837 tried: CIVIC n n n n n
+TDD1103684 3> *
+TDD636303 ? 1
+TDD2527746 📋 "bluff" ? nnnnn
+TDD-4267773 tried: BLUFF n n n n n
+TDD964156 4> *
+TDD4108540 4> * -sans :v [aeh]
+TDD-996906 4> * -sans :v [aes]
+TDD4639944 📋 "phpht" ? MYnnn
+TDD-8715714 tried: PHPHT m Y n n n
+TDD1344061 5> * -sans
+TDD8427584 ? 1
+TDD-3543786 📋 "wheep" ? nYMnM
+TDD-6227849 tried: WHEEP n Y m n m
+TDD5635700 6> undo
+TDD-5635727 undo
+TDD719783 5> undo
+TDD-719804 undo
+TDD5703608 4> * -sans :v [ehps]
+TDD-2059070 ? 1
+TDD2555211 📋 "addax" ? Mnnnn
+TDD-6199708 tried: ADDAX m n n n n
+TDD47518249 5> * -sans
+TDD-45242559 ? 1
+TDD2018108 📋 "swans" ? YnYnn
+TDD-4293803 tried: SWANS Y n Y n n
+TDD1251678 6> * -sans
+TDD2572255 ? 1
+TDD2256065 📋 "state" ? YnYnY
+TDD-6079989 tried: STATE Y n Y n Y
+TDD2250397 Press <Enter> to 📋 or `>` for line prompt >
+TDD1117631 > Don't Wordle 1188 - SURVIVED
+TDD-3368063 > Hooray! I didn't Wordle today!
+TDD-74 > ⬜⬜⬜⬜⬜6657
+TDD-4 > ⬜⬜⬜⬜⬜3436
+TDD0 > ⬜⬜⬜⬜⬜1398
+TDD14 > 🟨⬜⬜⬜⬜464
+TDD-15 > 🟩⬜🟩⬜⬜22
+TDD-1 > 🟩⬜🟩⬜🟩8
+TDD0 > Undos used: 4
+TDD0 > 
+TDD0 >   8 words remaining
+TDD0 > x 8 unused letters
+TDD639622 > = 64 total score
+TDD-95855 > ␚
+TDD-542951 result: "Don't Wordle 1188 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6657\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3436\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1398\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c464\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c22\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe98\nUndos used: 4\n\n  8 words remaining\nx 8 unused letters\n= 64 total score"
+TDD1750429 📆 2025-08-24 ? 
