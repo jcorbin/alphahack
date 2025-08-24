@@ -1,0 +1,86 @@
+T0.0001902226358652115 now: 2025-08-24T12:20:30UTC
+TD37 site: squareword.org
+TDD9220935 🧩  ? #1301
+TDD-9220775 puzzle_id: #1301
+TDD-172 wordlist: nwl2023.txt
+TDD1315975 > *
+TDD280562 try? 1
+TDD-1596276 questioning: ["arose", "#5"]
+TDD6079293 #1 _____  📋 "arose" ? _____ ~ A
+TDD-6079178 attempt 0 AROSE m n n n n
+TDD3439168 #2 _____  📋 "arose" ? _____ ~ AE
+TDD-3439389 attempt 1 AROSE m n n n m
+TDD3311480 #3 _____  📋 "arose" ? A____ ~ E
+TDD-3311487 attempt 2 AROSE Y n n n m
+TDD2668802 #4 _____  📋 "arose" ? __O__ ~ AR
+TDD-2668787 attempt 3 AROSE m m Y n n
+TDD2407311 #5 _____  📋 "arose" ? _____ ~ OS
+TDD-2407345 attempt 4 AROSE n n m m n
+TDD859689 ? 
+TDD-859729 question done
+TDD1643934 > *
+TDD5071996 try? 3
+TDD-6715847 questioning: ["flora", "#4"]
+TDD5040335 #1 _____ ~A -EORS  📋 "flora" ? .
+TDD-5040367 attempt 0 FLORA n n n n m
+TDD7847698 #2 _____ ~AE -ORS  📋 "flora" ? ____A ~ E
+TDD-7847683 attempt 1 FLORA n n n n Y
+TDD5057240 #3 A____ ~E -ORS  📋 "flora" ? AL___ ~ E
+TDD-5057240 attempt 2 FLORA n Y n n n
+TDD3540883 #4 __O__ ~AR -ES  📋 "flora" ? /it
+TDD-3540903 attempt 3 FLORA Y Y Y Y Y
+TDD4980849 #5 _____ ~OS -AER  📋 "flora" ? f____ ~ OS
+TDD-4980839 attempt 4 FLORA Y n m n n
+TDD890469 ? 
+TDD-890530 question done
+TDD623772 > *
+TDD5790562 try? 3
+TDD-6414276 questioning: ["alien", "#3"]
+TDD6426319 #1 _____ ~A -EFLORS  📋 "alien" ? ____N ~ AI
+TDD-6426315 attempt 0 ALIEN m n m n Y
+TDD4004969 #2 ____A ~E -FLORS  📋 "alien" ? ____A ~ EN
+TDD-4004960 attempt 1 ALIEN n n n m m
+TDD954473 #3 AL___ ~E -AFORS  📋 "alien" ? /it
+TDD-954498 attempt 2 ALIEN Y Y Y Y Y
+TDD4019036 #5 F____ ~OS -AELR  📋 "alien" ? F____ ~ OSN
+TDD-4019015 attempt 4 ALIEN n n n n m
+TDD531576 ? 
+TDD-531646 question done
+TDD751843 > *
+TDD-284214 questioning: ["chain", "#1"]
+TDD3200463 #1 ____N ~AI -EFLORS  📋 "chain" ? /it
+TDD-3668043 attempt 0 CHAIN Y Y Y Y Y
+TDD4543943 #2 ____A ~EN -AFILORS  📋 "chain" ? ____A ~ ENH
+TDD-4543924 attempt 1 CHAIN n m n n m
+TDD2239104 #5 F____ ~NOS -AEILR  📋 "chain" ? .
+TDD-2239136 attempt 4 CHAIN n n n n m
+TDD600146 ? 
+TDD-600183 question done
+TDD656916 > *
+TDD149777 questioning: ["henna", "#2"]
+TDD2718221 #2 ____A ~EHN -ACFILORS  📋 "henna" ? /it
+TDD-3524871 attempt 1 HENNA Y Y Y Y Y
+TDD4259837 #5 F____ ~NOS -ACEHILR  📋 "henna" ? F_N__ ~ OS
+TDD-4259823 attempt 4 HENNA n n Y n n
+TDD595464 ? 
+TDD-595528 question done
+TDD696016 > *
+TDD24151 questioning: ["fonts", "#5"]
+TDD5443297 #5 F_N__ ~OS -ACEHILR  📋 "fonts" ? /it
+TDD-6163416 attempt 4 FONTS Y Y Y Y Y
+TDD2135612 ? 
+TDD-2135649 question done
+TDD1743776 Press <Enter> to 📋 or `>` for line prompt >
+TDD2408237 > squareword.org 1301: 6 guesses
+TDD-4152045 > 
+TDD-57 > 🟩🟩🟩🟩🟩
+TDD-3 > 🟩🟩🟩🟩🟩
+TDD-1 > 🟩🟩🟩🟩🟩
+TDD-1 > 🟩🟩🟩🟩🟩
+TDD1 > 🟩🟨🟩🟨🟨
+TDD-2 > 
+TDD1 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD567378 > #squareword #squareword1301
+TDD24989 > ␚
+TDD-591923 result: "squareword.org 1301: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1301"
+TDD818874 📆 2025-08-24 ? 
