@@ -4,6 +4,7 @@
 - 🔗 alfagok.diginaut.net 🧩 #296 🥳 18 ⏱️ 0:00:53.629188
 - 🔗 alphaguess.com 🧩 #762 🥳 15 ⏱️ 0:00:38.896821
 - 🔗 squareword.org 🧩 #1302 🥳 9 ⏱️ 0:03:50.485386
+- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1332 🥳 18 ⏱️ 0:03:43.875741
 
 ```ex
 '<,'>norm ^f dt f🧩2f dt 0f P
@@ -103,3 +104,32 @@ Solution:
     L O W E R
     I N A N E
     T E N D S
+
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1332 🥳 18 ⏱️ 0:03:43.875741
+
+📜 1 sessions
+💰 score: 9800
+
+    4/6
+    LEAST ⬜⬜🟨⬜🟨
+    PATCH ⬜🟩🟨⬜⬜
+    TANGY 🟩🟩🟩🟩⬜
+    TANGO 🟩🟩🟩🟩🟩
+    4/6
+    TANGO 🟩⬜⬜⬜⬜
+    TRICK 🟩⬜🟨⬜⬜
+    TULIP 🟩⬜⬜🟩⬜
+    TIMID 🟩🟩🟩🟩🟩
+    4/6
+    TIMID ⬜⬜⬜⬜⬜
+    RESAY ⬜🟨⬜🟨⬜
+    PLANE ⬜🟩🟨🟩🟩
+    ALONE 🟩🟩🟩🟩🟩
+    5/6
+    ALONE ⬜⬜⬜⬜⬜
+    CRUST ⬜🟨⬜⬜🟨
+    THIRD 🟨🟨🟨🟨⬜
+    MIRTH ⬜🟩🟩🟩🟩
+    BIRTH 🟩🟩🟩🟩🟩
+    Final 1/2
+    TRUCE 🟩🟩🟩🟩🟩
