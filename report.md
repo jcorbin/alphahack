@@ -6,6 +6,7 @@
 - 🔗 squareword.org 🧩 #1302 🥳 9 ⏱️ 0:03:50.485386
 - 🔗 dictionary.com hurdle 🧩 #1332 🥳 18 ⏱️ 0:03:43.875741
 - 🔗 dontwordle.com 🧩 #1189 🥳 6 ⏱️ 0:02:15.940969
+- 🔗 cemantix.certitudes.org 🧩 #1272 🥳 12 ⏱️ 0:00:11.568642
 
 ```ex
 '<,'>norm ^f dt f🧩2f dt 0f P
@@ -155,3 +156,26 @@ SURVIVED
       1 words remaining
     x 7 unused letters
     = 7 total score
+
+# cemantix.certitudes.org 🧩 #1272 🥳 12 ⏱️ 0:00:11.568642
+
+🤔 13 attempts
+📜 1 sessions
+🫧 2 chat sessions
+⁉️ 2 chat prompts
+🤖 2 gemma3:12b replies
+🔥 1 😎 1 🥶 6 🧊 4
+
+     $1 #13  ~1 salut       100.00°C 🥳 1000‰
+     $2  #2  ~3 bonjour      60.42°C 🔥  998‰
+     $3 #11  ~2 cher         24.96°C 😎  605‰
+     $4  #8     poème        17.72°C 🥶
+     $5 #10     étoile       12.13°C 🥶
+     $6 #12     revoir       11.93°C 🥶
+     $7  #3     chien        10.24°C 🥶
+     $8  #6     lumière       5.31°C 🥶
+     $9  #7     parapluie     0.38°C 🥶
+    $10  #5     jardin       -0.62°C 🧊
+    $11  #4     fenêtre      -2.67°C 🧊
+    $12  #1     bicyclette   -5.35°C 🧊
+    $13  #9     tableau     -11.00°C 🧊
