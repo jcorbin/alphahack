@@ -1,0 +1,105 @@
+T0.00018959306180477142 now: 2025-08-25T12:18:02UTC
+TD37 site: https://play.dictionary.com/games/todays-hurdle
+TDD-11 wordlist: nwl2023.txt
+TDD22113151 1.1> *
+TDD-17031611 1.1 ? 10
+TDD2670167 1.1 📋 "least" ? nnMnM
+TDD-7751428 tried: LEAST n n m n m
+TDD791190 1.2> *
+TDD6101298 1.2 ? 10
+TDD-1767244 1.2 📋 "patch" ? nYMnn
+TDD-5125429 tried: PATCH n Y m n n
+TDD911731 1.3> *
+TDD3066591 1.3 ? 3
+TDD2595864 1.3 📋 "tangy" ? YYYYn
+TDD-6574180 tried: TANGY Y Y Y Y n
+TDD747865 1.4> *
+TDD1186818 1.4 ? 1
+TDD1675734 1.4 📋 "tango" ? it
+TDD-3610432 tried: TANGO Y Y Y Y Y
+TDD20410834 2.1 📋 "tango" ? Ynnnn
+TDD-20410827 tried: TANGO Y n n n n
+TDD1274443 2.2> *
+TDD2842886 2.2 ? 4
+TDD474540 2.2 📋 "trick" ? YnMnn
+TDD-4591866 tried: TRICK Y n m n n
+TDD586528 2.3> *
+TDD3909309 2.3 ? 6
+TDD1999747 2.3 📋 "tulip" ? YnnYn
+TDD-6495600 tried: TULIP Y n n Y n
+TDD1082534 2.4> *
+TDD1408134 2.4 ? 1
+TDD1529328 2.4 📋 "timid" ? it
+TDD-4019997 tried: TIMID Y Y Y Y Y
+TDD12567464 3.1 📋 "timid" ? nnnnn
+TDD-12567454 tried: TIMID n n n n n
+TDD647792 3.2> *
+TDD2171451 3.2 ? 1
+TDD2498100 3.2 📋 "resay" ? nMnMn
+TDD-5317336 tried: RESAY n m n m n
+TDD570659 3.3> *
+TDD770092 3.3 ? 1
+TDD5423432 3.3 📋 "plane" ? nYMYY
+TDD-6764191 tried: PLANE n Y m Y Y
+TDD795741 3.4> *
+TDD3972457 3.4 📋 "alone" ? it
+TDD-4768206 tried: ALONE Y Y Y Y Y
+TDD6811233 4.1 📋 "alone" ? nnnnn
+TDD-6811244 tried: ALONE n n n n n
+TDD728277 4.2> *
+TDD1028918 4.2 ? 1
+TDD2738423 4.2 📋 "crust" ? nMnnM
+TDD-4495603 tried: CRUST n m n n m
+TDD1183983 4.3> *
+TDD159787 4.3 ? 1
+TDD4058693 4.3 📋 "third" ? MMMMn
+TDD-5402464 tried: THIRD m m m m n
+TDD581166 4.4> *
+TDD5231723 4.4 ? 1
+TDD-1741257 4.4 📋 "mirth" ? nYYYY
+TDD-4071633 tried: MIRTH n Y Y Y Y
+TDD539840 4.5> *
+TDD1796051 4.5 ? 1
+TDD1128130 4.5 📋 "birth" ? it
+TDD-3464044 tried: BIRTH Y Y Y Y Y
+TDD10196482 5.1 📋 "tango" ? Ynnnn
+TDD-10196465 tried: TANGO Y n n n n
+TDD2783918 5.2 📋 "timid" ? Ynnnn
+TDD-2783908 tried: TIMID Y n n n n
+TDD2394598 5.3 📋 "alone" ? nnnnY
+TDD-2394599 tried: ALONE n n n n Y
+TDD2284325 5.4 📋 "birth" ? nnMMn
+TDD-2284308 tried: BIRTH n n m m n
+TDD2203359 5.5> *
+TDD5200688 5.5 📋 "truce" ? it
+TDD-7404073 tried: TRUCE Y Y Y Y Y
+TDD1391722 Press <Enter> to 📋 or `>` for line prompt >
+TDD2375458 > Hurdle 1332
+TDD-3767211 > 
+TDD-59 > 4/6
+TDD-1 > ⬜⬜🟨⬜🟨
+TDD-1 > ⬜🟩🟨⬜⬜
+TDD0 > 🟩🟩🟩🟩⬜
+TDD0 > 🟩🟩🟩🟩🟩
+TDD-2 > 4/6
+TDD0 > 🟩⬜⬜⬜⬜
+TDD0 > 🟩⬜🟨⬜⬜
+TDD0 > 🟩⬜⬜🟩⬜
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > 4/6
+TDD1 > ⬜⬜⬜⬜⬜
+TDD14 > ⬜🟨⬜🟨⬜
+TDD-13 > ⬜🟩🟨🟩🟩
+TDD-1 > 🟩🟩🟩🟩🟩
+TDD0 > 5/6
+TDD0 > ⬜⬜⬜⬜⬜
+TDD0 > ⬜🟨⬜⬜🟨
+TDD0 > 🟨🟨🟨🟨⬜
+TDD0 > ⬜🟩🟩🟩🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > Final 1/2
+TDD0 > 🟩🟩🟩🟩🟩
+TDD875445 > score: 9,800
+TDD-311490 > ␚
+TDD-563518 result: "Hurdle 1332\n\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,800"
+TDD803037 📆 2025-08-25 ? 
