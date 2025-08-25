@@ -13,7 +13,16 @@
 '<,'>norm ^f dt f🧩2f dt 0f P
 ```
 
-Details spoilers:
+- 🏁 spaceword.org 🧩 2025-08-24 score 2173 ranked 6.2% 26/422 ⏱️ 2:45:26.404004
+- 🥳 alfagok.diginaut.net 🧩 #296 18 ⏱️ 0:00:53.629188
+- 🥳 alphaguess.com 🧩 #762 15 ⏱️ 0:00:38.896821
+- 🥳 squareword.org 🧩 #1302 9 ⏱️ 0:03:50.485386
+- 🥳 dictionary.com hurdle 🧩 #1332 18 ⏱️ 0:03:43.875741
+- 🥳 dontwordle.com 🧩 #1189 6 ⏱️ 0:02:15.940969
+- 🥳 cemantix.certitudes.org 🧩 #1272 12 ⏱️ 0:00:11.568642
+- 🥳 cemantle.certitudes.org 🧩 #1239 163 ⏱️ 0:29:35.938014
+
+Details spoilers: https://matrix.to/#/!AkdGQweeqaUUXrVkrk:aelf.land/$H0yb97nR4hMnXG9CCETvZKUDH7YSua6OBVRT0EY2yYU?via=aelf.land&via=matrix.org
 
 # spaceword.org 🧩 2025-08-24 🏁 score 2173 ranked 6.2% 26/422 ⏱️ 2:45:26.404004
 
