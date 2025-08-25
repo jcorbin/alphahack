@@ -1,0 +1,134 @@
+T0.00019591301679611206 now: 2025-08-25T12:12:53UTC
+TD39 site: squareword.org
+TDD10104773 🧩  ? #1302
+TDD-10104609 puzzle_id: #1302
+TDD-179 wordlist: nwl2023.txt
+TDD5535586 > *
+TDD1061838 try? 2
+TDD-6597171 questioning: ["asker", "#5"]
+TDD6175274 #1 _____  📋 "asker" ? ____ ~ ASR
+T0.0014173099771142006 now: 2025-08-25T12:13:43UTC
+TD57 questioning: ["asker", "#5"]
+TDD4559656 #1 _____  📋 "asker" ? _____ ~ ASR
+TDD-4559273 attempt 0 ASKER m m n n m
+TDD3483282 #2 _____  📋 "asker" ? _____ ~ R
+TDD-3483543 attempt 1 ASKER n n n n m
+TDD3555687 #3 _____  📋 "asker" ? ___ER
+TDD-3555717 attempt 2 ASKER n n n Y Y
+TDD3062676 #4 _____  📋 "asker" ? _____ ~ AE
+TDD-3062673 attempt 3 ASKER m n n m n
+TDD3107439 #5 _____  📋 "asker" ? _____ ~ SE
+TDD-3107434 attempt 4 ASKER n m n m n
+TDD599658 ? 
+TDD-599672 question done
+TDD1279738 > *
+TDD4280287 try? 3
+TDD-5559978 questioning: ["other", "#3"]
+TDD8663259 #1 _____ ~ARS -EK  📋 "other" ? .
+TDD-8663301 attempt 0 OTHER n n n n m
+TDD3931652 #2 _____ ~R -AEKS  📋 "other" ? _____ ~ RO
+TDD-3931641 attempt 1 OTHER m n n n m
+TDD2859650 #3 ___ER -AKS  📋 "other" ? ___ER ~ O
+TDD-2859659 attempt 2 OTHER m n n Y Y
+TDD1323544 #4 _____ ~AE -KRS  📋 "other" ? .
+TDD-1323554 attempt 3 OTHER n n n m n
+TDD13848565 #5 _____ ~ES -AKR  📋 "other" ? _____ ~ SET
+TDD-13848549 attempt 4 OTHER n m n m n
+TDD2704173 ? 
+TDD-2704224 question done
+TDD1251556 > *
+TDD1504311 try? 1
+TDD-2755833 questioning: ["mover", "#3"]
+TDD4715646 #1 _____ ~ARS -EHKOT  📋 "mover" ? .
+TDD-4715638 attempt 0 MOVER n n n n m
+TDD2575966 #2 _____ ~OR -AEHKST  📋 "mover" ? _____ ~ ROM
+TDD-2575931 attempt 1 MOVER m m n n m
+TDD2715497 #3 ___ER ~O -AHKST  📋 "mover" ? _O_ER
+TDD-2715539 attempt 2 MOVER n Y n Y Y
+TDD1482638 #4 _____ ~AE -HKORST  📋 "mover" ? .
+TDD-1482635 attempt 3 MOVER n n n m n
+TDD627532 #5 _____ ~EST -AHKOR  📋 "mover" ? .
+TDD-627543 attempt 4 MOVER n n n m n
+TDD355837 ? 
+TDD-355883 question done
+TDD699963 > *
+TDD5567918 try? 2
+TDD-6267811 questioning: ["primo", "#2"]
+TDD7303182 #1 _____ ~ARS -EHKMOTV  📋 "primo" ? _____ ~ ASRP
+TDD-7303175 attempt 0 PRIMO m m n n n
+TDD3260146 #2 _____ ~MOR -AEHKSTV  📋 "primo" ? PR_MO ~ O
+TDD-3260148 attempt 1 PRIMO Y Y n Y Y
+TDD2119134 #3 _O_ER -AHKMSTV  📋 "primo" ? .
+TDD-2119161 attempt 2 PRIMO n n n n n
+TDD3135665 #4 _____ ~AE -HKMORSTV  📋 "primo" ? _____ ~ AEI
+TDD-3135649 attempt 3 PRIMO n n m n n
+TDD1855843 #5 _____ ~EST -AHKMORV  📋 "primo" ? .
+TDD-1855862 attempt 4 PRIMO n n n n n
+TDD695557 ? 
+TDD-695584 question done
+TDD2695945 > *
+TDD-1441359 questioning: ["promo", "#2"]
+TDD4624806 #1 _____ ~APRS -EHIKMOTV  📋 "promo" ? .
+TDD-5879363 attempt 0 PROMO m m n n n
+TDD1631925 #2 PR_MO -AEHIKSTV  📋 "promo" ? /it
+TDD-1631933 attempt 1 PROMO Y Y Y Y Y
+TDD1709090 #3 _O_ER -AHIKMOPRSTV  📋 "promo" ? .
+TDD-1709084 attempt 2 PROMO n n n n n
+TDD1704980 #4 _____ ~AEI -HKMOPRSTV  📋 "promo" ? .
+TDD-1704989 attempt 3 PROMO n n n n n
+TDD753047 #5 _____ ~EST -AHIKMOPRV  📋 "promo" ? .
+TDD-753033 attempt 4 PROMO n n n n n
+TDD711789 ? 
+TDD-711835 question done
+TDD858246 > *
+TDD6356420 try? 1
+TDD-7214602 questioning: ["scrap", "#1"]
+TDD935811 #1 _____ ~APRS -EHIKMOTV  📋 "scrap" ? /it
+TDD-935817 attempt 0 SCRAP Y Y Y Y Y
+TDD2923507 #3 _O_ER -AHIKMOPRSTV  📋 "scrap" ? .
+TDD-2923526 attempt 2 SCRAP n n n n n
+TDD6639844 #4 _____ ~AEI -HKMOPRSTV  📋 "scrap" ? .
+TDD-6639825 attempt 3 SCRAP n n n m n
+TDD1370472 #5 _____ ~EST -AHIKMOPRV  📋 "scrap" ? .
+TDD-1370482 attempt 4 SCRAP m n n n n
+TDD733201 ? 
+TDD-733246 question done
+TDD1284938 > *
+TDD565622 questioning: ["inane", "#4"]
+TDD20799120 #3 _O_ER -ACHIKMOPRSTV  📋 "inane" ? .
+TDD-22649640 attempt 2 INANE n n n n n
+TDD1815018 #4 _____ ~AEI -CHKMOPRSTV  📋 "inane" ? /it
+TDD-1815031 attempt 3 INANE Y Y Y Y Y
+TDD3543752 #5 _____ ~EST -ACHIKMOPRV  📋 "inane" ? _____ ~ SETN
+TDD-3543721 attempt 4 INANE n m n m m
+TDD835714 ? 
+TDD-835765 question done
+TDD11359570 > *
+TDD-10042769 questioning: ["lower", "#3"]
+TDD3458004 #3 _O_ER -ACEHIKMNOPRSTV  📋 "lower" ? /it
+TDD-4774784 attempt 2 LOWER Y Y Y Y Y
+TDD2623836 #5 _____ ~ENST -ACHIKMOPRV  📋 "lower" ? .
+TDD-2623785 attempt 4 LOWER n n n m n
+TDD267678 ? 
+TDD-267764 question done
+TDD859744 > *
+TDD2347897 try? 1
+TDD-3207593 questioning: ["tends", "#5"]
+TDD4155902 #5 _____ ~ENST -ACHIKLMOPRVW  📋 "tends" ? /it
+TDD-4155904 attempt 4 TENDS Y Y Y Y Y
+TDD831536 ? 
+TDD-831590 question done
+TDD1691780 Press <Enter> to 📋 or `>` for line prompt >
+TDD3828472 > squareword.org 1302: 9 guesses
+TDD-5520255 > 
+TDD-57 > 🟩🟩🟩🟩🟩
+TDD-6 > 🟩🟩🟨🟩🟩
+TDD13 > 🟨🟩🟨🟩🟩
+TDD-1 > 🟨🟨🟨🟨🟨
+TDD-13 > 🟨🟨🟨🟨🟨
+TDD-1 > 
+TDD0 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD423380 > #squareword #squareword1302
+TDD556552 > ␚
+TDD-979494 result: "squareword.org 1302: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1302"
+TDD863009 📆 2025-08-25 ? 
