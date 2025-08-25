@@ -3,6 +3,7 @@
 - 🔗 spaceword.org 🧩 2025-08-24 🏁 score 2173 ranked 6.2% 26/422 ⏱️ 2:45:26.404004
 - 🔗 alfagok.diginaut.net 🧩 #296 🥳 18 ⏱️ 0:00:53.629188
 - 🔗 alphaguess.com 🧩 #762 🥳 15 ⏱️ 0:00:38.896821
+- 🔗 squareword.org 🧩 #1302 🥳 9 ⏱️ 0:03:50.485386
 
 ```ex
 '<,'>norm ^f dt f🧩2f dt 0f P
@@ -81,3 +82,24 @@ Details spoilers:
     @+23694 [23694] camp   q2  ? before
     @+47394 [47394] dis    q1  ? before
     @+98233 [98233] mach   q0  ? before
+
+# squareword.org 🧩 #1302 🥳 9 ⏱️ 0:03:50.485386
+
+📜 2 sessions
+
+Guesses:
+
+Score Heatmap:
+    🟩 🟩 🟩 🟩 🟩
+    🟩 🟩 🟨 🟩 🟩
+    🟨 🟩 🟨 🟩 🟩
+    🟨 🟨 🟨 🟨 🟨
+    🟨 🟨 🟨 🟨 🟨
+    🟩:<6 🟨:<11 🟧:<16 🟥:16+
+
+Solution:
+    S C R A P
+    P R O M O
+    L O W E R
+    I N A N E
+    T E N D S
