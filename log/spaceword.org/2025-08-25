@@ -17907,3 +17907,19 @@ TDD861486622 search 462d26 [ 2400 cap:2400 prune:481 reject:240 dead:177 ]> ␚
 TDD-791060425 [doit:2165]> /res
 TDD-69567338 Press <Enter> to 📋 or `>` for line prompt ✨ Spaceword.org Daily 2025-08-25 ✨
 TDD-840310 [doit:2165]> 
+T3.117021626792848 now: 2025-08-25T13:37:54UTC
+TD3667231 [doit:2165]> /res
+TDD-2651366 Press <Enter> to 📋 or `>` for line prompt >
+TDD-55785 > ✨ Spaceword.org Daily 2025-08-25 ✨
+TDD-959996 > 
+TDD-58 > 🏆 Score: 2165
+TDD-4 > 🏅 Rank: 111/223 🎈
+TDD0 > 🧩 Tiles: 21/21 ✅
+TDD-1 > 📏 Space Bonus: +65
+TDD-1 > 
+TDD0 > 
+TDD0 > Play at https://spaceword.org
+TDD1231538 > #spaceword
+TDD-319542 > ␚
+TDD-911246 result: "\u2728 Spaceword.org Daily 2025-08-25 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 111/223 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD4178202 [prior:2165]> /store
