@@ -4,7 +4,8 @@
 - 🔗 alfagok.diginaut.net 🧩 #296 🥳 18 ⏱️ 0:00:53.629188
 - 🔗 alphaguess.com 🧩 #762 🥳 15 ⏱️ 0:00:38.896821
 - 🔗 squareword.org 🧩 #1302 🥳 9 ⏱️ 0:03:50.485386
-- 🔗 [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1332 🥳 18 ⏱️ 0:03:43.875741
+- 🔗 dictionary.com hurdle 🧩 #1332 🥳 18 ⏱️ 0:03:43.875741
+- 🔗 dontwordle.com 🧩 #1189 🥳 6 ⏱️ 0:02:15.940969
 
 ```ex
 '<,'>norm ^f dt f🧩2f dt 0f P
@@ -133,3 +134,24 @@ Solution:
     BIRTH 🟩🟩🟩🟩🟩
     Final 1/2
     TRUCE 🟩🟩🟩🟩🟩
+
+# dontwordle.com 🧩 #1189 🥳 6 ⏱️ 0:02:15.940969
+
+📜 1 sessions
+💰 score: 7
+
+SURVIVED
+> Hooray! I didn't Wordle today!
+
+    ⬜⬜⬜⬜⬜ tried:QAJAQ n n n n n remain:7419
+    ⬜⬜⬜⬜⬜ tried:YUMMY n n n n n remain:4016
+    ⬜⬜⬜⬜⬜ tried:CONVO n n n n n remain:1254
+    ⬜⬜⬜⬜⬜ tried:SWISH n n n n n remain:99
+    🟨⬜⬜⬜⬜ tried:GRRRL m n n n n remain:4
+    🟨⬜🟩🟩⬜ tried:EGGED m n Y Y n remain:1
+
+    Undos used: 4
+
+      1 words remaining
+    x 7 unused letters
+    = 7 total score
