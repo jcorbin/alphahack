@@ -1,0 +1,68 @@
+T0.00020642299205064774 now: 2025-08-25T12:22:04UTC
+TD41 site: dontwordle.com
+TDD-12 wordlist: nwl2023.txt
+TDD4327684 1> * -bot 10
+TDD-1991905 ? 1
+TDD3691111 📋 "resat" ? nYnnY
+TDD-6026618 tried: RESAT n Y n n Y
+TDD884718 2> *
+TDD544479 ? 1
+TDD5833023 📋 "feint" ? nYnnY
+TDD-7262384 tried: FEINT n Y n n Y
+TDD815269 3> undo
+TDD-815322 undo
+TDD683713 2> undo
+TDD-683701 undo
+TDD5652096 1> *
+TDD-3684356 ? 1
+TDD4970720 📋 "qajaq" ? nnnnn
+TDD-6938435 tried: QAJAQ n n n n n
+TDD783891 2> *
+TDD783792 ? 1
+TDD4004431 📋 "doggo" ? nnYnn
+TDD-5572052 tried: DOGGO n n Y n n
+TDD3059545 3> undo
+TDD-3059637 undo
+TDD2615659 2> *
+TDD4300184 ? 1
+TDD-1091907 📋 "yummy" ? nnnnn
+TDD-5823910 tried: YUMMY n n n n n
+TDD4949079 3> *
+TDD-993674 ? 1
+TDD1464446 📋 "oxbow" ? nnMnn
+TDD-5419852 tried: OXBOW n n m n n
+TDD3825121 4> undo
+TDD-3825152 undo
+TDD3690861 3> *
+TDD-182185 ? 4
+TDD870648 📋 "convo" ? nnnnn
+TDD-4379262 tried: CONVO n n n n n
+TDD868582 4> *
+TDD512712 ? 1
+TDD3795709 📋 "swish" ? nnnnn
+TDD-5177036 tried: SWISH n n n n n
+TDD1431855 5> *
+TDD6691972 5> * -sans :v [bes]
+TDD-1985215 📋 "grrrl" ? Mnnnn
+TDD-6138612 tried: GRRRL m n n n n
+TDD1355606 6> * -sans
+TDD2392660 ? 1
+TDD1656486 📋 "egged" ? MnYYn
+TDD-5404753 tried: EGGED m n Y Y n
+TDD1364976 Press <Enter> to 📋 or `>` for line prompt >
+TDD2901813 > Don't Wordle 1189 - SURVIVED
+TDD-4266824 > Hooray! I didn't Wordle today!
+TDD-59 > ⬜⬜⬜⬜⬜7419
+TDD-5 > ⬜⬜⬜⬜⬜4016
+TDD-2 > ⬜⬜⬜⬜⬜1254
+TDD0 > ⬜⬜⬜⬜⬜99
+TDD0 > 🟨⬜⬜⬜⬜4
+TDD1 > 🟨⬜🟩🟩⬜1
+TDD12 > Undos used: 4
+TDD-13 > 
+TDD0 >   1 words remaining
+TDD-1 > x 7 unused letters
+TDD874378 > = 7 total score
+TDD-309219 > ␚
+TDD-564329 result: "Don't Wordle 1189 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7419\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4016\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1254\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c99\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c4\n\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c1\nUndos used: 4\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TDD840706 📆 2025-08-25 ? 
