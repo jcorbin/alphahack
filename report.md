@@ -2,6 +2,7 @@
 
 - 🔗 spaceword.org 🧩 2025-08-24 🏁 score 2173 ranked 6.2% 26/422 ⏱️ 2:45:26.404004
 - 🔗 alfagok.diginaut.net 🧩 #296 🥳 18 ⏱️ 0:00:53.629188
+- 🔗 alphaguess.com 🧩 #762 🥳 15 ⏱️ 0:00:38.896821
 
 ```ex
 '<,'>norm ^f dt f🧩2f dt 0f P
@@ -54,3 +55,29 @@ Details spoilers:
     @+111416 [111416] ge         q3  ? before
     @+149465 [149465] huis       q2  ? before
     @+199855 [199855] lijm       q0  ? before
+
+# alphaguess.com 🧩 #762 🥳 15 ⏱️ 0:00:38.896821
+
+🤔 15 attempts
+📜 1 sessions
+
+    @       [    0] aa     
+    @+1     [    1] aah    
+    @+2     [    2] aahed  
+    @+3     [    3] aahing 
+    @+11770 [11770] back   q3  ? after
+    @+17725 [17725] blind  q4  ? after
+    @+18437 [18437] bobs   q7  ? after
+    @+18801 [18801] bombe  q8  ? after
+    @+18875 [18875] bone   q10 ? after
+    @+18928 [18928] boning q11 ? after
+    @+18934 [18934] bonk   q14 ? it
+    @+18934 [18934] bonk   done. it
+    @+18939 [18939] bonne  q13 ? before
+    @+18954 [18954] bonny  q12 ? before
+    @+18980 [18980] boob   q9  ? before
+    @+19170 [19170] boot   q6  ? before
+    @+20697 [20697] brill  q5  ? before
+    @+23694 [23694] camp   q2  ? before
+    @+47394 [47394] dis    q1  ? before
+    @+98233 [98233] mach   q0  ? before
