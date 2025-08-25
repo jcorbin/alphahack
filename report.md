@@ -7,6 +7,7 @@
 - 🔗 dictionary.com hurdle 🧩 #1332 🥳 18 ⏱️ 0:03:43.875741
 - 🔗 dontwordle.com 🧩 #1189 🥳 6 ⏱️ 0:02:15.940969
 - 🔗 cemantix.certitudes.org 🧩 #1272 🥳 12 ⏱️ 0:00:11.568642
+- 🔗 cemantle.certitudes.org 🧩 #1239 🥳 163 ⏱️ 0:29:35.938014
 
 ```ex
 '<,'>norm ^f dt f🧩2f dt 0f P
@@ -179,3 +180,28 @@ SURVIVED
     $11  #4     fenêtre      -2.67°C 🧊
     $12  #1     bicyclette   -5.35°C 🧊
     $13  #9     tableau     -11.00°C 🧊
+
+# cemantle.certitudes.org 🧩 #1239 🥳 163 ⏱️ 0:29:35.938014
+
+🤔 164 attempts
+📜 1 sessions
+🫧 6 chat sessions
+⁉️ 37 chat prompts
+🤖 14 llama3.2:latest replies
+🤖 23 gemma3:12b replies
+🔥   2 🥵   7 😎  38 🥶 103 🧊  13
+
+      $1 #164   ~1 bureau          100.00°C 🥳 1000‰
+      $2 #152  ~11 correspondent    45.58°C 🔥  997‰
+      $3 #150  ~12 reporter         41.44°C 🔥  993‰
+      $4 #162   ~3 attaché          35.56°C 🥵  984‰
+      $5 #133  ~17 investigative    33.01°C 🥵  969‰
+      $6 #149  ~13 journalist       32.78°C 🥵  968‰
+      $7 #129  ~19 circulation      31.71°C 🥵  964‰
+      $8  #42  ~42 census           31.63°C 🥵  962‰
+      $9 #148  ~14 detective        28.88°C 🥵  919‰
+     $10  #88  ~29 editorial        27.77°C 🥵  905‰
+     $11  #74  ~32 reporting        26.98°C 😎  875‰
+     $12 #160   ~4 envoy            26.65°C 😎  870‰
+     $49  #32      inspection       15.84°C 🥶
+    $152   #2      cactus           -0.28°C 🧊
