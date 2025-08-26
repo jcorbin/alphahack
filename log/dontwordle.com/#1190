@@ -1,0 +1,79 @@
+T0.0001927921548485756 now: 2025-08-26T12:13:17UTC
+TD38 site: dontwordle.com
+TDD-12 wordlist: nwl2023.txt
+TDD2497578 1> * -bot 10
+TDD-909551 ? 1
+TDD3316146 📋 "arose" ? nnnnM
+TDD-4903889 tried: AROSE n n n n m
+TDD2443400 2> * -bot 10
+TDD-1491742 ? 1
+TDD5712207 📋 "yield" ? nnYMn
+TDD-6664042 tried: YIELD n n Y m n
+TDD795669 3> undo
+TDD-795721 undo
+TDD723995 2> undo
+TDD-723983 undo
+TDD5284069 1> * -bot 19
+TDD-3736821 ? 1
+TDD3844859 📋 "roast" ? nnnnn
+TDD-5392080 tried: ROAST n n n n n
+TDD2300112 2> *
+TDD-908846 ? 1
+TDD4949828 📋 "ninny" ? nnnnn
+TDD-6341103 tried: NINNY n n n n n
+TDD3115628 3> *
+TDD-1047498 ? 1
+TDD3355837 📋 "chuff" ? nYnnn
+TDD-5423959 tried: CHUFF n Y n n n
+TDD943500 4> undo
+TDD-943538 undo
+TDD3367797 3> *
+TDD-1731798 ? 1
+TDD5608074 📋 "jugum" ? nnnnn
+TDD-7244037 tried: JUGUM n n n n n
+TDD2135545 4> *
+TDD216212 4> * -sans
+TDD720140 ? 1
+TDD5151974 📋 "level" ? nMnYY
+TDD-8223872 tried: LEVEL n m n Y Y
+TDD6399444 5> undo
+TDD-6399472 undo
+TDD19914827 <INT>
+T0.0018869563937187195 now: 2025-08-26T12:15:33UTC
+TD8382469 4> * -sans [el]
+TDD-3710768 4> * -sans :v [el]
+TDD-611732 4> * -sans :v [eh]
+TDD-2347811 4> * -sans
+TDD1659757 ? 1
+TDD6450763 📋 "feeze" ? nMYnn
+TDD-9822482 tried: FEEZE n m Y n n
+TDD1703962 5> * -sans
+TDD8525267 ? 6
+TDD5348651 📋 "cheek" ? nYYYn
+TDD-15577933 tried: CHEEK n Y Y Y n
+TDD1669104 6> * -sans
+TDD202628 ? 1
+TDD5466398 <INT>
+TDD-7338204 <INT>
+T0.002145499922335148 now: 2025-08-26T12:16:45UTC
+TD1398690 6> *
+TDD1894332 <INT>
+TDD-3292939 <INT>
+T0.00222564022988081 now: 2025-08-26T12:16:52UTC
+TD1639070 6> * -sans
+TDD-161742 ? 1
+TDD293034 📋 "wheel" ? it
+TDD-1770184 tried: WHEEL Y Y Y Y Y
+TDD1794648 Press <Enter> to 📋 or `>` for line prompt >
+TDD2085116 > Don't Wordle 1190 - WORDLED
+TDD-3879879 > I must admit that I Wordled!
+TDD-42 > ⬜⬜⬜⬜⬜1064
+TDD-2 > ⬜⬜⬜⬜⬜222
+TDD-2 > ⬜⬜⬜⬜⬜79
+TDD0 > ⬜🟨🟩⬜⬜9
+TDD0 > ⬜🟩🟩🟩⬜2
+TDD-1 > 🟩🟩🟩🟩🟩0
+TDD503596 > Undos used: 4
+TDD212394 > ␚
+TDD-715238 result: "Don't Wordle 1190 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1064\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c222\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c79\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 4"
+TDD1494731 📆 2025-08-26 ? 
