@@ -1,0 +1,99 @@
+T0.00020181294530630112 now: 2025-08-26T12:03:05UTC
+TD39 site: squareword.org
+TDD8841689 🧩  ? #1303
+TDD-8841550 puzzle_id: #1303
+TDD-159 wordlist: nwl2023.txt
+TDD15488664 > *
+TDD-13717928 try? 1
+TDD-1770486 questioning: ["arise", "#5"]
+TDD4874117 #1 _____  📋 "arise" ? _____ ~ AR
+TDD-4873984 attempt 0 ARISE m m n n n
+TDD7920927 #2 _____  📋 "arise" ? ____E ~ RIE
+TDD-7921132 attempt 1 ARISE n m m n Y
+TDD57251870 #3 _____  📋 "arise" ? _R__E ~ A
+TDD-57251910 attempt 2 ARISE m Y n n Y
+TDD3069232 #4 _____  📋 "arise" ? A____ ~ IE
+TDD-3069214 attempt 3 ARISE Y n m n m
+TDD3015498 #5 _____  📋 "arise" ? _____ ~ ASE
+TDD-3015498 attempt 4 ARISE m n n m m
+TDD683415 ? 
+TDD-683472 question done
+TDD935709 > *
+TDD3388336 try? 1
+TDD-4323987 questioning: ["aimed", "#4"]
+TDD8802549 #1 _____ ~AR -EIS  📋 "aimed" ? _____ ~ ARD
+TDD-8802551 attempt 0 AIMED m n n n m
+TDD5999418 #2 ____E ~IR -AS  📋 "aimed" ? ____E ~ RIE
+TDD-5999417 attempt 1 AIMED n m n m n
+TDD4789030 #3 _R__E ~A -IS  📋 "aimed" ? _R__E ~ AD
+TDD-4789039 attempt 2 AIMED m n n n m
+TDD5503694 #4 A____ ~EI -RS  📋 "aimed" ? /it
+TDD-5503698 attempt 3 AIMED Y Y Y Y Y
+TDD6223388 #5 _____ ~AES -IR  📋 "aimed" ? _____ ~ ASED
+TDD-6223380 attempt 4 AIMED m n n m m
+TDD1159746 ? 
+TDD-1159821 question done
+TDD4547704 > *
+TDD20204 try? 1
+TDD-4567856 questioning: ["radon", "#1"]
+TDD5531628 #1 _____ ~ADR -EIMS  📋 "radon" ? RAD__ ~ AR
+TDD-5531614 attempt 0 RADON Y Y Y n n
+TDD7087435 #2 ____E ~IR -ADMS  📋 "radon" ? ____E ~ RIE
+TDD-7087421 attempt 1 RADON m n n n n
+TDD4091552 #3 _R__E ~AD -EIMS  📋 "radon" ? .
+TDD-4091585 attempt 2 RADON n m m n n
+TDD1035763 #5 _____ ~ADES -IMR  📋 "radon" ? .
+TDD-1035759 attempt 4 RADON n m m n n
+TDD532047 ? 
+TDD-532094 question done
+TDD987450 > *
+TDD-413163 questioning: ["radar", "#1"]
+TDD3875829 #1 RAD__ -EIMNOS  📋 "radar" ? /it
+TDD-4450076 attempt 0 RADAR Y Y Y Y Y
+TDD4071697 #2 ____E ~IR -ADMNOS  📋 "radar" ? ____E ~ RIE
+TDD-4071686 attempt 1 RADAR m n n n m
+TDD1147371 #3 _R__E ~AD -EIMNORS  📋 "radar" ? .
+TDD-1147402 attempt 2 RADAR n m m m n
+TDD895730 #5 _____ ~ADES -IMNOR  📋 "radar" ? .
+TDD-895727 attempt 4 RADAR n m m m n
+TDD199914 ? 
+TDD-199936 question done
+TDD888053 > *
+TDD-113005 questioning: ["eerie", "#2"]
+TDD2969240 #2 ____E ~IR -ADMNOS  📋 "eerie" ? /it
+TDD-3744255 attempt 1 EERIE Y Y Y Y Y
+TDD2068237 #3 _R__E ~AD -EIMNORS  📋 "eerie" ? .
+TDD-2068239 attempt 2 EERIE n n n n Y
+TDD6511889 #5 _____ ~ADES -IMNOR  📋 "eerie" ? _E___ ~ ASD
+TDD-6511871 attempt 4 EERIE n Y n n n
+TDD723604 ? 
+TDD-723654 question done
+TDD1207788 > *
+TDD5983695 try? 1
+TDD-7191432 questioning: ["leads", "#5"]
+TDD2666328 #3 _R__E ~AD -IMNORS  📋 "leads" ? _RADE
+TDD-2666332 attempt 2 LEADS n n Y Y n
+TDD2340969 #5 _E___ ~ADS -IMNOR  📋 "leads" ? /it
+TDD-2340973 attempt 4 LEADS Y Y Y Y Y
+TDD581207 ? 
+TDD-581259 question done
+TDD1066405 > *
+TDD-398299 questioning: ["grade", "#3"]
+TDD4114276 #3 _RADE -EILMNORS  📋 "grade" ? /it
+TDD-4782327 attempt 2 GRADE Y Y Y Y Y
+TDD1039696 ? 
+TDD-1039756 question done
+TDD1750221 Press <Enter> to 📋 or `>` for line prompt >
+TDD2772637 > squareword.org 1303: 7 guesses
+TDD-4522873 > 
+TDD-50 > 🟩🟩🟩🟩🟩
+TDD-4 > 🟩🟩🟩🟩🟩
+TDD0 > 🟨🟩🟨🟨🟩
+TDD-1 > 🟩🟩🟩🟩🟩
+TDD0 > 🟨🟩🟨🟨🟨
+TDD0 > 
+TDD1 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD536796 > #squareword #squareword1303
+TDD122016 > ␚
+TDD-658366 result: "squareword.org 1303: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1303"
+TDD818991 📆 2025-08-26 ? 
