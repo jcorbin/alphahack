@@ -1,0 +1,62 @@
+T0.0001964019611477852 now: 2025-08-27T12:39:25UTC
+TD39 site: dontwordle.com
+TDD-13 wordlist: nwl2023.txt
+TDD7315403 1> * -bot 1-0
+TDD-5896588 <INT>
+TDD-1418565 <INT>
+T0.0011091064661741257 now: 2025-08-27T12:39:34UTC
+TD2594158 1> * -bot 10
+TDD-1095111 ? 1
+TDD3137356 📋 "arose" ? YnnnM
+TDD-4636084 tried: AROSE Y n n n m
+TDD671380 2> undo
+TDD-671615 undo
+TDD3429120 1> *
+TDD-2442420 ? 1
+TDD3269379 📋 "hooch" ? nnnnn
+TDD-4255569 tried: HOOCH n n n n n
+TDD435775 2> *
+TDD518318 ? 
+TDD613494 2> *
+TDD-219833 ? 1
+TDD2992936 📋 "yummy" ? nnnnn
+TDD-4340900 tried: YUMMY n n n n n
+TDD1631386 3> *
+TDD-180538 ? 1
+TDD4003656 📋 "jinni" ? nnnnn
+TDD-5454777 tried: JINNI n n n n n
+TDD1125478 4> *
+TDD3755139 📋 "grrrl" ? nnnnn
+TDD-4880604 tried: GRRRL n n n n n
+TDD591761 5> *
+TDD2664555 5> * -sans :v e
+TDD851099 ? ␚
+TDD-4107484 <EOF>
+TDD5700197 5> * -sans :v a
+TDD-3965547 ? ␚
+TDD-1734651 <EOF>
+TDD3234487 5> * -sans :v a -top 10
+TDD2843316 ? 2
+TDD-332217 📋 "zests" ? nMnMn
+TDD-5745507 tried: ZESTS n m n m n
+TDD1927902 6> * -sans
+TDD4375956 ? 5
+TDD-1325275 📋 "ebbet" ? MnnnY
+TDD-4978607 tried: EBBET m n n n Y
+TDD2427687 Press <Enter> to 📋 or `>` for line prompt >
+TDD1164939 > Don't Wordle 1191 - SURVIVED
+TDD-3592384 > Hooray! I didn't Wordle today!
+TDD-252 > ⬜⬜⬜⬜⬜6849
+TDD-79 > ⬜⬜⬜⬜⬜3686
+TDD-5 > ⬜⬜⬜⬜⬜1569
+TDD14 > ⬜⬜⬜⬜⬜424
+TDD22 > ⬜🟨⬜🟨⬜19
+TDD-19 > 🟨⬜⬜⬜🟩1
+TDD-13 > Undos used: 1
+TDD7 > 
+TDD-7 >   1 words remaining
+TDD-2 > x 9 unused letters
+TDD994674 > = 9 total score
+TDD-522716 > ␚
+TDD-470878 result: "Don't Wordle 1191 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6849\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3686\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1569\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c424\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c19\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe91\nUndos used: 1\n\n  1 words remaining\nx 9 unused letters\n= 9 total score"
+TDD921597 📆 2025-08-27 ? 
