@@ -1,0 +1,99 @@
+T0.0005915984511375427 now: 2025-08-27T12:36:00UTC
+TD132 site: https://play.dictionary.com/games/todays-hurdle
+TDD-92 wordlist: nwl2023.txt
+TDD5316896 1.1> *
+TDD-3073010 1.1 ? 2
+TDD19445751 1.1 📋 "dares" ? nnnnn
+TDD-21689378 tried: DARES n n n n n
+TDD442278 1.2> *
+TDD597216 1.2 ? 1
+TDD2890820 1.2 📋 "tonic" ? MnnMn
+TDD-3930489 tried: TONIC m n n m n
+TDD629033 1.3> *
+TDD357577 1.3 ? 1
+TDD2816243 1.3 📋 "guilt" ? nnMMM
+TDD-3802596 tried: GUILT n n m m m
+TDD473905 1.4> *
+TDD2893089 1.4 ? 1
+TDD1240991 1.4 📋 "filth" ? it
+TDD-4608013 tried: FILTH Y Y Y Y Y
+T0.0021999506279826164 now: 2025-08-27T12:37:12UTC
+TD3819881 2.1 📋 "filth" ? nnnYM
+TDD-3819565 tried: FILTH n n n Y m
+TDD4243541 2.2> *
+TDD-1695787 2.2 ? 2
+TDD2539690 2.2 📋 "haste" ? YnnYM
+TDD-5087414 tried: HASTE Y n n Y m
+TDD1067395 2.3> *
+TDD6099852 2.3 📋 "hertz" ? yyyyy
+TDD-7167443 tried: HERTZ Y Y Y Y Y
+TDD8020232 3.1 📋 "hertz" ? nnMnn
+TDD-8020163 tried: HERTZ n n m n n
+TDD1678998 3.2> *
+TDD120763 3.2 ? 2
+TDD2635973 3.2 📋 "oscar" ? nnnMM
+TDD-4435838 tried: OSCAR n n n m m
+TDD1452116 3.3> *
+TDD707304 3.3 ? 2
+TDD2359049 3.3 📋 "grail" ? nYYYn
+TDD-4518356 tried: GRAIL n Y Y Y n
+TDD826008 3.4> *
+TDD3286852 3.4 ? 2
+TDD-432625 3.4 📋 "drain" ? nYYYY
+TDD-3680107 tried: DRAIN n Y Y Y Y
+TDD1139212 3.5> *
+TDD1182720 3.5 📋 "brain" ? it
+TDD-2322160 tried: BRAIN Y Y Y Y Y
+TDD11587664 4.1 📋 "brain" ? Mnnnn
+TDD-11587379 tried: BRAIN m n n n n
+TDD639124 4.2> *
+TDD1792560 4.2 ? 2
+TDD3419722 4.2 📋 "obeys" ? nMMnn
+TDD-5851703 tried: OBEYS n m m n n
+TDD1091805 4.3> *
+TDD440025 4.3 ? 1
+TDD2543826 4.3 📋 "debut" ? MMYnn
+TDD-4075653 tried: DEBUT m m Y n n
+TDD1440013 4.4> *
+TDD2175581 4.4 📋 "embed" ? it
+TDD-3615612 tried: EMBED Y Y Y Y Y
+TDD8637100 5.1 📋 "filth" ? nMMnn
+TDD-8637078 tried: FILTH n m m n n
+TDD2214412 5.2 📋 "hertz" ? nMnnn
+TDD-2214424 tried: HERTZ n m n n n
+TDD2163951 5.3 📋 "brain" ? nnnYn
+TDD-2163929 tried: BRAIN n n n Y n
+TDD1993830 5.4 📋 "embed" ? MnnnM
+TDD-1993849 tried: EMBED m n n n m
+TDD1066411 5.5> *
+TDD3194518 5.5 📋 "oldie" ? it
+TDD-4260937 tried: OLDIE Y Y Y Y Y
+TDD890914 Press <Enter> to 📋 or `>` for line prompt >
+TDD3434040 > Hurdle 1334
+TDD-4324989 > 
+TDD-55 > 4/6
+TDD-2 > ⬜⬜⬜⬜⬜
+TDD0 > 🟨⬜⬜🟨⬜
+TDD0 > ⬜⬜🟨🟨🟨
+TDD0 > 🟩🟩🟩🟩🟩
+TDD-3 > 3/6
+TDD0 > ⬜⬜⬜🟩🟨
+TDD0 > 🟩⬜⬜🟩🟨
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > 5/6
+TDD0 > ⬜⬜🟨⬜⬜
+TDD0 > ⬜⬜⬜🟨🟨
+TDD0 > ⬜🟩🟩🟩⬜
+TDD0 > ⬜🟩🟩🟩🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > 4/6
+TDD12 > 🟨⬜⬜⬜⬜
+TDD-12 > ⬜🟨🟨⬜⬜
+TDD0 > 🟨🟨🟩⬜⬜
+TDD0 > 🟩🟩🟩🟩🟩
+TDD-2 > Final 1/2
+TDD0 > 🟩🟩🟩🟩🟩
+TDD362393 > score: 9,900
+TDD197292 > ␚
+TDD-559243 result: "Hurdle 1334\n\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,900"
+TDD1204590 📆 2025-08-27 ? 
