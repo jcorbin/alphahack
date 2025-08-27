@@ -1,0 +1,55 @@
+T0.00048691779375076294 now: 2025-08-27T12:33:02UTC
+TD97984 loaded 196551 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (52 words excluded) asof 50f5e53ca2ef936b7c34caf4c74c097e4d3959ae
+TDD3426783 [0 : 98233 : 196551] mach? b
+TDD-3524551 progress: -1 98233 mach
+TDD1771530 [0 : 47394 : 98233] dis? a
+TDD-1771655 progress: 1 47394 dis
+TDD1596255 [47395 : 72814 : 98233] gremolata? a
+TDD-1595965 progress: 1 72814 gremolata
+TDD1451062 [72815 : 85518 : 98233] ins? a
+TDD-1451043 progress: 1 85518 ins
+TDD1516335 [85519 : 91863 : 98233] knot? a
+TDD-1516419 progress: 1 91863 knot
+TDD1449617 [91864 : 94960 : 98233] lib? a
+TDD-1449849 progress: 1 94960 lib
+TDD1690510 [94961 : 96593 : 98233] locks? b
+TDD-1690485 progress: -1 96593 locks
+TDD1498582 [94961 : 95590 : 96593] lin? a
+TDD-1498597 progress: 1 95590 lin
+TDD1498421 [95591 : 96077 : 96593] literal? a
+TDD-1498448 progress: 1 96077 literal
+TDD1503633 [96078 : 96335 : 96593] livres? a
+TDD-1503602 progress: 1 96335 livres
+TDD1653672 [96336 : 96459 : 96593] lobo? b
+TDD-1653416 progress: -1 96459 lobo
+TDD1780150 [96336 : 96388 : 96459] loan? a
+TDD-1780407 progress: 1 96388 loan
+TDD1653296 [96389 : 96421 : 96459] lob? b
+TDD-1653290 progress: -1 96421 lob
+TDD1535643 [96389 : 96404 : 96421] loath? a
+TDD-1535484 progress: 1 96404 loath
+TDD3169478 [96405 : 96413 : 96421] loathly? b
+TDD-3169350 progress: -1 96413 loathly
+TDD1679212 [96405 : 96409 : 96413] loathes? b
+TDD-1679266 progress: -1 96409 loathes
+TDD1913578 [96405 : 96407 : 96409] loather? b
+TDD-1913817 progress: -1 96407 loather
+TDD2192203 [96405 : 96406 : 96407] loathed? b
+TDD-2191978 progress: -1 96406 loathed
+TDD-217 [96405 : 96405 : 96406] <Done>.
+TDD6668897 press <Return> to finish
+TDD-6016889 Press <Enter> to 📋 or `>` for line prompt >
+TDD-31902 > 🧩 Puzzle #764
+TDD-619917 > 
+TDD-157 > 🤔 19 guesses
+TDD-65 > 
+TDD-31 > ⏱️ 32s
+TDD-5 > 
+TDD343222 > 🔗 alphaguess.com
+TDD200759 > ␚
+TDD-542710 share result: "\ud83e\udde9 Puzzle #764\n\n\ud83e\udd14 19 guesses\n\n\u23f1\ufe0f 32s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1120 result puzzle: 764
+TDD-119 result guesses: 19
+TDD-25 result time: 32s
+TDD-17 result link: alphaguess.com
+TDD294401 📆 2025-08-27 ? 
