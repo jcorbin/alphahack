@@ -275,7 +275,7 @@ class Word:
                 self.max[let] = int(match[2])
                 continue
 
-            raise ValueError('invalid Word string')
+            raise ValueError(f'invalid Word string part {parts.peek()!r}')
 
         return self
 
