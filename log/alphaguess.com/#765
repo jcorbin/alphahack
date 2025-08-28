@@ -1,0 +1,45 @@
+T0.00020446255803108215 now: 2025-08-28T12:05:52UTC
+TD68976 loaded 196551 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (52 words excluded) asof 50f5e53ca2ef936b7c34caf4c74c097e4d3959ae
+TDD5947331 [0 : 98233 : 196551] mach? a
+TDD-6016082 progress: 1 98233 mach
+TDD1789605 [98234 : 147389 : 196551] rhotic? b
+TDD-1789735 progress: -1 147389 rhotic
+TDD1836340 [98234 : 122796 : 147389] parr? b
+TDD-1836345 progress: -1 122796 parr
+TDD2098459 [98234 : 109952 : 122796] ne? b
+TDD-2098444 progress: -1 109952 ne
+TDD1832045 [98234 : 102775 : 109952] mi? b
+TDD-1832066 progress: -1 102775 mi
+TDD1645447 [98234 : 100476 : 102775] mater? a
+TDD-1645436 progress: 1 100476 mater
+TDD1983884 [100477 : 101619 : 102775] memo? b
+TDD-1983893 progress: -1 101619 memo
+TDD2078968 [100477 : 101028 : 101619] med? a
+TDD-2078981 progress: 1 101028 med
+TDD3354296 [101029 : 101249 : 101619] mega? b
+TDD-3354269 progress: -1 101249 mega
+TDD1830328 [101029 : 101104 : 101249] medic? b
+TDD-1830341 progress: -1 101104 medic
+TDD1788426 [101029 : 101063 : 101104] media? b
+TDD-1788406 progress: -1 101063 media
+TDD2287932 [101029 : 101046 : 101063] meddle? b
+TDD-2287950 progress: -1 101046 meddle
+TDD4948149 [101029 : 101033 : 101046] medal? it
+TDD-4948141 progress: 0 101033 medal
+TDD-79 [101029 : 101033 : 101046] <Done>.
+TDD1020246 press <Return> to finish
+TDD-393005 Press <Enter> to 📋 or `>` for line prompt >
+TDD5555582 > 🧩 Puzzle #765
+TDD-6182748 > 
+TDD-65 > 🤔 13 guesses
+TDD-4 > 
+TDD0 > ⏱️ 26s
+TDD-3 > 
+TDD438567 > 🔗 alphaguess.com
+TDD119943 > ␚
+TDD-558145 share result: "\ud83e\udde9 Puzzle #765\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 26s\n\n\ud83d\udd17 alphaguess.com"
+TDD-365 result puzzle: 765
+TDD-8 result guesses: 13
+TDD-2 result time: 26s
+TDD0 result link: alphaguess.com
+TDD938067 📆 2025-08-28 ? 
