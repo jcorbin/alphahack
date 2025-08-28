@@ -1,0 +1,119 @@
+T0.00019985157996416092 now: 2025-08-28T12:06:42UTC
+TD43 site: squareword.org
+TDD7411057 🧩  ? #1305
+TDD-7410883 puzzle_id: #1305
+TDD-192 wordlist: nwl2023.txt
+TDD1991896 > *
+TDD240275 try? 2
+TDD-2231934 questioning: ["tears", "#5"]
+TDD16798635 #1 _____  📋 "tears" ? _____ ~ TEAS
+TDD-16798479 attempt 0 TEARS m m m n m
+TDD3437360 #2 _____  📋 "tears" ? ___RS ~ E
+TDD-3437608 attempt 1 TEARS n m n Y Y
+TDD2551365 #3 _____  📋 "tears" ? ____S ~ EA
+TDD-2551360 attempt 2 TEARS n m m n Y
+TDD2608679 #4 _____  📋 "tears" ? _____ ~ EAR
+TDD-2608700 attempt 3 TEARS n m m m n
+TDD3034742 #5 _____  📋 "tears" ? _E___ ~ R
+TDD-3034728 attempt 4 TEARS n Y n m n
+TDD1440009 ? 
+TDD-1440055 question done
+TDD854726 > *
+TDD1243640 try? 1
+TDD-2098318 questioning: ["paste", "#1"]
+TDD2396879 #1 _____ ~AEST -R  📋 "paste" ? /it
+TDD-2396909 attempt 0 PASTE Y Y Y Y Y
+TDD2949232 #2 ___RS ~E -AT  📋 "paste" ? .
+TDD-2949209 attempt 1 PASTE n n n n m
+TDD4589800 #3 ____S ~AE -RT  📋 "paste" ? _A__S
+TDD-4589805 attempt 2 PASTE n Y n n n
+TDD2662692 #4 _____ ~AER -ST  📋 "paste" ? .
+TDD-2662701 attempt 3 PASTE n m n n m
+TDD1739775 #5 _E___ ~R -AST  📋 "paste" ? .
+TDD-1739772 attempt 4 PASTE n n n n n
+TDD498983 ? 
+TDD-499031 question done
+TDD2454605 > *
+TDD6972570 try? 1
+TDD-9427117 questioning: ["emirs", "#2"]
+TDD12779180 #2 ___RS ~E -APST  📋 "emirs" ? E__RS ~ E
+TDD-12779179 attempt 1 EMIRS Y n n Y Y
+TDD6256826 #3 _A__S -EPRST  📋 "emirs" ? _A__S ~ E
+TDD-6256821 attempt 2 EMIRS M n n n Y
+TDD4350749 <INT>
+TDD-4350855 <INT>
+TDD-48 <INT>
+TDD15 <INT>
+T0.002406812272965908 now: 2025-08-28T12:08:35UTC
+TD60 questioning: ["emirs", "#2"]
+TDD8793555 #4 _____ ~AER -PST  📋 "emirs" ? .
+TDD-8793351 attempt 3 EMIRS m n n m n
+TDD1645502 #5 _E___ ~R -AEPST  📋 "emirs" ? .
+TDD-1645603 attempt 4 EMIRS n n n m n
+TDD1039052 ? 
+TDD-1039111 question done
+TDD603922 > *
+TDD2708310 try? 1
+TDD-3312099 questioning: ["ewers", "#2"]
+TDD3445756 #2 E__RS -AIMPT  📋 "ewers" ? /it
+TDD-3445837 attempt 1 EWERS Y Y Y Y Y
+TDD3392611 #3 _A__S ~E -EIMPRT  📋 "ewers" ? .
+TDD-3392609 attempt 2 EWERS m n m n Y
+TDD6745582 #4 _____ ~AER -IMPST  📋 "ewers" ? __E__ ~ AR
+TDD-6745350 attempt 3 EWERS n n Y m n
+TDD1716726 #5 _E___ ~R -AEIMPST  📋 "ewers" ? .
+TDD-1716974 attempt 4 EWERS n n n m n
+TDD671318 ? 
+TDD-671356 question done
+TDD712964 > *
+TDD2552781 try? 3
+TDD-3265688 questioning: ["arena", "#4"]
+TDD5821977 #3 _A__S ~E -EIMPRTW  📋 "arena" ? .
+TDD-5821986 attempt 2 ARENA n n m n n
+TDD1211956 #4 __E__ ~AR -IMPSTW  📋 "arena" ? /it
+TDD-1211956 attempt 3 ARENA Y Y Y Y Y
+TDD2924278 #5 _E___ ~R -AEIMPSTW  📋 "arena" ? _E___ ~ RN
+TDD-2924263 attempt 4 ARENA n m n m n
+TDD273907 ? 
+TDD-273972 question done
+TDD568016 > *
+TDD-186964 questioning: ["nerdy", "#5"]
+TDD5914516 #3 _A__S ~E -AEIMNPRTW  📋 "nerdy" ? .
+TDD-6295509 attempt 2 NERDY n m n n n
+TDD2190491 #5 _E___ ~NR -AEIMPSTW  📋 "nerdy" ? /it
+TDD-2187690 attempt 4 NERDY Y Y Y Y Y
+TDD677432 ? 
+TDD-680286 question done
+TDD500076 > *
+TDD8240995 > /man #3 _A__S ~ E
+TDD-330936 > /man #3 _A__S ~E
+TDD55643219 > /man #3 _A__S ~E
+TDD-20173521 <INT>
+TDD-43879852 <INT>
+TDD-68 <INT>
+TDD4 <INT>
+T0.0034465380012989044 now: 2025-08-28T12:11:37UTC
+TD5768488 > /man #3 _A__S ~E
+TDD28576143 > 
+TDD-33164257 > /man
+TDD5400791 > /man 3 _A__S ~E
+TDD-3883648 try? 2
+TDD-2697238 questioning: ["CAVES", "#3"]
+TDD5657417 #3 _A__S ~E -ADEIMNPRTWY  📋 "CAVES" ? /it
+TDD-5657523 attempt 2 CAVES Y Y Y Y Y
+TDD2359792 ? 
+TDD-2359861 question done
+TDD1654881 Press <Enter> to 📋 or `>` for line prompt >
+TDD2399553 > squareword.org 1305: 7 guesses
+TDD-4054441 > 
+TDD-72 > 🟩🟩🟩🟩🟩
+TDD-5 > 🟩🟩🟩🟩🟩
+TDD-1 > 🟨🟩🟨🟨🟩
+TDD-1 > 🟩🟩🟩🟩🟩
+TDD1 > 🟨🟩🟨🟨🟨
+TDD-1 > 
+TDD1 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD531054 > #squareword #squareword1305
+TDD35557 > ␚
+TDD-566134 result: "squareword.org 1305: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1305"
+TDD804459 📆 2025-08-28 ? 
