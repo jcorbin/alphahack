@@ -1,0 +1,62 @@
+T0.0002101035788655281 now: 2025-08-28T12:16:15UTC
+TD39 site: dontwordle.com
+TDD-13 wordlist: nwl2023.txt
+TDD4209876 1> * -bot 10
+TDD1857483 ? 8
+TDD-264847 📋 "earns" ? nnnYM
+TDD-5802207 tried: EARNS n n n Y m
+TDD737128 2> undo
+TDD-737371 undo
+TDD2967356 1> *
+TDD-1373838 ? 1
+TDD3909096 📋 "yummy" ? nMnnn
+TDD-5502572 tried: YUMMY n m n n n
+TDD673658 2> undo
+TDD-673705 undo
+TDD2610711 1> *
+TDD1838397 ? 2
+TDD-127547 📋 "freer" ? nnnnn
+TDD-4321512 tried: FREER n n n n n
+TDD655940 2> *
+TDD681537 ? 1
+TDD3534450 📋 "abaca" ? nnnnn
+TDD-4871930 tried: ABACA n n n n n
+TDD839545 3> *
+TDD570977 ? 1
+TDD5010513 📋 "zizit" ? nnnnY
+TDD-6421044 tried: ZIZIT n n n n Y
+TDD807912 4> undo
+TDD-807951 undo
+TDD3824038 3> *
+TDD-2573609 ? 1
+TDD3112010 📋 "immix" ? nnnnn
+TDD-4362403 tried: IMMIX n n n n n
+TDD664063 4> *
+TDD1318398 ? 1
+TDD3430867 📋 "wooly" ? nnnnn
+TDD-5413318 tried: WOOLY n n n n n
+TDD784893 5> *
+TDD3446886 5> * -sans :v [nst]
+TDD2475696 📋 "kudzu" ? nMnnn
+TDD-6707482 tried: KUDZU n m n n n
+TDD1097783 6> * -sans
+TDD4975261 ? 7
+TDD-1315279 📋 "thugs" ? MnYnM
+TDD-4757755 tried: THUGS m n Y n m
+TDD1079843 Press <Enter> to 📋 or `>` for line prompt >
+TDD2136171 > Don't Wordle 1192 - SURVIVED
+TDD-3216055 > Hooray! I didn't Wordle today!
+TDD-70 > ⬜⬜⬜⬜⬜4802
+TDD-3 > ⬜⬜⬜⬜⬜1644
+TDD-1 > ⬜⬜⬜⬜⬜745
+TDD0 > ⬜⬜⬜⬜⬜70
+TDD0 > ⬜🟨⬜⬜⬜13
+TDD-1 > 🟨⬜🟩⬜🟨1
+TDD-1 > Undos used: 3
+TDD2 > 
+TDD-1 >   1 words remaining
+TDD2 > x 5 unused letters
+TDD411014 > = 5 total score
+TDD237703 > ␚
+TDD-647907 result: "Don't Wordle 1192 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4802\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1644\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c745\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c70\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c13\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe81\nUndos used: 3\n\n  1 words remaining\nx 5 unused letters\n= 5 total score"
+TDD707789 📆 2025-08-28 ? 
