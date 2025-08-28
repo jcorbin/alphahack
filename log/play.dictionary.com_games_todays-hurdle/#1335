@@ -1,0 +1,85 @@
+T0.00019505340605974197 now: 2025-08-28T12:13:42UTC
+TD37 site: https://play.dictionary.com/games/todays-hurdle
+TDD-12 wordlist: nwl2023.txt
+TDD1335061 1.1> *
+TDD-129879 1.1 ? 1
+TDD8152758 1.1 📋 "rates" ? nnnMn
+TDD-9357653 tried: RATES n n n m n
+TDD484420 1.2> *
+TDD1193870 1.2 ? 10
+TDD3045605 1.2 📋 "yield" ? nMMnM
+TDD-4724079 tried: YIELD n m m n m
+TDD526539 1.3> *
+TDD1880078 1.3 ? 3
+TDD2691595 1.3 📋 "deign" ? MMYMn
+TDD-5098224 tried: DEIGN m m Y m n
+TDD488326 1.4> *
+TDD2078064 1.4 📋 "guide" ? it
+TDD-2566405 tried: GUIDE Y Y Y Y Y
+TDD9900018 2.1 📋 "guide" ? nnnnY
+TDD-9899978 tried: GUIDE n n n n Y
+TDD1281052 2.2> *
+TDD318064 2.2 ? 2
+TDD2105049 2.2 📋 "horse" ? nnMMY
+TDD-3704167 tried: HORSE n n m m Y
+TDD2134460 2.3> *
+TDD-833104 2.3 ? 1
+TDD4347107 2.3 📋 "scare" ? it
+TDD-5648503 tried: SCARE Y Y Y Y Y
+TDD6746777 3.1 📋 "scare" ? nnMMn
+TDD-6746759 tried: SCARE n n m m n
+TDD825535 3.2> *
+TDD1602764 3.2 ? 3
+TDD3362627 3.2 📋 "labor" ? nYnnM
+TDD-5790902 tried: LABOR n Y n n m
+TDD2019789 3.3> *
+TDD-43768 3.3 ? 1
+TDD1582713 3.3 📋 "party" ? it
+TDD-3558785 tried: PARTY Y Y Y Y Y
+TDD8172683 4.1 📋 "party" ? nnMMn
+TDD-8172643 tried: PARTY n n m m n
+TDD486403 4.2> *
+TDD2960270 4.2 ? 3
+TDD1777792 4.2 📋 "uteri" ? nYMMn
+TDD-5224474 tried: UTERI n Y m m n
+TDD554873 4.3> *
+TDD1222903 4.3 ? 1
+TDD2882483 4.3 📋 "other" ? it
+TDD-4660269 tried: OTHER Y Y Y Y Y
+TDD9231220 5.1 📋 "guide" ? nMnnY
+TDD-9231211 tried: GUIDE n m n n Y
+TDD2775481 5.2 📋 "scare" ? MnnnY
+TDD-2775483 tried: SCARE m n n n Y
+TDD1496239 5.3 📋 "party" ? nnnnn
+TDD-1496255 tried: PARTY n n n n n
+TDD3076780 5.4 📋 "other" ? MnMMn
+TDD-3076772 tried: OTHER m n m m n
+TDD1565260 5.5> *
+TDD4280285 5.5 📋 "house" ? it
+TDD-5845546 tried: HOUSE Y Y Y Y Y
+TDD1320577 Press <Enter> to 📋 or `>` for line prompt >
+TDD1517080 > Hurdle 1335
+TDD-2837693 > 
+TDD-58 > 4/6
+TDD-1 > ⬜⬜⬜🟨⬜
+TDD-1 > ⬜🟨🟨⬜🟨
+TDD10 > 🟨🟨🟩🟨⬜
+TDD-11 > 🟩🟩🟩🟩🟩
+TDD-2 > 3/6
+TDD0 > ⬜⬜⬜⬜🟩
+TDD0 > ⬜⬜🟨🟨🟩
+TDD1 > 🟩🟩🟩🟩🟩
+TDD10 > 3/6
+TDD-8 > ⬜⬜🟨🟨⬜
+TDD-3 > ⬜🟩⬜⬜🟨
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > 3/6
+TDD0 > ⬜⬜🟨🟨⬜
+TDD0 > ⬜🟩🟨🟨⬜
+TDD0 > 🟩🟩🟩🟩🟩
+TDD1 > Final 1/2
+TDD-1 > 🟩🟩🟩🟩🟩
+TDD871745 > score: 10,200
+TDD952127 > ␚
+TDD-1823407 result: "Hurdle 1335\n\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,200"
+TDD972880 📆 2025-08-28 ? 
