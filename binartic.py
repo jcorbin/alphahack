@@ -518,6 +518,26 @@ class Search(StoredLog):
         if self.lo == 0 and self.hi == len(self.words):
             self.cmd_site_link(ui)
 
+        # # TODO into super() ?
+
+        # browser = self.browser()
+
+        # # TODO find pre-existing page ?
+        # for ctx in browser.contexts:
+        #     for page in ctx.pages:
+        #         ui.print(f'prior page {page.url} \\ {page} \\ {ctx} ')
+
+        # page = browser.new_page()
+
+        # page.bring_to_front()
+        # res = page.goto(self.site)
+        # # TODO page.close wen
+        # ui.print(f'loaded page {res}')
+
+        # for ctx in browser.contexts:
+        #     for page in ctx.pages:
+        #         ui.print(f'have page {page.url} \\ {page} \\ {ctx} ')
+
         return self.prompt
 
     @property
