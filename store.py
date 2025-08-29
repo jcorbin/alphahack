@@ -293,7 +293,8 @@ class StoredLog:
                 ent.write(f'w/ {given_input!r}')
             st = make_oneshot(st, given_input)
 
-        return ui.run(st)
+        with self:
+            return ui.run(st)
 
     dt_fmt: str = '%Y-%m-%dT%H:%M:%S%Z'
     default_site: str = ''
@@ -303,6 +304,7 @@ class StoredLog:
     ### @override-able surface for extension
 
     def __init__(self):
+        self._entered: bool = False
         self.start: datetime.datetime|None = None
         self.site: str = self.default_site
         self.puzzle_id: str = ''
@@ -334,6 +336,21 @@ class StoredLog:
             'result': self.do_result,
             'debug': self.do_debug,
         })
+
+    def __enter__(self):
+        self._entered = True
+        # TODO log file handling here?
+        return self
+
+    def __exit__(
+        self,
+        exc_type: type[BaseException] | None,
+        exc: BaseException | None,
+        exc_tb: TracebackType | None,
+    ):
+        # TODO log file handling here?
+        self._entered = False
+        pass
 
     @property
     def expire(self) -> datetime.datetime|None:
@@ -890,6 +907,10 @@ class StoredLog:
         return choice.path
 
     def __call__(self, ui: PromptUI) -> PromptUI.State|None:
+        if not self._entered:
+            with self:
+                return ui.call_state(self)
+
         spec_match = re.fullmatch(r'''(?x)
                                   (?P<puzzle_id> .*? )
                                   :
