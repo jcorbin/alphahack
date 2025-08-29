@@ -1,0 +1,97 @@
+T0.0002230331301689148 now: 2025-08-29T13:31:42UTC
+TD45 site: squareword.org
+TDD13975325 🧩  ? #1306
+TDD-13975173 puzzle_id: #1306
+TDD-175 wordlist: nwl2023.txt
+TDD1712001 > *
+TDD84398 try? 1
+TDD-1796161 questioning: ["tears", "#5"]
+TDD8500174 #1 _____  📋 "tears" ? _____ ~ teas
+TDD-8500033 attempt 0 TEARS m m m n m
+TDD3416800 #2 _____  📋 "tears" ? _____ ~ eas
+TDD-3417038 attempt 1 TEARS n m m n m
+TDD4674245 #3 _____  📋 "tears" ? ___r_ ~ ts
+TDD-4674241 attempt 2 TEARS m n n Y m
+TDD3083798 #4 _____  📋 "tears" ? te___ ~ es
+TDD-3083800 attempt 3 TEARS Y Y n n m
+TDD2998716 #5 _____  📋 "tears" ? _____ ~ ers
+TDD-2998721 attempt 4 TEARS n m n m m
+TDD1538849 ? 
+TDD-1538885 question done
+TDD1896097 > *
+TDD-40678 try? 1
+TDD-1855387 questioning: ["tense", "#4"]
+TDD5068843 #1 _____ ~AEST -R  📋 "tense" ? ____e ~ tas
+TDD-5068848 attempt 0 TENSE m n n m Y
+TDD3670868 #2 _____ ~AES -RT  📋 "tense" ? _____ ~ easn
+TDD-3670870 attempt 1 TENSE n m m m m
+TDD1290245 #3 ___R_ ~ST -AE  📋 "tense" ? .
+TDD-1290272 attempt 2 TENSE m n n m n
+TDD752992 #4 TE___ ~S -AR  📋 "tense" ? /it
+TDD-753034 attempt 3 TENSE Y Y Y Y Y
+TDD3432036 #5 _____ ~ERS -AT  📋 "tense" ? _____ ~ ersn
+TDD-3431978 attempt 4 TENSE n m m m m
+TDD956101 ? 
+TDD-956172 question done
+TDD6017113 > *
+TDD-5381579 questioning: ["sneer", "#5"]
+TDD5176934 #1 ____E ~AST -NR  📋 "sneer" ? .
+TDD-5812391 attempt 0 SNEER m n n n n
+TDD5378246 #2 _____ ~AENS -RT  📋 "sneer" ? ___E_ ~ ASN
+TDD-5378232 attempt 1 SNEER m m n Y n
+TDD4066153 #3 ___R_ ~ST -AEN  📋 "sneer" ? S__R_ ~ T
+TDD-4066143 attempt 2 SNEER Y n n n n
+TDD2008194 #5 _____ ~ENRS -AT  📋 "sneer" ? /it
+TDD-2008210 attempt 4 SNEER Y Y Y Y Y
+TDD805213 ? 
+TDD-805281 question done
+TDD677485 > *
+TDD1774066 try? 1
+TDD-2451514 questioning: ["ashen", "#2"]
+TDD6170694 #1 ____E ~AST -ENR  📋 "ashen" ? .
+TDD-6170676 attempt 0 ASHEN m m n n n
+TDD4306055 #2 ___E_ ~ANS -RT  📋 "ashen" ? AS_EN
+TDD-4306044 attempt 1 ASHEN Y Y n Y Y
+TDD4896862 #3 S__R_ ~T -AENR  📋 "ashen" ? S__R_ ~ TH
+TDD-4896856 attempt 2 ASHEN n n m n n
+TDD773273 ? 
+TDD-773331 question done
+TDD773023 > *
+TDD400479 questioning: ["aspen", "#2"]
+TDD3212156 #1 ____E ~AST -EHNR  📋 "aspen" ? .
+TDD-4385622 attempt 0 ASPEN m m n n n
+TDD807229 #2 AS_EN -HRT  📋 "aspen" ? /it
+TDD-807284 attempt 1 ASPEN Y Y Y Y Y
+TDD1515411 #3 S__R_ ~HT -AENRS  📋 "aspen" ? .
+TDD-1515363 attempt 2 ASPEN n n n n n
+TDD453740 ? 
+TDD-453817 question done
+TDD524078 > *
+TDD577802 questioning: ["shirt", "#3"]
+TDD5384355 #1 ____E ~AST -EHNPR  📋 "shirt" ? .
+TDD-6486139 attempt 0 SHIRT m n n n m
+TDD1390811 #3 S__R_ ~HT -AENPRS  📋 "shirt" ? /it
+TDD-1390817 attempt 2 SHIRT Y Y Y Y Y
+TDD258718 ? 
+TDD-258758 question done
+TDD515441 > *
+TDD8517413 try? 2
+TDD-9032809 questioning: ["caste", "#1"]
+TDD3931102 #1 ____E ~AST -EHINPR  📋 "caste" ? /it
+TDD-3931098 attempt 0 CASTE Y Y Y Y Y
+TDD1425101 ? 
+TDD-1425161 question done
+TDD794120 Press <Enter> to 📋 or `>` for line prompt >
+TDD3230089 > squareword.org 1306: 7 guesses
+TDD-4024229 > 
+TDD-44 > 🟨🟨🟨🟨🟩
+TDD-3 > 🟩🟩🟩🟩🟩
+TDD9 > 🟩🟨🟨🟩🟨
+TDD-12 > 🟩🟩🟩🟩🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD-2 > 
+TDD1 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD538199 > #squareword #squareword1306
+TDD3827 > ␚
+TDD-541612 result: "squareword.org 1306: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1306"
+TDD393838 📆 2025-08-29 ? 
