@@ -121,7 +121,8 @@ class StoredLog:
         self.from_args(args)
         trace = cast(bool, args.trace)
 
-        return PromptUI.main(self, trace=trace)
+        with self:
+            return PromptUI.main(self, trace=trace)
 
     dt_fmt: str = '%Y-%m-%dT%H:%M:%S%Z'
     default_site: str = ''
@@ -153,6 +154,19 @@ class StoredLog:
             'report': self.do_report,
             'result': self.do_result,
         })
+
+    def __enter__(self):
+        # TODO log file handling here?
+        return self
+
+    def __exit__(
+        self,
+        exc_type: type[BaseException] | None,
+        exc: BaseException | None,
+        exc_tb: TracebackType | None,
+    ):
+        # TODO log file handling here?
+        pass
 
     @property
     def expire(self) -> datetime.datetime|None:
