@@ -13,7 +13,7 @@ from urllib.parse import urlparse
 
 from store import StoredLog, git_txn
 from strkit import MarkedSpec
-from wordlist import Browser, WordList, format_browser_lines, whatadded
+from wordlist import Browser as WordBrowser, WordList, format_browser_lines, whatadded
 from ui import PromptUI
 
 @contextmanager
@@ -252,7 +252,7 @@ class Search(StoredLog):
         self._result: Result|None = None
 
         # per-round prompt state
-        self.view = Browser(self.words)
+        self.view = WordBrowser(self.words)
         self.may_suggest: bool = True
         self.can_suggest: int|None = None
         self.questioning: int|None = None
@@ -470,7 +470,7 @@ class Search(StoredLog):
     def _set_words(self, words: Iterable[str]|list[str]):
         self.words = words if isinstance(words, list) else sorted(words)
         self.wordix = list(range(len(self.words)))
-        self.view = Browser(self.words)
+        self.view = WordBrowser(self.words)
         self.lo = 0
         self.hi = len(self.words)
 
