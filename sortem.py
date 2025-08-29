@@ -20,15 +20,15 @@ class MatchPat:
     def parse_arg(cls, pk: PeekStr):
         match = pk.have(r'/(.+)')
         if match:
-            return cls(re.compile(str(match[1])))
+            return cls(re.compile(str(match[1]), flags=re.I))
 
         arg = pk.have(':g') and next(pk, None)
         if arg:
-            return cls(re.compile(arg))
+            return cls(re.compile(arg, flags=re.I))
 
         arg = pk.have(':v') and next(pk, None)
         if arg:
-            return cls(re.compile(arg), neg=True)
+            return cls(re.compile(arg, flags=re.I), neg=True)
 
     pat: re.Pattern[str]
     neg: bool = False
