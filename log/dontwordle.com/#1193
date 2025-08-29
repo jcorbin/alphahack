@@ -1,0 +1,93 @@
+T0.0002084728330373764 now: 2025-08-29T13:39:57UTC
+TD40 site: dontwordle.com
+TDD-12 wordlist: nwl2023.txt
+TDD9507063 1> * -bot 10
+TDD-6391050 ? 5
+TDD2808974 📋 "aisle" ? nnMYY
+TDD-5924702 tried: AISLE n n m Y Y
+TDD1661374 2> undo
+TDD-1661610 undo
+TDD3824785 1> *
+TDD-2064049 ? 1
+TDD5343925 📋 "qajaq" ? nnnnn
+TDD-7104593 tried: QAJAQ n n n n n
+TDD582205 2> *
+TDD623945 ? 1
+TDD2902964 📋 "yuppy" ? nnnnn
+TDD-4109128 tried: YUPPY n n n n n
+TDD710521 3> *
+TDD864855 ? 1
+TDD3432332 📋 "rotor" ? nnMMnn
+TDD2155759 📋 "rotor" ? nMMnn
+TDD-7163448 tried: ROTOR n m m n n
+TDD1088273 4> undo
+TDD-1088340 undo
+TDD5573818 3> *
+TDD-3316419 ? 1
+TDD1075248 📋 "whizz" ? nnnnn
+TDD-3332617 tried: WHIZZ n n n n n
+TDD592942 4> *
+TDD3267629 4> * -sans :v [elos]
+TDD3583307 4> * -sans :v [elot]
+TDD1437265 <INT>
+T0.00863991491496563 now: 2025-08-29T13:53:18UTC
+TD1209092 4> *
+TDD8954252 <INT>
+T0.0016888445243239403 now: 2025-08-29T13:58:27UTC
+TD2564624 4> *
+TDD17772729 <INT>
+T0.0018307669088244438 now: 2025-08-29T13:59:51UTC
+TD942305 4> *
+TDD12251360 <INT>
+T0.0019082771614193916 now: 2025-08-29T14:00:32UTC
+TD969562 4> *
+TDD8391150 <INT>
+T0.0020212987437844276 now: 2025-08-29T14:01:31UTC
+TD723311 4> *
+TDD2951503 <INT>
+T0.0019649574533104897 now: 2025-08-29T14:09:24UTC
+TD580371 4> *
+TDD5005328 <INT>
+T0.0021522510796785355 now: 2025-08-29T14:15:58UTC
+TD617600 4> *
+TDD7487174 <INT>
+T0.0021832212805747986 now: 2025-08-29T14:16:44UTC
+TD1138566 4> *
+TDD14435306 📋 "grrrl" ? nnnnM
+TDD-15573664 tried: GRRRL n n n n m
+TDD1903176 5> *
+TDD5550574 <INT>
+TDD-7453869 <INT>
+T0.0022588232532143593 now: 2025-08-29T14:17:59UTC
+TD503083 5> *
+TDD1770315 <INT>
+TDD-2273317 <INT>
+T0.0023253746330738068 now: 2025-08-29T14:18:46UTC
+TD508421 5> *
+TDD3942930 <INT>
+TDD-4451278 <INT>
+T0.002500946633517742 now: 2025-08-29T14:19:29UTC
+TD3830639 5> *
+TDD13222549 ? 1
+TDD-12224832 📋 "block" ? nMYnn
+TDD-4828155 tried: BLOCK n m Y n n
+TDD2747765 6> *
+TDD4375694 📋 "ovolo" ? nnYYn
+TDD-7123530 tried: OVOLO n n Y Y n
+TDD962047 Press <Enter> to 📋 or `>` for line prompt >
+TDD2028375 > Don't Wordle 1193 - SURVIVED
+TDD-2990466 > Hooray! I didn't Wordle today!
+TDD-63 > ⬜⬜⬜⬜⬜7419
+TDD-3 > ⬜⬜⬜⬜⬜3978
+TDD11 > ⬜⬜⬜⬜⬜1554
+TDD-11 > ⬜⬜⬜⬜🟨253
+TDD-1 > ⬜🟨🟩⬜⬜19
+TDD0 > ⬜⬜🟩🟩⬜4
+TDD0 > Undos used: 2
+TDD1 > 
+TDD0 >   4 words remaining
+TDD0 > x 8 unused letters
+TDD483886 > = 32 total score
+TDD25323 > ␚
+TDD-508401 result: "Don't Wordle 1193 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7419\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3978\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1554\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8253\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c19\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c4\nUndos used: 2\n\n  4 words remaining\nx 8 unused letters\n= 32 total score"
+TDD803526 📆 2025-08-29 ? 
