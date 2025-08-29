@@ -13,6 +13,7 @@ html5lib = "*"
 python-dotenv = "*"
 emoji = "*"
 beautifulsoup4 = "*"
+playwright = "*"
 
 [dev-packages]
 
