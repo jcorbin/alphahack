@@ -5,10 +5,11 @@ import json
 import re
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
+from itertools import combinations
 from os import path
 from typing import cast, final, override
 
-from sortem import Chooser, DiagScores, Possible, RandScores
+from sortem import Chooser, DiagScores, MatchPat, Possible, RandScores
 from store import StoredLog, git_txn
 from strkit import spliterate
 from ui import PromptUI
@@ -302,6 +303,44 @@ class DontWord(StoredLog):
             lambda words: self.select(ui, words, jitter=jitter),
             choices=chooser.choices,
             verbose=verbose)
+
+        if not pos.data and not sans and not chooser and self.void_letters:
+            sans_words, sans_tried_words = self._guess(ui, verbose=verbose, sans=True)
+            if sans_words:
+                tried_words = sans_tried_words
+                how = '-sans'
+                for k in range(1, len(self.void_letters)):
+                    k_pats = tuple(
+                        MatchPat(re.compile(f'[{''.join(comb)}]', flags=re.I), neg=True)
+                        for comb in combinations(self.void_letters, len(self.void_letters)-k))
+                    k_pos = tuple(
+                        Possible(
+                            sans_words,
+                            lambda words: self.select(ui, words, jitter=jitter),
+                            choices=(pat,),
+                            verbose=verbose)
+                        for pat in k_pats)
+                    k_have = tuple(
+                        sum(1 for _ in ps.index())
+                        for ps in k_pos)
+                    if any(k_have):
+                        min_i = min((
+                            (n, i)
+                            for i, n in enumerate(k_have)
+                            if n > 0
+                        ), key=lambda ni: ni[0])[1]
+                        pos = k_pos[min_i]
+                        have = k_have[min_i]
+                        how = f'{how} {k_pats[min_i].arg_str()}'
+                        break
+                else:
+                    pos = Possible(
+                        sans_words,
+                        lambda words: self.select(ui, words, jitter=jitter),
+                        choices=chooser.choices,
+                        verbose=verbose)
+                    have = sum(1 for _ in pos.index())
+                ui.print(f'auto try harder: {how} ... {have} / {pos}')
 
         def parts():
             yield f'{pos} from {self.word}'
