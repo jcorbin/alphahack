@@ -456,9 +456,18 @@ class Sample:
 
 @final
 class Chooser:
-    def __init__(self, show_n: int = 10):
+    def __init__(self,
+                 show_n: int = 10,
+                 priors: Iterable[Sample.Choice|MatchPat] = (),
+                 ):
         self.show_n = show_n
-        self._choices: list[Sample.Choice|MatchPat] = []
+        self._choices: list[Sample.Choice|MatchPat] = list(priors)
+
+    def __len__(self):
+        return len(self._choices)
+
+    def __iter__(self):
+        return iter(self._choices)
 
     def append(self, choiceOrPattern: Sample.Choice|MatchPat):
         self._choices.append(choiceOrPattern)
