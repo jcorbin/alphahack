@@ -295,6 +295,37 @@ class DontWord(StoredLog):
             ui.print(f'! invalid * arg {next(ui.tokens)!r}')
             return
 
+        match_words, tried_words = self._guess(ui, verbose=verbose, sans=sans)
+
+        pos = Possible(
+            match_words,
+            lambda words: self.select(ui, words, jitter=jitter),
+            choices=chooser.choices,
+            verbose=verbose)
+
+        def parts():
+            yield f'{pos} from {self.word}'
+            if tried_words:
+                yield f'less ∩tried {len(tried_words)}'
+
+        if pos.data:
+            return ui.interact(pos.choose(
+                then=self.question,
+                head=lambda ui: ui.print(' '.join(parts())),
+            ))
+
+        elif tried_words:
+            return ui.interact(ui.Choose(
+                range(len(tried_words)),
+                then=lambda i: self.question(tried_words[i][1]), # XXX ret from
+                head=lambda ui: ui.print(f'{' '.join(parts())}; maybe reconsider:')
+            ))
+
+    def _guess(self,
+               ui: PromptUI,
+               verbose: int=0,
+               sans: bool=False):
+
         void = None if sans or not self.void_letters else self.void_letters
         pat = self.word.pattern(void=void)
         if verbose:
@@ -324,29 +355,7 @@ class DontWord(StoredLog):
                             if not self.word.yes[i]:
                                 ui.print(f'    - {let.upper()} from {self.tried[j]!r}[{i}]')
 
-        pos = Possible(
-            sorted(words),
-            lambda words: self.select(ui, words, jitter=jitter),
-            choices=chooser.choices,
-            verbose=verbose)
-
-        def parts():
-            yield f'{pos} from {self.word}'
-            if tried_words:
-                yield f'less ∩tried {len(tried_words)}'
-
-        if pos.data:
-            return ui.interact(pos.choose(
-                then=self.question,
-                head=lambda ui: ui.print(' '.join(parts())),
-            ))
-
-        elif tried_words:
-            return ui.interact(ui.Choose(
-                range(len(tried_words)),
-                then=lambda i: self.question(tried_words[i][1]), # XXX ret from
-                head=lambda ui: ui.print(f'{' '.join(parts())}; maybe reconsider:')
-            ))
+        return tuple(sorted(words)), tried_words
 
     def question(self, word: str):
         def then(word: str, res: Feedback):
