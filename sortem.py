@@ -33,6 +33,12 @@ class MatchPat:
     pat: re.Pattern[str]
     neg: bool = False
 
+    def arg_str(self):
+        if self.neg:
+            return f':v {self.pat.pattern}'
+        else:
+            return f':g {self.pat.pattern}'
+
     def __call__(self, s: str):
         have = bool(self.pat.search(s))
         if self.neg: have = not have
