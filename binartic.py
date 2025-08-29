@@ -490,6 +490,26 @@ class Search(StoredLog):
             ui.print('empty wordlist')
             raise StopIteration
 
+        # # TODO into super() ?
+
+        # browser = self.browser()
+
+        # # TODO find pre-existing page ?
+        # for ctx in browser.contexts:
+        #     for page in ctx.pages:
+        #         ui.print(f'prior page {page.url} \\ {page} \\ {ctx} ')
+
+        # page = browser.new_page()
+
+        # page.bring_to_front()
+        # res = page.goto(self.site)
+        # # TODO page.close wen
+        # ui.print(f'loaded page {res}')
+
+        # for ctx in browser.contexts:
+        #     for page in ctx.pages:
+        #         ui.print(f'have page {page.url} \\ {page} \\ {ctx} ')
+
         ui.print(f'searching {self.remain} words')
         return self.prompt
 
