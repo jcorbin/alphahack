@@ -1,0 +1,128 @@
+T0.00019481312483549118 now: 2025-08-29T13:34:52UTC
+TD39 site: https://play.dictionary.com/games/todays-hurdle
+TDD-11 wordlist: nwl2023.txt
+TDD3025371 1.1> *
+TDD-65195 1.1 ? 4
+TDD1687345 1.1 📋 "tires" ? nnMMn
+TDD-4647238 tried: TIRES n n m m n
+TDD482952 1.2> *
+TDD2075682 1.2 ? 3
+TDD2157233 1.2 📋 "yearn" ? nYnMn
+TDD-4716042 tried: YEARN n Y n m n
+TDD461569 1.3> *
+TDD773746 1.3 ? 1
+TDD2630850 1.3 📋 "demur" ? nYYYY
+TDD-3866174 tried: DEMUR n Y Y Y Y
+TDD419590 1.4> *
+TDD1313106 1.4 ? 2
+TDD2191496 1.4 📋 "femur" ? nYYYY
+TDD-3924201 tried: FEMUR n Y Y Y Y
+TDD400521 1.5> *
+TDD2555913 1.5 📋 "lemur" ? it
+TDD-2956451 tried: LEMUR Y Y Y Y Y
+TDD12624667 2.1 📋 "lemur" ? nMnnM
+TDD-12624652 tried: LEMUR n m n n m
+TDD1104837 2.2> *
+TDD121971 2.2 ? 1
+TDD3145071 2.2 📋 "raise" ? MnnnY
+TDD-4371884 tried: RAISE m n n n Y
+TDD1066549 2.3> *
+TDD1799004 2.3 ? 4
+TDD2862261 2.3 📋 "drove" ? nMMnY
+TDD-5727809 tried: DROVE n m m n Y
+TDD3300670 2.4> *
+TDD1794073 2.4 ? nMMnY
+TDD-2291039 2.4 ? 2
+TDD-844993 2.4 📋 "forge" ? nMMnY
+TDD-1958715 tried: FORGE n m m n Y
+TDD1643263 2.5> *
+TDD2618269 2.5 📋 "ochre" ? it
+TDD-4261543 tried: OCHRE Y Y Y Y Y
+TDD19514692 3.1 📋 "ochre" ? nMMnn
+TDD-19514681 tried: OCHRE n m m n n
+TDD2555676 3.2> *
+TDD2263794 3.2 ? 5
+TDD-778388 3.2 📋 "pinch" ? nnYYY
+TDD-4041061 tried: PINCH n n Y Y Y
+TDD491603 3.3> *
+TDD3957335 3.3 ? 1
+TDD1737215 3.3 📋 "munch" ? nYYYY
+TDD-6186175 tried: MUNCH n Y Y Y Y
+TDD449287 3.4> *
+TDD4825507 3.4 ? 2
+TDD-1697549 3.4 📋 "lunch" ? nYYYY
+TDD-3577222 tried: LUNCH n Y Y Y Y
+TDD420797 3.5> *
+TDD3831885 3.5 ? 3
+TDD-805677 3.5 📋 "hunch" ? nYYYY
+TDD-3447031 tried: HUNCH n Y Y Y Y
+TDD549436 3.6> *
+TDD2401104 3.6 ? 1
+TDD2397481 3.6 📋 "bunch" ? it
+TDD-5348016 tried: BUNCH Y Y Y Y Y
+TDD20637028 4.1 📋 "bunch" ? nnnnn
+TDD-20637033 tried: BUNCH n n n n n
+TDD452824 4.2> *
+TDD4737896 4.2 ? 9
+TDD-784646 4.2 📋 "smear" ? nnnMY
+TDD-4406072 tried: SMEAR n n n m Y
+TDD510221 4.3> (
+TDD210673 4.3> *
+TDD6442697 4.3 ? 5
+TDD-67746 4.3 📋 "valor" ? MYnYY
+TDD-7095829 tried: VALOR m Y n Y Y
+TDD1335315 4.4> *
+TDD2818370 4.4 📋 "favor" ? it
+TDD-4153721 tried: FAVOR Y Y Y Y Y
+TDD20563646 5.1 📋 "lemur" ? nnnnn
+TDD-20563617 tried: LEMUR n n n n n
+TDD2631262 5.2 📋 "ochre" ? Mnnnn
+TDD-2631265 tried: OCHRE m n n n n
+TDD1530989 5.3 📋 "bunch" ? nnnnn
+TDD-1530992 tried: BUNCH n n n n n
+TDD2326369 5.4 📋 "favor" ? nnnMn
+TDD-2326367 tried: FAVOR n n n m n
+TDD538114 5.5> *
+TDD6506038 5.5 ? 1
+TDD-2329192 5.5 📋 "podgy" ? nYYnY
+TDD-4714963 tried: PODGY n Y Y n Y
+TDD636631 5.6> *
+TDD8486848 5.6 ? 2
+TDD-1511254 5.6 📋 "soddy" ? nYYYY
+TDD-7612222 tried: SODDY n Y Y Y Y
+TDD1609026 5.7> fail TODDY
+TDD-1609045 fail: TODDY
+TDD2014272 Press <Enter> to 📋 or `>` for line prompt >
+TDD1325569 > Hurdle 1336
+TDD-3339866 > 
+TDD-54 > 5/6
+TDD-3 > ⬜⬜🟨🟨⬜
+TDD-2 > ⬜🟩⬜🟨⬜
+TDD-1 > ⬜🟩🟩🟩🟩
+TDD0 > ⬜🟩🟩🟩🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > 5/6
+TDD0 > ⬜🟨⬜⬜🟨
+TDD0 > 🟨⬜⬜⬜🟩
+TDD0 > ⬜🟨🟨⬜🟩
+TDD0 > ⬜🟨🟨⬜🟩
+TDD16 > 🟩🟩🟩🟩🟩
+TDD-4 > 6/6
+TDD-11 > ⬜🟨🟨⬜⬜
+TDD0 > ⬜⬜🟩🟩🟩
+TDD0 > ⬜🟩🟩🟩🟩
+TDD1 > ⬜🟩🟩🟩🟩
+TDD-1 > ⬜🟩🟩🟩🟩
+TDD2 > 🟩🟩🟩🟩🟩
+TDD-2 > 4/6
+TDD0 > ⬜⬜⬜⬜⬜
+TDD0 > ⬜⬜⬜🟨🟩
+TDD0 > 🟨🟩⬜🟩🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD-1 > Final X/2
+TDD0 > ⬜🟩🟩⬜🟩
+TDD0 > ⬜🟩🟩🟩🟩
+TDD761419 > score: 4,460
+TDD-283820 > ␚
+TDD-477149 result: "Hurdle 1336\n\n5/6\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n6/6\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 4,460"
+TDD828957 📆 2025-08-29 ? 
