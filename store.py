@@ -542,6 +542,9 @@ class StoredLog:
             return self
         if not self.ephemeral:
             raise CutoverLogError(log_file)
+        self.set_log_file(ui, log_file)
+
+    def set_log_file(self, ui: PromptUI, log_file: str):
         if self.loaded:
             self.__init__()
         if log_file and os.path.exists(log_file):
@@ -549,7 +552,6 @@ class StoredLog:
                 for _ in self.load(ui, f): pass
         self.loaded = True
         self.log_file = log_file
-        return self
 
     def __call__(self, ui: PromptUI) -> PromptUI.State|None:
         spec_match = re.fullmatch(r'''(?x)
