@@ -1,0 +1,126 @@
+T0.00020496360957622528 now: 2025-08-30T12:42:38UTC
+TD40 site: squareword.org
+TDD8633186 🧩  ? #1307
+TDD-8633040 puzzle_id: #1307
+TDD-151 wordlist: nwl2023.txt
+TDD1122051 > *
+TDD1810246 try? 4
+TDD-2932074 questioning: ["stale", "#5"]
+TDD4349190 #1 _____  📋 "stale" ? _____ ~ LE
+TDD-4349037 attempt 0 STALE n n n m m
+TDD2806643 #2 _____  📋 "stale" ? ___L_ ~ AL
+TDD-2806897 attempt 1 STALE n n m Y n
+TDD4255647 #3 _____  📋 "stale" ? _____ ~ AE
+TDD-4255637 attempt 2 STALE n n m n m
+TDD2276691 #4 _____  📋 "stale" ? ____E ~ E
+TDD-2276695 attempt 3 STALE n n n n Y
+TDD2362496 #5 _____  📋 "stale" ? _____ ~ ST
+TDD-2362489 attempt 4 STALE m m n n n
+TDD350984 ? 
+TDD-351042 question done
+TDD4204761 > *
+TDD-1561032 try? 1
+TDD-2643289 questioning: ["madly", "#2"]
+TDD4764453 #1 _____ ~EL -AST  📋 "madly" ? .
+TDD-4764842 attempt 0 MADLY n n n m n
+TDD2911563 #2 ___L_ ~A -EST  📋 "madly" ? _A_L_ ~ L
+TDD-2911570 attempt 1 MADLY n Y n Y n
+TDD3439914 #3 _____ ~AE -LST  📋 "madly" ? __D__ ~ AED
+TDD-3439898 attempt 2 MADLY n m Y n n
+TDD6700246 #4 ____E -ALST  📋 "madly" ? ____E ~ E
+TDD-6700257 attempt 3 MADLY n n n n n
+TDD1766552 #5 _____ ~ST -AEL  📋 "madly" ? .
+TDD-1766558 attempt 4 MADLY n n n n n
+TDD355035 ? 
+TDD-355112 question done
+TDD629408 > *
+TDD3962735 try? 2
+TDD-4592067 questioning: ["caulk", "#2"]
+TDD6885879 #1 _____ ~EL -ADMSTY  📋 "caulk" ? C____ ~ LE
+TDD-6885869 attempt 0 CAULK Y n n m n
+TDD4661052 #2 _A_L_ -DEMSTY  📋 "caulk" ? _A_L_ ~ L
+TDD-4661064 attempt 1 CAULK n Y n Y n
+TDD4606332 #3 __D__ ~AE -LMSTY  📋 "caulk" ? __D__ ~ AED
+TDD-4606301 attempt 2 CAULK n m n n n
+TDD4060842 #4 ____E -ADLMSTY  📋 "caulk" ? ____E ~ EC
+TDD-4060856 attempt 3 CAULK m n n n n
+TDD1215734 #5 _____ ~ST -ADELMY  📋 "caulk" ? .
+TDD-1215761 attempt 4 CAULK n n n n n
+TDD307005 ? 
+TDD-307079 question done
+TDD634508 > *
+TDD-148644 questioning: ["hallo", "#2"]
+TDD6932602 #1 C____ ~EL -ADKMSTUY  📋 "hallo" ? .
+TDD-7418389 attempt 0 HALLO n n m m n
+TDD922607 #2 _A_L_ -CDEKMSTUY  📋 "hallo" ? /it
+TDD-922622 attempt 1 HALLO Y Y Y Y Y
+TDD4649923 #3 __D__ ~AE -CKLMSTUY  📋 "hallo" ? __D__ ~ AED
+TDD-4649889 attempt 2 HALLO n m n n n
+TDD7464570 #4 ____E ~C -ADKLMSTUY  📋 "hallo" ? ____E ~ EC
+TDD-7464588 attempt 3 HALLO n n n n n
+TDD4994748 #5 _____ ~ST -ACDEKLMUY  📋 "hallo" ? _____ ~ STO
+TDD-4994738 attempt 4 HALLO n n n n m
+TDD655608 ? 
+TDD-655667 question done
+TDD752100 > *
+TDD263740 questioning: ["creel", "#1"]
+TDD2426424 #1 C____ ~EL -ADHKMOSTUY  📋 "creel" ? /it
+TDD-3442231 attempt 0 CREEL Y Y Y Y Y
+TDD3239685 #3 __D__ ~AE -CHKLMOSTUY  📋 "creel" ? __DE_ ~ AD
+TDD-3239644 attempt 2 CREEL n n n Y n
+TDD3745538 #4 ____E ~C -ADHKLMOSTUY  📋 "creel" ? __E_E ~ C
+TDD-3745546 attempt 3 CREEL m n Y n n
+TDD3896324 #5 _____ ~OST -ACDEHKLMUY  📋 "creel" ? _____ ~ STOR
+TDD-3896358 attempt 4 CREEL n m n n n
+TDD318324 ? 
+TDD-318348 question done
+TDD692304 > *
+TDD2872052 try? 1
+TDD-3564316 questioning: ["aided", "#3"]
+TDD6617157 #3 __DE_ ~A -CHKLMORSTUY  📋 "aided" ? A_DED ~ D
+TDD-6617138 attempt 2 AIDED Y n Y Y Y
+TDD3003275 #4 __E_E ~C -ADHKLMORSTUY  📋 "aided" ? _IE_E ~ C
+TDD-3003285 attempt 3 AIDED n Y n n n
+TDD2712047 #5 _____ ~ORST -ACDEHKLMUY  📋 "aided" ? _____ ~ STOR
+TDD-2712041 attempt 4 AIDED n n n n n
+TDD800815 ? 
+TDD-800754 question done
+TDD1850367 > *
+TDD-60072 questioning: ["added", "#3"]
+TDD1502947 #3 A_DED -CHIKLMORSTUY  📋 "added" ? /it
+TDD-3293328 attempt 2 ADDED Y Y Y Y Y
+TDD3971207 #4 _IE_E ~C -ADEHKLMORSTUY  📋 "added" ? .
+TDD-3971207 attempt 3 ADDED n n n n n
+TDD1129901 #5 _____ ~ORST -ACDEHIKLMUY  📋 "added" ? .
+TDD-1129893 attempt 4 ADDED n n n n n
+TDD432633 ? 
+TDD-432696 question done
+TDD547419 > *
+TDD2300897 try? 1
+TDD-2848262 questioning: ["niece", "#4"]
+TDD3517161 #4 _IE_E ~C -ADEHKLMORSTUY  📋 "niece" ? /it
+TDD-3517150 attempt 3 NIECE Y Y Y Y Y
+TDD2196100 #5 _____ ~ORST -ACDEHIKLMUY  📋 "niece" ? .
+TDD-2196111 attempt 4 NIECE n n n n n
+TDD697440 ? 
+TDD-697485 question done
+TDD634120 > *
+TDD365121 questioning: ["torts", "#5"]
+TDD4919904 #5 _____ ~ORST -ACDEHIKLMNUY  📋 "torts" ? /it
+TDD-5919071 attempt 4 TORTS Y Y Y Y Y
+TDD1097862 ? 
+TDD-1097930 question done
+TDD1536237 Press <Enter> to 📋 or `>` for line prompt >
+TDD2344419 > squareword.org 1307: 9 guesses
+TDD-3880668 > 
+TDD-62 > 🟩🟩🟩🟩🟩
+TDD-4 > 🟩🟩🟩🟩🟩
+TDD-1 > 🟨🟨🟩🟩🟨
+TDD-2 > 🟨🟨🟩🟨🟩
+TDD0 > 🟨🟨🟨🟨🟨
+TDD-1 > 
+TDD1 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD673514 > #squareword #squareword1307
+TDD-112736 > ␚
+TDD-560329 result: "squareword.org 1307: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1307"
+TDD727145 📆 2025-08-30 ? 
