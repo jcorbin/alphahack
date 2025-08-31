@@ -1,0 +1,51 @@
+T0.00025908369570970535 now: 2025-08-31T13:12:03UTC
+TD64877 loaded 196551 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (52 words excluded) asof 4a8cbc3a258492d13dea66a8a44c564d7d6859f0
+TDD4992309 [0 : 98233 : 196551] mach? a
+TDD-5056971 progress: 1 98233 mach
+TDD1567395 [98234 : 147389 : 196551] rhotic? b
+TDD-1567506 progress: -1 147389 rhotic
+TDD1550491 [98234 : 122796 : 147389] parr? a
+TDD-1550519 progress: 1 122796 parr
+TDD1417169 [122797 : 135086 : 147389] proper? a
+TDD-1417154 progress: 1 135086 proper
+TDD3215343 [135087 : 140535 : 147389] rec? b
+TDD-3215349 progress: -1 140535 rec
+TDD1510663 [135087 : 137806 : 140535] quart? a
+TDD-1510672 progress: 1 137806 quart
+TDD3245734 [137807 : 139075 : 140535] ram? b
+TDD-3245724 progress: -1 139075 ram
+TDD1512707 [137807 : 138434 : 139075] rabbit? a
+TDD-1512719 progress: 1 138434 rabbit
+TDD1431005 [138435 : 138670 : 139075] radio? a
+TDD-1431002 progress: 1 138670 radio
+TDD1642615 [138671 : 138836 : 139075] rag? a
+TDD-1642606 progress: 1 138836 rag
+TDD1369350 [138837 : 138951 : 139075] rain? a
+TDD-1369358 progress: 1 138951 rain
+TDD1327171 [138952 : 139008 : 139075] rais? a
+TDD-1327172 progress: 1 139008 rais
+TDD2154911 [139009 : 139042 : 139075] raki? b
+TDD-2154906 progress: -1 139042 raki
+TDD2095693 [139009 : 139024 : 139042] raj? b
+TDD-2095708 progress: -1 139024 raj
+TDD1606657 [139009 : 139016 : 139024] raisin? b
+TDD-1606648 progress: -1 139016 raisin
+TDD1838911 [139009 : 139010 : 139016] raise? it
+TDD-1838906 progress: 0 139010 raise
+TDD-53 [139009 : 139010 : 139016] <Done>.
+TDD2223731 press <Return> to finish
+TDD-1596335 Press <Enter> to 📋 or `>` for line prompt >
+TDD2818220 > 🧩 Puzzle #768
+TDD-3445581 > 
+TDD-42 > 🤔 16 guesses
+TDD-4 > 
+TDD0 > ⏱️ 27s
+TDD0 > 
+TDD694638 > 🔗 alphaguess.com
+TDD-283734 > ␚
+TDD-410531 share result: "\ud83e\udde9 Puzzle #768\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 27s\n\n\ud83d\udd17 alphaguess.com"
+TDD-368 result puzzle: 768
+TDD-9 result guesses: 16
+TDD-2 result time: 27s
+TDD0 result link: alphaguess.com
+TDD1607809 📆 2025-08-31 ? 
