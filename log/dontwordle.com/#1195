@@ -1,0 +1,57 @@
+T0.0002497537061572075 now: 2025-08-31T14:18:45UTC
+TD45 site: dontwordle.com
+TDD-19 wordlist: nwl2023.txt
+TDD4955711 1> *
+TDD-2082166 ? ␚
+TDD-2873524 <EOF>
+TDD1484598 1> * -bot 10
+TDD913273 ? 3
+TDD4016115 📋 "tares" ? nnMMn
+TDD-6413738 tried: TARES n n m m n
+TDD1044932 2> *
+TDD3115253 ? ␚
+TDD-4160440 <EOF>
+TDD980794 2> undo
+TDD-980743 undo
+TDD3423817 1> *
+TDD-2264684 ? 1
+TDD70951079 📋 "vivid" ? nnnnn
+TDD-72110177 tried: VIVID n n n n n
+TDD537459 2> *
+TDD779522 ? 1
+TDD2558370 📋 "kabab" ? nnnnn
+TDD-3875342 tried: KABAB n n n n n
+TDD561824 3> *
+TDD4215751 ? nnnnn
+TDD-3637013 ? 1
+TDD215243 📋 "xylyl" ? nnnnn
+TDD-1355832 tried: XYLYL n n n n n
+TDD516823 4> *
+TDD1605165 ? 1
+TDD2861605 📋 "jujus" ? nnnnn
+TDD-4983586 tried: JUJUS n n n n n
+TDD602603 5> *
+TDD1062641 ? 1
+TDD3746263 📋 "whoof" ? nYYnn
+TDD-5411488 tried: WHOOF n Y Y n n
+TDD599348 6> *
+TDD2007979 ? 1
+TDD2850091 📋 "thong" ? nYYnn
+TDD-5457438 tried: THONG n Y Y n n
+TDD1230363 Press <Enter> to 📋 or `>` for line prompt >
+TDD1722512 > Don't Wordle 1195 - SURVIVED
+TDD-2952902 > Hooray! I didn't Wordle today!
+TDD-69 > ⬜⬜⬜⬜⬜7346
+TDD-3 > ⬜⬜⬜⬜⬜2905
+TDD0 > ⬜⬜⬜⬜⬜1643
+TDD-3 > ⬜⬜⬜⬜⬜402
+TDD1 > ⬜🟩🟩⬜⬜9
+TDD0 > ⬜🟩🟩⬜⬜3
+TDD0 > Undos used: 1
+TDD0 > 
+TDD0 >   3 words remaining
+TDD0 > x 7 unused letters
+TDD288068 > = 21 total score
+TDD467627 > ␚
+TDD-754891 result: "Don't Wordle 1195 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7346\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2905\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1643\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c402\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c3\nUndos used: 1\n\n  3 words remaining\nx 7 unused letters\n= 21 total score"
+TDD1027712 📆 2025-08-31 ? 
