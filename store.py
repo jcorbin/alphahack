@@ -657,12 +657,15 @@ class StoredLog:
         try:
             if log_file is not None:
                 self.log_file = log_file
-            self.ephemeral = False
-            with open(self.log_file, 'a') as f:
-                with ui.deps(log_file=f) as ui:
-                    now = datetime.datetime.now(tzlocal())
-                    ui.log(f'now: {now:{self.dt_fmt}}')
-                    yield self, ui
+            if self.stored:
+                yield self, ui
+            else:
+                self.ephemeral = False
+                with open(self.log_file, 'a') as f:
+                    with ui.deps(log_file=f) as ui:
+                        now = datetime.datetime.now(tzlocal())
+                        ui.log(f'now: {now:{self.dt_fmt}}')
+                        yield self, ui
         finally:
             self.ephemeral = True
             self.log_file = prior_log_file
