@@ -202,6 +202,8 @@ class StoredLog:
         if self.dirty:
             with git_txn(f'{self.site_name or self.store_name} {self.puzzle_id} result', ui=ui) as txn:
                 txn.add(self.log_file)
+            if self.in_report(ui):
+                self.do_report(ui)
             raise StopIteration
 
         return self.review_prompt
@@ -856,6 +858,18 @@ class StoredLog:
 
     def report_note(self, desc: str|None = None) -> str:
         return  f'- 🔗 {self.site_name or self.site} 🧩 {self.puzzle_id} {self.report_desc if desc is None else desc}'
+
+    def in_report(self, _ui: PromptUI):
+        prefixes = (
+            self.report_header(desc=''),
+            self.report_note(desc=''),
+        )
+        with open(self.report_file) as lines:
+            return any(
+                any(
+                    line.startswith(prefix)
+                    for prefix in prefixes)
+                for line in lines)
 
     def do_report(self, ui: PromptUI):
         head_id = self.report_header(desc='')
