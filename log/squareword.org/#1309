@@ -1,0 +1,116 @@
+T0.00022855307906866074 now: 2025-09-01T12:18:56UTC
+TD39 site: squareword.org
+TDD9019618 🧩  ? #1309
+TDD-9019469 puzzle_id: #1309
+TDD-164 wordlist: nwl2023.txt
+TDD1205509 > *
+TDD1193481 try? 4
+TDD-2398751 questioning: ["paste", "#5"]
+TDD4621700 #1 _____  📋 "paste" ? _____ ~ SE
+TDD-4621596 attempt 0 PASTE n n m n m
+TDD3044037 #2 _____  📋 "paste" ? _____ ~ A
+TDD-3044234 attempt 1 PASTE n m n n n
+TDD1915482 #3 _____  📋 "paste" ? _____ ~ A
+TDD-1915491 attempt 2 PASTE n m n n n
+TDD2176456 #4 _____  📋 "paste" ? _____ ~ E
+TDD-2176458 attempt 3 PASTE n n n n m
+TDD2341837 #5 _____  📋 "paste" ? _____ ~ STE
+TDD-2341840 attempt 4 PASTE n n m m m
+TDD748215 ? 
+TDD-748263 question done
+TDD646088 > *
+TDD5185921 try? 6
+TDD-5831948 questioning: ["heist", "#5"]
+TDD6378309 #1 _____ ~ES -APT  📋 "heist" ? .
+TDD-6378338 attempt 0 HEIST n m n m n
+TDD2477124 #2 _____ ~A -EPST  📋 "heist" ? _____ ~ AI
+TDD-2477114 attempt 1 HEIST n n m n n
+TDD4372641 #3 _____ ~A -EPST  📋 "heist" ? __I__ ~ A
+TDD-4372637 attempt 2 HEIST n n Y n n
+TDD3224553 #4 _____ ~E -APST  📋 "heist" ? _____ ~ EI
+TDD-3224552 attempt 3 HEIST n m m n n
+TDD1285726 #5 _____ ~EST -AP  📋 "heist" ? .
+TDD-1285737 attempt 4 HEIST n m n m m
+TDD685737 ? 
+TDD-685789 question done
+TDD608736 > *
+TDD3142784 try? 2
+TDD-3751457 questioning: ["align", "#3"]
+TDD5367734 #1 _____ ~ES -AHIPT  📋 "align" ? _L___ ~ SE
+TDD-5367719 attempt 0 ALIGN n Y n n n
+TDD2775397 #2 _____ ~AI -EHPST  📋 "align" ? _____ ~ AIL
+TDD-2775402 attempt 1 ALIGN m m m n n
+TDD3339530 #3 __I__ ~A -EHPST  📋 "align" ? A_IG_ 
+TDD-3339540 attempt 2 ALIGN Y n Y Y n
+TDD2013682 #4 _____ ~EI -AHPST  📋 "align" ? .
+TDD-2013689 attempt 3 ALIGN n n m n n
+TDD3166771 #5 _____ ~EST -AHIP  📋 "align" ? ____N ~ STE
+TDD-3166758 attempt 4 ALIGN n n n n Y
+TDD511356 ? 
+TDD-511431 question done
+TDD593561 > *
+TDD152044 questioning: ["stern", "#5"]
+TDD12033889 #1 _L___ ~ES -AGHINPT  📋 "stern" ? _LE__ ~ SE
+TDD-12779422 attempt 0 STERN m n Y n n
+TDD1069128 #2 _____ ~AIL -EGHNPST  📋 "stern" ? .
+TDD-1069152 attempt 1 STERN n n n n n
+TDD1914333 #3 A_IG_ -EHLNPST  📋 "stern" ? .
+TDD-1914337 attempt 2 STERN n n n n n
+TDD2799891 #4 _____ ~EI -AGHLNPST  📋 "stern" ? _____ ~ EIR
+TDD-2799874 attempt 3 STERN n n m m n
+TDD1193667 #5 ____N ~EST -AGHILP  📋 "stern" ? /it
+TDD-1193690 attempt 4 STERN Y Y Y Y Y
+TDD509048 ? 
+TDD-509117 question done
+TDD644890 > *
+TDD2875643 try? 1
+TDD-3520445 questioning: ["amigo", "#3"]
+TDD8400665 #1 _LE__ ~S -AGHINPRT  📋 "amigo" ? _LE__ ~ SE
+TDD-8400658 attempt 0 AMIGO n n n n n
+TDD1079058 #2 _____ ~AIL -EGHNPRST  📋 "amigo" ? .
+TDD-1079100 attempt 1 AMIGO m n m n n
+TDD1022030 #3 A_IG_ -EHLNPRST  📋 "amigo" ? /it
+TDD-1022007 attempt 2 AMIGO Y Y Y Y Y
+TDD1561909 #4 _____ ~EIR -AGHLNPST  📋 "amigo" ? .
+TDD-1561930 attempt 3 AMIGO n n m n n
+TDD638735 ? 
+TDD-638791 question done
+TDD521943 > *
+TDD1271833 questioning: ["lilac", "#2"]
+TDD6860441 #1 _LE__ ~S -AGHIMNOPRT  📋 "lilac" ? _LE__ ~ SE
+TDD-8654126 attempt 0 LILAC n n n n n
+TDD1247101 #2 _____ ~AIL -EGHMNOPRST  📋 "lilac" ? /it
+TDD-1247126 attempt 1 LILAC Y Y Y Y Y
+TDD3967839 #4 _____ ~EIR -AGHLMNOPST  📋 "lilac" ? _I___ ~ ER
+TDD-3967804 attempt 3 LILAC n Y n n n
+TDD359537 ? 
+TDD-359637 question done
+TDD681102 > *
+TDD2284236 try? 1
+TDD-2965270 questioning: ["wider", "#4"]
+TDD5742696 #1 _LE__ ~S -ACGHILMNOPRT  📋 "wider" ? _LEE_ ~ S
+TDD-5742661 attempt 0 WIDER n n n Y n
+TDD782297 #4 _I___ ~ER -ACGHLMNOPST  📋 "wider" ? /it
+TDD-782360 attempt 3 WIDER Y Y Y Y Y
+TDD265766 ? 
+TDD-265790 question done
+TDD602904 > *
+TDD269497 questioning: ["flees", "#1"]
+TDD2718136 #1 _LEE_ ~S -ACDGHILMNOPRTW  📋 "flees" ? /it
+TDD-3590483 attempt 0 FLEES Y Y Y Y Y
+TDD866787 ? 
+TDD-866850 question done
+TDD1291666 Press <Enter> to 📋 or `>` for line prompt >
+TDD2532357 > squareword.org 1309: 8 guesses
+TDD-3824015 > 
+TDD-48 > 🟨🟩🟩🟨🟨
+TDD-4 > 🟨🟨🟨🟨🟨
+TDD-3 > 🟩🟩🟩🟩🟩
+TDD2 > 🟨🟨🟨🟨🟨
+TDD-3 > 🟩🟩🟩🟩🟩
+TDD2 > 
+TDD-1 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD680777 > #squareword #squareword1309
+TDD340177 > ␚
+TDD-1020512 result: "squareword.org 1309: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1309"
+TDD836993 📆 2025-09-01 ? 
