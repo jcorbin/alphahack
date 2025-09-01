@@ -1,0 +1,115 @@
+T0.00022038444876670837 now: 2025-09-01T12:21:39UTC
+TD38 site: https://play.dictionary.com/games/todays-hurdle
+TDD-15 wordlist: nwl2023.txt
+TDD24721360 1.1> *
+TDD-20850547 1.1 ? 7
+TDD1933338 1.1 📋 "asker" ? nMMnn
+TDD-5803862 tried: ASKER n m m n n
+TDD660485 1.2> *
+TDD3542101 1.2 ? 4
+TDD1792066 1.2 📋 "sculk" ? YMYnY
+TDD-5994833 tried: SCULK Y m Y n Y
+TDD521064 1.3> *
+TDD3826163 1.3 ? 1
+TDD1271780 1.3 📋 "stuck" ? YnYYY
+TDD-5619017 tried: STUCK Y n Y Y Y
+TDD573103 1.4> *
+TDD1689692 1.4 ? 2
+TDD2192176 1.4 📋 "snuck" ? YnYYY
+TDD-4454970 tried: SNUCK Y n Y Y Y
+TDD423553 1.5> *
+TDD2442580 1.5 📋 "shuck" ? it
+TDD-2866152 tried: SHUCK Y Y Y Y Y
+TDD8090174 2.1 📋 "shuck" ? nnnnn
+TDD-8090166 tried: SHUCK n n n n n
+TDD1313872 2.2> *
+TDD103364 2.2 ? 1
+TDD3390599 2.2 📋 "radio" ? nMnYn
+TDD-4807836 tried: RADIO n m n Y n
+TDD486774 2.3> *
+TDD6318483 2.3 ? 1
+TDD-1725945 2.3 📋 "email" ? nnMYn
+TDD-5079316 tried: EMAIL n n m Y n
+TDD541585 2.4> *
+TDD4822599 2.4 ? 1
+TDD-471588 2.4 📋 "affix" ? MnnYn
+TDD-4892596 tried: AFFIX m n n Y n
+TDD495317 2.5> *
+TDD899357 2.5 ? 1
+TDD3070405 2.5 📋 "tibia" ? it
+TDD-4465100 tried: TIBIA Y Y Y Y Y
+TDD7279507 3.1 📋 "tibia" ? YnnnM
+TDD-7279479 tried: TIBIA Y n n n m
+TDD601871 3.2> *
+TDD890344 3.2 ? 1
+TDD2812941 3.2 📋 "tares" ? YMnMn
+TDD-4305172 tried: TARES Y m n m n
+TDD833539 3.3> *
+TDD2362824 3.3 ? 4
+TDD617080 3.3 📋 "teach" ? it
+TDD-3813445 tried: TEACH Y Y Y Y Y
+TDD8868584 4.1 📋 "teach" ? MnMYY
+TDD-8868573 tried: TEACH m n m Y Y
+TDD705368 4.2> *
+TDD2307412 4.2 ? 1
+TDD1306438 4.2 📋 "match" ? nYYYY
+TDD-4319224 tried: MATCH n Y Y Y Y
+TDD499604 4.3> *
+TDD2727602 4.3 ? 4
+TDD1409790 4.3 📋 "watch" ? nYYYY
+TDD-4636990 tried: WATCH n Y Y Y Y
+TDD548451 4.4> *
+TDD1526414 4.4 ? 1
+TDD2133253 4.4 📋 "patch" ? nYYYY
+TDD-4208128 tried: PATCH n Y Y Y Y
+TDD505564 4.5> *
+TDD4307063 4.5 ? 3
+TDD-1076268 4.5 📋 "catch" ? nYYYY
+TDD-3736355 tried: CATCH n Y Y Y Y
+TDD833445 4.6> *
+TDD6285823 4.6 ? 2
+TDD-3902002 4.6 📋 "latch" ? it
+TDD-3217280 tried: LATCH Y Y Y Y Y
+TDD6829046 5.1 📋 "shuck" ? nnMMn
+TDD-6829027 tried: SHUCK n n m m n
+TDD2956528 5.2 📋 "tibia" ? Mnnnn
+TDD-2956520 tried: TIBIA m n n n n
+TDD2468358 5.3 📋 "teach" ? MnnMn
+TDD-2468365 tried: TEACH m n n m n
+TDD2112951 5.4 📋 "latch" ? MnMMn
+TDD-2112964 tried: LATCH m n m m n
+TDD851093 5.5> *
+TDD5427447 5.5 📋 "clout" ? it
+TDD-6278551 tried: CLOUT Y Y Y Y Y
+TDD1101657 Press <Enter> to 📋 or `>` for line prompt >
+TDD3313688 > Hurdle 1339
+TDD-4415352 > 
+TDD-63 > 5/6
+TDD-1 > ⬜🟨🟨⬜⬜
+TDD3 > 🟩🟨🟩⬜🟩
+TDD11 > 🟩⬜🟩🟩🟩
+TDD-12 > 🟩⬜🟩🟩🟩
+TDD-2 > 🟩🟩🟩🟩🟩
+TDD2 > 5/6
+TDD-3 > ⬜⬜⬜⬜⬜
+TDD-3 > ⬜🟨⬜🟩⬜
+TDD0 > ⬜⬜🟨🟩⬜
+TDD3 > 🟨⬜⬜🟩⬜
+TDD5 > 🟩🟩🟩🟩🟩
+TDD-4 > 3/6
+TDD-3 > 🟩⬜⬜⬜🟨
+TDD1 > 🟩🟨⬜🟨⬜
+TDD1 > 🟩🟩🟩🟩🟩
+TDD-1 > 6/6
+TDD-2 > 🟨⬜🟨🟩🟩
+TDD0 > ⬜🟩🟩🟩🟩
+TDD0 > ⬜🟩🟩🟩🟩
+TDD0 > ⬜🟩🟩🟩🟩
+TDD0 > ⬜🟩🟩🟩🟩
+TDD1 > 🟩🟩🟩🟩🟩
+TDD0 > Final 1/2
+TDD5 > 🟩🟩🟩🟩🟩
+TDD904049 > score: 9,600
+TDD-302134 > ␚
+TDD-601519 result: "Hurdle 1339\n\n5/6\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n6/6\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,600"
+TDD739778 📆 2025-09-01 ? 
