@@ -1,0 +1,128 @@
+T0.00026109442114830017 now: 2025-09-02T12:06:04UTC
+TD43 site: squareword.org
+TDD1863477 🧩  ? #1310
+TDD-1863334 puzzle_id: #1310
+TDD-160 wordlist: nwl2023.txt
+TDD778829 > *
+TDD1817478 try? 2
+TDD-2596083 questioning: ["steal", "#5"]
+TDD5163216 #1 _____  📋 "steal" ? ___A_ ~ E
+TDD-5163065 attempt 0 STEAL n n m Y n
+TDD2169751 #2 _____  📋 "steal" ? _____ ~ EA
+TDD-2169983 attempt 1 STEAL n n m m n
+TDD2660970 #3 _____  📋 "steal" ? _____ ~ SA
+TDD-2660995 attempt 2 STEAL m n n m n
+TDD2218588 #4 _____  📋 "steal" ? _____ ~ TEL
+TDD-2218558 attempt 3 STEAL n m m n m
+TDD3023531 #5 _____  📋 "steal" ? S_E__ ~ TEL
+TDD-3023548 attempt 4 STEAL Y m Y n m
+TDD428623 ? 
+TDD-428658 question done
+TDD1732119 > *
+TDD6235084 try? 1
+TDD-7967161 questioning: ["slept", "#5"]
+TDD5121678 #1 ___A_ ~E -LST  📋 "slept" ? .
+TDD-5121694 attempt 0 SLEPT n n m n n
+TDD1749562 #2 _____ ~AE -LST  📋 "slept" ? .
+TDD-1749560 attempt 1 SLEPT n n m n n
+TDD981022 #3 _____ ~AS -ELT  📋 "slept" ? .
+TDD-981037 attempt 2 SLEPT m n n n n
+TDD869284 #4 _____ ~ELT -AS  📋 "slept" ? .
+TDD-869284 attempt 3 SLEPT n m m n m
+TDD3578687 #5 S_E__ ~LT -A  📋 "slept" ? SLE_T ~ E
+TDD-3578658 attempt 4 SLEPT Y Y Y n Y
+TDD538666 ? 
+TDD-538727 question done
+TDD686225 > *
+TDD-84151 questioning: ["sleet", "#5"]
+TDD6033779 #1 ___A_ ~E -LPST  📋 "sleet" ? .
+TDD-6635816 attempt 0 SLEET n n m m n
+TDD7101572 #2 _____ ~AE -LPST  📋 "sleet" ? .
+TDD-7101572 attempt 1 SLEET n n m m n
+TDD1165621 #3 _____ ~AS -ELPT  📋 "sleet" ? .
+TDD-1165626 attempt 2 SLEET m n n n n
+TDD473002 #4 _____ ~ELT -APS  📋 "sleet" ? .
+TDD-473030 attempt 3 SLEET n m m m m
+TDD1784634 #5 SLE_T -AP  📋 "sleet" ? /it
+TDD-1784631 attempt 4 SLEET Y Y Y Y Y
+TDD666364 ? 
+TDD-666411 question done
+TDD660884 > *
+TDD3098165 try? 2
+TDD-3758976 questioning: ["lefty", "#4"]
+TDD5972362 #1 ___A_ ~E -LPST  📋 "lefty" ? _E_A_
+TDD-5972343 attempt 0 LEFTY n Y n n n
+TDD1798796 #2 _____ ~AE -LPST  📋 "lefty" ? .
+TDD-1798817 attempt 1 LEFTY n m n n n
+TDD611025 #3 _____ ~AS -ELPT  📋 "lefty" ? .
+TDD-611023 attempt 2 LEFTY n n n n n
+TDD550027 #4 _____ ~ELT -APS  📋 "lefty" ? .
+TDD-550063 attempt 3 LEFTY m m n m n
+TDD650204 ? 
+TDD-650205 question done
+TDD530144 > *
+TDD8643595 try? 2
+TDD-9173682 questioning: ["tilde", "#4"]
+TDD2860810 #1 _E_A_ -FLPSTY  📋 "tilde" ? .
+TDD-2860815 attempt 0 TILDE n n n n n
+TDD4359024 #2 _____ ~AE -FLPSTY  📋 "tilde" ? ____E ~ AI
+TDD-4359012 attempt 1 TILDE n m n n Y
+TDD3130311 #3 _____ ~AS -EFLPTY  📋 "tilde" ? _____ ~ SAI
+TDD-3130324 attempt 2 TILDE n m n n n
+TDD2981070 #4 _____ ~ELT -AFPSY  📋 "tilde" ? TI__E ~ TL
+TDD-2981049 attempt 3 TILDE Y Y m n Y
+TDD373104 ? 
+TDD-373171 question done
+TDD641245 > *
+TDD1157461 questioning: ["title", "#4"]
+TDD3323406 #1 _E_A_ -DEFILPSTY  📋 "title" ? .
+TDD-5122047 attempt 0 TITLE n n n n n
+TDD1132675 #2 ____E ~AI -DFLPSTY  📋 "title" ? .
+TDD-1132702 attempt 1 TITLE n m n n Y
+TDD1013363 #3 _____ ~AIS -DEFLPTY  📋 "title" ? .
+TDD-1013364 attempt 2 TITLE n m n n n
+TDD1833716 #4 TI__E ~L -ADFPSY  📋 "title" ? /it
+TDD-1833727 attempt 3 TITLE Y Y Y Y Y
+TDD186888 ? 
+TDD-186949 question done
+TDD644191 > *
+TDD3201848 try? 2
+TDD-3845960 questioning: ["image", "#2"]
+TDD3646930 #1 _E_A_ -DEFILPSTY  📋 "image" ? .
+TDD-3646931 attempt 0 IMAGE n n n n n
+TDD943179 #2 ____E ~AI -DFLPSTY  📋 "image" ? /it
+TDD-943199 attempt 1 IMAGE Y Y Y Y Y
+TDD739249 #3 _____ ~AIS -DEFLPTY  📋 "image" ? .
+TDD-739285 attempt 2 IMAGE m n m n n
+TDD177015 ? 
+TDD-177056 question done
+TDD515356 > *
+TDD3334590 try? 2
+TDD-3849855 questioning: ["oasis", "#3"]
+TDD3711927 #1 _E_A_ -ADEFGILMPSTY  📋 "oasis" ? .
+TDD-3711913 attempt 0 OASIS n n n n n
+TDD708088 #3 _____ ~AIS -DEFGLMPTY  📋 "oasis" ? /it
+TDD-708131 attempt 2 OASIS Y Y Y Y Y
+TDD1135586 ? 
+TDD-1135631 question done
+TDD848126 > *
+TDD4644470 try? 1
+TDD-5492520 questioning: ["rehab", "#1"]
+TDD2567053 #1 _E_A_ -ADEFGILMOPSTY  📋 "rehab" ? /it
+TDD-2567067 attempt 0 REHAB Y Y Y Y Y
+TDD1737848 ? 
+TDD-1737890 question done
+TDD1109711 Press <Enter> to 📋 or `>` for line prompt >
+TDD2286191 > squareword.org 1310: 9 guesses
+TDD-3395908 > 
+TDD-58 > 🟨🟩🟨🟩🟨
+TDD-5 > 🟨🟨🟨🟨🟩
+TDD-1 > 🟨🟨🟨🟨🟨
+TDD-1 > 🟩🟩🟨🟨🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > 
+TDD1 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD250565 > #squareword #squareword1310
+TDD331329 > ␚
+TDD-581458 result: "squareword.org 1310: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1310"
+TDD775198 📆 2025-09-02 ? 
