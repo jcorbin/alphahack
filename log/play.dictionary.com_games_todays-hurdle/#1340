@@ -1,0 +1,101 @@
+T0.0002583526074886322 now: 2025-09-02T12:08:38UTC
+TD51 site: https://play.dictionary.com/games/todays-hurdle
+TDD-24 wordlist: nwl2023.txt
+TDD71215533 1.1> *
+TDD-69797197 1.1 ? 1
+TDD7601686 1.1 📋 "lanes" ? MMnnn
+TDD-9019747 tried: LANES m m n n n
+TDD10826835 1.2> *
+TDD-8864551 1.2 ? 
+TDD-740114 1.2> *
+TDD1644519 1.2 ? 5
+TDD2163372 1.2 📋 "polar" ? YYYMn
+TDD-5030241 tried: POLAR Y Y Y m n
+TDD618312 1.3> *
+TDD3766162 1.3 📋 "polka" ? it
+TDD-4384500 tried: POLKA Y Y Y Y Y
+TDD17822771 2.1 📋 "polka" ? nnnnM
+TDD-17822745 tried: POLKA n n n n m
+TDD672340 2.2> *
+TDD1416737 2.2 ? 3
+TDD1954034 2.2 📋 "gears" ? nnMnn
+TDD-4043129 tried: GEARS n n m n n
+TDD542876 2.3> *
+TDD716390 2.3 ? 1
+TDD3328249 2.3 📋 "audit" ? YnnYM
+TDD-4587488 tried: AUDIT Y n n Y m
+TDD4245764 2.4> *
+TDD-1704560 2.4 ? 2
+TDD1920484 2.4 📋 "antic" ? YnYYY
+TDD-4461714 tried: ANTIC Y n Y Y Y
+TDD501138 2.5> *
+TDD3412921 2.5 📋 "attic" ? it
+TDD-3914057 tried: ATTIC Y Y Y Y Y
+TDD21794878 3.1 📋 "attic" ? nnnMn
+TDD-21794858 tried: ATTIC n n n m n
+TDD520067 3.2> *
+TDD899971 3.2 ? 1
+TDD2504335 3.2 📋 "risen" ? nMMnn
+TDD-3924386 tried: RISEN n m m n n
+TDD533504 3.3> *
+TDD1130199 3.3 ? 1
+TDD2664610 3.3 📋 "foils" ? nnYnM
+TDD-4328291 tried: FOILS n n Y n m
+TDD442595 3.4> *
+TDD3372068 3.4 ? 3
+TDD-375522 3.4 📋 "whisk" ? it
+TDD-3439176 tried: WHISK Y Y Y Y Y
+TDD9803808 4.1 📋 "whisk" ? nnMnn
+TDD-9803790 tried: WHISK n n m n n
+TDD528576 4.2> *
+TDD1737948 4.2 ? 3
+TDD1606424 4.2 📋 "liter" ? nYnnY
+TDD-3872938 tried: LITER n Y n n Y
+TDD454059 4.3> *
+TDD1446193 4.3 ? 2
+TDD1928299 4.3 📋 "rigor" ? nYYnY
+TDD-3828583 tried: RIGOR n Y Y n Y
+TDD452112 4.4> *
+TDD3040797 4.4 📋 "cigar" ? it
+TDD-3492909 tried: CIGAR Y Y Y Y Y
+TDD16106083 5.1 📋 "polka" ? nnnnM
+TDD-16106066 tried: POLKA n n n n m
+TDD1719090 5.2 📋 "attic" ? MnnnM
+TDD-1719103 tried: ATTIC m n n n m
+TDD1789345 5.3 📋 "whisk" ? nMnnn
+TDD-1789333 tried: WHISK n m n n n
+TDD3083963 5.4 📋 "cigar" ? MnnMM
+TDD-3083975 tried: CIGAR m n n m m
+TDD879071 5.5> *
+TDD598534 5.5 ? 1
+TDD2731495 5.5 📋 "reach" ? it
+TDD-4209079 tried: REACH Y Y Y Y Y
+TDD964613 Press <Enter> to 📋 or `>` for line prompt >
+TDD3241469 > Hurdle 1340
+TDD-4206142 > 
+TDD-49 > 3/6
+TDD-2 > 🟨🟨⬜⬜⬜
+TDD0 > 🟩🟩🟩🟨⬜
+TDD-1 > 🟩🟩🟩🟩🟩
+TDD-1 > 5/6
+TDD0 > ⬜⬜⬜⬜🟨
+TDD2 > ⬜⬜🟨⬜⬜
+TDD-2 > 🟩⬜⬜🟩🟨
+TDD0 > 🟩⬜🟩🟩🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD-2 > 4/6
+TDD0 > ⬜⬜⬜🟨⬜
+TDD0 > ⬜🟨🟨⬜⬜
+TDD0 > ⬜⬜🟩⬜🟨
+TDD1 > 🟩🟩🟩🟩🟩
+TDD-1 > 4/6
+TDD10 > ⬜⬜🟨⬜⬜
+TDD-10 > ⬜🟩⬜⬜🟩
+TDD0 > ⬜🟩🟩⬜🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > Final 1/2
+TDD0 > 🟩🟩🟩🟩🟩
+TDD430680 > score: 9,900
+TDD114930 > ␚
+TDD-545196 result: "Hurdle 1340\n\n3/6\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,900"
+TDD747347 📆 2025-09-02 ? 
