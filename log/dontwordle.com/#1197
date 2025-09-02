@@ -1,0 +1,70 @@
+T0.0003041950985789299 now: 2025-09-02T12:15:35UTC
+TD48 site: dontwordle.com
+TDD-18 wordlist: nwl2023.txt
+TDD7626577 1> * -bot 10
+TDD-5780295 ? 1
+TDD3540005 📋 "raise" ? nMnnn
+TDD-5386008 tried: RAISE n m n n n
+TDD1174378 2> *
+TDD2147058 ? ␚
+TDD-3321689 <EOF>
+TDD1517953 2> * -bot 10
+TDD185972 ? 2
+TDD2387275 📋 "loath" ? nMMMn
+TDD-4091123 tried: LOATH n m m m n
+TDD699861 3> undo
+TDD-699908 undo
+TDD672366 2> undo
+TDD-672371 undo
+TDD4337490 1> *
+TDD-3145466 ? 1
+TDD2740074 📋 "egged" ? nnnnn
+TDD-3932065 tried: EGGED n n n n n
+TDD651381 2> *
+TDD1559112 ? 1
+TDD1425708 📋 "immix" ? nnnnn
+TDD-3636207 tried: IMMIX n n n n n
+TDD606821 3> *
+TDD473852 ? 1
+TDD2892587 📋 "yuppy" ? nnnnn
+TDD-3973254 tried: YUPPY n n n n n
+TDD471841 4> *
+TDD6895210 📋 "crwth" ? nnnMn
+TDD-7367042 tried: CRWTH n n n m n
+TDD1109395 5> *
+TDD580163 ? 1
+TDD9248722 📋 "boost" ? nMYnY
+TDD-10938271 tried: BOOST n m Y n Y
+TDD844859 6> undo
+TDD-844930 undo
+TDD3623217 5> *
+TDD6572467 ? 12
+TDD-3704703 📋 "toffs" ? MMMnn
+TDD-6490909 tried: TOFFS m m m n n
+TDD4253068 6> undo
+TDD-4253112 undo
+TDD3498845 5> *
+TDD26057156 ? 12
+TDD-19324957 📋 "tolls" ? MMnnn
+TDD-10231022 tried: TOLLS m m n n n
+TDD624406 6> *
+TDD2349585 ? 1
+TDD2676565 📋 "abbot" ? YnnYY
+TDD-5650549 tried: ABBOT Y n n Y Y
+TDD1281103 Press <Enter> to 📋 or `>` for line prompt >
+TDD1566048 > Don't Wordle 1197 - SURVIVED
+TDD-2847186 > Hooray! I didn't Wordle today!
+TDD-67 > ⬜⬜⬜⬜⬜5334
+TDD6 > ⬜⬜⬜⬜⬜2937
+TDD-9 > ⬜⬜⬜⬜⬜1279
+TDD-2 > ⬜⬜⬜🟨⬜93
+TDD0 > 🟨🟨⬜⬜⬜4
+TDD17 > 🟩⬜⬜🟩🟩1
+TDD-18 > Undos used: 4
+TDD0 > 
+TDD0 >   1 words remaining
+TDD-1 > x 7 unused letters
+TDD477218 > = 7 total score
+TDD3074 > ␚
+TDD-479478 result: "Don't Wordle 1197 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5334\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2937\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1279\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c93\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c4\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TDD631621 📆 2025-09-02 ? 
