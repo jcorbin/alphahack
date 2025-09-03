@@ -2803,3 +2803,83 @@ TDD272246 > #spaceword
 TDD409540 > ␚
 TDD-680955 result: "\u2728 Spaceword.org Daily 2025-09-02 \u2728\n\n\ud83c\udfc6 Score: 2155\n\ud83c\udfc5 Rank: 154/206 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +55\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD9519639 [prior:2155]> /store
+T16.65140970144421 now: 2025-09-03T00:18:06UTC
+TD1217644 [prior:2155]> /clear
+TDD-1217560 change: 14 
+TDD-50 change: 15 
+TDD-21 change: 24 
+TDD-2 change: 33 
+TDD0 change: 34 
+TDD0 change: 43 
+TDD0 change: 44 
+TDD0 change: 45 
+TDD0 change: 46 
+TDD0 change: 47 
+TDD0 change: 54 
+TDD11 change: 64 
+TDD-10 change: 65 
+TDD0 change: 66 
+TDD0 change: 67 
+TDD1 change: 74 
+TDD0 change: 83 
+TDD0 change: 84 
+TDD0 change: 85 
+TDD0 change: 86 
+TDD0 change: 94 
+TDD6799544 [prior:2155 meh:100]> @ 33
+TDD-6799316 at: 33 0 X
+TDD2966024 [prior:2155 meh:100]> @ 3 3
+TDD-2966144 at: 3 3 X
+TDD2938302 [prior:2155 meh:100]> @ 2 3
+TDD-2938296 at: 2 3 X
+TDD2752900 [prior:2155 meh:100]> ^ SHO
+TDD-2752737 change: 32 S
+TDD-271 change: 33 H
+TDD-5 change: 34 O
+TDD5500981 [prior:2155 meh:397]> @ 2 4
+TDD-5500864 at: 2 4 X
+TDD3781486 [prior:2155 meh:397]> ^ WIKIUP
+TDD-3781428 change: 42 W
+TDD-168 change: 43 I
+TDD-5 change: 44 K
+TDD-1 change: 45 I
+TDD0 change: 46 U
+TDD0 change: 47 P
+TDD9484853 [prior:2155 meh:988]> @ 2 5
+TDD-9484734 at: 2 5 X
+TDD2175347 [prior:2155 meh:988]> ^omenta
+TDD1194967 [prior:2155 meh:988]> ^ omenta
+TDD-3370274 change: 52 O
+TDD-136 change: 53 M
+TDD-19 change: 54 E
+TDD-2 change: 55 N
+TDD0 change: 56 T
+TDD0 change: 57 A
+TDD2755570 [prior:2155 meh:1582]> @ 2 6
+TDD-2755466 at: 2 6 X
+TDD1876398 [prior:2155 meh:1582]> ^r
+TDD6053 [prior:2155 meh:1582]> ^ R
+TDD-1882408 change: 62 R
+TDD4827769 [prior:2155 meh:1676]> @ 2 7
+TDD-4827794 at: 2 7 X
+TDD2481826 [prior:2155 meh:1676]> ^ deave
+TDD-2481805 change: 72 D
+TDD-136 change: 73 E
+TDD-4 change: 74 A
+TDD0 change: 75 V
+TDD0 change: 76 E
+TDD4587516 [prior:2155 bet:2170]> /res
+TDD-4036478 Press <Enter> to 📋 or `>` for line prompt >
+TDD3473516 > ✨ Spaceword.org Daily 2025-09-02 ✨
+TDD-4024477 > 
+TDD-63 > 🏆 Score: 2170
+TDD-2 > 🏅 Rank: 125/404 👏
+TDD0 > 🧩 Tiles: 21/21 ✅
+TDD-1 > 📏 Space Bonus: +70
+TDD0 > 
+TDD-2 > 
+TDD0 > Play at https://spaceword.org
+TDD568788 > #spaceword
+TDD-117737 > ␚
+TDD-450929 result: "\u2728 Spaceword.org Daily 2025-09-02 \u2728\n\n\ud83c\udfc6 Score: 2170\n\ud83c\udfc5 Rank: 125/404 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +70\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD2568232 [prior:2170]> /store
