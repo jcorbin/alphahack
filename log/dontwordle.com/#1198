@@ -1,0 +1,57 @@
+T0.00022529345005750656 now: 2025-09-03T12:26:16UTC
+TD42 site: dontwordle.com
+TDD-13 wordlist: nwl2023.txt
+TDD11186954 1> *
+TDD-8855857 ? 1
+TDD2540952 📋 "jnana" ? nnMnn
+TDD-4871775 tried: JNANA n n m n n
+TDD2819447 2> undo
+TDD-2819647 undo
+TDD2961619 1> *
+TDD2790650 ? 1
+TDD-883918 📋 "vivid" ? nnnnn
+TDD-4868334 tried: VIVID n n n n n
+TDD1088460 2> *
+TDD2303664 ? 2
+TDD823774 📋 "sexes" ? nnnnn
+TDD-4215902 tried: SEXES n n n n n
+TDD909158 3> *
+TDD1033239 ? 2
+TDD2612170 📋 "lotto" ? MMMnn
+TDD-4554560 tried: LOTTO m m m n n
+TDD734714 4> undo
+TDD-734748 undo
+TDD2724851 3> *
+TDD-1331719 ? 1
+TDD2317947 📋 "yucky" ? nnnnn
+TDD-3711049 tried: YUCKY n n n n n
+TDD859705 4> *
+TDD6029970 📋 "phpht" ? nnnnY
+TDD-6889682 tried: PHPHT n n n n Y
+TDD667283 5> *
+TDD6440546 ? nnYnY
+TDD-6615603 ? *
+TDD1468362 ? 1
+TDD85427 📋 "front" ? nnYnY
+TDD-2046015 tried: FRONT n n Y n Y
+TDD512702 6> *
+TDD5953417 ? 2
+TDD-102966 📋 "gloat" ? nYYYY
+TDD-6363146 tried: GLOAT n Y Y Y Y
+TDD1054196 Press <Enter> to 📋 or `>` for line prompt >
+TDD2541628 > Don't Wordle 1198 - SURVIVED
+TDD-3595887 > Hooray! I didn't Wordle today!
+TDD-37 > ⬜⬜⬜⬜⬜7346
+TDD-5 > ⬜⬜⬜⬜⬜1856
+TDD-1 > ⬜⬜⬜⬜⬜525
+TDD4 > ⬜⬜⬜⬜🟩39
+TDD5 > ⬜⬜🟩⬜🟩3
+TDD1 > ⬜🟩🟩🟩🟩1
+TDD0 > Undos used: 2
+TDD0 > 
+TDD0 >   1 words remaining
+TDD0 > x 6 unused letters
+TDD545265 > = 6 total score
+TDD-56409 > ␚
+TDD-488065 result: "Don't Wordle 1198 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7346\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1856\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c525\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe939\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe93\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe91\nUndos used: 2\n\n  1 words remaining\nx 6 unused letters\n= 6 total score"
+TDD710903 📆 2025-09-03 ? 
