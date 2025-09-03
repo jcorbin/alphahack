@@ -210,3 +210,70 @@ TDD374629 > #spaceword
 TDD711830 > ␚
 TDD-1085653 result: "\u2728 Spaceword.org Daily 2025-09-03 \u2728\n\n\ud83c\udfc6 Score: 2168\n\ud83c\udfc5 Rank: 54/159 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +68\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD2309101 [prior:2168]> /store
+T8.399346369318664 now: 2025-09-03T16:31:29UTC
+TD2396221 [prior:2168]> /clear
+TDD-2396119 change: 31 
+TDD-84 change: 33 
+TDD-5 change: 34 
+TDD0 change: 37 
+TDD2 change: 41 
+TDD-2 change: 43 
+TDD-1 change: 44 
+TDD0 change: 45 
+TDD8 change: 46 
+TDD-6 change: 47 
+TDD1 change: 48 
+TDD-4 change: 51 
+TDD0 change: 52 
+TDD0 change: 53 
+TDD0 change: 54 
+TDD0 change: 55 
+TDD0 change: 56 
+TDD0 change: 57 
+TDD0 change: 61 
+TDD0 change: 64 
+TDD0 change: 67 
+TDD9788834 [prior:2168 meh:100]> @ 1 4
+TDD-9788609 at: 1 4 X
+TDD7915312 [prior:2168 meh:100]> @ 1 4 Y
+TDD-7915308 at: 1 4 Y
+TDD3053162 [prior:2168 meh:100]> ^ NAG
+TDD-3053101 change: 41 N
+TDD-281 change: 51 A
+TDD-5 change: 61 G
+TDD7703931 [prior:2168 meh:397]> @ 1 6 X
+TDD-7703826 at: 1 6 X
+TDD3096149 [prior:2168 meh:397]> ^ GLOZED
+TDD-3096102 change: 62 L
+TDD-147 change: 63 O
+TDD-5 change: 64 Z
+TDD0 change: 65 E
+TDD0 change: 66 D
+TDD16932261 [prior:2168 meh:882]> @ 4 4
+TDD-16932154 at: 4 4 X
+TDD5348671 [prior:2168 meh:882]> @ 4 4 Y
+TDD-5348666 at: 4 4 Y
+TDD2143385 [prior:2168 meh:882]> ^ BIZ
+TDD-2143361 change: 44 B
+TDD-131 change: 54 I
+TDD5908917 [prior:2168 meh:1082]> @ 3 4 X
+TDD-5908826 at: 3 4 X
+TDD3321948 [prior:2168 meh:1082]> ^ OBVIATE
+TDD-3321933 change: 43 O
+TDD-109 change: 45 V
+TDD18 change: 46 I
+TDD-22 change: 47 A
+TDD0 change: 48 T
+TDD1 change: 49 E
+TDD11284530 [prior:2168 meh:1673]> @ 7 5 X
+TDD-11284421 at: 7 5 X
+TDD2265073 [prior:2168 meh:1673]> ^ RIM
+TDD-2265025 change: 57 R
+TDD-149 change: 58 I
+TDD-4 change: 59 M
+TDD7353990 [prior:2168 meh:1973]> @ 8 6 X
+TDD-7353887 at: 8 6 X
+TDD1453846 [prior:2168 meh:1973]> ^ XU
+TDD-1453809 change: 68 X
+TDD-136 change: 69 U
+TDD2642812 [prior:2168 bet:2173]> /store
