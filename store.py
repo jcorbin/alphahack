@@ -642,7 +642,7 @@ class StoredLog:
     def interact(self, ui: PromptUI, st: PromptUI.State):
         try:
             with self.log_to(ui):
-                ui.interact(st)
+                ui.call_state(st)
         except CutoverLogError as cutover:
             self.__init__()
             self.log_file = cutover.log_file
