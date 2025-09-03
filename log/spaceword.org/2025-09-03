@@ -1,0 +1,212 @@
+T3.560719385743141 now: 2025-09-03T12:31:55UTC
+TD47 site: spaceword.org
+TDD1000409 📜 nwl2023.txt ? 
+TDD-1000351 wordlist: nwl2023.txt
+TDD15881954 🧩  ? daily 20250903
+TDD-15881686 puzzle_id: 2025-09-03
+TDD3258311 num letters (default: 21) ? 
+TDD-3258620 num_letters: 21
+TDD2384183 letters? aabdeeg
+TDD-2384136 letters: |AABDEEG|
+TDD2674360 letters? iiilmno
+TDD-2674382 letters: |AABDEEGIIILMNO|
+TDD2984423 letters? ortuvxz
+TDD-2984408 letters: |AABDEEGIIILMNOORTUVXZ|
+TDD627453 letters. 
+TDD1974613 [doit:100]> /sea -cap 800
+TDD289488740 search 22c314 [ 800 cap:800 may:5354 dead:25 done:14 prune:71 ]> show done
+TDD-289048802 search 22c314 [ 800 cap:800 may:5354 dead:25 done:14 prune:71 ]> show 1
+TDD-2123680 search 22c314 [ 800 cap:800 may:5354 dead:25 done:14 prune:71 ]> ret
+TDD-918271 change: 24 D
+TDD-139 change: 34 O
+TDD-5 change: 37 V
+TDD1 change: 43 B
+TDD-2 change: 44 O
+TDD0 change: 45 X
+TDD0 change: 46 I
+TDD0 change: 47 E
+TDD0 change: 48 R
+TDD0 change: 51 A
+TDD0 change: 52 M
+TDD0 change: 53 A
+TDD0 change: 54 Z
+TDD8 change: 55 I
+TDD-8 change: 56 N
+TDD0 change: 57 G
+TDD0 change: 64 I
+TDD0 change: 71 T
+TDD0 change: 72 U
+TDD0 change: 73 L
+TDD0 change: 74 E
+TDD1569963 [doit:2152]> /sea -cap 2400
+TDD6780118 Z LUNLcg`tso8o^LP=?OrFQJwrFJVBx4=<68e>E{lSg_cDjp*|#LIsgCw0RR6
+TDD-8349723 Z qPdfNkS@C-4gdfE0RR6
+TDD4688785 Z 8ib()00030{{
+TDD-4689061 Z 8ib()00030{{
+TDD3853318 Z 8ib()00030{{
+TDD-3853322 Z qN<Y=(46E*mXiPg00960
+TDD-32 Z qR>epc%1|)zkP^mkRSs900030{{
+TDD-4 Z qPdg897zo&00000|Nj
+TDD-13 Z 8idIk00030{{
+TDD-2 Z BGE~RT?3(TC;4D;k_)_5Li*xr00000|Nj
+TDD4938711 Z 8iWxC00030{{
+TDD-4938669 Z 8ia)a00030{{
+TDD-37 Z 8ia)a00030{{
+TDD72 Z 8ia)a00030{{
+TDD-78 Z qHZYpV1|+}$vF-H00960
+TDD9 Z qItxTUI+jH00960
+TDD-9 Z 8ieH%00030{{
+TDD-1 Z BGE~qa3}e|(^42-Cn=EJZvp@S0RR6
+TDD18 Z BFahV=f#77KiF|03fPNE1?VCRasU7T0RR6
+TDD-2 Z BGE~Rj*}<NoCE*>0RR6
+TDD1 Z qG|F50Z>{Ztpf!B00960
+TDD-13 Z qHek5gW)7!$52wsB>(^b0RR6
+TDD9637704 search 48127f [ 2399 cap:2400 may:1138 prune:1700 dead:21 reject:12 done:9 ]> show done
+TDD-6631033 search 48127f [ 2399 cap:2400 may:1138 prune:1700 dead:21 reject:12 done:9 ]> show 4
+TDD-2187903 search 48127f [ 2399 cap:2400 may:1138 prune:1700 dead:21 reject:12 done:9 ]> ret
+TDD-818570 change: 31 
+TDD-207 change: 24 
+TDD-3 change: 31 
+TDD-6 change: 34 
+TDD-1 change: 31 O
+TDD0 change: 37 
+TDD-2 change: 32 
+TDD0 change: 43 
+TDD-1 change: 44 D
+TDD0 change: 32 
+TDD0 change: 45 
+TDD-1 change: 32 
+TDD0 change: 46 
+TDD-1 change: 47 V
+TDD1 change: 32 I
+TDD0 change: 48 
+TDD0 change: 71 
+TDD0 change: 51 T
+TDD-1 change: 71 
+TDD2 change: 52 
+TDD-2 change: 53 B
+TDD11 change: 54 O
+TDD-10 change: 55 X
+TDD0 change: 56 I
+TDD0 change: 57 E
+TDD0 change: 64 Z
+TDD0 change: 71 
+TDD0 change: 71 
+TDD0 change: 33 
+TDD0 change: 72 
+TDD-1 change: 33 
+TDD3 change: 73 
+TDD-3 change: 33 L
+TDD0 change: 41 U
+TDD0 change: 58 R
+TDD0 change: 61 A
+TDD0 change: 62 M
+TDD0 change: 63 A
+TDD0 change: 65 I
+TDD0 change: 66 N
+TDD0 change: 67 G
+TDD1952395 [doit:2160]> /sea -cap 2400
+TDD827768 Z LUNL+c}kLj0nuXuo<2|(B*}xqD+Fg0k^%q#00960
+TDD494930 Z 8iY;)00030{{
+TDD-3275002 Z BHc+euXX_d00960
+TDD5 Z qPdeuFDd~500960
+TDD-63 Z BFahhEd&4n00960
+TDD-5 Z BGF0oC@KK}00960
+TDD0 Z B0G62;ETA>5Kp8OMB?}f00030{{
+TDD12 Z BGF0oXnO+y00960
+TDD6059539 Z q9l}P6ifgB00960
+TDD-6059496 Z 8ieH%00030{{
+TDD-50 Z 8iZ*H00030{{
+TDD-5 Z BG*Zwh*aeXcbp5BQ1T%;lmGw#0RR6
+TDD17 Z BGE|*4<p><19y@qRU!@m00960
+TDD-12 Z A}^GDz)k>_OaAyALSDH900030{{
+TDD26 Z B0DXGgu=47KRkKkE;LC200000|Nj
+TDD-27 Z BHKw}@b(h6Q1U?zB@&Z200030{{
+TDD0 Z 8iXwY00000|Nj
+TDD-6 Z 8iXwY00000|Nj
+TDD-1 Z BGF0o=rjQU00960
+TDD1 Z 8iXwY00000|Nj
+TDD-1 Z 8ieg700000|Nj
+TDD25512018 search 57db00 [ 2399 cap:2400 may:1181 prune:2854 dead:40 reject:13 done:4 ]> show done
+TDD-23810289 search 57db00 [ 2399 cap:2400 may:1181 prune:2854 dead:40 reject:13 done:4 ]> show 1
+TDD-1089017 search 57db00 [ 2399 cap:2400 may:1181 prune:2854 dead:40 reject:13 done:4 ]> ret
+TDD-612542 change: 47 
+TDD-180 change: 31 V
+TDD-7 change: 47 
+TDD0 change: 32 
+TDD-2 change: 33 O
+TDD0 change: 41 I
+TDD0 change: 54 
+TDD0 change: 44 O
+TDD0 change: 57 
+TDD0 change: 47 E
+TDD1 change: 61 L
+TDD0 change: 51 A
+TDD13 change: 63 
+TDD-12 change: 53 A
+TDD-1 change: 64 
+TDD-1 change: 54 Z
+TDD0 change: 56 
+TDD0 change: 55 I
+TDD0 change: 66 
+TDD0 change: 56 N
+TDD1 change: 67 U
+TDD0 change: 57 G
+TDD0 change: 63 
+TDD1 change: 58 
+TDD-1 change: 63 
+TDD0 change: 62 
+TDD0 change: 63 
+TDD0 change: 63 
+TDD0 change: 74 
+TDD0 change: 64 E
+TDD0 change: 66 
+TDD1 change: 65 
+TDD-1 change: 66 
+TDD-1 change: 66 
+TDD0 change: 74 
+TDD1 change: 74 
+TDD-1 change: 34 D
+TDD0 change: 37 T
+TDD0 change: 43 B
+TDD0 change: 45 X
+TDD0 change: 46 I
+TDD4 change: 48 R
+TDD-3 change: 52 M
+TDD2670863 [doit:2168]> /sea -cap 2400
+TDD599158 Z LUNK(ibay8A@MoR--XB=M<M_K00960
+TDD-1256628 Z 8iY;)00030{{
+TDD1221489 Z 8iY;)00030{{
+TDD-1050417 Z 8iY;)00030{{
+TDD-216265 Z 8iY;)00030{{
+TDD-159919 Z 8iY;)00030{{
+TDD287665 Z 8iY;)00030{{
+TDD798 Z 8iY;)00030{{
+TDD121781 Z 8iY;)00030{{
+TDD-32044 Z 8iY;)00030{{
+TDD139464 Z 8iY;)00030{{
+TDD-91101 Z 8iY;)00030{{
+TDD491 Z 8iY;)00030{{
+TDD238220 Z 8iY;)00030{{
+TDD-138123 Z 8iY;)00030{{
+TDD89115 Z 8iY;)00030{{
+TDD124919 Z 8iY;)00030{{
+TDD-91865 Z 8iY;)00030{{
+TDD171674 Z 8iY;)00030{{
+TDD-106881 Z 8iY;)00030{{
+TDD1601540 search 2d8b91 [ 2399 cap:2400 prune:676 dead:11 reject:1 ]> ␚
+TDD47384526 [doit:2168]> /res
+TDD-50609014 Press <Enter> to 📋 or `>` for line prompt >
+TDD-188897 > ✨ Spaceword.org Daily 2025-09-03 ✨
+TDD-710491 > 
+TDD-44 > 🏆 Score: 2168
+TDD-2 > 🏅 Rank: 54/159 👏
+TDD-1 > 🧩 Tiles: 21/21 ✅
+TDD-1 > 📏 Space Bonus: +68
+TDD1 > 
+TDD-1 > 
+TDD0 > Play at https://spaceword.org
+TDD374629 > #spaceword
+TDD711830 > ␚
+TDD-1085653 result: "\u2728 Spaceword.org Daily 2025-09-03 \u2728\n\n\ud83c\udfc6 Score: 2168\n\ud83c\udfc5 Rank: 54/159 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +68\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD2309101 [prior:2168]> /store
