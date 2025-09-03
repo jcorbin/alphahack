@@ -1,0 +1,99 @@
+T0.0002416139468550682 now: 2025-09-03T12:17:56UTC
+TD39 site: squareword.org
+TDD8628161 🧩  ? #1311
+TDD-8628004 puzzle_id: #1311
+TDD-172 wordlist: nwl2023.txt
+TDD1119948 > *
+TDD872855 try? 1
+TDD-1992568 questioning: ["races", "#5"]
+TDD4690545 #1 _____  📋 "races" ? _A_E_ ~ R
+TDD-4690405 attempt 0 RACES m Y n Y n
+TDD3266061 #2 _____  📋 "races" ? _____ ~ E
+TDD-3266290 attempt 1 RACES n n n m n
+TDD2866313 #3 _____  📋 "races" ? __C__ ~ A
+TDD-2866355 attempt 2 RACES n m Y n n
+TDD2596918 #4 _____  📋 "races" ? ___E_ ~ R
+TDD-2596870 attempt 3 RACES m n n Y n
+TDD2537482 #5 _____  📋 "races" ? ____S ~ R
+TDD-2537524 attempt 4 RACES m n n n Y
+TDD2600087 ? 
+TDD-2600094 question done
+TDD808704 > *
+TDD2413900 try? 3
+TDD-3222574 questioning: ["dicta", "#3"]
+TDD8179230 #1 _A_E_ ~R -CS  📋 "dicta" ? _A_E_ ~ RT
+TDD-8179237 attempt 0 DICTA n n n m n
+TDD3176510 #2 _____ ~E -ACRS  📋 "dicta" ? ___T_ ~ EI
+TDD-3176500 attempt 1 DICTA n m n Y n
+TDD2235756 #3 __C__ ~A -ERS  📋 "dicta" ? __C_A
+TDD-2235765 attempt 2 DICTA n n Y n Y
+TDD4436898 #4 ___E_ ~R -ACS  📋 "dicta" ? ___E_ ~ R
+TDD-4436896 attempt 3 DICTA n n n n n
+TDD3225400 #5 ____S ~R -ACE  📋 "dicta" ? ____S ~ RD
+TDD-3225391 attempt 4 DICTA m n n n n
+TDD348592 ? 
+TDD-348682 question done
+TDD840382 > *
+TDD-285818 questioning: ["odors", "#5"]
+TDD4892990 #1 _A_E_ ~RT -ACDIS  📋 "odors" ? .
+TDD-5447475 attempt 0 ODORS n n n m n
+TDD1517514 #2 ___T_ ~EI -ACDRS  📋 "odors" ? .
+TDD-1517525 attempt 1 ODORS n n n n n
+TDD5098426 #3 __C_A -DEIRST  📋 "odors" ? __C_A ~ O
+TDD-5098401 attempt 2 ODORS m n m n n
+TDD1466605 #4 ___E_ ~R -ACDIST  📋 "odors" ? .
+TDD-1466624 attempt 3 ODORS n n n m n
+TDD881648 #5 ____S ~DR -ACEIT  📋 "odors" ? /it
+TDD-881660 attempt 4 ODORS Y Y Y Y Y
+TDD180218 ? 
+TDD-180295 question done
+TDD523322 > *
+TDD100794 questioning: ["mocha", "#3"]
+TDD5886825 #1 _A_E_ ~RT -ACDIOS  📋 "mocha" ? _A_E_ ~ RTM
+TDD-6510838 attempt 0 MOCHA m n n n n
+TDD3764388 #2 ___T_ ~EI -ACDORS  📋 "mocha" ? .
+TDD-3764399 attempt 1 MOCHA n n n n n
+TDD893427 #3 __C_A ~O -DEIRST  📋 "mocha" ? /it
+TDD-893436 attempt 2 MOCHA Y Y Y Y Y
+TDD1642614 #4 ___E_ ~R -ACDIOST  📋 "mocha" ? .
+TDD-1642618 attempt 3 MOCHA n n n n n
+TDD232257 ? 
+TDD-232320 question done
+TDD537543 > *
+TDD721763 questioning: ["tamer", "#1"]
+TDD2349447 #1 _A_E_ ~MRT -ACDHIOS  📋 "tamer" ? /it
+TDD-3608693 attempt 0 TAMER Y Y Y Y Y
+TDD3394377 #2 ___T_ ~EI -ACDHMORS  📋 "tamer" ? .
+TDD-3394374 attempt 1 TAMER n n n m n
+TDD4665968 #4 ___E_ ~R -ACDHIMOST  📋 "tamer" ? ___ER ~ R
+TDD-4665947 attempt 3 TAMER n n n Y Y
+TDD632283 ? 
+TDD-632363 question done
+TDD7153041 > *
+TDD-5800732 questioning: ["purer", "#4"]
+TDD4968213 #2 ___T_ ~EI -ACDHMORST  📋 "purer" ? .
+TDD-6320468 attempt 1 PURER n n n m n
+TDD720749 #4 ___ER -ACDHIMOST  📋 "purer" ? /it
+TDD-720779 attempt 3 PURER Y Y Y Y Y
+TDD199644 ? 
+TDD-199692 question done
+TDD739888 > *
+TDD166091 questioning: ["elite", "#2"]
+TDD2152684 #2 ___T_ ~EI -ACDHMOPRSTU  📋 "elite" ? /it
+TDD-3058594 attempt 1 ELITE Y Y Y Y Y
+TDD1608109 ? 
+TDD-1608128 question done
+TDD1584578 Press <Enter> to 📋 or `>` for line prompt >
+TDD2612699 > squareword.org 1311: 7 guesses
+TDD-4197301 > 
+TDD-50 > 🟩🟩🟩🟩🟩
+TDD-7 > 🟨🟨🟨🟩🟨
+TDD1 > 🟩🟩🟩🟩🟩
+TDD-2 > 🟨🟨🟨🟩🟩
+TDD1 > 🟩🟩🟩🟩🟩
+TDD0 > 
+TDD-4 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD658204 > #squareword #squareword1311
+TDD-190229 > ␚
+TDD-467542 result: "squareword.org 1311: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1311"
+TDD470836 📆 2025-09-03 ? 
