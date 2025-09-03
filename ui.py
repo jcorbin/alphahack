@@ -770,7 +770,7 @@ class PromptUI:
     State = State
     Next = Next
 
-    def interact(self, state: State):
+    def call_state(self, state: State):
         while True:
             try:
                 state = state(self) or state
@@ -780,18 +780,22 @@ class PromptUI:
                 if n.input is not None:
                     self.tokens.raw = n.input
 
-            except StopIteration:
-                return
+    def interact(self, state: State):
+        try:
+            self.call_state(state)
 
-            except EOFError:
-                self.log('<EOF>')
-                self.print(' <EOF>')
-                return
+        except StopIteration:
+            return
 
-            except KeyboardInterrupt:
-                self.log('<INT>')
-                self.print(' <INT>')
-                raise
+        except EOFError:
+            self.log('<EOF>')
+            self.print(' <EOF>')
+            return
+
+        except KeyboardInterrupt:
+            self.log('<INT>')
+            self.print(' <INT>')
+            raise
 
     @staticmethod
     @contextmanager
