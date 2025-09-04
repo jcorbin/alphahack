@@ -1,0 +1,131 @@
+T0.00021317321807146072 now: 2025-09-04T12:33:26UTC
+TD40 site: squareword.org
+TDD4332975 🧩  ? *
+TDD-925426 🧩  ? #1312
+TDD-3407518 puzzle_id: #1312
+TDD-51 wordlist: nwl2023.txt
+TDD827012 > *
+TDD272360 try? 1
+TDD-1099133 questioning: ["lades", "#5"]
+TDD4373055 #1 _____  📋 "lades" ? _____ ~ AS
+TDD-4372908 attempt 0 LADES n m n n m
+TDD1584388 #2 _____  📋 "lades" ? _____
+TDD-1584656 attempt 1 LADES n n n n n
+TDD3107906 #3 _____  📋 "lades" ? __D__ ~ E
+TDD-3107886 attempt 2 LADES n n Y m n
+TDD2398229 #4 _____  📋 "lades" ? ____S ~ DE
+TDD-2398206 attempt 3 LADES n n m m Y
+TDD2443069 #5 _____  📋 "lades" ? ___E_ ~ ES
+TDD-2443108 attempt 4 LADES n n n Y m
+TDD1965771 ? 
+TDD-1965791 question done
+TDD527853 > *
+TDD2455904 try? 1
+TDD-2983720 questioning: ["dyers", "#4"]
+TDD4230474 #1 _____ ~AS -DEL  📋 "dyers" ? .
+TDD-4230484 attempt 0 DYERS n n n n m
+TDD4101352 #2 _____ -ADELS  📋 "dyers" ? _____ ~ R
+TDD-4100966 attempt 1 DYERS n n n m n
+TDD2679736 #3 __D__ ~E -ALS  📋 "dyers" ? .
+TDD-2680123 attempt 2 DYERS n n m n n
+TDD4520945 #4 ____S ~DE -AL  📋 "dyers" ? D_E_S
+TDD-4520945 attempt 3 DYERS Y n Y n Y
+TDD6244814 #5 ___E_ ~S -ADL  📋 "dyers" ? ___E_ ~ ESR
+TDD-6244803 attempt 4 DYERS n n m m m
+TDD273580 ? 
+TDD-273679 question done
+TDD640410 > *
+TDD4749126 try? 1
+TDD-5389451 questioning: ["strep", "#5"]
+TDD6005056 #1 _____ ~AS -DELRY  📋 "strep" ? ST___ ~ AT
+TDD-6005045 attempt 0 STREP Y Y n n n
+TDD5662712 #2 _____ ~R -ADELSY  📋 "strep" ? __R__ ~ P
+TDD-5662711 attempt 1 STREP n n Y n m
+TDD2435865 #3 __D__ ~E -ADLRSY  📋 "strep" ? .
+TDD-2435863 attempt 2 STREP n n n m n
+TDD3548667 #4 D_E_S -ALRY  📋 "strep" ? D_E_S ~ T
+TDD-3548681 attempt 3 STREP n m n n n
+TDD3223632 #5 ___E_ ~RS -ADLY  📋 "strep" ? S_RE_ ~ E
+TDD-3223631 attempt 4 STREP Y n Y Y n
+TDD541525 ? 
+TDD-541596 question done
+TDD7794265 > *
+TDD-4237791 try? 1
+TDD-3556409 questioning: ["stoma", "#1"]
+TDD5525651 #1 ST___ ~A -DELPRY  📋 "stoma" ? STO__ ~ AT
+TDD-5525634 attempt 0 STOMA Y Y Y n m
+TDD3557887 #2 __R__ ~P -ADELSTY  📋 "stoma" ? __R__ ~ PO
+TDD-3557876 attempt 1 STOMA n n m n n
+TDD1507021 #3 __D__ ~E -ADLPRSTY  📋 "stoma" ? .
+TDD-1507052 attempt 2 STOMA n n n n n
+TDD1722981 #4 D_E_S ~T -AELPRSY  📋 "stoma" ? .
+TDD-1722964 attempt 3 STOMA n m n n n
+TDD5117230 #5 S_RE_ -ADLPTY  📋 "stoma" ? S_RE_ ~ E
+TDD-5117230 attempt 4 STOMA Y n n n n
+TDD757280 ? 
+TDD-757345 question done
+TDD687590 > *
+TDD942745 questioning: ["stoat", "#1"]
+TDD2871284 #1 STO__ ~A -DELMPRY  📋 "stoat" ? /it
+TDD-4501583 attempt 0 STOAT Y Y Y Y Y
+TDD2140286 #2 __R__ ~OP -ADELMSTY  📋 "stoat" ? .
+TDD-2140270 attempt 1 STOAT n n m n n
+TDD1035684 #3 __D__ ~E -ADLMOPRSTY  📋 "stoat" ? .
+TDD-1035713 attempt 2 STOAT n n n n n
+TDD1346397 #4 D_E_S ~T -AELMOPRSY  📋 "stoat" ? .
+TDD-1346407 attempt 3 STOAT n m n n m
+TDD2361324 #5 S_RE_ -ADLMOPTY  📋 "stoat" ? S_RE_ ~ E
+TDD-2361272 attempt 4 STOAT Y n n n n
+TDD13161076 ? 
+TDD-13161128 question done
+TDD673840 > *
+TDD2728622 try? 1
+TDD-3402408 questioning: ["porch", "#2"]
+TDD3297258 #2 __R__ ~OP -ADELMSTY  📋 "porch" ? /it
+TDD-3297257 attempt 1 PORCH Y Y Y Y Y
+TDD2587564 #3 __D__ ~E -ADLMOPRSTY  📋 "porch" ? .
+TDD-2587592 attempt 2 PORCH n n n n n
+TDD854845 #4 D_E_S ~T -AELMOPRSY  📋 "porch" ? .
+TDD-854886 attempt 3 PORCH n n n n n
+TDD5402163 #5 S_RE_ -ADLMOPTY  📋 "porch" ? S_RE_ ~ EC
+TDD-5402097 attempt 4 PORCH n n Y m n
+TDD421816 ? 
+TDD-421874 question done
+TDD785686 > *
+TDD804627 questioning: ["undue", "#3"]
+TDD2934083 #3 __D__ ~E -ACDHLMOPRSTY  📋 "undue" ? /it
+TDD-4524347 attempt 2 UNDUE Y Y Y Y Y
+TDD1421003 #4 D_E_S ~T -ACEHLMOPRSY  📋 "undue" ? .
+TDD-1421025 attempt 3 UNDUE n n n n n
+TDD4037554 #5 S_RE_ ~C -ADHLMOPTY  📋 "undue" ? S_REE ~ C
+TDD-4037514 attempt 4 UNDUE n n n n Y
+TDD367653 ? 
+TDD-367748 question done
+TDD537512 > *
+TDD821473 questioning: ["diets", "#4"]
+TDD5588905 #4 D_E_S ~T -ACDEHLMNOPRSUY  📋 "diets" ? /it
+TDD-6947822 attempt 3 DIETS Y Y Y Y Y
+TDD4336009 #5 S_REE ~C -ADHLMNOPTUY  📋 "diets" ? .
+TDD-4336020 attempt 4 DIETS n n n n n
+TDD171646 ? 
+TDD-171724 question done
+TDD697354 > *
+TDD206764 questioning: ["scree", "#5"]
+TDD2474368 #5 S_REE ~C -ADEHILMNOPSTUY  📋 "scree" ? /it
+TDD-3378423 attempt 4 SCREE Y Y Y Y Y
+TDD629625 ? 
+TDD-629656 question done
+TDD1080579 Press <Enter> to 📋 or `>` for line prompt >
+TDD2225265 > squareword.org 1312: 9 guesses
+TDD-3305874 > 
+TDD-32 > 🟩🟩🟩🟩🟩
+TDD-3 > 🟨🟨🟩🟨🟨
+TDD-3 > 🟨🟨🟩🟨🟨
+TDD0 > 🟩🟨🟩🟨🟩
+TDD0 > 🟩🟨🟩🟩🟨
+TDD0 > 
+TDD2 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD451213 > #squareword #squareword1312
+TDD218561 > ␚
+TDD-669339 result: "squareword.org 1312: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1312"
+TDD798941 📆 2025-09-04 ? 
