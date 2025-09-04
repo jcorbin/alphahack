@@ -1,0 +1,86 @@
+T0.00023696385324001312 now: 2025-09-04T12:37:20UTC
+TD40 site: https://play.dictionary.com/games/todays-hurdle
+TDD-11 wordlist: nwl2023.txt
+TDD36822050 1.1> *
+TDD-35730994 1.1 ? 1
+TDD6261425 1.1 📋 "raise" ? MnnnM
+TDD-7352183 tried: RAISE m n n n m
+TDD482264 1.2> *
+TDD2321461 1.2 ? 4
+TDD1395003 1.2 📋 "tower" ? nnnYY
+TDD-4198931 tried: TOWER n n n Y Y
+TDD485880 1.3> *
+TDD4767560 1.3 ? 9
+TDD-95423 1.3 📋 "cyber" ? nnnYY
+TDD-5158028 tried: CYBER n n n Y Y
+TDD505704 1.4> *
+TDD1538238 1.4 ? 1
+TDD2085621 1.4 📋 "under" ? nnnYY
+TDD-4129554 tried: UNDER n n n Y Y
+TDD522851 1.5> *
+TDD10596010 1.5 ? 1
+TDD-6923402 1.5 📋 "fever" ? nYnYY
+TDD-4195482 tried: FEVER n Y n Y Y
+TDD471335 1.6> *
+TDD9848825 1.6 ? 1
+TDD-6297843 1.6 📋 "leper" ? it
+TDD-4022321 tried: LEPER Y Y Y Y Y
+TDD5377541 2.1 📋 "leper" ? nnnnn
+TDD-5377520 tried: LEPER n n n n n
+TDD453824 2.2> *
+TDD2145737 2.2 ? 3
+TDD2929058 2.2 📋 "saint" ? YMMMM
+TDD-5528618 tried: SAINT Y M M M M
+T0.0016655335202813148 now: 2025-09-04T12:39:37UTC
+TD1513848 2.3> *
+TDD2068506 2.3 📋 "stain" ? it
+TDD-3582198 tried: STAIN Y Y Y Y Y
+TDD13670869 3.1 📋 "stain" ? nMMnn
+TDD-13670909 tried: STAIN n m m n n
+TDD596290 3.2> *
+TDD1959982 3.2 ? 3
+TDD2975276 3.2 📋 "earth" ? nYnMY
+TDD-5531539 tried: EARTH n Y n m Y
+TDD639535 3.3> *
+TDD693556 3.3 ? 1
+TDD2798793 3.3 📋 "match" ? nYYYY
+TDD-4131888 tried: MATCH n Y Y Y Y
+TDD503167 3.4> *
+TDD3105326 3.4 ? 1
+TDD-170145 3.4 📋 "batch" ? nYYYY
+TDD-3438371 tried: BATCH n Y Y Y Y
+TDD479414 3.5> *
+TDD2141898 3.5 ? 4
+TDD922985 3.5 📋 "latch" ? nYYYY
+TDD-3544268 tried: LATCH n Y Y Y Y
+TDD453741 3.6> *
+TDD13707664 3.6 ? 1
+TDD-7784781 3.6 📋 "patch" ? nYYYY
+TDD-6376640 tried: PATCH n Y Y Y Y
+TDD1785920 3.7> fail CATCH
+TDD-1785962 fail: CATCH
+TDD1594996 Press <Enter> to 📋 or `>` for line prompt >
+TDD1394120 > Hurdle 1342
+TDD-2989114 > 
+TDD-54 > 6/6
+TDD0 > 🟨⬜⬜⬜🟨
+TDD-3 > ⬜⬜⬜🟩🟩
+TDD-1 > ⬜⬜⬜🟩🟩
+TDD0 > ⬜⬜⬜🟩🟩
+TDD0 > ⬜🟩⬜🟩🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > 3/6
+TDD2 > ⬜⬜⬜⬜⬜
+TDD19 > 🟩🟨🟨🟨🟨
+TDD-18 > 🟩🟩🟩🟩🟩
+TDD-2 > X/6
+TDD9 > ⬜🟨🟨⬜⬜
+TDD-7 > ⬜🟩⬜🟨🟩
+TDD0 > ⬜🟩🟩🟩🟩
+TDD-1 > ⬜🟩🟩🟩🟩
+TDD0 > ⬜🟩🟩🟩🟩
+TDD0 > ⬜🟩🟩🟩🟩
+TDD452777 > score: 2,380
+TDD1010 > ␚
+TDD-453364 result: "Hurdle 1342\n\n6/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nX/6\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 2,380"
+TDD577074 📆 2025-09-04 ? 
