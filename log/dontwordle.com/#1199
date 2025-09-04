@@ -1,0 +1,57 @@
+T0.00020546279847621918 now: 2025-09-04T12:41:01UTC
+TD38 site: dontwordle.com
+TDD-6 wordlist: nwl2023.txt
+TDD12917656 1> *
+TDD-7249705 ? nYnnY
+TDD-3855003 ? 1
+TDD-137702 📋 "yummy" ? nYnnY
+TDD-1674975 tried: YUMMY n Y n n Y
+TDD1157625 2> undo
+TDD-1157842 undo
+TDD5171930 1> *
+TDD-3710454 ? 1
+TDD4665286 📋 "level" ? MnnnM
+TDD-6126729 tried: LEVEL m n n n m
+TDD796421 2> undo
+TDD-796471 undo
+TDD3051184 1> *
+TDD-922020 ? 1
+TDD2545493 📋 "merer" ? nnnnn
+TDD-4674611 tried: MERER n n n n n
+TDD457464 2> *
+TDD555394 ? 1
+TDD3941052 📋 "tazza" ? nnnnn
+TDD-4953908 tried: TAZZA n n n n n
+TDD454960 3> *
+TDD548618 ? 1
+TDD3001787 📋 "sooks" ? nnnnn
+TDD-4005365 tried: SOOKS n n n n n
+TDD467501 4> *
+TDD484277 ? 1
+TDD2957972 📋 "vivid" ? nnnnn
+TDD-3909754 tried: VIVID n n n n n
+TDD569051 5> *
+TDD923129 ? 1
+TDD7688089 📋 "bunch" ? YYnnn
+TDD-9180264 tried: BUNCH Y Y n n n
+TDD1195829 6> *
+TDD4671005 ? 1
+TDD573624 📋 "bubby" ? YYnnY
+TDD-6440467 tried: BUBBY Y Y n n Y
+TDD1013978 Press <Enter> to 📋 or `>` for line prompt >
+TDD2122250 > Don't Wordle 1199 - SURVIVED
+TDD-3136272 > Hooray! I didn't Wordle today!
+TDD-46 > ⬜⬜⬜⬜⬜4337
+TDD-2 > ⬜⬜⬜⬜⬜1540
+TDD-3 > ⬜⬜⬜⬜⬜242
+TDD0 > ⬜⬜⬜⬜⬜60
+TDD0 > 🟩🟩⬜⬜⬜6
+TDD0 > 🟩🟩⬜⬜🟩5
+TDD0 > Undos used: 2
+TDD1 > 
+TDD0 >   5 words remaining
+TDD7 > x 8 unused letters
+TDD403288 > = 40 total score
+TDD-72955 > ␚
+TDD-329702 result: "Don't Wordle 1199 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4337\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1540\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c242\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c60\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c6\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe95\nUndos used: 2\n\n  5 words remaining\nx 8 unused letters\n= 40 total score"
+TDD270414 📆 2025-09-04 ? 
