@@ -454,7 +454,8 @@ class StoredLog:
                     elif mess:
                         ui.print(mess)
 
-                return self.stl.load_log(ui, new_log_file)
+                self.stl.load_log(ui, new_log_file)
+                return self.stl
 
     def load(self, ui: PromptUI, lines: Iterable[str]) -> Generator[tuple[float, str]]:
         rez = zlib.compressobj()
@@ -542,7 +543,7 @@ class StoredLog:
         if log_file is None:
             log_file = self.log_file
         if log_file == self.log_file and self.loaded:
-            return self
+            return
         if not self.ephemeral:
             raise CutoverLogError(log_file)
         self.set_log_file(ui, log_file)
@@ -605,7 +606,8 @@ class StoredLog:
                 ui.tokens = ui.Tokens(action)
 
         if self.log_file and not self.loaded:
-            return self.load_log(ui)
+            self.load_log(ui)
+            return
 
         if self.stored:
             return self.review_prompt
@@ -809,7 +811,7 @@ class StoredLog:
                 ui.write(f' <- {prior_log}')
             ui.fin()
 
-        _ = self.load_log(ui, store_to)
+        self.load_log(ui, store_to)
 
     def store_extra(self, _ui: PromptUI, _txn: 'git_txn'):
         pass
