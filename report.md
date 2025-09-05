@@ -1,6 +1,6 @@
 # 2025-09-06
 
-- 🔗 spaceword.org 🧩 2025-09-05 🏗️ score 2165 current ranking 110/298 ⏱️ 3:42:16.916279
+- 🔗 spaceword.org 🧩 2025-09-05 🏗️ score 2168 current ranking 99/306 ⏱️ 6:24:21.475280
 
 ```ex
 '<,'>norm ^f dt f🧩2f dt 0f P
@@ -48,21 +48,21 @@ Details spoilers:
 
 - finish square questioning work
 
-# spaceword.org 🧩 2025-09-05 🏗️ score 2165 current ranking 110/298 ⏱️ 3:42:16.916279
+# spaceword.org 🧩 2025-09-05 🏗️ score 2168 current ranking 99/306 ⏱️ 6:24:21.475280
 
-📜 3 sessions
+📜 4 sessions
 - tiles: 21/21
-- score: 2165 bonus: +65
-- rank: 110/298
+- score: 2168 bonus: +68
+- rank: 99/306
 
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
-      _ _ D E V I A T E _   
-      _ _ _ _ _ _ I _ _ _   
-      _ _ J O G G L E _ _   
-      _ _ _ _ H _ _ _ _ _   
-      _ _ Q U I N O L _ _   
+      _ V E G I E _ L _ _   
+      _ _ _ H O G T I E _   
+      _ Q U I N O A _ L _   
+      _ _ _ _ _ _ J _ D _   
+      _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
 
