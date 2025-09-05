@@ -295,3 +295,17 @@ TDD322163 > #spaceword
 TDD877400 > ␚
 TDD-1198757 result: "\u2728 Spaceword.org Daily 2025-09-04 \u2728\n\n\ud83c\udfc6 Score: 2172\n\ud83c\udfc5 Rank: 54/318 \ud83c\udf8a\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +72\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD4282577 [prior:2172]> /store
+T56.99295282550156 now: 2025-09-05T12:00:45UTC
+TD1082494 Press <Enter> to 📋 or `>` for line prompt >
+TDD-117785 > ✨ Spaceword.org Daily 2025-09-04 ✨
+TDD-964649 > 
+TDD-37 > 🏆 Score: 2172
+TDD-2 > 🏅 Final Rank: 67/413 🎊
+TDD-1 > 🧩 Tiles: 21/21 ✅
+TDD0 > 📏 Space Bonus: +72
+TDD-2 > 
+TDD0 > 
+TDD0 > Play at https://spaceword.org
+TDD647777 > #spaceword
+TDD123014 > ␚
+TDD-770657 result: "\u2728 Spaceword.org Daily 2025-09-04 \u2728\n\n\ud83c\udfc6 Score: 2172\n\ud83c\udfc5 Final Rank: 67/413 \ud83c\udf8a\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +72\n\n\nPlay at https://spaceword.org\n#spaceword"
