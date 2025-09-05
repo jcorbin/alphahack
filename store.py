@@ -968,14 +968,31 @@ class StoredLog:
 
 @final
 class CutoverLogError(RuntimeError):
-    def __init__(self, log_file: str):
+    def __init__(self, log_file: str, nxt: PromptUI.State|None=None):
         super().__init__('cutover to new log file')
         self.log_file = log_file
+        self.next: list[PromptUI.State] = []
+        if nxt:
+            self.next.append(nxt)
 
     def resolve(self, stored: StoredLog, ui: PromptUI, st: PromptUI.State):
         if stored.log_file != self.log_file:
             stored.set_log_file(ui, self.log_file)
-        return st
+        if self.next:
+            self.next.append(st)
+            return self
+        else:
+            return st
+
+    def __call__(self, ui: PromptUI):
+        if not self.next:
+            raise StopIteration
+        nx = self.next.pop(0)
+        if not self.next:
+            return nx
+        mx = nx(ui)
+        if mx:
+            self.next.insert(0, mx)
 
 @final
 class git_txn:
