@@ -1,0 +1,101 @@
+T0.00024262350052595139 now: 2025-09-05T12:07:35UTC
+TD40 site: squareword.org
+TDD6829910 🧩  ? *
+TDD-3398838 🧩  ? #1313
+TDD-3431028 puzzle_id: #1313
+TDD-64 wordlist: nwl2023.txt
+TDD2408669 > *
+TDD-951316 try? 2
+TDD-1457116 questioning: ["roles", "#5"]
+TDD4390990 #1 _____  📋 "roles" ? ____S ~ OL
+TDD-4390828 attempt 0 ROLES n m m n Y
+TDD2734751 #2 _____  📋 "roles" ? _____ ~ OE
+TDD-2735009 attempt 1 ROLES n m n m n
+TDD2477002 #3 _____  📋 "roles" ? _____ ~ RE
+TDD-2477004 attempt 2 ROLES m n n m n
+TDD2626918 #4 _____  📋 "roles" ? _____ ~ RE
+TDD-2626894 attempt 3 ROLES m n n m n
+TDD2425359 #5 _____  📋 "roles" ? _____ ~ OS
+TDD-2425382 attempt 4 ROLES n m n n m
+TDD257682 ? 
+TDD-257772 question done
+TDD1363211 > *
+TDD6831492 try? 1
+TDD-8194606 questioning: ["glops", "#1"]
+TDD5600182 #1 ____S ~LO -ER  📋 "glops" ? ____S ~ OLP
+TDD-5600191 attempt 0 GLOPS n m m m Y
+TDD2548951 #2 _____ ~EO -LRS  📋 "glops" ? _____ ~ OEG
+TDD-2548968 attempt 1 GLOPS m n m n n
+TDD1592253 #3 _____ ~ER -LOS  📋 "glops" ? .
+TDD-1592245 attempt 2 GLOPS n n n n n
+TDD533904 #4 _____ ~ER -LOS  📋 "glops" ? .
+TDD-533939 attempt 3 GLOPS n n n n n
+TDD696870 #5 _____ ~OS -ELR  📋 "glops" ? .
+TDD-696848 attempt 4 GLOPS n n m n m
+TDD232437 ? 
+TDD-232519 question done
+TDD591765 > *
+TDD8724375 try? 1
+TDD-9316058 questioning: ["opals", "#1"]
+TDD2888533 #1 ____S ~LOP -EGR  📋 "opals" ? /it
+TDD-2888554 attempt 0 OPALS Y Y Y Y Y
+TDD2146906 #2 _____ ~EGO -LPRS  📋 "opals" ? .
+TDD-2146874 attempt 1 OPALS m n n n n
+TDD3294239 #3 _____ ~ER -GLOPS  📋 "opals" ? __A__ ~ RE
+TDD-3294225 attempt 2 OPALS n n Y n n
+TDD770055 #4 _____ ~ER -GLOPS  📋 "opals" ? .
+TDD-770088 attempt 3 OPALS n n n n n
+TDD338769 #5 _____ ~OS -EGLPR  📋 "opals" ? .
+TDD-338812 attempt 4 OPALS m n n n m
+TDD406994 ? 
+TDD-406984 question done
+TDD586929 > *
+TDD90230 questioning: ["begot", "#2"]
+TDD12120183 #2 _____ ~EGO -ALPRS  📋 "begot" ? /it
+TDD-12797293 attempt 1 BEGOT Y Y Y Y Y
+TDD3930039 #3 __A__ ~ER -GLOPS  📋 "begot" ? __A__ ~ RET
+TDD-3930027 attempt 2 BEGOT n m n n m
+TDD2856676 #4 _____ ~ER -AGLOPS  📋 "begot" ? _____ ~ RET
+TDD-2856673 attempt 3 BEGOT n m n n m
+TDD2960736 #5 _____ ~OS -AEGLPR  📋 "begot" ? ___O_ ~ S
+TDD-2960748 attempt 4 BEGOT n n n Y n
+TDD1036779 ? 
+TDD-1036839 question done
+TDD7586877 > *
+TDD-6858145 questioning: ["irate", "#3"]
+TDD3039023 #3 __A__ ~ERT -BGLOPS  📋 "irate" ? /it
+TDD-3767699 attempt 2 IRATE Y Y Y Y Y
+TDD4044659 #4 _____ ~ERT -ABGLOPS  📋 "irate" ? _R_TE ~ TI
+TDD-4044643 attempt 3 IRATE m Y n Y Y
+TDD4561979 #5 ___O_ ~S -ABEGLPRT  📋 "irate" ? .
+TDD-4561990 attempt 4 IRATE n n n n n
+TDD188968 ? 
+TDD-189064 question done
+TDD523798 > *
+TDD594404 questioning: ["trite", "#4"]
+TDD2844420 #4 _R_TE ~I -ABGLOPS  📋 "trite" ? /it
+TDD-3962536 attempt 3 TRITE Y Y Y Y Y
+TDD1929588 #5 ___O_ ~S -ABEGILPRT  📋 "trite" ? .
+TDD-1929600 attempt 4 TRITE n n n n n
+TDD260395 ? 
+TDD-260444 question done
+TDD475762 > *
+TDD264998 questioning: ["synod", "#5"]
+TDD2427425 #5 ___O_ ~S -ABEGILPRT  📋 "synod" ? /it
+TDD-3168130 attempt 4 SYNOD Y Y Y Y Y
+TDD1099461 ? 
+TDD-1099493 question done
+TDD904957 Press <Enter> to 📋 or `>` for line prompt >
+TDD3414747 > squareword.org 1313: 7 guesses
+TDD-4319725 > 
+TDD-61 > 🟩🟩🟩🟩🟩
+TDD-3 > 🟩🟩🟩🟩🟩
+TDD-3 > 🟩🟩🟩🟩🟩
+TDD-1 > 🟨🟩🟨🟩🟩
+TDD0 > 🟨🟨🟨🟩🟨
+TDD0 > 
+TDD1 > <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD1126985 > #squareword #squareword1313
+TDD-562821 > ␚
+TDD-563732 result: "squareword.org 1313: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1313"
+TDD814649 📆 2025-09-05 ? 
