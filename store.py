@@ -771,7 +771,11 @@ class StoredLog:
 
         ui.print(f'🔗 {self.site} 🧩 {self.puzzle_id} 📆 {date:%Y-%m-%d}')
 
-        self.do_store(ui, date)
+        try:
+            self.do_store(ui, date)
+        except CutoverLogError as cutover:
+            cutover.next.append(self.do_report)
+            raise
         self.do_report(ui)
 
     def do_store(self, ui: PromptUI, _date: datetime.date):
