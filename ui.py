@@ -2220,6 +2220,7 @@ class PromptUI:
             return '<AGAIN>'
         if isinstance(st, PromptUI.Traced):
             st = st.state
+        # TODO ability to label / claim / cause things like PromptUI.Prompt objects
         try:
             fn = cast(object, getattr(st, '__func__', st))
             nom = cast(object, getattr(fn, '__qualname__') or getattr(fn, '__name__'))
