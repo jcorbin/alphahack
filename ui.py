@@ -11,7 +11,7 @@ from contextlib import contextmanager
 from collections.abc import Generator, Iterable, Sequence
 from io import StringIO
 from types import TracebackType
-from typing import Callable, Literal, Protocol, TextIO, final, override, runtime_checkable
+from typing import Callable, Literal, Protocol, TextIO, cast, final, override, runtime_checkable
 
 from strkit import block_lines, matcherate, PeekStr
 
@@ -159,9 +159,11 @@ class Next(BaseException):
         self.input = input
 
     def resolve(self, ui: 'PromptUI'):
-        if self.input is not None:
-            ui.tokens.raw = self.input
-        return self.state
+        nxt = self.state
+        txt = self.input
+        if txt is not None:
+            ui.tokens.raw = txt
+        return nxt
 
 @final
 class Tokens(PeekStr):
@@ -475,6 +477,19 @@ class PromptUI:
         self.clip = clip
         self.last: Literal['empty']|Literal['prompt']|Literal['print']|Literal['write']|Literal['remark'] = 'empty'
         self.zlog = zlib.compressobj()
+
+        self.traced = False
+
+    @contextmanager
+    def maybe_tracer(self, st: State):
+        if not self.traced and isinstance(st, PromptUI.Traced):
+            self.traced = True
+            try:
+                yield
+            finally:
+                self.traced = False
+        else:
+            yield
 
     @property
     def screen_lines(self):
@@ -797,6 +812,66 @@ class PromptUI:
     State = State
     Next = Next
 
+    @final
+    class Traced:
+        @staticmethod
+        def describe(st: State|None) -> str:
+            # TODO drop static binding, dedeup qual prefix w/ self.state
+            if st is None:
+                return '<SELF>'
+            if isinstance(st, PromptUI.Traced):
+                st = st.state
+            try:
+                fn = cast(object, getattr(st, '__func__', st))
+                nom = cast(object, getattr(fn, '__qualname__') or getattr(fn, '__name__'))
+                if isinstance(nom, str):
+                    return nom
+            except AttributeError:
+                pass
+            return f'{st}'
+
+        @staticmethod
+        def explain(err: Exception) -> str:
+            if isinstance(err, StopIteration):
+                return '<STOP>'
+            elif isinstance(err, EOFError):
+                return '<EOF>'
+            elif isinstance(err, KeyboardInterrupt):
+                return '<INT>'
+            else:
+                return repr(err)
+
+        def __init__(self, st: State):
+            self.state = st
+
+        def __call__(self, ui: 'PromptUI') -> None:
+            ui.fin()
+            ui.write(f'! {self.describe(self.state)} ')
+
+            try:
+                nxt = self.state(ui)
+
+            except Next as n:
+                nxt = n.resolve(ui)
+                ui.write(f'-!> {self.describe(nxt)} ')
+                if n.input is not None:
+                    ui.write(f'w/ {n.input!r}')
+
+            except Exception as err:
+                ui.write(f'-!> {self.explain(err)} ')
+                raise
+
+            else:
+                ui.write(
+                    f'-> {self.describe(nxt)} '
+                    if nxt is not None else '... ')
+
+            finally:
+                ui.fin()
+
+            if nxt is not None:
+                self.state = nxt
+
     def interact(self, state: State):
         try:
             self.call_state(state)
@@ -815,12 +890,14 @@ class PromptUI:
             raise
 
     def call_state(self, state: State):
-        while True:
-            try:
-                state = state(self) or state
-
-            except Next as n:
-                state = n.resolve(self) or state
+        if self.traced and not isinstance(state, PromptUI.Traced):
+            state = PromptUI.Traced(state)
+        with self.maybe_tracer(state):
+            while True:
+                try:
+                    state = state(self) or state
+                except Next as n:
+                    state = n.resolve(self) or state
 
     @staticmethod
     @contextmanager
@@ -871,8 +948,9 @@ class PromptUI:
             pass
 
     @classmethod
-    def main(cls, state: State):
+    def main(cls, state: State, trace: bool = False):
         ui = cls()
+        ui.traced = trace
         ui.run(state)
 
     @final
