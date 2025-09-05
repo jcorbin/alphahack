@@ -1,0 +1,99 @@
+T0.00022284314036369324 now: 2025-09-05T12:10:33UTC
+TD39 site: https://play.dictionary.com/games/todays-hurdle
+TDD-11 wordlist: nwl2023.txt
+TDD16633853 1.1> *
+TDD-14576067 1.1 ? 1
+TDD2165894 1.1 📋 "rased" ? nnMnn
+TDD-4223397 tried: RASED n n m n n
+TDD566928 1.2> *
+TDD861794 1.2 ? 1
+TDD2795733 1.2 📋 "lions" ? nYYnY
+TDD-4224652 tried: LIONS n Y Y n Y
+TDD542291 1.3> *
+TDD1095012 1.3 ? 1
+TDD1353205 1.3 📋 "pious" ? it
+TDD-2990541 tried: PIOUS Y Y Y Y Y
+TDD10670196 2.1 📋 "pious" ? MnYnM
+TDD-10670158 tried: PIOUS m n Y n m
+TDD646718 2.2> *
+TDD1462210 2.2 ? 1
+TDD2364309 2.2 📋 "scope" ? YYYMn
+TDD-4473235 tried: SCOPE Y Y Y m n
+TDD464476 2.3> *
+TDD3534245 2.3 📋 "scoop" ? it
+TDD-3998745 tried: SCOOP Y Y Y Y Y
+TDD12922982 3.1 📋 "scoop" ? nnnnn
+TDD-12922972 tried: SCOOP n n n n n
+TDD486991 3.2> *
+TDD959657 3.2 ? 1
+TDD2943821 3.2 📋 "blare" ? nnnYY
+TDD-4390463 tried: BLARE n n n Y Y
+TDD500647 3.3> *
+TDD937066 3.3 ? 1
+TDD2419885 3.3 📋 "mitre" ? nnnYY
+TDD-3857597 tried: MITRE n n n Y Y
+TDD481187 3.4> *
+TDD4199965 3.4 ? 2
+TDD462911 3.4 📋 "genre" ? ␚
+TDD-5144122 <EOF>
+TDD923953 3.4> *
+TDD5218135 3.4 ? 2
+TDD-386686 3.4 📋 "enure" ? MnnYY
+TDD-5755337 tried: ENURE m n n Y Y
+TDD503631 3.5> *
+TDD2973041 3.5 ? 2
+TDD-1120307 3.5 📋 "where" ? it
+TDD-2356398 tried: WHERE Y Y Y Y Y
+TDD9132574 4.1 📋 "where" ? nnnnY
+TDD-9132554 tried: WHERE n n n n Y
+TDD556419 4.2> *
+TDD1923547 4.2 ? 1
+TDD2853829 4.2 📋 "slime" ? nnMMY
+TDD-5333791 tried: SLIME n n m m Y
+TDD546702 4.3> *
+TDD2812091 4.3 ? 2
+TDD26033 4.3 📋 "mince" ? it
+TDD-3384839 tried: MINCE Y Y Y Y Y
+TDD9921865 5.1 📋 "pious" ? nnnnn
+TDD-9921862 tried: PIOUS n n n n n
+TDD1574919 5.2 📋 "scoop" ? nnnnn
+TDD-1574915 tried: SCOOP n n n n n
+TDD2097030 5.3 📋 "where" ? Mnnnn
+TDD-2097046 tried: WHERE m n n n n
+TDD1417135 5.4 📋 "mince" ? nnnnn
+TDD-1417120 tried: MINCE n n n n n
+TDD740907 5.5> *
+TDD5882499 5.5 ? 1
+TDD-349287 5.5 📋 "bawty" ? YMYnY
+TDD-6274109 tried: BAWTY Y m Y n Y
+TDD591630 5.6> *
+TDD5816475 5.6 📋 "byway" ? it
+TDD-6408119 tried: BYWAY Y Y Y Y Y
+TDD651156 Press <Enter> to 📋 or `>` for line prompt >
+TDD3263235 > Hurdle 1343
+TDD-3914420 > 
+TDD-59 > 3/6
+TDD0 > ⬜⬜🟨⬜⬜
+TDD-1 > ⬜🟩🟩⬜🟩
+TDD-2 > 🟩🟩🟩🟩🟩
+TDD0 > 3/6
+TDD0 > 🟨⬜🟩⬜🟨
+TDD0 > 🟩🟩🟩🟨⬜
+TDD9 > 🟩🟩🟩🟩🟩
+TDD-7 > 5/6
+TDD0 > ⬜⬜⬜⬜⬜
+TDD0 > ⬜⬜⬜🟩🟩
+TDD0 > ⬜⬜⬜🟩🟩
+TDD0 > 🟨⬜⬜🟩🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD0 > 3/6
+TDD0 > ⬜⬜⬜⬜🟩
+TDD0 > ⬜⬜🟨🟨🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD9 > Final 2/2
+TDD-9 > 🟩🟨🟩⬜🟩
+TDD0 > 🟩🟩🟩🟩🟩
+TDD511720 > score: 10,000
+TDD-60442 > ␚
+TDD-450876 result: "Hurdle 1343\n\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"
+TDD664523 📆 2025-09-05 ? 
