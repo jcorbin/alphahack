@@ -414,12 +414,24 @@ def test_logtime():
 @final
 class PromptUI:
     @staticmethod
+    def then_eof(_ui: 'PromptUI'):
+        raise EOFError()
+
+    @staticmethod
     def end_input(_: str):
-        raise EOFError
+        raise EOFError()
+
+    @staticmethod
+    def then_int(_ui: 'PromptUI'):
+        raise KeyboardInterrupt()
 
     @staticmethod
     def int_input(_: str):
-        raise KeyboardInterrupt
+        raise KeyboardInterrupt()
+
+    @staticmethod
+    def then_stop(_ui: 'PromptUI'):
+        raise StopIteration()
 
     @classmethod
     def test_ui(cls):
