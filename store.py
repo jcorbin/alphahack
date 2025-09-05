@@ -792,6 +792,9 @@ class StoredLog:
             self.do_store(ui, date)
         except CutoverLogError as cutover:
             cutover.next.append(self.do_report)
+            cutover.next.append(
+                PromptUI.then_eof if self.run_done
+                else self.review_do_cont)
             raise
         self.do_report(ui)
 
