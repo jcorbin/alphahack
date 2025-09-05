@@ -1,0 +1,75 @@
+T0.0002313731238245964 now: 2025-09-05T12:13:45UTC
+TD43 site: dontwordle.com
+TDD-6 wordlist: nwl2023.txt
+TDD-1 1> 
+T0.0010925745591521263 now: 2025-09-05T12:13:49UTC
+TD2660926 1> *
+TDD4362651 ? nnnnn
+TDD-5877403 ? *
+TDD30359 ? 1
+TDD153175 📋 "yappy" ? nnnnn
+TDD-1329394 tried: YAPPY n n n n n
+TDD591049 2> *
+TDD525964 ? 1
+TDD3755055 📋 "heeze" ? nYnnY
+TDD-4872265 tried: HEEZE n Y n n Y
+TDD834587 3> undo
+TDD-834627 undo
+TDD2732073 2> *
+TDD-1031995 ? 1
+TDD4548717 📋 "jinni" ? nnYnn
+TDD-6248751 tried: JINNI n n Y n n
+TDD961823 3> undo
+TDD-961876 undo
+TDD2514885 2> *
+TDD-1141356 ? 1
+TDD3895869 📋 "butut" ? nnnnn
+TDD-5269351 tried: BUTUT n n n n n
+TDD2242455 3> * -bot 10
+TDD-285898 ? 1
+TDD3912038 📋 "child" ? nnnnM
+TDD-5868610 tried: CHILD n n n n m
+TDD804261 4> undo
+TDD-804290 undo
+TDD3576113 3> *
+TDD-1803251 ? 1
+TDD4513611 📋 "kooks" ? nnnnM
+TDD-6286434 tried: KOOKS n n n n m
+TDD1849221 4> undo
+TDD-1849256 undo
+TDD3019080 3> *
+TDD-1784933 ? 1
+TDD2685445 📋 "whoof" ? nnnnn
+TDD-3919564 tried: WHOOF n n n n n
+TDD498393 4> *
+TDD596501 ? 1
+TDD3508508 📋 "villi" ? nnnnn
+TDD-4603389 tried: VILLI n n n n n
+TDD586874 5> *
+TDD900568 ? 1
+TDD1541557 📋 "creek" ? ␚
+TDD-3029065 <EOF>
+TDD1123522 5> *
+TDD44694568 ? 11
+TDD-40190951 📋 "merge" ? nYnnY
+TDD-5627083 tried: MERGE n Y n n Y
+TDD502931 6> *
+TDD8115862 📋 "jeeze" ? nYnnY
+TDD-8618787 tried: JEEZE n Y n n Y
+TDD1023044 Press <Enter> to 📋 or `>` for line prompt >
+TDD2519902 > Don't Wordle 1200 - SURVIVED
+TDD-3542985 > Hooray! I didn't Wordle today!
+TDD-51 > ⬜⬜⬜⬜⬜5357
+TDD20 > ⬜⬜⬜⬜⬜2563
+TDD-23 > ⬜⬜⬜⬜⬜858
+TDD-6 > ⬜⬜⬜⬜⬜198
+TDD0 > ⬜🟩⬜⬜🟩9
+TDD1 > ⬜🟩⬜⬜🟩5
+TDD-2 > Undos used: 4
+TDD0 > 
+TDD0 >   5 words remaining
+TDD0 > x 7 unused letters
+TDD549811 > = 35 total score
+TDD-146202 > ␚
+TDD-402758 result: "Don't Wordle 1200 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5357\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2563\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c858\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c198\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe99\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe95\nUndos used: 4\n\n  5 words remaining\nx 7 unused letters\n= 35 total score"
+TDD636506 📆 2025-09-05 ? 
