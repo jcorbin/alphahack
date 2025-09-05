@@ -644,8 +644,8 @@ class StoredLog:
                 with self.log_to(ui):
                     ui.call_state(st)
             except CutoverLogError as cutover:
-                self.__init__()
-                self.log_file = cutover.log_file
+                if self.log_file != cutover.log_file:
+                    self.set_log_file(ui, cutover.log_file)
             except (EOFError, KeyboardInterrupt):
                 raise StopIteration
 
