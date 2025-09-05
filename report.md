@@ -12,11 +12,6 @@ Details spoilers:
 
 ## WIP
 
-- space search eof no longer works
-  ```
-  search 722964 [ 1400 cap:1400 prune:88 dead:2 reject:1 ]> ! <__main__.Search object at 0x7e043b5a4190> -!> Search.__call__.<locals>.<lambda>
-  ```
-
 - store fin
   - doesn't commit
   - should auto report
