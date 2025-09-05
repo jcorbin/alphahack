@@ -644,8 +644,7 @@ class StoredLog:
                 with self.log_to(ui):
                     ui.call_state(st)
             except CutoverLogError as cutover:
-                if self.log_file != cutover.log_file:
-                    self.set_log_file(ui, cutover.log_file)
+                st = cutover.resolve(self, ui, st)
             except (EOFError, KeyboardInterrupt):
                 raise StopIteration
 
@@ -972,6 +971,11 @@ class CutoverLogError(RuntimeError):
     def __init__(self, log_file: str):
         super().__init__('cutover to new log file')
         self.log_file = log_file
+
+    def resolve(self, stored: StoredLog, ui: PromptUI, st: PromptUI.State):
+        if stored.log_file != self.log_file:
+            stored.set_log_file(ui, self.log_file)
+        return st
 
 @final
 class git_txn:
