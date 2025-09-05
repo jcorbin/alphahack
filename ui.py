@@ -150,6 +150,11 @@ class Next(BaseException):
         self.state = state
         self.input = input
 
+    def resolve(self, ui: 'PromptUI'):
+        if self.input is not None:
+            ui.tokens.raw = self.input
+        return self.state
+
 @final
 class Tokens(PeekStr):
     pattern = re.compile(r'''(?x)
@@ -770,16 +775,6 @@ class PromptUI:
     State = State
     Next = Next
 
-    def call_state(self, state: State):
-        while True:
-            try:
-                state = state(self) or state
-
-            except Next as n:
-                state = n.state or state
-                if n.input is not None:
-                    self.tokens.raw = n.input
-
     def interact(self, state: State):
         try:
             self.call_state(state)
@@ -796,6 +791,14 @@ class PromptUI:
             self.log('<INT>')
             self.print(' <INT>')
             raise
+
+    def call_state(self, state: State):
+        while True:
+            try:
+                state = state(self) or state
+
+            except Next as n:
+                state = n.resolve(self) or state
 
     @staticmethod
     @contextmanager
