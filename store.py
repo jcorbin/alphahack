@@ -119,8 +119,9 @@ class StoredLog:
         self.add_args(parser)
         args = parser.parse_args()
         self.from_args(args)
+        trace = cast(bool, args.trace)
 
-        return PromptUI.main(self)
+        return PromptUI.main(self, trace=trace)
 
     dt_fmt: str = '%Y-%m-%dT%H:%M:%S%Z'
     default_site: str = ''
@@ -699,6 +700,8 @@ class StoredLog:
             self.log_start = prior_log_start
 
     def add_args(self, parser: argparse.ArgumentParser):
+        _ = parser.add_argument('--trace', '-t', action='store_true',
+                                help='Enable execution state tracing')
         _ = parser.add_argument('--store-log', default=self.store_dir)
         _ = parser.add_argument('--site', default=self.default_site)
         _ = parser.add_argument('log_file', nargs='?', default=self.log_file,
