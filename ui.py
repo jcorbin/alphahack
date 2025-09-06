@@ -489,12 +489,15 @@ class PromptUI:
         return self.clip.paste()
 
     def paste_lines(self):
-        self.print('Provide content, then <EOF>')
         try:
             while True:
                 yield self.raw_input('📋> ')
         except EOFError:
             return
+
+    def paste_read(self):
+        self.print('Provide content, then <EOF>')
+        return '\n'.join(self.paste_lines())
 
     def may_paste(self, tokens: Tokens|None = None):
         if tokens is None:
@@ -506,7 +509,7 @@ class PromptUI:
             if not tokens.have('>$'):
                 return ''
 
-        return '\n'.join(self.paste_lines())
+        return self.paste_read()
 
     def log(self, mess: str):
         self._log_time.update(self.time.now)
