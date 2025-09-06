@@ -209,9 +209,9 @@ class StoredLog:
         return self.review_prompt
 
     def prompt_result(self, ui: PromptUI, reason: str=''):
-        ui.print(f'Provide{" " + reason if reason else ""} share result:')
+        subject = f'{reason} share result' if reason else 'share result'
         try:
-            self.proc_result(ui, ui.may_paste())
+            self.proc_result(ui, ui.may_paste(subject=subject))
         except ValueError as err:
             ui.print(f'! {err}')
         return self.finalize
