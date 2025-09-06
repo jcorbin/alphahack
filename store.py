@@ -270,12 +270,27 @@ class StoredLog:
         return self.__class__.log_file
 
     def finalize(self, ui: PromptUI):
+        # TODO mostly obsoletes branches below `not self.stored` like the
+        #      dirty branch, since there's (no easy?) path to a actively
+        #      iterating on a stored session
+        # if self.ephemeral:
+        if self.stored and self.ephemeral:
+            return self.cont_rep(ui).restart(
+                ui,
+                mess='^^^ finalizing after last (stored) session',
+                log_file=f'{self.init_log_file}.fin',
+                # self.__call__
+                # XXX cutover thru __call__
+                then=self.finalize)
+
         if not self.fin_result():
             return self.prompt_result(ui, 'final' if self.have_result() else '')
 
         if not self.stored:
             return self.store
 
+        # TODO zombie branch; not provably dead, but in practice we don't
+        #      open stored log for appending
         if self.dirty:
             with git_txn(f'{self.site_name or self.store_name} {self.puzzle_id} result', ui=ui) as txn:
                 txn.add(self.log_file)
@@ -544,7 +559,16 @@ class StoredLog:
                     ui.print(mess)
 
             self.stl.load_log(ui, log_file)
-            return then
+            if not self.stl.ephemeral:
+                return then
+
+            try:
+                with self.stl.log_to(ui):
+                    ui.call_state(then)
+            except CutoverLogError as cutover:
+                return cutover.resolve(self.stl, ui, self.stl)
+            except EOFError:
+                return
 
     def load(self, ui: PromptUI, lines: Iterable[str]) -> Generator[tuple[float, str]]:
         rez = zlib.compressobj()
