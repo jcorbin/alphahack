@@ -21,14 +21,16 @@ class Itemsable[K, V](Protocol):
         return ()
 
 class Clipboard(Protocol):
-    def copy(self, mess: str) -> None:
-        pass
-
-    def paste(self) -> str:
-        return ''
+    def can_copy(self) -> bool: return False
+    def can_paste(self) -> bool: return False
+    def copy(self, mess: str) -> None: pass
+    def paste(self) -> str: return ''
 
 @final
 class NullClipboard:
+    def can_copy(self) -> bool: return False
+    def can_paste(self) -> bool: return False
+
     def copy(self, mess: str) -> None:
         _ = mess
 
@@ -37,6 +39,9 @@ class NullClipboard:
 
 @final
 class OSC52Clipboard:
+    def can_copy(self) -> bool: return True
+    def can_paste(self) -> bool: return False
+
     def copy(self, mess: str) -> None:
         # TODO print directly to tty? stderr? /dev/fd/2?
         encoded = b64encode(mess.encode())
@@ -62,6 +67,9 @@ if pyperclip and  pyperclip.is_available():
 
     @final
     class Pyperclip:
+        def can_copy(self) -> bool: return True
+        def can_paste(self) -> bool: return True
+
         def copy(self, mess: str):
             pyp_copy(mess)
 
