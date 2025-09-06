@@ -495,15 +495,15 @@ class PromptUI:
         except EOFError:
             return
 
-    def paste_read(self):
-        self.print('Provide content, then <EOF>')
+    def paste_read(self, subject: str = 'content'):
+        self.print(f'Provide {subject}, then <EOF>')
         return '\n'.join(self.paste_lines())
 
-    def may_paste(self, tokens: Tokens|None = None):
+    def may_paste(self, tokens: Tokens|None = None, subject: str = 'content'):
         if not self.clip.can_paste():
-            return self.paste_read()
+            return self.paste_read(subject)
         if tokens is None:
-            tokens = self.input('Press <Enter> to 📋 or `>` for line prompt ')
+            tokens = self.input('Press <Enter> to 📋 {subject} or `>` to enter directly')
         with tokens:
             if tokens.empty: return self.paste()
             if not tokens.have('>$'):
