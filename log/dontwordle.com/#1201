@@ -1,0 +1,81 @@
+T0.0002093929797410965 now: 2025-09-06T13:27:25UTC
+TD44 site: dontwordle.com
+TDD-15 wordlist: nwl2023.txt
+TDD5267175 1> *
+TDD-3974007 ? 1
+TDD4235540 📋 "minim" ? nnnnn
+TDD-5528428 tried: MINIM n n n n n
+TDD1677022 2> * -bot 10
+TDD-11945 ? 2
+TDD3461277 📋 "sorta" ? nnMnM
+TDD-5126544 tried: SORTA n n m n m
+TDD819656 3> undo
+TDD-819692 undo
+TDD4092704 2> *
+TDD-2740407 ? 1
+TDD4271639 📋 "xylyl" ? nnnnn
+TDD-5623893 tried: XYLYL n n n n n
+TDD506167 3> *
+TDD1011799 ? 1
+TDD3112600 📋 "shush" ? nnnnn
+TDD-4630580 tried: SHUSH n n n n n
+TDD462547 4> *
+TDD2191838 ? 2
+TDD2759456 📋 "tweet" ? nnnYn
+TDD-5413843 tried: TWEET n n n Y n
+TDD1269804 5> undo
+TDD-1269861 undo
+TDD4120209 4> *
+TDD-2063656 ? 1
+TDD2670339 📋 "potto" ? Mnnnn
+TDD-4726836 tried: POTTO m n n n n
+TDD1810276 5> undo
+TDD-1810313 undo
+TDD3212643 4> *
+TDD682242 ? 1
+TDD666581 📋 "jocko" ? nnMnn
+TDD-4561425 tried: JOCKO n n m n n
+TDD1411766 5> undo
+TDD-1411810 undo
+TDD3241447 4> *
+TDD-1872401 ? 1
+TDD2193267 📋 "doggo" ? nnnnn
+TDD-3562281 tried: DOGGO n n n n n
+TDD641188 5> *
+TDD2228609 ? 1
+TDD2147159 📋 "ebbet" ? nnnYn
+TDD-5016958 tried: EBBET n n n Y n
+TDD456035 6> *
+TDD14707455 📋 "pewee" ? ␚
+TDD-15163533 <EOF>
+TDD680075 6> *
+TDD301902 📋 "pewee" ? ␚
+TDD-981974 <EOF>
+TDD12478681 6> * -sans :v [ar]
+TDD-11337082 📋 "pewee" ? ␚
+TDD-1141610 <EOF>
+TDD6276095 6> * -sans :v [ac]
+TDD-3838205 ? 1
+TDD1168112 📋 "fever" ? ␚
+TDD-3605995 <EOF>
+TDD9317612 6> * -sans :v [e.*e]
+TDD-3783771 6> * -sans :v e.*e
+TDD1488404 ? 3
+TDD287104 📋 "caver" ? YYnYY
+TDD-7309291 tried: CAVER Y Y n Y Y
+TDD5860483 📋> Don't Wordle 1201 - SURVIVED
+TDD-5860547 📋> Hooray! I didn't Wordle today!
+TDD-36 📋> ⬜⬜⬜⬜⬜6310
+TDD-3 📋> ⬜⬜⬜⬜⬜3549
+TDD0 📋> ⬜⬜⬜⬜⬜907
+TDD-2 📋> ⬜⬜⬜⬜⬜276
+TDD0 📋> ⬜⬜⬜🟩⬜29
+TDD-1 📋> 🟩🟩⬜🟩🟩2
+TDD0 📋> Undos used: 4
+TDD0 📋> 
+TDD0 📋>   2 words remaining
+TDD0 📋> x 7 unused letters
+TDD707052 📋> = 14 total score
+TDD-239592 📋> ␚
+TDD-466678 result: "Don't Wordle 1201 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6310\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3549\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c907\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c276\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c29\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe92\nUndos used: 4\n\n  2 words remaining\nx 7 unused letters\n= 14 total score"
+TDD345839 📆 2025-09-06 ? 
