@@ -489,11 +489,11 @@ class PromptUI:
         return self.clip.paste()
 
     def paste_lines(self):
-        self.print('Provide content, then eof or interreupt')
+        self.print('Provide content, then <EOF>')
         try:
             while True:
                 yield self.raw_input('> ')
-        except (EOFError, KeyboardInterrupt):
+        except EOFError:
             return
 
     def may_paste(self, tokens: Tokens|None = None):
