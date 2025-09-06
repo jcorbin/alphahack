@@ -635,16 +635,23 @@ class StoredLog:
 
     def handle(self, ui: PromptUI):
         if not self.run_done:
-            self.interact(ui, self.run)
+            return self.call_state(ui, self.run, self.handle)
         return self.store
+
+    def call_state(self,
+                   ui: PromptUI,
+                   st: PromptUI.State,
+                   then: PromptUI.State = PromptUI.then_eof):
+        try:
+            with self.log_to(ui):
+                ui.call_state(st)
+        except CutoverLogError as cutover:
+            return cutover.resolve(self, ui, then)
 
     def interact(self, ui: PromptUI, st: PromptUI.State):
         while True:
             try:
-                with self.log_to(ui):
-                    ui.call_state(st)
-            except CutoverLogError as cutover:
-                st = cutover.resolve(self, ui, st)
+                return self.call_state(ui, st)
             except (EOFError, KeyboardInterrupt):
                 raise StopIteration
 
