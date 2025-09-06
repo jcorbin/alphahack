@@ -192,6 +192,10 @@ class StoredLog:
             self.interact(ui, self.prompt_result)
             if self.ephemeral else self.prompt_result)
 
+    @property
+    def init_log_file(self):
+        return self.__class__.log_file
+
     def finalize(self, ui: PromptUI):
         if not self.fin_result():
             return self.prompt_result(ui, 'final' if self.have_result() else '')
@@ -439,7 +443,7 @@ class StoredLog:
         def restart(self,
                     ui: PromptUI,
                     mess: str|None = None):
-            init_log_file = self.stl.__class__.log_file
+            init_log_file = self.stl.init_log_file
             with ui.input(f'log file (default: {init_log_file}) ? ') as tokens:
                 new_log_file = tokens.rest.strip() or init_log_file
                 with (
