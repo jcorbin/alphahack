@@ -1,0 +1,100 @@
+T0.00026899296790361404 now: 2025-09-06T13:13:32UTC
+TD53 site: squareword.org
+TDD6045183 🧩  ? #1314
+TDD-6045024 puzzle_id: #1314
+TDD-188 wordlist: nwl2023.txt
+TDD1576256 > *
+TDD708810 try? 2
+TDD-2284815 questioning: ["ideas", "#5"]
+TDD5144154 #1 _____  📋 "ideas" ? _____ ~ EAS
+TDD-5144039 attempt 0 IDEAS n n m m m
+TDD2673315 #2 _____  📋 "ideas" ? _____ ~ DE
+TDD-2673544 attempt 1 IDEAS n m m n n
+TDD2462862 #3 _____  📋 "ideas" ? _____ ~ A
+TDD-2462871 attempt 2 IDEAS n n n m n
+TDD2301393 #4 _____  📋 "ideas" ? _____ ~ ES
+TDD-2301370 attempt 3 IDEAS n n m n m
+TDD2459868 #5 _____  📋 "ideas" ? __E__ ~ DE
+TDD-2459866 attempt 4 IDEAS n m Y n n
+TDD1026623 ? 
+TDD-1026696 question done
+TDD990411 > *
+TDD759692 try? 1
+TDD-1750043 questioning: ["trend", "#5"]
+TDD3312050 #1 _____ ~AES -DI  📋 "trend" ? .
+TDD-3312065 attempt 0 TREND n n m n n
+TDD2907647 #2 _____ ~DE -AIS  📋 "trend" ? _R__D ~ ER
+TDD-2907638 attempt 1 TREND n Y m n Y
+TDD4287323 #3 _____ ~A -DEIS  📋 "trend" ? ___N_ ~ A
+TDD-4287316 attempt 2 TREND n n n Y n
+TDD1653886 #4 _____ ~ES -ADI  📋 "trend" ? .
+TDD-1653921 attempt 3 TREND n n m n n
+TDD6269629 #5 __E__ ~D -AIS  📋 "trend" ? TRE_D ~ E
+TDD-6269608 attempt 4 TREND Y Y Y n Y
+TDD468927 ? 
+TDD-469019 question done
+TDD744639 > *
+TDD12028 questioning: ["among", "#3"]
+TDD6469129 #1 _____ ~AES -DINRT  📋 "among" ? .
+TDD-7225705 attempt 0 AMONG m n n n n
+TDD4944911 #2 _R__D ~E -AINST  📋 "among" ? _R__D ~ ER
+TDD-4944894 attempt 1 AMONG n n n n n
+TDD2436738 #3 ___N_ ~A -DEIRST  📋 "among" ? /it
+TDD-2436789 attempt 2 AMONG Y Y Y Y Y
+TDD4145636 #4 _____ ~ES -ADINRT  📋 "among" ? _____ ~ ESO
+TDD-4145590 attempt 3 AMONG n n m n n
+TDD5289065 #5 TRE_D -AINS  📋 "among" ? TRE_D ~ E
+TDD-5289070 attempt 4 AMONG n n n n n
+TDD726587 ? 
+TDD-726681 question done
+TDD687024 > *
+TDD-12451 questioning: ["treed", "#5"]
+TDD4531518 #1 _____ ~AES -DGIMNORT  📋 "treed" ? .
+TDD-5206010 attempt 0 TREED n n m m n
+TDD5031209 #2 _R__D ~E -AGIMNOST  📋 "treed" ? _R_ED ~ ER
+TDD-5031202 attempt 1 TREED n Y m Y Y
+TDD2919376 #4 _____ ~EOS -ADGIMNRT  📋 "treed" ? .
+TDD-2919382 attempt 3 TREED n n m m n
+TDD667497 #5 TRE_D -AGIMNOS  📋 "treed" ? /it
+TDD-667501 attempt 4 TREED Y Y Y Y Y
+TDD222128 ? 
+TDD-222217 question done
+TDD612065 > *
+TDD176738 questioning: ["erred", "#2"]
+TDD3393375 #1 _____ ~AES -DGIMNORT  📋 "erred" ? .
+TDD-4182082 attempt 0 ERRED m n n m n
+TDD718364 #2 _R_ED ~E -AGIMNOST  📋 "erred" ? /it
+TDD-718385 attempt 1 ERRED Y Y Y Y Y
+TDD1581731 #4 _____ ~EOS -ADGIMNRT  📋 "erred" ? .
+TDD-1581719 attempt 3 ERRED m n n m n
+TDD738680 ? 
+TDD-738723 question done
+TDD594256 > *
+TDD1938948 try? 1
+TDD-2533156 questioning: ["lapse", "#1"]
+TDD2183755 #1 _____ ~AES -DGIMNORT  📋 "lapse" ? /it
+TDD-2183753 attempt 0 LAPSE Y Y Y Y Y
+TDD5154410 #4 _____ ~EOS -ADGIMNRT  📋 "lapse" ? ___SE ~ SOP
+TDD-5154395 attempt 3 LAPSE n n m Y Y
+TDD337180 ? 
+TDD-337244 question done
+TDD647004 > (
+TDD81595 > *
+TDD136253 questioning: ["posse", "#4"]
+TDD5240585 #4 ___SE ~OP -ADGILMNRT  📋 "posse" ? /it
+TDD-6105403 attempt 3 POSSE Y Y Y Y Y
+TDD1097410 ? 
+TDD-1097463 question done
+TDD5222030 📋> squareword.org 1314: 7 guesses
+TDD-5222032 📋> 
+TDD-56 📋> 🟨🟨🟨🟨🟨
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD2914918 📋> #squareword #squareword1314
+TDD-2549267 📋> ␚
+TDD-365219 result: "squareword.org 1314: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1314"
+TDD830399 📆 2025-09-06 ? 
