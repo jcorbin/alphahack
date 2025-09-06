@@ -500,15 +500,14 @@ class PromptUI:
         return '\n'.join(self.paste_lines())
 
     def may_paste(self, tokens: Tokens|None = None):
+        if not self.clip.can_paste():
+            return self.paste_read()
         if tokens is None:
             tokens = self.input('Press <Enter> to 📋 or `>` for line prompt ')
-
         with tokens:
             if tokens.empty: return self.paste()
-
             if not tokens.have('>$'):
                 return ''
-
         return self.paste_read()
 
     def log(self, mess: str):
