@@ -447,7 +447,11 @@ class StoredLog:
         def restart(self,
                     ui: PromptUI,
                     mess: str|None = None,
-                    log_file: str|None = None):
+                    log_file: str|None = None,
+                    then: PromptUI.State|None = None):
+            if then is None:
+                then = self.stl
+
             if log_file is None:
                 log_file = self.stl.init_log_file
                 with ui.input(f'log file (default: {log_file}) ? ') as tokens:
@@ -465,7 +469,7 @@ class StoredLog:
                     ui.print(mess)
 
             self.stl.load_log(ui, log_file)
-            return self.stl
+            return then
 
     def load(self, ui: PromptUI, lines: Iterable[str]) -> Generator[tuple[float, str]]:
         rez = zlib.compressobj()
