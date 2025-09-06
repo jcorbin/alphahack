@@ -282,11 +282,15 @@ class StoredLog:
         ch = after.st_size/before.st_size - 1.0
         ui.print(f'compressed {count} lines, {skip} elided, change: {ds:+} bytes ( {100*ch:.1f}% )')
 
-    def review_do_cont(self, ui: PromptUI):
+    def cont_rep(self, ui: PromptUI):
         rep = self.Replay(self)
         line_no, time, mess = rep.seek(0, warn=lambda mess: ui.print(f'! seek {mess}'))
         rep.cursor = line_no
         ui.print(f'*** {line_no}. T{time:.1f} {mess}')
+        return rep
+
+    def review_do_cont(self, ui: PromptUI):
+        rep = self.cont_rep(ui)
         return rep.restart(ui, mess=f'^^^ continuing from last line')
 
     @final
