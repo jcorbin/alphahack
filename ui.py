@@ -488,6 +488,14 @@ class PromptUI:
     def paste(self) -> str:
         return self.clip.paste()
 
+    def paste_lines(self):
+        self.print('Provide content, then eof or interreupt')
+        try:
+            while True:
+                yield self.raw_input('> ')
+        except (EOFError, KeyboardInterrupt):
+            return
+
     def may_paste(self, tokens: Tokens|None = None):
         if tokens is None:
             tokens = self.input('Press <Enter> to 📋 or `>` for line prompt ')
@@ -498,15 +506,7 @@ class PromptUI:
             if not tokens.have('>$'):
                 return ''
 
-        def read():
-            self.print('Provide content, then eof or interreupt')
-            try:
-                while True:
-                    yield self.raw_input('> ')
-            except (EOFError, KeyboardInterrupt):
-                return
-
-        return '\n'.join(read())
+        return '\n'.join(self.paste_lines())
 
     def log(self, mess: str):
         self._log_time.update(self.time.now)
