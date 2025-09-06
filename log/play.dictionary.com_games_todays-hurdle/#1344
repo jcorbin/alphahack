@@ -1,0 +1,98 @@
+T0.00022796262055635452 now: 2025-09-06T13:20:06UTC
+TD46 site: https://play.dictionary.com/games/todays-hurdle
+TDD-16 wordlist: nwl2023.txt
+TDD46753480 1.1> *
+TDD-44803224 1.1 ? 3
+TDD1859584 1.1 📋 "earns" ? Mnnnn
+TDD-3809550 tried: EARNS m n n n n
+TDD567829 1.2> *
+TDD1713388 1.2 ? 4
+TDD1830435 1.2 📋 "glide" ? nnnnY
+TDD-4111851 tried: GLIDE n n n n Y
+TDD1503460 1.3> *
+TDD3840228 1.3 ? 6
+TDD-314450 1.3 📋 "quote" ? nYnYY
+TDD-5029240 tried: QUOTE n Y n Y Y
+TDD553626 1.4> *
+TDD3912387 1.4 📋 "butte" ? it
+TDD-4466020 tried: BUTTE Y Y Y Y Y
+TDD7349914 2.1 📋 "butte" ? YMnnn
+TDD-7349905 tried: BUTTE Y m n n n
+TDD585779 2.2> *
+TDD592879 2.2 ? 1
+TDD3024815 2.2 📋 "brush" ? YYYnn
+TDD-4203492 tried: BRUSH Y Y Y n n
+TDD480823 2.3> *
+TDD1485746 2.3 ? 1
+TDD7656000 2.3 📋 "brung" ? YYYMn
+TDD-9622559 tried: BRUNG Y Y Y m n
+TDD533456 2.4> *
+TDD4447791 2.4 📋 "bruin" ? it
+TDD-4981262 tried: BRUIN Y Y Y Y Y
+TDD7934472 3.1 📋 "bruin" ? Ynnnn
+TDD-7934451 tried: BRUIN Y n n n n
+TDD560123 3.2> *
+TDD1961699 3.2 ? 4
+TDD1335533 3.2 📋 "blast" ? YnnnY
+TDD-3857375 tried: BLAST Y n n n Y
+TDD502446 3.3> *
+TDD1813162 3.3 ? 1
+TDD2855098 3.3 📋 "begot" ? YYYnY
+TDD-5170688 tried: BEGOT Y Y Y n Y
+TDD454935 3.4> *
+TDD2795604 3.4 📋 "beget" ? it
+TDD-3250564 tried: BEGET Y Y Y Y Y
+TDD8682657 4.1 📋 "beget" ? nnMnY
+TDD-8682631 tried: BEGET n n m n Y
+TDD628675 4.2> *
+TDD4273684 4.2 ? 9
+TDD426681 4.2 📋 "grunt" ? YYnnY
+TDD-5329054 tried: GRUNT Y Y n n Y
+TDD544967 4.3> *
+TDD3829434 4.3 ? 2
+TDD497542 4.3 📋 "graft" ? YYnYY
+TDD-4871939 tried: GRAFT Y Y n Y Y
+TDD460112 4.4> *
+TDD2326013 4.4 📋 "grift" ? it
+TDD-2786142 tried: GRIFT Y Y Y Y Y
+TDD9166634 5.1 📋 "butte" ? nMnYY
+TDD-9166612 tried: BUTTE n m n Y Y
+TDD2022490 5.2 📋 "bruin" ? nnMMM
+TDD-2022506 tried: BRUIN n n m m m
+TDD1866094 5.3 📋 "beget" ? nMnnM
+TDD-1866078 tried: BEGET n m n n m
+TDD2744366 5.4 📋 "grift" ? nnYnM
+TDD-2744381 tried: GRIFT n n Y n m
+TDD890065 5.5> 
+T0.0024555549025535583 now: 2025-09-06T13:23:11UTC
+TD873012 5.5> *
+TDD2915676 5.5 📋 "unite" ? it
+TDD-3787079 tried: UNITE Y Y Y Y Y
+TDD5462573 📋> Hurdle 1344
+TDD-5464107 📋> 
+TDD-53 📋> 4/6
+TDD-2 📋> 🟨⬜⬜⬜⬜
+TDD-1 📋> ⬜⬜⬜⬜🟩
+TDD0 📋> ⬜🟩⬜🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD4 📋> 🟩🟨⬜⬜⬜
+TDD5 📋> 🟩🟩🟩⬜⬜
+TDD0 📋> 🟩🟩🟩🟨⬜
+TDD1 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 4/6
+TDD2 📋> 🟩⬜⬜⬜⬜
+TDD0 📋> 🟩⬜⬜⬜🟩
+TDD0 📋> 🟩🟩🟩⬜🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 4/6
+TDD7 📋> ⬜⬜🟨⬜🟩
+TDD-14 📋> 🟩🟩⬜⬜🟩
+TDD0 📋> 🟩🟩⬜🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD4 📋> Final 1/2
+TDD1 📋> 🟩🟩🟩🟩🟩
+TDD1240315 📋> score: 9,900
+TDD-906653 📋> ␚
+TDD-333262 result: "Hurdle 1344\n\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,900"
+TDD756890 📆 2025-09-06 ? 
