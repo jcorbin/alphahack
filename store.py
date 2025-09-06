@@ -982,14 +982,14 @@ class CutoverLogError(RuntimeError):
         if nxt:
             self.next.append(nxt)
 
-    def resolve(self, stored: StoredLog, ui: PromptUI, st: PromptUI.State):
+    def resolve(self, stored: StoredLog, ui: PromptUI, then: PromptUI.State):
         if stored.log_file != self.log_file:
             stored.set_log_file(ui, self.log_file)
         if self.next:
-            self.next.append(st)
+            self.next.append(then)
             return self
         else:
-            return st
+            return then
 
     def __call__(self, ui: PromptUI):
         if not self.next:
