@@ -790,16 +790,18 @@ class StoredLog:
                 ensure_parent_dir(store_to)
                 try:
                     os.link(prior_log, store_to)
+                    ui.print(f'📁🔗 {prior_log} -> {store_to}')
                 except FileExistsError:
                     os.unlink(store_to)
+                    ui.print(f'📁🪓 {store_to}')
                     os.link(prior_log, store_to)
+                    ui.print(f'📁🔗 {prior_log} -> {store_to}')
             yield txn
             txn.commit()
-            ui.write(f'🗃️ {store_to}')
+            ui.print(f'🗃️ {txn.mess}')
             if prior_log not in txn.removed:
                 os.unlink(prior_log)
-                ui.write(f' <- {prior_log}')
-            ui.fin()
+                ui.print(f'📁🪓 {prior_log}')
 
         _ = self.load_log(ui, store_to)
 
