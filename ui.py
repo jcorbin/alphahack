@@ -492,7 +492,7 @@ class PromptUI:
         self.print('Provide content, then <EOF>')
         try:
             while True:
-                yield self.raw_input('> ')
+                yield self.raw_input('📋> ')
         except EOFError:
             return
 
