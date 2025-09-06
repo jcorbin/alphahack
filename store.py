@@ -442,23 +442,26 @@ class StoredLog:
 
         def restart(self,
                     ui: PromptUI,
-                    mess: str|None = None):
-            init_log_file = self.stl.init_log_file
-            with ui.input(f'log file (default: {init_log_file}) ? ') as tokens:
-                new_log_file = tokens.rest.strip() or init_log_file
-                with (
-                    open(self.stl.log_file, 'r') as fr,
-                    backup_old(new_log_file) as fw):
-                    for line_no, line in enumerate(fr, 1):
-                        _ = fw.write(line)
-                        if line_no >= self.cursor: break
-                    if mess is None:
-                        ui.print(f'Truncated log into {new_log_file}')
-                    elif mess:
-                        ui.print(mess)
+                    mess: str|None = None,
+                    log_file: str|None = None):
+            if log_file is None:
+                log_file = self.stl.init_log_file
+                with ui.input(f'log file (default: {log_file}) ? ') as tokens:
+                    log_file = tokens.rest.strip() or log_file
 
-                self.stl.load_log(ui, new_log_file)
-                return self.stl
+            with (
+                open(self.stl.log_file, 'r') as fr,
+                backup_old(log_file) as fw):
+                for line_no, line in enumerate(fr, 1):
+                    _ = fw.write(line)
+                    if line_no >= self.cursor: break
+                if mess is None:
+                    ui.print(f'Truncated log into {log_file}')
+                elif mess:
+                    ui.print(mess)
+
+            self.stl.load_log(ui, log_file)
+            return self.stl
 
     def load(self, ui: PromptUI, lines: Iterable[str]) -> Generator[tuple[float, str]]:
         rez = zlib.compressobj()
