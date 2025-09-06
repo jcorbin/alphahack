@@ -1,0 +1,61 @@
+T1.2073734709993005 now: 2025-09-06T17:52:23UTC
+TD43 site: spaceword.org
+TDD942311 📜 nwl2023.txt ? 
+TDD-942293 wordlist: nwl2023.txt
+TDD764104 🧩  ? 
+TDD5486774 🧩  ? daily 20250906
+TDD-6250843 puzzle_id: 2025-09-06
+TDD984272 num letters (default: 21) ? 
+TDD-984300 num_letters: 21
+TDD5483035 letters? aaeeggh
+TDD-5482992 letters: |AAEEGGH|
+TDD2700014 letters? iiijnno
+TDD-2700043 letters: |AAEEGGHIIIJNNO|
+TDD1592561 letters? rssuuwz
+TDD-1592551 letters: |AAEEGGHIIIJNNORSSUUWZ|
+TDD504411 letters. 
+TDD1566904 [doit:100]> /sea -cap 750
+TDD362343755 search 51cbc6 [ 750 cap:750 may:6627 prune:1 done:1 ]> show done
+TDD-362518977 search 51cbc6 [ 750 cap:750 may:6627 prune:1 done:1 ]> show 1
+TDD-1120895 search 51cbc6 [ 750 cap:750 may:6627 prune:1 done:1 ]> ret
+TDD-775071 change: 31 U
+TDD-202 change: 41 N
+TDD-7 change: 43 A
+TDD-1 change: 44 J
+TDD0 change: 45 U
+TDD0 change: 46 G
+TDD0 change: 47 A
+TDD0 change: 48 S
+TDD2 change: 51 I
+TDD0 change: 58 E
+TDD-2 change: 61 S
+TDD0 change: 62 H
+TDD0 change: 63 O
+TDD0 change: 64 W
+TDD9 change: 65 R
+TDD-8 change: 66 I
+TDD2 change: 67 N
+TDD6 change: 68 G
+TDD-8 change: 71 I
+TDD-1 change: 81 Z
+TDD0 change: 91 E
+TDD1580669 [doit:2144]> /sea -cap 1500
+TDD55491325 Z LUNL2l7X3#0jiS_-h;$KD99;bmLG%{tf1ftkp)^B?BO3C<mu-Q5rcpzl3fJ=00960
+TDD-57071643 Z BH$zixI+}64srAfb$1MgTS_&DAOHXW0RR6
+TDD-305 Z BFahF0PUO!00030{{
+TDD5194789 search 9b0620 [ 1499 cap:1500 may:26129 prune:39023 reject:3 ]> ␚
+TDD-4414793 [doit:2144]> /res
+TDD4327667 📋> ✨ Spaceword.org Daily 2025-09-06 ✨
+TDD-5107638 📋> 
+TDD-43 📋> 🏆 Score: 2144
+TDD-15 📋> 🏅 Rank: 222/279 😀
+TDD-2 📋> 🧩 Tiles: 21/21 ✅
+TDD-1 📋> 📏 Space Bonus: +44
+TDD0 📋> 
+TDD1 📋> 
+TDD-1 📋> Play at https://spaceword.org
+TDD662144 📋> #spaceword
+TDD-121115 📋> 
+TDD144667 📋> ␚
+TDD-684814 result: "\u2728 Spaceword.org Daily 2025-09-06 \u2728\n\n\ud83c\udfc6 Score: 2144\n\ud83c\udfc5 Rank: 222/279 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +44\n\n\nPlay at https://spaceword.org\n#spaceword\n"
+TDD1123773 [prior:2144]> /store
