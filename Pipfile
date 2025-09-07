@@ -19,7 +19,7 @@ python-dotenv = "*"
 python_version = "3.13"
 
 [scripts]
-alpha = "./binartic.py --words nwl2023.txt"
+alpha = "./binartic.py --site alphaguess.com --words nwl2023.txt"
 alfa = "./binartic.py --site alfagok.diginaut.net --words opentaal-wordlist.txt"
 ce = "./semantic.py"
 cex = "./semantic.py --site cemantix.certitudes.org --lang French cemantix.log --tz CET"
