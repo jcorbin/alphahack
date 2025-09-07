@@ -1002,15 +1002,30 @@ class StoredLog:
         yield ''
         yield from self.report_body
 
-    def report_header(self, desc: str|None = None) -> str:
-        return f'# {self.site_link} 🧩 {self.puzzle_id} {self.report_desc if desc is None else desc}'
+    @property
+    def note_slug(self):
+        return tuple(self.slug(link=False))
 
     @property
-    def site_link(self):
-        return f'[{self.site_name}]({self.site})' if self.site_name else f'{self.site}'
+    def header_slug(self):
+        return tuple(self.slug(link=True))
+
+    def slug(self, link: bool = True):
+        site = self.site or self.default_site
+
+        if self.site_name:
+            yield f'[{self.site_name}]({site})' if link else f'🔗 {self.site_name}'
+        else:
+            yield site if link else f'🔗 {site}'
+
+        if self.puzzle_id:
+            yield f'🧩 {self.puzzle_id}'
+
+    def report_header(self, desc: str|None = None) -> str:
+        return f'# {" ".join(self.header_slug)} {self.report_desc if desc is None else desc}'
 
     def report_note(self, desc: str|None = None) -> str:
-        return  f'- 🔗 {self.site_name or self.site} 🧩 {self.puzzle_id} {self.report_desc if desc is None else desc}'
+        return  f'- {" ".join(self.note_slug)} {self.report_desc if desc is None else desc}'
 
     def in_report(self, _ui: PromptUI):
         prefixes = (
