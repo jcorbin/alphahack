@@ -1,0 +1,98 @@
+T0.0002222033217549324 now: 2025-09-07T14:01:38UTC
+TD44 site: squareword.org
+TDD2470290 🧩  ? #1315
+TDD-2470175 puzzle_id: #1315
+TDD-136 wordlist: nwl2023.txt
+TDD1153911 > *
+TDD588555 try? 1
+TDD-1742231 questioning: ["earns", "#5"]
+TDD7004091 #1 _____  📋 "earns" ? ____S ~ AS
+TDD-7003951 attempt 0 EARNS n m n n Y
+TDD4509222 #2 _____  📋 "earns" ? _____ ~ A
+TDD-4509456 attempt 1 EARNS n m n n n
+TDD2336847 #3 _____  📋 "earns" ? _A___ ~ EN
+TDD-2336863 attempt 2 EARNS m Y n m n
+TDD2564213 #4 _____  📋 "earns" ? E____ ~ E
+TDD-2564191 attempt 3 EARNS Y n n n n
+TDD2663556 #5 _____  📋 "earns" ? _A___ ~ ERS
+TDD-2663568 attempt 4 EARNS m Y m n m
+TDD989331 ? 
+TDD-989362 question done
+TDD1959968 > *
+TDD20416705 try? 1
+TDD-22376627 questioning: ["saber", "#5"]
+TDD6298860 #1 ____S ~A -ENR  📋 "saber" ? S___S ~ A
+TDD-6298879 attempt 0 SABER Y m n n n
+TDD1794629 #2 _____ ~A -ENRS  📋 "saber" ? .
+TDD-1794649 attempt 1 SABER n m n n n
+TDD1329880 #3 _A___ ~EN -RS  📋 "saber" ? .
+TDD-1329875 attempt 2 SABER n Y n m n
+TDD2601690 #4 E____ -ANRS  📋 "saber" ? E_BE_
+TDD-2601704 attempt 3 SABER n n Y Y n
+TDD2069055 #5 _A___ ~ERS -N  📋 "saber" ? .
+TDD-2069054 attempt 4 SABER m Y n m m
+TDD318095 ? 
+TDD-318168 question done
+TDD511666 > *
+TDD27218 questioning: ["embed", "#4"]
+TDD7605433 #1 S___S ~A -BENR  📋 "embed" ? S___S ~ AM
+TDD-8144221 attempt 0 EMBED n m n n n
+TDD1531025 #2 _____ ~A -BENRS  📋 "embed" ? .
+TDD-1531065 attempt 1 EMBED n n n n n
+TDD1294915 #3 _A___ ~EN -BRS  📋 "embed" ? .
+TDD-1294885 attempt 2 EMBED m n n m n
+TDD816317 #4 E_BE_ -ANRS  📋 "embed" ? /it
+TDD-816379 attempt 3 EMBED Y Y Y Y Y
+TDD1196518 #5 _A___ ~ERS -BN  📋 "embed" ? .
+TDD-1196468 attempt 4 EMBED m n n m n
+TDD200901 ? 
+TDD-200979 question done
+TDD582319 > *
+TDD-121457 questioning: ["slams", "#1"]
+TDD7294371 #1 S___S ~AM -BDENR  📋 "slams" ? /it
+TDD-7755147 attempt 0 SLAMS Y Y Y Y Y
+TDD5331876 #2 _____ ~A -BDEMNRS  📋 "slams" ? _L___ ~ AL
+TDD-5331859 attempt 1 SLAMS n Y m n n
+TDD1842351 #3 _A___ ~EN -BDMRS  📋 "slams" ? .
+TDD-1842389 attempt 2 SLAMS n n n n n
+TDD1800009 #5 _A___ ~ERS -BDMN  📋 "slams" ? .
+TDD-1800008 attempt 4 SLAMS m n n n m
+TDD297149 ? 
+TDD-297216 question done
+TDD515578 > *
+TDD380640 questioning: ["raise", "#5"]
+TDD6689363 #2 _L___ ~A -BDEMNRS  📋 "raise" ? _L___ ~ AL
+TDD-7585481 attempt 1 RAISE n m n n n
+TDD2453066 #3 _A___ ~EN -ABDLMRS  📋 "raise" ? _AI_E ~ N
+TDD-2453064 attempt 2 RAISE n Y Y n Y
+TDD843610 #5 _A___ ~ERS -ABDLMN  📋 "raise" ? /it
+TDD-843631 attempt 4 RAISE Y Y Y Y Y
+TDD201411 ? 
+TDD-201449 question done
+TDD578869 > *
+TDD762187 questioning: ["allow", "#2"]
+TDD1869759 #2 _L___ ~A -BDEIMNRS  📋 "allow" ? /it
+TDD-3210795 attempt 1 ALLOW Y Y Y Y Y
+TDD6274496 #3 _AI_E ~N -BDLMRS  📋 "allow" ? .
+TDD-6274480 attempt 2 ALLOW n n n n n
+TDD400001 ? 
+TDD-400056 question done
+TDD469312 > *
+TDD411112 questioning: ["naive", "#3"]
+TDD2242161 #3 _AI_E ~N -ABDLMORSW  📋 "naive" ? /it
+TDD-3122528 attempt 2 NAIVE Y Y Y Y Y
+TDD548155 ? 
+TDD-548204 question done
+TDD4566799 📋> squareword.org 1315: 7 guesses
+TDD-4566806 📋> 
+TDD-52 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> 🟨🟩🟨🟨🟨
+TDD-1 📋> 🟨🟩🟩🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD1167831 📋> #squareword #squareword1315
+TDD-830537 📋> ␚
+TDD-336858 result: "squareword.org 1315: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1315"
+TDD521455 📆 2025-09-07 ? 
