@@ -1,0 +1,60 @@
+T316.439581297338 now: 2025-09-08T13:40:17UTC
+TD61 site: dontwordle.com
+TDD-19 wordlist: nwl2023.txt
+TDD6190696 1> *
+TDD-1086366 ? 3
+TDD-1610901 📋 "radar" ? nnnnY
+TDD-3493342 tried: RADAR n n n n Y
+TDD928081 2> undo
+TDD-928121 undo
+TDD3338711 1> *
+TDD-1925965 ? 1
+TDD3011254 📋 "vivid" ? nnnnn
+TDD-4423962 tried: VIVID n n n n n
+TDD490311 2> *
+TDD443376 ? 1
+TDD3421690 📋 "tazza" ? nnnnn
+TDD-4355386 tried: TAZZA n n n n n
+TDD642569 3> *
+TDD1493622 ? 1
+TDD13397260 📋 "oxbow" ? MMMnn
+TDD-15533444 tried: OXBOW m m m n n
+TDD6099310 4> undo
+TDD-6099335 undo
+TDD747236 3> *
+TDD886178 ? 1
+TDD4692061 📋 "jesse" ? nMnnn
+TDD-6325459 tried: JESSE n m n n n
+TDD889726 4> undo
+TDD-889737 undo
+TDD3208213 3> *
+TDD-1747943 ? 1
+TDD2089440 📋 "sunns" ? nnnnn
+TDD-3549697 tried: SUNNS n n n n n
+TDD595287 4> *
+TDD480381 ? 1
+TDD1868840 📋 "glyph" ? nnnnn
+TDD-2944494 tried: GLYPH n n n n n
+TDD1336003 5> *
+TDD544337 ? 1
+TDD2610903 📋 "commo" ? nYnnn
+TDD-4491243 tried: COMMO n Y n n n
+TDD509755 6> *
+TDD5017291 📋 "wowee" ? nYnYn
+TDD-5527034 tried: WOWEE n Y n Y n
+TDD4339383 📋> Don't Wordle 1203 - SURVIVED
+TDD-4339449 📋> Hooray! I didn't Wordle today!
+TDD-57 📋> ⬜⬜⬜⬜⬜7346
+TDD-5 📋> ⬜⬜⬜⬜⬜2738
+TDD-1 📋> ⬜⬜⬜⬜⬜590
+TDD1 📋> ⬜⬜⬜⬜⬜101
+TDD-1 📋> ⬜🟩⬜⬜⬜11
+TDD0 📋> ⬜🟩⬜🟩⬜6
+TDD0 📋> Undos used: 3
+TDD0 📋> 
+TDD1 📋>   6 words remaining
+TDD-1 📋> x 7 unused letters
+TDD553726 📋> = 42 total score
+TDD-212535 📋> ␚
+TDD-340346 result: "Don't Wordle 1203 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7346\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2738\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c590\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c101\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c11\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c6\nUndos used: 3\n\n  6 words remaining\nx 7 unused letters\n= 42 total score"
+TDD416758 📆 2025-09-08 ? 
