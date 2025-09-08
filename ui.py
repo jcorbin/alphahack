@@ -1,6 +1,7 @@
 import math
 import os
 import re
+import shlex
 import subprocess
 import time
 import traceback
@@ -1011,3 +1012,18 @@ class PromptUI:
             if len(self.items) == 1:
                 return self.then(self.items[0])
             return self.prompt(ui)
+
+    def check_call(self, proc: subprocess.Popen[bytes], timeout: float|None=None):
+        with proc:
+            self.print(f'$ {
+               str(proc.args) if isinstance(proc.args, os.PathLike)
+               else shlex.join(str(arg) for arg in proc.args) }')
+            try:
+                retcode = proc.wait(timeout=timeout)
+            except:
+                proc.kill()
+                raise
+            if retcode == 0:
+                return True
+            self.print(f'! exited {retcode}')
+            return False
