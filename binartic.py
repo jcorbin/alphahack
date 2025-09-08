@@ -229,12 +229,16 @@ class Search(StoredLog):
     @override
     def from_args(self, args: argparse.Namespace):
         super().from_args(args)
-        self.default_wordlist = cast(str, args.words)
+        wordlist = cast(str, args.words)
+        if wordlist:
+            self.default_wordlist = wordlist
+            self.wordlist_file = wordlist
         self.default_asof = cast(str, args.asof)
 
     def __init__(self):
         super().__init__()
 
+        self.wordlist_file: str = ''
         self.wordlist_asof: str = self.default_asof
 
         # loaded word list and pending edits
@@ -476,15 +480,27 @@ class Search(StoredLog):
 
     @override
     def startup(self, ui: PromptUI) -> PromptUI.State|None:
-        if self.wordlist is None:
+        if self.words:
+            ui.print(f'Using anonymous list of words')
+
+        elif self.wordlist is not None:
+            ui.print(f'Using wordlist {self.wordlist.name} (already loaded!)')
+            ui.log(self.wordlist.describe)
+
+        else:
+            if not self.wordlist_file:
+                with ui.input(f'📜 {self.default_wordlist} ? ') as tokens:
+                    self.wordlist_file = next(tokens, self.default_wordlist)
+
             asof = self.wordlist_asof
             if asof:
                 stdout = subprocess.check_output(['git' , 'rev-parse', asof], text=True)
                 asof = stdout.partition('\n')[0]
 
-            if not self.words:
-                wl = WordList(self.default_wordlist, asof=asof)
-                self.set_wordlist(ui, wl)
+            wl = WordList(self.wordlist_file, asof=asof)
+            self.set_wordlist(ui, wl)
+
+            ui.print(f'Using wordlist {wl.name}')
 
         if self.remain <= 0:
             ui.print('empty wordlist')
