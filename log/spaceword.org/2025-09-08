@@ -16482,3 +16482,120 @@ TDD522645 📋> #spaceword
 TDD159663 📋> ␚
 TDD-681358 result: "\u2728 Spaceword.org Daily 2025-09-08 \u2728\n\n\ud83c\udfc6 Score: 2168\n\ud83c\udfc5 Rank: 142/321 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +68\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD2632745 [prior:2168]> /store
+T17147.613711551763 now: 2025-09-08T22:10:07UTC
+TD23253108 [prior:2168]> /clear
+TDD-23252997 change: 14 
+TDD-94 change: 15 
+TDD0 change: 16 
+TDD-6 change: 26 
+TDD0 change: 35 
+TDD0 change: 36 
+TDD0 change: 43 
+TDD0 change: 44 
+TDD0 change: 45 
+TDD0 change: 46 
+TDD0 change: 55 
+TDD1 change: 56 
+TDD-1 change: 64 
+TDD0 change: 65 
+TDD0 change: 66 
+TDD0 change: 73 
+TDD0 change: 74 
+TDD0 change: 75 
+TDD0 change: 84 
+TDD0 change: 85 
+TDD0 change: 86 
+TDD3718757 [prior:2168 meh:100]> @ 2 3
+TDD-3718569 at: 2 3 X
+TDD2946153 [prior:2168 meh:100]> @ 1 3
+TDD-2946207 at: 1 3 X
+TDD2190408 [prior:2168 meh:100]> ^eaves
+TDD-481202 [prior:2168 meh:100]> ^ eaves
+TDD-1709088 change: 31 E
+TDD-244 change: 32 A
+TDD-5 change: 33 V
+TDD-1 change: 34 E
+TDD0 change: 35 S
+TDD2661115 [prior:2168 meh:595]> >
+TDD-265677 [prior:2168 meh:595]> ?
+TDD4027148 [prior:2168 meh:595]> /shift 1 0
+TDD-2948372 [prior:2168 meh:595]> /shift 1 0
+TDD-1749749 [prior:2168 meh:595]> /shfit
+TDD-488091 [prior:2168 meh:595]> /shift
+TDD823982 [prior:2168 meh:595]> /?
+TDD-1258734 [prior:2168 meh:595]> ?
+TDD6428114 [prior:2168 meh:595]> /shift +1
+TDD466540 [prior:2168 meh:595]> /clear
+TDD-7696166 change: 31 
+TDD-104 change: 32 
+TDD-4 change: 33 
+TDD-1 change: 34 
+TDD0 change: 35 
+TDD3502003 [prior:2168 meh:100]> @ 2 2
+TDD-3501877 at: 2 2 X
+TDD1236658 [prior:2168 meh:100]> ^ eaves
+TDD-1236611 change: 22 E
+TDD-165 change: 23 A
+TDD-4 change: 24 V
+TDD-1 change: 25 E
+TDD0 change: 26 S
+TDD5336388 [prior:2168 meh:595]> @ 3 2 Y
+TDD-5336136 at: 3 2 Y
+TDD5360539 [prior:2168 meh:595]> ^abelia
+TDD-2265109 [prior:2168 meh:595]> ^ abelia
+TDD-3095507 change: 33 B
+TDD-167 change: 43 E
+TDD-5 change: 53 L
+TDD-1 change: 63 I
+TDD0 change: 73 A
+TDD10418025 [prior:2168 meh:1070]> @ 4 2 Y
+TDD-10417896 at: 4 2 Y
+TDD2815879 [prior:2168 meh:1070]> ^vowing
+TDD-996011 [prior:2168 meh:1070]> ^ vowing
+TDD-1819817 change: 34 O
+TDD-172 change: 44 W
+TDD-4 change: 54 I
+TDD-1 change: 64 N
+TDD0 change: 74 G
+TDD6980043 [prior:2168 meh:1570]> @ 2 4
+TDD-6979918 at: 2 4 Y
+TDD3420791 [prior:2168 meh:1570]> ^ d
+TDD-3420733 change: 42 D
+TDD9318803 [prior:2168 meh:1670]> @ 2 6
+TDD-9318860 at: 2 6 Y
+TDD2785967 [prior:2168 meh:1670]> @ 2 7
+TDD-2785965 at: 2 7 Y
+TDD2782647 [prior:2168 meh:1670]> ^ maggot
+TDD-67958 [prior:2168 meh:1670]> ^ magot
+TDD-814287 [prior:2168 meh:1670]> ^ magot
+TDD2681073 [prior:2168 meh:1670]> ^ m
+TDD-4581438 change: 72 M
+TDD3780090 [prior:2168 meh:1770]> ^ magot
+TDD2151678 [prior:2168 meh:1770]> @ 2 7 x
+TDD-5931796 at: 2 7 X
+TDD1426032 [prior:2168 meh:1770]> ^ magot
+TDD-1425977 change: 75 O
+TDD-185 change: 76 T
+TDD11416555 [prior:2168 meh:1970]> @ 7 3
+TDD-11416428 at: 7 3 X
+TDD4551549 [prior:2168 meh:1970]> @ 6 2
+TDD-4551556 at: 6 2 X
+TDD4870383 [prior:2168 meh:1970]> @ 6 2 Y
+TDD-4870389 at: 6 2 Y
+TDD3532964 [prior:2168 meh:1970]> ^ suq
+TDD-3532929 change: 36 U
+TDD-147 change: 46 Q
+TDD6378456 [prior:2168 bet:2170]> /res
+TDD-505394 📋> ✨ Spaceword.org Daily 2025-09-08 ✨
+TDD-5872994 📋> 
+TDD-59 📋> 🏆 Score: 2170
+TDD-5 📋> 🏅 Rank: 96/346 🎉
+TDD-1 📋> 🧩 Tiles: 21/21 ✅
+TDD0 📋> 📏 Space Bonus: +70
+TDD0 📋> 
+TDD0 📋> 
+TDD0 📋> Play at https://spaceword.org
+TDD476397 📋> #spaceword
+TDD-101659 📋> ␚
+TDD-374594 result: "\u2728 Spaceword.org Daily 2025-09-08 \u2728\n\n\ud83c\udfc6 Score: 2170\n\ud83c\udfc5 Rank: 96/346 \ud83c\udf89\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +70\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD2030958 [prior:2170]> /store
