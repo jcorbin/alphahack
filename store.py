@@ -652,6 +652,37 @@ class StoredLog:
         self.loaded = True
         self.log_file = log_file
 
+    def find_prior_log(self, ui: PromptUI, puzzle_id: str|None=None):
+        if puzzle_id is None:
+            puzzle_id = next(ui.tokens, '')
+
+        sd = self.store_subdir
+        if not sd:
+            ui.print(f'! no store directory available to look for {puzzle_id!r}')
+            raise StopIteration
+
+        if not puzzle_id:
+            return max((
+                ent.path
+                for ent in os.scandir(sd)
+                if ent.is_file()
+            ), default='')
+
+        maybe_log_file = os.path.join(sd, puzzle_id)
+        if os.path.isfile(maybe_log_file):
+            return maybe_log_file
+
+        mayhaps = tuple(
+            ent.path
+            for ent in os.scandir(sd)
+            if puzzle_id in ent.name)
+        if len(mayhaps) == 1:
+            return mayhaps[0]
+        elif len(mayhaps) > 1:
+            ui.print(f'! ambiguous substring, mayhaps: {mayhaps!r}')
+        else:
+            ui.print(f'! unable to find prior log {puzzle_id!r} in {sd}')
+
     def __call__(self, ui: PromptUI) -> PromptUI.State|None:
         spec_match = re.fullmatch(r'''(?x)
                                   (?P<puzzle_id> .*? )
@@ -661,37 +692,8 @@ class StoredLog:
         if spec_match:
             puzzle_id = str(spec_match[1])
             action = str(spec_match[2])
-
-            sd = self.store_subdir
-            if not sd:
-                ui.print(f'! no store directory available to look for {puzzle_id!r}')
-                raise StopIteration
-
-            def find():
-                if not puzzle_id:
-                    return max((
-                        ent.path
-                        for ent in os.scandir(sd)
-                        if ent.is_file()
-                    ), default='')
-
-                maybe_log_file = os.path.join(sd, puzzle_id)
-                if os.path.isfile(maybe_log_file):
-                    return maybe_log_file
-
-                mayhaps = tuple(
-                    ent.path
-                    for ent in os.scandir(sd)
-                    if puzzle_id in ent.name)
-                if len(mayhaps) == 1:
-                    return mayhaps[0]
-
-                if len(mayhaps) > 1:
-                    ui.print(f'! ambiguous substring, mayhaps: {mayhaps!r}')
-
-            found_log_file = find()
+            found_log_file = self.find_prior_log(ui, puzzle_id)
             if not found_log_file:
-                ui.print(f'! unable to find prior log {puzzle_id!r} in {sd}')
                 raise StopIteration
 
             ui.print(f'Found log file {found_log_file}')
