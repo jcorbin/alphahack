@@ -1,0 +1,89 @@
+T72.19430763460696 now: 2025-09-08T13:36:13UTC
+TD67 site: https://play.dictionary.com/games/todays-hurdle
+TDD-33 wordlist: nwl2023.txt
+TDD7827948 1.1> *
+TDD89142723 1.1 ? 1
+TDD-92482433 1.1 📋 "rates" ? nnnnM
+TDD-4488062 tried: RATES n n n n m
+TDD899815 1.2> *
+TDD754404 1.2 ? 2
+TDD2933005 1.2 📋 "spoil" ? MnMnM
+TDD-4587296 tried: SPOIL m n m n m
+TDD562694 1.3> *
+TDD1647920 1.3 ? 2
+TDD1938942 1.3 📋 "lousy" ? it
+TDD-4149591 tried: LOUSY Y Y Y Y Y
+TDD8993174 2.1 📋 "lousy" ? nMnYn
+TDD-8993136 tried: LOUSY n m n Y n
+TDD512353 2.2> *
+TDD603874 2.2 ? 1
+TDD2457194 2.2 📋 "ghost" ? nnMYn
+TDD-3573434 tried: GHOST n n m Y n
+TDD480606 2.3> *
+TDD3448219 2.3 ? 1
+TDD2040678 2.3 📋 "verso" ? nMnYM
+TDD-5969507 tried: VERSO n m n Y m
+TDD502757 2.4> *
+TDD3639087 2.4 📋 "obese" ? it
+TDD-4141854 tried: OBESE Y Y Y Y Y
+TDD7647280 3.1 📋 "obese" ? Mnnnn
+TDD-7647271 tried: OBESE m n n n n
+TDD503754 3.2> *
+TDD563368 3.2 ? 1
+TDD3318018 3.2 📋 "manor" ? nMnYn
+TDD-4385146 tried: MANOR n m n Y n
+TDD483928 3.3> *
+TDD4534825 3.3 ? 4
+TDD-563869 3.3 📋 "aglow" ? YnYYY
+TDD-4454874 tried: AGLOW Y n Y Y Y
+TDD506367 3.4> *
+TDD1935855 3.4 📋 "allow" ? it
+TDD-2442257 tried: ALLOW Y Y Y Y Y
+TDD9955867 4.1 📋 "allow" ? Ynnnn
+TDD-9955833 tried: ALLOW Y n n n n
+TDD499949 4.2> *
+TDD3363655 4.2 ? 3
+TDD1771368 4.2 📋 "aides" ? YMMnn
+TDD-5634979 tried: AIDES Y m m n n
+TDD640833 4.3> *
+TDD4362485 4.3 ? 2
+TDD-991539 4.3 📋 "admit" ? it
+TDD-4011795 tried: ADMIT Y Y Y Y Y
+TDD8333734 5.1 📋 "lousy" ? nnnnn
+TDD-8333714 tried: LOUSY n n n n n
+TDD1194476 5.2 📋 "obese" ? nnnnn
+TDD-1194488 tried: OBESE n n n n n
+TDD1519862 5.3 📋 "allow" ? Mnnnn
+TDD-1519862 tried: ALLOW m n n n n
+TDD2687658 5.4 📋 "admit" ? MnMnM
+TDD-2687639 tried: ADMIT m n m n m
+TDD705651 5.5> *
+TDD1384672 5.5 ? 2
+TDD1552301 5.5 📋 "match" ? it
+TDD-3642640 tried: MATCH Y Y Y Y Y
+TDD6508522 📋> Hurdle 1346
+TDD-6508561 📋> 
+TDD-57 📋> 3/6
+TDD-1 📋> ⬜⬜⬜⬜🟨
+TDD-2 📋> 🟨⬜🟨⬜🟨
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> ⬜🟨⬜🟩⬜
+TDD12 📋> ⬜⬜🟨🟩⬜
+TDD-12 📋> ⬜🟨⬜🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 4/6
+TDD4 📋> 🟨⬜⬜⬜⬜
+TDD-3 📋> ⬜🟨⬜🟩⬜
+TDD0 📋> 🟩⬜🟩🟩🟩
+TDD3 📋> 🟩🟩🟩🟩🟩
+TDD-4 📋> 3/6
+TDD0 📋> 🟩⬜⬜⬜⬜
+TDD2 📋> 🟩🟨🟨⬜⬜
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 1/2
+TDD2 📋> 🟩🟩🟩🟩🟩
+TDD692972 📋> score: 10,100
+TDD-281899 📋> ␚
+TDD-410646 result: "Hurdle 1346\n\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"
+TDD450969 📆 2025-09-08 ? 
