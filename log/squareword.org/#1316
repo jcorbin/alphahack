@@ -1,0 +1,118 @@
+T55.359998979605734 now: 2025-09-08T13:33:16UTC
+TD49 site: squareword.org
+TDD5514858 🧩  ? #1316
+TDD-5514695 puzzle_id: #1316
+TDD-189 wordlist: nwl2023.txt
+TDD3046799 > *
+TDD5253506 try? S____ ~ AR
+TDD-3406600 try? 4
+TDD-4893549 questioning: ["spare", "#5"]
+TDD3625226 #1 _____  📋 "spare" ? S____ ~ AR
+TDD-3625002 attempt 0 SPARE Y n m m n
+TDD3882576 #2 _____  📋 "spare" ? ____E ~ SAR
+TDD-3882786 attempt 1 SPARE m n m m Y
+TDD2350374 #3 _____  📋 "spare" ? ____E ~ S
+TDD-2350391 attempt 2 SPARE m n n n Y
+TDD4130907 #4 _____  📋 "spare" ? _____ ~ SE
+TDD-4130912 attempt 3 SPARE m n n n m
+TDD2594645 #5 _____  📋 "spare" ? _____ ~ SE
+TDD-2594647 attempt 4 SPARE m n n n m
+TDD744524 ? 
+TDD-744598 question done
+TDD640675 > *
+TDD1608049 try? 2
+TDD-2248630 questioning: ["arose", "#2"]
+TDD3107692 #1 S____ ~AR -EP  📋 "arose" ? .
+TDD-3107729 attempt 0 AROSE m m n n n
+TDD886291 #2 ____E ~ARS -P  📋 "arose" ? /it
+TDD-886297 attempt 1 AROSE Y Y Y Y Y
+TDD3487998 #3 ____E ~S -APR  📋 "arose" ? ___SE ~ O
+TDD-3487985 attempt 2 AROSE n n m Y Y
+TDD2272845 #4 _____ ~ES -APR  📋 "arose" ? .
+TDD-2272842 attempt 3 AROSE n n n m m
+TDD891119 #5 _____ ~ES -APR  📋 "arose" ? .
+TDD-891140 attempt 4 AROSE n n n m m
+TDD275780 ? 
+TDD-275811 question done
+TDD495084 > *
+TDD1253051 try? 1
+TDD-1748099 questioning: ["douse", "#3"]
+TDD3134445 #1 S____ ~AR -EOPS  📋 "douse" ? .
+TDD-3134448 attempt 0 DOUSE n n n n n
+TDD1675027 #3 ___SE ~O -APR  📋 "douse" ? _OUSE
+TDD-1675021 attempt 2 DOUSE n Y Y Y Y
+TDD677734 #4 _____ ~ES -AOPR  📋 "douse" ? .
+TDD-677731 attempt 3 DOUSE n n n m m
+TDD298368 #5 _____ ~ES -AOPR  📋 "douse" ? .
+TDD-298435 attempt 4 DOUSE n n n m m
+TDD700113 ? 
+TDD-700084 question done
+TDD753182 > *
+TDD4456625 try? 
+TDD-1821156 > * 1
+TDD620738 try? 1
+TDD-4009336 questioning: ["scran", "#1"]
+TDD6200034 #1 S____ ~AR -DEOPSU  📋 "scran" ? scra_
+TDD-6200047 attempt 0 SCRAN Y Y Y Y n
+TDD4039080 #3 _OUSE -ADPR  📋 "scran" ? 
+T14.021317862905562 now: 2025-09-08T13:35:15UTC
+TD63 questioning: ["scran", "#1"]
+TDD3132835 #3 _OUSE -ADPR  📋 "scran" ? .
+TDD-3132725 attempt 2 SCRAN n n n n n
+TDD3239193 #4 _____ ~ES -ADOPRU  📋 "scran" ? _____ ~ SEN
+TDD-3238961 attempt 3 SCRAN m n n n m
+TDD1472238 #5 _____ ~ES -ADOPRU  📋 "scran" ? .
+TDD-1472504 attempt 4 SCRAN m n n n n
+TDD2057800 ? *
+TDD-1312556 ? 
+TDD-745283 question done
+TDD623116 > *
+TDD2630002 try? 1
+TDD-3253068 questioning: ["scram", "#1"]
+TDD2694088 #1 SCRA_ -DENOPU  📋 "scram" ? /it
+TDD-2694114 attempt 0 SCRAM Y Y Y Y Y
+TDD2415885 #3 _OUSE -ACDNPRS  📋 "scram" ? .
+TDD-2415855 attempt 2 SCRAM n n n n n
+TDD1223074 #4 _____ ~ENS -ACDOPRU  📋 "scram" ? .
+TDD-1223090 attempt 3 SCRAM m n n n n
+TDD420155 #5 _____ ~ES -ACDNOPRU  📋 "scram" ? .
+TDD-420161 attempt 4 SCRAM m n n n n
+TDD611699 ? 
+TDD-611741 question done
+TDD607177 > *
+TDD-258657 questioning: ["inset", "#4"]
+TDD4164079 #3 _OUSE -ACDMNPRS  📋 "inset" ? .
+TDD-4512544 attempt 2 INSET n n n n n
+TDD988474 #4 _____ ~ENS -ACDMOPRU  📋 "inset" ? /it
+TDD-988492 attempt 3 INSET Y Y Y Y Y
+TDD2996594 #5 _____ ~ES -ACDMNOPRU  📋 "inset" ? _____ ~ SET
+TDD-2996543 attempt 4 INSET n n m m m
+TDD1410546 ? 
+TDD-1410633 question done
+TDD630101 > *
+TDD-97474 questioning: ["beets", "#5"]
+TDD6519507 #3 _OUSE -ACDEIMNPRST  📋 "beets" ? .
+TDD-7052090 attempt 2 BEETS n n n n n
+TDD1795148 #5 _____ ~EST -ACDIMNOPRU  📋 "beets" ? /it
+TDD-1795156 attempt 4 BEETS Y Y Y Y Y
+TDD832949 ? 
+TDD-832977 question done
+TDD606762 > *
+TDD-105096 questioning: ["house", "#3"]
+TDD3483388 #3 _OUSE -ABCDEIMNPRST  📋 "house" ? /it
+TDD-3985022 attempt 2 HOUSE Y Y Y Y Y
+TDD529904 ? 
+TDD-529941 question done
+TDD3522451 📋> squareword.org 1316: 8 guesses
+TDD-3522456 📋> 
+TDD-59 📋> 🟩🟩🟩🟩🟩
+TDD-8 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟩🟩🟩🟩
+TDD-3 📋> 🟨🟨🟨🟨🟨
+TDD-3 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 
+TDD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD1254336 📋> #squareword #squareword1316
+TDD-697786 📋> ␚
+TDD-556091 result: "squareword.org 1316: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1316"
+TDD444733 📆 2025-09-08 ? 
