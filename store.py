@@ -662,11 +662,15 @@ class StoredLog:
             raise StopIteration
 
         if not puzzle_id:
-            return max((
-                ent.path
-                for ent in os.scandir(sd)
-                if ent.is_file()
-            ), default='')
+            ent = max(
+                (
+                    ent
+                    for ent in os.scandir(sd)
+                    if ent.is_file()
+                ),
+                key=lambda ent: ent.stat().st_mtime,
+                default=None)
+            return ent.path if ent else None
 
         maybe_log_file = os.path.join(sd, puzzle_id)
         if os.path.isfile(maybe_log_file):
