@@ -798,25 +798,29 @@ class PromptUI:
     Next = Next
 
     def interact(self, state: State):
+        try:
+            self.call_state(state)
+
+        except StopIteration:
+            return
+
+        except EOFError:
+            self.log('<EOF>')
+            self.print(' <EOF>')
+            return
+
+        except KeyboardInterrupt:
+            self.log('<INT>')
+            self.print(' <INT>')
+            raise
+
+    def call_state(self, state: State):
         while True:
             try:
                 state = state(self) or state
 
             except Next as n:
                 state = n.resolve(self) or state
-
-            except StopIteration:
-                return
-
-            except EOFError:
-                self.log('<EOF>')
-                self.print(' <EOF>')
-                return
-
-            except KeyboardInterrupt:
-                self.log('<INT>')
-                self.print(' <INT>')
-                raise
 
     @staticmethod
     @contextmanager
