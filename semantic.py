@@ -16,6 +16,7 @@ from dataclasses import dataclass
 from dateutil.tz import gettz
 from dotenv import load_dotenv
 from itertools import chain
+from os import environ
 from typing import assert_never, cast, final, overload, override, Callable, Literal
 from urllib.parse import urlparse
 
@@ -616,7 +617,7 @@ class Search(StoredLog):
     log_file: str = 'cemantle.log'
     default_site: str = 'cemantle.certitudes.org'
     default_lang: str = ''
-    default_chat_model: str = 'llama'
+    default_chat_model: str = environ.get('OLLAMA_MODEL', 'llama')
     default_system_prompt: str = 'You are a related word suggestion oracle. Give your responses as simple numbered lists of words related to the ones given by the user.'
 
     pub_at = datetime.time(hour=0)
@@ -627,7 +628,7 @@ class Search(StoredLog):
         super().add_args(parser)
         _ = parser.add_argument('--lang', default=self.lang)
         _ = parser.add_argument('--tz', default=self.pub_tzname)
-        _ = parser.add_argument('--model')
+        _ = parser.add_argument('--model', self.default_chat_model)
         _ = parser.add_argument('--auto', action='store_true')
 
     @override
