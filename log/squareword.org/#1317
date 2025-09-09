@@ -1,0 +1,131 @@
+T133.21192567050457 now: 2025-09-09T12:15:50UTC
+TD44 site: squareword.org
+TDD6649291 🧩  ? #1317
+TDD-6649124 puzzle_id: #1317
+TDD-183 wordlist: nwl2023.txt
+TDD707844 > *
+TDD2336052 try? 5
+TDD-3043731 questioning: ["lames", "#5"]
+TDD4410794 #1 _____  📋 "lames" ? _AM__ ~ AM
+TDD-4410569 attempt 0 LAMES n Y Y n n
+TDD1146635 #2 _____  📋 "lames" ? _____
+TDD-1146877 attempt 1 LAMES n n n n n
+TDD1160707 #3 _____  📋 "lames" ? _____
+TDD-1160735 attempt 2 LAMES n n n n n
+TDD2819101 #4 _____  📋 "lames" ? _A_E_ ~ E
+TDD-2819078 attempt 3 LAMES n Y n Y n
+TDD2637214 #5 _____  📋 "lames" ? _____ ~ ES
+TDD-2637216 attempt 4 LAMES n n n m m
+TDD607167 ? 
+TDD-607220 question done
+TDD894545 > *
+TDD1797213 try? 1
+TDD-2691690 questioning: ["ramin", "#1"]
+TDD7687982 #1 _AM__ -ELS  📋 "ramin" ? _AM__ ~ AM
+TDD-7688000 attempt 0 RAMIN n Y Y n n
+TDD3111287 #2 _____ -AELMS  📋 "ramin" ? ___I_
+TDD-3111284 attempt 1 RAMIN n n n Y n
+TDD2376987 #3 _____ -AELMS  📋 "ramin" ? _____ I
+TDD-2377002 attempt 2 RAMIN n n n n n
+TDD6216757 #4 _A_E_ -LMS  📋 "ramin" ? _A_E_ ~ ER
+TDD-6216740 attempt 3 RAMIN m Y n n n
+TDD3564047 #5 _____ ~ES -ALM  📋 "ramin" ? _____ ~ ESRN
+TDD-3564050 attempt 4 RAMIN m n n n m
+TDD1191283 ? 
+TDD-1191342 question done
+TDD524976 > *
+TDD6148774 try? 2
+TDD-6673704 questioning: ["snore", "#5"]
+TDD10595855 #1 _AM__ -EILNRS  📋 "snore" ? _AM__ ~ AM
+TDD-10595832 attempt 0 SNORE n n n n n
+TDD4190206 #2 ___I_ -AELMNRS  📋 "snore" ? __OI_ ~ O
+TDD-4190217 attempt 1 SNORE n n Y n n
+TDD3616680 #3 _____ -AEILMNRS  📋 "snore" ? _____ ~ IO
+TDD-3616679 attempt 2 SNORE n n m n n
+TDD3664862 #4 _A_E_ ~R -ILMNS  📋 "snore" ? _A_E_ ~ ER
+TDD-3664869 attempt 3 SNORE n n n m m
+TDD747612 #5 _____ ~ENRS -AILM  📋 "snore" ? /it
+TDD-747630 attempt 4 SNORE Y Y Y Y Y
+TDD218714 ? 
+TDD-218764 question done
+TDD788221 > *
+TDD-88771 questioning: ["ovoid", "#2"]
+TDD7486365 #1 _AM__ -EILNORS  📋 "ovoid" ? _AM__ ~ AM
+TDD-8185750 attempt 0 OVOID n n n n n
+TDD1612995 #2 __OI_ -AELMNRS  📋 "ovoid" ? /it
+TDD-1613005 attempt 1 OVOID Y Y Y Y Y
+TDD3451903 #3 _____ ~O -AEILMNRS  📋 "ovoid" ? _____ ~ IOD
+TDD-3451899 attempt 2 OVOID m n m m m
+TDD3517392 #4 _A_E_ ~R -ILMNOS  📋 "ovoid" ? _A_E_ ~ ER
+TDD-3517381 attempt 3 OVOID n n n n n
+TDD240912 ? 
+TDD-240956 question done
+TDD644695 > *
+TDD4318311 try? 1
+TDD-4962956 questioning: ["gamba", "#1"]
+TDD6545415 #1 _AM__ -DEILNORSV  📋 "gamba" ? _AM_A ~ M
+TDD-6545431 attempt 0 GAMBA n Y Y n Y
+TDD2168228 #3 _____ ~DIO -AEILMNRSV  📋 "gamba" ? .
+TDD-2168250 attempt 2 GAMBA n n n n n
+TDD4041823 #4 _A_E_ ~R -DILMNOSV  📋 "gamba" ? _A_E_ ~ ER
+TDD-4041779 attempt 3 GAMBA n Y n n n
+TDD232154 ? 
+TDD-232217 question done
+TDD567279 > *
+TDD3743694 try? 2
+TDD-4310909 questioning: ["mamma", "#1"]
+TDD4161018 #1 _AM_A -BDEGILNORSV  📋 "mamma" ? /it
+TDD-4161062 attempt 0 MAMMA Y Y Y Y Y
+TDD1636773 #3 _____ ~DIO -ABEGILMNRSV  📋 "mamma" ? .
+TDD-1636755 attempt 2 MAMMA n n n n n
+TDD3026628 #4 _A_E_ ~R -BDGILMNOSV  📋 "mamma" ? _A_E_ ~ ER
+TDD-3026637 attempt 3 MAMMA n Y n n n
+TDD523162 ? 
+TDD-523241 question done
+TDD566861 > *
+TDD2359727 try? 1
+TDD-2926497 questioning: ["hater", "#4"]
+TDD7509968 #3 _____ ~DIO -ABEGILMNRSV  📋 "hater" ? __T__ ~ IODT
+TDD-7509955 attempt 2 HATER n n Y n n
+TDD2977054 #4 _A_E_ ~R -BDGILMNOSV  📋 "hater" ? _ATER ~ E
+TDD-2977062 attempt 3 HATER n Y Y Y Y
+TDD803634 ? 
+TDD-803683 question done
+TDD584343 > *
+TDD6569573 try? 1
+TDD-7153873 questioning: ["eater", "#4"]
+TDD4018068 #3 __T__ ~DIO -ABEGHILMNRSV  📋 "eater" ? __T__ ~ IODT
+TDD-4018044 attempt 2 EATER n n Y n n
+T2.6961602801457047 now: 2025-09-09T12:19:39UTC
+TD76 questioning: ["eater", "#4"]
+TDD3035449 #4 _ATER -BDGHILMNOSV  📋 "eater" ? /it
+TDD-3035350 attempt 3 EATER Y Y Y Y Y
+TDD1434224 ? 
+TDD-1434284 question done
+TDD1092261 > *
+TDD8471365 > ?
+TDD-5297173 > /gen 
+TDD-1650576 > /gen
+TDD4397231 > /gen 2 __T__ ~ IODT
+TDD3066195 > /man 2 __T__ ~ IODT
+TDD-1207929 > /man 2 __T__ ~IODT
+TDD49600384 > "ditto"
+TDD-57112373 > ditto
+TDD-1359338 questioning: ["ditto", "entered"]
+TDD1847823 #3 __T__ ~DIO -ABEGHILMNRSV  📋 "ditto" ? /it
+TDD-1847813 attempt 2 DITTO Y Y Y Y Y
+TDD816731 ? 
+TDD-816791 question done
+TDD4012398 📋> squareword.org 1317: 10 guesses
+TDD-4012410 📋> 
+TDD-76 📋> 🟨🟩🟩🟨🟩
+TDD-5 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟨🟩🟨🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD13 📋> 
+TDD-12 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD372863 📋> #squareword #squareword1317
+TDD286178 📋> ␚
+TDD-658582 result: "squareword.org 1317: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1317"
+TDD435127 📆 2025-09-09 ? 
