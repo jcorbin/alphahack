@@ -1,0 +1,69 @@
+T326.07618525251746 now: 2025-09-09T12:25:02UTC
+TD52 site: dontwordle.com
+TDD-12 wordlist: nwl2023.txt
+TDD4290633 1> * -bot 10
+TDD-1367141 ? 2
+TDD2021507 📋 "earls" ? nnnnn
+TDD-4944909 tried: EARLS n n n n n
+TDD1515434 2> * -bot 10
+TDD907240 ? 2
+TDD2010006 📋 "tunic" ? nYnnn
+TDD-4432683 tried: TUNIC n Y n n n
+TDD714971 3> undo
+TDD-715000 undo
+TDD669011 2> undo
+TDD-669018 undo
+TDD3846005 1> *
+TDD-2683906 ? 1
+TDD3632337 📋 "commo" ? nnYnY
+TDD-4794410 tried: COMMO n n Y n Y
+TDD755797 2> undo
+TDD-755834 undo
+TDD723910 1> *
+TDD2205572 ? 10
+TDD2119228 📋 "theft" ? nnnnn
+TDD-5048670 tried: THEFT n n n n n
+TDD1990234 2> *
+TDD-488322 ? 1
+TDD2219410 📋 "nappa" ? nnnnn
+TDD-3721314 tried: NAPPA n n n n n
+TDD482894 3> *
+TDD448838 ? 1
+TDD3890214 📋 "vivid" ? nnnnn
+TDD-4821940 tried: VIVID n n n n n
+TDD551360 4> *
+TDD811112 ? 1
+TDD3210248 📋 "grrrl" ? nnnnn
+TDD-4572716 tried: GRRRL n n n n n
+TDD491551 5> *
+TDD7597110 ? 1
+TDD-3103721 📋 "bubby" ? nYnYn
+TDD-4984962 tried: BUBBY n Y n Y n
+TDD4340231 6> undo
+TDD-4340252 undo
+TDD695165 5> *
+TDD822508 ? 1
+TDD2032167 📋 "cucks" ? 
+TDD954612 5> *
+TDD1128606 ? 5
+TDD-845707 📋 "scuzz" ? nnMnn
+TDD-4787326 tried: SCUZZ n n m n n
+TDD518660 6> *
+TDD5268319 📋 "yukky" ? nYnnn
+TDD-5786983 tried: YUKKY n Y n n n
+TDD3544100 📋> Don't Wordle 1204 - SURVIVED
+TDD-3544139 📋> Hooray! I didn't Wordle today!
+TDD-64 📋> ⬜⬜⬜⬜⬜4225
+TDD-4 📋> ⬜⬜⬜⬜⬜1101
+TDD-1 📋> ⬜⬜⬜⬜⬜495
+TDD0 📋> ⬜⬜⬜⬜⬜158
+TDD0 📋> ⬜⬜🟨⬜⬜11
+TDD-1 📋> ⬜🟩⬜⬜⬜3
+TDD11 📋> Undos used: 4
+TDD-10 📋> 
+TDD-1 📋>   3 words remaining
+TDD0 📋> x 7 unused letters
+TDD546563 📋> = 21 total score
+TDD-111832 📋> ␚
+TDD-433896 result: "Don't Wordle 1204 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4225\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1101\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c495\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c158\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c11\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c3\nUndos used: 4\n\n  3 words remaining\nx 7 unused letters\n= 21 total score"
+TDD487776 📆 2025-09-09 ? 
