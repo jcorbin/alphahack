@@ -54,6 +54,7 @@ class DontWord(StoredLog):
         self._result: Result|None = None
 
         self.play_prompt = PromptUI.Prompt(self.play_prompt_mess, {
+            '/site': self.cmd_site_link,
             '/store': self.cmd_store,
 
             'fail': self.do_fail,
@@ -175,6 +176,9 @@ class DontWord(StoredLog):
         if not self.given_wordlist:
             self.given_wordlist = True
             ui.log(f'wordlist: {self.wordlist_file}')
+
+        if not (self.tried or self.void_letters):
+            self.cmd_site_link(ui)
 
         return self.play
 

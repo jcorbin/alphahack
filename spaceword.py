@@ -1046,6 +1046,7 @@ class SpaceWord(StoredLog):
         self.at_cursor: tuple[int, int, Literal['X', 'Y']] = (0, 0, 'X')
 
         self.play = PromptUI.Prompt(self.prompt_mess, {
+            '/site': self.cmd_site_link,
             '/store': self.cmd_store,
 
             '/at': self.cmd_at,
@@ -1303,6 +1304,9 @@ class SpaceWord(StoredLog):
         if not self.given_wordlist:
             self.given_wordlist = True
             ui.log(f'wordlist: {self.wordlist_file}')
+
+        if not (self.puzzle_id and self.num_letters):
+            self.cmd_site_link(ui)
 
         if not self.puzzle_id:
             with ui.input(f'🧩 {self.puzzle_id} ? ') as tokens:

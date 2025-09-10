@@ -162,8 +162,22 @@ class StoredLog:
     def today(self) -> datetime.date|None:
         return None
 
-    def startup(self, _ui: PromptUI) -> PromptUI.State|None:
-        raise NotImplementedError('StoredLog.startup')
+    def cmd_site_link(self, ui: PromptUI):
+        '''
+        present puzzle site via clipboard
+        '''
+        label = self.site_name or self.site
+        url = self.site
+        if '://'not in url:
+            url = f'https://{url}'
+
+        # TODO ui facility to open url
+        ui.print(f'🔗📋 [{label}]({url})')
+        ui.copy(url)
+        _ = ui.input('<Enter To Continue>')
+
+    def startup(self, ui: PromptUI) -> PromptUI.State|None:
+        self.cmd_site_link(ui)
 
     @property
     def run_done(self) -> bool:

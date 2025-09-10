@@ -86,6 +86,7 @@ class Search(StoredLog):
         self._result: Result|None = None
 
         self.prompt = PromptUI.Prompt(self.prompt_mess, {
+            '/site': self.cmd_site_link,
             '/store': self.cmd_store,
 
             '/attempts': self.do_attempts,
@@ -144,6 +145,9 @@ class Search(StoredLog):
         if not self.given_wordlist:
             self.given_wordlist = True
             ui.log(f'wordlist: {self.wordlist_file}')
+
+        if not (self.guesses or self.rejects or self.questioning):
+            self.cmd_site_link(ui)
 
         if not self.puzzle_id:
             self.do_puzzle(ui)

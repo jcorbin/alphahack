@@ -59,6 +59,7 @@ class Search(StoredLog):
         self._result: Result|None = None
 
         self.prompt = PromptUI.Prompt(self.display_mess, {
+            '/site': self.cmd_site_link,
             '/store': self.cmd_store,
 
             'gen': self.do_gen,
@@ -169,6 +170,9 @@ class Search(StoredLog):
         if not self.given_wordlist:
             self.given_wordlist = True
             ui.log(f'wordlist: {self.wordlist_file}')
+
+        if not (self.tried or self.words):
+            self.cmd_site_link(ui)
 
         return self.display
 

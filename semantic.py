@@ -681,8 +681,8 @@ class Search(StoredLog):
         self.auto_token_limit = 400
         self.full_auto: bool = False
 
-
         self.play = PromptUI.Prompt('> ', {
+            '/site': self.cmd_site_link,
             '/store': self.cmd_store,
 
             '/auto': self.do_auto,
@@ -691,7 +691,6 @@ class Search(StoredLog):
             '/prog': self.show_prog,
             '/tiers': self.show_tiers,
 
-            '/site': self.do_site,
             '/lang': self.do_lang,
             '/puzzle': self.do_puzzle,
             '/scale': self.do_scale,
@@ -977,6 +976,9 @@ class Search(StoredLog):
                     return
 
             ui.print(f'WARNING: incomplete temp scale ; use /scale to inspect and fix')
+
+        if not self.auto_score:
+            self.cmd_site_link(ui)
 
         return self.orient
 
