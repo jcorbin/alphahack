@@ -123,20 +123,18 @@ class Search(StoredLog):
 
     @override
     def startup(self, ui: PromptUI):
-        if not self.puzzle_id:
-            ui.br()
-            if not self.wordlist_file:
-                with ui.input(f'📜 {self.default_wordlist} ? ') as tokens:
-                    self.wordlist_file = next(tokens, self.default_wordlist)
-            self.do_puzzle(ui)
-            if not self.puzzle_id: return
-
+        ui.br()
         if not self.wordlist_file:
-            self.wordlist_file = self.default_wordlist
+            with ui.input(f'📜 {self.default_wordlist} ? ') as tokens:
+                self.wordlist_file = next(tokens, self.default_wordlist)
 
         if not self.given_wordlist:
             self.given_wordlist = True
             ui.log(f'wordlist: {self.wordlist_file}')
+
+        if not self.puzzle_id:
+            self.do_puzzle(ui)
+            if not self.puzzle_id: return
 
         if self.questioning:
             return self.do_round(self.questioning)
