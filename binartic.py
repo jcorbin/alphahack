@@ -505,8 +505,8 @@ class Search(StoredLog):
         if self.remain <= 0:
             ui.print('empty wordlist')
             raise StopIteration
-
         ui.print(f'searching {self.remain} words')
+
         return self.prompt
 
     @property
