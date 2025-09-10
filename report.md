@@ -1,234 +1,245 @@
-# 2025-09-10
+# 2025-09-11
 
-- 🔗 spaceword.org 🧩 2025-09-09 🏁 score 2173 ranked 4.7% 19/403 ⏱️ 13:28:53.562473
-- 🔗 alfagok.diginaut.net 🧩 #312 🥳 12 ⏱️ 0:04:17.007390
-- 🔗 alphaguess.com 🧩 #778 🥳 14 ⏱️ 0:03:24.867707
-- 🔗 squareword.org 🧩 #1318 🥳 7 ⏱️ 0:07:45.265120
-- 🔗 dictionary.com hurdle 🥳 17 ⏱️ 0:10:05.397463
-- 🔗 dontwordle.com 🥳 6 ⏱️ 0:07:18.652921
-- 🔗 cemantle.certitudes.org 🧩 #1255 🥳 397 ⏱️ 0:18:03.667891
-- 🔗 cemantix.certitudes.org 🧩 #1288 🥳 278 ⏱️ 0:21:34.192373
+- 🔗 spaceword.org 🧩 2025-09-10 🏁 score 2173 ranked 2.1% 9/425 ⏱️ 2:32:00.988975
+- 🔗 alfagok.diginaut.net 🧩 #313 🥳 13 ⏱️ 0:01:18.895399
+- 🔗 alphaguess.com 🧩 #779 🥳 19 ⏱️ 0:02:19.065298
+- 🔗 squareword.org 🧩 #1319 🥳 7 ⏱️ 0:04:24.674173
+- 🔗 dictionary.com hurdle 🥳 19 ⏱️ 0:07:42.652044
+- 🔗 dontwordle.com 🥳 6 ⏱️ 0:10:42.687591
+- 🔗 cemantle.certitudes.org 🧩 #1256 🥳 756 ⏱️ 1:04:35.304753
+- 🔗 cemantix.certitudes.org 🧩 #1289 🥳 2569 ⏱️ 4:30:43.168092
 
 # Dev
 
 ## WIP
 
-- meta script
+- meta is basically done
+  - [ ] store daily share(d) state
+  - [ ] better logic circa end of day early play, e.g. doing a CET timezone
+        puzzle close late in the "prior" day local (EST) time
+
+- semantic does not auto report before exit
+  - trying finish -> store today
+
+- semantic: unhandled chat http error:
+  ```
+  Traceback (most recent call last):
+    ...
+    File "/home/jcorbin/alphaguess/semantic.py", line 2277, in ideate
+      st = self.do_ideate(ui)
+    File "/home/jcorbin/alphaguess/semantic.py", line 2309, in do_ideate
+      return self.chat_prompt(ui, '.') # TODO can this be an abbr?
+             ~~~~~~~~~~~~~~~~^^^^^^^^^
+    File "/home/jcorbin/alphaguess/semantic.py", line 3046, in chat_prompt
+      for _, content in self.chat_say(ui, prompt):
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^
+    File "/home/jcorbin/alphaguess/semantic.py", line 3094, in chat_say
+      for resp in self.llm_client.chat(model=self.llm_model, messages=self.chat, stream=True):
+    ...
+  httpx.RemoteProtocolError: Server disconnected without sending a response.
+  ```
 
 ## TODO
 
-- both hurdle and dontwordle lack puzzle id in report notes
+- ui: prompt default handler seems too stop-prone
+- hurdle: report note lacks puzzle id
+- dontwordle: report note lacks puzzle id
+- store: fin is not quite right yet
+- space: post fin `! store -> tail -> continue` implies `not run_done`
+- square: finish questioning work
 
-- store fin is not quite right yet
-
-- space
-  - post fin `! store -> tail -> continue` implies `not run_done`
-
-- semantic does not auto report before exit
-  - auto seems to just `<STOP>`, but not trace to confirm yet
-  - rerun insta stores with trace:
-    ```
-    ! Search.finish
-    Fin   $1 #667 oak              100.00°C 🥳 1000‰
-        🥳   0
-        😱   0
-        🔥   1
-        🥵  12
-        😎  65
-        🥶 562
-        🧊  26
-
-    // result guess count 666 doesn't match our 667
-     -!> <STOP>
-     -!> <STOP>
-    ```
-
-- finish square questioning work
-
-
-# spaceword.org 🧩 2025-09-09 🏁 score 2173 ranked 4.7% 19/403 ⏱️ 13:28:53.562473
+# spaceword.org 🧩 2025-09-10 🏁 score 2173 ranked 2.1% 9/425 ⏱️ 2:32:00.988975
 
 📜 5 sessions
 - tiles: 21/21
 - score: 2173 bonus: +73
-- rank: 19/403
+- rank: 9/425
 
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ O _ _ M I L _ _ W   
-      _ A U G U R E D _ I   
-      _ K _ I N E X A C T   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ O R G _ _ _   
+      _ _ _ _ _ A _ _ _ _   
+      _ _ _ _ _ J O _ _ _   
+      _ _ _ _ Q A T _ _ _   
+      _ _ _ _ _ S O _ _ _   
+      _ _ _ _ E _ L _ _ _   
+      _ _ _ _ U _ O _ _ _   
+      _ _ _ _ R A G _ _ _   
+      _ _ _ _ O X Y _ _ _   
 
-# alfagok.diginaut.net 🧩 #312 🥳 12 ⏱️ 0:04:17.007390
+# alfagok.diginaut.net 🧩 #313 🥳 13 ⏱️ 0:01:18.895399
 
-🤔 12 attempts
-📜 2 sessions
+🤔 13 attempts
+📜 1 sessions
 
-    @        [     0] &-teken       
-    @+1      [     1] &-tekens      
-    @+2      [     2] -cijferig     
-    @+3      [     3] -e-mail       
-    @+199855 [199855] lijm          q0  ? after
-    @+299792 [299792] schub         q1  ? after
-    @+311962 [311962] spier         q4  ? after
-    @+314671 [314671] st            q5  ? after
-    @+319466 [319466] stik          q6  ? after
-    @+321914 [321914] straten       q7  ? after
-    @+323139 [323139] structuralist q8  ? after
-    @+323528 [323528] studie        q9  ? after
-    @+323942 [323942] stuk          q10 ? after
-    @+324148 [324148] stuur         q11 ? it
-    @+324148 [324148] stuur         done. it
-    @+324369 [324369] sub           q3  ? before
-    @+349578 [349578] vakantie      q2  ? before
+    @        [     0] &-teken   
+    @+1      [     1] &-tekens  
+    @+2      [     2] -cijferig 
+    @+3      [     3] -e-mail   
+    @+199855 [199855] lijm      q0  ? after
+    @+299792 [299792] schub     q1  ? after
+    @+349578 [349578] vakantie  q2  ? after
+    @+374322 [374322] vrij      q3  ? after
+    @+386863 [386863] wind      q4  ? after
+    @+390072 [390072] wrik      q6  ? after
+    @+390739 [390739] zaad      q8  ? after
+    @+390885 [390885] zaai      q10 ? after
+    @+390924 [390924] zaak      q12 ? it
+    @+390924 [390924] zaak      done. it
+    @+390962 [390962] zaal      q11 ? before
+    @+391090 [391090] zadel     q9  ? before
+    @+391494 [391494] zand      q7  ? before
+    @+393280 [393280] zelfmoord q5  ? before
 
-# alphaguess.com 🧩 #778 🥳 14 ⏱️ 0:03:24.867707
+# alphaguess.com 🧩 #779 🥳 19 ⏱️ 0:02:19.065298
 
-🤔 14 attempts
-📜 3 sessions
+🤔 19 attempts
+📜 1 sessions
 
-    @        [     0] aa       
-    @+1      [     1] aah      
-    @+2      [     2] aahed    
-    @+3      [     3] aahing   
-    @+98233  [ 98233] mach     q0  ? after
-    @+147338 [147338] rho      q1  ? after
-    @+150234 [150234] sal      q5  ? after
-    @+151754 [151754] scan     q6  ? after
-    @+152546 [152546] scombrid q7  ? after
-    @+152737 [152737] scrag    q9  ? after
-    @+152837 [152837] scrawl   q10 ? after
-    @+152857 [152857] scream   q13 ? it
-    @+152857 [152857] scream   done. it
-    @+152879 [152879] screen   q11 ? before
-    @+152879 [152879] screen   q12 ? before
-    @+152942 [152942] scried   q8  ? before
-    @+153338 [153338] sea      q4  ? before
-    @+159620 [159620] slug     q3  ? before
-    @+171938 [171938] tag      q2  ? before
+    @       [    0] aa              
+    @+1     [    1] aah             
+    @+2     [    2] aahed           
+    @+3     [    3] aahing          
+    @+47394 [47394] dis             q1  ? after
+    @+72814 [72814] gremolata       q2  ? after
+    @+79146 [79146] hood            q4  ? after
+    @+82323 [82323] immaterial      q5  ? after
+    @+83254 [83254] in              q6  ? after
+    @+83534 [83534] inch            q10 ? after
+    @+83677 [83677] incomings       q11 ? after
+    @+83710 [83710] incomplete      q13 ? after
+    @+83730 [83730] incongruences   q14 ? after
+    @+83740 [83740] inconscient     q15 ? after
+    @+83744 [83744] inconsequent    q16 ? after
+    @+83745 [83745] inconsequential done. it
+    @+83746 [83746] inconsequently  q18 ? before
+    @+83747 [83747] inconsiderable  q17 ? before
+    @+83749 [83749] inconsiderate   q12 ? before
+    @+83820 [83820] incorrupt       q9  ? before
+    @+84386 [84386] indusia         q7  ? after
+    @+84386 [84386] indusia         q8  ? before
+    @+85518 [85518] ins             q3  ? before
+    @+98233 [98233] mach            q0  ? before
 
+# squareword.org 🧩 #1319 🥳 7 ⏱️ 0:04:24.674173
 
-# squareword.org 🧩 #1318 🥳 7 ⏱️ 0:07:45.265120
-
-📜 3 sessions
+📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
+    🟨 🟨 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
+    🟨 🟨 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟨 🟩 🟨
-    🟨 🟨 🟩 🟨 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    S T E A M
-    T U L L E
-    A T O L L
-    M O P E D
-    P R E Y S
+    C L A M P
+    R A D I I
+    I R O N S
+    E G R E T
+    D E N S E
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1348 🥳 17 ⏱️ 0:10:05.397463
-
-📜 2 sessions
-💰 score: 9900
-
-    3/6
-    ANISE ⬜🟩⬜⬜🟨
-    UNMET ⬜🟩🟨🟨⬜
-    ENEMY 🟩🟩🟩🟩🟩
-    3/6
-    ENEMY 🟩⬜⬜⬜⬜
-    EVILS 🟩⬜⬜🟩⬜
-    EXALT 🟩🟩🟩🟩🟩
-    6/6
-    EXALT 🟨⬜🟨⬜⬜
-    RAPES 🟨🟨⬜🟨🟨
-    ARISE 🟨🟨⬜🟨🟨
-    SWEAR 🟩⬜🟩🟩🟩
-    SMEAR 🟩⬜🟩🟩🟩
-    SHEAR 🟩🟩🟩🟩🟩
-    3/6
-    SHEAR ⬜🟨⬜⬜⬜
-    FITCH ⬜⬜🟩🟩🟩
-    BOTCH 🟩🟩🟩🟩🟩
-    Final 2/2
-    FILCH ⬜⬜🟩🟩🟩
-    GULCH 🟩🟩🟩🟩🟩
-
-# dontwordle.com 🧩 #1205 🥳 6 ⏱️ 0:07:18.652921
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1349 🥳 19 ⏱️ 0:07:42.652044
 
 📜 1 sessions
-💰 score: 18
+💰 score: 9700
+
+    5/6
+    TAELS ⬜🟨⬜🟨⬜
+    ARGOL 🟨⬜⬜⬜🟩
+    PIBAL ⬜🟨⬜🟨🟩
+    FLAIL ⬜⬜🟩🟩🟩
+    QUAIL 🟩🟩🟩🟩🟩
+    5/6
+    QUAIL ⬜⬜🟨⬜⬜
+    AGERS 🟨⬜⬜⬜⬜
+    YAPON 🟨🟩⬜⬜⬜
+    BAWTY ⬜🟩⬜🟩🟩
+    CATTY 🟩🟩🟩🟩🟩
+    4/6
+    CATTY ⬜⬜⬜⬜🟩
+    NOILY ⬜⬜🟨🟩🟩
+    DIMLY 🟩🟩⬜🟩🟩
+    DILLY 🟩🟩🟩🟩🟩
+    4/6
+    DILLY 🟨⬜⬜⬜⬜
+    HOARD ⬜⬜🟨⬜🟩
+    ACTED 🟩⬜⬜🟨🟩
+    AMEND 🟩🟩🟩🟩🟩
+    Final 1/2
+    ETUDE 🟩🟩🟩🟩🟩
+
+# dontwordle.com 🧩 #1206 🥳 6 ⏱️ 0:10:42.687591
+
+📜 1 sessions
+💰 score: 16
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:IMMIX n n n n n remain:7870
-    ⬜⬜⬜⬜⬜ tried:AYAYA n n n n n remain:3317
-    ⬜⬜⬜⬜⬜ tried:OPPOS n n n n n remain:532
-    ⬜⬜⬜⬜⬜ tried:CRWTH n n n n n remain:111
-    ⬜🟩⬜⬜⬜ tried:KUDZU n Y n n n remain:10
-    ⬜🟩🟨⬜🟨 tried:QUEEN n Y m n m remain:3
+    ⬜⬜⬜⬜⬜ tried:OVOLO n n n n n remain:6447
+    ⬜⬜⬜⬜⬜ tried:YUKKY n n n n n remain:3535
+    ⬜⬜⬜⬜⬜ tried:TIMID n n n n n remain:816
+    ⬜⬜⬜⬜🟩 tried:BENNE n n n n Y remain:50
+    ⬜⬜🟩🟨🟩 tried:AGAPE n n Y m Y remain:5
+    🟨⬜🟩🟨🟩 tried:PHASE m n Y m Y remain:2
 
-    Undos used: 3
+    Undos used: 2
 
-      3 words remaining
-    x 6 unused letters
-    = 18 total score
+      2 words remaining
+    x 8 unused letters
+    = 16 total score
 
-# cemantle.certitudes.org 🧩 #1255 🥳 397 ⏱️ 0:18:03.667891
 
-🤔 398 attempts
-📜 2 sessions
-🫧 14 chat sessions
-⁉️ 80 chat prompts
-🤖 58 llama3.2:latest replies
-🤖 22 gemma3:12b replies
-🔥   1 🥵   4 😎  30 🥶 318 🧊  44
+# cemantle.certitudes.org 🧩 #1256 🥳 756 ⏱️ 1:04:35.304753
 
-      $1 #398   ~1 consultant         100.00°C 🥳 1000‰
-      $2 #394   ~3 advisor             55.16°C 🔥  993‰
-      $3 #393   ~4 accountant          51.36°C 🔥  990‰
-      $4 #391   ~6 analyst             48.83°C 🥵  985‰
-      $5 #392   ~5 auditor             38.39°C 🥵  911‰
-      $6 #395   ~2 bookkeeper          37.89°C 🥵  904‰
-      $7 #176  ~23 engineering         30.90°C 😎  751‰
-      $8 #189  ~20 planning            30.85°C 😎  749‰
-      $9 #154  ~26 management          30.65°C 😎  737‰
-     $10  #65  ~32 audit               29.78°C 😎  699‰
-     $11 #378   ~8 based               28.38°C 😎  657‰
-     $12  #30  ~36 analysis            27.36°C 😎  608‰
-     $37 #319      industry            19.43°C 🥶
-    $355 #252      pipe                -0.01°C 🧊
+🤔 757 attempts
+📜 5 sessions
+🫧 32 chat sessions
+⁉️ 214 chat prompts
+🤖 71 llama3.2:latest replies
+🤖 143 gemma3:12b replies
+🔥   6 🥵  24 😎 130 🥶 590 🧊   6
 
-# cemantix.certitudes.org 🧩 #1288 🥳 278 ⏱️ 0:21:34.192373
+      $1 #757   ~1 tendency            100.00°C 🥳 1000‰
+      $2 #754   ~3 propensity           74.04°C 😱  999‰
+      $3 #752   ~4 inclination          64.44°C 🔥  997‰
+      $4 #751   ~5 proclivity           64.01°C 🔥  996‰
+      $5 #182 ~138 reluctance           57.35°C 🔥  995‰
+      $6 #193 ~135 disinclination       57.27°C 🔥  994‰
+      $7 #190 ~136 unwillingness        51.85°C 🔥  990‰
+      $8 #348  ~82 hesitance            50.09°C 🥵  988‰
+      $9 #199 ~133 reticence            48.52°C 🥵  984‰
+     $10 #183 ~137 aversion             47.51°C 🥵  980‰
+     $11 #130 ~150 preoccupation        46.90°C 🥵  978‰
+     $32 #269 ~107 pusillanimity        38.64°C 😎  899‰
+    $161 #344      discouragement       29.78°C 🥶
+    $752 #225      resignation          -0.33°C 🧊
 
-🤔 279 attempts
-📜 1 sessions
-🫧 17 chat sessions
-⁉️ 66 chat prompts
-🤖 16 deepseek-r1:latest replies
-🤖 50 gemma3:12b replies
-🥵   1 😎  16 🥶 208 🧊  53
+# cemantix.certitudes.org 🧩 #1289 🥳 2569 ⏱️ 4:30:43.168092
 
-      $1 #279   ~1 cousin          100.00°C 🥳 1000‰
-      $2 #277   ~2 ami              47.55°C 🥵  978‰
-      $3  #73  ~16 charmant         35.87°C 😎  896‰
-      $4 #198   ~4 beau             35.48°C 😎  890‰
-      $5 #192   ~6 gentil           34.76°C 😎  881‰
-      $6 #193   ~5 joli             34.44°C 😎  873‰
-      $7 #115  ~14 adorable         33.69°C 😎  857‰
-      $8 #272   ~3 cher             29.64°C 😎  632‰
-      $9 #181   ~8 sympathique      28.94°C 😎  574‰
-     $10 #187   ~7 rire             28.86°C 😎  565‰
-     $11  #46  ~18 délicieux        28.37°C 😎  513‰
-     $12 #148  ~12 espiègle         27.96°C 😎  470‰
-     $19 #182      affectueux       25.05°C 🥶
-    $227 #201      bienfaisant      -0.10°C 🧊
+🤔 2570 attempts
+📜 3 sessions
+🫧 125 chat sessions
+⁉️ 784 chat prompts
+🤖 353 llama3.2:latest replies
+🤖 427 gemma3:12b replies
+🤖 3 deepseek-r1:latest replies
+🔥    4 🥵   33 😎  217 🥶 2107 🧊  208
+
+       $1 #2570    ~1 extrémité          100.00°C 🥳 1000‰
+       $2 #1587  ~106 hampe               61.48°C 🔥  998‰
+       $3 #2164   ~34 recourber           58.41°C 🔥  996‰
+       $4  #768  ~177 tige                54.73°C 🔥  993‰
+       $5 #2100   ~41 incurver            54.30°C 🔥  991‰
+       $6  #326  ~207 épaulement          53.54°C 🥵  989‰
+       $7   #90  ~248 concavité           53.32°C 🥵  987‰
+       $8  #993  ~157 concave             52.78°C 🥵  986‰
+       $9  #126  ~237 entaille            52.35°C 🥵  983‰
+      $10 #1524  ~112 latéral             52.07°C 🥵  982‰
+      $11  #139  ~234 enroulement         51.96°C 🥵  981‰
+      $38  #442  ~200 évasement           46.21°C 😎  899‰
+     $256 #2245       cintrer             34.95°C 🥶
+    $2363  #252       insertion           -0.16°C 🧊
