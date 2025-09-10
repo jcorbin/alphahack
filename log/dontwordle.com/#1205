@@ -1,0 +1,64 @@
+T226.27591854520142 now: 2025-09-10T12:48:31UTC
+TD36 site: dontwordle.com
+TDD-8 wordlist: nwl2023.txt
+TDD17888171 <Enter To Continue>
+TDD-11800940 1> * -bot 10
+TDD-4107792 ? 1
+TDD7668488 📋 "tares" ? nnnMn
+TDD-9647808 tried: TARES n n n m n
+TDD2234294 2> undo
+TDD-2234350 undo
+TDD6192507 1> *
+TDD-3824673 ? 1
+TDD7147021 📋 "immix" ? nnnnn
+TDD-9514813 tried: IMMIX n n n n n
+TDD1423933 2> *
+TDD1159702 ? 1
+TDD9560589 📋 "ayaya" ? nnnnn
+TDD-12144218 tried: AYAYA n n n n n
+TDD2219293 3> *
+TDD1576716 ? 1
+TDD7292603 📋 "oppos" ? nnnnn
+TDD-11088604 tried: OPPOS n n n n n
+TDD1831024 4> *
+TDD320842 ? 1
+TDD8667791 📋 "chuff" ? nnMnn
+TDD-10819648 tried: CHUFF n n m n n
+TDD2127431 5> undo
+TDD-2127488 undo
+TDD5415733 4> *
+TDD-2983746 ? 1
+TDD9357408 📋 "grrrl" ? MnnnM
+TDD-11789371 tried: GRRRL m n n n m
+TDD1435887 5> undo
+TDD-1435921 undo
+TDD4667627 4> *
+TDD7151196 📋 "crwth" ? nnnnn
+TDD-11818783 tried: CRWTH n n n n n
+TDD1444943 5> *
+TDD11226576 📋 "kudzu" ? nYnnn
+TDD-12671504 tried: KUDZU n Y n n n
+TDD1567475 6> *
+TDD3091870 ? 3
+TDD7657517 📋 "queue" ? ␚
+TDD-12316938 <EOF>
+TDD1706527 6> *
+TDD2235124 ? 2
+TDD14145514 📋 "queen" ? nYMnM
+TDD-18087113 tried: QUEEN n Y m n m
+TDD8259001 📋> Don't Wordle 1205 - SURVIVED
+TDD-8259044 📋> Hooray! I didn't Wordle today!
+TDD-57 📋> ⬜⬜⬜⬜⬜7870
+TDD-5 📋> ⬜⬜⬜⬜⬜3317
+TDD-1 📋> ⬜⬜⬜⬜⬜532
+TDD0 📋> ⬜⬜⬜⬜⬜111
+TDD0 📋> ⬜🟩⬜⬜⬜10
+TDD0 📋> ⬜🟩🟨⬜🟨3
+TDD0 📋> Undos used: 3
+TDD0 📋> 
+TDD0 📋>   3 words remaining
+TDD11 📋> x 6 unused letters
+TDD1618304 📋> = 18 total score
+TDD-538101 📋> ␚
+TDD-1079423 result: "Don't Wordle 1205 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7870\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3317\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c532\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c111\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c10\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe83\nUndos used: 3\n\n  3 words remaining\nx 6 unused letters\n= 18 total score"
+TDD1359512 📆 2025-09-10 ? 
