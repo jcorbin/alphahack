@@ -1,0 +1,106 @@
+T25.27943519782275 now: 2025-09-10T12:27:03UTC
+TD35 site: squareword.org
+T1.3659502835944295 now: 2025-09-10T12:29:59UTC
+TD65 wordlist: nwl2023.txt
+TDD64915755 <Enter To Continue>
+TDD-58391818 🧩  ? #1318
+TDD-6523824 puzzle_id: #1318
+TDD3836852 > *
+TDD1983098 try? 1
+TDD-5819937 questioning: ["tales", "#5"]
+TDD33027230 #1 _____  📋 "tales" ? _____ ~ TAES
+TDD-33027001 attempt 0 TALES m m n m m
+TDD15201600 #2 _____  📋 "tales" ? T_L__ ~ LE
+TDD-15201830 attempt 1 TALES Y n Y m n
+TDD9776744 #3 _____  📋 "tales" ? _____ ~ TAL
+TDD-9776759 attempt 2 TALES m m m n n
+TDD10242979 #4 _____  📋 "tales" ? ___E_
+TDD-10243005 attempt 3 TALES n n n Y n
+TDD9999547 #5 _____  📋 "tales" ? ____S ~ E
+TDD-9999474 attempt 4 TALES n n n m Y
+TDD1863447 ? 
+TDD-1863540 question done
+TDD2465527 > *
+TDD9234222 try? 3
+TDD-11699711 questioning: ["tilde", "#2"]
+TDD10791155 #1 _____ ~AEST -L  📋 "tilde" ? .
+TDD-10791154 attempt 0 TILDE m n n n m
+TDD10238546 #2 T_L__ ~E -AS  📋 "tilde" ? T_L_E ~ L
+TDD-10238532 attempt 1 TILDE Y n Y n Y
+TDD6447516 #3 _____ ~ALT -ES  📋 "tilde" ? .
+TDD-6447541 attempt 2 TILDE m n m n n
+TDD8650793 #4 ___E_ -ALST  📋 "tilde" ? ___E_ ~ D
+TDD-8650777 attempt 3 TILDE n n n m n
+TDD4391656 #5 ____S ~E -ALT  📋 "tilde" ? .
+TDD-4391683 attempt 4 TILDE n n n n m
+TDD1608958 ? 
+TDD-1609006 question done
+TDD1991862 > *
+TDD-1415748 questioning: ["tulle", "#2"]
+TDD16404950 #1 _____ ~AEST -DIL  📋 "tulle" ? .
+TDD-16981019 attempt 0 TULLE m n n n m
+TDD3265182 #2 T_L_E -ADIS  📋 "tulle" ? /it
+TDD-3265155 attempt 1 TULLE Y Y Y Y Y
+TDD15395478 #3 _____ ~ALT -DEIS  📋 "tulle" ? ___L_ ~TAL
+TDD-15395490 attempt 2 TULLE m n m Y n
+TDD4463776 #4 ___E_ ~D -AEILST  📋 "tulle" ? .
+TDD-4463774 attempt 3 TULLE n n n n n
+TDD3795543 #5 ____S ~E -ADILT  📋 "tulle" ? .
+TDD-3795560 attempt 4 TULLE n n n n m
+TDD1755867 ? 
+TDD-1755913 question done
+TDD25889070 <INT>
+TDD-25889098 <INT>
+TDD-48 <INT>
+T1.5862554181367159 now: 2025-09-10T12:36:48UTC
+TD1220118 <Enter To Continue>
+TDD7765406 > *
+TDD-8171278 questioning: ["atoll", "#3"]
+TDD18182169 #1 _____ ~AEST -DILU  📋 "atoll" ? _T___ ~ AES
+TDD-18995996 attempt 0 ATOLL m Y n n n
+TDD5919188 #3 ___L_ ~ALT -DEISU  📋 "atoll" ? /it
+TDD-5919437 attempt 2 ATOLL Y Y Y Y Y
+TDD11513422 #4 ___E_ ~D -AEILSTU  📋 "atoll" ? ___E_ ~ DO
+TDD-11513423 attempt 3 ATOLL n n m n n
+TDD6595464 #5 ____S ~E -ADILTU  📋 "atoll" ? .
+TDD-6595486 attempt 4 ATOLL n n n n n
+TDD684042 ? 
+TDD-684079 question done
+TDD2659676 > *
+TDD4044116 try? 1
+TDD-6703727 questioning: ["steam", "#1"]
+TDD10951454 #1 _T___ ~AES -DILOU  📋 "steam" ? /it
+TDD-10951471 attempt 0 STEAM Y Y Y Y Y
+TDD4591667 #4 ___E_ ~DO -AEILSTU  📋 "steam" ? ___E_ ~ DOM
+TDD-4591665 attempt 3 STEAM n n n n m
+TDD5191499 #5 ____S ~E -ADILOTU  📋 "steam" ? __E_S
+TDD-5191495 attempt 4 STEAM n n Y n n
+TDD1363502 ? 
+TDD-1363537 question done
+TDD1683716 > *
+TDD-1219288 questioning: ["moped", "#4"]
+TDD10196073 #4 ___E_ ~DMO -AEILSTU  📋 "moped" ? /it
+TDD-10660477 attempt 3 MOPED Y Y Y Y Y
+TDD11711921 #5 __E_S -ADILMOSTU  📋 "moped" ? __E_S ~ P
+TDD-11711882 attempt 4 MOPED n n m n n
+TDD1113718 ? 
+TDD-1113785 question done
+TDD1740278 > *
+TDD-1214038 questioning: ["preys", "#5"]
+TDD20527499 #5 __E_S ~P -ADEILMOSTU  📋 "preys" ? /it
+TDD-21053728 attempt 4 PREYS Y Y Y Y Y
+TDD1563733 ? 
+TDD-1563763 question done
+TDD4647794 📋> squareword.org 1318: 7 guesses
+TDD-4647828 📋> 
+TDD-48 📋> 🟩🟩🟩🟩🟩
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟩🟨
+TDD0 📋> 🟨🟨🟩🟨🟩
+TDD0 📋> 
+TDD15 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD1471953 📋> #squareword #squareword1318
+TDD-196170 📋> ␚
+TDD-1275346 result: "squareword.org 1318: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1318"
+TDD1298899 📆 2025-09-10 ? 
