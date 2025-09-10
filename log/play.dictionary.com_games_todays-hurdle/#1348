@@ -1,0 +1,105 @@
+T170.1543782344088 now: 2025-09-10T12:39:37UTC
+TD38 site: https://play.dictionary.com/games/todays-hurdle
+TDD-11 wordlist: nwl2023.txt
+TDD71712882 <Enter To Continue>
+TDD-68491857 1.1> *
+TDD-159554 1.1 ? 1
+TDD15416006 1.1 📋 "anise" ? nYnnM
+TDD-18477297 tried: ANISE n Y n n m
+TDD5319557 1.2> *
+TDD-3275729 1.2 ? 1
+TDD14761380 1.2 📋 "unmet" ? nYMMn
+TDD-16805275 tried: UNMET n Y m m n
+TDD1951540 1.3> *
+TDD1180149 1.3 ? 3
+TDD8231840 1.3 📋 "enemy" ? it
+TDD-11363567 tried: ENEMY Y Y Y Y Y
+TDD9698461 2.1 📋 "enemy" ? Ynnnn
+TDD-9698437 tried: ENEMY Y n n n n
+TDD2375671 2.2> *
+TDD2692516 2.2 ? 5
+TDD5284563 2.2 📋 "evils" ? YnnYn
+TDD-10352748 tried: EVILS Y n n Y n
+TDD2519651 2.3> *
+TDD2119545 2.3 ? 1
+TDD5909835 2.3 📋 "exalt" ? it
+TDD-10549046 tried: EXALT Y Y Y Y Y
+TDD8776930 3.1 📋 "exalt" ? MnMnn
+TDD-8776919 tried: EXALT m n m n n
+TDD2117396 3.2> *
+TDD1183439 3.2 ? 2
+TDD7592457 3.2 📋 "rapes" ? MMnMM
+TDD-10893301 tried: RAPES m m n m m
+TDD1959764 3.3> *
+TDD592233 3.3 ? 1
+TDD10180606 3.3 📋 "arise" ? MMnMM
+TDD-12732589 tried: ARISE m m n m m
+TDD6700946 3.4> *
+TDD-1218092 3.4 ? 2
+TDD10754103 3.4 📋 "swear" ? YnYYY
+TDD-16236975 tried: SWEAR Y n Y Y Y
+TDD2206474 3.5> *
+TDD120253 3.5 ? 2
+TDD5636789 3.5 📋 "smear" ? YnYYY
+TDD-7963509 tried: SMEAR Y n Y Y Y
+TDD1098720 3.6> *
+TDD10637682 <INT>
+T0.9821204859763384 now: 2025-09-10T12:44:46UTC
+TD932753 <Enter To Continue>
+TDD1331329 3.6> *
+TDD495823 3.6 📋 "shear" ? it
+TDD-2759711 tried: SHEAR Y Y Y Y Y
+TDD13810491 4.1 📋 "shear" ? nMnnn
+TDD-13810557 tried: SHEAR n m n n n
+TDD2806487 4.2> *
+TDD1287922 4.2 ? 1
+TDD8145239 4.2 📋 "fitch" ? nnYYY
+TDD-12239660 tried: FITCH n n Y Y Y
+TDD2553931 4.3> *
+TDD5691 4.3 ? 1
+TDD8421402 4.3 📋 "botch" ? it
+TDD-10981035 tried: BOTCH Y Y Y Y Y
+TDD15058238 5.1 📋 "enemy" ? nnnnn
+TDD-15058213 tried: ENEMY n n n n n
+TDD33801588 5.2 📋 "exalt" ? nnnMn
+TDD-33801598 tried: EXALT n n n m n
+TDD5861366 5.3 📋 "shear" ? nMnnn
+TDD-5861363 tried: SHEAR n m n n n
+TDD5434301 5.4 📋 "botch" ? nnnYY
+TDD-5434301 tried: BOTCH n n n Y Y
+TDD1298045 5.5> *
+TDD6771006 5.5 ? 1
+TDD2315708 5.5 📋 "filch" ? nnYYY
+TDD-10384758 tried: FILCH n n Y Y Y
+TDD1335820 5.6> *
+TDD2480065 5.6 ? 1
+TDD12786097 5.6 📋 "gulch" ? it
+TDD-16601981 tried: GULCH Y Y Y Y Y
+TDD4442379 📋> Hurdle 1348
+TDD-4442430 📋> 
+TDD-56 📋> 3/6
+TDD-2 📋> ⬜🟩⬜⬜🟨
+TDD-1 📋> ⬜🟩🟨🟨⬜
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> 🟩⬜⬜⬜⬜
+TDD0 📋> 🟩⬜⬜🟩⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 6/6
+TDD0 📋> 🟨⬜🟨⬜⬜
+TDD12 📋> 🟨🟨⬜🟨🟨
+TDD-11 📋> 🟨🟨⬜🟨🟨
+TDD0 📋> 🟩⬜🟩🟩🟩
+TDD0 📋> 🟩⬜🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD1 📋> ⬜🟨⬜⬜⬜
+TDD0 📋> ⬜⬜🟩🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 2/2
+TDD0 📋> ⬜⬜🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD3786114 📋> score: 9,900
+TDD-2394245 📋> ␚
+TDD-1391405 result: "Hurdle 1348\n\n3/6\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n6/6\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,900"
+TDD1326941 📆 2025-09-10 ? 
