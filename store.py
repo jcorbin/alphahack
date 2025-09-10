@@ -164,17 +164,33 @@ class StoredLog:
 
     def cmd_site_link(self, ui: PromptUI):
         '''
-        present puzzle site via clipboard
+        present puzzle site hyperlink... or "copy" to clipboard
         '''
         label = self.site_name or self.site
         url = self.site
         if '://'not in url:
             url = f'https://{url}'
 
-        # TODO ui facility to open url
-        ui.print(f'🔗📋 [{label}]({url})')
-        ui.copy(url)
-        _ = ui.input('<Enter To Continue>')
+        # TODO maybe factor out a ui.open(url, name) facility?
+
+        try:
+            ui.write(f'🔗 ')
+            ui.link(url)
+            ui.write(f' {label}')
+            ui.link('')
+
+            while True:
+                with ui.input(' ...') as tokens:
+                    nxt = next(tokens, '').lower()
+                    if not nxt: return
+                    if 'copy'.startswith(nxt):
+                        ui.write(f' 📋')
+                        ui.copy(url)
+                    else:
+                        ui.write(f' ?')
+
+        finally:
+            ui.fin()
 
     def startup(self, ui: PromptUI) -> PromptUI.State|None:
         self.cmd_site_link(ui)
