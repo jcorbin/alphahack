@@ -598,9 +598,9 @@ class Search(StoredLog):
             else '📦 ' if word.done
             else '🤔 ')
         yield from (c or '_' for c in grid_yes)
-        yield word.may_str()
-        yield word.cant_str()
-        yield word.max_str()
+        yield word.may_str() if not word.done else ''
+        yield word.cant_str() if not word.done else ''
+        yield word.max_str() if not word.done else ''
         yield ' '.join(problems)
 
     def prompt_mess(self, ui: PromptUI):
