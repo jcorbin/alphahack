@@ -795,6 +795,10 @@ class PromptUI:
             print('')
             self.last = 'empty'
 
+    def link(self, url: str):
+        # TODO url-escape any ';'s ?
+        print(term_osc_seq(8, '', url), end='')
+
     def print(self, mess: str):
         self.fin()
         if mess.startswith('//'):
