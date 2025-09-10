@@ -54,6 +54,12 @@ class NullClipboard:
     def copy(self, mess: str): _ = mess
     def paste(self): return ''
 
+term_osc = '\033]'
+term_st = '\033\\'
+
+def term_osc_seq(code: int, *args: str):
+    return f'{term_osc}{code};{";".join(args)}{term_st}'
+
 @final
 class OSC52Clipboard:
     @property
@@ -66,7 +72,7 @@ class OSC52Clipboard:
         # TODO print directly to tty? stderr? /dev/fd/2?
         encoded = b64encode(mess.encode())
         encoded_str = encoded.decode().replace("\n", "")
-        print(f'\033]52;c;{encoded_str}\007', end='')
+        print(term_osc_seq(52, 'c', encoded_str), end='')
 
     def paste(self):
         # TODO implement
