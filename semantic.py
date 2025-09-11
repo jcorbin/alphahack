@@ -1579,7 +1579,13 @@ class Search(StoredLog):
         for retry, delay in retry_backoffs(retries, backoff, backoff_max):
             if delay > 0:
                 ui.print(f'* backing off {datetime.timedelta(seconds=delay)}...')
-                time.sleep(delay)
+                t1 = ui.time.now
+                try:
+                    time.sleep(delay)
+                except KeyboardInterrupt:
+                    t2 = ui.time.now
+                    td = datetime.timedelta(seconds=t2 - t1)
+                    ui.print(f'... backoff sleep interrupted after {td}, retrying')
             if verbose > 1:
                 ui.print(f'* {what} attempt {retry}')
             elif verbose > 0 and retry > 0:
