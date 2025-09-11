@@ -1571,14 +1571,19 @@ class Search(StoredLog):
     def retries(self,
                 ui: PromptUI,
                 what: str,
+                verbose: int = 0,
                 retries: int = 3,
                 backoff: float = 1.0,
                 backoff_max: float = 12.0,
                 ):
         for retry, delay in retry_backoffs(retries, backoff, backoff_max):
             if delay > 0:
-                ui.print(f'* retry {retry} backing off {datetime.timedelta(seconds=delay)}...')
+                ui.print(f'* backing off {datetime.timedelta(seconds=delay)}...')
                 time.sleep(delay)
+            if verbose > 1:
+                ui.print(f'* {what} attempt {retry}')
+            elif verbose > 0 and retry > 0:
+                ui.print(f'* {what} retry {retry}')
             yield retry
 
     def request(self,
@@ -1638,6 +1643,7 @@ class Search(StoredLog):
         res, err = None, None
         for _retry in self.retries(ui,
                                    f'http {str(cast(object, req.method))} {str(cast(object, req.url))}',
+                                   verbose=verbose,
                                    retries=retries,
                                    backoff=backoff,
                                    backoff_max=backoff_max,
