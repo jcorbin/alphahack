@@ -1568,6 +1568,19 @@ class Search(StoredLog):
             origin = f'https://{origin}'
         return origin.rstrip('/')
 
+    def retries(self,
+                ui: PromptUI,
+                what: str,
+                retries: int = 3,
+                backoff: float = 1.0,
+                backoff_max: float = 12.0,
+                ):
+        for retry, delay in retry_backoffs(retries, backoff, backoff_max):
+            if delay > 0:
+                ui.print(f'* retry {retry} backing off {datetime.timedelta(seconds=delay)}...')
+                time.sleep(delay)
+            yield retry
+
     def request(self,
         ui: PromptUI,
         method: str,
@@ -1623,11 +1636,12 @@ class Search(StoredLog):
         prior_cookies = set(self.http_client.cookies.iterkeys())
 
         res, err = None, None
-        for retry, delay in retry_backoffs(retries, backoff, backoff_max):
-            if delay > 0:
-                ui.print(f'* retry {retry} backing off {datetime.timedelta(seconds=delay)}...')
-                time.sleep(delay)
-
+        for _retry in self.retries(ui,
+                                   f'http {str(cast(object, req.method))} {str(cast(object, req.url))}',
+                                   retries=retries,
+                                   backoff=backoff,
+                                   backoff_max=backoff_max,
+                                   ):
             try_req = self.http_client.prepare_request(req)
 
             data = cast(object, req.data)
