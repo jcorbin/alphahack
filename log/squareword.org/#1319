@@ -1,0 +1,100 @@
+T141.68260119576007 now: 2025-09-11T12:05:33UTC
+TD39 site: squareword.org
+TDD-10 wordlist: nwl2023.txt
+TDD1502229  ...cop
+TDD2093871  ...
+TDD-1576284 🧩  ? #1319
+TDD-2019695 puzzle_id: #1319
+TDD896148 > *
+TDD1547462 try? 1
+TDD-2443570 questioning: ["raise", "#5"]
+TDD4635293 #1 _____  📋 "raise" ? _____ ~ A
+TDD-4635094 attempt 0 RAISE n m n n n
+TDD2407420 #2 _____  📋 "raise" ? RA___ ~ I
+TDD-2407623 attempt 1 RAISE Y Y m n n
+TDD2495683 #3 _____  📋 "raise" ? _____ ~ RIS
+TDD-2495699 attempt 2 RAISE m n m m n
+TDD2735357 #4 _____  📋 "raise" ? _____ ~ RE
+TDD-2735368 attempt 3 RAISE m n n n m
+TDD2188741 #5 _____  📋 "raise" ? ___SE ~ E
+TDD-2188731 attempt 4 RAISE n n n Y Y
+TDD639419 ? 
+TDD-639476 question done
+TDD531747 > *
+TDD1680426 try? 1
+TDD-2212106 questioning: ["radio", "#2"]
+TDD4094160 #1 _____ ~A -EIRS  📋 "radio" ? .
+TDD-4094181 attempt 0 RADIO n m n n n
+TDD4929158 #2 RA___ ~I -ES  📋 "radio" ? RADI_ ~ I
+TDD-4929164 attempt 1 RADIO Y Y Y Y n
+TDD3320375 #3 _____ ~IRS -AE  📋 "radio" ? _____ ~ RISO
+TDD-3320345 attempt 2 RADIO m n n m m
+TDD2675554 #4 _____ ~ER -AIS  📋 "radio" ? .
+TDD-2675589 attempt 3 RADIO m n n n n
+TDD4639932 #5 ___SE -AIR  📋 "radio" ? ___SE ~ ED
+TDD-4639901 attempt 4 RADIO n n m n n
+TDD535638 ? 
+TDD-535694 question done
+TDD571546 > *
+TDD42990 questioning: ["irons", "#3"]
+TDD4890059 #1 _____ ~A -DEIORS  📋 "irons" ? .
+TDD-5504561 attempt 0 IRONS n n n n n
+TDD8391420 #2 RADI_ -EOS  📋 "irons" ? radi_ ~ i
+TDD-8391409 attempt 1 IRONS m n n n n
+TDD1523923 #3 _____ ~IORS -ADE  📋 "irons" ? /it
+TDD-1523918 attempt 2 IRONS Y Y Y Y Y
+TDD12617039 #4 _____ ~ER -ADIOS  📋 "irons" ? .
+TDD-12617050 attempt 3 IRONS n m n n n
+TDD4063196 #5 ___SE ~D -AIOR  📋 "irons" ? ___SE ~ EDN
+TDD-4063174 attempt 4 IRONS n n n m n
+TDD587810 ? 
+TDD-587885 question done
+TDD615783 > *
+TDD135919 questioning: ["radii", "#2"]
+TDD3873343 #1 _____ ~A -DEINORS  📋 "radii" ? .
+TDD-4625008 attempt 0 RADII n m n n n
+TDD719437 #2 RADI_ -ENORS  📋 "radii" ? /it
+TDD-719447 attempt 1 RADII Y Y Y Y Y
+TDD1338471 #4 _____ ~ER -ADINOS  📋 "radii" ? .
+TDD-1338461 attempt 3 RADII m n n n n
+TDD3701086 #5 ___SE ~DN -AIORS  📋 "radii" ? ___SE ~ EDN
+TDD-3701062 attempt 4 RADII n n m n n
+TDD308862 ? 
+TDD-308935 question done
+TDD575764 > *
+TDD65582 questioning: ["dense", "#5"]
+TDD3654898 #1 _____ ~A -DEINORS  📋 "dense" ? .
+TDD-4296191 attempt 0 DENSE n n n n n
+TDD1247580 #4 _____ ~ER -ADINOS  📋 "dense" ? .
+TDD-1247594 attempt 3 DENSE n m n n m
+TDD728187 #5 ___SE ~DN -AIORS  📋 "dense" ? /it
+TDD-728177 attempt 4 DENSE Y Y Y Y Y
+TDD175394 ? 
+TDD-175436 question done
+TDD675638 > *
+TDD207224 questioning: ["egret", "#4"]
+TDD4030086 #1 _____ ~A -DEINORS  📋 "egret" ? .
+TDD-4912903 attempt 0 EGRET n n n n n
+TDD851577 #4 _____ ~ER -ADINOS  📋 "egret" ? /it
+TDD-851600 attempt 3 EGRET Y Y Y Y Y
+TDD175764 ? 
+TDD-175807 question done
+TDD655881 > *
+TDD217235 questioning: ["clamp", "#1"]
+TDD3205700 #1 _____ ~A -DEGINORST  📋 "clamp" ? /it
+TDD-4078749 attempt 0 CLAMP Y Y Y Y Y
+TDD1027522 ? 
+TDD-1027569 question done
+TDD5379819 📋> squareword.org 1319: 7 guesses
+TDD-5379839 📋> 
+TDD-64 📋> 🟨🟨🟨🟨🟨
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD523690 📋> #squareword #squareword1319
+TDD-135772 📋> ␚
+TDD-387454 result: "squareword.org 1319: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1319"
+TDD455067 📆 2025-09-11 ? 
