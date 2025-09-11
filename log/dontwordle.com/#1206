@@ -1,0 +1,69 @@
+T464.3633093694225 now: 2025-09-11T12:10:55UTC
+TD37 site: dontwordle.com
+TDD-12 wordlist: nwl2023.txt
+TDD1762181  ...cop
+TDD3941913  ...
+TDD-1688337 1> * -bot 10
+TDD-2731674 ? 1
+TDD4519827 📋 "dears" ? nMYnM
+TDD-5803808 tried: DEARS n m Y n m
+TDD1083767 2> undo
+TDD-1083809 undo
+TDD4075824 1> *
+TDD-1503607 ? 1
+TDD2491442 📋 "ovolo" ? nnnnn
+TDD-5063621 tried: OVOLO n n n n n
+TDD507768 2> *
+TDD836076 ? 1
+TDD2976045 📋 "yukky" ? nnnnn
+TDD-4319893 tried: YUKKY n n n n n
+TDD543704 3> *
+TDD1016020 ? 1
+TDD2324390 📋 "timid" ? nnnnn
+TDD-3884096 tried: TIMID n n n n n
+TDD811638 4> *
+TDD4541497 ? 2
+TDD-152957 📋 "bench" ? nMYn
+TDD1757933 📋 "bench" ? nMnYn
+TDD-6958125 tried: BENCH n m n Y n
+TDD975816 5> undo
+TDD-975858 undo
+TDD3483981 4> *
+TDD1559986 ? 1
+TDD127819 📋 "benne" ? nnnnY
+TDD-5171740 tried: BENNE n n n n Y
+TDD531756 5> *
+TDD2592298 ? 2
+TDD5035560 📋 "where" ? ␚
+TDD-8159680 <EOF>
+TDD19104608 5> * -sans :v [cas] :v e.*e
+TDD-7542347 5> * -sans [ca] :v e.*e
+TDD-7414422 5> * -sans 
+TDD2178242 ? * -sans :v e.*e
+TDD2335642 ? * -sans :v e.*e
+TDD-6192479 ? ␚
+TDD-2469237 <EOF>
+TDD4928054 5> * -sans :v e.*e
+TDD-2698778 ? 1
+TDD7683564 📋 "agape" ? nnYMY
+TDD-9912796 tried: AGAPE n n Y m Y
+TDD1925719 6> * -sans
+TDD3385794 ? 2
+TDD2917052 📋 "phase" ? MnYMY
+TDD-8228545 tried: PHASE m n Y m Y
+TDD3962517 📋> Don't Wordle 1206 - SURVIVED
+TDD-3962584 📋> Hooray! I didn't Wordle today!
+TDD-44 📋> ⬜⬜⬜⬜⬜6447
+TDD-6 📋> ⬜⬜⬜⬜⬜3535
+TDD-1 📋> ⬜⬜⬜⬜⬜816
+TDD0 📋> ⬜⬜⬜⬜🟩50
+TDD15 📋> ⬜⬜🟩🟨🟩5
+TDD-15 📋> 🟨⬜🟩🟨🟩2
+TDD0 📋> Undos used: 2
+TDD0 📋> 
+TDD0 📋>   2 words remaining
+TDD0 📋> x 8 unused letters
+TDD468962 📋> = 16 total score
+TDD-133221 📋> ␚
+TDD-334918 result: "Don't Wordle 1206 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6447\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3535\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c816\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe950\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe95\n\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe92\nUndos used: 2\n\n  2 words remaining\nx 8 unused letters\n= 16 total score"
+TDD403915 📆 2025-09-11 ? 
