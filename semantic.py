@@ -2476,7 +2476,7 @@ class Search(StoredLog):
         if res.guesses != self.attempt:
             ui.print(f"// result guess count {res.guesses} doesn't match our {self.attempt}")
 
-        raise StopIteration
+        return self.store
 
     def fix(self, ui: PromptUI, i: int, score: float|None, prog: int|None) -> bool:
         parts: list[str] = []
