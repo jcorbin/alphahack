@@ -418,6 +418,11 @@ def test_logtime():
         assert isclose(lt.t2, orig_times[li]), f'TDD #{ln} time roundtrip'
         check_entry(lt, tokens, mark=f'TDD #{ln} ')
 
+def default_dispatch(ui: 'PromptUI'):
+    nxt = next(ui.tokens, None)
+    if nxt:
+        ui.print(f'! invalid command {nxt!r}; maybe ask for /help ?')
+
 class Dispatcher:
     def __init__(self, spec: dict[str, State|str]):
         '''
@@ -513,10 +518,7 @@ class Dispatcher:
         else:
             ui.print(f'ambiguous command; may be: {" ".join(repr(s) for s in maybe)}')
 
-    def dispatch(self,
-                 ui: 'PromptUI',
-                 dflt: State|None = lambda ui: ui.print(f'! invalid command {next(ui.tokens)!r}; maybe ask for /help ?'),
-                 ) -> State|None:
+    def dispatch(self, ui: 'PromptUI', dflt: State|None = default_dispatch) -> State|None:
         if ui.tokens.have(r'/help|\?+'):
             return self.do_help
 
