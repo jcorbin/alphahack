@@ -418,6 +418,190 @@ def test_logtime():
         assert isclose(lt.t2, orig_times[li]), f'TDD #{ln} time roundtrip'
         check_entry(lt, tokens, mark=f'TDD #{ln} ')
 
+class Dispatcher:
+    def __init__(self, spec: dict[str, State|str]):
+        '''
+        Spec keys match next token, preferring exact match, then
+        unambiguous prefix match.
+
+        The special key " " may provide preemptively parse a state,
+        overriding such exact or prefix matching.
+
+        The special key "" can override default fallthrough behavior, which
+        just prints '! invalid command ...'.
+
+        '''
+        def resolve(name: str) -> State:
+            st = spec[name]
+            return resolve(st) if isinstance(st, str) else st
+        self.names: list[str] = sorted(spec)
+        self.thens: list[State] = [resolve(name) for name in self.names]
+        self.alias: list[str] = [
+            res if isinstance(res, str) else ''
+            for name in self.names
+            for res in (spec[name],)]
+        self.re: int = 0
+
+    def items(self) -> Generator[tuple[str, State|str]]:
+        for name, als, then in zip(self.names, self.alias, self.thens):
+            if not als: yield name, then
+        for name, als, then in zip(self.names, self.alias, self.thens):
+            if als: yield name, als
+
+    def get(self, name: str):
+        i = bisect(self.names, name)
+        if 0 < i <= len(self.names) and self.names[i-1] == name:
+            return self.thens[i-1]
+
+    def update(self, items: Itemsable[str, State|str]|Iterable[tuple[str, State|str]]):
+        if isinstance(items, Itemsable):
+            items = items.items()
+        for name, then in items:
+            self.set(name, then)
+
+    def set(self, name: str, then: State|str):
+        alas = ''
+        if isinstance(then, str):
+            alas = then
+            st = self.get(then)
+            if st is None:
+                raise KeyError('undefined alias target')
+            then = st
+        i = bisect(self.names, name)
+        if 0 <= i < len(self.names) and self.names[i] == name:
+            self.thens[i] = then
+            self.alias[i] = alas
+        else:
+            self.names.insert(i, name)
+            self.thens.insert(i, then)
+            self.alias.insert(i, alas)
+
+    def show_help(self, ui: 'PromptUI', name: str, then: State, short: bool=True):
+        ui.write(f'- {name}')
+        doc = then.__doc__
+        if doc:
+            lines = block_lines(doc)
+            ui.fin(f' -- {next(lines)}')
+            for line in lines:
+                if short and not line: break
+                ui.print(f'  {line}')
+        else:
+            ui.fin()
+
+    def show_help_list(self, ui: 'PromptUI'):
+        for name, als, then in zip(self.names, self.alias, self.thens):
+            if not name.strip(): continue
+            if als:
+                ui.print(f'- {name} -- alias for {als}')
+            else:
+                self.show_help(ui, name, then)
+
+    def do_help(self, ui: 'PromptUI'):
+        if not ui.tokens:
+            return self.show_help_list(ui)
+        maybe: list[str] = []
+        mayst: list[State] = []
+        token = next(ui.tokens)
+        for name, then in zip(self.names, self.thens):
+            if name.startswith(token):
+                maybe.append(name)
+                mayst.append(then)
+        if not maybe:
+            ui.print(f'invalid command {token!r}')
+        elif len(maybe) == 1:
+            self.show_help(ui, maybe[0], mayst[0], short=False)
+        else:
+            ui.print(f'ambiguous command; may be: {" ".join(repr(s) for s in maybe)}')
+
+    def dispatch(self,
+                 ui: 'PromptUI',
+                 dflt: State|None = lambda ui: ui.print(f'! invalid command {next(ui.tokens)!r}; maybe ask for /help ?'),
+                 ) -> State|None:
+        if ui.tokens.have(r'/help|\?+'):
+            return self.do_help
+
+        token = ui.tokens.peek()
+        slurp: State|None = None
+        only: State|None = None
+        maybe: list[str] = []
+        for name, then in zip(self.names, self.thens):
+            if name == token:
+                _ = next(ui.tokens, None)
+                return then
+            if name == '': dflt = then
+            elif name == ' ': slurp = then
+            elif token and name.startswith(token):
+                only = then if not maybe else None
+                maybe.append(name)
+
+        if ui.tokens and slurp is not None:
+            st = slurp(ui)
+            if st is not None: return st
+        if only:
+            _ = next(ui.tokens, None)
+            return only
+        if maybe:
+            return lambda ui: ui.print(f'! ambiguous command {token!r}; may be: {" ".join(repr(s) for s in maybe)}')
+        return dflt
+
+    def dispatch_all(self, ui: 'PromptUI'):
+        do_help = False
+        cont: list[PromptUI.State] = []
+        while ui.tokens:
+            if ui.tokens.have(r'/help|\?+'):
+                do_help = True
+                continue
+            st = self.dispatch(ui, dflt=None)
+            if st:
+                st = st(ui)
+                if st:
+                    cont.append(st)
+            elif ui.tokens:
+                ui.print(f'! unrecognized token {next(ui.tokens)!r} ; try /help')
+                return
+            else:
+                break
+
+        if do_help:
+            self.do_help(ui)
+            raise StopIteration()
+
+        for st in cont:
+            try:
+                # TODO this is the (only? first?)) one-shot state execution
+                #      loop; is that okay?'should we make that more of a
+                #      thing separate from Dispatcher?
+                while st:
+                    st = st(ui)
+            except (EOFError, StopIteration):
+                continue
+
+    def handle(self, ui: 'PromptUI'):
+        st = self.dispatch(ui)
+        if st is not None:
+            self.re = 0
+            return st(ui)
+        else:
+            self.re += 1
+            if self.re > 1:
+                self.show_help_list(ui)
+
+    def __call__(self, ui: 'PromptUI'):
+        return self.handle(ui)
+
+class Prompt(Dispatcher):
+    def __init__(self,
+                 mess: str|Callable[['PromptUI'], str],
+                 spec: dict[str, State|str]):
+        super().__init__(spec)
+        self.mess: str|Callable[['PromptUI'], str] = mess
+
+    @override
+    def __call__(self, ui: 'PromptUI'):
+        mess = self.mess(ui) if callable(self.mess) else self.mess
+        with ui.input(mess):
+            return super().__call__(ui)
+
 @final
 class PromptUI:
     @staticmethod
@@ -598,189 +782,8 @@ class PromptUI:
     def tokens_or(self, prompt: str):
         return self.input(prompt) if self.tokens.empty else self.tokens
 
-    class Dispatcher:
-        def __init__(self, spec: dict[str, State|str]):
-            '''
-            Spec keys match next token, preferring exact match, then
-            unambiguous prefix match.
-
-            The special key " " may provide preemptively parse a state,
-            overriding such exact or prefix matching.
-
-            The special key "" can override default fallthrough behavior, which
-            just prints '! invalid command ...'.
-
-            '''
-            def resolve(name: str) -> State:
-                st = spec[name]
-                return resolve(st) if isinstance(st, str) else st
-            self.names: list[str] = sorted(spec)
-            self.thens: list[State] = [resolve(name) for name in self.names]
-            self.alias: list[str] = [
-                res if isinstance(res, str) else ''
-                for name in self.names
-                for res in (spec[name],)]
-            self.re: int = 0
-
-        def items(self) -> Generator[tuple[str, State|str]]:
-            for name, als, then in zip(self.names, self.alias, self.thens):
-                if not als: yield name, then
-            for name, als, then in zip(self.names, self.alias, self.thens):
-                if als: yield name, als
-
-        def get(self, name: str):
-            i = bisect(self.names, name)
-            if 0 < i <= len(self.names) and self.names[i-1] == name:
-                return self.thens[i-1]
-
-        def update(self, items: Itemsable[str, State|str]|Iterable[tuple[str, State|str]]):
-            if isinstance(items, Itemsable):
-                items = items.items()
-            for name, then in items:
-                self.set(name, then)
-
-        def set(self, name: str, then: State|str):
-            alas = ''
-            if isinstance(then, str):
-                alas = then
-                st = self.get(then)
-                if st is None:
-                    raise KeyError('undefined alias target')
-                then = st
-            i = bisect(self.names, name)
-            if 0 <= i < len(self.names) and self.names[i] == name:
-                self.thens[i] = then
-                self.alias[i] = alas
-            else:
-                self.names.insert(i, name)
-                self.thens.insert(i, then)
-                self.alias.insert(i, alas)
-
-        def show_help(self, ui: 'PromptUI', name: str, then: State, short: bool=True):
-            ui.write(f'- {name}')
-            doc = then.__doc__
-            if doc:
-                lines = block_lines(doc)
-                ui.fin(f' -- {next(lines)}')
-                for line in lines:
-                    if short and not line: break
-                    ui.print(f'  {line}')
-            else:
-                ui.fin()
-
-        def show_help_list(self, ui: 'PromptUI'):
-            for name, als, then in zip(self.names, self.alias, self.thens):
-                if not name.strip(): continue
-                if als:
-                    ui.print(f'- {name} -- alias for {als}')
-                else:
-                    self.show_help(ui, name, then)
-
-        def do_help(self, ui: 'PromptUI'):
-            if not ui.tokens:
-                return self.show_help_list(ui)
-            maybe: list[str] = []
-            mayst: list[State] = []
-            token = next(ui.tokens)
-            for name, then in zip(self.names, self.thens):
-                if name.startswith(token):
-                    maybe.append(name)
-                    mayst.append(then)
-            if not maybe:
-                ui.print(f'invalid command {token!r}')
-            elif len(maybe) == 1:
-                self.show_help(ui, maybe[0], mayst[0], short=False)
-            else:
-                ui.print(f'ambiguous command; may be: {" ".join(repr(s) for s in maybe)}')
-
-        def dispatch(self,
-                     ui: 'PromptUI',
-                     dflt: State|None = lambda ui: ui.print(f'! invalid command {next(ui.tokens)!r}; maybe ask for /help ?'),
-                     ) -> State|None:
-            if ui.tokens.have(r'/help|\?+'):
-                return self.do_help
-
-            token = ui.tokens.peek()
-            slurp: State|None = None
-            only: State|None = None
-            maybe: list[str] = []
-            for name, then in zip(self.names, self.thens):
-                if name == token:
-                    _ = next(ui.tokens, None)
-                    return then
-                if name == '': dflt = then
-                elif name == ' ': slurp = then
-                elif token and name.startswith(token):
-                    only = then if not maybe else None
-                    maybe.append(name)
-
-            if ui.tokens and slurp is not None:
-                st = slurp(ui)
-                if st is not None: return st
-            if only:
-                _ = next(ui.tokens, None)
-                return only
-            if maybe:
-                return lambda ui: ui.print(f'! ambiguous command {token!r}; may be: {" ".join(repr(s) for s in maybe)}')
-            return dflt
-
-        def dispatch_all(self, ui: 'PromptUI'):
-            do_help = False
-            cont: list[PromptUI.State] = []
-            while ui.tokens:
-                if ui.tokens.have(r'/help|\?+'):
-                    do_help = True
-                    continue
-                st = self.dispatch(ui, dflt=None)
-                if st:
-                    st = st(ui)
-                    if st:
-                        cont.append(st)
-                elif ui.tokens:
-                    ui.print(f'! unrecognized token {next(ui.tokens)!r} ; try /help')
-                    return
-                else:
-                    break
-
-            if do_help:
-                self.do_help(ui)
-                raise StopIteration()
-
-            for st in cont:
-                try:
-                    # TODO this is the (only? first?)) one-shot state execution
-                    #      loop; is that okay?'should we make that more of a
-                    #      thing separate from Dispatcher?
-                    while st:
-                        st = st(ui)
-                except (EOFError, StopIteration):
-                    continue
-
-        def handle(self, ui: 'PromptUI'):
-            st = self.dispatch(ui)
-            if st is not None:
-                self.re = 0
-                return st(ui)
-            else:
-                self.re += 1
-                if self.re > 1:
-                    self.show_help_list(ui)
-
-        def __call__(self, ui: 'PromptUI'):
-            return self.handle(ui)
-
-    class Prompt(Dispatcher):
-        def __init__(self,
-                     mess: str|Callable[['PromptUI'], str],
-                     spec: dict[str, State|str]):
-            super().__init__(spec)
-            self.mess: str|Callable[['PromptUI'], str] = mess
-
-        @override
-        def __call__(self, ui: 'PromptUI'):
-            mess = self.mess(ui) if callable(self.mess) else self.mess
-            with ui.input(mess):
-                return super().__call__(ui)
+    Dispatcher = Dispatcher
+    Prompt = Prompt
 
     def dispatch(self, spec: dict[str, State|str]):
         return self.Dispatcher(spec)(self)
