@@ -579,7 +579,7 @@ class Dispatcher:
                 continue
 
     def handle(self, ui: 'PromptUI'):
-        st = self.dispatch(ui)
+        st = self.dispatch(ui, dflt=None)
         if st is not None:
             self.re = 0
             return st(ui)
