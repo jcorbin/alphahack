@@ -5,6 +5,7 @@ import random
 import time
 import bs4
 import datetime
+import httpx
 import json
 import math
 import ollama
@@ -3044,36 +3045,40 @@ class Search(StoredLog):
         if self.last_chat_tup != ('user', prompt):
             self.chat_append(ui, {'role': 'user', 'content': prompt})
 
-        parts: list[str] = []
+        for _retry in self.retries(ui, 'ollama chat', retries=0):
+            parts: list[str] = []
+            try:
+                for resp in self.llm_client.chat(model=self.llm_model, messages=self.chat, stream=True):
+                    resp = cast(ollama.ChatResponse, resp)
 
-        try:
-            for resp in self.llm_client.chat(model=self.llm_model, messages=self.chat, stream=True):
-                resp = cast(ollama.ChatResponse, resp)
+                    with ui.catch_exception(Exception,
+                                            extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
 
-                with ui.catch_exception(Exception,
-                                        extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
+                        # TODO care about resp['done'] / resp['done_reason'] ?
 
-                    # TODO care about resp['done'] / resp['done_reason'] ?
+                        mess = resp['message'] 
+                        role = mess['role']
 
-                    mess = resp['message'] 
-                    role = mess['role']
+                        if role != 'assistant':
+                            # TODO note?
+                            continue
 
-                    if role != 'assistant':
-                        # TODO note?
-                        continue
+                        content = mess.get('content')
+                        if content is None:
+                            # TODO note?
+                            continue
 
-                    content = mess.get('content')
-                    if content is None:
-                        # TODO note?
-                        continue
+                        parts.append(content)
 
-                    parts.append(content)
+                        yield role, content
+                return
 
-                    yield role, content
+            except httpx.HTTPError as err:
+                ui.print(f'! ollama http error: {err}')
 
-        finally:
-            if parts:
-                self.chat_append(ui, {'role': 'assistant', 'content': ''.join(parts)})
+            finally:
+                if parts:
+                    self.chat_append(ui, {'role': 'assistant', 'content': ''.join(parts)})
 
     def chat_clear(self, ui: PromptUI):
         ui.log(f'session clear')
