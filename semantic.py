@@ -668,7 +668,7 @@ class Search(StoredLog):
         self.wordgood: dict[str, int] = dict()
 
         self.result_text: str = ''
-        self._result: Search.Result|None = None
+        self._result: Result|None = None
 
         self.http_client = requests.Session()
         self.http_client.headers["User-Agent"] = 'github.com/jcorbin/alhpahack'
@@ -748,7 +748,7 @@ class Search(StoredLog):
             return self._result
         elif self.result_text:
             try:
-                self.result = self.Result.parse(self.result_text)
+                self.result = Result.parse(self.result_text)
             except ValueError:
                 return None
             return self._result
@@ -769,7 +769,7 @@ class Search(StoredLog):
     def set_result_text(self, txt: str):
         del self.result
         self.result_text = txt
-        self.result = self.Result.parse(txt)
+        self.result = Result.parse(txt)
 
     def last_known_prompt(self):
         if isinstance(self.last_chat_prompt, ChatPrompt):
@@ -851,88 +851,6 @@ class Search(StoredLog):
     def today(self):
         d = self.pub
         return None if d is None else d.date()
-
-    @final
-    @dataclass
-    class Result:
-        puzzle_id: int
-        guesses: int
-        link: str
-        site: str
-        counts: TierCounts
-
-        def describe(self) -> Generator[str]:
-            yield f'🔗 {self.site or self.link}'
-            yield f'🧩 {self.puzzle_id}'
-            yield f'🤔 {self.guesses} guesses'
-            for part in self.count_parts():
-                yield f'    {part}'
-
-        def count_parts(self):
-            cw = max(len(str(c)) for c in self.counts)
-            for i, count in enumerate(reversed(self.counts), start=1):
-                if count > 0:
-                    yield f'{tiers[-i]} {count:>{cw}}'
-
-        def textlines(self):
-            yield f'I found #cemantle #{self.puzzle_id} in {self.guesses} guesses!'
-            for i, count in enumerate(reversed(self.counts), start=1):
-                if count > 0:
-                    n = 1 # TODO how does upstream choose
-                    yield f'{tiers[-i] * n}{make_digit_str(count)}'
-            yield self.link
-
-        @classmethod
-        def parse(cls, s: str):
-            puzzle_id: int|None = None
-            guesses: int = 0
-            link: str = ''
-            counts = [0 for _ in tiers]
-
-            for line in s.splitlines():
-                match = re.match(r'''(?x)
-                    I \s+ found
-                    \s+ \#cemantle
-                    \s+ \# (?P<num> \d+ )
-                    \s+ in
-                    \s+ (?P<guesses> \d+ ) \s+ guesses \s* !
-                ''', line) or re.match(r'''(?x)
-                    J'ai \s+ trouvé
-                    \s+ \#cemantix
-                    \s+ nº (?P<num> \d+ )
-                    \s+ en
-                    \s+ (?P<guesses> \d+ )
-                    \s+ coups
-                    \s* \!
-                ''', line)
-                if match:
-                    ns, gs = match.groups()
-                    puzzle_id = int(ns)
-                    guesses = int(gs)
-                    continue
-
-                if line.startswith('http') and not link:
-                    link = line
-                    continue
-
-                found = False
-                for i, tier in enumerate(tiers):
-                    if line.startswith(tier):
-                        found = True
-                        cs = line.lstrip(tier).strip()
-                        counts[i] = parse_digit_int(cs, default=1)
-                        break
-                if found: continue
-
-            if puzzle_id is None:
-                raise ValueError('missing puzzle #id')
-
-            if sum(counts) != guesses:
-                raise ValueError('tier count sum doesn\'t match guess count')
-
-            site = urlparse(link).hostname or ''
-
-            return cls(puzzle_id, guesses, link, site, cast(TierCounts, tuple(counts)))
 
     @property
     @override
@@ -2492,7 +2410,7 @@ class Search(StoredLog):
                         break
         countab = Counter(rank())
         counts = cast(TierCounts, tuple(countab[tier] for tier in tiers))
-        res = self.Result(int(self.puzzle_id[1:]), self.attempt-1, self.origin, self.site, counts)
+        res = Result(int(self.puzzle_id[1:]), self.attempt-1, self.origin, self.site, counts)
         return '\n'.join(res.textlines())
 
     def finish(self, ui: PromptUI):
@@ -3508,6 +3426,88 @@ class Search(StoredLog):
             else:
                 self.system_prompt = tokens.rest
                 ui.log(f'system_prompt: {json.dumps(self.system_prompt)}')
+
+@final
+@dataclass
+class Result:
+    puzzle_id: int
+    guesses: int
+    link: str
+    site: str
+    counts: TierCounts
+
+    def describe(self) -> Generator[str]:
+        yield f'🔗 {self.site or self.link}'
+        yield f'🧩 {self.puzzle_id}'
+        yield f'🤔 {self.guesses} guesses'
+        for part in self.count_parts():
+            yield f'    {part}'
+
+    def count_parts(self):
+        cw = max(len(str(c)) for c in self.counts)
+        for i, count in enumerate(reversed(self.counts), start=1):
+            if count > 0:
+                yield f'{tiers[-i]} {count:>{cw}}'
+
+    def textlines(self):
+        yield f'I found #cemantle #{self.puzzle_id} in {self.guesses} guesses!'
+        for i, count in enumerate(reversed(self.counts), start=1):
+            if count > 0:
+                n = 1 # TODO how does upstream choose
+                yield f'{tiers[-i] * n}{make_digit_str(count)}'
+        yield self.link
+
+    @classmethod
+    def parse(cls, s: str):
+        puzzle_id: int|None = None
+        guesses: int = 0
+        link: str = ''
+        counts = [0 for _ in tiers]
+
+        for line in s.splitlines():
+            match = re.match(r'''(?x)
+                I \s+ found
+                \s+ \#cemantle
+                \s+ \# (?P<num> \d+ )
+                \s+ in
+                \s+ (?P<guesses> \d+ ) \s+ guesses \s* !
+            ''', line) or re.match(r'''(?x)
+                J'ai \s+ trouvé
+                \s+ \#cemantix
+                \s+ nº (?P<num> \d+ )
+                \s+ en
+                \s+ (?P<guesses> \d+ )
+                \s+ coups
+                \s* \!
+            ''', line)
+            if match:
+                ns, gs = match.groups()
+                puzzle_id = int(ns)
+                guesses = int(gs)
+                continue
+
+            if line.startswith('http') and not link:
+                link = line
+                continue
+
+            found = False
+            for i, tier in enumerate(tiers):
+                if line.startswith(tier):
+                    found = True
+                    cs = line.lstrip(tier).strip()
+                    counts[i] = parse_digit_int(cs, default=1)
+                    break
+            if found: continue
+
+        if puzzle_id is None:
+            raise ValueError('missing puzzle #id')
+
+        if sum(counts) != guesses:
+            raise ValueError('tier count sum doesn\'t match guess count')
+
+        site = urlparse(link).hostname or ''
+
+        return cls(puzzle_id, guesses, link, site, cast(TierCounts, tuple(counts)))
 
 ### tests
 
