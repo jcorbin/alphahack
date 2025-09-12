@@ -74,19 +74,29 @@ class DontWord(StoredLog):
 
     @property
     def result(self):
-        if self._result is None and self.result_text:
+        if self._result is not None:
+            return self._result
+        elif self.result_text:
             try:
-                res = Result.parse(self.result_text)
+                self.result = Result.parse(self.result_text)
             except ValueError:
                 return None
-            self._result = res
-            self.puzzle_id = f'#{res.puzzle_id}'
-        return self._result
+            return self._result
+
+    @result.setter
+    def result(self, res: 'Result'):
+        self._result = res
+        self.puzzle_id = f'#{res.puzzle_id}'
 
     @result.deleter
     def result(self):
         self._result = None
         self.result_text = ''
+
+    def set_result_text(self, txt: str):
+        del self.result
+        self.result_text = txt
+        self.result = Result.parse(txt)
 
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
@@ -144,7 +154,10 @@ class DontWord(StoredLog):
                     (raw), = match.groups()
                     dat = cast(object, json.loads(raw))
                     assert isinstance(dat, str)
-                    self.result_text = dat
+                    try:
+                        self.set_result_text(dat)
+                    except ValueError:
+                        pass
                     continue
 
                 yield t, rest
