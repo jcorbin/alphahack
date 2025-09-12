@@ -6,12 +6,12 @@
 
 ## WIP
 
-- share conversion is scuffed wrt "dictionary.com hurdle 🧩" ; needs to skip
-  any number of tokens up to the puzzle
+- [rc] missing puzzle id from hurdle and dontwordle should now be fixed
 
-- missing puzzle id from hurdle and dontwordle should now be fixed
+- [ ] share conversion is scuffed wrt "dictionary.com hurdle 🧩" ;
+  needs to skip any number of tokens up to the puzzle
 
-- fin on ephemeral stored log should cutover to a non-ephemeral log, whether
+- [dev reverted] fin on ephemeral stored log should cutover to a non-ephemeral log, whether
   stored or working copy
 
 ## TODO
