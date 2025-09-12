@@ -1087,7 +1087,7 @@ class Search(StoredLog):
                 return st
             return self.maybe_done(ui)
 
-        def seek(self, ui: PromptUI) -> PromptUI.State|None:
+        def seek(self, _ui: PromptUI) -> PromptUI.State|None:
             try:
                 word = self.words[self.word_i]
             except IndexError:
