@@ -194,6 +194,8 @@ class Search(StoredLog):
         self.suggested: int = 0
         self.guessed: int = 0
 
+        # TODO self.play | self.prompt | whatever
+
         self.review_prompt.set('show', self.show_quest)
         self.review_prompt.set('list', 'show')
         self.review_prompt.set('ls', 'list')
@@ -499,6 +501,12 @@ class Search(StoredLog):
             self.questioning = qi
             self.questioned += 1
 
+        # TODO rework / ui.Prompt
+
+        # TODO standard hookups
+        # '/site': self.cmd_site_link,
+        # '/store': self.cmd_store,
+
         word = self.words[qi]
         ui.copy(word)
         with ui.input(f'[{self.lo} : {qi} : {self.hi}] {word}? ') as tokens:
@@ -573,6 +581,12 @@ class Search(StoredLog):
         return self.handle_choose(ui)
 
     def handle_choose(self, ui: PromptUI) -> SearchResponse|None:
+        # TODO rework / ui.Prompt
+
+        # TODO standard hookups
+        # '/site': self.cmd_site_link,
+        # '/store': self.cmd_store,
+
         with ui.tokens_or('> ') as tokens:
             if self.view.handle(tokens):
                 return
