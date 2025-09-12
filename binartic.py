@@ -283,18 +283,30 @@ class Search(StoredLog):
 
     @property
     def result(self):
-        if self._result is None and self.result_text:
+        if self._result is not None:
+            return self._result
+        elif self.result_text:
             try:
-                res = Result.parse(self.result_text)
+                self.result = Result.parse(self.result_text)
             except ValueError:
                 return None
-            self._result = res
-        return self._result
+            return self._result
+
+    @result.setter
+    def result(self, res: 'Result'):
+        self._result = res
+        self.puzzle_id = f'#{res.puzzle}'
+        if not self.site: self.site = res.site
 
     @result.deleter
     def result(self):
         self._result = None
         self.result_text = ''
+
+    def set_result_text(self, txt: str):
+        del self.result
+        self.result_text = txt
+        self.result = Result.parse(txt)
 
     ### words routines
 
@@ -451,11 +463,7 @@ class Search(StoredLog):
                     srej, = match.groups()
                     rej = cast(object, json.loads(srej))
                     if not isinstance(rej, str): continue
-                    self.result_text = rej
-                    res = self.result
-                    if res:
-                        self.puzzle_id = f'#{res.puzzle}'
-                        if not self.site: self.site = res.site
+                    self.set_result_text(rej)
                     continue
 
                 yield t, rest
@@ -713,18 +721,9 @@ class Search(StoredLog):
 
     @override
     def proc_result(self, ui: PromptUI, text: str) -> None:
-        del self.result
-        self.result_text = text
+        self.set_result_text(text)
         res = self.result
         if not res: return
-
-        if not res.puzzle:
-            del self.result
-            return
-
-        self.puzzle_id = f'#{res.puzzle}'
-        if not self.site: self.site = res.site
-
         ui.log(f'share result: {json.dumps(text)}')
         for k, v in res.log_items():
             ui.log(f'result {k}: {v}')
