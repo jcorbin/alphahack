@@ -757,6 +757,12 @@ class StoredLog:
             puzzle_id = f'{date:%Y-%m-%d}'
         return os.path.join(store_dir, puzzle_id)
 
+    def cmd_store(self, _ui: PromptUI):
+        '''
+        store log and enter review mode
+        '''
+        return self.store
+
     def store(self, ui: PromptUI) -> PromptUI.State|None:
         if not self.store_dir:
             ui.print('! no store dir')

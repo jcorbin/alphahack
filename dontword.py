@@ -54,6 +54,8 @@ class DontWord(StoredLog):
         self._result: Result|None = None
 
         self.play_prompt = PromptUI.Prompt(self.play_prompt_mess, {
+            '/store': self.cmd_store,
+
             'fail': self.do_fail,
             'guess': self.do_guess,
             'tried': self.do_tried,

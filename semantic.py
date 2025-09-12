@@ -681,7 +681,10 @@ class Search(StoredLog):
         self.auto_token_limit = 400
         self.full_auto: bool = False
 
+
         self.play = PromptUI.Prompt('> ', {
+            '/store': self.cmd_store,
+
             '/auto': self.do_auto,
             '/http': self.do_http,
 
@@ -704,8 +707,6 @@ class Search(StoredLog):
             '/last': self.chat_last,
             '/system': self.chat_system_cmd,
             '/scrape': self.do_startup_scrape,
-
-            '/store': self.store,
         })
 
         self.review_prompt.update({

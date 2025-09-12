@@ -1046,6 +1046,8 @@ class SpaceWord(StoredLog):
         self.at_cursor: tuple[int, int, Literal['X', 'Y']] = (0, 0, 'X')
 
         self.play = PromptUI.Prompt(self.prompt_mess, {
+            '/store': self.cmd_store,
+
             '/at': self.cmd_at,
             '/bad': self.cmd_bad,
             '/center': self.cmd_center,
@@ -1059,7 +1061,6 @@ class SpaceWord(StoredLog):
             '/result': self.cmd_result,
             '/search': self.cmd_search,
             '/shift': self.cmd_shift,
-            '/store': self.cmd_store,
             '/write': self.cmd_write,
 
             '@': '/at', # TODO wants to be an under... prefix
@@ -1781,12 +1782,6 @@ class SpaceWord(StoredLog):
         else:
             self.update(ui, self.board.shift(dx, dy))
             ui.print(f'shifted board D:{dx:+},{dy:+}')
-
-    def cmd_store(self, _ui: PromptUI):
-        '''
-        store log and enter review mode
-        '''
-        return self.store
 
     def cmd_write(self, ui: PromptUI):
         '''
