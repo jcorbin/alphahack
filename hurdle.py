@@ -58,6 +58,9 @@ class Search(StoredLog):
         self._result: Result|None = None
 
         self.prompt = PromptUI.Prompt(self.display_mess, {
+            '/site': self.cmd_site_link,
+            '/store': self.cmd_store,
+
             'gen': self.do_gen,
             'fail': self.do_fail,
             'tried': self.do_tried,
