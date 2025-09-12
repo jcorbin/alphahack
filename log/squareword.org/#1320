@@ -1,0 +1,95 @@
+T231.86234727408737 now: 2025-09-12T11:42:37UTC
+TD38 site: squareword.org
+TDD-8 wordlist: nwl2023.txt
+TDD1506357  ...cop
+TDD4145573  ...#1320
+TDD-2519950  ...cop
+TDD-1595960  ...
+TDD839801 🧩  ? #1320
+TDD-2375676 puzzle_id: #1320
+TDD3283447 > *
+TDD-1847650 try? 1
+TDD-1435799 questioning: ["arise", "#5"]
+TDD4751652 #1 _____  📋 "arise" ? _____ ~ ARS
+TDD-4751434 attempt 0 ARISE m m n m n
+TDD3103336 #2 _____  📋 "arise" ? _____ ~ RE
+TDD-3103549 attempt 1 ARISE n m n n m
+TDD1195570 #3 _____  📋 "arise" ? /it
+TDD-1195581 attempt 2 ARISE Y Y Y Y Y
+TDD3563467 #4 _____  📋 "arise" ? _____ ~ AS
+TDD-3563471 attempt 3 ARISE m n n m n
+TDD2659867 #5 _____  📋 "arise" ? ___S_ ~ E
+TDD-2659872 attempt 4 ARISE n n n Y m
+TDD951718 ? 
+TDD-951760 question done
+TDD1119742 > *
+TDD3287711 try? 1
+TDD-4407395 questioning: ["thesp", "#5"]
+TDD4720151 #1 _____ ~ARS -EI  📋 "thesp" ? !
+TDD-4720225 reject: thesp
+TDD-59 bad: ["thesp"]
+TDD31412 question done
+TDD4991119 > *
+TDD-3438539 try? 1
+TDD-1583878 questioning: ["welsh", "#5"]
+TDD6031612 #1 _____ ~ARS -EI  📋 "welsh" ? .
+TDD-6031609 attempt 0 WELSH n n n m n
+TDD1247686 #2 _____ ~ER -AIS  📋 "welsh" ? .
+TDD-1247687 attempt 1 WELSH n m n n n
+TDD1243767 #4 _____ ~AS -EIR  📋 "welsh" ? .
+TDD-1243779 attempt 3 WELSH n n n m n
+TDD3139761 #5 ___S_ ~E -AIR  📋 "welsh" ? ___SH ~ EL
+TDD-3139730 attempt 4 WELSH n m m Y Y
+TDD867634 ? 
+TDD-867701 question done
+TDD944983 > *
+TDD-464455 questioning: ["flesh", "#5"]
+TDD9509394 #1 _____ ~ARS -EHILW  📋 "flesh" ? _____ ~ ARSF
+TDD-9989862 attempt 0 FLESH m n n m n
+TDD669154 #2 _____ ~ER -AHILSW  📋 "flesh" ? .
+TDD-669176 attempt 1 FLESH n n m n n
+TDD2959664 #4 _____ ~AS -EHILRW  📋 "flesh" ? F____ ~ AS
+TDD-2959646 attempt 3 FLESH Y n n m n
+TDD735838 #5 ___SH ~EL -AIRW  📋 "flesh" ? /it
+TDD-735849 attempt 4 FLESH Y Y Y Y Y
+TDD400156 ? 
+TDD-400198 question done
+TDD1060808 > *
+TDD6101414 try? 1
+TDD-7162178 questioning: ["scarf", "#1"]
+TDD3567763 #1 _____ ~AFRS -EHILW  📋 "scarf" ? /it
+TDD-3567780 attempt 0 SCARF Y Y Y Y Y
+TDD1322350 #2 _____ ~ER -AFHILSW  📋 "scarf" ? .
+TDD-1322314 attempt 1 SCARF n n n m n
+TDD2799512 #4 F____ ~AS -EHILRW  📋 "scarf" ? .
+TDD-2799543 attempt 3 SCARF m n m n n
+TDD771986 ? *
+TDD431585 ? 
+TDD-1203609 question done
+TDD928163 > *
+TDD-47581 questioning: ["toner", "#2"]
+TDD2850369 #2 _____ ~ER -ACFHILSW  📋 "toner" ? /it
+TDD-3730905 attempt 1 TONER Y Y Y Y Y
+TDD3979698 #4 F____ ~AS -CEFHILRW  📋 "toner" ? F____ ~ AST
+TDD-3979686 attempt 3 TONER m n n n n
+TDD571460 ? 
+TDD-571548 question done
+TDD737232 > *
+TDD127371 questioning: ["fasts", "#4"]
+TDD4446684 #4 F____ ~AST -CEFHILNORW  📋 "fasts" ? /it
+TDD-5311219 attempt 3 FASTS Y Y Y Y Y
+TDD948943 ? 
+TDD-948980 question done
+TDD4965276 📋> squareword.org 1320: 6 guesses
+TDD-4965312 📋> 
+TDD-46 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟨🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD602701 📋> #squareword #squareword1320
+TDD298319 📋> ␚
+TDD-900573 result: "squareword.org 1320: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1320"
+TDD2024101 📆 2025-09-12 ? 
