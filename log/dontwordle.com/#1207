@@ -1,0 +1,65 @@
+T635.4476635726169 now: 2025-09-12T11:49:21UTC
+TD37 site: dontwordle.com
+TDD-13 wordlist: nwl2023.txt
+TDD966015  ...cop
+TDD2964656  ...
+TDD-368069 1> * -bot 10
+TDD-2218584 ? 1
+TDD3732027 📋 "raise" ? nMMnn
+TDD-5075909 tried: RAISE n m m n n
+TDD735173 2> undo
+TDD-735250 undo
+TDD3823981 1> *
+TDD-2700086 ? 1
+TDD2845850 📋 "keeks" ? nnnnn
+TDD-3969700 tried: KEEKS n n n n n
+TDD581322 2> *
+TDD261279 ? 1
+TDD3898203 📋 "torot" ? nnnnn
+TDD-4740825 tried: TOROT n n n n n
+TDD570740 3> *
+TDD503636 ? 1
+TDD4106171 📋 "cuddy" ? nnnnn
+TDD-5180532 tried: CUDDY n n n n n
+TDD479777 4> *
+TDD1968315 ? 1
+TDD3380845 📋 "blimp" ? nMMnn
+TDD-5828939 tried: BLIMP n m m n n
+TDD1002487 5> undo
+TDD-1002535 undo
+TDD2698670 4> *
+TDD3507688 ? 6
+TDD-702457 📋 "phizz" ? nnMnn
+TDD-5503837 tried: PHIZZ n n m n n
+TDD607599 5> *
+TDD3577835 ? 2
+TDD1786568 📋 "infix" ? nnnYn
+TDD-5972016 tried: INFIX n n n Y n
+TDD535850 6> *
+TDD4292304 📋 "vigia" ? 
+TDD2085699 ? 
+TDD-5447182 ? ␚
+TDD-1466730 <EOF>
+TDD1476721 6> * -sans
+TDD17832335 ? ␚
+TDD-19309046 <EOF>
+TDD4962174 6> * -sans :v i.*i
+TDD1432527 ? 2
+TDD-1104006 📋 "labia" ? MMnYM
+TDD-5290627 tried: LABIA m m n Y m
+TDD3838129 📋> Don't Wordle 1207 - SURVIVED
+TDD-3838169 📋> Hooray! I didn't Wordle today!
+TDD-74 📋> ⬜⬜⬜⬜⬜3241
+TDD-5 📋> ⬜⬜⬜⬜⬜935
+TDD-2 📋> ⬜⬜⬜⬜⬜231
+TDD1 📋> ⬜⬜🟨⬜⬜65
+TDD-2 📋> ⬜⬜⬜🟩⬜3
+TDD0 📋> 🟨🟨⬜🟩🟨1
+TDD0 📋> Undos used: 2
+TDD3 📋> 
+TDD-2 📋>   1 words remaining
+TDD0 📋> x 6 unused letters
+TDD372863 📋> = 6 total score
+TDD96564 📋> ␚
+TDD-468622 result: "Don't Wordle 1207 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3241\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c935\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c231\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c65\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c3\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe81\nUndos used: 2\n\n  1 words remaining\nx 6 unused letters\n= 6 total score"
+TDD307480 📆 2025-09-12 ? 
