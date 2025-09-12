@@ -109,17 +109,28 @@ class Search(StoredLog):
 
     @property
     def result(self):
-        if self._result is None and self.result_text:
+        if self._result is not None:
+            return self._result
+        elif self.result_text:
             try:
-                res = Result.parse(self.result_text, self.size)
+                self.result = Result.parse(self.result_text, self.size)
             except ValueError:
                 return None
-            self._result = res
-        return self._result
+            return self._result
+
+    @result.setter
+    def result(self, res: 'Result'):
+        self._result = res
 
     @result.deleter
     def result(self):
         self._result = None
+        self.result_text = ''
+
+    def set_result_text(self, txt: str):
+        del self.result
+        self.result_text = txt
+        self.result = Result.parse(txt, self.size)
 
     @override
     def startup(self, ui: PromptUI):
@@ -289,7 +300,10 @@ class Search(StoredLog):
                     (raw), = match.groups()
                     dat = cast(object, json.loads(raw))
                     assert isinstance(dat, str)
-                    self.result_text = dat
+                    try:
+                        self.set_result_text(dat)
+                    except ValueError:
+                        pass
                     continue
 
                 yield t, rest
