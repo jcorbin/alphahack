@@ -326,6 +326,13 @@ class StoredLog:
         '''
         present puzzle site hyperlink... or "copy" to clipboard
         '''
+
+        # TODO if ui.tokens -> set and log?
+        #     site = next(tokens, None)
+        #     if site:
+        #         self.site = site
+        #         ui.log(f'site: {self.site}')
+
         label = self.site_name or self.site
         url = self.site
         if '://'not in url:
