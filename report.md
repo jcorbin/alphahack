@@ -10,8 +10,9 @@
   any number of tokens up to the puzzle
 
 - missing puzzle id from hurdle and dontwordle should now be fixed
-- store: fin seems fine actually?
-- space: post fin seems fine actually?
+
+- fin on ephemeral stored log should cutover to a non-ephemeral log, whether
+  stored or working copy
 
 ## TODO
 
