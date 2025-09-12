@@ -695,13 +695,15 @@ class Search(StoredLog):
         self.full_auto: bool = False
 
         self.play = PromptUI.Prompt('> ', {
+            '/site': self.cmd_site_link,
+            '/store': self.cmd_store,
+
             '/auto': self.do_auto,
             '/http': self.do_http,
 
             '/prog': self.show_prog,
             '/tiers': self.show_tiers,
 
-            '/site': self.do_site,
             '/lang': self.do_lang,
             '/puzzle': self.do_puzzle,
             '/scale': self.do_scale,
@@ -717,8 +719,6 @@ class Search(StoredLog):
             '/last': self.chat_last,
             '/system': self.chat_system_cmd,
             '/scrape': self.do_startup_scrape,
-
-            '/store': self.store,
         })
 
         self.review_prompt.update({
