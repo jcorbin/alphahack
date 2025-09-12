@@ -1,5 +1,6 @@
 import argparse
 import datetime
+import json
 import os
 import re
 import subprocess
@@ -136,6 +137,7 @@ class StoredLog:
         self.sessions: list[LogSession] = []
         self.loaded: bool = False
         self.log_start: datetime.datetime|None = None
+        self.result_text: str = ''
 
         self.expired_prompt: PromptUI.Prompt = PromptUI.Prompt(self.expired_prompt_mess, {
             'archive': self.expired_do_archive,
@@ -153,6 +155,9 @@ class StoredLog:
             'report': self.do_report,
             'result': self.do_result,
         })
+
+    def set_result_text(self, txt: str):
+        self.result_text = txt
 
     @property
     def expire(self) -> datetime.datetime|None:
@@ -542,6 +547,20 @@ class StoredLog:
                 continue
 
             yield t, rest
+
+            match = re.match(r'''(?x)
+                (?: share \s+ )?  # pattern for legacy log lines
+                result :
+                \s* (?P<json> .* )
+                $''', rest)
+            if match:
+                dat = cast(object, json.loads(match[1]))
+                assert isinstance(dat, str)
+                try:
+                    self.set_result_text(dat)
+                except:
+                    pass
+                continue
 
         if prior_then is not None and cur_t is not None:
             self.sessions.append(LogSession(prior_then, datetime.timedelta(seconds=cur_t)))

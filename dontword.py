@@ -50,7 +50,6 @@ class DontWord(StoredLog):
         self.failed: bool = False
         self.fail_text: str = ''
 
-        self.result_text: str = ''
         self._result: Result|None = None
 
         self.play_prompt = PromptUI.Prompt(self.play_prompt_mess, {
@@ -93,6 +92,7 @@ class DontWord(StoredLog):
         self._result = None
         self.result_text = ''
 
+    @override
     def set_result_text(self, txt: str):
         del self.result
         self.result_text = txt
@@ -144,20 +144,6 @@ class DontWord(StoredLog):
                     rest = match[1]
                     assert rest == ''
                     self.apply_undo()
-                    continue
-
-                match = re.match(r'''(?x)
-                    result :
-                    \s* (?P<json> .+ )
-                    $''', rest)
-                if match:
-                    (raw), = match.groups()
-                    dat = cast(object, json.loads(raw))
-                    assert isinstance(dat, str)
-                    try:
-                        self.set_result_text(dat)
-                    except ValueError:
-                        pass
                     continue
 
                 yield t, rest
