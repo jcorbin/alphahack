@@ -744,13 +744,32 @@ class Search(StoredLog):
 
     @property
     def result(self):
-        if self._result is None and self.result_text:
+        if self._result is not None:
+            return self._result
+        elif self.result_text:
             try:
-                res = self.Result.parse(self.result_text)
+                self.result = self.Result.parse(self.result_text)
             except ValueError:
                 return None
-            self._result = res
-        return self._result
+            return self._result
+
+    @result.setter
+    def result(self, res: 'Result'):
+        self._result = res
+        if res.site: self.site = res.site
+        if not self.puzzle_id:
+            self.puzzle_num = res.puzzle_id
+            self.puzzle_id = f'#{res.puzzle_id}'
+
+    @result.deleter
+    def result(self):
+        self._result = None
+        self.result_text = ''
+
+    def set_result_text(self, txt: str):
+        del self.result
+        self.result_text = txt
+        self.result = self.Result.parse(txt)
 
     def last_known_prompt(self):
         if isinstance(self.last_chat_prompt, ChatPrompt):
@@ -1279,13 +1298,10 @@ class Search(StoredLog):
                 if match:
                     rej = cast(object, json.loads(match.group(1)))
                     if isinstance(rej, str):
-                        self.result_text = rej
-                        res = self.result
-                        if res:
-                            if res.site: self.site = res.site
-                            if not self.puzzle_id:
-                                self.puzzle_num = res.puzzle_id
-                                self.puzzle_id = f'#{res.puzzle_id}'
+                        try:
+                            self.set_result_text(rej)
+                        except ValueError:
+                            pass
                     continue
 
                 yield t, rest
@@ -2487,14 +2503,9 @@ class Search(StoredLog):
 
         res = self.result
         if not res:
-            self.result_text = self.syn_result(ui)
+            self.set_result_text(self.syn_result(ui))
             ui.log(f'share result: {json.dumps(self.result_text)}')
             return
-
-        if res.site: self.site = res.site
-        if not self.puzzle_id:
-            self.puzzle_id = f'#{res.puzzle_id}'
-            ui.log(f'puzzle_id: {self.puzzle_id}')
 
         cw = max(len(str(c)) for c in res.counts)
         for i, count in enumerate(reversed(res.counts), start=1):
