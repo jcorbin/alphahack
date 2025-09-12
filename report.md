@@ -1,6 +1,6 @@
 # 2025-09-13
 
-- 🔗 spaceword.org 🧩 2025-09-12 🏗️ score 2160 current ranking 123/185 ⏱️ 1:08:19.546118
+- 🔗 spaceword.org 🧩 2025-09-12 🏗️ score 2165 current ranking 102/204 ⏱️ 2:52:58.208380
 
 # Dev
 
@@ -62,22 +62,25 @@
   {expect score ; are we good enough yet? -- e.g. stop daily at 2173}
   # ...
 
+  # TODO how about a deadline? in terms of state rounds and/or time?
+
   ```
 
-# spaceword.org 🧩 2025-09-12 🏗️ score 2160 current ranking 123/185 ⏱️ 1:08:19.546118
+# spaceword.org 🧩 2025-09-12 🏗️ score 2165 current ranking 102/204 ⏱️ 2:52:58.208380
 
-📜 3 sessions
+📜 4 sessions
 - tiles: 21/21
-- score: 2160 bonus: +60
-- rank: 123/185
+- score: 2165 bonus: +65
+- rank: 102/204
 
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ O H _ _ _ _ _   
-      _ J O V I A L _ _ _   
-      _ _ _ I N T A K E _   
-      _ B U N _ _ _ _ _ _   
-      _ A P E S _ _ _ _ _   
+      _ _ P A I L _ _ _ _   
+      _ _ _ V _ _ U _ O _   
+      _ _ B A S E N J I _   
+      _ _ _ _ H _ _ _ K _   
+      _ _ A T O N E _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
+
