@@ -1035,7 +1035,6 @@ class SpaceWord(StoredLog):
 
         self.board = Board()
         self.best: Board|None = None
-        self.result_text: str = ''
         self._result: Result|None = None
 
         self.sids: set[str] = set()
@@ -1107,9 +1106,10 @@ class SpaceWord(StoredLog):
     def result(self):
         self._result = None
 
+    @override
     def set_result_text(self, txt: str):
         del self.result
-        self.result_text = txt
+        super().set_result_text(txt)
         self.result = self._parse_result()
 
     @override
@@ -1244,20 +1244,6 @@ class SpaceWord(StoredLog):
                     assert rest == ''
                     self.wordlist_file = wordlist
                     self.given_wordlist = True
-                    continue
-
-                match = re.match(r'''(?x)
-                    result :
-                    \s* (?P<json> .+ )
-                    $''', rest)
-                if match:
-                    (raw), = match.groups()
-                    dat = cast(object, json.loads(raw))
-                    assert isinstance(dat, str)
-                    try:
-                        self.set_result_text(dat)
-                    except:
-                        pass
                     continue
 
                 match = re.match(r'''(?x)

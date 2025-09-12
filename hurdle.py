@@ -55,7 +55,6 @@ class Search(StoredLog):
         self.failed: bool = False
         self.fail_text: str = ''
 
-        self.result_text: str = ''
         self._result: Result|None = None
 
         self.prompt = PromptUI.Prompt(self.display_mess, {
@@ -101,9 +100,10 @@ class Search(StoredLog):
         self._result = None
         self.result_text = ''
 
+    @override
     def set_result_text(self, txt: str):
         del self.result
-        self.result_text = txt
+        super().set_result_text(txt)
         self.result = Result.parse(txt, self.size)
 
     @override
@@ -141,20 +141,6 @@ class Search(StoredLog):
                 if match:
                     at = Attempt.parse(match[1], expected_size=self.size)
                     _ = self.apply_tried(at)
-                    continue
-
-                match = re.match(r'''(?x)
-                    result :
-                    \s* (?P<json> .+ )
-                    $''', rest)
-                if match:
-                    (raw), = match.groups()
-                    dat = cast(object, json.loads(raw))
-                    assert isinstance(dat, str)
-                    try:
-                        self.set_result_text(dat)
-                    except ValueError:
-                        pass
                     continue
 
                 yield t, rest

@@ -653,7 +653,6 @@ class Search(StoredLog):
         self.wordbad: set[str] = set()
         self.wordgood: dict[str, int] = dict()
 
-        self.result_text: str = ''
         self._result: Result|None = None
 
         self.http_client = requests.Session()
@@ -752,9 +751,10 @@ class Search(StoredLog):
         self._result = None
         self.result_text = ''
 
+    @override
     def set_result_text(self, txt: str):
         del self.result
-        self.result_text = txt
+        super().set_result_text(txt)
         self.result = Result.parse(txt)
 
     def last_known_prompt(self):
@@ -1196,19 +1196,6 @@ class Search(StoredLog):
                     rest, = match.groups()
                     assert rest == ''
                     self.chat_clear(ui)
-                    continue
-
-                match = re.match(r'''(?x)
-                    share \s+ result:
-                    \s+ (?P<result> .* )
-                    $''', rest)
-                if match:
-                    rej = cast(object, json.loads(match.group(1)))
-                    if isinstance(rej, str):
-                        try:
-                            self.set_result_text(rej)
-                        except ValueError:
-                            pass
                     continue
 
                 yield t, rest
