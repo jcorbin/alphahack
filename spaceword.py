@@ -1088,16 +1088,27 @@ class SpaceWord(StoredLog):
 
     @property
     def result(self):
-        if self._result is None and self.result_text:
+        if self._result is not None:
+            return self._result
+        elif self.result_text:
             try:
-                self._result = self._parse_result()
+                self.result = self._parse_result()
             except ValueError:
                 return None
-        return self._result
+            return self._result
+
+    @result.setter
+    def result(self, res: 'Result'):
+        self._result = res
 
     @result.deleter
     def result(self):
         self._result = None
+
+    def set_result_text(self, txt: str):
+        del self.result
+        self.result_text = txt
+        self.result = self._parse_result()
 
     @override
     def have_result(self):
@@ -1110,11 +1121,10 @@ class SpaceWord(StoredLog):
 
     @override
     def proc_result(self, ui: PromptUI, text: str):
-        self.result_text = text
-        del self.result
-        res = self._parse_result()
+        self.set_result_text(text)
         ui.log(f'result: {json.dumps(self.result_text)}')
-        if res.score == self.board.score:
+        res = self.result
+        if res and res.score == self.board.score:
             self.best = self.board.copy()
 
     @property
@@ -1236,7 +1246,7 @@ class SpaceWord(StoredLog):
                     dat = cast(object, json.loads(raw))
                     assert isinstance(dat, str)
                     try:
-                        self.proc_result(ui, dat)
+                        self.set_result_text(dat)
                     except:
                         pass
                     continue
