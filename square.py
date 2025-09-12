@@ -82,7 +82,6 @@ class Search(StoredLog):
         self.nope: set[str] = set()
         self.row_may: tuple[set[str], ...] = tuple(set() for _ in range(self.size))
 
-        self.result_text: str = ''
         self._result: Result|None = None
 
         self.prompt = PromptUI.Prompt(self.prompt_mess, {
@@ -130,9 +129,10 @@ class Search(StoredLog):
         self._result = None
         self.result_text = ''
 
+    @override
     def set_result_text(self, txt: str):
         del self.result
-        self.result_text = txt
+        super().set_result_text(txt)
         self.result = Result.parse(txt, self.size)
 
     @override
@@ -296,20 +296,6 @@ class Search(StoredLog):
                     while len(word) < self.size: word.append('')
                     for j, c in zip(self.row_word_range(word_i), word):
                         self.grid[j] = c
-                    continue
-
-                match = re.match(r'''(?x)
-                    result :
-                    \s* (?P<json> .+ )
-                    $''', rest)
-                if match:
-                    (raw), = match.groups()
-                    dat = cast(object, json.loads(raw))
-                    assert isinstance(dat, str)
-                    try:
-                        self.set_result_text(dat)
-                    except ValueError:
-                        pass
                     continue
 
                 yield t, rest

@@ -252,7 +252,6 @@ class Search(StoredLog):
         self.lo: int = 0
         self.hi: int = 0
         self.chosen: int|None = None
-        self.result_text: str = ''
         self._result: Result|None = None
 
         # per-round prompt state
@@ -303,9 +302,10 @@ class Search(StoredLog):
         self._result = None
         self.result_text = ''
 
+    @override
     def set_result_text(self, txt: str):
         del self.result
-        self.result_text = txt
+        super().set_result_text(txt)
         self.result = Result.parse(txt)
 
     ### words routines
@@ -453,17 +453,6 @@ class Search(StoredLog):
                     cmp = cast(Comparison, int(cs))
                     ix = int(ixs)
                     self.progress(ui, ix, cmp, word)
-                    continue
-
-                match = re.match(r'''(?x)
-                    share \s+ result:
-                    \s+ (?P<result> .* )
-                    $''', rest)
-                if match:
-                    srej, = match.groups()
-                    rej = cast(object, json.loads(srej))
-                    if not isinstance(rej, str): continue
-                    self.set_result_text(rej)
                     continue
 
                 yield t, rest
