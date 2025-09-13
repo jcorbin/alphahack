@@ -28,14 +28,10 @@ class Clipboard(Protocol):
 
 @final
 class NullClipboard:
-    def can_copy(self) -> bool: return False
-    def can_paste(self) -> bool: return False
-
-    def copy(self, mess: str) -> None:
-        _ = mess
-
-    def paste(self) -> str:
-        return ''
+    def can_copy(self): return False
+    def can_paste(self): return False
+    def copy(self, mess: str): _ = mess
+    def paste(self): return ''
 
 @final
 class OSC52Clipboard:
