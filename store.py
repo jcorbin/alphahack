@@ -755,6 +755,13 @@ class StoredLog:
         matchers: list[Callable[[Self, float, str], bool]] = []
         matchers.append(match_session)
 
+        # TODO matcher to rehydrate dev clipboard
+        # self.log(f'pasted: {json.dumps({
+        #     "subject": subject,
+        #     "method": method,
+        #     "content": content,
+        # })}')
+
         for prop in dir(self):
             if prop.startswith('_'): continue
             val = cast(object, getattr(self.__class__, prop, None))
@@ -800,7 +807,9 @@ class StoredLog:
             self.__init__()
         if log_file and os.path.exists(log_file):
             with open(log_file, 'r') as f:
-                for _ in self.load(ui, f): pass
+                for _ in self.load(ui, f):
+                    # TODO or do we match pasted log here?
+                    pass
         self.loaded = True
         self.log_file = log_file
 
