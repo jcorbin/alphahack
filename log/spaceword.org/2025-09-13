@@ -40879,3 +40879,71 @@ TDD-12665 📋> ␚
 TDD-434928 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2025-09-13 \u2728\n\n\ud83c\udfc6 Score: 2170\n\ud83c\udfc5 Rank: 89/252 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +70\n\n\nPlay at https://spaceword.org\n#spaceword"}
 TDD767 result: "\u2728 Spaceword.org Daily 2025-09-13 \u2728\n\n\ud83c\udfc6 Score: 2170\n\ud83c\udfc5 Rank: 89/252 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +70\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD2947240 [prior:2170]> /store
+T7801.803125702776 now: 2025-09-13T17:08:16UTC
+TD1289734  ...
+TDD1531418 [prior:2170]> /clear
+TDD-2821039 change: 33 
+TDD-95 change: 35 
+TDD-4 change: 37 
+TDD-1 change: 42 
+TDD0 change: 43 
+TDD0 change: 44 
+TDD0 change: 45 
+TDD0 change: 46 
+TDD0 change: 47 
+TDD0 change: 52 
+TDD0 change: 53 
+TDD0 change: 54 
+TDD0 change: 55 
+TDD0 change: 56 
+TDD0 change: 57 
+TDD0 change: 63 
+TDD10 change: 65 
+TDD-8 change: 67 
+TDD-1 change: 72 
+TDD0 change: 73 
+TDD0 change: 74 
+TDD7621338 [prior:2170 meh:100]> @ 1 6
+TDD-7621160 at: 1 6 X
+TDD3295444 [prior:2170 meh:100]> ^ bonitos
+TDD-3295360 change: 61 B
+TDD-256 change: 62 O
+TDD-4 change: 63 N
+TDD-1 change: 64 I
+TDD0 change: 65 T
+TDD0 change: 66 O
+TDD0 change: 67 S
+TDD7983658 [prior:2170 meh:793]> @ 3 5
+TDD-7983524 at: 3 5 X
+TDD4469053 [prior:2170 meh:793]> ^ examine
+TDD-4468993 change: 53 E
+TDD-186 change: 54 X
+TDD-5 change: 55 A
+TDD0 change: 56 M
+TDD0 change: 57 I
+TDD0 change: 58 N
+TDD0 change: 59 E
+TDD8149175 [prior:2170 meh:1482]> @ 1 6 Y
+TDD-8148904 at: 1 6 Y
+TDD3130196 [prior:2170 meh:1482]> @ 1 4 Y
+TDD-3130336 at: 1 4 Y
+TDD4683489 [prior:2170 meh:1482]> ^ neb
+TDD-4683441 change: 41 N
+TDD-171 change: 51 E
+TDD8176819 [prior:2170 meh:1673]> @ 5 4
+TDD-8176689 at: 5 4 Y
+TDD3645007 [prior:2170 meh:1673]> ^ h
+TDD-3644961 change: 45 H
+TDD8003830 [prior:2170 meh:1773]> @ 7 4 X
+TDD-8003874 at: 7 4 X
+TDD1993630 [prior:2170 meh:1773]> ^ vee
+TDD-1993609 change: 47 V
+TDD-153 change: 48 E
+TDD-4 change: 49 E
+TDD8370909 [prior:2170 meh:2073]> @ 9 4 Y
+TDD-8370791 at: 9 4 Y
+TDD1802369 [prior:2170 meh:2073]> ^ eekk
+TDD8639835 [prior:2170 meh:2073]> @ e e k
+TDD-6578008 [prior:2170 meh:2073]> ^ eek
+TDD-3864157 change: 69 K
+TDD3415086 [prior:2170 bet:2173]> /store
