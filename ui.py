@@ -35,16 +35,16 @@ class NullClipboard:
 
 @final
 class OSC52Clipboard:
-    def can_copy(self) -> bool: return True
-    def can_paste(self) -> bool: return False
+    def can_copy(self): return True
+    def can_paste(self): return False
 
-    def copy(self, mess: str) -> None:
+    def copy(self, mess: str):
         # TODO print directly to tty? stderr? /dev/fd/2?
         encoded = b64encode(mess.encode())
         encoded_str = encoded.decode().replace("\n", "")
         print(f'\033]52;c;{encoded_str}\007', end='')
 
-    def paste(self) -> str:
+    def paste(self):
         # TODO implement
         return ''
 
