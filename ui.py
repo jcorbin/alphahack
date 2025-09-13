@@ -2015,6 +2015,7 @@ class PromptUI:
         return '\n'.join(self.paste_lines())
 
     def may_paste(self, tokens: Tokens|None = None, subject: str = 'content'):
+        # TODO support one-shot paste replay: Callable[[subject: str], tuple[method: str, content: str]]
         def howdo(tokens: Tokens|None = None):
             if not self.clip.can_paste():
                 return 'read:must:stdin', self.paste_read(subject)
