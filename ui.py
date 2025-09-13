@@ -1,4 +1,5 @@
 import datetime
+import json
 import math
 import os
 import random
@@ -35,6 +36,9 @@ class Itemsable[K, V](Protocol):
         return ()
 
 class Clipboard(Protocol):
+    @property
+    def name(self) -> str: return '<abstract>'
+
     def can_copy(self) -> bool: return False
     def can_paste(self) -> bool: return False
     def copy(self, mess: str) -> None: pass
@@ -42,6 +46,9 @@ class Clipboard(Protocol):
 
 @final
 class NullClipboard:
+    @property
+    def name(self): return 'null'
+
     def can_copy(self): return False
     def can_paste(self): return False
     def copy(self, mess: str): _ = mess
@@ -49,6 +56,9 @@ class NullClipboard:
 
 @final
 class OSC52Clipboard:
+    @property
+    def name(self): return 'osc52'
+
     def can_copy(self): return True
     def can_paste(self): return False
 
@@ -77,6 +87,9 @@ if pyperclip and  pyperclip.is_available():
 
     @final
     class Pyperclip:
+        @property
+        def name(self): return 'pyperclip'
+
         def can_copy(self): return True
         def can_paste(self): return True
         def copy(self, mess: str): pyp_copy(mess)
@@ -724,15 +737,29 @@ class PromptUI:
         return '\n'.join(self.paste_lines())
 
     def may_paste(self, tokens: Tokens|None = None, subject: str = 'content'):
-        if not self.clip.can_paste():
-            return self.paste_read(subject)
-        if tokens is None:
-            tokens = self.input('Press <Enter> to 📋 {subject} or `>` to enter directly')
-        with tokens:
-            if tokens.empty: return self.paste()
-            if not tokens.have('>$'):
-                return ''
-        return self.paste_read(subject)
+        def howdo(tokens: Tokens|None = None):
+            if not self.clip.can_paste():
+                return 'read:must:stdin', self.paste_read(subject)
+            if tokens is None:
+                tokens = self.input('Press <Enter> to 📋 {subject} or `>` to enter directly')
+            with tokens:
+                if tokens.empty:
+                    return (
+                        f'clipboard:{self.clip.name}',
+                        self.clip.paste())
+                elif tokens.have('>$'):
+                    return 'read:user:stdin', self.paste_read(subject)
+                else:
+                    return 'noop:user', ''
+            return 'noop:fallthru', ''
+
+        method, content = howdo(tokens)
+        self.log(f'pasted: {json.dumps({
+            "subject": subject,
+            "method": method,
+            "content": content,
+        })}')
+        return content
 
     def log(self, mess: str):
         self._log_time.update(self.time.now)
