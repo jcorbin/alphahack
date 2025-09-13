@@ -1,0 +1,64 @@
+T303.6353339655325 now: 2025-09-13T13:51:21UTC
+TD37 site: dontwordle.com
+TDD-3 wordlist: nwl2023.txt
+TDD6032197  ...
+T1.5920214094221592 now: 2025-09-13T13:51:36UTC
+TD1046428  ...
+TDD2061759 1> * -bot 10
+TDD-914253 ? 3
+TDD2237472 📋 "least" ? nnnMY
+TDD-4431098 tried: LEAST n n n m Y
+TDD666224 2> undo
+TDD-666431 undo
+TDD5034121 1> *
+TDD-3620738 ? 1
+TDD9708881 <INT>
+T2.095399785786867 now: 2025-09-13T13:52:14UTC
+TD871314  ...
+TDD1628507 1> jinni
+TDD-171307 1> "jinni"
+TDD7442996 1> tried jinni
+TDD-3595670 1> tried jinni nnnnn
+TDD-6175713 tried: JINNI n n n n n
+TDD1024068 2> *
+TDD997066 ? 1
+TDD2349297 📋 "addax" ? nnnnn
+TDD-4370355 tried: ADDAX n n n n n
+TDD17503496 3> *
+TDD-13791597 ? 6
+TDD863587 📋 "yuppy" ? nnnnn
+TDD-4575567 tried: YUPPY n n n n n
+TDD432148 4> *
+TDD1082015 ? 2
+TDD2172074 📋 "level" ? nnnnn
+TDD-3686256 tried: LEVEL n n n n n
+TDD529331 5> *
+TDD923727 ? 1
+TDD3400366 📋 "hooch" ? MnYnn
+TDD-4853394 tried: HOOCH m n Y n n
+TDD1295662 6> undo
+TDD-1295704 undo
+TDD3074365 5> *
+TDD-740113 ? 1
+TDD1886125 📋 "boffo" ? nMnnn
+TDD-4220330 tried: BOFFO n m n n n
+TDD439145 6> *
+TDD5548661 📋 "crock" ? nMYnn
+TDD-5987826 tried: CROCK n m Y n n
+TDD3480021 📋> Don't Wordle 1208 - SURVIVED
+TDD-3480070 📋> Hooray! I didn't Wordle today!
+TDD-52 📋> ⬜⬜⬜⬜⬜7302
+TDD-5 📋> ⬜⬜⬜⬜⬜3105
+TDD0 📋> ⬜⬜⬜⬜⬜1306
+TDD0 📋> ⬜⬜⬜⬜⬜303
+TDD0 📋> ⬜🟨⬜⬜⬜58
+TDD0 📋> ⬜🟨🟩⬜⬜5
+TDD0 📋> Undos used: 2
+TDD0 📋> 
+TDD1 📋>   5 words remaining
+TDD4 📋> x 8 unused letters
+TDD821108 📋> = 40 total score
+TDD-357161 📋> ␚
+TDD-463893 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1208 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7302\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3105\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1306\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c303\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c58\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c5\nUndos used: 2\n\n  5 words remaining\nx 8 unused letters\n= 40 total score"}
+TDD712 result: "Don't Wordle 1208 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7302\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3105\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1306\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c303\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c58\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c5\nUndos used: 2\n\n  5 words remaining\nx 8 unused letters\n= 40 total score"
+TDD659677 📆 2025-09-13 ? 
