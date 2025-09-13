@@ -787,6 +787,13 @@ class StoredLog:
                     pass
                 continue
 
+            # TODO last pasted -> resume dev convenience
+            # self.log(f'pasted: {json.dumps({
+            #     "subject": subject,
+            #     "method": method,
+            #     "content": content,
+            # })}')
+
             yield t, rest
 
         sess = session_parser.session()
