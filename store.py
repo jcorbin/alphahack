@@ -228,6 +228,13 @@ class StoredLog:
         return self.__class__.log_file
 
     def finalize(self, ui: PromptUI):
+        if self.stored and self.ephemeral:
+            return self.cont_rep(ui).restart(
+                ui,
+                mess='^^^ finalizing after last (stored) session',
+                log_file=f'{self.init_log_file}.fin',
+                then=self.finalize)
+
         if not self.fin_result():
             return self.prompt_result(ui, 'final' if self.have_result() else '')
 
