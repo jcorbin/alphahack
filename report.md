@@ -1,27 +1,41 @@
-# 2025-09-13
+# 2025-09-14
 
-- 🔗 spaceword.org 🧩 2025-09-12 🏁 score 2173 ranked 8.6% 34/397 ⏱️ 11:07:21.318954
-- 🔗 alfagok.diginaut.net 🧩 #315 🥳 15 ⏱️ 0:01:45.101661
-- 🔗 alphaguess.com 🧩 #781 🥳 16 ⏱️ 0:02:57.103300
-- 🔗 squareword.org 🧩 #1321 🥳 9 ⏱️ 0:07:47.317332
-- 🔗 dictionary.com hurdle 🧩 #1351 😦 23 ⏱️ 0:04:58.057336
-- 🔗 dontwordle.com 🧩 #1208 🥳 6 ⏱️ 0:06:55.321033
-- 🔗 cemantle.certitudes.org 🧩 #1258 🥳 376 ⏱️ 0:08:27.043420
-- 🔗 cemantix.certitudes.org 🧩 #1291 🥳 840 ⏱️ 0:57:41.845363
+- 🔗 spaceword.org 🧩 2025-09-13 🏁 score 2173 ranked 8.2% 32/391 ⏱️ 4:54:12.403223
+- 🔗 alfagok.diginaut.net 🧩 #316 🥳 22 ⏱️ 0:03:16.297266
+- 🔗 alphaguess.com 🧩 #782 🥳 11 ⏱️ 0:02:44.677435
+- 🔗 squareword.org 🧩 #1322 🥳 7 ⏱️ 0:09:45.328358
+- 🔗 dictionary.com hurdle 🧩 #1352 🥳 19 ⏱️ 0:19:27.508632
+- 🔗 dontwordle.com 🧩 #1209 🥳 6 ⏱️ 0:12:26.241902
+- 🔗 cemantix.certitudes.org 🧩 #1292 🥳 169 ⏱️ 0:03:17.693601
+- 🔗 cemantle.certitudes.org 🧩 #1259 🥳 233 ⏱️ 0:09:23.850265
 
 # Dev
 
 ## WIP
 
-- [rc] missing puzzle id from hurdle and dontwordle should now be fixed
+- [rc] ui clipboard tweaks
+- [rc] reuse semantic retry around chat iteration
+  - [ ] TODO generalize the retry facility
 
-- [testing] share conversion is scuffed wrt "dictionary.com hurdle 🧩" ;
-  needs to skip any number of tokens up to the puzzle
+- [testing] missing puzzle id from hurdle and dontwordle should now be fixed
+  - ... and follow on result handling improvement
+- [testing] clipboard attribution
+  - [ ] TODO replay last paste to ease dev sometimes
+- [testing] standard /store command
+- [testing] fin ephemeral stored log works now...
+  - [ ] ... but dumps back into continue state, rather than stop-ing back
+    out to the meta prompt
 
-- [dev reverted] fin on ephemeral stored log should cutover to a non-ephemeral log, whether
-  stored or working copy
+- [testing] standard /site command with osc-8 linking for /site
+  - [ ] hurdle also needs to squelch re-entrant link
+  - [ ] ... also every other solver
+
+- [dev] meta run / share / day works well enough
+  - blink shell mangles pasted emoji... any way to workaround this?
 
 ## TODO
+
+- binartic: prune `press <Return> to finish` prompt
 
 - better meta
   - [ ] store daily share(d) state
@@ -30,6 +44,29 @@
   - [ ] similarly, early play of next-day spaceword should work gracefully
 
 - square: finish questioning work
+
+- hurdle: spurious "next work" banner at end
+  ```
+  --- next word
+  🔺 -!> <STOP>
+  🔺 -> <SELF>
+  🔺 Search.display -> Search.finish
+  🔺 Search.finish -> StoredLog.finalize
+  🔺 StoredLog.finalize
+  Provide share result, then <EOF>
+  ```
+
+- semantic: final stats seems lightly off ; where's the party?
+  ```
+  Fin   $1 #234 compromise         100.00°C 🥳 1000‰
+      🥳   0
+      😱   0
+      🔥   5
+      🥵   6
+      😎  37
+      🥶 183
+      🧊   2
+  ```
 
 - space higher level automation:
   ```
@@ -73,200 +110,185 @@
 
   ```
 
-# spaceword.org 🧩 2025-09-12 🏁 score 2173 ranked 8.6% 34/397 ⏱️ 11:07:21.318954
 
-📜 10 sessions
+# spaceword.org 🧩 2025-09-13 🏁 score 2173 ranked 8.2% 32/391 ⏱️ 4:54:12.403223
+
+📜 5 sessions
 - tiles: 21/21
 - score: 2173 bonus: +73
-- rank: 34/397
+- rank: 32/391
 
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
-      _ H _ V _ J O _ B A   
-      _ I _ O P U N T I A   
-      _ S K E A N E _ _ L   
+      _ N _ _ _ H _ V E E   
+      _ E _ E X A M I N E   
+      _ B O N I T O S _ K   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
 
 
-# alfagok.diginaut.net 🧩 #315 🥳 15 ⏱️ 0:01:45.101661
+# alfagok.diginaut.net 🧩 #316 🥳 22 ⏱️ 0:03:16.297266
 
-🤔 15 attempts
+🤔 22 attempts
 📜 1 sessions
 
-    @        [     0] &-teken      
-    @+1      [     1] &-tekens     
-    @+2      [     2] -cijferig    
-    @+3      [     3] -e-mail      
-    @+24912  [ 24912] bad          q3  ? after
-    @+37366  [ 37366] bescherm     q4  ? after
-    @+43072  [ 43072] bij          q5  ? after
-    @+44589  [ 44589] binnen       q7  ? after
-    @+45522  [ 45522] bisschop     q8  ? after
-    @+45844  [ 45844] blad         q9  ? after
-    @+46152  [ 46152] blasfemeerde q12 ? after
-    @+46167  [ 46167] blauw        q14 ? it
-    @+46167  [ 46167] blauw        done. it
-    @+46305  [ 46305] bleek        q13 ? before
-    @+46458  [ 46458] blief        q6  ? before
-    @+49849  [ 49849] boks         q2  ? before
-    @+99759  [ 99759] ex           q1  ? before
-    @+199853 [199853] lijm         q0  ? before
+    @        [     0] &-teken   
+    @+1      [     1] &-tekens  
+    @+2      [     2] -cijferig 
+    @+3      [     3] -e-mail   
+    @+199853 [199853] lijm      q0  ? after
+    @+199853 [199853] lijm      q1  ? after
+    @+223815 [223815] molest    q4  ? after
+    @+235799 [235799] odium     q16 ? after
+    @+236507 [236507] oh        q20 ? after
+    @+236686 [236686] olie      q21 ? it
+    @+236686 [236686] olie      done. it
+    @+237211 [237211] om        q18 ? before
+    @+238829 [238829] on        q17 ? before
+    @+247771 [247771] op        q3  ? before
+    @+299778 [299778] schub     q2  ? before
 
-# alphaguess.com 🧩 #781 🥳 16 ⏱️ 0:02:57.103300
+# alphaguess.com 🧩 #782 🥳 11 ⏱️ 0:02:44.677435
 
-🤔 16 attempts
+🤔 11 attempts
 📜 1 sessions
 
-    @        [     0] aa         
-    @+1      [     1] aah        
-    @+2      [     2] aahed      
-    @+3      [     3] aahing     
-    @+98233  [ 98233] mach       q0  ? after
-    @+98233  [ 98233] mach       q1  ? after
-    @+98480  [ 98480] mae        q9  ? after
-    @+98511  [ 98511] mag        q11 ? after
-    @+98531  [ 98531] magi       q12 ? after
-    @+98534  [ 98534] magic      q15 ? it
-    @+98534  [ 98534] magic      done. it
-    @+98544  [ 98544] magister   q14 ? before
-    @+98556  [ 98556] magistrate q13 ? before
-    @+98586  [ 98586] magnet     q10 ? before
-    @+98741  [ 98741] mail       q8  ? before
-    @+99248  [ 99248] man        q7  ? before
-    @+101028 [101028] med        q6  ? before
-    @+104181 [104181] miri       q5  ? before
-    @+110138 [110138] need       q4  ? before
-    @+122118 [122118] par        q3  ? before
-    @+147338 [147338] rho        q2  ? before
+    @       [    0] aa         
+    @+1     [    1] aah        
+    @+2     [    2] aahed      
+    @+3     [    3] aahing     
+    @+47394 [47394] dis        q1  ? after
+    @+60097 [60097] face       q3  ? after
+    @+63253 [63253] flag       q5  ? after
+    @+64850 [64850] foment     q6  ? after
+    @+65649 [65649] format     q7  ? after
+    @+65838 [65838] foss       q9  ? after
+    @+65924 [65924] four       q10 ? it
+    @+65924 [65924] four       done. it
+    @+66046 [66046] fractional q8  ? before
+    @+66453 [66453] french     q4  ? before
+    @+72814 [72814] gremolata  q2  ? before
+    @+98233 [98233] mach       q0  ? before
 
-# squareword.org 🧩 #1321 🥳 9 ⏱️ 0:07:47.317332
+# squareword.org 🧩 #1322 🥳 7 ⏱️ 0:09:45.328358
 
-📜 2 sessions
+📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
-    🟨 🟩 🟩 🟩 🟨
-    🟨 🟩 🟩 🟨 🟨
-    🟨 🟩 🟨 🟩 🟨
-    🟩 🟩 🟨 🟩 🟩
+    🟨 🟨 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟨 🟨 🟨 🟨 🟨
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    P A S T S
-    S E T U P
-    A R E N A
-    L I N E D
-    M E T R E
+    M A N I C
+    A L O N E
+    D I V E R
+    A V E R T
+    M E L T S
 
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1352 🥳 19 ⏱️ 0:19:27.508632
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1351 😦 23 ⏱️ 0:04:58.057336
+📜 2 sessions
+💰 score: 9700
 
-📜 1 sessions
-💰 score: 4370
-
-    6/6
-    HEARS ⬜⬜⬜⬜⬜
-    LUPIN ⬜⬜⬜🟨🟨
-    MINGY ⬜🟩🟩⬜🟩
-    ZINKY ⬜🟩🟩⬜🟩
-    WINDY ⬜🟩🟩⬜🟩
-    NINNY 🟩🟩🟩🟩🟩
-    6/6
-    NINNY ⬜⬜⬜⬜🟩
-    LEARY ⬜⬜⬜🟨🟩
-    RUSHY 🟨🟩⬜⬜🟩
-    TURFY ⬜🟩🟩⬜🟩
-    GURDY ⬜🟩🟩⬜🟩
-    CURVY 🟩🟩🟩🟩🟩
-    4/6
-    CURVY ⬜🟨🟨⬜⬜
-    ROUST 🟨🟨🟨⬜⬜
-    AMOUR ⬜⬜🟩🟩🟨
-    GROUP 🟩🟩🟩🟩🟩
     5/6
-    GROUP ⬜⬜🟩⬜⬜
-    STOLE 🟨⬜🟩⬜🟩
-    WHOSE ⬜⬜🟩🟩🟩
-    NOOSE ⬜🟩🟩🟩🟩
-    MOOSE 🟩🟩🟩🟩🟩
-    Final 2/2
-    TOWER ⬜🟩⬜🟩🟩
-    JOKER ⬜🟩⬜🟩🟩
-    FAIL: HOMER
+    LASER 🟩⬜⬜🟩⬜
+    TILDE ⬜🟩🟨⬜🟨
+    LIKEN 🟩🟩⬜🟩🟩
+    LIVEN 🟩🟩⬜🟩🟩
+    LINEN 🟩🟩🟩🟩🟩
+    5/6
+    LINEN ⬜⬜⬜⬜⬜
+    STORM 🟩🟩⬜🟨⬜
+    STRAW 🟩🟩🟩🟩⬜
+    STRAP 🟩🟩🟩🟩⬜
+    STRAY 🟩🟩🟩🟩🟩
+    3/6
+    STRAY ⬜⬜🟨⬜🟨
+    CYDER ⬜🟨⬜🟨🟨
+    RHYME 🟩🟩🟩🟩🟩
+    5/6
+    RHYME ⬜⬜⬜⬜⬜
+    SATIN ⬜🟨⬜🟨🟨
+    ACING 🟩⬜🟩🟩🟩
+    AGING 🟩⬜🟩🟩🟩
+    AXING 🟩🟩🟩🟩🟩
+    Final 1/2
+    EERIE 🟩🟩🟩🟩🟩
 
-# dontwordle.com 🧩 #1208 🥳 6 ⏱️ 0:06:55.321033
+# dontwordle.com 🧩 #1209 🥳 6 ⏱️ 0:12:26.241902
 
-📜 3 sessions
-💰 score: 40
+📜 2 sessions
+💰 score: 9
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:JINNI n n n n n remain:7302
-    ⬜⬜⬜⬜⬜ tried:ADDAX n n n n n remain:3105
-    ⬜⬜⬜⬜⬜ tried:YUPPY n n n n n remain:1306
-    ⬜⬜⬜⬜⬜ tried:LEVEL n n n n n remain:303
-    ⬜🟨⬜⬜⬜ tried:BOFFO n m n n n remain:58
-    ⬜🟨🟩⬜⬜ tried:CROCK n m Y n n remain:5
+    ⬜⬜⬜⬜⬜ tried:GAMMA n n n n n remain:5731
+    ⬜⬜⬜⬜⬜ tried:BENNE n n n n n remain:1678
+    ⬜⬜⬜⬜⬜ tried:ICTIC n n n n n remain:501
+    ⬜⬜⬜⬜⬜ tried:DOODY n n n n n remain:68
+    ⬜🟩🟩⬜⬜ tried:FLUFF n Y Y n n remain:4
+    🟩🟩🟩⬜⬜ tried:SLUSH Y Y Y n n remain:1
 
-    Undos used: 2
+    Undos used: 3
 
-      5 words remaining
-    x 8 unused letters
-    = 40 total score
+      1 words remaining
+    x 9 unused letters
+    = 9 total score
 
-# cemantle.certitudes.org 🧩 #1258 🥳 376 ⏱️ 0:08:27.043420
+# cemantix.certitudes.org 🧩 #1292 🥳 169 ⏱️ 0:03:17.693601
 
-🤔 377 attempts
+🤔 170 attempts
+📜 2 sessions
+🫧 4 chat sessions
+⁉️ 27 chat prompts
+🤖 27 gemma3:12b replies
+🥵  2 😎 17 🥶 83 🧊 67
+
+      $1 #170   ~1 record           100.00°C 🥳 1000‰
+      $2  #29  ~19 chiffre           32.48°C 🥵  975‰
+      $3 #153   ~4 dernier           28.00°C 🥵  935‰
+      $4 #109   ~9 score             25.13°C 😎  874‰
+      $5 #159   ~3 succès            24.44°C 😎  857‰
+      $6  #57  ~17 progression       24.38°C 😎  856‰
+      $7  #76  ~11 vitesse           23.79°C 😎  837‰
+      $8  #63  ~13 croissance        21.64°C 😎  757‰
+      $9 #100  ~10 performance       21.25°C 😎  735‰
+     $10  #22  ~20 compteur          21.24°C 😎  733‰
+     $11 #116   ~7 compétition       20.76°C 😎  701‰
+     $12  #58  ~16 augmentation      19.58°C 😎  621‰
+     $21 #113      ascension         14.95°C 🥶
+    $104 #128      position          -0.04°C 🧊
+
+# cemantle.certitudes.org 🧩 #1259 🥳 233 ⏱️ 0:09:23.850265
+
+🤔 234 attempts
 📜 1 sessions
-🫧 16 chat sessions
-⁉️ 96 chat prompts
-🤖 4 llama3.2:latest replies
-🤖 92 gemma3:12b replies
-😱   1 🔥   6 🥵  23 😎  59 🥶 285 🧊   2
+🫧 10 chat sessions
+⁉️ 63 chat prompts
+🤖 63 gemma3:12b replies
+🔥   5 🥵   6 😎  37 🥶 183 🧊   2
 
-      $1 #377   ~1 afraid           100.00°C 🥳 1000‰
-      $2 #236  ~53 scared            79.47°C 😱  999‰
-      $3 #194  ~64 fearful           69.92°C 🔥  998‰
-      $4 #247  ~45 worried           64.94°C 🔥  997‰
-      $5 #238  ~51 frightened        64.76°C 🔥  996‰
-      $6 #114  ~87 hesitant          62.42°C 🔥  995‰
-      $7 #240  ~49 terrified         61.77°C 🔥  994‰
-      $8 #126  ~82 reluctant         58.76°C 🔥  993‰
-      $9 #231  ~56 intimidated       53.19°C 🥵  986‰
-     $10 #115  ~86 apprehensive      52.68°C 🥵  982‰
-     $11 #158  ~71 wary              51.80°C 🥵  979‰
-     $32 #127  ~81 skittish          39.75°C 😎  892‰
-     $91 #337      unprotected       27.14°C 🥶
-    $376 #121      introductory      -3.84°C 🧊
-
-# cemantix.certitudes.org 🧩 #1291 🥳 840 ⏱️ 0:57:41.845363
-
-🤔 841 attempts
-📜 1 sessions
-🫧 41 chat sessions
-⁉️ 252 chat prompts
-🤖 149 llama3.2:latest replies
-🤖 103 gemma3:12b replies
-😱   1 🔥   4 🥵  25 😎  82 🥶 648 🧊  80
-
-      $1 #841   ~1 bilatéral            100.00°C 🥳 1000‰
-      $2 #689  ~21 multilatéral          62.88°C 😱  999‰
-      $3 #115 ~104 coopération           61.15°C 🔥  998‰
-      $4 #190  ~79 négociation           43.23°C 🔥  993‰
-      $5 #545  ~40 diplomatique          41.16°C 🔥  991‰
-      $6 #253  ~67 échange               41.12°C 🔥  990‰
-      $7 #181  ~81 renforcement          40.32°C 🥵  987‰
-      $8 #837   ~3 intergouvernemental   40.08°C 🥵  986‰
-      $9 #127 ~100 partenariat           40.03°C 🥵  985‰
-     $10 #609  ~36 international         39.99°C 🥵  984‰
-     $11  #98 ~110 accord                39.82°C 🥵  983‰
-     $32 #125 ~101 harmonisation         31.05°C 😎  896‰
-    $114 #776      conflit               22.50°C 🥶
-    $762 #648      convenant             -0.23°C 🧊
+      $1 #234   ~1 compromise         100.00°C 🥳 1000‰
+      $2 #232   ~3 accord              51.63°C 🔥  998‰
+      $3 #180  ~18 impasse             50.45°C 🔥  997‰
+      $4 #231   ~4 agreement           46.33°C 🔥  994‰
+      $5 #230   ~5 negotiation         45.47°C 🔥  992‰
+      $6 #194  ~14 stalemate           44.86°C 🔥  991‰
+      $7 #233   ~2 bargaining          40.25°C 🥵  973‰
+      $8  #23  ~44 disagreement        38.84°C 🥵  963‰
+      $9  #50  ~34 wrangling           38.55°C 🥵  961‰
+     $10 #182  ~17 deadlock            37.96°C 🥵  957‰
+     $11 #185  ~16 gridlock            33.32°C 🥵  903‰
+     $12  #63  ~28 acrimony            33.22°C 😎  899‰
+     $50 #211      restraint           22.00°C 🥶
+    $233 #151      tirade              -0.24°C 🧊
