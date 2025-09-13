@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import argparse
-import json
 import re
 from collections.abc import Generator, Iterable, Sequence
 from dataclasses import dataclass
@@ -96,9 +95,13 @@ class DontWord(StoredLog):
         self.result_text = ''
 
     @override
+    def have_result(self):
+        return self.result is not None
+
+    @override
     def set_result_text(self, txt: str):
         del self.result
-        self.result_text = txt
+        super().set_result_text(txt)
         self.result = Result.parse(txt)
 
     @override
@@ -465,27 +468,6 @@ class DontWord(StoredLog):
     def finish(self, ui: PromptUI):
         self.check_fail_text(ui)
         return self.finalize
-
-    @override
-    def have_result(self):
-        return self.result is not None
-
-    @override
-    def proc_result(self, ui: PromptUI, text: str):
-        del self.result
-        self.result_text = text
-        res = self.result
-        if not res: return
-
-        if not res.puzzle_id:
-            del self.result
-            return
-
-        puzzle_id = f'#{res.puzzle_id}'
-        self.puzzle_id = puzzle_id
-        if self.puzzle_id != puzzle_id:
-            ui.log(f'puzzle_id: {self.puzzle_id}')
-        ui.log(f'result: {json.dumps(text)}')
 
     @override
     def review(self, ui: PromptUI):

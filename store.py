@@ -266,8 +266,20 @@ class StoredLog:
     def have_result(self) -> bool:
         raise NotImplementedError('abstract result processing')
 
-    def proc_result(self, _ui: PromptUI, _text: str) -> None:
-        raise NotImplementedError('abstract result processing')
+    def cmd_result(self, ui: PromptUI):
+        '''
+        record share result from site
+        '''
+        ui.print('Provide share result:')
+        try:
+            self.proc_result(ui, ui.may_paste())
+        except ValueError as err:
+            ui.print(f'! {err}')
+
+    def proc_result(self, ui: PromptUI, text: str) -> None:
+        self.set_result_text(text)
+        if self.have_result():
+            ui.log(f'result: {json.dumps(text)}')
 
     def fin_result(self) -> bool:
         return self.have_result()

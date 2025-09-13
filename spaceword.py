@@ -1047,6 +1047,7 @@ class SpaceWord(StoredLog):
         self.play = PromptUI.Prompt(self.prompt_mess, {
             '/site': self.cmd_site_link,
             '/store': self.cmd_store,
+            '/result': self.cmd_result,
 
             '/at': self.cmd_at,
             '/bad': self.cmd_bad,
@@ -1058,7 +1059,6 @@ class SpaceWord(StoredLog):
             '/letters': self.cmd_letters,
             '/priors': self.cmd_priors,
             '/rejects': self.cmd_rejects,
-            '/result': self.cmd_result,
             '/search': self.cmd_search,
             '/shift': self.cmd_shift,
             '/write': self.cmd_write,
@@ -1117,6 +1117,13 @@ class SpaceWord(StoredLog):
         return self.result is not None
 
     @override
+    def proc_result(self, ui: PromptUI, text: str):
+        super().proc_result(ui, text)
+        res = self.result
+        if res and res.score == self.board.score:
+            self.best = self.board.copy()
+
+    @override
     def fin_result(self):
         res = self.result
         return res is not None and res.final
@@ -1127,14 +1134,6 @@ class SpaceWord(StoredLog):
         if self.fin_result():
             return True
         return False
-
-    @override
-    def proc_result(self, ui: PromptUI, text: str):
-        self.set_result_text(text)
-        ui.log(f'result: {json.dumps(self.result_text)}')
-        res = self.result
-        if res and res.score == self.board.score:
-            self.best = self.board.copy()
 
     @property
     @override
@@ -1666,16 +1665,6 @@ class SpaceWord(StoredLog):
                 else:
                     for line in board.show_grid(head=f'[ Reject {want_sid} {n} ]', foot=None):
                         ui.print(line)
-
-    def cmd_result(self, ui: PromptUI):
-        '''
-        record share result from site
-        '''
-        ui.print('Provide share result:')
-        try:
-            self.proc_result(ui, ui.may_paste())
-        except ValueError as err:
-            ui.print(f'! {err}')
 
     def cmd_search(self, ui: PromptUI):
         '''

@@ -303,6 +303,17 @@ class Search(StoredLog):
         self.result_text = ''
 
     @override
+    def have_result(self):
+        return self.result is not None
+
+    @override
+    def proc_result(self, ui: PromptUI, text: str) -> None:
+        super().proc_result(ui, text)
+        if self.result:
+            for k, v in self.result.log_items():
+                ui.log(f'result {k}: {v}')
+
+    @override
     def set_result_text(self, txt: str):
         del self.result
         super().set_result_text(txt)
@@ -705,19 +716,6 @@ class Search(StoredLog):
 
     def finish(self, _ui: PromptUI) -> PromptUI.State|None:
         return self.finalize
-
-    @override
-    def have_result(self):
-        return self.result is not None
-
-    @override
-    def proc_result(self, ui: PromptUI, text: str) -> None:
-        self.set_result_text(text)
-        res = self.result
-        if not res: return
-        ui.log(f'share result: {json.dumps(text)}')
-        for k, v in res.log_items():
-            ui.log(f'result {k}: {v}')
 
     @property
     @override
