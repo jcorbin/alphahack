@@ -374,6 +374,7 @@ class StoredLog:
 
     @deprecated('use .review_prompt directly')
     def review(self, ui: PromptUI) -> PromptUI.State|None:
+        # TODO maybe finish like square
         return self.review_prompt(ui)
 
     @deprecated('use .review_prompt.handle directly')
