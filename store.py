@@ -500,7 +500,16 @@ class StoredLog:
                     ui.print(mess)
 
             self.stl.load_log(ui, log_file)
-            return then
+            if not self.stl.ephemeral:
+                return then
+
+            try:
+                with self.stl.log_to(ui):
+                    ui.call_state(then)
+            except CutoverLogError as cutover:
+                return cutover.resolve(self.stl, ui, self.stl)
+            except EOFError:
+                return
 
     def load(self, ui: PromptUI, lines: Iterable[str]) -> Generator[tuple[float, str]]:
         rez = zlib.compressobj()
