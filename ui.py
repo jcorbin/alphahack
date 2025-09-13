@@ -45,6 +45,7 @@ class Clipboard(Protocol):
     def can_paste(self) -> bool: return False
     def copy(self, mess: str) -> None: pass
     def paste(self) -> str: return ''
+    def paste_how(self) -> tuple[str, str]: return self.name, ''
 
 @final
 class NullClipboard:
@@ -55,6 +56,7 @@ class NullClipboard:
     def can_paste(self): return False
     def copy(self, mess: str): _ = mess
     def paste(self): return ''
+    def paste_how(self): return self.name, self.paste()
 
 term_osc = '\033]'
 term_st = '\033\\'
@@ -80,6 +82,8 @@ class OSC52Clipboard:
         # TODO implement
         return ''
 
+    def paste_how(self): return self.name, self.paste()
+
 DefaultClipboard = NullClipboard()
 
 # TODO snip the pyperclip dep, just implement command dispatchers and/or an osc52 fallback provider
@@ -102,6 +106,7 @@ if pyperclip and  pyperclip.is_available():
         def can_paste(self): return True
         def copy(self, mess: str): pyp_copy(mess)
         def paste(self): return pyp_paste()
+        def paste_how(self): return self.name, self.paste()
 
     DefaultClipboard = Pyperclip()
 
@@ -784,7 +789,6 @@ class PromptUI:
         return '\n'.join(self.paste_lines())
 
     def may_paste(self, tokens: Tokens|None = None, subject: str = 'content'):
-        # TODO support one-shot paste replay: Callable[[subject: str], tuple[method: str, content: str]]
         def howdo(tokens: Tokens|None = None):
             if not self.clip.can_paste():
                 return 'read:must:stdin', self.paste_read(subject)
@@ -792,9 +796,8 @@ class PromptUI:
                 tokens = self.input('Press <Enter> to 📋 {subject} or `>` to enter directly')
             with tokens:
                 if tokens.empty:
-                    return (
-                        f'clipboard:{self.clip.name}',
-                        self.clip.paste())
+                    how, content = self.clip.paste_how()
+                    return f'clipboard:{how}', content
                 elif tokens.have('>$'):
                     return 'read:user:stdin', self.paste_read(subject)
                 else:
