@@ -413,6 +413,10 @@ class StoredLog:
         return self.__class__.log_file
 
     def finalize(self, ui: PromptUI):
+        # TODO mostly obsoletes branches below `not self.stored` like the
+        #      dirty branch, since there's (no easy?) path to a actively
+        #      iterating on a stored session
+        # if self.ephemeral:
         if self.stored and self.ephemeral:
             return self.cont_rep(ui).restart(
                 ui,
@@ -426,6 +430,8 @@ class StoredLog:
         if not self.stored:
             return self.store
 
+        # TODO zombie branch; not provably dead, but in practice we don't
+        #      open stored log for appending
         if self.dirty:
             with git_txn(f'{self.site_name or self.store_name} {self.puzzle_id} result', ui=ui) as txn:
                 txn.add(self.log_file)
