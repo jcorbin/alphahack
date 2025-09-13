@@ -718,7 +718,7 @@ class PromptUI:
             if tokens.empty: return self.paste()
             if not tokens.have('>$'):
                 return ''
-        return self.paste_read()
+        return self.paste_read(subject)
 
     def log(self, mess: str):
         self._log_time.update(self.time.now)
