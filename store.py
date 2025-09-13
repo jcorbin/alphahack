@@ -657,6 +657,13 @@ class StoredLog:
                     pass
                 continue
 
+            # TODO last pasted -> resume dev convenience
+            # self.log(f'pasted: {json.dumps({
+            #     "subject": subject,
+            #     "method": method,
+            #     "content": content,
+            # })}')
+
             yield t, rest
 
         if prior_then is not None and cur_t is not None:
