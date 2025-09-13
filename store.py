@@ -764,13 +764,6 @@ class StoredLog:
                     pass
                 continue
 
-            # TODO last pasted -> resume dev convenience
-            # self.log(f'pasted: {json.dumps({
-            #     "subject": subject,
-            #     "method": method,
-            #     "content": content,
-            # })}')
-
             yield t, rest
 
         sess = session_parser.session()
@@ -806,7 +799,16 @@ class StoredLog:
             self.__init__()
         if log_file and os.path.exists(log_file):
             with open(log_file, 'r') as f:
-                for _ in self.load(ui, f): pass
+                for _ in self.load(ui, f):
+
+                    # TODO last pasted -> resume dev convenience
+                    # self.log(f'pasted: {json.dumps({
+                    #     "subject": subject,
+                    #     "method": method,
+                    #     "content": content,
+                    # })}')
+
+                    pass
         self.loaded = True
         self.log_file = log_file
 
