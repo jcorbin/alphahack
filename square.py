@@ -627,13 +627,6 @@ class Search(StoredLog):
         return self.result is not None
 
     @override
-    def proc_result(self, ui: PromptUI, text: str):
-        self.result_text = text
-        del self.result
-        if self.have_result():
-            ui.log(f'result: {json.dumps(text)}')
-
-    @override
     def review(self, ui: PromptUI):
         # TODO common store result fixup routine
         if not self.result:
