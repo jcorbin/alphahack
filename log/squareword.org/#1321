@@ -1,0 +1,133 @@
+T180.12059602793306 now: 2025-09-13T11:56:15UTC
+TD40 site: squareword.org
+TDD-8 wordlist: nwl2023.txt
+TDD4184320  ...
+TDD-715181 🧩  ? #1321
+TDD-3469003 puzzle_id: #1321
+TDD746372 > *
+TDD1506904 try? 2
+TDD-2253268 questioning: ["laser", "#5"]
+TDD5094093 #1 _____  📋 "laser" ? _AS__ ~ S
+TDD-5093871 attempt 0 LASER n Y Y n n
+TDD3659416 #2 _____  📋 "laser" ? _____ ~ SE
+TDD-3659641 attempt 1 LASER n n m m n
+TDD2907608 #3 _____  📋 "laser" ? _____ ~ AER
+TDD-2907620 attempt 2 LASER n m n m m
+TDD3275597 #4 _____  📋 "laser" ? L__E_
+TDD-3275595 attempt 3 LASER Y n n Y n
+TDD2547927 #5 _____  📋 "laser" ? _____ ~ ER
+TDD-2547915 attempt 4 LASER n n n m m
+TDD1807241 ? 
+TDD-1807302 question done
+TDD69200374 > *
+TDD-54754268 try? 2
+TDD-14446043 questioning: ["liked", "#4"]
+TDD13765043 #1 _AS__ -ELR  📋 "liked" ? _AS__ ~ S
+TDD-13765066 attempt 0 LIKED n n n n n
+TDD2707705 #2 _____ ~ES -ALR  📋 "liked" ? .
+TDD-2707706 attempt 1 LIKED n n n m n
+TDD1003375 #3 _____ ~AER -LS  📋 "liked" ? .
+TDD-1003393 attempt 2 LIKED n n n m n
+TDD1675688 #4 L__E_ -ARS  📋 "liked" ? LI_ED
+TDD-1675682 attempt 3 LIKED Y Y n Y Y
+TDD707929 #5 _____ ~ER -ALS  📋 "liked" ? 
+TDD4931900 #5 _____ ~ER -ALS  ? .
+TDD-5639818 attempt 4 LIKED n n n m n
+TDD939561 ? 
+TDD-939615 question done
+TDD7986175 > * 1
+TDD-6394194 try? 1
+TDD-1591913 questioning: ["nasty", "#1"]
+TDD12425735 #1 _AS__ -DEIKLR  📋 "nasty" ? _AST_ ~ S
+TDD-12425741 attempt 0 NASTY n Y Y Y n
+TDD5875681 #2 _____ ~ES -ADIKLR  📋 "nasty" ? _____ ~ SET
+TDD-5875677 attempt 1 NASTY n n m m n
+TDD4315533 #3 _____ ~AER -DIKLS  📋 "nasty" ? _____ ~ AERN
+TDD-4315541 attempt 2 NASTY m m n n n
+TDD3235994 #4 LI_ED -AKRS  📋 "nasty" ? LI_ED ~ N
+TDD-3235976 attempt 3 NASTY m n n n n
+TDD4439181 #5 _____ ~ER -ADIKLS  📋 "nasty" ? _____ ~ ERT
+TDD-4439222 attempt 4 NASTY n n n m n
+TDD2379854 ? 
+TDD-2379881 question done
+TDD6303880 > * 3
+TDD-4291536 try? 2
+TDD-2012282 questioning: ["crane", "#3"]
+TDD7634209 #1 _AST_ -DEIKLNRY  📋 "crane" ? _AST_ ~ S
+TDD-7634225 attempt 0 CRANE n n n n n
+TDD1258247 #2 _____ ~EST -ADIKLNRY  📋 "crane" ? .
+TDD-1258257 attempt 1 CRANE n n n n m
+TDD3407863 #3 _____ ~AENR -DIKLSTY  📋 "crane" ? _R_N_ ~ AE
+TDD-3407842 attempt 2 CRANE n Y m Y m
+TDD5781981 #4 LI_ED ~N -AKRSTY  📋 "crane" ? .
+TDD-5781987 attempt 3 CRANE n n n m n
+TDD4243955 #5 _____ ~ERT -ADIKLNSY  📋 "crane" ? ____E ~ ERT
+TDD-4243936 attempt 4 CRANE n m n n Y
+TDD587928 ? 
+TDD-587994 question done
+TDD3887331 > * 5
+TDD-3583339 questioning: ["metre", "#5"]
+TDD8699735 #1 _AST_ -ACDEIKLNRY  📋 "metre" ? _AST_ ~ S
+TDD-9003659 attempt 0 METRE n n n n n
+TDD2231819 #2 _____ ~EST -ACDIKLNRY  📋 "metre" ? _ET__ ~ S
+TDD-2231841 attempt 1 METRE n Y Y n n
+TDD3179513 #3 _R_N_ ~AE -CDIKLSTY  📋 "metre" ? .
+TDD-3179538 attempt 2 METRE n m n n m
+TDD1387753 #4 LI_ED ~N -ACEKRSTY  📋 "metre" ? .
+TDD-1387751 attempt 3 METRE n n n n n
+TDD855787 #5 ____E ~RT -ACDIKLNSY  📋 "metre" ? /it
+TDD-855788 attempt 4 METRE Y Y Y Y Y
+TDD1271701 ? 
+TDD-1271745 question done
+TDD7722187 > * 2
+TDD-7348548 questioning: ["setup", "#2"]
+TDD7489753 #1 _AST_ -ACDEIKLMNRTY  📋 "setup" ? _AST_ ~ SP
+TDD-7863320 attempt 0 SETUP m n n n m
+TDD1171386 #2 _ET__ ~S -ACDIKLMNRY  📋 "setup" ? /it
+TDD-1171412 attempt 1 SETUP Y Y Y Y Y
+TDD1539834 #3 _R_N_ ~AE -CDIKLMRSTY  📋 "setup" ? .
+TDD-1539831 attempt 2 SETUP n m n n n
+TDD1330226 #4 LI_ED ~N -ACEKMRSTY  📋 "setup" ? .
+TDD-1330229 attempt 3 SETUP n n n n n
+TDD209152 ? 
+TDD-209194 question done
+TDD1200192 > *
+TDD125612 questioning: ["pasts", "#1"]
+TDD2418624 #1 _AST_ ~P -ACDEIKLMNRTUY  📋 "pasts" ? /it
+TDD-3744346 attempt 0 PASTS Y Y Y Y Y
+TDD1738480 #3 _R_N_ ~AE -CDIKLMPRSTUY  📋 "pasts" ? .
+TDD-1738512 attempt 2 PASTS n m n n n
+TDD632767 #4 LI_ED ~N -ACEKMPRSTUY  📋 "pasts" ? .
+TDD-632784 attempt 3 PASTS n n n n n
+TDD188901 ? 
+TDD-188930 question done
+TDD674551 > *
+TDD428186 questioning: ["arena", "#3"]
+TDD2318448 #3 _R_N_ ~AE -CDIKLMPRSTUY  📋 "arena" ? /it
+TDD-3421148 attempt 2 ARENA Y Y Y Y Y
+TDD1338477 #4 LI_ED ~N -ACEKMPRSTUY  📋 "arena" ? .
+TDD-1338482 attempt 3 ARENA n n n m n
+TDD466719 ? 
+TDD-466759 question done
+TDD778043 > *
+TDD101455 questioning: ["lined", "#4"]
+TDD4001060 #4 LI_ED ~N -ACEKMPRSTUY  📋 "lined" ? /it
+TDD-4880497 attempt 3 LINED Y Y Y Y Y
+TDD935486 ? 
+TDD-935548 question done
+T0.004301799461245537 now: 2025-09-13T13:45:52UTC
+TD1172582  ...
+TDD4225310 📋> squareword.org 1321: 9 guesses
+TDD-5397799 📋> 
+TDD-69 📋> 🟨🟩🟩🟩🟨
+TDD-5 📋> 🟨🟩🟩🟨🟨
+TDD-1 📋> 🟨🟩🟨🟩🟨
+TDD0 📋> 🟩🟩🟨🟩🟩
+TDD2 📋> 🟩🟩🟩🟩🟩
+TDD11 📋> 
+TDD-11 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD419162 📋> #squareword #squareword1321
+TDD-7127 📋> ␚
+TDD-411971 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1321: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1321"}
+TDD344 result: "squareword.org 1321: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1321"
+TDD623074 📆 2025-09-13 ? 
