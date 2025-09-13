@@ -504,6 +504,8 @@ class Search(StoredLog):
             raise StopIteration
         ui.print(f'searching {self.remain} words')
 
+        self.cmd_site_link(ui)
+
         return self.prompt
 
     @property

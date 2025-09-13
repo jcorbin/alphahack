@@ -143,6 +143,8 @@ class Search(StoredLog):
             self.given_wordlist = True
             ui.log(f'wordlist: {self.wordlist_file}')
 
+        self.cmd_site_link(ui)
+
         if not self.puzzle_id:
             self.do_puzzle(ui)
             if not self.puzzle_id: return

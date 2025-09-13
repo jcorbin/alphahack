@@ -991,6 +991,9 @@ class Search(StoredLog):
 
             ui.print(f'WARNING: incomplete temp scale ; use /scale to inspect and fix')
 
+        if not self.auto_score:
+            self.cmd_site_link(ui)
+
         return self.orient
 
     @override

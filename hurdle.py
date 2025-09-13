@@ -154,6 +154,8 @@ class Search(StoredLog):
             self.given_wordlist = True
             ui.log(f'wordlist: {self.wordlist_file}')
 
+        self.cmd_site_link(ui)
+
         return self.display
 
     @property

@@ -1289,6 +1289,8 @@ class SpaceWord(StoredLog):
             self.given_wordlist = True
             ui.log(f'wordlist: {self.wordlist_file}')
 
+        self.cmd_site_link(ui)
+
         if not self.puzzle_id:
             with ui.input(f'🧩 {self.puzzle_id} ? ') as tokens:
                 match = re.match(r'''(?x)
