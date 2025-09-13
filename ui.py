@@ -63,14 +63,10 @@ if pyperclip and  pyperclip.is_available():
 
     @final
     class Pyperclip:
-        def can_copy(self) -> bool: return True
-        def can_paste(self) -> bool: return True
-
-        def copy(self, mess: str):
-            pyp_copy(mess)
-
-        def paste(self) -> str:
-            return pyp_paste()
+        def can_copy(self): return True
+        def can_paste(self): return True
+        def copy(self, mess: str): pyp_copy(mess)
+        def paste(self): return pyp_paste()
 
     DefaultClipboard = Pyperclip()
 
