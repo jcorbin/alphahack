@@ -732,6 +732,9 @@ class StoredLog:
         if not self.ephemeral:
             if log_file is not None and log_file != self.log_file:
                 raise RuntimeError(f'already logging to {self.log_file} want {log_file}')
+            with ui.trace_entry('redundant store.log_to') as ent:
+                how = 'implicit' if log_file is None else 'explicit'
+                ent.write(f'to {self.log_file!r} {how}')
             yield
             return
 
@@ -750,6 +753,9 @@ class StoredLog:
                         now = datetime.datetime.now(tzlocal())
                         self.log_start = now
                         ui.log(f'now: {now:{self.dt_fmt}}')
+                        with ui.trace_entry('starting ui log') as ent:
+                            how = 'implicit' if log_file is None else 'explicit'
+                            ent.write(f'to {self.log_file!r} {how}')
                         yield self, ui
         finally:
             self.ephemeral = True
