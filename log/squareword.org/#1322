@@ -1,0 +1,101 @@
+T9.858623734675348 now: 2025-09-14T12:37:33UTC
+TD56 site: squareword.org
+TDD-2 wordlist: nwl2023.txt
+TDD156336519  ...
+TDD-154279740 🧩  ? #1322
+TDD-2056639 puzzle_id: #1322
+TDD4047658 > *
+TDD7286503 try? 2
+TDD-11334122 questioning: ["spare", "#5"]
+TDD27562965 #1 _____  📋 "spare" ? _____ ~ A
+TDD-27562777 attempt 0 SPARE n n m n n
+TDD4434324 #2 _____  📋 "spare" ? ____E ~ A
+TDD-4434543 attempt 1 SPARE n n m n Y
+TDD4011541 #3 _____  📋 "spare" ? _____ ~ RE
+TDD-4011556 attempt 2 SPARE n n n m m
+TDD5075922 #4 _____  📋 "spare" ? ___R_ ~ AE
+TDD-5075918 attempt 3 SPARE n n m Y m
+TDD4566790 #5 _____  📋 "spare" ? _____ ~ SE
+TDD-4566830 attempt 4 SPARE m n n n m
+TDD1271809 ? ␚
+TDD-1271831 question done
+TDD114004161 > *
+TDD-111488375 try? 1
+TDD-2515712 questioning: ["avert", "#4"]
+TDD7083956 #1 _____ ~A -EPRS  📋 "avert" ? .
+TDD-7083945 attempt 0 AVERT m n n n n
+TDD4580568 #2 ____E ~A -PRS  📋 "avert" ? A___E 
+TDD-4580612 attempt 1 AVERT Y n n n n
+TDD3845316 #3 _____ ~ER -APS  📋 "avert" ? _____ ~ REV
+TDD-3845318 attempt 2 AVERT n m m m n
+TDD2067837 #4 ___R_ ~AE -PS  📋 "avert" ? /it
+TDD-2067785 attempt 3 AVERT Y Y Y Y Y
+TDD37080234 #5 _____ ~ES -APR  📋 "avert" ? _____ ~ SET
+TDD-37080299 attempt 4 AVERT n n m n m
+TDD2055526 ? 
+TDD-2055525 question done
+TDD35075770 > *
+TDD-31508137 try? 3
+TDD-3567580 questioning: ["ankle", "#2"]
+TDD9701305 #1 _____ ~A -EPRSTV  📋 "ankle" ? _____ ~ AN
+TDD-9701343 attempt 0 ANKLE m m n n n
+TDD8055086 #2 A___E -EPRSTV  📋 "ankle" ? A___E ~ NL
+TDD-8055084 attempt 1 ANKLE Y m n m Y
+TDD4522198 #3 _____ ~ERV -APST  📋 "ankle" ? .
+TDD-4522168 attempt 2 ANKLE n n n n m
+TDD3196867 #5 _____ ~EST -APRV  📋 "ankle" ? _____ ~ SETL
+TDD-3196893 attempt 4 ANKLE n n n m m
+TDD2227872 ? 
+TDD-2227897 question done
+TDD842730 > *
+TDD1322153 try? 1
+TDD-2164834 questioning: ["alone", "#2"]
+TDD4634074 #1 _____ ~AN -EKLPRSTV  📋 "alone" ? .
+TDD-4634064 attempt 0 ALONE m n n m n
+TDD741444 #2 A___E ~LN -KPRSTV  📋 "alone" ? /it
+TDD-741445 attempt 1 ALONE Y Y Y Y Y
+TDD3060617 #3 _____ ~ERV -AKLNPST  📋 "alone" ? .
+TDD-3060602 attempt 2 ALONE n n n n m
+TDD2142958 #5 _____ ~ELST -AKNPRV  📋 "alone" ? .
+TDD-2142977 attempt 4 ALONE n m n n m
+TDD885196 ? 
+TDD-885270 question done
+TDD28222351 > *
+TDD-23120600 try? 1
+TDD-5101677 questioning: ["diver", "#3"]
+TDD6883607 #1 _____ ~AN -EKLOPRSTV  📋 "diver" ? _____ ~ ANI
+TDD-6883657 attempt 0 DIVER n m n n n
+TDD855801 #3 _____ ~ERV -AKLNOPST  📋 "diver" ? /it
+TDD-855753 attempt 2 DIVER Y Y Y Y Y
+TDD2864361 #5 _____ ~ELST -AKNOPRV  📋 "diver" ? .
+TDD-2864332 attempt 4 DIVER n n n m n
+TDD603354 ? 
+TDD-603455 question done
+TDD1399525 > *
+TDD51314 questioning: ["manic", "#1"]
+TDD5078060 #1 _____ ~AIN -DEKLOPRSTV  📋 "manic" ? /it
+TDD-6528825 attempt 0 MANIC Y Y Y Y Y
+TDD8795029 #5 _____ ~ELST -ADIKNOPRV  📋 "manic" ? m____ ~ SETL
+TDD-8795064 attempt 4 MANIC Y n n n n
+TDD959717 ? 
+TDD-959752 question done
+TDD1271906 > *
+TDD-373389 questioning: ["melts", "#5"]
+TDD3410736 #5 M____ ~ELST -ACDIKNOPRV  📋 "melts" ? /it
+TDD-4309181 attempt 4 MELTS Y Y Y Y Y
+TDD1611223 ? 
+TDD-1611302 question done
+TDD25643480 📋> squareword.org 1322: 7 guesses
+TDD-25643532 📋> 
+TDD-52 📋> 🟨🟨🟨🟨🟨
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD715881 📋> #squareword #squareword1322
+TDD-263709 📋> ␚
+TDD-452111 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1322: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1322"}
+TDD359 result: "squareword.org 1322: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1322"
+TDD2134752 📆 2025-09-14 ? 
