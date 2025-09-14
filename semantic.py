@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
 import argparse
-import random
-import time
 import bs4
 import datetime
 import httpx
@@ -28,18 +26,6 @@ from strkit import matchgen, spliterate, wraplines, MarkedSpec
 from ui import PromptUI
 
 _ = load_dotenv()
-
-def retry_backoffs(
-    retries: int,
-    backoff: float = 1.0,
-    backoff_max: float = 12.0,
-):
-    yield 0, 0
-    retry = 0
-    while retries == 0 or retry < retries:
-        retry += 1
-        delay = min(backoff_max, backoff * math.pow(2, retry-1))
-        yield retry, delay * (0.5 + random.random())
 
 def weighted(score: float, w: int|float):
     if w == 0: return 0
@@ -1503,30 +1489,6 @@ class Search(StoredLog):
             origin = f'https://{origin}'
         return origin.rstrip('/')
 
-    def retries(self,
-                ui: PromptUI,
-                what: str,
-                verbose: int = 0,
-                retries: int = 3,
-                backoff: float = 1.0,
-                backoff_max: float = 12.0,
-                ):
-        for retry, delay in retry_backoffs(retries, backoff, backoff_max):
-            if delay > 0:
-                ui.print(f'* backing off {datetime.timedelta(seconds=delay)}...')
-                t1 = ui.time.now
-                try:
-                    time.sleep(delay)
-                except KeyboardInterrupt:
-                    t2 = ui.time.now
-                    td = datetime.timedelta(seconds=t2 - t1)
-                    ui.print(f'... backoff sleep interrupted after {td}, retrying')
-            if verbose > 1:
-                ui.print(f'* {what} attempt {retry}')
-            elif verbose > 0 and retry > 0:
-                ui.print(f'* {what} retry {retry}')
-            yield retry
-
     def request(self,
         ui: PromptUI,
         method: str,
@@ -1582,13 +1544,13 @@ class Search(StoredLog):
         prior_cookies = set(self.http_client.cookies.iterkeys())
 
         res, err = None, None
-        for _retry in self.retries(ui,
-                                   f'http {str(cast(object, req.method))} {str(cast(object, req.url))}',
-                                   verbose=verbose,
-                                   retries=retries,
-                                   backoff=backoff,
-                                   backoff_max=backoff_max,
-                                   ):
+        for _retry in ui.retries(
+            f'http {str(cast(object, req.method))} {str(cast(object, req.url))}',
+            verbose=verbose,
+            retries=retries,
+            backoff=backoff,
+            backoff_max=backoff_max,
+        ):
             try_req = self.http_client.prepare_request(req)
 
             data = cast(object, req.data)
@@ -2974,7 +2936,7 @@ class Search(StoredLog):
         if self.last_chat_tup != ('user', prompt):
             self.chat_append(ui, {'role': 'user', 'content': prompt})
 
-        for _retry in self.retries(ui, 'ollama chat', retries=0):
+        for _retry in ui.retries('ollama chat', retries=0):
             parts: list[str] = []
             try:
                 for resp in self.llm_client.chat(model=self.llm_model, messages=self.chat, stream=True):

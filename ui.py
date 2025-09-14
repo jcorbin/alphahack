@@ -1,5 +1,7 @@
+import datetime
 import math
 import os
+import random
 import re
 import subprocess
 import time
@@ -14,6 +16,18 @@ from types import TracebackType
 from typing import Callable, Literal, Protocol, TextIO, cast, final, override, runtime_checkable
 
 from strkit import block_lines, matcherate, PeekStr
+
+def retry_backoffs(
+    retries: int,
+    backoff: float = 1.0,
+    backoff_max: float = 12.0,
+):
+    yield 0, 0
+    retry = 0
+    while retries == 0 or retry < retries:
+        retry += 1
+        delay = min(backoff_max, backoff * math.pow(2, retry-1))
+        yield retry, delay * (0.5 + random.random())
 
 @runtime_checkable
 class Itemsable[K, V](Protocol):
@@ -1003,3 +1017,26 @@ class PromptUI:
             if len(self.items) == 1:
                 return self.then(self.items[0])
             return self.prompt(ui)
+
+    def retries(self,
+                what: str,
+                verbose: int = 0,
+                retries: int = 3,
+                backoff: float = 1.0,
+                backoff_max: float = 12.0,
+                ):
+        for retry, delay in retry_backoffs(retries, backoff, backoff_max):
+            if delay > 0:
+                self.print(f'* backing off {datetime.timedelta(seconds=delay)}...')
+                t1 = self.time.now
+                try:
+                    time.sleep(delay)
+                except KeyboardInterrupt:
+                    t2 = self.time.now
+                    td = datetime.timedelta(seconds=t2 - t1)
+                    self.print(f'... backoff sleep interrupted after {td}, retrying')
+            if verbose > 1:
+                self.print(f'* {what} attempt {retry}')
+            elif verbose > 0 and retry > 0:
+                self.print(f'* {what} retry {retry}')
+            yield retry
