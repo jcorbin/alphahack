@@ -899,33 +899,84 @@ class PromptUI:
                 return repr(err)
 
         def __init__(self, st: State):
+            self.mark: str = '🔺'
             self.state = st
 
+        @final
+        class Entry:
+            def __init__(self, ui: 'PromptUI', mark: str):
+                self.ui = ui
+                self.mark = mark
+                # TODO integrate or merge with PromptUI.last
+                self.last: Literal['space','mess'] = 'space'
+
+            @staticmethod
+            def describe(st: State|None) -> str:
+                return PromptUI.Traced.describe(st)
+
+            def __enter__(self):
+                self.ui.fin()
+                return self
+
+            def __exit__(
+                self,
+                type_: type[BaseException] | None,
+                value: BaseException | None,
+                traceback: TracebackType | None,
+            ) -> bool:
+                self.ui.fin()
+                return False
+
+            # NOTE this wants to be a subset of the PromptUI surface,
+            # particularly, the output printing / formatting sub-surface
+
+            def fin(self):
+                if self.ui.last in ('prompt', 'write'):
+                    self.ui.write(f'\n{self.mark} ')
+                else:
+                    self.ui.write(f'{self.mark} ')
+                    self.ui.last = 'write'
+                self.last = 'space'
+
+            def write(self, mess: str):
+                while mess:
+                    if self.ui.last != 'write':
+                        self.ui.write(f'{self.mark} ')
+                        self.last = 'space'
+
+                    head, sep, mess = mess.partition('\n')
+                    pre = '' if self.last == 'space' else ' '
+                    self.ui.write(f'{pre}{head}{sep}')
+                    self.last = 'space' if sep or head.rstrip() != head else 'mess'
+
+        @contextmanager
+        def entry(self, ui: 'PromptUI', mess: str):
+            with self.Entry(ui, self.mark) as ent:
+                ent.write(mess)
+                yield ent
+
         def __call__(self, ui: 'PromptUI') -> None:
-            ui.fin()
-            ui.write(f'! {self.describe(self.state)} ')
+            with self.entry(ui, f'{self.describe(self.state)}') as ent:
+                try:
+                    nxt = self.state(ui)
 
-            try:
-                nxt = self.state(ui)
+                except Next as n:
+                    ent.write(f'-!>')
 
-            except Next as n:
-                nxt = n.resolve(ui)
-                ui.write(f'-!> {self.describe(nxt)} ')
-                if n.input is not None:
-                    ui.write(f'w/ {n.input!r}')
+                    nxt = n.resolve(ui)
+                    ent.write(f'{self.describe(nxt)}')
+                    if n.input is not None:
+                        ent.write(f'w/ {n.input!r}')
 
-            except Exception as err:
-                ui.write(f'-!> {self.explain(err)} ')
-                raise
+                except Exception as err:
+                    ent.write(f'-!> {self.explain(err)}')
+                    raise
 
-            else:
-                ui.write(f'-> {self.describe(nxt)}')
+                else:
+                    ent.write(f'-> {self.describe(nxt)}')
 
-            finally:
-                ui.fin()
-
-            if nxt is not None:
-                self.state = nxt
+                if nxt is not None:
+                    self.state = nxt
 
     def interact(self, state: State):
         try:
