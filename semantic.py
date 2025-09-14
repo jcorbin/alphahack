@@ -2365,16 +2365,17 @@ class Search(StoredLog):
             for k, n in refs
         ]
         expect = sum(basis) / len(basis)
-        may_gen = lcp.count
-        score = weighted(expect, may_gen)
+        if not math.isnan(expect):
+            may_gen = lcp.count
+            score = weighted(expect, may_gen)
 
-        def explain_expand():
-            yield f'score = expect ** 1/may_gen'
-            yield f'expect = {expect:.2f} = {fmt_avg(basis)}'
-            yield f'may_gen = {lcp.count}'
+            def explain_expand():
+                yield f'score = expect ** 1/may_gen'
+                yield f'expect = {expect:.2f} = {fmt_avg(basis)}'
+                yield f'may_gen = {lcp.count}'
 
-        gen_refs = ' '.join(f'{k}{n}' for k, n in refs)
-        yield score, f'* {gen_refs} !new // 🔭 {desc}', explain_expand
+            gen_refs = ' '.join(f'{k}{n}' for k, n in refs)
+            yield score, f'* {gen_refs} !new // 🔭 {desc}', explain_expand
 
     def ref_word(self, ui: PromptUI, match: re.Match[str]):
         refs = list(word_match_refs(match))
@@ -2897,7 +2898,10 @@ class Search(StoredLog):
         if self.found: return self.finish
 
     def word_ref_score(self, k: WordRef, n: int):
-        i, _, qword = self.word_iref(k, n)
+        try:
+            i, _, qword = self.word_iref(k, n)
+        except IndexError:
+            return '', math.nan
         return qword, self.score[i]
 
     def word_iref(self, k: WordRef, n: int):
