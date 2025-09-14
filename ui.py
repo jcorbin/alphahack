@@ -693,22 +693,28 @@ class PromptUI:
         self.zlog = zlib.compressobj()
 
         self.traced = False
+        self.tracer: PromptUI.Traced|None = None
 
     @contextmanager
     def maybe_tracer(self, st: State):
         old_traced = self.traced
+        old_tracer = self.tracer
 
         try:
             if self.traced:
                 if not isinstance(st, PromptUI.Traced):
                     st = PromptUI.Traced(st)
+                if self.tracer is not st:
+                    self.tracer = st
             elif isinstance(st, PromptUI.Traced):
                 self.traced = True
+                self.tracer = st
 
             yield cast(PromptUI.State, st)
 
         finally:
             self.traced = old_traced
+            self.tracer = old_tracer
 
     @property
     def screen_lines(self):
@@ -949,6 +955,27 @@ class PromptUI:
                     self.ui.write(f'{pre}{head}{sep}')
                     self.last = 'space' if sep or head.rstrip() != head else 'mess'
 
+        @final
+        class NoopEntry:
+            @staticmethod
+            def describe(_st: State|None) -> str:
+                return ''
+
+            def __enter__(self):
+                return self
+
+            def __exit__(
+                self,
+                type_: type[BaseException] | None,
+                value: BaseException | None,
+                traceback: TracebackType | None,
+            ) -> bool:
+                return False
+
+            # NOTE noop output surface ... aka NullOutput
+            def fin(self): pass
+            def write(self, _mess: str): pass
+
         @contextmanager
         def entry(self, ui: 'PromptUI', mess: str):
             with self.Entry(ui, self.mark) as ent:
@@ -977,6 +1004,14 @@ class PromptUI:
 
                 if nxt is not None:
                     self.state = nxt
+
+    @contextmanager
+    def trace_entry(self, mess: str):
+        if self.tracer:
+            with self.tracer.entry(self, mess) as ent:
+                yield ent
+        else:
+            yield PromptUI.Traced.NoopEntry()
 
     def interact(self, state: State):
         try:
