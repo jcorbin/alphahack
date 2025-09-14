@@ -712,7 +712,11 @@ class StoredLog:
     @contextmanager
     def log_to(self, ui: PromptUI, log_file: str|None=None):
         if not self.ephemeral:
-            raise RuntimeError('already logging')
+            if log_file is not None and log_file != self.log_file:
+                raise RuntimeError(f'already logging to {self.log_file} want {log_file}')
+            yield
+            return
+
         prior_log_file = self.log_file
         prior_log_start = self.log_start
         try:
