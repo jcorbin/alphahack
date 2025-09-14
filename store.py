@@ -514,7 +514,10 @@ class StoredLog:
                 with self.stl.log_to(ui):
                     ui.call_state(then)
             except CutoverLogError as cutover:
-                return cutover.resolve(self.stl, ui, self.stl)
+                with ui.trace_entry('restart <!- cutover') as ent:
+                    st = cutover.resolve(self.stl, ui, self.stl)
+                    ent.write(f'-> {PromptUI.describe(st)}')
+                    return st
             except EOFError:
                 return
 
@@ -694,7 +697,16 @@ class StoredLog:
         except CutoverLogError as cutover:
             if not self.ephemeral:
                 raise
-            return cutover.resolve(self, ui, then or PromptUI.then_eof)
+            with ui.trace_entry('call_state <!- cutover') as ent:
+                if not self.ephemeral:
+                    # TODO is it okay to loose then?
+                    ent.write(f'-!> not ephemeral yet, re-raise')
+                    if then is not None:
+                        ent.write(f'lost {PromptUI.describe(then)}')
+                    raise
+                st = cutover.resolve(self, ui, then or PromptUI.then_eof)
+                ent.write(f'-> {PromptUI.describe(st)}')
+                return st
 
     def interact(self, ui: PromptUI, st: PromptUI.State):
         while True:
@@ -862,10 +874,16 @@ class StoredLog:
         try:
             self.do_store(ui, date)
         except CutoverLogError as cutover:
-            cutover.next.append(self.do_report)
-            cutover.next.append(
+            then: list[PromptUI.State] = [
+                self.do_report,
                 PromptUI.then_eof if self.run_done
-                else self.review_do_cont)
+                else self.review_do_cont
+            ]
+            with ui.trace_entry('store <!- cutover') as ent:
+                for st in then:
+                    ent.fin()
+                    ent.write(f'  cutover.next.append({PromptUI.describe(st)})\n')
+                    cutover.next.append(st)
             raise
         self.do_report(ui)
 
@@ -1054,23 +1072,39 @@ class CutoverLogError(RuntimeError):
             self.next.append(nxt)
 
     def resolve(self, stored: StoredLog, ui: PromptUI, then: PromptUI.State):
-        if stored.log_file != self.log_file:
-            stored.set_log_file(ui, self.log_file)
-        if self.next:
-            self.next.append(then)
-            return self
-        else:
-            return then
+        with ui.trace_entry('cutover.resolve') as ent:
+            if stored.log_file != self.log_file:
+                ent.fin()
+                ent.write(f'  set_log_file {self.log_file}')
+                stored.set_log_file(ui, self.log_file)
+
+            if self.next:
+                ent.fin()
+                ent.write(f'  cutover.next.append({PromptUI.describe(then)})\n')
+                self.next.append(then)
+                return self
+
+            else:
+                ent.write(f'-> {PromptUI.describe(then)}')
+                return then
 
     def __call__(self, ui: PromptUI):
-        if not self.next:
-            raise StopIteration
-        nx = self.next.pop(0)
-        if not self.next:
-            return nx
-        mx = nx(ui)
-        if mx:
-            self.next.insert(0, mx)
+        with ui.trace_entry('cutover') as ent:
+            if not self.next:
+                ent.write('-> <STOP>')
+                raise StopIteration
+            nx = self.next.pop(0)
+            if not self.next:
+                ent.write(f'-> {PromptUI.describe(nx)}')
+                return nx
+            ent.write(f'( {PromptUI.describe(nx)}')
+            try:
+                mx = nx(ui)
+                if mx:
+                    ent.write(f'-> {PromptUI.describe(mx)}')
+                    self.next.insert(0, mx)
+            finally:
+                ent.write(f')')
 
 @final
 class git_txn:
