@@ -608,11 +608,16 @@ class Dispatcher:
                 continue
 
     def handle(self, ui: 'PromptUI'):
+        dis_tok = ui.tokens.peek('')
         st = self.dispatch(ui, dflt=None)
         if st is not None:
+            with ui.trace_entry(f'{dis_tok!r}') as ent:
+                ent.write(f'-> {PromptUI.describe(st)}')
             self.re = 0
             return st(ui)
         else:
+            with ui.trace_entry(f'{dis_tok!r}') as ent:
+                ent.write(f'-> <HELP>')
             self.re += 1
             if self.re > 1:
                 self.show_help_list(ui)
