@@ -1,41 +1,152 @@
-# 2025-09-14
+# 2025-09-15
 
-- 🔗 spaceword.org 🧩 2025-09-13 🏁 score 2173 ranked 8.2% 32/391 ⏱️ 4:54:12.403223
-- 🔗 alfagok.diginaut.net 🧩 #316 🥳 22 ⏱️ 0:03:16.297266
-- 🔗 alphaguess.com 🧩 #782 🥳 11 ⏱️ 0:02:44.677435
-- 🔗 squareword.org 🧩 #1322 🥳 7 ⏱️ 0:09:45.328358
-- 🔗 dictionary.com hurdle 🧩 #1352 🥳 19 ⏱️ 0:19:27.508632
-- 🔗 dontwordle.com 🧩 #1209 🥳 6 ⏱️ 0:12:26.241902
-- 🔗 cemantix.certitudes.org 🧩 #1292 🥳 169 ⏱️ 0:03:17.693601
-- 🔗 cemantle.certitudes.org 🧩 #1259 🥳 233 ⏱️ 0:09:23.850265
+- 🔗 spaceword.org 🧩 2025-09-14 🏁 score 2168 ranked 25.5% 102/400 ⏱️ 1:10:32.564710
+- 🔗 alfagok.diginaut.net 🧩 #317 🥳 16 ⏱️ 0:01:03.394499
+- 🔗 alphaguess.com 🧩 #783 🥳 14 ⏱️ 0:28:42.967004
+- 🔗 squareword.org 🧩 #1323 🥳 6 ⏱️ 0:03:43.818870
+- 🔗 dictionary.com hurdle 🧩 #1353 🥳 20 ⏱️ 0:13:40.746626
+- 🔗 dontwordle.com 🧩 #1210 🥳 6 ⏱️ 0:06:47.054223
+- 🔗 cemantle.certitudes.org 🧩 #1260 🥳 14 ⏱️ 0:07:38.181246
+- 🔗 cemantix.certitudes.org 🧩 #1293 🥳 165 ⏱️ 0:10:14.375642
 
 # Dev
 
 ## WIP
 
-- [rc] ui clipboard tweaks
-- [rc] reuse semantic retry around chat iteration
-  - [ ] TODO generalize the retry facility
-
-- [testing] missing puzzle id from hurdle and dontwordle should now be fixed
+- [rc] missing puzzle id from hurdle and dontwordle should now be fixed
   - ... and follow on result handling improvement
-- [testing] clipboard attribution
-  - [ ] TODO replay last paste to ease dev sometimes
-- [testing] standard /store command
+- [rc] generalized { semantic => ui }.retry ; reuse for chat iteration
+- [rc] clipboard attribution
+- [rc] tracer evolution
+- [rc] more comprehensive tracing
+  - dispatcher token handling
+  - ui log opening
+
 - [testing] fin ephemeral stored log works now...
   - [ ] ... but dumps back into continue state, rather than stop-ing back
     out to the meta prompt
-
+- [testing] standard /store command
 - [testing] standard /site command with osc-8 linking for /site
-  - [ ] hurdle also needs to squelch re-entrant link
-  - [ ] ... also every other solver
+- [testing] dynamic trace on/off used by meta
 
 - [dev] meta run / share / day works well enough
   - blink shell mangles pasted emoji... any way to workaround this?
 
+- [dev] binartic: pruned `press <Return> to finish` prompt
+
 ## TODO
 
-- binartic: prune `press <Return> to finish` prompt
+- BUG another space `fin -> should <STOP> but keeps going`
+  ```
+  📋> 🔺 -> StoredLog.finalize
+  🔺 StoredLog.finalize -> StoredLog.store
+  🔺 StoredLog.store
+  🔗 spaceword.org 🧩 2025-09-14 📆 2025-09-14
+  📁🪓 log/spaceword.org/2025-09-14
+  📁🔗 spaceword.log.fin -> log/spaceword.org/2025-09-14
+  📜➕ log/spaceword.org/2025-09-14
+  [dev 642c1ae4] spaceword.org day 2025-09-14
+   1 file changed, 14 insertions(+)
+  🗃️ spaceword.org day 2025-09-14
+  📁🪓 spaceword.log.fin
+  🔺 store <!- cutover .next.append(StoredLog.do_report) .next.append(StoredLog.review_do_cont)
+  🔺 -!> CutoverLogError('cutover to new log file')
+  🔺 restart <!- cutover -> cutover to new log file
+  🔺 -> cutover to new log file
+  🔺 cutover to new log file
+  📜➕ report.md
+  [dev 94d1f0d1] DAILY spaceword.org
+   1 file changed, 9 insertions(+), 9 deletions(-)
+  🔺 -> <AGAIN>
+  🔺 cutover to new log file
+  ```
+  - [dev] also make those cutover .next.append-s nicer
+  - [dev] also call-out the cutover next state loop better
+
+- fin then eof seems okay for now
+  ```
+  📋> 🔺 -> StoredLog.finalize
+  🔺 StoredLog.finalize -> StoredLog.store
+  🔺 StoredLog.store📆 2025-09-15 ?
+  🔗 squareword.org 🧩 #1323 📆 2025-09-15
+  📁🔗 squareword.log -> log/squareword.org/#1323
+  📜➕ log/squareword.org/#1323
+  [dev 0333965a] squareword.org day #1323
+   1 file changed, 94 insertions(+)
+   create mode 100644 log/squareword.org/#1323
+  🗃️ squareword.org day #1323
+  📁🪓 squareword.log
+  🔺 store <!- cutover
+  🔺   cutover.next.append(StoredLog.do_report)
+  🔺   cutover.next.append(PromptUI.then_eof)
+  🔺 -!> CutoverLogError('cutover to log/squareword.org/#1323')
+  🔺 -!> CutoverLogError('cutover to log/squareword.org/#1323')
+  🔺 -!> CutoverLogError('cutover to log/squareword.org/#1323')
+  🔺 -!> CutoverLogError('cutover to log/squareword.org/#1323')
+  🔺 -!> CutoverLogError('cutover to log/squareword.org/#1323')
+  🔺 -!> CutoverLogError('cutover to log/squareword.org/#1323')
+  🔺 -!> CutoverLogError('cutover to log/squareword.org/#1323')
+  🔺 call_state <!- cutover -> cutover to log/squareword.org/#1323
+  🔺 -> cutover to log/squareword.org/#1323
+  🔺 cutover to log/squareword.org/#1323
+  🔺 cutover ( StoredLog.do_report
+  📜➕ report.md
+  [dev 1208758d] DAILY squareword.org
+   1 file changed, 22 insertions(+)
+  🔺 )
+  🔺 -> <AGAIN>
+  🔺 cutover to log/squareword.org/#1323
+  🔺 cutover ( PromptUI.then_eof )
+  🔺 -!> <EOF>
+   <EOF>
+  🔺 -> <AGAIN>
+  🔺 <__main__.Meta object at 0x7f8ef5006cf0>
+  ```
+  - the `-!> CutoverLogError` stutter is actually a hint at lacking trace
+    instrumentation as it unrolls many nested `call_state` loops
+
+- long lines like these are hard to read; a line-breaking pretty formatter
+  would be nice:
+  ```
+  🔺 -> functools.partial(<function Search.do_round.<locals>.wrap at 0x7f8ef4e0f100>, st=<wordlish.Question object at 0x7f8ef4e52e90>)
+  🔺 functools.partial(<function Search.do_round.<locals>.wrap at 0x7f8ef4e0f100>, st=<wordlish.Question object at 0x7f8ef4e52e90>)#1 ____S ~E -ANT  📋 "elder" ? _L__S ~ ESD
+  ```
+
+- BUG infinite spin loop at tail of space store
+  ```
+  📁🪓 spaceword.log
+  🔺 -!> CutoverLogError('cutover to new log file')
+  
+  ^Cwhile loading 'num_letters: 21'
+   <INT>
+   <INT>
+  (alphaguess) ~/alphaguess dev 2231dff7 !?%
+  ```
+
+  stored log continues dirty:
+  ```
+   TDD2758166 [prior:2168]> /store
+  +TDD-2742579 num_letters: 21
+  +TDD114658 num_letters: 21
+  +TDD-131058 num_letters: 21
+  +TDD-9 num_letters: 21
+  +TDD-3 num_letters: 21
+  +TDD-1 num_letters: 21
+  +TDD0 num_letters: 21
+  +TDD0 num_letters: 21
+  +TDD0 num_letters: 21
+  +TDD0 num_letters: 21
+  +TDD0 num_letters: 21
+  +TDD0 num_letters: 21
+  +TDD0 num_letters: 21
+  +TDD0 num_letters: 21
+  +TDD0 num_letters: 21
+  +TDD0 num_letters: 21
+  +TDD0 num_letters: 21
+  +TDD0 num_letters: 21
+  +TDD0 num_letters: 21
+  +TDD0 num_letters: 21
+  ```
 
 - better meta
   - [ ] store daily share(d) state
@@ -45,7 +156,9 @@
 
 - square: finish questioning work
 
-- hurdle: spurious "next work" banner at end
+- replay last paste to ease dev sometimes
+
+- hurdle: spurious "next word" banner at end
   ```
   --- next word
   🔺 -!> <STOP>
@@ -66,6 +179,27 @@
       😎  37
       🥶 183
       🧊   2
+  ```
+
+- space: can loose the wordlist plot:
+  ```
+  *** Running solver space
+  🔺 <spaceword.SpaceWord object at 0x71b358e51350> -> <SELF>
+  🔺 <spaceword.SpaceWord object at 0x71b358e51350>
+  ! expired puzzle log started 2025-09-13T15:10:26UTC, but next puzzle expected at 2025-09-14T00:00:00EDT
+  🔺 -> <ui.Prompt object at 0x71b358e5a040>
+  🔺 <ui.Prompt object at 0x71b358e5a040>[f]inalize, [a]rchive, [r]emove, or [c]ontinue? rem
+  🔺 'rem' -> StoredLog.expired_do_remove
+  
+  // removed spaceword.log
+  🔺 -> <spaceword.SpaceWord object at 0x71b358e51350>
+  🔺 <spaceword.SpaceWord object at 0x71b358e51350> -> <SELF>
+  🔺 <spaceword.SpaceWord object at 0x71b358e51350> -> StoredLog.handle
+  🔺 StoredLog.handle
+  🔺 StoredLog.run
+  📜 spaceword.log with 0 prior sessions over 0:00:00
+  🔺 -> SpaceWord.startup
+  🔺 SpaceWord.startup📜 /usr/share/dict/words ?
   ```
 
 - space higher level automation:
@@ -111,28 +245,29 @@
   ```
 
 
-# spaceword.org 🧩 2025-09-13 🏁 score 2173 ranked 8.2% 32/391 ⏱️ 4:54:12.403223
 
-📜 5 sessions
+# spaceword.org 🧩 2025-09-14 🏁 score 2168 ranked 25.5% 102/400 ⏱️ 1:10:32.564710
+
+📜 6 sessions
 - tiles: 21/21
-- score: 2173 bonus: +73
-- rank: 32/391
+- score: 2168 bonus: +68
+- rank: 102/400
 
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ N _ _ _ H _ V E E   
-      _ E _ E X A M I N E   
-      _ B O N I T O S _ K   
+      _ Z _ _ _ J _ Q _ _   
+      _ O _ N I O B I C _   
+      _ O _ _ _ L A _ U _   
+      _ M I T I E R _ T _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
 
 
-# alfagok.diginaut.net 🧩 #316 🥳 22 ⏱️ 0:03:16.297266
+# alfagok.diginaut.net 🧩 #317 🥳 16 ⏱️ 0:01:03.394499
 
-🤔 22 attempts
+🤔 16 attempts
 📜 1 sessions
 
     @        [     0] &-teken   
@@ -140,155 +275,164 @@
     @+2      [     2] -cijferig 
     @+3      [     3] -e-mail   
     @+199853 [199853] lijm      q0  ? after
-    @+199853 [199853] lijm      q1  ? after
-    @+223815 [223815] molest    q4  ? after
-    @+235799 [235799] odium     q16 ? after
-    @+236507 [236507] oh        q20 ? after
-    @+236686 [236686] olie      q21 ? it
-    @+236686 [236686] olie      done. it
-    @+237211 [237211] om        q18 ? before
-    @+238829 [238829] on        q17 ? before
-    @+247771 [247771] op        q3  ? before
-    @+299778 [299778] schub     q2  ? before
+    @+223653 [223653] mol       q3  ? after
+    @+235712 [235712] octetten  q4  ? after
+    @+237211 [237211] om        q6  ? after
+    @+238020 [238020] ompalen   q7  ? after
+    @+238422 [238422] omtover   q8  ? after
+    @+238428 [238428] omtrek    q12 ? after
+    @+238439 [238439] omtrekt   q13 ? after
+    @+238443 [238443] omtrent   q15 ? it
+    @+238443 [238443] omtrent   done. it
+    @+238446 [238446] omtuind   q14 ? before
+    @+238453 [238453] omvaamt   q11 ? before
+    @+238483 [238483] omver     q10 ? before
+    @+238622 [238622] omwikkel  q9  ? before
+    @+238829 [238829] on        q5  ? before
+    @+247771 [247771] op        q2  ? before
+    @+299778 [299778] schub     q1  ? before
 
-# alphaguess.com 🧩 #782 🥳 11 ⏱️ 0:02:44.677435
+# alphaguess.com 🧩 #783 🥳 14 ⏱️ 0:28:42.967004
 
-🤔 11 attempts
+🤔 14 attempts
 📜 1 sessions
 
     @       [    0] aa         
     @+1     [    1] aah        
     @+2     [    2] aahed      
     @+3     [    3] aahing     
-    @+47394 [47394] dis        q1  ? after
-    @+60097 [60097] face       q3  ? after
-    @+63253 [63253] flag       q5  ? after
-    @+64850 [64850] foment     q6  ? after
-    @+65649 [65649] format     q7  ? after
-    @+65838 [65838] foss       q9  ? after
-    @+65924 [65924] four       q10 ? it
-    @+65924 [65924] four       done. it
-    @+66046 [66046] fractional q8  ? before
-    @+66453 [66453] french     q4  ? before
-    @+72814 [72814] gremolata  q2  ? before
-    @+98233 [98233] mach       q0  ? before
+    @+23694 [23694] camp       q2  ? after
+    @+35537 [35537] convention q3  ? after
+    @+38196 [38196] crazy      q5  ? after
+    @+38848 [38848] crop       q7  ? after
+    @+38872 [38872] cross      q9  ? after
+    @+38974 [38974] crostini   q11 ? after
+    @+38991 [38991] crouch     q13 ? it
+    @+38991 [38991] crouch     done. it
+    @+39013 [39013] crow       q12 ? before
+    @+39074 [39074] cru        q8  ? before
+    @+39514 [39514] cud        q6  ? before
+    @+40853 [40853] da         q4  ? before
+    @+47393 [47393] dis        q1  ? before
+    @+98232 [98232] mach       q0  ? before
 
-# squareword.org 🧩 #1322 🥳 7 ⏱️ 0:09:45.328358
+# squareword.org 🧩 #1323 🥳 6 ⏱️ 0:03:43.818870
 
 📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
-    🟨 🟨 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟨 🟨 🟨
+    🟨 🟨 🟩 🟩 🟨
+    🟩 🟩 🟩 🟩 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    M A N I C
-    A L O N E
-    D I V E R
-    A V E R T
-    M E L T S
+    S L E D S
+    T I B I A
+    A B B O T
+    R E E D Y
+    E L D E R
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1352 🥳 19 ⏱️ 0:19:27.508632
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1353 🥳 20 ⏱️ 0:13:40.746626
 
 📜 2 sessions
-💰 score: 9700
+💰 score: 9600
 
-    5/6
-    LASER 🟩⬜⬜🟩⬜
-    TILDE ⬜🟩🟨⬜🟨
-    LIKEN 🟩🟩⬜🟩🟩
-    LIVEN 🟩🟩⬜🟩🟩
-    LINEN 🟩🟩🟩🟩🟩
-    5/6
-    LINEN ⬜⬜⬜⬜⬜
-    STORM 🟩🟩⬜🟨⬜
-    STRAW 🟩🟩🟩🟩⬜
-    STRAP 🟩🟩🟩🟩⬜
-    STRAY 🟩🟩🟩🟩🟩
     3/6
-    STRAY ⬜⬜🟨⬜🟨
-    CYDER ⬜🟨⬜🟨🟨
-    RHYME 🟩🟩🟩🟩🟩
+    STOAE 🟩⬜⬜🟨🟩
+    SCARE 🟩⬜🟩⬜🟩
+    SHAKE 🟩🟩🟩🟩🟩
     5/6
-    RHYME ⬜⬜⬜⬜⬜
-    SATIN ⬜🟨⬜🟨🟨
-    ACING 🟩⬜🟩🟩🟩
-    AGING 🟩⬜🟩🟩🟩
-    AXING 🟩🟩🟩🟩🟩
+    SHAKE 🟨⬜⬜⬜⬜
+    TORSI ⬜🟩⬜🟨⬜
+    DOUMS ⬜🟩⬜🟩🟩
+    BOOMS ⬜🟩🟩🟩🟩
+    ZOOMS 🟩🟩🟩🟩🟩
+    5/6
+    ZOOMS ⬜⬜⬜⬜⬜
+    DEAIR ⬜⬜⬜🟨🟨
+    FRITH ⬜🟨🟨🟩🟩
+    BIRTH ⬜🟩🟩🟩🟩
+    GIRTH 🟩🟩🟩🟩🟩
+    6/6
+    GIRTH ⬜⬜🟨⬜⬜
+    DEARS 🟨🟨⬜🟨⬜
+    UREDO ⬜🟨🟨🟨🟨
+    ROWED 🟨🟨⬜🟩🟨
+    OLDER 🟩⬜🟩🟩🟩
+    ODDER 🟩🟩🟩🟩🟩
     Final 1/2
-    EERIE 🟩🟩🟩🟩🟩
+    ISSUE 🟩🟩🟩🟩🟩
 
-# dontwordle.com 🧩 #1209 🥳 6 ⏱️ 0:12:26.241902
+# dontwordle.com 🧩 #1210 🥳 6 ⏱️ 0:06:47.054223
 
-📜 2 sessions
-💰 score: 9
+📜 1 sessions
+💰 score: 8
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:GAMMA n n n n n remain:5731
-    ⬜⬜⬜⬜⬜ tried:BENNE n n n n n remain:1678
-    ⬜⬜⬜⬜⬜ tried:ICTIC n n n n n remain:501
-    ⬜⬜⬜⬜⬜ tried:DOODY n n n n n remain:68
-    ⬜🟩🟩⬜⬜ tried:FLUFF n Y Y n n remain:4
-    🟩🟩🟩⬜⬜ tried:SLUSH Y Y Y n n remain:1
+    ⬜⬜⬜⬜⬜ tried:REBBE n n n n n remain:4579
+    ⬜⬜⬜⬜⬜ tried:JUJUS n n n n n remain:1530
+    ⬜⬜⬜⬜⬜ tried:KININ n n n n n remain:481
+    ⬜⬜⬜⬜⬜ tried:PHPHT n n n n n remain:182
+    ⬜🟩⬜⬜⬜ tried:DOGGO n Y n n n remain:28
+    ⬜🟩⬜⬜🟨 tried:COMMA n Y n n m remain:1
 
     Undos used: 3
 
       1 words remaining
-    x 9 unused letters
-    = 9 total score
+    x 8 unused letters
+    = 8 total score
 
-# cemantix.certitudes.org 🧩 #1292 🥳 169 ⏱️ 0:03:17.693601
+# cemantle.certitudes.org 🧩 #1260 🥳 14 ⏱️ 0:07:38.181246
 
-🤔 170 attempts
-📜 2 sessions
-🫧 4 chat sessions
-⁉️ 27 chat prompts
-🤖 27 gemma3:12b replies
-🥵  2 😎 17 🥶 83 🧊 67
-
-      $1 #170   ~1 record           100.00°C 🥳 1000‰
-      $2  #29  ~19 chiffre           32.48°C 🥵  975‰
-      $3 #153   ~4 dernier           28.00°C 🥵  935‰
-      $4 #109   ~9 score             25.13°C 😎  874‰
-      $5 #159   ~3 succès            24.44°C 😎  857‰
-      $6  #57  ~17 progression       24.38°C 😎  856‰
-      $7  #76  ~11 vitesse           23.79°C 😎  837‰
-      $8  #63  ~13 croissance        21.64°C 😎  757‰
-      $9 #100  ~10 performance       21.25°C 😎  735‰
-     $10  #22  ~20 compteur          21.24°C 😎  733‰
-     $11 #116   ~7 compétition       20.76°C 😎  701‰
-     $12  #58  ~16 augmentation      19.58°C 😎  621‰
-     $21 #113      ascension         14.95°C 🥶
-    $104 #128      position          -0.04°C 🧊
-
-# cemantle.certitudes.org 🧩 #1259 🥳 233 ⏱️ 0:09:23.850265
-
-🤔 234 attempts
+🤔 15 attempts
 📜 1 sessions
-🫧 10 chat sessions
-⁉️ 63 chat prompts
-🤖 63 gemma3:12b replies
-🔥   5 🥵   6 😎  37 🥶 183 🧊   2
+🫧 2 chat sessions
+⁉️ 4 chat prompts
+🤖 4 gemma3:12b replies
+🔥 1 🥵 1 😎 1 🥶 8 🧊 3
 
-      $1 #234   ~1 compromise         100.00°C 🥳 1000‰
-      $2 #232   ~3 accord              51.63°C 🔥  998‰
-      $3 #180  ~18 impasse             50.45°C 🔥  997‰
-      $4 #231   ~4 agreement           46.33°C 🔥  994‰
-      $5 #230   ~5 negotiation         45.47°C 🔥  992‰
-      $6 #194  ~14 stalemate           44.86°C 🔥  991‰
-      $7 #233   ~2 bargaining          40.25°C 🥵  973‰
-      $8  #23  ~44 disagreement        38.84°C 🥵  963‰
-      $9  #50  ~34 wrangling           38.55°C 🥵  961‰
-     $10 #182  ~17 deadlock            37.96°C 🥵  957‰
-     $11 #185  ~16 gridlock            33.32°C 🥵  903‰
-     $12  #63  ~28 acrimony            33.22°C 😎  899‰
-     $50 #211      restraint           22.00°C 🥶
-    $233 #151      tirade              -0.24°C 🧊
+     $1 #15  ~1 arena       100.00°C 🥳 1000‰
+     $2 #14  ~2 stadium      60.31°C 😱  999‰
+     $3 #12  ~3 pavilion     40.65°C 🥵  988‰
+     $4  #3  ~4 gazebo       17.97°C 😎  205‰
+     $5 #13     canopy       13.80°C 🥶
+     $6  #8     synergy      10.01°C 🥶
+     $7  #2     azure         5.10°C 🥶
+     $8 #11     garden        4.66°C 🥶
+     $9 #10     xenophobia    4.51°C 🥶
+    $10  #6     pylon         4.33°C 🥶
+    $11  #5     oboe          2.96°C 🥶
+    $12  #7     quartz        0.90°C 🥶
+    $13  #4     melancholy   -0.48°C 🧊
+    $14  #9     velocity     -3.83°C 🧊
+
+# cemantix.certitudes.org 🧩 #1293 🥳 165 ⏱️ 0:10:14.375642
+
+🤔 166 attempts
+📜 1 sessions
+🫧 6 chat sessions
+⁉️ 33 chat prompts
+🤖 33 gemma3:12b replies
+😱  1 🔥  2 🥵 14 😎 48 🥶 88 🧊 12
+
+      $1 #166   ~1 espérance        100.00°C 🥳 1000‰
+      $2 #108  ~29 espoir            61.70°C 😱  999‰
+      $3  #87  ~40 foi               49.19°C 🔥  998‰
+      $4  #29  ~63 joie              43.62°C 🔥  990‰
+      $5 #115  ~26 consolation       40.70°C 🥵  982‰
+      $6  #50  ~56 bonheur           40.57°C 🥵  981‰
+      $7  #40  ~59 promesse          40.02°C 🥵  978‰
+      $8 #112  ~27 communion         39.34°C 🥵  972‰
+      $9 #162   ~4 optimisme         39.21°C 🥵  970‰
+     $10  #83  ~42 certitude         38.80°C 🥵  968‰
+     $11  #57  ~54 éternel           37.57°C 🥵  961‰
+     $19  #88  ~39 générosité        33.18°C 😎  886‰
+     $67  #26      déclin            21.92°C 🥶
+    $155   #3      chocolat          -0.91°C 🧊
