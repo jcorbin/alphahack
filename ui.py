@@ -172,7 +172,10 @@ State = Callable[['PromptUI'], 'State|None']
 
 @final
 class Next(BaseException):
-    def __init__(self, state: State|None=None, input: str|None=None):
+    def __init__(self,
+                 state: State|None=None,
+                 input: str|None=None,
+                 ):
         super().__init__()
         self.state = state
         self.input = input
@@ -680,7 +683,7 @@ class PromptUI:
         self.get_input = get_input
         self.sink = sink
         self.clip = clip
-        self.last: Literal['empty']|Literal['prompt']|Literal['print']|Literal['write']|Literal['remark'] = 'empty'
+        self.last: Literal['empty','prompt','print','write','remark'] = 'empty'
         self.zlog = zlib.compressobj()
 
         self.traced = False
@@ -848,6 +851,7 @@ class PromptUI:
             self.get_input = prior_get_input
 
     State = State
+
     Next = Next
 
     @final
@@ -856,7 +860,7 @@ class PromptUI:
         def describe(st: State|None) -> str:
             # TODO drop static binding, dedeup qual prefix w/ self.state
             if st is None:
-                return '<SELF>'
+                return '<AGAIN>'
             if isinstance(st, PromptUI.Traced):
                 st = st.state
             try:
@@ -900,9 +904,7 @@ class PromptUI:
                 raise
 
             else:
-                ui.write(
-                    f'-> {self.describe(nxt)} '
-                    if nxt is not None else '... ')
+                ui.write(f'-> {self.describe(nxt)}')
 
             finally:
                 ui.fin()
