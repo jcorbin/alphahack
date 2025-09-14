@@ -607,13 +607,15 @@ class Dispatcher:
             except (EOFError, StopIteration):
                 continue
 
-    def handle(self, ui: 'PromptUI'):
+    def handle(self, ui: 'PromptUI') -> 'PromptUI.State|None':
         dis_tok = ui.tokens.peek('')
         st = self.dispatch(ui, dflt=None)
         if st is not None:
             with ui.trace_entry(f'{dis_tok!r}') as ent:
                 ent.write(f'-> {PromptUI.describe(st)}')
             self.re = 0
+            if isinstance(st, PromptUI.Dispatcher) and ui.tokens:
+                return st.handle(ui)
             return st(ui)
         else:
             with ui.trace_entry(f'{dis_tok!r}') as ent:
