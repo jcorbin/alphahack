@@ -1,0 +1,43 @@
+T34.82316536270082 now: 2025-09-14T12:11:12UTC
+TD56 site: alphaguess.com
+TDD67972 loaded 196549 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (54 words excluded) asof ba05c7201cd72ab97d51c9dfcde26243f73fe7b3
+TDD68367157  ...
+TDD-64595532 [0 : 98233 : 196549] mach? b
+TDD-3839450 progress: -1 98233 mach
+TDD8251474 [0 : 47394 : 98233] dis? a
+TDD-8251569 progress: 1 47394 dis
+TDD2923941 [47395 : 72814 : 98233] gremolata? b
+TDD-2923961 progress: -1 72814 gremolata
+TDD2171516 [47395 : 60097 : 72814] face? a
+TDD-2171506 progress: 1 60097 face
+TDD1715878 [60098 : 66453 : 72814] french? b
+TDD-1715890 progress: -1 66453 french
+TDD2631571 [60098 : 63253 : 66453] flag? a
+TDD-2631570 progress: 1 63253 flag
+TDD17599351 [63254 : 64850 : 66453] foment? a
+TDD-17599349 progress: 1 64850 foment
+TDD1959765 [64851 : 65649 : 66453] format? a
+TDD-1959770 progress: 1 65649 format
+TDD1783894 [65650 : 66046 : 66453] fractional? b
+TDD-1783879 progress: -1 66046 fractional
+TDD2675778 [65650 : 65838 : 66046] foss? a
+TDD-2675779 progress: 1 65838 foss
+TDD3051910 [65839 : 65924 : 66046] four? it
+TDD-3051901 progress: 0 65924 four
+TDD-30 [65839 : 65924 : 66046] <Done>.
+TDD4368054 press <Return> to finish
+TDD34627 📋> 🧩 Puzzle #782
+TDD-4402663 📋> 
+TDD-70 📋> 🤔 11 guesses
+TDD-6 📋> 
+TDD0 📋> ⏱️ 46s
+TDD-1 📋> 
+TDD804817 📋> 🔗 alphaguess.com
+TDD35263 📋> ␚
+TDD-840025 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #782\n\n\ud83e\udd14 11 guesses\n\n\u23f1\ufe0f 46s\n\n\ud83d\udd17 alphaguess.com"}
+TDD199 share result: "\ud83e\udde9 Puzzle #782\n\n\ud83e\udd14 11 guesses\n\n\u23f1\ufe0f 46s\n\n\ud83d\udd17 alphaguess.com"
+TDD-256 result puzzle: 782
+TDD-6 result guesses: 11
+TDD-1 result time: 46s
+TDD0 result link: alphaguess.com
+TDD2327610 📆 2025-09-14 ? 
