@@ -182,10 +182,12 @@ class Next(BaseException):
     def __init__(self,
                  state: State|None=None,
                  input: str|None=None,
+                 set_tracing: bool|None = None,
                  ):
         super().__init__()
         self.state = state
         self.input = input
+        self.set_tracing: bool|None = set_tracing
 
     def resolve(self, ui: 'PromptUI'):
         nxt = self.state
@@ -720,6 +722,12 @@ class PromptUI:
 
             yield cast(PromptUI.State, st)
 
+        except Next as n:
+            if n.set_tracing is False:
+                old_traced = False
+                old_tracer = None
+            raise n
+
         finally:
             self.traced = old_traced
             self.tracer = old_tracer
@@ -897,6 +905,8 @@ class PromptUI:
     State = State
 
     Next = Next
+    Troff = Next(set_tracing=False)
+    Tron = Next(set_tracing=True)
 
     @final
     class Traced:
@@ -919,6 +929,28 @@ class PromptUI:
         def __init__(self, st: State):
             self.mark: str = '🔺'
             self.state = st
+
+        @classmethod
+        def MayTron(cls,
+                    ui: 'PromptUI',
+                    state: 'PromptUI.State',
+                    n: Next):
+            # NOTE this is essentially an `except Next` handler for
+            #      PromptUI to keep the Tracer aware parts collected
+            # NOTE the corresponding MayTroff handling is within
+            #      Tracer.__call__ / except Next
+            nxt = n.resolve(ui) or state
+            if (
+                n.set_tracing is True
+                and not isinstance(state, cls)
+            ):
+                self = cls(nxt)
+                ui.traced = True
+                ui.tracer = self
+                with self.entry(ui, '<TRON>') as ent:
+                    ent.write(f'-> {PromptUI.describe(nxt)}')
+                return self
+            return nxt
 
         @final
         class Entry:
@@ -995,7 +1027,7 @@ class PromptUI:
                 ent.write(mess)
                 yield ent
 
-        def __call__(self, ui: 'PromptUI') -> None:
+        def __call__(self, ui: 'PromptUI') -> 'PromptUI.State|None':
             with self.entry(ui, f'{PromptUI.describe(self.state)}') as ent:
                 try:
                     nxt = self.state(ui)
@@ -1003,10 +1035,23 @@ class PromptUI:
                 except Next as n:
                     ent.write(f'-!>')
 
+                    ret = False
+                    if n.set_tracing is False:
+                        ent.write(f'<TROFF> ->')
+                        ui.traced = False
+                        ui.tracer = None
+                        ret = True
+
                     nxt = n.resolve(ui)
+                    if ret and nxt is None:
+                        nxt = self.state
                     ent.write(f'{PromptUI.describe(nxt)}')
+
                     if n.input is not None:
                         ent.write(f'w/ {n.input!r}')
+
+                    if ret:
+                        return nxt
 
                 except Exception as err:
                     ent.write(f'-!> {self.explain(err)}')
@@ -1049,7 +1094,7 @@ class PromptUI:
                 try:
                     state = state(self) or state
                 except Next as n:
-                    state = n.resolve(self) or state
+                    state = PromptUI.Traced.MayTron(self, state, n)
 
     @staticmethod
     @contextmanager
