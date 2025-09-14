@@ -696,14 +696,19 @@ class PromptUI:
 
     @contextmanager
     def maybe_tracer(self, st: State):
-        if not self.traced and isinstance(st, PromptUI.Traced):
-            self.traced = True
-            try:
-                yield
-            finally:
-                self.traced = False
-        else:
-            yield
+        old_traced = self.traced
+
+        try:
+            if self.traced:
+                if not isinstance(st, PromptUI.Traced):
+                    st = PromptUI.Traced(st)
+            elif isinstance(st, PromptUI.Traced):
+                self.traced = True
+
+            yield cast(PromptUI.State, st)
+
+        finally:
+            self.traced = old_traced
 
     @property
     def screen_lines(self):
@@ -940,9 +945,7 @@ class PromptUI:
             raise
 
     def call_state(self, state: State):
-        if self.traced and not isinstance(state, PromptUI.Traced):
-            state = PromptUI.Traced(state)
-        with self.maybe_tracer(state):
+        with self.maybe_tracer(state) as state:
             while True:
                 try:
                     state = state(self) or state
