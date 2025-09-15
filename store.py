@@ -665,7 +665,7 @@ class StoredLog:
 
     def handle(self, ui: PromptUI):
         if not (self.run_done and self.have_result()):
-            return self.call_state(ui, self.run, self.handle)
+            return self.call_state(ui, self.run)
         return self.store
 
     def call_state(self,
