@@ -1019,7 +1019,7 @@ class StoredLog:
 @final
 class CutoverLogError(RuntimeError):
     def __init__(self, log_file: str, nxt: PromptUI.State|None=None):
-        super().__init__('cutover to new log file')
+        super().__init__(f'cutover to {log_file}')
         self.log_file = log_file
         self.next: list[PromptUI.State] = []
         if nxt:
