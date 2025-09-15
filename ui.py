@@ -7,6 +7,7 @@ import re
 import subprocess
 import time
 import traceback
+from warnings import deprecated
 import zlib
 from base64 import b64encode, b85encode
 from bisect import bisect
@@ -871,6 +872,21 @@ class PromptUI:
             self.clip = prior_clip
             self.get_input = prior_get_input
 
+    @staticmethod
+    def describe(st: State|None) -> str:
+        if st is None:
+            return '<AGAIN>'
+        if isinstance(st, PromptUI.Traced):
+            st = st.state
+        try:
+            fn = cast(object, getattr(st, '__func__', st))
+            nom = cast(object, getattr(fn, '__qualname__') or getattr(fn, '__name__'))
+            if isinstance(nom, str):
+                return nom
+        except AttributeError:
+            pass
+        return f'{st}'
+
     State = State
 
     Next = Next
@@ -878,20 +894,9 @@ class PromptUI:
     @final
     class Traced:
         @staticmethod
+        @deprecated('use PromptUI.describe')
         def describe(st: State|None) -> str:
-            # TODO drop static binding, dedeup qual prefix w/ self.state
-            if st is None:
-                return '<AGAIN>'
-            if isinstance(st, PromptUI.Traced):
-                st = st.state
-            try:
-                fn = cast(object, getattr(st, '__func__', st))
-                nom = cast(object, getattr(fn, '__qualname__') or getattr(fn, '__name__'))
-                if isinstance(nom, str):
-                    return nom
-            except AttributeError:
-                pass
-            return f'{st}'
+            return PromptUI.describe(st)
 
         @staticmethod
         def explain(err: Exception) -> str:
@@ -917,8 +922,9 @@ class PromptUI:
                 self.last: Literal['space','mess'] = 'space'
 
             @staticmethod
+            @deprecated('use PromptUI.describe')
             def describe(st: State|None) -> str:
-                return PromptUI.Traced.describe(st)
+                return PromptUI.describe(st)
 
             def __enter__(self):
                 self.ui.fin()
@@ -983,7 +989,7 @@ class PromptUI:
                 yield ent
 
         def __call__(self, ui: 'PromptUI') -> None:
-            with self.entry(ui, f'{self.describe(self.state)}') as ent:
+            with self.entry(ui, f'{PromptUI.describe(self.state)}') as ent:
                 try:
                     nxt = self.state(ui)
 
@@ -991,7 +997,7 @@ class PromptUI:
                     ent.write(f'-!>')
 
                     nxt = n.resolve(ui)
-                    ent.write(f'{self.describe(nxt)}')
+                    ent.write(f'{PromptUI.describe(nxt)}')
                     if n.input is not None:
                         ent.write(f'w/ {n.input!r}')
 
@@ -1000,7 +1006,7 @@ class PromptUI:
                     raise
 
                 else:
-                    ent.write(f'-> {self.describe(nxt)}')
+                    ent.write(f'-> {PromptUI.describe(nxt)}')
 
                 if nxt is not None:
                     self.state = nxt
