@@ -536,7 +536,6 @@ class Search(StoredLog):
             ui.log(f'[{self.lo} : {found} : {self.hi}] <Done>.')
             ui.print(f'found: {word}')
             ui.copy(word)
-            _ = ui.input('press <Return> to finish')
             return self.finish
 
         self.may_suggest = True
