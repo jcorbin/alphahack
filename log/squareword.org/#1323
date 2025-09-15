@@ -1,0 +1,94 @@
+T1.4949076818302274 now: 2025-09-15T11:54:32UTC
+TD70 site: squareword.org
+TDD-21 wordlist: nwl2023.txt
+TDD4384726  ...
+TDD-1500643 🧩  ? #1323
+TDD-2883954 puzzle_id: #1323
+TDD875506 > *
+TDD2316167 try? 1
+TDD-3191267 questioning: ["etnas", "#5"]
+TDD6770950 #1 _____  📋 "etnas" ? ____S ~ ES
+TDD-6771110 attempt 0 ETNAS m n n n Y
+TDD4262964 #2 _____  📋 "etnas" ? _____ ~ TA
+TDD-4263225 attempt 1 ETNAS n m n m n
+TDD19726037 #3 _____  📋 "etnas" ? _____ ~ TA
+TDD-19726013 attempt 2 ETNAS n m n m n
+TDD2890348 #4 _____  📋 "etnas" ? _____ ~ E
+TDD-2890360 attempt 3 ETNAS m n n n n
+TDD3370102 #5 _____  📋 "etnas" ? E____ ~ E
+TDD-3370120 attempt 4 ETNAS Y n n n n
+TDD5349422 ? 
+TDD-5349403 question done
+TDD2435891 > *
+TDD-21434 try? 1
+TDD-2414403 questioning: ["elder", "#5"]
+TDD7886445 #1 ____S ~E -ANT  📋 "elder" ? _L__S ~ ESD
+TDD-7886510 attempt 0 ELDER m Y m m n
+TDD76754279 #2 _____ ~AT -ENS  📋 "elder" ? .
+TDD-76754209 attempt 1 ELDER n n n n n
+TDD1693651 #3 _____ ~AT -ENS  📋 "elder" ? .
+TDD-1693663 attempt 2 ELDER n n n n n
+TDD2159777 #4 _____ ~E -ANST  📋 "elder" ? .
+TDD-2159756 attempt 3 ELDER m n n m n
+TDD1499239 #5 E____ -ANST  📋 "elder" ? /it
+TDD-1499258 attempt 4 ELDER Y Y Y Y Y
+TDD751838 ? 
+TDD-751910 question done
+TDD879335 > *
+TDD2452646 try? 2
+TDD-3331899 questioning: ["sleds", "#1"]
+TDD2787456 #1 _L__S ~DE -ANRT  📋 "sleds" ? /it
+TDD-2787456 attempt 0 SLEDS Y Y Y Y Y
+TDD2491330 #2 _____ ~AT -DELNRS  📋 "sleds" ? .
+TDD-2491295 attempt 1 SLEDS n n n n n
+TDD619554 #3 _____ ~AT -DELNRS  📋 "sleds" ? .
+TDD-619582 attempt 2 SLEDS n n n n n
+TDD3033346 #4 _____ ~E -ADLNRST  📋 "sleds" ? __ED_ ~ ER
+TDD-3033406 attempt 3 SLEDS n n Y Y n
+TDD719547 ? 
+TDD-719575 question done
+TDD955538 > *
+TDD-665123 questioning: ["abbot", "#3"]
+TDD13869480 #2 _____ ~AT -DELNRS  📋 "abbot" ? __B__ ~ TA
+TDD-14159888 attempt 1 ABBOT m n Y n m
+TDD1039660 #3 _____ ~AT -DELNRS  📋 "abbot" ? /it
+TDD-1039583 attempt 2 ABBOT Y Y Y Y Y
+TDD2283505 #4 __ED_ -ALNRST  📋 "abbot" ? __ED_ ~ ER
+TDD-2283594 attempt 3 ABBOT n n n n n
+TDD723696 ? 
+TDD-723696 question done
+TDD2756096 > *
+TDD-2241116 questioning: ["tibia", "#2"]
+TDD3041258 #2 __B__ ~AT -DELNORS  📋 "tibia" ? /it
+TDD-3556139 attempt 1 TIBIA Y Y Y Y Y
+TDD2763745 #4 __ED_ -ABLNORST  📋 "tibia" ? __ED_ ~ ER
+TDD-2763836 attempt 3 TIBIA n n n n n
+TDD343322 ? 
+TDD-343313 question done
+TDD571731 > *
+TDD2868190 > 
+TDD-2648232 > 
+TDD336309 > 
+TDD-628370 > 
+TDD-339695 > 
+TDD623814 > ?
+TDD7326187 > /man 4 __ED_ ~ER
+TDD-7733431 questioning: ["REEDY", "#4"]
+TDD5062601 #4 __ED_ -ABILNORST  📋 "REEDY" ? /it
+TDD-5439049 attempt 3 REEDY Y Y Y Y Y
+TDD1019645 ? 
+TDD-1019750 question done
+TDD5285396 📋> squareword.org 1323: 6 guesses
+TDD-5285422 📋> 
+TDD-62 📋> 🟩🟩🟩🟩🟩
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟩🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD415563 📋> #squareword #squareword1323
+TDD-43770 📋> ␚
+TDD-371759 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1323: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1323"}
+TDD376 result: "squareword.org 1323: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1323"
+TDD1363436 📆 2025-09-15 ? 
