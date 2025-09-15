@@ -1,0 +1,49 @@
+T1.1275417478755116 now: 2025-09-15T11:25:30UTC
+TD75 site: alfagok.diginaut.net
+TDD155666 loaded 399734 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1118 words excluded) asof ffdd8023ab95419047f6fd453fd92b6f38fe907f
+TDD21263913  ...
+TDD-18823520 [0 : 199853 : 399734] lijm? a
+TDD-2595938 progress: 1 199853 lijm
+TDD1847335 [199854 : 299778 : 399734] schub? b
+TDD-1847427 progress: -1 299778 schub
+TDD1739737 [199854 : 247771 : 299778] op? b
+TDD-1739759 progress: -1 247771 op
+TDD1651665 [199854 : 223653 : 247771] mol? a
+TDD-1651664 progress: 1 223653 mol
+TDD1583947 [223654 : 235712 : 247771] octetten? a
+TDD-1583941 progress: 1 235712 octetten
+TDD1655863 [235713 : 238829 : 247771] on? b
+TDD-1655865 progress: -1 238829 on
+TDD1707706 [235713 : 237211 : 238829] om? a
+TDD-1707709 progress: 1 237211 om
+TDD1607761 [237212 : 238020 : 238829] ompalen? a
+TDD-1607753 progress: 1 238020 ompalen
+TDD1479854 [238021 : 238422 : 238829] omtover? a
+TDD-1479857 progress: 1 238422 omtover
+TDD1975944 [238423 : 238622 : 238829] omwikkel? b
+TDD-1975946 progress: -1 238622 omwikkel
+TDD2023157 [238423 : 238483 : 238622] omver? b
+TDD-2023138 progress: -1 238483 omver
+TDD2035924 [238423 : 238453 : 238483] omvaamt? b
+TDD-2035945 progress: -1 238453 omvaamt
+TDD1763591 [238423 : 238428 : 238453] omtrek? a
+TDD-1763574 progress: 1 238428 omtrek
+TDD1867860 [238429 : 238439 : 238453] omtrekt? a
+TDD-1867876 progress: 1 238439 omtrekt
+TDD3831767 [238440 : 238446 : 238453] omtuind? b
+TDD-3831760 progress: -1 238446 omtuind
+TDD2359941 [238440 : 238443 : 238446] omtrent? it
+TDD-2359946 progress: 0 238443 omtrent
+TDD-19 [238440 : 238443 : 238446] <Done>.
+TDD7381368 📋> 🧩 Puzzel #317
+TDD-7381367 📋> 🤔 17 gokken
+TDD-47 📋> ⏱️ 33s
+TDD501209 📋> 🔗 alfagok.diginaut.net
+TDD5351 📋> ␚
+TDD-506499 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #317\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 33s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD235 share result: "\ud83e\udde9 Puzzel #317\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 33s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-287 result puzzle: 317
+TDD-19 result guesses: 17
+TDD-2 result time: 33s
+TDD0 result link: alfagok.diginaut.net
+TDD570388 📆 2025-09-15 ? 
