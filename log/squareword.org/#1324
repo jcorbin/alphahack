@@ -1,0 +1,115 @@
+T2244.7548834513873 now: 2025-09-16T11:55:41UTC
+TD77 site: squareword.org
+TDD-24 wordlist: nwl2023.txt
+TDD3519079  ...co
+TDD9883420  ...
+TDD-10229653 🧩  ? #1324
+TDD-3172716 puzzle_id: #1324
+TDD13800060 > *
+TDD-11549945 try? 1
+TDD-2250034 questioning: ["least", "#5"]
+TDD12336527 #1 _____  📋 "least" ? _____ ~ S
+TDD-12336378 attempt 0 LEAST n n n m n
+TDD4727405 #2 _____  📋 "least" ? _____ ~ LEA
+TDD-4727627 attempt 1 LEAST m m m n n
+TDD7285400 #3 _____  📋 "least" ? _____ ~ LEA
+TDD-7285423 attempt 2 LEAST m m m n n
+TDD3829001 #4 _____  📋 "least" ? _____ ~ EAT
+TDD-3828994 attempt 3 LEAST n m m n m
+TDD6522392 #5 _____  📋 "least" ? _____ ~ EAS
+TDD-6522399 attempt 4 LEAST n m m m n
+TDD981132 ? 
+TDD-981134 question done
+TDD2015727 > *
+TDD4705519 try? 2
+TDD-6721150 questioning: ["hater", "#4"]
+TDD12109759 #1 _____ ~S -AELT  📋 "hater" ? .
+TDD-12109773 attempt 0 HATER n n n n n
+TDD8522185 #2 _____ ~AEL -ST  📋 "hater" ? _A_E_ ~ L
+TDD-8522256 attempt 1 HATER n Y n Y n
+TDD6097712 #3 _____ ~AEL -ST  📋 "hater" ? .
+TDD-6097610 attempt 2 HATER n m n m n
+TDD7439500 #4 _____ ~AET -LS  📋 "hater" ? _AT__ ~ ET
+TDD-7439610 attempt 3 HATER n Y Y m n
+TDD4227738 #5 _____ ~AES -LT  📋 "hater" ? .
+TDD-4227638 attempt 4 HATER n m n m n
+TDD611465 ? 
+TDD-611595 question done
+TDD1335676 > *
+TDD-664551 questioning: ["matte", "#4"]
+TDD18026453 #1 _____ ~S -AEHLRT  📋 "matte" ? .
+TDD-18697484 attempt 0 MATTE n n n n n
+TDD1619180 #2 _A_E_ ~L -HRST  📋 "matte" ? .
+TDD-1619185 attempt 1 MATTE n Y n n n
+TDD15795706 #3 _____ ~AEL -HRST  📋 "matte" ? ____E ~ LA
+TDD-15795757 attempt 2 MATTE n m n n Y
+TDD5159435 #4 _AT__ ~E -HLRS  📋 "matte" ? /it
+TDD-5159371 attempt 3 MATTE Y Y Y Y Y
+TDD5651881 #5 _____ ~AES -HLRT  📋 "matte" ? .
+TDD-5651871 attempt 4 MATTE n m n n m
+TDD1411567 ? 
+TDD-1411669 question done
+TDD1887687 > *
+TDD5280280 try? 1
+TDD-7167870 questioning: ["speak", "#5"]
+TDD12167785 #1 _____ ~S -AEHLMRT  📋 "speak" ? SP___ ~ S
+TDD-12167880 attempt 0 SPEAK Y Y n n n
+TDD12914923 #2 _A_E_ ~L -EHMRST  📋 "speak" ? _A_E_  ~ LP
+TDD-12914895 attempt 1 SPEAK n m n n n
+TDD5610152 #3 ____E ~AL -HMRST  📋 "speak" ? .
+TDD-5610071 attempt 2 SPEAK n n n m n
+TDD5565781 #5 _____ ~AES -HLMRT  📋 "speak" ? S_EAK
+TDD-5565862 attempt 4 SPEAK Y n Y Y Y
+TDD1033993 ? 
+TDD-1034027 question done
+TDD4831553 > * 1
+TDD-423891 try? 2
+TDD-4407569 questioning: ["spuds", "#1"]
+TDD11845006 #1 SP___ -AEHKLMRT  📋 "spuds" ? /it
+TDD-11845005 attempt 0 SPUDS Y Y Y Y Y
+TDD4232378 #2 _A_E_ ~LP -AEHKMRST  📋 "spuds" ? .
+TDD-4232384 attempt 1 SPUDS n m n n n
+TDD4143455 #3 ____E ~AL -EHKMPRST  📋 "spuds" ? .
+TDD-4143446 attempt 2 SPUDS n n n n n
+TDD5429021 #5 S_EAK -HLMPRT  📋 "spuds" ? .
+TDD-5429012 attempt 4 SPUDS Y n n n n
+TDD719401 ? 
+TDD-719509 question done
+TDD1370218 > *
+TDD81932 questioning: ["panel", "#2"]
+TDD9956984 #2 _A_E_ ~LP -ADEHKMRSTU  📋 "panel" ? /it
+TDD-11409027 attempt 1 PANEL Y Y Y Y Y
+TDD3927443 #3 ____E ~AL -DEHKMPRSTU  📋 "panel" ? .
+TDD-3927466 attempt 2 PANEL n m n n m
+TDD6050494 #5 S_EAK -DHLMPRTU  📋 "panel" ? S_EAK ~ N
+TDD-6050528 attempt 4 PANEL n n m n n
+TDD852741 ? 
+TDD-852774 question done
+TDD1349305 > *
+TDD-58062 questioning: ["agile", "#3"]
+TDD6862360 #3 ____E ~AL -DEHKMNPRSTU  📋 "agile" ? /it
+TDD-8153524 attempt 2 AGILE Y Y Y Y Y
+TDD2340901 #5 S_EAK ~N -ADEHLMPRTU  📋 "agile" ? .
+TDD-2340897 attempt 4 AGILE n n n n n
+TDD1247369 ? 
+TDD-1247446 question done
+TDD1562450 > *
+TDD-700018 questioning: ["sneak", "#5"]
+TDD9741976 #5 S_EAK ~N -ADEGHILMPRTU  📋 "sneak" ? /it
+TDD-10604321 attempt 4 SNEAK Y Y Y Y Y
+TDD1343615 ? 
+TDD-1343716 question done
+TDD10441377 📋> squareword.org 1324: 8 guesses
+TDD-10441463 📋> 
+TDD-48 📋> 🟩🟩🟩🟩🟩
+TDD9 📋> 🟨🟩🟨🟩🟨
+TDD-12 📋> 🟨🟨🟨🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟨🟩🟩🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD1207759 📋> #squareword #squareword1324
+TDD208064 📋> ␚
+TDD-1415760 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1324: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1324"}
+TDD1697 result: "squareword.org 1324: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1324"
+TDD1008697 📆 2025-09-16 ? 
