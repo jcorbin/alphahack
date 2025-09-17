@@ -1,0 +1,48 @@
+T47.250499305315316 now: 2025-09-17T12:01:34UTC
+TD67 site: alphaguess.com
+TDD60700 loaded 196548 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (55 words excluded) asof 5c79973d5d5af432f82d16244f8a8ac2234af31a
+TDD4784953  ...
+TDD-2624105 [0 : 98232 : 196548] mach? a
+TDD-2221536 progress: 1 98232 mach
+TDD1497211 [98233 : 147337 : 196548] rho? a
+TDD-1497196 progress: 1 147337 rho
+TDD1523719 [147338 : 171937 : 196548] tag? b
+TDD-1523729 progress: -1 171937 tag
+TDD1622193 [147338 : 159619 : 171937] slug? a
+TDD-1622180 progress: 1 159619 slug
+TDD1487843 [159620 : 165773 : 171937] stint? b
+TDD-1487844 progress: -1 165773 stint
+TDD2060121 [159620 : 162652 : 165773] speed? a
+TDD-2060100 progress: 1 162652 speed
+TDD1587743 [162653 : 164212 : 165773] squilgee? b
+TDD-1587760 progress: -1 164212 squilgee
+TDD1643135 [162653 : 163432 : 164212] spodosol? b
+TDD-1643130 progress: -1 163432 spodosol
+TDD1490947 [162653 : 163028 : 163432] spin? a
+TDD-1490964 progress: 1 163028 spin
+TDD1384833 [163029 : 163228 : 163432] spit? a
+TDD-1384823 progress: 1 163228 spit
+TDD1345729 [163229 : 163324 : 163432] splendid? b
+TDD-1345733 progress: -1 163324 splendid
+TDD1371343 [163229 : 163270 : 163324] spiv? a
+TDD-1371336 progress: 1 163270 spiv
+TDD1702672 [163271 : 163297 : 163324] splat? b
+TDD-1702678 progress: -1 163297 splat
+TDD1812851 [163271 : 163279 : 163297] splash? it
+TDD-1812865 progress: 0 163279 splash
+TDD-14 [163271 : 163279 : 163297] <Done>.
+TDD3121661 📋> 🧩 Puzzle #785
+TDD-3121651 📋> 
+TDD-41 📋> 🤔 14 guesses
+TDD-16 📋> 
+TDD-1 📋> ⏱️ 20s
+TDD-1 📋> 
+TDD348532 📋> 🔗 alphaguess.com
+TDD-55245 📋> ␚
+TDD-293221 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #785\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-29 share result: "\ud83e\udde9 Puzzle #785\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"
+TDD-37 result puzzle: 785
+TDD-4 result guesses: 14
+TDD-1 result time: 20s
+TDD11 result link: alphaguess.com
+TDD206930 📆 2025-09-17 ? 
