@@ -1204,6 +1204,7 @@ class SpaceWord(StoredLog):
     def run_done(self):
         if self.fin_result():
             return True
+        # TODO return True if non-final score is ideal
         return False
 
     @property
