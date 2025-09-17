@@ -687,12 +687,14 @@ class StoredLog:
     def call_state(self,
                    ui: PromptUI,
                    st: PromptUI.State,
-                   then: PromptUI.State = PromptUI.then_eof):
+                   then: PromptUI.State|None = None):
         try:
             with self.log_to(ui):
                 ui.call_state(st)
         except CutoverLogError as cutover:
-            return cutover.resolve(self, ui, then)
+            if not self.ephemeral:
+                raise
+            return cutover.resolve(self, ui, then or PromptUI.then_eof)
 
     def interact(self, ui: PromptUI, st: PromptUI.State):
         while True:
