@@ -1,0 +1,45 @@
+T0.9235556423664093 now: 2025-09-17T12:00:47UTC
+TD70 site: alfagok.diginaut.net
+TDD145367 loaded 399734 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1118 words excluded) asof 5c79973d5d5af432f82d16244f8a8ac2234af31a
+TDD6208154  ...
+TDD-3203633 [0 : 199853 : 399734] lijm? a
+TDD-3149732 progress: 1 199853 lijm
+TDD1513526 [199854 : 299778 : 399734] schub? a
+TDD-1513655 progress: 1 299778 schub
+TDD1437795 [299779 : 349564 : 399734] vakantie? a
+TDD-1437811 progress: 1 349564 vakantie
+TDD3619309 [349565 : 374308 : 399734] vrij? b
+TDD-3619292 progress: -1 374308 vrij
+TDD1879195 [349565 : 353132 : 374308] ver? a
+TDD-1879198 progress: 1 353132 ver
+TDD1650522 [353133 : 363717 : 374308] verzot? a
+TDD-1650522 progress: 1 363717 verzot
+TDD1713347 [363718 : 368730 : 374308] voetbal? b
+TDD-1713346 progress: -1 368730 voetbal
+TDD1503354 [363718 : 365657 : 368730] vis? a
+TDD-1503358 progress: 1 365657 vis
+TDD1640161 [365658 : 367009 : 368730] vlieg? a
+TDD-1640151 progress: 1 367009 vlieg
+TDD1678888 [367010 : 367852 : 368730] vluchtelingen? b
+TDD-1678897 progress: -1 367852 vluchtelingen
+TDD1637569 [367010 : 367431 : 367852] vliezig? b
+TDD-1637579 progress: -1 367431 vliezig
+TDD1565747 [367010 : 367207 : 367431] vliegt? b
+TDD-1565732 progress: -1 367207 vliegt
+TDD1654829 [367010 : 367098 : 367207] vlieger? b
+TDD-1654842 progress: -1 367098 vlieger
+TDD2210819 [367010 : 367049 : 367098] vliegen? it
+TDD-2210819 progress: 0 367049 vliegen
+TDD-16 [367010 : 367049 : 367098] <Done>.
+TDD9625173 📋> 🧩 Puzzel #319
+TDD-9625158 📋> 🤔 14 gokken
+TDD-59 📋> ⏱️ 24s
+TDD628056 📋> 🔗 alfagok.diginaut.net
+TDD-243054 📋> ␚
+TDD-384946 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #319\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD236 share result: "\ud83e\udde9 Puzzel #319\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-295 result puzzle: 319
+TDD-6 result guesses: 14
+TDD11 result time: 24s
+TDD-12 result link: alfagok.diginaut.net
+TDD658176 📆 2025-09-17 ? 
