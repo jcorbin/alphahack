@@ -1,0 +1,123 @@
+T80.70119443815202 now: 2025-09-17T12:02:07UTC
+TD66 site: squareword.org
+TDD-15 wordlist: nwl2023.txt
+TDD3294766  ...
+TDD-1400931 🧩  ? #1325
+TDD-1893725 puzzle_id: #1325
+TDD4900353 > *
+TDD-1365060 try? 1
+TDD-3535212 questioning: ["stoae", "#5"]
+TDD13418317 #1 _____  📋 "stoae" ? S____ ~ SA
+TDD-13418144 attempt 0 STOAE Y n n m n
+TDD2423442 #2 _____  📋 "stoae" ? _____ ~ A
+TDD-2423693 attempt 1 STOAE n n n m n
+TDD4773861 #3 _____  📋 "stoae" ? __O_E ~ A
+TDD-4773857 attempt 2 STOAE n n Y m Y
+TDD3005355 #4 _____  📋 "stoae" ? ____E ~ O
+TDD-3005339 attempt 3 STOAE n n m n Y
+TDD2352774 #5 _____  📋 "stoae" ? _____ ~ TE
+TDD-2352803 attempt 4 STOAE n m n n m
+TDD631393 ? 
+TDD-631393 question done
+TDD708229 > *
+TDD2694041 try? 1
+TDD-3402147 questioning: ["anole", "#3"]
+TDD9225680 #1 S____ ~A -EOT  📋 "anole" ? S____ ~ SA
+TDD-9225787 attempt 0 ANOLE m n n n n
+TDD2791201 #2 _____ ~A -EOST  📋 "anole" ? _____ ~ AN
+TDD-2791205 attempt 1 ANOLE m m n n n
+TDD1834577 #3 __O_E ~A -ST  📋 "anole" ? ANO_E
+TDD-1834543 attempt 2 ANOLE Y Y Y n Y
+TDD2068289 #4 ____E ~O -AST  📋 "anole" ? .
+TDD-2068230 attempt 3 ANOLE n n m n Y
+TDD3612254 #5 _____ ~ET -AOS  📋 "anole" ? _N___ ~ TE
+TDD-3612336 attempt 4 ANOLE n Y n n m
+TDD601170 ? 
+TDD-601181 question done
+TDD5013047 > * 5
+TDD-684760 try? 1
+TDD-4328206 questioning: ["inter", "#5"]
+TDD8903237 #1 S____ ~A -ELNOT  📋 "inter" ? S____ ~ SA
+TDD-8903309 attempt 0 INTER n n n n n
+TDD2122646 #2 _____ ~AN -ELOST  📋 "inter" ? _____ ~ ANI
+TDD-2122658 attempt 1 INTER m m n n n
+TDD2130362 #3 ANO_E -LST  📋 "inter" ? .
+TDD-2130256 attempt 2 INTER n Y n n n
+TDD7012823 #4 ____E ~O -ALNST  📋 "inter" ? ____E ~ OR
+TDD-7012929 attempt 3 INTER n n n n m
+TDD2819202 #5 _N___ ~ET -ALOS  📋 "inter" ? _NTER ~ E
+TDD-2819196 attempt 4 INTER n Y Y Y Y
+TDD437026 ? 
+TDD-437035 question done
+TDD2077254 > * 2
+TDD-1725110 questioning: ["cabin", "#2"]
+TDD9048959 #1 S____ ~A -EILNORT  📋 "cabin" ? S____ ~ SAC
+TDD-9401086 attempt 0 CABIN m m n n n
+TDD836324 #2 _____ ~AIN -ELORST  📋 "cabin" ? /it
+TDD-836250 attempt 1 CABIN Y Y Y Y Y
+TDD2299535 #3 ANO_E -EILRST  📋 "cabin" ? .
+TDD-2299554 attempt 2 CABIN n n n n n
+TDD1363839 #4 ____E ~OR -AEILNST  📋 "cabin" ? .
+TDD-1363817 attempt 3 CABIN n n n n n
+TDD4282888 #5 _NTER -AILOS  📋 "cabin" ? _NTER ~ E
+TDD-4282953 attempt 4 CABIN n n n n n
+TDD366590 ? 
+TDD-366599 question done
+TDD2610833 > * 4
+TDD10151950 try? ␚
+TDD-12762858 <EOF>
+TDD944469 > * 1
+TDD5250215 try? ␚
+TDD-6194670 <EOF>
+TDD2096771 > * 4
+TDD6220767 try? 1
+TDD-8317422 questioning: ["rouge", "#4"]
+TDD8812069 #1 S____ ~AC -BEILNORT  📋 "rouge" ? S____ ~ SAC
+TDD-8812127 attempt 0 ROUGE n n n n n
+TDD2826141 #3 ANO_E -ABCEILNRST  📋 "rouge" ? .
+TDD-2826099 attempt 2 ROUGE n n n n Y
+TDD861650 #4 ____E ~OR -ABCEILNST  📋 "rouge" ? /it
+TDD-861645 attempt 3 ROUGE Y Y Y Y Y
+TDD3259088 #5 _NTER -ABCILNOS  📋 "rouge" ? _NTER ~ E
+TDD-3259131 attempt 4 ROUGE n n n n m
+TDD288202 ? 
+TDD-288221 question done
+TDD3831664 > * 1
+TDD9074864 try? 2
+TDD-12906448 questioning: ["scams", "#1"]
+TDD2856073 #1 S____ ~AC -BEGILNORTU  📋 "scams" ? /it
+TDD-2856046 attempt 0 SCAMS Y Y Y Y Y
+TDD3568997 #3 ANO_E -ABCGILNORSTU  📋 "scams" ? .
+TDD-3569000 attempt 2 SCAMS n n n n n
+TDD4286330 #5 _NTER -ABCGILNORSU  📋 "scams" ? _NTER ~ E
+TDD-4286458 attempt 4 SCAMS n n n n n
+TDD544204 ? 
+TDD-544175 question done
+TDD490921 > *
+TDD788450 questioning: ["anode", "#3"]
+TDD2638575 #3 ANO_E -ABCGILMNORSTU  📋 "anode" ? /it
+TDD-3917864 attempt 2 ANODE Y Y Y Y Y
+TDD2659792 #5 _NTER -ABCGILMNORSU  📋 "anode" ? _NTER ~ E
+TDD-2659874 attempt 4 ANODE n Y n n m
+TDD776332 ? 
+TDD-776367 question done
+TDD595422 > *
+TDD305878 questioning: ["enter", "#5"]
+TDD1866703 #5 _NTER -ABCDGILMORSU  📋 "enter" ? /it
+TDD-2767916 attempt 4 ENTER Y Y Y Y Y
+TDD755589 ? 
+TDD-755675 question done
+TDD6217988 📋> squareword.org 1325: 8 guesses
+TDD-6218042 📋> 
+TDD-57 📋> 🟩🟨🟨🟨🟨
+TDD-6 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟨🟩🟩🟩🟩
+TDD0 📋> 
+TDD11 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD371837 📋> #squareword #squareword1325
+TDD290177 📋> ␚
+TDD-661972 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1325: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1325"}
+TDD1662 result: "squareword.org 1325: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1325"
+TDD616165 📆 2025-09-17 ? 
