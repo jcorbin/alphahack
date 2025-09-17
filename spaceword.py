@@ -1121,6 +1121,13 @@ class SpaceWord(StoredLog):
         res = self.result
         return res is not None and res.final
 
+    @property
+    @override
+    def run_done(self):
+        if self.fin_result():
+            return True
+        return False
+
     @override
     def proc_result(self, ui: PromptUI, text: str):
         self.set_result_text(text)
