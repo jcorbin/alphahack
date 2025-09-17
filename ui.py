@@ -189,6 +189,14 @@ class Next(BaseException):
         self.input = input
         self.set_tracing: bool|None = set_tracing
 
+    def annotate(self, ent: 'PromptUI.Traced.Entry'):
+        if self.state:
+            ent.write(f'next:{PromptUI.describe(self.state)}')
+        if self.input is not None:
+            ent.write(f'w/ {self.input!r}')
+        if self.set_tracing is not None:
+            ent.write(f'<TRO{'N' if self.set_tracing else 'FF'}>')
+
     def resolve(self, ui: 'PromptUI'):
         nxt = self.state
         txt = self.input
@@ -1033,24 +1041,21 @@ class PromptUI:
                     nxt = self.state(ui)
 
                 except Next as n:
-                    ent.write(f'-!>')
+                    ent.write(f'<!- Next')
 
                     ret = False
                     if n.set_tracing is False:
-                        ent.write(f'<TROFF> ->')
                         ui.traced = False
                         ui.tracer = None
                         ret = True
 
+                    n.annotate(ent)
+
                     nxt = n.resolve(ui)
-                    if ret and nxt is None:
-                        nxt = self.state
-                    ent.write(f'{PromptUI.describe(nxt)}')
-
-                    if n.input is not None:
-                        ent.write(f'w/ {n.input!r}')
-
                     if ret:
+                        if nxt is None:
+                            nxt = self.state
+                        ent.write(f'-> {PromptUI.describe(nxt)}')
                         return nxt
 
                 except Exception as err:
