@@ -1,0 +1,51 @@
+T80.1560812946409 now: 2025-09-18T11:36:23UTC
+TD43 site: alfagok.diginaut.net
+TDD178275 loaded 399734 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1118 words excluded) asof 59ad8b15882054946b1b83c6991efbd6132c3631
+TDD18941497  ...
+TDD-14817259 [0 : 199853 : 399734] lijm? a
+TDD-4302343 progress: 1 199853 lijm
+TDD3261712 [199854 : 299778 : 399734] schub? a
+TDD-3261833 progress: 1 299778 schub
+TDD1808925 [299779 : 349564 : 399734] vakantie? a
+TDD-1808928 progress: 1 349564 vakantie
+TDD1892733 [349565 : 374308 : 399734] vrij? b
+TDD-1892741 progress: -1 374308 vrij
+TDD1800901 [349565 : 353132 : 374308] ver? a
+TDD-1800899 progress: 1 353132 ver
+TDD1812076 [353133 : 363717 : 374308] verzot? a
+TDD-1812061 progress: 1 363717 verzot
+TDD1721399 [363718 : 368730 : 374308] voetbal? a
+TDD-1721413 progress: 1 368730 voetbal
+TDD1608259 [368731 : 370579 : 374308] voor? b
+TDD-1608249 progress: -1 370579 voor
+TDD1576165 [368731 : 369439 : 370579] vol? a
+TDD-1576154 progress: 1 369439 vol
+TDD1720893 [369440 : 369717 : 370579] volks? b
+TDD-1720919 progress: -1 369717 volks
+TDD1787637 [369440 : 369518 : 369717] volg? a
+TDD-1787636 progress: 1 369518 volg
+TDD1822066 [369519 : 369618 : 369717] volgroeide? b
+TDD-1822049 progress: -1 369618 volgroeide
+TDD1988662 [369519 : 369567 : 369618] volger? b
+TDD-1988670 progress: -1 369567 volger
+TDD2176052 [369519 : 369543 : 369567] volgeling? a
+TDD-2176056 progress: 1 369543 volgeling
+TDD1937414 [369544 : 369550 : 369567] volgen? a
+TDD-1937412 progress: 1 369550 volgen
+TDD1974333 [369551 : 369559 : 369567] volgeplakt? b
+TDD-1974337 progress: -1 369559 volgeplakt
+TDD2961022 [369551 : 369552 : 369559] volgende? b
+TDD-2961023 progress: -1 369552 volgende
+TDD-60 [369551 : 369551 : 369552] <Done>.
+TDD6431385 📋> 🧩 Puzzel #320
+TDD-6431319 📋> 🤔 18 gokken
+TDD-66 📋> ⏱️ 35s
+TDD332209 📋> 🔗 alfagok.diginaut.net
+TDD201064 📋> ␚
+TDD-533224 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #320\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 35s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD284 share result: "\ud83e\udde9 Puzzel #320\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 35s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-337 result puzzle: 320
+TDD-8 result guesses: 18
+TDD-1 result time: 35s
+TDD0 result link: alfagok.diginaut.net
+TDD653422 📆 2025-09-18 ? 
