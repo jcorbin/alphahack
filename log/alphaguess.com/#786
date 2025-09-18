@@ -1,0 +1,54 @@
+T174.00581303797662 now: 2025-09-18T11:37:57UTC
+TD48 site: alphaguess.com
+TDD56644 loaded 196548 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (55 words excluded) asof 59ad8b15882054946b1b83c6991efbd6132c3631
+TDD4380802  ...
+TDD-2437684 [0 : 98232 : 196548] mach? b
+TDD-1999719 progress: -1 98232 mach
+TDD1583619 [0 : 47393 : 98232] dis? a
+TDD-1583630 progress: 1 47393 dis
+TDD1310269 [47394 : 72813 : 98232] gremolata? a
+TDD-1310266 progress: 1 72813 gremolata
+TDD1286354 [72814 : 85517 : 98232] ins? a
+TDD-1286336 progress: 1 85517 ins
+TDD1360752 [85518 : 91862 : 98232] knot? a
+TDD-1360764 progress: 1 91862 knot
+TDD1280656 [91863 : 94959 : 98232] lib? b
+TDD-1280653 progress: -1 94959 lib
+TDD1381874 [91863 : 93282 : 94959] lar? a
+TDD-1381877 progress: 1 93282 lar
+TDD1273465 [93283 : 93910 : 94959] lea? a
+TDD-1273465 progress: 1 93910 lea
+TDD1367197 [93911 : 94423 : 94959] leis? b
+TDD-1367180 progress: -1 94423 leis
+TDD1361458 [93911 : 94164 : 94423] lecithin? b
+TDD-1361483 progress: -1 94164 lecithin
+TDD1561257 [93911 : 94030 : 94164] lean? a
+TDD-1561248 progress: 1 94030 lean
+TDD1542451 [94031 : 94095 : 94164] leather? b
+TDD-1542448 progress: -1 94095 leather
+TDD1438242 [94031 : 94056 : 94095] learn? a
+TDD-1438243 progress: 1 94056 learn
+TDD1553667 [94057 : 94072 : 94095] leas? a
+TDD-1553681 progress: 1 94072 leas
+TDD2025875 [94073 : 94074 : 94095] lease? a
+TDD-2025870 progress: 1 94074 lease
+TDD1686538 [94075 : 94085 : 94095] leash? a
+TDD-1686513 progress: 1 94085 leash
+TDD1935010 [94086 : 94091 : 94095] least? it
+TDD-1935023 progress: 0 94091 least
+TDD-80 [94086 : 94091 : 94095] <Done>.
+TDD3155097 📋> 🧩 Puzzle #786
+TDD-3155040 📋> 
+TDD-53 📋> 🤔 17 guesses
+TDD-3 📋> 
+TDD-1 📋> ⏱️ 24s
+TDD-1 📋> 
+TDD235524 📋> 🔗 alphaguess.com
+TDD15867 📋> ␚
+TDD-251330 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #786\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 24s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-24 share result: "\ud83e\udde9 Puzzle #786\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 24s\n\n\ud83d\udd17 alphaguess.com"
+TDD-15 result puzzle: 786
+TDD-26 result guesses: 17
+TDD-1 result time: 24s
+TDD0 result link: alphaguess.com
+TDD189368 📆 2025-09-18 ? 
