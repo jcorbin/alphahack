@@ -17,6 +17,20 @@ from ui import PromptUI
 from wordlish import feedback_letters, Attempt, Feedback, Question, Word
 from wordlist import WordList
 
+# TODO chase down failure
+#
+# from log/squareword.org/#1237 :102
+# 
+#     #1: done row:0 SMASH
+#     #2: done row:1 PASTA
+#     #3: done row:2 ENTER
+#     #4: done row:3 AGENT
+#     #5: for row:4 _A_TS ~AR -DEGHILMNP (2 possible)
+#        pattern: re.compile('', re.IGNORECASE) have: 0 col_may_1: [KNR]
+#        col_may_2: [A] col_may_3: [R] col_may_4: [T] col_may_5: [S]
+#     
+#     5 _A_TS ~R -DEGHILMNP
+
 def pad_rows(rows: Iterable[Iterable[str]]):
     rows = tuple(tuple(row) for row in rows)
     num_cols = max(len(row) for row in rows)
@@ -364,6 +378,8 @@ class Search(StoredLog):
         for let in self.grid:
             if let: yield let
         for word in self.row_words:
+            # for c in word.yes:
+            #     if c: yield c
             yield from word.may
 
     recent_sug: dict[str, int] = dict()
@@ -1041,6 +1057,7 @@ class Search(StoredLog):
 
             match = re_word_match(ui.tokens)
             if match:
+                # TODO loosen to allow may-only
                 try:
                     res = re_word_feedback(self.guess, match)
                 except (ValueError, IndexError):
