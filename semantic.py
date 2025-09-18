@@ -630,6 +630,19 @@ class Search(StoredLog):
             self.llm_model = model
         self.full_auto = cast(bool, args.auto)
 
+    # TODO make this a thing in general for Meta's solver protocol?
+    def from_tokens(self, tokens: PromptUI.Tokens):
+        auto = tokens.have(r'''(?x)
+            ( -no? -? a(?:u(to?)?)? )? $  # Yeah, No
+            | -a(?:u(?:to?)?)? $          # Yes Actually
+        ''', then=lambda m: False if m[1] else True)
+        if auto is not None:
+            self.full_auto = auto
+        if tokens.have(r'(?x) --? m (odel)? $') and tokens:
+            model = next(tokens)
+            self.default_chat_model = model
+            self.llm_model = model
+
     def __init__(self):
         super().__init__()
 
