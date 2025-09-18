@@ -380,7 +380,45 @@ class Board:
                     yield j, l
         yield from simplify(updates(), self.grid, self.letters)
 
+    def _datar(self):
+        dat = list(self.grid)
+        dat.extend(self.letters)
+        return dat
+
     def diff(self, other: 'Board') -> Generator[tuple[int, str]]:
+
+        data = self._datar()
+        datb = other._datar()
+        if len(data) != len(datb):
+            raise ValueError(f'board data size mismatch mine:{len(data)} vs theirs:{len(datb)}')
+
+        sdata = set(l for l in data if l)
+        sdatb = set(l for l in datb if l)
+        sdatx = sdata.symmetric_difference(sdatb)
+        if sdatx:
+            sdf = (
+                f'{"-" if x in sdata else "+"}{x}'
+                for x in sdatx)
+            raise ValueError(f'board letter set mismatch {" ".join(sdf)}')
+
+        done: set[str] = set()
+        cycle: set[str] = set()
+
+        # ___ CAT ___ ___ IEZ
+        # ___ ATC ___ ___ IEZ
+        # (C A T)
+        # (C T) (C A)
+
+        # C A T
+        # C _ T          1 _
+        # A _ T          0 A
+        # A C T          1 C
+        # A C T (C A)
+        # A C _          2 _
+        # A T _          1 T
+        # A T C          2 C
+        # A T C (C T)
+
         if self.size != other.size:
             raise ValueError(f'board size mismatch mine:{self.size} vs theirs:{other.size}')
         def updates():
@@ -477,6 +515,35 @@ class Board:
         w = abs(x2 - x1)
         h = abs(y2 - y1)
         return w*h
+
+    def is_tangent(self, sel: 'Select'):
+        if any(sel): return True
+
+        stride = 1 if sel.dir == 'X' else self.size
+
+        if len(sel):
+            i = sel.ix[0] - stride
+            if i > 0 and self.grid[i]: return True
+
+        if len(sel) > 1:
+            i = sel.ix[-1] + stride
+            if i < len(self.grid) and self.grid[i]: return True
+
+        return False
+
+    def adds_area(self, sel: 'Select') -> int:
+        bounds = self.defined_rect
+        if not bounds:
+            return len(sel)
+        lo_x, lo_y, hi_x, hi_y = bounds
+        before = abs(hi_x - lo_x) * abs(hi_y - lo_y)
+        for x, y, _ in sel.iter_xy():
+            lo_x = min(lo_x, x)
+            lo_y = min(lo_y, y)
+            hi_x = max(hi_x, x + 1)
+            hi_y = max(hi_y, y + 1)
+        after = abs(hi_x - lo_x) * abs(hi_y - lo_y)
+        return after - before
 
     @property
     def max_area(self):
@@ -726,6 +793,17 @@ class Board:
                     yield dot
 
         @property
+        def dir(self):
+            try:
+                i = self.ix[0]
+            except IndexError:
+                return 'X'
+            sz = self.board.size
+            mx = max(self.ix)
+            dmx = mx - i
+            return 'Y' if (dmx % sz) == 0 else 'X'
+
+        @property
         def cursor(self):
             try:
                 i = self.ix[0]
@@ -746,33 +824,64 @@ class Board:
                 if where(c, i): return i
             return -1
 
+        def rindex(self,
+                  where: Callable[[str, int], bool] = lambda c, _i: bool(c),
+                  start: int = -1):
+            if start < 0:
+                start = len(self.ix) + start
+            for i in iter(range(start, -1, -1)):
+                print('???', i)
+                c = self.board.grid[self.ix[i]]
+                if where(c, i):
+                    print('===', i)
+                    return i
+            return -1
+
         def slice(self, start: int, end: int|None = None) -> Self:
             if end is None:
                 start, end = 0, start
             return self.__class__(self.board, self.ix[start:end])
 
-        def token_ranges(self):
+        def cut_ranges(self,
+            where: Callable[[str, int], bool],
+            until: Callable[[str, int], bool] | None = None,
+        ):
+            if not until:
+                until = lambda c, i: not where(c, i)
             i = 0
             n = len(self.ix)
             while i < n:
-                i = self.index(lambda c, _i: bool(c), i)
+                i = self.index(where, i)
                 if i < 0: break
-                j = self.index(lambda c, _i: not c, i)
+                j = self.index(until, i)
                 if j < 0:
                     yield i, n
                     break
                 yield i, j
                 i = j + 1
 
-        def tokens(self):
+        def token_ranges(self):
+            return self.cut_ranges(
+                lambda c, _i: bool(c),
+                lambda c, _i: not c)
+
+        def tokens(self, ranges: Iterable[tuple[int, int]] | None = None):
+            if ranges is None:
+                ranges = self.token_ranges()
             cls = self.__class__
-            for i, j in self.token_ranges():
+            for i, j in ranges:
                 yield cls(self.board, self.ix[i:j])
 
         def expand(self, max: int|None = None):
             cur = self.cursor
             cur.max = max or len(self.board.grid)
             return self.board.select(cur)
+
+        def reductions(self):
+            n = len(self)
+            for i in range(n-1):
+                yield self.slice(0, n - i)
+                yield self.slice(i, n)
 
         def continuations(self):
             may = self.expand()
@@ -1029,6 +1138,7 @@ class SpaceWord(StoredLog):
             '/centre': '/center',
             '/clear': self.cmd_clear,
             '/erase': self.cmd_erase,
+            '/foo': self.cmd_foo,
             '/generate': self.cmd_generate,
             '/letters': self.cmd_letters,
             '/priors': self.cmd_priors,
@@ -1107,6 +1217,7 @@ class SpaceWord(StoredLog):
     def run_done(self):
         if self.fin_result():
             return True
+        # TODO return True if non-final score is ideal
         return False
 
     @override
@@ -1244,6 +1355,7 @@ class SpaceWord(StoredLog):
         if not self.puzzle_id:
             with ui.input(f'🧩 {self.puzzle_id} ? ') as tokens:
                 match = re.match(r'''(?x)
+                    # https://spaceword.org/game/i20f93him4c3sxf
                     (?P<kind> daily | weekly )
                     \s+
                     (?P<year> \d{4} )
@@ -1537,6 +1649,36 @@ class SpaceWord(StoredLog):
             return
         self.erase_at(ui, n)
 
+    def cmd_foo(self, ui: PromptUI):
+        '''
+        dev playground
+        '''
+        n: int = 1
+
+        board = self.board
+
+        # word_count = Counter(
+        #     i
+        #     for token in board.all_words()
+        #     for i in token.ix)
+        # for line in board.show_grid(
+        #     cell = lambda x, y, i: f'{word_count[i]}' if word_count[i] else ' ',
+        # ): ui.print(line)
+
+        affixes = tuple(board.word_affixes())
+        n = max(1, min(len(affixes), n))
+
+        for choices in combinations(affixes, n):
+            maybe = board.copy(
+                (i, '')
+                for token in choices
+                for i in token.ix)
+
+            for line in maybe.show_grid(
+                head = ''.join(f'X{token}' for token in choices),
+                foot = None,
+            ): ui.print(line)
+
     def cmd_generate(self, ui: PromptUI):
         '''
         generate word suggestions
@@ -1806,6 +1948,7 @@ class Search:
                  ):
         self.sid = sid
         self.board = board.copy()
+        self.max_area = self.board.max_area
         self.wordlist = wordlist
         self.ret = ret
         self.reject = reject
@@ -1829,6 +1972,7 @@ class Search:
             'drop': self.do_drop,
             'history': self.do_hist,
             'import': self.do_import,
+            'max': self.do_max,
             'prune': self.do_prune,
             'reset': self.do_reset,
             'return': self.do_ret,
@@ -1870,6 +2014,8 @@ class Search:
 
         def prompt_parts() -> Generator[str]:
             yield f'{len(self.frontier)}'
+            if self.max_area != self.board.max_area:
+                yield f'max:{self.max_area}'
             cap = self.frontier_cap
             if cap:
                 yield f'cap:{cap}'
@@ -1886,6 +2032,7 @@ class Search:
 
         chooser = Chooser(show_n=10)
         jitter: float = 0.5
+        max_area: int|None = None
         verbose = self.verbose
 
         if self.frontier_cap:
@@ -1954,15 +2101,8 @@ class Search:
             mark('fragments')
 
             # seeds are selected regions of each board where we'll try to write a new word
-            # - first, we'll try to complete any fragments, since fragments
-            #   will kill a board solution if not completed
-            # - but if there are no fragments, then we'll consider every row
-            #   and column that intersects each board's already written region
-            # - which degenerates to a point selection somewhere in the middle of an empty board
-            seeds = tuple(
-                (board, frags, seed)
-                for board, points, frags in zip(boards, seed_points, fragments)
-                for seed in (
+            board_seeds = tuple(
+                (board, frags, tuple(
                     flatten(
                         flatten(
                             board.select(pre).continuations()
@@ -1978,11 +2118,33 @@ class Search:
                             (board.select(pre) for pre in point.pre()) if any(sel) else ()
                         ))
                 ))
+                for board, points, frags in zip(boards, seed_points, fragments))
             mark('elaborate seeds')
+
+            seeds = tuple(
+                ( (board, frags, seed)
+                  for board, frags, seeds in board_seeds
+                  for seed in seeds )
+                if max_area is None else
+                ( (board, frags, red)
+                  for board, frags, seeds in board_seeds
+                  for may_area in (max_area - board.defined_area,)
+                  for seed in seeds
+                  for red in (
+                      (seed,) if board.adds_area(seed) <= may_area
+                      else (
+                          red
+                          for red in seed.reductions()
+                          if board.is_tangent(red)
+                          if board.adds_area(red) <= may_area
+                      )) )
+            )
+            mark('constrain seeds')
 
             if verbose:
                 ui.print(f'searching {len(seeds)} seeds from {len(boards)} boards')
 
+            # TODO suggest erasures
 
             # pull all possible words for every boards' seeds...
             seed_words = tuple(
@@ -2147,10 +2309,14 @@ class Search:
             return
         self.verbose = verbose
 
+        # TODO prune if any frontier board is done
+
         # TODO maybe parse program
         prog = self.auto_mod.compile('*?TC')
+
+        expand = prog
+
         if self.board.done:
-            expand = prog
             sub = self.auto_mod.extend(*self.nom_ops(
                 ('?', self.may_op(
                     lambda ui: 'may' not in self.halos,
@@ -2162,6 +2328,25 @@ class Search:
                     expand)),
             ))
             prog = sub.compile('P?TC_')
+
+        # had = len(self.frontier)
+        # sub = self.auto_mod.extend(*self.nom_ops(
+        #     ('?', self.may_op(
+        #         lambda ui: 'may' not in self.halos,
+        #         'Backtrack exhausted',
+        #         expand)),
+        #     ('_', self.may_op(
+        #         lambda ui: len(self.frontier) >= self.frontier_cap,
+        #         lambda ui: f'Backtracked {had} -> {len(self.frontier)} boards, expanding',
+        #         expand)),
+        # ))
+        # backtrack = sub.compile('P?TC_')
+
+        # TODO result check phase
+        # return if any done, otherwise
+        # ... drop 0.9x * frontier_cap ( e.g. 0.975 )
+        # ... take reject
+        # ... backtrack
 
         def monitor(state: PromptUI.State):
             def mon(ui: PromptUI):
@@ -2382,6 +2567,24 @@ class Search:
                 for src, bs in zip(srcs, boards))
         self.history.append(tuple(meta()))
 
+    def do_max(self, ui: PromptUI):
+        '''
+        set max board area to be used
+        usage: `max`         -- show current max
+        usage: `max def`     -- use defined area of referent board
+        usage: `max <COUNT>` -- specific area limit
+        '''
+        if ui.tokens.have('def'):
+            self.max_area = self.board.defined_area
+            ui.print(f'set max: {self.max_area} ( defined )')
+        else:
+            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+            if n is None:
+                ui.print(f'max: {self.max_area}')
+            else:
+                self.max_area = n
+                ui.print(f'set max: {self.max_area}')
+
     def do_prune(self, ui: PromptUI):
         '''
         generates new boards by pruning word(s) from frontier boards
@@ -2572,6 +2775,7 @@ class Search:
             drop += n - len(self.frontier)
 
         scorer: Halo.Scorer = Halo.NaturalScores
+        # TODO scorer = self.score_taken_boards
         scorer = Halo.WithWordLabels(self.wordlist, scorer)
 
         self.frontier = Halo.of(chain(self.frontier, take), scorer)
@@ -2763,6 +2967,35 @@ class Search:
             meta = meta(),
         ))
 
+    @staticmethod
+    def score_taken_boards(boards: Sequence[Board]):
+        result = tuple(board.score/board.max_score for board in boards)
+
+        density = tuple(
+            1.0 if da == 0 else board.used_letters / da
+            for board in boards
+            for da in (board.defined_area,))
+
+        scores = tuple(
+            res * den
+            for res, den in zip(result, density))
+
+        def explain(i: int) -> Iterable[str]:
+            score = scores[i]
+            yield f'score:{100*score:.2f}% ='
+
+            res = result[i]
+            yield f'*= res:{100*res:.2f}%'
+
+            board = boards[i]
+            den = density[i]
+            if den != 1.0:
+                yield f'*= den:{100*den:.2f}% = ( ul:{board.used_letters} / da:{board.defined_area} )'
+
+            yield from Halo.ExplainBoard(boards[i])
+
+        return scores, explain
+
     def prune_word(self,
                    ui: PromptUI,
                    num_prunes: int = 1):
@@ -2889,6 +3122,166 @@ class Search:
                 self)),
         ))
 
+    # @final
+    # class Program:
+    #     Dat = int | Literal[
+    #         'Pop', # ( a -- )
+    #         'Dup', # ( a -- a a )
+    #         'Swap', # ( a b -- b a )
+    #         'Over', # ( a b -- a b a )
+    #
+    #         'Dec',
+    #         'Inc',
+    #         'Add', # ( a b -- a+b )
+    #         'Neg', # (   a --  -a )
+    #     ]
+    #
+    #     Ctl = Literal[
+    #         'Lst', # loop start
+    #         'Lnz', # loop if non zero
+    #         'Lz',  # loop if zero
+    #         'L',   # loop unconditional
+    #     ]
+    #
+    #     Op = Literal[
+    #         'Gen',
+    #         'Prun',
+    #         'Take',
+    #         'Cent',
+    #     ]
+    #
+    #     Step = Dat | Ctl | Op | tuple[Op, int]
+    #
+    #     def __init__(self, srch: 'Search', steps: Iterable[Step]):
+    #         self.srch = srch
+    #         self.prog = tuple(steps)
+    #         self.cur: int = 0
+    #         self.exc: BaseException|None = None
+    #         self.dat: list[int] = []
+    #         self.ctl: list[int] = []
+    #
+    #     def __call__(self, ui: PromptUI):
+    #         if self.cur < 0:
+    #             at = -self.cur
+    #             ui.print(f'! Program Error @{at} : {self.prog[at]!r}')
+    #             if self.exc is not None:
+    #                 ui.print_exception(self.exc)
+    #             return self.srch
+    #
+    #         if self.cur >= len(self.prog):
+    #             ui.print(f'. Halted')
+    #             return self.srch
+    #
+    #         at = self.cur
+    #         try:
+    #             self.step(ui)
+    #
+    #         except Exception as exc:
+    #             self.cur = -at
+    #
+    #     def step(self, ui: PromptUI):
+    #         ### Decode and advance
+    #         st = self.prog[self.cur]
+    #         self.cur += 1
+    #
+    #         ### Dat
+    #
+    #         if isinstance(st, int):
+    #             self.dat.append(st)
+    #             return
+    #
+    #         elif st == 'Pop':
+    #             _ = self.dat.pop()
+    #             return
+    #
+    #         elif st == 'Dup':
+    #             self.dat.append(self.dat[-1])
+    #             return
+    #
+    #         elif st == 'Swap':
+    #             b = self.dat.pop()
+    #             a = self.dat.pop()
+    #             self.dat.append(b)
+    #             self.dat.append(a)
+    #             return
+    #
+    #         elif st == 'Over':
+    #             self.dat.append(self.dat[-2])
+    #             return
+    #
+    #         elif st == 'Add':
+    #             b = self.dat.pop()
+    #             a = self.dat.pop()
+    #             self.dat.append(a + b)
+    #             return
+    #
+    #         elif st == 'Neg':
+    #             a = self.dat.pop()
+    #             self.dat.append(-a)
+    #             return
+    #
+    #         elif st == 'Dec':
+    #             self.dat[-1] -= 1
+    #             return
+    #
+    #         elif st == 'Inc':
+    #             self.dat[1] += 1
+    #             return
+    #
+    #         ### Ctl
+    #
+    #         if st == 'Lst':
+    #             ui.write('[')
+    #             self.ctl.append(self.cur-1)
+    #             return
+    #
+    #         elif st == 'L':
+    #             self.cur = self.ctl.pop()
+    #             ui.write(']')
+    #             return
+    #
+    #         elif st == 'Lz':
+    #             if self.dat.pop() == 0:
+    #                 self.cur = self.ctl.pop()
+    #                 ui.write('Z]')
+    #             else:
+    #                 _ = self.ctl.pop()
+    #                 _ = self.dat.pop()
+    #                 ui.write(']NZ')
+    #             return
+    #
+    #         elif st == 'Lnz':
+    #             if self.dat.pop() != 0:
+    #                 self.cur = self.ctl.pop()
+    #                 ui.write('NZ]')
+    #             else:
+    #                 _ = self.ctl.pop()
+    #                 ui.write(']Z')
+    #             return
+    #
+    #         ### Op | tuple[Op, int]
+    #
+    #         op, arg = st if isinstance(st, tuple) else (st, None)
+    #
+    #         if op == 'Gen':
+    #             ui.write('G' if arg is None else f'G{arg}')
+    #             self.srch.add_word(ui, per_n=arg)
+    #
+    #         elif op == 'Prun':
+    #             ui.write('P' if arg is None else  f'P{arg}')
+    #             self.srch.do_prune(ui, num_prunes=1 if arg is None else arg)
+    #
+    #         elif op == 'Take':
+    #             ui.write('T')
+    #             self.srch.do_take(ui)
+    #
+    #         elif op == 'Cent':
+    #             ui.write('C')
+    #             self.srch.do_center(ui)
+    #
+    #         else:
+    #             nope(op, 'invalid step')
+
 @final
 class Halo:
     Explainer = Callable[[int], Iterable[str]]
@@ -2954,6 +3347,14 @@ class Halo:
 
         self.sample: Sample|None = None
         self.last_shown: int|None = None
+
+    # TODO maybe
+    # def to_bone(self):
+    #     return '|'.join(
+    #         board.to_bone()
+    #         for board in self)
+    # @classmethod
+    # def from_bone(cls, s: str):
 
     def __len__(self):
         return len(self.ix) if self.ix is not None else len(self.boards)
@@ -3234,3 +3635,94 @@ def test_parse_result(spec: MarkedSpec):
 
 if __name__ == '__main__':
     SpaceWord.main()
+
+# TODO notes for automation
+
+# >>> GET /api/collections/games/records/i20f93him4c3sxf?expand=solutions_via_game HTTP/3
+# ... Host: api.spaceword.org
+# ... User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0
+# ... Accept: */*
+# ... Accept-Language: en-US
+# ... Accept-Encoding: gzip, deflate, br, zstd
+# ... Referer: https://spaceword.org/
+# ... Content-Type: application/json
+# ... Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb2xsZWN0aW9uSWQiOiJfcGJfdXNlcnNfYXV0aF8iLCJleHAiOjE3NjU4MDYzNTEsImlkIjoid2RrMmQwNDU3ODc0OTV3IiwicmVmcmVzaGFibGUiOnRydWUsInR5cGUiOiJhdXRoIn0.p4Oj-vC14U12PUo-J5ILiIH5KSrGo6d46jCHNkWQFRI
+# ... Origin: https://spaceword.org
+# ... Connection: keep-alive
+# ... Sec-Fetch-Dest: empty
+# ... Sec-Fetch-Mode: cors
+# ... Sec-Fetch-Site: same-site
+# ... Priority: u=4
+# ... TE: trailers
+# <<< HTTP/3 200 
+# ... access-control-allow-origin: *
+# ... alt-svc: h3=":443"; ma=86400
+# ... content-type: application/json
+# ... date: Mon, 08 Dec 2025 13:49:01 GMT
+# ... server: cloudflare
+# ... vary: Origin
+# ... x-content-type-options: nosniff
+# ... x-frame-options: SAMEORIGIN
+# ... x-xss-protection: 1; mode=block
+# ... report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=iyreLq7TESUGqpGv%2FDwxunkFkNv%2F5Vjs9tf9sImXuAmfXGcoxT4mpY%2BVFqsJJDzPNU4UxrjgXUlObTceWMDmsxOm6pv325uXKtMFb17TT0i3q6FxjpLwsfwhbtj%2F"}]}
+# ... cf-cache-status: DYNAMIC
+# ... content-encoding: zstd
+# ... nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+# ... priority: u=4,i=?0
+# ... cf-ray: 9aacb9419dc18c73-EWR
+# ... server-timing: cfExtPri
+# {
+#   "name": "Daily 2025-12-08",
+#   "type": "daily",
+#   "collectionId": "pbc_879072730",
+#   "collectionName": "games",
+#   "created": "2025-12-07 00:00:00.822Z",
+#   "updated": "2025-12-07 00:00:00.822Z"
+#   "start_time": "2025-12-08 04:00:00.000Z",
+#   "end_time": "2025-12-09 04:00:00.000Z",
+#   "expand": {},
+#   "id": "i20f93him4c3sxf",
+#   "letters": "AADEFGIINOOOQRRSUUVYZ",
+#   "streak_index": 286,
+# }
+
+# >>> GET /api/rank?gameId=i20f93him4c3sxf HTTP/3
+# ... Host: api.spaceword.org
+# ... User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0
+# ... Accept: */*
+# ... Accept-Language: en-US
+# ... Accept-Encoding: gzip, deflate, br, zstd
+# ... Referer: https://spaceword.org/
+# ... Content-Type: application/json
+# ... Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb2xsZWN0aW9uSWQiOiJfcGJfdXNlcnNfYXV0aF8iLCJleHAiOjE3NjU4MDY1NDEsImlkIjoid2RrMmQwNDU3ODc0OTV3IiwicmVmcmVzaGFibGUiOnRydWUsInR5cGUiOiJhdXRoIn0.ADMYeYzHRTzBRfwvXQ7ZVfGfjBFDRifF2vTakVSKIyg
+# ... Origin: https://spaceword.org
+# ... Connection: keep-alive
+# ... Sec-Fetch-Dest: empty
+# ... Sec-Fetch-Mode: cors
+# ... Sec-Fetch-Site: same-site
+# ... Priority: u=4
+# ... TE: trailers
+# <<< HTTP/3 200 
+# ... access-control-allow-origin: *
+# ... alt-svc: h3=":443"; ma=86400
+# ... content-type: application/json
+# ... date: Mon, 08 Dec 2025 13:49:01 GMT
+# ... server: cloudflare
+# ... vary: Origin
+# ... x-content-type-options: nosniff
+# ... x-frame-options: SAMEORIGIN
+# ... x-xss-protection: 1; mode=block
+# ... report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KNh0DCRBMo9A5crLt3tnkCfAQ1HogBJa%2F%2Bqw44UjZwsE%2BgEl%2B88gbNY%2FyogAuK7jQWDZ%2FhECIHgPeDdJL8AKgu1Kk7m99Ci03dmX7uPlCzevMMrP2iBZ3U8egxYI"}]}
+# ... cf-cache-status: DYNAMIC
+# ... content-encoding: zstd
+# ... nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+# ... priority: u=4,i=?0
+# ... cf-ray: 9aacb9427dcc8c73-EWR
+# ... server-timing: cfExtPri
+# {
+#   "totalPlayers": 157,
+#   "maxScore": 2176,
+#   "rank": 0,
+#   "score": 0,
+#   "completed": false
+# }
