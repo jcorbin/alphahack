@@ -642,6 +642,41 @@ class StoredLog:
         self.loaded = True
         self.log_file = log_file
 
+    def find_prior_log(self, ui: PromptUI, puzzle_id: str|None=None):
+        if puzzle_id is None:
+            puzzle_id = next(ui.tokens, '')
+
+        sd = self.store_subdir
+        if not sd:
+            ui.print(f'! no store directory available to look for {puzzle_id!r}')
+            raise StopIteration
+
+        if not puzzle_id:
+            ent = max(
+                (
+                    ent
+                    for ent in os.scandir(sd)
+                    if ent.is_file()
+                ),
+                key=lambda ent: ent.stat().st_mtime,
+                default=None)
+            return ent.path if ent else None
+
+        maybe_log_file = os.path.join(sd, puzzle_id)
+        if os.path.isfile(maybe_log_file):
+            return maybe_log_file
+
+        mayhaps = tuple(
+            ent.path
+            for ent in os.scandir(sd)
+            if puzzle_id in ent.name)
+        if len(mayhaps) == 1:
+            return mayhaps[0]
+        elif len(mayhaps) > 1:
+            ui.print(f'! ambiguous substring, mayhaps: {mayhaps!r}')
+        else:
+            ui.print(f'! unable to find prior log {puzzle_id!r} in {sd}')
+
     def __call__(self, ui: PromptUI) -> PromptUI.State|None:
         spec_match = re.fullmatch(r'''(?x)
                                   (?P<puzzle_id> .*? )
@@ -651,37 +686,8 @@ class StoredLog:
         if spec_match:
             puzzle_id = str(spec_match[1])
             action = str(spec_match[2])
-
-            sd = self.store_subdir
-            if not sd:
-                ui.print(f'! no store directory available to look for {puzzle_id!r}')
-                raise StopIteration
-
-            def find():
-                if not puzzle_id:
-                    return max((
-                        ent.path
-                        for ent in os.scandir(sd)
-                        if ent.is_file()
-                    ), default='')
-
-                maybe_log_file = os.path.join(sd, puzzle_id)
-                if os.path.isfile(maybe_log_file):
-                    return maybe_log_file
-
-                mayhaps = tuple(
-                    ent.path
-                    for ent in os.scandir(sd)
-                    if puzzle_id in ent.name)
-                if len(mayhaps) == 1:
-                    return mayhaps[0]
-
-                if len(mayhaps) > 1:
-                    ui.print(f'! ambiguous substring, mayhaps: {mayhaps!r}')
-
-            found_log_file = find()
+            found_log_file = self.find_prior_log(ui, puzzle_id)
             if not found_log_file:
-                ui.print(f'! unable to find prior log {puzzle_id!r} in {sd}')
                 raise StopIteration
 
             ui.print(f'Found log file {found_log_file}')
@@ -986,15 +992,30 @@ class StoredLog:
         yield ''
         yield from self.report_body
 
-    def report_header(self, desc: str|None = None) -> str:
-        return f'# {self.site_link} 🧩 {self.puzzle_id} {self.report_desc if desc is None else desc}'
+    @property
+    def note_slug(self):
+        return tuple(self.slug(link=False))
 
     @property
-    def site_link(self):
-        return f'[{self.site_name}]({self.site})' if self.site_name else f'{self.site}'
+    def header_slug(self):
+        return tuple(self.slug(link=True))
+
+    def slug(self, link: bool = True):
+        site = self.site or self.default_site
+
+        if self.site_name:
+            yield f'[{self.site_name}]({site})' if link else f'🔗 {self.site_name}'
+        else:
+            yield site if link else f'🔗 {site}'
+
+        if self.puzzle_id:
+            yield f'🧩 {self.puzzle_id}'
+
+    def report_header(self, desc: str|None = None) -> str:
+        return f'# {" ".join(self.header_slug)} {self.report_desc if desc is None else desc}'
 
     def report_note(self, desc: str|None = None) -> str:
-        return  f'- 🔗 {self.site_name or self.site} 🧩 {self.puzzle_id} {self.report_desc if desc is None else desc}'
+        return  f'- {" ".join(self.note_slug)} {self.report_desc if desc is None else desc}'
 
     def in_report(self, _ui: PromptUI):
         prefixes = (

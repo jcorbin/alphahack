@@ -12,6 +12,7 @@ pytest = "*"
 requests = "*"
 html5lib = "*"
 python-dotenv = "*"
+emoji = "*"
 
 [dev-packages]
 
