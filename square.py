@@ -4,7 +4,7 @@ import argparse
 import json
 import re
 from collections import Counter, OrderedDict
-from collections.abc import Generator, Iterable, Sequence
+from collections.abc import Container, Generator, Iterable, Sequence
 from dataclasses import dataclass
 from functools import partial
 from itertools import chain
@@ -14,8 +14,22 @@ from sortem import Chooser, DiagScores, Possible, RandScores, wrap_item
 from store import StoredLog, git_txn
 from strkit import MarkedSpec, PeekStr, spliterate
 from ui import PromptUI
-from wordlish import Attempt, Word
+from wordlish import feedback_letters, Attempt, Feedback, Question, Word
 from wordlist import WordList
+
+# TODO chase down failure
+#
+# from log/squareword.org/#1237 :102
+# 
+#     #1: done row:0 SMASH
+#     #2: done row:1 PASTA
+#     #3: done row:2 ENTER
+#     #4: done row:3 AGENT
+#     #5: for row:4 _A_TS ~AR -DEGHILMNP (2 possible)
+#        pattern: re.compile('', re.IGNORECASE) have: 0 col_may_1: [KNR]
+#        col_may_2: [A] col_may_3: [R] col_may_4: [T] col_may_5: [S]
+#     
+#     5 _A_TS ~R -DEGHILMNP
 
 def pad_rows(rows: Iterable[Iterable[str]]):
     rows = tuple(tuple(row) for row in rows)
@@ -43,6 +57,24 @@ def re_word_match(ui: PromptUI):
     if match:
         ui.tokens.rest = rest[match.end(0):] 
     return match
+
+def re_word_feedback(word: str, match: re.Match[str]):
+    word_str = cast(str, match[1] or '')
+    may_str = cast(str, match[2] or '')
+    yes = tuple('' if c == '_' else c for c in word_str.upper() if c != ' ')
+    may = set(
+        m.group(0).upper()
+        for m in re.finditer(r'[A-Z]', may_str.upper()))
+    return infer_word_feedback(word, yes, may)
+
+def infer_word_feedback(word: str,
+                        yes: Sequence[str],
+                        may: Container[str]|Iterable[str]) -> Feedback:
+    return tuple(
+        2 if yes[j].upper() == c
+        else 1 if c in may
+        else 0
+        for j, c in enumerate(word.upper()))
 
 @final
 class Search(StoredLog):
@@ -74,13 +106,15 @@ class Search(StoredLog):
         self.grid: list[str] = ['' for _ in range(self.size**2)]
 
         self.questioning: Search.Round|None = None
-        self.qmode: str = '?'
 
         self.guesses: dict[str, int] = dict() # TODO keep feedback alongside or use Attempt
         self.rejects: set[str] = set()
 
+        # TODO do we even need nope anymore?
         self.nope: set[str] = set()
-        self.row_may: tuple[set[str], ...] = tuple(set() for _ in range(self.size))
+
+        # TODO fully replace above grid and nope?
+        self.row_words = tuple(Word(self.size) for _ in range(self.size))
 
         self._result: Result|None = None
 
@@ -204,22 +238,6 @@ class Search(StoredLog):
                     continue
 
                 match = re.match(r'''(?x)
-                    may :
-                    \s+ (?P<index> \d+ )
-                    (?P<may> (?: \s+ [A-Za-z] )* )
-                    \s* ( .* )
-                    $''', rest)
-                if match:
-                    index, may, rest = match.groups()
-                    assert rest == ''
-                    word_i = int(index)
-                    may = cast(str, may)
-                    rm = self.row_may[word_i]
-                    rm.clear()
-                    rm.update(let.strip().upper() for let in may.split())
-                    continue
-
-                match = re.match(r'''(?x)
                     nope :
                     (?P<may> (?: \s+ [A-Za-z] )+ )
                     \s* ( .* )
@@ -255,17 +273,28 @@ class Search(StoredLog):
                     rest, = match.groups()
                     assert rest == ''
                     self.questioning = None
+                    self.update_grid()
                     continue
 
                 match = re.match(r'''(?x)
-                    guess :
-                    \s* (?P<word> \w+ )
+                    attempt
+                    \s+ (?P<index> \d+ )
                     \s* ( .* )
                     $''', rest)
                 if match:
-                    word, rest = match.groups()
-                    assert rest == ''
-                    _ = self.question_guess(ui, word)
+                    word_i = int(match[1])
+                    ats = str(match[2])
+                    try:
+                        at = Attempt.parse(ats)
+                    except ValueError as err:
+                        ui.print(f'! cannot parse attempt [{word_i}] {ats!r} : {err}')
+                        continue
+
+                    if self.questioning:
+                        _ = self.questioning.record(word_i, at.word, at.res)
+                    else:
+                        self.row_words[word_i].collect(at)
+                    self.update_grid()
                     continue
 
                 match = re.match(r'''(?x)
@@ -276,7 +305,8 @@ class Search(StoredLog):
                 if match:
                     word, rest = match.groups()
                     assert rest == ''
-                    self.question_reject(ui, word)
+                    self.rejects.add(word)
+                    self.questioning = None
                     continue
 
                 match = re.match(r'''(?x)
@@ -349,8 +379,10 @@ class Search(StoredLog):
     def okay_letters(self) -> Generator[str]:
         for let in self.grid:
             if let: yield let
-        for may in self.row_may:
-            yield from may
+        for word in self.row_words:
+            # for c in word.yes:
+            #     if c: yield c
+            yield from word.may
 
     recent_sug: dict[str, int] = dict()
 
@@ -524,17 +556,17 @@ class Search(StoredLog):
             for l in prior)
 
         if row is not None:
-            word = tuple(self.grid[k] for k in self.row_word_range(row))
-            may = self.row_may[row]
-            maybe_not = prior.difference(chain(may, word))
+            word = self.row_words[row]
+            yes = tuple(self.grid[k] for k in self.row_word_range(row))
+            maybe_not = prior.difference(chain(word.may, yes))
             # TODO reduce possible based on intersecting cols
             return self.Select(
-                word,
-                may = may,
+                yes,
                 void = maybe_not if avoid else (),
                 nope = self.nope,
                 guesses = self.guesses, # TODO collect and pass attempts instead?
-                row = row)
+                row = row,
+                word = word)
 
         elif col is not None:
             word = tuple(self.grid[k] for k in self.col_word_range(col))
@@ -549,20 +581,42 @@ class Search(StoredLog):
         else:
             raise RuntimeError('must provide either row or col')
 
+    def select_all(self, avoid: bool = True):
+        for i in range(self.size):
+            yield self.select(row=i, avoid=avoid)
+        for i in range(self.size):
+            yield self.select(col=i, avoid=avoid)
+
     def show(self, ui: PromptUI):
         for line in pad_rows(self.show_parts(i) for i in range(self.size)):
             ui.print(line)
         if self.nope:
             ui.print(f'no: {" ".join(sorted(let.upper() for let in self.nope))}')
 
-    def show_parts(self, word_i: int):
+    def show_parts(self, word_i: int) -> Generator[str]:
+        word = self.row_words[word_i]
         grid_yes = tuple(
             self.grid[k].upper().strip()
             for k in self.row_word_range(word_i))
 
+        def check():
+            if any(
+                a != b
+                for a, b in zip(grid_yes, word.yes)):
+                yield f'!="{word.word}"'
+
+        problems = tuple(check())
+
         yield f'#{word_i+1}'
-        yield ' '.join(c or '_' for c in grid_yes)
-        yield ' '.join(sorted(let.upper() for let in self.row_may[word_i]))
+        yield (
+            '🛑 ' if problems
+            else '📦 ' if word.done
+            else '🤔 ')
+        yield from (c or '_' for c in grid_yes)
+        yield word.may_str() if not word.done else ''
+        yield word.cant_str() if not word.done else ''
+        yield word.max_str() if not word.done else ''
+        yield ' '.join(problems)
 
     def prompt_mess(self, ui: PromptUI):
         self.show(ui)
@@ -587,7 +641,7 @@ class Search(StoredLog):
                 self.nope.add(c)
         ui.log(f'nope: {" ".join(sorted(self.nope))}')
 
-    def do_word(self, ui: PromptUI):
+    def do_word(self, ui: PromptUI) -> PromptUI.State|None:
         word_i = ui.tokens.have(r'(\d+):?', lambda m: int(m[1]), default=0) - 1
         if 0 <= word_i < self.size:
             if ui.tokens.rest.strip() == '!':
@@ -605,7 +659,7 @@ class Search(StoredLog):
             ui.print(f'! wrong size {token!r}')
             return
 
-        return self.do_round(self.round(token, 'entered'))
+        return self.do_round(self.round(token.lower(), 'entered'))
 
     def row_word_range(self, row: int):
         return range(row * self.size, (row+1) * self.size)
@@ -617,9 +671,16 @@ class Search(StoredLog):
         ui.log(f'forget: {word_i}')
         for j in self.row_word_range(word_i):
             self.grid[j] = ''
-        self.row_may[word_i].clear()
+        self.row_words[word_i].reset()
 
-    def finish(self, _ui: PromptUI):
+    def finish(self, ui: PromptUI):
+        words = self.wordlist.uniq_words
+        for sel in self.select_all():
+            word = sel.word.word
+            if word.lower() not in words:
+                ui.print(f'Novel {sel}')
+                # TODO add to wordlist
+
         return self.finalize
 
     @override
@@ -673,44 +734,6 @@ class Search(StoredLog):
                 f'{self.grid[k].upper() or "_"}'
                 for k in self.row_word_range(word_i))
             yield f'    {lets}'
-
-    def proc_re_word(self, ui: PromptUI, word_i: int):
-        with ui.tokens as _tokens:
-            match = re_word_match(ui)
-            if match:
-                return self.proc_re_word_match(ui, word_i, match)
-        return False
-
-    def proc_re_word_match(self, ui: PromptUI, word_i: int, match: re.Match[str]):
-        word_str = cast(str, match.group(1) or '')
-        may_str = cast(str|None, match.group(2))
-
-        may = self.row_may[word_i]
-
-        if word_str:
-            lets = (c for c in word_str if c != ' ')
-            offset = word_i * self.size
-            for i, let in enumerate(lets):
-                if i >= self.size:
-                    ui.print('! too much input, truncating')
-                    break
-                c = let.upper()
-                if let == '_':
-                    self.grid[offset + i] = ''
-                elif self.grid[offset + i] != c:
-                    self.grid[offset + i] = c
-                    if c in may: may.remove(c)
-
-        if may_str is not None:
-            may.clear()
-            may.update(
-                m.group(0).upper()
-                for m in re.finditer(r'[A-Za-z]', may_str))
-
-        ui.log(f'word: {word_i} {"".join(self.grid[k] or "_" for k in self.row_word_range(word_i))}')
-        ui.log(f'may: {word_i} {" ".join(sorted(self.row_may[word_i]))}')
-
-        return True
 
     def do_attempts(self, ui: PromptUI):
         avoid = True
@@ -791,7 +814,9 @@ class Search(StoredLog):
         else:
             sel = self.select(row=word_i, avoid=avoid)
 
-        words = tuple(self.find(sel.pattern, row=word_i))
+        words = tuple(
+            word.lower()
+            for word in self.find(sel.pattern, row=word_i))
         scores, explain_score = self.score_words(word_i, words)
         for i, word in enumerate(words):
             if word in self.recent_sug:
@@ -929,14 +954,21 @@ class Search(StoredLog):
         ch.prompt.set('*', self.do_choose)
         return ch
 
-    def do_round(self, rnd: 'Search.Round'):
+    def update_grid(self):
+        for i, c in enumerate(
+            c
+            for word in self.row_words
+            for c in word.yes
+        ): self.grid[i] = c
+
+    def do_round(self, rnd: 'Search.Round') -> PromptUI.State:
         def start(ui: PromptUI):
             ui.log(f'questioning: {json.dumps([rnd.guess, rnd.desc])}')
             self.questioning = rnd
-            self.qmode = '>' if rnd.guess in self.guesses else '?' # TODO auto N> wen
-            return partial(wrap, st=self.question)
+            self.guesses[rnd.guess] = len(self.guesses)
+            return partial(wrap, st=rnd)
 
-        def wrap(ui: PromptUI, st: PromptUI.State = rnd) -> PromptUI.State:
+        def wrap(ui: PromptUI, st: PromptUI.State) -> PromptUI.State:
             try:
                 nx = st(ui)
                 return partial(wrap, st=nx or st)
@@ -946,91 +978,177 @@ class Search(StoredLog):
 
         def fin(ui: PromptUI):
             ui.log('question done')
-            self.qmode = '?'
             self.questioning = None
-            ui.print('')
+            self.update_grid()
             return self.display
 
-        return wrap
+        return start
 
     def round(self, guess: str, desc: str = '<unknown>'):
-        return self.Round(guess, desc=desc)
+        def reject(ui: PromptUI, word: str):
+            word = word.upper()
+            ui.log(f'reject: {word.lower()}')
+            self.rejects.add(word)
+            self.wordlist.do_bad(ui, word, mark=f'{self.site}:')
+            raise StopIteration()
+
+        return self.Round(guess,
+                          self.row_words,
+                          desc=desc,
+                          reject=lambda word: lambda ui: reject(ui, word))
 
     @final
     class Round:
         def __init__(self,
                      guess: str,
+                     words: Iterable[Word],
                      desc: str = '<unknown>',
+                     reject: Callable[[str], PromptUI.State]|None = None,
                      ):
             self.guess = guess
             self.desc = desc
+            self.words = tuple(words)
+            self.feedback: dict[int, Feedback] = dict()
+            self.word_i = 0
+            self.qn = Question(
+                self.guess, self.collect,
+                prefix=self.qn_prefix,
+                reject=reject)
+            self.qn.prompt.update({
+                " ": self.parse,
+                '=': self.qn.parse,
+                '/it': self.do_it,
+                '/same': self.do_same,
+                '/show': self.show_feedback,
+                '.': '/same',
+            })
 
-    def question(self, ui: PromptUI):
-        q = self.qmode
-        word = self.questioning.guess.upper()
-        desc = self.questioning.desc
-        prompt = f'{word} ( {desc} )' if desc else f'{word}'
-        prompt = f'{prompt} {q} '
+        def record(self, word_i: int, guess: str, res: Feedback):
+            guess = guess.upper()
+            assert guess == self.guess.upper() # XXX invalid if Question ever supports amendment
+            at = Attempt(guess, res)
+            self.feedback[word_i] = res
+            self.words[word_i].collect(at)
+            def then(ui: PromptUI):
+                ui.log(f'attempt {self.word_i} {at}')
+                return self.seek(ui) or self
+            return then
 
-        word_i = None
-        qim = re.fullmatch(r'(?x) ( \d+ ) >', q)
-        if qim:
-            word_i = int(qim.group(1))-1
-            q = '>'
+        def collect(self, guess: str, res: Feedback):
+            return self.record(self.word_i, guess, res)
 
-        ui.copy(word)
-        self.show(ui)
+        def qn_prefix(self):
+            word = (self.words[self.word_i] if 0 <= self.word_i < len(self.words) else None)
+            return f'#{self.word_i+1} {word or "<IndexError>"} '
 
-        with ui.input(prompt) as tokens:
-            if q == '?':
-                if tokens.empty:
-                    self.question_guess(ui, word)
-                    self.qmode = '>' # TODO: auto N> wen
+        def do_it(self, _ui: PromptUI):
+            res = (2,)*len(self.guess)
+            return self.collect(self.guess, res)
+
+        def do_same(self, _ui: PromptUI):
+            word = self.words[self.word_i]
+            res = infer_word_feedback(self.guess, word.yes, word.may)
+            return self.collect(self.guess, res)
+
+        def parse(self, ui: PromptUI):
+            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+            if n is not None:
+                i = n - 1
+                if 0 <= i < len(self.words):
+                    self.word_i = i
+                    return self.qn
+
+                ui.print('! invalid word number')
+                return
+
+            match = re_word_match(ui)
+            if match:
+                # TODO loosen to allow may-only
+                try:
+                    res = re_word_feedback(self.guess, match)
+                except (ValueError, IndexError):
+                    ui.print('! invalid feedback')
+                    return
+                return self.collect(self.guess, res)(ui)
+
+            if ui.tokens:
+                ui.print('! invalid response')
+
+        def __call__(self, ui: PromptUI):
+            st = self.seek(ui)
+            if st is not None:
+                self.show_feedback(ui)
+                return st
+            return self.maybe_done(ui)
+
+        def seek(self, _ui: PromptUI) -> PromptUI.State|None:
+            try:
+                word = self.words[self.word_i]
+            except IndexError:
+                self.word_i = 0
+            while self.word_i < len(self.words):
+                word = self.words[self.word_i]
+                if self.word_i not in self.feedback:
+                    if not word.done:
+                        return self.qn
+                self.word_i += 1
+            return None
+
+        def show_feedback(self, ui: PromptUI):
+            def parts(word_i: int) -> Generator[str]:
+                word = self.words[word_i]
+                fb = self.feedback.get(word_i)
+
+                yield f'#{word_i+1}'
+
+                if fb is not None:
+                    yield '👌'
+                    yield from feedback_letters(fb)
+
+                elif word.done:
+                    yield '📦'
+                    for _ in range(len(self.guess)):
+                        yield '_' 
+
+                else:
+                    yield '🤔'
+                    for _ in range(len(self.guess)):
+                        yield '?'
+
+                yield '/'
+
+                yield from word.letters
+                yield word.may_str()
+                yield word.cant_str()
+                yield word.max_str()
+
+            for line in pad_rows(
+                parts(i) for i in range(len(self.words))
+            ): ui.print(line)
+
+        @property
+        def done(self):
+            return all(
+                word.done or i in self.feedback
+                for i, word in enumerate(self.words))
+
+        def maybe_done(self, ui: PromptUI):
+            self.show_feedback(ui)
+            with ui.input(f'{"?" if self.done else "!"} '):
+                n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+                if n is not None:
+                    i = n - 1
+                    if 0 <= i < len(self.words):
+                        self.word_i = i
+                        return self.qn
+                    ui.print('! invalid word number')
                     return
 
-                if tokens.rest.strip() == '!':
-                    self.question_reject(ui, word)
-                    return self.display
-                if tokens.rest.strip() == '.':
-                    return self.question_guess(ui, word)
+                if not ui.tokens and self.done:
+                    ui.print('... round stop') # XXX
+                    raise StopIteration()
 
-                word_i = ui.tokens.have(r'(\d+):?', lambda m: int(m[1]), default=0) - 1
-                if 0 <= word_i < self.size:
-                    match = self.re_word_match(ui)
-                    if match:
-                        self.question_guess(ui, word)
-                        if self.proc_re_word_match(ui, word_i, match): word_i += 1
-
-            elif q == '>':
-                if tokens.empty:
-                    word_i = 0 if word_i is None else word_i+1
-                else:
-                    i = ui.tokens.have(r'(\d+):?', lambda m: int(m[1]), default=0) - 1
-                    if 0 <= i < self.size:
-                        word_i = i
-                    else: return
-                    if self.proc_re_word(ui, word_i): word_i += 1
-
-            else:
-                raise RuntimeError(f'invalid qmode:{q!r}')
-
-            if word_i is None: word_i = 0
-            if word_i >= self.size:
-                raise StopIteration()
-            self.qmode = f'{word_i+1}>'
-
-    def question_guess(self, ui: PromptUI, word: str):
-        word = word.upper()
-        ui.log(f'guess: {word}')
-        self.qmode = '>'
-        if word not in self.guesses:
-            self.guesses[word] = len(self.guesses)
-
-    def question_reject(self, ui: PromptUI, word: str):
-        word = word.upper()
-        ui.log(f'reject: {word}')
-        self.rejects.add(word)
-        self.questioning = None
+                ui.print('! invalid input')
 
 @dataclass
 class Result:
