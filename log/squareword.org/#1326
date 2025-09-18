@@ -1,0 +1,135 @@
+T209.66406968515366 now: 2025-09-18T11:38:33UTC
+TD42 site: squareword.org
+TDD-13 wordlist: nwl2023.txt
+TDD3120789  ...
+TDD-1079281 🧩  ? #1326
+TDD-2041372 puzzle_id: #1326
+TDD1155907 > *
+TDD2517787 try? 2
+TDD-3673670 questioning: ["serai", "#5"]
+TDD6730759 #1 _____  📋 "serai" ? S____ ~ A
+TDD-6730553 attempt 0 SERAI Y n n m n
+TDD2314856 #2 _____  📋 "serai" ? _____ ~ ERI
+TDD-2315086 attempt 1 SERAI n m m n m
+TDD1877665 #3 _____  📋 "serai" ? _____ ~ R
+TDD-1877663 attempt 2 SERAI n n m n n
+TDD1866878 #4 _____  📋 "serai" ? _____ ~ E
+TDD-1866883 attempt 3 SERAI n m n n n
+TDD2720075 #5 _____  📋 "serai" ? _____ ~ SER
+TDD-2720082 attempt 4 SERAI m m m n n
+TDD242404 ? 
+TDD-242485 question done
+TDD771465 > *
+TDD1483588 try? 1
+TDD-2254933 questioning: ["tripe", "#2"]
+TDD5314430 #1 S____ ~A -EIR  📋 "tripe" ? S____ ~ AT
+TDD-5314455 attempt 0 TRIPE m n n n n
+TDD4687002 #2 _____ ~EIR -AS  📋 "tripe" ? ____E ~ RIT
+TDD-4687007 attempt 1 TRIPE m m m n Y
+TDD3133448 #3 _____ ~R -AEIS  📋 "tripe" ? _____ ~ R
+TDD-3133443 attempt 2 TRIPE n m n n n
+TDD2131002 #4 _____ ~E -AIRS  📋 "tripe" ? T____ ~ E
+TDD-2130994 attempt 3 TRIPE Y n n n m
+TDD2902533 #5 _____ ~ERS -AI  📋 "tripe" ? _____ ~ SER
+TDD-2902561 attempt 4 TRIPE n m n n m
+TDD1661283 ? 
+TDD-1661294 question done
+TDD6273872 > *
+TDD-3362331 try? 1
+TDD-2911523 questioning: ["litre", "#2"]
+TDD6750921 #1 S____ ~AT -EIPR  📋 "litre" ? S____ ~ AT
+TDD-6750902 attempt 0 LITRE n n m n n
+TDD1448284 #2 ____E ~IRT -APS  📋 "litre" ? _ITRE
+TDD-1448310 attempt 1 LITRE n Y Y Y Y
+TDD3204279 #3 _____ ~R -AEIPST  📋 "litre" ? .
+TDD-3204253 attempt 2 LITRE n n n m n
+TDD1310672 #4 T____ ~E -AIPRS  📋 "litre" ? .
+TDD-1310692 attempt 3 LITRE n n n n m
+TDD2755885 #5 _____ ~ERS -AIPT  📋 "litre" ? ___R_ ~ SE
+TDD-2755870 attempt 4 LITRE n n n Y m
+TDD273163 ? 
+TDD-273231 question done
+TDD4347876 > * 1
+TDD-2073363 try? ␚
+TDD-2274543 <EOF>
+TDD2469565 > * 5
+TDD6713140 try? 1
+TDD-9182607 questioning: ["hoers", "#5"]
+TDD7602997 #1 S____ ~AT -EILPR  📋 "hoers" ? S____ ~ ATH
+TDD-7603004 attempt 0 HOERS m n n n n
+TDD2796387 #2 _ITRE -ALPS  📋 "hoers" ? .
+TDD-2796392 attempt 1 HOERS n n n Y n
+TDD3109636 #3 _____ ~R -AEILPST  📋 "hoers" ? _____ ~ RO
+TDD-3109633 attempt 2 HOERS n m n m n
+TDD2497493 #4 T____ ~E -AILPRST  📋 "hoers" ? TO___ ~ E
+TDD-2497476 attempt 3 HOERS n Y m n n
+TDD5366965 #5 ___R_ ~ES -AILPT  📋 "hoers" ? __ERS ~ E
+TDD-5366977 attempt 4 HOERS n n Y Y Y
+TDD724320 ? 
+TDD-724378 question done
+TDD1587622 > * 1
+TDD1360374 try? 2
+TDD-2947945 questioning: ["swath", "#1"]
+TDD4523637 #1 S____ ~AHT -EILOPRS  📋 "swath" ? /it
+TDD-4523624 attempt 0 SWATH Y Y Y Y Y
+TDD1481268 #2 _ITRE -AEHLOPS  📋 "swath" ? .
+TDD-1481275 attempt 1 SWATH n n n n n
+TDD1314440 #3 _____ ~OR -AEHILPST  📋 "swath" ? .
+TDD-1314454 attempt 2 SWATH n n n n n
+TDD1391818 #4 TO___ ~E -AHILPRST  📋 "swath" ? .
+TDD-1391820 attempt 3 SWATH n n n n n
+TDD4037572 #5 __ERS -AHILOPT  📋 "swath" ? _WERS ~ E
+TDD-4037560 attempt 4 SWATH n Y n n n
+TDD503728 ? 
+TDD-503784 question done
+TDD942592 > *
+TDD898283 questioning: ["odour", "#3"]
+TDD7145547 #2 _ITRE -AEHLOPSTW  📋 "odour" ? .
+TDD-8986369 attempt 1 ODOUR n n n n n
+TDD741070 #3 _____ ~OR -AEHILPSTW  📋 "odour" ? /it
+TDD-741073 attempt 2 ODOUR Y Y Y Y Y
+TDD4975143 #4 TO___ ~E -AHILPRSTW  📋 "odour" ? TO___ ~ ED
+TDD-4975147 attempt 3 ODOUR n m n n n
+TDD4238345 #5 _WERS -AHILOPST  📋 "odour" ? _WERS ~ E
+TDD-4238334 attempt 4 ODOUR n n n n n
+TDD183131 ? 
+TDD-183187 question done
+TDD1184458 > *
+TDD575712 questioning: ["toned", "#4"]
+TDD2528891 #2 _ITRE -ADEHLOPRSTUW  📋 "toned" ? .
+TDD-4288994 attempt 1 TONED n n n n n
+TDD882427 #4 TO___ ~DE -AHILOPRSTUW  📋 "toned" ? /it
+TDD-882457 attempt 3 TONED Y Y Y Y Y
+TDD2859708 #5 _WERS -ADHILOPRSTU  📋 "toned" ? _WERS ~ E
+TDD-2859704 attempt 4 TONED n n n m n
+TDD178966 ? 
+TDD-179016 question done
+TDD822747 > *
+TDD505941 questioning: ["mitre", "#2"]
+TDD1234723 #2 _ITRE -ADEHLNOPRSTUW  📋 "mitre" ? /it
+TDD-2563352 attempt 1 MITRE Y Y Y Y Y
+TDD175800 #5 _WERS -ADHILNOPRSTU  📋 "mitre" ? 
+TDD5827359 #5 _WERS -ADHILNOPRSTU  ? _WERS ~ E
+TDD-6003162 attempt 4 MITRE n n n Y m
+TDD342823 ? 
+TDD-342879 question done
+TDD592046 > *
+TDD305277 questioning: ["ewers", "#5"]
+TDD4252605 #5 _WERS -ADHILMNOPSTU  📋 "ewers" ? /it
+TDD-5149871 attempt 4 EWERS Y Y Y Y Y
+TDD823173 ? 
+TDD-823235 question done
+TDD5224405 📋> squareword.org 1326: 9 guesses
+TDD-5224417 📋> 
+TDD-63 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> 🟨🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD2 📋> 🟩🟩🟨🟨🟨
+TDD-2 📋> 🟨🟩🟩🟩🟩
+TDD17 📋> 
+TDD-10 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD465993 📋> #squareword #squareword1326
+TDD-118730 📋> ␚
+TDD-347206 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1326: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1326"}
+TDD364 result: "squareword.org 1326: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1326"
+TDD495778 📆 2025-09-18 ? 
