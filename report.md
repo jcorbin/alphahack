@@ -1,213 +1,26 @@
-# 2025-09-19
+# 2025-09-20
 
-- 🔗 spaceword.org 🧩 2025-09-18 🏁 score 2170 ranked 19.5% 76/390 ⏱️ 2:07:43.747698
-- 🔗 alfagok.diginaut.net 🧩 #321 🥳 21 ⏱️ 0:05:34.018623
-- 🔗 alphaguess.com 🧩 #787 🥳 12 ⏱️ 0:16:51.058037
-- 🔗 squareword.org 🧩 #1327 🥳 9 ⏱️ 0:21:38.974094
-- 🔗 dictionary.com hurdle 🧩 #1357 🥳 20 ⏱️ 0:07:28.520670
-- 🔗 dontwordle.com 🧩 #1214 🥳 6 ⏱️ 0:09:53.959130
-- 🔗 cemantle.certitudes.org 🧩 #1264 🥳 438 ⏱️ 0:20:26.604629
-- 🔗 cemantix.certitudes.org 🧩 #1297 🥳 450 ⏱️ 0:33:36.337306
+- 🔗 spaceword.org 🧩 2025-09-19 🏁 score 2173 ranked 5.3% 20/379 ⏱️ 15:34:09.201736
+- 🔗 alfagok.diginaut.net 🧩 #322 🥳 17 ⏱️ 7:29:25.560624
+- 🔗 alphaguess.com 🧩 #788 🥳 17 ⏱️ 0:01:33.927531
+- 🔗 squareword.org 🧩 #1328 🥳 8 ⏱️ 0:04:43.751561
+- 🔗 dictionary.com hurdle 🧩 #1358 🥳 16 ⏱️ 0:08:12.125888
+- 🔗 dontwordle.com 🧩 #1215 🥳 6 ⏱️ 0:09:51.169288
+- 🔗 cemantle.certitudes.org 🧩 #1265 🥳 439 ⏱️ 0:19:19.199518
+- 🔗 cemantix.certitudes.org 🧩 #1298 🥳 792 ⏱️ 1:45:27.017735
 
 # Dev
 
 ## WIP
 
-- [rc] missing puzzle id from hurdle and dontwordle should now be fixed
-  - ... and follow on result handling improvement
-- [rc] generalized { semantic => ui }.retry ; reuse for chat iteration
-- [rc] clipboard attribution
-- [rc] tracer evolution
-- [rc] more comprehensive tracing
-  - dispatcher token handling
-  - ui log opening
-
-- [testing] fin ephemeral stored log works now...
-  - [ ] ... but dumps back into continue state, rather than stop-ing back
-    out to the meta prompt
-- [testing] standard /store command
-- [testing] standard /site command with osc-8 linking for /site
-- [testing] dynamic trace on/off used by meta
+- [rc] tracing of logging-to state and cutover transition
 
 - [dev] meta run / share / day works well enough
   - blink shell mangles pasted emoji... any way to workaround this?
 
-- [dev] binartic: pruned `press <Return> to finish` prompt
-
 ## TODO
 
-- BUG infinite spin loop at tail of space store
-  ```
-  [prior:2168]> /store
-  🔺 '/store' -> StoredLog.cmd_store
-  🔺 -> StoredLog.store
-  🔺 StoredLog.store
-  🔗 spaceword.org 🧩 2025-09-15 📆 2025-09-15
-  📁🪓 log/spaceword.org/2025-09-15
-  📁🔗 spaceword.log -> log/spaceword.org/2025-09-15
-  📜➕ log/spaceword.org/2025-09-15
-  [dev 4f7bb3b9] spaceword.org day 2025-09-15
-   1 file changed, 1723 insertions(+)
-  🗃️ spaceword.org day 2025-09-15
-  📁🪓 spaceword.log
-  🔺 store <!- cutover
-  🔺   cutover.next.append(StoredLog.do_report)
-  🔺   cutover.next.append(StoredLog.review_do_cont)
-  🔺 -!> CutoverLogError('cutover to log/spaceword.org/2025-09-15')
-  🔺 call_state <!- cutover
-  🔺 cutover.resolve
-  🔺   set_log_file log/spaceword.org/2025-09-15
-  ^C
-  while loading 'num_letters: 21'
-   <INT>
-   <INT>
-  ```
-
-  stored log continues dirty:
-  ```
-   TDD1673940 [prior:2168]> /store
-  +TDD-1640655 num_letters: 21
-  +TDD726806 num_letters: 21
-  +TDD-760885 num_letters: 21
-  +TDD-17 num_letters: 21
-  +TDD-2 num_letters: 21
-  +TDD-1 num_letters: 21
-  +TDD0 num_letters: 21
-  +TDD0 num_letters: 21
-  ...
-  ```
-
-- BUG another space `fin -> should <STOP> but keeps going`
-  ```
-  📋> 🔺 -> StoredLog.finalize
-  🔺 StoredLog.finalize -> StoredLog.store
-  🔺 StoredLog.store
-  🔗 spaceword.org 🧩 2025-09-14 📆 2025-09-14
-  📁🪓 log/spaceword.org/2025-09-14
-  📁🔗 spaceword.log.fin -> log/spaceword.org/2025-09-14
-  📜➕ log/spaceword.org/2025-09-14
-  [dev 642c1ae4] spaceword.org day 2025-09-14
-   1 file changed, 14 insertions(+)
-  🗃️ spaceword.org day 2025-09-14
-  📁🪓 spaceword.log.fin
-  🔺 store <!- cutover .next.append(StoredLog.do_report) .next.append(StoredLog.review_do_cont)
-  🔺 -!> CutoverLogError('cutover to new log file')
-  🔺 restart <!- cutover -> cutover to new log file
-  🔺 -> cutover to new log file
-  🔺 cutover to new log file
-  📜➕ report.md
-  [dev 94d1f0d1] DAILY spaceword.org
-   1 file changed, 9 insertions(+), 9 deletions(-)
-  🔺 -> <AGAIN>
-  🔺 cutover to new log file
-  ```
-  - [dev] also make those cutover .next.append-s nicer
-  - [dev] also call-out the cutover next state loop better
-
-- fin then eof seems okay for now
-  ```
-  📋> 🔺 -> StoredLog.finalize
-  🔺 StoredLog.finalize -> StoredLog.store
-  🔺 StoredLog.store📆 2025-09-15 ?
-  🔗 squareword.org 🧩 #1323 📆 2025-09-15
-  📁🔗 squareword.log -> log/squareword.org/#1323
-  📜➕ log/squareword.org/#1323
-  [dev 0333965a] squareword.org day #1323
-   1 file changed, 94 insertions(+)
-   create mode 100644 log/squareword.org/#1323
-  🗃️ squareword.org day #1323
-  📁🪓 squareword.log
-  🔺 store <!- cutover
-  🔺   cutover.next.append(StoredLog.do_report)
-  🔺   cutover.next.append(PromptUI.then_eof)
-  🔺 -!> CutoverLogError('cutover to log/squareword.org/#1323')
-  🔺 -!> CutoverLogError('cutover to log/squareword.org/#1323')
-  🔺 -!> CutoverLogError('cutover to log/squareword.org/#1323')
-  🔺 -!> CutoverLogError('cutover to log/squareword.org/#1323')
-  🔺 -!> CutoverLogError('cutover to log/squareword.org/#1323')
-  🔺 -!> CutoverLogError('cutover to log/squareword.org/#1323')
-  🔺 -!> CutoverLogError('cutover to log/squareword.org/#1323')
-  🔺 call_state <!- cutover -> cutover to log/squareword.org/#1323
-  🔺 -> cutover to log/squareword.org/#1323
-  🔺 cutover to log/squareword.org/#1323
-  🔺 cutover ( StoredLog.do_report
-  📜➕ report.md
-  [dev 1208758d] DAILY squareword.org
-   1 file changed, 22 insertions(+)
-  🔺 )
-  🔺 -> <AGAIN>
-  🔺 cutover to log/squareword.org/#1323
-  🔺 cutover ( PromptUI.then_eof )
-  🔺 -!> <EOF>
-   <EOF>
-  🔺 -> <AGAIN>
-  🔺 <__main__.Meta object at 0x7f8ef5006cf0>
-  ```
-  - the `-!> CutoverLogError` stutter is actually a hint at lacking trace
-    instrumentation as it unrolls many nested `call_state` loops
-
-- hmm `cutover.next.append(StoredLog.handle)` may be pending over entire
-  continued run then...
-
-  ```
-  📜➕ log/spaceword.org/2025-09-15
-  [dev fc6dddd0] spaceword.org day 2025-09-15
-   1 file changed, 15626 insertions(+)
-  🗃️ spaceword.org day 2025-09-15
-  📁🪓 spaceword.log
-  🔺 store <!- cutover
-  🔺   cutover.next.append(StoredLog.do_report)
-  🔺   cutover.next.append(StoredLog.review_do_cont)
-  🔺 -!> CutoverLogError('cutover to log/spaceword.org/2025-09-15')
-  🔺 call_state <!- cutover
-  🔺 cutover.resolve
-  🔺   set_log_file log/spaceword.org/2025-09-15
-  🔺   cutover.next.append(StoredLog.handle)
-  🔺 -> cutover to log/spaceword.org/2025-09-15
-  🔺 -> cutover to log/spaceword.org/2025-09-15
-  🔺 cutover to log/spaceword.org/2025-09-15
-  🔺 cutover ( StoredLog.do_report
-  📜➕ report.md
-  [dev 258d48e3] DAILY spaceword.org
-   1 file changed, 16 insertions(+), 14 deletions(-)
-  🔺 )
-  🔺 -> <AGAIN>
-  🔺 cutover to log/spaceword.org/2025-09-15
-  🔺 cutover ( StoredLog.review_do_cont
-  *** 46460. T82.2 [prior:2164]> /store
-  log file (default: spaceword.log) ?
-  ^^^ continuing from last line
-  🔺 starting ui log to 'spaceword.log' implicit
-  🔺 <spaceword.SpaceWord object at 0x731802300550> -> StoredLog.handle
-  🔺 StoredLog.handle
-  🔺 redundant store.log_to to 'spaceword.log' implicit
-  🔺 StoredLog.run
-  📜 spaceword.log with 5 prior sessions over 1:40:46.078053
-  ⏰ Expires 2025-09-16 00:00:00-04:00
-  🔺 -> SpaceWord.startup
-  🔺 SpaceWord.startup -> <ui.Prompt object at 0x73180234d940>
-  🔺 <ui.Prompt object at 0x73180234d940>
-  -<0 0 X>----------------
-  ```
-
-  confirmed:
-  ```
-  [prior:2164]> 🔺 -!> <EOF>
-  🔺 -!> <EOF>
-  🔺 )
-  🔺 -> <AGAIN>
-  🔺 cutover to log/spaceword.org/2025-09-15
-  🔺 cutover -> StoredLog.handle
-  🔺 -> StoredLog.handle
-  🔺 StoredLog.handle
-  🔺 starting ui log to 'spaceword.log' implicit
-  🔺 StoredLog.run
-  📜 spaceword.log with 5 prior sessions over 1:40:46.078053
-  ⏰ Expires 2025-09-16 00:00:00-04:00
-  🔺 -> SpaceWord.startup
-  🔺 SpaceWord.startup -> <ui.Prompt object at 0x73180234d940>
-  🔺 <ui.Prompt object at 0x73180234d940>
-  ```
+- square: finish questioning work
 
 - long lines like these are hard to read; a line-breaking pretty formatter
   would be nice:
@@ -216,13 +29,12 @@
   🔺 functools.partial(<function Search.do_round.<locals>.wrap at 0x7f8ef4e0f100>, st=<wordlish.Question object at 0x7f8ef4e52e90>)#1 ____S ~E -ANT  📋 "elder" ? _L__S ~ ESD
   ```
 
-- better meta
+- meta:
   - [ ] store daily share(d) state
   - [ ] better logic circa end of day early play, e.g. doing a CET timezone
         puzzle close late in the "prior" day local (EST) time
   - [ ] similarly, early play of next-day spaceword should work gracefully
-
-- square: finish questioning work
+  - [ ] support other intervals like weekly/monthly for spaceword
 
 - replay last paste to ease dev sometimes
 
@@ -321,200 +133,195 @@
   - `rm` alias
   - dynamically generated suggestion prompt, or at least one that's correct ( as "r" is ambiguously actually )
 
+# spaceword.org 🧩 2025-09-19 🏁 score 2173 ranked 5.3% 20/379 ⏱️ 15:34:09.201736
 
-
-
-# spaceword.org 🧩 2025-09-18 🏁 score 2170 ranked 19.5% 76/390 ⏱️ 2:07:43.747698
-
-📜 2 sessions
+📜 5 sessions
 - tiles: 21/21
-- score: 2170 bonus: +70
-- rank: 76/390
+- score: 2173 bonus: +73
+- rank: 20/379
 
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ F O Y _ _ _ _   
-      _ _ _ _ U _ U M _ _   
-      _ _ _ _ R _ N A _ _   
-      _ _ _ V A R I X _ _   
-      _ _ _ O R E _ _ _ _   
-      _ _ _ W I D E _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
+      _ J _ H E X A G O N   
+      _ U _ O _ _ V _ N E   
+      _ G E O I D A L _ T   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
 
 
-# alfagok.diginaut.net 🧩 #321 🥳 21 ⏱️ 0:05:34.018623
+# alfagok.diginaut.net 🧩 #322 🥳 17 ⏱️ 7:29:25.560624
 
-🤔 21 attempts
-📜 1 sessions
-
-    @        [     0] &-teken        
-    @+1      [     1] &-tekens       
-    @+2      [     2] -cijferig      
-    @+3      [     3] -e-mail        
-    @+199853 [199853] lijm           q0  ? after
-    @+299778 [299778] schub          q1  ? after
-    @+311948 [311948] spier          q5  ? after
-    @+314657 [314657] st             q6  ? after
-    @+319452 [319452] stik           q7  ? after
-    @+321900 [321900] straten        q8  ? after
-    @+323125 [323125] structuralist  q9  ? after
-    @+323208 [323208] struikel       q12 ? after
-    @+323254 [323254] struis         q13 ? after
-    @+323285 [323285] stuc           q16 ? after
-    @+323294 [323294] studeer        q17 ? after
-    @+323300 [323300] studeerkamer   q18 ? after
-    @+323306 [323306] studeervertrek q19 ? after
-    @+323308 [323308] student        q20 ? it
-    @+323308 [323308] student        done. it
-    @+323312 [323312] studenten      q11 ? before
-    @+323512 [323512] studie         q10 ? before
-    @+324353 [324353] sub            q3  ? after
-    @+324353 [324353] sub            q4  ? before
-    @+349562 [349562] vakantie       q2  ? before
-
-# alphaguess.com 🧩 #787 🥳 12 ⏱️ 0:16:51.058037
-
-🤔 12 attempts
-📜 1 sessions
-
-    @        [     0] aa      
-    @+1      [     1] aah     
-    @+2      [     2] aahed   
-    @+3      [     3] aahing  
-    @+98232  [ 98232] mach    q0  ? after
-    @+147337 [147337] rho     q1  ? after
-    @+171937 [171937] tag     q2  ? after
-    @+182024 [182024] un      q3  ? after
-    @+189287 [189287] vicar   q4  ? after
-    @+192891 [192891] whir    q5  ? after
-    @+193507 [193507] win     q7  ? after
-    @+194087 [194087] wo      q8  ? after
-    @+194288 [194288] wood    q9  ? after
-    @+194501 [194501] word    q10 ? after
-    @+194531 [194531] work    q11 ? it
-    @+194531 [194531] work    done. it
-    @+194716 [194716] worship q6  ? before
-
-# squareword.org 🧩 #1327 🥳 9 ⏱️ 0:21:38.974094
-
+🤔 17 attempts
 📜 2 sessions
+
+    @        [     0] &-teken         
+    @+1      [     1] &-tekens        
+    @+2      [     2] -cijferig       
+    @+3      [     3] -e-mail         
+    @+8648   [  8648] af              q4  ? after
+    @+16156  [ 16156] am              q5  ? after
+    @+18134  [ 18134] anti            q7  ? after
+    @+18634  [ 18634] antithese       q9  ? after
+    @+18754  [ 18754] antwoord        q12 ? after
+    @+18768  [ 18768] antwoordde      q15 ? after
+    @+18771  [ 18771] antwoorden      q16 ? it
+    @+18771  [ 18771] antwoorden      done. it
+    @+18781  [ 18781] antwoordenvelop q14 ? before
+    @+18813  [ 18813] antwoordt       q13 ? before
+    @+18873  [ 18873] apartheid       q10 ? before
+    @+19131  [ 19131] app             q8  ? before
+    @+20530  [ 20530] arg             q6  ? before
+    @+24911  [ 24911] bad             q3  ? before
+    @+49848  [ 49848] boks            q2  ? before
+    @+99758  [ 99758] ex              q1  ? before
+    @+199852 [199852] lijm            q0  ? before
+
+# alphaguess.com 🧩 #788 🥳 17 ⏱️ 0:01:33.927531
+
+🤔 17 attempts
+📜 1 sessions
+
+    @        [     0] aa       
+    @+1      [     1] aah      
+    @+2      [     2] aahed    
+    @+3      [     3] aahing   
+    @+98232  [ 98232] mach     q0  ? after
+    @+147337 [147337] rho      q1  ? after
+    @+171937 [171937] tag      q2  ? after
+    @+182024 [182024] un       q3  ? after
+    @+189287 [189287] vicar    q4  ? after
+    @+191067 [191067] walk     q6  ? after
+    @+191930 [191930] we       q7  ? after
+    @+192039 [192039] weather  q10 ? after
+    @+192099 [192099] webcast  q11 ? after
+    @+192127 [192127] webs     q12 ? after
+    @+192128 [192128] website  done. it
+    @+192129 [192129] websites q16 ? before
+    @+192131 [192131] websters q15 ? before
+    @+192134 [192134] webworm  q14 ? before
+    @+192140 [192140] wed      q13 ? before
+    @+192165 [192165] wee      q9  ? before
+    @+192400 [192400] wen      q8  ? before
+    @+192891 [192891] whir     q5  ? before
+
+# squareword.org 🧩 #1328 🥳 8 ⏱️ 0:04:43.751561
+
+📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
+    🟩 🟩 🟨 🟨 🟨
+    🟨 🟨 🟨 🟨 🟨
+    🟨 🟨 🟨 🟩 🟨
     🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟩 🟩 🟩
-    🟨 🟨 🟩 🟨 🟨
-    🟨 🟨 🟨 🟨 🟩
-    🟩 🟨 🟨 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    C R E P T
-    L E V E E
-    A V E R S
-    M E R I T
-    S L Y L Y
+    S P L I T
+    W H A L E
+    E A T E N
+    P S E U D
+    T E R M S
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1357 🥳 20 ⏱️ 0:07:28.520670
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1358 🥳 16 ⏱️ 0:08:12.125888
 
 📜 1 sessions
-💰 score: 9600
+💰 score: 10000
 
-    5/6
-    OSTIA 🟨⬜⬜⬜⬜
-    VOMER ⬜🟩⬜🟨⬜
-    YODLE ⬜🟩⬜🟩🟩
-    JOULE ⬜🟩⬜🟩🟩
-    NOBLE 🟩🟩🟩🟩🟩
     4/6
-    NOBLE 🟨⬜⬜🟨⬜
-    LIGAN 🟨⬜🟨🟨🟨
-    GLANS 🟨🟩🟩🟩🟨
-    SLANG 🟩🟩🟩🟩🟩
-    6/6
-    SLANG 🟨⬜🟩⬜⬜
-    DEARS ⬜⬜🟩⬜🟨
-    QUASI ⬜⬜🟩🟩⬜
-    CHASM ⬜⬜🟩🟩⬜
-    BOAST ⬜⬜🟩🟩🟩
-    AVAST 🟩🟩🟩🟩🟩
+    CESTA ⬜🟨⬜⬜🟨
+    RAYED ⬜🟩⬜🟨⬜
+    NAEVI 🟨🟩🟨⬜⬜
+    MANGE 🟩🟩🟩🟩🟩
     4/6
-    AVAST 🟨⬜🟨⬜⬜
-    LARUM ⬜🟩⬜⬜⬜
-    CAPON ⬜🟩🟨⬜🟩
-    PAGAN 🟩🟩🟩🟩🟩
+    MANGE ⬜🟨⬜⬜⬜
+    ASTIR 🟨🟨⬜⬜⬜
+    ODAHS 🟨⬜🟩🟨🟩
+    CHAOS 🟩🟩🟩🟩🟩
+    3/6
+    CHAOS 🟨⬜⬜⬜⬜
+    TUNIC 🟩🟨⬜⬜🟨
+    TRUCK 🟩🟩🟩🟩🟩
+    4/6
+    TRUCK ⬜⬜⬜⬜⬜
+    LIANE 🟨🟨⬜⬜⬜
+    SPOIL 🟩🟩⬜🟨🟩
+    SPILL 🟩🟩🟩🟩🟩
     Final 1/2
-    PECAN 🟩🟩🟩🟩🟩
+    ONSET 🟩🟩🟩🟩🟩
 
-# dontwordle.com 🧩 #1214 🥳 6 ⏱️ 0:09:53.959130
+# dontwordle.com 🧩 #1215 🥳 6 ⏱️ 0:09:51.169288
 
 📜 1 sessions
-💰 score: 6
+💰 score: 28
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:JUJUS n n n n n remain:5557
-    ⬜⬜⬜⬜⬜ tried:RADAR n n n n n remain:1383
-    ⬜⬜⬜⬜⬜ tried:INFIX n n n n n remain:453
-    ⬜⬜⬜⬜⬜ tried:GHYLL n n n n n remain:76
-    ⬜🟩⬜⬜⬜ tried:KEEVE n Y n n n remain:5
-    🟨🟩🟨⬜🟩 tried:PETTO m Y m n Y remain:1
+    ⬜⬜⬜⬜⬜ tried:MIMIC n n n n n remain:6772
+    ⬜⬜⬜⬜⬜ tried:BENNE n n n n n remain:2101
+    ⬜⬜⬜⬜⬜ tried:QAJAQ n n n n n remain:907
+    ⬜⬜⬜⬜⬜ tried:SHUSH n n n n n remain:141
+    ⬜⬜⬜⬜⬜ tried:XYLYL n n n n n remain:22
+    ⬜🟨⬜🟩⬜ tried:KOTOW n m n Y n remain:4
 
-    Undos used: 5
+    Undos used: 4
 
-      1 words remaining
-    x 6 unused letters
-    = 6 total score
+      4 words remaining
+    x 7 unused letters
+    = 28 total score
 
-# cemantle.certitudes.org 🧩 #1264 🥳 438 ⏱️ 0:20:26.604629
+# cemantle.certitudes.org 🧩 #1265 🥳 439 ⏱️ 0:19:19.199518
 
-🤔 439 attempts
+🤔 440 attempts
+📜 2 sessions
+🫧 15 chat sessions
+⁉️ 90 chat prompts
+🤖 11 llama3.2:latest replies
+🤖 79 gemma3:12b replies
+🥵   8 😎  53 🥶 358 🧊  20
+
+      $1 #440   ~1 fold             100.00°C 🥳 1000‰
+      $2 #275  ~33 multiply          34.73°C 🥵  988‰
+      $3 #325  ~27 grow              28.86°C 🥵  970‰
+      $4 #254  ~37 increase          28.13°C 🥵  962‰
+      $5 #240  ~40 percent           27.98°C 🥵  960‰
+      $6 #314  ~29 figure            27.38°C 🥵  955‰
+      $7  #88  ~59 join              25.95°C 🥵  924‰
+      $8 #437   ~2 double            25.57°C 🥵  911‰
+      $9 #245  ~38 add               25.24°C 🥵  903‰
+     $10 #331  ~24 distend           24.95°C 😎  895‰
+     $11 #210  ~46 attach            24.50°C 😎  878‰
+     $12 #236  ~41 proportion        24.21°C 😎  865‰
+     $63 #199      transfuse         18.26°C 🥶
+    $421 #167      overlay           -0.19°C 🧊
+
+# cemantix.certitudes.org 🧩 #1298 🥳 792 ⏱️ 1:45:27.017735
+
+🤔 793 attempts
 📜 1 sessions
-🫧 16 chat sessions
-⁉️ 102 chat prompts
-🤖 15 llama3.2:latest replies
-🤖 87 gemma3:12b replies
-😱   1 🔥   3 🥵  19 😎  50 🥶 335 🧊  30
+🫧 35 chat sessions
+⁉️ 229 chat prompts
+🤖 61 llama3.2:latest replies
+🤖 168 gemma3:12b replies
+🔥   1 🥵  23 😎 161 🥶 562 🧊  45
 
-      $1 #439   ~1 specialize       100.00°C 🥳 1000‰
-      $2 #316  ~33 specialized       65.36°C 😱  999‰
-      $3 #427   ~4 specialization    52.74°C 🔥  997‰
-      $4 #340  ~28 niche             42.42°C 🔥  994‰
-      $5 #392   ~8 specialist        39.82°C 🔥  990‰
-      $6 #342  ~26 dedicated         39.45°C 🥵  989‰
-      $7 #368  ~12 concentrated      38.78°C 🥵  987‰
-      $8 #433   ~3 focus             38.14°C 🥵  984‰
-      $9 #434   ~2 concentrate       37.76°C 🥵  982‰
-     $10 #315  ~34 focused           37.71°C 🥵  981‰
-     $11 #403   ~6 expertise         37.25°C 🥵  979‰
-     $25 #154  ~55 carpentry         29.09°C 😎  897‰
-     $75 #297      distinct          19.54°C 🥶
-    $410 #332      measured          -0.07°C 🧊
-
-# cemantix.certitudes.org 🧩 #1297 🥳 450 ⏱️ 0:33:36.337306
-
-🤔 451 attempts
-📜 1 sessions
-🫧 18 chat sessions
-⁉️ 106 chat prompts
-🤖 15 llama3.2:latest replies
-🤖 91 gemma3:12b replies
-😱   1 🔥   3 🥵  21 😎  88 🥶 288 🧊  49
-
-      $1 #451   ~1 confortable       100.00°C 🥳 1000‰
-      $2 #115  ~92 confort            69.51°C 😱  999‰
-      $3 #262  ~45 agréable           59.19°C 🔥  997‰
-      $4 #366  ~15 élégant            50.01°C 🔥  992‰
-      $5 #345  ~20 luxueux            49.78°C 🔥  991‰
-      $6 #314  ~28 douillet           49.40°C 🥵  989‰
-      $7 #261  ~46 accueillant        45.29°C 🥵  979‰
-      $8 #202  ~67 maniable           44.34°C 🥵  976‰
-      $9 #413   ~8 couchette          44.31°C 🥵  975‰
-     $10 #221  ~58 facile             43.86°C 🥵  972‰
-     $11 #264  ~43 chaleureux         43.10°C 🥵  970‰
-     $27  #51 ~106 rangement          36.73°C 😎  898‰
-    $115 #106      fonctionnel        22.58°C 🥶
-    $403 #162      rationalité        -0.06°C 🧊
+      $1 #793   ~1 intermédiaire     100.00°C 🥳 1000‰
+      $2 #458  ~69 organisme          47.48°C 🔥  996‰
+      $3 #612  ~30 spécifique         43.19°C 🥵  985‰
+      $4 #118 ~155 structure          40.87°C 🥵  968‰
+      $5 #520  ~52 entité             40.59°C 🥵  964‰
+      $6 #778   ~4 par                40.31°C 🥵  962‰
+      $7 #149 ~146 fonction           40.21°C 🥵  961‰
+      $8 #542  ~44 service            39.61°C 🥵  955‰
+      $9 #719  ~16 fournisseur        39.52°C 🥵  954‰
+     $10 #212 ~119 relation           39.19°C 🥵  950‰
+     $11 #374  ~82 liaison            38.75°C 🥵  944‰
+     $26  #99 ~164 opération          35.39°C 😎  892‰
+    $187 #471      intégration        24.07°C 🥶
+    $749 #153      conduit            -0.03°C 🧊
