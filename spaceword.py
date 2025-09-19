@@ -1613,26 +1613,14 @@ class SpaceWord(StoredLog):
         sel = self.board.select(self.cursor)
         pos = sel.possible(ui, lambda pat: grep(self.wordlist.words, pat, anchor='full'))
         if not pos: return
-
-        def interact(ui: PromptUI):
-            ui.print(f'{pos} to write @{sel.cursor}+{len(sel)}')
-            for line in pos.show_list():
-                ui.print(line)
-            with (
-                ui.catch_state(EOFError, self.play),
-                ui.input(f'try? ')):
-                n = ui.tokens.have(r'(\d+)', lambda match: int(match[1]))
-                if n is None: return
-                try:
-                    word = pos.data[pos.get(n)]
-                except IndexError as err:
-                    ui.print(f'! invalid *-list reference: {err}')
-                    return
-                ui.print(f'- writing {word!r} @{sel.cursor}+{len(sel)}')
-                self.update(ui, sel.updates(word))
-                return self.play
-
-        return interact
+        def chosen(word: str):
+            ui.print(f'- writing {word!r} @{sel.cursor}+{len(sel)}')
+            self.update(ui, sel.updates(word))
+            return self.play
+        return pos.choose(
+            chosen,
+            head=lambda ui: ui.print(f'{pos} to write @{sel.cursor}+{len(sel)}'),
+            mess='try? ')
 
     def cmd_letters(self, _ui: PromptUI):
         '''
