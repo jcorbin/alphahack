@@ -1,0 +1,44 @@
+T972.0119762690738 now: 2025-09-19T13:12:01UTC
+TD55 site: alphaguess.com
+TDD63787 loaded 196548 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (55 words excluded) asof 7f5f4f86d2cccdf824a2a385e98a7c0c91873e0a
+TDD9228791  ...
+TDD-5947494 [0 : 98232 : 196548] mach? a
+TDD-3345051 progress: 1 98232 mach
+TDD1841136 [98233 : 147337 : 196548] rho? a
+TDD-1841123 progress: 1 147337 rho
+TDD4406934 [147338 : 171937 : 196548] tag? a
+TDD-4406940 progress: 1 171937 tag
+TDD1422805 [171938 : 182024 : 196548] un? a
+TDD-1422798 progress: 1 182024 un
+TDD1710753 [182025 : 189287 : 196548] vicar? a
+TDD-1710768 progress: 1 189287 vicar
+TDD1746806 [189288 : 192891 : 196548] whir? a
+TDD-1746794 progress: 1 192891 whir
+TDD1972771 [192892 : 194716 : 196548] worship? b
+TDD-1972776 progress: -1 194716 worship
+TDD1890331 [192892 : 193507 : 194716] win? a
+TDD-1890355 progress: 1 193507 win
+TDD1585805 [193508 : 194087 : 194716] wo? a
+TDD-1585777 progress: 1 194087 wo
+TDD2055025 [194088 : 194288 : 194716] wood? a
+TDD-2055035 progress: 1 194288 wood
+TDD1871920 [194289 : 194501 : 194716] word? a
+TDD-1871923 progress: 1 194501 word
+TDD1772084 [194502 : 194531 : 194716] work? it
+TDD-1772064 progress: 0 194531 work
+TDD-87 [194502 : 194531 : 194716] <Done>.
+TDD2980784 📋> 🧩 Puzzle #787
+TDD-2980732 📋> 
+TDD-48 📋> 🤔 13 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 23s
+TDD-1 📋> 
+TDD354185 📋> 🔗 alphaguess.com
+TDD-57710 📋> ␚
+TDD-296414 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #787\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-11 share result: "\ud83e\udde9 Puzzle #787\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"
+TDD-50 result puzzle: 787
+TDD-5 result guesses: 13
+TDD0 result time: 23s
+TDD0 result link: alphaguess.com
+TDD434022 📆 2025-09-19 ? 
