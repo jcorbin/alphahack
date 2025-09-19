@@ -1,0 +1,56 @@
+T276.7020966662094 now: 2025-09-19T13:00:25UTC
+TD48 site: alfagok.diginaut.net
+TDD151467 loaded 399734 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1118 words excluded) asof 7f5f4f86d2cccdf824a2a385e98a7c0c91873e0a
+TDD9317493  ...
+TDD-6069074 [0 : 199853 : 399734] lijm? a
+TDD-3399697 progress: 1 199853 lijm
+TDD1813372 [199854 : 299778 : 399734] schub? a
+TDD-1813510 progress: 1 299778 schub
+TDD2069462 [299779 : 349564 : 399734] vakantie? b
+TDD-2069465 progress: -1 349564 vakantie
+TDD1716313 [299779 : 324355 : 349564] sub?  
+TDD-980816 [299779 : 324355 : 349564] sub? b
+TDD-735509 progress: -1 324355 sub
+TDD1578973 [299779 : 311948 : 324355] spier? a
+TDD-1578971 progress: 1 311948 spier
+TDD1465452 [311949 : 314657 : 324355] st? a
+TDD-1465436 progress: 1 314657 st
+TDD1472324 [314658 : 319452 : 324355] stik? a
+TDD-1472335 progress: 1 319452 stik
+TDD1394660 [319453 : 321900 : 324355] straten? a
+TDD-1394656 progress: 1 321900 straten
+TDD1264917 [321901 : 323125 : 324355] structuralist? a
+TDD-1264914 progress: 1 323125 structuralist
+TDD1489278 [323126 : 323514 : 324355] studie? b
+TDD-1489263 progress: -1 323514 studie
+TDD1626685 [323126 : 323314 : 323514] studenten? b
+TDD-1626699 progress: -1 323314 studenten
+TDD1551559 [323126 : 323208 : 323314] struikel? a
+TDD-1551578 progress: 1 323208 struikel
+TDD1614055 [323209 : 323254 : 323314] struis? a
+TDD-1614022 progress: 1 323254 struis
+TDD3175981 [323255 : 323284 : 323314] stuart? !
+TDD-1186902 [323255 : 323284 : 323313] stuarts? !
+TDD1931084 [323255 : 323285 : 323312] stuc? a
+TDD-3920187 progress: 1 323285 stuc
+TDD3758944 [323286 : 323294 : 323312] studeer? a
+TDD-3758923 progress: 1 323294 studeer
+TDD2661412 [323295 : 323300 : 323312] studeerkamer? a
+TDD-2661418 progress: 1 323300 studeerkamer
+TDD2320706 [323301 : 323306 : 323312] studeervertrek? a
+TDD-2320726 progress: 1 323306 studeervertrek
+TDD1942503 [323307 : 323308 : 323312] student? it
+TDD-1942492 progress: 0 323308 student
+TDD-59 [323307 : 323308 : 323312] <Done>.
+TDD3711771 📋> 🧩 Puzzel #321
+TDD-3711721 📋> 🤔 18 gokken
+TDD-60 📋> ⏱️ 40s
+TDD280485 📋> 🔗 alfagok.diginaut.net
+TDD79276 📋> ␚
+TDD-359702 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #321\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 40s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD234 share result: "\ud83e\udde9 Puzzel #321\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 40s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-299 result puzzle: 321
+TDD-6 result guesses: 18
+TDD11 result time: 40s
+TDD-13 result link: alfagok.diginaut.net
+TDD377969 📆 2025-09-19 ? 
