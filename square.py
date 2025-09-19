@@ -951,7 +951,7 @@ class Search(StoredLog):
             ui.log(f'questioning: {json.dumps([rnd.guess, rnd.desc])}')
             self.questioning = rnd
             self.guesses[rnd.guess] = len(self.guesses)
-            return wrap
+            return partial(wrap, st=rnd)
 
         def wrap(ui: PromptUI, st: PromptUI.State) -> PromptUI.State:
             try:
