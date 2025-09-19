@@ -9,7 +9,7 @@ start
 update refs/heads/main origin/main
 update refs/heads/rc origin/rc
 update refs/heads/testing origin/testing
-update refs/heads/daily origin/daily
+delete refs/heads/daily
 prepare
 commit
 EOF
