@@ -587,7 +587,7 @@ class Search(StoredLog):
                 self.nope.add(c)
         ui.log(f'nope: {" ".join(sorted(self.nope))}')
 
-    def do_word(self, ui: PromptUI):
+    def do_word(self, ui: PromptUI) -> PromptUI.State|None:
         word_i = ui.tokens.have(r'(\d+):?', lambda m: int(m[1]), default=0) - 1
         if 0 <= word_i < self.size:
             if ui.tokens.rest.strip() == '!':
@@ -929,14 +929,14 @@ class Search(StoredLog):
         ch.prompt.set('*', self.do_choose)
         return ch
 
-    def do_round(self, rnd: 'Search.Round'):
+    def do_round(self, rnd: 'Search.Round') -> PromptUI.State:
         def start(ui: PromptUI):
             ui.log(f'questioning: {json.dumps([rnd.guess, rnd.desc])}')
             self.questioning = rnd
             self.qmode = '>' if rnd.guess in self.guesses else '?' # TODO auto N> wen
             return partial(wrap, st=self.question)
 
-        def wrap(ui: PromptUI, st: PromptUI.State = rnd) -> PromptUI.State:
+        def wrap(ui: PromptUI, st: PromptUI.State) -> PromptUI.State:
             try:
                 nx = st(ui)
                 return partial(wrap, st=nx or st)
@@ -951,7 +951,7 @@ class Search(StoredLog):
             ui.print('')
             return self.display
 
-        return wrap
+        return lambda ui: wrap(ui, rnd)
 
     def round(self, guess: str, desc: str = '<unknown>'):
         return self.Round(guess, desc=desc)
@@ -965,7 +965,12 @@ class Search(StoredLog):
             self.guess = guess
             self.desc = desc
 
+        def __call__(self, ui: PromptUI):
+            raise NotImplemented
+
     def question(self, ui: PromptUI):
+        if self.questioning is None:
+            raise StopIteration
         q = self.qmode
         word = self.questioning.guess.upper()
         desc = self.questioning.desc
@@ -996,7 +1001,7 @@ class Search(StoredLog):
 
                 word_i = ui.tokens.have(r'(\d+):?', lambda m: int(m[1]), default=0) - 1
                 if 0 <= word_i < self.size:
-                    match = self.re_word_match(ui)
+                    match = re_word_match(ui)
                     if match:
                         self.question_guess(ui, word)
                         if self.proc_re_word_match(ui, word_i, match): word_i += 1
