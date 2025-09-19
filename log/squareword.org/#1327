@@ -1,0 +1,138 @@
+T1075.9454320147634 now: 2025-09-19T13:13:45UTC
+TD60 site: squareword.org
+TDD-20 wordlist: nwl2023.txt
+TDD4581586  ...#1327
+TDD-2279672  ...
+TDD-748233 🧩  ? #1327
+TDD-1553549 puzzle_id: #1327
+TDD2347822 > *
+TDD2133188 try? 1
+TDD-4480992 questioning: ["stale", "#5"]
+T1.925801026634872 now: 2025-09-19T13:15:07UTC
+TD69 questioning: ["stale", "#5"]
+TDD11542497 #1 _____  📋 "stale" ? _____ ~ TE
+TDD-11542160 attempt 0 STALE n m n n m
+TDD2593079 #2 _____  📋 "stale" ? ____E ~ LE
+TDD-2593313 attempt 1 STALE n n n m Y
+TDD2565971 #3 _____  📋 "stale" ? _____ ~ SAE
+TDD-2565975 attempt 2 STALE m n m n m
+TDD2077763 #4 _____  📋 "stale" ? _____ ~ TE
+TDD-2077775 attempt 3 STALE n m n n m
+TDD2305259 #5 _____  📋 "stale" ? S__L_ ~ L
+TDD-2305247 attempt 4 STALE Y n n Y n
+TDD785499 ? 
+TDD-785549 question done
+TDD619830 > *
+TDD1947248 try? 1
+TDD-2567014 questioning: ["sculk", "#5"]
+TDD7447032 #1 _____ ~ET -ALS  📋 "sculk" ? _____ ~ TEC
+TDD-7445864 attempt 0 SCULK n m n n n
+TDD1750657 #2 ____E ~L -AST  📋 "sculk" ? ____E ~ LE
+TDD-1751839 attempt 1 SCULK n n n m n
+TDD2623933 #3 _____ ~AES -LT  📋 "sculk" ? _____ A SAE
+TDD-2623923 attempt 2 SCULK n n n n n
+TDD3202194 #4 _____ ~ET -ALS  📋 "sculk" ? _____ ~ TE
+TDD-3202210 attempt 3 SCULK n n n n n
+TDD3211247 #5 S__L_ -AET  📋 "sculk" ? S__L_ ~ L
+TDD-3211243 attempt 4 SCULK Y n n Y n
+TDD716215 ? 
+TDD-716261 question done
+TDD526335 > *
+TDD2910298 try? 1
+TDD-3436583 questioning: ["shily", "#5"]
+TDD6467351 #1 _____ ~CET -AKLSU  📋 "shily" ? .
+TDD-6467361 attempt 0 SHILY n n n n n
+TDD3650564 #2 ____E ~L -ACKSTU  📋 "shily" ? ____E ~ LE
+TDD-3650563 attempt 1 SHILY n n n m n
+TDD3476073 #3 _____ ~AE -CKLSTU  📋 "shily" ? _____ ~ SAE
+TDD-3476071 attempt 2 SHILY m n n n n
+TDD4984706 #4 _____ ~ET -ACKLSU  📋 "shily" ? _____ ~ TEI
+TDD-4984714 attempt 3 SHILY n n m n n
+TDD2809452 #5 S__L_ -ACEKTU  📋 "shily" ? S__LY ~ LY
+TDD-2809451 attempt 4 SHILY Y n n Y Y
+TDD516153 ? 
+TDD-516201 question done
+TDD797784 > *
+TDD4051427 try? ␚
+TDD-4849235 <EOF>
+TDD6459267 > * 1
+TDD-4333425 try? 2
+TDD-2125739 questioning: ["covet", "#1"]
+TDD6470027 #1 _____ ~CET -AHIKLSUY  📋 "covet" ? C___T ~ E
+TDD-6470040 attempt 0 COVET Y n n m Y
+TDD3099246 #2 ____E ~L -ACHIKSTUY  📋 "covet" ? __VEE ~ LE
+TDD-3099246 attempt 1 COVET n n Y Y n
+TDD3924185 #3 _____ ~AES -CHIKLSTUY  📋 "covet" ? _____ ~ SAEV
+TDD-3924200 attempt 2 COVET n n m m n
+TDD3938934 #4 _____ ~EIT -ACHKLSUY  📋 "covet" ? ____T ~ EI
+TDD-3938949 attempt 3 COVET n n n m Y
+TDD4450169 #5 S__LY -ACEHIKTU  📋 "covet" ? S__LY ~ LY
+TDD-4450162 attempt 4 COVET n n n n n
+TDD1025993 ? 
+TDD-1026037 question done
+TDD656359 > *
+TDD202332 questioning: ["crept", "#1"]
+TDD3047061 #1 C___T ~E -AHIKLOSUVY  📋 "crept" ? /it
+TDD-3905710 attempt 0 CREPT Y Y Y Y Y
+TDD5733219 #2 __VEE ~L -ACHIKOSTUY  📋 "crept" ? __VEE ~ LE
+TDD-5733202 attempt 1 CREPT n n m n n
+TDD5454106 #3 _____ ~AESV -CHIKLOSTUY  📋 "crept" ? __E__ ~ SAVR
+TDD-5454113 attempt 2 CREPT n m Y n n
+TDD2919212 #4 ____T ~EI -ACHKLOSUVY  📋 "crept" ? ____T ~ EIR
+TDD-2919231 attempt 3 CREPT n m m n Y
+TDD2689094 #5 S__LY -ACEHIKOTUV  📋 "crept" ? S__LY ~ LY
+TDD-2689075 attempt 4 CREPT n n n n n
+TDD290691 ? 
+TDD-290748 question done
+TDD561375 > *
+TDD913646 questioning: ["levee", "#2"]
+TDD1236439 #2 __VEE ~L -ACHIKOPRSTUY  📋 "levee" ? /it
+TDD-2711404 attempt 1 LEVEE Y Y Y Y Y
+TDD3281969 #3 __E__ ~ARSV -CHIKLOPSTUY  📋 "levee" ? .
+TDD-3281989 attempt 2 LEVEE n n m n n
+TDD3087783 #4 ____T ~EIR -ACHKLOPSUVY  📋 "levee" ? _E__T ~ IR
+TDD-3087758 attempt 3 LEVEE n Y n n n
+TDD3374714 #5 S__LY -ACEHIKOPRTUV  📋 "levee" ? S__LY ~ LY
+TDD-3374715 attempt 4 LEVEE m n n n n
+TDD163458 ? 
+TDD-163518 question done
+TDD642308 > *
+TDD941612 questioning: ["merit", "#4"]
+TDD3386821 #3 __E__ ~ARSV -CEHIKLOPSTUY  📋 "merit" ? .
+TDD-4970672 attempt 2 MERIT n n m n n
+TDD664165 #4 _E__T ~IR -ACHKLOPSUVY  📋 "merit" ? /it
+TDD-664191 attempt 3 MERIT Y Y Y Y Y
+TDD3995361 #5 S__LY -ACEHIKOPRTUV  📋 "merit" ? S__LY ~ LY
+TDD-3995355 attempt 4 MERIT n n n n n
+TDD277468 ? 
+TDD-277565 question done
+TDD1269889 > *
+TDD32279 questioning: ["slyly", "#5"]
+TDD8975427 #3 __E__ ~ARSV -CEHIKLMOPSTUY  📋 "slyly" ? .
+TDD-10277497 attempt 2 SLYLY m n n n n
+TDD579827 #5 S__LY -ACEHIKMOPRTUV  📋 "slyly" ? /it
+TDD-579821 attempt 4 SLYLY Y Y Y Y Y
+TDD122442 ? 
+TDD-122512 question done
+TDD557587 > *
+TDD1310764 > *
+TDD11802912 > /man 3 __E__ ~SAVR
+TDD-13210469 questioning: ["AVERS", "#3"]
+TDD3685241 #3 __E__ ~ARSV -CEHIKLMOPSTUY  📋 "AVERS" ? /it
+TDD-4145959 attempt 2 AVERS Y Y Y Y Y
+TDD163220 ? 
+TDD-163342 question done
+TDD14036738 📋> squareword.org 1327: 9 guesses
+TDD-14036715 📋> 
+TDD-49 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> 🟨🟨🟩🟩🟩
+TDD8 📋> 🟨🟨🟩🟨🟨
+TDD-9 📋> 🟨🟨🟨🟨🟩
+TDD-1 📋> 🟩🟨🟨🟩🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD395775 📋> #squareword #squareword1327
+TDD-79340 📋> ␚
+TDD-316382 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1327: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1327"}
+TDD361 result: "squareword.org 1327: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1327"
+TDD335237 📆 2025-09-19 ? 
