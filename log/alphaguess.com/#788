@@ -1,0 +1,54 @@
+T44.39656346850097 now: 2025-09-20T12:18:42UTC
+TD55 site: alphaguess.com
+TDD61499 loaded 196548 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (55 words excluded) asof ca3a3b855ba593d20bccf56a626eed06b8531504
+TDD10031225  ...
+TDD-7696719 [0 : 98232 : 196548] mach? a
+TDD-2395971 progress: 1 98232 mach
+TDD1350087 [98233 : 147337 : 196548] rho? a
+TDD-1350094 progress: 1 147337 rho
+TDD1284151 [147338 : 171937 : 196548] tag? a
+TDD-1284141 progress: 1 171937 tag
+TDD1225708 [171938 : 182024 : 196548] un? a
+TDD-1225709 progress: 1 182024 un
+TDD1330244 [182025 : 189287 : 196548] vicar? a
+TDD-1330255 progress: 1 189287 vicar
+TDD2075131 [189288 : 192891 : 196548] whir? b
+TDD-2075124 progress: -1 192891 whir
+TDD1506804 [189288 : 191067 : 192891] walk? a
+TDD-1506812 progress: 1 191067 walk
+TDD1307899 [191068 : 191930 : 192891] we? a
+TDD-1307920 progress: 1 191930 we
+TDD1478376 [191931 : 192400 : 192891] wen? b
+TDD-1478354 progress: -1 192400 wen
+TDD1389015 [191931 : 192165 : 192400] wee? b
+TDD-1389004 progress: -1 192165 wee
+TDD1312331 [191931 : 192039 : 192165] weather? a
+TDD-1312355 progress: 1 192039 weather
+TDD1285296 [192040 : 192099 : 192165] webcast? a
+TDD-1285299 progress: 1 192099 webcast
+TDD1349937 [192100 : 192127 : 192165] webs? a
+TDD-1349927 progress: 1 192127 webs
+TDD1523839 [192128 : 192140 : 192165] wed? b
+TDD-1523824 progress: -1 192140 wed
+TDD6754556 [192128 : 192134 : 192140] webworm? b
+TDD-6754550 progress: -1 192134 webworm
+TDD2334697 [192128 : 192131 : 192134] websters? b
+TDD-2334698 progress: -1 192131 websters
+TDD1778369 [192128 : 192129 : 192131] websites? b
+TDD-1778373 progress: -1 192129 websites
+TDD-73 [192128 : 192128 : 192129] <Done>.
+TDD6578981 📋> 🧩 Puzzle #788
+TDD-6578928 📋> 
+TDD-49 📋> 🤔 18 guesses
+TDD-3 📋> 
+TDD-1 📋> ⏱️ 31s
+TDD-1 📋> 
+TDD277520 📋> 🔗 alphaguess.com
+TDD356911 📋> ␚
+TDD-634380 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #788\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 31s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-2 result: "\ud83e\udde9 Puzzle #788\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 31s\n\n\ud83d\udd17 alphaguess.com"
+TDD-50 result puzzle: 788
+TDD-4 result guesses: 18
+TDD-1 result time: 31s
+TDD0 result link: alphaguess.com
+TDD200038 📆 2025-09-20 ? 
