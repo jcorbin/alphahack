@@ -1,0 +1,96 @@
+T292.43038580659777 now: 2025-09-20T12:22:50UTC
+TD49 site: https://play.dictionary.com/games/todays-hurdle
+TDD-17 wordlist: nwl2023.txt
+TDD13629680  ...
+TDD19253126 1.1> *(
+TDD-32094888 1.1> *
+TDD2508508 1.1 ? 6
+TDD1322432 1.1 📋 "cesta" ? nMnnM
+TDD-4618688 tried: CESTA n m n n m
+TDD524291 1.2> *
+TDD5669418 1.2 ? 3
+TDD-1387593 1.2 📋 "rayed" ? nYnMn
+TDD-4806187 tried: RAYED n Y n m n
+TDD499877 1.3> *
+TDD1573513 1.3 ? 2
+TDD3987498 1.3 📋 "naevi" ? MYMnn
+TDD-6060886 tried: NAEVI m Y m n n
+TDD560258 1.4> *
+TDD1437172 1.4 ? 1
+TDD1800998 1.4 📋 "mange" ? it
+TDD-3798440 tried: MANGE Y Y Y Y Y
+TDD6906685 2.1 📋 "mange" ? nMnnn
+TDD-6906675 tried: MANGE n m n n n
+TDD891441 2.2> *
+TDD1605355 2.2 ? 2
+TDD2301914 2.2 📋 "astir" ? MMnnn
+TDD-4798715 tried: ASTIR m m n n n
+TDD524357 2.3> *
+TDD5817321 2.3 ? 9
+TDD1272049 2.3 📋 "odahs" ? MnYMY
+TDD-7613723 tried: ODAHS m n Y m Y
+TDD2010304 2.4> *
+TDD1631128 2.4 📋 "chaos" ? it
+TDD-3641455 tried: CHAOS Y Y Y Y Y
+TDD8332679 3.1 📋 "chaos" ? Mnnnn
+TDD-8332661 tried: CHAOS m n n n n
+TDD564015 3.2> *
+TDD1149124 3.2 ? 1
+TDD3079417 3.2 📋 "tunic" ? YMnnM
+TDD-4792543 tried: TUNIC Y m n n m
+TDD711667 3.3> *
+TDD1725697 3.3 ? 2
+TDD2075930 3.3 📋 "truck" ? it
+TDD-4513329 tried: TRUCK Y Y Y Y Y
+TDD8855172 4.1 📋 "truck" ? nnnnn
+TDD-8855154 tried: TRUCK n n n n n
+TDD750336 4.2> *
+TDD580579 4.2 ? 1
+TDD3136957 4.2 📋 "liane" ? MMnnn
+TDD-4467878 tried: LIANE m m n n n
+TDD517439 4.3> *
+TDD588917 4.3 ? 1
+TDD3601026 4.3 📋 "spoil" ? YYnMY
+TDD-4707378 tried: SPOIL Y Y n m Y
+TDD604347 4.4> *
+TDD3282103 4.4 📋 "spill" ? it
+TDD-3886463 tried: SPILL Y Y Y Y Y
+TDD11587012 5.1 📋 "mange" ? nnMnM
+TDD-11586991 tried: MANGE n n m n m
+TDD1697378 5.2 📋 "chaos" ? nnnMM
+TDD-1697431 tried: CHAOS n n n m m
+TDD2134652 5.3 📋 "truck" ? Mnnnn
+TDD-2134614 tried: TRUCK m n n n n
+TDD2005948 5.4 📋 "spill" ? Mnnnn
+TDD-2005969 tried: SPILL m n n n n
+TDD1496575 5.5> *
+TDD4594111 5.5 📋 "onset" ? it
+TDD-6090672 tried: ONSET Y Y Y Y Y
+TDD7507451 📋> Hurdle 1358
+TDD-7507495 📋> 
+TDD-51 📋> 4/6
+TDD23 📋> ⬜🟨⬜⬜🟨
+TDD-25 📋> ⬜🟩⬜🟨⬜
+TDD-3 📋> 🟨🟩🟨⬜⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> ⬜🟨⬜⬜⬜
+TDD2 📋> 🟨🟨⬜⬜⬜
+TDD-2 📋> 🟨⬜🟩🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> 🟨⬜⬜⬜⬜
+TDD0 📋> 🟩🟨⬜⬜🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> 🟨🟨⬜⬜⬜
+TDD0 📋> 🟩🟩⬜🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 1/2
+TDD5 📋> 🟩🟩🟩🟩🟩
+TDD323559 📋> score: 10,000
+TDD50197 📋> ␚
+TDD-373725 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1358\n\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"}
+TDD342 result: "Hurdle 1358\n\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"
+TDD223402 📆 2025-09-20 ? 
