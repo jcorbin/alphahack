@@ -14,3 +14,31 @@ TDD10496602 letters? qrruwyz
 TDD-10496588 letters: |AAADEEEHIILNOPQRRUWYZ|
 TDD1695780 letters. 
 TDD4127247 [doit:100]> /store
+T8540.548175252043 now: 2025-09-20T14:56:30UTC
+TD12768258 [doit:100]> /sea -cap 700
+TDD82903597 search 70db5e [ 700 cap:700 may:1355 prune:29 dead:14 done:1 ]> show done
+TDD-90941293 search 70db5e [ 700 cap:700 may:1355 prune:29 dead:14 done:1 ]> show 1
+TDD30184689 search 70db5e [ 700 cap:700 may:1355 prune:29 dead:14 done:1 ]> ret
+TDD-34915030 change: 16 O
+TDD-206 change: 23 A
+TDD-5 change: 24 N
+TDD-1 change: 25 A
+TDD0 change: 26 L
+TDD0 change: 36 E
+TDD11 change: 37 W
+TDD-10 change: 45 P
+TDD0 change: 46 A
+TDD0 change: 47 H
+TDD10 change: 55 I
+TDD-10 change: 57 I
+TDD0 change: 65 Q
+TDD0 change: 67 R
+TDD0 change: 75 U
+TDD0 change: 77 R
+TDD0 change: 85 E
+TDD0 change: 87 Y
+TDD0 change: 93 Z
+TDD0 change: 94 E
+TDD0 change: 95 D
+TDD9258078 [doit:2155]> /  store
+TDD-4221986 [doit:2155]> /store
