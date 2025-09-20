@@ -1,0 +1,117 @@
+T115.05614278279245 now: 2025-09-20T12:19:53UTC
+TD52 site: squareword.org
+TDD-22 wordlist: nwl2023.txt
+TDD8324099  ...#1328
+TDD-5856487  ...
+TDD463350 🧩  ? #1328
+TDD-2930845 puzzle_id: #1328
+TDD9301972 > *
+TDD-7744130 try? 1
+TDD-1557850 questioning: ["aides", "#5"]
+TDD4470619 #1 _____  📋 "aides" ? _____ ~ IS
+TDD-4470378 attempt 0 AIDES n m n n m
+TDD2512614 #2 _____  📋 "aides" ? _____ ~ AE
+TDD-2512824 attempt 1 AIDES m n n m n
+TDD2804747 #3 _____  📋 "aides" ? ___E_ ~ AE
+TDD-2804758 attempt 2 AIDES m n n Y n
+TDD3043363 #4 _____  📋 "aides" ? _____ ~ DES
+TDD-3043371 attempt 3 AIDES n n m m m
+TDD3001608 #5 _____  📋 "aides" ? ____S ~ E
+TDD-3001602 attempt 4 AIDES n n n m Y
+TDD572798 ? 
+TDD-572885 question done
+TDD762151 > *
+TDD4922060 try? 3
+TDD-5684109 questioning: ["resod", "#4"]
+TDD6215831 #1 _____ ~IS -ADE  📋 "resod" ? .
+TDD-6215841 attempt 0 RESOD n n m n n
+TDD894505 #2 _____ ~AE -DIS  📋 "resod" ? .
+TDD-894549 attempt 1 RESOD n m n n n
+TDD4276427 #3 ___E_ ~A -DIS  📋 "resod" ? ___E_ ~ AE
+TDD-4276373 attempt 2 RESOD n m n n n
+TDD4015707 #4 _____ ~DES -AI  📋 "resod" ? ____D ~ ES
+TDD-4015706 attempt 3 RESOD n m m n Y
+TDD3145138 #5 ____S ~E -ADI  📋 "resod" ? _E__S ~ R
+TDD-3145153 attempt 4 RESOD m Y n n n
+TDD463239 ? 
+TDD-463336 question done
+TDD2503723 > *
+TDD27341 try? 1
+TDD-2530959 questioning: ["spend", "#4"]
+TDD5703803 #1 _____ ~IS -ADEOR  📋 "spend" ? SP___ ~ I
+TDD-5703807 attempt 0 SPEND Y Y n n n
+TDD1700894 #2 _____ ~AE -DIORS  📋 "spend" ? .
+TDD-1700918 attempt 1 SPEND n n m n n
+TDD3563168 #3 ___E_ ~A -DIORS  📋 "spend" ? ___E_ ~ AEN
+TDD-3563158 attempt 2 SPEND n n m m n
+TDD4617084 #4 ____D ~ES -AIOR  📋 "spend" ? __E_D ~ SP
+TDD-4617081 attempt 3 SPEND m m Y n Y
+TDD6931653 #5 _E__S ~R -ADIOS  📋 "spend" ? .
+TDD-6931641 attempt 4 SPEND n n n n n
+TDD293532 ? 
+TDD-293647 question done
+TDD667723 > *
+TDD-57553 questioning: ["pseud", "#4"]
+TDD5841846 #1 SP___ ~I -ADENOR  📋 "pseud" ? .
+TDD-6451899 attempt 0 PSEUD n n n n n
+TDD1097584 #2 _____ ~AE -DINOPRS  📋 "pseud" ? .
+TDD-1097596 attempt 1 PSEUD n n m n n
+TDD3418016 #3 ___E_ ~AN -DIOPRS  📋 "pseud" ? ___E_ ~ AEN
+TDD-3418012 attempt 2 PSEUD n n m n n
+TDD1468864 #4 __E_D ~PS -AINOR  📋 "pseud" ? /it
+TDD-1468899 attempt 3 PSEUD Y Y Y Y Y
+TDD1940189 #5 _E__S ~R -ADEINOPS  📋 "pseud" ? .
+TDD-1940146 attempt 4 PSEUD n n n n n
+TDD226727 ? 
+TDD-226833 question done
+TDD643332 > *
+TDD2796703 try? 1
+TDD-3439937 questioning: ["terms", "#5"]
+TDD7823486 #1 SP___ ~I -ADENOPRSU  📋 "terms" ? SP___ ~ IT
+TDD-7823482 attempt 0 TERMS m n n n n
+TDD1218857 #2 _____ ~AE -DINOPRSU  📋 "terms" ? .
+TDD-1218865 attempt 1 TERMS n m n n n
+TDD3081710 #3 ___E_ ~AN -DIOPRSU  📋 "terms" ? ___E_ ~ AENT
+TDD-3081719 attempt 2 TERMS m m n n n
+TDD1199173 #5 _E__S ~R -ADEINOPSU  📋 "terms" ? /it
+TDD-1199205 attempt 4 TERMS Y Y Y Y Y
+TDD222570 ? 
+TDD-222633 question done
+TDD947205 > *
+TDD576657 questioning: ["split", "#1"]
+TDD1906892 #1 SP___ ~IT -ADEMNOPRSU  📋 "split" ? /it
+TDD-3430657 attempt 0 SPLIT Y Y Y Y Y
+TDD4474099 #2 _____ ~AE -DIMNOPRSTU  📋 "split" ? _____ ~ AEL
+TDD-4474081 attempt 1 SPLIT n n m n n
+TDD3031059 #3 ___E_ ~ANT -DIMOPRSU  📋 "split" ? ___E_ ~ AENT
+TDD-3031071 attempt 2 SPLIT n n n n m
+TDD290365 ? 
+TDD-290463 question done
+TDD1207411 > *
+TDD88003 questioning: ["whale", "#2"]
+TDD2288323 #2 _____ ~AEL -DIMNOPRSTU  📋 "whale" ? /it
+TDD-3583654 attempt 1 WHALE Y Y Y Y Y
+TDD3224685 #3 ___E_ ~ANT -DILMOPRSU  📋 "whale" ? ___E_ ~ AENT
+TDD-3224661 attempt 2 WHALE n n m n m
+TDD196251 ? 
+TDD-196361 question done
+TDD452852 > *
+TDD439287 questioning: ["eaten", "#3"]
+TDD1928940 #3 ___E_ ~ANT -DHILMOPRSUW  📋 "eaten" ? /it
+TDD-2820972 attempt 2 EATEN Y Y Y Y Y
+TDD818495 ? 
+TDD-818604 question done
+TDD11451807 📋> squareword.org 1328: 8 guesses
+TDD-11451785 📋> 
+TDD-52 📋> 🟩🟩🟨🟨🟨
+TDD-5 📋> 🟨🟨🟨🟨🟨
+TDD-1 📋> 🟨🟨🟨🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD371010 📋> #squareword #squareword1328
+TDD103750 📋> ␚
+TDD-474708 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1328: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1328"}
+TDD372 result: "squareword.org 1328: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1328"
+TDD393501 📆 2025-09-20 ? 
