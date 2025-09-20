@@ -24,7 +24,7 @@ def pad_rows(rows: Iterable[Iterable[str]]):
         max(len(row[i]) if i < len(row) else 0
             for row in rows)
         for i in range(num_cols))
-    for _, row in enumerate(rows):
+    for row in rows:
         yield ' '.join(
             f'{cell: <{w}}'
             for j, cell in enumerate(row)
