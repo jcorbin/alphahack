@@ -1,0 +1,65 @@
+T505.99486185237765 now: 2025-09-21T12:00:33UTC
+TD38 site: dontwordle.com
+TDD-13 wordlist: nwl2023.txt
+TDD4408167  ...
+TDD-2942077 1> * -bot 10
+TDD3419941 ? 2
+TDD-164725 📋 "arise" ? MnnnY
+TDD-4721183 tried: ARISE m n n n Y
+TDD751392 2> undo
+TDD-751475 undo
+TDD3621672 1> *
+TDD-1922826 ? 1
+TDD3808203 📋 "cirri" ? nnnnn
+TDD-5506984 tried: CIRRI n n n n n
+TDD482930 2> *
+TDD660316 ? 1
+TDD5236220 📋 "ovolo" ? nnnMn
+TDD-6379464 tried: OVOLO n n n m n
+TDD677698 3> undo
+TDD-677782 undo
+TDD2757342 2> *
+TDD-1465050 ? 1
+TDD6256009 📋 "bobos" ? nnnnn
+TDD-7548236 tried: BOBOS n n n n n
+TDD425569 3> *
+TDD650332 ? 1
+TDD6336393 📋 "yummy" ? nnnnn
+TDD-7412268 tried: YUMMY n n n n n
+TDD465929 4> *
+TDD6545753 📋 "phpht" ? YnnnM
+TDD-7011686 tried: PHPHT Y n n n m
+TDD1230347 5> undo
+TDD-1230407 undo
+TDD2957957 4> *
+TDD8034521 ? 5
+TDD-3680123 📋 "gnawn" ? nnYnn
+TDD-7312305 tried: GNAWN n n Y n n
+TDD2898641 5> *
+TDD2646188 📋 "flava" ? nYYnn
+TDD-5544831 tried: FLAVA n Y Y n n
+TDD507753 6> *
+TDD2728277 ? 1
+TDD3472984 📋 "alate" ? ␚
+TDD-6709069 <EOF>
+TDD1186172 6> *
+TDD-144132 ? 2
+TDD2675319 📋 "elate" ? nYYYY
+TDD-3717294 tried: ELATE n Y Y Y Y
+TDD5117766 📋> Don't Wordle 1216 - SURVIVED
+TDD-5117828 📋> Hooray! I didn't Wordle today!
+TDD-53 📋> ⬜⬜⬜⬜⬜5436
+TDD-5 📋> ⬜⬜⬜⬜⬜1305
+TDD-2 📋> ⬜⬜⬜⬜⬜505
+TDD1 📋> ⬜⬜🟩⬜⬜36
+TDD0 📋> ⬜🟩🟩⬜⬜3
+TDD0 📋> ⬜🟩🟩🟩🟩1
+TDD0 📋> Undos used: 3
+TDD0 📋> 
+TDD14 📋>   1 words remaining
+TDD-14 📋> x 8 unused letters
+TDD293853 📋> = 8 total score
+TDD159742 📋> ␚
+TDD-453560 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1216 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5436\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1305\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c505\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c36\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c3\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"}
+TDD749 result: "Don't Wordle 1216 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5436\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1305\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c505\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c36\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c3\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"
+TDD586686 📆 2025-09-21 ? 
