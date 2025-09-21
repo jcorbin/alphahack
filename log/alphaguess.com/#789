@@ -1,0 +1,46 @@
+T112.72848002240062 now: 2025-09-21T11:54:00UTC
+TD49 site: alphaguess.com
+TDD60393 loaded 196548 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (55 words excluded) asof 37f6f9d5db2d2dfdd83d6cc0a833ae97a3050381
+TDD4945167  ...
+TDD-2834981 [0 : 98232 : 196548] mach? b
+TDD-2170531 progress: -1 98232 mach
+TDD1432406 [0 : 47393 : 98232] dis? a
+TDD-1432421 progress: 1 47393 dis
+TDD1610875 [47394 : 72813 : 98232] gremolata? a
+TDD-1610894 progress: 1 72813 gremolata
+TDD1310351 [72814 : 85517 : 98232] ins? a
+TDD-1310366 progress: 1 85517 ins
+TDD1293283 [85518 : 91862 : 98232] knot? a
+TDD-1293244 progress: 1 91862 knot
+TDD1187701 [91863 : 94959 : 98232] lib? a
+TDD-1187739 progress: 1 94959 lib
+TDD1713336 [94960 : 96592 : 98232] locks? b
+TDD-1713340 progress: -1 96592 locks
+TDD1702402 [94960 : 95589 : 96592] lin? b
+TDD-1702351 progress: -1 95589 lin
+TDD1471492 [94960 : 95274 : 95589] ligation? a
+TDD-1471536 progress: 1 95274 ligation
+TDD1274897 [95275 : 95427 : 95589] lilt? a
+TDD-1274867 progress: 1 95427 lilt
+TDD1349333 [95428 : 95507 : 95589] limit? b
+TDD-1349362 progress: -1 95507 limit
+TDD1369103 [95428 : 95443 : 95507] limb? a
+TDD-1369066 progress: 1 95443 limb
+TDD1791604 [95444 : 95474 : 95507] lime? it
+TDD-1791644 progress: 0 95474 lime
+TDD-30 [95444 : 95474 : 95507] <Done>.
+TDD3759543 📋> 🧩 Puzzle #789
+TDD-3759492 📋> 
+TDD-45 📋> 🤔 13 guesses
+TDD-4 📋> 
+TDD-1 📋> ⏱️ 17s
+TDD-1 📋> 
+TDD229434 📋> 🔗 alphaguess.com
+TDD-19836 📋> ␚
+TDD-209566 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #789\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 17s\n\n\ud83d\udd17 alphaguess.com"}
+TDD13 result: "\ud83e\udde9 Puzzle #789\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 17s\n\n\ud83d\udd17 alphaguess.com"
+TDD-46 result puzzle: 789
+TDD-1 result guesses: 13
+TDD-3 result time: 17s
+TDD-1 result link: alphaguess.com
+TDD167200 📆 2025-09-21 ? 
