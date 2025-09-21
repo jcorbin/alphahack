@@ -1,0 +1,123 @@
+T142.88549823034555 now: 2025-09-21T11:54:30UTC
+TD49 site: squareword.org
+TDD-15 wordlist: nwl2023.txt
+TDD3716304  ...
+TDD-553410 🧩  ? #1329
+TDD-3162782 puzzle_id: #1329
+TDD3349921 > *
+TDD-1948280 try? 1
+TDD-1401650 questioning: ["arles", "#5"]
+TDD6439717 #1 _____  📋 "arles" ? _____ ~ AS
+TDD-6439467 attempt 0 ARLES m n n n m
+TDD3701624 #2 _____  📋 "arles" ? ___ES ~ L
+TDD-3701866 attempt 1 ARLES n n m Y Y
+TDD2550677 #3 _____  📋 "arles" ? AR___ ~ AR
+TDD-2550685 attempt 2 ARLES Y Y n n n
+TDD1854815 #4 _____  📋 "arles" ? _R___ 
+TDD-1854828 attempt 3 ARLES n Y n n n
+TDD2639346 #5 _____  📋 "arles" ? _____ ~ S
+TDD-2638973 attempt 4 ARLES n n n n m
+TDD811078 ? 
+TDD-811458 question done
+TDD5527400 > *
+TDD-2382563 try? 1
+TDD-3144774 questioning: ["archi", "#3"]
+TDD2543064 #1 _____ ~AS -ELR  📋 "archi" ? !
+TDD-2543131 reject: archi
+TDD-72 bad: ["archi"]
+TDD32046 question done
+TDD762432 > *
+TDD1939000 try? 1
+TDD-2733362 questioning: ["argon", "#3"]
+TDD9564198 #1 _____ ~AS -ELR  📋 "argon" ? .
+TDD-9564170 attempt 0 ARGON m n n n n
+TDD4167153 #2 ___ES ~L -AR  📋 "argon" ? ___ES ~ LO
+TDD-4167202 attempt 1 ARGON n n n m n
+TDD3461807 #3 AR___ -ELS  📋 "argon" ? AR___ ~ AR
+TDD-3461770 attempt 2 ARGON Y Y n n n
+TDD4873697 #4 _R___ -AELS  📋 "argon" ? _R___ ~ ON
+TDD-4873706 attempt 3 ARGON n Y n m m
+TDD2700631 #5 _____ ~S -AELR  📋 "argon" ? _____ ~ SN
+TDD-2700627 attempt 4 ARGON n n n n m
+TDD291920 ? 
+TDD-292017 question done
+TDD1906384 > * 2
+TDD3865611 try? 1
+TDD-5771906 questioning: ["loves", "#2"]
+TDD4597245 #1 _____ ~AS -EGLNOR  📋 "loves" ? .
+TDD-4597240 attempt 0 LOVES n n n n m
+TDD2053848 #2 ___ES ~LO -AGNR  📋 "loves" ? LO_ES
+TDD-2053894 attempt 1 LOVES Y Y n Y Y
+TDD4123692 #3 AR___ -EGLNOS  📋 "loves" ? AR___ ~ AR
+TDD-4123658 attempt 2 LOVES n n n n n
+TDD3257840 #4 _R___ ~NO -AEGLS  📋 "loves" ? .
+TDD-3257828 attempt 3 LOVES n m n n n
+TDD1087611 #5 _____ ~NS -AEGLOR  📋 "loves" ? .
+TDD-1087661 attempt 4 LOVES n n n n m
+TDD184704 ? 
+TDD-184766 question done
+TDD607642 > *
+TDD2777606 try? 2
+TDD-3385136 questioning: ["array", "#3"]
+TDD3489372 #1 _____ ~AS -EGLNORV  📋 "array" ? .
+TDD-3489378 attempt 0 ARRAY m n n m n
+TDD723260 #2 LO_ES -AGNRV  📋 "array" ? .
+TDD-723330 attempt 1 ARRAY n n n n n
+TDD782448 #3 AR___ -EGLNOSV  📋 "array" ? /it
+TDD-782444 attempt 2 ARRAY Y Y Y Y Y
+TDD1224463 #4 _R___ ~NO -AEGLSV  📋 "array" ? .
+TDD-1224465 attempt 3 ARRAY n Y n n n
+TDD3853375 #5 _____ ~NS -AEGLORV  📋 "array" ? _____ ~ SNY
+TDD-3853332 attempt 4 ARRAY n n n n m
+TDD307448 ? 
+TDD-307526 question done
+TDD710222 > *
+TDD-116403 questioning: ["bronc", "#4"]
+TDD5249498 #1 _____ ~AS -EGLNORVY  📋 "bronc" ? .
+TDD-5843214 attempt 0 BRONC n n n n n
+TDD1773396 #2 LO_ES -AGNRVY  📋 "bronc" ? .
+TDD-1773431 attempt 1 BRONC n n n n n
+TDD814085 #4 _R___ ~NO -AEGLSVY  📋 "bronc" ? /it
+TDD-814069 attempt 3 BRONC Y Y Y Y Y
+TDD1008416 #5 _____ ~NSY -AEGLORV  📋 "bronc" ? .
+TDD-1008457 attempt 4 BRONC n n n m n
+TDD217105 ? 
+TDD-217151 question done
+TDD670488 > *
+TDD977996 questioning: ["lopes", "#2"]
+TDD5433894 #1 _____ ~AS -BCEGLNORVY  📋 "lopes" ? _____ ~ ASP
+TDD-7082268 attempt 0 LOPES n n m n m
+TDD873852 #2 LO_ES -ABCGNORVY  📋 "lopes" ? /it
+TDD-873921 attempt 1 LOPES Y Y Y Y Y
+TDD1160495 #5 _____ ~NSY -ABCEGLORV  📋 "lopes" ? .
+TDD-1160499 attempt 4 LOPES n n n n m
+TDD164341 ? 
+TDD-164375 question done
+TDD667441 > *
+TDD727871 questioning: ["synth", "#5"]
+TDD4131358 #1 _____ ~APS -BCEGLNORVY  📋 "synth" ? S____ ~ AP
+TDD-5526573 attempt 0 SYNTH Y n n n n
+TDD765173 #5 _____ ~NSY -ABCEGLOPRV  📋 "synth" ? /it
+TDD-765187 attempt 4 SYNTH Y Y Y Y Y
+TDD173454 ? 
+TDD-173544 question done
+TDD441157 > *
+TDD455501 questioning: ["swamp", "#1"]
+TDD5771378 #1 S____ ~AP -BCEGHLNORTVY  📋 "swamp" ? /it
+TDD-6667925 attempt 0 SWAMP Y Y Y Y Y
+TDD4410554 ? 
+TDD-4410625 question done
+TDD917817 📋> squareword.org 1329: 8 guesses
+TDD-917837 📋> 
+TDD-45 📋> 🟨🟨🟨🟨🟨
+TDD-4 📋> 🟩🟩🟨🟩🟩
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD1 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 
+TDD11 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD339151 📋> #squareword #squareword1329
+TDD123123 📋> ␚
+TDD-462251 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1329: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1329"}
+TDD391 result: "squareword.org 1329: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1329"
+TDD4526876 📆 2025-09-21 ? 
