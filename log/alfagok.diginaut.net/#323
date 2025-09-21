@@ -1,0 +1,60 @@
+T45.42653788905591 now: 2025-09-21T11:52:53UTC
+TD52 site: alfagok.diginaut.net
+TDD143631 loaded 399731 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1121 words excluded) asof 37f6f9d5db2d2dfdd83d6cc0a833ae97a3050381
+TDD4821290  ...
+TDD1114598 [0 : 199852 : 399731] lijm? b
+TDD-6079366 progress: -1 199852 lijm
+TDD2206874 [0 : 99758 : 199852] ex? b
+TDD-2206989 progress: -1 99758 ex
+TDD1678085 [0 : 49848 : 99758] boks? a
+TDD-1678089 progress: 1 49848 boks
+TDD1556392 [49849 : 74761 : 99758] dc? a
+TDD-1556390 progress: 1 74761 dc
+TDD1669142 [74762 : 87223 : 99758] draag? a
+TDD-1669159 progress: 1 87223 draag
+TDD1575995 [87224 : 93451 : 99758] eet? a
+TDD-1576001 progress: 1 93451 eet
+TDD1531239 [93452 : 96590 : 99758] energiek? b
+TDD-1531255 progress: -1 96590 energiek
+TDD1656871 [93452 : 94980 : 96590] eiwit? a
+TDD-1656862 progress: 1 94980 eiwit
+TDD1629786 [94981 : 95776 : 96590] elo? b
+TDD-1629753 progress: -1 95776 elo
+TDD1630556 [94981 : 95313 : 95776] elektro? a
+TDD-1630552 progress: 1 95313 elektro
+TDD1864139 [95314 : 95482 : 95776] elf? a
+TDD-1864161 progress: 1 95482 elf
+TDD1717601 [95483 : 95611 : 95776] elite? a
+TDD-1717597 progress: 1 95611 elite
+TDD1739480 [95612 : 95682 : 95776] elleboog? b
+TDD-1739509 progress: -1 95682 elleboog
+TDD2138209 [95612 : 95648 : 95682] eliza? !
+TDD255202 [95612 : 95648 : 95681] elizabet? !
+TDD-233352 [95612 : 95648 : 95680] elizabeth? !
+TDD532721 [95612 : 95647 : 95679] elixirs? a
+TDD-2692740 progress: 1 95647 elixirs
+TDD2210164 [95648 : 95656 : 95679] elk? a
+TDD-2210199 progress: 1 95656 elk
+TDD2000925 [95657 : 95668 : 95679] elkink? !
+TDD253739 [95657 : 95669 : 95678] ell? !
+TDD-321886 [95657 : 95668 : 95677] elks? b
+TDD-1932732 progress: -1 95668 elks
+TDD2707976 [95657 : 95661 : 95668] elke? b
+TDD-2708022 progress: -1 95661 elke
+TDD2110807 [95657 : 95659 : 95661] elkander? b
+TDD-2110767 progress: -1 95659 elkander
+TDD2084600 [95657 : 95658 : 95659] elkaars? b
+TDD-2084633 progress: -1 95658 elkaars
+TDD-42 [95657 : 95657 : 95658] <Done>.
+TDD8021194 📋> 🧩 Puzzel #323
+TDD-8021134 📋> 🤔 20 gokken
+TDD-54 📋> ⏱️ 50s
+TDD336492 📋> 🔗 alfagok.diginaut.net
+TDD235106 📋> ␚
+TDD-571568 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #323\n\ud83e\udd14 20 gokken\n\u23f1\ufe0f 50s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD265 result: "\ud83e\udde9 Puzzel #323\n\ud83e\udd14 20 gokken\n\u23f1\ufe0f 50s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-292 result puzzle: 323
+TDD-15 result guesses: 20
+TDD8 result time: 50s
+TDD-9 result link: alfagok.diginaut.net
+TDD662781 📆 2025-09-21 ? 
