@@ -969,6 +969,8 @@ class Search(StoredLog):
             raise NotImplemented
 
     def question(self, ui: PromptUI):
+        if self.questioning is None:
+            raise StopIteration
         q = self.qmode
         word = self.questioning.guess.upper()
         desc = self.questioning.desc
