@@ -1,0 +1,115 @@
+T117.91960430145264 now: 2025-09-22T12:40:18UTC
+TD61 site: squareword.org
+TDD-27 wordlist: nwl2023.txt
+TDD5314645  ...
+TDD-3040314 🧩  ? #1330
+TDD-2274191 puzzle_id: #1330
+TDD1676279 > *
+TDD310393 try? 1
+TDD-1986691 questioning: ["taels", "#5"]
+TDD4652447 #1 _____  📋 "taels" ? _____ ~ TS
+TDD-4652222 attempt 0 TAELS m n n n m
+TDD3165611 #2 _____  📋 "taels" ? _____ ~ E
+TDD-3165836 attempt 1 TAELS n n m n n
+TDD1935535 #3 _____  📋 "taels" ? _____ ~ E
+TDD-1935596 attempt 2 TAELS n n m n n
+TDD1893606 #4 _____  📋 "taels" ? _A___ ~ T
+TDD-1893560 attempt 3 TAELS m Y n n n
+TDD2938812 #5 _____  📋 "taels" ? __E_S ~ EL
+TDD-2938428 attempt 4 TAELS n n Y m Y
+TDD1028940 ? 
+TDD-1029388 question done
+TDD8620190 > *
+TDD-531411 try? 6
+TDD-8088670 questioning: ["lweis", "#5"]
+TDD9707811 #1 _____ ~ST -AEL  📋 "lweis" ? _____ ~ TSWI
+TDD-9707820 attempt 0 LWEIS n m n m m
+TDD2322473 #2 _____ ~E -ALST  📋 "lweis" ? .
+TDD-2322538 attempt 1 LWEIS n n m n n
+TDD11391649 #3 _____ ~E -ALST  📋 "lweis" ? _____ ~ EI
+TDD-11391606 attempt 2 LWEIS n n m m n
+TDD5165438 #4 _A___ ~T -ELS  📋 "lweis" ? _A___ ~ TI
+TDD-5165431 attempt 3 LWEIS n n n m n
+TDD3751340 #5 __E_S ~L -AT  📋 "lweis" ? __E_S ~ EL
+TDD-3751326 attempt 4 LWEIS m n Y n Y
+TDD432880 ? 
+TDD-432991 question done
+TDD669491 > *
+TDD3706700 try? 2
+TDD-4376099 questioning: ["wrist", "#1"]
+TDD2308681 #1 _____ ~ISTW -AEL  📋 "wrist" ? /it
+TDD-2308712 attempt 0 WRIST Y Y Y Y Y
+TDD4698706 #2 _____ ~E -AILSTW  📋 "wrist" ? .
+TDD-4698670 attempt 1 WRIST n n n n n
+TDD1166348 #3 _____ ~EI -ALSTW  📋 "wrist" ? .
+TDD-1166372 attempt 2 WRIST n n m n n
+TDD3627866 #4 _A___ ~IT -ELSW  📋 "wrist" ? _AI_T
+TDD-3627856 attempt 3 WRIST n n Y n Y
+TDD4320397 #5 __E_S ~L -AITW  📋 "wrist" ? __E_S ~ EL
+TDD-4320402 attempt 4 WRIST n n n n n
+TDD552474 ? 
+TDD-552541 question done
+TDD2385951 > *
+TDD2137854 try? 1
+TDD-4523724 questioning: ["ounce", "#2"]
+TDD4529163 #2 _____ ~E -AILRSTW  📋 "ounce" ? __NCE ~ E
+TDD-4529156 attempt 1 OUNCE n n Y Y Y
+TDD3325261 #3 _____ ~EI -ALRSTW  📋 "ounce" ? _____ ~ EIN
+TDD-3325314 attempt 2 OUNCE n n m n m
+TDD4948224 #4 _AI_T -ELRSW  📋 "ounce" ? _AI_T ~ N
+TDD-4948183 attempt 3 OUNCE n n m n n
+TDD4133353 #5 __E_S ~L -AIRSTW  📋 "ounce" ? __E_S ~ EL
+TDD-4133347 attempt 4 OUNCE n n n n m
+TDD555748 ? 
+TDD-555798 question done
+TDD738029 > *
+TDD518993 questioning: ["hence", "#2"]
+TDD3761014 #2 __NCE -AILORSTUW  📋 "hence" ? it
+TDD567991 #2 __NCE -AILORSTUW  ? /it
+TDD-5585993 attempt 1 HENCE Y Y Y Y Y
+TDD3873062 #3 _____ ~EIN -ACLORSTUW  📋 "hence" ? .
+TDD-3873046 attempt 2 HENCE n m m n m
+TDD3992666 #4 _AI_T ~N -CELORSUW  📋 "hence" ? .
+TDD-3992670 attempt 3 HENCE n n m n n
+TDD2332300 #5 __E_S ~L -ACINORSTUW  📋 "hence" ? __E_S ~ EL
+TDD-2332329 attempt 4 HENCE n m n n m
+TDD375953 ? 
+TDD-376030 question done
+TDD846867 > *
+TDD654267 questioning: ["index", "#3"]
+TDD1498870 #3 _____ ~EIN -ACHLORSTUW  📋 "index" ? /it
+TDD-2999910 attempt 2 INDEX Y Y Y Y Y
+TDD3121825 #4 _AI_T ~N -CEHLORSUW  📋 "index" ? .
+TDD-3121870 attempt 3 INDEX n m n n n
+TDD3397677 #5 __E_S ~L -ACHINORSTUW  📋 "index" ? __EES ~ L
+TDD-3397605 attempt 4 INDEX n n n Y n
+TDD680633 ? 
+TDD-680721 question done
+TDD684543 > *
+TDD619549 questioning: ["flees", "#5"]
+TDD8286546 #4 _AI_T ~N -CDEHILORSUWX  📋 "flees" ? FAI_T ~ N
+TDD-9590572 attempt 3 FLEES Y n n n n
+TDD1458622 #5 __EES ~L -ACDHINORSTUWX  📋 "flees" ? /it
+TDD-1458651 attempt 4 FLEES Y Y Y Y Y
+TDD217063 ? 
+TDD-217134 question done
+TDD609116 > *
+TDD252895 questioning: ["faint", "#4"]
+TDD3125059 #4 FAI_T ~N -CDEHILORSUWX  📋 "faint" ? /it
+TDD-3986968 attempt 3 FAINT Y Y Y Y Y
+TDD1242822 ? 
+TDD-1242888 question done
+TDD5185732 📋> squareword.org 1330: 8 guesses
+TDD-5185749 📋> 
+TDD-46 📋> 🟩🟩🟩🟩🟩
+TDD-6 📋> 🟩🟩🟩🟩🟩
+TDD10 📋> 🟨🟨🟨🟨🟨
+TDD-10 📋> 🟨🟩🟩🟨🟩
+TDD-2 📋> 🟨🟨🟩🟨🟩
+TDD-1 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD257384 📋> #squareword #squareword1330
+TDD-24347 📋> ␚
+TDD-233007 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1330: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1330"}
+TDD398 result: "squareword.org 1330: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1330"
+TDD215023 📆 2025-09-22 ? 
