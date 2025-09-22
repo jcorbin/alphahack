@@ -1,0 +1,64 @@
+T522.1557342410088 now: 2025-09-22T12:47:03UTC
+TD55 site: dontwordle.com
+TDD-26 wordlist: nwl2023.txt
+TDD7445201  ...
+TDD-5272152 1> * -bot 10
+TDD-118840 ? 1
+TDD7879270 📋 "reais" ? nMnMn
+TDD-9933377 tried: REAIS n m n m n
+TDD1356470 2> undo
+TDD-1356523 undo
+TDD3002497 1> *
+TDD-82111 ? 1
+TDD1891350 📋 "phpht" ? nnnnn
+TDD-4811668 tried: PHPHT n n n n n
+TDD508581 2> *
+TDD514595 ? 1
+TDD3716245 📋 "bubus" ? YnYnn
+TDD-4739452 tried: BUBUS Y n Y n n
+TDD778797 3> undo
+TDD-778815 undo
+TDD23724382 2> *
+TDD-22319128 ? 1
+TDD5318250 📋 "doody" ? nnnnn
+TDD-6723472 tried: DOODY n n n n n
+TDD537314 3> *
+TDD345635 ? 1
+TDD5760825 📋 "javas" ? nnnnn
+TDD-6643792 tried: JAVAS n n n n n
+TDD500457 4> *
+TDD516547 ? 1
+TDD4336335 📋 "cruck" ? nnnnn
+TDD-5353323 tried: CRUCK n n n n n
+TDD466154 5> *
+TDD6221740 ? 6
+TDD-488514 📋 "ngwee" ? nnnnY
+TDD-6199383 tried: NGWEE n n n n Y
+TDD732567 6> *
+TDD4516749 ? ␚
+TDD-5249377 <EOF>
+TDD1277718 6> * -sans
+TDD4352367 ? 6
+TDD-4469370 📋 "exile" ? ␚
+TDD-1160727 <EOF>
+TDD4329669 6> * -sans :v e.*e
+TDD2439041 ? 3
+TDD3638884 📋 "mille" ? nYnYY
+TDD-10407522 tried: MILLE n Y n Y Y
+TDD10659624 📋> Don't Wordle 1217 - SURVIVED
+TDD-10659682 📋> Hooray! I didn't Wordle today!
+TDD-45 📋> ⬜⬜⬜⬜⬜7300
+TDD-3 📋> ⬜⬜⬜⬜⬜3177
+TDD-2 📋> ⬜⬜⬜⬜⬜474
+TDD-2 📋> ⬜⬜⬜⬜⬜99
+TDD0 📋> ⬜⬜⬜⬜🟩3
+TDD0 📋> ⬜🟩⬜🟩🟩1
+TDD-1 📋> Undos used: 2
+TDD0 📋> 
+TDD0 📋>   1 words remaining
+TDD0 📋> x 5 unused letters
+TDD314944 📋> = 5 total score
+TDD56044 📋> ␚
+TDD-370956 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1217 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7300\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3177\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c474\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c99\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe93\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe91\nUndos used: 2\n\n  1 words remaining\nx 5 unused letters\n= 5 total score"}
+TDD754 result: "Don't Wordle 1217 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7300\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3177\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c474\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c99\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe93\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe91\nUndos used: 2\n\n  1 words remaining\nx 5 unused letters\n= 5 total score"
+TDD273151 📆 2025-09-22 ? 
