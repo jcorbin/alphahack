@@ -1,0 +1,92 @@
+T317.2195675596595 now: 2025-09-22T12:43:38UTC
+TD60 site: https://play.dictionary.com/games/todays-hurdle
+TDD-29 wordlist: nwl2023.txt
+TDD6210528  ...
+TDD17992658 1.1> *
+TDD-19339048 1.1 ? 6
+TDD6952870 1.1 📋 "eosin" ? nnnMn
+TDD-11816833 tried: EOSIN n n n m n
+TDD3084147 1.2> *
+TDD-365952 1.2 ? 1
+TDD1415194 1.2 📋 "pical" ? nMMnn
+TDD-4133470 tried: PICAL n m m n n
+TDD504609 1.3> *
+TDD5931847 1.3 ? 2
+TDD-2701653 1.3 📋 "brick" ? nnYYY
+TDD-3734814 tried: BRICK n n Y Y Y
+TDD482530 1.4> *
+TDD4734538 1.4 ? 2
+TDD-2270600 1.4 📋 "thick" ? it
+TDD-2946479 tried: THICK Y Y Y Y Y
+TDD8088136 2.1 📋 "thick" ? nnnnM
+TDD-8088100 tried: THICK n n n n m
+TDD525686 2.2> *
+TDD1300491 2.2 ? 1
+TDD3012480 2.2 📋 "ukase" ? nMMnY
+TDD-4838662 tried: UKASE n m m n Y
+TDD473266 2.3> *
+TDD3763308 2.3 ? 2
+TDD-1415707 2.3 📋 "ankle" ? it
+TDD-2820903 tried: ANKLE Y Y Y Y Y
+TDD9225192 3.1 📋 "ankle" ? nnnnM
+TDD-9225157 tried: ANKLE n n n n m
+TDD537714 3.2> *
+TDD742200 3.2 ? 1
+TDD2764484 3.2 📋 "drest" ? nnMMY
+TDD-4044436 tried: DREST n n m m Y
+TDD439236 3.3> *
+TDD3592729 3.3 ? 4
+TDD688698 3.3 📋 "upset" ? it
+TDD-4720649 tried: UPSET Y Y Y Y Y
+TDD17991397 4.1 📋 "upset" ? nnnnn
+TDD-17991372 tried: UPSET n n n n n
+TDD631846 4.2> *
+TDD707347 4.2 ? 1
+TDD3784421 4.2 📋 "noily" ? nnnnn
+TDD-5123625 tried: NOILY n n n n n
+TDD505244 4.3> *
+TDD614275 4.3 ? 1
+TDD3239127 4.3 📋 "march" ? nMMYn
+TDD-4358647 tried: MARCH n m m Y n
+TDD460766 4.4> *
+TDD3488601 4.4 ? 3
+TDD-1203384 4.4 📋 "crack" ? it
+TDD-2745998 tried: CRACK Y Y Y Y Y
+TDD21687799 5.1 📋 "thick" ? nnnYn
+TDD-21687784 tried: THICK n n n Y n
+TDD2444852 5.2 📋 "ankle" ? nnnnM
+TDD-2444895 tried: ANKLE n n n n m
+TDD1454815 5.3 📋 "upset" ? nnnMn
+TDD-1454781 tried: UPSET n n n m n
+TDD2053068 5.4 📋 "crack" ? nMnYn
+TDD-2053066 tried: CRACK n m n Y n
+TDD1302284 5.5> *
+TDD4853401 5.5 📋 "mercy" ? it
+TDD-6155688 tried: MERCY Y Y Y Y Y
+TDD5673890 📋> Hurdle 1360
+TDD-5673907 📋> 
+TDD-78 📋> 4/6
+TDD-2 📋> ⬜⬜⬜🟨⬜
+TDD-2 📋> ⬜🟨🟨⬜⬜
+TDD0 📋> ⬜⬜🟩🟩🟩
+TDD12 📋> 🟩🟩🟩🟩🟩
+TDD-12 📋> 3/6
+TDD0 📋> ⬜⬜⬜⬜🟨
+TDD0 📋> ⬜🟨🟨⬜🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> ⬜⬜⬜⬜🟨
+TDD0 📋> ⬜⬜🟨🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> ⬜🟨🟨🟩⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 1/2
+TDD12 📋> 🟩🟩🟩🟩🟩
+TDD373225 📋> score: 10,100
+TDD-28275 📋> ␚
+TDD-344924 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1360\n\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"}
+TDD329 result: "Hurdle 1360\n\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"
+TDD285991 📆 2025-09-22 ? 
