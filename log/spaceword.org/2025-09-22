@@ -2012,3 +2012,464 @@ TDD-338838 pasted: {"subject": "content", "method": "read:must:stdin", "content"
 TDD704 result: "\u2728 Spaceword.org Daily 2025-09-22 \u2728\n\n\ud83c\udfc6 Score: 2158\n\ud83c\udfc5 Rank: 106/180 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +58\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD273815 [prior:2158]> 
 TDD1083715 [prior:2158]> /store
+T1404.1374300746247 now: 2025-09-22T13:01:45UTC
+TD10052802 [prior:2158]> /sea -clear -cap 512
+TDD48899760 Z LUK}aQev8^B^D<Eedpup8Vu*diau}XB5zRX2`@iG;c*8)O&d|kc{q9zb`k&p0RR6
+TDD-54212295 Z BF0HzXSk5*Bu^h#M|kKE<s<+A00960
+TDD-4740172 Z BGyTeW$kov5&!@I|Nj
+TDD10199495 search cbaf59 [ 512 cap:512 may:698 prune:18 dead:11 reject:2 done:2 ]> show done
+TDD-4502157 search cbaf59 [ 512 cap:512 may:698 prune:18 dead:11 reject:2 done:2 ]> show 1
+TDD-4803529 search cbaf59 [ 512 cap:512 may:698 prune:18 dead:11 reject:2 done:2 ]> ret
+TDD-893677 change: 65 
+TDD-206 change: 23 K
+TDD-5 change: 35 P
+TDD1 change: 25 A
+TDD0 change: 65 
+TDD-2 change: 32 
+TDD0 change: 45 
+TDD0 change: 33 U
+TDD-1 change: 45 
+TDD0 change: 34 
+TDD0 change: 45 
+TDD0 change: 37 
+TDD0 change: 45 
+TDD0 change: 38 
+TDD0 change: 45 
+TDD0 change: 43 
+TDD0 change: 64 
+TDD0 change: 45 P
+TDD0 change: 64 
+TDD0 change: 52 
+TDD0 change: 64 
+TDD0 change: 53 
+TDD0 change: 64 
+TDD0 change: 62 
+TDD0 change: 64 
+TDD0 change: 63 
+TDD0 change: 64 
+TDD0 change: 64 
+TDD14 change: 65 S
+TDD-2 change: 3 L
+TDD-9 change: 67 
+TDD-1 change: 13 E
+TDD0 change: 68 
+TDD0 change: 15 H
+TDD2 change: 73 
+TDD-3 change: 24 O
+TDD0 change: 46 O
+TDD0 change: 54 J
+TDD0 change: 55 I
+TDD0 change: 56 N
+TDD0 change: 76 Z
+TDD0 change: 86 E
+TDD0 change: 94 L
+TDD0 change: 95 A
+TDD0 change: 96 D
+TDD4195703 [prior:2158 bet:2160]> /sea -cap 1024
+TDD-1628195 Z LUNLcg@vg>3bK<Baqp_&0dt2xEFMCkOLW2Z!<^~m2~Xg`h$dDPoCR-&BYJn}00000|Nj
+TDD-2567386 Z !s8@I9~wFdx!H^c00000|Nj
+TDD-86 Z !WT+NZlb4?00000|Nj
+TDD-12 Z A}8W}9BJw#00000|Nj
+TDD56 Z q983PP~apV$55P30ssI2|Nj
+TDD-47 Z 8XzY*hT>il0{{R3|Nj
+TDD-12 Z !s{etKxHTSgu1xmD9ix>00960
+TDD1 Z 8W<-5GfpVZRXP9w00960
+TDD6897330 Z 8ieH%00030{{
+TDD-6897276 Z A}5r5;OF6xpS)dhCvN}%00960
+TDD-29 Z 8iYk900030{{
+TDD-24 Z 8iYk900030{{
+TDD-3 Z 8iYk900030{{
+TDD6 Z 8iYk900030{{
+TDD0 Z 8iYk900030{{
+TDD-6 Z A~nZ(`G+E!KUkckfY(W`-b54v00000|Nj
+TDD9 Z 8iYk900030{{
+TDD-9 Z 8iW-J00030{{
+TDD0 Z BH2m)-n4cS00030{{
+TDD3 Z 8W<<xjW_@R00960
+TDD5710218 Z 8iaKm00030{{
+TDD-5710153 Z 8iaKm00030{{
+TDD-61 Z 8iaKm00030{{
+TDD-4 Z 8iaKm00030{{
+TDD15 Z 8iaKm00030{{
+TDD-10 Z B9xY3R(ZhP=Llc?8{mmJNDyWoJ{Ng~dK2Ly1poj50RR6
+TDD33 Z 8ieH%00030{{
+TDD-39 Z 8ieH%00030{{
+TDD4 Z !s{gDsRm3Zxl&Xv;VuLK00030{{
+TDD19 Z 8ib7#00000|Nj
+TDD-19 Z 8iY+a00000|Nj
+TDD-6 Z 8ieg700000|Nj
+TDD0 Z BGO4dt{$O|FvH-YB!`keF{J<i00960
+TDD7 Z A~uvf;4I{F3Drg3j{ZLQ;|+X@1pyZ+00000|Nj
+TDD0 Z BHl@`Aw6U#!7L!wNyHT13IG5A0RR6
+TDD38619042 search 48850d [ 1023 cap:1024 may:6690 prune:1706 reject:15 dead:28 done:1 ]> show done
+TDD-37073379 search 48850d [ 1023 cap:1024 may:6690 prune:1706 reject:15 dead:28 done:1 ]> ret
+TDD-1545493 change: 93 
+TDD-181 change: 3 
+TDD-5 change: 24 L
+TDD2 change: 13 O
+TDD-5 change: 95 
+TDD1 change: 23 A
+TDD-3 change: 33 K
+TDD0 change: 94 E
+TDD0 change: 95 U
+TDD0 change: 93 L
+TDD3711983 [prior:2158 bet:2164]> /sea -cap 1024
+TDD-998474 Z LLOu`Gc-v|#qK13crYQ_0p2uf2><{90RR6
+TDD-2713398 Z !s{gDS$Iq*(W-F*00030{{
+TDD-78 Z A~KX<i3z#2L@Or&00030{{
+TDD5608244 Z 8iWxC00030{{
+TDD-5608190 Z 8iWxC00030{{
+TDD-65 Z 8iWxC00030{{
+TDD-3 Z BF;%Zj^0QG6CNjd`BUyB00000|Nj
+TDD12 Z A~BQ*M4Z2mE9GrC00000|Nj
+TDD64 Z qOOx%eei}7aZUmN00960
+TDD-73 Z BH2l_?=%4b00960
+TDD-3 Z BGO6TSV9SF6AoWX0N9G~AtICj00030{{
+TDD4 Z BGO4d#1;bh8z-=1=KX;&h|@^`00030{{
+TDD4 Z B01t{-}VLo00960
+TDD-9 Z A}1};*hv5Y00960
+TDD3280711 Z 8iW-J00030{{
+TDD-3280652 Z 8iW-J00030{{
+TDD-55 Z 8iW-J00030{{
+TDD-3 Z BIKk2=zs$N00960
+TDD15 Z BIG1k^A@o%$`S6k0Qk{G#Fha*uJCgza61VA00960
+TDD6 Z 8ids@00030{{
+TDD-22 Z 8iaKm00030{{
+TDD-1 Z 8iXwY00000|Nj
+TDD0 Z 8ko`>?_dr900960
+TDD1 Z 8iW-J00030{{
+TDD3 Z !t11g8O#9y00960
+TDD-4 Z 8kjl`Z^Qur00960
+TDD20 Z 8ids@00030{{
+TDD-13 Z !s{f2Hyp7ziB=H@00030{{
+TDD4 Z BDvc2afLa_kw#7e00030{{
+TDD-6 Z A~xdaIG6(f00960
+TDD-4 Z BHl@K8_WR!00960
+TDD-1 Z A~ku_VPFsd00960
+TDD0 Z 8iYL*00000|Nj
+TDD-1 Z BE1lBrKE=fO-#T-z#pfR00000|Nj
+TDD5 Z BH2kkc$`F?^bG(20RR6
+TDD7190313 Z BIG1ky7BNwEZl^Z4d}^RfnXVc<R9G08vp<R|Nj
+TDD-7190217 Z BDtaKO@2d{$U*=B00960
+TDD-72 Z qH^2Yn+i?>00030{{
+TDD-16 Z 8if5g00000|Nj
+TDD-3 Z 8if5g00000|Nj
+TDD-8 Z 8iZ|c00000|Nj
+TDD5 Z BDz9>FZgv-z*V6D0sb<;+aJ+J!kv}?00030{{
+TDD9 Z BIG2Pr5^BD#9i$w5S-N^st^DG00960
+TDD-5 Z A~KYaizT=_kX+;gY5o!{mWar33IG5A0RR6
+TDD23 Z BGyT87WP0Q&Pj-dK&T61$1OSl00030{{
+TDD-21 Z qOOyO8iNBl9iNi`00030{{
+TDD-5 Z BGyTv@EK6J7_yW6y@+v=k1M=b!4q)+00030{{
+TDD2 Z BGpMa(h}531S(zPoCE*>0RR6
+TDD-5 Z B6j!`K2G6}f1H8}WhDRr0RR6
+TDD1 Z BGyTWxm}de91>kb)Z8ur00960
+TDD-2 Z BIqO^EKY(ugeFb`00030{{
+TDD0 Z BIqP<YB~v#=kT1$2mk;8|Nj
+TDD1 Z qOX(uiD`QS00030{{
+TDD-3 Z A~G#GdW6E(S2@DlP$av^m8h{w00000|Nj
+TDD4 Z BF9NEH_^yR00000|Nj
+TDD-5 Z BH$$Wu4#Dvi@o$Fu3RFjXQ==H00960
+TDD3 Z A~KY`h#vSRvQEKME&%`l0RR6
+TDD-2 Z B637m0p=t}Z&#``D;4~4Itc&(0RR6
+TDD9 Z BDM+VPi-gR9y$R400960
+TDD-9 Z qEbr$W)BH10i-ccQ~&?~0RR6
+TDD1 Z BF;%(@QT;phoYq9O+>R200030{{
+TDD0 Z B070Po#gFLk&}pN=>h-%0RR6
+TDD-1 Z BGO5&u>JsLp+r;<1poj5|Nj
+TDD7 Z qUMm70=TyeW0E~400000|Nj
+TDD1 Z qOy~K-8fk3O16^#00030{{
+TDD-8 Z qHaG9f6tQ0W+eas0RR6
+TDD5 Z qJGyBf5Z{tBme*a0RR6
+TDD1 Z qOy}vQnwFGlr$#+00030{{
+TDD-5 Z B6`*msc#8)2u6nUail`T0RR91|Nj
+TDD7 Z qOOxrLkT|gOPZ4a00030{{
+TDD-1 Z qNS7ImS8#w&ls};00030{{
+TDD0 Z qL!0j4Lr*069oVO00960
+TDD-1 Z qGc%gU_=~IP67Y`0RR6
+TDD0 Z B4<PwkCVKpP*ef{00960
+TDD-5 Z BIG1uTe?se5iBZ+a1sCj0RR6
+TDD7 Z B0A#W{StgmawIUKOVj`p00030{{
+TDD-4 Z qOOy?36@JlI0*m%0RR6
+TDD9 Z qOOxbEdf~6knJP@00030{{
+TDD-4 Z qOy}vavZ!VOPZ4a00030{{
+TDD-6 Z 8ib3500000|Nj
+TDD3 Z 8ieZv00000|Nj
+TDD-6 Z qSlBmxcnlNx`~=XQ2+n{0RR6
+TDD4 Z qN<Y!l>x*#2><{9|Nj
+TDD-2 Z qN<Y!WjNxT1ONa4|Nj
+TDD6 Z qOOw&WH{oS1ONa4|Nj
+TDD0 Z BDz&cz)dhq3Dt41Lw@lzP5=M^0RR6
+TDD-3 Z BDJB5Z)#V8h#m?N!2|#R0RR6
+TDD0 Z A~xcnE+S?A8(Y(xn1}-a00960
+TDD4 Z BGE~x@doR=QrAfU00030{{
+TDD-3 Z BHKycuCxjz00000|Nj
+TDD3 Z q9~LQPJ)FOHJk(h00960
+TDD-5 Z qLP!K3}Cqg%b4Ul2><{9|Nj
+TDD8 Z qSCYughp*tlG*fD00000|Nj
+TDD29 Z qW;JUp5mLRk$43F00030{{
+TDD-31 Z qN|gLny*j*00030{{
+TDD0 Z qU&IeBT=CQ00030{{
+TDD-1 Z qU(?saZUmN00960
+TDD-7 Z qOOw&3{wy__oV;;00960
+TDD6 Z qVFgiqEU&b+64dr0RR6
+TDD1 Z qVHHGQBDE?00960
+TDD-1 Z qNu$DD|v|Rpb*zy0ssI2|Nj
+TDD-3 Z BD(a3*oxW`!0#luLK2+>00030{{
+TDD1 Z BGE|%LJ6fpA=gO&00030{{
+TDD4 Z qOOxrBM#;|5}gD900960
+TDD0 Z qR2^b7QCiFspDXIk3=T{00030{{
+TDD2 Z qSl%de@rKlo4f%400960
+TDD-8 Z qUz)q>PS4fP67Y`0RR6
+TDD-1 Z BD!26qjdsTNZRlz00030{{
+TDD1 Z qH4rZrvnZE00960
+TDD2 Z qN<aq(*Xwn00960
+TDD-3 Z qHgl0N(USO00960
+TDD5 Z B6d#`k(0Xws$HVo1ONa4|Nj
+TDD-3 Z qNr<0YK21FS~vgz00960
+TDD-1 Z qNs;LYK20alK=n!0RR6
+TDD4 Z qOOw&R4Bwb2><{9|Nj
+TDD1 Z BEv~Eo{m!h00030{{
+TDD-5 Z B6Z}1z&HiLSxX|4Hvj+t|Nj
+TDD0 Z B4^f80qQs!ISBv&0RR6
+TDD5 Z qEZJOYqg7!mWb<s0{{R3|Nj
+TDD0 Z qLP#Ru?-B8=_CLE00960
+TDD-7 Z qUtaOT1$XTCjkHe0RR6
+TDD5 Z B6$hAf+K9o7F%K>c1J3{p?ClQ00960
+TDD1 Z B07`^EQrMtapblt0RR91|Nj
+TDD-5 Z qEfZ%PsO2l00000|Nj
+TDD-2 Z qN<aq(_R7q00960
+TDD5 Z qN<aq)Aj}c00960
+TDD-5 Z BHBsB^uJLf4zofbZV@8@00960
+TDD1 Z qN<ZnBaU1r0RR91|Nj
+TDD-1 Z qN<ZnTb1NG2><{9|Nj
+TDD13 Z qOOw&v;>G7J_P^(0RR6
+TDD-11 Z qNkI*9f=Ah00000|Nj
+TDD4 Z B7S@c+s-c%hflryiE$GE00960
+TDD-3 Z qOOw&l$FFe2><{9|Nj
+TDD-3 Z qOOw&l$FFe2><{9|Nj
+TDD0 Z qRdI?TlNUly2Krq0RR91|Nj
+TDD3 Z qHZV=a1wFp8vp<R|Nj
+TDD-2 Z qVlXI{)Vo1C^1d~00030{{
+TDD1 Z B6$zEH{RYZv3vJ%ul80@00000|Nj
+TDD7 Z B01vl??|P50lI<$00030{{
+TDD-1 Z BIG2PrP!SWGli;70ssI2|Nj
+TDD-5 Z BH$#_R_76FFA-PA0RR91|Nj
+TDD-1 Z qN<Y!wJM2o5&!@I|Nj
+TDD-1 Z qN<aKo{q!oBme*a0RR6
+TDD6 Z qOOw&v?_^n5&!@I|Nj
+TDD5 Z qM?)Ec97UO0RR91|Nj
+TDD-8 Z qNkIHY@7f900960
+TDD10 Z qVnofA1X|w0ssI2|Nj
+TDD-11 Z qV7^p0<)IHwFCeF00960
+TDD4 Z A~xdaw_s2K00030{{
+TDD-5 Z qN|gL84*xW00000|Nj
+TDD0 Z qVBp%0ue`CO8@`>0RR6
+TDD0 Z BH$#_cBP{>moOK_6IU()00030{{
+TDD1 Z qN<Y!tkWkhbt?b>00960
+TDD-1 Z qVDE>;)j>;%rpT200960
+TDD-1 Z qVIZdqMQT(00960
+TDD0 Z BDuXpiIa%y4gdfE0RR6
+TDD2 Z !s{f20X~R<Z~UiJ5!_-yxMTtV00960
+TDD2 Z !s{fIQ_$(=Bme*a0RR6
+TDD-2 Z B7XQZ6xNid%1kOACjkHe0RR6
+TDD1 Z BHl?v%~%lL`b9XD00000|Nj
+TDD-1 Z BKkZ5;^qhm^(~1hz5xIL0RR6
+TDD0 Z BIqP9xRXe)<;Zgq00030{{
+TDD0 Z B6g>|BXI>20Vfeveggmi0RR6
+TDD-2 Z BIu-0xRXe)Qpj@>00030{{
+TDD8 Z B4NUUUZXhx00030{{
+TDD-8 Z qOy~yG3EsT00960
+TDD-1 Z BGyTWEf%h@O2*&YktSO#00000|Nj
+TDD3 Z BGyTWODue7?IZvI00960
+TDD-2 Z BGyUpa}SZWH<Pgug_u$R00030{{
+TDD1 Z BKhbQS9t3nl(MlCoJ(Q>00030{{
+TDD2 Z !tW%wmyk}a4W;#|A^-pY0RR6
+TDD-1 Z !s{f&@&at3M46LtrzHRY00960
+TDD-1 Z !s8_5z9}NZQPwyiX8H>N00960
+TDD0 Z !WT+NL#6a|5&!@I|Nj
+TDD-1 Z BED6La1y@b>#5)*00000|Nj
+TDD7 Z BF9N^QPOu@6XPTR00030{{
+TDD-6 Z !s8_511%6vA~5hxg-`+j00960
+TDD-1 Z !s8_5@SvxY00000|Nj
+TDD0 Z !WVJ=j_`&uJ)Hyq00960
+TDD0 Z BD#*F?p{lLV<!Lr00960
+TDD8 Z B6-3BR$QS~y0DfD6&4Br00030{{
+TDD1 Z B6h_f{!`FHiEUN760z$800030{{
+TDD-3 Z B5|e(?U)n%le-u$Qg9_^<rx3~0RR6
+TDD-1 Z qVn7>{uA|)c39vUrT_o{0RR6
+TDD9 Z BIG2PU35I;9{>OV|Nj
+TDD-1 Z B6?tueuw-600030{{
+TDD-12 Z qE7NAd4LJuhHC%-00960
+TDD1 Z B6*b;?N8JP00030{{
+TDD0 Z BH2l_KT#h500960
+TDD0 Z 8W<<xJ(wK;00960
+TDD-1 Z BH2l_KfWFS00960
+TDD0 Z 8W<<x4J7~o00960
+TDD5 Z B647mp2yb%00030{{
+TDD1 Z !t11gIldkM00960
+TDD-5 Z qE<@)W)l@!0ssI20RR6
+TDD1 Z BHKv{m`RCBC+Y(L00960
+TDD0 Z B6)E&-WHs<KmL{aL`}#600030{{
+TDD1 Z B5}74p=05waSA#B00960
+TDD5 Z BDuYUzv)el18M*O00960
+TDD-6 Z qUK&pDqV#D00030{{
+TDD4 Z qVo1n0<)Gx9i|Nc00960
+TDD-5 Z qVCQw!f6RQX6=usRS5t90RR6
+TDD2 Z qH?)JjnlLN00030{{
+TDD6338703 search 6614ae [ 1023 cap:1024 may:1914 prune:599 dead:122 reject:168 done:1 ]> show done
+TDD-5621019 search 6614ae [ 1023 cap:1024 may:1914 prune:599 dead:122 reject:168 done:1 ]> ret
+TDD-717566 change: 6 
+TDD-126 change: 13 
+TDD-5 change: 6 O
+TDD-1 change: 15 
+TDD1 change: 14 H
+TDD-1 change: 23 
+TDD-2 change: 24 A
+TDD2 change: 25 L
+TDD-1 change: 16 
+TDD0 change: 33 
+TDD17 change: 36 A
+TDD-16 change: 35 I
+TDD-1 change: 46 
+TDD0 change: 45 O
+TDD-1 change: 46 
+TDD0 change: 46 
+TDD0 change: 55 
+TDD0 change: 54 I
+TDD0 change: 56 K
+TDD0 change: 55 N
+TDD0 change: 66 
+TDD0 change: 65 I
+TDD-1 change: 66 
+TDD0 change: 66 
+TDD0 change: 16 
+TDD0 change: 76 
+TDD0 change: 95 
+TDD0 change: 86 U
+TDD0 change: 95 
+TDD0 change: 93 
+TDD0 change: 95 
+TDD0 change: 94 
+TDD0 change: 96 
+TDD0 change: 95 D
+TDD0 change: 96 
+TDD1 change: 96 
+TDD-2 change: 16 L
+TDD0 change: 26 E
+TDD-1 change: 34 P
+TDD7 change: 44 P
+TDD-7 change: 64 S
+TDD0 change: 75 Z
+TDD0 change: 84 J
+TDD0 change: 85 E
+TDD3687005 [prior:2158 bet:2170]> /sea -cap 1024
+TDD-2551359 Z LUNL^MM|2H3898A?GO0}00030{{
+TDD-1135567 Z BH2j<+ujs!vjPAB0RR6
+TDD-35 Z qOy~yu`C_{00960
+TDD-12 Z BIG0lz;K)kmBI@h00000|Nj
+TDD6 Z qQFV`!^?$iCjkHe0RR6
+TDD-5 Z qM4I`Q3#705}gD900960
+TDD-4 Z qJHv*vB>UP0ssI2|Nj
+TDD-3 Z qFE>rbR14M0RR91|Nj
+TDD1455840 Z 8idIk00030{{
+TDD-1455779 Z 8idIk00030{{
+TDD-52 Z 8ib`c00030{{
+TDD-4 Z 8ib`c00030{{
+TDD-1 Z 8ib`c00030{{
+TDD56 Z qFM4L-f`#v00030{{
+TDD-43 Z 8iYk900030{{
+TDD-12 Z qQFV`6S@o8p#%T`0RR6
+TDD3 Z qFE^6Kl{uj6xWD=f&u^l0RR6
+TDD6 Z qH^-4d}dcc0RR91|Nj
+TDD-12 Z B0iMpR-*s_00960
+TDD4 Z BGySnx`P^<_W=L^0RR6
+TDD7 Z qOy|+oS8$ElK=n!0RR6
+TDD-11 Z BHl^ZR>7b<iO`BFqMQT(00960
+TDD12 Z qOOw&?ExpsNdN!<0RR6
+TDD-8 Z qOy|+?AasANdN!<0RR6
+TDD1 Z BBxw}nMNqQ$ZVVd00030{{
+TDD4 Z qM4J3-{_1E00000|Nj
+TDD-12 Z qE+ebg1^v2ZiS-*00000|Nj
+TDD1 Z 8iZ|c00000|Nj
+TDD-5 Z 8lX_}##6@u00030{{
+TDD8 Z qH7&TT&D>D00960
+TDD0 Z qJAOZ0-bs$F`pp-00030{{
+TDD0 Z 8iZX-00000|Nj
+TDD0 Z qGdmhNXMZA00000|Nj
+TDD-4 Z qGdmhOeX;V00960
+TDD-1 Z qGhWRx077(ISBv&0RR6
+TDD2118059 Z 8iXBi00000|Nj
+TDD-2118004 Z 8iXBi00000|Nj
+TDD-43 Z 8icJ%00000|Nj
+TDD6 Z BH2k)8WX^M-L3)v00960
+TDD-3 Z qJBe{VkZFr00960
+TDD-8 Z qOkNP`zS^{P67Y`0RR6
+TDD7 Z qJBe{VkZFr00960
+TDD-8 Z qFNIUOL&o);{X5v0RR6
+TDD1 Z 8iWm900000|Nj
+TDD-2 Z 8ib>800000|Nj
+TDD0 Z 8ib>800000|Nj
+TDD0 Z 8ib>800000|Nj
+TDD6 Z A~G$(6A+Gg!*-SzUKim300000|Nj
+TDD1 Z BGpMa0ts>KA>~d200030{{
+TDD2 Z BDq|`U;h)|0mlsh00030{{
+TDD-7 Z B07|aauM<UZ#)1100960
+TDD2 Z BGpMGG$qM(5&!@I|Nj
+TDD12 Z BDvbdA56qIPH+PN00030{{
+TDD-13 Z 8ieEC00000|Nj
+TDD-5 Z 8ieEC00000|Nj
+TDD-1 Z 8ieEC00000|Nj
+TDD0 Z 8ieEC00000|Nj
+TDD1 Z 8id2A00000|Nj
+TDD0 Z qO1_0MWa#y00030{{
+TDD2 Z 8id2A00000|Nj
+TDD-3 Z qM!+fKY0_sDh?e000030{{
+TDD-2 Z BHBp=Ttxm6?HB+600960
+TDD7 Z BHu~0YI-XG00030{{
+TDD-7 Z qLq^<Xr=%F00960
+TDD3 Z qFIGP{)jFB00960
+TDD-5 Z 8iYe$00000|Nj
+TDD-1 Z 8iYe$00000|Nj
+TDD0 Z 8iYgf00000|Nj
+TDD0 Z 8ib>800000|Nj
+TDD6 Z 8ldEjZzvuB00960
+TDD-4 Z 8icb000000|Nj
+TDD4 Z qFH+hzmxDaP5=M^0RR6
+TDD3 Z 8ibSb00000|Nj
+TDD6 Z 8iaEw00000|Nj
+TDD-13 Z 8iW%T00000|Nj
+TDD-1 Z 8iY$100000|Nj
+TDD0 Z 8ibSb00000|Nj
+TDD6 Z 8iX_800000|Nj
+TDD0 Z 8ido$00000|Nj
+TDD0 Z qHZV=J~D@hPyzq|0RR6
+TDD4 Z qFE>rdv_xy00000|Nj
+TDD-1 Z qVD(-3CSBb00000|Nj
+TDD0 Z qHaIVg$g5H3IG5A0RR6
+TDD0 Z qVix4@x5K#00000|Nj
+TDD0 Z qVh}=HG&BM00960
+TDD-7 Z qUtCd5g86o#~TI!00030{{
+TDD5 Z 8iWfx00000|Nj
+TDD0 Z 8iY$100000|Nj
+TDD5479969 search 38df24 [ 1023 cap:1024 may:240 prune:1584 dead:27 reject:53 done:1 ]> show done
+TDD-4020844 search 38df24 [ 1023 cap:1024 may:240 prune:1584 dead:27 reject:53 done:1 ]> show 1
+TDD-205557 search 38df24 [ 1023 cap:1024 may:240 prune:1584 dead:27 reject:53 done:1 ]> ret
+TDD-1253458 change: 94 
+TDD-120 change: 6 
+TDD-7 change: 94 O
+TDD74722870 [prior:2158 bet:2173]> /res
+TDD-74158927 📋> ✨ Spaceword.org Daily 2025-09-22 ✨
+TDD-563917 📋> 
+TDD-14 📋> 🏆 Score: 2173
+TDD-4 📋> 🏅 Rank: 6/180 🏆
+TDD-1 📋> 🧩 Tiles: 21/21 ✅
+TDD-1 📋> 📏 Space Bonus: +73
+TDD1 📋> 
+TDD-1 📋> 
+TDD0 📋> Play at https://spaceword.org
+TDD292212 📋> #spaceword
+TDD134898 📋> ␚
+TDD-427049 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2025-09-22 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Rank: 6/180 \ud83c\udfc6\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TDD788 result: "\u2728 Spaceword.org Daily 2025-09-22 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Rank: 6/180 \ud83c\udfc6\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD2261257 [prior:2173]> /store
