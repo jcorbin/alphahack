@@ -1001,7 +1001,7 @@ class Search(StoredLog):
 
                 word_i = ui.tokens.have(r'(\d+):?', lambda m: int(m[1]), default=0) - 1
                 if 0 <= word_i < self.size:
-                    match = self.re_word_match(ui)
+                    match = re_word_match(ui)
                     if match:
                         self.question_guess(ui, word)
                         if self.proc_re_word_match(ui, word_i, match): word_i += 1
