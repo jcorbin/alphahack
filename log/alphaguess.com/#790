@@ -1,0 +1,46 @@
+T84.44840173795819 now: 2025-09-22T12:39:45UTC
+TD75 site: alphaguess.com
+TDD66048 loaded 196548 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (55 words excluded) asof bd095eef8908882fa93810977b2ead8446f8b939
+TDD4883921  ...
+TDD-2042356 [0 : 98232 : 196548] mach? b
+TDD-2907607 progress: -1 98232 mach
+TDD1369168 [0 : 47393 : 98232] dis? a
+TDD-1369171 progress: 1 47393 dis
+TDD1582509 [47394 : 72813 : 98232] gremolata? b
+TDD-1582505 progress: -1 72813 gremolata
+TDD1460554 [47394 : 60096 : 72813] face? b
+TDD-1460557 progress: -1 60096 face
+TDD1498258 [47394 : 53409 : 60096] el? a
+TDD-1498287 progress: 1 53409 el
+TDD1332069 [53410 : 56754 : 60096] equate? a
+TDD-1332024 progress: 1 56754 equate
+TDD2356939 [56755 : 58370 : 60096] ex? a
+TDD-2356971 progress: 1 58370 ex
+TDD1787301 [58371 : 59229 : 60096] expel? b
+TDD-1787284 progress: -1 59229 expel
+TDD1775268 [58371 : 58795 : 59229] exempt? b
+TDD-1775246 progress: -1 58795 exempt
+TDD1717080 [58371 : 58583 : 58795] excitation? b
+TDD-1717098 progress: -1 58583 excitation
+TDD1444495 [58371 : 58476 : 58583] excavate? a
+TDD-1444499 progress: 1 58476 excavate
+TDD1551202 [58477 : 58526 : 58583] excerpt? b
+TDD-1551195 progress: -1 58526 excerpt
+TDD1874406 [58477 : 58496 : 58526] excel? it
+TDD-1874399 progress: 0 58496 excel
+TDD-65 [58477 : 58496 : 58526] <Done>.
+TDD2687009 📋> 🧩 Puzzle #790
+TDD-2686969 📋> 
+TDD-45 📋> 🤔 13 guesses
+TDD-4 📋> 
+TDD0 📋> ⏱️ 19s
+TDD-1 📋> 
+TDD249975 📋> 🔗 alphaguess.com
+TDD-13008 📋> ␚
+TDD-236923 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #790\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-10 result: "\ud83e\udde9 Puzzle #790\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"
+TDD-34 result puzzle: 790
+TDD-4 result guesses: 13
+TDD-1 result time: 19s
+TDD0 result link: alphaguess.com
+TDD433850 📆 2025-09-22 ? 
