@@ -965,6 +965,9 @@ class Search(StoredLog):
             self.guess = guess
             self.desc = desc
 
+        def __call__(self, ui: PromptUI):
+            raise NotImplemented
+
     def question(self, ui: PromptUI):
         q = self.qmode
         word = self.questioning.guess.upper()
