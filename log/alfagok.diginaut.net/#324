@@ -1,0 +1,42 @@
+T37.5923672914505 now: 2025-09-22T12:38:58UTC
+TD71 site: alfagok.diginaut.net
+TDD145864 loaded 399726 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1126 words excluded) asof bd095eef8908882fa93810977b2ead8446f8b939
+TDD3965462  ...
+TDD-1115837 [0 : 199847 : 399726] lijm? b
+TDD-2995351 progress: -1 199847 lijm
+TDD1509869 [0 : 99753 : 199847] ex? b
+TDD-1509983 progress: -1 99753 ex
+TDD1776204 [0 : 49848 : 99753] boks? a
+TDD-1776222 progress: 1 49848 boks
+TDD1724536 [49849 : 74777 : 99753] dccclx? !
+TDD449691 [49849 : 74761 : 99752] dc? b
+TDD-2174216 progress: -1 74761 dc
+TDD2183082 [49849 : 62287 : 74761] cement? a
+TDD-2183076 progress: 1 62287 cement
+TDD1792903 [62288 : 68521 : 74761] connectie? a
+TDD-1792920 progress: 1 68521 connectie
+TDD1766168 [68522 : 71592 : 74761] cru? b
+TDD-1766187 progress: -1 71592 cru
+TDD2056715 [68522 : 70057 : 71592] convulsie? a
+TDD-2056679 progress: 1 70057 convulsie
+TDD1927794 [70058 : 70825 : 71592] covariantie? !
+TDD-164394 [70058 : 70825 : 71591] covariantiefunctie? !
+TDD1073126 [70058 : 70825 : 71590] covariantiefuncties? a
+TDD-2836541 progress: 1 70825 covariantiefuncties
+TDD4573209 [70826 : 71207 : 71590] creosoteer? a
+TDD-4573192 progress: 1 71207 creosoteer
+TDD2687065 [71208 : 71324 : 71590] crisis? it
+TDD-2687069 progress: 0 71324 crisis
+TDD-75 [71208 : 71324 : 71590] <Done>.
+TDD4142569 📋> 🧩 Puzzel #324
+TDD-4142522 📋> 🤔 11 gokken
+TDD-42 📋> ⏱️ 29s
+TDD346763 📋> 🔗 alfagok.diginaut.net
+TDD3427069 📋> ␚
+TDD-3773764 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #324\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 29s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD222 result: "\ud83e\udde9 Puzzel #324\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 29s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-294 result puzzle: 324
+TDD-7 result guesses: 11
+TDD-2 result time: 29s
+TDD0 result link: alfagok.diginaut.net
+TDD735641 📆 2025-09-22 ? 
