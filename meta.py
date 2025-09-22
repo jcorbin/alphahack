@@ -270,7 +270,7 @@ def load_solvers() -> Generator[SolverHarness]:
         return cem
     yield make_cemantle
 
-    @SolverHarness.stored('cemantle', Semantic,
+    @SolverHarness.stored('cemantix', Semantic,
                           site='cemantix.certitudes.org',
                           log_file='cemantix.log')
     def make_cemantix(tokens: PromptUI.Tokens):
