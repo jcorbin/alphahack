@@ -1,0 +1,123 @@
+T128.91493310965598 now: 2025-09-23T12:23:34UTC
+TD56 site: squareword.org
+TDD-15 wordlist: nwl2023.txt
+TDD4279491  ...
+TDD-1950340 🧩  ? #1331
+TDD-2329009 puzzle_id: #1331
+TDD10855242 > *
+TDD-4207630 try? 7
+TDD-6647608 questioning: ["avers", "#5"]
+TDD5924329 #1 _____  📋 "avers" ? ____S ~ AR
+TDD-5924110 attempt 0 AVERS m n n m Y
+TDD5048630 #2 _____  📋 "avers" ? A__R_ ~ A
+TDD-5048868 attempt 1 AVERS Y n n Y n
+TDD4771153 #3 _____  📋 "avers" ? _____ ~ AE
+TDD-4771161 attempt 2 AVERS m n m n n
+TDD2582358 #4 _____  📋 "avers" ? _____ ~ R
+TDD-2582341 attempt 3 AVERS n n n m n
+TDD2662467 #5 _____  📋 "avers" ? _____ ~ S
+TDD-2662139 attempt 4 AVERS n n n n m
+TDD2139752 ? *
+TDD2327245 #6 <IndexError>  📋 "avers" ? ␚
+TDD-4467438 question done
+TDD2153452 > *
+TDD1601062 <INT>
+TDD-3754514 <INT>
+T1.8967904467135668 now: 2025-09-23T12:24:35UTC
+TD1004989  ...
+TDD1143963 > *
+TDD1146749 try? 1
+TDD-3295504 questioning: ["acorn", "#2"]
+TDD8982309 #1 ____S ~AR -EV  📋 "acorn" ? ____S ~ ARC
+TDD-8982134 attempt 0 ACORN m m n m n
+TDD7379861 #2 A__R_ -ESV  📋 "acorn" ? A__R_ ~ A
+TDD-7380070 attempt 1 ACORN Y n n Y n
+TDD6108385 #3 _____ ~AE -RSV  📋 "acorn" ? .
+TDD-6108375 attempt 2 ACORN m n n n n
+TDD4127389 #4 _____ ~R -AESV  📋 "acorn" ? _____ ~ RO
+TDD-4127411 attempt 3 ACORN n n m m n
+TDD3196629 #5 _____ ~S -AERV  📋 "acorn" ? _____ ~ SN
+TDD-3195250 attempt 4 ACORN n n n n m
+TDD696759 ? *
+TDD1287448 #6 <IndexError>  📋 "acorn" ? ␚
+TDD-1985681 question done
+TDD1384200 > *
+TDD4955360 try? 3
+TDD-6339451 questioning: ["alarm", "#2"]
+TDD4628657 #1 ____S ~ACR -ENOV  📋 "alarm" ? .
+TDD-4628650 attempt 0 ALARM m n m m n
+TDD900791 #2 A__R_ -CENOSV  📋 "alarm" ? /it
+TDD-900815 attempt 1 ALARM Y Y Y Y Y
+TDD2934159 #3 _____ ~AE -CNORSV  📋 "alarm" ? _____ ~ AEM
+TDD-2934151 attempt 2 ALARM m n m n m
+TDD1580706 #4 _____ ~OR -ACENSV  📋 "alarm" ? .
+TDD-1580721 attempt 3 ALARM n n n m n
+TDD1030210 #5 _____ ~NS -ACEORV  📋 "alarm" ? .
+TDD-1030216 attempt 4 ALARM n n n n n
+TDD327028 ? 
+TDD-327100 question done
+TDD615754 > *
+TDD4749947 try? 4
+TDD-5365606 questioning: ["carts", "#1"]
+TDD8447836 #1 ____S ~ACR -ELMNOV  📋 "carts" ? CAR_S
+TDD-8447824 attempt 0 CARTS Y Y Y n Y
+TDD2291532 #3 _____ ~AEM -CLNORSV  📋 "carts" ? .
+TDD-2291548 attempt 2 CARTS n m n n n
+TDD1632660 #4 _____ ~OR -ACELMNSV  📋 "carts" ? .
+TDD-1632672 attempt 3 CARTS n n m n n
+TDD2700689 #5 _____ ~NS -ACELMORV  📋 "carts" ? _____ ~ SNT
+TDD-2700698 attempt 4 CARTS n n n m m
+TDD570481 ? 
+TDD-570520 question done
+TDD787978 > *
+TDD6917776 try? 1
+TDD-7705666 questioning: ["media", "#3"]
+TDD2588122 #1 CAR_S -ELMNOTV  📋 "media" ? .
+TDD-2588151 attempt 0 MEDIA n n n n n
+TDD1269053 #3 _____ ~AEM -CLNORSTV  📋 "media" ? /it
+TDD-1269069 attempt 2 MEDIA Y Y Y Y Y
+TDD3203337 #4 _____ ~OR -ACELMNSTV  📋 "media" ? _____ ~ ROI
+TDD-3203314 attempt 3 MEDIA n n n m n
+TDD5014533 #5 _____ ~NST -ACELMORV  📋 "media" ? _____ ~ SNTI
+TDD-5014536 attempt 4 MEDIA n n n m n
+TDD539158 ? 
+TDD-539260 question done
+TDD901008 > *
+TDD1017491 questioning: ["prior", "#4"]
+TDD6753553 #1 CAR_S -ADEILMNOTV  📋 "prior" ? CAR_S ~ P
+TDD-8671946 attempt 0 PRIOR m n n n n
+TDD862153 #4 _____ ~IOR -ACDELMNSTV  📋 "prior" ? /it
+TDD-862172 attempt 3 PRIOR Y Y Y Y Y
+TDD3897551 #5 _____ ~INST -ACDELMORV  📋 "prior" ? __I__ ~ SNT
+TDD-3897529 attempt 4 PRIOR n n Y n n
+TDD279963 ? 
+TDD-280072 question done
+TDD630106 > *
+TDD732124 questioning: ["carps", "#1"]
+TDD1758468 #1 CAR_S ~P -ADEILMNORTV  📋 "carps" ? /it
+TDD-3120603 attempt 0 CARPS Y Y Y Y Y
+TDD2950291 #5 __I__ ~NST -ACDELMOPRV  📋 "carps" ? .
+TDD-2950294 attempt 4 CARPS n n n n m
+TDD605233 ? *
+TDD666638 ? 
+TDD-1271976 question done
+TDD890813 > *
+TDD9355 questioning: ["stint", "#5"]
+TDD2697315 #5 __I__ ~NST -ACDELMOPRV  📋 "stint" ? /it
+TDD-3597380 attempt 4 STINT Y Y Y Y Y
+TDD461645 ? 
+TDD-461748 question done
+TDD5157809 📋> squareword.org 1331: 8 guesses
+TDD-5157771 📋> 
+TDD-60 📋> 🟩🟩🟩🟨🟩
+TDD-6 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD12 📋> 
+TDD-11 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD523333 📋> #squareword #squareword1331
+TDD221375 📋> ␚
+TDD-744661 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1331: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1331"}
+TDD361 result: "squareword.org 1331: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1331"
+TDD515181 📆 2025-09-23 ? 
