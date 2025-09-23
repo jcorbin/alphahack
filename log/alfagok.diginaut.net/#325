@@ -1,0 +1,50 @@
+T18.963234503753483 now: 2025-09-23T12:21:44UTC
+TD61 site: alfagok.diginaut.net
+TDD151281 loaded 399723 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1129 words excluded) asof e47e5939caf9c0c11f120b111a0b0e174356c29a
+TDD4097079  ...
+TDD-492675 [0 : 199844 : 399723] lijm? b
+TDD-3755544 progress: -1 199844 lijm
+TDD1779511 [0 : 99750 : 199844] ex? a
+TDD-1779645 progress: 1 99750 ex
+TDD1737052 [99751 : 149454 : 199844] huis? b
+TDD-1737024 progress: -1 149454 huis
+TDD1680929 [99751 : 111405 : 149454] ge? a
+TDD-1680950 progress: 1 111405 ge
+TDD1599081 [111406 : 130430 : 149454] gracieus? a
+TDD-1599095 progress: 1 130430 gracieus
+TDD1639238 [130431 : 139789 : 149454] hei? a
+TDD-1639193 progress: 1 139789 hei
+TDD3137024 [139790 : 144560 : 149454] hoek? b
+TDD-3137052 progress: -1 144560 hoek
+TDD2349364 [139790 : 141146 : 144560] her? a
+TDD-2349354 progress: 1 141146 her
+TDD1956147 [141147 : 142774 : 144560] hert? a
+TDD-1956143 progress: 1 142774 hert
+TDD2230106 [142775 : 143602 : 144560] hij? a
+TDD-2230101 progress: 1 143602 hij
+TDD3502402 [143603 : 144076 : 144560] hitler? !
+TDD58346 [143603 : 144067 : 144559] hit? b
+TDD-3560747 progress: -1 144067 hit
+TDD2932949 [143603 : 143826 : 144067] hindoe? a
+TDD-2932963 progress: 1 143826 hindoe
+TDD2899590 [143827 : 143922 : 144067] hip? a
+TDD-2899601 progress: 1 143922 hip
+TDD2228106 [143923 : 143994 : 144067] hipt? a
+TDD-2228085 progress: 1 143994 hipt
+TDD2731397 [143995 : 144031 : 144067] historie? a
+TDD-2731414 progress: 1 144031 historie
+TDD4229909 [144032 : 144050 : 144067] historisch? it
+TDD-4229873 progress: 0 144050 historisch
+TDD-94 [144032 : 144050 : 144067] <Done>.
+TDD4955018 📋> 🧩 Puzzel #325
+TDD-4954958 📋> 🤔 16 gokken
+TDD-57 📋> ⏱️ 39s
+TDD545825 📋> 🔗 alfagok.diginaut.net
+TDD-120128 📋> ␚
+TDD-425649 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #325\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 39s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD241 result: "\ud83e\udde9 Puzzel #325\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 39s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-277 result puzzle: 325
+TDD-21 result guesses: 16
+TDD-2 result time: 39s
+TDD0 result link: alfagok.diginaut.net
+TDD507887 📆 2025-09-23 ? 
