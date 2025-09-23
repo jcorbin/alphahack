@@ -1,0 +1,46 @@
+T77.30335927475244 now: 2025-09-23T12:22:42UTC
+TD57 site: alphaguess.com
+TDD61409 loaded 196548 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (55 words excluded) asof e47e5939caf9c0c11f120b111a0b0e174356c29a
+TDD8142719  ...
+TDD-5966546 [0 : 98232 : 196548] mach? b
+TDD-2237554 progress: -1 98232 mach
+TDD2258322 [0 : 47393 : 98232] dis? a
+TDD-2258317 progress: 1 47393 dis
+TDD1590413 [47394 : 72813 : 98232] gremolata? a
+TDD-1590397 progress: 1 72813 gremolata
+TDD1612652 [72814 : 85517 : 98232] ins? b
+TDD-1612671 progress: -1 85517 ins
+TDD8079966 [72814 : 79145 : 85517] hood? b
+TDD-8079957 progress: -1 79145 hood
+TDD1901662 [72814 : 75969 : 79145] haw? b
+TDD-1901682 progress: -1 75969 haw
+TDD1719628 [72814 : 74374 : 75969] had? b
+TDD-1719624 progress: -1 74374 had
+TDD1633330 [72814 : 73585 : 74374] guess? a
+TDD-1633298 progress: 1 73585 guess
+TDD2055574 [73586 : 73976 : 74374] gusset? b
+TDD-2055587 progress: -1 73976 gusset
+TDD2398249 [73586 : 73773 : 73976] gum? a
+TDD-2398255 progress: 1 73773 gum
+TDD1765016 [73774 : 73829 : 73976] gun? a
+TDD-1765017 progress: 1 73829 gun
+TDD1842054 [73830 : 73903 : 73976] gunrunner? a
+TDD-1842065 progress: 1 73903 gunrunner
+TDD3821866 [73904 : 73940 : 73976] gurgle? it
+TDD-3821838 progress: 0 73940 gurgle
+TDD-91 [73904 : 73940 : 73976] <Done>.
+TDD6243256 📋> 🧩 Puzzle #791
+TDD-6243199 📋> 
+TDD-52 📋> 🤔 13 guesses
+TDD-3 📋> 
+TDD-1 📋> ⏱️ 30s
+TDD-1 📋> 
+TDD495642 📋> 🔗 alphaguess.com
+TDD-148629 📋> ␚
+TDD-346974 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #791\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 30s\n\n\ud83d\udd17 alphaguess.com"}
+TDD12 result: "\ud83e\udde9 Puzzle #791\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 30s\n\n\ud83d\udd17 alphaguess.com"
+TDD-51 result puzzle: 791
+TDD-5 result guesses: 13
+TDD-1 result time: 30s
+TDD0 result link: alphaguess.com
+TDD407667 📆 2025-09-23 ? 
