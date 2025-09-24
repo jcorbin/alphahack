@@ -1,0 +1,46 @@
+T19.893667657859623 now: 2025-09-24T12:06:17UTC
+TD54 site: alfagok.diginaut.net
+TDD142496 loaded 399722 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1130 words excluded) asof 41bdf27630e0da760a4a850b0a349cc66cd703ce
+TDD6136540  ...
+TDD-3313798 [0 : 199843 : 399722] lijm? a
+TDD-2965063 progress: 1 199843 lijm
+TDD1769718 [199844 : 299768 : 399722] schub? az
+TDD-390974 [199844 : 299768 : 399722] schub? a
+TDD-1378881 progress: 1 299768 schub
+TDD1948625 [299769 : 349552 : 399722] vakantie? a
+TDD-1948613 progress: 1 349552 vakantie
+TDD4624765 [349553 : 374296 : 399722] vrij? b
+TDD-4624764 progress: -1 374296 vrij
+TDD2276237 [349553 : 353120 : 374296] ver? a
+TDD-2276234 progress: 1 353120 ver
+TDD1955405 [353121 : 363705 : 374296] verzot? b
+TDD-1955419 progress: -1 363705 verzot
+TDD2043063 [353121 : 358413 : 363705] verluieren? b
+TDD-2043050 progress: -1 358413 verluieren
+TDD2154186 [353121 : 355301 : 358413] verg? a
+TDD-2154187 progress: 1 355301 verg
+TDD2069601 [355302 : 356618 : 358413] verkeer? b
+TDD-2069609 progress: -1 356618 verkeer
+TDD2080434 [355302 : 355955 : 356618] verhaast? a
+TDD-2080446 progress: 1 355955 verhaast
+TDD1917963 [355956 : 356279 : 356618] verhoud? a
+TDD-1917939 progress: 1 356279 verhoud
+TDD3517117 [356280 : 356449 : 356618] verindischt? a
+TDD-3517115 progress: 1 356449 verindischt
+TDD2618809 [356450 : 356531 : 356618] verjagen? b
+TDD-2618842 progress: -1 356531 verjagen
+TDD2275085 [356450 : 356474 : 356531] verjaardag? it
+TDD-2275061 progress: 0 356474 verjaardag
+TDD-71 [356450 : 356474 : 356531] <Done>.
+TDD3558680 📋> 🧩 Puzzel #326
+TDD-3558636 📋> 🤔 14 gokken
+TDD-54 📋> ⏱️ 33s
+TDD547863 📋> 🔗 alfagok.diginaut.net
+TDD-211899 📋> ␚
+TDD-335895 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #326\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 33s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD226 result: "\ud83e\udde9 Puzzel #326\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 33s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-286 result puzzle: 326
+TDD-18 result guesses: 14
+TDD-2 result time: 33s
+TDD0 result link: alfagok.diginaut.net
+TDD485682 📆 2025-09-24 ? 
