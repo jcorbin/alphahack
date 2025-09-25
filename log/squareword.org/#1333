@@ -1,0 +1,136 @@
+T67.176901220344 now: 2025-09-25T13:41:37UTC
+TD54 site: squareword.org
+TDD-1 wordlist: nwl2023.txt
+TDD822465  ...
+TDD6851011 🧩  ? #1333
+TDD-7673354 puzzle_id: #1333
+TDD1273744 > *
+TDD1589808 try? 2
+TDD-2863535 questioning: ["setal", "#5"]
+TDD5390646 #1 _____  📋 "setal" ? S____ ~ ET
+TDD-5390398 attempt 0 SETAL Y m m n n
+TDD2590534 #2 _____  📋 "setal" ? _____ ~ EAL
+TDD-2590808 attempt 1 SETAL n m n m m
+TDD2909509 #3 _____  📋 "setal" ? _____ ~ S
+TDD-2909515 attempt 2 SETAL m n n n n
+TDD2403997 #4 _____  📋 "setal" ? _E___ ~ E
+TDD-2403977 attempt 3 SETAL n Y n n n
+TDD2127909 #5 _____  📋 "setal" ? _____ ~ ET
+TDD-2127924 attempt 4 SETAL n m m n n
+TDD993528 ? 
+TDD-993571 question done
+TDD884325 > *
+TDD4085358 try? 1
+TDD-4969580 questioning: ["shite", "#1"]
+TDD14789826 #1 S____ ~ET -AL  📋 "shite" ? S___E ~ T
+TDD-14789876 attempt 0 SHITE Y n n m Y
+TDD1540106 #2 _____ ~AEL -ST  📋 "shite" ? .
+TDD-1540115 attempt 1 SHITE n n n n m
+TDD4130012 #3 _____ ~S -AELT  📋 "shite" ? __I__ ~ S
+TDD-4130023 attempt 2 SHITE m n Y n n
+TDD2976618 #4 _E___ -ALST  📋 "shite" ? _E__E
+TDD-2976605 attempt 3 SHITE n n n n Y
+TDD1992079 #5 _____ ~ET -ALS  📋 "shite" ? 
+TDD817662 #5 _____ ~ET -ALS  ? .
+TDD-2809746 attempt 4 SHITE n n n m m
+TDD733124 ? 
+TDD-733183 question done
+TDD918969 > *I
+TDD41093 > *
+TDD1916483 try? 2
+TDD-2876484 questioning: ["store", "#1"]
+TDD10539296 #1 S___E ~T -AHIL  📋 "store" ? STO_E
+TDD-10539309 attempt 0 STORE Y Y Y n Y
+TDD2901881 #2 _____ ~AEL -HIST  📋 "store" ? .
+TDD-2901886 attempt 1 STORE n n n n m
+TDD1284799 #3 __I__ ~S -AEHLT  📋 "store" ? .
+TDD-1284805 attempt 2 STORE m n n n n
+TDD3402284 #4 _E__E -AHILST  📋 "store" ? _E__E ~ R
+TDD-3402280 attempt 3 STORE n n n m Y
+TDD3126905 #5 _____ ~ET -AHILS  📋 "store" ? _____ ~ ETR
+TDD-3126889 attempt 4 STORE n m n m m
+TDD326306 ? 
+TDD-326375 question done
+TDD811287 > *
+TDD2373603 try? ␚
+TDD-3184930 <EOF>
+TDD4639611 > * 5
+TDD2425619 try? 6
+TDD-7065112 questioning: ["crept", "#5"]
+TDD5483783 #1 STO_E -AHILR  📋 "crept" ? .
+TDD-5483801 attempt 0 CREPT n n n n n
+TDD4662001 #2 _____ ~AEL -HIORST  📋 "crept" ? _____ ~ EALP
+TDD-4661973 attempt 1 CREPT n n m m n
+TDD1393469 #3 __I__ ~S -AEHLORT  📋 "crept" ? .
+TDD-1393501 attempt 2 CREPT n n n n n
+TDD1351566 #4 _E__E ~R -AHILOST  📋 "crept" ? .
+TDD-1351576 attempt 3 CREPT n m n n n
+TDD2763745 #5 _____ ~ERT -AHILOS  📋 "crept" ? _RE__ ~ ET
+TDD-2763725 attempt 4 CREPT n Y Y n m
+TDD1054200 ? 
+TDD-1054267 question done
+TDD1929811 > * 2
+TDD1061491 try? 1
+TDD-2991237 questioning: ["paled", "#2"]
+TDD4473172 #1 STO_E -ACEHILPRT  📋 "paled" ? .
+TDD-4473177 attempt 0 PALED n n n n n
+TDD729241 #2 _____ ~AELP -CHIORST  📋 "paled" ? /it
+TDD-729258 attempt 1 PALED Y Y Y Y Y
+TDD2501659 #3 __I__ ~S -ACEHLOPRT  📋 "paled" ? .
+TDD-2501641 attempt 2 PALED n n n n n
+TDD2206001 #4 _E__E ~R -ACEHILOPST  📋 "paled" ? .
+TDD-2206007 attempt 3 PALED n n n n n
+TDD4744641 #5 _RE__ ~T -ACHILOPS  📋 "paled" ? _REED ~ T
+TDD-4744628 attempt 4 PALED n n n Y Y
+TDD764437 ? 
+TDD-764504 question done
+TDD1538832 > *
+TDD714649 questioning: ["using", "#3"]
+TDD2820247 #1 STO_E -ACDEHILPRT  📋 "using" ? .
+TDD-5073656 attempt 0 USING n n n n n
+TDD943306 #3 __I__ ~S -ACDEHLOPRT  📋 "using" ? /it
+TDD-943323 attempt 2 USING Y Y Y Y Y
+TDD3744215 #4 _E__E ~R -ACDEHILOPST  📋 "using" ? _E__E ~ RU
+TDD-3744206 attempt 3 USING m n n n n
+TDD1584155 #5 _REED ~T -ACHILOPS  📋 "using" ? .
+TDD-1584174 attempt 4 USING n n n n n
+TDD175225 ? 
+TDD-175311 question done
+TDD610693 > *
+TDD1197168 questioning: ["revue", "#4"]
+TDD3667863 #1 STO_E -ACDEGHILNPRSTU  📋 "revue" ? .
+TDD-5475609 attempt 0 REVUE n n n n Y
+TDD942348 #4 _E__E ~RU -ACDEGHILNOPST  📋 "revue" ? /it
+TDD-942368 attempt 3 REVUE Y Y Y Y Y
+TDD2801037 #5 _REED ~T -ACGHILNOPSU  📋 "revue" ? .
+TDD-2801043 attempt 4 REVUE n n n n n
+TDD1607267 ? 
+TDD-1607296 question done
+TDD666558 > *
+TDD684905 questioning: ["treed", "#5"]
+TDD9245956 #1 STO_E -ACDGHILNPRSTUV  📋 "treed" ? .
+TDD-10597378 attempt 0 TREED n n n n n
+TDD2062633 #5 _REED ~T -ACEGHILNOPRSUV  📋 "treed" ? /it
+TDD-2062629 attempt 4 TREED Y Y Y Y Y
+TDD834599 ? 
+TDD-834652 question done
+TDD3355979 > stove
+TDD-3355938 questioning: ["stove", "entered"]
+TDD2881006 #1 STO_E -ACDEGHILNPRSTUV  📋 "stove" ? /it
+TDD-2880995 attempt 0 STOVE Y Y Y Y Y
+TDD1050897 ? 
+TDD-1050956 question done
+TDD4392103 📋> squareword.org 1333: 9 guesses
+TDD-4392132 📋> 
+TDD-52 📋> 🟩🟩🟩🟨🟩
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟨🟩🟨🟨
+TDD0 📋> 🟨🟩🟨🟨🟩
+TDD0 📋> 🟨🟩🟩🟩🟩
+TDD11 📋> 
+TDD-10 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD472034 📋> #squareword #squareword1333
+TDD199489 📋> ␚
+TDD-671470 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1333: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1333"}
+TDD383 result: "squareword.org 1333: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1333"
+TDD469827 📆 2025-09-25 ? 
