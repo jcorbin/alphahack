@@ -1,0 +1,98 @@
+T270.5838364902884 now: 2025-09-25T13:45:01UTC
+TD53 site: https://play.dictionary.com/games/todays-hurdle
+TDD-11 wordlist: nwl2023.txt
+TDD20464592  ...
+TDD-16162557 1.1> *
+TDD-2930618 1.1 ? 1
+TDD3428809 1.1 📋 "stare" ? YnnnY
+TDD-4800060 tried: STARE Y n n n Y
+TDD918072 1.2> *
+TDD1216111 1.2 ? 2
+TDD2209597 1.2 📋 "since" ? YnYnY
+TDD-4343846 tried: SINCE Y n Y n Y
+TDD448432 1.3> *
+TDD1079805 1.3 ? 2
+TDD1546906 1.3 📋 "sense" ? it
+TDD-3075174 tried: SENSE Y Y Y Y Y
+TDD8245052 2.1 📋 "sense" ? nnnnn
+TDD-8245022 tried: SENSE n n n n n
+TDD525977 2.2> *
+TDD3118191 2.2 ? 7
+TDD993528 2.2 📋 "flirt" ? nnnMn
+TDD-4637699 tried: FLIRT n n n m n
+TDD479781 2.3> *
+TDD1658328 2.3 ? 3
+TDD2553773 2.3 📋 "morph" ? nnYMn
+TDD-4691880 tried: MORPH n n Y m n
+TDD587599 2.4> *
+TDD5464943 2.4 ? 4
+TDD-1427502 2.4 📋 "parka" ? it
+TDD-4625059 tried: PARKA Y Y Y Y Y
+TDD14168560 3.1 📋 "parka" ? nMnnn
+TDD-14168547 tried: PARKA n m n n n
+TDD559509 3.2> *
+TDD1008121 3.2 ? 1
+TDD3086350 3.2 📋 "heals" ? nMYnn
+TDD-4653973 tried: HEALS n m Y n n
+TDD1308572 3.3> *
+TDD577277 3.3 ? 1
+TDD2322396 3.3 📋 "inane" ? nYYnM
+TDD-4208267 tried: INANE n Y Y n m
+TDD895685 3.4> *
+TDD3748611 3.4 📋 "enact" ? it
+TDD-4644313 tried: ENACT Y Y Y Y Y
+TDD10886545 4.1 📋 "enact" ? MnYnn
+TDD-10886503 tried: ENACT m n Y n n
+TDD1857210 4.2> *
+TDD5295787 4.2 ? MMYnn
+TDD-2309857 4.2 ? 1
+TDD-2846271 4.2 📋 "reads" ? MMYnn
+TDD-1996905 tried: READS m m Y n n
+TDD1329818 4.3> *
+TDD-208575 4.3 ? 1
+TDD2970192 4.3 📋 "grave" ? nYYYY
+TDD-4091423 tried: GRAVE n Y Y Y Y
+TDD692009 4.4> *
+TDD3026358 4.4 📋 "brave" ? it
+TDD-3718385 tried: BRAVE Y Y Y Y Y
+TDD8741839 5.1 📋 "sense" ? nnMnn
+TDD-8741799 tried: SENSE n n m n n
+TDD2242192 5.2 📋 "parka" ? nMMnn
+TDD-2242202 tried: PARKA n m m n n
+TDD2312480 5.3 📋 "enact" ? nYMnn
+TDD-2312485 tried: ENACT n Y m n n
+TDD2411800 5.4 📋 "brave" ? nMMnn
+TDD-2411805 tried: BRAVE n m m n n
+TDD2060871 5.5> *
+TDD2085862 5.5 ? it
+TDD-2603116 5.5 ? 2
+TDD-886401 5.5 📋 "angry" ? it
+TDD-657265 tried: ANGRY Y Y Y Y Y
+TDD4821295 📋> Hurdle 1363
+TDD-4821274 📋> 
+TDD-79 📋> 3/6
+TDD-3 📋> 🟩⬜⬜⬜🟩
+TDD0 📋> 🟩⬜🟩⬜🟩
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD3 📋> 4/6
+TDD-2 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> ⬜⬜⬜🟨⬜
+TDD-1 📋> ⬜⬜🟩🟨⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> ⬜🟨⬜⬜⬜
+TDD0 📋> ⬜🟨🟩⬜⬜
+TDD0 📋> ⬜🟩🟩⬜🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> 🟨⬜🟩⬜⬜
+TDD0 📋> 🟨🟨🟩⬜⬜
+TDD0 📋> ⬜🟩🟩🟩🟩
+TDD5 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> Final 1/2
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD475798 📋> score: 10,000
+TDD-149538 📋> ␚
+TDD-326214 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1363\n\n3/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"}
+TDD335 result: "Hurdle 1363\n\n3/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"
+TDD441335 📆 2025-09-25 ? 
