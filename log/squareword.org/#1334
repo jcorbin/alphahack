@@ -1,0 +1,122 @@
+T82.33099867869169 now: 2025-09-26T12:32:57UTC
+TD52 site: squareword.org
+TDD-13 wordlist: nwl2023.txt
+TDD5776549  ...
+TDD-4202374 🧩  ? #1334
+TDD-1574048 puzzle_id: #1334
+TDD2157180 > *
+TDD-794121 try? 1
+TDD-1363036 questioning: ["raise", "#5"]
+TDD4223180 #1 _____  📋 "raise" ? _____ ~ RAS
+TDD-4222965 attempt 0 RAISE m m n m n
+TDD4233392 #2 _____  📋 "raise" ? ____E ~ RIE
+TDD-4233601 attempt 1 RAISE m n m n Y
+TDD2582302 #3 _____  📋 "raise" ? ____E ~ A
+TDD-2582325 attempt 2 RAISE n m n n Y
+TDD2017621 #4 _____  📋 "raise" ? _____ ~ IE
+TDD-2017624 attempt 3 RAISE n n m n m
+TDD2442372 #5 _____  📋 "raise" ? _____ ~ RAS
+TDD-2442364 attempt 4 RAISE m m n m n
+TDD737074 ? 
+TDD-737123 question done
+TDD613815 > *
+TDD2441976 try? 3
+TDD-3055729 questioning: ["litre", "#2"]
+TDD7203830 #1 _____ ~ARS -EI  📋 "litre" ? _____ ~ RAST
+TDD-7203832 attempt 0 LITRE n n m m n
+TDD3524377 #2 ____E ~IR -AS  📋 "litre" ? ____E ~ RIE
+TDD-3524384 attempt 1 LITRE n m n m Y
+TDD2597965 #3 ____E ~A -IRS  📋 "litre" ? ____E ~ AL
+TDD-2597959 attempt 2 LITRE m n n n Y
+TDD2425236 #4 _____ ~EI -ARS  📋 "litre" ? _I___ ~ ET
+TDD-2425245 attempt 3 LITRE n Y m n m
+TDD4219328 #5 _____ ~ARS -EI  📋 "litre" ? ___R_ ~ AS
+TDD-4219345 attempt 4 LITRE n n n Y n
+TDD248515 ? 
+TDD-248594 question done
+TDD759507 > *
+TDD12092571 try? ␚
+TDD-12852095 <EOF>
+TDD1625310 > * 1
+TDD8578634 try? 1
+TDD-10203846 questioning: ["strap", "#1"]
+TDD6072571 #1 _____ ~ARST -EIL  📋 "strap" ? .
+TDD-6072567 attempt 0 STRAP m m m m n
+TDD3490705 #2 ____E ~IR -ALST  📋 "strap" ? __R_E ~ IE
+TDD-3490681 attempt 1 STRAP n n Y n n
+TDD1591651 #3 ____E ~AL -IRST  📋 "strap" ? .
+TDD-1591661 attempt 2 STRAP n n n m n
+TDD1737434 #4 _I___ ~ET -ALRS  📋 "strap" ? .
+TDD-1737447 attempt 3 STRAP n m n n n
+TDD2442619 #5 ___R_ ~AS -EILT  📋 "strap" ? S__R_ ~ A
+TDD-2442628 attempt 4 STRAP Y n n m n
+TDD468356 ? 
+TDD-468404 question done
+TDD1137629 > *
+TDD4424576 try? 1
+TDD-5562132 questioning: ["scary", "#5"]
+TDD7415388 #1 _____ ~ARST -EILP  📋 "scary" ? __A__ ~ RST
+TDD-7415390 attempt 0 SCARY m n Y m n
+TDD4565756 #2 __R_E ~I -ALPST  📋 "scary" ? __R_E ~ IE
+TDD-4565759 attempt 1 SCARY n n n n n
+TDD1961124 #3 ____E ~AL -IPRST  📋 "scary" ? .
+TDD-1961139 attempt 2 SCARY n n m n n
+TDD2657556 #4 _I___ ~ET -ALPRS  📋 "scary" ? .
+TDD-2657542 attempt 3 SCARY n n n n n
+TDD651376 #5 S__R_ ~A -EILPRT  📋 "scary" ? /it
+TDD-651394 attempt 4 SCARY Y Y Y Y Y
+TDD160105 ? 
+TDD-160204 question done
+TDD629542 > *
+TDD1843904 try? 1
+TDD-2473330 questioning: ["timed", "#4"]
+TDD10445897 #1 __A__ ~RST -CEILPY  📋 "timed" ? T_A__ ~ RSM
+TDD-10445860 attempt 0 TIMED Y n m n n
+TDD5084860 #2 __R_E ~I -ACLPRSTY  📋 "timed" ? __R_E ~ IE
+TDD-5084905 attempt 1 TIMED n m n m n
+TDD1612582 #3 ____E ~AL -CIPRSTY  📋 "timed" ? .
+TDD-1612592 attempt 2 TIMED n n n n n
+TDD812347 #4 _I___ ~ET -ACLPRSY  📋 "timed" ? /it
+TDD-812349 attempt 3 TIMED Y Y Y Y Y
+TDD167140 ? 
+TDD-167242 question done
+TDD601061 > *
+TDD1054816 questioning: ["trams", "#1"]
+TDD1810357 #1 T_A__ ~MRS -CDEILPY  📋 "trams" ? /it
+TDD-3465900 attempt 0 TRAMS Y Y Y Y Y
+TDD4308129 #2 __R_E ~I -ACDLMPRSTY  📋 "trams" ? __R_E ~ IE
+TDD-4308353 attempt 1 TRAMS n n n n n
+TDD1911260 #3 ____E ~AL -CDEIMPRSTY  📋 "trams" ? 
+TDD-272901 #3 ____E ~AL -CDEIMPRSTY  ? .
+TDD-1638358 attempt 2 TRAMS n n m n n
+TDD767159 ? 
+TDD-767239 question done
+TDD581479 > *
+TDD2864073 try? 2
+TDD-3445464 questioning: ["eerie", "#2"]
+TDD2855544 #2 __R_E ~I -ACDLMPRSTY  📋 "eerie" ? /it
+TDD-2855575 attempt 1 EERIE Y Y Y Y Y
+TDD7445048 #3 ____E ~AL -CDEIMPRSTY  📋 "eerie" ? .
+TDD-7445016 attempt 2 EERIE n n n n Y
+TDD1055683 ? 
+TDD-1055756 question done
+TDD581764 > *
+TDD329596 questioning: ["alone", "#3"]
+TDD4688971 #3 ____E ~AL -CDIMPRSTY  📋 "alone" ? /it
+TDD-5600272 attempt 2 ALONE Y Y Y Y Y
+TDD986695 ? 
+TDD-986740 question done
+TDD6490713 📋> squareword.org 1334: 8 guesses
+TDD-6490758 📋> 
+TDD-47 📋> 🟩🟨🟩🟨🟨
+TDD-4 📋> 🟨🟨🟩🟨🟩
+TDD-3 📋> 🟨🟨🟨🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD13 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD234648 📋> #squareword #squareword1334
+TDD355889 📋> ␚
+TDD-590487 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1334: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1334"}
+TDD346 result: "squareword.org 1334: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1334"
+TDD293087 📆 2025-09-26 ? 
