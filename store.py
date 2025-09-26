@@ -670,6 +670,9 @@ class StoredLog:
             reverse=True))
 
         def try_token(puzzle_id: str):
+            for ent in ents:
+                if ent.name == puzzle_id:
+                    return ent.path
             mayhaps = tuple(
                 ent.path
                 for ent in ents
@@ -683,10 +686,6 @@ class StoredLog:
 
         if not puzzle_id:
             return ents[0].path if ents else None
-
-        maybe_log_file = os.path.join(sd, puzzle_id)
-        if os.path.isfile(maybe_log_file):
-            return maybe_log_file
 
         return try_token(puzzle_id)
 
