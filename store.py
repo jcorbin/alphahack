@@ -652,7 +652,7 @@ class StoredLog:
         self.loaded = True
         self.log_file = log_file
 
-    def find_prior_log(self, ui: PromptUI, puzzle_id: str|None=None):
+    def find_prior_log(self, ui: PromptUI, puzzle_id: str|None=None) -> str|None:
         if puzzle_id is None:
             puzzle_id = next(ui.tokens, '')
 
