@@ -725,16 +725,22 @@ class Meta(Arguable):
             if found is None:
                 ui.print(f'! could not find last log file')
                 return
+            ui.print(f'Found last log_file: {log_file}')
             log_file = found
-            return dis(ui)
+            if ui.tokens:
+                return pr.handle(ui)
+            else:
+                return pr
 
         def do_edit(ui: PromptUI):
             editor = os.environ.get('EDITOR', 'vi')
             _ = ui.check_call(subprocess.Popen((editor, log_file)))
+            raise StopIteration
 
         def do_rm(ui: PromptUI):
             ui.print(f'+ rm {log_file}')
             os.unlink(log_file)
+            raise StopIteration
 
         def do_cont(ui: PromptUI):
             return solver_harness[solver_i].run(ui, log_file)
@@ -745,9 +751,9 @@ class Meta(Arguable):
                 10 if ui.screen_lines < 20 else
                 ui.screen_lines//2)
             _ = ui.check_call(subprocess.Popen(('tail', f'-n{tail_n}', log_file)))
-            return self.prompt
+            raise StopIteration
 
-        dis = ui.Dispatcher({
+        pr = ui.Prompt(lambda _: f'{log_file}> ', {
             'last': use_last,
             'ls': partial(use_last, puzzle_id='*'),
 
@@ -758,10 +764,12 @@ class Meta(Arguable):
 
             # TODO fin / result
             # TODO share / report
-
-            '': 'tail',
         })
-        return dis(ui)
+
+        try:
+            ui.call_state(lambda ui: pr.handle(ui) or pr if ui.tokens else pr)
+        except (StopIteration, EOFError):
+            return self.prompt
 
     def do_run(self, ui: PromptUI):
         '''
