@@ -1,0 +1,87 @@
+T267.1161581426859 now: 2025-09-26T12:36:02UTC
+TD53 site: https://play.dictionary.com/games/todays-hurdle
+TDD-21 wordlist: nwl2023.txt
+TDD32541893  ...
+TDD-31794445 1.1> *
+TDD521946 1.1 ? 1
+TDD3737233 1.1 📋 "raise" ? nnnMY
+TDD-5006428 tried: RAISE n n n m Y
+TDD992975 1.2> *
+TDD2385732 1.2 ? 4
+TDD1055332 1.2 📋 "stove" ? YYnnY
+TDD-4434122 tried: STOVE Y Y n n Y
+TDD567427 1.3> 
+TDD81068 1.3> *
+TDD1678355 1.3 ? 3
+TDD2326736 1.3 📋 "style" ? it
+TDD-4653616 tried: STYLE Y Y Y Y Y
+TDD8702299 2.1 📋 "style" ? nnnnn
+TDD-8702267 tried: STYLE n n n n n
+TDD492556 2.2> *
+TDD718830 2.2 ? 1
+TDD3110721 2.2 📋 "incur" ? MnnYn
+TDD-4322125 tried: INCUR m n n Y n
+TDD637599 2.3> *
+TDD1736853 2.3 ? 4
+TDD3496898 2.3 📋 "mixup" ? MMnYM
+TDD-5871345 tried: MIXUP m m n Y m
+TDD743869 2.4> *
+TDD3011302 2.4 📋 "opium" ? it
+TDD-3755178 tried: OPIUM Y Y Y Y Y
+TDD7796943 3.1 📋 "opium" ? nnnMn
+TDD-7796941 tried: OPIUM n n n m n
+TDD904003 3.2> *
+TDD564512 3.2 ? 1
+TDD3249250 3.2 📋 "clues" ? MnYnM
+TDD-4717735 tried: CLUES m n Y n m
+TDD986416 3.3> *
+TDD1785050 3.3 ? 3
+TDD863197 3.3 📋 "stuck" ? it
+TDD-3634729 tried: STUCK Y Y Y Y Y
+TDD8005727 4.1 📋 "stuck" ? Mnnnn
+TDD-8005689 tried: STUCK m n n n n
+TDD525975 4.2> *
+TDD1088644 4.2 ? 1
+TDD2505348 4.2 📋 "dears" ? YYnnM
+TDD-4119966 tried: DEARS Y Y n n m
+TDD745397 4.3> *
+TDD2170509 4.3 ? 3
+TDD283617 4.3 📋 "dense" ? it
+TDD-3199549 tried: DENSE Y Y Y Y Y
+TDD8630143 5.1 📋 "style" ? nMnnn
+TDD-8630083 tried: STYLE n m n n n
+TDD1986303 5.2 📋 "opium" ? nMMYn
+TDD-1986317 tried: OPIUM n m m Y n
+TDD1528918 5.3 📋 "stuck" ? nMMnn
+TDD-1528940 tried: STUCK n m m n n
+TDD1712776 5.4 📋 "dense" ? nnMnn
+TDD-1712783 tried: DENSE n n m n n
+TDD1461720 5.5> *
+TDD2217483 5.5 📋 "input" ? it
+TDD-3679233 tried: INPUT Y Y Y Y Y
+TDD5546398 📋> Hurdle 1364
+TDD-5546422 📋> 
+TDD-61 📋> 3/6
+TDD-3 📋> ⬜⬜⬜🟨🟩
+TDD-2 📋> 🟩🟩⬜⬜🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 4/6
+TDD0 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> 🟨⬜⬜🟩⬜
+TDD0 📋> 🟨🟨⬜🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD10 📋> 3/6
+TDD-9 📋> ⬜⬜⬜🟨⬜
+TDD0 📋> 🟨⬜🟩⬜🟨
+TDD3 📋> 🟩🟩🟩🟩🟩
+TDD7 📋> 3/6
+TDD2 📋> 🟨⬜⬜⬜⬜
+TDD-1 📋> 🟩🟩⬜⬜🟨
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD-7 📋> Final 1/2
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD303291 📋> score: 10,200
+TDD20347 📋> ␚
+TDD-323597 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1364\n\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,200"}
+TDD334 result: "Hurdle 1364\n\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,200"
+TDD241563 📆 2025-09-26 ? 
