@@ -672,22 +672,29 @@ class StoredLog:
         def try_token(puzzle_id: str):
             for ent in ents:
                 if ent.name == puzzle_id:
-                    return ent.path
+                    return ent
             mayhaps = tuple(
-                ent.path
+                ent
                 for ent in ents
                 if puzzle_id in ent.name)
             if len(mayhaps) == 1:
                 return mayhaps[0]
             elif len(mayhaps) > 1:
-                ui.print(f'! ambiguous substring, mayhaps: {mayhaps!r}')
-            else:
-                ui.print(f'! unable to find prior log {puzzle_id!r} in {sd}')
+                mayname = tuple(ent.name for ent in mayhaps)
+                ui.print(f'! ambiguous substring, mayhaps: {mayname!r}')
 
-        if not puzzle_id:
-            return ents[0].path if ents else None
+        choice = ents[0] if ents else None
 
-        return try_token(puzzle_id)
+        if puzzle_id:
+            choice = try_token(puzzle_id)
+
+        if choice is None:
+            ui.print(
+                f'! unable to find prior log {puzzle_id!r} in {sd}'
+                if puzzle_id else
+                f'! no prior logs in {sd}')
+            return None
+        return choice.path
 
     def __call__(self, ui: PromptUI) -> PromptUI.State|None:
         spec_match = re.fullmatch(r'''(?x)
