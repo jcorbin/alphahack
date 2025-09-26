@@ -1,0 +1,54 @@
+T44.0003376621753 now: 2025-09-26T12:32:18UTC
+TD50 site: alphaguess.com
+TDD65784 loaded 196548 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (55 words excluded) asof 4808609a6f5d1bc14f1ac4fda3cb26945723d004
+TDD6152495  ...
+TDD-4422659 [0 : 98232 : 196548] mach? a
+TDD-1795569 progress: 1 98232 mach
+TDD1508228 [98233 : 147337 : 196548] rho? b
+TDD-1508253 progress: -1 147337 rho
+TDD1639770 [98233 : 122117 : 147337] par? b
+TDD-1639763 progress: -1 122117 par
+TDD1725537 [98233 : 110137 : 122117] need? b
+TDD-1725534 progress: -1 110137 need
+TDD1538432 [98233 : 104180 : 110137] miri? b
+TDD-1538439 progress: -1 104180 miri
+TDD1563251 [98233 : 101027 : 104180] med? a
+TDD-1563274 progress: 1 101027 med
+TDD1391479 [101028 : 102528 : 104180] meth? a
+TDD-1391442 progress: 1 102528 meth
+TDD1409890 [102529 : 103264 : 104180] mid? a
+TDD-1409890 progress: 1 103264 mid
+TDD1303068 [103265 : 103615 : 104180] mill? a
+TDD-1303084 progress: 1 103615 mill
+TDD1484646 [103616 : 103895 : 104180] mineral? b
+TDD-1484642 progress: -1 103895 mineral
+TDD1376186 [103616 : 103755 : 103895] milliwatts? a
+TDD-1376175 progress: 1 103755 milliwatts
+TDD1279067 [103756 : 103794 : 103895] mim? a
+TDD-1279050 progress: 1 103794 mim
+TDD1369220 [103795 : 103846 : 103895] mince? a
+TDD-1369248 progress: 1 103846 mince
+TDD1412223 [103847 : 103858 : 103895] mind? a
+TDD-1412218 progress: 1 103858 mind
+TDD1864305 [103859 : 103873 : 103895] mindful? a
+TDD-1864291 progress: 1 103873 mindful
+TDD1459032 [103874 : 103882 : 103895] minds? a
+TDD-1459022 progress: 1 103882 minds
+TDD1541914 [103883 : 103887 : 103895] mine? it
+TDD-1541943 progress: 0 103887 mine
+TDD-56 [103883 : 103887 : 103895] <Done>.
+TDD3561401 📋> 🧩 Puzzle #794
+TDD-3561344 📋> 
+TDD-59 📋> 🤔 17 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 24s
+TDD-1 📋> 
+TDD337327 📋> 🔗 alphaguess.com
+TDD-43519 📋> ␚
+TDD-293745 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #794\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 24s\n\n\ud83d\udd17 alphaguess.com"}
+TDD5 result: "\ud83e\udde9 Puzzle #794\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 24s\n\n\ud83d\udd17 alphaguess.com"
+TDD-69 result puzzle: 794
+TDD-4 result guesses: 17
+TDD-1 result time: 24s
+TDD0 result link: alphaguess.com
+TDD333308 📆 2025-09-26 ? 
