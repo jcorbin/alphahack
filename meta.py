@@ -10,6 +10,7 @@ from collections.abc import Generator, Iterable
 from datetime import date
 from dotenv import load_dotenv
 from emoji import emoji_count, is_emoji
+from functools import partial
 from typing import Callable, Protocol, cast, final, override
 
 from store import StoredLog, atomic_rewrite, git_txn
@@ -718,10 +719,9 @@ class Meta(Arguable):
         harness = solver_harness[solver_i]
         log_file = harness.log_file
 
-        def use_last(ui: PromptUI):
+        def use_last(ui: PromptUI, puzzle_id: str = ''):
             nonlocal log_file
-            # TODO abstract this up onto harness ; TODO puzzle_id arg
-            found = harness.make(ui.tokens).find_prior_log(ui, '')
+            found = harness.make(ui.tokens).find_prior_log(ui, puzzle_id)
             if found is None:
                 ui.print(f'! could not find last log file')
                 return
@@ -749,6 +749,7 @@ class Meta(Arguable):
 
         dis = ui.Dispatcher({
             'last': use_last,
+            'ls': partial(use_last, puzzle_id='*'),
 
             'cont': do_cont,
             'edit': do_edit,
