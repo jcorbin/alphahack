@@ -16,7 +16,7 @@ from typing import Callable, cast, final
 from types import TracebackType
 
 from mdkit import break_sections, replace_sections
-from ui import LogTime, PromptUI
+from ui import LogTime, Paginator, PromptUI, SeqLister
 
 def parse_datetime(s: str):
     return _parse_datetime(s,
@@ -685,7 +685,20 @@ class StoredLog:
 
         choice = ents[0] if ents else None
 
-        if puzzle_id:
+        if puzzle_id == '*':
+            ls = SeqLister(
+                f'{sd}/',
+                ents,
+                show=lambda ent: f'{ent.name}',
+                perse=lambda ui: try_token(next(ui.tokens)) if ui.tokens else None,
+            )
+            try:
+                ui.call_state(Paginator(ls))
+            except StopIteration:
+                pass
+            choice = ls.choice
+
+        elif puzzle_id:
             choice = try_token(puzzle_id)
 
         if choice is None:
