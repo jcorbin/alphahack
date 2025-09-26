@@ -661,16 +661,16 @@ class StoredLog:
             ui.print(f'! no store directory available to look for {puzzle_id!r}')
             raise StopIteration
 
+        ents = tuple(sorted((
+                ent
+                for ent in os.scandir(sd)
+                if ent.is_file()
+            ),
+            key=lambda ent: ent.stat().st_mtime,
+            reverse=True))
+
         if not puzzle_id:
-            ent = max(
-                (
-                    ent
-                    for ent in os.scandir(sd)
-                    if ent.is_file()
-                ),
-                key=lambda ent: ent.stat().st_mtime,
-                default=None)
-            return ent.path if ent else None
+            return ents[0].path if ents else None
 
         maybe_log_file = os.path.join(sd, puzzle_id)
         if os.path.isfile(maybe_log_file):
@@ -678,7 +678,7 @@ class StoredLog:
 
         mayhaps = tuple(
             ent.path
-            for ent in os.scandir(sd)
+            for ent in ents
             if puzzle_id in ent.name)
         if len(mayhaps) == 1:
             return mayhaps[0]
