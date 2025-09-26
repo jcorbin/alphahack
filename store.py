@@ -669,6 +669,18 @@ class StoredLog:
             key=lambda ent: ent.stat().st_mtime,
             reverse=True))
 
+        def try_token(puzzle_id: str):
+            mayhaps = tuple(
+                ent.path
+                for ent in ents
+                if puzzle_id in ent.name)
+            if len(mayhaps) == 1:
+                return mayhaps[0]
+            elif len(mayhaps) > 1:
+                ui.print(f'! ambiguous substring, mayhaps: {mayhaps!r}')
+            else:
+                ui.print(f'! unable to find prior log {puzzle_id!r} in {sd}')
+
         if not puzzle_id:
             return ents[0].path if ents else None
 
@@ -676,16 +688,7 @@ class StoredLog:
         if os.path.isfile(maybe_log_file):
             return maybe_log_file
 
-        mayhaps = tuple(
-            ent.path
-            for ent in ents
-            if puzzle_id in ent.name)
-        if len(mayhaps) == 1:
-            return mayhaps[0]
-        elif len(mayhaps) > 1:
-            ui.print(f'! ambiguous substring, mayhaps: {mayhaps!r}')
-        else:
-            ui.print(f'! unable to find prior log {puzzle_id!r} in {sd}')
+        return try_token(puzzle_id)
 
     def __call__(self, ui: PromptUI) -> PromptUI.State|None:
         spec_match = re.fullmatch(r'''(?x)
