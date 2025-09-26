@@ -1247,3 +1247,91 @@ class PromptUI:
                 return True
             self.print(f'! exited {retcode}')
             return False
+
+class Lister(Protocol):
+    def __len__(self) -> int:
+        return 0
+
+    def display(self, ui: PromptUI, offset: int, limit: int):
+        return None
+
+    def select(self, ui: PromptUI) -> PromptUI.State|None:
+        return None
+
+@final
+class Paginator:
+    def __init__(self,
+                 list: Lister,
+                 mess: str = 'select> ',
+                 limit: int = 10,
+                 ):
+        self.list = list
+        self.mess = mess
+        self.limit = limit
+        self.offset = 0
+        self.re = 0
+
+    def prompt(self, ui: PromptUI):
+        if self.re == 0:
+            lim = len(self.list)
+            hi = min(lim, self.offset + self.limit)
+            ui.print(f'{self.list} [ {self.offset} : {hi} / {lim} ]')
+            self.list.display(ui, self.offset, self.limit)
+            if self.offset > 0:
+                ui.print(f'/P -> <Prev Page>')
+            if len(self.list) > self.offset + self.limit:
+                ui.print(f'/N -> <Next Page>')
+        return self.mess
+
+    def __call__(self, ui: PromptUI):
+        with ui.input(self.prompt(ui)) as tokens:
+            if not tokens:
+                self.re += 1
+                return
+            self.re = 0
+            if tokens.have(r'(?xi) /P(r(ev?)?)?'):
+                self.offset = max(0, self.offset-self.limit)
+                return self
+            if tokens.have(r'(?xi) /N(e(xt?)?)?'):
+                self.offset = min(len(self.list) - self.limit, self.offset+self.limit)
+                return self
+            return self.list.select(ui)
+
+@final
+class SeqLister[T]:
+    def __init__(self,
+                 name: str,
+                 items: Iterable[T],
+                 show: Callable[[T], str] = lambda x: str(x),
+                 ret: Callable[[T], State] = lambda _x: PromptUI.then_stop,
+                 perse: Callable[[PromptUI], T|None] = lambda _ui: None,
+                 ):
+        self.name = name
+        self.nitems = tuple(enumerate(items, 1))
+        self.show = show
+        self.perse = perse
+        self.ret = ret
+        self.choice: T|None = None
+
+    @override
+    def __str__(self):
+        return self.name
+
+    def __len__(self):
+        return len(self.nitems)
+
+    def display(self, ui: PromptUI, offset: int, limit: int):
+        for n, item in self.nitems[offset:offset+limit]:
+            ui.print(f'{n}. {self.show(item)}')
+
+    def select(self, ui: PromptUI) -> State|None:
+        m = ui.tokens.have(r'\d+', then=lambda m: int(m[0]))
+        if m is not None:
+            for n, item in self.nitems:
+                if n == m:
+                    self.choice = item
+                    break
+        else:
+            self.choice = self.perse(ui)
+        if self.choice is not None:
+            return self.ret(self.choice)
