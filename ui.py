@@ -2146,13 +2146,57 @@ class PromptUI:
             self.print(' <INT>')
             raise
 
-    def call_state(self, state: State):
+    def call_state(self,
+                   state: State,
+                   thrash_backoff: bool = False,
+                   thrash_after: int = 3,
+                   ):
+        thrashing = BackoffCounter(
+            count=-thrash_after + 1,
+            backoff=Backoff(limit = 16, jitter = 0))
+
+        def unwrap(state: State):
+            if isinstance(state, PromptUI.Traced):
+                state = state.state
+            return state
+
+        last = unwrap(state)
+        last_t = self.time.now
+
         with self.maybe_tracer(state) as state:
             while True:
+                if thrash_backoff and thrashing.count > 0:
+                    since = self.time.now - last_t
+                    delay = thrashing.backoff(thrashing.count-1)
+                    rem = delay - since
+                    self.print(f'! 💤 ui thrash {datetime.timedelta(seconds=delay)} (rem: {datetime.timedelta(seconds=rem)})')
+                    time.sleep(delay - since)
+
+                last_t = self.time.now
+
+                get_input = self.get_input
+                did_input = False
+                def got_input(mess: str):
+                    nonlocal did_input
+                    did_input = True
+                    return get_input(mess)
+                self.get_input = got_input
+
                 try:
                     nxt = state(self)
+                    # TODO did call input?
                 except Next as n:
                     nxt = PromptUI.Traced.MayTron(self, state, n)
+                finally:
+                    self.get_input = get_input
+
+                mon = nxt and unwrap(nxt)
+                if did_input:
+                    thrashing.reset()
+                elif mon is None or mon is last:
+                    thrashing.count += 1
+                last = mon
+
                 state = nxt or state
 
     @staticmethod
