@@ -1,0 +1,50 @@
+T3.3173847272992134 now: 2025-09-27T13:10:43UTC
+TD61 site: alphaguess.com
+TDD68770 loaded 196548 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (55 words excluded) asof d8bbb39d7adc35181fbc5bcebe83392de6346087
+TDD4018790  ...
+TDD-1632375 [0 : 98232 : 196548] mach? a
+TDD-2455052 progress: 1 98232 mach
+TDD1484831 [98233 : 147337 : 196548] rho? a
+TDD-1484928 progress: 1 147337 rho
+TDD1516288 [147338 : 171937 : 196548] tag? b
+TDD-1516291 progress: -1 171937 tag
+TDD1469026 [147338 : 159619 : 171937] slug? b
+TDD-1469032 progress: -1 159619 slug
+TDD1967792 [147338 : 153337 : 159619] sea? b
+TDD-1967786 progress: -1 153337 sea
+TDD1408972 [147338 : 150233 : 153337] sal? a
+TDD-1408980 progress: 1 150233 sal
+TDD1605050 [150234 : 151753 : 153337] scan? a
+TDD-1605044 progress: 1 151753 scan
+TDD1455490 [151754 : 152545 : 153337] scombrid? a
+TDD-1455494 progress: 1 152545 scombrid
+TDD1755534 [152546 : 152941 : 153337] scried? b
+TDD-1755511 progress: -1 152941 scried
+TDD1630501 [152546 : 152736 : 152941] scrag? b
+TDD-1630507 progress: -1 152736 scrag
+TDD1548179 [152546 : 152636 : 152736] scorn? b
+TDD-1548185 progress: -1 152636 scorn
+TDD1471303 [152546 : 152583 : 152636] scop? b
+TDD-1471297 progress: -1 152583 scop
+TDD1479713 [152546 : 152561 : 152583] scoop? a
+TDD-1479734 progress: 1 152561 scoop
+TDD1418535 [152562 : 152571 : 152583] scoot? a
+TDD-1418534 progress: 1 152571 scoot
+TDD1566142 [152572 : 152577 : 152583] scooter? it
+TDD-1566129 progress: 0 152577 scooter
+TDD-74 [152572 : 152577 : 152583] <Done>.
+TDD2807404 📋> 🧩 Puzzle #795
+TDD-2807351 📋> 
+TDD-53 📋> 🤔 15 guesses
+TDD-4 📋> 
+TDD0 📋> ⏱️ 22s
+TDD-1 📋> 
+TDD280963 📋> 🔗 alphaguess.com
+TDD105958 📋> ␚
+TDD-386875 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #795\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"}
+TDD225 result: "\ud83e\udde9 Puzzle #795\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"
+TDD-261 result puzzle: 795
+TDD-16 result guesses: 15
+TDD-1 result time: 22s
+TDD0 result link: alphaguess.com
+TDD709638 📆 2025-09-27 ? 
