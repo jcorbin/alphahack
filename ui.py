@@ -706,7 +706,7 @@ class PromptUI:
         self.time = Timer() if time is None else time
         self._log_time = LogTime()
 
-        self.get_input = get_input
+        self.get_input: Callable[[str], str] = get_input
         self.sink = sink
         self.clip = clip
         self.last: Literal['empty','prompt','print','write','remark'] = 'empty'
@@ -1096,12 +1096,58 @@ class PromptUI:
             raise
 
     def call_state(self, state: State):
+        thrash_backoff = False
+        thrash_delay_after = 3
+        thrash_delay_base = 2.0
+        thrash_delay_max = 16
+
+        def unwrap(state: State):
+            if isinstance(state, PromptUI.Traced):
+                state = state.state
+            return state
+
+        last = unwrap(state)
+        last_t = self.time.now
+        last_c = 0
+
         with self.maybe_tracer(state) as state:
             while True:
+                if thrash_backoff and last_c > thrash_delay_after:
+                    n = last_c - thrash_delay_after
+                    since = self.time.now - last_t
+                    delay = min(thrash_delay_max, thrash_delay_base**(n-1))
+                    rem = delay - since
+                    self.print(f'! 💤 ui thrash {datetime.timedelta(seconds=delay)} (rem: {datetime.timedelta(seconds=rem)})')
+                    time.sleep(delay - since)
+
+                last_t = self.time.now
+
+                get_input = self.get_input
+                did_input = False
+                def got_input(mess: str):
+                    nonlocal did_input
+                    did_input = True
+                    return get_input(mess)
+                self.get_input = got_input
+
                 try:
-                    state = state(self) or state
+                    nxt = state(self)
+                    # TODO did call input?
                 except Next as n:
-                    state = PromptUI.Traced.MayTron(self, state, n)
+                    nxt = PromptUI.Traced.MayTron(self, state, n)
+                finally:
+                    self.get_input = get_input
+
+                mon = nxt and unwrap(nxt)
+                if not did_input:
+                    if mon is None: last_c += 1
+                    elif mon is last:
+                        last_c += 1
+                else:
+                    last_c = 0
+                last = mon
+
+                state = nxt or state
 
     @staticmethod
     @contextmanager
