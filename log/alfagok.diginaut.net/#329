@@ -1,0 +1,55 @@
+T304.91970510035753 now: 2025-09-27T13:03:17UTC
+TD55 site: alfagok.diginaut.net
+TDD151001 loaded 399722 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1130 words excluded) asof d8bbb39d7adc35181fbc5bcebe83392de6346087
+TDD7950883  ...
+TDD-5176289 [0 : 199843 : 399722] lijm? b
+TDD-2925458 progress: -1 199843 lijm
+TDD1828372 [0 : 99750 : 199843] ex? a
+TDD-1828476 progress: 1 99750 ex
+TDD2943638 [99751 : 149453 : 199843] huis? a
+TDD-2943627 progress: 1 149453 huis
+TDD1520835 [149454 : 174563 : 199843] kind? a
+TDD-1520862 progress: 1 174563 kind
+TDD2010545 [174564 : 186908 : 199843] kro? !
+TDD153542 [174564 : 187202 : 199842] kroon? a
+TDD-2164063 progress: 1 187202 kroon
+TDD2334820 [187203 : 193500 : 199842] lavendel? a
+TDD-2334815 progress: 1 193500 lavendel
+TDD1803867 [193501 : 196523 : 199842] les? b
+TDD-1803888 progress: -1 196523 les
+TDD1623565 [193501 : 194925 : 196523] lees? a
+TDD-1623560 progress: 1 194925 lees
+TDD1613737 [194926 : 195642 : 196523] leid? a
+TDD-1613716 progress: 1 195642 leid
+TDD1709915 [195643 : 196077 : 196523] lengte? b
+TDD-1709949 progress: -1 196077 lengte
+TDD1792475 [195643 : 195812 : 196077] lek? b
+TDD-1792476 progress: -1 195812 lek
+TDD1885393 [195643 : 195727 : 195812] leidsche? !
+TDD33549 [195643 : 195727 : 195811] leidschendam? !
+TDD287510 [195643 : 195727 : 195810] leidschendam-voorburg? !
+TDD-11947 [195643 : 195727 : 195809] leidschendammer? !
+TDD5957547 [195643 : 195727 : 195808] leidschendams? 
+TDD-864782 [195643 : 195727 : 195808] leidschendams? 
+TDD-1608691 [195643 : 195727 : 195808] leidschendams? !
+TDD3912277 [195643 : 195727 : 195807] leidschendamse? !
+TDD7918184 [195643 : 195727 : 195806] leidsebrug? !
+TDD3240962 [195643 : 195727 : 195805] leidsel? b
+TDD-20749984 progress: -1 195727 leidsel
+TDD3309424 [195643 : 195660 : 195727] leiders? b
+TDD-3309430 progress: -1 195660 leiders
+TDD3116836 [195643 : 195651 : 195660] leiden? it
+TDD-3116817 progress: 0 195651 leiden
+TDD-83 [195643 : 195651 : 195660] <Done>.
+TDD4666699 📋> 🧩 Puzzel #329
+TDD-4666637 📋> 🤔 14 gokken
+TDD-59 📋> ⏱️ 1m 45s
+TDD417141 📋> 🔗 alfagok.diginaut.net
+TDD227823 📋> ␚
+TDD-644929 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #329\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 1m 45s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD251 result: "\ud83e\udde9 Puzzel #329\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 1m 45s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-292 result puzzle: 329
+TDD-8 result guesses: 14
+TDD-1 result time: 1m 45s
+TDD7 result link: alfagok.diginaut.net
+TDD552516 📆 2025-09-27 ? 
