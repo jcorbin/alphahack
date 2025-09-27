@@ -1,0 +1,133 @@
+T2.877113077789545 now: 2025-09-27T13:11:56UTC
+TD57 site: squareword.org
+TDD-18 wordlist: nwl2023.txt
+TDD6439725  ...
+TDD-4125321 🧩  ? #1335
+TDD-2314291 puzzle_id: #1335
+TDD3652171 > *
+TDD-748843 try? 4
+TDD-2903310 questioning: ["astir", "#5"]
+TDD5538675 #1 _____  📋 "astir" ? _____ ~ AST
+TDD-5538450 attempt 0 ASTIR m m m n n
+TDD1865128 #2 _____  📋 "astir" ? ____R
+TDD-1865336 attempt 1 ASTIR n n n n Y
+TDD2265423 #3 _____  📋 "astir" ? _____ ~ TI
+TDD-2265463 attempt 2 ASTIR n n m m n
+TDD2320142 #4 _____  📋 "astir" ? A____
+TDD-2320121 attempt 3 ASTIR Y n n n n
+TDD3850030 #5 _____  📋 "astir" ? _____ ~ S
+TDD-3850036 attempt 4 ASTIR n m n n n
+TDD575070 ? 
+TDD-575098 question done
+TDD1040424 > *
+TDD3374493 try? 5
+TDD-4414870 questioning: ["least", "#1"]
+TDD7537280 #1 _____ ~AST -IR  📋 "least" ? __A__ ~ ST
+TDD-7537293 attempt 0 LEAST n n Y m m
+TDD3032760 #2 ____R -AIST  📋 "least" ? ____R ~ E
+TDD-3032759 attempt 1 LEAST n m n n n
+TDD3150158 #3 _____ ~IT -ARS  📋 "least" ? _____ ~ TILE
+TDD-3150175 attempt 2 LEAST m m n n m
+TDD3679560 #4 A____ -IRST  📋 "least" ? A____ ~ LE
+TDD-3679552 attempt 3 LEAST m m n n n
+TDD4678965 #5 _____ ~S -AIRT  📋 "least" ? _E___ ~ SE
+TDD-4678968 attempt 4 LEAST n Y n m n
+TDD964613 ? 
+TDD-964653 question done
+TDD777504 > *
+TDD1101778 try? 1
+TDD-1879227 questioning: ["stand", "#1"]
+TDD4352604 #1 __A__ ~ST -EILR  📋 "stand" ? STA__
+TDD-4352620 attempt 0 STAND Y Y Y n n
+TDD2318245 #2 ____R ~E -AILST  📋 "stand" ? .
+TDD-2318223 attempt 1 STAND n n n n n
+TDD972889 #3 _____ ~EILT -ARS  📋 "stand" ? .
+TDD-972887 attempt 2 STAND n m n n n
+TDD1469095 #4 A____ ~EL -AIRST  📋 "stand" ? .
+TDD-1469114 attempt 3 STAND n n n n n
+TDD3058095 #5 _E___ ~S -AILRT  📋 "stand" ? _E___ ~ SED
+TDD-3058098 attempt 4 STAND m n n n m
+TDD253917 ? 
+TDD-254011 question done
+TDD527457 > *
+TDD6134020 try? ␚
+TDD-6661466 <EOF>
+TDD1728741 > * 3
+TDD3583166 try? 1
+TDD-5311815 questioning: ["flite", "#3"]
+TDD11714246 #1 STA__ -DEILNR  📋 "flite" ? .
+TDD-11714226 attempt 0 FLITE n n n n n
+TDD1146731 #2 ____R ~E -ADILNST  📋 "flite" ? .
+TDD-1146751 attempt 1 FLITE n n n n m
+TDD2505879 #3 _____ ~EILT -ADNRS  📋 "flite" ? _LITE ~ E
+TDD-2505883 attempt 2 FLITE n Y Y Y Y
+TDD5449641 #4 A____ ~EL -ADINRST  📋 "flite" ? AL___ ~ LE
+TDD-5449639 attempt 3 FLITE n Y n n m
+TDD3161080 #5 _E___ ~DS -AILNRT  📋 "flite" ? FE___ ~ SED
+TDD-3161097 attempt 4 FLITE Y n n n m
+TDD673361 ? 
+TDD-673423 question done
+TDD868116 > *
+TDD1557670 questioning: ["huger", "#2"]
+TDD2137805 #1 STA__ -DEFILNRT  📋 "huger" ? .
+TDD-4563501 attempt 0 HUGER n n n n n
+TDD760263 #2 ____R ~E -ADFILNST  📋 "huger" ? /it
+TDD-760292 attempt 1 HUGER Y Y Y Y Y
+TDD4863942 #3 _LITE -ADFNRS  📋 "huger" ? _LITE ~ E
+TDD-4863926 attempt 2 HUGER n n n m n
+TDD2637291 #4 AL___ ~E -ADFINRST  📋 "huger" ? AL_E_ ~ L
+TDD-2637293 attempt 3 HUGER n n n Y n
+TDD3898428 #5 FE___ ~DS -AILNRT  📋 "huger" ? FE___ ~ SED
+TDD-3898438 attempt 4 HUGER n n n m n
+TDD343157 ? 
+TDD-343237 question done
+TDD661155 > *
+TDD1202881 questioning: ["elite", "#3"]
+TDD3134334 #1 STA__ -DEFGHILNRTU  📋 "elite" ? .
+TDD-4998286 attempt 0 ELITE n n n n n
+TDD738069 #3 _LITE -ADFGHNRSU  📋 "elite" ? /it
+TDD-738121 attempt 2 ELITE Y Y Y Y Y
+TDD2658158 #4 AL_E_ -ADFGHINRSTU  📋 "elite" ? AL_E_ ~ L
+TDD-2658098 attempt 3 ELITE n Y n n n
+TDD2218291 #5 FE___ ~DS -AGHILNRTU  📋 "elite" ? FE___ ~ SED
+TDD-2218276 attempt 4 ELITE m n n n m
+TDD218621 ? 
+TDD-218709 question done
+TDD461995 > *
+TDD1187021 questioning: ["alley", "#4"]
+TDD1882535 #1 STA__ -DEFGHILNRTU  📋 "alley" ? .
+TDD-3531488 attempt 0 ALLEY n n n n n
+TDD708898 #4 AL_E_ -ADEFGHINRSTU  📋 "alley" ? /it
+TDD-708912 attempt 3 ALLEY Y Y Y Y Y
+TDD4721331 #5 FE___ ~DS -AGHILNRTU  📋 "alley" ? FE___ ~ SED
+TDD-4721317 attempt 4 ALLEY n n n m n
+TDD521864 ? 
+TDD-521919 question done
+TDD519386 > *
+TDD609040 questioning: ["stamp", "#1"]
+TDD2759198 #1 STA__ -ADEFGHILNRTUY  📋 "stamp" ? /it
+TDD-3887571 attempt 0 STAMP Y Y Y Y Y
+TDD4690374 #5 FE___ ~DS -AGHILNRTUY  📋 "stamp" ? FE___ ~ SED
+TDD-4690367 attempt 4 STAMP m n n n n
+TDD212601 ? 
+TDD-212652 question done
+TDD487746 > *
+TDD339688 questioning: ["feeds", "#5"]
+TDD3515928 #5 FE___ ~DS -AGHILMNPRTUY  📋 "feeds" ? /it
+TDD-4343314 attempt 4 FEEDS Y Y Y Y Y
+TDD2333135 ? 
+TDD-2333200 question done
+TDD4524359 📋> squareword.org 1335: 9 guesses
+TDD-4524351 📋> 
+TDD-60 📋> 🟩🟩🟩🟨🟨
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟩🟩🟩🟩
+TDD-9 📋> 🟩🟩🟨🟩🟨
+TDD-1 📋> 🟩🟩🟨🟨🟨
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD317030 📋> #squareword #squareword1335
+TDD17000 📋> ␚
+TDD-334000 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1335: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1335"}
+TDD544 result: "squareword.org 1335: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1335"
+TDD439282 📆 2025-09-27 ? 
