@@ -1,0 +1,53 @@
+T565.6161848912016 now: 2025-09-28T12:12:12UTC
+TD52 site: dontwordle.com
+TDD-19 wordlist: nwl2023.txt
+TDD5053948  ...
+TDD-3540107 1> * -bot 10
+TDD1582923 ? 1
+TDD1681995 📋 "aloes" ? MnnMM
+TDD-4778653 tried: ALOES m n n m m
+TDD778822 2> undo
+TDD-778881 undo
+TDD3926341 1> *
+TDD-2665691 ? 1
+TDD2584808 📋 "xylyl" ? nnnnn
+TDD-3845398 tried: XYLYL n n n n n
+TDD462797 2> *
+TDD522146 ? 1
+TDD3198125 📋 "minim" ? nnnnn
+TDD-4183080 tried: MINIM n n n n n
+TDD497609 3> *
+TDD1169814 ? 1
+TDD2686894 📋 "hooch" ? nnnnn
+TDD-4354312 tried: HOOCH n n n n n
+TDD1088572 4> *
+TDD5826379 ? nnMnn
+TDD-6414306 ? *
+TDD1401945 ? 1
+TDD35128 📋 "butut" ? nnMnn
+TDD-1937734 tried: BUTUT n n m n n
+TDD1224724 5> *
+TDD3643262 ? 2
+TDD743430 📋 "tazza" ? MMnnn
+TDD-5611405 tried: TAZZA m m n n n
+TDD763119 6> *
+TDD2886621 ? 1
+TDD976933 📋 "arete" ? MnnMY
+TDD-4626672 tried: ARETE m n n m Y
+TDD4261139 📋> Don't Wordle 1223 - SURVIVED
+TDD-4261183 📋> Hooray! I didn't Wordle today!
+TDD-68 📋> ⬜⬜⬜⬜⬜8089
+TDD5 📋> ⬜⬜⬜⬜⬜3549
+TDD-3 📋> ⬜⬜⬜⬜⬜1490
+TDD-9 📋> ⬜⬜🟨⬜⬜183
+TDD0 📋> 🟨🟨⬜⬜⬜43
+TDD0 📋> 🟨⬜⬜🟨🟩4
+TDD6 📋> Undos used: 1
+TDD0 📋> 
+TDD-5 📋>   4 words remaining
+TDD0 📋> x 10 unused letters
+TDD279286 📋> = 40 total score
+TDD-38114 📋> ␚
+TDD-241127 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1223 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c8089\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3549\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1490\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c183\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c43\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe94\nUndos used: 1\n\n  4 words remaining\nx 10 unused letters\n= 40 total score"}
+TDD645 result: "Don't Wordle 1223 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c8089\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3549\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1490\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c183\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c43\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe94\nUndos used: 1\n\n  4 words remaining\nx 10 unused letters\n= 40 total score"
+TDD487220 📆 2025-09-28 ? 
