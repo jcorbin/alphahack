@@ -63,6 +63,16 @@ def marked_tokenize(s: str,
 def screen_width(s: str):
     return len(s) + emoji_count(s)
 
+def screen_truncate(s: str, width: int):
+    if screen_width(s) <= width:
+        return s
+    # TODO this is oblivious to zero-width/combining characters
+    s = s[:width]
+    # TODO this would probably be better as a binary search
+    while screen_width(s) > width:
+        s = s[:-1]
+    return s
+
 @final
 class LineWriter:
     # TODO wants to accept just the output protocol (plus screen
@@ -86,6 +96,13 @@ class LineWriter:
         _, _, last = s.rpartition('\n')
         # TODO parse ansi positioning sequences
         self.at = screen_width(last)
+
+    def truncate(self, s: str, cont: str = '...'):
+        n = self.remain
+        if screen_width(s) > n:
+            pre = screen_truncate(s, n-screen_width(cont))
+            return f'{pre}{cont}'
+        return s
 
     def __enter__(self):
         if not self.limit:
@@ -510,8 +527,12 @@ class Meta(Arguable):
                env load
         '''
         if not ui.tokens:
-            for name, value in os.environ.items():
-                ui.print(f'${name} = ${value!r}')
+            with LineWriter(ui) as lw:
+                for name, value in os.environ.items():
+                    rval = repr(value) # TODO this only needs to quote control chars for ansi sequences
+                    lw.write(f'${name} = ')
+                    lw.write(lw.truncate(rval))
+                    lw.fin()
             return
 
         if ui.tokens.have('load'):
