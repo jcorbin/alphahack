@@ -247,36 +247,6 @@ def trim_lines(lines: Iterable[str]):
         elif st:
             st += 1
 
-# TODO share base class with StoredLog
-
-class Arguable:
-    @classmethod
-    def main(cls):
-        self, args = cls.parse_args()
-        trace = cast(bool, args.trace)
-        return PromptUI.main(self, trace=trace)
-
-    @classmethod
-    def parse_args(cls):
-        parser = argparse.ArgumentParser(
-            formatter_class=argparse.ArgumentDefaultsHelpFormatter,
-        )
-        cls.add_args(parser)
-        args = parser.parse_args()
-        self = cls()
-        return self, args
-
-    @classmethod
-    def add_args(cls, parser: argparse.ArgumentParser):
-        _ = parser.add_argument('--trace', '-t', action='store_true',
-                                help='Enable execution state tracing')
-
-    def __init__(self):
-        self.prompt: PromptUI.Prompt = PromptUI.Prompt('> ', {})
-
-    def __call__(self, ui: PromptUI):
-        return self.prompt(ui)
-
 # TODO into mdkit
 
 def sections(lines: Iterable[str]) -> Generator[tuple[int, str, Iterable[str]]]:
@@ -598,7 +568,7 @@ solvers.add('space', make_space)
 # can be generated on demand?
 
 @final
-class Meta(Arguable):
+class Meta(PromptUI.Arguable):
     @override
     @classmethod
     def add_args(cls, parser: argparse.ArgumentParser):
@@ -617,10 +587,10 @@ class Meta(Arguable):
     def __init__(self):
         super().__init__()
         self.report = Report()
-        self.prompt.mess = self.prompt_mess
+        self.shell.prompt = self.prompt_mess
         self.solvers = SolverScope(solvers)
 
-        root = self.prompt
+        root = self.shell.root
 
         # TODO should be std; also tron/troff bindings
         root['tracing'] = self.do_tracing
@@ -629,29 +599,34 @@ class Meta(Arguable):
         root['sys'] = self.do_system
         root['env'] = self.do_env
 
-        root['day'] = self.do_day
-        root['share'] = self.do_share
-        root['status'] = self.do_status
-        root['push'] = partial(self.do_system, cmd=('git', 'push', 'origin', '+:'))
-        root['review'] = self.do_review
+        root['meta/day'] = self.do_day
+        root['meta/share'] = self.do_share
+        root['meta/status'] = self.do_status
+        root['meta/push'] = partial(self.do_system, cmd=('git', 'push', 'origin', '+:'))
+        root['meta/review'] = self.do_review
 
-        root['list_solvers'] = self.do_list_solvers
-        root['solvers'] = self.do_solve
+        root['meta/solvers/.'] = self.do_solve
 
         for name, solver_i in solvers:
-            path = f'solvers/{name}'
-            for name, cmd in {
-                '': partial(self.do_sol_run, solver_i),
+            path = f'meta/solvers/{name}'
+            root[path] = {
+                '.': partial(self.do_sol_run, solver_i),
                 'cont': partial(self.do_sol_cont, solver_i),
                 'current': partial(self.do_sol_cur, solver_i),
                 'edit': partial(self.do_sol_edit, solver_i),
+                'fin': partial(self.do_sol_cont, solver_i, give='fin'),
                 'last': partial(self.do_sol_last, solver_i),
                 'ls': partial(self.do_sol_ls, solver_i),
                 'rm': partial(self.do_sol_rm, solver_i),
                 'tail': partial(self.do_sol_tail, solver_i),
                 'variant': partial(self.do_sol_variant, solver_i),
-            }.items():
-                root[f'{path}{name}'] = cmd
+                # TODO fin / result
+                # TODO share / report
+            }
+
+        root['meta/all/rm'] = self.do_all_rm
+
+        self.shell.cur = root['meta']
 
     @override
     def __call__(self, ui: PromptUI):
@@ -670,22 +645,28 @@ class Meta(Arguable):
             if tokens.have(r'(?xi) ^ n'):
                 raise StopIteration
 
-    def prompt_mess(self, ui: PromptUI):
-        if self.prompt.re == 0:
+    def prompt_mess(self, ui: PromptUI, _: PromptUI.Shell):
+        if self.shell.re == 0:
             ui.print('')
             self.do_status(ui)
-        return 'meta> '
 
-    def choose_solver(self, ui: PromptUI):
-        if not ui.tokens:
-            ix = tuple(solvers.match(next(ui.tokens)))
-            if len(ix) == 1:
-                return ix[0]
-            elif len(ix) == 0:
-                ui.print('! no such solver')
+        cur = self.shell.cur
+
+        m = re.match(r'''(?x)
+            /
+            meta /
+            solvers /
+            (?P<name> [^/] + )
+            (?P<path> .* )
+        ''', cur.path)
+        if m:
+            j = self.solvers.lookup(name=m[1])
+            if j is None:
+                ui.print(f'! unknown solver {name!r}')
             else:
-                may = tuple(solvers.name[i] for i in ix)
-                ui.print(f'! Ambiguous solver; may be: {" ".join(may)}')
+                ui.print(f'solver log_file: {self.solvers.log_file[j]}')
+
+        return f'{cur}> '
 
     def do_tracing(self, ui: PromptUI):
         '''
@@ -997,12 +978,13 @@ class Meta(Arguable):
         with self.solvers.run(ui, solver_i=solver_j):
             pass
 
-    def do_sol_cont(self, solver_i: int, ui: PromptUI):
+    def do_sol_cont(self, solver_i: int, ui: PromptUI, give: str=''):
         '''
         continue solver run
         '''
-        with self.solvers.run(ui, solver_i=solver_i):
-            pass
+        with self.solvers.run(ui, solver_i=solver_i) as (ui, _solver):
+            if give:
+                ui.tokens.give(give)
 
     def do_sol_edit(self, solver_i: int, ui: PromptUI):
         '''
@@ -1066,6 +1048,31 @@ class Meta(Arguable):
                 os.unlink(log_file)
             except OSError as err:
                 ui.print(f'! {err}')
+
+    def do_all_rm(self, ui: PromptUI):
+        '''
+        remove any ephemeral solver log files
+        '''
+        verbose: int = 0
+        while ui.tokens:
+            v = ui.tokens.have(r'-(v+)', then=lambda m: len(m[1]))
+            if v is not None:
+                verbose += v
+                continue
+            ui.print(f'! invalid argument {next(ui.tokens)}')
+            return
+
+        for proto in solvers.proto:
+            log_file = proto.log_file
+            if verbose:
+                ui.print(f'+ rm {log_file}')
+            try:
+                os.unlink(log_file)
+                if not verbose:
+                    ui.print(f'removed {log_file}')
+            except OSError as err:
+                if verbose:
+                    ui.print(f'! {err}')
 
     def do_sol_tail(self, solver_i: int, ui: PromptUI):
         '''
@@ -1200,6 +1207,7 @@ class Meta(Arguable):
             ('Next solver', lambda: env_filter('prod', todo_candidates)),
             ('Bonus solver variants', lambda: env_filter('prod', var_candidates)),
             ('Practice solvers', lambda: env_filter(lambda env: env != 'prod', todo_candidates, var_candidates)),
+            # TODO tomorrow solvers
         )
         phase_i: int = 0
         phase_re: int = 0
@@ -1219,6 +1227,8 @@ class Meta(Arguable):
                 continue
 
             phase_re = 0
+
+            # TODO if len(choices) == 1
 
             ui.print(f'Phase {phase_i+1}/{len(phases)} -- {label}:')
             for i, (solver_i, log_file) in enumerate(choices):
@@ -1255,15 +1265,6 @@ class Meta(Arguable):
         ui.print(f'Running {proto.name}')
         with self.solvers.run(ui, solver_i=solver_i, log_file=log_file):
             return
-
-    def do_list_solvers(self, ui: PromptUI):
-        '''
-        list known solvers
-        '''
-        for name, solver_i, in solvers:
-            proto = solvers.proto[solver_i]
-            note = proto.note_slug[0]
-            ui.print(f'{solver_i + 1}. {name} site:{proto.site!r} slug:{note!r}')
 
     def read_status(self, ui: PromptUI, verbose: int=0):
         solvers = self.solvers.lib
@@ -1413,7 +1414,7 @@ class Meta(Arguable):
                         *marked_tokenize(note)
                     )))
 
-        self.prompt.re = max(1, self.prompt.re)
+        self.shell.re = max(1, self.shell.re)
 
 @final
 class Review:
