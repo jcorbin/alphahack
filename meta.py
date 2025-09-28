@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 from emoji import emoji_count, is_emoji
 from functools import partial
 from typing import Callable, Protocol, cast, final, override
+from types import TracebackType
 
 from store import StoredLog, atomic_rewrite, git_txn
 from strkit import PeekIter, spliterate
@@ -59,43 +60,57 @@ def marked_tokenize(s: str,
 
         yield tok
 
+def screen_width(s: str):
+    return len(s) + emoji_count(s)
+
 @final
-class Wrapper:
-    @staticmethod
-    def screen_width(s: str):
-        return len(s) + emoji_count(s)
+class LineWriter:
+    # TODO wants to accept just the output protocol (plus screen
+    #      size attrs?)... and implement the same
 
-    def __init__(self, width: int):
-        self.width = width
+    def __init__(self, ui: PromptUI, at: int = 0, limit: int = 0):
+        self.ui = ui
+        self.at = at
+        self.limit = limit
 
-    def consume_until(self,
-                      tokens: PeekIter[str],
-                      sep: str = ' ',
-                      prior: str|int = 0):
-        pw = self.screen_width(prior) if isinstance(prior, str) else prior
-        rem = self.width - pw
+    @property
+    def remain(self):
+        return self.limit - self.at
+
+    def fin(self):
+        self.ui.fin()
+        self.at = 0
+
+    def write(self, s: str):
+        self.ui.write(s)
+        _, _, last = s.rpartition('\n')
+        # TODO parse ansi positioning sequences
+        self.at = screen_width(last)
+
+    def __enter__(self):
+        if not self.limit:
+            self.limit = self.ui.screen_cols
+        return self
+
+    def __exit__(
+        self,
+        exc_type: type[BaseException] | None,
+        exc: BaseException | None,
+        exc_tb: TracebackType | None,
+    ):
+        self.fin()
+
+def write_tokens(ui: PromptUI,
+                 tokens: PeekIter[str],
+                 pre: str = '',
+                 sep: str = ' ',
+                 ):
+    if not tokens: return
+    with LineWriter(ui) as lw:
+        lw.write(f'{pre}{next(tokens, '')}')
         while tokens:
-            tok = tokens.peek('')
-            part = f'{sep}{tok}'
-            pcw = self.screen_width(part)
-            rem -= pcw
-            if rem < 0: return
-            tok = next(tokens)
-            yield part
-
-    def write_line(self,
-                   ui: PromptUI,
-                   tokens: PeekIter[str],
-                   indent: str = ''):
-        # TODO can be abstracted over the output surface of PromptUI
-        if tokens:
-            try:
-                first = f'{indent}{next(tokens, '')}'
-                ui.write(first)
-                for part in self.consume_until(tokens, prior=first):
-                    ui.write(f'{part}')
-            finally:
-                ui.fin()
+            if lw.remain < 0: break
+            lw.write(f'{sep}{next(tokens)}')
 
 def trim_lines(lines: Iterable[str]):
     st = 0
@@ -843,20 +858,15 @@ class Meta(Arguable):
         '''
         show solver status
         '''
-
-        scw = Wrapper(ui.screen_cols)
-
         for i, day, note, head, _body in self.read_status(ui):
             mark = '❔'
             if day is not None: mark = '✅'
             if head: mark += '📜'
-
-            tokens = PeekIter((
+            write_tokens(ui, PeekIter((
                 f'{mark} {solver_harness[i]}',
                 f'{day}',
                 *marked_tokenize(note)
-            ))
-            scw.write_line(ui, tokens)
+            )))
             # TODO wrap subsequent lines like:
             # ```python
             # while tokens:
