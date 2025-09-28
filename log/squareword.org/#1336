@@ -1,0 +1,115 @@
+T200.36204482521862 now: 2025-09-28T12:06:07UTC
+TD71 site: squareword.org
+TDD-31 wordlist: nwl2023.txt
+TDD7950559  ...
+TDD-5775994 🧩  ? #1336
+TDD-2174451 puzzle_id: #1336
+TDD3257856 > 
+TDD-2472438 > *
+TDD716560 try? 1
+TDD-1501985 questioning: ["aster", "#5"]
+TDD5188450 #1 _____  📋 "aster" ? _____ ~ ATE
+TDD-5188190 attempt 0 ASTER m n m m n
+TDD1346901 #2 _____  📋 "aster" ? A_TER
+TDD-1347143 attempt 1 ASTER Y n Y Y Y
+TDD2128220 #3 _____  📋 "aster" ? _____ ~ R
+TDD-2128210 attempt 2 ASTER n n n n m
+TDD3035959 #4 _____  📋 "aster" ? _____ ~ STE
+TDD-3035986 attempt 3 ASTER n m m m n
+TDD3652984 #5 _____  📋 "aster" ? _____ ~ ASTE
+TDD-3652988 attempt 4 ASTER m m m m n
+TDD592192 ? *
+TDD1654077 #6 <IndexError>  📋 "aster" ? 
+TDD-1162587 #6 <IndexError>  ? 
+TDD-246304 #6 <IndexError>  ? ␚
+TDD-837474 question done
+TDD816033 > *
+TDD4272253 try? ␚
+TDD-5088274 <EOF>
+TDD9944906 > * 5
+TDD640895 try? 1
+TDD-10585700 questioning: ["stake", "#5"]
+TDD5586215 #1 _____ ~AET -RS  📋 "stake" ? __A__ ~ TE
+TDD-5586218 attempt 0 STAKE n m Y n m
+TDD3317789 #2 A_TER -S  📋 "stake" ? .
+TDD-3317801 attempt 1 STAKE n n n n n
+TDD1917701 #3 _____ ~R -AEST  📋 "stake" ? .
+TDD-1917687 attempt 2 STAKE n n n n n
+TDD1215126 #4 _____ ~EST -AR  📋 "stake" ? .
+TDD-1215137 attempt 3 STAKE m m n n m
+TDD2789302 #5 _____ ~AEST -R  📋 "stake" ? __A__ ~ STE
+TDD-2789313 attempt 4 STAKE m m Y n m
+TDD492133 ? 
+TDD-492169 question done
+TDD2732722 > *
+TDD-752339 try? ␚
+TDD-1980425 <EOF>
+TDD3776345 > * 5
+TDD1951487 try? ␚
+TDD-5727829 <EOF>
+TDD4137839 > * 1
+TDD1320399 try? 1
+TDD-5458142 questioning: ["leapt", "#1"]
+TDD2431418 #1 __A__ ~ET -KRS  📋 "leapt" ? /it
+TDD-2431403 attempt 0 LEAPT Y Y Y Y Y
+TDD5729053 #2 A_TER -AEKST  📋 "leapt" ? A_TER ~ L
+TDD-5729067 attempt 1 LEAPT m n n n n
+TDD2684028 #3 _____ ~R -AEKST  📋 "leapt" ? _____ ~ RL
+TDD-2684046 attempt 2 LEAPT m n n n n
+TDD4470811 #4 _____ ~EST -AKR  📋 "leapt" ? _____ ~ STE
+TDD-4470795 attempt 3 LEAPT n m n n m
+TDD2946195 #5 __A__ ~EST -KR  📋 "leapt" ? LEA_T ~ S
+TDD-2946198 attempt 4 LEAPT Y Y Y n Y
+TDD798927 ? 
+TDD-798998 question done
+TDD2800634 > *
+TDD-2148784 questioning: ["alter", "#2"]
+TDD3207518 #2 A_TER ~L -AEKPST  📋 "alter" ? /it
+TDD-3859306 attempt 1 ALTER Y Y Y Y Y
+TDD2171630 #3 _____ ~LR -AEKPST  📋 "alter" ? .
+TDD-2171616 attempt 2 ALTER n m n n m
+TDD854303 #4 _____ ~EST -AKLPR  📋 "alter" ? .
+TDD-854304 attempt 3 ALTER n n m m n
+TDD3432383 #5 LEA_T ~S -KPR  📋 "alter" ? .
+TDD-3432385 attempt 4 ALTER n n n n n
+TDD251099 ? 
+TDD-251203 question done
+TDD1038486 > *
+TDD-627099 questioning: ["edits", "#4"]
+TDD4818560 #3 _____ ~LR -AEKPST  📋 "edits" ? .
+TDD-5229841 attempt 2 EDITS n n n n n
+TDD693505 #4 _____ ~EST -AKLPR  📋 "edits" ? /it
+TDD-693519 attempt 3 EDITS Y Y Y Y Y
+TDD1612668 #5 LEA_T ~S -AEKLPRT  📋 "edits" ? .
+TDD-1612662 attempt 4 EDITS n n n n m
+TDD199076 ? 
+TDD-199130 question done
+TDD573197 > *
+TDD678851 questioning: ["burly", "#3"]
+TDD3730022 #3 _____ ~LR -ADEIKPST  📋 "burly" ? /it
+TDD-4982011 attempt 2 BURLY Y Y Y Y Y
+TDD1139600 #5 LEA_T ~S -ADEIKLPRT  📋 "burly" ? .
+TDD-1139596 attempt 4 BURLY n n n n n
+TDD998043 ? 
+TDD-998116 question done
+TDD490158 > *
+TDD419628 questioning: ["least", "#5"]
+TDD3478147 #5 LEA_T ~S -ABDEIKLPRTUY  📋 "least" ? it
+TDD-1857543 #5 LEA_T ~S -ABDEIKLPRTUY  ? /it
+TDD-2530325 attempt 4 LEAST Y Y Y Y Y
+TDD609320 ? 
+TDD-609376 question done
+TDD2907570 📋> squareword.org 1336: 7 guesses
+TDD-2907585 📋> 
+TDD-57 📋> 🟩🟩🟩🟩🟩
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟨🟨🟨🟨🟨
+TDD12 📋> 🟩🟩🟩🟩🟩
+TDD-14 📋> 🟩🟩🟩🟨🟩
+TDD-1 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD364577 📋> #squareword #squareword1336
+TDD-64566 📋> ␚
+TDD-299980 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1336: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1336"}
+TDD394 result: "squareword.org 1336: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1336"
+TDD498960 📆 2025-09-28 ? 
