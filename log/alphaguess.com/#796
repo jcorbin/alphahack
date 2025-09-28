@@ -1,0 +1,46 @@
+T164.39877058193088 now: 2025-09-28T12:05:31UTC
+TD42 site: alphaguess.com
+TDD62942 loaded 196548 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (55 words excluded) asof 43d7b98174c0fbc2b7640f5691e9ef7e805e53e7
+TDD846756  ...
+TDD4813207 [0 : 98232 : 196548] mach? b
+TDD-5722867 progress: -1 98232 mach
+TDD1513190 [0 : 47393 : 98232] dis? b
+TDD-1513190 progress: -1 47393 dis
+TDD1423657 [0 : 23580 : 47393] cam? a
+TDD-1423651 progress: 1 23580 cam
+TDD1328789 [23581 : 33712 : 47393] con? b
+TDD-1328790 progress: -1 33712 con
+TDD1366968 [23581 : 28646 : 33712] chloroform? a
+TDD-1366969 progress: 1 28646 chloroform
+TDD1682266 [28647 : 31176 : 33712] coapt? b
+TDD-1682285 progress: -1 31176 coapt
+TDD1426420 [28647 : 29911 : 31176] civvies? a
+TDD-1426404 progress: 1 29911 civvies
+TDD1450653 [29912 : 30544 : 31176] climes? a
+TDD-1450652 progress: 1 30544 climes
+TDD1912471 [30545 : 30839 : 31176] cloud? a
+TDD-1912477 progress: 1 30839 cloud
+TDD1903282 [30840 : 31007 : 31176] cluster? b
+TDD-1903269 progress: -1 31007 cluster
+TDD1555128 [30840 : 30909 : 31007] club? a
+TDD-1555128 progress: 1 30909 club
+TDD1557534 [30910 : 30957 : 31007] cluck? a
+TDD-1557545 progress: 1 30957 cluck
+TDD1952216 [30958 : 30974 : 31007] clump? it
+TDD-1952208 progress: 0 30974 clump
+TDD-65 [30958 : 30974 : 31007] <Done>.
+TDD4647941 📋> 🧩 Puzzle #796
+TDD-4647897 📋> 
+TDD-44 📋> 🤔 13 guesses
+TDD-3 📋> 
+TDD-1 📋> ⏱️ 19s
+TDD-1 📋> 
+TDD268265 📋> 🔗 alphaguess.com
+TDD583 📋> ␚
+TDD-268809 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #796\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"}
+TDD16 result: "\ud83e\udde9 Puzzle #796\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"
+TDD-55 result puzzle: 796
+TDD-5 result guesses: 13
+TDD-1 result time: 19s
+TDD0 result link: alphaguess.com
+TDD1039241 📆 2025-09-28 ? 
