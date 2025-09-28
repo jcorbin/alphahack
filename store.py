@@ -868,7 +868,7 @@ class StoredLog:
         if spec_match:
             puzzle_id = str(spec_match[1])
             action = str(spec_match[2])
-            found_log_file = self.find_prior_log(ui, puzzle_id)
+            found_log_file = self.find_prior_log(ui, puzzle_id=puzzle_id)
             if not found_log_file:
                 raise StopIteration
 
@@ -1217,6 +1217,17 @@ class StoredLog:
     @property
     def puzzle_name(self) -> str:
         return ' '.join(self.puzzle_names)
+
+    @staticmethod
+    def slug_name(slug: str):
+        m = re.match(r'(?x) \[ ( .+? ) \] \( ( .+? ) \) ', slug)
+        name = m[1] if m else slug
+        if name.startswith('🔗 '):
+            name = name.partition(' ')[2]
+        i = name.find('🧩')
+        if i != -1:
+            name = name[:i]
+        return name.strip()
 
     @staticmethod
     def slug_split(s: str):
