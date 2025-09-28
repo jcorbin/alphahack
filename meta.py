@@ -15,7 +15,7 @@ from collections.abc import Generator, Iterable, Mapping, Sequence
 from datetime import date
 from dotenv import load_dotenv
 from emoji import emoji_count, is_emoji
-from functools import partial
+from functools import partial, reduce
 from os.path import basename
 from typing import Callable, Protocol, cast, final, override
 from types import TracebackType
@@ -262,189 +262,108 @@ SolverMaker = Callable[[PromptUI.Tokens], Solver]
 
 @final
 class SolverHarness:
-    Inarguable = Callable[[], Solver]
     Arguable = Callable[[PromptUI.Tokens], Solver]
-
-    @classmethod
-    def inarguable(cls, name: str, site: str, log_file: str):
-        def wrapper(mak: SolverHarness.Inarguable):
-            return cls(name, site, log_file, no_args=mak)
-        return wrapper
-
-    @classmethod
-    def arguable(cls, name: str, site: str, log_file: str):
-        def wrapper(mak: SolverHarness.Arguable):
-            return cls(name, site, log_file, with_args=mak)
-        return wrapper
-
-    @classmethod
-    def stored(cls,
-               name: str,
-               impl: type[StoredLog],
-               site: str|None = None,
-               log_file: str|None = None,
-               ):
-        def wrapper(mak: SolverHarness.Arguable):
-            return cls(name,
-                       site or impl.default_site,
-                       log_file or impl.log_file,
-                       with_args=mak)
-        return wrapper
 
     def __init__(self,
                  name: str,
-                 site: str,
-                 log_file: str,
-                 no_args: 'SolverHarness.Inarguable|None' = None,
-                 with_args: 'SolverHarness.Arguable|None' = None,
+                 make: 'SolverHarness.Arguable',
                  ):
-        if no_args and with_args:
-            raise TypeError('SolverHarness MUST only have EITHER { no or with }_args')
         self.name = name
-        self.site = site
-        self.log_file = log_file
-        self.no_args = no_args
-        self.with_args = with_args
+        self.make = make
 
     @override
     def __str__(self):
         return self.name
 
-    def _make(self, tokens: PromptUI.Tokens) -> Solver:
-        if self.with_args:
-            return self.with_args(tokens)
-        if self.no_args:
-            return self.no_args()
-        raise NotImplementedError(f'no {self.name} solver constructor given')
-
-    # TODO prior log file search/browse
-
-    def make(self,
-             tokens: PromptUI.Tokens,
-             log_file: str|None = None,
-             ) -> Solver:
-        solver = self._make(tokens)
-        solver.site = self.site
-        solver.log_file = log_file or self.log_file
+    def __call__(self,
+                 tokens: PromptUI.Tokens,
+                 log_file: str|None = None) -> Solver:
+        solver = self.make(tokens)
+        if log_file:
+            solver.log_file = log_file
         return solver
 
-    def run(self, ui: PromptUI, log_file: str|None=None):
-        # TODO parse optional -log-file arg
-        try:
-            ui.write(f'*** Running solver {self}')
-            solver = self.make(ui.tokens, log_file=log_file)
-            if log_file:
-                ui.write(f' log_file={log_file}')
-        finally:
-            ui.fin()
-        ui.interact(solver)
+def run_solver(name: str, make: Callable[[PromptUI.Tokens, str|None], Solver], ui: PromptUI, log_file: str|None=None):
+    # TODO parse optional -log-file arg
+    try:
+        ui.write(f'*** Running solver {name}')
+        solver = make(ui.tokens, log_file)
+        if log_file:
+            ui.write(f' log_file={log_file}')
+    finally:
+        ui.fin()
+    ui.interact(solver)
 
 def load_solvers() -> Generator[SolverHarness]:
     from binartic import Search as Binartic
 
-    @SolverHarness.stored('alfa', Binartic, site='alfagok.diginaut.net')
     def make_alfa(_tokens: PromptUI.Tokens):
         alfa = Binartic()
+        alfa.site = 'alfagok.diginaut.net'
         alfa.wordlist_file = 'opentaal-wordlist.txt'
         return alfa
-    yield make_alfa
+    yield SolverHarness('alfa', make_alfa)
 
-    @SolverHarness.stored('alpha', Binartic, site='alphaguess.com')
     def make_alpha(_tokens: PromptUI.Tokens):
         alpha = Binartic()
+        alpha.site = 'alphaguess.com'
         alpha.wordlist_file = 'nwl2023.txt'
         return alpha
-    yield make_alpha
+    yield SolverHarness('alpha', make_alpha)
 
     from square import Search as Square
 
-    @SolverHarness.stored('square', Square)
     def make_square(_tokens: PromptUI.Tokens):
         square = Square()
         square.wordlist_file = 'nwl2023.txt'
         return square
-    yield make_square
+    yield SolverHarness('square', make_square)
 
     from hurdle import Search as Hurdle
 
-    @SolverHarness.stored('hurdle', Hurdle)
     def make_hurdle(_tokens: PromptUI.Tokens):
         hurdle = Hurdle()
         hurdle.wordlist_file = 'nwl2023.txt'
         return hurdle
-    yield make_hurdle
+    yield SolverHarness('hurdle', make_hurdle)
 
     from dontword import DontWord
 
-    @SolverHarness.stored('dontword', DontWord)
     def make_dontword(_tokens: PromptUI.Tokens):
         dontword = DontWord()
         dontword.wordlist_file = 'nwl2023.txt'
         return dontword
-    yield make_dontword
+    yield SolverHarness('dontword', make_dontword)
 
     from semantic import Search as Semantic
 
-    @SolverHarness.stored('cemantle', Semantic)
     def make_cemantle(tokens: PromptUI.Tokens):
         cem = Semantic()
         cem.full_auto = False # TODO make -no-auto work True
         cem.from_tokens(tokens)
         return cem
-    yield make_cemantle
+    yield SolverHarness('cemantle', make_cemantle)
 
-    @SolverHarness.stored('cemantix', Semantic,
-                          site='cemantix.certitudes.org',
-                          log_file='cemantix.log')
     def make_cemantix(tokens: PromptUI.Tokens):
         cex = Semantic()
+        cex.site = 'cemantix.certitudes.org'
+        cex.log_file = 'cemantix.log'
         cex.lang = 'French'
         cex.pub_tzname = 'CET'
         cex.full_auto = False # TODO make -no-auto work True
         cex.from_tokens(tokens)
         return cex
-    yield make_cemantix
+    yield SolverHarness('cemantix', make_cemantix)
 
     from spaceword import SpaceWord
 
-    @SolverHarness.stored('space', SpaceWord)
     def make_space(_tokens: PromptUI.Tokens):
         space = SpaceWord()
         space.wordlist_file = 'nwl2023.txt'
         return space
-    yield make_space
+    yield SolverHarness('space', make_space)
 
     # spaceweek = "./spaceword.py --wordlist nwl2023.txt spaceword_weekly.log"
-
-# TODO share base class with StoredLog
-
-class Arguable:
-    @classmethod
-    def main(cls):
-        self, args = cls.parse_args()
-        trace = cast(bool, args.trace)
-        return PromptUI.main(self, trace=trace)
-
-    @classmethod
-    def parse_args(cls):
-        parser = argparse.ArgumentParser(
-            formatter_class=argparse.ArgumentDefaultsHelpFormatter,
-        )
-        cls.add_args(parser)
-        args = parser.parse_args()
-        self = cls()
-        return self, args
-
-    @classmethod
-    def add_args(cls, parser: argparse.ArgumentParser):
-        _ = parser.add_argument('--trace', '-t', action='store_true',
-                                help='Enable execution state tracing')
-
-    def __init__(self):
-        self.prompt: PromptUI.Prompt = PromptUI.Prompt('> ', {})
-
-    def __call__(self, ui: PromptUI):
-        return self.prompt(ui)
 
 # TODO into mdkit
 
@@ -505,8 +424,15 @@ solver_harness = tuple(load_solvers())
 # NOTE likely cannot be abstracted over instantiation, since slugs contain
 #      state info from a loaded prior solver log
 solver_prior = tuple(
-    harness.make(PromptUI.Tokens())
+    harness(PromptUI.Tokens())
     for harness in solver_harness)
+solver_site = {
+    sol.name: prior.site
+    for sol, prior in zip(solver_harness, solver_prior)}
+solver_cur_log = {
+    sol.name: prior.log_file
+    for sol, prior in zip(solver_harness, solver_prior)}
+
 solver_notes = tuple(
     solver.note_slug[0]
     for solver in solver_prior)
@@ -520,7 +446,7 @@ solver_heads = tuple(
 # can be generated on demand?
 
 @final
-class Meta(Arguable):
+class Meta(PromptUI.Arguable):
     @override
     @classmethod
     def add_args(cls, parser: argparse.ArgumentParser):
@@ -538,21 +464,55 @@ class Meta(Arguable):
 
     def __init__(self):
         super().__init__()
+        self.solver_log = solver_cur_log.copy()
         self.report = Report()
-        self.prompt.mess = self.prompt_mess
-        self.prompt.update({
-            'day': self.do_day,
-            'env': self.do_env,
-            'log': self.do_log,
-            'push': partial(self.do_system, cmd=('git', 'push', 'origin', '+:')),
-            'review': self.do_review,
-            'run': self.do_run,
-            'share': self.do_share,
-            'solvers': self.do_solvers,
-            'status': self.do_status,
-            'sys': self.do_system,
-            'tracing': self.do_tracing,
-        })
+        self.shell.prompt = self.prompt_mess
+
+        self.solver_log: dict[str, str] = {
+            sol.name: prior.log_file
+            for sol, prior in zip(solver_harness, solver_prior)
+        }
+        self.solver_by_name = {
+            sol.name: sol
+            for sol in solver_harness}
+
+        root = self.shell.root
+
+        # TODO should be std; also tron/troff bindings
+        root['tracing'] = self.do_tracing
+
+        # TODO could be std(/x)
+        root['sys'] = self.do_system
+        root['env'] = self.do_env
+
+        root['meta/day'] = self.do_day
+        root['meta/share'] = self.do_share
+        root['meta/status'] = self.do_status
+        root['meta/push'] = partial(self.do_system, cmd=('git', 'push', 'origin', '+:'))
+        root['meta/review'] = self.do_review
+
+        root['meta/solvers/.'] = self.do_solve
+        for sol in solver_harness:
+            path = f'meta/solvers/{sol.name}'
+            root[path] = {
+                '.': partial(run_solver, sol.name, sol),
+                'cont': partial(self.do_sol_cont, sol),
+                'edit': partial(self.do_sol_edit, sol),
+                'last': partial(self.do_sol_last, sol),
+                'current': partial(self.do_sol_cur, sol),
+                'ls': partial(self.do_sol_last, sol, puzzle_id='*'),
+                'rm': partial(self.do_sol_rm, sol),
+                'tail': partial(self.do_sol_tail, sol),
+                # TODO fin / result
+                # TODO share / report
+            }
+
+        root['meta/all/rm'] = lambda ui: reduce(
+            lambda t, sol: self.do_sol_rm(sol, ui), # if t is None else t,
+            solver_harness,
+            None)
+
+        self.shell.cur = root['meta']
 
     @override
     def __call__(self, ui: PromptUI):
@@ -571,11 +531,29 @@ class Meta(Arguable):
             if tokens.have(r'(?xi) ^ n'):
                 raise StopIteration
 
-    def prompt_mess(self, ui: PromptUI):
-        if self.prompt.re == 0:
+    def prompt_mess(self, ui: PromptUI, _: PromptUI.Shell):
+        if self.shell.re == 0:
             ui.print('')
             self.do_status(ui)
-        return 'meta> '
+
+        cur = self.shell.cur
+
+        m = re.match(r'''(?x)
+            /
+            meta /
+            solvers /
+            (?P<name> [^/] + )
+            (?P<path> .* )
+        ''', cur.path)
+        if m:
+            name = m[1]
+            harness = self.solver_by_name.get(name)
+            if not harness:
+                ui.print(f'! unknown solver {name!r}')
+            else:
+                ui.print(f'solver log_file: {self.solver_log.get(harness.name)}')
+
+        return f'{cur}> '
 
     # TODO txn.will_add(self.report.filename)
 
@@ -857,73 +835,81 @@ class Meta(Arguable):
         except (EOFError, StopIteration):
             pass
 
-    def do_log(self, ui: PromptUI):
+    def do_sol_cont(self, harness: SolverHarness, ui: PromptUI):
         '''
-        manage solver log(s)
+        continue solver run
         '''
-        solver_i = self.choose_solver(ui)
-        if solver_i is None:
-            ui.print('! must name a solver')
+        log_file = self.solver_log.get(harness.name)
+        return run_solver(harness.name, harness, ui, log_file)
+
+    def do_sol_edit(self, harness: SolverHarness, ui: PromptUI):
+        '''
+        open solver log in $EDITOR
+        '''
+
+        editor = os.environ.get('EDITOR', 'vi')
+        log_file = self.solver_log.get(harness.name)
+        if log_file is None:
+            ui.print(f'! unknown log file for {harness.name}')
             return
-        elif solver_i < 0:
+        with ui.check_proc(subprocess.Popen((editor, log_file))):
+            pass
+
+    def do_sol_cur(self, harness: SolverHarness, ui: PromptUI):
+        '''
+        use current log file
+        '''
+        prior = self.solver_log.get(harness.name)
+        log_file = harness.make(PromptUI.Tokens()).log_file
+        self.solver_log[harness.name] = log_file
+        action = (
+            'Initialized' if prior is None else
+            'Reset' if prior != log_file else
+            'Current')
+        ui.print(f'{action} log file: {log_file}')
+
+    def do_sol_last(self, harness: SolverHarness, ui: PromptUI,
+                    puzzle_id: str|None = None):
+        '''
+        list and select from prior solver logs
+        '''
+        log_file = harness(ui.tokens).find_prior_log(ui, puzzle_id)
+        if log_file is None:
+            ui.print(f'! could not find last log file')
             return
+        ui.print(f'Found last log_file: {log_file}')
+        self.solver_log[harness.name] = log_file
+        # TODO descend ../ if ui.tokens else call ../
+        # TODO maybe just shell chdir
 
-        harness = solver_harness[solver_i]
-        log_file = harness.log_file
-
-        def use_last(ui: PromptUI, puzzle_id: str = ''):
-            nonlocal log_file
-            found = harness.make(ui.tokens).find_prior_log(ui, puzzle_id)
-            if found is None:
-                ui.print(f'! could not find last log file')
-                return
-            ui.print(f'Found last log_file: {log_file}')
-            log_file = found
-            if ui.tokens:
-                return pr.handle(ui)
-            else:
-                return pr
-
-        def do_edit(ui: PromptUI):
-            editor = os.environ.get('EDITOR', 'vi')
-            with ui.check_proc(subprocess.Popen((editor, log_file))):
-                pass
-            raise StopIteration
-
-        def do_rm(ui: PromptUI):
-            ui.print(f'+ rm {log_file}')
-            os.unlink(log_file)
-            raise StopIteration
-
-        def do_cont(ui: PromptUI):
-            return solver_harness[solver_i].run(ui, log_file)
-
-        def do_tail(ui: PromptUI):
-            tail_n = (
-                3 if ui.screen_lines < 10 else
-                10 if ui.screen_lines < 20 else
-                ui.screen_lines//2)
-            with ui.check_proc(subprocess.Popen(('tail', f'-n{tail_n}', log_file))):
-                pass
-            raise StopIteration
-
-        pr = ui.Prompt(lambda _: f'{log_file}> ', {
-            'last': use_last,
-            'ls': partial(use_last, puzzle_id='*'),
-
-            'cont': do_cont,
-            'edit': do_edit,
-            'tail': do_tail,
-            'rm': do_rm,
-
-            # TODO fin / result
-            # TODO share / report
-        })
-
+    def do_sol_rm(self, harness: SolverHarness, ui: PromptUI):
+        '''
+        remove solver log file
+        '''
+        log_file = self.solver_log.get(harness.name)
+        if log_file is None:
+            ui.print(f'! unknown log file for {harness.name}')
+            return
+        ui.print(f'+ rm {log_file}')
         try:
-            ui.call_state(lambda ui: pr.handle(ui) or pr if ui.tokens else pr)
-        except (StopIteration, EOFError):
-            return self.prompt
+            os.unlink(log_file)
+        except OSError as err:
+            ui.print(f'! {err}')
+
+    def do_sol_tail(self, harness: SolverHarness, ui: PromptUI):
+        '''
+        show last N lines from solver log file
+        '''
+        log_file = self.solver_log.get(harness.name)
+        if log_file is None:
+            ui.print(f'! unknown log file for {harness.name}')
+            return
+        tail_n = (
+            3 if ui.screen_lines < 10 else
+            10 if ui.screen_lines < 20 else
+            ui.screen_lines//2)
+        with ui.check_proc(subprocess.Popen(('tail', f'-n{tail_n}', log_file))):
+            pass
 
     def do_review(self, ui: PromptUI):
         try:
@@ -937,27 +923,16 @@ class Meta(Arguable):
         except subprocess.CalledProcessError as err:
             ui.print(f'! {err}')
 
-    def do_run(self, ui: PromptUI):
+    def do_solve(self, ui: PromptUI):
         '''
-        run a solver, by name or inferred "next"
+        run next solver
         '''
-        solver_i = self.choose_solver(ui)
-        if solver_i is None:
-            for solver_i, day, _note, head, _body in self.read_status(ui, verbose=False):
-                if day is None or not head:
-                    break
-            else:
-                ui.print('! all solvers reported, specify particular?')
-                return
-        if solver_i >= 0:
-            return solver_harness[solver_i].run(ui)
-
-    def do_solvers(self, ui: PromptUI):
-        '''
-        show known solvers
-        '''
-        for n, (harness, note) in enumerate(zip(solver_harness, solver_notes), 1):
-            ui.print(f'{n}. {harness} site:{harness.site!r} slug:{note!r}')
+        for solver_i, day, _note, head, _body in self.read_status(ui, verbose=False):
+            if day is None or not head:
+                harness = solver_harness[solver_i]
+                return run_solver(harness.name, harness, ui)
+        ui.print('! all solvers reported, specify particular?')
+        return
 
     def read_status(self, ui: PromptUI, verbose: bool=False):
 
@@ -1024,7 +999,7 @@ class Meta(Arguable):
                 f'{day}',
                 *marked_tokenize(note)
             )))
-        self.prompt.re = max(1, self.prompt.re)
+        self.shell.re = max(1, self.shell.re)
 
 @final
 class Review:
