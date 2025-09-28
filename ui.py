@@ -1,3 +1,4 @@
+import argparse
 import datetime
 import json
 import math
@@ -45,6 +46,7 @@ class Clipboard(Protocol):
     def can_paste(self) -> bool: return False
     def copy(self, mess: str) -> None: pass
     def paste(self) -> str: return ''
+    def paste_how(self) -> tuple[str, str]: return self.name, ''
 
 @final
 class NullClipboard:
@@ -55,6 +57,7 @@ class NullClipboard:
     def can_paste(self): return False
     def copy(self, mess: str): _ = mess
     def paste(self): return ''
+    def paste_how(self): return self.name, self.paste()
 
 term_osc = '\033]'
 term_st = '\033\\'
@@ -80,6 +83,8 @@ class OSC52Clipboard:
         # TODO implement
         return ''
 
+    def paste_how(self): return self.name, self.paste()
+
 DefaultClipboard = NullClipboard()
 
 # TODO snip the pyperclip dep, just implement command dispatchers and/or an osc52 fallback provider
@@ -102,6 +107,7 @@ if pyperclip and  pyperclip.is_available():
         def can_paste(self): return True
         def copy(self, mess: str): pyp_copy(mess)
         def paste(self): return pyp_paste()
+        def paste_how(self): return self.name, self.paste()
 
     DefaultClipboard = Pyperclip()
 
@@ -346,6 +352,8 @@ class LogTime:
         self.d2 = d2
         self.d1 = d1
         self.a1 = tdd
+
+    # TODO unify update* paths
 
     def parse(self, tokens: PeekStr):
         t = tokens.have(r'(?x) T ( [-+]? \d+ [^\s]* )', then=lambda m: float(m[1]))
@@ -705,7 +713,7 @@ class PromptUI:
         self.time = Timer() if time is None else time
         self._log_time = LogTime()
 
-        self.get_input = get_input
+        self.get_input: Callable[[str], str] = get_input
         self.sink = sink
         self.clip = clip
         self.last: Literal['empty','prompt','print','write','remark'] = 'empty'
@@ -789,9 +797,8 @@ class PromptUI:
                 tokens = self.input('Press <Enter> to 📋 {subject} or `>` to enter directly')
             with tokens:
                 if tokens.empty:
-                    return (
-                        f'clipboard:{self.clip.name}',
-                        self.clip.paste())
+                    how, content = self.clip.paste_how()
+                    return f'clipboard:{how}', content
                 elif tokens.have('>$'):
                     return 'read:user:stdin', self.paste_read(subject)
                 else:
@@ -902,6 +909,7 @@ class PromptUI:
             return '<AGAIN>'
         if isinstance(st, PromptUI.Traced):
             st = st.state
+        # TODO ability to label / claim / cause things like PromptUI.Prompt objects
         try:
             fn = cast(object, getattr(st, '__func__', st))
             nom = cast(object, getattr(fn, '__qualname__') or getattr(fn, '__name__'))
@@ -1095,12 +1103,58 @@ class PromptUI:
             raise
 
     def call_state(self, state: State):
+        thrash_backoff = False
+        thrash_delay_after = 3
+        thrash_delay_base = 2.0
+        thrash_delay_max = 16
+
+        def unwrap(state: State):
+            if isinstance(state, PromptUI.Traced):
+                state = state.state
+            return state
+
+        last = unwrap(state)
+        last_t = self.time.now
+        last_c = 0
+
         with self.maybe_tracer(state) as state:
             while True:
+                if thrash_backoff and last_c > thrash_delay_after:
+                    n = last_c - thrash_delay_after
+                    since = self.time.now - last_t
+                    delay = min(thrash_delay_max, thrash_delay_base**(n-1))
+                    rem = delay - since
+                    self.print(f'! 💤 ui thrash {datetime.timedelta(seconds=delay)} (rem: {datetime.timedelta(seconds=rem)})')
+                    time.sleep(delay - since)
+
+                last_t = self.time.now
+
+                get_input = self.get_input
+                did_input = False
+                def got_input(mess: str):
+                    nonlocal did_input
+                    did_input = True
+                    return get_input(mess)
+                self.get_input = got_input
+
                 try:
-                    state = state(self) or state
+                    nxt = state(self)
+                    # TODO did call input?
                 except Next as n:
-                    state = PromptUI.Traced.MayTron(self, state, n)
+                    nxt = PromptUI.Traced.MayTron(self, state, n)
+                finally:
+                    self.get_input = get_input
+
+                mon = nxt and unwrap(nxt)
+                if not did_input:
+                    if mon is None: last_c += 1
+                    elif mon is last:
+                        last_c += 1
+                else:
+                    last_c = 0
+                last = mon
+
+                state = nxt or state
 
     @staticmethod
     @contextmanager
@@ -1151,10 +1205,42 @@ class PromptUI:
             pass
 
     @classmethod
+    @deprecated('use PromptUI.Arguable')
     def main(cls, state: State, trace: bool = False):
         ui = cls()
         ui.traced = trace
         ui.run(state)
+
+    class Arguable:
+        @classmethod
+        def main(cls):
+            self, args = cls.parse_args()
+            trace = cast(bool, args.trace)
+
+            ui = PromptUI()
+            ui.traced = trace
+            return ui.run(self)
+
+        @classmethod
+        def parse_args(cls):
+            parser = argparse.ArgumentParser(
+                formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+            )
+            cls.add_args(parser)
+            args = parser.parse_args()
+            self = cls()
+            return self, args
+
+        @classmethod
+        def add_args(cls, parser: argparse.ArgumentParser):
+            _ = parser.add_argument('--trace', '-t', action='store_true',
+                                    help='Enable execution state tracing')
+
+        def __init__(self):
+            self.prompt: Prompt = Prompt('> ', {})
+
+        def __call__(self, ui: 'PromptUI'):
+            return self.prompt(ui)
 
     @final
     class Chain:
