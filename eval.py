@@ -74,7 +74,7 @@ def strat_hack(words: Sequence[str], echo: bool=False, log: bool=False) -> Guess
 
                     with ui.deps(
                         get_input=giver,
-                        sink=lambda mess: print(f'LOG: {mess}') if log else None,
+                        log_sink=lambda mess: print(f'LOG: {mess}') if log else None,
                     ):
                         while True: tick()
 
