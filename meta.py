@@ -104,13 +104,22 @@ def write_tokens(ui: PromptUI,
                  tokens: PeekIter[str],
                  pre: str = '',
                  sep: str = ' ',
+                 sub_pre: str = '  ',
+                 limit: int = -1,
                  ):
     if not tokens: return
     with LineWriter(ui) as lw:
-        lw.write(f'{pre}{next(tokens, '')}')
-        while tokens:
-            if lw.remain < 0: break
-            lw.write(f'{sep}{next(tokens)}')
+        first = True
+        while tokens and limit != 0:
+            lw.write(f'{pre}{next(tokens, '')}')
+            while tokens:
+                if lw.remain < 0: break
+                lw.write(f'{sep}{next(tokens)}')
+            if first:
+                first = False
+                pre = sub_pre
+            if limit > 0:
+                limit -= 1
 
 def trim_lines(lines: Iterable[str]):
     st = 0
@@ -867,11 +876,6 @@ class Meta(Arguable):
                 f'{day}',
                 *marked_tokenize(note)
             )))
-            # TODO wrap subsequent lines like:
-            # ```python
-            # while tokens:
-            #     scw.write_line(ui, tokens, indent='... ')
-            # ```
 
 if __name__ == '__main__':
     Meta.main()
