@@ -1,0 +1,50 @@
+T31.68203876633197 now: 2025-09-29T12:14:20UTC
+TD56 site: alfagok.diginaut.net
+TDD145477 loaded 399707 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1145 words excluded) asof 1f4bc306056fad8668729e759f1d45b3c59a56ab
+TDD6613328  ...
+TDD-4686167 [0 : 199835 : 399707] lijm? b
+TDD-2072495 progress: -1 199835 lijm
+TDD1498387 [0 : 99750 : 199835] ex? b
+TDD-1498500 progress: -1 99750 ex
+TDD1526639 [0 : 49848 : 99750] boks? b
+TDD-1526631 progress: -1 49848 boks
+TDD3820102 [0 : 24911 : 49848] bad? b
+TDD-3820110 progress: -1 24911 bad
+TDD2072005 [0 : 8648 : 24911] af? a
+TDD-2071999 progress: 1 8648 af
+TDD2107500 [8649 : 16156 : 24911] am? b
+TDD-2107495 progress: -1 16156 am
+TDD2117008 [8649 : 12394 : 16156] afsplits? a
+TDD-2116998 progress: 1 12394 afsplits
+TDD2062475 [12395 : 14275 : 16156] agricolastraat? !
+TDD1338972 [12395 : 14275 : 16155] agricultuur? b
+TDD-3401470 progress: -1 14275 agricultuur
+TDD2326830 [12395 : 13331 : 14275] afvlak? b
+TDD-2326835 progress: -1 13331 afvlak
+TDD2388002 [12395 : 12848 : 13331] aftap? b
+TDD-2387988 progress: -1 12848 aftap
+TDD1850468 [12395 : 12593 : 12848] afstem? b
+TDD-1850472 progress: -1 12593 afstem
+TDD1531806 [12395 : 12485 : 12593] afstand? b
+TDD-1531799 progress: -1 12485 afstand
+TDD2195819 [12395 : 12423 : 12485] afspraken? b
+TDD-2195812 progress: -1 12423 afspraken
+TDD2185239 [12395 : 12403 : 12423] afspoel? a
+TDD-2185266 progress: 1 12403 afspoel
+TDD1720631 [12404 : 12413 : 12423] afsponst? a
+TDD-1720619 progress: 1 12413 afsponst
+TDD1940900 [12414 : 12418 : 12423] afspraak? it
+TDD-1940895 progress: 0 12418 afspraak
+TDD-72 [12414 : 12418 : 12423] <Done>.
+TDD4193948 📋> 🧩 Puzzel #331
+TDD-4193901 📋> 🤔 15 gokken
+TDD-46 📋> ⏱️ 35s
+TDD248892 📋> 🔗 alfagok.diginaut.net
+TDD65087 📋> ␚
+TDD-313933 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #331\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 35s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD236 result: "\ud83e\udde9 Puzzel #331\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 35s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-273 result puzzle: 331
+TDD-21 result guesses: 15
+TDD-2 result time: 35s
+TDD0 result link: alfagok.diginaut.net
+TDD1037949 📆 2025-09-29 ? ␚
