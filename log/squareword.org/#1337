@@ -1,0 +1,103 @@
+T137.82170984894037 now: 2025-09-29T12:16:07UTC
+TD52 site: squareword.org
+TDD-6 wordlist: nwl2023.txt
+TDD7583372  ...#1337
+TDD-4718424  ...
+TDD-178261 🧩  ? #1337
+TDD-2686577 puzzle_id: #1337
+TDD2157236 > *
+TDD-633675 try? 1
+TDD-1523564 questioning: ["lears", "#5"]
+TDD4260944 #1 _____  📋 "lears" ? __A_S ~L
+TDD-4260371 attempt 0 LEARS m n Y n Y
+TDD2035588 #2 _____  📋 "lears" ? _____ ~ ER
+TDD-2036161 attempt 1 LEARS n m n m n
+TDD2262904 #3 _____  📋 "lears" ? _____ ~ LEA
+TDD-2262888 attempt 2 LEARS m m m n n
+TDD5931951 #4 _____  📋 "lears" ? L____ ~ ES
+TDD-5931959 attempt 3 LEARS Y m n n m
+TDD2293592 #5 _____  📋 "lears" ? _____ ~ ER
+TDD-2293589 attempt 4 LEARS n m n m n
+TDD851527 ? 
+TDD-851601 question done
+TDD627886 > *
+TDD7459762 try? 2
+TDD-8087551 questioning: ["louse", "#4"]
+TDD5460278 #1 __A_S ~L -ER  📋 "louse" ? .
+TDD-5460283 attempt 0 LOUSE m n n n n
+TDD865636 #2 _____ ~ER -ALS  📋 "louse" ? .
+TDD-865634 attempt 1 LOUSE n n n n m
+TDD4966551 #3 _____ ~AEL -RS  📋 "louse" ? ____E ~ LA
+TDD-4966541 attempt 2 LOUSE m n n n Y
+TDD7180563 #4 L____ ~ES -AR  📋 "louse" ? LO_SE ~ O
+TDD-7180598 attempt 3 LOUSE Y Y n Y Y
+TDD5113451 #5 _____ ~ER -ALS  📋 "louse" ? _O___ ~ ER
+TDD-5113439 attempt 4 LOUSE n Y n n m
+TDD890051 ? 
+TDD-890084 question done
+TDD869017 > *
+TDD-238474 questioning: ["egret", "#2"]
+TDD7842883 #1 __A_S ~L -EORSU  📋 "egret" ? .
+TDD-8473402 attempt 0 EGRET n n n n n
+TDD778838 #2 _____ ~ER -ALOSU  📋 "egret" ? /it
+TDD-778909 attempt 1 EGRET Y Y Y Y Y
+TDD4486929 #3 ____E ~AL -ORSU  📋 "egret" ? ____E ~ LAG
+TDD-4486844 attempt 2 EGRET n m n n n
+TDD6060390 #4 LO_SE -ARU  📋 "egret" ? LO_SE ~ O
+TDD-6060416 attempt 3 EGRET n n n n n
+TDD3946858 #5 _O___ ~ER -ALSU  📋 "egret" ? _O_E_ ~ RT
+TDD-3946846 attempt 4 EGRET n n m Y m
+TDD441908 ? 
+TDD-442002 question done
+TDD2040143 > *
+TDD-1357041 questioning: ["algae", "#3"]
+TDD4504641 #1 __A_S ~L -EGORSTU  📋 "algae" ? .
+TDD-5187650 attempt 0 ALGAE n m n n n
+TDD981847 #3 ____E ~AGL -EORSTU  📋 "algae" ? /it
+TDD-981869 attempt 2 ALGAE Y Y Y Y Y
+TDD4756499 #4 LO_SE -AEGRTU  📋 "algae" ? LO_SE ~ O
+TDD-4756485 attempt 3 ALGAE n n n n Y
+TDD1645294 #5 _O_E_ ~RT -AGLSU  📋 "algae" ? .
+TDD-1645353 attempt 4 ALGAE n n n n n
+TDD186488 ? 
+TDD-186525 question done
+TDD653674 > *
+TDD820042 questioning: ["loose", "#4"]
+TDD3919519 #1 __A_S ~L -AEGORSTU  📋 "loose" ? .
+TDD-5393118 attempt 0 LOOSE m n n n n
+TDD822308 #4 LO_SE -AGLRTU  📋 "loose" ? /it
+TDD-822393 attempt 3 LOOSE Y Y Y Y Y
+TDD1316177 #5 _O_E_ ~RT -AEGLSU  📋 "loose" ? .
+TDD-1316175 attempt 4 LOOSE n Y n n n
+TDD174009 ? 
+TDD-174042 question done
+TDD621569 > *
+TDD7826748 try? 2
+TDD-8448185 questioning: ["dials", "#1"]
+TDD3006816 #1 __A_S ~L -AEGORSTU  📋 "dials" ? /it
+TDD-3006882 attempt 0 DIALS Y Y Y Y Y
+TDD2436676 #5 _O_E_ ~RT -AEGLSU  📋 "dials" ? .
+TDD-2436638 attempt 4 DIALS n n n n n
+TDD1394463 ? 
+TDD-1394567 question done
+TDD508119 > *
+TDD11691948 try? 2
+TDD-12199955 questioning: ["toter", "#5"]
+TDD4360138 #5 _O_E_ ~RT -ADEGILSU  📋 "toter" ? /it
+TDD-4360146 attempt 4 TOTER Y Y Y Y Y
+TDD723696 ? 
+TDD-723786 question done
+TDD4122781 📋> squareword.org 1337: 7 guesses
+TDD-4122758 📋> 
+TDD-67 📋> 🟨🟨🟩🟨🟩
+TDD-5 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟩🟨🟩🟨
+TDD4 📋> 
+TDD-2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD355876 📋> #squareword #squareword1337
+TDD89093 📋> ␚
+TDD-444941 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1337: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1337"}
+TDD376 result: "squareword.org 1337: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1337"
+TDD400285 📆 2025-09-29 ? 
