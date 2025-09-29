@@ -1,0 +1,52 @@
+T94.36976100504398 now: 2025-09-29T12:15:23UTC
+TD53 site: alphaguess.com
+TDD62971 loaded 196548 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (55 words excluded) asof 1f4bc306056fad8668729e759f1d45b3c59a56ab
+TDD2893784  ...
+TDD1679739 [0 : 98232 : 196548] mach? b
+TDD-4636452 progress: -1 98232 mach
+TDD1482151 [0 : 47393 : 98232] dis? a
+TDD-1482170 progress: 1 47393 dis
+TDD1992961 [47394 : 72813 : 98232] gremolata? a
+TDD-1992944 progress: 1 72813 gremolata
+TDD1553610 [72814 : 85517 : 98232] ins? b
+TDD-1553617 progress: -1 85517 ins
+TDD1645861 [72814 : 79145 : 85517] hood? a
+TDD-1645862 progress: 1 79145 hood
+TDD1646529 [79146 : 82322 : 85517] immaterial? b
+TDD-1646521 progress: -1 82322 immaterial
+TDD1681353 [79146 : 80730 : 82322] hydroxy? b
+TDD-1681363 progress: -1 80730 hydroxy
+TDD1733453 [79146 : 79928 : 80730] hoy? b
+TDD-1733446 progress: -1 79928 hoy
+TDD1716107 [79146 : 79465 : 79928] horse? a
+TDD-1716104 progress: 1 79465 horse
+TDD1615123 [79466 : 79655 : 79928] hot? a
+TDD-1615119 progress: 1 79655 hot
+TDD1430153 [79656 : 79755 : 79928] house? a
+TDD-1430173 progress: 1 79755 house
+TDD5646679 [79756 : 79842 : 79928] houser? a
+TDD-5646650 progress: 1 79842 houser
+TDD1625660 [79843 : 79876 : 79928] hove? a
+TDD-1625671 progress: 1 79876 hove
+TDD1594334 [79877 : 79895 : 79928] how? a
+TDD-1594347 progress: 1 79895 how
+TDD1735659 [79896 : 79913 : 79928] howk? a
+TDD-1735654 progress: 1 79913 howk
+TDD1875958 [79914 : 79917 : 79928] howl? it
+TDD-1875938 progress: 0 79917 howl
+TDD-70 [79914 : 79917 : 79928] <Done>.
+TDD3909430 📋> 🧩 Puzzle #797
+TDD-3909406 📋> 
+TDD-38 📋> 🤔 17 guesses
+TDD-2 📋> 
+TDD0 📋> ⏱️ 29s
+TDD0 📋> 
+TDD366473 📋> 🔗 alphaguess.com
+TDD-63095 📋> ␚
+TDD-303319 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #797\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 29s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-20 result: "\ud83e\udde9 Puzzle #797\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 29s\n\n\ud83d\udd17 alphaguess.com"
+TDD-32 result puzzle: 797
+TDD0 result guesses: 17
+TDD-9 result time: 29s
+TDD-1 result link: alphaguess.com
+TDD409126 📆 2025-09-29 ? 
