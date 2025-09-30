@@ -49,7 +49,7 @@ def load_env(override: bool = False):
         if old != now:
             yield name, now, old
 
-for name, now, _old in load_env():
+for name, now, _old in load_env(override=True):
     print(f'set ${name} = {now!r}')
 
 # TODO move into ui/mkit/strkit modules
