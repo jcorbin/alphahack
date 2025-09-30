@@ -489,13 +489,14 @@ class Meta(Arguable):
         self.report = Report()
         self.prompt.mess = self.prompt_mess
         self.prompt.update({
-            'solvers': self.do_solvers,
-            'status': self.do_status,
-            'run': self.do_run,
-            'log': self.do_log,
-            'share': self.do_share,
             'day': self.do_day,
             'env': self.do_env,
+            'log': self.do_log,
+            'run': self.do_run,
+            'share': self.do_share,
+            'solvers': self.do_solvers,
+            'status': self.do_status,
+            'sys': self.do_system,
             'tracing': self.do_tracing,
             # TODO share: header, detail, summary
             # TODO clear day
@@ -607,6 +608,14 @@ class Meta(Arguable):
             value = os.environ.get(name, '')
             ui.print(f'${name} = {value!r}')
             return
+
+    def do_system(self, ui: PromptUI):
+        '''
+        Run arbitrary system command (execv not shell)
+        '''
+        cmd = shlex.split(ui.tokens.rest)
+        with ui.check_proc(subprocess.Popen(cmd)):
+            pass
 
     def do_day(self, ui: PromptUI):
         '''
