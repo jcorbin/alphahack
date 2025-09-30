@@ -20,8 +20,28 @@ from store import StoredLog, atomic_rewrite, git_txn
 from strkit import PeekIter, spliterate
 from ui import PromptUI
 
+def load_tmuxenv(override: bool = False):
+    some = False
+    with subprocess.Popen(('tmux', 'showenv'), stdout=subprocess.PIPE, text=True) as showenv:
+        assert showenv.stdout is not None
+        for line in showenv.stdout:
+            m = re.match(r'''(?x)
+                (?P<key> [A-Za-z][^=]* )
+                =
+                (?P<val> .* )
+            ''', line)
+            if m:
+                key, val = m[1], m[2]
+                if key not in os.environ or (
+                    override and os.environ[key] != val
+                ):
+                    os.environ[key] = val
+                    some = True
+    return some
+
 def load_env(override: bool = False):
     prior = dict(os.environ)
+    _ = load_tmuxenv(override=override)
     _ = load_dotenv(override=override)
     for name in set(chain(prior, os.environ)):
         old = prior.get(name, '')
