@@ -20,7 +20,17 @@ from store import StoredLog, atomic_rewrite, git_txn
 from strkit import PeekIter, spliterate
 from ui import PromptUI
 
-_ = load_dotenv()
+def load_env(override: bool = False):
+    prior = dict(os.environ)
+    _ = load_dotenv(override=override)
+    for name in set(chain(prior, os.environ)):
+        old = prior.get(name, '')
+        now = os.environ.get(name, '')
+        if old != now:
+            yield name, now, old
+
+for name, now, _old in load_env():
+    print(f'set ${name} = {now!r}')
 
 # TODO move into ui/mkit/strkit modules
 def is_mark(s: str):
@@ -555,14 +565,11 @@ class Meta(Arguable):
             return
 
         if ui.tokens.have('load'):
-            prior = dict(os.environ)
-            if load_dotenv(override=True):
-                for name in set(chain(prior, os.environ)):
-                    old = prior.get(name, '')
-                    now = os.environ.get(name, '')
-                    if old != now:
-                        ui.print(f'set ${name} = {now!r}')
-            else:
+            some = False
+            for name, now, _old in load_env(override=True):
+                some = True
+                ui.print(f'set ${name} = {now!r}')
+            if not some:
                 ui.print(f'no env change')
             return
 
