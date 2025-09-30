@@ -1,0 +1,39 @@
+T82.08279197104275 now: 2025-09-30T12:15:47UTC
+TD60 site: alfagok.diginaut.net
+TDD149333 loaded 399706 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1146 words excluded) asof 084ac055b30721bc665403fece188cacd6f36e86
+TDD9412278  ...
+TDD-7240912 [0 : 199834 : 399706] lijm? a
+TDD-2320597 progress: 1 199834 lijm
+TDD1945471 [199835 : 299752 : 399706] schub? b
+TDD-1945534 progress: -1 299752 schub
+TDD1737157 [199835 : 247745 : 299752] op? a
+TDD-1737203 progress: 1 247745 op
+TDD1655880 [247746 : 273551 : 299752] proef? a
+TDD-1655864 progress: 1 273551 proef
+TDD1745829 [273552 : 286622 : 299752] rijs? a
+TDD-1745813 progress: 1 286622 rijs
+TDD1902287 [286623 : 292850 : 299752] samen? a
+TDD-1902288 progress: 1 292850 samen
+TDD1643725 [292851 : 296284 : 299752] schepping? a
+TDD-1643725 progress: 1 296284 schepping
+TDD1723029 [296285 : 297870 : 299752] school? a
+TDD-1723027 progress: 1 297870 school
+TDD1931523 [297871 : 298778 : 299752] schot? b
+TDD-1931521 progress: -1 298778 schot
+TDD1893251 [297871 : 298324 : 298778] schoolverenigingen? a
+TDD-1893258 progress: 1 298324 schoolverenigingen
+TDD3985214 [298325 : 298380 : 298778] schoon? it
+TDD-3985202 progress: 0 298380 schoon
+TDD-71 [298325 : 298380 : 298778] <Done>.
+TDD6230165 📋> 🧩 Puzzel #332
+TDD-6230111 📋> 🤔 11 gokken
+TDD-53 📋> ⏱️ 18s
+TDD427130 📋> 🔗 alfagok.diginaut.net
+TDD-77978 📋> ␚
+TDD-349094 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #332\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 18s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD265 result: "\ud83e\udde9 Puzzel #332\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 18s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-326 result puzzle: 332
+TDD-7 result guesses: 11
+TDD-2 result time: 18s
+TDD0 result link: alfagok.diginaut.net
+TDD818805 📆 2025-09-30 ? 
