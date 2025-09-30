@@ -1,0 +1,42 @@
+T128.30388578865677 now: 2025-09-30T12:16:33UTC
+TD55 site: alphaguess.com
+TDD64099 loaded 196548 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (55 words excluded) asof 084ac055b30721bc665403fece188cacd6f36e86
+TDD6043570  ...
+TDD-3300578 [0 : 98232 : 196548] mach? a
+TDD-2807059 progress: 1 98232 mach
+TDD1649467 [98233 : 147337 : 196548] rho? a
+TDD-1649454 progress: 1 147337 rho
+TDD1644669 [147338 : 171937 : 196548] tag? a
+TDD-1644694 progress: 1 171937 tag
+TDD1553691 [171938 : 182024 : 196548] un? b
+TDD-1553671 progress: -1 182024 un
+TDD2065845 [171938 : 176974 : 182024] tom? b
+TDD-2065850 progress: -1 176974 tom
+TDD1722914 [171938 : 174423 : 176974] test? b
+TDD-1722926 progress: -1 174423 test
+TDD1403783 [171938 : 173177 : 174423] technical? a
+TDD-1403778 progress: 1 173177 technical
+TDD1335905 [173178 : 173794 : 174423] tempt? a
+TDD-1335892 progress: 1 173794 tempt
+TDD1376293 [173795 : 174109 : 174423] tephrite? b
+TDD-1376332 progress: -1 174109 tephrite
+TDD1374825 [173795 : 173808 : 174109] ten? a
+TDD-1374785 progress: 1 173808 ten
+TDD1724770 [173809 : 173955 : 174109] tennis? it
+TDD-1724820 progress: 0 173955 tennis
+TDD-22 [173809 : 173955 : 174109] <Done>.
+TDD2498357 📋> 🧩 Puzzle #798
+TDD-2498320 📋> 
+TDD-39 📋> 🤔 11 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 16s
+TDD5 📋> 
+TDD228000 📋> 🔗 alphaguess.com
+TDD-16666 📋> ␚
+TDD-211304 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #798\n\n\ud83e\udd14 11 guesses\n\n\u23f1\ufe0f 16s\n\n\ud83d\udd17 alphaguess.com"}
+TDD5 result: "\ud83e\udde9 Puzzle #798\n\n\ud83e\udd14 11 guesses\n\n\u23f1\ufe0f 16s\n\n\ud83d\udd17 alphaguess.com"
+TDD-43 result puzzle: 798
+TDD-4 result guesses: 11
+TDD-1 result time: 16s
+TDD0 result link: alphaguess.com
+TDD498457 📆 2025-09-30 ? 
