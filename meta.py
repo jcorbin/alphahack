@@ -4,6 +4,8 @@ import argparse
 import datetime
 import os
 import re
+import shlex
+import sys
 import subprocess
 from itertools import chain
 from collections.abc import Generator, Iterable
@@ -469,6 +471,23 @@ class Meta(Arguable):
             # TODO clear day
             # TODO flip day
         })
+
+    @override
+    def __call__(self, ui: PromptUI):
+        ui.run(super().__call__)
+        return self.may_reexec
+
+    def may_reexec(self, ui: PromptUI):
+        with ui.input('meta done, reexec [ Y / n ] ? ') as tokens:
+            if not tokens or tokens.have(r'(?xi) ^ y'):
+                argv = (sys.executable, *sys.argv)
+                ui.print('')
+                ui.print('# Meta script re-executing itself')
+                ui.print(f'+ {shlex.join(argv)}')
+                os.execv(argv[0], argv)
+
+            if tokens.have(r'(?xi) ^ n'):
+                raise StopIteration
 
     def prompt_mess(self, ui: PromptUI):
         if self.prompt.re == 0:
