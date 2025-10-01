@@ -825,7 +825,8 @@ class Meta(Arguable):
 
         def do_edit(ui: PromptUI):
             editor = os.environ.get('EDITOR', 'vi')
-            _ = ui.check_call(subprocess.Popen((editor, log_file)))
+            with ui.check_proc(subprocess.Popen((editor, log_file))):
+                pass
             raise StopIteration
 
         def do_rm(ui: PromptUI):
