@@ -1233,20 +1233,28 @@ class PromptUI:
                 self.print(f'* {what} retry {retry}')
             yield retry
 
-    def check_call(self, proc: subprocess.Popen[bytes], timeout: float|None=None):
+    @contextmanager
+    def check_proc[T: (str, bytes)](self, proc: subprocess.Popen[T]):
         with proc:
             self.print(f'$ {
                str(proc.args) if isinstance(proc.args, os.PathLike)
                else shlex.join(str(arg) for arg in proc.args) }')
+
             try:
-                retcode = proc.wait(timeout=timeout)
+                yield proc
             except:
                 proc.kill()
                 raise
-            if retcode == 0:
-                return True
+        retcode = proc.returncode
+        if retcode != 0:
             self.print(f'! exited {retcode}')
-            return False
+            raise subprocess.CalledProcessError(retcode, proc.args)
+
+    @deprecated('use check_proc')
+    def check_call(self, proc: subprocess.Popen[bytes]):
+        with self.check_proc(proc):
+            pass
+        return proc.returncode == 0
 
 class Lister(Protocol):
     def __len__(self) -> int:
