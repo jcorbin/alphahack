@@ -1250,12 +1250,6 @@ class PromptUI:
             self.print(f'! exited {retcode}')
             raise subprocess.CalledProcessError(retcode, proc.args)
 
-    @deprecated('use check_proc')
-    def check_call(self, proc: subprocess.Popen[bytes]):
-        with self.check_proc(proc):
-            pass
-        return proc.returncode == 0
-
 class Lister(Protocol):
     def __len__(self) -> int:
         return 0
