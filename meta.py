@@ -842,7 +842,8 @@ class Meta(Arguable):
                 3 if ui.screen_lines < 10 else
                 10 if ui.screen_lines < 20 else
                 ui.screen_lines//2)
-            _ = ui.check_call(subprocess.Popen(('tail', f'-n{tail_n}', log_file)))
+            with ui.check_proc(subprocess.Popen(('tail', f'-n{tail_n}', log_file))):
+                pass
             raise StopIteration
 
         pr = ui.Prompt(lambda _: f'{log_file}> ', {
