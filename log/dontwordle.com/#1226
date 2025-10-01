@@ -1,0 +1,63 @@
+T80451.2588026477 now: 2025-10-01T12:16:25UTC
+TD49 site: dontwordle.com
+TDD-21 wordlist: nwl2023.txt
+TDD3822120  ...
+TDD-2258691 1> *
+TDD-137679 ? ␚
+TDD-1425720 <EOF>
+TDD2258219 1> * -bot 10
+TDD-1273161 ? 1
+TDD4209422 📋 "raise" ? MMnnM
+TDD-5194385 tried: RAISE m m n n m
+TDD945604 2> undo
+TDD-945643 undo
+TDD179804032 1> *
+TDD-178615821 ? 1
+TDD2829659 📋 "zizit" ? nnnnn
+TDD-4017808 tried: ZIZIT n n n n n
+TDD567370 2> *
+TDD329238 ? 1
+TDD2704832 📋 "yobby" ? nnMnn
+TDD-3601466 tried: YOBBY n n m n n
+TDD1061756 3> undo
+TDD-1061774 undo
+TDD2663060 2> *
+TDD2911251 ? nnnnn
+TDD-5087473 ? *
+TDD997904 ? 1
+TDD-31857 📋 "mojos" ? nnnnn
+TDD-1452895 tried: MOJOS n n n n n
+TDD601351 3> *
+TDD1274533 ? 1
+TDD1769975 📋 "fuddy" ? nnMnn
+TDD-3645833 tried: FUDDY n n m n n
+TDD714639 4> undo
+TDD-714638 undo
+TDD2581650 3> *
+TDD-1163666 ? 1
+TDD2110250 📋 "puppy" ? nnnnn
+TDD-3528244 tried: PUPPY n n n n n
+TDD546350 4> *
+TDD4715117 📋 "grrrl" ? nnnnn
+TDD-5261451 tried: GRRRL n n n Y n
+TDD2903912 5> ␚
+T22.8427631277591 now: 2025-10-01T12:20:56UTC
+TD4728060 5> *
+TDD2721531 📋 "where" ? nnMYn
+TDD-7449382 tried: WHERE n n m Y n
+TDD590919 6> *
+TDD5194141 📋 "beard" ? it
+TDD-5785126 tried: BEARD Y Y Y Y Y
+TDD3674095 📋> Don't Wordle 1226 - WORDLED
+TDD-3674117 📋> I must admit that I Wordled!
+TDD-78 📋> ⬜⬜⬜⬜⬜6979
+TDD-8 📋> ⬜⬜⬜⬜⬜1785
+TDD-16 📋> ⬜⬜⬜⬜⬜741
+TDD-4 📋> ⬜⬜⬜🟩⬜26
+TDD0 📋> ⬜⬜🟨🟩⬜2
+TDD-1 📋> 🟩🟩🟩🟩🟩0
+TDD442756 📋> Undos used: 3
+TDD252165 📋> ␚
+TDD-694841 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1226 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6979\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1785\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c741\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c26\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 3"}
+TDD669 result: "Don't Wordle 1226 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6979\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1785\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c741\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c26\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 3"
+TDD2209291 📆 2025-10-01 ? 
