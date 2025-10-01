@@ -1,0 +1,118 @@
+T79688.5475962339 now: 2025-10-01T12:03:42UTC
+TD43 site: squareword.org
+TDD-9 wordlist: nwl2023.txt
+TDD6185517  ...
+TDD-4605211 🧩  ? #1339
+TDD-1580175 puzzle_id: #1339
+TDD2806601 > *
+TDD-1030274 try? 1
+TDD-1776321 questioning: ["aisle", "#5"]
+TDD9235789 #1 _____  📋 "aisle" ? _____ ~ AS
+TDD-9235572 attempt 0 AISLE m n m n n
+TDD2531849 #2 _____  📋 "aisle" ? ____E ~ I
+TDD-2532019 attempt 1 AISLE n m n n Y
+TDD4123342 #3 _____  📋 "aisle" ? _____ ~ AE
+TDD-4123390 attempt 2 AISLE m n n n m
+TDD3462226 #4 _____  📋 "aisle" ? _____ ~ A
+TDD-3462199 attempt 3 AISLE m n n n n
+TDD2712415 #5 _____  📋 "aisle" ? _____ ~ E
+TDD-2712434 attempt 4 AISLE n n n n m
+TDD664795 ? 
+TDD-664828 question done
+TDD556788 > *
+TDD5737045 try? 10
+TDD-6293766 questioning: ["bride", "#2"]
+TDD10603614 #1 _____ ~AS -EIL  📋 "bride" ? _____ ~ ASR
+TDD-10603625 attempt 0 BRIDE n m n n n
+TDD1450536 #2 ____E ~I -ALS  📋 "bride" ? .
+TDD-1450561 attempt 1 BRIDE n n m n Y
+TDD1395305 #3 _____ ~AE -ILS  📋 "bride" ? .
+TDD-1395296 attempt 2 BRIDE n n n n m
+TDD2791413 #4 _____ ~A -EILS  📋 "bride" ? _____ ~ AR
+TDD-2791415 attempt 3 BRIDE n m n n n
+TDD2200528 #5 _____ ~E -AILS  📋 "bride" ? _____ ~ ER
+TDD-2200542 attempt 4 BRIDE n m n n m
+TDD278374 ? 
+TDD-278433 question done
+TDD598828 > *
+TDD1974309 try? 2
+TDD-2573094 questioning: ["untie", "#2"]
+TDD4033397 #1 _____ ~ARS -BDEIL  📋 "untie" ? .
+TDD-4033225 attempt 0 UNTIE n n n n n
+TDD1812888 #2 ____E ~I -ABDLRS  📋 "untie" ? ___IE
+TDD-1813046 attempt 1 UNTIE n n n Y Y
+TDD1279176 #3 _____ ~AE -BDILRS  📋 "untie" ? .
+TDD-1279156 attempt 2 UNTIE n n n n m
+TDD5117487 #4 _____ ~AR -BDEILS  📋 "untie" ? _____ ~ ART
+TDD-5117504 attempt 3 UNTIE n n m n n
+TDD3024058 #5 _____ ~ER -ABDILS  📋 "untie" ? _NT__ ~ ER
+TDD-3024048 attempt 4 UNTIE n Y Y n m
+TDD351204 ? 
+TDD-351256 question done
+TDD807320 > *
+TDD5387670 try? 1
+TDD-6194934 questioning: ["entry", "#5"]
+TDD6847802 #1 _____ ~ARS -BDEILNTU  📋 "entry" ? ___R_ ~ AS
+TDD-6847785 attempt 0 ENTRY n n n Y n
+TDD3423801 #2 ___IE -ABDLNRSTU  📋 "entry" ? .
+TDD-3423812 attempt 1 ENTRY n n n n n
+TDD1216205 #3 _____ ~AE -BDILNRSTU  📋 "entry" ? .
+TDD-1216208 attempt 2 ENTRY m n n n n
+TDD865331 #4 _____ ~ART -BDEILNSU  📋 "entry" ? .
+TDD-865318 attempt 3 ENTRY n n m m n
+TDD1046209 #5 _NT__ ~ER -ABDILSU  📋 "entry" ? /it
+TDD-1046246 attempt 4 ENTRY Y Y Y Y Y
+TDD161475 ? 
+TDD-161518 question done
+TDD603136 > *
+TDD3463613 try? 3
+TDD-4066682 questioning: ["tarot", "#4"]
+TDD4575970 #1 ___R_ ~AS -BDEILNTUY  📋 "tarot" ? .
+TDD-4575982 attempt 0 TAROT n m n n n
+TDD3034507 #2 ___IE -ABDELNRSTUY  📋 "tarot" ? ___IE ~ O
+TDD-3034512 attempt 1 TAROT n n n m n
+TDD3026444 #3 _____ ~AE -BDILNRSTUY  📋 "tarot" ? _____ ~ AEO
+TDD-3026456 attempt 2 TAROT n m n m n
+TDD1024799 #4 _____ ~ART -BDEILNSUY  📋 "tarot" ? /it
+TDD-1024792 attempt 3 TAROT Y Y Y Y Y
+TDD141301 ? 
+TDD-141348 question done
+TDD843935 > *
+TDD1202919 questioning: ["omega", "#3"]
+TDD5806191 #1 ___R_ ~AS -BDEILNORTUY  📋 "omega" ? ___R_ ~ ASM
+TDD-7853014 attempt 0 OMEGA n m n n m
+TDD3543684 #2 ___IE ~O -ABDELNRSTUY  📋 "omega" ? ___IE ~ OM
+TDD-3543652 attempt 1 OMEGA m m n n n
+TDD706664 #3 _____ ~AEO -BDILNRSTUY  📋 "omega" ? /it
+TDD-706690 attempt 2 OMEGA Y Y Y Y Y
+TDD166928 ? 
+TDD-166979 question done
+TDD630181 > *
+TDD776188 questioning: ["swarm", "#1"]
+TDD2250294 #1 ___R_ ~AMS -BDEGILNORTUY  📋 "swarm" ? /it
+TDD-3656597 attempt 0 SWARM Y Y Y Y Y
+TDD317584 #2 ___IE ~MO -ABDEGLNRSTUY  📋 "swarm" ? 
+TDD2223560 #2 ___IE ~MO -ABDEGLNRSTUY  ? .
+TDD-2541152 attempt 1 SWARM n n n n m
+TDD271603 ? 
+TDD-271658 question done
+TDD475045 > *
+TDD441002 questioning: ["movie", "#2"]
+TDD3293035 #2 ___IE ~MO -ABDEGLNRSTUWY  📋 "movie" ? /it
+TDD-4209041 attempt 1 MOVIE Y Y Y Y Y
+TDD914655 ? 
+TDD-914707 question done
+TDD5504597 📋> squareword.org 1339: 8 guesses
+TDD-5504605 📋> 
+TDD-67 📋> 🟨🟨🟨🟩🟨
+TDD-5 📋> 🟨🟨🟨🟩🟩
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD298626 📋> #squareword #squareword1339
+TDD2715 📋> ␚
+TDD-301277 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1339: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1339"}
+TDD742 result: "squareword.org 1339: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1339"
+TDD333119 📆 2025-10-01 ? 
