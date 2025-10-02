@@ -7,12 +7,14 @@ import re
 import shlex
 import sys
 import subprocess
+from collections import Counter, defaultdict
 from itertools import chain
 from collections.abc import Generator, Iterable
 from datetime import date
 from dotenv import load_dotenv
 from emoji import emoji_count, is_emoji
 from functools import partial
+from os.path import basename
 from typing import Callable, Protocol, cast, final, override
 from types import TracebackType
 
@@ -495,6 +497,7 @@ class Meta(Arguable):
             'day': self.do_day,
             'env': self.do_env,
             'log': self.do_log,
+            'review': self.do_review,
             'run': self.do_run,
             'share': self.do_share,
             'solvers': self.do_solvers,
@@ -879,6 +882,47 @@ class Meta(Arguable):
         except (StopIteration, EOFError):
             return self.prompt
 
+    def do_review(self, ui: PromptUI):
+        try:
+            editor = os.environ.get('EDITOR', 'vi')
+            git_editor = os.environ.get('GIT_EDITOR', editor)
+            seq_editor = os.environ.get('GIT_SEQUENCE_EDITOR', git_editor)
+
+            env = os.environ.copy()
+            env['GIT_SEQUENCE_EDITOR'] = EditBack.command('git_seq')
+
+            # TODO we only need to intercept this because of using git-rebase's
+            #      stdin/out as out control channel; is it better to connect
+            #      edit-back via side channel instead?
+            env['GIT_EDITOR'] = EditBack.command('git')
+            env['EDITOR'] = EditBack.command()
+
+            with (
+                ui.check_proc(subprocess.Popen(
+                    ('git', 'rebase', '--rebase-merges', '-i', 'main'),
+                    env=env,
+                    text=True,
+                    stdin=subprocess.PIPE,
+                    stdout=subprocess.PIPE,
+                )) as proc,
+                EditBack(proc) as ed,
+            ):
+                for f in ed:
+                    if f.mode == 'git_seq' and basename(f.name) == 'git-rebase-todo':
+                        with f as (r, w):
+                            rev = Review(r)
+                            for line in rev():
+                                print(line, file=w)
+                    edit = (seq_editor if f.mode == 'git_seq' else
+                            git_editor if f.mode == 'git' else
+                            editor)
+                    cmd = shlex.join((edit, f.name))
+                    ui.check_call(subprocess.Popen(cmd, shell=True))
+                    ed.done(f.name)
+
+        except subprocess.CalledProcessError as err:
+            ui.print(f'! {err}')
+
     def do_run(self, ui: PromptUI):
         '''
         run a solver, by name or inferred "next"
@@ -962,5 +1006,461 @@ class Meta(Arguable):
             )))
         self.prompt.re = max(1, self.prompt.re)
 
+@final
+class Review:
+    def __init__(self, lines: Iterable[str]):
+        def starts(lines: Iterable[str]):
+            st = 0
+            for i, line in enumerate(lines):
+                if line:
+                    if not st:
+                        yield i
+                    st = 1
+                else:
+                    st = 0
+
+        self.in_lines = tuple(line.rstrip('\n') for line in lines)
+        self.starts = tuple(starts(self.in_lines))
+
+        self.section_by: defaultdict[str, dict[str, int]] = defaultdict(lambda: dict())
+        for i, section in enumerate(self.starts):
+            kind, name = self.section_kind(section)
+            self.section_by[kind][name] = i
+
+        self.out: list[list[int|str]] = [
+            [i for i, _ in self.section(section)]
+            for section in self.starts
+        ]
+        self.start_out = [
+            i
+            for i, _ in enumerate(self.starts)
+        ]
+
+    def out_lines(self):
+        first = True
+        for out in self.out:
+            if not first:
+                yield ''
+            first = False
+            for part in out:
+                if isinstance(part, str):
+                    yield part
+                else:
+                    yield self.in_lines[part]
+
+    def section(self, section: int):
+        it = enumerate(self.in_lines)
+        for i, line in it:
+            if i < section: continue
+            yield i, line
+            break
+        for i, line in it:
+            if not line: break
+            yield i, line
+
+    def section_kind(self, section: int):
+        ac = True
+        l = ''
+        for _, line in self.section(section):
+            ac = ac and line.startswith('#')
+            l = line
+
+        if ac and re.match(r'(?x) # \s+ Rebase', self.in_lines[section]):                              
+            return 'errata', self.in_lines[section]
+
+        m = re.match(r'(?x) label [ ]+ ( .+ )', l)
+        if m:
+            return 'label', m[1]
+
+        m = re.match(r'(?x) update-ref [ ]+ ( .+ )', l)
+        if m:
+            return 'ref', m[1]
+
+        m = re.match(r'(?x) pick [ ]+ ( .+ )', l)
+        if m:
+            return 'tail', m[1]
+
+        return 'unknown', self.in_lines[section]
+
+    def find_branch(self, name: str):
+        wanted = name if '/' in name else f'refs/heads/{name}'
+        for nom, i in self.section_by['ref'].items():
+            if nom == wanted:
+                return i
+        if '/' not in name:
+            lbl = self.section_by['label']
+            if name in lbl:
+                return lbl[name]
+            may = tuple(nom for nom in lbl if nom.startswith(name))
+            if len(may) == 1:
+                return lbl[may[0]]
+            wip = f'WIP-merge-{name}'
+            if wip in lbl:
+                return lbl[wip]
+
+    def find_out(self, name: str):
+        i = self.find_branch(name)
+        if i is not None:
+            j = self.start_out[i]
+            if 0 <= j < len(self.out):
+                return j
+        wanted = f'# NOTE {name}'
+        for i, out in enumerate(self.out):
+            if out[0] == wanted:
+                return i
+        return self.make_out(name)
+
+    def make_out(self, name: str = '', prepend: bool=False):
+        new: list[int|str] = []
+        if name:
+            new.append(f'# NOTE {name}')
+
+        if prepend:
+            self.out.insert(0, new)
+            for i, _ in enumerate(self.start_out):
+                self.start_out[i] += 1
+            return 0
+
+        elif self.section_by['errata']:
+            i = max(self.section_by['errata'].values())
+            o = self.start_out[i]
+            self.out.insert(o, new)
+            for j, o2 in enumerate(self.start_out):
+                if o2 >= o:
+                    self.start_out[j] += 1
+            return o
+
+        else:
+            o = len(self.out)
+            self.out.append(new)
+            return o
+
+    def drop_out(self, i: int):
+        for j, k in enumerate(self.start_out):
+            if k == i:
+                self.start_out[j] = -1
+        out = self.out.pop(i)
+        return out
+
+    def append_pick(self, o: int, line_i: int):
+        out = self.out[o]
+        j = len(out) - 1
+        while j > 0:
+            part = out[j]
+            if not isinstance(part, str):
+                part = self.in_lines[part]
+            if part.startswith('pick '):
+                break
+            j -= 1
+        j += 1
+        out.insert(j, line_i)
+
+    def collect_tail(self):
+        _ = self.find_out('DAILY')
+        _ = self.find_out('rc')
+        dev_o = self.make_out('dev')
+        daily_o = self.find_out('DAILY')
+        rc_o = self.find_out('rc')
+
+        def changed_paths(commit: str):
+            with subprocess.Popen(
+                ('git', 'show', '--oneline', '--name-only', commit),
+                stdout=subprocess.PIPE, text=True) as proc:
+                assert proc.stdout is not None
+                for line in proc.stdout:
+                    break
+                for line in proc.stdout:
+                    yield line.rstrip('\n')
+
+        def categorize(commit: str, oneline: str, default: int|None):
+            m = re.match(r'''(?x)
+                  ( DAILY \s+ .+ )
+                | ( .+ \s+ day \s+ .+ )
+                | ( .+ \s+ bad \s+ .+ )
+            ''', oneline)
+            if not m: return default
+
+            if m[1]:
+                return daily_o
+
+            elif m[2] and all(
+                path.startswith(StoredLog.store_dir)
+                for path in changed_paths(commit)):
+                return rc_o
+
+            elif m[3] and all(
+                path.endswith('_exclude.txt')
+                for path in changed_paths(commit)):
+                return rc_o
+
+            return default
+
+        had_daily = len(self.out[daily_o])
+        had_rc = len(self.out[rc_o])
+        had_dev = len(self.out[dev_o])
+
+        first = True
+        for tail_i in self.section_by['tail'].values():
+            tail_o = self.start_out[tail_i]
+            tail_out = self.out[tail_o]
+            section = self.starts[tail_i]
+            for line_i, line in self.section(section):
+                cat = None if first else dev_o
+                m = re.match(r'''(?x)
+                    pick
+                    \s+ (?P<commit> [^ ]+ )
+                    \s+ [#]
+                    \s+ (?P<oneline> .+ )
+                ''', line)
+                if m:
+                    commit = m[1]
+                    oneline = m[2]
+                    cat = categorize(commit, oneline, cat)
+                if cat is None:
+                    continue
+                first = False
+                self.append_pick(cat, line_i)
+                while line_i in tail_out:
+                    tail_out.remove(line_i)
+
+        got_daily = len(self.out[daily_o]) - had_daily
+        if got_daily:
+            yield f'# NOTE collected {got_daily} DAILY commits'
+
+        got_rc = len(self.out[rc_o]) - had_rc
+        if got_rc:
+            yield f'# NOTE collected {got_rc} RC commits'
+
+        got_dev = len(self.out[dev_o]) - had_dev
+        if got_dev:
+            yield f'# NOTE demarcated {got_dev} DEV commits'
+
+    def compact_daily(self):
+        daily_o = self.find_out('DAILY')
+        daily_out = self.out[daily_o]
+
+        keep_last = 30
+        today = datetime.datetime.today().date()
+
+        cur_d: datetime.date|None = None
+        days: list[tuple[int, datetime.date, str, str]] = []
+        fxd: Counter[datetime.date] = Counter()
+        for i, part in enumerate(daily_out):
+            if not isinstance(part, str):
+                part = self.in_lines[part]
+
+            m = re.match(r'''(?x)
+                # pick <commit> # <oneline>
+                p(?: ick )?
+                \s+ (?P<commit> [^\s]+ )
+                \s+ [#] \s+
+                (?P<oneline> .+ )
+            ''', part)
+            if m:
+                commit = m[1]
+                oneline = m[2]
+                m = re.match(r'''(?x)
+                    # DAILY YYYY-MM-DD
+                    DAILY \s+ (?P<date> (?P<yyyy> \d{4}) - (?P<mm> \d{2}) - (?P<dd> \d{2}) )
+                ''', oneline)
+                if m:
+                    cur_d = datetime.date(int(m[2]), int(m[3]), int(m[4]))
+                    days.append((i, cur_d, commit, oneline))
+
+                elif cur_d is not None and cur_d != today:
+                    daily_out[i] = f'fixup {commit} # {oneline}'
+                    fxd[cur_d] += 1
+                continue
+
+        pr = 0
+        if len(days) > keep_last:
+            prior_old_i = days[0][0]
+            for i, date, commit, oneline in days[:-keep_last]:
+                if fxd[date]: break
+                d = i - prior_old_i
+                if d > 1: break
+                if d == 1:
+                    daily_out[i] = f'fixup -C {commit} # {oneline}'
+                    pr += 1
+                prior_old_i = i
+
+        fx = sum(fxd.values())
+        yield f'# NOTE found {len(days)} DAILY reports pruned:{pr} squashed:{fx}'
+
+    def __call__(self) -> Generator[str]:
+        head_i = self.make_out(prepend=True)
+        head_out = self.out[head_i]
+        head_out.extend(self.collect_tail())
+        head_out.extend(self.compact_daily())
+        if not head_out:
+            head_out.append('# NOTE review noop')
+        yield from self.out_lines()
+
+    @staticmethod
+    def main(*args: str):
+        import fileinput
+        rev = Review(fileinput.input(args))
+        for line in rev():
+            print(line)
+
+@final
+class EditFile:
+    def __init__(self, mode: str, name: str):
+        self.mode = mode
+        self.name = name
+        self.r = None
+        self.w = None
+
+    def __enter__(self):
+        try:
+            self.r = open(self.name, 'r')
+        except FileNotFoundError:
+            self.r = open('/dev/null', 'r')
+        self.w = open(f'{self.name}.new', 'x') # TODO random temp suffix
+        return self.r, self.w
+
+    def __exit__(
+        self,
+        exc_type: type[BaseException] | None,
+        exc: BaseException | None,
+        exc_tb: TracebackType | None,
+    ):
+        try:
+            if exc is None:
+                self.save()
+        finally:
+            self.close()
+
+    def save(self):
+        w = self.w
+        if w is not None:
+            try:
+                os.rename(w.name, self.name)
+            except: pass
+
+    def close(self):
+        r = self.r
+        if r is not None:
+            r.close()
+            self.r = None
+        w = self.w
+        if w is not None:
+            try:
+                os.unlink(w.name)
+            except: pass
+            w.close()
+            self.w = None
+
+@final
+class EditBack:
+    def __init__(self, proc: subprocess.Popen[str]):
+        assert proc.stdin is not None
+        assert proc.stdout is not None
+        self.proc = proc
+        self.stdin = proc.stdin
+        self.stdout = proc.stdout
+        self.files: list[EditFile] = []
+
+    def send(self, mess: str):
+        print(f'{mess.rstrip("\n")}\n', file=self.stdin, flush=True)
+
+    def done(self, name: str):
+        self.send(f'done edit file: {name}')
+
+    def abort(self, code: int|None=None):
+        self.send('abort' if code is None else f'abort {code}')
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        for line in self.stdout:
+            line = line.rstrip('\n')
+
+            m = re.match(r'''(?x)
+                edit
+                (?:
+                    - (?P<mode> [^\s]+ )
+                )?
+                \s+
+                file
+                : \s+
+                (?P<filename> .+ )
+            ''', line)
+            if m:
+                mode = m[1] or ''
+                name = m[2]
+                f = EditFile(mode, name)
+                self.files.append(f)
+                return f
+
+        raise StopIteration()
+
+    def __enter__(self):
+        return self
+
+    def __exit__(
+        self,
+        exc_type: type[BaseException] | None,
+        exc: BaseException | None,
+        exc_tb: TracebackType | None,
+    ):
+        ok = exc is None
+        try:
+            for f in self.files:
+                f.close()
+        except:
+            ok = False
+        finally:
+            if ok:
+                self.stdin.close()
+            else:
+                self.proc.terminate()
+
+    @staticmethod
+    def command(mode: str=''):
+        ed = f'edit-back-{mode}' if mode else 'edit-back'
+        return shlex.join((sys.executable, sys.argv[0], ed))
+
+    @staticmethod
+    def main(mode: str, *args: str):
+        ed = f'edit-{mode}' if mode else 'edit'
+        pending: set[str] = set()
+        for arg in args:
+            print(f'{ed} file: {arg}', flush=True)
+            pending.add(arg)
+
+        for line in sys.stdin:
+            line = line.rstrip('\n')
+
+            m = re.match(r'''(?x)
+                done \s+ edit \s+ file
+                : \s+
+                (?P<filename> .+ )
+            ''', line)
+            if m:
+                pending.remove(m[1])
+                if not pending:
+                    break
+                continue
+
+            m = re.match(r'''(?x)
+                abort (?: \s+ ( \d+ ) )?
+            ''', line)
+            if m:
+                code = int(m[1] or '1')
+                sys.exit(code)
+
+            if line:
+                print(f'edit-back got unknown response {line!r}', file=sys.stderr, flush=True)
+
 if __name__ == '__main__':
-    Meta.main()
+    args = sys.argv[1:]
+    first = args[0] if args else ''
+    edit_m = re.match(r'(?x) edit-back (?: - (?P<mode> [^\s]+ ) )?', first)
+    if edit_m:
+        EditBack.main(edit_m[1] or '', *args[1:])
+    elif first == 'review':
+        Review.main(*args[1:])
+    else:
+        Meta.main()
