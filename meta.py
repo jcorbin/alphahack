@@ -958,5 +958,150 @@ class Meta(Arguable):
                 *marked_tokenize(note)
             )))
 
+@final
+class EditFile:
+    def __init__(self, name: str):
+        self.name = name
+        self.r = None
+        self.w = None
+
+    def __enter__(self):
+        try:
+            self.r = open(self.name, 'r')
+        except FileNotFoundError:
+            self.r = open('/dev/null', 'r')
+        self.w = open(f'{self.name}.new', 'x') # TODO random temp suffix
+        return self.r, self.w
+
+    def __exit__(
+        self,
+        exc_type: type[BaseException] | None,
+        exc: BaseException | None,
+        exc_tb: TracebackType | None,
+    ):
+        try:
+            if exc is None:
+                self.save()
+        finally:
+            self.close()
+
+    def save(self):
+        w = self.w
+        if w is not None:
+            try:
+                os.rename(w.name, self.name)
+            except: pass
+
+    def close(self):
+        r = self.r
+        if r is not None:
+            r.close()
+            self.r = None
+        w = self.w
+        if w is not None:
+            try:
+                os.unlink(w.name)
+            except: pass
+            w.close()
+            self.w = None
+
+@final
+class EditBack:
+    def __init__(self, proc: subprocess.Popen[str]):
+        assert proc.stdin is not None
+        assert proc.stdout is not None
+        self.proc = proc
+        self.stdin = proc.stdin
+        self.stdout = proc.stdout
+        self.files: list[EditFile] = []
+
+    def send(self, mess: str):
+        print(f'{mess.rstrip("\n")}\n', file=self.stdin, flush=True)
+
+    def done(self, name: str):
+        self.send(f'done edit file: {name}')
+
+    def abort(self, code: int|None=None):
+        self.send('abort' if code is None else f'abort {code}')
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        for line in self.stdout:
+            line = line.rstrip('\n')
+
+            m = re.match(r'''(?x)
+                edit \s+ file
+                : \s+
+                (?P<filename> .+ )
+            ''', line)
+            if m:
+                name = m[1]
+                f = EditFile(name)
+                self.files.append(f)
+                return f
+
+        raise StopIteration()
+
+    def __enter__(self):
+        return self
+
+    def __exit__(
+        self,
+        exc_type: type[BaseException] | None,
+        exc: BaseException | None,
+        exc_tb: TracebackType | None,
+    ):
+        ok = exc is None
+        try:
+            for f in self.files:
+                f.close()
+        except:
+            ok = False
+        finally:
+            if ok:
+                self.stdin.close()
+            else:
+                self.proc.terminate()
+
+    command = shlex.join((sys.executable, sys.argv[0], 'edit-back'))
+
+    @staticmethod
+    def main(*args: str):
+        pending: set[str] = set()
+        for arg in args:
+            print(f'edit file: {arg}', flush=True)
+            pending.add(arg)
+
+        for line in sys.stdin:
+            line = line.rstrip('\n')
+
+            m = re.match(r'''(?x)
+                done \s+ edit \s+ file
+                : \s+
+                (?P<filename> .+ )
+            ''', line)
+            if m:
+                pending.remove(m[1])
+                if not pending:
+                    break
+                continue
+
+            m = re.match(r'''(?x)
+                abort (?: \s+ ( \d+ ) )?
+            ''', line)
+            if m:
+                code = int(m[1] or '1')
+                sys.exit(code)
+
+            if line:
+                print(f'edit-back got unknown response {line!r}', file=sys.stderr, flush=True)
+
 if __name__ == '__main__':
-    Meta.main()
+    args = sys.argv[1:]
+    first = args[0] if args else ''
+    if first == 'edit-back':
+        EditBack.main(*args[1:])
+    else:
+        Meta.main()
