@@ -1,0 +1,55 @@
+T41.81719776801765 now: 2025-10-02T15:00:39UTC
+TD78 site: alfagok.diginaut.net
+TDD161263 loaded 399706 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1146 words excluded) asof ebcb637d2a088b591a8b836569df1d45d11d963d
+TDD3516288  ...
+TDD-676511 [0 : 199834 : 399706] lijm? a
+TDD-3000892 progress: 1 199834 lijm
+TDD3483942 [199835 : 299752 : 399706] schub? b
+TDD-3484070 progress: -1 299752 schub
+TDD1711600 [199835 : 247745 : 299752] op? a
+TDD-1711602 progress: 1 247745 op
+TDD1748661 [247746 : 273551 : 299752] proef? b
+TDD-1748665 progress: -1 273551 proef
+TDD1610098 [247746 : 260632 : 273551] pater? a
+TDD-1610092 progress: 1 260632 pater
+TDD1507314 [260633 : 267085 : 273551] plomp? a
+TDD-1507346 progress: 1 267085 plomp
+TDD1546512 [267086 : 270158 : 273551] pot? a
+TDD-1546491 progress: 1 270158 pot
+TDD1738256 [270159 : 271819 : 273551] prijs? a
+TDD-1738237 progress: 1 271819 prijs
+TDD1541070 [271820 : 272629 : 273551] privé? a
+TDD-1541073 progress: 1 272629 privé
+TDD1570356 [272630 : 272775 : 273551] pro? a
+TDD-1570376 progress: 1 272775 pro
+TDD2467129 [272776 : 273150 : 273551] product? b
+TDD-2467115 progress: -1 273150 product
+TDD1665939 [272776 : 272954 : 273150] proces? a
+TDD-1665943 progress: 1 272954 proces
+TDD1506380 [272955 : 273045 : 273150] processor? a
+TDD-1506388 progress: 1 273045 processor
+TDD1673832 [273046 : 273098 : 273150] proconsuls? a
+TDD-1673826 progress: 1 273098 proconsuls
+TDD1515658 [273099 : 273123 : 273150] produce? a
+TDD-1515659 progress: 1 273123 produce
+TDD1419523 [273124 : 273131 : 273150] producenten? a
+TDD-1419531 progress: 1 273131 producenten
+TDD1499338 [273132 : 273142 : 273150] producer? a
+TDD-1499319 progress: 1 273142 producer
+TDD1877567 [273143 : 273146 : 273150] producers? b
+TDD-1877580 progress: -1 273146 producers
+TDD2135311 [273143 : 273144 : 273146] producerend? b
+TDD-2135317 progress: -1 273144 producerend
+TDD-61 [273143 : 273143 : 273144] <Done>.
+TDD5060418 📋> 🧩 Puzzel #334
+TDD-5060359 📋> 🤔 20 gokken
+TDD-54 📋> ⏱️ 35s
+TDD233843 📋> 🔗 alfagok.diginaut.net
+TDD272554 📋> ␚
+TDD-506338 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #334\n\ud83e\udd14 20 gokken\n\u23f1\ufe0f 35s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD253 result: "\ud83e\udde9 Puzzel #334\n\ud83e\udd14 20 gokken\n\u23f1\ufe0f 35s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-317 result puzzle: 334
+TDD-9 result guesses: 20
+TDD-2 result time: 35s
+TDD0 result link: alfagok.diginaut.net
+TDD524974 📆 2025-10-02 ? 
