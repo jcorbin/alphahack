@@ -7,6 +7,7 @@ import re
 import shlex
 import sys
 import subprocess
+from collections import defaultdict
 from itertools import chain
 from collections.abc import Generator, Iterable
 from datetime import date
@@ -959,6 +960,222 @@ class Meta(Arguable):
             )))
 
 @final
+class Review:
+    def __init__(self, lines: Iterable[str]):
+        def starts(lines: Iterable[str]):
+            st = 0
+            for i, line in enumerate(lines):
+                if line:
+                    if not st:
+                        yield i
+                    st = 1
+                else:
+                    st = 0
+
+        self.in_lines = tuple(line.rstrip('\n') for line in lines)
+        self.starts = tuple(starts(self.in_lines))
+
+        self.section_by: defaultdict[str, dict[str, int]] = defaultdict(lambda: dict())
+        for i, section in enumerate(self.starts):
+            kind, name = self.section_kind(section)
+            self.section_by[kind][name] = i
+
+        self.out: list[list[int|str]] = [
+            [i for i, _ in self.section(section)]
+            for section in self.starts
+        ]
+        self.start_out = [
+            i
+            for i, _ in enumerate(self.starts)
+        ]
+
+    def out_lines(self):
+        first = True
+        for out in self.out:
+            if not first:
+                yield ''
+            first = False
+            for part in out:
+                if isinstance(part, str):
+                    yield part
+                else:
+                    yield self.in_lines[part]
+
+    def section(self, section: int):
+        it = enumerate(self.in_lines)
+        for i, line in it:
+            if i < section: continue
+            yield i, line
+            break
+        for i, line in it:
+            if not line: break
+            yield i, line
+
+    def section_kind(self, section: int):
+        ac = True
+        l = ''
+        for _, line in self.section(section):
+            ac = ac and line.startswith('#')
+            l = line
+
+        if ac and re.match(r'(?x) # \s+ Rebase', self.in_lines[section]):                              
+            return 'errata', self.in_lines[section]
+
+        m = re.match(r'(?x) label [ ]+ ( .+ )', l)
+        if m:
+            return 'label', m[1]
+
+        m = re.match(r'(?x) update-ref [ ]+ ( .+ )', l)
+        if m:
+            return 'ref', m[1]
+
+        m = re.match(r'(?x) pick [ ]+ ( .+ )', l)
+        if m:
+            return 'tail', m[1]
+
+        return 'unknown', self.in_lines[section]
+
+    def find_branch(self, name: str):
+        wanted = name if '/' in name else f'refs/heads/{name}'
+        for nom, i in self.section_by['ref'].items():
+            if nom == wanted:
+                return i
+        if '/' not in name:
+            lbl = self.section_by['label']
+            if name in lbl:
+                return lbl[name]
+            may = tuple(nom for nom in lbl if nom.startswith(name))
+            if len(may) == 1:
+                return lbl[may[0]]
+            wip = f'WIP-merge-{name}'
+            if wip in lbl:
+                return lbl[wip]
+
+    def find_out(self, name: str):
+        i = self.find_branch(name)
+        if i is not None:
+            j = self.start_out[i]
+            if 0 <= j < len(self.out):
+                return j
+        wanted = f'# NOTE {name}'
+        for i, out in enumerate(self.out):
+            if out[0] == wanted:
+                return i
+        return self.make_out(name)
+
+    def make_out(self, name: str = '', prepend: bool=False):
+        new: list[int|str] = []
+        if name:
+            new.append(f'# NOTE {name}')
+
+        if prepend:
+            self.out.insert(0, new)
+            for i, _ in enumerate(self.start_out):
+                self.start_out[i] += 1
+            return 0
+
+        elif self.section_by['errata']:
+            i = max(self.section_by['errata'].values())
+            o = self.start_out[i]
+            self.out.insert(o, new)
+            for j, o2 in enumerate(self.start_out):
+                if o2 >= o:
+                    self.start_out[j] += 1
+            return o
+
+        else:
+            o = len(self.out)
+            self.out.append(new)
+            return o
+
+    def drop_out(self, i: int):
+        for j, k in enumerate(self.start_out):
+            if k == i:
+                self.start_out[j] = -1
+        out = self.out.pop(i)
+        return out
+
+    def append_pick(self, o: int, line_i: int):
+        out = self.out[o]
+        j = len(out) - 1
+        while j > 0:
+            part = out[j]
+            if not isinstance(part, str):
+                part = self.in_lines[part]
+            if part.startswith('pick '):
+                break
+            j -= 1
+        j += 1
+        out.insert(j, line_i)
+
+    def process_tail(self):
+        _ = self.find_out('DAILY')
+        _ = self.find_out('rc')
+        dev_o = self.make_out('dev')
+        daily_o = self.find_out('DAILY')
+        rc_o = self.find_out('rc')
+
+        had_daily = len(self.out[daily_o])
+        had_rc = len(self.out[rc_o])
+        had_dev = len(self.out[dev_o])
+
+        first = True
+        for tail_i in self.section_by['tail'].values():
+            tail_o = self.start_out[tail_i]
+            tail_out = self.out[tail_o]
+
+            section = self.starts[tail_i]
+            for i, line in self.section(section):
+                m = re.match(r'''(?x)
+                    pick \s+ [^ ]+ \s+
+                    [#] \s+ (?:
+                        ( DAILY \s+ .+ )
+                      | ( .+ \s+ day \s+ .+ )
+                    )
+                ''', line)
+
+                if m and m[1]:
+                    first = False
+                    self.append_pick(daily_o, i)
+                elif m and m[2]:
+                    first = False
+                    self.append_pick(rc_o, i)
+                elif not first:
+                    self.append_pick(dev_o, i)
+                else:
+                    continue
+
+                while i in tail_out:
+                    tail_out.remove(i)
+
+        got_daily = len(self.out[daily_o]) - had_daily
+        if got_daily:
+            yield f'# NOTE collected {got_daily} DAILY commits'
+
+        got_rc = len(self.out[rc_o]) - had_rc
+        if got_rc:
+            yield f'# NOTE collected {got_rc} RC commits'
+
+        got_dev = len(self.out[dev_o]) - had_dev
+        if got_dev:
+            yield f'# NOTE demarcated {got_dev} DEV commits'
+
+    def __call__(self) -> Generator[str]:
+        head_i = self.make_out(prepend=True)
+        head_out = self.out[head_i]
+        head_out.extend(self.process_tail())
+        if not head_out:
+            head_out.append('# NOTE review noop')
+        yield from self.out_lines()
+
+    @staticmethod
+    def main(*args: str):
+        import fileinput
+        rev = Review(fileinput.input(args))
+        for line in rev():
+            print(line)
+
+@final
 class EditFile:
     def __init__(self, name: str):
         self.name = name
@@ -1103,5 +1320,7 @@ if __name__ == '__main__':
     first = args[0] if args else ''
     if first == 'edit-back':
         EditBack.main(*args[1:])
+    elif first == 'review':
+        Review.main(*args[1:])
     else:
         Meta.main()
