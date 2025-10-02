@@ -14,6 +14,7 @@ from datetime import date
 from dotenv import load_dotenv
 from emoji import emoji_count, is_emoji
 from functools import partial
+from os.path import basename
 from typing import Callable, Protocol, cast, final, override
 from types import TracebackType
 
@@ -496,6 +497,7 @@ class Meta(Arguable):
             'day': self.do_day,
             'env': self.do_env,
             'log': self.do_log,
+            'review': self.do_review,
             'run': self.do_run,
             'share': self.do_share,
             'solvers': self.do_solvers,
@@ -877,6 +879,43 @@ class Meta(Arguable):
         except (StopIteration, EOFError):
             return self.prompt
 
+    def do_review(self, ui: PromptUI):
+        try:
+
+            editor = os.environ.get('EDITOR', 'vi')
+
+            env = os.environ.copy()
+            env['GIT_SEQUENCE_EDITOR'] = EditBack.command
+
+            # TODO we only need to intercept this because of using git-rebase's
+            #      stdin/out as out control channel; is it better to connect
+            #      edit-back via side channel instead?
+            env['GIT_EDITOR'] = EditBack.command
+            env['EDITOR'] = EditBack.command
+
+            with (
+                ui.check_proc(subprocess.Popen(
+                    ('git', 'rebase', '--rebase-merges', '-i', 'main'),
+                    env=env,
+                    text=True,
+                    stdin=subprocess.PIPE,
+                    stdout=subprocess.PIPE,
+                )) as proc,
+                EditBack(proc) as ed,
+            ):
+                for f in ed:
+                    if basename(f.name) == 'git-rebase-todo':
+                        with f as (r, w):
+                            rev = Review(r)
+                            for line in rev():
+                                print(line, file=w)
+                    with ui.check_proc(subprocess.Popen((editor, f.name))):
+                        pass
+                    ed.done(f.name)
+
+        except subprocess.CalledProcessError as err:
+            ui.print(f'! {err}')
+
     def do_run(self, ui: PromptUI):
         '''
         run a solver, by name or inferred "next"
@@ -1108,7 +1147,7 @@ class Review:
         j += 1
         out.insert(j, line_i)
 
-    def process_tail(self):
+    def collect_tail(self):
         _ = self.find_out('DAILY')
         _ = self.find_out('rc')
         dev_o = self.make_out('dev')
@@ -1163,7 +1202,7 @@ class Review:
     def __call__(self) -> Generator[str]:
         head_i = self.make_out(prepend=True)
         head_out = self.out[head_i]
-        head_out.extend(self.process_tail())
+        head_out.extend(self.collect_tail())
         if not head_out:
             head_out.append('# NOTE review noop')
         yield from self.out_lines()
