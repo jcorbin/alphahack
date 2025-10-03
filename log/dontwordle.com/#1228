@@ -1,0 +1,79 @@
+T571.2306097466499 now: 2025-10-03T12:35:15UTC
+TD54 site: dontwordle.com
+TDD-19 wordlist: nwl2023.txt
+TDD4147047  ...
+TDD-1653525 1> * -bot 10
+TDD452661 ? 2
+TDD1455482 📋 "raise" ? nnMnn
+TDD-4401550 tried: RAISE n n m n n
+TDD3699745 2> undo
+TDD-3699783 undo
+TDD5304150 1> * -bot 10
+TDD202905 ? 5
+TDD-1111664 📋 "sorta" ? nYnMn
+TDD-4395347 tried: SORTA n Y n m n
+TDD874858 2> undo
+TDD-874938 undo
+TDD2834800 1> *
+TDD-1816769 ? 1
+TDD3596819 📋 "yappy" ? nnnnn
+TDD-4614796 tried: YAPPY n n n n n
+TDD624768 2> *
+TDD352582 ? 1
+TDD3417996 📋 "edged" ? nnnnn
+TDD-4395343 tried: EDGED n n n n n
+TDD532511 3> *
+TDD890050 ? 1
+TDD2959887 📋 "sunns" ? nnnnn
+TDD-4382453 tried: SUNNS n n n n n
+TDD507421 4> *
+TDD8010331 📋 "crwth" ? nnnMn
+TDD-8517749 tried: CRWTH n n n m n
+TDD620454 5> *
+TDD8219047 📋 "botox" ? ␚
+TDD-8839568 <EOF>
+TDD3894549 5> * -sans
+TDD947603 ? 1
+TDD1844167 📋 "limit" ? nnMYM
+TDD-6686256 tried: LIMIT n n m Y m
+TDD2358028 6> undo
+TDD-2358048 undo
+TDD1449729 5> *
+TDD1256450 📋 "botox" ? ␚
+TDD-2706207 <EOF>
+TDD2321270 5> * -sans
+TDD7421112 ? 2
+TDD-4509285 📋 "zizit" ? nnnYM
+TDD-5233025 tried: ZIZIT n n n Y m
+TDD8111943 6> undo
+TDD-8111975 undo
+TDD3086677 5> undo
+TDD-3086692 undo
+TDD722450 4> *
+TDD411884 📋 "crwth" ? ␚
+TDD-1134368 <EOF>
+TDD1036037 4> * -sans
+TDD5565889 ? 1
+TDD102346 📋 "torot" ? MYnnn
+TDD-6704212 tried: TOROT m Y n n n
+TDD579820 5> *
+TDD6131167 ? 1
+TDD-1169996 📋 "hotch" ? nYYnn
+TDD-5540992 tried: HOTCH n Y Y n n
+TDD6719695 6> /fail MOTIF
+TDD-4969006 6> 
+TDD1353357 6> fail MOTIF
+TDD-3104056 fail: MOTIF
+TDD4586071 📋> Don't Wordle 1228 - ELIMINATED
+TDD-4586118 📋> Well technically I didn't Wordle!
+TDD-52 📋> ⬜⬜⬜⬜⬜5357
+TDD-4 📋> ⬜⬜⬜⬜⬜1667
+TDD-2 📋> ⬜⬜⬜⬜⬜266
+TDD0 📋> 🟨🟩⬜⬜⬜7
+TDD0 📋> ⬜🟩🟩⬜⬜1
+TDD0 📋> ⬛⬛⬛⬛⬛
+TDD481085 📋> Undos used: 5
+TDD48720 📋> ␚
+TDD-529744 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1228 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5357\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1667\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c266\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\u2b1c7\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c1\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"}
+TDD684 result: "Don't Wordle 1228 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5357\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1667\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c266\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\u2b1c7\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c1\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"
+TDD1707864 📆 2025-10-03 ? 
