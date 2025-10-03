@@ -7,7 +7,7 @@ import re
 import shlex
 import sys
 import subprocess
-from collections import defaultdict
+from collections import Counter, defaultdict
 from itertools import chain
 from collections.abc import Generator, Iterable
 from datetime import date
@@ -1199,10 +1199,63 @@ class Review:
         if got_dev:
             yield f'# NOTE demarcated {got_dev} DEV commits'
 
+    def compact_daily(self):
+        daily_o = self.find_out('DAILY')
+        daily_out = self.out[daily_o]
+
+        keep_last = 30
+        today = datetime.datetime.today().date()
+
+        cur_d: datetime.date|None = None
+        days: list[tuple[int, datetime.date, str, str]] = []
+        fxd: Counter[datetime.date] = Counter()
+        for i, part in enumerate(daily_out):
+            if not isinstance(part, str):
+                part = self.in_lines[part]
+
+            m = re.match(r'''(?x)
+                # pick <commit> # <oneline>
+                p(?: ick )?
+                \s+ (?P<commit> [^\s]+ )
+                \s+ [#] \s+
+                (?P<oneline> .+ )
+            ''', part)
+            if m:
+                commit = m[1]
+                oneline = m[2]
+                m = re.match(r'''(?x)
+                    # DAILY YYYY-MM-DD
+                    DAILY \s+ (?P<date> (?P<yyyy> \d{4}) - (?P<mm> \d{2}) - (?P<dd> \d{2}) )
+                ''', oneline)
+                if m:
+                    cur_d = datetime.date(int(m[2]), int(m[3]), int(m[4]))
+                    days.append((i, cur_d, commit, oneline))
+
+                elif cur_d is not None and cur_d != today:
+                    daily_out[i] = f'fixup {commit} # {oneline}'
+                    fxd[cur_d] += 1
+                continue
+
+        pr = 0
+        if len(days) > keep_last:
+            prior_old_i = days[0][0]
+            for i, date, commit, oneline in days[:-keep_last]:
+                if fxd[date]: break
+                d = i - prior_old_i
+                if d > 1: break
+                if d == 1:
+                    daily_out[i] = f'fixup -C {commit} # {oneline}'
+                    pr += 1
+                prior_old_i = i
+
+        fx = sum(fxd.values())
+        yield f'# NOTE found {len(days)} DAILY reports pruned:{pr} squashed:{fx}'
+
     def __call__(self) -> Generator[str]:
         head_i = self.make_out(prepend=True)
         head_out = self.out[head_i]
         head_out.extend(self.collect_tail())
+        head_out.extend(self.compact_daily())
         if not head_out:
             head_out.append('# NOTE review noop')
         yield from self.out_lines()
