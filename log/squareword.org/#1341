@@ -1,0 +1,115 @@
+T129.68004427105188 now: 2025-10-03T12:27:53UTC
+TD54 site: squareword.org
+TDD-18 wordlist: nwl2023.txt
+TDD6465773  ...
+TDD-5158138 🧩  ? #1341
+TDD-1307530 puzzle_id: #1341
+TDD3498025 > *
+TDD-2136899 try? 1
+TDD-1361093 questioning: ["renos", "#5"]
+TDD7599637 #1 _____  📋 "renos" ? !
+TDD-7599687 reject: renos
+TDD-101 question done
+TDD1050582 > *
+TDD10202041 try? ␚
+TDD-11252566 <EOF>
+TDD1101371 > /?
+TDD121456 > ?
+TDD1711210 > /bad renos
+TDD-1322917 > *
+TDD1584627 try? 1
+TDD-3195656 questioning: ["baser", "#5"]
+TDD6819853 #1 _____  📋 "baser" ? _____ ~ AS
+TDD-6819615 attempt 0 BASER n m m n n
+TDD1833487 #2 _____  📋 "baser" ? _A___ ~ R
+TDD-1833710 attempt 1 BASER n Y n n m
+TDD3755656 #3 _____  📋 "baser" ? ___ER ~ E
+TDD-3755671 attempt 2 BASER n n n Y Y
+TDD2099539 #4 _____  📋 "baser" ? _____ ~ AE
+TDD-2099557 attempt 3 BASER n m n m n
+TDD2458377 #5 _____  📋 "baser" ? _____ ~ ASR
+TDD-2458376 attempt 4 BASER n m m n m
+TDD710838 ? *
+TDD1450068 #6 <IndexError>  📋 "baser" ? ␚
+TDD-2161003 question done
+TDD917304 > *
+TDD3811271 try? 2
+TDD-4728466 questioning: ["fairy", "#2"]
+TDD6190797 #1 _____ ~AS -BER  📋 "fairy" ? .
+TDD-6190787 attempt 0 FAIRY n m n n n
+TDD2804885 #2 _A___ ~R -BES  📋 "fairy" ? _A_R_ 
+TDD-2804894 attempt 1 FAIRY n Y n Y n
+TDD4428701 #3 ___ER -ABS  📋 "fairy" ? ___ER ~ E
+TDD-4428692 attempt 2 FAIRY n n n n n
+TDD1310477 #4 _____ ~AE -BRS  📋 "fairy" ? .
+TDD-1310493 attempt 3 FAIRY n m n n n
+TDD865310 #5 _____ ~ARS -BE  📋 "fairy" ? .
+TDD-865302 attempt 4 FAIRY n m n m n
+TDD559131 ? 
+TDD-559191 question done
+TDD642600 > *
+TDD2908268 try? 2
+TDD-3550798 questioning: ["macro", "#2"]
+TDD5498192 #1 _____ ~AS -BEFIRY  📋 "macro" ? _____ ~ ASO
+TDD-5498209 attempt 0 MACRO n m n n m
+TDD1412277 #2 _A_R_ -BEFISY  📋 "macro" ? /it
+TDD-1412273 attempt 1 MACRO Y Y Y Y Y
+TDD4001140 #3 ___ER -ABFIRSY  📋 "macro" ? ___ER ~ E
+TDD-4001137 attempt 2 MACRO n n n n n
+TDD1295891 #4 _____ ~AE -BFIRSY  📋 "macro" ? .
+TDD-1295883 attempt 3 MACRO n m n n n
+TDD3386287 #5 _____ ~ARS -BEFIY  📋 "macro" ? _____ ~ ASRO
+TDD-3386291 attempt 4 MACRO n m n m m
+TDD636650 ? 
+TDD-636727 question done
+TDD1026363 > *
+TDD4872988 try? 4
+TDD-5899261 questioning: ["enter", "#3"]
+TDD8193648 #1 _____ ~AOS -BCEFIMRY  📋 "enter" ? _____ ~ ASOT
+TDD-8193656 attempt 0 ENTER n n m n n
+TDD2108785 #3 ___ER -ABCFIMORSY  📋 "enter" ? /it
+TDD-2108774 attempt 2 ENTER Y Y Y Y Y
+TDD3030808 #4 _____ ~AE -BCFIMORSY  📋 "enter" ? _____ ~ AENT
+TDD-3030852 attempt 3 ENTER m m m m n
+TDD3944987 #5 _____ ~AORS -BCEFIMY  📋 "enter" ? __T__ ~ ASRO
+TDD-3944816 attempt 4 ENTER n n Y n m
+TDD483392 ? 
+TDD-483616 question done
+TDD623654 > *
+TDD441043 questioning: ["agent", "#4"]
+TDD10987470 #1 _____ ~AOST -BCEFIMNRY  📋 "agent" ? ____T ~ ASOT
+TDD-12052099 attempt 0 AGENT m n n n Y
+TDD4777627 #4 _____ ~AENT -BCFIMORSY  📋 "agent" ? /it
+TDD-4777622 attempt 3 AGENT Y Y Y Y Y
+TDD18860574 #5 __T__ ~AORS -BCEFIMNY  📋 "agent" ? .
+TDD-18860571 attempt 4 AGENT m n n n n
+TDD516274 ? 
+TDD-516334 question done
+TDD706612 > *
+TDD719992 questioning: ["rotas", "#5"]
+TDD34339442 #1 ____T ~AOS -BCEFGIMNRY  📋 "rotas" ? ___AT ~ SOT
+TDD-35765987 attempt 0 ROTAS n m m Y m
+TDD889188 #5 __T__ ~AORS -BCEFGIMNTY  📋 "rotas" ? /it
+TDD-889212 attempt 4 ROTAS Y Y Y Y Y
+TDD516596 ? 
+TDD-516627 question done
+TDD722707 > *
+TDD183050 questioning: ["stoat", "#1"]
+TDD4039415 #1 ___AT ~OS -BCEFGIMNRY  📋 "stoat" ? /it
+TDD-4945129 attempt 0 STOAT Y Y Y Y Y
+TDD1169041 ? ␚
+TDD-1169151 question done
+TDD10122752 📋> squareword.org 1341: 7 guesses
+TDD-10122719 📋> 
+TDD-43 📋> 🟨🟨🟨🟨🟩
+TDD-16 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟩🟨🟨
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD291134 📋> #squareword #squareword1341
+TDD46141 📋> ␚
+TDD-337245 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1341: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1341"}
+TDD883 result: "squareword.org 1341: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1341"
+TDD516295 📆 2025-10-03 ? 
