@@ -1,0 +1,46 @@
+T82.77747832983732 now: 2025-10-03T12:27:06UTC
+TD55 site: alphaguess.com
+TDD62925 loaded 196548 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (55 words excluded) asof 7c57d7a6703f1e4dad32358c3cbc2cd17758dd81
+TDD472821  ...
+TDD4200222 [0 : 98232 : 196548] mach? 
+TDD-1783236 [0 : 98232 : 196548] mach? b
+TDD-2952706 progress: -1 98232 mach
+TDD2077621 [0 : 47393 : 98232] dis? b
+TDD-2077617 progress: -1 47393 dis
+TDD1932514 [0 : 23580 : 47393] cam? b
+TDD-1932510 progress: -1 23580 cam
+TDD1684726 [0 : 11770 : 23580] back? a
+TDD-1684734 progress: 1 11770 back
+TDD1703122 [11771 : 17672 : 23580] blepharoplast? a
+TDD-1703091 progress: 1 17672 blepharoplast
+TDD1568105 [17673 : 20617 : 23580] bridge? a
+TDD-1568136 progress: 1 20617 bridge
+TDD1457326 [20618 : 22095 : 23580] burg? a
+TDD-1457324 progress: 1 22095 burg
+TDD1487405 [22096 : 22732 : 23580] cab? a
+TDD-1487400 progress: 1 22732 cab
+TDD4948619 [22733 : 23150 : 23580] cal? !
+TDD-2714075 [22733 : 23156 : 23579] calaboose? a
+TDD-2234553 progress: 1 23156 calaboose
+TDD2596401 [23157 : 23363 : 23579] caliph? a
+TDD-2596377 progress: 1 23363 caliph
+TDD3507431 [23364 : 23461 : 23579] calm? b
+TDD-3507447 progress: -1 23461 calm
+TDD4821725 [23364 : 23383 : 23461] call? it
+TDD-4821716 progress: 0 23383 call
+TDD-68 [23364 : 23383 : 23461] <Done>.
+TDD4522101 📋> 🧩 Puzzle #801
+TDD-4522054 📋> 
+TDD-51 📋> 🤔 12 guesses
+TDD-4 📋> 
+TDD0 📋> ⏱️ 28s
+TDD-1 📋> 
+TDD338190 📋> 🔗 alphaguess.com
+TDD12790 📋> ␚
+TDD-350924 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #801\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 28s\n\n\ud83d\udd17 alphaguess.com"}
+TDD3 result: "\ud83e\udde9 Puzzle #801\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 28s\n\n\ud83d\udd17 alphaguess.com"
+TDD-61 result puzzle: 801
+TDD-5 result guesses: 12
+TDD0 result time: 28s
+TDD0 result link: alphaguess.com
+TDD1468645 📆 2025-10-03 ? 
