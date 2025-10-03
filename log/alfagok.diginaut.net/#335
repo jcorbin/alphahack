@@ -1,0 +1,51 @@
+T35.889164881780744 now: 2025-10-03T12:26:19UTC
+TD46 site: alfagok.diginaut.net
+TDD148952 loaded 399706 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1146 words excluded) asof 7c57d7a6703f1e4dad32358c3cbc2cd17758dd81
+TDD4604558  ...
+TDD-936083 [0 : 199834 : 399706] lijm? b
+TDD-3817261 progress: -1 199834 lijm
+TDD1901999 [0 : 99749 : 199834] ex? b
+TDD-1902075 progress: -1 99749 ex
+TDD1901998 [0 : 49847 : 99749] boks? b
+TDD-1902047 progress: -1 49847 boks
+TDD1870275 [0 : 24910 : 49847] bad? a
+TDD-1870274 progress: 1 24910 bad
+TDD1812213 [24911 : 37364 : 49847] bescherm? b
+TDD-1812232 progress: -1 37364 bescherm
+TDD1702663 [24911 : 31127 : 37364] begeleid? b
+TDD-1702665 progress: -1 31127 begeleid
+TDD2052010 [24911 : 27603 : 31127] basis? a
+TDD-2052018 progress: 1 27603 basis
+TDD1861336 [27604 : 28962 : 31127] bed? a
+TDD-1861329 progress: 1 28962 bed
+TDD2060831 [28963 : 29474 : 31127] bedrijf? b
+TDD-2060834 progress: -1 29474 bedrijf
+TDD2439307 [28963 : 29200 : 29474] bedevaart? a
+TDD-2439290 progress: 1 29200 bedevaart
+TDD1704706 [29201 : 29323 : 29474] bedil? a
+TDD-1704726 progress: 1 29323 bedil
+TDD1780904 [29324 : 29399 : 29474] bedonder? a
+TDD-1780923 progress: 1 29399 bedonder
+TDD1719112 [29400 : 29431 : 29474] bedrag? a
+TDD-1719066 progress: 1 29431 bedrag
+TDD2185155 [29432 : 29440 : 29474] bedreig? a
+TDD-2185170 progress: 1 29440 bedreig
+TDD1963730 [29441 : 29455 : 29474] bedreven? b
+TDD-1963720 progress: -1 29455 bedreven
+TDD1782625 [29441 : 29445 : 29455] bedreigend? a
+TDD-1782630 progress: 1 29445 bedreigend
+TDD2108890 [29446 : 29450 : 29455] bedreiging? it
+TDD-2108890 progress: 0 29450 bedreiging
+TDD-57 [29446 : 29450 : 29455] <Done>.
+TDD4345945 📋> 🧩 Puzzel #335
+TDD-4345894 📋> 🤔 17 gokken
+TDD-49 📋> ⏱️ 31s
+TDD323768 📋> 🔗 alfagok.diginaut.net
+TDD21818 📋> ␚
+TDD-345556 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #335\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD271 result: "\ud83e\udde9 Puzzel #335\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-306 result puzzle: 335
+TDD-8 result guesses: 17
+TDD-1 result time: 31s
+TDD0 result link: alfagok.diginaut.net
+TDD367583 📆 2025-10-03 ? 
