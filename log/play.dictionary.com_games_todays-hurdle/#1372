@@ -1,0 +1,124 @@
+T83807.24409296364 now: 2025-10-04T12:38:43UTC
+TD57 site: https://play.dictionary.com/games/todays-hurdle
+TDD-23 wordlist: nwl2023.txt
+TDD4506664  ...
+TDD31893684 1.1> *
+TDD-35141337 1.1 ? 1
+TDD3118812 1.1 📋 "stare" ? YYnnn
+TDD-4377629 tried: STARE Y Y n n n
+TDD599772 1.2> *
+TDD4277539 1.2 ? 4
+TDD223373 1.2 📋 "stomp" ? YYnnn
+TDD-5100760 tried: STOMP Y Y n n n
+TDD515191 1.3> *
+TDD1110595 1.3 ? 1
+TDD2264809 1.3 📋 "stick" ? YYnnn
+TDD-3890613 tried: STICK Y Y n n n
+TDD458564 1.4> *
+TDD3829517 1.4 ? 4
+TDD-160459 1.4 📋 "study" ? YYYnn
+TDD-4127588 tried: STUDY Y Y Y n n
+TDD491236 1.5> *
+TDD9586429 1.5 ? 1
+TDD-5567820 1.5 📋 "stunt" ? it
+TDD-4509887 tried: STUNT Y Y Y Y Y
+TDD6198323 2.1 📋 "stunt" ? Ynnnn
+TDD-6198311 tried: STUNT Y n n n n
+TDD562785 2.2> *
+TDD1819707 2.2 ? 3
+TDD1966546 2.2 📋 "shale" ? Ynnnn
+TDD-4349038 tried: SHALE Y n n n n
+TDD563470 2.3> *
+TDD2682870 2.3 ? 6
+TDD2531712 2.3 📋 "sword" ? YnMnn
+TDD-5778063 tried: SWORD Y n m n n
+TDD454922 2.4> *
+TDD6805442 2.4 ? 1
+TDD-2538220 2.4 📋 "socks" ? YYnnn
+TDD-4722132 tried: SOCKS Y Y n n n
+TDD485041 2.5> *
+TDD2515490 2.5 ? 1
+TDD438906 2.5 📋 "soggy" ? it
+TDD-3439462 tried: SOGGY Y Y Y Y Y
+TDD9322157 3.1 📋 "soggy" ? nnnnn
+TDD-9322146 tried: SOGGY n n n n n
+TDD566552 3.2> *
+TDD900780 3.2 ? 1
+TDD5346571 3.2 📋 "liter" ? Mnnnn
+TDD-6813893 tried: LITER m n n n n
+TDD605986 3.3> *
+TDD3040343 3.3 ? 8
+TDD2882718 3.3 📋 "qualm" ? nnYMM
+TDD-6529041 tried: QUALM n n Y m m
+TDD875689 3.4> *
+TDD3282750 3.4 📋 "clamp" ? it
+TDD-4158465 tried: CLAMP Y Y Y Y Y
+TDD7663096 4.1 📋 "clamp" ? nnnnn
+TDD-7663069 tried: CLAMP n n n n n
+TDD470392 4.2> *
+TDD4486819 4.2 ? 9
+TDD-435231 4.2 📋 "rinse" ? nYnnn
+TDD-4521993 tried: RINSE n Y n n n
+TDD446365 4.3> *
+TDD7735713 4.3 ? 9
+TDD-4290683 4.3 📋 "dight" ? nYnnM
+TDD-3891393 tried: DIGHT n Y n n m
+TDD627557 4.4> 8
+TDD782330 4.4> *
+TDD7418850 4.4 ? 1
+TDD-2189309 4.4 📋 "wifty" ? nYnMY
+TDD-6639430 tried: WIFTY n Y n m Y
+TDD430595 4.5> *
+TDD3944574 4.5 📋 "tizzy" ? it
+TDD-4375196 tried: TIZZY Y Y Y Y Y
+TDD6585496 5.1 📋 "stunt" ? nnnnn/
+TDD-6585452 tried: STUNT n n n n n
+TDD3212551 5.2 📋 "soggy" ? nnnnn
+TDD-3212576 tried: SOGGY n n n n n
+TDD2159243 5.3 📋 "clamp" ? nnMnn
+TDD-2159223 tried: CLAMP n n m n n
+TDD1918501 5.4 📋 "tizzy" ? nMnnn
+TDD-1918534 tried: TIZZY n m n n n
+TDD1900462 5.5> *
+TDD2248125 5.5 ? 4
+TDD30985 5.5 📋 "abide" ? MnMMn
+TDD-4179538 tried: ABIDE m n m m n
+TDD459997 5.6> *
+TDD3528910 5.6 ? 2
+TDD2116978 5.6 📋 "radix" ? YYYYn
+TDD-6105907 tried: RADIX Y Y Y Y n
+TDD2979128 5.7> fail radii
+TDD-2979130 fail: RADII
+TDD4300676 📋> Hurdle 1372
+TDD-4300730 📋> 
+TDD-51 📋> 5/6
+TDD-3 📋> 🟩🟩⬜⬜⬜
+TDD-2 📋> 🟩🟩⬜⬜⬜
+TDD-1 📋> 🟩🟩⬜⬜⬜
+TDD0 📋> 🟩🟩🟩⬜⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 5/6
+TDD1 📋> 🟩⬜⬜⬜⬜
+TDD0 📋> 🟩⬜⬜⬜⬜
+TDD0 📋> 🟩⬜🟨⬜⬜
+TDD0 📋> 🟩🟩⬜⬜⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> 🟨⬜⬜⬜⬜
+TDD0 📋> ⬜⬜🟩🟨🟨
+TDD11 📋> 🟩🟩🟩🟩🟩
+TDD-9 📋> 5/6
+TDD-1 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> ⬜🟩⬜⬜⬜
+TDD0 📋> ⬜🟩⬜⬜🟨
+TDD0 📋> ⬜🟩⬜🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD2 📋> Final X/2
+TDD12 📋> 🟨⬜🟨🟨⬜
+TDD-12 📋> 🟩🟩🟩🟩⬜
+TDD546210 📋> score: 4,580
+TDD-234645 📋> ␚
+TDD-311500 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1372\n\n5/6\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\nscore: 4,580"}
+TDD400 result: "Hurdle 1372\n\n5/6\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\nscore: 4,580"
+TDD739343 📆 2025-10-04 ? 
