@@ -439,7 +439,10 @@ class Report:
     filename: str = 'report.md'
 
     def read(self):
-        return open(self.filename)
+        try:
+            return open(self.filename)
+        except FileNotFoundError:
+            return open('/dev/null')
 
     def rewrite(self):
         return atomic_rewrite(self.filename)
