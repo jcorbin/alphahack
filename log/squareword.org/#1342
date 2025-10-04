@@ -1,0 +1,145 @@
+T83559.16743899137 now: 2025-10-04T12:34:35UTC
+TD66 site: squareword.org
+TDD-26 wordlist: nwl2023.txt
+TDD5529584  ...
+TDD-1918937 🧩  ? #1342
+TDD-3610517 puzzle_id: #1342
+TDD1298912 > *
+TDD278357 try? 1
+TDD-1577266 questioning: ["steal", "#5"]
+TDD5638020 #1 _____  📋 "steal" ? S____ ~ A
+TDD-5637796 attempt 0 STEAL Y n n m n
+TDD2732391 #2 _____  📋 "steal" ? _____ ~ L
+TDD-2732593 attempt 1 STEAL n n n n m
+TDD2726972 #3 _____  📋 "steal" ? _____ ~ A
+TDD-2726997 attempt 2 STEAL n n n m n
+TDD2565093 #4 _____  📋 "steal" ? _____ ~ TE
+TDD-2565083 attempt 3 STEAL n m m n n
+TDD2492561 #5 _____  📋 "steal" ? _____ ~ SE
+TDD-2492587 attempt 4 STEAL m n m n n
+TDD873583 ? 
+TDD-873658 question done
+TDD2784322 > *
+TDD4163387 try? 2
+TDD-6947596 questioning: ["shard", "#1"]
+TDD7388636 #1 S____ ~A -ELT  📋 "shard" ? SHAR_
+TDD-7388665 attempt 0 SHARD Y Y Y Y n
+TDD11334409 #2 _____ ~L -AEST  📋 "shard" ? .
+TDD-11334403 attempt 1 SHARD n n n n n
+TDD828520 #3 _____ ~A -ELST  📋 "shard" ? .
+TDD-828519 attempt 2 SHARD n n m n n
+TDD3712302 #4 _____ ~ET -ALS  📋 "shard" ? _____ ~ TER
+TDD-3712295 attempt 3 SHARD n n n m n
+TDD3455686 #5 _____ ~ES -ALT  📋 "shard" ? _____ ~ SER
+TDD-3455707 attempt 4 SHARD m n n m n
+TDD548382 ? 
+TDD-548416 question done
+TDD965550 > *
+TDD5074269 try? ␚
+TDD-6039881 <EOF>
+TDD3639725 > *4
+TDD-2090147 > * 4
+TDD653294 try? ␚
+TDD-2202898 <EOF>
+TDD883145 > * 5
+TDD173319 try? ␚
+TDD-1056430 <EOF>
+TDD1764141 > * 4
+TDD1296008 try? 3
+TDD-3060034 questioning: ["tower", "#4"]
+TDD12413434 #1 SHAR_ -DELT  📋 "tower" ? .
+TDD-12413428 attempt 0 TOWER n n n n n
+TDD6173869 #2 _____ ~L -ADEHRST  📋 "tower" ? _O___ ~ LO
+TDD-6173893 attempt 1 TOWER n Y n n n
+TDD2608124 #3 _____ ~A -DEHLRST  📋 "tower" ? _____ ~ AO
+TDD-2608116 attempt 2 TOWER n m n n n
+TDD1680637 #4 _____ ~ERT -ADHLS  📋 "tower" ? .
+TDD-1680652 attempt 3 TOWER m n n m m
+TDD2557141 #5 _____ ~ERS -ADHLT  📋 "tower" ? ___E_ ~SR
+TDD-2557143 attempt 4 TOWER n n n Y m
+TDD1984611 ? 
+TDD-1984665 question done
+TDD529586 > ␚
+TDD-529633 <EOF>
+TDD1160468 > *
+TDD4509191 try? ␚
+TDD-5669653 <EOF>
+TDD2553026 > * 2
+TDD6910332 try? 1
+TDD-9463252 questioning: ["logic", "#2"]
+TDD4518128 #1 SHAR_ -DELORTW  📋 "logic" ? .
+TDD-4518123 attempt 0 LOGIC n n n n n
+TDD5935289 #2 _O___ ~L -ADEHRSTW  📋 "logic" ? _O___ ~ LOC
+TDD-5935305 attempt 1 LOGIC m Y n n m
+TDD4670056 #3 _____ ~AO -DEHLRSTW  📋 "logic" ? _____ ~ AOGI
+TDD-4670046 attempt 2 LOGIC n m m m n
+TDD1250143 #4 _____ ~ERT -ADHLOSW  📋 "logic" ? .
+TDD-1250219 attempt 3 LOGIC n n n n n
+TDD4111794 #5 ___E_ ~RS -ADHLOTW  📋 "logic" ? ___E_ ~ SRI
+TDD-4111708 attempt 4 LOGIC n n n m n
+TDD423551 ? 
+TDD-423660 question done
+TDD3086023 > * 3
+TDD-2953918 questioning: ["amigo", "#3"]
+TDD9207057 #1 SHAR_ -CDEGILORTW  📋 "amigo" ? .
+TDD-9339075 attempt 0 AMIGO n n n n n
+TDD4131421 #2 _O___ ~CL -ADEGHIRSTW  📋 "amigo" ? _O___ ~ LOC
+TDD-4131421 attempt 1 AMIGO n n n n m
+TDD723941 #3 _____ ~AGIO -CDEHLRSTW  📋 "amigo" ? /it
+TDD-724001 attempt 2 AMIGO Y Y Y Y Y
+TDD1051929 #4 _____ ~ERT -ACDGHILOSW  📋 "amigo" ? .
+TDD-1051886 attempt 3 AMIGO n n n n n
+TDD2680659 #5 ___E_ ~IRS -ACDGHLOTW  📋 "amigo" ? __IE_ ~ SR
+TDD-2680689 attempt 4 AMIGO n n Y n n
+TDD411649 ? 
+TDD-411700 question done
+TDD7335042 > *
+TDD-5092439 questioning: ["colon", "#2"]
+TDD2434789 #1 SHAR_ -ACDEGILMORTW  📋 "colon" ? .
+TDD-4677280 attempt 0 COLON n n n n n
+TDD622921 #2 _O___ ~CL -ADEGHIMRSTW  📋 "colon" ? /it
+TDD-622972 attempt 1 COLON Y Y Y Y Y
+TDD2889411 #4 _____ ~ERT -ACDGHILMOSW  📋 "colon" ? .
+TDD-2889377 attempt 3 COLON n n n n n
+TDD4124662 #5 __IE_ ~RS -ACDGHLMOTW  📋 "colon" ? .
+TDD-4124660 attempt 4 COLON n n n n n
+TDD759114 ? ␚
+TDD-759213 question done
+TDD7447986 > *
+TDD-5591654 questioning: ["shark", "#1"]
+TDD4489434 #1 SHAR_ -ACDEGILMNORTW  📋 "shark" ? /it
+TDD-6345665 attempt 0 SHARK Y Y Y Y Y
+TDD2181258 #4 _____ ~ERT -ACDGHILMNOSW  📋 "shark" ? .
+TDD-2181272 attempt 3 SHARK n n n m n
+TDD989949 #5 __IE_ ~RS -ACDGHLMNOTW  📋 "shark" ? .
+TDD-990003 attempt 4 SHARK m n n m n
+TDD777084 ? 
+TDD-777118 question done
+TDD652681 > *
+TDD749951 questioning: ["rebut", "#4"]
+TDD2463111 #4 _____ ~ERT -ACDGHIKLMNOSW  📋 "rebut" ? /it
+TDD-3865617 attempt 3 REBUT Y Y Y Y Y
+TDD2137017 #5 __IE_ ~RS -ACDGHKLMNOTW  📋 "rebut" ? ␚
+TDD-2137154 question done
+TDD276937 > 
+TDD573783 > *
+TDD6579881 try? 1
+TDD-7430459 questioning: ["fries", "#5"]
+TDD4268274 #5 __IE_ ~RS -ACDGHKLMNOTW  📋 "fries" ? /it
+TDD-4268334 attempt 4 FRIES Y Y Y Y Y
+TDD1550509 ? 
+TDD-1550521 question done
+TDD3908707 📋> squareword.org 1342: 9 guesses
+TDD-3908733 📋> 
+TDD-68 📋> 🟩🟩🟩🟩🟨
+TDD-5 📋> 🟨🟩🟨🟨🟨
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟨🟨🟩🟩🟨
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD452938 📋> #squareword #squareword1342
+TDD-76055 📋> ␚
+TDD-376838 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1342: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1342"}
+TDD785 result: "squareword.org 1342: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1342"
+TDD655387 📆 2025-10-04 ? 
