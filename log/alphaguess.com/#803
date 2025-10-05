@@ -1,0 +1,46 @@
+T3.358241429552436 now: 2025-10-05T12:29:03UTC
+TD57 site: alphaguess.com
+TDD65368 loaded 196547 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (56 words excluded) asof 33b5df696b5d6b15da496b543b4b0fbfd5cb5c1f
+TDD2747609  ...
+TDD321220 [0 : 98231 : 196547] mach? a
+TDD-3134052 progress: 1 98231 mach
+TDD1644224 [98232 : 147336 : 196547] rho? b
+TDD-1644324 progress: -1 147336 rho
+TDD1566576 [98232 : 122116 : 147336] par? a
+TDD-1566596 progress: 1 122116 par
+TDD1453019 [122117 : 134647 : 147336] prog? a
+TDD-1453002 progress: 1 134647 prog
+TDD1687648 [134648 : 140533 : 147336] rec? b
+TDD-1687650 progress: -1 140533 rec
+TDD1490295 [134648 : 137530 : 140533] quad? a
+TDD-1490314 progress: 1 137530 quad
+TDD1485623 [137531 : 139028 : 140533] rake? b
+TDD-1485657 progress: -1 139028 rake
+TDD1500463 [137531 : 138263 : 139028] quip? a
+TDD-1500422 progress: 1 138263 quip
+TDD1633511 [138264 : 138634 : 139028] radical? b
+TDD-1633481 progress: -1 138634 radical
+TDD1849290 [138264 : 138445 : 138634] rabble? b
+TDD-1849316 progress: -1 138445 rabble
+TDD1771152 [138264 : 138343 : 138445] quiz? b
+TDD-1771155 progress: -1 138343 quiz
+TDD2180761 [138264 : 138302 : 138343] quit? b
+TDD-2180760 progress: -1 138302 quit
+TDD2217307 [138264 : 138283 : 138302] quirk? it
+TDD-2217304 progress: 0 138283 quirk
+TDD-66 [138264 : 138283 : 138302] <Done>.
+TDD2821521 📋> 🧩 Puzzle #803
+TDD-2821453 📋> 
+TDD-68 📋> 🤔 13 guesses
+TDD-3 📋> 
+TDD-1 📋> ⏱️ 20s
+TDD0 📋> 
+TDD225961 📋> 🔗 alphaguess.com
+TDD39869 📋> ␚
+TDD-265765 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #803\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"}
+TDD250 result: "\ud83e\udde9 Puzzle #803\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"
+TDD-312 result puzzle: 803
+TDD-8 result guesses: 13
+TDD-1 result time: 20s
+TDD0 result link: alphaguess.com
+TDD329556 📆 2025-10-05 ? 
