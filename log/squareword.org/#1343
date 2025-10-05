@@ -1,0 +1,148 @@
+T34.773669861257076 now: 2025-10-05T12:29:34UTC
+TD42 site: squareword.org
+TDD-10 wordlist: nwl2023.txt
+TDD4711453  ...
+TDD-3102776 🧩  ? #1343
+TDD-1608530 puzzle_id: #1343
+TDD3625573 > *
+TDD-2217373 try? 1
+TDD-1408168 questioning: ["snare", "#5"]
+TDD5442757 #1 _____  📋 "snare" ? S_A__ ~ S
+TDD-5442568 attempt 0 SNARE Y n Y n n
+TDD1974781 #2 _____  📋 "snare" ? _____ ~ NA
+TDD-1975007 attempt 1 SNARE n m m n n
+TDD1996104 #3 _____  📋 "snare" ? __A_E ~ A
+TDD-1996119 attempt 2 SNARE n n Y n Y
+TDD1683367 #4 _____  📋 "snare" ? _____ ~ A
+TDD-1683353 attempt 3 SNARE n n m n n
+TDD2175071 #5 _____  📋 "snare" ? S____ ~ AE
+TDD-2175080 attempt 4 SNARE Y n m n m
+TDD270221 ? 
+TDD-270247 question done
+TDD874112 > *
+TDD3917525 try? 1
+TDD-4791584 questioning: ["steam", "#5"]
+TDD6884660 #1 S_A__ -ENR  📋 "steam" ? S_A__ ~ S
+TDD-6884669 attempt 0 STEAM Y n n n n
+TDD946910 #2 _____ ~AN -ERS  📋 "steam" ? .
+TDD-946921 attempt 1 STEAM n n n m n
+TDD6042922 #3 __A_E -NRS  📋 "steam" ? __A_E ~ AT
+TDD-6042928 attempt 2 STEAM n m n m n
+TDD2354474 #4 _____ ~A -ENRS  📋 "steam" ? _____ ~ AT
+TDD-2354487 attempt 3 STEAM n m n m n
+TDD2713281 #5 S____ ~AE -NR  📋 "steam" ? STEA_
+TDD-2713266 attempt 4 STEAM Y Y Y Y n
+TDD543529 ? 
+TDD-543571 question done
+TDD693753 > *
+TDD2059083 try? ␚
+TDD-2752866 <EOF>
+TDD4093881 > * 3
+TDD925348 try? 2
+TDD-5019143 questioning: ["plate", "#3"]
+TDD6318923 #1 S_A__ -AEMNRT  📋 "plate" ? S_A__ ~ S
+TDD-6318936 attempt 0 PLATE n n Y n n
+TDD796955 #2 _____ ~AN -EMRST  📋 "plate" ? .
+TDD-796965 attempt 1 PLATE n n m n n
+TDD2749496 #3 __A_E ~T -EMNRS  📋 "plate" ? __ATE ~ A
+TDD-2749493 attempt 2 PLATE n n Y Y Y
+TDD5975561 #4 _____ ~AT -EMNRS  📋 "plate" ? P__T_ ~ AT
+TDD-5975555 attempt 3 PLATE Y n m Y n
+TDD836902 #5 STEA_ -MNR  📋 "plate" ? .
+TDD-836898 attempt 4 PLATE n n n n n
+TDD272194 ? 
+TDD-272275 question done
+TDD1073538 > *
+TDD4848903 try? 1
+TDD-5922369 questioning: ["patty", "#4"]
+TDD10744816 #1 S_A__ -ELMNPRT  📋 "patty" ? S_A__ ~ S
+TDD-10744822 attempt 0 PATTY n n n n n
+TDD2342066 #2 _____ ~AN -ELMPRST  📋 "patty" ? _A___ ~ N
+TDD-2342043 attempt 1 PATTY n Y n n n
+TDD4359128 #3 __ATE -LMNPRS  📋 "patty" ? __ATE ~ A
+TDD-4359144 attempt 2 PATTY n m n Y n
+TDD5374974 #4 P__T_ ~A -ELMNRS  📋 "patty" ? P_TT_ ~ A
+TDD-5374952 attempt 3 PATTY Y m Y Y n
+TDD742978 #5 STEA_ -AELMNPRT  📋 "patty" ? 
+TDD3074378 #5 STEA_ -AELMNPRT  ? .
+TDD-3817378 attempt 4 PATTY n n n n n
+TDD2208668 ? *
+TDD-1290837 ? 
+TDD-917894 question done
+TDD513686 > *
+TDD1301149 questioning: ["pitta", "#4"]
+TDD2026376 #1 S_A__ -AELMNPRTY  📋 "pitta" ? ␚
+TDD-3841224 question done
+TDD859753 > * 3
+TDD8028958 try? ␚
+TDD-8888732 <EOF>
+TDD3436379 > * 5
+TDD-2142460 try? ␚
+TDD-1293921 <EOF>
+TDD1683431 > *
+TDD45797 questioning: ["pitta", "#4"]
+TDD5875877 #1 S_A__ -AELMNPRTY  📋 "pitta" ? S_A__ ~ S
+TDD-7605018 attempt 0 PITTA n n n n n
+TDD1271498 #2 _A___ ~N -ELMPRSTY  📋 "pitta" ? .
+TDD-1271456 attempt 1 PITTA n n n n n
+TDD3158610 #3 __ATE -LMNPRSY  📋 "pitta" ? __ATE ~ A
+TDD-3158638 attempt 2 PITTA n n n Y m
+TDD1319112 #4 P_TT_ ~A -ELMNRSY  📋 "pitta" ? /it
+TDD-1319124 attempt 3 PITTA Y Y Y Y Y
+TDD1603653 #5 STEA_ -AELMNPRTY  📋 "pitta" ? .
+TDD-1603644 attempt 4 PITTA n n n n n
+TDD183044 ? 
+TDD-183151 question done
+TDD591243 > *
+TDD5899791 try? 1
+TDD-6490913 questioning: ["shack", "#1"]
+TDD6518193 #1 S_A__ -AEILMNPRTY  📋 "shack" ? SHA__ ~ S
+TDD-6518207 attempt 0 SHACK Y Y Y n n
+TDD1727573 #2 _A___ ~N -AEILMPRSTY  📋 "shack" ? .
+TDD-1727554 attempt 1 SHACK n n n n n
+TDD6678260 #3 __ATE -ILMNPRSY  📋 "shack" ? __ATE ~ A
+TDD-6678252 attempt 2 SHACK n n Y n n
+T13.398598792031407 now: 2025-10-05T12:33:08UTC
+TD85 questioning: ["shack", "#1"]
+TDD5536879 #5 STEA_ -AEILMNPRTY  📋 "shack" ? STEAK
+TDD-5536572 attempt 4 SHACK Y n n n Y
+TDD2056030 ? 
+TDD-2056311 question done
+TDD2015063 > *
+TDD-1329114 questioning: ["shags", "#1"]
+TDD3109052 #1 SHA__ -CEIKLMNPRTY  📋 "shags" ? /it
+TDD-3794932 attempt 0 SHAGS Y Y Y Y Y
+TDD4017541 #2 _A___ ~N -ACEHIKLMPRSTY  📋 "shags" ? _A___ ~ NG
+TDD-4017535 attempt 1 SHAGS n n n m n
+TDD2142645 #3 __ATE -CHIKLMNPRSY  📋 "shags" ? __ATE ~ A
+TDD-2142671 attempt 2 SHAGS n n Y n n
+TDD654300 ? 
+TDD-654351 question done
+TDD1855832 > *
+TDD-1518261 questioning: ["wagon", "#2"]
+TDD2889201 #2 _A___ ~GN -ACEHIKLMPRSTY  📋 "wagon" ? /it
+TDD-3226689 attempt 1 WAGON Y Y Y Y Y
+TDD4351120 #3 __ATE -CGHIKLMNPRSY  📋 "wagon" ? __ATE ~ A
+TDD-4351151 attempt 2 WAGON n m n n n
+TDD830090 ? 
+TDD-830155 question done
+TDD623132 > *
+TDD-237170 questioning: ["abate", "#3"]
+TDD3261464 #3 __ATE -CGHIKLMNOPRSWY  📋 "abate" ? /it
+TDD-3647346 attempt 2 ABATE Y Y Y Y Y
+TDD1281618 ? ␚
+TDD-1281731 question done
+TDD3306608 📋> squareword.org 1343: 9 guesses
+TDD-3306586 📋> 
+TDD-64 📋> 🟩🟨🟩🟨🟨
+TDD-6 📋> 🟨🟩🟨🟨🟨
+TDD-1 📋> 🟨🟨🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟨
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD218421 📋> #squareword #squareword1343
+TDD156932 📋> ␚
+TDD-375296 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1343: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1343"}
+TDD372 result: "squareword.org 1343: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1343"
+TDD703723 📆 2025-10-05 ? 
