@@ -1,0 +1,55 @@
+T48119.771963818 now: 2025-10-05T12:25:59UTC
+TD57 site: alfagok.diginaut.net
+TDD145113 loaded 399706 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1146 words excluded) asof 33b5df696b5d6b15da496b543b4b0fbfd5cb5c1f
+TDD13044054  ...
+TDD-9829170 [0 : 199834 : 399706] lijm? b
+TDD-3359847 progress: -1 199834 lijm
+TDD2674623 [0 : 99749 : 199834] ex? b
+TDD-2674738 progress: -1 99749 ex
+TDD1624369 [0 : 49847 : 99749] boks? a
+TDD-1624377 progress: 1 49847 boks
+TDD1560854 [49848 : 74758 : 99749] dc? a
+TDD-1560836 progress: 1 74758 dc
+TDD1576945 [74759 : 87219 : 99749] draag? a
+TDD-1576943 progress: 1 87219 draag
+TDD1537630 [87220 : 93447 : 99749] eet? a
+TDD-1537640 progress: 1 93447 eet
+TDD1807826 [93448 : 96581 : 99749] energiek? b
+T27.06287343427539 now: 2025-10-05T12:26:59UTC
+TD4391241 [93448 : 96581 : 99749] energiek? b
+TDD-4391045 progress: -1 96581 energiek
+TDD3829426 [93448 : 94976 : 96581] eiwit? a
+TDD-3829498 progress: 1 94976 eiwit
+TDD2730181 [94977 : 95767 : 96581] elo? b
+TDD-2730211 progress: -1 95767 elo
+TDD2358755 [94977 : 95309 : 95767] elektro? a
+TDD-2358750 progress: 1 95309 elektro
+TDD1737406 [95310 : 95478 : 95767] elf? a
+TDD-1737403 progress: 1 95478 elf
+TDD1746213 [95479 : 95607 : 95767] elite? a
+TDD-1746228 progress: 1 95607 elite
+TDD2073440 [95608 : 95673 : 95767] elleboog? b
+TDD-2073436 progress: -1 95673 elleboog
+TDD1708182 [95608 : 95640 : 95673] elixer? a
+TDD-1708189 progress: 1 95640 elixer
+TDD1671204 [95641 : 95652 : 95673] elk? a
+TDD-1671195 progress: 1 95652 elk
+TDD1901816 [95653 : 95657 : 95673] elke? b
+TDD-1901818 progress: -1 95657 elke
+TDD2007525 [95653 : 95655 : 95657] elkander? b
+TDD-2007535 progress: -1 95655 elkander
+TDD2143025 [95653 : 95654 : 95655] elkaars? b
+TDD-2143009 progress: -1 95654 elkaars
+TDD-73 [95653 : 95653 : 95654] <Done>.
+TDD8210597 📋> 🧩 Puzzel #337
+TDD-8210536 📋> 🤔 20 gokken
+TDD-53 📋> ⏱️ 1m 18s
+TDD401143 📋> 🔗 alfagok.diginaut.net
+TDD62790 📋> ␚
+TDD-463884 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #337\n\ud83e\udd14 20 gokken\n\u23f1\ufe0f 1m 18s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD263 result: "\ud83e\udde9 Puzzel #337\n\ud83e\udd14 20 gokken\n\u23f1\ufe0f 1m 18s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-322 result puzzle: 337
+TDD-8 result guesses: 20
+TDD-2 result time: 1m 18s
+TDD0 result link: alfagok.diginaut.net
+TDD488873 📆 2025-10-05 ? 
