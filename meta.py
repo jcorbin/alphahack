@@ -957,6 +957,7 @@ class Meta(Arguable):
                 f'{day}',
                 *marked_tokenize(note)
             )))
+        self.prompt.re = max(1, self.prompt.re)
 
 if __name__ == '__main__':
     Meta.main()
