@@ -1,0 +1,96 @@
+T57.81646081991494 now: 2025-10-05T12:33:53UTC
+TD52 site: https://play.dictionary.com/games/todays-hurdle
+TDD-19 wordlist: nwl2023.txt
+TDD30448695  ...
+TDD-28805361 1.1> *
+TDD1251278 1.1 ? 1
+TDD26935226 1.1 📋 "rates" ? nnnMn
+TDD-29829652 tried: RATES n n n m n
+TDD645803 1.2> *
+TDD3776086 1.2 ? 4
+TDD-30558 1.2 📋 "lemon" ? nMnnn
+TDD-4391403 tried: LEMON n m n n n
+TDD559029 1.3> *
+TDD6825683 1.3 ? 4
+TDD-2598458 1.3 📋 "chive" ? MnMnY
+TDD-4786254 tried: CHIVE m n m n Y
+TDD534658 1.4> *
+TDD3486208 1.4 📋 "piece" ? it
+TDD-4020879 tried: PIECE Y Y Y Y Y
+TDD15010324 2.1 📋 "piece" ? nMnMY
+TDD-15010318 tried: PIECE n m n m Y
+TDD1212758 2.2> *
+TDD5184400 2.2 ? 5
+TDD-1029970 2.2 📋 "chive" ? YYYnY
+TDD-5367190 tried: CHIVE Y Y Y n Y
+TDD551305 2.3> *
+TDD3653147 2.3 ? 2
+TDD-1035839 2.3 📋 "chime" ? it
+TDD-3168600 tried: CHIME Y Y Y Y Y
+TDD8637186 3.1 📋 "chime" ? nMnnn
+TDD-8637180 tried: CHIME n m n n n
+TDD518382 3.2> *
+TDD2914003 3.2 ? 1
+TDD511098 3.2 📋 "horst" ? MnMnn
+TDD-3943488 tried: HORST m n m n n
+TDD802542 3.3> *
+TDD1358876 3.3 ? 1
+TDD2276051 3.3 📋 "graph" ? nMMnY
+TDD-4437500 tried: GRAPH n m m n Y
+TDD546026 3.4> *
+TDD2174985 3.4 ? 2
+TDD1028419 3.4 📋 "rajah" ? it
+TDD-3749422 tried: RAJAH Y Y Y Y Y
+TDD8561879 4.1 📋 "rajah" ? nMnnn
+TDD-8561883 tried: RAJAH n m n n n
+TDD1928932 4.2> *
+TDD2549169 4.2 ? 4
+TDD236724 4.2 📋 "stalk" ? nnYMn
+TDD-4714813 tried: STALK n n Y m n
+TDD563357 4.3> *
+TDD917544 4.3 ? 1
+TDD2868195 4.3 📋 "leafy" ? MMYnn
+TDD-4349096 tried: LEAFY m m Y n n
+TDD537271 4.4> *
+TDD2370595 4.4 ? 
+TDD-2338522 4.4 ? 4
+TDD3687939 4.4 📋 "glade" ? nYYnY
+TDD-4257287 tried: GLADE n Y Y n Y
+TDD514018 4.5> *
+TDD802167 4.5 ? 1
+TDD2340191 4.5 📋 "blame" ? nYYnY
+TDD-3656389 tried: BLAME n Y Y n Y
+TDD476407 4.6> *
+TDD8654601 4.6 ? 1
+TDD-2947266 4.6 📋 "plane" ? YYYnY
+TDD-6183749 tried: PLANE Y Y Y n Y
+TDD2221836 4.7> fail place
+TDD-2221842 fail: PLACE
+TDD10756845 📋> Hurdle 1373
+TDD-10756867 📋> 
+TDD-67 📋> 4/6
+TDD-1 📋> ⬜⬜⬜🟨⬜
+TDD-5 📋> ⬜🟨⬜⬜⬜
+TDD2 📋> 🟨⬜🟨⬜🟩
+TDD6 📋> 🟩🟩🟩🟩🟩
+TDD-6 📋> 3/6
+TDD-2 📋> ⬜🟨⬜🟨🟩
+TDD0 📋> 🟩🟩🟩⬜🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD-2 📋> ⬜🟨⬜⬜⬜
+TDD1 📋> 🟨⬜🟨⬜⬜
+TDD3 📋> ⬜🟨🟨⬜🟩
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> X/6
+TDD0 📋> ⬜🟨⬜⬜⬜
+TDD-3 📋> ⬜⬜🟩🟨⬜
+TDD0 📋> 🟨🟨🟩⬜⬜
+TDD1 📋> ⬜🟩🟩⬜🟩
+TDD0 📋> ⬜🟩🟩⬜🟩
+TDD0 📋> 🟩🟩🟩⬜🟩
+TDD472263 📋> score: 3,780
+TDD-194068 📋> ␚
+TDD-278127 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1373\n\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nX/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\nscore: 3,780"}
+TDD322 result: "Hurdle 1373\n\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nX/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\nscore: 3,780"
+TDD415716 📆 2025-10-05 ? 
