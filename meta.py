@@ -616,9 +616,12 @@ class Meta(Arguable):
         '''
         Run arbitrary system command (execv not shell)
         '''
-        cmd = shlex.split(ui.tokens.rest)
-        with ui.check_proc(subprocess.Popen(cmd)):
-            pass
+        try:
+            cmd = shlex.split(ui.tokens.rest)
+            with ui.check_proc(subprocess.Popen(cmd)):
+                pass
+        except subprocess.CalledProcessError as err:
+            ui.print(f'! {err}')
 
     def do_day(self, ui: PromptUI):
         '''
