@@ -1,23 +1,142 @@
-# 2025-10-05
+# 2025-10-06
 
-- 🔗 spaceword.org 🧩 2025-10-04 🏁 score 2173 ranked 3.3% 12/368 ⏱️ 3 days, 17:45:33.324021
-- 🔗 alfagok.diginaut.net 🧩 #337 🥳 19 ⏱️ 13:23:30.371102
-- 🔗 alphaguess.com 🧩 #803 🥳 13 ⏱️ 0:00:33.496935
-- 🔗 squareword.org 🧩 #1343 🥳 9 ⏱️ 0:04:28.509647
-- 🔗 dictionary.com hurdle 🧩 #1373 😦 17 ⏱️ 0:04:46.020221
-- 🔗 dontwordle.com 🧩 #1230 🥳 6 ⏱️ 0:07:03.107357
-- 🔗 cemantle.certitudes.org 🧩 #1280 🥳 155 ⏱️ 0:08:28.737212
-- 🔗 cemantix.certitudes.org 🧩 #1313 🥳 232 ⏱️ 0:12:37.460660
+- 🔗 spaceword.org 🧩 2025-10-05 🏁 score 2173 ranked 7.0% 25/357 ⏱️ 1 day, 1:05:42.795538
+- 🔗 alfagok.diginaut.net 🧩 #338 🥳 15 ⏱️ 21:45:57.419550
+- 🔗 alphaguess.com 🧩 #804 🥳 14 ⏱️ 21:46:59.202911
+- 🔗 squareword.org 🧩 #1344 🥳 7 ⏱️ 1 day, 19:39:00.833857
+- 🔗 dictionary.com hurdle 🧩 #1374 🥳 17 ⏱️ 21:55:23.208181
+- 🔗 dontwordle.com 🧩 #1231 🥳 6 ⏱️ 21:56:46.165898
+- 🔗 cemantle.certitudes.org 🧩 #1281 🥳 266 ⏱️ 22:00:54.749906
+- 🔗 cemantix.certitudes.org 🧩 #1314 🥳 432 ⏱️ 22:06:26.198504
 
 # Dev
 
 ## WIP
 
+- meta: review works up to rc branch progression
 - square: finish questioning work
-- meta: output wrapping towards abstracting out a PromptUI output protocol
-- meta: automate review phase via rebase plan editor
 
 ## TODO
+
+- meta:
+  - review should progress main branch too
+  - rework command model
+    * current `log <solver> ...` and `run <solver>` should instead
+    * unify into `<solver> log|run ...`
+    * with the same stateful sub-prompting so that we can just say `<solver>`
+      and then `log ...` and then `run` obviating the `log continue` command
+      separate from just `run`
+  - better logic circa end of day early play, e.g. doing a CET timezone puzzle
+    close late in the "prior" day local (EST) time; similarly, early play of
+    next-day spaceword should work gracefully
+  - support other intervals like weekly/monthly for spaceword
+
+- StoredLog:
+  - log compression can sometimes get corrupted; spaceword in particular tends
+    to provoke this bug
+  - log event generation and pattern matching are currently too disjointed
+    - currently the event matching is all collected under a `load` method override:
+      ```python
+      class Whatever(StoredLog):
+        @override
+        def load(self, ui: PromptUI, lines: Iterable[str]):
+          for t, rest in super().load(ui, lines):
+            orig_rest = rest
+            with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
+
+              m = re.match(r'''(?x)
+                bob \s+ ( .+ )
+                $''', rest)
+              if m:
+                  wat = m[1]
+                  self.apply_bla(wat)
+                  continue
+
+              yield t, rest
+
+      ```
+      * not all subclasses provide the exception printing facility...
+      * many similar `if-match-continue` leg under the loop-with
+      * ideally state re-application is a cleanly nominated method like `self.applay_bla`
+    - so then event generation usually looks like:
+      ```python
+      class Whatever(StoredLog):
+        def do_bla(self, ui: PromptUI):
+          wat = 'lob law'
+          ui.log(f'bob {wat}')
+          self.apply_bla(wat)
+
+        def apply_bla(self, wat: str):
+          self.wat.append(wat)
+
+        def __init__(self):
+          self.wat: list[str] = []
+      ```
+      * this again is in an ideal, in practice logging is frequently intermixed
+        with state mutation; i.e. the `apply_` and `do_` methods are fused
+      * note also there is the matter of state (re-)initialization to keep in
+        mind as well; every part must have a declaration under `__init__`
+    - so a first seam to start pulling at here would be to unify event
+      generation and matching with some kinda decorator like:
+      ```python
+      class Whatever(StoredLog):
+        @StateEvent(
+          lambda wat: f'bob {wat}',
+          r'''(?x)
+            bob \s+ ( .+ )
+            $''',
+        )
+        def apply_bla(self, wat: str):
+          self.wat.append(wat)
+      ```
+  - would be nice if logs could contain multiple concurrent sessions
+    - each session would need an identifier
+    - each session would then name its parent(s)
+    - at least for bakcwards compat, we need to support reading sid-less logs
+      - so each log entry's sid needs to default to last-seen
+      - and each session needs to get a default sid generated
+      - for default parentage, we'll just go with last-wins semantics
+    - but going forward the log format becomes `S<id> T<t> ...`
+      - or is that `T[sid.]t ...` ; i.e. session id is just an extra dimension
+        of time... oh I like that...
+    - so replay needs to support a frontier of concurrent sessions
+    - and load should at least collect extant sibling IDs
+    - so a merge would look like:
+      1. prior log contains concurrent sessions A and B
+      2. start new session C parented to A
+      3. its load logic sees extant B
+         * loads B's state
+         * reconciles, logging catch-up state mutations
+         * ending in reconciliation done log entry
+      4. load logic no longer recognizes B as extant
+         * ... until/unless novel log entries are seen from it
+
+- hurdle report wasn't right out of #1373 -- was missing first few rounds
+  - would be nice if it were easier to one-shot report to stdout for dev loop
+    i.e. we want to be able to:
+    ```shell
+    $ LOG_FILE=log/play.dictionary.com_games_todays-hurdle/#1373
+    $ python hurdle.py $LOG_FILE -- report
+    ```
+    to get there:
+    1. stored main needs to collect rest args -> first round input
+    2. set some flag, or wrap some state, to stop after first round
+    3. input injection needs to be reliable, memory is that it's not?
+    4. expired prompt may get in the way here?
+
+- expired prompt could be better:
+  ```
+  🔺 -> <ui.Prompt object at 0x754fdf9f6190>
+  🔺 <ui.Prompt object at 0x754fdf9f6190>[f]inalize, [a]rchive, [r]emove, or [c]ontinue? rem
+  🔺 'rem' -> StoredLog.expired_do_remove
+  ```
+  - `rm` alias
+  - dynamically generated suggestion prompt, or at least one that's correct ( as "r" is ambiguously actually )
+
+- ui: [disabled] thrash detection works too well
+  - triggers on semantic's extract-next-token tight loop
+  - best way to reliably fix it is to capture per-round output, and only count
+    thrash if output is looping
 
 - long lines like these are hard to read; a line-breaking pretty formatter
   would be nice:
@@ -25,18 +144,6 @@
   🔺 -> functools.partial(<function Search.do_round.<locals>.wrap at 0x7f8ef4e0f100>, st=<wordlish.Question object at 0x7f8ef4e52e90>)
   🔺 functools.partial(<function Search.do_round.<locals>.wrap at 0x7f8ef4e0f100>, st=<wordlish.Question object at 0x7f8ef4e52e90>)#1 ____S ~E -ANT  📋 "elder" ? _L__S ~ ESD
   ```
-
-- meta:
-  - [ ] store daily share(d) state
-  - [ ] better logic circa end of day early play, e.g. doing a CET timezone
-        puzzle close late in the "prior" day local (EST) time
-  - [ ] similarly, early play of next-day spaceword should work gracefully
-  - [ ] support other intervals like weekly/monthly for spaceword
-
-- ui: [disabled] thrash detection works too well
-  - triggers on semantic's extract-next-token tight loop
-  - best way to reliably fix it is to capture per-round output, and only count
-    thrash if output is looping
 
 - semantic: final stats seems lightly off ; where's the party?
   ```
@@ -115,228 +222,191 @@
 
   ```
 
-- expired prompt could be better:
-  ```
-  🔺 -> <ui.Prompt object at 0x754fdf9f6190>
-  🔺 <ui.Prompt object at 0x754fdf9f6190>[f]inalize, [a]rchive, [r]emove, or [c]ontinue? rem
-  🔺 'rem' -> StoredLog.expired_do_remove
-  ```
-  - `rm` alias
-  - dynamically generated suggestion prompt, or at least one that's correct ( as "r" is ambiguously actually )
-
-# spaceword.org 🧩 2025-09-26 🏁 score 2173 ranked 7.4% 28/379 ⏱️ 2:49:10.153785
-
-📜 6 sessions
-- tiles: 21/21
-- score: 2173 bonus: +73
-- rank: 28/379
-
-      _ _ _ _ _ _ _ _ _ _
-      _ _ _ _ _ D _ _ _ _
-      _ _ _ _ Z O A _ _ _
-      _ _ _ _ _ U N _ _ _
-      _ _ _ _ T R Y _ _ _
-      _ _ _ _ H A W _ _ _
-      _ _ _ _ I _ I _ _ _
-      _ _ _ _ E M S _ _ _
-      _ _ _ _ V O E _ _ _
-      _ _ _ _ E _ _ _ _ _
-
-
-
-
-
-
-
-
-
-# spaceword.org 🧩 2025-10-04 🏁 score 2173 ranked 3.3% 12/368 ⏱️ 3 days, 17:45:33.324021
+# spaceword.org 🧩 2025-10-05 🏁 score 2173 ranked 7.0% 25/357 ⏱️ 1 day, 1:05:42.795538
 
 📜 4 sessions
 - tiles: 21/21
 - score: 2173 bonus: +73
-- rank: 12/368
+- rank: 25/357
 
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ D E Y _ _ _   
-      _ _ _ _ _ _ O _ _ _   
-      _ _ _ _ C A W _ _ _   
-      _ _ _ _ O I L _ _ _   
-      _ _ _ _ Q _ E _ _ _   
-      _ _ _ _ U _ R _ _ _   
-      _ _ _ _ I S _ _ _ _   
-      _ _ _ _ N I X _ _ _   
-      _ _ _ _ A G _ _ _ _   
+      _ _ _ _ F A R _ _ _   
+      _ _ _ _ _ _ E _ _ _   
+      _ _ _ _ _ Z A _ _ _   
+      _ _ _ _ J A G _ _ _   
+      _ _ _ _ _ P I _ _ _   
+      _ _ _ _ _ A N _ _ _   
+      _ _ _ _ I T _ _ _ _   
+      _ _ _ _ N E E _ _ _   
+      _ _ _ _ S O X _ _ _   
 
 
-# alfagok.diginaut.net 🧩 #337 🥳 19 ⏱️ 13:23:30.371102
+# alfagok.diginaut.net 🧩 #338 🥳 15 ⏱️ 21:45:57.419550
 
-🤔 19 attempts
-📜 2 sessions
+🤔 15 attempts
+📜 1 sessions
 
     @        [     0] &-teken   
     @+1      [     1] &-tekens  
     @+2      [     2] -cijferig 
     @+3      [     3] -e-mail   
-    @+49847  [ 49847] boks      q2  ? after
-    @+74758  [ 74758] dc        q3  ? after
-    @+87219  [ 87219] draag     q4  ? after
-    @+93447  [ 93447] eet       q5  ? after
-    @+94976  [ 94976] eiwit     q8  ? after
-    @+95309  [ 95309] elektro   q10 ? after
-    @+95478  [ 95478] elf       q11 ? after
-    @+95607  [ 95607] elite     q12 ? after
-    @+95640  [ 95640] elixer    q14 ? after
-    @+95652  [ 95652] elk       q15 ? after
-    @+95653  [ 95653] elkaar    done. it
-    @+95654  [ 95654] elkaars   q18 ? before
-    @+95655  [ 95655] elkander  q17 ? before
-    @+95657  [ 95657] elke      q16 ? before
-    @+95673  [ 95673] elleboog  q13 ? before
-    @+95767  [ 95767] elo       q9  ? before
-    @+96581  [ 96581] energiek  q6  ? before
-    @+96581  [ 96581] energiek  q7  ? before
-    @+99749  [ 99749] ex        q1  ? before
-    @+199834 [199834] lijm      q0  ? before
+    @+199834 [199834] lijm      q0  ? after
+    @+299752 [299752] schub     q1  ? after
+    @+302782 [302782] shredder  q6  ? after
+    @+304296 [304296] skelet    q7  ? after
+    @+304319 [304319] ski       q10 ? after
+    @+304422 [304422] skip      q11 ? after
+    @+304475 [304475] skunk     q12 ? after
+    @+304499 [304499] slaaf     q14 ? it
+    @+304499 [304499] slaaf     done. it
+    @+304527 [304527] slaap     q9  ? before
+    @+304868 [304868] slag      q8  ? before
+    @+305815 [305815] slijm     q5  ? before
+    @+311921 [311921] spier     q4  ? before
+    @+324326 [324326] sub       q3  ? before
+    @+349535 [349535] vakantie  q2  ? before
 
-# alphaguess.com 🧩 #803 🥳 13 ⏱️ 0:00:33.496935
+# alphaguess.com 🧩 #804 🥳 14 ⏱️ 21:46:59.202911
 
-🤔 13 attempts
+🤔 14 attempts
 📜 1 sessions
 
-    @        [     0] aa      
-    @+1      [     1] aah     
-    @+2      [     2] aahed   
-    @+3      [     3] aahing  
-    @+98231  [ 98231] mach    q0  ? after
-    @+122116 [122116] par     q2  ? after
-    @+134647 [134647] prog    q3  ? after
-    @+137530 [137530] quad    q5  ? after
-    @+138263 [138263] quip    q7  ? after
-    @+138283 [138283] quirk   q12 ? it
-    @+138283 [138283] quirk   done. it
-    @+138302 [138302] quit    q11 ? before
-    @+138343 [138343] quiz    q10 ? before
-    @+138445 [138445] rabble  q9  ? before
-    @+138634 [138634] radical q8  ? before
-    @+139028 [139028] rake    q6  ? before
-    @+140533 [140533] rec     q4  ? before
-    @+147336 [147336] rho     q1  ? before
+    @       [    0] aa        
+    @+1     [    1] aah       
+    @+2     [    2] aahed     
+    @+3     [    3] aahing    
+    @+47392 [47392] dis       q1  ? after
+    @+49439 [49439] do        q5  ? after
+    @+50416 [50416] dove      q7  ? after
+    @+50910 [50910] drawl     q8  ? after
+    @+51142 [51142] drive     q9  ? after
+    @+51236 [51236] drop      q10 ? after
+    @+51318 [51318] drown     q11 ? after
+    @+51354 [51354] drug      q12 ? after
+    @+51380 [51380] drum      q13 ? it
+    @+51380 [51380] drum      done. it
+    @+51413 [51413] drunk     q6  ? before
+    @+53408 [53408] el        q4  ? before
+    @+60095 [60095] face      q3  ? before
+    @+72812 [72812] gremolata q2  ? before
+    @+98231 [98231] mach      q0  ? before
 
-# squareword.org 🧩 #1343 🥳 9 ⏱️ 0:04:28.509647
+# squareword.org 🧩 #1344 🥳 7 ⏱️ 1 day, 19:39:00.833857
 
 📜 2 sessions
 
 Guesses:
 
 Score Heatmap:
-    🟩 🟨 🟩 🟨 🟨
-    🟨 🟩 🟨 🟨 🟨
-    🟨 🟨 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
-    🟩 🟩 🟩 🟩 🟨
+    🟩 🟩 🟩 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟨 🟨 🟨 🟩 🟩
+    🟨 🟩 🟩 🟨 🟨
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    S H A G S
-    W A G O N
-    A B A T E
-    P I T T A
-    S T E A K
+    C R I S P
+    H E N N A
+    A C T E D
+    S T E E D
+    M A R R Y
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1373 😦 17 ⏱️ 0:04:46.020221
-
-📜 1 sessions
-💰 score: 3780
-
-    4/6
-    RATES ⬜⬜⬜🟨⬜
-    LEMON ⬜🟨⬜⬜⬜
-    CHIVE 🟨⬜🟨⬜🟩
-    PIECE 🟩🟩🟩🟩🟩
-    3/6
-    PIECE ⬜🟨⬜🟨🟩
-    CHIVE 🟩🟩🟩⬜🟩
-    CHIME 🟩🟩🟩🟩🟩
-    4/6
-    CHIME ⬜🟨⬜⬜⬜
-    HORST 🟨⬜🟨⬜⬜
-    GRAPH ⬜🟨🟨⬜🟩
-    RAJAH 🟩🟩🟩🟩🟩
-    6/6
-    RAJAH ⬜🟨⬜⬜⬜
-    STALK ⬜⬜🟩🟨⬜
-    LEAFY 🟨🟨🟩⬜⬜
-    GLADE ⬜🟩🟩⬜🟩
-    BLAME ⬜🟩🟩⬜🟩
-    PLANE 🟩🟩🟩⬜🟩
-    FAIL: PLACE
-
-# dontwordle.com 🧩 #1230 🥳 6 ⏱️ 0:07:03.107357
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1374 🥳 17 ⏱️ 21:55:23.208181
 
 📜 1 sessions
-💰 score: 9
+💰 score: 9900
+
+    2/6
+    ALOES 🟩⬜⬜🟨🟨
+    ASIDE 🟩🟩🟩🟩🟩
+    4/6
+    ASIDE ⬜⬜⬜⬜🟨
+    ENROL 🟨⬜⬜⬜⬜
+    WECHT 🟨🟨⬜⬜🟩
+    TWEET 🟩🟩🟩🟩🟩
+    5/6
+    TWEET ⬜🟨⬜⬜⬜
+    WOADS 🟨🟨⬜⬜🟨
+    SCOWL 🟩⬜🟩🟩⬜
+    SHOWY 🟩🟩🟩🟩⬜
+    SHOWN 🟩🟩🟩🟩🟩
+    4/6
+    SHOWN ⬜⬜⬜⬜⬜
+    LITER ⬜⬜🟨⬜🟨
+    PARTY 🟨⬜🟨🟨🟨
+    CRYPT 🟩🟩🟩🟩🟩
+    Final 2/2
+    BORDE ⬜🟨🟨🟨🟨
+    OLDER 🟩🟩🟩🟩🟩
+
+# dontwordle.com 🧩 #1231 🥳 6 ⏱️ 21:56:46.165898
+
+📜 1 sessions
+💰 score: 12
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:JNANA n n n n n remain:5846
-    ⬜⬜⬜⬜⬜ tried:PEEPS n n n n n remain:960
-    ⬜⬜⬜⬜⬜ tried:CHUFF n n n n n remain:304
-    ⬜⬜⬜⬜🟩 tried:XYLYL n n n n Y remain:12
-    ⬜🟩⬜⬜🟩 tried:GRRRL n Y n n Y remain:5
-    ⬜🟩🟩⬜🟩 tried:DROOL n Y Y n Y remain:1
+    ⬜⬜⬜⬜⬜ tried:JINNI n n n n n remain:7302
+    ⬜⬜⬜⬜⬜ tried:POOPY n n n n n remain:3137
+    ⬜⬜⬜⬜⬜ tried:KUDZU n n n n n remain:1452
+    ⬜🟨⬜⬜⬜ tried:CRWTH n m n n n remain:211
+    ⬜🟨🟨⬜⬜ tried:BARBS n m m n n remain:23
+    ⬜🟩🟩🟩⬜ tried:ALARM n Y Y Y n remain:2
 
-    Undos used: 4
+    Undos used: 2
 
-      1 words remaining
-    x 9 unused letters
-    = 9 total score
+      2 words remaining
+    x 6 unused letters
+    = 12 total score
 
-# cemantle.certitudes.org 🧩 #1280 🥳 155 ⏱️ 0:08:28.737212
+# cemantle.certitudes.org 🧩 #1281 🥳 266 ⏱️ 22:00:54.749906
 
-🤔 156 attempts
+🤔 267 attempts
 📜 1 sessions
-🫧 9 chat sessions
-⁉️ 57 chat prompts
-🤖 57 gemma3:latest replies
-🔥   6 🥵   4 😎  32 🥶 108 🧊   5
+🫧 14 chat sessions
+⁉️ 85 chat prompts
+🤖 27 llama3.2:latest replies
+🤖 58 gemma3:latest replies
+🔥   2 🥵  16 😎  52 🥶 182 🧊  14
 
-      $1 #156   ~1 trace          100.00°C 🥳 1000‰
-      $2 #154   ~3 locate          52.41°C 🔥  997‰
-      $3 #153   ~4 pinpoint        50.85°C 🔥  996‰
-      $4 #142  ~12 identify        48.29°C 🔥  994‰
-      $5 #131  ~18 detect          46.92°C 🔥  993‰
-      $6 #120  ~24 unearth         46.62°C 🔥  992‰
-      $7 #130  ~19 uncover         45.56°C 🔥  991‰
-      $8 #138  ~14 discern         41.31°C 🥵  984‰
-      $9 #155   ~2 find            39.47°C 🥵  980‰
-     $10 #128  ~21 discover        36.90°C 🥵  971‰
-     $11  #36  ~37 origin          34.67°C 🥵  953‰
-     $12  #42  ~36 roots           30.66°C 😎  893‰
-     $44  #14      clone           21.52°C 🥶
-    $152  #88      canopy          -0.08°C 🧊
+      $1 #267   ~1 consultation     100.00°C 🥳 1000‰
+      $2  #78  ~56 review            47.73°C 🔥  997‰
+      $3 #144  ~40 input             42.44°C 🔥  993‰
+      $4  #83  ~53 evaluation        39.67°C 🥵  988‰
+      $5  #81  ~55 assessment        36.58°C 🥵  983‰
+      $6  #84  ~52 feedback          36.16°C 🥵  981‰
+      $7 #200  ~21 mediation         34.85°C 🥵  970‰
+      $8 #196  ~22 implementation    34.63°C 🥵  967‰
+      $9 #193  ~24 framework         33.63°C 🥵  961‰
+     $10 #150  ~38 examination       33.44°C 🥵  959‰
+     $11 #266   ~2 clarification     33.38°C 🥵  958‰
+     $20 #260   ~6 reevaluation      30.57°C 😎  890‰
+     $72 #156      research          20.78°C 🥶
+    $254   #4      melancholy        -0.61°C 🧊
 
-# cemantix.certitudes.org 🧩 #1313 🥳 232 ⏱️ 0:12:37.460660
+# cemantix.certitudes.org 🧩 #1314 🥳 432 ⏱️ 22:06:26.198504
 
-🤔 233 attempts
+🤔 433 attempts
 📜 1 sessions
-🫧 12 chat sessions
-⁉️ 80 chat prompts
-🤖 80 gemma3:latest replies
-😱   1 🥵  13 😎  35 🥶 149 🧊  34
+🫧 20 chat sessions
+⁉️ 125 chat prompts
+🤖 20 llama3.2:latest replies
+🤖 105 gemma3:latest replies
+😱   1 🔥   5 🥵   8 😎  72 🥶 273 🧊  73
 
-      $1 #233   ~1 courageux      100.00°C 🥳 1000‰
-      $2 #222   ~3 courage         66.50°C 😱  999‰
-      $3 #156  ~27 honnête         47.39°C 🥵  989‰
-      $4 #169  ~20 sincère         46.94°C 🥵  987‰
-      $5 #176  ~16 généreux        46.28°C 🥵  985‰
-      $6 #163  ~23 digne           40.33°C 🥵  953‰
-      $7  #50  ~47 timide          40.02°C 🥵  950‰
-      $8 #159  ~25 loyal           39.55°C 🥵  945‰
-      $9 #232   ~2 bravoure        39.28°C 🥵  942‰
-     $10 #202   ~6 respectable     38.10°C 🥵  931‰
-     $11 #184  ~14 perspicace      37.19°C 🥵  919‰
-     $16 #171  ~18 altruiste       35.69°C 😎  894‰
-     $51  #19      loin            24.99°C 🥶
-    $200 #106      posé            -0.17°C 🧊
+      $1 #433   ~1 mondialisation        100.00°C 🥳 1000‰
+      $2 #348  ~35 globalisation          79.59°C 😱  999‰
+      $3 #401  ~10 capitalisme            58.41°C 🔥  997‰
+      $4 #365  ~24 économique             56.61°C 🔥  996‰
+      $5 #354  ~31 internationalisation   54.88°C 🔥  995‰
+      $6 #400  ~11 libéralisme            53.18°C 🔥  993‰
+      $7 #355  ~30 mondial                53.07°C 🔥  992‰
+      $8 #364  ~25 économie               52.04°C 🥵  988‰
+      $9 #350  ~34 délocalisation         51.17°C 🥵  984‰
+     $10 #408   ~5 politique              47.95°C 🥵  972‰
+     $11 #153  ~66 émergence              44.43°C 🥵  957‰
+     $16 #206  ~58 crise                  38.36°C 😎  875‰
+     $88 #193      renouveau              24.76°C 🥶
+    $361 #170      sédiment               -0.11°C 🧊
