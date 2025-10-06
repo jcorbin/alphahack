@@ -1,22 +1,42 @@
-# 2025-10-06
+# 2025-10-07
 
-- 🔗 spaceword.org 🧩 2025-10-05 🏁 score 2173 ranked 7.0% 25/357 ⏱️ 1 day, 1:05:42.795538
-- 🔗 alfagok.diginaut.net 🧩 #338 🥳 15 ⏱️ 21:45:57.419550
-- 🔗 alphaguess.com 🧩 #804 🥳 14 ⏱️ 21:46:59.202911
-- 🔗 squareword.org 🧩 #1344 🥳 7 ⏱️ 1 day, 19:39:00.833857
-- 🔗 dictionary.com hurdle 🧩 #1374 🥳 17 ⏱️ 21:55:23.208181
-- 🔗 dontwordle.com 🧩 #1231 🥳 6 ⏱️ 21:56:46.165898
-- 🔗 cemantle.certitudes.org 🧩 #1281 🥳 266 ⏱️ 22:00:54.749906
-- 🔗 cemantix.certitudes.org 🧩 #1314 🥳 432 ⏱️ 22:06:26.198504
+- 🔗 spaceword.org 🧩 2025-10-06 🏁 score 2173 ranked 8.1% 32/397 ⏱️ 3 days, 19:12:25.331105
+- 🔗 alfagok.diginaut.net 🧩 #339 🥳 21 ⏱️ 23:10:59.659463
+- 🔗 alphaguess.com 🧩 #805 🥳 12 ⏱️ 23:11:34.017588
+- 🔗 squareword.org 🧩 #1345 🥳 7 ⏱️ 23:13:57.916345
+- 🔗 dictionary.com hurdle 🧩 #1375 🥳 12 ⏱️ 23:17:26.823378
+- 🔗 dontwordle.com 🧩 #1232 🥳 6 ⏱️ 23:21:01.512312
+- 🔗 cemantle.certitudes.org 🧩 #1282 🥳 264 ⏱️ 23:23:32.459002
+- 🔗 cemantix.certitudes.org 🧩 #1315 🥳 287 ⏱️ 23:26:56.505983
 
 # Dev
 
 ## WIP
 
 - meta: review works up to rc branch progression
-- square: finish questioning work
+
+- StoredLog: ability to easily one-shot report
+  - would be nice if it were easier to one-shot report to stdout for dev loop
+    i.e. we want to be able to:
+    ```shell
+    $ LOG_FILE=log/play.dictionary.com_games_todays-hurdle/#1373
+    $ python hurdle.py $LOG_FILE -- report
+    ```
+    to get there:
+    1. [X] stored main needs to collect rest args
+    2. [ ] rest args need to be passed as first round input
+    3. [ ] input injection needs to be reliable, memory is that it's not?
+    4. [ ] how to know when to one-shot vs interact? probably "if state calls
+           input, let it trampoline normally, but output-only is one-shot"
+    5. [ ] expired prompt may get in the way here?
 
 ## TODO
+
+- StoredLog: reported elapsed times are wrong; fixing this will probably pull
+  down the report-re-run mused about for hurdle report debugging
+- hurdle: report wasn't right out of #1373 -- was missing first few rounds
+
+- square: finish questioning work
 
 - meta:
   - review should progress main branch too
@@ -110,19 +130,6 @@
          * ending in reconciliation done log entry
       4. load logic no longer recognizes B as extant
          * ... until/unless novel log entries are seen from it
-
-- hurdle report wasn't right out of #1373 -- was missing first few rounds
-  - would be nice if it were easier to one-shot report to stdout for dev loop
-    i.e. we want to be able to:
-    ```shell
-    $ LOG_FILE=log/play.dictionary.com_games_todays-hurdle/#1373
-    $ python hurdle.py $LOG_FILE -- report
-    ```
-    to get there:
-    1. stored main needs to collect rest args -> first round input
-    2. set some flag, or wrap some state, to stop after first round
-    3. input injection needs to be reliable, memory is that it's not?
-    4. expired prompt may get in the way here?
 
 - expired prompt could be better:
   ```
@@ -222,78 +229,81 @@
 
   ```
 
-# spaceword.org 🧩 2025-10-05 🏁 score 2173 ranked 7.0% 25/357 ⏱️ 1 day, 1:05:42.795538
+
+# spaceword.org 🧩 2025-10-06 🏁 score 2173 ranked 8.1% 32/397 ⏱️ 3 days, 19:12:25.331105
 
 📜 4 sessions
 - tiles: 21/21
 - score: 2173 bonus: +73
-- rank: 25/357
+- rank: 32/397
 
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ F A R _ _ _   
-      _ _ _ _ _ _ E _ _ _   
-      _ _ _ _ _ Z A _ _ _   
-      _ _ _ _ J A G _ _ _   
-      _ _ _ _ _ P I _ _ _   
-      _ _ _ _ _ A N _ _ _   
-      _ _ _ _ I T _ _ _ _   
-      _ _ _ _ N E E _ _ _   
-      _ _ _ _ S O X _ _ _   
+      _ _ _ _ E W E _ _ _   
+      _ _ _ _ H A D _ _ _   
+      _ _ _ _ _ V _ _ _ _   
+      _ _ _ _ S E Z _ _ _   
+      _ _ _ _ E Y E _ _ _   
+      _ _ _ _ G _ A _ _ _   
+      _ _ _ _ U _ T _ _ _   
+      _ _ _ _ E _ I _ _ _   
+      _ _ _ _ D _ N _ _ _   
 
 
-# alfagok.diginaut.net 🧩 #338 🥳 15 ⏱️ 21:45:57.419550
+# alfagok.diginaut.net 🧩 #339 🥳 21 ⏱️ 23:10:59.659463
 
-🤔 15 attempts
+🤔 21 attempts
 📜 1 sessions
 
-    @        [     0] &-teken   
-    @+1      [     1] &-tekens  
-    @+2      [     2] -cijferig 
-    @+3      [     3] -e-mail   
-    @+199834 [199834] lijm      q0  ? after
-    @+299752 [299752] schub     q1  ? after
-    @+302782 [302782] shredder  q6  ? after
-    @+304296 [304296] skelet    q7  ? after
-    @+304319 [304319] ski       q10 ? after
-    @+304422 [304422] skip      q11 ? after
-    @+304475 [304475] skunk     q12 ? after
-    @+304499 [304499] slaaf     q14 ? it
-    @+304499 [304499] slaaf     done. it
-    @+304527 [304527] slaap     q9  ? before
-    @+304868 [304868] slag      q8  ? before
-    @+305815 [305815] slijm     q5  ? before
-    @+311921 [311921] spier     q4  ? before
-    @+324326 [324326] sub       q3  ? before
-    @+349535 [349535] vakantie  q2  ? before
+    @        [     0] &-teken      
+    @+1      [     1] &-tekens     
+    @+2      [     2] -cijferig    
+    @+3      [     3] -e-mail      
+    @+199834 [199834] lijm         q0  ? after
+    @+247745 [247745] op           q2  ? after
+    @+273551 [273551] proef        q3  ? after
+    @+280075 [280075] rechtst      q5  ? after
+    @+280816 [280816] redding      q8  ? after
+    @+280911 [280911] rede         q10 ? after
+    @+281052 [281052] reduceer     q11 ? after
+    @+281061 [281061] reductie     q13 ? after
+    @+281090 [281090] reductionist q15 ? after
+    @+281104 [281104] ree          q16 ? after
+    @+281111 [281111] reed         q17 ? after
+    @+281115 [281115] reeds        q20 ? it
+    @+281115 [281115] reeds        done. it
+    @+281117 [281117] reef         q12 ? before
+    @+281191 [281191] ref          q9  ? before
+    @+281584 [281584] regen        q7  ? before
+    @+283166 [283166] rel          q6  ? before
+    @+286619 [286619] rijs         q4  ? before
+    @+299749 [299749] schub        q1  ? before
 
-# alphaguess.com 🧩 #804 🥳 14 ⏱️ 21:46:59.202911
+# alphaguess.com 🧩 #805 🥳 12 ⏱️ 23:11:34.017588
 
-🤔 14 attempts
+🤔 12 attempts
 📜 1 sessions
 
-    @       [    0] aa        
-    @+1     [    1] aah       
-    @+2     [    2] aahed     
-    @+3     [    3] aahing    
-    @+47392 [47392] dis       q1  ? after
-    @+49439 [49439] do        q5  ? after
-    @+50416 [50416] dove      q7  ? after
-    @+50910 [50910] drawl     q8  ? after
-    @+51142 [51142] drive     q9  ? after
-    @+51236 [51236] drop      q10 ? after
-    @+51318 [51318] drown     q11 ? after
-    @+51354 [51354] drug      q12 ? after
-    @+51380 [51380] drum      q13 ? it
-    @+51380 [51380] drum      done. it
-    @+51413 [51413] drunk     q6  ? before
-    @+53408 [53408] el        q4  ? before
-    @+60095 [60095] face      q3  ? before
-    @+72812 [72812] gremolata q2  ? before
-    @+98231 [98231] mach      q0  ? before
+    @       [    0] aa     
+    @+1     [    1] aah    
+    @+2     [    2] aahed  
+    @+3     [    3] aahing 
+    @+11770 [11770] back   q3  ? after
+    @+17725 [17725] blind  q4  ? after
+    @+19170 [19170] boot   q6  ? after
+    @+19884 [19884] bra    q7  ? after
+    @+20279 [20279] braze  q8  ? after
+    @+20308 [20308] bread  q11 ? it
+    @+20308 [20308] bread  done. it
+    @+20342 [20342] break  q10 ? before
+    @+20465 [20465] bree   q9  ? before
+    @+20697 [20697] brill  q5  ? before
+    @+23693 [23693] camp   q2  ? before
+    @+47392 [47392] dis    q1  ? before
+    @+98231 [98231] mach   q0  ? before
 
-# squareword.org 🧩 #1344 🥳 7 ⏱️ 1 day, 19:39:00.833857
+# squareword.org 🧩 #1345 🥳 7 ⏱️ 23:13:57.916345
 
-📜 2 sessions
+📜 1 sessions
 
 Guesses:
 
@@ -301,112 +311,107 @@ Score Heatmap:
     🟩 🟩 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟨 🟩 🟩
-    🟨 🟩 🟩 🟨 🟨
+    🟨 🟨 🟨 🟨 🟩
+    🟨 🟩 🟨 🟨 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    C R I S P
-    H E N N A
-    A C T E D
-    S T E E D
-    M A R R Y
+    P O S I T
+    L U C R E
+    A N I O N
+    I C O N S
+    D E N S E
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1374 🥳 17 ⏱️ 21:55:23.208181
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1375 🥳 12 ⏱️ 23:17:26.823378
 
 📜 1 sessions
-💰 score: 9900
+💰 score: 10400
 
     2/6
-    ALOES 🟩⬜⬜🟨🟨
-    ASIDE 🟩🟩🟩🟩🟩
+    ACRES 🟨⬜🟨⬜🟨
+    ROAST 🟩🟩🟩🟩🟩
+    3/6
+    ROAST ⬜⬜🟨🟨🟨
+    TAPES 🟨🟩⬜🟨🟨
+    CASTE 🟩🟩🟩🟩🟩
+    2/6
+    CASTE ⬜🟩🟩⬜⬜
+    BASIL 🟩🟩🟩🟩🟩
     4/6
-    ASIDE ⬜⬜⬜⬜🟨
-    ENROL 🟨⬜⬜⬜⬜
-    WECHT 🟨🟨⬜⬜🟩
-    TWEET 🟩🟩🟩🟩🟩
-    5/6
-    TWEET ⬜🟨⬜⬜⬜
-    WOADS 🟨🟨⬜⬜🟨
-    SCOWL 🟩⬜🟩🟩⬜
-    SHOWY 🟩🟩🟩🟩⬜
-    SHOWN 🟩🟩🟩🟩🟩
-    4/6
-    SHOWN ⬜⬜⬜⬜⬜
-    LITER ⬜⬜🟨⬜🟨
-    PARTY 🟨⬜🟨🟨🟨
-    CRYPT 🟩🟩🟩🟩🟩
-    Final 2/2
-    BORDE ⬜🟨🟨🟨🟨
-    OLDER 🟩🟩🟩🟩🟩
+    BASIL ⬜⬜⬜⬜🟩
+    GROWL ⬜🟨⬜⬜🟩
+    KNURL ⬜⬜⬜🟨🟩
+    REPEL 🟩🟩🟩🟩🟩
+    Final 1/2
+    ENJOY 🟩🟩🟩🟩🟩
 
-# dontwordle.com 🧩 #1231 🥳 6 ⏱️ 21:56:46.165898
+# dontwordle.com 🧩 #1232 🥳 6 ⏱️ 23:21:01.512312
 
 📜 1 sessions
-💰 score: 12
+💰 score: 10
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:JINNI n n n n n remain:7302
-    ⬜⬜⬜⬜⬜ tried:POOPY n n n n n remain:3137
-    ⬜⬜⬜⬜⬜ tried:KUDZU n n n n n remain:1452
-    ⬜🟨⬜⬜⬜ tried:CRWTH n m n n n remain:211
-    ⬜🟨🟨⬜⬜ tried:BARBS n m m n n remain:23
-    ⬜🟩🟩🟩⬜ tried:ALARM n Y Y Y n remain:2
+    ⬜⬜⬜⬜⬜ tried:ZIZIT n n n n n remain:6979
+    ⬜⬜⬜⬜⬜ tried:KABAB n n n n n remain:2765
+    ⬜⬜⬜⬜⬜ tried:DUMMY n n n n n remain:870
+    ⬜⬜⬜⬜⬜ tried:GRRRL n n n n n remain:241
+    ⬜⬜⬜⬜🟩 tried:FENCE n n n n Y remain:8
+    ⬜🟩🟩🟨🟩 tried:WHOSE n Y Y m Y remain:2
 
-    Undos used: 2
+    Undos used: 4
 
       2 words remaining
-    x 6 unused letters
-    = 12 total score
+    x 5 unused letters
+    = 10 total score
 
-# cemantle.certitudes.org 🧩 #1281 🥳 266 ⏱️ 22:00:54.749906
+# cemantle.certitudes.org 🧩 #1282 🥳 264 ⏱️ 23:23:32.459002
 
-🤔 267 attempts
+🤔 265 attempts
+📜 1 sessions
+🫧 15 chat sessions
+⁉️ 88 chat prompts
+🤖 15 llama3.2:latest replies
+🤖 73 gemma3:latest replies
+🔥   1 🥵  11 😎  48 🥶 203 🧊   1
+
+      $1 #265   ~1 parallel         100.00°C 🥳 1000‰
+      $2 #216  ~17 analogous         47.31°C 🔥  998‰
+      $3  #11  ~59 contradiction     38.28°C 🥵  977‰
+      $4 #140  ~30 divergent         37.85°C 🥵  976‰
+      $5 #237  ~10 opposite          37.64°C 🥵  975‰
+      $6 #106  ~38 intersect         36.68°C 🥵  962‰
+      $7 #228  ~13 similar           36.37°C 🥵  959‰
+      $8 #258   ~4 alternating       36.07°C 🥵  955‰
+      $9  #61  ~47 binary            35.69°C 🥵  952‰
+     $10  #45  ~51 disjunction       35.04°C 🥵  946‰
+     $11 #162  ~25 asymmetrical      34.49°C 🥵  937‰
+     $14  #95  ~40 overlap           33.29°C 😎  898‰
+     $62  #71      divide            25.14°C 🥶
+    $265   #7      rust              -8.14°C 🧊
+
+# cemantix.certitudes.org 🧩 #1315 🥳 287 ⏱️ 23:26:56.505983
+
+🤔 288 attempts
 📜 1 sessions
 🫧 14 chat sessions
-⁉️ 85 chat prompts
-🤖 27 llama3.2:latest replies
-🤖 58 gemma3:latest replies
-🔥   2 🥵  16 😎  52 🥶 182 🧊  14
+⁉️ 89 chat prompts
+🤖 10 llama3.2:latest replies
+🤖 79 gemma3:latest replies
+😱   1 🔥   5 🥵  40 😎  79 🥶 143 🧊  19
 
-      $1 #267   ~1 consultation     100.00°C 🥳 1000‰
-      $2  #78  ~56 review            47.73°C 🔥  997‰
-      $3 #144  ~40 input             42.44°C 🔥  993‰
-      $4  #83  ~53 evaluation        39.67°C 🥵  988‰
-      $5  #81  ~55 assessment        36.58°C 🥵  983‰
-      $6  #84  ~52 feedback          36.16°C 🥵  981‰
-      $7 #200  ~21 mediation         34.85°C 🥵  970‰
-      $8 #196  ~22 implementation    34.63°C 🥵  967‰
-      $9 #193  ~24 framework         33.63°C 🥵  961‰
-     $10 #150  ~38 examination       33.44°C 🥵  959‰
-     $11 #266   ~2 clarification     33.38°C 🥵  958‰
-     $20 #260   ~6 reevaluation      30.57°C 😎  890‰
-     $72 #156      research          20.78°C 🥶
-    $254   #4      melancholy        -0.61°C 🧊
-
-# cemantix.certitudes.org 🧩 #1314 🥳 432 ⏱️ 22:06:26.198504
-
-🤔 433 attempts
-📜 1 sessions
-🫧 20 chat sessions
-⁉️ 125 chat prompts
-🤖 20 llama3.2:latest replies
-🤖 105 gemma3:latest replies
-😱   1 🔥   5 🥵   8 😎  72 🥶 273 🧊  73
-
-      $1 #433   ~1 mondialisation        100.00°C 🥳 1000‰
-      $2 #348  ~35 globalisation          79.59°C 😱  999‰
-      $3 #401  ~10 capitalisme            58.41°C 🔥  997‰
-      $4 #365  ~24 économique             56.61°C 🔥  996‰
-      $5 #354  ~31 internationalisation   54.88°C 🔥  995‰
-      $6 #400  ~11 libéralisme            53.18°C 🔥  993‰
-      $7 #355  ~30 mondial                53.07°C 🔥  992‰
-      $8 #364  ~25 économie               52.04°C 🥵  988‰
-      $9 #350  ~34 délocalisation         51.17°C 🥵  984‰
-     $10 #408   ~5 politique              47.95°C 🥵  972‰
-     $11 #153  ~66 émergence              44.43°C 🥵  957‰
-     $16 #206  ~58 crise                  38.36°C 😎  875‰
-     $88 #193      renouveau              24.76°C 🥶
-    $361 #170      sédiment               -0.11°C 🧊
+      $1 #288   ~1 comparaison       100.00°C 🥳 1000‰
+      $2  #72 ~101 comparer           80.63°C 😱  999‰
+      $3 #187  ~37 similitude         51.89°C 🔥  995‰
+      $4  #45 ~119 analyse            51.74°C 🔥  994‰
+      $5  #49 ~116 corrélation        51.69°C 🔥  993‰
+      $6 #227  ~15 similarité         51.25°C 🔥  992‰
+      $7 #164  ~56 différence         50.29°C 🔥  991‰
+      $8 #162  ~58 similaire          47.60°C 🥵  989‰
+      $9  #64 ~108 résultat           47.34°C 🥵  988‰
+     $10 #146  ~67 extrapolation      47.20°C 🥵  987‰
+     $11 #191  ~34 analogie           47.05°C 🥵  986‰
+     $48 #100  ~84 distinguer         36.94°C 😎  891‰
+    $127  #53      gradient           25.10°C 🥶
+    $270 #161      revenir            -0.07°C 🧊
