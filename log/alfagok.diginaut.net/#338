@@ -1,0 +1,47 @@
+T78305.4414515458 now: 2025-10-06T11:51:35UTC
+TD53 site: alfagok.diginaut.net
+TDD152398 loaded 399706 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1146 words excluded) asof bfa07ba5b8e464a0be378110d9dafccbee4723d7
+TDD3758542  ...
+TDD137587 [0 : 199834 : 399706] lijm? a
+TDD-4048377 progress: 1 199834 lijm
+TDD1620378 [199835 : 299752 : 399706] schub? a
+TDD-1620476 progress: 1 299752 schub
+TDD2760152 [299753 : 349536 : 399706] vakantie? b
+TDD-2760160 progress: -1 349536 vakantie
+TDD1862799 [299753 : 324327 : 349536] sub? b
+TDD-1862798 progress: -1 324327 sub
+TDD5010724 [299753 : 311922 : 324327] spier? b
+TDD-5010720 progress: -1 311922 spier
+TDD9103628 [299753 : 305816 : 311922] slijm? b
+TDD-9103642 progress: -1 305816 slijm
+TDD2460955 [299753 : 302782 : 305816] shredder? a
+TDD-2460956 progress: 1 302782 shredder
+TDD2165167 [302783 : 304296 : 305816] skelet? a
+TDD-2165164 progress: 1 304296 skelet
+TDD1906239 [304297 : 304869 : 305816] slag? b
+TDD-1906218 progress: -1 304869 slag
+TDD1812996 [304297 : 304528 : 304869] slaap? b
+TDD-1813022 progress: -1 304528 slaap
+TDD1626046 [304297 : 304319 : 304528] ski? a
+TDD-1626037 progress: 1 304319 ski
+TDD1579235 [304320 : 304422 : 304528] skip? a
+TDD-1579222 progress: 1 304422 skip
+TDD1579437 [304423 : 304475 : 304528] skunk? a
+TDD-1579446 progress: 1 304475 skunk
+TDD2142077 [304476 : 304499 : 304528] slaa? !
+TDD454244 [304476 : 304499 : 304527] slaaf? it
+TDD-2596332 progress: 0 304499 slaaf
+TDD-69 [304476 : 304499 : 304527] <Done>.
+TDD2806718 📋> 
+TDD-1616342 📋> 🧩 Puzzel #338
+TDD-1190298 📋> 🤔 14 gokken
+TDD-76 📋> ⏱️ 38s
+TDD695756 📋> 🔗 alfagok.diginaut.net
+TDD-328915 📋> ␚
+TDD-366770 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\n\ud83e\udde9 Puzzel #338\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 38s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD223 result: "\n\ud83e\udde9 Puzzel #338\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 38s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-296 result puzzle: 338
+TDD5 result guesses: 14
+TDD-15 result time: 38s
+TDD0 result link: alfagok.diginaut.net
+TDD576581 📆 2025-10-06 ? 
