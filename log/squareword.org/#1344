@@ -1,0 +1,107 @@
+T78421.34017844126 now: 2025-10-06T11:53:30UTC
+TD22741 site: squareword.org
+TDD-22664 wordlist: nwl2023.txt
+TDD3117740  ...
+TDD-631237 🧩  ? #1344
+TDD-2486399 puzzle_id: #1344
+TDD991477 > *
+TDD2442959 try? 1
+TDD-3434429 questioning: ["tares", "#5"]
+TDD6677132 #1 _____  📋 "tares" ? _____ ~ RS
+TDD-6676920 attempt 0 TARES n n m n m
+TDD2788326 #2 _____  📋 "tares" ? _____ ~ AE
+TDD-2788552 attempt 1 TARES n m n m n
+TDD3745432 #3 _____  📋 "tares" ? ___E_ ~ TA
+TDD-3745443 attempt 2 TARES m m n Y n
+TDD3505068 #4 _____  📋 "tares" ? ___E_ ~ TES
+TDD-3505056 attempt 3 TARES m n n Y m
+TDD2187683 #5 _____  📋 "tares" ? _AR__ ~ R
+TDD-2187695 attempt 4 TARES n Y Y n n
+TDD738392 ? 
+TDD-738434 question done
+TDD2458147 > ␚
+TDD-2458189 <EOF>
+TDD1233357 > 
+TDD-455188 > ␚
+T78575.74278436787 now: 2025-10-06T11:56:05UTC
+TD2258930  ...
+TDD893937 > *
+TDD-1268734 try? 1
+TDD-1883951 questioning: ["aglet", "#3"]
+TDD4548889 #1 _____ ~RS -AET  📋 "aglet" ? .
+TDD-4548910 attempt 0 AGLET n n n n n
+TDD980736 #2 _____ ~AE -RST  📋 "aglet" ? .
+TDD-980714 attempt 1 AGLET m n n m n
+TDD2681359 #3 ___E_ ~AT -RS  📋 "aglet" ? A__E_ ~ T
+TDD-2681352 attempt 2 AGLET Y n n Y m
+TDD4184256 #4 ___E_ ~ST -AR  📋 "aglet" ? ___E_ ~ TES
+TDD-4184292 attempt 3 AGLET n n n Y m
+TDD3680571 #5 _AR__ -EST  📋 "aglet" ? _AR__ ~ R
+TDD-3680547 attempt 4 AGLET n n n n n
+TDD246473 ? 
+TDD-246554 question done
+TDD779785 > *
+TDD19932580 try? 2
+TDD-20712299 questioning: ["acted", "#3"]
+TDD5917020 #1 _____ ~RS -AEGLT  📋 "acted" ? _____ ~ RSC
+TDD-5917009 attempt 0 ACTED n m n n n
+TDD1604577 #2 _____ ~AE -GLRST  📋 "acted" ? .
+TDD-1604572 attempt 1 ACTED m n n m n
+TDD1623376 #3 A__E_ ~T -GLRS  📋 "acted" ? /it
+TDD-1623399 attempt 2 ACTED Y Y Y Y Y
+TDD3200175 #4 ___E_ ~ST -AGLR  📋 "acted" ? ___ED ~ TES
+TDD-3200173 attempt 3 ACTED n n m Y Y
+TDD1903091 #5 _AR__ -AEGLST  📋 "acted" ? _AR__ ~ R
+TDD-1903098 attempt 4 ACTED n n n n n
+TDD279929 ? 
+TDD-279984 question done
+TDD681671 > *
+TDD-51952 questioning: ["crisp", "#1"]
+TDD3513004 #1 _____ ~CRS -ADEGLT  📋 "crisp" ? /it
+TDD-4142645 attempt 0 CRISP Y Y Y Y Y
+TDD1496853 #2 _____ ~AE -CDGLRST  📋 "crisp" ? .
+TDD-1496836 attempt 1 CRISP n n n n n
+TDD4789239 #4 ___ED ~ST -ACGLR  📋 "crisp" ? ___ED ~ TES
+TDD-4789252 attempt 3 CRISP n n n m n
+TDD2109830 #5 _AR__ -ACDEGLST  📋 "crisp" ? _AR__ ~ R
+TDD-2109858 attempt 4 CRISP n m n n n
+TDD256713 ? 
+TDD-256760 question done
+TDD559603 > *
+TDD1034092 questioning: ["henna", "#2"]
+TDD1719266 #2 _____ ~AE -CDGILPRST  📋 "henna" ? /it
+TDD-3312904 attempt 1 HENNA Y Y Y Y Y
+TDD4921782 #4 ___ED ~ST -ACGILPR  📋 "henna" ? ___ED ~ TES
+TDD-4921800 attempt 3 HENNA n m n n n
+TDD2060276 #5 _AR__ -ACDEGILPST  📋 "henna" ? _AR__ ~ R
+TDD-2060267 attempt 4 HENNA n n n n n
+TDD194450 ? 
+TDD-194526 question done
+TDD600465 > *
+TDD808672 questioning: ["steed", "#4"]
+TDD3152449 #4 ___ED ~ST -ACGHILNPR  📋 "steed" ? /it
+TDD-4561495 attempt 3 STEED Y Y Y Y Y
+TDD2693980 #5 _AR__ -ACDEGHILNPST  📋 "steed" ? _AR__ ~ R
+TDD-2693992 attempt 4 STEED n n n n n
+TDD785243 ? 
+TDD-785289 question done
+TDD1051671 > *
+TDD-129565 questioning: ["marry", "#5"]
+TDD4527412 #5 _AR__ -ACDEGHILNPST  📋 "marry" ? /it
+TDD-5449466 attempt 4 MARRY Y Y Y Y Y
+TDD1578798 ? 
+TDD-1578866 question done
+TDD3687085 📋> squareword.org 1344: 7 guesses
+TDD-3687113 📋> 
+TDD-48 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟩🟩
+TDD0 📋> 🟨🟩🟩🟨🟨
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD355570 📋> #squareword #squareword1344
+TDD-18835 📋> ␚
+TDD-336675 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1344: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1344"}
+TDD356 result: "squareword.org 1344: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1344"
+TDD530424 📆 2025-10-06 ? 
