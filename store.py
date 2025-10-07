@@ -239,7 +239,8 @@ class StoredLog:
                 ent.write(f'w/ {given_input!r}')
             st = make_oneshot(st, given_input)
 
-        return ui.run(st)
+        with self:
+            return ui.run(st)
 
     dt_fmt: str = '%Y-%m-%dT%H:%M:%S%Z'
     default_site: str = ''
@@ -255,6 +256,11 @@ class StoredLog:
         self.loaded: bool = False
         self.log_start: datetime.datetime|None = None
         self.result_text: str = ''
+
+        self.std_prompt: PromptUI.Prompt = PromptUI.Prompt('> ', {
+            '/site': self.cmd_site_link,
+            '/store': self.cmd_store,
+        })
 
         self.expired_prompt: PromptUI.Prompt = PromptUI.Prompt(self.expired_prompt_mess, {
             'archive': self.expired_do_archive,
@@ -276,6 +282,19 @@ class StoredLog:
 
     def set_result_text(self, txt: str):
         self.result_text = txt
+
+    def __enter__(self):
+        # TODO log file handling here?
+        return self
+
+    def __exit__(
+        self,
+        exc_type: type[BaseException] | None,
+        exc: BaseException | None,
+        exc_tb: TracebackType | None,
+    ):
+        # TODO log file handling here?
+        pass
 
     @property
     def expire(self) -> datetime.datetime|None:
