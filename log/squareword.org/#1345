@@ -1,0 +1,101 @@
+T83502.20801698603 now: 2025-10-07T12:22:09UTC
+TD50 site: squareword.org
+TDD-15 wordlist: nwl2023.txt
+TDD5232106  ...
+TDD-2860560 🧩  ? #1345
+TDD-2371415 puzzle_id: #1345
+TDD2902825 > *
+TDD-1445900 try? 1
+TDD-1456909 questioning: ["lears", "#5"]
+TDD5877580 #1 _____  📋 "lears" ? _____ ~ S
+TDD-5877366 attempt 0 LEARS n n n n m
+TDD3525702 #2 _____  📋 "lears" ? L__R_ ~ E
+TDD-3525918 attempt 1 LEARS Y m n Y n
+TDD3101814 #3 _____  📋 "lears" ? _____ ~ A
+TDD-3101839 attempt 2 LEARS n n m n n
+TDD3983570 #4 _____  📋 "lears" ? ____S
+TDD-3983534 attempt 3 LEARS n n n n Y
+TDD4126928 #5 _____  📋 "lears" ? _E___ ~ ES
+TDD-4126934 attempt 4 LEARS n Y n n m
+TDD679300 ? 
+TDD-679397 question done
+TDD790328 > *
+TDD2289610 try? 1
+TDD-3079843 questioning: ["litre", "#2"]
+TDD8109703 #1 _____ ~S -AELR  📋 "litre" ? _____ ~ SIT
+TDD-8109722 attempt 0 LITRE n m m n n
+TDD3839804 #2 L__R_ ~E -AS  📋 "litre" ? L__RE
+TDD-3839808 attempt 1 LITRE Y n n Y Y
+TDD6551187 #3 _____ ~A -ELRS  📋 "litre" ? _____ ~ AI
+TDD-6551186 attempt 2 LITRE n m n n n
+TDD3016591 #4 ____S -AELR  📋 "litre" ? ____S ~ I
+TDD-3016586 attempt 3 LITRE n m n n n
+TDD3088907 #5 _E___ ~S -ALR  📋 "litre" ? _E__E ~ S
+TDD-3088914 attempt 4 LITRE n n n n Y
+TDD532852 ? 
+TDD-532877 question done
+TDD669451 > *
+TDD-104857 questioning: ["lucre", "#2"]
+TDD7865644 #1 _____ ~IST -AELR  📋 "lucre" ? .
+TDD-8430197 attempt 0 LUCRE n n n n n
+TDD764704 #2 L__RE -AIST  📋 "lucre" ? /it
+TDD-764710 attempt 1 LUCRE Y Y Y Y Y
+TDD1371222 #3 _____ ~AI -ELRST  📋 "lucre" ? .
+TDD-1371220 attempt 2 LUCRE n n n n n
+TDD3467685 #4 ____S ~I -AELRT  📋 "lucre" ? ____S ~ IC
+TDD-3467682 attempt 3 LUCRE n n m n n
+TDD1843048 #5 _E__E ~S -AILRT  📋 "lucre" ? .
+TDD-1843049 attempt 4 LUCRE n n n n Y
+TDD241132 ? 
+TDD-241248 question done
+TDD623763 > *
+TDD2254625 try? 1
+TDD-2878271 questioning: ["posit", "#1"]
+TDD3213066 #1 _____ ~IST -ACELRU  📋 "posit" ? /it
+TDD-3213087 attempt 0 POSIT Y Y Y Y Y
+TDD3332116 #3 _____ ~AI -CELRSTU  📋 "posit" ? _____ ~ AIO
+TDD-3332094 attempt 2 POSIT n m n m n
+TDD3581279 #4 ____S ~CI -AELRTU  📋 "posit" ? ____S ~ ICO
+TDD-3581283 attempt 3 POSIT n m n m n
+TDD2058024 #5 _E__E ~S -ACILRTU  📋 "posit" ? .
+TDD-2058028 attempt 4 POSIT n n m n n
+TDD187561 ? 
+TDD-187648 question done
+TDD2768502 > *
+TDD-1201032 questioning: ["anion", "#3"]
+TDD2627170 #3 _____ ~AIO -CELPRSTU  📋 "anion" ? /it
+TDD-4194548 attempt 2 ANION Y Y Y Y Y
+TDD5957919 #4 ____S ~CIO -AELPRSTU  📋 "anion" ? ____S ~ ICON
+TDD-5957932 attempt 3 ANION n m m m m
+TDD3414362 #5 _E__E ~S -ACILOPRTU  📋 "anion" ? _E__E ~ SN
+TDD-3414366 attempt 4 ANION n m n n m
+TDD210806 ? 
+TDD-210854 question done
+TDD526181 > *
+TDD833839 questioning: ["icons", "#4"]
+TDD1598168 #4 ____S ~CINO -AELPRSTU  📋 "icons" ? /it
+TDD-2958145 attempt 3 ICONS Y Y Y Y Y
+TDD2758866 #5 _E__E ~NS -ACILOPRTU  📋 "icons" ? .
+TDD-2758850 attempt 4 ICONS n n n m m
+TDD358719 ? 
+TDD-358787 question done
+TDD652584 > *
+TDD256571 questioning: ["dense", "#5"]
+TDD2811029 #5 _E__E ~NS -ACILOPRTU  📋 "dense" ? /it
+TDD-3720129 attempt 4 DENSE Y Y Y Y Y
+TDD2503817 ? 
+TDD-2503865 question done
+TDD5203596 📋> squareword.org 1345: 7 guesses
+TDD-5203623 📋> 
+TDD-57 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟨🟩
+TDD-1 📋> 🟨🟩🟨🟨🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD466837 📋> #squareword #squareword1345
+TDD-218517 📋> ␚
+TDD-248283 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1345: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1345"}
+TDD302 result: "squareword.org 1345: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1345"
+TDD420445 📆 2025-10-07 ? 
