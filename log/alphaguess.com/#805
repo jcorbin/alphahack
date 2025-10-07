@@ -1,0 +1,44 @@
+T83461.44903991744 now: 2025-10-07T12:21:28UTC
+TD55 site: alphaguess.com
+TDD62028 loaded 196547 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (56 words excluded) asof a02274c2713b4ccd123d1fe97427d69935e2dd88
+TDD6633270  ...
+TDD-4666741 [0 : 98231 : 196547] mach? b
+TDD-2028527 progress: -1 98231 mach
+TDD1600955 [0 : 47392 : 98231] dis? b
+TDD-1600944 progress: -1 47392 dis
+TDD1492281 [0 : 23693 : 47392] camp? b
+TDD-1492278 progress: -1 23693 camp
+TDD1659485 [0 : 11770 : 23693] back? a
+TDD-1659489 progress: 1 11770 back
+TDD1577793 [11771 : 17725 : 23693] blind? a
+TDD-1577801 progress: 1 17725 blind
+TDD1770267 [17726 : 20697 : 23693] brill? b
+TDD-1770255 progress: -1 20697 brill
+TDD1600072 [17726 : 19170 : 20697] boot? a
+TDD-1600083 progress: 1 19170 boot
+TDD1508262 [19171 : 19884 : 20697] bra? a
+TDD-1508238 progress: 1 19884 bra
+TDD1997607 [19885 : 20279 : 20697] braze? a
+TDD-1997619 progress: 1 20279 braze
+TDD1543084 [20280 : 20465 : 20697] bree? b
+TDD-1543074 progress: -1 20465 bree
+TDD1507488 [20280 : 20342 : 20465] break? b
+TDD-1507503 progress: -1 20342 break
+TDD1838374 [20280 : 20308 : 20342] bread? it
+TDD-1838374 progress: 0 20308 bread
+TDD-68 [20280 : 20308 : 20342] <Done>.
+TDD4197658 📋> 🧩 Puzzle #805
+TDD-4197599 📋> 
+TDD-50 📋> 🤔 12 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 18s
+TDD1 📋> 
+TDD455055 📋> 🔗 alphaguess.com
+TDD-155120 📋> ␚
+TDD-299892 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #805\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 18s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-8 result: "\ud83e\udde9 Puzzle #805\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 18s\n\n\ud83d\udd17 alphaguess.com"
+TDD-47 result puzzle: 805
+TDD-4 result guesses: 12
+TDD-1 result time: 18s
+TDD0 result link: alphaguess.com
+TDD731321 📆 2025-10-07 ? 
