@@ -210,6 +210,8 @@ def part_seq[T](sq: Sequence[T], token: T):
         if cur:
             yield tuple(cur)
 
+# TODO rebase over PromptUI.Arguable
+
 class StoredLog:
     @classmethod
     def main(cls):
@@ -239,7 +241,8 @@ class StoredLog:
                 ent.write(f'w/ {given_input!r}')
             st = make_oneshot(st, given_input)
 
-        return ui.run(st)
+        with self:
+            return ui.run(st)
 
     dt_fmt: str = '%Y-%m-%dT%H:%M:%S%Z'
     default_site: str = ''
@@ -255,6 +258,11 @@ class StoredLog:
         self.loaded: bool = False
         self.log_start: datetime.datetime|None = None
         self.result_text: str = ''
+
+        self.std_prompt: PromptUI.Prompt = PromptUI.Prompt('> ', {
+            '/site': self.cmd_site_link,
+            '/store': self.cmd_store,
+        })
 
         self.expired_prompt: PromptUI.Prompt = PromptUI.Prompt(self.expired_prompt_mess, {
             'archive': self.expired_do_archive,
@@ -277,6 +285,19 @@ class StoredLog:
     def set_result_text(self, txt: str):
         self.result_text = txt
 
+    def __enter__(self):
+        # TODO log file handling here?
+        return self
+
+    def __exit__(
+        self,
+        exc_type: type[BaseException] | None,
+        exc: BaseException | None,
+        exc_tb: TracebackType | None,
+    ):
+        # TODO log file handling here?
+        pass
+
     @property
     def expire(self) -> datetime.datetime|None:
         return None
@@ -289,6 +310,13 @@ class StoredLog:
         '''
         present puzzle site hyperlink... or "copy" to clipboard
         '''
+
+        # TODO if ui.tokens -> set and log?
+        #     site = next(tokens, None)
+        #     if site:
+        #         self.site = site
+        #         ui.log(f'site: {self.site}')
+
         label = self.site_name or self.site
         url = self.site
         if '://'not in url:
@@ -330,6 +358,7 @@ class StoredLog:
 
     @deprecated('use .review_prompt directly')
     def review(self, ui: PromptUI) -> PromptUI.State|None:
+        # TODO maybe finish like square
         return self.review_prompt(ui)
 
     @deprecated('use .review_prompt.handle directly')
@@ -368,6 +397,10 @@ class StoredLog:
         return self.__class__.log_file
 
     def finalize(self, ui: PromptUI):
+        # TODO mostly obsoletes branches below `not self.stored` like the
+        #      dirty branch, since there's (no easy?) path to a actively
+        #      iterating on a stored session
+        # if self.ephemeral:
         if self.stored and self.ephemeral:
             return self.cont_rep(ui).restart(
                 ui,
@@ -381,6 +414,8 @@ class StoredLog:
         if not self.stored:
             return self.store
 
+        # TODO zombie branch; not provably dead, but in practice we don't
+        #      open stored log for appending
         if self.dirty:
             with git_txn(f'{self.site_name or self.store_name} {self.puzzle_id} result', ui=ui) as txn:
                 txn.add(self.log_file)
@@ -761,11 +796,27 @@ class StoredLog:
         self.set_log_file(ui, log_file)
 
     def set_log_file(self, ui: PromptUI, log_file: str):
+        if self.loaded and log_file == self.log_file:
+            with ui.trace_entry('set_log_file noop') as ent:
+                ent.write(f'ephemeral:{self.ephemeral}')
+            return
+        if not self.ephemeral:
+            with ui.trace_entry('set_log_file not-ephemeral') as ent:
+                raise RuntimeError('set_log_file must be ephemeral (pre load and append/log_to')
         if self.loaded:
             self.__init__()
         if log_file and os.path.exists(log_file):
             with open(log_file, 'r') as f:
-                for _ in self.load(ui, f): pass
+                for _ in self.load(ui, f):
+
+                    # TODO last pasted -> resume dev convenience
+                    # self.log(f'pasted: {json.dumps({
+                    #     "subject": subject,
+                    #     "method": method,
+                    #     "content": content,
+                    # })}')
+
+                    pass
         self.loaded = True
         self.log_file = log_file
 
@@ -1181,6 +1232,8 @@ class StoredLog:
     def do_report(self, ui: PromptUI):
         head_id = self.report_header(desc='')
         note_id = self.report_note(desc='')
+
+        # TODO factor def rep_lines(lines: Iterable[str]) -> Generator[str] out of below
 
         def rep(line: str) -> Iterable[str]|None:
             if line.startswith(head_id):
