@@ -1237,9 +1237,10 @@ class PromptUI:
     def check_proc[T: (str, bytes)](self, proc: subprocess.Popen[T]):
         with proc:
             self.print(f'$ {
-               str(proc.args) if isinstance(proc.args, os.PathLike)
-               else shlex.join(str(arg) for arg in proc.args) }')
-
+               str(proc.args) if isinstance(proc.args, os.PathLike) else
+               proc.args if isinstance(proc.args, str) else
+               proc.args.decode() if isinstance(proc.args, bytes) else
+               shlex.join(str(arg) for arg in proc.args) }')
             try:
                 yield proc
             except:
@@ -1249,6 +1250,10 @@ class PromptUI:
         if retcode != 0:
             self.print(f'! exited {retcode}')
             raise subprocess.CalledProcessError(retcode, proc.args)
+
+    def check_call[T: (str, bytes)](self, proc: subprocess.Popen[T]):
+        with self.check_proc(proc):
+            pass
 
 class Lister(Protocol):
     def __len__(self) -> int:
