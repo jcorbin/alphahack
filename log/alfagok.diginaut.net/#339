@@ -1,0 +1,57 @@
+T83400.3544369638 now: 2025-10-07T12:20:27UTC
+TD55 site: alfagok.diginaut.net
+TDD148812 loaded 399705 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1147 words excluded) asof a02274c2713b4ccd123d1fe97427d69935e2dd88
+TDD4442283  ...
+TDD2938091 [0 : 199834 : 399705] lijm? a
+TDD-7529038 progress: 1 199834 lijm
+TDD2152386 [199835 : 299752 : 399705] schub? b
+TDD-2152488 progress: -1 299752 schub
+TDD1601685 [199835 : 247745 : 299752] op? a
+TDD-1601692 progress: 1 247745 op
+TDD1578105 [247746 : 273551 : 299752] proef? a
+TDD-1578118 progress: 1 273551 proef
+TDD2154291 [273552 : 286622 : 299752] rijs? b
+TDD-2154275 progress: -1 286622 rijs
+TDD1717693 [273552 : 280075 : 286622] rechtst? a
+TDD-1717696 progress: 1 280075 rechtst
+TDD1836628 [280076 : 283169 : 286622] rel? b
+TDD-1836642 progress: -1 283169 rel
+TDD1743368 [280076 : 281587 : 283169] regen? b
+TDD-1743358 progress: -1 281587 regen
+TDD1547050 [280076 : 280816 : 281587] redding? a
+TDD-1547040 progress: 1 280816 redding
+TDD2225582 [280817 : 281194 : 281587] ref? b
+TDD-2225597 progress: -1 281194 ref
+TDD1958354 [280817 : 280911 : 281194] rede? a
+TDD-1958352 progress: 1 280911 rede
+TDD2002777 [280912 : 281052 : 281194] reduceer? a
+TDD-2002762 progress: 1 281052 reduceer
+TDD1837091 [281053 : 281120 : 281194] reef? b
+TDD-1837107 progress: -1 281120 reef
+TDD2026979 [281053 : 281061 : 281120] reductie? a
+TDD-2026973 progress: 1 281061 reductie
+TDD2230901 [281062 : 281089 : 281120] reductio? !
+TDD139931 [281062 : 281090 : 281119] reductionist? a
+TDD-2370823 progress: 1 281090 reductionist
+TDD1911708 [281091 : 281104 : 281119] ree? a
+TDD-1911728 progress: 1 281104 ree
+TDD1747290 [281105 : 281111 : 281119] reed? a
+TDD-1747293 progress: 1 281111 reed
+TDD2651596 [281112 : 281115 : 281119] reeder? !
+TDD388558 [281112 : 281115 : 281118] reedijk? !
+TDD-338653 [281112 : 281115 : 281117] reeds? it
+TDD-2701493 progress: 0 281115 reeds
+TDD-55 [281112 : 281115 : 281117] <Done>.
+TDD3200589 📋> 
+TDD-2214343 📋> 🧩 Puzzel #339
+TDD-986189 📋> 🤔 18 gokken
+TDD-53 📋> ⏱️ 41s
+TDD516849 📋> 🔗 alfagok.diginaut.net
+TDD115320 📋> ␚
+TDD-632138 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\n\ud83e\udde9 Puzzel #339\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 41s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD245 result: "\n\ud83e\udde9 Puzzel #339\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 41s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-294 result puzzle: 339
+TDD-8 result guesses: 18
+TDD-2 result time: 41s
+TDD0 result link: alfagok.diginaut.net
+TDD659541 📆 2025-10-07 ? 
