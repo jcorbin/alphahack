@@ -1,0 +1,78 @@
+T83650.21196608245 now: 2025-10-07T12:24:37UTC
+TD63 site: https://play.dictionary.com/games/todays-hurdle
+TDD-29 wordlist: nwl2023.txt
+TDD4457435  ...
+TDD11680199 1.1> *
+TDD-9671232 1.1 ? 2
+TDD-1113455 1.1 📋 "acres" ? MnMnM
+TDD-5352755 tried: ACRES m n m n m
+TDD1361597 1.2> *
+TDD722131 1.2 ? 2
+TDD3600471 1.2 📋 "roast" ? it
+TDD-5684299 tried: ROAST Y Y Y Y Y
+TDD9493517 2.1 📋 "roast" ? nnMMM
+TDD-9493497 tried: ROAST n n m m m
+TDD5512589 2.2> *
+TDD-3402329 2.2 ? 2
+TDD2037470 2.2 📋 "tapes" ? MYnMM
+TDD-4147738 tried: TAPES m Y n m m
+TDD507922 2.3> *
+TDD1715596 2.3 ? 1
+TDD1666809 2.3 📋 "caste" ? it
+TDD-3890351 tried: CASTE Y Y Y Y Y
+TDD37844953 3.1 📋 "caste" ? nYYnn
+TDD-37844906 tried: CASTE n Y Y n n
+TDD584983 3.2> *
+TDD4629470 3.2 ? 7
+TDD-549335 3.2 📋 "basil" ? it
+TDD-4665152 tried: BASIL Y Y Y Y Y
+TDD12954825 4.1 📋 "basil" ? nnnnY
+TDD-12954803 tried: BASIL n n n n Y
+TDD1233758 4.2> *
+TDD-39467 4.2 ? 1
+TDD3475543 4.2 📋 "growl" ? nMnnY
+TDD-4669845 tried: GROWL n m n n Y
+TDD459474 4.3> *
+TDD5462154 4.3 ? 4
+TDD-694044 4.3 📋 "knurl" ? nnnMY
+TDD-5227580 tried: KNURL n n n m Y
+TDD540488 4.4> *
+TDD3404894 4.4 ? 3
+TDD-611707 4.4 📋 "repel" ? it
+TDD-3333702 tried: REPEL Y Y Y Y Y
+TDD19442777 5.1 📋 "roast" ? nMnnn
+TDD-19442757 tried: ROAST n m n n n
+TDD2861086 5.2 📋 "caste" ? nnnnM
+TDD-2861099 tried: CASTE n n n n m
+TDD1891481 5.3 📋 "basil" ? nnnnn
+TDD-1891467 tried: BASIL n n n n n
+TDD1501250 5.4 📋 "repel" ? nMnnn
+TDD-1501273 tried: REPEL n m n n n
+TDD574364 5.5> *
+TDD1283004 5.5 ? 2
+TDD3120029 5.5 📋 "enjoy" ? it
+TDD-4977389 tried: ENJOY Y Y Y Y Y
+TDD4417247 📋> Hurdle 1375
+TDD-4417280 📋> 
+TDD-75 📋> 2/6
+TDD-1 📋> 🟨⬜🟨⬜🟨
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> ⬜⬜🟨🟨🟨
+TDD0 📋> 🟨🟩⬜🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 2/6
+TDD0 📋> ⬜🟩🟩⬜⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> ⬜⬜⬜⬜🟩
+TDD0 📋> ⬜🟨⬜⬜🟩
+TDD-1 📋> ⬜⬜⬜🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD13 📋> Final 1/2
+TDD-11 📋> 🟩🟩🟩🟩🟩
+TDD699703 📋> score: 10,400
+TDD-195299 📋> ␚
+TDD-504328 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1375\n\n2/6\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n2/6\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,400"}
+TDD310 result: "Hurdle 1375\n\n2/6\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n2/6\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,400"
+TDD655830 📆 2025-10-07 ? 
