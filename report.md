@@ -1,13 +1,13 @@
-# 2025-10-07
+# 2025-10-08
 
-- 🔗 spaceword.org 🧩 2025-10-06 🏁 score 2173 ranked 8.1% 32/397 ⏱️ 3 days, 19:12:25.331105
-- 🔗 alfagok.diginaut.net 🧩 #339 🥳 21 ⏱️ 23:10:59.659463
-- 🔗 alphaguess.com 🧩 #805 🥳 12 ⏱️ 23:11:34.017588
-- 🔗 squareword.org 🧩 #1345 🥳 7 ⏱️ 23:13:57.916345
-- 🔗 dictionary.com hurdle 🧩 #1375 🥳 12 ⏱️ 23:17:26.823378
-- 🔗 dontwordle.com 🧩 #1232 🥳 6 ⏱️ 23:21:01.512312
-- 🔗 cemantle.certitudes.org 🧩 #1282 🥳 264 ⏱️ 23:23:32.459002
-- 🔗 cemantix.certitudes.org 🧩 #1315 🥳 287 ⏱️ 23:26:56.505983
+- 🔗 spaceword.org 🧩 2025-10-07 🏁 score 2173 ranked 6.4% 24/374 ⏱️ 0:48:37.812185
+- 🔗 alfagok.diginaut.net 🧩 #340 🥳 13 ⏱️ 0:00:40.737095
+- 🔗 alphaguess.com 🧩 #806 🥳 13 ⏱️ 0:00:42.991556
+- 🔗 squareword.org 🧩 #1346 🥳 7 ⏱️ 0:01:53.873615
+- 🔗 dictionary.com hurdle 🧩 #1376 🥳 14 ⏱️ 0:03:11.212753
+- 🔗 dontwordle.com 🧩 #1233 🥳 6 ⏱️ 0:01:32.564676
+- 🔗 cemantle.certitudes.org 🧩 #1283 🥳 192 ⏱️ 0:01:27.319124
+- 🔗 cemantix.certitudes.org 🧩 #1316 🥳 173 ⏱️ 0:02:16.048941
 
 # Dev
 
@@ -34,6 +34,9 @@
 
 - StoredLog: reported elapsed times are wrong; fixing this will probably pull
   down the report-re-run mused about for hurdle report debugging
+  - elapsed time is sum of session elapsed
+  - ...session elapsed is its last `T` value
+  - ...as tracked by `LogParser.log_time.t2`
 - hurdle: report wasn't right out of #1373 -- was missing first few rounds
 
 - square: finish questioning work
@@ -229,79 +232,73 @@
 
   ```
 
+# spaceword.org 🧩 2025-10-07 🏁 score 2173 ranked 6.4% 24/374 ⏱️ 0:48:37.812185
 
-# spaceword.org 🧩 2025-10-06 🏁 score 2173 ranked 8.1% 32/397 ⏱️ 3 days, 19:12:25.331105
-
-📜 4 sessions
+📜 3 sessions
 - tiles: 21/21
 - score: 2173 bonus: +73
-- rank: 32/397
+- rank: 24/374
 
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ E W E _ _ _   
-      _ _ _ _ H A D _ _ _   
-      _ _ _ _ _ V _ _ _ _   
-      _ _ _ _ S E Z _ _ _   
-      _ _ _ _ E Y E _ _ _   
-      _ _ _ _ G _ A _ _ _   
-      _ _ _ _ U _ T _ _ _   
-      _ _ _ _ E _ I _ _ _   
-      _ _ _ _ D _ N _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ E _ _ _ J _ R A N   
+      _ M _ L I O N I Z E   
+      _ O X I D E _ B O B   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
 
+# alfagok.diginaut.net 🧩 #340 🥳 13 ⏱️ 0:00:40.737095
 
-# alfagok.diginaut.net 🧩 #339 🥳 21 ⏱️ 23:10:59.659463
-
-🤔 21 attempts
+🤔 13 attempts
 📜 1 sessions
 
-    @        [     0] &-teken      
-    @+1      [     1] &-tekens     
-    @+2      [     2] -cijferig    
-    @+3      [     3] -e-mail      
-    @+199834 [199834] lijm         q0  ? after
-    @+247745 [247745] op           q2  ? after
-    @+273551 [273551] proef        q3  ? after
-    @+280075 [280075] rechtst      q5  ? after
-    @+280816 [280816] redding      q8  ? after
-    @+280911 [280911] rede         q10 ? after
-    @+281052 [281052] reduceer     q11 ? after
-    @+281061 [281061] reductie     q13 ? after
-    @+281090 [281090] reductionist q15 ? after
-    @+281104 [281104] ree          q16 ? after
-    @+281111 [281111] reed         q17 ? after
-    @+281115 [281115] reeds        q20 ? it
-    @+281115 [281115] reeds        done. it
-    @+281117 [281117] reef         q12 ? before
-    @+281191 [281191] ref          q9  ? before
-    @+281584 [281584] regen        q7  ? before
-    @+283166 [283166] rel          q6  ? before
-    @+286619 [286619] rijs         q4  ? before
-    @+299749 [299749] schub        q1  ? before
+    @        [     0] &-teken    
+    @+1      [     1] &-tekens   
+    @+2      [     2] -cijferig  
+    @+3      [     3] -e-mail    
+    @+199834 [199834] lijm       q0  ? after
+    @+247745 [247745] op         q2  ? after
+    @+260632 [260632] pater      q4  ? after
+    @+263688 [263688] pi         q6  ? after
+    @+265366 [265366] plaatsing  q7  ? after
+    @+265450 [265450] plaatsvind q11 ? after
+    @+265489 [265489] plafond    q12 ? it
+    @+265489 [265489] plafond    done. it
+    @+265541 [265541] plag       q10 ? before
+    @+265791 [265791] plannen    q9  ? before
+    @+266222 [266222] platen     q8  ? before
+    @+267085 [267085] plomp      q5  ? before
+    @+273551 [273551] proef      q3  ? before
+    @+299749 [299749] schub      q1  ? before
 
-# alphaguess.com 🧩 #805 🥳 12 ⏱️ 23:11:34.017588
+# alphaguess.com 🧩 #806 🥳 13 ⏱️ 0:00:42.991556
 
-🤔 12 attempts
+🤔 13 attempts
 📜 1 sessions
 
-    @       [    0] aa     
-    @+1     [    1] aah    
-    @+2     [    2] aahed  
-    @+3     [    3] aahing 
-    @+11770 [11770] back   q3  ? after
-    @+17725 [17725] blind  q4  ? after
-    @+19170 [19170] boot   q6  ? after
-    @+19884 [19884] bra    q7  ? after
-    @+20279 [20279] braze  q8  ? after
-    @+20308 [20308] bread  q11 ? it
-    @+20308 [20308] bread  done. it
-    @+20342 [20342] break  q10 ? before
-    @+20465 [20465] bree   q9  ? before
-    @+20697 [20697] brill  q5  ? before
-    @+23693 [23693] camp   q2  ? before
-    @+47392 [47392] dis    q1  ? before
-    @+98231 [98231] mach   q0  ? before
+    @       [    0] aa        
+    @+1     [    1] aah       
+    @+2     [    2] aahed     
+    @+3     [    3] aahing    
+    @+47392 [47392] dis       q1  ? after
+    @+72812 [72812] gremolata q2  ? after
+    @+85516 [85516] ins       q3  ? after
+    @+88676 [88676] jacks     q5  ? after
+    @+89069 [89069] jeep      q8  ? after
+    @+89109 [89109] jejunum   q11 ? after
+    @+89125 [89125] jelly     q12 ? it
+    @+89125 [89125] jelly     done. it
+    @+89149 [89149] jeopard   q10 ? before
+    @+89232 [89232] jet       q9  ? before
+    @+89467 [89467] jive      q7  ? before
+    @+90266 [90266] kaf       q6  ? before
+    @+91861 [91861] knot      q4  ? before
+    @+98231 [98231] mach      q0  ? before
 
-# squareword.org 🧩 #1345 🥳 7 ⏱️ 23:13:57.916345
+# squareword.org 🧩 #1346 🥳 7 ⏱️ 0:01:53.873615
 
 📜 1 sessions
 
@@ -311,107 +308,108 @@ Score Heatmap:
     🟩 🟩 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟨 🟨 🟩
-    🟨 🟩 🟨 🟨 🟩
+    🟨 🟨 🟨 🟨 🟨
+    🟩 🟩 🟩 🟨 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    P O S I T
-    L U C R E
-    A N I O N
-    I C O N S
-    D E N S E
+    S U R F S
+    P S A L M
+    A U D I O
+    T R I C K
+    S P O K E
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1375 🥳 12 ⏱️ 23:17:26.823378
+
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1376 🥳 14 ⏱️ 0:03:11.212753
 
 📜 1 sessions
-💰 score: 10400
+💰 score: 10200
 
-    2/6
-    ACRES 🟨⬜🟨⬜🟨
-    ROAST 🟩🟩🟩🟩🟩
     3/6
-    ROAST ⬜⬜🟨🟨🟨
-    TAPES 🟨🟩⬜🟨🟨
-    CASTE 🟩🟩🟩🟩🟩
-    2/6
-    CASTE ⬜🟩🟩⬜⬜
-    BASIL 🟩🟩🟩🟩🟩
+    REAIS ⬜⬜🟨⬜⬜
+    TONAL ⬜⬜⬜🟨🟩
+    AWFUL 🟩🟩🟩🟩🟩
+    3/6
+    AWFUL 🟨🟩⬜⬜⬜
+    TWEAK 🟨🟩⬜🟨⬜
+    SWATH 🟩🟩🟩🟩🟩
     4/6
-    BASIL ⬜⬜⬜⬜🟩
-    GROWL ⬜🟨⬜⬜🟩
-    KNURL ⬜⬜⬜🟨🟩
-    REPEL 🟩🟩🟩🟩🟩
+    SWATH ⬜⬜⬜⬜⬜
+    DECOR ⬜🟩⬜⬜⬜
+    BEGUN ⬜🟩🟨⬜🟩
+    FEIGN 🟩🟩🟩🟩🟩
+    3/6
+    FEIGN ⬜⬜🟨🟨⬜
+    GIRLS 🟩🟩🟩🟩⬜
+    GIRLY 🟩🟩🟩🟩🟩
     Final 1/2
-    ENJOY 🟩🟩🟩🟩🟩
+    STALL 🟩🟩🟩🟩🟩
 
-# dontwordle.com 🧩 #1232 🥳 6 ⏱️ 23:21:01.512312
+# dontwordle.com 🧩 #1233 🥳 6 ⏱️ 0:01:32.564676
 
 📜 1 sessions
-💰 score: 10
+💰 score: 21
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:ZIZIT n n n n n remain:6979
-    ⬜⬜⬜⬜⬜ tried:KABAB n n n n n remain:2765
-    ⬜⬜⬜⬜⬜ tried:DUMMY n n n n n remain:870
-    ⬜⬜⬜⬜⬜ tried:GRRRL n n n n n remain:241
-    ⬜⬜⬜⬜🟩 tried:FENCE n n n n Y remain:8
-    ⬜🟩🟩🟨🟩 tried:WHOSE n Y Y m Y remain:2
+    ⬜⬜⬜⬜⬜ tried:EFFED n n n n n remain:5680
+    ⬜⬜⬜⬜⬜ tried:KOOKS n n n n n remain:1422
+    ⬜⬜⬜⬜⬜ tried:MIMIC n n n n n remain:473
+    ⬜⬜⬜⬜⬜ tried:TRUTH n n n n n remain:94
+    ⬜🟨⬜⬜⬜ tried:XYLYL n m n n n remain:14
+    🟨🟩⬜⬜🟩 tried:GAPPY m Y n n Y remain:3
 
-    Undos used: 4
+    Undos used: 3
 
-      2 words remaining
-    x 5 unused letters
-    = 10 total score
+      3 words remaining
+    x 7 unused letters
+    = 21 total score
 
-# cemantle.certitudes.org 🧩 #1282 🥳 264 ⏱️ 23:23:32.459002
+# cemantle.certitudes.org 🧩 #1283 🥳 192 ⏱️ 0:01:27.319124
 
-🤔 265 attempts
+🤔 193 attempts
 📜 1 sessions
-🫧 15 chat sessions
-⁉️ 88 chat prompts
-🤖 15 llama3.2:latest replies
-🤖 73 gemma3:latest replies
-🔥   1 🥵  11 😎  48 🥶 203 🧊   1
+🫧 9 chat sessions
+⁉️ 54 chat prompts
+🤖 54 gemma3:latest replies
+🔥   1 🥵  21 😎  49 🥶 115 🧊   6
 
-      $1 #265   ~1 parallel         100.00°C 🥳 1000‰
-      $2 #216  ~17 analogous         47.31°C 🔥  998‰
-      $3  #11  ~59 contradiction     38.28°C 🥵  977‰
-      $4 #140  ~30 divergent         37.85°C 🥵  976‰
-      $5 #237  ~10 opposite          37.64°C 🥵  975‰
-      $6 #106  ~38 intersect         36.68°C 🥵  962‰
-      $7 #228  ~13 similar           36.37°C 🥵  959‰
-      $8 #258   ~4 alternating       36.07°C 🥵  955‰
-      $9  #61  ~47 binary            35.69°C 🥵  952‰
-     $10  #45  ~51 disjunction       35.04°C 🥵  946‰
-     $11 #162  ~25 asymmetrical      34.49°C 🥵  937‰
-     $14  #95  ~40 overlap           33.29°C 😎  898‰
-     $62  #71      divide            25.14°C 🥶
-    $265   #7      rust              -8.14°C 🧊
+      $1 #193   ~1 justify       100.00°C 🥳 1000‰
+      $2 #128  ~41 negate         49.33°C 🔥  990‰
+      $3 #189   ~4 vindicate      47.40°C 🥵  987‰
+      $4 #116  ~48 resist         47.10°C 🥵  985‰
+      $5 #141  ~33 refute         44.90°C 🥵  976‰
+      $6  #89  ~58 imply          44.75°C 🥵  974‰
+      $7 #129  ~40 obviate        44.43°C 🥵  973‰
+      $8 #161  ~19 undermine      44.02°C 🥵  971‰
+      $9  #80  ~65 conceal        43.96°C 🥵  970‰
+     $10 #124  ~44 deter          43.45°C 🥵  968‰
+     $11 #184   ~8 disprove       43.36°C 🥵  966‰
+     $24  #92  ~56 obfuscate      38.23°C 😎  899‰
+     $73  #49      displace       27.31°C 🥶
+    $188  #56      imprint        -0.14°C 🧊
 
-# cemantix.certitudes.org 🧩 #1315 🥳 287 ⏱️ 23:26:56.505983
+# cemantix.certitudes.org 🧩 #1316 🥳 173 ⏱️ 0:02:16.048941
 
-🤔 288 attempts
-📜 1 sessions
-🫧 14 chat sessions
-⁉️ 89 chat prompts
-🤖 10 llama3.2:latest replies
-🤖 79 gemma3:latest replies
-😱   1 🔥   5 🥵  40 😎  79 🥶 143 🧊  19
+🤔 174 attempts
+📜 2 sessions
+🫧 7 chat sessions
+⁉️ 45 chat prompts
+🤖 45 gemma3:latest replies
+😱   1 🥵  12 😎  28 🥶 125 🧊   7
 
-      $1 #288   ~1 comparaison       100.00°C 🥳 1000‰
-      $2  #72 ~101 comparer           80.63°C 😱  999‰
-      $3 #187  ~37 similitude         51.89°C 🔥  995‰
-      $4  #45 ~119 analyse            51.74°C 🔥  994‰
-      $5  #49 ~116 corrélation        51.69°C 🔥  993‰
-      $6 #227  ~15 similarité         51.25°C 🔥  992‰
-      $7 #164  ~56 différence         50.29°C 🔥  991‰
-      $8 #162  ~58 similaire          47.60°C 🥵  989‰
-      $9  #64 ~108 résultat           47.34°C 🥵  988‰
-     $10 #146  ~67 extrapolation      47.20°C 🥵  987‰
-     $11 #191  ~34 analogie           47.05°C 🥵  986‰
-     $48 #100  ~84 distinguer         36.94°C 😎  891‰
-    $127  #53      gradient           25.10°C 🥶
-    $270 #161      revenir            -0.07°C 🧊
+      $1 #174   ~1 onde             100.00°C 🥳 1000‰
+      $2 #134  ~14 vibration         49.89°C 😱  999‰
+      $3 #147  ~10 amplitude         44.53°C 🥵  988‰
+      $4 #133  ~15 spectral          41.48°C 🥵  973‰
+      $5 #168   ~4 fréquence         41.02°C 🥵  971‰
+      $6 #158   ~6 interférence      40.72°C 🥵  968‰
+      $7 #129  ~17 réfraction        40.67°C 🥵  967‰
+      $8  #72  ~27 spectre           38.91°C 🥵  952‰
+      $9 #169   ~3 déphasage         38.63°C 🥵  945‰
+     $10 #137  ~13 ondulation        38.45°C 🥵  943‰
+     $11  #43  ~37 luminescence      38.02°C 🥵  938‰
+     $15 #150   ~9 harmonique        35.25°C 😎  887‰
+     $43  #60      prisme            23.39°C 🥶
+    $168   #7      secret            -0.09°C 🧊
