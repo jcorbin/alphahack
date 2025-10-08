@@ -1,0 +1,62 @@
+T501.02229729667306 now: 2025-10-08T13:57:56UTC
+TD53 site: dontwordle.com
+TDD-21 wordlist: nwl2023.txt
+TDD8373334  ...
+TDD-6696560 1> * -bot 10
+TDD804449 ? 2
+TDD1916797 📋 "snare" ? nnMnn
+TDD-4397891 tried: SNARE n n m n n
+TDD1215159 2> undo
+TDD-1215223 undo
+TDD4804982 1> * -bot 10
+TDD-2938594 ? 1
+TDD5272846 📋 "osier" ? nnnnn
+TDD-7139184 tried: OSIER n n n n n
+TDD800915 2> undo
+TDD-800944 undo
+TDD2802163 1> *
+TDD-1612406 ? 1
+TDD4270865 📋 "booby" ? YnnnY
+TDD-5460600 tried: BOOBY Y n n n Y
+TDD698360 2> undo
+TDD-698377 undo
+TDD2821812 1> *
+TDD-1290965 ? 1
+TDD3193958 📋 "effed" ? nnnnn
+TDD-4724786 tried: EFFED n n n n n
+TDD764861 2> *
+TDD427140 ? 1
+TDD3269758 📋 "kooks" ? nnnnn
+TDD-4461756 tried: KOOKS n n n n n
+TDD513691 3> *
+TDD624525 ? 1
+TDD3330164 📋 "mimic" ? nnnnn
+TDD-4468385 tried: MIMIC n n n n n
+TDD514360 4> *
+TDD2174463 ? 1
+TDD1689712 📋 "truth" ? nnnnn
+TDD-4378554 tried: TRUTH n n n n n
+TDD2293708 5> *
+TDD4050640 📋 "xylyl" ? nMnnn
+TDD-6344319 tried: XYLYL n m n n n
+TDD491031 6> *
+TDD1551228 ? 1
+TDD3754906 📋 "gappy" ? MYnnY
+TDD-5797158 tried: GAPPY m Y n n Y
+TDD2758098 📋> Don't Wordle 1233 - SURVIVED
+TDD-2758201 📋> Hooray! I didn't Wordle today!
+TDD-35 📋> ⬜⬜⬜⬜⬜5680
+TDD-4 📋> ⬜⬜⬜⬜⬜1422
+TDD-2 📋> ⬜⬜⬜⬜⬜473
+TDD-1 📋> ⬜⬜⬜⬜⬜94
+TDD0 📋> ⬜🟨⬜⬜⬜14
+TDD0 📋> 🟨🟩⬜⬜🟩3
+TDD0 📋> Undos used: 3
+TDD0 📋> 
+TDD0 📋>   3 words remaining
+TDD0 📋> x 7 unused letters
+TDD274821 📋> = 21 total score
+TDD-39846 📋> ␚
+TDD-234917 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1233 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5680\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1422\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c473\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c94\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c14\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe93\nUndos used: 3\n\n  3 words remaining\nx 7 unused letters\n= 21 total score"}
+TDD725 result: "Don't Wordle 1233 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5680\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1422\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c473\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c94\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c14\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe93\nUndos used: 3\n\n  3 words remaining\nx 7 unused letters\n= 21 total score"
+TDD215935 📆 2025-10-08 ? 
