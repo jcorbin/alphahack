@@ -1,0 +1,43 @@
+T77218.64489752427 now: 2025-10-08T11:43:47UTC
+TD57 site: alfagok.diginaut.net
+TDD150985 loaded 399702 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1150 words excluded) asof caee01ba8db45b9e4198f48b47891944a16208a7
+TDD9737534  ...
+TDD-7178748 [0 : 199834 : 399702] lijm? a
+TDD-2709625 progress: 1 199834 lijm
+TDD1828770 [199835 : 299749 : 399702] schub? b
+TDD-1828877 progress: -1 299749 schub
+TDD1773084 [199835 : 247745 : 299749] op? a
+TDD-1773086 progress: 1 247745 op
+TDD1941158 [247746 : 273551 : 299749] proef? b
+TDD-1941157 progress: -1 273551 proef
+TDD1863927 [247746 : 260632 : 273551] pater? a
+TDD-1863936 progress: 1 260632 pater
+TDD2603616 [260633 : 267085 : 273551] plomp? b
+TDD-2603601 progress: -1 267085 plomp
+TDD1791448 [260633 : 263688 : 267085] pi? a
+TDD-1791459 progress: 1 263688 pi
+TDD1916617 [263689 : 265366 : 267085] plaatsing? a
+TDD-1916599 progress: 1 265366 plaatsing
+TDD2099266 [265367 : 266222 : 267085] platen? b
+TDD-2099287 progress: -1 266222 platen
+TDD1694009 [265367 : 265791 : 266222] plannen? b
+TDD-1694008 progress: -1 265791 plannen
+TDD1953417 [265367 : 265541 : 265791] plag? b
+TDD-1953401 progress: -1 265541 plag
+TDD2057218 [265367 : 265450 : 265541] plaatsvind? a
+TDD-2057225 progress: 1 265450 plaatsvind
+TDD2112072 [265451 : 265489 : 265541] plafond? it
+TDD-2112080 progress: 0 265489 plafond
+TDD-54 [265451 : 265489 : 265541] <Done>.
+TDD3413408 📋> 🧩 Puzzel #340
+TDD-3413353 📋> 🤔 13 gokken
+TDD-57 📋> ⏱️ 24s
+TDD335885 📋> 🔗 alfagok.diginaut.net
+TDD-76734 📋> ␚
+TDD-259114 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #340\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD258 result: "\ud83e\udde9 Puzzel #340\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-310 result puzzle: 340
+TDD-8 result guesses: 13
+TDD-1 result time: 24s
+TDD0 result link: alfagok.diginaut.net
+TDD341247 📆 2025-10-08 ? 
