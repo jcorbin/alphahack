@@ -1,0 +1,46 @@
+T1.2384139727801085 now: 2025-10-08T13:49:36UTC
+TD54 site: alphaguess.com
+TDD68867 loaded 196547 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (56 words excluded) asof caee01ba8db45b9e4198f48b47891944a16208a7
+TDD11497943  ...
+TDD-8065217 [0 : 98231 : 196547] mach? b
+TDD-3501437 progress: -1 98231 mach
+TDD1537301 [0 : 47392 : 98231] dis? a
+TDD-1537420 progress: 1 47392 dis
+TDD1341083 [47393 : 72812 : 98231] gremolata? a
+TDD-1341109 progress: 1 72812 gremolata
+TDD3460429 [72813 : 85516 : 98231] ins? a
+TDD-3460382 progress: 1 85516 ins
+TDD1854075 [85517 : 91861 : 98231] knot? b
+TDD-1854098 progress: -1 91861 knot
+TDD1563932 [85517 : 88676 : 91861] jacks? a
+TDD-1563918 progress: 1 88676 jacks
+TDD1538583 [88677 : 90266 : 91861] kaf? b
+TDD-1538591 progress: -1 90266 kaf
+TDD1486367 [88677 : 89467 : 90266] jive? b
+TDD-1486407 progress: -1 89467 jive
+TDD1551670 [88677 : 89069 : 89467] jeep? a
+TDD-1551630 progress: 1 89069 jeep
+TDD3312674 [89070 : 89232 : 89467] jet? b
+TDD-3312662 progress: -1 89232 jet
+TDD1719336 [89070 : 89149 : 89232] jeopard? b
+TDD-1719343 progress: -1 89149 jeopard
+TDD1680382 [89070 : 89109 : 89149] jejunum? a
+TDD-1680396 progress: 1 89109 jejunum
+TDD1995118 [89110 : 89125 : 89149] jelly? it
+TDD-1995124 progress: 0 89125 jelly
+TDD-58 [89110 : 89125 : 89149] <Done>.
+TDD2736932 📋> 🧩 Puzzle #806
+TDD-2736883 📋> 
+TDD-49 📋> 🤔 13 guesses
+TDD-4 📋> 
+TDD0 📋> ⏱️ 23s
+TDD-2 📋> 
+TDD294571 📋> 🔗 alphaguess.com
+TDD417693 📋> ␚
+TDD-712215 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #806\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"}
+TDD260 result: "\ud83e\udde9 Puzzle #806\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"
+TDD-305 result puzzle: 806
+TDD-8 result guesses: 13
+TDD-2 result time: 23s
+TDD0 result link: alphaguess.com
+TDD1066184 📆 2025-10-08 ? 
