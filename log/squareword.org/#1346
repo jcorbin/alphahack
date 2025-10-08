@@ -1,0 +1,100 @@
+T171.33871843852103 now: 2025-10-08T13:52:26UTC
+TD68 site: squareword.org
+TDD-30 wordlist: nwl2023.txt
+TDD3918736  ...
+TDD-1698209 🧩  ? #1346
+TDD-2220388 puzzle_id: #1346
+TDD3048684 > *
+TDD176956 try? 1
+TDD-3225618 questioning: ["psoae", "#5"]
+TDD4871032 #1 _____  📋 "psoae" ? _____ ~ S
+TDD-4870817 attempt 0 PSOAE n m n n n
+TDD3170437 #2 _____  📋 "psoae" ? PS___ ~ A
+TDD-3170659 attempt 1 PSOAE Y Y n m n
+TDD2426246 #3 _____  📋 "psoae" ? _____ ~ OA
+TDD-2426275 attempt 2 PSOAE n n m m n
+TDD2770699 #4 _____  📋 "psoae" ? _____ 
+TDD-2770668 attempt 3 PSOAE n n n n n
+TDD3061581 #5 _____  📋 "psoae" ? __O_E ~ PS
+TDD-3061593 attempt 4 PSOAE m m Y n Y
+TDD759628 ? 
+TDD-759678 question done
+TDD4977785 > *
+TDD-4220844 questioning: ["psalm", "#2"]
+TDD5872852 #1 _____ ~S -AEOP  📋 "psalm" ? .
+TDD-6629746 attempt 0 PSALM n m n n n
+TDD738463 #2 PS___ ~A -EO  📋 "psalm" ? /it
+TDD-738477 attempt 1 PSALM Y Y Y Y Y
+TDD1265332 #3 _____ ~AO -EPS  📋 "psalm" ? .
+TDD-1265309 attempt 2 PSALM n n m n n
+TDD1874597 #4 _____ -AEOPS  📋 "psalm" ? .
+TDD-1874608 attempt 3 PSALM n n n n n
+TDD2306964 #5 __O_E ~PS -A  📋 "psalm" ? .
+TDD-2306975 attempt 4 PSALM m m n n n
+TDD267908 ? 
+TDD-268006 question done
+TDD777207 > *
+TDD1230728 try? 1
+TDD-2007825 questioning: ["spore", "#5"]
+TDD5123097 #1 _____ ~S -AELMOP  📋 "spore" ? S____ ~ SR
+TDD-5123098 attempt 0 SPORE Y n n m n
+TDD1433303 #3 _____ ~AO -ELMPS  📋 "spore" ? .
+TDD-1433318 attempt 2 SPORE n n m n n
+TDD2276301 #4 _____ -AELMOPS  📋 "spore" ? _____ ~ R
+TDD-2276291 attempt 3 SPORE n n n m n
+TDD1708136 #5 __O_E ~PS -ALM  📋 "spore" ? SPO_E
+TDD-1708146 attempt 4 SPORE Y Y Y n Y
+TDD320154 ? 
+TDD-320238 question done
+TDD759829 > *
+TDD-259309 questioning: ["surfs", "#1"]
+TDD3345577 #1 S____ ~R -AELMOP  📋 "surfs" ? /it
+TDD-3846007 attempt 0 SURFS Y Y Y Y Y
+TDD2906436 #3 _____ ~AO -ELMPRS  📋 "surfs" ? _U___ ~ OA
+TDD-2906429 attempt 2 SURFS n Y n n n
+TDD1920857 #4 _____ ~R -AELMOPS  📋 "surfs" ? .
+TDD-1920880 attempt 3 SURFS n n m n n
+TDD904426 #5 SPO_E -ALMR  📋 "surfs" ? .
+TDD-904407 attempt 4 SURFS Y n n n n
+TDD165757 ? 
+TDD-165873 question done
+TDD541635 > *
+TDD926666 questioning: ["audio", "#3"]
+TDD1846701 #3 _U___ ~AO -EFLMPRS  📋 "audio" ? /it
+TDD-3314902 attempt 2 AUDIO Y Y Y Y Y
+TDD4960229 #4 _____ ~R -AEFLMOPSU  📋 "audio" ? _____ ~ RI
+TDD-4960225 attempt 3 AUDIO n n n m n
+TDD1655410 #5 SPO_E -AFLMRU  📋 "audio" ? 
+TDD632775 #5 SPO_E -AFLMRU  ? .
+TDD-2288181 attempt 4 AUDIO n n n n n
+TDD601205 ? 
+TDD-601273 question done
+TDD680950 > *
+TDD742258 questioning: ["trick", "#4"]
+TDD3450188 #4 _____ ~IR -ADEFLMOPSU  📋 "trick" ? /it
+TDD-4873347 attempt 3 TRICK Y Y Y Y Y
+TDD591609 #5 SPO_E -ADFILMORU  📋 "trick" ? 
+TDD7355770 #5 SPO_E -ADFILMORU  ? SPO_E ~ K
+TDD-7947367 attempt 4 TRICK n n n n m
+TDD250798 ? 
+TDD-250880 question done
+TDD540083 > *
+TDD391717 questioning: ["spoke", "#5"]
+TDD2585970 #5 SPO_E ~K -ACDFILMORTU  📋 "spoke" ? /it
+TDD-3517698 attempt 4 SPOKE Y Y Y Y Y
+TDD649514 ? 
+TDD-649610 question done
+TDD3918799 📋> squareword.org 1346: 7 guesses
+TDD-3918768 📋> 
+TDD-58 📋> 🟩🟩🟩🟩🟩
+TDD-6 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟨🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD329442 📋> #squareword #squareword1346
+TDD-101722 📋> ␚
+TDD-227688 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1346: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1346"}
+TDD410 result: "squareword.org 1346: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1346"
+TDD206570 📆 2025-10-08 ? 
