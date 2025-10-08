@@ -256,6 +256,12 @@ class StoredLog:
         self.log_start: datetime.datetime|None = None
         self.result_text: str = ''
 
+        self.std_prompt: PromptUI.Prompt = PromptUI.Prompt('> ', {
+            '/result': self.cmd_result,
+            '/site': self.cmd_site_link,
+            '/store': self.cmd_store,
+        })
+
         self.expired_prompt: PromptUI.Prompt = PromptUI.Prompt(self.expired_prompt_mess, {
             'archive': self.expired_do_archive,
             'continue': lambda _: self.handle,
