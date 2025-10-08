@@ -1,13 +1,13 @@
-# 2025-10-08
+# 2025-10-09
 
-- 🔗 spaceword.org 🧩 2025-10-07 🏁 score 2173 ranked 6.4% 24/374 ⏱️ 0:48:37.812185
-- 🔗 alfagok.diginaut.net 🧩 #340 🥳 13 ⏱️ 0:00:40.737095
-- 🔗 alphaguess.com 🧩 #806 🥳 13 ⏱️ 0:00:42.991556
-- 🔗 squareword.org 🧩 #1346 🥳 7 ⏱️ 0:01:53.873615
-- 🔗 dictionary.com hurdle 🧩 #1376 🥳 14 ⏱️ 0:03:11.212753
-- 🔗 dontwordle.com 🧩 #1233 🥳 6 ⏱️ 0:01:32.564676
-- 🔗 cemantle.certitudes.org 🧩 #1283 🥳 192 ⏱️ 0:01:27.319124
-- 🔗 cemantix.certitudes.org 🧩 #1316 🥳 173 ⏱️ 0:02:16.048941
+- 🔗 spaceword.org 🧩 2025-10-08 🏁 score 2173 ranked 3.9% 15/380 ⏱️ 6:39:54.661326
+- 🔗 alfagok.diginaut.net 🧩 #341 🥳 11 ⏱️ 0:00:38.021873
+- 🔗 alphaguess.com 🧩 #807 🥳 18 ⏱️ 0:00:41.552760
+- 🔗 squareword.org 🧩 #1347 🥳 8 ⏱️ 0:02:25.964389
+- 🔗 dictionary.com hurdle 🧩 #1377 😦 18 ⏱️ 0:03:07.727537
+- 🔗 dontwordle.com 🧩 #1234 🥳 6 ⏱️ 0:01:42.109699
+- 🔗 cemantle.certitudes.org 🧩 #1284 🥳 108 ⏱️ 0:00:50.274739
+- 🔗 cemantix.certitudes.org 🧩 #1317 🥳 1923 ⏱️ 2:49:26.619732
 
 # Dev
 
@@ -15,31 +15,19 @@
 
 - meta: review works up to rc branch progression
 
-- StoredLog: ability to easily one-shot report
-  - would be nice if it were easier to one-shot report to stdout for dev loop
-    i.e. we want to be able to:
-    ```shell
-    $ LOG_FILE=log/play.dictionary.com_games_todays-hurdle/#1373
-    $ python hurdle.py $LOG_FILE -- report
-    ```
-    to get there:
-    1. [X] stored main needs to collect rest args
-    2. [ ] rest args need to be passed as first round input
-    3. [ ] input injection needs to be reliable, memory is that it's not?
-    4. [ ] how to know when to one-shot vs interact? probably "if state calls
-           input, let it trampoline normally, but output-only is one-shot"
-    5. [ ] expired prompt may get in the way here?
+- StoredLog: added one-shot canned input from CLI args
+  `python whatever.py some/log/maybe -- cmd1 -- cmd2 ...`
+- StoredLog: fixed elapsed time reporting
 
 ## TODO
 
-- StoredLog: reported elapsed times are wrong; fixing this will probably pull
-  down the report-re-run mused about for hurdle report debugging
-  - elapsed time is sum of session elapsed
-  - ...session elapsed is its last `T` value
-  - ...as tracked by `LogParser.log_time.t2`
 - hurdle: report wasn't right out of #1373 -- was missing first few rounds
 
 - square: finish questioning work
+
+- reuse input injection mechanism from store
+  - wherever the current input injection usage is
+  - and also to allow more seamless meta log continue ...
 
 - meta:
   - review should progress main branch too
@@ -232,184 +220,196 @@
 
   ```
 
-# spaceword.org 🧩 2025-10-07 🏁 score 2173 ranked 6.4% 24/374 ⏱️ 0:48:37.812185
 
-📜 3 sessions
+# spaceword.org 🧩 2025-10-08 🏁 score 2173 ranked 3.9% 15/380 ⏱️ 6:39:54.661326
+
+📜 5 sessions
 - tiles: 21/21
 - score: 2173 bonus: +73
-- rank: 24/374
+- rank: 15/380
 
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ E _ _ _ J _ R A N   
-      _ M _ L I O N I Z E   
-      _ O X I D E _ B O B   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ K E G _ _ _   
+      _ _ _ _ _ _ O _ _ _   
+      _ _ _ _ O B I _ _ _   
+      _ _ _ _ H A T _ _ _   
+      _ _ _ _ _ R E _ _ _   
+      _ _ _ _ D O R _ _ _   
+      _ _ _ _ _ Q _ _ _ _   
+      _ _ _ _ J U N _ _ _   
+      _ _ _ _ O E _ _ _ _   
 
-# alfagok.diginaut.net 🧩 #340 🥳 13 ⏱️ 0:00:40.737095
 
-🤔 13 attempts
+# alfagok.diginaut.net 🧩 #341 🥳 11 ⏱️ 0:00:38.021873
+
+🤔 11 attempts
 📜 1 sessions
 
     @        [     0] &-teken    
     @+1      [     1] &-tekens   
     @+2      [     2] -cijferig  
     @+3      [     3] -e-mail    
+    @+99749  [ 99749] ex         q2  ? after
+    @+149452 [149452] huis       q3  ? after
+    @+174562 [174562] kind       q4  ? after
+    @+180872 [180872] koelt      q6  ? after
+    @+183975 [183975] koren      q7  ? after
+    @+185462 [185462] kracht     q8  ? after
+    @+186309 [186309] kreuk      q9  ? after
+    @+186704 [186704] kring      q10 ? it
+    @+186704 [186704] kring      done. it
+    @+187198 [187198] krontjongs q5  ? before
     @+199834 [199834] lijm       q0  ? after
-    @+247745 [247745] op         q2  ? after
-    @+260632 [260632] pater      q4  ? after
-    @+263688 [263688] pi         q6  ? after
-    @+265366 [265366] plaatsing  q7  ? after
-    @+265450 [265450] plaatsvind q11 ? after
-    @+265489 [265489] plafond    q12 ? it
-    @+265489 [265489] plafond    done. it
-    @+265541 [265541] plag       q10 ? before
-    @+265791 [265791] plannen    q9  ? before
-    @+266222 [266222] platen     q8  ? before
-    @+267085 [267085] plomp      q5  ? before
-    @+273551 [273551] proef      q3  ? before
-    @+299749 [299749] schub      q1  ? before
+    @+199834 [199834] lijm       q1  ? before
 
-# alphaguess.com 🧩 #806 🥳 13 ⏱️ 0:00:42.991556
+# alphaguess.com 🧩 #807 🥳 18 ⏱️ 0:00:41.552760
 
-🤔 13 attempts
+🤔 18 attempts
 📜 1 sessions
 
-    @       [    0] aa        
-    @+1     [    1] aah       
-    @+2     [    2] aahed     
-    @+3     [    3] aahing    
-    @+47392 [47392] dis       q1  ? after
-    @+72812 [72812] gremolata q2  ? after
-    @+85516 [85516] ins       q3  ? after
-    @+88676 [88676] jacks     q5  ? after
-    @+89069 [89069] jeep      q8  ? after
-    @+89109 [89109] jejunum   q11 ? after
-    @+89125 [89125] jelly     q12 ? it
-    @+89125 [89125] jelly     done. it
-    @+89149 [89149] jeopard   q10 ? before
-    @+89232 [89232] jet       q9  ? before
-    @+89467 [89467] jive      q7  ? before
-    @+90266 [90266] kaf       q6  ? before
-    @+91861 [91861] knot      q4  ? before
-    @+98231 [98231] mach      q0  ? before
+    @       [    0] aa           
+    @+1     [    1] aah          
+    @+2     [    2] aahed        
+    @+3     [    3] aahing       
+    @+47392 [47392] dis          q1  ? after
+    @+72812 [72812] gremolata    q2  ? after
+    @+79144 [79144] hood         q4  ? after
+    @+79927 [79927] hoy          q7  ? after
+    @+80057 [80057] hum          q9  ? after
+    @+80192 [80192] humor        q10 ? after
+    @+80257 [80257] hundred      q11 ? after
+    @+80264 [80264] hung         q13 ? after
+    @+80271 [80271] hungriest    q15 ? after
+    @+80274 [80274] hungrinesses q16 ? after
+    @+80275 [80275] hungry       done. it
+    @+80276 [80276] hunh         q17 ? before
+    @+80277 [80277] hunk         q14 ? before
+    @+80292 [80292] hunt         q12 ? before
+    @+80327 [80327] hurrah       q8  ? before
+    @+80729 [80729] hydroxy      q6  ? before
+    @+82321 [82321] immaterial   q5  ? before
+    @+85516 [85516] ins          q3  ? before
+    @+98231 [98231] mach         q0  ? before
 
-# squareword.org 🧩 #1346 🥳 7 ⏱️ 0:01:53.873615
+# squareword.org 🧩 #1347 🥳 8 ⏱️ 0:02:25.964389
 
 📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
+    🟨 🟩 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
-    🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟨 🟨 🟨
-    🟩 🟩 🟩 🟨 🟩
+    🟩 🟨 🟨 🟨 🟨
+    🟨 🟩 🟨 🟨 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    S U R F S
-    P S A L M
-    A U D I O
-    T R I C K
-    S P O K E
+    F L U S H
+    A L P H A
+    M A S O N
+    E M E N D
+    D A T E S
 
-
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1376 🥳 14 ⏱️ 0:03:11.212753
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1377 😦 18 ⏱️ 0:03:07.727537
 
 📜 1 sessions
-💰 score: 10200
+💰 score: 3680
 
-    3/6
-    REAIS ⬜⬜🟨⬜⬜
-    TONAL ⬜⬜⬜🟨🟩
-    AWFUL 🟩🟩🟩🟩🟩
-    3/6
-    AWFUL 🟨🟩⬜⬜⬜
-    TWEAK 🟨🟩⬜🟨⬜
-    SWATH 🟩🟩🟩🟩🟩
     4/6
-    SWATH ⬜⬜⬜⬜⬜
-    DECOR ⬜🟩⬜⬜⬜
-    BEGUN ⬜🟩🟨⬜🟩
-    FEIGN 🟩🟩🟩🟩🟩
-    3/6
-    FEIGN ⬜⬜🟨🟨⬜
-    GIRLS 🟩🟩🟩🟩⬜
-    GIRLY 🟩🟩🟩🟩🟩
-    Final 1/2
-    STALL 🟩🟩🟩🟩🟩
+    SABER ⬜⬜⬜⬜🟩
+    INCUR ⬜⬜⬜⬜🟩
+    MOTOR ⬜🟩🟩🟩🟩
+    ROTOR 🟩🟩🟩🟩🟩
+    4/6
+    ROTOR ⬜⬜⬜⬜⬜
+    LEANS 🟨🟨🟩⬜⬜
+    GLADE ⬜🟩🟩⬜🟩
+    BLAME 🟩🟩🟩🟩🟩
+    4/6
+    BLAME ⬜🟨⬜⬜⬜
+    COILS ⬜⬜⬜🟩⬜
+    HURLY ⬜⬜🟨🟩🟩
+    WRYLY 🟩🟩🟩🟩🟩
+    6/6
+    WRYLY ⬜⬜⬜⬜⬜
+    STANE ⬜⬜⬜🟩⬜
+    MOUND ⬜🟩🟩🟩🟩
+    POUND ⬜🟩🟩🟩🟩
+    BOUND ⬜🟩🟩🟩🟩
+    FOUND ⬜🟩🟩🟩🟩
+    FAIL: HOUND
 
-# dontwordle.com 🧩 #1233 🥳 6 ⏱️ 0:01:32.564676
+# dontwordle.com 🧩 #1234 🥳 6 ⏱️ 0:01:42.109699
 
-📜 1 sessions
-💰 score: 21
+📜 2 sessions
+💰 score: 42
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:EFFED n n n n n remain:5680
-    ⬜⬜⬜⬜⬜ tried:KOOKS n n n n n remain:1422
-    ⬜⬜⬜⬜⬜ tried:MIMIC n n n n n remain:473
-    ⬜⬜⬜⬜⬜ tried:TRUTH n n n n n remain:94
-    ⬜🟨⬜⬜⬜ tried:XYLYL n m n n n remain:14
-    🟨🟩⬜⬜🟩 tried:GAPPY m Y n n Y remain:3
+    ⬜⬜⬜⬜⬜ tried:VILLI n n n n n remain:6812
+    ⬜⬜⬜⬜⬜ tried:SETTS n n n n n remain:1174
+    ⬜⬜⬜⬜⬜ tried:GONZO n n n n n remain:293
+    ⬜⬜⬜⬜⬜ tried:CHURR n n n n n remain:45
+    🟨⬜⬜⬜⬜ tried:ABAKA m n n n n remain:12
+    ⬜🟩⬜⬜🟩 tried:DADDY n Y n n Y remain:6
 
     Undos used: 3
 
-      3 words remaining
+      6 words remaining
     x 7 unused letters
-    = 21 total score
+    = 42 total score
 
-# cemantle.certitudes.org 🧩 #1283 🥳 192 ⏱️ 0:01:27.319124
+# cemantle.certitudes.org 🧩 #1284 🥳 108 ⏱️ 0:00:50.274739
 
-🤔 193 attempts
+🤔 109 attempts
 📜 1 sessions
-🫧 9 chat sessions
-⁉️ 54 chat prompts
-🤖 54 gemma3:latest replies
-🔥   1 🥵  21 😎  49 🥶 115 🧊   6
+🫧 6 chat sessions
+⁉️ 32 chat prompts
+🤖 32 gemma3:latest replies
+😱  1 🔥  2 🥵 12 😎 19 🥶 60 🧊 14
 
-      $1 #193   ~1 justify       100.00°C 🥳 1000‰
-      $2 #128  ~41 negate         49.33°C 🔥  990‰
-      $3 #189   ~4 vindicate      47.40°C 🥵  987‰
-      $4 #116  ~48 resist         47.10°C 🥵  985‰
-      $5 #141  ~33 refute         44.90°C 🥵  976‰
-      $6  #89  ~58 imply          44.75°C 🥵  974‰
-      $7 #129  ~40 obviate        44.43°C 🥵  973‰
-      $8 #161  ~19 undermine      44.02°C 🥵  971‰
-      $9  #80  ~65 conceal        43.96°C 🥵  970‰
-     $10 #124  ~44 deter          43.45°C 🥵  968‰
-     $11 #184   ~8 disprove       43.36°C 🥵  966‰
-     $24  #92  ~56 obfuscate      38.23°C 😎  899‰
-     $73  #49      displace       27.31°C 🥶
-    $188  #56      imprint        -0.14°C 🧊
+      $1 #109   ~1 relieve        100.00°C 🥳 1000‰
+      $2  #99  ~10 alleviate       81.84°C 😱  999‰
+      $3 #103   ~6 ease            62.03°C 🔥  998‰
+      $4 #104   ~5 lessen          61.60°C 🔥  997‰
+      $5 #105   ~4 mitigate        45.93°C 🥵  983‰
+      $6  #96  ~13 remedy          45.00°C 🥵  980‰
+      $7  #74  ~23 stabilize       41.42°C 🥵  964‰
+      $8  #65  ~29 rectify         38.15°C 🥵  939‰
+      $9  #86  ~19 fortify         37.99°C 🥵  937‰
+     $10  #94  ~15 bolster         37.16°C 🥵  929‰
+     $11  #98  ~11 fix             37.05°C 🥵  927‰
+     $17 #102   ~7 dampen          34.90°C 😎  888‰
+     $36  #57      equilibrate     22.82°C 🥶
+     $96  #11      mimicry         -0.04°C 🧊
 
-# cemantix.certitudes.org 🧩 #1316 🥳 173 ⏱️ 0:02:16.048941
+# cemantix.certitudes.org 🧩 #1317 🥳 1923 ⏱️ 2:49:26.619732
 
-🤔 174 attempts
-📜 2 sessions
-🫧 7 chat sessions
-⁉️ 45 chat prompts
-🤖 45 gemma3:latest replies
-😱   1 🥵  12 😎  28 🥶 125 🧊   7
+🤔 1924 attempts
+📜 4 sessions
+🫧 165 chat sessions
+⁉️ 837 chat prompts
+🤖 36 deepseek-r1:latest replies
+🤖 49 gemma2:latest replies
+🤖 2 gemma3:12b replies
+🤖 636 llama3.2:latest replies
+🤖 113 gemma3:latest replies
+🔥   6 🥵  34 😎 118 🥶 935 🧊 830
 
-      $1 #174   ~1 onde             100.00°C 🥳 1000‰
-      $2 #134  ~14 vibration         49.89°C 😱  999‰
-      $3 #147  ~10 amplitude         44.53°C 🥵  988‰
-      $4 #133  ~15 spectral          41.48°C 🥵  973‰
-      $5 #168   ~4 fréquence         41.02°C 🥵  971‰
-      $6 #158   ~6 interférence      40.72°C 🥵  968‰
-      $7 #129  ~17 réfraction        40.67°C 🥵  967‰
-      $8  #72  ~27 spectre           38.91°C 🥵  952‰
-      $9 #169   ~3 déphasage         38.63°C 🥵  945‰
-     $10 #137  ~13 ondulation        38.45°C 🥵  943‰
-     $11  #43  ~37 luminescence      38.02°C 🥵  938‰
-     $15 #150   ~9 harmonique        35.25°C 😎  887‰
-     $43  #60      prisme            23.39°C 🥶
-    $168   #7      secret            -0.09°C 🧊
+       $1 #1924    ~1 docteur              100.00°C 🥳 1000‰
+       $2 #1645   ~26 immunologiste         53.74°C 🔥  998‰
+       $3 #1557   ~49 pharmacologue         52.03°C 🔥  995‰
+       $4 #1556   ~50 endocrinologue        51.76°C 🔥  994‰
+       $5 #1643   ~28 infectiologue         51.61°C 🔥  993‰
+       $6  #519  ~151 médecine              49.37°C 🔥  991‰
+       $7 #1106   ~90 anesthésiologie       49.26°C 🔥  990‰
+       $8 #1644   ~27 biophysicien          49.00°C 🥵  989‰
+       $9 #1107   ~89 endocrinologie        46.59°C 🥵  985‰
+      $10  #777  ~126 hématologue           45.81°C 🥵  984‰
+      $11 #1580   ~42 oncologue             45.32°C 🥵  982‰
+      $42  #730  ~138 néphrologie           37.46°C 😎  894‰
+     $160  #320       laboratoire           23.68°C 🥶
+    $1095 #1349       pancréas              -0.01°C 🧊
