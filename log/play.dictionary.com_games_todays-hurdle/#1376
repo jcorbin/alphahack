@@ -1,0 +1,88 @@
+T308.46219105273485 now: 2025-10-08T13:54:44UTC
+TD52 site: https://play.dictionary.com/games/todays-hurdle
+TDD-23 wordlist: nwl2023.txt
+TDD14523329  ...
+TDD6738307 1.1> *
+TDD-20027634 1.1 ? 
+TDD-689565 1.1 ? 1
+TDD5546195 1.1 📋 "reais" ? nnMnn
+TDD-6090456 tried: REAIS n n m n n
+TDD912012 1.2> *
+TDD5600259 1.2 ? nnnMY
+TDD-5956813 1.2 ? *
+TDD472653 1.2 ? 1
+TDD914495 1.2 📋 "tonal" ? nnnMY
+TDD-1942674 tried: TONAL n n n m Y
+TDD616420 1.3> *
+TDD2742408 1.3 ? 2
+TDD-32353 1.3 📋 "awful" ? it
+TDD-3326500 tried: AWFUL Y Y Y Y Y
+TDD8690772 2.1 📋 "awful" ? MYnnn
+TDD-8690743 tried: AWFUL m Y n n n
+TDD876633 2.2> *
+TDD289166 2.2 ? 1
+TDD6959017 2.2 📋 "tweak" ? MYnMn
+TDD-8124815 tried: TWEAK m Y n m n
+TDD1371024 2.3> *
+TDD1540670 2.3 ? 2
+TDD868509 2.3 📋 "swath" ? it
+TDD-3780220 tried: SWATH Y Y Y Y Y
+TDD7898617 3.1 📋 "swath" ? nnnnn
+TDD-7898597 tried: SWATH n n n n n
+TDD610540 3.2> *
+TDD3130599 3.2 ? 6
+TDD862561 3.2 📋 "decor" ? nYnnn
+TDD-4603724 tried: DECOR n Y n n n
+TDD584314 3.3> *
+TDD1541897 3.3 ? 2
+TDD7443341 3.3 📋 "begun" ? nYMnY
+TDD-9569544 tried: BEGUN n Y m n Y
+TDD3142220 3.4> *
+TDD1143374 3.4 📋 "feign" ? it
+TDD-4285601 tried: FEIGN Y Y Y Y Y
+TDD15884657 4.1 📋 "feign" ? nnMMn
+TDD-15884632 tried: FEIGN n n m m n
+TDD772775 4.2> *
+TDD1737238 4.2 ? 2
+TDD4477348 4.2 📋 "girls" ? YYYYn
+TDD-6987386 tried: GIRLS Y Y Y Y n
+TDD534828 4.3> *
+TDD2155633 4.3 📋 "girly" ? it
+TDD-2690475 tried: GIRLY Y Y Y Y Y
+TDD10488167 5.1 📋 "awful" ? MnnnY
+TDD-10488151 tried: AWFUL m n n n Y
+TDD3249781 5.2 📋 "swath" ? YnYMn
+TDD-3249744 tried: SWATH Y n Y m n
+TDD2967113 5.3 📋 "feign" ? nnnnn
+TDD-2967141 tried: FEIGN n n n n n
+TDD2533001 5.4 📋 "girly" ? nnnYn
+TDD-2532962 tried: GIRLY n n n Y n
+TDD5547657 5.5> *
+TDD119434 5.5 📋 "stall" ? it
+TDD-5667154 tried: STALL Y Y Y Y Y
+TDD5005809 📋> Hurdle 1376
+TDD-5005858 📋> 
+TDD-45 📋> 3/6
+TDD-2 📋> ⬜⬜🟨⬜⬜
+TDD-3 📋> ⬜⬜⬜🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> 🟨🟩⬜⬜⬜
+TDD0 📋> 🟨🟩⬜🟨⬜
+TDD9 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD3 📋> ⬜⬜⬜⬜⬜
+TDD-3 📋> ⬜🟩⬜⬜⬜
+TDD-7 📋> ⬜🟩🟨⬜🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> ⬜⬜🟨🟨⬜
+TDD0 📋> 🟩🟩🟩🟩⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 1/2
+TDD6 📋> 🟩🟩🟩🟩🟩
+TDD334794 📋> score: 10,200
+TDD-22737 📋> ␚
+TDD-312011 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1376\n\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,200"}
+TDD308 result: "Hurdle 1376\n\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,200"
+TDD328959 📆 2025-10-08 ? 
