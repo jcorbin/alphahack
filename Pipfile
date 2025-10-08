@@ -13,7 +13,6 @@ requests = "*"
 html5lib = "*"
 python-dotenv = "*"
 emoji = "*"
-playwright = "*"
 
 [dev-packages]
 
