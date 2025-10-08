@@ -12,7 +12,7 @@ from contextlib import contextmanager, nullcontext
 from dataclasses import dataclass
 from dateutil.parser import parse as _parse_datetime
 from dateutil.tz import gettz, tzlocal, tzoffset
-from typing import Callable, Protocol, cast, final, override
+from typing import Callable, cast, final
 from types import TracebackType
 from warnings import deprecated
 
@@ -280,16 +280,11 @@ class StoredLog:
             'debug': self.do_debug,
         })
 
-        # TODO make this reentrant safe
-        self.browser_p: Playwright|None = None
-        self.browser_i: Browser|None = None
-
     def set_result_text(self, txt: str):
         self.result_text = txt
 
     def __enter__(self):
         # TODO log file handling here?
-        # TODO proactively start playwright?
         return self
 
     def __exit__(
@@ -299,24 +294,7 @@ class StoredLog:
         exc_tb: TracebackType | None,
     ):
         # TODO log file handling here?
-
-        if self.browser_i:
-            self.browser_i.close()
-            self.browser_i = None
-
-        if self.browser_p:
-            self.browser_p.stop()
-            self.browser_p = None
-
-    def browser(self):
-        if self.browser_i:
-            return self.browser_i
-        if not self.browser_p:
-            self.browser_p = sync_playwright().start()
-        self.browser_i = self.browser_p.firefox.launch()
-        # TODO persist wen / where / etc
-        # self.browser = self.browser_p.firefox.launch_persistent_context()
-        return self.browser_i
+        pass
 
     @property
     def expire(self) -> datetime.datetime|None:
