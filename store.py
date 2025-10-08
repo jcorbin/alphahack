@@ -61,6 +61,43 @@ class LogSession:
     start: datetime.datetime
     elapsed: datetime.timedelta
 
+    @final
+    class Parser:
+        def __init__(self):
+            self.start: datetime.datetime|None = None
+            self.first_t: float = 0.0
+            self.last_t: float|None = None
+            self.prior: LogSession|None = None
+
+        def elapsed(self):
+            if self.last_t is None:
+                return datetime.timedelta()
+            return datetime.timedelta(seconds=self.last_t - self.first_t)
+
+        def session(self):
+            if self.start is None:
+                return None
+            return LogSession(self.start, self.elapsed())
+
+        def __call__(self, ui: PromptUI, t: float, rest: str):
+            try:
+                m = re.match(r'''(?x)
+                    now :
+                    \s+
+                    (?P<then> .+ )
+                    $''', rest)
+                if not m: return False
+                self.prior = self.session()
+                self.start = None
+                self.first_t = t
+                try:
+                    self.start = parse_datetime(m[1])
+                except ValueError:
+                    ui.print(f'WARNING: unable to parse prior log start time from {rest!r}')
+                return True
+            finally:
+                self.last_t = t
+
 @final
 class LogParser:
     def __init__(self,
@@ -546,10 +583,7 @@ class StoredLog:
         parse = LogParser(
             rez=flushit,
             warn=lambda mess: ui.print(f'! parse #{no}: {mess}'))
-
-        prior_t: float|None = None
-        prior_then: datetime.datetime|None = None
-        cur_t: float|None = None
+        session_parser = LogSession.Parser()
 
         for no, line in enumerate(lines, 1):
             t, _z, rest = parse(line)
@@ -558,30 +592,14 @@ class StoredLog:
                 yield 0, line
                 continue
 
-            match = re.match(r'''(?x)
-                now :
-                \s+
-                (?P<then> .+ )
-                $''', rest)
-            if match:
-                try:
-                    sthen, = match.groups()
-                    then = parse_datetime(sthen)
-                except ValueError:
-                    ui.print(f'WARNING: unable to parse prior log start time from {rest!r}')
-                else:
-                    if self.start is None:
-                        self.start = then
-                    elif prior_then is not None:
-                        dur = 0 if prior_t is None else prior_t
-                        self.sessions.append(LogSession(prior_then, datetime.timedelta(seconds=dur)))
-                    if self.log_start is None:
-                        self.log_start = then
-                    prior_then = then
-                    prior_t, cur_t = None, t
+            if session_parser(ui, t, rest):
+                if session_parser.prior is not None:
+                    self.sessions.append(session_parser.prior)
+                if self.start is None:
+                    self.start = session_parser.start
+                if self.log_start is None:
+                    self.log_start = session_parser.start
                 continue
-
-            prior_t, cur_t = cur_t, t
 
             match = re.match(r'''(?x)
                 site :
@@ -623,8 +641,9 @@ class StoredLog:
 
             yield t, rest
 
-        if prior_then is not None and cur_t is not None:
-            self.sessions.append(LogSession(prior_then, datetime.timedelta(seconds=cur_t)))
+        sess = session_parser.session()
+        if sess is not None:
+            self.sessions.append(sess)
 
         ui.zlog = rez
 
