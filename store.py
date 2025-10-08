@@ -191,6 +191,7 @@ class StoredLog:
             'replay': lambda _: self.Replay(self),
             'report': self.do_report,
             'result': self.do_result,
+            'debug': self.do_debug,
         })
 
     def set_result_text(self, txt: str):
@@ -264,6 +265,23 @@ class StoredLog:
         return (
             self.interact(ui, self.prompt_result)
             if self.ephemeral else self.prompt_result)
+
+    def do_debug(self, ui: PromptUI):
+        parse = LogParser(
+            warn=lambda mess: ui.print(f'! debug parse {mess}'))
+        session_parser = LogSession.Parser()
+        with open(self.log_file) as r:
+            for line in r:
+                t, z, rest = parse(line)
+                if t is None:
+                    ui.print(f'T:{t} Z:{z} ! {rest!r}')
+                    continue
+                if session_parser(ui, t, rest) and session_parser.prior is not None:
+                    ui.print(f'+++ prior session {session_parser.prior}')
+                ui.print(f'T:{t} Z:{z} {rest!r}')
+            sess = session_parser.session()
+            if sess is not None:
+                ui.print(f'+++ last session {sess}')
 
     @property
     def init_log_file(self):
