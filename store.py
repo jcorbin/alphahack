@@ -4,16 +4,17 @@ import json
 import os
 import re
 import subprocess
-from warnings import deprecated
+import shlex
 import zlib
 from base64 import b85decode, b85encode
-from collections.abc import Generator, Iterable
+from collections.abc import Generator, Iterable, Sequence
 from contextlib import contextmanager, nullcontext
 from dataclasses import dataclass
 from dateutil.parser import parse as _parse_datetime
 from dateutil.tz import gettz, tzlocal, tzoffset
 from typing import Callable, cast, final
 from types import TracebackType
+from warnings import deprecated
 
 from mdkit import break_sections, replace_sections
 from ui import LogTime, Paginator, PromptUI, SeqLister
@@ -146,20 +147,99 @@ class LogParser:
 
         return self.log_time.t2, z, tokens.rest
 
+def make_oneshot(
+    st: PromptUI.State,
+    given_input: Sequence[str] = (),
+    keep_going: bool = False, # after given_input exhausted
+):
+    def init(_ui: PromptUI):
+        input_i = 0
+
+        def until_input(ui: PromptUI):
+            actual_input = ui.get_input
+
+            def monitor_input(mess: str) -> str:
+                nonlocal input_i
+                if input_i < len(given_input):
+                    sin = given_input[input_i]
+                    input_i += 1
+                    return sin
+                if not keep_going:
+                    raise EOFError()
+                input_i += 1
+                return actual_input(mess)
+
+            nonlocal st
+            with ui.trace_entry('until_input') as ent:
+                ent.write(f'-> {PromptUI.describe(st)}')
+
+                ui.get_input = monitor_input
+                try:
+                    nxt = st(ui)
+                except PromptUI.Next as n:
+                    nxt = n.resolve(ui)
+                finally:
+                    ui.get_input = actual_input
+
+                if nxt:
+                    st = nxt
+                    if input_i < len(given_input):
+                        ent.write(f'-> until_input w/ {PromptUI.describe(st)}')
+                        return until_input
+
+                # NOTE strict equality allows keep_going=True, since input_i will be > len
+                if input_i == len(given_input):
+                    ent.write(f'-> <STOP>')
+                    raise StopIteration
+
+                ent.write(f'-> {PromptUI.describe(st)}')
+                return st
+
+        return until_input
+
+    return init
+
+def part_seq[T](sq: Sequence[T], token: T):
+    cur: list[T] = []
+    for i, t in enumerate(sq):
+        if t == token:
+            yield tuple(cur)
+            cur = []
+        else:
+            cur.append(t)
+        if cur:
+            yield tuple(cur)
+
 class StoredLog:
     @classmethod
     def main(cls):
         import argparse
 
+        ui = PromptUI()
         self = cls()
 
         parser = argparse.ArgumentParser()
         self.add_args(parser)
-        args = parser.parse_args()
-        self.from_args(args)
-        trace = cast(bool, args.trace)
 
-        return PromptUI.main(self, trace=trace)
+        args, rest = parser.parse_known_args()
+        ui.traced = cast(bool, args.trace)
+        self.from_args(args)
+        st: PromptUI.State = self
+
+        while rest and rest[0].startswith('-'):
+            if rest[0] == '--':
+                _ = rest.pop(0)
+            else:
+                parser.error(f'unknown option {rest[0]}')
+        if rest:
+            given_input = tuple(
+                shlex.join(sin)
+                for sin in part_seq(rest, '--'))
+            with ui.trace_entry('main') as ent:
+                ent.write(f'w/ {given_input!r}')
+            st = make_oneshot(st, given_input)
+
+        return ui.run(st)
 
     dt_fmt: str = '%Y-%m-%dT%H:%M:%S%Z'
     default_site: str = ''
@@ -767,7 +847,7 @@ class StoredLog:
 
         if self.log_file and not self.loaded:
             self.load_log(ui)
-            return
+            return self
 
         if self.stored:
             return self.review_prompt
