@@ -1,0 +1,115 @@
+T58.36694065108895 now: 2025-10-09T13:40:27UTC
+TD50 site: squareword.org
+TDD-12 wordlist: nwl2023.txt
+TDD5948518  ...
+TDD-4652411 🧩  ? #1347
+TDD-1295966 puzzle_id: #1347
+TDD4298440 > *
+TDD-1162183 try? 1
+TDD-3136230 questioning: ["earls", "#5"]
+TDD8730544 #1 _____  📋 "earls" ? _____ ~ LS
+TDD-8730342 attempt 0 EARLS n n n m m
+TDD4263076 #2 _____  📋 "earls" ? _____ ~ AL
+TDD-4263305 attempt 1 EARLS n m n m n
+TDD2864603 #3 _____  📋 "earls" ? _A___ ~ S
+TDD-2864661 attempt 2 EARLS n Y n n m
+TDD2836120 #4 _____  📋 "earls" ? E____ ~ E
+TDD-2836056 attempt 3 EARLS Y n n n n
+TDD2823623 #5 _____  📋 "earls" ? _A__S ~ E
+TDD-2823657 attempt 4 EARLS m Y n n Y
+TDD670019 ? 
+TDD-670041 question done
+TDD522217 > *
+TDD4857042 try? 2
+TDD-5379185 questioning: ["evict", "#4"]
+TDD4447702 #1 _____ ~LS -AER  📋 "evict" ? .
+TDD-4447721 attempt 0 EVICT n n n n n
+TDD960721 #2 _____ ~AL -ERS  📋 "evict" ? .
+TDD-960807 attempt 1 EVICT n n n n n
+TDD1215805 #3 _A___ ~S -ELR  📋 "evict" ? .
+TDD-1215802 attempt 2 EVICT n n n n n
+TDD8284172 #4 E____ -ALRS  📋 "evict" ? E____ ~ E
+TDD-8284100 attempt 3 EVICT Y n n n n
+TDD4538902 #5 _A__S ~E -LR  📋 "evict" ? _A__S ~ ET
+TDD-4538899 attempt 4 EVICT m n n n m
+TDD1921927 ? 
+TDD-1922018 question done
+TDD1453349 > *
+TDD219569 try? 1
+TDD-1672828 questioning: ["enjoy", "#4"]
+TDD4795969 #1 _____ ~LS -ACEIRTV  📋 "enjoy" ? .
+TDD-4795978 attempt 0 ENJOY n n n n n
+TDD1055676 #2 _____ ~AL -CEIRSTV  📋 "enjoy" ? .
+TDD-1055702 attempt 1 ENJOY n n n n n
+TDD3564922 #3 _A___ ~S -CEILRTV  📋 "enjoy" ? _A_O_ ~ SN
+TDD-3564901 attempt 2 ENJOY n m n Y n
+TDD4765923 #4 E____ -ACILRSTV  📋 "enjoy" ? E____ ~ EN
+TDD-4765928 attempt 3 ENJOY Y m n n n
+TDD3127376 #5 _A__S ~ET -CILRV  📋 "enjoy" ? .
+TDD-3127364 attempt 4 ENJOY m n n n n
+TDD158702 ? 
+TDD-158829 question done
+TDD705654 > *
+TDD-171418 questioning: ["mason", "#3"]
+TDD3472552 #1 _____ ~LS -ACEIJNORTVY  📋 "mason" ? .
+TDD-4006657 attempt 0 MASON n n m n n
+TDD822704 #2 _____ ~AL -CEIJNORSTVY  📋 "mason" ? .
+TDD-822711 attempt 1 MASON n m n n n
+TDD961877 #3 _A_O_ ~NS -CEIJLRTVY  📋 "mason" ? /it
+TDD-961924 attempt 2 MASON Y Y Y Y Y
+TDD3589837 #4 E____ ~N -ACIJLORSTVY  📋 "mason" ? E____ ~ ENM
+TDD-3589785 attempt 3 MASON m n n n m
+TDD1770008 #5 _A__S ~ET -CIJLNORVY  📋 "mason" ? .
+TDD-1770016 attempt 4 MASON n Y n n n
+TDD178527 ? 
+TDD-178647 question done
+TDD618775 > *
+TDD197488 questioning: ["alpha", "#2"]
+TDD5399525 #1 _____ ~LS -ACEIJMNORTVY  📋 "alpha" ? _L___ ~ SH
+TDD-6215669 attempt 0 ALPHA n Y n m n
+TDD992097 #2 _____ ~AL -CEIJMNORSTVY  📋 "alpha" ? /it
+TDD-992107 attempt 1 ALPHA Y Y Y Y Y
+TDD5572803 #4 E____ ~MN -ACIJLORSTVY  📋 "alpha" ? E____ ~ ENM
+TDD-5572795 attempt 3 ALPHA n n n n n
+TDD1058753 #5 _A__S ~ET -CIJLMNORSVY  📋 "alpha" ? .
+TDD-1058808 attempt 4 ALPHA n n n n n
+TDD179502 ? 
+TDD-179566 question done
+TDD653193 > *
+TDD1194880 questioning: ["emend", "#4"]
+TDD3168522 #1 _L___ ~HS -ACEIJMNOPRTVY  📋 "emend" ? .
+TDD-5016470 attempt 0 EMEND n n n n n
+TDD822890 #4 E____ ~MN -ACHIJLOPRSTVY  📋 "emend" ? /it
+TDD-822895 attempt 3 EMEND Y Y Y Y Y
+TDD3981113 #5 _A__S ~ET -ACHIJLMNOPRSVY  📋 "emend" ? _A__S ~ ETD
+TDD-3981112 attempt 4 EMEND m n m n m
+TDD374524 ? 
+TDD-374613 question done
+TDD643994 > *
+TDD738339 questioning: ["dates", "#5"]
+TDD3245024 #1 _L___ ~HS -ACDEIJMNOPRTVY  📋 "dates" ? .
+TDD-4627271 attempt 0 DATES n n n n m
+TDD807961 #5 _A__S ~DET -ACHIJLMNOPRSVY  📋 "dates" ? /it
+TDD-808031 attempt 4 DATES Y Y Y Y Y
+TDD193884 ? 
+TDD-193924 question done
+TDD1354162 > *
+TDD-423565 questioning: ["flush", "#1"]
+TDD1989302 #1 _L___ ~HS -ACDEIJMNOPRTVY  📋 "flush" ? /it
+TDD-2919804 attempt 0 FLUSH Y Y Y Y Y
+TDD263156 ? 
+TDD-263251 question done
+TDD6377787 📋> squareword.org 1347: 8 guesses
+TDD-6377760 📋> 
+TDD-57 📋> 🟨🟩🟨🟨🟨
+TDD-5 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟨🟨🟨🟨
+TDD0 📋> 🟨🟩🟨🟨🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD451502 📋> #squareword #squareword1347
+TDD-209789 📋> ␚
+TDD-241663 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1347: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1347"}
+TDD885 result: "squareword.org 1347: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1347"
+TDD301874 📆 2025-10-09 ? 
