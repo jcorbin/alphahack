@@ -1,0 +1,56 @@
+T4.769033616408706 now: 2025-10-09T13:39:34UTC
+TD54 site: alphaguess.com
+TDD66711 loaded 196547 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (56 words excluded) asof 71d2e2ad7b9427c9c4bd9d07f06ab1fbcb36426e
+TDD5140016  ...
+TDD-3446283 [0 : 98231 : 196547] mach? b
+TDD-1760280 progress: -1 98231 mach
+TDD1416222 [0 : 47392 : 98231] dis? a
+TDD-1416328 progress: 1 47392 dis
+TDD1353653 [47393 : 72812 : 98231] gremolata? a
+TDD-1353680 progress: 1 72812 gremolata
+TDD1389653 [72813 : 85516 : 98231] ins? b
+TDD-1389636 progress: -1 85516 ins
+TDD1416583 [72813 : 79144 : 85516] hood? a
+TDD-1416603 progress: 1 79144 hood
+TDD1455051 [79145 : 82321 : 85516] immaterial? b
+TDD-1455025 progress: -1 82321 immaterial
+TDD1586812 [79145 : 80729 : 82321] hydroxy? b
+TDD-1586830 progress: -1 80729 hydroxy
+TDD1398808 [79145 : 79927 : 80729] hoy? a
+TDD-1398801 progress: 1 79927 hoy
+TDD1487514 [79928 : 80327 : 80729] hurrah? b
+TDD-1487509 progress: -1 80327 hurrah
+TDD1459115 [79928 : 80057 : 80327] hum? a
+TDD-1459129 progress: 1 80057 hum
+TDD1658702 [80058 : 80192 : 80327] humor? a
+TDD-1658707 progress: 1 80192 humor
+TDD1909195 [80193 : 80257 : 80327] hundred? a
+TDD-1909179 progress: 1 80257 hundred
+TDD2363828 [80258 : 80292 : 80327] hunt? b
+TDD-2363841 progress: -1 80292 hunt
+TDD1455261 [80258 : 80264 : 80292] hung? a
+TDD-1455267 progress: 1 80264 hung
+TDD1812094 [80265 : 80277 : 80292] hunk? b
+TDD-1812077 progress: -1 80277 hunk
+TDD1491004 [80265 : 80271 : 80277] hungriest? a
+TDD-1491012 progress: 1 80271 hungriest
+TDD1415897 [80272 : 80274 : 80277] hungrinesses? a
+TDD-1415899 progress: 1 80274 hungrinesses
+TDD1566227 [80275 : 80276 : 80277] hunh? b
+TDD-1566223 progress: -1 80276 hunh
+TDD-70 [80275 : 80275 : 80276] <Done>.
+TDD6162938 📋> 🧩 Puzzle #807
+TDD-6162874 📋> 
+TDD-45 📋> 🤔 19 guesses
+TDD-19 📋> 
+TDD0 📋> ⏱️ 29s
+TDD-1 📋> 
+TDD471218 📋> 🔗 alphaguess.com
+TDD-115389 📋> ␚
+TDD-355786 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #807\n\n\ud83e\udd14 19 guesses\n\n\u23f1\ufe0f 29s\n\n\ud83d\udd17 alphaguess.com"}
+TDD262 result: "\ud83e\udde9 Puzzle #807\n\n\ud83e\udd14 19 guesses\n\n\u23f1\ufe0f 29s\n\n\ud83d\udd17 alphaguess.com"
+TDD-302 result puzzle: 807
+TDD-8 result guesses: 19
+TDD-1 result time: 29s
+TDD0 result link: alphaguess.com
+TDD888820 📆 2025-10-09 ? 
