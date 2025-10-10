@@ -1,0 +1,49 @@
+T60778.533912224695 now: 2025-10-10T11:23:51UTC
+TD57 site: alfagok.diginaut.net
+TDD140837 loaded 399702 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1150 words excluded) asof 25ca6a1262c17f7d49b15262bd843825867db5e3
+TDD3155012  ...
+TDD-713976 [0 : 199834 : 399702] lijm? a
+TDD-2581720 progress: 1 199834 lijm
+TDD1840739 [199835 : 299749 : 399702] schub? a
+TDD-1840847 progress: 1 299749 schub
+TDD3943128 [299750 : 349532 : 399702] vakantie? 
+TDD-3348833 [299750 : 349532 : 399702] vakantie? a
+TDD-594271 progress: 1 349532 vakantie
+TDD2307723 [349533 : 374276 : 399702] vrij? b
+TDD-2307724 progress: -1 374276 vrij
+TDD1651301 [349533 : 353100 : 374276] ver? a
+TDD-1651329 progress: 1 353100 ver
+TDD1733636 [353101 : 363685 : 374276] verzot? a
+TDD-1733631 progress: 1 363685 verzot
+TDD1643627 [363686 : 368698 : 374276] voetbal? b
+TDD-1643611 progress: -1 368698 voetbal
+TDD1872447 [363686 : 365625 : 368698] vis? b
+TDD-1872465 progress: -1 365625 vis
+TDD2129743 [363686 : 364535 : 365625] vier? a
+TDD-2129722 progress: 1 364535 vier
+TDD1979722 [364536 : 365073 : 365625] vijgen? b
+TDD-1979744 progress: -1 365073 vijgen
+TDD2098248 [364536 : 364804 : 365073] vietnamveteraan? !
+TDD982306 [364536 : 364804 : 365072] vieux? a
+TDD-3080549 progress: 1 364804 vieux
+TDD2902752 [364805 : 364878 : 365072] vijf? a
+TDD-2902754 progress: 1 364878 vijf
+TDD2893619 [364879 : 364972 : 365072] vijfhonderd? a
+TDD-2893625 progress: 1 364972 vijfhonderd
+TDD2112816 [364973 : 365023 : 365072] vijftal? a
+TDD-2112805 progress: 1 365023 vijftal
+TDD1993849 [365024 : 365042 : 365072] vijftig? it
+TDD-1993846 progress: 0 365042 vijftig
+TDD-87 [365024 : 365042 : 365072] <Done>.
+TDD4290893 📋> 🧩 Puzzel #342
+TDD-4290825 📋> 🤔 15 gokken
+TDD-68 📋> ⏱️ 35s
+TDD326980 📋> 🔗 alfagok.diginaut.net
+TDD1366588 📋> ␚
+TDD-1693494 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #342\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 35s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD225 result: "\ud83e\udde9 Puzzel #342\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 35s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-303 result puzzle: 342
+TDD-7 result guesses: 15
+TDD-1 result time: 35s
+TDD0 result link: alfagok.diginaut.net
+TDD564395 📆 2025-10-10 ? 
