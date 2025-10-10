@@ -1,19 +1,25 @@
-# 2025-10-10
+# 2025-10-11
 
-- 🔗 spaceword.org 🧩 2025-10-09 🏁 score 2173 ranked 5.7% 22/383 ⏱️ 0:40:50.657269
-- 🔗 alfagok.diginaut.net 🧩 #342 🥳 17 ⏱️ 0:00:47.677040
-- 🔗 alphaguess.com 🧩 #808 🥳 15 ⏱️ 0:00:37.824894
-- 🔗 squareword.org 🧩 #1348 🥳 8 ⏱️ 0:02:28.070851
-- 🔗 dictionary.com hurdle 🧩 #1378 🥳 21 ⏱️ 0:03:48.443729
-- 🔗 dontwordle.com 🧩 #1235 🥳 6 ⏱️ 0:01:27.196253
-- 🔗 cemantle.certitudes.org 🧩 #1285 🥳 341 ⏱️ 0:03:22.405257
-- 🔗 cemantix.certitudes.org 🧩 #1318 🥳 72 ⏱️ 0:00:42.247862
+- 🔗 spaceword.org 🧩 2025-10-10 🏁 score 2173 ranked 7.0% 26/374 ⏱️ 1:26:46.308702
+- 🔗 alfagok.diginaut.net 🧩 #343 🥳 15 ⏱️ 0:02:46.134979
+- 🔗 alphaguess.com 🧩 #809 🥳 11 ⏱️ 0:02:22.076959
+- 🔗 squareword.org 🧩 #1349 🥳 10 ⏱️ 0:08:03.254421
+- 🔗 dictionary.com hurdle 🧩 #1379 🥳 22 ⏱️ 0:11:10.804963
+- 🔗 cemantix.certitudes.org 🧩 #1319 🥳 336 ⏱️ 0:02:58.963547
+- 🔗 cemantle.certitudes.org 🧩 #1286 🥳 399 ⏱️ 0:03:40.229938
 
 # Dev
 
 ## WIP
 
-- meta: review works up to rc branch progression
+- meta: review
+  - works up to rc branch progression
+  - git show bug should be fixed now:
+  ```
+  fatal: ambiguous argument '95715cb6 ': unknown revision or path not in the working tree.
+  Use '--' to separate paths from revisions, like this:
+  'git <command> [<revision>...] -- [<file>...]'
+  ```
 
 - StoredLog: added one-shot canned input from CLI args
   `python whatever.py some/log/maybe -- cmd1 -- cmd2 ...`
@@ -30,13 +36,13 @@
   - and also to allow more seamless meta log continue ...
 
 - meta:
-  - review should progress main branch too
   - rework command model
     * current `log <solver> ...` and `run <solver>` should instead
     * unify into `<solver> log|run ...`
     * with the same stateful sub-prompting so that we can just say `<solver>`
       and then `log ...` and then `run` obviating the `log continue` command
       separate from just `run`
+  - review should progress main branch too
   - better logic circa end of day early play, e.g. doing a CET timezone puzzle
     close late in the "prior" day local (EST) time; similarly, early play of
     next-day spaceword should work gracefully
@@ -222,196 +228,172 @@
 
 
 
-# spaceword.org 🧩 2025-10-09 🏁 score 2173 ranked 5.7% 22/383 ⏱️ 0:40:50.657269
 
-📜 3 sessions
+# spaceword.org 🧩 2025-10-10 🏁 score 2173 ranked 7.0% 26/374 ⏱️ 1:26:46.308702
+
+📜 6 sessions
 - tiles: 21/21
 - score: 2173 bonus: +73
-- rank: 22/383
+- rank: 26/374
 
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ Z O O _ J _ H I T   
-      _ _ _ O X I D A S E   
-      _ _ C H I N E D _ A   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ Z A S _ _ _   
+      _ _ _ _ _ C _ _ _ _   
+      _ _ _ _ J U N _ _ _   
+      _ _ _ _ _ L A _ _ _   
+      _ _ _ _ _ E N _ _ _   
+      _ _ _ _ O I K _ _ _   
+      _ _ _ _ _ _ E _ _ _   
+      _ _ _ _ A P E _ _ _   
+      _ _ _ _ G E N _ _ _   
 
 
-# alfagok.diginaut.net 🧩 #342 🥳 17 ⏱️ 0:00:47.677040
-
-🤔 17 attempts
-📜 1 sessions
-
-    @        [     0] &-teken     
-    @+1      [     1] &-tekens    
-    @+2      [     2] -cijferig   
-    @+3      [     3] -e-mail     
-    @+199834 [199834] lijm        q0  ? after
-    @+299749 [299749] schub       q1  ? after
-    @+349532 [349532] vakantie    q2  ? after
-    @+349532 [349532] vakantie    q3  ? after
-    @+353100 [353100] ver         q5  ? after
-    @+363685 [363685] verzot      q6  ? after
-    @+364535 [364535] vier        q9  ? after
-    @+364804 [364804] vieux       q12 ? after
-    @+364878 [364878] vijf        q13 ? after
-    @+364972 [364972] vijfhonderd q14 ? after
-    @+365023 [365023] vijftal     q15 ? after
-    @+365042 [365042] vijftig     q16 ? it
-    @+365042 [365042] vijftig     done. it
-    @+365072 [365072] vijgen      q10 ? before
-    @+365624 [365624] vis         q8  ? before
-    @+368697 [368697] voetbal     q7  ? before
-    @+374275 [374275] vrij        q4  ? before
-
-# alphaguess.com 🧩 #808 🥳 15 ⏱️ 0:00:37.824894
+# alfagok.diginaut.net 🧩 #343 🥳 15 ⏱️ 0:02:46.134979
 
 🤔 15 attempts
 📜 1 sessions
 
-    @       [    0] aa          
-    @+1     [    1] aah         
-    @+2     [    2] aahed       
-    @+3     [    3] aahing      
-    @+47392 [47392] dis         q1  ? after
-    @+60095 [60095] face        q3  ? after
-    @+66451 [66451] french      q4  ? after
-    @+69632 [69632] geosyncline q5  ? after
-    @+69936 [69936] gi          q8  ? after
-    @+69950 [69950] gib         q11 ? after
-    @+69989 [69989] gid         q12 ? after
-    @+70008 [70008] gif         q13 ? after
-    @+70010 [70010] gift        q14 ? it
-    @+70010 [70010] gift        done. it
-    @+70029 [70029] gig         q10 ? before
-    @+70168 [70168] ginger      q9  ? before
-    @+70423 [70423] glam        q7  ? before
-    @+71223 [71223] gnomon      q6  ? before
-    @+72812 [72812] gremolata   q2  ? before
-    @+98231 [98231] mach        q0  ? before
+    @        [     0] &-teken       
+    @+1      [     1] &-tekens      
+    @+2      [     2] -cijferig     
+    @+3      [     3] -e-mail       
+    @+99749  [ 99749] ex            q1  ? after
+    @+149452 [149452] huis          q2  ? after
+    @+174562 [174562] kind          q3  ? after
+    @+187198 [187198] krontjongs    q4  ? after
+    @+193499 [193499] lavendel      q5  ? after
+    @+194924 [194924] lees          q7  ? after
+    @+195098 [195098] leesstrategie q10 ? after
+    @+195133 [195133] leesvermaak   q12 ? after
+    @+195150 [195150] leeszaal      q13 ? after
+    @+195154 [195154] leeuw         q14 ? it
+    @+195154 [195154] leeuw         done. it
+    @+195167 [195167] leeuwen       q11 ? before
+    @+195272 [195272] leg           q9  ? before
+    @+195641 [195641] leid          q8  ? before
+    @+196515 [196515] les           q6  ? before
+    @+199834 [199834] lijm          q0  ? before
 
-# squareword.org 🧩 #1348 🥳 8 ⏱️ 0:02:28.070851
+# alphaguess.com 🧩 #809 🥳 11 ⏱️ 0:02:22.076959
 
+🤔 11 attempts
 📜 1 sessions
+
+    @       [    0] aa         
+    @+1     [    1] aah        
+    @+2     [    2] aahed      
+    @+3     [    3] aahing     
+    @+23693 [23693] camp       q2  ? after
+    @+26646 [26646] cep        q5  ? after
+    @+28124 [28124] chick      q6  ? after
+    @+28213 [28213] child      q10 ? it
+    @+28213 [28213] child      done. it
+    @+28303 [28303] chimb      q9  ? before
+    @+28492 [28492] chirp      q8  ? before
+    @+28869 [28869] choragic   q7  ? before
+    @+29614 [29614] circuit    q4  ? before
+    @+35536 [35536] convention q3  ? before
+    @+47392 [47392] dis        q1  ? before
+    @+98231 [98231] mach       q0  ? before
+
+# squareword.org 🧩 #1349 🥳 10 ⏱️ 0:08:03.254421
+
+📜 3 sessions
 
 Guesses:
 
 Score Heatmap:
-    🟨 🟨 🟨 🟨 🟨
-    🟨 🟩 🟩 🟩 🟩
-    🟨 🟩 🟩 🟩 🟩
+    🟨 🟩 🟨 🟩 🟨
+    🟨 🟨 🟨 🟨 🟩
+    🟩 🟩 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    S L A S H
-    W A S T E
-    E T H E R
-    A H E A D
-    T E N D S
+    W A D E D
+    A L I V E
+    T O N I C
+    C H E C K
+    H A R T S
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1378 🥳 21 ⏱️ 0:03:48.443729
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1379 🥳 22 ⏱️ 0:11:10.804963
 
-📜 1 sessions
-💰 score: 9500
+📜 2 sessions
+💰 score: 9400
 
     5/6
-    STORE 🟨⬜⬜⬜⬜
-    HAILS ⬜🟨⬜⬜🟩
-    QUAGS ⬜⬜🟨⬜🟩
-    CYMAS ⬜🟨⬜🟨🟩
-    ABYSS 🟩🟩🟩🟩🟩
+    LARES ⬜⬜⬜⬜⬜
+    PINOT ⬜🟨🟨🟩⬜
+    INBOX 🟨🟩⬜🟩⬜
+    ONION ⬜🟩🟩🟩🟩
+    UNION 🟩🟩🟩🟩🟩
+    4/6
+    UNION 🟨⬜⬜⬜⬜
+    ABUSE ⬜⬜🟨🟨⬜
+    MURKS 🟩🟩⬜🟩🟨
+    MUSKY 🟩🟩🟩🟩🟩
+    5/6
+    MUSKY ⬜⬜⬜⬜⬜
+    ALTER ⬜⬜⬜🟩🟩
+    CODER ⬜⬜⬜🟩🟩
+    INFER 🟩🟩⬜🟩🟩
+    INNER 🟩🟩🟩🟩🟩
     6/6
-    ABYSS 🟨⬜⬜⬜⬜
-    CARET 🟨🟩🟨🟩⬜
-    MACER ⬜🟩🟩🟩🟩
-    PACER ⬜🟩🟩🟩🟩
-    FACER ⬜🟩🟩🟩🟩
-    RACER 🟩🟩🟩🟩🟩
-    6/6
-    RACER ⬜⬜⬜🟨⬜
-    LEGIT ⬜🟨⬜🟨🟨
-    WHITE ⬜⬜🟩🟩🟩
-    SPITE 🟩⬜🟩🟩🟩
-    SUITE 🟩⬜🟩🟩🟩
-    SMITE 🟩🟩🟩🟩🟩
-    3/6
-    SMITE ⬜⬜🟩⬜🟩
-    ALIVE 🟩🟩🟩⬜🟩
-    ALIKE 🟩🟩🟩🟩🟩
-    Final 1/2
-    ORBIT 🟩🟩🟩🟩🟩
+    INNER ⬜⬜⬜⬜⬜
+    OPALS ⬜⬜⬜⬜🟨
+    TUSHY 🟨🟩🟩⬜🟩
+    DUSTY ⬜🟩🟩🟩🟩
+    MUSTY ⬜🟩🟩🟩🟩
+    GUSTY 🟩🟩🟩🟩🟩
+    Final 2/2
+    BEARD 🟩🟨🟩🟩⬜
+    BLARE 🟩🟩🟩🟩🟩
 
-# dontwordle.com 🧩 #1235 🥳 6 ⏱️ 0:01:27.196253
+# cemantix.certitudes.org 🧩 #1319 🥳 336 ⏱️ 0:02:58.963547
 
+🤔 337 attempts
+📜 3 sessions
+🫧 14 chat sessions
+⁉️ 90 chat prompts
+🤖 90 gemma3:latest replies
+😱   1 🔥   4 🥵  18 😎  58 🥶 228 🧊  27
+
+      $1 #337   ~1 conducteur        100.00°C 🥳 1000‰
+      $2 #218  ~46 véhicule           56.21°C 😱  999‰
+      $3 #335   ~2 chauffeur          50.26°C 🔥  998‰
+      $4 #175  ~59 conduite           47.69°C 🔥  996‰
+      $5 #328   ~3 volant             45.86°C 🔥  995‰
+      $6 #127  ~66 accident           44.60°C 🔥  993‰
+      $7 #206  ~54 freinage           41.66°C 🥵  989‰
+      $8 #239  ~32 voiture            41.29°C 🥵  988‰
+      $9 #325   ~4 passager           39.29°C 🥵  984‰
+     $10 #202  ~56 signalisation      38.10°C 🥵  978‰
+     $11 #272  ~25 limiteur           36.95°C 🥵  961‰
+     $25 #233  ~37 remorquage         30.78°C 😎  893‰
+     $83 #198      manoeuvre          19.87°C 🥶
+    $311  #63      défense            -0.14°C 🧊
+
+# cemantle.certitudes.org 🧩 #1286 🥳 399 ⏱️ 0:03:40.229938
+
+🤔 400 attempts
 📜 1 sessions
-💰 score: 49
+🫧 22 chat sessions
+⁉️ 146 chat prompts
+🤖 146 gemma3:latest replies
+🔥   2 🥵  15 😎  43 🥶 318 🧊  21
 
-SURVIVED
-> Hooray! I didn't Wordle today!
-
-    ⬜⬜⬜⬜⬜ tried:XYLYL n n n n n remain:8089
-    ⬜⬜⬜⬜⬜ tried:EBBED n n n n n remain:3180
-    ⬜⬜⬜⬜⬜ tried:KININ n n n n n remain:1218
-    ⬜⬜⬜⬜⬜ tried:ROTOR n n n n n remain:222
-    ⬜⬜⬜⬜⬜ tried:CHUFF n n n n n remain:46
-    🟨⬜🟩⬜⬜ tried:PZAZZ m n Y n n remain:7
-
-    Undos used: 3
-
-      7 words remaining
-    x 7 unused letters
-    = 49 total score
-
-# cemantle.certitudes.org 🧩 #1285 🥳 341 ⏱️ 0:03:22.405257
-
-🤔 342 attempts
-📜 1 sessions
-🫧 9 chat sessions
-⁉️ 58 chat prompts
-🤖 58 gemma3:12b replies
-🔥   3 🥵  29 😎  69 🥶 192 🧊  48
-
-      $1 #342   ~1 founder         100.00°C 🥳 1000‰
-      $2 #288  ~24 executive        49.59°C 🔥  992‰
-      $3 #232  ~54 pioneer          49.20°C 🔥  991‰
-      $4 #286  ~26 director         47.71°C 🔥  990‰
-      $5 #246  ~49 organizer        46.57°C 🥵  988‰
-      $6 #309  ~14 chairperson      45.01°C 🥵  986‰
-      $7 #219  ~60 philanthropist   40.12°C 🥵  982‰
-      $8 #226  ~58 visionary        38.75°C 🥵  979‰
-      $9 #231  ~55 leader           37.81°C 🥵  977‰
-     $10 #235  ~52 activist         37.78°C 🥵  976‰
-     $11 #276  ~31 patron           35.85°C 🥵  966‰
-     $34 #260  ~41 associate        28.62°C 😎  895‰
-    $103 #229      idealist         16.70°C 🥶
-    $295  #49      narrative        -0.01°C 🧊
-
-# cemantix.certitudes.org 🧩 #1318 🥳 72 ⏱️ 0:00:42.247862
-
-🤔 73 attempts
-📜 1 sessions
-🫧 3 chat sessions
-⁉️ 11 chat prompts
-🤖 11 gemma3:12b replies
-🔥  2 🥵  6 😎 16 🥶 33 🧊 15
-
-     $1 #73  ~1 diagnostic       100.00°C 🥳 1000‰
-     $2 #35 ~21 analyse           53.76°C 🔥  996‰
-     $3 #62  ~6 évaluation        52.39°C 🔥  995‰
-     $4 #64  ~4 bilan             43.18°C 🥵  976‰
-     $5 #49 ~15 indicateur        42.04°C 🥵  968‰
-     $6 #36 ~20 amélioration      41.78°C 🥵  964‰
-     $7 #61  ~7 étude             41.33°C 🥵  960‰
-     $8 #34 ~22 mise              39.35°C 🥵  929‰
-     $9 #66  ~3 estimation        38.65°C 🥵  916‰
-    $10 #58 ~10 stratégie         34.59°C 😎  764‰
-    $11 #72  ~2 contrôle          34.53°C 😎  759‰
-    $12 #60  ~8 vérification      34.37°C 😎  752‰
-    $26 #65     calcul            26.88°C 🥶
-    $59  #4     fenêtre           -1.10°C 🧊
+      $1 #400   ~1 homeland            100.00°C 🥳 1000‰
+      $2 #360  ~24 exile                46.58°C 🔥  997‰
+      $3 #353  ~27 diaspora             41.05°C 🔥  991‰
+      $4 #364  ~22 asylum               37.43°C 🥵  986‰
+      $5 #363  ~23 refugee              36.16°C 🥵  979‰
+      $6 #375  ~13 ancestry             35.75°C 🥵  978‰
+      $7 #383  ~10 sovereignty          34.91°C 🥵  970‰
+      $8 #374  ~14 stateless            34.68°C 🥵  968‰
+      $9 #373  ~15 roots                34.66°C 🥵  967‰
+     $10 #376  ~12 citizenship          33.70°C 🥵  963‰
+     $11 #136  ~59 oppressed            33.60°C 🥵  961‰
+     $19 #198  ~48 repression           30.16°C 😎  889‰
+     $62  #74      sorrow               21.07°C 🥶
+    $380 #143      chained              -0.08°C 🧊
