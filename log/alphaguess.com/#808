@@ -1,0 +1,50 @@
+T60827.863884238526 now: 2025-10-10T11:24:40UTC
+TD52 site: alphaguess.com
+TDD77113 loaded 196547 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (56 words excluded) asof 25ca6a1262c17f7d49b15262bd843825867db5e3
+TDD4826222  ...
+TDD-2266343 [0 : 98231 : 196547] mach? b
+TDD-2636923 progress: -1 98231 mach
+TDD1697998 [0 : 47392 : 98231] dis? a
+TDD-1698020 progress: 1 47392 dis
+TDD1696145 [47393 : 72812 : 98231] gremolata? b
+TDD-1696135 progress: -1 72812 gremolata
+TDD1602616 [47393 : 60095 : 72812] face? a
+TDD-1602616 progress: 1 60095 face
+TDD1533504 [60096 : 66451 : 72812] french? a
+TDD-1533516 progress: 1 66451 french
+TDD1618350 [66452 : 69632 : 72812] geosyncline? a
+TDD-1618337 progress: 1 69632 geosyncline
+TDD1664198 [69633 : 71223 : 72812] gnomon? b
+TDD-1664211 progress: -1 71223 gnomon
+TDD1770992 [69633 : 70423 : 71223] glam? b
+TDD-1770990 progress: -1 70423 glam
+TDD1742754 [69633 : 69936 : 70423] gi? a
+TDD-1742740 progress: 1 69936 gi
+TDD1694219 [69937 : 70168 : 70423] ginger? b
+TDD-1694221 progress: -1 70168 ginger
+TDD2985138 [69937 : 70029 : 70168] gig? b
+TDD-2985137 progress: -1 70029 gig
+TDD1562713 [69937 : 69950 : 70029] gib? a
+TDD-1562714 progress: 1 69950 gib
+TDD1740923 [69951 : 69989 : 70029] gid? a
+TDD-1740936 progress: 1 69989 gid
+TDD1760538 [69990 : 70008 : 70029] gif? a
+TDD-1760523 progress: 1 70008 gif
+TDD2033680 [70009 : 70010 : 70029] gift? it
+TDD-2033693 progress: 0 70010 gift
+TDD-78 [70009 : 70010 : 70029] <Done>.
+TDD3515942 📋> 🧩 Puzzle #808
+TDD-3515863 📋> 
+TDD-61 📋> 🤔 15 guesses
+TDD-18 📋> 
+TDD-1 📋> ⏱️ 26s
+TDD-1 📋> 
+TDD366422 📋> 🔗 alphaguess.com
+TDD307682 📋> ␚
+TDD-674034 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #808\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 26s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-31 result: "\ud83e\udde9 Puzzle #808\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 26s\n\n\ud83d\udd17 alphaguess.com"
+TDD-37 result puzzle: 808
+TDD-8 result guesses: 15
+TDD9 result time: 26s
+TDD-10 result link: alphaguess.com
+TDD543390 📆 2025-10-10 ? 
