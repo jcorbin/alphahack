@@ -1,0 +1,43 @@
+T85819.81687587686 now: 2025-10-11T12:57:09UTC
+TD52 site: alphaguess.com
+TDD79002 loaded 196547 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (56 words excluded) asof 897e1eae8aabc7acba46e3b458f91305a606d766
+TDD3824118  ...cop
+TDD6388846  ...
+TDD-2989772 [0 : 98231 : 196547] mach? b
+TDD-7302151 progress: -1 98231 mach
+TDD8495697 [0 : 47392 : 98231] dis? b
+TDD-8495705 progress: -1 47392 dis
+TDD14720832 [0 : 23693 : 47392] camp? a
+TDD-14720824 progress: 1 23693 camp
+TDD11367211 [23694 : 35536 : 47392] convention? b
+TDD-11367210 progress: -1 35536 convention
+TDD12421987 [23694 : 29614 : 35536] circuit? b
+TDD-12421993 progress: -1 29614 circuit
+TDD9730691 [23694 : 26646 : 29614] cep? a
+TDD-9730694 progress: 1 26646 cep
+TDD9011752 [26647 : 28124 : 29614] chick? a
+TDD-9011747 progress: 1 28124 chick
+TDD10391679 [28125 : 28869 : 29614] choragic? b
+TDD-10391680 progress: -1 28869 choragic
+TDD10564529 [28125 : 28492 : 28869] chirp? b
+TDD-10564525 progress: -1 28492 chirp
+TDD10383726 [28125 : 28303 : 28492] chimb? b
+TDD-10383722 progress: -1 28303 chimb
+TDD10961473 [28125 : 28213 : 28303] child? it
+TDD-10961482 progress: 0 28213 child
+TDD-70 [28125 : 28213 : 28303] <Done>.
+TDD9009119 📋> 🧩 Puzzle #809
+TDD-9009064 📋> 
+TDD-52 📋> 🤔 11 guesses
+TDD-4 📋> 
+TDD0 📋> ⏱️ 1m 46s
+TDD-2 📋> 
+TDD1188929 📋> 🔗 alphaguess.com
+TDD-79615 📋> ␚
+TDD-1109281 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #809\n\n\ud83e\udd14 11 guesses\n\n\u23f1\ufe0f 1m 46s\n\n\ud83d\udd17 alphaguess.com"}
+TDD13 result: "\ud83e\udde9 Puzzle #809\n\n\ud83e\udd14 11 guesses\n\n\u23f1\ufe0f 1m 46s\n\n\ud83d\udd17 alphaguess.com"
+TDD-47 result puzzle: 809
+TDD-5 result guesses: 11
+TDD-1 result time: 1m 46s
+TDD0 result link: alphaguess.com
+TDD1141137 📆 2025-10-11 ? 
