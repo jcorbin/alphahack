@@ -1,0 +1,146 @@
+T85970.36901823804 now: 2025-10-11T12:59:39UTC
+TD49 site: squareword.org
+TDD-19 wordlist: nwl2023.txt
+TDD5433638  ...cop
+TDD29682819  ...
+TDD-24081383 🧩  ? #1349
+TDD-11034928 puzzle_id: #1349
+TDD4298364 > *
+TDD-1327867 try? 1
+TDD-2970500 questioning: ["loser", "#5"]
+TDD14849333 #1 _____  📋 "loser" ? ___E_
+TDD-14849111 attempt 0 LOSER n n n Y n
+TDD8679072 #2 _____  📋 "loser" ? _____ ~ LE
+TDD-8679260 attempt 1 LOSER m n n m n
+TDD5794270 #3 _____  📋 "loser" ? _o___
+TDD-5794315 attempt 2 LOSER n Y n n n
+TDD6950402 #4 _____  📋 "loser" ? _____ ~ O
+TDD-6950400 attempt 3 LOSER n n n M n
+TDD14256729 #5 _____  📋 "loser" ? _____ ~ SR
+TDD-14256728 attempt 4 LOSER n n m n m
+TDD5410480 ? ␚
+TDD-5410552 question done
+TDD1762277 > ␚
+TDD-1762313 <EOF>
+TDD1861278 > ␚
+T86379.62109534256 now: 2025-10-11T13:06:28UTC
+TD1670173  ...
+TDD2485759 > *
+TDD3110804 try? 5
+TDD-7266564 questioning: ["table", "#2"]
+TDD15278264 #1 ___E_ -LORS  📋 "table" ? _A_E_
+TDD-15278277 attempt 0 TABLE n Y n n n
+TDD12095867 #2 _____ ~EL -ORS  📋 "table" ? ____E ~ LA
+TDD-12095858 attempt 1 TABLE n m n m Y
+TDD5414789 #3 _O___ -ELRS  📋 "table" ? TO___
+TDD-5411452 attempt 2 TABLE Y n n n n
+TDD4376964 #4 _____ ~E -LORS  📋 "table" ? .
+TDD-4380289 attempt 3 TABLE n n n n m
+TDD9360942 #5 _____ ~RS -ELO  📋 "table" ? _A___ ~ SRT
+TDD-9360961 attempt 4 TABLE m Y n n n
+TDD2130369 ? 
+TDD-2130422 question done
+TDD5239818 > ␚
+TDD-5239856 <EOF>
+TDD4663916 > ␚
+T86734.59705059975 now: 2025-10-11T13:12:23UTC
+TD1118120  ...
+TDD4825449 > *
+TDD1780344 try? 1
+TDD-7723748 questioning: ["chewy", "#4"]
+TDD24080996 #1 _A_E_ -BELORST  📋 "chewy" ? _A_E_ ~ W
+TDD-24080998 attempt 0 CHEWY n n n m n
+TDD6111701 #2 ____E ~AL -BORST  📋 "chewy" ? .
+TDD-6111691 attempt 1 CHEWY n n n n n
+TDD12348860 #3 TO___ -ABELRS  📋 "chewy" ? TO___ ~ C
+TDD-12348875 attempt 2 CHEWY m n n n n
+TDD13017897 #4 _____ ~E -ABLORST  📋 "chewy" ? CHE__ ~ C
+TDD-13017899 attempt 3 CHEWY Y Y Y n n
+TDD6715603 #5 _A___ ~RST -BELO  📋 "chewy" ? _A___ ~ SRTH
+TDD-6715586 attempt 4 CHEWY n m n n n
+TDD16883678 ? 
+TDD-16883721 question done
+TDD2399637 > *
+TDD-1753587 questioning: ["check", "#4"]
+TDD9479547 #1 _A_E_ ~W -BCEHLORSTY  📋 "check" ? .
+TDD-10125557 attempt 0 CHECK n n n n n
+TDD5259561 #2 ____E ~AL -BCEHORSTWY  📋 "check" ? .
+TDD-5259560 attempt 1 CHECK n n n n n
+TDD3391578 #3 TO___ ~C -ABEHLRSWY  📋 "check" ? .
+TDD-3391601 attempt 2 CHECK m n n m n
+TDD4543593 #4 CHE__ -ABLORSTWY  📋 "check" ? /it
+TDD-4543578 attempt 3 CHECK Y Y Y Y Y
+TDD2956706 #5 _A___ ~HRST -BCELOWY  📋 "check" ? .
+TDD-2956733 attempt 4 CHECK n m n n n
+TDD631822 ? 
+TDD-631908 question done
+TDD3183778 > *
+TDD-1684363 questioning: ["harts", "#5"]
+TDD19942266 #1 _A_E_ ~W -BCEHKLORSTY  📋 "harts" ? .
+TDD-21441567 attempt 0 HARTS n Y n n n
+TDD3873377 #2 ____E ~AL -BCEHKORSTWY  📋 "harts" ? .
+TDD-3873384 attempt 1 HARTS n m n n n
+TDD2746393 #3 TO___ ~C -ABEHKLRSWY  📋 "harts" ? .
+TDD-2746384 attempt 2 HARTS n n n n n
+TDD2084951 #5 _A___ ~HRST -BCEKLOWY  📋 "harts" ? /it
+TDD-2084964 attempt 4 HARTS Y Y Y Y Y
+TDD1354413 ? 
+TDD-1354483 question done
+TDD5829043 > *
+TDD-923518 try? 1
+TDD-4905434 questioning: ["alive", "#2"]
+TDD8679585 #1 _A_E_ ~W -BCEHKLORSTY  📋 "alive" ? .
+TDD-8679583 attempt 0 ALIVE n n n n n
+TDD2211494 #2 ____E ~AL -BCEHKORSTWY  📋 "alive" ? /it
+TDD-2211529 attempt 1 ALIVE Y Y Y Y Y
+TDD6636477 #3 TO___ ~C -ABEHKLRSTWY  📋 "alive" ? TO___ ~ CI
+TDD-6636435 attempt 2 ALIVE n n m n n
+TDD1275707 ? 
+TDD-1275828 question done
+TDD4303781 > *
+TDD707112 try? 1
+TDD-5010789 questioning: ["toxic", "#3"]
+TDD8783521 #1 _A_E_ ~W -ABCEHIKLORSTVY  📋 "toxic" ? .
+TDD-8783517 attempt 0 TOXIC n n n n n
+TDD3620905 #3 TO___ ~CI -ABEHKLRSTVWY  📋 "toxic" ? TO_IC
+TDD-3620943 attempt 2 TOXIC Y Y n Y Y
+TDD1135764 ? 
+TDD-1135819 question done
+TDD5381685 > *
+TDD1370201 try? 1
+TDD-6751786 questioning: ["topic", "#3"]
+TDD9969726 #1 _A_E_ ~W -ABCEHIKLORSTVXY  📋 "topic" ? ..
+TDD-4621948 #1 _A_E_ ~W -ABCEHIKLORSTVXY  ? .
+TDD-5347797 attempt 0 TOPIC n n n n n
+TDD1119649 #3 TO_IC -ABEHKLRSVWXY  📋 "topic" ? .
+TDD-1119692 attempt 2 TOPIC Y Y n Y Y
+TDD2081154 ? 
+TDD-2081171 question done
+TDD1819781 > *
+TDD-425616 questioning: ["tonic", "#3"]
+TDD8303423 #1 _A_E_ ~W -ABCEHIKLOPRSTVXY  📋 "tonic" ? .
+TDD-9697528 attempt 0 TONIC n n n n n
+TDD3567703 #3 TO_IC -ABEHKLPRSVWXY  📋 "tonic" ? /it
+TDD-3567708 attempt 2 TONIC Y Y Y Y Y
+TDD623640 ? 
+TDD-623725 question done
+TDD1755945 > *
+TDD-816055 questioning: ["waded", "#1"]
+TDD11198474 #1 _A_E_ ~W -ABCEHIKLNOPRSTVXY  📋 "waded" ? /it
+TDD-12138281 attempt 0 WADED Y Y Y Y Y
+TDD1159661 ? 
+TDD-1159720 question done
+TDD10219849 📋> squareword.org 1349: 10 guesses
+TDD-10219863 📋> 
+TDD-52 📋> 🟨🟩🟨🟩🟨
+TDD-5 📋> 🟨🟨🟨🟨🟩
+TDD-2 📋> 🟩🟩🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD4053353 📋> #squareword #squareword1349
+TDD-2274833 📋> ␚
+TDD-1778471 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1349: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1349"}
+TDD769 result: "squareword.org 1349: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1349"
+TDD880927 📆 2025-10-11 ? 
