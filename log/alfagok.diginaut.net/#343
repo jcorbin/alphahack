@@ -1,0 +1,48 @@
+T85637.23769007064 now: 2025-10-11T12:54:06UTC
+TD57 site: alfagok.diginaut.net
+TDD146552 loaded 399701 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1151 words excluded) asof 897e1eae8aabc7acba46e3b458f91305a606d766
+TDD5483265  ...cop
+TDD5031431  ...
+TDD-586755 [0 : 199834 : 399701] lijm? b
+TDD-10074346 progress: -1 199834 lijm
+TDD14688853 [0 : 99749 : 199834] ex? a
+TDD-14688939 progress: 1 99749 ex
+TDD10001012 [99750 : 149452 : 199834] huis? a
+TDD-10001040 progress: 1 149452 huis
+TDD9011706 [149453 : 174562 : 199834] kind? a
+TDD-9011699 progress: 1 174562 kind
+TDD7963012 [174563 : 187198 : 199834] krontjongs? a
+TDD-7963022 progress: 1 187198 krontjongs
+TDD8362562 [187199 : 193499 : 199834] lavendel? a
+TDD-8362545 progress: 1 193499 lavendel
+TDD7388179 [193500 : 196515 : 199834] les? b
+TDD-7388187 progress: -1 196515 les
+TDD9803602 [193500 : 194924 : 196515] lees? a
+TDD-9803606 progress: 1 194924 lees
+TDD7106260 [194925 : 195641 : 196515] leid? b
+TDD-7106255 progress: -1 195641 leid
+TDD11136183 [194925 : 195272 : 195641] leg? b
+TDD-11136185 progress: -1 195272 leg
+TDD7055763 [194925 : 195098 : 195272] leesstrategie? a
+TDD-7055757 progress: 1 195098 leesstrategie
+TDD7301123 [195099 : 195167 : 195272] leeuwen? b
+TDD-7301122 progress: -1 195167 leeuwen
+TDD9469045 [195099 : 195133 : 195167] leesvermaak? a
+TDD-9469061 progress: 1 195133 leesvermaak
+TDD10935890 [195134 : 195150 : 195167] leeszaal? a
+TDD-10935891 progress: 1 195150 leeszaal
+TDD8927101 [195151 : 195154 : 195167] leeuw? it
+TDD-8927087 progress: 0 195154 leeuw
+TDD-66 [195151 : 195154 : 195167] <Done>.
+TDD6329369 📋> 🧩 Puzzel #343
+TDD-6329334 📋> 🤔 15 gokken
+TDD-42 📋> ⏱️ 2m 10s
+TDD1000967 📋> 🔗 alfagok.diginaut.net
+TDD635047 📋> ␚
+TDD-1635963 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #343\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 2m 10s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD248 result: "\ud83e\udde9 Puzzel #343\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 2m 10s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-295 result puzzle: 343
+TDD-16 result guesses: 15
+TDD-2 result time: 2m 10s
+TDD0 result link: alfagok.diginaut.net
+TDD1502242 📆 2025-10-11 ? 
