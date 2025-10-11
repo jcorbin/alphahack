@@ -1,12 +1,12 @@
-# 2025-10-11
+# 2025-10-12
 
-- 🔗 spaceword.org 🧩 2025-10-10 🏁 score 2173 ranked 7.0% 26/374 ⏱️ 1:26:46.308702
-- 🔗 alfagok.diginaut.net 🧩 #343 🥳 15 ⏱️ 0:02:46.134979
-- 🔗 alphaguess.com 🧩 #809 🥳 11 ⏱️ 0:02:22.076959
-- 🔗 squareword.org 🧩 #1349 🥳 10 ⏱️ 0:08:03.254421
-- 🔗 dictionary.com hurdle 🧩 #1379 🥳 22 ⏱️ 0:11:10.804963
-- 🔗 cemantix.certitudes.org 🧩 #1319 🥳 336 ⏱️ 0:02:58.963547
-- 🔗 cemantle.certitudes.org 🧩 #1286 🥳 399 ⏱️ 0:03:40.229938
+- 🔗 spaceword.org 🧩 2025-10-11 🏁 score 2173 ranked 5.2% 18/348 ⏱️ 2:19:06.328371
+- 🔗 alfagok.diginaut.net 🧩 #344 🥳 22 ⏱️ 0:03:37.207097
+- 🔗 alphaguess.com 🧩 #810 🥳 16 ⏱️ 0:02:04.616424
+- 🔗 squareword.org 🧩 #1350 🥳 7 ⏱️ 0:21:08.821441
+- 🔗 dictionary.com hurdle 🧩 #1380 😦 20 ⏱️ 0:20:08.075052
+- 🔗 cemantix.certitudes.org 🧩 #1320 🥳 586 ⏱️ 0:08:29.716773
+- 🔗 cemantle.certitudes.org 🧩 #1287 🥳 322 ⏱️ 0:05:16.620334
 
 # Dev
 
@@ -236,16 +236,16 @@
 - score: 2173 bonus: +73
 - rank: 26/374
 
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ Z A S _ _ _   
-      _ _ _ _ _ C _ _ _ _   
-      _ _ _ _ J U N _ _ _   
-      _ _ _ _ _ L A _ _ _   
-      _ _ _ _ _ E N _ _ _   
-      _ _ _ _ O I K _ _ _   
-      _ _ _ _ _ _ E _ _ _   
-      _ _ _ _ A P E _ _ _   
-      _ _ _ _ G E N _ _ _   
+      _ _ _ _ _ _ _ _ _ _
+      _ _ _ _ Z A S _ _ _
+      _ _ _ _ _ C _ _ _ _
+      _ _ _ _ J U N _ _ _
+      _ _ _ _ _ L A _ _ _
+      _ _ _ _ _ E N _ _ _
+      _ _ _ _ O I K _ _ _
+      _ _ _ _ _ _ E _ _ _
+      _ _ _ _ A P E _ _ _
+      _ _ _ _ G E N _ _ _
 
 
 # alfagok.diginaut.net 🧩 #343 🥳 15 ⏱️ 0:02:46.134979
@@ -253,10 +253,10 @@
 🤔 15 attempts
 📜 1 sessions
 
-    @        [     0] &-teken       
-    @+1      [     1] &-tekens      
-    @+2      [     2] -cijferig     
-    @+3      [     3] -e-mail       
+    @        [     0] &-teken
+    @+1      [     1] &-tekens
+    @+2      [     2] -cijferig
+    @+3      [     3] -e-mail
     @+99749  [ 99749] ex            q1  ? after
     @+149452 [149452] huis          q2  ? after
     @+174562 [174562] kind          q3  ? after
@@ -279,10 +279,10 @@
 🤔 11 attempts
 📜 1 sessions
 
-    @       [    0] aa         
-    @+1     [    1] aah        
-    @+2     [    2] aahed      
-    @+3     [    3] aahing     
+    @       [    0] aa
+    @+1     [    1] aah
+    @+2     [    2] aahed
+    @+3     [    3] aahing
     @+23693 [23693] camp       q2  ? after
     @+26646 [26646] cep        q5  ? after
     @+28124 [28124] chick      q6  ? after
@@ -397,3 +397,182 @@ Solution:
      $19 #198  ~48 repression           30.16°C 😎  889‰
      $62  #74      sorrow               21.07°C 🥶
     $380 #143      chained              -0.08°C 🧊
+
+# spaceword.org 🧩 2025-10-11 🏁 score 2173 ranked 5.2% 18/348 ⏱️ 2:19:06.328371
+
+📜 4 sessions
+- tiles: 21/21
+- score: 2173 bonus: +73
+- rank: 18/348
+
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ K _ S E I D E L   
+      _ W I P E _ _ U N I   
+      _ _ F I X A T E _ B   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+
+
+# alfagok.diginaut.net 🧩 #344 🥳 22 ⏱️ 0:03:37.207097
+
+🤔 22 attempts
+📜 2 sessions
+
+    @        [     0] &-teken       
+    @+1      [     1] &-tekens      
+    @+2      [     2] -cijferig     
+    @+3      [     3] -e-mail       
+    @+49847  [ 49847] boks          q2  ? after
+    @+74758  [ 74758] dc            q3  ? after
+    @+87219  [ 87219] draag         q4  ? after
+    @+93447  [ 93447] eet           q5  ? after
+    @+96581  [ 96581] energiek      q6  ? after
+    @+97547  [ 97547] er            q7  ? after
+    @+98648  [ 98648] etablissement q8  ? after
+    @+99115  [ 99115] euro          q10 ? after
+    @+99304  [ 99304] eva           q12 ? after
+    @+99472  [ 99472] even          q13 ? after
+    @+99480  [ 99480] evenaren      q17 ? after
+    @+99485  [ 99485] evenbeelden   q18 ? after
+    @+99487  [ 99487] eveneens      q21 ? it
+    @+99487  [ 99487] eveneens      done. it
+    @+99488  [ 99488] evenement     q19 ? before
+    @+99489  [ 99489] evenementen   q16 ? before
+    @+99538  [ 99538] evennaasten   q15 ? before
+    @+99605  [ 99605] evenzo        q14 ? before
+    @+99746  [ 99746] ex            q1  ? before
+    @+199831 [199831] lijm          q0  ? before
+
+# alphaguess.com 🧩 #810 🥳 16 ⏱️ 0:02:04.616424
+
+🤔 16 attempts
+📜 1 sessions
+
+    @       [    0] aa        
+    @+1     [    1] aah       
+    @+2     [    2] aahed     
+    @+3     [    3] aahing    
+    @+47392 [47392] dis       q1  ? after
+    @+49439 [49439] do        q6  ? after
+    @+49607 [49607] dog       q10 ? after
+    @+49731 [49731] dogsled   q11 ? after
+    @+49792 [49792] dollar    q12 ? after
+    @+49821 [49821] dolma     q13 ? after
+    @+49838 [49838] dolor     q14 ? after
+    @+49847 [49847] dolphin   q15 ? it
+    @+49847 [49847] dolphin   done. it
+    @+49860 [49860] dom       q9  ? before
+    @+50416 [50416] dove      q8  ? before
+    @+51413 [51413] drunk     q7  ? before
+    @+53408 [53408] el        q5  ? before
+    @+60095 [60095] face      q3  ? bb
+    @+60095 [60095] face      q4  ? before
+    @+72812 [72812] gremolata q2  ? before
+    @+98231 [98231] mach      q0  ? before
+
+# squareword.org 🧩 #1350 🥳 7 ⏱️ 0:21:08.821441
+
+📜 1 sessions
+
+Guesses:
+
+Score Heatmap:
+    🟩 🟩 🟩 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟨 🟩 🟨 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟩 🟨 🟩 🟩 🟨
+    🟩:<6 🟨:<11 🟧:<16 🟥:16+
+
+Solution:
+    L A S S O
+    A G A I N
+    B I K E S
+    O L I V E
+    R E S E T
+
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1380 😦 20 ⏱️ 0:20:08.075052
+
+📜 1 sessions
+💰 score: 4660
+
+    5/6
+    SMEAR ⬜⬜🟨⬜⬜
+    TONED ⬜🟨⬜🟨⬜
+    GECKO ⬜🟩⬜⬜🟩
+    HELIO 🟩🟩🟩⬜🟩
+    HELLO 🟩🟩🟩🟩🟩
+    6/6
+    HELLO ⬜🟨⬜⬜⬜
+    ASIDE ⬜⬜🟨⬜🟨
+    INEPT 🟨⬜🟨⬜⬜
+    WIFEY ⬜🟩⬜🟩⬜
+    BIKER ⬜🟩⬜🟩🟩
+    GIVER 🟩🟩🟩🟩🟩
+    4/6
+    GIVER 🟩⬜⬜⬜⬜
+    GLOAM 🟩⬜⬜🟨🟨
+    GAUMS 🟩🟩⬜🟩⬜
+    GAMMA 🟩🟩🟩🟩🟩
+    3/6
+    GAMMA ⬜🟩⬜⬜⬜
+    TARES ⬜🟩🟨⬜🟨
+    SAVOR 🟩🟩🟩🟩🟩
+    Final 2/2
+    BRUIN ⬜🟩🟩🟩⬜
+    FRUIT ⬜🟩🟩🟩⬜
+    FAIL: DRUID
+
+# cemantix.certitudes.org 🧩 #1320 🥳 586 ⏱️ 0:08:29.716773
+
+🤔 587 attempts
+📜 1 sessions
+🫧 31 chat sessions
+⁉️ 195 chat prompts
+🤖 96 llama3.2:latest replies
+🤖 99 gemma3:latest replies
+🔥   3 🥵  30 😎 164 🥶 344 🧊  45
+
+      $1 #587   ~1 mutuel           100.00°C 🥳 1000‰
+      $2  #47 ~192 assurance         50.74°C 🔥  997‰
+      $3  #78 ~178 prévoyance        50.72°C 🔥  996‰
+      $4 #487  ~24 assuré            45.65°C 🔥  993‰
+      $5 #271 ~112 solidarité        41.66°C 🥵  988‰
+      $6 #484  ~26 assureur          41.09°C 🥵  986‰
+      $7 #300  ~94 social            39.08°C 🥵  981‰
+      $8 #353  ~73 organisme         38.54°C 🥵  979‰
+      $9 #384  ~59 commun            38.20°C 🥵  978‰
+     $10 #292  ~98 complémentaire    36.60°C 🥵  973‰
+     $11 #462  ~33 échange           35.84°C 🥵  971‰
+     $35 #209 ~136 remboursement     29.48°C 😎  897‰
+    $199  #97      discipline        18.69°C 🥶
+    $543 #545      récépissé         -0.24°C 🧊
+
+# cemantle.certitudes.org 🧩 #1287 🥳 322 ⏱️ 0:05:16.620334
+
+🤔 323 attempts
+📜 1 sessions
+🫧 11 chat sessions
+⁉️ 65 chat prompts
+🤖 49 llama3.2:latest replies
+🤖 16 gemma3:latest replies
+🔥   3 🥵  12 😎  40 🥶 248 🧊  19
+
+      $1 #323   ~1 earnings              100.00°C 🥳 1000‰
+      $2 #307  ~12 profitability          57.30°C 🔥  996‰
+      $3 #311   ~8 dividend               53.61°C 🔥  995‰
+      $4 #303  ~16 revenue                52.12°C 🔥  992‰
+      $5 #265  ~29 fiscal                 46.86°C 🥵  989‰
+      $6 #287  ~22 growth                 42.46°C 🥵  984‰
+      $7 #306  ~13 depreciation           41.09°C 🥵  979‰
+      $8 #305  ~14 amortization           37.76°C 🥵  966‰
+      $9 #304  ~15 capitalization         35.03°C 🥵  960‰
+     $10 #316   ~6 investment             31.75°C 🥵  930‰
+     $11 #318   ~4 acquirer               31.28°C 🥵  925‰
+     $17 #264  ~30 economy                28.91°C 😎  891‰
+     $57 #160      compensation           16.47°C 🥶
+    $305 #285      evaluation             -0.12°C 🧊
