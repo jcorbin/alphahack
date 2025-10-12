@@ -1,0 +1,61 @@
+T58752.3706837222 now: 2025-10-12T14:44:45UTC
+TD56 site: alfagok.diginaut.net
+TDD152606 loaded 399701 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1151 words excluded) asof 897e1eae8aabc7acba46e3b458f91305a606d766
+TDD6040759  ...cop
+TDD16521872  ...␚
+T58860.772606121376 now: 2025-10-12T14:46:33UTC
+TD1130949  ...
+TDD9916086 [0 : 199834 : 399701] lijm? b
+TDD-11046822 progress: -1 199834 lijm
+TDD10667560 [0 : 99749 : 199834] ex? b
+TDD-10667652 progress: -1 99749 ex
+TDD7586316 [0 : 49847 : 99749] boks? a
+TDD-7586346 progress: 1 49847 boks
+TDD8425122 [49848 : 74758 : 99749] dc? a
+TDD-8425125 progress: 1 74758 dc
+TDD6451773 [74759 : 87219 : 99749] draag? a
+TDD-6451767 progress: 1 87219 draag
+TDD10108647 [87220 : 93447 : 99749] eet? a
+TDD-10108652 progress: 1 93447 eet
+TDD6863719 [93448 : 96581 : 99749] energiek? a
+TDD-6863722 progress: 1 96581 energiek
+TDD8494989 [96582 : 97547 : 99749] er? a
+TDD-8494985 progress: 1 97547 er
+TDD6291656 [97548 : 98648 : 99749] etablissement? a
+TDD-6291649 progress: 1 98648 etablissement
+TDD9637954 [98649 : 99181 : 99749] europa? !
+TDD-2270096 [98649 : 99115 : 99748] euro? a
+TDD-7367859 progress: 1 99115 euro
+TDD7118405 [99116 : 99405 : 99748] evan? !
+TDD913427 [99116 : 99304 : 99747] eva? a
+TDD-8031828 progress: 1 99304 eva
+TDD6530475 [99305 : 99472 : 99747] even? a
+TDD-6530485 progress: 1 99472 even
+TDD7699752 [99473 : 99606 : 99747] evenzo? b
+TDD-7699735 progress: -1 99606 evenzo
+TDD8150292 [99473 : 99539 : 99606] evennaasten? b
+TDD-8150298 progress: -1 99539 evennaasten
+TDD9439697 [99473 : 99490 : 99539] evenementen? b
+TDD-9439695 progress: -1 99490 evenementen
+TDD6070989 [99473 : 99480 : 99490] evenaren? a
+TDD-6070987 progress: 1 99480 evenaren
+TDD6415885 [99481 : 99485 : 99490] evenbeelden? a
+TDD-6415894 progress: 1 99485 evenbeelden
+TDD7440856 [99486 : 99489 : 99490] evenement? b
+TDD-7440852 progress: -1 99489 evenement
+TDD7076117 [99486 : 99487 : 99489] evenboer? !
+TDD2505629 [99486 : 99487 : 99488] eveneens? it
+TDD-9581753 progress: 0 99487 eveneens
+TDD-61 [99486 : 99487 : 99488] <Done>.
+TDD7040042 📋> 🧩 Puzzel #344
+TDD-7040002 📋> 🤔 19 gokken
+TDD-47 📋> ⏱️ 2m 45s
+TDD1140953 📋> 🔗 alfagok.diginaut.net
+TDD197641 📋> ␚
+TDD-1338549 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #344\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 2m 45s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD255 result: "\ud83e\udde9 Puzzel #344\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 2m 45s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-293 result puzzle: 344
+TDD-20 result guesses: 19
+TDD-2 result time: 2m 45s
+TDD6 result link: alfagok.diginaut.net
+TDD991640 📆 2025-10-12 ? 
