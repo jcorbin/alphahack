@@ -1,12 +1,13 @@
-# 2025-10-12
+# 2025-10-13
 
-- 🔗 spaceword.org 🧩 2025-10-11 🏁 score 2173 ranked 5.2% 18/348 ⏱️ 2:19:06.328371
-- 🔗 alfagok.diginaut.net 🧩 #344 🥳 22 ⏱️ 0:03:37.207097
-- 🔗 alphaguess.com 🧩 #810 🥳 16 ⏱️ 0:02:04.616424
-- 🔗 squareword.org 🧩 #1350 🥳 7 ⏱️ 0:21:08.821441
-- 🔗 dictionary.com hurdle 🧩 #1380 😦 20 ⏱️ 0:20:08.075052
-- 🔗 cemantix.certitudes.org 🧩 #1320 🥳 586 ⏱️ 0:08:29.716773
-- 🔗 cemantle.certitudes.org 🧩 #1287 🥳 322 ⏱️ 0:05:16.620334
+- 🔗 spaceword.org 🧩 2025-10-12 🏁 score 2170 ranked 6.7% 25/372 ⏱️ 7:42:57.445651
+- 🔗 alfagok.diginaut.net 🧩 #345 🥳 25 ⏱️ 0:01:21.097598
+- 🔗 alphaguess.com 🧩 #811 🥳 15 ⏱️ 0:00:41.092667
+- 🔗 squareword.org 🧩 #1351 🥳 9 ⏱️ 0:04:35.881432
+- 🔗 dictionary.com hurdle 🧩 #1381 😦 10 ⏱️ 0:03:31.361696
+- 🔗 dontwordle.com 🧩 #1238 🥳 6 ⏱️ 0:01:43.661245
+- 🔗 cemantle.certitudes.org 🧩 #1288 🥳 1493 ⏱️ 2:54:35.958812
+- 🔗 cemantix.certitudes.org 🧩 #1321 🥳 42 ⏱️ 0:00:19.851771
 
 # Dev
 
@@ -405,16 +406,16 @@ Solution:
 - score: 2173 bonus: +73
 - rank: 18/348
 
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ K _ S E I D E L   
-      _ W I P E _ _ U N I   
-      _ _ F I X A T E _ B   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _
+      _ _ _ _ _ _ _ _ _ _
+      _ _ _ _ _ _ _ _ _ _
+      _ _ _ _ _ _ _ _ _ _
+      _ _ K _ S E I D E L
+      _ W I P E _ _ U N I
+      _ _ F I X A T E _ B
+      _ _ _ _ _ _ _ _ _ _
+      _ _ _ _ _ _ _ _ _ _
+      _ _ _ _ _ _ _ _ _ _
 
 
 # alfagok.diginaut.net 🧩 #344 🥳 22 ⏱️ 0:03:37.207097
@@ -422,10 +423,10 @@ Solution:
 🤔 22 attempts
 📜 2 sessions
 
-    @        [     0] &-teken       
-    @+1      [     1] &-tekens      
-    @+2      [     2] -cijferig     
-    @+3      [     3] -e-mail       
+    @        [     0] &-teken
+    @+1      [     1] &-tekens
+    @+2      [     2] -cijferig
+    @+3      [     3] -e-mail
     @+49847  [ 49847] boks          q2  ? after
     @+74758  [ 74758] dc            q3  ? after
     @+87219  [ 87219] draag         q4  ? after
@@ -452,10 +453,10 @@ Solution:
 🤔 16 attempts
 📜 1 sessions
 
-    @       [    0] aa        
-    @+1     [    1] aah       
-    @+2     [    2] aahed     
-    @+3     [    3] aahing    
+    @       [    0] aa
+    @+1     [    1] aah
+    @+2     [    2] aahed
+    @+3     [    3] aahing
     @+47392 [47392] dis       q1  ? after
     @+49439 [49439] do        q6  ? after
     @+49607 [49607] dog       q10 ? after
@@ -576,3 +577,187 @@ Solution:
      $17 #264  ~30 economy                28.91°C 😎  891‰
      $57 #160      compensation           16.47°C 🥶
     $305 #285      evaluation             -0.12°C 🧊
+
+# spaceword.org 🧩 2025-10-12 🏁 score 2170 ranked 6.7% 25/372 ⏱️ 7:42:57.445651
+
+📜 5 sessions
+- tiles: 21/21
+- score: 2170 bonus: +70
+- rank: 25/372
+
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ O _ B A U X I T E   
+      _ R _ _ Z _ _ S U K   
+      _ G L I O M A _ T E   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+
+# alfagok.diginaut.net 🧩 #345 🥳 25 ⏱️ 0:01:21.097598
+
+🤔 25 attempts
+📜 1 sessions
+
+    @        [     0] &-teken       
+    @+1      [     1] &-tekens      
+    @+2      [     2] -cijferig     
+    @+3      [     3] -e-mail       
+    @+199831 [199831] lijm          q0  ? after
+    @+299746 [299746] schub         q1  ? after
+    @+324320 [324320] sub           q3  ? after
+    @+330505 [330505] televisie     q5  ? after
+    @+331900 [331900] terug         q7  ? after
+    @+332642 [332642] test          q8  ? after
+    @+332893 [332893] tetanus       q10 ? after
+    @+332959 [332959] teut          q17 ? after
+    @+332971 [332971] teveel        q22 ? after
+    @+332973 [332973] teven         q24 ? after
+    @+332974 [332974] tevens        done. it
+    @+332975 [332975] tevergeefs    q23 ? before
+    @+332979 [332979] tevreden      q18 ? before
+    @+333014 [333014] tewerkgesteld q11 ? before
+    @+333142 [333142] theater       q9  ? before
+    @+333702 [333702] these         q6  ? before
+    @+336914 [336914] toetsing      q4  ? before
+    @+349521 [349521] vakantie      q2  ? before
+
+# alphaguess.com 🧩 #811 🥳 15 ⏱️ 0:00:41.092667
+
+🤔 15 attempts
+📜 1 sessions
+
+    @       [    0] aa         
+    @+1     [    1] aah        
+    @+2     [    2] aahed      
+    @+3     [    3] aahing     
+    @+47392 [47392] dis        q1  ? after
+    @+60095 [60095] face       q3  ? after
+    @+63251 [63251] flag       q5  ? after
+    @+64848 [64848] foment     q6  ? after
+    @+64938 [64938] foot       q9  ? after
+    @+64943 [64943] football   q14 ? it
+    @+64943 [64943] football   done. it
+    @+64953 [64953] footboards q13 ? before
+    @+64967 [64967] footfault  q12 ? before
+    @+64998 [64998] footlocker q11 ? before
+    @+65058 [65058] footwell   q10 ? before
+    @+65177 [65177] fore       q8  ? before
+    @+65647 [65647] format     q7  ? before
+    @+66451 [66451] french     q4  ? before
+    @+72812 [72812] gremolata  q2  ? before
+    @+98231 [98231] mach       q0  ? before
+
+
+# squareword.org 🧩 #1351 🥳 9 ⏱️ 0:04:35.881432
+
+📜 2 sessions
+
+Guesses:
+
+Score Heatmap:
+    🟩 🟨 🟨 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟨 🟨 🟨 🟨 🟨
+    🟨 🟨 🟨 🟩 🟩
+    🟩:<6 🟨:<11 🟧:<16 🟥:16+
+
+Solution:
+    L I M E S
+    I N E R T
+    R E T R O
+    A P R O N
+    S T O R Y
+
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1381 😦 10 ⏱️ 0:03:31.361696
+
+📜 1 sessions
+💰 score: 1260
+
+    4/6
+    URSAE 🟨⬜⬜⬜⬜
+    PLUMY ⬜🟨🟨⬜⬜
+    LUNGI 🟩🟩⬜⬜🟨
+    LUCID 🟩🟩🟩🟩🟩
+    6/6
+    LUCID 🟩⬜⬜⬜⬜
+    LOSER 🟩🟩⬜⬜⬜
+    LOFTY 🟩🟩⬜⬜🟩
+    LOAMS 🟩🟩⬜⬜⬜
+    LOOPY 🟩🟩⬜⬜🟩
+    LOWLY 🟩🟩⬜⬜🟩
+    FAIL: LOBBY
+
+# dontwordle.com 🧩 #1238 🥳 6 ⏱️ 0:01:43.661245
+
+📜 1 sessions
+💰 score: 32
+
+SURVIVED
+> Hooray! I didn't Wordle today!
+
+    ⬜⬜⬜⬜⬜ tried:PUPUS n n n n n remain:4885
+    ⬜⬜⬜⬜⬜ tried:INION n n n n n remain:1442
+    ⬜⬜⬜⬜⬜ tried:XYLYL n n n n n remain:679
+    ⬜🟨🟨⬜⬜ tried:CRWTH n m m n n remain:12
+    🟩⬜⬜🟩🟩 tried:WEBER Y n n Y Y remain:5
+    🟩🟩⬜🟩🟩 tried:WADER Y Y n Y Y remain:4
+
+    Undos used: 3
+
+      4 words remaining
+    x 8 unused letters
+    = 32 total score
+
+# cemantle.certitudes.org 🧩 #1288 🥳 1493 ⏱️ 2:54:35.958812
+
+🤔 1494 attempts
+📜 1 sessions
+🫧 77 chat sessions
+⁉️ 517 chat prompts
+🤖 176 gemma3:latest replies
+🤖 316 llama3.2:latest replies
+🤖 25 deepseek-r1:latest replies
+🔥    8 🥵   48 😎  197 🥶 1131 🧊  109
+
+       $1 #1494    ~1 testament          100.00°C 🥳 1000‰
+       $2  #439  ~171 evidenced           55.99°C 😱  999‰
+       $3  #973   ~88 exemplify           53.47°C 🔥  998‰
+       $4  #307  ~199 demonstrated        52.86°C 🔥  997‰
+       $5   #73  ~249 demonstrate         50.94°C 🔥  995‰
+       $6   #51  ~251 reflection          50.77°C 🔥  993‰
+       $7 #1141   ~63 epitomize           50.30°C 🔥  992‰
+       $8  #933   ~95 dedication          48.52°C 🔥  991‰
+      $10 #1069   ~68 epitome             46.82°C 🥵  987‰
+      $58  #109  ~239 reflect             35.73°C 😎  898‰
+     $255  #370       laudable            20.98°C 🥶
+     $257 #1454    ~7 indomitable         20.98°C 😎    2‰
+     $258  #665       worthy              20.92°C 🥶
+    $1386 #1307       collected           -0.03°C 🧊
+
+# cemantix.certitudes.org 🧩 #1321 🥳 42 ⏱️ 0:00:19.851771
+
+🤔 43 attempts
+📜 1 sessions
+🫧 3 chat sessions
+⁉️ 11 chat prompts
+🤖 11 gemma3:latest replies
+🔥  3 🥵  7 😎 11 🥶 10 🧊 11
+
+     $1 #43  ~1 aéroport      100.00°C 🥳 1000‰
+     $2 #40  ~4 avion          49.39°C 🔥  995‰
+     $3 #30 ~12 embarquement   48.66°C 🔥  994‰
+     $4 #26 ~15 passager       47.45°C 🔥  993‰
+     $5 #19 ~16 destination    36.56°C 🥵  974‰
+     $6 #41  ~3 bagage         34.76°C 🥵  966‰
+     $7 #37  ~7 transport      34.37°C 🥵  963‰
+     $8 #35  ~9 terminal       33.77°C 🥵  957‰
+     $9 #31 ~11 ferry          32.58°C 🥵  945‰
+    $10 #29 ~13 port           31.07°C 🥵  932‰
+    $11 #38  ~6 voyageur       28.26°C 🥵  900‰
+    $12 #33 ~10 portuaire      28.21°C 😎  898‰
+    $23 #11     baignade       14.53°C 🥶
+    $33 #25     océan          -1.42°C 🧊
