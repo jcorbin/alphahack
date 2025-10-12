@@ -1,0 +1,52 @@
+T59777.46324856952 now: 2025-10-12T15:01:50UTC
+TD56 site: alphaguess.com
+TDD56247 loaded 196547 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (56 words excluded) asof 897e1eae8aabc7acba46e3b458f91305a606d766
+TDD3222864  ...cop
+TDD4986373  ...
+TDD-241654 [0 : 98231 : 196547] mach? b
+TDD-8023798 progress: -1 98231 mach
+TDD5978398 [0 : 47392 : 98231] dis? a
+TDD-5978393 progress: 1 47392 dis
+TDD6567871 [47393 : 72812 : 98231] gremolata? b
+TDD-6567868 progress: -1 72812 gremolata
+TDD6911729 [47393 : 60095 : 72812] face? bb
+TDD-3871818 [47393 : 60095 : 72812] face? b
+TDD-3039911 progress: -1 60095 face
+TDD7103749 [47393 : 53408 : 60095] el? b
+TDD-7103749 progress: -1 53408 el
+TDD6775740 [47393 : 49439 : 53408] do? a
+TDD-6775737 progress: 1 49439 do
+TDD5859714 [49440 : 51413 : 53408] drunk? b
+TDD-5859701 progress: -1 51413 drunk
+TDD6173041 [49440 : 50416 : 51413] dove? b
+TDD-6173060 progress: -1 50416 dove
+TDD6023809 [49440 : 49860 : 50416] dom? b
+TDD-6023806 progress: -1 49860 dom
+TDD5715633 [49440 : 49607 : 49860] dog? a
+TDD-5715628 progress: 1 49607 dog
+TDD5952407 [49608 : 49731 : 49860] dogsled? a
+TDD-5952408 progress: 1 49731 dogsled
+TDD5983819 [49732 : 49792 : 49860] dollar? a
+TDD-5983820 progress: 1 49792 dollar
+TDD6214489 [49793 : 49821 : 49860] dolma? a
+TDD-6214491 progress: 1 49821 dolma
+TDD5839916 [49822 : 49838 : 49860] dolor? a
+TDD-5839924 progress: 1 49838 dolor
+TDD6846607 [49839 : 49847 : 49860] dolphin? it
+TDD-6846600 progress: 0 49847 dolphin
+TDD-74 [49839 : 49847 : 49860] <Done>.
+TDD8349863 📋> 🧩 Puzzle #810
+TDD-8349812 📋> 
+TDD-49 📋> 🤔 15 guesses
+TDD-3 📋> 
+TDD-1 📋> ⏱️ 1m 31s
+TDD0 📋> 
+TDD2011505 📋> 🔗 alphaguess.com
+TDD-403492 📋> ␚
+TDD-1607956 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #810\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 1m 31s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-8 result: "\ud83e\udde9 Puzzle #810\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 1m 31s\n\n\ud83d\udd17 alphaguess.com"
+TDD-38 result puzzle: 810
+TDD-16 result guesses: 15
+TDD-1 result time: 1m 31s
+TDD0 result link: alphaguess.com
+TDD2031880 📆 2025-10-12 ? 
