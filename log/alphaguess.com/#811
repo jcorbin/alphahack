@@ -1,0 +1,50 @@
+T73402.14877589792 now: 2025-10-13T12:44:52UTC
+TD53 site: alphaguess.com
+TDD65766 loaded 196547 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (56 words excluded) asof 2ede42b40cd8d0bb1b3d6b16f7581eb3ffbe36db
+TDD8072231  ...
+TDD-5501708 [0 : 98231 : 196547] mach? b
+TDD-2636190 progress: -1 98231 mach
+TDD1677116 [0 : 47392 : 98231] dis? a
+TDD-1677183 progress: 1 47392 dis
+TDD1492866 [47393 : 72812 : 98231] gremolata? b
+TDD-1492870 progress: -1 72812 gremolata
+TDD1518892 [47393 : 60095 : 72812] face? a
+TDD-1518867 progress: 1 60095 face
+TDD1718914 [60096 : 66451 : 72812] french? b
+TDD-1718948 progress: -1 66451 french
+TDD1631886 [60096 : 63251 : 66451] flag? a
+TDD-1631879 progress: 1 63251 flag
+TDD1486600 [63252 : 64848 : 66451] foment? a
+TDD-1486587 progress: 1 64848 foment
+TDD1592613 [64849 : 65647 : 66451] format? b
+TDD-1592615 progress: -1 65647 format
+TDD1820200 [64849 : 65177 : 65647] fore? b
+TDD-1820216 progress: -1 65177 fore
+TDD1537234 [64849 : 64938 : 65177] foot? a
+TDD-1537206 progress: 1 64938 foot
+TDD1579274 [64939 : 65058 : 65177] footwell? b
+TDD-1579304 progress: -1 65058 footwell
+TDD1567692 [64939 : 64998 : 65058] footlocker? b
+TDD-1567690 progress: -1 64998 footlocker
+TDD4149800 [64939 : 64967 : 64998] footfault? b
+TDD-4149778 progress: -1 64967 footfault
+TDD2850789 [64939 : 64953 : 64967] footboards? b
+TDD-2850795 progress: -1 64953 footboards
+TDD2142617 [64939 : 64943 : 64953] football? it
+TDD-2142630 progress: 0 64943 football
+TDD-55 [64939 : 64943 : 64953] <Done>.
+TDD2727793 📋> 🧩 Puzzle #811
+TDD-2727734 📋> 
+TDD-58 📋> 🤔 15 guesses
+TDD-2 📋> 
+TDD-2 📋> ⏱️ 27s
+TDD-2 📋> 
+TDD226229 📋> 🔗 alphaguess.com
+TDD50802 📋> ␚
+TDD-276989 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #811\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 27s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-4 result: "\ud83e\udde9 Puzzle #811\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 27s\n\n\ud83d\udd17 alphaguess.com"
+TDD-39 result puzzle: 811
+TDD6 result guesses: 15
+TDD-11 result time: 27s
+TDD0 result link: alphaguess.com
+TDD251826 📆 2025-10-13 ? 
