@@ -1,0 +1,144 @@
+T73473.24566086754 now: 2025-10-13T12:46:03UTC
+TD51 site: squareword.org
+TDD-11 wordlist: nwl2023.txt
+TDD9070254  ...
+TDD-6967999 🧩  ? #1351
+TDD-2102139 puzzle_id: #1351
+TDD3331034 > *
+TDD2858196 try? 1
+TDD-6189196 questioning: ["rales", "#5"]
+TDD5625142 #1 _____  📋 "rales" ? ___ES ~ L
+TDD-5624920 attempt 0 RALES n n m Y Y
+TDD2420744 #2 _____  📋 "rales" ? _____ ~ RE
+TDD-2420984 attempt 1 RALES m n n m n
+TDD2405956 #3 _____  📋 "rales" ? R____ ~ RE
+TDD-2406009 attempt 2 RALES Y n n m n
+TDD3710285 #4 _____  📋 "rales" ? _____ ~ RA
+TDD-3710242 attempt 3 RALES m m n n n
+TDD2705971 #5 _____  📋 "rales" ? _____ ~ RS
+TDD-2705985 attempt 4 RALES m n n n m
+TDD606595 ? 
+TDD-606673 question done
+TDD730390 > *
+TDD6826357 try? 1
+TDD-7556637 questioning: ["luges", "#1"]
+TDD4680573 #1 ___ES ~L -AR  📋 "luges" ? L__ES 
+TDD-4680593 attempt 0 LUGES Y n n Y Y
+TDD1379408 #2 _____ ~ER -ALS  📋 "luges" ? .
+TDD-1379425 attempt 1 LUGES n n n m n
+TDD3650397 #3 R____ ~E -ALS  📋 "luges" ? R____ ~ RE
+TDD-3650399 attempt 2 LUGES n n n m n
+TDD2671208 #4 _____ ~AR -ELS  📋 "luges" ? _____ ~ RA
+TDD-2671196 attempt 3 LUGES n n n n n
+TDD2279373 #5 _____ ~RS -AEL  📋 "luges" ? .
+TDD-2279388 attempt 4 LUGES n n n n m
+TDD750377 ? 
+TDD-750463 question done
+TDD30118487 > *
+TDD-27747998 try? 1
+TDD-2370354 questioning: ["onery", "#2"]
+TDD4807848 #1 L__ES -AGRU  📋 "onery" ? .
+TDD-4807862 attempt 0 ONERY n n n n n
+TDD1254565 #2 _____ ~ER -AGLSU  📋 "onery" ? _NER_
+TDD-1254609 attempt 1 ONERY n Y Y Y n
+TDD3459147 #3 R____ ~E -AGLSU  📋 "onery" ? R__R_ ~ EO
+TDD-3459131 attempt 2 ONERY m n m Y n
+TDD3352266 #4 _____ ~AR -EGLSU  📋 "onery" ? _____ ~ RAON
+TDD-3352259 attempt 3 ONERY m m n m n
+TDD3240494 #5 _____ ~RS -AEGLU  📋 "onery" ? ___RY ~ SO
+TDD-3240476 attempt 4 ONERY m n n Y Y
+TDD212275 ? 
+TDD-212373 question done
+TDD629660 > *
+TDD118141 questioning: ["inert", "#2"]
+TDD4821706 #1 L__ES -AEGNORUY  📋 "inert" ? L__ES ~ I
+TDD-5569414 attempt 0 INERT m n n n n
+TDD830689 #2 _NER_ -AGLOSUY  📋 "inert" ? /it
+TDD-830746 attempt 1 INERT Y Y Y Y Y
+TDD3256019 #3 R__R_ ~EO -AGLNSUY  📋 "inert" ? R__R_ ~ EOT
+TDD-3255958 attempt 2 INERT n n m Y m
+TDD2665452 #4 _____ ~ANOR -EGLSUY  📋 "inert" ? .
+TDD-2665442 attempt 3 INERT n m n m n
+TDD5176006 #5 ___RY ~OS -AEGLNU  📋 "inert" ? ___RY ~ SOT
+TDD-5176020 attempt 4 INERT n n n Y m
+TDD177621 ? 
+TDD-177734 question done
+TDD545005 > *
+TDD1045759 questioning: ["retro", "#3"]
+TDD3579334 #1 L__ES ~I -AEGNORTUY  📋 "retro" ? .
+TDD-5169990 attempt 0 RETRO n n n n n
+TDD847929 #3 R__R_ ~EOT -AGILNSUY  📋 "retro" ? /it
+TDD-847990 attempt 2 RETRO Y Y Y Y Y
+TDD1842295 #4 _____ ~ANOR -EGILSTUY  📋 "retro" ? .
+TDD-1842276 attempt 3 RETRO m n n m m
+TDD6156223 #5 ___RY ~OS -AEGILNU  📋 "retro" ? ___RY ~ SOT
+TDD-6156182 attempt 4 RETRO n n m Y m
+TDD14286632 ? 
+TDD-14286682 question done
+TDD2503638 > *
+TDD3400404 try? 1
+TDD-5903980 questioning: ["sport", "#5"]
+TDD10275598 #1 L__ES ~I -AEGNORTUY  📋 "sport" ? .
+TDD-10275607 attempt 0 SPORT n n n n n
+TDD8065013 #4 _____ ~ANOR -EGILSTUY  📋 "sport" ? _P___ ~ RAON
+TDD-8065005 attempt 3 SPORT n Y m m n
+TDD4029441 #5 ___RY ~OS -AEGILNU  📋 "sport" ? S_ORY ~ T
+TDD-4029441 attempt 4 SPORT Y n Y Y m
+TDD972682 ? 
+TDD-972774 question done
+TDD4969494 > *
+TDD-3122936 questioning: ["limes", "#1"]
+TDD10829930 #1 L__ES ~I -AEGNOPRSTUY  📋 "limes" ? /it
+TDD-12676393 attempt 0 LIMES Y Y Y Y Y
+TDD9768599 #4 _P___ ~ANOR -EGILSTUY  📋 "limes" ? .
+TDD-9768606 attempt 3 LIMES n n n n n
+TDD5905300 #5 S_ORY -AEGILNPU  📋 "limes" ? S_ORY ~ T
+TDD-5905308 attempt 4 LIMES n n n n n
+TDD682773 ? 
+TDD-682843 question done
+TDD10014348 > ␚
+TDD-10014370 <EOF>
+TDD2064546 > ␚
+TDD-2064570 <EOF>
+TDD1111417 > ␚
+TDD-1111422 <EOF>
+TDD606241 > 
+TDD-145290 > ␚
+TDD-460910 <EOF>
+TDD208228 > ␚
+TDD-208279 <EOF>
+TDD168606 > ␚
+TDD-168587 <EOF>
+TDD162849 > ␚
+TDD-162837 <EOF>
+T185.48537890985608 now: 2025-10-13T12:53:13UTC
+TD756743  ...
+TDD411718 > *
+TDD-976713 questioning: ["apron", "#4"]
+TDD3102530 #4 _P___ ~ANOR -EGILMSTUY  📋 "apron" ? /it
+TDD-3294107 attempt 3 APRON Y Y Y Y Y
+TDD163590 #5 S_ORY ~T -AEGILMNPSU  📋 "apron" ? 
+TDD8645498 #5 S_ORY ~T -AEGILMNPSU  ? S_ORY ~ R
+TDD-8809084 attempt 4 APRON n n m n n
+TDD4206600 ? 
+TDD-4206659 question done
+TDD1126501 > *
+TDD-823031 questioning: ["story", "#5"]
+TDD5926702 #5 S_ORY ~T -AEGILMNOPSU  📋 "story" ? /it
+TDD-6230116 attempt 4 STORY Y Y Y Y Y
+TDD796331 ? 
+TDD-796420 question done
+TDD5343576 📋> squareword.org 1351: 9 guesses
+TDD-5343589 📋> 
+TDD-46 📋> 🟩🟨🟨🟩🟩
+TDD-6 📋> 🟩🟩🟩🟩🟩
+TDD7 📋> 🟩🟩🟩🟩🟩
+TDD-8 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟨🟨🟨🟩🟩
+TDD2 📋> 
+TDD8 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD217854 📋> #squareword #squareword1351
+TDD63552 📋> ␚
+TDD-281373 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1351: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1351"}
+TDD346 result: "squareword.org 1351: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1351"
+TDD404476 📆 2025-10-13 ? 
