@@ -1,0 +1,68 @@
+T221.50008562207222 now: 2025-10-13T12:53:49UTC
+TD53 site: https://play.dictionary.com/games/todays-hurdle
+TDD-18 wordlist: nwl2023.txt
+TDD55702523  ...
+TDD-54477550 1.1> *
+TDD145700 1.1 ? 1
+TDD4392171 1.1 📋 "ursae" ? Mnnnn
+TDD-5762644 tried: URSAE m n n n n
+TDD449871 1.2> *
+TDD1702368 1.2 ? 1
+TDD2874178 1.2 📋 "plumy" ? nMMnn
+TDD-5026513 tried: PLUMY n m m n n
+TDD516013 1.3> *
+TDD750249 1.3 ? 1
+TDD3546811 1.3 📋 "lungi" ? YYnnM
+TDD-4813068 tried: LUNGI Y Y n n m
+TDD549251 1.4> *
+TDD1976377 1.4 ? 1
+TDD2496917 1.4 📋 "lucid" ? it
+TDD-5022553 tried: LUCID Y Y Y Y Y
+TDD6735325 2.1 📋 "lucid" ? Ynnnn
+TDD-6735322 tried: LUCID Y n n n n
+TDD527368 2.2> *
+TDD397996 2.2 ? 1
+TDD2991864 2.2 📋 "loser" ? YYnnn
+TDD-3917228 tried: LOSER Y Y n n n
+TDD579883 2.3> *
+TDD7899143 2.3 ? 1
+TDD8969558 2.3 📋 "lofty" ? YYnnY
+TDD-17448592 tried: LOFTY Y Y n n Y
+TDD588434 2.4> *
+TDD4783632 2.4 ? 8
+TDD2102889 2.4 📋 "loamy" ? ␚
+TDD-7475030 <EOF>
+TDD2761683 2.4> "loamss"
+TDD43878 2.4> "loams"
+TDD-1355327 2.4> loams
+TDD13774126 2.4> tried loams YYnnn
+TDD-15224262 tried: LOAMS Y Y n n n
+TDD1280299 2.5> *
+TDD13288624 2.5 ? 4
+TDD-1405202 2.5 📋 "loopy" ? YYnnY
+TDD-13163752 tried: LOOPY Y Y n n Y
+TDD718782 2.6> *
+TDD6901394 2.6 ? 4
+TDD-192460 2.6 📋 "lowly" ? YYnnY
+TDD-7427706 tried: LOWLY Y Y n n Y
+TDD1661103 2.7> fail lobby
+TDD-1661127 fail: LOBBY
+TDD3151477 📋> Hurdle 1381
+TDD-3151527 📋> 
+TDD-45 📋> 4/6
+TDD-2 📋> 🟨⬜⬜⬜⬜
+TDD-1 📋> ⬜🟨🟨⬜⬜
+TDD0 📋> 🟩🟩⬜⬜🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD19 📋> X/6
+TDD-17 📋> 🟩⬜⬜⬜⬜
+TDD-1 📋> 🟩🟩⬜⬜⬜
+TDD-1 📋> 🟩🟩⬜⬜🟩
+TDD0 📋> 🟩🟩⬜⬜⬜
+TDD0 📋> 🟩🟩⬜⬜🟩
+TDD0 📋> 🟩🟩⬜⬜🟩
+TDD321081 📋> score: 1,260
+TDD65757 📋> ␚
+TDD-386768 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1381\n\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nX/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\nscore: 1,260"}
+TDD297 result: "Hurdle 1381\n\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nX/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\nscore: 1,260"
+TDD382041 📆 2025-10-13 ? 
