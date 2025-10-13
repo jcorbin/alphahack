@@ -1,0 +1,59 @@
+T73308.94195658341 now: 2025-10-13T12:43:19UTC
+TD66 site: alfagok.diginaut.net
+TDD150798 loaded 399698 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1154 words excluded) asof 2ede42b40cd8d0bb1b3d6b16f7581eb3ffbe36db
+TDD8525778  ...
+TDD-5896251 [0 : 199831 : 399698] lijm? a
+TDD-2780149 progress: 1 199831 lijm
+TDD1805804 [199832 : 299746 : 399698] schub? a
+TDD-1805929 progress: 1 299746 schub
+TDD1720943 [299747 : 349529 : 399698] vakantie? b
+TDD-1720985 progress: -1 349529 vakantie
+TDD2021307 [299747 : 324320 : 349529] sub? a
+TDD-2021287 progress: 1 324320 sub
+TDD2781043 [324321 : 336922 : 349529] toetsing? b
+TDD-2781047 progress: -1 336922 toetsing
+TDD1688036 [324321 : 330505 : 336922] televisie? a
+TDD-1688046 progress: 1 330505 televisie
+TDD1769321 [330506 : 333710 : 336922] these? b
+TDD-1769297 progress: -1 333710 these
+TDD2012661 [330506 : 331900 : 333710] terug? a
+TDD-2012683 progress: 1 331900 terug
+TDD1825669 [331901 : 332642 : 333710] test? a
+TDD-1825659 progress: 1 332642 test
+TDD2076547 [332643 : 333150 : 333710] theater? b
+TDD-2076554 progress: -1 333150 theater
+TDD1800431 [332643 : 332893 : 333150] tetanus? a
+TDD-1800449 progress: 1 332893 tetanus
+TDD4477777 [332894 : 333022 : 333150] tewerkgesteld? b
+TDD-4477757 progress: -1 333022 tewerkgesteld
+TDD3333616 [332894 : 332949 : 333022] teun? !
+TDD1792209 [332894 : 332958 : 333021] teuntje? !
+TDD-2479617 [332894 : 332958 : 333020] teuntjes? !
+TDD-711768 [332894 : 332958 : 333019] teurlings? !
+TDD384132 [332894 : 332958 : 333018] teus? !
+TDD1403684 [332894 : 332959 : 333017] teut? a
+TDD-3722254 progress: 1 332959 teut
+TDD3424912 [332960 : 332982 : 333017] tevreden? b
+TDD-3424910 progress: -1 332982 tevreden
+TDD2687188 [332960 : 332971 : 332982] teuwen? !
+TDD1048169 [332960 : 332971 : 332981] teuwsen? !
+TDD-1435007 [332960 : 332971 : 332980] teva? !
+TDD-115933 [332960 : 332971 : 332979] teveel? a
+TDD-2184410 progress: 1 332971 teveel
+TDD2550494 [332972 : 332975 : 332979] tevergeefs? b
+TDD-2550510 progress: -1 332975 tevergeefs
+TDD1817184 [332972 : 332973 : 332975] teven? a
+TDD-1817177 progress: 1 332973 teven
+TDD-67 [332974 : 332974 : 332975] <Done>.
+TDD6531455 📋> 🧩 Puzzel #345
+TDD-6531381 📋> 🤔 18 gokken
+TDD-70 📋> ⏱️ 1m 5s
+TDD392003 📋> 🔗 alfagok.diginaut.net
+TDD-371 📋> ␚
+TDD-391595 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #345\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 1m 5s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD201 result: "\ud83e\udde9 Puzzel #345\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 1m 5s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-237 result puzzle: 345
+TDD-18 result guesses: 18
+TDD-1 result time: 1m 5s
+TDD0 result link: alfagok.diginaut.net
+TDD409587 📆 2025-10-13 ? 
