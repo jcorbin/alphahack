@@ -9,7 +9,7 @@ import sys
 import subprocess
 from collections import Counter, defaultdict
 from itertools import chain
-from collections.abc import Generator, Iterable
+from collections.abc import Generator, Iterable, Sequence
 from datetime import date
 from dotenv import load_dotenv
 from emoji import emoji_count, is_emoji
@@ -497,6 +497,7 @@ class Meta(Arguable):
             'day': self.do_day,
             'env': self.do_env,
             'log': self.do_log,
+            'push': partial(self.do_system, cmd=('git', 'push', 'origin', '+:')),
             'review': self.do_review,
             'run': self.do_run,
             'share': self.do_share,
@@ -615,12 +616,13 @@ class Meta(Arguable):
             ui.print(f'${name} = {value!r}')
             return
 
-    def do_system(self, ui: PromptUI):
+    def do_system(self, ui: PromptUI, cmd: Sequence[str]=()):
         '''
         Run arbitrary system command (execv not shell)
         '''
-        try:
+        if not cmd:
             cmd = shlex.split(ui.tokens.rest)
+        try:
             with ui.check_proc(subprocess.Popen(cmd)):
                 pass
         except subprocess.CalledProcessError as err:
