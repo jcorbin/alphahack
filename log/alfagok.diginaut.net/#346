@@ -1,0 +1,43 @@
+T68763.24695523828 now: 2025-10-14T11:50:27UTC
+TD57 site: alfagok.diginaut.net
+TDD151452 loaded 399690 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1162 words excluded) asof cc291a2614b8e134453c7cb34c6eea14f86d3bed
+TDD17862456  ...
+TDD-13387757 [0 : 199831 : 399690] lijm? a
+TDD-4626015 progress: 1 199831 lijm
+TDD2045738 [199832 : 299746 : 399690] schub? a
+TDD-2045814 progress: 1 299746 schub
+TDD2283484 [299747 : 349521 : 399690] vakantie? b
+TDD-2283492 progress: -1 349521 vakantie
+TDD4063286 [299747 : 324320 : 349521] sub? b
+TDD-4063288 progress: -1 324320 sub
+TDD2949259 [299747 : 311915 : 324320] spier? a
+TDD-2949272 progress: 1 311915 spier
+TDD1992329 [311916 : 314624 : 324320] st? a
+TDD-1992321 progress: 1 314624 st
+TDD1953954 [314625 : 319419 : 324320] stik? b
+TDD-1953939 progress: -1 319419 stik
+TDD1999133 [314625 : 316839 : 319419] start? b
+TDD-1999161 progress: -1 316839 start
+TDD1900818 [314625 : 315404 : 316839] stads? b
+TDD-1900811 progress: -1 315404 stads
+TDD2641130 [314625 : 314908 : 315404] staats? a
+TDD-2641135 progress: 1 314908 staats
+TDD2083816 [314909 : 315157 : 315404] staatsolie? a
+TDD-2083800 progress: 1 315157 staatsolie
+TDD3170502 [315158 : 315281 : 315404] staatswinkels? a
+TDD-3170524 progress: 1 315281 staatswinkels
+TDD2530553 [315282 : 315339 : 315404] stad? it
+TDD-2530540 progress: 0 315339 stad
+TDD-78 [315282 : 315339 : 315404] <Done>.
+TDD3834412 📋> 🧩 Puzzel #346
+TDD-3834363 📋> 🤔 13 gokken
+TDD-49 📋> ⏱️ 30s
+TDD440896 📋> 🔗 alfagok.diginaut.net
+TDD-18220 📋> ␚
+TDD-422610 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #346\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 30s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD227 result: "\ud83e\udde9 Puzzel #346\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 30s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-295 result puzzle: 346
+TDD-7 result guesses: 13
+TDD-1 result time: 30s
+TDD0 result link: alfagok.diginaut.net
+TDD801527 📆 2025-10-14 ? 
