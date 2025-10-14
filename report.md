@@ -1,13 +1,13 @@
-# 2025-10-14
+# 2025-10-15
 
-- 🔗 spaceword.org 🧩 2025-10-13 🏁 score 2173 ranked 5.8% 23/397 ⏱️ 0:37:58.664665
-- 🔗 alfagok.diginaut.net 🧩 #346 🥳 13 ⏱️ 0:00:57.908591
-- 🔗 alphaguess.com 🧩 #812 🥳 12 ⏱️ 0:00:48.142590
-- 🔗 squareword.org 🧩 #1352 🥳 8 ⏱️ 0:02:29.162169
-- 🔗 dictionary.com hurdle 🧩 #1382 🥳 20 ⏱️ 0:05:17.460800
-- 🔗 dontwordle.com 🧩 #1239 🥳 6 ⏱️ 0:01:56.320660
-- 🔗 cemantle.certitudes.org 🧩 #1289 🥳 39 ⏱️ 0:00:18.574713
-- 🔗 cemantix.certitudes.org 🧩 #1322 🥳 318 ⏱️ 0:03:51.371048
+- 🔗 spaceword.org 🧩 2025-10-14 🏁 score 2168 ranked 41.6% 151/363 ⏱️ 0:54:23.050115
+- 🔗 alfagok.diginaut.net 🧩 #347 🥳 21 ⏱️ 0:01:00.647009
+- 🔗 alphaguess.com 🧩 #813 🥳 14 ⏱️ 0:00:41.439823
+- 🔗 squareword.org 🧩 #1353 🥳 8 ⏱️ 0:02:17.415581
+- 🔗 dictionary.com hurdle 🧩 #1383 😦 13 ⏱️ 0:02:52.110099
+- 🔗 dontwordle.com 🧩 #1240 🥳 6 ⏱️ 0:01:44.263830
+- 🔗 cemantle.certitudes.org 🧩 #1290 🥳 462 ⏱️ 0:19:11.675760
+- 🔗 cemantix.certitudes.org 🧩 #1323 🥳 37 ⏱️ 0:04:02.287441
 
 # Dev
 
@@ -226,52 +226,56 @@
 
   ```
 
-# spaceword.org 🧩 2025-10-13 🏁 score 2173 ranked 5.8% 23/397 ⏱️ 0:37:58.664665
+
+# spaceword.org 🧩 2025-10-14 🏁 score 2168 ranked 41.6% 151/363 ⏱️ 0:54:23.050115
 
 📜 4 sessions
 - tiles: 21/21
-- score: 2173 bonus: +73
-- rank: 23/397
+- score: 2168 bonus: +68
+- rank: 151/363
 
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ H I C _ D _ Q _ E   
-      _ O _ U N I T I V E   
-      _ N E P E T A _ _ K   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ U N D O _ _ _   
+      _ _ _ _ _ _ W _ _ _   
+      _ _ _ I R O N _ _ _   
+      _ _ _ _ _ P E _ _ _   
+      _ _ _ _ O A R _ _ _   
+      _ _ _ _ _ Q _ _ _ _   
+      _ _ _ _ F U B _ _ _   
+      _ _ _ J E E _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
 
 
-# alfagok.diginaut.net 🧩 #346 🥳 13 ⏱️ 0:00:57.908591
+# alfagok.diginaut.net 🧩 #347 🥳 21 ⏱️ 0:01:00.647009
 
-🤔 13 attempts
+🤔 21 attempts
 📜 1 sessions
 
-    @        [     0] &-teken       
-    @+1      [     1] &-tekens      
-    @+2      [     2] -cijferig     
-    @+3      [     3] -e-mail       
-    @+199831 [199831] lijm          q0  ? after
-    @+299746 [299746] schub         q1  ? after
-    @+311915 [311915] spier         q4  ? after
-    @+314624 [314624] st            q5  ? after
-    @+314908 [314908] staats        q9  ? after
-    @+315157 [315157] staatsolie    q10 ? after
-    @+315281 [315281] staatswinkels q11 ? after
-    @+315339 [315339] stad          q12 ? it
-    @+315339 [315339] stad          done. it
-    @+315404 [315404] stads         q8  ? before
-    @+316839 [316839] start         q7  ? before
-    @+319419 [319419] stik          q6  ? before
-    @+324320 [324320] sub           q3  ? before
-    @+349521 [349521] vakantie      q2  ? before
+    @        [     0] &-teken   
+    @+1      [     1] &-tekens  
+    @+2      [     2] -cijferig 
+    @+3      [     3] -e-mail   
+    @+49847  [ 49847] boks      q2  ? after
+    @+62286  [ 62286] cement    q5  ? after
+    @+68520  [ 68520] connectie q6  ? after
+    @+71640  [ 71640] crypt     q7  ? after
+    @+72257  [ 72257] curry     q9  ? after
+    @+72567  [ 72567] cyclus    q10 ? after
+    @+72724  [ 72724] daar      q14 ? after
+    @+72744  [ 72744] daarginds q18 ? after
+    @+72754  [ 72754] daarmede  q19 ? after
+    @+72756  [ 72756] daarna    q20 ? it
+    @+72756  [ 72756] daarna    done. it
+    @+72763  [ 72763] daarom    q17 ? before
+    @+72799  [ 72799] dacht     q15 ? before
+    @+72875  [ 72875] dag       q8  ? before
+    @+74754  [ 74754] dc        q4  ? before
+    @+99741  [ 99741] ex        q1  ? before
+    @+199826 [199826] lijm      q0  ? before
 
-# alphaguess.com 🧩 #812 🥳 12 ⏱️ 0:00:48.142590
+# alphaguess.com 🧩 #813 🥳 14 ⏱️ 0:00:41.439823
 
-🤔 12 attempts
+🤔 14 attempts
 📜 1 sessions
 
     @       [    0] aa        
@@ -279,136 +283,131 @@
     @+2     [    2] aahed     
     @+3     [    3] aahing    
     @+47392 [47392] dis       q1  ? after
-    @+60095 [60095] face      q3  ? after
-    @+60862 [60862] fas       q7  ? after
-    @+60912 [60912] fash      q10 ? after
-    @+60933 [60933] fast      q11 ? it
-    @+60933 [60933] fast      done. it
-    @+60962 [60962] fat       q9  ? before
-    @+61243 [61243] feast     q8  ? before
-    @+61631 [61631] fen       q6  ? before
-    @+63251 [63251] flag      q5  ? before
-    @+66451 [66451] french    q4  ? before
-    @+72812 [72812] gremolata q2  ? before
+    @+72812 [72812] gremolata q2  ? after
+    @+85516 [85516] ins       q3  ? after
+    @+91861 [91861] knot      q4  ? after
+    @+93281 [93281] lar       q6  ? after
+    @+93573 [93573] lati      q9  ? after
+    @+93637 [93637] laud      q11 ? after
+    @+93677 [93677] launch    q12 ? after
+    @+93700 [93700] laundry   q13 ? it
+    @+93700 [93700] laundry   done. it
+    @+93727 [93727] lava      q10 ? before
+    @+93909 [93909] lea       q7  ? vb
+    @+93909 [93909] lea       q8  ? before
+    @+94958 [94958] lib       q5  ? before
     @+98231 [98231] mach      q0  ? before
 
-# squareword.org 🧩 #1352 🥳 8 ⏱️ 0:02:29.162169
+# squareword.org 🧩 #1353 🥳 8 ⏱️ 0:02:17.415581
 
 📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
-    🟩 🟩 🟩 🟨 🟩
+    🟩 🟨 🟨 🟨 🟨
+    🟨 🟨 🟨 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟨 🟨 🟩
+    🟨 🟨 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
-    🟩 🟨 🟩 🟨 🟨
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    S T E W S
-    T U L I P
-    A N O D E
-    R I P E N
-    S C E N T
+    S H A P E
+    H O L E D
+    A M O N G
+    F E N C E
+    T R E E D
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1382 🥳 20 ⏱️ 0:05:17.460800
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1383 😦 13 ⏱️ 0:02:52.110099
 
 📜 1 sessions
-💰 score: 9600
+💰 score: 2580
 
-    5/6
-    SLATE ⬜⬜⬜⬜🟨
-    DENIM ⬜🟨⬜⬜⬜
-    HYPER ⬜⬜🟨🟩🟩
-    POWER 🟩⬜⬜🟩🟩
-    PURER 🟩🟩🟩🟩🟩
+    4/6
+    ORLES 🟨🟨⬜⬜⬜
+    RATIO 🟨🟨⬜⬜🟨
+    HOARD ⬜🟨🟨🟨⬜
+    APRON 🟩🟩🟩🟩🟩
     3/6
-    PURER ⬜🟩⬜🟩🟩
-    TUNER 🟨🟩⬜🟩🟩
-    OUTER 🟩🟩🟩🟩🟩
-    5/6
-    OUTER ⬜🟨⬜⬜⬜
-    UNLAY 🟨⬜⬜🟨⬜
-    HAIKU ⬜🟨⬜⬜🟨
-    SCUBA ⬜⬜🟩🟨🟨
-    ABUZZ 🟩🟩🟩🟩🟩
-    5/6
-    ABUZZ ⬜⬜⬜⬜⬜
-    NOISE 🟨🟩⬜⬜🟨
-    WOMEN ⬜🟩⬜🟩🟩
-    CODEN ⬜🟩⬜🟩🟩
-    TOKEN 🟩🟩🟩🟩🟩
-    Final 2/2
-    GRIMY ⬜🟩🟩⬜⬜
-    DRILL 🟩🟩🟩🟩🟩
+    APRON 🟩🟨⬜⬜⬜
+    ADAPT 🟩🟩⬜🟩🟩
+    ADEPT 🟩🟩🟩🟩🟩
+    6/6
+    ADEPT ⬜⬜🟨⬜⬜
+    ORLES ⬜🟨⬜🟨🟨
+    SERIF 🟨🟩🟨🟩⬜
+    BEGIN ⬜🟩⬜🟩🟩
+    VENIN ⬜🟩⬜🟩🟩
+    HEMIN ⬜🟩⬜🟩🟩
+    FAIL: RESIN
 
-# dontwordle.com 🧩 #1239 🥳 6 ⏱️ 0:01:56.320660
+# dontwordle.com 🧩 #1240 🥳 6 ⏱️ 0:01:44.263830
 
 📜 1 sessions
-💰 score: 8
+💰 score: 6
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:FREER n n n n n remain:4802
-    ⬜⬜⬜⬜⬜ tried:DODOS n n n n n remain:1134
-    ⬜⬜⬜⬜⬜ tried:XYLYL n n n n n remain:476
-    ⬜⬜⬜⬜⬜ tried:JINNI n n n n n remain:114
-    ⬜⬜⬜⬜⬜ tried:PHPHT n n n n n remain:27
-    ⬜⬜🟩🟨⬜ tried:ABAKA n n Y m n remain:1
+    ⬜⬜⬜⬜⬜ tried:VILLI n n n n n remain:6812
+    ⬜⬜⬜⬜⬜ tried:EBBED n n n n n remain:2576
+    ⬜⬜⬜⬜⬜ tried:POOPY n n n n n remain:823
+    ⬜⬜⬜🟨⬜ tried:CRWTH n n n m n remain:58
+    ⬜🟨⬜🟩⬜ tried:ATMAN n m n Y n remain:3
+    🟨🟨⬜🟩🟨 tried:TUFAS m m n Y m remain:1
 
-    Undos used: 4
+    Undos used: 2
 
       1 words remaining
-    x 8 unused letters
-    = 8 total score
+    x 6 unused letters
+    = 6 total score
 
-# cemantle.certitudes.org 🧩 #1289 🥳 39 ⏱️ 0:00:18.574713
+# cemantle.certitudes.org 🧩 #1290 🥳 462 ⏱️ 0:19:11.675760
 
-🤔 40 attempts
+🤔 463 attempts
 📜 1 sessions
-🫧 2 chat sessions
-⁉️ 8 chat prompts
-🤖 8 gemma3:latest replies
-🔥  1 🥵  3 😎  3 🥶 26 🧊  6
+🫧 17 chat sessions
+⁉️ 102 chat prompts
+🤖 65 llama3.2:latest replies
+🤖 37 gemma3:latest replies
+😱   1 🔥   2 🥵  21 😎  72 🥶 361 🧊   5
 
-     $1 #40  ~1 accuracy      100.00°C 🥳 1000‰
-     $2 #39  ~2 precision      54.42°C 🔥  998‰
-     $3  #9  ~8 velocity       38.97°C 🥵  958‰
-     $4 #13  ~7 speed          36.31°C 🥵  932‰
-     $5 #34  ~4 dexterity      34.93°C 🥵  910‰
-     $6 #33  ~5 agility        34.29°C 😎  893‰
-     $7 #21  ~6 swiftness      31.59°C 😎  815‰
-     $8 #37  ~3 gracefulness   27.32°C 😎  545‰
-     $9  #6     quantum        22.20°C 🥶
-    $10 #15     acceleration   20.72°C 🥶
-    $11 #38     kinetic        19.34°C 🥶
-    $12 #17     flow           16.63°C 🥶
-    $13  #7     quartz         16.53°C 🥶
-    $35 #30     sprint         -0.09°C 🧊
+      $1 #463   ~1 horizontal        100.00°C 🥳 1000‰
+      $2 #192  ~74 vertical           67.61°C 😱  999‰
+      $3 #193  ~73 perpendicular      60.24°C 🔥  996‰
+      $4 #290  ~44 diagonal           54.01°C 🔥  990‰
+      $5 #251  ~59 sigmoidal          53.68°C 🥵  988‰
+      $6 #372  ~21 arcuate            53.43°C 🥵  987‰
+      $7 #280  ~47 orthogonal         52.17°C 🥵  986‰
+      $8 #257  ~58 curved             51.10°C 🥵  983‰
+      $9 #228  ~66 angular            50.88°C 🥵  982‰
+     $10  #73  ~88 contour            50.72°C 🥵  979‰
+     $11 #430   ~6 radial             50.35°C 🥵  976‰
+     $26 #232  ~64 axial              45.46°C 😎  895‰
+     $98 #278      geometrically      34.44°C 🥶
+    $459  #30      momentum           -0.33°C 🧊
 
-# cemantix.certitudes.org 🧩 #1322 🥳 318 ⏱️ 0:03:51.371048
+# cemantix.certitudes.org 🧩 #1323 🥳 37 ⏱️ 0:04:02.287441
 
-🤔 319 attempts
-📜 1 sessions
-🫧 14 chat sessions
-⁉️ 89 chat prompts
-🤖 89 gemma3:latest replies
-🔥   1 🥵   6 😎  35 🥶 244 🧊  32
+🤔 38 attempts
+📜 2 sessions
+🫧 3 chat sessions
+⁉️ 12 chat prompts
+🤖 12 gemma3:latest replies
+😎  6 🥶 22 🧊  9
 
-      $1 #319   ~1 bouteille         100.00°C 🥳 1000‰
-      $2 #308   ~4 verre              51.63°C 🔥  997‰
-      $3 #318   ~2 vin                48.56°C 🥵  988‰
-      $4 #316   ~3 bière              45.79°C 🥵  976‰
-      $5 #190  ~27 vodka              45.03°C 🥵  969‰
-      $6 #198  ~24 liqueur            42.23°C 🥵  950‰
-      $7 #152  ~34 distillat          41.40°C 🥵  943‰
-      $8 #288   ~8 tonneau            39.61°C 🥵  916‰
-      $9 #248  ~18 kir                37.58°C 😎  887‰
-     $10 #212  ~22 pastis             36.86°C 😎  880‰
-     $11 #196  ~25 spiritueux         35.45°C 😎  848‰
-     $12 #192  ~26 brandy             35.09°C 😎  839‰
-     $44 #204      élixir             24.40°C 🥶
-    $288 #177      précipité          -0.82°C 🧊
+     $1 #38  ~1 refuge         100.00°C 🥳 1000‰
+     $2 #16  ~6 solitude        26.36°C 😎  817‰
+     $3  #6  ~7 repos           25.69°C 😎  784‰
+     $4 #32  ~3 nuit            24.98°C 😎  756‰
+     $5 #27  ~5 calme           23.11°C 😎  631‰
+     $6 #30  ~4 désert          19.22°C 😎  175‰
+     $7 #37  ~2 peur            18.66°C 😎   75‰
+     $8 #28     isolement       14.44°C 🥶
+     $9  #8     vent            12.33°C 🥶
+    $10 #33     lointain        12.13°C 🥶
+    $11 #22     contemplation   12.06°C 🥶
+    $12 #13     silence         11.20°C 🥶
+    $13 #34     ombre            9.90°C 🥶
+    $30 #36     voile           -1.18°C 🧊
