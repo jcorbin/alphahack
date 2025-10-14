@@ -1,0 +1,113 @@
+T69551.68543911353 now: 2025-10-14T12:03:36UTC
+TD50 site: squareword.org
+TDD-14 wordlist: nwl2023.txt
+TDD4358979  ...
+TDD-1557333 🧩  ? #1352
+TDD-2801510 puzzle_id: #1352
+TDD3169910 > *
+TDD-1836875 try? 1
+TDD-1333022 questioning: ["parse", "#5"]
+TDD4323228 #1 _____  📋 "parse" ? _____ ~ SE
+TDD-4323033 attempt 0 PARSE n n n m m
+TDD2249526 #2 _____  📋 "parse" ? _____ ~ P
+TDD-2249709 attempt 1 PARSE m n n n n
+TDD2323913 #3 _____  📋 "parse" ? ____E ~ A
+TDD-2323956 attempt 2 PARSE n m n n Y
+TDD2341439 #4 _____  📋 "parse" ? _____ ~ PRE
+TDD-2341412 attempt 3 PARSE m n m n m
+TDD2488469 #5 _____  📋 "parse" ? _____ ~ SE
+TDD-2488499 attempt 4 PARSE n n n m m
+TDD842802 ? 
+TDD-842839 question done
+TDD1746188 > *
+TDD729507 try? 1
+TDD-2475641 questioning: ["loper", "#4"]
+TDD4163405 #1 _____ ~ES -APR  📋 "loper" ? .
+TDD-4163395 attempt 0 LOPER n n n m n
+TDD3267262 #2 _____ ~P -AERS  📋 "loper" ? _____ ~ PL
+TDD-3267271 attempt 1 LOPER m n m n n
+TDD4397125 #3 ____E ~A -PRS  📋 "loper" ? ____E ~ AO
+TDD-4397125 attempt 2 LOPER n m n n n
+TDD8347063 #4 _____ ~EPR -AS  📋 "loper" ? __PE_ ~ R
+TDD-8347041 attempt 3 LOPER n n Y Y m
+TDD1311891 #5 _____ ~ES -APR  📋 "loper" ? .
+TDD-1311899 attempt 4 LOPER n n n m n
+TDD223232 ? 
+TDD-223307 question done
+TDD1023921 > *
+TDD3903171 try? 3
+TDD-4927018 questioning: ["ripen", "#4"]
+TDD4743815 #1 _____ ~ES -ALOPR  📋 "ripen" ? .
+TDD-4743830 attempt 0 RIPEN n n n m n
+TDD4351650 #2 _____ ~LP -AEORS  📋 "ripen" ? _____ ~ PLI
+TDD-4351663 attempt 1 RIPEN n m m n n
+TDD4678710 #3 ____E ~AO -ELPRS  📋 "ripen" ? ____E ~ AON
+TDD-4678693 attempt 2 RIPEN n n n n m
+TDD1037478 #4 __PE_ ~R -ALOS  📋 "ripen" ? /it
+TDD-1037471 attempt 3 RIPEN Y Y Y Y Y
+TDD3554363 #5 _____ ~ES -ALOPR  📋 "ripen" ? _____ ~ SEN
+TDD-3554394 attempt 4 RIPEN n n n m m
+TDD638625 ? 
+TDD-638664 question done
+TDD2291960 > *
+TDD1061506 try? 3
+TDD-3353401 questioning: ["tulip", "#2"]
+TDD7973528 #1 _____ ~ES -AILNOPR  📋 "tulip" ? _____ ~ SET
+TDD-7973041 attempt 0 TULIP m n n n n
+TDD900173 #2 _____ ~ILP -AENORS  📋 "tulip" ? /it
+TDD-900670 attempt 1 TULIP Y Y Y Y Y
+TDD2244733 #3 ____E ~ANO -EILPRS  📋 "tulip" ? .
+TDD-2244695 attempt 2 TULIP n n n n n
+TDD3034466 #5 _____ ~ENS -AILOPR  📋 "tulip" ? _____ ~ SENT
+TDD-3034489 attempt 4 TULIP m n n n n
+TDD327726 ? 
+TDD-327797 question done
+TDD551560 > *
+TDD4046102 try? 2
+TDD-4597606 questioning: ["stems", "#1"]
+TDD5222338 #1 _____ ~EST -AILNOPRU  📋 "stems" ? STE_S
+TDD-5222328 attempt 0 STEMS Y Y Y n Y
+TDD1673302 #3 ____E ~ANO -EILPRSTU  📋 "stems" ? .
+TDD-1673284 attempt 2 STEMS n n n n n
+TDD3175603 #5 _____ ~ENST -AILOPRU  📋 "stems" ? S_E__ ~ NT
+TDD-3175619 attempt 4 STEMS Y m Y n n
+TDD419099 ? 
+TDD-419158 question done
+TDD741115 > *
+TDD1149740 questioning: ["anode", "#3"]
+TDD3287452 #1 STE_S -AILMNOPRU  📋 "anode" ? .
+TDD-5178263 attempt 0 ANODE n n n n n
+TDD769874 #3 ____E ~ANO -EILMPRSTU  📋 "anode" ? /it
+TDD-769876 attempt 2 ANODE Y Y Y Y Y
+TDD2071932 #5 S_E__ ~NT -AILMOPRU  📋 "anode" ? .
+TDD-2071916 attempt 4 ANODE n m n n n
+TDD160479 ? 
+TDD-160566 question done
+TDD576196 > *
+TDD848538 questioning: ["scent", "#5"]
+TDD6694045 #1 STE_S -ADEILMNOPRU  📋 "scent" ? .
+TDD-8118701 attempt 0 SCENT Y n Y n n
+TDD993325 #5 S_E__ ~NT -ADEILMOPRU  📋 "scent" ? /it
+TDD-993310 attempt 4 SCENT Y Y Y Y Y
+TDD482564 ? 
+TDD-482646 question done
+TDD1633337 > *
+TDD-659749 questioning: ["stews", "#1"]
+TDD3014673 #1 STE_S -ACDILMNOPRTU  📋 "stews" ? /it
+TDD-3988208 attempt 0 STEWS Y Y Y Y Y
+TDD592004 ? 
+TDD-592039 question done
+TDD5733113 📋> squareword.org 1352: 8 guesses
+TDD-5733137 📋> 
+TDD-66 📋> 🟩🟩🟩🟨🟩
+TDD-5 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟨🟩
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟨🟩🟨🟨
+TDD3 📋> 
+TDD-2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD308024 📋> #squareword #squareword1352
+TDD4343 📋> ␚
+TDD-312314 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1352: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1352"}
+TDD788 result: "squareword.org 1352: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1352"
+TDD309019 📆 2025-10-14 ? 
