@@ -1,0 +1,44 @@
+T69475.96343288012 now: 2025-10-14T12:02:20UTC
+TD46 site: alphaguess.com
+TDD61453 loaded 196547 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (56 words excluded) asof cc291a2614b8e134453c7cb34c6eea14f86d3bed
+TDD17021336  ...
+TDD-13297167 [0 : 98231 : 196547] mach? b
+TDD-3785563 progress: -1 98231 mach
+TDD2018730 [0 : 47392 : 98231] dis? a
+TDD-2018742 progress: 1 47392 dis
+TDD1781545 [47393 : 72812 : 98231] gremolata? b
+TDD-1781541 progress: -1 72812 gremolata
+TDD1627180 [47393 : 60095 : 72812] face? a
+TDD-1627162 progress: 1 60095 face
+TDD1838894 [60096 : 66451 : 72812] french? b
+TDD-1838926 progress: -1 66451 french
+TDD1760840 [60096 : 63251 : 66451] flag? b
+TDD-1760836 progress: -1 63251 flag
+TDD1602518 [60096 : 61631 : 63251] fen? b
+TDD-1602509 progress: -1 61631 fen
+TDD1526664 [60096 : 60862 : 61631] fas? a
+TDD-1526669 progress: 1 60862 fas
+TDD2101004 [60863 : 61243 : 61631] feast? b
+TDD-2101006 progress: -1 61243 feast
+TDD3414990 [60863 : 60962 : 61243] fat? b
+TDD-3414970 progress: -1 60962 fat
+TDD1927539 [60863 : 60912 : 60962] fash? a
+TDD-1927563 progress: 1 60912 fash
+TDD2309415 [60913 : 60933 : 60962] fast? it
+TDD-2309400 progress: 0 60933 fast
+TDD-80 [60913 : 60933 : 60962] <Done>.
+TDD4186256 📋> 🧩 Puzzle #812
+TDD-4186195 📋> 
+TDD-60 📋> 🤔 12 guesses
+TDD-4 📋> 
+TDD0 📋> ⏱️ 22s
+TDD-1 📋> 
+TDD313859 📋> 🔗 alphaguess.com
+TDD25193 📋> ␚
+TDD-338988 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #812\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-13 result: "\ud83e\udde9 Puzzle #812\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"
+TDD-52 result puzzle: 812
+TDD-4 result guesses: 12
+TDD-1 result time: 22s
+TDD0 result link: alphaguess.com
+TDD461429 📆 2025-10-14 ? 
