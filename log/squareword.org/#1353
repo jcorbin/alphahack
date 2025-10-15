@@ -1,0 +1,117 @@
+T66495.9339672327 now: 2025-10-15T12:21:33UTC
+TD61 site: squareword.org
+TDD-4 wordlist: nwl2023.txt
+TDD6220974  ...
+TDD-3570537 🧩  ? #1353
+TDD-2650317 puzzle_id: #1353
+TDD7181243 > *
+TDD-4030854 try? 2
+TDD-3150376 questioning: ["saber", "#5"]
+TDD4865682 #1 _____  📋 "saber" ? S____ ~ AE
+TDD-4862139 attempt 0 SABER Y m n m n
+TDD1894965 #2 _____  📋 "saber" ? ___E_ 
+TDD-1898505 attempt 1 SABER n n n Y n
+TDD2427240 #3 _____  📋 "saber" ? _____ ~ A
+TDD-2427221 attempt 2 SABER n m n n n
+TDD2071355 #4 _____  📋 "saber" ? _____ ~ E
+TDD-2071379 attempt 3 SABER n n n m n
+TDD2037528 #5 _____  📋 "saber" ? ___E_ ~ ER
+TDD-2037546 attempt 4 SABER n n n Y m
+TDD630604 ? 
+TDD-630655 question done
+TDD807252 > *
+TDD1764357 try? 2
+TDD-2571551 questioning: ["steal", "#1"]
+TDD5241347 #1 S____ ~AE -BR  📋 "steal" ? .
+TDD-5241333 attempt 0 STEAL Y n m m n
+TDD3024221 #2 ___E_ -ABRS  📋 "steal" ? ___E_ ~ L
+TDD-3024236 attempt 1 STEAL n n n n m
+TDD1092850 #3 _____ ~A -BERS  📋 "steal" ? .
+TDD-1092869 attempt 2 STEAL n n n m n
+TDD865999 #4 _____ ~E -ABRS  📋 "steal" ? .
+TDD-865996 attempt 3 STEAL n n m n n
+TDD3017138 #5 ___E_ ~R -ABS  📋 "steal" ? __EE_ ~ RT
+TDD-3017117 attempt 4 STEAL n m Y n n
+TDD401960 ? 
+TDD-402058 question done
+TDD552286 > *
+TDD2987738 try? 3
+TDD-3539921 questioning: ["greet", "#5"]
+TDD5114155 #1 S____ ~AE -BLRT  📋 "greet" ? .
+TDD-5114156 attempt 0 GREET n n m m n
+TDD1161833 #2 ___E_ ~L -ABERST  📋 "greet" ? .
+TDD-1161859 attempt 1 GREET n n n Y n
+TDD3995211 #3 _____ ~A -BELRST  📋 "greet" ? _____ ~ AG
+TDD-3995185 attempt 2 GREET m n n n n
+TDD1054833 #4 _____ ~E -ABLRST  📋 "greet" ? .
+TDD-1054857 attempt 3 GREET n n m m n
+TDD2085692 #5 __EE_ ~RT -ABLS  📋 "greet" ? _REE_ ~ T
+TDD-2085690 attempt 4 GREET n Y Y Y m
+TDD241279 ? 
+TDD-241357 question done
+TDD542585 > *
+TDD2032855 try? 1
+TDD-2575333 questioning: ["treed", "#5"]
+TDD4566429 #1 S____ ~AE -BGLRT  📋 "treed" ? .
+TDD-4566429 attempt 0 TREED n n m m n
+TDD2052887 #2 ___E_ ~L -ABGRST  📋 "treed" ? ___ED ~ L
+TDD-2052926 attempt 1 TREED n n n Y Y
+TDD1538324 #3 _____ ~AG -BELRST  📋 "treed" ? .
+TDD-1538284 attempt 2 TREED n n n n n
+TDD764353 #4 _____ ~E -ABGLRST  📋 "treed" ? .
+TDD-764394 attempt 3 TREED n n m m n
+TDD726915 #5 _REE_ ~T -ABGLS  📋 "treed" ? /it
+TDD-726906 attempt 4 TREED Y Y Y Y Y
+TDD181230 ? 
+TDD-181316 question done
+TDD586408 > *
+TDD6661833 try? 6
+TDD-7248152 questioning: ["among", "#3"]
+TDD3932951 #1 S____ ~AE -BDGLRT  📋 "among" ? .
+TDD-3932954 attempt 0 AMONG m n n n n
+TDD3447413 #2 ___ED ~L -ABGRST  📋 "among" ? ___ED ~ LO
+TDD-3447387 attempt 1 AMONG n n m n n
+TDD826032 #3 _____ ~AG -BDELRST  📋 "among" ? /it
+TDD-826045 attempt 2 AMONG Y Y Y Y Y
+TDD2609511 #4 _____ ~E -ABDGLRST  📋 "among" ? _____ ~ EN
+TDD-2609528 attempt 3 AMONG n n n m n
+TDD236714 ? 
+TDD-236777 question done
+TDD1124635 > *
+TDD795543 questioning: ["fence", "#4"]
+TDD8382164 #1 S____ ~AE -BDGLMNORT  📋 "fence" ? S___E ~ A
+TDD-10302274 attempt 0 FENCE n n n n Y
+TDD1529916 #2 ___ED ~LO -ABGMNRST  📋 "fence" ? .
+TDD-1529918 attempt 1 FENCE n n n n n
+TDD704394 #4 _____ ~EN -ABDGLMORST  📋 "fence" ? /it
+TDD-704438 attempt 3 FENCE Y Y Y Y Y
+TDD183235 ? 
+TDD-183307 question done
+TDD965292 > *
+TDD410091 questioning: ["shape", "#1"]
+TDD1302475 #1 S___E ~A -BCDFGLMNORT  📋 "shape" ? /it
+TDD-2677726 attempt 0 SHAPE Y Y Y Y Y
+TDD5139637 #2 ___ED ~LO -ABCEFGMNRST  📋 "shape" ? ___ED ~ LOH
+TDD-5139615 attempt 1 SHAPE n m n n n
+TDD185462 ? 
+TDD-185577 question done
+TDD521261 > *
+TDD437462 questioning: ["holed", "#2"]
+TDD1762432 #2 ___ED ~HLO -ABCEFGMNPRST  📋 "holed" ? /it
+TDD-2721070 attempt 1 HOLED Y Y Y Y Y
+TDD1060021 ? 
+TDD-1060089 question done
+TDD5070350 📋> squareword.org 1353: 8 guesses
+TDD-5070362 📋> 
+TDD-63 📋> 🟩🟨🟨🟨🟨
+TDD-5 📋> 🟨🟨🟨🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD350064 📋> #squareword #squareword1353
+TDD86480 📋> ␚
+TDD-436485 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1353: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1353"}
+TDD896 result: "squareword.org 1353: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1353"
+TDD431099 📆 2025-10-15 ? 
