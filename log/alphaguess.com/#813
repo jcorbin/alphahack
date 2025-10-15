@@ -1,0 +1,47 @@
+T66442.65669987537 now: 2025-10-15T12:20:40UTC
+TD54 site: alphaguess.com
+TDD68688 loaded 196547 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (56 words excluded) asof e1062a1395064487bdc1852a924fd30c61472702
+TDD4688878  ...
+TDD-1599874 [0 : 98231 : 196547] mach? b
+TDD-3157618 progress: -1 98231 mach
+TDD1943469 [0 : 47392 : 98231] dis? a
+TDD-1943486 progress: 1 47392 dis
+TDD1757097 [47393 : 72812 : 98231] gremolata? a
+TDD-1757129 progress: 1 72812 gremolata
+TDD1811761 [72813 : 85516 : 98231] ins? a
+TDD-1811750 progress: 1 85516 ins
+TDD1580296 [85517 : 91861 : 98231] knot? a
+TDD-1580279 progress: 1 91861 knot
+TDD1556623 [91862 : 94958 : 98231] lib? b
+TDD-1556649 progress: -1 94958 lib
+TDD1795751 [91862 : 93281 : 94958] lar? a
+TDD-1795733 progress: 1 93281 lar
+TDD1733473 [93282 : 93909 : 94958] lea? vb
+TDD1475132 [93282 : 93909 : 94958] lea? b
+TDD-3208622 progress: -1 93909 lea
+TDD2415252 [93282 : 93573 : 93909] lati? a
+TDD-2415239 progress: 1 93573 lati
+TDD6224593 [93574 : 93727 : 93909] lava? b
+TDD-6224591 progress: -1 93727 lava
+TDD1875132 [93574 : 93637 : 93727] laud? a
+TDD-1875149 progress: 1 93637 laud
+TDD1723828 [93638 : 93677 : 93727] launch? a
+TDD-1723819 progress: 1 93677 launch
+TDD1887071 [93678 : 93700 : 93727] laundry? it
+TDD-1887111 progress: 0 93700 laundry
+TDD-31 [93678 : 93700 : 93727] <Done>.
+TDD2945637 📋> 🧩 Puzzle #813
+TDD-2945580 📋> 
+TDD-43 📋> 🤔 13 guesses
+TDD-9 📋> 
+TDD11 📋> ⏱️ 30s
+TDD-9 📋> 
+TDD290157 📋> 🔗 alphaguess.com
+TDD103016 📋> ␚
+TDD-393146 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #813\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 30s\n\n\ud83d\udd17 alphaguess.com"}
+TDD1 result: "\ud83e\udde9 Puzzle #813\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 30s\n\n\ud83d\udd17 alphaguess.com"
+TDD-38 result puzzle: 813
+TDD-4 result guesses: 13
+TDD-1 result time: 30s
+TDD0 result link: alphaguess.com
+TDD310883 📆 2025-10-15 ? 
