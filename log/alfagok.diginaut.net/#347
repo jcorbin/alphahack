@@ -1,0 +1,54 @@
+T66375.68879413418 now: 2025-10-15T12:19:33UTC
+TD49 site: alfagok.diginaut.net
+TDD172471 loaded 399690 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1162 words excluded) asof e1062a1395064487bdc1852a924fd30c61472702
+TDD5624178  ...
+TDD-1500251 [0 : 199831 : 399690] lijm? b
+TDD-4296247 progress: -1 199831 lijm
+TDD2211484 [0 : 99746 : 199831] ex? b
+TDD-2211584 progress: -1 99746 ex
+TDD1892637 [0 : 49847 : 99746] boks? a
+TDD-1892653 progress: 1 49847 boks
+TDD2370227 [49848 : 74764 : 99746] dcccl? !
+TDD602754 [49848 : 74758 : 99745] dc? b
+TDD-2972982 progress: -1 74758 dc
+TDD1681574 [49848 : 62286 : 74758] cement? a
+TDD-1681540 progress: 1 62286 cement
+TDD1706318 [62287 : 68520 : 74758] connectie? a
+TDD-1706375 progress: 1 68520 connectie
+TDD2418381 [68521 : 71640 : 74758] crypt? a
+TDD-2418352 progress: 1 71640 crypt
+TDD1889528 [71641 : 72879 : 74758] dag? b
+TDD-1889529 progress: -1 72879 dag
+TDD1735796 [71641 : 72257 : 72879] curry? a
+TDD-1735821 progress: 1 72257 curry
+TDD3737324 [72258 : 72567 : 72879] cyclus? a
+TDD-3737275 progress: 1 72567 cyclus
+TDD2426770 [72568 : 72720 : 72879] daan? !
+TDD-358693 [72568 : 72679 : 72878] da? !
+TDD136091 [72568 : 72639 : 72877] d? !
+TDD578600 [72568 : 72724 : 72876] daar? a
+TDD-2782773 progress: 1 72724 daar
+TDD2726741 [72725 : 72800 : 72876] dacht? b
+TDD-2726783 progress: -1 72800 dacht
+TDD2418436 [72725 : 72762 : 72800] daarná? !
+TDD129045 [72725 : 72763 : 72799] daarom? b
+TDD-2547450 progress: -1 72763 daarom
+TDD2008610 [72725 : 72744 : 72763] daarginds? a
+TDD-2008606 progress: 1 72744 daarginds
+TDD2022629 [72745 : 72754 : 72763] daarmede? a
+TDD-2022664 progress: 1 72754 daarmede
+TDD2351903 [72755 : 72756 : 72763] daarna? it
+TDD-2351851 progress: 0 72756 daarna
+TDD-96 [72755 : 72756 : 72763] <Done>.
+TDD3436423 📋> 🧩 Puzzel #347
+TDD-3436382 📋> 🤔 16 gokken
+TDD-41 📋> ⏱️ 46s
+TDD237466 📋> 🔗 alfagok.diginaut.net
+TDD35704 📋> ␚
+TDD-273134 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #347\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 46s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD278 result: "\ud83e\udde9 Puzzel #347\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 46s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-317 result puzzle: 347
+TDD-7 result guesses: 16
+TDD-2 result time: 46s
+TDD0 result link: alfagok.diginaut.net
+TDD256328 📆 2025-10-15 ? 
