@@ -1,0 +1,102 @@
+T149851.32810759172 now: 2025-10-16T11:30:49UTC
+TD54 site: squareword.org
+TDD-14 wordlist: nwl2023.txt
+TDD6773950  ...
+TDD-4644689 🧩  ? #1354
+TDD-2129124 puzzle_id: #1354
+TDD3228443 > *
+TDD-1789321 try? 1
+TDD-1439127 questioning: ["tales", "#5"]
+TDD3083544 #1 _____  📋 "tales" ? ____S
+TDD-3083329 attempt 0 TALES n n n n Y
+TDD3023481 #2 _____  📋 "tales" ? _A_E_ ~ L
+TDD-3023705 attempt 1 TALES n Y m Y n
+TDD2206194 #3 _____  📋 "tales" ? _____ ~ AE
+TDD-2206184 attempt 2 TALES n m n m n
+TDD3504858 #4 _____  📋 "tales" ? T____ ~ E
+TDD-3504865 attempt 3 TALES Y n n m n
+TDD3523132 #5 _____  📋 "tales" ? ___E_ ~ TeS
+TDD-3523126 attempt 4 TALES m n n Y m
+TDD4263422 ? 
+TDD-4263468 question done
+TDD963228 > *
+TDD3958377 try? 1
+TDD-4921552 questioning: ["gavel", "#2"]
+TDD8883472 #1 ____S -AELT  📋 "gavel" ? .
+TDD-8883473 attempt 0 GAVEL n n n n n
+TDD2185234 #2 _A_E_ ~L -ST  📋 "gavel" ? _A_EL
+TDD-2185252 attempt 1 GAVEL n Y n Y Y
+TDD1191555 #3 _____ ~AE -LST  📋 "gavel" ? .
+TDD-1191539 attempt 2 GAVEL n m n m n
+TDD3371170 #4 T____ ~E -ALS  📋 "gavel" ? T____ ~ EG
+TDD-3371159 attempt 3 GAVEL m n n m n
+TDD3854684 #5 ___E_ ~ST -AL  📋 "gavel" ? ___E_ ~ TES
+TDD-3854685 attempt 4 GAVEL n n n Y n
+TDD1062205 ? 
+TDD-1062271 question done
+TDD1651906 > *
+TDD4837962 try? 2
+TDD-6489804 questioning: ["tinge", "#4"]
+TDD11045960 #1 ____S -AEGLTV  📋 "tinge" ? .
+TDD-11045972 attempt 0 TINGE n n n n n
+TDD1991609 #2 _A_EL -GSTV  📋 "tinge" ? .
+TDD-1991631 attempt 1 TINGE n n n n n
+TDD3649505 #3 _____ ~AE -GLSTV  📋 "tinge" ? ____E ~ A
+TDD-3649469 attempt 2 TINGE n n n n Y
+TDD1360844 #4 T____ ~EG -ALSV  📋 "tinge" ? /it
+TDD-1360867 attempt 3 TINGE Y Y Y Y Y
+TDD3733951 #5 ___E_ ~ST -AGLV  📋 "tinge" ? ___E_ ~ TES
+TDD-3733930 attempt 4 TINGE m n n n m
+TDD360527 ? 
+TDD-360654 question done
+TDD1481139 > *
+TDD3841157 try? 2
+TDD-5319402 questioning: ["steep", "#5"]
+TDD6469025 #1 ____S -AEGILNTV  📋 "steep" ? .
+TDD-6471801 attempt 0 STEEP n n n n n
+TDD1510936 #2 _A_EL -EGINSTV  📋 "steep" ? .
+TDD-1510941 attempt 1 STEEP n n n Y n
+TDD1295449 #3 ____E ~A -GILNSTV  📋 "steep" ? .
+TDD-1295468 attempt 2 STEEP n n n n n
+TDD651325 #5 ___E_ ~ST -AGILNV  📋 "steep" ? /it
+TDD-651383 attempt 4 STEEP Y Y Y Y Y
+TDD268829 ? 
+TDD-268869 question done
+TDD526393 > *
+TDD1408544 questioning: ["abode", "#3"]
+TDD4371483 #1 ____S -AEGILNPSTV  📋 "abode" ? __O_S
+TDD-6306309 attempt 0 ABODE n n Y n n
+TDD1828190 #2 _A_EL -GINPSTV  📋 "abode" ? .
+TDD-1828177 attempt 1 ABODE n n n n n
+TDD700343 #3 ____E ~A -EGILNPSTV  📋 "abode" ? /it
+TDD-700342 attempt 2 ABODE Y Y Y Y Y
+TDD236359 ? 
+TDD-236456 question done
+TDD650515 > *
+TDD861091 questioning: ["chows", "#1"]
+TDD2428526 #1 __O_S -ABDEGILNPSTV  📋 "chows" ? /it
+TDD-3940044 attempt 0 CHOWS Y Y Y Y Y
+TDD4991022 #2 _A_EL -ABDEGINOPSTV  📋 "chows" ? _A_EL ~ H
+TDD-4991005 attempt 1 CHOWS n m n n n
+TDD251004 ? 
+TDD-251134 question done
+TDD505395 > *
+TDD494378 questioning: ["hazel", "#2"]
+TDD2220780 #2 _A_EL ~H -ABCDEGINOPSTVW  📋 "hazel" ? /it
+TDD-3220437 attempt 1 HAZEL Y Y Y Y Y
+TDD1184938 ? 
+TDD-1185005 question done
+TDD4396116 📋> squareword.org 1354: 7 guesses
+TDD-4396145 📋> 
+TDD-49 📋> 🟨🟨🟩🟨🟩
+TDD-5 📋> 🟨🟩🟨🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD327155 📋> #squareword #squareword1354
+TDD-21533 📋> ␚
+TDD-305563 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1354: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1354"}
+TDD428 result: "squareword.org 1354: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1354"
+TDD229644 📆 2025-10-16 ? 
