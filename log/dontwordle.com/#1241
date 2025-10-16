@@ -1,0 +1,64 @@
+T150180.83775280789 now: 2025-10-16T11:36:18UTC
+TD49 site: dontwordle.com
+TDD-16 wordlist: nwl2023.txt
+TDD3837847  ...
+TDD-870345 1> * -bot 10
+TDD-1891316 ? 1
+TDD3927810 📋 "tears" ? nnYnM
+TDD-5003875 tried: TEARS n n Y n m
+TDD722651 2> undo
+TDD-722713 undo
+TDD3413649 1> *
+TDD-2123912 ? 1
+TDD3686163 📋 "civic" ? nnnnn
+TDD-4975834 tried: CIVIC n n n n n
+TDD501020 2> *
+TDD518885 ? 1
+TDD3293152 📋 "edged" ? nnnnn
+TDD-4313067 tried: EDGED n n n n n
+TDD622230 3> *
+TDD381803 ? 1
+TDD2759641 📋 "torot" ? nnnnn
+TDD-3763678 tried: TOROT n n n n n
+TDD683843 4> *
+TDD1048299 ? 1
+TDD2869823 📋 "nubby" ? MnnnY
+TDD-4601947 tried: NUBBY m n n n Y
+TDD839618 5> ndo
+TDD788115 5> undo
+TDD-1627797 undo
+TDD2929689 4> *
+TDD-1777175 ? 1
+TDD3772767 📋 "plump" ? nnnnn
+TDD-4925234 tried: PLUMP n n n n n
+TDD523901 5> *
+TDD1140040 ? 1
+TDD6179673 📋 "abaka" ? nnYYnn
+TDD-2508987 📋 "abaka" ? nnYYn
+TDD-5334628 tried: ABAKA n n Y Y n
+TDD1664470 6> undo
+TDD-1664523 undo
+TDD2318491 5> *
+TDD4864818 📋 "qajaq" ? nMnnn
+TDD-7183259 tried: QAJAQ n m n n n
+TDD451163 6> *
+TDD6256178 ? 3
+TDD-2021114 📋 "swabs" ? YnYnn
+TDD-4686239 tried: SWABS Y n Y n n
+TDD3035972 📋> Don't Wordle 1241 - SURVIVED
+TDD-3036011 📋> Hooray! I didn't Wordle today!
+TDD-61 📋> ⬜⬜⬜⬜⬜7600
+TDD-9 📋> ⬜⬜⬜⬜⬜2794
+TDD-2 📋> ⬜⬜⬜⬜⬜752
+TDD3 📋> ⬜⬜⬜⬜⬜127
+TDD-4 📋> ⬜🟨⬜⬜⬜26
+TDD0 📋> 🟩⬜🟩⬜⬜4
+TDD0 📋> Undos used: 3
+TDD0 📋> 
+TDD1 📋>   4 words remaining
+TDD15 📋> x 7 unused letters
+TDD280147 📋> = 28 total score
+TDD57292 📋> ␚
+TDD-337402 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1241 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7600\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2794\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c752\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c127\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c26\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c4\nUndos used: 3\n\n  4 words remaining\nx 7 unused letters\n= 28 total score"}
+TDD823 result: "Don't Wordle 1241 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7600\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2794\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c752\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c127\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c26\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c4\nUndos used: 3\n\n  4 words remaining\nx 7 unused letters\n= 28 total score"
+TDD258885 📆 2025-10-16 ? 
