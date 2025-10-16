@@ -1,0 +1,43 @@
+T149817.85590513237 now: 2025-10-16T11:30:15UTC
+TD55 site: alphaguess.com
+TDD63728 loaded 196547 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (56 words excluded) asof e1062a1395064487bdc1852a924fd30c61472702
+TDD3479508  ...
+TDD-1220829 [0 : 98231 : 196547] mach? a
+TDD-2322353 progress: 1 98231 mach
+TDD1633266 [98232 : 147336 : 196547] rho? a
+TDD-1633271 progress: 1 147336 rho
+TDD1584366 [147337 : 171936 : 196547] tag? a
+TDD-1584372 progress: 1 171936 tag
+TDD1562117 [171937 : 182023 : 196547] un? a
+TDD-1562112 progress: 1 182023 un
+TDD1433872 [182024 : 189286 : 196547] vicar? a
+TDD-1433882 progress: 1 189286 vicar
+TDD1460122 [189287 : 192890 : 196547] whir? 
+TDD-844769 [189287 : 192890 : 196547] whir? b
+TDD-615346 progress: -1 192890 whir
+TDD1821717 [189287 : 191066 : 192890] walk? a
+TDD-1821725 progress: 1 191066 walk
+TDD1508127 [191067 : 191929 : 192890] we? b
+TDD-1508134 progress: -1 191929 we
+TDD1485892 [191067 : 191477 : 191929] wash? b
+TDD-1485876 progress: -1 191477 wash
+TDD1525197 [191067 : 191270 : 191477] war? a
+TDD-1525197 progress: 1 191270 war
+TDD1788610 [191271 : 191359 : 191477] warm? it
+TDD-1788619 progress: 0 191359 warm
+TDD-70 [191271 : 191359 : 191477] <Done>.
+TDD2867175 📋> 🧩 Puzzle #814
+TDD-2867126 📋> 
+TDD-44 📋> 🤔 11 guesses
+TDD-6 📋> 
+TDD0 📋> ⏱️ 16s
+TDD-1 📋> 
+TDD243438 📋> 🔗 alphaguess.com
+TDD97177 📋> ␚
+TDD-340570 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #814\n\n\ud83e\udd14 11 guesses\n\n\u23f1\ufe0f 16s\n\n\ud83d\udd17 alphaguess.com"}
+TDD7 result: "\ud83e\udde9 Puzzle #814\n\n\ud83e\udd14 11 guesses\n\n\u23f1\ufe0f 16s\n\n\ud83d\udd17 alphaguess.com"
+TDD-55 result puzzle: 814
+TDD-5 result guesses: 11
+TDD-1 result time: 16s
+TDD0 result link: alphaguess.com
+TDD970894 📆 2025-10-16 ? 
