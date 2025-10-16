@@ -1,0 +1,95 @@
+T149707.7409188375 now: 2025-10-16T11:28:25UTC
+TD57 site: alfagok.diginaut.net
+TDD152320 loaded 399690 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1162 words excluded) asof e1062a1395064487bdc1852a924fd30c61472702
+TDD3938352  ...
+TDD-228243 [0 : 199831 : 399690] lijm? a
+TDD-3862223 progress: 1 199831 lijm
+TDD1839788 [199832 : 299746 : 399690] schub? b
+TDD-1839954 progress: -1 299746 schub
+TDD1785242 [199832 : 247742 : 299746] op? b
+TDD-1785243 progress: -1 247742 op
+TDD1973998 [199832 : 223672 : 247742] molen? b
+TDD-1974005 progress: -1 223672 molen
+TDD1777860 [199832 : 211743 : 223672] me? a
+TDD-1777861 progress: 1 211743 me
+TDD1802397 [211744 : 217701 : 223672] mijnbouw? a
+TDD-1802388 progress: 1 217701 mijnbouw
+TDD2023424 [217702 : 220675 : 223672] mmcmlx? !
+TDD2858316 [217702 : 220684 : 223671] mmcmlxx? !
+TDD-2954271 [217702 : 220665 : 223670] mmcml? !
+TDD-222696 [217702 : 220683 : 223669] mmcmlxxi? !
+TDD3364348 [217702 : 220687 : 223668] mmcmlxxv? !
+TDD-2591575 [217702 : 220687 : 223667] mmcmlxxvi? !
+TDD-367112 [217702 : 220687 : 223666] mmcmlxxvii? !
+TDD-145835 [217702 : 220688 : 223665] mmcmlxxx? !
+TDD67536 [217702 : 220688 : 223664] mmcmlxxxi? .
+TDD-2031979 viewing: @220687 C3 [ 220684 220690 ] search: [ 217702 223664 ]
+TDD4354647 > -
+TDD-4354425 viewing: @220687 C6 [ 220681 220693 ] search: [ 217702 223664 ]
+TDD649373 > -
+TDD-649500 viewing: @220687 C12 [ 220675 220699 ] search: [ 217702 223664 ]
+TDD4031983 > <
+TDD-4031977 viewing: @220675 C12 [ 220663 220687 ] search: [ 217702 223664 ]
+TDD1310980 > <
+TDD-1311004 viewing: @220663 C12 [ 220651 220675 ] search: [ 217702 223664 ]
+TDD1173255 > <
+TDD-1173233 viewing: @220651 C12 [ 220639 220663 ] search: [ 217702 223664 ]
+TDD1047022 > <
+TDD-1047026 viewing: @220639 C12 [ 220627 220651 ] search: [ 217702 223664 ]
+TDD906093 > <
+TDD-906114 viewing: @220627 C12 [ 220615 220639 ] search: [ 217702 223664 ]
+TDD1069355 > <
+TDD-1069363 viewing: @220615 C12 [ 220603 220627 ] search: [ 217702 223664 ]
+TDD1083772 > <
+TDD-1083726 viewing: @220603 C12 [ 220591 220615 ] search: [ 217702 223664 ]
+TDD932921 > <
+TDD-932923 viewing: @220591 C12 [ 220579 220603 ] search: [ 217702 223664 ]
+TDD1264351 > -
+TDD-1264253 viewing: @220591 C24 [ 220567 220615 ] search: [ 217702 223664 ]
+TDD749422 > <
+TDD-749418 viewing: @220567 C24 [ 220543 220591 ] search: [ 217702 223664 ]
+TDD803070 > <
+TDD-803091 viewing: @220543 C24 [ 220519 220567 ] search: [ 217702 223664 ]
+TDD1964574 > -
+TDD-1964626 viewing: @220543 C32 [ 220495 220591 ]~2 search: [ 217702 223664 ]
+TDD2277209 > -
+TDD-2277213 viewing: @220543 C32 [ 220447 220639 ]~2 search: [ 217702 223664 ]
+TDD1011255 > <
+TDD-1011256 viewing: @220447 C32 [ 220351 220543 ]~2 search: [ 217702 223664 ]
+TDD1501755 > -
+TDD-1501722 viewing: @220447 C32 [ 220255 220639 ]~2 search: [ 217702 223664 ]
+TDD1166885 > -
+TDD-1166832 viewing: @220447 C32 [ 220063 220831 ]~2 search: [ 217702 223664 ]
+TDD905547 > <
+TDD-905593 viewing: @220063 C32 [ 219679 220447 ]~2 search: [ 217702 223664 ]
+TDD2871762 > 
+TDD1199153 [217702 : 220063 : 223664] mistastte? b
+TDD-4071242 progress: -1 220063 mistastte
+TDD2791193 [217702 : 218859 : 220063] min? b
+TDD-2791190 progress: -1 218859 min
+TDD2502871 [217702 : 217929 : 218859] milieu? a
+TDD-2502891 progress: 1 217929 milieu
+TDD6972936 [217930 : 218641 : 218859] miljoen? 
+TDD-4354059 [217930 : 218641 : 218859] miljoen? b
+TDD-2618867 progress: -1 218641 miljoen
+TDD1739003 [217930 : 218571 : 218641] miljard? 
+TDD431790 [217930 : 218571 : 218641] miljard? b
+TDD-2170772 progress: -1 218571 miljard
+TDD3596502 [217930 : 218381 : 218571] milieus? a
+TDD-3596513 progress: 1 218381 milieus
+TDD2057781 [218382 : 218514 : 218571] militair? 
+TDD802598 [218382 : 218514 : 218571] militair? it
+TDD-2860381 progress: 0 218514 militair
+TDD-83 [218382 : 218514 : 218571] <Done>.
+TDD4010903 📋> 🧩 Puzzel #348
+TDD-4010853 📋> 🤔 13 gokken
+TDD-45 📋> ⏱️ 1m 37s
+TDD271859 📋> 🔗 alfagok.diginaut.net
+TDD2815 📋> ␚
+TDD-274633 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #348\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 1m 37s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD280 result: "\ud83e\udde9 Puzzel #348\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 1m 37s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-327 result puzzle: 348
+TDD-7 result guesses: 13
+TDD-2 result time: 1m 37s
+TDD0 result link: alfagok.diginaut.net
+TDD276339 📆 2025-10-16 ? 
