@@ -1,0 +1,47 @@
+T88993.95205848292 now: 2025-10-17T12:37:22UTC
+TD41 site: alfagok.diginaut.net
+TDD156438 loaded 399682 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1170 words excluded) asof e6b3c7fc1a5ba852748e05311ac3bbe3a3118dfc
+TDD3060028  ...
+TDD2542764 [0 : 199831 : 399682] lijm? b
+TDD-5759024 progress: -1 199831 lijm
+TDD1686969 [0 : 99746 : 199831] ex? a
+TDD-1687128 progress: 1 99746 ex
+TDD1749770 [99747 : 149449 : 199831] huis? a
+TDD-1749767 progress: 1 149449 huis
+TDD1572682 [149450 : 174559 : 199831] kind? a
+TDD-1572675 progress: 1 174559 kind
+TDD1631779 [174560 : 187195 : 199831] krontjongs? a
+TDD-1631773 progress: 1 187195 krontjongs
+TDD2552322 [187196 : 193496 : 199831] lavendel? a
+TDD-2552344 progress: 1 193496 lavendel
+TDD1832867 [193497 : 196512 : 199831] les? b
+TDD-1832847 progress: -1 196512 les
+TDD1711639 [193497 : 194921 : 196512] lees? a
+TDD-1711632 progress: 1 194921 lees
+TDD4792463 [194922 : 195638 : 196512] leid? b
+TDD-4792483 progress: -1 195638 leid
+TDD1934407 [194922 : 195269 : 195638] leg? b
+TDD-1934402 progress: -1 195269 leg
+TDD2235553 [194922 : 195095 : 195269] leesstrategie? a
+TDD-2235548 progress: 1 195095 leesstrategie
+TDD2002158 [195096 : 195164 : 195269] leeuwen? b
+TDD-2002172 progress: -1 195164 leeuwen
+TDD1904630 [195096 : 195130 : 195164] leesvermaak? a
+TDD-1904615 progress: 1 195130 leesvermaak
+TDD2141419 [195131 : 195147 : 195164] leeszaal? a
+TDD-2141442 progress: 1 195147 leeszaal
+TDD2421995 [195148 : 195151 : 195164] leeuw? it
+TDD-2421980 progress: 0 195151 leeuw
+TDD-55 [195148 : 195151 : 195164] <Done>.
+TDD3741527 📋> 🧩 Puzzel #349
+TDD-3741471 📋> 🤔 15 gokken
+TDD-69 📋> ⏱️ 31s
+TDD280784 📋> 🔗 alfagok.diginaut.net
+TDD15884 📋> ␚
+TDD-296613 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #349\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD248 result: "\ud83e\udde9 Puzzel #349\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-291 result puzzle: 349
+TDD-23 result guesses: 15
+TDD-2 result time: 31s
+TDD0 result link: alfagok.diginaut.net
+TDD298582 📆 2025-10-17 ? 
