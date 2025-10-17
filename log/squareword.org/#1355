@@ -1,0 +1,102 @@
+T89090.97287103534 now: 2025-10-17T12:38:59UTC
+TD57 site: squareword.org
+TDD-18 wordlist: nwl2023.txt
+TDD4291348  ...
+TDD-1760641 🧩  ? #1355
+TDD-2530577 puzzle_id: #1355
+TDD4068825 > *
+TDD-2374901 try? 1
+TDD-1693887 questioning: ["snare", "#5"]
+TDD3637247 #1 _____  📋 "snare" ? _____ ~ SS
+TDD-3637028 attempt 0 SNARE m n n n n
+TDD5672499 #2 _____  📋 "snare" ? _N___ ~ NE
+TDD-5672723 attempt 1 SNARE n Y n n m
+TDD2431152 #3 _____  📋 "snare" ? __AR_ ~ A
+TDD-2431184 attempt 2 SNARE n n Y Y n
+TDD3065362 #4 _____  📋 "snare" ? ____E ~ SNR
+TDD-3065348 attempt 3 SNARE m m n m Y
+TDD2207500 #5 _____  📋 "snare" ? S____ ~ E
+TDD-2207502 attempt 4 SNARE Y n n n m
+TDD249575 ? 
+TDD-249616 question done
+TDD561327 > *
+TDD11357883 try? 
+TDD-10617093 try? 2
+TDD-1302073 questioning: ["rinse", "#4"]
+TDD7834722 #1 _____ ~S -AENR  📋 "rinse" ? _I___ ~ S
+TDD-7834728 attempt 0 RINSE n Y n m n
+TDD4328649 #2 _N___ ~E -ARS  📋 "rinse" ? _NN__ ~ EI
+TDD-4328641 attempt 1 RINSE n m Y n m
+TDD6562308 #3 __AR_ -ENS  📋 "rinse" ? __AR_ ~ A
+TDD-6562296 attempt 2 RINSE n n n n n
+TDD2431964 #4 ____E ~NRS -A  📋 "rinse" ? ___SE ~ NR
+TDD-2431996 attempt 3 RINSE m n m Y Y
+TDD3497270 #5 S____ ~E -ANR  📋 "rinse" ? S____ ~ E
+TDD-3497270 attempt 4 RINSE n n n n m
+TDD314245 ? 
+TDD-314294 question done
+TDD904496 > *
+TDD-248935 questioning: ["nurse", "#4"]
+TDD4499165 #1 _I___ ~S -AENR  📋 "nurse" ? .
+TDD-5154670 attempt 0 NURSE n n n m n
+TDD5123690 #2 _NN__ ~EI -ARS  📋 "nurse" ? _NN__ ~ EIU
+TDD-5123689 attempt 1 NURSE n m n n m
+TDD3687229 #3 __AR_ -EINRS  📋 "nurse" ? __AR_ ~ A
+TDD-3687218 attempt 2 NURSE n n n n n
+TDD1210849 #4 ___SE ~NR -AI  📋 "nurse" ? /it
+TDD-1210862 attempt 3 NURSE Y Y Y Y Y
+TDD1086909 #5 S____ ~E -AINRS  📋 "nurse" ? .
+TDD-1086885 attempt 4 NURSE n n n n m
+TDD163534 ? 
+TDD-163626 question done
+TDD584187 > *
+TDD80640 questioning: ["ennui", "#2"]
+TDD4545048 #1 _I___ ~S -AENRU  📋 "ennui" ? .
+TDD-5209803 attempt 0 ENNUI n n n n n
+TDD787553 #2 _NN__ ~EIU -ANRS  📋 "ennui" ? /it
+TDD-787567 attempt 1 ENNUI Y Y Y Y Y
+TDD5434409 #3 __AR_ -EINRSU  📋 "ennui" ? __AR_ ~ A
+TDD-5434394 attempt 2 ENNUI n n n n n
+TDD3496501 #5 S____ ~E -AINRSU  📋 "ennui" ? .
+TDD-3496495 attempt 4 ENNUI m n n n n
+TDD181635 ? 
+TDD-181729 question done
+TDD570148 > *
+TDD470922 questioning: ["apart", "#3"]
+TDD2711871 #1 _I___ ~S -AEINRU  📋 "apart" ? .
+TDD-3752861 attempt 0 APART n n n n n
+TDD700840 #3 __AR_ -EINRSU  📋 "apart" ? /it
+TDD-700851 attempt 2 APART Y Y Y Y Y
+TDD3636015 #5 S____ ~E -AINRSU  📋 "apart" ? S____ ~ ET
+TDD-3636008 attempt 4 APART n n n n m
+TDD252923 ? 
+TDD-252976 question done
+TDD1878517 > *
+TDD1933135 try? 2
+TDD-3811579 questioning: ["discs", "#1"]
+TDD3080185 #1 _I___ ~S -AEINPRTU  📋 "discs" ? /it
+TDD-3080206 attempt 0 DISCS Y Y Y Y Y
+TDD3678929 #5 S____ ~ET -AINPRSU  📋 "discs" ? S____ ~ ETD
+TDD-3678911 attempt 4 DISCS m n n n n
+TDD311941 ? 
+TDD-312022 question done
+TDD598872 > *
+TDD388901 questioning: ["steed", "#5"]
+TDD2608730 #5 S____ ~DET -ACINPRSU  📋 "steed" ? /it
+TDD-3596455 attempt 4 STEED Y Y Y Y Y
+TDD819462 ? 
+TDD-819499 question done
+TDD5771612 📋> squareword.org 1355: 7 guesses
+TDD-5771645 📋> 
+TDD-56 📋> 🟨🟩🟨🟨🟨
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟨🟨🟨🟨
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD268922 📋> #squareword #squareword1355
+TDD3628 📋> ␚
+TDD-272480 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1355: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1355"}
+TDD395 result: "squareword.org 1355: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1355"
+TDD284432 📆 2025-10-17 ? 
