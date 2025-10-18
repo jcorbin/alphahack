@@ -1,0 +1,44 @@
+T77547.20242101327 now: 2025-10-18T13:05:11UTC
+TD43 site: alphaguess.com
+TDD62570 loaded 196547 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (56 words excluded) asof a7d90f09e071a1908379a2dc48848d4370c386c2
+TDD2617435  ...
+TDD439027 [0 : 98231 : 196547] mach? b
+TDD-3118992 progress: -1 98231 mach
+TDD1582573 [0 : 47392 : 98231] dis? b
+TDD-1582552 progress: -1 47392 dis
+TDD1378890 [0 : 23693 : 47392] camp? b
+TDD-1378909 progress: -1 23693 camp
+TDD1290929 [0 : 11770 : 23693] back? b
+TDD-1290921 progress: -1 11770 back
+TDD1360220 [0 : 5882 : 11770] angel? b
+TDD-1360224 progress: -1 5882 angel
+TDD1340513 [0 : 2802 : 5882] ag? b
+TDD-1340505 progress: -1 2802 ag
+TDD1244932 [0 : 1398 : 2802] acrogen? a
+TDD-1244945 progress: 1 1398 acrogen
+TDD1345323 [1399 : 2097 : 2802] ads? a
+TDD-1345322 progress: 1 2097 ads
+TDD1692687 [2098 : 2391 : 2802] aero? b
+TDD-1692684 progress: -1 2391 aero
+TDD1405695 [2098 : 2245 : 2391] advert? b
+TDD-1405686 progress: -1 2245 advert
+TDD1299939 [2098 : 2171 : 2245] adunc? a
+TDD-1299936 progress: 1 2171 adunc
+TDD1556583 [2172 : 2205 : 2245] adventure? it
+TDD-1556586 progress: 0 2205 adventure
+TDD-71 [2172 : 2205 : 2245] <Done>.
+TDD2094834 📋> 🧩 Puzzle #816
+TDD-2094770 📋> 
+TDD-68 📋> 🤔 12 guesses
+TDD-4 📋> 
+TDD0 📋> ⏱️ 15s
+TDD-1 📋> 
+TDD229711 📋> 🔗 alphaguess.com
+TDD165100 📋> ␚
+TDD-394748 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #816\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 15s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-9 result: "\ud83e\udde9 Puzzle #816\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 15s\n\n\ud83d\udd17 alphaguess.com"
+TDD-53 result puzzle: 816
+TDD-6 result guesses: 12
+TDD-1 result time: 15s
+TDD0 result link: alphaguess.com
+TDD288694 📆 2025-10-18 ? 
