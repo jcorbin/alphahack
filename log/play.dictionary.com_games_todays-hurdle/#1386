@@ -1,0 +1,103 @@
+T77674.44292240776 now: 2025-10-18T13:07:19UTC
+TD57 site: https://play.dictionary.com/games/todays-hurdle
+TDD-26 wordlist: nwl2023.txt
+TDD12790064  ...
+TDD-4842928 1.1> *
+TDD-6665685 1.1 ? 1
+TDD4336179 1.1 📋 "rates" ? MnnYn
+TDD-5617424 tried: RATES m n n Y n
+TDD1011663 1.2> *
+TDD711235 1.2 ? 1
+TDD2705448 1.2 📋 "fried" ? nMnYn
+TDD-4428428 tried: FRIED n m n Y n
+TDD653463 1.3> *
+TDD1845468 1.3 ? 3
+TDD1644854 1.3 📋 "homer" ? nYnYY
+TDD-4143780 tried: HOMER n Y n Y Y
+TDD466455 1.4> *
+TDD667248 1.4 ? 1
+TDD2536832 1.4 📋 "lower" ? YYnYY
+TDD-3670536 tried: LOWER Y Y n Y Y
+TDD406069 1.5> *
+TDD3585293 1.5 ? 
+TDD-3426582 1.5 ? 3
+TDD4098097 1.5 📋 "loner" ? YYnYY
+TDD-4662885 tried: LONER Y Y n Y Y
+TDD394964 1.6> *
+TDD1117605 1.6 ? 2
+TDD1075583 1.6 📋 "lover" ? it
+TDD-2588170 tried: LOVER Y Y Y Y Y
+TDD7088647 2.1 📋 "lover" ? nnnYn
+TDD-7088640 tried: LOVER n n n Y n
+TDD3905602 2.2> *
+TDD-2465993 2.2 ? 1
+TDD3395721 2.2 📋 "saned" ? nMYYn
+TDD-4835340 tried: SANED n m Y Y n
+TDD424708 2.3> *
+TDD1999273 2.3 ? 3
+TDD717604 2.3 📋 "apnea" ? it
+TDD-3141606 tried: APNEA Y Y Y Y Y
+TDD8899047 3.1 📋 "apnea" ? YnMYn
+TDD-8899022 tried: APNEA Y n m Y n
+TDD510834 3.2> *
+TDD775012 3.2 ? 1
+TDD4039445 3.2 📋 "antes" ? YMnYn
+TDD-5325255 tried: ANTES Y m n Y n
+TDD468645 3.3> *
+TDD813023 3.3 ? 1
+TDD2373410 3.3 📋 "alien" ? it
+TDD-3655127 tried: ALIEN Y Y Y Y Y
+TDD8780685 4.1 📋 "alien" ? nnnnn
+TDD-8780672 tried: ALIEN n n n n n
+TDD523502 4.2> *
+TDD592430 4.2 ? 1
+TDD4797806 4.2 📋 "tusky" ? Mnnnn
+TDD-5913731 tried: TUSKY m n n n n
+TDD558743 4.3> *
+TDD933110 4.3 ? 1
+TDD2699947 4.3 📋 "froth" ? nnYYM
+TDD-4191787 tried: FROTH n n Y Y m
+TDD501890 4.4> *
+TDD1253867 4.4 ? 1
+TDD2001850 4.4 📋 "photo" ? it
+TDD-3757662 tried: PHOTO Y Y Y Y Y
+TDD8126598 5.1 📋 "lover" ? Mnnnn
+TDD-8126558 tried: LOVER m n n n n
+TDD2555439 5.2 📋 "apnea" ? nYnnn
+TDD-2555454 tried: APNEA n Y n n n
+TDD2713775 5.3 📋 "alien" ? nMYnn
+TDD-2713764 tried: ALIEN n m Y n n
+TDD1924415 5.4 📋 "photo" ? MnnMn
+TDD-1924422 tried: PHOTO m n n m n
+TDD703471 5.5> *
+TDD3652121 5.5 📋 "spilt" ? it
+TDD-4355616 tried: SPILT Y Y Y Y Y
+TDD6179203 📋> Hurdle 1386
+TDD-6179252 📋> 
+TDD-43 📋> 6/6
+TDD-2 📋> 🟨⬜⬜🟩⬜
+TDD-2 📋> ⬜🟨⬜🟩⬜
+TDD-1 📋> ⬜🟩⬜🟩🟩
+TDD0 📋> 🟩🟩⬜🟩🟩
+TDD0 📋> 🟩🟩⬜🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD8 📋> ⬜⬜⬜🟩⬜
+TDD0 📋> ⬜🟨🟩🟩⬜
+TDD-7 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 3/6
+TDD1 📋> 🟩⬜🟨🟩⬜
+TDD-1 📋> 🟩🟨⬜🟩⬜
+TDD9 📋> 🟩🟩🟩🟩🟩
+TDD-9 📋> 4/6
+TDD1 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> 🟨⬜⬜⬜⬜
+TDD0 📋> ⬜⬜🟩🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 1/2
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD298072 📋> score: 9,900
+TDD78315 📋> ␚
+TDD-376306 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1386\n\n6/6\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,900"}
+TDD299 result: "Hurdle 1386\n\n6/6\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,900"
+TDD253674 📆 2025-10-18 ? 
