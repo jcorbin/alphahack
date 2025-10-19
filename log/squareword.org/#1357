@@ -1,0 +1,164 @@
+T80205.10983261466 now: 2025-10-19T12:23:18UTC
+TD51 site: squareword.org
+TDD-12 wordlist: nwl2023.txt
+TDD4316995  ...
+TDD-2176346 🧩  ? #1357
+TDD-2140503 puzzle_id: #1357
+TDD1314502 > *
+TDD3058161 try? 3
+TDD-4372565 questioning: ["aster", "#5"]
+TDD5493255 #1 _____  📋 "aster" ? _____ ~ A
+TDD-5493083 attempt 0 ASTER m n n n n
+TDD2088869 #2 _____  📋 "aster" ? _____ ~ ER
+TDD-2089148 attempt 1 ASTER n n n m m
+TDD2092570 #3 _____  📋 "aster" ? _____ ~ ER
+TDD-2092574 attempt 2 ASTER n n n m m
+TDD2370883 #4 _____  📋 "aster" ? ___ER ~ R
+TDD-2370842 attempt 3 ASTER n n n Y Y
+TDD2333189 #5 _____  📋 "aster" ? _____ ~ SE
+TDD-2333230 attempt 4 ASTER n m n m n
+TDD824705 ? *
+TDD1658473 #6 <IndexError>  📋 "aster" ? ␚
+TDD-2483278 question done
+TDD3547160 > 
+TDD-2985507 > *
+TDD808021 try? 1
+TDD-1369468 questioning: ["liber", "#4"]
+TDD5931181 #1 _____ ~A -ERST  📋 "liber" ? _____ ~ AL
+TDD-5931271 attempt 0 LIBER m n n n n
+TDD2745843 #2 _____ ~ER -AST  📋 "liber" ? _____ ~ ERI
+TDD-2745851 attempt 1 LIBER n m n m m
+TDD2114785 #3 _____ ~ER -AST  📋 "liber" ? .
+TDD-2114795 attempt 2 LIBER n n n m m
+TDD2398568 #4 ___ER -AST  📋 "liber" ? _I_ER ~ R
+TDD-2398561 attempt 3 LIBER n Y n Y Y
+TDD1119949 #5 _____ ~ES -ART  📋 "liber" ? .
+TDD-1119920 attempt 4 LIBER n n n m n
+TDD171968 ? 
+TDD-172066 question done
+TDD507529 > *
+TDD4528578 try? 2
+TDD-5035999 questioning: ["finer", "#4"]
+TDD5770344 #1 _____ ~AL -BEIRST  📋 "finer" ? .
+TDD-5770382 attempt 0 FINER n n n n n
+TDD849244 #2 _____ ~EIR -ABLST  📋 "finer" ? .
+TDD-849240 attempt 1 FINER n m n m m
+TDD1067206 #3 _____ ~ER -ABILST  📋 "finer" ? .
+TDD-1067215 attempt 2 FINER n n n m m
+TDD3101789 #4 _I_ER -ABLST  📋 "finer" ? _I_ER ~ ER
+TDD-3101790 attempt 3 FINER n Y n Y Y
+TDD8092496 #5 _____ ~ES -ABILRT  📋 "finer" ? l
+TDD-6199051 #5 _____ ~ES -ABILRT  ? .
+TDD-1893453 attempt 4 FINER n n n m n
+TDD767973 ? *
+TDD-256227 ? 
+TDD-511859 question done
+TDD622897 > *
+TDD3596075 try? 2
+TDD-4218834 questioning: ["viper", "#4"]
+TDD8328941 #1 _____ ~AL -BEFINRST  📋 "viper" ? __P__ ~ ALP
+TDD-8328950 attempt 0 VIPER n n Y n n
+TDD2589517 #2 _____ ~EIR -ABFLNST  📋 "viper" ? .
+TDD-2589534 attempt 1 VIPER n m n m m
+TDD660653 #3 _____ ~ER -ABFILNST  📋 "viper" ? .
+TDD-660649 attempt 2 VIPER n n n m m
+TDD2838680 #4 _I_ER -ABFLNST  📋 "viper" ? _I_ER ~ RV
+TDD-2838663 attempt 3 VIPER m Y n Y Y
+TDD3050692 #5 _____ ~ES -ABFILNRT  📋 "viper" ? .
+TDD-3050698 attempt 4 VIPER n n n m n
+TDD267077 ? 
+TDD-267149 question done
+TDD603109 > *
+TDD9812401 try? ␚
+TDD-10415543 <EOF>
+TDD1290509 > * 4
+TDD168532 try? ␚
+TDD-1459056 <EOF>
+TDD2629904 > *
+TDD2206669 try? 3
+TDD-4836464 questioning: ["pupal", "#1"]
+TDD6227920 #1 __P__ ~AL -BEFINRSTV  📋 "pupal" ? P_PAL ~ A
+TDD-6227916 attempt 0 PUPAL Y n Y Y Y
+TDD1430935 #2 _____ ~EIR -ABFLNPSTV  📋 "pupal" ? .
+TDD-1430918 attempt 1 PUPAL n n n n n
+TDD950226 #3 _____ ~ER -ABFILNPSTV  📋 "pupal" ? .
+TDD-950238 attempt 2 PUPAL n n n n n
+TDD7840152 #4 _I_ER ~V -ABFLNPST  📋 "pupal" ? _I_ER ~ RV
+TDD-7840165 attempt 3 PUPAL n n n n n
+TDD844646 #5 _____ ~ES -ABFILNPRTV  📋 "pupal" ? .
+TDD-844601 attempt 4 PUPAL n n n n n
+TDD926921 ? 
+TDD-927022 question done
+TDD1087593 > * 4
+TDD2585320 try? 5
+TDD-3672837 questioning: ["river", "#4"]
+TDD3748000 #1 P_PAL -BEFINRSTUV  📋 "river" ? .
+TDD-3748005 attempt 0 RIVER n n n n n
+TDD1426734 #2 _____ ~EIR -ABFLNPSTUV  📋 "river" ? .
+TDD-1426727 attempt 1 RIVER m m n m m
+TDD760130 #3 _____ ~ER -ABFILNPSTUV  📋 "river" ? .
+TDD-760134 attempt 2 RIVER m n n m m
+TDD743432 #4 _I_ER ~V -ABFLNPSTU  📋 "river" ? /it
+TDD-743448 attempt 3 RIVER Y Y Y Y Y
+TDD190997 #5 _____ ~ES -ABFILNPRTUV  📋 "river" ? 
+TDD707393 #5 _____ ~ES -ABFILNPRTUV  ? .
+TDD-898386 attempt 4 RIVER n n n m n
+TDD253530 ? 
+TDD-253597 question done
+TDD526387 > *
+TDD1778420 questioning: ["papal", "#1"]
+TDD1398924 #1 P_PAL -BEFINRSTUV  📋 "papal" ? /it
+TDD-3703656 attempt 0 PAPAL Y Y Y Y Y
+TDD2134398 #2 _____ ~EIR -ABFLNPSTUV  📋 "papal" ? .
+TDD-2134408 attempt 1 PAPAL n n n n n
+TDD888960 #3 _____ ~ER -ABFILNPSTUV  📋 "papal" ? .
+TDD-888973 attempt 2 PAPAL n n n n n
+TDD637957 #5 _____ ~ES -ABFILNPRTUV  📋 "papal" ? .
+TDD-637965 attempt 4 PAPAL n n n n n
+TDD212937 ? 
+TDD-212987 question done
+TDD441989 > *
+TDD1365566 questioning: ["eerie", "#2"]
+TDD9702942 #2 _____ ~EIR -ABFLNPSTUV  📋 "eerie" ? /it
+TDD-11510411 attempt 1 EERIE Y Y Y Y Y
+TDD3326867 #3 _____ ~ER -ABFILNPSTUV  📋 "eerie" ? E___E ~ R
+TDD-3326894 attempt 2 EERIE Y n m n Y
+TDD3759535 #5 _____ ~ES -ABFILNPRTUV  📋 "eerie" ? _E___ ~ SE
+TDD-3759529 attempt 4 EERIE m Y n n m
+TDD214404 ? 
+TDD-214508 question done
+TDD636231 > *
+TDD728893 questioning: ["erode", "#3"]
+TDD2608316 #3 E___E ~R -ABFILNPSTUV  📋 "erode" ? /it
+TDD-3973296 attempt 2 ERODE Y Y Y Y Y
+TDD3423167 #5 _E___ ~ES -ABFILNPRTUV  📋 "erode" ? _E_D_ ~ SE
+TDD-3423152 attempt 4 ERODE m n n Y m
+TDD9771717 ? ␚
+TDD-9771835 question done
+TDD796541 > *
+TDD4227785 try? 2
+TDD-5024251 questioning: ["seeds", "#5"]
+TDD9441498 #5 _E_D_ ~ES -ABFILNOPRTUV  📋 "seeds" ? SEED_ 
+TDD-9441523 attempt 4 SEEDS Y Y Y Y n
+TDD740313 ? 
+TDD-740343 question done
+TDD508090 > *
+TDD481393 questioning: ["seedy", "#5"]
+TDD1347295 #5 SEED_ -ABFILNOPRTUV  📋 "seedy" ? /it
+TDD-2336725 attempt 4 SEEDY Y Y Y Y Y
+TDD977273 ? 
+TDD-977358 question done
+TDD4085686 📋> squareword.org 1357: 11 guesses
+TDD-4085687 📋> 
+TDD-69 📋> 🟩🟨🟩🟩🟩
+TDD1 📋> 🟨🟨🟨🟨🟨
+TDD-1 📋> 🟨🟨🟨🟨🟨
+TDD-1 📋> 🟨🟩🟨🟩🟩
+TDD0 📋> 🟨🟨🟨🟨🟧
+TDD3 📋> 
+TDD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD198470 📋> #squareword #squareword1357
+TDD-17344 📋> ␚
+TDD-181063 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1357: 11 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe7\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1357"}
+TDD495 result: "squareword.org 1357: 11 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe7\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1357"
+TDD180693 📆 2025-10-19 ? 
