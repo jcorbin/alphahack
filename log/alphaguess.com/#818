@@ -1,0 +1,42 @@
+T80710.93661456928 now: 2025-10-20T11:50:11UTC
+TD52 site: alphaguess.com
+TDD66876 loaded 196547 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (56 words excluded) asof 207d2d1caf2ff701bd84599e309cc33a230e68c8
+TDD4574112  ...
+TDD-2022019 [0 : 98231 : 196547] mach? a
+TDD-2618895 progress: 1 98231 mach
+TDD2019814 [98232 : 147336 : 196547] rho? a
+TDD-2019851 progress: 1 147336 rho
+TDD1732509 [147337 : 171936 : 196547] tag? a
+TDD-1732500 progress: 1 171936 tag
+TDD1687261 [171937 : 182023 : 196547] un? b
+TDD-1687268 progress: -1 182023 un
+TDD1973228 [171937 : 176973 : 182023] tom? a
+TDD-1973230 progress: 1 176973 tom
+TDD3126161 [176974 : 179497 : 182023] trifurcate? a
+TDD-3126144 progress: 1 179497 trifurcate
+TDD1857802 [179498 : 180748 : 182023] tune? a
+TDD-1857818 progress: 1 180748 tune
+TDD1835854 [180749 : 181385 : 182023] two? b
+TDD-1835836 progress: -1 181385 two
+TDD1844041 [180749 : 181056 : 181385] tusk? b
+TDD-1844065 progress: -1 181056 tusk
+TDD1833501 [180749 : 180899 : 181056] turf? a
+TDD-1833495 progress: 1 180899 turf
+TDD1897393 [180900 : 180948 : 181056] turn? it
+TDD-1897379 progress: 0 180948 turn
+TDD-81 [180900 : 180948 : 181056] <Done>.
+TDD2803811 📋> 🧩 Puzzle #818
+TDD-2803766 📋> 
+TDD-38 📋> 🤔 11 guesses
+TDD-6 📋> 
+TDD-3 📋> ⏱️ 20s
+TDD-1 📋> 
+TDD331790 📋> 🔗 alphaguess.com
+TDD-36755 📋> ␚
+TDD-295000 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #818\n\n\ud83e\udd14 11 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"}
+TDD10 result: "\ud83e\udde9 Puzzle #818\n\n\ud83e\udd14 11 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"
+TDD-49 result puzzle: 818
+TDD-4 result guesses: 11
+TDD-1 result time: 20s
+TDD0 result link: alphaguess.com
+TDD309741 📆 2025-10-20 ? 
