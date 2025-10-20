@@ -1,0 +1,59 @@
+T80603.79563905299 now: 2025-10-20T11:48:24UTC
+TD60 site: alfagok.diginaut.net
+TDD160345 loaded 399681 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1171 words excluded) asof 207d2d1caf2ff701bd84599e309cc33a230e68c8
+TDD6404094  ...
+TDD-5706526 [0 : 199830 : 399681] lijm? 
+TDD984746 [0 : 199830 : 399681] lijm? a
+TDD-1842518 progress: 1 199830 lijm
+TDD1621402 [199831 : 299737 : 399681] schub? a
+TDD-1621525 progress: 1 299737 schub
+TDD1615925 [299738 : 349512 : 399681] vakantie? a
+TDD-1615922 progress: 1 349512 vakantie
+TDD1884540 [349513 : 374255 : 399681] vrij? b
+TDD-1884528 progress: -1 374255 vrij
+TDD1817775 [349513 : 353080 : 374255] ver? a
+TDD-1817775 progress: 1 353080 ver
+TDD1579599 [353081 : 363665 : 374255] verzot? b
+TDD-1579617 progress: -1 363665 verzot
+TDD1879334 [353081 : 358373 : 363665] verluieren? a
+TDD-1879323 progress: 1 358373 verluieren
+TDD1950018 [358374 : 361016 : 363665] verstrak? b
+TDD-1950012 progress: -1 361016 verstrak
+TDD1591885 [358374 : 359623 : 361016] verre? a
+TDD-1591905 progress: 1 359623 verre
+TDD3987932 [359624 : 360311 : 361016] verslechter? a
+TDD-3987897 progress: 1 360311 verslechter
+TDD1689921 [360312 : 360664 : 361016] versprekingen? a
+TDD-1689937 progress: 1 360664 versprekingen
+TDD1965962 [360665 : 360763 : 361016] verste? a
+TDD-1965976 progress: 1 360763 verste
+TDD1687444 [360764 : 360890 : 361016] verstijven? a
+TDD-1687450 progress: 1 360890 verstijven
+TDD1668970 [360891 : 360954 : 361016] verstook? a
+TDD-1668970 progress: 1 360954 verstook
+TDD2150818 [360955 : 360984 : 361016] verstoren? b
+TDD-2150793 progress: -1 360984 verstoren
+TDD1763699 [360955 : 360968 : 360984] verstoot? a
+TDD-1763723 progress: 1 360968 verstoot
+TDD1649723 [360969 : 360971 : 360984] verstop? a
+TDD-1649725 progress: 1 360971 verstop
+TDD1677625 [360972 : 360978 : 360984] verstoppinkje? b
+TDD-1677606 progress: -1 360978 verstoppinkje
+TDD1785346 [360972 : 360975 : 360978] verstoppertjes? b
+TDD-1785389 progress: -1 360975 verstoppertjes
+TDD1695837 [360972 : 360973 : 360975] verstoppende? b
+TDD-1695832 progress: -1 360973 verstoppende
+TDD-25 [360972 : 360972 : 360973] <Done>.
+TDD2120182 📋> it
+TDD1132597 📋> 🧩 Puzzel #352
+TDD-3252726 📋> 🤔 21 gokken
+TDD-51 📋> ⏱️ 38s
+TDD288177 📋> 🔗 alfagok.diginaut.net
+TDD281007 📋> ␚
+TDD-569151 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "it\n\ud83e\udde9 Puzzel #352\n\ud83e\udd14 21 gokken\n\u23f1\ufe0f 38s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD256 result: "it\n\ud83e\udde9 Puzzel #352\n\ud83e\udd14 21 gokken\n\u23f1\ufe0f 38s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-288 result puzzle: 352
+TDD-17 result guesses: 21
+TDD-2 result time: 38s
+TDD0 result link: alfagok.diginaut.net
+TDD772719 📆 2025-10-20 ? 
