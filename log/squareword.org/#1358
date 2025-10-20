@@ -1,0 +1,118 @@
+T80760.99942995422 now: 2025-10-20T11:51:01UTC
+TD48 site: squareword.org
+TDD-7 wordlist: nwl2023.txt
+TDD6910532  ...#1358
+TDD-2300273  ...
+TDD-2481220 🧩  ? #1358
+TDD-2128906 puzzle_id: #1358
+TDD3984021 > *
+TDD-2913607 try? 1
+TDD-1070409 questioning: ["sabre", "#5"]
+TDD5515314 #1 _____  📋 "sabre" ? S____ ~ SA
+TDD-5515106 attempt 0 SABRE Y m n n n
+TDD2629661 #2 _____  📋 "sabre" ? _____ ~ A
+TDD-2629866 attempt 1 SABRE n m n n n
+TDD2024124 #3 _____  📋 "sabre" ? ____E ~ A
+TDD-2024125 attempt 2 SABRE n m n n Y
+TDD2755027 #4 _____  📋 "sabre" ? _A___ ~ SA
+TDD-2755045 attempt 3 SABRE m Y n n n
+TDD2385311 #5 _____  📋 "sabre" ? S____ ~ E
+TDD-2385298 attempt 4 SABRE Y n n n m
+TDD338021 ? 
+TDD-338125 question done
+TDD10739951 > *
+TDD-8950222 try? 1
+TDD-1789616 questioning: ["angle", "#3"]
+TDD7232647 #1 S____ ~A -BER  📋 "angle" ? S____ ~ SAL
+TDD-7232655 attempt 0 ANGLE m n n m n
+TDD5646529 #2 _____ ~A -BERS  📋 "angle" ? _____ ~ AN
+TDD-5646532 attempt 1 ANGLE m m n n n
+TDD3780827 #3 ____E ~A -BRS  📋 "angle" ? A___E 
+TDD-3780816 attempt 2 ANGLE Y n n n Y
+TDD3378975 #4 _A___ ~S -BER  📋 "angle" ? _A___ ~ SA
+TDD-3378996 attempt 3 ANGLE m n n n n
+TDD2597458 #5 S____ ~E -ABR  📋 "angle" ? S____ ~ EL
+TDD-2597434 attempt 4 ANGLE n n n m m
+TDD440078 ? 
+TDD-440181 question done
+TDD764636 > *
+TDD3214692 try? 1
+TDD-3979230 questioning: ["azote", "#3"]
+TDD8297520 #1 S____ ~AL -BEGNR  📋 "azote" ? S____ ~ SAL
+TDD-8297526 attempt 0 AZOTE m n n n n
+TDD2849766 #2 _____ ~AN -BEGLRS  📋 "azote" ? _____ ~ ANO
+TDD-2849781 attempt 1 AZOTE m n m n n
+TDD3488461 #3 A___E -BGLNRS  📋 "azote" ? A__TE
+TDD-3488448 attempt 2 AZOTE Y n n Y Y
+TDD3716089 #4 _A___ ~S -BEGLNR  📋 "azote" ? _A_T_ ~ SA
+TDD-3716097 attempt 3 AZOTE m n n Y n
+TDD1417338 #5 S____ ~EL -ABGNR  📋 "azote" ? .
+TDD-1417346 attempt 4 AZOTE n n n n m
+TDD208494 ? 
+TDD-208578 question done
+TDD46042892 > *
+TDD-44363598 try? 1
+TDD-1679199 questioning: ["acute", "#3"]
+TDD6150065 #1 S____ ~AL -BEGNORTZ  📋 "acute" ? S____ ~ SAL
+TDD-6150055 attempt 0 ACUTE m n n n n
+TDD879374 #2 _____ ~ANO -BEGLRSTZ  📋 "acute" ? .
+TDD-879384 attempt 1 ACUTE m n n n n
+TDD945017 #3 A__TE -BGLNORSZ  📋 "acute" ? /it
+TDD-945011 attempt 2 ACUTE Y Y Y Y Y
+TDD4239250 #4 _A_T_ ~S -BEGLNORZ  📋 "acute" ? _A_T_ ~ SA
+TDD-4239256 attempt 3 ACUTE m n n Y n
+TDD2107275 #5 S____ ~EL -ABGNORTZ  📋 "acute" ? .
+TDD-2107263 attempt 4 ACUTE n n n n m
+TDD216465 ? 
+TDD-216588 question done
+TDD532001 > *
+TDD2760415 try? 2
+TDD-3292298 questioning: ["woman", "#2"]
+TDD7144885 #1 S____ ~AL -BCEGNORTUZ  📋 "woman" ? S____ ~ SALM
+TDD-7144865 attempt 0 WOMAN n n m m n
+TDD723459 #2 _____ ~ANO -BCEGLRSTUZ  📋 "woman" ? /it
+TDD-723494 attempt 1 WOMAN Y Y Y Y Y
+TDD3534974 #4 _A_T_ ~S -BCEGLNORUZ  📋 "woman" ? _A_T_ ~ SA
+TDD-3534961 attempt 3 WOMAN n n n m n
+TDD1821620 #5 S____ ~EL -ABCGNORTUZ  📋 "woman" ? .
+TDD-1821612 attempt 4 WOMAN n n n n n
+TDD1507438 ? 
+TDD-1507517 question done
+TDD894233 > *
+TDD990433 questioning: ["slams", "#1"]
+TDD1570128 #1 S____ ~ALM -BCEGNORTUWZ  📋 "slams" ? /it
+TDD-3454703 attempt 0 SLAMS Y Y Y Y Y
+TDD4149542 #4 _A_T_ ~S -BCEGLMNORUWZ  📋 "slams" ? _A_T_ ~ SA
+TDD-4149575 attempt 3 SLAMS m n m n m
+TDD5605883 #5 S____ ~EL -ABCGMNORTUWZ  📋 "slams" ? SL___ ~ E
+TDD-5605870 attempt 4 SLAMS Y Y n n n
+TDD510897 ? 
+TDD-510963 question done
+TDD558421 > *
+TDD823326 questioning: ["pasta", "#4"]
+TDD3825119 #4 _A_T_ ~S -BCEGLMNORUWZ  📋 "pasta" ? /it
+TDD-5206802 attempt 3 PASTA Y Y Y Y Y
+TDD9356178 #5 SL___ ~E -ABCGMNORTUWZ  📋 "pasta" ? .
+TDD-9356190 attempt 4 PASTA n n n n n
+TDD832765 ? 
+TDD-832829 question done
+TDD671769 > *
+TDD245034 questioning: ["sleek", "#5"]
+TDD5469689 #5 SL___ ~E -ABCGMNOPRSTUWZ  📋 "sleek" ? /it
+TDD-6386413 attempt 4 SLEEK Y Y Y Y Y
+TDD1028058 ? 
+TDD-1028162 question done
+TDD5532492 📋> squareword.org 1358: 8 guesses
+TDD-5532491 📋> 
+TDD-49 📋> 🟩🟨🟨🟨🟨
+TDD-6 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟨🟩🟨🟩🟨
+TDD0 📋> 🟩🟨🟨🟨🟨
+TDD0 📋> 
+TDD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD296095 📋> #squareword #squareword1358
+TDD-2484 📋> ␚
+TDD-293568 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1358: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1358"}
+TDD868 result: "squareword.org 1358: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1358"
+TDD398536 📆 2025-10-20 ? 
