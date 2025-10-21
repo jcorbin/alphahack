@@ -1,0 +1,55 @@
+T65688.2736807391 now: 2025-10-21T12:33:53UTC
+TD55 site: alphaguess.com
+TDD66928 loaded 196547 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (56 words excluded) asof 4ba8b796c285dc35ac1c2ac6e5cadb0d90dc2fce
+TDD5374926  ...
+TDD-3194640 [0 : 98231 : 196547] mach? b
+TDD-2247153 progress: -1 98231 mach
+TDD1564735 [0 : 47392 : 98231] dis? b
+TDD-1564769 progress: -1 47392 dis
+TDD1569046 [0 : 23693 : 47392] camp? b
+TDD-1569025 progress: -1 23693 camp
+TDD1985811 [0 : 11770 : 23693] back? b
+TDD-1985818 progress: -1 11770 back
+TDD1807214 [0 : 5882 : 11770] angel? b
+TDD-1807215 progress: -1 5882 angel
+TDD1621033 [0 : 2802 : 5882] ag? a
+TDD-1621025 progress: 1 2802 ag
+TDD1576490 [2803 : 4336 : 5882] alma? b
+TDD-1576493 progress: -1 4336 alma
+TDD1538522 [2803 : 3564 : 4336] alarm? a
+TDD-1538554 progress: 1 3564 alarm
+TDD1599229 [3565 : 3950 : 4336] alipeds? a
+TDD-1599201 progress: 1 3950 alipeds
+TDD1562254 [3951 : 4044 : 4336] all? a
+TDD-1562242 progress: 1 4044 all
+TDD4113082 [4045 : 4187 : 4336] allochthon? !
+TDD-941155 [4045 : 4191 : 4335] allod? b
+TDD-3171941 progress: -1 4191 allod
+TDD1957442 [4045 : 4117 : 4191] allergen? a
+TDD-1957430 progress: 1 4117 allergen
+TDD1501709 [4118 : 4154 : 4191] alliances? a
+TDD-1501724 progress: 1 4154 alliances
+TDD1518115 [4155 : 4173 : 4191] alloantigen? b
+TDD-1518135 progress: -1 4173 alloantigen
+TDD2960879 [4155 : 4161 : 4173] alliterate? b
+TDD-2960855 progress: -1 4161 alliterate
+TDD1705121 [4155 : 4158 : 4161] allies? a
+TDD-1705109 progress: 1 4158 allies
+TDD1598471 [4159 : 4160 : 4161] alligators? b
+TDD-1598480 progress: -1 4160 alligators
+TDD-73 [4159 : 4159 : 4160] <Done>.
+TDD5460726 📋> 🧩 Puzzle #819
+TDD-5460659 📋> 
+TDD-65 📋> 🤔 18 guesses
+TDD-5 📋> 
+TDD0 📋> ⏱️ 36s
+TDD0 📋> 
+TDD339963 📋> 🔗 alphaguess.com
+TDD-99328 📋> ␚
+TDD-240598 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #819\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 36s\n\n\ud83d\udd17 alphaguess.com"}
+TDD12 result: "\ud83e\udde9 Puzzle #819\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 36s\n\n\ud83d\udd17 alphaguess.com"
+TDD-50 result puzzle: 819
+TDD-5 result guesses: 18
+TDD-1 result time: 36s
+TDD0 result link: alphaguess.com
+TDD222677 📆 2025-10-21 ? 
