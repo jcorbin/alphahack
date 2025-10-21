@@ -1,0 +1,114 @@
+T65737.40337575786 now: 2025-10-21T12:34:42UTC
+TD50 site: squareword.org
+TDD-10 wordlist: nwl2023.txt
+TDD2758830  ...
+TDD668343 🧩  ? #1359
+TDD-3427054 puzzle_id: #1359
+TDD506501 > *
+TDD742953 try? 1
+TDD-1249430 questioning: ["reais", "#5"]
+TDD6067725 #1 _____  📋 "reais" ? !
+TDD-6067786 reject: reais
+TDD-102 question done
+TDD1487712 > *
+TDD-325697 try? 1
+TDD-1161897 questioning: ["arise", "#5"]
+TDD7212424 #1 _____  📋 "arise" ? _____ ~ ARSE
+TDD-7212147 attempt 0 ARISE m m n m m
+TDD2129684 #2 _____  📋 "arise" ? _____ ~ IE
+TDD-2129909 attempt 1 ARISE n n m n m
+TDD2055540 #3 _____  📋 "arise" ? _R___ ~ AS
+TDD-2055549 attempt 2 ARISE m Y n m n
+TDD3287645 #4 _____  📋 "arise" ? ____E ~ IE
+TDD-3287670 attempt 3 ARISE n n m n Y
+TDD2379060 #5 _____  📋 "arise" ? _____ ~ Rse
+TDD-2379045 attempt 4 ARISE n m n m m
+TDD6840175 ? *
+TDD-3499147 #6 <IndexError>  📋 "arise" ? ␚
+TDD-3341132 question done
+TDD1389721 > *
+TDD460634 try? 1
+TDD-1850264 questioning: ["dryas", "#3"]
+TDD6944611 #1 _____ ~AERS -I  📋 "dryas" ? !
+TDD-6944627 reject: dryas
+TDD-118 question done
+TDD1251196 > *
+TDD3474556 try? 2
+TDD-4725598 questioning: ["drats", "#3"]
+TDD5576877 #1 _____ ~AERS -I  📋 "drats" ? .
+TDD-5576884 attempt 0 DRATS n m m n m
+TDD4140258 #2 _____ ~EI -ARS  📋 "drats" ? _____ ~ iet
+TDD-4140259 attempt 1 DRATS n n n m n
+TDD2624396 #3 _R___ ~AS -EI  📋 "drats" ? _R__S ~ A
+TDD-2624397 attempt 2 DRATS n Y m n Y
+TDD4459582 #4 ____E ~I -ARS  📋 "drats" ? ____E ~ IE
+TDD-4459590 attempt 3 DRATS n n n n n
+TDD3413045 #5 _____ ~ERS -AI  📋 "drats" ? _____ ~ RSET
+TDD-3413035 attempt 4 DRATS n m n m m
+TDD369741 ? 
+TDD-369840 question done
+TDD525185 > *
+TDD1965596 try? 1
+TDD-2490682 questioning: ["orcas", "#3"]
+TDD5672843 #1 _____ ~AERS -DIT  📋 "orcas" ? ___A_ ~ RSE
+TDD-5672836 attempt 0 ORCAS n m n Y m
+TDD1366425 #2 _____ ~EIT -ADRS  📋 "orcas" ? .
+TDD-1366483 attempt 1 ORCAS n n n n n
+TDD846043 #3 _R__S ~A -DEIT  📋 "orcas" ? /it
+TDD-846032 attempt 2 ORCAS Y Y Y Y Y
+TDD3364876 #4 ____E ~I -ADRST  📋 "orcas" ? ____E ~ IEC
+TDD-3364830 attempt 3 ORCAS n n m n n
+TDD1180550 #5 _____ ~ERST -ADI  📋 "orcas" ? .
+TDD-1180607 attempt 4 ORCAS n m n n m
+TDD194117 ? 
+TDD-194187 question done
+TDD588199 > *
+TDD88962 questioning: ["tempi", "#2"]
+TDD7331720 #1 ___A_ ~ERS -CDIOT  📋 "tempi" ? ___A_ ~ RSEM
+TDD-8008763 attempt 0 TEMPI n m m n n
+TDD834853 #2 _____ ~EIT -ACDORS  📋 "tempi" ? /it
+TDD-834910 attempt 1 TEMPI Y Y Y Y Y
+TDD3179046 #4 ____E ~CI -ADORST  📋 "tempi" ? ____E ~ IECP
+TDD-3178993 attempt 3 TEMPI n m n m m
+TDD1412676 #5 _____ ~ERST -ACDIO  📋 "tempi" ? .
+TDD-1412705 attempt 4 TEMPI m m n n n
+TDD296069 ? 
+TDD-296147 question done
+TDD656590 > *
+TDD676037 questioning: ["smear", "#1"]
+TDD1394660 #1 ___A_ ~EMRS -CDIOPT  📋 "smear" ? /it
+TDD-2727186 attempt 0 SMEAR Y Y Y Y Y
+TDD4787919 #4 ____E ~CIP -ADMORST  📋 "smear" ? __E_E ~ ICP
+TDD-4787915 attempt 3 SMEAR n n Y n n
+TDD2689793 #5 _____ ~ERST -ACDIMOP  📋 "smear" ? S_E_R ~ ET
+TDD-2689803 attempt 4 SMEAR Y n Y n Y
+TDD300167 ? 
+TDD-300261 question done
+TDD601903 > *
+TDD739890 questioning: ["piece", "#4"]
+TDD3105177 #4 __E_E ~CIP -ADMORST  📋 "piece" ? /it
+TDD-4446877 attempt 3 PIECE Y Y Y Y Y
+TDD7058444 #5 S_E_R ~T -ACDIMOP  📋 "piece" ? S_E_R ~ ET
+TDD-7058426 attempt 4 PIECE n n Y n m
+TDD215277 ? 
+TDD-215355 question done
+TDD644224 > *
+TDD245109 questioning: ["steer", "#5"]
+TDD3824665 #5 S_E_R ~T -ACDIMOP  📋 "steer" ? /it
+TDD-4713913 attempt 4 STEER Y Y Y Y Y
+TDD1005067 ? 
+TDD-1005194 question done
+TDD3847216 📋> squareword.org 1359: 7 guesses
+TDD-3847168 📋> 
+TDD-45 📋> 🟩🟩🟩🟩🟩
+TDD-14 📋> 🟩🟩🟩🟩🟩
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟩🟨🟩
+TDD-1 📋> 🟩🟨🟩🟨🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD298815 📋> #squareword #squareword1359
+TDD7803 📋> ␚
+TDD-306593 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1359: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1359"}
+TDD645 result: "squareword.org 1359: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1359"
+TDD461624 📆 2025-10-21 ? 
