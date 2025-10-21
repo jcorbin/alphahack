@@ -1,0 +1,41 @@
+T65652.32401661016 now: 2025-10-21T12:33:17UTC
+TD70 site: alfagok.diginaut.net
+TDD158705 loaded 399681 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1171 words excluded) asof 4ba8b796c285dc35ac1c2ac6e5cadb0d90dc2fce
+TDD5529310  ...
+TDD-1999877 [0 : 199830 : 399681] lijm? a
+TDD-3687976 progress: 1 199830 lijm
+TDD1911667 [199831 : 299737 : 399681] schub? a
+TDD-1911792 progress: 1 299737 schub
+TDD1659615 [299738 : 349512 : 399681] vakantie? a
+TDD-1659636 progress: 1 349512 vakantie
+TDD1514790 [349513 : 374255 : 399681] vrij? a
+TDD-1514798 progress: 1 374255 vrij
+TDD1661138 [374256 : 386796 : 399681] wind? b
+TDD-1661112 progress: -1 386796 wind
+TDD1730846 [374256 : 380467 : 386796] weer? b
+TDD-1730867 progress: -1 380467 weer
+TDD1661564 [374256 : 377318 : 380467] wandel? a
+TDD-1661565 progress: 1 377318 wandel
+TDD1642479 [377319 : 378544 : 380467] water? b
+TDD-1642462 progress: -1 378544 water
+TDD1726087 [377319 : 377924 : 378544] war? b
+TDD-1726105 progress: -1 377924 war
+TDD1615971 [377319 : 377621 : 377924] wanproduct? a
+TDD-1615963 progress: 1 377621 wanproduct
+TDD1690080 [377622 : 377686 : 377924] wapen? b
+TDD-1690067 progress: -1 377686 wapen
+TDD2021267 [377622 : 377650 : 377686] want? it
+TDD-2021273 progress: 0 377650 want
+TDD-74 [377622 : 377650 : 377686] <Done>.
+TDD3027204 📋> 🧩 Puzzel #353
+TDD-3027143 📋> 🤔 12 gokken
+TDD-59 📋> ⏱️ 20s
+TDD274669 📋> 🔗 alfagok.diginaut.net
+TDD2240806 📋> ␚
+TDD-2515421 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #353\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 20s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD273 result: "\ud83e\udde9 Puzzel #353\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 20s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-317 result puzzle: 353
+TDD-20 result guesses: 12
+TDD-3 result time: 20s
+TDD0 result link: alfagok.diginaut.net
+TDD636200 📆 2025-10-21 ? 
