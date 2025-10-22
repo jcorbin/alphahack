@@ -1,0 +1,54 @@
+T74987.03838121891 now: 2025-10-22T12:53:41UTC
+TD50 site: alphaguess.com
+TDD62538 loaded 196546 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (57 words excluded) asof 3ca9eca52748aee23a92017bae194e73b2c216c2
+TDD2784128  ...
+TDD-589405 [0 : 98230 : 196546] mach? 
+TDD-1755360 [0 : 98230 : 196546] mach? b
+TDD-501876 progress: -1 98230 mach
+TDD1719159 [0 : 47391 : 98230] dis? b
+TDD-1719133 progress: -1 47391 dis
+TDD1669544 [0 : 23692 : 47391] camp? b
+TDD-1669553 progress: -1 23692 camp
+TDD1653663 [0 : 11769 : 23692] back? a
+TDD-1653658 progress: 1 11769 back
+T19.49108943901956 now: 2025-10-22T12:54:20UTC
+TD1866684 [11770 : 17724 : 23692] blind? b
+TDD-1866484 progress: -1 17724 blind
+TDD2787848 [11770 : 13811 : 17724] be? a
+TDD-2787963 progress: 1 13811 be
+TDD2135462 [13812 : 15767 : 17724] bewrap? b
+TDD-2135467 progress: -1 15767 bewrap
+TDD1689120 [13812 : 14788 : 15767] bel? b
+TDD-1689104 progress: -1 14788 bel
+TDD1600523 [13812 : 14174 : 14788] bed? a
+TDD-1600523 progress: 1 14174 bed
+TDD1650422 [14175 : 14400 : 14788] bee? a
+TDD-1650442 progress: 1 14400 bee
+TDD1612148 [14401 : 14563 : 14788] beg? a
+TDD-1612118 progress: 1 14563 beg
+TDD1901840 [14564 : 14676 : 14788] begun? a
+TDD-1901846 progress: 1 14676 begun
+TDD1736670 [14677 : 14732 : 14788] behoove? b
+TDD-1736685 progress: -1 14732 behoove
+TDD1627066 [14677 : 14696 : 14732] behaviour? a
+TDD-1627070 progress: 1 14696 behaviour
+TDD1632816 [14697 : 14707 : 14732] behead? a
+TDD-1632807 progress: 1 14707 behead
+TDD1782057 [14708 : 14721 : 14732] behind? it
+TDD-1782050 progress: 0 14721 behind
+TDD-74 [14708 : 14721 : 14732] <Done>.
+TDD2535812 📋> 🧩 Puzzle #820
+TDD-2535763 📋> 
+TDD-48 📋> 🤔 17 guesses
+TDD-5 📋> 
+TDD0 📋> ⏱️ 56s
+TDD-1 📋> 
+TDD377530 📋> 🔗 alphaguess.com
+TDD400603 📋> ␚
+TDD-778061 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #820\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 56s\n\n\ud83d\udd17 alphaguess.com"}
+TDD230 result: "\ud83e\udde9 Puzzle #820\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 56s\n\n\ud83d\udd17 alphaguess.com"
+TDD-285 result puzzle: 820
+TDD-21 result guesses: 17
+TDD-2 result time: 56s
+TDD0 result link: alphaguess.com
+TDD527017 📆 2025-10-22 ? 
