@@ -1,0 +1,90 @@
+T805.7118842136115 now: 2025-10-22T13:07:27UTC
+TD54 site: squareword.org
+TDD-15 wordlist: nwl2023.txt
+TDD3924851  ...
+TDD-1863930 🧩  ? #1360
+TDD-2060796 puzzle_id: #1360
+TDD2087593 > *
+TDD-887103 try? 1
+TDD-1200459 questioning: ["stare", "#5"]
+TDD4666156 #1 _____  📋 "stare" ? S_A__ ~ S
+TDD-4665964 attempt 0 STARE Y n Y n n
+TDD2388504 #2 _____  📋 "stare" ? ____E ~ STA
+TDD-2388714 attempt 1 STARE m m m n Y
+TDD2716900 #3 _____  📋 "stare" ? _T___ ~ RE
+TDD-2716918 attempt 2 STARE n Y n m m
+TDD2312772 #4 _____  📋 "stare" ? _____ ~ AE
+TDD-2312755 attempt 3 STARE n n m n m
+TDD2324025 #5 _____  📋 "stare" ? _____ ~ STE
+TDD-2324036 attempt 4 STARE m m n n m
+TDD1257661 ? 
+TDD-1257686 question done
+TDD1484556 > *
+TDD607235 try? 1
+TDD-2091754 questioning: ["other", "#3"]
+TDD5300217 #1 S_A__ -ERT  📋 "other" ? S_A__ ~ SH
+TDD-5300215 attempt 0 OTHER n n m n n
+TDD2515569 #2 ____E ~AST -R  📋 "other" ? ____E ~ STA
+TDD-2515583 attempt 1 OTHER n m n n n
+TDD2175683 #3 _T___ ~ER -AS  📋 "other" ? /it
+TDD-2175690 attempt 2 OTHER Y Y Y Y Y
+TDD2889786 #4 _____ ~AE -RST  📋 "other" ? _____ ~ AEH
+TDD-2889776 attempt 3 OTHER n n m m n
+TDD1281271 #5 _____ ~EST -AR  📋 "other" ? 
+TDD842379 #5 _____ ~EST -AR  ? .
+TDD-2123646 attempt 4 OTHER n m n m n
+TDD546425 ? 
+TDD-546485 question done
+TDD567119 > *
+TDD1245617 try? 1
+TDD-1812694 questioning: ["paste", "#2"]
+TDD7081709 #1 S_A__ ~H -EORT  📋 "paste" ? S_A__ ~ SH
+TDD-7081699 attempt 0 PASTE n n m n n
+TDD3851782 #2 ____E ~AST -EHOR  📋 "paste" ? _ASTE ~ T
+TDD-3851787 attempt 1 PASTE n Y Y Y Y
+TDD1606360 #4 _____ ~AEH -ORST  📋 "paste" ? .
+TDD-1606345 attempt 3 PASTE n m n n m
+TDD742915 #5 _____ ~EST -AHOR  📋 "paste" ? .
+TDD-742934 attempt 4 PASTE n n m m m
+TDD177879 ? 
+TDD-177984 question done
+TDD453025 > *
+TDD114837 questioning: ["tends", "#5"]
+TDD10722682 #1 S_A__ ~H -AEOPRT  📋 "tends" ? S_A__ ~ SH
+TDD-11290416 attempt 0 TENDS n n n n m
+TDD3963542 #2 _ASTE -HOPR  📋 "tends" ? taste
+TDD-3963535 attempt 1 TENDS Y n n n n
+TDD4850100 #4 _____ ~AEH -OPRST  📋 "tends" ? _____ ~ AEHD
+TDD-4850115 attempt 3 TENDS n m n m n
+TDD1018280 #5 _____ ~EST -AHOPR  📋 "tends" ? /it
+TDD-1018283 attempt 4 TENDS Y Y Y Y Y
+TDD372328 ? 
+TDD-372446 question done
+TDD2398980 > *
+TDD-1024200 questioning: ["ahead", "#4"]
+TDD6365454 #1 S_A__ ~H -ADENOPRT  📋 "ahead" ? S_A__ ~ SH
+TDD-7740137 attempt 0 AHEAD n m n n n
+TDD972704 #4 _____ ~ADEH -NOPRST  📋 "ahead" ? /it
+TDD-972748 attempt 3 AHEAD Y Y Y Y Y
+TDD158364 ? 
+TDD-158389 question done
+TDD463521 > *
+TDD435365 questioning: ["slash", "#1"]
+TDD2434609 #1 S_A__ ~H -ADENOPRT  📋 "slash" ? /it
+TDD-3333422 attempt 0 SLASH Y Y Y Y Y
+TDD2136933 ? ␚
+TDD-2137027 question done
+TDD4411243 📋> squareword.org 1360: 6 guesses
+TDD-4411228 📋> 
+TDD-41 📋> 🟩🟨🟩🟨🟨
+TDD-7 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD258216 📋> #squareword #squareword1360
+TDD132553 📋> ␚
+TDD-390738 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1360: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1360"}
+TDD349 result: "squareword.org 1360: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1360"
+TDD437759 📆 2025-10-22 ? 
