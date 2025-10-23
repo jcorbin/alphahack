@@ -1,0 +1,47 @@
+T92657.67800653353 now: 2025-10-23T14:55:05UTC
+TD55 site: alfagok.diginaut.net
+TDD145919 loaded 399681 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1171 words excluded) asof ca8a8c82d12712629e236f069749ae570d6be49e
+TDD9032976  ...
+TDD-6821495 [0 : 199830 : 399681] lijm? b
+TDD-2357188 progress: -1 199830 lijm
+TDD1738737 [0 : 99745 : 199830] ex? b
+TDD-1738913 progress: -1 99745 ex
+TDD1752291 [0 : 49847 : 99745] boks? b
+TDD-1752298 progress: -1 49847 boks
+TDD1638218 [0 : 24910 : 49847] bad? a
+TDD-1638180 progress: 1 24910 bad
+TDD1725481 [24911 : 37364 : 49847] bescherm? b
+TDD-1725518 progress: -1 37364 bescherm
+TDD1687048 [24911 : 31127 : 37364] begeleid? b
+TDD-1687052 progress: -1 31127 begeleid
+TDD1778071 [24911 : 27603 : 31127] basis? a
+TDD-1778063 progress: 1 27603 basis
+TDD1696095 [27604 : 28962 : 31127] bed? a
+TDD-1696105 progress: 1 28962 bed
+TDD1766206 [28963 : 29474 : 31127] bedrijf? b
+TDD-1766194 progress: -1 29474 bedrijf
+TDD2000296 [28963 : 29200 : 29474] bedevaart? a
+TDD-2000291 progress: 1 29200 bedevaart
+TDD1821981 [29201 : 29323 : 29474] bedil? a
+TDD-1821996 progress: 1 29323 bedil
+TDD1848957 [29324 : 29399 : 29474] bedonder? b
+TDD-1848947 progress: -1 29399 bedonder
+TDD2075663 [29324 : 29362 : 29399] bedlamp? a
+TDD-2075664 progress: 1 29362 bedlamp
+TDD1696659 [29363 : 29370 : 29399] bedoe? a
+TDD-1696667 progress: 1 29370 bedoe
+TDD1735443 [29371 : 29386 : 29399] bedoeïen? a
+TDD-1735433 progress: 1 29386 bedoeïen
+TDD1628288 [29387 : 29393 : 29399] bedompt? b
+TDD-1628281 progress: -1 29393 bedompt
+TDD1661161 [29387 : 29390 : 29393] bedolah? b
+TDD-1661164 progress: -1 29390 bedolah
+TDD1829837 [29387 : 29388 : 29390] bedoeïenentent? a
+TDD-1829838 progress: 1 29388 bedoeïenentent
+T1.454871153458953 now: 2025-10-23T15:04:25UTC
+TD5151269 [29389 : 29389 : 29390] bedoeïenententen? a
+TDD-5151041 progress: 1 29389 bedoeïenententen
+TDD-202 [29390 : ∅ : 29390] <Fail>.
+TDD2380384 📆 2025-10-23 ? 
+TDD1806032 🧩 id (default: 2025-10-23) ? 
+TDD-4186369 puzzle_id: 2025-10-23
