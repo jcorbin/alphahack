@@ -526,11 +526,7 @@ class Search(StoredLog):
 
     @property
     def found(self) -> int|None:
-        if self.chosen is not None:
-            return self.chosen
-        if self.remain <= 1:
-            return self.lo
-        return None
+        return None if self.chosen is None else self.chosen
 
     def prompt(self, ui: PromptUI):
         found = self.found
@@ -540,6 +536,11 @@ class Search(StoredLog):
             ui.print(f'found: {word}')
             ui.copy(word)
             return self.finish
+
+        if self.remain < 1:
+            ui.log(f'[{self.lo} : ∅ : {self.hi}] <Fail>.')
+            ui.print('Search failed; no more words possible')
+            return self.store
 
         self.may_suggest = True
         self.can_suggest = None
