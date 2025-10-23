@@ -1,0 +1,52 @@
+T24.403498604893684 now: 2025-10-23T15:04:48UTC
+TD58 site: alphaguess.com
+TDD59488 loaded 196546 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (57 words excluded) asof ca8a8c82d12712629e236f069749ae570d6be49e
+TDD6274110  ...
+TDD-4434445 [0 : 98230 : 196546] mach? b
+TDD-1899100 progress: -1 98230 mach
+TDD1513674 [0 : 47391 : 98230] dis? a
+TDD-1513696 progress: 1 47391 dis
+TDD1387882 [47392 : 72811 : 98230] gremolata? a
+TDD-1387918 progress: 1 72811 gremolata
+TDD1353351 [72812 : 85515 : 98230] ins? a
+TDD-1353304 progress: 1 85515 ins
+TDD1463965 [85516 : 91860 : 98230] knot? b
+TDD-1463978 progress: -1 91860 knot
+TDD1492465 [85516 : 88675 : 91860] jacks? b
+TDD-1492501 progress: -1 88675 jacks
+TDD1446301 [85516 : 87088 : 88675] intima? b
+TDD-1446290 progress: -1 87088 intima
+TDD1439680 [85516 : 86175 : 87088] inter? b
+TDD-1439672 progress: -1 86175 inter
+TDD1423091 [85516 : 85841 : 86175] instant? b
+TDD-1423102 progress: -1 85841 instant
+TDD4318206 [85516 : 85676 : 85841] insinuate? b
+TDD-4318173 progress: -1 85676 insinuate
+TDD1687527 [85516 : 85593 : 85676] inseminate? a
+TDD-1687528 progress: 1 85593 inseminate
+TDD1420339 [85594 : 85631 : 85676] inset? a
+TDD-1420376 progress: 1 85631 inset
+TDD1497229 [85632 : 85653 : 85676] insidious? b
+TDD-1497180 progress: -1 85653 insidious
+TDD1403167 [85632 : 85638 : 85653] insheath? a
+TDD-1403226 progress: 1 85638 insheath
+TDD1446169 [85639 : 85645 : 85653] inshrine? a
+TDD-1446170 progress: 1 85645 inshrine
+TDD1676221 [85646 : 85649 : 85653] inside? it
+TDD-1676171 progress: 0 85649 inside
+TDD-68 [85646 : 85649 : 85653] <Done>.
+TDD2859473 📋> 🧩 Puzzle #821
+TDD-2859441 📋> 
+TDD-34 📋> 🤔 16 guesses
+TDD-4 📋> 
+TDD-1 📋> ⏱️ 25s
+TDD0 📋> 
+TDD231831 📋> 🔗 alphaguess.com
+TDD22840 📋> ␚
+TDD-254628 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #821\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 25s\n\n\ud83d\udd17 alphaguess.com"}
+TDD249 result: "\ud83e\udde9 Puzzle #821\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 25s\n\n\ud83d\udd17 alphaguess.com"
+TDD-282 result puzzle: 821
+TDD-14 result guesses: 16
+TDD-2 result time: 25s
+TDD0 result link: alphaguess.com
+TDD504780 📆 2025-10-23 ? 
