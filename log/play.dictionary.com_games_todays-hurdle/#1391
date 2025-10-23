@@ -1,0 +1,44 @@
+T337.0517021100968 now: 2025-10-23T15:10:00UTC
+TD54 site: https://play.dictionary.com/games/todays-hurdle
+TDD-21 wordlist: nwl2023.txt
+TDD38086366  ...
+TDD-34008985 1.1> *
+TDD83524 1.1 ? 1
+TDD564953 1.1 📋 "parse" ? nMnMn
+TDD-4725662 tried: PARSE n m n m n
+TDD625009 1.2> *
+TDD438927 1.2 ? 1
+TDD3539947 1.2 📋 "slant" ? YnYnM
+TDD-4603961 tried: SLANT Y n Y n m
+TDD697814 1.3> *
+TDD357359 1.3 ? 1
+TDD2993902 1.3 📋 "stack" ? YYYnn
+TDD-4049097 tried: STACK Y Y Y n n
+TDD476677 1.4> *
+TDD2045267 1.4 ? 1
+TDD1240126 1.4 📋 "stagy" ? YYYnn
+TDD-3762059 tried: STAGY Y Y Y n n
+TDD451895 1.5> *
+TDD5391065 1.5 ? 1
+TDD-1380400 1.5 📋 "staid" ? YYYnn
+TDD-4462572 tried: STAID Y Y Y n n
+TDD491166 1.6> *
+TDD2229547 1.6 ? 3
+TDD2295676 1.6 📋 "stabs" ? YYYnn
+TDD-5016388 tried: STABS Y Y Y n n
+TDD1133096 1.7> fail staff
+TDD-1133111 fail: STAFF
+TDD4673601 📋> Hurdle 1391
+TDD-4673641 📋> 
+TDD-57 📋> X/6
+TDD-1 📋> ⬜🟨⬜🟨⬜
+TDD-2 📋> 🟩⬜🟩⬜🟨
+TDD0 📋> 🟩🟩🟩⬜⬜
+TDD0 📋> 🟩🟩🟩⬜⬜
+TDD5 📋> 🟩🟩🟩⬜⬜
+TDD3 📋> 🟩🟩🟩⬜⬜
+TDD241640 📋> score: 60
+TDD99381 📋> ␚
+TDD-340993 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1391\n\nX/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\nscore: 60"}
+TDD301 result: "Hurdle 1391\n\nX/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\nscore: 60"
+TDD437879 📆 2025-10-23 ? 
