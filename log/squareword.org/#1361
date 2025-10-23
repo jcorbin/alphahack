@@ -1,0 +1,103 @@
+T195.13755929656327 now: 2025-10-23T15:07:38UTC
+TD59 site: squareword.org
+TDD-20 wordlist: nwl2023.txt
+TDD13368240  ...
+TDD-9774675 🧩  ? #1361
+TDD-3593432 puzzle_id: #1361
+TDD4186884 > *
+TDD-2903266 try? 1
+TDD-1283594 questioning: ["taser", "#5"]
+TDD4474998 #1 _____  📋 "taser" ? T____ ~ R
+TDD-4474776 attempt 0 TASER Y n n n m
+TDD1777936 #2 _____  📋 "taser" ? _A___ ~ R
+TDD-1778169 attempt 1 TASER n Y n n m
+TDD2503289 #3 _____  📋 "taser" ? ___E_ ~ A
+TDD-2503297 attempt 2 TASER n m n Y n
+TDD2283624 #4 _____  📋 "taser" ? _____ ~ SE
+TDD-2283621 attempt 3 TASER n n m m n
+TDD2117142 #5 _____  📋 "taser" ? ___E_ ~ SR
+TDD-2117162 attempt 4 TASER n n m Y m
+TDD295078 ? 
+TDD-295118 question done
+TDD547723 > *
+TDD1734825 try? 1
+TDD-2282483 questioning: ["yaird", "#2"]
+TDD3841416 #1 T____ ~R -AES  📋 "yaird" ? .
+TDD-3841440 attempt 0 YAIRD n n n m n
+TDD2930331 #2 _A___ ~R -EST  📋 "yaird" ? _A___ ~ RID
+TDD-2930330 attempt 1 YAIRD n Y m m m
+TDD2609857 #3 ___E_ ~A -RST  📋 "yaird" ? ___ED ~ AD
+TDD-2609843 attempt 2 YAIRD n m n n Y
+TDD4233479 #4 _____ ~ES -ART  📋 "yaird" ? _____ ~ SEI
+TDD-4233481 attempt 3 YAIRD n n m n n
+TDD3163186 #5 ___E_ ~RS -AT  📋 "yaird" ? ___E_ ~ SRI
+TDD-3163197 attempt 4 YAIRD n n m m n
+TDD209427 ? 
+TDD-209492 question done
+TDD519099 > *
+TDD1254616 try? 1
+TDD-1773638 questioning: ["radio", "#2"]
+TDD4481478 #1 T____ ~R -ADEISY  📋 "radio" ? T____ ~ RO
+TDD-4481473 attempt 0 RADIO m n n n m
+TDD772710 #2 _A___ ~DIR -ESTY  📋 "radio" ? /it
+TDD-772734 attempt 1 RADIO Y Y Y Y Y
+TDD3311786 #3 ___ED ~A -IRSTY  📋 "radio" ? __DED ~ AD
+TDD-3311784 attempt 2 RADIO n m Y n n
+TDD1256313 #4 _____ ~EIS -ADRTY  📋 "radio" ? .
+TDD-1256278 attempt 3 RADIO n n n m n
+TDD1906999 #5 ___E_ ~IRS -ADTY  📋 "radio" ? .
+TDD-1907020 attempt 4 RADIO m n n m n
+TDD345877 ? 
+TDD-345961 question done
+TDD570101 > *
+TDD103903 questioning: ["troll", "#1"]
+TDD7214008 #1 T____ ~OR -ADEISY  📋 "troll" ? /it
+TDD-7887939 attempt 0 TROLL Y Y Y Y Y
+TDD13897015 #3 __DED ~A -IORSTY  📋 "troll" ? __DED ~ AD
+TDD-13897003 attempt 2 TROLL n n n n n
+TDD692670 #4 _____ ~EIS -ADORTY  📋 "troll" ? .
+TDD-692675 attempt 3 TROLL n n n n n
+TDD1416970 #5 ___E_ ~IRS -ADOTY  📋 "troll" ? .
+TDD-1416947 attempt 4 TROLL n m n n n
+TDD179955 ? 
+TDD-180072 question done
+TDD478104 > *
+TDD999187 questioning: ["added", "#3"]
+TDD3311410 #3 __DED ~A -ILORSTY  📋 "added" ? /it
+TDD-4788617 attempt 2 ADDED Y Y Y Y Y
+TDD2576720 #4 _____ ~EIS -ADLORTY  📋 "added" ? .
+TDD-2576693 attempt 3 ADDED n n n m n
+TDD1575631 #5 ___E_ ~IRS -ADLOTY  📋 "added" ? .
+TDD-1575622 attempt 4 ADDED n n n Y n
+TDD1476246 ? 
+TDD-1476333 question done
+TDD666173 > *
+TDD2548624 try? siege
+TDD-279995 try? 1
+TDD-2934714 questioning: ["siege", "#4"]
+TDD3459244 #4 _____ ~EIS -ADLORTY  📋 "siege" ? /it
+TDD-3459273 attempt 3 SIEGE Y Y Y Y Y
+TDD2975791 #5 ___E_ ~IRS -ADLOTY  📋 "siege" ? _I_E_ ~ SR
+TDD-2975765 attempt 4 SIEGE m Y n n n
+TDD253371 ? 
+TDD-253499 question done
+TDD508366 > *
+TDD392078 questioning: ["hires", "#5"]
+TDD2337716 #5 _I_E_ ~RS -ADEGLOTY  📋 "hires" ? /it
+TDD-3238029 attempt 4 HIRES Y Y Y Y Y
+TDD187882 ? 
+TDD-188020 question done
+TDD13304887 📋> squareword.org 1361: 7 guesses
+TDD-13304870 📋> 
+TDD-37 📋> 🟩🟩🟩🟩🟩
+TDD-16 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD3 📋> 🟨🟨🟨🟩🟨
+TDD2 📋> 
+TDD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD241796 📋> #squareword #squareword1361
+TDD-42631 📋> ␚
+TDD-199133 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1361: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1361"}
+TDD365 result: "squareword.org 1361: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1361"
+TDD260875 📆 2025-10-23 ? 
