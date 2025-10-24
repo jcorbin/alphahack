@@ -1,3 +1,4 @@
+import argparse
 import datetime
 import json
 import math
@@ -1901,10 +1902,42 @@ class PromptUI:
             pass
 
     @classmethod
+    @deprecated('use PromptUI.Arguable')
     def main(cls, state: State, trace: bool = False):
         ui = cls()
         ui.traced = trace
         ui.run(state)
+
+    class Arguable:
+        @classmethod
+        def main(cls):
+            self, args = cls.parse_args()
+            trace = cast(bool, args.trace)
+
+            ui = PromptUI()
+            ui.traced = trace
+            return ui.run(self)
+
+        @classmethod
+        def parse_args(cls):
+            parser = argparse.ArgumentParser(
+                formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+            )
+            cls.add_args(parser)
+            args = parser.parse_args()
+            self = cls()
+            return self, args
+
+        @classmethod
+        def add_args(cls, parser: argparse.ArgumentParser):
+            _ = parser.add_argument('--trace', '-t', action='store_true',
+                                    help='Enable execution state tracing')
+
+        def __init__(self):
+            self.shell: Shell = Shell()
+
+        def __call__(self, ui: 'PromptUI'):
+            return self.shell(ui)
 
     @final
     class Chain:
