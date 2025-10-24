@@ -183,6 +183,7 @@ class Timer:
         obs('done', end, elapsed, final or print)
 
 State = Callable[['PromptUI'], 'State|None']
+Listing = dict[str, 'Listing|State']
 
 @final
 class Next(BaseException):
@@ -658,6 +659,89 @@ class Prompt(Dispatcher):
         mess = self.mess(ui) if callable(self.mess) else self.mess
         with ui.input(mess):
             return super().__call__(ui)
+
+@final
+class Lookup:
+    @staticmethod
+    def lookup(root: Listing, tokens: Tokens):
+        cur = root
+        ents: list[Listing] = [cur]
+        path: list[str] = []
+        may: list[str] = []
+        ent: State|None = None
+        while tokens:
+            head = next(tokens)
+            if head in cur:
+                path.append(head)
+                val = cur[head]
+            else:
+                pat = re.compile('.*'.join(head.lower()))
+                may = [
+                    name
+                    for name in cur
+                    if pat.match(name)]
+                if len(may) == 1:
+                    name = may[0]
+                    may = []
+                    path.append(name)
+                    val = cur[name]
+
+                else:
+                    break
+
+            if callable(val):
+                ent = val
+            else:
+                cur = val
+                ents.append(cur)
+        return tuple(path), tuple(ents), tuple(may), ent
+
+    def __init__(self, cur: Listing, tokens: Tokens):
+        path, ents, may, ent = self.lookup(cur, tokens)
+        self.cur = cur
+        self.path = path
+        self.par = tuple(ents)
+        self.may = may
+        self.ent = ent
+        self.args = Tokens(tokens.rest)
+
+    def __call__(self, ui: 'PromptUI'):
+        if self.ent is not None:
+            return self.ent(ui)
+        given = ' '.join(self.path)
+        ctx = f'{given} ... {next(self.args, None)}'
+        if self.may:
+            mays = join_word_seq('or', sorted(self.may))
+            ui.print(f'ambiguous command {ctx}; may be: {mays}')
+        else:
+            ui.print(f'unknown command {ctx}')
+
+def join_word_seq(join: str, words: Sequence[str]):
+    if len(words) == 1:
+        return words[0]
+    if len(words) == 2:
+        a, b = words
+        return f'{a} {join} {b}'
+    else:
+        return f'{", ".join(words[:-1])}, {join} {words[-1]}'
+
+@final
+class Shell:
+    def __init__(self):
+        self.prompt = Prompt(
+            '> ', # TODO some fn(cwd)
+            {
+                # TODO is it all just default or slurp dispatch?
+            }
+        )
+        self.data: Listing = {}
+        self.path: tuple[str, ...] = ()
+
+    def lookup(self, tokens: Tokens):
+        return Lookup(self.data, tokens)
+
+    def __call__(self, ui: 'PromptUI'):
+        look = self.lookup(ui.tokens)
 
 @final
 class PromptUI:
