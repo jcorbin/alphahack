@@ -505,9 +505,6 @@ class Meta(Arguable):
             'status': self.do_status,
             'sys': self.do_system,
             'tracing': self.do_tracing,
-            # TODO share: header, detail, summary
-            # TODO clear day
-            # TODO flip day
         })
 
     @override
