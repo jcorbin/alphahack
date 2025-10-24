@@ -695,10 +695,9 @@ class Search(StoredLog):
         self.auto_token_limit = 400
         self.full_auto: bool = False
 
-        self.play = PromptUI.Prompt('> ', {
-            '/site': self.cmd_site_link,
-            '/store': self.cmd_store,
-
+        self.play = self.std_prompt
+        self.play.mess = '> '
+        self.play.update({
             '/auto': self.do_auto,
             '/http': self.do_http,
 
