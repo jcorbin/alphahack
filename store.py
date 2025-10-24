@@ -262,6 +262,8 @@ def matcher(pat: str|re.Pattern[str]):
         return Matcher(pat, then)
     return inner
 
+# TODO rebase over PromptUI.Arguable
+
 OrderLogsBy = Literal['mtime','name']
 
 class StoredLog:
