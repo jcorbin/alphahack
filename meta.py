@@ -464,17 +464,22 @@ class Meta(PromptUI.Arguable):
         self.report = Report()
         self.prompt.mess = self.prompt_mess
         self.prompt.update({
-            'day': self.do_day,
+            'tracing': self.do_tracing, # TODO should be std
+            'sys': self.do_system, # TODO could be std ... or std/x
+
             'env': self.do_env,
-            'log': self.do_log,
+
+            'day': self.do_day,
+            'share': self.do_share,
+            'status': self.do_status,
+
             'push': partial(self.do_system, cmd=('git', 'push', 'origin', '+:')),
             'review': self.do_review,
+
+            'solvers': self.do_solvers, # TODO aka ls?
+            # TODO pivot to make the solver <NAME> be the head token
+            'log': self.do_log,
             'run': self.do_run,
-            'share': self.do_share,
-            'solvers': self.do_solvers,
-            'status': self.do_status,
-            'sys': self.do_system,
-            'tracing': self.do_tracing,
         })
 
     @override
