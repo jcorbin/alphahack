@@ -210,6 +210,8 @@ def part_seq[T](sq: Sequence[T], token: T):
         if cur:
             yield tuple(cur)
 
+# TODO rebase over PromptUI.Arguable
+
 class StoredLog:
     @classmethod
     def main(cls):
