@@ -230,6 +230,8 @@ def matcher(pat: str|re.Pattern[str]):
         return Matcher(pat, then)
     return inner
 
+# TODO rebase over PromptUI.Arguable
+
 class StoredLog:
     @classmethod
     def main(cls):
