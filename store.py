@@ -765,6 +765,9 @@ class StoredLog:
             with ui.trace_entry('set_log_file noop') as ent:
                 ent.write(f'ephemeral:{self.ephemeral}')
             return
+        if not self.ephemeral:
+            with ui.trace_entry('set_log_file not-ephemeral') as ent:
+                raise RuntimeError('set_log_file must be ephemeral (pre load and append/log_to')
         if self.loaded:
             self.__init__()
         if log_file and os.path.exists(log_file):
