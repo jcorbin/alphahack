@@ -761,6 +761,10 @@ class StoredLog:
         self.set_log_file(ui, log_file)
 
     def set_log_file(self, ui: PromptUI, log_file: str):
+        if self.loaded and log_file == self.log_file:
+            with ui.trace_entry('set_log_file noop') as ent:
+                ent.write(f'ephemeral:{self.ephemeral}')
+            return
         if self.loaded:
             self.__init__()
         if log_file and os.path.exists(log_file):
