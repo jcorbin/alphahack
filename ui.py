@@ -1152,6 +1152,7 @@ class PromptUI:
             pass
 
     @classmethod
+    @deprecated('use PromptUI.Arguable')
     def main(cls, state: State, trace: bool = False):
         ui = cls()
         ui.traced = trace
