@@ -1,0 +1,83 @@
+T66138.32589972578 now: 2025-10-24T13:11:41UTC
+TD53 site: alfagok.diginaut.net
+TDD151106 loaded 399681 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1171 words excluded) asof ca8a8c82d12712629e236f069749ae570d6be49e
+TDD4633786  ...
+TDD-2881981 [0 : 199830 : 399681] lijm? a
+TDD-1902763 progress: 1 199830 lijm
+T23.884102849289775 now: 2025-10-24T13:12:21UTC
+TD1333872 [199831 : 299737 : 399681] schub? b
+TDD-1333669 progress: -1 299737 schub
+TDD2898294 [199831 : 247733 : 299737] op? b
+TDD-2898368 progress: -1 247733 op
+TDD1891858 [199831 : 223622 : 247733] mol? b
+TDD-1891887 progress: -1 223622 mol
+TDD1956036 [199831 : 211722 : 223622] mdxx? !
+TDD-48729 [199831 : 211692 : 223621] mdx? !
+TDD249681 [199831 : 211726 : 223620] mdxxv? !
+TDD-1102109 [199831 : 211721 : 223619] mdxxi? .
+TDD-1054716 viewing: @211726 C3 [ 211723 211729 ] search: [ 199831 223619 ]
+TDD6816724 > <
+TDD-6816668 viewing: @211723 C3 [ 211720 211726 ] search: [ 199831 223619 ]
+TDD2571775 > -
+TDD-2571682 viewing: @211723 C6 [ 211717 211729 ] search: [ 199831 223619 ]
+TDD665148 > -
+TDD-665197 viewing: @211723 C12 [ 211711 211735 ] search: [ 199831 223619 ]
+TDD1001823 > <
+TDD-1001872 viewing: @211711 C12 [ 211699 211723 ] search: [ 199831 223619 ]
+TDD916360 > _
+TDD1525712 ! unknown word _ ; respond . to add, else to re-prompt> 
+T54.06225458718836 now: 2025-10-24T13:12:51UTC
+TD1950943 [199831 : 211721 : 223619] mdxxi? .
+TDD-1950682 viewing: @211725 C3 [ 211722 211728 ] search: [ 199831 223619 ]
+TDD866668 > -
+TDD-866661 viewing: @211725 C6 [ 211719 211731 ] search: [ 199831 223619 ]
+TDD381325 > -
+TDD-381276 viewing: @211725 C12 [ 211713 211737 ] search: [ 199831 223619 ]
+TDD307663 > -
+TDD-307578 viewing: @211725 C24 [ 211701 211749 ] search: [ 199831 223619 ]
+TDD260292 > -
+TDD-260362 viewing: @211725 C32 [ 211677 211773 ]~2 search: [ 199831 223619 ]
+TDD261189 > -
+TDD-261235 viewing: @211725 C32 [ 211629 211821 ]~2 search: [ 199831 223619 ]
+TDD265812 > -
+TDD-265771 viewing: @211725 C32 [ 211533 211917 ]~2 search: [ 199831 223619 ]
+TDD551115 > -
+TDD-551027 viewing: @211725 C32 [ 211341 212109 ]~2 search: [ 199831 223619 ]
+TDD623427 > <
+TDD-623439 viewing: @211341 C32 [ 210957 211725 ]~2 search: [ 199831 223619 ]
+TDD2039254 > <
+TDD-2039211 viewing: @210957 C32 [ 210573 211341 ]~2 search: [ 199831 223619 ]
+TDD5489599 > @-28
+TDD-5489594 viewing: @210929 C32 [ 210545 211313 ]~2 search: [ 199831 223619 ]
+TDD730140 > 
+TDD2645204 [199831 : 210929 : 223619] maïtre? !
+TDD-3375226 viewing: @210929 C32 [ 210545 211313 ]~2 search: [ 199831 223618 ]
+TDD3630597 > 
+TDD-527671 [199831 : 210929 : 223618] maïzena? b
+TDD-3103395 progress: -1 210929 maïzena
+TDD2941072 [199831 : 205186 : 210929] ma? a
+TDD-2941077 progress: 1 205186 ma
+TDD2753960 [205187 : 207421 : 210929] man? b
+TDD-2753975 progress: -1 207421 man
+TDD2185133 [205187 : 206013 : 207421] mac? !
+TDD539120 [205187 : 206042 : 207420] mach? a
+TDD-2724242 progress: 1 206042 mach
+TDD4970474 [206043 : 206597 : 207420] mag? 
+TDD-2816770 [206043 : 206597 : 207420] mag? b
+TDD-2153713 progress: -1 206597 mag
+TDD2795690 [206043 : 206166 : 206597] macht? 
+TDD-228247 [206043 : 206166 : 206597] macht? it
+TDD-2567436 progress: 0 206166 macht
+TDD-58 [206043 : 206166 : 206597] <Done>.
+TDD2777109 📋> 🧩 Puzzel #356
+TDD-2777057 📋> 🤔 11 gokken
+TDD-58 📋> ⏱️ 1m 50s
+TDD244733 📋> 🔗 alfagok.diginaut.net
+TDD26503 📋> ␚
+TDD-271210 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #356\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 1m 50s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD283 result: "\ud83e\udde9 Puzzel #356\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 1m 50s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-314 result puzzle: 356
+TDD-8 result guesses: 11
+TDD-2 result time: 1m 50s
+TDD0 result link: alfagok.diginaut.net
+TDD343319 📆 2025-10-24 ? 
