@@ -13,8 +13,10 @@
   pick 4754d78e # alfagok.diginaut.net day #345
   ```
 
+- [regexle](https://regexle.com): on program
+
 - dontword:
-  - upsteam site seems to be glitchy wrt generating result copy on mobile
+  - upstream site seems to be glitchy wrt generating result copy on mobile
   - workaround by synthesizing?
   - workaround by storing complete-but-unverified anyhow?
 
