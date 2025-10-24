@@ -1,0 +1,46 @@
+T106.59416294284165 now: 2025-10-24T13:13:44UTC
+TD53 site: alphaguess.com
+TDD61326 loaded 196546 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (57 words excluded) asof ca8a8c82d12712629e236f069749ae570d6be49e
+TDD4199525  ...
+TDD-2340667 [0 : 98230 : 196546] mach? a
+TDD-1920139 progress: 1 98230 mach
+TDD1443284 [98231 : 147335 : 196546] rho? a
+TDD-1443301 progress: 1 147335 rho
+TDD3222800 [147336 : 171935 : 196546] tag? b
+TDD-3222792 progress: -1 171935 tag
+TDD1658707 [147336 : 159617 : 171935] slug? b
+TDD-1658697 progress: -1 159617 slug
+TDD1611035 [147336 : 153335 : 159617] sea? a
+TDD-1611038 progress: 1 153335 sea
+TDD1581468 [153336 : 156472 : 159617] shit? b
+TDD-1581463 progress: -1 156472 shit
+TDD1475556 [153336 : 154901 : 156472] seraph? a
+TDD-1475578 progress: 1 154901 seraph
+TDD1454503 [154902 : 155642 : 156472] sham? a
+TDD-1454501 progress: 1 155642 sham
+TDD1514235 [155643 : 155919 : 156472] she? b
+TDD-1514218 progress: -1 155919 she
+TDD1969223 [155643 : 155761 : 155919] shape? b
+TDD-1969227 progress: -1 155761 shape
+TDD1773045 [155643 : 155702 : 155761] shammies? a
+TDD-1773045 progress: 1 155702 shammies
+TDD1665803 [155703 : 155732 : 155761] shanghai? b
+TDD-1665797 progress: -1 155732 shanghai
+TDD3553663 [155703 : 155715 : 155732] shampoo? it
+TDD-3553663 progress: 0 155715 shampoo
+TDD-80 [155703 : 155715 : 155732] <Done>.
+TDD3123363 📋> 🧩 Puzzle #822
+TDD-3123306 📋> 
+TDD-57 📋> 🤔 13 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 21s
+TDD-1 📋> 
+TDD266390 📋> 🔗 alphaguess.com
+TDD85869 📋> ␚
+TDD-352197 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #822\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-22 result: "\ud83e\udde9 Puzzle #822\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+TDD-39 result puzzle: 822
+TDD-4 result guesses: 13
+TDD-1 result time: 21s
+TDD0 result link: alphaguess.com
+TDD306830 📆 2025-10-24 ? 
