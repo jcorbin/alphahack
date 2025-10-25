@@ -1,0 +1,102 @@
+T210.6795686315745 now: 2025-10-25T17:25:28UTC
+TD60 site: squareword.org
+TDD-23 wordlist: nwl2023.txt
+TDD3310351  ...
+TDD-1092344 🧩  ? #1363
+TDD-2217894 puzzle_id: #1363
+TDD836304 > *
+TDD238978 try? 1
+TDD-1075260 questioning: ["serac", "#5"]
+TDD6519864 #1 _____  📋 "serac" ? _E___ ~ SC
+TDD-6519609 attempt 0 SERAC m Y n n m
+TDD4593364 #2 _____  📋 "serac" ? _____ ~ A
+TDD-4593603 attempt 1 SERAC n n n m n
+TDD1904539 #3 _____  📋 "serac" ? _ER__
+TDD-1904554 attempt 2 SERAC n Y Y n n
+TDD3050626 #4 _____  📋 "serac" ? _____ ~ EA
+TDD-3050593 attempt 3 SERAC n m n m n
+TDD2493794 #5 _____  📋 "serac" ? S____ ~ R
+TDD-2493838 attempt 4 SERAC Y n m n n
+TDD811859 ? 
+TDD-811888 question done
+TDD818645 > *
+TDD1435902 try? 1
+TDD-2254485 questioning: ["stirk", "#5"]
+TDD7026693 #1 _E___ ~CS -AR  📋 "stirk" ? _E___ ~ SCT
+TDD-7026702 attempt 0 STIRK m m n n n
+TDD3222036 #2 _____ ~A -CERS  📋 "stirk" ? _____ ~ AI
+TDD-3222058 attempt 1 STIRK n n m n n
+TDD5762990 #3 _ER__ -ACS  📋 "stirk" ? _ER__~ K
+TDD-5763003 attempt 2 STIRK n n n n m
+TDD1921579 #4 _____ ~AE -CRS  📋 "stirk" ? .
+TDD-1921560 attempt 3 STIRK n n n n n
+TDD2004186 #5 S____ ~R -ACE  📋 "stirk" ? ST_R_
+TDD-2004212 attempt 4 STIRK Y Y n Y n
+TDD231440 ? 
+TDD-231509 question done
+TDD719393 > *
+TDD6896851 try? 1
+TDD-7616150 questioning: ["angel", "#4"]
+TDD6962138 #1 _E___ ~CST -AIKR  📋 "angel" ? _e___ ~ SCT
+TDD-6962152 attempt 0 ANGEL n n n n n
+TDD4182599 #2 _____ ~AI -CEKRST  📋 "angel" ? A___L ~ AI
+TDD-4182594 attempt 1 ANGEL Y n n n Y
+TDD3607785 #3 _ER__ ~K -ACIRST  📋 "angel" ? .
+TDD-3607773 attempt 2 ANGEL n n n n n
+TDD2899900 #4 _____ ~AE -CIKRST  📋 "angel" ? /it
+TDD-2899921 attempt 3 ANGEL Y Y Y Y Y
+TDD1506989 #5 ST_R_ -ACEIK  📋 "angel" ? .
+TDD-1506978 attempt 4 ANGEL n n n n n
+TDD2264455 ? 
+TDD-2264498 question done
+TDD18914373 > *
+TDD-18208731 questioning: ["techs", "#1"]
+TDD2852076 #1 _E___ ~CST -AEGIKLNR  📋 "techs" ? /it
+TDD-3557687 attempt 0 TECHS Y Y Y Y Y
+TDD6383749 #2 A___L ~I -CEGKNRST  📋 "techs" ? A___L ~ AI
+TDD-6383741 attempt 1 TECHS n n n n n
+TDD2073831 #3 _ER__ ~K -ACEGILNRST  📋 "techs" ? .
+TDD-2073818 attempt 2 TECHS n Y n n n
+TDD6292513 #5 ST_R_ -ACEGIKLN  📋 "techs" ? .
+TDD-6292534 attempt 4 TECHS n n n n n
+TDD8047086 ? 
+TDD-8047131 question done
+TDD1530305 > *
+TDD44044 questioning: ["avail", "#2"]
+TDD3534366 #2 A___L ~I -CEGHKNRST  📋 "avail" ? /it
+TDD-5108658 attempt 1 AVAIL Y Y Y Y Y
+TDD2483536 #3 _ER__ ~K -ACGHILNRST  📋 "avail" ? .
+TDD-2483528 attempt 2 AVAIL n n n n n
+TDD1877172 #5 ST_R_ -ACEGHIKLNST  📋 "avail" ? .
+TDD-1877188 attempt 4 AVAIL n n n n n
+TDD192087 ? 
+TDD-192197 question done
+TDD703137 > *
+TDD424227 questioning: ["perky", "#3"]
+TDD9386015 #3 _ER__ ~K -ACGHILNRSTV  📋 "perky" ? /it
+TDD-10513267 attempt 2 PERKY Y Y Y Y Y
+TDD4486071 #5 ST_R_ -ACEGHIKLNSTV  📋 "perky" ? ST_RY
+TDD-4486062 attempt 4 PERKY n n n n Y
+TDD661546 ? *
+TDD488959 #6 <IndexError>  📋 "perky" ? ␚
+TDD-1150616 question done
+TDD981036 > *
+TDD-307279 questioning: ["story", "#5"]
+TDD4534094 #5 ST_RY -ACEGHIKLNPRSTV  📋 "story" ? /it
+TDD-5207722 attempt 4 STORY Y Y Y Y Y
+TDD735343 ? 
+TDD-735435 question done
+TDD4896829 📋> squareword.org 1363: 7 guesses
+TDD-4896840 📋> 
+TDD-56 📋> 🟩🟩🟩🟩🟩
+TDD-6 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟩🟩🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟨🟩🟨
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD560443 📋> #squareword #squareword1363
+TDD-121981 📋> ␚
+TDD-438381 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1363: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1363"}
+TDD427 result: "squareword.org 1363: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1363"
+TDD456821 📆 2025-10-25 ? 
