@@ -1,0 +1,50 @@
+T164.07046487368643 now: 2025-10-25T17:24:41UTC
+TD56 site: alphaguess.com
+TDD78548 loaded 196546 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (57 words excluded) asof e7c1864b340a3640cd7f82f47072d9316044f904
+TDD3963318  ...
+TDD-1178167 [0 : 98230 : 196546] mach? b
+TDD-2863675 progress: -1 98230 mach
+TDD2898148 [0 : 47391 : 98230] dis? a
+TDD-2898143 progress: 1 47391 dis
+TDD2604970 [47392 : 72811 : 98230] gremolata? b
+TDD-2604956 progress: -1 72811 gremolata
+TDD2191935 [47392 : 60094 : 72811] face? a
+TDD-2191949 progress: 1 60094 face
+TDD2506126 [60095 : 66450 : 72811] french? a
+TDD-2506125 progress: 1 66450 french
+TDD3664414 [66451 : 69631 : 72811] geosyncline? b
+TDD-3664411 progress: -1 69631 geosyncline
+TDD2501832 [66451 : 68016 : 69631] gall? b
+TDD-2501815 progress: -1 68016 gall
+TDD2190214 [66451 : 67230 : 68016] full? b
+TDD-2190247 progress: -1 67230 full
+TDD2239633 [66451 : 66834 : 67230] front? a
+TDD-2239604 progress: 1 66834 front
+TDD2489234 [66835 : 67004 : 67230] fruit? b
+TDD-2489243 progress: -1 67004 fruit
+TDD2068452 [66835 : 66918 : 67004] froth? a
+TDD-2068450 progress: 1 66918 froth
+TDD1849370 [66919 : 66944 : 67004] frow? a
+TDD-1849380 progress: 1 66944 frow
+TDD1992261 [66945 : 66974 : 67004] frowzinesses? b
+TDD-1992262 progress: -1 66974 frowzinesses
+TDD1974624 [66945 : 66959 : 66974] frows? b
+TDD-1974605 progress: -1 66959 frows
+TDD2004873 [66945 : 66949 : 66959] frown? it
+TDD-2004899 progress: 0 66949 frown
+TDD-57 [66945 : 66949 : 66959] <Done>.
+TDD2962688 📋> 🧩 Puzzle #823
+TDD-2962624 📋> 
+TDD-63 📋> 🤔 15 guesses
+TDD-4 📋> 
+TDD1 📋> ⏱️ 33s
+TDD-2 📋> 
+TDD397697 📋> 🔗 alphaguess.com
+TDD-123442 📋> ␚
+TDD-274207 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #823\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 33s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-10 result: "\ud83e\udde9 Puzzle #823\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 33s\n\n\ud83d\udd17 alphaguess.com"
+TDD-37 result puzzle: 823
+TDD3 result guesses: 15
+TDD-9 result time: 33s
+TDD10 result link: alphaguess.com
+TDD1211569 📆 2025-10-25 ? 
