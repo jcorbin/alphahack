@@ -1,0 +1,37 @@
+T60.17999354377389 now: 2025-10-26T16:49:14UTC
+TD52 site: alfagok.diginaut.net
+TDD146101 loaded 399676 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1176 words excluded) asof bb59142666285de80b09837d6e5ee8ac851534d7
+TDD3809170  ...
+TDD-618649 [0 : 199830 : 399676] lijm? a
+TDD-3336466 progress: 1 199830 lijm
+TDD1540275 [199831 : 299732 : 399676] schub? a
+TDD-1540377 progress: 1 299732 schub
+TDD1763014 [299733 : 349507 : 399676] vakantie? a
+TDD-1763037 progress: 1 349507 vakantie
+TDD1779086 [349508 : 374250 : 399676] vrij? a
+TDD-1779086 progress: 1 374250 vrij
+TDD1561110 [374251 : 386791 : 399676] wind? b
+TDD-1561083 progress: -1 386791 wind
+TDD1559531 [374251 : 380462 : 386791] weer? b
+TDD-1559561 progress: -1 380462 weer
+TDD1499577 [374251 : 377313 : 380462] wandel? b
+TDD-1499572 progress: -1 377313 wandel
+TDD1831548 [374251 : 375695 : 377313] vuur? a
+TDD-1831529 progress: 1 375695 vuur
+TDD1553196 [375696 : 376491 : 377313] waarneming? a
+TDD-1553217 progress: 1 376491 waarneming
+TDD3678193 [376492 : 376855 : 377313] wagen? it
+TDD-3678171 progress: 0 376855 wagen
+TDD-83 [376492 : 376855 : 377313] <Done>.
+TDD3397473 📋> 🧩 Puzzel #358
+TDD-3397433 📋> 🤔 10 gokken
+TDD-40 📋> ⏱️ 15s
+TDD553005 📋> 🔗 alfagok.diginaut.net
+TDD-96247 📋> ␚
+TDD-456705 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #358\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 15s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD259 result: "\ud83e\udde9 Puzzel #358\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 15s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-302 result puzzle: 358
+TDD-20 result guesses: 10
+TDD-2 result time: 15s
+TDD0 result link: alfagok.diginaut.net
+TDD556267 📆 2025-10-26 ? 
