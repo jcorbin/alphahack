@@ -1,0 +1,46 @@
+T91.24965344555676 now: 2025-10-26T16:49:45UTC
+TD54 site: alphaguess.com
+TDD65399 loaded 196546 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (57 words excluded) asof bb59142666285de80b09837d6e5ee8ac851534d7
+TDD3381144  ...
+TDD-977963 [0 : 98230 : 196546] mach? a
+TDD-2468544 progress: 1 98230 mach
+TDD1570684 [98231 : 147335 : 196546] rho? a
+TDD-1570685 progress: 1 147335 rho
+TDD1443714 [147336 : 171935 : 196546] tag? a
+TDD-1443744 progress: 1 171935 tag
+TDD1394185 [171936 : 182022 : 196546] un? a
+TDD-1394139 progress: 1 182022 un
+TDD2595025 [182023 : 189285 : 196546] vicar? a
+TDD-2595026 progress: 1 189285 vicar
+TDD1624634 [189286 : 192889 : 196546] whir? a
+TDD-1624662 progress: 1 192889 whir
+TDD1613449 [192890 : 194714 : 196546] worship? a
+TDD-1613443 progress: 1 194714 worship
+TDD1720454 [194715 : 195628 : 196546] yo? a
+TDD-1720442 progress: 1 195628 yo
+TDD1809989 [195629 : 196086 : 196546] zero? a
+TDD-1810003 progress: 1 196086 zero
+TDD1390744 [196087 : 196311 : 196546] zone? a
+TDD-1390722 progress: 1 196311 zone
+TDD1470284 [196312 : 196333 : 196546] zoo? a
+TDD-1470296 progress: 1 196333 zoo
+TDD1681863 [196334 : 196440 : 196546] zootier? b
+TDD-1681862 progress: -1 196440 zootier
+TDD1617333 [196334 : 196383 : 196440] zoom? it
+TDD-1617344 progress: 0 196383 zoom
+TDD-61 [196334 : 196383 : 196440] <Done>.
+TDD2546683 📋> 🧩 Puzzle #824
+TDD-2546609 📋> 
+TDD-70 📋> 🤔 13 guesses
+TDD-4 📋> 
+TDD0 📋> ⏱️ 20s
+TDD-1 📋> 
+TDD781547 📋> 🔗 alphaguess.com
+TDD-490650 📋> ␚
+TDD-290850 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #824\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-7 result: "\ud83e\udde9 Puzzle #824\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"
+TDD-38 result puzzle: 824
+TDD-4 result guesses: 13
+TDD-1 result time: 20s
+TDD0 result link: alphaguess.com
+TDD193843 📆 2025-10-26 ? 
