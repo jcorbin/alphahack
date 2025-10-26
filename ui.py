@@ -661,17 +661,123 @@ class PromptUI:
     def then_stop(_ui: 'PromptUI'):
         raise StopIteration()
 
-    @classmethod
-    def test_ui(cls):
-        return PromptUI(
-            # TODO capture output for inspection
+    @final
+    class TestHarness:
+        def __init__(self):
+            self.input: list[str|BaseException] = []
+            self.input_i: int = 0
 
-            # TODO provide canned input
-            get_input = PromptUI.end_input,
+            self.output: list[str] = []
+            self.output_i: int = 0
 
-            # TODO provide canned clipboard
-            clip = NullClipboard(),
-        )
+            self.logs: list[str] = []
+
+            self.may_copy: bool = True
+            self.may_paste: bool = True
+            self.clipboard: str = ''
+
+            self.ui = PromptUI(
+                sink = self.write,
+                log_sink = self.log_write,
+                get_input = self.get_input,
+                clip = self,
+            )
+
+        def run_all(self, st: State, *ins: str):
+            if ins:
+                self.reset()
+                self.input.extend(ins)
+            else:
+                self.clear()
+            self.ui.interact(st)
+            return self.all_output()
+
+        def __enter__(self):
+            return self
+
+        def __exit__(
+            self,
+            type_: type[BaseException] | None,
+            value: BaseException | None,
+            traceback: TracebackType | None,
+        ) -> bool:
+            self.reset()
+            return False
+
+        def reset(self):
+            self.input = []
+            self.input_i = 0
+
+            self.may_copy = True
+            self.may_paste = True
+            self.clipboard = ''
+
+            self.clear()
+
+        def clear(self):
+            self.output = []
+            self.output_i = 0
+            self.logs = []
+
+        def get_input(self, prompt: str):
+            self.output.append(prompt)
+            try:
+                r = self.input[self.input_i]
+            except IndexError:
+                raise EOFError()
+            self.input_i += 1
+            if isinstance(r, str):
+                self.output.append(f'{r}\n')
+                return r
+            raise r
+
+        def write(self, s: str):
+            self.output.append(s)
+
+        def log_write(self, s: str):
+            self.logs.append(s)
+
+        def next_output_line(self):
+            def parts():
+                while True:
+                    try:
+                        i = self.output_i
+                        part = self.output[i]
+                    except IndexError:
+                        return
+                    self.output_i = i + 1
+                    head, sep, tail = part.partition('\n')
+                    if sep:
+                        part = f'{head}{sep}'
+                        if tail:
+                            self.output[i] = part
+                            self.output.insert(i+1, tail)
+                        yield part
+                        return
+                    yield part
+            return ''.join(parts())
+
+        def output_lines(self):
+            while self.output_i < len(self.output):
+                yield self.next_output_line()
+
+        def all_output(self):
+            return ''.join(
+                f'{line.rstrip()}\n'
+                for line in self.output_lines())
+
+        @property
+        def name(self):
+            return 'TestHarness'
+
+        def can_copy(self): return self.may_copy
+        def can_paste(self): return self.may_paste
+
+        def copy(self, mess: str):
+            self.clipboard = mess
+
+        def paste(self):
+            return self.clipboard
 
     Tokens = Tokens
 
@@ -679,22 +785,26 @@ class PromptUI:
         self,
         time: Timer|None = None,
         get_input: Callable[[str], str] = input,
-        log_file: TextIO|None = None,
         sink: Callable[[str], None]|None = None,
+        log_file: TextIO|None = None,
+        log_sink: Callable[[str], None]|None = None,
         clip: Clipboard = DefaultClipboard,
     ):
-        if log_file is not None and sink is not None:
-            raise ValueError('must provide either sink or log_file, not both')
+        if log_file is not None and log_sink is not None:
+            raise ValueError('must provide either log_sink or log_file, not both')
         elif log_file is not None:
-            sink = lambda mess: print(mess, file=log_file, flush=True)
-        elif sink is None:
-            sink = lambda _: None
+            log_sink = lambda mess: print(mess, file=log_file, flush=True)
+        elif log_sink is None:
+            log_sink = lambda _: None
+        if sink is None:
+            sink = lambda s: print(s, end='', flush=True)
 
         self.time = Timer() if time is None else time
         self._log_time = LogTime()
 
         self.get_input: Callable[[str], str] = get_input
         self.sink = sink
+        self.log_sink = log_sink
         self.clip = clip
         self.last: Literal['empty','prompt','print','write','remark'] = 'empty'
         self.zlog = zlib.compressobj()
@@ -796,44 +906,44 @@ class PromptUI:
 
     def log(self, mess: str):
         self._log_time.update(self.time.now)
-        self.sink(f'{self._log_time} {mess}')
+        self.log_sink(f'{self._log_time} {mess}')
 
     def logz(self, s: str):
         self._log_time.update(self.time.now)
         zb1 = self.zlog.compress(s.encode())
         zb2 = self.zlog.flush(zlib.Z_SYNC_FLUSH)
-        self.sink(f'{self._log_time} Z {b85encode(zb1 + zb2).decode()}')
+        self.log_sink(f'{self._log_time} Z {b85encode(zb1 + zb2).decode()}')
 
     def write(self, mess: str):
         self.last = 'print' if mess.endswith('\n') else 'write'
-        print(mess, end='', flush=True)
+        self.sink(mess)
 
     def fin(self, final: str = ''):
         if self.last == 'write':
-            print(final)
+            self.sink(final + '\n')
             self.last = 'print'
 
     def br(self):
         self.fin()
         if self.last == 'print':
-            print('')
+            self.sink('\n')
             self.last = 'empty'
 
     def link(self, url: str):
         # TODO url-escape any ';'s ?
-        print(term_osc_seq(8, '', url), end='')
+        self.sink(term_osc_seq(8, '', url))
 
     def print(self, mess: str):
         self.fin()
         if mess.startswith('//'):
             if self.last != 'remark':
-                print('')
-            print(mess, flush=True)
+                self.sink('\n')
+            self.sink(mess + '\n')
             self.last = 'remark'
             return
 
         self.last = 'empty' if not mess.strip() else 'print'
-        print(mess, flush=True)
+        self.sink(mess + '\n')
 
     def print_help(self,
                    ent: State,
@@ -898,24 +1008,25 @@ class PromptUI:
     @contextmanager
     def deps(self,
              log_file: TextIO|None = None,
-             sink: Callable[[str], None]|None = None,
+             log_sink: Callable[[str], None]|None = None,
              get_input: Callable[[str], str]|None = None,
+             # TODO sink
              clip: Clipboard|None = None):
-        if log_file is not None and sink is not None:
-            raise ValueError('must provide either sink or log_file, not both')
+        if log_file is not None and log_sink is not None:
+            raise ValueError('must provide either log_sink or log_file, not both')
         elif log_file is not None:
-            sink = lambda mess: print(mess, file=log_file, flush=True)
-        prior_sink = self.sink
+            log_sink = lambda mess: print(mess, file=log_file, flush=True)
+        prior_log_sink = self.log_sink
         prior_clip = self.clip
         prior_get_input = self.get_input
         try:
-            if callable(sink): self.sink = sink
+            if callable(log_sink): self.log_sink = log_sink
             if callable(clip): self.clip = clip
             if callable(get_input): self.get_input = get_input
             self._log_time.reset()
             yield self
         finally:
-            self.sink = prior_sink
+            self.log_sink = prior_log_sink
             self.clip = prior_clip
             self.get_input = prior_get_input
 

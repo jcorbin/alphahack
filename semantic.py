@@ -3664,9 +3664,9 @@ class Result:
 def test_startup(spec: MarkedSpec):
     soup = bs4.BeautifulSoup(spec.input, 'html5lib')
 
-    ui = PromptUI.test_ui()
+    harness = PromptUI.TestHarness()
     srch = Search()
-    srch.startup_scrape(ui, soup)
+    srch.startup_scrape(harness.ui, soup)
 
     for name, value in spec.props:
         if name == 'lang': assert srch.lang == value
@@ -4037,7 +4037,7 @@ def test_gen_prompt(spec: MarkedSpec):
     def eof_input(_s: str): raise EOFError
     ui = PromptUI(
         get_input = eof_input,
-        sink = lambda s: print('LOG', s),
+        log_sink = lambda s: print('LOG', s),
     )
     ui.tokens.raw = input
 
