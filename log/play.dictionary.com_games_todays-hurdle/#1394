@@ -1,0 +1,90 @@
+T285.1446027662605 now: 2025-10-26T16:52:59UTC
+TD55 site: https://play.dictionary.com/games/todays-hurdle
+TDD-21 wordlist: nwl2023.txt
+TDD11533973  ...
+TDD11870231 1.1> *
+TDD-21991875 1.1 ? 1
+TDD3601934 1.1 📋 "taser" ? YnnMn
+TDD-5014064 tried: TASER Y n n m n
+TDD886420 1.2> *
+TDD1356447 1.2 ? 1
+TDD4752147 1.2 📋 "thein" ? YnMYn
+TDD-6995080 tried: THEIN Y n m Y n
+TDD554939 1.3> *
+TDD2278160 1.3 ? 2
+TDD1170821 1.3 📋 "tepid" ? it
+TDD-4003973 tried: TEPID Y Y Y Y Y
+TDD8306650 2.1 📋 "tepid" ? nnnnY
+TDD-8306621 tried: TEPID n n n n Y
+TDD563630 2.2> *
+TDD1389857 2.2 ? 1
+TDD2482128 2.2 📋 "almud" ? YMnnY
+TDD-4435613 tried: ALMUD Y m n n Y
+TDD510356 2.3> *
+TDD2364597 2.3 ? 2
+TDD945284 2.3 📋 "ahold" ? it
+TDD-3820246 tried: AHOLD Y Y Y Y Y
+TDD8392088 3.1 📋 "ahold" ? nnnnn
+TDD-8392089 tried: AHOLD n n n n n
+TDD643632 3.2> *
+TDD1084670 3.2 ? 1
+TDD3054266 3.2 📋 "uteri" ? MMMMn
+TDD-4782572 tried: UTERI m m m m n
+TDD973898 3.3> *
+TDD607471 3.3 ? 1
+TDD2611573 3.3 📋 "recut" ? MMnMM
+TDD-4192937 tried: RECUT m m n m m
+TDD522889 3.4> *
+TDD649268 3.4 ? 1
+TDD4558296 3.4 📋 "brute" ? MMMMM
+TDD-5730447 tried: BRUTE m m m m m
+TDD1066313 3.5> *
+TDD2879921 3.5 📋 "tuber" ? it
+TDD-3946256 tried: TUBER Y Y Y Y Y
+TDD11941470 4.1 📋 "tuber" ? nMnMn
+TDD-11941464 tried: TUBER n m n m n
+TDD558312 4.2> *
+TDD590099 4.2 ? 1
+TDD5523389 4.2 📋 "amuse" ? nMYYY
+TDD-6671777 tried: AMUSE n m Y Y Y
+TDD520853 4.3> *
+TDD2890684 4.3 📋 "mouse" ? it
+TDD-3411571 tried: MOUSE Y Y Y Y Y
+TDD13470836 5.1 📋 "tepid" ? MMMnn
+TDD-13470825 tried: TEPID m m m n n
+TDD1894691 5.2 📋 "ahold" ? MnnMn
+TDD-1894703 tried: AHOLD m n n m n
+TDD2152681 5.3 📋 "tuber" ? MnnMn
+TDD-2152668 tried: TUBER m n n m n
+TDD1874125 5.4 📋 "mouse" ? nnnnM
+TDD-1874129 tried: MOUSE n n n n m
+TDD645265 5.5> *
+TDD4685888 5.5 📋 "pleat" ? it
+TDD-5331164 tried: PLEAT Y Y Y Y Y
+TDD5320985 📋> Hurdle 1394
+TDD-5321033 📋> 
+TDD-55 📋> 3/6
+TDD-3 📋> 🟩⬜⬜🟨⬜
+TDD-2 📋> 🟩⬜🟨🟩⬜
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> ⬜⬜⬜⬜🟩
+TDD11 📋> 🟩🟨⬜⬜🟩
+TDD-10 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 5/6
+TDD1 📋> ⬜⬜⬜⬜⬜
+TDD-1 📋> 🟨🟨🟨🟨⬜
+TDD0 📋> 🟨🟨⬜🟨🟨
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> ⬜🟨⬜🟨⬜
+TDD0 📋> ⬜🟨🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 1/2
+TDD3 📋> 🟩🟩🟩🟩🟩
+TDD496948 📋> score: 10,100
+TDD-242990 📋> ␚
+TDD-253886 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1394\n\n3/6\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"}
+TDD319 result: "Hurdle 1394\n\n3/6\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"
+TDD434377 📆 2025-10-26 ? 
