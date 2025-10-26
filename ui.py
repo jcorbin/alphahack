@@ -1119,9 +1119,10 @@ class PromptUI:
         with self.maybe_tracer(state) as state:
             while True:
                 try:
-                    state = state(self) or state
+                    nxt = state(self)
                 except Next as n:
-                    state = PromptUI.Traced.MayTron(self, state, n)
+                    nxt = PromptUI.Traced.MayTron(self, state, n)
+                state = nxt or state
 
     @staticmethod
     @contextmanager
