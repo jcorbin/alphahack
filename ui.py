@@ -693,7 +693,7 @@ class PromptUI:
         self.time = Timer() if time is None else time
         self._log_time = LogTime()
 
-        self.get_input = get_input
+        self.get_input: Callable[[str], str] = get_input
         self.sink = sink
         self.clip = clip
         self.last: Literal['empty','prompt','print','write','remark'] = 'empty'
