@@ -521,25 +521,13 @@ class Dispatcher:
             self.thens.insert(i, then)
             self.alias.insert(i, alas)
 
-    def show_help(self, ui: 'PromptUI', name: str, then: State, short: bool=True):
-        ui.write(f'- {name}')
-        doc = then.__doc__
-        if doc:
-            lines = block_lines(doc)
-            ui.fin(f' -- {next(lines)}')
-            for line in lines:
-                if short and not line: break
-                ui.print(f'  {line}')
-        else:
-            ui.fin()
-
     def show_help_list(self, ui: 'PromptUI'):
         for name, als, then in zip(self.names, self.alias, self.thens):
             if not name.strip(): continue
             if als:
                 ui.print(f'- {name} -- alias for {als}')
             else:
-                self.show_help(ui, name, then)
+                ui.print_help(then, name=name)
 
     def do_help(self, ui: 'PromptUI'):
         if not ui.tokens:
@@ -554,7 +542,7 @@ class Dispatcher:
         if not maybe:
             ui.print(f'invalid command {token!r}')
         elif len(maybe) == 1:
-            self.show_help(ui, maybe[0], mayst[0], short=False)
+            ui.print_help(mayst[0], name=maybe[0], short=False)
         else:
             ui.print(f'ambiguous command; may be: {" ".join(repr(s) for s in maybe)}')
 
@@ -846,6 +834,39 @@ class PromptUI:
 
         self.last = 'empty' if not mess.strip() else 'print'
         print(mess, flush=True)
+
+    def print_help(self,
+                   ent: State,
+                   name: str|None='',
+                   short: bool=True,
+                   mark: str = '-',
+                   indent: str = '  ',
+                   sep: str = ' -- '):
+        try:
+            if mark:
+                self.write(f'{mark} ')
+            if name:
+                self.write(f'{name}')
+            if name == '':
+                self.write(ent.__name__)
+            _ = self.print_block(ent.__doc__ or '', short=short, first=sep, rest=indent)
+        finally:
+            self.fin()
+
+    def print_block(self, mess: str,
+                    short: bool=False,
+                    first: str = '',
+                    rest: str = ''):
+        lines = block_lines(mess)
+        line = next(lines, None)
+        if line is not None:
+            self.fin(f'{first}{line}')
+            for line in lines:
+                if short and not line: break
+                self.print(f'{rest}{line}')
+            return True
+        else:
+            return False
 
     def raw_input(self, prompt: str):
         try:
