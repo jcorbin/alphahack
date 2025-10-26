@@ -1535,6 +1535,7 @@ class Dispatcher:
                 ui.print_help(then, name=name)
 
     def do_help(self, ui: 'PromptUI'):
+        # TODO reconcile w/ Shell help
         if not ui.tokens:
             return self.show_help_list(ui)
         maybe: list[str] = []
@@ -1731,6 +1732,38 @@ def test_EnvVars():
     del vars['name']
     assert 'name' not in vars
     assert 'name' not in os_env
+
+@final
+class Shell:
+    def __init__(self):
+        self.root = Handle({})
+        self.cur = Handle(self.root)
+        self.env: dict[str, str] = {} # TODO allow dotted sub-structure ; nest system env
+        self.prompt: str|Callable[['PromptUI', 'Shell'], str] = '> '
+        self.re: int = 0
+        self.re_prior: str = ''
+
+    def getenv(self, key: str, dflt: str = ''):
+        return self.env.get(key, dflt)
+
+    def __call__(self, ui: 'PromptUI'):
+        # TODO trace like Dispatcher
+        prompt = (
+            self.prompt(ui, self) if callable(self.prompt)
+            else self.prompt)
+        with ui.input(prompt) as tokens:
+            hndl = self.cur.resolve(tokens)
+            path = hndl.path
+            if self.re_prior != path:
+                self.re_prior = path
+                self.re = 0
+            elif hndl:
+                self.re = 0
+            else:
+                self.re += 1
+            return hndl.handle(ui)
+
+# TODO def test_shell():
 
 @final
 class PromptUI:
@@ -2145,6 +2178,7 @@ class PromptUI:
 
     Dispatcher = Dispatcher
     Prompt = Prompt
+    Shell = Shell
 
     def dispatch(self, spec: dict[str, State|str]):
         return self.Dispatcher(spec)(self)
