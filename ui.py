@@ -956,6 +956,7 @@ class Dispatcher:
                 ui.print_help(then, name=name)
 
     def do_help(self, ui: 'PromptUI'):
+        # TODO reconcile w/ Shell help
         if not ui.tokens:
             return self.show_help_list(ui)
         maybe: list[str] = []
@@ -1064,6 +1065,171 @@ class Prompt(Dispatcher):
         mess = self.mess(ui) if callable(self.mess) else self.mess
         with ui.input(mess):
             return super().__call__(ui)
+
+@final
+class Shell:
+    def __init__(self):
+        self.root = Handle({
+            'cd': self.do_chdir,
+            'chdir': self.do_chdir,
+            'cwd': self.do_cwd,
+            'pwd': self.do_cwd,
+
+            'dir': self.do_ls,
+            'ls': self.do_ls,
+
+            'help': self.do_help, # TODO literal "?" alias
+
+            # TODO tracing / tron / troff
+        })
+        self.cur = Handle(self.root)
+        self.env: dict[str, str] = {} # TODO allow dotted sub-structure ; nest system env
+        self.prior_path: str = ''
+        self.prompt: str|Callable[['PromptUI', 'Shell'], str] = '> '
+        self.re: int = 0
+        self.re_prior: str = ''
+
+    def getenv(self, key: str, dflt: str = ''):
+        return self.env.get(key, dflt)
+
+    def do_chdir(self, ui: 'PromptUI'):
+        path = next(ui.tokens, None) or self.getenv('home', '/')
+        if path == '-':
+            path = self.prior_path or self.cur.path
+        self.prior_path = self.cur.path
+        self.cur = Handle(self.cur, given=path)
+        ui.print(self.cur.path)
+
+    def do_cwd(self, ui: 'PromptUI'):
+        ui.print(self.cur.path)
+
+    def do_help(self, ui: 'PromptUI'):
+        self.do_ls(ui,
+                   handles=(self.cur, self.root),
+                   show_help=True)
+
+    def do_ls(self, ui: 'PromptUI',
+              handles: Iterable[Handle]|None = None,
+              show_help: bool = False,
+              show_hidden: bool = False,
+              verbose: int = 0):
+        args: list[str] = []
+        while ui.tokens:
+            v = ui.tokens.have('-(v+)', then=lambda m: len(m[1]))
+            if v is not None:
+                verbose += v
+                continue
+
+            if ui.tokens.have('-a'):
+                show_hidden = True
+                continue
+
+            unk = ui.tokens.have('-.+', then=lambda m: m[0])
+            if unk is not None:
+                ui.print(f'! unknown ls option {unk}')
+                return
+
+            if ui.tokens.have('--'):
+                args.extend(ui.tokens)
+                break
+
+            args.append(next(ui.tokens))
+
+        if args:
+            handles = (self.cur[arg] for arg in args)
+        elif handles is None:
+            handles = (self.cur,)
+
+        def check(cur: Handle):
+            if cur: return
+            yield f'unresolved {cur.path}'
+            if cur.may:
+                yield f'may be {join_word_seq('or', sorted(cur.may))}'
+            if cur.given:
+                yield f'given ... / {' / '.join(cur.given)}'
+
+        seen: set[str] = set()
+        for cur in handles:
+            path = cur.path
+            if path in seen:
+                continue
+            else:
+                seen.add(path)
+
+            problems = tuple(check(cur))
+            if problems:
+                for prob in problems:
+                    ui.print(f'! {prob}')
+                continue
+
+            if verbose:
+                ui.print(f'is_root:{cur.name == '.' and '..' not in cur.par}')
+                ui.print(f'pre:{cur.pre_path!r} / nom:{cur.name!r}')
+                if cur.may: ui.print(f'may:{cur.may!r}')
+                if cur.given: ui.print(f'may:{cur.may!r}')
+                ui.print(f'type:{type(cur.ent).__name__}')
+
+            try:
+                ent = cur.ent
+                if ent is None:
+                    ui.print(f'{path}∅')
+                    continue
+
+                if show_help:
+                    ui.print_help(
+                        ent,
+                        name=path,
+                        mark='',
+                        short=False,
+                        show_hidden=show_hidden)
+                    continue
+
+                ui.write(path)
+                if not callable(ent):
+                    ui.fin('' if path.endswith('/') else '/')
+                    for name in sorted(ent):
+                        if name.startswith('.') and not show_hidden: continue
+                        ui.write(f'  {name}')
+                        ui.fin('' if callable(ent[name]) else '/')
+
+            finally:
+                ui.fin()
+
+    def search(self, cmd: str|None):
+        if cmd is None: return
+        # TODO lookup via env[path] ... but why not link entries via .extend?
+        yield self.cur[cmd]
+        yield self.root[cmd]
+
+    def resolve(self, cmd: str|None):
+        best: Handle|None = None
+        for h in self.search(cmd):
+            if best is None:
+                best = h
+            elif not best and h:
+                best = h
+            elif h and len(h.given) < len(best.given):
+                best = h
+        return best or self.cur
+
+    def __call__(self, ui: 'PromptUI'):
+        # TODO trace like Dispatcher
+        prompt = (
+            self.prompt(ui, self) if callable(self.prompt)
+            else self.prompt)
+        with ui.input(prompt) as tokens:
+            hndl = self.resolve(next(tokens, None))
+            path = hndl.path
+            if self.re_prior != path:
+                self.re_prior = path
+                self.re = 0
+            elif hndl:
+                self.re = 0
+            else:
+                self.re += 1
+            return hndl(ui)
+
+# TODO def test_shell():
 
 @final
 class PromptUI:
@@ -1449,6 +1615,7 @@ class PromptUI:
 
     Dispatcher = Dispatcher
     Prompt = Prompt
+    Shell = Shell
 
     def dispatch(self, spec: dict[str, State|str]):
         return self.Dispatcher(spec)(self)
