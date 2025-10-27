@@ -41,6 +41,9 @@ def block_lines(s: str):
     lines = striperate(lines)
     return lines
 
+def reflow_block(s: str):
+    return ''.join(f'{line}\n' for line in block_lines(s))
+
 def spliterate(s: str, chars: str, trim: bool = False):
     fin = ''
     while s:
