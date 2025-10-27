@@ -1,0 +1,117 @@
+T192.5290765762329 now: 2025-10-27T14:20:35UTC
+TD55 site: squareword.org
+TDD-15 wordlist: nwl2023.txt
+TDD4751141  ...
+TDD-2220997 🧩  ? #1365
+TDD-2530016 puzzle_id: #1365
+TDD1183453 > *
+TDD-165473 try? 1
+TDD-1017964 questioning: ["earls", "#5"]
+TDD4328551 #1 _____  📋 "earls" ? _____ ~ RS
+TDD-4328333 attempt 0 EARLS n n m n m
+TDD1809880 #2 _____  📋 "earls" ? _____ ~ ER
+TDD-1810083 attempt 1 EARLS m n m n n
+TDD3008121 #3 _____  📋 "earls" ? _____ ~ EAL
+TDD-3008165 attempt 2 EARLS m m n m n
+TDD1833166 #4 _____  📋 "earls" ? _____ ~ E
+TDD-1833145 attempt 3 EARLS m n n n n
+TDD3519136 #5 _____  📋 "earls" ? E___S ~ E
+TDD-3519141 attempt 4 EARLS Y n n n Y
+TDD1044033 ? 
+TDD-1044068 question done
+TDD593734 > *
+TDD1782755 try? 1
+TDD-2376444 questioning: ["etuis", "#5"]
+TDD6656930 #1 _____ ~RS -AEL  📋 "etuis" ? _____ ~ RST
+TDD-6656911 attempt 0 ETUIS n m n n m
+TDD3254653 #2 _____ ~ER -ALS  📋 "etuis" ? _____ ~ ERT
+TDD-3254700 attempt 1 ETUIS m m n n n
+TDD3264696 #3 _____ ~AEL -RS  📋 "etuis" ? _____ ~ EALI
+TDD-3264687 attempt 2 ETUIS m n n m n
+TDD2663095 #4 _____ ~E -ALRS  📋 "etuis" ? _____ ~ EU
+TDD-2663103 attempt 3 ETUIS m n m n n
+TDD3439158 #5 E___S -ALR  📋 "etuis" ? E___S ~ E
+TDD-3439144 attempt 4 ETUIS Y n n n Y
+TDD352387 ? 
+TDD-352462 question done
+TDD457367 > *
+TDD2738948 try? 1
+TDD-3196231 questioning: ["prost", "#1"]
+TDD7500053 #1 _____ ~RST -AEILU  📋 "prost" ? __O_T ~ RS
+TDD-7500058 attempt 0 PROST n m Y m Y
+TDD3126932 #2 _____ ~ERT -AILSU  📋 "prost" ? _____ ~ ERTO
+TDD-3126948 attempt 1 PROST n m m n m
+TDD3163867 #3 _____ ~AEIL -RSTU  📋 "prost" ? _____ ~ EALI
+TDD-3163870 attempt 2 PROST n n n n n
+TDD2698885 #4 _____ ~EU -AILRST  📋 "prost" ? .
+TDD-2698867 attempt 3 PROST n n n n n
+TDD4303090 #5 E___S -AILRTU  📋 "prost" ? E___S ~ E
+TDD-4303107 attempt 4 PROST n n n n n
+TDD270709 ? 
+TDD-270778 question done
+TDD600781 > *
+TDD3415569 try? 2
+TDD-4016257 questioning: ["short", "#1"]
+TDD2662424 #1 __O_T ~RS -AEILPU  📋 "short" ? /it
+TDD-2662432 attempt 0 SHORT Y Y Y Y Y
+TDD2197662 #2 _____ ~EORT -AILPSU  📋 "short" ? .
+TDD-2197622 attempt 1 SHORT n n m m m
+TDD943081 #3 _____ ~AEIL -OPRSTU  📋 "short" ? .
+TDD-943135 attempt 2 SHORT n n n n n
+TDD970544 #4 _____ ~EU -AILOPRST  📋 "short" ? .
+TDD-970547 attempt 3 SHORT n n n n n
+TDD4727922 #5 E___S -AILOPRSTU  📋 "short" ? E___S ~ E
+TDD-4727908 attempt 4 SHORT n n n n n
+TDD271662 ? 
+TDD-271751 question done
+TDD932426 > *
+TDD3103928 try? 3
+TDD-4036256 questioning: ["edges", "#5"]
+TDD9724496 #2 _____ ~EORT -AHILPSU  📋 "edges" ? ___E_ ~ RTO
+TDD-9724496 attempt 1 EDGES n n n Y n
+TDD2254734 #3 _____ ~AEIL -HOPRSTU  📋 "edges" ? .
+TDD-2254746 attempt 2 EDGES m n n m n
+TDD1188428 #4 _____ ~EU -AHILOPRST  📋 "edges" ? .
+TDD-1188435 attempt 3 EDGES m n n m n
+TDD641764 #5 E___S -AHILOPRSTU  📋 "edges" ? /it
+TDD-641772 attempt 4 EDGES Y Y Y Y Y
+TDD251119 ? 
+TDD-251171 question done
+TDD779943 > *
+TDD776005 questioning: ["tower", "#2"]
+TDD1907824 #2 ___E_ ~ORT -ADGHILPSU  📋 "tower" ? /it
+TDD-3463715 attempt 1 TOWER Y Y Y Y Y
+TDD5802384 #3 _____ ~AEIL -DGHOPRSTU  📋 "tower" ? .
+TDD-5802357 attempt 2 TOWER n n n m n
+TDD765527 #4 _____ ~EU -ADGHILOPRST  📋 "tower" ? .
+TDD-765556 attempt 3 TOWER n n n m n
+TDD306514 ? 
+TDD-306573 question done
+TDD805979 > *
+TDD710320 questioning: ["venue", "#4"]
+TDD11986580 #3 _____ ~AEIL -DGHOPRSTUW  📋 "venue" ? ____E ~ ALIV
+TDD-13502804 attempt 2 VENUE m n n n Y
+TDD1510301 #4 _____ ~EU -ADGHILOPRSTW  📋 "venue" ? /it
+TDD-1510306 attempt 3 VENUE Y Y Y Y Y
+TDD189755 ? 
+TDD-189852 question done
+TDD424215 > *
+TDD532745 questioning: ["alive", "#3"]
+TDD3649947 #3 ____E ~AILV -DGHNOPRSTUW  📋 "alive" ? /it
+TDD-4606813 attempt 2 ALIVE Y Y Y Y Y
+TDD1055987 ? 
+TDD-1056050 question done
+TDD4699479 📋> squareword.org 1365: 8 guesses
+TDD-4699509 📋> 
+TDD-49 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> 🟨🟨🟨🟩🟨
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD468124 📋> #squareword #squareword1365
+TDD-284360 📋> ␚
+TDD-183723 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1365: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1365"}
+TDD1818 result: "squareword.org 1365: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1365"
+TDD138128 📆 2025-10-27 ? 
