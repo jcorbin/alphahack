@@ -1,0 +1,50 @@
+T144.04740474000573 now: 2025-10-27T14:19:47UTC
+TD56 site: alphaguess.com
+TDD60592 loaded 196546 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (57 words excluded) asof 5ba6b624c7d969856a4be9651732ebc4f5adc3c4
+TDD962078  ...
+TDD6234359 [0 : 98230 : 196546] mach? b
+TDD-7256995 progress: -1 98230 mach
+TDD2089830 [0 : 47391 : 98230] dis? a
+TDD-2089830 progress: 1 47391 dis
+TDD1892049 [47392 : 72811 : 98230] gremolata? b
+TDD-1892047 progress: -1 72811 gremolata
+TDD1673726 [47392 : 60094 : 72811] face? b
+TDD-1673731 progress: -1 60094 face
+TDD1485671 [47392 : 53407 : 60094] el? b
+TDD-1485677 progress: -1 53407 el
+TDD1445115 [47392 : 49438 : 53407] do? b
+TDD-1445107 progress: -1 49438 do
+TDD1359961 [47392 : 48413 : 49438] disorder? a
+TDD-1359956 progress: 1 48413 disorder
+TDD3859008 [48414 : 48926 : 49438] distain? a
+TDD-3859013 progress: 1 48926 distain
+TDD3243730 [48927 : 49137 : 49438] dit? a
+TDD-3243728 progress: 1 49137 dit
+TDD1678864 [49138 : 49285 : 49438] divest? b
+TDD-1678876 progress: -1 49285 divest
+TDD1822736 [49138 : 49206 : 49285] diva? a
+TDD-1822730 progress: 1 49206 diva
+TDD1891859 [49207 : 49235 : 49285] diver? a
+TDD-1891859 progress: 1 49235 diver
+TDD3636109 [49236 : 49246 : 49285] divers? a
+TDD-3636106 progress: 1 49246 divers
+TDD1761011 [49247 : 49266 : 49285] divert? b
+TDD-1761017 progress: -1 49266 divert
+TDD2312495 [49247 : 49256 : 49266] diversify? it
+TDD-2312493 progress: 0 49256 diversify
+TDD-60 [49247 : 49256 : 49266] <Done>.
+TDD7412105 📋> 🧩 Puzzle #825
+TDD-7412040 📋> 
+TDD-67 📋> 🤔 15 guesses
+TDD-5 📋> 
+TDD-1 📋> ⏱️ 30s
+TDD-2 📋> 
+TDD459155 📋> 🔗 alphaguess.com
+TDD-107423 📋> ␚
+TDD-351667 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #825\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 30s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-25 result: "\ud83e\udde9 Puzzle #825\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 30s\n\n\ud83d\udd17 alphaguess.com"
+TDD-39 result puzzle: 825
+TDD-5 result guesses: 15
+TDD9 result time: 30s
+TDD-10 result link: alphaguess.com
+TDD247801 📆 2025-10-27 ? 
