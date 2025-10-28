@@ -1,0 +1,46 @@
+T20.603681920096278 now: 2025-10-28T13:41:44UTC
+TD52 site: alfagok.diginaut.net
+TDD151835 loaded 399676 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1176 words excluded) asof 38434dff71f30c6e190e05575a006b2fd271e85d
+TDD8647912  ...
+TDD-6337703 [0 : 199830 : 399676] lijm? a
+TDD-2461874 progress: 1 199830 lijm
+TDD2373235 [199831 : 299732 : 399676] schub? a
+TDD-2373358 progress: 1 299732 schub
+TDD1847222 [299733 : 349507 : 399676] vakantie? b
+TDD-1847221 progress: -1 349507 vakantie
+TDD2475875 [299733 : 324306 : 349507] sub? a
+TDD-2475882 progress: 1 324306 sub
+TDD1625252 [324307 : 336900 : 349507] toetsing? b
+TDD-1625251 progress: -1 336900 toetsing
+TDD1736750 [324307 : 330491 : 336900] televisie? a
+TDD-1736755 progress: 1 330491 televisie
+TDD1971082 [330492 : 333695 : 336900] thesis? b
+TDD-1971081 progress: -1 333695 thesis
+TDD1569208 [330492 : 331886 : 333695] terug? b
+TDD-1569207 progress: -1 331886 terug
+TDD1708152 [330492 : 331178 : 331886] tennist? a
+TDD-1708151 progress: 1 331178 tennist
+TDD1699795 [331179 : 331503 : 331886] termijn? a
+TDD-1699796 progress: 1 331503 termijn
+TDD1649708 [331504 : 331682 : 331886] terrein? b
+TDD-1649696 progress: -1 331682 terrein
+TDD1755652 [331504 : 331581 : 331682] terne? a
+TDD-1755659 progress: 1 331581 terne
+TDD1602335 [331582 : 331623 : 331682] terra? a
+TDD-1602342 progress: 1 331623 terra
+TDD1813219 [331624 : 331636 : 331682] terras? it
+TDD-1813202 progress: 0 331636 terras
+TDD-87 [331624 : 331636 : 331682] <Done>.
+TDD3434746 📋> 
+TDD-2575566 📋> 🧩 Puzzel #360
+TDD-859127 📋> 🤔 14 gokken
+TDD-53 📋> ⏱️ 24s
+TDD408147 📋> 🔗 alfagok.diginaut.net
+TDD-98892 📋> ␚
+TDD-309181 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\u0002\n\ud83e\udde9 Puzzel #360\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD208 result: "\u0002\n\ud83e\udde9 Puzzel #360\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-284 result puzzle: 360
+TDD2 result guesses: 14
+TDD-3 result time: 24s
+TDD-8 result link: alfagok.diginaut.net
+TDD528685 📆 2025-10-28 ? 
