@@ -1,0 +1,54 @@
+T482.72368914075196 now: 2025-10-28T13:49:26UTC
+TD43 site: dontwordle.com
+TDD-14 wordlist: nwl2023.txt
+TDD4328146  ...
+TDD-2518978 1> * -bot 10
+TDD-510484 ? 1
+TDD3491497 📋 "tears" ? nYYYn
+TDD-4790077 tried: TEARS n Y Y Y n
+TDD678020 2> undo
+TDD-678053 undo
+TDD2511668 1> *
+TDD-1655524 ? 1
+TDD3794298 📋 "xylyl" ? nnMnn
+TDD-4650405 tried: XYLYL n n m n n
+TDD856612 2> undo
+TDD-856642 undo
+TDD2178463 1> *
+TDD-977440 ? 1
+TDD3243046 📋 "immix" ? nnnnn
+TDD-4444052 tried: IMMIX n n n n n
+TDD571887 2> *
+TDD339503 ? 1
+TDD3147743 📋 "sooks" ? nnnnn
+TDD-4059111 tried: SOOKS n n n n n
+TDD381237 3> *
+TDD589889 ? 1
+TDD5625511 📋 "cuppy" ? nnnnn
+TDD-6596646 tried: CUPPY n n n n n
+TDD855061 4> *
+TDD4541286 ? nnYnn
+TDD-4703367 ? *
+TDD1038304 ? 1
+TDD-95344 📋 "abaft" ? nnYnn
+TDD-1635924 tried: ABAFT n n Y n n
+TDD2355024 5> *
+TDD-881618 ? 1
+TDD4257628 📋 "gnawn" ? nnYnY
+TDD-5731038 tried: GNAWN n n Y n Y
+TDD7032616 6> *
+TDD-1003387 📋 "learn" ? it
+TDD-6029245 tried: LEARN Y Y Y Y Y
+TDD3131787 📋> Don't Wordle 1253 - WORDLED
+TDD-3131847 📋> I must admit that I Wordled!
+TDD-52 📋> ⬜⬜⬜⬜⬜7870
+TDD-5 📋> ⬜⬜⬜⬜⬜2209
+TDD-1 📋> ⬜⬜⬜⬜⬜761
+TDD0 📋> ⬜⬜🟩⬜⬜40
+TDD0 📋> ⬜⬜🟩⬜🟩2
+TDD0 📋> 🟩🟩🟩🟩🟩0
+TDD432762 📋> Undos used: 2
+TDD-183289 📋> ␚
+TDD-249401 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1253 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7870\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2209\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c761\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c40\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe92\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 2"}
+TDD688 result: "Don't Wordle 1253 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7870\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2209\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c761\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c40\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe92\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 2"
+TDD474579 📆 2025-10-28 ? 
