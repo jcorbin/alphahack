@@ -886,7 +886,7 @@ class StoredLog:
             return None
         return choice.path
 
-    def __call__(self, ui: PromptUI) -> PromptUI.State|None:
+    def __call__(self, ui: PromptUI) -> 'PromptUI.State|None':
         spec_match = re.fullmatch(r'''(?x)
                                   (?P<puzzle_id> .*? )
                                   :
