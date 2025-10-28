@@ -1,0 +1,145 @@
+T98.24501799978316 now: 2025-10-28T13:43:02UTC
+TD49 site: squareword.org
+TDD-11 wordlist: nwl2023.txt
+TDD2734417  ...
+TDD-628962 🧩  ? #1366
+TDD-2105323 puzzle_id: #1366
+TDD880071 > *
+TDD72946 try? 1
+TDD-953017 questioning: ["seral", "#5"]
+TDD4299131 #1 _____  📋 "seral" ? _____ ~ SEA
+TDD-4298911 attempt 0 SERAL m m n m n
+TDD1826431 #2 _____  📋 "seral" ? _____ ~ EA
+TDD-1826651 attempt 1 SERAL n m n m n
+TDD3189809 #3 _____  📋 "seral" ? _____ ~ ER
+TDD-3189804 attempt 2 SERAL n m m n n
+TDD5240610 #4 _____  📋 "seral" ? _____ ~ AL
+TDD-5240608 attempt 3 SERAL n n n m m
+TDD3042602 #5 _____  📋 "seral" ? _ER__ ~ SE
+TDD-3042598 attempt 4 SERAL m Y Y n n
+TDD516297 ? *
+TDD372311 #6 <IndexError>  📋 "seral" ? 
+TDD395683 #6 <IndexError>  ? ␚
+TDD-1284408 question done
+TDD782120 > *
+TDD1067044 try? 1
+TDD-1849036 questioning: ["mercs", "#5"]
+TDD4667957 #1 _____ ~AES -LR  📋 "mercs" ? _____ ~ EAC
+TDD-4667984 attempt 0 MERCS n m n m n
+TDD1688728 #2 _____ ~AE -LRS  📋 "mercs" ? .
+TDD-1688728 attempt 1 MERCS n m n n n
+TDD830712 #3 _____ ~ER -ALS  📋 "mercs" ? .
+TDD-830721 attempt 2 MERCS n m m n n
+TDD810117 #4 _____ ~AL -ERS  📋 "mercs" ? .
+TDD-810097 attempt 3 MERCS n n n n n
+TDD4883824 #5 _ER__ ~S -AL  📋 "mercs" ? _ER__ ~ SE
+TDD-4883837 attempt 4 MERCS n Y Y n m
+TDD281653 ? 
+TDD-281750 question done
+TDD661900 > *
+TDD4177452 try? 1
+TDD-4839249 questioning: ["verst", "#5"]
+TDD37326204 #1 _____ ~ACE -LMRS  📋 "verst" ? ____S ~ EACV
+TDD-37326219 attempt 0 VERST m m n n n
+TDD3428033 #2 _____ ~AE -CLMRS  📋 "verst" ? _____ ~ EAV
+TDD-3428028 attempt 1 VERST m m n n n
+TDD1541665 #3 _____ ~ER -ACLMS  📋 "verst" ? .
+TDD-1541657 attempt 2 VERST n m m n n
+TDD1263818 #4 _____ ~AL -CEMRS  📋 "verst" ? .
+TDD-1263840 attempt 3 VERST n n n n n
+TDD2113748 #5 _ER__ ~S -ACLM  📋 "verst" ? _ERS_ ~ ET
+TDD-2113743 attempt 4 VERST n Y Y Y m
+TDD659523 ? 
+TDD-659577 question done
+TDD567702 > *
+TDD76776 questioning: ["terse", "#5"]
+TDD3702615 #1 _____ ~ACEV -LMRST  📋 "terse" ? .
+TDD-4347038 attempt 0 TERSE n m n n m
+TDD5411473 #2 _____ ~AEV -CLMRST  📋 "terse" ? ____E ~ AV
+TDD-5411453 attempt 1 TERSE n n n n Y
+TDD894920 #3 _____ ~ER -ACLMSTV  📋 "terse" ? .
+TDD-894928 attempt 2 TERSE n m m n m
+TDD553453 #4 _____ ~AL -CEMRSTV  📋 "terse" ? .
+TDD-553475 attempt 3 TERSE n n n n n
+TDD890418 #5 _ERS_ ~T -ACLMV  📋 "terse" ? /it
+TDD-890416 attempt 4 TERSE Y Y Y Y Y
+TDD179164 ? 
+TDD-179258 question done
+TDD553503 > *
+TDD-88997 questioning: ["caved", "#1"]
+TDD2801219 #1 _____ ~ACEV -LMRST  📋 "caved" ? /it
+TDD-3265616 attempt 0 CAVED Y Y Y Y Y
+TDD2876835 #2 ____E ~AV -CLMRST  📋 "caved" ? .
+TDD-2876836 attempt 1 CAVED n m m n n
+TDD3039887 #3 _____ ~ER -ACLMSTV  📋 "caved" ? ___E_ ~ R
+TDD-3039882 attempt 2 CAVED n n n Y n
+TDD2452905 #4 _____ ~AL -CEMRSTV  📋 "caved" ? .
+TDD-2452913 attempt 3 CAVED n m n n n
+TDD214199 ? 
+TDD-214242 question done
+TDD504641 > *
+TDD8229354 try? A__VE ~ A
+TDD-6600097 try? 1
+TDD-2133831 questioning: ["above", "#2"]
+TDD3570565 #2 ____E ~AV -CDELMRST  📋 "above" ? A__VE ~ A
+TDD-3570578 attempt 1 ABOVE Y n n Y Y
+TDD1435618 #3 ___E_ ~R -ACDLMSTV  📋 "above" ? .
+TDD-1435605 attempt 2 ABOVE n n n n n
+TDD3067846 #4 _____ ~AL -CDEMRSTV  📋 "above" ? A_O__ ~ L
+TDD-3067856 attempt 3 ABOVE Y n Y n n
+TDD520001 ? 
+TDD-520064 question done
+TDD686901 > *
+TDD1187602 questioning: ["agave", "#2"]
+TDD817194 #2 A__VE -BCDLMORST  📋 "agave" ? /it
+TDD-2691665 attempt 1 AGAVE Y Y Y Y Y
+TDD2109639 #3 ___E_ ~R -ABCDELMOSTV  📋 "agave" ? .
+TDD-2109619 attempt 2 AGAVE n n n n n
+TDD4436280 #4 A_O__ ~L -BCDEMRSTV  📋 "agave" ? A_O__ ~ LG
+TDD-4436266 attempt 3 AGAVE Y m n n n
+TDD187855 ? 
+TDD-187942 question done
+TDD484685 > *
+TDD889767 questioning: ["ripen", "#3"]
+TDD5241361 #3 ___E_ ~R -ABCDEGLMOSTV  📋 "ripen" ? RIPE_ ~ R
+TDD-6615739 attempt 2 RIPEN Y Y Y Y n
+TDD4228432 #4 A_O__ ~GL -BCDEMRSTV  📋 "ripen" ? A_O__ ~ LGN
+TDD-4228429 attempt 3 RIPEN n n n n m
+TDD249930 ? 
+TDD-249993 question done
+TDD501703 > *
+TDD5326441 > riper
+TDD-5827896 questioning: ["riper", "entered"]
+TDD4829733 #3 RIPE_ -ABCDGLMNOSTV  📋 "riper" ? /it
+TDD-4829920 attempt 2 RIPER Y Y Y Y Y
+TDD2634132 #4 A_O__ ~GLN -BCDEIMPRSTV  📋 "riper" ? .
+TDD-2634150 attempt 3 RIPER n n n n n
+TDD215986 ? 
+TDD-216057 question done
+TDD531300 > *
+TDD2806058 > '
+TDD-2704570 > 
+TDD-377295 > 
+TDD2656334 > /help
+TDD1712809 > /man
+TDD56604 > /man 4 A_O__ LGN
+TDD-594456 > along
+TDD-4086684 questioning: ["along", "entered"]
+TDD3832018 #4 A_O__ ~GLN -BCDEIMPRSTV  📋 "along" ? /it
+TDD-3832038 attempt 3 ALONG Y Y Y Y Y
+TDD887978 ? 
+TDD-888029 question done
+TDD4475132 📋> squareword.org 1366: 10 guesses
+TDD-4475147 📋> 
+TDD-72 📋> 🟩🟩🟩🟩🟩
+TDD-4 📋> 🟨🟨🟨🟨🟩
+TDD-1 📋> 🟨🟨🟨🟩🟨
+TDD-1 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD448926 📋> #squareword #squareword1366
+TDD-206727 📋> ␚
+TDD-242130 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1366: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1366"}
+TDD829 result: "squareword.org 1366: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1366"
+TDD199305 📆 2025-10-28 ? 
