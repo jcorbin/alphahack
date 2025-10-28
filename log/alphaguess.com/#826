@@ -1,0 +1,47 @@
+T63.07538307271898 now: 2025-10-28T13:42:27UTC
+TD45 site: alphaguess.com
+TDD62595 loaded 196546 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (57 words excluded) asof 38434dff71f30c6e190e05575a006b2fd271e85d
+TDD4759934  ...[
+TDD-3363912  ...
+TDD657299 [0 : 98230 : 196546] mach? a
+TDD-2115862 progress: 1 98230 mach
+TDD1302539 [98231 : 147335 : 196546] rho? a
+TDD-1302542 progress: 1 147335 rho
+TDD5352044 [147336 : 171935 : 196546] tag? b
+TDD-5352029 progress: -1 171935 tag
+TDD1548497 [147336 : 159617 : 171935] slug? a
+TDD-1548510 progress: 1 159617 slug
+TDD1787153 [159618 : 165771 : 171935] stint? b
+TDD-1787143 progress: -1 165771 stint
+TDD1533151 [159618 : 162650 : 165771] speed? a
+TDD-1533164 progress: 1 162650 speed
+TDD1294137 [162651 : 164210 : 165771] squilgee? a
+TDD-1294144 progress: 1 164210 squilgee
+TDD1348544 [164211 : 164990 : 165771] stay? a
+TDD-1348522 progress: 1 164990 stay
+TDD1407557 [164991 : 165351 : 165771] stereo? b
+TDD-1407570 progress: -1 165351 stereo
+TDD1363785 [164991 : 165167 : 165351] steer? b
+TDD-1363794 progress: -1 165167 steer
+TDD1297665 [164991 : 165047 : 165167] steam? a
+TDD-1297667 progress: 1 165047 steam
+TDD1285989 [165048 : 165107 : 165167] steel? a
+TDD-1285998 progress: 1 165107 steel
+TDD1655803 [165108 : 165138 : 165167] steep? it
+TDD-1655784 progress: 0 165138 steep
+TDD-79 [165108 : 165138 : 165167] <Done>.
+TDD3121874 📋> 🧩 Puzzle #826
+TDD-3121818 📋> 
+TDD-51 📋> 🤔 13 guesses
+TDD-3 📋> 
+TDD-1 📋> ⏱️ 21s
+TDD0 📋> 
+TDD617433 📋> 🔗 alphaguess.com
+TDD-309732 📋> ␚
+TDD-307612 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #826\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-45 result: "\ud83e\udde9 Puzzle #826\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+TDD-45 result puzzle: 826
+TDD-5 result guesses: 13
+TDD-1 result time: 21s
+TDD0 result link: alphaguess.com
+TDD212239 📆 2025-10-28 ? 
