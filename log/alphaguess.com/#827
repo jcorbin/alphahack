@@ -1,0 +1,58 @@
+T159.4004844725132 now: 2025-10-29T13:27:47UTC
+TD57 site: alphaguess.com
+TDD64268 loaded 196546 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (57 words excluded) asof dfc53a3dfca193fa991c6671db7f8d7038807fb3
+TDD4261249  ...
+TDD-1529624 [0 : 98230 : 196546] mach? b
+TDD-2795863 progress: -1 98230 mach
+TDD1425600 [0 : 47391 : 98230] dis? a
+TDD-1425574 progress: 1 47391 dis
+TDD1415764 [47392 : 72811 : 98230] gremolata? b
+TDD-1415783 progress: -1 72811 gremolata
+TDD1401850 [47392 : 60094 : 72811] face? a
+TDD-1401843 progress: 1 60094 face
+TDD1714185 [60095 : 66450 : 72811] french? b
+TDD-1714203 progress: -1 66450 french
+TDD1645653 [60095 : 63250 : 66450] flag? b
+TDD-1645649 progress: -1 63250 flag
+TDD1346367 [60095 : 61630 : 63250] fen? a
+TDD-1346370 progress: 1 61630 fen
+TDD1352914 [61631 : 62434 : 63250] fila? a
+TDD-1352910 progress: 1 62434 fila
+TDD1322823 [62435 : 62837 : 63250] fire? a
+TDD-1322813 progress: 1 62837 fire
+TDD1437871 [62838 : 63023 : 63250] fish? b
+TDD-1437886 progress: -1 63023 fish
+TDD3403406 [62838 : 62927 : 63023] fireplace? b
+TDD-3403398 progress: -1 62927 fireplace
+TDD1704684 [62838 : 62879 : 62927] fired? a
+TDD-1704686 progress: 1 62879 fired
+TDD1455919 [62880 : 62903 : 62927] fireguards? b
+TDD-1455928 progress: -1 62903 fireguards
+TDD1436439 [62880 : 62888 : 62903] firefang? a
+TDD-1436428 progress: 1 62888 firefang
+TDD1410713 [62889 : 62892 : 62903] firefight? a
+TDD-1410708 progress: 1 62892 firefight
+TDD1573597 [62893 : 62898 : 62903] fireflies? b
+TDD-1573602 progress: -1 62898 fireflies
+TDD1940174 [62893 : 62895 : 62898] firefighting? b
+TDD-1940186 progress: -1 62895 firefighting
+TDD1943253 [62893 : 62894 : 62895] firefighters? b
+TDD-1943241 progress: -1 62894 firefighters
+TDD1812770 [62893 : 62893 : 62894] firefighter? it
+TDD-1812783 progress: 0 62893 firefighter
+TDD-58 [62893 : 62893 : 62894] <Done>.
+TDD3148617 📋> 🧩 Puzzle #827
+TDD-3148571 📋> 
+TDD-34 📋> 🤔 19 guesses
+TDD-10 📋> 
+TDD-1 📋> ⏱️ 30s
+TDD-1 📋> 
+TDD420908 📋> 🔗 alphaguess.com
+TDD-124698 📋> ␚
+TDD-296185 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #827\n\n\ud83e\udd14 19 guesses\n\n\u23f1\ufe0f 30s\n\n\ud83d\udd17 alphaguess.com"}
+TDD8 result: "\ud83e\udde9 Puzzle #827\n\n\ud83e\udd14 19 guesses\n\n\u23f1\ufe0f 30s\n\n\ud83d\udd17 alphaguess.com"
+TDD-39 result puzzle: 827
+TDD-4 result guesses: 19
+TDD-1 result time: 30s
+TDD0 result link: alphaguess.com
+TDD357628 📆 2025-10-29 ? 
