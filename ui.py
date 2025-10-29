@@ -368,6 +368,7 @@ class Handle:
         del self[key].ent
 
     def __call__(self, ui: 'PromptUI') -> 'PromptUI.State|None':
+        # TODO trace like Dispatcher
         path = self.path
         ent = self.ent
 
