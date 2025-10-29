@@ -1,0 +1,43 @@
+T38.316088289022446 now: 2025-10-29T13:25:02UTC
+TD63 site: alfagok.diginaut.net
+TDD153801 loaded 399676 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1176 words excluded) asof dfc53a3dfca193fa991c6671db7f8d7038807fb3
+T111.92917260341346 now: 2025-10-29T13:26:59UTC
+TD4189369  ...
+TDD-748255 [0 : 199830 : 399676] lijm? b
+TDD-3440911 progress: -1 199830 lijm
+TDD2201120 [0 : 99745 : 199830] ex? a
+TDD-2201218 progress: 1 99745 ex
+TDD2399235 [99746 : 149448 : 199830] huis? a
+TDD-2399244 progress: 1 149448 huis
+TDD1864695 [149449 : 174558 : 199830] kind? a
+TDD-1864703 progress: 1 174558 kind
+TDD1820649 [174559 : 187194 : 199830] krontjongs? a
+TDD-1820638 progress: 1 187194 krontjongs
+TDD1760158 [187195 : 193495 : 199830] lavendel? b
+TDD-1760168 progress: -1 193495 lavendel
+TDD2618776 [187195 : 190343 : 193495] kz? !
+TDD266367 [187195 : 190345 : 193494] kán? !
+TDD-554623 [187195 : 190345 : 193493] kén? !
+TDD1140143 [187195 : 190345 : 193492] ként? a
+TDD-3470662 progress: 1 190345 ként
+TDD2432584 [190346 : 191868 : 193492] landen? b
+TDD-2432573 progress: -1 191868 landen
+TDD2496819 [190346 : 191101 : 191868] lager? a
+TDD-2496836 progress: 1 191101 lager
+TDD1988516 [191102 : 191271 : 191868] lam? b
+TDD-1988508 progress: -1 191271 lam
+TDD2522869 [191102 : 191172 : 191271] laken? it
+TDD-2522874 progress: 0 191172 laken
+TDD-60 [191102 : 191172 : 191271] <Done>.
+TDD3832434 📋> 🧩 Puzzel #361
+TDD-3832381 📋> 🤔 11 gokken
+TDD-58 📋> ⏱️ 31s
+TDD463999 📋> 🔗 alfagok.diginaut.net
+TDD-245055 📋> ␚
+TDD-218906 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #361\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD259 result: "\ud83e\udde9 Puzzel #361\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-300 result puzzle: 361
+TDD-8 result guesses: 11
+TDD-1 result time: 31s
+TDD0 result link: alfagok.diginaut.net
+TDD238024 📆 2025-10-29 ? 
