@@ -1,0 +1,130 @@
+T166.12031706236303 now: 2025-10-30T15:08:25UTC
+TD83 site: squareword.org
+TDD-36 wordlist: nwl2023.txt
+TDD992521  ...
+TDD4867619 🧩  ? #1368
+TDD-5860024 puzzle_id: #1368
+TDD1488083 > *
+TDD4450876 try? 1
+TDD-5938922 questioning: ["dares", "#5"]
+TDD5399628 #1 _____  📋 "dares" ? _a__s 
+TDD-5399415 attempt 0 DARES n Y n n Y
+TDD3919090 #2 _____  📋 "dares" ? _____ ~ RE
+TDD-3919321 attempt 1 DARES n n m m n
+TDD4195623 #3 _____  📋 "dares" ? _____ ~ AR
+TDD-4195649 attempt 2 DARES n m m n n
+TDD3275837 #4 _____  📋 "dares" ? ___E_ ~ R
+TDD-3275825 attempt 3 DARES n n m Y n
+TDD2247274 #5 _____  📋 "dares" ? _____ ~ DES
+TDD-2247295 attempt 4 DARES m n n m m
+TDD926579 ? 
+TDD-926608 question done
+TDD12682395 > *
+TDD-10932800 try? 1
+TDD-1749564 questioning: ["sidle", "#5"]
+TDD5233433 #1 _A__S -DER  📋 "sidle" ? .
+TDD-5233401 attempt 0 SIDLE n n n n n
+TDD4649816 #2 _____ ~ER -ADS  📋 "sidle" ? _____ ~ REIL
+TDD-4649827 attempt 1 SIDLE n m n m m
+TDD1159150 #3 _____ ~AR -DES  📋 "sidle" ? .
+TDD-1159152 attempt 2 SIDLE n n n n n
+TDD4443812 #4 ___E_ ~R -ADS  📋 "sidle" ? _I_E_ ~ R
+TDD-4443814 attempt 3 SIDLE n Y n n n
+TDD3044663 #5 _____ ~DES -AR  📋 "sidle" ? S____ ~ DE
+TDD-3044670 attempt 4 SIDLE Y n m n m
+TDD335528 ? 
+TDD-335613 question done
+TDD507104 > *
+TDD2355667 try? 2
+TDD-2862681 questioning: ["spend", "#5"]
+TDD11977694 #1 _A__S -DEILRS  📋 "spend" ? _A__S ~ P
+TDD-11977680 attempt 0 SPEND n m n n n
+TDD2870013 #2 _____ ~EILR -ADS  📋 "spend" ? .
+TDD-2870023 attempt 1 SPEND n n m n n
+TDD1383654 #3 _____ ~AR -DEILS  📋 "spend" ? .
+TDD-1383642 attempt 2 SPEND n n n n n
+TDD5217881 #4 _I_E_ ~R -ADELS  📋 "spend" ? _I_E_ ~ RN
+TDD-5217898 attempt 3 SPEND n n n m n
+TDD4779943 #5 S____ ~DE -AILR  📋 "spend" ? S_E__ ~ DE
+TDD-4779927 attempt 4 SPEND Y n Y n m
+TDD859802 ? 
+TDD-859857 question done
+TDD701497 > *
+TDD-156050 questioning: ["seedy", "#5"]
+TDD9239527 #1 _A__S ~P -DEILNRS  📋 "seedy" ? .
+TDD-9784923 attempt 0 SEEDY n n n n n
+TDD4163654 #2 _____ ~EILR -ADNPS  📋 "seedy" ? _E___ ~ RIL
+TDD-4163665 attempt 1 SEEDY n Y n n n
+TDD1272251 #3 _____ ~AR -DEILNPS  📋 "seedy" ? .
+TDD-1272257 attempt 2 SEEDY n n n n n
+TDD5152687 #4 _I_E_ ~NR -ADELPS  📋 "seedy" ? .
+TDD-5152674 attempt 3 SEEDY n n n n n
+TDD1230116 #5 S_E__ ~D -AILNPR  📋 "seedy" ? /it
+TDD-1230137 attempt 4 SEEDY Y Y Y Y Y
+TDD230262 ? 
+TDD-230356 question done
+TDD461726 > *
+TDD4617007 try? 1
+TDD-5078604 questioning: ["relit", "#2"]
+TDD9928478 #1 _A__S ~P -DEILNRSY  📋 "relit" ? _A__S ~ PT
+TDD-9928502 attempt 0 RELIT n n n n m
+TDD3440113 #2 _E___ ~ILR -ADNPSY  📋 "relit" ? RELI_
+TDD-3440105 attempt 1 RELIT Y Y Y Y n
+TDD1696929 #3 _____ ~AR -DEILNPSY  📋 "relit" ? .
+TDD-1696940 attempt 2 RELIT m n n n n
+TDD1163425 #4 _I_E_ ~NR -ADELPSY  📋 "relit" ? .
+TDD-1163432 attempt 3 RELIT m n n n n
+TDD250968 ? 
+TDD-251062 question done
+TDD1461637 > *
+TDD514864 questioning: ["relic", "#2"]
+TDD4825123 #1 _A__S ~PT -DEILNRSY  📋 "relic" ? _A__S ~ PTC
+TDD-6801523 attempt 0 RELIC n n n n m
+TDD4331436 #2 RELI_ -ADNPSTY  📋 "relic" ? /it
+TDD-4331419 attempt 1 RELIC Y Y Y Y Y
+TDD981243 #3 _____ ~AR -DEILNPSTY  📋 "relic" ? .
+TDD-981239 attempt 2 RELIC m n n n n
+TDD1194203 #4 _I_E_ ~NR -ADEILPSTY  📋 "relic" ? .
+TDD-1194223 attempt 3 RELIC m n n n n
+TDD519954 ? 
+TDD-520017 question done
+TDD477433 > *
+TDD1404413 questioning: ["pacts", "#1"]
+TDD3654596 #1 _A__S ~CPT -DEILNRSY  📋 "pacts" ? /it
+TDD-5536371 attempt 0 PACTS Y Y Y Y Y
+TDD3607698 #3 _____ ~AR -CDEILNPSTY  📋 "pacts" ? .
+TDD-3607690 attempt 2 PACTS n m n n n
+TDD922902 #4 _I_E_ ~NR -ACDEILPSTY  📋 "pacts" ? .
+TDD-922923 attempt 3 PACTS n n n n n
+TDD207544 ? 
+TDD-207608 question done
+TDD498447 > *
+TDD924428 questioning: ["aroma", "#3"]
+TDD2493042 #3 _____ ~AR -CDEILNPSTY  📋 "aroma" ? /it
+TDD-3915865 attempt 2 AROMA Y Y Y Y Y
+TDD284161 #4 _I_E_ ~NR -ACDEILPSTY  📋 "aroma" ? 
+TDD4711820 #4 _I_E_ ~NR -ACDEILPSTY  ? _I_E_ ~ RNM
+TDD-4995948 attempt 3 AROMA n m n m n
+TDD379655 ? 
+TDD-379723 question done
+TDD763384 > *
+TDD166749 questioning: ["miner", "#4"]
+TDD1843447 #4 _I_E_ ~MNR -ACDEILOPSTY  📋 "miner" ? /
+TDD797998 #4 _I_E_ ~MNR -ACDEILOPSTY  📋 "miner" ? /it
+TDD-3571528 attempt 3 MINER Y Y Y Y Y
+TDD1425729 ? 
+TDD-1425804 question done
+TDD3483306 📋> squareword.org 1368: 9 guesses
+TDD-3483304 📋> 
+TDD-52 📋> 🟨🟩🟨🟨🟩
+TDD-2 📋> 🟩🟩🟩🟩🟨
+TDD-5 📋> 🟨🟨🟨🟨🟨
+TDD-1 📋> 🟨🟩🟨🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD450598 📋> #squareword #squareword1368
+TDD-74504 📋> ␚
+TDD-376045 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1368: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1368"}
+TDD457 result: "squareword.org 1368: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1368"
+TDD526186 📆 2025-10-30 ? 
