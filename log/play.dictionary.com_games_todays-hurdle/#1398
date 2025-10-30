@@ -1,0 +1,90 @@
+T366.496222069487 now: 2025-10-30T15:11:46UTC
+TD56 site: https://play.dictionary.com/games/todays-hurdle
+TDD-22 wordlist: nwl2023.txt
+TDD2200776  ...
+TDD31510845 1.1> *
+TDD-31178751 1.1 ? 2
+TDD3794192 1.1 📋 "saber" ? nYnnM
+TDD-6326893 tried: SABER n Y n n m
+TDD609673 1.2> *
+TDD398826 1.2 ? 1
+TDD4536684 1.2 📋 "ranid" ? YYMMn
+TDD-5545228 tried: RANID Y Y m m n
+TDD413118 1.3> *
+TDD3689553 1.3 📋 "rainy" ? it
+TDD-4102711 tried: RAINY Y Y Y Y Y
+TDD9042445 2.1 📋 "rainy" ? nMnnn
+TDD-9042411 tried: RAINY n m n n n
+TDD504862 2.2> *
+TDD563135 2.2 ? 1
+TDD2826775 2.2 📋 "pleas" ? nnnMn
+TDD-3894785 tried: PLEAS n n n m n
+TDD464229 2.3> *
+TDD440155 2.3 ? 1
+TDD3739309 2.3 📋 "guaco" ? nMMnM
+TDD-4643686 tried: GUACO n m m n m
+TDD543053 2.4> *
+TDD1089288 2.4 ? 2
+TDD1643568 2.4 📋 "about" ? it
+TDD-3275920 tried: ABOUT Y Y Y Y Y
+TDD7802451 3.1 📋 "about" ? Ynnnn
+TDD-7802455 tried: ABOUT Y n n n n
+TDD467932 3.2> *
+TDD1121740 3.2 ? 1
+TDD4190075 3.2 📋 "alien" ? YYYMn
+TDD-5779735 tried: ALIEN Y Y Y m n
+TDD558887 3.3> *
+TDD761400 3.3 ? 1
+TDD2094076 3.3 📋 "alive" ? it
+TDD-3414387 tried: ALIVE Y Y Y Y Y
+TDD11622857 4.1 📋 "alive" ? nnYMY
+TDD-11622840 tried: ALIVE n n Y m Y
+TDD1001261 4.2> *
+TDD326580 4.2 ? 1
+TDD8239603 4.2 📋 "voice" ? it
+TDD-9567453 tried: VOICE Y Y Y Y Y
+TDD10513298 5.1 📋 "rainy" ? nnMnn
+TDD-10513294 tried: RAINY n n m n n
+TDD1798222 5.2 📋 "about" ? nnnnM
+TDD-1798208 tried: ABOUT n n n n m
+TDD1511769 5.3 📋 "alive" ? nnMnn
+TDD-1511814 tried: ALIVE n n m n n
+TDD2872157 5.4 📋 "voice" ? nnMYn
+TDD-2872142 tried: VOICE n n m Y n
+TDD1273772 5.5> *
+TDD-105632 5.5 ? 1
+TDD4168202 5.5 📋 "ditch" ? nYYYY
+TDD-5336329 tried: DITCH n Y Y Y Y
+TDD2448858 5.6> *
+TDD533221 5.6 ? 1
+TDD280607 5.6 📋 "witch" ? nYYYY
+TDD-3262687 tried: WITCH n Y Y Y Y
+TDD2288983 5.7> /fail hitch
+TDD863800 5.7> fail hitch
+TDD-3152808 fail: HITCH
+TDD4270756 📋> Hurdle 1398
+TDD-4270791 📋> 
+TDD-52 📋> 3/6
+TDD-2 📋> ⬜🟩⬜⬜🟨
+TDD-2 📋> 🟩🟩🟨🟨⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD10 📋> ⬜🟨⬜⬜⬜
+TDD-9 📋> ⬜⬜⬜🟨⬜
+TDD0 📋> ⬜🟨🟨⬜🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> 🟩⬜⬜⬜⬜
+TDD0 📋> 🟩🟩🟩🟨⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 2/6
+TDD0 📋> ⬜⬜🟩🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final X/2
+TDD0 📋> ⬜🟩🟩🟩🟩
+TDD0 📋> ⬜🟩🟩🟩🟩
+TDD444363 📋> score: 5,280
+TDD-137118 📋> ␚
+TDD-307204 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1398\n\n3/6\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n2/6\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 5,280"}
+TDD329 result: "Hurdle 1398\n\n3/6\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n2/6\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 5,280"
+TDD326950 📆 2025-10-30 ? 
