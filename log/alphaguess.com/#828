@@ -1,0 +1,56 @@
+T115.207216123119 now: 2025-10-30T15:07:34UTC
+TD55 site: alphaguess.com
+TDD65179 loaded 196546 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (57 words excluded) asof 8133e2b74ca8e7945ec67eb827b52f133d8db468
+TDD2988039  ...
+TDD-892042 [0 : 98230 : 196546] mach? b
+TDD-2161121 progress: -1 98230 mach
+TDD1493898 [0 : 47391 : 98230] dis? b
+TDD-1493929 progress: -1 47391 dis
+TDD1569830 [0 : 23692 : 47391] camp? b
+TDD-1569824 progress: -1 23692 camp
+TDD1418968 [0 : 11769 : 23692] back? b
+TDD-1418965 progress: -1 11769 back
+TDD1316641 [0 : 5881 : 11769] angel? b
+TDD-1316627 progress: -1 5881 angel
+TDD1366229 [0 : 2802 : 5881] ag? a
+TDD-1366249 progress: 1 2802 ag
+TDD1290482 [2803 : 4335 : 5881] alma? a
+TDD-1290480 progress: 1 4335 alma
+TDD2081923 [4336 : 4624 : 5881] am? b
+TDD-2081907 progress: -1 4624 am
+TDD1811048 [4336 : 4476 : 4624] als? b
+TDD-1811062 progress: -1 4476 als
+TDD2896055 [4336 : 4407 : 4476] alone? a
+TDD-2896022 progress: 1 4407 alone
+TDD1355790 [4408 : 4432 : 4476] alphabet? a
+TDD-1355805 progress: 1 4432 alphabet
+TDD1362784 [4433 : 4452 : 4476] alphanumeric? a
+TDD-1362802 progress: 1 4452 alphanumeric
+TDD1303496 [4453 : 4462 : 4476] alpine? a
+TDD-1303498 progress: 1 4462 alpine
+TDD2014353 [4463 : 4469 : 4476] alprazolam? !
+TDD837942 [4463 : 4469 : 4475] alprazolams? !
+TDD2290799 [4463 : 4469 : 4474] alprostadil? !
+TDD-3522615 [4463 : 4469 : 4473] alprostadils? !
+TDD583497 [4463 : 4469 : 4472] alps? a
+TDD-2203977 progress: 1 4469 alps
+TDD2591731 [4470 : 4471 : 4472] alright? b
+TDD-2591698 progress: -1 4471 alright
+TDD1829808 [4470 : 4470 : 4471] already? it
+TDD-1829841 progress: 0 4470 already
+TDD-62 [4470 : 4470 : 4471] <Done>.
+TDD2547943 📋> 🧩 Puzzle #828
+TDD-2547897 📋> 
+TDD-45 📋> 🤔 16 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 38s
+TDD-2 📋> 
+TDD469301 📋> 🔗 alphaguess.com
+TDD-139480 📋> ␚
+TDD-329750 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #828\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 38s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-22 result: "\ud83e\udde9 Puzzle #828\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 38s\n\n\ud83d\udd17 alphaguess.com"
+TDD-50 result puzzle: 828
+TDD-4 result guesses: 16
+TDD-1 result time: 38s
+TDD0 result link: alphaguess.com
+TDD636829 📆 2025-10-30 ? 
