@@ -1,0 +1,42 @@
+T43.16539274714887 now: 2025-10-30T15:05:28UTC
+TD63 site: alfagok.diginaut.net
+TDD164687 loaded 399673 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1179 words excluded) asof 8133e2b74ca8e7945ec67eb827b52f133d8db468
+T78.14138735085726 now: 2025-10-30T15:06:57UTC
+TD5191654  ...
+TDD-925256 [0 : 199827 : 399673] lijm? a
+TDD-4266189 progress: 1 199827 lijm
+TDD1695003 [199828 : 299729 : 399673] schub? a
+TDD-1695114 progress: 1 299729 schub
+TDD1744063 [299730 : 349504 : 399673] vakantie? b
+TDD-1744044 progress: -1 349504 vakantie
+TDD1758352 [299730 : 324303 : 349504] sub? b
+TDD-1758390 progress: -1 324303 sub
+TDD1595115 [299730 : 311898 : 324303] spier? a
+TDD-1595100 progress: 1 311898 spier
+TDD1592484 [311899 : 314607 : 324303] st? a
+TDD-1592474 progress: 1 314607 st
+TDD1571622 [314608 : 319402 : 324303] stik? a
+TDD-1571640 progress: 1 319402 stik
+TDD1927309 [319403 : 321850 : 324303] straten? a
+TDD-1927320 progress: 1 321850 straten
+TDD2202179 [321851 : 323075 : 324303] structuralist? b
+TDD-2202155 progress: -1 323075 structuralist
+TDD1963301 [321851 : 322463 : 323075] strik? b
+TDD-1963315 progress: -1 322463 strik
+TDD1760885 [321851 : 322157 : 322463] stres? a
+TDD-1760874 progress: 1 322157 stres
+TDD1913053 [322158 : 322266 : 322463] strijd? it
+TDD-1913065 progress: 0 322266 strijd
+TDD-60 [322158 : 322266 : 322463] <Done>.
+TDD3460026 📋> 🧩 Puzzel #362
+TDD-3459969 📋> 🤔 12 gokken
+TDD-55 📋> ⏱️ 20s
+TDD365930 📋> 🔗 alfagok.diginaut.net
+TDD-51712 📋> ␚
+TDD-314146 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #362\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 20s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD151 result: "\ud83e\udde9 Puzzel #362\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 20s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-232 result puzzle: 362
+TDD-5 result guesses: 12
+TDD-1 result time: 20s
+TDD0 result link: alfagok.diginaut.net
+TDD341450 📆 2025-10-30 ? 
