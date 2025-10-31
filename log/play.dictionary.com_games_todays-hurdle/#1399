@@ -1,0 +1,98 @@
+T2139.701101416722 now: 2025-10-31T14:37:49UTC
+TD55 site: https://play.dictionary.com/games/todays-hurdle
+TDD-20 wordlist: nwl2023.txt
+TDD8163702  ...
+TDD-3324135 1.1> *
+TDD1026979 1.1 ? 1
+TDD6173300 1.1 📋 "arise" ? nMnnY
+TDD-12039684 tried: ARISE n m n n Y
+TDD565166 1.2> *
+TDD217545 1.2 ? 1
+TDD2944684 1.2 📋 "rogue" ? MnnMY
+TDD-3727477 tried: ROGUE m n n m Y
+TDD470808 1.3> *
+TDD722917 1.3 ? 1
+TDD2838974 1.3 📋 "lucre" ? nYMMY
+TDD-4032677 tried: LUCRE n Y m m Y
+TDD523482 1.4> *
+TDD3733119 1.4 📋 "curve" ? it
+TDD-4256605 tried: CURVE Y Y Y Y Y
+TDD2097610 2.1 📋 "curve" ? *
+TDD800627 2.1 ? 2
+TDD-477420 2.1 📋 "raise" ? ␚
+TDD-2420877 <EOF>
+TDD10294022 2.1 📋 "curve" ? nMnnn
+TDD-10293959 tried: CURVE n m n n n
+TDD621692 2.2> *
+TDD457344 2.2 ? 1
+TDD5413460 2.2 📋 "stupa" ? YMMnn
+TDD-6492507 tried: STUPA Y m m n n
+TDD982928 2.3> *
+TDD1086710 2.3 ? 2
+TDD1669362 2.3 📋 "shout" ? YnYYY
+TDD-3738985 tried: SHOUT Y n Y Y Y
+TDD422197 2.4> *
+TDD2197686 2.4 📋 "snout" ? it
+TDD-2619913 tried: SNOUT Y Y Y Y Y
+TDD8363425 3.1 📋 "snout" ? nMnnn
+TDD-8363406 tried: SNOUT n m n n n
+TDD486438 3.2> *
+TDD501263 3.2 ? 1
+TDD4698367 3.2 📋 "alien" ? nMYnM
+TDD-5686047 tried: ALIEN n m Y n m
+TDD638332 3.3> *
+TDD4177585 3.3 📋 "lying" ? it
+TDD-4815953 tried: LYING Y Y Y Y Y
+TDD12466239 4.1 📋 "lying" ? nnnMn
+TDD-12466213 tried: LYING n n n m n
+TDD825674 4.2> *
+TDD705642 4.2 ? 1
+TDD16035519 4.2 📋 "antes" ? nYMYn
+TDD-17566845 tried: ANTES n Y m Y n
+TDD530036 4.3> *
+TDD1579010 4.3 ? 1
+TDD3860280 4.3 📋 "unwet" ? YYnYY
+TDD-5969307 tried: UNWET Y Y n Y Y
+TDD433991 4.4> *
+TDD3032600 4.4 📋 "unmet" ? it
+TDD-3466611 tried: UNMET Y Y Y Y Y
+TDD8950482 5.1 📋 "curve" ? nnMnY
+TDD-8950463 tried: CURVE n n m n Y
+TDD1509420 5.2 📋 "snout" ? MMnnn
+TDD-1509447 tried: SNOUT m m n n n
+TDD2225459 5.3 📋 "lying" ? nnMMn
+TDD-2225439 tried: LYING n n m m n
+TDD1650509 5.4 📋 "unmet" ? nMnMn
+TDD-1650513 tried: UNMET n m n m n
+TDD752045 5.5> *
+TDD-23211 5.5 📋 "rinse" ? 1
+TDD3406900 5.5 📋 "rinse" ? it
+TDD-4135747 tried: RINSE Y Y Y Y Y
+TDD4964396 📋> Hurdle 1399
+TDD-4964445 📋> 
+TDD-60 📋> 4/6
+TDD-2 📋> ⬜🟨⬜⬜🟩
+TDD-2 📋> 🟨⬜⬜🟨🟩
+TDD-1 📋> ⬜🟩🟨🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> ⬜🟨⬜⬜⬜
+TDD0 📋> 🟩🟨🟨⬜⬜
+TDD0 📋> 🟩⬜🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD1 📋> ⬜🟨⬜⬜⬜
+TDD0 📋> ⬜🟨🟩⬜🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> ⬜⬜⬜🟨⬜
+TDD0 📋> ⬜🟩🟨🟩⬜
+TDD13 📋> 🟩🟩⬜🟩🟩
+TDD-12 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 1/2
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD192450 📋> score: 10,000
+TDD243 📋> ␚
+TDD-192657 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1399\n\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"}
+TDD337 result: "Hurdle 1399\n\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"
+TDD190903 📆 2025-10-31 ? 
