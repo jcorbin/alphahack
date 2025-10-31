@@ -1,0 +1,124 @@
+T2002.9245479982346 now: 2025-10-31T14:35:33UTC
+TD46 site: squareword.org
+TDD-14 wordlist: nwl2023.txt
+TDD3690444  ...
+TDD-1160577 🧩  ? #1369
+TDD-2529718 puzzle_id: #1369
+TDD1038530 > *
+TDD73905 try? 1
+TDD-1112400 questioning: ["resat", "#5"]
+TDD4995778 #1 _____  📋 "resat" ? _____ ~ SAT
+TDD-4995555 attempt 0 RESAT n n m m m
+TDD1534984 #2 _____  📋 "resat" ? _____
+TDD-1535255 attempt 1 RESAT n n n n n
+TDD3107900 #3 _____  📋 "resat" ? _____ ~ EAT
+TDD-3107880 attempt 2 RESAT n m n m m
+TDD2915198 #4 _____  📋 "resat" ? R____ ~ EA
+TDD-2915201 attempt 3 RESAT Y m n m n
+TDD2552195 #5 _____  📋 "resat" ? ___A_ ~ ES
+TDD-2552218 attempt 4 RESAT n m m Y n
+TDD270615 ? 
+TDD-270673 question done
+TDD431848 > *
+TDD976763 try? 1
+TDD-1408553 questioning: ["sneak", "#5"]
+TDD7556576 #1 _____ ~AST -ER  📋 "sneak" ? S___K ~ AT
+TDD-7556579 attempt 0 SNEAK Y n n m Y
+TDD2329526 #2 _____ -AERST  📋 "sneak" ? _____ ~ N
+TDD-2329526 attempt 1 SNEAK n m n n n
+TDD2736607 #3 _____ ~AET -RS  📋 "sneak" ? _____ ~ EATN
+TDD-2736597 attempt 2 SNEAK n m m m n
+TDD3573289 #4 R____ ~AE -ST  📋 "sneak" ? R____ ~ EAN
+TDD-3573296 attempt 3 SNEAK n m m m n
+TDD2182766 #5 ___A_ ~ES -RT  📋 "sneak" ? __EA_ ~ S
+TDD-2182766 attempt 4 SNEAK m n Y Y n
+TDD335965 ? 
+TDD-336032 question done
+TDD541484 > *
+TDD1557456 try? 1
+TDD-2098850 questioning: ["stalk", "#1"]
+TDD5376806 #1 S___K ~AT -ENR  📋 "stalk" ? STA_K
+TDD-5376806 attempt 0 STALK Y Y Y n Y
+TDD4127065 #2 _____ ~N -AEKRST  📋 "stalk" ? _____ ~ NL
+TDD-4127084 attempt 1 STALK n n n m n
+TDD3705072 #3 _____ ~AENT -KRS  📋 "stalk" ? _T___ ~ EAN
+TDD-3705072 attempt 2 STALK n Y m n n
+TDD2652721 #4 R____ ~AEN -KST  📋 "stalk" ? .
+TDD-2652705 attempt 3 STALK n n m n n
+TDD3685361 #5 __EA_ ~S -KNRT  📋 "stalk" ? __EA_ ~ SL
+TDD-3685393 attempt 4 STALK m n n m n
+TDD275396 ? 
+TDD-275446 question done
+TDD493365 > *
+TDD102783 questioning: ["stack", "#1"]
+TDD2688286 #1 STA_K -ELNR  📋 "stack" ? /it
+TDD-3284377 attempt 0 STACK Y Y Y Y Y
+TDD3432838 #2 _____ ~LN -AEKRST  📋 "stack" ? _____ ~ NLC
+TDD-3432810 attempt 1 STACK n n n m n
+TDD1993746 #3 _T___ ~AEN -KLRS  📋 "stack" ? .
+TDD-1993769 attempt 2 STACK n Y m n n
+TDD1335743 #4 R____ ~AEN -KLST  📋 "stack" ? .
+TDD-1335736 attempt 3 STACK n n m n n
+TDD1338225 #5 __EA_ ~LS -AKNRT  📋 "stack" ? .
+TDD-1338205 attempt 4 STACK m n n n n
+TDD174274 ? 
+TDD-174369 question done
+TDD440493 > *
+TDD478424 questioning: ["atone", "#3"]
+TDD5635934 #2 _____ ~CLN -AEKRST  📋 "atone" ? _____ ~ NLCO
+TDD-6554771 attempt 1 ATONE n n m m n
+TDD1595759 #3 _T___ ~AEN -CKLRS  📋 "atone" ? /it
+TDD-1595751 attempt 2 ATONE Y Y Y Y Y
+TDD3466275 #4 R____ ~AEN -CKLST  📋 "atone" ? R___E ~ AN
+TDD-3466260 attempt 3 ATONE m n n m Y
+TDD1406334 #5 __EA_ ~LS -ACKNRT  📋 "atone" ? .
+TDD-1406361 attempt 4 ATONE n n n n n
+TDD163269 ? 
+TDD-163333 question done
+TDD454130 > *
+TDD1441693 questioning: ["colon", "#2"]
+TDD924882 #2 _____ ~CLNO -AEKRST  📋 "colon" ? /it
+TDD-2820642 attempt 1 COLON Y Y Y Y Y
+TDD1914718 #4 R___E ~AN -CKLOST  📋 "colon" ? .
+TDD-1914734 attempt 3 COLON n n n n m
+TDD1273372 #5 __EA_ ~LS -ACEKNORT  📋 "colon" ? .
+TDD-1273364 attempt 4 COLON n n m n n
+TDD416874 ? 
+TDD-416914 question done
+TDD577139 > *
+TDD823155 questioning: ["range", "#4"]
+TDD1430663 #4 R___E ~AN -CKLOST  📋 "range" ? /it
+TDD-2830927 attempt 3 RANGE Y Y Y Y Y
+TDD1487439 #5 __EA_ ~LS -ACEKNORT  📋 "range" ? .
+TDD-1487413 attempt 4 RANGE n n n n n
+TDD190187 ? 
+TDD-190268 question done
+TDD1673767 > *
+TDD3035270 try? 2
+TDD-4708956 questioning: ["pleas", "#5"]
+TDD6337108 #5 __EA_ ~LS -ACEGKNORT  📋 "pleas" ? _LEAS
+TDD-6337109 attempt 4 PLEAS n Y Y Y Y
+TDD772122 ? 
+TDD-772200 question done
+TDD478225 > *
+TDD465491 questioning: ["fleas", "#5"]
+TDD1018018 #5 _LEAS -CGKNOPRT  📋 "fleas" ? it
+TDD-977589 #5 _LEAS -CGKNOPRT  ? 
+TDD484499 #5 _LEAS -CGKNOPRT  ? /it
+TDD-1468348 attempt 4 FLEAS Y Y Y Y Y
+TDD928699 ? 
+TDD-928998 question done
+TDD3735961 📋> squareword.org 1369: 9 guesses
+TDD-3735955 📋> 
+TDD-67 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> 🟨🟨🟨🟨🟨
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD10 📋> 🟩🟨🟨🟨🟩
+TDD-9 📋> 🟨🟨🟩🟩🟨
+TDD-2 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD270842 📋> #squareword #squareword1369
+TDD-151 📋> ␚
+TDD-270637 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1369: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1369"}
+TDD417 result: "squareword.org 1369: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1369"
+TDD305626 📆 2025-10-31 ? 
