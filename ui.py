@@ -18,7 +18,16 @@ from io import StringIO
 from types import TracebackType
 from typing import Callable, Literal, Protocol, TextIO, cast, final, override, runtime_checkable
 
-from strkit import block_lines, matcherate, PeekStr
+from strkit import block_lines, matcherate, PeekStr, reflow_block
+
+def join_word_seq(join: str, words: Sequence[str]):
+    if len(words) == 1:
+        return words[0]
+    if len(words) == 2:
+        a, b = words
+        return f'{a} {join} {b}'
+    else:
+        return f'{", ".join(words[:-1])}, {join} {words[-1]}'
 
 def retry_backoffs(
     retries: int,
@@ -177,6 +186,603 @@ class Timer:
         obs('done', end, elapsed, final or print)
 
 State = Callable[['PromptUI'], 'State|None']
+Listing = dict[str, 'Listing|State']
+
+def descend(par: Listing, name: str) -> Listing:
+    prior = par.get(name)
+    sub: Listing = (
+        {'..': par} if prior is None else
+        {'..': par, '.': prior} if callable(prior) else
+        prior)
+    par[name] = sub
+    return sub
+
+def list_entry_name(path: str, ent: State|Listing|None):
+    if ent is None:
+        return f'{path}∅'
+    if callable(ent):
+        return f'{path}'
+    return path if path.endswith('/') else f'{path}/'
+
+def match(cur: Listing, head: str):
+    if head in cur:
+        yield head
+    else:
+        pat = re.compile(r'.*'.join(re.escape(head.lower())))
+        for name in cur:
+            if pat.match(name):
+                yield name
+
+def root(par: Listing):
+    while '..' in par:
+        ent = par['..']
+        assert isinstance(ent, dict)
+        par = ent
+    return par
+
+@final
+class Handle:
+    par: Listing
+    name: str = '.'
+    may: tuple[str, ...] = ()
+    given: tuple[str, ...] = ()
+    pre_path: str = ''
+
+    _call_direct: bool = False
+
+    def __init__(
+        self,
+        par: 'Handle|Listing',
+        given: str|tuple[str, ...] = '',
+    ):
+        if isinstance(given, str):
+            given = tuple(given.split('/')) if given else ()
+
+        if isinstance(par, Handle):
+            self.par = par.par
+            self.name = par.name
+            self.pre_path = par.path
+            if par.given:
+                self.given = (*par.given, *given)
+                return
+
+        else:
+            self.par = par
+            self.pre_path = '/' if '..' not in par else ''
+
+        if given and given[0] == '':
+            self.par = root(self.par)
+            self.name = '.'
+            self.pre_path = '/'
+            given = given[1:]
+        self.given = given
+
+        while self.given:
+            part = self.given[0]
+            if not part: continue
+
+            if part == '..':
+                ent = self.par.get('..')
+                if ent is None:
+                    break
+                assert isinstance(ent, dict)
+                self.given = self.given[1:]
+                self.par = ent
+                self.name = '.'
+                self.pre_path, _, _ = self.pre_path.rpartition('/')
+                continue
+
+            may = tuple(match(self.par, part))
+            if len(may) != 1:
+                self.may = may
+                break
+            self.name = may[0]
+            self.given = self.given[1:]
+
+            ent = self.par[self.name]
+            if callable(ent):
+                break
+
+            if self.pre_path and not self.pre_path.endswith('/'):
+                self.pre_path += '/'
+            self.pre_path += self.name
+            self.par = ent
+            self.name = '.'
+
+    @override
+    def __str__(self):
+        path = self.path
+        if self.given:
+            path = ' / '.join((path, *self.given))
+        return path
+
+    @property
+    def path(self):
+        path = self.pre_path
+        if not path:
+            return ''
+        if self.name != '.':
+            if not path.endswith('/'):
+                path += '/'
+            if self.name:
+                path += self.name.lstrip('/')
+            else:
+                path += '<Undefined>'
+        return path
+
+    @property
+    def root(self):
+        return root(self.par)
+
+    def __bool__(self) -> bool:
+        if not self.name: return False
+        if len(self.may) > 1: return False
+        return self.name == '.' or self.name in self.par
+
+    @property
+    def ent(self):
+        return (
+            None if not self else
+            self.par if self.name == '.' else
+            self.par.get(self.name))
+
+    @ent.setter
+    def ent(self, val: Listing|State):
+        if self.name != '.':
+            self.par = descend(self.par, self.name)
+            self.pre_path = f'{self.pre_path}/{self.name}'
+            self.name = '.'
+
+        while self.given:
+            name = self.given[0]
+            if len(self.given) > 1:
+                self.par = descend(self.par, name)
+                self.pre_path = f'{self.pre_path}/{name}'
+                self.given = self.given[1:]
+            else:
+                self.name = name
+                self.given = ()
+
+        if callable(val):
+            self.par[self.name] = val
+
+        elif self.name == '.':
+            prior = tuple(k for k in self.par.keys() if k != '..')
+            if prior:
+                raise ValueError('cannot redefine listing')
+            self.par.update(
+                (k, v)
+                for k, v in val.items()
+                if k != '..')
+
+        else:
+            sub = {**val, '..': self.par}
+            self.par[self.name] = sub
+            self.pre_path = f'{self.pre_path}/{self.name}'
+            self.par = sub
+            self.name = '.'
+
+    @ent.deleter
+    def ent(self):
+        if self.name:
+            del self.par[self.name]
+
+    def __getitem__(self, key: str):
+        if not self:
+            raise ValueError('cannot index unresolved handle')
+        return Handle(self, key)
+
+    def __setitem__(self, key: str, val: 'Handle|Listing|State'):
+        if isinstance(val, Handle):
+            ent = val.ent
+            if ent is None:
+                raise ValueError('value is an unresovled handle')
+            val = ent
+        self[key].ent = val
+
+    def __delitem__(self, key: str):
+        del self[key].ent
+
+    def __call__(self, ui: 'PromptUI') -> 'PromptUI.State|None':
+        self._call_direct = True
+        with ui.trace_entry(lambda: f'{list_entry_name(self.path, self.ent)} call') as tr:
+            if not self or self.given:
+                return self._handle(ui, tr)
+
+            with ui.tokens_or('> ') as tokens:
+                spec = tokens.have(f'!+(.+)', lambda m: m[1])
+                if spec is not None:
+                    tr.write(f'bang {spec!r}')
+                    tokens.give(spec)
+                    return specials(ui)
+
+                return self._handle(ui, tr)
+
+    def handle(self, ui: 'PromptUI'):
+        with ui.trace_entry(lambda: f'{list_entry_name(self.path, self.ent)} handle') as tr:
+            return self._handle(ui, tr)
+
+    def _handle(self, ui: 'PromptUI', tr: 'PromptUI.Traced.Entish') -> 'PromptUI.State|None':
+        path = self.path
+        ent = self.ent
+
+        if callable(ent):
+            tr.write(f'-> {PromptUI.describe(ent)}')
+            return ent(ui)
+
+        if isinstance(ent, dict):
+            if self.given:
+                gim = ent.get('.%')
+                if callable(gim):
+                    tr.write(f'.% {self.given!r} -> {PromptUI.describe(gim)}')
+                    ui.tokens.give('/'.join(self.given))
+                    return gim(ui)
+
+            else:
+                if ui.tokens and ui.tokens.peek() != '--':
+                    sub = self[next(ui.tokens)]
+                    sub._call_direct = False
+                    return sub._handle(ui, tr)
+
+                if self._call_direct and '._' in ent:
+                    und = ent['._']
+                    if callable(und):
+                        tr.write(f'._ -> {PromptUI.describe(und)}')
+                        return und(ui)
+
+                if '.' in ent:
+                    dot = ent['.']
+                    if callable(dot):
+                        tr.write(f'. -> {PromptUI.describe(dot)}')
+                        return dot(ui)
+
+                tr.write(f'/ print_sub_help')
+                ui.write(path)
+                if not path.endswith('/'): ui.write('/')
+                ui.fin(' Commands:')
+                ui.print_sub_help(ent, path)
+                return
+
+        try:
+            tr.write(f'-> <Fin>')
+            reason = (
+                'unknown' if not self.may
+                else 'ambiguous' if len(self.may) > 1
+                else 'unimplemented')
+            mark = (
+                '/' if self.given and not path.endswith('/')
+                else '' if self.given
+                else '∅')
+            nom = (
+                '<Unknown>' if not path
+                else f'!{path[1:]}' if ui.tokens.raw.startswith('!') and path[0] == '/'
+                else f'{path}')
+            ui.write(f'{reason} command {nom}{mark}')
+            if self.given:
+                ui.write(f' {self.given[0]}')
+                tail = self.given[1:]
+                if tail:
+                    ui.write(f' / {'/'.join(tail)}')
+            if len(self.may) > 1:
+                ui.write(f'; may be: {join_word_seq('or', sorted(self.may))}')
+            elif not self.may:
+                ui.write('; possible commands:')
+                for name in sorted(self.par):
+                    if not name.startswith('.'):
+                        ui.print(f'  {name}')
+        finally:
+            ui.fin()
+
+def do_tracing(ui: 'PromptUI'):
+    '''
+    show or set ui state tracing
+    '''
+    if not ui.tokens:
+        ui.print(f'- tracing: {'on' if ui.traced else 'off'}')
+        return
+    if ui.tokens.have(r'(?ix) on | yes? | t(r(ue?)?)?'):
+        return do_tron(ui)
+    if ui.tokens.have(r'(?ix) off? | n[oaiue]? | f(a(l(se?)?)?)?'):
+        return do_troff(ui)
+
+def do_tron(ui: 'PromptUI'):
+    '''
+    turn tracing on
+    '''
+    if ui.traced:
+        ui.print('! tracing already on ; noop')
+        return
+    else:
+        raise ui.Tron
+
+def do_troff(ui: 'PromptUI'):
+    '''
+    turn tracing off
+    '''
+    if not ui.traced:
+        ui.print('! tracing already off ; noop')
+        return
+    else:
+        raise ui.Troff
+
+specials = Handle({
+    'tracing': do_tracing,
+    'tron': do_tron,
+    'troff': do_troff,
+})
+
+def test_handle():
+    @contextmanager
+    def just[T](val: T) -> Generator[T]:
+        yield val
+
+    root = Handle({})
+    assert root.name == '.'
+    assert root.path == '/'
+    assert root.may == ()
+    assert root.given == ()
+    assert root.ent == {}
+
+    with just(Handle(root)) as h:
+        assert h.name == '.'
+        assert h.path == '/'
+        assert h.may == ()
+        assert h.given == ()
+        assert h.ent == {}
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root, '') == reflow_block('''
+            >
+            / Commands:
+            >  <EOF>
+            ''')
+
+    def do_hello(ui: PromptUI):
+        '''
+        say hi!
+        '''
+        ui.print('hello world')
+    root['hello'] = do_hello
+    assert root['hello'].path == '/hello'
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root, '') == reflow_block('''
+            >
+            / Commands:
+            - /hello -- say hi!
+            >  <EOF>
+            ''')
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root, '/helo') == reflow_block('''
+            > /helo
+            hello world
+            >  <EOF>
+            ''')
+
+    def do_fb(ui: PromptUI):
+        '''
+        a classic foil
+        '''
+        with ui.tokens_or('N> ') as tokens:
+            n = tokens.have(r'\d+', then=lambda m: int(m[0]))
+            if n is None:
+                ui.print(f'! not an int')
+                return
+            try:
+                ui.write(f'{n}: ')
+                if n % 3 == 0: ui.write('fizz')
+                if n % 5 == 0: ui.write('buzz')
+            finally:
+                ui.fin()
+    root['app/fizzbuzz'] = do_fb
+    assert root['app/fizzbuzz'].path == '/app/fizzbuzz'
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root, '') == reflow_block('''
+            >
+            / Commands:
+            - /app/
+            - /hello -- say hi!
+            >  <EOF>
+            ''')
+
+    with PromptUI.TestHarness() as h:
+        ae = root['app'].ent
+        assert isinstance(ae, dict)
+        assert ae['..'] == root.ent
+        assert h.run_all(root, '/a/f 15') == reflow_block('''
+            > /a/f 15
+            15: fizzbuzz
+            >  <EOF>
+            ''')
+
+    def do_gen(ui: PromptUI):
+        ui.print('do crimes')
+    root['app/search/gen'] = do_gen
+    assert root['app/search/gen'].path == '/app/search/gen'
+
+    def do_search_stuff(ui: PromptUI):
+        ui.print(f'tokens:')
+        for n, token in enumerate(ui.tokens, 1):
+            ui.print(f'{n}. {token}')
+    root['app/search/.'] = lambda ui: ui.print(f'dot: {list(ui.tokens)!r}')
+    root['app/search/.%'] = do_search_stuff
+    root['app/search/._'] = lambda ui: ui.print(f'auto: {list(ui.tokens)!r}')
+
+    def do_greet(ui: PromptUI):
+        '''
+        say hi to <name>
+        '''
+        with ui.input('who are you? ') as tokens:
+            ui.print(f'hello {tokens.rest}')
+    root['hello/you'] = do_greet
+    assert root['hello/you'].path == '/hello/you'
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root, '') == reflow_block('''
+            >
+            / Commands:
+            - /app/
+            - /hello/
+            >  <EOF>
+            ''')
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root, '/helo') == reflow_block('''
+            > /helo
+            hello world
+            >  <EOF>
+            ''')
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root, '/he/you', 'bob') == reflow_block('''
+            > /he/you
+            who are you? bob
+            hello bob
+            >  <EOF>
+            ''')
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root, '/app/search/bob/lob/law yada yoda') == reflow_block('''
+            > /app/search/bob/lob/law yada yoda
+            tokens:
+            1. bob/lob/law
+            2. yada
+            3. yoda
+            >  <EOF>
+            ''')
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root, '/app/search') == reflow_block('''
+            > /app/search
+            dot: []
+            >  <EOF>
+            ''')
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root['/app/search'], '') == reflow_block('''
+            >
+            auto: []
+            >  <EOF>
+            ''')
+
+    assert root['app/review/..'].path == '/app'
+    assert root['app/review']['..'].path == '/app'
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root, '/xx') == reflow_block('''
+            > /xx
+            unknown command / xx; possible commands:
+              app
+              hello
+            >  <EOF>
+            ''')
+
+    root['app/review/.'] = lambda ui: ui.print('do some review')
+    root['app/review/log'] = {
+        '.': lambda ui: ui.print('show log'),
+        'last': lambda ui: ui.print('last log'),
+        'find': lambda ui: ui.print('find log'),
+    }
+    root['app/report'] = lambda ui: ui.print('boring')
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root, '/app/re') == reflow_block('''
+            > /app/re
+            ambiguous command /app/ re; may be: report or review
+            >  <EOF>
+            ''')
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root, 'app/rep') == reflow_block('''
+            > app/rep
+            boring
+            >  <EOF>
+            ''')
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root['app/review'], 'nonesuch') == reflow_block('''
+            > nonesuch
+            unknown command /app/review/ nonesuch; possible commands:
+              log
+            >  <EOF>
+            ''')
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root['app/review'], '../rep') == reflow_block('''
+            > ../rep
+            boring
+            >  <EOF>
+            ''')
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root, '../rep') == reflow_block('''
+            > ../rep
+            unknown command / .. / rep; possible commands:
+              app
+              hello
+            >  <EOF>
+            ''')
+
+    del root['app/report']
+
+    with PromptUI.TestHarness() as h:
+        assert h.run_all(root, 'app/rep') == reflow_block('''
+            > app/rep
+            unknown command /app/ rep; possible commands:
+              fizzbuzz
+              review
+              search
+            >  <EOF>
+            ''')
+
+    def symbolize(s: str):
+        sym: dict[str, str] = {}
+        def make_sym(m: re.Match[str]) -> str:
+            key = m[1]
+            if key not in sym:
+                sym[key] = f'sym_{len(sym)}'
+            return sym[key]
+        return re.sub(r'0x([0-9a-fA-F]+)', make_sym, s)
+
+    with PromptUI.TestHarness() as h:
+        assert symbolize(h.run_all(root,
+            '!invalid',
+            '!tracing',
+            '!trac on',
+            '!tron',
+            '!troff',
+            '!trac off',
+        )) == reflow_block('''
+            > !invalid
+            unknown command ! invalid; possible commands:
+              tracing
+              troff
+              tron
+            > !tracing
+            - tracing: off
+            > !trac on
+            🔺 <TRON> -> /
+            🔺 /
+            🔺 / call> !tron
+            🔺 bang 'tron'
+            🔺 / call -> do_tron
+            ! tracing already on ; noop
+            🔺 -> <AGAIN>
+            🔺 /
+            🔺 / call> !troff
+            🔺 bang 'troff'
+            🔺 / call -> do_troff
+            🔺 <!- Next <TROFF> -> /
+            > !trac off
+            ! tracing already off ; noop
+            >  <EOF>
+            ''')
+
+    # TODO currently no easy way to provoke
+    # - "unimplemented command" branch
+    # - "∅" not-given branch
 
 @final
 class Next(BaseException):
@@ -946,24 +1552,57 @@ class PromptUI:
         self.sink(mess + '\n')
 
     def print_help(self,
-                   ent: State,
+                   ent: State|Listing,
                    name: str|None='',
                    short: bool=True,
                    mark: str = '-',
                    indent: str = '  ',
+                   show_hidden: bool=False,
                    sep: str = ' -- '):
         try:
             if mark:
                 self.write(f'{mark} ')
             if name:
                 self.write(name)
-                if not name.endswith('/'):
+            if callable(ent):
+                if name == '':
+                    self.write(ent.__name__)
+                _ = self.print_block(ent.__doc__ or '', short=short, first=sep, rest=indent)
+            else:
+                if name and not name.endswith('/'):
                     self.write('/')
-            if name == '':
-                self.write(ent.__name__)
-            _ = self.print_block(ent.__doc__ or '', short=short, first=sep, rest=indent)
+                if not short:
+                    self.print_sub_help(
+                        ent,
+                        name or '<Unknown>',
+                        short=True,
+                        mark=f'{indent}{mark}',
+                        indent=f'{indent}{' '*len(mark)} ',
+                        show_hidden=show_hidden,
+                        sep=sep)
         finally:
             self.fin()
+
+    def print_sub_help(self,
+                       ent: Listing,
+                       path: str,
+                       short: bool=True,
+                       show_hidden: bool=False,
+                       mark: str = '-',
+                       indent: str = '  ',
+                       sep: str = ' -- '):
+        if not path.endswith('/'):
+            path = f'{path}/'
+        for sub in sorted(ent):
+            if sub.startswith('.') and not show_hidden: continue
+            self.fin()
+            self.print_help(
+                ent[sub],
+                name=f'{path}{sub}',
+                short=short,
+                mark=mark,
+                indent=indent,
+                sep=sep)
 
     def print_block(self, mess: str,
                     short: bool=False,
