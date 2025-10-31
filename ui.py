@@ -177,6 +177,7 @@ class Timer:
         obs('done', end, elapsed, final or print)
 
 State = Callable[['PromptUI'], 'State|None']
+Listing = dict[str, 'Listing|State']
 
 @final
 class Next(BaseException):
@@ -935,24 +936,57 @@ class PromptUI:
         self.sink(mess + '\n')
 
     def print_help(self,
-                   ent: State,
+                   ent: State|Listing,
                    name: str|None='',
                    short: bool=True,
                    mark: str = '-',
                    indent: str = '  ',
+                   show_hidden: bool=False,
                    sep: str = ' -- '):
         try:
             if mark:
                 self.write(f'{mark} ')
             if name:
                 self.write(name)
-                if not name.endswith('/'):
+            if callable(ent):
+                if name == '':
+                    self.write(ent.__name__)
+                _ = self.print_block(ent.__doc__ or '', short=short, first=sep, rest=indent)
+            else:
+                if name and not name.endswith('/'):
                     self.write('/')
-            if name == '':
-                self.write(ent.__name__)
-            _ = self.print_block(ent.__doc__ or '', short=short, first=sep, rest=indent)
+                if not short:
+                    self.print_sub_help(
+                        ent,
+                        name or '<Unknown>',
+                        short=True,
+                        mark=f'{indent}{mark}',
+                        indent=f'{indent}{' '*len(mark)} ',
+                        show_hidden=show_hidden,
+                        sep=sep)
         finally:
             self.fin()
+
+    def print_sub_help(self,
+                       ent: Listing,
+                       path: str,
+                       short: bool=True,
+                       show_hidden: bool=False,
+                       mark: str = '-',
+                       indent: str = '  ',
+                       sep: str = ' -- '):
+        if not path.endswith('/'):
+            path = f'{path}/'
+        for sub in sorted(ent):
+            if sub.startswith('.') and not show_hidden: continue
+            self.fin()
+            self.print_help(
+                ent[sub],
+                name=f'{path}{sub}',
+                short=short,
+                mark=mark,
+                indent=indent,
+                sep=sep)
 
     def print_block(self, mess: str,
                     short: bool=False,
