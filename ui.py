@@ -846,7 +846,9 @@ class PromptUI:
             if mark:
                 self.write(f'{mark} ')
             if name:
-                self.write(f'{name}')
+                self.write(name)
+                if not name.endswith('/'):
+                    self.write('/')
             if name == '':
                 self.write(ent.__name__)
             _ = self.print_block(ent.__doc__ or '', short=short, first=sep, rest=indent)
