@@ -384,6 +384,8 @@ class Handle:
             else:
                 if ui.tokens and ui.tokens.peek() != '--':
                     return self[next(ui.tokens)](ui)
+                # TODO call ._ when invoked directly if defined
+                # TODO vs "called as terminal" should skip ._
                 if '.' in ent:
                     dot = ent['.']
                     if callable(dot):
