@@ -1,67 +1,19 @@
-# 2025-11-01
+# 2025-11-02
 
-- 🔗 spaceword.org 🧩 2025-10-31 🏁 score 2173 ranked 3.5% 13/368 ⏱️ 0:31:30.702471
-- 🔗 alfagok.diginaut.net 🧩 #364 🥳 8 ⏱️ 0:00:31.293179
-- 🔗 alphaguess.com 🧩 #830 🥳 16 ⏱️ 0:00:33.958172
-- 🔗 squareword.org 🧩 #1370 🥳 8 ⏱️ 0:01:59.943606
-- 🔗 dictionary.com hurdle 🧩 #1400 🥳 17 ⏱️ 0:05:46.630869
-- 🔗 dontwordle.com 🧩 #1257 🥳 6 ⏱️ 0:02:24.508046
-- 🔗 cemantle.certitudes.org 🧩 #1307 🥳 375 ⏱️ 0:12:24.313852
-- 🔗 cemantix.certitudes.org 🧩 #1340 🥳 279 ⏱️ 0:15:27.426289
+- 🔗 spaceword.org 🧩 2025-11-01 🏁 score 2173 ranked 6.6% 24/362 ⏱️ 1:04:43.367685
+- 🔗 alfagok.diginaut.net 🧩 #365 🥳 13 ⏱️ 0:00:33.417467
+- 🔗 alphaguess.com 🧩 #831 🥳 17 ⏱️ 0:00:41.020275
+- 🔗 squareword.org 🧩 #1371 🥳 7 ⏱️ 0:01:45.001795
+- 🔗 dictionary.com hurdle 🧩 #1400 🥳 18 ⏱️ 0:03:48.162326
+- 🔗 dontwordle.com 🧩 #1258 🤷 6 ⏱️ 0:01:55.742302
+- 🔗 cemantle.certitudes.org 🧩 #1308 🥳 239 ⏱️ 0:09:26.735040
+- 🔗 cemantix.certitudes.org 🧩 #1341 🥳 162 ⏱️ 0:05:13.203714
 
 # Dev
 
 ## WIP
 
 ui: Shell / Handle revolution
-
-### TODO debug
-
-```
-/meta/solvers> ../sh
-Traceback (most recent call last):
-  File "/home/jcorbin/alphaguess/./meta.py", line 1453, in <module>
-    Meta.main()
-    ~~~~~~~~~^^
-  File "/home/jcorbin/alphaguess/ui.py", line 1968, in main
-    return ui.run(self)
-           ~~~~~~^^^^^^
-  File "/home/jcorbin/alphaguess/ui.py", line 1949, in run
-    self.interact(state)
-    ~~~~~~~~~~~~~^^^^^^^
-  File "/home/jcorbin/alphaguess/ui.py", line 1836, in interact
-    self.call_state(state)
-    ~~~~~~~~~~~~~~~^^^^^^^
-  File "/home/jcorbin/alphaguess/ui.py", line 1887, in call_state
-    nxt = state(self)
-  File "/home/jcorbin/alphaguess/./meta.py", line 506, in __call__
-    ui.run(super().__call__)
-    ~~~~~~^^^^^^^^^^^^^^^^^^
-  File "/home/jcorbin/alphaguess/ui.py", line 1949, in run
-    self.interact(state)
-    ~~~~~~~~~~~~~^^^^^^^
-  File "/home/jcorbin/alphaguess/ui.py", line 1836, in interact
-    self.call_state(state)
-    ~~~~~~~~~~~~~~~^^^^^^^
-  File "/home/jcorbin/alphaguess/ui.py", line 1887, in call_state
-    nxt = state(self)
-  File "/home/jcorbin/alphaguess/ui.py", line 1989, in __call__
-    return self.shell(ui)
-           ~~~~~~~~~~^^^^
-  File "/home/jcorbin/alphaguess/ui.py", line 1224, in __call__
-    hndl = self.resolve(next(tokens, None))
-  File "/home/jcorbin/alphaguess/ui.py", line 1209, in resolve
-    for h in self.search(cmd):
-             ~~~~~~~~~~~^^^^^
-  File "/home/jcorbin/alphaguess/ui.py", line 1205, in search
-    yield self.root[cmd]
-          ~~~~~~~~~^^^^^
-  File "/home/jcorbin/alphaguess/ui.py", line 358, in __getitem__
-    return Handle(self, key)
-  File "/home/jcorbin/alphaguess/ui.py", line 259, in __init__
-    raise KeyError(f'{self.path}/..')
-KeyError: '//..'
-```
 
 ## TODO
 
@@ -283,187 +235,194 @@ KeyError: '//..'
 
 
 
-# spaceword.org 🧩 2025-10-31 🏁 score 2173 ranked 3.5% 13/368 ⏱️ 0:31:30.702471
 
-📜 6 sessions
+# spaceword.org 🧩 2025-11-01 🏁 score 2173 ranked 6.6% 24/362 ⏱️ 1:04:43.367685
+
+📜 5 sessions
 - tiles: 21/21
 - score: 2173 bonus: +73
-- rank: 13/368
+- rank: 24/362
 
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
-      _ R _ J O _ P _ L A   
-      _ E Q U I N E _ E W   
-      _ _ _ G L E E M E N   
+      _ O E _ S E I Z E D   
+      _ A M O K _ _ _ L A   
+      _ F _ H I J R A S _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
 
 
-# alfagok.diginaut.net 🧩 #364 🥳 8 ⏱️ 0:00:31.293179
+# alfagok.diginaut.net 🧩 #365 🥳 13 ⏱️ 0:00:33.417467
 
-🤔 8 attempts
+🤔 13 attempts
 📜 1 sessions
 
     @        [     0] &-teken   
     @+1      [     1] &-tekens  
     @+2      [     2] -cijferig 
     @+3      [     3] -e-mail   
-    @+199827 [199827] lijm      q0 ? after
-    @+247725 [247725] op        q2 ? after
-    @+250914 [250914] oproep    q6 ? after
-    @+252517 [252517] oranje    q7 ? it
-    @+252517 [252517] oranje    done. it
-    @+254130 [254130] out       q5 ? before
-    @+260612 [260612] pater     q4 ? before
-    @+273531 [273531] proef     q3 ? before
-    @+299729 [299729] schub     q1 ? before
+    @+199827 [199827] lijm      q0  ? after
+    @+299729 [299729] schub     q1  ? after
+    @+311898 [311898] spier     q4  ? after
+    @+313253 [313253] sport     q6  ? after
+    @+313923 [313923] spreek    q7  ? after
+    @+314233 [314233] sprint    q8  ? after
+    @+314309 [314309] sprokkel  q10 ? after
+    @+314330 [314330] sprong    q12 ? it
+    @+314330 [314330] sprong    done. it
+    @+314348 [314348] sprookjes q11 ? before
+    @+314415 [314415] spui      q9  ? before
+    @+314607 [314607] st        q5  ? before
+    @+324303 [324303] sub       q3  ? before
+    @+349504 [349504] vakantie  q2  ? before
 
-# alphaguess.com 🧩 #830 🥳 16 ⏱️ 0:00:33.958172
+# alphaguess.com 🧩 #831 🥳 17 ⏱️ 0:00:41.020275
 
-🤔 16 attempts
+🤔 17 attempts
 📜 1 sessions
 
-    @        [     0] aa          
-    @+1      [     1] aah         
-    @+2      [     2] aahed       
-    @+3      [     3] aahing      
-    @+98226  [ 98226] mach        q0  ? after
-    @+147331 [147331] rho         q1  ? after
-    @+159613 [159613] slug        q3  ? after
-    @+165767 [165767] stint       q4  ? after
-    @+167291 [167291] sub         q6  ? after
-    @+168032 [168032] subs        q7  ? after
-    @+168054 [168054] subscript   q12 ? after
-    @+168068 [168068] subsegments q13 ? after
-    @+168075 [168075] subsequence q14 ? after
-    @+168077 [168077] subsequent  q15 ? it
-    @+168077 [168077] subsequent  done. it
-    @+168081 [168081] subseres    q11 ? before
-    @+168130 [168130] subsist     q10 ? before
-    @+168227 [168227] substratums q9  ? before
-    @+168421 [168421] subway      q8  ? before
-    @+168817 [168817] sulfur      q5  ? before
-    @+171931 [171931] tag         q2  ? before
+    @       [    0] aa        
+    @+1     [    1] aah       
+    @+2     [    2] aahed     
+    @+3     [    3] aahing    
+    @+47387 [47387] dis       q1  ? after
+    @+49434 [49434] do        q5  ? after
+    @+49602 [49602] dog       q9  ? after
+    @+49726 [49726] dogsled   q10 ? after
+    @+49739 [49739] dogtrot   q13 ? after
+    @+49749 [49749] dogy      q14 ? after
+    @+49754 [49754] doilies   q15 ? after
+    @+49756 [49756] doing     q16 ? it
+    @+49756 [49756] doing     done. it
+    @+49758 [49758] doit      q12 ? before
+    @+49787 [49787] dollar    q11 ? before
+    @+49855 [49855] dom       q8  ? before
+    @+50411 [50411] dove      q7  ? before
+    @+51408 [51408] drunk     q6  ? before
+    @+53403 [53403] el        q4  ? before
+    @+60090 [60090] face      q3  ? before
+    @+72807 [72807] gremolata q2  ? before
+    @+98226 [98226] mach      q0  ? before
 
-# squareword.org 🧩 #1370 🥳 8 ⏱️ 0:01:59.943606
+# squareword.org 🧩 #1371 🥳 7 ⏱️ 0:01:45.001795
 
 📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
+    🟨 🟩 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
-    🟨 🟩 🟨 🟨 🟩
+    🟨 🟩 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟨 🟨 🟩
-    🟨 🟨 🟨 🟨 🟨
+    🟩 🟩 🟩 🟩 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    A L B U M
-    B O R N E
-    A C I D S
-    T U N E S
-    E M E R Y
+    T A M E S
+    O V E R T
+    M I T R E
+    B A R O N
+    S N O R T
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1400 🥳 17 ⏱️ 0:05:46.630869
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1400 🥳 18 ⏱️ 0:03:48.162326
 
 📜 1 sessions
-💰 score: 9900
+💰 score: 9800
 
-    4/6
-    MARSE ⬜🟨🟨🟩🟩
-    PRASE ⬜🟩🟨🟩🟩
-    ARISE 🟩🟩⬜🟩🟩
+    2/6
+    TOEAS ⬜🟨🟨🟨🟨
     AROSE 🟩🟩🟩🟩🟩
     4/6
     AROSE ⬜🟨⬜⬜🟨
-    RILEY 🟨⬜⬜🟩⬜
-    TUNER ⬜⬜🟨🟩🟩
+    INTER ⬜🟨⬜🟩🟩
+    NEVER 🟩🟩⬜🟩🟩
     NEWER 🟩🟩🟩🟩🟩
     5/6
     NEWER ⬜⬜⬜⬜⬜
-    LOAMY 🟨⬜⬜⬜⬜
-    BUILT ⬜⬜🟩🟨⬜
-    CLIPS 🟩🟩🟩⬜⬜
+    LOTAS 🟨⬜⬜⬜⬜
+    GULPY ⬜⬜🟨⬜⬜
+    FLICK ⬜🟩🟩🟩🟩
     CLICK 🟩🟩🟩🟩🟩
-    3/6
+    5/6
     CLICK ⬜⬜🟨⬜⬜
-    RINSE 🟨🟨⬜🟨🟨
+    NITRE ⬜🟨⬜🟨🟨
+    DEAIR ⬜🟩⬜🟩🟨
+    REMIX 🟨🟩⬜🟩⬜
     SERIF 🟩🟩🟩🟩🟩
-    Final 1/2
+    Final 2/2
+    GUIDE ⬜🟩🟩⬜🟩
     QUITE 🟩🟩🟩🟩🟩
 
-# dontwordle.com 🧩 #1257 🥳 6 ⏱️ 0:02:24.508046
+# dontwordle.com 🧩 #1258 🤷 6 ⏱️ 0:01:55.742302
 
 📜 1 sessions
-💰 score: 14
+💰 score: 0
 
-SURVIVED
-> Hooray! I didn't Wordle today!
+ELIMINATED
+> Well technically I didn't Wordle!
 
-    ⬜⬜⬜⬜⬜ tried:WANNA n n n n n remain:5495
-    ⬜⬜⬜⬜⬜ tried:JUJUS n n n n n remain:1953
-    ⬜⬜⬜⬜⬜ tried:CHOCK n n n n n remain:622
-    ⬜⬜⬜🟨⬜ tried:PYGMY n n n m n remain:62
-    🟨🟩⬜⬜⬜ tried:MELEE m Y n n n remain:5
-    ⬜🟩🟩🟩⬜ tried:BEMIX n Y Y Y n remain:2
+    ⬜⬜⬜⬜⬜ tried:KIBBI n n n n n remain:7266
+    ⬜⬜⬜⬜⬜ tried:TENET n n n n n remain:2001
+    ⬜⬜⬜⬜⬜ tried:DADAS n n n n n remain:258
+    ⬜⬜⬜⬜⬜ tried:LOWLY n n n n n remain:11
+    ⬜🟨⬜⬜⬜ tried:HUMPH n m n n n remain:1
+    ⬛⬛⬛⬛⬛ tried:GRUFF Y Y Y Y Y remain:0
 
-    Undos used: 2
+    Undos used: 5
 
-      2 words remaining
-    x 7 unused letters
-    = 14 total score
+      0 words remaining
+    x 0 unused letters
+    = 0 total score
 
-# cemantle.certitudes.org 🧩 #1307 🥳 375 ⏱️ 0:12:24.313852
+# cemantle.certitudes.org 🧩 #1308 🥳 239 ⏱️ 0:09:26.735040
 
-🤔 376 attempts
+🤔 240 attempts
 📜 1 sessions
 🫧 12 chat sessions
-⁉️ 74 chat prompts
-🤖 23 llama3.2:latest replies
-🤖 51 gemma3:latest replies
-😱   1 🔥   2 🥵   8 😎  40 🥶 312 🧊  12
+⁉️ 80 chat prompts
+🤖 20 llama3.2:latest replies
+🤖 60 gemma3:latest replies
+😱   1 🔥   4 🥵  29 😎  41 🥶 158 🧊   6
 
-      $1 #376   ~1 machinery      100.00°C 🥳 1000‰
-      $2 #373   ~3 equipment       59.41°C 😱  999‰
-      $3 #276  ~24 machine         52.61°C 🔥  998‰
-      $4 #184  ~38 metalworking    45.39°C 🔥  994‰
-      $5 #109  ~42 welding         40.08°C 🥵  985‰
-      $6 #274  ~25 hydraulic       39.43°C 🥵  981‰
-      $7 #259  ~28 lathe           38.45°C 🥵  977‰
-      $8  #64  ~51 steel           37.78°C 🥵  972‰
-      $9  #87  ~47 grinding        36.62°C 🥵  960‰
-     $10 #352   ~8 sander          33.64°C 🥵  929‰
-     $11 #252  ~29 grinder         32.62°C 🥵  912‰
-     $13  #93  ~45 metallurgy      31.52°C 😎  892‰
-     $53 #343      moulder         22.47°C 🥶
-    $365 #339      fitting         -0.26°C 🧊
+      $1 #240   ~1 burning        100.00°C 🥳 1000‰
+      $2  #54  ~57 burn            75.92°C 😱  999‰
+      $3 #208  ~16 smoldering      59.63°C 🔥  996‰
+      $4 #198  ~23 fire            50.56°C 🔥  993‰
+      $5 #214  ~13 flammable       47.91°C 🔥  991‰
+      $6 #114  ~34 blackened       47.06°C 🔥  990‰
+      $7  #46  ~63 smolder         46.65°C 🥵  989‰
+      $8 #201  ~21 blazing         46.57°C 🥵  988‰
+      $9  #99  ~44 scorched        45.37°C 🥵  986‰
+     $10  #38  ~66 inferno         45.15°C 🥵  984‰
+     $11  #89  ~49 smoke           43.82°C 🥵  981‰
+     $36 #236   ~3 vaporization    32.64°C 😎  895‰
+     $77 #153      flint           21.32°C 🥶
+    $235 #128      gloom           -0.14°C 🧊
 
-# cemantix.certitudes.org 🧩 #1340 🥳 279 ⏱️ 0:15:27.426289
+# cemantix.certitudes.org 🧩 #1341 🥳 162 ⏱️ 0:05:13.203714
 
-🤔 280 attempts
+🤔 163 attempts
 📜 1 sessions
-🫧 13 chat sessions
-⁉️ 85 chat prompts
-🤖 24 llama3.2:latest replies
-🤖 61 gemma3:latest replies
-🔥   4 🥵  22 😎  89 🥶 138 🧊  26
+🫧 6 chat sessions
+⁉️ 35 chat prompts
+🤖 35 gemma3:latest replies
+🔥  3 🥵 14 😎 38 🥶 80 🧊 27
 
-      $1 #280   ~1 autonomie          100.00°C 🥳 1000‰
-      $2  #76 ~103 capacité            53.38°C 🔥  997‰
-      $3  #97  ~93 compétence          48.17°C 🔥  996‰
-      $4 #254  ~14 autonomisation      45.71°C 🔥  992‰
-      $5 #180  ~51 polyvalence         44.92°C 🔥  990‰
-      $6 #266   ~7 responsabilité      44.88°C 🥵  989‰
-      $7 #236  ~25 individuel          44.16°C 🥵  987‰
-      $8 #179  ~52 adaptabilité        43.95°C 🥵  986‰
-      $9  #38 ~116 épanouissement      41.30°C 🥵  978‰
-     $10 #146  ~71 objectif            40.66°C 🥵  973‰
-     $11 #278   ~3 organisation        40.58°C 🥵  971‰
-     $28 #197  ~39 logique             35.48°C 😎  897‰
-    $117  #27      fluidité            23.12°C 🥶
-    $255 #239      ligne               -0.82°C 🧊
+      $1 #163   ~1 vérification      100.00°C 🥳 1000‰
+      $2 #143  ~14 contrôle           63.71°C 🔥  998‰
+      $3 #135  ~21 conformité         56.12°C 🔥  996‰
+      $4 #132  ~24 validation         54.69°C 🔥  994‰
+      $5 #151   ~9 justification      42.23°C 🥵  970‰
+      $6 #150  ~10 examen             41.30°C 🥵  963‰
+      $7 #141  ~16 audit              40.97°C 🥵  958‰
+      $8 #109  ~41 donnée             40.25°C 🥵  955‰
+      $9 #106  ~42 application        39.71°C 🥵  952‰
+     $10 #145  ~12 correction         39.61°C 🥵  950‰
+     $11 #140  ~17 évaluation         39.12°C 🥵  938‰
+     $19 #131  ~25 traitement         36.61°C 😎  897‰
+     $57  #85      référence          24.22°C 🥶
+    $137  #42      ruban              -1.23°C 🧊
