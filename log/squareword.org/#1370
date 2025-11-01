@@ -1,0 +1,115 @@
+T153.4416868072003 now: 2025-11-01T14:18:43UTC
+TD52 site: squareword.org
+TDD-11 wordlist: nwl2023.txt
+TDD2794412  ...
+TDD-602624 🧩  ? #1370
+TDD-2191646 puzzle_id: #1370
+TDD1116488 > *
+TDD1443475 try? 2
+TDD-2559965 questioning: ["arise", "#5"]
+TDD4780030 #1 _____  📋 "arise" ? A____ 
+TDD-4779828 attempt 0 ARISE Y n n n n
+TDD2246674 #2 _____  📋 "arise" ? ____E ~ R
+TDD-2246882 attempt 1 ARISE n m n n Y
+TDD3478420 #3 _____  📋 "arise" ? A_I__ ~ S
+TDD-3478427 attempt 2 ARISE Y n Y m n
+TDD2901841 #4 _____  📋 "arise" ? _____ ~ SE
+TDD-2901820 attempt 3 ARISE n n n m m
+TDD1838611 #5 _____  📋 "arise" ? _____ ~ RE
+TDD-1838691 attempt 4 ARISE n m n n m
+TDD276352 ? 
+TDD-276396 question done
+TDD705882 > *
+TDD785853 try? 1
+TDD-1491645 questioning: ["adios", "#3"]
+TDD5684255 #1 A____ -EIRS  📋 "adios" ? .
+TDD-5684226 attempt 0 ADIOS Y n n n n
+TDD4382485 #2 ____E ~R -AIS  📋 "adios" ? ____E ~ RO
+TDD-4382500 attempt 1 ADIOS n n n m n
+TDD4364105 #3 A_I__ ~S -ER  📋 "adios" ? A_I_S ~ D
+TDD-4364081 attempt 2 ADIOS Y m Y n Y
+TDD3373784 #4 _____ ~ES -AIR  📋 "adios" ? ____S ~ E
+TDD-3373825 attempt 3 ADIOS n n n n Y
+TDD1298216 #5 _____ ~ER -AIS  📋 "adios" ? .
+TDD-1298188 attempt 4 ADIOS n n n n n
+TDD163427 ? 
+TDD-163555 question done
+TDD432362 > *
+TDD1459902 try? 1
+TDD-1892149 questioning: ["acids", "#3"]
+TDD3492869 #1 A____ -DEIORS  📋 "acids" ? .
+TDD-3492867 attempt 0 ACIDS Y n n n n
+TDD1198826 #2 ____E ~OR -ADIS  📋 "acids" ? .
+TDD-1198861 attempt 1 ACIDS n n n n n
+TDD718256 #3 A_I_S ~D -EOR  📋 "acids" ? /it
+TDD-718217 attempt 2 ACIDS Y Y Y Y Y
+TDD1177848 #4 ____S ~E -ADIOR  📋 "acids" ? .
+TDD-1177892 attempt 3 ACIDS n n n n Y
+TDD763156 #5 _____ ~ER -ADIOS  📋 "acids" ? .
+TDD-763125 attempt 4 ACIDS n n n n n
+TDD315772 ? 
+TDD-315831 question done
+TDD506297 > *
+TDD1556124 try? 1
+TDD-2062357 questioning: ["rogue", "#2"]
+TDD4270095 #1 A____ -CDEIORS  📋 "rogue" ? A__U_
+TDD-4270099 attempt 0 ROGUE n n n Y n
+TDD2294823 #2 ____E ~OR -ACDIS  📋 "rogue" ? _O__E ~ R
+TDD-2294821 attempt 1 ROGUE m Y n n Y
+TDD218567 #4 ____S ~E -ACDIOR  📋 "rogue" ? 
+TDD5558631 #4 ____S ~E -ACDIOR  ? ____S ~ EU
+TDD-5777207 attempt 3 ROGUE n n n m m
+TDD1201546 #5 _____ ~ER -ACDIOS  📋 "rogue" ? .
+TDD-1201535 attempt 4 ROGUE m n n n m
+TDD232417 ? 
+TDD-232503 question done
+TDD567258 > *
+TDD137426 questioning: ["album", "#1"]
+TDD4558193 #1 A__U_ -CDEGIORS  📋 "album" ? /it
+TDD-5262792 attempt 0 ALBUM Y Y Y Y Y
+TDD3380305 #2 _O__E ~R -ACDGISU  📋 "album" ? _O__E ~ RB
+TDD-3380309 attempt 1 ALBUM n n m n n
+TDD1614964 #4 ____S ~EU -ACDGIOR  📋 "album" ? .
+TDD-1614955 attempt 3 ALBUM n n n m n
+TDD2131881 #5 _____ ~ER -ACDGIOSU  📋 "album" ? _____ ~ REM
+TDD-2131907 attempt 4 ALBUM n n n n m
+TDD178640 ? 
+TDD-178711 question done
+TDD456819 > *
+TDD1308147 questioning: ["borne", "#2"]
+TDD1043184 #2 _O__E ~BR -ACDGILMSU  📋 "borne" ? /it
+TDD-2808081 attempt 1 BORNE Y Y Y Y Y
+TDD3344418 #4 ____S ~EU -ABCDGILMOR  📋 "borne" ? ____S ~ EUN
+TDD-3344406 attempt 3 BORNE n n n m m
+TDD1556135 #5 _____ ~EMR -ABCDGILOSU  📋 "borne" ? .
+TDD-1556115 attempt 4 BORNE n n m n m
+TDD180233 ? 
+TDD-180359 question done
+TDD531068 > *
+TDD834589 questioning: ["tunes", "#4"]
+TDD2078931 #4 ____S ~ENU -ABCDGILMOR  📋 "tunes" ? /it
+TDD-3444490 attempt 3 TUNES Y Y Y Y Y
+TDD2010778 #5 _____ ~EMR -ABCDGILNOSU  📋 "tunes" ? .
+TDD-2010766 attempt 4 TUNES n n n m n
+TDD672421 ? 
+TDD-672480 question done
+TDD2476196 > *
+TDD-1556341 questioning: ["emery", "#5"]
+TDD3056771 #5 _____ ~EMR -ABCDGILNOSTU  📋 "emery" ? /it
+TDD-3976584 attempt 4 EMERY Y Y Y Y Y
+TDD1183243 ? 
+TDD-1183256 question done
+TDD6442512 📋> squareword.org 1370: 8 guesses
+TDD-6442577 📋> 
+TDD-46 📋> 🟩🟩🟩🟩🟩
+TDD-3 📋> 🟨🟩🟨🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-4 📋> 🟨🟨🟨🟨🟩
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD4 📋> 
+TDD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD315033 📋> #squareword #squareword1370
+TDD-84708 📋> ␚
+TDD-230278 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1370: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1370"}
+TDD1948 result: "squareword.org 1370: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1370"
+TDD202502 📆 2025-11-01 ? 
