@@ -1,0 +1,52 @@
+T117.84978865459561 now: 2025-11-01T14:18:07UTC
+TD56 site: alphaguess.com
+TDD63325 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof 4985e1b0e2beba792e3dc5dc01698a470163fae3
+TDD1405065  ...
+TDD4205951 [0 : 98226 : 196542] mach? a
+TDD-5674289 progress: 1 98226 mach
+TDD1640101 [98227 : 147331 : 196542] rho? a
+TDD-1640114 progress: 1 147331 rho
+TDD1625982 [147332 : 171931 : 196542] tag? b
+TDD-1625981 progress: -1 171931 tag
+TDD1799087 [147332 : 159613 : 171931] slug? a
+TDD-1799082 progress: 1 159613 slug
+TDD1611354 [159614 : 165767 : 171931] stint? a
+TDD-1611364 progress: 1 165767 stint
+TDD1625580 [165768 : 168817 : 171931] sulfur? b
+TDD-1625565 progress: -1 168817 sulfur
+TDD1635030 [165768 : 167291 : 168817] sub? a
+TDD-1635054 progress: 1 167291 sub
+TDD1472486 [167292 : 168032 : 168817] subs? a
+TDD-1472477 progress: 1 168032 subs
+TDD1366732 [168033 : 168421 : 168817] subway? b
+TDD-1366725 progress: -1 168421 subway
+TDD1461850 [168033 : 168227 : 168421] substratums? b
+TDD-1461865 progress: -1 168227 substratums
+TDD1459703 [168033 : 168130 : 168227] subsist? b
+TDD-1459697 progress: -1 168130 subsist
+TDD1539229 [168033 : 168081 : 168130] subseres? b
+TDD-1539231 progress: -1 168081 subseres
+TDD1597442 [168033 : 168054 : 168081] subscript? a
+TDD-1597428 progress: 1 168054 subscript
+TDD1420304 [168055 : 168068 : 168081] subsegments? a
+TDD-1420327 progress: 1 168068 subsegments
+TDD1298279 [168069 : 168075 : 168081] subsequence? a
+TDD-1298273 progress: 1 168075 subsequence
+TDD1671557 [168076 : 168077 : 168081] subsequent? it
+TDD-1671541 progress: 0 168077 subsequent
+TDD-80 [168076 : 168077 : 168081] <Done>.
+TDD2944484 📋> 🧩 Puzzle #830
+TDD-2944432 📋> 
+TDD-51 📋> 🤔 16 guesses
+TDD-3 📋> 
+TDD-1 📋> ⏱️ 23s
+TDD-1 📋> 
+TDD283314 📋> 🔗 alphaguess.com
+TDD-146140 📋> ␚
+TDD-137112 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #830\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-7 result: "\ud83e\udde9 Puzzle #830\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"
+TDD-54 result puzzle: 830
+TDD-5 result guesses: 16
+TDD-1 result time: 23s
+TDD0 result link: alphaguess.com
+TDD158897 📆 2025-11-01 ? 
