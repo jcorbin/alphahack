@@ -376,7 +376,10 @@ class Handle:
 
         if isinstance(ent, dict):
             if self.given:
-                pass # TODO special handling thru .%
+                gim = ent.get('.%')
+                if callable(gim):
+                    ui.tokens.give('/'.join(self.given))
+                    return gim(ui)
 
             else:
                 if ui.tokens and ui.tokens.peek() != '--':
