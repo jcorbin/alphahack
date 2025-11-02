@@ -1,0 +1,43 @@
+T52820.673396287486 now: 2025-11-02T13:07:32UTC
+TD56 site: alfagok.diginaut.net
+TDD150734 loaded 399673 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1179 words excluded) asof ad8ac31a40e63e2d813ee2dd08ae0a9290ddb22f
+TDD4432280  ...
+TDD-1761204 [0 : 199827 : 399673] lijm? a
+TDD-2821686 progress: 1 199827 lijm
+TDD1607079 [199828 : 299729 : 399673] schub? a
+TDD-1607152 progress: 1 299729 schub
+TDD1726216 [299730 : 349504 : 399673] vakantie? b
+TDD-1726243 progress: -1 349504 vakantie
+TDD1814151 [299730 : 324303 : 349504] sub? b
+TDD-1814153 progress: -1 324303 sub
+TDD1801684 [299730 : 311898 : 324303] spier? a
+TDD-1801672 progress: 1 311898 spier
+TDD1893565 [311899 : 314607 : 324303] st? b
+TDD-1893570 progress: -1 314607 st
+TDD1834819 [311899 : 313253 : 314607] sport? a
+TDD-1834821 progress: 1 313253 sport
+TDD1965093 [313254 : 313923 : 314607] spreek? a
+TDD-1965075 progress: 1 313923 spreek
+TDD1753271 [313924 : 314233 : 314607] sprint? a
+TDD-1753292 progress: 1 314233 sprint
+TDD1745467 [314234 : 314415 : 314607] spui? b
+TDD-1745457 progress: -1 314415 spui
+TDD1627070 [314234 : 314309 : 314415] sprokkel? a
+TDD-1627074 progress: 1 314309 sprokkel
+TDD1601594 [314310 : 314348 : 314415] sprookjes? b
+TDD-1601600 progress: -1 314348 sprookjes
+TDD1794589 [314310 : 314330 : 314348] sprong? it
+TDD-1794578 progress: 0 314330 sprong
+TDD-70 [314310 : 314330 : 314348] <Done>.
+TDD3757087 📋> 🧩 Puzzel #365
+TDD-3757037 📋> 🤔 13 gokken
+TDD-50 📋> ⏱️ 22s
+TDD243412 📋> 🔗 alfagok.diginaut.net
+TDD3941 📋> ␚
+TDD-247304 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #365\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD264 result: "\ud83e\udde9 Puzzel #365\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-317 result puzzle: 365
+TDD-8 result guesses: 13
+TDD-1 result time: 22s
+TDD0 result link: alfagok.diginaut.net
+TDD446234 📆 2025-11-02 ? 
