@@ -1093,9 +1093,9 @@ class PromptUI:
                     self.state = nxt
 
     @contextmanager
-    def trace_entry(self, mess: str):
+    def trace_entry(self, mess: str|Callable[[], str]):
         if self.tracer:
-            with self.tracer.entry(self, mess) as ent:
+            with self.tracer.entry(self, mess() if callable(mess) else mess) as ent:
                 yield ent
         else:
             yield PromptUI.Traced.NoopEntry()
