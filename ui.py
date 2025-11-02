@@ -1053,6 +1053,8 @@ class PromptUI:
             def fin(self): pass
             def write(self, _mess: str): pass
 
+        Entish = Entry|NoopEntry
+
         @contextmanager
         def entry(self, ui: 'PromptUI', mess: str):
             with self.Entry(ui, self.mark) as ent:
