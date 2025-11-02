@@ -1,0 +1,96 @@
+T52988.90543675609 now: 2025-11-02T13:10:21UTC
+TD61 site: squareword.org
+TDD-23 wordlist: nwl2023.txt
+TDD3384070  ...
+TDD-415806 🧩  ? #1371
+TDD-2968134 puzzle_id: #1371
+TDD1620018 > *
+TDD366884 try? 1
+TDD-1986853 questioning: ["snare", "#5"]
+TDD10365463 #1 _____  📋 "snare" ? _____ ~ SAE
+TDD-10365262 attempt 0 SNARE m n m n m
+TDD3240577 #2 _____  📋 "snare" ? ___R_ ~ E
+TDD-3240803 attempt 1 SNARE n n n Y m
+TDD1770698 #3 _____  📋 "snare" ? ___RE
+TDD-1770688 attempt 2 SNARE n n n Y Y
+TDD2419140 #4 _____  📋 "snare" ? _____ ~ NAR
+TDD-2419185 attempt 3 SNARE n m m m n
+TDD2837415 #5 _____  📋 "snare" ? SN_R_
+TDD-2837385 attempt 4 SNARE Y Y n Y n
+TDD624822 ? 
+TDD-624911 question done
+TDD826995 > *
+TDD-15805 questioning: ["snort", "#5"]
+TDD6891682 #1 _____ ~AES -NR  📋 "snort" ? _____ ~ SAET
+TDD-7702795 attempt 0 SNORT m n n n m
+TDD2969931 #2 ___R_ ~E -ANS  📋 "snort" ? ___RT ~ EO
+TDD-2969949 attempt 1 SNORT n n m Y Y
+TDD4240914 #3 ___RE -ANS  📋 "snort" ? ___RE ~ T
+TDD-4240907 attempt 2 SNORT n n n Y m
+TDD3690223 #4 _____ ~ANR -ES  📋 "snort" ? _____ ~ NARO
+TDD-3690196 attempt 3 SNORT n m m m n
+TDD718626 #5 SN_R_ -AE  📋 "snort" ? /it
+TDD-718708 attempt 4 SNORT Y Y Y Y Y
+TDD212265 ? 
+TDD-212309 question done
+TDD550227 > *
+TDD33535 questioning: ["overt", "#2"]
+TDD3740362 #1 _____ ~AEST -NOR  📋 "overt" ? .
+TDD-4324027 attempt 0 OVERT n n m n m
+TDD983559 #2 ___RT ~EO -ANS  📋 "overt" ? /it
+TDD-983561 attempt 1 OVERT Y Y Y Y Y
+TDD2602276 #3 ___RE ~T -ANOS  📋 "overt" ? .
+TDD-2602272 attempt 2 OVERT n n n Y m
+TDD949653 #4 _____ ~ANOR -EST  📋 "overt" ? .
+TDD-949675 attempt 3 OVERT m n n m n
+TDD187591 ? 
+TDD-187687 question done
+TDD593004 > *
+TDD2030378 try? 1
+TDD-2622843 questioning: ["litre", "#3"]
+TDD4521892 #1 _____ ~AEST -NORV  📋 "litre" ? .
+TDD-4522312 attempt 0 LITRE n n m n m
+TDD2120701 #3 ___RE ~T -AENOSV  📋 "litre" ? _itre
+TDD-2120718 attempt 2 LITRE n Y Y Y Y
+TDD913751 #4 _____ ~ANOR -ESTV  📋 "litre" ? .
+TDD-913747 attempt 3 LITRE n n n m n
+TDD181220 ? 
+TDD-181326 question done
+TDD587027 > *
+TDD73388 questioning: ["baron", "#4"]
+TDD5639319 #1 _____ ~AEST -ILNORV  📋 "baron" ? _A___ ~ SET
+TDD-6299615 attempt 0 BARON n Y n n n
+TDD948277 #3 _ITRE -ALNOSV  📋 "baron" ? .
+TDD-948301 attempt 2 BARON n n n n n
+TDD1031664 #4 _____ ~ANOR -EILSTV  📋 "baron" ? /it
+TDD-1031653 attempt 3 BARON Y Y Y Y Y
+TDD217939 ? 
+TDD-218016 question done
+TDD554324 > *
+TDD816069 questioning: ["tames", "#1"]
+TDD3135778 #1 _A___ ~EST -BILNORV  📋 "tames" ? /it
+TDD-4506097 attempt 0 TAMES Y Y Y Y Y
+TDD3590265 #3 _ITRE -ABLNORSV  📋 "tames" ? _ITRE ~ M
+TDD-3590250 attempt 2 TAMES n n m n n
+TDD193967 ? 
+TDD-194070 question done
+TDD884053 > *
+TDD1872 questioning: ["mitre", "#3"]
+TDD1708613 #3 _ITRE ~M -ABELNORSTV  📋 "mitre" ? /it
+TDD-2594442 attempt 2 MITRE Y Y Y Y Y
+TDD1937612 ? 
+TDD-1937680 question done
+TDD4161119 📋> squareword.org 1371: 7 guesses
+TDD-4161127 📋> 
+TDD-64 📋> 🟨🟩🟨🟨🟨
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD12 📋> 🟩🟩🟩🟩🟩
+TDD-11 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD326461 📋> #squareword #squareword1371
+TDD-80520 📋> ␚
+TDD-245909 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1371: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1371"}
+TDD395 result: "squareword.org 1371: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1371"
+TDD467391 📆 2025-11-02 ? 
