@@ -1,0 +1,54 @@
+T52899.2582026571 now: 2025-11-02T13:08:51UTC
+TD55 site: alphaguess.com
+TDD62161 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof ad8ac31a40e63e2d813ee2dd08ae0a9290ddb22f
+TDD4944804  ...
+TDD-2336284 [0 : 98226 : 196542] mach? b
+TDD-2670631 progress: -1 98226 mach
+TDD1605467 [0 : 47387 : 98226] dis? a
+TDD-1605481 progress: 1 47387 dis
+TDD1505302 [47388 : 72807 : 98226] gremolata? b
+TDD-1505311 progress: -1 72807 gremolata
+TDD3968307 [47388 : 60090 : 72807] face? b
+TDD-3968273 progress: -1 60090 face
+TDD1589019 [47388 : 53403 : 60090] el? b
+TDD-1589056 progress: -1 53403 el
+TDD2062359 [47388 : 49434 : 53403] do? a
+TDD-2062341 progress: 1 49434 do
+TDD1831193 [49435 : 51408 : 53403] drunk? b
+TDD-1831215 progress: -1 51408 drunk
+TDD3076832 [49435 : 50411 : 51408] dove? b
+TDD-3076807 progress: -1 50411 dove
+TDD1581761 [49435 : 49855 : 50411] dom? b
+TDD-1581782 progress: -1 49855 dom
+TDD1605551 [49435 : 49602 : 49855] dog? a
+TDD-1605548 progress: 1 49602 dog
+TDD1494338 [49603 : 49726 : 49855] dogsled? a
+TDD-1494321 progress: 1 49726 dogsled
+TDD1522708 [49727 : 49787 : 49855] dollar? b
+TDD-1522728 progress: -1 49787 dollar
+TDD1627442 [49727 : 49758 : 49787] doit? b
+TDD-1627439 progress: -1 49758 doit
+TDD1453117 [49727 : 49739 : 49758] dogtrot? a
+TDD-1453098 progress: 1 49739 dogtrot
+TDD1464279 [49740 : 49749 : 49758] dogy? a
+TDD-1464282 progress: 1 49749 dogy
+TDD1471734 [49750 : 49754 : 49758] doilies? a
+TDD-1471739 progress: 1 49754 doilies
+TDD1686242 [49755 : 49756 : 49758] doing? it
+TDD-1686222 progress: 0 49756 doing
+TDD-90 [49755 : 49756 : 49758] <Done>.
+TDD2542990 📋> 🧩 Puzzle #831
+TDD-2542950 📋> 
+TDD-39 📋> 🤔 17 guesses
+TDD-4 📋> 
+TDD0 📋> ⏱️ 29s
+TDD-1 📋> 
+TDD306374 📋> 🔗 alphaguess.com
+TDD-21058 📋> ␚
+TDD-285266 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #831\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 29s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-2 result: "\ud83e\udde9 Puzzle #831\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 29s\n\n\ud83d\udd17 alphaguess.com"
+TDD-37 result puzzle: 831
+TDD-14 result guesses: 17
+TDD-1 result time: 29s
+TDD0 result link: alphaguess.com
+TDD596431 📆 2025-11-02 ? 
