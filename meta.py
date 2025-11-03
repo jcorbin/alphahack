@@ -493,6 +493,7 @@ class Meta(PromptUI.Arguable):
                 'cont': partial(self.do_sol_cont, sol),
                 'edit': partial(self.do_sol_edit, sol),
                 'last': partial(self.do_sol_last, sol),
+                'current': partial(self.do_sol_cur, sol),
                 'ls': partial(self.do_sol_last, sol, puzzle_id='*'),
                 'rm': partial(self.do_sol_rm, sol),
                 'tail': partial(self.do_sol_tail, sol),
@@ -844,6 +845,17 @@ class Meta(PromptUI.Arguable):
         log_file = self.solver_log.get(harness.name, harness.log_file)
         with ui.check_proc(subprocess.Popen((editor, log_file))):
             pass
+
+    def do_sol_cur(self, harness: SolverHarness, ui: PromptUI):
+        '''
+        use current log file
+        '''
+        log_file = harness.log_file
+        if harness.name in self.solver_log:
+            del self.solver_log[harness.name]
+            ui.print(f'Reset to current log file: {log_file}')
+        else:
+            ui.print(f'Current log file: {log_file}')
 
     def do_sol_last(self, harness: SolverHarness, ui: PromptUI,
                     puzzle_id: str|None = None):
