@@ -1,0 +1,113 @@
+T64.66058929078281 now: 2025-11-03T14:16:18UTC
+TD60 site: squareword.org
+TDD-15 wordlist: nwl2023.txt
+TDD3432044  ...
+TDD242448 🧩  ? #1372
+TDD-3674383 puzzle_id: #1372
+TDD1546511 > *
+TDD1097153 try? 2
+TDD-2643620 questioning: ["aster", "#5"]
+TDD5984071 #1 _____  📋 "aster" ? _____ ~ AS
+TDD-5983879 attempt 0 ASTER m m n n n
+TDD1967150 #2 _____  📋 "aster" ? _____ ~ R
+TDD-1967371 attempt 1 ASTER n n n n m
+TDD1995206 #3 _____  📋 "aster" ? A____
+TDD-1995229 attempt 2 ASTER Y n n n n
+TDD2172085 #4 _____  📋 "aster" ? ___E_ ~ S
+TDD-2172056 attempt 3 ASTER n m n Y n
+TDD2452076 #5 _____  📋 "aster" ? _____ ~ STR
+TDD-2452093 attempt 4 ASTER n m m n m
+TDD1316530 ? 
+TDD-1316565 question done
+TDD522067 > *
+TDD1371658 try? 1
+TDD-1893661 questioning: ["riots", "#5"]
+TDD3293127 #1 _____ ~AS -ERT  📋 "riots" ? .
+TDD-3293145 attempt 0 RIOTS n n n n m
+TDD2233039 #2 _____ ~R -AEST  📋 "riots" ? __O__ ~ RO
+TDD-2233041 attempt 1 RIOTS m n Y n n
+TDD2141087 #3 A____ -ERST  📋 "riots" ? A_O__
+TDD-2141111 attempt 2 RIOTS n n Y n n
+TDD4823849 #4 ___E_ ~S -ART  📋 "riots" ? ___ES ~ O
+TDD-4823817 attempt 3 RIOTS n n m n Y
+TDD1471955 #5 _____ ~RST -AE  📋 "riots" ? .
+TDD-1471975 attempt 4 RIOTS m n n m m
+TDD227199 ? 
+TDD-227296 question done
+TDD475722 > *
+TDD7301800 try? 6
+TDD-7777414 questioning: ["tryst", "#5"]
+TDD4299282 #1 _____ ~AS -EIORT  📋 "tryst" ? .
+TDD-4299281 attempt 0 TRYST n n n m n
+TDD3186438 #2 __O__ ~R -AEIST  📋 "tryst" ? _RO__ ~ O
+TDD-3186443 attempt 1 TRYST n Y n n n
+TDD1800095 #3 A_O__ -EIRST  📋 "tryst" ? .
+TDD-1800098 attempt 2 TRYST n n n n n
+TDD1077620 #4 ___ES ~O -AIRT  📋 "tryst" ? .
+TDD-1077626 attempt 3 TRYST n n n n n
+TDD709360 #5 _____ ~RST -AEIO  📋 "tryst" ? /it
+TDD-709389 attempt 4 TRYST Y Y Y Y Y
+TDD122752 ? 
+TDD-122829 question done
+TDD495151 > *'
+TDD669782 > *
+TDD1556743 try? 3
+TDD-2721578 questioning: ["among", "#3"]
+TDD5294711 #1 _____ ~AS -EIORTY  📋 "among" ? _____ ~ ASM
+TDD-5294699 attempt 0 AMONG m m n n n
+TDD2981672 #2 _RO__ -AEISTY  📋 "among" ? _RO__ ~ ON
+TDD-2981671 attempt 1 AMONG n n Y m n
+TDD653038 #3 A_O__ -EIRSTY  📋 "among" ? /it
+TDD-653046 attempt 2 AMONG Y Y Y Y Y
+TDD2411610 #4 ___ES ~O -AIRSTY  📋 "among" ? ___ES ~ ON
+TDD-2411585 attempt 3 AMONG n n m m n
+TDD281334 ? 
+TDD-281444 question done
+TDD573406 > *
+TDD817004 questioning: ["samba", "#1"]
+TDD2584919 #1 _____ ~AMS -EGINORTY  📋 "samba" ? /it
+TDD-3975223 attempt 0 SAMBA Y Y Y Y Y
+TDD4967548 #2 _RO__ ~N -AEGIMSTY  📋 "samba" ? _RO__ ~ ON
+TDD-4967554 attempt 1 SAMBA n n n n n
+TDD1411990 #4 ___ES ~NO -AGIMRSTY  📋 "samba" ? .
+TDD-1412008 attempt 3 SAMBA n n n n n
+TDD148909 ? 
+TDD-148997 question done
+TDD521164 > *
+TDD839643 questioning: ["croon", "#2"]
+TDD1351458 #2 _RO__ ~N -ABEGIMSTY  📋 "croon" ? /it
+TDD-2712138 attempt 1 CROON Y Y Y Y Y
+TDD2370329 #4 ___ES ~NO -ABGIMRSTY  📋 "croon" ? .
+TDD-2370355 attempt 3 CROON n n m m m
+TDD192265 ? 
+TDD-192385 question done
+TDD481257 > *
+TDD3151038 try? 1
+TDD-3632153 questioning: ["nodes", "#4"]
+TDD3597773 #4 ___ES ~NO -ABCGIMRSTY  📋 "nodes" ? /it
+TDD-3597793 attempt 3 NODES Y Y Y Y Y
+TDD1151750 ? 
+TDD-1151817 question done
+TDD5358595 📋> squareword.org 1372: 7 guesses
+TDD-5358609 📋> 
+TDD-62 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> 🟨🟩🟩🟨🟨
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD119171 📋> #squareword #squareword1372squareword.org 1372: 7 guesses
+TDD-119157 📋> 
+TDD-11 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟨🟩🟩🟨🟨
+TDD11 📋> 🟩🟩🟩🟩🟩
+TDD-11 📋> 🟨🟨🟨🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD1215567 📋> #squareword #squareword1372
+TDD-790788 📋> ␚
+TDD-424749 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1372: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1372squareword.org 1372: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1372"}
+TDD401 result: "squareword.org 1372: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1372squareword.org 1372: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1372"
+TDD369908 📆 2025-11-03 ? 
