@@ -1,0 +1,33 @@
+T2.325569625943899 now: 2025-11-03T14:15:16UTC
+TD59 site: alfagok.diginaut.net
+TDD151022 loaded 399673 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1179 words excluded) asof 5720f11f87ae4df41b49b0e9cd5333fac886efe6
+TDD3199785  ...
+TDD5553558 [0 : 199827 : 399673] lijm? b
+TDD-8904209 progress: -1 199827 lijm
+TDD1844988 [0 : 99745 : 199827] ex? b
+TDD-1845101 progress: -1 99745 ex
+TDD1673670 [0 : 49847 : 99745] boks? b
+TDD-1673673 progress: -1 49847 boks
+TDD1691034 [0 : 24910 : 49847] bad? a
+TDD-1691030 progress: 1 24910 bad
+TDD1694611 [24911 : 37364 : 49847] bescherm? a
+TDD-1694616 progress: 1 37364 bescherm
+TDD1688091 [37365 : 43070 : 49847] bij? a
+TDD-1688108 progress: 1 43070 bij
+TDD1613553 [43071 : 46456 : 49847] blief? b
+TDD-1613540 progress: -1 46456 blief
+TDD1819523 [43071 : 44587 : 46456] binnen? it
+TDD-1819530 progress: 0 44587 binnen
+TDD-66 [43071 : 44587 : 46456] <Done>.
+TDD3528187 📋> 🧩 Puzzel #366
+TDD-3528125 📋> 🤔 8 gokken
+TDD-54 📋> ⏱️ 12s
+TDD367641 📋> 🔗 alfagok.diginaut.net
+TDD-111395 📋> ␚
+TDD-256201 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #366\n\ud83e\udd14 8 gokken\n\u23f1\ufe0f 12s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD251 result: "\ud83e\udde9 Puzzel #366\n\ud83e\udd14 8 gokken\n\u23f1\ufe0f 12s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-304 result puzzle: 366
+TDD-8 result guesses: 8
+TDD-2 result time: 12s
+TDD0 result link: alfagok.diginaut.net
+TDD171755 📆 2025-11-03 ? 
