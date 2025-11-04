@@ -359,9 +359,48 @@ def root(par: Listing):
         par = ent
     return par
 
+def do_tracing(ui: 'PromptUI'):
+    '''
+    show or set ui state tracing
+    '''
+    if not ui.tokens:
+        ui.print(f'- tracing: {'on' if ui.traced else 'off'}')
+        return
+    if ui.tokens.have(r'(?ix) on | yes? | t(r(ue?)?)?'):
+        return do_tron(ui)
+    if ui.tokens.have(r'(?ix) off? | n[oaiue]? | f(a(l(se?)?)?)?'):
+        return do_troff(ui)
+
+def do_tron(ui: 'PromptUI'):
+    '''
+    turn tracing on
+    '''
+    if ui.traced:
+        ui.print('! tracing already on ; noop')
+        return
+    else:
+        raise ui.Tron
+
+def do_troff(ui: 'PromptUI'):
+    '''
+    turn tracing off
+    '''
+    if not ui.traced:
+        ui.print('! tracing already off ; noop')
+        return
+    else:
+        raise ui.Troff
+
 @final
 class Handle:
+    std_specials: Listing = {
+        'tracing': do_tracing,
+        'tron': do_tron,
+        'troff': do_troff,
+    }
+
     par: Listing
+    specials: Listing
     name: str = '.'
     may: tuple[str, ...] = ()
     given: tuple[str, ...] = ()
@@ -373,6 +412,7 @@ class Handle:
         self,
         arg: 'Handle|Listing|Iterable[Entry]',
         given: str|tuple[str, ...] = '',
+        specials: Listing|None = None,
     ):
         init = ()
         if isinstance(arg, Handle):
@@ -385,6 +425,13 @@ class Handle:
 
         if isinstance(given, str):
             given = tuple(given.split('/')) if given else ()
+
+        self.specials = (
+            par.specials if isinstance(par, Handle)
+            else self.std_specials).copy()
+
+        if specials:
+            self.specials.update(specials)
 
         if isinstance(par, Handle):
             self.par = par.par
@@ -453,6 +500,42 @@ class Handle:
         return f'Handle<par:{self.par} pre_path:{self.pre_path} name:{self.name} may:{self.may} given:{self.given}>'
 
     @property
+    def describe(self):
+        def parts():
+            path = self.path
+            # XXX specials pathed as-if or as-called !...
+            #     else f'!{path[1:]}' if ui.tokens.raw.startswith('!') and path[0] == '/'
+
+            if self and not self.given:
+                yield path
+                for part in self.given:
+                    yield '/'
+                    yield part
+                return
+
+            yield (
+                'unknown command' if not self.may
+                else 'ambiguous command' if len(self.may) > 1
+                else 'unimplemented command')
+
+            yield path or '<Unknown>'
+
+            if self.given:
+                head = self.given[0]
+                tail = self.given[1:]
+                # TODO unify with __str__
+                if not path.endswith('/'):
+                    yield '/'
+                yield f'{head}'
+                if tail:
+                    yield '/'
+                    yield '/'.join(tail)
+            else:
+                yield '∅'
+
+        return ' '.join(parts())
+
+    @property
     def path(self):
         path = self.pre_path
         if not path:
@@ -468,7 +551,7 @@ class Handle:
 
     @property
     def root(self):
-        return root(self.par)
+        return Handle(root(self.par))
 
     def __bool__(self) -> bool:
         if not self.name: return False
@@ -544,15 +627,51 @@ class Handle:
         with ui.trace_entry(lambda: f'{list_entry_name(self.path, self.ent)} call') as tr:
             if not self or self.given:
                 return self._handle(ui, tr)
-
             with ui.tokens_or('> ') as tokens:
-                spec = tokens.have(f'!+(.+)', lambda m: m[1])
-                if spec is not None:
-                    tr.write(f'bang {spec!r}')
-                    tokens.give(spec)
-                    return specials(ui)
+                return self.resolve(tokens, tr=tr)._handle(ui, tr)
 
-                return self._handle(ui, tr)
+    def search(self, cmd: str):
+        while self and not self.given:
+            yield self[cmd]
+            self = self['..']
+
+    def resolve(self,
+                tokens: 'PromptUI.Tokens',
+                tr: 'PromptUI.Traced.Entish|None' = None):
+        if tr is None:
+            # with ui.trace_entry(lambda: f'{list_entry_name(self.path, self.ent)} resolve') as tr:
+            tr = PromptUI.Traced.NoopEntry()
+
+        if not tokens:
+            tr.write(f'no input, just {self}')
+            return self
+
+        def prefer(may: Handle, be: Handle|None):
+            return (
+                may if be is None
+                else may if not be and may
+                else may if may and len(may.given) < len(be.given)
+                else be)
+
+        bang = tokens.have(f'!+(.+)', lambda m: m[1])
+        if bang is not None:
+            tr.write(f'bang {bang!r}')
+            return Handle(self.specials, bang)
+
+        if self:
+            cmd = next(tokens)
+            be: Handle|None = None
+            for may in self.search(cmd):
+                maybe = prefer(may, be)
+                tr.write(f'prefer({may}, {be}) -> {maybe}')
+                be = maybe
+            if be is not None:
+                return be
+            tr.write(f'fallthru {self}')
+        else:
+            tr.write(f'unresolved, just {self}')
+
+        return self
 
     def handle(self, ui: 'PromptUI'):
         with ui.trace_entry(lambda: f'{list_entry_name(self.path, self.ent)} handle') as tr:
@@ -599,73 +718,18 @@ class Handle:
                 ui.print_sub_help(ent, path)
                 return
 
-        try:
-            tr.write(f'-> <Fin>')
-            reason = (
-                'unknown' if not self.may
-                else 'ambiguous' if len(self.may) > 1
-                else 'unimplemented')
-            mark = (
-                '/' if self.given and not path.endswith('/')
-                else '' if self.given
-                else '∅')
-            nom = (
-                '<Unknown>' if not path
-                else f'!{path[1:]}' if ui.tokens.raw.startswith('!') and path[0] == '/'
-                else f'{path}')
-            ui.write(f'{reason} command {nom}{mark}')
-            if self.given:
-                ui.write(f' {self.given[0]}')
-                tail = self.given[1:]
-                if tail:
-                    ui.write(f' / {'/'.join(tail)}')
-            if len(self.may) > 1:
-                ui.write(f'; may be: {join_word_seq('or', sorted(self.may))}')
-            elif not self.may:
-                ui.write('; possible commands:')
-                for name in sorted(self.par):
-                    if not name.startswith('.'):
-                        ui.print(f'  {name}')
-        finally:
-            ui.fin()
+        tr.write(f'-> <Fin>')
 
-def do_tracing(ui: 'PromptUI'):
-    '''
-    show or set ui state tracing
-    '''
-    if not ui.tokens:
-        ui.print(f'- tracing: {'on' if ui.traced else 'off'}')
-        return
-    if ui.tokens.have(r'(?ix) on | yes? | t(r(ue?)?)?'):
-        return do_tron(ui)
-    if ui.tokens.have(r'(?ix) off? | n[oaiue]? | f(a(l(se?)?)?)?'):
-        return do_troff(ui)
-
-def do_tron(ui: 'PromptUI'):
-    '''
-    turn tracing on
-    '''
-    if ui.traced:
-        ui.print('! tracing already on ; noop')
-        return
-    else:
-        raise ui.Tron
-
-def do_troff(ui: 'PromptUI'):
-    '''
-    turn tracing off
-    '''
-    if not ui.traced:
-        ui.print('! tracing already off ; noop')
-        return
-    else:
-        raise ui.Troff
-
-specials = Handle({
-    'tracing': do_tracing,
-    'tron': do_tron,
-    'troff': do_troff,
-})
+        if len(self.may) > 1:
+            ui.print(f'{self.describe}; may be: {join_word_seq('or', sorted(self.may))}')
+        elif not self.may:
+            ui.print(f'{self.describe}; possible commands:')
+            for name in sorted(self.par):
+                if not name.startswith('.'):
+                    ui.print(f'  {name}')
+        else:
+            # TODO assert unreachable?
+            ui.print(self.describe)
 
 @contextmanager
 def just[T](val: T) -> Generator[T]:
@@ -870,7 +934,7 @@ def test_handle_basics(demo_world: Iterable[Entry]):
     with PromptUI.TestHarness() as h:
         assert h.run_all(root, '/app/re') == reflow_block('''
             > /app/re
-            ambiguous command /app/ re; may be: report or review
+            ambiguous command /app / re; may be: report or review
             >  <EOF>
             ''')
 
@@ -884,7 +948,7 @@ def test_handle_basics(demo_world: Iterable[Entry]):
     with PromptUI.TestHarness() as h:
         assert h.run_all(root['app/review'], 'nonesuch') == reflow_block('''
             > nonesuch
-            unknown command /app/review/ nonesuch; possible commands:
+            unknown command /app/review / nonesuch; possible commands:
               log
             >  <EOF>
             ''')
@@ -910,7 +974,7 @@ def test_handle_basics(demo_world: Iterable[Entry]):
     with PromptUI.TestHarness() as h:
         assert h.run_all(root, 'app/rep') == reflow_block('''
             > app/rep
-            unknown command /app/ rep; possible commands:
+            unknown command /app / rep; possible commands:
               fizzbuzz
               review
               search
@@ -930,7 +994,7 @@ def test_handle_specials(demo_world: Iterable[Entry]):
             '!trac off',
         ) == reflow_block('''
             > !invalid
-            unknown command ! invalid; possible commands:
+            unknown command / invalid; possible commands:
               tracing
               troff
               tron
@@ -940,14 +1004,12 @@ def test_handle_specials(demo_world: Iterable[Entry]):
             🔺 <TRON> -> /
             🔺 /
             🔺 / call> !tron
-            🔺 bang 'tron'
-            🔺 / call -> do_tron
+            🔺 bang 'tron' -> do_tron
             ! tracing already on ; noop
             🔺 -> <AGAIN>
             🔺 /
             🔺 / call> !troff
-            🔺 bang 'troff'
-            🔺 / call -> do_troff
+            🔺 bang 'troff' -> do_troff
             🔺 <!- Next <TROFF> -> /
             > !trac off
             ! tracing already off ; noop
