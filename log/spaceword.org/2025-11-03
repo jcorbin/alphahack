@@ -10286,3 +10286,17 @@ TDD14334 📋> ␚
 TDD-261644 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2025-11-03 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Rank: 25/267 \ud83c\udfc5\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"}
 TDD706 result: "\u2728 Spaceword.org Daily 2025-11-03 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Rank: 25/267 \ud83c\udfc5\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD912393 [prior:2173]> /store
+T64.02812306024134 now: 2025-11-04T13:05:05UTC
+TD872315 📋> ✨ Spaceword.org Daily 2025-11-03 ✨
+TDD-872250 📋> 
+TDD-42 📋> 🏆 Score: 2173
+TDD-3 📋> 🏅 Final Rank: 31/389 🏅
+TDD-1 📋> 🧩 Tiles: 21/21 ✅
+TDD0 📋> 📏 Space Bonus: +73
+TDD0 📋> 
+TDD0 📋> 
+TDD0 📋> Play at https://spaceword.org
+TDD437482 📋> #spaceword
+TDD-141284 📋> ␚
+TDD-296142 pasted: {"subject": "final share result", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2025-11-03 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Final Rank: 31/389 \ud83c\udfc5\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TDD48 result: "\u2728 Spaceword.org Daily 2025-11-03 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Final Rank: 31/389 \ud83c\udfc5\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"
