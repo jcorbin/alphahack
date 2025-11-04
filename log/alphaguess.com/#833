@@ -1,0 +1,56 @@
+T105.92726261541247 now: 2025-11-04T13:05:47UTC
+TD51 site: alphaguess.com
+TDD76135 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof e68eb944b1612bd5a4c253db8ff535ef9ec16112
+TDD6985682  ...
+TDD-4742801 [0 : 98226 : 196542] mach? a
+TDD-2318965 progress: 1 98226 mach
+TDD1606328 [98227 : 147331 : 196542] rho? b
+TDD-1606374 progress: -1 147331 rho
+TDD1482328 [98227 : 122111 : 147331] par? b
+TDD-1482319 progress: -1 122111 par
+TDD1377318 [98227 : 110131 : 122111] need? a
+TDD-1377285 progress: 1 110131 need
+TDD1342082 [110132 : 116110 : 122111] oppo? b
+TDD-1342094 progress: -1 116110 oppo
+TDD1424634 [110132 : 111495 : 116110] no? a
+TDD-1424642 progress: 1 111495 no
+TDD1508780 [111496 : 113787 : 116110] novel? b
+TDD-1508775 progress: -1 113787 novel
+TDD1543237 [111496 : 112545 : 113787] noni? a
+TDD-1543200 progress: 1 112545 noni
+TDD1440806 [112546 : 113163 : 113787] nonsocial? a
+TDD-1440870 progress: 1 113163 nonsocial
+TDD1474291 [113164 : 113472 : 113787] norm? a
+TDD-1474246 progress: 1 113472 norm
+TDD1813975 [113473 : 113563 : 113787] nos? b
+TDD-1813980 progress: -1 113563 nos
+TDD1537674 [113473 : 113518 : 113563] north? b
+TDD-1537688 progress: -1 113518 north
+TDD1487874 [113473 : 113496 : 113518] normative? b
+TDD-1487882 progress: -1 113496 normative
+TDD1657965 [113473 : 113484 : 113496] normalizable? b
+TDD-1657941 progress: -1 113484 normalizable
+TDD1468919 [113473 : 113478 : 113484] normalise? b
+TDD-1468972 progress: -1 113478 normalise
+TDD1384899 [113473 : 113475 : 113478] normalcy? b
+TDD-1384890 progress: -1 113475 normalcy
+TDD1447797 [113473 : 113474 : 113475] normalcies? b
+TDD-1447770 progress: -1 113474 normalcies
+TDD1601744 [113473 : 113473 : 113474] normal? it
+TDD-1601728 progress: 0 113473 normal
+TDD-76 [113473 : 113473 : 113474] <Done>.
+TDD2511871 📋> 🧩 Puzzle #833
+TDD-2511822 📋> 
+TDD-46 📋> 🤔 18 guesses
+TDD-4 📋> 
+TDD-1 📋> ⏱️ 26s
+TDD-1 📋> 
+TDD382721 📋> 🔗 alphaguess.com
+TDD-141280 📋> ␚
+TDD-241410 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #833\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 26s\n\n\ud83d\udd17 alphaguess.com"}
+TDD25 result: "\ud83e\udde9 Puzzle #833\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 26s\n\n\ud83d\udd17 alphaguess.com"
+TDD-54 result puzzle: 833
+TDD-6 result guesses: 18
+TDD-1 result time: 26s
+TDD0 result link: alphaguess.com
+TDD179833 📆 2025-11-04 ? 
