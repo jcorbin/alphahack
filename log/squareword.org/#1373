@@ -1,0 +1,138 @@
+T204.60248878970742 now: 2025-11-04T13:07:26UTC
+TD45 site: squareword.org
+TDD-13 wordlist: nwl2023.txt
+TDD3996958  ...
+TDD-105416 🧩  ? #1373
+TDD-3891411 puzzle_id: #1373
+TDD1934638 > *
+TDD-752893 try? 1
+TDD-1181731 questioning: ["loser", "#5"]
+TDD4140866 #1 _____  📋 "loser" ? _____ ~ S
+TDD-4140628 attempt 0 LOSER n n m n n
+TDD2400915 #2 _____  📋 "loser" ? _____ ~ ER
+TDD-2401160 attempt 1 LOSER n n n m m
+TDD2314942 #3 _____  📋 "loser" ? _____ ~ E
+TDD-2314957 attempt 2 LOSER n n n m n
+TDD5295140 #4 _____  📋 "loser" ? _____ ~ LE
+TDD-5295122 attempt 3 LOSER m n n m n
+TDD2697700 #5 _____  📋 "loser" ? _____ ~ LSER
+TDD-2697715 attempt 4 LOSER m n m m m
+TDD868024 ? 
+TDD-868088 question done
+TDD505634 > *
+TDD1576146 try? 1
+TDD-2081703 questioning: ["reals", "#5"]
+TDD5606814 #1 _____ ~S -ELOR  📋 "reals" ? __A__ ~ S
+TDD-5606812 attempt 0 REALS n n Y n m
+TDD2925656 #2 _____ ~ER -LOS  📋 "reals" ? _____ ~ ERA
+TDD-2925666 attempt 1 REALS m m m n n
+TDD1522731 #3 _____ ~E -LORS  📋 "reals" ? .
+TDD-1522729 attempt 2 REALS n m n n n
+TDD7271484 #4 _____ ~EL -ORS  📋 "reals" ? ___L_ ~ LE
+TDD-7271477 attempt 3 REALS n m n Y n
+TDD3901226 #5 _____ ~ELRS -O  📋 "reals" ? ___LS ~ ERA
+TDD-3901227 attempt 4 REALS m m m Y Y
+TDD394328 ? 
+TDD-394379 question done
+TDD662062 > *
+TDD8610 questioning: ["earls", "#5"]
+TDD3695695 #1 __A__ ~S -ELOR  📋 "earls" ? .
+TDD-4366313 attempt 0 EARLS n n n n m
+TDD3085862 #2 _____ ~AER -LOS  📋 "earls" ? _A___ ~ ER
+TDD-3085886 attempt 1 EARLS m Y m n n
+TDD668702 #3 _____ ~E -ALORS  📋 "earls" ? .
+TDD-668750 attempt 2 EARLS m n n n n
+TDD7216474 #4 ___L_ ~E -AORS  📋 "earls" ? ___L_ ~ LE
+TDD-7216416 attempt 3 EARLS m n n Y n
+TDD916926 #5 ___LS ~AER -O  📋 "earls" ? /it
+TDD-916943 attempt 4 EARLS Y Y Y Y Y
+TDD180124 ? 
+TDD-180214 question done
+TDD593110 > *
+TDD2074900 try? 1
+TDD-2667904 questioning: ["cadre", "#2"]
+TDD3814052 #1 __A__ ~S -AELOR  📋 "cadre" ? .
+TDD-3814051 attempt 0 CADRE n n n n n
+TDD1928460 #2 _A___ ~ER -LOS  📋 "cadre" ? _ADRE
+TDD-1928468 attempt 1 CADRE n Y Y Y Y
+TDD3006529 #3 _____ ~E -ALORS  📋 "cadre" ? __D_E
+TDD-3006526 attempt 2 CADRE n n Y n Y
+TDD4215285 #4 ___L_ ~E -AORS  📋 "cadre" ? ___L_ ~ LE
+TDD-4215278 attempt 3 CADRE n n n n m
+TDD253334 ? 
+TDD-253434 question done
+TDD612387 > *
+TDD2492513 try? 2
+TDD-3104782 questioning: ["madre", "#2"]
+TDD5915801 #1 __A__ ~S -ACDELOR  📋 "madre" ? .
+TDD-5915821 attempt 0 MADRE n n n n n
+TDD1717451 #2 _ADRE -CLOS  📋 "madre" ? .
+TDD-1717459 attempt 1 MADRE n Y Y Y Y
+TDD1058130 #3 __D_E -ACLORS  📋 "madre" ? .
+TDD-1058110 attempt 2 MADRE n n Y n Y
+TDD5483669 #4 ___L_ ~E -ACDORS  📋 "madre" ? ___L_ ~ LE
+TDD-5483670 attempt 3 MADRE n n n n m
+TDD213618 ? 
+TDD-213737 question done
+TDD615184 > *
+TDD1186011 questioning: ["padre", "#2"]
+TDD2541152 #1 __A__ ~S -ACDELMOR  📋 "padre" ? .
+TDD-4342232 attempt 0 PADRE n n n n n
+TDD617514 #2 _ADRE -CLMOS  📋 "padre" ? /it
+TDD-617525 attempt 1 PADRE Y Y Y Y Y
+TDD1500987 #3 __D_E -ACLMORS  📋 "padre" ? .
+TDD-1500989 attempt 2 PADRE n n Y n Y
+TDD2700890 #4 ___L_ ~E -ACDMORS  📋 "padre" ? ___L_ ~ LE
+TDD-2700870 attempt 3 PADRE n n n n m
+TDD209077 ? 
+TDD-209193 question done
+TDD524468 > *
+TDD6864433 try? 2
+TDD-7388787 questioning: ["indue", "#3"]
+TDD3959562 #1 __A__ ~S -ACDELMOPR  📋 "indue" ? .
+TDD-3959571 attempt 0 INDUE n n n n n
+TDD2560273 #3 __D_E -ACLMOPRS  📋 "indue" ? IND_E ~ I
+TDD-2560264 attempt 2 INDUE Y Y Y n Y
+TDD3026227 #4 ___L_ ~E -ACDMOPRS  📋 "indue" ? _N_L_ ~ LE
+TDD-3026251 attempt 3 INDUE n Y n n m
+TDD235637 ? 
+TDD-235681 question done
+TDD627463 > *
+TDD1152938 questioning: ["swath", "#1"]
+TDD1099061 #1 __A__ ~S -ACDEILMNOPRU  📋 "swath" ? /it
+TDD-2879407 attempt 0 SWATH Y Y Y Y Y
+TDD8111665 #3 IND_E -ACLMOPRSU  📋 "swath" ? IND_E ~ I
+TDD-8111661 attempt 2 SWATH n n n n n
+TDD8291052 #4 _N_L_ ~E -ACDIMOPRSU  📋 "swath" ? _N_L_ ~ LE
+TDD-8291061 attempt 3 SWATH n n n n n
+TDD697907 ? 
+TDD-697943 question done
+TDD652572 > *
+TDD679446 questioning: ["indie", "#3"]
+TDD2100675 #3 IND_E -ACHLMOPRSTUW  📋 "indie" ? /it
+TDD-3432602 attempt 2 INDIE Y Y Y Y Y
+TDD4409134 #4 _N_L_ ~E -ACDHIMOPRSTUW  📋 "indie" ? _N_L_ ~ LE
+TDD-4409113 attempt 3 INDIE n Y n n m
+TDD513516 ? 
+TDD-513569 question done
+TDD580846 > *
+TDD315948 questioning: ["knell", "#4"]
+TDD3784449 #4 _N_L_ ~E -ACDHIMOPRSTUW  📋 "knell" ? /it
+TDD-4681257 attempt 3 KNELL Y Y Y Y Y
+TDD562024 ? 
+TDD-562091 question done
+TDD810894 📋> 
+TDD3107197 📋> squareword.org 1373: 10 guesses
+TDD-3918100 📋> 
+TDD-64 📋> 🟨🟨🟩🟨🟨
+TDD-3 📋> 🟨🟩🟩🟩🟩
+TDD-1 📋> 🟨🟨🟩🟨🟩
+TDD11 📋> 🟨🟨🟨🟩🟨
+TDD-11 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD506151 📋> #squareword #squareword1373
+TDD-210106 📋> ␚
+TDD-296014 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\nsquareword.org 1373: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1373"}
+TDD405 result: "\nsquareword.org 1373: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1373"
+TDD374020 📆 2025-11-04 ? 
