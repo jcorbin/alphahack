@@ -1,26 +1,25 @@
-# 2025-11-04
+# 2025-11-05
 
-- 🔗 spaceword.org 🧩 2025-11-03 🏁 score 2173 ranked 8.0% 31/389 ⏱️ 0:26:44.989244
-- 🔗 alfagok.diginaut.net 🧩 #367 🥳 10 ⏱️ 0:00:32.886651
-- 🔗 alphaguess.com 🧩 #833 🥳 18 ⏱️ 0:00:38.376961
-- 🔗 squareword.org 🧩 #1373 🥳 10 ⏱️ 0:03:00.139536
-- 🔗 dictionary.com hurdle 🧩 #1403 🥳 15 ⏱️ 0:02:51.001779
-- 🔗 dontwordle.com 🧩 #1260 🥳 6 ⏱️ 0:01:56.418638
-- 🔗 cemantle.certitudes.org 🧩 #1310 🥳 372 ⏱️ 0:11:48.242856
-- 🔗 cemantix.certitudes.org 🧩 #1343 🥳 112 ⏱️ 0:04:21.520931
+- 🔗 spaceword.org 🧩 2025-11-04 🏁 score 2173 ranked 6.5% 24/367 ⏱️ 0:20:32.980979
+- 🔗 alfagok.diginaut.net 🧩 2025-11-05 😦 173 ⏱️ 0:18:36.063343
+- 🔗 alphaguess.com 🧩 #834 🥳 15 ⏱️ 0:00:32.684839
+- 🔗 squareword.org 🧩 #1374 🥳 9 ⏱️ 0:02:33.404740
+- 🔗 dictionary.com hurdle 🧩 #1404 🥳 16 ⏱️ 0:03:51.946731
+- 🔗 dontwordle.com 🧩 #1261 🥳 6 ⏱️ 0:01:44.032821
+- 🔗 cemantle.certitudes.org 🧩 #1311 🥳 80 ⏱️ 0:02:14.458703
+- 🔗 cemantix.certitudes.org 🧩 #1344 🥳 218 ⏱️ 0:07:28.713083
 
 # Dev
 
 ## WIP
 
-ui: Shell / Handle revolution
+- ui:
+  - Handle -- stabilizing core over Listing
+  - Shell -- minimizing over Handle
+
+- meta: rework command model over Shell
 
 ## TODO
-
-- meta: alfagok lines not getting collected
-  ```
-  pick 4754d78e # alfagok.diginaut.net day #345
-  ```
 
 - [regexle](https://regexle.com): on program
 
@@ -38,19 +37,17 @@ ui: Shell / Handle revolution
   - and also to allow more seamless meta log continue ...
 
 - meta:
+  - alfagok lines not getting collected
+    ```
+    pick 4754d78e # alfagok.diginaut.net day #345
+    ```
   - `day` command needs to be able to progress even without all solvers done
   - `day` pruning should be more agro
-  - rework command model
-    * current `log <solver> ...` and `run <solver>` should instead
-    * unify into `<solver> log|run ...`
-    * with the same stateful sub-prompting so that we can just say `<solver>`
-      and then `log ...` and then `run` obviating the `log continue` command
-      separate from just `run`
-  - review should progress main branch too
   - better logic circa end of day early play, e.g. doing a CET timezone puzzle
     close late in the "prior" day local (EST) time; similarly, early play of
     next-day spaceword should work gracefully
   - support other intervals like weekly/monthly for spaceword
+  - review should progress main branch too
 
 - StoredLog:
   - log compression can sometimes get corrupted; spaceword in particular tends
@@ -230,17 +227,27 @@ ui: Shell / Handle revolution
 
   ```
 
+# spaceword.org 🧩 2025-11-04 🏁 score 2173 ranked 6.5% 24/367 ⏱️ 0:20:32.980979
 
+📜 4 sessions
+- tiles: 21/21
+- score: 2173 bonus: +73
+- rank: 24/367
 
-
-
-
-
-
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ H I P _ _ _   
+      _ _ _ _ _ _ O _ _ _   
+      _ _ _ _ S O D _ _ _   
+      _ _ _ _ E _ U _ _ _   
+      _ _ _ _ I _ N _ _ _   
+      _ _ _ _ Z E K _ _ _   
+      _ _ _ _ U M S _ _ _   
+      _ _ _ _ R _ _ _ _ _   
+      _ _ _ _ E V E _ _ _   
 
 # spaceword.org 🧩 2025-11-03 🏁 score 2173 ranked 8.0% 31/389 ⏱️ 0:26:44.989244
 
-📜 3 sessions
+📜 4 sessions
 - tiles: 21/21
 - score: 2173 bonus: +73
 - rank: 31/389
@@ -257,169 +264,182 @@ ui: Shell / Handle revolution
       _ _ _ _ Z O A _ _ _   
 
 
-# alfagok.diginaut.net 🧩 #367 🥳 10 ⏱️ 0:00:32.886651
+# alfagok.diginaut.net 🧩 2025-11-05 😦 173 ⏱️ 0:18:36.063343
 
-🤔 10 attempts
+🤔 173 attempts
+📜 5 sessions
+
+    @       [    0] &-teken   
+    @+49847 [49847] boks      q2   ? after
+    @+74758 [74758] dc        q3   ? after
+    @+87218 [87218] draag     q4   ? after
+    @+90070 [90070] dubbel    q6   ? after
+    @+91758 [91758] dwerg     q7   ? after
+    @+91966 [91966] dégénéré  q11  ? after
+    @+91971 [91971] déjà      q24  ? after
+    @+91971 [91971] déjà      q46  ? @+3
+    @+91971 [91971] déjà      q47  ? .
+    @+91974 [91974] délégué   q48  ? after
+    @+91978 [91978] dénk      q33  ? after
+    @+91979 [91979] détail    q63  ? after
+    @+91979 [91979] détail    <<< SEARCH
+    @+91980 [91980] earmarken q123 ? before
+    @+91980 [91980] earmarken q145 ? before
+    @+91980 [91980] earmarken q157 ? before
+    @+91980 [91980] earmarken q164 ? before
+    @+91980 [91980] earmarken q168 ? before
+    @+91980 [91980] earmarken q170 ? before
+    @+91980 [91980] earmarken q172 ? before
+    @+91980 [91980] earmarken >>> SEARCH
+    @+91998 [91998] ebben     q98  ? before
+    @+92006 [92006] ebde      q91  ? before
+    @+92007 [92007] ebden     q86  ? before
+    @+92008 [92008] ebdeur    q83  ? after
+    @+92008 [92008] ebdeur    q84  ? before
+    @+92050 [92050] ecart     q9   ? before
+    @+92465 [92465] educatie  q8   ? before
+    @+93324 [93324] eet       q5   ? before
+    @+99623 [99623] ex        q1   ? before
+
+# alphaguess.com 🧩 #834 🥳 15 ⏱️ 0:00:32.684839
+
+🤔 15 attempts
 📜 1 sessions
 
-    @        [     0] &-teken   
-    @+1      [     1] &-tekens  
-    @+2      [     2] -cijferig 
-    @+3      [     3] -e-mail   
-    @+199827 [199827] lijm      q0  ? after
-    @+223614 [223614] mol       q3  ? after
-    @+226059 [226059] mu        q6  ? after
-    @+226500 [226500] munt      q9  ? it
-    @+226500 [226500] munt      done. it
-    @+226942 [226942] muur      q8  ? before
-    @+227832 [227832] naakt     q7  ? before
-    @+229633 [229633] natuur    q5  ? before
-    @+235669 [235669] octrooi   q4  ? before
-    @+247725 [247725] op        q2  ? before
-    @+299729 [299729] schub     q1  ? before
+    @        [     0] aa        
+    @+1      [     1] aah       
+    @+2      [     2] aahed     
+    @+3      [     3] aahing    
+    @+98226  [ 98226] mach      q0  ? after
+    @+147331 [147331] rho       q1  ? after
+    @+171931 [171931] tag       q2  ? after
+    @+182018 [182018] un        q3  ? after
+    @+189281 [189281] vicar     q4  ? after
+    @+189691 [189691] viol      q8  ? after
+    @+189877 [189877] vis       q9  ? after
+    @+190004 [190004] vital     q10 ? after
+    @+190024 [190024] vitally   q13 ? after
+    @+190030 [190030] vitamin   q14 ? it
+    @+190030 [190030] vitamin   done. it
+    @+190043 [190043] vitelli   q12 ? before
+    @+190084 [190084] vitrified q11 ? before
+    @+190164 [190164] vivisect  q7  ? before
+    @+191061 [191061] walk      q6  ? before
+    @+192885 [192885] whir      q5  ? before
 
-# alphaguess.com 🧩 #833 🥳 18 ⏱️ 0:00:38.376961
-
-🤔 18 attempts
-📜 1 sessions
-
-    @        [     0] aa           
-    @+1      [     1] aah          
-    @+2      [     2] aahed        
-    @+3      [     3] aahing       
-    @+98226  [ 98226] mach         q0  ? after
-    @+110131 [110131] need         q3  ? after
-    @+111495 [111495] no           q5  ? after
-    @+112545 [112545] noni         q7  ? after
-    @+113163 [113163] nonsocial    q8  ? after
-    @+113472 [113472] norm         q9  ? after
-    @+113473 [113473] normal       q17 ? it
-    @+113473 [113473] normal       done. it
-    @+113474 [113474] normalcies   q16 ? before
-    @+113475 [113475] normalcy     q15 ? before
-    @+113478 [113478] normalise    q14 ? before
-    @+113484 [113484] normalizable q13 ? before
-    @+113496 [113496] normative    q12 ? before
-    @+113518 [113518] north        q11 ? before
-    @+113563 [113563] nos          q10 ? before
-    @+113787 [113787] novel        q6  ? before
-    @+116110 [116110] oppo         q4  ? before
-    @+122111 [122111] par          q2  ? before
-    @+147331 [147331] rho          q1  ? before
-
-# squareword.org 🧩 #1373 🥳 10 ⏱️ 0:03:00.139536
+# squareword.org 🧩 #1374 🥳 9 ⏱️ 0:02:33.404740
 
 📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
-    🟨 🟨 🟩 🟨 🟨
-    🟨 🟩 🟩 🟩 🟩
-    🟨 🟨 🟩 🟨 🟩
-    🟨 🟨 🟨 🟩 🟨
+    🟩 🟨 🟨 🟩 🟨
+    🟨 🟨 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟩 🟨 🟨 🟨 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    S W A T H
-    P A D R E
-    I N D I E
-    K N E L L
-    E A R L S
+    E G G E D
+    G R I M E
+    R A V E N
+    E V E N T
+    T E N D S
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1403 🥳 15 ⏱️ 0:02:51.001779
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1404 🥳 16 ⏱️ 0:03:51.946731
 
 📜 1 sessions
-💰 score: 10100
+💰 score: 10000
 
+    2/6
+    RESAT ⬜⬜⬜🟨🟩
+    GAUNT 🟩🟩🟩🟩🟩
     3/6
-    SLATE 🟩🟨🟨⬜⬜
-    SALON 🟩🟨🟨🟨⬜
-    SHOAL 🟩🟩🟩🟩🟩
-    3/6
-    SHOAL ⬜🟨⬜⬜🟨
-    BLECH ⬜🟨⬜🟩🟩
-    MULCH 🟩🟩🟩🟩🟩
+    GAUNT ⬜⬜⬜⬜🟨
+    TELOS 🟩🟨⬜🟨🟨
+    THOSE 🟩🟩🟩🟩🟩
     4/6
-    MULCH ⬜⬜⬜⬜⬜
-    AROSE 🟨🟨⬜🟨🟨
-    WEARS 🟨🟨🟨🟨🟨
-    SWEAR 🟩🟩🟩🟩🟩
-    4/6
-    SWEAR ⬜⬜⬜🟨🟨
-    TRAIN ⬜🟨🟩⬜⬜
-    HOARY ⬜🟨🟩🟩🟩
-    OVARY 🟩🟩🟩🟩🟩
+    THOSE ⬜⬜⬜⬜🟩
+    GRAVE ⬜🟨⬜⬜🟩
+    FIBRE 🟨🟩⬜🟨🟩
+    RIFLE 🟩🟩🟩🟩🟩
+    6/6
+    RIFLE ⬜⬜⬜⬜⬜
+    AUNTY ⬜🟩⬜⬜🟩
+    DUCKY 🟨🟩⬜⬜🟩
+    PUDGY ⬜🟩🟩⬜🟩
+    MUDDY ⬜🟩🟩🟩🟩
+    BUDDY 🟩🟩🟩🟩🟩
     Final 1/2
-    VINYL 🟩🟩🟩🟩🟩
+    DELTA 🟩🟩🟩🟩🟩
 
-# dontwordle.com 🧩 #1260 🥳 6 ⏱️ 0:01:56.418638
+# dontwordle.com 🧩 #1261 🥳 6 ⏱️ 0:01:44.032821
 
 📜 1 sessions
-💰 score: 7
+💰 score: 14
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:KIBBI n n n n n remain:7266
-    ⬜⬜⬜⬜⬜ tried:WOODY n n n n n remain:2727
-    ⬜⬜⬜⬜⬜ tried:CURCH n n n n n remain:784
-    ⬜🟩⬜⬜⬜ tried:FEEZE n Y n n n remain:107
-    ⬜🟩🟨⬜🟨 tried:JELLS n Y m n m remain:4
-    🟨🟩⬜🟨🟨 tried:SEPAL m Y n m m remain:1
+    ⬜⬜⬜⬜⬜ tried:SEXES n n n n n remain:3586
+    ⬜⬜⬜⬜⬜ tried:VIVID n n n n n remain:1856
+    ⬜⬜⬜⬜⬜ tried:YABBY n n n n n remain:333
+    ⬜⬜⬜⬜⬜ tried:PHPHT n n n n n remain:100
+    ⬜⬜🟨⬜⬜ tried:CRUCK n n m n n remain:9
+    🟨⬜⬜🟨⬜ tried:UNWON m n n m n remain:2
 
-    Undos used: 3
+    Undos used: 4
 
-      1 words remaining
+      2 words remaining
     x 7 unused letters
-    = 7 total score
+    = 14 total score
 
-# cemantle.certitudes.org 🧩 #1310 🥳 372 ⏱️ 0:11:48.242856
+# cemantle.certitudes.org 🧩 #1311 🥳 80 ⏱️ 0:02:14.458703
 
-🤔 373 attempts
-📜 1 sessions
-🫧 16 chat sessions
-⁉️ 100 chat prompts
-🤖 27 llama3.2:latest replies
-🤖 73 gemma3:latest replies
-🔥   3 🥵  21 😎  76 🥶 264 🧊   8
-
-      $1 #373   ~1 coordination     100.00°C 🥳 1000‰
-      $2  #25  ~93 coordinated       55.10°C 🔥  997‰
-      $3 #366   ~4 collaboration     47.42°C 🔥  994‰
-      $4  #47  ~80 oversight         44.45°C 🔥  991‰
-      $5  #96  ~68 synergy           42.71°C 🥵  989‰
-      $6 #317  ~18 facilitation      42.58°C 🥵  988‰
-      $7  #56  ~76 synchronization   40.05°C 🥵  979‰
-      $8 #371   ~2 congruence        38.77°C 🥵  972‰
-      $9  #39  ~82 integration       38.73°C 🥵  971‰
-     $10  #28  ~90 collaborative     38.45°C 🥵  969‰
-     $11 #215  ~39 interrelation     38.35°C 🥵  966‰
-     $26  #58  ~74 concerted         32.12°C 😎  898‰
-    $101 #250      synaptic          21.50°C 🥶
-    $366 #256      adjusted          -0.07°C 🧊
-
-# cemantix.certitudes.org 🧩 #1343 🥳 112 ⏱️ 0:04:21.520931
-
-🤔 113 attempts
+🤔 81 attempts
 📜 1 sessions
 🫧 4 chat sessions
-⁉️ 22 chat prompts
-🤖 22 gemma3:latest replies
-🥵  3 😎 19 🥶 69 🧊 21
+⁉️ 16 chat prompts
+🤖 16 gemma3:latest replies
+🔥  2 🥵  3 😎  4 🥶 67 🧊  4
 
-      $1 #113   ~1 interface        100.00°C 🥳 1000‰
-      $2  #77   ~9 donnée            45.74°C 🥵  967‰
-      $3  #70  ~14 paramètre         45.02°C 🥵  963‰
-      $4  #60  ~21 système           43.07°C 🥵  945‰
-      $5  #80   ~7 fonction          40.09°C 😎  897‰
-      $6  #68  ~16 modélisation      39.66°C 😎  890‰
-      $7  #27  ~23 flux              38.81°C 😎  875‰
-      $8  #72  ~13 réseau            38.60°C 😎  869‰
-      $9  #73  ~12 simulation        37.31°C 😎  840‰
-     $10  #66  ~17 capteur           36.73°C 😎  826‰
-     $11  #69  ~15 optimisation      36.32°C 😎  807‰
-     $12 #105   ~3 modèle            35.20°C 😎  772‰
-     $24  #36      soluté            26.40°C 🥶
-     $93  #10      énigme            -1.46°C 🧊
+     $1 #81  ~1 indication    100.00°C 🥳 1000‰
+     $2 #73  ~5 hint           57.18°C 🔥  998‰
+     $3 #80  ~2 clue           51.64°C 🔥  996‰
+     $4 #79  ~3 glimpse        36.51°C 🥵  960‰
+     $5 #67  ~6 glimmer        34.69°C 🥵  938‰
+     $6 #28 ~10 reflection     34.63°C 🥵  935‰
+     $7 #74  ~4 illusion       23.07°C 😎  556‰
+     $8 #32  ~8 diminution     22.94°C 😎  538‰
+     $9 #65  ~7 slight         20.48°C 😎  220‰
+    $10 #30  ~9 diminish       20.15°C 😎  156‰
+    $11 #36     lingering      19.19°C 🥶
+    $12 #58     ebb            19.06°C 🥶
+    $13 #31     diminished     19.04°C 🥶
+    $78 #68     delicate       -0.32°C 🧊
+
+# cemantix.certitudes.org 🧩 #1344 🥳 218 ⏱️ 0:07:28.713083
+
+🤔 219 attempts
+📜 1 sessions
+🫧 8 chat sessions
+⁉️ 54 chat prompts
+🤖 54 gemma3:latest replies
+🔥   1 🥵  29 😎  68 🥶 105 🧊  15
+
+      $1 #219   ~1 rigueur           100.00°C 🥳 1000‰
+      $2 #130  ~37 honnêteté          48.33°C 🔥  993‰
+      $3 #119  ~42 discrétion         46.32°C 🥵  988‰
+      $4  #77  ~66 esprit             45.64°C 🥵  985‰
+      $5 #216   ~3 ténacité           45.12°C 🥵  984‰
+      $6  #71  ~70 clarté             44.11°C 🥵  979‰
+      $7 #165  ~12 modestie           44.01°C 🥵  978‰
+      $8  #53  ~79 discernement       43.30°C 🥵  973‰
+      $9  #61  ~73 sens               43.00°C 🥵  972‰
+     $10  #52  ~80 perspicacité       42.05°C 🥵  971‰
+     $11 #142  ~28 humilité           41.24°C 🥵  968‰
+     $33  #54  ~78 intelligence       34.75°C 😎  897‰
+    $100  #17      subtil             21.39°C 🥶
+    $205 #199      détaché            -0.78°C 🧊
