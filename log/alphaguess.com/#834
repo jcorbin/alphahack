@@ -1,0 +1,50 @@
+T46.59479714371264 now: 2025-11-05T13:44:32UTC
+TD56 site: alphaguess.com
+TDD73263 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof 93284885ce3095a0f54d0849c40c9955897f8b8a
+TDD907276  ...
+TDD3880517 [0 : 98226 : 196542] mach? a
+TDD-4860903 progress: 1 98226 mach
+TDD1742337 [98227 : 147331 : 196542] rho? a
+TDD-1742418 progress: 1 147331 rho
+TDD1372295 [147332 : 171931 : 196542] tag? a
+TDD-1372345 progress: 1 171931 tag
+TDD1318920 [171932 : 182018 : 196542] un? a
+TDD-1318889 progress: 1 182018 un
+TDD1250629 [182019 : 189281 : 196542] vicar? a
+TDD-1250655 progress: 1 189281 vicar
+TDD1914029 [189282 : 192885 : 196542] whir? b
+TDD-1913997 progress: -1 192885 whir
+TDD2051252 [189282 : 191061 : 192885] walk? b
+TDD-2051273 progress: -1 191061 walk
+TDD1448749 [189282 : 190164 : 191061] vivisect? b
+TDD-1448754 progress: -1 190164 vivisect
+TDD1345546 [189282 : 189691 : 190164] viol? a
+TDD-1345518 progress: 1 189691 viol
+TDD1507735 [189692 : 189877 : 190164] vis? a
+TDD-1507734 progress: 1 189877 vis
+TDD1338015 [189878 : 190004 : 190164] vital? a
+TDD-1338047 progress: 1 190004 vital
+TDD1480313 [190005 : 190084 : 190164] vitrified? b
+TDD-1480308 progress: -1 190084 vitrified
+TDD1592060 [190005 : 190043 : 190084] vitelli? b
+TDD-1592045 progress: -1 190043 vitelli
+TDD1531437 [190005 : 190024 : 190043] vitally? a
+TDD-1531453 progress: 1 190024 vitally
+TDD2119010 [190025 : 190030 : 190043] vitamin? it
+TDD-2119021 progress: 0 190030 vitamin
+TDD-60 [190025 : 190030 : 190043] <Done>.
+TDD3308924 📋> 🧩 Puzzle #834
+TDD-3308855 📋> 
+TDD-63 📋> 🤔 15 guesses
+TDD-2 📋> 
+TDD-1 📋> ⏱️ 21s
+TDD0 📋> 
+TDD465806 📋> 🔗 alphaguess.com
+TDD-84873 📋> ␚
+TDD-380864 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #834\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"}
+TDD222 result: "\ud83e\udde9 Puzzle #834\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+TDD-278 result puzzle: 834
+TDD-20 result guesses: 15
+TDD-2 result time: 21s
+TDD0 result link: alphaguess.com
+TDD597907 📆 2025-11-05 ? 
