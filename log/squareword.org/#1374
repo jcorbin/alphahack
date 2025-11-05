@@ -1,0 +1,123 @@
+T86.27389163523912 now: 2025-11-05T13:45:12UTC
+TD56 site: squareword.org
+TDD-15 wordlist: nwl2023.txt
+TDD3510253  ...
+TDD-1235900 🧩  ? #1374
+TDD-2274217 puzzle_id: #1374
+TDD4365921 > *
+TDD-3350004 try? 1
+TDD-1015895 questioning: ["toeas", "#5"]
+TDD7013299 #1 _____  📋 "toeas" ? _____ ~ E
+TDD-7012800 attempt 0 TOEAS n n m n n
+TDD1826423 #2 _____  📋 "toeas" ? _____ ~ E
+TDD-1826935 attempt 1 TOEAS n n m n n
+TDD2908935 #3 _____  📋 "toeas" ? _____ ~ EA
+TDD-2908969 attempt 2 TOEAS n n m m n
+TDD2217222 #4 _____  📋 "toeas" ? __E__ ~ TE
+TDD-2217183 attempt 3 TOEAS m n Y n n
+TDD2532692 #5 _____  📋 "toeas" ? T___S ~ E
+TDD-2532701 attempt 4 TOEAS Y n m n Y
+TDD606114 ? 
+TDD-606164 question done
+TDD563866 > *
+TDD1205331 try? 1
+TDD-1769134 questioning: ["clept", "#4"]
+TDD4289831 #1 _____ ~E -AOST  📋 "clept" ? .
+TDD-4289838 attempt 0 CLEPT n n m n n
+TDD1490388 #2 _____ ~E -AOST  📋 "clept" ? .
+TDD-1490409 attempt 1 CLEPT n n m n n
+TDD1156382 #3 _____ ~AE -OST  📋 "clept" ? .
+TDD-1156407 attempt 2 CLEPT n n m n n
+TDD5057128 #4 __E__ ~T -AOS  📋 "clept" ? __E_T ~ E
+TDD-5057079 attempt 3 CLEPT n n Y n Y
+TDD3505250 #5 T___S ~E -AO  📋 "clept" ? .
+TDD-3505279 attempt 4 CLEPT n n m n n
+TDD159466 ? 
+TDD-159550 question done
+TDD676930 > *
+TDD4866615 try? 1
+TDD-5543441 questioning: ["inert", "#4"]
+TDD4012548 #1 _____ ~E -ACLOPST  📋 "inert" ? .
+TDD-4012551 attempt 0 INERT n n m n n
+TDD3087827 #2 _____ ~E -ACLOPST  📋 "inert" ? _____ ~ EIR
+TDD-3087856 attempt 1 INERT m n m m n
+TDD4607832 #3 _____ ~AE -CLOPST  📋 "inert" ? _____ ~ EANR
+TDD-4607799 attempt 2 INERT n m m m n
+TDD4834418 #4 __E_T -ACLOPS  📋 "inert" ? __E_T ~ EN
+TDD-4834437 attempt 3 INERT n m Y n Y
+TDD3913746 #5 T___S ~E -ACLOPT  📋 "inert" ? T___S ~ EN
+TDD-3913745 attempt 4 INERT n m m n n
+TDD283499 ? 
+TDD-283607 question done
+TDD524730 > *
+TDD-18142 questioning: ["event", "#4"]
+TDD6986544 #1 _____ ~E -ACILNOPRST  📋 "event" ? E____ ~ E
+TDD-7493017 attempt 0 EVENT Y n m n n
+TDD1429431 #2 _____ ~EIR -ACLNOPST  📋 "event" ? .
+TDD-1429441 attempt 1 EVENT m n m n n
+TDD5013033 #3 _____ ~AENR -CILOPST  📋 "event" ? _____ ~ EANRV
+TDD-5013027 attempt 2 EVENT m m m m n
+TDD2091001 #4 __E_T ~N -ACILOPRS  📋 "event" ? /it
+TDD-2091011 attempt 3 EVENT Y Y Y Y Y
+TDD2715265 #5 T___S ~EN -ACILOPRT  📋 "event" ? .
+TDD-2715246 attempt 4 EVENT m n m m n
+TDD173799 ? 
+TDD-173912 question done
+TDD578146 > *
+TDD9751 questioning: ["raven", "#3"]
+TDD5623569 #1 E____ ~E -ACILNOPRSTV  📋 "raven" ? E__E_
+TDD-6211371 attempt 0 RAVEN n n n Y n
+TDD1280428 #2 _____ ~EIR -ACLNOPSTV  📋 "raven" ? .
+TDD-1280391 attempt 1 RAVEN m n n m n
+TDD966360 #3 _____ ~AENRV -CILOPST  📋 "raven" ? /it
+TDD-966396 attempt 2 RAVEN Y Y Y Y Y
+TDD1249377 #5 T___S ~EN -ACILOPRTV  📋 "raven" ? .
+TDD-1249373 attempt 4 RAVEN n n n m m
+TDD177954 ? 
+TDD-178034 question done
+TDD538625 > *
+TDD1307343 questioning: ["grime", "#2"]
+TDD6000323 #1 E__E_ -ACILNOPRSTV  📋 "grime" ? E__E_ ~ G
+TDD-7846201 attempt 0 GRIME m n n n n
+TDD747464 #2 _____ ~EIR -ACLNOPSTV  📋 "grime" ? /it
+TDD-747474 attempt 1 GRIME Y Y Y Y Y
+TDD1200633 #5 T___S ~EN -ACILOPRTV  📋 "grime" ? .
+TDD-1200640 attempt 4 GRIME n n n n m
+TDD160738 ? 
+TDD-160801 question done
+TDD492399 > *
+TDD886856 questioning: ["tends", "#5"]
+TDD5442983 #1 E__E_ ~G -ACEILMNOPRSTV  📋 "tends" ? E__E_ ~ GD
+TDD-6822162 attempt 0 TENDS n n n m n
+TDD255247 #5 T___S ~EN -ACGILMOPRTV  📋 "tends" ? 
+TDD903152 #5 T___S ~EN -ACGILMOPRTV  ? /it
+TDD-1158406 attempt 4 TENDS Y Y Y Y Y
+TDD270886 ? 
+TDD-270947 question done
+TDD627571 > *
+TDD3232939 try? 2
+TDD-3860427 questioning: ["edged", "#1"]
+TDD9390711 #1 E__E_ ~DG -ACEILMNOPRSTV  📋 "edged" ? E_GED ~ G
+TDD-9390734 attempt 0 EDGED Y n Y Y Y
+TDD1307823 ? 
+TDD-1307864 question done
+TDD927160 > egged
+TDD-926763 questioning: ["egged", "entered"]
+TDD4047227 #1 E_GED -ACILMNOPRSTV  📋 "egged" ? /it
+TDD-4047595 attempt 0 EGGED Y Y Y Y Y
+TDD726986 ? 
+TDD-727043 question done
+TDD4658529 📋> squareword.org 1374: 9 guesses
+TDD-4658531 📋> 
+TDD-66 📋> 🟩🟨🟨🟩🟨
+TDD-5 📋> 🟨🟨🟨🟨🟨
+TDD19 📋> 🟩🟩🟩🟩🟩
+TDD-21 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟨🟨🟨🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD486710 📋> #squareword #squareword1374
+TDD-272680 📋> ␚
+TDD-213976 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1374: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1374"}
+TDD844 result: "squareword.org 1374: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1374"
+TDD198056 📆 2025-11-05 ? 
