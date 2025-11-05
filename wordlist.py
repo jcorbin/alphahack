@@ -303,23 +303,25 @@ class Browser:
 
         return False
 
-def format_browser_lines(words: Sequence[str], inotes: Iterable[tuple[int, str]], at: int|None = None):
+def format_browser_lines(words: Sequence[str],
+                         inotes: Iterable[tuple[int, str]],
+                         at: int|None = None):
     ix: list[int] = []
     notes: list[str] = []
     for i, note in inotes:
         ix.append(i)
         notes.append(note)
 
-    words = [words[i] for i in ix]
-    word_width = max(len(w) for w in words)
+    ix_words = [words[i] for i in ix]
+    word_width = max(len(w) for w in ix_words)
 
     ix_width = max(len(str(i)) for i in ix)
 
     if at is None:
-        for i, word, note in zip(ix, words, notes):
+        for i, word, note in zip(ix, ix_words, notes):
             yield f'[{i:>{ix_width}}] {word:<{word_width}} {note}'
     else:
         deltas = list('@' if i == at else f'@{i - at:+}' for i in ix)
         delta_width = max(len(d) for d in deltas)
-        for delta, i, word, note in zip(deltas, ix, words, notes):
+        for delta, i, word, note in zip(deltas, ix, ix_words, notes):
             yield f'{delta:<{delta_width}} [{i:>{ix_width}}] {word:<{word_width}} {note}'
