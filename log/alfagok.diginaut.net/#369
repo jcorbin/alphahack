@@ -1,0 +1,37 @@
+T78679.00897859596 now: 2025-11-06T13:15:54UTC
+TD42 site: alfagok.diginaut.net
+TDD148791 loaded 399551 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1301 words excluded) asof cc4ba33ff898c95bb8110a14f629b6af1291e655
+TDD4124283  ...
+TDD744184 [0 : 199766 : 399551] lijn? b
+TDD-5017081 progress: -1 199766 lijn
+TDD2051094 [0 : 99842 : 199766] examen? a
+TDD-2051228 progress: 1 99842 examen
+TDD1984031 [99843 : 149326 : 199766] huis? b
+TDD-1984024 progress: -1 149326 huis
+TDD1677786 [99843 : 124522 : 149326] gevoel? b
+TDD-1677785 progress: -1 124522 gevoel
+TDD1697157 [99843 : 112129 : 124522] geboorte? a
+TDD-1697154 progress: 1 112129 geboorte
+TDD1826477 [112130 : 118273 : 124522] geluk? b
+TDD-1826464 progress: -1 118273 geluk
+TDD1768185 [112130 : 115176 : 118273] gehand? a
+TDD-1768207 progress: 1 115176 gehand
+TDD3412241 [115177 : 116697 : 118273] gelaat? a
+TDD-3412225 progress: 1 116697 gelaat
+TDD1965863 [116698 : 117444 : 118273] gelijk? b
+TDD-1965879 progress: -1 117444 gelijk
+TDD4586051 [116698 : 116819 : 117444] geld? it
+TDD-4586041 progress: 0 116819 geld
+TDD-71 [116698 : 116819 : 117444] <Done>.
+TDD3855144 📋> 🧩 Puzzel #369
+TDD-3855086 📋> 🤔 10 gokken
+TDD-62 📋> ⏱️ 21s
+TDD466946 📋> 🔗 alfagok.diginaut.net
+TDD-41714 📋> ␚
+TDD-425164 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #369\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 21s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD236 result: "\ud83e\udde9 Puzzel #369\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 21s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-291 result puzzle: 369
+TDD-23 result guesses: 10
+TDD-2 result time: 21s
+TDD0 result link: alfagok.diginaut.net
+TDD395475 📆 2025-11-06 ? 
