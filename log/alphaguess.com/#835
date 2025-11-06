@@ -1,0 +1,48 @@
+T78716.00735909492 now: 2025-11-06T13:16:31UTC
+TD50 site: alphaguess.com
+TDD64080 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof cc4ba33ff898c95bb8110a14f629b6af1291e655
+TDD10117463  ...
+TDD-8450786 [0 : 98226 : 196542] mach? b
+TDD-1730695 progress: -1 98226 mach
+TDD1600961 [0 : 47387 : 98226] dis? b
+TDD-1600993 progress: -1 47387 dis
+TDD1485518 [0 : 23688 : 47387] camp? b
+TDD-1485507 progress: -1 23688 camp
+TDD1556025 [0 : 11765 : 23688] back? b
+TDD-1556024 progress: -1 11765 back
+TDD1545116 [0 : 5877 : 11765] angel? a
+TDD-1545122 progress: 1 5877 angel
+TDD1464413 [5878 : 8324 : 11765] ar? a
+TDD-1464421 progress: 1 8324 ar
+TDD2248776 [8325 : 9342 : 11765] as? b
+TDD-2248757 progress: -1 9342 as
+TDD1621471 [8325 : 8825 : 9342] arid? b
+TDD-1621502 progress: -1 8825 arid
+TDD1480134 [8325 : 8499 : 8825] arch? a
+TDD-1480152 progress: 1 8499 arch
+TDD1565675 [8500 : 8662 : 8825] arciform? a
+TDD-1565677 progress: 1 8662 arciform
+TDD1562984 [8663 : 8743 : 8825] argal? a
+TDD-1562941 progress: 1 8743 argal
+TDD1521997 [8744 : 8783 : 8825] argot? a
+TDD-1522010 progress: 1 8783 argot
+TDD1592702 [8784 : 8800 : 8825] argument? b
+TDD-1592693 progress: -1 8800 argument
+TDD1645943 [8784 : 8788 : 8800] argue? it
+TDD-1645967 progress: 0 8788 argue
+TDD-42 [8784 : 8788 : 8800] <Done>.
+TDD2610169 📋> 🧩 Puzzle #835
+TDD-2610148 📋> 
+TDD-19 📋> 🤔 14 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 21s
+TDD-1 📋> 
+TDD482947 📋> 🔗 alphaguess.com
+TDD-203445 📋> ␚
+TDD-279447 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #835\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-21 result: "\ud83e\udde9 Puzzle #835\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+TDD-23 result puzzle: 835
+TDD-14 result guesses: 14
+TDD-2 result time: 21s
+TDD0 result link: alphaguess.com
+TDD286571 📆 2025-11-06 ? 
