@@ -441,6 +441,10 @@ class Handle:
 
         else:
             self.specials = self.std_specials.copy()
+            self.specials.update({
+                'dir': self.do_ls,
+                'ls': self.do_ls,
+            })
             self.par = par
             self.pre_path = '/' if '..' not in par else ''
 
@@ -747,6 +751,93 @@ class Handle:
             # TODO assert unreachable?
             ui.print(self.describe)
 
+    def do_ls(self, ui: 'PromptUI',
+              handles: Iterable['Handle']|None = None,
+              show_help: bool = False,
+              show_hidden: bool = False,
+              verbose: int = 0):
+        args: list[str] = []
+        while ui.tokens:
+            v = ui.tokens.have('-(v+)', then=lambda m: len(m[1]))
+            if v is not None:
+                verbose += v
+                continue
+
+            if ui.tokens.have('-a'):
+                show_hidden = True
+                continue
+
+            unk = ui.tokens.have('-.+', then=lambda m: m[0])
+            if unk is not None:
+                ui.print(f'! unknown ls option {unk}')
+                return
+
+            if ui.tokens.have('--'):
+                args.extend(ui.tokens)
+                break
+
+            args.append(next(ui.tokens))
+
+        if args:
+            handles = (self[arg] for arg in args)
+        elif handles is None:
+            handles = (self,)
+
+        def check(cur: Handle):
+            if cur: return
+            yield f'unresolved {cur.path}'
+            if cur.may:
+                yield f'may be {join_word_seq('or', sorted(cur.may))}'
+            if cur.given:
+                yield f'given ... / {' / '.join(cur.given)}'
+
+        seen: set[str] = set()
+        for cur in handles:
+            path = cur.path
+            if path in seen:
+                continue
+            else:
+                seen.add(path)
+
+            problems = tuple(check(cur))
+            if problems:
+                for prob in problems:
+                    ui.print(f'! {prob}')
+                continue
+
+            if verbose:
+                ui.print(f'is_root:{cur.name == '.' and '..' not in cur.par}')
+                ui.print(f'pre:{cur.pre_path!r} / nom:{cur.name!r}')
+                if cur.may: ui.print(f'may:{cur.may!r}')
+                if cur.given: ui.print(f'may:{cur.may!r}')
+                ui.print(f'type:{type(cur.ent).__name__}')
+
+            try:
+                ent = cur.ent
+                if ent is None:
+                    ui.print(f'{path}∅')
+                    continue
+
+                if show_help:
+                    ui.print_help(
+                        ent,
+                        name=path,
+                        mark='',
+                        short=False,
+                        show_hidden=show_hidden)
+                    continue
+
+                ui.write(path)
+                if not callable(ent):
+                    ui.fin('' if path.endswith('/') else '/')
+                    for name in sorted(ent):
+                        if name.startswith('.') and not show_hidden: continue
+                        ui.write(f'  {name}')
+                        ui.fin('' if callable(ent[name]) else '/')
+
+            finally:
+                ui.fin()
+
 @contextmanager
 def just[T](val: T) -> Generator[T]:
     yield val
@@ -1015,6 +1106,8 @@ def test_handle_specials(demo_world: Iterable[Entry]):
               !tracing
               !troff
               !tron
+              dir
+              ls
             > !tracing
             - tracing: off
             > !trac on
@@ -1032,6 +1125,14 @@ def test_handle_specials(demo_world: Iterable[Entry]):
             ! tracing already off ; noop
             >  <EOF>
             ''')
+
+    # TODO test !ls
+    # with PromptUI.TestHarness() as h:
+    #     assert h.run_all(root,
+    #         '!ls',
+    #     ) == reflow_block('''
+    #         > !ls
+    #         ''')
 
     # TODO currently no easy way to provoke
     # - "unimplemented command" branch
