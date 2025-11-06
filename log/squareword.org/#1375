@@ -1,0 +1,122 @@
+T78753.75842287578 now: 2025-11-06T13:17:09UTC
+TD53 site: squareword.org
+TDD-15 wordlist: nwl2023.txt
+TDD3456575  ...
+TDD-1273043 🧩  ? #1375
+TDD-2183397 puzzle_id: #1375
+TDD864882 > *
+TDD1286865 try? 1
+TDD-2151726 questioning: ["arles", "#5"]
+TDD4687696 #1 _____  📋 "arles" ? _R__S ~ A
+TDD-4687493 attempt 0 ARLES m Y n n Y
+TDD3469562 #2 _____  📋 "arles" ? _____ ~ RE
+TDD-3469790 attempt 1 ARLES n m n m n
+TDD4062824 #3 _____  📋 "arles" ? A____ ~ ES
+TDD-4062821 attempt 2 ARLES Y n n m m
+TDD4335582 #4 _____  📋 "arles" ? _____ ~ RE
+TDD-4335563 attempt 3 ARLES n m n m n
+TDD3094854 #5 _____  📋 "arles" ? ___E_ ~ RES
+TDD-3094867 attempt 4 ARLES n m n Y m
+TDD4713329 ? 
+TDD-4713363 question done
+TDD584912 > *
+TDD1102005 try? 1
+TDD-1686879 questioning: ["anise", "#3"]
+TDD4125675 #1 _R__S ~A -EL  📋 "anise" ? .
+TDD-4125687 attempt 0 ANISE m n n n n
+TDD4283879 #2 _____ ~ER -ALS  📋 "anise" ? _____ ~ REI
+TDD-4283895 attempt 1 ANISE n n m n m
+TDD3683535 #3 A____ ~ES -LR  📋 "anise" ? A_I_E ~ S
+TDD-3683511 attempt 2 ANISE Y n Y m Y
+TDD3441981 #4 _____ ~ER -ALS  📋 "anise" ? ____E ~ RI
+TDD-3441982 attempt 3 ANISE n n m n Y
+TDD3602008 #5 ___E_ ~RS -AL  📋 "anise" ? _N_E_ ~ RES
+TDD-3602027 attempt 4 ANISE n Y n m m
+TDD542695 ? *
+TDD642012 #6 <IndexError>  📋 "anise" ? ␚
+TDD-1184805 question done
+TDD891082 > *
+TDD-209320 questioning: ["aside", "#3"]
+TDD7428630 #1 _R__S ~A -EILNS  📋 "aside" ? .
+TDD-8110261 attempt 0 ASIDE m n n n n
+TDD900210 #2 _____ ~EIR -ALNS  📋 "aside" ? .
+TDD-900283 attempt 1 ASIDE n n m n m
+TDD996295 #3 A_I_E ~S -LNR  📋 "aside" ? /it
+TDD-996316 attempt 2 ASIDE Y Y Y Y Y
+TDD3243117 #4 ____E ~IR -ALNS  📋 "aside" ? ____E ~ RID
+TDD-3243034 attempt 3 ASIDE n n m m Y
+TDD5639480 #5 _N_E_ ~RS -AIL  📋 "aside" ? _N_E_ ~ RES
+TDD-5639496 attempt 4 ASIDE n m n n m
+TDD244198 ? 
+TDD-244286 question done
+TDD633434 > *
+TDD-102790 questioning: ["sneer", "#5"]
+TDD12126010 #1 _R__S ~A -DEILNS  📋 "sneer" ? .
+TDD-12656570 attempt 0 SNEER n n n n n
+TDD1257894 #2 _____ ~EIR -ADLNS  📋 "sneer" ? .
+TDD-1257878 attempt 1 SNEER n n m m m
+TDD1350191 #4 ____E ~DIR -ALNS  📋 "sneer" ? .
+TDD-1350215 attempt 3 SNEER n n n n m
+TDD754747 #5 _N_E_ ~RS -ADIL  📋 "sneer" ? /it
+TDD-754777 attempt 4 SNEER Y Y Y Y Y
+TDD183235 ? 
+TDD-183290 question done
+TDD543004 > *
+TDD2735619 try? 2
+TDD-3278505 questioning: ["ridge", "#4"]
+TDD9574617 #1 _R__S ~A -DEILNRS  📋 "ridge" ? _R__S ~ AG
+TDD-9574615 attempt 0 RIDGE n n n m n
+TDD4406938 #2 _____ ~EIR -ADLNS  📋 "ridge" ? R____ ~ EI
+TDD-4406956 attempt 1 RIDGE Y m n n m
+TDD10537263 #4 ____E ~DIR -AELNS  📋 "ridge" ? _I_GE ~ RD
+TDD-10537257 attempt 3 RIDGE m Y m Y Y
+TDD440766 ? 
+TDD-440828 question done
+TDD629436 > *
+TDD955952 questioning: ["dirge", "#4"]
+TDD3832140 #1 _R__S ~AG -DEILNRS  📋 "dirge" ? .
+TDD-5417479 attempt 0 DIRGE n n n m n
+TDD839083 #2 R____ ~EI -ADGLNS  📋 "dirge" ? .
+TDD-839090 attempt 1 DIRGE n m n n m
+TDD764661 #4 _I_GE ~DR -ALNS  📋 "dirge" ? /it
+TDD-764640 attempt 3 DIRGE Y Y Y Y Y
+TDD176905 ? 
+TDD-177000 question done
+TDD518153 > *
+TDD890976 questioning: ["refit", "#2"]
+TDD2950996 #1 _R__S ~AG -DEILNRS  📋 "refit" ? .
+TDD-4360045 attempt 0 REFIT n n n n n
+TDD842090 #2 R____ ~EI -ADGLNRS  📋 "refit" ? /it
+TDD-842101 attempt 1 REFIT Y Y Y Y Y
+TDD210543 ? 
+TDD-210591 question done
+TDD549731 > *
+TDD392659 questioning: ["grams", "#1"]
+TDD894191 #1 _R__S ~AG -DEFILNRST  📋 "grams" ? _grams
+TDD-1836521 attempt 0 GRAMS n n n n n
+TDD8459246 ? ␚
+TDD-8459320 question done
+TDD1721616 > ␚
+TDD-1721630 <EOF>
+TDD2726117 > grams
+TDD-2725946 questioning: ["grams", "entered"]
+TDD1224088 #1 _R__S -ADEFGILMNRST  📋 "grams" ? /it
+TDD-1224172 attempt 0 GRAMS Y Y Y Y Y
+TDD1238441 ? 
+TDD-1238501 question done
+TDD5237240 📋> squareword.org 1375: 8 guesses
+TDD-5237248 📋> 
+TDD-70 📋> 🟨🟩🟨🟨🟩
+TDD-5 📋> 🟩🟨🟨🟨🟨
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟩🟨🟩🟩
+TDD11 📋> 🟩🟩🟩🟩🟩
+TDD-10 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD653383 📋> #squareword #squareword1375
+TDD671665 📋> ␚
+TDD-1324981 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1375: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1375"}
+TDD365 result: "squareword.org 1375: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1375"
+TDD65119112 📆 2025-11-06 ? ␚
+TDD-65119490 <EOF>
+TDD2113839 📆 2025-11-06 ? 
