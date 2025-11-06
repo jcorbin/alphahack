@@ -442,6 +442,9 @@ class Handle:
         else:
             self.specials = self.std_specials.copy()
             self.specials.update({
+                'cwd': self.do_cwd,
+                'pwd': self.do_cwd,
+
                 'dir': self.do_ls,
                 'ls': self.do_ls,
                 'help': self.do_help,
@@ -752,6 +755,10 @@ class Handle:
         else:
             # TODO assert unreachable?
             ui.print(self.describe)
+
+    def do_cwd(self, ui: 'PromptUI'):
+        # TODO show $PWD? if diff?
+        ui.print(self.path)
 
     def do_help(self, ui: 'PromptUI'):
         self.do_ls(ui,
@@ -1133,6 +1140,7 @@ def test_handle_specials(demo_world: Iterable[Entry]):
             >  <EOF>
             ''')
 
+    # TODO test !pwd
     # TODO test !ls
     # with PromptUI.TestHarness() as h:
     #     assert h.run_all(root,
