@@ -445,6 +445,9 @@ class Handle:
                 'cwd': self.do_cwd,
                 'pwd': self.do_cwd,
 
+                'cd': self.do_chdir,
+                'chdir': self.do_chdir,
+
                 'dir': self.do_ls,
                 'ls': self.do_ls,
                 'help': self.do_help,
@@ -759,6 +762,22 @@ class Handle:
     def do_cwd(self, ui: 'PromptUI'):
         # TODO show $PWD? if diff?
         ui.print(self.path)
+
+    def do_chdir(self, ui: 'PromptUI'):
+        targ = (
+            # TODO $OLDPWD if ui.tokens.have('-')
+            # else
+            self[next(ui.tokens)] if ui.tokens
+            # TODO $HOME
+            else self)
+
+        if not targ:
+            ui.print(f'! {targ.describe}')
+            return
+
+        # TODO set $PWD and $OLDPWD
+        ui.print(targ.path)
+        return targ
 
     def do_help(self, ui: 'PromptUI'):
         self.do_ls(ui,
@@ -1141,6 +1160,7 @@ def test_handle_specials(demo_world: Iterable[Entry]):
             ''')
 
     # TODO test !pwd
+    # TODO test !chdir
     # TODO test !ls
     # with PromptUI.TestHarness() as h:
     #     assert h.run_all(root,
