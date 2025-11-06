@@ -432,6 +432,8 @@ class Handle:
             self.specials.update({
                 'dir': self.do_ls,
                 'ls': self.do_ls,
+                'help': self.do_help,
+                # TODO special-er "?" alias for !help
             })
             self.par = par
             self.pre_path = '/' if '..' not in par else ''
@@ -738,6 +740,11 @@ class Handle:
         else:
             # TODO assert unreachable?
             ui.print(self.describe)
+
+    def do_help(self, ui: 'PromptUI'):
+        self.do_ls(ui,
+                   handles=(self, self.root),
+                   show_help=True)
 
     def do_ls(self, ui: 'PromptUI',
               handles: Iterable['Handle']|None = None,
@@ -1112,6 +1119,7 @@ def test_handle_specials(demo_world: Iterable[Entry]):
             ''')
 
     # TODO test !ls
+    # TODO test !help
 
     # TODO currently no easy way to provoke
     # - "unimplemented command" branch
