@@ -615,6 +615,11 @@ class Handle:
             with ui.tokens_or('> ') as tokens:
                 return self.resolve(tokens, tr=tr)._handle(ui, tr)
 
+    def search(self, cmd: str):
+        while self and not self.given:
+            yield self[cmd]
+            self = self['..']
+
     def resolve(self,
                 tokens: 'PromptUI.Tokens',
                 tr: 'PromptUI.Traced.Entish|None' = None):
@@ -641,12 +646,10 @@ class Handle:
         if self:
             cmd = next(tokens)
             be: Handle|None = None
-            while self and not self.given:
-                may = self[cmd]
+            for may in self.search(cmd):
                 maybe = prefer(may, be)
                 tr.write(f'prefer({may}, {be}) -> {maybe}')
                 be = maybe
-                self = self['..']
             if be is not None:
                 return be
             tr.write(f'fallthru {self}')
