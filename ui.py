@@ -640,8 +640,11 @@ class Handle:
 
         bang_m = tokens.have(f'!+(.+)')
         if bang_m:
-            bang = str(bang_m[1])
+            bang = bang_m[0]
             hndl = Handle(self.specials, bang)
+            if not hndl:
+                bang = str(bang_m[1])
+                hndl = Handle(self.specials, bang)
             tr.write(f'bang {bang!r}')
             return hndl
 
