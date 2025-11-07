@@ -620,6 +620,8 @@ class Handle:
             yield self[cmd]
             self = self['..']
 
+        yield Handle(self.specials, cmd)
+
     def resolve(self,
                 tokens: 'PromptUI.Tokens',
                 tr: 'PromptUI.Traced.Entish|None' = None):
