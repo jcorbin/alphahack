@@ -15,7 +15,7 @@ import zlib
 from base64 import b64encode, b85encode
 from bisect import bisect
 from contextlib import contextmanager
-from collections.abc import Generator, Iterable, Sequence
+from collections.abc import Generator, Iterable, MutableMapping, Sequence
 from emoji import emoji_count
 from io import StringIO
 from types import TracebackType
@@ -1645,6 +1645,94 @@ class Prompt(Dispatcher):
             return super().__call__(ui)
 
 @final
+class EnvVars(MutableMapping[str, str]):
+    def __init__(self, environ: MutableMapping[str, str]|None=None):
+        self.vars: dict[str, str] = {}
+        self.environ = os.environ if environ is None else environ
+
+    @override
+    def __iter__(self) -> Generator[str]:
+        yield from self.vars
+        for k in self.environ:
+            if k not in self.vars:
+                yield k
+
+    @override
+    def __len__(self):
+        return len(self.vars) + sum(
+            1
+            for k in self.environ
+            if k not in self.vars)
+
+    @override
+    def __getitem__(self, key: str):
+        try:
+            return self.vars[key]
+        except KeyError:
+            pass
+        return self.environ[key]
+
+    @override
+    def __setitem__(self, key: str, val: str):
+        self.vars[key] = val
+
+    @override
+    def __delitem__(self, key: str):
+        try:
+            del self.vars[key]
+        except KeyError:
+            pass
+        try:
+            del self.environ[key]
+        except KeyError:
+            pass
+
+    def export(self, name: str, value: str|None=None):
+        if value is None:
+            value = self.vars.get(name)
+        if not value:
+            try:
+                del self.environ[name]
+            except KeyError:
+                pass
+        else:
+            self.environ[name] = value
+        try:
+            del self.vars[name]
+        except KeyError:
+            pass
+
+def test_EnvVars():
+    os_env = {
+        'FOO': 'bar',
+    }
+    vars = EnvVars(os_env)
+
+    assert vars['FOO'] == 'bar'
+    os_env['FOO'] = 'baz'
+    assert vars['FOO'] == 'baz'
+
+    vars['name'] = 'bob'
+    assert vars['name'] == 'bob'
+    assert 'name' not in os_env
+
+    vars.export('name')
+    assert vars['name'] == 'bob'
+    assert os_env['name'] == 'bob'
+
+    vars['name'] = 'sue'
+    assert vars['name'] == 'sue'
+    assert os_env['name'] == 'bob'
+
+    vars.export('name', 'alice')
+    assert vars['name'] == 'alice'
+    assert os_env['name'] == 'alice'
+
+    del vars['name']
+    assert 'name' not in vars
+    assert 'name' not in os_env
+
+@final
 class PromptUI:
     @staticmethod
     def then_eof(_ui: 'PromptUI'):
@@ -1816,6 +1904,8 @@ class PromptUI:
 
         self.traced = False
         self.tracer: PromptUI.Traced|None = None
+
+        self.vars = EnvVars()
 
     @contextmanager
     def maybe_tracer(self, st: State):
