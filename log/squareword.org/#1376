@@ -1,0 +1,88 @@
+T150.91900899074972 now: 2025-11-07T13:39:23UTC
+TD56 site: squareword.org
+TDD-16 wordlist: nwl2023.txt
+TDD2236347  ...
+TDD161802 🧩  ? #1376
+TDD-2398037 puzzle_id: #1376
+TDD1552874 > *
+TDD-654835 try? 
+TDD-378502 try? 1
+TDD-519511 questioning: ["least", "#5"]
+TDD5880123 #1 _____  📋 "least" ? ____T ~ LAS
+TDD-5879898 attempt 0 LEAST m n m m Y
+TDD2288623 #2 _____  📋 "least" ? __A__ ~ AT
+TDD-2288853 attempt 1 LEAST n n Y n m
+TDD2991137 #3 _____  📋 "least" ? _____ ~ AST
+TDD-2991144 attempt 2 LEAST n n m m m
+TDD4452131 #4 _____  📋 "least" ? ___ST ~ E
+TDD-4452109 attempt 3 LEAST n m n Y Y
+TDD2572103 #5 _____  📋 "least" ? _____ ~ ES
+TDD-2572143 attempt 4 LEAST n m n m n
+TDD768115 ? 
+TDD-768161 question done
+TDD6491208 > *
+TDD-2995105 try? 2
+TDD-3496031 questioning: ["splat", "#1"]
+TDD3191922 #1 ____T ~ALS -E  📋 "splat" ? /it
+TDD-3191929 attempt 0 SPLAT Y Y Y Y Y
+TDD5848601 #2 __A__ ~T -ELS  📋 "splat" ? __A__ ~ AT
+TDD-5848607 attempt 1 SPLAT n n n m m
+TDD1113139 #3 _____ ~AST -EL  📋 "splat" ? .
+TDD-1113124 attempt 2 SPLAT m n n m m
+TDD1552119 #4 ___ST ~E -AL  📋 "splat" ? .
+TDD-1552114 attempt 3 SPLAT n n n n Y
+TDD3432220 #5 _____ ~ES -ALT  📋 "splat" ? SP___ ~ E
+TDD-3432242 attempt 4 SPLAT Y Y n n n
+TDD413268 ? 
+TDD-413317 question done
+TDD7263935 > *
+TDD-3725839 try? 2
+TDD-3538037 questioning: ["tiara", "#2"]
+TDD3393668 #2 __A__ ~T -ELPS  📋 "tiara" ? /it
+TDD-3393681 attempt 1 TIARA Y Y Y Y Y
+TDD4516988 #3 _____ ~AST -ELP  📋 "tiara" ? _____ ~ ASTI
+TDD-4517011 attempt 2 TIARA m m m n m
+TDD1870540 #4 ___ST ~E -ALPS  📋 "tiara" ? .
+TDD-1870506 attempt 3 TIARA n n n n n
+TDD3640040 #5 SP___ ~E -ALT  📋 "tiara" ? SP___ ~ ER
+TDD-3640044 attempt 4 TIARA n n n m n
+TDD334034 ? 
+TDD-334086 question done
+TDD867609 > *
+TDD-309620 questioning: ["antis", "#3"]
+TDD3169150 #3 _____ ~AIST -ELPR  📋 "antis" ? /it
+TDD-3727075 attempt 2 ANTIS Y Y Y Y Y
+TDD2236274 #4 ___ST ~E -AILPRST  📋 "antis" ? .
+TDD-2236274 attempt 3 ANTIS n n n n n
+TDD1555669 #5 SP___ ~ER -AILT  📋 "antis" ? .
+TDD-1555682 attempt 4 ANTIS n n n n n
+TDD261491 ? 
+TDD-261577 question done
+TDD665361 > *
+TDD794788 questioning: ["guest", "#4"]
+TDD2177074 #4 ___ST ~E -AILNPRST  📋 "guest" ? /it
+TDD-3637152 attempt 3 GUEST Y Y Y Y Y
+TDD1556467 #5 SP___ ~ER -AILNST  📋 "guest" ? .
+TDD-1556461 attempt 4 GUEST n n m n n
+TDD228556 ? 
+TDD-228658 question done
+TDD488381 > *
+TDD393229 questioning: ["spree", "#5"]
+TDD6057341 #5 SP___ ~ER -AGILNSTU  📋 "spree" ? /it
+TDD-6938845 attempt 4 SPREE Y Y Y Y Y
+TDD2004920 ? 
+TDD-2004970 question done
+TDD3468911 📋> squareword.org 1376: 6 guesses
+TDD-3468946 📋> 
+TDD-49 📋> 🟩🟩🟩🟩🟩
+TDD-6 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟨🟨🟨
+TDD0 📋> 
+TDD12 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD253718 📋> #squareword #squareword1376
+TDD82353 📋> ␚
+TDD-336029 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1376: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1376"}
+TDD375 result: "squareword.org 1376: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1376"
+TDD378851 📆 2025-11-07 ? 
