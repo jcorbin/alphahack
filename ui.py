@@ -394,9 +394,9 @@ def do_troff(ui: 'PromptUI'):
 @final
 class Handle:
     std_specials: Listing = {
-        'tracing': do_tracing,
-        'tron': do_tron,
-        'troff': do_troff,
+        '!tracing': do_tracing,
+        '!tron': do_tron,
+        '!troff': do_troff,
     }
 
     par: Listing
@@ -653,10 +653,15 @@ class Handle:
                 else may if may and len(may.given) < len(be.given)
                 else be)
 
-        bang = tokens.have(f'!+(.+)', lambda m: m[1])
-        if bang is not None:
+        bang_m = tokens.have(f'!+(.+)')
+        if bang_m:
+            bang = bang_m[0]
+            hndl = Handle(self.specials, bang)
+            if not hndl:
+                bang = str(bang_m[1])
+                hndl = Handle(self.specials, bang)
             tr.write(f'bang {bang!r}')
-            return Handle(self.specials, bang)
+            return hndl
 
         if self:
             cmd = next(tokens)
@@ -994,22 +999,22 @@ def test_handle_specials(demo_world: Iterable[Entry]):
             '!trac off',
         ) == reflow_block('''
             > !invalid
-            unknown command / invalid; possible commands:
-              tracing
-              troff
-              tron
+            unknown command / !invalid; possible commands:
+              !tracing
+              !troff
+              !tron
             > !tracing
             - tracing: off
             > !trac on
             🔺 <TRON> -> /
             🔺 /
             🔺 / call> !tron
-            🔺 bang 'tron' -> do_tron
+            🔺 bang '!tron' -> do_tron
             ! tracing already on ; noop
             🔺 -> <AGAIN>
             🔺 /
             🔺 / call> !troff
-            🔺 bang 'troff' -> do_troff
+            🔺 bang '!troff' -> do_troff
             🔺 <!- Next <TROFF> -> /
             > !trac off
             ! tracing already off ; noop
