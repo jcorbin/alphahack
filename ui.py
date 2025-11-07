@@ -385,9 +385,9 @@ def do_troff(ui: 'PromptUI'):
 @final
 class Handle:
     std_specials: Listing = {
-        'tracing': do_tracing,
-        'tron': do_tron,
-        'troff': do_troff,
+        '!tracing': do_tracing,
+        '!tron': do_tron,
+        '!troff': do_troff,
     }
 
     par: Listing
@@ -969,9 +969,9 @@ def test_handle_basics():
         )) == reflow_block('''
             > !invalid
             unknown command / invalid; possible commands:
-              tracing
-              troff
-              tron
+              !tracing
+              !troff
+              !tron
             > !tracing
             - tracing: off
             > !trac on
