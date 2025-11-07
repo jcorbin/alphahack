@@ -1,0 +1,45 @@
+T49.90690562874079 now: 2025-11-07T13:37:42UTC
+TD58 site: alfagok.diginaut.net
+TDD149211 loaded 399551 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1301 words excluded) asof 9758289235a0fef1f00194d31bcc711564852205
+TDD7892544  ...
+TDD-6174268 [0 : 199766 : 399551] lijn? b
+TDD-1867339 progress: -1 199766 lijn
+TDD3001068 [0 : 99842 : 199766] examen? a
+TDD-3001160 progress: 1 99842 examen
+TDD1745825 [99843 : 149326 : 199766] huis? b
+TDD-1745851 progress: -1 149326 huis
+TDD1879554 [99843 : 124522 : 149326] gevoel? a
+TDD-1879536 progress: 1 124522 gevoel
+TDD1802733 [124523 : 136028 : 149326] hand? b
+TDD-1802758 progress: -1 136028 hand
+TDD1678506 [124523 : 130267 : 136028] grachten? b
+TDD-1678504 progress: -1 130267 grachten
+TDD1784826 [124523 : 127358 : 130267] gist? b
+TDD-1784813 progress: -1 127358 gist
+TDD1691887 [124523 : 125932 : 127358] gezondheid? b
+TDD-1691902 progress: -1 125932 gezondheid
+TDD1682871 [124523 : 125219 : 125932] gewild? b
+TDD-1682857 progress: -1 125219 gewild
+TDD3476500 [124523 : 124844 : 125219] geweer? b
+TDD-3476508 progress: -1 124844 geweer
+TDD1839538 [124523 : 124683 : 124844] gevreeën? b
+TDD-1839499 progress: -1 124683 gevreeën
+TDD1750114 [124523 : 124604 : 124683] gevoelvol? a
+TDD-1750157 progress: 1 124604 gevoelvol
+TDD1825349 [124605 : 124643 : 124683] gevonden? b
+TDD-1825350 progress: -1 124643 gevonden
+TDD2111605 [124605 : 124619 : 124643] gevolg? it
+TDD-2111585 progress: 0 124619 gevolg
+TDD-77 [124605 : 124619 : 124643] <Done>.
+TDD3270564 📋> 🧩 Puzzel #370
+TDD-3270523 📋> 🤔 14 gokken
+TDD-45 📋> ⏱️ 26s
+TDD228830 📋> 🔗 alfagok.diginaut.net
+TDD55727 📋> ␚
+TDD-284503 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #370\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 26s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD243 result: "\ud83e\udde9 Puzzel #370\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 26s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-301 result puzzle: 370
+TDD-7 result guesses: 14
+TDD7 result time: 26s
+TDD-9 result link: alfagok.diginaut.net
+TDD384911 📆 2025-11-07 ? 
