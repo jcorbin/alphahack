@@ -638,10 +638,12 @@ class Handle:
                 else may if may and len(may.given) < len(be.given)
                 else be)
 
-        bang = tokens.have(f'!+(.+)', lambda m: m[1])
-        if bang is not None:
+        bang_m = tokens.have(f'!+(.+)')
+        if bang_m:
+            bang = str(bang_m[1])
+            hndl = Handle(self.specials, bang)
             tr.write(f'bang {bang!r}')
-            return Handle(self.specials, bang)
+            return hndl
 
         if self:
             cmd = next(tokens)
