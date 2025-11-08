@@ -1,0 +1,46 @@
+T60293.26071663387 now: 2025-11-08T13:05:32UTC
+TD51 site: alphaguess.com
+TDD69628 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof 3d948784fbedf29eed725f05e3020abad3d65aad
+TDD3949704  ...
+TDD-606431 [0 : 98226 : 196542] mach? a
+TDD-3412818 progress: 1 98226 mach
+TDD1733935 [98227 : 147331 : 196542] rho? b
+TDD-1733960 progress: -1 147331 rho
+TDD1711489 [98227 : 122111 : 147331] par? a
+TDD-1711507 progress: 1 122111 par
+TDD1531574 [122112 : 134642 : 147331] prog? a
+TDD-1531558 progress: 1 134642 prog
+TDD1572792 [134643 : 140528 : 147331] rec? b
+TDD-1572793 progress: -1 140528 rec
+TDD1532085 [134643 : 137525 : 140528] quad? b
+TDD-1532098 progress: -1 137525 quad
+TDD1686828 [134643 : 136062 : 137525] psycho? b
+TDD-1686827 progress: -1 136062 psycho
+TDD1615954 [134643 : 135348 : 136062] proso? b
+TDD-1615949 progress: -1 135348 proso
+TDD1476311 [134643 : 134983 : 135348] pronoun? a
+TDD-1476320 progress: 1 134983 pronoun
+TDD3628703 [134984 : 135156 : 135348] proportion? b
+TDD-3628694 progress: -1 135156 proportion
+TDD2051574 [134984 : 135019 : 135156] prop? b
+TDD-2051583 progress: -1 135019 prop
+TDD2277855 [134984 : 135002 : 135019] pronunciation? a
+TDD-2277842 progress: 1 135002 pronunciation
+TDD4025147 [135003 : 135005 : 135019] proof? it
+TDD-4025160 progress: 0 135005 proof
+TDD-66 [135003 : 135005 : 135019] <Done>.
+TDD2805320 📋> 🧩 Puzzle #837
+TDD-2805265 📋> 
+TDD-52 📋> 🤔 13 guesses
+TDD-4 📋> 
+TDD0 📋> ⏱️ 23s
+TDD-3 📋> 
+TDD353515 📋> 🔗 alphaguess.com
+TDD-41520 📋> ␚
+TDD-311926 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #837\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-25 result: "\ud83e\udde9 Puzzle #837\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"
+TDD-44 result puzzle: 837
+TDD-3 result guesses: 13
+TDD1 result time: 23s
+TDD-2 result link: alphaguess.com
+TDD294466 📆 2025-11-08 ? 
