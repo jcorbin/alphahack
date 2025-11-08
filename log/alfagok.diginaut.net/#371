@@ -1,0 +1,43 @@
+T60256.48943234794 now: 2025-11-08T13:04:55UTC
+TD54 site: alfagok.diginaut.net
+TDD163147 loaded 399551 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1301 words excluded) asof 3d948784fbedf29eed725f05e3020abad3d65aad
+TDD5523106  ...
+TDD-2674899 [0 : 199766 : 399551] lijn? b
+TDD-3011171 progress: -1 199766 lijn
+TDD1913792 [0 : 99842 : 199766] examen? a
+TDD-1913922 progress: 1 99842 examen
+TDD1802669 [99843 : 149326 : 199766] huis? b
+TDD-1802669 progress: -1 149326 huis
+TDD1705253 [99843 : 124522 : 149326] gevoel? b
+TDD-1705256 progress: -1 124522 gevoel
+TDD1672487 [99843 : 112129 : 124522] geboorte? b
+TDD-1672495 progress: -1 112129 geboorte
+TDD1783155 [99843 : 105983 : 112129] fluctueren? b
+TDD-1783166 progress: -1 105983 fluctueren
+TDD1593853 [99843 : 102861 : 105983] fel? a
+TDD-1593837 progress: 1 102861 fel
+TDD1859296 [102862 : 104233 : 105983] film? b
+TDD-1859287 progress: -1 104233 film
+TDD1685891 [102862 : 103510 : 104233] fietsen? a
+TDD-1685922 progress: 1 103510 fietsen
+TDD1605507 [103511 : 103872 : 104233] fietsvriend? a
+TDD-1605486 progress: 1 103872 fietsvriend
+TDD2295832 [103873 : 103972 : 104233] fijn? b
+TDD-2295841 progress: -1 103972 fijn
+TDD2036683 [103873 : 103922 : 103972] figurentheater? a
+TDD-2036680 progress: 1 103922 figurentheater
+TDD2265689 [103923 : 103926 : 103972] figuur? it
+TDD-2265670 progress: 0 103926 figuur
+TDD-88 [103923 : 103926 : 103972] <Done>.
+TDD2852858 📋> 🧩 Puzzel #371
+TDD-2852806 📋> 🤔 13 gokken
+TDD-51 📋> ⏱️ 22s
+TDD327271 📋> 🔗 alfagok.diginaut.net
+TDD-85267 📋> ␚
+TDD-241953 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #371\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD225 result: "\ud83e\udde9 Puzzel #371\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-279 result puzzle: 371
+TDD-6 result guesses: 13
+TDD-2 result time: 22s
+TDD0 result link: alfagok.diginaut.net
+TDD246806 📆 2025-11-08 ? 
