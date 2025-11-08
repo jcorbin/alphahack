@@ -29,6 +29,61 @@ def join_word_seq(join: str, words: Sequence[str]):
     else:
         return f'{", ".join(words[:-1])}, {join} {words[-1]}'
 
+@final
+class Backoff:
+    def __init__(
+        self,
+        base: float = 2.0,
+        scale: float = 1.0,
+        limit: float = 0.0,
+        jitter: float = 1.0,
+        random: Callable[[], float] = random.random,
+    ):
+        self.base = base
+        self.scale = scale
+        self.limit = limit
+        self.jitter = jitter
+        self.random = random
+
+    def __call__(self, count: int = 0):
+        delay = math.pow(self.base, count)
+        if self.scale == 0:
+            jitter = self.jitter
+            return 0.0 if jitter == 0 else jitter * self.random()
+        delay *= self.scale
+        if self.limit != 0:
+            delay = min(self.limit, delay)
+        if self.jitter != 0:
+            delay *= self.jitter/2 + self.random()
+        return delay
+
+def test_Backoff():
+    backoff_max = 12.0
+    expected = [
+        1.0,
+        2.0,
+        4.0,
+        8.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+    ]
+
+    bk = Backoff(limit=backoff_max, random=lambda: 0.5)
+    for i, x in enumerate(expected):
+        assert bk(i) == x
+
+    bk.random = lambda: 0.0000001
+    for i, x in enumerate(expected):
+        assert bk(i) == pytest.approx(x - x/2) # pyright:ignore [reportUnknownMemberType]
+
+    bk.random = lambda: 0.999999
+    for i, x in enumerate(expected):
+        assert bk(i) == pytest.approx(x + x/2) # pyright:ignore [reportUnknownMemberType]
+
 def test_retry_backoffs():
     expected = [
         (0.0, 0.0, 0.0),
