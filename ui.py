@@ -84,6 +84,90 @@ def test_Backoff():
     for i, x in enumerate(expected):
         assert bk(i) == pytest.approx(x + x/2) # pyright:ignore [reportUnknownMemberType]
 
+@final
+class BackoffCounter:
+    def __init__(
+        self,
+        count: int = 0,
+        limit: int = 0,
+        backoff: Backoff|None = None
+    ):
+        self.count = count
+        self.count_init = count
+        self.count_limit = limit
+        self.backoff = Backoff() if backoff is None else backoff
+
+    @property
+    def done(self):
+        return self.count_limit > 0 and self.count >= self.count_limit
+
+    def reset(self, count: int|None = None):
+        self.count = self.count_init if count is None else count
+
+    def __enum_call__(self) -> tuple[int, float]:
+        count = self.count
+        self.count = count + 1
+        return count,  0 if count <= 0 else self.backoff(count - 1)
+
+    def enumerate(self) -> Generator[tuple[int, float]]:
+        while not self.done:
+            yield self.__enum_call__()
+
+    def __call__(self):
+        return self.__enum_call__()[1]
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self.done: raise StopIteration
+        return self.__enum_call__()[1]
+
+import pytest
+
+@pytest.mark.parametrize('backoff_from,backoff_max,expected', [
+    pytest.param(
+        0,
+        12.0,
+        [0.0, 1.0, 2.0, 4.0, 8.0, 12.0, 12.0],
+        id='init:0,max:12'),
+    pytest.param(
+        1,
+        12.0,
+        [1.0, 2.0, 4.0, 8.0, 12.0, 12.0],
+        id='init:1,max:12'),
+    pytest.param(
+        -1,
+        12.0,
+        [0.0, 0.0, 1.0, 2.0, 4.0, 8.0, 12.0, 12.0],
+        id='init:-1,max:12'),
+    pytest.param(
+        -3,
+        12.0,
+        [0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 4.0, 8.0, 12.0, 12.0],
+        id='init:-1,max:12'),
+])
+def test_BackoffCounter(
+    backoff_from: int,
+    backoff_max: float,
+    expected: list[float],
+):
+    backoff_utpo = backoff_from + len(expected)
+    bkc = BackoffCounter(
+        limit=backoff_utpo  ,
+        count=backoff_from,
+        backoff=Backoff(limit=backoff_max, random=lambda: 0.5),
+    )
+    ix: list[int] = []
+    mid_vals: list[float] = []
+    for i, val in bkc.enumerate():
+        ix.append(i)
+        mid_vals.append(val)
+    assert ix == list(range(backoff_from, backoff_utpo))
+    assert mid_vals == expected
+    bkc.reset()
+    assert list(bkc) == expected
+
 def test_retry_backoffs():
     expected = [
         (0.0, 0.0, 0.0),
@@ -974,8 +1058,6 @@ class Tokens(PeekStr):
     ) -> bool:
         self.raw = ''
         return False
-
-import pytest
 
 @pytest.mark.parametrize('input,tokens', [
     ('', []),
