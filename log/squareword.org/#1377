@@ -1,0 +1,104 @@
+T60337.94173907675 now: 2025-11-08T13:06:17UTC
+TD53 site: squareword.org
+TDD-16 wordlist: nwl2023.txt
+TDD2620323  ...
+TDD-482565 🧩  ? #1377
+TDD-2137610 puzzle_id: #1377
+TDD5280987 > *
+TDD-3689809 try? 1
+TDD-1591182 questioning: ["tires", "#5"]
+TDD4081987 #1 _____  📋 "tires" ? _____ ~ RS
+TDD-4081657 attempt 0 TIRES n n m n m
+TDD3086737 #2 _____  📋 "tires" ? __R__
+TDD-3087072 attempt 1 TIRES n n Y n n
+TDD2323092 #3 _____  📋 "tires" ? _____ ~ E
+TDD-2323094 attempt 2 TIRES n n n m n
+TDD2749755 #4 _____  📋 "tires" ? T__E_ ~ TE
+TDD-2749752 attempt 3 TIRES Y n n Y n
+TDD2643044 #5 _____  📋 "tires" ? _____ ~ RES
+TDD-2643055 attempt 4 TIRES n n m m m
+TDD235356 ? 
+TDD-235402 question done
+TDD901975 > *
+TDD1280587 try? 1
+TDD-2181962 questioning: ["arose", "#5"]
+TDD4834564 #1 _____ ~RS -EIT  📋 "arose" ? _____ ~ RSA
+TDD-4835115 attempt 0 AROSE m m n m n
+TDD2769919 #2 __R__ -EIST  📋 "arose" ? __R__ ~ AO
+TDD-2769928 attempt 1 AROSE m n m n n
+TDD3369092 #3 _____ ~E -IRST  📋 "arose" ? _____ ~ EAO
+TDD-3369092 attempt 2 AROSE m n m n m
+TDD4452780 #4 T__E_ -IRS  📋 "arose" ? T__E_ ~ TE
+TDD-4452758 attempt 3 AROSE n n n n m
+TDD3675975 #5 _____ ~ERS -IT  📋 "arose" ? _R_SE ~ EA
+TDD-3675988 attempt 4 AROSE m Y n Y Y
+TDD2731800 ? 
+TDD-2731819 question done
+TDD6679674 > *
+TDD-4174584 try? 2
+TDD-2505046 questioning: ["erase", "#5"]
+TDD19052567 #1 _____ ~ARS -EIOT  📋 "erase" ? __A__ ~ RS
+TDD-19052585 attempt 0 ERASE n m Y m n
+TDD1959987 #2 __R__ ~AO -EIRST  📋 "erase" ? .
+TDD-1959982 attempt 1 ERASE n n m n n
+TDD1107815 #3 _____ ~AEO -IRST  📋 "erase" ? .
+TDD-1107849 attempt 2 ERASE m n m n m
+TDD3008998 #4 T__E_ -AIORS  📋 "erase" ? T__E_ ~ TE
+TDD-3008968 attempt 3 ERASE m n n n m
+TDD775526 #5 _R_SE ~A -IOT  📋 "erase" ? /it
+TDD-775542 attempt 4 ERASE Y Y Y Y Y
+TDD183360 ? 
+TDD-183405 question done
+TDD528721 > *
+TDD1386702 try? 1
+TDD-1915311 questioning: ["omega", "#3"]
+TDD4261234 #1 __A__ ~RS -EIOT  📋 "omega" ? .
+TDD-4261278 attempt 0 OMEGA n n n n n
+TDD3125499 #2 __R__ ~AO -EIRST  📋 "omega" ? __R__ ~ AOM
+TDD-3125487 attempt 1 OMEGA m m n n m
+TDD719581 #3 _____ ~AEO -IRST  📋 "omega" ? /it
+TDD-719600 attempt 2 OMEGA Y Y Y Y Y
+TDD2747268 #4 T__E_ -AIORS  📋 "omega" ? T__E_ ~ TE
+TDD-2747287 attempt 3 OMEGA n n m n n
+TDD207067 ? 
+TDD-207110 question done
+TDD581832 > *
+TDD4016507 try? 2
+TDD-4598263 questioning: ["moral", "#2"]
+TDD3682600 #1 __A__ ~RS -AEGIMOT  📋 "moral" ? .
+TDD-3682597 attempt 0 MORAL n n m n n
+TDD733146 #2 __R__ ~AMO -EGIRST  📋 "moral" ? /it
+TDD-733170 attempt 1 MORAL Y Y Y Y Y
+TDD2935369 #4 T__E_ -AGIMORS  📋 "moral" ? T__E_ ~ TE
+TDD-2935363 attempt 3 MORAL n n n n n
+TDD173771 ? 
+TDD-173837 question done
+TDD566783 > *
+TDD813697 questioning: ["tenet", "#4"]
+TDD2862252 #1 __A__ ~RS -AEGILMOT  📋 "tenet" ? .
+TDD-4242674 attempt 0 TENET n n n n n
+TDD1137802 #4 T__E_ -AGILMORS  📋 "tenet" ? /it
+TDD-1137799 attempt 3 TENET Y Y Y Y Y
+TDD275496 ? 
+TDD-275565 question done
+TDD575070 > *
+TDD6860735 try? 2
+TDD-7435702 questioning: ["sharp", "#1"]
+TDD2954202 #1 __A__ ~RS -AEGILMNOT  📋 "sharp" ? /it
+TDD-2954234 attempt 0 SHARP Y Y Y Y Y
+TDD991517 ? 
+TDD-991568 question done
+TDD6536686 📋> squareword.org 1377: 7 guesses
+TDD-6536716 📋> 
+TDD-59 📋> 🟨🟨🟩🟨🟨
+TDD-7 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟨🟨🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD438147 📋> #squareword #squareword1377
+TDD-143373 📋> ␚
+TDD-294725 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1377: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1377"}
+TDD431 result: "squareword.org 1377: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1377"
+TDD452302 📆 2025-11-08 ? 
