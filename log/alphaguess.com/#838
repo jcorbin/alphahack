@@ -1,0 +1,48 @@
+T38183.33049244434 now: 2025-11-09T13:14:09UTC
+TD49 site: alphaguess.com
+TDD71289 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof eff8863a9d003e69123136bf09e686be505036e6
+TDD4757264  ...
+TDD-1992057 [0 : 98226 : 196542] mach? a
+TDD-2836457 progress: 1 98226 mach
+TDD1558542 [98227 : 147331 : 196542] rho? a
+TDD-1558541 progress: 1 147331 rho
+TDD1516055 [147332 : 171931 : 196542] tag? b
+TDD-1516039 progress: -1 171931 tag
+TDD1514251 [147332 : 159613 : 171931] slug? b
+TDD-1514263 progress: -1 159613 slug
+TDD1497715 [147332 : 153331 : 159613] sea? a
+TDD-1497715 progress: 1 153331 sea
+TDD1392400 [153332 : 156468 : 159613] shit? a
+TDD-1392393 progress: 1 156468 shit
+TDD1418399 [156469 : 158037 : 159613] sine? a
+TDD-1418424 progress: 1 158037 sine
+TDD2159134 [158038 : 158816 : 159613] sky? a
+TDD-2159126 progress: 1 158816 sky
+TDD1570597 [158817 : 159212 : 159613] sleigh? b
+TDD-1570595 progress: -1 159212 sleigh
+TDD1437259 [158817 : 159007 : 159212] slap? a
+TDD-1437255 progress: 1 159007 slap
+TDD1361538 [159008 : 159108 : 159212] sleave? a
+TDD-1361540 progress: 1 159108 sleave
+TDD1750422 [159109 : 159145 : 159212] sleek? b
+TDD-1750436 progress: -1 159145 sleek
+TDD1563801 [159109 : 159125 : 159145] sleazo? a
+TDD-1563787 progress: 1 159125 sleazo
+TDD1909536 [159126 : 159130 : 159145] sled? it
+TDD-1909537 progress: 0 159130 sled
+TDD-66 [159126 : 159130 : 159145] <Done>.
+TDD2979001 📋> 🧩 Puzzle #838
+TDD-2978944 📋> 
+TDD-54 📋> 🤔 14 guesses
+TDD12 📋> 
+TDD-16 📋> ⏱️ 21s
+TDD-4 📋> 
+TDD617663 📋> 🔗 alphaguess.com
+TDD-181395 📋> ␚
+TDD-436218 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #838\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-14 result: "\ud83e\udde9 Puzzle #838\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+TDD-36 result puzzle: 838
+TDD-5 result guesses: 14
+TDD-1 result time: 21s
+TDD0 result link: alphaguess.com
+TDD411759 📆 2025-11-09 ? 
