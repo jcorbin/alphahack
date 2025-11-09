@@ -1,0 +1,57 @@
+T38126.54873641208 now: 2025-11-09T13:13:12UTC
+TD54 site: alfagok.diginaut.net
+TDD158975 loaded 399551 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1301 words excluded) asof eff8863a9d003e69123136bf09e686be505036e6
+TDD6210923  ...
+TDD-1575047 [0 : 199766 : 399551] lijn? a
+TDD-4794684 progress: 1 199766 lijn
+TDD2447146 [199767 : 299650 : 399551] schudde? b
+TDD-2447311 progress: -1 299650 schudde
+TDD1813825 [199767 : 247603 : 299650] op? a
+TDD-1813825 progress: 1 247603 op
+TDD1744853 [247604 : 273409 : 299650] proef? b
+TDD-1744869 progress: -1 273409 proef
+TDD1945085 [247604 : 260490 : 273409] pater? b
+TDD-1945044 progress: -1 260490 pater
+TDD1966939 [247604 : 254008 : 260490] out? a
+TDD-1966934 progress: 1 254008 out
+TDD1866409 [254009 : 256765 : 260490] pa? b
+TDD-1866442 progress: -1 256765 pa
+TDD1730203 [254009 : 254195 : 256765] over? a
+TDD-1730208 progress: 1 254195 over
+TDD3443487 [254196 : 255458 : 256765] overleg? a
+TDD-3443435 progress: 1 255458 overleg
+TDD1895545 [255459 : 255891 : 256765] overs? a
+TDD-1895588 progress: 1 255891 overs
+TDD1771091 [255892 : 256326 : 256765] overval? a
+TDD-1771052 progress: 1 256326 overval
+TDD1739776 [256327 : 256517 : 256765] overwin? b
+TDD-1739827 progress: -1 256517 overwin
+TDD2185605 [256327 : 256419 : 256517] overvoed? a
+TDD-2185568 progress: 1 256419 overvoed
+TDD1883423 [256420 : 256464 : 256517] overweg? a
+TDD-1883412 progress: 1 256464 overweg
+TDD1776361 [256465 : 256491 : 256517] overwelf? b
+TDD-1776364 progress: -1 256491 overwelf
+TDD2014417 [256465 : 256476 : 256491] overweldig? b
+TDD-2014416 progress: -1 256476 overweldig
+TDD1698435 [256465 : 256468 : 256476] overwegen? a
+TDD-1698441 progress: 1 256468 overwegen
+TDD1728033 [256469 : 256472 : 256476] overwegingen? b
+TDD-1728036 progress: -1 256472 overwegingen
+TDD1803714 [256469 : 256470 : 256472] overwegende? a
+TDD-1803705 progress: 1 256470 overwegende
+TDD1941130 [256471 : 256471 : 256472] overweging? it
+TDD-1941139 progress: 0 256471 overweging
+TDD-60 [256471 : 256471 : 256472] <Done>.
+TDD4738090 📋> 🧩 Puzzel #372
+TDD-4738040 📋> 🤔 20 gokken
+TDD-48 📋> ⏱️ 38s
+TDD509695 📋> 🔗 alfagok.diginaut.net
+TDD-103761 📋> ␚
+TDD-405894 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #372\n\ud83e\udd14 20 gokken\n\u23f1\ufe0f 38s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD263 result: "\ud83e\udde9 Puzzel #372\n\ud83e\udd14 20 gokken\n\u23f1\ufe0f 38s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-308 result puzzle: 372
+TDD5 result guesses: 20
+TDD-14 result time: 38s
+TDD-1 result link: alfagok.diginaut.net
+TDD770922 📆 2025-11-09 ? 
