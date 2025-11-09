@@ -1,0 +1,36 @@
+T38699.68609413132 now: 2025-11-09T13:22:45UTC
+TD54 site: dontwordle.com
+TDD-19 wordlist: nwl2023.txt
+TDD7789334  ...
+TDD-2763466 1> * -bot 10
+TDD-3245376 ? 1
+TDD3171146 📋 "rales" ? nMYnn
+TDD-4951530 tried: RALES n m Y n n
+TDD738051 2> *
+TDD485402 ? 1
+TDD5194411 📋 "lilac" ? nnYMn
+TDD-6417870 tried: LILAC n n Y m n
+TDD527878 3> *
+TDD709334 ? 1
+TDD3626603 📋 "mulla" ? 
+TDD-3587467 ? *
+TDD-98881 ? 
+TDD-318313 ? ␚
+TDD-859241 <EOF>
+TDD603434 3> *
+TDD1388259 ? 2
+TDD3637626 📋 "aglow" ? it
+TDD-5629248 tried: AGLOW Y Y Y Y Y
+TDD9099695 📋> Don't Wordle 1265 - WORDLED
+TDD-9099741 📋> I must admit that I Wordled!
+TDD-49 📋> ⬜🟨🟩⬜⬜63
+TDD-6 📋> ⬜⬜🟩🟨⬜12
+TDD-2 📋> 🟩🟩🟩🟩🟩0
+TDD0 📋> ⬛⬛⬛⬛⬛
+TDD0 📋> ⬛⬛⬛⬛⬛
+TDD0 📋> ⬛⬛⬛⬛⬛
+TDD1768484 📋> Undos used: 0
+TDD-1307260 📋> ␚
+TDD-461164 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1265 - WORDLED\nI must admit that I Wordled!\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c63\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c12\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 0"}
+TDD742 result: "Don't Wordle 1265 - WORDLED\nI must admit that I Wordled!\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c63\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c12\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 0"
+TDD527849 📆 2025-11-09 ? 
