@@ -1,0 +1,86 @@
+T38218.170471670106 now: 2025-11-09T13:14:44UTC
+TD59 site: squareword.org
+TDD-22 wordlist: nwl2023.txt
+TDD1019820  ...
+TDD4067596 🧩  ? #1378
+TDD-5087283 puzzle_id: #1378
+TDD1208175 > *
+TDD-317787 try? 1
+TDD-890391 questioning: ["arles", "#5"]
+TDD4908216 #1 _____  📋 "arles" ? A__ES ~ S
+TDD-4907992 attempt 0 ARLES Y n n Y Y
+TDD3136206 #2 _____  📋 "arles" ? _R___ ~ AL
+TDD-3136485 attempt 1 ARLES m Y m n n
+TDD2368439 #3 _____  📋 "arles" ? _____ ~ LE
+TDD-2368393 attempt 2 ARLES n n m m n
+TDD4050373 #4 _____  📋 "arles" ? A____ ~ LE
+TDD-4050351 attempt 3 ARLES Y n m m n
+TDD2643561 #5 _____  📋 "arles" ? ___E_ ~ ES
+TDD-2643655 attempt 4 ARLES n n n Y m
+TDD340000 ? 
+TDD-340012 question done
+TDD547760 > *
+TDD2609908 try? 2
+TDD-3157576 questioning: ["trial", "#2"]
+TDD10287509 #1 A__ES -LR  📋 "trial" ? A__ES ~ S
+TDD-10287516 attempt 0 TRIAL n n n n n
+TDD1070227 #2 _R___ ~AL -ES  📋 "trial" ? /it
+TDD-1070284 attempt 1 TRIAL Y Y Y Y Y
+TDD2826737 #3 _____ ~EL -ARS  📋 "trial" ? _____ ~ LEI
+TDD-2826663 attempt 2 TRIAL n n m n m
+TDD2894858 #4 A____ ~EL -RS  📋 "trial" ? A____ ~ LE
+TDD-2894914 attempt 3 TRIAL n n n n m
+TDD3676760 #5 ___E_ ~S -ALR  📋 "trial" ? ___E_ ~ EST
+TDD-3676731 attempt 4 TRIAL m n n n n
+TDD704586 ? 
+TDD-704617 question done
+TDD603844 > *
+TDD40253 questioning: ["liege", "#3"]
+TDD10518352 #1 A__ES -AILRT  📋 "liege" ? A__ES ~ S
+TDD-11162397 attempt 0 LIEGE n n n n n
+TDD880043 #3 _____ ~EIL -ARST  📋 "liege" ? /it
+TDD-880063 attempt 2 LIEGE Y Y Y Y Y
+TDD5210701 #4 A____ ~EL -AIRST  📋 "liege" ? A___E ~ LG
+TDD-5210685 attempt 3 LIEGE m n n m Y
+TDD4174648 #5 ___E_ ~ST -AILR  📋 "liege" ? __EE_ ~ ST
+TDD-4174651 attempt 4 LIEGE n n Y n n
+TDD809545 ? 
+TDD-809193 question done
+TDD605149 > *
+TDD72449 questioning: ["angle", "#4"]
+TDD14010725 #1 A__ES -AEGILRT  📋 "angle" ? A__ES ~ S
+TDD-14688671 attempt 0 ANGLE Y n n n n
+TDD757095 #4 A___E ~GL -AIRST  📋 "angle" ? /it
+TDD-757120 attempt 3 ANGLE Y Y Y Y Y
+TDD2623903 #5 __EE_ ~ST -AGILR  📋 "angle" ? .
+TDD-2623875 attempt 4 ANGLE n n n n n
+TDD225358 ? 
+TDD-225478 question done
+TDD433891 > *
+TDD610585 questioning: ["apses", "#1"]
+TDD5875318 #1 A__ES -EGILNRT  📋 "apses" ? /it
+TDD-6919694 attempt 0 APSES Y Y Y Y Y
+TDD3425787 #5 __EE_ ~ST -AEGILNR  📋 "apses" ? __EE_ ~ STP
+TDD-3425771 attempt 4 APSES n m m Y m
+TDD263017 ? 
+TDD-263131 question done
+TDD569109 > *
+TDD327213 questioning: ["steep", "#5"]
+TDD4742571 #5 __EE_ ~PST -AGILNR  📋 "steep" ? /it
+TDD-5638804 attempt 4 STEEP Y Y Y Y Y
+TDD1924551 ? 
+TDD-1924576 question done
+TDD4020853 📋> squareword.org 1378: 6 guesses
+TDD-4020883 📋> 
+TDD-64 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD4 📋> 🟩🟩🟩🟩🟩
+TDD-6 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟨🟩🟩🟨
+TDD-1 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD446132 📋> #squareword #squareword1378
+TDD-55151 📋> ␚
+TDD-390930 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1378: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1378"}
+TDD356 result: "squareword.org 1378: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1378"
+TDD483768 📆 2025-11-09 ? 
