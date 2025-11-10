@@ -1,0 +1,121 @@
+T56.43577699176967 now: 2025-11-10T14:50:51UTC
+TD50 site: squareword.org
+TDD-12 wordlist: nwl2023.txt
+TDD4142321  ...
+TDD-792475 🧩  ? #1379
+TDD-3349710 puzzle_id: #1379
+TDD3287501 > *
+TDD-2247671 try? 1
+TDD-1039792 questioning: ["nates", "#5"]
+TDD5079545 #1 _____  📋 "nates" ? _____ ~ AS
+TDD-5079335 attempt 0 NATES n m n n m
+TDD3007122 #2 _____  📋 "nates" ? _____ ~ ATE
+TDD-3007371 attempt 1 NATES n m m m n
+TDD2589039 #3 _____  📋 "nates" ? __TE_ ~ NE
+TDD-2589033 attempt 2 NATES m n Y Y n
+TDD4771476 #4 _____  📋 "nates" ? _____ ~ ES
+TDD-4771481 attempt 3 NATES n n n m m
+TDD3427600 #5 _____  📋 "nates" ? ____S ~ NTE
+TDD-3427612 attempt 4 NATES m n m m Y
+TDD871685 ? 
+TDD-871727 question done
+TDD5382468 > *
+TDD-2846619 try? 3
+TDD-2535796 questioning: ["often", "#3"]
+TDD4195624 #1 _____ ~AS -ENT  📋 "often" ? .
+TDD-4195583 attempt 0 OFTEN n n n n n
+TDD1495634 #2 _____ ~AET -NS  📋 "often" ? .
+TDD-1495679 attempt 1 OFTEN n n m m n
+TDD4499470 #3 __TE_ ~N -AS  📋 "often" ? __TE_ ~ NE
+TDD-4499491 attempt 2 OFTEN n n Y Y m
+TDD3592506 #4 _____ ~ES -ANT  📋 "often" ? _____ ~ ESO
+TDD-3592487 attempt 3 OFTEN m n n m n
+TDD1931624 #5 ____S ~ENT -A  📋 "often" ? .
+TDD-1931627 attempt 4 OFTEN n n m m m
+TDD195725 ? 
+TDD-195794 question done
+TDD647836 > *
+TDD10490518 try? 2
+TDD-11138278 questioning: ["intel", "#3"]
+TDD6551611 #1 _____ ~AS -EFNOT  📋 "intel" ? !
+TDD-6551655 reject: intel
+TDD-103 question done
+TDD2359844 > *
+TDD-1219797 try? 2
+TDD-1139901 questioning: ["enter", "#3"]
+TDD6149028 #1 _____ ~AS -EFNOT  📋 "enter" ? .
+TDD-6149032 attempt 0 ENTER n n n n n
+TDD4291613 #2 _____ ~AET -FNOS  📋 "enter" ? _____ ~ ATER
+TDD-4291618 attempt 1 ENTER m n m m m
+TDD1063680 #3 __TE_ ~N -AFOS  📋 "enter" ? /it
+TDD-1063688 attempt 2 ENTER Y Y Y Y Y
+TDD3907665 #4 _____ ~EOS -AFNT  📋 "enter" ? _____ ~ ESOR
+TDD-3907655 attempt 3 ENTER m n n m m
+TDD4735093 #5 ____S ~ENT -AFO  📋 "enter" ? ____S ~ NTER
+TDD-4735109 attempt 4 ENTER m m m m m
+TDD767780 ? 
+TDD-767798 question done
+TDD19612951 > *
+TDD-16317063 try? 1
+TDD-3295835 questioning: ["rents", "#5"]
+TDD5965845 #1 _____ ~AS -EFNORT  📋 "rents" ? .
+TDD-5965864 attempt 0 RENTS n n n n m
+TDD3700932 #2 _____ ~AERT -FNOS  📋 "rents" ? RE_T_ ~ A
+TDD-3700925 attempt 1 RENTS Y Y n Y n
+TDD1588947 #4 _____ ~EORS -AFNT  📋 "rents" ? .
+TDD-1588932 attempt 3 RENTS m m n n m
+TDD2879627 #5 ____S ~ENRT -AFO  📋 "rents" ? _E__S ~ NTR
+TDD-2879631 attempt 4 RENTS m Y m m Y
+TDD250267 ? 
+TDD-250386 question done
+TDD597189 > *
+TDD-27567 questioning: ["score", "#4"]
+TDD8153124 #1 _____ ~AS -EFNORT  📋 "score" ? _____ ~ ASC
+TDD-8722625 attempt 0 SCORE m m n n n
+TDD5250280 #2 RE_T_ ~A -FNOS  📋 "score" ? RE_T_ ~ AC
+TDD-5250263 attempt 1 SCORE n m n n n
+TDD1588906 #4 _____ ~EORS -AFNT  📋 "score" ? /it
+TDD-1588952 attempt 3 SCORE Y Y Y Y Y
+TDD2519675 #5 _E__S ~NRT -AFO  📋 "score" ? 
+TDD753198 #5 _E__S ~NRT -AFO  ? .
+TDD-3272848 attempt 4 SCORE n n n m n
+TDD211613 ? 
+TDD-211725 question done
+TDD907833 > *
+TDD839974 questioning: ["chasm", "#1"]
+TDD2180178 #1 _____ ~ACS -EFNORT  📋 "chasm" ? /it
+TDD-3927878 attempt 0 CHASM Y Y Y Y Y
+TDD2719617 #2 RE_T_ ~AC -EFNORS  📋 "chasm" ? .
+TDD-2719651 attempt 1 CHASM m n m n n
+TDD1631782 #5 _E__S ~NRT -ACEFOS  📋 "chasm" ? .
+TDD-1631744 attempt 4 CHASM n n n n n
+TDD215535 ? 
+TDD-215632 question done
+TDD599896 > *
+TDD748728 questioning: ["recta", "#2"]
+TDD2621436 #2 RE_T_ ~AC -EFHMNORS  📋 "recta" ? /it
+TDD-3969983 attempt 1 RECTA Y Y Y Y Y
+TDD2030354 #5 _E__S ~NRT -ACEFHMOS  📋 "recta" ? .
+TDD-2030362 attempt 4 RECTA m Y n m n
+TDD174383 ? 
+TDD-174479 question done
+TDD789247 > *
+TDD109171 questioning: ["terns", "#5"]
+TDD2856382 #5 _E__S ~NRT -ACFHMOS  📋 "terns" ? /it
+TDD-3754619 attempt 4 TERNS Y Y Y Y Y
+TDD951529 ? 
+TDD-951703 question done
+TDD7247549 📋> squareword.org 1379: 8 guesses
+TDD-7247492 📋> 
+TDD-45 📋> 🟨🟨🟨🟨🟨
+TDD-6 📋> 🟩🟩🟨🟩🟨
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟩🟨🟨🟩
+TDD17 📋> 
+TDD-10 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD302935 📋> #squareword #squareword1379
+TDD78343 📋> ␚
+TDD-381237 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1379: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1379"}
+TDD474 result: "squareword.org 1379: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1379"
+TDD276005 📆 2025-11-10 ? 
