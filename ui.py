@@ -2158,7 +2158,10 @@ class PromptUI:
                 backoff: float = 1.0,
                 backoff_max: float = 12.0,
                 ):
-        for retry, delay in retry_backoffs(retries, backoff, backoff_max):
+        for retry, delay in BackoffCounter(
+            limit=retries,
+            backoff=Backoff(scale=backoff, limit=backoff_max),
+        ).enumerate():
             if delay > 0:
                 self.print(f'* backing off {datetime.timedelta(seconds=delay)}...')
                 t1 = self.time.now
