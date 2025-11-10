@@ -1,13 +1,13 @@
-# 2025-11-10
+# 2025-11-11
 
-- 🔗 spaceword.org 🧩 2025-11-09 🏁 score 2168 ranked 45.5% 87/191 ⏱️ 0:24:18.686462
-- 🔗 alfagok.diginaut.net 🧩 #373 🥳 9 ⏱️ 0:00:31.484077
-- 🔗 alphaguess.com 🧩 #839 🥳 15 ⏱️ 0:00:43.480158
-- 🔗 squareword.org 🧩 #1379 🥳 8 ⏱️ 0:03:12.067921
-- 🔗 dictionary.com hurdle 🧩 #1409 🥳 20 ⏱️ 0:03:47.071575
-- 🔗 dontwordle.com 🧩 #1266 🥳 6 ⏱️ 0:02:06.808572
-- 🔗 cemantle.certitudes.org 🧩 #1316 🥳 284 ⏱️ 0:04:18.782796
-- 🔗 cemantix.certitudes.org 🧩 #1349 🥳 47 ⏱️ 0:00:18.977770
+- 🔗 spaceword.org 🧩 2025-11-10 🏁 score 2173 ranked 15.2% 58/381 ⏱️ 0:07:09.759775
+- 🔗 alfagok.diginaut.net 🧩 #374 🥳 18 ⏱️ 0:00:59.142296
+- 🔗 alphaguess.com 🧩 #840 🥳 13 ⏱️ 0:00:32.662365
+- 🔗 squareword.org 🧩 #1380 🥳 8 ⏱️ 0:02:53.486336
+- 🔗 dictionary.com hurdle 🧩 #1410 🥳 20 ⏱️ 0:03:36.064511
+- 🔗 dontwordle.com 🧩 #1267 🥳 6 ⏱️ 0:01:35.621956
+- 🔗 cemantix.certitudes.org 🧩 #1350 😦 645 ⏱️ 0:13:45.005663
+- 🔗 cemantle.certitudes.org 🧩 #1317 😦 355 ⏱️ 0:09:37.468267
 
 # Dev
 
@@ -250,188 +250,196 @@
 
 
 
-# spaceword.org 🧩 2025-11-09 🏁 score 2168 ranked 45.5% 87/191 ⏱️ 0:24:18.686462
 
-📜 4 sessions
+# spaceword.org 🧩 2025-11-10 🏁 score 2173 ranked 15.2% 58/381 ⏱️ 0:07:09.759775
+
+📜 3 sessions
 - tiles: 21/21
-- score: 2168 bonus: +68
-- rank: 87/191
+- score: 2173 bonus: +73
+- rank: 58/381
 
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
-      _ Q _ B E C K O N _   
-      _ I _ U _ O _ N A _   
-      _ S O N A R _ E W _   
-      _ _ _ A _ F _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ V O C A L _ _ _ W   
+      _ _ B O R A N E _ A   
+      _ _ E X E G E T E S   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
 
 
-# alfagok.diginaut.net 🧩 #373 🥳 9 ⏱️ 0:00:31.484077
+# alfagok.diginaut.net 🧩 #374 🥳 18 ⏱️ 0:00:59.142296
 
-🤔 9 attempts
+🤔 18 attempts
+📜 2 sessions
+
+    @        [     0] &-teken            
+    @+1      [     1] &-tekens           
+    @+2      [     2] -cijferig          
+    @+3      [     3] -e-mail            
+    @+199766 [199766] lijn               q0  ? after
+    @+199766 [199766] lijn               q1  ? after
+    @+299649 [299649] schudde            q2  ? after
+    @+349380 [349380] vak                q3  ? after
+    @+361749 [361749] vervijfvoudig      q5  ? after
+    @+361831 [361831] vervoer            q11 ? after
+    @+361974 [361974] vervolg            q12 ? after
+    @+362005 [362005] vervolgde          q14 ? after
+    @+362010 [362010] vervolgen          q17 ? it
+    @+362010 [362010] vervolgen          done. it
+    @+362022 [362022] vervolging         q15 ? before
+    @+362043 [362043] vervolgopleidingen q13 ? before
+    @+362113 [362113] vervorm            q10 ? before
+    @+362501 [362501] verwerking         q9  ? before
+    @+363281 [363281] verzet             q8  ? before
+    @+364820 [364820] vijfhonderd        q7  ? before
+    @+367901 [367901] vocht              q6  ? before
+    @+374123 [374123] vrij               q4  ? before
+
+# alphaguess.com 🧩 #840 🥳 13 ⏱️ 0:00:32.662365
+
+🤔 13 attempts
 📜 1 sessions
 
-    @        [     0] &-teken   
-    @+1      [     1] &-tekens  
-    @+2      [     2] -cijferig 
-    @+3      [     3] -e-mail   
-    @+199766 [199766] lijn      q0 ? after
-    @+211612 [211612] me        q5 ? after
-    @+212874 [212874] meer      q8 ? it
-    @+212874 [212874] meer      done. it
-    @+214576 [214576] melodie   q7 ? before
-    @+217549 [217549] mijmer    q6 ? before
-    @+223491 [223491] mol       q3 ? before
-    @+247602 [247602] op        q2 ? before
-    @+299649 [299649] schudde   q1 ? before
+    @        [     0] aa     
+    @+1      [     1] aah    
+    @+2      [     2] aahed  
+    @+3      [     3] aahing 
+    @+98226  [ 98226] mach   q0  ? after
+    @+147331 [147331] rho    q1  ? after
+    @+171931 [171931] tag    q2  ? after
+    @+174417 [174417] test   q5  ? after
+    @+175629 [175629] thro   q6  ? after
+    @+175934 [175934] ti     q7  ? after
+    @+176437 [176437] tip    q8  ? after
+    @+176483 [176483] tiptoe q11 ? after
+    @+176493 [176493] tire   q12 ? it
+    @+176493 [176493] tire   done. it
+    @+176531 [176531] tit    q10 ? before
+    @+176664 [176664] to     q9  ? before
+    @+176968 [176968] tom    q4  ? before
+    @+182018 [182018] un     q3  ? before
 
-# alphaguess.com 🧩 #839 🥳 15 ⏱️ 0:00:43.480158
-
-🤔 15 attempts
-📜 1 sessions
-
-    @        [     0] aa         
-    @+1      [     1] aah        
-    @+2      [     2] aahed      
-    @+3      [     3] aahing     
-    @+98226  [ 98226] mach       q0  ? after
-    @+147331 [147331] rho        q1  ? after
-    @+171931 [171931] tag        q2  ? after
-    @+176968 [176968] tom        q4  ? after
-    @+179492 [179492] trifurcate q5  ? after
-    @+180743 [180743] tune       q6  ? after
-    @+181380 [181380] two        q7  ? after
-    @+181517 [181517] typo       q9  ? after
-    @+181596 [181596] tzar       q10 ? after
-    @+181619 [181619] tziganes   q12 ? after
-    @+181631 [181631] ubique     q13 ? after
-    @+181635 [181635] ubiquitous q14 ? it
-    @+181635 [181635] ubiquitous done. it
-    @+181642 [181642] udo        q11 ? before
-    @+181694 [181694] ulcer      q8  ? before
-    @+182018 [182018] un         q3  ? before
-
-# squareword.org 🧩 #1379 🥳 8 ⏱️ 0:03:12.067921
+# squareword.org 🧩 #1380 🥳 8 ⏱️ 0:02:53.486336
 
 📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
-    🟨 🟨 🟨 🟨 🟨
-    🟩 🟩 🟨 🟩 🟨
+    🟨 🟩 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
+    🟩 🟨 🟩 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
-    🟨 🟩 🟨 🟨 🟩
+    🟩 🟩 🟨 🟨 🟨
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    C H A S M
-    R E C T A
-    E N T E R
-    S C O R E
-    T E R N S
+    M A C A W
+    E E R I E
+    A R O M A
+    L I N E R
+    S E E D Y
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1409 🥳 20 ⏱️ 0:03:47.071575
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1410 🥳 20 ⏱️ 0:03:36.064511
 
 📜 1 sessions
 💰 score: 9600
 
-    6/6
-    RALES ⬜⬜⬜🟨🟨
-    STONE 🟨🟨⬜⬜🟨
-    FEIST ⬜🟩⬜🟨🟨
-    ZESTY ⬜🟩🟩🟩🟩
-    PESTY ⬜🟩🟩🟩🟩
-    TESTY 🟩🟩🟩🟩🟩
     4/6
-    TESTY 🟨⬜🟨⬜⬜
-    STAIR 🟩🟨⬜⬜🟨
-    SHORT 🟩⬜⬜🟩🟩
-    SPURT 🟩🟩🟩🟩🟩
-    4/6
-    SPURT ⬜⬜⬜🟨⬜
-    AREIC ⬜🟨🟨⬜⬜
-    OLDER 🟨⬜🟨🟨🟨
-    HORDE 🟩🟩🟩🟩🟩
-    4/6
-    HORDE ⬜🟨🟨⬜⬜
-    PROST ⬜🟨🟨⬜⬜
-    VIGOR ⬜🟩⬜🟨🟨
-    MICRO 🟩🟩🟩🟩🟩
-    Final 2/2
-    SLUNG 🟩🟩🟩🟩⬜
-    SLUNK 🟩🟩🟩🟩🟩
+    RESIN ⬜⬜⬜🟨🟩
+    AXION 🟨⬜🟨⬜🟩
+    WITAN ⬜🟩🟩🟩🟩
+    TITAN 🟩🟩🟩🟩🟩
+    5/6
+    TITAN ⬜⬜⬜⬜⬜
+    SURLY ⬜🟨🟨⬜⬜
+    CRUMP ⬜🟩🟩🟩🟩
+    FRUMP ⬜🟩🟩🟩🟩
+    GRUMP 🟩🟩🟩🟩🟩
+    5/6
+    GRUMP ⬜🟨⬜⬜⬜
+    SOLAR ⬜⬜⬜⬜🟨
+    INERT ⬜⬜🟨🟨⬜
+    DERBY ⬜🟩🟩⬜🟩
+    JERKY 🟩🟩🟩🟩🟩
+    5/6
+    JERKY ⬜⬜⬜⬜⬜
+    TAILS ⬜⬜⬜🟨⬜
+    MULCH ⬜🟨🟨🟨⬜
+    CLOUD 🟩🟩⬜🟨⬜
+    CLUNG 🟩🟩🟩🟩🟩
+    Final 1/2
+    BROWN 🟩🟩🟩🟩🟩
 
-# dontwordle.com 🧩 #1266 🥳 6 ⏱️ 0:02:06.808572
+# dontwordle.com 🧩 #1267 🥳 6 ⏱️ 0:01:35.621956
 
 📜 1 sessions
-💰 score: 9
+💰 score: 5
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:HOLLO n n n n n remain:5815
-    ⬜⬜⬜⬜⬜ tried:CIVIC n n n n n remain:3156
-    ⬜⬜⬜⬜⬜ tried:DUFUS n n n n n remain:646
-    ⬜🟩⬜⬜⬜ tried:BENNE n Y n n n remain:42
-    ⬜🟩🟨⬜🟨 tried:GEMMA n Y m n m remain:2
-    ⬜🟩🟩⬜🟨 tried:REARM n Y Y n m remain:1
+    ⬜⬜⬜⬜⬜ tried:IMMIX n n n n n remain:7870
+    ⬜⬜⬜⬜⬜ tried:SOOKS n n n n n remain:2209
+    ⬜⬜⬜⬜⬜ tried:PUPPY n n n n n remain:956
+    ⬜⬜⬜⬜⬜ tried:CRWTH n n n n n remain:181
+    ⬜🟩⬜⬜⬜ tried:BANAL n Y n n n remain:12
+    ⬜🟩⬜🟨⬜ tried:DAZED n Y n m n remain:1
 
-    Undos used: 4
+    Undos used: 2
 
       1 words remaining
-    x 9 unused letters
-    = 9 total score
+    x 5 unused letters
+    = 5 total score
 
-# cemantle.certitudes.org 🧩 #1316 🥳 284 ⏱️ 0:04:18.782796
+# cemantix.certitudes.org 🧩 #1350 😦 645 ⏱️ 0:13:45.005663
 
-🤔 285 attempts
+🤔 644 attempts
 📜 1 sessions
-🫧 20 chat sessions
-⁉️ 121 chat prompts
-🤖 118 gemma3:latest replies
-🤖 2 llama3.2:latest replies
-🔥   4 🥵   6 😎  29 🥶 236 🧊   9
+🫧 48 chat sessions
+⁉️ 331 chat prompts
+🤖 331 gemma3:latest replies
+😦 🥵  15 😎  48 🥶 330 🧊 251
 
-      $1 #285   ~1 flagstone        100.00°C 🥳 1000‰
-      $2  #91  ~28 granite           61.93°C 🔥  998‰
-      $3 #123  ~25 limestone         56.73°C 🔥  996‰
-      $4 #164  ~19 marble            56.49°C 🔥  995‰
-      $5  #29  ~37 stone             53.16°C 🔥  993‰
-      $6 #234   ~8 brick             51.25°C 🥵  988‰
-      $7 #220   ~9 masonry           46.16°C 🥵  956‰
-      $8 #243   ~6 countertop        44.58°C 🥵  940‰
-      $9 #239   ~7 slab              43.82°C 🥵  925‰
-     $10  #76  ~30 quartzite         42.96°C 🥵  910‰
-     $11  #53  ~34 gravel            42.89°C 🥵  908‰
-     $12 #281   ~2 decorative        42.40°C 😎  898‰
-     $41  #84      ridge             30.45°C 🥶
-    $277 #114      peak              -0.28°C 🧊
+      $1 #490  ~32 sport              47.59°C 🥵  989‰
+      $2 #635   ~5 sportif            45.50°C 🥵  985‰
+      $3 #506  ~26 stade              42.86°C 🥵  976‰
+      $4 #431  ~39 match              42.50°C 🥵  974‰
+      $5 #505  ~27 championnat        42.25°C 🥵  972‰
+      $6 #429  ~41 entraîneur         41.61°C 🥵  969‰
+      $7 #295  ~50 compétition        41.02°C 🥵  968‰
+      $8 #430  ~40 joueur             40.95°C 🥵  967‰
+      $9 #577  ~12 volley             37.77°C 🥵  951‰
+     $10 #448  ~36 arbitre            37.60°C 🥵  950‰
+     $11 #497  ~30 champion           37.24°C 🥵  948‰
+     $16 #544  ~17 athlète            29.20°C 😎  882‰
+     $64 #291      duel               14.49°C 🥶
+    $394  #71      festin             -0.02°C 🧊
 
-# cemantix.certitudes.org 🧩 #1349 🥳 47 ⏱️ 0:00:18.977770
+# cemantle.certitudes.org 🧩 #1317 😦 355 ⏱️ 0:09:37.468267
 
-🤔 48 attempts
-📜 1 sessions
-🫧 3 chat sessions
-⁉️ 10 chat prompts
-🤖 10 gemma3:latest replies
-🥵  1 😎  6 🥶 34 🧊  6
+🤔 354 attempts
+📜 2 sessions
+🫧 30 chat sessions
+⁉️ 203 chat prompts
+🤖 194 gemma3:latest replies
+🤖 8 llama3.2:latest replies
+😦 🥵   3 😎  37 🥶 290 🧊  24
 
-     $1 #48  ~1 angle         100.00°C 🥳 1000‰
-     $2 #47  ~2 prisme         42.37°C 🥵  973‰
-     $3 #37  ~6 diffraction    31.47°C 😎  714‰
-     $4 #16  ~7 luminosité     29.74°C 😎  616‰
-     $5 #40  ~4 intensité      29.15°C 😎  571‰
-     $6  #3  ~8 lumière        25.13°C 😎  163‰
-     $7 #43  ~3 lentille       24.89°C 😎  113‰
-     $8 #38  ~5 dioptrique     24.55°C 😎   57‰
-     $9 #31     gradient       22.69°C 🥶
-    $10 #33     dioptrie       22.50°C 🥶
-    $11 #34     chromatisme    22.04°C 🥶
-    $12 #13     rayon          21.47°C 🥶
-    $13 #41     interférence   21.09°C 🥶
-    $43 #32     brûler         -3.29°C 🧊
+      $1 #293  ~11 transportation    34.57°C 🥵  927‰
+      $2 #266  ~16 infrastructure    33.62°C 🥵  909‰
+      $3 #182  ~28 technology        33.53°C 🥵  904‰
+      $4 #184  ~27 automation        31.72°C 😎  864‰
+      $5 #147  ~34 innovation        31.61°C 😎  858‰
+      $6 #334   ~7 consumer          31.61°C 😎  859‰
+      $7 #288  ~13 logistics         28.01°C 😎  743‰
+      $8 #291  ~12 management        27.33°C 😎  710‰
+      $9 #269  ~15 energy            27.21°C 😎  702‰
+     $10  #52  ~40 connectivity      26.40°C 😎  664‰
+     $11 #350   ~1 productivity      26.22°C 😎  652‰
+     $12 #339   ~4 retail            26.09°C 😎  641‰
+     $41 #151      transformation    20.69°C 🥶
+    $331 #197      prototype         -0.24°C 🧊
