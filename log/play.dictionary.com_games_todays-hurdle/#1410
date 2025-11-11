@@ -1,0 +1,114 @@
+T303.35991162247956 now: 2025-11-11T13:10:23UTC
+TD59 site: https://play.dictionary.com/games/todays-hurdle
+TDD-25 wordlist: nwl2023.txt
+TDD14130760  ...
+TDD-12929474 1.1> *
+TDD17363182 1.1 ? 2
+TDD-14169705 1.1 📋 "resin" ? nnnMY
+TDD-4394570 tried: RESIN n n n m Y
+TDD484585 1.2> *
+TDD7131124 1.2 ? 1
+TDD-1864385 1.2 📋 "axion" ? MnMnY
+TDD-5751401 tried: AXION m n m n Y
+TDD543731 1.3> *
+TDD4748060 1.3 ? 1
+TDD1963159 1.3 📋 "witan" ? nYYYY
+TDD-7254961 tried: WITAN n Y Y Y Y
+TDD479726 1.4> *
+TDD4160091 1.4 📋 "titan" ? it
+TDD-4639821 tried: TITAN Y Y Y Y Y
+TDD8927493 2.1 📋 "titan" ? nnnnn
+TDD-8927487 tried: TITAN n n n n n
+TDD599673 2.2> *
+TDD3013467 2.2 ? 5
+TDD580033 2.2 📋 "surly" ? nMMnn
+TDD-4193179 tried: SURLY n m m n n
+TDD506357 2.3> *
+TDD2680059 2.3 ? 5
+TDD1041235 2.3 📋 "crump" ? nYYYY
+TDD-4227645 tried: CRUMP n Y Y Y Y
+TDD471650 2.4> *
+TDD992239 2.4 ? 1
+TDD2771894 2.4 📋 "frump" ? nYYYY
+TDD-4235786 tried: FRUMP n Y Y Y Y
+TDD423827 2.5> *
+TDD1651893 2.5 📋 "grump" ? it
+TDD-2075737 tried: GRUMP Y Y Y Y Y
+TDD9633131 3.1 📋 "grump" ? nMnnn
+TDD-9633103 tried: GRUMP n m n n n
+TDD607453 3.2> *
+TDD644440 3.2 ? 1
+TDD4867804 3.2 📋 "solar" ? nnnnM
+TDD-6119705 tried: SOLAR n n n n m
+TDD1803135 3.3> *
+TDD1356620 3.3 ? 1
+TDD456122 3.3 📋 "inert" ? nnMMn
+TDD-3615868 tried: INERT n n m m n
+TDD487604 3.4> *
+TDD7620266 3.4 ? 5
+TDD-4192070 3.4 📋 "derby" ? nYYnY
+TDD-3915816 tried: DERBY n Y Y n Y
+TDD447733 3.5> *
+TDD3456076 3.5 📋 "jerky" ? it
+TDD-3903808 tried: JERKY Y Y Y Y Y
+TDD6492802 4.1 📋 "jerky" ? nnnnn
+TDD-6492782 tried: JERKY n n n n n
+TDD519698 4.2> *
+TDD568043 4.2 ? 1
+TDD2732000 4.2 📋 "tails" ? nnnMn
+TDD-3819764 tried: TAILS n n n m n
+TDD1447714 4.3> *
+TDD56160 4.3 ? 1
+TDD3279980 4.3 📋 "mulch" ? nMMMn
+TDD-4783858 tried: MULCH n m m m n
+TDD599741 4.4> *
+TDD999107 4.4 ? 1
+TDD6656950 4.4 📋 "cloud" ? YYnMn
+TDD-8255782 tried: CLOUD Y Y n m n
+TDD483690 4.5> *
+TDD3220144 4.5 📋 "clung" ? it
+TDD-3703846 tried: CLUNG Y Y Y Y Y
+TDD11959591 5.1 📋 "titan" ? nnnnY
+TDD-11959581 tried: TITAN n n n n Y
+TDD1675682 5.2 📋 "grump" ? nYnnn
+TDD-1675694 tried: GRUMP n Y n n n
+TDD1631695 5.3 📋 "jerky" ? nnMnn
+TDD-1631699 tried: JERKY n n m n n
+TDD2292122 5.4 📋 "clung" ? nnnMn
+TDD-2292096 tried: CLUNG n n n m n
+TDD855593 5.5> *
+TDD4480139 5.5 ? 1
+TDD-1867936 5.5 📋 "brown" ? it
+TDD-3467828 tried: BROWN Y Y Y Y Y
+TDD5618790 📋> Hurdle 1410
+TDD-5618844 📋> 
+TDD-51 📋> 4/6
+TDD-2 📋> ⬜⬜⬜🟨🟩
+TDD-2 📋> 🟨⬜🟨⬜🟩
+TDD-1 📋> ⬜🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD12 📋> 5/6
+TDD-11 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> ⬜🟨🟨⬜⬜
+TDD0 📋> ⬜🟩🟩🟩🟩
+TDD0 📋> ⬜🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 5/6
+TDD0 📋> ⬜🟨⬜⬜⬜
+TDD11 📋> ⬜⬜⬜⬜🟨
+TDD-11 📋> ⬜⬜🟨🟨⬜
+TDD0 📋> ⬜🟩🟩⬜🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 5/6
+TDD0 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> ⬜⬜⬜🟨⬜
+TDD0 📋> ⬜🟨🟨🟨⬜
+TDD0 📋> 🟩🟩⬜🟨⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 1/2
+TDD4 📋> 🟩🟩🟩🟩🟩
+TDD287171 📋> score: 9,600
+TDD132813 📋> ␚
+TDD-419943 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1410\n\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,600"}
+TDD343 result: "Hurdle 1410\n\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,600"
+TDD879146 📆 2025-11-11 ? 
