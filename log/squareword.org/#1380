@@ -1,0 +1,115 @@
+T121.67018322460353 now: 2025-11-11T13:07:21UTC
+TD47 site: squareword.org
+TDD-10 wordlist: nwl2023.txt
+TDD3587207  ...
+TDD-1068307 🧩  ? #1380
+TDD-2518769 puzzle_id: #1380
+TDD2499563 > *
+TDD2346950 try? 3
+TDD-4846478 questioning: ["rapes", "#5"]
+TDD4966218 #1 _____  📋 "rapes" ? _A___ ~ A
+TDD-4966012 attempt 0 RAPES n Y n n n
+TDD2496227 #2 _____  📋 "rapes" ? _____ ~ RE
+TDD-2496464 attempt 1 RAPES m n n m n
+TDD2623750 #3 _____  📋 "rapes" ? _____ ~ RA
+TDD-2623753 attempt 2 RAPES m m n n n
+TDD2023495 #4 _____  📋 "rapes" ? ___E_ ~ R
+TDD-2023496 attempt 3 RAPES m n n Y n
+TDD2207682 #5 _____  📋 "rapes" ? _____ ~ ES
+TDD-2207696 attempt 4 RAPES n n n m m
+TDD695593 ? 
+TDD-695647 question done
+TDD543956 > *
+TDD1519837 try? 1
+TDD-2063716 questioning: ["stole", "#5"]
+TDD6231646 #1 _A___ -EPRS  📋 "stole" ? _A___ ~ A
+TDD-6231641 attempt 0 STOLE n n n n n
+TDD4195518 #2 _____ ~ER -APS  📋 "stole" ? ____E ~ RE
+TDD-4195521 attempt 1 STOLE n n n n Y
+TDD3359521 #3 _____ ~AR -EPS  📋 "stole" ? __O__ ~ RA
+TDD-3359524 attempt 2 STOLE n n Y n n
+TDD4575687 #4 ___E_ ~R -APS  📋 "stole" ? ___E_ ~ RL
+TDD-4575702 attempt 3 STOLE n n n m n
+TDD2335462 #5 _____ ~ES -APR  📋 "stole" ? S____ ~ E
+TDD-2335466 attempt 4 STOLE Y n n n m
+TDD233004 ? 
+TDD-233092 question done
+TDD531824 > *
+TDD2354789 try? 2
+TDD-2886485 questioning: ["adorn", "#3"]
+TDD6071482 #1 _A___ -ELOPRST  📋 "adorn" ? _A___ ~ A
+TDD-6071510 attempt 0 ADORN m n n n n
+TDD6871624 #2 ____E ~R -ALOPST  📋 "adorn" ? ____E ~ RE
+TDD-6871624 attempt 1 ADORN n n n m n
+TDD3866501 #3 __O__ ~AR -ELPST  📋 "adorn" ? A_O__ ~ RA
+TDD-3866502 attempt 2 ADORN Y n Y m n
+TDD4714202 #4 ___E_ ~LR -AEOPST  📋 "adorn" ? ___E_ ~ RLN
+TDD-4714203 attempt 3 ADORN n n n m m
+TDD4416618 #5 S____ ~E -ALOPRT  📋 "adorn" ? S____ ~ ED
+TDD-4416609 attempt 4 ADORN n m n n n
+TDD371680 ? 
+TDD-371785 question done
+TDD671750 > *
+TDD-167086 questioning: ["liner", "#4"]
+TDD8298540 #1 _A___ -DELNOPRST  📋 "liner" ? _A___ ~ A
+TDD-8803120 attempt 0 LINER n n n n n
+TDD4635617 #2 ____E ~R -ADLNOPST  📋 "liner" ? ____E ~ REI
+TDD-4635610 attempt 1 LINER n m n m m
+TDD4935587 #3 A_O__ ~R -DELNPST  📋 "liner" ? A_O__ ~ RA
+TDD-4935582 attempt 2 LINER n n n n m
+TDD1359695 #4 ___E_ ~LNR -ADEOPST  📋 "liner" ? /it
+TDD-1359723 attempt 3 LINER Y Y Y Y Y
+TDD2499669 #5 S____ ~DE -ALNOPRT  📋 "liner" ? .
+TDD-2499701 attempt 4 LINER n n n m n
+TDD195812 ? 
+TDD-195836 question done
+TDD555797 > *
+TDD1174428 questioning: ["eerie", "#2"]
+TDD6339640 #1 _A___ -DEILNOPRST  📋 "eerie" ? _A___ ~ A
+TDD-8069793 attempt 0 EERIE n n n n n
+TDD4549010 #2 ____E ~IR -ADLNOPST  📋 "eerie" ? /it
+TDD-4549015 attempt 1 EERIE Y Y Y Y Y
+TDD4506403 #3 A_O__ ~R -DEILNPST  📋 "eerie" ? A_O__ ~ RA
+TDD-4506402 attempt 2 EERIE n n m n n
+TDD4312890 #5 S____ ~DE -AILNOPRT  📋 "eerie" ? SE___ ~ ED
+TDD-4312886 attempt 4 EERIE m Y n n m
+TDD1283701 ? 
+TDD-1283793 question done
+TDD1243752 > *
+TDD-215852 questioning: ["aroma", "#3"]
+TDD5440167 #1 _A___ -DEILNOPRST  📋 "aroma" ? _A___ ~ AM
+TDD-6467968 attempt 0 AROMA m n n m m
+TDD1805287 #3 A_O__ ~R -DEILNPST  📋 "aroma" ? /it
+TDD-1805274 attempt 2 AROMA Y Y Y Y Y
+TDD8932878 #5 SE___ ~DE -AILNOPRT  📋 "aroma" ? SE___ ~ ED
+TDD-8932880 attempt 4 AROMA n n n n n
+TDD255636 ? 
+TDD-255751 question done
+TDD533275 > *
+TDD572392 questioning: ["macaw", "#1"]
+TDD3025432 #1 _A___ ~M -DEILNOPRST  📋 "macaw" ? /it
+TDD-4131027 attempt 0 MACAW Y Y Y Y Y
+TDD4451689 #5 SE___ ~DE -AILMNOPRT  📋 "macaw" ? SE___ ~ ED
+TDD-4451666 attempt 4 MACAW n n n n n
+TDD251646 ? 
+TDD-251742 question done
+TDD1003880 > *
+TDD-91654 questioning: ["seedy", "#5"]
+TDD2787486 #5 SE___ ~DE -ACILMNOPRTW  📋 "seedy" ? /it
+TDD-3699650 attempt 4 SEEDY Y Y Y Y Y
+TDD1219738 ? 
+TDD-1219768 question done
+TDD3999286 📋> squareword.org 1380: 8 guesses
+TDD-3999308 📋> 
+TDD-38 📋> 🟨🟩🟨🟨🟨
+TDD-7 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟨🟩🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟨🟨🟨
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD462256 📋> #squareword #squareword1380
+TDD467095 📋> ␚
+TDD-929314 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1380: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1380"}
+TDD2075 result: "squareword.org 1380: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1380"
+TDD686337 📆 2025-11-11 ? 
