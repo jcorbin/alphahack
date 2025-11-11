@@ -103,3 +103,17 @@ TDD506064 [prior:2173]>
 TDD2869931 [prior:2173]> ␚
 T1501.8081064801663 now: 2025-11-10T15:14:57UTC
 TD1413540 [prior:2173]> /store
+T14.880551086738706 now: 2025-11-11T13:04:33UTC
+TD3361292 📋> ✨ Spaceword.org Daily 2025-11-10 ✨
+TDD-3361184 📋> 
+TDD-84 📋> 🏆 Score: 2173
+TDD-4 📋> 🏅 Final Rank: 58/381 🎊
+TDD-2 📋> 🧩 Tiles: 21/21 ✅
+TDD0 📋> 📏 Space Bonus: +73
+TDD0 📋> 
+TDD1 📋> 
+TDD-1 📋> Play at https://spaceword.org
+TDD351476 📋> #spaceword
+TDD148472 📋> ␚
+TDD-499883 pasted: {"subject": "final share result", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2025-11-10 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Final Rank: 58/381 \ud83c\udf8a\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TDD40 result: "\u2728 Spaceword.org Daily 2025-11-10 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Final Rank: 58/381 \ud83c\udf8a\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"
