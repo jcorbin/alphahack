@@ -1,0 +1,46 @@
+T86.67902322486043 now: 2025-11-11T13:06:46UTC
+TD56 site: alphaguess.com
+TDD61202 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof 880b48819231eec2a0f13917030233daa3334363
+TDD952743  ...
+TDD5293946 [0 : 98226 : 196542] mach? a
+TDD-6307849 progress: 1 98226 mach
+TDD1603833 [98227 : 147331 : 196542] rho? a
+TDD-1603851 progress: 1 147331 rho
+TDD1612229 [147332 : 171931 : 196542] tag? a
+TDD-1612221 progress: 1 171931 tag
+TDD1595880 [171932 : 182018 : 196542] un? b
+TDD-1595873 progress: -1 182018 un
+TDD1639843 [171932 : 176968 : 182018] tom? b
+TDD-1639848 progress: -1 176968 tom
+TDD1551833 [171932 : 174417 : 176968] test? a
+TDD-1551832 progress: 1 174417 test
+TDD1463904 [174418 : 175629 : 176968] thro? a
+TDD-1463918 progress: 1 175629 thro
+TDD1331954 [175630 : 175934 : 176968] ti? a
+TDD-1331937 progress: 1 175934 ti
+TDD1307681 [175935 : 176437 : 176968] tip? a
+TDD-1307700 progress: 1 176437 tip
+TDD3508088 [176438 : 176664 : 176968] to? b
+TDD-3508054 progress: -1 176664 to
+TDD2550072 [176438 : 176531 : 176664] tit? b
+TDD-2550097 progress: -1 176531 tit
+TDD1619829 [176438 : 176483 : 176531] tiptoe? a
+TDD-1619844 progress: 1 176483 tiptoe
+TDD1783882 [176484 : 176493 : 176531] tire? it
+TDD-1783841 progress: 0 176493 tire
+TDD-90 [176484 : 176493 : 176531] <Done>.
+TDD2871959 📋> 🧩 Puzzle #840
+TDD-2871905 📋> 
+TDD-54 📋> 🤔 13 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 21s
+TDD-2 📋> 
+TDD351812 📋> 🔗 alphaguess.com
+TDD-111933 📋> ␚
+TDD-239802 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #840\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"}
+TDD0 result: "\ud83e\udde9 Puzzle #840\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+TDD-72 result puzzle: 840
+TDD-5 result guesses: 13
+TDD-1 result time: 21s
+TDD0 result link: alphaguess.com
+TDD243741 📆 2025-11-11 ? 
