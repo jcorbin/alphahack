@@ -8,6 +8,7 @@ import shlex
 import sys
 import subprocess
 from collections import Counter, defaultdict
+from contextlib import contextmanager
 from itertools import chain
 from collections.abc import Generator, Iterable, Sequence
 from datetime import date
@@ -883,41 +884,12 @@ class Meta(Arguable):
 
     def do_review(self, ui: PromptUI):
         try:
-            editor = os.environ.get('EDITOR', 'vi')
-            git_editor = os.environ.get('GIT_EDITOR', editor)
-            seq_editor = os.environ.get('GIT_SEQUENCE_EDITOR', git_editor)
-
-            env = os.environ.copy()
-            env['GIT_SEQUENCE_EDITOR'] = EditBack.command('git_seq')
-
-            # TODO we only need to intercept this because of using git-rebase's
-            #      stdin/out as out control channel; is it better to connect
-            #      edit-back via side channel instead?
-            env['GIT_EDITOR'] = EditBack.command('git')
-            env['EDITOR'] = EditBack.command()
-
             with (
-                ui.check_proc(subprocess.Popen(
-                    ('git', 'rebase', '--rebase-merges', '-i', 'main'),
-                    env=env,
-                    text=True,
-                    stdin=subprocess.PIPE,
-                    stdout=subprocess.PIPE,
-                )) as proc,
-                EditBack(proc) as ed,
+                git_rebase_editor(ui) as todo_file,
+                todo_file as (r, w),
             ):
-                for f in ed:
-                    if f.mode == 'git_seq' and basename(f.name) == 'git-rebase-todo':
-                        with f as (r, w):
-                            rev = Review(r)
-                            for line in rev():
-                                print(line, file=w)
-                    edit = (seq_editor if f.mode == 'git_seq' else
-                            git_editor if f.mode == 'git' else
-                            editor)
-                    cmd = shlex.join((edit, f.name))
-                    ui.check_call(subprocess.Popen(cmd, shell=True))
-                    ed.done(f.name)
+                for line in Review(r)():
+                    print(line, file=w)
 
         except subprocess.CalledProcessError as err:
             ui.print(f'! {err}')
@@ -1452,6 +1424,46 @@ class EditBack:
 
             if line:
                 print(f'edit-back got unknown response {line!r}', file=sys.stderr, flush=True)
+
+@contextmanager
+def git_rebase_editor(ui: PromptUI):
+    editor = os.environ.get('EDITOR', 'vi')
+    git_editor = os.environ.get('GIT_EDITOR', editor)
+    seq_editor = os.environ.get('GIT_SEQUENCE_EDITOR', git_editor)
+
+    env = os.environ.copy()
+    env['GIT_SEQUENCE_EDITOR'] = EditBack.command('git_seq')
+
+    # TODO we only need to intercept this because of using git-rebase's
+    #      stdin/out as out control channel; is it better to connect
+    #      edit-back via side channel instead?
+    env['GIT_EDITOR'] = EditBack.command('git')
+    env['EDITOR'] = EditBack.command()
+
+    with (
+        ui.check_proc(subprocess.Popen(
+            ('git', 'rebase', '--rebase-merges', '-i', 'main'),
+            env=env,
+            text=True,
+            stdin=subprocess.PIPE,
+            stdout=subprocess.PIPE,
+        )) as proc,
+        EditBack(proc) as ed,
+    ):
+        done = False
+        for f in ed:
+            if f.mode == 'git_seq' and basename(f.name) == 'git-rebase-todo':
+                if done:
+                    raise RuntimeError('duplicate git-rebase-todo edit')
+                done = True
+                yield f
+
+            edit = (seq_editor if f.mode == 'git_seq' else
+                    git_editor if f.mode == 'git' else
+                    editor)
+            cmd = shlex.join((edit, f.name))
+            ui.check_call(subprocess.Popen(cmd, shell=True))
+            ed.done(f.name)
 
 if __name__ == '__main__':
     args = sys.argv[1:]
