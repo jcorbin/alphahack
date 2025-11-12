@@ -15,7 +15,7 @@ from collections.abc import Generator, Iterable, Mapping, Sequence
 from datetime import date
 from dotenv import load_dotenv
 from emoji import emoji_count, is_emoji
-from functools import partial
+from functools import partial, reduce
 from os.path import basename
 from typing import Callable, Protocol, cast, final, override
 from types import TracebackType
@@ -506,6 +506,11 @@ class Meta(PromptUI.Arguable):
                 # TODO fin / result
                 # TODO share / report
             }
+
+        root['meta/all/rm'] = lambda ui: reduce(
+            lambda t, sol: self.do_sol_rm(sol, ui), # if t is None else t,
+            solver_harness,
+            None)
 
         self.shell.cur = root['meta']
 
