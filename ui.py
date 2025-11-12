@@ -178,7 +178,8 @@ def test_retry_backoffs():
         (6.0, 12.0, 18.0),
         (6.0, 12.0, 18.0),
         (6.0, 12.0, 18.0),
-        (6.0, 12.0, 18.0), (6.0, 12.0, 18.0),
+        (6.0, 12.0, 18.0),
+        (6.0, 12.0, 18.0),
         (6.0, 12.0, 18.0),
     ]
 
@@ -208,12 +209,12 @@ def retry_backoffs(
     backoff_max: float = 12.0,
     random: Callable[[], float] = random.random,
 ):
+    bk = Backoff(scale=backoff, limit=backoff_max, random=random)
     yield 0, 0
     retry = 0
     while retries == 0 or retry < retries:
         retry += 1
-        delay = min(backoff_max, backoff * math.pow(2, retry-1))
-        yield retry, delay * (0.5 + random())
+        yield retry, bk(retry-1)
 
 @runtime_checkable
 class Itemsable[K, V](Protocol):
