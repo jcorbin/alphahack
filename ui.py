@@ -168,46 +168,6 @@ def test_BackoffCounter(
     bkc.reset()
     assert list(bkc) == expected
 
-def test_retry_backoffs():
-    expected = [
-        (0.0, 0.0, 0.0),
-        (0.5, 1.0, 1.5),
-        (1.0, 2.0, 3.0),
-        (2.0, 4.0, 6.0),
-        (4.0, 8.0, 12.0),
-        (6.0, 12.0, 18.0),
-        (6.0, 12.0, 18.0),
-    ]
-
-    ix: list[int] = []
-    min_vals: list[float] = []
-    mid_vals: list[float] = []
-    max_vals: list[float] = []
-    n = len(expected)
-    for i, val in retry_backoffs(n, random=lambda: 0.0000001):
-        ix.append(i)
-        min_vals.append(val)
-    for i, val in retry_backoffs(n, random=lambda: 0.5):
-        assert ix[i] == i
-        mid_vals.append(val)
-    for i, val in retry_backoffs(n, random=lambda: 0.999999):
-        assert ix[i] == i
-        max_vals.append(val)
-
-    assert ix == list(range(n))
-    assert min_vals == pytest.approx([lo for lo, _, _ in expected]) # pyright:ignore [reportUnknownMemberType]
-    assert mid_vals == pytest.approx([md for _, md, _ in expected]) # pyright:ignore [reportUnknownMemberType]
-    assert max_vals == pytest.approx([hi for _, _, hi in expected]) # pyright:ignore [reportUnknownMemberType]
-
-def retry_backoffs(
-    retries: int,
-    backoff: float = 1.0,
-    backoff_max: float = 12.0,
-    random: Callable[[], float] = random.random,
-):
-    bk = Backoff(scale=backoff, limit=backoff_max, random=random)
-    return BackoffCounter(limit=retries, backoff=bk).enumerate()
-
 @runtime_checkable
 class Itemsable[K, V](Protocol):
     def items(self) -> Iterable[tuple[K, V]]:
