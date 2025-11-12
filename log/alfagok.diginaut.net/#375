@@ -1,0 +1,45 @@
+T37.87984513118863 now: 2025-11-12T13:19:42UTC
+TD48 site: alfagok.diginaut.net
+TDD152218 loaded 399549 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1303 words excluded) asof 93123786bd3ff9f04f8103331cb5de6e67d075fc
+TDD12465874  ...
+TDD-9894604 [0 : 199766 : 399549] lijn? b
+TDD-2723364 progress: -1 199766 lijn
+TDD1641833 [0 : 99842 : 199766] examen? a
+TDD-1641944 progress: 1 99842 examen
+TDD3559977 [99843 : 149326 : 199766] huis? a
+TDD-3559960 progress: 1 149326 huis
+TDD3024963 [149327 : 174543 : 199766] kinderboeken? a
+TDD-3024954 progress: 1 174543 kinderboeken
+TDD3015275 [174544 : 187075 : 199766] kroon? a
+TDD-3015309 progress: 1 187075 kroon
+TDD1896547 [187076 : 193409 : 199766] lawaai? a
+TDD-1896512 progress: 1 193409 lawaai
+TDD1778699 [193410 : 196573 : 199766] let? a
+TDD-1778740 progress: 1 196573 let
+TDD1686182 [196574 : 198147 : 199766] licht? a
+TDD-1686139 progress: 1 198147 licht
+TDD3384593 [198148 : 198848 : 199766] liefdes? b
+TDD-3384595 progress: -1 198848 liefdes
+TDD2196652 [198148 : 198494 : 198848] lichts? a
+TDD-2196653 progress: 1 198494 lichts
+TDD2021692 [198495 : 198649 : 198848] lid? a
+TDD-2021690 progress: 1 198649 lid
+TDD1946065 [198650 : 198711 : 198848] lied? a
+TDD-1946071 progress: 1 198711 lied
+TDD2914967 [198712 : 198777 : 198848] lief? a
+TDD-2914962 progress: 1 198777 lief
+TDD2143583 [198778 : 198800 : 198848] liefde? it
+TDD-2143578 progress: 0 198800 liefde
+TDD-70 [198778 : 198800 : 198848] <Done>.
+TDD3441925 📋> 🧩 Puzzel #375
+TDD-3441863 📋> 🤔 14 gokken
+TDD-61 📋> ⏱️ 31s
+TDD244601 📋> 🔗 alfagok.diginaut.net
+TDD-40362 📋> ␚
+TDD-204210 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #375\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD258 result: "\ud83e\udde9 Puzzel #375\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-291 result puzzle: 375
+TDD-7 result guesses: 14
+TDD-1 result time: 31s
+TDD0 result link: alfagok.diginaut.net
+TDD205259 📆 2025-11-12 ? 
