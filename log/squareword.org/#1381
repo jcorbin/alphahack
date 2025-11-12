@@ -1,0 +1,116 @@
+T122.77760169096291 now: 2025-11-12T13:21:06UTC
+TD55 site: squareword.org
+TDD-17 wordlist: nwl2023.txt
+TDD4236940  ...
+TDD-1794637 🧩  ? #1381
+TDD-2442179 puzzle_id: #1381
+TDD2790877 > *
+TDD1234479 try? 5
+TDD-4025328 questioning: ["spate", "#5"]
+TDD3838646 #1 _____  📋 "spate" ? S_ATE
+TDD-3838431 attempt 0 SPATE Y n Y Y Y
+TDD3315162 #2 _____  📋 "spate" ? _____ ~ AE
+TDD-3315392 attempt 1 SPATE n n m n m
+TDD2206417 #3 _____  📋 "spate" ? _P___ ~ A
+TDD-2206448 attempt 2 SPATE n Y m n n
+TDD2490207 #4 _____  📋 "spate" ? ____E ~ SP
+TDD-2490180 attempt 3 SPATE m m n n Y
+TDD3252449 #5 _____  📋 "spate" ? S____ ~ TE
+TDD-3252445 attempt 4 SPATE Y n n m m
+TDD628099 ? 
+TDD-628159 question done
+TDD377512 > ␚
+TDD-377593 <EOF>
+TDD2740813 > *
+TDD-680904 try? 1
+TDD-2059754 questioning: ["skate", "#1"]
+TDD2155508 #1 S_ATE -P  📋 "skate" ? it
+TDD4620572 #1 S_ATE -P  ? it
+TDD-5487780 #1 S_ATE -P  ? /it
+TDD-1288327 attempt 0 SKATE Y Y Y Y Y
+TDD2468098 #2 _____ ~AE -PST  📋 "skate" ? .
+TDD-2468086 attempt 1 SKATE n n m n m
+TDD1248997 #3 _P___ ~A -EST  📋 "skate" ? .
+TDD-1249048 attempt 2 SKATE n n m n n
+TDD1725459 #4 ____E ~PS -AT  📋 "skate" ? .
+TDD-1725406 attempt 3 SKATE m n n n Y
+TDD1010030 #5 S____ ~ET -AP  📋 "skate" ? .
+TDD-1010056 attempt 4 SKATE Y n n m m
+TDD223218 ? 
+TDD-223315 question done
+TDD632668 > *
+TDD2945789 try? 4
+TDD-3578342 questioning: ["apron", "#3"]
+TDD5154997 #2 _____ ~AE -KPST  📋 "apron" ? .
+TDD-5155003 attempt 1 APRON m n n n n
+TDD3132812 #3 _P___ ~A -EKST  📋 "apron" ? AP___ ~ N
+TDD-3132820 attempt 2 APRON Y Y n n m
+TDD2298453 #4 ____E ~PS -AKT  📋 "apron" ? .
+TDD-2298468 attempt 3 APRON n m n n n
+TDD812097 #5 S____ ~ET -AKP  📋 "apron" ? .
+TDD-812131 attempt 4 APRON n n n n n
+TDD179923 ? 
+TDD-179970 question done
+TDD545265 > *
+TDD-128567 questioning: ["aping", "#3"]
+TDD5401978 #2 _____ ~AE -KNOPRST  📋 "aping" ? _____ ~ AEG
+TDD-5818579 attempt 1 APING m n n n m
+TDD796393 #3 AP___ ~N -EKORST  📋 "aping" ? /it
+TDD-796457 attempt 2 APING Y Y Y Y Y
+TDD2134638 #4 ____E ~PS -AKNORT  📋 "aping" ? .
+TDD-2134550 attempt 3 APING n m n n n
+TDD974212 #5 S____ ~ET -AKNOPR  📋 "aping" ? .
+TDD-974297 attempt 4 APING n n n n n
+TDD266928 ? 
+TDD-266973 question done
+TDD592368 > *
+TDD133981 questioning: ["pulse", "#4"]
+TDD6918927 #2 _____ ~AEG -IKNOPRST  📋 "pulse" ? .
+TDD-7645138 attempt 1 PULSE n n n n m
+TDD743943 #4 ____E ~PS -AGIKNORT  📋 "pulse" ? /it
+TDD-744025 attempt 3 PULSE Y Y Y Y Y
+TDD1118514 #5 S____ ~ET -AGIKNOPR  📋 "pulse" ? .
+TDD-1118524 attempt 4 PULSE n n n n m
+TDD183199 ? 
+TDD-183237 question done
+TDD529120 > *
+TDD665309 questioning: ["waged", "#2"]
+TDD2041859 #2 _____ ~AEG -IKLNOPRSTU  📋 "waged" ? /it
+TDD-3236179 attempt 1 WAGED Y Y Y Y Y
+TDD3163243 #5 S____ ~ET -AGIKLNOPRSU  📋 "waged" ? S__ED ~ TE
+TDD-3163237 attempt 4 WAGED n n n Y Y
+TDD3606549 ? 
+TDD-3606628 question done
+TDD1675664 > *
+TDD-777016 questioning: ["steed", "#5"]
+TDD2800698 #5 S__ED ~T -AGIKLNOPRSUW  📋 "steed" ? /it
+TDD-3699287 attempt 4 STEED Y Y Y Y Y
+TDD5440284 ? squareword.org 1381: 7 guesses
+TDD-5440151 ? 
+TDD-253 question done
+TDD18798 📋> 🟩🟩🟩🟩🟩
+TDD-18802 📋> 🟨🟨🟨🟨🟨
+TDD-18 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟨🟨🟨🟨
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD559254 📋> #squareword #squareword1381
+TDD-331492 📋> ␚
+TDD-227717 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1381"}
+TDD2542170 📋> ␚
+TDD-2542181 pasted: {"subject": "share result", "method": "read:must:stdin", "content": ""}
+TDD1973047 📋> squareword.org 1381: 7 guesses
+TDD-1973023 📋> 
+TDD-47 📋> 🟩🟩🟩🟩🟩
+TDD5 📋> 🟨🟨🟨🟨🟨
+TDD-11 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟨🟨🟨🟨
+TDD5 📋> 
+TDD-2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD407623 📋> #squareword #squareword1381
+TDD-78794 📋> ␚
+TDD-328794 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1381: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1381"}
+TDD239 result: "squareword.org 1381: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1381"
+TDD702336 📆 2025-11-12 ? 
