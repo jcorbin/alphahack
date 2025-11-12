@@ -1,0 +1,46 @@
+T91.65579583123326 now: 2025-11-12T13:20:35UTC
+TD57 site: alphaguess.com
+TDD67423 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof 93123786bd3ff9f04f8103331cb5de6e67d075fc
+TDD2260672  ...
+TDD47511 [0 : 98226 : 196542] mach? a
+TDD-2375582 progress: 1 98226 mach
+TDD3101992 [98227 : 147331 : 196542] rho? b
+TDD-3102002 progress: -1 147331 rho
+TDD1663813 [98227 : 122111 : 147331] par? b
+TDD-1663809 progress: -1 122111 par
+TDD1579522 [98227 : 110131 : 122111] need? a
+TDD-1579525 progress: 1 110131 need
+TDD1606039 [110132 : 116110 : 122111] oppo? a
+TDD-1606065 progress: 1 116110 oppo
+TDD2101610 [116111 : 118744 : 122111] over? a
+TDD-2101605 progress: 1 118744 over
+TDD1536112 [118745 : 120358 : 122111] overt? a
+TDD-1536082 progress: 1 120358 overt
+TDD1709479 [120359 : 120876 : 122111] pa? a
+TDD-1709503 progress: 1 120876 pa
+TDD1541205 [120877 : 121490 : 122111] pallid? a
+TDD-1541183 progress: 1 121490 pallid
+TDD1553797 [121491 : 121791 : 122111] pang? a
+TDD-1553827 progress: 1 121791 pang
+TDD1462113 [121792 : 121891 : 122111] pant? a
+TDD-1462116 progress: 1 121891 pant
+TDD1416133 [121892 : 121975 : 122111] pap? a
+TDD-1416142 progress: 1 121975 pap
+TDD1906317 [121976 : 122003 : 122111] paper? it
+TDD-1906265 progress: 0 122003 paper
+TDD-69 [121976 : 122003 : 122111] <Done>.
+TDD2534498 📋> 🧩 Puzzle #841
+TDD-2534456 📋> 
+TDD-36 📋> 🤔 13 guesses
+TDD-5 📋> 
+TDD-1 📋> ⏱️ 21s
+TDD-2 📋> 
+TDD331144 📋> 🔗 alphaguess.com
+TDD-97918 📋> ␚
+TDD-233174 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #841\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-18 result: "\ud83e\udde9 Puzzle #841\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+TDD-37 result puzzle: 841
+TDD-4 result guesses: 13
+TDD0 result time: 21s
+TDD0 result link: alphaguess.com
+TDD249283 📆 2025-11-12 ? 
