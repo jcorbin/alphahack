@@ -335,7 +335,9 @@ def match(cur: Listing, head: str):
     if head in cur:
         yield head
     else:
-        pat = re.compile(r'.*'.join(re.escape(head.lower())))
+        pat = re.compile(
+            r'.*'.join(re.escape(c)
+            for c in head.lower()))
         for name in cur:
             if pat.match(name):
                 yield name
