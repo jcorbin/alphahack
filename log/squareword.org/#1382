@@ -1,0 +1,86 @@
+T54991.28878235072 now: 2025-11-13T13:16:18UTC
+TD66 site: squareword.org
+TDD-27 wordlist: nwl2023.txt
+TDD2778487  ...
+TDD-593634 🧩  ? #1382
+TDD-2184697 puzzle_id: #1382
+TDD2513967 > *
+TDD123475 try? 1
+TDD-2637393 questioning: ["osier", "#5"]
+TDD4158014 #1 _____  📋 "osier" ? _____ ~ SE
+TDD-4157840 attempt 0 OSIER n m n m n
+TDD4057895 #2 _____  📋 "osier" ? _S_E_
+TDD-4058127 attempt 1 OSIER n Y n Y n
+TDD2529194 #3 _____  📋 "osier" ? _____ ~ SER
+TDD-2529238 attempt 2 OSIER n m n m m
+TDD2706447 #4 _____  📋 "osier" ? _____ ~ SE
+TDD-2706462 attempt 3 OSIER n m n m n
+TDD1608978 #5 _____  📋 "osier" ? _S_E_
+TDD-1608956 attempt 4 OSIER n Y n Y n
+TDD986420 ? 
+TDD-986459 question done
+TDD1266791 > *
+TDD852547 try? 1
+TDD-2119300 questioning: ["asked", "#2"]
+TDD6204350 #1 _____ ~ES -IOR  📋 "asked" ? _____ ~ SEA
+TDD-6204318 attempt 0 ASKED m m n m n
+TDD2240018 #2 _S_E_ -IOR  📋 "asked" ? AS_E_
+TDD-2240108 attempt 1 ASKED Y Y n Y n
+TDD4872989 #3 _____ ~ERS -IO  📋 "asked" ? ____D ~ SER
+TDD-4872912 attempt 2 ASKED n m n m Y
+TDD3703832 #4 _____ ~ES -IOR  📋 "asked" ? _____ ~ SEA
+TDD-3703830 attempt 3 ASKED m m n m n
+TDD772842 #5 _S_E_ -IOR  📋 "asked" ? /it
+TDD-772897 attempt 4 ASKED Y Y Y Y Y
+TDD245429 ? 
+TDD-245487 question done
+TDD632809 > *
+TDD-108410 questioning: ["sherd", "#3"]
+TDD6111055 #1 _____ ~AES -DIKOR  📋 "sherd" ? .
+TDD-6635338 attempt 0 SHERD m n m n n
+TDD1740734 #2 AS_E_ -DIKOR  📋 "sherd" ? .
+TDD-1740787 attempt 1 SHERD n n n n n
+TDD933684 #3 ____D ~ERS -AIKO  📋 "sherd" ? /it
+TDD-933711 attempt 2 SHERD Y Y Y Y Y
+TDD790031 #4 _____ ~AES -DIKOR  📋 "sherd" ? .
+TDD-790035 attempt 3 SHERD m n m n n
+TDD222607 ? 
+TDD-222642 question done
+TDD553627 > *
+TDD-75652 questioning: ["aspen", "#2"]
+TDD7897659 #1 _____ ~AES -DHIKOR  📋 "aspen" ? _____ ~ SEAP
+TDD-8375517 attempt 0 ASPEN m m m m n
+TDD825402 #2 AS_E_ -DEHIKORS  📋 "aspen" ? /it
+TDD-825477 attempt 1 ASPEN Y Y Y Y Y
+TDD607456 #4 _____ ~AES -DHIKOR  📋 "aspen" ? .
+TDD-607462 attempt 3 ASPEN m m n m n
+TDD218589 ? 
+TDD-218618 question done
+TDD520331 > *
+TDD-156369 questioning: ["tease", "#4"]
+TDD6658317 #1 _____ ~AEPS -DHIKNOR  📋 "tease" ? ____E ~ SAPT
+TDD-7022167 attempt 0 TEASE m n m m Y
+TDD1565473 #4 _____ ~AES -DHIKNOPR  📋 "tease" ? /it
+TDD-1565555 attempt 3 TEASE Y Y Y Y Y
+TDD195575 ? 
+TDD-195608 question done
+TDD481551 > *
+TDD179651 questioning: ["paste", "#1"]
+TDD1935873 #1 ____E ~APST -DHIKNOR  📋 "paste" ? /it
+TDD-2596954 attempt 0 PASTE Y Y Y Y Y
+TDD885235 ? 
+TDD-885354 question done
+TDD5778866 📋> squareword.org 1382: 6 guesses
+TDD-5778843 📋> 
+TDD-59 📋> 🟨🟨🟨🟨🟩
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD237857 📋> #squareword #squareword1382
+TDD56823 📋> ␚
+TDD-294636 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1382: 6 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1382"}
+TDD408 result: "squareword.org 1382: 6 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1382"
+TDD256582 📆 2025-11-13 ? 
