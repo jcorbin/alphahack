@@ -1,0 +1,43 @@
+T54934.26094886474 now: 2025-11-13T13:15:21UTC
+TD57 site: alfagok.diginaut.net
+TDD176261 loaded 399549 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1303 words excluded) asof 7c60d0e7e8d4a6c6291146ba38a9b0d9accdfb7d
+TDD5513788  ...
+TDD-1834187 [0 : 199766 : 399549] lijn? a
+TDD-3855678 progress: 1 199766 lijn
+TDD1931351 [199767 : 299649 : 399549] schudde? a
+TDD-1931521 progress: 1 299649 schudde
+TDD1545861 [299650 : 349380 : 399549] vak? a
+TDD-1545856 progress: 1 349380 vak
+TDD1608426 [349381 : 374123 : 399549] vrij? b
+TDD-1608456 progress: -1 374123 vrij
+TDD1748228 [349381 : 361749 : 374123] vervijfvoudig? a
+TDD-1748212 progress: 1 361749 vervijfvoudig
+TDD1746260 [361750 : 367901 : 374123] vocht? a
+TDD-1746280 progress: 1 367901 vocht
+TDD1640642 [367902 : 370394 : 374123] voor? b
+TDD-1640623 progress: -1 370394 voor
+TDD1517200 [367902 : 369077 : 370394] vogel? a
+TDD-1517196 progress: 1 369077 vogel
+TDD1678839 [369078 : 369532 : 370394] volks? b
+TDD-1678832 progress: -1 369532 volks
+TDD1670245 [369078 : 369302 : 369532] voldoen? a
+TDD-1670268 progress: 1 369302 voldoen
+TDD1508963 [369303 : 369333 : 369532] volg? a
+TDD-1508951 progress: 1 369333 volg
+TDD1470581 [369334 : 369433 : 369532] volgroeide? a
+TDD-1470591 progress: 1 369433 volgroeide
+TDD1810087 [369434 : 369477 : 369532] volk? it
+TDD-1810050 progress: 0 369477 volk
+TDD-66 [369434 : 369477 : 369532] <Done>.
+TDD2629383 📋> 🧩 Puzzel #376
+TDD-2629334 📋> 🤔 13 gokken
+TDD-47 📋> ⏱️ 20s
+TDD227176 📋> 🔗 alfagok.diginaut.net
+TDD21523 📋> ␚
+TDD-248652 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #376\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 20s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD258 result: "\ud83e\udde9 Puzzel #376\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 20s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-309 result puzzle: 376
+TDD-7 result guesses: 13
+TDD-1 result time: 20s
+TDD0 result link: alfagok.diginaut.net
+TDD208010 📆 2025-11-13 ? 
