@@ -1,0 +1,101 @@
+T87004.22376634553 now: 2025-11-14T13:33:58UTC
+TD71 site: squareword.org
+TDD-28 wordlist: nwl2023.txt
+TDD6092888  ...
+TDD-4171593 🧩  ? #1383
+TDD-1921149 puzzle_id: #1383
+TDD3091995 > *
+TDD-1773002 try? 1
+TDD-1319014 questioning: ["cares", "#5"]
+TDD4500824 #1 _____  📋 "cares" ? ____S ~ CARS
+TDD-4500592 attempt 0 CARES m m m n Y
+TDD1557550 #2 _____  📋 "cares" ? CA___
+TDD-1557780 attempt 1 CARES Y Y n n n
+TDD2209818 #3 _____  📋 "cares" ? _____ ~ A
+TDD-2209798 attempt 2 CARES n m n n n
+TDD1830937 #4 _____  📋 "cares" ? _____ ~ RE
+TDD-1830957 attempt 3 CARES n n m m n
+TDD2542087 #5 _____  📋 "cares" ? ___E_ ~ ES
+TDD-2542089 attempt 4 CARES n n n Y m
+TDD221100 ? 
+TDD-221190 question done
+TDD1522210 > *
+TDD1641577 try? 3
+TDD-3163685 questioning: ["scars", "#1"]
+TDD2306426 #1 ____S ~ACR -E  📋 "scars" ? /it
+TDD-2306461 attempt 0 SCARS Y Y Y Y Y
+TDD1907055 #2 CA___ -ERS  📋 "scars" ? .
+TDD-1907030 attempt 1 SCARS n n n n n
+TDD972707 #3 _____ ~A -CERS  📋 "scars" ? .
+TDD-972704 attempt 2 SCARS n n m n n
+TDD962677 #4 _____ ~ER -ACS  📋 "scars" ? .
+TDD-962690 attempt 3 SCARS n n n m n
+TDD2290987 #5 ___E_ ~S -ACR  📋 "scars" ? S__E_ ~ E
+TDD-2290981 attempt 4 SCARS Y n n n n
+TDD224840 ? 
+TDD-224947 question done
+TDD630683 > *
+TDD4048090 try? 1
+TDD-4678651 questioning: ["capot", "#2"]
+TDD5033562 #2 CA___ -ACERS  📋 "capot" ? CA_O_
+TDD-5033575 attempt 1 CAPOT Y Y n Y n
+TDD4091633 #3 _____ ~A -CERS  📋 "capot" ? _____ ~ AO
+TDD-4091640 attempt 2 CAPOT n m n m n
+TDD1260338 #4 _____ ~ER -ACS  📋 "capot" ? .
+TDD-1260316 attempt 3 CAPOT n n n n n
+TDD3118339 #5 S__E_ -ACR  📋 "capot" ? S__ET ~ E
+TDD-3118356 attempt 4 CAPOT n n n n Y
+TDD397888 ? 
+TDD-397966 question done
+TDD928696 > *
+TDD2150354 try? 3
+TDD-3078962 questioning: ["canon", "#2"]
+TDD2289601 #2 CA_O_ -EPRST  📋 "canon" ? /it
+TDD-2289622 attempt 1 CANON Y Y Y Y Y
+TDD1456520 #3 _____ ~AO -CEPRST  📋 "canon" ? .
+TDD-1456515 attempt 2 CANON n m n m n
+TDD808552 #4 _____ ~ER -ACOPST  📋 "canon" ? .
+TDD-808528 attempt 3 CANON n n n n n
+TDD2782213 #5 S__ET -ACOPR  📋 "canon" ? S__ET ~ E
+TDD-2782229 attempt 4 CANON n n n n n
+TDD256314 ? 
+TDD-256391 question done
+TDD565831 > *
+TDD576269 questioning: ["demur", "#4"]
+TDD4984396 #3 _____ ~AO -CENPRST  📋 "demur" ? _____ ~ AOM
+TDD-6126400 attempt 2 DEMUR n n m n n
+TDD929839 #4 _____ ~ER -ACNOPST  📋 "demur" ? /it
+TDD-929855 attempt 3 DEMUR Y Y Y Y Y
+TDD2626685 #5 S__ET -ACNOPR  📋 "demur" ? S__ET ~ E
+TDD-2626705 attempt 4 DEMUR n m n n n
+TDD300406 ? 
+TDD-300398 question done
+TDD841631 > *
+TDD843920 questioning: ["amigo", "#3"]
+TDD2180043 #3 _____ ~AMO -CDENPRSTU  📋 "amigo" ? /it
+TDD-3865599 attempt 2 AMIGO Y Y Y Y Y
+TDD4555006 #5 S__ET -ACDMNOPRU  📋 "amigo" ? S__ET ~ E
+TDD-4554992 attempt 4 AMIGO n n n n n
+TDD268261 ? 
+TDD-268324 question done
+TDD675468 > *
+TDD248738 questioning: ["sleet", "#5"]
+TDD3984062 #5 S__ET -ACDGIMNOPRU  📋 "sleet" ? /it
+TDD-4908214 attempt 4 SLEET Y Y Y Y Y
+TDD741637 ? ␚
+TDD-741734 question done
+TDD431036 📋> 
+TDD4639938 📋> squareword.org 1383: 7 guesses
+TDD-5070968 📋> 
+TDD-38 📋> 🟩🟩🟩🟩🟩
+TDD-17 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟨🟨🟩🟩
+TDD0 📋> 
+TDD16 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD267440 📋> #squareword #squareword1383
+TDD-59939 📋> ␚
+TDD-207480 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\nsquareword.org 1383: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1383"}
+TDD441 result: "\nsquareword.org 1383: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1383"
+TDD206632 📆 2025-11-14 ? 
