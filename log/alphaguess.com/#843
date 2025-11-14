@@ -1,0 +1,47 @@
+T86957.3805935625 now: 2025-11-14T13:33:11UTC
+TD56 site: alphaguess.com
+TDD64557 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof a5545acba222cbc6a1617fb3abb45e6bc54f1ec6
+TDD8491242  ...
+TDD-6389636 [0 : 98226 : 196542] mach? b
+TDD-2166108 progress: -1 98226 mach
+TDD1707639 [0 : 47387 : 98226] dis? a
+TDD-1707660 progress: 1 47387 dis
+TDD1475267 [47388 : 72807 : 98226] gremolata? a
+TDD-1475264 progress: 1 72807 gremolata
+TDD1521768 [72808 : 85511 : 98226] ins? b
+TDD-1521758 progress: -1 85511 ins
+TDD1432010 [72808 : 79139 : 85511] hood? b
+TDD-1432013 progress: -1 79139 hood
+TDD1428849 [72808 : 75963 : 79139] haw? b
+TDD-1428854 progress: -1 75963 haw
+TDD1386096 [72808 : 74368 : 75963] had? a
+TDD-1386099 progress: 1 74368 had
+TDD1825336 [74369 : 75060 : 75963] hand? b
+TDD-1825289 progress: -1 75060 hand
+TDD1493205 [74369 : 74714 : 75060] halachas? a
+TDD-1493246 progress: 1 74714 halachas
+TDD1630963 [74715 : 74884 : 75060] halo? b
+TDD-1630959 progress: -1 74884 halo
+TDD1654176 [74715 : 74799 : 74884] halid? b
+TDD-1654167 progress: -1 74799 halid
+TDD1468808 [74715 : 74757 : 74799] hale? 
+TDD-980306 [74715 : 74757 : 74799] hale? a
+TDD-488529 progress: 1 74757 hale
+TDD3235051 [74758 : 74766 : 74799] half? it
+TDD-3235046 progress: 0 74766 half
+TDD-66 [74758 : 74766 : 74799] <Done>.
+TDD5516980 📋> 🧩 Puzzle #843
+TDD-5516914 📋> 
+TDD-66 📋> 🤔 13 guesses
+TDD-3 📋> 
+TDD-1 📋> ⏱️ 19s
+TDD-2 📋> 
+TDD250328 📋> 🔗 alphaguess.com
+TDD5705 📋> ␚
+TDD-255994 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #843\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"}
+TDD3 result: "\ud83e\udde9 Puzzle #843\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"
+TDD-44 result puzzle: 843
+TDD-5 result guesses: 13
+TDD0 result time: 19s
+TDD0 result link: alphaguess.com
+TDD254480 📆 2025-11-14 ? 
