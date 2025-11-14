@@ -1,0 +1,39 @@
+T86723.71442074142 now: 2025-11-14T13:29:18UTC
+TD44 site: alfagok.diginaut.net
+TDD165335 loaded 399549 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1303 words excluded) asof a5545acba222cbc6a1617fb3abb45e6bc54f1ec6
+TDD6497448  ...
+TDD-3705440 [0 : 199766 : 399549] lijn? a
+TDD-2957125 progress: 1 199766 lijn
+TDD3385256 [199767 : 299649 : 399549] schudde? a
+TDD-3385422 progress: 1 299649 schudde
+TDD2048324 [299650 : 349380 : 399549] vak? b
+TDD-2048324 progress: -1 349380 vak
+TDD1818581 [299650 : 324180 : 349380] sub? a
+TDD-1818586 progress: 1 324180 sub
+TDD1874699 [324181 : 336774 : 349380] toetsing? b
+TDD-1874695 progress: -1 336774 toetsing
+TDD2006681 [324181 : 330365 : 336774] televisie? b
+TDD-2006686 progress: -1 330365 televisie
+TDD26379417 [324181 : 327171 : 330365] tafel? a
+TDD-26379415 progress: 1 327171 tafel
+TDD2687873 [327172 : 328761 : 330365] technologie? a
+TDD-2687864 progress: 1 328761 technologie
+TDD1971326 [328762 : 329518 : 330365] teken? b
+TDD-1971319 progress: -1 329518 teken
+TDD1865608 [328762 : 329087 : 329518] tegen? b
+TDD-1865628 progress: -1 329087 tegen
+TDD2089241 [328762 : 328914 : 329087] teen? it
+TDD-2089238 progress: 0 328914 teen
+TDD-69 [328762 : 328914 : 329087] <Done>.
+TDD2974572 📋> 🧩 Puzzel #377
+TDD-2974521 📋> 🤔 11 gokken
+TDD-51 📋> ⏱️ 46s
+TDD311474 📋> 🔗 alfagok.diginaut.net
+TDD56954 📋> ␚
+TDD-368371 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #377\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 46s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD261 result: "\ud83e\udde9 Puzzel #377\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 46s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-321 result puzzle: 377
+TDD-8 result guesses: 11
+TDD-1 result time: 46s
+TDD0 result link: alfagok.diginaut.net
+TDD759318 📆 2025-11-14 ? 
