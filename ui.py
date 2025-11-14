@@ -684,8 +684,72 @@ def test_handle_init():
         assert h.given == ()
         assert h.ent == {}
 
-def test_handle_basics():
+@pytest.fixture
+def demo_world() -> tuple[Entry, ...]:
+    return tuple(demo_world_entries())
+
+def demo_world_entries() -> Generator[Entry]:
+    def do_hello(ui: PromptUI):
+        '''
+        say hi!
+        '''
+        ui.print('hello world')
+    yield 'hello', do_hello
+
+    def do_fb(ui: PromptUI):
+        '''
+        a classic foil
+        '''
+        with ui.tokens_or('N> ') as tokens:
+            n = tokens.have(r'\d+', then=lambda m: int(m[0]))
+            if n is None:
+                ui.print(f'! not an int')
+                return
+            try:
+                ui.write(f'{n}: ')
+                if n % 3 == 0: ui.write('fizz')
+                if n % 5 == 0: ui.write('buzz')
+            finally:
+                ui.fin()
+    yield 'app/fizzbuzz', do_fb
+
+    def do_gen(ui: PromptUI):
+        ui.print('do crimes')
+    yield 'app/search/gen', do_gen
+
+    def do_search_stuff(ui: PromptUI):
+        ui.print(f'tokens:')
+        for n, token in enumerate(ui.tokens, 1):
+            ui.print(f'{n}. {token}')
+    yield 'app/search/.', lambda ui: ui.print(f'dot: {list(ui.tokens)!r}')
+    yield 'app/search/.%', do_search_stuff
+    yield 'app/search/._', lambda ui: ui.print(f'auto: {list(ui.tokens)!r}')
+
+    def do_greet(ui: PromptUI):
+        '''
+        say hi to <name>
+        '''
+        with ui.input('who are you? ') as tokens:
+            ui.print(f'hello {tokens.rest}')
+    yield 'hello/you', do_greet
+
+    yield 'app/review/.', lambda ui: ui.print('do some review')
+    yield 'app/review/log', {
+        '.': lambda ui: ui.print('show log'),
+        'last': lambda ui: ui.print('last log'),
+        'find': lambda ui: ui.print('find log'),
+    }
+    yield 'app/report', lambda ui: ui.print('boring')
+
+def test_handle_basics(demo_world: Iterable[Entry]):
+    # NOTE this test is coupled to the demo_world's entry order
     root = Handle({})
+    demo_world_it = iter(demo_world)
+    def and_next(n: int=1):
+        for _ in range(n):
+            key, st = next(demo_world_it)
+            root[key] = st
+
     with PromptUI.TestHarness() as h:
         assert h.run_all(root, '') == reflow_block('''
             >
@@ -693,12 +757,7 @@ def test_handle_basics():
             >  <EOF>
             ''')
 
-    def do_hello(ui: PromptUI):
-        '''
-        say hi!
-        '''
-        ui.print('hello world')
-    root['hello'] = do_hello
+    and_next()
     assert root['hello'].path == '/hello'
 
     with PromptUI.TestHarness() as h:
@@ -716,22 +775,7 @@ def test_handle_basics():
             >  <EOF>
             ''')
 
-    def do_fb(ui: PromptUI):
-        '''
-        a classic foil
-        '''
-        with ui.tokens_or('N> ') as tokens:
-            n = tokens.have(r'\d+', then=lambda m: int(m[0]))
-            if n is None:
-                ui.print(f'! not an int')
-                return
-            try:
-                ui.write(f'{n}: ')
-                if n % 3 == 0: ui.write('fizz')
-                if n % 5 == 0: ui.write('buzz')
-            finally:
-                ui.fin()
-    root['app/fizzbuzz'] = do_fb
+    and_next()
     assert root['app/fizzbuzz'].path == '/app/fizzbuzz'
 
     with PromptUI.TestHarness() as h:
@@ -753,26 +797,10 @@ def test_handle_basics():
             >  <EOF>
             ''')
 
-    def do_gen(ui: PromptUI):
-        ui.print('do crimes')
-    root['app/search/gen'] = do_gen
+    and_next()
     assert root['app/search/gen'].path == '/app/search/gen'
 
-    def do_search_stuff(ui: PromptUI):
-        ui.print(f'tokens:')
-        for n, token in enumerate(ui.tokens, 1):
-            ui.print(f'{n}. {token}')
-    root['app/search/.'] = lambda ui: ui.print(f'dot: {list(ui.tokens)!r}')
-    root['app/search/.%'] = do_search_stuff
-    root['app/search/._'] = lambda ui: ui.print(f'auto: {list(ui.tokens)!r}')
-
-    def do_greet(ui: PromptUI):
-        '''
-        say hi to <name>
-        '''
-        with ui.input('who are you? ') as tokens:
-            ui.print(f'hello {tokens.rest}')
-    root['hello/you'] = do_greet
+    and_next(4)
     assert root['hello/you'].path == '/hello/you'
 
     with PromptUI.TestHarness() as h:
@@ -835,13 +863,7 @@ def test_handle_basics():
             >  <EOF>
             ''')
 
-    root['app/review/.'] = lambda ui: ui.print('do some review')
-    root['app/review/log'] = {
-        '.': lambda ui: ui.print('show log'),
-        'last': lambda ui: ui.print('last log'),
-        'find': lambda ui: ui.print('find log'),
-    }
-    root['app/report'] = lambda ui: ui.print('boring')
+    and_next(3)
 
     with PromptUI.TestHarness() as h:
         assert h.run_all(root, '/app/re') == reflow_block('''
@@ -893,24 +915,18 @@ def test_handle_basics():
             >  <EOF>
             ''')
 
-    def symbolize(s: str):
-        sym: dict[str, str] = {}
-        def make_sym(m: re.Match[str]) -> str:
-            key = m[1]
-            if key not in sym:
-                sym[key] = f'sym_{len(sym)}'
-            return sym[key]
-        return re.sub(r'0x([0-9a-fA-F]+)', make_sym, s)
+def test_handle_specials(demo_world: Iterable[Entry]):
+    root = Handle(demo_world)
 
     with PromptUI.TestHarness() as h:
-        assert symbolize(h.run_all(root,
+        assert h.run_all(root,
             '!invalid',
             '!tracing',
             '!trac on',
             '!tron',
             '!troff',
             '!trac off',
-        )) == reflow_block('''
+        ) == reflow_block('''
             > !invalid
             unknown command ! invalid; possible commands:
               tracing
