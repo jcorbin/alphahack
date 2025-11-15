@@ -220,14 +220,14 @@ DefaultClipboard = NullClipboard()
 
 # TODO snip the pyperclip dep, just implement command dispatchers and/or an osc52 fallback provider
 try:
-    import pyperclip # pyright: ignore[reportMissingImports]
+    import pyperclip
 except:
     pyperclip = None
     pass
 
-if pyperclip and pyperclip.is_available(): # pyright:ignore [reportUnknownMemberType]
+if pyperclip and pyperclip.is_available():
     pyp_copy = pyperclip.copy # pyright: ignore[reportUnknownMemberType, reportUnknownVariableType]
-    pyp_paste = pyperclip.paste # pyright:ignore [reportUnknownMemberType, reportUnknownVariableType]
+    pyp_paste = pyperclip.paste
 
     @final
     class Pyperclip:
@@ -237,7 +237,7 @@ if pyperclip and pyperclip.is_available(): # pyright:ignore [reportUnknownMember
         def can_copy(self): return True
         def can_paste(self): return True
         def copy(self, mess: str): pyp_copy(mess)
-        def paste(self): return pyp_paste() # pyright:ignore [reportUnknownParameterType, reportUnknownVariableType]
+        def paste(self): return pyp_paste()
 
     DefaultClipboard = Pyperclip()
 
