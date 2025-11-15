@@ -651,11 +651,11 @@ specials = Handle({
     'troff': do_troff,
 })
 
-def test_handle():
-    @contextmanager
-    def just[T](val: T) -> Generator[T]:
-        yield val
+@contextmanager
+def just[T](val: T) -> Generator[T]:
+    yield val
 
+def test_handle_init():
     root = Handle({})
     assert root.name == '.'
     assert root.path == '/'
@@ -670,6 +670,8 @@ def test_handle():
         assert h.given == ()
         assert h.ent == {}
 
+def test_handle_basics():
+    root = Handle({})
     with PromptUI.TestHarness() as h:
         assert h.run_all(root, '') == reflow_block('''
             >
