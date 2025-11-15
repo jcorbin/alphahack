@@ -1,0 +1,101 @@
+T97.73489180579782 now: 2025-11-15T13:10:49UTC
+TD52 site: squareword.org
+TDD0 wordlist: nwl2023.txt
+TDD3230456  ...
+TDD-690869 🧩  ? #1384
+TDD-2539466 puzzle_id: #1384
+TDD2313284 > *
+TDD-487125 try? 1
+TDD-1826172 questioning: ["taels", "#5"]
+TDD3981515 #1 _____  📋 "taels" ? _____ ~ L
+TDD-3981271 attempt 0 TAELS n n n m n
+TDD2950902 #2 _____  📋 "taels" ? _A___ ~ ELS
+TDD-2951119 attempt 1 TAELS n Y m m m
+TDD2246513 #3 _____  📋 "taels" ? _____ ~ AE
+TDD-2246539 attempt 2 TAELS n m m n n
+TDD2276257 #4 _____  📋 "taels" ? _____ ~ ES
+TDD-2276241 attempt 3 TAELS n n m n m
+TDD3650683 #5 _____  📋 "taels" ? T_E__ ~ E
+TDD-3650699 attempt 4 TAELS Y n Y n n
+TDD667490 ? 
+TDD-667505 question done
+TDD525858 > *
+TDD1001883 try? 1
+TDD-1527685 questioning: ["salep", "#2"]
+TDD3227770 #1 _____ ~L -AEST  📋 "salep" ? .
+TDD-3227795 attempt 0 SALEP n n m n n
+TDD2785227 #2 _A___ ~ELS -T  📋 "salep" ? _A_E_ ~ LS
+TDD-2785247 attempt 1 SALEP m Y m Y n
+TDD3546039 #3 _____ ~AE -LST  📋 "salep" ? .
+TDD-3546022 attempt 2 SALEP n m n m n
+TDD4255907 #4 _____ ~ES -ALT  📋 "salep" ? S____ ~ E
+TDD-4255916 attempt 3 SALEP Y n n m n
+TDD2789043 #5 T_E__ -ALS  📋 "salep" ? T_EE_
+TDD-2789109 attempt 4 SALEP n n n Y n
+TDD755501 ? 
+TDD-755495 question done
+TDD696955 > *
+TDD1705428 try? 2
+TDD-2402334 questioning: ["laser", "#2"]
+TDD4314881 #1 _____ ~L -AEPST  📋 "laser" ? _____ ~ LR
+TDD-4314881 attempt 0 LASER m n n n m
+TDD715839 #2 _A_E_ ~LS -PT  📋 "laser" ? /it
+TDD-715882 attempt 1 LASER Y Y Y Y Y
+TDD925238 #3 _____ ~AE -LPST  📋 "laser" ? .
+TDD-925241 attempt 2 LASER n m n m n
+TDD2172968 #4 S____ ~E -ALPT  📋 "laser" ? .
+TDD-2172904 attempt 3 LASER n n n m n
+TDD3113967 #5 T_EE_ -ALPS  📋 "laser" ? T_EE_ ~ R
+TDD-3113964 attempt 4 LASER n n n Y m
+TDD504592 ? 
+TDD-504683 question done
+TDD546161 > *
+TDD9283 questioning: ["blurb", "#1"]
+TDD2937029 #1 _____ ~LR -AEPST  📋 "blurb" ? /it
+TDD-3492393 attempt 0 BLURB Y Y Y Y Y
+TDD1550805 #3 _____ ~AE -LPRST  📋 "blurb" ? .
+TDD-1550817 attempt 2 BLURB n n n n n
+TDD3663211 #4 S____ ~E -ALPRST  📋 "blurb" ? S____ ~ EU
+TDD-3663180 attempt 3 BLURB n n m n n
+TDD2088405 #5 T_EE_ ~R -ALPS  📋 "blurb" ? .
+TDD-2088411 attempt 4 BLURB n n n m n
+TDD206901 ? 
+TDD-206997 question done
+TDD544567 > *
+TDD1156167 questioning: ["segue", "#4"]
+TDD4651780 #3 _____ ~AE -BLPRSTU  📋 "segue" ? ____E ~ AG
+TDD-6352432 attempt 2 SEGUE n n m n Y
+TDD710258 #4 S____ ~EU -ABLPRST  📋 "segue" ? /it
+TDD-710282 attempt 3 SEGUE Y Y Y Y Y
+TDD992978 #5 T_EE_ ~R -ABLPSU  📋 "segue" ? .
+TDD-992973 attempt 4 SEGUE n n n n n
+TDD163523 ? 
+TDD-163606 question done
+TDD537646 > *
+TDD771512 questioning: ["agave", "#3"]
+TDD2387459 #3 ____E ~AG -BLPRSTU  📋 "agave" ? /it
+TDD-3696538 attempt 2 AGAVE Y Y Y Y Y
+TDD1588293 #5 T_EE_ ~R -ABEGLPSU  📋 "agave" ? .
+TDD-1588342 attempt 4 AGAVE n n n n n
+TDD310946 ? 
+TDD-310990 question done
+TDD551953 > *
+TDD322146 questioning: ["treed", "#5"]
+TDD1734598 #5 T_EE_ ~R -ABEGLPSUV  📋 "treed" ? /it
+TDD-2608583 attempt 4 TREED Y Y Y Y Y
+TDD824807 ? 
+TDD-824895 question done
+TDD5323027 📋> squareword.org 1384: 7 guesses
+TDD-5323024 📋> 
+TDD-55 📋> 🟩🟩🟩🟩🟩
+TDD-6 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟨🟨🟨🟩
+TDD13 📋> 🟩🟩🟩🟩🟩
+TDD-13 📋> 🟩🟨🟩🟩🟨
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD292644 📋> #squareword #squareword1384
+TDD-54099 📋> ␚
+TDD-238499 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1384: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1384"}
+TDD358 result: "squareword.org 1384: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1384"
+TDD256279 📆 2025-11-15 ? 
