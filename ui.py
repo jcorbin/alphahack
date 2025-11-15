@@ -314,6 +314,7 @@ class Timer:
 
 State = Callable[['PromptUI'], 'State|None']
 Listing = dict[str, 'Listing|State']
+Entry = tuple[str, Listing|State]
 
 def descend(par: Listing, name: str) -> Listing:
     prior = par.get(name)
@@ -368,9 +369,18 @@ class Handle:
 
     def __init__(
         self,
-        par: 'Handle|Listing',
+        arg: 'Handle|Listing|Iterable[Entry]',
         given: str|tuple[str, ...] = '',
     ):
+        init = ()
+        if isinstance(arg, Handle):
+            par = arg
+        elif isinstance(arg, dict):
+            par = cast(Listing, arg)
+        else:
+            init = arg
+            par = {}
+
         if isinstance(given, str):
             given = tuple(given.split('/')) if given else ()
 
@@ -385,6 +395,10 @@ class Handle:
         else:
             self.par = par
             self.pre_path = '/' if '..' not in par else ''
+
+        if init:
+            for key, ent in init:
+                self[key] = ent
 
         if given and given[0] == '':
             self.par = root(self.par)
