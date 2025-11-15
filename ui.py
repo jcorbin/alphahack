@@ -432,6 +432,10 @@ class Handle:
             path = ' / '.join((path, *self.given))
         return path
 
+    @override
+    def __repr__(self):
+        return f'Handle<par:{self.par} pre_path:{self.pre_path} name:{self.name} may:{self.may} given:{self.given}>'
+
     @property
     def path(self):
         path = self.pre_path
