@@ -334,13 +334,20 @@ def list_entry_name(path: str, ent: State|Listing|None):
 def match(cur: Listing, head: str):
     if head in cur:
         yield head
-    else:
-        pat = re.compile(
-            r'.*'.join(re.escape(c)
-            for c in head.lower()))
-        for name in cur:
-            if pat.match(name):
-                yield name
+        return
+
+    # TODO handle punctuation more generically:
+    #      ... starting punctuation anchors?
+    #      ... only .* between non-punct?
+    if head.startswith('.'):
+        return
+
+    pat = re.compile(
+        r'.*'.join(re.escape(c)
+        for c in head.lower()))
+    for name in cur:
+        if pat.match(name):
+            yield name
 
 def root(par: Listing):
     while '..' in par:
