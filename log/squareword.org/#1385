@@ -1,0 +1,115 @@
+T37190.43609163351 now: 2025-11-16T13:25:14UTC
+TD59 site: squareword.org
+TDD-17 wordlist: nwl2023.txt
+TDD2487273  ...
+TDD-301505 🧩  ? #1385
+TDD-2185650 puzzle_id: #1385
+TDD1638972 > *
+TDD122240 try? 1
+TDD-1761179 questioning: ["etnas", "#5"]
+TDD3880613 #1 _____  📋 "etnas" ? _____ ~ S
+TDD-3880402 attempt 0 ETNAS n n n n m
+TDD2114766 #2 _____  📋 "etnas" ? _____ ~ A
+TDD-2115012 attempt 1 ETNAS n n n m n
+TDD1949199 #3 _____  📋 "etnas" ? _____ ~ EA
+TDD-1949183 attempt 2 ETNAS m n n m n
+TDD1750979 #4 _____  📋 "etnas" ? _____ ~ E
+TDD-1750982 attempt 3 ETNAS m n n n n
+TDD1887434 #5 _____  📋 "etnas" ? __N_S ~ ET
+TDD-1887438 attempt 4 ETNAS m m Y n Y
+TDD463828 ? 
+TDD-463879 question done
+TDD471424 > *
+TDD993067 try? 1
+TDD-1464441 questioning: ["tends", "#5"]
+TDD3584699 #1 _____ ~S -AENT  📋 "tends" ? .
+TDD-3584690 attempt 0 TENDS n n n n m
+TDD1262523 #2 _____ ~A -ENST  📋 "tends" ? .
+TDD-1262527 attempt 1 TENDS n n n n n
+TDD2887537 #3 _____ ~AE -NST  📋 "tends" ? _____ ~ EAD
+TDD-2887529 attempt 2 TENDS n m n m n
+TDD3073992 #4 _____ ~E -ANST  📋 "tends" ? _____ ~ ED
+TDD-3074008 attempt 3 TENDS n m n m n
+TDD2281649 #5 __N_S ~ET -A  📋 "tends" ? TEN_S ~ T
+TDD-2281654 attempt 4 TENDS Y Y Y n Y
+TDD354313 ? 
+TDD-354372 question done
+TDD607628 > *
+TDD41315 questioning: ["tents", "#5"]
+TDD3289317 #1 _____ ~S -ADENT  📋 "tents" ? .
+TDD-3938201 attempt 0 TENTS n n n n m
+TDD778387 #2 _____ ~A -DENST  📋 "tents" ? .
+TDD-778382 attempt 1 TENTS n n n n n
+TDD776627 #3 _____ ~ADE -NST  📋 "tents" ? .
+TDD-776646 attempt 2 TENTS n m n n n
+TDD1065901 #4 _____ ~DE -ANST  📋 "tents" ? .
+TDD-1065882 attempt 3 TENTS n m n n n
+TDD1021366 #5 TEN_S -AD  📋 "tents" ? /it
+TDD-1021377 attempt 4 TENTS Y Y Y Y Y
+TDD162527 ? 
+TDD-162612 question done
+TDD472105 > *
+TDD1289848 try? 1
+TDD-1761819 questioning: ["cored", "#4"]
+TDD9219285 #1 _____ ~S -ADENT  📋 "cored" ? _____ ~ SCO
+TDD-9219327 attempt 0 CORED m m n n n
+TDD2875288 #2 _____ ~A -DENST  📋 "cored" ? _____ ~ AO
+TDD-2875275 attempt 1 CORED n m n n n
+TDD5046092 #3 _____ ~ADE -NST  📋 "cored" ? ___E_ ~ ADR
+TDD-5046094 attempt 2 CORED n n m Y m
+TDD2858419 #4 _____ ~DE -ANST  📋 "cored" ? ___ED ~ ER
+TDD-2858424 attempt 3 CORED n n m Y Y
+TDD1897439 ? 
+TDD-1897494 question done
+TDD625675 > *
+TDD-48088 questioning: ["scoff", "#1"]
+TDD2865915 #1 _____ ~COS -ADENRT  📋 "scoff" ? /it
+TDD-3443443 attempt 0 SCOFF Y Y Y Y Y
+TDD1514063 #2 _____ ~AO -CDENRST  📋 "scoff" ? .
+TDD-1514079 attempt 1 SCOFF n n m n n
+TDD1697971 #3 ___E_ ~ADR -CNOST  📋 "scoff" ? .
+TDD-1697960 attempt 2 SCOFF n n n n n
+TDD3288786 #4 ___ED ~R -ACNOST  📋 "scoff" ? ___ED ~ ERF
+TDD-3288787 attempt 3 SCOFF n n n m m
+TDD365580 ? 
+TDD-365645 question done
+TDD511820 > *
+TDD838297 questioning: ["hallo", "#2"]
+TDD2304751 #2 _____ ~AO -CDEFNRST  📋 "hallo" ? /it
+TDD-3654818 attempt 1 HALLO Y Y Y Y Y
+TDD2750276 #3 ___E_ ~ADR -CFNOST  📋 "hallo" ? .
+TDD-2750259 attempt 2 HALLO n m n n n
+TDD3726225 #4 ___ED ~FR -ACNOST  📋 "hallo" ? ___ED ~ ERF
+TDD-3726236 attempt 3 HALLO n n n n n
+TDD289905 ? 
+TDD-289997 question done
+TDD640641 > *
+TDD818731 questioning: ["adder", "#3"]
+TDD1688479 #3 ___E_ ~ADR -CFHLNOST  📋 "adder" ? /it
+TDD-3147771 attempt 2 ADDER Y Y Y Y Y
+TDD3475742 #4 ___ED ~FR -ACHLNOST  📋 "adder" ? ...ED ~ ERF
+TDD-3164144 #4 ___ED ~FR -ACHLNOST  ? 
+TDD4109640 #4 ___ED ~FR -ACHLNOST  ? ___ED ~ ERF
+TDD-4421215 attempt 3 ADDER n n n Y m
+TDD3593770 ? 
+TDD-3593817 question done
+TDD850277 > *
+TDD75457 questioning: ["freed", "#4"]
+TDD2259875 #4 ___ED ~FR -ACDHLNOST  📋 "freed" ? /it
+TDD-3185557 attempt 3 FREED Y Y Y Y Y
+TDD1002208 ? 
+TDD-1002301 question done
+TDD4526383 📋> squareword.org 1385: 8 guesses
+TDD-4526378 📋> 
+TDD-60 📋> 🟩🟩🟩🟩🟩
+TDD-4 📋> 🟨🟨🟨🟨🟨
+TDD-1 📋> 🟨🟨🟨🟩🟨
+TDD-1 📋> 🟨🟨🟨🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD233097 📋> #squareword #squareword1385
+TDD-77755 📋> ␚
+TDD-155289 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1385: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1385"}
+TDD2064 result: "squareword.org 1385: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1385"
+TDD152438 📆 2025-11-16 ? 
