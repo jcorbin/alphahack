@@ -512,9 +512,9 @@ class Handle:
     @override
     def __str__(self):
         path = self.path
-        if self.given:
-            path = ' / '.join((path, *self.given))
-        return path
+        if not self.given:
+            return path
+        return ' / '.join((path, *self.given))
 
     @override
     def __repr__(self):
