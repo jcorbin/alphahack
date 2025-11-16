@@ -433,17 +433,11 @@ class Handle:
             init = arg
             par = {}
 
-        if isinstance(given, str):
-            given = tuple(given.split('/')) if given else ()
-
         if isinstance(par, Handle):
             self.par = par.par
             self.name = par.name
             self.pre_path = par.path
             self.specials = par.specials.copy()
-            if par.given:
-                self.given = (*par.given, *given)
-                return
 
         else:
             self.specials = self.std_specials.copy()
@@ -456,6 +450,13 @@ class Handle:
         if init:
             for key, ent in init:
                 self[key] = ent
+
+        if isinstance(given, str):
+            given = tuple(given.split('/')) if given else ()
+
+        if isinstance(par, Handle) and par.given:
+            self.given = (*par.given, *given)
+            return # unresolved parent -> unresolved
 
         if given and given[0] == '':
             self.par = root(self.par)
