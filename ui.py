@@ -436,24 +436,22 @@ class Handle:
         if isinstance(given, str):
             given = tuple(given.split('/')) if given else ()
 
-        self.specials = (
-            par.specials if isinstance(par, Handle)
-            else self.std_specials).copy()
-
-        if specials:
-            self.specials.update(specials)
-
         if isinstance(par, Handle):
             self.par = par.par
             self.name = par.name
             self.pre_path = par.path
+            self.specials = par.specials.copy()
             if par.given:
                 self.given = (*par.given, *given)
                 return
 
         else:
+            self.specials = self.std_specials.copy()
             self.par = par
             self.pre_path = '/' if '..' not in par else ''
+
+        if specials:
+            self.specials.update(specials)
 
         if init:
             for key, ent in init:
