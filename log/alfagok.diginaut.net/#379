@@ -1,0 +1,44 @@
+T36836.38208056986 now: 2025-11-16T13:19:20UTC
+TD62 site: alfagok.diginaut.net
+TDD147400 loaded 399547 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1305 words excluded) asof dfc3610cb193a566e7f4b8278d80f3f230c8f38b
+TDD8334636  ...
+TDD-4511272 [0 : 199764 : 399547] lijn? b
+TDD-3970620 progress: -1 199764 lijn
+TDD1984212 [0 : 99840 : 199764] examen? b
+TDD-1984335 progress: -1 99840 examen
+TDD2519750 [0 : 49910 : 99840] bol? b
+TDD-2519769 progress: -1 49910 bol
+TDD2084241 [0 : 24910 : 49910] bad? b
+TDD-2084261 progress: -1 24910 bad
+TDD1637765 [0 : 8648 : 24910] af? a
+TDD-1637737 progress: 1 8648 af
+TDD1627051 [8649 : 16155 : 24910] am? a
+TDD-1627053 progress: 1 16155 am
+TDD1871916 [16156 : 20529 : 24910] arg? a
+TDD-1871901 progress: 1 20529 arg
+TDD2311495 [20530 : 22705 : 24910] audit? b
+TDD-2311488 progress: -1 22705 audit
+TDD2656971 [20530 : 21539 : 22705] asiel? b
+TDD-2656997 progress: -1 21539 asiel
+TDD2056706 [20530 : 21032 : 21539] arron? !
+TDD107630 [20530 : 21032 : 21538] arrondissement? b
+TDD-2164320 progress: -1 21032 arrondissement
+TDD2117269 [20530 : 20668 : 21032] arm? b
+TDD-2117285 progress: -1 20668 arm
+TDD2176609 [20530 : 20584 : 20668] aria? b
+TDD-2176612 progress: -1 20584 aria
+TDD2980048 [20530 : 20557 : 20584] argument? it
+TDD-2980018 progress: 0 20557 argument
+TDD-68 [20530 : 20557 : 20584] <Done>.
+TDD3443472 📋> 🧩 Puzzel #379
+TDD-3443417 📋> 🤔 13 gokken
+TDD-53 📋> ⏱️ 28s
+TDD292618 📋> 🔗 alfagok.diginaut.net
+TDD-55145 📋> ␚
+TDD-237422 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #379\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 28s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD246 result: "\ud83e\udde9 Puzzel #379\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 28s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-301 result puzzle: 379
+TDD-8 result guesses: 13
+TDD-2 result time: 28s
+TDD0 result link: alfagok.diginaut.net
+TDD412063 📆 2025-11-16 ? 
