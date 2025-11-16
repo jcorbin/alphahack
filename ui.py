@@ -494,9 +494,6 @@ class Handle:
         if isinstance(given, str):
             given = tuple(given.split('/')) if given else ()
 
-        if given and given[0].startswith('!'):
-            return # resolution deferred to call time
-
         if isinstance(par, Handle) and par.given:
             self.given = (*par.given, *given)
             return # unresolved parent -> unresolved
@@ -545,11 +542,7 @@ class Handle:
         path = self.path
         if not self.given:
             return path
-        if not path.startswith('!'):
-            return ' / '.join((path, *self.given))
-        head = self.given[0]
-        tail = self.given[1:]
-        return f'! {head.lstrip('!')} {' / '.join(tail)}'
+        return ' / '.join((path, *self.given))
 
     @override
     def __repr__(self):
@@ -559,6 +552,7 @@ class Handle:
     def describe(self):
         def parts():
             path = self.path
+            # XXX specials pathed as-if or as-called !...
             #     else f'!{path[1:]}' if ui.tokens.raw.startswith('!') and path[0] == '/'
 
             if self and not self.given:
@@ -579,12 +573,9 @@ class Handle:
                 head = self.given[0]
                 tail = self.given[1:]
                 # TODO unify with __str__
-                if path == '!':
-                    yield head.lstrip('!')
-                else:
-                    if not path.endswith('/'):
-                        yield '/'
-                    yield f'{head}'
+                if not path.endswith('/'):
+                    yield '/'
+                yield f'{head}'
                 if tail:
                     yield '/'
                     yield '/'.join(tail)
@@ -599,8 +590,6 @@ class Handle:
         if not path:
             return ''
         if self.name != '.':
-            if path.endswith('!'):
-                return f'!{self.name.lstrip('!')}'
             if not path.endswith('/'):
                 path += '/'
             if self.name:
@@ -691,33 +680,11 @@ class Handle:
                 return self.resolve(tokens, tr=tr)._handle(ui, tr)
 
     def search(self, cmd: str):
-        # TODO other special forms like invoking "?" pre or post
-
-        if cmd.startswith('!'):
-            h = self[cmd]
-            print(f'  ytho {cmd!r} -> {h}')
-            yield h
-
-        print(f'  yuno {cmd!r}')
-
-        # bang_m = re.match(f'!+(.+)', cmd)
-        # if bang_m:
-        #     bang = str(bang_m[1])
-        #     hndl = Handle(self.specials, bang)
-        #     if not hndl:
-        #         bang = bang_m[0]
-        #         hndl = Handle(self.specials, bang)
-        #     yield hndl
-
-        if not self:
-            return self
-
         while self and not self.given:
             yield self[cmd]
             self = self['..']
 
         yield Handle(self.specials, cmd)
-        yield Handle(self.specials, f'!{cmd}')
 
     def resolve(self,
                 tokens: 'PromptUI.Tokens',
@@ -726,33 +693,41 @@ class Handle:
             # with ui.trace_entry(lambda: f'{list_entry_name(self.path, self.ent)} resolve') as tr:
             tr = PromptUI.Traced.NoopEntry()
 
-        def common(a: str, b: str):
-            n = min(len(a), len(b))
-            k = 0
-            while k < n and a[k] == b[k]: k += 1
-            if k > 0: return k
-            while k < n and a[-1-k] == b[-1-k]: k += 1
-            if k > 0: return -k
-            return 0
+        if not tokens:
+            tr.write(f'no input, just {self}')
+            return self
 
-        be: Handle|None = None
-        best: int = 0
-        if tokens:
+        def prefer(may: Handle, be: Handle|None):
+            return (
+                may if be is None
+                else may if not be and may
+                else may if may and len(may.given) < len(be.given)
+                else be)
+
+        bang_m = tokens.have(f'!+(.+)')
+        if bang_m:
+            bang = bang_m[0]
+            hndl = Handle(self.specials, bang)
+            if not hndl:
+                bang = str(bang_m[1])
+                hndl = Handle(self.specials, bang)
+            tr.write(f'bang {bang!r}')
+            return hndl
+
+        if self:
             cmd = next(tokens)
-            print(f'XXX try {cmd!r}')
-
+            be: Handle|None = None
             for may in self.search(cmd):
-                if be is None:
-                    be = may
-                    best = common(cmd, may.path)
-                    print(f'  first {be} {best}')
-                else:
-                    k = common(cmd, may.path)
-                    if abs(k) > abs(best):
-                        be, best = may, k
-                    print(f'  pref {may} {k} ??? {be} {best}')
+                maybe = prefer(may, be)
+                tr.write(f'prefer({may}, {be}) -> {maybe}')
+                be = maybe
+            if be is not None:
+                return be
+            tr.write(f'fallthru {self}')
+        else:
+            tr.write(f'unresolved, just {self}')
 
-        return self if be is None else be
+        return self
 
     def handle(self, ui: 'PromptUI'):
         with ui.trace_entry(lambda: f'{list_entry_name(self.path, self.ent)} handle') as tr:
@@ -1188,29 +1163,22 @@ def test_handle_specials(demo_world: Iterable[Entry]):
             '!trac off',
         ) == reflow_block('''
             > !invalid
-            unknown command ! invalid; possible commands:
+            unknown command / invalid; possible commands:
               !tracing
               !troff
               !tron
-              cd
-              chdir
-              cwd
-              dir
-              help
-              ls
-              pwd
             > !tracing
             - tracing: off
             > !trac on
             🔺 <TRON> -> /
             🔺 /
             🔺 / call> !tron
-            🔺 -> do_tron
+            🔺 bang 'tron' -> do_tron
             ! tracing already on ; noop
             🔺 -> <AGAIN>
             🔺 /
             🔺 / call> !troff
-            🔺 -> do_troff
+            🔺 bang 'troff' -> do_troff
             🔺 <!- Next <TROFF> -> /
             > !trac off
             ! tracing already off ; noop
