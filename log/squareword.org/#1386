@@ -1,0 +1,133 @@
+T87808.49103398621 now: 2025-11-17T13:52:48UTC
+TD39 site: squareword.org
+TDD-10 wordlist: nwl2023.txt
+TDD3334397  ...
+TDD-295762 🧩  ? #1386
+TDD-3038498 puzzle_id: #1386
+TDD1244018 > *
+TDD-118851 try? 1
+TDD-1125189 questioning: ["mares", "#5"]
+TDD4331688 #1 _____  📋 "mares" ? _____ ~ ARS
+TDD-4331439 attempt 0 MARES n m m n m
+TDD1752660 #2 _____  📋 "mares" ? ___E_ ~ R
+TDD-1752949 attempt 1 MARES n n m Y n
+TDD1714232 #3 _____  📋 "mares" ? _____ ~ R
+TDD-1714177 attempt 2 MARES n n m n n
+TDD2644498 #4 _____  📋 "mares" ? _____ ~ AS
+TDD-2644493 attempt 3 MARES n m n n m
+TDD2314021 #5 _____  📋 "mares" ? _____ ~ E
+TDD-2314085 attempt 4 MARES n n n m n
+TDD858115 ? 
+TDD-858123 question done
+TDD10608884 > *
+TDD-1389076 try? SH_R_ ~ A
+TDD-7428703 try? 1
+TDD-1791017 questioning: ["shura", "#1"]
+TDD2958026 #1 _____ ~ARS -EM  📋 "shura" ? SH_R_ ~ A
+TDD-2958052 attempt 0 SHURA Y Y n Y m
+TDD2187156 #2 ___E_ ~R -AMS  📋 "shura" ? .
+TDD-2187118 attempt 1 SHURA n n n m n
+TDD2199249 #3 _____ ~R -AEMS  📋 "shura" ? _____ ~ RU
+TDD-2199265 attempt 2 SHURA n n m m n
+TDD25350060 #4 _____ ~AS -EMR  📋 "shura" ? __U__ ~ ASU
+TDD-25350069 attempt 3 SHURA m n Y n m
+TDD872943 #5 _____ ~E -AMRS  📋 "shura" ? 
+TDD916386 #5 _____ ~E -AMRS  ? .
+TDD-1789334 attempt 4 SHURA n n n n n
+TDD734249 ? *
+TDD575290 ? 
+TDD-1309645 question done
+TDD602178 > *
+TDD1614472 try? 1
+TDD-2216557 questioning: ["usual", "#4"]
+TDD4637195 #1 SH_R_ ~A -EMU  📋 "usual" ? .
+TDD-4637187 attempt 0 USUAL n n n m n
+TDD1266021 #2 ___E_ ~R -AHMSU  📋 "usual" ? .
+TDD-1265989 attempt 1 USUAL n n n n n
+TDD1093702 #3 _____ ~RU -AEHMS  📋 "usual" ? .
+TDD-1093748 attempt 2 USUAL m n m n n
+TDD717799 #4 __U__ ~AS -EHMR  📋 "usual" ? /it
+TDD-717834 attempt 3 USUAL Y Y Y Y Y
+TDD2165324 #5 _____ ~E -AHMRSU  📋 "usual" ? _____ ~ EL
+TDD-2165281 attempt 4 USUAL n n n n m
+TDD199997 ? 
+TDD-200067 question done
+TDD439651 > *
+TDD5229615 try? 4
+TDD-5669166 questioning: ["sharp", "#1"]
+TDD4054646 #1 SH_R_ ~A -ELMSU  📋 "sharp" ? SHAR_
+TDD-4054679 attempt 0 SHARP Y Y Y Y n
+TDD2389189 #2 ___E_ ~R -AHLMSU  📋 "sharp" ? .
+TDD-2389157 attempt 1 SHARP n n n m n
+TDD884106 #3 _____ ~RU -AEHLMS  📋 "sharp" ? .
+TDD-884137 attempt 2 SHARP n n n m n
+TDD983404 #5 _____ ~EL -AHMRSU  📋 "sharp" ? .
+TDD-983407 attempt 4 SHARP n n n n n
+TDD162069 ? 
+TDD-162160 question done
+TDD495048 > *
+TDD3719479 try? ␚
+TDD-4214521 <EOF>
+TDD1267984 > * 3
+TDD10400298 try? 2
+TDD-11668177 questioning: ["rugby", "#3"]
+TDD5417665 #1 SHAR_ -ELMPU  📋 "rugby" ? .
+TDD-5417662 attempt 0 RUGBY n n n n n
+TDD861727 #2 ___E_ ~R -AHLMPSU  📋 "rugby" ? .
+TDD-861735 attempt 1 RUGBY m n n n n
+TDD2674323 #3 _____ ~RU -AEHLMPS  📋 "rugby" ? RU__Y
+TDD-2674314 attempt 2 RUGBY Y Y n n Y
+TDD4093912 #5 _____ ~EL -AHMPRSU  📋 "rugby" ? ____Y ~ EL
+TDD-4093928 attempt 4 RUGBY n n n n Y
+TDD340225 ? 
+TDD-340320 question done
+TDD889354 > *
+TDD1090799 questioning: ["shard", "#1"]
+TDD3049973 #1 SHAR_ -BEGLMPRUY  📋 "shard" ? /it
+TDD-5030019 attempt 0 SHARD Y Y Y Y Y
+TDD2824968 #2 ___E_ ~R -ABGHLMPSUY  📋 "shard" ? .
+TDD-2824956 attempt 1 SHARD n n n m n
+TDD2048233 #3 RU__Y -ABEGHLMPS  📋 "shard" ? .
+TDD-2048247 attempt 2 SHARD n n n n n
+TDD1383171 #5 ____Y ~EL -ABGHMPRSU  📋 "shard" ? .
+TDD-1383182 attempt 4 SHARD n n n n n
+TDD151175 ? 
+TDD-151274 question done
+TDD507070 > *
+TDD1356193 questioning: ["telly", "#5"]
+TDD4634305 #2 ___E_ ~R -ABDGHLMPSUY  📋 "telly" ? T__E_ ~ R
+TDD-6497463 attempt 1 TELLY Y n n n n
+TDD2485769 #3 RU__Y -ABDEGHLMPRS  📋 "telly" ? .
+TDD-2485770 attempt 2 TELLY n n n n Y
+TDD631007 #5 ____Y ~EL -ABDGHMPRSU  📋 "telly" ? /it
+TDD-631001 attempt 4 TELLY Y Y Y Y Y
+TDD181101 ? 
+TDD-181212 question done
+TDD497187 > *
+TDD847876 questioning: ["runny", "#3"]
+TDD6004310 #2 T__E_ ~R -ABDEGHLMPSUY  📋 "runny" ? T_NE_ ~ R
+TDD-7349253 attempt 1 RUNNY m n Y n n
+TDD811924 #3 RU__Y -ABDEGHLMPRST  📋 "runny" ? /it
+TDD-811941 attempt 2 RUNNY Y Y Y Y Y
+TDD563933 ? 
+TDD-564023 question done
+TDD629255 > *
+TDD261304 questioning: ["toner", "#2"]
+TDD2025750 #2 T_NE_ ~R -ABDEGHLMPSUY  📋 "toner" ? /it
+TDD-2915971 attempt 1 TONER Y Y Y Y Y
+TDD2547578 ? 
+TDD-2547885 question done
+TDD4060226 📋> squareword.org 1386: 9 guesses
+TDD-4060210 📋> 
+TDD-73 📋> 🟩🟩🟩🟩🟨
+TDD-4 📋> 🟨🟨🟨🟩🟨
+TDD-1 📋> 🟩🟩🟨🟨🟩
+TDD2 📋> 🟩🟩🟩🟩🟩
+TDD-3 📋> 🟨🟨🟨🟨🟩
+TDD-1 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD231520 📋> #squareword #squareword1386
+TDD-2977 📋> ␚
+TDD-228526 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1386: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1386"}
+TDD518 result: "squareword.org 1386: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1386"
+TDD243582 📆 2025-11-17 ? 
