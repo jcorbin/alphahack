@@ -1,0 +1,69 @@
+T88178.44457549788 now: 2025-11-17T13:58:58UTC
+TD51 site: dontwordle.com
+TDD-11 wordlist: nwl2023.txt
+TDD5057221  ...
+TDD-3773967 1> * -bot 10
+TDD-242712 ? 1
+TDD3335332 📋 "rates" ? nnnMM
+TDD-4375768 tried: RATES n n n m m
+TDD556489 2> *
+TDD1849916 ? 
+TDD-1629046 ? 2
+TDD11357408 📋 "sieve" ? MnYnn
+TDD-12134754 tried: SIEVE m n Y n n
+TDD810172 3> undo
+TDD-810257 undo
+TDD640825 2> undo
+TDD-640814 undo
+TDD5242592 1> *
+TDD-1398489 ? 2
+TDD802158 📋 "tutty" ? nnnnY
+TDD-4646199 tried: TUTTY n n n n Y
+TDD648904 2> undo
+TDD-648976 undo
+TDD2287674 1> *
+TDD-1180681 ? 1
+TDD2784703 📋 "lahal" ? nnnnn
+TDD-3891630 tried: LAHAL n n n n n
+TDD438503 2> *
+TDD228849 ? 1
+TDD2897449 📋 "zizit" ? nnnnn
+TDD-3564795 tried: ZIZIT n n n n n
+TDD422811 3> *
+TDD453711 ? 1
+TDD2876148 📋 "vodou" ? nYnnn
+TDD-3752670 tried: VODOU n Y n n n
+TDD864479 4> undo
+TDD-864524 undo
+TDD2085068 3> *
+TDD5252299 ? 1
+TDD-6310182 📋 "drunk" ? nnnnn
+TDD-1027144 tried: DRUNK n n n n n
+TDD515131 4> *
+TDD5314045 📋 "pygmy" ? YnnnY
+TDD-5829165 tried: PYGMY Y n n n Y
+TDD686073 5> undo
+TDD-686163 undo
+TDD3326811 4> *
+TDD5840312 ? 3
+TDD-4447626 📋 "femme" ? nMnnn
+TDD-4719426 tried: FEMME n m n n n
+TDD515184 5> *
+TDD2668339 ? 1
+TDD4120520 📋 "specs" ? MMYnn
+TDD-7304033 tried: SPECS m m Y n n
+TDD10217608 6> fail posey
+TDD-10217631 fail: posey
+TDD3785705 📋> Don't Wordle 1273 - ELIMINATED
+TDD-3785744 📋> Well technically I didn't Wordle!
+TDD-41 📋> ⬜⬜⬜⬜⬜4961
+TDD-16 📋> ⬜⬜⬜⬜⬜2336
+TDD-5 📋> ⬜⬜⬜⬜⬜312
+TDD0 📋> ⬜🟨⬜⬜⬜43
+TDD9 📋> 🟨🟨🟩⬜⬜1
+TDD-10 📋> ⬛⬛⬛⬛⬛
+TDD380248 📋> Undos used: 5
+TDD-10770 📋> ␚
+TDD-369420 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1273 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4961\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2336\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c312\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c43\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c1\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"}
+TDD796 result: "Don't Wordle 1273 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4961\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2336\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c312\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c43\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c1\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"
+TDD520399 📆 2025-11-17 ? 
