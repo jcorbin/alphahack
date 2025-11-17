@@ -1,0 +1,49 @@
+T87710.44979216717 now: 2025-11-17T13:51:10UTC
+TD55 site: alfagok.diginaut.net
+TDD155554 loaded 399546 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1306 words excluded) asof 3ed2d70c3fb9283540010ee39be35c5203b421d8
+TDD5820813  ...
+TDD-2241436 [0 : 199763 : 399546] lijn? a
+TDD-3734729 progress: 1 199763 lijn
+TDD1702790 [199764 : 299646 : 399546] schudde? a
+TDD-1702952 progress: 1 299646 schudde
+TDD1944944 [299647 : 349377 : 399546] vak? b
+TDD-1944942 progress: -1 349377 vak
+TDD1488026 [299647 : 324177 : 349377] sub? b
+TDD-1488040 progress: -1 324177 sub
+TDD1487617 [299647 : 311908 : 324177] spies? a
+TDD-1487621 progress: 1 311908 spies
+TDD1581493 [311909 : 317975 : 324177] stem? b
+TDD-1581479 progress: -1 317975 stem
+TDD5591876 [311909 : 314765 : 317975] staats? a
+TDD-5591877 progress: 1 314765 staats
+TDD2025165 [314766 : 316253 : 317975] standaard? b
+TDD-2025165 progress: -1 316253 standaard
+TDD4517024 [314766 : 315261 : 316253] stads? b
+TDD-4516998 progress: -1 315261 stads
+TDD1833782 [314766 : 315014 : 315261] staatsolie? a
+TDD-1833814 progress: 1 315014 staatsolie
+TDD1682964 [315015 : 315138 : 315261] staatswinkels? a
+TDD-1682956 progress: 1 315138 staatswinkels
+TDD1665204 [315139 : 315196 : 315261] stad? a
+TDD-1665207 progress: 1 315196 stad
+TDD1596152 [315197 : 315221 : 315261] stadhuis? a
+TDD-1596156 progress: 1 315221 stadhuis
+TDD1520681 [315222 : 315241 : 315261] stadion? a
+TDD-1520677 progress: 1 315241 stadion
+TDD1583303 [315242 : 315251 : 315261] stadionterrein? a
+TDD-1583290 progress: 1 315251 stadionterrein
+TDD2008411 [315252 : 315256 : 315261] stadium? it
+TDD-2008420 progress: 0 315256 stadium
+TDD-72 [315252 : 315256 : 315261] <Done>.
+TDD3047438 📋> 🧩 Puzzel #380
+TDD-3047374 📋> 🤔 17 gokken
+TDD-63 📋> ⏱️ 32s
+TDD233677 📋> 🔗 alfagok.diginaut.net
+TDD73362 📋> ␚
+TDD-307007 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #380\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 32s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD269 result: "\ud83e\udde9 Puzzel #380\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 32s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-305 result puzzle: 380
+TDD-8 result guesses: 17
+TDD-1 result time: 32s
+TDD0 result link: alfagok.diginaut.net
+TDD398735 📆 2025-11-17 ? 
