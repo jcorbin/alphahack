@@ -1,0 +1,49 @@
+T57183.83838427812 now: 2025-11-18T13:52:11UTC
+TD47 site: alfagok.diginaut.net
+TDD151142 loaded 399546 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1306 words excluded) asof b4aab26cf4f172e48bb2722e2b24b88fc1dac6f2
+TDD4510920  ...
+TDD-1186359 [0 : 199763 : 399546] lijn? b
+TDD-3475547 progress: -1 199763 lijn
+TDD1832619 [0 : 99839 : 199763] examen? a
+TDD-1832721 progress: 1 99839 examen
+TDD1521876 [99840 : 149323 : 199763] huis? a
+TDD-1521895 progress: 1 149323 huis
+TDD1644533 [149324 : 174540 : 199763] kinderboeken? a
+TDD-1644534 progress: 1 174540 kinderboeken
+TDD1431639 [174541 : 187072 : 199763] kroon? a
+TDD-1431639 progress: 1 187072 kroon
+TDD1584418 [187073 : 193406 : 199763] lawaai? a
+TDD-1584429 progress: 1 193406 lawaai
+TDD1618519 [193407 : 196570 : 199763] let? b
+TDD-1618522 progress: -1 196570 let
+TDD2108203 [193407 : 194971 : 196570] leest? a
+TDD-2108182 progress: 1 194971 leest
+TDD1934397 [194972 : 195672 : 196570] lek? b
+TDD-1934417 progress: -1 195672 lek
+TDD1658675 [194972 : 195208 : 195672] leger? a
+TDD-1658666 progress: 1 195208 leger
+TDD1617221 [195209 : 195440 : 195672] legitiem? a
+TDD-1617219 progress: 1 195440 legitiem
+TDD1523111 [195441 : 195509 : 195672] leid? a
+TDD-1523130 progress: 1 195509 leid
+TDD1715989 [195510 : 195591 : 195672] leidmotieven? b
+TDD-1715976 progress: -1 195591 leidmotieven
+TDD1677961 [195510 : 195527 : 195591] leiders? b
+TDD-1677951 progress: -1 195527 leiders
+TDD1783857 [195510 : 195518 : 195527] leiden? a
+TDD-1783871 progress: 1 195518 leiden
+TDD2023972 [195519 : 195522 : 195527] leider? it
+TDD-2023960 progress: 0 195522 leider
+TDD-63 [195519 : 195522 : 195527] <Done>.
+TDD3525721 📋> 🧩 Puzzel #381
+TDD-3525670 📋> 🤔 16 gokken
+TDD-45 📋> ⏱️ 26s
+TDD452970 📋> 🔗 alfagok.diginaut.net
+TDD-197937 📋> ␚
+TDD-255014 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #381\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 26s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD6882 result: "\ud83e\udde9 Puzzel #381\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 26s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-6875 result puzzle: 381
+TDD-44 result guesses: 16
+TDD-2 result time: 26s
+TDD0 result link: alfagok.diginaut.net
+TDD673820 📆 2025-11-18 ? 
