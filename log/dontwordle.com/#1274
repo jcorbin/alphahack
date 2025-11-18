@@ -1,0 +1,67 @@
+T57728.12904216722 now: 2025-11-18T14:01:15UTC
+TD56 site: dontwordle.com
+TDD-21 wordlist: nwl2023.txt
+TDD7872521  ...
+TDD-5954407 1> * -bot 10
+TDD-323577 ? 1
+TDD3741172 📋 "arose" ? nMMnn
+TDD-5335608 tried: AROSE n m m n n
+TDD765891 2> undo
+TDD-765948 undo
+TDD3390149 1> *
+TDD-2131766 ? 1
+TDD3999011 📋 "jeeze" ? nnnnn
+TDD-5257333 tried: JEEZE n n n n n
+TDD480120 2> *
+TDD647422 ? 1
+TDD5210932 📋 "kaiak" ? Mnnnn
+TDD-6338487 tried: KAIAK m n n n n
+TDD736537 3> undo
+TDD-736591 undo
+TDD2869388 2> *
+TDD-1383591 ? 1
+TDD3776489 📋 "yuppy" ? nnnnY
+TDD-5262224 tried: YUPPY n n n n Y
+TDD771282 3> undo
+TDD-771371 undo
+TDD2194923 2> *
+TDD-940021 ? 1
+TDD2705523 📋 "mamma" ? nnnnn
+TDD-3960359 tried: MAMMA n n n n n
+TDD636739 3> *
+TDD1017953 ? 1
+TDD3330007 📋 "bidis" ? nnnnn
+TDD-4984673 tried: BIDIS n n n n n
+TDD512120 4> *
+TDD634009 ? 1
+TDD3187139 📋 "cutup" ? Mnnnn
+TDD-4333292 tried: CUTUP m n n n n
+TDD752294 5> undo
+TDD-752358 undo
+TDD2379376 4> *
+TDD2818467 ? 1
+TDD-3478126 📋 "fluff" ? nnnnn
+TDD-1719696 tried: FLUFF n n n n n
+TDD490656 5> *
+TDD6400368 📋 "phpht" ? nnnnn
+TDD-6890957 tried: PHPHT n n n n n
+TDD663618 6> *
+TDD4794676 📋 "known" ? MnMnn
+TDD-5458306 tried: KNOWN m n m n n
+TDD4184613 📋> Don't Wordle 1274 - SURVIVED
+TDD-4184679 📋> Hooray! I didn't Wordle today!
+TDD-40 📋> ⬜⬜⬜⬜⬜6889
+TDD-5 📋> ⬜⬜⬜⬜⬜2956
+TDD-1 📋> ⬜⬜⬜⬜⬜461
+TDD0 📋> ⬜⬜⬜⬜⬜142
+TDD0 📋> ⬜⬜⬜⬜⬜35
+TDD0 📋> 🟨⬜🟨⬜⬜3
+TDD1 📋> Undos used: 4
+TDD-1 📋> 
+TDD0 📋>   3 words remaining
+TDD12 📋> x 7 unused letters
+TDD394782 📋> = 21 total score
+TDD-142378 📋> ␚
+TDD-252374 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1274 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6889\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2956\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c461\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c142\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c35\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c3\nUndos used: 4\n\n  3 words remaining\nx 7 unused letters\n= 21 total score"}
+TDD725 result: "Don't Wordle 1274 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6889\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2956\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c461\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c142\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c35\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c3\nUndos used: 4\n\n  3 words remaining\nx 7 unused letters\n= 21 total score"
+TDD370585 📆 2025-11-18 ? 
