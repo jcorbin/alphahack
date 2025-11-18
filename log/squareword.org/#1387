@@ -1,0 +1,108 @@
+T57501.41243320145 now: 2025-11-18T13:57:28UTC
+TD53 site: squareword.org
+TDD-15 wordlist: nwl2023.txt
+TDD30437018  ...␚
+T5073.007450731471 now: 2025-11-18T15:27:44UTC
+TD16155431  ...
+TDD-16097853 🧩  ? 
+TDD1130766  ...␚
+T10809.928774371743 now: 2025-11-18T17:03:21UTC
+TD2156143  ...
+TDD2211248 🧩  ? #1387
+TDD-4367219 puzzle_id: #1387
+TDD2051430 > *
+TDD-902576 try? 1
+TDD-1148843 questioning: ["teals", "#5"]
+TDD4828446 #1 _____  📋 "teals" ? __A__ ~ S
+TDD-4828230 attempt 0 TEALS n n Y n m
+TDD2196966 #2 _____  📋 "teals" ? _____ ~ A
+TDD-2197142 attempt 1 TEALS n n m n n
+TDD2152970 #3 _____  📋 "teals" ? _____ ~ EA
+TDD-2153036 attempt 2 TEALS n m m n n
+TDD2308714 #4 _____  📋 "teals" ? ____S ~ E
+TDD-2308698 attempt 3 TEALS n m n n Y
+TDD2698269 #5 _____  📋 "teals" ? T____
+TDD-2698273 attempt 4 TEALS Y n n n n
+TDD327421 ? 
+TDD-327496 question done
+TDD666489 > *
+TDD2147859 try? 3
+TDD-2814253 questioning: ["chasm", "#1"]
+TDD7633548 #1 __A__ ~S -ELT  📋 "chasm" ? __AS_
+TDD-7633564 attempt 0 CHASM n n Y Y n
+TDD1488591 #2 _____ ~A -ELST  📋 "chasm" ? .
+TDD-1488619 attempt 1 CHASM n n m n n
+TDD763530 #3 _____ ~AE -LST  📋 "chasm" ? .
+TDD-763579 attempt 2 CHASM n n m n n
+TDD1204034 #4 ____S ~E -ALT  📋 "chasm" ? .
+TDD-1204028 attempt 3 CHASM n n n n n
+TDD1137722 #5 T____ -AELS  📋 "chasm" ? .
+TDD-1137651 attempt 4 CHASM n n n n n
+TDD533504 ? 
+TDD-533623 question done
+TDD540284 > *
+TDD-33741 questioning: ["grasp", "#1"]
+TDD3066740 #1 __AS_ -CEHLMT  📋 "grasp" ? /it
+TDD-3573177 attempt 0 GRASP Y Y Y Y Y
+TDD6896131 #2 _____ ~A -CEHLMST  📋 "grasp" ? _____ ~ AR
+TDD-6896117 attempt 1 GRASP n m m n n
+TDD2543766 #3 _____ ~AE -CHLMST  📋 "grasp" ? _____ ~ EAR
+TDD-2543784 attempt 2 GRASP n m m n n
+TDD2447397 #4 ____S ~E -ACHLMST  📋 "grasp" ? ____S ~ ER
+TDD-2447415 attempt 3 GRASP n m n n n
+TDD1407256 #5 T____ -ACEHLMS  📋 "grasp" ? .
+TDD-1407285 attempt 4 GRASP n n n n n
+TDD1475767 ? 
+TDD-1475778 question done
+TDD24033780 > *
+TDD-21746943 try? 1
+TDD-2286789 questioning: ["radio", "#2"]
+TDD8078578 #2 _____ ~AR -CEGHLMPST  📋 "radio" ? /it
+TDD-8078539 attempt 1 RADIO Y Y Y Y Y
+TDD13494841 #3 _____ ~AER -CGHLMPST  📋 "radio" ? _____ ~ EARDO
+TDD-13494707 attempt 2 RADIO m m m n m
+TDD2840339 #4 ____S ~ER -ACGHLMPST  📋 "radio" ? _____ ~ ERI
+TDD-2840496 attempt 3 RADIO m n n m n
+TDD3526264 #5 T____ -ACEGHLMPRS  📋 "radio" ? T____ ~ I
+TDD-3526267 attempt 4 RADIO n n n m n
+TDD270815 ? 
+TDD-270905 question done
+TDD538908 > *
+TDD963087 questioning: ["adore", "#3"]
+TDD3591567 #3 _____ ~ADEOR -CGHILMPST  📋 "adore" ? /it
+TDD-5093454 attempt 2 ADORE Y Y Y Y Y
+TDD2818147 #4 ____S ~EIR -ACDGHLMOPST  📋 "adore" ? .
+TDD-2818154 attempt 3 ADORE n n n m m
+TDD687199 #5 T____ ~I -ACDEGHLMOPRS  📋 "adore" ? .
+TDD-687281 attempt 4 ADORE n n n n n
+TDD188922 ? 
+TDD-188963 question done
+TDD519359 > *
+TDD793378 questioning: ["fires", "#4"]
+TDD3213823 #4 ____S ~EIR -ACDGHLMOPST  📋 "fires" ? /it
+TDD-4526443 attempt 3 FIRES Y Y Y Y Y
+TDD1960632 #5 T____ ~I -ACDEGHLMOPRS  📋 "fires" ? TI___
+TDD-1960638 attempt 4 FIRES n Y n n n
+TDD209366 ? 
+TDD-209467 question done
+TDD693548 > *
+TDD174716 questioning: ["tinny", "#5"]
+TDD9203647 #5 TI___ -ACDEFGHLMOPRS  📋 "tinny" ? it
+TDD-8665442 #5 TI___ -ACDEFGHLMOPRS  ? /it
+TDD-1406424 attempt 4 TINNY Y Y Y Y Y
+TDD810986 ? 
+TDD-811030 question done
+TDD4911484 📋> squareword.org 1387: 7 guesses
+TDD-4911457 📋> 
+TDD-62 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟨🟩
+TDD0 📋> 🟩🟨🟨🟨🟨
+TDD1 📋> 
+TDD11 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD473466 📋> #squareword #squareword1387
+TDD-194194 📋> ␚
+TDD-279249 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1387: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1387"}
+TDD372 result: "squareword.org 1387: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1387"
+TDD481713 📆 2025-11-18 ? 
