@@ -1,0 +1,50 @@
+T57395.5642570667 now: 2025-11-18T13:55:42UTC
+TD59 site: alphaguess.com
+TDD61741 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof b4aab26cf4f172e48bb2722e2b24b88fc1dac6f2
+TDD101896979  ...␚
+T5035.864270141348 now: 2025-11-18T15:27:07UTC
+TD1885497  ...
+TDD4015741 [0 : 98226 : 196542] mach? b
+TDD-5901026 progress: -1 98226 mach
+TDD1971966 [0 : 47387 : 98226] dis? a
+TDD-1972068 progress: 1 47387 dis
+TDD1301438 [47388 : 72807 : 98226] gremolata? b
+TDD-1301446 progress: -1 72807 gremolata
+TDD1322348 [47388 : 60090 : 72807] face? b
+TDD-1322367 progress: -1 60090 face
+TDD2885731 [47388 : 53403 : 60090] el? a
+TDD-2885707 progress: 1 53403 el
+TDD1763960 [53404 : 56748 : 60090] equate? b
+TDD-1763980 progress: -1 56748 equate
+TDD1258929 [53404 : 54926 : 56748] end? a
+TDD-1258924 progress: 1 54926 end
+TDD1263389 [54927 : 55806 : 56748] enter? a
+TDD-1263384 progress: 1 55806 enter
+TDD1611360 [55807 : 56275 : 56748] ephedrin? a
+TDD-1611369 progress: 1 56275 ephedrin
+TDD1550759 [56276 : 56512 : 56748] epinastic? a
+TDD-1550773 progress: 1 56512 epinastic
+TDD1559934 [56513 : 56630 : 56748] epithelioma? a
+TDD-1559925 progress: 1 56630 epithelioma
+TDD1796032 [56631 : 56682 : 56748] eponym? a
+TDD-1796021 progress: 1 56682 eponym
+TDD1524449 [56683 : 56713 : 56748] equable? a
+TDD-1524451 progress: 1 56713 equable
+TDD1773253 [56714 : 56717 : 56748] equal? it
+TDD-1773261 progress: 0 56717 equal
+TDD-63 [56714 : 56717 : 56748] <Done>.
+TDD3877519 📋> 🧩 Puzzle #847
+TDD-3877454 📋> 
+TDD-65 📋> 🤔 14 guesses
+TDD-4 📋> 
+TDD0 📋> ⏱️ 22s
+TDD-1 📋> 
+TDD415598 📋> 🔗 alphaguess.com
+TDD-82401 📋> ␚
+TDD-333134 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #847\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"}
+TDD223 result: "\ud83e\udde9 Puzzle #847\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"
+TDD-284 result puzzle: 847
+TDD-6 result guesses: 14
+TDD9 result time: 22s
+TDD-11 result link: alphaguess.com
+TDD479330 📆 2025-11-18 ? 
