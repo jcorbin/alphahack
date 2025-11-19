@@ -1,0 +1,121 @@
+T3.7072854079306126 now: 2025-11-19T12:54:53UTC
+TD65 site: squareword.org
+TDD-20 wordlist: nwl2023.txt
+TDD3628099  ...
+TDD-881823 🧩  ? #1388
+TDD-2746151 puzzle_id: #1388
+TDD1241185 > *
+TDD-128859 try? 1
+TDD-1112269 questioning: ["nares", "#5"]
+TDD4155562 #1 _____  📋 "nares" ? _____ ~ AE
+TDD-4155370 attempt 0 NARES n m n m n
+TDD1792625 #2 _____  📋 "nares" ? _____ ~ A
+TDD-1792870 attempt 1 NARES n m n n n
+TDD3100937 #3 _____  📋 "nares" ? _E___ ~ RES
+TDD-3100944 attempt 2 NARES n n m m m
+TDD1927456 #4 _____  📋 "nares" ? ___E_ ~ RE
+TDD-1927456 attempt 3 NARES n n m Y n
+TDD2171712 #5 _____  📋 "nares" ? _A__S ~ R
+TDD-2171711 attempt 4 NARES n Y m n Y
+TDD306464 ? 
+TDD-306542 question done
+TDD489579 > *
+TDD1240882 try? 1
+TDD-1730364 questioning: ["fairs", "#5"]
+TDD3785863 #1 _____ ~AE -NRS  📋 "fairs" ? .
+TDD-3785852 attempt 0 FAIRS n m n n n
+TDD1172966 #2 _____ ~A -ENRS  📋 "fairs" ? .
+TDD-1173017 attempt 1 FAIRS n m n n n
+TDD3173931 #3 _____ ~ERS -AN  📋 "fairs" ? _AI__ ~ RES
+TDD-3173903 attempt 2 FAIRS n Y Y m m
+TDD4018023 #4 ___E_ ~R -ANS  📋 "fairs" ? ___E_ ~ RE
+TDD-4018040 attempt 3 FAIRS n n n m n
+TDD2757266 #5 _A__S ~R -EN  📋 "fairs" ? _AI_S ~ R
+TDD-2757260 attempt 4 FAIRS n Y Y m Y
+TDD403916 ? 
+TDD-403991 question done
+TDD615689 > *
+TDD-22602 questioning: ["raise", "#3"]
+TDD13457788 #1 _____ ~AE -FINRS  📋 "raise" ? ____E ~ A
+TDD-14050793 attempt 0 RAISE n m n n Y
+TDD1054433 #2 _____ ~A -EFINRS  📋 "raise" ? .
+TDD-1054467 attempt 1 RAISE n m n n n
+TDD843924 #3 _AI__ ~ERS -FN  📋 "raise" ? /it
+TDD-843900 attempt 2 RAISE Y Y Y Y Y
+TDD3672990 #4 ___E_ ~R -AFINS  📋 "raise" ? ___E_ ~ RE
+TDD-3672956 attempt 3 RAISE m n n n m
+TDD2384459 #5 _AI_S ~R -EFN  📋 "raise" ? RAI_S
+TDD-2384477 attempt 4 RAISE Y Y Y n n
+TDD201754 ? 
+TDD-201855 question done
+TDD529496 > *
+TDD5787381 try? ␚
+TDD-6316884 <EOF>
+TDD855641 > * 4
+TDD1049926 try? ␚
+TDD-1905571 <EOF>
+TDD662976 > * 1
+TDD734588 try? 1
+TDD-1397514 questioning: ["place", "#1"]
+TDD4948661 #1 ____E ~A -FINRS  📋 "place" ? _LA_E
+TDD-4948617 attempt 0 PLACE n Y Y n Y
+TDD2516085 #2 _____ ~A -EFINRS  📋 "place" ? _L___ ~ AL
+TDD-2516086 attempt 1 PLACE n Y m n n
+TDD4262304 #4 ___E_ ~R -AFINS  📋 "place" ? ___E_ ~ RE
+TDD-4262332 attempt 3 PLACE n n n n m
+TDD214251 #5 RAI_S -EFNS  📋 "place" ? 
+TDD5152708 #5 RAI_S -EFNS  ? .
+TDD-5366921 attempt 4 PLACE n n n n n
+TDD258437 ? 
+TDD-258546 question done
+TDD502074 > *
+TDD384367 questioning: ["raids", "#5"]
+TDD5273319 #1 _LA_E -CFINPRS  📋 "raids" ? _LADE
+TDD-6159666 attempt 0 RAIDS n n n Y n
+TDD4435047 #2 _L___ ~A -CEFINPRS  📋 "raids" ? _L___ ~ AL
+TDD-4435045 attempt 1 RAIDS n m n n n
+TDD3319981 #4 ___E_ ~R -ACFILNPS  📋 "raids" ? ___E_ ~ RE
+TDD-3319965 attempt 3 RAIDS m n n n n
+TDD591975 #5 RAI_S -ACEFLNPS  📋 "raids" ? /it
+TDD-592049 attempt 4 RAIDS Y Y Y Y Y
+TDD165317 ? 
+TDD-165283 question done
+TDD475744 > *
+TDD918768 questioning: ["blade", "#1"]
+TDD1085695 #1 _LADE -ACFINPRS  📋 "blade" ? /it
+TDD-2480194 attempt 0 BLADE Y Y Y Y Y
+TDD3569140 #2 _L___ ~A -CDEFINPRS  📋 "blade" ? _L___ ~ AL
+TDD-3569149 attempt 1 BLADE n Y m n n
+TDD2400296 #4 ___E_ ~R -ACDFILNPS  📋 "blade" ? ___E_ ~ REB
+TDD-2400260 attempt 3 BLADE m n n n m
+TDD243861 ? 
+TDD-243966 question done
+TDD469389 > *
+TDD862463 questioning: ["ember", "#4"]
+TDD7209639 #2 _L___ ~A -BCDEFINPRS  📋 "ember" ? _L___ ~ AL
+TDD-8541391 attempt 1 EMBER n n n n n
+TDD1013104 #4 ___E_ ~BR -ACDFILNPS  📋 "ember" ? /it
+TDD-1013147 attempt 3 EMBER Y Y Y Y Y
+TDD172684 ? 
+TDD-172750 question done
+TDD973504 > *
+TDD1269496 try? 2
+TDD-2242927 questioning: ["allow", "#2"]
+TDD2455770 #2 _L___ ~A -BCDEFIMNPRS  📋 "allow" ? /it
+TDD-2455771 attempt 1 ALLOW Y Y Y Y Y
+TDD1327843 ? 
+TDD-1327913 question done
+TDD6210534 📋> squareword.org 1388: 8 guesses
+TDD-6210513 📋> 
+TDD-50 📋> 🟨🟩🟩🟩🟩
+TDD-6 📋> 🟨🟩🟨🟨🟨
+TDD2 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟨🟨🟨🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD212305 📋> #squareword #squareword1388
+TDD-79783 📋> ␚
+TDD-132481 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1388: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1388"}
+TDD1986 result: "squareword.org 1388: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1388"
+TDD211283 📆 2025-11-19 ? 
