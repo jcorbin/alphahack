@@ -1,0 +1,43 @@
+T82175.56023349799 now: 2025-11-19T12:52:47UTC
+TD44 site: alphaguess.com
+TDD64008 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof 657e386a570ff0fce6ce0c0ee48a6bcabc4304b9
+TDD4688149  ...
+TDD-2631628 [0 : 98226 : 196542] mach? b
+TDD-2120467 progress: -1 98226 mach
+TDD1537260 [0 : 47387 : 98226] dis? a
+TDD-1537292 progress: 1 47387 dis
+TDD1716472 [47388 : 72807 : 98226] gremolata? 
+TDD-1185107 [47388 : 72807 : 98226] gremolata? b
+TDD-531388 progress: -1 72807 gremolata
+TDD2088150 [47388 : 60090 : 72807] face? a
+TDD-2088160 progress: 1 60090 face
+TDD1539043 [60091 : 66446 : 72807] french? a
+TDD-1538997 progress: 1 66446 french
+TDD3245358 [66447 : 69627 : 72807] geosyncline? a
+TDD-3245356 progress: 1 69627 geosyncline
+TDD1809347 [69628 : 71218 : 72807] gnomon? a
+TDD-1809349 progress: 1 71218 gnomon
+TDD1550739 [71219 : 72013 : 72807] gracious? a
+TDD-1550765 progress: 1 72013 gracious
+TDD1482155 [72014 : 72404 : 72807] grass? a
+TDD-1482168 progress: 1 72404 grass
+TDD1462371 [72405 : 72603 : 72807] grazing? a
+TDD-1462361 progress: 1 72603 grazing
+TDD1739498 [72604 : 72674 : 72807] green? it
+TDD-1739494 progress: 0 72674 green
+TDD-44 [72604 : 72674 : 72807] <Done>.
+TDD2178719 📋> 🧩 Puzzle #848
+TDD-2178677 📋> 
+TDD-38 📋> 🤔 11 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 19s
+TDD-2 📋> 
+TDD235344 📋> 🔗 alphaguess.com
+TDD-40791 📋> ␚
+TDD-194518 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #848\n\n\ud83e\udd14 11 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"}
+TDD21 result: "\ud83e\udde9 Puzzle #848\n\n\ud83e\udd14 11 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"
+TDD-56 result puzzle: 848
+TDD-5 result guesses: 11
+TDD0 result time: 19s
+TDD0 result link: alphaguess.com
+TDD488112 📆 2025-11-19 ? 
