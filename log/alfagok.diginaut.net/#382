@@ -1,0 +1,51 @@
+T82126.66193601117 now: 2025-11-19T12:51:58UTC
+TD58 site: alfagok.diginaut.net
+TDD153889 loaded 399546 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1306 words excluded) asof 657e386a570ff0fce6ce0c0ee48a6bcabc4304b9
+TDD5648281  ...
+TDD-307316 [0 : 199763 : 399546] lijn? a
+TDD-5494713 progress: 1 199763 lijn
+TDD1920371 [199764 : 299646 : 399546] schudde? a
+TDD-1920487 progress: 1 299646 schudde
+TDD1941308 [299647 : 349377 : 399546] vak? a
+TDD-1941317 progress: 1 349377 vak
+TDD2310532 [349378 : 374120 : 399546] vrij? b
+TDD-2310520 progress: -1 374120 vrij
+TDD1660632 [349378 : 361746 : 374120] vervijfvoudig? b
+TDD-1660665 progress: -1 361746 vervijfvoudig
+TDD1633171 [349378 : 355127 : 361746] verg? a
+TDD-1633176 progress: 1 355127 verg
+TDD1815860 [355128 : 358433 : 361746] vermenigvuldig? b
+TDD-1815829 progress: -1 358433 vermenigvuldig
+TDD1970879 [355128 : 356766 : 358433] verken? a
+TDD-1970888 progress: 1 356766 verken
+TDD1621740 [356767 : 357598 : 358433] verkreuk? a
+TDD-1621726 progress: 1 357598 verkreuk
+TDD3462999 [357599 : 357979 : 358433] verlies? b
+TDD-3463001 progress: -1 357979 verlies
+TDD1826724 [357599 : 357786 : 357979] verlating? a
+TDD-1826717 progress: 1 357786 verlating
+TDD1892913 [357787 : 357871 : 357979] verleng? b
+TDD-1892922 progress: -1 357871 verleng
+TDD1714358 [357787 : 357826 : 357871] verleide? b
+TDD-1714362 progress: -1 357826 verleide
+TDD1710511 [357787 : 357806 : 357826] verleg? b
+TDD-1710537 progress: -1 357806 verleg
+TDD1685508 [357787 : 357792 : 357806] verlee? b
+TDD-1685481 progress: -1 357792 verlee
+TDD1666249 [357787 : 357789 : 357792] verlazen? a
+TDD-1666285 progress: 1 357789 verlazen
+TDD1936360 [357790 : 357791 : 357792] verleden? it
+TDD-1936321 progress: 0 357791 verleden
+TDD-62 [357790 : 357791 : 357792] <Done>.
+TDD2944924 📋> 🧩 Puzzel #382
+TDD-2944869 📋> 🤔 17 gokken
+TDD-53 📋> ⏱️ 31s
+TDD251755 📋> 🔗 alfagok.diginaut.net
+TDD-39621 📋> ␚
+TDD-212102 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #382\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD264 result: "\ud83e\udde9 Puzzel #382\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-301 result puzzle: 382
+TDD-7 result guesses: 17
+TDD-1 result time: 31s
+TDD0 result link: alfagok.diginaut.net
+TDD390098 📆 2025-11-19 ? 
