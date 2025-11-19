@@ -1,0 +1,100 @@
+T160.57314695045352 now: 2025-11-19T12:57:29UTC
+TD50 site: https://play.dictionary.com/games/todays-hurdle
+TDD-22 wordlist: nwl2023.txt
+TDD5151560  ...
+TDD11788010 1.1> *
+TDD-15906454 1.1 ? 1
+TDD2532255 1.1 📋 "rates" ? Mnnnn
+TDD-3565200 tried: RATES m n n n n
+TDD450979 1.2> *
+TDD440953 1.2 ? 1
+TDD2370142 1.2 📋 "prion" ? nMnMn
+TDD-3262144 tried: PRION n m n m n
+TDD455725 1.3> *
+TDD3465325 1.3 ? 8
+TDD-406259 1.3 📋 "world" ? nYMnY
+TDD-3514794 tried: WORLD n Y m n Y
+TDD401819 1.4> *
+TDD3288879 1.4 📋 "gourd" ? it
+TDD-3690715 tried: GOURD Y Y Y Y Y
+TDD10944471 2.1 📋 "gourd" ? nnnnn
+TDD-10944454 tried: GOURD n n n n n
+TDD430010 2.2> *
+TDD2217704 2.2 ? 7
+TDD1447026 2.2 📋 "scale" ? MnMnY
+TDD-4094732 tried: SCALE m n m n Y
+TDD446697 2.3> *
+TDD624034 2.3 ? 1
+TDD2472472 2.3 📋 "haste" ? nYYYY
+TDD-3543201 tried: HASTE n Y Y Y Y
+TDD424139 2.4> *
+TDD1820825 2.4 ? 3
+TDD167874 2.4 📋 "waste" ? it
+TDD-2412859 tried: WASTE Y Y Y Y Y
+TDD9625493 3.1 📋 "waste" ? nnYnn
+TDD-9625466 tried: WASTE n n Y n n
+TDD5029256 3.2> nnYnn
+TDD-4160597 3.2> *
+TDD1765719 3.2 ? 3
+TDD6354411 3.2 📋 "bison" ? YnYMn
+TDD-8988808 tried: BISON Y n Y m n
+TDD403297 3.3> *
+TDD3842862 3.3 ? 2
+TDD-967226 3.3 📋 "bossy" ? it
+TDD-3278940 tried: BOSSY Y Y Y Y Y
+TDD10830203 4.1 📋 "bossy" ? nnMnn
+TDD-10830188 tried: BOSSY n n m n n
+TDD470532 4.2> *
+TDD1705889 4.2 ? 3
+TDD2322463 4.2 📋 "steam" ? YMMMn
+TDD-4498894 tried: STEAM Y m m m n
+TDD476296 4.3> *
+TDD3925671 4.3 ? 2
+TDD-1067960 4.3 📋 "slate" ? it
+TDD-3334022 tried: SLATE Y Y Y Y Y
+TDD8194862 5.1 📋 "gourd" ? nnnMn
+TDD-8194848 tried: GOURD n n n m n
+TDD1602081 5.2 📋 "waste" ? nnnnY
+TDD-1602133 tried: WASTE n n n n Y
+TDD1180610 5.3 📋 "bossy" ? nnnnn
+TDD-1180623 tried: BOSSY n n n n n
+TDD1287086 5.4 📋 "slate" ? nnnnY
+TDD-1287043 tried: SLATE n n n n Y
+TDD469752 5.5> *
+TDD685229 5.5 ? 1
+TDD2912800 5.5 📋 "crime" ? nMnnY
+TDD-4067812 tried: CRIME n m n n Y
+TDD448592 5.6> *
+TDD3900023 5.6 ? 2
+TDD5427103 5.6 📋 "nerve" ? nYYYY
+TDD-9775655 tried: NERVE n Y Y Y Y
+TDD1735973 5.7> fail verve
+TDD-1736025 fail: VERVE
+TDD4211144 📋> Hurdle 1418
+TDD-4211168 📋> 
+TDD-40 📋> 4/6
+TDD-2 📋> 🟨⬜⬜⬜⬜
+TDD-2 📋> ⬜🟨⬜🟨⬜
+TDD0 📋> ⬜🟩🟨⬜🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> 🟨⬜🟨⬜🟩
+TDD0 📋> ⬜🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> ⬜⬜🟩⬜⬜
+TDD0 📋> 🟩⬜🟩🟨⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> ⬜⬜🟨⬜⬜
+TDD1 📋> 🟩🟨🟨🟨⬜
+TDD6 📋> 🟩🟩🟩🟩🟩
+TDD-6 📋> Final X/2
+TDD0 📋> ⬜🟨⬜⬜🟩
+TDD2 📋> ⬜🟩🟩🟩🟩
+TDD261447 📋> score: 5,060
+TDD-39326 📋> ␚
+TDD-222072 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1418\n\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 5,060"}
+TDD325 result: "Hurdle 1418\n\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 5,060"
+TDD508148 📆 2025-11-19 ? 
