@@ -527,6 +527,7 @@ class Meta(Arguable):
 
     def prompt_mess(self, ui: PromptUI):
         if self.prompt.re == 0:
+            ui.print('')
             self.do_status(ui)
         return 'meta> '
 
@@ -966,6 +967,7 @@ class Meta(Arguable):
         '''
         show solver status
         '''
+        ui.print('Solver Status:')
         for i, day, note, head, _body in self.read_status(ui):
             mark = '❔'
             if day is not None: mark = '✅'
