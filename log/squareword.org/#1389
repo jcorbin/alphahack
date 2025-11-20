@@ -1,0 +1,124 @@
+T40530.37570008263 now: 2025-11-20T12:53:54UTC
+TD59 site: squareword.org
+TDD-18 wordlist: nwl2023.txt
+TDD2465952  ...
+TDD3529723 🧩  ? #1389
+TDD-5995557 puzzle_id: #1389
+TDD1182613 > *
+TDD25446 try? 1
+TDD-1208051 questioning: ["riels", "#5"]
+TDD4077907 #1 _____  📋 "riels" ? _____
+TDD-4077681 attempt 0 RIELS n n n n n
+TDD3520429 #2 _____  📋 "riels" ? _____ ~ RS
+TDD-3520636 attempt 1 RIELS m n n n m
+TDD4694032 #3 _____  📋 "riels" ? _____ ~ RS
+TDD-4694051 attempt 2 RIELS m n n n m
+TDD2454579 #4 _____  📋 "riels" ? _____ ~ EL
+TDD-2454590 attempt 3 RIELS n n m m n
+TDD1829263 #5 _____  📋 "riels" ? ____S
+TDD-1829257 attempt 4 RIELS n n n n Y
+TDD347187 ? 
+TDD-347248 question done
+TDD2133381 > *
+TDD-462168 try? 1
+TDD-1671137 questioning: ["oscar", "#2"]
+TDD9803097 #1 _____ -EILRS  📋 "oscar" ? !
+TDD-9803161 reject: oscar
+TDD-92 question done
+TDD2458458 > *
+TDD-1300371 try? 1
+TDD-1158001 questioning: ["sutra", "#2"]
+TDD6195076 #1 _____ -EILRS  📋 "sutra" ? _____ ~ TA
+TDD-6195031 attempt 0 SUTRA n n m n m
+TDD2365201 #2 _____ ~RS -EIL  📋 "sutra" ? S__R_ ~ R
+TDD-2365208 attempt 1 SUTRA Y n n Y n
+TDD2373584 #3 _____ ~RS -EIL  📋 "sutra" ? SU___ ~ RA
+TDD-2373556 attempt 2 SUTRA Y Y n m m
+TDD2906032 #4 _____ ~EL -IRS  📋 "sutra" ? _____ ~ ELA
+TDD-2906038 attempt 3 SUTRA n n n n m
+TDD2227643 #5 ____S -EILR  📋 "sutra" ? ____S ~ A
+TDD-2227672 attempt 4 SUTRA n n n n m
+TDD248497 ? 
+TDD-248561 question done
+TDD1120849 > *
+TDD2008134 try? 2
+TDD-3128887 questioning: ["sugar", "#3"]
+TDD3992265 #1 _____ ~AT -EILRSU  📋 "sugar" ? .
+TDD-3992248 attempt 0 SUGAR n n n m n
+TDD3428159 #2 S__R_ -AEILTU  📋 "sugar" ? S__R_ ~ R
+TDD-3428184 attempt 1 SUGAR Y n n n m
+TDD878696 #3 SU___ ~AR -EILT  📋 "sugar" ? /it
+TDD-878696 attempt 2 SUGAR Y Y Y Y Y
+TDD2911429 #4 _____ ~AEL -IRSTU  📋 "sugar" ? _____
+TDD-2911449 attempt 3 SUGAR n n n n n
+TDD5017705 #5 ____S ~A -EILRSTU  📋 "sugar" ? .
+TDD-5017665 attempt 4 SUGAR n n n m n
+TDD679502 ? 
+TDD-679585 question done
+TDD1060421 > *
+TDD7761692 try? 
+TDD-8264777 try? 1
+TDD-557277 questioning: ["elope", "#4"]
+TDD8263100 #1 _____ ~AT -EGILRSU  📋 "elope" ? ___P_ ~ TA
+TDD-8263083 attempt 0 ELOPE n n n Y n
+TDD2886308 #2 S__R_ -AEGILTU  📋 "elope" ? S__R_ ~ RO
+TDD-2886339 attempt 1 ELOPE n n m n n
+TDD4463020 #4 _____ ~EL -AGIRSTU  📋 "elope" ? _LO_E ~ A
+TDD-4462996 attempt 3 ELOPE n Y Y n Y
+TDD1470858 #5 ____S ~A -EGILRSTU  📋 "elope" ? 
+TDD-1072865 #5 ____S ~A -EGILRSTU  ? 
+TDD894326 #5 ____S ~A -EGILRSTU  ? .
+TDD-1292333 attempt 4 ELOPE n n n n n
+TDD624083 ? *
+TDD-53572 ? 
+TDD-570555 question done
+TDD518796 > *
+TDD920395 questioning: ["adapt", "#1"]
+TDD1814207 #1 ___P_ ~AT -EGILORSU  📋 "adapt" ? /it
+TDD-3253349 attempt 0 ADAPT Y Y Y Y Y
+TDD3616681 #2 S__R_ ~O -AEGILPTU  📋 "adapt" ? S__R_ ~ RO
+TDD-3616674 attempt 1 ADAPT n n n n n
+TDD2545016 #4 _LO_E -AGIPRSTU  📋 "adapt" ? ALO_E
+TDD-2545040 attempt 3 ADAPT Y n n n n
+TDD1539441 #5 ____S ~A -EGILOPRSTU  📋 "adapt" ? .
+TDD-1539429 attempt 4 ADAPT m n m n n
+TDD145018 ? 
+TDD-145124 question done
+TDD692514 > *
+TDD1163019 questioning: ["sorry", "#2"]
+TDD1248363 #2 S__R_ ~O -ADEGILPTU  📋 "sorry" ? /it
+TDD-3103770 attempt 1 SORRY Y Y Y Y Y
+TDD3371932 #4 ALO_E -DGIPRSTU  📋 "sorry" ? ALO_E
+TDD-3371966 attempt 3 SORRY n n n n n
+TDD3112878 #5 ____S ~A -DEGILOPRSTU  📋 "sorry" ? ____S ~ AY
+TDD-3112854 attempt 4 SORRY n n n n m
+TDD701390 ? 
+TDD-701446 question done
+TDD571167 > *
+TDD822764 questioning: ["alone", "#4"]
+TDD3338632 #4 ALO_E -DGIOPRSTUY  📋 "alone" ? /it
+TDD-4732520 attempt 3 ALONE Y Y Y Y Y
+TDD3628866 #5 ____S ~AY -DEGILOPRSTU  📋 "alone" ? ____S ~ AYN
+TDD-3628851 attempt 4 ALONE m n n m n
+TDD296939 ? 
+TDD-297012 question done
+TDD562924 > *
+TDD381940 questioning: ["yanks", "#5"]
+TDD3483594 #5 ____S ~ANY -DEGILOPRSTU  📋 "yanks" ? /it
+TDD-4428199 attempt 4 YANKS Y Y Y Y Y
+TDD921958 ? 
+TDD-922197 question done
+TDD4630151 📋> squareword.org 1389: 8 guesses
+TDD-4630168 📋> 
+TDD-60 📋> 🟩🟩🟩🟩🟩
+TDD-6 📋> 🟩🟨🟨🟩🟨
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟨🟩
+TDD10 📋> 🟨🟨🟨🟨🟩
+TDD-9 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD355709 📋> #squareword #squareword1389
+TDD-117792 📋> ␚
+TDD-237895 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1389: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1389"}
+TDD463 result: "squareword.org 1389: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1389"
+TDD585007 📆 2025-11-20 ? 
