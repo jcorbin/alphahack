@@ -1,0 +1,45 @@
+T40383.65681918524 now: 2025-11-20T12:51:27UTC
+TD46 site: alfagok.diginaut.net
+TDD164262 loaded 399546 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1306 words excluded) asof cac29384f1891e11af54d78e773f1d00a7051a91
+TDD5507167  ...
+TDD-1579082 [0 : 199763 : 399546] lijn? a
+TDD-4092197 progress: 1 199763 lijn
+TDD3266898 [199764 : 299646 : 399546] schudde? a
+TDD-3266981 progress: 1 299646 schudde
+TDD1723087 [299647 : 349377 : 399546] vak? a
+TDD-1723122 progress: 1 349377 vak
+TDD1652677 [349378 : 374120 : 399546] vrij? b
+TDD-1652649 progress: -1 374120 vrij
+TDD1695329 [349378 : 361746 : 374120] vervijfvoudig? a
+TDD-1695356 progress: 1 361746 vervijfvoudig
+TDD1612351 [361747 : 367898 : 374120] vocht? a
+TDD-1612364 progress: 1 367898 vocht
+TDD1584639 [367899 : 370391 : 374120] voor? b
+TDD-1584594 progress: -1 370391 voor
+TDD1720607 [367899 : 369074 : 370391] vogel? b
+TDD-1720653 progress: -1 369074 vogel
+TDD1777307 [367899 : 368453 : 369074] voer? b
+TDD-1777287 progress: -1 368453 voer
+TDD1678722 [367899 : 368058 : 368453] voeding? b
+TDD-1678719 progress: -1 368058 voeding
+TDD1577606 [367899 : 367978 : 368058] vod? b
+TDD-1577613 progress: -1 367978 vod
+TDD1754469 [367899 : 367938 : 367978] vochtmaat? b
+TDD-1754471 progress: -1 367938 vochtmaat
+TDD1619423 [367899 : 367918 : 367938] vochthoudende? a
+TDD-1619411 progress: 1 367918 vochthoudende
+TDD2466498 [367919 : 367920 : 367938] vochtig? it
+TDD-2466504 progress: 0 367920 vochtig
+TDD-50 [367919 : 367920 : 367938] <Done>.
+TDD3385240 📋> 🧩 Puzzel #383
+TDD-3385186 📋> 🤔 14 gokken
+TDD-63 📋> ⏱️ 24s
+TDD301157 📋> 🔗 alfagok.diginaut.net
+TDD62972 📋> ␚
+TDD-364083 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #383\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD239 result: "\ud83e\udde9 Puzzel #383\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-289 result puzzle: 383
+TDD-7 result guesses: 14
+TDD10 result time: 24s
+TDD-12 result link: alfagok.diginaut.net
+TDD361726 📆 2025-11-20 ? 
