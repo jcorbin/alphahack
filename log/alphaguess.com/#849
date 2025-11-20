@@ -1,0 +1,56 @@
+T40426.33808178455 now: 2025-11-20T12:52:09UTC
+TD56 site: alphaguess.com
+TDD62070 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof cac29384f1891e11af54d78e773f1d00a7051a91
+TDD3882651  ...
+TDD-1092899 [0 : 98226 : 196542] mach? a
+TDD-2851814 progress: 1 98226 mach
+TDD1529358 [98227 : 147331 : 196542] rho? b
+TDD-1529368 progress: -1 147331 rho
+TDD1587572 [98227 : 122111 : 147331] par? a
+TDD-1587561 progress: 1 122111 par
+TDD3095524 [122112 : 134642 : 147331] prog? a
+TDD-3095493 progress: 1 134642 prog
+TDD1545515 [134643 : 140528 : 147331] rec? b
+TDD-1545508 progress: -1 140528 rec
+TDD1472588 [134643 : 137525 : 140528] quad? b
+TDD-1472603 progress: -1 137525 quad
+TDD1471069 [134643 : 136062 : 137525] psycho? a
+TDD-1471070 progress: 1 136062 psycho
+TDD1347944 [136063 : 136791 : 137525] pupil? a
+TDD-1347950 progress: 1 136791 pupil
+TDD1426249 [136792 : 137145 : 137525] putt? b
+TDD-1426229 progress: -1 137145 putt
+TDD1458812 [136792 : 136823 : 137145] pur? a
+TDD-1458823 progress: 1 136823 pur
+TDD1359184 [136824 : 136972 : 137145] purs? a
+TDD-1359180 progress: 1 136972 purs
+TDD5052110 [136973 : 137023 : 137145] pus? b
+TDD-5052115 progress: -1 137023 pus
+TDD2460806 [136973 : 136998 : 137023] pursuits? b
+TDD-2460785 progress: -1 136998 pursuits
+TDD1807067 [136973 : 136985 : 136998] purslane? b
+TDD-1807094 progress: -1 136985 purslane
+TDD1805092 [136973 : 136979 : 136985] pursier? b
+TDD-1805090 progress: -1 136979 pursier
+TDD1688896 [136973 : 136976 : 136979] purser? b
+TDD-1688878 progress: -1 136976 purser
+TDD1540792 [136973 : 136974 : 136976] pursed? b
+TDD-1540804 progress: -1 136974 pursed
+TDD1699297 [136973 : 136973 : 136974] purse? it
+TDD-1699304 progress: 0 136973 purse
+TDD-62 [136973 : 136973 : 136974] <Done>.
+TDD2388060 📋> 🧩 Puzzle #849
+TDD-2388006 📋> 
+TDD-51 📋> 🤔 18 guesses
+TDD-3 📋> 
+TDD-1 📋> ⏱️ 32s
+TDD-1 📋> 
+TDD223178 📋> 🔗 alphaguess.com
+TDD-18114 📋> ␚
+TDD-204994 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #849\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 32s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-7 result: "\ud83e\udde9 Puzzle #849\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 32s\n\n\ud83d\udd17 alphaguess.com"
+TDD-61 result puzzle: 849
+TDD-6 result guesses: 18
+TDD-1 result time: 32s
+TDD2 result link: alphaguess.com
+TDD181127 📆 2025-11-20 ? 
