@@ -1,0 +1,44 @@
+T418.18766020797193 now: 2025-11-21T13:33:00UTC
+TD41 site: alfagok.diginaut.net
+TDD153230 loaded 399546 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1306 words excluded) asof 1bde440a12232d0ebfc9fc794568e6925a73f976
+TDD5253317  ...
+TDD-1915789 [0 : 199763 : 399546] lijn? b
+TDD-3490595 progress: -1 199763 lijn
+TDD1620396 [0 : 99839 : 199763] examen? b
+TDD-1620501 progress: -1 99839 examen
+TDD1974697 [0 : 49909 : 99839] bol? a
+TDD-1974731 progress: 1 49909 bol
+TDD1575772 [49910 : 74757 : 99839] dc? a
+TDD-1575787 progress: 1 74757 dc
+TDD1636549 [74758 : 87215 : 99839] draag? b
+TDD-1636519 progress: -1 87215 draag
+TDD1571618 [74758 : 80983 : 87215] dijkt? a
+TDD-1571657 progress: 1 80983 dijkt
+TDD1681273 [80984 : 83775 : 87215] don? b
+TDD-1681273 progress: -1 83775 don
+TDD1539411 [80984 : 82365 : 83775] divisie? b
+TDD-1539362 progress: -1 82365 divisie
+TDD1611692 [80984 : 81648 : 82365] disco? b
+TDD-1611739 progress: -1 81648 disco
+TDD2125650 [80984 : 81307 : 81648] dio? !
+TDD176495 [80984 : 81312 : 81647] diode? a
+TDD-2302125 progress: 1 81312 diode
+TDD2099336 [81313 : 81449 : 81647] direct? a
+TDD-2099358 progress: 1 81449 direct
+TDD1732987 [81450 : 81484 : 81647] directie? b
+TDD-1732944 progress: -1 81484 directie
+TDD2166100 [81450 : 81455 : 81484] directeur? it
+TDD-2166100 progress: 0 81455 directeur
+TDD-62 [81450 : 81455 : 81484] <Done>.
+TDD3321438 📋> 🧩 Puzzel #384
+TDD-3321388 📋> 🤔 13 gokken
+TDD-39 📋> ⏱️ 24s
+TDD256981 📋> 🔗 alfagok.diginaut.net
+TDD-40158 📋> ␚
+TDD-216801 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #384\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD265 result: "\ud83e\udde9 Puzzel #384\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-299 result puzzle: 384
+TDD-8 result guesses: 13
+TDD-1 result time: 24s
+TDD0 result link: alfagok.diginaut.net
+TDD372948 📆 2025-11-21 ? 
