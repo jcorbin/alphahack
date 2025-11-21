@@ -1,0 +1,64 @@
+T1565.4168446529657 now: 2025-11-21T14:07:55UTC
+TD56 site: dontwordle.com
+TDD-28 wordlist: nwl2023.txt
+TDD5788389  ...
+TDD-4060282 1> * -bot 10
+TDD-407596 ? 1
+TDD3459586 📋 "laser" ? nnMMM
+TDD-4779991 tried: LASER n n m m m
+TDD14124990 2> undo
+TDD-14125016 undo
+TDD3683812 1> *
+TDD-2545131 ? 1
+TDD3945685 📋 "pampa" ? Mnnnn
+TDD-5084345 tried: PAMPA m n n n n
+TDD1400829 2> *
+TDD357207 ? ␚
+TDD-1758104 <EOF>
+TDD1133443 2> undo
+TDD-1133439 undo
+TDD13787320 1> *
+TDD-12593050 ? 1
+TDD3525011 📋 "halal" ? nnnnn
+TDD-4719211 tried: HALAL n n n n n
+TDD1768854 2> *
+TDD328353 ? 1
+TDD2767900 📋 "woozy" ? nnnnn
+TDD-4865101 tried: WOOZY n n n n n
+TDD970635 3> *
+TDD82761 ? 1
+TDD4859371 📋 "tutti" ? nnnnM
+TDD-5912771 tried: TUTTI n n n n m
+TDD773703 4> undo
+TDD-773774 undo
+TDD3626250 3> *
+TDD-2162650 ? 1
+TDD5048099 📋 "uncut" ? nnnnn
+TDD-6511622 tried: UNCUT n n n n n
+TDD7094307 4> *
+TDD-714245 ? 4
+TDD-2152692 📋 "vivid" ? nMnnn
+TDD-4227383 tried: VIVID n m n n n
+TDD4520283 5> *
+TDD2411919 📋 "beige" ? nnYnY
+TDD-6932199 tried: BEIGE n n Y n Y
+TDD1568837 6> *
+TDD4773646 📋 "spike" ? YYYnY
+TDD-6342479 tried: SPIKE Y Y Y n Y
+TDD4126566 📋> Don't Wordle 1277 - SURVIVED
+TDD-4126619 📋> Hooray! I didn't Wordle today!
+TDD-61 📋> ⬜⬜⬜⬜⬜4961
+TDD-3 📋> ⬜⬜⬜⬜⬜2083
+TDD-4 📋> ⬜⬜⬜⬜⬜571
+TDD1 📋> ⬜🟨⬜⬜⬜65
+TDD-1 📋> ⬜⬜🟩⬜🟩5
+TDD-1 📋> 🟩🟩🟩⬜🟩1
+TDD0 📋> Undos used: 3
+TDD0 📋> 
+TDD0 📋>   1 words remaining
+TDD0 📋> x 6 unused letters
+TDD507817 📋> = 6 total score
+TDD-310578 📋> ␚
+TDD-197195 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1277 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4961\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2083\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c571\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c65\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe95\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 6 unused letters\n= 6 total score"}
+TDD736 result: "Don't Wordle 1277 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4961\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2083\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c571\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c65\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe95\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 6 unused letters\n= 6 total score"
+TDD501690 📆 2025-11-21 ? 
