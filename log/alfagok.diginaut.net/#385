@@ -1,0 +1,41 @@
+T84505.0451963935 now: 2025-11-22T13:10:15UTC
+TD46 site: alfagok.diginaut.net
+TDD152140 loaded 399546 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1306 words excluded) asof 1bde440a12232d0ebfc9fc794568e6925a73f976
+TDD5935636  ...
+TDD-3001172 [0 : 199763 : 399546] lijn? a
+TDD-3086399 progress: 1 199763 lijn
+TDD1671250 [199764 : 299646 : 399546] schudde? a
+TDD-1671398 progress: 1 299646 schudde
+TDD1602397 [299647 : 349377 : 399546] vak? b
+TDD-1602374 progress: -1 349377 vak
+TDD1707100 [299647 : 324177 : 349377] sub? b
+TDD-1707127 progress: -1 324177 sub
+TDD3000549 [299647 : 311908 : 324177] spies? a
+TDD-3000538 progress: 1 311908 spies
+TDD1736832 [311909 : 317975 : 324177] stem? b
+TDD-1736840 progress: -1 317975 stem
+TDD1895193 [311909 : 314765 : 317975] staats? b
+TDD-1895199 progress: -1 314765 staats
+TDD1725783 [311909 : 313127 : 314765] sport? a
+TDD-1725786 progress: 1 313127 sport
+TDD1559269 [313128 : 313938 : 314765] sprenkel? a
+TDD-1559249 progress: 1 313938 sprenkel
+TDD3333987 [313939 : 314308 : 314765] spuit? b
+TDD-3333986 progress: -1 314308 spuit
+TDD1670433 [313939 : 314107 : 314308] sprint? a
+TDD-1670450 progress: 1 314107 sprint
+TDD1942444 [314108 : 314204 : 314308] sprong? it
+TDD-1942449 progress: 0 314204 sprong
+TDD-69 [314108 : 314204 : 314308] <Done>.
+TDD4011441 📋> 🧩 Puzzel #385
+TDD-4011382 📋> 🤔 12 gokken
+TDD-58 📋> ⏱️ 22s
+TDD464634 📋> 🔗 alfagok.diginaut.net
+TDD273472 📋> ␚
+TDD-738048 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #385\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD246 result: "\ud83e\udde9 Puzzel #385\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-308 result puzzle: 385
+TDD-3 result guesses: 12
+TDD-2 result time: 22s
+TDD0 result link: alfagok.diginaut.net
+TDD268715 📆 2025-11-22 ? 
