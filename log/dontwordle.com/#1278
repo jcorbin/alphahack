@@ -1,0 +1,69 @@
+T85095.18683099374 now: 2025-11-22T13:20:05UTC
+TD48 site: dontwordle.com
+TDD-17 wordlist: nwl2023.txt
+TDD3353257  ...
+TDD-1340306 1> * -bot 10
+TDD-944419 ? 1
+TDD3596412 📋 "arles" ? nYnMn
+TDD-4664800 tried: ARLES n Y n m n
+TDD991475 2> undo
+TDD-991515 undo
+TDD3217021 1> *
+TDD-1724425 ? 1
+TDD2530432 📋 "yukky" ? nnnnn
+TDD-4023008 tried: YUKKY n n n n n
+TDD448729 2> *
+TDD791127 ? 1
+TDD2751499 📋 "immix" ? nnnnn
+TDD-3991323 tried: IMMIX n n n n n
+TDD480283 3> *
+TDD436770 ? 1
+TDD3951985 📋 "cacao" ? nnnnM
+TDD-4869072 tried: CACAO n n n n m
+TDD774418 4> undo
+TDD-774469 undo
+TDD2664942 3> *
+TDD-1555321 ? 1
+TDD3277414 📋 "spazz" ? nMnnn
+TDD-4386985 tried: SPAZZ n m n n n
+TDD718074 4> undo
+TDD-718126 undo
+TDD3335060 3> *
+TDD-1266334 ? 2
+TDD1898861 📋 "salsa" ? nnnnn
+TDD-3967541 tried: SALSA n n n n n
+TDD542970 4> *
+TDD4223331 📋 "phpht" ? Mnnnn
+TDD-4766275 tried: PHPHT m n n n n
+TDD769908 5> undo
+TDD-769906 undo
+TDD3453758 4> *
+TDD2369332 📋 "phpht" ? Mnnnn
+TDD-5823071 tried: PHPHT m n n n n
+TDD594313 5> *
+TDD5935795 📋 "droop" ? nYYnM
+TDD-6530045 tried: DROOP n Y Y n m
+TDD752786 6> undo
+TDD-752879 undo
+TDD4292278 5> *
+TDD-2926975 📋 "droop" ? ␚
+TDD-1365382 <EOF>
+TDD1132643 5> * -sans
+TDD7819495 ? 2
+TDD-3014335 📋 "crepe" ? nYnYY
+TDD-5937726 tried: CREPE n Y n Y Y
+TDD5081413 6> fail grope
+TDD-5081453 fail: grope
+TDD3432824 📋> Don't Wordle 1278 - ELIMINATED
+TDD-3432865 📋> Well technically I didn't Wordle!
+TDD-58 📋> ⬜⬜⬜⬜⬜7806
+TDD-5 📋> ⬜⬜⬜⬜⬜4289
+TDD-1 📋> ⬜⬜⬜⬜⬜614
+TDD13 📋> 🟨⬜⬜⬜⬜7
+TDD-12 📋> ⬜🟩⬜🟩🟩1
+TDD0 📋> ⬛⬛⬛⬛⬛
+TDD277746 📋> Undos used: 5
+TDD23690 📋> ␚
+TDD-301367 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1278 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7806\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4289\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c614\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c7\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe91\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"}
+TDD686 result: "Don't Wordle 1278 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7806\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4289\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c614\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c7\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe91\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"
+TDD422822 📆 2025-11-22 ? 
