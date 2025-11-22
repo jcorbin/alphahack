@@ -1,0 +1,97 @@
+T30689.420823495835 now: 2025-11-21T22:13:19UTC
+TD52 site: spaceword.org
+TDD-15 wordlist: nwl2023.txt
+TDD17830905  ...
+TDD-12162063 🧩  ? daily 20251121
+TDD-5668511 puzzle_id: 2025-11-21
+TDD700528 num letters (default: 21) ? 
+TDD-700830 num_letters: 21
+TDD3376879 letters? aabeehi
+TDD-3376828 letters: |AABEEHI|
+TDD2308033 letters? iiijklo
+TDD-2308015 letters: |AABEEHIIIIJKLO|
+TDD2683511 letters? prsttuv
+TDD-2683540 letters: |AABEEHIIIIJKLOPRSTTUV|
+TDD2277628 letters. 
+TDD1536375 [doit:100]> /sea -cap 512
+TDD113343328 search 9d47cc [ 512 cap:512 may:2520 prune:35 dead:2 done:1 ]> 
+TDD15565361604 search 9d47cc [ 512 cap:512 may:2520 prune:35 dead:2 done:1 ]> show done
+TDD-15681761749 search 9d47cc [ 512 cap:512 may:2520 prune:35 dead:2 done:1 ]> ret
+TDD-757058 change: 15 H
+TDD-214 change: 25 A
+TDD-7 change: 35 P
+TDD-2 change: 38 A
+TDD-1 change: 45 L
+TDD0 change: 48 I
+TDD1 change: 52 J
+TDD0 change: 53 I
+TDD0 change: 54 V
+TDD0 change: 55 I
+TDD0 change: 56 E
+TDD0 change: 57 S
+TDD1 change: 58 T
+TDD-1 change: 65 T
+TDD0 change: 67 K
+TDD15 change: 72 O
+TDD-14 change: 73 U
+TDD0 change: 74 R
+TDD-1 change: 75 E
+TDD0 change: 76 B
+TDD0 change: 77 I
+TDD3875154 [doit:2151]> /sea -cap 1024
+TDD-709110 Z c$_Lq%}Px!Q7Fz#u}Voawn$D?NXpMkwK6oYQosc~;4DWtD*(>%QBd#%QeK{6p02?m5U~&iZxH1l8szHaiPKyd00000|Nj
+TDD-3165698 Z Dk9cNv~~yr00000|Nj
+TDD6094342 Z BHBsxa~uEw0RR6
+TDD-6094591 Z 8ib()00030{{
+TDD28921819 Z 8ib()00030{{
+TDD-28921830 Z 8ib()00030{{
+TDD28887793 Z A}y4{90OcoY=|vh5chzr20Gi(GYIOWP`HyofFvgY00030{{
+TDD-28887757 Z 8iWxC00030{{
+TDD-91 Z BGE|!o{m0n4#M;>1xR=)D1ZVH7(yQYjzJhs0s$hN1ONa4|Nj
+TDD19 Z BGpNbo-}t700030{{
+TDD-24 Z B0b{5pziVUM2R=*ISBv&0RR6
+TDD0 Z BGE}co&gAl&?uAu00030{{
+TDD0 Z B0ZF#P6_}96K$LX00030{{
+TDD-1 Z BHc*=5XwIcEuo`22~ix7>?8mH00960
+TDD0 Z BHc+|P?tHPg_1wDoCE*>0RR6
+TDD-1 Z 8ib`c00030{{
+TDD-1 Z BGyTGvp%>;M=ia9K?QUY%=IKW2><{9|Nj
+TDD3 Z BGyS^Se)cT8z%t(00960
+TDD9 Z BF;(vSRDj%4k$id!O;gyK><NX5$8y59R~ma0RR6
+TDD-6 Z BFaf#SX>ka$$K8)6dkGnPE|qvz><MtCjkHe0RR6
+TDD-1 Z A|=O#!dVc<z*+&0;7|hE>KWz_i#S*ETLJ(800960
+TDD1 Z BGyTWfPzJ00N9BhV8=k66z1v(3#B0Podf^?0RR6
+TDD28 Z BGyR(a271Ayucw826hZ6c{`#cZ-4Tg1ONa4|Nj
+TDD-28 Z BF;&Oq6j%z`9Pf-26iS|j#F?Y*GT{X00960
+TDD27 Z A~uu|B_+)C0C*wb2+MKQNlO3#00960
+TDD51 Z A|ZJrTm^3IdVxX+T!K1+ouh!_BuDa{1ONa4|Nj
+TDD-74 Z BFagKauTI7@c=sv<Uo*(q0}k_00000|Nj
+TDD-2 Z BFagKw2g357|omn00030{{
+TDD-4 Z BFahFs@yPmThdhlmX=VQ<VmiR00000|Nj
+TDD2 Z BC+%ig%?Xf5Ql;r17Hh*gpaEuW=nu%CjkHe0RR6
+TDD13 Z A~E8iMtgu0HYB$pg%VQoroc%600030{{
+TDD-13 Z BBeqJP=FPbAREHq6$+%<MK71gb`k&p0RR6
+TDD24 Z BGO4ng*QB5`G6b(j#EcZ1xPBVN+<yU00960
+TDD-12 Z BC!JwOuzWLN>m9Y00000|Nj
+TDD-7 Z BGE~n{<L=z00030{{
+TDD-7 Z BF;(3ZAzGv{NYaWp{|nv00030{{
+TDD0 Z BGpO$a3^`v%1HnK00960
+TDD-1 Z A~xa>tt6P~q436u7na5e1x^A000960
+TDD1 Z B6WPpClofogcx56fH|5vP67Y`0RR6
+TDD12 Z BF#xYt{$PVh;xKH$rI)zl<ol8P67Y`0RR6
+TDD30486572 search da38ca [ 1023 cap:1024 may:2601 prune:84 reject:34 done:32 dead:67 ]> ␚
+TDD27067972 [doit:2151]> /res
+TDD-56966657 📋> ✨ Spaceword.org Daily 2025-11-21 ✨
+TDD-587868 📋> 
+TDD-42 📋> 🏆 Score: 2151
+TDD-1 📋> 🏅 Rank: 254/328 😀
+TDD-2 📋> 🧩 Tiles: 21/21 ✅
+TDD12 📋> 📏 Space Bonus: +51
+TDD-2 📋> 
+TDD-9 📋> 
+TDD-1 📋> Play at https://spaceword.org
+TDD270579 📋> #spaceword
+TDD23069 📋> ␚
+TDD-293593 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2025-11-21 \u2728\n\n\ud83c\udfc6 Score: 2151\n\ud83c\udfc5 Rank: 254/328 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +51\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TDD811 result: "\u2728 Spaceword.org Daily 2025-11-21 \u2728\n\n\ud83c\udfc6 Score: 2151\n\ud83c\udfc5 Rank: 254/328 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +51\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD2283582 [prior:2151]> /store
