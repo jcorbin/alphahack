@@ -1,0 +1,105 @@
+T84681.2213658765 now: 2025-11-22T13:13:11UTC
+TD58 site: squareword.org
+TDD-21 wordlist: nwl2023.txt
+TDD3956450  ...
+TDD87706 🧩  ? #1391
+TDD-4043924 puzzle_id: #1391
+TDD1373337 > *
+TDD-178800 try? 1
+TDD-1194618 questioning: ["aides", "#5"]
+TDD4503042 #1 _____  📋 "aides" ? _____ ~ S
+TDD-4502816 attempt 0 AIDES n n n n m
+TDD1671659 #2 _____  📋 "aides" ? ___E_ ~ E
+TDD-1671888 attempt 1 AIDES n n n Y n
+TDD3168864 #3 _____  📋 "aides" ? A____ ~ IDES
+TDD-3168873 attempt 2 AIDES Y m m m m
+TDD2679001 #4 _____  📋 "aides" ? _I___ ~ ES
+TDD-2678966 attempt 3 AIDES n Y n m m
+TDD2330860 #5 _____  📋 "aides" ? ___ES ~ E
+TDD-2330902 attempt 4 AIDES n n n Y Y
+TDD457722 ? 
+TDD-457734 question done
+TDD7927626 > *
+TDD-7063417 questioning: ["aside", "#3"]
+TDD3534503 #1 _____ ~S -ADEI  📋 "aside" ? .
+TDD-4398662 attempt 0 ASIDE n m n n n
+TDD3210826 #2 ___E_ -ADIS  📋 "aside" ? ___E_ ~ E
+TDD-3210865 attempt 1 ASIDE n n n n m
+TDD859597 #3 A____ ~DEIS  📋 "aside" ? /it
+TDD-859589 attempt 2 ASIDE Y Y Y Y Y
+TDD3736086 #4 _I___ ~ES -AD  📋 "aside" ? _I__E ~ S
+TDD-3736059 attempt 3 ASIDE n m n n Y
+TDD4198450 #5 ___ES -ADI  📋 "aside" ? ___ES ~ E
+TDD-4198453 attempt 4 ASIDE n n n n m
+TDD507290 ? 
+TDD-507370 question done
+TDD759270 > *
+TDD1840380 try? 2
+TDD-2599506 questioning: ["siege", "#4"]
+TDD5332555 #1 _____ ~S -ADEI  📋 "siege" ? .
+TDD-5332619 attempt 0 SIEGE m n n n n
+TDD2532076 #2 ___E_ -ADIS  📋 "siege" ? ___E_ ~ E
+TDD-2532105 attempt 1 SIEGE n n m n m
+TDD2305626 #4 _I__E ~S -ADI  📋 "siege" ? SI_GE
+TDD-2305587 attempt 3 SIEGE Y Y n Y Y
+TDD1936630 #5 ___ES -ADIS  📋 "siege" ? __EES
+TDD-1936650 attempt 4 SIEGE n n Y n n
+TDD383935 ? 
+TDD-383883 question done
+TDD1116350 > *
+TDD-258552 questioning: ["singe", "#4"]
+TDD6922338 #1 _____ ~S -ADEGI  📋 "singe" ? .
+TDD-7780144 attempt 0 SINGE m n n n n
+TDD3236280 #2 ___E_ -ADGIS  📋 "singe" ? ___E_ ~ E
+TDD-3236288 attempt 1 SINGE n n n n m
+TDD813738 #4 SI_GE -AD  📋 "singe" ? /it
+TDD-813671 attempt 3 SINGE Y Y Y Y Y
+TDD4829134 #5 __EES -ADGIS  📋 "singe" ? __EES ~ N
+TDD-4829216 attempt 4 SINGE n n m n n
+TDD252905 ? 
+TDD-252979 question done
+TDD525909 > *
+TDD671704 questioning: ["knees", "#5"]
+TDD4046337 #1 _____ ~S -ADEGIN  📋 "knees" ? .
+TDD-5243889 attempt 0 KNEES n n n n m
+TDD3173047 #2 ___E_ -ADGINS  📋 "knees" ? ___E_ ~ E
+TDD-3173056 attempt 1 KNEES n n m Y n
+TDD891939 #5 __EES ~N -ADEGIS  📋 "knees" ? /it
+TDD-891966 attempt 4 KNEES Y Y Y Y Y
+TDD185993 ? 
+TDD-186030 question done
+TDD521640 > *
+TDD1115830 questioning: ["frost", "#1"]
+TDD980536 #1 _____ ~S -ADEGIKN  📋 "frost" ? /it
+TDD-2617841 attempt 0 FROST Y Y Y Y Y
+TDD3012770 #2 ___E_ -ADGIKNS  📋 "frost" ? ___E_ ~ ER
+TDD-3012845 attempt 1 FROST n m n n n
+TDD207263 ? 
+TDD-207363 question done
+TDD558035 > *
+TDD7612477 try? 2
+TDD-8170438 questioning: ["lever", "#2"]
+TDD4983877 #2 ___E_ ~R -ADFGIKNOST  📋 "lever" ? LE_ER
+TDD-4983868 attempt 1 LEVER Y Y n Y Y
+TDD451078 ? 
+TDD-451150 question done
+TDD567341 > *
+TDD452198 questioning: ["leper", "#2"]
+TDD1311300 #2 LE_ER -ADFGIKNOSTV  📋 "leper" ? /it
+TDD-2330797 attempt 1 LEPER Y Y Y Y Y
+TDD844323 ? 
+TDD-844381 question done
+TDD4295494 📋> squareword.org 1391: 8 guesses
+TDD-4295499 📋> 
+TDD-81 📋> 🟨🟨🟨🟨🟨
+TDD-4 📋> 🟨🟨🟨🟩🟨
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD250698 📋> #squareword #squareword1391
+TDD-22782 📋> ␚
+TDD-227852 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1391: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1391"}
+TDD2172 result: "squareword.org 1391: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1391"
+TDD330905 📆 2025-11-22 ? 
