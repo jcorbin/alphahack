@@ -1,0 +1,56 @@
+T84543.88580822572 now: 2025-11-22T13:10:53UTC
+TD58 site: alphaguess.com
+TDD63326 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof 1bde440a12232d0ebfc9fc794568e6925a73f976
+TDD5314464  ...
+TDD-3144462 [0 : 98226 : 196542] mach? a
+TDD-2233276 progress: 1 98226 mach
+TDD1548101 [98227 : 147331 : 196542] rho? b
+TDD-1548122 progress: -1 147331 rho
+TDD1508429 [98227 : 122111 : 147331] par? a
+TDD-1508439 progress: 1 122111 par
+TDD1484060 [122112 : 134642 : 147331] prog? a
+TDD-1483993 progress: 1 134642 prog
+TDD1343638 [134643 : 140528 : 147331] rec? a
+TDD-1343686 progress: 1 140528 rec
+TDD1405925 [140529 : 143792 : 147331] rem? b
+TDD-1405935 progress: -1 143792 rem
+TDD1453397 [140529 : 141910 : 143792] ree? b
+TDD-1453358 progress: -1 141910 ree
+TDD1392644 [140529 : 141213 : 141910] record? a
+TDD-1392677 progress: 1 141213 record
+TDD1323682 [141214 : 141515 : 141910] rede? b
+TDD-1323689 progress: -1 141515 rede
+TDD1443210 [141214 : 141364 : 141515] recto? a
+TDD-1443182 progress: 1 141364 recto
+TDD1303323 [141365 : 141435 : 141515] recycle? a
+TDD-1303342 progress: 1 141435 recycle
+TDD1269954 [141436 : 141442 : 141515] red? a
+TDD-1269955 progress: 1 141442 red
+TDD1404867 [141443 : 141479 : 141515] redbreasts? b
+TDD-1404874 progress: -1 141479 redbreasts
+TDD1516211 [141443 : 141458 : 141479] redargue? b
+TDD-1516178 progress: -1 141458 redargue
+TDD1509714 [141443 : 141450 : 141458] redactors? b
+TDD-1509719 progress: -1 141450 redactors
+TDD1440346 [141443 : 141446 : 141450] redaction? b
+TDD-1440327 progress: -1 141446 redaction
+TDD1583975 [141443 : 141444 : 141446] redacted? b
+TDD-1584002 progress: -1 141444 redacted
+TDD3354676 [141443 : 141443 : 141444] redact? it
+TDD-3354687 progress: 0 141443 redact
+TDD-74 [141443 : 141443 : 141444] <Done>.
+TDD2835738 📋> 🧩 Puzzle #851
+TDD-2835672 📋> 
+TDD-59 📋> 🤔 18 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 25s
+TDD-3 📋> 
+TDD243739 📋> 🔗 alphaguess.com
+TDD-36773 📋> ␚
+TDD-206906 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #851\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 25s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-8 result: "\ud83e\udde9 Puzzle #851\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 25s\n\n\ud83d\udd17 alphaguess.com"
+TDD-54 result puzzle: 851
+TDD-6 result guesses: 18
+TDD-1 result time: 25s
+TDD0 result link: alphaguess.com
+TDD269637 📆 2025-11-22 ? 
