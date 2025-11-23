@@ -1,0 +1,43 @@
+T173179.81820641086 now: 2025-11-23T13:48:09UTC
+TD56 site: alfagok.diginaut.net
+TDD171121 loaded 399546 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1306 words excluded) asof 1bde440a12232d0ebfc9fc794568e6925a73f976
+TDD3550654  ...
+TDD-705770 [0 : 199763 : 399546] lijn? b
+TDD-3015813 progress: -1 199763 lijn
+TDD3481164 [0 : 99839 : 199763] examen? b
+TDD-3481311 progress: -1 99839 examen
+TDD1602302 [0 : 49909 : 99839] bol? b
+TDD-1602309 progress: -1 49909 bol
+TDD1621418 [0 : 24909 : 49909] bad? a
+TDD-1621403 progress: 1 24909 bad
+TDD1612589 [24910 : 37363 : 49909] bescherm? b
+TDD-1612604 progress: -1 37363 bescherm
+TDD1503718 [24910 : 31126 : 37363] begeleid? a
+TDD-1503720 progress: 1 31126 begeleid
+TDD1535566 [31127 : 34009 : 37363] beleid? b
+TDD-1535552 progress: -1 34009 beleid
+TDD1635573 [31127 : 32554 : 34009] bejaarden? b
+TDD-1635579 progress: -1 32554 bejaarden
+TDD1659027 [31127 : 31821 : 32554] behandel? b
+TDD-1659029 progress: -1 31821 behandel
+TDD1921743 [31127 : 31468 : 31821] begraaf? a
+TDD-1921722 progress: 1 31468 begraaf
+TDD1830980 [31469 : 31634 : 31821] begroting? b
+TDD-1831006 progress: -1 31634 begroting
+TDD2053960 [31469 : 31547 : 31634] begrijp? a
+TDD-2053965 progress: 1 31547 begrijp
+TDD1913171 [31548 : 31564 : 31634] begrip? it
+TDD-1913151 progress: 0 31564 begrip
+TDD-88 [31548 : 31564 : 31634] <Done>.
+TDD3365845 📋> 🧩 Puzzel #386
+TDD-3365795 📋> 🤔 13 gokken
+TDD-46 📋> ⏱️ 22s
+TDD233946 📋> 🔗 alfagok.diginaut.net
+TDD-40736 📋> ␚
+TDD-193177 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #386\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD255 result: "\ud83e\udde9 Puzzel #386\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-295 result puzzle: 386
+TDD-6 result guesses: 13
+TDD-1 result time: 22s
+TDD0 result link: alfagok.diginaut.net
+TDD311904 📆 2025-11-23 ? 
