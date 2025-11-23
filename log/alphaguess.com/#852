@@ -1,0 +1,46 @@
+T173238.98595412262 now: 2025-11-23T13:49:09UTC
+TD45 site: alphaguess.com
+TDD75478 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof 1bde440a12232d0ebfc9fc794568e6925a73f976
+TDD3091601  ...
+TDD-1023796 [0 : 98226 : 196542] mach? a
+TDD-2143187 progress: 1 98226 mach
+TDD1515891 [98227 : 147331 : 196542] rho? b
+TDD-1515944 progress: -1 147331 rho
+TDD1756391 [98227 : 122111 : 147331] par? a
+TDD-1756400 progress: 1 122111 par
+TDD1596396 [122112 : 134642 : 147331] prog? a
+TDD-1596357 progress: 1 134642 prog
+TDD1415077 [134643 : 140528 : 147331] rec? a
+TDD-1415107 progress: 1 140528 rec
+TDD1405304 [140529 : 143792 : 147331] rem? b
+TDD-1405302 progress: -1 143792 rem
+TDD1352077 [140529 : 141910 : 143792] ree? a
+TDD-1352075 progress: 1 141910 ree
+TDD1326095 [141911 : 142657 : 143792] reg? a
+TDD-1326079 progress: 1 142657 reg
+TDD1339266 [142658 : 143132 : 143792] rein? a
+TDD-1339285 progress: 1 143132 rein
+TDD1331356 [143133 : 143462 : 143792] rekey? a
+TDD-1331338 progress: 1 143462 rekey
+TDD1426537 [143463 : 143627 : 143792] releves? b
+TDD-1426557 progress: -1 143627 releves
+TDD1289327 [143463 : 143542 : 143627] relativize? a
+TDD-1289307 progress: 1 143542 relativize
+TDD1567769 [143543 : 143582 : 143627] release? it
+TDD-1567788 progress: 0 143582 release
+TDD-66 [143543 : 143582 : 143627] <Done>.
+TDD5301349 📋> 🧩 Puzzle #852
+TDD-5301278 📋> 
+TDD-69 📋> 🤔 13 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 17s
+TDD-3 📋> 
+TDD364340 📋> 🔗 alphaguess.com
+TDD-146049 📋> ␚
+TDD-218228 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #852\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 17s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-25 result: "\ud83e\udde9 Puzzle #852\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 17s\n\n\ud83d\udd17 alphaguess.com"
+TDD-29 result puzzle: 852
+TDD-12 result guesses: 13
+TDD-1 result time: 17s
+TDD0 result link: alphaguess.com
+TDD174803 📆 2025-11-23 ? 
