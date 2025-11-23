@@ -1,0 +1,130 @@
+T173279.8730775956 now: 2025-11-23T13:49:49UTC
+TD45 site: squareword.org
+TDD-10 wordlist: nwl2023.txt
+TDD4469695  ...
+TDD-3564164 🧩  ? *
+TDD1539076  ...
+TDD219454 🧩  ? #1392
+TDD-2664000 puzzle_id: #1392
+TDD3766202 > *
+TDD-2674766 try? 1
+TDD-1091329 questioning: ["rates", "#5"]
+TDD4506613 #1 _____  📋 "rates" ? _____ ~ RE
+TDD-4506406 attempt 0 RATES m n n m n
+TDD2000475 #2 _____  📋 "rates" ? _____ ~ E
+TDD-2000737 attempt 1 RATES n n n m n
+TDD2251712 #3 _____  📋 "rates" ? _____ ~ RT
+TDD-2251700 attempt 2 RATES m n m n n
+TDD2526159 #4 _____  📋 "rates" ? _A___ ~ ES
+TDD-2526142 attempt 3 RATES n Y n m m
+TDD4737906 #5 _____  📋 "rates" ? ___E_ ~ RES
+TDD-4737904 attempt 4 RATES m n n Y m
+TDD448179 ? 
+TDD-448236 question done
+TDD3195050 > *
+TDD11004858 try? 3
+TDD-14199872 questioning: ["false", "#4"]
+TDD6672224 #1 _____ ~ER -AST  📋 "false" ? ____E ~ R
+TDD-6672208 attempt 0 FALSE n n n n Y
+TDD3061208 #2 _____ ~E -ARST  📋 "false" ? _____ ~ EL
+TDD-3061206 attempt 1 FALSE n n m n m
+TDD1357450 #3 _____ ~RT -AES  📋 "false" ? .
+TDD-1357449 attempt 2 FALSE n n n n n
+TDD1651259 #4 _A___ ~ES -RT  📋 "false" ? _A_SE
+TDD-1651268 attempt 3 FALSE n Y n Y Y
+TDD4656283 #5 ___E_ ~RS -AT  📋 "false" ? ___E_ ~ RES
+TDD-4656273 attempt 4 FALSE n n n m m
+TDD1330309 ? 
+TDD-1330378 question done
+TDD917890 > *
+TDD6626803 try? 3
+TDD-7544627 questioning: ["pause", "#4"]
+TDD11197364 #1 ____E ~R -AFLST  📋 "pause" ? .
+TDD-11197369 attempt 0 PAUSE n n n n Y
+TDD939928 #2 _____ ~EL -AFRST  📋 "pause" ? .
+TDD-939940 attempt 1 PAUSE n n n n m
+TDD951237 #3 _____ ~RT -AEFLS  📋 "pause" ? .
+TDD-951234 attempt 2 PAUSE n n n n n
+TDD1519574 #4 _A_SE -FLRT  📋 "pause" ? _AUSE
+TDD-1519563 attempt 3 PAUSE n Y Y Y Y
+TDD4646957 #5 ___E_ ~RS -AFLT  📋 "pause" ? ___E_ ~ RES
+TDD-4646959 attempt 4 PAUSE n n n m m
+TDD539198 ? 
+TDD-539306 question done
+TDD607641 > *
+TDD2524516 questioning: ["cause", "#4"]
+TDD9525754 #1 ____E ~R -AFLPSTU  📋 "cause" ? .
+TDD-12654642 attempt 0 CAUSE n n n n Y
+TDD979938 #2 _____ ~EL -AFPRSTU  📋 "cause" ? .
+TDD-983114 attempt 1 CAUSE n n n n m
+TDD830032 #3 _____ ~RT -AEFLPSU  📋 "cause" ? .
+TDD-830095 attempt 2 CAUSE n n n n n
+TDD916817 #4 _AUSE -FLPRT  📋 "cause" ? /it
+TDD-916828 attempt 3 CAUSE Y Y Y Y Y
+TDD3518995 #5 ___E_ ~RS -AFLPTU  📋 "cause" ? ___E_ ~ RES
+TDD-3518894 attempt 4 CAUSE n n n m m
+TDD229105 ? 
+TDD-229179 question done
+TDD530998 > *
+TDD3869882 try? 1
+TDD-4400814 questioning: ["third", "#3"]
+TDD5852997 #1 ____E ~R -ACFLPSTU  📋 "third" ? __I_E ~ R
+TDD-5852995 attempt 0 THIRD n n Y m n
+TDD1483290 #2 _____ ~EL -ACFPRSTU  📋 "third" ? .
+TDD-1483304 attempt 1 THIRD n n n n n
+TDD2486058 #3 _____ ~RT -ACEFLPSU  📋 "third" ? _____ ~ RTI
+TDD-2486075 attempt 2 THIRD m n m m n
+TDD3615822 #5 ___E_ ~RS -ACFLPTU  📋 "third" ? ___E_ ~ RES
+TDD-3615821 attempt 4 THIRD n n n m n
+TDD155960 ? 
+TDD-156055 question done
+TDD503299 > *
+TDD2506012 questioning: ["lemon", "#2"]
+TDD8153390 #1 __I_E ~R -ACDFHLPSTU  📋 "lemon" ? __I_E ~ RN
+TDD-11162574 attempt 0 LEMON n n n n m
+TDD2056000 #2 _____ ~EL -ACDFHIPRSTU  📋 "lemon" ? /it
+TDD-2055991 attempt 1 LEMON Y Y Y Y Y
+TDD3628875 #3 _____ ~IRT -ACDEFHLPSU  📋 "lemon" ? _____ ~ RTIO
+TDD-3628903 attempt 2 LEMON n n n m n
+TDD4050957 #5 ___E_ ~RS -ACDFHILPTU  📋 "lemon" ? ___E_ ~ RESN
+TDD-4050947 attempt 4 LEMON n m n n m
+TDD207474 ? 
+TDD-207528 question done
+TDD1173780 > *
+TDD1164201 questioning: ["brine", "#1"]
+TDD2916214 #1 __I_E ~NR -ACDEFHLMOPSTU  📋 "brine" ? /it
+TDD-5254133 attempt 0 BRINE Y Y Y Y Y
+TDD3940165 #3 _____ ~IORT -ACDEFHLMNPSU  📋 "brine" ? _R___ ~ TIOB
+TDD-3940136 attempt 2 BRINE m Y m n n
+TDD5953763 #5 ___E_ ~NRS -ACDFHILMOPTU  📋 "brine" ? ___E_ ~ RESN
+TDD-5953805 attempt 4 BRINE n m n m m
+TDD267554 ? 
+TDD-267659 question done
+TDD547354 > *
+TDD1115750 questioning: ["orbit", "#3"]
+TDD2662843 #3 _R___ ~BIOT -ACDEFHLMNPSU  📋 "orbit" ? /it
+TDD-4325815 attempt 2 ORBIT Y Y Y Y Y
+TDD4536518 #5 ___E_ ~NRS -ABCDFHILMOPTU  📋 "orbit" ? ___E_ ~ RESN
+TDD-4536522 attempt 4 ORBIT n m n n n
+TDD252871 ? 
+TDD-252995 question done
+TDD525572 > *
+TDD516903 questioning: ["sneer", "#5"]
+TDD2651549 #5 ___E_ ~NRS -ABCDFHILMOPTU  📋 "sneer" ? /it
+TDD-3693742 attempt 4 SNEER Y Y Y Y Y
+TDD2263259 ? 
+TDD-2263522 question done
+TDD4656276 📋> squareword.org 1392: 9 guesses
+TDD-4656256 📋> 
+TDD-65 📋> 🟨🟨🟩🟨🟩
+TDD-6 📋> 🟨🟨🟨🟨🟨
+TDD-2 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟩🟨
+TDD1 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD318377 📋> #squareword #squareword1392
+TDD82124 📋> ␚
+TDD-400465 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1392: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1392"}
+TDD626 result: "squareword.org 1392: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1392"
+TDD530119 📆 2025-11-23 ? 
