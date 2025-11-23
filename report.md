@@ -1,13 +1,13 @@
-# 2025-11-23
+# 2025-11-24
 
-- 🔗 spaceword.org 🧩 2025-11-22 🏁 score 2168 ranked 46.0% 159/346 ⏱️ 3:41:46.632828
-- 🔗 alfagok.diginaut.net 🧩 #386 🥳 13 ⏱️ 0:00:33.388642
-- 🔗 alphaguess.com 🧩 #852 🥳 13 ⏱️ 0:00:28.769243
-- 🔗 squareword.org 🧩 #1392 🥳 9 ⏱️ 0:03:25.918919
-- 🔗 dictionary.com hurdle 🧩 #1422 🥳 16 ⏱️ 0:03:06.660352
-- 🔗 dontwordle.com 🧩 #1279 🥳 6 ⏱️ 0:01:33.374980
-- 🔗 cemantle.certitudes.org 🧩 #1329 🥳 364 ⏱️ 0:06:48.889651
-- 🔗 cemantix.certitudes.org 🧩 #1362 🥳 357 ⏱️ 0:04:11.684111
+- 🔗 spaceword.org 🧩 2025-11-23 🏁 score 2173 ranked 8.0% 28/348 ⏱️ 7:29:50.897633
+- 🔗 alfagok.diginaut.net 🧩 #387 🥳 19 ⏱️ 0:00:45.738619
+- 🔗 alphaguess.com 🧩 #853 🥳 8 ⏱️ 0:00:20.174026
+- 🔗 squareword.org 🧩 #1393 🥳 6 ⏱️ 0:02:19.748389
+- 🔗 dictionary.com hurdle 🧩 #1423 🥳 18 ⏱️ 0:05:46.696221
+- 🔗 dontwordle.com 🧩 #1280 🥳 6 ⏱️ 0:01:24.172579
+- 🔗 cemantle.certitudes.org 🧩 #1330 🥳 184 ⏱️ 0:04:52.487038
+- 🔗 cemantix.certitudes.org 🧩 #1363 🥳 58 ⏱️ 0:01:26.464437
 
 # Dev
 
@@ -263,188 +263,190 @@
 
 
 
-# spaceword.org 🧩 2025-11-22 🏁 score 2168 ranked 46.0% 159/346 ⏱️ 3:41:46.632828
 
-📜 3 sessions
+# spaceword.org 🧩 2025-11-23 🏁 score 2173 ranked 8.0% 28/348 ⏱️ 7:29:50.897633
+
+📜 4 sessions
 - tiles: 21/21
-- score: 2168 bonus: +68
-- rank: 159/346
+- score: 2173 bonus: +73
+- rank: 28/348
 
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ G _ A H _   
-      _ W _ _ J O _ G I _   
-      _ E _ N O O S E D _   
-      _ E Q U E S _ D _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ F _ J _ A G _ E _   
+      _ I D E A L I Z E R   
+      _ B O U S E D _ W _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
 
 
-# alfagok.diginaut.net 🧩 #386 🥳 13 ⏱️ 0:00:33.388642
+# alfagok.diginaut.net 🧩 #387 🥳 19 ⏱️ 0:00:45.738619
 
-🤔 13 attempts
+🤔 19 attempts
 📜 1 sessions
 
-    @        [     0] &-teken   
-    @+1      [     1] &-tekens  
-    @+2      [     2] -cijferig 
-    @+3      [     3] -e-mail   
-    @+24909  [ 24909] bad       q3  ? after
-    @+31126  [ 31126] begeleid  q5  ? after
-    @+31468  [ 31468] begraaf   q9  ? after
-    @+31547  [ 31547] begrijp   q11 ? after
-    @+31564  [ 31564] begrip    q12 ? it
-    @+31564  [ 31564] begrip    done. it
-    @+31634  [ 31634] begroting q10 ? before
-    @+31821  [ 31821] behandel  q8  ? before
-    @+32554  [ 32554] bejaarden q7  ? before
-    @+34009  [ 34009] beleid    q6  ? before
-    @+37363  [ 37363] bescherm  q4  ? before
-    @+49909  [ 49909] bol       q2  ? before
-    @+99839  [ 99839] examen    q1  ? before
-    @+199763 [199763] lijn      q0  ? before
+    @        [     0] &-teken         
+    @+1      [     1] &-tekens        
+    @+2      [     2] -cijferig       
+    @+3      [     3] -e-mail         
+    @+199762 [199762] lijn            q0  ? after
+    @+199762 [199762] lijn            q1  ? after
+    @+201914 [201914] loo             q7  ? after
+    @+203392 [203392] lucht           q8  ? after
+    @+204499 [204499] lul             q9  ? after
+    @+205057 [205057] ma              q10 ? after
+    @+205180 [205180] maai            q12 ? after
+    @+205235 [205235] maal            q13 ? after
+    @+205264 [205264] maaltijd        q14 ? after
+    @+205299 [205299] maaltijdviering q15 ? after
+    @+205307 [205307] maan            q16 ? after
+    @+205320 [205320] maanbrieven     q17 ? after
+    @+205325 [205325] maand           q18 ? it
+    @+205325 [205325] maand           done. it
+    @+205333 [205333] maandag         q11 ? before
+    @+205614 [205614] maas            q6  ? before
+    @+211608 [211608] me              q5  ? before
+    @+223487 [223487] mol             q4  ? before
+    @+247598 [247598] op              q3  ? before
+    @+299645 [299645] schudde         q2  ? before
 
-# alphaguess.com 🧩 #852 🥳 13 ⏱️ 0:00:28.769243
+# alphaguess.com 🧩 #853 🥳 8 ⏱️ 0:00:20.174026
 
-🤔 13 attempts
+🤔 8 attempts
 📜 1 sessions
 
-    @        [     0] aa         
-    @+1      [     1] aah        
-    @+2      [     2] aahed      
-    @+3      [     3] aahing     
-    @+98226  [ 98226] mach       q0  ? after
-    @+122111 [122111] par        q2  ? after
-    @+134642 [134642] prog       q3  ? after
-    @+140528 [140528] rec        q4  ? after
-    @+141910 [141910] ree        q6  ? after
-    @+142657 [142657] reg        q7  ? after
-    @+143132 [143132] rein       q8  ? after
-    @+143462 [143462] rekey      q9  ? after
-    @+143542 [143542] relativize q11 ? after
-    @+143582 [143582] release    q12 ? it
-    @+143582 [143582] release    done. it
-    @+143627 [143627] releves    q10 ? before
-    @+143792 [143792] rem        q5  ? before
-    @+147331 [147331] rho        q1  ? before
+    @        [     0] aa     
+    @+1      [     1] aah    
+    @+2      [     2] aahed  
+    @+3      [     3] aahing 
+    @+98226  [ 98226] mach   q0 ? after
+    @+122111 [122111] par    q2 ? after
+    @+122850 [122850] part   q7 ? it
+    @+122850 [122850] part   done. it
+    @+123654 [123654] pay    q6 ? before
+    @+125239 [125239] perm   q5 ? before
+    @+128373 [128373] place  q4 ? before
+    @+134642 [134642] prog   q3 ? before
+    @+147331 [147331] rho    q1 ? before
 
-# squareword.org 🧩 #1392 🥳 9 ⏱️ 0:03:25.918919
+# squareword.org 🧩 #1393 🥳 6 ⏱️ 0:02:19.748389
 
 📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
-    🟨 🟨 🟩 🟨 🟩
-    🟨 🟨 🟨 🟨 🟨
     🟨 🟨 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟨 🟩 🟨
+    🟩 🟩 🟩 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
+    🟩 🟩 🟩 🟩 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    B R I N E
-    L E M O N
-    O R B I T
-    C A U S E
-    S N E E R
+    A L O U D
+    R E U S E
+    S A T I N
+    E V E N S
+    S E R G E
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1422 🥳 16 ⏱️ 0:03:06.660352
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1423 🥳 18 ⏱️ 0:05:46.696221
 
 📜 1 sessions
-💰 score: 10000
+💰 score: 9800
 
     4/6
-    SERAL ⬜⬜⬜🟨⬜
-    PIANO ⬜🟨🟨⬜🟨
-    AVOID 🟩⬜🟨🟨⬜
-    AXIOM 🟩🟩🟩🟩🟩
-    4/6
-    AXIOM ⬜⬜⬜⬜⬜
-    WURST ⬜⬜🟨🟩⬜
-    FRESH ⬜🟩🟩🟩⬜
-    DRESS 🟩🟩🟩🟩🟩
+    AEONS 🟨⬜⬜🟩⬜
+    HAUNT ⬜🟨⬜🟩⬜
+    FRANK ⬜⬜🟩🟩🟩
+    PLANK 🟩🟩🟩🟩🟩
+    5/6
+    PLANK ⬜⬜⬜🟩🟩
+    BRINK ⬜⬜⬜🟩🟩
+    CHUNK ⬜⬜🟩🟩🟩
+    STUNK 🟩⬜🟩🟩🟩
+    SKUNK 🟩🟩🟩🟩🟩
     3/6
-    DRESS 🟨⬜⬜⬜⬜
-    HALID 🟩⬜⬜🟩🟩
-    HUMID 🟩🟩🟩🟩🟩
+    SKUNK 🟩⬜⬜🟩⬜
+    STANE 🟩🟨🟨🟩⬜
+    SAINT 🟩🟩🟩🟩🟩
     4/6
-    HUMID ⬜⬜⬜⬜⬜
-    ROAST ⬜🟨⬜⬜⬜
-    ELBOW 🟩⬜🟨🟨⬜
-    EBONY 🟩🟩🟩🟩🟩
-    Final 1/2
-    DROLL 🟩🟩🟩🟩🟩
+    SAINT ⬜⬜🟩⬜⬜
+    ORIEL ⬜⬜🟩🟨⬜
+    HEIGH ⬜🟨🟩⬜⬜
+    JUICE 🟩🟩🟩🟩🟩
+    Final 2/2
+    VAULT ⬜🟩🟩🟩🟩
+    FAULT 🟩🟩🟩🟩🟩
 
-# dontwordle.com 🧩 #1279 🥳 6 ⏱️ 0:01:33.374980
+# dontwordle.com 🧩 #1280 🥳 6 ⏱️ 0:01:24.172579
 
 📜 1 sessions
-💰 score: 18
+💰 score: 77
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:FEMME n n n n n remain:5567
-    ⬜⬜⬜⬜⬜ tried:BUBBY n n n n n remain:2936
-    ⬜⬜⬜⬜⬜ tried:KININ n n n n n remain:1009
-    ⬜⬜⬜⬜⬜ tried:GRRRL n n n n n remain:302
-    ⬜🟨⬜⬜⬜ tried:PHPHT n m n n n remain:21
-    🟨🟨⬜⬜🟨 tried:COOCH m m n n m remain:2
+    ⬜⬜⬜⬜⬜ tried:DEKED n n n n n remain:5348
+    ⬜⬜⬜⬜⬜ tried:CIVIC n n n n n remain:2881
+    ⬜⬜⬜⬜⬜ tried:FLUFF n n n n n remain:1274
+    ⬜⬜⬜⬜⬜ tried:HONOR n n n n n remain:163
+    🟨⬜⬜⬜⬜ tried:AGAMA m n n n n remain:32
+    ⬜⬜⬜🟨🟩 tried:BYWAY n n n m Y remain:11
 
     Undos used: 3
 
-      2 words remaining
-    x 9 unused letters
-    = 18 total score
+      11 words remaining
+    x 7 unused letters
+    = 77 total score
 
-# cemantle.certitudes.org 🧩 #1329 🥳 364 ⏱️ 0:06:48.889651
+# cemantle.certitudes.org 🧩 #1330 🥳 184 ⏱️ 0:04:52.487038
 
-🤔 365 attempts
+🤔 185 attempts
 📜 1 sessions
-🫧 34 chat sessions
-⁉️ 169 chat prompts
-🤖 11 llama3.2:latest replies
-🤖 158 gemma3:latest replies
-🔥   3 🥵   7 😎  45 🥶 289 🧊  20
+🫧 7 chat sessions
+⁉️ 42 chat prompts
+🤖 42 gemma3:27b replies
+😱   1 🔥   4 🥵  17 😎  49 🥶 110 🧊   3
 
-      $1 #365   ~1 divorce         100.00°C 🥳 1000‰
-      $2 #358   ~6 marital          62.55°C 🔥  997‰
-      $3 #359   ~5 spousal          59.01°C 🔥  996‰
-      $4 #354   ~7 alimony          56.92°C 🔥  994‰
-      $5 #297  ~15 guardianship     48.04°C 🥵  983‰
-      $6 #277  ~20 probate          46.29°C 🥵  977‰
-      $7 #265  ~23 inheritance      42.77°C 🥵  966‰
-      $8 #264  ~24 estate           38.14°C 🥵  939‰
-      $9 #316  ~12 intestate        37.51°C 🥵  934‰
-     $10 #188  ~41 legal            35.02°C 🥵  905‰
-     $11 #189  ~40 court            34.75°C 🥵  902‰
-     $12 #349   ~8 intestacy        34.58°C 😎  899‰
-     $57 #279      succession       21.33°C 🥶
-    $346   #2      echo             -0.06°C 🧊
+      $1 #185   ~1 wipe            100.00°C 🥳 1000‰
+      $2 #170  ~12 erase            57.53°C 😱  999‰
+      $3 #156  ~21 obliterate       56.11°C 🔥  998‰
+      $4 #165  ~16 destroy          50.61°C 🔥  997‰
+      $5 #169  ~13 eradicate        49.73°C 🔥  996‰
+      $6 #177   ~8 eliminate        49.16°C 🔥  995‰
+      $7 #159  ~20 decimate         45.45°C 🥵  985‰
+      $8 #154  ~22 annihilate       43.90°C 🥵  981‰
+      $9 #182   ~4 ruin             43.51°C 🥵  978‰
+     $10 #144  ~29 vanquish         41.80°C 🥵  970‰
+     $11 #181   ~5 remove           41.32°C 🥵  968‰
+     $24 #166  ~15 dismantle        35.41°C 😎  895‰
+     $73 #108      defeat           23.82°C 🥶
+    $183  #28      calypso          -3.97°C 🧊
 
-# cemantix.certitudes.org 🧩 #1362 🥳 357 ⏱️ 0:04:11.684111
+# cemantix.certitudes.org 🧩 #1363 🥳 58 ⏱️ 0:01:26.464437
 
-🤔 358 attempts
+🤔 59 attempts
 📜 1 sessions
-🫧 18 chat sessions
-⁉️ 119 chat prompts
-🤖 28 llama3.2:latest replies
-🤖 91 gemma3:latest replies
-😱   1 🔥   3 🥵  33 😎  94 🥶 176 🧊  50
+🫧 3 chat sessions
+⁉️ 10 chat prompts
+🤖 10 gemma3:27b replies
+😱  1 🥵  3 😎  6 🥶 42 🧊  6
 
-      $1 #358   ~1 placement         100.00°C 🥳 1000‰
-      $2 #254  ~44 épargne            54.44°C 😱  999‰
-      $3 #182  ~75 portefeuille       46.48°C 🔥  993‰
-      $4 #139 ~102 investisseur       43.29°C 🔥  991‰
-      $5 #145  ~98 liquidité          43.00°C 🔥  990‰
-      $6 #282  ~30 financier          40.24°C 🥵  988‰
-      $7 #126 ~109 capitalisation     40.12°C 🥵  987‰
-      $8 #117 ~114 investissement     39.31°C 🥵  985‰
-      $9 #129 ~107 rendement          38.15°C 🥵  981‰
-     $10 #123 ~111 capital            38.11°C 🥵  980‰
-     $11 #205  ~61 fonds              38.11°C 🥵  979‰
-     $39 #189  ~70 cotation           28.76°C 😎  898‰
-    $133 #281      expertise          17.06°C 🥶
-    $309  #44      subtilité          -0.05°C 🧊
+     $1 #59  ~1 masque          100.00°C 🥳 1000‰
+     $2 #42  ~6 déguisement      49.73°C 😱  999‰
+     $3 #35  ~7 apparence        36.51°C 🥵  979‰
+     $4 #58  ~2 costume          34.87°C 🥵  968‰
+     $5 #57  ~3 camouflage       33.49°C 🥵  956‰
+     $6 #46  ~5 figure           26.01°C 😎  588‰
+     $7 #48  ~4 illusion         24.70°C 😎  406‰
+     $8 #33  ~8 allégorie        24.20°C 😎  318‰
+     $9 #32  ~9 dissimulation    23.96°C 😎  272‰
+    $10 #22 ~10 masqué           23.92°C 😎  267‰
+    $11 #15 ~11 caché            23.59°C 😎  181‰
+    $12  #8     secret           22.22°C 🥶
+    $13 #28     indéchiffrable   22.16°C 🥶
+    $54  #9     vélo             -0.14°C 🧊
