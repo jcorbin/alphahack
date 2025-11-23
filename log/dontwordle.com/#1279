@@ -1,0 +1,61 @@
+T173687.9900958035 now: 2025-11-23T13:56:38UTC
+TD47 site: dontwordle.com
+TDD-19 wordlist: nwl2023.txt
+TDD6098732  ...
+TDD-4533099 1> * -bot 10
+TDD859407 ? 1
+TDD2210483 📋 "rales" ? nYnnn
+TDD-4635391 tried: RALES n Y n n n
+TDD1170575 2> undo
+TDD-1170629 undo
+TDD2888659 1> *
+TDD-1576742 ? 1
+TDD2521434 📋 "femme" ? nnnnn
+TDD-3833302 tried: FEMME n n n n n
+TDD868492 2> *
+TDD150824 ? 1
+TDD3670742 📋 "bubby" ? nnnnn
+TDD-4690075 tried: BUBBY n n n n n
+TDD555440 3> *
+TDD845520 ? 1
+TDD2968641 📋 "kinin" ? nnnnn
+TDD-4369594 tried: KININ n n n n n
+TDD794650 4> *
+TDD254332 ? 1
+TDD2948381 📋 "sords" ? nMnnn
+TDD-3997376 tried: SORDS n m n n n
+TDD820321 5> undo
+TDD-820353 undo
+TDD2457597 4> *
+TDD-111387 ? 1
+TDD2785905 📋 "grrrl" ? nnnnn
+TDD-5132085 tried: GRRRL n n n n n
+TDD510338 5> *
+TDD8076067 📋 "phpht" ? nMnnn
+TDD-8586386 tried: PHPHT n m n n n
+TDD3685425 6> undo
+TDD-3685462 undo
+TDD2248781 5> *
+TDD7505208 📋 "phpht" ? nMnnn
+TDD-9753966 tried: PHPHT n m n n n
+TDD1036502 6> *
+TDD4799581 ? 2
+TDD-978540 📋 "cooch" ? MMnnM
+TDD-4857531 tried: COOCH m m n n m
+TDD2874321 📋> Don't Wordle 1279 - SURVIVED
+TDD-2874401 📋> Hooray! I didn't Wordle today!
+TDD-49 📋> ⬜⬜⬜⬜⬜5567
+TDD-7 📋> ⬜⬜⬜⬜⬜2936
+TDD-1 📋> ⬜⬜⬜⬜⬜1009
+TDD1 📋> ⬜⬜⬜⬜⬜302
+TDD-1 📋> ⬜🟨⬜⬜⬜21
+TDD0 📋> 🟨🟨⬜⬜🟨2
+TDD0 📋> Undos used: 3
+TDD0 📋> 
+TDD0 📋>   2 words remaining
+TDD0 📋> x 9 unused letters
+TDD210863 📋> = 18 total score
+TDD-21168 📋> ␚
+TDD-189631 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1279 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5567\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2936\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1009\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c302\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c21\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe82\nUndos used: 3\n\n  2 words remaining\nx 9 unused letters\n= 18 total score"}
+TDD805 result: "Don't Wordle 1279 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5567\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2936\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1009\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c302\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c21\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe82\nUndos used: 3\n\n  2 words remaining\nx 9 unused letters\n= 18 total score"
+TDD147266 📆 2025-11-23 ? 
