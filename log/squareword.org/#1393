@@ -1,0 +1,94 @@
+T89362.68472487107 now: 2025-11-24T15:19:30UTC
+TD56 site: squareword.org
+TDD-17 wordlist: nwl2023.txt
+TDD5295215  ...
+TDD-4699221 🧩  ? *
+TDD1734059  ...
+TDD-479593 🧩  ? #1393
+TDD-1850397 puzzle_id: #1393
+TDD1682971 > *
+TDD1625863 try? 1
+TDD-3308738 questioning: ["scare", "#5"]
+TDD7660155 #1 _____  📋 "scare" ? _____ ~ A
+TDD-7659960 attempt 0 SCARE n n m n n
+TDD2572797 #2 _____  📋 "scare" ? ____E ~ SRE
+TDD-2573015 attempt 1 SCARE m n n m Y
+TDD2801713 #3 _____  📋 "scare" ? S____ ~ A
+TDD-2801712 attempt 2 SCARE Y n m n n
+TDD3841209 #4 _____  📋 "scare" ? _____ ~ SE
+TDD-3841216 attempt 3 SCARE m n n n m
+TDD2102699 #5 _____  📋 "scare" ? S___E ~ RE
+TDD-2102733 attempt 4 SCARE Y n n m Y
+TDD233950 ? 
+TDD-233958 question done
+TDD866680 > *
+TDD2836077 try? 3
+TDD-3702707 questioning: ["surge", "#5"]
+TDD8489544 #1 _____ ~A -CERS  📋 "surge" ? _____ ~ AU
+TDD-8489530 attempt 0 SURGE n m n n n
+TDD3680239 #2 ____E ~RS -AC  📋 "surge" ? ____E ~ SREU
+TDD-3680248 attempt 1 SURGE m m m n Y
+TDD3408939 #3 S____ ~A -CER  📋 "surge" ? S____ ~ A
+TDD-3408931 attempt 2 SURGE Y n n n n
+TDD4608360 #4 _____ ~ES -ACR  📋 "surge" ? .
+TDD-4608334 attempt 3 SURGE m n n n m
+TDD8127946 #5 S___E ~R -AC  📋 "surge" ? S_RGE ~ E
+TDD-8127990 attempt 4 SURGE Y n Y Y Y
+TDD621947 ? 
+TDD-622002 question done
+TDD1889433 > * 2
+TDD742379 try? 2
+TDD-2631745 questioning: ["reuse", "#2"]
+TDD6827984 #1 _____ ~AU -CEGRS  📋 "reuse" ? .
+TDD-6827979 attempt 0 REUSE n n m n n
+TDD1000538 #2 ____E ~RSU -ACG  📋 "reuse" ? /it
+TDD-1000549 attempt 1 REUSE Y Y Y Y Y
+TDD2149568 #3 S____ ~A -CEGRU  📋 "reuse" ? .
+TDD-2149575 attempt 2 REUSE n n n n n
+TDD1060180 #4 _____ ~ES -ACGRU  📋 "reuse" ? .
+TDD-1060188 attempt 3 REUSE n m n m m
+TDD8929998 #5 S_RGE -ACU  📋 "reuse" ? SERGE
+TDD-8930002 attempt 4 REUSE n Y n n Y
+TDD727030 ? 
+TDD-727084 question done
+TDD2460612 > *
+TDD9669191 try? 2
+TDD-12129729 questioning: ["evens", "#4"]
+TDD2432921 #1 _____ ~AU -CEGRS  📋 "evens" ? .
+TDD-2432948 attempt 0 EVENS n n n n n
+TDD4306051 #3 S____ ~A -CEGRSU  📋 "evens" ? S____ ~ AN
+TDD-4306024 attempt 2 EVENS n n n m n
+TDD714106 #4 _____ ~ES -ACGRU  📋 "evens" ? /it
+TDD-714126 attempt 3 EVENS Y Y Y Y Y
+TDD212710 ? 
+TDD-212777 question done
+TDD677189 > *
+TDD2294827 try? 2
+TDD-2971924 questioning: ["satin", "#3"]
+TDD3567844 #1 _____ ~AU -CEGNRSV  📋 "satin" ? .
+TDD-3567866 attempt 0 SATIN n m n n n
+TDD736614 #3 S____ ~AN -CEGRSUV  📋 "satin" ? /it
+TDD-736623 attempt 2 SATIN Y Y Y Y Y
+TDD307924 ? 
+TDD-307970 question done
+TDD1259459 > *
+TDD1999901 try? 1
+TDD-3259300 questioning: ["aloud", "#1"]
+TDD2213769 #1 _____ ~AU -CEGINRSTV  📋 "aloud" ? /it
+TDD-2213786 attempt 0 ALOUD Y Y Y Y Y
+TDD524874 ? 
+TDD-524979 question done
+TDD7041798 📋> squareword.org 1393: 6 guesses
+TDD-7041741 📋> 
+TDD-84 📋> 🟨🟨🟨🟨🟨
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD1 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD198498 📋> #squareword #squareword1393
+TDD483437 📋> ␚
+TDD-681850 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1393: 6 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1393"}
+TDD641 result: "squareword.org 1393: 6 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1393"
+TDD1038021 📆 2025-11-24 ? 
