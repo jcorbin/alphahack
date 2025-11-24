@@ -1,0 +1,54 @@
+T89293.30538514443 now: 2025-11-24T15:18:21UTC
+TD56 site: alfagok.diginaut.net
+TDD160897 loaded 399545 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1307 words excluded) asof a93d0f7a966fdacde1c9d48d20140f39ceea7e56
+TDD7992817  ...
+TDD-5279843 [0 : 199762 : 399545] lijn? 
+TDD-914985 [0 : 199762 : 399545] lijn? a
+TDD-1958651 progress: 1 199762 lijn
+TDD2268212 [199763 : 299645 : 399545] schudde? b
+TDD-2268400 progress: -1 299645 schudde
+TDD2618388 [199763 : 247598 : 299645] op? b
+TDD-2618368 progress: -1 247598 op
+TDD1620315 [199763 : 223487 : 247598] mol? b
+TDD-1620352 progress: -1 223487 mol
+TDD1743829 [199763 : 211608 : 223487] me? b
+TDD-1743818 progress: -1 211608 me
+TDD2422709 [199763 : 205614 : 211608] maas? b
+TDD-2422696 progress: -1 205614 maas
+TDD1568211 [199763 : 201914 : 205614] loo? a
+TDD-1568227 progress: 1 201914 loo
+TDD1413179 [201915 : 203392 : 205614] lucht? a
+TDD-1413179 progress: 1 203392 lucht
+TDD1417621 [203393 : 204499 : 205614] lul? a
+TDD-1417603 progress: 1 204499 lul
+TDD1461779 [204500 : 205057 : 205614] ma? a
+TDD-1461813 progress: 1 205057 ma
+TDD1477203 [205058 : 205333 : 205614] maandag? b
+TDD-1477229 progress: -1 205333 maandag
+TDD1470312 [205058 : 205180 : 205333] maai? a
+TDD-1470293 progress: 1 205180 maai
+TDD1712995 [205181 : 205235 : 205333] maal? a
+TDD-1713023 progress: 1 205235 maal
+TDD1479603 [205236 : 205264 : 205333] maaltijd? a
+TDD-1479579 progress: 1 205264 maaltijd
+TDD1403326 [205265 : 205299 : 205333] maaltijdviering? a
+TDD-1403345 progress: 1 205299 maaltijdviering
+TDD1428400 [205300 : 205307 : 205333] maan? a
+TDD-1428382 progress: 1 205307 maan
+TDD1413920 [205308 : 205320 : 205333] maanbrieven? a
+TDD-1413895 progress: 1 205320 maanbrieven
+TDD1989695 [205321 : 205325 : 205333] maand? it
+TDD-1989692 progress: 0 205325 maand
+TDD-68 [205321 : 205325 : 205333] <Done>.
+TDD2942916 📋> 🧩 Puzzel #387
+TDD-2942838 📋> 🤔 18 gokken
+TDD-80 📋> ⏱️ 31s
+TDD233551 📋> 🔗 alfagok.diginaut.net
+TDD-21306 📋> ␚
+TDD-212192 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #387\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD258 result: "\ud83e\udde9 Puzzel #387\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-317 result puzzle: 387
+TDD-8 result guesses: 18
+TDD-1 result time: 31s
+TDD0 result link: alfagok.diginaut.net
+TDD288521 📆 2025-11-24 ? 
