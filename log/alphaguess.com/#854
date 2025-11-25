@@ -1,0 +1,46 @@
+T77166.00934297591 now: 2025-11-25T12:55:35UTC
+TD56 site: alphaguess.com
+TDD70217 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof a93d0f7a966fdacde1c9d48d20140f39ceea7e56
+TDD4508578  ...
+TDD-1438345 [0 : 98226 : 196542] mach? b
+TDD-3140414 progress: -1 98226 mach
+TDD1703477 [0 : 47387 : 98226] dis? a
+TDD-1703484 progress: 1 47387 dis
+TDD1505680 [47388 : 72807 : 98226] gremolata? b
+TDD-1505660 progress: -1 72807 gremolata
+TDD1557374 [47388 : 60090 : 72807] face? b
+TDD-1557372 progress: -1 60090 face
+TDD1741570 [47388 : 53403 : 60090] el? b
+TDD-1741596 progress: -1 53403 el
+TDD1452307 [47388 : 49434 : 53403] do? a
+TDD-1452292 progress: 1 49434 do
+TDD2545309 [49435 : 51408 : 53403] drunk? b
+TDD-2545329 progress: -1 51408 drunk
+TDD1514764 [49435 : 50411 : 51408] dove? b
+TDD-1514774 progress: -1 50411 dove
+TDD1390048 [49435 : 49855 : 50411] dom? a
+TDD-1390044 progress: 1 49855 dom
+TDD1533378 [49856 : 50133 : 50411] dopiest? b
+TDD-1533379 progress: -1 50133 dopiest
+TDD1364584 [49856 : 49940 : 50133] don? a
+TDD-1364613 progress: 1 49940 don
+TDD1283565 [49941 : 50037 : 50133] doohickies? a
+TDD-1283509 progress: 1 50037 doohickies
+TDD1750391 [50038 : 50063 : 50133] door? it
+TDD-1750427 progress: 0 50063 door
+TDD-41 [50038 : 50063 : 50133] <Done>.
+TDD2623388 📋> 🧩 Puzzle #854
+TDD-2623342 📋> 
+TDD-45 📋> 🤔 13 guesses
+TDD-4 📋> 
+TDD0 📋> ⏱️ 20s
+TDD0 📋> 
+TDD263535 📋> 🔗 alphaguess.com
+TDD1541 📋> ␚
+TDD-265032 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #854\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"}
+TDD2 result: "\ud83e\udde9 Puzzle #854\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"
+TDD-48 result puzzle: 854
+TDD-4 result guesses: 13
+TDD-1 result time: 20s
+TDD0 result link: alphaguess.com
+TDD266597 📆 2025-11-25 ? 
