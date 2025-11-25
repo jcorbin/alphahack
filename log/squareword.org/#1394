@@ -1,0 +1,105 @@
+T77199.08803529106 now: 2025-11-25T12:56:08UTC
+TD62 site: squareword.org
+TDD-20 wordlist: nwl2023.txt
+TDD6815221  ...
+TDD-4220702 🧩  ? #1394
+TDD-2594366 puzzle_id: #1394
+TDD2156196 > *
+TDD-818543 try? 1
+TDD-1337663 questioning: ["lores", "#5"]
+TDD4790226 #1 _____  📋 "lores" ? _____ ~ LS
+TDD-4789984 attempt 0 LORES m n n n m
+TDD2420704 #2 _____  📋 "lores" ? _____ ~ O
+TDD-2420937 attempt 1 LORES n m n n n
+TDD2651977 #3 _____  📋 "lores" ? ____S ~ E
+TDD-2651995 attempt 2 LORES n n n m Y
+TDD3250917 #4 _____  📋 "lores" ? ___ES ~ E
+TDD-3250920 attempt 3 LORES n n n Y Y
+TDD2632378 #5 _____  📋 "lores" ? _____ ~ RE
+TDD-2632376 attempt 4 LORES n n m m n
+TDD466890 ? 
+TDD-466951 question done
+TDD5703436 > *
+TDD-944960 try? 4
+TDD-4758397 questioning: ["splat", "#1"]
+TDD7887705 #1 _____ ~LS -EOR  📋 "splat" ? _____ ~ LSPA
+TDD-7887732 attempt 0 SPLAT m m m m n
+TDD2917292 #2 _____ ~O -ELRS  📋 "splat" ? _____ ~ OA
+TDD-2917268 attempt 1 SPLAT n n n m n
+TDD5092228 #3 ____S ~E -LOR  📋 "splat" ? ____S ~ EPA
+TDD-5092233 attempt 2 SPLAT n m n m n
+TDD6823761 #4 ___ES -LOR  📋 "splat" ? ___ES ~ E
+TDD-6823769 attempt 3 SPLAT n n n n n
+TDD764167 #5 _____ ~ER -LOS  📋 "splat" ? .
+TDD-764204 attempt 4 SPLAT n n n n n
+TDD206971 ? 
+TDD-207060 question done
+TDD1055500 > *
+TDD5516281 try? ␚
+TDD-6571747 <EOF>
+TDD934114 > * 3
+TDD2352424 try? 3
+TDD-3286422 questioning: ["peaks", "#3"]
+TDD6822333 #1 _____ ~ALPS -EORT  📋 "peaks" ? P_A__ ~ LS
+TDD-6822356 attempt 0 PEAKS Y n Y n m
+TDD1578812 #2 _____ ~AO -ELPRST  📋 "peaks" ? .
+TDD-1578808 attempt 1 PEAKS n n m n n
+TDD1450182 #3 ____S ~AEP -LORST  📋 "peaks" ? /it
+TDD-1450186 attempt 2 PEAKS Y Y Y Y Y
+TDD5034344 #4 ___ES -ALOPRST  📋 "peaks" ? ___ES ~ E
+TDD-5034327 attempt 3 PEAKS n m n n Y
+TDD2742979 #5 _____ ~ER -ALOPST  📋 "peaks" ? _E___ ~ RE
+TDD-2743017 attempt 4 PEAKS n Y n n n
+TDD268283 ? 
+TDD-268369 question done
+TDD1980009 > *
+TDD5915126 try? 1
+TDD-7895026 questioning: ["audio", "#2"]
+TDD2230726 #1 P_A__ ~LS -EKORT  📋 "audio" ? .
+TDD-2230735 attempt 0 AUDIO n n n n n
+TDD786486 #2 _____ ~AO -EKLPRST  📋 "audio" ? /it
+TDD-785906 attempt 1 AUDIO Y Y Y Y Y
+TDD3408711 #4 ___ES -AKLOPRT  📋 "audio" ? ___ES ~ ED
+TDD-3409308 attempt 3 AUDIO n n m n n
+TDD3607502 #5 _E___ ~R -AKLOPST  📋 "audio" ? _E___ ~ RED
+TDD-3607495 attempt 4 AUDIO n n m n n
+TDD207508 ? 
+TDD-207609 question done
+TDD814495 > *
+TDD612466 questioning: ["psalm", "#1"]
+TDD5944510 #1 P_A__ ~LS -ADEIKORTU  📋 "psalm" ? /it
+TDD-7371353 attempt 0 PSALM Y Y Y Y Y
+TDD8854454 #4 ___ES ~D -AIKLOPRTU  📋 "psalm" ? ___ES ~ ED
+TDD-8854443 attempt 3 PSALM n n n n n
+TDD3783807 #5 _E___ ~DR -AIKLOPSTU  📋 "psalm" ? _E___ ~ RED
+TDD-3783838 attempt 4 PSALM n n n n n
+TDD244939 ? 
+TDD-245032 question done
+TDD711867 > *
+TDD799832 questioning: ["edges", "#4"]
+TDD1545808 #4 ___ES ~D -AIKLMOPRSTU  📋 "edges" ? /it
+TDD-3057395 attempt 3 EDGES Y Y Y Y Y
+TDD5263937 #5 _E___ ~DR -AIKLMOPSTU  📋 "edges" ? _E___ ~ RED
+TDD-5263960 attempt 4 EDGES m m n m n
+TDD280229 ? 
+TDD-280323 question done
+TDD445426 > *
+TDD553259 questioning: ["reedy", "#5"]
+TDD2800566 #5 _E___ ~DR -AGIKLMOPSTU  📋 "reedy" ? /it
+TDD-3799146 attempt 4 REEDY Y Y Y Y Y
+TDD2347516 ? 
+TDD-2347579 question done
+TDD3634868 📋> squareword.org 1394: 7 guesses
+TDD-3634896 📋> 
+TDD-51 📋> 🟩🟩🟩🟩🟩
+TDD-6 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟨🟨🟨🟩🟩
+TDD0 📋> 🟨🟩🟨🟨🟨
+TDD0 📋> 
+TDD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD221707 📋> #squareword #squareword1394
+TDD-43243 📋> ␚
+TDD-178424 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1394: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1394"}
+TDD499 result: "squareword.org 1394: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1394"
+TDD158276 📆 2025-11-25 ? 
