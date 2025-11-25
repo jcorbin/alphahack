@@ -1,0 +1,91 @@
+T77358.60510439985 now: 2025-11-25T12:58:47UTC
+TD72 site: https://play.dictionary.com/games/todays-hurdle
+TDD-35 wordlist: nwl2023.txt
+TDD1358662  ...
+TDD34523975 1.1> *
+TDD-34520941 1.1 ? 1
+TDD2874151 1.1 📋 "aisle" ? nMMnn
+TDD-4235673 tried: AISLE n m m n n
+TDD1551363 1.2> *
+TDD865972 1.2 ? 3
+TDD2346541 1.2 📋 "skirt" ? YnMnn
+TDD-4763931 tried: SKIRT Y n m n n
+TDD459932 1.3> *
+TDD1525094 1.3 ? 2
+TDD2019228 1.3 📋 "sonic" ? YnnYn
+TDD-4004277 tried: SONIC Y n n Y n
+TDD494856 1.4> *
+TDD1979369 1.4 ? 2
+TDD3247395 1.4 📋 "squid" ? it
+TDD-5721632 tried: SQUID Y Y Y Y Y
+TDD8161811 2.1 📋 "squid" ? nnMMY
+TDD-8161786 tried: SQUID n n m m Y
+TDD797495 2.2> *
+TDD707297 2.2 ? 1
+TDD1830452 2.2 📋 "build" ? it
+TDD-3335286 tried: BUILD Y Y Y Y Y
+TDD10889068 3.1 📋 "build" ? nnYnn
+TDD-10889045 tried: BUILD n n Y n n
+TDD775310 3.2> *
+TDD606594 3.2 ? 1
+TDD2644111 3.2 📋 "shine" ? nnYnY
+TDD-4026046 tried: SHINE n n Y n Y
+TDD562058 3.3> *
+TDD564712 3.3 ? 1
+TDD6369513 3.3 📋 "price" ? nMYnY
+TDD-7496246 tried: PRICE n m Y n Y
+TDD610797 3.4> *
+TDD5212498 3.4 ? 2
+TDD-1261830 3.4 📋 "moire" ? nnYYY
+TDD-4561465 tried: MOIRE n n Y Y Y
+TDD477913 3.5> *
+TDD1608086 3.5 ? 1
+TDD988124 3.5 📋 "afire" ? it
+TDD-3074154 tried: AFIRE Y Y Y Y Y
+TDD9152343 4.1 📋 "afire" ? nMnYM
+TDD-9152316 tried: AFIRE n m n Y m
+TDD546154 4.2> *
+TDD2848004 4.2 ? 1
+TDD1490653 4.2 📋 "ferry" ? MYMYY
+TDD-4884808 tried: FERRY m Y m Y Y
+TDD448916 4.3> *
+TDD3015531 4.3 📋 "refry" ? it
+TDD-3464483 tried: REFRY Y Y Y Y Y
+TDD8698604 5.1 📋 "squid" ? nnYnY
+TDD-8698566 tried: SQUID n n Y n Y
+TDD2152132 5.2 📋 "build" ? nMnnY
+TDD-2152164 tried: BUILD n m n n Y
+TDD1470502 5.3 📋 "afire" ? nnnMn
+TDD-1470511 tried: AFIRE n n n m n
+TDD1673513 5.4 📋 "refry" ? Ynnnn
+TDD-1673524 tried: REFRY Y n n n n
+TDD1054534 5.5> *
+TDD2768841 5.5 📋 "round" ? it
+TDD-3823357 tried: ROUND Y Y Y Y Y
+TDD5181509 📋> Hurdle 1424
+TDD-5181542 📋> 
+TDD-51 📋> 4/6
+TDD-3 📋> ⬜🟨🟨⬜⬜
+TDD-2 📋> 🟩⬜🟨⬜⬜
+TDD-1 📋> 🟩⬜⬜🟩⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD9 📋> 2/6
+TDD-9 📋> ⬜⬜🟨🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD1 📋> 5/6
+TDD-1 📋> ⬜⬜🟩⬜⬜
+TDD0 📋> ⬜⬜🟩⬜🟩
+TDD0 📋> ⬜🟨🟩⬜🟩
+TDD0 📋> ⬜⬜🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> ⬜🟨⬜🟩🟨
+TDD4 📋> 🟨🟩🟨🟩🟩
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 1/2
+TDD13 📋> 🟩🟩🟩🟩🟩
+TDD235750 📋> score: 10,100
+TDD-79195 📋> ␚
+TDD-156516 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1424\n\n4/6\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n2/6\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"}
+TDD329 result: "Hurdle 1424\n\n4/6\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n2/6\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"
+TDD158258 📆 2025-11-25 ? 
