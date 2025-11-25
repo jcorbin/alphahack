@@ -1,0 +1,66 @@
+T77067.53454405814 now: 2025-11-25T12:53:56UTC
+TD57 site: alfagok.diginaut.net
+TDD157458 loaded 399545 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1307 words excluded) asof a93d0f7a966fdacde1c9d48d20140f39ceea7e56
+TDD6516787  ...
+TDD-3955768 [0 : 199762 : 399545] lijn? 
+TDD-1127411 [0 : 199762 : 399545] lijn? a
+TDD-1590826 progress: 1 199762 lijn
+TDD1775008 [199763 : 299645 : 399545] schudde? b
+TDD-1775260 progress: -1 299645 schudde
+TDD1656862 [199763 : 247598 : 299645] op? b
+TDD-1656814 progress: -1 247598 op
+TDD2316389 [199763 : 223487 : 247598] mol? b
+TDD-2316405 progress: -1 223487 mol
+TDD1555389 [199763 : 211608 : 223487] me? a
+TDD-1555405 progress: 1 211608 me
+TDD10373869 [211609 : 217545 : 223487] mijmer? b
+TDD-10373842 progress: -1 217545 mijmer
+TDD6771666 [211609 : 214572 : 217545] melodie? a
+TDD-6771660 progress: 1 214572 melodie
+TDD1643537 [214573 : 215905 : 217545] met? a
+TDD-1643540 progress: 1 215905 met
+TDD1734135 [215906 : 216638 : 217545] micro? b
+TDD-1734144 progress: -1 216638 micro
+TDD1587523 [215906 : 216258 : 216638] metro? a
+TDD-1587544 progress: 1 216258 metro
+TDD1780926 [216259 : 216390 : 216638] meubel? a
+TDD-1780901 progress: 1 216390 meubel
+TDD1493999 [216391 : 216513 : 216638] meur? a
+TDD-1494044 progress: 1 216513 meur
+TDD1696234 [216514 : 216576 : 216638] mi? b
+TDD-1696223 progress: -1 216576 mi
+TDD3512060 [216514 : 216544 : 216576] mex? !
+TDD-1318427 [216514 : 216544 : 216575] mexicaan? !
+TDD-378879 [216514 : 216545 : 216574] mexicaanse? !
+TDD1570 [216514 : 216545 : 216573] mexicanen? !
+TDD1096075 [216514 : 216545 : 216572] mexico? !
+TDD962587 [216514 : 216545 : 216571] mexico-stad? !
+TDD-1425877 [216514 : 216545 : 216570] mexx? !
+TDD-258835 [216514 : 216545 : 216569] meyer? !
+TDD-417793 [216514 : 216545 : 216568] meyerode? !
+TDD82812 [216514 : 216545 : 216567] meys? !
+TDD1138770 [216514 : 216546 : 216566] mezen? b
+TDD-2994038 progress: -1 216546 mezen
+TDD2518922 [216514 : 216526 : 216546] meute? a
+TDD-2518920 progress: 1 216526 meute
+TDD1934173 [216527 : 216537 : 216546] mevrouw? a
+TDD-1934174 progress: 1 216537 mevrouw
+TDD1774714 [216538 : 216540 : 216546] mevrouwt? a
+TDD-1774686 progress: 1 216540 mevrouwt
+TDD1896172 [216541 : 216543 : 216546] mewe? !
+TDD-98714 [216541 : 216543 : 216545] mexicaans? !
+TDD552428 [216541 : 216543 : 216544] mezelf? it
+TDD-2349905 progress: 0 216543 mezelf
+TDD-53 [216541 : 216543 : 216544] <Done>.
+TDD2990407 📋> 🧩 Puzzel #388
+TDD-2990364 📋> 🤔 18 gokken
+TDD-47 📋> ⏱️ 1m 16s
+TDD240709 📋> 🔗 alfagok.diginaut.net
+TDD1841 📋> ␚
+TDD-242528 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #388\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 1m 16s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD274 result: "\ud83e\udde9 Puzzel #388\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 1m 16s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-308 result puzzle: 388
+TDD-7 result guesses: 18
+TDD-2 result time: 1m 16s
+TDD0 result link: alfagok.diginaut.net
+TDD284642 📆 2025-11-25 ? 
