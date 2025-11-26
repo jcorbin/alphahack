@@ -1,0 +1,55 @@
+T2.002734377994784 now: 2025-11-26T10:41:57EST
+TD63 site: alfagok.diginaut.net
+TDD143258 loaded 399533 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1319 words excluded) asof 942a02525c68a650de251f69dbabd25809141128
+T2.4681303160032257 now: 2025-11-26T10:43:16EST
+TD17383127  ...cop
+TDD-13912189  ...
+TDD4578176 [0 : 199762 : 399533] lijn? a
+TDD-8048492 progress: 1 199762 lijn
+TDD2286829 [199763 : 299632 : 399533] schud? b
+TDD-2287031 progress: -1 299632 schud
+TDD1927097 [199763 : 247586 : 299632] op? b
+TDD-1927234 progress: -1 247586 op
+TDD2591493 [199763 : 223670 : 247586] molle? !
+TDD1968204 [199763 : 223667 : 247585] moll? !
+TDD-1664799 [199763 : 223475 : 247584] mol? a
+TDD-2895018 progress: 1 223475 mol
+TDD5015861 [223476 : 235528 : 247584] octrooi? a
+TDD-5015889 progress: 1 235528 octrooi
+TDD1975513 [235529 : 238642 : 247584] on? a
+TDD-1975486 progress: 1 238642 on
+TDD2256091 [238643 : 243112 : 247584] onroerend? a
+TDD-2255955 progress: 1 243112 onroerend
+TDD1767273 [243113 : 245329 : 247584] ontwikkeling? b
+TDD-1767248 progress: -1 245329 ontwikkeling
+TDD1991905 [243113 : 243272 : 245329] ont? a
+TDD-1991923 progress: 1 243272 ont
+TDD2422386 [243273 : 244292 : 245329] ontraad? a
+TDD-2422518 progress: 1 244292 ontraad
+TDD2263750 [244293 : 244810 : 245329] onttakeld? a
+TDD-2263756 progress: 1 244810 onttakeld
+TDD3256715 [244811 : 245069 : 245329] ontwapen? a
+TDD-3256534 progress: 1 245069 ontwapen
+TDD3167286 [245070 : 245145 : 245329] ontwerp? a
+TDD-3167322 progress: 1 245145 ontwerp
+TDD1942383 [245146 : 245237 : 245329] ontwerpstudies? a
+TDD-1942514 progress: 1 245237 ontwerpstudies
+TDD1791331 [245238 : 245280 : 245329] ontwijd? a
+TDD-1791352 progress: 1 245280 ontwijd
+TDD1551632 [245281 : 245300 : 245329] ontwikkel? a
+TDD-1551653 progress: 1 245300 ontwikkel
+TDD2289346 [245301 : 245313 : 245329] ontwikkeld? it
+TDD-2289208 progress: 0 245313 ontwikkeld
+TDD-242 [245301 : 245313 : 245329] <Done>.
+TDD3384589 📋> 🧩 Puzzel #389
+TDD-3384401 📋> 🤔 17 gokken
+TDD-184 📋> ⏱️ 49s
+TDD573632 📋> 🔗 alfagok.diginaut.net
+TDD-348744 📋> ␚
+TDD-224647 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #389\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 49s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD423 result: "\ud83e\udde9 Puzzel #389\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 49s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-689 result puzzle: 389
+TDD-9 result guesses: 17
+TDD-1 result time: 49s
+TDD0 result link: alfagok.diginaut.net
+TDD351196 📆 2025-11-26 ? 
