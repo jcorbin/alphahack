@@ -1,0 +1,54 @@
+T10.97347475499555 now: 2025-11-26T10:46:21EST
+TD125 site: alphaguess.com
+TDD65780 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof 942a02525c68a650de251f69dbabd25809141128
+TDD7257171  ...
+TDD-3635529 [0 : 98226 : 196542] mach? b
+TDD-3687255 progress: -1 98226 mach
+TDD1639307 [0 : 47387 : 98226] dis? a
+TDD-1639419 progress: 1 47387 dis
+TDD1607830 [47388 : 72807 : 98226] gremolata? b
+TDD-1607849 progress: -1 72807 gremolata
+TDD1527503 [47388 : 60090 : 72807] face? b
+TDD-1527528 progress: -1 60090 face
+TDD1591861 [47388 : 53403 : 60090] el? a
+TDD-1591867 progress: 1 53403 el
+TDD1535886 [53404 : 56748 : 60090] equate? a
+TDD-1535855 progress: 1 56748 equate
+TDD2207627 [56749 : 58364 : 60090] ex? a
+TDD-2207629 progress: 1 58364 ex
+TDD1455804 [58365 : 59223 : 60090] expel? b
+TDD-1455772 progress: -1 59223 expel
+TDD1463508 [58365 : 58789 : 59223] exempt? b
+TDD-1463537 progress: -1 58789 exempt
+TDD1351481 [58365 : 58577 : 58789] excitation? b
+TDD-1351492 progress: -1 58577 excitation
+TDD1367758 [58365 : 58470 : 58577] excavate? b
+TDD-1367745 progress: -1 58470 excavate
+TDD1327711 [58365 : 58409 : 58470] exalt? b
+TDD-1327739 progress: -1 58409 exalt
+TDD1247788 [58365 : 58373 : 58409] exact? a
+TDD-1247794 progress: 1 58373 exact
+TDD1303844 [58374 : 58391 : 58409] exactnesses? b
+TDD-1303832 progress: -1 58391 exactnesses
+TDD1288274 [58374 : 58381 : 58391] exacting? a
+TDD-1288233 progress: 1 58381 exacting
+TDD1318681 [58382 : 58386 : 58391] exactions? a
+TDD-1318709 progress: 1 58386 exactions
+TDD1600994 [58387 : 58389 : 58391] exactly? it
+TDD-1600978 progress: 0 58389 exactly
+TDD-138 [58387 : 58389 : 58391] <Done>.
+TDD5143350 📋> 🧩 Puzzle #855
+TDD-5143246 📋> 
+TDD-112 📋> 🤔 17 guesses
+TDD-4 📋> 
+TDD1 📋> ⏱️ 24s
+TDD-3 📋> 
+TDD671318 📋> 🔗 alphaguess.com
+TDD-247524 📋> ␚
+TDD-423700 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #855\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 24s\n\n\ud83d\udd17 alphaguess.com"}
+TDD239 result: "\ud83e\udde9 Puzzle #855\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 24s\n\n\ud83d\udd17 alphaguess.com"
+TDD-335 result puzzle: 855
+TDD-8 result guesses: 17
+TDD-1 result time: 24s
+TDD0 result link: alphaguess.com
+TDD439696 📆 2025-11-26 ? 
