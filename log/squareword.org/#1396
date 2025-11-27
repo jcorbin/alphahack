@@ -1,0 +1,103 @@
+T129.62425810101558 now: 2025-11-27T08:31:21EST
+TD101 site: squareword.org
+TDD-52 wordlist: nwl2023.txt
+TDD19735119  ...'
+TDD-17583846  ...
+TDD217998 🧩  ? #1396
+TDD-2368735 puzzle_id: #1396
+TDD1710301 > *
+TDD2120185 try? 3
+TDD-3830709 questioning: ["cares", "#5"]
+TDD10168081 #1 _____  📋 "cares" ? _____ ~ AES
+TDD-10167694 attempt 0 CARES n m n m m
+TDD2247753 #2 _____  📋 "cares" ? _____ ~ A
+TDD-2247967 attempt 1 CARES n m n n n
+TDD2125539 #3 _____  📋 "cares" ? _____ ~ AE
+TDD-2125701 attempt 2 CARES n m n m n
+TDD3488266 #4 _____  📋 "cares" ? _____ ~ CE
+TDD-3488169 attempt 3 CARES m n n m n
+TDD3013942 #5 _____  📋 "cares" ? _____ ~ AE
+TDD-3014117 attempt 4 CARES n m n m n
+TDD992660 ? 
+TDD-992561 question done
+TDD1783298 > *
+TDD1456010 try? 3
+TDD-3239154 questioning: ["mince", "#4"]
+TDD10421693 #1 _____ ~AES -CR  📋 "mince" ? ____E ~ ASM
+TDD-10421898 attempt 0 MINCE m n n n Y
+TDD2695391 #2 _____ ~A -CERS  📋 "mince" ? __N__ ~ A
+TDD-2695496 attempt 1 MINCE n n Y n n
+TDD3007762 #3 _____ ~AE -CRS  📋 "mince" ? ____E ~ AN
+TDD-3007690 attempt 2 MINCE n n m n Y
+TDD6687111 #4 _____ ~CE -ARS  📋 "mince" ? M____ ~ CEI
+TDD-6687093 attempt 3 MINCE Y m n m m
+TDD3327296 #5 _____ ~AE -CRS  📋 "mince" ? .
+TDD-3327390 attempt 4 MINCE n n n n m
+TDD471661 ? 
+TDD-471686 question done
+TDD695351 > *
+TDD2216296 try? 2
+TDD-2911624 questioning: ["medic", "#4"]
+TDD6545326 #1 ____E ~AMS -CINR  📋 "medic" ? .
+TDD-6545030 attempt 0 MEDIC m n n n n
+TDD1607052 #2 __N__ ~A -CEIMRS  📋 "medic" ? .
+TDD-1607037 attempt 1 MEDIC n n n n n
+TDD1942753 #3 ____E ~AN -CIMRS  📋 "medic" ? .
+TDD-1942828 attempt 2 MEDIC n n n n n
+TDD823264 #4 M____ ~CEI -ANRS  📋 "medic" ? /it
+TDD-823360 attempt 3 MEDIC Y Y Y Y Y
+TDD1503006 #5 _____ ~AE -CIMNRS  📋 "medic" ? .
+TDD-1502843 attempt 4 MEDIC n m n n n
+TDD189954 ? 
+TDD-190296 question done
+TDD552662 > *
+TDD1510499 try? 1
+TDD-2063046 questioning: ["shame", "#1"]
+TDD3727344 #1 ____E ~AMS -CDEINR  📋 "shame" ? /it
+TDD-3727354 attempt 0 SHAME Y Y Y Y Y
+TDD1358500 #2 __N__ ~A -CDEIMRS  📋 "shame" ? .
+TDD-1358505 attempt 1 SHAME n n m n n
+TDD6599458 #3 ____E ~AN -CDEIMRS  📋 "shame" ? .
+TDD-6599530 attempt 2 SHAME n n m n Y
+TDD1415897 #5 _____ ~AE -CDIMNRS  📋 "shame" ? .
+TDD-1415809 attempt 4 SHAME n n m n m
+TDD232058 ? 
+TDD-232179 question done
+TDD495159 > *
+TDD492717 questioning: ["tonal", "#2"]
+TDD3608306 #2 __N__ ~A -CDEHIMRS  📋 "tonal" ? /it
+TDD-4595892 attempt 1 TONAL Y Y Y Y Y
+TDD5894554 #3 ____E ~AN -CDHIMRS  📋 "tonal" ? ____E ~ ANTO
+TDD-5894806 attempt 2 TONAL m m m m n
+TDD4255479 #5 _____ ~AE -CDHIMNRS  📋 "tonal" ? ___A_ ~ ETL
+TDD-4255383 attempt 4 TONAL m n n Y m
+TDD223702 ? 
+TDD-223821 question done
+TDD495444 > *
+TDD884971 questioning: ["atone", "#3"]
+TDD3071251 #3 ____E ~ANOT -CDHILMRS  📋 "atone" ? /it
+TDD-4451547 attempt 2 ATONE Y Y Y Y Y
+TDD1608208 #5 ___A_ ~ELT -CDHIMNORS  📋 "atone" ? .
+TDD-1607972 attempt 4 ATONE n m n n m
+TDD165371 ? 
+TDD-165737 question done
+TDD448697 > *
+TDD495173 questioning: ["pleat", "#5"]
+TDD5774950 #5 ___A_ ~ELT -ACDHIMNORS  📋 "pleat" ? /it
+TDD-6718731 attempt 4 PLEAT Y Y Y Y Y
+TDD775945 ? 
+TDD-776023 question done
+TDD5264579 📋> squareword.org 1396: 7 guesses
+TDD-5264517 📋> 
+TDD-234 📋> 🟩🟩🟩🟩🟩
+TDD-18 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟨🟨🟨🟨🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟨🟨🟩🟨
+TDD1 📋> 
+TDD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD1198945 📋> #squareword #squareword1396
+TDD-671202 📋> ␚
+TDD-527610 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1396: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1396"}
+TDD611 result: "squareword.org 1396: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1396"
+TDD358437 📆 2025-11-27 ? 
