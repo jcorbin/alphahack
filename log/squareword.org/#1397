@@ -1,0 +1,108 @@
+T83722.668523139 now: 2025-11-28T08:37:58EST
+TD112 site: squareword.org
+TDD-65 wordlist: nwl2023.txt
+TDD3314785  ...
+TDD-981954 🧩  ? #1397
+TDD-2332422 puzzle_id: #1397
+TDD15732972 > *
+TDD-13436292 try? 1
+TDD-2296620 questioning: ["rapes", "#5"]
+TDD16876116 #1 _____  📋 "rapes" ? _A___ ~ S
+TDD-16875679 attempt 0 RAPES n Y n n m
+TDD2627926 #2 _____  📋 "rapes" ? ____S ~ A
+TDD-2628230 attempt 1 RAPES n m n n Y
+TDD2614557 #3 _____  📋 "rapes" ? _____ ~ R
+TDD-2614874 attempt 2 RAPES m n n n n
+TDD2055272 #4 _____  📋 "rapes" ? _A___ ~ E
+TDD-2055279 attempt 3 RAPES n Y n m n
+TDD2110701 #5 _____  📋 "rapes" ? ___E_ ~ ES
+TDD-2110721 attempt 4 RAPES n n n Y m
+TDD235684 ? 
+TDD-235762 question done
+TDD582369 > *
+TDD12602518 try? 1
+TDD-13184488 questioning: ["salut", "#1"]
+TDD5472301 #1 _A___ ~S -EPR  📋 "salut" ? !
+TDD-5472686 reject: salut
+TDD-211 question done
+TDD1073561 > *
+TDD18661151 try? 4
+TDD-19734424 questioning: ["dashi", "#1"]
+TDD7729627 #1 _A___ ~S -EPR  📋 "dashi" ? _AS_I ~ S
+TDD-7729587 attempt 0 DASHI n Y Y n Y
+TDD1644387 #2 ____S ~A -EPR  📋 "dashi" ? .
+TDD-1644348 attempt 1 DASHI n m n n n
+TDD2555100 #3 _____ ~R -AEPS  📋 "dashi" ? _____ ~ RI
+TDD-2554934 attempt 2 DASHI n n n n m
+TDD3836690 #4 _A___ ~E -PRS  📋 "dashi" ? _A___ ~ EH
+TDD-3836944 attempt 3 DASHI n Y n m n
+TDD4261826 #5 ___E_ ~S -APR  📋 "dashi" ? ___E_ ~ ES
+TDD-4261596 attempt 4 DASHI n n m n n
+TDD307011 ? 
+TDD-307169 question done
+TDD1011140 > *
+TDD7184962 try? 2
+TDD-8195928 questioning: ["lassi", "#1"]
+TDD4318631 #1 _AS_I -DEHPR  📋 "lassi" ? /it
+TDD-4318608 attempt 0 LASSI Y Y Y Y Y
+TDD1638173 #2 ____S ~A -DEHIPRS  📋 "lassi" ? .
+TDD-1638442 attempt 1 LASSI n m n n n
+TDD3496635 #3 _____ ~IR -ADEHPS  📋 "lassi" ? _____ ~ RIL
+TDD-3496553 attempt 2 LASSI m n n n m
+TDD3804534 #4 _A___ ~EH -DIPRS  📋 "lassi" ? _A___ ~ EHL
+TDD-3804535 attempt 3 LASSI m Y n n n
+TDD3112696 #5 ___E_ ~S -ADHIPR  📋 "lassi" ? ___E_ ~ ESL
+TDD-3112784 attempt 4 LASSI m n m m n
+TDD261933 ? 
+TDD-262023 question done
+TDD4558472 > * 
+TDD-4009945 questioning: ["sleet", "#5"]
+TDD8240885 #2 ____S ~A -DEHILPRS  📋 "sleet" ? ____S ~ AT
+TDD-8789325 attempt 1 SLEET n n n n m
+TDD1675836 #3 _____ ~ILR -ADEHPS  📋 "sleet" ? .
+TDD-1675787 attempt 2 SLEET n m n n n
+TDD1456919 #4 _A___ ~EHL -DIPRS  📋 "sleet" ? .
+TDD-1456941 attempt 3 SLEET n m m m n
+TDD1522496 #5 ___E_ ~LS -ADHIPR  📋 "sleet" ? /it
+TDD-1522500 attempt 4 SLEET Y Y Y Y Y
+TDD255515 ? 
+TDD-255642 question done
+TDD1366353 > *
+TDD5289335 try? 2
+TDD-6655301 questioning: ["halve", "#4"]
+TDD4012420 #2 ____S ~AT -DEHILPRS  📋 "halve" ? .
+TDD-4012697 attempt 1 HALVE n m n n n
+TDD1117753 #3 _____ ~ILR -ADEHPST  📋 "halve" ? .
+TDD-1117764 attempt 2 HALVE n n m n n
+TDD659849 #4 _A___ ~EHL -DIPRST  📋 "halve" ? /it
+TDD-659656 attempt 3 HALVE Y Y Y Y Y
+TDD193670 ? 
+TDD-193961 question done
+TDD482297 > *
+TDD875313 questioning: ["krill", "#3"]
+TDD3484311 #2 ____S ~AT -DEHILPRSV  📋 "krill" ? .
+TDD-4841822 attempt 1 KRILL n n n n n
+TDD746428 #3 _____ ~ILR -ADEHPSTV  📋 "krill" ? /it
+TDD-746413 attempt 2 KRILL Y Y Y Y Y
+TDD560290 ? 
+TDD-560399 question done
+TDD553986 > *
+TDD403709 questioning: ["autos", "#2"]
+TDD1801693 #2 ____S ~AT -DEHIKLPRSV  📋 "autos" ? /it
+TDD-2759288 attempt 1 AUTOS Y Y Y Y Y
+TDD1628496 ? 
+TDD-1628586 question done
+TDD4679046 📋> squareword.org 1397: 7 guesses
+TDD-4679138 📋> 
+TDD-99 📋> 🟩🟩🟩🟩🟩
+TDD-11 📋> 🟨🟨🟨🟨🟩
+TDD-2 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD4 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD355590 📋> #squareword #squareword1397
+TDD-104815 📋> ␚
+TDD-250642 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1397: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1397"}
+TDD2207 result: "squareword.org 1397: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1397"
+TDD346376 📆 2025-11-28 ? 
