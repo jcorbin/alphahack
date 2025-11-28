@@ -1,0 +1,40 @@
+T83671.811707344 now: 2025-11-28T08:37:07EST
+TD91 site: alphaguess.com
+TDD85979 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof f30a33f8fcfab67c54517dbb3e50e5a1ef7d90a3
+TDD3749508  ...
+TDD7449650 [0 : 98226 : 196542] mach? a
+TDD-11285044 progress: 1 98226 mach
+TDD2107626 [98227 : 147331 : 196542] rho? a
+TDD-2107653 progress: 1 147331 rho
+TDD1433563 [147332 : 171931 : 196542] tag? b
+TDD-1433363 progress: -1 171931 tag
+TDD1519677 [147332 : 159613 : 171931] slug? b
+TDD-1519710 progress: -1 159613 slug
+TDD1344724 [147332 : 153331 : 159613] sea? a
+TDD-1344875 progress: 1 153331 sea
+TDD1380710 [153332 : 156468 : 159613] shit? b
+TDD-1380634 progress: -1 156468 shit
+TDD1372012 [153332 : 154897 : 156468] seraph? b
+TDD-1371952 progress: -1 154897 seraph
+TDD1383157 [153332 : 154055 : 154897] sel? b
+TDD-1383159 progress: -1 154055 sel
+TDD1336476 [153332 : 153661 : 154055] sect? a
+TDD-1336602 progress: 1 153661 sect
+TDD1690005 [153662 : 153835 : 154055] seed? it
+TDD-1689904 progress: 0 153835 seed
+TDD-247 [153662 : 153835 : 154055] <Done>.
+TDD2789742 📋> 🧩 Puzzle #857
+TDD-2789530 📋> 
+TDD-208 📋> 🤔 10 guesses
+TDD-24 📋> 
+TDD0 📋> ⏱️ 13s
+TDD-3 📋> 
+TDD203263 📋> 🔗 alphaguess.com
+TDD-1761 📋> ␚
+TDD-201385 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #857\n\n\ud83e\udd14 10 guesses\n\n\u23f1\ufe0f 13s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-20 result: "\ud83e\udde9 Puzzle #857\n\n\ud83e\udd14 10 guesses\n\n\u23f1\ufe0f 13s\n\n\ud83d\udd17 alphaguess.com"
+TDD-91 result puzzle: 857
+TDD-8 result guesses: 10
+TDD-1 result time: 13s
+TDD0 result link: alphaguess.com
+TDD146361 📆 2025-11-28 ? 
