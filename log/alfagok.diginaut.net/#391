@@ -1,0 +1,41 @@
+T83583.72817064999 now: 2025-11-28T08:35:39EST
+TD102 site: alfagok.diginaut.net
+TDD212646 loaded 399531 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1321 words excluded) asof f30a33f8fcfab67c54517dbb3e50e5a1ef7d90a3
+TDD12366135  ...
+TDD-8223979 [0 : 199762 : 399531] lijn? a
+TDD-4354294 progress: 1 199762 lijn
+TDD1425113 [199763 : 299630 : 399531] schud? a
+TDD-1425541 progress: 1 299630 schud
+TDD1362456 [299631 : 349362 : 399531] vak? a
+TDD-1362340 progress: 1 349362 vak
+TDD2126985 [349363 : 374105 : 399531] vrij? a
+TDD-2126977 progress: 1 374105 vrij
+TDD2713724 [374106 : 386646 : 399531] wind? b
+TDD-2713863 progress: -1 386646 wind
+TDD4445699 [374106 : 380317 : 386646] weer? a
+TDD-4445695 progress: 1 380317 weer
+TDD3034196 [380318 : 383293 : 386646] werk? b
+TDD-3034192 progress: -1 383293 werk
+TDD1954700 [380318 : 380786 : 383293] weg? a
+TDD-1954576 progress: 1 380786 weg
+TDD1844170 [380787 : 381971 : 383293] wei? a
+TDD-1844298 progress: 1 381971 wei
+TDD1737317 [381972 : 382613 : 383293] welzijn? b
+TDD-1737328 progress: -1 382613 welzijn
+TDD1750004 [381972 : 382288 : 382613] weledel? b
+TDD-1749997 progress: -1 382288 weledel
+TDD2798850 [381972 : 382125 : 382288] weinig? it
+TDD-2798815 progress: 0 382125 weinig
+TDD-171 [381972 : 382125 : 382288] <Done>.
+TDD3106535 📋> 🧩 Puzzel #391
+TDD-3106442 📋> 🤔 12 gokken
+TDD-101 📋> ⏱️ 24s
+TDD262856 📋> 🔗 alfagok.diginaut.net
+TDD7229 📋> ␚
+TDD-269937 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #391\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD625 result: "\ud83e\udde9 Puzzel #391\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-731 result puzzle: 391
+TDD-51 result guesses: 12
+TDD-5 result time: 24s
+TDD0 result link: alfagok.diginaut.net
+TDD410502 📆 2025-11-28 ? 
