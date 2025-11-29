@@ -1,0 +1,48 @@
+T38657.45310147101 now: 2025-11-29T07:38:57EST
+TD60 site: alphaguess.com
+TDD65307 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof 5538f337c3fca8e8868b6df3af906e2ed9865d49
+TDD5236132  ...
+TDD-2589299 [0 : 98226 : 196542] mach? a
+TDD-2712039 progress: 1 98226 mach
+TDD1823540 [98227 : 147331 : 196542] rho? b
+TDD-1823544 progress: -1 147331 rho
+TDD1799608 [98227 : 122111 : 147331] par? a
+TDD-1799598 progress: 1 122111 par
+TDD1663754 [122112 : 134642 : 147331] prog? b
+TDD-1663757 progress: -1 134642 prog
+TDD2199378 [122112 : 128373 : 134642] place? a
+TDD-2199383 progress: 1 128373 place
+TDD1711886 [128374 : 131497 : 134642] pots? a
+TDD-1711883 progress: 1 131497 pots
+TDD1703622 [131498 : 133070 : 134642] prep? b
+TDD-1703568 progress: -1 133070 prep
+TDD2791650 [131498 : 132283 : 133070] preconise? a
+TDD-2791701 progress: 1 132283 preconise
+TDD1871827 [132284 : 132661 : 133070] preform? b
+TDD-1871819 progress: -1 132661 preform
+TDD1591518 [132284 : 132469 : 132661] predominate? b
+TDD-1591524 progress: -1 132469 predominate
+TDD2607689 [132284 : 132377 : 132469] predesignate? b
+TDD-2607733 progress: -1 132377 predesignate
+TDD2311780 [132284 : 132328 : 132377] precursor? a
+TDD-2311741 progress: 1 132328 precursor
+TDD1751917 [132329 : 132347 : 132377] predator? a
+TDD-1751920 progress: 1 132347 predator
+TDD1975847 [132348 : 132362 : 132377] predecessor? it
+TDD-1975870 progress: 0 132362 predecessor
+TDD-116 [132348 : 132362 : 132377] <Done>.
+TDD2944196 📋> 🧩 Puzzle #858
+TDD-2944106 📋> 
+TDD-89 📋> 🤔 14 guesses
+TDD3 📋> 
+TDD34 📋> ⏱️ 26s
+TDD-43 📋> 
+TDD327219 📋> 🔗 alphaguess.com
+TDD56640 📋> ␚
+TDD-383736 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #858\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 26s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-38 result: "\ud83e\udde9 Puzzle #858\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 26s\n\n\ud83d\udd17 alphaguess.com"
+TDD-84 result puzzle: 858
+TDD-7 result guesses: 14
+TDD-2 result time: 26s
+TDD0 result link: alphaguess.com
+TDD2695830 📆 2025-11-29 ? 
