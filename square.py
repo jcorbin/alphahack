@@ -817,11 +817,17 @@ class Search(StoredLog):
         chooser = Chooser()
         word_i: int|None = None
         word: Word|None = None
+        raw: bool = False
 
         while ui.tokens:
             n = ui.tokens.have(r'\d+$', lambda m: int(m.group(0)))
             if n is not None:
                 word_i = n-1
+                continue
+
+            if ui.tokens.have(r'-r(aw?)?'):
+                ui.print('ignoring row/col particulars')
+                raw = True
                 continue
 
             match = ui.tokens.have(r'-(v+)')
@@ -874,7 +880,9 @@ class Search(StoredLog):
         if verbose:
             ui.print(f'- pattern: {pat}')
 
-        words = tuple(self.find(pat, row=word_i))
+        words = tuple(
+            self.find(pat) if raw else
+            self.find(pat, row=word_i))
         if verbose:
             ui.print(f'- found: {len(words)}')
 
