@@ -875,6 +875,9 @@ class Search(StoredLog):
             ui.print(f'- pattern: {pat}')
 
         words = tuple(self.find(pat, row=word_i))
+        if verbose:
+            ui.print(f'- found: {len(words)}')
+
         scores, explain_score = self.score_words(word_i, words)
         pos = Possible(
             words,
