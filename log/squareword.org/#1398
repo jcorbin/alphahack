@@ -1,0 +1,176 @@
+T38745.18166260101 now: 2025-11-29T07:40:25EST
+TD61 site: squareword.org
+TDD-24 wordlist: nwl2023.txt
+TDD14215082  ...
+TDD-9950101 🧩  ? #1398
+TDD-4264666 puzzle_id: #1398
+TDD1119379 > *
+TDD176267 try? 1
+TDD-1295592 questioning: ["toeas", "#5"]
+TDD8406886 #1 _____  📋 "toeas" ? _____ ~ OS
+TDD-8406744 attempt 0 TOEAS n m n n m
+TDD2631466 #2 _____  📋 "toeas" ? _____ ~ EA
+TDD-2631672 attempt 1 TOEAS n n m m n
+TDD2790550 #3 _____  📋 "toeas" ? _____ ~ ES
+TDD-2790599 attempt 2 TOEAS n n m n m
+TDD2776357 #4 _____  📋 "toeas" ? __E__ ~ A
+TDD-2776335 attempt 3 TOEAS n n Y m n
+TDD2294477 #5 _____  📋 "toeas" ? _____ ~ ES
+TDD-2294503 attempt 4 TOEAS n n m n m
+TDD247224 ? 
+TDD-247345 question done
+TDD519733 > *
+TDD6017007 try? 8
+TDD-6536268 questioning: ["faery", "#4"]
+TDD4582750 #1 _____ ~OS -AET  📋 "faery" ? .
+TDD-4583075 attempt 0 FAERY n n n n n
+TDD8815181 #2 _____ ~AE -OST  📋 "faery" ? _____ ~ EAR
+TDD-8815194 attempt 1 FAERY n m m m n
+TDD3822893 #3 _____ ~ES -AOT  📋 "faery" ? _____ ~ ESR
+TDD-3822849 attempt 2 FAERY n n m m n
+TDD1782807 #4 __E__ ~A -OST  📋 "faery" ? .
+TDD-1782916 attempt 3 FAERY n m Y n n
+TDD2759977 #5 _____ ~ES -AOT  📋 "faery" ? ____Y ~ ES
+TDD-2759899 attempt 4 FAERY n n m n Y
+TDD247351 ? 
+TDD-247456 question done
+TDD487610 > *
+TDD4856343 try? 1
+TDD-5343821 questioning: ["pesky", "#5"]
+TDD5375145 #1 _____ ~OS -AEFRTY  📋 "pesky" ? _____ ~ OSP
+TDD-5375191 attempt 0 PESKY m n m n n
+TDD2823722 #2 _____ ~AER -FOSTY  📋 "pesky" ? 
+TDD1408266 #2 _____ ~AER -FOSTY  ? __S__ ~ ER
+TDD-4231983 attempt 1 PESKY n m Y n n
+TDD4623447 #3 _____ ~ERS -AFOTY  📋 "pesky" ? __E__ ~ A
+TDD-4623461 attempt 2 PESKY n n n n n
+T38879.52214192599 now: 2025-11-29T07:42:40EST
+TD99 questioning: ["pesky", "#5"]
+TDD3804052 #4 __E__ ~A -FORSTY  📋 "pesky" ? .
+TDD-3803899 attempt 3 PESKY n n n n n
+TDD2968126 #5 ____Y ~ES -AFORT  📋 "pesky" ? _ES_Y ~ S
+TDD-2968076 attempt 4 PESKY n Y Y n Y
+TDD591398 ? 
+TDD-591497 question done
+TDD734964 > *
+TDD-390181 questioning: ["runic", "#3"]
+TDD15382547 #1 _____ ~OPS -AEFKRTY  📋 "runic" ? _____ ~ OSPN
+TDD-15727197 attempt 0 RUNIC n n m n n
+TDD4048126 #2 __S__ ~AER -FKOPTY  📋 "runic" ? _____ ~ EARC
+TDD-4047909 attempt 1 RUNIC m n n n m
+TDD3927003 #3 _____ ~R -AEFKOPSTY  📋 "runic" ? R_S__ ~ ERI
+TDD-3927082 attempt 2 RUNIC Y n n m n
+TDD4735338 #4 __E__ ~A -EFKOPRSTY  📋 "runic" ? __E__ ~ AN
+TDD-4735356 attempt 3 RUNIC n n m n n
+TDD5727152 #5 _ES_Y -AFKOPRT  📋 "runic" ? _ES_Y ~ S
+TDD-5727128 attempt 4 RUNIC n n n n n
+TDD486318 ? 
+TDD-486617 question done
+TDD678573 > *
+TDD870304 questioning: ["amend", "#4"]
+TDD3752073 #1 _____ ~NOPS -ACEFIKRTUY  📋 "amend" ? .
+TDD-5300543 attempt 0 AMEND n n n m n
+TDD9621509 #2 __S__ ~ACER -FIKNOPTUY  📋 "amend" ? _____ ~ EARC
+TDD-9621802 attempt 1 AMEND m n m n n
+TDD4399198 #3 R____ ~I -ACEFKNOPSTUY  📋 "amend" ? R_S__ ~ ERI
+TDD-4399187 attempt 2 AMEND n n m n n
+TDD2320576 #4 __E__ ~AN -CEFIKOPRSTUY  📋 "amend" ? /it
+TDD-2320343 attempt 3 AMEND Y Y Y Y Y
+TDD3974494 #5 _ES_Y -ACFIKNOPRTU  📋 "amend" ? _ES_Y ~ SM
+TDD-3974717 attempt 4 AMEND n m n n n
+TDD407971 ? 
+TDD-407915 question done
+TDD4630506 > *
+TDD-2412880 questioning: ["messy", "#5"]
+TDD5395153 #1 _____ ~NOPS -ACDEFIKMRTUY  📋 "messy" ? .
+TDD-7612926 attempt 0 MESSY n n m m n
+TDD3889023 #2 __S__ ~ACER -DFIKMNOPTUY  📋 "messy" ? _____ ~ EARC
+TDD-3889017 attempt 1 MESSY n m n n n
+TDD7574893 #3 R____ ~EI -ACDEFKMNOPSTUY  📋 "messy" ? R_S__ ~ ERI
+TDD-7574901 attempt 2 MESSY n m Y n n
+TDD2288143 #5 _ES_Y ~M -ACDEFIKNOPRTU  📋 "messy" ? /it
+TDD-2288033 attempt 4 MESSY Y Y Y Y Y
+TDD262247 ? 
+TDD-262385 question done
+TDD7897265 > **3
+TDD-6986846 > *3
+TDD18984 > * 3
+TDD2462393 > /help
+TDD-945193 > /man 
+TDD1753526 > /man 3 R_S__ ~ ERI
+TDD2054907 > /man 3 R_S__ ~ERI
+TDD-5678803 questioning: ["RISER", "#3"]
+TDD5609000 #1 _____ ~NOPS -ACDEFIKMRTUY  📋 "RISER" ? .
+TDD-6184885 attempt 0 RISER n n m n n
+TDD5309598 #2 __S__ ~ACER -DFIKMNOPSTUY  📋 "RISER" ? _____ ~ EARC
+TDD-5309844 attempt 1 RISER m n n m m
+TDD1295740 #3 R_S__ ~EI -ACDEFKMNOPTUY  📋 "RISER" ? /it
+TDD-1295753 attempt 2 RISER Y Y Y Y Y
+TDD368579 ? 
+TDD-368540 question done
+TDD6583573 > * 2 _____ ~EARC
+TDD1743793 > /man 2 _____ ~EARC
+TDD319793 > *
+TDD-1415285 > /man 1 _____ ~ OSPN
+TDD-1175197 > /man 1 _____ ~OSPN
+TDD13182018 > /help
+TDD-1030687 > ␚
+TDD-18208234 <EOF>
+TDD687625 > ␚
+TDD-687627 <EOF>
+TDD728008 > ␚
+TDD-727989 <EOF>
+TDD478964 > ␚
+TDD-478991 <EOF>
+TDD488197 > ␚
+T0.0047280710423365235 now: 2025-11-29T08:20:15EST
+TD1588565  ...
+TDD5228266 > /man 1 _____ ~NOPS
+TDD333778 > /man -raw 1 _____ ~ NOPS
+TDD1251385 > /man -raw 1 _____ ~NOPS
+TDD-4371623 try? 4
+TDD-4029948 questioning: ["OPENS", "#1"]
+TDD9672289 #1 _____ ~NOPS -ACDEFIKMRTUY  📋 "OPENS" ? _P___ ~ OSN
+TDD-9671787 attempt 0 OPENS m Y n m m
+TDD5677468 #2 __S__ ~ACER -DFIKMNOPSTUY  📋 "OPENS" ? _____ ~ EARC
+TDD-5678011 attempt 1 OPENS n n m n n
+TDD358963 ? 
+TDD-359102 question done
+TDD815676 > *
+TDD11552084 > /man -raw 1 _P___ ~OSN
+TDD-9880404 try? 1
+TDD-2487272 questioning: ["SPOON", "#1"]
+TDD3167705 #1 _P___ ~NOS -ACDEFIKMRTUY  📋 "SPOON" ? /it
+TDD-3167719 attempt 0 SPOON Y Y Y Y Y
+TDD6000460 #2 __S__ ~ACER -DFIKMNOPSTUY  📋 "SPOON" ? _____ ~EARC
+TDD-6000282 attempt 1 SPOON n n n n n
+TDD310349 ? 
+TDD-310627 question done
+TDD4640303 > /man 2 _____ ~EARC
+TDD3975571 > /man -raw 2 _____ ~EARC
+TDD-7048871 try? 1
+TDD-1566902 questioning: ["TRACE", "#2"]
+TDD7502858 #2 __S__ ~ACER -DFIKMNOPSTUY  📋 "TRACE" ? _RA_E ~ C
+TDD-7502883 attempt 1 TRACE n Y Y m Y
+TDD248032 ? 
+TDD-248125 question done
+TDD767079 > *
+TDD-415069 questioning: ["crave", "#2"]
+TDD5303639 #2 _RA_E ~C -DFIKMNOPSTUY  📋 "crave" ? /it
+TDD-5655536 attempt 1 CRAVE Y Y Y Y Y
+TDD8343901 ? 
+TDD-8343982 question done
+TDD935459 📋> squareword.org 1398: 11 guesses
+TDD-935584 📋> 
+TDD-80 📋> 🟨🟨🟨🟨🟨
+TDD-8 📋> 🟧🟨🟨🟧🟨
+TDD-7 📋> 🟩🟨🟩🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟩🟩🟨🟩
+TDD-1 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD399507 📋> #squareword #squareword1398
+TDD-87024 📋> ␚
+TDD-312340 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1398: 11 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe7\ud83d\udfe8\ud83d\udfe8\ud83d\udfe7\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1398"}
+TDD613 result: "squareword.org 1398: 11 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe7\ud83d\udfe8\ud83d\udfe8\ud83d\udfe7\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1398"
+TDD350198 📆 2025-11-29 ? 
