@@ -1,0 +1,49 @@
+T38592.50833231397 now: 2025-11-29T07:37:53EST
+TD58 site: alfagok.diginaut.net
+TDD163094 loaded 399531 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1321 words excluded) asof 5538f337c3fca8e8868b6df3af906e2ed9865d49
+TDD4817575  ...␚
+T38605.19461507001 now: 2025-11-29T07:38:05EST
+TD14537566  ...
+TDD-9074093 [0 : 199762 : 399531] lijn? a
+TDD-5463060 progress: 1 199762 lijn
+TDD2607760 [199763 : 299630 : 399531] schud? b
+TDD-2607990 progress: -1 299630 schud
+TDD2271228 [199763 : 247584 : 299630] op? a
+TDD-2271213 progress: 1 247584 op
+TDD1935539 [247585 : 273390 : 299630] proef? a
+TDD-1935567 progress: 1 273390 proef
+TDD2185133 [273391 : 286502 : 299630] rijst? b
+TDD-2184991 progress: -1 286502 rijst
+TDD1838491 [273391 : 279659 : 286502] rechts? b
+TDD-1838625 progress: -1 279659 rechts
+TDD1592513 [273391 : 276519 : 279659] quarantaine? a
+TDD-1592385 progress: 1 276519 quarantaine
+TDD2086613 [276520 : 278003 : 279659] ram? a
+TDD-2086747 progress: 1 278003 ram
+TDD1679520 [278004 : 278826 : 279659] ratio? a
+TDD-1679526 progress: 1 278826 ratio
+TDD1575767 [278827 : 279124 : 279659] rea? a
+TDD-1575767 progress: 1 279124 rea
+TDD1751321 [279125 : 279387 : 279659] recept? b
+TDD-1751338 progress: -1 279387 recept
+TDD1687249 [279125 : 279254 : 279387] realiseren? b
+TDD-1687252 progress: -1 279254 realiseren
+TDD1553169 [279125 : 279190 : 279254] reactor? a
+TDD-1553020 progress: 1 279190 reactor
+TDD1415418 [279191 : 279215 : 279254] reageer? a
+TDD-1415424 progress: 1 279215 reageer
+TDD1814891 [279216 : 279232 : 279254] reageren? it
+TDD-1815009 progress: 0 279232 reageren
+TDD-141 [279216 : 279232 : 279254] <Done>.
+TDD3512737 📋> 🧩 Puzzel #392
+TDD-3512649 📋> 🤔 15 gokken
+TDD-97 📋> ⏱️ 27s
+TDD478486 📋> 🔗 alfagok.diginaut.net
+TDD-262083 📋> ␚
+TDD-216262 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #392\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 27s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD551 result: "\ud83e\udde9 Puzzel #392\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 27s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-670 result puzzle: 392
+TDD-27 result guesses: 15
+TDD-4 result time: 27s
+TDD0 result link: alfagok.diginaut.net
+TDD399191 📆 2025-11-29 ? 
