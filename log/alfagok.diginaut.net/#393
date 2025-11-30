@@ -1,0 +1,63 @@
+T35.65472945000511 now: 2025-11-30T08:52:55EST
+TD106 site: alfagok.diginaut.net
+TDD172525 loaded 399531 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1321 words excluded) asof 769fb7eccfafd7fba6be5d5d85e09c221988ceef
+TDD7253942  ...
+TDD-2608135 [0 : 199762 : 399531] lijn? a
+TDD-4817772 progress: 1 199762 lijn
+TDD4224796 [199763 : 299630 : 399531] schud? b
+TDD-4225096 progress: -1 299630 schud
+TDD2361118 [199763 : 247584 : 299630] op? b
+TDD-2361179 progress: -1 247584 op
+TDD1950038 [199763 : 223475 : 247584] mol? a
+TDD-1950038 progress: 1 223475 mol
+TDD2404223 [223476 : 235528 : 247584] octrooi? a
+TDD-2404221 progress: 1 235528 octrooi
+TDD4239798 [235529 : 238642 : 247584] on? a
+TDD-4239940 progress: 1 238642 on
+TDD4652148 [238643 : 243112 : 247584] onroerend? a
+TDD-4652115 progress: 1 243112 onroerend
+TDD7058574 [243113 : 245329 : 247584] ontwikkeling? a
+TDD-7058316 progress: 1 245329 ontwikkeling
+TDD3266002 [245330 : 246457 : 247584] onzichtbaar? a
+TDD-3266116 progress: 1 246457 onzichtbaar
+TDD2170185 [246458 : 246878 : 247584] oorlog? a
+TDD-2170191 progress: 1 246878 oorlog
+TDD1766081 [246879 : 247229 : 247584] oorverdovend? a
+TDD-1766114 progress: 1 247229 oorverdovend
+TDD1830563 [247230 : 247259 : 247584] oost? a
+TDD-1830563 progress: 1 247259 oost
+TDD2594324 [247260 : 247422 : 247584] oosterlaan? !
+TDD-564656 [247260 : 247422 : 247583] oosterlaken? !
+TDD591860 [247260 : 247422 : 247582] oosterland? !
+TDD-584124 [247260 : 247422 : 247581] oosterlee? !
+TDD1760117 [247260 : 247422 : 247580] oosterleek? !
+TDD-1375942 [247260 : 247422 : 247579] oosterlengte? b
+TDD-2421726 progress: -1 247422 oosterlengte
+TDD2194594 [247260 : 247340 : 247422] oostburg? !
+TDD-390030 [247260 : 247341 : 247421] oostburger? !
+TDD150223 [247260 : 247341 : 247420] oostburgs? !
+TDD494254 [247260 : 247341 : 247419] oostdam? !
+TDD-530896 [247260 : 247341 : 247418] oostdijck? !
+TDD-45400 [247260 : 247341 : 247417] oostdijk? !
+TDD1044028 [247260 : 247341 : 247416] oostduinkerke? !
+TDD-1064256 [247260 : 247342 : 247415] oosteind? !
+TDD612082 [247260 : 247341 : 247414] oosteeklo? !
+TDD-377392 [247260 : 247341 : 247413] oosteinde? a
+TDD-2087090 progress: 1 247341 oosteinde
+TDD3408902 [247342 : 247377 : 247413] oosterburen? b
+TDD-3408865 progress: -1 247377 oosterburen
+TDD2032418 [247342 : 247351 : 247377] oosten? it
+TDD-2032407 progress: 0 247351 oosten
+TDD-278 [247342 : 247351 : 247377] <Done>.
+TDD3521002 📋> 🧩 Puzzel #393
+TDD-3520838 📋> 🤔 16 gokken
+TDD-185 📋> ⏱️ 1m 19s
+TDD301795 📋> 🔗 alfagok.diginaut.net
+TDD-13145 📋> ␚
+TDD-288390 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #393\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 1m 19s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD462 result: "\ud83e\udde9 Puzzel #393\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 1m 19s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-731 result puzzle: 393
+TDD-9 result guesses: 16
+TDD-1 result time: 1m 19s
+TDD0 result link: alfagok.diginaut.net
+TDD1621119 📆 2025-11-30 ? 
