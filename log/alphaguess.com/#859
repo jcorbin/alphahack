@@ -1,0 +1,49 @@
+T139.06471838300058 now: 2025-11-30T08:54:39EST
+TD105 site: alphaguess.com
+TDD63473 loaded 196542 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (61 words excluded) asof 769fb7eccfafd7fba6be5d5d85e09c221988ceef
+TDD4114936  ...
+TDD-1449847 [0 : 98226 : 196542] mach? b
+TDD-2728512 progress: -1 98226 mach
+TDD1620226 [0 : 47387 : 98226] dis? a
+TDD-1620245 progress: 1 47387 dis
+TDD1532956 [47388 : 72807 : 98226] gremolata? a
+TDD-1532777 progress: 1 72807 gremolata
+TDD1644152 [72808 : 85511 : 98226] ins? b
+TDD-1644190 progress: -1 85511 ins
+TDD1641864 [72808 : 79139 : 85511] hood? b
+TDD-1641850 progress: -1 79139 hood
+TDD1575213 [72808 : 75963 : 79139] haw? b
+TDD-1575357 progress: -1 75963 haw
+TDD3393858 [72808 : 74368 : 75963] had? b
+TDD-3393707 progress: -1 74368 had
+TDD1682720 [72808 : 73579 : 74368] guess? b
+TDD-1682694 progress: -1 73579 guess
+TDD1644020 [72808 : 73183 : 73579] ground? a
+TDD-1644078 progress: 1 73183 ground
+TDD1530751 [73184 : 73374 : 73579] gruff? a
+TDD-1530837 progress: 1 73374 gruff
+TDD3003167 [73375 : 73477 : 73579] guan? b
+TDD-3003058 progress: -1 73477 guan
+TDD1921870 [73375 : 73413 : 73477] grump? a
+TDD-1921717 progress: 1 73413 grump
+TDD1565744 [73414 : 73438 : 73477] grunt? a
+TDD-1566046 progress: 1 73438 grunt
+TDD2317695 [73439 : 73458 : 73477] guac? !
+TDD-75785 [73439 : 73458 : 73476] guacamole? it
+TDD-2241752 progress: 0 73458 guacamole
+TDD-258 [73439 : 73458 : 73476] <Done>.
+TDD3347447 📋> 🧩 Puzzle #859
+TDD-3347263 📋> 
+TDD-213 📋> 🤔 14 guesses
+TDD2 📋> 
+TDD-6 📋> ⏱️ 27s
+TDD0 📋> 
+TDD290828 📋> 🔗 alphaguess.com
+TDD-59126 📋> ␚
+TDD-231461 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #859\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 27s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-95 result: "\ud83e\udde9 Puzzle #859\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 27s\n\n\ud83d\udd17 alphaguess.com"
+TDD-133 result puzzle: 859
+TDD-12 result guesses: 14
+TDD0 result time: 27s
+TDD0 result link: alphaguess.com
+TDD1262008 📆 2025-11-30 ? 
