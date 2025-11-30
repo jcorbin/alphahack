@@ -1,0 +1,131 @@
+T185.35588863800513 now: 2025-11-30T08:55:25EST
+TD103 site: squareword.org
+TDD-42 wordlist: nwl2023.txt
+TDD4375375  ...
+TDD-1466333 🧩  ? #1399
+TDD-2908545 puzzle_id: #1399
+TDD3443637 > *
+TDD-714564 try? 1
+TDD-2728972 questioning: ["tears", "#5"]
+TDD4861449 #1 _____  📋 "tears" ? __A_S ~ S
+TDD-4861043 attempt 0 TEARS n n Y n Y
+TDD3127328 #2 _____  📋 "tears" ? ___R_ ~ R
+TDD-3128145 attempt 1 TEARS n n n Y n
+TDD9175834 #3 _____  📋 "tears" ? _____ ~ A
+TDD-9175553 attempt 2 TEARS n n m n n
+TDD7449681 #4 _____  📋 "tears" ? _____ ~ AS
+TDD-7449783 attempt 3 TEARS n n m n m
+TDD5599978 #5 _____  📋 "tears" ? T____ ~ ER
+TDD-5599877 attempt 4 TEARS Y m n m n
+TDD1477438 ? 
+TDD-1477554 question done
+TDD2000026 > *
+TDD6386577 try? 4
+TDD-8386375 questioning: ["tried", "#5"]
+TDD10499191 #1 __A_S -ERT  📋 "tried" ? __A_S ~ S
+TDD-10499409 attempt 0 TRIED n n n n n
+TDD5065288 #2 ___R_ -AEST  📋 "tried" ? ___R_ ~ R
+TDD-5065412 attempt 1 TRIED n m n n n
+TDD4991402 #3 _____ ~A -ERST  📋 "tried" ? __I__ ~ A
+TDD-4991273 attempt 2 TRIED n n Y n n
+TDD2841870 #4 _____ ~AS -ERT  📋 "tried" ? .
+TDD-2841773 attempt 3 TRIED n n n n n
+TDD6386257 #5 T____ ~ER -AS  📋 "tried" ? TR_ED ~ E
+TDD-6386486 attempt 4 TRIED Y Y n Y Y
+TDD951624 ? 
+TDD-951720 question done
+TDD12788179 > * 3
+TDD-9730814 try? 1
+TDD-3056952 questioning: ["amigo", "#3"]
+TDD13567178 #1 __A_S -DEIRT  📋 "amigo" ? __A_S ~ S
+TDD-13567480 attempt 0 AMIGO n n n n n
+TDD4517892 #2 ___R_ -ADEIST  📋 "amigo" ? ___R_ ~ R
+TDD-4517978 attempt 1 AMIGO n n n n n
+TDD3681234 #3 __I__ ~A -DERST  📋 "amigo" ? A_I__ ~ O
+TDD-3680956 attempt 2 AMIGO Y n Y n m
+TDD3320967 #4 _____ ~AS -DEIRT  📋 "amigo" ? ____O ~ AS
+TDD-3321027 attempt 3 AMIGO m n n n Y
+TDD7006671 #5 TR_ED -AIS  📋 "amigo" ? TR_ED ~ E
+TDD-7006873 attempt 4 AMIGO n n n n n
+TDD604447 ? 
+TDD-604328 question done
+TDD5562611 > * 4
+TDD424130 try? 1
+TDD-5986564 questioning: ["salvo", "#4"]
+TDD8841885 #1 __A_S -ADEGIMORT  📋 "salvo" ? S_A_S ~ L
+TDD-8841873 attempt 0 SALVO Y n m n n
+TDD4400372 #2 ___R_ -ADEGIMOST  📋 "salvo" ? ___R_ ~ R
+TDD-4400493 attempt 1 SALVO n n n n n
+TDD1751975 #3 A_I__ ~O -DEGMRST  📋 "salvo" ? .
+TDD-1751869 attempt 2 SALVO n n n n m
+TDD3605426 #4 ____O ~AS -DEGIMRT  📋 "salvo" ? _A__O ~ SL
+TDD-3605388 attempt 3 SALVO m Y m n Y
+TDD3274437 #5 TR_ED -AGIMOS  📋 "salvo" ? .
+TDD-3274496 attempt 4 SALVO n n n n n
+TDD330872 ? 
+TDD-331020 question done
+TDD1180653 > *
+TDD-565624 questioning: ["anion", "#3"]
+TDD7130836 #1 S_A_S ~L -ADEGIMORTV  📋 "anion" ? .
+TDD-7745921 attempt 0 ANION n n n n n
+TDD2188822 #2 ___R_ -ADEGILMOSTV  📋 "anion" ? .
+TDD-2188684 attempt 1 ANION n n n n n
+TDD2163992 #3 A_I__ ~O -ADEGLMRSTV  📋 "anion" ? /it
+TDD-2163930 attempt 2 ANION Y Y Y Y Y
+TDD1808761 #4 _A__O ~LS -DEGIMRTV  📋 "anion" ? .
+TDD-1808941 attempt 3 ANION n n n n n
+TDD999831 #5 TR_ED -AGILMOSV  📋 "anion" ? .
+TDD-999590 attempt 4 ANION n n n n n
+TDD220146 ? 
+TDD-220481 question done
+TDD604380 > *
+TDD1166750 questioning: ["lasso", "#4"]
+TDD6246910 #1 S_A_S ~L -ADEGIMNORTV  📋 "lasso" ? .
+TDD-8017738 attempt 0 LASSO m n n n n
+TDD2173157 #2 ___R_ -ADEGILMNOSTV  📋 "lasso" ? .
+TDD-2173396 attempt 1 LASSO n n n n n
+TDD1206497 #4 _A__O ~LS -ADEGIMNORTV  📋 "lasso" ? /it
+TDD-1206496 attempt 3 LASSO Y Y Y Y Y
+TDD475378 #5 TR_ED -AGILMNOSV  📋 "lasso" ? .
+TDD-475382 attempt 4 LASSO n n n n n
+TDD209174 ? 
+TDD-209281 question done
+TDD799664 > *
+TDD637180 questioning: ["hurry", "#2"]
+TDD3227483 #1 S_A_S ~L -ADEGIMNORSTV  📋 "hurry" ? .
+TDD-4663967 attempt 0 HURRY n n n n n
+TDD1002290 #2 ___R_ -ADEGILMNOSTV  📋 "hurry" ? /it
+TDD-1002344 attempt 1 HURRY Y Y Y Y Y
+TDD1472039 #5 TR_ED -AGILMNOSV  📋 "hurry" ? .
+TDD-1472050 attempt 4 HURRY n n n n n
+TDD192667 ? 
+TDD-192803 question done
+TDD662648 > *
+TDD595906 questioning: ["treed", "#5"]
+TDD10701963 #1 S_A_S ~L -ADEGHIMNORSTUVY  📋 "treed" ? .
+TDD-11960360 attempt 0 TREED n n n n n
+TDD903176 #5 TR_ED -AGHILMNORSUVY  📋 "treed" ? /it
+TDD-903369 attempt 4 TREED Y Y Y Y Y
+TDD530050 ? 
+TDD-530147 question done
+TDD1939587 > *
+TDD6003267 try? 2
+TDD-7942662 questioning: ["slaps", "#1"]
+TDD2558794 #1 S_A_S ~L -ADEGHIMNORSTUVY  📋 "slaps" ? /it
+TDD-2558487 attempt 0 SLAPS Y Y Y Y Y
+TDD1249235 ? 
+TDD-1249604 question done
+TDD6436381 📋> squareword.org 1399: 9 guesses
+TDD-6436576 📋> 
+TDD-116 📋> 🟩🟨🟩🟨🟩
+TDD-7 📋> 🟨🟨🟨🟩🟨
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟩🟨🟨🟩
+TDD0 📋> 🟩🟩🟨🟩🟩
+TDD1 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD862138 📋> #squareword #squareword1399
+TDD-86326 📋> ␚
+TDD-775691 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1399: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1399"}
+TDD519 result: "squareword.org 1399: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1399"
+TDD2588307 📆 2025-11-30 ? 
