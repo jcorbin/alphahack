@@ -1,0 +1,119 @@
+T66513.53374684001 now: 2025-12-01T08:20:01EST
+TD101 site: squareword.org
+TDD-42 wordlist: nwl2023.txt
+TDD5311017  ...
+TDD-1509881 🧩  ? #1400
+TDD-3800811 puzzle_id: #1400
+TDD2446791 > *
+TDD-422400 try? 1
+TDD-2024198 questioning: ["arose", "#5"]
+TDD5117824 #1 _____  📋 "arose" ? _R_S_
+TDD-5117689 attempt 0 AROSE n Y n Y n
+TDD3991145 #2 _____  📋 "arose" ? ____E ~ E
+TDD-3991519 attempt 1 AROSE n n n n Y
+TDD2695394 #3 _____  📋 "arose" ? A___E ~ R
+TDD-2695185 attempt 2 AROSE Y m n n Y
+TDD2743051 #4 _____  📋 "arose" ? _____ ~ E
+TDD-2743069 attempt 3 AROSE n n n n m
+TDD2509819 #5 _____  📋 "arose" ? _R___ ~ SE
+TDD-2510107 attempt 4 AROSE n Y n m m
+TDD432071 ? 
+TDD-432082 question done
+TDD2183025 > *
+TDD15107212 try? ␚
+TDD-17290213 <EOF>
+TDD1150376 > * 1
+TDD19137433 try? 4
+TDD-20287453 questioning: ["brush", "#1"]
+TDD4126236 #1 _R_S_ -AEO  📋 "brush" ? _RUSH
+TDD-4126509 attempt 0 BRUSH n Y Y Y Y
+TDD4119947 #2 ____E -AORS  📋 "brush" ? ____E ~ EH
+TDD-4119988 attempt 1 BRUSH n n n n m
+TDD4103882 #3 A___E ~R -OS  📋 "brush" ? .
+TDD-4103597 attempt 2 BRUSH n m n n n
+TDD951371 #4 _____ ~E -AORS  📋 "brush" ? .
+TDD-951397 attempt 3 BRUSH n n n n n
+TDD1573430 #5 _R___ ~ES -AO  📋 "brush" ? .
+TDD-1573527 attempt 4 BRUSH n Y n m n
+TDD989714 ? 
+TDD-990002 question done
+TDD4216395 > * 2
+TDD5487968 try? 2
+TDD-9704167 questioning: ["lithe", "#2"]
+TDD6118122 #1 _RUSH -ABEO  📋 "lithe" ? .
+TDD-6118232 attempt 0 LITHE n n n n n
+TDD4112298 #2 ____E ~H -ABORSU  📋 "lithe" ? ____E ~ EH
+TDD-4112313 attempt 1 LITHE n n n m Y
+TDD5014963 #3 A___E ~R -BHOSU  📋 "lithe" ? A___E ~ RI
+TDD-5014981 attempt 2 LITHE n m n n Y
+TDD5655984 #4 _____ ~E -ABHORSU  📋 "lithe" ? __T__ ~ E
+TDD-5655884 attempt 3 LITHE n n Y n m
+TDD3280450 #5 _R___ ~ES -ABHOU  📋 "lithe" ? .
+TDD-3280431 attempt 4 LITHE n n n n m
+TDD222036 ? 
+TDD-222190 question done
+TDD544182 > *
+TDD-5896 questioning: ["crush", "#1"]
+TDD7059208 #1 _RUSH -ABEHILOT  📋 "crush" ? it
+TDD-5820744 #1 _RUSH -ABEHILOT  ? /it
+TDD-1776454 attempt 0 CRUSH Y Y Y Y Y
+TDD3678489 #2 ____E ~H -ABILORSTU  📋 "crush" ? ____E ~ EHC
+TDD-3678623 attempt 1 CRUSH m n n n m
+TDD2414096 #3 A___E ~IR -BHLOSTU  📋 "crush" ? .
+TDD-2414200 attempt 2 CRUSH n m n n n
+TDD1567672 #4 __T__ ~E -ABHILORSU  📋 "crush" ? .
+TDD-1567686 attempt 3 CRUSH n n n n n
+TDD904216 #5 _R___ ~ES -ABHILOTU  📋 "crush" ? .
+TDD-904072 attempt 4 CRUSH n Y n m n
+TDD174857 ? 
+TDD-175041 question done
+TDD591448 > *
+TDD-126354 questioning: ["hence", "#2"]
+TDD5135204 #2 ____E ~CH -ABILORSTU  📋 "hence" ? /it
+TDD-5599888 attempt 1 HENCE Y Y Y Y Y
+TDD2727125 #3 A___E ~IR -BCHLOSTU  📋 "hence" ? .
+TDD-2727167 attempt 2 HENCE n n n n Y
+TDD5286678 #4 __T__ ~E -ABCHILORSU  📋 "hence" ? _ET__ ~ E
+TDD-5286946 attempt 3 HENCE n Y n n m
+TDD1415549 #5 _R___ ~ES -ABCHILOTU  📋 "hence" ? .
+TDD-1415299 attempt 4 HENCE n m n n m
+TDD181482 ? 
+TDD-181686 question done
+TDD592411 > *
+TDD858961 questioning: ["afire", "#3"]
+TDD3606643 #3 A___E ~IR -BCHLNOSTU  📋 "afire" ? /it
+TDD-5058091 attempt 2 AFIRE Y Y Y Y Y
+TDD4744456 #4 _ET__ ~E -ABCHILNORSU  📋 "afire" ? _ET__ ~ EF
+TDD-4744233 attempt 3 AFIRE n m n n m
+TDD4079893 #5 _R___ ~ES -ABCHILNOTU  📋 "afire" ? _R___ ~ SEF
+TDD-4079924 attempt 4 AFIRE n m n n m
+TDD254049 ? 
+TDD-254252 question done
+TDD559475 > *
+TDD661551 questioning: ["feted", "#4"]
+TDD4052982 #4 _ET__ ~EF -ABCHILNORSU  📋 "feted" ? /it
+TDD-5274011 attempt 3 FETED Y Y Y Y Y
+TDD4439440 #5 _R___ ~EFS -ABCHILNORTU  📋 "feted" ? FR_E_ ~ SE
+TDD-4439398 attempt 4 FETED Y m n Y n
+TDD287429 ? 
+TDD-287524 question done
+TDD863376 > *
+TDD58152 questioning: ["frees", "#5"]
+TDD2548828 #5 FR_E_ ~ES -ABCDHILNORTU  📋 "frees" ? /it
+TDD-3470323 attempt 4 FREES Y Y Y Y Y
+TDD1439518 ? 
+TDD-1439569 question done
+TDD4160929 📋> squareword.org 1400: 8 guesses
+TDD-4161018 📋> 
+TDD-75 📋> 🟩🟩🟩🟩🟩
+TDD-6 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟨🟨🟨🟩
+TDD0 📋> 🟨🟩🟩🟨🟨
+TDD0 📋> 🟨🟩🟨🟨🟨
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD455558 📋> #squareword #squareword1400
+TDD-128201 📋> ␚
+TDD-327202 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1400: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1400"}
+TDD1692 result: "squareword.org 1400: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1400"
+TDD908717 📆 2025-12-01 ? 
