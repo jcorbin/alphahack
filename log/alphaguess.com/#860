@@ -1,0 +1,44 @@
+T66476.477697204 now: 2025-12-01T08:19:24EST
+TD67 site: alphaguess.com
+TDD69806 loaded 196541 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (62 words excluded) asof 9e9dfed4ce004c1e8b56b5e4294425ed2ded7cf0
+TDD7242634  ...
+TDD-4616382 [0 : 98225 : 196541] mach? a
+TDD-2695952 progress: 1 98225 mach
+TDD1543656 [98226 : 147330 : 196541] rho? b
+TDD-1543660 progress: -1 147330 rho
+TDD1399570 [98226 : 122110 : 147330] par? a
+TDD-1399558 progress: 1 122110 par
+TDD1303838 [122111 : 134641 : 147330] prog? a
+TDD-1303857 progress: 1 134641 prog
+TDD1359684 [134642 : 140527 : 147330] rec? a
+TDD-1359689 progress: 1 140527 rec
+TDD1279605 [140528 : 143791 : 147330] rem? a
+TDD-1279639 progress: 1 143791 rem
+TDD1247769 [143792 : 145204 : 147330] res? a
+TDD-1247693 progress: 1 145204 res
+TDD1415598 [145205 : 146263 : 147330] retest? b
+TDD-1415666 progress: -1 146263 retest
+TDD1359742 [145205 : 145734 : 146263] respade? a
+TDD-1359731 progress: 1 145734 respade
+TDD1440407 [145735 : 145854 : 146263] rest? a
+TDD-1440387 progress: 1 145854 rest
+TDD1375016 [145855 : 146049 : 146263] result? b
+TDD-1375018 progress: -1 146049 result
+TDD1583657 [145855 : 145950 : 146049] restoration? it
+TDD-1583658 progress: 0 145950 restoration
+TDD-127 [145855 : 145950 : 146049] <Done>.
+TDD3096913 📋> 🧩 Puzzle #860
+TDD-3096843 📋> 
+TDD-80 📋> 🤔 12 guesses
+TDD-5 📋> 
+TDD0 📋> ⏱️ 16s
+TDD-2 📋> 
+TDD407025 📋> 🔗 alphaguess.com
+TDD-206208 📋> ␚
+TDD-200684 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #860\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 16s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-37 result: "\ud83e\udde9 Puzzle #860\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 16s\n\n\ud83d\udd17 alphaguess.com"
+TDD-90 result puzzle: 860
+TDD-7 result guesses: 12
+TDD-2 result time: 16s
+TDD0 result link: alphaguess.com
+TDD414976 📆 2025-12-01 ? 
