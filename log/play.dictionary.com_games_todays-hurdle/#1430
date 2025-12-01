@@ -1,0 +1,97 @@
+T66724.184568482 now: 2025-12-01T08:23:32EST
+TD71 site: https://play.dictionary.com/games/todays-hurdle
+TDD-36 wordlist: nwl2023.txt
+TDD10636988  ...
+TDD14155224 1.1> *
+TDD-23424392 1.1 ? 1
+TDD4280467 1.1 📋 "least" ? nMMnn
+TDD-5648012 tried: LEAST n m m n n
+TDD439661 1.2> *
+TDD935599 1.2 ? 1
+TDD2824389 1.2 📋 "padre" ? nMMnM
+TDD-4199765 tried: PADRE n m m n m
+TDD799984 1.3> *
+TDD5223518 1.3 ? MnMMY
+TDD-5543660 1.3 ? *
+TDD904132 1.3 ? 1
+TDD1263761 1.3 📋 "acned" ? MnMMY
+TDD-2647669 tried: ACNED m n m m Y
+TDD391714 1.4> 
+TDD208070 1.4> *
+TDD2983969 1.4 📋 "knead" ? it
+TDD-3583805 tried: KNEAD Y Y Y Y Y
+TDD11263359 2.1 📋 "knead" ? nMMnn
+TDD-11263359 tried: KNEAD n m m n n
+TDD703870 2.2> *
+TDD1687481 2.2 ? 2
+TDD1512597 2.2 📋 "stone" ? nnMMM
+TDD-3903928 tried: STONE n n m m m
+TDD527750 2.3> *
+TDD7744277 2.3 ? 5
+TDD-1496597 2.3 📋 "recon" ? nYnYY
+TDD-6775442 tried: RECON n Y n Y Y
+TDD431454 2.4> *
+TDD5968619 2.4 ? 1
+TDD-1400104 2.4 📋 "lemon" ? nYnYY
+TDD-4999966 tried: LEMON n Y n Y Y
+TDD631454 2.5> *
+TDD3904667 2.5 📋 "xenon" ? it
+TDD-4536115 tried: XENON Y Y Y Y Y
+TDD15167062 3.1 📋 "xenon" ? nnMnn
+TDD-15167078 tried: XENON n n m n n
+TDD6480126 3.2> *
+TDD-5120613 3.2 ? 1
+TDD3696162 3.2 📋 "using" ? nnnYM
+TDD-5055698 tried: USING n n n Y m
+TDD463648 3.3> *
+TDD2768414 3.3 ? 1
+TDD1647505 3.3 📋 "grand" ? YnYYY
+TDD-4879579 tried: GRAND Y n Y Y Y
+TDD1519679 3.4> *
+TDD1319963 3.4 📋 "gland" ? it
+TDD-2839606 tried: GLAND Y Y Y Y Y
+TDD17224132 4.1 📋 "gland" ? nnYMn
+TDD-17224050 tried: GLAND n n Y m n
+TDD535573 4.2> *
+TDD1327910 4.2 ? 2
+TDD4456139 4.2 📋 "train" ? it
+TDD-6319683 tried: TRAIN Y Y Y Y Y
+TDD8127461 5.1 📋 "knead" ? nnnMY
+TDD-8127491 tried: KNEAD n n n m Y
+TDD1455605 5.2 📋 "xenon" ? nnnnn
+TDD-1455622 tried: XENON n n n n n
+TDD2903982 5.3 📋 "gland" ? YnYnY
+TDD-2903981 tried: GLAND Y n Y n Y
+TDD2023575 5.4 📋 "train" ? nMYnn
+TDD-2023549 tried: TRAIN n m Y n n
+TDD1007381 5.5> *
+TDD3280386 5.5 📋 "guard" ? it
+TDD-4287816 tried: GUARD Y Y Y Y Y
+TDD5464112 📋> Hurdle 1430
+TDD-5464179 📋> 
+TDD-90 📋> 4/6
+TDD0 📋> ⬜🟨🟨⬜⬜
+TDD-4 📋> ⬜🟨🟨⬜🟨
+TDD-1 📋> 🟨⬜🟨🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 5/6
+TDD0 📋> ⬜🟨🟨⬜⬜
+TDD0 📋> ⬜⬜🟨🟨🟨
+TDD0 📋> ⬜🟩⬜🟩🟩
+TDD0 📋> ⬜🟩⬜🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> ⬜⬜🟨⬜⬜
+TDD0 📋> ⬜⬜⬜🟩🟨
+TDD0 📋> 🟩⬜🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 2/6
+TDD0 📋> ⬜⬜🟩🟨⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 1/2
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD455374 📋> score: 10,000
+TDD-103370 📋> ␚
+TDD-351904 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1430\n\n4/6\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n2/6\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"}
+TDD347 result: "Hurdle 1430\n\n4/6\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n2/6\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"
+TDD518884 📆 2025-12-01 ? 
