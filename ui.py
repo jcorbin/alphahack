@@ -948,6 +948,7 @@ def test_handle_basics(demo_world: Iterable[Entry]):
 
     and_next(3)
 
+    # FIXME back
     with PromptUI.TestHarness() as h:
         assert h.run_all(root, '/app/re') == reflow_block('''
             > /app/re
