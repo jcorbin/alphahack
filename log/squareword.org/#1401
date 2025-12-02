@@ -1,0 +1,127 @@
+T147.14793652300432 now: 2025-12-02T10:31:24EST
+TD142 site: squareword.org
+TDD-64 wordlist: nwl2023.txt
+TDD1001995  ...
+TDD4826983 🧩  ? #1401
+TDD-5828517 puzzle_id: #1401
+TDD1436230 > *
+TDD-94813 try? 1
+TDD-1341753 questioning: ["mares", "#5"]
+TDD3371076 #1 _____  📋 "mares" ? ___E_ 
+TDD-3370427 attempt 0 MARES n n n Y n
+TDD2259532 #2 _____  📋 "mares" ? _____ ~ RE
+TDD-2259924 attempt 1 MARES n n m m n
+TDD2714495 #3 _____  📋 "mares" ? _A_E_ ~ R
+TDD-2714401 attempt 2 MARES n Y m Y n
+TDD2500005 #4 _____  📋 "mares" ? _____ ~ ME
+TDD-2499874 attempt 3 MARES m n n m n
+TDD2463135 #5 _____  📋 "mares" ? ____S ~ E
+TDD-2462747 attempt 4 MARES n n n m Y
+TDD311764 ? 
+TDD-312515 question done
+TDD476278 > *
+TDD10609730 try? 3
+TDD-11085919 questioning: ["flume", "#4"]
+TDD8094179 #1 ___E_ -AMRS  📋 "flume" ? ___E_ ~ F
+TDD-8094238 attempt 0 FLUME m n n n n
+TDD4640142 #2 _____ ~ER -AMS  📋 "flume" ? ____E ~ R
+TDD-4639993 attempt 1 FLUME n n n n Y
+TDD2486869 #3 _A_E_ ~R -MS  📋 "flume" ? .
+TDD-2486903 attempt 2 FLUME n n n n n
+TDD1212705 #4 _____ ~EM -ARS  📋 "flume" ? .
+TDD-1212726 attempt 3 FLUME n n n m m
+TDD1292246 #5 ____S ~E -AMR  📋 "flume" ? .
+TDD-1292193 attempt 4 FLUME n n n n m
+TDD184033 ? 
+TDD-184092 question done
+TDD471847 > *
+TDD78787 questioning: ["emend", "#4"]
+TDD9256096 #1 ___E_ ~F -AELMRSU  📋 "emend" ? ___E_ ~ Fn
+TDD-9806624 attempt 0 EMEND n n n m n
+TDD2847842 #2 ____E ~R -AFLMSU  📋 "emend" ? .
+TDD-2847824 attempt 1 EMEND n n n n n
+TDD1098066 #3 _A_E_ ~R -EFLMSU  📋 "emend" ? .
+TDD-1098037 attempt 2 EMEND n n n n n
+TDD865512 #4 _____ ~EM -AFLRSU  📋 "emend" ? /it
+TDD-865679 attempt 3 EMEND Y Y Y Y Y
+TDD3178987 #5 ____S ~E -AFLMRU  📋 "emend" ? ____S ~ END
+TDD-3179115 attempt 4 EMEND m n m m m
+TDD221655 ? 
+TDD-221618 question done
+TDD1042844 > *
+TDD759052 try? 1
+TDD-1801817 questioning: ["often", "#1"]
+TDD3115538 #1 ___E_ ~FN -ADELMRSU  📋 "often" ? /it
+TDD-3115561 attempt 0 OFTEN Y Y Y Y Y
+TDD5315410 #2 ____E ~R -ADEFLMNSU  📋 "often" ? ____E ~ RO
+TDD-5315237 attempt 1 OFTEN m n n n n
+TDD3915353 #3 _A_E_ ~R -DEFLMNSU  📋 "often" ? _A_E_ ~ RT
+TDD-3915477 attempt 2 OFTEN n n m Y n
+TDD4915555 #5 ____S ~DEN -AFLMRU  📋 "often" ? ____S ~ ENDT
+TDD-4915413 attempt 4 OFTEN n n m m m
+TDD951117 ? 
+TDD-951337 question done
+TDD7373284 > *
+TDD-1080781 try? 1
+TDD-6292467 questioning: ["grove", "#2"]
+TDD2649649 #2 ____E ~OR -ADEFLMNSTU  📋 "grove" ? /it
+TDD-2649813 attempt 1 GROVE Y Y Y Y Y
+TDD2105745 #3 _A_E_ ~RT -DFLMNOSU  📋 "grove" ? .
+TDD-2105412 attempt 2 GROVE n m n n n
+TDD1061645 #5 ____S ~DENT -AFLMORU  📋 "grove" ? .
+TDD-1061799 attempt 4 GROVE n n n n m
+TDD171582 ? 
+TDD-171720 question done
+TDD502384 > *
+TDD587780 questioning: ["dents", "#5"]
+TDD2831084 #3 _A_E_ ~RT -DEFGLMNOSUV  📋 "dents" ? .
+TDD-3921187 attempt 2 DENTS n n n m n
+TDD680448 #5 ____S ~DENT -AFGLMORUV  📋 "dents" ? /it
+TDD-680313 attempt 4 DENTS Y Y Y Y Y
+TDD182520 ? 
+TDD-182659 question done
+TDD460231 > *
+TDD1599953 > *
+TDD5714140 > /?
+TDD-6052862 > help
+TDD-437876 > /?
+TDD-95447 > /help
+TDD4531493 > /man 3 _A_E_ ~ RT
+TDD1424160 > /man 3 _A_E_ ~RT
+TDD7678389 > /man -raw 3 _A_E_ ~RT
+TDD-4310075 try? 8
+TDD-10511993 questioning: ["LATER", "#3"]
+TDD5100403 #3 _A_E_ ~RT -DEFGLMNOSUV  📋 "LATER" ? _A_ER ~ T
+TDD-5100591 attempt 2 LATER n Y m Y Y
+TDD368344 ? 
+TDD-368255 question done
+TDD566428 > *
+TDD6588871 > /man -raw 3 _A_ER ~T
+TDD-2875240 try? 3
+TDD-4279985 questioning: ["TAMER", "#3"]
+TDD3628053 #3 _A_ER ~T -DFGLMNOSUV  📋 "TAMER" ? TA_ER
+TDD-3628175 attempt 2 TAMER Y Y n Y Y
+TDD1521492 ? 
+TDD-1521517 question done
+TDD1830211 > *
+TDD3199871 > /man -raw 3 TA_ER
+TDD1574711 try? 2
+TDD-6604450 questioning: ["TAKER", "#3"]
+TDD2438573 #3 TA_ER -DFGLMNOSUV  📋 "TAKER" ? /it
+TDD-2438290 attempt 2 TAKER Y Y Y Y Y
+TDD971739 ? 
+TDD-972380 question done
+TDD4462657 📋> squareword.org 1401: 9 guesses
+TDD-4462733 📋> 
+TDD-134 📋> 🟩🟩🟩🟩🟩
+TDD-18 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟩🟨🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟨🟨🟨🟩
+TDD-1 📋> 
+TDD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD244407 📋> #squareword #squareword1401
+TDD8072 📋> ␚
+TDD-252370 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1401: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1401"}
+TDD915 result: "squareword.org 1401: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1401"
+TDD313485 📆 2025-12-02 ? 
