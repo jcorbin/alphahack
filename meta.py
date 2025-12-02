@@ -24,8 +24,12 @@ from strkit import PeekIter, spliterate
 from ui import PromptUI
 
 def read_tmuxenv():
-    with subprocess.Popen(('tmux', 'showenv'), stdout=subprocess.PIPE, text=True) as showenv:
-        assert showenv.stdout is not None
+    try:
+        showenv = subprocess.Popen(('tmux', 'showenv'), stdout=subprocess.PIPE, text=True)
+    except FileNotFoundError:
+        return False
+    assert showenv.stdout is not None
+    with showenv:
         for line in showenv.stdout:
             m = re.match(r'''(?x)
                 (?P<key> [A-Za-z][^=]* )
