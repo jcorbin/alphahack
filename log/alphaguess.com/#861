@@ -1,0 +1,48 @@
+T116.34389586601174 now: 2025-12-02T10:30:53EST
+TD205 site: alphaguess.com
+TDD70437 loaded 196541 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (62 words excluded) asof 64830b99e4a24ee0250308c59a4f15c1c5fd966a
+TDD3546848  ...
+TDD-1660714 [0 : 98225 : 196541] mach? b
+TDD-1956579 progress: -1 98225 mach
+TDD1382752 [0 : 47387 : 98225] dis? b
+TDD-1382768 progress: -1 47387 dis
+TDD1297866 [0 : 23688 : 47387] camp? a
+TDD-1297881 progress: 1 23688 camp
+TDD1467081 [23689 : 35531 : 47387] convention? b
+TDD-1467176 progress: -1 35531 convention
+TDD1303038 [23689 : 29609 : 35531] circuit? a
+TDD-1302906 progress: 1 29609 circuit
+TDD1483444 [29610 : 32558 : 35531] color? b
+TDD-1483455 progress: -1 32558 color
+TDD2833159 [29610 : 31084 : 32558] coagencies? a
+TDD-2833176 progress: 1 31084 coagencies
+TDD1533811 [31085 : 31817 : 32558] coexist? b
+TDD-1533852 progress: -1 31817 coexist
+TDD1461292 [31085 : 31382 : 31817] cock? b
+TDD-1461184 progress: -1 31382 cock
+TDD1452050 [31085 : 31220 : 31382] coat? b
+TDD-1452035 progress: -1 31220 coat
+TDD1228914 [31085 : 31107 : 31220] coal? a
+TDD-1228970 progress: 1 31107 coal
+TDD1284371 [31108 : 31162 : 31220] coannex? a
+TDD-1284328 progress: 1 31162 coannex
+TDD1412861 [31163 : 31190 : 31220] coassist? a
+TDD-1412890 progress: 1 31190 coassist
+TDD2073475 [31191 : 31198 : 31220] coast? it
+TDD-2073570 progress: 0 31198 coast
+TDD-97 [31191 : 31198 : 31220] <Done>.
+TDD2709155 📋> 🧩 Puzzle #861
+TDD-2709014 📋> 
+TDD-130 📋> 🤔 14 guesses
+TDD-7 📋> 
+TDD1 📋> ⏱️ 20s
+TDD-2 📋> 
+TDD256369 📋> 🔗 alphaguess.com
+TDD-71547 📋> ␚
+TDD-184643 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #861\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-65 result: "\ud83e\udde9 Puzzle #861\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"
+TDD-113 result puzzle: 861
+TDD-11 result guesses: 14
+TDD-2 result time: 20s
+TDD0 result link: alphaguess.com
+TDD238088 📆 2025-12-02 ? 
