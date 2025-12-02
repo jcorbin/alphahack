@@ -1,0 +1,74 @@
+T0.00020346901146695018 now: 2025-09-10T14:54:43EDT
+TD38 site: alfagok.diginaut.net
+TDD130846 loaded 399748 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1104 words excluded) asof da1216e5a5a0652b356db53d2e4158cf2f7d0f74
+TDD40672405  ...co
+TDD-39219269  ...co
+TDD-869739  ...copy
+TDD20279044  ...copy
+TDD80806762  ...copy
+T0.4676480109919794 now: 2025-09-10T14:57:38EDT
+T0.45671425099135377 now: 2025-09-10T14:57:55EDT
+T0.4504964590014424 now: 2025-09-10T15:01:14EDT
+TD5766786  ...md
+TDD21247940  ...xop
+TDD-25946699  ...cop
+T0.45513027600827627 now: 2025-09-10T15:04:50EDT
+TD131781646  ...cop
+T0.4490930720057804 now: 2025-09-10T15:15:40EDT
+TD3984696  ...ocp
+TDD-1836935  ...cop
+TDD7103116  ...cop
+T53.48774194200814 now: 2025-12-02T10:29:50EST
+TD3119855  ...
+TDD594299 [0 : 199855 : 399748] lijm? 
+TDD-1021495 [0 : 199855 : 399748] lijm? b
+TDD-2692052 progress: -1 199855 lijm
+TDD2782162 [0 : 99761 : 199855] ex? a
+TDD-2782460 progress: 1 99761 ex
+TDD1850283 [99762 : 149465 : 199855] huis? a
+TDD-1850300 progress: 1 149465 huis
+TDD1510558 [149466 : 174575 : 199855] kind? a
+TDD-1510655 progress: 1 174575 kind
+TDD2339156 [174576 : 186920 : 199855] kro? !
+TDD562022 [174576 : 187214 : 199854] kroon? a
+TDD-2901089 progress: 1 187214 kroon
+TDD1825829 [187215 : 193512 : 199854] lavendel? a
+TDD-1825908 progress: 1 193512 lavendel
+TDD2129016 [193513 : 196535 : 199854] les? b
+TDD-2129053 progress: -1 196535 les
+TDD2193455 [193513 : 194937 : 196535] lees? a
+TDD-2193418 progress: 1 194937 lees
+TDD1965247 [194938 : 195654 : 196535] leid? a
+TDD-1965230 progress: 1 195654 leid
+TDD2023860 [195655 : 196089 : 196535] lengte? b
+TDD-2023769 progress: -1 196089 lengte
+TDD1691924 [195655 : 195824 : 196089] lek? b
+TDD-1691733 progress: -1 195824 lek
+TDD2051949 [195655 : 195739 : 195824] leidsche? !
+TDD-110545 [195655 : 195739 : 195823] leidschendam? !
+TDD-434429 [195655 : 195739 : 195822] leidschendam-voorburg? !
+TDD171614 [195655 : 195739 : 195821] leidschendammer? !
+TDD-169604 [195655 : 195739 : 195820] leidschendams? !
+TDD65176 [195655 : 195739 : 195819] leidschendamse? !
+TDD19379 [195655 : 195739 : 195818] leidsebrug? !
+TDD1119408 [195655 : 195739 : 195817] leidsel? b
+TDD-2713264 progress: -1 195739 leidsel
+TDD3114802 [195655 : 195672 : 195739] leiders? b
+TDD-3114766 progress: -1 195672 leiders
+TDD1893549 [195655 : 195663 : 195672] leiden? a
+TDD-1893666 progress: 1 195663 leiden
+TDD1931322 [195664 : 195667 : 195672] leider? it
+TDD-1931167 progress: 0 195667 leider
+TDD-205 [195664 : 195667 : 195672] <Done>.
+TDD2425771 📋> 🧩 Puzzel #395
+TDD-2425699 📋> 🤔 15 gokken
+TDD-105 📋> ⏱️ 48s
+TDD227768 📋> 🔗 alfagok.diginaut.net
+TDD-85902 📋> ␚
+TDD-141702 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #395\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 48s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD822 result: "\ud83e\udde9 Puzzel #395\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 48s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-969 result puzzle: 395
+TDD-20 result guesses: 15
+TDD-6 result time: 48s
+TDD0 result link: alfagok.diginaut.net
+TDD194310 📆 2025-12-02 ? 
