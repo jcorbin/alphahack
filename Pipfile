@@ -21,6 +21,7 @@ python_version = "3.13"
 
 [scripts]
 meta = "./meta.py"
+review = "./meta.py review"
 alpha = "./binartic.py --site alphaguess.com --words nwl2023.txt"
 alfa = "./binartic.py --site alfagok.diginaut.net --words opentaal-wordlist.txt"
 ce = "./semantic.py"
