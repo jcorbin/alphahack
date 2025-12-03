@@ -1,0 +1,49 @@
+T26.7558086870049 now: 2025-12-03T08:24:19EST
+TD126 site: alfagok.diginaut.net
+TDD142620 loaded 399740 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1112 words excluded) asof 8721413b6eae995efea5d099be88bef4e80cfb18
+TDD3819247  ...
+TDD2621840 [0 : 199847 : 399740] lijm? b
+TDD-6583515 progress: -1 199847 lijm
+TDD6358354 [0 : 99761 : 199847] ex? b
+TDD-6358482 progress: -1 99761 ex
+TDD1791404 [0 : 49851 : 99761] boks? 
+TDD1088888 [0 : 49851 : 99761] boks? a
+TDD-2880315 progress: 1 49851 boks
+TDD2063502 [49852 : 74764 : 99761] dc? a
+TDD-2063501 progress: 1 74764 dc
+TDD8359636 [74765 : 87226 : 99761] draag? b
+TDD-8359612 progress: -1 87226 draag
+TDD2431803 [74765 : 80899 : 87226] dijk? a
+TDD-2431831 progress: 1 80899 dijk
+TDD5432562 [80900 : 84006 : 87226] donor? b
+TDD-5432443 progress: -1 84006 donor
+TDD2374049 [80900 : 82416 : 84006] dj? b
+TDD-2374200 progress: -1 82416 dj
+TDD2185033 [80900 : 81634 : 82416] disc? !
+TDD302898 [80900 : 81629 : 82415] dis? b
+TDD-2487837 progress: -1 81629 dis
+TDD2048044 [80900 : 81250 : 81629] ding? a
+TDD-2047937 progress: 1 81250 ding
+TDD1685373 [81251 : 81371 : 81629] dip? a
+TDD-1685550 progress: 1 81371 dip
+TDD3121020 [81372 : 81496 : 81629] directie? b
+TDD-3121016 progress: -1 81496 directie
+TDD2080290 [81372 : 81431 : 81496] diplomeer? a
+TDD-2080200 progress: 1 81431 diplomeer
+TDD2407238 [81432 : 81461 : 81496] direct? a
+TDD-2407193 progress: 1 81461 direct
+TDD1710720 [81462 : 81467 : 81496] directeur? it
+TDD-1710691 progress: 0 81467 directeur
+TDD-283 [81462 : 81467 : 81496] <Done>.
+TDD2911955 📋> 🧩 Puzzel #396
+TDD-2911894 📋> 🤔 15 gokken
+TDD-95 📋> ⏱️ 50s
+TDD431140 📋> 🔗 alfagok.diginaut.net
+TDD-107450 📋> ␚
+TDD-323593 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #396\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 50s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD226 result: "\ud83e\udde9 Puzzel #396\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 50s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-321 result puzzle: 396
+TDD-5 result guesses: 15
+TDD-1 result time: 50s
+TDD0 result link: alfagok.diginaut.net
+TDD420771 📆 2025-12-03 ? 
