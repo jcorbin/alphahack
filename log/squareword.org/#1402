@@ -1,0 +1,108 @@
+T143.46859968399804 now: 2025-12-03T08:26:15EST
+TD83 site: squareword.org
+TDD-38 wordlist: nwl2023.txt
+TDD4294860  ...
+TDD-2358568 🧩  ? #1402
+TDD-1935995 puzzle_id: #1402
+TDD1976620 > *
+TDD-682689 try? 1
+TDD-1293908 questioning: ["tears", "#5"]
+TDD5632955 #1 _____  📋 "tears" ? _____ ~ ES
+TDD-5632375 attempt 0 TEARS n m n n m
+TDD2053862 #2 _____  📋 "tears" ? _____ ~ A
+TDD-2054321 attempt 1 TEARS n n m n n
+TDD3767161 #3 _____  📋 "tears" ? _____ ~ TEARS
+TDD-3767314 attempt 2 TEARS m m m m m
+TDD3528083 #4 _____  📋 "tears" ? _____ ~ TEAS
+TDD-3527954 attempt 3 TEARS m m m n m
+TDD1996885 #5 _____  📋 "tears" ? _____ ~ AR
+TDD-1997053 attempt 4 TEARS n n m m n
+TDD1048260 ? * 3
+TDD735080 #6 <IndexError>  📋 "tears" ? ␚
+TDD-1783503 question done
+TDD607894 > 
+TDD440469 > * 3
+TDD-900909 questioning: ["aster", "#3"]
+TDD7191806 #1 _____ ~ES -ART  📋 "aster" ? .
+TDD-7339072 attempt 0 ASTER n m n m n
+TDD815448 #2 _____ ~A -ERST  📋 "aster" ? .
+TDD-815523 attempt 1 ASTER m n n n n
+TDD943305 #3 _____ ~AERST  📋 "aster" ? /it
+TDD-943308 attempt 2 ASTER Y Y Y Y Y
+TDD1575812 #4 _____ ~AEST -R  📋 "aster" ? .
+TDD-1575725 attempt 3 ASTER m m m m n
+TDD545046 #5 _____ ~AR -EST  📋 "aster" ? .
+TDD-545059 attempt 4 ASTER m n n n m
+TDD517540 ? 
+TDD-517654 question done
+TDD712472 > * 4
+TDD3934949 try? 1
+TDD-4647345 questioning: ["haste", "#4"]
+TDD6872490 #1 _____ ~ES -ART  📋 "haste" ? ____E ~ S
+TDD-6872302 attempt 0 HASTE n n m n Y
+TDD2910195 #2 _____ ~A -ERST  📋 "haste" ? _A___ ~ A
+TDD-2910353 attempt 1 HASTE n Y n n n
+TDD1758857 #4 _____ ~AEST -R  📋 "haste" ? .
+TDD-1758846 attempt 3 HASTE n m m m m
+TDD4369123 #5 _____ ~AR -EST  📋 "haste" ? HA___ ~ R
+TDD-4368874 attempt 4 HASTE Y Y n n n
+TDD678543 ? 
+TDD-678730 question done
+TDD1766490 > * 4
+TDD953023 try? 1
+TDD-2719567 questioning: ["steal", "#4"]
+TDD5919261 #1 ____E ~S -AHRT  📋 "steal" ? S___E
+TDD-5919304 attempt 0 STEAL Y n n n n
+TDD4743422 #2 _A___ -EHRST  📋 "steal" ? _A___ ~ A
+TDD-4743409 attempt 1 STEAL n n n m n
+TDD784123 #4 _____ ~AEST -HR  📋 "steal" ? /it
+TDD-783809 attempt 3 STEAL Y Y Y Y Y
+TDD2670032 #5 HA___ ~R -EST  📋 "steal" ? .
+TDD-2670394 attempt 4 STEAL n n n n n
+TDD247552 ? 
+TDD-247633 question done
+TDD703244 > *
+TDD4273278 try? ␚
+TDD-4976576 <EOF>
+TDD783425 > * 1
+TDD6160922 try? ␚
+TDD-6944356 <EOF>
+TDD632025 > * 2
+TDD15695551 try? 3
+TDD-16327422 questioning: ["manna", "#2"]
+TDD4841163 #1 S___E -AEHLRT  📋 "manna" ? .
+TDD-4840872 attempt 0 MANNA n n n n n
+TDD661732 #2 _A___ -EHLRST  📋 "manna" ? /it
+TDD-661982 attempt 1 MANNA Y Y Y Y Y
+TDD2175591 #5 HA___ ~R -AELST  📋 "manna" ? .
+TDD-2175589 attempt 4 MANNA n Y n n n
+TDD175552 ? 
+TDD-175654 question done
+TDD639280 > *
+TDD-50672 questioning: ["spike", "#1"]
+TDD3741581 #1 S___E -AEHLMNRT  📋 "spike" ? /it
+TDD-4330161 attempt 0 SPIKE Y Y Y Y Y
+TDD2136240 #5 HA___ ~R -ELMNST  📋 "spike" ? .
+TDD-2136143 attempt 4 SPIKE n n n n n
+TDD183360 ? 
+TDD-183488 question done
+TDD351555 > *
+TDD355190 questioning: ["hardy", "#5"]
+TDD4193437 #5 HA___ ~R -EIKLMNPST  📋 "hardy" ? /it
+TDD-4900089 attempt 4 HARDY Y Y Y Y Y
+TDD5424104 ? 
+TDD-5424196 question done
+TDD1152004 📋> squareword.org 1402: 7 guesses
+TDD-1152089 📋> 
+TDD-98 📋> 🟩🟨🟨🟨🟩
+TDD-6 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD1 📋> 🟩🟩🟨🟨🟨
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD327571 📋> #squareword #squareword1402
+TDD-47447 📋> ␚
+TDD-279984 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1402: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1402"}
+TDD545 result: "squareword.org 1402: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1402"
+TDD310039 📆 2025-12-03 ? 
