@@ -1,0 +1,50 @@
+T92.63620953699865 now: 2025-12-03T08:25:24EST
+TD95 site: alphaguess.com
+TDD69185 loaded 196541 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (62 words excluded) asof 8721413b6eae995efea5d099be88bef4e80cfb18
+TDD6972442  ...
+TDD-1873709 [0 : 98225 : 196541] mach? b
+TDD-5167877 progress: -1 98225 mach
+TDD3183892 [0 : 47387 : 98225] dis? a
+TDD-3183896 progress: 1 47387 dis
+TDD1535348 [47388 : 72806 : 98225] gremmy? a
+TDD-1535334 progress: 1 72806 gremmy
+TDD1943735 [72807 : 85510 : 98225] ins? a
+TDD-1943746 progress: 1 85510 ins
+TDD1655809 [85511 : 91855 : 98225] knot? a
+TDD-1655769 progress: 1 91855 knot
+TDD1375714 [91856 : 94952 : 98225] lib? b
+TDD-1375730 progress: -1 94952 lib
+TDD3215618 [91856 : 93275 : 94952] lar? a
+TDD-3215590 progress: 1 93275 lar
+TDD1327691 [93276 : 93903 : 94952] lea? a
+TDD-1327750 progress: 1 93903 lea
+TDD1639893 [93904 : 94416 : 94952] leis? b
+TDD-1639859 progress: -1 94416 leis
+TDD2039815 [93904 : 94157 : 94416] lecithin? a
+TDD-2039815 progress: 1 94157 lecithin
+TDD1327668 [94158 : 94245 : 94416] leg? a
+TDD-1327671 progress: 1 94245 leg
+TDD1495787 [94246 : 94328 : 94416] legion? b
+TDD-1495781 progress: -1 94328 legion
+TDD1415725 [94246 : 94286 : 94328] legato? a
+TDD-1415737 progress: 1 94286 legato
+TDD1263553 [94287 : 94301 : 94328] leger? b
+TDD-1263531 progress: -1 94301 leger
+TDD1519147 [94287 : 94290 : 94301] legend? it
+TDD-1519153 progress: 0 94290 legend
+TDD-143 [94287 : 94290 : 94301] <Done>.
+TDD4168729 📋> 🧩 Puzzle #862
+TDD-4168661 📋> 
+TDD-85 📋> 🤔 15 guesses
+TDD-2 📋> 
+TDD0 📋> ⏱️ 25s
+TDD-1 📋> 
+TDD447431 📋> 🔗 alphaguess.com
+TDD-199578 📋> ␚
+TDD-247713 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #862\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 25s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-45 result: "\ud83e\udde9 Puzzle #862\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 25s\n\n\ud83d\udd17 alphaguess.com"
+TDD-83 result puzzle: 862
+TDD-8 result guesses: 15
+TDD-2 result time: 25s
+TDD0 result link: alphaguess.com
+TDD223689 📆 2025-12-03 ? 
