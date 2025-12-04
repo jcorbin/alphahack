@@ -810,38 +810,24 @@ class Meta(Arguable):
                 yield f''
                 yield f'Details and spoilers: {link}'
 
-        def share_header(ui: PromptUI):
-            with ui.copy_writer() as cw:
-                for line in head_note():
-                    print(line, file=cw)
-            ui.print(f'📋 Share Header')
+        def share_items(ui: PromptUI, *items: tuple[str, Iterable[str]]):
+            for i, (label, lines) in enumerate(items):
+                if i > 0:
+                    _ = ui.input('<Press Enter To Continue>')
+                ui.consume_lines(lines)
+                ui.print(f'📋 Share {label}')
 
-        def share_details(ui: PromptUI):
-            with ui.copy_writer() as cw:
-                for line in collect_deets():
-                    print(line, file=cw)
-            ui.print(f'📋 Share Details')
+        shareable: dict[str, Callable[[], Iterable[str]]] = {
+            'Header': lambda: head_note(),
+            'Details': lambda: collect_deets(),
+            'Summary': lambda: summary(),
+        }
 
-        def share_each_detail(ui: PromptUI):
-            for head, body in collect_deet_secs():
-                with ui.copy_writer() as cw:
-                    for line in deet_sec(head, body):
-                        print(line, file=cw)
-                _ = ui.input(f'📋 Share {head} ; <Enter> to continue')
-
-        def share_summary(ui: PromptUI):
-            with ui.copy_writer() as cw:
-                for line in summary():
-                    print(line, file=cw)
-            ui.print(f'📋 Share Summary')
-
-        def share_all(ui: PromptUI):
-            share_header(ui)
-            _ = ui.input('<Press Enter To Continue>')
-            share_details(ui)
-            _ = ui.input('<Press Enter To Continue>')
-            share_summary(ui)
-            _ = ui.input('<Press Enter To Continue>')
+        def share_things(ui: PromptUI, *names: str):
+            share_items(ui, *(
+                (name, shareable[name]() if name in shareable else ('No Content',))
+                for name in names
+            ))
 
         def print_notes(ui: PromptUI):
             any_out = False
@@ -852,13 +838,16 @@ class Meta(Arguable):
                 ui.print(f'')
 
         pr = ui.Prompt('share> ', {
-            'all': share_all,
-            'head': share_header,
+            'all': lambda ui: share_things(ui, 'Header', 'Details', 'Summary'),
+            'head': lambda ui: share_things(ui, 'Header'),
             'details': ui.Prompt('details> ', {
-                'each': share_each_detail,
-                'all': share_details,
+                'each': lambda ui: share_items(ui, *(
+                    (head, deet_sec(head, body))
+                    for head, body in collect_deet_secs()
+                )),
+                'all': lambda ui: share_things(ui, 'Details'),
             }),
-            'summary': share_summary,
+            'summary': lambda ui: share_things(ui, 'Summary'),
         })
         if ui.tokens:
             return pr.handle(ui)
