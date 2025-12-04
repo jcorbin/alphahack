@@ -1,0 +1,58 @@
+T533.584525822007 now: 2025-12-04T08:19:15EST
+TD63 site: dontwordle.com
+TDD-28 wordlist: nwl2023.txt
+TDD3543760  ...
+TDD-215234 1> * -bot 10
+TDD-729108 ? 3
+TDD11352513 📋 "snare" ? nnYMn
+TDD-13951775 tried: SNARE n n Y m n
+TDD687806 2> undo
+TDD-687810 undo
+TDD3807907 1> *
+TDD2303906 ? 2
+TDD847607 📋 "tweet" ? nnnnY
+TDD-6959363 tried: TWEET n n n n Y
+TDD744035 2> undo
+TDD-744096 undo
+TDD2135138 1> *
+TDD-87044 ? 2
+TDD1703950 📋 "mimic" ? nnnnn
+TDD-3752049 tried: MIMIC n n n n n
+TDD432870 2> *
+TDD3677408 ? 1
+TDD361571 📋 "sexes" ? nnnnn
+TDD-4471844 tried: SEXES n n n n n
+TDD527889 3> *
+TDD1215594 ? 1
+TDD2839910 📋 "hooky" ? nnnnn
+TDD-4583385 tried: HOOKY n n n n n
+TDD440024 4> *
+TDD903941 ? 1
+TDD7816200 📋 "fluff" ? nnnYn
+TDD-9160157 tried: FLUFF n n n Y n
+TDD743755 5> undo
+TDD-743777 undo
+TDD5687214 4> *
+TDD-1967206 ? 3
+TDD2375518 📋 "butut" ? nnnnY
+TDD-6095508 tried: BUTUT n n n n Y
+TDD567576 5> *
+TDD1521006 ? 1
+TDD2758665 📋 "adapt" ? nMYnY
+TDD-4847210 tried: ADAPT n m Y n Y
+TDD655546 6> *
+TDD5055709 📋 "draft" ? it
+TDD-5711294 tried: DRAFT Y Y Y Y Y
+TDD2800878 📋> Don't Wordle 1290 - WORDLED
+TDD-2800979 📋> I must admit that I Wordled!
+TDD-86 📋> ⬜⬜⬜⬜⬜6772
+TDD-5 📋> ⬜⬜⬜⬜⬜1480
+TDD-2 📋> ⬜⬜⬜⬜⬜303
+TDD0 📋> ⬜⬜⬜⬜🟩13
+TDD-1 📋> ⬜🟨🟩⬜🟩2
+TDD0 📋> 🟩🟩🟩🟩🟩0
+TDD415140 📋> Undos used: 3
+TDD-238590 📋> ␚
+TDD-176419 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1290 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6772\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1480\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c303\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe913\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe92\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 3"}
+TDD923 result: "Don't Wordle 1290 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6772\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1480\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c303\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe913\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe92\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 3"
+TDD357746 📆 2025-12-04 ? 
