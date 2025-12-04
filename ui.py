@@ -1630,7 +1630,7 @@ class PromptUI:
     def copy_writer(self):
         buf = StringIO()
         yield buf
-        self.clip.copy(buf.getvalue())
+        self.copy(buf.getvalue())
 
     def consume_copy(self, final_newline: bool = True, nl: str = '\n') -> Generator[None, str, None]:
         lines: list[str] = []
