@@ -1,0 +1,49 @@
+T28.03847073399811 now: 2025-12-04T08:10:50EST
+TD55 site: alfagok.diginaut.net
+TDD147801 loaded 399739 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1113 words excluded) asof 8451e6a806be3ef1a5685b9467635a8abb99e4cc
+TDD7831628  ...
+TDD-4083963 [0 : 199846 : 399739] lijm? a
+TDD-3895241 progress: 1 199846 lijm
+TDD1897211 [199847 : 299783 : 399739] schub? a
+TDD-1897337 progress: 1 299783 schub
+TDD1734904 [299784 : 349569 : 399739] vakantie? b
+TDD-1734899 progress: -1 349569 vakantie
+TDD1583360 [299784 : 324360 : 349569] sub? a
+TDD-1583365 progress: 1 324360 sub
+TDD1535750 [324361 : 336962 : 349569] toetsing? a
+TDD-1535750 progress: 1 336962 toetsing
+TDD1615934 [336963 : 343152 : 349569] tv? b
+TDD-1615932 progress: -1 343152 tv
+TDD1576581 [336963 : 339953 : 343152] transport? b
+TDD-1576456 progress: -1 339953 transport
+TDD1479441 [336963 : 338452 : 339953] topt? a
+TDD-1479449 progress: 1 338452 topt
+TDD1486718 [338453 : 339183 : 339953] trac? a
+TDD-1486869 progress: 1 339183 trac
+TDD1606814 [339184 : 339522 : 339953] tram? b
+TDD-1606730 progress: -1 339522 tram
+TDD1616247 [339184 : 339336 : 339522] training? b
+TDD-1616322 progress: -1 339336 training
+TDD1624828 [339184 : 339250 : 339336] trad? a
+TDD-1624680 progress: 1 339250 trad
+TDD1582263 [339251 : 339291 : 339336] tragisch? b
+TDD-1582359 progress: -1 339291 tragisch
+TDD2015932 [339251 : 339271 : 339291] trafiek? b
+TDD-2015975 progress: -1 339271 trafiek
+TDD1712371 [339251 : 339259 : 339271] traditional? b
+TDD-1712343 progress: -1 339259 traditional
+TDD1743170 [339251 : 339252 : 339259] traditie? it
+TDD-1743185 progress: 0 339252 traditie
+TDD-126 [339251 : 339252 : 339259] <Done>.
+TDD3008214 📋> 🧩 Puzzel #397
+TDD-3008127 📋> 🤔 16 gokken
+TDD-97 📋> ⏱️ 26s
+TDD440016 📋> 🔗 alfagok.diginaut.net
+TDD-255906 📋> ␚
+TDD-183908 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #397\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 26s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD12306 result: "\ud83e\udde9 Puzzel #397\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 26s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-12486 result puzzle: 397
+TDD-36 result guesses: 16
+TDD-1 result time: 26s
+TDD0 result link: alfagok.diginaut.net
+TDD393860 📆 2025-12-04 ? 
