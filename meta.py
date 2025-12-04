@@ -797,7 +797,13 @@ class Meta(Arguable):
             for note in collect_notes():
                 yield f'- {note}'
 
-        def summary(link: str=''):
+        # TODO { reuse link from / save summary to } report file
+        link: str = ''
+
+        def summary():
+            nonlocal link
+            if not link:
+                link = ui.may_paste(subject='Share Details Link')
             for note in sum_notes(collect_notes()):
                 yield f'- {note}'
             if link:
@@ -824,10 +830,8 @@ class Meta(Arguable):
                 _ = ui.input(f'📋 Share {head} ; <Enter> to continue')
 
         def share_summary(ui: PromptUI):
-            link = ui.may_paste(subject='Share Details Link')
-            # TODO { reuse link from / save summary to } report file
             with ui.copy_writer() as cw:
-                for line in summary(link):
+                for line in summary():
                     print(line, file=cw)
             ui.print(f'📋 Share Summary')
 
