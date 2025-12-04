@@ -1,0 +1,48 @@
+T83.767226106007 now: 2025-12-04T08:11:46EST
+TD85 site: alphaguess.com
+TDD65489 loaded 196541 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (62 words excluded) asof 8451e6a806be3ef1a5685b9467635a8abb99e4cc
+TDD4987361  ...
+TDD-2469087 [0 : 98225 : 196541] mach? a
+TDD-2583729 progress: 1 98225 mach
+TDD1423607 [98226 : 147330 : 196541] rho? a
+TDD-1423600 progress: 1 147330 rho
+TDD1335858 [147331 : 171930 : 196541] tag? a
+TDD-1335843 progress: 1 171930 tag
+TDD1639449 [171931 : 182017 : 196541] un? b
+TDD-1639473 progress: -1 182017 un
+TDD1319859 [171931 : 176967 : 182017] tom? a
+TDD-1319827 progress: 1 176967 tom
+TDD1375739 [176968 : 179491 : 182017] trifurcate? b
+TDD-1375745 progress: -1 179491 trifurcate
+TDD1319768 [176968 : 178213 : 179491] tram? b
+TDD-1319771 progress: -1 178213 tram
+TDD1255859 [176968 : 177587 : 178213] tot? b
+TDD-1255860 progress: -1 177587 tot
+TDD1239726 [176968 : 177234 : 177587] top? b
+TDD-1239695 progress: -1 177234 top
+TDD1215719 [176968 : 177049 : 177234] ton? b
+TDD-1215770 progress: -1 177049 ton
+TDD1151767 [176968 : 177007 : 177049] tomcat? b
+TDD-1151771 progress: -1 177007 tomcat
+TDD1303650 [176968 : 176982 : 177007] tomb? b
+TDD-1303616 progress: -1 176982 tomb
+TDD1663615 [176968 : 176976 : 176982] tomatillo? a
+TDD-1663643 progress: 1 176976 tomatillo
+TDD1688150 [176977 : 176979 : 176982] tomato? it
+TDD-1688110 progress: 0 176979 tomato
+TDD-132 [176977 : 176979 : 176982] <Done>.
+TDD3079714 📋> 🧩 Puzzle #863
+TDD-3079662 📋> 
+TDD-69 📋> 🤔 14 guesses
+TDD-2 📋> 
+TDD0 📋> ⏱️ 18s
+TDD-1 📋> 
+TDD415827 📋> 🔗 alphaguess.com
+TDD-224110 📋> ␚
+TDD-191622 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #863\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 18s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-26 result: "\ud83e\udde9 Puzzle #863\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 18s\n\n\ud83d\udd17 alphaguess.com"
+TDD-64 result puzzle: 863
+TDD-4 result guesses: 14
+TDD0 result time: 18s
+TDD0 result link: alphaguess.com
+TDD279915 📆 2025-12-04 ? 
