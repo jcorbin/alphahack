@@ -3,6 +3,7 @@
 import argparse
 import datetime
 import os
+import pytest
 import re
 import shlex
 import sys
@@ -10,7 +11,7 @@ import subprocess
 from collections import Counter, defaultdict
 from contextlib import contextmanager
 from itertools import chain
-from collections.abc import Generator, Iterable, Sequence
+from collections.abc import Generator, Iterable, Mapping, Sequence
 from datetime import date
 from dotenv import load_dotenv
 from emoji import emoji_count, is_emoji
@@ -61,6 +62,44 @@ def load_env(override: bool = False):
 
 for name, now, _old in load_env(override=True):
     print(f'set ${name} = {now!r}')
+
+def glob_pattern_parts(pat: str):
+    i = 0
+    for m in re.finditer(r'(?x) (\*) | (\?)', pat):
+        j = m.start()
+        if j > i:
+            yield pat[i:j]
+        yield '.*' if m[1] else '.'
+        i = m.end()
+    if i < len(pat):
+        yield pat[i:]
+
+@pytest.mark.parametrize('pat,expect', [
+    ('*FOO', ['.*', 'FOO']),
+    ('FOO*', ['FOO', '.*']),
+    ('FOO*BAR', ['FOO', '.*', 'BAR']),
+    ('?FOO*BAR?', ['.', 'FOO', '.*', 'BAR', '.']),
+])
+def test_glob_pattern_parts(pat: str, expect: list[str]):
+    assert list(glob_pattern_parts(pat)) == expect
+
+def compile_glob_pattern(pat: str):
+    pat_str = ''.join(glob_pattern_parts(pat))
+    try:
+        return re.compile(pat_str)
+    except re.PatternError:
+        print(f'!!! bad pat {pat_str!r}')
+        print(f'!!! bad parts {list(glob_pattern_parts(pat))!r}')
+        raise
+
+def glob_map[T](name: str, map: Mapping[str, T]):
+    if re.search(r'[*?]', name):
+        pat = compile_glob_pattern(name)
+        for key, val in map.items():
+            if pat.match(key):
+                yield key, val
+    else:
+        yield name, map.get(name, '')
 
 # TODO move into ui/mkit/strkit modules
 def is_mark(s: str):
@@ -589,9 +628,11 @@ class Meta(Arguable):
                env $NAME = <VALUE>
                env load
         '''
+        env = os.environ
+
         if not ui.tokens:
             with LineWriter(ui) as lw:
-                for name, value in os.environ.items():
+                for name, value in env.items():
                     rval = repr(value) # TODO this only needs to quote control chars for ansi sequences
                     lw.write(f'${name} = ')
                     lw.write(lw.truncate(rval))
@@ -607,19 +648,20 @@ class Meta(Arguable):
                 ui.print(f'no env change')
             return
 
-        name = ui.tokens.have(r'\$(.+)', then=lambda m: m[1])
+        name = ui.tokens.have(r'(?x) \$(.+) | ([^$].*)', then=lambda m: m[1] or m[2])
         if name is not None:
-            if ui.tokens.have(r'='):
-                value = ui.tokens.rest
-                if value:
-                    os.environ[name] = value
-                    ui.print(f'set ${name} = {value!r}')
-                else:
-                    del os.environ[name]
-                    ui.print(f'unset ${name}')
+            if not ui.tokens.have(r'='):
+                for key, value in glob_map(name, env):
+                    ui.print(f'${key} = {value!r}')
                 return
-            value = os.environ.get(name, '')
-            ui.print(f'${name} = {value!r}')
+
+            value = ui.tokens.rest
+            if value:
+                env[name] = value
+                ui.print(f'set ${name} = {value!r}')
+            else:
+                del env[name]
+                ui.print(f'unset ${name}')
             return
 
     def do_system(self, ui: PromptUI, cmd: Sequence[str]=()):
