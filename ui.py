@@ -1639,6 +1639,11 @@ class PromptUI:
             except GeneratorExit:
                 pass
 
+    def consume_lines(self, lines: Iterable[str], end: str='\n'):
+        with self.copy_writer() as w:
+            for line in lines:
+                print(line, end=end, file=w)
+
     def paste(self) -> str:
         return self.clip.paste()
 
