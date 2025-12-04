@@ -1632,14 +1632,12 @@ class PromptUI:
         yield buf
         self.copy(buf.getvalue())
 
-    def consume_copy(self, final_newline: bool = True, nl: str = '\n') -> Generator[None, str, None]:
-        lines: list[str] = []
-        try:
-            while True: lines.append(( yield ))
-        except GeneratorExit:
-            s = nl.join(lines)
-            if final_newline: s += nl
-            self.copy(s)
+    def line_consumer(self, end: str='\n') -> Generator[None, str, None]:
+        with self.copy_writer() as w:
+            try:
+                print((( yield )), end=end, file=w)
+            except GeneratorExit:
+                pass
 
     def paste(self) -> str:
         return self.clip.paste()

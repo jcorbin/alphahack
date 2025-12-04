@@ -1714,7 +1714,7 @@ class Search(StoredLog):
                 self.meta(),
                 fenceit(self.describe_result(ui)),
                 self.info()),
-            lambda i, _: ('```📋', '```', ui.consume_copy()) if i == 0 else None
+            lambda i, _: ('```📋', '```', ui.line_consumer()) if i == 0 else None
         ): ui.print(line)
 
     @property
