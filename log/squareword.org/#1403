@@ -1,0 +1,102 @@
+T130.2231418099982 now: 2025-12-04T08:12:32EST
+TD61 site: squareword.org
+TDD-22 wordlist: nwl2023.txt
+TDD4598568  ...
+TDD-1853731 🧩  ? #1403
+TDD-2744579 puzzle_id: #1403
+TDD4639836 > *
+TDD1839384 try? 6
+TDD-6479243 questioning: ["wears", "#5"]
+TDD5567223 #1 _____  📋 "wears" ? __A_S ~ R
+TDD-5566816 attempt 0 WEARS n n Y m Y
+TDD2327954 #2 _____  📋 "wears" ? _____ ~ EA
+TDD-2328203 attempt 1 WEARS n m m n n
+TDD3206310 #3 _____  📋 "wears" ? ___R_ ~ EA
+TDD-3206444 attempt 2 WEARS n m m Y n
+TDD2023136 #4 _____  📋 "wears" ? _____ ~ ES
+TDD-2023226 attempt 3 WEARS n m n n m
+TDD2502779 #5 _____  📋 "wears" ? _____ ~ ER
+TDD-2502786 attempt 4 WEARS n m n m n
+TDD399701 ? 
+TDD-399696 question done
+TDD584532 > *
+TDD1527212 try? 1
+TDD-2111629 questioning: ["opera", "#3"]
+TDD8814803 #1 __A_S ~R -EW  📋 "opera" ? __A_S ~ RP
+TDD-8814898 attempt 0 OPERA n m n m n
+TDD1559692 #2 _____ ~AE -RSW  📋 "opera" ? .
+TDD-1559636 attempt 1 OPERA n n m n m
+TDD4840651 #3 ___R_ ~AE -SW  📋 "opera" ? ___R_ ~ EAO
+TDD-4840439 attempt 2 OPERA m n m Y m
+TDD2814523 #4 _____ ~ES -ARW  📋 "opera" ? _____ ~ ESOP
+TDD-2814690 attempt 3 OPERA m m m n n
+TDD4215053 #5 _____ ~ER -ASW  📋 "opera" ? .
+TDD-4215103 attempt 4 OPERA n n m m n
+TDD806611 ? 
+TDD-806741 question done
+TDD3671727 > *
+TDD-1238954 try? 2
+TDD-2432600 questioning: ["adore", "#3"]
+TDD12072112 #1 __A_S ~PR -AEOW  📋 "adore" ? .
+TDD-12072121 attempt 0 ADORE n n n m n
+TDD2622632 #2 _____ ~AE -OPRSW  📋 "adore" ? _____ ~ EAD
+TDD-2622716 attempt 1 ADORE m m n n m
+TDD743546 #3 ___R_ ~AEO -PSW  📋 "adore" ? /it
+TDD-743454 attempt 2 ADORE Y Y Y Y Y
+TDD2807290 #4 _____ ~EOPS -ARW  📋 "adore" ? ____E ~ SOP
+TDD-2807383 attempt 3 ADORE n n m n Y
+TDD775607 #5 _____ ~ER -AOPSW  📋 "adore" ? .
+TDD-775605 attempt 4 ADORE n n n m m
+TDD151032 ? 
+TDD-151082 question done
+TDD856211 > *
+TDD5615119 try? 1
+TDD-6471198 questioning: ["laden", "#2"]
+TDD3911684 #1 __A_S ~PR -ADEOW  📋 "laden" ? .
+TDD-3911667 attempt 0 LADEN n n n n n
+TDD647629 #2 _____ ~ADE -OPRSW  📋 "laden" ? /it
+TDD-647634 attempt 1 LADEN Y Y Y Y Y
+TDD1726731 #4 ____E ~OPS -ADRW  📋 "laden" ? .
+TDD-1726847 attempt 3 LADEN n n n n n
+TDD6911905 #5 _____ ~ER -ADOPSW  📋 "laden" ? ___E_ ~ ERN
+TDD-6911801 attempt 4 LADEN n n n Y m
+TDD336600 ? 
+TDD-336694 question done
+TDD615566 > *
+TDD829521 questioning: ["copse", "#4"]
+TDD3308044 #1 __A_S ~PR -ADELNOW  📋 "copse" ? .
+TDD-4753035 attempt 0 COPSE n n m n n
+TDD807779 #4 ____E ~OPS -ADELNRW  📋 "copse" ? /it
+TDD-807796 attempt 3 COPSE Y Y Y Y Y
+TDD4665219 #5 ___E_ ~NR -ADLOPSW  📋 "copse" ? ___E_ ~ ERN
+TDD-4664994 attempt 4 COPSE n n n n m
+TDD293286 ? 
+TDD-293620 question done
+TDD504544 > *
+TDD620480 questioning: ["enter", "#5"]
+TDD7724488 #1 __A_S ~PR -ACDELNOSW  📋 "enter" ? __A_S ~ RPT
+TDD-8849426 attempt 0 ENTER n n m n m
+TDD920994 #5 ___E_ ~NR -ACDLOPSW  📋 "enter" ? /it
+TDD-920803 attempt 4 ENTER Y Y Y Y Y
+TDD182124 ? 
+TDD-182296 question done
+TDD414732 > *
+TDD498864 questioning: ["prats", "#1"]
+TDD3683254 #1 __A_S ~PRT -ACDELNOSW  📋 "prats" ? /it
+TDD-4596935 attempt 0 PRATS Y Y Y Y Y
+TDD1455787 ? 
+TDD-1455865 question done
+TDD4888965 📋> squareword.org 1403: 7 guesses
+TDD-4888963 📋> 
+TDD-117 📋> 🟨🟨🟩🟨🟩
+TDD-8 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟩🟨
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD463766 📋> #squareword #squareword1403
+TDD-295914 📋> ␚
+TDD-167724 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1403: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1403"}
+TDD669 result: "squareword.org 1403: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1403"
+TDD150145 📆 2025-12-04 ? 
