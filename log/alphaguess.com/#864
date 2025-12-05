@@ -1,0 +1,50 @@
+T86.97782131898566 now: 2025-12-05T08:09:29EST
+TD107 site: alphaguess.com
+TDD64776 loaded 196541 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (62 words excluded) asof b52f5ddc3ffb31f25c70d301f4caf687e96bb9b6
+TDD4117372  ...
+TDD-1554345 [0 : 98225 : 196541] mach? a
+TDD-2627755 progress: 1 98225 mach
+TDD1521971 [98226 : 147330 : 196541] rho? a
+TDD-1521962 progress: 1 147330 rho
+TDD1992582 [147331 : 171930 : 196541] tag? b
+TDD-1992582 progress: -1 171930 tag
+TDD1378475 [147331 : 159612 : 171930] slug? a
+TDD-1378479 progress: 1 159612 slug
+TDD1301760 [159613 : 165766 : 171930] stint? a
+TDD-1301757 progress: 1 165766 stint
+TDD1302713 [165767 : 168816 : 171930] sulfur? a
+TDD-1302707 progress: 1 168816 sulfur
+TDD1395210 [168817 : 170370 : 171930] sustain? b
+TDD-1395099 progress: -1 170370 sustain
+TDD1285937 [168817 : 169242 : 170370] super? b
+TDD-1286062 progress: -1 169242 super
+TDD1186531 [168817 : 169012 : 169242] summer? a
+TDD-1186532 progress: 1 169012 summer
+TDD1161308 [169013 : 169080 : 169242] sun? a
+TDD-1161304 progress: 1 169080 sun
+TDD1186788 [169081 : 169158 : 169242] sunk? a
+TDD-1186800 progress: 1 169158 sunk
+TDD1255693 [169159 : 169200 : 169242] suns? b
+TDD-1255692 progress: -1 169200 suns
+TDD1140843 [169159 : 169175 : 169200] sunn? a
+TDD-1140836 progress: 1 169175 sunn
+TDD1756670 [169176 : 169188 : 169200] sunny? a
+TDD-1756674 progress: 1 169188 sunny
+TDD1473684 [169189 : 169194 : 169200] sunrise? it
+TDD-1473685 progress: 0 169194 sunrise
+TDD-125 [169189 : 169194 : 169200] <Done>.
+TDD2205280 📋> 🧩 Puzzle #864
+TDD-2205114 📋> 
+TDD-172 📋> 🤔 15 guesses
+TDD-8 📋> 
+TDD2 📋> ⏱️ 19s
+TDD-2 📋> 
+TDD251812 📋> 🔗 alphaguess.com
+TDD-64454 📋> ␚
+TDD-187140 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #864\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-90 result: "\ud83e\udde9 Puzzle #864\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"
+TDD-124 result puzzle: 864
+TDD-9 result guesses: 15
+TDD-1 result time: 19s
+TDD0 result link: alphaguess.com
+TDD233789 📆 2025-12-05 ? 
