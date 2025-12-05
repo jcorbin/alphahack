@@ -1,0 +1,51 @@
+T38.97175310298917 now: 2025-12-05T08:08:41EST
+TD80 site: alfagok.diginaut.net
+TDD143324 loaded 399739 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1113 words excluded) asof b52f5ddc3ffb31f25c70d301f4caf687e96bb9b6
+TDD4308645  ...
+TDD1230133 [0 : 199846 : 399739] lijm? a
+TDD-5681902 progress: 1 199846 lijm
+TDD2068609 [199847 : 299783 : 399739] schub? a
+TDD-2068701 progress: 1 299783 schub
+TDD1551906 [299784 : 349569 : 399739] vakantie? a
+TDD-1551824 progress: 1 349569 vakantie
+TDD1540315 [349570 : 374313 : 399739] vrij? a
+TDD-1540435 progress: 1 374313 vrij
+TDD1732463 [374314 : 386854 : 399739] wind? b
+TDD-1732435 progress: -1 386854 wind
+TDD2466831 [374314 : 380525 : 386854] weer? b
+TDD-2466842 progress: -1 380525 weer
+TDD1614708 [374314 : 377376 : 380525] wandel? b
+TDD-1614723 progress: -1 377376 wandel
+TDD1546640 [374314 : 375758 : 377376] vuur? a
+TDD-1546604 progress: 1 375758 vuur
+TDD1875534 [375759 : 376554 : 377376] waarneming? b
+TDD-1875527 progress: -1 376554 waarneming
+TDD1587122 [375759 : 376152 : 376554] waak? a
+TDD-1587154 progress: 1 376152 waak
+TDD1987636 [376153 : 376349 : 376554] waardering? b
+TDD-1987647 progress: -1 376349 waardering
+TDD1666021 [376153 : 376247 : 376349] waar? a
+TDD-1666010 progress: 1 376247 waar
+TDD2352145 [376248 : 376285 : 376349] waarde? b
+TDD-2352150 progress: -1 376285 waarde
+TDD1712829 [376248 : 376261 : 376285] waarborg? a
+TDD-1712832 progress: 1 376261 waarborg
+TDD1514852 [376262 : 376273 : 376285] waarborgmaatschappijen? a
+TDD-1514843 progress: 1 376273 waarborgmaatschappijen
+TDD1587499 [376274 : 376279 : 376285] waarborgstempels? a
+TDD-1587494 progress: 1 376279 waarborgstempels
+TDD1807966 [376280 : 376283 : 376285] waard? it
+TDD-1807980 progress: 0 376283 waard
+TDD-128 [376280 : 376283 : 376285] <Done>.
+TDD2664999 📋> 🧩 Puzzel #398
+TDD-2664782 📋> 🤔 17 gokken
+TDD-223 📋> ⏱️ 29s
+TDD380658 📋> 🔗 alfagok.diginaut.net
+TDD-160716 📋> ␚
+TDD-219792 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #398\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 29s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD347 result: "\ud83e\udde9 Puzzel #398\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 29s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-505 result puzzle: 398
+TDD-8 result guesses: 17
+TDD-2 result time: 29s
+TDD0 result link: alfagok.diginaut.net
+TDD494975 📆 2025-12-05 ? 
