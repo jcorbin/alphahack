@@ -1,0 +1,102 @@
+T117.60860696199234 now: 2025-12-05T08:10:00EST
+TD104 site: squareword.org
+TDD-46 wordlist: nwl2023.txt
+TDD2824367  ...
+TDD-952169 🧩  ? #1404
+TDD-1871933 puzzle_id: #1404
+TDD3016134 > *
+TDD-819451 try? 3
+TDD-2196658 questioning: ["laser", "#5"]
+TDD6432157 #1 _____  📋 "laser" ? _A___ ~ LAS
+TDD-6431870 attempt 0 LASER m Y m n n
+TDD3002469 #2 _____  📋 "laser" ? _____ ~ LR
+TDD-3002801 attempt 1 LASER m n n n m
+TDD2278648 #3 _____  📋 "laser" ? _____ ~ LAR
+TDD-2278660 attempt 2 LASER m m n n m
+TDD2385411 #4 _____  📋 "laser" ? _____ ~ AE
+TDD-2385217 attempt 3 LASER n m n m n
+TDD2295056 #5 _____  📋 "laser" ? _A___ ~ LS
+TDD-2295319 attempt 4 LASER m Y m n n
+TDD662902 ? 
+TDD-662919 question done
+TDD1034282 > *
+TDD568162 try? 1
+TDD-1602327 questioning: ["broil", "#2"]
+TDD9751207 #1 _A___ ~LS -ER  📋 "broil" ? _A___ ~ LAS
+TDD-9751195 attempt 0 BROIL n n n n m
+TDD2193570 #2 _____ ~LR -AES  📋 "broil" ? _RO_L ~ L
+TDD-2193589 attempt 1 BROIL n Y Y n Y
+TDD3569571 #3 _____ ~ALR -ES  📋 "broil" ? ____L ~ ARO
+TDD-3569591 attempt 2 BROIL n m m n Y
+TDD2643605 #4 _____ ~AE -LRS  📋 "broil" ? _____ ~ AEI
+TDD-2643612 attempt 3 BROIL n n n m n
+TDD2779450 #5 _A___ ~LS -ER  📋 "broil" ? _A___ ~ LS
+TDD-2779437 attempt 4 BROIL n n n n m
+TDD240883 ? 
+TDD-240796 question done
+TDD572886 > *
+TDD1720814 try? 3
+TDD-2293808 questioning: ["salsa", "#1"]
+TDD3532642 #1 _A___ ~LS -BEIOR  📋 "salsa" ? /it
+TDD-3532614 attempt 0 SALSA Y Y Y Y Y
+TDD6389812 #2 _RO_L -ABEIS  📋 "salsa" ? _RO_L ~ L
+TDD-6389905 attempt 1 SALSA n n m n n
+TDD1758538 #3 ____L ~AOR -BEIS  📋 "salsa" ? .
+TDD-1758476 attempt 2 SALSA n m n n m
+TDD1194551 #4 _____ ~AEI -BLORS  📋 "salsa" ? .
+TDD-1194527 attempt 3 SALSA n m n n m
+TDD1354664 #5 _A___ ~LS -BEIOR  📋 "salsa" ? _ALS_
+TDD-1354751 attempt 4 SALSA n Y Y Y n
+TDD214189 ? 
+TDD-214275 question done
+TDD567484 > *
+TDD40828 questioning: ["palsy", "#5"]
+TDD5796210 #2 _RO_L -ABEIS  📋 "palsy" ? _RO_L ~ L
+TDD-6404322 attempt 1 PALSY n n m n n
+TDD2547576 #3 ____L ~AOR -BEILS  📋 "palsy" ? ____L ~ AROY
+TDD-2547389 attempt 2 PALSY n m n n m
+TDD676679 #4 _____ ~AEI -BLORS  📋 "palsy" ? .
+TDD-676965 attempt 3 PALSY n m n n n
+TDD652663 #5 _ALS_ -BEIOR  📋 "palsy" ? /it
+TDD-652570 attempt 4 PALSY Y Y Y Y Y
+TDD163065 ? 
+TDD-163192 question done
+TDD389930 > *
+TDD97916 questioning: ["troll", "#2"]
+TDD2315256 #2 _RO_L -ABEIPSY  📋 "troll" ? /it
+TDD-2803075 attempt 1 TROLL Y Y Y Y Y
+TDD3390874 #3 ____L ~AORY -BEILPS  📋 "troll" ? .
+TDD-3390809 attempt 2 TROLL n m m n Y
+TDD434010 #4 _____ ~AEI -BLOPRSY  📋 "troll" ? .
+TDD-434016 attempt 3 TROLL n n n n n
+TDD162065 ? 
+TDD-162169 question done
+TDD456579 > *
+TDD33107 questioning: ["royal", "#3"]
+TDD2419418 #3 ____L ~AORY -BEIPST  📋 "royal" ? /it
+TDD-2908982 attempt 2 ROYAL Y Y Y Y Y
+TDD1662519 #4 _____ ~AEI -BLOPRSTY  📋 "royal" ? 
+TDD-344593 #4 _____ ~AEI -BLOPRSTY  ? .
+TDD-1317910 attempt 3 ROYAL n n n m n
+TDD405439 ? 
+TDD-405580 question done
+TDD564544 > *
+TDD264697 questioning: ["image", "#4"]
+TDD1935450 #4 _____ ~AEI -BLOPRSTY  📋 "image" ? /it
+TDD-2764507 attempt 3 IMAGE Y Y Y Y Y
+TDD955796 ? 
+TDD-955983 question done
+TDD5945924 📋> squareword.org 1404: 7 guesses
+TDD-5945980 📋> 
+TDD-92 📋> 🟩🟩🟩🟩🟩
+TDD-9 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟨🟨🟨🟩
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD14 📋> 
+TDD-12 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD256440 📋> #squareword #squareword1404
+TDD512892 📋> ␚
+TDD-769200 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1404: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1404"}
+TDD560 result: "squareword.org 1404: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1404"
+TDD314170 📆 2025-12-05 ? 
