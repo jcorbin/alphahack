@@ -1,0 +1,92 @@
+T228.43787189299474 now: 2025-12-05T08:11:50EST
+TD58 site: https://play.dictionary.com/games/todays-hurdle
+TDD-27 wordlist: nwl2023.txt
+TDD13302077  ...
+TDD9075403 1.1> *
+TDD-21000088 1.1 ? 1
+TDD2548913 1.1 📋 "lames" ? _M___
+TDD1391777 1.1 ? *
+TDD-1570942 1.1 ? ␚
+TDD-3747062 <EOF>
+TDD2963257 1.1> /?
+TDD-1977427 1.1> ?
+TDD5268048 1.1> tried lames nMnnn
+TDD-6253715 tried: LAMES n m n n n
+TDD1042380 1.2> *
+TDD496338 1.2 ? 1
+TDD2864547 1.2 📋 "andro" ? MnnMn
+TDD-4403276 tried: ANDRO m n n m n
+TDD448539 1.3> *
+TDD1837856 1.3 ? 4
+TDD1266571 1.3 📋 "wrath" ? it
+TDD-3553004 tried: WRATH Y Y Y Y Y
+TDD8622903 2.1 📋 "wrath" ? nnnnn
+TDD-8622892 tried: WRATH n n n n n
+TDD479606 2.2> *
+TDD1947447 2.2 ? 3
+TDD1774750 2.2 📋 "noisy" ? MnYnn
+TDD-4201837 tried: NOISY m n Y n n
+TDD485913 2.3> *
+TDD7470925 2.3 ? 2
+TDD-1494921 2.3 📋 "blind" ? nnYMn
+TDD-6461891 tried: BLIND n n Y m n
+TDD452609 2.4> *
+TDD2049336 2.4 ? 2
+TDD684604 2.4 📋 "knife" ? it
+TDD-3186558 tried: KNIFE Y Y Y Y Y
+TDD7792944 3.1 📋 "knife" ? nMnnM
+TDD-7792931 tried: KNIFE n m n n m
+TDD442642 3.2> *
+TDD957971 3.2 ? 1
+TDD4546463 3.2 📋 "steno" ? YnMMn
+TDD-5947113 tried: STENO Y n m m n
+TDD454104 3.3> *
+TDD1700885 3.3 ? 3
+TDD1425621 3.3 📋 "sedan" ? it
+TDD-3580647 tried: SEDAN Y Y Y Y Y
+TDD8182873 4.1 📋 "sedan" ? nnnnn
+TDD-8182770 tried: SEDAN n n n n n
+TDD519122 4.2> *
+TDD546014 4.2 ? 1
+TDD2762062 4.2 📋 "lyric" ? MnMYn
+TDD-3827216 tried: LYRIC m n m Y n
+TDD430062 4.3> *
+TDD3484829 4.3 📋 "broil" ? it
+TDD-3914944 tried: BROIL Y Y Y Y Y
+TDD8411119 5.1 📋 "wrath" ? nnMMn
+TDD-8411132 tried: WRATH n n m m n
+TDD1483245 5.2 📋 "knife" ? Mnnnn
+TDD-1483169 tried: KNIFE m n n n n
+TDD1453315 5.3 📋 "sedan" ? nnnMn
+TDD-1453397 tried: SEDAN n n n m n
+TDD1253324 5.4 📋 "broil" ? nnnnn
+TDD-1253266 tried: BROIL n n n n n
+TDD437414 5.5> *
+TDD3665949 5.5 📋 "tacky" ? it
+TDD-4103379 tried: TACKY Y Y Y Y Y
+TDD5766723 📋> Hurdle 1434
+TDD-5766694 📋> 
+TDD-228 📋> 3/6
+TDD2 📋> ⬜🟨⬜⬜⬜
+TDD-11 📋> 🟨⬜⬜🟨⬜
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD2 📋> 4/6
+TDD-1 📋> ⬜⬜⬜⬜⬜
+TDD-2 📋> 🟨⬜🟩⬜⬜
+TDD2 📋> ⬜⬜🟩🟨⬜
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD1 📋> 3/6
+TDD-1 📋> ⬜🟨⬜⬜🟨
+TDD2 📋> 🟩⬜🟨🟨⬜
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> 🟨⬜🟨🟩⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 1/2
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD223871 📋> score: 10,200
+TDD-44547 📋> ␚
+TDD-179181 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1434\n\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,200"}
+TDD441 result: "Hurdle 1434\n\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,200"
+TDD184867 📆 2025-12-05 ? 
