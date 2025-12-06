@@ -1,6 +1,6 @@
 # 2025-12-07
 
-- 🔗 spaceword.org 🧩 2025-12-06 🏗️ score 2160 current ranking 85/160 ⏱️ 0:05:25.620043
+- 🔗 spaceword.org 🧩 2025-12-06 🏗️ score 2168 current ranking 60/163 ⏱️ 0:12:54.097414
 
 # Dev
 
@@ -230,20 +230,21 @@
 
 
 
-# spaceword.org 🧩 2025-12-06 🏗️ score 2160 current ranking 85/160 ⏱️ 0:05:25.620043
+# spaceword.org 🧩 2025-12-06 🏗️ score 2168 current ranking 60/163 ⏱️ 0:12:54.097414
 
-📜 2 sessions
+📜 3 sessions
 - tiles: 21/21
-- score: 2160 bonus: +60
-- rank: 85/160
+- score: 2168 bonus: +68
+- rank: 60/163
 
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ A R G U E _ _   
-      _ _ _ H _ _ _ J _ _   
-      _ _ _ _ _ _ O I _ _   
-      _ _ _ _ _ W U D _ _   
-      _ _ _ _ _ _ T O _ _   
-      _ _ _ _ _ _ L _ _ _   
-      _ _ _ _ L E I _ _ _   
-      _ _ _ _ _ F E Z _ _   
+      _ _ _ _ H A J _ _ _   
+      _ _ _ W I Z _ _ _ _   
+      _ _ _ _ _ O D _ _ _   
+      _ _ _ _ U T E _ _ _   
+      _ _ _ _ _ E L _ _ _   
+      _ _ _ _ _ _ U _ _ _   
+      _ _ _ F L O G _ _ _   
+      _ _ _ _ I R E _ _ _   
       _ _ _ _ _ _ _ _ _ _   
+
