@@ -1,0 +1,42 @@
+T60.45515427500504 now: 2025-12-06T08:07:16EST
+TD238 site: alfagok.diginaut.net
+TDD136888 loaded 399739 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1113 words excluded) asof 3ceb7b6230da04839aa5dfc36b8c0dc2a6ed7465
+TDD4954812  ...
+TDD2845357 [0 : 199846 : 399739] lijm? b
+TDD-7936565 progress: -1 199846 lijm
+TDD1956999 [0 : 99760 : 199846] ex? a
+TDD-1957206 progress: 1 99760 ex
+TDD1968923 [99761 : 149464 : 199846] huis? b
+TDD-1969172 progress: -1 149464 huis
+TDD1706557 [99761 : 111415 : 149464] ge? a
+TDD-1706733 progress: 1 111415 ge
+TDD1562024 [111416 : 130440 : 149464] gracieus? a
+TDD-1561847 progress: 1 130440 gracieus
+TDD1526244 [130441 : 139799 : 149464] hei? a
+TDD-1526232 progress: 1 139799 hei
+TDD2269546 [139800 : 144570 : 149464] hoek? b
+TDD-2269634 progress: -1 144570 hoek
+TDD1579461 [139800 : 141156 : 144570] her? a
+TDD-1579450 progress: 1 141156 her
+TDD2047504 [141157 : 142784 : 144570] hert? b
+TDD-2047460 progress: -1 142784 hert
+TDD2107134 [141157 : 141952 : 142784] herk? !
+TDD595839 [141157 : 141970 : 142783] herkapitaliseerde? b
+TDD-2702906 progress: -1 141970 herkapitaliseerde
+TDD2135870 [141157 : 141499 : 141970] heren? a
+TDD-2136088 progress: 1 141499 heren
+TDD1993008 [141500 : 141635 : 141970] herfst? it
+TDD-1992798 progress: 0 141635 herfst
+TDD-237 [141500 : 141635 : 141970] <Done>.
+TDD6298107 📋> 🧩 Puzzel #399
+TDD-6297955 📋> 🤔 12 gokken
+TDD-147 📋> ⏱️ 24s
+TDD269076 📋> 🔗 alfagok.diginaut.net
+TDD-49136 📋> ␚
+TDD-219814 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #399\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD1178 result: "\ud83e\udde9 Puzzel #399\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-1263 result puzzle: 399
+TDD-102 result guesses: 12
+TDD-6 result time: 24s
+TDD0 result link: alfagok.diginaut.net
+TDD197313 📆 2025-12-06 ? 
