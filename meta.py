@@ -1121,7 +1121,11 @@ class Review:
                 return j
         wanted = f'# NOTE {name}'
         for i, out in enumerate(self.out):
-            if out[0] == wanted:
+            if not out: continue
+            head = out[0]
+            if not isinstance(head, str):
+                head = self.in_lines[head]
+            if head == wanted:
                 return i
         return self.make_out(name)
 
