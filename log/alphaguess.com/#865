@@ -1,0 +1,46 @@
+T107.15846055300062 now: 2025-12-06T08:08:02EST
+TD202 site: alphaguess.com
+TDD64708 loaded 196541 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (62 words excluded) asof 3ceb7b6230da04839aa5dfc36b8c0dc2a6ed7465
+TDD4320252  ...
+TDD-2224492 [0 : 98225 : 196541] mach? a
+TDD-2160494 progress: 1 98225 mach
+TDD1579657 [98226 : 147330 : 196541] rho? b
+TDD-1579623 progress: -1 147330 rho
+TDD1401317 [98226 : 122110 : 147330] par? b
+TDD-1401367 progress: -1 122110 par
+TDD1503084 [98226 : 110130 : 122110] need? b
+TDD-1503066 progress: -1 110130 need
+TDD1475784 [98226 : 104173 : 110130] miri? b
+TDD-1475807 progress: -1 104173 miri
+TDD1860500 [98226 : 101020 : 104173] med? a
+TDD-1860467 progress: 1 101020 med
+TDD1375532 [101021 : 102521 : 104173] meth? a
+TDD-1375413 progress: 1 102521 meth
+TDD1319781 [102522 : 103257 : 104173] mid? a
+TDD-1319936 progress: 1 103257 mid
+TDD1364031 [103258 : 103608 : 104173] mill? b
+TDD-1364026 progress: -1 103608 mill
+TDD1290943 [103258 : 103417 : 103608] mig? a
+TDD-1290919 progress: 1 103417 mig
+TDD1518058 [103418 : 103506 : 103608] mile? a
+TDD-1517983 progress: 1 103506 mile
+TDD1263657 [103507 : 103557 : 103608] militarist? a
+TDD-1263764 progress: 1 103557 militarist
+TDD1680748 [103558 : 103576 : 103608] milk? it
+TDD-1680740 progress: 0 103576 milk
+TDD-123 [103558 : 103576 : 103608] <Done>.
+TDD3055560 📋> 🧩 Puzzle #865
+TDD-3055464 📋> 
+TDD-98 📋> 🤔 13 guesses
+TDD-6 📋> 
+TDD1 📋> ⏱️ 17s
+TDD-3 📋> 
+TDD262799 📋> 🔗 alphaguess.com
+TDD-111561 📋> ␚
+TDD-151124 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #865\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 17s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-8 result: "\ud83e\udde9 Puzzle #865\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 17s\n\n\ud83d\udd17 alphaguess.com"
+TDD-107 result puzzle: 865
+TDD-9 result guesses: 13
+TDD-2 result time: 17s
+TDD0 result link: alphaguess.com
+TDD156536 📆 2025-12-06 ? 
