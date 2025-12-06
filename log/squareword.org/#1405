@@ -1,0 +1,123 @@
+T136.48067415700643 now: 2025-12-06T08:08:32EST
+TD114 site: squareword.org
+TDD-49 wordlist: nwl2023.txt
+TDD2744888  ...
+TDD-402193 🧩  ? #1405
+TDD-2342310 puzzle_id: #1405
+TDD2942183 > *
+TDD-1772274 try? 1
+TDD-1170014 questioning: ["rages", "#5"]
+TDD4546838 #1 _____  📋 "rages" ? _A_E_ ~ RS
+TDD-4545810 attempt 0 RAGES m Y n Y m
+TDD2437235 #2 _____  📋 "rages" ? _____ ~ AE
+TDD-2438232 attempt 1 RAGES n m n m n
+TDD852811 #3 _____  📋 "rages" ? 
+TDD717181 #3 _____  ? .
+TDD-1569971 attempt 2 RAGES n n n n n
+TDD3812552 #4 _____  📋 "rages" ? _____ ~ AE
+TDD-3812628 attempt 3 RAGES n m n m n
+TDD2252796 #5 _____  📋 "rages" ? _____ ~ AE
+TDD-2252679 attempt 4 RAGES n m n m n
+TDD284433 ? 
+TDD-284527 question done
+TDD665216 > *
+TDD13261364 try? 9
+TDD-13926462 questioning: ["laser", "#1"]
+TDD7665066 #1 _A_E_ ~RS -G  📋 "laser" ? _A_ER ~ S
+TDD-7665233 attempt 0 LASER n Y m Y Y
+TDD3651123 #2 _____ ~AE -GRS  📋 "laser" ? _____ ~ AEL
+TDD-3650943 attempt 1 LASER m m n m n
+TDD1662610 #3 _____ -AEGRS  📋 "laser" ? .
+TDD-1662905 attempt 2 LASER n n n n n
+TDD1797007 #4 _____ ~AE -GRS  📋 "laser" ? .
+TDD-1796782 attempt 3 LASER n m n m n
+TDD2545556 #5 _____ ~AE -GRS  📋 "laser" ? _____ ~ AEL
+TDD-2545553 attempt 4 LASER m m n m n
+TDD711964 ? 
+TDD-712122 question done
+TDD575911 > *
+TDD8502476 try? ␚
+TDD-9078492 <EOF>
+TDD1614654 > * 2
+TDD-251735 try? 1
+TDD-1362705 questioning: ["plate", "#2"]
+T92.5931323420009 now: 2025-12-06T08:11:51EST
+TD126 questioning: ["plate", "#2"]
+TDD3490657 #1 _A_ER ~S -GL  📋 "plate" ? _A_ER ~ S
+TDD-3490427 attempt 0 PLATE n n n n n
+TDD3468442 #2 _____ ~AEL -GRS  📋 "plate" ? _L__E ~ A
+TDD-3468013 attempt 1 PLATE n Y m n Y
+TDD3608085 #3 _____ -AEGLRS  📋 "plate" ? _____ ~ T
+TDD-3608505 attempt 2 PLATE n n n m n
+TDD2471621 #4 _____ ~AE -GLRS  📋 "plate" ? __A__ ~ ET
+TDD-2471354 attempt 3 PLATE n n Y m m
+TDD2242342 #5 _____ ~AEL -GRS  📋 "plate" ? ___T_ ~ AEL
+TDD-2242608 attempt 4 PLATE n m m Y m
+TDD427761 ? 
+TDD-427851 question done
+TDD4343260 > *
+TDD-3452456 questioning: ["delta", "#5"]
+TDD5495506 #1 _A_ER ~S -AEGLPT  📋 "delta" ? .
+TDD-6386135 attempt 0 DELTA n n n n n
+TDD1380381 #2 _L__E ~A -GPRST  📋 "delta" ? .
+TDD-1380517 attempt 1 DELTA n n n n m
+TDD800540 #3 _____ ~T -AEGLPRS  📋 "delta" ? .
+TDD-800412 attempt 2 DELTA n n n m n
+TDD1474112 #4 __A__ ~ET -GLPRS  📋 "delta" ? .
+TDD-1474208 attempt 3 DELTA n m n m n
+TDD603419 #5 ___T_ ~AEL -GPRS  📋 "delta" ? /it
+TDD-603360 attempt 4 DELTA Y Y Y Y Y
+TDD158666 ? 
+TDD-158964 question done
+TDD432474 > *
+TDD262858 questioning: ["enact", "#4"]
+TDD4764739 #1 _A_ER ~S -ADEGLPT  📋 "enact" ? .
+TDD-5459896 attempt 0 ENACT n n n n n
+TDD939249 #2 _L__E ~A -DEGLPRST  📋 "enact" ? .
+TDD-939346 attempt 1 ENACT n n m n n
+TDD3089992 #3 _____ ~T -ADEGLPRS  📋 "enact" ? _____ ~ TNC
+TDD-3089807 attempt 2 ENACT n m n m m
+TDD1128251 #4 __A__ ~ET -ADGLPRS  📋 "enact" ? /it
+TDD-1128211 attempt 3 ENACT Y Y Y Y Y
+TDD213032 ? 
+TDD-213266 question done
+TDD679136 > *
+TDD-48089 questioning: ["alive", "#2"]
+TDD4076386 #1 _A_ER ~S -ACDEGLNPT  📋 "alive" ? .
+TDD-4706947 attempt 0 ALIVE n n n n n
+TDD667500 #2 _L__E ~A -CDEGLNPRST  📋 "alive" ? /it
+TDD-667569 attempt 1 ALIVE Y Y Y Y Y
+TDD4038013 #3 _____ ~CNT -ADEGLPRS  📋 "alive" ? _____ ~ TNCI
+TDD-4038027 attempt 2 ALIVE n n m n n
+TDD280655 ? 
+TDD-281007 question done
+TDD680547 > *
+TDD499509 questioning: ["tonic", "#3"]
+TDD8466066 #1 _A_ER ~S -ACDEGILNPTV  📋 "tonic" ? .
+TDD-9646004 attempt 0 TONIC n n n n n
+TDD921815 #3 _____ ~CINT -ADEGLPRSV  📋 "tonic" ? /it
+TDD-921704 attempt 2 TONIC Y Y Y Y Y
+TDD246497 ? 
+TDD-246755 question done
+TDD546914 > *
+TDD4309146 try? /it
+TDD-3474936 try? 2
+TDD-1380975 questioning: ["safer", "#1"]
+TDD962034 #1 _A_ER ~S -ACDEGILNOPTV  📋 "safer" ? /it
+TDD-961988 attempt 0 SAFER Y Y Y Y Y
+TDD627778 ? 
+TDD-627966 question done
+TDD4330507 📋> squareword.org 1405: 8 guesses
+TDD-4330496 📋> 
+TDD-178 📋> 🟨🟩🟨🟩🟩
+TDD-15 📋> 🟨🟩🟨🟨🟩
+TDD1 📋> 🟨🟨🟨🟨🟨
+TDD11 📋> 🟩🟩🟩🟩🟩
+TDD-12 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD32 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD302474 📋> #squareword #squareword1405
+TDD-103167 📋> ␚
+TDD-199186 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1405: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1405"}
+TDD965 result: "squareword.org 1405: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1405"
+TDD232099 📆 2025-12-06 ? 
