@@ -1,0 +1,50 @@
+T216.44054966999101 now: 2025-12-07T09:47:36EST
+TD125 site: alphaguess.com
+TDD110867 loaded 196541 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (62 words excluded) asof d652c5ce4781e572fefe78a01eba44f588c0c88d
+TDD6185469  ...
+TDD-3677449 [0 : 98225 : 196541] mach? a
+TDD-2618670 progress: 1 98225 mach
+TDD1541686 [98226 : 147330 : 196541] rho? b
+TDD-1541884 progress: -1 147330 rho
+TDD1558388 [98226 : 122110 : 147330] par? b
+TDD-1558289 progress: -1 122110 par
+TDD4291753 [98226 : 110130 : 122110] need? b
+TDD-4291765 progress: -1 110130 need
+TDD2300590 [98226 : 104173 : 110130] miri? a
+TDD-2300585 progress: 1 104173 miri
+TDD1862481 [104174 : 107129 : 110130] mort? a
+TDD-1862577 progress: 1 107129 mort
+TDD1598486 [107130 : 108589 : 110130] mus? a
+TDD-1598479 progress: 1 108589 mus
+TDD1455608 [108590 : 109356 : 110130] nail? a
+TDD-1455392 progress: 1 109356 nail
+TDD1710408 [109357 : 109743 : 110130] nation? a
+TDD-1710605 progress: 1 109743 nation
+TDD1409465 [109744 : 109934 : 110130] nazi? a
+TDD-1409489 progress: 1 109934 nazi
+TDD1422146 [109935 : 109944 : 110130] ne? a
+TDD-1422032 progress: 1 109944 ne
+TDD1672006 [109945 : 110036 : 110130] neck? b
+TDD-1672145 progress: -1 110036 neck
+TDD1539077 [109945 : 109984 : 110036] neb? b
+TDD-1538882 progress: -1 109984 neb
+TDD1293110 [109945 : 109961 : 109984] nears? a
+TDD-1293172 progress: 1 109961 nears
+TDD1510027 [109962 : 109968 : 109984] neat? it
+TDD-1510133 progress: 0 109968 neat
+TDD-117 [109962 : 109968 : 109984] <Done>.
+TDD2336850 📋> 🧩 Puzzle #866
+TDD-2336719 📋> 
+TDD-144 📋> 🤔 15 guesses
+TDD-1 📋> 
+TDD-1 📋> ⏱️ 25s
+TDD-2 📋> 
+TDD193909 📋> 🔗 alphaguess.com
+TDD-57680 📋> ␚
+TDD-136106 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #866\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 25s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-40 result: "\ud83e\udde9 Puzzle #866\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 25s\n\n\ud83d\udd17 alphaguess.com"
+TDD-78 result puzzle: 866
+TDD-6 result guesses: 15
+TDD-2 result time: 25s
+TDD0 result link: alphaguess.com
+TDD176579 📆 2025-12-07 ? 
