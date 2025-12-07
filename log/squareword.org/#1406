@@ -1,0 +1,108 @@
+T277.99973247598973 now: 2025-12-07T09:48:38EST
+TD93 site: squareword.org
+TDD-37 wordlist: nwl2023.txt
+TDD3191187  ...
+TDD-9955 🧩  ? #1406
+TDD-3180959 puzzle_id: #1406
+TDD3572111 > *
+TDD-2162848 try? 1
+TDD-1409244 questioning: ["aeons", "#5"]
+TDD4222654 #1 _____  📋 "aeons" ? _____ ~ AS
+TDD-4222502 attempt 0 AEONS m n n n m
+TDD2003324 #2 _____  📋 "aeons" ? _____ ~ E
+TDD-2003477 attempt 1 AEONS n m n n n
+TDD3988102 #3 _____  📋 "aeons" ? A____ ~ AN
+TDD-3987985 attempt 2 AEONS Y n n m n
+TDD32686022 #4 _____  📋 "aeons" ? ____S ~ EO
+TDD-32685993 attempt 3 AEONS n m m n Y
+TDD3512838 #5 _____  📋 "aeons" ? _____ ~ ENS
+TDD-3512823 attempt 4 AEONS n m n m m
+TDD855213 ? 
+TDD-855355 question done
+TDD740884 > *
+TDD943137 try? 1
+TDD-1684065 questioning: ["snipe", "#5"]
+TDD5059748 #1 _____ ~AS -ENO  📋 "snipe" ? S____ ~ A
+TDD-5059560 attempt 0 SNIPE Y n n n n
+TDD2646586 #2 _____ ~E -ANOS  📋 "snipe" ? __I_E ~ P
+TDD-2646598 attempt 1 SNIPE n n Y m Y
+TDD3815337 #3 A____ ~N -EOS  📋 "snipe" ? A____ ~ ANI
+TDD-3815359 attempt 2 SNIPE n m m n n
+TDD2468811 #4 ____S ~EO -AN  📋 "snipe" ? .
+TDD-2468761 attempt 3 SNIPE n n n n m
+TDD2270069 #5 _____ ~ENS -AO  📋 "snipe" ? _N__E ~ ES
+TDD-2270308 attempt 4 SNIPE m Y n n Y
+TDD379931 ? 
+TDD-379886 question done
+TDD454911 > *
+TDD2178048 try? 2
+TDD-2632738 questioning: ["ensue", "#5"]
+TDD4191827 #1 S____ ~A -EINOP  📋 "ensue" ? .
+TDD-4191874 attempt 0 ENSUE n n n n n
+TDD1657298 #2 __I_E ~P -ANOS  📋 "ensue" ? .
+TDD-1657292 attempt 1 ENSUE n n n n Y
+TDD4013307 #3 A____ ~IN -EOPS  📋 "ensue" ? A____ ~ ANI
+TDD-4013508 attempt 2 ENSUE n m n n n
+TDD1781432 #4 ____S ~EO -AINPS  📋 "ensue" ? .
+TDD-1781446 attempt 3 ENSUE m n n n m
+TDD637197 #5 _N__E ~S -AIOP  📋 "ensue" ? /it
+TDD-637049 attempt 4 ENSUE Y Y Y Y Y
+TDD175601 ? 
+TDD-175722 question done
+TDD496989 > *
+TDD117828 questioning: ["pride", "#2"]
+TDD7679527 #1 S____ ~A -EINOPSU  📋 "pride" ? S____ ~ AD
+TDD-8294129 attempt 0 PRIDE n n n m n
+TDD791390 #2 __I_E ~P -ANOSU  📋 "pride" ? /it
+TDD-791645 attempt 1 PRIDE Y Y Y Y Y
+TDD2929949 #3 A____ ~IN -EOPSU  📋 "pride" ? A____ ~ ANI
+TDD-2929893 attempt 2 PRIDE n n m n n
+TDD4376521 #4 ____S ~EO -AINPSU  📋 "pride" ? ____S  ~ EOR
+TDD-4376521 attempt 3 PRIDE n m n n m
+TDD489612 ? 
+TDD-489572 question done
+TDD649795 > *
+TDD584273 questioning: ["salad", "#1"]
+TDD2061102 #1 S____ ~AD -EINOPRSU  📋 "salad" ? /it
+TDD-3295129 attempt 0 SALAD Y Y Y Y Y
+TDD4411440 #3 A____ ~IN -DEOPRSU  📋 "salad" ? A____ ~ ANI
+TDD-4411459 attempt 2 SALAD n m n m n
+TDD1306263 #4 ____S ~EOR -ADINPSU  📋 "salad" ? .
+TDD-1306378 attempt 3 SALAD n n n n n
+TDD189186 ? 
+TDD-189253 question done
+TDD439509 > *
+TDD788697 questioning: ["again", "#3"]
+TDD1695860 #3 A____ ~IN -DELOPRSU  📋 "again" ? /it
+TDD-2924033 attempt 2 AGAIN Y Y Y Y Y
+TDD1797284 #4 ____S ~EOR -ADILNPSU  📋 "again" ? .
+TDD-1797065 attempt 3 AGAIN n n n n n
+TDD315681 ? 
+TDD-315825 question done
+TDD419802 > *
+TDD3455908 try? 2
+TDD-3875539 questioning: ["tores", "#4"]
+TDD7216935 #4 ____S ~EOR -ADGILNPSU  📋 "tores" ? _ORES
+TDD-7217000 attempt 3 TORES n Y Y Y Y
+TDD276668 ? 
+TDD-276770 question done
+TDD492625 > *
+TDD429136 questioning: ["cores", "#4"]
+TDD1725954 #4 _ORES -ADGILNPTU  📋 "cores" ? /it
+TDD-2647564 attempt 3 CORES Y Y Y Y Y
+TDD592552 ? 
+TDD-592865 question done
+TDD4653346 📋> squareword.org 1406: 8 guesses
+TDD-4653317 📋> 
+TDD-181 📋> 🟩🟩🟩🟩🟩
+TDD-8 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟨🟨🟨🟨
+TDD0 📋> 🟨🟨🟨🟨🟩
+TDD1 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD229931 📋> #squareword #squareword1406
+TDD-61972 📋> ␚
+TDD-167697 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1406: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1406"}
+TDD1786 result: "squareword.org 1406: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1406"
+TDD224217 📆 2025-12-07 ? 
