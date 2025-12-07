@@ -1,0 +1,94 @@
+T431.8815558399947 now: 2025-12-07T09:51:12EST
+TD88 site: https://play.dictionary.com/games/todays-hurdle
+TDD-40 wordlist: nwl2023.txt
+TDD36354329  ...
+TDD-33549691 1.1> *
+TDD5146531 1.1 ? nnnMM
+TDD-7431477 1.1 ? *
+TDD364581 1.1 ? 1
+TDD1358043 1.1 📋 "nears" ? nnnMM
+TDD-2241824 tried: NEARS n n n m m
+TDD465083 1.2> *
+TDD1062812 1.2 ? 1
+TDD2676759 1.2 📋 "hurst" ? nnMYn
+TDD-4204813 tried: HURST n n m Y n
+TDD423684 1.3> *
+TDD441440 1.3 ? 1
+TDD2888720 1.3 📋 "prosy" ? nYnYn
+TDD-3753977 tried: PROSY n Y n Y n
+TDD399595 1.4> *
+TDD1825760 1.4 ? 1
+TDD3066423 1.4 📋 "brisk" ? nYYYY
+TDD-5291666 tried: BRISK n Y Y Y Y
+TDD412332 1.5> *
+TDD5204182 1.5 📋 "frisk" ? it
+TDD-5616518 tried: FRISK Y Y Y Y Y
+TDD10051638 2.1 📋 "frisk" ? nnYnn
+TDD-10051547 tried: FRISK n n Y n n
+TDD1502301 2.2> *
+TDD3544074 2.2 ? 1
+TDD88937 2.2 📋 "cline" ? MnYnM
+TDD-5135291 tried: CLINE m n Y n m
+TDD481938 2.3> *
+TDD962471 2.3 ? 1
+TDD2349753 2.3 📋 "edict" ? it
+TDD-3794445 tried: EDICT Y Y Y Y Y
+TDD11380097 3.1 📋 "edict" ? nnnnn
+TDD-11379871 tried: EDICT n n n n n
+TDD575546 3.2> *
+TDD1876665 3.2 ? 2
+TDD2485446 3.2 📋 "fours" ? nnnMM
+TDD-4937801 tried: FOURS n n n m m
+TDD447465 3.3> *
+TDD1431817 3.3 ? 2
+TDD1858645 3.3 📋 "grasp" ? it
+TDD-3737832 tried: GRASP Y Y Y Y Y
+TDD17275723 4.1 📋 "grasp" ? MnnMn
+TDD-17275820 tried: GRASP m n n m n
+TDD450021 4.2> *
+TDD934810 4.2 ? 1
+TDD4949724 4.2 📋 "stung" ? MnMnM
+TDD-6334652 tried: STUNG m n m n m
+TDD479736 4.3> *
+TDD1599414 4.3 ? 2
+TDD1820749 4.3 📋 "bogus" ? it
+TDD-3899709 tried: BOGUS Y Y Y Y Y
+TDD8128496 5.1 📋 "frisk" ? nnnMn
+TDD-8128456 tried: FRISK n n n m n
+TDD1233599 5.2 📋 "edict" ? nnnnn
+TDD-1233600 tried: EDICT n n n n n
+TDD2022607 5.3 📋 "grasp" ? nnnMn
+TDD-2022797 tried: GRASP n n n m n
+TDD1593937 5.4 📋 "bogus" ? YYnnM
+TDD-1593797 tried: BOGUS Y Y n n m
+TDD438868 5.5> *
+TDD2337973 5.5 ? 2
+TDD1441884 5.5 📋 "bosom" ? it
+TDD-4218762 tried: BOSOM Y Y Y Y Y
+TDD5501728 📋> Hurdle 1436
+TDD-5501950 📋> 
+TDD-81 📋> 5/6
+TDD-1 📋> ⬜⬜⬜🟨🟨
+TDD-6 📋> ⬜⬜🟨🟩⬜
+TDD0 📋> ⬜🟩⬜🟩⬜
+TDD0 📋> ⬜🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> ⬜⬜🟩⬜⬜
+TDD0 📋> 🟨⬜🟩⬜🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> ⬜⬜⬜🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> 🟨⬜⬜🟨⬜
+TDD0 📋> 🟨⬜🟨⬜🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD11 📋> Final 1/2
+TDD-10 📋> 🟩🟩🟩🟩🟩
+TDD347498 📋> score: 10,100
+TDD-121579 📋> ␚
+TDD-225684 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1436\n\n5/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"}
+TDD489 result: "Hurdle 1436\n\n5/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"
+TDD204281 📆 2025-12-07 ? 
