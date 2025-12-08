@@ -1,0 +1,46 @@
+T64.22914775498793 now: 2025-12-08T09:02:33EST
+TD55 site: alphaguess.com
+TDD65432 loaded 196541 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (62 words excluded) asof 523696b8b6ae0bb2844757e0c1e8bbf988ba01b2
+TDD6203297  ...
+TDD-4325042 [0 : 98225 : 196541] mach? a
+TDD-1943625 progress: 1 98225 mach
+TDD1447932 [98226 : 147330 : 196541] rho? b
+TDD-1447874 progress: -1 147330 rho
+TDD1415791 [98226 : 122110 : 147330] par? b
+TDD-1415777 progress: -1 122110 par
+TDD1247583 [98226 : 110130 : 122110] need? a
+TDD-1247621 progress: 1 110130 need
+TDD1567850 [110131 : 116109 : 122110] oppo? a
+TDD-1567848 progress: 1 116109 oppo
+TDD1311634 [116110 : 118743 : 122110] over? a
+TDD-1311634 progress: 1 118743 over
+TDD1151721 [118744 : 120357 : 122110] overt? a
+TDD-1151714 progress: 1 120357 overt
+TDD1231523 [120358 : 120875 : 122110] pa? a
+TDD-1231557 progress: 1 120875 pa
+TDD1272114 [120876 : 121489 : 122110] pallid? b
+TDD-1272093 progress: -1 121489 pallid
+TDD1263613 [120876 : 121179 : 121489] pain? b
+TDD-1263611 progress: -1 121179 pain
+TDD1327878 [120876 : 121017 : 121179] paddle? b
+TDD-1327877 progress: -1 121017 paddle
+TDD1263472 [120876 : 120883 : 121017] pac? a
+TDD-1263489 progress: 1 120883 pac
+TDD1535539 [120884 : 120950 : 121017] pack? it
+TDD-1535552 progress: 0 120950 pack
+TDD-100 [120884 : 120950 : 121017] <Done>.
+TDD3312356 📋> 🧩 Puzzle #867
+TDD-3312291 📋> 
+TDD-75 📋> 🤔 13 guesses
+TDD-1 📋> 
+TDD0 📋> ⏱️ 16s
+TDD-2 📋> 
+TDD287630 📋> 🔗 alphaguess.com
+TDD-79559 📋> ␚
+TDD-207939 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #867\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 16s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-41 result: "\ud83e\udde9 Puzzle #867\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 16s\n\n\ud83d\udd17 alphaguess.com"
+TDD-81 result puzzle: 867
+TDD-6 result guesses: 13
+TDD-1 result time: 16s
+TDD0 result link: alphaguess.com
+TDD143545 📆 2025-12-08 ? 
