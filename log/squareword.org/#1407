@@ -1,0 +1,102 @@
+T154.51126344199292 now: 2025-12-08T09:20:55EST
+TD80 site: squareword.org
+TDD-41 wordlist: nwl2023.txt
+TDD735659  ...
+TDD1026482 🧩  ? #1407
+TDD-1761938 puzzle_id: #1407
+TDD10117574 > *
+TDD-8942732 try? 1
+TDD-1174851 questioning: ["lears", "#5"]
+TDD14836581 #1 _____  📋 "lears" ? _E___ ~ RS
+TDD-14836311 attempt 0 LEARS n Y n m m
+TDD2692072 #2 _____  📋 "lears" ? _____ ~ ER
+TDD-2692275 attempt 1 LEARS n m n m n
+TDD1936408 #3 _____  📋 "lears" ? _____ ~ AR
+TDD-1936428 attempt 2 LEARS n n m m n
+TDD1557697 #4 _____  📋 "lears" ? _____ ~ R
+TDD-1557782 attempt 3 LEARS n n n m n
+TDD2954344 #5 _____  📋 "lears" ? ____S ~ ER
+TDD-2954329 attempt 4 LEARS n m n m Y
+TDD510475 ? 
+TDD-510478 question done
+TDD613246 > *
+TDD1030503 try? 1
+TDD-1643680 questioning: ["resin", "#1"]
+TDD4433606 #1 _E___ ~RS -AL  📋 "resin" ? _E_I_ ~ RS
+TDD-4433614 attempt 0 RESIN m Y m Y n
+TDD3198982 #2 _____ ~ER -ALS  📋 "resin" ? _____ ~ ERN
+TDD-3198980 attempt 1 RESIN m m n n m
+TDD2791497 #3 _____ ~AR -ELS  📋 "resin" ? ____N ~ AR
+TDD-2791560 attempt 2 RESIN m n n n Y
+TDD2424106 #4 _____ ~R -AELS  📋 "resin" ? R____ ~ N
+TDD-2424007 attempt 3 RESIN Y n n n m
+TDD2958764 #5 ____S ~ER -AL  📋 "resin" ? .
+TDD-2958584 attempt 4 RESIN m m n n n
+TDD236480 ? 
+TDD-236659 question done
+TDD514426 > *
+TDD174570 questioning: ["serif", "#1"]
+TDD2369291 #1 _E_I_ ~RS -ALN  📋 "serif" ? /it
+TDD-3058301 attempt 0 SERIF Y Y Y Y Y
+TDD1847791 #2 _____ ~ENR -AILS  📋 "serif" ? .
+TDD-1847751 attempt 1 SERIF n m m n n
+TDD1237457 #3 ____N ~AR -EILS  📋 "serif" ? .
+TDD-1237497 attempt 2 SERIF n n m n n
+TDD1127393 #4 R____ ~N -AEILS  📋 "serif" ? .
+TDD-1127386 attempt 3 SERIF n n n n n
+TDD1169275 #5 ____S ~ER -AILNS  📋 "serif" ? .
+TDD-1169294 attempt 4 SERIF n m m n n
+TDD163527 ? 
+TDD-163646 question done
+TDD459753 > *
+TDD5343059 try? 1
+TDD-5802666 questioning: ["round", "#4"]
+TDD7019259 #2 _____ ~ENR -AFILS  📋 "round" ? ___N_ ~ ERO
+TDD-7019276 attempt 1 ROUND m m n Y n
+TDD4088630 #3 ____N ~AR -EFILS  📋 "round" ? ____N ~ ARO
+TDD-4088629 attempt 2 ROUND m m n n n
+TDD1203874 #4 R____ ~N -AEFILRS  📋 "round" ? /it
+TDD-1203825 attempt 3 ROUND Y Y Y Y Y
+TDD892656 #5 ____S ~ER -AFILNS  📋 "round" ? .
+TDD-892712 attempt 4 ROUND m n n n n
+TDD167656 ? 
+TDD-167772 question done
+TDD424141 > *
+TDD987397 questioning: ["organ", "#3"]
+TDD4208725 #2 ___N_ ~EOR -ADFILSU  📋 "organ" ? _R_N_ ~ EO
+TDD-5619939 attempt 1 ORGAN m Y n n n
+TDD746898 #3 ____N ~AOR -DEFILNSU  📋 "organ" ? /it
+TDD-747147 attempt 2 ORGAN Y Y Y Y Y
+TDD2401391 #5 ____S ~ER -ADFILNOSU  📋 "organ" ? _R__S ~ E
+TDD-2401322 attempt 4 ORGAN n Y n n n
+TDD197251 ? 
+TDD-197386 question done
+TDD473712 > *
+TDD658735 questioning: ["trees", "#5"]
+TDD3721735 #2 _R_N_ ~EO -ADFGILNSU  📋 "trees" ? .
+TDD-4854109 attempt 1 TREES n Y m m n
+TDD718970 #5 _R__S ~E -ADFGILNOSU  📋 "trees" ? /it
+TDD-718656 attempt 4 TREES Y Y Y Y Y
+TDD141893 ? 
+TDD-142291 question done
+TDD407700 > *
+TDD1808036 try? 2
+TDD-2215625 questioning: ["prone", "#2"]
+TDD2245018 #2 _R_N_ ~EO -ADFGILNSTU  📋 "prone" ? /it
+TDD-2245100 attempt 1 PRONE Y Y Y Y Y
+TDD759228 ? 
+TDD-759275 question done
+TDD5536915 📋> squareword.org 1407: 7 guesses
+TDD-5536983 📋> 
+TDD-74 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> 🟨🟩🟨🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟩🟨🟨🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD254402 📋> #squareword #squareword1407
+TDD-107335 📋> ␚
+TDD-146996 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1407: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1407"}
+TDD389 result: "squareword.org 1407: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1407"
+TDD150372 📆 2025-12-08 ? 
