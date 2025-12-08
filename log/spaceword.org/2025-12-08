@@ -1,0 +1,55 @@
+T1647.3035640479939 now: 2025-12-08T09:45:48EST
+TD54 site: spaceword.org
+TDD-21 wordlist: nwl2023.txt
+TDD11962538  ...
+TDD-5509168 🧩  ? daily 20251208
+TDD-6452770 puzzle_id: 2025-12-08
+TDD1670537 num letters (default: 21) ? 
+TDD-1671085 num_letters: 21
+TDD2068012 letters? aadefgi
+TDD-2067878 letters: |AADEFGI|
+TDD2591824 letters? inoooqr
+TDD-2591860 letters: |AADEFGIINOOOQR|
+TDD2877605 letters? rsuuvyz
+TDD-2877597 letters: |AADEFGIINOOOQRRSUUVYZ|
+TDD2030543 letters. 
+TDD2618514 [doit:100]> /sea -cap 512
+TDD66241398 search 4ec620 [ 512 cap:512 may:528 prune:37 dead:28 done:10 ]> show done
+TDD-66395123 search 4ec620 [ 512 cap:512 may:528 prune:37 dead:28 done:10 ]> show 1
+TDD-4009262 search 4ec620 [ 512 cap:512 may:528 prune:37 dead:28 done:10 ]> ret
+TDD-485807 change: 21 O
+TDD-443 change: 22 U
+TDD-5 change: 23 D
+TDD0 change: 33 I
+TDD0 change: 34 F
+TDD0 change: 36 Q
+TDD0 change: 43 V
+TDD0 change: 44 O
+TDD0 change: 45 G
+TDD0 change: 46 U
+TDD0 change: 47 E
+TDD0 change: 48 R
+TDD0 change: 51 Z
+TDD0 change: 52 O
+TDD0 change: 53 A
+TDD0 change: 54 R
+TDD0 change: 55 I
+TDD0 change: 56 A
+TDD0 change: 63 N
+TDD0 change: 66 Y
+TDD0 change: 73 S
+TDD224006501 [doit:2152]> /res
+TDD-223569914 📋> ✨ Spaceword.org Daily 2025-12-08 ✨
+TDD-436481 📋> 
+TDD-91 📋> 🏆 Score: 2152
+TDD-1 📋> 🏅 Rank: 121/171 😀
+TDD32 📋> 🧩 Tiles: 21/21 ✅
+TDD-37 📋> 📏 Space Bonus: +52
+TDD0 📋> 
+TDD0 📋> 
+TDD0 📋> Play at https://spaceword.org
+TDD378926 📋> #spaceword
+TDD759642 📋> ␚
+TDD-1138472 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2025-12-08 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 121/171 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TDD706 result: "\u2728 Spaceword.org Daily 2025-12-08 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 121/171 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD792542 [prior:2152]> /store
