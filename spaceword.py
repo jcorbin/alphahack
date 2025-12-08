@@ -1422,6 +1422,7 @@ class SpaceWord(StoredLog):
         if not self.puzzle_id:
             with ui.input(f'🧩 {self.puzzle_id} ? ') as tokens:
                 match = re.match(r'''(?x)
+                    # https://spaceword.org/game/i20f93him4c3sxf
                     (?P<kind> daily | weekly )
                     \s+
                     (?P<year> \d{4} )
@@ -3662,3 +3663,94 @@ def test_parse_result(spec: MarkedSpec):
 
 if __name__ == '__main__':
     SpaceWord.main()
+
+# TODO notes for automation
+
+# >>> GET /api/collections/games/records/i20f93him4c3sxf?expand=solutions_via_game HTTP/3
+# ... Host: api.spaceword.org
+# ... User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0
+# ... Accept: */*
+# ... Accept-Language: en-US
+# ... Accept-Encoding: gzip, deflate, br, zstd
+# ... Referer: https://spaceword.org/
+# ... Content-Type: application/json
+# ... Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb2xsZWN0aW9uSWQiOiJfcGJfdXNlcnNfYXV0aF8iLCJleHAiOjE3NjU4MDYzNTEsImlkIjoid2RrMmQwNDU3ODc0OTV3IiwicmVmcmVzaGFibGUiOnRydWUsInR5cGUiOiJhdXRoIn0.p4Oj-vC14U12PUo-J5ILiIH5KSrGo6d46jCHNkWQFRI
+# ... Origin: https://spaceword.org
+# ... Connection: keep-alive
+# ... Sec-Fetch-Dest: empty
+# ... Sec-Fetch-Mode: cors
+# ... Sec-Fetch-Site: same-site
+# ... Priority: u=4
+# ... TE: trailers
+# <<< HTTP/3 200 
+# ... access-control-allow-origin: *
+# ... alt-svc: h3=":443"; ma=86400
+# ... content-type: application/json
+# ... date: Mon, 08 Dec 2025 13:49:01 GMT
+# ... server: cloudflare
+# ... vary: Origin
+# ... x-content-type-options: nosniff
+# ... x-frame-options: SAMEORIGIN
+# ... x-xss-protection: 1; mode=block
+# ... report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=iyreLq7TESUGqpGv%2FDwxunkFkNv%2F5Vjs9tf9sImXuAmfXGcoxT4mpY%2BVFqsJJDzPNU4UxrjgXUlObTceWMDmsxOm6pv325uXKtMFb17TT0i3q6FxjpLwsfwhbtj%2F"}]}
+# ... cf-cache-status: DYNAMIC
+# ... content-encoding: zstd
+# ... nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+# ... priority: u=4,i=?0
+# ... cf-ray: 9aacb9419dc18c73-EWR
+# ... server-timing: cfExtPri
+# {
+#   "name": "Daily 2025-12-08",
+#   "type": "daily",
+#   "collectionId": "pbc_879072730",
+#   "collectionName": "games",
+#   "created": "2025-12-07 00:00:00.822Z",
+#   "updated": "2025-12-07 00:00:00.822Z"
+#   "start_time": "2025-12-08 04:00:00.000Z",
+#   "end_time": "2025-12-09 04:00:00.000Z",
+#   "expand": {},
+#   "id": "i20f93him4c3sxf",
+#   "letters": "AADEFGIINOOOQRRSUUVYZ",
+#   "streak_index": 286,
+# }
+
+# >>> GET /api/rank?gameId=i20f93him4c3sxf HTTP/3
+# ... Host: api.spaceword.org
+# ... User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0
+# ... Accept: */*
+# ... Accept-Language: en-US
+# ... Accept-Encoding: gzip, deflate, br, zstd
+# ... Referer: https://spaceword.org/
+# ... Content-Type: application/json
+# ... Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb2xsZWN0aW9uSWQiOiJfcGJfdXNlcnNfYXV0aF8iLCJleHAiOjE3NjU4MDY1NDEsImlkIjoid2RrMmQwNDU3ODc0OTV3IiwicmVmcmVzaGFibGUiOnRydWUsInR5cGUiOiJhdXRoIn0.ADMYeYzHRTzBRfwvXQ7ZVfGfjBFDRifF2vTakVSKIyg
+# ... Origin: https://spaceword.org
+# ... Connection: keep-alive
+# ... Sec-Fetch-Dest: empty
+# ... Sec-Fetch-Mode: cors
+# ... Sec-Fetch-Site: same-site
+# ... Priority: u=4
+# ... TE: trailers
+# <<< HTTP/3 200 
+# ... access-control-allow-origin: *
+# ... alt-svc: h3=":443"; ma=86400
+# ... content-type: application/json
+# ... date: Mon, 08 Dec 2025 13:49:01 GMT
+# ... server: cloudflare
+# ... vary: Origin
+# ... x-content-type-options: nosniff
+# ... x-frame-options: SAMEORIGIN
+# ... x-xss-protection: 1; mode=block
+# ... report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KNh0DCRBMo9A5crLt3tnkCfAQ1HogBJa%2F%2Bqw44UjZwsE%2BgEl%2B88gbNY%2FyogAuK7jQWDZ%2FhECIHgPeDdJL8AKgu1Kk7m99Ci03dmX7uPlCzevMMrP2iBZ3U8egxYI"}]}
+# ... cf-cache-status: DYNAMIC
+# ... content-encoding: zstd
+# ... nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+# ... priority: u=4,i=?0
+# ... cf-ray: 9aacb9427dcc8c73-EWR
+# ... server-timing: cfExtPri
+# {
+#   "totalPlayers": 157,
+#   "maxScore": 2176,
+#   "rank": 0,
+#   "score": 0,
+#   "completed": false
+# }
