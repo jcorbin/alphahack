@@ -281,6 +281,13 @@ class Word:
 
         return self
 
+    def __bool__(self):
+        if any(self.yes): return True
+        if self.may: return True
+        if self.cant(): return True
+        if self.max: return True
+        return False
+
     @override
     def __str__(self):
         return ' '.join(part for part in self.str_parts() if part)
