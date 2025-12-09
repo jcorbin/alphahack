@@ -255,8 +255,7 @@ class DontWord(StoredLog):
         self.apply_tried(at)
 
     def apply_tried(self, at: Attempt):
-        self.tried.append(at)
-        self.word.collect(at)
+        self.tried.append(self.word.collect(at))
 
     def reset_word(self):
         self.tried = []

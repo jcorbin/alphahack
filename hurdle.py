@@ -277,8 +277,7 @@ class Search(StoredLog):
             ui.print('--- next word')
 
     def apply_tried(self, at: Attempt) -> bool:
-        self.tried.append(at)
-        self.word.collect(at)
+        self.tried.append(self.word.collect(at))
         if self.word.done:
             self.words.append(self.word.word.lower())
             self.attempts.append(tuple(at.word for at in self.tried))

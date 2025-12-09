@@ -354,6 +354,7 @@ class Word:
             elif ni:
                 for can in self.can:
                     can.difference_update((c,))
+        return at
 
     def re_may(self,
                i: int,
@@ -524,7 +525,7 @@ def test_word(spec: MarkedSpec):
     for line in spec.inlines:
         at = Attempt.parse(line)
         at.word = at.word.upper()
-        word.collect(at)
+        _ = word.collect(at)
     for key, val in spec.props:
         if key == 'str': assert f'{word}' == val
         elif key == 'can': assert f'{word.re_can()}' == val

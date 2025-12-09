@@ -443,7 +443,7 @@ class Search(StoredLog):
                         word.cannot(c)
                 if self.guesses:
                     for at in self.attempts:
-                        word.collect(at)
+                        _ = word.collect(at)
                     for i, c in enumerate(self.yes):
                         word.yes[i] = c
                 else:
