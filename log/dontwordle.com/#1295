@@ -1,0 +1,65 @@
+T3765.3306737520033 now: 2025-12-09T08:42:01EST
+TD69 site: dontwordle.com
+TDD-38 wordlist: nwl2023.txt
+TDD6089773  ...'
+TDD-4476935  ...␚
+T3775.2914502839994 now: 2025-12-09T08:42:11EST
+TD500498  ...
+TDD2022714 1> * -bot 10
+TDD-1247413 ? 1
+TDD4100743 📋 "lares" ? nnnnn
+TDD-5376301 tried: LARES n n n n n
+TDD1497408 2> * -bot 10
+TDD-346880 ? 1
+TDD4075876 📋 "cutin" ? nnYMn
+TDD-5226397 tried: CUTIN n n Y m n
+TDD757220 3> undo
+TDD-757290 undo
+TDD690121 2> undo
+TDD-690117 undo
+TDD4773694 1> *
+TDD-3674273 ? 1
+TDD2538852 📋 "calla" ? nnnnn
+TDD-3638197 tried: CALLA n n n n n
+TDD445622 2> *
+TDD789874 ? 1
+TDD4228947 📋 "esses" ? nnnnn
+TDD-5464515 tried: ESSES n n n n n
+TDD513147 3> *
+TDD312382 ? 1
+TDD3030215 📋 "hokku" ? nnnnn
+TDD-3855705 tried: HOKKU n n n n n
+TDD606746 4> *
+TDD5997260 📋 "pygmy" ? nnnnY
+TDD-6603998 tried: PYGMY n n n n Y
+TDD716757 5> undo
+TDD-716807 undo
+TDD2850810 4> *
+TDD5215358 📋 "pygmy" ? nnnnY
+TDD-8066174 tried: PYGMY n n n n Y
+TDD431205 5> *
+TDD7414986 ? nYMnY
+TDD-6087529 ? 1
+TDD904036 📋 "biddy" ? nYMnY
+TDD-2662646 tried: BIDDY n Y m n Y
+TDD602883 6> *
+TDD2440187 ? 1
+TDD1932955 📋 "divvy" ? YYnnY
+TDD-4976019 tried: DIVVY Y Y n n Y
+TDD2946953 📋> Don't Wordle 1295 - SURVIVED
+TDD-2947079 📋> Hooray! I didn't Wordle today!
+TDD-90 📋> ⬜⬜⬜⬜⬜4913
+TDD-8 📋> ⬜⬜⬜⬜⬜941
+TDD-1 📋> ⬜⬜⬜⬜⬜132
+TDD0 📋> ⬜⬜⬜⬜🟩36
+TDD-1 📋> ⬜🟩🟨⬜🟩5
+TDD0 📋> 🟩🟩⬜⬜🟩4
+TDD0 📋> Undos used: 3
+TDD0 📋> 
+TDD0 📋>   4 words remaining
+TDD9 📋> x 9 unused letters
+TDD198801 📋> = 36 total score
+TDD-41377 📋> ␚
+TDD-157294 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1295 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4913\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c941\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c132\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe936\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe95\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe94\nUndos used: 3\n\n  4 words remaining\nx 9 unused letters\n= 36 total score"}
+TDD1335 result: "Don't Wordle 1295 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4913\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c941\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c132\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe936\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe95\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe94\nUndos used: 3\n\n  4 words remaining\nx 9 unused letters\n= 36 total score"
+TDD156155 📆 2025-12-09 ? 
