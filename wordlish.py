@@ -244,8 +244,10 @@ class Word:
         return ''.join(self.letters)
 
     @classmethod
-    def parse(cls, s: str):
-        parts = PeekStr(s.split())
+    def parse(cls, tokensOrStr: PeekStr|str):
+        parts = (
+            PeekStr(m[0] for m in re.finditer(r'[^\s+]+', tokensOrStr))
+            if isinstance(tokensOrStr, str) else tokensOrStr)
         if not parts: raise ValueError('invalid Word string')
 
         # TODO whence alpha
