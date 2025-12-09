@@ -146,7 +146,7 @@ class Attempt:
 
         res = parse_feedback(pk)
         if require_feedback and not res:
-            raise ValueError('must provide word feedback')
+            raise ValueError(f'must provide feedback for word {word!r}')
         if res and len(res) != len(word):
             raise ValueError(f'expected {len(word)} feedback codes, got {len(res)}')
 
