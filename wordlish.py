@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from itertools import chain, combinations, permutations
 from typing import Callable, Literal, Never, cast, final, override
 import re
+import sys
 
 from strkit import MarkedSpec, PeekStr
 from ui import PromptUI
@@ -558,3 +559,84 @@ def test_word_parse(spec: MarkedSpec):
     for key, val in spec.props:
         if key == 'str': assert f'{word}' == val
         else: raise NotImplementedError(f'unknown spec prop {key!r}')
+
+def main():
+    def carp(mess: str) -> Never:
+        print(f'! {mess}', file=sys.stderr)
+        sys.exit(1)
+
+    attempts: list[Attempt] = []
+    word = Word(size=5)
+    verbose: int = 0
+    void: set[str] = set()
+
+    args = PeekStr(sys.argv[1:])
+    while args:
+        have_opt = args.have(r'-+(.+)', lambda m: (m[0], str(m[1])))
+        if have_opt:
+            opt, name = have_opt
+
+            # TODO help
+
+            if name.lower() in ('n', 'len', 'length'):
+                n = args.have(r'\d+', lambda m: int(m[0]))
+                if n is None:
+                    carp(f'{opt} requires an <int> argument')
+                if word:
+                    carp(f'{opt} given after word feedback')
+                word = Word(size=n)
+                continue
+
+            if name.lower() in ('w', 'word'):
+                if (attempts or word) and not args.have(r'-f'):
+                    carp(f'{opt} given after prior word feedback ; give -f to force')
+                word = Word.parse(args)
+                continue
+
+            if name.lower() == 'v':
+                verbose += 1
+                continue
+
+            if name.lower() in ('void', 'avoid'):
+                lets = args.have(r'^\w+', lambda m: m[0])
+                if lets:
+                    void.update(lets.upper())
+                continue
+
+            carp(f'unknown option {opt}')
+
+        try:
+            at = Attempt.parse(args, expected_size=len(word))
+        except ValueError as err:
+            carp(f'expected attempt <word> <feedback>: {err}')
+        attempts.append(word.collect(at))
+
+    if verbose:
+        for n, at in enumerate(attempts, 1):
+            print(f'{n}. {at}', file=sys.stderr)
+        if void:
+            print(f'- avoid: {' '.join(sorted(void))}')
+        print(word, file=sys.stderr)
+
+    pat = word.pattern(void=void)
+    if verbose > 1:
+        print(pat, file=sys.stderr)
+
+    found = False
+    for line in sys.stdin:
+        token, _ , _ = line.upper().strip().partition(' ')
+        if len(token) != len(word): continue
+        if not pat.match(token): continue
+        print(token)
+        found = True
+
+    if not found:
+        print(f'No Matches; reconsider:', file=sys.stderr)
+        for alt in word.re_may_alts(void=void):
+            print(f'  | {alt}', file=sys.stderr)
+
+if __name__ == '__main__':
+    try:
+        main()
+    except BrokenPipeError:
+        pass
