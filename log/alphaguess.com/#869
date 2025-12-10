@@ -1,0 +1,55 @@
+T325.16755747501156 now: 2025-12-10T08:19:47EST
+TD66 site: alphaguess.com
+TDD69126 loaded 196541 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (62 words excluded) asof 13393de7b1d94f4c1c68b05a2d66c80d58ed6b3f
+TDD4084703  ...
+TDD-2026326 [0 : 98225 : 196541] mach? a
+TDD-2127445 progress: 1 98225 mach
+TDD1743842 [98226 : 147330 : 196541] rho? b/
+TDD-647970 [98226 : 147330 : 196541] rho? b
+TDD-1095872 progress: -1 147330 rho
+TDD1744056 [98226 : 122110 : 147330] par? a
+TDD-1744058 progress: 1 122110 par
+TDD1631426 [122111 : 134641 : 147330] prog? b
+TDD-1631391 progress: -1 134641 prog
+TDD1327712 [122111 : 128372 : 134641] place? a
+TDD-1327749 progress: 1 128372 place
+TDD1208009 [128373 : 131496 : 134641] pots? b
+TDD-1207952 progress: -1 131496 pots
+TDD1359503 [128373 : 129819 : 131496] pol? a
+TDD-1359515 progress: 1 129819 pol
+TDD2839662 [129820 : 130641 : 131496] pop? a
+TDD-2839651 progress: 1 130641 pop
+TDD1295648 [130642 : 131028 : 131496] post? b
+TDD-1295696 progress: -1 131028 post
+TDD1759935 [130642 : 130833 : 131028] port? b
+TDD-1759929 progress: -1 130833 port
+TDD1687817 [130642 : 130735 : 130833] populist? b
+TDD-1687777 progress: -1 130735 populist
+TDD1767656 [130642 : 130688 : 130735] poppling? b
+TDD-1767707 progress: -1 130688 poppling
+TDD1343609 [130642 : 130665 : 130688] popover? b
+TDD-1343611 progress: -1 130665 popover
+TDD1263839 [130642 : 130653 : 130665] popinjay? b
+TDD-1263807 progress: -1 130653 popinjay
+TDD1271457 [130642 : 130644 : 130653] pope? b
+TDD-1271505 progress: -1 130644 pope
+TDD1583853 [130642 : 130643 : 130644] popcorns? b
+TDD-1583803 progress: -1 130643 popcorns
+TDD1536150 [130642 : 130642 : 130643] popcorn? it
+TDD-1536186 progress: 0 130642 popcorn
+TDD-98 [130642 : 130642 : 130643] <Done>.
+TDD2743800 📋> 🧩 Puzzle #869
+TDD-2743723 📋> 
+TDD-79 📋> 🤔 17 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 26s
+TDD-3 📋> 
+TDD456292 📋> 🔗 alphaguess.com
+TDD-320923 📋> ␚
+TDD-135252 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #869\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 26s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-32 result: "\ud83e\udde9 Puzzle #869\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 26s\n\n\ud83d\udd17 alphaguess.com"
+TDD-79 result puzzle: 869
+TDD-7 result guesses: 17
+TDD-2 result time: 26s
+TDD0 result link: alphaguess.com
+TDD127614 📆 2025-12-10 ? 
