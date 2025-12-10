@@ -1,0 +1,101 @@
+T367.9678531420068 now: 2025-12-10T08:20:30EST
+TD61 site: squareword.org
+TDD-24 wordlist: nwl2023.txt
+TDD4590816  ...
+TDD-2446740 🧩  ? #1409
+TDD-2143819 puzzle_id: #1409
+TDD6063868 > *
+TDD-4632424 try? 1
+TDD-1431361 questioning: ["maser", "#5"]
+TDD5488362 #1 <IndexError>  📋 "maser" ? _____ ~ MAS
+TDD-5488155 attempt 0 MASER m m m n n
+TDD2254443 #2 <IndexError>  📋 "maser" ? _A___ ~ E
+TDD-2254719 attempt 1 MASER n Y n m n
+TDD1894909 #3 <IndexError>  📋 "maser" ? ____R ~ A
+TDD-1894843 attempt 2 MASER n m n n Y
+TDD2311355 #4 <IndexError>  📋 "maser" ? _____ ~ S
+TDD-2311497 attempt 3 MASER n n m n n
+TDD2336239 #5 <IndexError>  📋 "maser" ? __S__ ~ SE
+TDD-2336169 attempt 4 MASER n n Y m n
+TDD438326 ? 
+TDD-438482 question done
+TDD463826 > *
+TDD3816852 try? 2
+TDD-4280487 questioning: ["pesto", "#5"]
+TDD4550873 #1 _____ ~AMS -ER  📋 "pesto" ? .
+TDD-4550918 attempt 0 PESTO n n m n n
+TDD1335706 #2 _A___ ~E -MRS  📋 "pesto" ? .
+TDD-1335768 attempt 1 PESTO n m n n n
+TDD3095210 #3 ____R ~A -EMS  📋 "pesto" ? ____R ~ AT
+TDD-3095134 attempt 2 PESTO n n n m n
+TDD967316 #4 _____ ~S -AEMR  📋 "pesto" ? .
+TDD-967386 attempt 3 PESTO n n m n n
+TDD4143537 #5 __S__ ~E -AMR  📋 "pesto" ? P_S__ ~ SEO
+TDD-4143476 attempt 4 PESTO Y m Y n m
+TDD447677 ? 
+TDD-447824 question done
+TDD2343436 > *
+TDD-1773887 questioning: ["posse", "#5"]
+TDD16548909 #1 _____ ~AMS -EOPRT  📋 "posse" ? ___S_ ~ MA
+TDD-17118391 attempt 0 POSSE n n n Y n
+TDD3655864 #2 _A___ ~E -MOPRST  📋 "posse" ? _A__E 
+TDD-3655791 attempt 1 POSSE n n n n Y
+TDD2567411 #3 ____R ~AT -EMOPS  📋 "posse" ? .
+TDD-2567471 attempt 2 POSSE n n n n n
+TDD1104133 #4 _____ ~S -AEMOPRT  📋 "posse" ? .
+TDD-1104056 attempt 3 POSSE n n m m n
+TDD822555 #5 P_S__ ~EO -AMRT  📋 "posse" ? /it
+TDD-822576 attempt 4 POSSE Y Y Y Y Y
+TDD295428 ? 
+TDD-295544 question done
+TDD1376152 > *
+TDD1255664 try? 1
+TDD-2631684 questioning: ["altar", "#3"]
+TDD4039410 #1 ___S_ ~AM -EOPRT  📋 "altar" ? .
+TDD-4039416 attempt 0 ALTAR m n n m n
+TDD8040263 #2 _A__E -MOPRST  📋 "altar" ? _A__E ~ L
+TDD-8040269 attempt 1 ALTAR n m n n n
+TDD1758121 #3 ____R ~AT -EMOPS  📋 "altar" ? /it
+TDD-1758172 attempt 2 ALTAR Y Y Y Y Y
+TDD2607573 #4 _____ ~S -AEMOPRT  📋 "altar" ? _L___ ~ S
+TDD-2607614 attempt 3 ALTAR n Y n n n
+TDD327587 ? 
+TDD-327653 question done
+TDD535997 > *
+TDD399452 questioning: ["chasm", "#1"]
+TDD3184959 #1 ___S_ ~AM -ELOPRT  📋 "chasm" ? /it
+TDD-4120247 attempt 0 CHASM Y Y Y Y Y
+TDD4703259 #2 _A__E ~L -AMOPRST  📋 "chasm" ? _A__E ~ LC
+TDD-4703281 attempt 1 CHASM m n n n n
+TDD1223405 #4 _L___ ~S -AEMOPRT  📋 "chasm" ? .
+TDD-1223381 attempt 3 CHASM n n n m n
+TDD183393 ? 
+TDD-183502 question done
+TDD871644 > *
+TDD420005 questioning: ["lance", "#2"]
+TDD1264469 #2 _A__E ~CL -AHMOPRST  📋 "lance" ? /it
+TDD-2556000 attempt 1 LANCE Y Y Y Y Y
+TDD7039886 #4 _L___ ~S -ACEHMOPRT  📋 "lance" ? _L___ ~ SN
+TDD-7039945 attempt 3 LANCE n n m n n
+TDD407957 ? 
+TDD-408006 question done
+TDD631473 > *
+TDD286778 questioning: ["sling", "#4"]
+TDD2818067 #4 _L___ ~NS -ACEHLMOPRT  📋 "sling" ? /it
+TDD-3736324 attempt 3 SLING Y Y Y Y Y
+TDD1911963 ? 
+TDD-1911943 question done
+TDD3720311 📋> squareword.org 1409: 7 guesses
+TDD-3720408 📋> 
+TDD-93 📋> 🟩🟩🟩🟩🟩
+TDD-11 📋> 🟨🟩🟨🟨🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟩🟨🟨🟨
+TDD1 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD631048 📋> #squareword #squareword1409
+TDD-343002 📋> ␚
+TDD-287921 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1409: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1409"}
+TDD570 result: "squareword.org 1409: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1409"
+TDD342758 📆 2025-12-10 ? 
