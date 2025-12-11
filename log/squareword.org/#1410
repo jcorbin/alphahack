@@ -1,0 +1,104 @@
+T136.7438049739867 now: 2025-12-11T07:48:59EST
+TD66 site: squareword.org
+TDD-28 wordlist: nwl2023.txt
+TDD4054421  ...
+TDD-2006376 🧩  ? #1410
+TDD-2047850 puzzle_id: #1410
+TDD1463548 > *
+TDD-463123 try? 1
+TDD-1000335 questioning: ["tares", "#5"]
+TDD6854884 #1 <IndexError>  📋 "tares" ? _____ ~ TRS
+TDD-6854810 attempt 0 TARES m n m n m
+TDD2119054 #2 <IndexError>  📋 "tares" ? TA___ ~ R
+TDD-2119225 attempt 1 TARES Y Y m n n
+TDD2015638 #3 <IndexError>  📋 "tares" ? _____ ~ AE
+TDD-2015594 attempt 2 TARES n m n m n
+TDD2575427 #4 <IndexError>  📋 "tares" ? T____ ~ E
+TDD-2575482 attempt 3 TARES Y n n m n
+TDD2719743 #5 <IndexError>  📋 "tares" ? ___E_ ~ TES
+TDD-2719735 attempt 4 TARES m n n Y m
+TDD472077 ? 
+TDD-472105 question done
+TDD1823175 > *
+TDD4128526 try? ␚
+TDD-5951798 <EOF>
+TDD4279913 > * 5
+TDD2416004 try? 3
+TDD-6695687 questioning: ["sited", "#5"]
+TDD5103964 #1 _____ ~RST -AE  📋 "sited" ? S____ ~ TR
+TDD-5103978 attempt 0 SITED Y n m n n
+TDD3519067 #2 TA___ ~R -ES  📋 "sited" ? TA___ ~ RI
+TDD-3519109 attempt 1 SITED n m n n n
+TDD3608040 #3 _____ ~AE -RST  📋 "sited" ? _____ ~ AEID
+TDD-3608032 attempt 2 SITED n m n m m
+TDD2887090 #4 T____ ~E -ARS  📋 "sited" ? TI___ ~ E
+TDD-2887045 attempt 3 SITED n Y n m n
+TDD2511656 #5 ___E_ ~ST -AR  📋 "sited" ? S__ED ~ TE
+TDD-2511672 attempt 4 SITED Y n m Y Y
+TDD271030 ? 
+TDD-271100 question done
+TDD1679938 > * 3
+TDD2191111 try? 1
+TDD-3871064 questioning: ["abide", "#3"]
+TDD4184791 #1 S____ ~RT -ADEI  📋 "abide" ? .
+TDD-4184625 attempt 0 ABIDE n n n n n
+TDD1030261 #2 TA___ ~IR -DEST  📋 "abide" ? .
+TDD-1030094 attempt 1 ABIDE n n m n n
+TDD670701 #3 _____ ~ADEI -RST  📋 "abide" ? /it
+TDD-670816 attempt 2 ABIDE Y Y Y Y Y
+TDD8135703 #4 TI___ ~E -ADRST  📋 "abide" ? TI__E
+TDD-8135876 attempt 3 ABIDE n n n n Y
+TDD9343852 #5 S__ED ~T -AIR  📋 "abide" ? S__ED ~ TE
+TDD-9343255 attempt 4 ABIDE n n n n m
+TDD701824 ? 
+TDD-702521 question done
+TDD4112816 > *
+TDD-3398084 questioning: ["tapir", "#2"]
+TDD3569028 #1 S____ ~RT -ABDEI  📋 "tapir" ? .
+TDD-4283460 attempt 0 TAPIR m n n n m
+TDD679161 #2 TA___ ~IR -ABDEST  📋 "tapir" ? /it
+TDD-679168 attempt 1 TAPIR Y Y Y Y Y
+TDD7871980 #4 TI__E -ABDIRST  📋 "tapir" ? .
+TDD-7871880 attempt 3 TAPIR Y n n n n
+TDD4437906 #5 S__ED ~T -ABDIR  📋 "tapir" ? S__ED ~ TE
+TDD-4438172 attempt 4 TAPIR m n n n n
+TDD239556 ? 
+TDD-239669 question done
+TDD623512 > *
+TDD281107 questioning: ["tinge", "#4"]
+TDD2654818 #1 S____ ~RT -ABDEIP  📋 "tinge" ? .
+TDD-3559076 attempt 0 TINGE m n n n n
+TDD646674 #4 TI__E -ABDIPRS  📋 "tinge" ? /it
+TDD-646712 attempt 3 TINGE Y Y Y Y Y
+TDD6271595 #5 S__ED ~T -ABDIPR  📋 "tinge" ? S__ED ~ TE
+TDD-6271817 attempt 4 TINGE m n n n m
+TDD271279 ? 
+TDD-271341 question done
+TDD495462 > *
+TDD562112 questioning: ["short", "#1"]
+TDD2700000 #1 S____ ~RT -ABDEGINP  📋 "short" ? /it
+TDD-3757246 attempt 0 SHORT Y Y Y Y Y
+TDD2598823 #5 S__ED ~T -ABDGINPR  📋 "short" ? S__ED ~ TE
+TDD-2599169 attempt 4 SHORT Y n n n m
+TDD399790 ? 
+TDD-399803 question done
+TDD712059 > *
+TDD166649 questioning: ["steed", "#5"]
+TDD2161883 #5 S__ED ~T -ABDGHINOPR  📋 "steed" ? /it
+TDD-3040240 attempt 4 STEED Y Y Y Y Y
+TDD1334814 ? 
+TDD-1335158 question done
+TDD5456082 📋> squareword.org 1410: 7 guesses
+TDD-5456182 📋> 
+TDD-85 📋> 🟩🟨🟨🟨🟨
+TDD-8 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟨🟨🟩🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD479460 📋> #squareword #squareword1410
+TDD-95195 📋> ␚
+TDD-384122 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1410: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1410"}
+TDD608 result: "squareword.org 1410: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1410"
+TDD478437 📆 2025-12-11 ? 
