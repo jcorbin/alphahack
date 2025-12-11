@@ -1,0 +1,37 @@
+T73.39822589498363 now: 2025-12-11T07:47:56EST
+TD77 site: alfagok.diginaut.net
+TDD146258 loaded 399720 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1132 words excluded) asof 36b0070b7e353a4b2293303889be86893ef238b3
+TDD6275244  ...
+TDD-4710185 [0 : 199839 : 399720] lijm? a
+TDD-1711085 progress: 1 199839 lijm
+TDD2039522 [199840 : 299764 : 399720] schub? a
+TDD-2039666 progress: 1 299764 schub
+TDD1488377 [299765 : 349550 : 399720] vakantie? b
+TDD-1488370 progress: -1 349550 vakantie
+TDD1862861 [299765 : 324341 : 349550] sub? a
+TDD-1862920 progress: 1 324341 sub
+TDD2176685 [324342 : 336943 : 349550] toetsing? b
+TDD-2176638 progress: -1 336943 toetsing
+TDD1478899 [324342 : 330526 : 336943] televisie? a
+TDD-1478949 progress: 1 330526 televisie
+TDD1599900 [330527 : 333731 : 336943] these? b
+TDD-1599862 progress: -1 333731 these
+TDD1671710 [330527 : 331921 : 333731] terug? b
+TDD-1671711 progress: -1 331921 terug
+TDD1455844 [330527 : 331213 : 331921] tennist? a
+TDD-1455833 progress: 1 331213 tennist
+TDD1831523 [331214 : 331538 : 331921] termijn? it
+TDD-1831507 progress: 0 331538 termijn
+TDD-139 [331214 : 331538 : 331921] <Done>.
+TDD3848554 📋> 🧩 Puzzel #404
+TDD-3848466 📋> 🤔 10 gokken
+TDD-100 📋> ⏱️ 15s
+TDD384184 📋> 🔗 alfagok.diginaut.net
+TDD-217283 📋> ␚
+TDD-166764 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #404\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 15s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD476 result: "\ud83e\udde9 Puzzel #404\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 15s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-616 result puzzle: 404
+TDD-13 result guesses: 10
+TDD-2 result time: 15s
+TDD0 result link: alfagok.diginaut.net
+TDD143263 📆 2025-12-11 ? 
