@@ -1,0 +1,46 @@
+T103.23921516697737 now: 2025-12-11T07:48:26EST
+TD80 site: alphaguess.com
+TDD63878 loaded 196541 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (62 words excluded) asof 36b0070b7e353a4b2293303889be86893ef238b3
+TDD984518  ...
+TDD7494243 [0 : 98225 : 196541] mach? a
+TDD-8542534 progress: 1 98225 mach
+TDD1319342 [98226 : 147330 : 196541] rho? a
+TDD-1319373 progress: 1 147330 rho
+TDD1183696 [147331 : 171930 : 196541] tag? a
+TDD-1183731 progress: 1 171930 tag
+TDD1391952 [171931 : 182017 : 196541] un? b
+TDD-1391879 progress: -1 182017 un
+TDD1191378 [171931 : 176967 : 182017] tom? b
+TDD-1191428 progress: -1 176967 tom
+TDD1184079 [171931 : 174416 : 176967] test? b
+TDD-1184057 progress: -1 174416 test
+TDD1199583 [171931 : 173170 : 174416] technical? a
+TDD-1199574 progress: 1 173170 technical
+TDD1295629 [173171 : 173787 : 174416] tempt? a
+TDD-1295654 progress: 1 173787 tempt
+TDD2175654 [173788 : 174102 : 174416] tephrite? b
+TDD-2175665 progress: -1 174102 tephrite
+TDD1215887 [173788 : 173801 : 174102] ten? a
+TDD-1215870 progress: 1 173801 ten
+TDD1151351 [173802 : 173948 : 174102] tennis? a
+TDD-1151381 progress: 1 173948 tennis
+TDD2144635 [173949 : 173990 : 174102] tens? a
+TDD-2144638 progress: 1 173990 tens
+TDD1935070 [173991 : 174026 : 174102] tent? it
+TDD-1935072 progress: 0 174026 tent
+TDD-100 [173991 : 174026 : 174102] <Done>.
+TDD2791965 📋> 🧩 Puzzle #870
+TDD-2791891 📋> 
+TDD-81 📋> 🤔 13 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 19s
+TDD-2 📋> 
+TDD399646 📋> 🔗 alphaguess.com
+TDD-215299 📋> ␚
+TDD-184220 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #870\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-33 result: "\ud83e\udde9 Puzzle #870\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"
+TDD-84 result puzzle: 870
+TDD-7 result guesses: 13
+TDD-1 result time: 19s
+TDD0 result link: alphaguess.com
+TDD151339 📆 2025-12-11 ? 
