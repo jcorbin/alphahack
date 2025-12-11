@@ -559,7 +559,7 @@ class Search(StoredLog):
             for k in self.row_word_range(word_i))
 
         yield f'#{word_i+1}'
-        yield ' '.join(c or '_' for c in grid_yes)
+        yield from (c or '_' for c in grid_yes)
         yield ' '.join(sorted(let.upper() for let in self.row_may[word_i]))
 
     def prompt_mess(self, ui: PromptUI):
