@@ -437,8 +437,7 @@ class Search(StoredLog):
             self.row = row
             self.col = col
             if word is None:
-                self.word = Word(len(self.yes))
-                word = self.word
+                word = Word(len(self.yes))
                 for c in self.void:
                     if c not in self.yes:
                         word.cannot(c)
@@ -458,8 +457,7 @@ class Search(StoredLog):
                             for i, c in enumerate(guess):
                                 if self.yes[i] != c:
                                     word.can[i].difference_update((c,))
-            else:
-                self.word = word
+            self.word = word
 
         def feedback(self, word: str):
             mx = self.word.max
