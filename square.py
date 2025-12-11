@@ -24,7 +24,7 @@ def pad_rows(rows: Iterable[Iterable[str]]):
         max(len(row[i]) if i < len(row) else 0
             for row in rows)
         for i in range(num_cols))
-    for i, row in enumerate(rows):
+    for _, row in enumerate(rows):
         yield ' '.join(
             f'{cell: <{w}}'
             for j, cell in enumerate(row)
@@ -1030,7 +1030,7 @@ class Search(StoredLog):
             else:
                 raise RuntimeError(f'invalid qmode:{q!r}')
 
-            if word_i is None: word_i = 0
+            # XXX if word_i is None: word_i = 0
             if word_i >= self.size:
                 raise StopIteration()
             self.qmode = f'{word_i+1}>'
