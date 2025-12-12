@@ -1,0 +1,45 @@
+T50967.28025254799 now: 2025-12-12T07:13:57EST
+TD62 site: alfagok.diginaut.net
+TDD134722 loaded 399720 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1132 words excluded) asof a5661fccda8a960b9388b05bc603eef2a5c1b05f
+TDD3633587  ...
+TDD2097203 [0 : 199839 : 399720] lijm? b
+TDD-5865216 progress: -1 199839 lijm
+TDD1733912 [0 : 99760 : 199839] ex? b
+TDD-1734082 progress: -1 99760 ex
+TDD1399472 [0 : 49851 : 99760] boks? b
+TDD-1399537 progress: -1 49851 boks
+TDD1519635 [0 : 24912 : 49851] bad? b
+TDD-1519614 progress: -1 24912 bad
+TDD1680107 [0 : 8648 : 24912] af? b
+TDD-1680100 progress: -1 8648 af
+TDD1615495 [0 : 786 : 8648] aan? a
+TDD-1615493 progress: 1 786 aan
+TDD1823879 [787 : 4710 : 8648] aardappels? b
+TDD-1823914 progress: -1 4710 aardappels
+TDD2256019 [787 : 2746 : 4710] aanlok? a
+TDD-2255989 progress: 1 2746 aanlok
+TDD1887837 [2747 : 3705 : 4710] aanstel? a
+TDD-1887830 progress: 1 3705 aanstel
+TDD1791569 [3706 : 4208 : 4710] aanvlogen? b
+TDD-1791576 progress: -1 4208 aanvlogen
+TDD1943296 [3706 : 3933 : 4208] aantrek? a
+TDD-1943288 progress: 1 3933 aantrek
+TDD1800133 [3934 : 3990 : 4208] aanval? b
+TDD-1800143 progress: -1 3990 aanval
+TDD1631690 [3934 : 3962 : 3990] aantrof? b
+TDD-1631730 progress: -1 3962 aantrof
+TDD1983810 [3934 : 3945 : 3962] aantrekken? it
+TDD-1983766 progress: 0 3945 aantrekken
+TDD-123 [3934 : 3945 : 3962] <Done>.
+TDD3528257 📋> 🧩 Puzzel #405
+TDD-3528183 📋> 🤔 14 gokken
+TDD-92 📋> ⏱️ 24s
+TDD503529 📋> 🔗 alfagok.diginaut.net
+TDD40010 📋> ␚
+TDD-543422 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #405\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD436 result: "\ud83e\udde9 Puzzel #405\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-547 result puzzle: 405
+TDD-9 result guesses: 14
+TDD-2 result time: 24s
+TDD0 result link: alfagok.diginaut.net
+TDD367391 📆 2025-12-12 ? 
