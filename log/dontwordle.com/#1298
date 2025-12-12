@@ -1,0 +1,56 @@
+T360.64929390203906 now: 2025-12-12T07:24:12EST
+TD55 site: dontwordle.com
+TDD-26 wordlist: nwl2023.txt
+TDD4903223  ...
+TDD-3399298 1> * -bot 10'
+TDD2488227 ? 1
+TDD584232 📋 "reals" ? MMnnn
+TDD-4576209 tried: REALS m m n n n
+TDD655205 2> undo
+TDD-655264 undo
+TDD2487618 1> *
+TDD-1775802 ? 1
+TDD3824262 📋 "kooky" ? nnnnn
+TDD-4536053 tried: KOOKY n n n n n
+TDD511747 2> *
+TDD1032926 ? 1
+TDD4438436 📋 "favas" ? nnnnn
+TDD-5983089 tried: FAVAS n n n n n
+TDD927688 3> *
+TDD-103911 ? 1
+TDD3351978 📋 "phpht" ? nnnnn
+TDD-4175757 tried: PHPHT n n n n n
+TDD487672 4> *
+TDD936445 ? 1
+TDD2823510 📋 "djinn" ? YnMnn
+TDD-4247596 tried: DJINN Y n m n n
+TDD655738 5> undo
+TDD-655773 undo
+TDD3159478 4> *
+TDD-543584 ? 1
+TDD3183739 📋 "jugum" ? nnMnn
+TDD-5799631 tried: JUGUM n n m n n
+TDD3271793 5> *
+TDD3976097 📋 "grrrl" ? MnYnn
+TDD-7247843 tried: GRRRL m n Y n n
+TDD431492 6> *
+TDD4472548 📋 "rerig" ? 
+TDD-3720427 ? ␚
+TDD-1183763 <EOF>
+TDD1696165 6> * -sans
+TDD-136585 ? 2
+TDD3256503 📋 "dirge" ? it
+TDD-4815958 tried: DIRGE Y Y Y Y Y
+TDD3656484 📋> Don't Wordle 1298 - WORDLED
+TDD-3656601 📋> I must admit that I Wordled!
+TDD-77 📋> ⬜⬜⬜⬜⬜6657
+TDD-4 📋> ⬜⬜⬜⬜⬜1219
+TDD-1 📋> ⬜⬜⬜⬜⬜560
+TDD0 📋> ⬜⬜🟨⬜⬜59
+TDD0 📋> 🟨⬜🟩⬜⬜3
+TDD-1 📋> 🟩🟩🟩🟩🟩0
+TDD447148 📋> Undos used: 2
+TDD-127303 📋> ␚
+TDD-319755 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1298 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6657\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1219\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c560\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c59\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c3\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 2"}
+TDD532 result: "Don't Wordle 1298 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6657\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1219\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c560\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c59\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c3\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 2"
+TDD1798732 📆 2025-12-12 ? 
