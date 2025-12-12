@@ -979,7 +979,6 @@ class Search(StoredLog):
 
         def wrap(ui: PromptUI, st: PromptUI.State) -> PromptUI.State:
             try:
-                self.show(ui)
                 nx = st(ui)
                 return partial(wrap, st=nx or st)
 
@@ -1154,7 +1153,6 @@ class Search(StoredLog):
                     return
 
                 if not ui.tokens and self.done:
-                    ui.print('... round stop') # XXX
                     raise StopIteration()
 
                 ui.print('! invalid input')
