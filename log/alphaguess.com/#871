@@ -1,0 +1,47 @@
+T51023.26570332603 now: 2025-12-12T07:14:53EST
+TD124 site: alphaguess.com
+TDD95667 loaded 196541 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (62 words excluded) asof a5661fccda8a960b9388b05bc603eef2a5c1b05f
+TDD7047173  ...
+TDD-5183361 [0 : 98225 : 196541] mach? a
+TDD-1959486 progress: 1 98225 mach
+TDD1392433 [98226 : 147330 : 196541] rho? a
+TDD-1392389 progress: 1 147330 rho
+TDD1239272 [147331 : 171930 : 196541] tag? a
+TDD-1239281 progress: 1 171930 tag
+TDD1191571 [171931 : 182017 : 196541] un? b
+TDD-1191573 progress: -1 182017 un
+TDD1199687 [171931 : 176967 : 182017] tom? a
+TDD-1199720 progress: 1 176967 tom
+TDD1167772 [176968 : 179491 : 182017] trifurcate? a
+TDD-1167749 progress: 1 179491 trifurcate
+TDD1215770 [179492 : 180742 : 182017] tune? b
+TDD-1215792 progress: -1 180742 tune
+TDD3719814 [179492 : 180099 : 180742] trou? !
+TDD-1527753 [179492 : 180109 : 180741] troubles? a
+TDD-2192051 progress: 1 180109 troubles
+TDD1439966 [180110 : 180420 : 180741] tsar? b
+TDD-1439939 progress: -1 180420 tsar
+TDD1399254 [180110 : 180265 : 180420] trugs? b
+TDD-1399254 progress: -1 180265 trugs
+TDD1983865 [180110 : 180185 : 180265] truant? a
+TDD-1983912 progress: 1 180185 truant
+TDD1895989 [180186 : 180225 : 180265] truculencies? a
+TDD-1895986 progress: 1 180225 truculencies
+TDD1671610 [180226 : 180239 : 180265] true? it
+TDD-1671543 progress: 0 180239 true
+TDD-115 [180226 : 180239 : 180265] <Done>.
+TDD2952411 📋> 🧩 Puzzle #871
+TDD-2952391 📋> 
+TDD-73 📋> 🤔 13 guesses
+TDD-1 📋> 
+TDD0 📋> ⏱️ 22s
+TDD0 📋> 
+TDD415495 📋> 🔗 alphaguess.com
+TDD-135822 📋> ␚
+TDD-279566 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #871\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-27 result: "\ud83e\udde9 Puzzle #871\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"
+TDD-73 result puzzle: 871
+TDD-7 result guesses: 13
+TDD0 result time: 22s
+TDD0 result link: alphaguess.com
+TDD271799 📆 2025-12-12 ? 
