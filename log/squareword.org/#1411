@@ -1,0 +1,134 @@
+T51059.785519681 now: 2025-12-12T07:15:29EST
+TD59 site: squareword.org
+TDD-23 wordlist: nwl2023.txt
+TDD3966992  ...
+TDD-2575074 🧩  ? #1411
+TDD-1391743 puzzle_id: #1411
+TDD1495958 > *
+TDD-568599 try? 1
+TDD-927268 questioning: ["spear", "#5"]
+TDD12624053 #1 <IndexError>  📋 "spear" ? _____ ~ A
+TDD-12623871 attempt 0 SPEAR n n n m n
+TDD4799002 #2 <IndexError>  📋 "spear" ? _____ ~ ER
+TDD-4799175 attempt 1 SPEAR n n m n m
+TDD4935761 #3 <IndexError>  📋 "spear" ? _____ ~ EAR
+TDD-4935735 attempt 2 SPEAR n n m m m
+TDD2255262 #4 <IndexError>  📋 "spear" ? _____ ~ EA
+TDD-2255301 attempt 3 SPEAR n n m m n
+TDD3294877 #5 <IndexError>  📋 "spear" ? __E__ ~ SER
+TDD-3294962 attempt 4 SPEAR m n Y n m
+TDD3087710 ? 
+TDD-3087740 question done
+TDD1735769 > ␚
+TDD-1735851 <EOF>
+TDD1087896 > ␚
+T2.7860537220258266 now: 2025-12-12T07:16:37EST
+TD1741316  ...
+TDD194577 > *
+TDD-167953 try? 1
+TDD-1767631 questioning: ["wrest", "#5"]
+TDD40359835 #1 _____ ~A -EPRS  📋 "wrest" ? _____ ~ AT
+TDD-40359710 attempt 0 WREST n n n n m
+TDD3487387 #2 _____ ~ER -APS  📋 "wrest" ? .
+TDD-3487158 attempt 1 WREST n m m n n
+TDD2182616 #3 _____ ~AER -PS  📋 "wrest" ? _R___ ~ EA
+TDD-2183018 attempt 2 WREST n Y m n n
+TDD1567475 #4 _____ ~AE -PRS  📋 "wrest" ? .
+TDD-1567358 attempt 3 WREST n n m n n
+TDD6063087 #5 __E__ ~RS -AP  📋 "wrest" ? __E__ ~ SER
+TDD-6063280 attempt 4 WREST n m Y m n
+TDD19896049 ? 
+TDD-19896019 question done
+TDD13631810 > ␚
+TDD-13631936 <EOF>
+TDD471701 > ␚
+T2.3129539350047708 now: 2025-12-12T07:18:14EST
+TD595523  ...
+TDD2668450 > *
+TDD9464510 try? 1
+TDD-12728105 questioning: ["oyers", "#5"]
+TDD4159045 #1 _____ ~AT -EPRSW  📋 "oyers" ? .
+TDD-4159109 attempt 0 OYERS n n n n n
+TDD767319 #2 _____ ~ER -APSTW  📋 "oyers" ? .
+TDD-767431 attempt 1 OYERS n n m m n
+TDD1751370 #3 _R___ ~AE -PSTW  📋 "oyers" ? .
+TDD-1751269 attempt 2 OYERS n n m n n
+TDD951380 #4 _____ ~AE -PRSTW  📋 "oyers" ? .
+TDD-951397 attempt 3 OYERS n n m n n
+TDD2703695 #5 __E__ ~RS -APTW  📋 "oyers" ? __ERS ~ E
+TDD-2703249 attempt 4 OYERS n n Y Y Y
+TDD742221 ? 
+TDD-742777 question done
+TDD15168080 > *
+TDD-12240288 try? ␚
+TDD-2927835 <EOF>
+TDD3575816 > * 3
+TDD-2015972 try? 1
+TDD-1559677 questioning: ["crave", "#3"]
+TDD5543232 #1 _____ ~AT -EOPRSWY  📋 "crave" ? _____ ~ ATC
+TDD-5543305 attempt 0 CRAVE m n m n n
+TDD2983797 #2 _____ ~ER -AOPSTWY  📋 "crave" ? ____E ~ ER
+TDD-2983802 attempt 1 CRAVE n m n n Y
+TDD2263731 #3 _R___ ~AE -OPRSTWY  📋 "crave" ? _RA_E
+TDD-2263733 attempt 2 CRAVE n Y Y n Y
+TDD1407637 #4 _____ ~AE -OPRSTWY  📋 "crave" ? .
+TDD-1407621 attempt 3 CRAVE n n m n m
+TDD3663703 #5 __ERS -AOPTWY  📋 "crave" ? __ERS ~ E
+TDD-3663655 attempt 4 CRAVE n n n n m
+TDD534983 ? 
+TDD-535090 question done
+TDD1199743 > *
+TDD12008232 try? 5
+TDD-13207834 questioning: ["latch", "#1"]
+TDD4423549 #1 _____ ~ACT -EOPRSVWY  📋 "latch" ? /it
+TDD-4423655 attempt 0 LATCH Y Y Y Y Y
+TDD5191537 #2 ____E ~R -ACOPSTVWY  📋 "latch" ? ____E ~ ER
+TDD-5191459 attempt 1 LATCH n n n n n
+TDD943245 #3 _RA_E -COPSTVWY  📋 "latch" ? .
+TDD-943317 attempt 2 LATCH n n n n n
+TDD1207773 #4 _____ ~AE -COPRSTVWY  📋 "latch" ? .
+TDD-1207678 attempt 3 LATCH n m n n n
+TDD2935592 #5 __ERS -ACOPRTVWY  📋 "latch" ? L_ERS ~ E
+TDD-2935619 attempt 4 LATCH Y n n n n
+TDD399374 ? 
+TDD-399496 question done
+TDD855470 > *
+TDD1008446 questioning: ["eerie", "#2"]
+TDD2584188 #2 ____E ~R -ACHLOPSTVWY  📋 "eerie" ? /it
+TDD-4448038 attempt 1 EERIE Y Y Y Y Y
+TDD1367346 #3 _RA_E -ACHLOPSTVWY  📋 "eerie" ? .
+TDD-1367307 attempt 2 EERIE n n n n Y
+TDD2951364 #4 _____ ~AE -CHLOPRSTVWY  📋 "eerie" ? _____ ~ EAI
+TDD-2951422 attempt 3 EERIE m m n m m
+TDD4575768 #5 L_ERS -ACHOPRTVWY  📋 "eerie" ? LEERS
+TDD-4575751 attempt 4 EERIE n Y n n n
+TDD599482 ? 
+TDD-599565 question done
+TDD695611 > *
+TDD366874 questioning: ["grade", "#3"]
+TDD2411003 #3 _RA_E -ACHILOPRSTVWY  📋 "grade" ? /it
+TDD-3473362 attempt 2 GRADE Y Y Y Y Y
+TDD3144284 #4 _____ ~AEI -CHLOPRSTVWY  📋 "grade" ? _____ ~ EAID
+TDD-3144328 attempt 3 GRADE n n m m m
+TDD246675 ? 
+TDD-246767 question done
+TDD727914 > *
+TDD-67375 questioning: ["aided", "#4"]
+TDD6630680 #4 _____ ~ADEI -CGHLOPRSTVWY  📋 "aided" ? /it
+TDD-7291044 attempt 3 AIDED Y Y Y Y Y
+TDD1119256 ? 
+TDD-1119430 question done
+TDD3160237 📋> squareword.org 1411: 8 guesses
+TDD-3160279 📋> 
+TDD-85 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> 🟨🟨🟨🟨🟩
+TDD0 📋> 🟨🟩🟩🟨🟩
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD-1 📋> 🟩🟨🟩🟩🟩
+TDD0 📋> 
+TDD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD503894 📋> #squareword #squareword1411
+TDD-120421 📋> ␚
+TDD-383333 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1411: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1411"}
+TDD515 result: "squareword.org 1411: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1411"
+TDD511258 📆 2025-12-12 ? 
