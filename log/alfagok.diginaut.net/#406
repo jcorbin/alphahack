@@ -1,0 +1,93 @@
+T336769.012601075 now: 2025-12-13T07:21:58EST
+TD200 site: alfagok.diginaut.net
+TDD264000 loaded 399720 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1132 words excluded) asof 811120e3255322d20cef2f6393388b63af6f777e
+TDD9196157  ...
+TDD-5827300 [0 : 199839 : 399720] lijm? b
+TDD-3632426 progress: -1 199839 lijm
+TDD2494661 [0 : 99760 : 199839] ex? a
+TDD-2495122 progress: 1 99760 ex
+TDD2440469 [99761 : 149457 : 199839] huis? b
+TDD-2440345 progress: -1 149457 huis
+TDD2315178 [99761 : 111415 : 149457] ge? a
+TDD-2315316 progress: 1 111415 ge
+TDD2391798 [111416 : 130436 : 149457] gracieuze? b
+TDD-2391739 progress: -1 130436 gracieuze
+TDD2059219 [111416 : 120926 : 130436] gequeruleerd? b
+TDD-2059236 progress: -1 120926 gequeruleerd
+TDD2037316 [111416 : 116053 : 120926] gek? a
+TDD-2037235 progress: 1 116053 gek
+TDD2334072 [116054 : 118410 : 120926] geluk? b
+TDD-2334067 progress: -1 118410 geluk
+TDD3543918 [116054 : 117228 : 118410] geldt? b
+TDD-3544032 progress: -1 117228 geldt
+TDD2241079 [116054 : 116641 : 117228] gekramd? a
+TDD-2241071 progress: 1 116641 gekramd
+TDD3335141 [116642 : 116929 : 117228] gelat? a
+TDD-3335154 progress: 1 116929 gelat
+TDD2248958 [116930 : 116956 : 117228] geld? a
+TDD-2248931 progress: 1 116956 geld
+TDD2114659 [116957 : 117092 : 117228] geldinkomen? b
+TDD-2114727 progress: -1 117092 geldinkomen
+TDD2418460 [116957 : 117019 : 117092] gelder? !
+TDD478410 [116957 : 117021 : 117091] gelderland? !
+TDD-686019 [116957 : 117008 : 117090] gelde? !
+TDD298118 [116957 : 117024 : 117089] gelderlands? !
+TDD-452226 [116957 : 117024 : 117088] gelderlandse? !
+TDD659811 [116957 : 117024 : 117087] gelderloos? 
+TDD-1524879 [116957 : 117024 : 117087] gelderloos? !
+TDD1034407 [116957 : 117024 : 117086] geldermalsen? !
+TDD878217 [116957 : 117024 : 117085] geldermalsens? !
+TDD-806986 [116957 : 117025 : 117084] gelders? !
+TDD1106897 [116957 : 117025 : 117083] gelderse? !
+TDD-958307 [116957 : 117024 : 117082] gelderman? !
+TDD392495 [116957 : 117024 : 117081] geldersedijk? !
+TDD-166832 [116957 : 117024 : 117080] geldersekade? !
+TDD-442245 [116957 : 117024 : 117079] gelderselaan? !
+TDD5011 [116957 : 117024 : 117078] geldersen? !
+TDD119757 [116957 : 117024 : 117077] gelderseplein? !
+TDD74846 [116957 : 117024 : 117076] geldersestraat? !
+TDD-1741 [116957 : 117024 : 117075] gelderslui? !
+TDD690198 [116957 : 117024 : 117074] geldersman? !
+TDD-1634923 [116957 : 117024 : 117073] geldersmannen? .
+TDD-1481704 viewing: @117024 C3 [ 117021 117027 ] search: [ 116957 117073 ]
+TDD18298037 > <
+TDD-18297849 viewing: @117021 C3 [ 117018 117024 ] search: [ 116957 117073 ]
+TDD1563407 > <
+TDD-1564088 viewing: @117018 C3 [ 117015 117021 ] search: [ 116957 117073 ]
+TDD1504102 > <
+TDD-1503917 viewing: @117015 C3 [ 117012 117018 ] search: [ 116957 117073 ]
+TDD2012543 > <
+TDD-2012643 viewing: @117012 C3 [ 117009 117015 ] search: [ 116957 117073 ]
+TDD2403092 > 
+TDD1264825 [116957 : 117012 : 117073] geldelijke? a
+TDD-3668209 progress: 1 117012 geldelijke
+TDD4590403 [117013 : 117040 : 117073] geldhandel? b
+TDD-4590418 progress: -1 117040 geldhandel
+TDD3463648 [117013 : 117026 : 117040] geldezel? b
+TDD-3463567 progress: -1 117026 geldezel
+TDD2440550 [117013 : 117019 : 117026] gelderingen? !
+TDD-1211701 [117013 : 117019 : 117025] gelderland-midden? .
+TDD-1228627 viewing: @117019 C3 [ 117016 117022 ] search: [ 117013 117025 ]
+TDD7183530 > <
+TDD-7183517 viewing: @117016 C3 [ 117013 117019 ] search: [ 117013 117025 ]
+TDD1787048 > 
+TDD3075501 [117013 : 117016 : 117025] geldende? b
+TDD-4862769 progress: -1 117016 geldende
+TDD3520084 [117013 : 117014 : 117016] geldenaken? !
+TDD-796009 [117013 : 117014 : 117015] geldend? b
+TDD-2724114 progress: -1 117014 geldend
+TDD2379950 [117013 : 117013 : 117014] gelden? it
+TDD-2380021 progress: 0 117013 gelden
+TDD-133 [117013 : 117013 : 117014] <Done>.
+TDD3300255 📋> 🧩 Puzzel #406
+TDD-3300025 📋> 🤔 19 gokken
+TDD-230 📋> ⏱️ 2m 25s
+TDD300033 📋> 🔗 alfagok.diginaut.net
+TDD482952 📋> ␚
+TDD-782782 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #406\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 2m 25s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD746 result: "\ud83e\udde9 Puzzel #406\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 2m 25s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-917 result puzzle: 406
+TDD-51 result guesses: 19
+TDD-2 result time: 2m 25s
+TDD0 result link: alfagok.diginaut.net
+TDD636427 📆 2025-12-13 ? 
