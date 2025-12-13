@@ -1,0 +1,144 @@
+T336973.12524001603 now: 2025-12-13T07:25:22EST
+TD61 site: squareword.org
+TDD5 wordlist: nwl2023.txt
+TDD2987305  ...
+TDD-642824 🧩  ? #1412
+TDD-2344034 puzzle_id: #1412
+TDD3066760 > *
+TDD-1281308 try? 1
+TDD-1785249 questioning: ["reais", "#5"]
+TDD5603758 #1 <IndexError>  📋 "reais" ? !
+TDD-5604298 reject: reais
+TDD-158 question done
+TDD1440190 > *
+TDD-484814 try? 1
+TDD-954960 questioning: ["satem", "#5"]
+TDD8489531 #1 <IndexError>  📋 "satem" ? ___E_ ~ S
+TDD-8488924 attempt 0 SATEM m n n Y n
+TDD3359891 #2 <IndexError>  📋 "satem" ? _____ ~ E
+TDD-3360628 attempt 1 SATEM n n n m n
+TDD2491523 #3 <IndexError>  📋 "satem" ? _____ ~ AE
+TDD-2491424 attempt 2 SATEM n m n m n
+TDD4573509 #4 <IndexError>  📋 "satem" ? __TE_ ~ EM
+TDD-4573611 attempt 3 SATEM n n Y Y m
+TDD2408055 #5 <IndexError>  📋 "satem" ? _____ ~ SE
+TDD-2407952 attempt 4 SATEM m n n m n
+TDD314372 ? 
+TDD-314248 question done
+TDD672364 > *
+TDD3036398 try? 7
+TDD-3709046 questioning: ["meter", "#4"]
+TDD8027035 #1 ___E_ ~S -AMT  📋 "meter" ? ___E_ ~ SR
+TDD-8026981 attempt 0 METER n n n Y m
+TDD2558913 #2 _____ ~E -AMST  📋 "meter" ? _____ ~ ER
+TDD-2558898 attempt 1 METER n m n m m
+TDD949197 #3 _____ ~AE -MST  📋 "meter" ? .
+TDD-949198 attempt 2 METER n m n m n
+TDD1587259 #4 __TE_ ~M -AS  📋 "meter" ? METE_
+TDD-1587065 attempt 3 METER Y Y Y Y n
+TDD1468136 #5 _____ ~ES -AMT  📋 "meter" ? .
+TDD-1468339 attempt 4 METER n m n m n
+TDD172892 ? 
+TDD-173004 question done
+TDD699347 > *
+TDD-53221 questioning: ["meted", "#4"]
+TDD4512002 #1 ___E_ ~RS -AMT  📋 "meted" ? ␚
+TDD-5158212 question done
+TDD1307009 > * 1
+TDD227301 try? 1
+TDD-1534114 questioning: ["fires", "#1"]
+TDD6973900 #1 ___E_ ~RS -AMT  📋 "fires" ? ___ES ~ RI
+TDD-6973459 attempt 0 FIRES n m m Y Y
+TDD8598465 #2 _____ ~ER -AMST  📋 "fires" ? __R__ ~ E
+TDD-8598883 attempt 1 FIRES n n Y m n
+TDD1427627 #3 _____ ~AE -MRST  📋 "fires" ? .
+TDD-1427472 attempt 2 FIRES n n n m n
+TDD761934 #4 METE_ -ARS  📋 "fires" ? .
+TDD-762123 attempt 3 FIRES n n n Y n
+TDD2244474 #5 _____ ~ES -AMRT  📋 "fires" ? .
+TDD-2244482 attempt 4 FIRES n n n m m
+TDD1249232 ? 
+TDD-1249341 question done
+TDD489864 > *
+TDD148544 questioning: ["meted", "#4"]
+TDD1191448 #1 ___ES ~IR -AFMT  📋 "meted" ? ␚
+TDD-1829921 question done
+TDD4556229 > * 2
+TDD-177706 try? 1
+TDD-4378257 questioning: ["purge", "#2"]
+TDD6493126 #1 ___ES ~IR -AFMT  📋 "purge" ? .
+TDD-6493197 attempt 0 PURGE n n m n n
+TDD2828429 #2 __R__ ~E -AFIMST  📋 "purge" ? __R_E
+TDD-2828452 attempt 1 PURGE n n Y n Y
+TDD3827780 #3 _____ ~AE -FIMRST  📋 "purge" ? ___GE ~ A
+TDD-3827603 attempt 2 PURGE n n n Y Y
+TDD1279339 #4 METE_ -AFIRS  📋 "purge" ? .
+TDD-1279503 attempt 3 PURGE n n n n n
+TDD4134787 #5 _____ ~ES -AFIMRT  📋 "purge" ? P____ ~ SE
+TDD-4134710 attempt 4 PURGE Y n n n m
+TDD613823 ? 
+TDD-613790 question done
+TDD2855370 > * 5
+TDD-2487303 questioning: ["poesy", "#5"]
+TDD11451664 #1 ___ES ~IR -AEFGMPTU  📋 "poesy" ? .
+TDD-11819573 attempt 0 POESY n n n n n
+TDD2312319 #2 __R_E -AFGIMPSTU  📋 "poesy" ? _OR_E
+TDD-2312595 attempt 1 POESY n Y n n n
+TDD2913784 #3 ___GE ~A -FIMPRSTU  📋 "poesy" ? .
+TDD-2913565 attempt 2 POESY n n n n n
+TDD899768 #4 METE_ -AEFGIPRSU  📋 "poesy" ? .
+TDD-899968 attempt 3 POESY n n n n n
+TDD1060264 #5 P____ ~ES -AFGIMRTU  📋 "poesy" ? /it
+TDD-1060330 attempt 4 POESY Y Y Y Y Y
+TDD345210 ? 
+TDD-345234 question done
+TDD1172210 > *
+TDD899287 questioning: ["horde", "#2"]
+TDD5434237 #1 ___ES ~IR -AEFGMOPSTUY  📋 "horde" ? .
+TDD-7505490 attempt 0 HORDE n n m n n
+TDD645586 #2 _OR_E -AEFGIMPSTUY  📋 "horde" ? /it
+TDD-645184 attempt 1 HORDE Y Y Y Y Y
+TDD2742446 #3 ___GE ~A -EFIMOPRSTUY  📋 "horde" ? ___GE ~ AD
+TDD-2742872 attempt 2 HORDE n n n m Y
+TDD4694299 #4 METE_ -AEFGIOPRSUY  📋 "horde" ? METE_ ~ D
+TDD-4694495 attempt 3 HORDE n n n m n
+TDD339943 ? 
+TDD-339718 question done
+TDD867256 > *
+TDD885620 questioning: ["adage", "#3"]
+TDD3340593 #1 ___ES ~IR -ADEFGHMOPSTUY  📋 "adage" ? .
+TDD-5093169 attempt 0 ADAGE n n n n n
+TDD863022 #3 ___GE ~AD -FHIMOPRSTUY  📋 "adage" ? /it
+TDD-862494 attempt 2 ADAGE Y Y Y Y Y
+TDD2773684 #4 METE_ ~D -AEFGHIOPRSUY  📋 "adage" ? METE_ ~ D
+TDD-2774363 attempt 3 ADAGE n m n n n
+TDD300736 ? 
+TDD-301018 question done
+TDD543013 > *
+TDD741911 questioning: ["cries", "#1"]
+TDD1906125 #1 ___ES ~IR -ADEFGHMOPSTUY  📋 "cries" ? /it
+TDD-3190974 attempt 0 CRIES Y Y Y Y Y
+TDD3715515 #4 METE_ ~D -AEFGHIOPRSUY  📋 "cries" ? .
+TDD-3715622 attempt 3 CRIES n n n Y n
+TDD164242 ? 
+TDD-164212 question done
+TDD595713 > *
+TDD340605 questioning: ["meted", "#4"]
+TDD1386701 #4 METE_ ~D -ACFGHIOPRSUY  📋 "meted" ? /it
+TDD-2322695 attempt 3 METED Y Y Y Y Y
+TDD5327421 ? 
+TDD-5327899 question done
+TDD588268 📋> squareword.org 1412: 9 guesses
+TDD-588322 📋> 
+TDD-99 📋> 🟨🟨🟨🟩🟩
+TDD-8 📋> 🟨🟩🟩🟨🟩
+TDD168 📋> 🟨🟨🟨🟩🟩
+TDD-170 📋> 🟩🟩🟩🟩🟨
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD231323 📋> #squareword #squareword1412
+TDD234086 📋> ␚
+TDD-465125 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1412: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1412"}
+TDD575 result: "squareword.org 1412: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1412"
+TDD293529 📆 2025-12-13 ? 
