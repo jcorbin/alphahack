@@ -1,0 +1,46 @@
+T336934.008307166 now: 2025-12-13T07:24:43EST
+TD85 site: alphaguess.com
+TDD82373 loaded 196540 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (63 words excluded) asof 811120e3255322d20cef2f6393388b63af6f777e
+TDD5027898  ...
+TDD-2558967 [0 : 98225 : 196540] mach? a
+TDD-2551172 progress: 1 98225 mach
+TDD1835557 [98226 : 147330 : 196540] rho? a
+TDD-1835435 progress: 1 147330 rho
+TDD2309821 [147331 : 171930 : 196540] tag? b
+TDD-2309993 progress: -1 171930 tag
+TDD1782606 [147331 : 159612 : 171930] slug? a
+TDD-1782618 progress: 1 159612 slug
+TDD1546395 [159613 : 165766 : 171930] stint? a
+TDD-1546385 progress: 1 165766 stint
+TDD2627465 [165767 : 168816 : 171930] sulfur? b
+TDD-2627440 progress: -1 168816 sulfur
+TDD1963501 [165767 : 167290 : 168816] sub? b
+TDD-1963532 progress: -1 167290 sub
+TDD2161392 [165767 : 166525 : 167290] streak? b
+TDD-2161370 progress: -1 166525 streak
+TDD1829714 [165767 : 166122 : 166525] stop? a
+TDD-1829745 progress: 1 166122 stop
+TDD1637722 [166123 : 166320 : 166525] straight? b
+TDD-1637642 progress: -1 166320 straight
+TDD1687502 [166123 : 166211 : 166320] story? b
+TDD-1687571 progress: -1 166211 story
+TDD1570007 [166123 : 166167 : 166211] storax? a
+TDD-1570017 progress: 1 166167 storax
+TDD2138329 [166168 : 166169 : 166211] store? it
+TDD-2138324 progress: 0 166169 store
+TDD-129 [166168 : 166169 : 166211] <Done>.
+TDD2855991 📋> 🧩 Puzzle #872
+TDD-2855824 📋> 
+TDD-175 📋> 🤔 13 guesses
+TDD-5 📋> 
+TDD-2 📋> ⏱️ 23s
+TDD89 📋> 
+TDD659724 📋> 🔗 alphaguess.com
+TDD-284769 📋> ␚
+TDD-374920 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #872\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-14 result: "\ud83e\udde9 Puzzle #872\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"
+TDD-105 result puzzle: 872
+TDD-7 result guesses: 13
+TDD-1 result time: 23s
+TDD0 result link: alphaguess.com
+TDD379968 📆 2025-12-13 ? 
