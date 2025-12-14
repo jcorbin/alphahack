@@ -1,0 +1,42 @@
+T56.680330066999886 now: 2025-12-14T08:21:28EST
+TD60 site: alphaguess.com
+TDD69455 loaded 196540 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (63 words excluded) asof 811120e3255322d20cef2f6393388b63af6f777e
+TDD7738032  ...
+TDD-6056915 [0 : 98225 : 196540] mach? b
+TDD-1750474 progress: -1 98225 mach
+TDD1255679 [0 : 47387 : 98225] dis? a
+TDD-1255694 progress: 1 47387 dis
+TDD1235779 [47388 : 72806 : 98225] gremmy? a
+TDD-1235663 progress: 1 72806 gremmy
+TDD1175476 [72807 : 85510 : 98225] ins? a
+TDD-1175622 progress: 1 85510 ins
+TDD1435667 [85511 : 91855 : 98225] knot? b
+TDD-1435521 progress: -1 91855 knot
+TDD1690687 [85511 : 88670 : 91855] jacks? b
+TDD-1690797 progress: -1 88670 jacks
+TDD1234579 [85511 : 87083 : 88670] intima? a
+TDD-1234588 progress: 1 87083 intima
+TDD1250178 [87084 : 87874 : 88670] iris? a
+TDD-1250169 progress: 1 87874 iris
+TDD1320669 [87875 : 88130 : 88670] is? b
+TDD-1320507 progress: -1 88130 is
+TDD1364976 [87875 : 88002 : 88130] irredentist? b
+TDD-1365146 progress: -1 88002 irredentist
+TDD1629065 [87875 : 87892 : 88002] iron? it
+TDD-1629040 progress: 0 87892 iron
+TDD-139 [87875 : 87892 : 88002] <Done>.
+TDD3634251 📋> 🧩 Puzzle #873
+TDD-3634187 📋> 
+TDD-81 📋> 🤔 11 guesses
+TDD-2 📋> 
+TDD0 📋> ⏱️ 13s
+TDD-1 📋> 
+TDD300843 📋> 🔗 alphaguess.com
+TDD-121871 📋> ␚
+TDD-178836 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #873\n\n\ud83e\udd14 11 guesses\n\n\u23f1\ufe0f 13s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-39 result: "\ud83e\udde9 Puzzle #873\n\n\ud83e\udd14 11 guesses\n\n\u23f1\ufe0f 13s\n\n\ud83d\udd17 alphaguess.com"
+TDD-87 result puzzle: 873
+TDD-6 result guesses: 11
+TDD-1 result time: 13s
+TDD0 result link: alphaguess.com
+TDD178696 📆 2025-12-14 ? 
