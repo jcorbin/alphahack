@@ -1,0 +1,52 @@
+T34.02423850100604 now: 2025-12-14T08:20:20EST
+TD60 site: alfagok.diginaut.net
+TDD158203 loaded 399720 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1132 words excluded) asof 811120e3255322d20cef2f6393388b63af6f777e
+TDD8236674  ...
+T8.401251030998537 now: 2025-12-14T08:20:40EST
+TD4023901  ...
+TDD-1159270 [0 : 199839 : 399720] lijm? a
+TDD-2864278 progress: 1 199839 lijm
+TDD1574428 [199840 : 299764 : 399720] schub? b
+TDD-1574618 progress: -1 299764 schub
+TDD1626417 [199840 : 247757 : 299764] op? b
+TDD-1626430 progress: -1 247757 op
+TDD1919032 [199840 : 223639 : 247757] mol? a
+TDD-1919035 progress: 1 223639 mol
+TDD1511063 [223640 : 235698 : 247757] octopus? b
+TDD-1511075 progress: -1 235698 octopus
+TDD1521796 [223640 : 229657 : 235698] natuur? a
+TDD-1521758 progress: 1 229657 natuur
+TDD2506369 [229658 : 232674 : 235698] niets? a
+TDD-2506431 progress: 1 232674 niets
+TDD1442885 [232675 : 234119 : 235698] noord? a
+TDD-1442848 progress: 1 234119 noord
+TDD1595191 [234120 : 234903 : 235698] nuance? b
+TDD-1595202 progress: -1 234903 nuance
+TDD1629308 [234120 : 234504 : 234903] normaal? b
+TDD-1629279 progress: -1 234504 normaal
+TDD1530685 [234120 : 234308 : 234504] noordoost? a
+TDD-1530701 progress: 1 234308 noordoost
+TDD2803810 [234309 : 234406 : 234504] noordzeekanaal? !
+TDD-1166662 [234309 : 234406 : 234503] noordzeekanaalgebied? !
+TDD673250 [234309 : 234406 : 234502] noordzeekrab? a
+TDD-2310393 progress: 1 234406 noordzeekrab
+TDD4849992 [234407 : 234446 : 234502] nop? b
+TDD-4850015 progress: -1 234446 nop
+TDD2168610 [234407 : 234425 : 234446] noors? !
+TDD-608261 [234407 : 234426 : 234445] noorsestraat? !
+TDD304354 [234407 : 234426 : 234444] noorthoek? !
+TDD433295 [234407 : 234427 : 234443] noot? it
+TDD-2297986 progress: 0 234427 noot
+TDD-125 [234407 : 234427 : 234443] <Done>.
+TDD2798361 📋> 🧩 Puzzel #407
+TDD-2798249 📋> 🤔 14 gokken
+TDD-114 📋> ⏱️ 36s
+TDD205893 📋> 🔗 alfagok.diginaut.net
+TDD-60684 📋> ␚
+TDD-145095 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #407\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 36s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD278 result: "\ud83e\udde9 Puzzel #407\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 36s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-402 result puzzle: 407
+TDD-5 result guesses: 14
+TDD-1 result time: 36s
+TDD0 result link: alfagok.diginaut.net
+TDD187338 📆 2025-12-14 ? 
