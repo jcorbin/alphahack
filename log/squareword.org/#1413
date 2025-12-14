@@ -1,0 +1,121 @@
+T85.30302054200729 now: 2025-12-14T08:21:57EST
+TD60 site: squareword.org
+TDD-22 wordlist: nwl2023.txt
+TDD4036878  ...
+TDD-1996920 🧩  ? #1413
+TDD-2016836 puzzle_id: #1413
+TDD1945154 > *
+TDD-470329 try? 1
+TDD-1497416 questioning: ["ureas", "#5"]
+TDD4504097 #1 <IndexError>  📋 "ureas" ? _____ ~ REA
+TDD-4503847 attempt 0 UREAS n m m m n
+TDD2515399 #2 <IndexError>  📋 "ureas" ? _____ ~ RA
+TDD-2515907 attempt 1 UREAS n m n m n
+TDD2293615 #3 <IndexError>  📋 "ureas" ? _R___ ~ E
+TDD-2293590 attempt 2 UREAS n Y m n n
+TDD1783817 #4 <IndexError>  📋 "ureas" ? __E__ ~ A
+TDD-1783849 attempt 3 UREAS n n Y m n
+TDD2450780 #5 <IndexError>  📋 "ureas" ? ____S ~ E
+TDD-2450759 attempt 4 UREAS n n m n Y
+TDD1691294 ? 
+TDD-1691452 question done
+TDD3320870 > *
+TDD-1889390 try? 1
+TDD-1431020 questioning: ["naevi", "#4"]
+TDD4200309 #1 _____ ~AER -SU  📋 "naevi" ? .
+TDD-4200514 attempt 0 NAEVI n m m n n
+TDD2687661 #2 _____ ~AR -ESU  📋 "naevi" ? _A_V_ ~ RA
+TDD-2687536 attempt 1 NAEVI n Y n Y n
+TDD3057804 #3 _R___ ~E -ASU  📋 "naevi" ? _R___ ~ EI
+TDD-3058050 attempt 2 NAEVI n n m n m
+TDD2920180 #4 __E__ ~A -RSU  📋 "naevi" ? __E__ ~ AN
+TDD-2920057 attempt 3 NAEVI m m Y n n
+TDD988196 #5 ____S ~E -ARU  📋 "naevi" ? .
+TDD-988260 attempt 4 NAEVI n n m n n
+TDD183413 ? 
+TDD-183615 question done
+TDD2305263 > *
+TDD5603694 try? ␚
+TDD-7909027 <EOF>
+TDD1646956 > * 3
+TDD694543 try? 1
+TDD-2341282 questioning: ["tried", "#3"]
+TDD7235677 #1 _____ ~AER -INSUV  📋 "tried" ? ___E_ ~ RA
+TDD-7235736 attempt 0 TRIED n m n Y n
+TDD4210041 #2 _A_V_ ~R -EINSU  📋 "tried" ? _A_V_ ~ RA
+TDD-4209858 attempt 1 TRIED n m n n n
+TDD2278178 #3 _R___ ~EI -ANSUV  📋 "tried" ? _RIE_
+TDD-2278348 attempt 2 TRIED n Y Y Y n
+TDD2512464 #4 __E__ ~AN -IRSUV  📋 "tried" ? __E__ ~ ANT
+TDD-2512447 attempt 3 TRIED m n n n n
+TDD2716929 #5 ____S ~E -AINRUV  📋 "tried" ? ____S ~ ET
+TDD-2716705 attempt 4 TRIED m n n m n
+TDD787535 ? 
+TDD-787866 question done
+TDD829029 > *
+TDD2646310 try? 1
+TDD-3475258 questioning: ["amber", "#1"]
+TDD2455435 #1 ___E_ ~AR -DINSTUV  📋 "amber" ? /it
+TDD-2455218 attempt 0 AMBER Y Y Y Y Y
+TDD4799623 #2 _A_V_ ~R -DEINSTU  📋 "amber" ? _A_V_ ~ RA
+TDD-4798994 attempt 1 AMBER m n n n m
+T14.547927548002917 now: 2025-12-14T08:23:49EST
+TD93 questioning: ["amber", "#1"]
+TDD5048914 #3 _RIE_ -ADNSTUV  📋 "amber" ? .
+TDD-5048292 attempt 2 AMBER n n n Y n
+TDD5996537 #4 __E__ ~ANT -DEIRSUV  📋 "amber" ? A_E__ ~ NT
+TDD-5996568 attempt 3 AMBER Y n n n n
+TDD1578475 #5 ____S ~ET -ADINRUV  📋 "amber" ? .
+TDD-1578850 attempt 4 AMBER n n n m n
+TDD205938 ? 
+TDD-206088 question done
+TDD593358 > *
+TDD160404 questioning: ["agent", "#4"]
+TDD8176215 #2 _A_V_ ~R -BDEIMNSTU  📋 "agent" ? _A_V_ ~ RA
+TDD-8929647 attempt 1 AGENT m n n n n
+TDD4855904 #3 _RIE_ -ABDMNRSTUV  📋 "agent" ? _RIE_ ~ G
+TDD-4856077 attempt 2 AGENT n m n n n
+TDD939045 #4 A_E__ ~NT -BDEIMRSUV  📋 "agent" ? /it
+TDD-939068 attempt 3 AGENT Y Y Y Y Y
+TDD842937 #5 ____S ~ET -ABDIMNRUV  📋 "agent" ? .
+TDD-842945 attempt 4 AGENT n n m n m
+TDD251875 ? 
+TDD-251882 question done
+TDD502701 > *
+TDD25914 questioning: ["grief", "#3"]
+TDD5596422 #2 _A_V_ ~R -BDEGIMNSTU  📋 "grief" ? _A_V_ ~ RA
+TDD-6125099 attempt 1 GRIEF n m n n n
+TDD681094 #3 _RIE_ ~G -ABDEMNRSTUV  📋 "grief" ? /it
+TDD-681113 attempt 2 GRIEF Y Y Y Y Y
+TDD3089175 #5 ____S ~ET -ABDGIMNRUV  📋 "grief" ? ____S ~ ETF
+TDD-3089080 attempt 4 GRIEF n n n m m
+TDD2199454 ? 
+TDD-2199427 question done
+TDD2635030 > *
+TDD-2268239 questioning: ["larva", "#2"]
+TDD2724748 #2 _A_V_ ~R -BDEFGIMNSTU  📋 "larva" ? /it
+TDD-3091391 attempt 1 LARVA Y Y Y Y Y
+TDD4058632 #5 ____S ~EFT -ABDGIMNRUV  📋 "larva" ? L___S ~ ETF
+TDD-4058728 attempt 4 LARVA Y n n n n
+TDD253500 ? 
+TDD-253576 question done
+TDD504197 > *
+TDD-148326 questioning: ["lefts", "#5"]
+TDD2981539 #5 L___S ~EFT -ABDGIMNRUV  📋 "lefts" ? /it
+TDD-3337290 attempt 4 LEFTS Y Y Y Y Y
+TDD928600 ? 
+TDD-928733 question done
+TDD5397967 📋> squareword.org 1413: 8 guesses
+TDD-5398063 📋> 
+TDD-158 📋> 🟩🟩🟩🟩🟩
+TDD-13 📋> 🟨🟩🟨🟩🟨
+TDD-5 📋> 🟨🟩🟩🟩🟨
+TDD35 📋> 🟩🟩🟩🟩🟩
+TDD-15 📋> 🟨🟨🟨🟨🟩
+TDD-19 📋> 
+TDD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD300733 📋> #squareword #squareword1413
+TDD71649 📋> ␚
+TDD-372246 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1413: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1413"}
+TDD561 result: "squareword.org 1413: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1413"
+TDD431278 📆 2025-12-14 ? 
