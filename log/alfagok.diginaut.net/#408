@@ -1,0 +1,38 @@
+T86367.749363617 now: 2025-12-15T08:23:02EST
+TD141 site: alfagok.diginaut.net
+TDD196853 loaded 399720 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1132 words excluded) asof 811120e3255322d20cef2f6393388b63af6f777e
+TDD21696723  ...
+TDD-18902551 [0 : 199839 : 399720] lijm? a
+TDD-2990721 progress: 1 199839 lijm
+TDD1624521 [199840 : 299764 : 399720] schub? a
+TDD-1624660 progress: 1 299764 schub
+TDD1748491 [299765 : 349550 : 399720] vakantie? b
+TDD-1748522 progress: -1 349550 vakantie
+TDD1572462 [299765 : 324341 : 349550] sub? b
+TDD-1572525 progress: -1 324341 sub
+TDD1542366 [299765 : 311934 : 324341] spier? a
+TDD-1542410 progress: 1 311934 spier
+TDD1524264 [311935 : 314643 : 324341] st? a
+TDD-1524287 progress: 1 314643 st
+TDD3746227 [314644 : 319438 : 324341] stik? b
+TDD-3746085 progress: -1 319438 stik
+TDD1643295 [314644 : 316858 : 319438] start? a
+TDD-1643447 progress: 1 316858 start
+TDD1584336 [316859 : 318137 : 319438] stem? a
+TDD-1584318 progress: 1 318137 stem
+TDD2781305 [318138 : 318781 : 319438] sterre? !
+TDD416729 [318138 : 318568 : 319437] ster? it
+TDD-3198031 progress: 0 318568 ster
+TDD-129 [318138 : 318568 : 319437] <Done>.
+TDD3205103 📋> 🧩 Puzzel #408
+TDD-3205028 📋> 🤔 10 gokken
+TDD-81 📋> ⏱️ 20s
+TDD236681 📋> 🔗 alfagok.diginaut.net
+TDD-58464 📋> ␚
+TDD-178027 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #408\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 20s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD516 result: "\ud83e\udde9 Puzzel #408\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 20s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-711 result puzzle: 408
+TDD-8 result guesses: 10
+TDD-2 result time: 20s
+TDD0 result link: alfagok.diginaut.net
+TDD318748 📆 2025-12-15 ? 
