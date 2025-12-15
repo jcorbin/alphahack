@@ -494,6 +494,8 @@ default_abbr = {
     '!cont': 'keep going',
     '!meh': 'none of those word are very good',
     '!bad': 'all of those word are terrible',
+    '!think': '; think about the connections and why you are suggesting each word',
+    '!prob': '; rank each one with a probability score',
 }
 
 ChatExtractSource = Literal['last', 'all']|tuple[int, int]
