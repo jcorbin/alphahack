@@ -1,0 +1,69 @@
+T86854.41792483702 now: 2025-12-15T08:31:08EST
+TD91 site: dontwordle.com
+TDD-31 wordlist: nwl2023.txt
+TDD28177225  ...
+TDD-26264981 1> * -bot 10
+TDD96183 ? 2
+TDD3139223 📋 "laser" ? MnnnM
+TDD-5147507 tried: LASER m n n n m
+TDD607549 2> *
+TDD692829 ? 1
+TDD4792502 📋 "frill" ? nYnnY
+TDD-6092695 tried: FRILL n Y n n Y
+TDD1392309 3> undo
+TDD-1392510 undo
+TDD712239 2> undo
+TDD-712262 undo
+TDD4476869 1> *
+TDD-3402226 ? 1
+TDD3980322 📋 "mummy" ? nnnnn
+TDD-5054908 tried: MUMMY n n n n n
+TDD453002 2> *
+TDD505920 ? 1
+TDD6086079 📋 "dewed" ? Ynnnn
+TDD-7044834 tried: DEWED Y n n n n
+TDD795566 3> undo
+TDD-795792 undo
+TDD2267589 2> *
+TDD-142072 ? 2
+TDD2470423 📋 "abaca" ? nnnnn
+TDD-4595882 tried: ABACA n n n n n
+TDD461311 3> *
+TDD675300 ? 1
+TDD3088942 📋 "jesse" ? nnnnn
+TDD-4225551 tried: JESSE n n n n n
+TDD670761 4> *
+TDD211622 ? 1
+TDD3352417 📋 "fixit" ? nnnnn
+TDD-4234796 tried: FIXIT n n n n n
+TDD433047 5> *
+TDD515341 ? 1
+TDD8142762 📋 "pongo" ? nMnnM
+TDD-9091139 tried: PONGO n m n n m
+TDD779349 6> undo
+TDD-779441 undo
+TDD3416442 5> *
+TDD6301822 ? 2
+TDD-3673570 📋 "known" ? nnYnn
+TDD-6044392 tried: KNOWN n n Y n n
+TDD444162 6> *
+TDD1626036 ? 1
+TDD2478559 📋 "glogg" ? nMYnn
+TDD-4548705 tried: GLOGG n m Y n n
+TDD4012128 📋> Don't Wordle 1301 - SURVIVED
+TDD-4012458 📋> Hooray! I didn't Wordle today!
+TDD-133 📋> ⬜⬜⬜⬜⬜7572
+TDD-24 📋> ⬜⬜⬜⬜⬜3016
+TDD-5 📋> ⬜⬜⬜⬜⬜330
+TDD1 📋> ⬜⬜⬜⬜⬜57
+TDD1 📋> ⬜⬜🟩⬜⬜12
+TDD-2 📋> ⬜🟨🟩⬜⬜6
+TDD5 📋> Undos used: 4
+TDD-5 📋> 
+TDD0 📋>   6 words remaining
+TDD2 📋> x 7 unused letters
+TDD269183 📋> = 42 total score
+TDD-64176 📋> ␚
+TDD-204893 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1301 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7572\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3016\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c330\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c57\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c12\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c6\nUndos used: 4\n\n  6 words remaining\nx 7 unused letters\n= 42 total score"}
+TDD868 result: "Don't Wordle 1301 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7572\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3016\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c330\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c57\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c12\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c6\nUndos used: 4\n\n  6 words remaining\nx 7 unused letters\n= 42 total score"
+TDD286997 📆 2025-12-15 ? 
