@@ -1,0 +1,52 @@
+T86419.210063908 now: 2025-12-15T08:23:53EST
+TD93 site: alphaguess.com
+TDD91264 loaded 196540 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (63 words excluded) asof 811120e3255322d20cef2f6393388b63af6f777e
+TDD3779011  ...
+TDD-141694 [0 : 98225 : 196540] mach? b
+TDD-3728477 progress: -1 98225 mach
+TDD1476539 [0 : 47387 : 98225] dis? b
+TDD-1476585 progress: -1 47387 dis
+TDD1609031 [0 : 23688 : 47387] camp? a
+TDD-1608861 progress: 1 23688 camp
+TDD1688058 [23689 : 35531 : 47387] convention? b
+TDD-1688228 progress: -1 35531 convention
+TDD1485720 [23689 : 29609 : 35531] circuit? b
+TDD-1485636 progress: -1 29609 circuit
+TDD1382484 [23689 : 26641 : 29609] cep? b
+TDD-1382448 progress: -1 26641 cep
+TDD1326665 [23689 : 25110 : 26641] carp? a
+TDD-1326789 progress: 1 25110 carp
+TDD1263241 [25111 : 25592 : 26641] cat? a
+TDD-1263246 progress: 1 25592 cat
+TDD1369727 [25593 : 26114 : 26641] cavalier? b
+TDD-1369605 progress: -1 26114 cavalier
+TDD1279949 [25593 : 25853 : 26114] catfall? a
+TDD-1279960 progress: 1 25853 catfall
+TDD1300898 [25854 : 25985 : 26114] cattish? a
+TDD-1300977 progress: 1 25985 cattish
+TDD1359982 [25986 : 26048 : 26114] causal? b
+TDD-1359855 progress: -1 26048 causal
+TDD1365617 [25986 : 26017 : 26048] caudillismos? a
+TDD-1365730 progress: 1 26017 caudillismos
+TDD1426916 [26018 : 26023 : 26048] caul? b
+TDD-1426921 progress: -1 26023 caul
+TDD1485427 [26018 : 26020 : 26023] caudle? a
+TDD-1485454 progress: 1 26020 caudle
+TDD1611114 [26021 : 26022 : 26023] caught? it
+TDD-1610994 progress: 0 26022 caught
+TDD-239 [26021 : 26022 : 26023] <Done>.
+TDD2478909 📋> 🧩 Puzzle #874
+TDD-2478848 📋> 
+TDD-80 📋> 🤔 16 guesses
+TDD0 📋> 
+TDD-4 📋> ⏱️ 22s
+TDD-2 📋> 
+TDD276897 📋> 🔗 alphaguess.com
+TDD-79431 📋> ␚
+TDD-197355 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #874\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-30 result: "\ud83e\udde9 Puzzle #874\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 22s\n\n\ud83d\udd17 alphaguess.com"
+TDD-79 result puzzle: 874
+TDD-7 result guesses: 16
+TDD-1 result time: 22s
+TDD0 result link: alphaguess.com
+TDD275922 📆 2025-12-15 ? 
