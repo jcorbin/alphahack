@@ -1,13 +1,13 @@
-# 2025-12-15
+# 2025-12-16
 
-- 🔗 spaceword.org 🧩 2025-12-14 🏁 score 2173 ranked 16.8% 54/321 ⏱️ 1:28:37.839955
-- 🔗 alfagok.diginaut.net 🧩 #408 🥳 11 ⏱️ 0:00:49.991828
-- 🔗 alphaguess.com 🧩 #874 🥳 16 ⏱️ 0:00:32.358111
-- 🔗 squareword.org 🧩 #1414 🥳 7 ⏱️ 0:02:21.463665
-- 🔗 dictionary.com hurdle 🧩 #1444 🥳 17 ⏱️ 0:03:29.241636
-- 🔗 dontwordle.com 🧩 #1301 🥳 6 ⏱️ 0:02:10.092335
-- 🔗 cemantle.certitudes.org 🧩 #1351 🥳 320 ⏱️ 0:04:05.019409
-- 🔗 cemantix.certitudes.org 🧩 #1384 🥳 288 ⏱️ 0:23:29.513141
+- 🔗 spaceword.org 🧩 2025-12-15 🏁 score 2168 ranked 43.0% 144/335 ⏱️ 0:12:28.640530
+- 🔗 alfagok.diginaut.net 🧩 #409 🥳 12 ⏱️ 0:01:02.504660
+- 🔗 alphaguess.com 🧩 #875 🥳 18 ⏱️ 0:00:56.910967
+- 🔗 squareword.org 🧩 #1415 🥳 7 ⏱️ 0:02:38.048863
+- 🔗 dictionary.com hurdle 🧩 #1445 🥳 16 ⏱️ 0:03:49.631375
+- 🔗 dontwordle.com 🧩 #1302 🥳 6 ⏱️ 0:01:18.215445
+- 🔗 cemantle.certitudes.org 🧩 #1352 🥳 486 ⏱️ 0:18:38.152006
+- 🔗 cemantix.certitudes.org 🧩 #1385 🥳 156 ⏱️ 0:12:00.661721
 
 # Dev
 
@@ -245,28 +245,29 @@
 
 
 
-# spaceword.org 🧩 2025-12-14 🏁 score 2173 ranked 16.8% 54/321 ⏱️ 1:28:37.839955
 
-📜 5 sessions
+# spaceword.org 🧩 2025-12-15 🏁 score 2168 ranked 43.0% 144/335 ⏱️ 0:12:28.640530
+
+📜 3 sessions
 - tiles: 21/21
-- score: 2173 bonus: +73
-- rank: 54/321
+- score: 2168 bonus: +68
+- rank: 144/335
 
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ R E S _ _ _   
-      _ _ _ _ _ _ E _ _ _   
-      _ _ _ _ _ R E _ _ _   
-      _ _ _ _ J E T _ _ _   
-      _ _ _ _ _ A H _ _ _   
-      _ _ _ _ _ W E _ _ _   
-      _ _ _ _ H A _ _ _ _   
-      _ _ _ _ O K E _ _ _   
-      _ _ _ _ M E L _ _ _   
+      _ _ _ _ _ _ B _ _ _   
+      _ _ _ _ _ L O _ _ _   
+      _ _ _ J A I L _ _ _   
+      _ _ _ _ _ Q I _ _ _   
+      _ _ _ G A U D _ _ _   
+      _ _ _ _ W A E _ _ _   
+      _ _ _ _ A T _ _ _ _   
+      _ _ _ R Y E _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
 
 
-# alfagok.diginaut.net 🧩 #408 🥳 11 ⏱️ 0:00:49.991828
+# alfagok.diginaut.net 🧩 #409 🥳 12 ⏱️ 0:01:02.504660
 
-🤔 11 attempts
+🤔 12 attempts
 📜 1 sessions
 
     @        [     0] &-teken   
@@ -274,20 +275,19 @@
     @+2      [     2] -cijferig 
     @+3      [     3] -e-mail   
     @+199839 [199839] lijm      q0  ? after
-    @+299764 [299764] schub     q1  ? after
-    @+311934 [311934] spier     q4  ? after
-    @+314643 [314643] st        q5  ? after
-    @+316858 [316858] start     q7  ? after
-    @+318137 [318137] stem      q8  ? after
-    @+318568 [318568] ster      q10 ? it
-    @+318568 [318568] ster      done. it
-    @+319437 [319437] stik      q6  ? before
-    @+324340 [324340] sub       q3  ? before
-    @+349549 [349549] vakantie  q2  ? before
+    @+199839 [199839] lijm      q1  ? after
+    @+247757 [247757] op        q3  ? after
+    @+273563 [273563] proef     q4  ? after
+    @+276825 [276825] quitte    q10 ? after
+    @+278399 [278399] rand      q11 ? it
+    @+278399 [278399] rand      done. it
+    @+280084 [280084] rechtst   q6  ? before
+    @+286631 [286631] rijs      q5  ? before
+    @+299761 [299761] schub     q2  ? before
 
-# alphaguess.com 🧩 #874 🥳 16 ⏱️ 0:00:32.358111
+# alphaguess.com 🧩 #875 🥳 18 ⏱️ 0:00:56.910967
 
-🤔 16 attempts
+🤔 18 attempts
 📜 1 sessions
 
     @       [    0] aa           
@@ -295,26 +295,28 @@
     @+2     [    2] aahed        
     @+3     [    3] aahing       
     @+23688 [23688] camp         q2  ? after
-    @+25110 [25110] carp         q6  ? after
-    @+25592 [25592] cat          q7  ? after
-    @+25853 [25853] catfall      q9  ? after
-    @+25985 [25985] cattish      q10 ? after
-    @+26017 [26017] caudillismos q12 ? after
-    @+26020 [26020] caudle       q14 ? after
-    @+26022 [26022] caught       q15 ? it
-    @+26022 [26022] caught       done. it
-    @+26023 [26023] caul         q13 ? before
-    @+26048 [26048] causal       q11 ? before
-    @+26114 [26114] cavalier     q8  ? before
-    @+26641 [26641] cep          q5  ? before
-    @+29609 [29609] circuit      q4  ? before
-    @+35531 [35531] convention   q3  ? before
+    @+35531 [35531] convention   q3  ? after
+    @+35543 [35543] conventual   q13 ? after
+    @+35546 [35546] converge     q14 ? after
+    @+35548 [35548] convergence  q17 ? it
+    @+35548 [35548] convergence  done. it
+    @+35549 [35549] convergences q16 ? before
+    @+35552 [35552] convergent   q15 ? before
+    @+35557 [35557] conversances q12 ? before
+    @+35583 [35583] convert      q11 ? before
+    @+35647 [35647] convo        q9  ? bn
+    @+35647 [35647] convo        q10 ? before
+    @+35785 [35785] coop         q8  ? before
+    @+36097 [36097] cor          q7  ? before
+    @+36732 [36732] cos          q6  ? before
+    @+38190 [38190] crazy        q5  ? before
+    @+40847 [40847] da           q4  ? before
     @+47387 [47387] dis          q1  ? before
     @+98225 [98225] mach         q0  ? before
 
-# squareword.org 🧩 #1414 🥳 7 ⏱️ 0:02:21.463665
+# squareword.org 🧩 #1415 🥳 7 ⏱️ 0:02:38.048863
 
-📜 2 sessions
+📜 1 sessions
 
 Guesses:
 
@@ -322,111 +324,109 @@ Score Heatmap:
     🟩 🟩 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
     🟨 🟨 🟨 🟨 🟨
-    🟨 🟨 🟨 🟩 🟨
     🟩 🟩 🟩 🟩 🟩
+    🟨 🟩 🟨 🟨 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    M E T A L
-    A L O H A
-    R O W E R
-    S P E A K
-    H E R D S
+    S T R A P
+    P E E V E
+    O R D E R
+    U S U R P
+    T E X T S
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1444 🥳 17 ⏱️ 0:03:29.241636
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1445 🥳 16 ⏱️ 0:03:49.631375
 
 📜 1 sessions
-💰 score: 9900
+💰 score: 10000
 
-    4/6
-    DATES ⬜⬜🟨⬜⬜
-    TULIP 🟨⬜⬜⬜⬜
-    FORTY 🟩🟩🟩🟩⬜
-    FORTH 🟩🟩🟩🟩🟩
-    4/6
-    FORTH ⬜⬜⬜⬜⬜
-    ALIGN 🟨⬜⬜⬜⬜
-    CAPES ⬜🟨⬜🟨🟨
-    SUAVE 🟩🟩🟩🟩🟩
-    4/6
-    SUAVE ⬜⬜⬜⬜⬜
-    IRONY ⬜⬜🟨⬜🟩
-    GODLY ⬜🟩⬜⬜🟩
-    COMFY 🟩🟩🟩🟩🟩
     3/6
-    COMFY 🟨🟩⬜⬜⬜
-    DOCKS ⬜🟩🟨⬜⬜
-    NOTCH 🟩🟩🟩🟩🟩
+    PARSE 🟨⬜🟩🟨⬜
+    STRIP 🟩⬜🟩⬜🟩
+    SYRUP 🟩🟩🟩🟩🟩
+    2/6
+    SYRUP 🟩⬜⬜🟨🟩
+    STUMP 🟩🟩🟩🟩🟩
+    4/6
+    STUMP ⬜⬜🟨⬜⬜
+    QUERY ⬜🟨⬜⬜🟩
+    UNLAY 🟩🟩⬜⬜🟩
+    UNIFY 🟩🟩🟩🟩🟩
+    5/6
+    UNIFY ⬜⬜⬜⬜⬜
+    ROADS ⬜⬜⬜⬜⬜
+    LETCH 🟨🟩⬜⬜⬜
+    JEBEL ⬜🟩🟨🟩🟩
+    BEVEL 🟩🟩🟩🟩🟩
     Final 2/2
-    POUND ⬜🟩🟩🟩🟩
-    BOUND 🟩🟩🟩🟩🟩
+    DINER ⬜🟩🟨🟩🟩
+    NICER 🟩🟩🟩🟩🟩
 
-# dontwordle.com 🧩 #1301 🥳 6 ⏱️ 0:02:10.092335
+# dontwordle.com 🧩 #1302 🥳 6 ⏱️ 0:01:18.215445
 
 📜 1 sessions
-💰 score: 42
+💰 score: 8
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:MUMMY n n n n n remain:7572
-    ⬜⬜⬜⬜⬜ tried:ABACA n n n n n remain:3016
-    ⬜⬜⬜⬜⬜ tried:JESSE n n n n n remain:330
-    ⬜⬜⬜⬜⬜ tried:FIXIT n n n n n remain:57
-    ⬜⬜🟩⬜⬜ tried:KNOWN n n Y n n remain:12
-    ⬜🟨🟩⬜⬜ tried:GLOGG n m Y n n remain:6
+    ⬜⬜⬜⬜⬜ tried:EBBET n n n n n remain:4685
+    ⬜⬜⬜⬜⬜ tried:RAGGA n n n n n remain:1384
+    ⬜⬜⬜⬜⬜ tried:VILLI n n n n n remain:535
+    ⬜⬜⬜⬜⬜ tried:POPPY n n n n n remain:68
+    🟨🟨⬜⬜⬜ tried:KUDZU m m n n n remain:5
+    🟩⬜🟩⬜🟩 tried:SKUNK Y n Y n Y remain:1
 
-    Undos used: 4
+    Undos used: 3
 
-      6 words remaining
-    x 7 unused letters
-    = 42 total score
+      1 words remaining
+    x 8 unused letters
+    = 8 total score
 
-# cemantle.certitudes.org 🧩 #1351 🥳 320 ⏱️ 0:04:05.019409
+# cemantle.certitudes.org 🧩 #1352 🥳 486 ⏱️ 0:18:38.152006
 
-🤔 321 attempts
+🤔 487 attempts
 📜 1 sessions
-🫧 1 chat sessions
-⁉️ 28 chat prompts
-🤖 28 dolphin3:latest replies
-🔥   4 🥵  13 😎  25 🥶 246 🧊  32
+🫧 11 chat sessions
+⁉️ 104 chat prompts
+🤖 104 dolphin3:latest replies
+🔥   1 🥵  12 😎  68 🥶 376 🧊  29
 
-      $1 #321   ~1 saint          100.00°C 🥳 1000‰
-      $2 #261  ~15 beatified       61.93°C 🔥  998‰
-      $3 #256  ~17 canonization    58.92°C 🔥  996‰
-      $4 #262  ~14 canonized       58.20°C 🔥  995‰
-      $5 #255  ~18 martyr          54.83°C 🔥  991‰
-      $6 #317   ~2 pope            53.29°C 🥵  988‰
-      $7 #257  ~16 beatification   51.70°C 🥵  985‰
-      $8 #203  ~27 basilica        48.55°C 🥵  970‰
-      $9 #163  ~40 shrine          47.86°C 🥵  964‰
-     $10 #274   ~9 intercession    47.55°C 🥵  963‰
-     $11 #175  ~36 consecrated     47.34°C 🥵  961‰
-     $19 #169  ~38 pilgrimage      41.88°C 😎  891‰
-     $44 #182      baptismal       30.07°C 🥶
-    $290  #79      orbital         -0.11°C 🧊
+      $1 #487   ~1 municipal        100.00°C 🥳 1000‰
+      $2 #168  ~53 sewer             51.00°C 🔥  991‰
+      $3 #485   ~2 district          47.08°C 🥵  986‰
+      $4 #164  ~54 sewerage          44.89°C 🥵  981‰
+      $5 #159  ~59 wastewater        44.70°C 🥵  980‰
+      $6 #161  ~57 sewage            43.02°C 🥵  979‰
+      $7 #220  ~37 public            42.66°C 🥵  977‰
+      $8 #184  ~48 sanitation        36.72°C 🥵  957‰
+      $9  #71  ~80 water             34.31°C 🥵  948‰
+     $10 #477   ~4 transportation    33.33°C 🥵  934‰
+     $11 #181  ~50 sanitary          33.09°C 🥵  931‰
+     $15 #197  ~44 construction      30.31°C 😎  892‰
+     $83 #266      waterway          18.59°C 🥶
+    $459   #2      book              -0.14°C 🧊
 
-# cemantix.certitudes.org 🧩 #1384 🥳 288 ⏱️ 0:23:29.513141
+# cemantix.certitudes.org 🧩 #1385 🥳 156 ⏱️ 0:12:00.661721
 
-🤔 289 attempts
-📜 2 sessions
-🫧 9 chat sessions
-⁉️ 91 chat prompts
-🤖 57 falcon3:10b replies
-🤖 34 dolphin3:latest replies
-😱   1 🔥   3 🥵  17 😎  66 🥶 170 🧊  31
+🤔 157 attempts
+📜 1 sessions
+🫧 6 chat sessions
+⁉️ 35 chat prompts
+🤖 35 dolphin3:latest replies
+🥵   3 😎  22 🥶 123 🧊   8
 
-      $1 #289   ~1 destin          100.00°C 🥳 1000‰
-      $2 #260  ~14 tragique         56.58°C 😱  999‰
-      $3 #272   ~9 malheur          49.09°C 🔥  996‰
-      $4  #72  ~81 amour            47.66°C 🔥  992‰
-      $5 #262  ~13 tragédie         46.96°C 🔥  991‰
-      $6 #285   ~4 désespoir        45.95°C 🥵  987‰
-      $7 #264  ~12 âme              45.29°C 🥵  986‰
-      $8  #47  ~88 rêve             45.18°C 🥵  984‰
-      $9 #100  ~70 éternel          44.62°C 🥵  982‰
-     $10 #126  ~61 éternité         43.77°C 🥵  977‰
-     $11 #227  ~27 tourment         42.06°C 🥵  968‰
-     $23 #168  ~45 mystérieux       37.70°C 😎  887‰
-     $89 #275      malchance        28.32°C 🥶
-    $259   #8      fête             -0.02°C 🧊
+      $1 #157   ~1 glace          100.00°C 🥳 1000‰
+      $2 #136   ~5 glacé           43.28°C 🥵  978‰
+      $3 #116  ~15 profiterole     37.72°C 🥵  940‰
+      $4  #45  ~23 croûte          34.50°C 🥵  909‰
+      $5  #36  ~25 mousse          32.99°C 😎  892‰
+      $6 #112  ~17 chocolat        32.28°C 😎  873‰
+      $7 #125   ~9 caramel         32.12°C 😎  869‰
+      $8 #143   ~3 meringue        31.49°C 😎  845‰
+      $9  #59  ~21 paroi           30.25°C 😎  811‰
+     $10  #93  ~18 manteau         29.46°C 😎  783‰
+     $11 #117  ~14 dessert         28.96°C 😎  763‰
+     $12 #123  ~11 tiramisu        28.12°C 😎  717‰
+     $27 #106      beignet         22.79°C 🥶
+    $150 #152      format          -0.04°C 🧊
