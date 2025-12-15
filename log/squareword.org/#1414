@@ -1,0 +1,103 @@
+T86468.122373462 now: 2025-12-15T08:24:42EST
+TD47 site: squareword.org
+TDD-12 wordlist: nwl2023.txt
+TDD4521591  ...
+TDD-1221686 🧩  ? #1414
+TDD-3299528 puzzle_id: #1414
+TDD1407029 > *
+TDD25219 try? 1
+TDD-1432351 questioning: ["tears", "#5"]
+TDD5573826 #1 <IndexError>  📋 "tears" ? _E___ ~ TA
+TDD-5573460 attempt 0 TEARS m Y m n n
+TDD2078176 #2 <IndexError>  📋 "tears" ? _____ ~ A
+TDD-2078566 attempt 1 TEARS n n m n n
+TDD2346542 #3 <IndexError>  📋 "tears" ? _____ ~ Er
+TDD-2346346 attempt 2 TEARS n m n m n
+TDD3705307 #4 <IndexError>  📋 "tears" ? _____ ~ EAS
+TDD-3705242 attempt 3 TEARS n m m n m
+TDD1958767 #5 <IndexError>  📋 "tears" ? _E__S ~ R
+TDD-1959068 attempt 4 TEARS n Y n m Y
+TDD604454 ? 
+TDD-604374 question done
+TDD574972 > *
+TDD5752480 try? 4
+TDD-6327456 questioning: ["metal", "#1"]
+TDD3271730 #1 _E___ ~AT -RS  📋 "metal" ? /it
+TDD-3271494 attempt 0 METAL Y Y Y Y Y
+TDD3900355 #2 _____ ~A -ERST  📋 "metal" ? _____ ~ AL
+TDD-3900663 attempt 1 METAL n n n m m
+TDD901394 #3 _____ ~ER -AST  📋 "metal" ? .
+TDD-901310 attempt 2 METAL n m n n n
+TDD3593602 #4 _____ ~AES -RT  📋 "metal" ? ___A_ ~ ES
+TDD-3593585 attempt 3 METAL n m n Y n
+TDD2258755 #5 _E__S ~R -AT  📋 "metal" ? .
+TDD-2258791 attempt 4 METAL n Y n n n
+TDD227799 ? 
+TDD-227783 question done
+TDD633455 > *
+TDD13180193 try? 2
+TDD-13813433 questioning: ["alibi", "#2"]
+TDD5046960 #2 _____ ~AL -EMRST  📋 "alibi" ? AL___ ~ A
+TDD-5047202 attempt 1 ALIBI Y Y n n n
+TDD2276012 #3 _____ ~ER -ALMST  📋 "alibi" ? .
+TDD-2275771 attempt 2 ALIBI n n n n n
+TDD4060863 #4 ___A_ ~ES -LMRT  📋 "alibi" ? .
+TDD-4060964 attempt 3 ALIBI n n n n n
+TDD1588254 #5 _E__S ~R -ALMT  📋 "alibi" ? .
+TDD-1588374 attempt 4 ALIBI n n n n n
+TDD274576 ? 
+TDD-274732 question done
+TDD629793 > *
+TDD2610889 try? 1
+TDD-3240446 questioning: ["aloha", "#2"]
+T86579.55379714 now: 2025-12-15T08:26:34EST
+TD84 questioning: ["aloha", "#2"]
+TDD1540970 #2 AL___ -BEIMRST  📋 "aloha" ? /it
+TDD-1540553 attempt 1 ALOHA Y Y Y Y Y
+TDD5500967 #3 _____ ~ER -ABILMST  📋 "aloha" ? _____ ~ ERO
+TDD-5501156 attempt 2 ALOHA n n m n n
+TDD1033328 #4 ___A_ ~ES -ABILMRT  📋 "aloha" ? .
+TDD-1033148 attempt 3 ALOHA n n n n n
+TDD3474605 #5 _E__S ~R -ABILMT  📋 "aloha" ? _E__S ~ RH
+TDD-3474631 attempt 4 ALOHA n n n m n
+TDD854184 ? 
+TDD-854491 question done
+TDD506636 > *
+TDD1276393 questioning: ["herds", "#5"]
+TDD4989570 #3 _____ ~EOR -ABHILMST  📋 "herds" ? .
+TDD-6772547 attempt 2 HERDS n m m n n
+TDD4058347 #4 ___A_ ~ES -ABHILMORT  📋 "herds" ? .
+TDD-4058114 attempt 3 HERDS n m n n m
+TDD646306 #5 _E__S ~HR -ABILMOT  📋 "herds" ? /it
+TDD-646289 attempt 4 HERDS Y Y Y Y Y
+TDD202551 ? 
+TDD-202803 question done
+TDD551027 > *
+TDD6771390 try? 1
+TDD-7322113 questioning: ["speak", "#4"]
+TDD3164931 #3 _____ ~EOR -ABDHILMST  📋 "speak" ? .
+TDD-3165122 attempt 2 SPEAK n n m n n
+TDD624923 #4 ___A_ ~ES -ABDHILMORT  📋 "speak" ? /it
+TDD-624994 attempt 3 SPEAK Y Y Y Y Y
+TDD230581 ? 
+TDD-230569 question done
+TDD494486 > *
+TDD481214 questioning: ["rower", "#3"]
+TDD1835334 #3 _____ ~EOR -ABDHIKLMPST  📋 "rower" ? /it
+TDD-2811020 attempt 2 ROWER Y Y Y Y Y
+TDD925357 ? 
+TDD-925346 question done
+TDD17627915 📋> squareword.org 1414: 7 guesses
+TDD-17628108 📋> 
+TDD-72 📋> 🟩🟩🟩🟩🟩
+TDD-10 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD-1 📋> 🟨🟨🟨🟩🟨
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD296353 📋> #squareword #squareword1414
+TDD-60287 📋> ␚
+TDD-235910 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1414: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1414"}
+TDD616 result: "squareword.org 1414: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1414"
+TDD249788 📆 2025-12-15 ? 
