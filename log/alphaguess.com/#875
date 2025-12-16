@@ -1,0 +1,55 @@
+T79248.956753962 now: 2025-12-16T09:09:10EST
+TD58 site: alphaguess.com
+TDD81785 loaded 196540 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (63 words excluded) asof b341e1f9117360306f59c3b903982717136e8cee
+TDD9371082  ...
+TDD-5285368 [0 : 98225 : 196540] mach? b
+TDD-4167264 progress: -1 98225 mach
+TDD1663438 [0 : 47387 : 98225] dis? b
+TDD-1663624 progress: -1 47387 dis
+TDD1487761 [0 : 23688 : 47387] camp? a
+TDD-1487734 progress: 1 23688 camp
+TDD3191688 [23689 : 35531 : 47387] convention? a
+TDD-3191685 progress: 1 35531 convention
+TDD1671750 [35532 : 40847 : 47387] da? b
+TDD-1671744 progress: -1 40847 da
+TDD2519780 [35532 : 38190 : 40847] crazy? b
+TDD-2519786 progress: -1 38190 crazy
+TDD1967890 [35532 : 36732 : 38190] cos? b
+TDD-1967886 progress: -1 36732 cos
+TDD2415392 [35532 : 36097 : 36732] cor? b
+TDD-2415396 progress: -1 36097 cor
+TDD1639939 [35532 : 35785 : 36097] coop? b
+TDD-1639939 progress: -1 35785 coop
+TDD1447671 [35532 : 35647 : 35785] convo? bn
+TDD368141 [35532 : 35647 : 35785] convo? b
+TDD-1815806 progress: -1 35647 convo
+TDD2112238 [35532 : 35583 : 35647] convert? b
+TDD-2112240 progress: -1 35583 convert
+TDD1583302 [35532 : 35557 : 35583] conversances? b
+TDD-1583333 progress: -1 35557 conversances
+TDD1479979 [35532 : 35543 : 35557] conventual? a
+TDD-1479939 progress: 1 35543 conventual
+TDD1407739 [35544 : 35546 : 35557] converge? a
+TDD-1407753 progress: 1 35546 converge
+TDD1815731 [35547 : 35552 : 35557] convergent? b
+TDD-1815722 progress: -1 35552 convergent
+TDD1383599 [35547 : 35549 : 35552] convergences? b
+TDD-1383627 progress: -1 35549 convergences
+TDD4575803 [35547 : 35548 : 35549] convergence? it
+TDD-4575799 progress: 0 35548 convergence
+TDD-97 [35547 : 35548 : 35549] <Done>.
+TDD7584464 📋> 🧩 Puzzle #875
+TDD-7584391 📋> 
+TDD-80 📋> 🤔 17 guesses
+TDD-4 📋> 
+TDD3 📋> ⏱️ 32s
+TDD-2 📋> 
+TDD719419 📋> 🔗 alphaguess.com
+TDD-351421 📋> ␚
+TDD-367921 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #875\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 32s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-16 result: "\ud83e\udde9 Puzzle #875\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 32s\n\n\ud83d\udd17 alphaguess.com"
+TDD-63 result puzzle: 875
+TDD-6 result guesses: 17
+TDD-1 result time: 32s
+TDD0 result link: alphaguess.com
+TDD351885 📆 2025-12-16 ? 
