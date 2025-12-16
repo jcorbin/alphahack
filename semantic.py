@@ -697,6 +697,7 @@ class Search(StoredLog):
         self.explain_auto: bool = False
         self.auto_token_limit = 400
         self.full_auto: bool = False
+        self.auto_affix: str = ''
 
         self.play = self.std_prompt
         self.play.mess = '> '
@@ -1214,6 +1215,18 @@ class Search(StoredLog):
                     self.chat_clear(ui)
                     continue
 
+                match = re.match(r'''(?x)
+                    auto_affix :
+                    \s*
+                    (?P<affix> .* )
+                    $''', rest)
+                if match:
+                    raw, = match.groups()
+                    affix = cast(object, json.loads(raw))
+                    if isinstance(affix, str):
+                        self.auto_affix = affix
+                    continue
+
                 yield t, rest
 
     def describe_word(self, i: int, ix: int|None = None, word: str|None = None):
@@ -1401,6 +1414,21 @@ class Search(StoredLog):
                 ui.print(f'- score: {self.auto_score}')
                 ui.print(f'- explain: {self.explain_auto}')
                 ui.print(f'- token limit: {self.auto_token_limit}')
+                ui.print(f'- affix: {self.auto_affix!r}')
+                return
+
+            if tokens.have(r'affix'):
+                affix = self.auto_affix
+                if tokens.have(r'-'):
+                    affix = tokens.rest
+                else:
+                    affix += tokens.rest
+                if affix != self.auto_affix:
+                    ui.log(f'auto_affix: {json.dumps(affix)}')
+                    self.auto_affix = affix
+                    ui.print(f'set auto affix: {self.auto_affix!r}')
+                else:
+                    ui.print(f'auto affix: {self.auto_affix!r}')
                 return
 
             if tokens.have(r'explain'):
@@ -2237,10 +2265,10 @@ class Search(StoredLog):
 
     def auto_explore(self) -> Generator[tuple[float, str, Explainable]]:
         if self.attempt == 0 and not self.chat:
-            yield 1.0, '* // 🎲 init random', '1.00 fixed'
+            yield 1.0, f'* {self.auto_affix} // 🎲 init random', '1.00 fixed'
             return
         elif not self.word:
-            yield 0.9, '* // 🎲 sus random', '0.90 fixed'
+            yield 0.9, f'* {self.auto_affix} // 🎲 sus random', '0.90 fixed'
             return
 
         lcp = self.last_known_prompt()
@@ -2254,12 +2282,12 @@ class Search(StoredLog):
             yield f'gen = {gen}'
 
         if not (lcp and any(lcp.refs())):
-            yield score, f'*{gen} $1 /clear // 🔭 init', explain_init_gen
+            yield score, f'*{gen} $1 {self.auto_affix} /clear // 🔭 init', explain_init_gen
             return
 
         if self.chat_stats().token_count > self.auto_token_limit:
             # TODO '_ /clear' or '* ... /clear' rather than reset refs?
-            yield score, f'*{gen} $1 /clear // 🔭🪙 reset', explain_init_gen
+            yield score, f'*{gen} $1 {self.auto_affix} /clear // 🔭🪙 reset', explain_init_gen
             return
 
         bc = self.analyze_basis()
@@ -2304,7 +2332,7 @@ class Search(StoredLog):
                 yield f'may_gen = {lcp.count}'
 
             gen_refs = ' '.join(f'{k}{n}' for k, n in refs)
-            yield score, f'* {gen_refs} !new // 🔭 {desc}', explain_expand
+            yield score, f'* {gen_refs} {self.auto_affix} !new // 🔭 {desc}', explain_expand
 
     def ref_word(self, ui: PromptUI, match: re.Match[str]):
         refs = list(word_match_refs(match))
