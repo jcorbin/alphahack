@@ -1,0 +1,61 @@
+T79724.22360340001 now: 2025-12-16T09:17:05EST
+TD52 site: dontwordle.com
+TDD-22 wordlist: nwl2023.txt
+TDD5448184  ...
+TDD-2952951 1> * -bot 10
+TDD-702779 ? 1
+TDD3055270 📋 "lares" ? nnnnM
+TDD-4847502 tried: LARES n n n n m
+TDD734892 2> undo
+TDD-734958 undo
+TDD608078 1> *
+TDD6511285 ? 1
+TDD-4557892 📋 "yukky" ? nMMnn
+TDD-2561270 tried: YUKKY n m m n n
+TDD670294 2> undo
+TDD-670538 undo
+TDD3167514 1> *
+TDD-2255181 ? 1
+TDD3136721 📋 "ebbet" ? nnnnn
+TDD-4048800 tried: EBBET n n n n n
+TDD478670 2> *
+TDD336366 ? 1
+TDD4008309 📋 "ragga" ? nnnnn
+TDD-4823523 tried: RAGGA n n n n n
+TDD415225 3> *
+TDD497256 ? 1
+TDD3222598 📋 "villi" ? nnnnn
+TDD-4135071 tried: VILLI n n n n n
+TDD495869 4> *
+TDD488813 ? 1
+TDD3486230 📋 "poppy" ? nnnnn
+TDD-4470904 tried: POPPY n n n n n
+TDD416596 5> *
+TDD862152 ? 1
+TDD3457107 📋 "chuff" ? MYYnn
+TDD-4735897 tried: CHUFF m Y Y n n
+TDD710878 6> undo
+TDD-710919 undo
+TDD3041173 5> *
+TDD2181334 📋 "kudzu" ? MMnnn
+TDD-5222431 tried: KUDZU m m n n n
+TDD384074 6> *
+TDD4751084 📋 "skunk" ? YnYnY
+TDD-5135142 tried: SKUNK Y n Y n Y
+TDD3872928 📋> Don't Wordle 1302 - SURVIVED
+TDD-3873066 📋> Hooray! I didn't Wordle today!
+TDD-86 📋> ⬜⬜⬜⬜⬜4685
+TDD-8 📋> ⬜⬜⬜⬜⬜1384
+TDD-3 📋> ⬜⬜⬜⬜⬜535
+TDD0 📋> ⬜⬜⬜⬜⬜68
+TDD3 📋> 🟨🟨⬜⬜⬜5
+TDD-4 📋> 🟩⬜🟩⬜🟩1
+TDD0 📋> Undos used: 3
+TDD2 📋> 
+TDD17 📋>   1 words remaining
+TDD9 📋> x 8 unused letters
+TDD526879 📋> = 8 total score
+TDD-22935 📋> ␚
+TDD-503825 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1302 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4685\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1384\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c535\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c68\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c5\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"}
+TDD936 result: "Don't Wordle 1302 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4685\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1384\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c535\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c68\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c5\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"
+TDD437024 📆 2025-12-16 ? 
