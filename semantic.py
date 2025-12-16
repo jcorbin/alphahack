@@ -1403,14 +1403,14 @@ class Search(StoredLog):
                 ui.print(f'- token limit: {self.auto_token_limit}')
                 return
 
-            if tokens.have(r'score'):
-                self.auto_score = (not self.auto_score) if tokens.empty else any(next(tokens).lower().startswith(c) for c in 'yt')
-                ui.print(f'auto score: {self.auto_score}')
-                return
-
             if tokens.have(r'explain'):
                 self.explain_auto = (not self.explain_auto) if tokens.empty else any(next(tokens).lower().startswith(c) for c in 'yt')
                 ui.print(f'auto explain: {self.explain_auto}')
+                return
+
+            if tokens.have(r'score'):
+                self.auto_score = (not self.auto_score) if tokens.empty else any(next(tokens).lower().startswith(c) for c in 'yt')
+                ui.print(f'auto score: {self.auto_score}')
                 return
 
             if tokens.have(r'toklim'):
