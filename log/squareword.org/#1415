@@ -1,0 +1,101 @@
+T79314.732414745 now: 2025-12-16T09:10:16EST
+TD53 site: squareword.org
+TDD-18 wordlist: nwl2023.txt
+TDD7223694  ...
+TDD-3704540 🧩  ? #1415
+TDD-3518971 puzzle_id: #1415
+TDD1065553 > *
+TDD5422 try? 1
+TDD-1070849 questioning: ["lears", "#5"]
+TDD4479518 #1 <IndexError>  📋 "lears" ? _____ ~ ARS
+TDD-4479133 attempt 0 LEARS n n m m m
+TDD3422439 #2 <IndexError>  📋 "lears" ? _E___ ~ E
+TDD-3422686 attempt 1 LEARS n Y n n n
+TDD3150717 #3 <IndexError>  📋 "lears" ? _____ ~ ER
+TDD-3150889 attempt 2 LEARS n m n m n
+TDD2879464 #4 <IndexError>  📋 "lears" ? ___R_ ~ S
+TDD-2879435 attempt 3 LEARS n n n Y m
+TDD3943000 #5 <IndexError>  📋 "lears" ? _E__S
+TDD-3943052 attempt 4 LEARS n Y n n Y
+TDD319391 ? 
+TDD-319491 question done
+TDD616340 > *
+TDD19807336 try? 7
+TDD-20423524 questioning: ["storm", "#4"]
+TDD8616585 #1 _____ ~ARS -EL  📋 "storm" ? ST___ ~ AR
+TDD-8616493 attempt 0 STORM Y Y n m n
+TDD4246145 #2 _E___ -ALRS  📋 "storm" ? _E___ ~ E
+TDD-4246343 attempt 1 STORM n n n n n
+TDD4143647 #3 _____ ~ER -ALS  📋 "storm" ? _____ ~ ERO
+TDD-4143594 attempt 2 STORM n n m m n
+TDD2159038 #4 ___R_ ~S -AEL  📋 "storm" ? .
+TDD-2159005 attempt 3 STORM m n n Y n
+TDD4015405 #5 _E__S -ALR  📋 "storm" ? _E__S ~ T
+TDD-4015498 attempt 4 STORM n m n n n
+TDD376420 ? 
+TDD-376482 question done
+TDD8078374 > *
+TDD-3181991 try? 2
+TDD-4896224 questioning: ["usurp", "#4"]
+TDD10183188 #1 ST___ ~AR -ELMO  📋 "usurp" ? ST__P ~ AR
+TDD-10183223 attempt 0 USURP n n n m Y
+TDD3672209 #2 _E___ -ALMORST  📋 "usurp" ? _E___ ~ EP
+TDD-3671548 attempt 1 USURP n n n n m
+TDD1213946 #3 _____ ~EOR -ALMST  📋 "usurp" ? .
+TDD-1214605 attempt 2 USURP n n n m n
+TDD1208328 #4 ___R_ ~S -AELMOT  📋 "usurp" ? /it
+TDD-1208136 attempt 3 USURP Y Y Y Y Y
+TDD2829760 #5 _E__S ~T -ALMORS  📋 "usurp" ? .
+TDD-2829959 attempt 4 USURP n n n n n
+TDD207607 ? 
+TDD-207725 question done
+TDD487859 > *
+TDD214826 questioning: ["strap", "#1"]
+TDD3241912 #1 ST__P ~AR -ELMOSU  📋 "strap" ? /it
+TDD-3944542 attempt 0 STRAP Y Y Y Y Y
+TDD5335435 #2 _E___ ~P -ALMORSTU  📋 "strap" ? _E___ ~ EP
+TDD-5335357 attempt 1 STRAP n n n n m
+TDD2576068 #3 _____ ~EOR -ALMPSTU  📋 "strap" ? .
+TDD-2576078 attempt 2 STRAP n n m n n
+TDD1223912 #5 _E__S ~T -ALMOPRSU  📋 "strap" ? .
+TDD-1223747 attempt 4 STRAP n m n n n
+TDD176584 ? 
+TDD-176760 question done
+TDD453862 > *
+TDD210063 questioning: ["peeve", "#2"]
+TDD2744570 #2 _E___ ~P -ALMORSTU  📋 "peeve" ? /it
+TDD-3408548 attempt 1 PEEVE Y Y Y Y Y
+TDD3709956 #3 _____ ~EOR -ALMPSTU  📋 "peeve" ? .
+TDD-3709954 attempt 2 PEEVE n m m n m
+TDD1208270 #5 _E__S ~T -ALMOPRSU  📋 "peeve" ? .
+TDD-1208204 attempt 4 PEEVE n Y n n n
+TDD184042 ? 
+TDD-184169 question done
+TDD534648 > *
+TDD588383 questioning: ["order", "#3"]
+TDD2937090 #3 _____ ~EOR -ALMPSTUV  📋 "order" ? /it
+TDD-4060013 attempt 2 ORDER Y Y Y Y Y
+TDD2256978 #5 _E__S ~T -ALMOPRSUV  📋 "order" ? .
+TDD-2256696 attempt 4 ORDER n n n n n
+TDD189118 ? 
+TDD-189561 question done
+TDD551527 > *
+TDD394302 questioning: ["texts", "#5"]
+TDD2804494 #5 _E__S ~T -ADELMOPRSUV  📋 "texts" ? /it
+TDD-3750154 attempt 4 TEXTS Y Y Y Y Y
+TDD959659 ? 
+TDD-959791 question done
+TDD10362390 📋> squareword.org 1415: 7 guesses
+TDD-10362416 📋> 
+TDD-104 📋> 🟩🟩🟩🟩🟩
+TDD-11 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟩🟨🟨🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD516986 📋> #squareword #squareword1415
+TDD-220810 📋> ␚
+TDD-296058 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1415: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1415"}
+TDD891 result: "squareword.org 1415: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1415"
+TDD437930 📆 2025-12-16 ? 
