@@ -1052,6 +1052,7 @@ class Search(StoredLog):
 
             match = re_word_match(ui.tokens)
             if match:
+                # TODO loosen to allow may-only
                 try:
                     res = re_word_feedback(self.guess, match)
                 except (ValueError, IndexError):
