@@ -986,6 +986,9 @@ class Search(StoredLog):
                 self.guess, self.collect,
                 prefix=self.qn_prefix,
                 reject=reject)
+            self.qn.prompt.update({
+                '/it': self.do_it,
+            })
 
         def collect(self, guess: str, res: Feedback):
             return self.record(self.word_i, guess, res)
@@ -1004,6 +1007,10 @@ class Search(StoredLog):
         def qn_prefix(self):
             word = (self.words[self.word_i] if 0 <= self.word_i < len(self.words) else None)
             return f'#{self.word_i+1} {word or "<IndexError>"} '
+
+        def do_it(self, _ui: PromptUI):
+            res = (2,)*len(self.guess)
+            return self.collect(self.guess, res)
 
         def __call__(self, ui: PromptUI):
             st = self.seek(ui)
