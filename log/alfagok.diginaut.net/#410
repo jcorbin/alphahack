@@ -1,0 +1,53 @@
+T8408.893499860002 now: 2025-12-17T09:12:27EST
+TD55 site: alfagok.diginaut.net
+TDD147444 loaded 399716 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1136 words excluded) asof 5d97b7d4e06bebe17b2417c020eba84dbc9a56da
+TDD5920386  ...
+TDD-1618167 [0 : 199839 : 399716] lijm? a
+TDD-4449352 progress: 1 199839 lijm
+TDD20885915 [199840 : 299761 : 399716] schub? a
+TDD-20885962 progress: 1 299761 schub
+TDD21142331 [299762 : 349546 : 399716] vakantie? b
+TDD-21142497 progress: -1 349546 vakantie
+TDD39232130 [299762 : 324337 : 349546] sub? a
+TDD-39232119 progress: 1 324337 sub
+TDD1944380 [324338 : 336939 : 349546] toetsing? a
+TDD-1944272 progress: 1 336939 toetsing
+TDD2494592 [336940 : 343129 : 349546] tv? a
+TDD-2494709 progress: 1 343129 tv
+TDD1694845 [343130 : 344200 : 349546] uit? a
+TDD-1694847 progress: 1 344200 uit
+TDD1577319 [344201 : 346868 : 349546] uitschreeuw? a
+TDD-1577208 progress: 1 346868 uitschreeuw
+TDD2166725 [346869 : 348207 : 349546] uitzuig? b
+TDD-2166832 progress: -1 348207 uitzuig
+TDD1959642 [346869 : 347524 : 348207] uitvind? a
+TDD-1959651 progress: 1 347524 uitvind
+TDD2895311 [347525 : 347866 : 348207] uitwiedt? b
+TDD-2895315 progress: -1 347866 uitwiedt
+TDD3945057 [347525 : 347632 : 347866] uitvoering? b
+TDD-3944946 progress: -1 347632 uitvoering
+TDD4934560 [347525 : 347564 : 347632] uitvloei? b
+TDD-4934662 progress: -1 347564 uitvloei
+TDD5143285 [347525 : 347541 : 347564] uitvis? b
+TDD-5143292 progress: -1 347541 uitvis
+TDD2047910 [347525 : 347529 : 347541] uitvinders? b
+TDD-2047897 progress: -1 347529 uitvinders
+TDD1903782 [347525 : 347528 : 347529] uitvinder? b
+TDD-1903794 progress: -1 347528 uitvinder
+TDD1711708 [347525 : 347526 : 347528] uitvindend? b
+TDD-1711700 progress: -1 347526 uitvindend
+TDD2383542 [347525 : 347525 : 347526] uitvinden? it
+TDD-2383541 progress: 0 347525 uitvinden
+TDD-125 [347525 : 347525 : 347526] <Done>.
+TDD4384386 📋> 🧩 Puzzel #410
+TDD-4384313 📋> 🤔 18 gokken
+TDD-85 📋> ⏱️ 1m 58s
+TDD511338 📋> 🔗 alfagok.diginaut.net
+TDD1809740 📋> ␚
+TDD-2320870 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #410\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 1m 58s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD340 result: "\ud83e\udde9 Puzzel #410\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 1m 58s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-552 result puzzle: 410
+TDD-9 result guesses: 18
+TDD-2 result time: 1m 58s
+TDD0 result link: alfagok.diginaut.net
+TDD2661436 📆 2025-12-17 ? 
