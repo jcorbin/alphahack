@@ -1,0 +1,124 @@
+T8712.468245862001 now: 2025-12-17T09:17:30EST
+TD101 site: squareword.org
+TDD-45 wordlist: nwl2023.txt
+TDD3542649  ...
+TDD66205 🧩  ? #1416
+TDD-3608681 puzzle_id: #1416
+TDD15464176 > *
+TDD-13712084 try? 1
+TDD-1751926 questioning: ["earns", "#5"]
+TDD6613662 #1 <IndexError>  📋 "earns" ? _____ ~ EAS
+TDD-6613378 attempt 0 EARNS m m n n m
+TDD2862674 #2 <IndexError>  📋 "earns" ? _____ ~ A
+TDD-2863042 attempt 1 EARNS n m n n n
+TDD3175189 #3 <IndexError>  📋 "earns" ? _A___ ~ S
+TDD-3175253 attempt 2 EARNS n Y n n m
+TDD2503312 #4 <IndexError>  📋 "earns" ? E____ ~ E
+TDD-2503256 attempt 3 EARNS Y n n n n
+TDD2447480 #5 <IndexError>  📋 "earns" ? _AR__ ~ ER
+TDD-2447496 attempt 4 EARNS m Y Y n n
+TDD791436 ? 
+TDD-791541 question done
+TDD10321157 > *
+TDD-8586091 try? 1
+TDD-1734936 questioning: ["emoji", "#4"]
+TDD7966277 #1 _____ ~AES -NR  📋 "emoji" ? .
+TDD-7966373 attempt 0 EMOJI m n n n n
+TDD2761587 #2 _____ ~A -ENRS  📋 "emoji" ? _____ ~ AM
+TDD-2761299 attempt 1 EMOJI n m n n n
+TDD2974129 #3 _A___ ~S -ENR  📋 "emoji" ? _A___ ~ SI
+TDD-2974325 attempt 2 EMOJI n n n n m
+TDD2743799 #4 E____ -ANRS  📋 "emoji" ? EMO__ ~ E
+TDD-2743828 attempt 3 EMOJI Y Y Y n n
+TDD7615710 #5 _AR__ ~E -NS  📋 "emoji" ? _AR__ ~ ER
+TDD-7615570 attempt 4 EMOJI m n n n n
+TDD214402 ? 
+TDD-214641 question done
+TDD1584217 > *
+TDD-952115 questioning: ["emote", "#4"]
+TDD6854682 #1 _____ ~AES -IJMNOR  📋 "emote" ? ____E ~ AS
+TDD-7486665 attempt 0 EMOTE n n n n Y
+TDD1656885 #2 _____ ~AM -EIJNORS  📋 "emote" ? .
+TDD-1656921 attempt 1 EMOTE n m n n n
+TDD1406366 #3 _A___ ~IS -EJMNOR  📋 "emote" ? .
+TDD-1406302 attempt 2 EMOTE n n n n n
+TDD846521 #4 EMO__ -AIJNRS  📋 "emote" ? /it
+TDD-846553 attempt 3 EMOTE Y Y Y Y Y
+TDD8569002 #5 _AR__ ~E -IJMNOS  📋 "emote" ? _AR__ ~ ER
+TDD-8569052 attempt 4 EMOTE m n n n m
+TDD943625 ? 
+TDD-943579 question done
+TDD3334196 > *
+TDD850526 try? 2
+TDD-4184478 questioning: ["slave", "#1"]
+TDD8981828 #1 ____E ~AS -IJMNORT  📋 "slave" ? _LA_E ~ S
+TDD-8982143 attempt 0 SLAVE m Y Y n Y
+TDD5607706 #2 _____ ~AM -EIJNORST  📋 "slave" ? _L___ ~ AM
+TDD-5607631 attempt 1 SLAVE n Y m n n
+TDD3496607 #3 _A___ ~IS -EJMNORT  📋 "slave" ? SA___ ~ I
+TDD-3496425 attempt 2 SLAVE Y n n n n
+TDD6277609 #5 _AR__ ~E -IJMNOST  📋 "slave" ? _AR__ ~ ER
+TDD-6277792 attempt 4 SLAVE n n n n m
+TDD735748 ? 
+TDD-735897 question done
+TDD2774668 > *
+TDD-1521076 questioning: ["blase", "#1"]
+TDD1844505 #1 _LA_E ~S -IJMNORTV  📋 "blase" ? /it
+TDD-3097953 attempt 0 BLASE Y Y Y Y Y
+TDD4377822 #2 _L___ ~AM -EIJNORSTV  📋 "blase" ? _L___ ~ AMB
+TDD-4377614 attempt 1 BLASE m Y m n n
+TDD5077558 #3 SA___ ~I -AEJLMNORTV  📋 "blase" ? SA___ ~ IB
+TDD-5077767 attempt 2 BLASE m n n n n
+TDD5367678 #5 _AR__ ~E -AIJLMNOSTV  📋 "blase" ? _AR__ ~ ER
+TDD-5367731 attempt 4 BLASE n n n n m
+TDD576398 ? 
+TDD-576295 question done
+TDD967273 > *
+TDD440287 questioning: ["album", "#2"]
+TDD4807346 #2 _L___ ~ABM -EIJNORSTV  📋 "album" ? /it
+TDD-6215010 attempt 1 ALBUM Y Y Y Y Y
+TDD1680331 #3 SA___ ~BI -AEJLMNORSTV  📋 "album" ? .
+TDD-1680292 attempt 2 ALBUM n n m n n
+TDD3383486 #5 _AR__ ~E -ABIJLMNOSTV  📋 "album" ? _AR__ ~ ER
+TDD-3383344 attempt 4 ALBUM n n n n n
+TDD199798 ? 
+TDD-199913 question done
+TDD678102 > *
+TDD588922 questioning: ["sahib", "#3"]
+TDD1872652 #3 SA___ ~BI -AEJLMNORSTUV  📋 "sahib" ? /it
+TDD-3139694 attempt 2 SAHIB Y Y Y Y Y
+TDD3416477 #5 _AR__ ~E -ABIJLMNOSTUV  📋 "sahib" ? _AR__ ~ ER
+TDD-3416553 attempt 4 SAHIB n Y n n n
+TDD159384 ? 
+TDD-159452 question done
+TDD495440 > *
+TDD4368261 try? 4
+TDD-4863520 questioning: ["rared", "#5"]
+TDD6103603 #5 _AR__ ~E -BHIJLMNOSTUV  📋 "rared" ? RAR_R ~ E
+TDD-6103707 attempt 4 RARED Y Y Y m n
+TDD598812 ? 
+TDD-598882 question done
+TDD568301 > *
+TDD1223621 > *
+TDD2855740 > /help
+TDD19807946 > /man 5 RAR_R ~ E
+TDD-17143974 > /man 5 RAR_R ~E
+TDD-6783020 questioning: ["RARER", "#5"]
+TDD3926253 #5 RAR__ ~E -BDEHIJLMNOSTUV  📋 "RARER" ? /it
+TDD-4454748 attempt 4 RARER Y Y Y Y Y
+TDD2247980 ? ␚
+TDD-2248151 question done
+TDD5248108 📋> squareword.org 1416: 9 guesses
+TDD-5248116 📋> 
+TDD-71 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟨🟩🟨🟨🟨
+TDD-1 📋> 🟩🟩🟨🟨🟨
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD1 📋> 🟨🟩🟩🟨🟨
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD398966 📋> #squareword #squareword1416
+TDD-6824 📋> ␚
+TDD-392015 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1416: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1416"}
+TDD403 result: "squareword.org 1416: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1416"
+TDD1159375 📆 2025-12-17 ? 
