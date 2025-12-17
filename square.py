@@ -44,6 +44,15 @@ def re_word_match(tokens: PromptUI.Tokens):
         tokens.rest = rest[match.end(0):] 
     return match
 
+def re_word_feedback(word: str, match: re.Match[str]):
+    word_str = cast(str, match[1] or '')
+    may_str = cast(str, match[2] or '')
+    yes = tuple('' if c == '_' else c for c in word_str.upper() if c != ' ')
+    may = set(
+        m.group(0)
+        for m in re.finditer(r'[A-Z]', may_str.upper()))
+    return infer_word_feedback(word, yes, may)
+
 def infer_word_feedback(word: str,
                         yes: Sequence[str],
                         may: Container[str]|Iterable[str]) -> Feedback:
@@ -999,6 +1008,8 @@ class Search(StoredLog):
                 '/it': self.do_it,
                 '/same': self.do_same,
                 '/show': self.show_feedback,
+                ' ': self.parse,
+                '=': self.qn.parse,
                 '.': '/same',
             })
 
@@ -1028,6 +1039,28 @@ class Search(StoredLog):
             word = self.words[self.word_i]
             res = infer_word_feedback(self.guess, word.yes, word.may)
             return self.collect(self.guess, res)
+
+        def parse(self, ui: PromptUI):
+            n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+            if n is not None:
+                i = n - 1
+                if 0 <= i < len(self.words):
+                    self.word_i = i
+                    return self.qn
+                ui.print('! invalid word number')
+                return
+
+            match = re_word_match(ui.tokens)
+            if match:
+                try:
+                    res = re_word_feedback(self.guess, match)
+                except (ValueError, IndexError):
+                    ui.print('! invalid feedback')
+                    return
+                return self.collect(self.guess, res)(ui)
+
+            if ui.tokens:
+                ui.print('! invalid response')
 
         def __call__(self, ui: PromptUI):
             st = self.seek(ui)
