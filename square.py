@@ -4,7 +4,7 @@ import argparse
 import json
 import re
 from collections import Counter, OrderedDict
-from collections.abc import Generator, Iterable, Sequence
+from collections.abc import Container, Generator, Iterable, Sequence
 from dataclasses import dataclass
 from functools import partial
 from itertools import chain
@@ -14,7 +14,7 @@ from sortem import Chooser, DiagScores, Possible, RandScores, wrap_item
 from store import StoredLog, git_txn
 from strkit import MarkedSpec, PeekStr, spliterate
 from ui import PromptUI
-from wordlish import feedback_letters, Attempt, Question, Word
+from wordlish import feedback_letters, Attempt, Feedback, Question, Word
 from wordlist import WordList
 
 def pad_rows(rows: Iterable[Iterable[str]]):
@@ -43,6 +43,15 @@ def re_word_match(tokens: PromptUI.Tokens):
     if match:
         tokens.rest = rest[match.end(0):] 
     return match
+
+def infer_word_feedback(word: str,
+                        yes: Sequence[str],
+                        may: Container[str]|Iterable[str]) -> Feedback:
+    return tuple(
+        2 if yes[j].upper() == c
+        else 1 if c in may
+        else 0
+        for j, c in enumerate(word.upper()))
 
 @final
 class Search(StoredLog):
@@ -988,6 +997,8 @@ class Search(StoredLog):
                 reject=reject)
             self.qn.prompt.update({
                 '/it': self.do_it,
+                '/same': self.do_same,
+                '.': '/same',
             })
 
         def collect(self, guess: str, res: Feedback):
@@ -1010,6 +1021,11 @@ class Search(StoredLog):
 
         def do_it(self, _ui: PromptUI):
             res = (2,)*len(self.guess)
+            return self.collect(self.guess, res)
+
+        def do_same(self, _ui: PromptUI):
+            word = self.words[self.word_i]
+            res = infer_word_feedback(self.guess, word.yes, word.may)
             return self.collect(self.guess, res)
 
         def __call__(self, ui: PromptUI):
