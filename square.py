@@ -364,6 +364,8 @@ class Search(StoredLog):
         for let in self.grid:
             if let: yield let
         for word in self.row_words:
+            # for c in word.yes:
+            #     if c: yield c
             yield from word.may
 
     recent_sug: dict[str, int] = dict()
