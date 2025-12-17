@@ -998,6 +998,7 @@ class Search(StoredLog):
             self.qn.prompt.update({
                 '/it': self.do_it,
                 '/same': self.do_same,
+                '/show': self.show_feedback,
                 '.': '/same',
             })
 
