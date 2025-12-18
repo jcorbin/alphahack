@@ -1,0 +1,46 @@
+T486.10646265899413 now: 2025-12-18T09:31:13EST
+TD57 site: alphaguess.com
+TDD66654 loaded 196540 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (63 words excluded) asof 0bb5749515800a8ad085b20eb9539ba14a652a7f
+TDD4497523  ...
+TDD-1916621 [0 : 98225 : 196540] mach? b
+TDD-2647463 progress: -1 98225 mach
+TDD1655960 [0 : 47387 : 98225] dis? a
+TDD-1655940 progress: 1 47387 dis
+TDD1391433 [47388 : 72806 : 98225] gremmy? b
+TDD-1391491 progress: -1 72806 gremmy
+TDD1263975 [47388 : 60090 : 72806] face? a
+TDD-1263945 progress: 1 60090 face
+TDD1255565 [60091 : 66446 : 72806] french? a
+TDD-1255561 progress: 1 66446 french
+TDD1319703 [66447 : 69626 : 72806] geosynclinal? a
+TDD-1319706 progress: 1 69626 geosynclinal
+TDD1271809 [69627 : 71216 : 72806] gnomist? a
+TDD-1271809 progress: 1 71216 gnomist
+TDD1375491 [71217 : 72011 : 72806] gracioso? b
+TDD-1375511 progress: -1 72011 gracioso
+TDD1255952 [71217 : 71232 : 72011] go? a
+TDD-1255941 progress: 1 71232 go
+TDD7679775 [71233 : 71615 : 72011] good? b
+TDD-7679763 progress: -1 71615 good
+TDD2127831 [71233 : 71424 : 71615] goglets? a
+TDD-2127868 progress: 1 71424 goglets
+TDD5311665 [71425 : 71517 : 71615] gombeen? b
+TDD-5311654 progress: -1 71517 gombeen
+TDD2823644 [71425 : 71444 : 71517] gold? it
+TDD-2823631 progress: 0 71444 gold
+TDD-107 [71425 : 71444 : 71517] <Done>.
+TDD2904245 📋> 🧩 Puzzle #877
+TDD-2904172 📋> 
+TDD-82 📋> 🤔 13 guesses
+TDD10 📋> 
+TDD-12 📋> ⏱️ 28s
+TDD-5 📋> 
+TDD391391 📋> 🔗 alphaguess.com
+TDD-143305 📋> ␚
+TDD-247998 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #877\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 28s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-29 result: "\ud83e\udde9 Puzzle #877\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 28s\n\n\ud83d\udd17 alphaguess.com"
+TDD-59 result puzzle: 877
+TDD-4 result guesses: 13
+TDD0 result time: 28s
+TDD0 result link: alphaguess.com
+TDD295990 📆 2025-12-18 ? 
