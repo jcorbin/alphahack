@@ -1,0 +1,120 @@
+T541.5523237060115 now: 2025-12-18T09:32:09EST
+TD109 site: squareword.org
+TDD-45 wordlist: nwl2023.txt
+TDD8632934  ...
+TDD-6520129 🧩  ? #1417
+TDD-2112649 puzzle_id: #1417
+TDD3350954 > *
+TDD-2174771 try? 1
+TDD-1176023 questioning: ["serai", "#5"]
+TDD5527457 #1 <IndexError>  📋 "serai" ? ___A_ ~ SA
+TDD-5527130 attempt 0 SERAI m n n Y n
+TDD3951354 #2 <IndexError>  📋 "serai" ? _____ ~ RA
+TDD-3951754 attempt 1 SERAI n n m m n
+TDD4086863 #3 <IndexError>  📋 "serai" ? _____ ~ SAI
+TDD-4086881 attempt 2 SERAI m n n m m
+TDD2519006 #4 <IndexError>  📋 "serai" ? _____ ~ EI
+TDD-2519087 attempt 3 SERAI n m n n m
+TDD2903560 #5 <IndexError>  📋 "serai" ? S____ ~ ER
+TDD-2903495 attempt 4 SERAI Y m m n n
+TDD471619 ? 
+TDD-471716 question done
+TDD791086 > *
+TDD2017370 try? 2
+TDD-2808382 questioning: ["spore", "#5"]
+TDD8975975 #1 ___A_ ~S -EIR  📋 "spore" ? ___A_ ~ SA
+TDD-8975969 attempt 0 SPORE m n n n n
+TDD2318797 #2 _____ ~AR -EIS  📋 "spore" ? .
+TDD-2318750 attempt 1 SPORE n n n m n
+TDD4544813 #3 _____ ~AIS -ER  📋 "spore" ? _____ ~ SAIO
+TDD-4544639 attempt 2 SPORE m n m n n
+TDD3990225 #4 _____ ~EI -ARS  📋 "spore" ? ____E ~ I
+TDD-3990405 attempt 3 SPORE n n n n Y
+TDD1311133 #5 S____ ~ER -AI  📋 "spore" ? .
+TDD-1311138 attempt 4 SPORE Y n n m m
+TDD199491 ? 
+TDD-199637 question done
+TDD2239919 > *
+TDD8807794 try? 6
+TDD-11047532 questioning: ["oasis", "#3"]
+TDD4671313 #1 ___A_ ~S -EIOPR  📋 "oasis" ? _ASA_
+TDD-4671376 attempt 0 OASIS n Y Y n n
+TDD1143702 #2 _____ ~AR -EIOPS  📋 "oasis" ? .
+TDD-1143694 attempt 1 OASIS n m n n n
+TDD3799910 #3 _____ ~AIOS -EPR  📋 "oasis" ? ____S ~ AIO
+TDD-3799901 attempt 2 OASIS m m n m Y
+TDD1207293 #4 ____E ~I -AOPRS  📋 "oasis" ? .
+TDD-1207159 attempt 3 OASIS n n n m n
+TDD903495 #5 S____ ~ER -AIOP  📋 "oasis" ? .
+TDD-903424 attempt 4 OASIS n n n n n
+TDD190126 ? 
+TDD-190464 question done
+TDD1008605 > *
+TDD3719423 try? ␚
+TDD-4728098 <EOF>
+TDD4919332 > * 3
+TDD552759 try? 2
+TDD-5471944 questioning: ["adios", "#3"]
+TDD4800192 #1 _ASA_ -EIOPR  📋 "adios" ? .
+TDD-4800049 attempt 0 ADIOS n n n n n
+TDD1422417 #2 _____ ~AR -EIOPS  📋 "adios" ? .
+TDD-1422509 attempt 1 ADIOS m n n n n
+TDD734649 #3 ____S ~AIO -EPR  📋 "adios" ? /it
+TDD-734733 attempt 2 ADIOS Y Y Y Y Y
+TDD3800737 #4 ____E ~I -AOPRS  📋 "adios" ? ____E ~ ID
+TDD-3800722 attempt 3 ADIOS n m m n n
+TDD1519119 #5 S____ ~ER -AIOPS  📋 "adios" ? .
+TDD-1519042 attempt 4 ADIOS n n n n n
+TDD207442 ? 
+TDD-207587 question done
+TDD6384078 > *
+TDD-2704124 try? 1
+TDD-3679582 questioning: ["tilde", "#4"]
+TDD7662768 #1 _ASA_ -ADEIOPRS  📋 "tilde" ? _ASA_ ~ L
+TDD-7663002 attempt 0 TILDE n n m n n
+TDD983308 #2 _____ ~AR -DEIOPS  📋 "tilde" ? .
+TDD-983297 attempt 1 TILDE n n n n n
+TDD711823 #4 ____E ~DI -AOPRS  📋 "tilde" ? /it
+TDD-711895 attempt 3 TILDE Y Y Y Y Y
+TDD4399669 #5 S____ ~ER -ADIOPS  📋 "tilde" ? S____ ~ ERT
+TDD-4399571 attempt 4 TILDE m n n n m
+TDD255000 ? 
+TDD-255189 question done
+TDD590951 > *
+TDD955626 questioning: ["steer", "#5"]
+TDD3947467 #1 _ASA_ ~L -ADEIOPRST  📋 "steer" ? .
+TDD-5493897 attempt 0 STEER n n n n n
+TDD879829 #2 _____ ~AR -DEILOPST  📋 "steer" ? .
+TDD-879803 attempt 1 STEER n n n n m
+TDD583269 #5 S____ ~ERT -ADILOPS  📋 "steer" ? /it
+TDD-583285 attempt 4 STEER Y Y Y Y Y
+TDD167267 ? 
+TDD-167432 question done
+TDD575744 > *
+TDD649351 questioning: ["rumba", "#2"]
+TDD7821886 #1 _ASA_ ~L -ADEIOPRST  📋 "rumba" ? _ASA_ ~ LB
+TDD-9046791 attempt 0 RUMBA n n n m n
+TDD695150 #2 _____ ~AR -DEILOPST  📋 "rumba" ? /it
+TDD-695178 attempt 1 RUMBA Y Y Y Y Y
+TDD247419 ? 
+TDD-247559 question done
+TDD1136006 > *
+TDD-238718 questioning: ["basal", "#1"]
+TDD2108657 #1 _ASA_ ~BL -ADEIMOPRSTU  📋 "basal" ? /it
+TDD-3005820 attempt 0 BASAL Y Y Y Y Y
+TDD1304179 ? 
+TDD-1304281 question done
+TDD4879583 📋> squareword.org 1417: 8 guesses
+TDD-4879645 📋> 
+TDD-88 📋> 🟨🟩🟩🟩🟨
+TDD-5 📋> 🟨🟨🟨🟨🟨
+TDD2 📋> 🟩🟩🟩🟩🟩
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟨🟨🟨🟨
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD375461 📋> #squareword #squareword1417
+TDD89322 📋> ␚
+TDD-464536 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1417: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1417"}
+TDD1890 result: "squareword.org 1417: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1417"
+TDD642994 📆 2025-12-18 ? 
