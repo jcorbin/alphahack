@@ -1,0 +1,43 @@
+T75.05852934799623 now: 2025-12-18T09:22:29EST
+TD62 site: alfagok.diginaut.net
+TDD137248 loaded 399716 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1136 words excluded) asof 0bb5749515800a8ad085b20eb9539ba14a652a7f
+TDD3347413  ...
+TDD628032 [0 : 199839 : 399716] lijm? b
+TDD-4112154 progress: -1 199839 lijm
+TDD1590139 [0 : 99760 : 199839] ex? a
+TDD-1590597 progress: 1 99760 ex
+TDD1824210 [99761 : 149457 : 199839] huis? b
+TDD-1824204 progress: -1 149457 huis
+TDD1559493 [99761 : 111415 : 149457] ge? a
+TDD-1559494 progress: 1 111415 ge
+TDD1552143 [111416 : 130436 : 149457] gracieuze? a
+TDD-1552143 progress: 1 130436 gracieuze
+TDD1535704 [130437 : 139793 : 149457] hei? a
+TDD-1535702 progress: 1 139793 hei
+TDD1727335 [139794 : 144563 : 149457] hoek? b
+TDD-1727366 progress: -1 144563 hoek
+TDD4720163 [139794 : 141150 : 144563] her? a
+TDD-4720157 progress: 1 141150 her
+TDD1759782 [141151 : 142777 : 144563] hert? a
+TDD-1759762 progress: 1 142777 hert
+TDD1559011 [142778 : 143605 : 144563] hij? a
+TDD-1559032 progress: 1 143605 hij
+TDD2192483 [143606 : 144079 : 144563] hitler? !
+T10.05047368601663 now: 2025-12-18T09:23:17EST
+TD2427028 [143606 : 144070 : 144562] hit? a
+TDD-2426674 progress: 1 144070 hit
+TDD3167789 [144071 : 144265 : 144562] hobby? it
+TDD-3167860 progress: 0 144265 hobby
+TDD-244 [144071 : 144265 : 144562] <Done>.
+TDD4015776 📋> 🧩 Puzzel #411
+TDD-4015710 📋> 🤔 12 gokken
+TDD-84 📋> ⏱️ 46s
+TDD399026 📋> 🔗 alfagok.diginaut.net
+TDD-63286 📋> ␚
+TDD-335627 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #411\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 46s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD404 result: "\ud83e\udde9 Puzzel #411\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 46s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-508 result puzzle: 411
+TDD-18 result guesses: 12
+TDD-3 result time: 46s
+TDD0 result link: alfagok.diginaut.net
+TDD367578 📆 2025-12-18 ? 
