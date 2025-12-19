@@ -1,0 +1,48 @@
+T100.75224106799578 now: 2025-12-19T08:58:46EST
+TD93 site: alphaguess.com
+TDD71609 loaded 196540 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (63 words excluded) asof 4b0dddea5079fb8dac6d29eb914d72f6e3f27e50
+TDD3767032  ...
+TDD-1998999 [0 : 98225 : 196540] mach? b
+TDD-1839615 progress: -1 98225 mach
+TDD1279667 [0 : 47387 : 98225] dis? a
+TDD-1279671 progress: 1 47387 dis
+TDD1263916 [47388 : 72806 : 98225] gremmy? b
+TDD-1263885 progress: -1 72806 gremmy
+TDD1863417 [47388 : 60090 : 72806] face? b
+TDD-1863422 progress: -1 60090 face
+TDD1287883 [47388 : 53403 : 60090] el? b
+TDD-1287914 progress: -1 53403 el
+TDD1167864 [47388 : 49434 : 53403] do? a
+TDD-1167811 progress: 1 49434 do
+TDD1303616 [49435 : 51408 : 53403] drunk? b
+TDD-1303604 progress: -1 51408 drunk
+TDD1183648 [49435 : 50411 : 51408] dove? b
+TDD-1183706 progress: -1 50411 dove
+TDD1135912 [49435 : 49855 : 50411] dom? a
+TDD-1135879 progress: 1 49855 dom
+TDD1287578 [49856 : 50133 : 50411] dopiest? b
+TDD-1287585 progress: -1 50133 dopiest
+TDD1135816 [49856 : 49940 : 50133] don? a
+TDD-1135842 progress: 1 49940 don
+TDD1263851 [49941 : 50037 : 50133] doohickies? b
+TDD-1263821 progress: -1 50037 doohickies
+TDD1159465 [49941 : 49982 : 50037] donne? b
+TDD-1159496 progress: -1 49982 donne
+TDD1407951 [49941 : 49955 : 49982] done? it
+TDD-1407922 progress: 0 49955 done
+TDD-115 [49941 : 49955 : 49982] <Done>.
+TDD3576301 📋> 🧩 Puzzle #878
+TDD-3576232 📋> 
+TDD-87 📋> 🤔 14 guesses
+TDD-4 📋> 
+TDD0 📋> ⏱️ 17s
+TDD-1 📋> 
+TDD351698 📋> 🔗 alphaguess.com
+TDD-152036 📋> ␚
+TDD-199536 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #878\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 17s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-35 result: "\ud83e\udde9 Puzzle #878\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 17s\n\n\ud83d\udd17 alphaguess.com"
+TDD-79 result puzzle: 878
+TDD-7 result guesses: 14
+TDD-2 result time: 17s
+TDD0 result link: alphaguess.com
+TDD359966 📆 2025-12-19 ? 
