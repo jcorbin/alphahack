@@ -1,0 +1,41 @@
+T56.03991282900097 now: 2025-12-19T08:58:02EST
+TD45 site: alfagok.diginaut.net
+TDD120728 loaded 399715 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1137 words excluded) asof 4b0dddea5079fb8dac6d29eb914d72f6e3f27e50
+TDD4605533  ...
+TDD-1982483 [0 : 199838 : 399715] lijm? a
+TDD-2743434 progress: 1 199838 lijm
+TDD1471228 [199839 : 299760 : 399715] schub? a
+TDD-1471282 progress: 1 299760 schub
+TDD2000024 [299761 : 349545 : 399715] vakantie? b
+TDD-2000078 progress: -1 349545 vakantie
+TDD1383736 [299761 : 324336 : 349545] sub? b
+TDD-1383743 progress: -1 324336 sub
+TDD1302345 [299761 : 311930 : 324336] spier? b
+TDD-1302467 progress: -1 311930 spier
+TDD1352434 [299761 : 305824 : 311930] slijm? b
+TDD-1352428 progress: -1 305824 slijm
+TDD1511773 [299761 : 302790 : 305824] shredder? a
+TDD-1511657 progress: 1 302790 shredder
+TDD1294801 [302791 : 304304 : 305824] skelet? a
+TDD-1294905 progress: 1 304304 skelet
+TDD1312372 [304305 : 304877 : 305824] slag? a
+TDD-1312393 progress: 1 304877 slag
+TDD1344449 [304878 : 305351 : 305824] slecht? a
+TDD-1344321 progress: 1 305351 slecht
+TDD1598124 [305352 : 305583 : 305824] sleper? a
+TDD-1598260 progress: 1 305583 sleper
+TDD1839904 [305584 : 305623 : 305824] sleutel? it
+TDD-1839902 progress: 0 305623 sleutel
+TDD-123 [305584 : 305623 : 305824] <Done>.
+TDD3336727 📋> 🧩 Puzzel #412
+TDD-3336640 📋> 🤔 12 gokken
+TDD-90 📋> ⏱️ 16s
+TDD3494897 📋> 🔗 alfagok.diginaut.ne
+TDD-2959485 📋> ␚
+TDD-535290 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #412\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 16s\n\ud83d\udd17 alfagok.diginaut.ne"}
+TDD352 result: "\ud83e\udde9 Puzzel #412\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 16s\n\ud83d\udd17 alfagok.diginaut.ne"
+TDD-483 result puzzle: 412
+TDD-5 result guesses: 12
+TDD-1 result time: 16s
+TDD0 result link: alfagok.diginaut.ne
+TDD727838 📆 2025-12-19 ? 
