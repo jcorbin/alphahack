@@ -1,0 +1,88 @@
+T149.5755675620021 now: 2025-12-19T08:59:35EST
+TD59 site: squareword.org
+TDD-24 wordlist: nwl2023.txt
+TDD2886938  ...
+TDD-886980 🧩  ? #1418
+TDD-1999797 puzzle_id: #1418
+TDD1463991 > *
+TDD-408032 try? 1
+TDD-1055796 questioning: ["arose", "#5"]
+TDD6286845 #1 <IndexError>  📋 "arose" ? _____ ~ AE
+TDD-6286560 attempt 0 AROSE m n n n m
+TDD2015032 #2 <IndexError>  📋 "arose" ? ____E ~ O
+TDD-2015414 attempt 1 AROSE n n m n Y
+TDD3551700 #3 <IndexError>  📋 "arose" ? _____ ~ O
+TDD-3551672 attempt 2 AROSE n n m n n
+TDD2127171 #4 <IndexError>  📋 "arose" ? _____ ~ E
+TDD-2127108 attempt 3 AROSE n n n n m
+TDD2079429 #5 <IndexError>  📋 "arose" ? _____ ~ ARS
+TDD-2079448 attempt 4 AROSE m m n m n
+TDD1152120 ? 
+TDD-1152261 question done
+TDD2071418 > *
+TDD2807975 try? 2
+TDD-4879263 questioning: ["olive", "#2"]
+TDD7391040 #1 _____ ~AE -ORS  📋 "olive" ? _____ ~ AEL'
+TDD-7391040 attempt 0 OLIVE n m n n m
+TDD3448136 #2 ____E ~O -ARS  📋 "olive" ? /it
+TDD-3448183 attempt 1 OLIVE Y Y Y Y Y
+TDD3479488 #3 _____ ~O -AERS  📋 "olive" ? O____ ~ I
+TDD-3479236 attempt 2 OLIVE Y n m n n
+TDD1615548 #4 _____ ~E -AORS  📋 "olive" ? .
+TDD-1615597 attempt 3 OLIVE n n n n m
+TDD838120 #5 _____ ~ARS -EO  📋 "olive" ? .
+TDD-838317 attempt 4 OLIVE n n n n n
+TDD14623260 ? 
+TDD-14623413 question done
+TDD1112437 > *
+TDD8126740 try? 1
+TDD-9239028 questioning: ["optic", "#3"]
+TDD5136085 #1 _____ ~AEL -IORSV  📋 "optic" ? _____ ~ AELP
+TDD-5135982 attempt 0 OPTIC n m n n n
+TDD678711 #3 O____ ~I -AELRSV  📋 "optic" ? /it
+TDD-678866 attempt 2 OPTIC Y Y Y Y Y
+TDD2512422 #4 _____ ~E -AILORSV  📋 "optic" ? _____ ~ EC
+TDD-2512359 attempt 3 OPTIC n n n n m
+TDD2759808 #5 _____ ~ARS -EILOV  📋 "optic" ? _____ ~ ARST
+TDD-2759508 attempt 4 OPTIC n n m n n
+TDD470903 ? 
+TDD-471063 question done
+TDD605815 > *
+TDD4642055 try? 1
+TDD-5248054 questioning: ["paled", "#1"]
+TDD2399134 #1 _____ ~AELP -CIORSTV  📋 "paled" ? /it
+TDD-2399093 attempt 0 PALED Y Y Y Y Y
+TDD2352142 #4 _____ ~CE -AILOPRSTV  📋 "paled" ? .
+TDD-2352145 attempt 3 PALED n n n m n
+TDD2742865 #5 _____ ~ARST -CEILOPV  📋 "paled" ? _A___ ~ RST
+TDD-2742918 attempt 4 PALED n Y n n n
+TDD263883 ? 
+TDD-263979 question done
+TDD527578 > *
+TDD557436 questioning: ["check", "#4"]
+TDD4477568 #4 _____ ~CE -ADILOPRSTV  📋 "check" ? /it
+TDD-5562422 attempt 3 CHECK Y Y Y Y Y
+TDD5223338 #5 _A___ ~RST -CDEILOPV  📋 "check" ? _A___ ~ RSTH
+TDD-5223350 attempt 4 CHECK n m n n n
+TDD559573 ? 
+TDD-559695 question done
+TDD863380 > *
+TDD82451 questioning: ["harts", "#5"]
+TDD3748025 #5 _A___ ~HRST -CDEIKLOPV  📋 "harts" ? /it
+TDD-4693734 attempt 4 HARTS Y Y Y Y Y
+TDD2039705 ? 
+TDD-2039865 question done
+TDD4336887 📋> squareword.org 1418: 6 guesses
+TDD-4336928 📋> 
+TDD-73 📋> 🟩🟩🟩🟩🟩
+TDD-6 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟩🟨🟨🟨
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD392395 📋> #squareword #squareword1418
+TDD-72688 📋> ␚
+TDD-319447 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1418: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1418"}
+TDD583 result: "squareword.org 1418: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1418"
+TDD582118 📆 2025-12-19 ? 
