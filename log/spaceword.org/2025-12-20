@@ -9456,3 +9456,76 @@ TDD-279805 pasted: {"subject": "content", "method": "read:must:stdin", "content"
 TDD895 result: "\u2728 Spaceword.org Daily 2025-12-20 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 137/218 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD485450 [prior:2160]> 
 TDD2538105 [prior:2160]> /store
+T5467.572751668995 now: 2025-12-20T13:39:57EST
+TD4312041 [prior:2160]> /sea -clear -cap 2048
+TDD148771944 Z LUxjYxv@ctLQ;NSs+FOEl>!3z`un?hx(0_pxe+jNFMlW_EYuw)=Hv=vdHTUvK5&!Zl1MCc00000|Nj
+TDD-153083808 Z BFafF{{Fu7a}odm0RR6
+TDD-151 Z BFaf<-XbrQ(ENovlmGw#0RR6
+TDD-5 Z qMwt{Vjs7Y00000|Nj
+TDD-2 Z qMwrxhM+kP9RL6T0RR6
+TDD0 Z 8VDz$MIkx>00030{{
+TDD22787570 Z BHl?b0CI*G$aG)-5YI4I1qIg#Pajtog;21AV2)H!fICP5?p%dnT!tb800000|Nj
+TDD-22787450 Z !s{fE&1ga76YA&g3gJa4`1``c2JRG3nCHX%5#a@QiVG1=0ssI2|Nj
+TDD-92 Z B0ZEm(f#Zd>VgOx9|b3f9}r>a@9v5SF(Lo}00960
+TDD-11 Z BHBq1n?UIY?)gx-=R=_Gbocjh0o(8EAK?jC7ls+w_y7O^0RR6
+TDD1 Z A~BSlTzx!U!(72`2~|+=hop2DkQ=}(e+4g3c+v?$xPX*k0ssI2|Nj
+TDD0 Z qQFW1a3_Vro#a9VCjkHe0RR6
+TDD-7 Z B0VjEoB~bvpm2f)h=MOTNSs{5Ji!k3@sIHIgM}9&w1`RG00000|Nj
+TDD6 Z BEv}tYar<h6jBgNL7B}JoOJv_i5~1YA5b9#cN{SQ00030{{
+TDD0 Z BGpN*KB2+joCFCVNX&tp28lUW1z601!h^iT1ONa4|Nj
+TDD-3 Z BGpOI!~~Bw-03@*Tqgkl00960
+TDD12 Z BCqs@0CxpwQR(FA<sTXW3PRT~e^};%CLkAAPn=Z;b^rhX0RR6
+TDD-5 Z qP3G;JY7SGszwk100030{{
+TDD-12 Z qP3G;T|7y35&!@I|Nj
+TDD-1 Z qJ1cZKuR&<0RR91|Nj
+TDD0 Z BEm_C$`@SOLu`VxJi$#5P@Z!IL2!*0tPtk!>luP@JV^im00960
+TDD28 Z A~ux#T_|lY1%q5kOm_eP00960
+TDD-27 Z qMwt%04#~-ICKC200960
+TDD-1 Z BGySEh>D#kC%J&iY=3AfBCXQ|00030{{
+TDD2 Z !s8@Fn*zBx1a~8{&!Oqt#nlh)a94MK&tP~Hj}!m^00960
+TDD12 Z BBPE&WFSP-30jIPgu$9lUZGB&K9G9H*VWGzmK}(x>i_@%0RR6
+TDD-8 Z BFafv;tZDiyg<3n*B@d(L><VX!6E)(q*b;E00000|Nj
+TDD0 Z A}*9dz`Yy{cM+Goef>#GO8@`>0RR6
+TDD-3 Z qC=+%(@Cg4L<ax>00960
+TDD-3 Z BF;&{{{A8G^gyzcJV^^B00000|Nj
+TDD0 Z qDLq}orLNy+~pDg00960
+TDD0 Z qN9@#hM+nQ9RL6T0RR6
+TDD1 Z BFaf<#Vy&Tw+o`wz!ORU00030{{
+TDD0 Z qN|gTYbD$f2LJ#7|Nj
+TDD0 Z qE*CUtx%9_CEQK|00030{{
+TDD0 Z 8ia#600000|Nj
+TDD0 Z BGO6z!6B~xp3oFYeoFw-*&`5200000|Nj
+TDD2 Z BF0HBp1~phNT!kRB%+cx00030{{
+TDD-1 Z BF0I+{vb!u%}D?N00960
+TDD0 Z qOX$>i5e-q&;bAd0RR6
+TDD0 Z qHn|z<s<+A00960
+TDD0 Z BJ3nYDT{CvsC5T%1jtdL;5JH#f`XHezrQD_R{$=v{US*1n?L{n00960
+TDD428115374 search a0730d [ 2048 cap:2048 may:14299 prune:221 dead:53 reject:36 done:1 ]> show done
+TDD-424947267 search a0730d [ 2048 cap:2048 may:14299 prune:221 dead:53 reject:36 done:1 ]> show 1
+TDD47256100 search a0730d [ 2048 cap:2048 may:14299 prune:221 dead:53 reject:36 done:1 ]> /res
+TDD-49566808 search a0730d [ 2048 cap:2048 may:14299 prune:221 dead:53 reject:36 done:1 ]> ✨ Spaceword.org Daily 2025-12-20 ✨
+TDD-855813 search a0730d [ 2048 cap:2048 may:14299 prune:221 dead:53 reject:36 done:1 ]> 
+TDD-736 search a0730d [ 2048 cap:2048 may:14299 prune:221 dead:53 reject:36 done:1 ]> 🏆 Score: 2165
+TDD-86 search a0730d [ 2048 cap:2048 may:14299 prune:221 dead:53 reject:36 done:1 ]> 🏅 Rank: 107/230 🎈
+TDD-23 search a0730d [ 2048 cap:2048 may:14299 prune:221 dead:53 reject:36 done:1 ]> 🧩 Tiles: 21/21 ✅
+TDD-5 search a0730d [ 2048 cap:2048 may:14299 prune:221 dead:53 reject:36 done:1 ]> 📏 Space Bonus: +65
+TDD-49 search a0730d [ 2048 cap:2048 may:14299 prune:221 dead:53 reject:36 done:1 ]> 
+TDD5 search a0730d [ 2048 cap:2048 may:14299 prune:221 dead:53 reject:36 done:1 ]> 
+TDD-11 search a0730d [ 2048 cap:2048 may:14299 prune:221 dead:53 reject:36 done:1 ]> Play at https://spaceword.org
+TDD391399 search a0730d [ 2048 cap:2048 may:14299 prune:221 dead:53 reject:36 done:1 ]> #spaceword
+TDD-56478 search a0730d [ 2048 cap:2048 may:14299 prune:221 dead:53 reject:36 done:1 ]> ␚
+TDD2312753 [prior:2160]> /res
+TDD-1871907 📋> ✨ Spaceword.org Daily 2025-12-20 ✨
+TDD-776362 📋> 
+TDD-85 📋> 🏆 Score: 2165
+TDD-5 📋> 🏅 Rank: 107/230 🎈
+TDD0 📋> 🧩 Tiles: 21/21 ✅
+TDD-1 📋> 📏 Space Bonus: +65
+TDD0 📋> 
+TDD2 📋> 
+TDD-2 📋> Play at https://spaceword.org
+TDD560353 📋> #spaceword
+TDD359700 📋> ␚
+TDD-919931 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2025-12-20 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 107/230 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TDD932 result: "\u2728 Spaceword.org Daily 2025-12-20 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 107/230 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD1533700 [prior:2165 meh:2160]> /store
