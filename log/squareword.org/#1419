@@ -1,0 +1,109 @@
+T92026.787091069 now: 2025-12-20T11:35:26EST
+TD86 site: squareword.org
+TDD-24 wordlist: nwl2023.txt
+TDD5086535  ...
+TDD-2878186 🧩  ? #1419
+TDD-2208057 puzzle_id: #1419
+TDD1583430 > *
+TDD3136621 try? 3
+TDD-4720073 questioning: ["least", "#5"]
+TDD3535206 #1 <IndexError>  📋 "least" ? __A__ ~ S
+TDD-3534852 attempt 0 LEAST n n Y m n
+TDD1806153 #2 <IndexError>  📋 "least" ? _____ ~ E
+TDD-1806591 attempt 1 LEAST n m n n n
+TDD2144375 #3 <IndexError>  📋 "least" ? __A__ ~ EA
+TDD-2144320 attempt 2 LEAST n m Y n n
+TDD2296590 #4 <IndexError>  📋 "least" ? _____ ~ EST
+TDD-2296566 attempt 3 LEAST n m n m m
+TDD4206240 #5 <IndexError>  📋 "least" ? _____ ~ LAS
+TDD-4206273 attempt 4 LEAST m n m m n
+TDD863544 ? 
+TDD-863441 question done
+TDD1231014 > *
+TDD689316 try? 1
+TDD-1920455 questioning: ["crave", "#3"]
+TDD5054635 #1 __A__ ~S -ELT  📋 "crave" ? C_A__ ~ SR
+TDD-5054682 attempt 0 CRAVE Y m Y n n
+TDD6297124 #2 _____ ~E -ALST  📋 "crave" ? _____ ~ ERV
+TDD-6296882 attempt 1 CRAVE n m n m m
+TDD8063592 #3 __A__ ~E -LST  📋 "crave" ? __A_E ~ AC
+TDD-8063586 attempt 2 CRAVE m n Y n Y
+TDD4783184 #4 _____ ~EST -AL  📋 "crave" ? ____E ~ ST
+TDD-4783163 attempt 3 CRAVE n n n n Y
+TDD3783601 #5 _____ ~ALS -ET  📋 "crave" ? _____ ~ LASR
+TDD-3783625 attempt 4 CRAVE n m m n n
+TDD477529 ? 
+TDD-477793 question done
+TDD760020 > *
+TDD-24602 questioning: ["apace", "#3"]
+TDD5033697 #1 C_A__ ~RS -ELTV  📋 "apace" ? .
+TDD-5769023 attempt 0 APACE n n Y n n
+TDD1102284 #2 _____ ~ERV -ACLST  📋 "apace" ? .
+TDD-1102264 attempt 1 APACE n n n n m
+TDD775086 #3 __A_E ~C -LRSTV  📋 "apace" ? /it
+TDD-775085 attempt 2 APACE Y Y Y Y Y
+TDD3432173 #4 ____E ~ST -ACLRV  📋 "apace" ? _P__E ~ ST
+TDD-3432189 attempt 3 APACE n Y n n Y
+TDD1262998 #5 _____ ~ALRS -CETV  📋 "apace" ? .
+TDD-1262940 attempt 4 APACE m n m n n
+TDD184669 ? 
+TDD-184861 question done
+TDD1447853 > *
+TDD-702517 questioning: ["spite", "#4"]
+T92190.402652529 now: 2025-12-20T11:38:10EST
+TD90 questioning: ["spite", "#4"]
+TDD3068226 #1 C_A__ ~RS -CELPTV  📋 "spite" ? .
+TDD-3068062 attempt 0 SPITE m n n n n
+TDD5591552 #2 _____ ~ERV -ACLPST  📋 "spite" ? _____ ~ ERVI
+TDD-5591511 attempt 1 SPITE n n m n m
+TDD679916 #4 _P__E ~ST -ACLRV  📋 "spite" ? /it
+TDD-679919 attempt 3 SPITE Y Y Y Y Y
+TDD3336376 #5 _____ ~ALRS -CEPTV  📋 "spite" ? S____ ~ LAR
+TDD-3336182 attempt 4 SPITE Y n n n n
+TDD549880 ? 
+TDD-550176 question done
+TDD808071 > *
+TDD154052 questioning: ["solar", "#5"]
+TDD14771301 #1 C_A__ ~RS -CEILPTV  📋 "solar" ? .
+TDD-15733332 attempt 0 SOLAR m n n n m
+TDD1807821 #2 _____ ~EIRV -ACLPST  📋 "solar" ? .
+TDD-1807878 attempt 1 SOLAR n n n n m
+TDD688372 #5 S____ ~ALR -CEIPTV  📋 "solar" ? /it
+TDD-688031 attempt 4 SOLAR Y Y Y Y Y
+TDD206005 ? 
+TDD-206446 question done
+TDD479683 > *
+TDD1067740 questioning: ["riven", "#2"]
+TDD3264827 #1 C_A__ ~RS -ACEILOPTV  📋 "riven" ? .
+TDD-4812127 attempt 0 RIVEN m n n n n
+TDD655615 #2 _____ ~EIRV -ACLOPST  📋 "riven" ? /it
+TDD-655593 attempt 1 RIVEN Y Y Y Y Y
+TDD192809 ? 
+TDD-192835 question done
+TDD558862 > *
+TDD4440804 try? 2
+TDD-4999599 questioning: ["czars", "#1"]
+TDD9831430 #1 C_A__ ~RS -ACEILNOPTV  📋 "czars" ? C_ARS
+TDD-9831518 attempt 0 CZARS Y n Y Y Y
+TDD247735 ? 
+TDD-247794 question done
+TDD494951 > *
+TDD537665 questioning: ["chars", "#1"]
+TDD2230856 #1 C_ARS -EILNOPTVZ  📋 "chars" ? /it
+TDD-3263358 attempt 0 CHARS Y Y Y Y Y
+TDD1054862 ? 
+TDD-1055011 question done
+TDD3816970 📋> squareword.org 1419: 8 guesses
+TDD-3817005 📋> 
+TDD-25 📋> 🟩🟨🟩🟨🟨
+TDD-16 📋> 🟨🟨🟨🟨🟨
+TDD-38 📋> 🟩🟩🟩🟩🟩
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD391090 📋> #squareword #squareword1419
+TDD-215000 📋> ␚
+TDD-175978 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1419: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1419"}
+TDD933 result: "squareword.org 1419: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1419"
+TDD173785 📆 2025-12-20 ? 
