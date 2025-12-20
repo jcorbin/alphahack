@@ -1,0 +1,48 @@
+T91978.65950446199 now: 2025-12-20T11:34:38EST
+TD63 site: alphaguess.com
+TDD96433 loaded 196540 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (63 words excluded) asof ca1e684d3950c88b9a76f39c463d58b82dbfd8f8
+TDD4804345  ...
+TDD-1268777 [0 : 98225 : 196540] mach? b
+TDD-3631897 progress: -1 98225 mach
+TDD1424191 [0 : 47387 : 98225] dis? a
+TDD-1424240 progress: 1 47387 dis
+TDD1159247 [47388 : 72806 : 98225] gremmy? a
+TDD-1159218 progress: 1 72806 gremmy
+TDD1311538 [72807 : 85510 : 98225] ins? b
+TDD-1311536 progress: -1 85510 ins
+TDD1263644 [72807 : 79138 : 85510] hood? b
+TDD-1263667 progress: -1 79138 hood
+TDD1271805 [72807 : 75962 : 79138] haw? a
+TDD-1271819 progress: 1 75962 haw
+TDD1087987 [75963 : 77506 : 79138] hetero? a
+TDD-1087964 progress: 1 77506 hetero
+TDD1311474 [77507 : 78287 : 79138] ho? b
+TDD-1311465 progress: -1 78287 ho
+TDD1351723 [77507 : 77859 : 78287] high? b
+TDD-1351751 progress: -1 77859 high
+TDD1207826 [77507 : 77654 : 77859] hex? a
+TDD-1207816 progress: 1 77654 hex
+TDD1175700 [77655 : 77754 : 77859] hic? a
+TDD-1175712 progress: 1 77754 hic
+TDD1247875 [77755 : 77781 : 77859] hid? b
+TDD-1247874 progress: -1 77781 hid
+TDD1231984 [77755 : 77768 : 77781] hick? b
+TDD-1231982 progress: -1 77768 hick
+TDD1415618 [77755 : 77759 : 77768] hiccup? it
+TDD-1415615 progress: 0 77759 hiccup
+TDD-101 [77755 : 77759 : 77768] <Done>.
+TDD3136623 📋> 🧩 Puzzle #879
+TDD-3136540 📋> 
+TDD-82 📋> 🤔 14 guesses
+TDD-2 📋> 
+TDD1 📋> ⏱️ 16s
+TDD-6 📋> 
+TDD272444 📋> 🔗 alphaguess.com
+TDD-41576 📋> ␚
+TDD-230794 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #879\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 16s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-18 result: "\ud83e\udde9 Puzzle #879\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 16s\n\n\ud83d\udd17 alphaguess.com"
+TDD-58 result puzzle: 879
+TDD-5 result guesses: 14
+TDD0 result time: 16s
+TDD0 result link: alphaguess.com
+TDD359993 📆 2025-12-20 ? 
