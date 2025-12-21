@@ -1,0 +1,124 @@
+T76288.02141569 now: 2025-12-21T09:20:18EST
+TD59 site: squareword.org
+TDD-26 wordlist: nwl2023.txt
+TDD6159530  ...
+TDD-3528467 🧩  ? #1420
+TDD-2630806 puzzle_id: #1420
+TDD1303539 > *
+TDD1792603 try? 3
+TDD-3096117 questioning: ["anise", "#5"]
+TDD4319258 #1 <IndexError>  📋 "anise" ? _____ ~ AS
+TDD-4319079 attempt 0 ANISE m n n m n
+TDD3031834 #2 <IndexError>  📋 "anise" ? _____ ~ AI
+TDD-3032020 attempt 1 ANISE m n m n n
+TDD3366916 #3 <IndexError>  📋 "anise" ? A___E ~ N
+TDD-3366955 attempt 2 ANISE Y m n n Y
+TDD2526821 #4 <IndexError>  📋 "anise" ? ____E 
+TDD-2526880 attempt 3 ANISE n n n n Y
+TDD3073384 #5 <IndexError>  📋 "anise" ? _____ ~ ASE
+TDD-3072970 attempt 4 ANISE m n n m m
+TDD606004 ? 
+TDD-606481 question done
+TDD3854813 > *
+TDD-1894568 try? 1
+TDD-1960020 questioning: ["alone", "#3"]
+TDD4391519 #1 _____ ~AS -EIN  📋 "alone" ? .
+TDD-4391567 attempt 0 ALONE m n n n n
+TDD3279626 #2 _____ ~AI -ENS  📋 "alone" ? _____ ~ AIL
+TDD-3279617 attempt 1 ALONE m m n n n
+TDD878978 #3 A___E ~N -IS  📋 "alone" ? /it
+TDD-878968 attempt 2 ALONE Y Y Y Y Y
+TDD3592622 #4 ____E -AINS  📋 "alone" ? ____E ~ O
+TDD-3592477 attempt 3 ALONE n n m n Y
+TDD1806363 #5 _____ ~AES -IN  📋 "alone" ? .
+TDD-1806542 attempt 4 ALONE m n n n m
+TDD3046591 ? 
+TDD-3046751 question done
+TDD5767170 > *
+TDD-1566346 try? 2
+TDD-4200603 questioning: ["viral", "#2"]
+TDD3863440 #1 _____ ~AS -EILNO  📋 "viral" ? .
+TDD-3863522 attempt 0 VIRAL n n n m n
+TDD1631030 #2 _____ ~AIL -ENOS  📋 "viral" ? _I_AL
+TDD-1630963 attempt 1 VIRAL n Y n Y Y
+TDD2943805 #4 ____E ~O -AILNS  📋 "viral" ? __R_E ~ O
+TDD-2943863 attempt 3 VIRAL n n Y n n
+TDD3263214 #5 _____ ~AES -ILNO  📋 "viral" ? ___A_ ~ SE
+TDD-3263291 attempt 4 VIRAL n n n Y n
+TDD247458 ? 
+TDD-247486 question done
+TDD3662724 > *
+TDD8545314 try? ␚
+TDD-12208148 <EOF>
+TDD2111829 > *4
+TDD-670979 > * 4
+TDD5990452 try? 1
+TDD-7431060 questioning: ["forge", "#4"]
+TDD4184087 #1 _____ ~AS -EILNORV  📋 "forge" ? .
+TDD-4184131 attempt 0 FORGE n n n n n
+TDD1454729 #2 _I_AL -ENORSV  📋 "forge" ? .
+TDD-1454724 attempt 1 FORGE n n n n n
+TDD2839742 #4 __R_E ~O -AILNSV  📋 "forge" ? _ORGE ~ G
+TDD-2839691 attempt 3 FORGE n Y Y Y Y
+TDD3671149 #5 ___A_ ~ES -ILNORV  📋 "forge" ? .
+TDD-3671189 attempt 4 FORGE n n n n m
+TDD175050 ? 
+TDD-175236 question done
+TDD943756 > *
+TDD276694 questioning: ["gorge", "#4"]
+TDD383070 #1 _____ ~AS -EFGILNORV  📋 "gorge" ? ␚
+TDD-1603535 question done
+TDD1847801 > * 5
+TDD3720039 try? 1
+TDD-5567619 questioning: ["steak", "#5"]
+TDD5720336 #1 _____ ~AS -EFGILNORV  📋 "steak" ? S____ ~ AS
+TDD-5720402 attempt 0 STEAK Y n n m n
+TDD5566399 #2 _I_AL -EFGNORSV  📋 "steak" ? _I_AL ~ T
+TDD-5566436 attempt 1 STEAK n m n Y n
+TDD4120534 #4 _ORGE -AFILNSV  📋 "steak" ? .
+TDD-4120463 attempt 3 STEAK n n n n n
+TDD1599797 #5 ___A_ ~ES -FGILNORV  📋 "steak" ? /it
+TDD-1599781 attempt 4 STEAK Y Y Y Y Y
+TDD175298 ? 
+TDD-175386 question done
+TDD655890 > *
+TDD828822 questioning: ["spams", "#1"]
+TDD1509215 #1 S____ ~A -EFGIKLNORTV  📋 "spams" ? /it
+TDD-2993937 attempt 0 SPAMS Y Y Y Y Y
+TDD2847669 #2 _I_AL ~T -EFGKNORSV  📋 "spams" ? .
+TDD-2847630 attempt 1 SPAMS n n n n n
+TDD1054870 #4 _ORGE -AEFIKLNSTV  📋 "spams" ? .
+TDD-1054900 attempt 3 SPAMS n n n n n
+TDD168563 ? 
+TDD-168627 question done
+TDD496065 > *
+TDD832993 questioning: ["tidal", "#2"]
+TDD1188410 #2 _I_AL ~T -AEFGKMNOPRSV  📋 "tidal" ? /it
+TDD-2517330 attempt 1 TIDAL Y Y Y Y Y
+TDD2216194 #4 _ORGE -AEFIKLMNPSTV  📋 "tidal" ? 
+TDD-696302 #4 _ORGE -AEFIKLMNPSTV  ? .
+TDD-1519945 attempt 3 TIDAL n n n n n
+TDD438954 ? 
+TDD-439039 question done
+TDD488515 > *&
+TDD470268 > *
+TDD6739 questioning: ["gorge", "#4"]
+TDD2820562 #4 _ORGE -ADEFIKLMNPSTV  📋 "gorge" ? it
+TDD-953854 #4 _ORGE -ADEFIKLMNPSTV  ? /it
+TDD-2831973 attempt 3 GORGE Y Y Y Y Y
+TDD800390 ? 
+TDD-800561 question done
+TDD3062830 📋> squareword.org 1420: 8 guesses
+TDD-3062974 📋> 
+TDD-80 📋> 🟩🟨🟨🟨🟨
+TDD-5 📋> 🟨🟩🟨🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD495732 📋> #squareword #squareword1420
+TDD-272646 📋> ␚
+TDD-222962 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1420: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1420"}
+TDD976 result: "squareword.org 1420: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1420"
+TDD358293 📆 2025-12-21 ? 
