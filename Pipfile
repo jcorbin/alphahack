@@ -5,7 +5,6 @@ name = "pypi"
 
 [packages]
 pyperclip = "*"
-ollama = "*"
 python-dateutil = "*"
 pytest = "*"
 requests = "*"
@@ -13,6 +12,7 @@ html5lib = "*"
 python-dotenv = "*"
 emoji = "*"
 beautifulsoup4 = "*"
+ollama = "*"
 
 [dev-packages]
 
