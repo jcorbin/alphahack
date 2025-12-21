@@ -1,0 +1,53 @@
+T76212.550792785 now: 2025-12-21T09:19:02EST
+TD59 site: alphaguess.com
+TDD84932 loaded 196540 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (63 words excluded) asof d8d2e1b71ca91bbc62c05ba226b6d684229d6c28
+TDD3267323  ...
+TDD-312302 [0 : 98225 : 196540] mach? a
+TDD-3039834 progress: 1 98225 mach
+TDD1527749 [98226 : 147330 : 196540] rho? b
+TDD-1527781 progress: -1 147330 rho
+TDD1375932 [98226 : 122110 : 147330] par? a
+TDD-1375930 progress: 1 122110 par
+TDD3551689 [122111 : 134641 : 147330] prog? a
+TDD-3551689 progress: 1 134641 prog
+TDD1647375 [134642 : 140527 : 147330] rec? a
+TDD-1647366 progress: 1 140527 rec
+TDD1351825 [140528 : 143791 : 147330] rem? b
+TDD-1351835 progress: -1 143791 rem
+TDD1519483 [140528 : 141909 : 143791] ree? b
+TDD-1519479 progress: -1 141909 ree
+TDD1495844 [140528 : 141212 : 141909] record? a
+TDD-1495851 progress: 1 141212 record
+TDD1383644 [141213 : 141514 : 141909] rede? b
+TDD-1383632 progress: -1 141514 rede
+TDD1503602 [141213 : 141363 : 141514] recto? b
+TDD-1503600 progress: -1 141363 recto
+TDD2439865 [141213 : 141289 : 141363] recriminalise? !
+TDD415992 [141213 : 141288 : 141362] recrements? a
+TDD-2855871 progress: 1 141288 recrements
+TDD2103740 [141289 : 141319 : 141362] recruit? a
+TDD-2103747 progress: 1 141319 recruit
+TDD1431576 [141320 : 141336 : 141362] recta? a
+TDD-1431566 progress: 1 141336 recta
+TDD1511755 [141337 : 141344 : 141362] recti? b
+TDD-1511793 progress: -1 141344 recti
+TDD1575958 [141337 : 141341 : 141344] rectangular? b
+TDD-1575922 progress: -1 141341 rectangular
+TDD1607914 [141337 : 141339 : 141341] rectangle? it
+TDD-1607945 progress: 0 141339 rectangle
+TDD-97 [141337 : 141339 : 141341] <Done>.
+TDD3583678 📋> 🧩 Puzzle #880
+TDD-3583607 📋> 
+TDD-79 📋> 🤔 16 guesses
+TDD-3 📋> 
+TDD2 📋> ⏱️ 29s
+TDD-4 📋> 
+TDD495785 📋> 🔗 alphaguess.com
+TDD-215712 📋> ␚
+TDD-279950 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #880\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 29s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-28 result: "\ud83e\udde9 Puzzle #880\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 29s\n\n\ud83d\udd17 alphaguess.com"
+TDD-83 result puzzle: 880
+TDD-8 result guesses: 16
+TDD-1 result time: 29s
+TDD0 result link: alphaguess.com
+TDD303793 📆 2025-12-21 ? 
