@@ -49,24 +49,27 @@ def lang_code_to_kind(la: str):
 
 def role_history(chat: Sequence[ollama.Message], role: str):
     for mess in reversed(chat):
-        if mess['role'] != role: continue
-        if 'content' not in mess: continue
-        yield mess['content']
+        rol = mess.role
+        content = mess.content
+        if rol == role and content is not None:
+            yield content
 
 def prompt_pairs(chat: Sequence[ollama.Message]):
     rev = reversed(chat)
     while True:
         for mess in rev:
-            if mess['role'] == 'assistant':
-                if 'content' not in mess: continue
-                reply = mess['content']
+            role = mess.role
+            content = mess.content
+            if role == 'assistant' and content is not None:
+                reply = content
                 break
         else: break
 
         for mess in rev:
-            if mess['role'] == 'user':
-                if 'content' not in mess: continue
-                prompt = mess['content']
+            role = mess.role
+            content = mess.content
+            if role == 'user' and content is not None:
+                prompt = content
                 break
         else: break
 
@@ -147,9 +150,9 @@ def scrape_scale_row(row: bs4.Tag):
     if not mark_cell: raise ValueError('no td.emoji mark cell')
     if not score_cell: raise ValueError('no td.number.decimal score cell')
     return parse_scale_score(
-        mark_cell.text,
-        score_cell.text,
-        prog_cell.text if prog_cell else '')
+        mark_cell.get_text(),
+        score_cell.get_text(),
+        prog_cell.get_text() if prog_cell else '')
 
 TierCounts = tuple[
     int,
@@ -1185,8 +1188,7 @@ class Search(StoredLog):
                         if raw != 'pop': raise NotImplementedError(f'chat pop index')
                         _ = self.chat_pop(ui)
                     else:
-                        mess = cast(object, json.loads(raw))
-                        mess = cast(ollama.Message, mess) # TODO validate
+                        mess = ollama.Message.model_validate_json(raw)
                         self.chat_append(ui, mess)
                     continue
 
@@ -1352,7 +1354,7 @@ class Search(StoredLog):
 
     def chat_model_counts(self):
         return Counter(
-            h.model if mess['role'] == 'assistant' else mess['role']
+            h.model if mess.role == 'assistant' else mess.role
             for h in self.all_chats()
             for mess in h.chat)
 
@@ -1778,7 +1780,7 @@ class Search(StoredLog):
                 # <a id="cemantle-yesterday"><b><u>suite</u></b></a>
                 for q in ('#cemantix-yesterday', '#cemantle-yesterday'):
                     yea = soup.select_one(q)
-                    if yea: return yea.text
+                    if yea: return yea.get_text()
 
         def extract(dat: object):
             if not isinstance(dat, list):
@@ -1833,9 +1835,9 @@ class Search(StoredLog):
               | Mots \s+ proches \s+ de
             )
             \s+ (?P<word> [^\s]+ )
-            ''', h.text)
+            ''', h.get_text())
         if not match:
-            raise ValueError(f'unrecognized #yestertable h3 content: {h.text!r}')
+            raise ValueError(f'unrecognized #yestertable h3 content: {h.get_text()!r}')
 
         yesterword = cast(str, match.group(1))
         if self.found:
@@ -1864,7 +1866,7 @@ class Search(StoredLog):
             for row in yb.select('tr'):
                 try:
                     srank, word, sscore, _, sprog, _ = (
-                        cell.text
+                        cell.get_text()
                         for cell in row.select('td'))
                     rank = int(srank) if srank else 0
                     some = True
@@ -2890,8 +2892,10 @@ class Search(StoredLog):
             # TODO can this be an abbr?
             if prompt == '.':
                 for mess in reversed(self.chat):
-                    if mess['role'] == 'user' and 'content' in mess:
-                        prompt = mess['content']
+                    role = mess.role
+                    content = mess.content
+                    if role == 'user' and content is not None:
+                        prompt = content
                         break
                 else:
                     ui.print('! no last chat message to repeat')
@@ -2938,30 +2942,31 @@ class Search(StoredLog):
 
     def chat_say(self, ui: PromptUI, prompt: str):
         if not self.chat and self.system_prompt:
-            self.chat_append(ui, {'role': 'system', 'content': self.system_prompt})
+            self.chat_append(ui, ollama.Message(role='system', content=self.system_prompt))
 
         if self.last_chat_tup != ('user', prompt):
-            self.chat_append(ui, {'role': 'user', 'content': prompt})
+            self.chat_append(ui, ollama.Message(role='user', content=prompt))
 
         for _retry in ui.retries('ollama chat', retries=0):
             parts: list[str] = []
             try:
-                for resp in self.llm_client.chat(model=self.llm_model, messages=self.chat, stream=True):
-                    resp = cast(ollama.ChatResponse, resp)
-
+                for resp in self.llm_client.chat(
+                        model=self.llm_model,
+                        messages=self.chat,
+                        stream=True):
                     with ui.catch_exception(Exception,
                                             extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
 
                         # TODO care about resp['done'] / resp['done_reason'] ?
 
-                        mess = resp['message'] 
-                        role = mess['role']
+                        mess = resp.message 
+                        role = mess.role
 
                         if role != 'assistant':
                             # TODO note?
                             continue
 
-                        content = mess.get('content')
+                        content = mess.content
                         if content is None:
                             # TODO note?
                             continue
@@ -2976,7 +2981,7 @@ class Search(StoredLog):
 
             finally:
                 if parts:
-                    self.chat_append(ui, {'role': 'assistant', 'content': ''.join(parts)})
+                    self.chat_append(ui, ollama.Message(role='assistant', content=''.join(parts)))
 
     def chat_clear(self, ui: PromptUI):
         ui.log(f'session clear')
@@ -2991,13 +2996,13 @@ class Search(StoredLog):
         return mess
 
     def chat_append(self, ui: PromptUI, mess: ollama.Message):
-        ui.log(f'session: {json.dumps(mess)}')
+        ui.log(f'session: {mess.model_dump_json()}')
         self.chat.append(mess)
 
     def chat_stats(self):
-        role_counts = Counter(mess['role'] for mess in self.chat)
+        role_counts = Counter(mess.role for mess in self.chat)
         token_count = sum(
-            count_tokens(mess.get('content', ''))
+            count_tokens(mess.content or '')
             for mess in self.chat)
         user_count = role_counts.pop("user", 0)
         assistant_count = role_counts.pop("assistant", 0)
@@ -3005,13 +3010,13 @@ class Search(StoredLog):
 
     @property
     def last_chat_role(self):
-        return self.chat[-1]['role'] if self.chat else ''
+        return self.chat[-1].role if self.chat else ''
 
     @property
     def last_chat_tup(self):
         last = self.chat[-1] if self.chat else None
         if not last: return (None, None)
-        return (last['role'], last.get('content'))
+        return (last.role, last.content)
 
     @final
     class BasisChange:
@@ -3245,8 +3250,8 @@ class Search(StoredLog):
                     except IndexError:
                         ui.print(f'! no chat messages to pop')
                         return
-                    role = mess['role']
-                    content = mess.get('content', '')
+                    role = mess.role
+                    content = mess.content or ''
                     if role == 'user':
                         ui.print(f'popped >>> {content}')
                     elif role == 'assistant':
@@ -3272,8 +3277,8 @@ class Search(StoredLog):
 
         if given:
             for mess in chat:
-                role = mess['role']
-                content = mess.get('content', '')
+                role = mess.role
+                content = mess.content or ''
                 if role == 'user':
                     for line in wraplines(ui.screen_cols-4, spliterate(content, '\n', trim=True)):
                         ui.print(f'>>> {line}')
@@ -3289,8 +3294,8 @@ class Search(StoredLog):
         else:
             reply = ''
             for mess in chat:
-                role = mess['role']
-                content = mess.get('content', '')
+                role = mess.role
+                content = mess.content or ''
                 if role == 'assistant':
                     reply = content
                 elif role == 'user':
