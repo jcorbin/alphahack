@@ -1,0 +1,49 @@
+T76141.261233034 now: 2025-12-21T09:17:51EST
+TD73 site: alfagok.diginaut.net
+TDD185867 loaded 399715 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1137 words excluded) asof d8d2e1b71ca91bbc62c05ba226b6d684229d6c28
+TDD4956366  ...
+TDD-1823740 [0 : 199838 : 399715] lijm? b
+TDD-3318136 progress: -1 199838 lijm
+TDD3599968 [0 : 99760 : 199838] ex? b
+TDD-3600241 progress: -1 99760 ex
+TDD1511432 [0 : 49851 : 99760] boks? b
+TDD-1511442 progress: -1 49851 boks
+TDD1831167 [0 : 24912 : 49851] bad? b
+TDD-1831153 progress: -1 24912 bad
+TDD3783906 [0 : 8648 : 24912] af? a
+TDD-3783932 progress: 1 8648 af
+TDD1823863 [8649 : 16156 : 24912] am? b
+TDD-1823842 progress: -1 16156 am
+TDD1871563 [8649 : 12394 : 16156] afsplits? a
+TDD-1871570 progress: 1 12394 afsplits
+TDD4031796 [12395 : 14275 : 16156] agricolastraat? !
+TDD-1302957 [12395 : 14275 : 16155] agricultuur? a
+TDD-2728715 progress: 1 14275 agricultuur
+TDD1863380 [14276 : 15201 : 16155] alge? a
+TDD-1863361 progress: 1 15201 alge
+TDD1846829 [15202 : 15677 : 16155] allo? b
+TDD-1846972 progress: -1 15677 allo
+TDD1711614 [15202 : 15383 : 15677] alle? b
+TDD-1711602 progress: -1 15383 alle
+TDD1967794 [15202 : 15283 : 15383] alimentatie? b
+TDD-1967794 progress: -1 15283 alimentatie
+TDD1950976 [15202 : 15241 : 15283] algoe? !
+TDD1626231 [15202 : 15241 : 15282] algoed? b
+TDD-3577097 progress: -1 15241 algoed
+TDD3958113 [15202 : 15219 : 15241] algen? b
+TDD-3958228 progress: -1 15219 algen
+TDD2073481 [15202 : 15209 : 15219] algemeen? it
+TDD-2073397 progress: 0 15209 algemeen
+TDD-164 [15202 : 15209 : 15219] <Done>.
+TDD2926291 📋> 🧩 Puzzel #414
+TDD-2926286 📋> 🤔 15 gokken
+TDD-69 📋> ⏱️ 40s
+TDD592166 📋> 🔗 alfagok.diginaut.net
+TDD-336462 📋> ␚
+TDD-255590 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #414\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 40s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD460 result: "\ud83e\udde9 Puzzel #414\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 40s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-565 result puzzle: 414
+TDD-9 result guesses: 15
+TDD-3 result time: 40s
+TDD0 result link: alfagok.diginaut.net
+TDD263531 📆 2025-12-21 ? 
