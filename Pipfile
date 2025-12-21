@@ -6,13 +6,13 @@ name = "pypi"
 [packages]
 pyperclip = "*"
 ollama = "*"
-bs4 = "*"
 python-dateutil = "*"
 pytest = "*"
 requests = "*"
 html5lib = "*"
 python-dotenv = "*"
 emoji = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 
