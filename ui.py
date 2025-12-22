@@ -5,6 +5,7 @@ import os
 import random
 import re
 import shlex
+import sys
 import subprocess
 import time
 import traceback
@@ -242,7 +243,7 @@ if pyperclip and pyperclip.is_available():
     DefaultClipboard = Pyperclip()
 
 else:
-    print('WARNING: falling back on OSC-52 half-implemented clipboard')
+    print('WARNING: falling back on OSC-52 half-implemented clipboard', file=sys.stderr)
     DefaultClipboard = OSC52Clipboard()
 
 @final
