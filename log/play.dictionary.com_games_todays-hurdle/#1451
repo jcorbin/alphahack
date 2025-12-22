@@ -1,0 +1,90 @@
+T82451.54410510501 now: 2025-12-22T08:27:00EST
+TD48 site: https://play.dictionary.com/games/todays-hurdle
+TDD-18 wordlist: nwl2023.txt
+TDD5574512  ...
+TDD41146308 1.1> *
+TDD-45561240 1.1 ? 1
+TDD3416828 1.1 📋 "aisle" ? nnnnn
+TDD-4576111 tried: AISLE n n n n n
+TDD5839654 1.2> *
+TDD-4368186 1.2 ? 1
+TDD4088313 1.2 📋 "purty" ? Mnnnn
+TDD-5559930 tried: PURTY m n n n n
+TDD6287548 1.3> *
+TDD-3831945 1.3 ? 1
+TDD1608332 1.3 📋 "chomp" ? it
+TDD-4063960 tried: CHOMP Y Y Y Y Y
+TDD19959905 2.1 📋 "chomp" ? nnnnM
+TDD-19959818 tried: CHOMP n n n n m
+TDD559675 2.2> *
+TDD999991 2.2 ? 1
+TDD4448396 2.2 📋 "piles" ? MMYnM
+TDD-6008103 tried: PILES m m Y n m
+TDD527663 2.3> *
+TDD4384027 2.3 📋 "split" ? it
+TDD-4911688 tried: SPLIT Y Y Y Y Y
+TDD11423719 3.1 📋 "split" ? nnnnn
+TDD-11423694 tried: SPLIT n n n n n
+TDD599508 3.2> *
+TDD4608327 3.2 ? 1
+TDD-680166 3.2 📋 "randy" ? nMMnn
+TDD-4527697 tried: RANDY n m m n n
+TDD415363 3.3> *
+TDD904977 3.3 ? 1
+TDD3287147 3.3 📋 "began" ? nYYYY
+TDD-4607472 tried: BEGAN n Y Y Y Y
+TDD471460 3.4> *
+TDD3664675 3.4 📋 "vegan" ? it
+TDD-4136131 tried: VEGAN Y Y Y Y Y
+TDD27815718 4.1 📋 "vegan" ? nMYnn
+TDD-27815693 tried: VEGAN n m Y n n
+TDD5279649 4.2> *
+TDD-4199592 4.2 ? 1
+TDD3015369 4.2 📋 "dogey" ? nnYYn
+TDD-4095491 tried: DOGEY n n Y Y n
+TDD488021 4.3> *
+TDD623359 4.3 ? 1
+TDD2528694 4.3 📋 "luger" ? nnYYY
+TDD-3640062 tried: LUGER n n Y Y Y
+TDD367492 4.4> *
+TDD1472168 4.4 ? 2
+TDD3112349 4.4 📋 "tiger" ? it
+TDD-4952052 tried: TIGER Y Y Y Y Y
+TDD7999483 5.1 📋 "chomp" ? nnnnM
+TDD-7999455 tried: CHOMP n n n n m
+TDD1567728 5.2 📋 "split" ? nMnnn
+TDD-1567715 tried: SPLIT n m n n n
+TDD1415734 5.3 📋 "vegan" ? nMMnn
+TDD-1415754 tried: VEGAN n m m n n
+TDD1391848 5.4 📋 "tiger" ? nnMMM
+TDD-1391786 tried: TIGER n n m m m
+TDD479374 5.5> *
+TDD4440575 5.5 📋 "purge" ? it
+TDD-4919993 tried: PURGE Y Y Y Y Y
+TDD9383661 📋> Hurdle 1451
+TDD-9383775 📋> 
+TDD-64 📋> 3/6
+TDD-3 📋> ⬜⬜⬜⬜⬜
+TDD-2 📋> 🟨⬜⬜⬜⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> ⬜⬜⬜⬜🟨
+TDD0 📋> 🟨🟨🟩⬜🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> ⬜🟨🟨⬜⬜
+TDD0 📋> ⬜🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> ⬜🟨🟩⬜⬜
+TDD0 📋> ⬜⬜🟩🟩⬜
+TDD2 📋> ⬜⬜🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 1/2
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD400027 📋> score: 10,100
+TDD-56503 📋> ␚
+TDD-343387 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1451\n\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"}
+TDD564 result: "Hurdle 1451\n\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"
+TDD287014 📆 2025-12-22 ? 
