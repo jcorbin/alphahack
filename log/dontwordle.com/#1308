@@ -1,0 +1,53 @@
+T82682.13839083302 now: 2025-12-22T08:30:50EST
+TD85 site: dontwordle.com
+TDD-37 wordlist: nwl2023.txt
+TDD3431148  ...
+TDD-1719450 1> * -bot 10
+TDD-615510 ? 1
+TDD3591854 📋 "raise" ? MnMnM
+TDD-4687834 tried: RAISE m n m n m
+TDD1431406 2> undo
+TDD-1431476 undo
+TDD2889204 1> *
+TDD-1514548 ? 1
+TDD3448793 📋 "pzazz" ? nnnnn
+TDD-4823394 tried: PZAZZ n n n n n
+TDD567610 2> *
+TDD488171 ? 1
+TDD3888383 📋 "stobs" ? nnnnn
+TDD-4944189 tried: STOBS n n n n n
+TDD1062892 3> *
+TDD-63076 ? 1
+TDD2800961 📋 "jugum" ? ␚
+TDD-3800917 <EOF>
+TDD2182435 3> *
+TDD434028 ? 2
+TDD2871872 📋 "yukky" ? nnnnn
+TDD-5488141 tried: YUKKY n n n n n
+TDD431738 4> *
+TDD6047559 📋 "grrrl" ? nMnnn
+TDD-6479398 tried: GRRRL n m n n n
+TDD439242 5> *
+TDD4193296 📋 "ricin" ? MYnnn
+TDD-4632485 tried: RICIN m Y n n n
+TDD399610 6> *
+TDD1744883 ? 1
+TDD1909802 📋 "fifer" ? nYnYY
+TDD-4054285 tried: FIFER n Y n Y Y
+TDD4040663 📋> Don't Wordle 1308 - SURVIVED
+TDD-4040781 📋> Hooray! I didn't Wordle today!
+TDD-98 📋> ⬜⬜⬜⬜⬜6291
+TDD-8 📋> ⬜⬜⬜⬜⬜1132
+TDD-2 📋> ⬜⬜⬜⬜⬜486
+TDD1 📋> ⬜🟨⬜⬜⬜69
+TDD0 📋> 🟨🟩⬜⬜⬜14
+TDD-1 📋> ⬜🟩⬜🟩🟩11
+TDD4 📋> Undos used: 1
+TDD-1 📋> 
+TDD0 📋>   11 words remaining
+TDD0 📋> x 8 unused letters
+TDD415330 📋> = 88 total score
+TDD-167073 📋> ␚
+TDD-248163 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1308 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6291\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1132\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c486\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c69\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\u2b1c14\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe911\nUndos used: 1\n\n  11 words remaining\nx 8 unused letters\n= 88 total score"}
+TDD882 result: "Don't Wordle 1308 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6291\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1132\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c486\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c69\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\u2b1c14\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe911\nUndos used: 1\n\n  11 words remaining\nx 8 unused letters\n= 88 total score"
+TDD301779 📆 2025-12-22 ? 
