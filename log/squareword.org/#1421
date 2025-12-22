@@ -1,0 +1,119 @@
+T82260.57425236 now: 2025-12-22T08:23:49EST
+TD55 site: squareword.org
+TDD-22 wordlist: nwl2023.txt
+TDD4614554  ...
+TDD-2670466 🧩  ? #1421
+TDD-1943874 puzzle_id: #1421
+TDD1087932 > *
+TDD1695283 try? 2
+TDD-2783245 questioning: ["years", "#5"]
+TDD5144818 #1 <IndexError>  📋 "years" ? _EA__
+TDD-5144278 attempt 0 YEARS n Y Y n n
+TDD1469975 #2 <IndexError>  📋 "years" ? _____
+TDD-1470448 attempt 1 YEARS n n n n n
+TDD3216588 #3 <IndexError>  📋 "years" ? _____ ~ AR
+TDD-3216397 attempt 2 YEARS n n m m n
+TDD2885478 #4 <IndexError>  📋 "years" ? _EA__ ~ ES
+TDD-2885738 attempt 3 YEARS n Y Y n m
+TDD2559489 #5 <IndexError>  📋 "years" ? _____ ~ ES
+TDD-2559421 attempt 4 YEARS n m n n m
+TDD311503 ? 
+TDD-311601 question done
+TDD21736821 > *
+TDD-19697565 try? 1
+TDD-2039120 questioning: ["tease", "#4"]
+TDD6559143 #1 _EA__ -RSY  📋 "tease" ? _EA__ ~ T
+TDD-6559242 attempt 0 TEASE m Y Y n n
+TDD967847 #2 _____ -AERSY  📋 "tease" ? .
+TDD-967774 attempt 1 TEASE n n n n n
+TDD951812 #3 _____ ~AR -ESY  📋 "tease" ? .
+TDD-951817 attempt 2 TEASE n n m n n
+TDD2447040 #4 _EA__ ~S -RY  📋 "tease" ? _EASE
+TDD-2447054 attempt 3 TEASE n Y Y Y Y
+TDD3079007 #5 _____ ~ES -ARY  📋 "tease" ? _____ ~ EST
+TDD-3079073 attempt 4 TEASE m m n m m
+TDD239636 ? 
+TDD-239676 question done
+TDD1271731 > *
+TDD2352544 try? ␚
+TDD-3624349 <EOF>
+TDD3391678 > * 5
+TDD-503134 try? 2
+TDD-2888325 questioning: ["islet", "#5"]
+TDD8270538 #1 _EA__ ~T -RSY  📋 "islet" ? _EA_T ~ L
+TDD-8270547 attempt 0 ISLET n n m n Y
+TDD4455742 #2 _____ -AERSTY  📋 "islet" ? I_L__
+TDD-4455765 attempt 1 ISLET Y n Y n n
+TDD952218 #3 _____ ~AR -ESTY  📋 "islet" ? .
+TDD-952201 attempt 2 ISLET n n n n n
+TDD3495016 #4 _EASE -RTY  📋 "islet" ? _EASE ~ L
+TDD-3495017 attempt 3 ISLET n n m n n
+TDD4126999 #5 _____ ~EST -ARY  📋 "islet" ? ___E_ ~ EST
+TDD-4126975 attempt 4 ISLET n m n Y m
+TDD335821 ? 
+TDD-335963 question done
+TDD2631703 > 
+TDD-1855975 > *
+TDD5139 questioning: ["igloo", "#2"]
+TDD6582132 #1 _EA_T ~L -EIRSY  📋 "igloo" ? .
+TDD-7362854 attempt 0 IGLOO n n m n n
+TDD895346 #2 I_L__ -AERSTY  📋 "igloo" ? /it
+TDD-895369 attempt 1 IGLOO Y Y Y Y Y
+TDD4039331 #3 _____ ~AR -EILSTY  📋 "igloo" ? ___O_ ~ ARG
+TDD-4039309 attempt 2 IGLOO n m n Y n
+TDD1951466 #4 _EASE ~L -EIRSTY  📋 "igloo" ? .
+TDD-1951507 attempt 3 IGLOO n n m n n
+TDD4079148 #5 ___E_ ~ST -AILRY  📋 "igloo" ? ___E_ ~ EST
+TDD-4079148 attempt 4 IGLOO n n n n n
+TDD359781 ? 
+TDD-359909 question done
+TDD775130 > *
+TDD747844 questioning: ["argon", "#3"]
+TDD3978221 #1 _EA_T ~L -EGIORSY  📋 "argon" ? .
+TDD-5501048 attempt 0 ARGON n n n n n
+TDD815620 #3 ___O_ ~AGR -EILSTY  📋 "argon" ? /it
+TDD-815677 attempt 2 ARGON Y Y Y Y Y
+TDD1415590 #4 _EASE ~L -EGIORSTY  📋 "argon" ? .
+TDD-1415544 attempt 3 ARGON n n n n n
+TDD2631360 #5 ___E_ ~ST -AGILORY  📋 "argon" ? ___E_ ~ EST
+TDD-2631332 attempt 4 ARGON n n n n n
+TDD231963 ? 
+TDD-232007 question done
+TDD462821 > *
+TDD1300430 questioning: ["dealt", "#1"]
+TDD1208618 #1 _EA_T ~L -AEGINORSY  📋 "dealt" ? /it
+TDD-2971859 attempt 0 DEALT Y Y Y Y Y
+TDD1455196 #4 _EASE ~L -AEGINORSTY  📋 "dealt" ? .
+TDD-1455180 attempt 3 DEALT n Y Y m n
+TDD4911498 #5 ___E_ ~ST -AGILNORY  📋 "dealt" ? ___E_ ~ ESTD
+TDD-4911471 attempt 4 DEALT m m n n m
+TDD215709 ? 
+TDD-215876 question done
+TDD695304 > *
+TDD642114 questioning: ["lease", "#4"]
+TDD2204670 #4 _EASE ~L -DGINORSTY  📋 "lease" ? /it
+TDD-3541967 attempt 3 LEASE Y Y Y Y Y
+TDD5216256 #5 ___E_ ~DST -AGILNORY  📋 "lease" ? ___E_ ~ ESTD
+TDD-5216261 attempt 4 LEASE n m n m m
+TDD343206 ? 
+TDD-343322 question done
+TDD975861 > *
+TDD-62277 questioning: ["steed", "#5"]
+TDD3692086 #5 ___E_ ~DST -AGILNORY  📋 "steed" ? /it
+TDD-4605548 attempt 4 STEED Y Y Y Y Y
+TDD847006 ? 
+TDD-847123 question done
+TDD5032357 📋> squareword.org 1421: 8 guesses
+TDD-5032435 📋> 
+TDD-77 📋> 🟨🟩🟩🟨🟩
+TDD-5 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟩🟩🟩🟩
+TDD2 📋> 🟨🟨🟨🟩🟨
+TDD-1 📋> 
+TDD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD359685 📋> #squareword #squareword1421
+TDD-87942 📋> ␚
+TDD-271641 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1421: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1421"}
+TDD1622 result: "squareword.org 1421: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1421"
+TDD252519 📆 2025-12-22 ? 
