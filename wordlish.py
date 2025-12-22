@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from collections import Counter
 from collections.abc import Generator, Iterable
 from dataclasses import dataclass
