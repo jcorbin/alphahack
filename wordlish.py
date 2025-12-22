@@ -1,5 +1,5 @@
 from collections import Counter
-from collections.abc import Iterable
+from collections.abc import Generator, Iterable
 from dataclasses import dataclass
 from itertools import chain, combinations, permutations
 from typing import Callable, Literal, Never, cast, final, override
@@ -565,6 +565,22 @@ def main():
         print(f'! {mess}', file=sys.stderr)
         sys.exit(1)
 
+    def usage() -> Generator[str]:
+        yield f'Usage: <some_wordlist.txt wordlish.py [options...] <word> <feedback> [<word> <feedback> ...]'
+        yield f''
+        yield f'Options:'
+        yield f'  -v -- increase verbosity'
+        yield f''
+        yield f'  -length <LENGTH> -- to specify word length (default: {len(word)})'
+        yield f'  -len <LENGTH>    -- alias'
+        yield f'  -n <LENGTH>      -- alias'
+        yield f''
+        yield f'  -word ( _ | <LETTER> )... [~ MAY...] [- CANT...] [<LETTER>:<MAX>]'
+        yield f''
+        yield f'  -void <LETTER...>'
+        yield f''
+        yield f'NOTE: word-feedback pairs should be given after any -word prior state'
+
     attempts: list[Attempt] = []
     word = Word(size=5)
     verbose: int = 0
@@ -576,7 +592,10 @@ def main():
         if have_opt:
             opt, name = have_opt
 
-            # TODO help
+            if name.lower() in ('h', 'help', '?'):
+                for line in usage():
+                    print(line, file=sys.stderr)
+                return 1
 
             if name.lower() in ('n', 'len', 'length'):
                 n = args.have(r'\d+', lambda m: int(m[0]))
@@ -637,6 +656,6 @@ def main():
 
 if __name__ == '__main__':
     try:
-        main()
+        sys.exit(main())
     except BrokenPipeError:
         pass
