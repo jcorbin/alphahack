@@ -367,6 +367,41 @@ def load_solvers() -> Generator[SolverHarness]:
 
     # spaceweek = "./spaceword.py --wordlist nwl2023.txt spaceword_weekly.log"
 
+    from nordle import Nordle
+
+    # TODO SolverHarness may need changes to support Nordle's kind/mode puzzle_name-ing
+
+    def make_quordle(_tokens: PromptUI.Tokens):
+        qu = Nordle()
+        qu.default_site = 'm-w.com/games/quordle'
+        qu.site = qu.default_site
+        qu.log_file = 'quordle.log'
+        qu.wordlist_file = 'nwl2023.txt'
+        qu.kind = 'Quordle'
+        qu.mode = 'Classic'
+        qu.num_words = 4
+        return qu
+    yield SolverHarness('quordle', make_quordle)
+
+    # TODO
+    # Daily: Rescue
+    # https://m-w.com/games/quordle/#/rescue
+
+    # TODO
+    # Daily: Extreme
+    # https://m-w.com/games/quordle/#/extreme
+
+    # TODO
+    # Daily: Sequence
+    # https://m-w.com/games/quordle/#/sequence
+
+    # TODO
+    # Daily: Practice
+    # https://m-w.com/games/quordle/#/practice
+
+    # TODO octordle
+    # TODO https://www.britannica.com/games/octordle/daily
+
 # TODO share base class with StoredLog
 
 class Arguable:
