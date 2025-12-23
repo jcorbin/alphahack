@@ -365,6 +365,42 @@ def load_solvers() -> Generator[SolverHarness]:
 
     # spaceweek = "./spaceword.py --wordlist nwl2023.txt spaceword_weekly.log"
 
+    from nordle import Nordle
+
+    # TODO SolverHarness may need changes to support Nordle's kind/mode puzzle_name-ing
+
+    @SolverHarness.stored('quordle', Nordle,
+                          log_file = 'quordle.log',
+                          site = 'm-w.com/games/quordle',
+                          )
+    def make_quordle(_tokens: PromptUI.Tokens):
+        # TODO mode from tokens? canned from harness?
+        qu = Nordle()
+        qu.wordlist_file = 'nwl2023.txt'
+        qu.kind = 'Quordle'
+        qu.mode = 'Classic'
+        return qu
+    yield make_quordle
+
+    # TODO
+    # Daily: Rescue
+    # https://m-w.com/games/quordle/#/rescue
+
+    # TODO
+    # Daily: Extreme
+    # https://m-w.com/games/quordle/#/extreme
+
+    # TODO
+    # Daily: Sequence
+    # https://m-w.com/games/quordle/#/sequence
+
+    # TODO
+    # Daily: Practice
+    # https://m-w.com/games/quordle/#/practice
+
+    # TODO octordle
+    # TODO https://www.britannica.com/games/octordle/daily
+
 # TODO into mdkit
 
 def sections(lines: Iterable[str]) -> Generator[tuple[int, str, Iterable[str]]]:
