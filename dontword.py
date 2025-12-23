@@ -224,7 +224,7 @@ class DontWord(StoredLog):
 
     def do_guess(self, ui: PromptUI):
         '''
-        generate word word suggestions; usage `guess [<COUNT default: 10>]`
+        generate word suggestions; usage `guess [<COUNT default: 10>]`
         '''
         show_n = ui.tokens.have(r'\d+', lambda m: int(m[0])) or 10
         return self.guess(ui, show_n=show_n)
