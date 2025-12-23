@@ -617,7 +617,7 @@ class Search(StoredLog):
         super().add_args(parser)
         _ = parser.add_argument('--lang', default=self.lang)
         _ = parser.add_argument('--tz', default=self.pub_tzname)
-        _ = parser.add_argument('--model', self.default_chat_model)
+        _ = parser.add_argument('--model', default=self.default_chat_model)
         _ = parser.add_argument('--auto', action='store_true')
 
     @override
