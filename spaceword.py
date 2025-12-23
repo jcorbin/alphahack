@@ -1044,11 +1044,9 @@ class SpaceWord(StoredLog):
 
         self.at_cursor: tuple[int, int, Literal['X', 'Y']] = (0, 0, 'X')
 
-        self.play = PromptUI.Prompt(self.prompt_mess, {
-            '/site': self.cmd_site_link,
-            '/store': self.cmd_store,
-            '/result': self.cmd_result,
-
+        self.play = self.std_prompt
+        self.play.mess = self.prompt_mess
+        self.play.update({
             '/at': self.cmd_at,
             '/bad': self.cmd_bad,
             '/center': self.cmd_center,
