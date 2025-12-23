@@ -12,7 +12,7 @@ from contextlib import contextmanager, nullcontext
 from dataclasses import dataclass
 from dateutil.parser import parse as _parse_datetime
 from dateutil.tz import gettz, tzlocal, tzoffset
-from typing import Callable, cast, final
+from typing import Callable, Self, cast, final
 from types import TracebackType
 from warnings import deprecated
 
@@ -209,6 +209,28 @@ def part_seq[T](sq: Sequence[T], token: T):
             cur.append(t)
         if cur:
             yield tuple(cur)
+
+@final
+class Matcher[C]:
+    type Then[T] = Callable[[T, float, re.Match[str]], None]
+
+    def __init__(self, pat: re.Pattern[str], then: Then[C]):
+        self.pat = pat
+        self.then = then
+
+    def __call__(self, ctx: C, t: float, rest: str):
+        match = self.pat.match(rest)
+        if match:
+            self.then(ctx, t, match)
+            return True
+        return False
+
+def matcher(pat: str|re.Pattern[str]):
+    if isinstance(pat, str):
+        pat = re.compile(pat)
+    def inner[T](then: Callable[[T, float, re.Match[str]], None]):
+        return Matcher(pat, then)
+    return inner
 
 class StoredLog:
     @classmethod
@@ -689,6 +711,15 @@ class StoredLog:
             warn=lambda mess: ui.print(f'! parse #{no}: {mess}'))
         session_parser = LogSession.Parser()
 
+        matchers: list[Callable[[Self, float, str], bool]] = []
+
+        for prop in dir(self):
+            if prop.startswith('_'): continue
+            val = cast(object, getattr(self.__class__, prop, None))
+            if isinstance(val, Matcher):
+                matchers.append(cast(Matcher[Self], val))
+
+        mrs = tuple(matchers)
         for no, line in enumerate(lines, 1):
             t, _z, rest = parse(line)
 
@@ -743,7 +774,11 @@ class StoredLog:
                     pass
                 continue
 
-            yield t, rest
+            if not any(mr(self, t, rest) for mr in mrs):
+                yield t, rest
+
+        for mr in reversed(mrs):
+            _ = mr(self, 0, '')
 
         sess = session_parser.session()
         if sess is not None:
