@@ -22,7 +22,7 @@ from urllib.parse import urlparse
 from chat import get_olm_models
 from mdkit import break_sections, capture_fences, fenceit
 from store import StoredLog, git_txn
-from strkit import matchgen, spliterate, wraplines, MarkedSpec
+from strkit import make_digit_str, matchgen, parse_digit_int, spliterate, wraplines, MarkedSpec
 from ui import PromptUI
 
 _ = load_dotenv()
@@ -163,44 +163,6 @@ TierCounts = tuple[
     int,
     int,
 ]
-
-digits = [
-    '0️⃣',
-    '1️⃣',
-    '2️⃣',
-    '3️⃣',
-    '4️⃣',
-    '5️⃣',
-    '6️⃣',
-    '7️⃣',
-    '8️⃣',
-    '9️⃣',
-]
-
-def parse_digits(s: str):
-    while s:
-        for i, digit in enumerate(digits):
-            if s.startswith(digit):
-                yield i
-                s = s[len(digit):]
-                break
-        else:
-            raise ValueError(f'invalid digit string {s!r}')
-
-def make_digits(n: int):
-    while n > 0:
-        n, d = divmod(n, 10)
-        yield digits[d]
-
-def make_digit_str(n: int):
-    parts = list(make_digits(n))
-    return ''.join(reversed(parts))
-
-def parse_digit_int(s: str, default: int = 0):
-    nn: int|None = None
-    for n in parse_digits(s):
-        nn = n if nn is None else 10*nn + n
-    return default if nn is None else nn
 
 def olm_find_model(client: ollama.Client, name: str):
     try:

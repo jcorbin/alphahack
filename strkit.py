@@ -428,3 +428,69 @@ class MarkedSpec:
         lines = self.trailer
         if lines.peek() == '': _ = next(lines)
         assert list(lines) == []
+
+@final
+class GenThen[Y, R]:
+    def __init__(self, gen: Generator[Y, None, R]):
+        self.gen = gen
+        self.done: bool = False
+        self.value: R|None = None
+
+    def __iter__(self) -> Generator[Y, None, R]:
+        self.value = yield from self.gen
+        self.done = True
+        return self.value
+
+digits = (
+    '0️⃣',
+    '1️⃣',
+    '2️⃣',
+    '3️⃣',
+    '4️⃣',
+    '5️⃣',
+    '6️⃣',
+    '7️⃣',
+    '8️⃣',
+    '9️⃣',
+)
+
+def _consume_codes[T](codes: Iterable[tuple[str, T]], s: str):
+    while s:
+        for code, val in codes:
+            if s.startswith(code):
+                yield val
+                s = s[len(code):]
+                break
+        else:
+            break
+    return s
+
+def consume_codes[T](codes: Iterable[tuple[str, T]], s: str):
+    return GenThen(_consume_codes(codes, s))
+
+def consume_digits(s: str):
+    return GenThen(_consume_codes(tuple(
+        (code, val)
+        for val, code in enumerate(digits)
+    ), s))
+
+def parse_digits(s: str) -> Generator[int]:
+    cd = consume_digits(s)
+    yield from cd
+    if cd.value:
+        raise ValueError(f'invalid digit string {cd.value!r}')
+
+def parse_digit_int(s: str, default: int = 0):
+    nn: int|None = None
+    for n in parse_digits(s):
+        nn = n if nn is None else 10*nn + n
+    return default if nn is None else nn
+
+def make_digits(n: int):
+    while n > 0:
+        n, d = divmod(n, 10)
+        yield digits[d]
+
+def make_digit_str(n: int):
+    parts = list(make_digits(n))
+    return ''.join(reversed(parts))
