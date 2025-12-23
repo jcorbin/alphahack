@@ -712,17 +712,7 @@ class StoredLog:
             except EOFError:
                 return
 
-    def _matchers(self):
-        cls = self.__class__
-        for prop in dir(self):
-            if prop.startswith('_'): continue
-            val = cast(object, getattr(cls, prop, None))
-            if isinstance(val, Matcher):
-                yield cast(Matcher[Self], val)
-
     def load(self, ui: PromptUI, lines: Iterable[str]) -> Generator[tuple[float, str]]:
-        matchers = tuple(self._matchers())
-
         rez = zlib.compressobj()
         def flushit(b: bytes):
             _ = rez.compress(b)
@@ -732,13 +722,12 @@ class StoredLog:
             warn=lambda mess: ui.print(f'! parse #{no}: {mess}'))
         session_parser = LogSession.Parser()
 
-        for no, line in enumerate(lines, 1):
-            t, _z, rest = parse(line)
-
-            if t is None:
-                yield 0, line
-                continue
-
+        def match_session(self: Self, t: float, rest: str):
+            if not t and not rest:
+                sess = session_parser.session()
+                if sess is not None:
+                    self.sessions.append(sess)
+                return True
             if session_parser(ui, t, rest):
                 if session_parser.prior is not None:
                     self.sessions.append(session_parser.prior)
@@ -746,18 +735,28 @@ class StoredLog:
                     self.start = session_parser.start
                 if self.log_start is None:
                     self.log_start = session_parser.start
-                continue
+                return True
+            return False
 
-            for matcher in matchers:
-                if matcher(self, t, rest):
-                    continue
+        matchers: list[Callable[[Self, float, str], bool]] = []
+        matchers.append(match_session)
 
-            yield t, rest
+        for prop in dir(self):
+            if prop.startswith('_'): continue
+            val = cast(object, getattr(self.__class__, prop, None))
+            if isinstance(val, Matcher):
+                matchers.append(cast(Matcher[Self], val))
 
-        sess = session_parser.session()
-        if sess is not None:
-            self.sessions.append(sess)
-
+        mrs = tuple(matchers)
+        for no, line in enumerate(lines, 1):
+            with ui.exc_print(lambda: f'while loading L{no} {line!r}'):
+                t, _z, rest = parse(line)
+                if t is None:
+                    yield 0, line
+                elif not any(mr(self, t, rest) for mr in mrs):
+                    yield t, rest
+        for mr in mrs:
+            _ = mr(self, 0, '')
         ui.zlog = rez
 
     ### store specifics
