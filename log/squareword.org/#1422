@@ -1,0 +1,113 @@
+T142.06845024200447 now: 2025-12-23T08:23:43EST
+TD55 site: squareword.org
+TDD-19 wordlist: nwl2023.txt
+TDD3398792  ...
+TDD-590045 🧩  ? #1422
+TDD-2808474 puzzle_id: #1422
+TDD15175490 > *
+TDD-11808482 try? 1
+TDD-3367043 questioning: ["lears", "#5"]
+TDD6848589 #1 <IndexError>  📋 "lears" ? _____ ~ AR
+TDD-6848320 attempt 0 LEARS n n m m n
+TDD3366155 #2 <IndexError>  📋 "lears" ? ___R_ ~ EA
+TDD-3366387 attempt 1 LEARS n m m Y n
+TDD2719733 #3 <IndexError>  📋 "lears" ? _____ ~ EARS
+TDD-2719733 attempt 2 LEARS n m m m m
+TDD3382988 #4 <IndexError>  📋 "lears" ? _____ ~ ER
+TDD-3383015 attempt 3 LEARS n m n m n
+TDD2695340 #5 <IndexError>  📋 "lears" ? _____ ~ ARS
+TDD-2695353 attempt 4 LEARS n n m m m
+TDD847471 ? 
+TDD-847553 question done
+TDD4592351 > *
+TDD-1400939 try? 1
+TDD-3191267 questioning: ["faery", "#2"]
+TDD5935537 #1 _____ ~AR -ELS  📋 "faery" ? _A___ ~ AR
+TDD-5935645 attempt 0 FAERY n Y n m n
+TDD3544023 #2 ___R_ ~AE -LS  📋 "faery" ? __ER_ ~ A
+TDD-3543793 attempt 1 FAERY n m Y Y n
+TDD3790786 #3 _____ ~AERS -L  📋 "faery" ? _A___ ~ ERSF
+TDD-3790937 attempt 2 FAERY m Y m m n
+TDD3519793 #4 _____ ~ER -ALS  📋 "faery" ? __E__ ~ R
+TDD-3519576 attempt 3 FAERY n n Y m n
+TDD5824033 #5 _____ ~ARS -EL  📋 "faery" ? ____Y ~ ARS
+TDD-5824107 attempt 4 FAERY n m n m Y
+TDD8781769 ? 
+TDD-8782062 question done
+TDD13919856 > *
+TDD-13230673 questioning: ["safer", "#3"]
+TDD6861563 #1 _A___ ~R -EFLSY  📋 "safer" ? _A___ ~ AR
+TDD-7550606 attempt 0 SAFER n Y n n m
+TDD1223023 #2 __ER_ ~A -FLSY  📋 "safer" ? .
+TDD-1222989 attempt 1 SAFER n m n n n
+TDD791372 #3 _A___ ~EFRS -LY  📋 "safer" ? /it
+TDD-791390 attempt 2 SAFER Y Y Y Y Y
+TDD1479798 #4 __E__ ~R -AFLSY  📋 "safer" ? .
+TDD-1479813 attempt 3 SAFER n n n n m
+TDD2726727 #5 ____Y ~ARS -EFL  📋 "safer" ? S___Y ~ AR
+TDD-2726811 attempt 4 SAFER Y m n n m
+TDD199906 ? 
+TDD-199932 question done
+TDD552239 > *
+TDD2007274 try? 1
+TDD-2559418 questioning: ["avert", "#2"]
+TDD7111814 #1 _A___ ~R -EFLSY  📋 "avert" ? _A__T ~ AR
+TDD-7111786 attempt 0 AVERT m n n m Y
+TDD1462771 #2 __ER_ ~A -EFLRSY  📋 "avert" ? .
+TDD-1462768 attempt 1 AVERT m n Y Y n
+TDD3224683 #4 __E__ ~R -AEFLSY  📋 "avert" ? __E__ ~ RT
+TDD-3224763 attempt 3 AVERT n n Y m m
+TDD3790626 #5 S___Y ~AR -EFL  📋 "avert" ? S___Y ~ ART
+TDD-3790357 attempt 4 AVERT m n n m m
+TDD550375 ? 
+TDD-550713 question done
+TDD11872411 > *
+TDD-11031635 questioning: ["opera", "#2"]
+TDD10958548 #1 _A__T ~R -EFLSVY  📋 "opera" ? _A__T ~ AR
+TDD-11799188 attempt 0 OPERA n n n m m
+TDD720274 #2 __ER_ ~A -FLSTVY  📋 "opera" ? /it
+TDD-720044 attempt 1 OPERA Y Y Y Y Y
+TDD1493993 #4 __E__ ~RT -AFLSVY  📋 "opera" ? .
+TDD-1494206 attempt 3 OPERA n n Y m n
+TDD911862 #5 S___Y ~ART -EFLV  📋 "opera" ? .
+TDD-911737 attempt 4 OPERA n n n m m
+TDD190406 ? 
+TDD-190688 question done
+TDD503890 > *
+TDD1007384 questioning: ["carat", "#1"]
+TDD2544544 #1 _A__T ~R -EFLOPSVY  📋 "carat" ? /it
+TDD-4055690 attempt 0 CARAT Y Y Y Y Y
+TDD4007474 #4 __E__ ~RT -AFLOPSVY  📋 "carat" ? .
+TDD-4007464 attempt 3 CARAT n n m n m
+TDD6879668 #5 S___Y ~ART -EFLOPV  📋 "carat" ? S_RAY ~ T
+TDD-6879677 attempt 4 CARAT n n Y Y m
+TDD663526 ? 
+TDD-663644 question done
+TDD6847292 > *
+TDD-5574848 questioning: ["trend", "#4"]
+TDD8359128 #4 __E__ ~RT -ACFLOPSVY  📋 "trend" ? /it
+TDD-9631470 attempt 3 TREND Y Y Y Y Y
+TDD2184101 #5 S_RAY ~T -CEFLOPV  📋 "trend" ? .
+TDD-2184073 attempt 4 TREND m n n n n
+TDD191631 ? 
+TDD-191659 question done
+TDD614631 > *
+TDD299016 questioning: ["stray", "#5"]
+TDD1828413 #5 S_RAY ~T -CDEFLNOPRV  📋 "stray" ? /it
+TDD-2742103 attempt 4 STRAY Y Y Y Y Y
+TDD551456 ? 
+TDD-551538 question done
+TDD6680146 📋> squareword.org 1422: 8 guesses
+TDD-6680174 📋> 
+TDD-100 📋> 🟨🟩🟨🟨🟩
+TDD-9 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟨🟩🟨🟨
+TDD1 📋> 🟩🟨🟨🟨🟩
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD479733 📋> #squareword #squareword1422
+TDD-127593 📋> ␚
+TDD-352017 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1422: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1422"}
+TDD2075 result: "squareword.org 1422: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1422"
+TDD243875 📆 2025-12-23 ? 
