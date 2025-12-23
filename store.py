@@ -736,18 +736,6 @@ class StoredLog:
                 continue
 
             match = re.match(r'''(?x)
-                site :
-                \s+
-                (?P<token> [^\s]+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                token, rest = match.groups()
-                assert rest == ''
-                self.site = token
-                continue
-
-            match = re.match(r'''(?x)
                 puzzle_id :
                 \s+
                 (?P<token> [^\s]+ )
@@ -937,6 +925,16 @@ class StoredLog:
                 return self.call_state(ui, st)
             except (EOFError, KeyboardInterrupt):
                 raise StopIteration
+
+    @matcher(r'''(?x)
+        site :
+        \s+
+        (?P<token> [^\s]+ )
+        \s* ( .* )
+        $''')
+    def load_site(self, _t: float, m: re.Match[str]):
+        assert m[2] == ''
+        self.site = m[1]
 
     def run(self, ui: PromptUI) -> PromptUI.State|None:
         if self.start is None:
