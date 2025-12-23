@@ -297,9 +297,10 @@ class Word:
 
     def str_parts(self):
         yield f'{self.word}'
-        yield self.may_str()
-        yield self.cant_str()
-        yield self.max_str()
+        if not self.done:
+            yield self.may_str()
+            yield self.cant_str()
+            yield self.max_str()
 
     def may_str(self):
         return f'~{"".join(sorted(self.may))}' if self.may else ''
