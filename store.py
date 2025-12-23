@@ -736,18 +736,6 @@ class StoredLog:
                 continue
 
             match = re.match(r'''(?x)
-                puzzle_id :
-                \s+
-                (?P<token> [^\s]+ )
-                \s* ( .* )
-                $''', rest)
-            if match:
-                token, rest = match.groups()
-                assert rest == ''
-                self.puzzle_id = token
-                continue
-
-            match = re.match(r'''(?x)
                 (?: share \s+ )?  # pattern for legacy log lines
                 result :
                 \s* (?P<json> .* )
@@ -935,6 +923,16 @@ class StoredLog:
     def load_site(self, _t: float, m: re.Match[str]):
         assert m[2] == ''
         self.site = m[1]
+
+    @matcher(r'''(?x)
+        puzzle_id :
+        \s+
+        (?P<token> [^\s]+ )
+        \s* ( .* )
+        $''')
+    def load_puzzle_id(self, _t: float, m: re.Match[str]):
+        assert m[2] == ''
+        self.puzzle_id = m[1]
 
     def run(self, ui: PromptUI) -> PromptUI.State|None:
         if self.start is None:
