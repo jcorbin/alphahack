@@ -1067,10 +1067,13 @@ class StoredLog:
         site = site.replace('/', '_')
         return site
 
+    def store_subents(self):
+        yield self.store_name
+
     @property
     def store_subdir(self):
         if not self.store_dir: return None
-        return os.path.join(self.store_dir, self.store_name)
+        return os.path.join(self.store_dir, *self.store_subents())
 
     @property
     def should_store_to(self):
