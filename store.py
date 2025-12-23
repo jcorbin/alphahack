@@ -300,9 +300,6 @@ class StoredLog:
             'debug': self.do_debug,
         })
 
-    def set_result_text(self, txt: str):
-        self.result_text = txt
-
     @property
     def expire(self) -> datetime.datetime|None:
         return None
@@ -436,6 +433,22 @@ class StoredLog:
             self.proc_result(ui, ui.may_paste())
         except ValueError as err:
             ui.print(f'! {err}')
+
+    @matcher(r'''(?x)
+        (?: share \s+ )?  # pattern for legacy log lines
+        result :
+        \s* (?P<json> .* )
+        $''')
+    def load_result(self, _t: float, m: re.Match[str]):
+        dat = cast(object, json.loads(m[1]))
+        assert isinstance(dat, str)
+        try:
+            self.set_result_text(dat)
+        except:
+            pass
+
+    def set_result_text(self, txt: str):
+        self.result_text = txt
 
     def proc_result(self, ui: PromptUI, text: str) -> None:
         self.set_result_text(text)
@@ -733,20 +746,6 @@ class StoredLog:
                     self.start = session_parser.start
                 if self.log_start is None:
                     self.log_start = session_parser.start
-                continue
-
-            match = re.match(r'''(?x)
-                (?: share \s+ )?  # pattern for legacy log lines
-                result :
-                \s* (?P<json> .* )
-                $''', rest)
-            if match:
-                dat = cast(object, json.loads(match[1]))
-                assert isinstance(dat, str)
-                try:
-                    self.set_result_text(dat)
-                except:
-                    pass
                 continue
 
             for matcher in matchers:
