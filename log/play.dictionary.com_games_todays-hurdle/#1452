@@ -1,0 +1,92 @@
+T358.85531248600455 now: 2025-12-23T08:27:20EST
+TD94 site: https://play.dictionary.com/games/todays-hurdle
+TDD-44 wordlist: nwl2023.txt
+TDD14021866  ...
+TDD-12421981 1.1> *
+TDD1312122 1.1 ? 2
+TDD22264130 1.1 📋 "steal" ? nMnYM
+TDD-25175825 tried: STEAL n m n Y m
+TDD479346 1.2> *
+TDD744407 1.2 ? 1
+TDD2784003 1.2 📋 "bloat" ? nYYYY
+TDD-4007863 tried: BLOAT n Y Y Y Y
+TDD415297 1.3> *
+TDD1488427 1.3 ? 2
+TDD576439 1.3 📋 "float" ? it
+TDD-2480258 tried: FLOAT Y Y Y Y Y
+TDD11583526 2.1 📋 "float" ? nnnnY
+TDD-11583508 tried: FLOAT n n n n Y
+TDD1303487 2.2> *
+TDD-119607 2.2 ? 1
+TDD3416054 2.2 📋 "bruit" ? YMMnY
+TDD-4599866 tried: BRUIT Y m m n Y
+TDD455611 2.3> *
+TDD1912230 2.3 ? 2
+TDD1984077 2.3 📋 "burnt" ? it
+TDD-4352003 tried: BURNT Y Y Y Y Y
+TDD9951498 3.1 📋 "burnt" ? nnnnM
+TDD-9951477 tried: BURNT n n n n m
+TDD487520 3.2> *
+TDD688253 3.2 ? 1
+TDD2520557 3.2 📋 "stale" ? nMnnY
+TDD-3696250 tried: STALE n m n n Y
+TDD607144 3.3> *
+TDD344622 3.3 ? 1
+TDD4080333 3.3 📋 "white" ? MnYMY
+TDD-5032157 tried: WHITE m n Y m Y
+TDD463488 3.4> *
+TDD3360106 3.4 📋 "twice" ? it
+TDD-3823633 tried: TWICE Y Y Y Y Y
+TDD8807631 4.1 📋 "twice" ? MnYnn
+TDD-8807573 tried: TWICE m n Y n n
+TDD447418 4.2> *
+TDD760549 4.2 ? 1
+TDD2839872 4.2 📋 "saint" ? MnYnY
+TDD-4047826 tried: SAINT m n Y n Y
+TDD455631 4.3> *
+TDD800123 4.3 ? 1
+TDD2384186 4.3 📋 "moist" ? nYYYY
+TDD-3639998 tried: MOIST n Y Y Y Y
+TDD439146 4.4> *
+TDD3609024 4.4 ? 1
+TDD-1000574 4.4 📋 "hoist" ? it
+TDD-3047594 tried: HOIST Y Y Y Y Y
+TDD8847875 5.1 📋 "float" ? nMnYM
+TDD-8847753 tried: FLOAT n m n Y m
+TDD1719485 5.2 📋 "burnt" ? nnnnM
+TDD-1719573 tried: BURNT n n n n m
+TDD2175484 5.3 📋 "twice" ? MnnnM
+TDD-2175518 tried: TWICE m n n n m
+TDD1391732 5.4 📋 "hoist" ? nnnnM
+TDD-1391731 tried: HOIST n n n n m
+TDD743273 5.5> *
+TDD969083 5.5 ? 1
+TDD1591126 5.5 📋 "metal" ? it
+TDD-3303521 tried: METAL Y Y Y Y Y
+TDD6240195 📋> Hurdle 1452
+TDD-6240247 📋> 
+TDD-84 📋> 3/6
+TDD0 📋> ⬜🟨⬜🟩🟨
+TDD-5 📋> ⬜🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 3/6
+TDD0 📋> ⬜⬜⬜⬜🟩
+TDD0 📋> 🟩🟨🟨⬜🟩
+TDD1 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 4/6
+TDD0 📋> ⬜⬜⬜⬜🟨
+TDD0 📋> ⬜🟨⬜⬜🟩
+TDD0 📋> 🟨⬜🟩🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> 🟨⬜🟩⬜⬜
+TDD0 📋> 🟨⬜🟩⬜🟩
+TDD0 📋> ⬜🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 1/2
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD735653 📋> score: 10,100
+TDD-391765 📋> ␚
+TDD-343760 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1452\n\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"}
+TDD416 result: "Hurdle 1452\n\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"
+TDD406542 📆 2025-12-23 ? 
