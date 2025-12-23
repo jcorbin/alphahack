@@ -56,13 +56,21 @@ def feedback_letters(res: Feedback):
         elif c == 1: yield 'm'
         else: yield 'n'
 
-def parse_feedback(tokensOrStr: PeekStr|str) -> Feedback:
+def _parse_feedback(tokensOrStr: PeekStr|str, max: int|None=None) -> Generator[Letres]:
     pk = (
         PeekStr(m[0] for m in re.finditer(r'[^\s+]+', tokensOrStr))
         if isinstance(tokensOrStr, str) else tokensOrStr)
-    return tuple(
-        0 if m[1] else 1 if m[2] else 2
-        for m in pk.consume(r'(?x) ([Nn0]) | ([Mm1]) | ([Yy2])'))
+    n = 0
+    for m in pk.consume(r'(?x) ([Nn0]) | ([Mm1]) | ([Yy2])'):
+        n += 1
+        yield (
+            0 if m[1] else
+            1 if m[2] else
+            2)
+        if max is not None and n >= max: break
+
+def parse_feedback(tokensOrStr: PeekStr|str, max: int|None=None) -> Feedback:
+    return tuple(_parse_feedback(tokensOrStr, max))
 
 @final
 class Question:
@@ -147,7 +155,7 @@ class Attempt:
         if expected_size and len(word) != expected_size:
             raise ValueError(f'expected word to be {expected_size} letters, got {len(word)}')
 
-        res = parse_feedback(pk)
+        res = parse_feedback(pk, len(word))
         if require_feedback and not res:
             raise ValueError(f'must provide feedback for word {word!r}')
         if res and len(res) != len(word):
