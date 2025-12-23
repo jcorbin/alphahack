@@ -1,0 +1,87 @@
+T1.5019278339896118 now: 2025-12-23T13:56:19EST
+TD58 site: m-w.com/games/quordle
+TDD-22 wordlist: nwl2023.txt
+TDD1166152  ...
+TDD3338840 > * 1
+TDD-3169811 ? 1
+TDD-1335040 questioning: rosed
+TDD3887324 #1 _____? nMnnn
+TDD-3887135 attempt: 0 ROSED n m n n n
+TDD1671754 #2 _____? nnMnn
+TDD-1671855 attempt: 1 ROSED n n m n n
+TDD1735456 #3 _____? nnMMn
+TDD-1735483 attempt: 2 ROSED n n m m n
+TDD1455413 #4 _____? nYnnn
+TDD-1455405 attempt: 3 ROSED n Y n n n
+TDD4055864 > * 2
+TDD10023740 ? 1
+TDD-14079648 questioning: anils
+TDD4591922 #1 _____ ~O -DERS? MnnMn
+TDD-4591887 attempt: 0 ANILS m n n m n
+TDD4847096 #2 _____ ~S -DEOR? MnnMM
+TDD-4847154 attempt: 1 ANILS m n n m m
+TDD2720692 #3 _____ ~ES -DOR? MnnnM
+TDD-2720640 attempt: 2 ANILS m n n n m
+TDD7671462 #4 _O___ -DERS? nMnnn
+TDD-7671457 attempt: 3 ANILS n m n n n
+TDD5990840 > * 3
+TDD-4495101 ? 1
+TDD-1495806 questioning: stake
+TDD5255546 #1 _____ ~ALO -DEINRS? nMMnn
+TDD-5255453 attempt: 0 STAKE n m m n n
+TDD1920163 #2 _____ ~ALS -DEINOR? MnYnn
+TDD-1920182 attempt: 1 STAKE m n Y n n
+TDD3750994 #3 _____ ~AES -DILNOR? MnYnY
+TDD-3750992 attempt: 2 STAKE m n Y n Y
+TDD2199980 #4 _O___ ~N -ADEILRS? nnnnn
+TDD-2199998 attempt: 3 STAKE n n n n n
+TDD6911590 > * 4
+TDD4368155 ? 5
+TDD-11279809 questioning: young
+TDD7167587 #1 _____ ~ALOT -DEIKNRS? nMnnM
+TDD-7167485 attempt: 0 YOUNG n m n n m
+TDD1591370 #2 __A__ ~LS -DEIKNORT? nnnnn
+TDD-1591397 attempt: 1 YOUNG n n n n n
+TDD2207255 #3 __A_E ~S -DIKLNORT? nnMnM
+TDD-2207306 attempt: 2 YOUNG n n m n m
+TDD2688059 #4 _O___ ~N -ADEIKLRST? nYnMM
+TDD-2688071 attempt: 3 YOUNG n Y n m m
+TDD3431483 > * 1
+TDD-3300520 questioning: gloat
+TDD4313917 #1 _____ ~AGLOT -DEIKNRSUY? YYYYY
+TDD-4444829 attempt: 0 GLOAT Y Y Y Y Y
+TDD15855581 #2 __A__ ~LS -DEGIKNORTUY? nYnMn
+TDD-15855569 attempt: 1 GLOAT n Y n m n
+TDD7303562 #3 __A_E ~GSU -DIKLNORTY? MnnMn
+TDD-7303618 attempt: 2 GLOAT m n n m n
+TDD1679727 #4 _O___ ~GN -ADEIKLRSTUY? MnMnn
+TDD-1679736 attempt: 3 GLOAT m n m n n
+TDD3815332 > * 3
+TDD-3720559 questioning: usage
+TDD6202200 #2 _LA__ ~S -DEGIKNORTUY? nMYnn
+TDD-6296940 attempt: 1 USAGE n m Y n n
+TDD2287724 #3 __A_E ~GSU -DIKLNORTY? YYYYY
+TDD-2287764 attempt: 2 USAGE Y Y Y Y Y
+TDD6743992 #4 _O___ ~GN -ADEIKLRSTUY? nnnYn
+TDD-6743927 attempt: 3 USAGE n n n Y n
+TDD6079170 > * 2
+TDD3008823 ? 1
+TDD-9088060 questioning: clasp
+TDD7087613 #2 _LA__ ~S -DEGIKNORTUY? YYYYY
+TDD-7087597 attempt: 1 CLASP Y Y Y Y Y
+TDD2039794 #4 _O_G_ ~N -ADEIKLRSTUY? nnnnn
+TDD-2039743 attempt: 3 CLASP n n n n n
+TDD2039577 > * 4
+TDD696269 ? 2
+TDD-2735873 questioning: bongo
+TDD5111554 #4 _O_G_ ~N -ACDEIKLPRSTUY? YYYYY
+TDD-5111591 attempt: 3 BONGO Y Y Y Y Y
+TDD7808453 📋> 🙂 Daily Quordle 1429
+TDD-7808512 📋> 5️⃣7️⃣
+TDD-91 📋> 6️⃣8️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD567402 📋> 
+TDD-38070 📋> ␚
+TDD-529104 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1429\n5\ufe0f\u20e37\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1538 result: "\ud83d\ude42 Daily Quordle 1429\n5\ufe0f\u20e37\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD666954 📆 2025-12-23 ? 
