@@ -1,0 +1,53 @@
+T91.18897442000161 now: 2025-12-23T08:22:52EST
+TD60 site: alphaguess.com
+TDD94295 loaded 196539 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (64 words excluded) asof c2db8cf7510749b6b10763aa9998a5e780011c16
+TDD6601474  ...
+TDD-5071800 [0 : 98225 : 196539] mach? a
+TDD-1623881 progress: 1 98225 mach
+TDD1367860 [98226 : 147329 : 196539] rho? a
+TDD-1367862 progress: 1 147329 rho
+TDD1239296 [147330 : 171929 : 196539] tag? a
+TDD-1239294 progress: 1 171929 tag
+TDD1224234 [171930 : 182015 : 196539] un? a
+TDD-1224264 progress: 1 182015 un
+TDD1423727 [182016 : 189278 : 196539] vicar? b
+TDD-1423723 progress: -1 189278 vicar
+TDD1311608 [182016 : 185646 : 189278] unretire? b
+TDD-1311611 progress: -1 185646 unretire
+TDD1287742 [182016 : 183831 : 185646] unembittered? a
+TDD-1287708 progress: 1 183831 unembittered
+TDD3351950 [183832 : 184729 : 185646] universal? b
+TDD-3351955 progress: -1 184729 universal
+TDD1575533 [183832 : 184278 : 184729] ungula? a
+TDD-1575543 progress: 1 184278 ungula
+TDD1495518 [184279 : 184497 : 184729] uniform? b
+TDD-1495543 progress: -1 184497 uniform
+TDD1512014 [184279 : 184387 : 184497] unhistoric? b
+TDD-1511956 progress: -1 184387 unhistoric
+TDD1407561 [184279 : 184329 : 184387] unharness? b
+TDD-1407589 progress: -1 184329 unharness
+TDD3479844 [184279 : 184298 : 184329] unhand? a
+TDD-3479827 progress: 1 184298 unhand
+TDD1703522 [184299 : 184311 : 184329] unhang? a
+TDD-1703567 progress: 1 184311 unhang
+TDD2527934 [184312 : 184315 : 184329] unhappen? !
+TDD1687896 [184312 : 184320 : 184328] unhappiest? a
+TDD-4215780 progress: 1 184320 unhappiest
+TDD1783629 [184321 : 184324 : 184328] unhappy? it
+TDD-1783645 progress: 0 184324 unhappy
+TDD-122 [184321 : 184324 : 184328] <Done>.
+TDD3152487 📋> 🧩 Puzzle #882
+TDD-3152414 📋> 
+TDD-82 📋> 🤔 16 guesses
+TDD-5 📋> 
+TDD0 📋> ⏱️ 31s
+TDD-1 📋> 
+TDD415392 📋> 🔗 alphaguess.com
+TDD-159245 📋> ␚
+TDD-256029 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #882\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 31s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-28 result: "\ud83e\udde9 Puzzle #882\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 31s\n\n\ud83d\udd17 alphaguess.com"
+TDD-84 result puzzle: 882
+TDD-7 result guesses: 16
+TDD-1 result time: 31s
+TDD0 result link: alphaguess.com
+TDD247184 📆 2025-12-23 ? 
