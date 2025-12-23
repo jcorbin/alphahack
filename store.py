@@ -1232,11 +1232,16 @@ class StoredLog:
     def header_slug(self):
         return tuple(self.slug(link=True))
 
+    @property
+    def puzzle_name(self) -> str:
+        return ''
+
     def slug(self, link: bool = True):
         site = self.site or self.default_site
 
-        if self.site_name:
-            yield f'[{self.site_name}]({site})' if link else f'🔗 {self.site_name}'
+        name = self.puzzle_name or self.site_name
+        if name:
+            yield f'[{name}]({site})' if link else f'🔗 {name}'
         else:
             yield site if link else f'🔗 {site}'
 
