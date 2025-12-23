@@ -1,0 +1,41 @@
+T42.188461155004916 now: 2025-12-23T08:22:03EST
+TD58 site: alfagok.diginaut.net
+TDD169233 loaded 399713 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1139 words excluded) asof c2db8cf7510749b6b10763aa9998a5e780011c16
+TDD5541088  ...
+TDD-2662383 [0 : 199836 : 399713] lijm? a
+TDD-3047549 progress: 1 199836 lijm
+TDD3495783 [199837 : 299758 : 399713] schub? a
+TDD-3495924 progress: 1 299758 schub
+TDD2046320 [299759 : 349543 : 399713] vakantie? a
+TDD-2046480 progress: 1 349543 vakantie
+TDD1872333 [349544 : 374287 : 399713] vrij? a
+TDD-1872229 progress: 1 374287 vrij
+TDD1910078 [374288 : 386828 : 399713] wind? a
+TDD-1910182 progress: 1 386828 wind
+TDD2247858 [386829 : 393245 : 399713] zelfmoord? b
+TDD-2247847 progress: -1 393245 zelfmoord
+TDD1631977 [386829 : 390037 : 393245] wrik? a
+TDD-1631978 progress: 1 390037 wrik
+TDD3047911 [390038 : 391459 : 393245] zand? b
+TDD-3047893 progress: -1 391459 zand
+TDD2175652 [390038 : 390704 : 391459] zaad? a
+TDD-2175653 progress: 1 390704 zaad
+TDD1712391 [390705 : 391055 : 391459] zadel? b
+TDD-1712272 progress: -1 391055 zadel
+TDD1654688 [390705 : 390850 : 391055] zaai? a
+TDD-1654805 progress: 1 390850 zaai
+TDD1911446 [390851 : 390927 : 391055] zaal? it
+TDD-1911468 progress: 0 390927 zaal
+TDD-122 [390851 : 390927 : 391055] <Done>.
+TDD4097567 📋> 🧩 Puzzel #416
+TDD-4097415 📋> 🤔 12 gokken
+TDD-168 📋> ⏱️ 24s
+TDD437918 📋> 🔗 alfagok.diginaut.net
+TDD-188464 📋> ␚
+TDD-249322 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #416\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD6368 result: "\ud83e\udde9 Puzzel #416\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-6481 result puzzle: 416
+TDD-28 result guesses: 12
+TDD-1 result time: 24s
+TDD0 result link: alfagok.diginaut.net
+TDD369430 📆 2025-12-23 ? 
