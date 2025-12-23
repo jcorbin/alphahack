@@ -12,7 +12,7 @@ from contextlib import contextmanager, nullcontext
 from dataclasses import dataclass
 from dateutil.parser import parse as _parse_datetime
 from dateutil.tz import gettz, tzlocal, tzoffset
-from typing import Callable, cast, final
+from typing import Callable, Self, cast, final
 from types import TracebackType
 from warnings import deprecated
 
@@ -209,6 +209,26 @@ def part_seq[T](sq: Sequence[T], token: T):
             cur.append(t)
         if cur:
             yield tuple(cur)
+
+@final
+class Matcher[T]:
+    def __init__(self, pat: re.Pattern[str], then: Callable[[T, float, re.Match[str]], None]):
+        self.pat = pat
+        self.then = then
+
+    def __call__(self, ctx: T, t: float, rest: str):
+        match = self.pat.match(rest)
+        if match:
+            self.then(ctx, t, match)
+            return True
+        return False
+
+def matcher(pat: str|re.Pattern[str]):
+    if isinstance(pat, str):
+        pat = re.compile(pat)
+    def inner[T](then: Callable[[T, float, re.Match[str]], None]):
+        return Matcher(pat, then)
+    return inner
 
 class StoredLog:
     @classmethod
@@ -679,7 +699,17 @@ class StoredLog:
             except EOFError:
                 return
 
+    def _matchers(self):
+        cls = self.__class__
+        for prop in dir(self):
+            if prop.startswith('_'): continue
+            val = cast(object, getattr(cls, prop, None))
+            if isinstance(val, Matcher):
+                yield cast(Matcher[Self], val)
+
     def load(self, ui: PromptUI, lines: Iterable[str]) -> Generator[tuple[float, str]]:
+        matchers = tuple(self._matchers())
+
         rez = zlib.compressobj()
         def flushit(b: bytes):
             _ = rez.compress(b)
@@ -742,6 +772,10 @@ class StoredLog:
                 except:
                     pass
                 continue
+
+            for matcher in matchers:
+                if matcher(self, t, rest):
+                    continue
 
             yield t, rest
 
