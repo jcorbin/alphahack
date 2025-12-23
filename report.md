@@ -1,16 +1,15 @@
-# 2025-12-23
+# 2025-12-24
 
-- 🔗 spaceword.org 🧩 2025-12-22 🏁 score 2173 ranked 7.2% 24/335 ⏱️ 0:59:59.988260
-- 🔗 alfagok.diginaut.net 🧩 #416 🥳 12 ⏱️ 0:00:37.800534
-- 🔗 alphaguess.com 🧩 #882 🥳 17 ⏱️ 0:00:43.398288
-- 🔗 squareword.org 🧩 #1422 🥳 8 ⏱️ 0:03:29.810256
-- 🔗 dictionary.com hurdle 🧩 #1452 🥳 15 ⏱️ 0:02:41.286880
-- 🔗 dontwordle.com 🧩 #1309 🥳 6 ⏱️ 0:01:42.521491
-- 🔗 cemantle.certitudes.org 🧩 #1359 🥳 129 ⏱️ 0:05:00.036728
-- 🔗 cemantix.certitudes.org 🧩 #1392 🥳 147 ⏱️ 0:04:24.609806
-- 🔗 Quordle Classic 🧩 #1429 🥳 score:26 ⏱️ 0:03:22.040322
-- 🔗 Quordle Extreme 🧩 #512 😦 score:23 ⏱️ 0:03:02.505680
-- 🔗 Quordle Rescue 🧩 #43 🥳 score:29 ⏱️ 0:02:58.796395
+- 🔗 spaceword.org 🧩 2025-12-23 🏁 score 2173 ranked 6.6% 23/347 ⏱️ 0:59:39.431299
+- 🔗 alfagok.diginaut.net 🧩 #417 🥳 14 ⏱️ 0:00:50.319473
+- 🔗 alphaguess.com 🧩 #883 🥳 10 ⏱️ 0:00:27.175523
+- 🔗 squareword.org 🧩 #1423 🥳 9 ⏱️ 0:03:03.019816
+- 🔗 dictionary.com hurdle 🧩 #1453 😦 18 ⏱️ 0:03:37.490338
+- 🔗 dontwordle.com 🧩 #1310 🥳 6 ⏱️ 0:01:55.150697
+- 🔗 Quordle Classic 🧩 #1430 🥳 score:20 ⏱️ 0:01:55.126245
+- 🔗 Octordle Classic 🧩 #1430 🥳 score:58 ⏱️ 0:07:58.809067
+- 🔗 cemantle.certitudes.org 🧩 #1360 🥳 113 ⏱️ 0:09:22.314930
+- 🔗 cemantix.certitudes.org 🧩 #1393 🥳 118 ⏱️ 0:07:37.928284
 
 # Dev
 
@@ -230,247 +229,212 @@
 
   ```
 
+# spaceword.org 🧩 2025-12-23 🏁 score 2173 ranked 6.6% 23/347 ⏱️ 0:59:39.431299
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# spaceword.org 🧩 2025-12-22 🏁 score 2173 ranked 7.2% 24/335 ⏱️ 0:59:59.988260
-
-📜 6 sessions
+📜 3 sessions
 - tiles: 21/21
 - score: 2173 bonus: +73
-- rank: 24/335
+- rank: 23/347
 
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
-      _ A B _ J _ G O A L   
-      _ R O Q U E _ A Y _   
-      _ T A _ T R O K E _   
+      _ I _ J U S S I V E   
+      _ R _ _ _ H O _ O W   
+      _ E D U C A B L E _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
 
+# alfagok.diginaut.net 🧩 #417 🥳 14 ⏱️ 0:00:50.319473
 
-# alfagok.diginaut.net 🧩 #416 🥳 12 ⏱️ 0:00:37.800534
-
-🤔 12 attempts
+🤔 14 attempts
 📜 1 sessions
 
-    @        [     0] &-teken   
-    @+1      [     1] &-tekens  
-    @+2      [     2] -cijferig 
-    @+3      [     3] -e-mail   
-    @+199836 [199836] lijm      q0  ? after
-    @+299758 [299758] schub     q1  ? after
-    @+349543 [349543] vakantie  q2  ? after
-    @+374287 [374287] vrij      q3  ? after
-    @+386828 [386828] wind      q4  ? after
-    @+390037 [390037] wrik      q6  ? after
-    @+390704 [390704] zaad      q8  ? after
-    @+390850 [390850] zaai      q10 ? after
-    @+390927 [390927] zaal      q11 ? it
-    @+390927 [390927] zaal      done. it
-    @+391055 [391055] zadel     q9  ? before
-    @+391459 [391459] zand      q7  ? before
-    @+393245 [393245] zelfmoord q5  ? before
+    @        [     0] &-teken        
+    @+1      [     1] &-tekens       
+    @+2      [     2] -cijferig      
+    @+3      [     3] -e-mail        
+    @+99758  [ 99758] ex             q1  ? after
+    @+111413 [111413] ge             q3  ? after
+    @+130434 [130434] gracieuze      q4  ? after
+    @+139791 [139791] hei            q5  ? after
+    @+144560 [144560] hoek           q6  ? after
+    @+146221 [146221] hoofd          q7  ? after
+    @+147011 [147011] hoofdslagaders q9  ? after
+    @+147293 [147293] hoog           q11 ? after
+    @+147545 [147545] hoogopgeleid   q12 ? after
+    @+147664 [147664] hoogte         q13 ? it
+    @+147664 [147664] hoogte         done. it
+    @+147799 [147799] hooi           q8  ? before
+    @+149453 [149453] huis           q2  ? before
+    @+199835 [199835] lijm           q0  ? before
 
-# alphaguess.com 🧩 #882 🥳 17 ⏱️ 0:00:43.398288
+# alphaguess.com 🧩 #883 🥳 10 ⏱️ 0:00:27.175523
 
-🤔 17 attempts
+🤔 10 attempts
 📜 1 sessions
 
-    @        [     0] aa           
-    @+1      [     1] aah          
-    @+2      [     2] aahed        
-    @+3      [     3] aahing       
-    @+98225  [ 98225] mach         q0  ? after
-    @+147329 [147329] rho          q1  ? after
-    @+171929 [171929] tag          q2  ? after
-    @+182015 [182015] un           q3  ? after
-    @+183831 [183831] unembittered q6  ? after
-    @+184278 [184278] ungula       q8  ? after
-    @+184298 [184298] unhand       q12 ? after
-    @+184311 [184311] unhang       q13 ? after
-    @+184320 [184320] unhappiest   q15 ? after
-    @+184324 [184324] unhappy      q16 ? it
-    @+184324 [184324] unhappy      done. it
-    @+184328 [184328] unharness    q11 ? before
-    @+184386 [184386] unhistoric   q10 ? before
-    @+184496 [184496] uniform      q9  ? before
-    @+184728 [184728] universal    q7  ? before
-    @+185645 [185645] unretire     q5  ? before
-    @+189277 [189277] vicar        q4  ? before
+    @        [     0] aa      
+    @+1      [     1] aah     
+    @+2      [     2] aahed   
+    @+3      [     3] aahing  
+    @+98225  [ 98225] mach    q0  ? after
+    @+122110 [122110] par     q2  ? after
+    @+134641 [134641] prog    q3  ? after
+    @+140527 [140527] rec     q4  ? after
+    @+143790 [143790] rem     q5  ? after
+    @+145203 [145203] res     q6  ? after
+    @+145733 [145733] respade q8  ? after
+    @+145853 [145853] rest    q9  ? it
+    @+145853 [145853] rest    done. it
+    @+146262 [146262] retest  q7  ? before
+    @+147329 [147329] rho     q1  ? before
 
-# squareword.org 🧩 #1422 🥳 8 ⏱️ 0:03:29.810256
+# squareword.org 🧩 #1423 🥳 9 ⏱️ 0:03:03.019816
 
 📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
-    🟨 🟩 🟨 🟨 🟩
+    🟨 🟨 🟨 🟩 🟨
+    🟨 🟩 🟨 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
-    🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟩 🟨 🟨
-    🟩 🟨 🟨 🟨 🟩
+    🟨 🟩 🟨 🟩 🟩
+    🟩 🟨 🟩 🟩 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    C A R A T
-    O P E R A
-    S A F E R
-    T R E N D
-    S T R A Y
+    P A G E D
+    E L U D E
+    A L I G N
+    L O D E S
+    S W E D E
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1452 🥳 15 ⏱️ 0:02:41.286880
-
-📜 1 sessions
-💰 score: 10100
-
-    3/6
-    STEAL ⬜🟨⬜🟩🟨
-    BLOAT ⬜🟩🟩🟩🟩
-    FLOAT 🟩🟩🟩🟩🟩
-    3/6
-    FLOAT ⬜⬜⬜⬜🟩
-    BRUIT 🟩🟨🟨⬜🟩
-    BURNT 🟩🟩🟩🟩🟩
-    4/6
-    BURNT ⬜⬜⬜⬜🟨
-    STALE ⬜🟨⬜⬜🟩
-    WHITE 🟨⬜🟩🟨🟩
-    TWICE 🟩🟩🟩🟩🟩
-    4/6
-    TWICE 🟨⬜🟩⬜⬜
-    SAINT 🟨⬜🟩⬜🟩
-    MOIST ⬜🟩🟩🟩🟩
-    HOIST 🟩🟩🟩🟩🟩
-    Final 1/2
-    METAL 🟩🟩🟩🟩🟩
-
-# dontwordle.com 🧩 #1309 🥳 6 ⏱️ 0:01:42.521491
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1453 😦 18 ⏱️ 0:03:37.490338
 
 📜 1 sessions
-💰 score: 56
+💰 score: 4880
+
+    3/6
+    TESLA 🟨🟨⬜⬜⬜
+    OUTER 🟨⬜🟨🟨⬜
+    EMOTE 🟩🟩🟩🟩🟩
+    3/6
+    EMOTE 🟨🟨⬜⬜⬜
+    DAMES 🟨⬜🟨🟨⬜
+    MEDIC 🟩🟩🟩🟩🟩
+    6/6
+    MEDIC ⬜🟨⬜⬜⬜
+    URASE ⬜🟨🟨⬜🟨
+    WATER ⬜🟩⬜🟩🟩
+    LAVER ⬜🟩⬜🟩🟩
+    PAGER ⬜🟩⬜🟩🟩
+    BAKER 🟩🟩🟩🟩🟩
+    4/6
+    BAKER ⬜⬜⬜🟩🟨
+    DORES ⬜⬜🟩🟩⬜
+    CURET ⬜🟩🟩🟩⬜
+    PUREE 🟩🟩🟩🟩🟩
+    Final 2/2
+    PITON 🟩🟩🟨🟩⬜
+    PILOT 🟩🟩⬜🟩🟩
+    FAIL: PIVOT
+
+# dontwordle.com 🧩 #1310 🥳 6 ⏱️ 0:01:55.150697
+
+📜 1 sessions
+💰 score: 14
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:QAJAQ n n n n n remain:7419
-    ⬜⬜⬜⬜⬜ tried:MIMIC n n n n n remain:3545
-    ⬜⬜⬜⬜⬜ tried:KOOKY n n n n n remain:1135
-    ⬜⬜⬜⬜⬜ tried:VUGGS n n n n n remain:165
-    ⬜⬜⬜⬜⬜ tried:PHPHT n n n n n remain:63
-    ⬜🟨⬜🟩🟩 tried:DEWED n m n Y Y remain:8
+    ⬜⬜⬜⬜⬜ tried:MANNA n n n n n remain:5040
+    ⬜⬜⬜⬜⬜ tried:COHOG n n n n n remain:1898
+    ⬜⬜⬜⬜⬜ tried:XYLYL n n n n n remain:959
+    ⬜⬜🟨⬜⬜ tried:BRUSK n n m n n remain:24
+    🟩🟩🟩⬜⬜ tried:QUIFF Y Y Y n n remain:3
+    🟩🟩🟩⬜⬜ tried:QUIPU Y Y Y n n remain:2
 
-    Undos used: 3
+    Undos used: 4
 
-      8 words remaining
+      2 words remaining
     x 7 unused letters
-    = 56 total score
+    = 14 total score
 
-# cemantle.certitudes.org 🧩 #1359 🥳 129 ⏱️ 0:05:00.036728
+# [Quordle Classic](m-w.com/games/quordle) 🧩 #1430 🥳 score:20 ⏱️ 0:01:55.126245
 
-🤔 130 attempts
-📜 6 sessions
-🫧 2 chat sessions
-⁉️ 24 chat prompts
-🤖 24 dolphin3:latest replies
-🔥  3 🥵  2 😎 29 🥶 89 🧊  6
-
-      $1 #130   ~1 desk          100.00°C 🥳 1000‰
-      $2 #110  ~11 drawer         47.63°C 🔥  995‰
-      $3 #123   ~5 bookcase       47.39°C 🔥  993‰
-      $4  #52  ~29 notepad        47.24°C 🔥  992‰
-      $5 #128   ~3 table          40.46°C 🥵  971‰
-      $6 #107  ~12 tray           38.60°C 🥵  960‰
-      $7  #33  ~35 pencil         33.41°C 😎  887‰
-      $8  #69  ~23 fax            33.17°C 😎  883‰
-      $9  #92  ~14 phone          32.17°C 😎  862‰
-     $10 #129   ~2 chair          31.50°C 😎  837‰
-     $11 #126   ~4 library        31.36°C 😎  834‰
-     $12  #40  ~32 pen            31.01°C 😎  821‰
-     $36  #65      coffee         22.21°C 🥶
-    $125  #15      kaleidoscope   -0.97°C 🧊
-
-# cemantix.certitudes.org 🧩 #1392 🥳 147 ⏱️ 0:04:24.609806
-
-🤔 148 attempts
-📜 1 sessions
-🫧 8 chat sessions
-⁉️ 29 chat prompts
-🤖 29 dolphin3:latest replies
-🥵  2 😎  7 🥶 93 🧊 45
-
-      $1 #148   ~1 mensonge        100.00°C 🥳 1000‰
-      $2 #147   ~2 tromper          48.22°C 🥵  974‰
-      $3 #132   ~6 croire           42.70°C 🥵  922‰
-      $4 #130   ~8 dissimuler       39.96°C 😎  877‰
-      $5 #131   ~7 cacher           36.47°C 😎  776‰
-      $6 #143   ~3 masquer          35.27°C 😎  723‰
-      $7 #139   ~5 illusionner      35.22°C 😎  720‰
-      $8  #85   ~9 détourner        35.14°C 😎  715‰
-      $9 #140   ~4 jurer            31.68°C 😎  499‰
-     $10  #82  ~10 détournement     28.50°C 😎  115‰
-     $11 #111      fuir             24.71°C 🥶
-     $12 #141      laisser          24.67°C 🥶
-     $13  #93      faire            23.55°C 🥶
-    $104  #31      lave             -0.09°C 🧊
-
-# [Quordle Classic](m-w.com/games/quordle) 🧩 #1429 🥳 score:26 ⏱️ 0:03:22.040322
-
-📜 1 sessions
+📜 2 sessions
 
 Quordle Classic m-w.com/games/quordle/
 
-1. GLOAT attempts:5 score:5
-2. CLASP attempts:7 score:7
-3. USAGE attempts:6 score:6
-4. BONGO attempts:8 score:8
+1. FLOUR attempts:4 score:4
+2. CHAIR attempts:3 score:3
+3. OCTAL attempts:6 score:6
+4. ADAPT attempts:7 score:7
 
-
-# [Quordle Extreme](m-w.com/games/quordle/#/extreme) 🧩 #512 😦 score:23 ⏱️ 0:03:02.505680
-
-📜 1 sessions
-
-Quordle Extreme m-w.com/games/quordle/
-
-1. MATCH attempts:6 score:6
-2. ITCHY attempts:5 score:5
-3. MYRRH attempts:4 score:4
-4. FI_ER -ACDHLMOPSTWXY attempts:8 score:-1
-
-# [Quordle Rescue](m-w.com/games/quordle/#/rescue) 🧩 #43 🥳 score:29 ⏱️ 0:02:58.796395
+# [Octordle Classic](https://www.britannica.com/games/octordle/daily) 🧩 #1430 🥳 score:58 ⏱️ 0:07:58.809067
 
 📜 1 sessions
 
-Quordle Rescue m-w.com/games/quordle/
+Octordle Classic
 
-1. POPPY attempts:9 score:9
-2. FRAIL attempts:8 score:8
-3. DOZEN attempts:5 score:5
-4. STIFF attempts:7 score:7
+1. WROTE attempts:11 score:11
+2. GOOFY attempts:9 score:9
+3. LIGHT attempts:5 score:5
+4. PSALM attempts:3 score:3
+5. COAST attempts:4 score:4
+6. LAUGH attempts:6 score:6
+7. FIERY attempts:8 score:8
+8. RATTY attempts:12 score:12
+
+
+# cemantle.certitudes.org 🧩 #1360 🥳 113 ⏱️ 0:09:22.314930
+
+🤔 114 attempts
+📜 1 sessions
+🫧 4 chat sessions
+⁉️ 35 chat prompts
+🤖 35 falcon3:10b replies
+🔥  3 🥵 12 😎 22 🥶 74 🧊  2
+
+      $1 #114   ~1 grammar        100.00°C 🥳 1000‰
+      $2  #88  ~17 phonetics       53.62°C 🔥  992‰
+      $3 #113   ~2 syntax          52.65°C 🔥  991‰
+      $4  #83  ~20 scansion        51.42°C 🔥  990‰
+      $5 #111   ~3 language        51.13°C 🥵  987‰
+      $6  #92  ~14 pronunciation   50.66°C 🥵  984‰
+      $7  #94  ~12 phonological    48.17°C 🥵  979‰
+      $8 #110   ~4 intonation      46.21°C 🥵  970‰
+      $9  #91  ~15 phonology       45.76°C 🥵  967‰
+     $10  #78  ~22 prosody         42.50°C 🥵  938‰
+     $11 #107   ~7 alliteration    42.27°C 🥵  935‰
+     $17  #33  ~37 text            39.17°C 😎  882‰
+     $39  #76      cadence         27.91°C 🥶
+    $113  #20      concert         -0.56°C 🧊
+
+# cemantix.certitudes.org 🧩 #1393 🥳 118 ⏱️ 0:07:37.928284
+
+🤔 119 attempts
+📜 1 sessions
+🫧 10 chat sessions
+⁉️ 35 chat prompts
+🤖 35 falcon3:10b replies
+🥵  2 😎 20 🥶 68 🧊 28
+
+      $1 #119   ~1 hiérarchie      100.00°C 🥳 1000‰
+      $2  #80  ~16 fonction         41.49°C 🥵  970‰
+      $3 #108   ~3 niveau           38.50°C 🥵  929‰
+      $4  #91   ~9 processus        36.79°C 😎  881‰
+      $5  #35  ~23 devoir           36.49°C 😎  874‰
+      $6  #87  ~12 rôle             35.62°C 😎  846‰
+      $7 #103   ~4 exigence         35.52°C 😎  840‰
+      $8  #86  ~13 responsabilité   35.41°C 😎  837‰
+      $9  #88  ~11 définition       34.48°C 😎  796‰
+     $10  #69  ~19 salariat         33.26°C 😎  734‰
+     $11  #70  ~18 employé          31.25°C 😎  585‰
+     $12  #46  ~22 travail          31.06°C 😎  570‰
+     $24  #42      contenu          26.48°C 🥶
+     $92  #15      éclair           -0.04°C 🧊
