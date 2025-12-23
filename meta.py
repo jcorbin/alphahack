@@ -299,7 +299,7 @@ class SolverHarness:
                  with_args: 'SolverHarness.Arguable|None' = None,
                  ):
         if no_args and with_args:
-            raise TypeError('SolverHarness MUST may only have EITHER { no or with }_args')
+            raise TypeError('SolverHarness MUST only have EITHER { no or with }_args')
         self.name = name
         self.site = site
         self.log_file = log_file
