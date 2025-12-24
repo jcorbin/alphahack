@@ -1004,24 +1004,6 @@ class Search(StoredLog):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
                 match = re.match(r'''(?x)
-                    fix \s+ attempt_ (?P<attempt> \d+ ) :
-                    \s* (?P<rest> .* )
-                    $''', rest)
-                if match:
-                    si, rest = match.groups()
-                    i = int(si)
-                    score: float|None = None
-                    prog: int|None = None
-                    for match in re.finditer(r'''(?x)
-                        \s* (?P<name> score | prog ) : \s* (?P<value> [^\s]+ )
-                    ''', rest):
-                        name, value = match.groups()
-                        if name == 'score': score = float(value)
-                        if name == 'prog': prog = None if value == '_' else int(value)
-                    assert self.fix(ui, i, score, prog)
-                    continue
-
-                match = re.match(r'''(?x)
                     attempt_ (?P<attempt> \d+ ) :
                     \s+
                     " (?P<word> .+? ) "
@@ -2385,24 +2367,40 @@ class Search(StoredLog):
         return self.store
 
     def fix(self, ui: PromptUI, i: int, score: float|None, prog: int|None) -> bool:
-        parts: list[str] = []
+        parts = tuple(self.apply_fix(i, score, prog))
+        if parts:
+            ui.log(f'fix attempt_{i}: {' '.join(parts)}')
+            return True
+        return False
 
+    def apply_fix(self, i: int, score: float|None, prog: int|None) -> Generator[str]:
         if score is not None:
             self.score[i] = score
             self.index = sorted(self.index, key=lambda i: self.score[i], reverse=True)
-            parts.append(f'score:{score:.2f}')
+            yield f'score:{score:.2f}'
 
         if prog is not None:
             self.prog[i] = prog
-            parts.append(f'prog:{prog}')
+            yield f'prog:{prog}'
         elif i in self.prog:
             del self.prog[i]
-            parts.append(f'prog:_')
+            yield f'prog:_'
 
-        if not parts: return False
-
-        ui.log(f'fix attempt_{i}: {' '.join(parts)}')
-        return True
+    @matcher(r'''(?x)
+        fix \s+ attempt_ (?P<attempt> \d+ ) :
+        \s* (?P<rest> .* )
+        $''')
+    def load_fix(self, _t: float, m: re.Match[str]):
+        i = int(m[1])
+        score: float|None = None
+        prog: int|None = None
+        for sm in re.finditer(r'''(?x)
+            \s* (?P<name> score | prog ) : \s* (?P<value> [^\s]+ )
+        ''', m[2]):
+            name, value = sm.groups()
+            if name == 'score': score = float(value)
+            if name == 'prog': prog = None if value == '_' else int(value)
+        for _ in self.apply_fix(i, score, prog): pass
 
     def record(self, ui: PromptUI, word: str, score: float, prog: int|None):
         if word in self.wordbad:
