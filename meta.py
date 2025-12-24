@@ -369,18 +369,17 @@ def load_solvers() -> Generator[SolverHarness]:
 
     # TODO SolverHarness may need changes to support Nordle's kind/mode puzzle_name-ing
 
-    @SolverHarness.stored('quordle', Nordle,
-                          log_file = 'quordle.log',
-                          site = 'm-w.com/games/quordle',
-                          )
     def make_quordle(_tokens: PromptUI.Tokens):
-        # TODO mode from tokens? canned from harness?
         qu = Nordle()
+        qu.default_site = 'm-w.com/games/quordle'
+        qu.site = qu.default_site
+        qu.log_file = 'quordle.log'
         qu.wordlist_file = 'nwl2023.txt'
         qu.kind = 'Quordle'
         qu.mode = 'Classic'
+        qu.num_words = 4
         return qu
-    yield make_quordle
+    yield SolverHarness('quordle', make_quordle)
 
     # TODO
     # Daily: Rescue
@@ -399,15 +398,14 @@ def load_solvers() -> Generator[SolverHarness]:
     # https://m-w.com/games/quordle/#/practice
 
     def make_octordle(_tokens: PromptUI.Tokens):
-        # TODO mode from tokens? canned from harness?
-        oct = Nordle(
-            num_words=8,
-        )
-        oct.site = 'https://www.britannica.com/games/octordle/daily'
+        oct = Nordle()
+        oct.default_site = 'https://www.britannica.com/games/octordle/daily'
+        oct.site = oct.default_site
         oct.log_file = 'octordle.log'
-        oct.wordlist_file = 'nwl2023.txt'
         oct.kind = 'Octordle'
         oct.mode = 'Classic'
+        oct.num_words = 8
+        oct.wordlist_file = 'nwl2023.txt'
         return oct
     yield SolverHarness('octordle', make_octordle)
 
