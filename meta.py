@@ -399,8 +399,17 @@ def load_solvers() -> Generator[SolverHarness]:
     # Daily: Practice
     # https://m-w.com/games/quordle/#/practice
 
-    # TODO octordle
-    # TODO https://www.britannica.com/games/octordle/daily
+    def make_octordle(_tokens: PromptUI.Tokens):
+        oc = Nordle()
+        oc.default_site = 'https://www.britannica.com/games/octordle/daily'
+        oc.site = oc.default_site
+        oc.log_file = 'octordle.log'
+        oc.kind = 'Octordle'
+        oc.mode = 'Classic'
+        oc.num_words = 8
+        oc.wordlist_file = 'nwl2023.txt'
+        return oc
+    yield SolverHarness('octordle', make_octordle)
 
 # TODO share base class with StoredLog
 
