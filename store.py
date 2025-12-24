@@ -750,12 +750,12 @@ class StoredLog:
 
         mrs = tuple(matchers)
         for no, line in enumerate(lines, 1):
-            t, _z, rest = parse(line)
-            if t is None:
-                yield 0, line
-            elif not any(mr(self, t, rest) for mr in mrs):
-                yield t, rest
-
+            with ui.exc_print(lambda: f'while loading L{no} {line!r}'):
+                t, _z, rest = parse(line)
+                if t is None:
+                    yield 0, line
+                elif not any(mr(self, t, rest) for mr in mrs):
+                    yield t, rest
         for mr in reversed(mrs):
             _ = mr(self, 0, '')
         ui.zlog = rez
