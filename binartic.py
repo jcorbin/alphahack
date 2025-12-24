@@ -361,9 +361,22 @@ class Search(StoredLog):
                 if ix >= i: ix += adj
         return ix
 
+    @matcher(r'''(?x)
+        wordlist \s+ insert :
+        \s+ (?P<at> \d+ )
+        \s+ (?P<word> [^\s]+ )
+        \s* ( .* ) $''')
+    def load_insert(self, _t: float, match: re.Match[str]):
+        ixs, word, rest = match.groups()
+        assert rest == ''
+        ix = int(ixs)
+        self.apply_insert(ix, word)
+
     def insert(self, ui: PromptUI, at: int, word: str):
         ui.log(f'wordlist insert: {at} {word}')
+        self.apply_insert(at, word)
 
+    def apply_insert(self, at: int, word: str):
         self.quest_adjust.append((len(self.quest), at, 1))
         self.words.insert(at, word)
         self.wordix.insert(at, None)
@@ -409,18 +422,6 @@ class Search(StoredLog):
                 dn = Done.match(t, rest)
                 if dn is not None:
                     self.done = dn
-                    continue
-
-                match = re.match(r'''(?x)
-                    wordlist \s+ insert :
-                    \s+ (?P<at> \d+ )
-                    \s+ (?P<word> [^\s]+ )
-                    \s* ( .* ) $''', rest)
-                if match:
-                    ixs, word, rest = match.groups()
-                    assert rest == ''
-                    ix = int(ixs)
-                    self.insert(ui, ix, word)
                     continue
 
                 match = re.match(r'''(?x)
