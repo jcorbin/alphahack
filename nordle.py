@@ -1,14 +1,13 @@
 #!/usr/bin/env python
 
 import argparse
-import os
 import re
 from dataclasses import dataclass
 from collections.abc import Generator, Sequence
 from typing import cast, final, override
 
 from store import StoredLog, matcher
-from strkit import MarkedSpec, consume_codes, consume_digits, spliterate
+from strkit import MarkedSpec, consume_codes, spliterate
 from sortem import Chooser, DiagScores, Possible, RandScores
 from wordlish import Attempt, Word, parse_feedback
 from wordlist import WordList
@@ -34,7 +33,7 @@ class Nordle(StoredLog):
 
     # TODO m-w.com/games/quordle/
 
-    def __init__(self):
+    def __init__(self, num_words: int = 4):
         super().__init__()
 
         self.wordlist_file: str = ''
@@ -44,23 +43,22 @@ class Nordle(StoredLog):
         self.kind: str = '' # e.g. "Quordle" "Octordle"
         self.mode: str = '' # e.g. "Classic" "Extreme" "Rescue" etc
         self.size: int = 5
-        self.num_words: int = 4
+        self.num_words: int = num_words
+        self.given_num_words: bool = False
 
         # TODO support sequence mode
 
         self.questioning: str = ''
-        self.words: Sequence[Word] = tuple(
-            Word(self.size)
-            for _ in range(self.num_words))
-        self.attempts: Sequence[list[Attempt]] = tuple(
-            []
-            for _ in range(self.num_words))
+        self.words: Sequence[Word] = tuple()
+        self.attempts: Sequence[list[Attempt]] = tuple()
 
         self._result: Result|None = None
 
         self.play_prompt = self.std_prompt
         self.play_prompt.mess = self.play_prompt_mess
         self.play_prompt.update({
+            '/mode': self.do_mode,
+
             'feedback': self.do_feedback,
             'guess': self.do_guess,
             'tried': self.do_tried,
@@ -77,6 +75,28 @@ class Nordle(StoredLog):
                 self.wordlist_file,
                 exclude_suffix='.quordle_exclude.txt')
         return self._wordlist
+
+    @matcher(r'''(?x)
+        mode :
+        \s+
+        (?P<mode> [^\s]+ )
+        $''')
+    def load_mode(self, _t: float, m: re.Match[str]):
+        self.apply_mode(m[1])
+
+    def apply_mode(self, mode: str):
+        self.mode = mode
+        base = self.site.partition('#')[0].rstrip('/')
+        mod = mode.lower()
+        self.site = base if not mod or mod == 'classic' else f'{base}/#/{mod}'
+
+    def do_mode(self, ui: PromptUI):
+        if ui.tokens:
+            self.apply_mode(next(ui.tokens))
+            ui.log(f'mode: {self.mode}')
+            ui.print(f'set mode: {self.mode}')
+        else:
+            ui.print(f'mode: {self.mode}')
 
     @property
     def result(self):
@@ -200,6 +220,26 @@ class Nordle(StoredLog):
         self.wordlist_file = m[1]
         self.given_wordlist = True
 
+    @matcher(r'''(?x)
+        num_words :
+        \s+
+        (?P<num_words> \d+ )
+        $''')
+    def load_num_words(self, _t: float, m: re.Match[str]):
+        self.num_words = int(m[1])
+        self.given_num_words = True
+
+    def alloc_words(self):
+        num = self.num_words
+        if len(self.words) != num:
+            words = list(self.words)
+            ats = list(self.attempts)
+            while len(words) < num:
+                words.append(Word(self.size))
+                ats.append([])
+            self.words = tuple(words[:num])
+            self.attempts = tuple(ats[:num])
+
     @override
     def startup(self, ui: PromptUI) -> PromptUI.State | None:
         if not self.wordlist_file:
@@ -211,6 +251,12 @@ class Nordle(StoredLog):
         if not self.given_wordlist:
             self.given_wordlist = True
             ui.log(f'wordlist: {self.wordlist_file}')
+
+        if not self.given_num_words:
+            self.given_num_words = True
+            ui.log(f'num_words: {self.num_words}')
+
+        self.alloc_words()
 
         if not any(word for word in self.words):
             self.cmd_site_link(ui)
@@ -232,7 +278,7 @@ class Nordle(StoredLog):
         self.questioning = ''
         return self.play_prompt(ui)
 
-    def finish(self, ui: PromptUI):
+    def finish(self, _ui: PromptUI):
         # self.check_fail_text(ui)
         return self.finalize
 
@@ -265,6 +311,7 @@ class Nordle(StoredLog):
     def load_attempt(self, _t: float, m: re.Match[str]):
         i = int(m[1])
         at = Attempt.parse(m[2])
+        self.alloc_words()
         self.attempt_update(self.words[i], self.attempts[i], at)
 
     def attempt_update(self, word: Word, ats: list[Attempt], at: Attempt):
