@@ -2,16 +2,16 @@
 
 import argparse
 import re
-from dataclasses import dataclass
 from collections.abc import Generator, Sequence
+from dataclasses import dataclass
 from typing import cast, final, override
 
+from sortem import Chooser, DiagScores, Possible, RandScores
 from store import StoredLog, matcher
 from strkit import MarkedSpec, consume_codes, spliterate
-from sortem import Chooser, DiagScores, Possible, RandScores
+from ui import PromptUI
 from wordlish import Attempt, Word, parse_feedback
 from wordlist import WordList
-from ui import PromptUI
 
 @final
 class Nordle(StoredLog):
@@ -19,6 +19,8 @@ class Nordle(StoredLog):
     def add_args(self, parser: argparse.ArgumentParser):
         super().add_args(parser)
         _ = parser.add_argument('--wordlist', default=self.default_wordlist)
+        _ = parser.add_argument('--num', '-n', default=self.num_words, type=int)
+        _ = parser.add_argument('--mode', '-m', default=self.mode)
 
     @override
     def from_args(self, args: argparse.Namespace):
@@ -27,23 +29,27 @@ class Nordle(StoredLog):
         if wordlist:
             self.default_wordlist = wordlist
             self.wordlist_file = wordlist
+        num = cast(int, args.num)
+        if num:
+            self.num_words = num
+        mode = cast(str, args.mode)
+        if mode:
+            self.mode = mode
 
     log_file: str = 'nordle.log'
     default_wordlist: str = '/usr/share/dict/words'
 
-    # TODO m-w.com/games/quordle/
-
-    def __init__(self, num_words: int = 4):
+    def __init__(self):
         super().__init__()
 
         self.wordlist_file: str = ''
         self.given_wordlist: bool = False
         self._wordlist: WordList|None = None
 
-        self.kind: str = '' # e.g. "Quordle" "Octordle"
+        self.kind: str = '' # e.g. "Wordle", "Quordle" "Octordle"
         self.mode: str = '' # e.g. "Classic" "Extreme" "Rescue" etc
         self.size: int = 5
-        self.num_words: int = num_words
+        self.num_words: int = 1
         self.given_num_words: bool = False
 
         # TODO support sequence mode
