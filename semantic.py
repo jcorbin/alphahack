@@ -1004,20 +1004,6 @@ class Search(StoredLog):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
                 match = re.match(r'''(?x)
-                    system_prompt : \s* (?P<mess> .+ )
-                    $''', rest)
-                if match:
-                    mess, = match.groups()
-                    try:
-                        dat = cast(object, json.loads(mess))
-                    except json.JSONDecodeError:
-                        pass
-                    else:
-                        if isinstance(dat, str):
-                            self.system_prompt = dat
-                    continue
-
-                match = re.match(r'''(?x)
                     chat_prompt : \s* (?P<mess> .+ )
                     $''', rest)
                 if match:
@@ -3382,6 +3368,15 @@ class Search(StoredLog):
             else:
                 self.system_prompt = tokens.rest
                 ui.log(f'system_prompt: {json.dumps(self.system_prompt)}')
+
+    @matcher(r'''(?x) system_prompt : \s* (?P<mess> .+ ) $''')
+    def load_system_prompt(self, _t: float, m: re.Match[str]):
+        try:
+            dat = cast(object, json.loads(m[1]))
+        except json.JSONDecodeError: pass
+        else:
+            if isinstance(dat, str):
+                self.system_prompt = dat
 
 @final
 @dataclass
