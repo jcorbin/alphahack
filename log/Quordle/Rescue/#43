@@ -1,0 +1,103 @@
+T257.1357620659983 now: 2025-12-23T20:53:58EST
+TD197 site: m-w.com/games/quordle
+TDD-94 wordlist: nwl2023.txt
+TDD1756424  ...
+TDD-334868 > /mode
+TDD692848 > Rescue
+TDD2423007 > mode Rescue
+TDD-4537249 mode: Rescue
+TDD2051850 > /site
+TDD11441096  ...
+TDD-11678056 > ?
+TDD3205170 > tried swear
+TDD-5020027 questioning: swear
+TDD2300289 #1 _____? nnnnn
+TDD-2300287 attempt: 0 SWEAR n n n n n
+TDD1646023 #2 _____? nnnMM
+TDD-1646064 attempt: 1 SWEAR n n n m m
+TDD2369339 #3 _____? nnMnn
+TDD-2369281 attempt: 2 SWEAR n n m n n
+TDD2019252 #4 _____? Ynnnn
+TDD-2019307 attempt: 3 SWEAR Y n n n n
+TDD4064610 > tried skulk
+TDD-4064649 questioning: skulk
+TDD2284906 #1 _____ -AERSW? nnnnn
+TDD-2284841 attempt: 0 SKULK n n n n n
+TDD2752287 #2 _____ ~AR -ESW? nnnMn
+TDD-2752258 attempt: 1 SKULK n n n m n
+TDD1664564 #3 _____ ~E -ARSW? nnnnn
+TDD-1664413 attempt: 2 SKULK n n n n n
+TDD2210207 #4 S____ -AERW? Ynnnn
+TDD-2210400 attempt: 3 SKULK Y n n n n
+TDD4460778 > * 3
+TDD-2805901 ? 1
+TDD-1654906 questioning: coned
+TDD5771104 #1 _____ -AEKLRSUW? nYnnn
+TDD-5771008 attempt: 0 CONED n Y n n n
+TDD1867076 #2 _____ ~ALR -EKSUW? nnnnn
+TDD-1867146 attempt: 1 CONED n n n n n
+TDD4531234 #3 _____ ~E -AKLRSUW? nYMYM
+TDD-4531208 attempt: 2 CONED n Y m Y m
+TDD1535823 #4 S____ -AEKLRUW? nnnnn
+TDD-1535804 attempt: 3 CONED n n n n n
+TDD1286533 > *
+TDD7626809 > * 1
+TDD-6846465 ? 1
+TDD-2066947 questioning: bothy
+TDD5455184 #1 _O___ -ACDEKLNRSUW? nYnnY
+TDD-5455148 attempt: 0 BOTHY n Y n n Y
+TDD1584410 #2 _____ ~ALR -CDEKNOSUW? nnnnn
+TDD-1584393 attempt: 1 BOTHY n n n n n
+TDD3551924 #3 _O_E_ ~DN -ACKLRSUW? nYnnn
+TDD-3551911 attempt: 2 BOTHY n Y n n n
+TDD2770329 #4 S____ -ACDEKLNORUW? nnMnn
+TDD-2770347 attempt: 3 BOTHY n n m n n
+TDD2872044 > * 3
+TDD-245082 ? 2
+TDD-2627012 questioning: dozen
+TDD5813619 #1 _O__Y -ABCDEHKLNRSTUW? nYnnn
+TDD-5813543 attempt: 0 DOZEN n Y n n n
+TDD1183760 #2 _____ ~ALR -BCDEHKNOSTUWY? nnnnn
+TDD-1183818 attempt: 1 DOZEN n n n n n
+TDD2042948 #3 _O_E_ ~DN -ABCHKLRSTUWY? YYYYY
+TDD-2042894 attempt: 2 DOZEN Y Y Y Y Y
+TDD1530494 #4 S____ ~T -ABCDEHKLNORUWY? nnnnn
+TDD-1530399 attempt: 3 DOZEN n n n n n
+TDD2290746 > * 4
+TDD4134508 ? 2
+TDD-6425376 questioning: stims
+TDD5193636 #1 _O__Y -ABCDEHKLNRSTUWZ? nnnnn
+TDD-5193504 attempt: 0 STIMS n n n n n
+TDD1786093 #2 _____ ~ALR -BCDEHKNOSTUWYZ? nnMnn
+TDD-1786185 attempt: 1 STIMS n n m n n
+TDD1453244 #4 S____ ~T -ABCDEHKLNORUWYZ? YYYn
+TDD2245975 #4 S____ ~T -ABCDEHKLNORUWYZ? YYYnn
+TDD-3699163 attempt: 3 STIMS Y Y Y n n
+TDD5547339 > * 4
+TDD-5449434 questioning: stiff
+TDD4639521 #1 _O__Y -ABCDEHIKLMNRSTUWZ? nnnnn
+TDD-4737523 attempt: 0 STIFF n n n n n
+TDD2346281 #2 _____ ~AILR -BCDEHKMNOSTUWYZ? nnMMn
+TDD-2346390 attempt: 1 STIFF n n m m n
+TDD1689338 #4 STI__ -ABCDEHKLMNORUWYZ? YYYYY
+TDD-1689287 attempt: 3 STIFF Y Y Y Y Y
+TDD1879741 > * 2
+TDD-1755001 questioning: frail
+TDD4433772 #1 _O__Y -ABCDEFHIKLMNRSTUWZ? nnnnn
+TDD-4558502 attempt: 0 FRAIL n n n n n
+TDD1541808 #2 _____ ~AFILR -BCDEHKMNOSTUWYZ F:1? YYYYY
+TDD-1541738 attempt: 1 FRAIL Y Y Y Y Y
+TDD3420655 > * 1
+TDD1891370 ? 1
+TDD-5312070 questioning: poppy
+TDD5996671 #1 _O__Y -ABCDEFHIKLMNRSTUWZ? YYYYY
+TDD-5996637 attempt: 0 POPPY Y Y Y Y Y
+TDD3913845 📋> Daily Rescue 43
+TDD-3914020 📋> 9️⃣8️⃣
+TDD-103 📋> 5️⃣7️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD453067 📋> 
+TDD283667 📋> ␚
+TDD-736666 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 43\n9\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD2 result: "Daily Rescue 43\n9\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD524347 📆 2025-12-23 ? 
