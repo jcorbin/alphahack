@@ -976,41 +976,33 @@ class Search(StoredLog):
 
         return self.orient
 
+    @matcher(r'''(?x)
+        scale :
+        \s+ (?P<tier> 🧊|🥶|😎|🥵|🔥|😱|🥳 )
+        \s+ (?P<temp> [^\s]+ )
+        \s* °C
+        \s* ( .* )
+        $''')
+    def load_scale(self, _t: float, m: re.Match[str]):
+        stier, stemp, rest = m.groups()
+        temp = float(stemp)
+        assert rest == ''
+        tier = cast(Tier, stier)
+        if tier not in scale_fixed:
+            j = tiers.index(tier)
+            k = j + 1
+            while k < len(tiers)-1:
+                if tiers[k] in self.scale: break
+                k += 1
+            self.scale[tier] = temp
+            if self.prog_at is None and tier == '😎':
+                self.prog_at = temp
+
     @override
     def load(self, ui: PromptUI, lines: Iterable[str]):
         for t, rest in super().load(ui, lines):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
-                match = re.match(r'''(?x)
-                    scale :
-                    \s+ (?P<tier> 🧊|🥶|😎|🥵|🔥|😱|🥳 )
-                    \s+ (?P<temp> [^\s]+ )
-                    \s* °C
-                    \s* ( .* )
-                    $''', rest)
-                if match:
-                    stier, stemp, rest = match.groups()
-                    temp = float(stemp)
-                    assert rest == ''
-
-                    tier = cast(Tier, stier)
-                    j = tiers.index(tier)
-                    if tier in scale_fixed:
-                        if temp != scale_fixed[tier]:
-                            ui.print(f'WARNING: ignoring incorrect scale fixed point {tier} {temp:.2f} °C')
-                        # otherwise it's just a bit redundant, idk
-                        continue
-
-                    i = j - 1
-                    k = j + 1
-                    while k < len(tiers)-1:
-                        if tiers[k] in self.scale: break
-                        k += 1
-                    self.scale[tier] = temp
-                    if self.prog_at is None and tier == '😎':
-                        self.prog_at = temp
-                    continue
-
                 match = re.match(r'''(?x)
                     fix \s+ attempt_ (?P<attempt> \d+ ) :
                     \s* (?P<rest> .* )
