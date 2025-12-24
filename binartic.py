@@ -11,7 +11,7 @@ from dataclasses import dataclass
 from typing import cast, final, override, Literal
 from urllib.parse import urlparse
 
-from store import StoredLog, git_txn
+from store import StoredLog, git_txn, matcher
 from strkit import MarkedSpec
 from wordlist import Browser as WordBrowser, WordList, format_browser_lines, whatadded
 from ui import PromptUI
@@ -394,33 +394,6 @@ class Search(StoredLog):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
 
-                match = re.match(r'''(?x)
-                    loaded \s+ (?P<loaded> \d+ )
-                    \s+ words \s+ from
-                    \s+ (?P<file> [^\s]+ )
-                    \s+ (?P<sig> [^\s]+ )
-                    (?: \s* \( \s* (?P<excluded> \d+ ) \s+ words \s+ excluded \s* \) )?
-                    (?: \s+ asof \s+ (?P<asof> [^\s]+ ) )?
-                    \s* ( .* ) $''', rest)
-                if match:
-                    cs, file, sig, es, asof, rest = match.groups()
-                    assert rest == ''
-                    count = int(cs)
-                    excluded = None if not es else int(es)
-
-                    if not asof:
-                        log_added = self.stored and whatadded(self.log_file)
-                        if log_added:
-                            asof = f'{log_added}^'
-
-                    wordlist = WordList(file, asof=asof)
-                    try:
-                        wordlist.validate(sig, count, excluded)
-                    except ValueError as e:
-                        raise RuntimeError(f'invalid wordlist: {e}')
-                    self.set_wordlist(ui, wordlist)
-                    continue
-
                 qn = Questioned.match(t, rest)
                 if qn is not None:
                     self.quest.append(qn)
@@ -468,8 +441,31 @@ class Search(StoredLog):
 
                 yield t, rest
 
-    def set_wordlist(self, ui: PromptUI, wl: WordList):
-        ui.log(wl.describe)
+    @matcher(r'''(?x)
+        loaded \s+ (?P<loaded> \d+ )
+        \s+ words \s+ from
+        \s+ (?P<file> [^\s]+ )
+        \s+ (?P<sig> [^\s]+ )
+        (?: \s* \( \s* (?P<excluded> \d+ ) \s+ words \s+ excluded \s* \) )?
+        (?: \s+ asof \s+ (?P<asof> [^\s]+ ) )?
+        \s* ( .* ) $''')
+    def load_wordlist(self, _t: float, match: re.Match[str]):
+        cs, file, sig, es, asof, rest = match.groups()
+        assert rest == ''
+        count = int(cs)
+        excluded = None if not es else int(es)
+        if not asof:
+            log_added = self.stored and whatadded(self.log_file)
+            if log_added:
+                asof = f'{log_added}^'
+        wl = WordList(file, asof=asof)
+        try:
+            wl.validate(sig, count, excluded)
+        except ValueError as e:
+            raise RuntimeError(f'invalid wordlist: {e}')
+        self.set_wordlist(wl)
+
+    def set_wordlist(self, wl: WordList):
         self.wordlist = wl
         self._set_words(wl.uniq_words)
 
@@ -506,9 +502,11 @@ class Search(StoredLog):
                 asof = stdout.partition('\n')[0]
 
             wl = WordList(self.wordlist_file, asof=asof)
-            self.set_wordlist(ui, wl)
+            self.set_wordlist(wl)
+            ui.log(wl.describe)
 
-            ui.print(f'Using wordlist {wl.name}')
+            if self.wordlist:
+                ui.print(f'Using wordlist {self.wordlist.name}')
 
         if self.remain <= 0:
             ui.print('empty wordlist')
