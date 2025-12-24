@@ -133,36 +133,6 @@ class Done:
     i: int
     word: str
 
-    pattern = re.compile(r'''(?x)
-        # [351593 : 351592 : 351594]
-        \s* \[ \s*
-            (?P<lo> \d+ )
-            \s* : \s*
-            (?P<q> \d+ )
-            \s* : \s*
-            (?P<hi> \d+ )
-        \s* \]
-
-        # <Done>.
-        \s+ <Done>\.
-
-        # vanwege
-        \s+ (?P<word> [^\s]+ )
-
-        $
-    ''')
-
-    @classmethod
-    def match(cls, t: float, line: str):
-        match = cls.pattern.match(line)
-        if not match: return None
-        lo_s, q_s, hi_s, word = match.groups()
-        lo, q, hi = int(lo_s), int(q_s), int(hi_s)
-        i = q
-        if (i < lo or i >= hi) and hi - lo == 1:
-            i = lo
-        return cls(t, lo, q, hi, i, word)
-
 @final
 class Search(StoredLog):
     log_file: str = 'binartic.log'
@@ -350,19 +320,6 @@ class Search(StoredLog):
 
     ### ui routines
 
-    @override
-    def load(self, ui: PromptUI, lines: Iterable[str]):
-        for t, rest in super().load(ui, lines):
-            orig_rest = rest
-            with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
-
-                dn = Done.match(t, rest)
-                if dn is not None:
-                    self.done = dn
-                    continue
-
-                yield t, rest
-
     @matcher(r'''(?x)
         loaded \s+ (?P<loaded> \d+ )
         \s+ words \s+ from
@@ -476,6 +433,31 @@ class Search(StoredLog):
         self.progress(ui, ix, cmp)
 
         return self.prompt
+
+    @matcher(r'''(?x)
+        # [351593 : 351592 : 351594]
+        \s* \[ \s*
+            (?P<lo> \d+ )
+            \s* : \s*
+            (?P<q> \d+ )
+            \s* : \s*
+            (?P<hi> \d+ )
+        \s* \]
+
+        # <Done>.
+        \s+ <Done>\.
+
+        # vanwege
+        \s+ (?P<word> [^\s]+ )
+
+        $ ''')
+    def load_done(self, t: float, match: re.Match[str]):
+        lo_s, q_s, hi_s, word = match.groups()
+        lo, q, hi = int(lo_s), int(q_s), int(hi_s)
+        i = q
+        if (i < lo or i >= hi) and hi - lo == 1:
+            i = lo
+        self.done = Done(t, lo, q, hi, i, word)
 
     @matcher(r'''(?x)
         # [0 : 98266 : 196598]
