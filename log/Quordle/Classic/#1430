@@ -1,0 +1,76 @@
+T16.242539790000592 now: 2025-12-24T09:15:15EST
+TD191 site: m-w.com/games/quordle
+TDD-86 wordlist: nwl2023.txt
+TDD-83 num_words: 4
+TDD12508267  ...
+TDD-10642153 > * 1
+TDD-255189 ? 1
+TDD-1610575 questioning: reais
+TDD5759237 #1 _____? Mnnnn
+TDD-5758917 attempt: 0 REAIS m n n n n
+TDD3090545 #2 _____? MnYYn
+TDD-3090849 attempt: 1 REAIS m n Y Y n
+TDD2054379 #3 _____? nnMnn
+TDD-2054526 attempt: 2 REAIS n n m n n
+TDD1500256 #4 _____? nnYnn
+TDD-1500239 attempt: 3 REAIS n n Y n n
+TDD1972946 > * 2
+TDD-637974 ? 1
+TDD-1334778 questioning: frail
+TDD6056589 #1 _____ ~R -AEIS? YMnnM
+TDD-6056738 attempt: 0 FRAIL Y m n n m
+TDD2525467 #2 __AI_ ~R -ES? nMYYn
+TDD-2525413 attempt: 1 FRAIL n m Y Y n
+TDD1808502 #3 _____ ~A -EIRS? nnMnY
+TDD-1808620 attempt: 2 FRAIL n n m n Y
+TDD1302446 #4 __A__ -EIRS? nnYnn
+TDD-1302424 attempt: 3 FRAIL n n Y n n
+TDD2166749 > * 2
+TDD-2071758 questioning: chair
+T1.327270141999179 now: 2025-12-24T09:17:19EST
+TD126 questioning: chair
+TDD8861439 #1 F____ ~LR -AEIS? nnnnY
+TDD-8861271 attempt: 0 CHAIR n n n n Y
+TDD1659317 #2 __AI_ ~R -EFLS? YYYYY
+TDD-1659324 attempt: 1 CHAIR Y Y Y Y Y
+TDD1618061 #3 ____L ~A -EFIRS? MnMnn
+TDD-1618063 attempt: 2 CHAIR m n m n n
+TDD1480088 #4 __A__ -EFILRS? nnYnn
+TDD-1480122 attempt: 3 CHAIR n n Y n n
+TDD2442138 > * 1
+TDD1712254 ? 2
+TDD-4154397 questioning: flour
+TDD4603668 #1 F___R ~L -ACEHIS? YYYYY
+TDD-4603639 attempt: 0 FLOUR Y Y Y Y Y
+TDD1895410 #3 ____L ~AC -EFHIRS? nMMnn
+TDD-1895340 attempt: 2 FLOUR n m m n n
+TDD1361715 #4 __A__ -CEFHILRS? nnnnn
+TDD-1361739 attempt: 3 FLOUR n n n n n
+TDD1768656 > * 3
+TDD2342936 ? 1
+TDD-4111640 questioning: vocal
+TDD7247415 #3 ____L ~ACO -EFHIRSU? nMMYY
+TDD-7247404 attempt: 2 VOCAL n m m Y Y
+TDD3702561 #4 __A__ -CEFHILORSU? nnnMn
+TDD-3702538 attempt: 3 VOCAL n n n m n
+TDD1884925 > * 3
+TDD-1788576 questioning: octal
+TDD6459123 #3 ___AL ~CO -EFHIRSUV? YYYYY
+TDD-6555489 attempt: 2 OCTAL Y Y Y Y Y
+TDD3113577 #4 __A__ -CEFHILORSUV? nnMMn
+TDD-3113741 attempt: 3 OCTAL n n m m n
+TDD861123 > 
+TDD388260 > * 4
+TDD1460287 ? 2
+TDD-2709505 questioning: adapt
+TDD3468468 #4 __A__ ~T -CEFHILORSUV? YYYYY
+TDD-3468625 attempt: 3 ADAPT Y Y Y Y Y
+TDD3858954 📋> 🙂 Daily Quordle 1430
+TDD-3858952 📋> 4️⃣3️⃣
+TDD-110 📋> 6️⃣7️⃣
+TDD-8 📋> m-w.com/games/quordle/
+TDD246775 📋> 
+TDD2544 📋> ␚
+TDD-249124 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1430\n4\ufe0f\u20e33\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1165 result: "\ud83d\ude42 Daily Quordle 1430\n4\ufe0f\u20e33\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD252471 📆 2025-12-24 ? 
