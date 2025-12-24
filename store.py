@@ -723,7 +723,24 @@ class StoredLog:
             warn=lambda mess: ui.print(f'! parse #{no}: {mess}'))
         session_parser = LogSession.Parser()
 
+        def match_session(self: Self, t: float, rest: str):
+            if not t and not rest:
+                sess = session_parser.session()
+                if sess is not None:
+                    self.sessions.append(sess)
+                return True
+            if session_parser(ui, t, rest):
+                if session_parser.prior is not None:
+                    self.sessions.append(session_parser.prior)
+                if self.start is None:
+                    self.start = session_parser.start
+                if self.log_start is None:
+                    self.log_start = session_parser.start
+                return True
+            return False
+
         matchers: list[Callable[[Self, float, str], bool]] = []
+        matchers.append(match_session)
 
         for prop in dir(self):
             if prop.startswith('_'): continue
@@ -734,30 +751,13 @@ class StoredLog:
         mrs = tuple(matchers)
         for no, line in enumerate(lines, 1):
             t, _z, rest = parse(line)
-
             if t is None:
                 yield 0, line
-                continue
-
-            if session_parser(ui, t, rest):
-                if session_parser.prior is not None:
-                    self.sessions.append(session_parser.prior)
-                if self.start is None:
-                    self.start = session_parser.start
-                if self.log_start is None:
-                    self.log_start = session_parser.start
-                continue
-
-            if not any(mr(self, t, rest) for mr in mrs):
+            elif not any(mr(self, t, rest) for mr in mrs):
                 yield t, rest
 
         for mr in reversed(mrs):
             _ = mr(self, 0, '')
-
-        sess = session_parser.session()
-        if sess is not None:
-            self.sessions.append(sess)
-
         ui.zlog = rez
 
     ### store specifics
