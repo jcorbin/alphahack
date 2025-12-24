@@ -1,0 +1,139 @@
+T3.2603121279971674 now: 2025-12-24T08:56:48EST
+TD153 site: squareword.org
+TDD-74 wordlist: nwl2023.txt
+TDD4114501  ...
+TDD-1741680 🧩  ? #1423
+TDD-2372550 puzzle_id: #1423
+TDD1535840 > *
+TDD-103194 try? 1
+TDD-1432450 questioning: ["arise", "#5"]
+TDD3700021 #1 <IndexError>  📋 "arise" ? _____ ~ AE
+TDD-3700068 attempt 0 ARISE m n n n m
+TDD1888184 #2 <IndexError>  📋 "arise" ? ____E ~ E
+TDD-1888405 attempt 1 ARISE n n n n Y
+TDD2630713 #3 <IndexError>  📋 "arise" ? A_I__ 
+TDD-2630582 attempt 2 ARISE Y n Y n n
+TDD2553620 #4 <IndexError>  📋 "arise" ? _____ ~ SE
+TDD-2553839 attempt 3 ARISE n n n m m
+TDD2925300 #5 <IndexError>  📋 "arise" ? ____E ~ SE
+TDD-2925047 attempt 4 ARISE n n n m Y
+TDD193894 ? 
+TDD-194029 question done
+TDD464009 > *
+TDD5786049 try? ␚
+TDD-6250198 <EOF>
+TDD2412629 > * 5
+TDD-167906 try? 2
+TDD-2244265 questioning: ["stove", "#5"]
+TDD4425494 #1 _____ ~AE -IRS  📋 "stove" ? .
+TDD-4425595 attempt 0 STOVE n n n n m
+TDD3319457 #2 ____E -AIRS  📋 "stove" ? ____E ~ E
+TDD-3319577 attempt 1 STOVE n n n n Y
+TDD1397136 #3 A_I__ -ERS  📋 "stove" ? .
+TDD-1397178 attempt 2 STOVE n n n n n
+TDD3449671 #4 _____ ~ES -AIR  📋 "stove" ? _____ ~ SEO
+TDD-3449354 attempt 3 STOVE m n m n m
+TDD2220507 #5 ____E ~S -AIR  📋 "stove" ? S___E ~ E
+TDD-2220493 attempt 4 STOVE Y n n n Y
+TDD374356 ? 
+TDD-374712 question done
+TDD663656 > *
+TDD8558668 try? ␚
+TDD-9222464 <EOF>
+TDD1048631 > * 4
+TDD521316 try? 1
+TDD-1569715 questioning: ["domes", "#4"]
+TDD12211983 #1 _____ ~AE -IORSTV  📋 "domes" ? ___E_ ~ AD
+TDD-12212052 attempt 0 DOMES m n n Y n
+TDD3635610 #2 ____E -AIORSTV  📋 "domes" ? ____E ~ ED
+TDD-3635655 attempt 1 DOMES m n n m n
+TDD1040762 #3 A_I__ -EORSTV  📋 "domes" ? .
+TDD-1040699 attempt 2 DOMES n n n n n
+TDD2625210 #4 _____ ~EOS -AIRTV  📋 "domes" ? _O_ES ~ D
+TDD-2625208 attempt 3 DOMES m Y n Y Y
+TDD3327798 #5 S___E -AIORTV  📋 "domes" ? S___E ~ ED
+TDD-3327607 attempt 4 DOMES m n n m n
+TDD271325 ? 
+TDD-271533 question done
+TDD482936 > *
+TDD10868590 try? 1
+TDD-11351548 questioning: ["suede", "#5"]
+TDD3201541 #1 ___E_ ~AD -IMORSTV  📋 "suede" ? .
+TDD-3201484 attempt 0 SUEDE n n n m n
+TDD2486524 #2 ____E ~D -AIMORSTV  📋 "suede" ? ___DE ~ EU
+TDD-2486452 attempt 1 SUEDE n m m Y Y
+TDD1443709 #3 A_I__ -DEMORSTV  📋 "suede" ? .
+TDD-1443555 attempt 2 SUEDE n n n n n
+TDD5370595 #4 _O_ES ~D -AIMRTV  📋 "suede" ? _O_ES ~ D
+TDD-5370671 attempt 3 SUEDE n n n m n
+TDD3789998 #5 S___E ~D -AIMORSTV  📋 "suede" ? S_EDE
+TDD-3789999 attempt 4 SUEDE Y n Y Y Y
+TDD297912 ? 
+TDD-298290 question done
+TDD551094 > *
+TDD1272479 questioning: ["align", "#3"]
+TDD7179697 #1 ___E_ ~AD -EIMORSTUV  📋 "align" ? ___E_ ~ ADG
+TDD-9003041 attempt 0 ALIGN m n n m n
+TDD2480729 #2 ___DE ~U -AIMORSTV  📋 "align" ? _L_DE ~ EU
+TDD-2480487 attempt 1 ALIGN n Y n n n
+TDD1115043 #3 A_I__ -DEMORSTUV  📋 "align" ? /it
+TDD-1115280 attempt 2 ALIGN Y Y Y Y Y
+TDD4604116 #4 _O_ES ~D -AEIMRSTUV  📋 "align" ? _O_ES ~ DL
+TDD-4604169 attempt 3 ALIGN n m n n n
+TDD2107984 #5 S_EDE -AIMORTUV  📋 "align" ? .
+TDD-2107732 attempt 4 ALIGN n n n n n
+TDD371736 ? 
+TDD-372021 question done
+TDD747679 > *
+TDD1728968 questioning: ["elude", "#2"]
+TDD3869170 #1 ___E_ ~ADG -EILMNORSTUV  📋 "elude" ? .
+TDD-6345699 attempt 0 ELUDE n n n m n
+TDD729673 #2 _L_DE ~U -AGIMNORSTV  📋 "elude" ? /it
+TDD-729607 attempt 1 ELUDE Y Y Y Y Y
+TDD1622387 #4 _O_ES ~DL -AEGIMNRSTUV  📋 "elude" ? .
+TDD-1622412 attempt 3 ELUDE n m n m n
+TDD733313 #5 S_EDE -AGILMNORTUV  📋 "elude" ? .
+TDD-733442 attempt 4 ELUDE n n n Y Y
+TDD156593 ? 
+TDD-156754 question done
+TDD565228 > *
+TDD1403932 questioning: ["lodes", "#4"]
+TDD3264658 #1 ___E_ ~ADG -EILMNORSTUV  📋 "lodes" ? .
+TDD-5233667 attempt 0 LODES n n m Y n
+TDD757190 #4 _O_ES ~DL -AEGIMNRSTUV  📋 "lodes" ? /it
+TDD-757133 attempt 3 LODES Y Y Y Y Y
+TDD420513 #5 S_EDE -AGILMNORTUV  📋 "lodes" ? 
+TDD450317 #5 S_EDE -AGILMNORTUV  ? 
+TDD848389 #5 S_EDE -AGILMNORTUV  ? .
+TDD-1719206 attempt 4 LODES n n n n n
+TDD964285 ? *
+TDD-195675 ? 
+TDD-768733 question done
+TDD754351 > *
+TDD739870 questioning: ["swede", "#5"]
+TDD3358497 #1 ___E_ ~ADG -ILMNORSTUV  📋 "swede" ? .
+TDD-4852609 attempt 0 SWEDE n n n m n
+TDD663163 #5 S_EDE -ADEGILMNORSTUV  📋 "swede" ? /it
+TDD-663154 attempt 4 SWEDE Y Y Y Y Y
+TDD218239 ? 
+TDD-218422 question done
+TDD508858 > *
+TDD489987 questioning: ["paged", "#1"]
+TDD2817576 #1 ___E_ ~ADG -EILMNORSTUVW  📋 "paged" ? /it
+TDD-3816102 attempt 0 PAGED Y Y Y Y Y
+TDD182883 ? 
+TDD-183244 question done
+TDD6828901 📋> squareword.org 1423: 9 guesses
+TDD-6828946 📋> 
+TDD-98 📋> 🟨🟨🟨🟩🟨
+TDD-8 📋> 🟨🟩🟨🟩🟩
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟩🟨🟩🟩
+TDD0 📋> 🟩🟨🟩🟩🟩
+TDD1 📋> 
+TDD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD259137 📋> #squareword #squareword1423
+TDD-117460 📋> ␚
+TDD-141552 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1423: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1423"}
+TDD879 result: "squareword.org 1423: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1423"
+TDD164552 📆 2025-12-24 ? 
