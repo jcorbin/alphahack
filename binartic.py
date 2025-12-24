@@ -117,40 +117,6 @@ class Questioned:
     word: str
     resp: str
 
-    pattern = re.compile(r'''(?x)
-        # [0 : 98266 : 196598]
-        \s* \[ \s*
-            (?P<lo> \d+ )
-            \s* : \s*
-            (?P<q> \d+ )
-            \s* : \s*
-            (?P<hi> \d+ )
-        \s* \]
-
-        # mach?
-        \s+
-        (?P<word> [^\s]+ )
-        \?
-
-        # a
-        \s+
-        (?P<resp> .* )
-
-        $
-    ''')
-
-    @classmethod
-    def match(cls, t: float, line: str):
-        match = cls.pattern.match(line)
-        if not match: return None
-        lo, q, hi, word, resp = match.groups()
-        canon_resp = resp
-        for code in ('after', 'before', 'it'):
-            if code.startswith(resp.lower()):
-                canon_resp = code
-                break
-        return cls(t, int(lo), int(q), int(hi), word, canon_resp)
-
 @final
 @dataclass
 class Prompt:
@@ -387,7 +353,7 @@ class Search(StoredLog):
         self.added += 1
         self.inserts.add(word)
 
-    def remove(self, _ui: PromptUI, at: int):
+    def remove(self, at: int):
         self.quest_adjust.append((len(self.quest), at, -1))
         word = self.words.pop(at)
         actual = self.wordix.pop(at)
@@ -406,13 +372,6 @@ class Search(StoredLog):
         for t, rest in super().load(ui, lines):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
-
-                qn = Questioned.match(t, rest)
-                if qn is not None:
-                    self.quest.append(qn)
-                    if qn.resp == '!':
-                        self.remove(ui, qn.q)
-                    continue
 
                 pr = Prompt.match(t, rest)
                 if pr is not None:
@@ -540,6 +499,38 @@ class Search(StoredLog):
 
         return self.prompt
 
+    @matcher(r'''(?x)
+        # [0 : 98266 : 196598]
+        \s* \[ \s*
+            (?P<lo> \d+ )
+            \s* : \s*
+            (?P<q> \d+ )
+            \s* : \s*
+            (?P<hi> \d+ )
+        \s* \]
+
+        # mach?
+        \s+
+        (?P<word> [^\s]+ )
+        \?
+
+        # a
+        \s+
+        (?P<resp> .* )
+
+        $''')
+    def load_question(self, t: float, match: re.Match[str]):
+        lo, q, hi, word, resp = match.groups()
+        canon_resp = resp
+        for code in ('after', 'before', 'it'):
+            if code.startswith(resp.lower()):
+                canon_resp = code
+                break
+        qn = Questioned(t, int(lo), int(q), int(hi), word, canon_resp)
+        self.quest.append(qn)
+        if qn.resp == '!':
+            self.remove(qn.q)
+
     def question(self, ui: PromptUI, qi: int|None=None) -> SearchResponse|None:
         if qi is None:
             qi = self.questioning
@@ -559,7 +550,7 @@ class Search(StoredLog):
             self.quest.append(Questioned(ui.time.now, self.lo, qi, self.hi, word, tokens.raw))
 
             if tokens.have(r'!$'):
-                self.remove(ui, qi)
+                self.remove(qi)
                 self.questioning = None
                 return
 
