@@ -1004,18 +1004,6 @@ class Search(StoredLog):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
                 match = re.match(r'''(?x)
-                    reject :
-                    \s+
-                    " (?P<word> .+? ) "
-                    \s* (?P<rest> .* )
-                    $''', rest)
-                if match:
-                    word, rest = match.groups()
-                    assert rest == ''
-                    self.reject(ui, word)
-                    continue
-
-                match = re.match(r'''(?x)
                     system_prompt : \s* (?P<mess> .+ )
                     $''', rest)
                 if match:
@@ -2434,13 +2422,26 @@ class Search(StoredLog):
             raise RuntimeError(f'reload inconsistency attempt({word!r}, {score}, {prog}) -> {j} != {i}')
 
     def reject(self, ui: PromptUI, word: str):
-        if word in self.wordbad: return
+        if self.add_reject(word):
+            ui.log(f'reject: "{word}"')
+
+    def add_reject(self, word: str):
+        if word in self.wordbad: return False
         if word in self.wordgood:
             # TODO nicer to update, believe the user
-            ui.print('! ignoring duplicate response for word "{word}"')
-            return
-        ui.log(f'reject: "{word}"')
+            return False
         self.wordbad.add(word)
+        return True
+
+    @matcher(r'''(?x)
+        reject :
+        \s+
+        " (?P<word> .+? ) "
+        \s* (?P<rest> .* )
+        $''')
+    def load_reject(self, _t: float, m: re.Match[str]):
+        assert m[2] == ''
+        assert self.add_reject(m[1])
 
     def chat_extract_desc(self, exw: ExtractedWords):
         desc = str(self.chat_extract_mode)
