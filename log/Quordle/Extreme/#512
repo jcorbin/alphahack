@@ -1,0 +1,92 @@
+T11.657558419999987 now: 2025-12-23T20:49:52EST
+TD131 site: m-w.com/games/quordle
+TDD-63 wordlist: nwl2023.txt
+TDD1725414  ...
+TDD-34998 > /mode
+TDD-444859 > /mode
+TDD2726878 > mode
+TDD637808 > mode Extreme
+TDD-4610106 mode: Extreme
+TDD2651541 > /site
+TDD18419232  ...
+TDD-18398408 > * 1
+TDD9269343 ? 1
+TDD-11941691 questioning: toeas
+TDD5403142 #1 _____? MnnMn
+TDD-5402617 attempt: 0 TOEAS m n n m n
+TDD1772359 #2 _____? Mnnnn
+TDD-1772752 attempt: 1 TOEAS m n n n n
+TDD1373563 #3 _____? nnnnn
+TDD-1373258 attempt: 2 TOEAS n n n n n
+TDD1213027 #4 _____? nnMnn
+TDD-1213421 attempt: 3 TOEAS n n m n n
+TDD3676505 > * 4
+TDD-2489765 ? 1
+TDD-1186734 questioning: weird
+TDD5553130 #1 _____ ~AT -EOS? nnnnn
+TDD-5552969 attempt: 0 WEIRD n n n n n
+TDD1486861 #2 _____ ~T -AEOS? nnMnn
+TDD-1486931 attempt: 1 WEIRD n n m n n
+TDD1824927 #3 _____ -AEOST? nnnYn
+TDD-1825021 attempt: 2 WEIRD n n n Y n
+TDD1718875 #4 _____ ~E -AOST? nMMMn
+TDD-1718852 attempt: 3 WEIRD n m m m n
+TDD4359737 > * 2
+TDD-2307971 ? 2
+TDD-2051886 questioning: pitch
+TDD4559776 #1 _____ ~AT -DEIORSW? nnYYY
+TDD-4559699 attempt: 0 PITCH n n Y Y Y
+TDD1765840 #2 _____ ~IT -ADEORSW? nMMMM
+TDD-1765681 attempt: 1 PITCH n m m m m
+TDD1902193 #3 ___R_ -ADEIOSTW? nnnnY
+TDD-1902382 attempt: 2 PITCH n n n n Y
+TDD1922906 #4 _____ ~EIR -ADOSTW? nYnnn
+TDD-1922886 attempt: 3 PITCH n Y n n n
+TDD2594079 > * 3
+TDD-2502473 questioning: myrrh
+TDD9528722 #1 __TCH ~A -DEIOPRSW? YnnnY
+TDD-9620188 attempt: 0 MYRRH Y n n n Y
+TDD2918473 #2 _____ ~CHIT -ADEOPRSW? nMnnM
+TDD-2918602 attempt: 1 MYRRH n m n n m
+TDD2420008 #3 ___RH -ACDEIOPSTW? YYYYY
+TDD-2419999 attempt: 2 MYRRH Y Y Y Y Y
+TDD1726330 #4 _I___ ~ER -ACDHOPSTW? nnMnn
+TDD-1726308 attempt: 3 MYRRH n n m n n
+TDD1693493 > *
+TDD-60766 > 2* 2
+TDD737735 > * 2
+TDD-2240282 questioning: itchy
+TDD6256028 #1 M_TCH ~A -DEIOPRSWY? nMMMn
+TDD-6386231 attempt: 0 ITCHY n m m m n
+TDD1705530 #2 _____ ~CHITY -ADEMOPRSW? YYYYY
+TDD-1705486 attempt: 1 ITCHY Y Y Y Y Y
+TDD3208295 #4 _I___ ~ER -ACDHMOPSTWY R:1? Mnnnn
+TDD-3208315 attempt: 3 ITCHY m n n n n
+TDD854260 > *
+TDD805629 > * 1
+TDD-1564203 questioning: match
+TDD4296210 #1 M_TCH ~A -DEIOPRSWY? YYYYY
+TDD-4391745 attempt: 0 MATCH Y Y Y Y Y
+TDD3154176 #4 _I___ ~ER -ACDHMOPSTWY R:1? nnnnn
+TDD-3154305 attempt: 3 MATCH n n n n n
+TDD1984797 > * 4
+TDD39868 ? 2
+TDD-2024724 questioning: rifle
+TDD6757461 #4 _I___ ~ER -ACDHMOPSTWY R:1? MYMnM
+TDD-6757412 attempt: 3 RIFLE m Y m n m
+TDD2675269 > * 4
+TDD6066179 ? 3
+TDD-8741519 questioning: fixer
+TDD5429478 #4 _I___ ~EFR -ACDHLMOPSTWY R:1? YYnYY
+TDD-5429344 attempt: 3 FIXER Y Y n Y Y
+TDD9077331 > /res
+TDD-7829140 📋> 🥵 Daily Extreme 512
+TDD-1248408 📋> 6️⃣5️⃣
+TDD-118 📋> 4️⃣🟥
+TDD-7 📋> m-w.com/games/quordle/
+TDD461665 📋> 
+TDD298569 📋> ␚
+TDD-760114 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83e\udd75 Daily Extreme 512\n6\ufe0f\u20e35\ufe0f\u20e3\n4\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TDD1468 result: "\ud83e\udd75 Daily Extreme 512\n6\ufe0f\u20e35\ufe0f\u20e3\n4\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TDD2371331 > /store
+TDD-1431613 📆 2025-12-23 ? 
