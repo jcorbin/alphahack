@@ -1004,28 +1004,6 @@ class Search(StoredLog):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
                 match = re.match(r'''(?x)
-                    attempt_ (?P<attempt> \d+ ) :
-                    \s+
-                    " (?P<word> .+? ) "
-                    \s+
-                    score : (?P<score> -? \d+(?:\.\d*)? )
-                    \s+
-                    prog : (?P<prog> None | \d+ )
-                    \s* (?P<rest> .* )
-                    $''', rest)
-                if match:
-                    si, word, ss, ps, rest = match.groups()
-                    i = int(si)
-                    score = float(ss)
-                    prog = None if ps == 'None' else int(ps)
-                    assert i == self.attempt
-                    assert rest == ''
-                    j = self.record(ui, word, score, prog)
-                    if j != i:
-                        raise RuntimeError(f'reload inconsistency attempt({word!r}, {score}, {prog}) -> {j} != {i}')
-                    continue
-
-                match = re.match(r'''(?x)
                     reject :
                     \s+
                     " (?P<word> .+? ) "
@@ -2411,12 +2389,16 @@ class Search(StoredLog):
             ui.print(f'! ignoring duplicate response for word "{word}"')
             return
 
+        i = self.append_record(word, score, prog)
+        ui.log(f'attempt_{i}: "{word}" score:{score:.2f} prog:{prog}')
+        return i
+
+    def append_record(self, word: str, score: float, prog: int|None):
         i = len(self.word)
         assert i == self.attempt
 
         # TODO prog rank should be unique
 
-        ui.log(f'attempt_{i}: "{word}" score:{score:.2f} prog:{prog}')
         self.word.append(word)
         self.score.append(score)
         if prog is not None:
@@ -2428,8 +2410,28 @@ class Search(StoredLog):
 
         self.attempt += 1
         self.wordgood[word] = i
-
         return i
+
+    @matcher(r'''(?x)
+        attempt_ (?P<attempt> \d+ ) :
+        \s+
+        " (?P<word> .+? ) "
+        \s+
+        score : (?P<score> -? \d+(?:\.\d*)? )
+        \s+
+        prog : (?P<prog> None | \d+ )
+        \s* (?P<rest> .* )
+        $''')
+    def load_record(self, _t: float, match: re.Match[str]):
+        si, word, ss, ps, rest = match.groups()
+        i = int(si)
+        score = float(ss)
+        prog = None if ps == 'None' else int(ps)
+        assert i == self.attempt
+        assert rest == ''
+        j = self.append_record(word, score, prog)
+        if j != i:
+            raise RuntimeError(f'reload inconsistency attempt({word!r}, {score}, {prog}) -> {j} != {i}')
 
     def reject(self, ui: PromptUI, word: str):
         if word in self.wordbad: return
