@@ -2905,7 +2905,7 @@ class Search(StoredLog):
                 try:
                     prompt = self.set_chat_prompt(ui, prompt)
                 except ValueError as e:
-                    ui.print('! {e}')
+                    ui.print(f'! {e}')
                     return self.ideate
 
             for line in wraplines(ui.screen_cols-4, prompt.splitlines()):
