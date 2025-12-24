@@ -123,23 +123,6 @@ class Prompt:
     time: float
     resp: str
 
-    pattern = re.compile(r'''(?x)
-        \s*
-        >
-        \s*
-
-        (?P<resp> .* )
-
-        $
-    ''')
-
-    @classmethod
-    def match(cls, t: float, line: str):
-        match = cls.pattern.match(line)
-        if not match: return None
-        (resp,) = match.groups()
-        return cls(t, resp)
-
 @final
 @dataclass
 class Done:
@@ -372,11 +355,6 @@ class Search(StoredLog):
         for t, rest in super().load(ui, lines):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
-
-                pr = Prompt.match(t, rest)
-                if pr is not None:
-                    self.prompt_hist.append(pr)
-                    continue
 
                 dn = Done.match(t, rest)
                 if dn is not None:
@@ -832,6 +810,15 @@ class Search(StoredLog):
                 return
 
         return self.review_prompt
+
+    @matcher(r'''(?x)
+        \s*
+        >
+        \s*
+        (?P<resp> .* )
+        $ ''')
+    def load_history(self, t: float, match: re.Match[str]):
+        self.prompt_hist.append(Prompt(t, match[1]))
 
     def history(self) -> Generator[Questioned|Prompt]:
         qi = 0
