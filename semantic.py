@@ -21,7 +21,7 @@ from urllib.parse import urlparse
 
 from chat import get_olm_models
 from mdkit import break_sections, capture_fences, fenceit
-from store import StoredLog, git_txn
+from store import StoredLog, git_txn, matcher
 from strkit import make_digit_str, matchgen, parse_digit_int, spliterate, wraplines, MarkedSpec
 from ui import PromptUI
 
@@ -801,11 +801,23 @@ class Search(StoredLog):
 
         return self.next_pub(start - datetime.timedelta(days=1))
 
-    def set_pubtime(self, ui: PromptUI, ut: int):
+    @matcher(r'''(?x)
+        pubtime :
+        \s+
+        (?P<timestamp> \d+ )
+        \s* ( .* )
+        $''')
+    def load_pubtime(self, _t: float, match: re.Match[str]):
+        sut, rest = match.groups()
+        assert rest == ''
+        _ = self.set_pubtime(int(sut))
+
+    def set_pubtime(self, ut: int):
         dut = datetime.datetime.fromtimestamp(ut, datetime.UTC).time()
         if self.pubtime != dut:
-            ui.log(f'pubtime: {ut}')
             self.pubtime = dut
+            return True
+        return False
 
     @property
     @override
@@ -885,7 +897,9 @@ class Search(StoredLog):
 
             sut = script.attrs.get('data-utc-time')
             if isinstance(sut, str):
-                self.set_pubtime(ui, int(sut))
+                ut = int(sut)
+                if self.set_pubtime(ut):
+                    ui.log(f'pubtime: {ut}')
                 ui.write(f' 🕛 {self.pubtime}')
 
         summary = (
@@ -967,19 +981,6 @@ class Search(StoredLog):
         for t, rest in super().load(ui, lines):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
-
-                match = re.match(r'''(?x)
-                    pubtime :
-                    \s+
-                    (?P<timestamp> \d+ )
-                    \s* ( .* )
-                    $''', rest)
-                if match:
-                    sut, rest = match.groups()
-                    assert rest == ''
-                    self.set_pubtime(ui, int(sut))
-                    continue
-
                 match = re.match(r'''(?x)
                     lang :
                     \s+
