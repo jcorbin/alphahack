@@ -398,8 +398,18 @@ def load_solvers() -> Generator[SolverHarness]:
     # Daily: Practice
     # https://m-w.com/games/quordle/#/practice
 
-    # TODO octordle
-    # TODO https://www.britannica.com/games/octordle/daily
+    def make_octordle(_tokens: PromptUI.Tokens):
+        # TODO mode from tokens? canned from harness?
+        oct = Nordle(
+            num_words=8,
+        )
+        oct.site = 'https://www.britannica.com/games/octordle/daily'
+        oct.log_file = 'octordle.log'
+        oct.wordlist_file = 'nwl2023.txt'
+        oct.kind = 'Octordle'
+        oct.mode = 'Classic'
+        return oct
+    yield SolverHarness('octordle', make_octordle)
 
 # TODO into mdkit
 
