@@ -1,0 +1,44 @@
+T76.91402764200029 now: 2025-12-24T08:54:00EST
+TD216 site: alfagok.diginaut.net
+TDD142771 loaded 399713 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1139 words excluded) asof 76e7f9e2d4b1ac65966c95a2cceecceb29a78801
+TDD12268465  ...
+TDD-6936312 [0 : 199836 : 399713] lijm? b
+TDD-5474596 progress: -1 199836 lijm
+TDD2209283 [0 : 99758 : 199836] ex? a
+TDD-2209597 progress: 1 99758 ex
+TDD1841302 [99759 : 149454 : 199836] huis? b
+TDD-1841183 progress: -1 149454 huis
+TDD1724814 [99759 : 111413 : 149454] ge? a
+TDD-1724927 progress: 1 111413 ge
+TDD1680565 [111414 : 130434 : 149454] gracieuze? a
+TDD-1680703 progress: 1 130434 gracieuze
+TDD1962510 [130435 : 139791 : 149454] hei? a
+TDD-1962337 progress: 1 139791 hei
+TDD1712311 [139792 : 144560 : 149454] hoek? a
+TDD-1712357 progress: 1 144560 hoek
+TDD1615586 [144561 : 146221 : 149454] hoofd? a
+TDD-1615614 progress: 1 146221 hoofd
+TDD1580692 [146222 : 147800 : 149454] hooi? b
+TDD-1580649 progress: -1 147800 hooi
+TDD2066694 [146222 : 147011 : 147800] hoofdslagaders? a
+TDD-2066644 progress: 1 147011 hoofdslagaders
+TDD2295471 [147012 : 147357 : 147800] hooge? !
+TDD-217799 [147012 : 147293 : 147799] hoog? a
+TDD-2077753 progress: 1 147293 hoog
+TDD1946032 [147294 : 147545 : 147799] hoogopgeleid? a
+TDD-1946062 progress: 1 147545 hoogopgeleid
+TDD2123631 [147546 : 147664 : 147799] hoogte? it
+TDD-2123604 progress: 0 147664 hoogte
+TDD-165 [147546 : 147664 : 147799] <Done>.
+TDD6486861 📋> 🧩 Puzzel #417
+TDD-6486689 📋> 🤔 13 gokken
+TDD-132 📋> ⏱️ 25s
+TDD277423 📋> 🔗 alfagok.diginaut.net
+TDD8059 📋> ␚
+TDD-285416 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #417\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 25s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD562 result: "\ud83e\udde9 Puzzel #417\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 25s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-665 result puzzle: 417
+TDD-35 result guesses: 13
+TDD-3 result time: 25s
+TDD-1 result link: alfagok.diginaut.net
+TDD395254 📆 2025-12-24 ? 
