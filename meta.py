@@ -1001,6 +1001,11 @@ class Meta(Arguable):
 
                 # TODO else: report unknown sections?
 
+        if verbose:
+            for slug, note in zip(solver_notes, notes):
+                if not note:
+                    ui.print(f'Missing {slug!r}')
+
         for solver_i, (dd_n, note, head, body) in enumerate(zip(note_days, notes, heads, bodys)):
             day = days[dd_n-1] if dd_n else None
             yield solver_i, day, note, head, body
