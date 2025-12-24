@@ -1,0 +1,162 @@
+T73.00600421700074 now: 2025-12-24T09:18:30EST
+TD262 site: https://www.britannica.com/games/octordle/daily
+TDD-137 wordlist: nwl2023.txt
+TDD-106 num_words: 8
+TDD4036674  ...
+TDD-2341889 > * 1
+TDD-422654 ? 1
+TDD-1271918 questioning: lears
+TDD3640080 #1 _____? nMnMn
+TDD-3639786 attempt: 0 LEARS n m n m n
+TDD1358801 #2 _____? nnnnn
+TDD-1359048 attempt: 1 LEARS n n n n n
+TDD2159407 #3 _____? Ynnnn
+TDD-2159389 attempt: 2 LEARS Y n n n n
+TDD3768553 #4 _____? MnYnM
+TDD-3768512 attempt: 3 LEARS m n Y n m
+TDD6244491 #5 _____? nnYnM
+TDD-6244546 attempt: 4 LEARS n n Y n m
+TDD1878442 #6 _____? YnMnn
+TDD-1878439 attempt: 5 LEARS Y n m n n
+TDD5147467 #7 _____? nMnYn
+TDD-5147384 attempt: 6 LEARS n m n Y n
+TDD1924054 #8 _____? nnMMn
+TDD-1924087 attempt: 7 LEARS n n m m n
+TDD8111902 > * 4
+TDD-6209501 ? 1
+TDD-1902416 questioning: scalp
+TDD4653071 #1 _____ ~ER -ALS? nnnnn
+TDD-4653107 attempt: 0 SCALP n n n n n
+TDD1587651 #2 _____ -AELRS? nnnnn
+TDD-1587583 attempt: 1 SCALP n n n n n
+TDD7607556 #3 L____ -AERS? nnnMn
+TDD-7607495 attempt: 2 SCALP n n n m n
+TDD2644137 #4 __A__ ~LS -ER? MnYYM
+TDD-2644408 attempt: 3 SCALP m n Y Y m
+TDD5250833 #5 __A__ ~S -ELR? MMYnn
+TDD-5250691 attempt: 4 SCALP m m Y n n
+TDD1546506 #6 L____ ~A -ERS? nnMMn
+TDD-1546551 attempt: 5 SCALP n n m m n
+TDD1350047 #7 ___R_ ~E -ALS? nnnnn
+TDD-1349947 attempt: 6 SCALP n n n n n
+TDD1440585 #8 _____ ~AR -ELS? nnMnn
+TDD-1440614 attempt: 7 SCALP n n m n n
+TDD159613275 > * 4
+TDD-159522516 questioning: psalm
+TDD3537766 #1 _____ ~ER -ACLPS? nnnnn
+TDD-3628466 attempt: 0 PSALM n n n n n
+TDD5335832 #2 _____ -ACELPRS? nnnnn
+TDD-5335838 attempt: 1 PSALM n n n n n
+TDD2572703 #3 L____ -ACEPRS? nnnMn
+TDD-2572695 attempt: 2 PSALM n n n m n
+TDD1982338 #4 __AL_ ~PS -CER? YYYYY
+TDD-1982454 attempt: 3 PSALM Y Y Y Y Y
+TDD4925805 #5 __A__ ~CS -ELPR? nMYnn
+TDD-4925813 attempt: 4 PSALM n m Y n n
+TDD2400648 #6 L____ ~A -CEPRS? nnMMn
+TDD-2400515 attempt: 5 PSALM n n m m n
+TDD1377854 #7 ___R_ ~E -ACLPS? nnnnn
+TDD-1377955 attempt: 6 PSALM n n n n n
+TDD1339762 #8 _____ ~AR -CELPS? nnMnn
+TDD-1339778 attempt: 7 PSALM n n m n n
+TDD4239484 > * 5
+TDD-4150985 questioning: coast
+TDD4316459 #1 _____ ~ER -ACLMPS? nMnnM
+TDD-4404971 attempt: 0 COAST n m n n m
+TDD4477529 #2 _____ -ACELMPRS? nYnnn
+TDD-4477656 attempt: 1 COAST n Y n n n
+TDD5720011 #3 L____ -ACEMPRS? nnnnY
+TDD-5719869 attempt: 2 COAST n n n n Y
+TDD15228701 #5 __A__ ~CS -ELMPR? YYYYY
+TDD-15228637 attempt: 4 COAST Y Y Y Y Y
+TDD1730164 #6 L____ ~A -CEMPRS? nnMnn
+TDD-1730206 attempt: 5 COAST n n m n n
+TDD3167606 #7 ___R_ ~E -ACLMPS? nnnnn
+TDD-3167590 attempt: 6 COAST n n n n n
+TDD1479694 #8 _____ ~AR -CELMPS? nnMnM
+TDD-1479708 attempt: 7 COAST n n m n m
+TDD2152767 > * 3
+TDD-2068456 questioning: light
+TDD9266519 #1 _____ ~EORT -ACLMPS? nnnnM
+TDD-9350691 attempt: 0 LIGHT n n n n m
+TDD1569970 #2 _O___ -ACELMPRST? nnMnn
+TDD-1570155 attempt: 1 LIGHT n n m n n
+TDD1685327 #3 L___T -ACEMOPRS? YYYYY
+TDD-1685326 attempt: 2 LIGHT Y Y Y Y Y
+TDD6188890 #6 L____ ~A -CEMOPRST? YnMMn
+TDD-6188815 attempt: 5 LIGHT Y n m m n
+TDD3980204 #7 ___R_ ~E -ACLMOPST? nYnnn
+TDD-3980315 attempt: 6 LIGHT n Y n n n
+TDD1761073 #8 _____ ~ART -CELMOPS? nnnnM
+TDD-1761011 attempt: 7 LIGHT n n n n m
+TDD3310028 > * 6
+TDD-3221999 questioning: laugh
+TDD5191637 #1 _____ ~EORT -ACGHILMPS? nnnnn
+TDD-5279653 attempt: 0 LAUGH n n n n n
+TDD4109511 #2 _O___ ~G -ACEHILMPRST? nnnMn
+TDD-4109490 attempt: 1 LAUGH n n n m n
+TDD4184773 #6 L____ ~AGH -CEIMOPRST? YYYYY
+TDD-4184766 attempt: 5 LAUGH Y Y Y Y Y
+TDD3210027 #7 _I_R_ ~E -ACGHLMOPST? nnnnn
+TDD-3209946 attempt: 6 LAUGH n n n n n
+TDD2821315 #8 _____ ~ART -CEGHILMOPS? nYnnn
+TDD-2821400 attempt: 7 LAUGH n Y n n n
+TDD2813971 > * 7
+TDD7988715 ? nnnMY
+TDD-8883984 ? Mnnnn
+TDD688682 ? 2
+TDD-2607499 questioning: fibre
+TDD2530407 #1 _____ ~EORT -ACGHILMPSU? nnnMY
+TDD-2530351 attempt: 0 FIBRE n n n m Y
+TDD1653235 #2 _O___ ~G -ACEHILMPRSTU? Mnnnn
+TDD-1653075 attempt: 1 FIBRE m n n n n
+TDD8665980 #7 _I_R_ ~E -ACGHLMOPSTU? YYnYM
+TDD-8666125 attempt: 6 FIBRE Y Y n Y m
+TDD2295295 #8 _A___ ~RT -CEGHILMOPSU? nnnMn
+TDD-2295292 attempt: 7 FIBRE n n n m n
+TDD9287072 > * 7
+TDD-9195099 questioning: fiery
+TDD5527307 #1 ____E ~ORT -ABCFGHILMPSU? nnMMn
+TDD-5619090 attempt: 0 FIERY n n m m n
+TDD1955414 #2 _O___ ~FG -ABCEHILMPRSTU? MnnnY
+TDD-1955451 attempt: 1 FIERY m n n n Y
+TDD3514611 #7 FI_R_ ~E -ABCGHLMOPSTU? YYYYY
+TDD-3514771 attempt: 6 FIERY Y Y Y Y Y
+TDD2081758 #8 _A___ ~RT -BCEFGHILMOPSU? nnnMY
+TDD-2081745 attempt: 7 FIERY n n n m Y
+TDD8816435 > * 2
+TDD-8730788 questioning: goofy
+TDD5222779 #1 ____E ~ORT -ABCFGHILMPSUY? nnYnn
+TDD-5308434 attempt: 0 GOOFY n n Y n n
+TDD1850748 #2 _O__Y ~FG -ABCEHILMPRSTU? YYYYY
+TDD-1850772 attempt: 1 GOOFY Y Y Y Y Y
+TDD6500555 #8 _A__Y ~RT -BCEFGHILMOPSU? nnnnY
+TDD-6500521 attempt: 7 GOOFY n n n n Y
+TDD3046128 > * 8
+TDD5138111 ? MnMnn
+TDD-2638150 ? 1
+TDD-5546093 questioning: tardy
+TDD6902477 #1 __O_E ~RT -ABCFGHILMPSUY? MnMnn
+TDD-6902320 attempt: 0 TARDY m n m n n
+TDD5851717 #8 _A__Y ~RT -BCEFGHILMOPSU? MYMnY
+TDD-5851848 attempt: 7 TARDY m Y m n Y
+TDD2435178 > * 1
+TDD-2337626 questioning: wrote
+TDD6835785 #1 __O_E ~RT -ABCDFGHILMPSUY? YYYYY
+TDD-6933274 attempt: 0 WROTE Y Y Y Y Y
+TDD6072339 #8 _A__Y ~RT -BCDEFGHILMOPSU? nMnYn
+TDD-6072386 attempt: 7 WROTE n m n Y n
+TDD1654621 > * 8
+TDD-1568675 questioning: ratty
+TDD4931488 #8 _A_TY ~R -BCDEFGHILMOPSUW? YYYYY
+TDD-5017241 attempt: 7 RATTY Y Y Y Y Y
+TDD4700626 📋> Daily Octordle #1430
+TDD-4701015 📋> 🕚9️⃣
+TDD-91 📋> 5️⃣3️⃣
+TDD-4 📋> 4️⃣6️⃣
+TDD-2 📋> 8️⃣🕛
+TDD359418 📋> Score: 58
+TDD-42056 📋> ␚
+TDD-317212 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1430\n\ud83d\udd5a9\ufe0f\u20e3\n5\ufe0f\u20e33\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udd5b\nScore: 58"}
+TDD43 result: "Daily Octordle #1430\n\ud83d\udd5a9\ufe0f\u20e3\n5\ufe0f\u20e33\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udd5b\nScore: 58"
+TDD358729 📆 2025-12-24 ? 
