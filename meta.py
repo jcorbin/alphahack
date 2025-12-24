@@ -959,7 +959,7 @@ class Meta(Arguable):
         for n, (harness, note) in enumerate(zip(solver_harness, solver_notes), 1):
             ui.print(f'{n}. {harness} site:{harness.site!r} slug:{note!r}')
 
-    def read_status(self, ui: PromptUI, verbose: bool=True):
+    def read_status(self, ui: PromptUI, verbose: bool=False):
 
         days: list[datetime.date] = []
         notes: list[str] = ['' for _ in solver_notes]
