@@ -982,18 +982,6 @@ class Search(StoredLog):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
                 match = re.match(r'''(?x)
-                    lang :
-                    \s+
-                    (?P<token> [^\s]+ )
-                    \s* ( .* )
-                    $''', rest)
-                if match:
-                    token, rest = match.groups()
-                    assert rest == ''
-                    self.lang = token
-                    continue
-
-                match = re.match(r'''(?x)
                     scale :
                     \s+ (?P<tier> 🧊|🥶|😎|🥵|🔥|😱|🥳 )
                     \s+ (?P<temp> [^\s]+ )
@@ -1670,6 +1658,16 @@ class Search(StoredLog):
             if lang:
                 self.lang = lang
                 ui.log(f'lang: {self.lang}')
+
+    @matcher(r'''(?x)
+        lang :
+        \s+
+        (?P<token> [^\s]+ )
+        \s* ( .* )
+        $''')
+    def load_lang(self, _t: float, m: re.Match[str]):
+        assert m[2] == ''
+        self.lang = m[1]
 
     def do_puzzle(self, ui: PromptUI):
         with ui.input(f'🧩 {self.puzzle_id} ? ') as tokens:
