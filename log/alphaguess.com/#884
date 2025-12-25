@@ -1,0 +1,47 @@
+T69.6100648700085 now: 2025-12-25T08:24:43EST
+TD165 site: alphaguess.com
+TDD138081 loaded 196538 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (65 words excluded) asof 9e496233e070134927bf77dceaeca56ff34238ca
+TDD3908396  ...
+TDD-1496080 [0 : 98225 : 196538] mach? a
+TDD-2550393 progress: 1 98225 
+TDD1556844 [98226 : 147329 : 196538] rho? a
+TDD-1556818 progress: 1 147329 
+TDD1475075 [147330 : 171929 : 196538] tag? b
+TDD-1475124 progress: -1 171929 
+TDD1328652 [147330 : 159611 : 171929] slug? a
+TDD-1328648 progress: 1 159611 
+TDD1268046 [159612 : 165765 : 171929] stint? a
+TDD-1267998 progress: 1 165765 
+TDD1524672 [165766 : 168815 : 171929] sulfur? a
+TDD-1524721 progress: 1 168815 
+TDD1186896 [168816 : 170369 : 171929] sustain? a
+TDD-1186853 progress: 1 170369 
+TDD1301006 [170370 : 171137 : 171929] symbol? b
+TDD-1301042 progress: -1 171137 
+TDD1214563 [170370 : 170742 : 171137] swift? a
+TDD-1214570 progress: 1 170742 
+TDD1327577 [170743 : 170932 : 171137] swoon? b
+TDD-1327574 progress: -1 170932 
+TDD1175113 [170743 : 170834 : 170932] swink? a
+TDD-1175099 progress: 1 170834 
+TDD1446462 [170835 : 170871 : 170932] switch? it
+TDD-1446455 progress: 0 170871 
+TDD-140 [170835 : 170871 : 170932] <Done>.
+TDD2871300 📋> v
+TDD-2689080 📋> ␚
+TDD-182068 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "v"}
+TDD1016298 📋> 🧩 Puzzle #884
+TDD-1016350 📋> 
+TDD-102 📋> 🤔 12 guesses
+TDD-8 📋> 
+TDD0 📋> ⏱️ 15s
+TDD18 📋> 
+TDD253881 📋> 🔗 alphaguess.com
+TDD11032 📋> ␚
+TDD-264802 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #884\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 15s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-50 result: "\ud83e\udde9 Puzzle #884\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 15s\n\n\ud83d\udd17 alphaguess.com"
+TDD-81 result puzzle: 884
+TDD-8 result guesses: 12
+TDD-2 result time: 15s
+TDD0 result link: alphaguess.com
+TDD324718 📆 2025-12-25 ? 
