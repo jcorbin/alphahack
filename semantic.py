@@ -998,25 +998,6 @@ class Search(StoredLog):
             if self.prog_at is None and tier == '😎':
                 self.prog_at = temp
 
-    @override
-    def load(self, ui: PromptUI, lines: Iterable[str]):
-        for t, rest in super().load(ui, lines):
-            orig_rest = rest
-            with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
-                match = re.match(r'''(?x)
-                    auto_affix :
-                    \s*
-                    (?P<affix> .* )
-                    $''', rest)
-                if match:
-                    raw, = match.groups()
-                    affix = cast(object, json.loads(raw))
-                    if isinstance(affix, str):
-                        self.auto_affix = affix
-                    continue
-
-                yield t, rest
-
     def describe_word(self, i: int, ix: int|None = None, word: str|None = None):
         if word is not None:
             assert self.word[i] == word
@@ -1239,6 +1220,12 @@ class Search(StoredLog):
                 return
 
             ui.print(f'! invalid /auto {tokens.raw}')
+
+    @matcher(r'''(?x) auto_affix : \s* (?P<affix> .* ) $''')
+    def load_auto_affix(self, _t: float, m: re.Match[str]):
+        affix = cast(object, json.loads(m[1]))
+        if isinstance(affix, str):
+            self.auto_affix = affix
 
     def do_http(self, ui: PromptUI):
         title: str
