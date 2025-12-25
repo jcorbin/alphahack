@@ -1004,18 +1004,6 @@ class Search(StoredLog):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
                 match = re.match(r'''(?x)
-                    session \s+ model :
-                    \s*
-                    (?P<model> [^\s]+ )
-                    \s* (?P<rest> .* )
-                    $''', rest)
-                if match:
-                    model, rest = match.groups()
-                    assert rest == ''
-                    self.chat_model(ui, model)
-                    continue
-
-                match = re.match(r'''(?x)
                     session \s+ clear
                     \s* (?P<rest> .* )
                     $''', rest)
@@ -3350,6 +3338,10 @@ class Search(StoredLog):
         if self.llm_model != model:
             ui.log(f'session model: {model}')
             self.llm_model = model
+
+    @matcher(r'''(?x) session \s+ model : \s* (?P<model> [^\s]+ ) $''')
+    def load_chat_model(self, _t: float, m: re.Match[str]):
+        self.llm_model = str(m[1])
 
     def chat_system_cmd(self, ui: PromptUI):
         with ui.tokens as tokens:
