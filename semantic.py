@@ -1004,32 +1004,6 @@ class Search(StoredLog):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
                 match = re.match(r'''(?x)
-                    http \s+ (?P<coll> header | cookie ):
-                    \s+ (?P<name> [^\s]+ )
-                    \s+ (?P<value> .+? )
-                    $''', rest)
-                if match:
-                    coll, name, value = match.groups()
-
-                    if coll == 'cookie':
-                        if value == '_':
-                            del self.http_client.cookies[name]
-                        else:
-                            value = cast(object, json.loads(value))
-                            assert isinstance(value, str)
-                            self.http_client.cookies[name] = value
-
-                    elif coll == 'header':
-                        if value == '_':
-                            del self.http_client.headers[name]
-                        else:
-                            value = cast(object, json.loads(value))
-                            assert isinstance(value, str)
-                            self.http_client.headers[name] = value
-
-                    continue
-
-                match = re.match(r'''(?x)
                     session : \s* (?P<mess> .+ )
                     $''', rest)
                 if match:
@@ -1364,6 +1338,26 @@ class Search(StoredLog):
         ui.log(f'http {title}: {name} {vs}')
         coll[name] = value
         ui.print(f'http {title} {name}: <set> {vs}')
+
+    @matcher(r'''(?x)
+        http \s+ (?P<kind> header | cookie ):
+        \s+ (?P<name> [^\s]+ )
+        \s+ (?P<value> .+? )
+        $''')
+    def load_http(self, _t: float, m: re.Match[str]):
+        kind, name, value = m.groups()
+        if kind == 'cookie':
+            coll = self.http_client.cookies
+        elif kind == 'header':
+            coll = self.http_client.headers
+        else:
+            return
+        if value == '_':
+            del coll[name]
+        else:
+            value = cast(object, json.loads(value))
+            assert isinstance(value, str)
+            coll[name] = value
 
     @property
     def origin(self):
