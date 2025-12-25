@@ -1,0 +1,106 @@
+T558.2740198650135 now: 2025-12-25T08:32:52EST
+TD131 site: m-w.com/games/quordle
+TDD-65 wordlist: nwl2023.txt
+TDD-53 num_words: 4
+TDD5802034  ...
+TDD-4122829 > 
+TDD-1077333 > 
+TDD907818 > * 1
+TDD953736 ? 1
+TDD-2463145 questioning: saner
+TDD3970321 #1 _____? nYnnM
+TDD-3970314 attempt: 0 SANER n Y n n m
+TDD2364684 #2 _____? nYnnM
+TDD-2364825 attempt: 1 SANER n Y n n m
+TDD1779798 #3 _____? nnMnn
+TDD-1779573 attempt: 2 SANER n n m n n
+TDD2178794 #4 _____? nMMnn
+TDD-2178913 attempt: 3 SANER n m m n n
+TDD2867031 > * 1
+TDD-1199975 ? 1
+TDD-1667072 questioning: larch
+TDD5715607 #1 _A___ ~R -ENS? nYYnn
+TDD-5715536 attempt: 0 LARCH n Y Y n n
+TDD1708532 #2 _A___ ~R -ENS? nYYnM
+TDD-1708494 attempt: 1 LARCH n Y Y n m
+TDD2362353 #3 _____ ~N -AERS? Mnnnn
+TDD-2362270 attempt: 2 LARCH m n n n n
+TDD1410485 #4 _____ ~AN -ERS? nMnnn
+TDD-1410817 attempt: 3 LARCH n m n n n
+TDD1798920 > * 2
+TDD-309669 ? 1
+TDD-1489073 questioning: harpy
+TDD4706999 #1 _AR__ -CEHLNS? nYYnY
+TDD-4707031 attempt: 0 HARPY n Y Y n Y
+TDD2050379 #2 _AR__ ~H -CELNS? YYYnY
+TDD-2050395 attempt: 1 HARPY Y Y Y n Y
+TDD1499659 #3 _____ ~LN -ACEHRS? nnnnn
+TDD-1499655 attempt: 2 HARPY n n n n n
+TDD1983583 #4 _____ ~AN -CEHLRS? nMnnn
+TDD-1983571 attempt: 3 HARPY n m n n n
+TDD2548154 > * 2
+TDD-581102 ? 1
+TDD-1967077 questioning: hardy
+TDD4612258 #1 _AR_Y -CEHLNPS? nYYnY
+TDD-4612079 attempt: 0 HARDY n Y Y n Y
+TDD2049709 #2 HAR_Y -CELNPS? YYYnY
+TDD-2049794 attempt: 1 HARDY Y Y Y n Y
+TDD4619907 #3 _____ ~LN -ACEHPRSY? nnnMn
+TDD-4619975 attempt: 2 HARDY n n n m n
+TDD1380733 #4 _____ ~AN -CEHLPRSY? nMnnn
+TDD-1380761 attempt: 3 HARDY n m n n n
+TDD1836560 > * 2
+TDD-1743303 questioning: harry
+TDD6488009 #1 _AR_Y -CDEHLNPS? nYYnY
+TDD-6581208 attempt: 0 HARRY n Y Y n Y
+TDD2140282 #2 HAR_Y -CDELNPS? YYYYY
+TDD-2140273 attempt: 1 HARRY Y Y Y Y Y
+TDD1676543 #3 _____ ~DLN -ACEHPRSY? nnnnn
+TDD-1676459 attempt: 2 HARRY n n n n n
+TDD3569475 #4 _____ ~AN -CDEHLPRSY? nMnnn
+TDD-3569616 attempt: 3 HARRY n m n n n
+TDD2315688 > * 3
+TDD431118 ? 3
+TDD-2746832 questioning: blind
+TDD4740779 #1 _AR_Y -CDEHLNPS? nnnnn
+TDD-4740684 attempt: 0 BLIND n n n n n
+TDD2170264 #3 _____ ~DLN -ACEHPRSY? YYnYY
+TDD-2170168 attempt: 2 BLIND Y Y n Y Y
+TDD3711375 #4 _____ ~AN -CDEHLPRSY? nnYMn
+TDD-3711530 attempt: 3 BLIND n n Y m n
+TDD4133791 > * 3
+TDD-4032227 questioning: blond
+TDD6711604 #1 _AR_Y -BCDEHILNPS? nnnnn
+TDD-6813261 attempt: 0 BLOND n n n n n
+TDD1577616 #3 BL_ND -ACEHIPRSY? YYYYY
+TDD-1577496 attempt: 2 BLOND Y Y Y Y Y
+TDD2020581 #4 __I__ ~AN -BCDEHLPRSY? nnMMn
+TDD-2020628 attempt: 3 BLOND n n m m n
+TDD2873035 > * 1
+TDD4452843 ? ␚
+TDD-7325992 <EOF>
+TDD1380520 > * 4
+TDD5398811 ? 1
+TDD-6779227 questioning: avion
+TDD7177438 #1 _AR_Y -BCDEHILNOPS? Mnnnn
+TDD-7177422 attempt: 0 AVION m n n n n
+TDD2793837 #4 __I__ ~ANO -BCDEHLPRSY? YnYYY
+TDD-2793738 attempt: 3 AVION Y n Y Y Y
+TDD13812985 > * 1
+TDD-11890928 ? 1
+TDD-1922188 questioning: warty
+TDD5619588 #1 _AR_Y -BCDEHILNOPSV? YYYYY
+TDD-5619479 attempt: 0 WARTY Y Y Y Y Y
+TDD4727495 #4 A_ION -BCDEHLPRSVY? nMnnn
+TDD-4727605 attempt: 3 WARTY n m n n n
+TDD3299946 > /res
+TDD-476931 📋> 🙂 Daily Quordle 1431
+TDD-2823014 📋> 9️⃣5️⃣
+TDD-153 📋> 7️⃣🟥
+TDD-7 📋> m-w.com/games/quordle/
+TDD340828 📋> 
+TDD-85177 📋> ␚
+TDD-255548 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1431\n9\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TDD1609 result: "\ud83d\ude42 Daily Quordle 1431\n9\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TDD2742115 > /store
+TDD-1943317 📆 2025-12-25 ? 
