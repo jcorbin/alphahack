@@ -1004,22 +1004,6 @@ class Search(StoredLog):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
                 match = re.match(r'''(?x)
-                    chat_prompt : \s* (?P<mess> .+ )
-                    $''', rest)
-                if match:
-                    mess, = match.groups()
-                    try:
-                        dat = cast(object, json.loads(mess))
-                    except json.JSONDecodeError:
-                        pass
-                    else:
-                        if isinstance(dat, dict) and 'prompt' in dat:
-                            mess = cast(object, dat['prompt'])
-                            assert isinstance(mess, str)
-                    _ = self.set_chat_prompt(ui, mess)
-                    continue
-
-                match = re.match(r'''(?x)
                     abbr : \s* (?P<abbr> [^\s]+ )
                     (?: \s+ (?P<mess> .+? ) )?
                     $''', rest)
@@ -2845,13 +2829,31 @@ class Search(StoredLog):
                 prompt = ChatPrompt(prompt)
             except ValueError:
                 pass
+        return self.apply_chat_prompt(prompt)
 
+    def apply_chat_prompt(self, prompt: str|ChatPrompt):
         # TODO save last parseable
         self.last_chat_prompt = prompt
         self.last_chat_basis = dict()
         return expand_word_refs(
             prompt if isinstance(prompt, str) else prompt.prompt,
             self.collect_word_ref)
+
+    @matcher(r'''(?x) chat_prompt : \s* (?P<mess> .+ ) $''')
+    def load_chat_prompt(self, _t: float, m: re.Match[str]):
+        try:
+            dat = cast(object, json.loads(m[1]))
+        except json.JSONDecodeError:
+            mess = str(m[1] or '')
+        else:
+            if isinstance(dat, str):
+                mess = dat
+            elif isinstance(dat, dict) and 'prompt' in dat:
+                mess = cast(object, dat['prompt'])
+                assert isinstance(mess, str)
+            else:
+                raise ValueError(f'invalid chat prompt JSON: {m[1]!r}')
+        _ = self.apply_chat_prompt(mess)
 
     def chat_prompt(self, ui: PromptUI, prompt: str) -> PromptUI.State|None:
         with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
