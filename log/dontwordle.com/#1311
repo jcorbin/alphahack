@@ -1,0 +1,61 @@
+T444.06310032900365 now: 2025-12-25T08:30:58EST
+TD151 site: dontwordle.com
+TDD-63 wordlist: nwl2023.txt
+TDD952763  ...
+TDD6335656 1> * -bto 10
+TDD-4078322 ? ␚
+TDD-3210038 <EOF>
+TDD1608811 1> * -bot 10
+TDD241314 ? 1
+TDD3461675 📋 "raise" ? nMnnY
+TDD-5311698 tried: RAISE n m n n Y
+TDD712308 2> undo
+TDD-712350 undo
+TDD6347501 1> *
+TDD-5023876 ? 1
+TDD3005032 📋 "immix" ? nnnnn
+TDD-4328552 tried: IMMIX n n n n n
+TDD661329 2> *
+TDD89228 ? 1
+TDD4157371 📋 "skosh" ? nnnnM
+TDD-4907972 tried: SKOSH n n n n m
+TDD728222 3> undo
+TDD-728261 undo
+TDD2326303 2> *
+TDD-1497602 ? 1
+TDD3206455 📋 "doody" ? nnnnn
+TDD-4035187 tried: DOODY n n n n n
+TDD438395 3> *
+TDD309669 ? 1
+TDD3684332 📋 "bulbs" ? nnnnn
+TDD-4432319 tried: BULBS n n n n n
+TDD431606 4> *
+TDD951108 ? 1
+TDD3661428 📋 "crwth" ? YnnnM
+TDD-5044184 tried: CRWTH Y n n n m
+TDD684801 5> undo
+TDD-684798 undo
+TDD2202058 4> *
+TDD3619916 📋 "phpht" ? nYnnn
+TDD-5821785 tried: PHPHT n Y n n n
+TDD678620 5> *
+TDD1910068 ? 1
+TDD3918603 📋 "wheen" ? nYMnn
+TDD-6507461 tried: WHEEN n Y m n n
+TDD459030 6> *
+TDD3379085 ? 2
+TDD1781180 📋 "chafe" ? it
+TDD-5619464 tried: CHAFE Y Y Y Y Y
+TDD2998043 📋> Don't Wordle 1311 - WORDLED
+TDD-2997905 📋> I must admit that I Wordled!
+TDD-167 📋> ⬜⬜⬜⬜⬜7870
+TDD-20 📋> ⬜⬜⬜⬜⬜3300
+TDD-7 📋> ⬜⬜⬜⬜⬜582
+TDD5 📋> ⬜🟩⬜⬜⬜25
+TDD-1 📋> ⬜🟩🟨⬜⬜4
+TDD-2 📋> 🟩🟩🟩🟩🟩0
+TDD375729 📋> Undos used: 3
+TDD-141941 📋> ␚
+TDD-233639 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1311 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7870\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3300\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c582\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c25\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c4\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 3"}
+TDD1919 result: "Don't Wordle 1311 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7870\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3300\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c582\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c25\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c4\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 3"
+TDD561385 📆 2025-12-25 ? 
