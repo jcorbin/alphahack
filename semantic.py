@@ -1004,18 +1004,6 @@ class Search(StoredLog):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
                 match = re.match(r'''(?x)
-                    abbr : \s* (?P<abbr> [^\s]+ )
-                    (?: \s+ (?P<mess> .+? ) )?
-                    $''', rest)
-                if match:
-                    abbr, mess = match.groups()
-                    if mess:
-                        self.abbr[abbr] = mess
-                    elif abbr in self.abbr:
-                        del self.abbr[abbr]
-                    continue
-
-                match = re.match(r'''(?x)
                     http \s+ (?P<coll> header | cookie ):
                     \s+ (?P<name> [^\s]+ )
                     \s+ (?P<value> .+? )
@@ -1554,6 +1542,17 @@ class Search(StoredLog):
             self.abbr[abbr] = tokens.rest
             ui.print(f'  defined {abbr} = {self.abbr[abbr]!r}')
             ui.log(f'abbr: {abbr} {self.abbr[abbr]}') # TODO load
+
+    @matcher(r'''(?x)
+        abbr : \s* (?P<abbr> [^\s]+ )
+        (?: \s+ (?P<mess> .+? ) )?
+        $''')
+    def load_abbr(self, _t: float, m: re.Match[str]):
+        abbr, mess = m.groups()
+        if mess:
+            self.abbr[abbr] = mess
+        elif abbr in self.abbr:
+            del self.abbr[abbr]
 
     def do_site(self, ui: PromptUI):
         with ui.input(f'🔗 {self.site} ? ') as tokens:
