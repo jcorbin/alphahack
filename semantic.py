@@ -1004,16 +1004,6 @@ class Search(StoredLog):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
                 match = re.match(r'''(?x)
-                    session \s+ clear
-                    \s* (?P<rest> .* )
-                    $''', rest)
-                if match:
-                    rest, = match.groups()
-                    assert rest == ''
-                    self.chat_clear(ui)
-                    continue
-
-                match = re.match(r'''(?x)
                     auto_affix :
                     \s*
                     (?P<affix> .* )
@@ -2923,10 +2913,17 @@ class Search(StoredLog):
 
     def chat_clear(self, ui: PromptUI):
         ui.log(f'session clear')
+        self.apply_chat_clear()
+
+    def apply_chat_clear(self):
         if self.chat:
             self.chat_history.append(ChatSession(self.chat, model=self.llm_model))
         self.chat = []
         self.last_chat_prompt = ''
+
+    @matcher(r'''(?x) session \s+ clear $''')
+    def load_chat_clear(self, _t: float, _m: re.Match[str]):
+        self.apply_chat_clear()
 
     def chat_pop(self, ui: PromptUI):
         mess = self.chat.pop()
