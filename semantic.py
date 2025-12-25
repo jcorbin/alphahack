@@ -1004,19 +1004,6 @@ class Search(StoredLog):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
                 match = re.match(r'''(?x)
-                    session : \s* (?P<mess> .+ )
-                    $''', rest)
-                if match:
-                    raw, = match.groups()
-                    if raw.startswith('pop'):
-                        if raw != 'pop': raise NotImplementedError(f'chat pop index')
-                        _ = self.chat_pop(ui)
-                    else:
-                        mess = ollama.Message.model_validate_json(raw)
-                        self.chat_append(ui, mess)
-                    continue
-
-                match = re.match(r'''(?x)
                     session \s+ model :
                     \s*
                     (?P<model> [^\s]+ )
@@ -2961,6 +2948,16 @@ class Search(StoredLog):
     def chat_append(self, ui: PromptUI, mess: ollama.Message):
         ui.log(f'session: {mess.model_dump_json()}')
         self.chat.append(mess)
+
+    @matcher(r'''(?x) session : \s* (?P<mess> .+ ) $''')
+    def load_chat(self, _t: float, m: re.Match[str]):
+        raw, = m.groups()
+        if raw.startswith('pop'):
+            if raw != 'pop': raise NotImplementedError(f'chat pop index')
+            _ = self.chat.pop()
+        else:
+            mess = ollama.Message.model_validate_json(raw)
+            self.chat.append(mess)
 
     def chat_stats(self):
         role_counts = Counter(mess.role for mess in self.chat)
