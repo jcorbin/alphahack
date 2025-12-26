@@ -1241,17 +1241,6 @@ class SpaceWord(StoredLog):
                     continue
 
                 match = re.match(r'''(?x)
-                    reject
-                    \s+
-                    sid : (?P<sid> [^\s]+ )
-                    \s+
-                    bone : (?P<bone> .* )
-                    $''', rest)
-                if match:
-                    self.sids.add(match[1])
-                    continue
-
-                match = re.match(r'''(?x)
                     num_letters :
                     \s+
                     (?P<n> \d+ )
@@ -1730,6 +1719,14 @@ class SpaceWord(StoredLog):
             return
 
         return srch.do_auto if srch.frontier_cap else srch
+
+    @matcher(r'''(?x)
+        reject
+        \s+ sid : (?P<sid> [^\s]+ )
+        \s+ bone : (?P<bone> .* )
+        $''')
+    def load_reject(self, _t: float, m: re.Match[str]):
+        self.sids.add(m[1])
 
     def cmd_shift(self, ui: PromptUI):
         '''
