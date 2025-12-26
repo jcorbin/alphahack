@@ -358,20 +358,6 @@ class Board:
         l = tuple(let.strip() for let in s)
         return cls(size, grid=l[:n], letters=l[n:])
 
-    def load_line(self, line: str):
-        match = re.match(r'''(?x)
-            change :
-            \s+ (?P<i> \d+ )
-            (?: \s+ (?P<let> [a-zA-Z] ) )?
-            ''', line)
-        if match:
-            i = int(match[1])
-            let = str(match[2] or '')
-            self.set(i, let)
-            return True
-
-        return False
-
     def copy(self, updates: Iterable[tuple[int, str]] = ()):
         b = Board(self.size, self.letters, self.grid)
         for ilet in updates: b.set(*ilet)
@@ -1169,9 +1155,19 @@ class SpaceWord(StoredLog):
     def prior_result_boards(self, ui: PromptUI):
         board = Board(self.board.size)
         for line in self.prior_log_lines(ui):
-            if board.load_line(line):
-                # TODO maybe examine intermediate boards
+            # TODO need t:float, ... for matcher api
+
+            m = self.load_letters.pat.match(line)
+            if m:
+                board.letters = list(m[1])
                 continue
+
+            m = self.load_change.pat.match(line)
+            if m:
+                board.set(int(m[1]), str(m[2] or ''))
+                continue
+
+            # TODO which matcher?
             if re.match(r'(?x) result :', line):
                 yield board
 
@@ -1216,8 +1212,8 @@ class SpaceWord(StoredLog):
         for t, rest in super().load(ui, lines):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
-                if self.board.load_line(rest):
-                    continue
+                # if self.board.load_line(rest):
+                #     continue
 
                 match = re.match(r'''(?x)
                     wordlist :
@@ -1458,10 +1454,6 @@ class SpaceWord(StoredLog):
                 self.board.letters.extend(addlet)
                 ui.log(f'letters: |{"".join(self.board.letters)}|')
                 ui.print(f'- added letters: {" ".join(addlet)}')
-
-        @matcher(r'''(?x) letters : \s+ \| (?P<letters> .* ) \| $''')
-        def load_letters(self, _t: float, m: re.Match[str]):
-            self.board.letters = list(m[1])
 
         def do_span(self, ui: PromptUI):
             '''
@@ -1800,6 +1792,20 @@ class SpaceWord(StoredLog):
         for i, let in changes:
             self.board.set(i, let)
             ui.log(f'change: {i} {let}')
+
+    # TODO maybe carry on Board again?
+
+    @matcher(r'''(?x) letters : \s+ \| (?P<letters> .* ) \| $''')
+    def load_letters(self, _t: float, m: re.Match[str]):
+        self.board.letters = list(m[1])
+
+    @matcher(r'''(?x)
+        change :
+        \s+ (?P<i> \d+ )
+        (?: \s+ (?P<let> [a-zA-Z] ) )?
+        ''')
+    def load_change(self, _t: float, m: re.Match[str]):
+        self.board.set(int(m[1]), str(m[2] or ''))
 
 SourceEntry = tuple[str, 'Source'] | Board
 Source = Callable[[PromptUI], Iterable[SourceEntry]]
