@@ -9,7 +9,7 @@ from os import path
 from typing import cast, final, override
 
 from sortem import Chooser, DiagScores, MatchPat, Possible, RandScores
-from store import StoredLog, git_txn
+from store import StoredLog, git_txn, matcher
 from strkit import spliterate
 from ui import PromptUI
 from wordlish import Attempt, Feedback, Question, Word
@@ -108,18 +108,6 @@ class DontWord(StoredLog):
         for t, rest in super().load(ui, lines):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
-
-                match = re.match(r'''(?x)
-                    fail :
-                    \s+
-                    (?P<rest> .* )
-                    $''', rest)
-                if match:
-                    rest, = match.groups()
-                    self.failed = True
-                    self.fail_text = rest
-                    continue
-
                 match = re.match(r'''(?x)
                     wordlist :
                     \s+
@@ -236,6 +224,11 @@ class DontWord(StoredLog):
         self.fail_text = ui.tokens.rest
         ui.log(f'fail: {self.fail_text}')
         return self.finish
+
+    @matcher(r'''(?x) fail : \s+ (?P<rest> .* ) $''')
+    def load_fail(self, _t: float, m: re.Match[str]):
+        self.failed = True
+        self.fail_text = m[1]
 
     def do_tried(self, ui: PromptUI):
         '''
