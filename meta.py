@@ -262,7 +262,6 @@ SolverMaker = Callable[[PromptUI.Tokens], Solver]
 
 @final
 class SolverHarness:
-    Inarguable = Callable[[], Solver]
     Arguable = Callable[[PromptUI.Tokens], Solver]
 
     @classmethod
@@ -276,42 +275,30 @@ class SolverHarness:
             return cls(name,
                        site or impl.default_site,
                        log_file or impl.log_file,
-                       with_args=mak)
+                       make=mak)
         return wrapper
 
     def __init__(self,
                  name: str,
                  site: str,
                  log_file: str,
-                 no_args: 'SolverHarness.Inarguable|None' = None,
-                 with_args: 'SolverHarness.Arguable|None' = None,
+                 make: 'SolverHarness.Arguable',
                  ):
-        if no_args and with_args:
-            raise TypeError('SolverHarness MUST only have EITHER { no or with }_args')
         self.name = name
         self.site = site
         self.log_file = log_file
-        self.no_args = no_args
-        self.with_args = with_args
+        self.make = make
 
     @override
     def __str__(self):
         return self.name
 
-    def _make(self, tokens: PromptUI.Tokens) -> Solver:
-        if self.with_args:
-            return self.with_args(tokens)
-        if self.no_args:
-            return self.no_args()
-        raise NotImplementedError(f'no {self.name} solver constructor given')
-
     # TODO prior log file search/browse
 
-    def make(self,
-             tokens: PromptUI.Tokens,
-             log_file: str|None = None,
-             ) -> Solver:
-        solver = self._make(tokens)
+    def __call__(self,
+                 tokens: PromptUI.Tokens,
+                 log_file: str|None = None) -> Solver:
+        solver = self.make(tokens)
         solver.site = self.site
         solver.log_file = log_file or self.log_file
         return solver
@@ -320,7 +307,7 @@ class SolverHarness:
         # TODO parse optional -log-file arg
         try:
             ui.write(f'*** Running solver {self}')
-            solver = self.make(ui.tokens, log_file=log_file)
+            solver = self(ui.tokens, log_file=log_file)
             if log_file:
                 ui.write(f' log_file={log_file}')
         finally:
