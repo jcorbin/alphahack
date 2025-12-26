@@ -266,18 +266,6 @@ class SolverHarness:
     Arguable = Callable[[PromptUI.Tokens], Solver]
 
     @classmethod
-    def inarguable(cls, name: str, site: str, log_file: str):
-        def wrapper(mak: SolverHarness.Inarguable):
-            return cls(name, site, log_file, no_args=mak)
-        return wrapper
-
-    @classmethod
-    def arguable(cls, name: str, site: str, log_file: str):
-        def wrapper(mak: SolverHarness.Arguable):
-            return cls(name, site, log_file, with_args=mak)
-        return wrapper
-
-    @classmethod
     def stored(cls,
                name: str,
                impl: type[StoredLog],
