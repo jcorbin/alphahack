@@ -1,0 +1,48 @@
+T530.3286602949956 now: 2025-12-26T09:11:25EST
+TD55 site: alphaguess.com
+TDD141737 loaded 196538 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (65 words excluded) asof a75c14475ca48a59febc6c8fb9699d328ebdaecc
+TDD635196  ...
+TDD8023033 [0 : 98225 : 196538] mach? b
+TDD-8799881 progress: -1 98225 
+TDD3583974 [0 : 47387 : 98225] dis? b
+TDD-3583975 progress: -1 47387 
+TDD1959903 [0 : 23688 : 47387] camp? a
+TDD-1959935 progress: 1 23688 
+TDD3719280 [23689 : 35531 : 47387] convention? a
+TDD-3719250 progress: 1 35531 
+TDD2047587 [35532 : 40847 : 47387] da? b
+TDD-2047602 progress: -1 40847 
+TDD1736041 [35532 : 38190 : 40847] crazy? b
+TDD-1736023 progress: -1 38190 
+TDD1967713 [35532 : 36732 : 38190] cos? b
+TDD-1967738 progress: -1 36732 
+TDD1903788 [35532 : 36097 : 36732] cor? b
+TDD-1903765 progress: -1 36097 
+TDD2343881 [35532 : 35785 : 36097] coop? a
+TDD-2343880 progress: 1 35785 
+TDD1903557 [35786 : 35837 : 36097] cop? b
+TDD-1903546 progress: -1 35837 
+TDD1663597 [35786 : 35787 : 35837] cooper? a
+TDD-1663635 progress: 1 35787 
+TDD2071848 [35788 : 35813 : 35837] coopt? a
+TDD-2071825 progress: 1 35813 
+TDD2399892 [35814 : 35825 : 35837] coordination? b
+TDD-2399919 progress: -1 35825 
+TDD4815624 [35814 : 35819 : 35825] coordinate? it
+TDD-4815591 progress: 0 35819 
+TDD-118 [35814 : 35819 : 35825] <Done>.
+TDD2992121 📋> 🧩 Puzzle #885
+TDD-2992075 📋> 
+TDD-61 📋> 🤔 14 guesses
+TDD-3 📋> 
+TDD1 📋> ⏱️ 29s
+TDD-2 📋> 
+TDD447773 📋> 🔗 alphaguess.com
+TDD-15710 📋> ␚
+TDD-431944 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #885\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 29s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-29 result: "\ud83e\udde9 Puzzle #885\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 29s\n\n\ud83d\udd17 alphaguess.com"
+TDD-81 result puzzle: 885
+TDD-6 result guesses: 14
+TDD-1 result time: 29s
+TDD0 result link: alphaguess.com
+TDD287740 📆 2025-12-26 ? 
