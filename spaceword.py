@@ -1240,19 +1240,6 @@ class SpaceWord(StoredLog):
                 if self.board.load_line(rest):
                     continue
 
-                match = re.match(r'''(?x)
-                    at :
-                    \s+ (?P<x> \d+ )
-                    \s+ (?P<y> \d+ )
-                    \s+ (?P<dir> [xyXY] )
-                    $''', rest)
-                if match:
-                    x = int(match[1])
-                    y = int(match[2])
-                    xy = cast(Literal['X', 'Y'], match[3].upper())
-                    self.at_cursor = x, y , xy
-                    continue
-
                 yield t, rest
 
     @property
@@ -1776,6 +1763,18 @@ class SpaceWord(StoredLog):
     def move_to(self, ui: PromptUI, x: int, y: int, xy: Literal['X', 'Y'] = 'X'):
         self.at_cursor = x, y, xy
         ui.log(f'at: {x} {y} {xy}')
+
+    @matcher(r'''(?x)
+        at :
+        \s+ (?P<x> \d+ )
+        \s+ (?P<y> \d+ )
+        \s+ (?P<dir> [xyXY] )
+        $''')
+    def load_move_to(self, _t: float, m: re.Match[str]):
+        x = int(m[1])
+        y = int(m[2])
+        xy = cast(Literal['X', 'Y'], m[3].upper())
+        self.at_cursor = x, y , xy
 
     @property
     def cursor(self):
