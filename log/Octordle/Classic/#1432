@@ -1,0 +1,169 @@
+T1174.5426431029919 now: 2025-12-26T09:22:09EST
+TD104 site: https://www.britannica.com/games/octordle/daily
+TDD-69 wordlist: nwl2023.txt
+TDD-29 num_words: 8
+TDD5053948  ...
+TDD-3493924 > * 1
+TDD1984957 ? 10
+TDD-3544836 questioning: islet
+TDD7623126 #1 _____? Mnnnn
+TDD-7623086 attempt: 0 ISLET m n n n n
+TDD1551665 #2 _____? nnnnn
+TDD-1551673 attempt: 1 ISLET n n n n n
+TDD1751793 #3 _____? nnMMM
+TDD-1751772 attempt: 2 ISLET n n m m m
+TDD1655472 #4 _____? nnYnn
+TDD-1655428 attempt: 3 ISLET n n Y n n
+TDD4687753 #5 _____? MMnnM
+TDD-4687755 attempt: 4 ISLET m m n n m
+TDD2335231 #6 _____? nnnMM
+TDD-2335155 attempt: 5 ISLET n n n m m
+TDD1807510 #7 _____? nMnnn
+TDD-1807599 attempt: 6 ISLET n m n n n
+TDD1807251 #8 _____? nMnMn
+TDD-1807307 attempt: 7 ISLET n m n m n
+TDD8519791 > * 7
+TDD-7335591 ? 1
+TDD-1184199 questioning: arson
+T7.499376361025497 now: 2025-12-26T09:23:27EST
+TD89 questioning: arson
+TDD3757417 #1 _____ ~I -ELST? nMnnn
+TDD-3757245 attempt: 0 ARSON n m n n n
+TDD3407667 #2 _____ -EILST? YMnYY
+TDD-3407661 attempt: 1 ARSON Y m n Y Y
+TDD1591253 #3 _____ ~ELT -IS? nnnnn
+TDD-1591341 attempt: 2 ARSON n n n n n
+TDD2799435 #4 __L__ -EIST? MMnYn
+TDD-2799390 attempt: 3 ARSON m m n Y n
+TDD5584496 #5 _____ ~IST -EL? nnMnn
+TDD-5584189 attempt: 4 ARSON n n m n n
+TDD1670198 #6 _____ ~ET -ILS? MYnnn
+TDD-1670543 attempt: 5 ARSON m Y n n n
+TDD2583375 #7 _____ ~S -EILT? MnYnn
+TDD-2583355 attempt: 6 ARSON m n Y n n
+TDD1223945 #8 _____ ~ES -ILT? nnMMn
+TDD-1223914 attempt: 7 ARSON n n m m n
+TDD11535953 > * 2
+TDD-11444591 questioning: apron
+TDD4352384 #1 _____ ~IR -AELNOST? nnMnn
+TDD-4443782 attempt: 0 APRON n n m n n
+TDD1463396 #2 A__ON ~R -EILST? YYYYY
+TDD-1463393 attempt: 1 APRON Y Y Y Y Y
+TDD1560012 #3 _____ ~ELT -AINORS? nnnnn
+TDD-1559963 attempt: 2 APRON n n n n n
+TDD2095248 #4 __LO_ ~AR -EINST? MnMYn
+TDD-2095253 attempt: 3 APRON m n m Y n
+TDD5288005 #5 _____ ~IST -AELNOR? nnnnn
+TDD-5288006 attempt: 4 APRON n n n n n
+TDD1759550 #6 _R___ ~AET -ILNOS? MnMnn
+TDD-1759548 attempt: 5 APRON m n m n n
+TDD1830769 #7 __S__ ~A -EILNORT? Mnnnn
+TDD-1830839 attempt: 6 APRON m n n n n
+TDD1600297 #8 _____ ~EOS -AILNRT? nMnMn
+TDD-1600235 attempt: 7 APRON n m n m n
+TDD3655418 > * 4
+TDD-3560684 questioning: valor
+TDD7082163 #1 _____ ~IR -AELNOPST? nnnnM
+TDD-7176888 attempt: 0 VALOR n n n n m
+TDD1823247 #3 _____ ~ELT -AINOPRS? nnMnn
+TDD-1823243 attempt: 2 VALOR n n m n n
+TDD3215862 #4 __LO_ ~AR -EINPST? YYYYY
+TDD-3215882 attempt: 3 VALOR Y Y Y Y Y
+TDD4583291 #5 _____ ~IST -AELNOPR? nnnnn
+TDD-4583347 attempt: 4 VALOR n n n n n
+TDD1512090 #6 _R___ ~AET -ILNOPS? nMnnM
+TDD-1512032 attempt: 5 VALOR n m n n m
+TDD2111636 #7 __S__ ~A -EILNOPRT? nYnnn
+TDD-2111699 attempt: 6 VALOR n Y n n n
+TDD1711524 #8 _____ ~EOPS -AILNRT? nnnMn
+TDD-1711465 attempt: 7 VALOR n n n m n
+TDD15207548 > * 8
+TDD-9976006 ? 3
+TDD-5231575 questioning: scope
+TDD3631588 #1 _____ ~IR -AELNOPSTV? nnnnn
+TDD-3631607 attempt: 0 SCOPE n n n n n
+TDD2424027 #3 _____ ~ELT -AINOPRSV? nnnnM
+TDD-2423966 attempt: 2 SCOPE n n n n m
+TDD6791085 #5 _____ ~IST -AELNOPRV? YMnnn
+TDD-6791075 attempt: 4 SCOPE Y m n n n
+TDD3552759 #6 _R___ ~AET -ILNOPSV? nnnnM
+TDD-3552754 attempt: 5 SCOPE n n n n m
+TDD3590487 #7 _AS__ -EILNOPRTV? Ynnnn
+TDD-3590529 attempt: 6 SCOPE Y n n n n
+TDD3169105 #8 _____ ~EOPS -AILNRTV? MnMMM
+TDD-3169058 attempt: 7 SCOPE m n m m m
+TDD2086288 > * 7
+TDD-1995840 questioning: sassy
+TDD7515176 #1 _____ ~IR -ACELNOPSTV? nnnnn
+TDD-7605657 attempt: 0 SASSY n n n n n
+TDD2646979 #3 _____ ~ELT -ACINOPRSV? nnnnY
+TDD-2646994 attempt: 2 SASSY n n n n Y
+TDD5503766 #5 S____ ~CIT -AELNOPRV? Ynnnn
+TDD-5503758 attempt: 4 SASSY Y n n n n
+TDD1911122 #6 _R___ ~AET -CILNOPSV? nMnnn
+TDD-1911184 attempt: 5 SASSY n m n n n
+TDD1967444 #7 SAS__ -CEILNOPRTV? YYYYY
+TDD-1967390 attempt: 6 SASSY Y Y Y Y Y
+TDD2016000 #8 _____ ~EOPS -ACILNRTV? nnnYY
+TDD-2015975 attempt: 7 SASSY n n n Y Y
+TDD2951309 > * 8
+TDD-2860492 questioning: poesy
+TDD10626263 #1 _____ ~IR -ACELNOPSTVY? nnnnn
+TDD-10717082 attempt: 0 POESY n n n n n
+TDD2975485 #3 ____Y ~ELT -ACINOPRSV? nnMnY
+TDD-2975514 attempt: 2 POESY n n m n Y
+TDD4775704 #5 S____ ~CIT -AELNOPRVY? nnnMn
+TDD-4775660 attempt: 4 POESY n n n m n
+TDD2559529 #6 _R___ ~AET -CILNOPSVY? nnYnn
+TDD-2559603 attempt: 5 POESY n n Y n n
+TDD2407320 #8 ___SY ~EOP -ACILNRTV? YYYYY
+TDD-2407265 attempt: 7 POESY Y Y Y Y Y
+TDD8320525 > * 6
+TDD-441390 ? nMnnn
+TDD-5599302 ? MnMnn
+TDD2032307 ? Mnnnn
+TDD-1072677 ? 2
+TDD-3239485 questioning: tread
+TDD2824428 #1 _____ ~IR -ACELNOPSTVY? nMnnn
+TDD-2824402 attempt: 0 TREAD n m n n n
+TDD2678963 #3 ____Y ~ELT -ACINOPRSV? MnMnn
+TDD-2678960 attempt: 2 TREAD m n m n n
+TDD3334970 #5 S____ ~CIT -AELNOPRVY? Mnnnn
+TDD-3335032 attempt: 4 TREAD m n n n n
+TDD2847811 #6 _RE__ ~AT -CILNOPSVY? YYYYY
+TDD-2847749 attempt: 5 TREAD Y Y Y Y Y
+TDD2736209 > * 3
+TDD7198879 ? nnnnn
+TDD-8606897 ? YYYYY
+TDD311499 ? 2
+TDD-1639733 questioning: lefty
+TDD1847886 #1 _____ ~IR -ACDELNOPSTVY? nnnnn
+TDD-1847862 attempt: 0 LEFTY n n n n n
+TDD1399012 #3 ____Y ~ELT -ACDINOPRSV? YYYYY
+TDD-1399059 attempt: 2 LEFTY Y Y Y Y Y
+TDD6079534 #5 S____ ~CIT -ADELNOPRVY? nnnMn
+TDD-6079545 attempt: 4 LEFTY n n n m n
+TDD2655858 > * 5
+TDD1816313 ? ␚
+TDD-4472231 <EOF>
+TDD1471677 > * 1
+TDD264164 ? 1
+TDD-1735750 questioning: quirk
+TDD5095936 #1 _____ ~IR -ACDEFLNOPSTVY? YYYYY
+TDD-5095950 attempt: 0 QUIRK Y Y Y Y Y
+TDD11479690 #5 S____ ~CIT -ADEFLNOPRVY? nnYnY
+TDD-11479563 attempt: 4 QUIRK n n Y n Y
+TDD1294940 > * 5
+TDD-1190246 questioning: stick
+TDD4735037 #5 S_I_K ~CT -ADEFLNOPQRUVY? YYYYY
+TDD-4839810 attempt: 4 STICK Y Y Y Y Y
+TDD3359625 📋> Daily Octordle #1432
+TDD-3359713 📋> 🔟3️⃣
+TDD-111 📋> 9️⃣4️⃣
+TDD-7 📋> 🕚8️⃣
+TDD-2 📋> 6️⃣7️⃣
+TDD815805 📋> Score: 58
+TDD-552172 📋> ␚
+TDD-263515 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1432\n\ud83d\udd1f3\ufe0f\u20e3\n9\ufe0f\u20e34\ufe0f\u20e3\n\ud83d\udd5a8\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nScore: 58"}
+TDD960 result: "Daily Octordle #1432\n\ud83d\udd1f3\ufe0f\u20e3\n9\ufe0f\u20e34\ufe0f\u20e3\n\ud83d\udd5a8\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nScore: 58"
+TDD373445 📆 2025-12-26 ? 
