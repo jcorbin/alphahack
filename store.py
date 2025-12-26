@@ -262,6 +262,8 @@ def matcher(pat: str|re.Pattern[str]):
         return Matcher(pat, then)
     return inner
 
+# TODO rebase over PromptUI.Arguable
+
 OrderLogsBy = Literal['mtime','name']
 
 class StoredLog:
@@ -293,7 +295,8 @@ class StoredLog:
                 ent.write(f'w/ {given_input!r}')
             st = make_oneshot(st, given_input)
 
-        return ui.run(st)
+        with self:
+            return ui.run(st)
 
     dt_fmt: str = '%Y-%m-%dT%H:%M:%S%Z'
     default_site: str = ''
@@ -335,6 +338,19 @@ class StoredLog:
             'debug': self.do_debug,
         })
 
+    def __enter__(self):
+        # TODO log file handling here?
+        return self
+
+    def __exit__(
+        self,
+        exc_type: type[BaseException] | None,
+        exc: BaseException | None,
+        exc_tb: TracebackType | None,
+    ):
+        # TODO log file handling here?
+        pass
+
     @property
     def expire(self) -> datetime.datetime|None:
         return None
@@ -347,6 +363,13 @@ class StoredLog:
         '''
         present puzzle site hyperlink... or "copy" to clipboard
         '''
+
+        # TODO if ui.tokens -> set and log?
+        #     site = next(tokens, None)
+        #     if site:
+        #         self.site = site
+        #         ui.log(f'site: {self.site}')
+
         label = self.name
         url = self.site
         if '://'not in url:
@@ -390,6 +413,7 @@ class StoredLog:
 
     @deprecated('use .review_prompt directly')
     def review(self, ui: PromptUI) -> PromptUI.State|None:
+        # TODO maybe finish like square
         return self.review_prompt(ui)
 
     @deprecated('use .review_prompt.handle directly')
@@ -428,6 +452,10 @@ class StoredLog:
         return self.__class__.log_file
 
     def finalize(self, ui: PromptUI):
+        # TODO mostly obsoletes branches below `not self.stored` like the
+        #      dirty branch, since there's (no easy?) path to a actively
+        #      iterating on a stored session
+        # if self.ephemeral:
         if self.stored and self.ephemeral:
             return self.cont_rep(ui).restart(
                 ui,
@@ -441,6 +469,8 @@ class StoredLog:
         if not self.stored:
             return self.store
 
+        # TODO zombie branch; not provably dead, but in practice we don't
+        #      open stored log for appending
         if self.dirty:
             with git_txn(f'{self.name} {self.puzzle_id} result', ui=ui) as txn:
                 txn.add(self.log_file)
@@ -778,6 +808,13 @@ class StoredLog:
         matchers: list[Callable[[Self, float, str], bool]] = []
         matchers.append(match_session)
 
+        # TODO matcher to rehydrate dev clipboard
+        # self.log(f'pasted: {json.dumps({
+        #     "subject": subject,
+        #     "method": method,
+        #     "content": content,
+        # })}')
+
         for prop in dir(self):
             if prop.startswith('_'): continue
             val = cast(object, getattr(self.__class__, prop, None))
@@ -823,7 +860,9 @@ class StoredLog:
             self.__init__()
         if log_file and os.path.exists(log_file):
             with open(log_file, 'r') as f:
-                for _ in self.load(ui, f): pass
+                for _ in self.load(ui, f):
+                    # TODO or do we match pasted log here?
+                    pass
         self.loaded = True
         self.log_file = log_file
 
@@ -889,7 +928,7 @@ class StoredLog:
             return None
         return choice.path
 
-    def __call__(self, ui: PromptUI) -> PromptUI.State|None:
+    def __call__(self, ui: PromptUI) -> 'PromptUI.State|None':
         spec_match = re.fullmatch(r'''(?x)
                                   (?P<puzzle_id> .*? )
                                   :
@@ -898,7 +937,7 @@ class StoredLog:
         if spec_match:
             puzzle_id = str(spec_match[1])
             action = str(spec_match[2])
-            found_log_file = self.find_prior_log(ui, puzzle_id)
+            found_log_file = self.find_prior_log(ui, puzzle_id=puzzle_id)
             if not found_log_file:
                 raise StopIteration
 
@@ -1321,6 +1360,8 @@ class StoredLog:
 
         head_id = self.report_header(desc='')
         note_id = self.report_note(desc='')
+
+        # TODO factor def rep_lines(lines: Iterable[str]) -> Generator[str] out of below
 
         def rep(line: str) -> Iterable[str]|None:
             if line.startswith(head_id):
