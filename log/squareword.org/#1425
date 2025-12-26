@@ -1,0 +1,104 @@
+T298.24520878802286 now: 2025-12-26T09:28:18EST
+TD57 site: squareword.org
+TDD-21 wordlist: nwl2023.txt
+TDD6893832  ...
+TDD-5165820 🧩  ? #1425
+TDD-1727809 puzzle_id: #1425
+TDD1199424 > *
+TDD2400403 try? 1
+TDD-3599848 questioning: ["anise", "#5"]
+T2.9086985909962095 now: 2025-12-26T09:41:48EST
+TD92 questioning: ["anise", "#5"]
+TDD9132694 #1 <IndexError>  📋 "anise" ? ____E ~ E
+TDD-9132224 attempt 0 ANISE n n n n Y
+TDD2983085 #2 <IndexError>  📋 "anise" ? _____ ~ E
+TDD-2983413 attempt 1 ANISE n n n n m
+TDD2799669 #3 <IndexError>  📋 "anise" ? A____
+TDD-2799649 attempt 2 ANISE Y n n n n
+TDD1783825 #4 <IndexError>  📋 "anise" ? ___SE
+TDD-1783877 attempt 3 ANISE n n n Y Y
+TDD2799173 #5 <IndexError>  📋 "anise" ? _____ ~ E
+TDD-2799092 attempt 4 ANISE n n n n m
+TDD487742 ? 
+TDD-487743 question done
+TDD3935582 > *
+TDD-1912344 try? 1
+TDD-2023164 questioning: ["rouse", "#4"]
+TDD5639996 #1 ____E -AINS  📋 "rouse" ? ____E ~ ER
+TDD-5640071 attempt 0 ROUSE m n n n Y
+TDD4199045 #2 _____ ~E -AINS  📋 "rouse" ? R____ ~ ERU
+TDD-4199017 attempt 1 ROUSE Y n m n m
+TDD4615165 #3 A____ -EINS  📋 "rouse" ? A____ ~ ROU
+TDD-4615206 attempt 2 ROUSE m m m n n
+TDD2919917 #4 ___SE -AIN  📋 "rouse" ? _O_SE
+TDD-2919877 attempt 3 ROUSE n Y n Y Y
+TDD4183205 #5 _____ ~E -AINS  📋 "rouse" ? _____ ~ ER
+TDD-4183211 attempt 4 ROUSE m n n n m
+TDD751548 ? 
+TDD-751651 question done
+TDD46999869 > *
+TDD-46377871 questioning: ["amour", "#3"]
+TDD10052186 #1 ____E ~R -AINOSU  📋 "amour" ? ____E ~ ER
+TDD-10674067 attempt 0 AMOUR n n n n m
+TDD3158953 #2 R____ ~EU -AINOS  📋 "amour" ? R___R ~ EU
+TDD-3159058 attempt 1 AMOUR n n n m Y
+TDD990987 #3 A____ ~ORU -EINS  📋 "amour" ? /it
+TDD-990895 attempt 2 AMOUR Y Y Y Y Y
+TDD1728359 #4 _O_SE -AINRU  📋 "amour" ? .
+TDD-1728356 attempt 3 AMOUR n n n n n
+TDD807340 #5 _____ ~ER -AINOSU  📋 "amour" ? .
+TDD-807347 attempt 4 AMOUR n n n n m
+TDD151157 ? 
+TDD-151308 question done
+TDD639656 > *
+TDD1344003 try? 1
+TDD-1983512 questioning: ["ruler", "#2"]
+TDD5895506 #1 ____E ~R -AIMNOSU  📋 "ruler" ? ____E ~ ER
+TDD-5895592 attempt 0 RULER m n n m m
+TDD1431440 #2 R___R ~EU -AIMNOS  📋 "ruler" ? /it
+TDD-1431388 attempt 1 RULER Y Y Y Y Y
+TDD1375576 #4 _O_SE -AIMNORU  📋 "ruler" ? .
+TDD-1375628 attempt 3 RULER n n n n n
+TDD3360046 #5 _____ ~ER -AIMNOSU  📋 "ruler" ? ___E_ ~ ER
+TDD-3359896 attempt 4 RULER m n n Y m
+TDD206821 ? 
+TDD-207061 question done
+TDD1096116 > *
+TDD6503764 try? 1
+TDD-7599677 questioning: ["there", "#1"]
+TDD2686862 #1 ____E ~R -AILMNOSU  📋 "there" ? /it
+TDD-2686973 attempt 0 THERE Y Y Y Y Y
+TDD2647948 #4 _O_SE -AEILMNORU  📋 "there" ? .
+TDD-2647930 attempt 3 THERE n n n n Y
+TDD4327711 #5 ___E_ ~R -AILMNOSU  📋 "there" ? T_EE_ ~ R
+TDD-4327703 attempt 4 THERE Y n Y m n
+TDD223279 ? 
+TDD-223370 question done
+TDD695732 > *
+TDD415915 questioning: ["copse", "#4"]
+TDD2704620 #4 _O_SE -AHILMNORTU  📋 "copse" ? /it
+TDD-3816194 attempt 3 COPSE Y Y Y Y Y
+TDD1511036 #5 T_EE_ ~R -AHILMNOSU  📋 "copse" ? .
+TDD-1511051 attempt 4 COPSE n n n n n
+TDD183979 ? 
+TDD-184048 question done
+TDD479970 > *
+TDD265963 questioning: ["treed", "#5"]
+TDD2675485 #5 T_EE_ ~R -ACEHILMNOPSU  📋 "treed" ? /it
+TDD-3421350 attempt 4 TREED Y Y Y Y Y
+TDD1919926 ? 
+TDD-1920007 question done
+TDD4791771 📋> squareword.org 1425: 7 guesses
+TDD-4791797 📋> 
+TDD-78 📋> 🟩🟩🟩🟩🟩
+TDD-7 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟩🟨🟩🟩
+TDD0 📋> 🟩🟨🟩🟩🟨
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD479318 📋> #squareword #squareword1425
+TDD-231310 📋> ␚
+TDD-247900 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1425: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1425"}
+TDD622 result: "squareword.org 1425: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1425"
+TDD278247 📆 2025-12-26 ? 
