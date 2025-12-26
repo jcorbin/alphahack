@@ -1213,15 +1213,6 @@ class SpaceWord(StoredLog):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
                 match = re.match(r'''(?x)
-                    num_letters :
-                    \s+
-                    (?P<n> \d+ )
-                    $''', rest)
-                if match:
-                    self.set_num_letters(ui, int(match[1]))
-                    continue
-
-                match = re.match(r'''(?x)
                     at :
                     \s+ (?P<x> \d+ )
                     \s+ (?P<y> \d+ )
@@ -1243,6 +1234,10 @@ class SpaceWord(StoredLog):
     def set_num_letters(self, ui: PromptUI, n: int):
         ui.log(f'num_letters: {n}')
         self.num_letters = n
+
+    @matcher(r'''(?x) num_letters : \s+ (?P<n> \d+ ) $''')
+    def load_num_letters(self, _t: float, m: re.Match[str]):
+        self.num_letters = int(m[1])
 
     @override
     def startup(self, ui: PromptUI):
