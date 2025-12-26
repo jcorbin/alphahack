@@ -1,0 +1,72 @@
+T586.4889184350031 now: 2025-12-26T09:12:21EST
+TD54 site: dontwordle.com
+TDD-22 wordlist: nwl2023.txt
+TDD4535115  ...
+TDD-1990884 1> * -bot 10
+TDD1151466 ? 6
+TDD2200440 📋 "stare" ? nnMnY
+TDD-5895598 tried: STARE n n m n Y
+TDD1144599 2> undo
+TDD-1144976 undo
+TDD6462285 1> *
+TDD2545716 ? 5
+TDD-2960637 📋 "sulus" ? nnnnn
+TDD-6047375 tried: SULUS n n n n n
+TDD856660 2> *
+TDD2718766 ? 2
+TDD1495565 📋 "kooky" ? nnnnn
+TDD-5070947 tried: KOOKY n n n n n
+TDD599544 3> *
+TDD1128648 ? 1
+TDD2360893 📋 "bifid" ? nnnnn
+TDD-4088944 tried: BIFID n n n n n
+TDD2702633 4> *
+TDD3080097 ? 1
+TDD3921645 📋 "phpht" ? nnnYn
+TDD-9704446 tried: PHPHT n n n Y n
+TDD1654870 5> undo
+TDD-1654997 undo
+TDD3855971 4> *
+TDD-1888098 ? 1
+TDD4160313 📋 "crwth" ? YnnnM
+TDD-6128135 tried: CRWTH Y n n n m
+TDD878905 5> undo
+TDD-878965 undo
+TDD3503749 4> *
+TDD-839873 📋 "phpht" ? ␚
+TDD-2663947 <EOF>
+TDD9864245 4> *
+TDD991444 📋 "phpht" ? ␚
+TDD-10855693 <EOF>
+TDD5976172 4> * -san
+TDD-3696822 4> * -sans
+TDD42025264 ? ␚
+TDD-44304604 <EOF>
+TDD544150 4> *
+TDD1503309 📋 "phpht" ? n
+TDD-1255387 📋 "phpht" ? ␚
+TDD-792079 <EOF>
+TDD1767688 4> * -sans 
+TDD10360668 ? ␚
+TDD-12128357 <EOF>
+TDD5007367 4> * -sans :v [ae]
+TDD3024392 ? 2
+TDD-2911310 📋 "phpht" ? nnnYn
+TDD-5120323 tried: PHPHT n n n Y n
+TDD1319135 5> *
+TDD-262818 ? 1
+TDD3431192 📋 "cache" ? it
+TDD-4487533 tried: CACHE Y Y Y Y Y
+TDD2880185 📋> Don't Wordle 1312 - WORDLED
+TDD-2880298 📋> I must admit that I Wordled!
+TDD-67 📋> ⬜⬜⬜⬜⬜4173
+TDD-5 📋> ⬜⬜⬜⬜⬜1848
+TDD-1 📋> ⬜⬜⬜⬜⬜579
+TDD1 📋> ⬜⬜⬜🟩⬜4
+TDD0 📋> 🟩🟩🟩🟩🟩0
+TDD-2 📋> ⬛⬛⬛⬛⬛
+TDD367415 📋> Undos used: 3
+TDD-102773 📋> ␚
+TDD-264530 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1312 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4173\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1848\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c579\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c4\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 3"}
+TDD716 result: "Don't Wordle 1312 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4173\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1848\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c579\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c4\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 3"
+TDD414001 📆 2025-12-26 ? 
