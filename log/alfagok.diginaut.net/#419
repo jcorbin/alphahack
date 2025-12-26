@@ -1,0 +1,55 @@
+T5.492540332023054 now: 2025-12-26T09:02:40EST
+TD59 site: alfagok.diginaut.net
+TDD367832 loaded 399712 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1140 words excluded) asof a75c14475ca48a59febc6c8fb9699d328ebdaecc
+TDD4287066  ...
+TDD353577 [0 : 199835 : 399712] lijm? b
+TDD-5008148 progress: -1 199835 
+TDD1654663 [0 : 99758 : 199835] ex? b
+TDD-1654889 progress: -1 99758 
+TDD1735782 [0 : 49849 : 99758] boks? b
+TDD-1735826 progress: -1 49849 
+TDD1543397 [0 : 24910 : 49849] bad? a
+TDD-1543367 progress: 1 24910 
+TDD1575451 [24911 : 37364 : 49849] bescherm? a
+TDD-1575447 progress: 1 37364 
+TDD1760047 [37365 : 43070 : 49849] bij? b
+TDD-1760038 progress: -1 43070 
+TDD2191935 [37365 : 39999 : 43070] beurs? b
+TDD-2191949 progress: -1 39999 
+TDD2119871 [37365 : 38202 : 39999] best? b
+TDD-2119862 progress: -1 38202 
+TDD1711747 [37365 : 37752 : 38202] beslissing? a
+TDD-1711777 progress: 1 37752 
+TDD1615597 [37753 : 37977 : 38202] bespaar? a
+TDD-1615573 progress: 1 37977 
+TDD1807355 [37978 : 38090 : 38202] bespot? a
+TDD-1807343 progress: 1 38090 
+TDD1727739 [38091 : 38138 : 38202] besproei? b
+TDD-1727745 progress: -1 38138 
+TDD1631426 [38091 : 38106 : 38138] bespreek? a
+TDD-1631437 progress: 1 38106 
+TDD1752297 [38107 : 38117 : 38138] besprek? a
+TDD-1752293 progress: 1 38117 
+TDD1671296 [38118 : 38127 : 38138] besprenkel? b
+TDD-1671271 progress: -1 38127 
+TDD1751918 [38118 : 38123 : 38127] bespreking? b
+TDD-1751976 progress: -1 38123 
+TDD2575706 [38118 : 38120 : 38123] besprekende? b
+TDD-2575674 progress: -1 38120 
+TDD1567996 [38118 : 38119 : 38120] besprekend? b
+TDD-1567996 progress: -1 38119 
+TDD2312059 [38118 : 38118 : 38119] bespreken? it
+TDD-2312064 progress: 0 38118 
+TDD-117 [38118 : 38118 : 38119] <Done>.
+TDD2895713 📋> 🧩 Puzzel #419
+TDD-2895633 📋> 🤔 19 gokken
+TDD-86 📋> ⏱️ 33s
+TDD495437 📋> 🔗 alfagok.diginaut.net
+TDD-231369 📋> ␚
+TDD-263942 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #419\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 33s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD362 result: "\ud83e\udde9 Puzzel #419\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 33s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-491 result puzzle: 419
+TDD-7 result guesses: 19
+TDD-2 result time: 33s
+TDD0 result link: alfagok.diginaut.net
+TDD432865 📆 2025-12-26 ? 
