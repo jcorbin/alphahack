@@ -18,7 +18,7 @@ from typing import Callable, Literal, Never, Self, cast, final, override
 flatten = chain.from_iterable
 
 from sortem import Chooser, MatchPat, Possible, Sample, RandScores, match_show, numbered_item, wrap_item
-from store import StoredLog
+from store import StoredLog, matcher
 from strkit import MarkedSpec, block_lines, spliterate
 
 from ui import PromptUI
@@ -359,17 +359,6 @@ class Board:
         return cls(size, grid=l[:n], letters=l[n:])
 
     def load_line(self, line: str):
-        match = re.match(r'''(?x)
-            letters :
-            \s+
-            \|
-            (?P<letters> .* )
-            \|
-            $''', line)
-        if match:
-            self.letters = list(match[1])
-            return True
-
         match = re.match(r'''(?x)
             change :
             \s+ (?P<i> \d+ )
@@ -1469,6 +1458,10 @@ class SpaceWord(StoredLog):
                 self.board.letters.extend(addlet)
                 ui.log(f'letters: |{"".join(self.board.letters)}|')
                 ui.print(f'- added letters: {" ".join(addlet)}')
+
+        @matcher(r'''(?x) letters : \s+ \| (?P<letters> .* ) \| $''')
+        def load_letters(self, _t: float, m: re.Match[str]):
+            self.board.letters = list(m[1])
 
         def do_span(self, ui: PromptUI):
             '''
