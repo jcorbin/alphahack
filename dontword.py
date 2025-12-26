@@ -109,14 +109,6 @@ class DontWord(StoredLog):
             orig_rest = rest
             with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
                 match = re.match(r'''(?x)
-                    tried :
-                    \s+ (?P<attempt> .+ )
-                    $''', rest)
-                if match:
-                    self.apply_tried(Attempt.parse(match[1], expected_size=self.size))
-                    continue
-
-                match = re.match(r'''(?x)
                     undo
                     \s* ( .* )
                     $''', rest)
@@ -240,6 +232,10 @@ class DontWord(StoredLog):
 
     def apply_tried(self, at: Attempt):
         self.tried.append(self.word.collect(at))
+
+    @matcher(r'''(?x) tried : \s+ (?P<attempt> .+ ) $''')
+    def load_tried(self, _t: float, m: re.Match[str]):
+        self.apply_tried(Attempt.parse(m[1], expected_size=self.size))
 
     def reset_word(self):
         self.tried = []
