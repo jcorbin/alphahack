@@ -264,15 +264,6 @@ SolverMaker = Callable[[PromptUI.Tokens], Solver]
 class SolverHarness:
     Arguable = Callable[[PromptUI.Tokens], Solver]
 
-    @classmethod
-    def stored(cls,
-               name: str,
-               impl: type[StoredLog],
-               ):
-        def wrapper(mak: SolverHarness.Arguable):
-            return cls(name, make=mak)
-        return wrapper
-
     def __init__(self,
                  name: str,
                  make: 'SolverHarness.Arguable',
@@ -308,60 +299,53 @@ def run_solver(name: str, make: Callable[[PromptUI.Tokens, str|None], Solver], u
 def load_solvers() -> Generator[SolverHarness]:
     from binartic import Search as Binartic
 
-    @SolverHarness.stored('alfa', Binartic)
     def make_alfa(_tokens: PromptUI.Tokens):
         alfa = Binartic()
         alfa.site = 'alfagok.diginaut.net'
         alfa.wordlist_file = 'opentaal-wordlist.txt'
         return alfa
-    yield make_alfa
+    yield SolverHarness('alfa', make_alfa)
 
-    @SolverHarness.stored('alpha', Binartic)
     def make_alpha(_tokens: PromptUI.Tokens):
         alpha = Binartic()
         alpha.site = 'alphaguess.com'
         alpha.wordlist_file = 'nwl2023.txt'
         return alpha
-    yield make_alpha
+    yield SolverHarness('alpha', make_alpha)
 
     from square import Search as Square
 
-    @SolverHarness.stored('square', Square)
     def make_square(_tokens: PromptUI.Tokens):
         square = Square()
         square.wordlist_file = 'nwl2023.txt'
         return square
-    yield make_square
+    yield SolverHarness('square', make_square)
 
     from hurdle import Search as Hurdle
 
-    @SolverHarness.stored('hurdle', Hurdle)
     def make_hurdle(_tokens: PromptUI.Tokens):
         hurdle = Hurdle()
         hurdle.wordlist_file = 'nwl2023.txt'
         return hurdle
-    yield make_hurdle
+    yield SolverHarness('hurdle', make_hurdle)
 
     from dontword import DontWord
 
-    @SolverHarness.stored('dontword', DontWord)
     def make_dontword(_tokens: PromptUI.Tokens):
         dontword = DontWord()
         dontword.wordlist_file = 'nwl2023.txt'
         return dontword
-    yield make_dontword
+    yield SolverHarness('dontword', make_dontword)
 
     from semantic import Search as Semantic
 
-    @SolverHarness.stored('cemantle', Semantic)
     def make_cemantle(tokens: PromptUI.Tokens):
         cem = Semantic()
         cem.full_auto = False # TODO make -no-auto work True
         cem.from_tokens(tokens)
         return cem
-    yield make_cemantle
+    yield SolverHarness('cemantle', make_cemantle)
 
-    @SolverHarness.stored('cemantix', Semantic)
     def make_cemantix(tokens: PromptUI.Tokens):
         cex = Semantic()
         cex.site = 'cemantix.certitudes.org'
@@ -371,16 +355,15 @@ def load_solvers() -> Generator[SolverHarness]:
         cex.full_auto = False # TODO make -no-auto work True
         cex.from_tokens(tokens)
         return cex
-    yield make_cemantix
+    yield SolverHarness('cemantix', make_cemantix)
 
     from spaceword import SpaceWord
 
-    @SolverHarness.stored('space', SpaceWord)
     def make_space(_tokens: PromptUI.Tokens):
         space = SpaceWord()
         space.wordlist_file = 'nwl2023.txt'
         return space
-    yield make_space
+    yield SolverHarness('space', make_space)
 
     # spaceweek = "./spaceword.py --wordlist nwl2023.txt spaceword_weekly.log"
 
