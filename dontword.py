@@ -104,23 +104,6 @@ class DontWord(StoredLog):
         self.result = Result.parse(txt)
 
     @override
-    def load(self, ui: PromptUI, lines: Iterable[str]):
-        for t, rest in super().load(ui, lines):
-            orig_rest = rest
-            with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
-                match = re.match(r'''(?x)
-                    undo
-                    \s* ( .* )
-                    $''', rest)
-                if match:
-                    rest = match[1]
-                    assert rest == ''
-                    self.apply_undo()
-                    continue
-
-                yield t, rest
-
-    @override
     def startup(self, ui: PromptUI):
         if not self.wordlist_file:
             with ui.input(f'📜 {self.default_wordlist} ? ') as tokens:
@@ -175,6 +158,10 @@ class DontWord(StoredLog):
 
     def record_undo(self, ui: PromptUI):
         ui.log('undo')
+        self.apply_undo()
+
+    @matcher(r'''(?x) undo \s* ( .* ) $''')
+    def load_undo(self, _t: float, _m: re.Match[str]):
         self.apply_undo()
 
     def word_letters(self) -> Generator[str]:
