@@ -1241,19 +1241,6 @@ class SpaceWord(StoredLog):
                     continue
 
                 match = re.match(r'''(?x)
-                    wordlist :
-                    \s+
-                    (?P<wordlist> [^\s]+ )
-                    \s* ( .* )
-                    $''', rest)
-                if match:
-                    wordlist, rest = match.groups()
-                    assert rest == ''
-                    self.wordlist_file = wordlist
-                    self.given_wordlist = True
-                    continue
-
-                match = re.match(r'''(?x)
                     reject
                     \s+
                     sid : (?P<sid> [^\s]+ )
@@ -1344,6 +1331,11 @@ class SpaceWord(StoredLog):
             return self.EditLetters(self.board, self.num_letters, self.play)
 
         return self.play
+
+    @matcher(r'''(?x) wordlist : \s+ (?P<wordlist> [^\s]+ ) $''')
+    def load_wordlist(self, _t: float, m: re.Match[str]):
+        self.wordlist_file = m[1]
+        self.given_wordlist = True
 
     @override
     def expired_prompt_mess(self, _ui: PromptUI):
