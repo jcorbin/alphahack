@@ -268,24 +268,20 @@ class SolverHarness:
     def stored(cls,
                name: str,
                impl: type[StoredLog],
-               site: str|None = None,
                log_file: str|None = None,
                ):
         def wrapper(mak: SolverHarness.Arguable):
             return cls(name,
-                       site or impl.default_site,
                        log_file or impl.log_file,
                        make=mak)
         return wrapper
 
     def __init__(self,
                  name: str,
-                 site: str,
                  log_file: str,
                  make: 'SolverHarness.Arguable',
                  ):
         self.name = name
-        self.site = site
         self.log_file = log_file
         self.make = make
 
@@ -299,7 +295,6 @@ class SolverHarness:
                  tokens: PromptUI.Tokens,
                  log_file: str|None = None) -> Solver:
         solver = self.make(tokens)
-        solver.site = self.site
         solver.log_file = log_file or self.log_file
         return solver
 
@@ -317,16 +312,18 @@ class SolverHarness:
 def load_solvers() -> Generator[SolverHarness]:
     from binartic import Search as Binartic
 
-    @SolverHarness.stored('alfa', Binartic, site='alfagok.diginaut.net')
+    @SolverHarness.stored('alfa', Binartic)
     def make_alfa(_tokens: PromptUI.Tokens):
         alfa = Binartic()
+        alfa.site = 'alfagok.diginaut.net'
         alfa.wordlist_file = 'opentaal-wordlist.txt'
         return alfa
     yield make_alfa
 
-    @SolverHarness.stored('alpha', Binartic, site='alphaguess.com')
+    @SolverHarness.stored('alpha', Binartic)
     def make_alpha(_tokens: PromptUI.Tokens):
         alpha = Binartic()
+        alpha.site = 'alphaguess.com'
         alpha.wordlist_file = 'nwl2023.txt'
         return alpha
     yield make_alpha
@@ -368,11 +365,10 @@ def load_solvers() -> Generator[SolverHarness]:
         return cem
     yield make_cemantle
 
-    @SolverHarness.stored('cemantix', Semantic,
-                          site='cemantix.certitudes.org',
-                          log_file='cemantix.log')
+    @SolverHarness.stored('cemantix', Semantic, log_file='cemantix.log')
     def make_cemantix(tokens: PromptUI.Tokens):
         cex = Semantic()
+        cex.site = 'cemantix.certitudes.org'
         cex.lang = 'French'
         cex.pub_tzname = 'CET'
         cex.full_auto = False # TODO make -no-auto work True
@@ -482,6 +478,10 @@ solver_harness = tuple(load_solvers())
 solver_prior = tuple(
     harness.make(PromptUI.Tokens())
     for harness in solver_harness)
+solver_site = {
+    sol.name: prior.site
+    for sol, prior in zip(solver_harness, solver_prior)}
+
 solver_notes = tuple(
     solver.note_slug[0]
     for solver in solver_prior)
@@ -932,7 +932,8 @@ class Meta(Arguable):
         show known solvers
         '''
         for n, (harness, note) in enumerate(zip(solver_harness, solver_notes), 1):
-            ui.print(f'{n}. {harness} site:{harness.site!r} slug:{note!r}')
+            site = solver_site[harness.name]
+            ui.print(f'{n}. {harness} site:{site!r} slug:{note!r}')
 
     def read_status(self, ui: PromptUI, verbose: bool=False):
 
