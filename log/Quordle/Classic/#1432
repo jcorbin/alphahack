@@ -1,0 +1,83 @@
+T1022.3890245439834 now: 2025-12-26T09:19:37EST
+TD86 site: m-w.com/games/quordle
+TDD-36 wordlist: nwl2023.txt
+TDD-41 num_words: 4
+TDD4862257  ...
+TDD-3486251 > * 1
+TDD1720012 ? 4
+TDD-3095890 questioning: rapes
+TDD4431911 #1 _____? MMMnM
+TDD-4431874 attempt: 0 RAPES m m m n m
+TDD1303549 #2 _____? nnnnM
+TDD-1303537 attempt: 1 RAPES n n n n m
+TDD1464198 #3 _____? nnnnn
+TDD-1464136 attempt: 2 RAPES n n n n n
+TDD1615384 #4 _____? nMnnn
+TDD-1615378 attempt: 3 RAPES n m n n n
+TDD1559428 > * 1
+TDD4248837 ? 5
+TDD-5808359 questioning: grasp
+TDD5143457 #1 _____ ~APRS -E? nMMMY
+TDD-5143420 attempt: 0 GRASP n m m m Y
+TDD1591302 #2 _____ ~S -AEPR? nnnMn
+TDD-1591313 attempt: 1 GRASP n n n m n
+TDD1527747 #3 _____ -AEPRS? nnnnn
+TDD-1527676 attempt: 2 GRASP n n n n n
+TDD1343285 #4 _____ ~A -EPRS? nnMnn
+TDD-1343296 attempt: 3 GRASP n n m n n
+TDD1631703 > * 1
+TDD1175988 ? 1
+TDD-2807739 questioning: strap
+TDD4720198 #1 ____P ~ARS -EG? YYYYY
+TDD-4720167 attempt: 0 STRAP Y Y Y Y Y
+TDD3863577 #2 _____ ~S -AEGPR? Ynnnn
+TDD-3863558 attempt: 1 STRAP Y n n n n
+TDD1334987 #3 _____ -AEGPRS? nnnnn
+TDD-1334992 attempt: 2 STRAP n n n n n
+TDD1888227 #4 _____ ~A -EGPRS? nnnYn
+TDD-1888228 attempt: 3 STRAP n n n Y n
+TDD2638974 > * 4
+TDD-1327152 ? 1
+TDD-1311901 questioning: nodal
+TDD4039646 #2 S____ -AEGPRT? nnnnn
+TDD-4039617 attempt: 1 NODAL n n n n n
+TDD2264021 #3 _____ -AEGPRST? MnnnM
+TDD-2264010 attempt: 2 NODAL m n n n m
+TDD2535504 #4 ___A_ -EGPRST? YYMYn
+TDD-2535468 attempt: 3 NODAL Y Y m Y n
+TDD3415493 > * 4
+TDD-3322959 questioning: nomad
+T1122.8228477020166 now: 2025-12-26T09:21:17EST
+TD72 questioning: nomad
+TDD5293376 #2 S____ -ADEGLNOPRT? nnnnn
+TDD-5293283 attempt: 1 NOMAD n n n n n
+TDD2039837 #3 _____ ~LN -ADEGOPRST? Mnnnn
+TDD-2039746 attempt: 2 NOMAD m n n n n
+TDD1975500 #4 NO_A_ ~D -EGLPRST? YYYYY
+TDD-1975584 attempt: 3 NOMAD Y Y Y Y Y
+TDD1688147 > * 2
+TDD-464671 ? 1
+TDD-1223439 questioning: shuck
+TDD5975587 #2 S____ -ADEGLMNOPRT? YnYnn
+TDD-5975609 attempt: 1 SHUCK Y n Y n n
+TDD1783961 #3 _____ ~LN -ADEGMOPRST? nnYnY
+TDD-1783964 attempt: 2 SHUCK n n Y n Y
+TDD2592176 > * 2
+TDD-2499615 questioning: squib
+TDD6173727 #2 S_U__ -ACDEGHKLMNOPRT? YYYYY
+TDD-6266297 attempt: 1 SQUIB Y Y Y Y Y
+TDD3023808 #3 __U_K ~LN -ACDEGHMOPRST? nnYnn
+TDD-3023801 attempt: 2 SQUIB n n Y n n
+TDD1279386 > * 3
+TDD-1181578 questioning: flunk
+TDD3996142 #3 __U_K ~LN -ABCDEGHIMOPQRST? YYYYY
+TDD-4093970 attempt: 2 FLUNK Y Y Y Y Y
+TDD4497416 📋> 🙂 Daily Quordle 1432
+TDD-4497484 📋> 3️⃣7️⃣
+TDD-85 📋> 8️⃣5️⃣
+TDD-4 📋> m-w.com/games/quordle/
+TDD446321 📋> 
+TDD-102308 📋> ␚
+TDD-343934 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1432\n3\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD392 result: "\ud83d\ude42 Daily Quordle 1432\n3\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD343751 📆 2025-12-26 ? 
