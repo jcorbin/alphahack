@@ -210,13 +210,12 @@ def part_seq[T](sq: Sequence[T], token: T):
         if cur:
             yield tuple(cur)
 
-@final
 class Matcher[C]:
     type Then[T] = Callable[[T, float, re.Match[str]], None]
 
     def __init__(self, pat: re.Pattern[str], then: Then[C]):
-        self.pat = pat
-        self.then = then
+        self.pat: re.Pattern[str] = pat
+        self.then: Matcher.Then[C] = then
 
     def __call__(self, ctx: C, t: float, rest: str):
         match = self.pat.match(rest)
