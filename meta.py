@@ -313,22 +313,6 @@ def load_solvers() -> Generator[SolverHarness]:
         return alpha
     yield SolverHarness('alpha', make_alpha)
 
-    from square import Search as Square
-
-    def make_square(_tokens: PromptUI.Tokens):
-        square = Square()
-        square.wordlist_file = 'nwl2023.txt'
-        return square
-    yield SolverHarness('square', make_square)
-
-    from hurdle import Search as Hurdle
-
-    def make_hurdle(_tokens: PromptUI.Tokens):
-        hurdle = Hurdle()
-        hurdle.wordlist_file = 'nwl2023.txt'
-        return hurdle
-    yield SolverHarness('hurdle', make_hurdle)
-
     from dontword import DontWord
 
     def make_dontword(_tokens: PromptUI.Tokens):
@@ -337,35 +321,13 @@ def load_solvers() -> Generator[SolverHarness]:
         return dontword
     yield SolverHarness('dontword', make_dontword)
 
-    from semantic import Search as Semantic
+    from hurdle import Search as Hurdle
 
-    def make_cemantle(tokens: PromptUI.Tokens):
-        cem = Semantic()
-        cem.full_auto = False # TODO make -no-auto work True
-        cem.from_tokens(tokens)
-        return cem
-    yield SolverHarness('cemantle', make_cemantle)
-
-    def make_cemantix(tokens: PromptUI.Tokens):
-        cex = Semantic()
-        cex.site = 'cemantix.certitudes.org'
-        cex.log_file = 'cemantix.log'
-        cex.lang = 'French'
-        cex.pub_tzname = 'CET'
-        cex.full_auto = False # TODO make -no-auto work True
-        cex.from_tokens(tokens)
-        return cex
-    yield SolverHarness('cemantix', make_cemantix)
-
-    from spaceword import SpaceWord
-
-    def make_space(_tokens: PromptUI.Tokens):
-        space = SpaceWord()
-        space.wordlist_file = 'nwl2023.txt'
-        return space
-    yield SolverHarness('space', make_space)
-
-    # spaceweek = "./spaceword.py --wordlist nwl2023.txt spaceword_weekly.log"
+    def make_hurdle(_tokens: PromptUI.Tokens):
+        hurdle = Hurdle()
+        hurdle.wordlist_file = 'nwl2023.txt'
+        return hurdle
+    yield SolverHarness('hurdle', make_hurdle)
 
     from nordle import Nordle
 
@@ -410,6 +372,44 @@ def load_solvers() -> Generator[SolverHarness]:
         oc.wordlist_file = 'nwl2023.txt'
         return oc
     yield SolverHarness('octordle', make_octordle)
+
+    from square import Search as Square
+
+    def make_square(_tokens: PromptUI.Tokens):
+        square = Square()
+        square.wordlist_file = 'nwl2023.txt'
+        return square
+    yield SolverHarness('square', make_square)
+
+    from semantic import Search as Semantic
+
+    def make_cemantle(tokens: PromptUI.Tokens):
+        cem = Semantic()
+        cem.full_auto = False # TODO make -no-auto work True
+        cem.from_tokens(tokens)
+        return cem
+    yield SolverHarness('cemantle', make_cemantle)
+
+    def make_cemantix(tokens: PromptUI.Tokens):
+        cex = Semantic()
+        cex.site = 'cemantix.certitudes.org'
+        cex.log_file = 'cemantix.log'
+        cex.lang = 'French'
+        cex.pub_tzname = 'CET'
+        cex.full_auto = False # TODO make -no-auto work True
+        cex.from_tokens(tokens)
+        return cex
+    yield SolverHarness('cemantix', make_cemantix)
+
+    from spaceword import SpaceWord
+
+    def make_space(_tokens: PromptUI.Tokens):
+        space = SpaceWord()
+        space.wordlist_file = 'nwl2023.txt'
+        return space
+    yield SolverHarness('space', make_space)
+
+    # spaceweek = "./spaceword.py --wordlist nwl2023.txt spaceword_weekly.log"
 
 # TODO share base class with StoredLog
 
