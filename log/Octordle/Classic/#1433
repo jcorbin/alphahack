@@ -1,0 +1,156 @@
+T1064.5281514189992 now: 2025-12-27T09:52:10EST
+TD53 site: https://www.britannica.com/games/octordle/daily
+TDD-21 wordlist: nwl2023.txt
+TDD-27 num_words: 8
+TDD12166945  ...
+TDD-10494901 > * 1
+TDD-120161 ? 1
+TDD-1551735 questioning: nears
+TDD3055902 #1 _____? nnMnM
+TDD-3055806 attempt: 0 NEARS n n m n m
+TDD1407733 #2 _____? nnYYn
+TDD-1407728 attempt: 1 NEARS n n Y Y n
+TDD1599849 #3 _____? nnMnn
+TDD-1599832 attempt: 2 NEARS n n m n n
+TDD1591145 #4 _____? nnnnM
+TDD-1591157 attempt: 3 NEARS n n n n m
+TDD4608308 #5 _____? MnnYn
+TDD-4608372 attempt: 4 NEARS m n n Y n
+TDD3750998 #6 _____? nMnMn
+TDD-3750930 attempt: 5 NEARS n m n m n
+TDD2431499 #7 _____? nMnnM
+TDD-2431497 attempt: 6 NEARS n m n n m
+TDD1335510 #8 _____? nnnnn
+TDD-1335580 attempt: 7 NEARS n n n n n
+TDD7655056 > * 8
+TDD-2494773 ? 3
+TDD-5160240 questioning: imply
+TDD6871659 #1 _____ ~AS -ENR? Mnnnn
+TDD-6871658 attempt: 0 IMPLY m n n n n
+TDD1847564 #2 __AR_ -ENS? nnnnn
+TDD-1847490 attempt: 1 IMPLY n n n n n
+TDD1575192 #3 _____ ~A -ENRS? nnnYY
+TDD-1575257 attempt: 2 IMPLY n n n Y Y
+TDD1615622 #4 _____ ~S -AENR? nnnnn
+TDD-1615680 attempt: 3 IMPLY n n n n n
+TDD4959177 #5 ___R_ ~N -AES? nMnnn
+TDD-4959103 attempt: 4 IMPLY n m n n n
+TDD1239933 #6 _____ ~ER -ANS? nnnnn
+TDD-1239945 attempt: 5 IMPLY n n n n n
+TDD1975953 #7 _____ ~ES -ANR? MnMnn
+TDD-1975951 attempt: 6 IMPLY m n m n n
+TDD1647115 #8 _____ -AENRS? nnnnY
+TDD-1647114 attempt: 7 IMPLY n n n n Y
+TDD7983381 > * 6
+TDD-5239660 ? 3
+TDD-2743750 questioning: route
+TDD7135651 #1 _____ ~AIS -ELMNPRY? nnnYn
+TDD-7135602 attempt: 0 ROUTE n n n Y n
+TDD2135586 #2 __AR_ -EILMNPSY? MnMnn
+TDD-2135529 attempt: 1 ROUTE m n m n n
+TDD1343038 #3 ___LY ~A -EIMNPRS? nnnnn
+TDD-1343081 attempt: 2 ROUTE n n n n n
+TDD1727655 #4 _____ ~S -AEILMNPRY? nYnYn
+TDD-1727615 attempt: 3 ROUTE n Y n Y n
+TDD4919370 #5 ___R_ ~MN -AEILPSY? MYYnn
+TDD-4919395 attempt: 4 ROUTE m Y Y n n
+TDD2799471 #6 _____ ~ER -AILMNPSY? YYYYY
+TDD-2799508 attempt: 5 ROUTE Y Y Y Y Y
+TDD1943062 #7 _____ ~EIPS -ALMNRY? nnnYY
+TDD-1943169 attempt: 6 ROUTE n n n Y Y
+TDD1952192 #8 ____Y -AEILMNPRS? nnMnn
+TDD-1952160 attempt: 7 ROUTE n n m n n
+TDD5111591 > * 8
+TDD-1687780 ? ␚
+TDD-3423912 <EOF>
+TDD1999314 > * 4
+TDD-1902027 questioning: sooth
+TDD8637838 #1 ___T_ ~AIS -ELMNOPRUY? MnnYn
+TDD-8734967 attempt: 0 SOOTH m n n Y n
+TDD1479469 #2 __AR_ ~U -EILMNOPSTY? nnnnn
+TDD-1479530 attempt: 1 SOOTH n n n n n
+TDD1543612 #3 ___LY ~A -EIMNOPRSTU? nnnnn
+TDD-1543544 attempt: 2 SOOTH n n n n n
+TDD1271523 #4 _O_T_ ~S -AEILMNPRUY? YYYYY
+TDD-1271532 attempt: 3 SOOTH Y Y Y Y Y
+TDD3535142 #5 _OUR_ ~MN -AEILPSTY? nYnnn
+TDD-3535179 attempt: 4 SOOTH n Y n n n
+TDD2368123 #7 ___TE ~IPS -ALMNORUY? YnnYn
+TDD-2368122 attempt: 6 SOOTH Y n n Y n
+TDD2432010 #8 ____Y ~U -AEILMNOPRST? nnnnn
+TDD-2431981 attempt: 7 SOOTH n n n n n
+TDD2439189 > * 5
+TDD-2347481 questioning: mourn
+TDD5079692 #1 ___T_ ~AIS -EHLMNOPRUY? nnnnn
+TDD-5171401 attempt: 0 MOURN n n n n n
+TDD1423757 #2 __AR_ ~U -EHILMNOPSTY? nnMYn
+TDD-1423742 attempt: 1 MOURN n n m Y n
+TDD1223534 #3 ___LY ~A -EHIMNOPRSTU? nnnnn
+TDD-1223537 attempt: 2 MOURN n n n n n
+TDD3767834 #5 _OUR_ ~MN -AEHILPSTY? YYYYY
+TDD-3767835 attempt: 4 MOURN Y Y Y Y Y
+TDD3303274 #7 S__TE ~IP -AHLMNORUY? nnnnn
+TDD-3303274 attempt: 6 MOURN n n n n n
+TDD2327436 #8 ____Y ~U -AEHILMNOPRST? nnMnn
+TDD-2327430 attempt: 7 MOURN n n m n n
+TDD2871413 > * 7
+TDD-2779871 questioning: spite
+TDD9561286 #1 ___T_ ~AIS -EHLMNOPRUY? MnMYn
+TDD-9652814 attempt: 0 SPITE m n m Y n
+TDD1334691 #2 __AR_ ~U -EHILMNOPSTY? nnnnn
+TDD-1334711 attempt: 1 SPITE n n n n n
+TDD1399311 #3 ___LY ~A -EHIMNOPRSTU? nnnnn
+TDD-1399368 attempt: 2 SPITE n n n n n
+TDD3087544 #7 S__TE ~IP -AHLMNORUY? YYYYY
+TDD-3087531 attempt: 6 SPITE Y Y Y Y Y
+TDD1919942 #8 ____Y ~U -AEHILMNOPRST? nnnnn
+TDD-1919901 attempt: 7 SPITE n n n n n
+TDD3719489 > * 1
+TDD-3621084 questioning: vista
+TDD5290757 #1 ___T_ ~AIS -EHLMNOPRUY? YYYYY
+TDD-5389166 attempt: 0 VISTA Y Y Y Y Y
+TDD2919745 #2 __AR_ ~U -EHILMNOPSTY? nnnnM
+TDD-2919733 attempt: 1 VISTA n n n n m
+TDD2111637 #3 ___LY ~A -EHIMNOPRSTU? nnnnM
+TDD-2111650 attempt: 2 VISTA n n n n m
+TDD2902935 #8 ____Y ~U -AEHILMNOPRST? nnnnn
+TDD-2902995 attempt: 7 VISTA n n n n n
+TDD8567804 > * 8
+TDD-4304115 ? ␚
+TDD-4263790 <EOF>
+TDD1824606 > * 2
+TDD3647272 ? 12
+TDD-4712098 ? 1
+TDD-759639 questioning: guard
+TDD1279411 #2 __AR_ ~U -EHILMNOPSTVY? YYYYY
+TDD-1279444 attempt: 1 GUARD Y Y Y Y Y
+TDD3335513 #3 ___LY ~A -EHIMNOPRSTUV? nnMnM
+TDD-3335461 attempt: 2 GUARD n n m n m
+TDD4535694 #8 ____Y ~U -AEHILMNOPRSTV? nYnnn
+TDD-4535675 attempt: 7 GUARD n Y n n n
+TDD1727333 > * 3
+TDD1000954 ? 1
+TDD-2728324 questioning: badly
+TDD5056103 #3 ___LY ~AD -EGHIMNOPRSTUV? YYYYY
+TDD-5056068 attempt: 2 BADLY Y Y Y Y Y
+TDD5750696 #8 _U__Y -ADEGHILMNOPRSTV? nnnnY
+TDD-5750705 attempt: 7 BADLY n n n n Y
+TDD1399490 > * 8
+TDD5432511 ? 3
+TDD-6831868 questioning: yucky
+TDD12998992 #8 _U__Y -ABDEGHILMNOPRSTV? nYnnY
+TDD-12998823 attempt: 7 YUCKY n Y n n Y
+TDD1527237 > * 8
+TDD-1430262 questioning: fuzzy
+TDD5789015 #8 _U__Y -ABCDEGHIKLMNOPRSTV? YYYYY
+TDD-5886301 attempt: 7 FUZZY Y Y Y Y Y
+TDD3561875 📋> Daily Octordle #1433
+TDD-3561884 📋> 7️⃣8️⃣
+TDD-213 📋> 9️⃣4️⃣
+TDD-5 📋> 5️⃣3️⃣
+TDD0 📋> 6️⃣🕚
+TDD341394 📋> Score: 53
+TDD-84757 📋> ␚
+TDD-256512 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1433\n7\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e33\ufe0f\u20e3\n6\ufe0f\u20e3\ud83d\udd5a\nScore: 53"}
+TDD46 result: "Daily Octordle #1433\n7\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e33\ufe0f\u20e3\n6\ufe0f\u20e3\ud83d\udd5a\nScore: 53"
+TDD414723 📆 2025-12-27 ? 
