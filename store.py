@@ -255,6 +255,11 @@ class Matcher[C]:
             return True
         return False
 
+# class Updater[C](Matcher[C]):
+#     Extract
+#     Update
+#     pass
+
 def matcher(pat: str|re.Pattern[str]):
     if isinstance(pat, str):
         pat = re.compile(pat)

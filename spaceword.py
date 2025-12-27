@@ -18,7 +18,7 @@ from typing import Callable, Literal, Never, Self, cast, final, override
 flatten = chain.from_iterable
 
 from sortem import Chooser, MatchPat, Possible, Sample, RandScores, match_show, numbered_item, wrap_item
-from store import StoredLog
+from store import StoredLog, matcher
 from strkit import MarkedSpec, block_lines, spliterate
 
 from ui import PromptUI
@@ -357,31 +357,6 @@ class Board:
         n = size * size
         l = tuple(let.strip() for let in s)
         return cls(size, grid=l[:n], letters=l[n:])
-
-    def load_line(self, line: str):
-        match = re.match(r'''(?x)
-            letters :
-            \s+
-            \|
-            (?P<letters> .* )
-            \|
-            $''', line)
-        if match:
-            self.letters = list(match[1])
-            return True
-
-        match = re.match(r'''(?x)
-            change :
-            \s+ (?P<i> \d+ )
-            (?: \s+ (?P<let> [a-zA-Z] ) )?
-            ''', line)
-        if match:
-            i = int(match[1])
-            let = str(match[2] or '')
-            self.set(i, let)
-            return True
-
-        return False
 
     def copy(self, updates: Iterable[tuple[int, str]] = ()):
         b = Board(self.size, self.letters, self.grid)
@@ -1190,9 +1165,19 @@ class SpaceWord(StoredLog):
     def prior_result_boards(self, ui: PromptUI):
         board = Board(self.board.size)
         for line in self.prior_log_lines(ui):
-            if board.load_line(line):
-                # TODO maybe examine intermediate boards
+            # TODO need t:float, ... for matcher api
+
+            m = self.load_letters.pat.match(line)
+            if m:
+                board.letters = list(m[1])
                 continue
+
+            m = self.load_change.pat.match(line)
+            if m:
+                board.set(int(m[1]), str(m[2] or ''))
+                continue
+
+            # TODO which matcher?
             if re.match(r'(?x) result :', line):
                 yield board
 
@@ -1232,62 +1217,6 @@ class SpaceWord(StoredLog):
                 yield sid, partial(self.prior_reject_boards, sid=sid)
         yield 'all', self.prior_reject_boards
 
-    @override
-    def load(self, ui: PromptUI, lines: Iterable[str]):
-        for t, rest in super().load(ui, lines):
-            orig_rest = rest
-            with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
-                if self.board.load_line(rest):
-                    continue
-
-                match = re.match(r'''(?x)
-                    wordlist :
-                    \s+
-                    (?P<wordlist> [^\s]+ )
-                    \s* ( .* )
-                    $''', rest)
-                if match:
-                    wordlist, rest = match.groups()
-                    assert rest == ''
-                    self.wordlist_file = wordlist
-                    self.given_wordlist = True
-                    continue
-
-                match = re.match(r'''(?x)
-                    reject
-                    \s+
-                    sid : (?P<sid> [^\s]+ )
-                    \s+
-                    bone : (?P<bone> .* )
-                    $''', rest)
-                if match:
-                    self.sids.add(match[1])
-                    continue
-
-                match = re.match(r'''(?x)
-                    num_letters :
-                    \s+
-                    (?P<n> \d+ )
-                    $''', rest)
-                if match:
-                    self.set_num_letters(ui, int(match[1]))
-                    continue
-
-                match = re.match(r'''(?x)
-                    at :
-                    \s+ (?P<x> \d+ )
-                    \s+ (?P<y> \d+ )
-                    \s+ (?P<dir> [xyXY] )
-                    $''', rest)
-                if match:
-                    x = int(match[1])
-                    y = int(match[2])
-                    xy = cast(Literal['X', 'Y'], match[3].upper())
-                    self.at_cursor = x, y , xy
-                    continue
-
-                yield t, rest
-
     @property
     def wordlist(self):
         return load_wordlist(self.wordlist_file)
@@ -1295,6 +1224,10 @@ class SpaceWord(StoredLog):
     def set_num_letters(self, ui: PromptUI, n: int):
         ui.log(f'num_letters: {n}')
         self.num_letters = n
+
+    @matcher(r'''(?x) num_letters : \s+ (?P<n> \d+ ) $''')
+    def load_num_letters(self, _t: float, m: re.Match[str]):
+        self.num_letters = int(m[1])
 
     @override
     def startup(self, ui: PromptUI):
@@ -1344,6 +1277,11 @@ class SpaceWord(StoredLog):
             return self.EditLetters(self.board, self.num_letters, self.play)
 
         return self.play
+
+    @matcher(r'''(?x) wordlist : \s+ (?P<wordlist> [^\s]+ ) $''')
+    def load_wordlist(self, _t: float, m: re.Match[str]):
+        self.wordlist_file = m[1]
+        self.given_wordlist = True
 
     @override
     def expired_prompt_mess(self, _ui: PromptUI):
@@ -1739,6 +1677,14 @@ class SpaceWord(StoredLog):
 
         return srch.do_auto if srch.frontier_cap else srch
 
+    @matcher(r'''(?x)
+        reject
+        \s+ sid : (?P<sid> [^\s]+ )
+        \s+ bone : (?P<bone> .* )
+        $''')
+    def load_reject(self, _t: float, m: re.Match[str]):
+        self.sids.add(m[1])
+
     def cmd_shift(self, ui: PromptUI):
         '''
         shift the board; usage `/shift <dX> <dY>`
@@ -1793,6 +1739,18 @@ class SpaceWord(StoredLog):
         self.at_cursor = x, y, xy
         ui.log(f'at: {x} {y} {xy}')
 
+    @matcher(r'''(?x)
+        at :
+        \s+ (?P<x> \d+ )
+        \s+ (?P<y> \d+ )
+        \s+ (?P<dir> [xyXY] )
+        $''')
+    def load_move_to(self, _t: float, m: re.Match[str]):
+        x = int(m[1])
+        y = int(m[2])
+        xy = cast(Literal['X', 'Y'], m[3].upper())
+        self.at_cursor = x, y , xy
+
     @property
     def cursor(self):
         return self.board.cursor(*self.at_cursor)
@@ -1817,6 +1775,20 @@ class SpaceWord(StoredLog):
         for i, let in changes:
             self.board.set(i, let)
             ui.log(f'change: {i} {let}')
+
+    # TODO maybe carry on Board again?
+
+    @matcher(r'''(?x) letters : \s+ \| (?P<letters> .* ) \| $''')
+    def load_letters(self, _t: float, m: re.Match[str]):
+        self.board.letters = list(m[1])
+
+    @matcher(r'''(?x)
+        change :
+        \s+ (?P<i> \d+ )
+        (?: \s+ (?P<let> [a-zA-Z] ) )?
+        ''')
+    def load_change(self, _t: float, m: re.Match[str]):
+        self.board.set(int(m[1]), str(m[2] or ''))
 
 SourceEntry = tuple[str, 'Source'] | Board
 Source = Callable[[PromptUI], Iterable[SourceEntry]]
