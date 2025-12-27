@@ -1298,6 +1298,15 @@ class Dispatcher:
             self.thens.insert(i, then)
             self.alias.insert(i, alas)
 
+    def __getitem__(self, name: str):
+        st = self.get(name)
+        if st is None:
+            raise KeyError(name)
+        return st
+
+    def __setitem__(self, name: str, then: State|str):
+        self.set(name, then)
+
     def show_help_list(self, ui: 'PromptUI'):
         for name, als, then in zip(self.names, self.alias, self.thens):
             if not name.strip(): continue
