@@ -505,19 +505,25 @@ class Meta(Arguable):
             for sol, prior in zip(solver_harness, solver_prior)
         }
 
-        self.prompt.update({
-            'day': self.do_day,
-            'env': self.do_env,
-            'log': self.do_log,
-            'push': partial(self.do_system, cmd=('git', 'push', 'origin', '+:')),
-            'review': self.do_review,
-            'run': self.do_run,
-            'share': self.do_share,
-            'solvers': self.do_solvers,
-            'status': self.do_status,
-            'sys': self.do_system,
-            'tracing': self.do_tracing,
-        })
+        root = self.prompt
+
+        # TODO should be std; also tron/troff bindings
+        root['tracing'] = self.do_tracing
+
+        # TODO could be std(/x)
+        root['sys'] = self.do_system
+        root['env'] = self.do_env
+
+        root['day'] = self.do_day
+        root['share'] = self.do_share
+        root['status'] = self.do_status
+        root['push'] = partial(self.do_system, cmd=('git', 'push', 'origin', '+:'))
+        root['review'] = self.do_review
+
+        # TODO invert control to `sol/<name>/{log,run,...}`
+        root['log'] = self.do_log
+        root['run'] = self.do_run
+        root['solvers'] = self.do_solvers
 
     @override
     def __call__(self, ui: PromptUI):
