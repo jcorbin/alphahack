@@ -294,16 +294,16 @@ class SolverHarness:
             solver.log_file = log_file
         return solver
 
-    def run(self, ui: PromptUI, log_file: str|None=None):
-        # TODO parse optional -log-file arg
-        try:
-            ui.write(f'*** Running solver {self}')
-            solver = self(ui.tokens, log_file=log_file)
-            if log_file:
-                ui.write(f' log_file={log_file}')
-        finally:
-            ui.fin()
-        ui.interact(solver)
+def run_solver(name: str, make: Callable[[PromptUI.Tokens, str|None], Solver], ui: PromptUI, log_file: str|None=None):
+    # TODO parse optional -log-file arg
+    try:
+        ui.write(f'*** Running solver {name}')
+        solver = make(ui.tokens, log_file)
+        if log_file:
+            ui.write(f' log_file={log_file}')
+    finally:
+        ui.fin()
+    ui.interact(solver)
 
 def load_solvers() -> Generator[SolverHarness]:
     from binartic import Search as Binartic
@@ -879,7 +879,7 @@ class Meta(Arguable):
 
         def do_cont(ui: PromptUI):
             log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
-            return solver_harness[solver_i].run(ui, log_file)
+            return run_solver(harness.name, harness, ui, log_file)
 
         def do_tail(ui: PromptUI):
             log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
@@ -938,7 +938,8 @@ class Meta(Arguable):
                 ui.print('! all solvers reported, specify particular?')
                 return
         if solver_i >= 0:
-            return solver_harness[solver_i].run(ui)
+            harness = solver_harness[solver_i]
+            return run_solver(harness.name, harness, ui)
 
     def do_solvers(self, ui: PromptUI):
         '''
