@@ -164,36 +164,6 @@ def trim_lines(lines: Iterable[str]):
         elif st:
             st += 1
 
-# TODO share base class with StoredLog
-
-class Arguable:
-    @classmethod
-    def main(cls):
-        self, args = cls.parse_args()
-        trace = cast(bool, args.trace)
-        return PromptUI.main(self, trace=trace)
-
-    @classmethod
-    def parse_args(cls):
-        parser = argparse.ArgumentParser(
-            formatter_class=argparse.ArgumentDefaultsHelpFormatter,
-        )
-        cls.add_args(parser)
-        args = parser.parse_args()
-        self = cls()
-        return self, args
-
-    @classmethod
-    def add_args(cls, parser: argparse.ArgumentParser):
-        _ = parser.add_argument('--trace', '-t', action='store_true',
-                                help='Enable execution state tracing')
-
-    def __init__(self):
-        self.prompt: PromptUI.Prompt = PromptUI.Prompt('> ', {})
-
-    def __call__(self, ui: PromptUI):
-        return self.prompt(ui)
-
 # TODO into mdkit
 
 def sections(lines: Iterable[str]) -> Generator[tuple[int, str, Iterable[str]]]:
@@ -515,7 +485,7 @@ solvers.add('space', make_space)
 # can be generated on demand?
 
 @final
-class Meta(Arguable):
+class Meta(PromptUI.Arguable[PromptUI.Prompt]):
     @override
     @classmethod
     def add_args(cls, parser: argparse.ArgumentParser):
@@ -531,13 +501,10 @@ class Meta(Arguable):
         self.report.filename = cast(str, args.report)
         return self, args
 
-    def __init__(self):
-        super().__init__()
-        self.report = Report()
-        self.prompt.mess = self.prompt_mess
-        self.solvers = SolverScope(solvers)
-
-        root = self.prompt
+    @override
+    def make_root(self):
+        root = PromptUI.Prompt('> ', {})
+        root.mess = self.prompt_mess
 
         # TODO should be std; also tron/troff bindings
         root['tracing'] = self.do_tracing
@@ -570,6 +537,13 @@ class Meta(Arguable):
             }.items():
                 root[f'{path}/{name}'] = cmd
 
+        return root
+
+    def __init__(self):
+        self.report = Report()
+        self.solvers = SolverScope(solvers)
+        super().__init__()
+
     @override
     def __call__(self, ui: PromptUI):
         ui.run(super().__call__)
@@ -588,7 +562,7 @@ class Meta(Arguable):
                 raise StopIteration
 
     def prompt_mess(self, ui: PromptUI):
-        if self.prompt.re == 0:
+        if self.root.re == 0:
             ui.print('')
             self.do_status(ui)
         return 'meta> '
@@ -1330,7 +1304,7 @@ class Meta(Arguable):
                         *marked_tokenize(note)
                     )))
 
-        self.prompt.re = max(1, self.prompt.re)
+        self.root.re = max(1, self.root.re)
 
 @final
 class Review:

@@ -1,3 +1,4 @@
+import argparse
 import datetime
 import json
 import math
@@ -18,7 +19,7 @@ from collections.abc import Generator, Iterable, Sequence
 from emoji import emoji_count
 from io import StringIO
 from types import TracebackType
-from typing import Callable, Literal, Protocol, TextIO, cast, final, override, runtime_checkable
+from typing import Callable, Literal, Protocol, Self, TextIO, cast, final, override, runtime_checkable
 
 from strkit import block_lines, matcherate, PeekIter, PeekStr, reflow_block
 
@@ -2138,6 +2139,38 @@ class PromptUI:
         ui = cls()
         ui.traced = trace
         ui.run(state)
+
+    class Arguable[T : State]:
+        @classmethod
+        def main(cls):
+            self, args = cls.parse_args()
+            trace = cast(bool, args.trace)
+            return PromptUI.main(self, trace=trace)
+
+        @classmethod
+        def parse_args(cls) -> tuple[Self, argparse.Namespace]:
+            parser = argparse.ArgumentParser(
+                formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+            )
+            cls.add_args(parser)
+            args = parser.parse_args()
+            self = cls()
+            return self, args
+
+        @classmethod
+        def add_args(cls, parser: argparse.ArgumentParser):
+            _ = parser.add_argument('--trace', '-t', action='store_true',
+                                    help='Enable execution state tracing')
+
+        def make_root(self) -> T:
+            # TODO wants to be an abstract base class?
+            raise NotImplemented('must implement make_root')
+
+        def __init__(self):
+            self.root: T = self.make_root()
+
+        def __call__(self, ui: 'PromptUI'):
+            return self.root(ui)
 
     @final
     class Chain:
