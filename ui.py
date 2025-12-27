@@ -2518,10 +2518,10 @@ class PromptUI:
                                     help='Enable execution state tracing')
 
         def __init__(self):
-            self.prompt: PromptUI.Prompt = PromptUI.Prompt('> ', {})
+            self.shell: Shell = Shell()
 
         def __call__(self, ui: 'PromptUI'):
-            return self.prompt(ui)
+            return self.shell(ui)
 
     @final
     class Chain:
