@@ -275,8 +275,6 @@ class SolverHarness:
     def __str__(self):
         return self.name
 
-    # TODO prior log file search/browse
-
     def __call__(self,
                  tokens: PromptUI.Tokens,
                  log_file: str|None = None) -> Solver:
@@ -426,7 +424,7 @@ solver_harness = tuple(load_solvers())
 # NOTE likely cannot be abstracted over instantiation, since slugs contain
 #      state info from a loaded prior solver log
 solver_prior = tuple(
-    harness.make(PromptUI.Tokens())
+    harness(PromptUI.Tokens())
     for harness in solver_harness)
 solver_site = {
     sol.name: prior.site
@@ -468,14 +466,17 @@ class Meta(PromptUI.Arguable):
         super().__init__()
         self.solver_log = solver_cur_log.copy()
         self.report = Report()
-        self.prompt.mess = self.prompt_mess
+        self.shell.prompt = self.prompt_mess
 
         self.solver_log: dict[str, str] = {
             sol.name: prior.log_file
             for sol, prior in zip(solver_harness, solver_prior)
         }
+        self.solver_by_name = {
+            sol.name: sol
+            for sol in solver_harness}
 
-        root = self.prompt
+        root = self.shell.root
 
         # TODO should be std; also tron/troff bindings
         root['tracing'] = self.do_tracing
@@ -484,16 +485,29 @@ class Meta(PromptUI.Arguable):
         root['sys'] = self.do_system
         root['env'] = self.do_env
 
-        root['day'] = self.do_day
-        root['share'] = self.do_share
-        root['status'] = self.do_status
-        root['push'] = partial(self.do_system, cmd=('git', 'push', 'origin', '+:'))
-        root['review'] = self.do_review
+        root['meta/day'] = self.do_day
+        root['meta/share'] = self.do_share
+        root['meta/status'] = self.do_status
+        root['meta/push'] = partial(self.do_system, cmd=('git', 'push', 'origin', '+:'))
+        root['meta/review'] = self.do_review
 
-        # TODO invert control to `sol/<name>/{log,run,...}`
-        root['log'] = self.do_log
-        root['run'] = self.do_run
-        root['solvers'] = self.do_solvers
+        root['meta/solvers/.'] = self.do_solve
+        for sol in solver_harness:
+            path = f'meta/solvers/{sol.name}'
+            root[path] = {
+                '.': partial(run_solver, sol.name, sol),
+                'cont': partial(self.do_sol_cont, sol),
+                'edit': partial(self.do_sol_edit, sol),
+                'last': partial(self.do_sol_last, sol),
+                'current': partial(self.do_sol_cur, sol),
+                'ls': partial(self.do_sol_last, sol, puzzle_id='*'),
+                'rm': partial(self.do_sol_rm, sol),
+                'tail': partial(self.do_sol_tail, sol),
+                # TODO fin / result
+                # TODO share / report
+            }
+
+        self.shell.cur = root['meta']
 
     @override
     def __call__(self, ui: PromptUI):
@@ -512,11 +526,29 @@ class Meta(PromptUI.Arguable):
             if tokens.have(r'(?xi) ^ n'):
                 raise StopIteration
 
-    def prompt_mess(self, ui: PromptUI):
-        if self.prompt.re == 0:
+    def prompt_mess(self, ui: PromptUI, _: PromptUI.Shell):
+        if self.shell.re == 0:
             ui.print('')
             self.do_status(ui)
-        return 'meta> '
+
+        cur = self.shell.cur
+
+        m = re.match(r'''(?x)
+            /
+            meta /
+            solvers /
+            (?P<name> [^/] + )
+            (?P<path> .* )
+        ''', cur.path)
+        if m:
+            name = m[1]
+            harness = self.solver_by_name.get(name)
+            if not harness:
+                ui.print(f'! unknown solver {name!r}')
+            else:
+                ui.print(f'solver log_file: {self.solver_log.get(harness.name)}')
+
+        return f'{cur}> '
 
     # TODO txn.will_add(self.report.filename)
 
@@ -798,79 +830,81 @@ class Meta(PromptUI.Arguable):
         except (EOFError, StopIteration):
             pass
 
-    def do_log(self, ui: PromptUI):
+    def do_sol_cont(self, harness: SolverHarness, ui: PromptUI):
         '''
-        manage solver log(s)
+        continue solver run
         '''
-        solver_i = self.choose_solver(ui)
-        if solver_i is None:
-            ui.print('! must name a solver')
+        log_file = self.solver_log.get(harness.name)
+        return run_solver(harness.name, harness, ui, log_file)
+
+    def do_sol_edit(self, harness: SolverHarness, ui: PromptUI):
+        '''
+        open solver log in $EDITOR
+        '''
+
+        editor = os.environ.get('EDITOR', 'vi')
+        log_file = self.solver_log.get(harness.name)
+        if log_file is None:
+            ui.print(f'! unknown log file for {harness.name}')
             return
-        elif solver_i < 0:
+        with ui.check_proc(subprocess.Popen((editor, log_file))):
+            pass
+
+    def do_sol_cur(self, harness: SolverHarness, ui: PromptUI):
+        '''
+        use current log file
+        '''
+        prior = self.solver_log.get(harness.name)
+        log_file = harness.make(PromptUI.Tokens()).log_file
+        self.solver_log[harness.name] = log_file
+        action = (
+            'Initialized' if prior is None else
+            'Reset' if prior != log_file else
+            'Current')
+        ui.print(f'{action} log file: {log_file}')
+
+    def do_sol_last(self, harness: SolverHarness, ui: PromptUI,
+                    puzzle_id: str|None = None):
+        '''
+        list and select from prior solver logs
+        '''
+        log_file = harness(ui.tokens).find_prior_log(ui, puzzle_id)
+        if log_file is None:
+            ui.print(f'! could not find last log file')
             return
+        ui.print(f'Found last log_file: {log_file}')
+        self.solver_log[harness.name] = log_file
+        # TODO descend ../ if ui.tokens else call ../
+        # TODO maybe just shell chdir
 
-        harness = solver_harness[solver_i]
-
-        def use_last(ui: PromptUI, puzzle_id: str = '') -> PromptUI.State|None:
-            found = harness.make(ui.tokens).find_prior_log(ui, puzzle_id)
-            if found is None:
-                ui.print(f'! could not find last log file')
-                return
-            ui.print(f'Found last log_file: {found}')
-            self.solver_log[harness.name] = found
-            if ui.tokens:
-                return pr.handle(ui)
-            else:
-                return pr
-
-        def do_edit(ui: PromptUI):
-            editor = os.environ.get('EDITOR', 'vi')
-            log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
-            with ui.check_proc(subprocess.Popen((editor, log_file))):
-                pass
-            raise StopIteration
-
-        def do_rm(ui: PromptUI):
-            log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
-            ui.print(f'+ rm {log_file}')
-            os.unlink(log_file)
-            raise StopIteration
-
-        def do_cont(ui: PromptUI):
-            log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
-            return run_solver(harness.name, harness, ui, log_file)
-
-        def do_tail(ui: PromptUI):
-            log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
-            tail_n = (
-                3 if ui.screen_lines < 10 else
-                10 if ui.screen_lines < 20 else
-                ui.screen_lines//2)
-            with ui.check_proc(subprocess.Popen(('tail', f'-n{tail_n}', log_file))):
-                pass
-            raise StopIteration
-
-        def prompt_mess(_: PromptUI):
-            log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
-            return f'{log_file}> '
-
-        pr = ui.Prompt(prompt_mess, {
-            'last': use_last,
-            'ls': partial(use_last, puzzle_id='*'),
-
-            'cont': do_cont,
-            'edit': do_edit,
-            'tail': do_tail,
-            'rm': do_rm,
-
-            # TODO fin / result
-            # TODO share / report
-        })
-
+    def do_sol_rm(self, harness: SolverHarness, ui: PromptUI):
+        '''
+        remove solver log file
+        '''
+        log_file = self.solver_log.get(harness.name)
+        if log_file is None:
+            ui.print(f'! unknown log file for {harness.name}')
+            return
+        ui.print(f'+ rm {log_file}')
         try:
-            ui.call_state(lambda ui: pr.handle(ui) or pr if ui.tokens else pr)
-        except (StopIteration, EOFError):
-            return self.prompt
+            os.unlink(log_file)
+        except OSError as err:
+            ui.print(f'! {err}')
+
+    def do_sol_tail(self, harness: SolverHarness, ui: PromptUI):
+        '''
+        show last N lines from solver log file
+        '''
+        log_file = self.solver_log.get(harness.name)
+        if log_file is None:
+            ui.print(f'! unknown log file for {harness.name}')
+            return
+        tail_n = (
+            3 if ui.screen_lines < 10 else
+            10 if ui.screen_lines < 20 else
+            ui.screen_lines//2)
+        with ui.check_proc(subprocess.Popen(('tail', f'-n{tail_n}', log_file))):
+            pass
 
     def do_review(self, ui: PromptUI):
         try:
@@ -884,29 +918,16 @@ class Meta(PromptUI.Arguable):
         except subprocess.CalledProcessError as err:
             ui.print(f'! {err}')
 
-    def do_run(self, ui: PromptUI):
+    def do_solve(self, ui: PromptUI):
         '''
-        run a solver, by name or inferred "next"
+        run next solver
         '''
-        solver_i = self.choose_solver(ui)
-        if solver_i is None:
-            for solver_i, day, _note, head, _body in self.read_status(ui, verbose=False):
-                if day is None or not head:
-                    break
-            else:
-                ui.print('! all solvers reported, specify particular?')
-                return
-        if solver_i >= 0:
-            harness = solver_harness[solver_i]
-            return run_solver(harness.name, harness, ui)
-
-    def do_solvers(self, ui: PromptUI):
-        '''
-        show known solvers
-        '''
-        for n, (harness, note) in enumerate(zip(solver_harness, solver_notes), 1):
-            site = solver_site[harness.name]
-            ui.print(f'{n}. {harness} site:{site!r} slug:{note!r}')
+        for solver_i, day, _note, head, _body in self.read_status(ui, verbose=False):
+            if day is None or not head:
+                harness = solver_harness[solver_i]
+                return run_solver(harness.name, harness, ui)
+        ui.print('! all solvers reported, specify particular?')
+        return
 
     def read_status(self, ui: PromptUI, verbose: bool=False):
 
@@ -973,7 +994,7 @@ class Meta(PromptUI.Arguable):
                 f'{day}',
                 *marked_tokenize(note)
             )))
-        self.prompt.re = max(1, self.prompt.re)
+        self.shell.re = max(1, self.shell.re)
 
 @final
 class Review:
