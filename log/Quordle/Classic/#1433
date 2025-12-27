@@ -1,0 +1,88 @@
+T891.8232454359968 now: 2025-12-27T09:49:17EST
+TD51 site: m-w.com/games/quordle
+TDD-20 wordlist: nwl2023.txt
+TDD-25 num_words: 4
+TDD3568393  ...
+TDD-2049551 > * 1
+TDD4113009 ? 6
+TDD-5631710 questioning: tapes
+TDD5271869 #1 _____? nMnMn
+TDD-5271753 attempt: 0 TAPES n m n m n
+TDD1527358 #2 _____? nnnnM
+TDD-1527355 attempt: 1 TAPES n n n n m
+TDD1519536 #3 _____? nnnYn
+TDD-1519027 attempt: 2 TAPES n n n Y n
+TDD1671164 #4 _____? nnnYn
+TDD-1671740 attempt: 3 TAPES n n n Y n
+TDD407172 > *
+TDD1016732 > 
+TDD-591985 > * 2
+TDD2351887 ? 3
+TDD-3183725 questioning: slick
+TDD5511285 #1 _____ ~AE -PST? nYnnn
+TDD-5511355 attempt: 0 SLICK n Y n n n
+TDD3751368 #2 _____ ~S -AEPT? YMnMn
+TDD-3751321 attempt: 1 SLICK Y m n m n
+TDD1511530 #3 ___E_ -APST? nnnnn
+TDD-1511596 attempt: 2 SLICK n n n n n
+TDD1599820 #4 ___E_ -APST? nnnnn
+TDD-1599816 attempt: 3 SLICK n n n n n
+TDD1663626 > * 2
+TDD1040011 ? 2
+TDD-2703651 questioning: scowl
+TDD5503909 #1 _L___ ~AE -CIKPST? nnnnM
+TDD-5503891 attempt: 0 SCOWL n n n n m
+TDD2087394 #2 S____ ~CL -AEIKPT? YYYYY
+TDD-2087385 attempt: 1 SCOWL Y Y Y Y Y
+TDD1895492 #3 ___E_ -ACIKLPST? nnnnn
+TDD-1895511 attempt: 2 SCOWL n n n n n
+TDD1727562 #4 ___E_ -ACIKLPST? nnMnn
+TDD-1727566 attempt: 3 SCOWL n n m n n
+TDD2967714 > * 1
+TDD-1030809 ? 2
+TDD-1936871 questioning: blame
+TDD3862689 #1 _L___ ~AE -CIKOPSTW? nYYYY
+TDD-3862713 attempt: 0 BLAME n Y Y Y Y
+TDD3255311 #3 ___E_ -ACIKLOPSTW? MnnMM
+TDD-3255325 attempt: 2 BLAME m n n m m
+TDD2136337 #4 ___E_ ~O -ACIKLPSTW? nnnnM
+TDD-2136281 attempt: 3 BLAME n n n n m
+TDD2183221 > * 1
+TDD-2086808 questioning: flame
+TDD5278665 #1 _LAME -BCIKOPSTW? YYYYY
+TDD-5375062 attempt: 0 FLAME Y Y Y Y Y
+TDD2679488 #3 ___E_ ~BM -ACIKLOPSTW? nnnMM
+TDD-2679476 attempt: 2 FLAME n n n m m
+TDD1967481 #4 ___E_ ~O -ABCIKLMPSTW? nnnnM
+TDD-1967540 attempt: 3 FLAME n n n n m
+TDD2127623 > * 3
+TDD776053 ? 1
+TDD-2903677 questioning: embed
+TDD4343421 #3 ___E_ ~BM -ACFIKLOPSTW? YYYYn
+TDD-4343428 attempt: 2 EMBED Y Y Y Y n
+TDD4071799 #4 ___E_ ~O -ABCFIKLMPSTW? nnnYn
+TDD-4071737 attempt: 3 EMBED n n n Y n
+TDD1431520 > * 3
+TDD-1337073 questioning: ember
+TDD4706817 #3 EMBE_ -ACDFIKLOPSTW? YYYYY
+TDD-4801283 attempt: 2 EMBER Y Y Y Y Y
+TDD2263269 #4 ___E_ ~O -ABCDFIKLMPSTW? nnnYY
+TDD-2263310 attempt: 3 EMBER n n n Y Y
+TDD1455663 > * 4
+TDD8208139 ? 5
+TDD-9663769 questioning: hover
+TDD4144029 #4 ___ER ~O -ABCDFIKLMPSTW? nYYYY
+TDD-4144011 attempt: 3 HOVER n Y Y Y Y
+TDD1583641 > * 4
+TDD-1492784 questioning: rover
+TDD4777167 #4 _OVER -ABCDFHIKLMPSTW? YYYYY
+TDD-4868071 attempt: 3 ROVER Y Y Y Y Y
+TDD3848834 📋> 🙂 Daily Quordle 1433
+TDD-3848870 📋> 5️⃣3️⃣
+TDD-139 📋> 7️⃣9️⃣
+TDD-6 📋> m-w.com/games/quordle/
+TDD399253 📋> 
+TDD-215596 📋> ␚
+TDD-183544 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1433\n5\ufe0f\u20e33\ufe0f\u20e3\n7\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD841 result: "\ud83d\ude42 Daily Quordle 1433\n5\ufe0f\u20e33\ufe0f\u20e3\n7\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD158257 📆 2025-12-27 ? 
