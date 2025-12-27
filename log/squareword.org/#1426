@@ -1,0 +1,125 @@
+T1345.0509124680102 now: 2025-12-27T09:56:50EST
+TD88 site: squareword.org
+TDD-34 wordlist: nwl2023.txt
+TDD4853537  ...
+TDD-2581420 🧩  ? #1426
+TDD-2271948 puzzle_id: #1426
+TDD1207739 > *
+TDD-160317 try? 1
+TDD-1047330 questioning: ["seral", "#5"]
+TDD6335848 #1 <IndexError>  📋 "seral" ? _____ ~ A
+TDD-6335455 attempt 0 SERAL n n n m n
+TDD3622911 #2 <IndexError>  📋 "seral" ? _____ ~ RA
+TDD-3623314 attempt 1 SERAL n n m m n
+TDD2358985 #3 <IndexError>  📋 "seral" ? _____ ~ ERA
+TDD-2359005 attempt 2 SERAL n m m m n
+TDD2639545 #4 <IndexError>  📋 "seral" ? _____ ~ ERA
+TDD-2639549 attempt 3 SERAL n m m m n
+TDD2311463 #5 <IndexError>  📋 "seral" ? _E___ ~ E
+TDD-2311528 attempt 4 SERAL n Y n n n
+TDD383242 ? 
+TDD-383323 question done
+TDD1672186 > *
+TDD967554 try? 2
+TDD-2639543 questioning: ["padre", "#4"]
+TDD9695390 #1 _____ ~A -ELRS  📋 "padre" ? _A___ ~ A
+TDD-9695419 attempt 0 PADRE n Y n n n
+TDD3279554 #2 _____ ~AR -ELS  📋 "padre" ? ___R_ ~ AD
+TDD-3279570 attempt 1 PADRE n m m Y n
+TDD3183259 #3 _____ ~AER -LS  📋 "padre" ? _A___ ~ ERD
+TDD-3183261 attempt 2 PADRE n Y m m m
+TDD2335548 #4 _____ ~AER -LS  📋 "padre" ? ____E  RA
+TDD-2335551 attempt 3 PADRE n n n n Y
+TDD3559151 #5 _E___ -ALRS  📋 "padre" ? _E___ ~ ED
+TDD-3559210 attempt 4 PADRE n n m n m
+TDD223897 ? 
+TDD-223956 question done
+TDD927540 > *
+TDD8920389 try? 3
+TDD-9847864 questioning: ["award", "#2"]
+TDD3039127 #1 _A___ -DELPRS  📋 "award" ? ␚
+TDD-3039283 question done
+TDD760186 > *
+TDD743558 try? 2
+TDD-1503496 questioning: ["adorn", "#2"]
+TDD11112064 #1 _A___ -DELPRS  📋 "adorn" ? _A___ ~ A
+TDD-11112114 attempt 0 ADORN m n n n n
+TDD3159372 #2 ___R_ ~AD -ELPS  📋 "adorn" ? A__R_ ~ AD
+TDD-3159361 attempt 1 ADORN Y m n Y n
+TDD4111720 #3 _A___ ~DER -LPS  📋 "adorn" ? _A___ ~ ERD
+TDD-4111708 attempt 2 ADORN n m n m n
+TDD7143641 #4 ____E -ADLPRS  📋 "adorn" ? ____E ~ RA
+TDD-7143650 attempt 3 ADORN m n n m n
+TDD3534903 #5 _E___ ~D -ALPRS  📋 "adorn" ? _E___ ~ ED
+TDD-3534916 attempt 4 ADORN n m n n n
+TDD863332 ? 
+TDD-863451 question done
+TDD1871994 > *
+TDD-1329194 questioning: ["award", "#2"]
+TDD6241935 #1 _A___ -DELNOPRS  📋 "award" ? _A___ ~ A
+TDD-6784635 attempt 0 AWARD m n m n n
+TDD623493 #2 A__R_ ~D -ELNOPS  📋 "award" ? /it
+TDD-623443 attempt 1 AWARD Y Y Y Y Y
+TDD6559622 #3 _A___ ~DER -ALNOPS  📋 "award" ? _A__D ~ ER
+TDD-6559570 attempt 2 AWARD n n n m Y
+TDD2695513 #4 ____E ~AR -ADLNOPRS  📋 "award" ? __A_E ~ R
+TDD-2695587 attempt 3 AWARD n n Y m n
+TDD3287142 #5 _E___ ~D -ALNOPRS  📋 "award" ? _E__D ~ EW
+TDD-3287134 attempt 4 AWARD n m n n Y
+TDD670871 ? 
+TDD-671000 question done
+TDD1431893 > *
+TDD5639670 try? 1
+TDD-7071429 questioning: ["hewed", "#5"]
+TDD5663534 #1 _A___ -DELNOPRSW  📋 "hewed" ? _A___ ~ A
+TDD-5663553 attempt 0 HEWED n n n n n
+TDD3543637 #3 _A__D ~ER -ALNOPSW  📋 "hewed" ? _A_ED ~ R
+TDD-3543670 attempt 2 HEWED n n n Y Y
+TDD4047642 #4 __A_E ~R -DLNOPRSW  📋 "hewed" ? .
+TDD-4047584 attempt 3 HEWED n n n n n
+TDD863276 #5 _E__D ~W -ALNOPRS  📋 "hewed" ? /it
+TDD-863295 attempt 4 HEWED Y Y Y Y Y
+TDD255505 ? 
+TDD-255640 question done
+TDD535697 > *
+TDD762972 questioning: ["raced", "#3"]
+TDD4210322 #1 _A___ -DEHLNOPRSW  📋 "raced" ? _A___ ~ A
+TDD-5508931 attempt 0 RACED n Y n n n
+TDD639467 #3 _A_ED ~R -AHLNOPSW  📋 "raced" ? /it
+TDD-639389 attempt 2 RACED Y Y Y Y Y
+TDD3263242 #4 __A_E ~R -DEHLNOPRSW  📋 "raced" ? __A_E ~ RC
+TDD-3263327 attempt 3 RACED m n m n n
+TDD223893 ? 
+TDD-223957 question done
+TDD583699 > *
+TDD2864869 try? 2
+TDD-3448464 questioning: ["mamba", "#1"]
+TDD2382564 #1 _A___ -CDEHLNOPRSW  📋 "mamba" ? /it
+TDD-2382530 attempt 0 MAMBA Y Y Y Y Y
+TDD3703662 #4 __A_E ~CR -ADEHLNOPRSW  📋 "mamba" ? __A_E ~ RC
+TDD-3703668 attempt 3 MAMBA n n n n n
+TDD151577 ? 
+TDD-151722 question done
+TDD392378 > *
+TDD1551193 > *
+TDD9656059 > ?
+TDD-4991479 > /man 4 __A_E ~CR
+TDD-6081759 questioning: ["CRAVE", "#4"]
+TDD3114696 #4 __A_E ~CR -ABDEHLMNOPRSW  📋 "CRAVE" ? /it
+TDD-3640797 attempt 3 CRAVE Y Y Y Y Y
+TDD855498 ? 
+TDD-855767 question done
+TDD4568839 📋> squareword.org 1426: 8 guesses
+TDD-4568858 📋> 
+TDD-94 📋> 🟨🟩🟨🟨🟨
+TDD-9 📋> 🟩🟩🟩🟩🟩
+TDD-11 📋> 🟨🟩🟨🟩🟩
+TDD0 📋> 🟨🟨🟩🟨🟩
+TDD1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD358759 📋> #squareword #squareword1426
+TDD-6694 📋> ␚
+TDD-351950 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1426: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1426"}
+TDD679 result: "squareword.org 1426: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1426"
+TDD285805 📆 2025-12-27 ? 
