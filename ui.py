@@ -2131,6 +2131,7 @@ class PromptUI:
             pass
 
     @classmethod
+    @deprecated('use PromptUI.Arguable')
     def main(cls, state: State, trace: bool = False):
         ui = cls()
         ui.traced = trace
@@ -2141,7 +2142,10 @@ class PromptUI:
         def main(cls):
             self, args = cls.parse_args()
             trace = cast(bool, args.trace)
-            return PromptUI.main(self, trace=trace)
+
+            ui = PromptUI()
+            ui.traced = trace
+            return ui.run(self)
 
         @classmethod
         def parse_args(cls):
