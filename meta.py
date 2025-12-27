@@ -268,21 +268,16 @@ class SolverHarness:
     def stored(cls,
                name: str,
                impl: type[StoredLog],
-               log_file: str|None = None,
                ):
         def wrapper(mak: SolverHarness.Arguable):
-            return cls(name,
-                       log_file or impl.log_file,
-                       make=mak)
+            return cls(name, make=mak)
         return wrapper
 
     def __init__(self,
                  name: str,
-                 log_file: str,
                  make: 'SolverHarness.Arguable',
                  ):
         self.name = name
-        self.log_file = log_file
         self.make = make
 
     @override
@@ -295,7 +290,8 @@ class SolverHarness:
                  tokens: PromptUI.Tokens,
                  log_file: str|None = None) -> Solver:
         solver = self.make(tokens)
-        solver.log_file = log_file or self.log_file
+        if log_file:
+            solver.log_file = log_file
         return solver
 
     def run(self, ui: PromptUI, log_file: str|None=None):
@@ -365,10 +361,11 @@ def load_solvers() -> Generator[SolverHarness]:
         return cem
     yield make_cemantle
 
-    @SolverHarness.stored('cemantix', Semantic, log_file='cemantix.log')
+    @SolverHarness.stored('cemantix', Semantic)
     def make_cemantix(tokens: PromptUI.Tokens):
         cex = Semantic()
         cex.site = 'cemantix.certitudes.org'
+        cex.log_file = 'cemantix.log'
         cex.lang = 'French'
         cex.pub_tzname = 'CET'
         cex.full_auto = False # TODO make -no-auto work True
@@ -481,6 +478,9 @@ solver_prior = tuple(
 solver_site = {
     sol.name: prior.site
     for sol, prior in zip(solver_harness, solver_prior)}
+solver_cur_log = {
+    sol.name: prior.log_file
+    for sol, prior in zip(solver_harness, solver_prior)}
 
 solver_notes = tuple(
     solver.note_slug[0]
@@ -513,8 +513,15 @@ class Meta(Arguable):
 
     def __init__(self):
         super().__init__()
+        self.solver_log = solver_cur_log.copy()
         self.report = Report()
         self.prompt.mess = self.prompt_mess
+
+        self.solver_log: dict[str, str] = {
+            sol.name: prior.log_file
+            for sol, prior in zip(solver_harness, solver_prior)
+        }
+
         self.prompt.update({
             'day': self.do_day,
             'env': self.do_env,
@@ -844,16 +851,14 @@ class Meta(Arguable):
             return
 
         harness = solver_harness[solver_i]
-        log_file = harness.log_file
 
-        def use_last(ui: PromptUI, puzzle_id: str = ''):
-            nonlocal log_file
+        def use_last(ui: PromptUI, puzzle_id: str = '') -> PromptUI.State|None:
             found = harness.make(ui.tokens).find_prior_log(ui, puzzle_id)
             if found is None:
                 ui.print(f'! could not find last log file')
                 return
-            ui.print(f'Found last log_file: {log_file}')
-            log_file = found
+            ui.print(f'Found last log_file: {found}')
+            self.solver_log[harness.name] = found
             if ui.tokens:
                 return pr.handle(ui)
             else:
@@ -861,19 +866,23 @@ class Meta(Arguable):
 
         def do_edit(ui: PromptUI):
             editor = os.environ.get('EDITOR', 'vi')
+            log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
             with ui.check_proc(subprocess.Popen((editor, log_file))):
                 pass
             raise StopIteration
 
         def do_rm(ui: PromptUI):
+            log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
             ui.print(f'+ rm {log_file}')
             os.unlink(log_file)
             raise StopIteration
 
         def do_cont(ui: PromptUI):
+            log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
             return solver_harness[solver_i].run(ui, log_file)
 
         def do_tail(ui: PromptUI):
+            log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
             tail_n = (
                 3 if ui.screen_lines < 10 else
                 10 if ui.screen_lines < 20 else
@@ -882,7 +891,11 @@ class Meta(Arguable):
                 pass
             raise StopIteration
 
-        pr = ui.Prompt(lambda _: f'{log_file}> ', {
+        def prompt_mess(_: PromptUI):
+            log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
+            return f'{log_file}> '
+
+        pr = ui.Prompt(prompt_mess, {
             'last': use_last,
             'ls': partial(use_last, puzzle_id='*'),
 
