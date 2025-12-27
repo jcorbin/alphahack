@@ -1,0 +1,55 @@
+T157.5605276730057 now: 2025-12-27T09:37:03EST
+TD61 site: alphaguess.com
+TDD158906 loaded 196538 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (65 words excluded) asof 6224ee3ecbbc2683a497ae2f1568990ce9283c53
+TDD505068  ...
+TDD6239638 [0 : 98225 : 196538] mach? b
+TDD-6903563 progress: -1 98225 
+TDD2567705 [0 : 47387 : 98225] dis? b
+TDD-2567695 progress: -1 47387 
+TDD1527967 [0 : 23688 : 47387] camp? b
+TDD-1527970 progress: -1 23688 
+TDD1375635 [0 : 11765 : 23688] back? b
+TDD-1375636 progress: -1 11765 
+TDD1280156 [0 : 5877 : 11765] angel? b
+TDD-1280132 progress: -1 5877 
+TDD1511560 [0 : 2802 : 5877] ag? a
+TDD-1511584 progress: 1 2802 
+TDD1439518 [2803 : 4335 : 5877] alma? b
+TDD-1439518 progress: -1 4335 
+TDD1287784 [2803 : 3564 : 4335] alarm? b
+TDD-1287751 progress: -1 3564 
+TDD3087750 [2803 : 3182 : 3564] agro? !
+TDD-655962 [2803 : 3183 : 3563] agrochemicals? a
+TDD-2431794 progress: 1 3183 
+TDD1639783 [3184 : 3311 : 3563] air? a
+TDD-1639794 progress: 1 3311 
+TDD1543642 [3312 : 3425 : 3563] airs? b
+TDD-1543626 progress: -1 3425 
+TDD1351704 [3312 : 3366 : 3425] airfreight? a
+TDD-1351735 progress: 1 3366 
+TDD1303664 [3367 : 3392 : 3425] airline? a
+TDD-1303635 progress: 1 3392 
+TDD2071690 [3393 : 3409 : 3425] airpark? a
+TDD-2071680 progress: 1 3409 
+TDD1503767 [3410 : 3417 : 3425] airpost? b
+TDD-1503783 progress: -1 3417 
+TDD1407965 [3410 : 3413 : 3417] airplay? a
+TDD-1407992 progress: 1 3413 
+TDD1599387 [3414 : 3415 : 3417] airport? it
+TDD-1599356 progress: 0 3415 
+TDD-119 [3414 : 3415 : 3417] <Done>.
+TDD3456499 📋> 🧩 Puzzle #886
+TDD-3456433 📋> 
+TDD-84 📋> 🤔 17 guesses
+TDD-2 📋> 
+TDD0 📋> ⏱️ 29s
+TDD-1 📋> 
+TDD319536 📋> 🔗 alphaguess.com
+TDD-96129 📋> ␚
+TDD-223307 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #886\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 29s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-25 result: "\ud83e\udde9 Puzzle #886\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 29s\n\n\ud83d\udd17 alphaguess.com"
+TDD-70 result puzzle: 886
+TDD-4 result guesses: 17
+TDD-1 result time: 29s
+TDD0 result link: alphaguess.com
+TDD191951 📆 2025-12-27 ? 
