@@ -1,0 +1,82 @@
+T204.57609001999663 now: 2025-12-27T09:37:50EST
+TD57 site: dontwordle.com
+TDD-22 wordlist: nwl2023.txt
+TDD3887881  ...
+TDD-728229 1> * -bot 10
+TDD-1935757 ? 1
+TDD3695794 📋 "steal" ? nnnnM
+TDD-4919199 tried: STEAL n n n n m
+TDD678687 2> undo
+TDD-679029 undo
+TDD3143585 1> *
+TDD-2503468 ? 1
+TDD4071986 📋 "humph" ? nnMMnn
+TDD-2984301 📋 "humph" ? nnMMn
+TDD-1727739 tried: HUMPH n n m m n
+TDD639005 2> undo
+TDD-639050 undo
+TDD2711615 1> *
+TDD-1719320 ? 1
+TDD3072246 📋 "babka" ? Ynnnn
+TDD-4064545 tried: BABKA Y n n n n
+TDD743018 2> undo
+TDD-743067 undo
+TDD2799752 1> *
+TDD-1960302 ? 1
+TDD2992446 📋 "cooch" ? nnnnn
+TDD-3831811 tried: COOCH n n n n n
+TDD447163 2> *
+TDD233210 ? 1
+TDD3551159 📋 "deedy" ? nnnnn
+TDD-4231523 tried: DEEDY n n n n n
+TDD383598 3> *
+TDD647821 ? 1
+TDD2880134 📋 "sunns" ? nnnnn
+TDD-3911534 tried: SUNNS n n n n n
+TDD479377 4> *
+TDD104743 ? 1
+TDD3559433 📋 "await" ? nnnMn
+TDD-4143627 tried: AWAIT n n n m n
+TDD719749 5> undo
+TDD-719760 undo
+TDD3008212 4> *
+TDD-1968801 ? 1
+TDD3184483 📋 "gazar" ? nnnnn
+TDD-4223827 tried: GAZAR n n n n n
+TDD423515 5> *
+TDD648157 ? 1
+TDD9287973 📋 "fixit" ? nMnnn
+TDD-10359648 tried: FIXIT n m n n n
+TDD743828 6> undo
+TDD-743867 undo
+TDD2767023 5> *
+TDD-1543205 ? ␚
+TDD-1223900 <EOF>
+TDD2048461 5> * -sans
+TDD39526630 ? 8
+TDD-37055314 📋 "villi" ? nMMnn
+TDD-4519691 tried: VILLI n m m n n
+TDD591727 6> *
+TDD3559867 📋 "blimp" ? ␚
+TDD-4151704 <EOF>
+TDD1575957 6> * -sans
+TDD53583825 📋 "blimp" ? ␚
+TDD-55159767 <EOF>
+TDD4455799 6> /?
+TDD-3656225 6> ?
+TDD259271931 6> *
+TDD-257815114 📋 "blimp" ? it
+TDD-2256306 tried: BLIMP Y Y Y Y Y
+TDD3728239 📋> Don't Wordle 1313 - WORDLED
+TDD-3728329 📋> I must admit that I Wordled!
+TDD-89 📋> ⬜⬜⬜⬜⬜6849
+TDD-8 📋> ⬜⬜⬜⬜⬜2155
+TDD-2 📋> ⬜⬜⬜⬜⬜339
+TDD1 📋> ⬜⬜⬜⬜⬜17
+TDD0 📋> ⬜🟨🟨⬜⬜3
+TDD-1 📋> 🟩🟩🟩🟩🟩0
+TDD351194 📋> Undos used: 5
+TDD-143606 📋> ␚
+TDD-207486 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1313 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6849\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2155\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c339\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c17\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c3\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 5"}
+TDD634 result: "Don't Wordle 1313 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6849\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2155\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c339\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c17\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c3\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 5"
+TDD1038821 📆 2025-12-27 ? 
