@@ -367,36 +367,6 @@ def load_solvers() -> Generator[SolverHarness]:
 
     # spaceweek = "./spaceword.py --wordlist nwl2023.txt spaceword_weekly.log"
 
-# TODO share base class with StoredLog
-
-class Arguable:
-    @classmethod
-    def main(cls):
-        self, args = cls.parse_args()
-        trace = cast(bool, args.trace)
-        return PromptUI.main(self, trace=trace)
-
-    @classmethod
-    def parse_args(cls):
-        parser = argparse.ArgumentParser(
-            formatter_class=argparse.ArgumentDefaultsHelpFormatter,
-        )
-        cls.add_args(parser)
-        args = parser.parse_args()
-        self = cls()
-        return self, args
-
-    @classmethod
-    def add_args(cls, parser: argparse.ArgumentParser):
-        _ = parser.add_argument('--trace', '-t', action='store_true',
-                                help='Enable execution state tracing')
-
-    def __init__(self):
-        self.prompt: PromptUI.Prompt = PromptUI.Prompt('> ', {})
-
-    def __call__(self, ui: PromptUI):
-        return self.prompt(ui)
-
 # TODO into mdkit
 
 def sections(lines: Iterable[str]) -> Generator[tuple[int, str, Iterable[str]]]:
@@ -478,7 +448,7 @@ solver_heads = tuple(
 # can be generated on demand?
 
 @final
-class Meta(Arguable):
+class Meta(PromptUI.Arguable):
     @override
     @classmethod
     def add_args(cls, parser: argparse.ArgumentParser):
