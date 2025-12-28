@@ -1067,7 +1067,13 @@ class Meta(Arguable):
         heads: list[str] = [''] * len(solvers)
         bodys: list[tuple[str, ...]] = [()] * len(solvers)
 
-        for _level, text, body in self.report.sections():
+        extra_note: list[str] = []
+        extra_note_days: list[int] = []
+
+        extra_head: list[str] = []
+        extra_body: list[tuple[str, ...]] = []
+
+        for level, text, body in self.report.sections():
             m = re.match(r'(?x) (\d{4}) [-_/.]? (\d{2}) [-_/.]? (\d{2})', text.strip())
             if m:
                 dd = date(int(m[1]), int(m[2]), int(m[3]))
@@ -1090,10 +1096,8 @@ class Meta(Arguable):
                             break
 
                     else:
-                        if verbose:
-                            ui.print('Unknown note:')
-                            ui.print(f'> {line}')
-                            ui.print('')
+                        extra_note.append(line)
+                        extra_note_days.append(dd_n)
 
             else:
                 for solver_i, slug in enumerate(solver_heads):
@@ -1102,12 +1106,21 @@ class Meta(Arguable):
                         bodys[solver_i] = tuple(line.rstrip() for line in body)
                         break
 
-                # TODO else: report unknown sections?
+                else:
+                    if level == 1:
+                        body = tuple(line.rstrip() for line in body)
+                        if any(line.strip() for line in body):
+                            extra_head.append(text)
+                            extra_body.append(body)
 
         if verbose:
             for slug, note in zip(solver_notes, notes):
                 if not note:
-                    ui.print(f'Missing {slug!r}')
+                    ui.print(f'- Missing {slug!r}')
+            for note in extra_note:
+                ui.print(f'- Extra note {note!r}')
+            for head in extra_head:
+                ui.print(f'- Extra section {head!r}')
 
         for solver_i in self.solvers:
             dd_n = note_days[solver_i]
