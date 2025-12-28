@@ -1800,11 +1800,6 @@ class Search(StoredLog):
         return self.chat_prompt(ui, np)
 
     def build_next_prompt(self, ui: PromptUI):
-        def rec(token: str, *maybe: Callable[[str], str|None]):
-            for may in maybe:
-                tok = may(token)
-                if tok: return tok
-
         def just(token: str):
             return token
 
@@ -1819,6 +1814,11 @@ class Search(StoredLog):
         def ref(token: str):
             if any(token.startswith(c) for c in '$#~'):
                 return token if len(token) > 1 else None
+
+        def rec[T](token: str, *maybe: Callable[[str], T|None]):
+            for may in maybe:
+                val = may(token)
+                if val is not None: return val
 
         clear = False
         count: int|None = None
