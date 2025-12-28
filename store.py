@@ -1219,6 +1219,17 @@ class StoredLog:
         return ' '.join(self.puzzle_names)
 
     @staticmethod
+    def slug_name(slug: str):
+        m = re.match(r'(?x) \[ ( .+? ) \] \( ( .+? ) \) ', slug)
+        name = m[1] if m else slug
+        if name.startswith('🔗 '):
+            name = name.partition(' ')[2]
+        i = name.find('🧩')
+        if i != -1:
+            name = name[:i]
+        return name.strip()
+
+    @staticmethod
     def slug_split(s: str):
         m = re.match(r'''(?x)
         (?P<slug>
