@@ -18,7 +18,7 @@ from typing import Callable, Literal, Never, Self, cast, final, override
 flatten = chain.from_iterable
 
 from sortem import Chooser, MatchPat, Possible, Sample, RandScores, match_show, numbered_item, wrap_item
-from store import StoredLog
+from store import StoredLog, matcher
 from strkit import MarkedSpec, block_lines, spliterate
 
 from ui import PromptUI
