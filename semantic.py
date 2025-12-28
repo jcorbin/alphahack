@@ -1853,43 +1853,50 @@ class Search(StoredLog):
                         raise ValueError('count already given, did you miss a T or B?')
                     count = int(token)
                     count_given = True
+                    continue
 
                 # TODO can this be an abbr?
-                elif len(token) >= 2 and '/clear'.startswith(token):
+                if len(token) >= 2 and '/clear'.startswith(token):
                     clear = True
+                    continue
 
-                elif token in self.abbr:
+                if token in self.abbr:
                     trailer.append(self.abbr[token])
+                    continue
 
-                elif token in trailer_seps:
+                if token in trailer_seps:
                     trailer_given = True
                     rest = tokens.take_rest()
                     if rest.strip():
                         trailer.append(f'{token} {rest.strip()}')
                     break
 
-                elif re.match(r'[Tt]\d+', token):
+                if re.match(r'[Tt]\d+', token):
                     like_words.extend(unroll_refs(f'${token}'))
+                    continue
 
-                elif re.match(r'[Bb]\d+', token):
+                if re.match(r'[Bb]\d+', token):
                     unlike_words.extend(unroll_refs(f'${token}'))
+                    continue
 
-                elif token.startswith('+') and len(token) > 1:
+                if token.startswith('+') and len(token) > 1:
                     token = rec(token[1:], ref, quoted, just)
                     if token: like_words.append(token)
                     else: ui.print(f'! ignoring * token {token}')
+                    continue
 
-                elif token.startswith('-') and len(token) > 1:
+                if token.startswith('-') and len(token) > 1:
                     token = rec(token[1:], ref, quoted, just)
                     if token: unlike_words.append(token)
                     else: ui.print(f'! ignoring * token {token}')
+                    continue
 
-                else:
-                    like_tok = rec(token, ref, quoted)
-                    if like_tok:
-                        like_words.append(like_tok)
-                        continue
-                    rel = token if not rel else f'{rel} {token}'
+                like_tok = rec(token, ref, quoted)
+                if like_tok:
+                    like_words.append(like_tok)
+                    continue
+
+                rel = token if not rel else f'{rel} {token}'
 
         # TODO allow user to override kind via token loop above
 
