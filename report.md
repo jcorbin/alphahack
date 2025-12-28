@@ -1,19 +1,21 @@
-# 2025-12-28
+# 2025-12-29
 
-- 🔗 spaceword.org 🧩 2025-12-27 🏁 score 2170 ranked 15.8% 50/316 ⏱️ 3:14:08.282950
-- 🔗 alfagok.diginaut.net 🧩 #421 🥳 12 ⏱️ 0:00:34.832148
-- 🔗 alphaguess.com 🧩 #887 🥳 16 ⏱️ 0:00:33.326771
-- 🔗 dontwordle.com 🧩 #1314 🥳 6 ⏱️ 0:02:06.184982
-- 🔗 dictionary.com hurdle 🧩 #1457 🥳 15 ⏱️ 0:03:13.279880
-- 🔗 Quordle Classic 🧩 #1434 🥳 score:22 ⏱️ 0:01:52.677114
-- 🔗 Octordle Classic 🧩 #1434 🥳 score:56 ⏱️ 0:04:11.681080
-- 🔗 squareword.org 🧩 #1427 🥳 7 ⏱️ 0:02:43.151831
-- 🔗 cemantle.certitudes.org 🧩 #1364 🥳 66 ⏱️ 0:01:35.511685
-- 🔗 cemantix.certitudes.org 🧩 #1397 🥳 1314 ⏱️ 2:28:51.921441
-- 🔗 Quordle Extreme 🧩 #517 🥳 score:22 ⏱️ 0:02:13.030788
-- 🔗 Quordle Rescue 🧩 #48 🥳 score:25 ⏱️ 0:01:56.125729
-- 🔗 Quordle Weekly 🧩 2025-W53 🥳 score:26 ⏱️ 0:02:39.790010
-- 🔗 Quordle Sequence 🧩 #1434 🥳 score:22 ⏱️ 0:03:24.807342
+- 🔗 spaceword.org 🧩 2025-12-28 🏁 score 2170 ranked 28.3% 98/346 ⏱️ 0:18:56.749060
+- 🔗 alfagok.diginaut.net 🧩 #422 🥳 26 ⏱️ 0:01:30.064914
+- 🔗 alphaguess.com 🧩 #888 🥳 13 ⏱️ 0:00:25.279099
+- 🔗 dontwordle.com 🧩 #1315 🥳 6 ⏱️ 0:01:19.208368
+- 🔗 dictionary.com hurdle 🧩 #1458 🥳 17 ⏱️ 0:03:12.759950
+- 🔗 Quordle Classic 🧩 #1435 🥳 score:22 ⏱️ 0:01:26.464527
+- 🔗 Octordle Classic 🧩 #1435 🥳 score:60 ⏱️ 0:05:44.279403
+- 🔗 squareword.org 🧩 #1428 🥳 8 ⏱️ 0:02:17.854859
+- 🔗 cemantle.certitudes.org 🧩 #1365 🥳 214 ⏱️ 1:31:25.037599
+- 🔗 cemantix.certitudes.org 🧩 #1398 🥳 439 ⏱️ 3:00:28.224730
+- 🔗 Quordle Rescue 🧩 #49 🥳 score:22 ⏱️ 0:01:41.470301
+- 🔗 Quordle Extreme 🧩 #518 🥳 score:26 ⏱️ 0:02:03.845855
+- 🔗 Quordle Sequence 🧩 #1435 🥳 score:25 ⏱️ 0:02:19.383202
+- 🔗 Octordle Extreme 🧩 #1435 🥳 score:63 ⏱️ 0:08:27.302745
+- 🔗 Octordle Rescue 🧩 #1435 🥳 score:9 ⏱️ 0:05:37.288634
+- 🔗 Octordle Sequence 🧩 #1435 🥳 score:68 ⏱️ 0:04:39.116938
 
 # Dev
 
@@ -236,267 +238,296 @@
 
 
 
+# spaceword.org 🧩 2025-12-28 🏁 score 2170 ranked 28.3% 98/346 ⏱️ 0:18:56.749060
 
-# spaceword.org 🧩 2025-12-27 🏁 score 2170 ranked 15.8% 50/316 ⏱️ 3:14:08.282950
-
-📜 4 sessions
+📜 3 sessions
 - tiles: 21/21
 - score: 2170 bonus: +70
-- rank: 50/316
+- rank: 98/346
 
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ H O P S _ Q _ _   
-      _ _ _ I _ W _ U _ _   
-      _ _ I L K A _ I _ _   
-      _ _ _ _ I R I D _ _   
-      _ _ H I D E _ _ _ _   
+      _ _ _ U N F I X _ _   
+      _ _ _ K _ E S _ _ _   
+      _ _ _ E _ M O _ _ _   
+      _ _ _ _ Z A P _ _ _   
+      _ _ _ _ _ L O _ _ _   
+      _ _ _ U R E D O _ _   
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
 
 
-# alfagok.diginaut.net 🧩 #421 🥳 12 ⏱️ 0:00:34.832148
+# alfagok.diginaut.net 🧩 #422 🥳 26 ⏱️ 0:01:30.064914
 
-🤔 12 attempts
+🤔 26 attempts
+📜 4 sessions
+
+    @        [     0] &-teken   
+    @+1      [     1] &-tekens  
+    @+2      [     2] -cijferig 
+    @+3      [     3] -e-mail   
+    @+199833 [199833] lijm      q0  ? after
+    @+211724 [211724] mdxxi     q12 ? .
+    @+211724 [211724] mdxxi     q13 ? .
+    @+211724 [211724] mdxxi     q14 ? .
+    @+211737 [211737] me        q16 ? after
+    @+214701 [214701] melodie   q18 ? after
+    @+214776 [214776] memo      q22 ? after
+    @+214814 [214814] men       q23 ? after
+    @+214830 [214830] mende     q24 ? after
+    @+214845 [214845] meneer    q25 ? it
+    @+214845 [214845] meneer    done. it
+    @+214859 [214859] meng      q21 ? before
+    @+215034 [215034] mens      q20 ? before
+    @+216034 [216034] met       q19 ? before
+    @+217674 [217674] mijmer    q17 ? before
+    @+223624 [223624] mol       q3  ? before
+    @+247742 [247742] op        q2  ? before
+    @+299746 [299746] schub     q1  ? before
+
+# alphaguess.com 🧩 #888 🥳 13 ⏱️ 0:00:25.279099
+
+🤔 13 attempts
 📜 1 sessions
 
-    @        [     0] &-teken       >>> SEARCH
-    @+1      [     1] &-tekens      
-    @+2      [     2] -cijferig     
-    @+3      [     3] -e-mail       
-    @+199833 [199833] lijm          q0  ? after
-    @+199833 [199833] lijm          q1  ? after
-    @+299755 [299755] schub         q2  ? after
-    @+311925 [311925] spier         q5  ? after
-    @+314634 [314634] st            q6  ? after
-    @+319428 [319428] stik          q7  ? after
-    @+320605 [320605] stop          q9  ? after
-    @+321102 [321102] straat        q10 ? after
-    @+321384 [321384] straf         q11 ? it
-    @+321876 [321876] straten       q8  ? before
-    @+324331 [324331] sub           q4  ? before
-    @+349540 [349540] vakantie      q3  ? before
-    @+399709 [399709] €50-biljetten <<< SEARCH
+    @        [     0] aa      
+    @+1      [     1] aah     
+    @+2      [     2] aahed   
+    @+3      [     3] aahing  
+    @+98224  [ 98224] mach    q0  ? after
+    @+147328 [147328] rho     q1  ? after
+    @+159610 [159610] slug    q3  ? after
+    @+161112 [161112] sold    q6  ? after
+    @+161875 [161875] sound   q7  ? after
+    @+161915 [161915] soup    q11 ? after
+    @+161931 [161931] sour    q12 ? it
+    @+161931 [161931] sour    done. it
+    @+161964 [161964] sous    q10 ? before
+    @+162055 [162055] sovkhoz q9  ? before
+    @+162236 [162236] span    q8  ? before
+    @+162643 [162643] speed   q5  ? before
+    @+165764 [165764] stint   q4  ? before
+    @+171928 [171928] tag     q2  ? before
 
-# alphaguess.com 🧩 #887 🥳 16 ⏱️ 0:00:33.326771
-
-🤔 16 attempts
-📜 1 sessions
-
-    @        [     0] aa         >>> SEARCH
-    @+1      [     1] aah        
-    @+2      [     2] aahed      
-    @+3      [     3] aahing     
-    @+98225  [ 98225] mach       q0  ? after
-    @+147329 [147329] rho        q1  ? a
-    @+147329 [147329] rho        q2  ? after
-    @+153329 [153329] sea        q5  ? after
-    @+154895 [154895] seraph     q7  ? after
-    @+155636 [155636] sham       q8  ? after
-    @+155913 [155913] she        q9  ? after
-    @+155970 [155970] sheen      q12 ? after
-    @+155982 [155982] sheep      q13 ? after
-    @+156016 [156016] sheepskins q14 ? after
-    @+156030 [156030] sheet      q15 ? it
-    @+156049 [156049] sheik      q11 ? before
-    @+156190 [156190] shetlands  q10 ? before
-    @+156466 [156466] shit       q6  ? before
-    @+159611 [159611] slug       q4  ? before
-    @+171929 [171929] tag        q3  ? before
-    @+196537 [196537] zzz        <<< SEARCH
-
-# dontwordle.com 🧩 #1314 🥳 6 ⏱️ 0:02:06.184982
+# dontwordle.com 🧩 #1315 🥳 6 ⏱️ 0:01:19.208368
 
 📜 1 sessions
-💰 score: 7
+💰 score: 27
 
 SURVIVED
 > Hooray! I didn't Wordle today!
 
-    ⬜⬜⬜⬜⬜ tried:LAHAL n n n n n remain:4961
-    ⬜⬜⬜⬜⬜ tried:BUTUT n n n n n remain:2377
-    ⬜⬜⬜⬜⬜ tried:WOOFS n n n n n remain:451
-    ⬜⬜🟨⬜⬜ tried:PYGMY n n m n n remain:42
-    ⬜⬜🟩🟨🟨 tried:ICING n n Y m m remain:2
-    ⬜🟩🟩🟩🟩 tried:REIGN n Y Y Y Y remain:1
+    ⬜⬜⬜⬜⬜ tried:COOCH n n n n n remain:6849
+    ⬜⬜⬜⬜⬜ tried:ABAKA n n n n n remain:2618
+    ⬜⬜⬜⬜⬜ tried:GRRRL n n n n n remain:990
+    ⬜⬜⬜⬜⬜ tried:TUTUS n n n n n remain:158
+    🟨⬜⬜⬜⬜ tried:IMMIX m n n n n remain:55
+    ⬜🟩⬜🟩⬜ tried:NINNY n Y n Y n remain:3
 
-    Undos used: 2
+    Undos used: 3
 
-      1 words remaining
-    x 7 unused letters
-    = 7 total score
+      3 words remaining
+    x 9 unused letters
+    = 27 total score
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1457 🥳 15 ⏱️ 0:03:13.279880
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1458 🥳 17 ⏱️ 0:03:12.759950
 
 📜 1 sessions
-💰 score: 10100
+💰 score: 9900
 
-    4/6
-    ALOES ⬜⬜⬜🟨⬜
-    URINE 🟨⬜⬜🟨🟩
-    NUDGE 🟨🟩🟨⬜🟩
-    DUNCE 🟩🟩🟩🟩🟩
     3/6
-    DUNCE ⬜⬜⬜⬜🟨
-    EARLS 🟨⬜🟩🟨⬜
-    PERIL 🟩🟩🟩🟩🟩
+    REALS ⬜🟨⬜⬜⬜
+    MONDE ⬜🟩🟨⬜🟨
+    WOKEN 🟩🟩🟩🟩🟩
     4/6
-    PERIL 🟨⬜🟨⬜⬜
-    TRAMP ⬜🟨🟨⬜🟨
-    VAPOR ⬜🟩🟨⬜🟨
-    RASPY 🟩🟩🟩🟩🟩
-    3/6
-    RASPY ⬜⬜⬜⬜🟩
-    HOLEY 🟩🟩🟨⬜🟩
-    HOTLY 🟩🟩🟩🟩🟩
+    WOKEN ⬜⬜⬜⬜⬜
+    TAILS ⬜⬜⬜🟨🟨
+    BLUSH ⬜🟩🟩🟩🟩
+    PLUSH 🟩🟩🟩🟩🟩
+    4/6
+    PLUSH ⬜🟩🟩⬜⬜
+    FLUME 🟩🟩🟩⬜⬜
+    FLUYT 🟩🟩🟩⬜⬜
+    FLUID 🟩🟩🟩🟩🟩
+    5/6
+    FLUID ⬜⬜⬜⬜⬜
+    ROAMS ⬜⬜⬜⬜⬜
+    CHEWY ⬜⬜🟨⬜⬜
+    BEGET ⬜🟩⬜🟩🟨
+    TEPEE 🟩🟩🟩🟩🟩
     Final 1/2
-    RECAP 🟩🟩🟩🟩🟩
+    PULSE 🟩🟩🟩🟩🟩
 
-# [Quordle Classic](m-w.com/games/quordle) 🧩 #1434 🥳 score:22 ⏱️ 0:01:52.677114
+# [Quordle Classic](m-w.com/games/quordle/#/) 🧩 #1435 🥳 score:22 ⏱️ 0:01:26.464527
 
-📜 2 sessions
+📜 1 sessions
 
 Quordle Classic m-w.com/games/quordle/
 
-1. SINGE attempts:3 score:3
-2. PAYER attempts:4 score:4
-3. BRIDE attempts:7 score:7
-4. TRAIT attempts:8 score:8
+1. DOUBT attempts:4 score:4
+2. BLISS attempts:5 score:5
+3. TIGER attempts:6 score:6
+4. AMONG attempts:7 score:7
 
-# [Octordle Classic](https://www.britannica.com/games/octordle/daily) 🧩 #1434 🥳 score:56 ⏱️ 0:04:11.681080
+# [Octordle Classic](britannica.com/games/octordle/daily) 🧩 #1435 🥳 score:60 ⏱️ 0:05:44.279403
 
-📜 1 sessions
+📜 2 sessions
 
 Octordle Classic
 
-1. SCALE attempts:10 score:10
-2. PINKY attempts:4 score:4
-3. ADAPT attempts:6 score:6
-4. SPURN attempts:3 score:3
-5. PROUD attempts:5 score:5
-6. CEASE attempts:11 score:11
-7. LOBBY attempts:8 score:8
-8. AGATE attempts:9 score:9
+1. TITLE attempts:9 score:9
+2. COUPE attempts:5 score:5
+3. ALIBI attempts:10 score:10
+4. LUPUS attempts:7 score:7
+5. OPINE attempts:6 score:6
+6. SLURP attempts:4 score:4
+7. MANGA attempts:11 score:11
+8. LOWLY attempts:8 score:8
 
-# squareword.org 🧩 #1427 🥳 7 ⏱️ 0:02:43.151831
+# squareword.org 🧩 #1428 🥳 8 ⏱️ 0:02:17.854859
 
-📜 4 sessions
+📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
-    🟨 🟨 🟨 🟨 🟩
+    🟨 🟨 🟩 🟨 🟨
+    🟨 🟨 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
     🟩 🟩 🟩 🟩 🟩
-    🟩 🟩 🟩 🟩 🟩
-    🟨 🟩 🟨 🟨 🟨
+    🟨 🟨 🟨 🟨 🟨
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    A D A G E
-    F E L L A
-    O U T E R
-    O C E A N
-    T E R M S
+    S L A M S
+    L E G A L
+    A G A P E
+    T I T L E
+    S T E E P
 
-# cemantle.certitudes.org 🧩 #1364 🥳 66 ⏱️ 0:01:35.511685
+# cemantle.certitudes.org 🧩 #1365 🥳 214 ⏱️ 1:31:25.037599
 
-🤔 67 attempts
-📜 1 sessions
-🫧 5 chat sessions
-⁉️ 13 chat prompts
-🤖 13 dolphin3:latest replies
-🔥  1 🥵  2 😎  7 🥶 56
-
-     $1 #67  ~1 fraction       100.00°C 🥳 1000‰
-     $2 #65  ~3 proportion      45.19°C 🔥  993‰
-     $3 #66  ~2 percentage      35.90°C 🥵  957‰
-     $4 #61  ~5 scale           34.97°C 🥵  950‰
-     $5 #63  ~4 magnitude       27.58°C 😎  783‰
-     $6 #48  ~9 time            25.13°C 😎  649‰
-     $7 #33 ~11 complexity      24.13°C 😎  569‰
-     $8 #59  ~7 scope           22.51°C 😎  398‰
-     $9 #46 ~10 space           21.68°C 😎  264‰
-    $10 #55  ~8 extent          21.31°C 😎  190‰
-    $11 #60  ~6 range           20.91°C 😎   97‰
-    $12  #9     quantum         20.06°C 🥶
-    $13 #58     realm           19.28°C 🥶
-    $14 #53     duration        19.12°C 🥶
-
-# cemantix.certitudes.org 🧩 #1397 🥳 1314 ⏱️ 2:28:51.921441
-
-🤔 1315 attempts
-📜 5 sessions
-🫧 174 chat sessions
-⁉️ 734 chat prompts
-🤖 22 llama3.3:latest replies
-🤖 15 glm4:latest replies
-🤖 23 granite-code:34b replies
-🤖 3 qwen3:32b replies
-🤖 20 wizardlm2:latest replies
-🤖 10 mixtral:8x7b replies
-🤖 361 dolphin3:latest replies
-🤖 125 gemma3:27b replies
-🤖 155 falcon3:10b replies
-😱   1 🔥   5 🥵  64 😎 383 🥶 712 🧊 149
-
-       $1 #1315    ~1 complémentaire        100.00°C 🥳 1000‰
-       $2  #612  ~214 spécifique             65.76°C 😱  999‰
-       $3 #1287   ~15 complément             65.08°C 🔥  998‰
-       $4  #778  ~160 modalité               54.38°C 🔥  996‰
-       $5  #167  ~388 formation              53.90°C 🔥  995‰
-       $6  #660  ~200 différent              51.38°C 🔥  991‰
-       $7  #966   ~97 nécessaire             51.16°C 🔥  990‰
-       $8  #319  ~317 compétence             51.06°C 🥵  987‰
-       $9  #536  ~244 activité               50.81°C 🥵  986‰
-      $10  #854  ~131 intégrer               50.55°C 🥵  984‰
-      $11  #179  ~383 professionnel          49.73°C 🥵  982‰
-      $71 #1079   ~60 indispensable          41.76°C 😎  899‰
-     $455  #482       surveillance           26.40°C 🥶
-    $1167  #441       self                   -0.01°C 🧊
-
-
-# [Quordle Extreme](m-w.com/games/quordle/#/extreme) 🧩 #517 🥳 score:22 ⏱️ 0:02:13.030788
-
+🤔 215 attempts
 📜 2 sessions
+🫧 17 chat sessions
+⁉️ 33 chat prompts
+🤖 33 qwq:latest replies
+😱   1 🔥   6 🥵   6 😎  23 🥶 170 🧊   8
 
-Quordle Extreme m-w.com/games/quordle/
+      $1 #215   ~1 lodge          100.00°C 🥳 1000‰
+      $2 #214   ~2 inn             54.84°C 😱  999‰
+      $3 #213   ~3 guesthouse      52.61°C 🔥  997‰
+      $4 #203  ~12 lodging         51.22°C 🔥  996‰
+      $5 #172  ~18 campground      50.63°C 🔥  995‰
+      $6 #171  ~19 campsite        49.06°C 🔥  994‰
+      $7 #208   ~8 hotel           46.82°C 🔥  992‰
+      $8 #207   ~9 hostel          46.33°C 🔥  991‰
+      $9 #118  ~28 camping         40.62°C 🥵  983‰
+     $10 #209   ~7 motel           39.76°C 🥵  979‰
+     $11 #206  ~10 accommodation   38.27°C 🥵  976‰
+     $15 #116  ~29 trail           30.41°C 😎  862‰
+     $38  #14      cathedral       20.83°C 🥶
+    $208 #119      bag             -0.47°C 🧊
 
-1. RAYON attempts:7 score:7
-2. MOCHA attempts:4 score:4
-3. WRATH attempts:5 score:5
-4. USURY attempts:6 score:6
+# cemantix.certitudes.org 🧩 #1398 🥳 439 ⏱️ 3:00:28.224730
 
-# [Quordle Rescue](m-w.com/games/quordle/#/rescue) 🧩 #48 🥳 score:25 ⏱️ 0:01:56.125729
+🤔 440 attempts
+📜 1 sessions
+🫧 72 chat sessions
+⁉️ 155 chat prompts
+🤖 63 dolphin3:latest replies
+🤖 92 qwq:latest replies
+🔥   2 🥵  11 😎  53 🥶 288 🧊  85
+
+      $1 #440   ~1 élite              100.00°C 🥳 1000‰
+      $2 #431   ~7 bourgeoisie         55.67°C 😱  999‰
+      $3 #436   ~4 aristocratie        52.66°C 🔥  995‰
+      $4 #324  ~29 idéologie           46.14°C 🥵  984‰
+      $5 #189  ~52 minorité            45.94°C 🥵  983‰
+      $6 #386  ~17 nation              45.57°C 🥵  982‰
+      $7 #284  ~35 démocratisation     45.09°C 🥵  981‰
+      $8 #350  ~26 idéologique         43.92°C 🥵  973‰
+      $9 #318  ~31 politique           43.40°C 🥵  968‰
+     $10  #97  ~63 populaire           43.14°C 🥵  963‰
+     $11 #432   ~6 dominant            39.65°C 🥵  932‰
+     $15 #387  ~16 nationalisme        37.58°C 😎  893‰
+     $68 #264      cohésion            26.53°C 🥶
+    $356 #335      climatique          -0.30°C 🧊
+
+# [Quordle Rescue](m-w.com/games/quordle/#/rescue) 🧩 #49 🥳 score:22 ⏱️ 0:01:41.470301
 
 📜 2 sessions
 
 Quordle Rescue m-w.com/games/quordle/
 
-1. DRAFT attempts:6 score:6
-2. DRAIN attempts:7 score:7
-3. BANJO attempts:8 score:8
-4. GUEST attempts:4 score:4
+1. FRAUD attempts:5 score:5
+2. AGENT attempts:4 score:4
+3. TEMPO attempts:7 score:7
+4. SWORN attempts:6 score:6
 
-# [Quordle Weekly](m-w.com/games/quordle/#/weekly) 🧩 2025-W53 🥳 score:26 ⏱️ 0:02:39.790010
+# [Quordle Extreme](m-w.com/games/quordle/#/extreme) 🧩 #518 🥳 score:26 ⏱️ 0:02:03.845855
 
 📜 2 sessions
 
-Quordle Weekly m-w.com/games/quordle/
+Quordle Extreme m-w.com/games/quordle/
 
-1. SHELL attempts:7 score:7
-2. CRUSH attempts:8 score:8
-3. FAITH attempts:6 score:6
-4. ADBOE attempts:5 score:5
+1. ROUND attempts:6 score:6
+2. SWEET attempts:8 score:8
+3. RUMOR attempts:5 score:5
+4. ROYAL attempts:7 score:7
 
-# [Quordle Sequence](m-w.com/games/quordle/#/sequence) 🧩 #1434 🥳 score:22 ⏱️ 0:03:24.807342
+# [Quordle Sequence](m-w.com/games/quordle/#/sequence) 🧩 #1435 🥳 score:25 ⏱️ 0:02:19.383202
 
-📜 6 sessions
+📜 2 sessions
 
 Quordle Sequence m-w.com/games/quordle/
 
-1. DINGY attempts:4 score:4
-2. GRUNT attempts:5 score:5
-3. THEME attempts:6 score:6
-4. BLEEP attempts:7 score:7
+1. SHOVE attempts:4 score:4
+2. TRACE attempts:5 score:5
+3. BOSSY attempts:7 score:7
+4. WEEDY attempts:9 score:9
+
+# [Octordle Extreme](britannica.com/games/octordle/extreme) 🧩 #1435 🥳 score:63 ⏱️ 0:08:27.302745
+
+📜 4 sessions
+
+Octordle Extreme
+
+1. CHESS attempts:4 score:4
+2. BOSUN attempts:5 score:5
+3. GLAND attempts:7 score:7
+4. EXTRA attempts:12 score:12
+5. RAZOR attempts:10 score:10
+6. GAFFE attempts:8 score:8
+7. JUDGE attempts:6 score:6
+8. SMOTE attempts:11 score:11
+
+# [Octordle Rescue](britannica.com/games/octordle/rescue) 🧩 #1435 🥳 score:9 ⏱️ 0:05:37.288634
+
+📜 2 sessions
+
+Octordle Rescue
+
+1. MUNCH attempts:6 score:6
+2. LAUGH attempts:7 score:7
+3. CAROL attempts:8 score:8
+4. COAST attempts:9 score:9
+5. NATAL attempts:10 score:10
+6. OLDEN attempts:3 score:5
+7. THIRD attempts:11 score:11
+8. DOWNY attempts:12 score:12
+
+# [Octordle Sequence](britannica.com/games/octordle/sequence) 🧩 #1435 🥳 score:68 ⏱️ 0:04:39.116938
+
+📜 3 sessions
+
+Octordle Sequence
+
+1. RAJAH attempts:5 score:5
+2. WHEEL attempts:6 score:6
+3. LLAMA attempts:7 score:7
+4. GRAND attempts:8 score:8
+5. EVENT attempts:9 score:9
+6. VERGE attempts:10 score:10
+7. CREED attempts:8 score:11
+8. SHAWL attempts:9 score:12
