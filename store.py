@@ -1249,6 +1249,26 @@ class StoredLog:
         return ' '.join(self.puzzle_names)
 
     @staticmethod
+    def slug_parts(slug: str, trailer: bool = False) -> Generator[str]:
+        m = re.match(r'(?x) \[ ( .+? ) \] \( ( .+? ) \) ', slug)
+        if m:
+            slug = f'{m[1]} {slug[m.end():]}'
+
+        m = re.match(r'(?x) 🔗 [ ]+ ( .+? ) $', slug)
+        if m:
+            yield m[1]
+            slug = str(m[2])
+
+        m = re.match(r'(?x) 🧩 [ ]+ ( [^\s]+ ) \s* ( .*? ) $', slug)
+        if m:
+            yield m[1]
+            slug = str(m[2])
+
+        slug = slug.strip()
+        if slug and trailer:
+            yield slug
+
+    @staticmethod
     def slug_split(s: str):
         m = re.match(r'''(?x)
         (?P<slug>
