@@ -1820,6 +1820,12 @@ class Search(StoredLog):
                 val = may(token)
                 if val is not None: return val
 
+        def tb_refs(token: str):
+            if re.match(r'[Tt]\d+', token):
+                return [(True, r) for r in unroll_refs(f'${token}')]
+            if re.match(r'[Bb]\d+', token):
+                return [(False, r) for r in unroll_refs(f'${token}')]
+
         def signed_ref(token: str):
             if token.startswith('+') and len(token) > 1:
                 r = rec(token[1:], ref, quoted, just)
@@ -1886,16 +1892,9 @@ class Search(StoredLog):
                         trailer.append(f'{token} {rest.strip()}')
                     break
 
-                if re.match(r'[Tt]\d+', token):
-                    like_words.extend(unroll_refs(f'${token}'))
-                    continue
-
-                if re.match(r'[Bb]\d+', token):
-                    unlike_words.extend(unroll_refs(f'${token}'))
-                    continue
-
                 lul_refs = rec(
                     token,
+                    tb_refs,
                     signed_ref,
                     lit_ref)
                 if lul_refs is not None:
