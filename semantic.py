@@ -1820,6 +1820,11 @@ class Search(StoredLog):
                 val = may(token)
                 if val is not None: return val
 
+        def lit_ref(token: str):
+            r = rec(token, ref, quoted)
+            if r is not None:
+                return [(True, r)]
+
         clear = False
         count: int|None = None
         count_given: bool = False
@@ -1891,9 +1896,12 @@ class Search(StoredLog):
                     else: ui.print(f'! ignoring * token {token}')
                     continue
 
-                like_tok = rec(token, ref, quoted)
-                if like_tok:
-                    like_words.append(like_tok)
+                lul_refs = rec(
+                    token,
+                    lit_ref)
+                if lul_refs is not None:
+                    for lul, r in lul_refs:
+                        (like_words if lul else unlike_words).append(r)
                     continue
 
                 rel = token if not rel else f'{rel} {token}'
