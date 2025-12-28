@@ -1,0 +1,82 @@
+T35374.550658319014 now: 2025-12-28T08:51:01EST
+TD56 site: m-w.com/games/quordle
+TDD-25 wordlist: nwl2023.txt
+TDD-26 num_words: 4
+TDD4934690  ...
+T29.294688031979604 now: 2025-12-28T14:17:37EST
+TD783070  ...
+TDD1512708 > /mode extreme
+TDD-2295556 mode: Extreme
+TDD3599485 > /site
+TDD2216207  ...
+TDD-4848028 > * 1
+TDD320179 ? 1
+TDD-1287915 questioning: tesla
+TDD5855696 #1 _____? nnnnM
+TDD-5855654 attempt: 0 TESLA n n n n m
+TDD2248416 #2 _____? nnnnY
+TDD-2248325 attempt: 1 TESLA n n n n Y
+TDD1702690 #3 _____? MnnnM
+TDD-1702672 attempt: 2 TESLA m n n n m
+TDD3159609 #4 _____? nnMnn
+TDD-3159657 attempt: 3 TESLA n n m n n
+TDD2559875 > * 4
+TDD295317 ? 4
+TDD-2855247 questioning: sound
+TDD3560171 #1 _____ ~A -ELST? nMnMn
+TDD-3560150 attempt: 0 SOUND n m n m n
+TDD1375082 #2 ____A -ELST? nYnnn
+TDD-1375115 attempt: 1 SOUND n Y n n n
+TDD2223852 #3 _____ ~AT -ELS? nnnnn
+TDD-2223877 attempt: 2 SOUND n n n n n
+TDD1887396 #4 _____ ~S -AELT? MnYnn
+TDD-1887384 attempt: 3 SOUND m n Y n n
+TDD21216111 > * 3
+TDD-19776264 ? 1
+TDD-1439854 questioning: patch
+TDD4007675 #1 _____ ~ANO -DELSTU? nYnnn
+TDD-4007611 attempt: 0 PATCH n Y n n n
+TDD1511569 #2 _O__A -DELNSTU? nMnMM
+TDD-1511620 attempt: 1 PATCH n m n m m
+TDD2151767 #3 _____ ~AT -DELNOSU? nMMnY
+TDD-2151761 attempt: 2 PATCH n m m n Y
+TDD1951504 #4 __U__ ~S -ADELNOT? nnnnn
+TDD-1951502 attempt: 3 PATCH n n n n n
+TDD1463652 > * 2
+TDD-1389296 questioning: mocha
+TDD4186822 #1 _A___ ~NO -CDEHLPSTU? nMnnM
+TDD-4261089 attempt: 0 MOCHA n m n n m
+TDD1519542 #2 _O__A ~CH -DELNPSTU? YYYYY
+TDD-1519642 attempt: 1 MOCHA Y Y Y Y Y
+TDD2088420 #3 ____H ~AT -CDELNOPSU? nnnMM
+TDD-2088387 attempt: 2 MOCHA n n n m m
+TDD1391287 #4 __U__ ~S -ACDEHLNOPT? nnnnn
+TDD-1391320 attempt: 3 MOCHA n n n n n
+TDD2551278 > * 3
+TDD-343457 ? 2
+TDD-2207838 questioning: wrath
+TDD5184022 #1 _A___ ~NO -CDEHLMPSTU? nMMnn
+TDD-5183944 attempt: 0 WRATH n m m n n
+TDD1615075 #3 ____H ~AT -CDELMNOPSU? YYYYY
+TDD-1615133 attempt: 2 WRATH Y Y Y Y Y
+TDD1583852 #4 __U__ ~S -ACDEHLMNOPT? nMnnn
+TDD-1583813 attempt: 3 WRATH n m n n n
+TDD1695686 > * 4
+TDD-1609753 questioning: usury
+TDD4947444 #1 _A___ ~NOR -CDEHLMPSTUW? nnnMM
+TDD-5033442 attempt: 0 USURY n n n m m
+TDD1543662 #4 __U__ ~RS -ACDEHLMNOPTW? YYYYY
+TDD-1543658 attempt: 3 USURY Y Y Y Y Y
+TDD1168504 > * 1
+TDD-1067791 questioning: rayon
+TDD14310167 #1 _A___ ~NORY -CDEHLMPSTUW? YYYYY
+TDD-14410862 attempt: 0 RAYON Y Y Y Y Y
+TDD4394732 📋> 🥵 Daily Extreme 517
+TDD-4394780 📋> 7️⃣4️⃣
+TDD-105 📋> 5️⃣6️⃣
+TDD-7 📋> m-w.com/games/quordle/
+TDD412770 📋> 
+TDD-116724 📋> ␚
+TDD-295906 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udd75 Daily Extreme 517\n7\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD17 result: "\ud83e\udd75 Daily Extreme 517\n7\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD543346 📆 2025-12-28 ? 
