@@ -1038,11 +1038,12 @@ class Meta(Arguable):
         '''
         ui.print('Solver Status:')
         for i, day, note, head, _body in self.read_status(ui):
+            harness = solver_harness[i] if 0 <= i < len(solver_harness) else None
             mark = '❔'
             if day is not None: mark = '✅'
             if head: mark += '📜'
             write_tokens(ui, PeekIter((
-                f'{mark} {solver_harness[i]}',
+                f'{mark} {harness}',
                 f'{day}',
                 *marked_tokenize(note)
             )))
