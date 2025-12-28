@@ -397,13 +397,30 @@ class Nordle(StoredLog):
         self.questioning = word_str
         ui.copy(word_str)
         ui.print(f'📋 "{word_str}"')
+        return self.do_question
 
-        wu = word_str.upper()
+    def do_question(self, ui: PromptUI) -> PromptUI.State|None:
+        wu = self.questioning.upper()
+
+        pending = list(range(len(self.words)))
+        pending = [i for i in pending if not self.words[i].done]
+        if not pending:
+            return self.play
+        if self.mode.lower() == 'sequence':
+            i = pending[0]
+            prio = self.attempts[i-1]
+            mine = self.attempts[i]
+            if len(mine) >= len(prio) and wu in (a.word for a in self.attempts[i]):
+                return self.play
+        else:
+            pending = [i for i in pending if wu not in (a.word for a in self.attempts[i])]
+        if not pending:
+            return self.play
 
         def collect_feedback(i: int):
             while True:
                 word = self.words[i]
-                with ui.input(f'#{i+1} {word}? ') as tokens:
+                with ui.input(f'{self.mode} #{i+1} {word}? ') as tokens:
                     fb = parse_feedback(tokens, len(word))
                     if len(fb) != len(word):
                         ui.print(f'! invalid feedback length; expected {len(word)}, got {len(fb)}')
@@ -413,14 +430,24 @@ class Nordle(StoredLog):
                     ui.log(f'attempt: {i} {at}')
                     break
 
-        pending = list(range(len(self.words)))
-        pending = [i for i in pending if not self.words[i].done]
-        pending = [i for i in pending if wu not in (a.word for a in self.attempts[i])]
-        if pending:
+        if self.mode.lower() != 'sequence':
             for i in pending:
                 collect_feedback(i)
+            return self.play
 
-        return self.play
+        i = pending[0]
+
+        prio = self.attempts[i-1]
+        mine = self.attempts[i]
+        if len(mine) < len(prio):
+            prior = prio[len(mine)].word
+            if prior != self.questioning:
+                return self.question(ui, prior)
+
+        if not self.words[i].done:
+            collect_feedback(i)
+
+        return self.do_question
 
     def do_guess(self, ui: PromptUI, show_n: int=10):
         '''
@@ -626,6 +653,19 @@ class Result:
                 continue
 
             m = re.match(r'''(?x)
+                Daily
+                \s+ (?P<mode> [^\s]+ )
+                \s+ (?P<kind> [^\s]+ ) ordle
+                \s+ [#]? (?P<id> [\d]+ )
+            ''', line)
+            if m:
+                kind = m.group('kind')
+                mode = m.group('mode')
+                id_str = m.group('id')
+                if id_str: id = int(id_str)
+                continue
+
+            m = re.match(r'''(?x)
                 (?P<mode> [^\s]+ )
                 \s+ (?P<kind> [^\s]+ ) ordle
                 (?: \s+ [#]? (?P<id> [\d]+ ) )?
@@ -741,6 +781,16 @@ class Result:
     - kind: Qu
     - mode: Weekly
     - id: 131
+    - trailer: m-w.com/games/quordle/
+
+    #quordle_seq_solv
+    > Daily Sequence Quordle 1434
+    > 4️⃣5️⃣
+    > 6️⃣7️⃣
+    > m-w.com/games/quordle/
+    - kind: Qu
+    - mode: Sequence
+    - id: 1434
     - trailer: m-w.com/games/quordle/
 
 ''')
