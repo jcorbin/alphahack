@@ -162,14 +162,16 @@ class Nordle(StoredLog):
 
     @property
     @override
-    def puzzle_name(self):
+    def puzzle_names(self):
         res = self.result
         if res:
-            return f'{res.kind}ordle {res.mode}'
+            yield f'{res.kind}ordle'
+            yield res.mode
         elif self.kind:
-            return f'{self.kind} {self.mode or "Classic"}'
+            yield f'{self.kind}'
+            yield self.mode or 'Classic'
         else:
-            return '?-ordle'
+            yield '?-ordle'
 
     @override
     def store_subents(self):
