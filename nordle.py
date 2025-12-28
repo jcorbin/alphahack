@@ -106,6 +106,7 @@ class Nordle(StoredLog):
             'Extreme',
             'Rescue',
             'Sequence',
+            'Weekly',
         }
         canon_mode = {m.lower(): m for m in known_modes}
 
@@ -541,6 +542,7 @@ class Result:
     def max_guesses(self):
         if self.kind == 'Qu':
             if self.mode == 'Classic': return 9
+            elif self.mode == 'Weekly': return 9
             elif self.mode == 'Chill': return 12
             elif self.mode == 'Extreme': return 8
             elif self.mode == 'Rescue': return 9 # XXX or 7, given 2
@@ -578,6 +580,18 @@ class Result:
         trailer = ''
 
         for line in spliterate(s, '\n', trim=True):
+            m = re.match(r'''(?x)
+                Weekly
+                \s+ (?P<kind> [^\s]+ ) ordle
+                \s+ Challenge
+                \s+ [#]? (?P<id> [\d]+ )
+            ''', line)
+            if m:
+                kind = m.group('kind')
+                mode = 'Weekly'
+                id_str = m.group('id')
+                if id_str: id = int(id_str)
+                continue
 
             m = re.match(r'''(?x)
                 (?: (?P<mark> [^\s]+ ) \s+ )?
@@ -712,6 +726,16 @@ class Result:
     - turns: (6, 10, 7, 8, 13, 12, 4, 9)
     - trailer:
     - score: 69
+
+    #quordle_weekly_solve
+    > Weekly Quordle Challenge 131
+    > 7️⃣8️⃣
+    > 6️⃣5️⃣
+    > m-w.com/games/quordle/
+    - kind: Qu
+    - mode: Weekly
+    - id: 131
+    - trailer: m-w.com/games/quordle/
 
 ''')
 def test_parse_result(spec: MarkedSpec):
