@@ -1190,8 +1190,12 @@ class StoredLog:
         return tuple(self.slug(link=True))
 
     @property
+    def puzzle_names(self) -> Generator[str]:
+        yield self.site_name
+
+    @property
     def puzzle_name(self) -> str:
-        return ''
+        return ' '.join(self.puzzle_names)
 
     def slug(self, link: bool = True):
         site = self.site or self.default_site
