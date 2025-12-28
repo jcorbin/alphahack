@@ -1844,6 +1844,9 @@ class Search(StoredLog):
             if head:
                 tokens.give(head)
 
+            if self.auto_affix:
+                tokens.rest = f'{tokens.rest} {self.auto_affix}'
+
             for token in tokens:
                 if re.match(r'\d+$', token):
                     if count_given:
