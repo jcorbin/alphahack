@@ -1822,6 +1822,7 @@ class Search(StoredLog):
 
         clear = False
         count: int|None = None
+        count_given: bool = False
         rel: str|None = None
         like_words: list[str] = []
         unlike_words: list[str] = []
@@ -1839,15 +1840,11 @@ class Search(StoredLog):
                     ui.print('no last chat prompt')
                 raise StopIteration
 
-            first = True
-            count_given = False
+            head = tokens.have(r'.(.*)', lambda m: str(m[1]))
+            if head:
+                tokens.give(head)
 
             for token in tokens:
-                if first:
-                    first = False
-                    token = token[1:] # TODO more general "dispatched command prefix trim"
-                    if not token: continue
-
                 if re.match(r'\d+$', token):
                     if count_given:
                         raise ValueError('count already given, did you miss a T or B?')
