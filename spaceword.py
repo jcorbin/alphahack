@@ -1792,7 +1792,7 @@ class SpaceWord(StoredLog):
             ui.log(f'change: {i} {let}')
 
     @matcher(r'''(?x)
-        change : \s+ .*
+        ( change | letters ) : \s+ .*
         ''')
     def load_board(self, _t: float, m: re.Match[str]):
         _ = self.board.load_line(m[0])
