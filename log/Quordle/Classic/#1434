@@ -1,0 +1,80 @@
+T35374.550658319014 now: 2025-12-28T08:51:01EST
+TD56 site: m-w.com/games/quordle
+TDD-25 wordlist: nwl2023.txt
+TDD-26 num_words: 4
+TDD4934690  ...
+TDD-3542723 > * 1
+TDD-503996 ? 1
+TDD-887805 questioning: saner
+TDD4647699 #1 _____? YnYMn
+TDD-4647671 attempt: 0 SANER Y n Y m n
+TDD3679697 #2 _____? nYnYY
+TDD-3679639 attempt: 1 SANER n Y n Y Y
+TDD1743468 #3 _____? nnnMM
+TDD-1743476 attempt: 2 SANER n n n m m
+TDD1599557 #4 _____? nMnnM
+TDD-1599617 attempt: 3 SANER n m n n m
+TDD8400103 > * 3
+TDD-6832039 ? 1
+TDD-1568038 questioning: recto
+TDD4223160 #1 S_N__ ~E -AR? nMnnn
+TDD-4223163 attempt: 0 RECTO n m n n n
+TDD1647439 #2 _A_ER -NS? MMnnn
+TDD-1647395 attempt: 1 RECTO m m n n n
+TDD1519778 #3 _____ ~ER -ANS? MMnnn
+TDD-1519722 attempt: 2 RECTO m m n n n
+TDD1839370 #4 _____ ~AR -ENS? MnnMn
+TDD-1839490 attempt: 3 RECTO m n n m n
+TDD1567687 > * 1
+TDD-1473949 questioning: singe
+TDD4884400 #1 S_N__ ~E -ACORT? YYYYY
+TDD-4978076 attempt: 0 SINGE Y Y Y Y Y
+TDD1879345 #2 _A_ER -CNOST? nnnnM
+TDD-1879339 attempt: 1 SINGE n n n n m
+TDD2055795 #3 _____ ~ER -ACNOST? nMnnY
+TDD-2055793 attempt: 2 SINGE n m n n Y
+TDD1735139 #4 _____ ~ART -CENOS? nMnnn
+TDD-1735200 attempt: 3 SINGE n m n n n
+TDD1983524 > * 2
+TDD-839798 ? 1
+TDD-1143698 questioning: payer
+TDD4695488 #2 _A_ER -CGINOST? YYYYY
+TDD-4695450 attempt: 1 PAYER Y Y Y Y Y
+TDD3599818 #3 ____E ~IR -ACGNOST? nnnMM
+TDD-3599890 attempt: 2 PAYER n n n m m
+TDD1055535 #4 _____ ~AIRT -CEGNOS? nMnnM
+TDD-1055475 attempt: 3 PAYER n m n n m
+TDD2127611 > * 4
+TDD-848179 ? 1
+TDD-1279480 questioning: trail
+TDD6215912 #3 ____E ~IR -ACGNOPSTY? nYnMn
+TDD-6215924 attempt: 2 TRAIL n Y n m n
+TDD2991592 #4 _____ ~AIRT -CEGNOPSY? YYYYn
+TDD-2991592 attempt: 3 TRAIL Y Y Y Y n
+TDD2359648 > * 3
+TDD1888529 ? 3
+TDD-4248206 questioning: drive
+TDD5631395 #3 _R__E ~I -ACGLNOPSTY? MYYnY
+TDD-5631375 attempt: 2 DRIVE m Y Y n Y
+TDD2367389 #4 TRAI_ -CEGLNOPSY? nYMnn
+TDD-2367384 attempt: 3 DRIVE n Y m n n
+TDD1295945 > * 3
+TDD-1203672 questioning: bride
+TDD3911375 #3 _RI_E ~D -ACGLNOPSTVY? YYYYY
+TDD-4003589 attempt: 2 BRIDE Y Y Y Y Y
+TDD4223322 #4 TRAI_ -CDEGLNOPSVY? nYMnn
+TDD-4223311 attempt: 3 BRIDE n Y m n n
+TDD1359429 > * 4
+TDD408586 ? 2
+TDD-1768064 questioning: trait
+TDD3207561 #4 TRAI_ -BCDEGLNOPSVY? YYYYY
+TDD-3207528 attempt: 3 TRAIT Y Y Y Y Y
+TDD4327681 📋> 🙂 Daily Quordle 1434
+TDD-4327761 📋> 3️⃣4️⃣
+TDD-120 📋> 7️⃣8️⃣
+TDD-35 📋> m-w.com/games/quordle/
+TDD439544 📋> 
+TDD-215758 📋> ␚
+TDD-223662 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1434\n3\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1432 result: "\ud83d\ude42 Daily Quordle 1434\n3\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD260703 📆 2025-12-28 ? 
