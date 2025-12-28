@@ -1232,16 +1232,6 @@ class SpaceWord(StoredLog):
                 yield sid, partial(self.prior_reject_boards, sid=sid)
         yield 'all', self.prior_reject_boards
 
-    @override
-    def load(self, ui: PromptUI, lines: Iterable[str]):
-        for t, rest in super().load(ui, lines):
-            orig_rest = rest
-            with ui.exc_print(lambda: f'while loading {orig_rest!r}'):
-                if self.board.load_line(rest):
-                    continue
-
-                yield t, rest
-
     @property
     def wordlist(self):
         return load_wordlist(self.wordlist_file)
@@ -1800,6 +1790,12 @@ class SpaceWord(StoredLog):
         for i, let in changes:
             self.board.set(i, let)
             ui.log(f'change: {i} {let}')
+
+    @matcher(r'''(?x)
+        change : \s+ .*
+        ''')
+    def load_board(self, _t: float, m: re.Match[str]):
+        _ = self.board.load_line(m[0])
 
 SourceEntry = tuple[str, 'Source'] | Board
 Source = Callable[[PromptUI], Iterable[SourceEntry]]
