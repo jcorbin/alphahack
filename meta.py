@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 from emoji import emoji_count, is_emoji
 from functools import partial
 from os.path import basename
-from typing import Callable, cast, final, override
+from typing import Callable, Literal, cast, final, override
 from types import TracebackType
 
 from store import StoredLog, atomic_rewrite, git_txn
@@ -1069,8 +1069,10 @@ class Meta(Arguable):
 
         extra_note: list[str] = []
         extra_note_days: list[int] = []
+        extra_note_head: list[int] = []
 
         extra_head: list[str] = []
+        extra_head_note: list[int] = []
         extra_body: list[tuple[str, ...]] = []
 
         for level, text, body in self.report.sections():
@@ -1098,6 +1100,7 @@ class Meta(Arguable):
                     else:
                         extra_note.append(line)
                         extra_note_days.append(dd_n)
+                        extra_note_head.append(-1)
 
             else:
                 for solver_i, slug in enumerate(solver_heads):
@@ -1112,15 +1115,40 @@ class Meta(Arguable):
                         if any(line.strip() for line in body):
                             extra_head.append(text)
                             extra_body.append(body)
+                            extra_head_note.append(-1)
+
+        def compare_parts(a: tuple[str, ...], b: tuple[str, ...]) -> Literal[-1, 0, 1]:
+            for ai, bi in zip(a, b, strict=False):
+                if ai < bi: return -1
+                if bi < ai: return 1
+            if len(a) < len(b): return -1
+            if len(b) < len(a): return 1
+            return 0
+
+        for i, note in enumerate(extra_note):
+            for j, head in enumerate(extra_head):
+                a = tuple(StoredLog.slug_name(note).split())
+                b = tuple(StoredLog.slug_name(head).split())
+                if compare_parts(a, b) == 0:
+                    extra_head_note[j] = i
+                    extra_note_head[i] = j
+                # TODO link siblings/related/alternates?
 
         if verbose:
             for slug, note in zip(solver_notes, notes):
                 if not note:
                     ui.print(f'- Missing {slug!r}')
-            for note in extra_note:
-                ui.print(f'- Extra note {note!r}')
-            for head in extra_head:
-                ui.print(f'- Extra section {head!r}')
+            for note, ehi in zip(extra_note, extra_note_head):
+                if ehi < 0:
+                    ui.print(f'- Extra note {note!r}')
+            for head, eni in zip(extra_head, extra_head_note):
+                if eni < 0:
+                    ui.print(f'- Extra section {head!r}')
+
+        extra_dat = [
+            (dd_n, note, extra_head[head_i], extra_body[head_i])
+            for (note, dd_n, head_i) in zip(extra_note, extra_note_days, extra_note_head)
+            if head_i >= 0]
 
         for solver_i in self.solvers:
             dd_n = note_days[solver_i]
@@ -1128,6 +1156,12 @@ class Meta(Arguable):
             if verbose > 1:
                 ui.print(f'* [{solver_i}] day=[{dd_n-1}]={day} base')
             yield solver_i, day, notes[solver_i], heads[solver_i], bodys[solver_i]
+
+        for dd_n, note, head, body in extra_dat:
+            day = days[dd_n-1] if dd_n else None
+            if verbose > 1:
+                ui.print(f'* [-1] day=[{dd_n-1}]={day} unmatched note={note!r}')
+            yield -1, day, note, head, body
 
     def do_status(self, ui: PromptUI):
         '''
