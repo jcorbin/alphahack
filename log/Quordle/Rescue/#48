@@ -1,0 +1,91 @@
+T35374.550658319014 now: 2025-12-28T08:51:01EST
+TD56 site: m-w.com/games/quordle
+TDD-25 wordlist: nwl2023.txt
+TDD-26 num_words: 4
+TDD4934690  ...
+T422.0361544689804 now: 2025-12-28T15:25:05EST
+TD815062  ...
+TDD9592575 > /mode rescue
+TDD-10407448 mode: Rescue
+TDD2047658 > /site
+TDD2480251  ...
+TDD-2880263 > ?
+TDD2208354 > tried puppy
+TDD-3856043 questioning: puppy
+TDD1743558 #1 _____? nnnnn
+TDD-1743541 attempt: 0 PUPPY n n n n n
+TDD1367717 #2 _____? nnnnn
+TDD-1367693 attempt: 1 PUPPY n n n n n
+TDD1439586 #3 _____? nnnnn
+TDD-1439516 attempt: 2 PUPPY n n n n n
+TDD1559551 #4 _____? nYnnn
+TDD-1559635 attempt: 3 PUPPY n Y n n n
+TDD2335587 > tried power
+TDD-2335624 questioning: power
+TDD2960174 #1 _____ -PUY? nnnnM
+TDD-2960118 attempt: 0 POWER n n n n m
+TDD1399426 #2 _____ -PUY? nnnnM
+TDD-1399438 attempt: 1 POWER n n n n m
+TDD1583709 #3 _____ -PUY? nMnnn
+TDD-1583706 attempt: 2 POWER n m n n n
+TDD3759381 #4 _U___ -PY? nnnMn
+TDD-3759310 attempt: 3 POWER n n n m n
+TDD3223967 > * 1
+TDD-1896506 ? 1
+TDD-1327548 questioning: skirt
+TDD4823535 #1 _____ ~R -EOPUWY? nnnMY
+TDD-4823517 attempt: 0 SKIRT n n n m Y
+TDD1367869 #2 _____ ~R -EOPUWY? nnMMn
+TDD-1367870 attempt: 1 SKIRT n n m m n
+TDD2223467 #3 _____ ~O -EPRUWY? nnnnn
+TDD-2223429 attempt: 2 SKIRT n n n n n
+TDD2023432 #4 _U___ ~E -OPRWY? MnnnY
+TDD-2023435 attempt: 3 SKIRT m n n n Y
+TDD2567565 > * 4
+TDD-455692 ? 2
+TDD-2111869 questioning: guest
+TDD4351709 #1 ____T ~R -EIKOPSUWY? nnnnY
+TDD-4351609 attempt: 0 GUEST n n n n Y
+TDD1815570 #2 _____ ~IR -EKOPSTUWY? nnnnn
+TDD-1815637 attempt: 1 GUEST n n n n n
+TDD1591249 #3 _____ ~O -EIKPRSTUWY? nnnnn
+TDD-1591327 attempt: 2 GUEST n n n n n
+TDD1807712 #4 _U__T ~ES -IKOPRWY? YYYYY
+TDD-1807700 attempt: 3 GUEST Y Y Y Y Y
+TDD2647643 > * 3
+TDD-919896 ? 1
+TDD-1727764 questioning: blond
+TDD3431615 #1 ____T ~R -EGIKOPSUWY? nnnnM
+TDD-3431529 attempt: 0 BLOND n n n n m
+TDD1351348 #2 _____ ~IR -EGKOPSTUWY? nnnMM
+TDD-1351364 attempt: 1 BLOND n n n m m
+TDD2487811 #3 _____ ~O -EGIKPRSTUWY? YnMMn
+TDD-2487796 attempt: 2 BLOND Y n m m n
+TDD1375680 > * 1
+TDD-1293747 questioning: draft
+TDD3531225 #1 ____T ~DR -BEGIKLNOPSUWY? YYYYY
+TDD-3613180 attempt: 0 DRAFT Y Y Y Y Y
+TDD1479389 #2 _____ ~DINR -BEGKLOPSTUWY? YYYnn
+TDD-1479429 attempt: 1 DRAFT Y Y Y n n
+TDD1512348 #3 B____ ~NO -DEGIKLPRSTUWY? nnMnn
+TDD-1512348 attempt: 2 DRAFT n n m n n
+TDD1519491 > * 2
+TDD-1436487 questioning: drain
+TDD3177251 #2 DRA__ ~IN -BEFGKLOPSTUWY? YYYYY
+TDD-3260278 attempt: 1 DRAIN Y Y Y Y Y
+TDD2343455 #3 B____ ~ANO -DEFGIKLPRSTUWY? nnMnM
+TDD-2343447 attempt: 2 DRAIN n n m n m
+TDD1416088 > * 3
+TDD559548 ? 1
+TDD-1975586 questioning: banjo
+TDD4647276 #3 B____ ~ANO -DEFGIKLPRSTUWY? YYYYY
+TDD-4647331 attempt: 2 BANJO Y Y Y Y Y
+TDD4600665 📋> Daily Rescue 48
+TDD-4600714 📋> 6️⃣7️⃣
+TDD-110 📋> 8️⃣4️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD390959 📋> 
+TDD-198783 📋> ␚
+TDD-192076 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 48\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD6 result: "Daily Rescue 48\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD351350 📆 2025-12-28 ? 
