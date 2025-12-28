@@ -97,8 +97,22 @@ class Nordle(StoredLog):
         self.site = base if not mod or mod == 'classic' else f'{base}/#/{mod}'
 
     def do_mode(self, ui: PromptUI):
+        known_modes = {
+            'Casual',
+            'Challenge',
+            'Chill',
+            'Classic',
+            'Easy',
+            'Extreme',
+            'Rescue',
+            'Sequence',
+        }
+        canon_mode = {m.lower(): m for m in known_modes}
+
         if ui.tokens:
-            self.apply_mode(next(ui.tokens))
+            mode = next(ui.tokens)
+            mode = canon_mode.get(mode.lower(), mode)
+            self.apply_mode(mode)
             ui.log(f'mode: {self.mode}')
             ui.print(f'set mode: {self.mode}')
         else:
