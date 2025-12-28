@@ -1,0 +1,94 @@
+T35374.550658319014 now: 2025-12-28T08:51:01EST
+TD56 site: m-w.com/games/quordle
+TDD-25 wordlist: nwl2023.txt
+TDD-26 num_words: 4
+TDD4934690  ...
+T590.4369047479995 now: 2025-12-28T15:27:54EST
+TD1470797  ...
+TDD1697168 > /mode Weekly
+TDD-3167747 mode: Weekly
+TDD4559759 > * 
+TDD-3272209 > * 1
+TDD1792445 ? 2
+TDD-3079966 questioning: lames
+TDD3183512 #1 _____? MnnMM
+TDD-3183456 attempt: 0 LAMES m n n m m
+TDD2206940 #2 _____? nnnnM
+TDD-2207028 attempt: 1 LAMES n n n n m
+TDD1527675 #3 _____? nYnnn
+TDD-1527663 attempt: 2 LAMES n Y n n n
+TDD2615797 #4 _____? nMnMn
+TDD-2615839 attempt: 3 LAMES n m n m n
+TDD3071499 > * 3
+TDD3904407 ? 9
+TDD-6975897 questioning: party
+TDD5023535 #1 _____ ~ELS -AM? nnnnn
+TDD-5023474 attempt: 0 PARTY n n n n n
+TDD1247607 #2 _____ ~S -AELM? nnMnn
+TDD-1247675 attempt: 1 PARTY n n m n n
+TDD4175931 #3 _A___ -ELMS? nYnYn
+TDD-4175933 attempt: 2 PARTY n Y n Y n
+TDD1583711 #4 _____ ~AE -LMS? nMnnn
+TDD-1583644 attempt: 3 PARTY n m n n n
+TDD2542996 > * 4
+TDD2224846 ? 2
+TDD-4767927 questioning: anode
+TDD3935648 #1 _____ ~ELS -AMPRTY? nnnnM
+TDD-3935563 attempt: 0 ANODE n n n n m
+TDD1359450 #2 _____ ~RS -AELMPTY? nnnnn
+TDD-1359517 attempt: 1 ANODE n n n n n
+TDD1527981 #3 _A_T_ -ELMPRSY? Mnnnn
+TDD-1527911 attempt: 2 ANODE m n n n n
+TDD2791221 #4 _____ ~AE -LMPRSTY? YnYMY
+TDD-2791219 attempt: 3 ANODE Y n Y m Y
+TDD2191893 > * 4
+TDD-448431 ? 1
+TDD-1743511 questioning: adobe
+TDD6423326 #1 _____ ~ELS -ADMNOPRTY? nnnnM
+TDD-6423330 attempt: 0 ADOBE n n n n m
+TDD1303767 #2 _____ ~RS -ADELMNOPTY? nnnnn
+TDD-1303715 attempt: 1 ADOBE n n n n n
+TDD3127470 #3 _A_T_ -DELMNOPRSY? Mnnnn
+TDD-3127545 attempt: 2 ADOBE m n n n n
+TDD6047650 #4 A_O_E ~D -LMNPRSTY? YMYMY
+TDD-6047582 attempt: 3 ADOBE Y m Y m Y
+TDD16775517 > tried adboe
+TDD-16775580 questioning: adboe
+TDD2335620 #1 _____ ~ELS -ABDMNOPRTY? nnnnM
+TDD-2335608 attempt: 0 ADBOE n n n n m
+TDD1383953 #2 _____ ~RS -ABDELMNOPTY? nnnnn
+TDD-1383958 attempt: 1 ADBOE n n n n n
+TDD1599305 #3 _A_T_ -BDELMNOPRSY? Mnnnn
+TDD-1599250 attempt: 2 ADBOE m n n n n
+TDD1231350 #4 A_O_E ~BD -DLMNPRSTY? YYYYY
+TDD-1231419 attempt: 3 ADBOE Y Y Y Y Y
+TDD2471759 > * 3
+TDD-991761 ? 1
+TDD-1479974 questioning: faith
+TDD3343687 #1 _____ ~ELS -ABDMNOPRTY? nnnnM
+TDD-3343711 attempt: 0 FAITH n n n n m
+TDD1543872 #2 _____ ~RS -ABDELMNOPTY? nnnnY
+TDD-1543791 attempt: 1 FAITH n n n n Y
+TDD1559374 #3 _A_T_ -BDELMNOPRSY? YYYYY
+TDD-1559354 attempt: 2 FAITH Y Y Y Y Y
+TDD1382990 > * 1
+TDD-1254222 questioning: shell
+TDD2981972 #1 _____ ~EHLS -ABDFIMNOPRTY? YYYYY
+TDD-3110781 attempt: 0 SHELL Y Y Y Y Y
+TDD1679360 #2 ____H ~RS -ABDEFILMNOPTY? MMnnn
+TDD-1679301 attempt: 1 SHELL m m n n n
+TDD1647467 > * 2
+TDD-1542879 questioning: crush
+TDD3806052 #2 ____H ~RS -ABDEFILMNOPTY? YYYYY
+TDD-3910756 attempt: 1 CRUSH Y Y Y Y Y
+TDD5488285 📋> Weekly Quordle Challenge 131
+TDD-5488371 📋> 7️⃣8️⃣
+TDD-83 📋> 6️⃣5️⃣
+TDD-7 📋> m-w.com/games/quordle/
+TDD487622 📋> 
+TDD-295743 📋> ␚
+TDD-191746 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Weekly Quordle Challenge 131\n7\ufe0f\u20e38\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD11 result: "Weekly Quordle Challenge 131\n7\ufe0f\u20e38\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD519359 📆 2025-12-28 ? 
+TDD19000915 🧩 id (default: 2025-12-28) ? 2025-W53
+TDD-19520328 puzzle_id: 2025-W53
