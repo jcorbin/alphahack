@@ -1,0 +1,110 @@
+T35781.51706630002 now: 2025-12-28T08:57:48EST
+TD63 site: squareword.org
+TDD-27 wordlist: nwl2023.txt
+TDD3211212  ...
+TDD-139001 🧩  ? #1427
+TDD-3071899 puzzle_id: #1427
+TDD4807018 > *
+TDD-3703376 try? 1
+TDD-1103769 questioning: ["stoae", "#5"]
+T41.858038775011664 now: 2025-12-28T08:59:35EST
+TD94 questioning: ["stoae", "#5"]
+TDD12885011 #1 <IndexError>  📋 "stoae" ? ____E ~ A
+TDD-12884273 attempt 0 STOAE n n n m Y
+TDD5630136 #2 <IndexError>  📋 "stoae" ? _____ ~ AE
+TDD-5630667 attempt 1 STOAE n n n m m
+TDD8191616 #3 <IndexError>  📋 "stoae" ? _____ ~ TOE
+TDD-8191624 attempt 2 STOAE n m m n m
+TDD7830528 #4 <IndexError>  📋 "stoae" ? ___A_ ~ OE
+TDD-7830415 attempt 3 STOAE n n m Y m
+TDD5175945 #5 <IndexError>  📋 "stoae" ? _____ ~ STE
+TDD-5176077 attempt 4 STOAE m m n n m
+TDD575379 ? 
+TDD-575457 question done
+TDD2055381 > ?
+TDD11016417 > ␚
+T0.9784328950045165 now: 2025-12-28T09:00:36EST
+TD915318  ...
+TDD1540677 > *
+TDD2943895 try? 1
+TDD-5399524 questioning: ["noted", "#3 retcon"]
+T31.288800599984825 now: 2025-12-28T09:01:19EST
+TD103 questioning: ["noted", "#3 retcon"]
+TDD11011552 #1 ____E ~A -OST  📋 "noted" ? ____E ~ AD
+TDD-11010923 attempt 0 NOTED n n n n m
+TDD902255 #2 _____ ~AE -OST  📋 "noted" ? .
+TDD-902728 attempt 1 NOTED n n n m n
+TDD3519999 #3 _____ ~EOT -AS  📋 "noted" ? __TE_ ~ O
+TDD-3519947 attempt 2 NOTED n m Y Y n
+TDD4086824 #4 ___A_ ~EO -ST  📋 "noted" ? ___A_ ~ OEN
+TDD-4086850 attempt 3 NOTED m m n m n
+TDD1023979 #5 _____ ~EST -AO  📋 "noted" ? .
+TDD-1023933 attempt 4 NOTED n n m m n
+TDD342768 ? 
+TDD-342943 question done
+TDD831725 > *
+TDD-29882 questioning: ["ocean", "#4"]
+TDD5795874 #1 ____E ~AD -ENOST  📋 "ocean" ? .
+TDD-6597644 attempt 0 OCEAN n n n m n
+TDD928092 #2 _____ ~AE -DNOST  📋 "ocean" ? .
+TDD-928062 attempt 1 OCEAN n n m m n
+TDD2239089 #3 __TE_ ~O -ADNS  📋 "ocean" ? O_TE_
+TDD-2239111 attempt 2 OCEAN Y n n n n
+TDD751815 #4 ___A_ ~ENO -DST  📋 "ocean" ? /it
+TDD-751750 attempt 3 OCEAN Y Y Y Y Y
+TDD303127 #5 _____ ~EST -ADNO  📋 "ocean" ? 
+TDD928906 #5 _____ ~EST -ADNO  ? .
+TDD-1231983 attempt 4 OCEAN n n m n n
+TDD207330 ? 
+TDD-207511 question done
+TDD935624 > *
+TDD-261821 questioning: ["outer", "#3"]
+TDD4060389 #1 ____E ~AD -CENOST  📋 "outer" ? .
+TDD-4734117 attempt 0 OUTER n n n n n
+TDD942898 #2 _____ ~AE -CDNOST  📋 "outer" ? .
+TDD-942916 attempt 1 OUTER n n n m n
+TDD655513 #3 O_TE_ -ACDENS  📋 "outer" ? /it
+TDD-655530 attempt 2 OUTER Y Y Y Y Y
+TDD3183588 #5 _____ ~EST -ACDNO  📋 "outer" ? _____ ~ STER
+TDD-3183579 attempt 4 OUTER n n m m m
+TDD184053 ? 
+TDD-184088 question done
+TDD519131 > *
+TDD2433150 try? 1
+TDD-2952155 questioning: ["fella", "#2"]
+TDD3551422 #1 ____E ~AD -CENORSTU  📋 "fella" ? .
+TDD-3551487 attempt 0 FELLA n n n n m
+TDD671672 #2 _____ ~AE -CDNORSTU  📋 "fella" ? /it
+TDD-671631 attempt 1 FELLA Y Y Y Y Y
+TDD4303371 #5 _____ ~ERST -ACDNOU  📋 "fella" ? _E___ ~ STR
+TDD-4303368 attempt 4 FELLA n Y n n n
+TDD735291 ? 
+TDD-735411 question done
+TDD6695215 > *
+TDD-5666395 questioning: ["adage", "#1"]
+TDD2405977 #1 ____E ~AD -CEFLNORSTU  📋 "adage" ? /it
+TDD-3434668 attempt 0 ADAGE Y Y Y Y Y
+TDD1951939 #5 _E___ ~RST -ACDFLNOU  📋 "adage" ? .
+TDD-1951948 attempt 4 ADAGE n n n n n
+TDD191310 ? 
+TDD-191440 question done
+TDD687492 > *
+TDD113175 questioning: ["terms", "#5"]
+TDD6021826 #5 _E___ ~RST -ACDEFGLNOU  📋 "terms" ? /it
+TDD-6822382 attempt 4 TERMS Y Y Y Y Y
+TDD679835 ? 
+TDD-679939 question done
+TDD4799738 📋> squareword.org 1427: 7 guesses
+TDD-4799806 📋> 
+TDD-81 📋> 🟨🟨🟨🟨🟩
+TDD-9 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟩🟨🟨🟨
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD335466 📋> #squareword #squareword1427
+TDD-95034 📋> ␚
+TDD-240312 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1427: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1427"}
+TDD639 result: "squareword.org 1427: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1427"
+TDD254513 📆 2025-12-28 ? 
