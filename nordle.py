@@ -397,23 +397,29 @@ class Nordle(StoredLog):
         self.questioning = word_str
         ui.copy(word_str)
         ui.print(f'📋 "{word_str}"')
+
         wu = word_str.upper()
-        for i, (word, priors) in enumerate(zip(self.words, self.attempts)):
-            if word.done:
-                continue
-            n = i + 1
-            if any(a.word == wu for a in priors):
-                continue
+
+        def collect_feedback(i: int):
             while True:
-                with ui.input(f'#{n} {word}? ') as tokens:
+                word = self.words[i]
+                with ui.input(f'#{i+1} {word}? ') as tokens:
                     fb = parse_feedback(tokens, len(word))
                     if len(fb) != len(word):
                         ui.print(f'! invalid feedback length; expected {len(word)}, got {len(fb)}')
                         continue
                     at = Attempt(wu, fb)
-                    self.attempt_update(word, priors, at)
+                    self.attempt_update(word, self.attempts[i], at)
                     ui.log(f'attempt: {i} {at}')
                     break
+
+        pending = list(range(len(self.words)))
+        pending = [i for i in pending if not self.words[i].done]
+        pending = [i for i in pending if wu not in (a.word for a in self.attempts[i])]
+        if pending:
+            for i in pending:
+                collect_feedback(i)
+
         return self.play
 
     def do_guess(self, ui: PromptUI, show_n: int=10):
