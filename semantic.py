@@ -1820,6 +1820,16 @@ class Search(StoredLog):
                 val = may(token)
                 if val is not None: return val
 
+        def signed_ref(token: str):
+            if token.startswith('+') and len(token) > 1:
+                r = rec(token[1:], ref, quoted, just)
+                if r:
+                    return [(True, r)]
+            if token.startswith('-') and len(token) > 1:
+                r = rec(token[1:], ref, quoted, just)
+                if r:
+                    return [(False, r)]
+
         def lit_ref(token: str):
             r = rec(token, ref, quoted)
             if r is not None:
@@ -1884,20 +1894,9 @@ class Search(StoredLog):
                     unlike_words.extend(unroll_refs(f'${token}'))
                     continue
 
-                if token.startswith('+') and len(token) > 1:
-                    token = rec(token[1:], ref, quoted, just)
-                    if token: like_words.append(token)
-                    else: ui.print(f'! ignoring * token {token}')
-                    continue
-
-                if token.startswith('-') and len(token) > 1:
-                    token = rec(token[1:], ref, quoted, just)
-                    if token: unlike_words.append(token)
-                    else: ui.print(f'! ignoring * token {token}')
-                    continue
-
                 lul_refs = rec(
                     token,
+                    signed_ref,
                     lit_ref)
                 if lul_refs is not None:
                     for lul, r in lul_refs:
