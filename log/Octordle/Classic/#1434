@@ -1,0 +1,164 @@
+T35523.408210509006 now: 2025-12-28T08:53:30EST
+TD56 site: https://www.britannica.com/games/octordle/daily
+TDD-24 wordlist: nwl2023.txt
+TDD-26 num_words: 8
+TDD3943383  ...
+TDD-2360188 > * 1
+TDD-463264 ? 1
+TDD-1119763 questioning: reaps
+TDD4719930 #1 _____? nMYnM
+TDD-4719926 attempt: 0 REAPS n m Y n m
+TDD1495630 #2 _____? nnnMn
+TDD-1495609 attempt: 1 REAPS n n n m n
+TDD1527697 #3 _____? nnYYn
+TDD-1527647 attempt: 2 REAPS n n Y Y n
+TDD1583292 #4 _____? MnnMM
+TDD-1583369 attempt: 3 REAPS m n n m m
+TDD3911828 #5 _____? MnnMn
+TDD-3911765 attempt: 4 REAPS m n n m n
+TDD1903591 #6 _____? nYYnM
+TDD-1903621 attempt: 5 REAPS n Y Y n m
+TDD1367708 #7 _____? nnnnn
+TDD-1367667 attempt: 6 REAPS n n n n n
+TDD1487713 #8 _____? nMYnn
+TDD-1487693 attempt: 7 REAPS n m Y n n
+TDD3255251 > * 7
+TDD1904898 ? Mnnnn
+TDD-3456671 ? nYYnY
+TDD-271437 ? nnnMn
+TDD111247 ? nnMnn
+TDD600614 ? 1
+TDD-2143935 questioning: linty
+TDD3367812 #1 __A__ ~ES -PR? Mnnnn
+TDD-3367787 attempt: 0 LINTY m n n n n
+TDD1927570 #2 _____ ~P -AERS? nYYnY
+TDD-1927565 attempt: 1 LINTY n Y Y n Y
+TDD1663418 #3 __AP_ -ERS? nnnMn
+TDD-1663433 attempt: 2 LINTY n n n m n
+TDD1071536 #4 _____ ~PRS -AE? nnMnn
+TDD-1071517 attempt: 3 LINTY n n m n n
+TDD4439533 #5 _____ ~PR -AES? nnnnn
+TDD-4439563 attempt: 4 LINTY n n n n n
+TDD1199312 #6 _EA__ ~S -PR? nnnnn
+TDD-1199313 attempt: 5 LINTY n n n n n
+TDD2655558 #7 _____ -AEPRS? YnnnY
+TDD-2655540 attempt: 6 LINTY Y n n n Y
+TDD1487580 #8 __A__ ~E -PRS? nnnYn
+TDD-1487646 attempt: 7 LINTY n n n Y n
+TDD2551952 > * 4
+TDD-2395375 questioning: spurn
+TDD6630631 #1 __A__ ~ELS -INPRTY? Ynnnn
+TDD-6787205 attempt: 0 SPURN Y n n n n
+TDD3471109 #2 _IN_Y ~P -AELRST? nMnnM
+TDD-3471041 attempt: 1 SPURN n m n n m
+TDD1447547 #3 __AP_ ~T -EILNRSY? nMnnn
+TDD-1447525 attempt: 2 SPURN n m n n n
+TDD1391575 #4 _____ ~NPRS -AEILTY? YYYYY
+TDD-1391612 attempt: 3 SPURN Y Y Y Y Y
+TDD3687774 #5 _____ ~PR -AEILNSTY? nMMMn
+TDD-3687771 attempt: 4 SPURN n m m m n
+TDD1543164 #6 _EA__ ~S -ILNPRTY? Mnnnn
+TDD-1543157 attempt: 5 SPURN m n n n n
+TDD1951546 #7 L___Y -AEINPRST? nnnnn
+TDD-1951546 attempt: 6 SPURN n n n n n
+TDD1735712 #8 __AT_ ~E -ILNPRSY? nnnnn
+TDD-1735666 attempt: 7 SPURN n n n n n
+TDD7632002 > * 2
+TDD-5161009 ? 1
+TDD-2471075 questioning: pinky
+TDD5256342 #1 S_A__ ~EL -INPRTUY? nnnnn
+TDD-5256273 attempt: 0 PINKY n n n n n
+TDD1078665 #2 _IN_Y ~P -AELRSTU? YYYYY
+TDD-1078773 attempt: 1 PINKY Y Y Y Y Y
+TDD2975941 #3 __AP_ ~T -EILNRSUY? Mnnnn
+TDD-2975815 attempt: 2 PINKY m n n n n
+TDD4183874 #5 _____ ~PRU -AEILNSTY? Ynnnn
+TDD-4183913 attempt: 4 PINKY Y n n n n
+TDD1263117 #6 _EA__ ~S -ILNPRTUY? nnnnn
+TDD-1263197 attempt: 5 PINKY n n n n n
+TDD2375418 #7 L___Y -AEINPRSTU? nnnnY
+TDD-2375412 attempt: 6 PINKY n n n n Y
+TDD1600215 #8 __AT_ ~E -ILNPRSUY? nnnnn
+TDD-1600172 attempt: 7 PINKY n n n n n
+TDD2606976 > * 5
+TDD-2515395 questioning: proud
+TDD5113568 #1 S_A__ ~EL -IKNPRTUY? nnnnn
+TDD-5205134 attempt: 0 PROUD n n n n n
+TDD2358324 #3 __AP_ ~T -EIKLNRSUY? MnnnM
+TDD-2358306 attempt: 2 PROUD m n n n m
+TDD3567891 #5 P____ ~RU -AEIKLNSTY? YYYYY
+TDD-3567904 attempt: 4 PROUD Y Y Y Y Y
+TDD2903082 #6 _EA__ ~S -IKLNPRTUY? nnnnn
+TDD-2903074 attempt: 5 PROUD n n n n n
+TDD2319529 #7 L___Y -AEIKNPRSTU? nnMnn
+TDD-2319620 attempt: 6 PROUD n n m n n
+TDD1311579 #8 __AT_ ~E -IKLNPRSUY? nnnnn
+TDD-1311557 attempt: 7 PROUD n n n n n
+TDD1839980 > * 3
+TDD-1742902 questioning: adapt
+TDD5533564 #1 S_A__ ~EL -DIKNOPRTUY? nnYnn
+TDD-5630647 attempt: 0 ADAPT n n Y n n
+TDD1615199 #3 __AP_ ~DT -EIKLNORSUY? YYYYY
+TDD-1615196 attempt: 2 ADAPT Y Y Y Y Y
+TDD4039978 #6 _EA__ ~S -DIKLNOPRTUY? nnYnn
+TDD-4039918 attempt: 5 ADAPT n n Y n n
+TDD4231415 #7 L___Y ~O -ADEIKNPRSTU? nnnnn
+TDD-4231484 attempt: 6 ADAPT n n n n n
+TDD3463700 #8 __AT_ ~E -DIKLNOPRSUY? YnYnM
+TDD-3463684 attempt: 7 ADAPT Y n Y n m
+TDD3167900 > * 6
+TDD-552264 ? ␚
+TDD-2615727 <EOF>
+TDD2063536 > * 8
+TDD504732 ? 1
+TDD-2568160 questioning: abate
+TDD8567257 #1 S_A__ ~EL -DIKNOPRTUY? nnYnY
+TDD-8567202 attempt: 0 ABATE n n Y n Y
+TDD3935448 #6 _EA__ ~S -DIKLNOPRTUY? nnYnY
+TDD-3935528 attempt: 5 ABATE n n Y n Y
+TDD8439697 #7 L___Y ~O -ADEIKNPRSTU? nMnnn
+TDD-8439696 attempt: 6 ABATE n m n n n
+TDD1527610 #8 A_AT_ ~E -DIKLNOPRSUY? YnYYY
+TDD-1527551 attempt: 7 ABATE Y n Y Y Y
+TDD2359937 > * 7
+TDD-2263739 questioning: lobby
+TDD5334860 #1 S_A_E ~L -BDIKNOPRTUY? Mnnnn
+TDD-5431123 attempt: 0 LOBBY m n n n n
+TDD4223446 #6 _EA_E ~S -BDIKLNOPRTUY? nnnnn
+TDD-4223404 attempt: 5 LOBBY n n n n n
+TDD2591591 #7 L___Y ~BO -ADEIKNPRSTU? YYYYY
+TDD-2591576 attempt: 6 LOBBY Y Y Y Y Y
+TDD1167702 #8 A_ATE -BDIKLNOPRSUY? nnnnn
+TDD-1167711 attempt: 7 LOBBY n n n n n
+TDD3047632 > * 8
+TDD-2957473 questioning: agate
+TDD8770944 #1 S_A_E ~L -BDIKNOPRTUY? nnYnY
+TDD-8861132 attempt: 0 AGATE n n Y n Y
+TDD4912282 #6 _EA_E ~S -BDIKLNOPRTUY? nnYnY
+TDD-4912226 attempt: 5 AGATE n n Y n Y
+TDD2534988 #8 A_ATE -BDIKLNOPRSUY? YYYYY
+TDD-2535070 attempt: 7 AGATE Y Y Y Y Y
+TDD2847752 > * 6
+TDD-1647770 ? ␚
+TDD-1200036 <EOF>
+TDD1007626 > * 1
+TDD2047923 ? 2
+TDD-3055446 questioning: scale
+TDD4031658 #1 S_A_E ~L -BDGIKNOPRTUY? YYYYY
+TDD-4031605 attempt: 0 SCALE Y Y Y Y Y
+TDD7319418 #6 _EA_E ~S -BDGIKLNOPRTUY? MMYnY
+TDD-7319301 attempt: 5 SCALE m m Y n Y
+TDD1623350 > * 6
+TDD-1528770 questioning: cease
+TDD4889961 #6 _EA_E ~CS -BDGIKLNOPRTUY? YYYYY
+TDD-4984700 attempt: 5 CEASE Y Y Y Y Y
+TDD3728035 📋> Daily Octordle #1434
+TDD-3728175 📋> 🔟4️⃣
+TDD-83 📋> 6️⃣3️⃣
+TDD-3 📋> 5️⃣🕚
+TDD-2 📋> 8️⃣9️⃣
+TDD471862 📋> Score: 56
+TDD-279315 📋> ␚
+TDD-192413 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1434\n\ud83d\udd1f4\ufe0f\u20e3\n6\ufe0f\u20e33\ufe0f\u20e3\n5\ufe0f\u20e3\ud83d\udd5a\n8\ufe0f\u20e39\ufe0f\u20e3\nScore: 56"}
+TDD-8 result: "Daily Octordle #1434\n\ud83d\udd1f4\ufe0f\u20e3\n6\ufe0f\u20e33\ufe0f\u20e3\n5\ufe0f\u20e3\ud83d\udd5a\n8\ufe0f\u20e39\ufe0f\u20e3\nScore: 56"
+TDD350721 📆 2025-12-28 ? 
