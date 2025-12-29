@@ -1,0 +1,46 @@
+T175.10246144401026 now: 2025-12-29T10:14:09EST
+TD69 site: alphaguess.com
+TDD149231 loaded 196537 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (66 words excluded) asof 85fc9122ec0c50bd6ed8c11adc83febfe713e5b2
+TDD3908184  ...
+TDD-1457691 [0 : 98224 : 196537] mach? a
+TDD-2599673 progress: 1 98224 mach
+TDD1128057 [98225 : 147328 : 196537] rho? a
+TDD-1128045 progress: 1 147328 rho
+TDD1135990 [147329 : 171928 : 196537] tag? b
+TDD-1135973 progress: -1 171928 tag
+TDD1087140 [147329 : 159610 : 171928] slug? a
+TDD-1087170 progress: 1 159610 slug
+TDD1183937 [159611 : 165764 : 171928] stint? b
+TDD-1183934 progress: -1 165764 stint
+TDD1183553 [159611 : 162643 : 165764] speed? b
+TDD-1183555 progress: -1 162643 speed
+TDD1095929 [159611 : 161112 : 162643] sold? a
+TDD-1095932 progress: 1 161112 sold
+TDD1119784 [161113 : 161875 : 162643] sound? a
+TDD-1119749 progress: 1 161875 sound
+TDD1151853 [161876 : 162236 : 162643] span? b
+TDD-1151859 progress: -1 162236 span
+TDD1183525 [161876 : 162055 : 162236] sovkhoz? b
+TDD-1183534 progress: -1 162055 sovkhoz
+TDD2039856 [161876 : 161964 : 162055] sous? b
+TDD-2039810 progress: -1 161964 sous
+TDD1431704 [161876 : 161915 : 161964] soup? a
+TDD-1431690 progress: 1 161915 soup
+TDD1415518 [161916 : 161931 : 161964] sour? it
+TDD-1415539 progress: 0 161931 sour
+TDD-137 [161916 : 161931 : 161964] <Done>.
+TDD2632045 📋> 🧩 Puzzle #888
+TDD-2632016 📋> 
+TDD-60 📋> 🤔 13 guesses
+TDD-2 📋> 
+TDD0 📋> ⏱️ 15s
+TDD-1 📋> 
+TDD247972 📋> 🔗 alphaguess.com
+TDD-88230 📋> ␚
+TDD-159646 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #888\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 15s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-42 result: "\ud83e\udde9 Puzzle #888\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 15s\n\n\ud83d\udd17 alphaguess.com"
+TDD-51 result puzzle: 888
+TDD-4 result guesses: 13
+TDD0 result time: 15s
+TDD0 result link: alphaguess.com
+TDD271919 📆 2025-12-29 ? 
