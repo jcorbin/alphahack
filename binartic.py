@@ -639,19 +639,18 @@ class Search(StoredLog):
 
     def progress(self, ui: PromptUI, ix: int, cmp: Comparison, word: str = ''):
         self.apply_progress(ix, cmp, word)
-        ui.log(f'progress: {cmp} {ix} {word}')
+        ui.log(f'progress: {cmp} {ix} {word or self.words[ix]}')
 
     @matcher(r'''(?x)
         progress :
         \s+ (?P<cmp> -1|0|1 )
         \s+ (?P<index> \d+ )
-        \s+ (?P<word> [^\s]+ )
-        \s* ( .* ) $''')
+        \s* (?P<word> [^\s]+ )?
+        $''')
     def load_progress(self, _t: float, match: re.Match[str]):
         if self.wordlist is None:
             raise RuntimeError('cannot load progress before wordlist')
-        cs, ixs, word, rest = match.groups()
-        assert rest == ''
+        cs, ixs, word = match.groups()
         cmp = cast(Comparison, int(cs))
         ix = int(ixs)
         self.apply_progress(ix, cmp, word)
