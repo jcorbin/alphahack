@@ -1,0 +1,94 @@
+T477.7047890580143 now: 2025-12-29T10:19:12EST
+TD47 site: m-w.com/games/quordle
+TDD-16 wordlist: nwl2023.txt
+TDD-25 num_words: 4
+TDD3199054  ...
+T23089.162740514992 now: 2025-12-29T16:48:40EST
+TD1190571  ...
+TDD1417305 > /mode Extreme
+TDD-2607622 mode: Extreme
+TDD4878842 > /site
+TDD-1046709  ...
+TDD-2256195 > * 1
+TDD911259 ? 3
+TDD-2487245 questioning: sonar
+TDD3607674 Extreme #1 _____? nYMnM
+TDD-3607623 attempt: 0 SONAR n Y m n m
+TDD1919462 Extreme #2 _____? Ynnnn
+TDD-1919538 attempt: 1 SONAR Y n n n n
+TDD1679972 Extreme #3 _____? nMnnY
+TDD-1679964 attempt: 2 SONAR n m n n Y
+TDD2071330 Extreme #4 _____? nYnYM
+TDD-2071353 attempt: 3 SONAR n Y n Y m
+TDD1919643 > * 2
+TDD384313 ? 2
+TDD-2303934 questioning: smile
+TDD2871753 Extreme #1 _O___ ~NR -AS? nnnnn
+TDD-2871780 attempt: 0 SMILE n n n n n
+TDD1535580 Extreme #2 S____ -ANOR? YnnnM
+TDD-1535524 attempt: 1 SMILE Y n n n m
+TDD1679588 Extreme #3 ____R ~O -ANS? nMnnn
+TDD-1679623 attempt: 2 SMILE n m n n n
+TDD1271662 Extreme #4 _O_A_ ~R -NS? nnnMn
+TDD-1271635 attempt: 3 SMILE n n n m n
+TDD3023815 > * 2
+TDD-1416522 ? 2
+TDD-1607284 questioning: setup
+TDD3455516 Extreme #1 _O___ ~NR -AEILMS? nnnMn
+TDD-3455562 attempt: 0 SETUP n n n m n
+TDD2520105 Extreme #2 S____ ~E -AILMNOR? YMMnn
+TDD-2520019 attempt: 1 SETUP Y m m n n
+TDD3223676 Extreme #3 ____R ~MO -AEILNS? nnnMn
+TDD-3223716 attempt: 2 SETUP n n n m n
+TDD1263339 Extreme #4 _O_A_ ~LR -EIMNS? nnnnn
+TDD-1263285 attempt: 3 SETUP n n n n n
+TDD1823138 > * 3
+TDD992654 ? 2
+TDD-2815873 questioning: humor
+TDD5967958 Extreme #1 _O___ ~NRU -AEILMPST? nMnMM
+TDD-5967877 attempt: 0 HUMOR n m n m m
+TDD1295473 Extreme #2 S____ ~ET -AILMNOPRU? nnnnn
+TDD-1295564 attempt: 1 HUMOR n n n n n
+TDD2639925 Extreme #3 ____R ~MOU -AEILNPST? nYYYY
+TDD-2639919 attempt: 2 HUMOR n Y Y Y Y
+TDD2263555 Extreme #4 _O_A_ ~LR -EIMNPSTU? nnnMM
+TDD-2263485 attempt: 3 HUMOR n n n m m
+TDD1479191 > * 3
+TDD-1403693 questioning: rumor
+TDD5104101 Extreme #1 _O___ ~NRU -AEHILMPST? YMnMn
+TDD-5179665 attempt: 0 RUMOR Y m n m n
+TDD1735585 Extreme #2 S____ ~ET -AHILMNOPRU? nnnnn
+TDD-1735628 attempt: 1 RUMOR n n n n n
+TDD1215753 Extreme #3 _UMOR -AEHILNPST? YYYYY
+TDD-1215668 attempt: 2 RUMOR Y Y Y Y Y
+TDD3823644 Extreme #4 _O_A_ ~LR -EHIMNPSTU? YnnMn
+TDD-3823673 attempt: 3 RUMOR Y n n m n
+TDD2927417 > *1 
+TDD-1599114 > * 1
+TDD-1255466 questioning: round
+TDD2973542 Extreme #1 RO___ ~NU -AEHILMPST? YYYYY
+TDD-3046336 attempt: 0 ROUND Y Y Y Y Y
+TDD1351613 Extreme #2 S____ ~ET -AHILMNOPRU? nnnnn
+TDD-1351642 attempt: 1 ROUND n n n n n
+TDD2423655 Extreme #4 RO_A_ ~L -EHIMNPSTU? YYnnn
+TDD-2423691 attempt: 3 ROUND Y Y n n n
+TDD1408115 > * 4
+TDD-1315058 questioning: royal
+TDD6644974 Extreme #2 S____ ~ET -ADHILMNOPRU? nnnnn
+TDD-6738031 attempt: 1 ROYAL n n n n n
+TDD1671474 Extreme #4 RO_A_ ~L -DEHIMNPSTU? YYYYY
+TDD-1671427 attempt: 3 ROYAL Y Y Y Y Y
+TDD1808102 > * 2
+TDD4047300 ? 2
+TDD-5855454 questioning: sweet
+TDD3903424 Extreme #2 S____ ~ET -ADHILMNOPRUY? YYYYY
+TDD-3903367 attempt: 1 SWEET Y Y Y Y Y
+TDD4344875 📋> 🥵 Daily Extreme 518
+TDD-4344985 📋> 6️⃣8️⃣
+TDD-106 📋> 5️⃣7️⃣
+TDD-7 📋> m-w.com/games/quordle/
+TDD303770 📋> 
+TDD-47872 📋> ␚
+TDD-255769 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udd75 Daily Extreme 518\n6\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD26 result: "\ud83e\udd75 Daily Extreme 518\n6\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD255190 📆 2025-12-29 ? 
