@@ -1,0 +1,77 @@
+T477.7047890580143 now: 2025-12-29T10:19:12EST
+TD47 site: m-w.com/games/quordle
+TDD-16 wordlist: nwl2023.txt
+TDD-25 num_words: 4
+TDD3199054  ...
+TDD-1559338 > * 1
+TDD-535618 ? 1
+TDD-1103956 questioning: reals
+TDD3439725 Classic #1 _____? nnnnn
+TDD-3439709 attempt: 0 REALS n n n n n
+TDD2567695 Classic #2 _____? nnnMY
+TDD-2567673 attempt: 1 REALS n n n m Y
+TDD1271948 Classic #3 _____? MMnnn
+TDD-1271928 attempt: 2 REALS m m n n n
+TDD2135818 Classic #4 _____? nnMnn
+TDD-2135758 attempt: 3 REALS n n m n n
+TDD2151357 > * 1
+TDD2824063 ? 8
+TDD-4975499 questioning: punch
+TDD3375948 Classic #1 _____ -AELRS? nMnnn
+TDD-3375971 attempt: 0 PUNCH n m n n n
+TDD1095447 Classic #2 ____S ~L -AER? nnnnn
+TDD-1095367 attempt: 1 PUNCH n n n n n
+TDD1407531 Classic #3 _____ ~ER -ALS? nnnnn
+TDD-1407583 attempt: 2 PUNCH n n n n n
+TDD1111558 Classic #4 _____ ~A -ELRS? nnMnn
+TDD-1111511 attempt: 3 PUNCH n n m n n
+TDD3047442 > * 3
+TDD-1191674 ? 2
+TDD-1855843 questioning: drive
+TDD3127775 Classic #1 _____ ~U -ACEHLNPRS? Ynnnn
+TDD-3127750 attempt: 0 DRIVE Y n n n n
+TDD1288210 Classic #2 ____S ~L -ACEHNPRU? nnYnn
+TDD-1288151 attempt: 1 DRIVE n n Y n n
+TDD1479391 Classic #3 _____ ~ER -ACHLNPSU? nMMnM
+TDD-1479379 attempt: 2 DRIVE n m m n m
+TDD1159036 Classic #4 _____ ~AN -CEHLPRSU? nnnnn
+TDD-1158958 attempt: 3 DRIVE n n n n n
+TDD1447579 > * 1
+TDD-1371241 questioning: doubt
+TDD3622453 Classic #1 D____ ~U -ACEHILNPRSV? YYYYY
+TDD-3698948 attempt: 0 DOUBT Y Y Y Y Y
+TDD2199671 Classic #2 __I_S ~L -ACDEHNPRUV? nnnMn
+TDD-2199637 attempt: 1 DOUBT n n n m n
+TDD2063577 Classic #3 _____ ~EIR -ACDHLNPSUV? nnnnM
+TDD-2063623 attempt: 2 DOUBT n n n n m
+TDD1383704 Classic #4 _____ ~AN -CDEHILPRSUV? nMnnn
+TDD-1383717 attempt: 3 DOUBT n m n n n
+TDD1583696 > * 2
+TDD-1494923 questioning: bliss
+TDD3374278 Classic #2 __I_S ~BL -ACDEHNOPRTUV? YYYYY
+TDD-3462952 attempt: 1 BLISS Y Y Y Y Y
+TDD2623532 Classic #3 _____ ~EIRT -ABCDHLNOPSUV? nnMnn
+TDD-2623531 attempt: 2 BLISS n n m n n
+TDD1175384 Classic #4 _____ ~ANO -BCDEHILPRSTUV? nnnnn
+TDD-1175461 attempt: 3 BLISS n n n n n
+TDD1815767 > * 3
+TDD2608018 ? 2
+TDD-4423785 questioning: tiger
+TDD4431734 Classic #3 _____ ~EIRT -ABCDHLNOPSUV? YYYYY
+TDD-4431663 attempt: 2 TIGER Y Y Y Y Y
+TDD2087456 Classic #4 _____ ~ANO -BCDEHILPRSTUV? nnMnn
+TDD-2087452 attempt: 3 TIGER n n m n n
+TDD1727658 > * 4
+TDD720544 ? 2
+TDD-2448247 questioning: among
+TDD2967411 Classic #4 _____ ~AGNO -BCDEHILPRSTUV? YYYYY
+TDD-2967419 attempt: 3 AMONG Y Y Y Y Y
+TDD4528260 📋> 🙂 Daily Quordle 1435
+TDD-4528327 📋> 4️⃣5️⃣
+TDD-113 📋> 6️⃣7️⃣
+TDD-7 📋> m-w.com/games/quordle/
+TDD319576 📋> 
+TDD-127629 📋> ␚
+TDD-191821 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1435\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1104 result: "\ud83d\ude42 Daily Quordle 1435\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD269447 📆 2025-12-29 ? 
