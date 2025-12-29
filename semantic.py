@@ -9,6 +9,7 @@ import math
 import ollama
 import re
 import requests
+from bisect import insort
 from collections import Counter
 from collections.abc import Generator, Iterable, MutableMapping, Sequence
 from dataclasses import dataclass
@@ -27,6 +28,16 @@ from strkit import make_digit_str, matchgen, pad_parts, parse_digit_int, spliter
 from ui import PromptUI
 
 _ = load_dotenv()
+
+def shorten_under(name: str, names: Sequence[str]):
+    for m in re.finditer(r'\w+', name):
+        nom = name[:m.end()]
+        if not any(
+            n.startswith(nom)
+            for n in names
+            if n != name
+        ): return nom
+    return name
 
 def weighted(score: float, w: int|float):
     if w == 0: return 0
@@ -549,16 +560,16 @@ class ExtractedWords:
         self.known = is_good
         self.bad: set[str] = set()
         self.good: set[str] = set()
-        self.may: set[str] = set()
+        self.may: dict[str, int] = dict()
         self.extracted = 0
 
-    def consume(self, words: Iterable[str]):
-        for word in words:
+    def consume(self, words: Iterable[tuple[str, int]]):
+        for word, source_id in words:
             word = word.lower()
             self.extracted += 1
             if self.reject(word): self.bad.add(word)
             elif self.known(word): self.good.add(word)
-            else: self.may.add(word)
+            else: self.may[word] = source_id
 
     @property
     def notes(self):
@@ -683,13 +694,20 @@ class Search(StoredLog):
         self.attempt: int = 0
         self.word: list[str] = []
         self.score: list[float] = [] # TODO store normalized [0.0, 1.0]
+        self.word_used: list[int] = []
+
+        self.word_source: list[int] = []
+        self.word_sources: list[str] = []
+        self.word_source_noms: list[str] = []
+        self.word_sources_by: dict[str, int] = dict()
 
         # sorted by score
         self.index: list[int] = []
 
-        # sparse index for warm words
+        # sparse indices
         self.prog: dict[int, int] = dict()
-        self.recs: list[int] = []
+        self.ix_warm_rec: list[int] = []
+        self.ix_used: list[int] = []
 
         self.wordbad: set[str] = set()
         self.wordgood: dict[str, int] = dict()
@@ -1165,8 +1183,12 @@ class Search(StoredLog):
 
         if not len(self.word): return
 
+        til_ix = self.ix_warm_rec
+
         nw = len(str(len(self.word)))+1
-        tw = len(str(len(self.recs)))+1
+        sw = max(len(source) for source in self.word_source_noms)
+        tw = len(str(len(til_ix)))+1
+        uw = max(len(str(n)) for n in self.word_used)
         ww = max(len(word) for word in self.word)
 
         part_widths = (
@@ -1177,13 +1199,26 @@ class Search(StoredLog):
             1, # tier
             5, # prog‰
             tw, # ~N
+            5+uw, # used:N
+            2+nw, # [I]
+            7+sw, # source:nom
         )
 
         def extra_parts(word_i: int):
             try:
-                ri = self.recs.index(word_i)
-                yield f'~{len(self.recs)-ri}'
+                ri = til_ix.index(word_i)
+                yield f'~{len(til_ix)-ri}'
             except ValueError:
+                yield ''
+
+            yield f'used:{self.word_used[word_i]}'
+            yield f'[{self.ix_used.index(word_i)}]'
+
+            source_id = self.word_source[word_i]
+            source = self.source_nom(source_id)
+            if source:
+                yield f'source:{source:{sw}}'
+            else:
                 yield ''
 
         ix = 0
@@ -1704,7 +1739,7 @@ class Search(StoredLog):
             word = next(tokens, None)
             if word is not None:
                 self.wordbad.remove(word)
-                return self.attempt_word(ui, word.lower(), f'reentered')
+                return self.attempt_word(ui, word.lower(), f'reentered', source='user')
 
     def do_yester(self, ui: PromptUI):
         if not self.ephemeral or not self.stored:
@@ -1983,6 +2018,13 @@ class Search(StoredLog):
                 tokens.give(head)
 
             if self.auto_affix:
+                # TODO abbr expand does not always happen
+                #      in particular, if we have a manual trailer like `; yada` or `.`
+                #      which is followed by an abbr, so say `. !new` 
+                #      which may be trying to clear prior suffix while invoking one abbr
+                #      something something `if any sep in tokens.rest for sep in trailer_seps`
+                # TODO also we should start differentiating between `;` and `.` trailer seps
+                # TODO make neither of them terminal, and allow multiple -- e.g. fix `. /clear`
                 tokens.rest = f'{tokens.rest} {self.auto_affix}'
 
             abbr_done: set[str] = set()
@@ -2188,7 +2230,7 @@ class Search(StoredLog):
 
                 return self.chat_prompt(ui, ' '.join(parts))
 
-            return self.attempt_word(ui, next(tokens), f'entered')
+            return self.attempt_word(ui, next(tokens), f'entered', source='user')
 
     def automate(self) -> Generator[tuple[float, str, Explainable]]:
         if self.last_chat_role == 'user':
@@ -2427,20 +2469,48 @@ class Search(StoredLog):
                word: str,
                score: float,
                prog: int|None,
+               source: str='',
                ):
         if word in self.wordgood:
             # TODO nicer to update, believe the user
             ui.print(f'! ignoring duplicate response for word "{word}"')
             return
 
-        i = self.append_record(word, score, prog)
-        ui.log(f'attempt_{i}: "{word}" score:{score:.2f} prog:{prog}')
+        i = self.append_record(word, score, prog, source)
+        ui.log(f'attempt_{i}: "{word}" score:{score:.2f} prog:{prog} source:{json.dumps(source)}')
         return i
+
+    def source_code(self, source: str):
+        source_id = self.word_sources_by.get(source)
+        if source_id is None:
+            nom = shorten_under(source, self.word_source_noms)
+            self.word_sources.append(source)
+            self.word_source_noms.append(nom)
+            self.word_sources_by[source] = source_id = len(self.word_sources)
+            for i, nom in enumerate(self.word_source_noms):
+                if nom and source.startswith(nom):
+                    name = self.word_sources[i]
+                    nom = shorten_under(name, self.word_sources)
+                self.word_source_noms[i] = nom
+        return source_id
+
+    def source_name(self, source_id: int):
+        return self.word_sources[source_id-1]
+
+    def source_nom(self, source_id: int):
+        i = source_id-1
+        name = self.word_source_noms[i]
+        if not name:
+            name = self.word_sources[i]
+            name = shorten_under(name, self.word_sources)
+            self.word_source_noms[i] = name
+        return name
 
     def append_record(self,
                       word: str,
                       score: float,
                       prog: int|None,
+                      source: str,
                       ):
         i = len(self.word)
         assert i == self.attempt
@@ -2448,6 +2518,8 @@ class Search(StoredLog):
 
         self.word.append(word)
         self.score.append(score)
+        self.word_source.append(self.source_code(source))
+        self.word_used.append(0)
 
         self.index.append(i)
         self.index = sorted(self.index, key=lambda i: self.score[i], reverse=True)
@@ -2455,13 +2527,30 @@ class Search(StoredLog):
         # TODO prog rank should be unique
         if prog is not None:
             self.prog[i] = prog
-            self.recs.append(i)
+            self.ix_warm_rec.append(i)
+
+        self.ix_used.append(i)
+        insort(self.ix_used, i, key=self.used_key())
 
         self.wordgood[word] = i
         if word in self.wordbad:
             self.wordbad.remove(word)
 
         return i
+
+    def used_key(self):
+        tier_scores = tuple(
+            self.scale[tier]
+            for tier in tiers)
+        def key(word_i: int):
+            score = self.score[word_i]
+            tier = len(tier_scores)
+            for i, ts in enumerate(tier_scores):
+                if score < ts:
+                    tier = tier - i + 1
+                    break
+            return tier, self.word_used[word_i], -score
+        return key
 
     @matcher(r'''(?x)
         attempt_ (?P<attempt> \d+ ) :
@@ -2475,6 +2564,7 @@ class Search(StoredLog):
 
         score: float = math.nan
         prog: int|None = None
+        source: str = ''
 
         while rest:
             m = re.match(r'''(?x)
@@ -2493,9 +2583,18 @@ class Search(StoredLog):
                 rest = m[2]
                 continue
 
+            m = re.match(r'''(?x)
+            source : ( " .*? (?<! [\\] ) " )
+            \s* ( .* ) $''', rest)
+            if m:
+                val = cast(object, json.loads(m[1]))
+                source = val if isinstance(val, str) else m[1]
+                rest = m[2]
+                continue
+
             raise ValueError(f'unrecognized attempt record trailer: {rest!r}')
 
-        j = self.append_record(word, score, prog)
+        j = self.append_record(word, score, prog, source)
         if j != i:
             raise RuntimeError(f'reload inconsistency attempt({word!r}, {score}, {prog}) -> {j} != {i}')
 
@@ -2554,13 +2653,13 @@ class Search(StoredLog):
             lambda word: word in self.wordbad,
             lambda word: word in self.wordgood)
         exw.consume(
-            word
-            for _i, _j, _n, word in self.filter_words(
+            (word, source_id)
+            for _i, _j, _n, word, source_id in self.filter_words(
                 self.chat_extract_word_matchs(mode),
                 key = lambda ijn_word: ijn_word[3]))
         return exw
 
-    def chat_extract_word_matchs(self, mode: ChatExtractMode|None = None) -> Generator[tuple[int, int, int, str]]:
+    def chat_extract_word_matchs(self, mode: ChatExtractMode|None = None) -> Generator[tuple[int, int, int, str, int]]:
         if mode: self.chat_extract_mode = mode
         else: mode = self.chat_extract_mode
 
@@ -2574,6 +2673,7 @@ class Search(StoredLog):
         else: assert_never(mode.source)
 
         for i, h in enumerate(self.all_chats()):
+            source_id = self.source_code(h.model)
             for j, reply in enumerate(role_history(h.chat, 'assistant')):
                 if not isinstance(want, bool):
                     try:
@@ -2581,7 +2681,7 @@ class Search(StoredLog):
                     except KeyError: continue
                 for line in spliterate(reply, '\n', trim=True):
                     for n, word in find_match_words(line):
-                        yield (i, j, n, word)
+                        yield (i, j, n, word, source_id)
                 if not want: break
 
     def describe_extracted_word(self, word: str):
@@ -2601,34 +2701,43 @@ class Search(StoredLog):
     def chat_history_extracts(self):
         for i, h in enumerate(self.all_chats()):
             for j, (prompt, reply) in enumerate(prompt_pairs(h.chat)):
-                yield self.ChatHistoryExtract(self, i, j, prompt, reply)
+                yield self.ChatHistoryExtract(self, i, h, j, prompt, reply)
 
     @final
     class ChatHistoryExtract:
         def __init__(self,
                      search: 'Search',
                      chat_i: int,
+                     sess: ChatSession,
                      prompt_i: int,
                      prompt: str,
                      reply: str
                      ):
             self.search = search
             self.chat_i = chat_i
+            self.sess = sess
             self.prompt_i = prompt_i
             self.prompt = prompt
             self.reply = reply
 
         def extract_words(self):
+            source_id = self.search.source_code(self.sess.model)
             exw = ExtractedWords(
                 lambda word: word in self.search.wordbad,
                 lambda word: word in self.search.wordgood)
-            exw.consume(self.search.filter_words(
-                word
-                for line in not_between(
-                    spliterate(self.reply, '\n', trim=True),
-                    re.compile('<think>'), re.compile('</think>'))
-                for _, word in find_match_words(line)
-            ))
+            exw.consume(
+                (word, source_id)
+                for word in self.search.filter_words(
+                    # TODO how about structured output instead of all this?
+                    # TODO only bulleted lines?
+                    # TODO filter out numbers
+                    # TODO strip tags
+                    word
+                    for line in not_between(
+                        spliterate(self.reply, '\n', trim=True),
+                        re.compile('<think>'), re.compile('</think>'))
+                    for _, word in find_match_words(line)
+                ))
             return exw
 
         @property
@@ -2693,7 +2802,12 @@ class Search(StoredLog):
                 if verbose:
                     ui.print(f'{indent} {"; ".join(explain())}')
 
-    def attempt_word(self, ui: PromptUI, word: str, desc: str) -> PromptUI.State|None:
+    def attempt_word(self,
+                     ui: PromptUI,
+                     word: str,
+                     desc: str,
+                     source: str = '',
+                     ) -> PromptUI.State|None:
         word = word.lower()
         word = word.strip().strip("'\"").strip()
 
@@ -2753,7 +2867,7 @@ class Search(StoredLog):
 
             ui.write(f' score {ws.score:7.4f} ...')
 
-            i = self.record(ui, word, score, prog)
+            i = self.record(ui, word, score, prog, source)
             if i is not None:
                 ui.fin(f' 💿 {self.describe_word(i)}')
             return self.finish if self.found else None
@@ -2761,7 +2875,7 @@ class Search(StoredLog):
         with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
             ui.br()
             ui.copy(word)
-            return self.attempt_score_word(ui, word, desc)
+            return self.attempt_score_word(ui, word, desc, source=source)
 
     @property
     def prog_after(self):
@@ -2782,6 +2896,7 @@ class Search(StoredLog):
                            desc: str,
                            score: float|None = None,
                            prog: int|None = None,
+                           source: str = '',
                            ) -> PromptUI.State|None:
         orig_desc = desc
         desc = f'🤔 {desc} #{self.attempt+1} "{word}"'
@@ -2799,7 +2914,7 @@ class Search(StoredLog):
                             ui.print(f'! no {sep!r} separator in {word!r}')
                             return
                         ui.print(f'// split {word} :{sep}')
-                        return self.attempt_word(ui, word[:i], f'{orig_desc}:{sep}')
+                        return self.attempt_word(ui, word[:i], f'{orig_desc}:{sep}', source=source)
 
                     if tok[1] == ':':
                         sep = next(tokens)[0]
@@ -2808,7 +2923,7 @@ class Search(StoredLog):
                             ui.print(f'! no {sep!r} separator in {word!r}')
                             return
                         ui.print(f'// split {word} {sep}:')
-                        return self.attempt_word(ui, word[i+1:], f'{orig_desc}{sep}:')
+                        return self.attempt_word(ui, word[i+1:], f'{orig_desc}{sep}:', source=source)
 
                 if tok.startswith('!'):
                     token = next(tokens)
@@ -2816,7 +2931,7 @@ class Search(StoredLog):
                     ui.print(f'// rejected {desc}')
                     token = token[1:] or next(tokens, '')
                     if token:
-                        return self.attempt_word(ui, token, "corrected")
+                        return self.attempt_word(ui, token, "corrected", source=source)
                     return
 
                 try:
@@ -2834,14 +2949,14 @@ class Search(StoredLog):
                 desc = f'{desc} {score:.2f}°C'
 
                 if not tokens.empty:
-                    return self.attempt_prog_word(ui, word, desc, score, prog)
+                    return self.attempt_prog_word(ui, word, desc, score, prog=prog, source=source)
 
                 break
 
         if self.prog_req_for(score) and prog is None:
-            return self.attempt_prog_word(ui, word, desc, score)
+            return self.attempt_prog_word(ui, word, desc, score, source=source)
 
-        i = self.record(ui, word, score, prog)
+        i = self.record(ui, word, score, prog, source)
         if i is not None:
             ui.print(f'💿 {self.describe_word(i)}')
 
@@ -2853,6 +2968,7 @@ class Search(StoredLog):
                           desc: str,
                           score: float,
                           prog: int|None = None,
+                          source: str = '',
                           ) -> PromptUI.State|None:
 
         while prog is None:
@@ -2877,7 +2993,7 @@ class Search(StoredLog):
                     tokens.raw = ''
                     continue
 
-        i = self.record(ui, word, score, prog)
+        i = self.record(ui, word, score, prog, source)
         if i is not None:
             ui.print(f'💿 {self.describe_word(i)}')
 
@@ -2901,7 +3017,8 @@ class Search(StoredLog):
             return i, None, f'"{self.word[i]}"'
 
         elif k == '~':
-            i = self.recs[len(self.recs)-n]
+            ix = self.ix_warm_rec
+            i = ix[len(ix)-n]
             return i, None, f'"{self.word[i]}"'
 
         assert_never(k)
@@ -2912,8 +3029,10 @@ class Search(StoredLog):
         return s
 
     def collect_word_ref(self, k: WordRef, n: int):
-        qword, score = self.word_ref_score(k, n)
-        self.last_chat_basis[qword] = score
+        i, _, qword = self.word_iref(k, n)
+        self.last_chat_basis[qword] = self.score[i]
+        self.word_used[i] += 1
+        self.ix_used.sort(key=self.used_key())
         return qword
 
     def set_chat_prompt(self, ui: PromptUI, prompt: str|ChatPrompt):
@@ -2984,9 +3103,23 @@ class Search(StoredLog):
             # TODO tee content into a word scanner
 
             try:
+                # thinking = False
+
                 for _, content in self.chat_say(ui, prompt):
                     lines = spliterate(content, '\n', trim=True)
                     first = True
+
+                    # for tk, line in match_between(
+                    #     lines,
+                    #     re.compile('<think>'),
+                    #     re.compile('</think>'),
+                    #     inside=thinking):
+                    #     if tk == 0 and not thinking:
+                    #         ui.print('/// thinking ...')
+                    #         thinking = True
+                    #     elif tk == -1:
+                    #         thinking = False
+
                     for line in lines:
                         if first:
                             ui.write(line if ui.last == 'write' else f'... {line}')
@@ -3237,7 +3370,8 @@ class Search(StoredLog):
         ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
         iw = len(str(len(words)))
         for i, word in enumerate(words):
-            ui.print(f'[{i+1:{iw}}] {word}')
+            source = self.source_name(exw.may[word])
+            ui.print(f'[{i+1:{iw}}] {word} source:{source}')
 
         basis_change = str(self.analyze_basis())
         if basis_change: ui.print(f'// {basis_change}')
@@ -3267,7 +3401,9 @@ class Search(StoredLog):
                 ui.print('! invalid list number, out of range')
                 return
 
-            return self.attempt_word(ui, words[n-1], f'extract_{n}/{len(words)}') or self.chat_extract
+            word = words[n-1]
+            source = self.source_name(exw.may[word])
+            return self.attempt_word(ui, word, f'extract_{n}/{len(words)}', source=source) or self.chat_extract
 
     def chat_extract_all(self, ui: PromptUI) -> PromptUI.State | None:
         exw = self.chat_extract_words()
@@ -3318,7 +3454,9 @@ class Search(StoredLog):
                 basis_note = str(basis_change)
                 if basis_note: ui.print(f'// {basis_note}')
 
-            return self.attempt_word(ui, words[0], f'extract_1/{len(words)}')
+            word = words[0]
+            source = self.source_name(exw.may[word])
+            return self.attempt_word(ui, word, f'extract_1/{len(words)}', source=source)
 
     def chat_last(self, ui: PromptUI):
         chat = self.chat
