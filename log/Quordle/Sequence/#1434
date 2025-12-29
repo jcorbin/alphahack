@@ -1,0 +1,113 @@
+T35374.550658319014 now: 2025-12-28T08:51:01EST
+TD56 site: m-w.com/games/quordle
+TDD-25 wordlist: nwl2023.txt
+TDD-26 num_words: 4
+TDD4934690  ...
+T29.280849416012643 now: 2025-12-28T18:46:40EST
+TD952261  ...
+TDD1478358 > /mode Sequence
+TDD-2430356 mode: Sequence
+TDD1991031 > tried nates
+TDD-1991103 questioning: nates
+TDD4474033 Sequence #1 _____? Mnnnn
+TDD-4473977 attempt: 0 NATES m n n n n
+TDD3125694 > * 1
+TDD-1902855 ? 1
+TDD-1222872 questioning: groin
+TDD5549898 Sequence #1 _____ ~N -AEST? MnnMM
+TDD-5549865 attempt: 0 GROIN m n n m m
+TDD6140777 > * 1
+TDD-1571683 ? 4
+TDD-4569184 questioning: cling
+TDD7847391 Sequence #1 _____ ~GIN -AEORST? nnMMM
+TDD-7847305 attempt: 0 CLING n n m m m
+TDD1442456 > * 1
+TDD3808625 ? 3
+TDD-5251081 questioning: dingy
+TDD4279129 Sequence #1 _____ ~GIN -ACELORST? YYYYY
+TDD-4279118 attempt: 0 DINGY Y Y Y Y Y
+TDD46653467 > ␚
+TDD-46653653 <EOF>
+TDD682775 > ␚
+TDD-682752 <EOF>
+TDD312363 > ␚
+TDD-312359 <EOF>
+TDD587192 > ␚
+T4.001533401984489 now: 2025-12-28T19:13:59EST
+TD65 questioning: dingy
+TDD-31 questioning: NATES
+TDD2646820 Sequence #2 _____? MnMnn
+TDD-2646586 attempt: 1 NATES m n m n n
+TDD-217 questioning: GROIN
+TDD4079763 Sequence #2 _____ ~NT -AES? YYnnM
+TDD-4079530 attempt: 1 GROIN Y Y n n m
+TDD-234 questioning: CLING
+TDD2832272 Sequence #2 GR___ ~NT -AEIOS? nnnYM
+TDD-2832052 attempt: 1 CLING n n n Y m
+TDD-228 questioning: DINGY
+TDD2117499 Sequence #2 GR_N_ ~T -ACEILOS? nnMMn
+TDD-2117293 attempt: 1 DINGY n n m m n
+T0.9705245880177245 now: 2025-12-28T19:39:31EST
+TD55 questioning: DINGY
+TDD3121150 > * 2
+TDD-3056039 questioning: grunt
+TDD8045523 Sequence #2 GR_N_ ~T -ACDEILOSY? YYYYY
+TDD-8110497 attempt: 1 GRUNT Y Y Y Y Y
+TDD-42 questioning: NATES
+TDD3851237 Sequence #3 _____? nnMMn
+TDD-3851211 attempt: 2 NATES n n m m n
+TDD7486689 > ␚
+TDD-7486764 <EOF>
+TDD1995431 > ␚
+T1.072218179993797 now: 2025-12-28T19:40:53EST
+TD61 questioning: NATES
+TDD-8 questioning: GROIN
+TDD5271722 Sequence #3 _____ ~ET -ANS? nnnnn
+TDD-5271612 attempt: 2 GROIN n n n n n
+TDD-87 questioning: CLING
+TDD2840826 Sequence #3 _____ ~ET -AGINORS? nnnnn
+TDD-2840369 attempt: 2 CLING n n n n n
+TDD-388 questioning: DINGY
+TDD2116431 Sequence #3 _____ ~ET -ACGILNORS? nnnnn
+TDD-2116335 attempt: 2 DINGY n n n n n
+TDD-92 questioning: GRUNT
+TDD1547432 Sequence #3 _____ ~ET -ACDGILNORSY? nnnnM
+TDD-1547312 attempt: 2 GRUNT n n n n m
+TDD1888827 > * 3
+TDD2580222 ? 2
+TDD-4469093 questioning: theme
+TDD6179165 Sequence #3 _____ ~ET -ACDGILNORSUY? YYYYY
+TDD-6179229 attempt: 2 THEME Y Y Y Y Y
+TDD-45 questioning: NATES
+TDD3575117 Sequence #4 _____? nnnYn
+TDD-3574982 attempt: 3 NATES n n n Y n
+TDD-120 questioning: GROIN
+TDD1410689 Sequence #4 ___E_ -ANST? nnnnn
+TDD-1410586 attempt: 3 GROIN n n n n n
+TDD-94 questioning: CLING
+TDD1555932 Sequence #4 ___E_ -AGINORST? nYnnn
+TDD-1555828 attempt: 3 CLING n Y n n n
+TDD-99 questioning: DINGY
+TDD1199770 Sequence #4 _L_E_ -ACGINORST? nnnnn
+TDD-1199631 attempt: 3 DINGY n n n n n
+TDD-148 questioning: GRUNT
+TDD2309562 Sequence #4 _L_E_ -ACDGINORSTY? nnnnn
+TDD-2309538 attempt: 3 GRUNT n n n n n
+TDD-85 questioning: THEME
+TDD2097147 Sequence #4 _L_E_ -ACDGINORSTUY? nnYnM
+TDD-2097028 attempt: 3 THEME n n Y n m
+TDD2328022 > * 4
+TDD-2255002 questioning: bleep
+TDD4377246 Sequence #4 _LEE_ -ACDGHIMNORSTUY? YYYYY
+TDD-4450219 attempt: 3 BLEEP Y Y Y Y Y
+T6.268230735004181 now: 2025-12-28T19:46:07EST
+TD54 questioning: bleep
+TDD21552930 📋> Daily Sequence Quordle 1434
+TDD-21552882 📋> 4️⃣5️⃣
+TDD-79 📋> 6️⃣7️⃣
+TDD-10 📋> m-w.com/games/quordle/
+TDD561143 📋> 
+TDD-351387 📋> ␚
+TDD-209642 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1434\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD761 result: "Daily Sequence Quordle 1434\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD399812 📆 2025-12-28 ? 
