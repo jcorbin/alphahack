@@ -1,0 +1,226 @@
+T574.5063508390158 now: 2025-12-29T10:20:49EST
+TD58 site: https://www.britannica.com/games/octordle/daily
+TDD-25 wordlist: nwl2023.txt
+TDD-27 num_words: 8
+TDD2183181  ...
+T394.1569716759841 now: 2025-12-29T17:19:14EST
+TD1398412  ...
+TDD1649381 > /mode sequence
+TDD-3047625 mode: Sequence
+TDD3288172 > /site
+TDD18071385  ...
+TDD-16687921 > * 1
+TDD-3063361 ? 1
+TDD-1608270 questioning: least
+TDD9575357 Sequence #1 _____? nnMnn
+TDD-9575250 attempt: 0 LEAST n n m n n
+TDD4799562 > nnnnn
+TDD-1791897 > * 1
+TDD-1336130 ? 1
+TDD-1671626 questioning: cairn
+TDD8208158 Sequence #1 _____ ~A -ELST? nYnMn
+TDD-8208066 attempt: 0 CAIRN n Y n m n
+TDD1999366 > * 1
+TDD-1103771 ? 1
+TDD-895667 questioning: mayor
+TDD3519947 Sequence #1 _A___ ~R -CEILNST? nYnnM
+TDD-3519909 attempt: 0 MAYOR n Y n n m
+TDD2575129 > * 1
+TDD2848496 ? 3
+TDD-5423683 questioning: parka
+TDD15120185 Sequence #1 _A___ ~R -CEILMNOSTY? nYMnM
+TDD-15120074 attempt: 0 PARKA n Y m n m
+TDD1535369 > * 1
+TDD-1449592 questioning: rajah
+TDD3492119 Sequence #1 _A___ ~R -CEIKLMNOPSTY? YYYYY
+TDD-3577958 attempt: 0 RAJAH Y Y Y Y Y
+TDD-185 questioning: LEAST
+TDD2263582 Sequence #2 _____? MMnnn
+TDD-2263398 attempt: 1 LEAST m m n n n
+TDD-185 questioning: CAIRN
+TDD1223409 Sequence #2 _____ ~EL -AST? nnnnn
+TDD-1223282 attempt: 1 CAIRN n n n n n
+TDD-142 questioning: MAYOR
+TDD1447656 Sequence #2 _____ ~EL -ACINRST? nnnnn
+TDD-1447507 attempt: 1 MAYOR n n n n n
+TDD-149 questioning: PARKA
+TDD1840354 Sequence #2 _____ ~EL -ACIMNORSTY? nnnnn
+TDD-1840144 attempt: 1 PARKA n n n n n
+TDD-194 questioning: RAJAH
+TDD2383259 Sequence #2 _____ ~EL -ACIKMNOPRSTY? nnnnM
+TDD-2383060 attempt: 1 RAJAH n n n n m
+TDD1519139 > * 2
+TDD-1425423 questioning: wheel
+TDD3205568 Sequence #2 _____ ~EHL -ACIJKMNOPRSTY? YYYYY
+TDD-3299246 attempt: 1 WHEEL Y Y Y Y Y
+TDD-233 questioning: LEAST
+TDD3774796 Sequence #3 _____? YnYnn
+TDD-3774596 attempt: 2 LEAST Y n Y n n
+TDD-203 questioning: CAIRN
+TDD1591512 Sequence #3 L_A__ -EST? nMnnn
+TDD-1591315 attempt: 2 CAIRN n m n n n
+TDD-197 questioning: MAYOR
+TDD2199642 Sequence #3 L_A__ -CEINRST? MMnnn
+TDD-2199460 attempt: 2 MAYOR m m n n n
+TDD-188 questioning: PARKA
+TDD1904284 Sequence #3 L_A__ ~M -CEINORSTY? nMnnY
+TDD-1904059 attempt: 2 PARKA n m n n Y
+TDD-219 questioning: RAJAH
+TDD2279307 Sequence #3 L_A_A ~M -CEIKNOPRSTY? nMnMn
+TDD-2279106 attempt: 2 RAJAH n m n m n
+TDD-200 questioning: WHEEL
+TDD2879382 Sequence #3 L_A_A ~M -CEHIJKNOPRSTY? nnnnM
+TDD-2879194 attempt: 2 WHEEL n n n n m
+TDD1344701 > * 3
+TDD-1256344 questioning: llama
+TDD2766352 Sequence #3 L_A_A ~M -CEHIJKNOPRSTWY? YYYYY
+TDD-2854708 attempt: 2 LLAMA Y Y Y Y Y
+TDD-187 questioning: LEAST
+TDD3583607 Sequence #4 _____? nnYnn
+TDD-3583379 attempt: 3 LEAST n n Y n n
+TDD-230 questioning: CAIRN
+TDD1519910 Sequence #4 __A__ -ELST? nMnMM
+TDD-1519708 attempt: 3 CAIRN n m n m m
+TDD-198 questioning: MAYOR
+TDD3831068 Sequence #4 __A__ ~NR -CEILST? nMnnM
+TDD-3830857 attempt: 3 MAYOR n m n n m
+TDD-196 questioning: PARKA
+TDD1447602 Sequence #4 __A__ ~NR -CEILMOSTY? nMMnn
+TDD-1447417 attempt: 3 PARKA n m m n n
+TDD-185 questioning: RAJAH
+TDD2559345 Sequence #4 __A__ ~NR -CEIKLMOPSTY A:1? MMnnn
+TDD-2559169 attempt: 3 RAJAH m m n n n
+TDD-191 questioning: WHEEL
+TDD1272377 Sequence #4 __A__ ~NR -CEHIJKLMOPSTY A:1? nnnnn
+TDD-1272163 attempt: 3 WHEEL n n n n n
+TDD-216 questioning: LLAMA
+TDD2999482 Sequence #4 __A__ ~NR -CEHIJKLMOPSTWY A:1? nnYnn
+TDD-2999256 attempt: 3 LLAMA n n Y n n
+TDD1639080 > * 4
+TDD-7257 ? 1
+TDD-1631906 questioning: grand
+TDD3375254 Sequence #4 __A__ ~NR -CEHIJKLMOPSTWY? YYYYY
+TDD-3375206 attempt: 3 GRAND Y Y Y Y Y
+TDD-186 questioning: LEAST
+TDD3760892 Sequence #5 _____? nMnnY
+TDD-3760689 attempt: 4 LEAST n m n n Y
+TDD-203 questioning: CAIRN
+TDD5094402 Sequence #5 ____T ~E -ALS? nnnnM
+TDD-5094173 attempt: 4 CAIRN n n n n m
+TDD-217 questioning: MAYOR
+TDD1423954 Sequence #5 ____T ~EN -ACILRS? nnnnn
+TDD-1423777 attempt: 4 MAYOR n n n n n
+TDD-188 questioning: PARKA
+TDD1671662 Sequence #5 ____T ~EN -ACILMORSY? nnnnn
+TDD-1671472 attempt: 4 PARKA n n n n n
+TDD-190 questioning: RAJAH
+TDD2224347 Sequence #5 ____T ~EN -ACIKLMOPRSY? nnnnn
+TDD-2224134 attempt: 4 RAJAH n n n n n
+TDD-196 questioning: WHEEL
+TDD2046715 Sequence #5 ____T ~EN -ACHIJKLMOPRSY? nnYMn
+TDD-2046530 attempt: 4 WHEEL n n Y m n
+TDD-199 questioning: LLAMA
+TDD1375448 Sequence #5 __E_T ~EN -ACHIJKLMOPRSWY? nnnnn
+TDD-1375265 attempt: 4 LLAMA n n n n n
+TDD-185 questioning: GRAND
+TDD1999842 Sequence #5 __E_T ~EN -ACHIJKLMOPRSWY? nnnYn
+TDD-1999638 attempt: 4 GRAND n n n Y n
+TDD1406946 > * 5
+TDD-1315338 questioning: event
+TDD2912600 Sequence #5 __ENT ~E -ACDGHIJKLMOPRSWY? YYYYY
+TDD-3004222 attempt: 4 EVENT Y Y Y Y Y
+TDD-187 questioning: LEAST
+TDD4815848 Sequence #6 _____? nYnnn
+TDD-4815656 attempt: 5 LEAST n Y n n n
+TDD-194 questioning: CAIRN
+TDD1336286 Sequence #6 _E___ -ALST? nnnMn
+TDD-1336143 attempt: 5 CAIRN n n n m n
+TDD-157 questioning: MAYOR
+TDD1359230 Sequence #6 _E___ ~R -ACILNST? nnnnM
+TDD-1358971 attempt: 5 MAYOR n n n n m
+TDD-233 questioning: PARKA
+TDD1672286 Sequence #6 _E___ ~R -ACILMNOSTY? nnYnn
+TDD-1672060 attempt: 5 PARKA n n Y n n
+TDD-223 questioning: RAJAH
+TDD1814681 Sequence #6 _ER__ -ACIKLMNOPSTY? Mnnnn
+TDD-1814511 attempt: 5 RAJAH m n n n n
+TDD-178 questioning: WHEEL
+TDD1856133 Sequence #6 _ER__ -ACHIJKLMNOPSTY? nnMMn
+TDD-1855861 attempt: 5 WHEEL n n m m n
+TDD-271 questioning: LLAMA
+TDD1374918 Sequence #6 _ER__ -ACHIJKLMNOPSTWY? nnnnn
+TDD-1374740 attempt: 5 LLAMA n n n n n
+TDD-179 questioning: GRAND
+TDD1752014 Sequence #6 _ER__ -ACHIJKLMNOPSTWY? MMnnn
+TDD-1751818 attempt: 5 GRAND m m n n n
+TDD-198 questioning: EVENT
+TDD2311501 Sequence #6 _ER__ ~G -ACDHIJKLMNOPSTWY? MMMnn
+TDD-2311306 attempt: 5 EVENT m m m n n
+TDD1631709 > * 6
+TDD-1538009 questioning: verge
+TDD3435640 Sequence #6 _ER__ ~GV -ACDHIJKLMNOPSTWY? YYYYY
+TDD-3529400 attempt: 5 VERGE Y Y Y Y Y
+TDD-66 questioning: LEAST
+TDD2407241 Sequence #7 _____? nMnnn
+TDD-2407104 attempt: 6 LEAST n m n n n
+TDD-109 questioning: CAIRN
+TDD2152155 Sequence #7 _____ ~E -ALST? YnnMn
+TDD-2152090 attempt: 6 CAIRN Y n n m n
+TDD-98 questioning: MAYOR
+TDD1559185 Sequence #7 C____ ~ER -AILNST? nnnnM
+TDD-1559117 attempt: 6 MAYOR n n n n m
+TDD-114 questioning: PARKA
+TDD1367497 Sequence #7 C____ ~ER -AILMNOSTY? nnMnn
+TDD-1367302 attempt: 6 PARKA n n m n n
+TDD-149 questioning: RAJAH
+TDD2303975 Sequence #7 C____ ~ER -AIKLMNOPSTY? Mnnnn
+TDD-2303849 attempt: 6 RAJAH m n n n n
+TDD-124 questioning: WHEEL
+TDD6903529 Sequence #7 C____ ~ER -AHIJKLMNOPSTY? nnYYn
+TDD-6903386 attempt: 6 WHEEL n n Y Y n
+TDD-131 questioning: LLAMA
+TDD2943441 Sequence #7 C_EE_ ~R -AHIJKLMNOPSTWY? nnnnn
+TDD-2943333 attempt: 6 LLAMA n n n n n
+TDD-121 questioning: GRAND
+TDD3295979 Sequence #7 C_EE_ ~R -AHIJKLMNOPSTWY? nYnnY
+TDD-3295824 attempt: 6 GRAND n Y n n Y
+TDD-130 questioning: LEAST
+T2.6095477449707687 now: 2025-12-29T17:23:26EST
+TD62 questioning: LEAST
+TDD17955376 Sequence #8 _____? MnYMn
+TDD-17955155 attempt: 7 LEAST m n Y m n
+TDD-215 questioning: CAIRN
+TDD5407558 Sequence #8 __A__ ~LS -ET? nMnnn
+TDD-5407369 attempt: 7 CAIRN n m n n n
+TDD-187 questioning: MAYOR
+TDD2535727 Sequence #8 __A__ ~LS -CEINRT? nMnnn
+TDD-2535538 attempt: 7 MAYOR n m n n n
+TDD-208 questioning: PARKA
+TDD2111411 Sequence #8 __A__ ~LS -CEIMNORTY? nMnnn
+TDD-2111274 attempt: 7 PARKA n m n n n
+TDD-148 questioning: RAJAH
+TDD2575699 Sequence #8 __A__ ~LS -CEIKMNOPRTY A:1? nMnnM
+TDD-2575563 attempt: 7 RAJAH n m n n m
+TDD-139 questioning: WHEEL
+TDD3087548 Sequence #8 __A__ ~HLS -CEIJKMNOPRTY A:1? MYnnY
+TDD-3087370 attempt: 7 WHEEL m Y n n Y
+TDD-165 questioning: LLAMA
+TDD2135828 Sequence #8 _HA_L ~SW -CEIJKMNOPRTY A:1? MnYnn
+TDD-2135698 attempt: 7 LLAMA m n Y n n
+TDD-144 questioning: GRAND
+TDD1632037 Sequence #8 _HA_L ~SW -CEIJKMNOPRTY L:1? nnYnn
+TDD-1631878 attempt: 7 GRAND n n Y n n
+TDD5063541 > * 8
+TDD-4970967 questioning: shawl
+TDD4286927 Sequence #8 _HA_L ~SW -CDEGIJKMNOPRTY L:1? YYYYY
+TDD-4379512 attempt: 7 SHAWL Y Y Y Y Y
+TDD3687898 📋> Daily Sequence Octordle #1435
+TDD-3687983 📋> 5️⃣6️⃣
+TDD-82 📋> 7️⃣8️⃣
+TDD-3 📋> 9️⃣🔟
+TDD0 📋> 🕚🕛
+TDD295816 📋> Score: 68
+TDD-23786 📋> ␚
+TDD-271896 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Octordle #1435\n5\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a\ud83d\udd5b\nScore: 68"}
+TDD946 result: "Daily Sequence Octordle #1435\n5\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a\ud83d\udd5b\nScore: 68"
+TDD869186 📆 2025-12-29 ? 
