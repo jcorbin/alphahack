@@ -2156,6 +2156,13 @@ class Search(StoredLog):
                 tokens.give(head)
 
             if self.auto_affix:
+                # TODO abbr expand does not always happen
+                #      in particular, if we have a manual trailer like `; yada` or `.`
+                #      which is followed by an abbr, so say `. !new` 
+                #      which may be trying to clear prior suffix while invoking one abbr
+                #      something something `if any sep in tokens.rest for sep in trailer_seps`
+                # TODO also we should start differentiating between `;` and `.` trailer seps
+                # TODO make neither of them terminal, and allow multiple -- e.g. fix `. /clear`
                 tokens.rest = f'{tokens.rest} {self.auto_affix}'
 
             abbr_done: set[str] = set()
@@ -2855,6 +2862,10 @@ class Search(StoredLog):
             exw.consume(
                 (word, source_id)
                 for word in self.search.filter_words(
+                    # TODO how about structured output instead of all this?
+                    # TODO only bulleted lines?
+                    # TODO filter out numbers
+                    # TODO strip tags
                     word
                     for line in not_between(
                         spliterate(self.reply, '\n', trim=True),
@@ -3236,29 +3247,34 @@ class Search(StoredLog):
                 if unk:
                     yield '❓', mess.model_dump_json(indent=2)
 
-            # TODO wrapped writer
-            # TODO tee content into a word scanner
+            def runit():
+                # TODO with ui.line_writer() as lw:
+                # TODO tee content into a word scanner
 
-            try:
-                last_mark = ''
-                for mess in self.chat_say(ui, prompt):
-                    for mark, raw in mess_parts(mess):
-                        first = True
-                        for line in spliterate(raw, '\n', trim=True):
-                            if first and ui.last == 'write' and mark == last_mark:
-                                ui.write(line)
-                            else:
-                                ui.fin()
-                                ui.write(f'{mark} {line}')
-                            last_mark = mark
-                            first = False
+                try:
+                    last_mark = ''
+                    for mess in self.chat_say(ui, prompt):
+                        for mark, raw in mess_parts(mess):
+                            first = True
+                            for line in spliterate(raw, '\n', trim=True):
+                                if first and ui.last == 'write' and mark == last_mark:
+                                    ui.write(line)
+                                else:
+                                    ui.fin()
+                                    ui.write(f'{mark} {line}')
+                                last_mark = mark
+                                first = False
 
-            except ollama.ResponseError as err:
-                ui.print(f'! ollama error: {err}')
-                return self.ideate # TODO ollama config state
+                except ollama.ResponseError as err:
+                    ui.print(f'! ollama error: {err}')
+                    return self.ideate # TODO ollama config state
 
-            finally:
-                ui.fin()
+                finally:
+                    ui.fin()
+
+            st = runit()
+            if st is not None:
+                return st
 
             exw = self.chat_extract_words(ChatExtractMode('last', False))
             if any(exw.may):
@@ -3307,6 +3323,10 @@ class Search(StoredLog):
                     messages=self.chat,
                     stream=True,
                     think=self.llm_thinking,
+                    # TODO format: Optional[Union[Literal['', 'json'], JsonSchemaValue]] = None,
+                    # TODO options: Optional[Union[Mapping[str, Any], Options]] = None,
+                    #     seed: Optional[int] = None
+                    #     temperature: Optional[float] = None
                 ):
                     with ui.catch_exception(Exception,
                                             extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
@@ -3815,6 +3835,15 @@ class Search(StoredLog):
         def update_model_info(self, model_i: int, info: ollama.ShowResponse):
             self.caps[model_i] = tuple(info.capabilities) if info.capabilities else ()
             self.model_infos[model_i] = tuple(info.modelinfo.items()) if info.modelinfo else ()
+
+            # TODO save context window size
+            # arch = self.get_model_info_item(model_i, 'general.architecture', '')
+            # ctx_win_raw = self.get_model_info_item(model_i, f'{arch}.context_length') if arch else None
+            # if isinstance(ctx_win_raw, str):
+            #     ctx_win = int(f'{ctx_win_raw}')
+            # elif isinstance(ctx_win_raw, int):
+            #     ctx_win = ctx_win_raw
+
             self.shown[model_i] = True
 
         def get_model_info_item(self, model_i: int, key: str, dflt: object=None):
