@@ -1,0 +1,177 @@
+T574.5063508390158 now: 2025-12-29T10:20:49EST
+TD58 site: https://www.britannica.com/games/octordle/daily
+TDD-25 wordlist: nwl2023.txt
+TDD-27 num_words: 8
+TDD2183181  ...
+T43.2816856399877 now: 2025-12-29T17:13:24EST
+TD1246348  ...
+TDD33457893 > /mode rescue
+TDD-34703934 mode: Rescue
+TDD1999048 > /site
+TDD45352844  ...
+TDD-42887877 > tried clean
+TDD-4464169 questioning: clean
+TDD1983713 Rescue #1 _____? MnnnM
+TDD-1983665 attempt: 0 CLEAN m n n n m
+TDD1535941 Rescue #2 _____? nMnMn
+TDD-1535870 attempt: 1 CLEAN n m n m n
+TDD3271242 Rescue #3 _____? YMnMn
+TDD-3271263 attempt: 2 CLEAN Y m n m n
+TDD1927551 Rescue #4 _____? YnnMn
+TDD-1927631 attempt: 3 CLEAN Y n n m n
+TDD4767865 Rescue #5 _____? nMnYM
+TDD-4767725 attempt: 4 CLEAN n m n Y m
+TDD2207059 Rescue #6 _____? nYMnY
+TDD-2207108 attempt: 5 CLEAN n Y m n Y
+TDD1487262 Rescue #7 _____? nnnnn
+TDD-1487338 attempt: 6 CLEAN n n n n n
+TDD1607882 Rescue #8 _____? nnnnM
+TDD-1607887 attempt: 7 CLEAN n n n n m
+TDD2959744 > tried marsh
+TDD-2959701 questioning: marsh
+TDD3735658 Rescue #1 _____ ~CN -AEL? YnnnY
+TDD-3735664 attempt: 0 MARSH Y n n n Y
+TDD1679273 Rescue #2 _____ ~AL -CEN? nYnnY
+TDD-1679306 attempt: 1 MARSH n Y n n Y
+TDD1999901 Rescue #3 C____ ~AL -EN? nYYnn
+TDD-1999889 attempt: 2 MARSH n Y Y n n
+TDD2759671 Rescue #4 C____ ~A -ELN? nMnYn
+TDD-2759602 attempt: 3 MARSH n m n Y n
+TDD4383506 Rescue #5 ___A_ ~LN -CE? nYnnn
+TDD-4383576 attempt: 4 MARSH n Y n n n
+TDD1495797 Rescue #6 _L__N ~E -AC? nnnnn
+TDD-1495820 attempt: 5 MARSH n n n n n
+TDD1607744 Rescue #7 _____ -ACELN? nnMnM
+TDD-1607662 attempt: 6 MARSH n n m n m
+TDD1311440 Rescue #8 _____ ~N -ACEL? nnnnn
+TDD-1311389 attempt: 7 MARSH n n n n n
+TDD9999186 > tried odder
+TDD-9999325 questioning: odder
+TDD3127613 Rescue #1 M___H ~CN -AELRS? nnnnn
+TDD-3127593 attempt: 0 ODDER n n n n n
+TDD1471845 Rescue #2 _A__H ~L -CEMNRS? nnnnn
+TDD-1471794 attempt: 1 ODDER n n n n n
+TDD2127669 Rescue #3 CAR__ ~L -EHMNS? MnnnM
+TDD-2127746 attempt: 2 ODDER m n n n m
+TDD1631622 Rescue #4 C__S_ ~A -EHLMNR? Mnnnn
+TDD-1631588 attempt: 3 ODDER m n n n n
+TDD3919423 Rescue #5 _A_A_ ~LN -CEHMRS? nnnnn
+TDD-3919380 attempt: 4 ODDER n n n n n
+TDD2079524 Rescue #6 _L__N ~E -ACHMRS? YnYYn
+TDD-2079577 attempt: 5 ODDER Y n Y Y n
+TDD1983645 Rescue #7 _____ ~HR -ACELMNS? nMnnM
+TDD-1983674 attempt: 6 ODDER n m n n m
+TDD1399521 Rescue #8 _____ ~N -ACEHLMRS? MMnnn
+TDD-1399508 attempt: 7 ODDER m m n n n
+TDD5920063 > tried skill
+TDD-5920056 questioning: skill
+TDD11912268 Rescue #1 M___H ~CN -ADELORS? nnnnn
+TDD-11912096 attempt: 0 SKILL n n n n n
+TDD1975132 Rescue #2 _A__H ~L -CDEMNORS? nnnMn
+TDD-1975223 attempt: 1 SKILL n n n m n
+TDD2159225 Rescue #3 CAR__ ~LO -DEHMNS? nnnnY
+TDD-2159213 attempt: 2 SKILL n n n n Y
+TDD4015694 Rescue #4 C__S_ ~AO -DEHLMNR? Mnnnn
+TDD-4015724 attempt: 3 SKILL m n n n n
+TDD5039162 Rescue #5 _A_A_ ~LN -CDEHMORS? nnnnY
+TDD-5039157 attempt: 4 SKILL n n n n Y
+TDD5551936 Rescue #7 _____ ~DHR -ACELMNOS D:1? nnYnn
+TDD-5551863 attempt: 6 SKILL n n Y n n
+TDD1271875 Rescue #8 _____ ~DNO -ACEHLMRS D:1? nnnnn
+TDD-1271947 attempt: 7 SKILL n n n n n
+TDD8927095 > tried olden
+TDD-8927131 questioning: olden
+TDD4375924 Rescue #1 M___H ~CN -ADEIKLORS? nnnnM
+TDD-4375904 attempt: 0 OLDEN n n n n m
+TDD1239414 Rescue #2 _A__H ~L -CDEIKMNORS L:1? nMnnn
+TDD-1239381 attempt: 1 OLDEN n m n n n
+TDD1927167 Rescue #3 CAR_L ~O -DEHIKMNS? MMnnn
+TDD-1927164 attempt: 2 OLDEN m m n n n
+TDD1727790 Rescue #4 C__S_ ~AO -DEHIKLMNR? Mnnnn
+TDD-1727808 attempt: 3 OLDEN m n n n n
+TDD4615284 Rescue #5 _A_AL ~N -CDEHIKMORS? nMnnM
+TDD-4615281 attempt: 4 OLDEN n m n n m
+TDD3223498 Rescue #7 __I__ ~DHR -ACEKLMNOS D:1? nnMnn
+TDD-3223474 attempt: 6 OLDEN n n m n n
+TDD3127381 Rescue #8 _____ ~DNO -ACEHIKLMRS D:1? MnMnM
+TDD-3127471 attempt: 7 OLDEN m n m n m
+TDD2807650 > * 1
+TDD-2710072 questioning: munch
+TDD5621096 Rescue #1 M___H ~CN -ADEIKLORS? YYYYY
+TDD-5718589 attempt: 0 MUNCH Y Y Y Y Y
+TDD2335019 Rescue #2 _A__H ~L -CDEIKMNORS L:1? nMnnY
+TDD-2335097 attempt: 1 MUNCH n m n n Y
+TDD1823680 Rescue #3 CAR_L ~O -DEHIKMNS? nnnMn
+TDD-1823613 attempt: 2 MUNCH n n n m n
+TDD1263067 Rescue #4 C__S_ ~AO -DEHIKLMNR? nnnMn
+TDD-1263093 attempt: 3 MUNCH n n n m n
+TDD3351836 Rescue #5 _A_AL ~N -CDEHIKMORS? nnMnn
+TDD-3351796 attempt: 4 MUNCH n n m n n
+TDD9240538 Rescue #7 __I__ ~DHR -ACEKLMNOS D:1? nnnnM
+TDD-9240552 attempt: 6 MUNCH n n n n m
+TDD2831102 Rescue #8 _____ ~DNO -ACEHIKLMRS D:1? nnMnn
+TDD-2831104 attempt: 7 MUNCH n n m n n
+TDD1471675 > * 2
+TDD-1378079 questioning: laugh
+TDD4565335 Rescue #2 _A__H ~LU -CDEIKMNORS L:1? YYYYY
+TDD-4658995 attempt: 1 LAUGH Y Y Y Y Y
+TDD2334353 Rescue #3 CAR_L ~O -DEHIKMNSU? nYnnn
+TDD-2334315 attempt: 2 LAUGH n Y n n n
+TDD2048533 Rescue #4 C__S_ ~AO -DEHIKLMNRU? nMnnn
+TDD-2048546 attempt: 3 LAUGH n m n n n
+TDD3678423 Rescue #5 _A_AL ~N -CDEHIKMORSU? nYnnn
+TDD-3678388 attempt: 4 LAUGH n Y n n n
+TDD3215794 Rescue #7 __I__ ~DHR -ACEKLMNOSU D:1? nnnnM
+TDD-3215792 attempt: 6 LAUGH n n n n m
+TDD1167495 Rescue #8 _____ ~DNO -ACEHIKLMRSU D:1? nnnnn
+TDD-1167508 attempt: 7 LAUGH n n n n n
+TDD1319924 > * 3
+TDD-1223652 questioning: carol
+TDD4222552 Rescue #3 CAR_L ~O -DEGHIKLMNSU? YYYYY
+TDD-4318810 attempt: 2 CAROL Y Y Y Y Y
+TDD2711537 Rescue #4 C__S_ ~AO -DEGHIKLMNRU? YMnMn
+TDD-2711556 attempt: 3 CAROL Y m n m n
+TDD3351313 Rescue #5 _A_AL ~N -CDEGHIKLMORSU? nYnnY
+TDD-3351364 attempt: 4 CAROL n Y n n Y
+TDD3239880 Rescue #7 __I__ ~DHR -ACEGKLMNOSU D:1? nnMnn
+TDD-3239800 attempt: 6 CAROL n n m n n
+TDD1047173 Rescue #8 _____ ~DNO -ACEGHIKLMRSU D:1? nnnMn
+TDD-1047188 attempt: 7 CAROL n n n m n
+TDD1647080 > * 4
+TDD-1552969 questioning: coast
+TDD4771710 Rescue #4 C__S_ ~AO -DEGHIKLMNRU? YYYYY
+TDD-4865830 attempt: 3 COAST Y Y Y Y Y
+TDD3351622 Rescue #5 _A_AL ~N -CDEGHIKMORSU? nnMnM
+TDD-3351679 attempt: 4 COAST n n m n m
+TDD3151229 Rescue #7 __I__ ~DHR -ACEGKLMNOSU D:1? nnnnM
+TDD-3151251 attempt: 6 COAST n n n n m
+TDD3623829 Rescue #8 _____ ~DNO -ACEGHIKLMRSU D:1? nYnnn
+TDD-3623689 attempt: 7 COAST n Y n n n
+TDD1711530 > * 5
+TDD-1618896 questioning: natal
+TDD5686502 Rescue #5 _A_AL ~NT -CDEGHIKMORSU? YYYYY
+TDD-5779187 attempt: 4 NATAL Y Y Y Y Y
+TDD3503616 Rescue #7 __I__ ~DHRT -ACEGKLMNOSU D:1? nnMnn
+TDD-3503661 attempt: 6 NATAL n n m n n
+TDD1375678 Rescue #8 _O___ ~DN -ACEGHIKLMRSTU D:1? Mnnnn
+TDD-1375627 attempt: 7 NATAL m n n n n
+TDD1391551 > * 7
+TDD-1292654 questioning: third
+TDD2673751 Rescue #7 __I__ ~DHRT -ACEGKLMNOSU D:1? YYYYY
+TDD-2772652 attempt: 6 THIRD Y Y Y Y Y
+TDD3103127 Rescue #8 _O___ ~DN -ACEGHIKLMRSTU D:1? nnnnM
+TDD-3103186 attempt: 7 THIRD n n n n m
+TDD999606 > * 8
+TDD-908649 questioning: downy
+TDD4121551 Rescue #8 _O___ ~DN -ACEGHIKLMRSTU D:1? YYYYY
+TDD-4212465 attempt: 7 DOWNY Y Y Y Y Y
+TDD2969103 📋> Daily Rescue Octordle #1435
+TDD-2969227 📋> 6️⃣7️⃣
+TDD-98 📋> 8️⃣9️⃣
+TDD-2 📋> 🔟5️⃣
+TDD-2 📋> 🕚🕛
+TDD279142 📋> Score: 9
+TDD-55629 📋> ␚
+TDD-223356 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1435\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f5\ufe0f\u20e3\n\ud83d\udd5a\ud83d\udd5b\nScore: 9"}
+TDD17 result: "Daily Rescue Octordle #1435\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f5\ufe0f\u20e3\n\ud83d\udd5a\ud83d\udd5b\nScore: 9"
+TDD271450 📆 2025-12-29 ? 
