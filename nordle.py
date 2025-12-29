@@ -91,10 +91,14 @@ class Nordle(StoredLog):
         self.apply_mode(m[1])
 
     def apply_mode(self, mode: str):
-        self.mode = mode
-        base = self.site.partition('#')[0].rstrip('/')
+        site = self.default_site
+        if not site.endswith('/'):
+            site = site.rpartition('/')[0]
         mod = mode.lower()
-        self.site = base if not mod or mod == 'classic' else f'{base}/#/{mod}'
+        if mod and mod != 'classic':
+            site = f'{site}/{mod}'
+        self.mode = mode
+        self.site = site
 
     def do_mode(self, ui: PromptUI):
         known_modes = {
