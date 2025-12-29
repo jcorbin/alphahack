@@ -636,6 +636,7 @@ class Search(StoredLog):
         _ = parser.add_argument('--tz', default=self.pub_tzname)
         _ = parser.add_argument('--model', default=self.default_chat_model)
         _ = parser.add_argument('--auto', action='store_true')
+        _ = parser.add_argument('--no-auto', action='store_false', dest='auto')
 
     @override
     def from_args(self, args: argparse.Namespace):
