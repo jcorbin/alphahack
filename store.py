@@ -800,13 +800,8 @@ class StoredLog:
             ui.print(f'! no store directory available to look for {puzzle_id!r}')
             raise StopIteration
 
-        ents = tuple(sorted((
-                ent
-                for ent in os.scandir(sd)
-                if ent.is_file()
-            ),
-            key=lambda ent: ent.stat().st_mtime,
-            reverse=True))
+        ents = [ent for ent in os.scandir(sd) if ent.is_file()]
+        ents = sorted(ents, key=lambda ent: ent.stat().st_mtime, reverse=True)
 
         def try_token(puzzle_id: str):
             for ent in ents:
