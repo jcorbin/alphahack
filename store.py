@@ -1078,6 +1078,9 @@ class StoredLog:
             self.log_file = prior_log_file
             self.log_start = prior_log_start
 
+    # TODO generalize option/arg declaration for re-use over PromptUI.Tokens
+    # parsing, in particular meta.py wants to use the under solver_run
+
     def add_args(self, parser: argparse.ArgumentParser):
         _ = parser.add_argument('--trace', '-t', action='store_true',
                                 help='Enable execution state tracing')
