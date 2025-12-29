@@ -2140,6 +2140,13 @@ class Search(StoredLog):
                 tokens.give(head)
 
             if self.auto_affix:
+                # TODO abbr expand does not always happen
+                #      in particular, if we have a manual trailer like `; yada` or `.`
+                #      which is followed by an abbr, so say `. !new` 
+                #      which may be trying to clear prior suffix while invoking one abbr
+                #      something something `if any sep in tokens.rest for sep in trailer_seps`
+                # TODO also we should start differentiating between `;` and `.` trailer seps
+                # TODO make neither of them terminal, and allow multiple -- e.g. fix `. /clear`
                 tokens.rest = f'{tokens.rest} {self.auto_affix}'
 
             abbr_done: set[str] = set()
@@ -2839,6 +2846,10 @@ class Search(StoredLog):
             exw.consume(
                 (word, source_id)
                 for word in self.search.filter_words(
+                    # TODO how about structured output instead of all this?
+                    # TODO only bulleted lines?
+                    # TODO filter out numbers
+                    # TODO strip tags
                     word
                     for line in not_between(
                         spliterate(self.reply, '\n', trim=True),
