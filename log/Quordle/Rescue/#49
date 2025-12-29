@@ -1,0 +1,80 @@
+T477.7047890580143 now: 2025-12-29T10:19:12EST
+TD47 site: m-w.com/games/quordle
+TDD-16 wordlist: nwl2023.txt
+TDD-25 num_words: 4
+TDD3199054  ...
+T22966.58577674601 now: 2025-12-29T16:46:38EST
+TD1511265  ...
+TDD2679962 > /mode Rescue
+TDD-4191014 mode: Rescue
+TDD3192250 > /site
+TDD2383026  ...
+TDD-2127379 > tried wince
+TDD-3447952 questioning: wince
+TDD2487804 Rescue #1 _____? nnnnn
+TDD-2487658 attempt: 0 WINCE n n n n n
+TDD1367519 Rescue #2 _____? nnMnM
+TDD-1367658 attempt: 1 WINCE n n m n m
+TDD2927365 Rescue #3 _____? nnnnM
+TDD-2927282 attempt: 2 WINCE n n n n m
+TDD1695539 Rescue #4 _____? MnMnn
+TDD-1695543 attempt: 3 WINCE m n m n n
+TDD4520141 > tried purge
+TDD-4520226 questioning: purge
+TDD1535439 Rescue #1 _____ -CEINW? nMMnn
+TDD-1535375 attempt: 0 PURGE n m m n n
+TDD1559474 Rescue #2 _____ ~EN -CIW? nnnMM
+TDD-1559445 attempt: 1 PURGE n n n m m
+TDD2471517 Rescue #3 _____ ~E -CINW? MnnnM
+TDD-2471569 attempt: 2 PURGE m n n n m
+TDD2367529 Rescue #4 _____ ~NW -CEI? nnMnn
+TDD-2367485 attempt: 3 PURGE n n m n n
+TDD3327518 > * 3
+TDD40149 ? 5
+TDD-3367694 questioning: adept
+TDD3968391 Rescue #1 _____ ~RU -CEGINPW? MMnnn
+TDD-3968427 attempt: 0 ADEPT m m n n n
+TDD2094894 Rescue #2 _____ ~EGN -CIPRUW? YnYnY
+TDD-2094833 attempt: 1 ADEPT Y n Y n Y
+TDD3903840 Rescue #3 _____ ~EP -CGINRUW? nnMYM
+TDD-3903805 attempt: 2 ADEPT n n m Y m
+TDD1575160 Rescue #4 _____ ~NRW -CEGIPU? nnnnn
+TDD-1575188 attempt: 3 ADEPT n n n n n
+TDD1615585 > * 2
+TDD-1541250 questioning: agent
+TDD3115156 Rescue #1 _____ ~ADRU -CEGINPTW? Mnnnn
+TDD-3189428 attempt: 0 AGENT m n n n n
+TDD1991375 Rescue #2 A_E_T ~GN -CDIPRUW? YYYYY
+TDD-1991480 attempt: 1 AGENT Y Y Y Y Y
+TDD2319123 Rescue #3 ___P_ ~ET -ACDGINRUW? nnMnM
+TDD-2319114 attempt: 2 AGENT n n m n m
+TDD1879539 Rescue #4 _____ ~NRW -ACDEGIPTU? nnnMn
+TDD-1879506 attempt: 3 AGENT n n n m n
+TDD2048019 > * 1
+TDD-384162 ? 1
+TDD-1663966 questioning: fraud
+TDD3263026 Rescue #1 _____ ~ADRU -CEGINPTW? YYYYY
+TDD-3262986 attempt: 0 FRAUD Y Y Y Y Y
+TDD1951604 Rescue #3 ___P_ ~ET -ACDGINRUW? nnnnn
+TDD-1951537 attempt: 2 FRAUD n n n n n
+TDD1567566 Rescue #4 _____ ~NRW -ACDEGIPTU? nMnnn
+TDD-1567623 attempt: 3 FRAUD n m n n n
+TDD1503570 > * 4
+TDD-1404329 questioning: sworn
+TDD4433436 Rescue #3 ___P_ ~ET -ACDFGINRUW? nnMnn
+TDD-4532582 attempt: 2 SWORN n n m n n
+TDD1975288 Rescue #4 _____ ~NRW -ACDEFGIPTU? YYYYY
+TDD-1975406 attempt: 3 SWORN Y Y Y Y Y
+TDD1671432 > * 3
+TDD-1595888 questioning: tempo
+TDD3897038 Rescue #3 ___P_ ~EOT -ACDFGINRSUW? YYYYY
+TDD-3972545 attempt: 2 TEMPO Y Y Y Y Y
+TDD4828518 📋> Daily Rescue 49
+TDD-4828588 📋> 5️⃣4️⃣
+TDD-110 📋> 7️⃣6️⃣
+TDD-7 📋> m-w.com/games/quordle/
+TDD386732 📋> 
+TDD-194174 📋> ␚
+TDD-192437 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 49\n5\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD29 result: "Daily Rescue 49\n5\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD367025 📆 2025-12-29 ? 
