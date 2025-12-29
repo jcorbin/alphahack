@@ -38,6 +38,12 @@ def shorten_under(name: str, names: Sequence[str]):
         ): return nom
     return name
 
+def sumit[K](kns: Iterable[tuple[K, int]]):
+    counts = Counter[K]()
+    for k, n in kns:
+        counts[k] += n
+    return counts
+
 def weighted(score: float, w: int|float):
     if w == 0: return 0
     if score < 0:
@@ -500,9 +506,52 @@ def not_between(lines: Iterable[str], start: re.Pattern[str], end: re.Pattern[st
 @final
 @dataclass
 class ChatStats:
-    token_count: int
-    user_count: int
-    assistant_count: int
+    source_id: int
+
+    sys_mess: int
+    sys_tokens: int
+
+    user_mess: int
+    user_tokens: int
+
+    asst_mess: int
+    asst_tokens: int
+    asst_thinking: int
+
+    other_mess: int
+    other_tokens: int
+
+    @property
+    def token_count(self):
+        return sum((
+            self.sys_tokens,
+            self.user_tokens,
+            self.asst_tokens,
+            self.asst_thinking,
+            self.other_tokens,
+        ))
+
+    def token_marks(self):
+        if self.sys_mess or self.sys_tokens:
+            yield f'📜{self.sys_tokens}/{self.sys_mess}'
+
+        if self.user_mess:
+            yield f'❓{self.user_tokens}/{self.user_mess}'
+
+        if self.asst_mess:
+            if self.asst_thinking and self.asst_tokens:
+                yield f'🧠💬{self.asst_thinking}:{self.asst_tokens}/{self.asst_mess}'
+            elif self.asst_thinking:
+                yield f'🧠{self.asst_thinking}/{self.asst_mess}'
+            elif self.asst_tokens:
+                yield f'💬{self.asst_tokens}/{self.asst_mess}'
+
+        if self.other_mess or self.other_tokens:
+            yield f'🤷{self.other_tokens}/{self.other_mess}'
+
+    def token_desc(self):
+        marks = tuple(self.token_marks())
+        return f'🪙 {' '.join(marks)}' if marks else '🪙 ∅'
 
 @dataclass
 class ChatSession:
@@ -632,6 +681,27 @@ def explanation(explain: Explainable):
         explain = '; '.join(explain)
     return explain
 
+ThinkingValue = Literal['low', 'medium', 'high']|bool|None
+
+def parse_think(tokens: PromptUI.Tokens,
+                fallthru: Callable[[], Exception]|ThinkingValue=lambda: ValueError('invalid thinking value')):
+    if tokens.have(r'(?ix) - | none | null | na | def(a(u(lt?)?)?)?'):
+        return None
+    elif tokens.have(r'(?ix) yes? | t(r(ue?)?)? | 1'):
+        return True
+    elif tokens.have(r'(?ix) no | f(a(l(se?)?)?)? | 0'):
+        return False
+    elif tokens.have(r'(?ix) l(ow?)?'):
+        return 'low'
+    elif tokens.have(r'(?ix) m(e(d(i(um?)?)?)?)?'):
+        return 'medium'
+    elif tokens.have(r'(?ix) h(i(gh?)?)?'):
+        return 'high'
+    if callable(fallthru):
+        raise fallthru()
+    else:
+        return fallthru
+
 @final
 class Search(StoredLog):
     log_file: str = 'cemantle.log'
@@ -724,6 +794,7 @@ class Search(StoredLog):
         self.llm_client = ollama.Client()
         self.llm_model: str = self.default_chat_model
         self.llm_sel = self.ModelSelector(self.llm_client)
+        self.llm_thinking: ThinkingValue = None
 
         self.abbr: dict[str, str] = dict(default_abbr)
         self.chat: list[ollama.Message] = []
@@ -765,6 +836,7 @@ class Search(StoredLog):
             '/clear': self.chat_clear_cmd,
             '/extract': self.chat_extract,
             '/model': self.chat_model_cmd,
+            '/think': self.chat_think_cmd,
             '/last': self.chat_last,
             '/system': self.chat_system_cmd,
             '/scrape': self.do_startup_scrape,
@@ -1238,7 +1310,7 @@ class Search(StoredLog):
 
         nw = len(str(len(self.word)))+1
         sw = max(len(source) for source in self.word_source_noms)
-        tw = len(str(len(self.ix_warm_rec)))+1
+        tw = len(str(len(self.ix_used)))+1
         uw = max(len(str(n)) for n in self.word_used)
         ww = max(len(word) for word in self.word)
 
@@ -1257,8 +1329,7 @@ class Search(StoredLog):
 
         def extra_parts(word_i: int):
             try:
-                ri = self.ix_warm_rec.index(word_i)
-                yield f'~{len(self.ix_warm_rec)-ri}'
+                yield f'~{self.ix_used.index(word_i)+1}'
             except ValueError:
                 yield ''
 
@@ -2069,6 +2140,13 @@ class Search(StoredLog):
                 tokens.give(head)
 
             if self.auto_affix:
+                # TODO abbr expand does not always happen
+                #      in particular, if we have a manual trailer like `; yada` or `.`
+                #      which is followed by an abbr, so say `. !new` 
+                #      which may be trying to clear prior suffix while invoking one abbr
+                #      something something `if any sep in tokens.rest for sep in trailer_seps`
+                # TODO also we should start differentiating between `;` and `.` trailer seps
+                # TODO make neither of them terminal, and allow multiple -- e.g. fix `. /clear`
                 tokens.rest = f'{tokens.rest} {self.auto_affix}'
 
             abbr_done: set[str] = set()
@@ -2140,11 +2218,9 @@ class Search(StoredLog):
 
     def prompt_parts(self):
         stats = self.chat_stats()
-        if stats.token_count > 0:
-            yield f'🤖 {stats.assistant_count}'
-            yield f'🫧 {stats.user_count}'
-            yield f'🪙 {stats.token_count}'
-        yield f'#{self.attempt+1}'
+        nom = self.source_nom(stats.source_id) if stats.source_id else '<unknown>'
+        yield f'🤖 {nom} {stats.token_desc()}'
+        yield f'❓ #{self.attempt+1}'
 
     def write_prompt(self, ui: PromptUI):
         first = True
@@ -2208,11 +2284,11 @@ class Search(StoredLog):
             for attempt in range(3):
                 if attempt > 0:
                     if self.explain_auto:
-                        ui.print(f'// automate attempt {attempt+1}, try again')
+                        ui.print(f'💡/ automate attempt {attempt+1}, try again')
                     may = sorted(self.automate(), reverse=True)
                 for score, input, explain in may:
                     if self.explain_auto:
-                        ui.print(f'// {score:.2f} = {explanation(explain)}')
+                        ui.print(f'💡 {score:.2f} = {explanation(explain)}')
                     self.write_prompt(ui)
                     ui.fin(f'[AUTO]? {input}')
                     input, _, _ = input.partition('//')
@@ -2221,7 +2297,7 @@ class Search(StoredLog):
                     st = self.do_ideate(ui)
                     if st: return st
 
-            ui.print(f'// full auto exhausted')
+            ui.print(f'😫 full auto exhausted')
             self.full_auto = False
 
     def ideate_stop(self, ui: PromptUI) -> PromptUI.State|None:
@@ -2770,6 +2846,10 @@ class Search(StoredLog):
             exw.consume(
                 (word, source_id)
                 for word in self.search.filter_words(
+                    # TODO how about structured output instead of all this?
+                    # TODO only bulleted lines?
+                    # TODO filter out numbers
+                    # TODO strip tags
                     word
                     for line in not_between(
                         spliterate(self.reply, '\n', trim=True),
@@ -2867,7 +2947,7 @@ class Search(StoredLog):
         )
 
         if self.auto_score:
-            ui.write(f'Auto scoring {word!r:{ww}}...')
+            ui.write(f'🛜 Auto scoring {word!r:{ww}}...')
 
             res = self.request(ui, 'post', '/score', params={'n': f'{self.puzzle_num}'}, data={'word': word})
 
@@ -3055,7 +3135,7 @@ class Search(StoredLog):
             return i, None, f'"{self.word[i]}"'
 
         elif k == '~':
-            i = self.ix_warm_rec[len(self.ix_warm_rec)-n]
+            i = self.ix_used[n-1]
             return i, None, f'"{self.word[i]}"'
 
         assert_never(k)
@@ -3133,23 +3213,40 @@ class Search(StoredLog):
                     ui.print(f'! {e}')
                     return self.ideate
 
+            ui.fin()
             for line in wraplines(ui.screen_cols-4, prompt.splitlines()):
-                ui.print(f'>>> {line}')
+                ui.print(f'🗨️ {line}')
+
+            def known_mess_parts(mess: ollama.Message):
+                if mess.thinking is not None:
+                    yield '🧠', mess.thinking
+                if mess.content is not None:
+                    yield '💬', mess.content
+
+            def mess_parts(mess: ollama.Message):
+                unk = True
+                for part in known_mess_parts(mess):
+                    unk = False
+                    yield part
+                if unk:
+                    yield '❓', mess.model_dump_json(indent=2)
 
             # TODO wrapped writer
             # TODO tee content into a word scanner
 
             try:
-                for _, content in self.chat_say(ui, prompt):
-                    lines = spliterate(content, '\n', trim=True)
-                    first = True
-                    for line in lines:
-                        if first:
-                            ui.write(line if ui.last == 'write' else f'... {line}')
+                last_mark = ''
+                for mess in self.chat_say(ui, prompt):
+                    for mark, raw in mess_parts(mess):
+                        first = True
+                        for line in spliterate(raw, '\n', trim=True):
+                            if first and ui.last == 'write' and mark == last_mark:
+                                ui.write(line)
+                            else:
+                                ui.fin()
+                                ui.write(f'{mark} {line}')
+                            last_mark = mark
                             first = False
-                        else:
-                            ui.fin()
-                            ui.write(f'... {line}')
 
             except ollama.ResponseError as err:
                 ui.print(f'! ollama error: {err}')
@@ -3163,7 +3260,7 @@ class Search(StoredLog):
                 return self.chat_extract_all
 
             if not self.full_auto:
-                ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
+                ui.print(f'📝 No new words extracted from {self.chat_extract_desc(exw)}')
 
     def chat_say(self, ui: PromptUI, prompt: str):
         if not self.chat and self.system_prompt:
@@ -3173,19 +3270,30 @@ class Search(StoredLog):
             self.chat_append(ui, ollama.Message(role='user', content=prompt))
 
         for _retry in ui.retries('ollama chat', retries=0):
-            part_role = 'assistant'
+            part_role: str = ''
+            part_thinking: list[str] = []
             part_content: list[str] = []
 
             def flush():
-                if part_content:
+                nonlocal part_role
+                if part_role:
                     self.chat_append(ui, ollama.Message(
                         role=part_role,
-                        content=''.join(part_content),
+                        thinking=''.join(part_thinking) if part_thinking else None,
+                        content=''.join(part_content) if part_content else None,
                     ))
+                part_thinking.clear()
                 part_content.clear()
+                part_role = ''
 
             def collect(mess: ollama.Message):
-                if mess.content is not None:
+                nonlocal part_role
+                if part_role != mess.role:
+                    flush()
+                    part_role = mess.role
+                if mess.thinking:
+                    part_thinking.append(mess.thinking)
+                if mess.content:
                     part_content.append(mess.content)
 
             try:
@@ -3193,19 +3301,14 @@ class Search(StoredLog):
                     model=self.llm_model,
                     messages=self.chat,
                     stream=True,
+                    think=self.llm_thinking,
                 ):
                     with ui.catch_exception(Exception,
                                             extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
                         # TODO care about resp.done / resp.done_reason ?
-                        mess = resp.message 
-                        if mess.role != 'assistant':
-                            # TODO note?
-                            continue
-                        if mess.content is None:
-                            # TODO note?
-                            continue
                         collect(resp.message)
-                        yield mess.role, mess.content
+                        yield resp.message
+
                 return
 
             except httpx.HTTPError as err:
@@ -3249,12 +3352,33 @@ class Search(StoredLog):
 
     def chat_stats(self):
         role_counts = Counter(mess.role for mess in self.chat)
-        token_count = sum(
-            count_tokens(mess.content or '')
+        content_tokens = sumit(
+            (mess.role, count_tokens(mess.content or ''))
             for mess in self.chat)
-        user_count = role_counts.pop("user", 0)
-        assistant_count = role_counts.pop("assistant", 0)
-        return ChatStats(token_count, user_count, assistant_count)
+        thinking_tokens = sumit(
+            (mess.role, count_tokens(mess.thinking or ''))
+            for mess in self.chat)
+
+        sys_mess = role_counts.pop('system', 0)
+        sys_tokens = (
+            content_tokens.pop('system', 0) +
+            thinking_tokens.pop('system', 0))
+        user_tokens = content_tokens.pop('user', 0)
+        asst_tokens = content_tokens.pop('assistant', 0)
+        asst_thinking = thinking_tokens.pop('assistant', 0)
+        other_tokens = sum(content_tokens.values()) + sum(thinking_tokens.values())
+
+        user_mess = role_counts.pop('user', 0)
+        asst_mess = role_counts.pop('assistant', 0)
+        other_mess = sum(role_counts.values())
+
+        return ChatStats(
+            self.source_code(self.llm_model),
+            sys_mess, sys_tokens,
+            user_mess, user_tokens,
+            asst_mess, asst_tokens, asst_thinking,
+            other_mess, other_tokens,
+        )
 
     @property
     def last_chat_role(self):
@@ -3383,7 +3507,7 @@ class Search(StoredLog):
 
             if not words:
                 if not self.full_auto:
-                    ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
+                    ui.print(f'📝 No new words extracted from {self.chat_extract_desc(exw)}')
                 return
 
             if do_all:
@@ -3396,14 +3520,14 @@ class Search(StoredLog):
         words = sorted(exw.may)
 
         ui.br()
-        ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
+        ui.print(f'📝 Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
         iw = len(str(len(words)))
         for i, word in enumerate(words):
             source = self.source_name(exw.may[word])
             ui.print(f'[{i+1:{iw}}] {word} source:{source}')
 
         basis_change = str(self.analyze_basis())
-        if basis_change: ui.print(f'// {basis_change}')
+        if basis_change: ui.print(f'📌 {basis_change}')
 
         with (
             ui.catch_state(KeyboardInterrupt, self.ideate),
@@ -3439,7 +3563,7 @@ class Search(StoredLog):
         words = sorted(exw.may)
         if not words:
             if not self.full_auto:
-                ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
+                ui.print(f'📝 No new words extracted from {self.chat_extract_desc(exw)}')
             return self.ideate
 
         with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
@@ -3479,9 +3603,9 @@ class Search(StoredLog):
 
             if not self.full_auto:
                 ui.br()
-                ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
+                ui.print(f'📝 Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
                 basis_note = str(basis_change)
-                if basis_note: ui.print(f'// {basis_note}')
+                if basis_note: ui.print(f'📌 {basis_note}')
 
             word = words[0]
             source = self.source_name(exw.may[word])
@@ -3533,7 +3657,7 @@ class Search(StoredLog):
                 if mess.role == 'user':
                     if mess.content:
                         for line in wraplines(ui.screen_cols-4, spliterate(mess.content, '\n', trim=True)):
-                            ui.print(f'>>> {line}')
+                            ui.print(f'🗨️ {line}')
 
                 elif mess.role == 'assistant':
                     if mess.content:
@@ -3548,19 +3672,21 @@ class Search(StoredLog):
             for mess in chat:
                 if mess.role == 'user':
                     if reply:
-                        ui.print(f'... 🪙 {count_tokens(reply)}')
+                        ui.print(f'💬 🪙 {count_tokens(reply)}')
                         reply = ''
                     if mess.content:
                         for line in wraplines(ui.screen_cols-4, spliterate(mess.content, '\n', trim=True)):
-                            ui.print(f'>>> {line}')
+                            ui.print(f'🗨️ {line}')
 
                 elif mess.role == 'assistant':
-                    if mess.content:
+                    if mess.thinking:
+                        ui.print(f'🧠 🪙 {count_tokens(mess.thinking)}')
+                    elif mess.content:
                         reply = mess.content
 
             if reply:
                 for line in wraplines(ui.screen_cols-4, spliterate(reply, '\n')):
-                    ui.print(f'... {line}')
+                    ui.print(f'💬 {line}')
 
                 ext_words = set(
                     word.lower()
@@ -3599,6 +3725,7 @@ class Search(StoredLog):
             self.size_parm: list[str] = []
             self.fams: list[str] = []
             self.cap_chat: list[bool|None] = []
+            self.cap_think: list[bool|None] = []
             self.name_ix: list[int] = []
             self.show_ix: list[int] = []
 
@@ -3609,6 +3736,7 @@ class Search(StoredLog):
             self.size_parm.clear()
             self.fams.clear()
             self.cap_chat.clear()
+            self.cap_think.clear()
             self.name_ix.clear()
             self.show_ix.clear()
 
@@ -3620,6 +3748,7 @@ class Search(StoredLog):
             self.size_parm.append('')
             self.fams.append('')
             self.cap_chat.append(None)
+            self.cap_think.append(None)
             return model_i
 
         def refresh(self, ui: PromptUI):
@@ -3664,6 +3793,7 @@ class Search(StoredLog):
                 caps = self.client.show(name).capabilities
                 if caps is not None:
                     self.cap_chat[model_i] = 'completion' in caps
+                    self.cap_think[model_i] = 'thinking' in caps
                 yield model_i
 
         def find(self, name: str):
@@ -3705,12 +3835,14 @@ class Search(StoredLog):
                     f'fam:{self.fams[model_i]}',
                     f'B:{self.size_byte[model_i]:>8}', # 123.4XiB
                     f'P:{self.size_parm[model_i]:>6}', # 123.4B
+                    f'(thinking)' if self.cap_think[model_i] else '',
                 ), part_widths)))
 
     def select_model(self, ui: PromptUI):
         sel = self.llm_sel
 
         want_fam: str = ''
+        want_thinking = self.llm_thinking
         wanted: list[str] = []
 
         def pick():
@@ -3728,6 +3860,12 @@ class Search(StoredLog):
                     if sel.fams[model_i].startswith(want_fam)]
                 wanted.append(f'fam:{want_fam}')
 
+            if want_thinking:
+                ix = [
+                    model_i for model_i in ix
+                    if sel.cap_think[model_i]]
+                wanted.append('thinking')
+
             return ix
 
         def maybe_refresh():
@@ -3741,6 +3879,14 @@ class Search(StoredLog):
                     if tokens.have(r'/fam(i(ly?)?)?'):
                         want_fam = next(tokens, '')
                         ui.print(f'Using family filter: {want_fam!r}')
+                        maybe_refresh()
+                        continue
+
+                    if tokens.have(r'/think(i(ng?)?)?'):
+                        try:
+                            want_thinking = parse_think(tokens, fallthru=False if want_thinking else True)
+                        except ValueError:
+                            ui.print(f'! invalid thinking argument {next(tokens)!r}')
                         maybe_refresh()
                         continue
 
@@ -3777,6 +3923,34 @@ class Search(StoredLog):
 
         else:
             ui.print(f'Using model {self.llm_model!r}')
+
+        res = self.llm_client.show(model)
+        caps = res.capabilities
+        if self.llm_thinking and (not caps or 'thinking' not in caps):
+            ui.print(f'Model does is not capable of thinking, resetting to default')
+            self.llm_thinking = None
+            ui.log(f'session thinking: {json.dumps(self.llm_thinking)}')
+
+    def chat_think_cmd(self, ui: PromptUI):
+        with ui.tokens as tokens:
+            if not tokens:
+                ui.print(f'thinking: {self.llm_thinking}')
+                return
+            try:
+                self.llm_thinking = parse_think(ui.tokens)
+            except ValueError:
+                ui.print(f'! invalid thinking argument {next(tokens)!r}')
+                return
+            ui.log(f'session thinking: {json.dumps(self.llm_thinking)}')
+            ui.print(f'Set thinking={self.llm_thinking}')
+
+    @matcher(r'''(?x) session \s+ thinking : \s* ([^\s]+ ) $''')
+    def load_chat_think(self, _t: float, m: re.Match[str]):
+        val = cast(object, json.loads(m[1]))
+        if val is True or val is False or val is None:
+            self.llm_thinking = val
+        elif isinstance(val, str) and val in ('low', 'medium', 'high'):
+            self.llm_thinking = val
 
     def chat_model(self, ui: PromptUI, model: str):
         if self.llm_model != model:
