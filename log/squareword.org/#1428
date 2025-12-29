@@ -1,0 +1,114 @@
+T195.52835586099536 now: 2025-12-29T10:27:07EST
+TD110 site: squareword.org
+TDD-53 wordlist: nwl2023.txt
+TDD4325387  ...
+TDD-3061396 🧩  ? #1428
+TDD-1263848 puzzle_id: #1428
+TDD11840520 > *
+TDD-11001522 try? 1
+TDD-838951 questioning: ["arise", "#5"]
+TDD4607650 #1 <IndexError>  📋 "arise" ? _____ ~ AS
+TDD-4607174 attempt 0 ARISE m n n m n
+TDD1990655 #2 <IndexError>  📋 "arise" ? _____ ~ AE
+TDD-1991111 attempt 1 ARISE m n n n m
+TDD2327773 #3 <IndexError>  📋 "arise" ? A___E ~ A
+TDD-2327756 attempt 2 ARISE Y n n n Y
+TDD2111394 #4 <IndexError>  📋 "arise" ? ____E ~ I
+TDD-2111387 attempt 3 ARISE n n m n Y
+TDD3199042 #5 <IndexError>  📋 "arise" ? _____ ~ SE
+TDD-3199051 attempt 4 ARISE n n n m m
+TDD999584 ? 
+TDD-999666 question done
+TDD504115 > *
+TDD3135201 try? 6
+TDD-3639176 questioning: ["ankle", "#3"]
+TDD6375984 #1 _____ ~AS -EIR  📋 "ankle" ? _____ ~ ASL
+TDD-6376031 attempt 0 ANKLE m n n m n
+TDD3199033 #2 _____ ~AE -IRS  📋 "ankle" ? _____ ~ AEL
+TDD-3199045 attempt 1 ANKLE m n n m m
+TDD7263903 #3 A___E -IRS  📋 "ankle" ? A___E ~ A
+TDD-7263852 attempt 2 ANKLE Y n n n Y
+TDD2767379 #4 ____E ~I -ARS  📋 "ankle" ? ___LE ~ I
+TDD-2767409 attempt 3 ANKLE n n n Y Y
+TDD2334767 #5 _____ ~ES -AIR  📋 "ankle" ? .
+TDD-2334763 attempt 4 ANKLE n n n n m
+TDD239270 ? 
+TDD-239458 question done
+TDD592070 > *
+TDD1775831 try? 2
+TDD-2367783 questioning: ["title", "#4"]
+TDD3359466 #1 _____ ~ALS -EIKNR  📋 "title" ? .
+TDD-3359478 attempt 0 TITLE n n n m n
+TDD935804 #2 _____ ~AEL -IKNRS  📋 "title" ? .
+TDD-935732 attempt 1 TITLE n n n m m
+TDD2631881 #3 A___E -IKLNRS  📋 "title" ? A___E ~ A
+TDD-2631894 attempt 2 TITLE n n n n Y
+TDD719035 #4 ___LE ~I -AKNRS  📋 "title" ? /it
+TDD-719006 attempt 3 TITLE Y Y Y Y Y
+TDD3911325 #5 _____ ~ES -AIKLNR  📋 "title" ? _____ ~ SET
+TDD-3911310 attempt 4 TITLE m n m n m
+TDD215014 ? 
+TDD-215179 question done
+TDD944189 > *
+TDD6607612 try? 5
+TDD-7551710 questioning: ["apace", "#3"]
+TDD5287332 #1 _____ ~ALS -EIKNRT  📋 "apace" ? __A__ ~ SL
+TDD-5287297 attempt 0 APACE n n Y n n
+TDD1047840 #2 _____ ~AEL -IKNRST  📋 "apace" ? .
+TDD-1047909 attempt 1 APACE m n m n m
+TDD3206976 #3 A___E -IKLNRST  📋 "apace" ? A_A_E ~ P
+TDD-3207009 attempt 2 APACE Y m Y n Y
+TDD3336684 #5 _____ ~EST -AIKLNR  📋 "apace" ? _____ ~ SETP
+TDD-3336589 attempt 4 APACE n m n n m
+TDD238369 ? 
+TDD-238475 question done
+TDD759996 > *
+TDD-191444 questioning: ["agape", "#3"]
+TDD6174454 #1 __A__ ~LS -CEIKNPRT  📋 "agape" ? .
+TDD-6742956 attempt 0 AGAPE n n Y n n
+TDD4199810 #2 _____ ~AEL -CIKNPRST  📋 "agape" ? _____ ~ AELG
+TDD-4199762 attempt 1 AGAPE m m m n m
+TDD1471563 #3 A_A_E ~P -CIKLNRST  📋 "agape" ? /it
+TDD-1471551 attempt 2 AGAPE Y Y Y Y Y
+TDD1615887 #5 _____ ~EPST -ACIKLNR  📋 "agape" ? .
+TDD-1615881 attempt 4 AGAPE n n n m m
+TDD183434 ? 
+TDD-183563 question done
+TDD463131 > *
+TDD819770 questioning: ["steep", "#5"]
+TDD4057661 #1 __A__ ~LS -CEGIKNPRT  📋 "steep" ? S_A__ ~ SL
+TDD-5340441 attempt 0 STEEP Y n n n n
+TDD1136814 #2 _____ ~AEGL -CIKNPRST  📋 "steep" ? .
+TDD-1136575 attempt 1 STEEP n n m m n
+TDD765976 #5 _____ ~EPST -ACGIKLNR  📋 "steep" ? /it
+TDD-766226 attempt 4 STEEP Y Y Y Y Y
+TDD151179 ? 
+TDD-151239 question done
+TDD479876 > *
+TDD985693 questioning: ["slams", "#1"]
+TDD1220605 #1 S_A__ ~L -CEGIKNPRT  📋 "slams" ? /it
+TDD-2686109 attempt 0 SLAMS Y Y Y Y Y
+TDD1183572 #2 _____ ~AEGL -CIKNPRST  📋 "slams" ? .
+TDD-1183556 attempt 1 SLAMS n m m n n
+TDD158967 ? 
+TDD-159112 question done
+TDD407958 > *
+TDD640937 questioning: ["legal", "#2"]
+TDD3597551 #2 _____ ~AEGL -CIKMNPRST  📋 "legal" ? /it
+TDD-4646325 attempt 1 LEGAL Y Y Y Y Y
+TDD839673 ? 
+TDD-839793 question done
+TDD3392186 📋> squareword.org 1428: 8 guesses
+TDD-3392223 📋> 
+TDD-94 📋> 🟨🟨🟩🟨🟨
+TDD-9 📋> 🟨🟨🟨🟨🟨
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD1 📋> 🟨🟨🟨🟨🟨
+TDD-1 📋> 
+TDD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD279290 📋> #squareword #squareword1428
+TDD-78913 📋> ␚
+TDD-200256 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1428: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1428"}
+TDD820 result: "squareword.org 1428: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1428"
+TDD181299 📆 2025-12-29 ? 
