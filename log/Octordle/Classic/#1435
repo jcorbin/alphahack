@@ -1,0 +1,165 @@
+T574.5063508390158 now: 2025-12-29T10:20:49EST
+TD58 site: https://www.britannica.com/games/octordle/daily
+TDD-25 wordlist: nwl2023.txt
+TDD-27 num_words: 8
+TDD2183181  ...
+TDD1831743 > * 1
+TDD-2166839 ? 1
+TDD-1847926 questioning: arles
+TDD3079811 Classic #1 _____? nnMMn
+TDD-3079815 attempt: 0 ARLES n n m m n
+TDD1391656 Classic #2 _____? nnnMn
+TDD-1391556 attempt: 1 ARLES n n n m n
+TDD3159633 Classic #3 _____? YnMnn
+TDD-3159727 attempt: 2 ARLES Y n m n n
+TDD1215491 Classic #4 _____? nnMnY
+TDD-1215496 attempt: 3 ARLES n n m n Y
+TDD3400101 Classic #5 _____? nnnMn
+TDD-3400012 attempt: 4 ARLES n n n m n
+TDD2071164 Classic #6 _____? nMMnM
+TDD-2071234 attempt: 5 ARLES n m m n m
+TDD1903990 Classic #7 _____? Mnnnn
+TDD-1904008 attempt: 6 ARLES m n n n n
+TDD1207340 Classic #8 _____? nnMnn
+TDD-1207317 attempt: 7 ARLES n n m n n
+TDD6847998 > * 7
+TDD-5504513 ? 1
+TDD-1343515 questioning: chant
+TDD6567774 Classic #1 _____ ~EL -ARS? nnnnM
+TDD-6567735 attempt: 0 CHANT n n n n m
+TDD1831889 Classic #2 _____ ~E -ALRS? Ynnnn
+TDD-1831806 attempt: 1 CHANT Y n n n n
+TDD1423482 Classic #3 A____ ~L -ERS? nnMnn
+TDD-1423594 attempt: 2 CHANT n n m n n
+TDD1519998 Classic #4 ____S ~L -AER? nnnnn
+TDD-1519903 attempt: 3 CHANT n n n n n
+TDD5151254 Classic #5 _____ ~E -ALRS? nnnYn
+TDD-5151254 attempt: 4 CHANT n n n Y n
+TDD1600445 Classic #6 _____ ~LRS -AE? nnnnn
+TDD-1600483 attempt: 5 CHANT n n n n n
+TDD1614542 Classic #7 _____ ~A -ELRS? nnMMn
+TDD-1614580 attempt: 6 CHANT n n m m n
+TDD1336601 Classic #8 _____ ~L -AERS? nnnnn
+TDD-1336533 attempt: 7 CHANT n n n n n
+TDD4734869 > * 4
+TDD-2935039 ? 2
+TDD-1799874 questioning: boils
+TDD4951423 Classic #1 _____ ~ELT -ACHNRS? nnMYn
+TDD-4951368 attempt: 0 BOILS n n m Y n
+TDD2631687 Classic #2 C____ ~E -AHLNRST? nYnnn
+TDD-2631762 attempt: 1 BOILS n Y n n n
+TDD2447124 Classic #3 A____ ~L -CEHNRST? MnYMn
+TDD-2447131 attempt: 2 BOILS m n Y m n
+TDD1903683 Classic #4 ____S ~L -ACEHNRT? nnnMY
+TDD-1903668 attempt: 3 BOILS n n n m Y
+TDD5511686 Classic #5 ___N_ ~E -ACHLRST? nMYnn
+TDD-5511596 attempt: 4 BOILS n m Y n n
+TDD1599446 Classic #6 _____ ~LRS -ACEHNT? nnnMM
+TDD-1599532 attempt: 5 BOILS n n n m m
+TDD1407558 Classic #7 _____ ~AN -CEHLRST? nnnnn
+TDD-1407570 attempt: 6 BOILS n n n n n
+TDD3168277 Classic #8 _____ ~L -ACEHNRST? nYnYn
+TDD-3168281 attempt: 7 BOILS n Y n Y n
+TDD4199969 > * 6
+TDD-4071787 questioning: slurp
+TDD5478332 Classic #1 ___L_ ~EIT -ABCHNORS? nMnnn
+TDD-5606480 attempt: 0 SLURP n m n n n
+TDD3144006 Classic #2 CO___ ~E -ABHILNRST? nnYnM
+TDD-3143972 attempt: 1 SLURP n n Y n m
+TDD1511763 Classic #3 A_I__ ~BL -CEHNORST? nMnnn
+TDD-1511798 attempt: 2 SLURP n m n n n
+TDD1390963 Classic #4 ____S ~L -ABCEHINORT? MMMnM
+TDD-1391020 attempt: 3 SLURP m m m n m
+TDD3960287 Classic #5 __IN_ ~EO -ABCHLRST? nnnnM
+TDD-3960201 attempt: 4 SLURP n n n n m
+TDD1135433 Classic #6 _____ ~LRS -ABCEHINOT? YYYYY
+TDD-1135500 attempt: 5 SLURP Y Y Y Y Y
+TDD1839770 Classic #7 _____ ~AN -BCEHILORST? nnnnn
+TDD-1839696 attempt: 6 SLURP n n n n n
+TDD1319674 Classic #8 _O_L_ -ABCEHINRST? nMnnn
+TDD-1319658 attempt: 7 SLURP n m n n n
+TDD3319037 > * 2
+TDD-3247758 questioning: coupe
+TDD5385267 Classic #1 ___L_ ~EIT -ABCHNOPRSU? nnnnY
+TDD-5456541 attempt: 0 COUPE n n n n Y
+TDD1479326 Classic #2 COU__ ~EP -ABHILNRST? YYYYY
+TDD-1479379 attempt: 1 COUPE Y Y Y Y Y
+TDD1231644 Classic #3 A_I__ ~BL -CEHNOPRSTU? nnnnn
+TDD-1231600 attempt: 2 COUPE n n n n n
+TDD1255300 Classic #4 ____S ~LPU -ABCEHINORT? nnMMn
+TDD-1255302 attempt: 3 COUPE n n m m n
+TDD5663912 Classic #5 __IN_ ~EOP -ABCHLRSTU? nMnMY
+TDD-5663920 attempt: 4 COUPE n m n m Y
+TDD2950771 Classic #7 _____ ~AN -BCEHILOPRSTU? nnnnn
+TDD-2950720 attempt: 6 COUPE n n n n n
+TDD2607412 Classic #8 _O_L_ -ABCEHINPRSTU? nYnnn
+TDD-2607470 attempt: 7 COUPE n Y n n n
+TDD2960189 > * 5
+TDD-2866990 questioning: opine
+TDD7828889 Classic #1 ___LE ~IT -ABCHNOPRSU? nnMnY
+TDD-7922053 attempt: 0 OPINE n n m n Y
+TDD3327667 Classic #3 A_I__ ~BL -CEHNOPRSTU? nnYnn
+TDD-3327666 attempt: 2 OPINE n n Y n n
+TDD1487526 Classic #4 ____S ~LPU -ABCEHINORT? nMnnn
+TDD-1487553 attempt: 3 OPINE n m n n n
+TDD3319177 Classic #5 __INE ~OP -ABCHLRSTU? YYYYY
+TDD-3319194 attempt: 4 OPINE Y Y Y Y Y
+TDD6255960 Classic #7 _____ ~AN -BCEHILOPRSTU? nnnMn
+TDD-6255957 attempt: 6 OPINE n n n m n
+TDD1415822 Classic #8 _O_L_ -ABCEHINPRSTU? Mnnnn
+TDD-1415845 attempt: 7 OPINE m n n n n
+TDD2206743 > * 4
+TDD-2134538 questioning: lupus
+TDD5359523 Classic #1 ___LE ~IT -ABCHNOPRSU? Mnnnn
+TDD-5431772 attempt: 0 LUPUS m n n n n
+T9.10358897599508 now: 2025-12-29T10:24:00EST
+TD60 questioning: lupus
+TDD3564813 Classic #3 A_I__ ~BL -CEHNOPRSTU? Mnnnn
+TDD-3564612 attempt: 2 LUPUS m n n n n
+TDD1991710 Classic #4 ____S ~LPU -ABCEHINORT? YYYYY
+TDD-1991714 attempt: 3 LUPUS Y Y Y Y Y
+TDD4519184 Classic #7 _____ ~AN -BCEHILOPRSTU? nnnnn
+TDD-4519259 attempt: 6 LUPUS n n n n n
+TDD1255732 Classic #8 _O_L_ -ABCEHINPRSTU? Ynnnn
+TDD-1255760 attempt: 7 LUPUS Y n n n n
+TDD2335401 > * 8
+TDD-2235949 questioning: lowly
+TDD5992891 Classic #1 ___LE ~IT -ABCHNOPRSU? nnnYn
+TDD-6092254 attempt: 0 LOWLY n n n Y n
+TDD2919704 Classic #3 A_I__ ~BL -CEHNOPRSTU? Mnnnn
+TDD-2919770 attempt: 2 LOWLY m n n n n
+TDD5072450 Classic #7 _____ ~AN -BCEHILOPRSTU? nnnnn
+TDD-5072337 attempt: 6 LOWLY n n n n n
+TDD1304132 Classic #8 LO_L_ -ABCEHINPRSTU? YYYYY
+TDD-1304156 attempt: 7 LOWLY Y Y Y Y Y
+TDD1789897 > * 1
+TDD-214035 ? 2
+TDD-1575965 questioning: title
+TDD4608211 Classic #1 ___LE ~IT -ABCHNOPRSUWY? YYYYY
+TDD-4608159 attempt: 0 TITLE Y Y Y Y Y
+TDD2918959 Classic #3 A_I__ ~BL -CEHNOPRSTUWY L:1? nMnMn
+TDD-2918986 attempt: 2 TITLE n m n m n
+TDD3160093 Classic #7 _____ ~AN -BCEHILOPRSTUWY? nnnnn
+TDD-3160040 attempt: 6 TITLE n n n n n
+TDD20071606 > ?
+TDD67305265 > tried alibi
+TDD-87376911 questioning: alibi
+TDD5999625 Classic #3 A_I__ ~BL -CEHNOPRSTUWY L:1? YYYYY
+TDD-5999594 attempt: 2 ALIBI Y Y Y Y Y
+TDD4199342 Classic #7 _____ ~AN -BCEHILOPRSTUWY? Mnnnn
+TDD-4199326 attempt: 6 ALIBI m n n n n
+TDD2167771 > * 7
+TDD3879918 ? 1
+TDD-6047719 questioning: manga
+TDD3519530 Classic #7 _____ ~AN -BCEHILOPRSTUWY? YYYYY
+TDD-3519488 attempt: 6 MANGA Y Y Y Y Y
+TDD3111707 📋> Daily Octordle #1435
+TDD-3111862 📋> 9️⃣5️⃣
+TDD-94 📋> 🔟7️⃣
+TDD-4 📋> 6️⃣4️⃣
+TDD0 📋> 🕚8️⃣
+TDD343480 📋> Score: 60
+TDD-79472 📋> ␚
+TDD-263894 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1435\n9\ufe0f\u20e35\ufe0f\u20e3\n\ud83d\udd1f7\ufe0f\u20e3\n6\ufe0f\u20e34\ufe0f\u20e3\n\ud83d\udd5a8\ufe0f\u20e3\nScore: 60"}
+TDD901 result: "Daily Octordle #1435\n9\ufe0f\u20e35\ufe0f\u20e3\n\ud83d\udd1f7\ufe0f\u20e3\n6\ufe0f\u20e34\ufe0f\u20e3\n\ud83d\udd5a8\ufe0f\u20e3\nScore: 60"
+TDD302143 📆 2025-12-29 ? 
