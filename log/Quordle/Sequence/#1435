@@ -1,0 +1,112 @@
+T477.7047890580143 now: 2025-12-29T10:19:12EST
+TD47 site: m-w.com/games/quordle
+TDD-16 wordlist: nwl2023.txt
+TDD-25 num_words: 4
+TDD3199054  ...
+T23220.866000981972 now: 2025-12-29T16:50:52EST
+TD1375180  ...
+TDD2112995 > /mode Sequence
+TDD-3487971 mode: Sequence
+TDD3119615 > /site
+TDD391793  ...
+TDD-2207821 > * 1
+TDD104514 ? 1
+TDD-1408102 questioning: tales
+TDD2895337 Sequence #1 _____? nnnMM
+TDD-2895289 attempt: 0 TALES n n n m m
+TDD3407410 > * 1
+TDD-1239636 ? 1
+TDD-2167824 questioning: noise
+TDD3783747 Sequence #1 _____ ~ES -ALT? nMnMY
+TDD-3783687 attempt: 0 NOISE n m n m Y
+TDD1463646 > * 1
+TDD-247958 ? 1
+TDD-1215808 questioning: shore
+TDD2992067 Sequence #1 ____E ~OS -AILNT? YYYnY
+TDD-2991946 attempt: 0 SHORE Y Y Y n Y
+TDD1351247 > * 1
+TDD-1250613 questioning: shove
+TDD2701909 Sequence #1 SHO_E -AILNRT? YYYYY
+TDD-2802631 attempt: 0 SHOVE Y Y Y Y Y
+TDD-140 questioning: TALES
+TDD3767662 Sequence #2 _____? YMnMn
+TDD-3767529 attempt: 1 TALES Y m n m n
+TDD-138 questioning: NOISE
+TDD3272116 Sequence #2 T____ ~AE -LS? nnnnY
+TDD-3271969 attempt: 1 NOISE n n n n Y
+TDD-139 questioning: SHORE
+TDD2207613 Sequence #2 T___E ~A -ILNOS? nnnMY
+TDD-2207487 attempt: 1 SHORE n n n m Y
+TDD-135 questioning: SHOVE
+TDD1824197 Sequence #2 T___E ~AR -HILNOS? nnnnY
+TDD-1824058 attempt: 1 SHOVE n n n n Y
+TDD1551303 > * 2
+TDD248334 ? 1
+TDD-1799593 questioning: trace
+TDD4959776 Sequence #2 T___E ~AR -HILNOSV? YYYYY
+TDD-4959161 attempt: 1 TRACE Y Y Y Y Y
+TDD-774 questioning: TALES
+TDD2551300 Sequence #3 _____? nnnnM
+TDD-2551058 attempt: 2 TALES n n n n m
+TDD-234 questioning: NOISE
+TDD2231624 Sequence #3 _____ ~S -AELT? nYnYn
+TDD-2231484 attempt: 2 NOISE n Y n Y n
+TDD-165 questioning: SHORE
+TDD2375587 Sequence #3 _O_S_ -AEILNT? MnMnn
+TDD-2375441 attempt: 2 SHORE m n m n n
+TDD-140 questioning: SHOVE
+TDD2015733 Sequence #3 _O_S_ -AEHILNRT? MnMnn
+TDD-2015587 attempt: 2 SHOVE m n m n n
+TDD-151 questioning: TRACE
+TDD1711850 Sequence #3 _O_S_ -AEHILNRTV? nnnnn
+TDD-1711692 attempt: 2 TRACE n n n n n
+TDD1663632 > * 3
+TDD4064179 ? 1
+TDD-5727779 questioning: mousy
+TDD4863728 Sequence #3 _O_S_ -ACEHILNRTV? nYnYY
+TDD-4863681 attempt: 2 MOUSY n Y n Y Y
+TDD1399050 > * 3
+TDD145090 ? 1
+TDD-1544202 questioning: bossy
+TDD4551209 Sequence #3 _O_SY -ACEHILMNRTUV? YYYYY
+TDD-4551162 attempt: 2 BOSSY Y Y Y Y Y
+TDD-200 questioning: TALES
+TDD3039993 Sequence #4 _____? nnnMn
+TDD-3039767 attempt: 3 TALES n n n m n
+TDD-217 questioning: NOISE
+TDD1647516 Sequence #4 _____ ~E -ALST? nnnnM
+TDD-1647325 attempt: 3 NOISE n n n n m
+TDD-204 questioning: SHORE
+TDD1351434 Sequence #4 _____ ~E -AILNOST? nnnnM
+TDD-1351266 attempt: 3 SHORE n n n n m
+TDD-175 questioning: SHOVE
+TDD3455987 Sequence #4 _____ ~E -AHILNORST? nnnnM
+TDD-3455824 attempt: 3 SHOVE n n n n m
+TDD-170 questioning: TRACE
+TDD1655502 Sequence #4 _____ ~E -AHILNORSTV? nnnnM
+TDD-1655270 attempt: 3 TRACE n n n n m
+TDD-217 questioning: MOUSY
+TDD1287892 Sequence #4 _____ ~E -ACHILNORSTV? nnnnY
+TDD-1287752 attempt: 3 MOUSY n n n n Y
+TDD-153 questioning: BOSSY
+TDD1280005 Sequence #4 ____Y ~E -ACHILMNORSTUV? nnnnY
+TDD-1279799 attempt: 3 BOSSY n n n n Y
+TDD1311870 > * 4
+TDD13863405 ? 2
+TDD-15175298 questioning: geeky
+TDD5063615 Sequence #4 ____Y ~E -ABCHILMNORSTUV? nYYnY
+TDD-5063581 attempt: 3 GEEKY n Y Y n Y
+TDD1591316 > * 4
+TDD2832722 ? 1
+TDD-4424076 questioning: weedy
+TDD4311429 Sequence #4 _EE_Y -ABCGHIKLMNORSTUV? YYYYY
+TDD-4311484 attempt: 3 WEEDY Y Y Y Y Y
+TDD3280026 📋> Daily Sequence Quordle 1435
+TDD-3280079 📋> 4️⃣5️⃣
+TDD-90 📋> 7️⃣9️⃣
+TDD-4 📋> m-w.com/games/quordle/
+TDD383657 📋> 
+TDD-167601 📋> ␚
+TDD-215928 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1435\n4\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD22 result: "Daily Sequence Quordle 1435\n4\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD287508 📆 2025-12-29 ? 
