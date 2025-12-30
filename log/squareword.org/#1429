@@ -1,0 +1,101 @@
+T1029.8030486910138 now: 2025-12-30T09:01:52EST
+TD63 site: squareword.org
+TDD-15 wordlist: nwl2023.txt
+TDD5950517  ...
+TDD-3166443 🧩  ? #1429
+TDD-2783907 puzzle_id: #1429
+TDD7847512 > *
+TDD-6551417 try? 1
+TDD-1295952 questioning: ["torse", "#5"]
+TDD5247393 #1 <IndexError>  📋 "torse" ? _____
+TDD-5247047 attempt 0 TORSE n n n n n
+TDD2270274 #2 <IndexError>  📋 "torse" ? ____E ~ TR
+TDD-2270755 attempt 1 TORSE m n m n Y
+TDD3135763 #3 <IndexError>  📋 "torse" ? __R__ ~ OE
+TDD-3135620 attempt 2 TORSE n m Y n m
+TDD2895237 #4 <IndexError>  📋 "torse" ? _____ ~ TE
+TDD-2895282 attempt 3 TORSE m n n n m
+TDD2767487 #5 <IndexError>  📋 "torse" ? T____ ~ RS
+TDD-2767508 attempt 4 TORSE Y n m m n
+TDD959416 ? 
+TDD-959522 question done
+TDD7631798 > *
+TDD-415791 try? 5
+TDD-7215877 questioning: ["heron", "#3"]
+TDD5575346 #1 _____ -EORST  📋 "heron" ? _____
+TDD-5575311 attempt 0 HERON n n n n n
+TDD2350964 #2 ____E ~RT -OS  📋 "heron" ? .
+TDD-2350987 attempt 1 HERON n n m n n
+TDD2735846 #3 __R__ ~EO -ST  📋 "heron" ? __RO_ ~ EN
+TDD-2735859 attempt 2 HERON n m Y Y m
+TDD3342938 #4 _____ ~ET -ORS  📋 "heron" ? _E___ ~ TN
+TDD-3343051 attempt 3 HERON n Y n n m
+TDD1967768 #5 T____ ~RS -EO  📋 "heron" ? .
+TDD-1967670 attempt 4 HERON n n m n n
+TDD175479 ? 
+TDD-175623 question done
+TDD663344 > *
+TDD-122760 questioning: ["enrol", "#3"]
+TDD4182555 #1 _____ -EHNORST  📋 "enrol" ? _____ ~ L
+TDD-4723070 attempt 0 ENROL n n n n m
+TDD2751659 #2 ____E ~RT -EHNOS  📋 "enrol" ? ____E ~ TRL
+TDD-2751674 attempt 1 ENROL n n m n m
+TDD655442 #3 __RO_ ~EN -HST  📋 "enrol" ? /it
+TDD-655435 attempt 2 ENROL Y Y Y Y Y
+TDD1095927 #4 _E___ ~NT -HORS  📋 "enrol" ? .
+TDD-1095850 attempt 3 ENROL n m n n n
+TDD935662 #5 T____ ~RS -EHNO  📋 "enrol" ? .
+TDD-935733 attempt 4 ENROL n n m n n
+TDD1222855 ? 
+TDD-1222962 question done
+TDD599881 > *
+TDD-72641 questioning: ["litre", "#2"]
+TDD6737509 #1 _____ ~L -EHNORST  📋 "litre" ? _____ ~ LI
+TDD-7264591 attempt 0 LITRE m m n n n
+TDD2031224 #2 ____E ~LRT -EHNOS  📋 "litre" ? /it
+TDD-2031201 attempt 1 LITRE Y Y Y Y Y
+TDD4039659 #4 _E___ ~NT -EHLORS  📋 "litre" ? _E___ ~ TNI
+TDD-4039746 attempt 3 LITRE n m m n n
+TDD1511588 #5 T____ ~RS -EHLNO  📋 "litre" ? .
+TDD-1511558 attempt 4 LITRE n n n m n
+TDD151472 ? 
+TDD-151551 question done
+TDD551769 > *
+TDD780399 questioning: ["feint", "#4"]
+TDD11943239 #1 _____ ~IL -EHNORST  📋 "feint" ? .
+TDD-13275285 attempt 0 FEINT n n m n n
+TDD703834 #4 _E___ ~INT -EHLORS  📋 "feint" ? /it
+TDD-703902 attempt 3 FEINT Y Y Y Y Y
+TDD911249 #5 T____ ~RS -EHILNOT  📋 "feint" ? .
+TDD-911093 attempt 4 FEINT n n n n n
+TDD167029 ? 
+TDD-167286 question done
+TDD1703716 > *
+TDD-400218 questioning: ["claim", "#1"]
+TDD1248917 #1 _____ ~IL -EFHNORST  📋 "claim" ? /it
+TDD-2552340 attempt 0 CLAIM Y Y Y Y Y
+TDD4255676 #5 T____ ~RS -EFHILNOT  📋 "claim" ? T_A__ ~ RS
+TDD-4255638 attempt 4 CLAIM n n Y n n
+TDD191587 ? 
+TDD-191696 question done
+TDD1271555 > 
+TDD1056214 > *
+TDD-1467705 questioning: ["trays", "#5"]
+TDD6127953 #5 T_A__ ~RS -CEFHILMNOT  📋 "trays" ? /it
+TDD-6987926 attempt 4 TRAYS Y Y Y Y Y
+TDD935373 ? 
+TDD-935434 question done
+TDD3192133 📋> squareword.org 1429: 7 guesses
+TDD-3192181 📋> 
+TDD-83 📋> 🟨🟨🟨🟨🟨
+TDD-12 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟨🟨🟨🟨
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD431238 📋> #squareword #squareword1429
+TDD-271139 📋> ␚
+TDD-159988 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1429: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1429"}
+TDD467 result: "squareword.org 1429: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1429"
+TDD206832 📆 2025-12-30 ? 
