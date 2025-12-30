@@ -1,0 +1,113 @@
+T10.020144966023508 now: 2025-12-30T11:40:06EST
+TD56 site: m-w.com/games/quordle/#/rescue
+TDD-25 wordlist: nwl2023.txt
+TDD-25 num_words: 4
+TDD7957876  ...
+TDD-6261848 > * 1
+TDD279918 ? ␚
+TDD-1975880 <EOF>
+TDD2968492 > tried elect
+TDD-2968396 questioning: elect
+TDD2079481 Rescue #1 _____? MMnnn
+TDD-2079046 attempt: 0 ELECT m m n n n
+TDD2326771 Rescue #2 _____? MnMnM
+TDD-2327174 attempt: 1 ELECT m n m n m
+TDD2015534 Rescue #3 _____? nnnYn
+TDD-2015490 attempt: 2 ELECT n n n Y n
+TDD1775876 Rescue #4 _____? MMMnn
+TDD-1775875 attempt: 3 ELECT m m m n n
+TDD2351323 > tried style
+TDD-2351379 questioning: style
+TDD1855358 Rescue #1 _____ ~EL -CT E:1? nnnMM
+TDD-1855298 attempt: 0 STYLE n n n m m
+TDD1519678 Rescue #2 _____ ~ET -CL? nMnnM
+TDD-1519677 attempt: 1 STYLE n m n n m
+TDD2223750 Rescue #3 ___C_ -ELT? nnnnn
+TDD-2223739 attempt: 2 STYLE n n n n n
+TDD2295492 Rescue #4 _____ ~EL -CT? nnnYY
+TDD-2295484 attempt: 3 STYLE n n n Y Y
+TDD4775751 > * 1
+TDD551367 ? 4
+TDD-5327217 questioning: ruled
+TDD6119978 Rescue #1 _____ ~EL -CSTY E:1? MnMYn
+TDD-6119879 attempt: 0 RULED m n m Y n
+TDD2359747 Rescue #2 _____ ~ET -CLSY? MnnYM
+TDD-2359754 attempt: 1 RULED m n n Y m
+TDD1727586 Rescue #3 ___C_ -ELSTY? nnnnn
+TDD-1727596 attempt: 2 RULED n n n n n
+TDD1743459 Rescue #4 ___LE -CSTY? nnYMn
+TDD-1743458 attempt: 3 RULED n n Y m n
+TDD2751487 > * 2
+TDD1623779 ? ␚
+TDD-4375423 <EOF>
+TDD1265326 > * 4
+TDD3085480 ? ␚
+TDD-4350784 <EOF>
+TDD1440204 > * 2
+TDD142939 ? 2
+TDD-1583097 questioning: dater
+TDD5280091 Rescue #1 ___E_ ~LR -CDSTUY? nnnYY
+TDD-5280069 attempt: 0 DATER n n n Y Y
+TDD1791579 Rescue #2 ___E_ ~DRT -CLSUY? YnYYY
+TDD-1791516 attempt: 1 DATER Y n Y Y Y
+TDD1527541 Rescue #3 ___C_ -DELRSTUY? nnnnn
+TDD-1525364 attempt: 2 DATER n n n n n
+TDD1706918 Rescue #4 __LLE -CDRSTUY? nnnMn
+TDD-1709144 attempt: 3 DATER n n n m n
+TDD10760219 > * 2
+TDD-9032827 ? 1
+TDD-1727371 questioning: doter
+T0.8267266810289584 now: 2025-12-30T11:42:12EST
+TD70 questioning: doter
+TDD6843260 Rescue #1 ___ER ~L -ACDSTUY? nYnYY
+TDD-6843124 attempt: 0 DOTER n Y n Y Y
+TDD3647602 Rescue #2 D_TER -ACLSUY? YnYYY
+TDD-3647546 attempt: 1 DOTER Y n Y Y Y
+TDD1591495 Rescue #3 ___C_ -ADELRSTUY? nnnnn
+TDD-1591466 attempt: 2 DOTER n n n n n
+TDD1567424 Rescue #4 __LLE -ACDRSTUY? nnnMn
+TDD-1567500 attempt: 3 DOTER n n n m n
+TDD1999633 > * 2
+TDD-1907423 questioning: deter
+TDD4391264 Rescue #1 _O_ER ~L -ACDSTUY? nnnYY
+TDD-4483438 attempt: 0 DETER n n n Y Y
+TDD1039425 Rescue #2 D_TER -ACLOSUY? YYYYY
+TDD-1039498 attempt: 1 DETER Y Y Y Y Y
+TDD1679655 Rescue #3 ___C_ -ADELORSTUY? nnnnn
+TDD-1679581 attempt: 2 DETER n n n n n
+TDD2247738 Rescue #4 __LLE -ACDORSTUY? nYnMn
+TDD-2247698 attempt: 3 DETER n Y n m n
+TDD1359322 > * 4
+TDD-1266632 questioning: belle
+TDD5806353 Rescue #1 _O_ER ~L -ACDSTUY? nMMnn
+TDD-5899083 attempt: 0 BELLE n m m n n
+TDD1343084 Rescue #3 ___C_ -ADELORSTUY? nnnnn
+TDD-1343100 attempt: 2 BELLE n n n n n
+TDD1367798 Rescue #4 _ELLE -ACDORSTUY? YYYYY
+TDD-1367759 attempt: 3 BELLE Y Y Y Y Y
+TDD1359372 > * 1
+TDD1568695 ? 1
+TDD-2928111 questioning: loner
+TDD3351450 Rescue #1 _O_ER ~L -ABCDSTUY E:1 L:1? YYnYY
+TDD-3351393 attempt: 0 LONER Y Y n Y Y
+TDD2495115 Rescue #3 ___C_ -ABDELORSTUY? nnnnn
+TDD-2495161 attempt: 2 LONER n n n n n
+TDD1735758 > * 3
+TDD120315 ? 1
+TDD-1856099 questioning: which
+TDD9360590 Rescue #1 LO_ER -ABCDNSTUY? Mnnnn
+TDD-9360571 attempt: 0 WHICH m n n n n
+TDD1830115 Rescue #3 ___C_ -ABDELNORSTUY? YYYYY
+TDD-1830103 attempt: 2 WHICH Y Y Y Y Y
+TDD4191537 > 
+TDD-1695684 > /res
+TDD705042 📋> Daily Rescue 50
+TDD-3201025 📋> 🟥6️⃣
+TDD-102 📋> 9️⃣7️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD407558 📋> 
+TDD-128325 📋> ␚
+TDD-279100 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Daily Rescue 50\n\ud83d\udfe56\ufe0f\u20e3\n9\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD999 result: "Daily Rescue 50\n\ud83d\udfe56\ufe0f\u20e3\n9\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD1717909 > /store
+TDD-871108 📆 2025-12-30 ? 
