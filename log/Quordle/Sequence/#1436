@@ -1,0 +1,89 @@
+T2.9154480880242772 now: 2025-12-30T10:53:27EST
+TD58 site: m-w.com/games/quordle/#/sequence
+TDD-29 wordlist: nwl2023.txt
+TDD-15 num_words: 4
+TDD14453437  ...
+TDD-12757572 > * 1
+TDD4880153 ? 1
+TDD-6575848 questioning: arose
+TDD1455803 Sequence #1 _____? nMnnn
+TDD-1455403 attempt: 0 AROSE n m n n n
+TDD1334919 > * 1
+TDD264719 ? 1
+TDD-1600010 questioning: curly
+TDD2719732 Sequence #1 _____ ~R -AEOS? nnMMn
+TDD-2719674 attempt: 0 CURLY n n m m n
+TDD1567052 > * 1
+TDD496853 ? 2
+TDD-2063957 questioning: whirl
+TDD4959608 Sequence #1 _____ ~LR -ACEOSUY? YYYYY
+TDD-4959618 attempt: 0 WHIRL Y Y Y Y Y
+TDD-170 questioning: AROSE
+TDD6767997 Sequence #2 _____? nnYMn
+TDD-6767811 attempt: 1 AROSE n n Y m n
+TDD-184 questioning: CURLY
+TDD1439541 Sequence #2 __O__ ~S -AER? nnnnn
+TDD-1439334 attempt: 1 CURLY n n n n n
+TDD-202 questioning: WHIRL
+TDD1271459 Sequence #2 __O__ ~S -ACELRUY? Mnnnn
+TDD-1271244 attempt: 1 WHIRL m n n n n
+TDD1759522 > * 2
+TDD4984439 ? 2
+TDD-6744015 questioning: knows
+TDD4815537 Sequence #2 __O__ ~SW -ACEHILRUY? nnYMM
+TDD-4815473 attempt: 1 KNOWS n n Y m m
+TDD1559296 > * 2
+TDD-1460661 questioning: swoop
+TDD4626180 Sequence #2 __O__ ~SW -ACEHIKLNRUY? YYYYY
+TDD-4724867 attempt: 1 SWOOP Y Y Y Y Y
+TDD-125 questioning: AROSE
+TDD5607700 Sequence #3 _____? MYnnn
+TDD-5607599 attempt: 2 AROSE m Y n n n
+TDD-160 questioning: CURLY
+TDD2960268 Sequence #3 _R___ ~A -EOS? MnMnn
+TDD-2960115 attempt: 2 CURLY m n m n n
+TDD-153 questioning: WHIRL
+TDD2871343 Sequence #3 _R___ ~AC -ELOSUY? nnnMn
+TDD-2871131 attempt: 2 WHIRL n n n m n
+TDD-197 questioning: KNOWS
+TDD3439896 Sequence #3 _R___ ~AC -EHILOSUWY? Mnnnn
+TDD-3439095 attempt: 2 KNOWS m n n n n
+TDD-805 questioning: SWOOP
+TDD1574924 Sequence #3 _R___ ~ACK -EHILNOSUWY? nnnnn
+TDD-1574754 attempt: 2 SWOOP n n n n n
+TDD1479764 > * 3
+TDD304277 ? 1
+TDD-1784047 questioning: track
+TDD3351590 Sequence #3 _R___ ~ACK -EHILNOPSUWY? YYYYY
+TDD-3351550 attempt: 2 TRACK Y Y Y Y Y
+TDD-200 questioning: AROSE
+TDD4191302 Sequence #4 _____? Mnnnn
+TDD-4191154 attempt: 3 AROSE m n n n n
+TDD-163 questioning: CURLY
+TDD1496021 Sequence #4 _____ ~A -EORS? nnnnY
+TDD-1495898 attempt: 3 CURLY n n n n Y
+TDD-128 questioning: WHIRL
+TDD1503733 Sequence #4 ____Y ~A -CELORSU? nnnnn
+TDD-1503515 attempt: 3 WHIRL n n n n n
+TDD-198 questioning: KNOWS
+TDD1687719 Sequence #4 ____Y ~A -CEHILORSUW? nMnnn
+TDD-1687514 attempt: 3 KNOWS n m n n n
+TDD-204 questioning: SWOOP
+TDD2055311 Sequence #4 ____Y ~AN -CEHIKLORSUW? nnnnn
+TDD-2055180 attempt: 3 SWOOP n n n n n
+TDD-141 questioning: TRACK
+TDD3791756 Sequence #4 ____Y ~AN -CEHIKLOPRSUW? YnMnn
+TDD-3791540 attempt: 3 TRACK Y n m n n
+TDD1567529 > * 4
+TDD-1475190 questioning: tangy
+TDD5246912 Sequence #4 T___Y ~AN -CEHIKLOPRSUW? YYYYY
+TDD-5339318 attempt: 3 TANGY Y Y Y Y Y
+TDD3688211 📋> Daily Sequence Quordle 1436
+TDD-3688308 📋> 3️⃣5️⃣
+TDD-76 📋> 6️⃣7️⃣
+TDD-1 📋> m-w.com/games/quordle/
+TDD432404 📋> 
+TDD-191594 📋> ␚
+TDD-240696 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1436\n3\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD732 result: "Daily Sequence Quordle 1436\n3\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD333015 📆 2025-12-30 ? 
