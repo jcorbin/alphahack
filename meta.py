@@ -529,6 +529,7 @@ class Meta(PromptUI.Arguable[PromptUI.Shell]):
                 'cont': partial(self.do_sol_cont, solver_i),
                 'current': partial(self.do_sol_cur, solver_i),
                 'edit': partial(self.do_sol_edit, solver_i),
+                'fin': partial(self.do_sol_cont, solver_i, give='fin'),
                 'last': partial(self.do_sol_last, solver_i),
                 'ls': partial(self.do_sol_ls, solver_i),
                 'rm': partial(self.do_sol_rm, solver_i),
