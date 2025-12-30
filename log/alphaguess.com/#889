@@ -1,0 +1,54 @@
+T81.64438186999178 now: 2025-12-30T08:46:04EST
+TD57 site: alphaguess.com
+TDD178237 loaded 196537 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (66 words excluded) asof 2e8de6821682bedb77096dcc99b54d4ed2f18221
+TDD5178256  ...
+TDD-3020923 [0 : 98224 : 196537] mach? a
+TDD-2335476 progress: 1 98224 mach
+TDD1367671 [98225 : 147328 : 196537] rho? a
+TDD-1367709 progress: 1 147328 rho
+TDD1263578 [147329 : 171928 : 196537] tag? b
+TDD-1263544 progress: -1 171928 tag
+TDD1136003 [147329 : 159610 : 171928] slug? a
+TDD-1136036 progress: 1 159610 slug
+TDD1088394 [159611 : 165764 : 171928] stint? a
+TDD-1088386 progress: 1 165764 stint
+TDD1151190 [165765 : 168814 : 171928] sulfur? b
+TDD-1151200 progress: -1 168814 sulfur
+TDD2695733 [165765 : 167288 : 168814] sub? a
+TDD-2695719 progress: 1 167288 sub
+TDD1247777 [167289 : 168029 : 168814] subs? a
+TDD-1247723 progress: 1 168029 subs
+TDD1199764 [168030 : 168418 : 168814] subway? a
+TDD-1199820 progress: 1 168418 subway
+TDD1383252 [168419 : 168606 : 168814] suffer? a
+TDD-1383259 progress: 1 168606 suffer
+TDD1344034 [168607 : 168709 : 168814] sugh? b
+TDD-1344036 progress: -1 168709 sugh
+TDD1271495 [168607 : 168659 : 168709] suffuse? b
+TDD-1271480 progress: -1 168659 suffuse
+TDD1192335 [168607 : 168628 : 168659] suffix? b
+TDD-1192286 progress: -1 168628 suffix
+TDD1231437 [168607 : 168618 : 168628] suffice? a
+TDD-1231423 progress: 1 168618 suffice
+TDD2527516 [168619 : 168623 : 168628] sufficiencies? a
+TDD-2527556 progress: 1 168623 sufficiencies
+TDD1319523 [168624 : 168626 : 168628] sufficiently? b
+TDD-1319552 progress: -1 168626 sufficiently
+TDD1488002 [168624 : 168625 : 168626] sufficient? it
+TDD-1487947 progress: 0 168625 sufficient
+TDD-150 [168624 : 168625 : 168626] <Done>.
+TDD3144496 📋> 🧩 Puzzle #889
+TDD-3144421 📋> 
+TDD-83 📋> 🤔 17 guesses
+TDD-6 📋> 
+TDD0 📋> ⏱️ 23s
+TDD-1 📋> 
+TDD399115 📋> 🔗 alphaguess.com
+TDD-247303 📋> ␚
+TDD-151696 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #889\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-26 result: "\ud83e\udde9 Puzzle #889\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"
+TDD-84 result puzzle: 889
+TDD-7 result guesses: 17
+TDD-1 result time: 23s
+TDD0 result link: alphaguess.com
+TDD143953 📆 2025-12-30 ? 
