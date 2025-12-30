@@ -1,0 +1,88 @@
+T85.66421022900613 now: 2025-12-30T11:43:37EST
+TD54 site: m-w.com/games/quordle/#/extreme
+TDD-21 wordlist: nwl2023.txt
+TDD-27 num_words: 4
+TDD16814816  ...
+TDD-14678447 > * 1
+TDD1079614 ? 1
+TDD-3215737 questioning: orals
+TDD2719386 Extreme #1 _____? nnnMn
+TDD-2719380 attempt: 0 ORALS n n n m n
+TDD2071189 Extreme #2 _____? Mnnnn
+TDD-2071190 attempt: 1 ORALS m n n n n
+TDD1647677 Extreme #3 _____? nnYnM
+TDD-1647717 attempt: 2 ORALS n n Y n m
+TDD1151362 Extreme #4 _____? nnnMn
+TDD-1151389 attempt: 3 ORALS n n n m n
+TDD2159671 > * 2
+TDD-1231821 ? 1
+TDD-927876 questioning: decoy
+TDD2512165 Extreme #1 _____ ~L -AORS? nnMnn
+TDD-2512046 attempt: 0 DECOY n n m n n
+TDD2111061 Extreme #2 _____ ~O -ALRS? YnnMn
+TDD-2111084 attempt: 1 DECOY Y n n m n
+TDD2463624 Extreme #3 __A__ ~S -LOR? nMnnn
+TDD-2463628 attempt: 2 DECOY n m n n n
+TDD1543831 Extreme #4 _____ ~L -AORS? nnMnn
+TDD-1543890 attempt: 3 DECOY n n m n n
+TDD1727381 > [C
+TDD-1103931 > 
+TDD176282 > 
+TDD2440354 > * 4
+TDD-1408144 ? 2
+TDD-1831918 questioning: clump
+TDD4383769 Extreme #1 _____ ~CL -ADEORSY? YYnnn
+TDD-4383725 attempt: 0 CLUMP Y Y n n n
+TDD1327419 Extreme #2 D____ ~O -ACELRSY? nnMnn
+TDD-1327414 attempt: 1 CLUMP n n m n n
+TDD1407358 Extreme #3 __A__ ~ES -CDLORY? nnnnM
+TDD-1407367 attempt: 2 CLUMP n n n n m
+TDD2871319 Extreme #4 _____ ~CL -ADEORSY? YYnYn
+TDD-2871362 attempt: 3 CLUMP Y Y n Y n
+TDD1511751 > * 4
+TDD-1413361 questioning: climb
+TDD3530861 Extreme #1 CL___ -ADEMOPRSUY? YYYnn
+TDD-3629216 attempt: 0 CLIMB Y Y Y n n
+TDD1671304 Extreme #2 D____ ~OU -ACELMPRSY? nnnnn
+TDD-1671356 attempt: 1 CLIMB n n n n n
+TDD1416126 Extreme #3 __A__ ~EPS -CDLMORUY? nnnnn
+TDD-1416086 attempt: 2 CLIMB n n n n n
+TDD1671013 Extreme #4 CL_M_ -ADEOPRSUY? YYYYY
+TDD-1671077 attempt: 3 CLIMB Y Y Y Y Y
+TDD2215880 > * 2
+TDD-352325 ? 1
+TDD-1863524 questioning: donut
+TDD3343845 Extreme #1 CLI__ -ABDEMOPRSUY? nnMnn
+TDD-3343836 attempt: 0 DONUT n n m n n
+TDD1415586 Extreme #2 D____ ~OU -ABCEILMPRSY? YYYYY
+TDD-1415471 attempt: 1 DONUT Y Y Y Y Y
+TDD1103721 Extreme #3 __A__ ~EPS -BCDILMORUY? nnnnn
+TDD-1103800 attempt: 2 DONUT n n n n n
+TDD303992 > 
+TDD1263291 > * 1
+TDD744286 ? 1
+TDD-2311598 questioning: cling
+TDD3303243 Extreme #1 CLI__ ~N -ABDEMOPRSTUY? YYYYn
+TDD-3303275 attempt: 0 CLING Y Y Y Y n
+TDD1751763 Extreme #3 __A__ ~EPS -BCDILMNORTUY? nnnnn
+TDD-1751690 attempt: 2 CLING n n n n n
+TDD1199812 > * 1
+TDD-1107998 questioning: clink
+TDD2959947 Extreme #1 CLIN_ -ABDEGMOPRSTUY? YYYYY
+TDD-3051842 attempt: 0 CLINK Y Y Y Y Y
+TDD2759817 Extreme #3 __A__ ~EPS -BCDGILMNORTUY? nnnnn
+TDD-2759739 attempt: 2 CLINK n n n n n
+TDD1879451 > * 3
+TDD127928 ? 1
+TDD-2007477 questioning: phase
+TDD3287575 Extreme #3 __A__ ~EPS -BCDGIKLMNORTUY? YYYYY
+TDD-3287471 attempt: 2 PHASE Y Y Y Y Y
+TDD3840422 📋> 🥵 Daily Extreme 519
+TDD-3840558 📋> 7️⃣5️⃣
+TDD7 📋> 8️⃣4️⃣
+TDD-70 📋> m-w.com/games/quordle/
+TDD335096 📋> 
+TDD-86935 📋> ␚
+TDD-248100 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udd75 Daily Extreme 519\n7\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD9 result: "\ud83e\udd75 Daily Extreme 519\n7\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD303549 📆 2025-12-30 ? 
