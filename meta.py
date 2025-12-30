@@ -899,12 +899,13 @@ class Meta(PromptUI.Arguable[PromptUI.Shell]):
         with self.solvers.run(ui, solver_i=solver_j):
             pass
 
-    def do_sol_cont(self, solver_i: int, ui: PromptUI):
+    def do_sol_cont(self, solver_i: int, ui: PromptUI, give: str=''):
         '''
         continue solver run
         '''
-        with self.solvers.run(ui, solver_i=solver_i):
-            pass
+        with self.solvers.run(ui, solver_i=solver_i) as (ui, _solver):
+            if give:
+                ui.tokens.give(give)
 
     def do_sol_edit(self, solver_i: int, ui: PromptUI):
         '''
