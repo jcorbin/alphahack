@@ -510,7 +510,7 @@ class Meta(Arguable):
 
     def __init__(self):
         super().__init__()
-        self.solver_log = solver_cur_log.copy()
+        self.solver_log = [prior.log_file for prior in solver_prior]
         self.report = Report()
         self.prompt.mess = self.prompt_mess
 
@@ -861,7 +861,7 @@ class Meta(Arguable):
                 ui.print(f'! could not find last log file')
                 return
             ui.print(f'Found last log_file: {found}')
-            self.solver_log[harness.name] = found
+            self.solver_log[solver_i] = found
             if ui.tokens:
                 return pr.handle(ui)
             else:
@@ -869,23 +869,23 @@ class Meta(Arguable):
 
         def do_edit(ui: PromptUI):
             editor = os.environ.get('EDITOR', 'vi')
-            log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
+            log_file = self.solver_log[solver_i]
             with ui.check_proc(subprocess.Popen((editor, log_file))):
                 pass
             raise StopIteration
 
         def do_rm(ui: PromptUI):
-            log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
+            log_file = self.solver_log[solver_i]
             ui.print(f'+ rm {log_file}')
             os.unlink(log_file)
             raise StopIteration
 
         def do_cont(ui: PromptUI):
-            log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
+            log_file = self.solver_log[solver_i]
             return run_solver(harness.name, harness, ui, log_file)
 
         def do_tail(ui: PromptUI):
-            log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
+            log_file = self.solver_log[solver_i]
             tail_n = (
                 3 if ui.screen_lines < 10 else
                 10 if ui.screen_lines < 20 else
@@ -895,7 +895,7 @@ class Meta(Arguable):
             raise StopIteration
 
         def prompt_mess(_: PromptUI):
-            log_file = self.solver_log.setdefault(harness.name, solver_cur_log[harness.name])
+            log_file = self.solver_log[solver_i]
             return f'{log_file}> '
 
         pr = ui.Prompt(prompt_mess, {
