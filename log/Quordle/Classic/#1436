@@ -1,0 +1,89 @@
+T448.19077552400995 now: 2025-12-30T08:52:10EST
+TD53 site: m-w.com/games/quordle/#/
+TDD-19 wordlist: nwl2023.txt
+TDD-27 num_words: 4
+TDD4670273  ...
+TDD-2638256 > * 1
+TDD-744017 ? 1
+TDD-1287843 questioning: arose
+TDD3543733 Classic #1 _____? YnMnn
+TDD-3543690 attempt: 0 AROSE Y n m n n
+TDD1479752 Classic #2 _____? MnnnM
+TDD-1479768 attempt: 1 AROSE m n n n m
+TDD5735538 Classic #3 _____? nnnnn
+TDD-5735479 attempt: 2 AROSE n n n n n
+TDD1775630 Classic #4 _____? nnnnn
+TDD-1775629 attempt: 3 AROSE n n n n n
+TDD3695597 > * 4
+TDD-1103689 ? 2
+TDD-2591991 questioning: guilt
+TDD5079469 Classic #1 A____ ~O -ERS? nnnMY
+TDD-5079439 attempt: 0 GUILT n n n m Y
+TDD1655577 Classic #2 _____ ~AE -ORS? Mnnnn
+TDD-1655600 attempt: 1 GUILT m n n n n
+TDD1711761 Classic #3 _____ -AEORS? nnYMn
+TDD-1711675 attempt: 2 GUILT n n Y m n
+TDD1583298 Classic #4 _____ -AEORS? nYnnn
+TDD-1583345 attempt: 3 GUILT n Y n n n
+TDD1583595 > * 1
+TDD-1492359 questioning: allot
+TDD3561538 Classic #1 A___T ~LO -EGIRSU? YYYYY
+TDD-3652715 attempt: 0 ALLOT Y Y Y Y Y
+TDD3463211 Classic #2 _____ ~AEG -ILORSTU? Mnnnn
+TDD-3463236 attempt: 1 ALLOT m n n n n
+TDD3191780 Classic #3 __I__ ~L -AEGORSTU? nYnnn
+TDD-3191835 attempt: 2 ALLOT n Y n n n
+TDD1271308 Classic #4 _U___ -AEGILORST? nnnnn
+TDD-1271308 attempt: 3 ALLOT n n n n n
+TDD3327676 > * 4
+TDD-1871014 ? 1
+TDD-1456684 questioning: munch
+TDD6918972 Classic #2 _____ ~AEG -ILORSTU? nnnMn
+TDD-6918908 attempt: 1 MUNCH n n n m n
+TDD2087407 Classic #3 _LI__ -AEGORSTU? nnMnn
+TDD-2087482 attempt: 2 MUNCH n n m n n
+TDD7999883 Classic #4 _U___ -AEGILORST? nYYnn
+TDD-7999727 attempt: 3 MUNCH n Y Y n n
+TDD2031297 > * 2
+TDD-207198 ? 2
+TDD-1824160 questioning: caged
+TDD3743536 Classic #2 _____ ~ACEG -HILMNORSTU? YYYYn
+TDD-3743622 attempt: 1 CAGED Y Y Y Y n
+TDD1503644 Classic #3 _LI__ ~N -ACEGHMORSTU? nnnnn
+TDD-1503566 attempt: 2 CAGED n n n n n
+TDD1135170 Classic #4 _UN__ -ACEGHILMORST? nnnnn
+TDD-1135236 attempt: 3 CAGED n n n n n
+TDD1832411 > * 2
+TDD-1751477 questioning: cagey
+TDD4165271 Classic #2 CAGE_ -DHILMNORSTU? YYYYY
+TDD-4246205 attempt: 1 CAGEY Y Y Y Y Y
+TDD1655532 Classic #3 _LI__ ~N -ACDEGHMORSTU? nnnnn
+TDD-1655524 attempt: 2 CAGEY n n n n n
+TDD2767764 Classic #4 _UN__ -ACDEGHILMORST? nnnnY
+TDD-2767753 attempt: 3 CAGEY n n n n Y
+TDD2615500 > * 4
+TDD640302 ? ␚
+TDD-3255922 <EOF>
+TDD1311778 > * 3
+TDD3576183 ? 1
+TDD-4887863 questioning: plink
+TDD5623740 Classic #3 _LI__ ~N -ACDEGHMORSTUY? nYYYY
+TDD-5623687 attempt: 2 PLINK n Y Y Y Y
+TDD1807515 Classic #4 _UN_Y -ACDEGHILMORST? nnnYn
+TDD-1807551 attempt: 3 PLINK n n n Y n
+TDD1535630 > * 3
+TDD-1435644 questioning: blink
+TDD3983751 Classic #3 _LINK -ACDEGHMOPRSTUY? YYYYY
+TDD-4083751 attempt: 2 BLINK Y Y Y Y Y
+TDD3071981 Classic #4 _UNNY -ACDEGHIKLMOPRST? YnnYn
+TDD-3071921 attempt: 3 BLINK Y n n Y n
+TDD20063364 📋> YYYYY
+TDD-14638835 📋> 🙂 Daily Quordle 1436
+TDD-5424648 📋> 3️⃣6️⃣
+TDD-100 📋> 8️⃣9️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD463082 📋> 
+TDD-223149 📋> ␚
+TDD-239841 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "YYYYY\n\ud83d\ude42 Daily Quordle 1436\n3\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD799 result: "YYYYY\n\ud83d\ude42 Daily Quordle 1436\n3\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD446453 📆 2025-12-30 ? 
