@@ -544,11 +544,6 @@ class Meta(Arguable):
         self.report = Report()
         self.prompt.mess = self.prompt_mess
 
-        self.solver_log: dict[str, str] = {
-            sol.name: prior.log_file
-            for sol, prior in zip(solver_harness, solver_prior)
-        }
-
         root = self.prompt
 
         # TODO should be std; also tron/troff bindings
