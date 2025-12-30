@@ -1,0 +1,257 @@
+T375.4323238140205 now: 2025-12-30T11:57:58EST
+TD55 site: britannica.com/games/octordle/daily-sequence
+TDD-24 wordlist: nwl2023.txt
+TDD-25 num_words: 8
+TDD7294166  ...
+TDD-2605922 > * 1
+TDD-3576092 ? 1
+TDD-1111944 questioning: taels
+TDD3743341 Sequence #1 _____? nnMYn
+TDD-3743247 attempt: 0 TAELS n n m Y n
+TDD3615938 > * 1
+TDD7494 ? 2
+TDD-3623529 questioning: refly
+TDD4032032 Sequence #1 ___L_ ~E -AST? nMnYn
+TDD-4031972 attempt: 0 REFLY n m n Y n
+TDD1854898 > * 1
+TDD913529 ? 3
+TDD-2768492 questioning: guile
+TDD3479151 Sequence #1 ___L_ ~E -AFRSTY? nnYYY
+TDD-3479097 attempt: 0 GUILE n n Y Y Y
+TDD1783422 > * 1
+TDD5328052 ? 4
+TDD-7111547 questioning: exile
+TDD3432399 Sequence #1 __ILE -AFGRSTUY? YYYYY
+TDD-3432410 attempt: 0 EXILE Y Y Y Y Y
+TDD-141 questioning: TAELS
+TDD2447121 Sequence #2 _____? nnMnn
+TDD-2446976 attempt: 1 TAELS n n m n n
+TDD-147 questioning: REFLY
+TDD1631898 Sequence #2 _____ ~E -ALST? nMnnn
+TDD-1631742 attempt: 1 REFLY n m n n n
+TDD-145 questioning: GUILE
+TDD2127800 Sequence #2 _____ ~E -AFLRSTY? nnYnY
+TDD-2127597 attempt: 1 GUILE n n Y n Y
+TDD-201 questioning: EXILE
+TDD2112102 Sequence #2 __I_E -AFGLRSTUY? nnYnY
+TDD-2111951 attempt: 1 EXILE n n Y n Y
+TDD1671603 > * 2
+TDD720559 ? 2
+TDD-2392193 questioning: chime
+TDD4799398 Sequence #2 __I_E -AFGLRSTUXY? MnYnY
+TDD-4799373 attempt: 1 CHIME m n Y n Y
+TDD1503639 > * 2
+TDD-1411973 questioning: voice
+TDD3511655 Sequence #2 __I_E ~C -AFGHLMRSTUXY? YYYYY
+TDD-3603269 attempt: 1 VOICE Y Y Y Y Y
+TDD-193 questioning: TAELS
+TDD4807590 Sequence #3 _____? nMnnM
+TDD-4807449 attempt: 2 TAELS n m n n m
+TDD-154 questioning: REFLY
+TDD1527748 Sequence #3 _____ ~AS -ELT? nnnnY
+TDD-1527559 attempt: 2 REFLY n n n n Y
+TDD-178 questioning: GUILE
+TDD2207871 Sequence #3 ____Y ~AS -EFLRT? nnnnn
+TDD-2207659 attempt: 2 GUILE n n n n n
+TDD-208 questioning: EXILE
+TDD2071780 Sequence #3 ____Y ~AS -EFGILRTU? nnnnn
+TDD-2071575 attempt: 2 EXILE n n n n n
+TDD-195 questioning: CHIME
+TDD2223378 Sequence #3 ____Y ~AS -EFGILRTUX? nYnnn
+TDD-2223255 attempt: 2 CHIME n Y n n n
+TDD-151 questioning: VOICE
+TDD1887734 Sequence #3 _H__Y ~AS -CEFGILMRTUX? nnnnn
+TDD-1887578 attempt: 2 VOICE n n n n n
+TDD1679961 > * 3
+TDD1759943 ? 1
+TDD-3439927 questioning: shaky
+TDD6128056 Sequence #3 _H__Y ~AS -CEFGILMORTUVX? YYYnY
+TDD-6128037 attempt: 2 SHAKY Y Y Y n Y
+TDD1319969 > * 3
+TDD-1228099 questioning: shady
+TDD3710853 Sequence #3 SHA_Y -CEFGIKLMORTUVX? YYYYY
+TDD-3802730 attempt: 2 SHADY Y Y Y Y Y
+TDD-143 questioning: TAELS
+TDD3704547 Sequence #4 _____? MYnYn
+TDD-3704333 attempt: 3 TAELS m Y n Y n
+TDD-200 questioning: REFLY
+TDD2598990 Sequence #4 _A_L_ ~T -ES? nnnYn
+TDD-2598779 attempt: 3 REFLY n n n Y n
+TDD-207 questioning: GUILE
+TDD2935667 Sequence #4 _A_L_ ~T -EFRSY? nMnYn
+TDD-2935462 attempt: 3 GUILE n m n Y n
+TDD-205 questioning: EXILE
+TDD1224355 Sequence #4 _A_L_ ~TU -EFGIRSY? nnnYn
+TDD-1224166 attempt: 3 EXILE n n n Y n
+TDD-190 questioning: CHIME
+TDD3295072 Sequence #4 _A_L_ ~TU -EFGIRSXY? nnnnn
+TDD-3294877 attempt: 3 CHIME n n n n n
+TDD-193 questioning: VOICE
+TDD3808129 Sequence #4 _A_L_ ~TU -CEFGHIMRSXY? Ynnnn
+TDD-3807931 attempt: 3 VOICE Y n n n n
+TDD-202 questioning: SHAKY
+TDD2504110 Sequence #4 VA_L_ ~TU -CEFGHIMORSXY? nnMnn
+TDD-2503948 attempt: 3 SHAKY n n m n n
+TDD-176 questioning: SHADY
+TDD2206838 Sequence #4 VA_L_ ~TU -CEFGHIKMORSXY? nnMnn
+TDD-2206582 attempt: 3 SHADY n n m n n
+TDD2103609 > * 4
+TDD-2013594 questioning: vault
+TDD2851514 Sequence #4 VA_L_ ~TU -CDEFGHIKMORSXY? YYYYY
+TDD-2941635 attempt: 3 VAULT Y Y Y Y Y
+TDD-147 questioning: TAELS
+TDD4007628 Sequence #5 _____? nMnMn
+TDD-4007409 attempt: 4 TAELS n m n m n
+TDD-190 questioning: REFLY
+TDD2439716 Sequence #5 _____ ~AL -EST? nnMMn
+TDD-2439481 attempt: 4 REFLY n n m m n
+TDD-237 questioning: GUILE
+TDD6167440 Sequence #5 _____ ~AFL -ERSTY? nnnMn
+TDD-6167255 attempt: 4 GUILE n n n m n
+TDD-198 questioning: EXILE
+TDD1615726 Sequence #5 _____ ~AFL -EGIRSTUY? nnnMn
+TDD-1615530 attempt: 4 EXILE n n n m n
+TDD-194 questioning: CHIME
+TDD3047895 Sequence #5 _____ ~AFL -EGIRSTUXY? Mnnnn
+TDD-3047687 attempt: 4 CHIME m n n n n
+TDD-197 questioning: VOICE
+TDD2687633 Sequence #5 _____ ~ACFL -EGHIMRSTUXY? nYnMn
+TDD-2687494 attempt: 4 VOICE n Y n m n
+TDD-154 questioning: SHAKY
+TDD5903615 Sequence #5 _O___ ~ACFL -EGHIMRSTUVXY? nnMnn
+TDD-5903414 attempt: 4 SHAKY n n m n n
+TDD-194 questioning: SHADY
+TDD2183640 Sequence #5 _O___ ~ACFL -EGHIKMRSTUVXY? nnMnn
+TDD-2183496 attempt: 4 SHADY n n m n n
+TDD-160 questioning: VAULT
+TDD2040078 Sequence #5 _O___ ~ACFL -DEGHIKMRSTUVXY? nMnMn
+TDD-2039874 attempt: 4 VAULT n m n m n
+TDD1391056 > * 5
+TDD-1300369 questioning: focal
+TDD2826228 Sequence #5 _O___ ~ACFL -DEGHIKMRSTUVXY? YYYYY
+TDD-2916777 attempt: 4 FOCAL Y Y Y Y Y
+TDD-304 questioning: TAELS
+TDD3679827 Sequence #6 _____? Ynnnn
+TDD-3679660 attempt: 5 TAELS Y n n n n
+TDD-198 questioning: REFLY
+TDD2375686 Sequence #6 T____ -AELS? Mnnnn
+TDD-2375398 attempt: 5 REFLY m n n n n
+TDD-258 questioning: GUILE
+TDD1631570 Sequence #6 T____ ~R -AEFLSY? nnnnn
+TDD-1631370 attempt: 5 GUILE n n n n n
+TDD-222 questioning: EXILE
+TDD2671417 Sequence #6 T____ ~R -AEFGILSUY? nnnnn
+TDD-2671138 attempt: 5 EXILE n n n n n
+TDD-253 questioning: CHIME
+TDD3663626 Sequence #6 T____ ~R -AEFGILSUXY? nYnnn
+TDD-3663465 attempt: 5 CHIME n Y n n n
+TDD-192 questioning: VOICE
+TDD1479822 Sequence #6 TH___ ~R -ACEFGILMSUXY? nMnnn
+TDD-1479523 attempt: 5 VOICE n m n n n
+TDD-282 questioning: SHAKY
+TDD9112092 Sequence #6 TH___ ~OR -ACEFGILMSUVXY? nYnnn
+TDD-9111916 attempt: 5 SHAKY n Y n n n
+TDD-187 questioning: SHADY
+TDD1567342 Sequence #6 TH___ ~OR -ACEFGIKLMSUVXY? nYnnn
+TDD-1567144 attempt: 5 SHADY n Y n n n
+TDD-204 questioning: VAULT
+TDD7071680 Sequence #6 TH___ ~OR -ACDEFGIKLMSUVXY? nnnnM
+TDD-7071487 attempt: 5 VAULT n n n n m
+TDD-190 questioning: FOCAL
+TDD1271564 Sequence #6 TH___ ~OR -ACDEFGIKLMSUVXY? nMnnn
+TDD-1271348 attempt: 5 FOCAL n m n n n
+TDD2376137 > * 6
+TDD2591244 ? 4
+TDD-4967443 questioning: throw
+TDD3503812 Sequence #6 TH___ ~OR -ACDEFGIKLMSUVXY? YYYYY
+TDD-3503803 attempt: 5 THROW Y Y Y Y Y
+TDD-171 questioning: TAELS
+TDD2279125 Sequence #7 _____? nnMMn
+TDD-2278950 attempt: 6 TAELS n n m m n
+TDD-168 questioning: REFLY
+TDD2255904 Sequence #7 _____ ~EL -AST? YYnMn
+TDD-2255690 attempt: 6 REFLY Y Y n m n
+TDD-204 questioning: GUILE
+TDD1968367 Sequence #7 RE___ ~L -AFSTY? nnMMM
+TDD-1968199 attempt: 6 GUILE n n m m m
+TDD-125 questioning: EXILE
+TDD1831201 Sequence #7 RE___ ~IL -AFGSTUY? MnMMn
+TDD-1831052 attempt: 6 EXILE m n m m n
+TDD-192 questioning: CHIME
+TDD3367743 Sequence #7 RE___ ~IL -AFGSTUXY E:1? MnMnM
+TDD-3367596 attempt: 6 CHIME m n m n m
+TDD-158 questioning: VOICE
+TDD2127567 Sequence #7 RE___ ~CIL -AFGHMSTUXY E:1? nnMMM
+TDD-2127413 attempt: 6 VOICE n n m m m
+TDD-154 questioning: SHAKY
+TDD2183790 Sequence #7 RE___ ~CIL -AFGHMOSTUVXY E:1? nnnnn
+TDD-2183572 attempt: 6 SHAKY n n n n n
+TDD-199 questioning: SHADY
+TDD2143985 Sequence #7 RE___ ~CIL -AFGHKMOSTUVXY E:1? nnnnn
+TDD-2143794 attempt: 6 SHADY n n n n n
+TDD-194 questioning: VAULT
+TDD2607324 Sequence #7 RE___ ~CIL -ADFGHKMOSTUVXY E:1? nnnMn
+TDD-2607188 attempt: 6 VAULT n n n m n
+TDD-151 questioning: FOCAL
+TDD2647950 Sequence #7 RE___ ~CIL -ADFGHKMOSTUVXY E:1? nnMnM
+TDD-2647749 attempt: 6 FOCAL n n m n m
+TDD-188 questioning: THROW
+TDD4984675 Sequence #7 RE___ ~CIL -ADFGHKMOSTUVXY E:1? nnMnn
+TDD-4984478 attempt: 6 THROW n n m n n
+TDD8598935 > * 7
+TDD-8504319 questioning: relic
+TDD3082266 Sequence #7 RE___ ~CIL -ADFGHKMOSTUVWXY E:1? YYYYY
+TDD-3176871 attempt: 6 RELIC Y Y Y Y Y
+T14.53285717300605 now: 2025-12-30T12:02:56EST
+TD65 questioning: relic
+TDD-30 questioning: TAELS
+TDD4625023 Sequence #8 _____? nnnnM
+TDD-4624769 attempt: 7 TAELS n n n n m
+TDD-226 questioning: REFLY
+TDD1519643 Sequence #8 _____ ~S -AELT? nnMnY
+TDD-1519373 attempt: 7 REFLY n n m n Y
+TDD-241 questioning: GUILE
+TDD3071720 Sequence #8 ____Y ~FS -AELRT? nnMnn
+TDD-3071631 attempt: 7 GUILE n n m n n
+TDD-145 questioning: EXILE
+TDD1559470 Sequence #8 ____Y ~FIS -AEGLRTU? nnMnn
+TDD-1559246 attempt: 7 EXILE n n m n n
+TDD-208 questioning: CHIME
+TDD2696185 Sequence #8 ____Y ~FIS -AEGLRTUX? nMMnn
+TDD-2696044 attempt: 7 CHIME n m m n n
+TDD-155 questioning: VOICE
+TDD2215824 Sequence #8 ____Y ~FHIS -ACEGLMRTUX? nnMnn
+TDD-2215633 attempt: 7 VOICE n n m n n
+TDD-173 questioning: SHAKY
+TDD1991190 Sequence #8 ____Y ~FHIS -ACEGLMORTUVX? MMnnY
+TDD-1991057 attempt: 7 SHAKY m m n n Y
+TDD-152 questioning: SHADY
+TDD2639754 Sequence #8 ____Y ~FHIS -ACEGKLMORTUVX? MMnnY
+TDD-2639494 attempt: 7 SHADY m m n n Y
+TDD-247 questioning: VAULT
+TDD1320207 Sequence #8 ____Y ~FHIS -ACDEGKLMORTUVX? nnnnn
+TDD-1320006 attempt: 7 VAULT n n n n n
+TDD-197 questioning: FOCAL
+TDD3063936 Sequence #8 ____Y ~FHIS -ACDEGKLMORTUVX? Ynnnn
+TDD-3063720 attempt: 7 FOCAL Y n n n n
+TDD-216 questioning: THROW
+TDD2342928 Sequence #8 F___Y ~HIS -ACDEGKLMORTUVX? nMnnn
+TDD-2342716 attempt: 7 THROW n m n n n
+TDD-206 questioning: RELIC
+TDD2327493 Sequence #8 F___Y ~HIS -ACDEGKLMORTUVWX? nnnMn
+TDD-2327301 attempt: 7 RELIC n n n m n
+TDD1519887 > * 8
+TDD-1429375 questioning: fishy
+TDD2754208 Sequence #8 F___Y ~HIS -ACDEGKLMORTUVWX? YYYYY
+TDD-2844743 attempt: 7 FISHY Y Y Y Y Y
+TDD2416097 📋> Daily Sequence Octordle #1436
+TDD-2416202 📋> 4️⃣6️⃣
+TDD-100 📋> 8️⃣9️⃣
+TDD-4 📋> 🔟🕚
+TDD-2 📋> 🕛🕐
+TDD3679755 📋> Score: 73
+TDD-2991275 📋> 
+TDD135466 📋> ␚
+TDD-823808 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Octordle #1436\n4\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\n\ud83d\udd5b\ud83d\udd50\nScore: 73\n"}
+TDD1185 result: "Daily Sequence Octordle #1436\n4\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\n\ud83d\udd5b\ud83d\udd50\nScore: 73\n"
+TDD420925 📆 2025-12-30 ? 
