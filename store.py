@@ -265,6 +265,7 @@ class StoredLog:
     dt_fmt: str = '%Y-%m-%dT%H:%M:%S%Z'
     default_site: str = ''
     site_name: str = ''
+    site_env: str = 'prod' # vs non-prod for things like practice mode
 
     ### @override-able surface for extension
 
