@@ -1,0 +1,173 @@
+T0.9965164629975334 now: 2025-12-30T12:38:04EST
+TD109 site: britannica.com/games/octordle/extreme
+TDD-55 wordlist: nwl2023.txt
+TDD-44 num_words: 8
+TDD3725215  ...
+TDD-2429440 > * 1
+TDD2760553 ? 1
+TDD-4056168 questioning: taels
+TDD1472176 Extreme #1 _____? nMMnn
+TDD-1471899 attempt: 0 TAELS n m m n n
+TDD1534440 Extreme #2 _____? nnnYn
+TDD-1534618 attempt: 1 TAELS n n n Y n
+TDD1728230 Extreme #3 _____? nnMYn
+TDD-1728234 attempt: 2 TAELS n n m Y n
+TDD1566867 Extreme #4 _____? nnMMn
+TDD-1566886 attempt: 3 TAELS n n m m n
+TDD2928242 Extreme #5 _____? MnMnn
+TDD-2928227 attempt: 4 TAELS m n m n n
+TDD2463407 Extreme #6 _____? nMMYn
+TDD-2463413 attempt: 5 TAELS n m m Y n
+TDD2503245 Extreme #7 _____? nYnMn
+TDD-2503231 attempt: 6 TAELS n Y n m n
+TDD2047354 Extreme #8 _____? nYnnn
+TDD-2047344 attempt: 7 TAELS n Y n n n
+TDD4207395 > * 8
+TDD-2383673 ? 1
+TDD-1823815 questioning: dairy
+TDD5687465 Extreme #1 _____ ~AE -LST? nMnnn
+TDD-5687413 attempt: 0 DAIRY n m n n n
+TDD1983680 Extreme #2 ___L_ -AEST? MnYnn
+TDD-1983671 attempt: 1 DAIRY m n Y n n
+TDD1759384 Extreme #3 ___L_ ~E -AST? nnnnY
+TDD-1759387 attempt: 2 DAIRY n n n n Y
+TDD5207837 Extreme #4 _____ ~EL -AST? nnnMn
+TDD-5207825 attempt: 3 DAIRY n n n m n
+TDD3879502 Extreme #5 _____ ~ET -ALS? nnnnn
+TDD-3879568 attempt: 4 DAIRY n n n n n
+TDD1783714 Extreme #6 ___L_ ~AE -ST? nMYnn
+TDD-1783660 attempt: 5 DAIRY n m Y n n
+TDD2527704 Extreme #7 _A___ ~L -EST? nYnMn
+TDD-2527697 attempt: 6 DAIRY n Y n m n
+TDD1343462 Extreme #8 _A___ -ELST? nYnnn
+TDD-1343425 attempt: 7 DAIRY n Y n n n
+TDD3551496 > * 6
+TDD-1175570 ? 
+TDD-1808393 ? 1
+TDD-567612 questioning: agile
+TDD5223622 Extreme #1 _____ ~AE -DILRSTY? YYnnY
+TDD-5223564 attempt: 0 AGILE Y Y n n Y
+TDD1479011 Extreme #2 __IL_ ~D -AERSTY? nnYYn
+TDD-1479022 attempt: 1 AGILE n n Y Y n
+TDD2295843 Extreme #3 ___LY ~E -ADIRST? nnnYM
+TDD-2295905 attempt: 2 AGILE n n n Y m
+TDD1152064 Extreme #4 _____ ~ELR -ADISTY? nnnMM
+TDD-1151993 attempt: 3 AGILE n n n m m
+TDD5102805 Extreme #5 _____ ~ET -ADILRSY? nnnnY
+TDD-5102886 attempt: 4 AGILE n n n n Y
+TDD1391920 Extreme #6 __IL_ ~AE -DRSTY? YYYYY
+TDD-1391860 attempt: 5 AGILE Y Y Y Y Y
+TDD2391690 Extreme #7 _A___ ~LR -DEISTY? MnnMn
+TDD-2391685 attempt: 6 AGILE m n n m n
+TDD2991395 Extreme #8 _A___ -DEILRSTY? Mnnnn
+TDD-2991393 attempt: 7 AGILE m n n n n
+TDD2800440 > * 2
+TDD238786 ? 1
+TDD-3039258 questioning: child
+TDD4928141 Extreme #1 AG__E -DILRSTY? nnnnn
+TDD-4928156 attempt: 0 CHILD n n n n n
+TDD1495151 Extreme #2 __IL_ ~D -AEGRSTY? nnYYY
+TDD-1495072 attempt: 1 CHILD n n Y Y Y
+TDD1670700 Extreme #3 ___LY ~E -ADGIRST? nnnYn
+TDD-1670802 attempt: 2 CHILD n n n Y n
+TDD1496022 Extreme #4 _____ ~ELR -ADGISTY? nnnMn
+TDD-1495957 attempt: 3 CHILD n n n m n
+TDD4160175 Extreme #5 ____E ~T -ADGILRSY? YYnnn
+TDD-4160154 attempt: 4 CHILD Y Y n n n
+TDD3303027 Extreme #7 _A___ ~LR -DEGISTY? nnnMn
+TDD-3303097 attempt: 6 CHILD n n n m n
+TDD1983557 Extreme #8 _A___ -DEGILRSTY? Ynnnn
+TDD-1983541 attempt: 7 CHILD Y n n n n
+TDD2855478 > * 5
+TDD-2766736 questioning: chute
+TDD5742262 Extreme #1 AG__E -CDHILRSTY? nnnnY
+TDD-5830958 attempt: 0 CHUTE n n n n Y
+TDD2408092 Extreme #2 __ILD -ACEGHRSTY? nnMnn
+TDD-2408054 attempt: 1 CHUTE n n m n n
+TDD1743179 Extreme #3 ___LY ~E -ACDGHIRST? nnnnM
+TDD-1743231 attempt: 2 CHUTE n n n n m
+TDD1631425 Extreme #4 _____ ~ELR -ACDGHISTY? nnnnM
+TDD-1631494 attempt: 3 CHUTE n n n n m
+TDD4288048 Extreme #5 CH__E ~T -ADGILRSY? YYYYY
+TDD-4288029 attempt: 4 CHUTE Y Y Y Y Y
+TDD1758671 Extreme #7 _A___ ~LR -CDEGHISTY? nnnnn
+TDD-1758692 attempt: 6 CHUTE n n n n n
+TDD2232460 Extreme #8 CA___ -DEGHILRSTY? Ynnnn
+TDD-2232427 attempt: 7 CHUTE Y n n n n
+TDD3263223 > * 2
+TDD-3157152 questioning: build
+TDD4195686 Extreme #1 AG__E -CDHILRSTUY? nnnnn
+TDD-4301794 attempt: 0 BUILD n n n n n
+TDD1511556 Extreme #2 __ILD ~U -ACEGHRSTY? YYYYY
+TDD-1511492 attempt: 1 BUILD Y Y Y Y Y
+TDD2023831 Extreme #3 ___LY ~E -ACDGHIRSTU? nnnYn
+TDD-2023818 attempt: 2 BUILD n n n Y n
+TDD1343117 Extreme #4 _____ ~ELR -ACDGHISTUY? nnnMn
+TDD-1343088 attempt: 3 BUILD n n n m n
+TDD2735547 Extreme #7 _A___ ~LR -CDEGHISTUY? nnnMn
+TDD-2735574 attempt: 6 BUILD n n n m n
+TDD2655872 Extreme #8 CA___ -DEGHILRSTUY? nnnnn
+TDD-2655878 attempt: 7 BUILD n n n n n
+TDD2407515 > * 1
+TDD3927954 ? 2
+TDD-6335511 questioning: agape
+TDD3567490 Extreme #1 AG__E -BCDHILRSTUY? YYYnY
+TDD-3567493 attempt: 0 AGAPE Y Y Y n Y
+TDD2391563 Extreme #3 ___LY ~E -ABCDGHIRSTU? nnnnM
+TDD-2391520 attempt: 2 AGAPE n n n n m
+TDD2071874 Extreme #4 _____ ~ELR -ABCDGHISTUY? nnnMM
+TDD-2071874 attempt: 3 AGAPE n n n m m
+TDD2983377 Extreme #7 _A___ ~LR -BCDEGHISTUY? Mnnnn
+TDD-2983418 attempt: 6 AGAPE m n n n n
+TDD2343680 Extreme #8 CA___ -BDEGHILRSTUY? MnnMn
+TDD-2343608 attempt: 7 AGAPE m n n m n
+TDD1671860 > * 8
+TDD-1582941 questioning: capon
+TDD4677402 Extreme #1 AGA_E -BCDHILPRSTUY? nMnnn
+TDD-4766395 attempt: 0 CAPON n m n n n
+TDD1255664 Extreme #3 ___LY ~E -ABCDGHIPRSTU? nnnnM
+TDD-1255616 attempt: 2 CAPON n n n n m
+TDD1447857 Extreme #4 _____ ~ELPR -ABCDGHISTUY? nnYnn
+TDD-1447849 attempt: 3 CAPON n n Y n n
+TDD4158874 Extreme #7 _A___ ~LR -BCDEGHIPSTUY A:1? nYnYn
+TDD-4158940 attempt: 6 CAPON n Y n Y n
+TDD2311785 Extreme #8 CA___ ~P -BDEGHILRSTUY A:1? YYYYY
+TDD-2311782 attempt: 7 CAPON Y Y Y Y Y
+TDD1887235 > * 7
+TDD-1767730 questioning: valor
+TDD5544669 Extreme #1 AGA_E -BCDHILNOPRSTUY? MMnnn
+TDD-5664118 attempt: 0 VALOR m m n n n
+TDD2736072 Extreme #3 ___LY ~EN -ABCDGHIOPRSTU? nnMnn
+TDD-2736109 attempt: 2 VALOR n n m n n
+TDD1527383 Extreme #4 __P__ ~ELR -ABCDGHINOSTUY? nnMnM
+TDD-1527339 attempt: 3 VALOR n n m n m
+TDD3239680 Extreme #7 _A_O_ ~LR -BCDEGHINPSTUY? YYYYY
+TDD-3239678 attempt: 6 VALOR Y Y Y Y Y
+TDD1599222 > * 4
+TDD-1503473 questioning: repel
+TDD8472514 Extreme #1 AGA_E ~V -BCDHILNOPRSTUY? nMnnn
+TDD-8568202 attempt: 0 REPEL n m n n n
+TDD3047852 Extreme #3 ___LY ~EN -ABCDGHIOPRSTUV? nYnnM
+TDD-3047861 attempt: 2 REPEL n Y n n m
+TDD1159145 Extreme #4 __P__ ~ELR -ABCDGHINOSTUVY? YYYYY
+TDD-1159137 attempt: 3 REPEL Y Y Y Y Y
+TDD1750516 > * 3
+TDD-1656830 questioning: newly
+TDD5708041 Extreme #1 AGA_E ~V -BCDHILNOPRSTUY E:1? nMnnn
+TDD-5801864 attempt: 0 NEWLY n m n n n
+TDD2687807 Extreme #3 _E_LY ~N -ABCDGHIOPRSTUV? YYYYY
+TDD-2687807 attempt: 2 NEWLY Y Y Y Y Y
+TDD1160016 > * 1
+TDD-1066183 questioning: agave
+TDD3332229 Extreme #1 AGA_E ~V -BCDHILNOPRSTUWY E:1? YYYYY
+TDD-3426067 attempt: 0 AGAVE Y Y Y Y Y
+TDD3848072 📋> Daily Extreme Octordle #1436
+TDD-3848129 📋> 🕛6️⃣
+TDD-100 📋> 🕚🔟
+TDD-4 📋> 5️⃣3️⃣
+TDD-1 📋> 9️⃣8️⃣
+TDD335071 📋> Score: 64
+TDD-119045 📋> ␚
+TDD-215930 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Extreme Octordle #1436\n\ud83d\udd5b6\ufe0f\u20e3\n\ud83d\udd5a\ud83d\udd1f\n5\ufe0f\u20e33\ufe0f\u20e3\n9\ufe0f\u20e38\ufe0f\u20e3\nScore: 64"}
+TDD677 result: "Daily Extreme Octordle #1436\n\ud83d\udd5b6\ufe0f\u20e3\n\ud83d\udd5a\ud83d\udd1f\n5\ufe0f\u20e33\ufe0f\u20e3\n9\ufe0f\u20e38\ufe0f\u20e3\nScore: 64"
+TDD246363 📆 2025-12-30 ? 
