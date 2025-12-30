@@ -246,16 +246,16 @@
 - score: 2170 bonus: +70
 - rank: 133/333
 
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ V E G I E S _ _   
-      _ _ _ _ E _ _ _ _ _   
-      _ _ _ _ M _ W _ _ _   
-      _ _ F O O D I E _ _   
-      _ _ E X T E N T _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _
+      _ _ _ _ _ _ _ _ _ _
+      _ _ _ _ _ _ _ _ _ _
+      _ _ V E G I E S _ _
+      _ _ _ _ E _ _ _ _ _
+      _ _ _ _ M _ W _ _ _
+      _ _ F O O D I E _ _
+      _ _ E X T E N T _ _
+      _ _ _ _ _ _ _ _ _ _
+      _ _ _ _ _ _ _ _ _ _
 
 
 # alfagok.diginaut.net 🧩 #423 🥳 17 ⏱️ 0:00:35.127190
@@ -263,10 +263,10 @@
 🤔 17 attempts
 📜 1 sessions
 
-    @        [     0] &-teken        
-    @+1      [     1] &-tekens       
-    @+2      [     2] -cijferig      
-    @+3      [     3] -e-mail        
+    @        [     0] &-teken
+    @+1      [     1] &-tekens
+    @+2      [     2] -cijferig
+    @+3      [     3] -e-mail
     @+199833 [199833] lijm           q0  ? after
     @+223633 [223633] mol            q3  ? after
     @+235692 [235692] octopus        q4  ? after
@@ -291,10 +291,10 @@
 🤔 17 attempts
 📜 1 sessions
 
-    @        [     0] aa            
-    @+1      [     1] aah           
-    @+2      [     2] aahed         
-    @+3      [     3] aahing        
+    @        [     0] aa
+    @+1      [     1] aah
+    @+2      [     2] aahed
+    @+3      [     3] aahing
     @+98224  [ 98224] mach          q0  ? after
     @+147328 [147328] rho           q1  ? after
     @+159610 [159610] slug          q3  ? after
@@ -511,7 +511,7 @@ Octordle Rescue
 
 📜 2 sessions
 
-Octordle Sequence 
+Octordle Sequence
 
 
 1. EXILE attempts:4 score:4
