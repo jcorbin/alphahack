@@ -1,0 +1,150 @@
+T540.1343179170071 now: 2025-12-31T17:04:00EST
+TD64 site: britannica.com/games/octordle/extreme
+TDD-35 wordlist: nwl2023.txt
+TDD-23 num_words: 8
+TDD9709836  ...
+TDD-8157587 > * 1
+TDD-256275 ? 1
+TDD-1295777 questioning: tales
+TDD3271731 Extreme #1 _____? MnnMM
+TDD-3271654 attempt: 0 TALES m n n m m
+TDD2671538 Extreme #2 _____? nnnYn
+TDD-2671605 attempt: 1 TALES n n n Y n
+TDD2575596 Extreme #3 _____? nnnnn
+TDD-2575641 attempt: 2 TALES n n n n n
+TDD1559988 Extreme #4 _____? nnnnn
+TDD-1559944 attempt: 3 TALES n n n n n
+TDD4311499 Extreme #5 _____? Mnnnn
+TDD-4311501 attempt: 4 TALES m n n n n
+TDD1311483 Extreme #6 _____? nnnMn
+TDD-1311448 attempt: 5 TALES n n n m n
+TDD2327931 Extreme #7 _____? nMnMn
+TDD-2328001 attempt: 6 TALES n m n m n
+TDD2303608 Extreme #8 _____? MnnYn
+TDD-2303535 attempt: 7 TALES m n n Y n
+TDD42568105 > * 4
+TDD-41560502 ? 1
+TDD-1007691 questioning: orcin
+TDD6288389 Extreme #1 _____ ~EST -AL? nnnMn
+TDD-6288309 attempt: 0 ORCIN n n n m n
+TDD2870996 Extreme #2 ___E_ -ALST? nMnMY
+TDD-2871055 attempt: 1 ORCIN n m n m Y
+TDD2551828 Extreme #3 _____ -AELST? nnnYM
+TDD-2551729 attempt: 2 ORCIN n n n Y m
+TDD1487781 Extreme #4 _____ -AELST? nMMMn
+TDD-1487883 attempt: 3 ORCIN n m m m n
+TDD4495593 Extreme #5 _____ ~T -AELS? Ynnnn
+TDD-4495587 attempt: 4 ORCIN Y n n n n
+TDD1638959 Extreme #6 _____ ~E -ALST? nMnnn
+TDD-1638975 attempt: 5 ORCIN n m n n n
+TDD5863878 Extreme #7 _____ ~AE -LST? nMnnn
+TDD-5863871 attempt: 6 ORCIN n m n n n
+TDD1152254 Extreme #8 ___E_ ~T -ALS? nnnMn
+TDD-1152253 attempt: 7 ORCIN n n n m n
+TDD3207089 > * 2
+TDD4689180 ? 2
+TDD-7896249 questioning: ripen
+TDD4807536 Extreme #1 _____ ~EIST -ACLNOR? nMnMn
+TDD-4807552 attempt: 0 RIPEN n m n m n
+TDD1631475 Extreme #2 ___EN ~IR -ACLOST? YYYYY
+TDD-1631419 attempt: 1 RIPEN Y Y Y Y Y
+TDD2791716 Extreme #3 ___I_ ~N -ACELORST? nMMnM
+TDD-2791714 attempt: 2 RIPEN n m m n m
+TDD1967810 Extreme #4 _____ ~CIR -AELNOST? MMMnn
+TDD-1967873 attempt: 3 RIPEN m m m n n
+TDD3799677 Extreme #5 O____ ~T -ACEILNRS? nnnnn
+TDD-3799627 attempt: 4 RIPEN n n n n n
+TDD1695392 Extreme #6 _____ ~ER -ACILNOST? MnnMn
+TDD-1695382 attempt: 5 RIPEN m n n m n
+TDD2335782 Extreme #7 _____ ~AER -CILNOST? MnnMn
+TDD-2335787 attempt: 6 RIPEN m n n m n
+TDD1751472 Extreme #8 ___E_ ~IT -ACLNORS? nYnYn
+TDD-1751460 attempt: 7 RIPEN n Y n Y n
+TDD2599584 > * 4
+TDD-2475014 questioning: chirp
+TDD6134422 Extreme #1 _____ ~EIST -ACLNOPR? nnYnn
+TDD-6258996 attempt: 0 CHIRP n n Y n n
+TDD1791528 Extreme #3 ___I_ ~NP -ACELORST? nnMnY
+TDD-1791541 attempt: 2 CHIRP n n m n Y
+TDD1399602 Extreme #4 _____ ~CIPR -AELNOST? YYYYY
+TDD-1399594 attempt: 3 CHIRP Y Y Y Y Y
+TDD3383916 Extreme #5 O____ ~T -ACEILNPRS? nnnnn
+TDD-3383918 attempt: 4 CHIRP n n n n n
+TDD1495924 Extreme #6 _____ ~ER -ACILNOPST? nnnYn
+TDD-1495872 attempt: 5 CHIRP n n n Y n
+TDD1743173 Extreme #7 _____ ~AER -CILNOPST? nnnYn
+TDD-1743279 attempt: 6 CHIRP n n n Y n
+TDD1431348 Extreme #8 _I_E_ ~T -ACLNOPRS? nnMnn
+TDD-1431290 attempt: 7 CHIRP n n m n n
+TDD2407326 > * 3
+TDD-2304471 questioning: unzip
+TDD7594053 Extreme #1 __I__ ~EST -ACHLNOPR? nnnMn
+TDD-7696965 attempt: 0 UNZIP n n n m n
+TDD1543551 Extreme #3 ___IP ~N -ACEHLORST? YYYYY
+TDD-1543537 attempt: 2 UNZIP Y Y Y Y Y
+TDD9128203 Extreme #5 O____ ~T -ACEHILNPRS? Mnnnn
+TDD-9128149 attempt: 4 UNZIP m n n n n
+TDD3102898 Extreme #6 ___R_ ~E -ACHILNOPST? nnnnn
+TDD-3102981 attempt: 5 UNZIP n n n n n
+TDD4392022 Extreme #7 ___R_ ~AE -CHILNOPST? MnMnn
+TDD-4392008 attempt: 6 UNZIP m n m n n
+TDD1879505 Extreme #8 _I_E_ ~T -ACHLNOPRS? nnnMn
+TDD-1879424 attempt: 7 UNZIP n n n m n
+TDD1871450 > * 7
+TDD-1767160 questioning: azure
+TDD9511197 Extreme #1 __I__ ~EST -ACHLNOPRUZ? nnnnM
+TDD-9615568 attempt: 0 AZURE n n n n m
+TDD4840218 Extreme #5 O____ ~TU -ACEHILNPRSZ? nnMnn
+TDD-4840224 attempt: 4 AZURE n n m n n
+TDD2287308 Extreme #6 ___R_ ~E -ACHILNOPSTUZ? nnnYM
+TDD-2287236 attempt: 5 AZURE n n n Y m
+TDD4567597 Extreme #7 ___R_ ~AEUZ -CHILNOPST? YYYYY
+TDD-4567600 attempt: 6 AZURE Y Y Y Y Y
+TDD1607170 Extreme #8 _I_E_ ~T -ACHLNOPRSUZ? nnnnM
+TDD-1607179 attempt: 7 AZURE n n n n m
+TDD3071777 > * 8
+TDD-583932 ? 1
+TDD-2487924 questioning: bidet
+TDD5864032 Extreme #1 __I__ ~EST -ACHLNOPRUZ? nMnMY
+TDD-5863964 attempt: 0 BIDET n m n m Y
+TDD4911568 Extreme #5 O____ ~TU -ACEHILNPRSZ? nnnnM
+TDD-4911545 attempt: 4 BIDET n n n n m
+TDD2055835 Extreme #6 ___R_ ~E -ACHILNOPSTUZ? YnnMn
+TDD-2055824 attempt: 5 BIDET Y n n m n
+TDD2191140 Extreme #8 _I_E_ ~T -ACHLNOPRSUZ? YYYYY
+TDD-2191150 attempt: 7 BIDET Y Y Y Y Y
+TDD2727576 > * 5
+TDD-2632636 questioning: outgo
+TDD6058329 Extreme #1 __I_T ~ES -ABCDHLNOPRUZ? nnMnn
+TDD-6153341 attempt: 0 OUTGO n n m n n
+TDD6583799 Extreme #5 O____ ~TU -ABCDEHILNPRSZ? YYYYY
+TDD-6583727 attempt: 4 OUTGO Y Y Y Y Y
+TDD3214663 Extreme #6 B__R_ ~E -ACDHILNOPSTUZ? nnnnn
+TDD-3214661 attempt: 5 OUTGO n n n n n
+TDD2519764 > * 6
+TDD2055869 ? 2
+TDD-4575692 questioning: berry
+TDD3663862 Extreme #1 __I_T ~ES -ABCDGHLNOPRUZ? nMnnn
+TDD-3663881 attempt: 0 BERRY n m n n n
+TDD3327727 Extreme #6 B__R_ ~E -ACDGHILNOPSTUZ? YYnYY
+TDD-3327712 attempt: 5 BERRY Y Y n Y Y
+TDD1663741 > * 1
+TDD-1572204 questioning: exist
+TDD5048893 Extreme #1 __I_T ~ES -ABCDGHLNOPRUYZ? YYYYY
+TDD-5140298 attempt: 0 EXIST Y Y Y Y Y
+TDD3695448 Extreme #6 BE_RY -ACDGHILNOPSTUZ? Mnnnn
+TDD-3695519 attempt: 5 EXIST m n n n n
+TDD2327033 > * 6
+TDD-2227767 questioning: beery
+TDD3592866 Extreme #6 BE_RY -ACDGHILNOPSTUXZ? YYYYY
+TDD-3692216 attempt: 5 BEERY Y Y Y Y Y
+TDD3408258 📋> Daily Extreme Octordle #1437
+TDD-3408294 📋> 🔟3️⃣
+TDD-103 📋> 5️⃣4️⃣
+TDD-4 📋> 8️⃣🕚
+TDD-2 📋> 6️⃣7️⃣
+TDD327435 📋> Score: 54
+TDD-78659 📋> ␚
+TDD-248666 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Extreme Octordle #1437\n\ud83d\udd1f3\ufe0f\u20e3\n5\ufe0f\u20e34\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udd5a\n6\ufe0f\u20e37\ufe0f\u20e3\nScore: 54"}
+TDD52 result: "Daily Extreme Octordle #1437\n\ud83d\udd1f3\ufe0f\u20e3\n5\ufe0f\u20e34\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udd5a\n6\ufe0f\u20e37\ufe0f\u20e3\nScore: 54"
+TDD254777 📆 2025-12-31 ? 
