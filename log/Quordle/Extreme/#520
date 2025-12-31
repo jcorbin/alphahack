@@ -1,0 +1,94 @@
+T107.06532391200017 now: 2025-12-31T16:48:33EST
+TD66 site: m-w.com/games/quordle/#/extreme
+TDD-36 wordlist: nwl2023.txt
+TDD-24 num_words: 4
+TDD10213977  ...
+TDD-8117812 > *1
+TDD-727747 > * 1
+TDD2271498 ? nnMnn
+TDD-2112331 ? MnMnn
+TDD256544 ? nMnMn
+TDD7908 ? nMnYn
+TDD-528061 ? 1
+TDD-1263788 questioning: nears
+TDD2232458 Extreme #1 _____? nnMnn
+TDD-2232401 attempt: 0 NEARS n n m n n
+TDD1430613 Extreme #2 _____? MnMnn
+TDD-1430619 attempt: 1 NEARS m n m n n
+TDD1503484 Extreme #3 _____? nMnMn
+TDD-1503484 attempt: 2 NEARS n m n m n
+TDD2199862 Extreme #4 _____? nMnYn
+TDD-2199784 attempt: 3 NEARS n m n Y n
+TDD1502789 > * 1
+TDD-518231 ? 1
+TDD-984673 questioning: daily
+TDD4894849 Extreme #1 _____ ~A -ENRS? nYnMn
+TDD-4894868 attempt: 0 DAILY n Y n m n
+TDD1176038 Extreme #2 _____ ~AN -ERS? nMnnn
+TDD-1176031 attempt: 1 DAILY n m n n n
+TDD1735332 Extreme #3 _____ ~ER -ANS? YnYnn
+TDD-1735341 attempt: 2 DAILY Y n Y n n
+TDD1616032 Extreme #4 ___R_ ~E -ANS? nnnMn
+TDD-1615979 attempt: 3 DAILY n n n m n
+TDD15951410 > * 4
+TDD-14111548 ? 1
+TDD-1839946 questioning: clerk
+TDD3383584 Extreme #1 _A___ ~L -DEINRSY? nMnnn
+TDD-3383484 attempt: 0 CLERK n m n n n
+TDD1207905 Extreme #2 _____ ~AN -DEILRSY? nnnnn
+TDD-1207953 attempt: 1 CLERK n n n n n
+TDD1351187 Extreme #3 D_I__ ~ER -ALNSY? nnMMn
+TDD-1351215 attempt: 2 CLERK n n m m n
+TDD1999987 Extreme #4 ___R_ ~EL -ADINSY? MMMYn
+TDD-1999998 attempt: 3 CLERK m m m Y n
+TDD1383504 > * 4
+TDD-1281355 questioning: lucre
+TDD3179469 Extreme #1 _A___ ~L -CDEIKNRSY? Mnnnn
+TDD-3281609 attempt: 0 LUCRE m n n n n
+TDD1183480 Extreme #2 _____ ~AN -CDEIKLRSY? nnnnn
+TDD-1183418 attempt: 1 LUCRE n n n n n
+TDD1847441 Extreme #3 D_I__ ~ER -ACKLNSY? nnnMY
+TDD-1847476 attempt: 2 LUCRE n n n m Y
+TDD1359684 Extreme #4 ___R_ ~CEL -ADIKNSY? YYYYY
+TDD-1359678 attempt: 3 LUCRE Y Y Y Y Y
+TDD8967595 > * 3
+TDD-8870525 questioning: drive
+TDD3285647 Extreme #1 _A___ ~L -CDEIKNRSUY? nnnnn
+TDD-3382728 attempt: 0 DRIVE n n n n n
+TDD1207636 Extreme #2 _____ ~AN -CDEIKLRSUY? nnnnn
+TDD-1207662 attempt: 1 DRIVE n n n n n
+TDD1503719 Extreme #3 D_I_E ~R -ACKLNSUY? YYYYY
+TDD-1503667 attempt: 2 DRIVE Y Y Y Y Y
+TDD3175520 > * 2
+TDD14632465 ? 2
+TDD-17807981 questioning: among
+TDD3831474 Extreme #1 _A___ ~L -CDEIKNRSUVY? Mnnnn
+TDD-3831526 attempt: 0 AMONG m n n n n
+TDD1439318 Extreme #2 _____ ~AN -CDEIKLRSUVY? MnMMM
+TDD-1439322 attempt: 1 AMONG m n m m m
+TDD1455987 > * 2
+TDD7879743 ? 5
+TDD-9335731 questioning: hogan
+TDD4079620 Extreme #1 _A___ ~L -CDEGIKMNORSUVY? YnnYn
+TDD-4079503 attempt: 0 HOGAN Y n n Y n
+TDD2687786 Extreme #2 _____ ~AGNO -CDEIKLMRSUVY? nYMMM
+TDD-2687881 attempt: 1 HOGAN n Y m m m
+TDD1503336 > * 1
+TDD-1409250 questioning: halal
+TDD3147761 Extreme #1 HA_A_ ~L -CDEGIKMNORSUVY? YYYYY
+TDD-3241785 attempt: 0 HALAL Y Y Y Y Y
+TDD18935577 Extreme #2 _O___ ~AGN -CDEHIKLMRSUVY? nMnnn
+TDD-18935645 attempt: 1 HALAL n m n n n
+TDD1599462 > /
+TDD-327523 > /res
+TDD-623579 📋> 🥵 Daily Extreme 520
+TDD-648443 📋> 8️⃣🟥
+TDD-85 📋> 5️⃣4️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD527310 📋> 
+TDD-295123 📋> ␚
+TDD-232022 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83e\udd75 Daily Extreme 520\n8\ufe0f\u20e3\ud83d\udfe5\n5\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD-20 result: "\ud83e\udd75 Daily Extreme 520\n8\ufe0f\u20e3\ud83d\udfe5\n5\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD231518 > 
+TDD3856114 > /store
+TDD-3391910 📆 2025-12-31 ? 
