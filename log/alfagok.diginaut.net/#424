@@ -1,0 +1,43 @@
+T108.82412168598967 now: 2025-12-31T09:53:51EST
+TD47 site: alfagok.diginaut.net
+TDD369420 loaded 399701 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1151 words excluded) asof d06f85dc401d4c36d06e142c8a9320d2a93bceff
+TDD9332211  ...
+TDD2146023 [0 : 199833 : 399701] lijm? b
+TDD-11847448 progress: -1 199833 lijm
+TDD2943478 [0 : 99758 : 199833] ex? b
+TDD-2943613 progress: -1 99758 ex
+TDD1711890 [0 : 49849 : 99758] boks? a
+TDD-1711819 progress: 1 49849 boks
+TDD2423566 [49850 : 74762 : 99758] dc? b
+TDD-2423573 progress: -1 74762 dc
+TDD1759498 [49850 : 62288 : 74762] cement? b
+TDD-1759513 progress: -1 62288 cement
+TDD1871904 [49850 : 55941 : 62288] bron? b
+TDD-1871951 progress: -1 55941 bron
+TDD1647581 [49850 : 52691 : 55941] bouw? b
+TDD-1647528 progress: -1 52691 bouw
+TDD1887668 [49850 : 51256 : 52691] boots? b
+TDD-1887737 progress: -1 51256 boots
+TDD1807904 [49850 : 50545 : 51256] bonnen? a
+TDD-1807820 progress: 1 50545 bonnen
+TDD1679709 [50546 : 50827 : 51256] boom? a
+TDD-1679740 progress: 1 50827 boom
+TDD1656003 [50828 : 51034 : 51256] boor? a
+TDD-1656041 progress: 1 51034 boor
+TDD1727373 [51035 : 51145 : 51256] booronderzoek? a
+TDD-1727312 progress: 1 51145 booronderzoek
+TDD9015710 [51146 : 51193 : 51256] boos? it
+TDD-9015779 progress: 0 51193 boos
+TDD-97 [51146 : 51193 : 51256] <Done>.
+TDD3456271 📋> 🧩 Puzzel #424
+TDD-3456216 📋> 🤔 13 gokken
+TDD-62 📋> ⏱️ 28s
+TDD615658 📋> 🔗 alfagok.diginaut.net
+TDD400350 📋> ␚
+TDD-1015913 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #424\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 28s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD187 result: "\ud83e\udde9 Puzzel #424\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 28s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-282 result puzzle: 424
+TDD-4 result guesses: 13
+TDD0 result time: 28s
+TDD0 result link: alfagok.diginaut.net
+TDD679516 📆 2025-12-31 ? 
