@@ -1080,6 +1080,10 @@ class StoredLog:
                         return
 
         if not self.puzzle_id:
+            if self.site_env != 'prod':
+                ui.print(f'Skipping store for anonymous {self.site_env} solve')
+                raise StopIteration
+
             default_puzzle_id = f'{date:%Y-%m-%d}'
             with ui.input(f'🧩 id (default: {default_puzzle_id}) ? ') as tokens:
                 puzzle_id = next(tokens, '')
