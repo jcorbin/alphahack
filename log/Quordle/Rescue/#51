@@ -1,0 +1,93 @@
+T50.008068463008385 now: 2025-12-31T16:41:51EST
+TD54 site: m-w.com/games/quordle/#/rescue
+TDD-24 wordlist: nwl2023.txt
+TDD-25 num_words: 4
+TDD5941995  ...
+TDD-4085999 > 
+TDD-1295771 > 
+TDD-336331 > 
+TDD1952341 > tried witty
+TDD-2176093 questioning: witty
+TDD1536080 Rescue #1 _____? nnnnn
+TDD-1535767 attempt: 0 WITTY n n n n n
+TDD1502457 Rescue #2 _____? nnnYn
+TDD-1502602 attempt: 1 WITTY n n n Y n
+TDD1231371 Rescue #3 _____? nnnnn
+TDD-1231500 attempt: 2 WITTY n n n n n
+TDD1087715 Rescue #4 _____? nnnnn
+TDD-1087667 attempt: 3 WITTY n n n n n
+TDD2623472 > * 1
+TDD-1439532 ? 1
+TDD-1183959 questioning: redos
+TDD2111462 Rescue #1 _____ -ITWY? ␚
+TDD-2111596 <EOF>
+TDD2840098 > tried tonal
+TDD-2839991 questioning: tonal
+TDD4615472 Rescue #1 _____ -ITWY? nnnnM
+TDD-4615446 attempt: 0 TONAL n n n n m
+TDD1887920 Rescue #2 ___T_ -IWY? MYnnn
+TDD-1887824 attempt: 1 TONAL m Y n n n
+TDD1719347 Rescue #3 _____ -ITWY? nMMnn
+TDD-1719446 attempt: 2 TONAL n m m n n
+TDD2071493 Rescue #4 _____ -ITWY? nMMnn
+TDD-2071528 attempt: 3 TONAL n m m n n
+TDD1567482 > * 1
+TDD-159734 ? 1
+TDD-1407773 questioning: glums
+TDD3432539 Rescue #1 _____ ~L -AINOTWY? nYYnM
+TDD-3432500 attempt: 0 GLUMS n Y Y n m
+TDD1438888 Rescue #2 _O_T_ -AILNWY? nnnnn
+TDD-1438873 attempt: 1 GLUMS n n n n n
+TDD1175766 Rescue #3 _____ ~NO -AILTWY? nnnnn
+TDD-1175793 attempt: 2 GLUMS n n n n n
+TDD2239762 Rescue #4 _____ ~NO -AILTWY? nnnnM
+TDD-2239651 attempt: 3 GLUMS n n n n m
+TDD2007416 > * 3
+TDD1544172 ? 4
+TDD-3551719 questioning: drone
+TDD4471938 Rescue #1 _LU__ ~S -AGIMNOTWY? nMnnn
+TDD-4471851 attempt: 0 DRONE n m n n n
+TDD1527510 Rescue #2 _O_T_ -AGILMNSUWY? nnYnn
+TDD-1527504 attempt: 1 DRONE n n Y n n
+TDD1559223 Rescue #3 _____ ~NO -AGILMSTUWY? nYYYY
+TDD-1559289 attempt: 2 DRONE n Y Y Y Y
+TDD2527876 Rescue #4 _____ ~NOS -AGILMTUWY? nnYYY
+TDD-2527810 attempt: 3 DRONE n n Y Y Y
+TDD1655909 > * 2
+TDD-1563076 questioning: booth
+TDD5693368 Rescue #1 _LU__ ~RS -ADEGIMNOTWY? nnnnn
+TDD-5786285 attempt: 0 BOOTH n n n n n
+TDD1199670 Rescue #2 _OOT_ -ADEGILMNRSUWY? YYYYY
+TDD-1199639 attempt: 1 BOOTH Y Y Y Y Y
+TDD1568004 Rescue #3 _RONE -ADGILMSTUWY? nnYnn
+TDD-1567953 attempt: 2 BOOTH n n Y n n
+TDD1495284 Rescue #4 __ONE ~S -ADGILMRTUWY? nnYnn
+TDD-1495364 attempt: 3 BOOTH n n Y n n
+TDD1351760 > * 1
+TDD-1253556 questioning: slurp
+TDD3443399 Rescue #1 _LU__ ~RS -ABDEGHIMNOTWY? YYYYY
+TDD-3541550 attempt: 0 SLURP Y Y Y Y Y
+TDD1471467 Rescue #3 _RONE -ABDGHILMSTUWY? nnnMM
+TDD-1471453 attempt: 2 SLURP n n n m m
+TDD1679560 Rescue #4 __ONE ~S -ABDGHILMRTUWY? Ynnnn
+TDD-1679551 attempt: 3 SLURP Y n n n n
+TDD1399693 > * 3
+TDD-1307227 questioning: prone
+TDD3694687 Rescue #3 _RONE ~P -ABDGHILMSTUWY? YYYYY
+TDD-3787168 attempt: 2 PRONE Y Y Y Y Y
+TDD1503565 Rescue #4 S_ONE -ABDGHILMPRTUWY? nnYYY
+TDD-1503627 attempt: 3 PRONE n n Y Y Y
+TDD239754 > 
+TDD792410 > * 4
+TDD-937924 questioning: scone
+TDD5002617 Rescue #4 S_ONE -ABDGHILMPRTUWY? YYYYY
+TDD-5096759 attempt: 3 SCONE Y Y Y Y Y
+TDD3496708 📋> Daily Rescue 51
+TDD-3496864 📋> 6️⃣5️⃣
+TDD-89 📋> 7️⃣8️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD422690 📋> 
+TDD-214736 📋> ␚
+TDD-207814 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 51\n6\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1059 result: "Daily Rescue 51\n6\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD293213 📆 2025-12-31 ? 
