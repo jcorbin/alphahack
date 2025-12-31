@@ -1229,6 +1229,10 @@ class StoredLog:
                 for line in lines)
 
     def do_report(self, ui: PromptUI):
+        if self.site_env != 'prod':
+            ui.print(f'Skipping report for {self.site_env} solve')
+            return
+
         head_id = self.report_header(desc='')
         note_id = self.report_note(desc='')
 
