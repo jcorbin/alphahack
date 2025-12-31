@@ -1,0 +1,105 @@
+T177.7774777779996 now: 2025-12-31T16:43:59EST
+TD93 site: m-w.com/games/quordle/#/sequence
+TDD-58 wordlist: nwl2023.txt
+TDD-30 num_words: 4
+TDD6757583  ...
+TDD-4965613 > * 1
+TDD2888609 ? nMnYn
+TDD-3328592 ? 1
+TDD-1351754 questioning: hares
+TDD2095633 Sequence #1 _____? nMnYn
+TDD-2095652 attempt: 0 HARES n m n Y n
+TDD4391648 > * 1
+TDD-2496022 ? 1
+TDD-1895634 questioning: acned
+TDD4047755 Sequence #1 ___E_ ~A -HRS? YnnYn
+TDD-4047711 attempt: 0 ACNED Y n n Y n
+TDD1743230 > * 1
+TDD9112577 ? 1
+TDD-10855866 questioning: agley
+TDD3695679 Sequence #1 A__E_ -CDHNRS? YnYYY
+TDD-3695686 attempt: 0 AGLEY Y n Y Y Y
+TDD1272358 > * 1
+TDD-1179631 questioning: alley
+TDD3381966 Sequence #1 A_LEY -CDGHNRS? YYYYY
+TDD-3474651 attempt: 0 ALLEY Y Y Y Y Y
+TDD-180 questioning: HARES
+TDD2647326 Sequence #2 _____? nMnnn
+TDD-2647191 attempt: 1 HARES n m n n n
+TDD-150 questioning: ACNED
+TDD1487748 Sequence #2 _____ ~A -EHRS? Mnnnn
+TDD-1487540 attempt: 1 ACNED m n n n n
+TDD-208 questioning: AGLEY
+TDD2928288 Sequence #2 _____ ~A -CDEHNRS? MnMnn
+TDD-2928074 attempt: 1 AGLEY m n m n n
+TDD-200 questioning: ALLEY
+TDD1943615 Sequence #2 _____ ~AL -CDEGHNRSY? MYMnn
+TDD-1943421 attempt: 1 ALLEY m Y m n n
+TDD1319646 > * 2
+TDD5327566 ? 3
+TDD-6647229 questioning: flail
+TDD4511944 Sequence #2 _L___ ~AL -CDEGHNRSY? nYYnM
+TDD-4511916 attempt: 1 FLAIL n Y Y n m
+TDD1278999 > * 2
+TDD-1186274 questioning: llama
+TDD3582162 Sequence #2 _LA__ ~L -CDEFGHINRSY? YYYYY
+TDD-3674969 attempt: 1 LLAMA Y Y Y Y Y
+TDD-130 questioning: HARES
+TDD2192184 Sequence #3 _____? nYnnn
+TDD-2191927 attempt: 2 HARES n Y n n n
+TDD-238 questioning: ACNED
+TDD1519383 Sequence #3 _A___ -EHRS? MMYnn
+TDD-1519264 attempt: 2 ACNED m m Y n n
+TDD-145 questioning: AGLEY
+TDD1879339 Sequence #3 _AN__ ~C -DEHRS? MnnnY
+TDD-1879165 attempt: 2 AGLEY m n n n Y
+TDD-167 questioning: ALLEY
+TDD1680364 Sequence #3 _AN_Y ~C -DEGHLRS? MnnnY
+TDD-1680234 attempt: 2 ALLEY m n n n Y
+TDD-134 questioning: FLAIL
+TDD1495057 Sequence #3 _AN_Y ~C -DEGHLRS? nnMnn
+TDD-1494853 attempt: 2 FLAIL n n m n n
+TDD-190 questioning: LLAMA
+TDD1608116 Sequence #3 _AN_Y ~C -DEFGHILRS? nnMnn
+TDD-1607921 attempt: 2 LLAMA n n m n n
+TDD1663400 > * 3
+TDD11008345 ? 1
+TDD-12671775 questioning: canny
+TDD4103988 Sequence #3 _AN_Y ~C -DEFGHILMRS A:1? YYYYY
+TDD-4103998 attempt: 2 CANNY Y Y Y Y Y
+T7.073930384998675 now: 2025-12-31T16:46:53EST
+TD73 questioning: canny
+TDD-38 questioning: HARES
+TDD4509090 Sequence #4 _____? nMnMn
+TDD-4508901 attempt: 3 HARES n m n m n
+TDD-177 questioning: ACNED
+TDD2975065 Sequence #4 _____ ~AE -HRS? MnnMM
+TDD-2974926 attempt: 3 ACNED m n n m m
+TDD-152 questioning: AGLEY
+TDD3639716 Sequence #4 _____ ~ADE -CHNRS? MnMMn
+TDD-3639549 attempt: 3 AGLEY m n m m n
+TDD-161 questioning: ALLEY
+TDD5623837 Sequence #4 _____ ~ADEL -CGHNRSY? MMnMn
+TDD-5623603 attempt: 3 ALLEY m m n m n
+TDD-197 questioning: FLAIL
+TDD2583493 Sequence #4 _____ ~ADEL -CGHNRSY L:1? nnMnY
+TDD-2583313 attempt: 3 FLAIL n n m n Y
+TDD-205 questioning: LLAMA
+TDD3807518 Sequence #4 ____L ~ADE -CFGHINRSY? MnMMn
+TDD-3807334 attempt: 3 LLAMA m n m m n
+TDD-186 questioning: CANNY
+TDD2608010 Sequence #4 ____L ~ADEM -CFGHINRSY A:1 L:1? nMnnn
+TDD-2607863 attempt: 3 CANNY n m n n n
+TDD1440003 > * 4
+TDD-1340589 questioning: medal
+TDD3792497 Sequence #4 ____L ~ADEM -CFGHINRSY A:1 L:1? YYYYY
+TDD-3891842 attempt: 3 MEDAL Y Y Y Y Y
+TDD5623955 📋> Daily Sequence Quordle 1437
+TDD-5624108 📋> 4️⃣6️⃣
+TDD-91 📋> 7️⃣8️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD400126 📋> 
+TDD-96750 📋> ␚
+TDD-303230 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1437\n4\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1028 result: "Daily Sequence Quordle 1437\n4\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD293724 📆 2025-12-31 ? 
