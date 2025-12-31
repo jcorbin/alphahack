@@ -1,0 +1,54 @@
+T179.64077000199177 now: 2025-12-31T09:55:01EST
+TD50 site: alphaguess.com
+TDD132998 loaded 196537 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (66 words excluded) asof d06f85dc401d4c36d06e142c8a9320d2a93bceff
+TDD4228546  ...
+TDD-2273673 [0 : 98224 : 196537] mach? b
+TDD-2087816 progress: -1 98224 mach
+TDD1359881 [0 : 47386 : 98224] dis? b
+TDD-1359849 progress: -1 47386 dis
+TDD1215839 [0 : 23687 : 47386] camp? a
+TDD-1215801 progress: 1 23687 camp
+TDD4895729 [23688 : 35530 : 47386] convention? b
+TDD-4895759 progress: -1 35530 convention
+TDD1503615 [23688 : 29608 : 35530] circuit? a
+TDD-1503613 progress: 1 29608 circuit
+TDD2567791 [29609 : 32557 : 35530] color? a
+TDD-2567827 progress: 1 32557 color
+TDD1311662 [32558 : 33705 : 35530] con? b
+TDD-1311658 progress: -1 33705 con
+TDD1391866 [32558 : 33114 : 33705] common? b
+TDD-1391865 progress: -1 33114 common
+TDD9015862 [32558 : 32827 : 33114] come? a
+TDD-9015855 progress: 1 32827 come
+TDD2247712 [32828 : 32908 : 33114] comm? b
+TDD-2247724 progress: -1 32908 comm
+TDD1623899 [32828 : 32868 : 32908] comeuppances? a
+TDD-1623869 progress: 1 32868 comeuppances
+TDD2063765 [32869 : 32888 : 32908] comfreys? b
+TDD-2063761 progress: -1 32888 comfreys
+TDD1351548 [32869 : 32876 : 32888] comfort? a
+TDD-1351554 progress: 1 32876 comfort
+TDD1663811 [32877 : 32882 : 32888] comforters? b
+TDD-1663810 progress: -1 32882 comforters
+TDD1360024 [32877 : 32879 : 32882] comfortably? b
+TDD-1359998 progress: -1 32879 comfortably
+TDD1767337 [32877 : 32878 : 32879] comfortableness? b
+TDD-1767293 progress: -1 32878 comfortableness
+TDD1831605 [32877 : 32877 : 32878] comfortable? it
+TDD-1831644 progress: 0 32877 comfortable
+TDD-89 [32877 : 32877 : 32878] <Done>.
+TDD3584268 📋> 🧩 Puzzle #890
+TDD-3584271 📋> 
+TDD-70 📋> 🤔 17 guesses
+TDD-2 📋> 
+TDD0 📋> ⏱️ 37s
+TDD-2 📋> 
+TDD327515 📋> 🔗 alphaguess.com
+TDD-135545 📋> ␚
+TDD-191878 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #890\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 37s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-29 result: "\ud83e\udde9 Puzzle #890\n\n\ud83e\udd14 17 guesses\n\n\u23f1\ufe0f 37s\n\n\ud83d\udd17 alphaguess.com"
+TDD-54 result puzzle: 890
+TDD-9 result guesses: 17
+TDD0 result time: 37s
+TDD0 result link: alphaguess.com
+TDD263743 📆 2025-12-31 ? 
