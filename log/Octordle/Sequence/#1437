@@ -1,0 +1,239 @@
+T272.2087986080005 now: 2025-12-31T16:59:32EST
+TD54 site: britannica.com/games/octordle/daily-sequence
+TDD-27 wordlist: nwl2023.txt
+TDD-22 num_words: 8
+TDD2742354  ...
+TDD-214176 > * 1
+TDD927697 ? nnMMn
+TDD-2407642 ? 1
+TDD-1048028 questioning: lears
+TDD1263947 Sequence #1 _____? nnMMn
+TDD-1263915 attempt: 0 LEARS n n m m n
+TDD1575236 > * 1
+TDD-375556 ? 1
+TDD-1199765 questioning: radio
+TDD3799828 Sequence #1 _____ ~AR -ELS? YYnMn
+TDD-3799804 attempt: 0 RADIO Y Y n m n
+TDD1487593 > * 1
+TDD560427 ? 1
+TDD-2048051 questioning: rainy
+TDD3087854 Sequence #1 RA___ ~I -DELOS? YYYYY
+TDD-3087790 attempt: 0 RAINY Y Y Y Y Y
+TDD-176 questioning: LEARS
+TDD1807923 Sequence #2 _____? nnMnM
+TDD-1807703 attempt: 1 LEARS n n m n m
+TDD-205 questioning: RADIO
+TDD2223480 Sequence #2 _____ ~AS -ELR? nYnnn
+TDD-2223276 attempt: 1 RADIO n Y n n n
+TDD-204 questioning: RAINY
+TDD2551682 Sequence #2 _A___ ~S -DEILOR? nYnnY
+TDD-2551555 attempt: 1 RAINY n Y n n Y
+TDD1487871 > * 2
+TDD135812 ? 1
+TDD-1623653 questioning: patsy
+TDD3519810 Sequence #2 _A__Y ~S -DEILNOR? nYnMY
+TDD-3519833 attempt: 1 PATSY n Y n m Y
+TDD1503913 > * 2
+TDD367511 ? 2
+TDD-1871401 questioning: saucy
+TDD3895628 Sequence #2 _A__Y ~S -DEILNOPRT? YYYYY
+TDD-3895669 attempt: 1 SAUCY Y Y Y Y Y
+TDD-132 questioning: LEARS
+TDD3143604 Sequence #3 _____? nnnMM
+TDD-3143452 attempt: 2 LEARS n n n m m
+TDD-153 questioning: RADIO
+TDD1671961 Sequence #3 _____ ~RS -AEL? MnnYn
+TDD-1671811 attempt: 2 RADIO m n n Y n
+TDD-149 questioning: RAINY
+TDD4303976 Sequence #3 ___I_ ~RS -ADELO? MnMnn
+TDD-4303735 attempt: 2 RAINY m n m n n
+TDD-212 questioning: PATSY
+TDD1983709 Sequence #3 ___I_ ~RS -ADELNOY? MnnMn
+TDD-1983531 attempt: 2 PATSY m n n m n
+TDD-191 questioning: SAUCY
+TDD1927599 Sequence #3 ___I_ ~PRS -ADELNOTY? Ynnnn
+TDD-1927461 attempt: 2 SAUCY Y n n n n
+TDD1391965 > * 3
+TDD-1300620 questioning: sprig
+TDD3105324 Sequence #3 S__I_ ~PR -ACDELNOTUY? YYYYY
+TDD-3196618 attempt: 2 SPRIG Y Y Y Y Y
+TDD-187 questioning: LEARS
+TDD1911030 Sequence #4 _____? nnMnn
+TDD-1910845 attempt: 3 LEARS n n m n n
+TDD-184 questioning: RADIO
+TDD1903699 Sequence #4 _____ ~A -ELRS? nYnnM
+TDD-1903567 attempt: 3 RADIO n Y n n m
+TDD-147 questioning: RAINY
+TDD3263936 Sequence #4 _A___ ~O -DEILRS? nYnMn
+TDD-3263786 attempt: 3 RAINY n Y n m n
+TDD-148 questioning: PATSY
+TDD2919702 Sequence #4 _A___ ~NO -DEILRSY? nYnnn
+TDD-2919496 attempt: 3 PATSY n Y n n n
+TDD-189 questioning: SAUCY
+TDD1279800 Sequence #4 _A___ ~NO -DEILPRSTY? nYnnn
+TDD-1279611 attempt: 3 SAUCY n Y n n n
+TDD-180 questioning: SPRIG
+TDD2623559 Sequence #4 _A___ ~NO -CDEILPRSTUY? nnnnM
+TDD-2623416 attempt: 3 SPRIG n n n n m
+TDD1519523 > * 4
+TDD1632370 ? 1
+TDD-3151938 questioning: wagon
+TDD2191885 Sequence #4 _A___ ~GNO -CDEILPRSTUY? YYYYY
+TDD-2191852 attempt: 3 WAGON Y Y Y Y Y
+TDD-154 questioning: LEARS
+TDD13903937 Sequence #5 _____? nnnnM
+TDD-13903785 attempt: 4 LEARS n n n n m
+TDD-152 questioning: RADIO
+TDD1471775 Sequence #5 _____ ~S -AELR? nnnMM
+TDD-1471642 attempt: 4 RADIO n n n m m
+TDD-136 questioning: RAINY
+TDD1255559 Sequence #5 _____ ~IOS -ADELR? nnYnn
+TDD-1255341 attempt: 4 RAINY n n Y n n
+TDD-201 questioning: PATSY
+TDD1215824 Sequence #5 __I__ ~OS -ADELNRY? nnMYn
+TDD-1215634 attempt: 4 PATSY n n m Y n
+TDD-189 questioning: SAUCY
+TDD1696084 Sequence #5 __IS_ ~OT -ADELNPRY? Mnnnn
+TDD-1695962 attempt: 4 SAUCY m n n n n
+TDD-137 questioning: SPRIG
+TDD1695546 Sequence #5 __IS_ ~OT -ACDELNPRUY? MnnMn
+TDD-1695345 attempt: 4 SPRIG m n n m n
+TDD-184 questioning: WAGON
+TDD1519621 Sequence #5 __IS_ ~OT -ACDEGLNPRUY? nnnMn
+TDD-1519503 attempt: 4 WAGON n n n m n
+TDD1535425 > * 5
+TDD2280608 ? 3
+TDD-3816009 questioning: moist
+TDD4375866 Sequence #5 __IS_ ~OT -ACDEGLNPRUWY? nYYYY
+TDD-4375825 attempt: 4 MOIST n Y Y Y Y
+TDD1367488 > * 5
+TDD2176355 ? 1
+TDD-3543885 questioning: hoist
+TDD3983793 Sequence #5 _OIST -ACDEGLMNPRUWY? nYYYY
+TDD-3983812 attempt: 4 HOIST n Y Y Y Y
+TDD1567497 > * 5
+TDD528092 ? 1
+TDD-2095587 questioning: foist
+TDD3280442 Sequence #5 _OIST -ACDEGHLMNPRUWY? YYYYY
+TDD-3280332 attempt: 4 FOIST Y Y Y Y Y
+TDD-229 questioning: LEARS
+TDD2703730 Sequence #6 _____? Mnnnn
+TDD-2703515 attempt: 5 LEARS m n n n n
+TDD-222 questioning: RADIO
+TDD1303362 Sequence #6 _____ ~L -AERS? nnnnn
+TDD-1303114 attempt: 5 RADIO n n n n n
+TDD-242 questioning: RAINY
+TDD1255923 Sequence #6 _____ ~L -ADEIORS? nnnnn
+TDD-1255411 attempt: 5 RAINY n n n n n
+TDD-518 questioning: PATSY
+TDD2206748 Sequence #6 _____ ~L -ADEINORSY? nnnnn
+TDD-2206548 attempt: 5 PATSY n n n n n
+TDD-209 questioning: SAUCY
+TDD1479880 Sequence #6 _____ ~L -ADEINOPRSTY? nnMYn
+TDD-1479601 attempt: 5 SAUCY n n m Y n
+TDD-258 questioning: SPRIG
+TDD1607653 Sequence #6 ___C_ ~LU -ADEINOPRSTY? nnnnM
+TDD-1607405 attempt: 5 SPRIG n n n n m
+TDD-244 questioning: WAGON
+TDD3231523 Sequence #6 ___C_ ~GLU -ADEINOPRSTY? nnMnn
+TDD-3231274 attempt: 5 WAGON n n m n n
+TDD-250 questioning: MOIST
+TDD1591604 Sequence #6 ___C_ ~GLU -ADEINOPRSTWY? nnnnn
+TDD-1591351 attempt: 5 MOIST n n n n n
+TDD-252 questioning: HOIST
+TDD3127787 Sequence #6 ___C_ ~GLU -ADEIMNOPRSTWY? Mnnnn
+TDD-3127653 attempt: 5 HOIST m n n n n
+TDD-159 questioning: FOIST
+TDD2479681 Sequence #6 ___C_ ~GHLU -ADEIMNOPRSTWY? nnnnn
+TDD-2479399 attempt: 5 FOIST n n n n n
+TDD1663528 > * 6
+TDD-1570226 questioning: gulch
+TDD3205003 Sequence #6 ___C_ ~GHLU -ADEFIMNOPRSTWY? YYYYY
+TDD-3298335 attempt: 5 GULCH Y Y Y Y Y
+TDD-222 questioning: LEARS
+TDD3511127 Sequence #7 _____? MYnnn
+TDD-3510961 attempt: 6 LEARS m Y n n n
+TDD-183 questioning: RADIO
+TDD1415923 Sequence #7 _E___ ~L -ARS? nnnYn
+TDD-1415728 attempt: 6 RADIO n n n Y n
+TDD-180 questioning: RAINY
+TDD1599566 Sequence #7 _E_I_ ~L -ADORS? nnMnn
+TDD-1599395 attempt: 6 RAINY n n m n n
+TDD-181 questioning: PATSY
+TDD2103497 Sequence #7 _E_I_ ~L -ADNORSY? nnnnn
+TDD-2103380 attempt: 6 PATSY n n n n n
+TDD-131 questioning: SAUCY
+TDD1663822 Sequence #7 _E_I_ ~L -ADNOPRSTY? nnnnn
+TDD-1663625 attempt: 6 SAUCY n n n n n
+TDD-182 questioning: SPRIG
+TDD2295832 Sequence #7 _E_I_ ~L -ACDNOPRSTUY? nnnYn
+TDD-2295644 attempt: 6 SPRIG n n n Y n
+TDD-188 questioning: WAGON
+TDD2336207 Sequence #7 _E_I_ ~L -ACDGNOPRSTUY? nnnnn
+TDD-2335980 attempt: 6 WAGON n n n n n
+TDD-211 questioning: MOIST
+TDD2263279 Sequence #7 _E_I_ ~L -ACDGNOPRSTUWY? nnMnn
+TDD-2263165 attempt: 6 MOIST n n m n n
+TDD-144 questioning: HOIST
+TDD3856064 Sequence #7 _E_I_ ~L -ACDGMNOPRSTUWY? YnMnn
+TDD-3855841 attempt: 6 HOIST Y n m n n
+TDD-207 questioning: FOIST
+TDD1375573 Sequence #7 HE_I_ ~L -ACDGMNOPRSTUWY? nnMnn
+TDD-1375369 attempt: 6 FOIST n n m n n
+TDD-202 questioning: GULCH
+TDD1679410 Sequence #7 HE_I_ ~L -ACDFGMNOPRSTUWY? nnYnM
+TDD-1679217 attempt: 6 GULCH n n Y n m
+TDD1519606 > * 7
+TDD-1430458 questioning: helix
+TDD3085363 Sequence #7 HELI_ -ACDFGMNOPRSTUWY? YYYYY
+TDD-3174499 attempt: 6 HELIX Y Y Y Y Y
+TDD-204 questioning: LEARS
+TDD2799327 Sequence #8 _____? nMnnn
+TDD-2799202 attempt: 7 LEARS n m n n n
+TDD-141 questioning: RADIO
+TDD2407871 Sequence #8 _____ ~E -ALRS? nnnnn
+TDD-2407667 attempt: 7 RADIO n n n n n
+TDD-188 questioning: RAINY
+TDD2656024 Sequence #8 _____ ~E -ADILORS? nnnnM
+TDD-2655834 attempt: 7 RAINY n n n n m
+TDD-184 questioning: PATSY
+TDD5936395 Sequence #8 _____ ~EY -ADILNORS? nnMnM
+TDD-5936221 attempt: 7 PATSY n n m n m
+TDD-180 questioning: SAUCY
+TDD3431086 Sequence #8 _____ ~ETY -ADILNOPRS? nnnnM
+TDD-3430960 attempt: 7 SAUCY n n n n m
+TDD-139 questioning: SPRIG
+TDD1680232 Sequence #8 _____ ~ETY -ACDILNOPRSU? nnnnn
+TDD-1680041 attempt: 7 SPRIG n n n n n
+TDD-178 questioning: WAGON
+TDD1215156 Sequence #8 _____ ~ETY -ACDGILNOPRSU? nnnnn
+TDD-1214980 attempt: 7 WAGON n n n n n
+TDD-178 questioning: MOIST
+TDD3375791 Sequence #8 _____ ~ETY -ACDGILNOPRSUW? MnnnM
+TDD-3375597 attempt: 7 MOIST m n n n m
+TDD-190 questioning: HOIST
+TDD1871710 Sequence #8 _____ ~EMTY -ACDGILNOPRSUW? MnnnM
+TDD-1871519 attempt: 7 HOIST m n n n m
+TDD-188 questioning: FOIST
+TDD14528337 Sequence #8 _____ ~EHMTY -ACDGILNOPRSUW? nnnnM
+TDD-14528094 attempt: 7 FOIST n n n n m
+TDD-228 questioning: GULCH
+TDD5327227 Sequence #8 _____ ~EHMTY -ACDFGILNOPRSUW? nnnnM
+TDD-5327054 attempt: 7 GULCH n n n n m
+TDD-188 questioning: HELIX
+TDD1599734 Sequence #8 _____ ~EHMTY -ACDFGILNOPRSUW? MMnnn
+TDD-1599533 attempt: 7 HELIX m m n n n
+TDD1471550 > * 8
+TDD-1361595 questioning: thyme
+TDD7931507 Sequence #8 _____ ~EHMTY -ACDFGILNOPRSUWX? YYYYY
+TDD-8041543 attempt: 7 THYME Y Y Y Y Y
+TDD3536304 📋> Daily Sequence Octordle #1437
+TDD-3536364 📋> 3️⃣5️⃣
+TDD-92 📋> 6️⃣7️⃣
+TDD-4 📋> 🔟🕚
+TDD-1 📋> 🕛🕐
+TDD344300 📋> Score: 67
+TDD-104906 📋> ␚
+TDD-239261 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Octordle #1437\n3\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\n\ud83d\udd5b\ud83d\udd50\nScore: 67"}
+TDD18 result: "Daily Sequence Octordle #1437\n3\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\n\ud83d\udd5b\ud83d\udd50\nScore: 67"
+TDD303356 📆 2025-12-31 ? 
