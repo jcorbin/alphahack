@@ -1,0 +1,203 @@
+T304.4101532490022 now: 2025-12-31T16:51:51EST
+TD53 site: britannica.com/games/octordle/daily-rescue
+TDD-27 wordlist: nwl2023.txt
+TDD-20 num_words: 8
+TDD4246631  ...
+TDD-2614688 > 
+TDD-1463797 > 
+TDD-16300 > 
+TDD8285 > 
+TDD3535899 > tried sally
+TDD-3695855 questioning: sally
+TDD5471720 Rescue #1 _____? nMnnn
+TDD-5471660 attempt: 0 SALLY n m n n n
+TDD1463967 Rescue #2 _____? nnMYn
+TDD-1464028 attempt: 1 SALLY n n m Y n
+TDD1935801 Rescue #3 _____? nMnYn
+TDD-1935751 attempt: 2 SALLY n m n Y n
+TDD1399829 Rescue #4 _____? nnnnn
+TDD-1399825 attempt: 3 SALLY n n n n n
+TDD3150977 Rescue #5 _____? Ynnnn
+TDD-3151024 attempt: 4 SALLY Y n n n n
+TDD1343506 Rescue #6 _____? nYnnn
+TDD-1343503 attempt: 5 SALLY n Y n n n
+TDD1807400 Rescue #7 _____? nMnnn
+TDD-1807427 attempt: 6 SALLY n m n n n
+TDD1328007 Rescue #8 _____? nMnnn
+TDD-1327936 attempt: 7 SALLY n m n n n
+T23.7503721749963 now: 2025-12-31T16:53:36EST
+TD72 questioning: sally
+TDD4676629 > tried sooty
+TDD-4676426 questioning: sooty
+TDD1352232 Rescue #1 _____ ~A -LSY? nnnnn
+TDD-1352258 attempt: 0 SOOTY n n n n n
+TDD1526754 Rescue #2 ___L_ -ASY? nnYMn
+TDD-1526758 attempt: 1 SOOTY n n Y m n
+TDD2135720 Rescue #3 ___L_ ~A -SY? nnYnn
+TDD-2135791 attempt: 2 SOOTY n n Y n n
+TDD1751581 Rescue #4 _____ -ALSY? nnnMn
+TDD-1751522 attempt: 3 SOOTY n n n m n
+TDD4039540 Rescue #5 S____ -ALY? YYnYn
+TDD-4039595 attempt: 4 SOOTY Y Y n Y n
+TDD1239427 Rescue #6 _A___ -LSY? nnnnn
+TDD-1239435 attempt: 5 SOOTY n n n n n
+TDD1464043 Rescue #7 _____ ~A -LSY? nnnYn
+TDD-1463969 attempt: 6 SOOTY n n n Y n
+TDD1351481 Rescue #8 _____ ~A -LSY? nnnMn
+TDD-1351499 attempt: 7 SOOTY n n n m n
+TDD3535270 > tried saucy
+TDD-3535355 questioning: saucy
+TDD4279957 Rescue #1 _____ ~A -LOSTY? nMnnn
+TDD-4279870 attempt: 0 SAUCY n m n n n
+TDD1063823 Rescue #2 __OL_ ~T -ASY? nnnnn
+TDD-1063817 attempt: 1 SAUCY n n n n n
+TDD3935503 Rescue #3 __OL_ ~A -STY? nMnnn
+TDD-3935505 attempt: 2 SAUCY n m n n n
+TDD1976443 Rescue #4 _____ ~T -ALOSY? nnnnn
+TDD-1976439 attempt: 3 SAUCY n n n n n
+TDD4966490 Rescue #5 SO_T_ -ALY? YnYnn
+TDD-4966475 attempt: 4 SAUCY Y n Y n n
+TDD1871615 Rescue #6 _A___ -LOSTY? nYnnn
+TDD-1871683 attempt: 5 SAUCY n Y n n n
+TDD1991688 Rescue #7 ___T_ ~A -LOSY? nMnnn
+TDD-1991623 attempt: 6 SAUCY n m n n n
+TDD1439713 Rescue #8 _____ ~AT -LOSY? nMnnn
+TDD-1439717 attempt: 7 SAUCY n m n n n
+TDD11776111 > tried toxin
+TDD-11776195 questioning: toxin
+TDD4911378 Rescue #1 _____ ~A -CLOSTUY? nnnnn
+TDD-4911301 attempt: 0 TOXIN n n n n n
+TDD1887589 Rescue #2 __OL_ ~T -ACSUY? YMnnn
+TDD-1887587 attempt: 1 TOXIN Y m n n n
+TDD2791428 Rescue #3 __OL_ ~A -CSTUY? nMnMn
+TDD-2791492 attempt: 2 TOXIN n m n m n
+TDD1455902 Rescue #4 _____ ~T -ACLOSUY? YnnYn
+TDD-1455849 attempt: 3 TOXIN Y n n Y n
+TDD6815441 Rescue #5 SOUT_ -ACLY? MYnnn
+TDD-6815419 attempt: 4 TOXIN m Y n n n
+TDD1439707 Rescue #6 _A___ -CLOSTUY? nnnnn
+TDD-1439728 attempt: 5 TOXIN n n n n n
+T11.317063002003124 now: 2025-12-31T16:55:11EST
+TD79 questioning: toxin
+TDD6908328 Rescue #7 ___T_ ~A -CLOSUY? Mnnnn
+TDD-6908226 attempt: 6 TOXIN m n n n n
+TDD2279480 Rescue #8 _____ ~AT -CLOSUY? YnnnM
+TDD-2279470 attempt: 7 TOXIN Y n n n m
+TDD3999822 > tried cried
+TDD-3999740 questioning: cried
+TDD4248695 Rescue #1 _____ ~A -CILNOSTUXY? nMnMn
+TDD-4248727 attempt: 0 CRIED n m n m n
+TDD1390118 Rescue #2 T_OL_ -ACINSUXY? nYnnn
+TDD-1388443 attempt: 1 CRIED n Y n n n
+TDD1428262 Rescue #3 __OL_ ~AI -CNSTUXY? nnMnn
+TDD-1429999 attempt: 2 CRIED n n m n n
+TDD1808203 Rescue #4 T__I_ -ACLNOSUXY? nnMnY
+TDD-1808126 attempt: 3 CRIED n n m n Y
+TDD3232535 Rescue #5 SOUT_ -ACILNXY? nnnnn
+TDD-3232467 attempt: 4 CRIED n n n n n
+TDD1302225 Rescue #6 _A___ -CILNOSTUXY? nMnYn
+TDD-1302298 attempt: 5 CRIED n m n Y n
+TDD1991429 Rescue #7 ___T_ ~A -CILNOSUXY? nnnMn
+TDD-1991500 attempt: 6 CRIED n n n m n
+TDD1128019 Rescue #8 T____ ~AN -CILOSUXY? nnnnn
+TDD-1127969 attempt: 7 CRIED n n n n n
+TDD2863371 > * 5
+TDD-2773139 questioning: south
+TDD4395210 Rescue #1 _____ ~AER -CDILNOSTUXY? nnnnn
+TDD-4485407 attempt: 0 SOUTH n n n n n
+TDD1271526 Rescue #2 TROL_ -ACDEINSUXY? nMnMn
+TDD-1271606 attempt: 1 SOUTH n m n m n
+TDD1343358 Rescue #3 __OL_ ~AI -CDENRSTUXY? nMnnn
+TDD-1343287 attempt: 2 SOUTH n m n n n
+TDD1376068 Rescue #4 T__ID -ACELNORSUXY? nnnMn
+TDD-1376093 attempt: 3 SOUTH n n n m n
+TDD5175432 Rescue #5 SOUT_ -ACDEILNRXY? YYYYY
+TDD-5175493 attempt: 4 SOUTH Y Y Y Y Y
+TDD1135649 Rescue #6 _A_E_ ~R -CDILNOSTUXY? nnnnn
+TDD-1135605 attempt: 5 SOUTH n n n n n
+TDD2103358 Rescue #7 ___T_ ~AE -CDILNORSUXY? nnnYY
+TDD-2103377 attempt: 6 SOUTH n n n Y Y
+TDD1360730 Rescue #8 T____ ~AN -CDEILORSUXY? nnnMn
+TDD-1360696 attempt: 7 SOUTH n n n m n
+TDD1686844 > * 8
+TDD-1597343 questioning: twang
+TDD4644219 Rescue #1 _____ ~AER -CDHILNOSTUXY? nnMnn
+TDD-4733782 attempt: 0 TWANG n n m n n
+TDD1344163 Rescue #2 TROL_ -ACDEHINSUXY? Ynnnn
+TDD-1344089 attempt: 1 TWANG Y n n n n
+TDD1111371 Rescue #3 __OL_ ~AI -CDEHNRSTUXY? nnMnn
+TDD-1111374 attempt: 2 TWANG n n m n n
+TDD1287528 Rescue #4 T__ID -ACEHLNORSUXY? Ynnnn
+TDD-1287587 attempt: 3 TWANG Y n n n n
+TDD4703671 Rescue #6 _A_E_ ~R -CDHILNOSTUXY? nnMnM
+TDD-4703602 attempt: 5 TWANG n n m n m
+TDD2447718 Rescue #7 ___TH ~AE -CDILNORSUXY? MnYnn
+TDD-2447671 attempt: 6 TWANG m n Y n n
+TDD1200069 Rescue #8 T____ ~AN -CDEHILORSUXY? YYYYY
+TDD-1200129 attempt: 7 TWANG Y Y Y Y Y
+TDD1582519 > * 7
+TDD-1490951 questioning: heath
+TDD7424683 Rescue #1 _____ ~AER -CDGHILNOSTUWXY? nYMnn
+TDD-7516307 attempt: 0 HEATH n Y m n n
+TDD1967672 Rescue #2 TROL_ -ACDEGHINSUWXY? nnnMn
+TDD-1967614 attempt: 1 HEATH n n n m n
+TDD1375564 Rescue #3 __OL_ ~AI -CDEGHNRSTUWXY? nnMnn
+TDD-1375623 attempt: 2 HEATH n n m n n
+TDD1071779 Rescue #4 T__ID -ACEGHLNORSUWXY? nnnMn
+TDD-1071692 attempt: 3 HEATH n n n m n
+TDD3599602 Rescue #6 _A_E_ ~GR -CDHILNOSTUWXY? nMMnn
+TDD-3599634 attempt: 5 HEATH n m m n n
+TDD3455348 Rescue #7 __ATH ~E -CDGILNORSUWXY? YYYYY
+TDD-3455408 attempt: 6 HEATH Y Y Y Y Y
+TDD7952151 > * 4
+TDD-7863262 questioning: timid
+TDD8166432 Rescue #1 _E___ ~AR -CDGHILNOSTUWXY? nnnnn
+TDD-8255263 attempt: 0 TIMID n n n n n
+TDD1343230 Rescue #2 TROL_ -ACDEGHINSUWXY? Ynnnn
+TDD-1343285 attempt: 1 TIMID Y n n n n
+TDD2879863 Rescue #3 __OL_ ~AI -CDEGHNRSTUWXY? nYnnn
+TDD-2879868 attempt: 2 TIMID n Y n n n
+TDD1567683 Rescue #4 T__ID -ACEGHLNORSUWXY? YYYYY
+TDD-1567651 attempt: 3 TIMID Y Y Y Y Y
+TDD4127563 Rescue #6 _A_E_ ~GR -CDHILNOSTUWXY? nnnnn
+TDD-4127588 attempt: 5 TIMID n n n n n
+TDD2159410 > * 2
+TDD-2064225 questioning: troll
+TDD5177641 Rescue #1 _E___ ~AR -CDGHILMNOSTUWXY? nMnnn
+TDD-5272822 attempt: 0 TROLL n m n n n
+TDD1240390 Rescue #2 TROL_ -ACDEGHIMNSUWXY? YYYYY
+TDD-1240380 attempt: 1 TROLL Y Y Y Y Y
+TDD1487084 Rescue #3 _IOL_ ~A -CDEGHMNRSTUWXY? nnYYn
+TDD-1487106 attempt: 2 TROLL n n Y Y n
+TDD4064026 Rescue #6 _A_E_ ~GR -CDHILMNOSTUWXY? nMnnn
+TDD-4064029 attempt: 5 TROLL n m n n n
+TDD2271232 > * 3
+TDD3417216 ? 1
+TDD-5688397 questioning: viola
+TDD4943223 Rescue #1 _E___ ~AR -CDGHILMNOSTUWXY? nnnnY
+TDD-4943261 attempt: 0 VIOLA n n n n Y
+TDD3192163 Rescue #3 _IOL_ ~A -CDEGHMNRSTUWXY? YYYYY
+TDD-3192109 attempt: 2 VIOLA Y Y Y Y Y
+TDD3983130 Rescue #6 _A_E_ ~GR -CDHILMNOSTUWXY? nnnnM
+TDD-3983188 attempt: 5 VIOLA n n n n m
+TDD1799890 > * 1
+TDD-1706462 questioning: zebra
+TDD5772645 Rescue #1 _E__A ~R -CDGHILMNOSTUVWXY? YYYYY
+TDD-5866078 attempt: 0 ZEBRA Y Y Y Y Y
+TDD4144006 Rescue #6 _A_E_ ~GR -CDHILMNOSTUVWXY? MMnMM
+TDD-4143950 attempt: 5 ZEBRA m m n m m
+TDD1055929 > *
+TDD1215757 > * 6
+TDD-2173578 questioning: gazer
+TDD5426889 Rescue #6 _A_E_ ~GRZ -BCDHILMNOSTUVWXY? YYYYY
+TDD-5524990 attempt: 5 GAZER Y Y Y Y Y
+TDD3144854 📋> Daily Rescue Octordle #1437
+TDD-3144987 📋> 🕛🔟
+TDD-83 📋> 🕚9️⃣
+TDD-8 📋> 6️⃣🕐
+TDD-2 📋> 8️⃣7️⃣
+TDD295102 📋> Score: 8
+TDD-55439 📋> ␚
+TDD-239561 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1437\n\ud83d\udd5b\ud83d\udd1f\n\ud83d\udd5a9\ufe0f\u20e3\n6\ufe0f\u20e3\ud83d\udd50\n8\ufe0f\u20e37\ufe0f\u20e3\nScore: 8"}
+TDD1514 result: "Daily Rescue Octordle #1437\n\ud83d\udd5b\ud83d\udd1f\n\ud83d\udd5a9\ufe0f\u20e3\n6\ufe0f\u20e3\ud83d\udd50\n8\ufe0f\u20e37\ufe0f\u20e3\nScore: 8"
+TDD245501 📆 2025-12-31 ? 
