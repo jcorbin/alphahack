@@ -1,0 +1,101 @@
+T1221.0702619699878 now: 2025-12-31T10:12:23EST
+TD91 site: squareword.org
+TDD-61 wordlist: nwl2023.txt
+TDD3494562  ...
+TDD233242 🧩  ? #1430
+TDD-3727530 puzzle_id: #1430
+TDD3991377 > *
+TDD2840498 try? 1
+TDD-6831956 questioning: ["raise", "#5"]
+TDD5479565 #1 <IndexError>  📋 "raise" ? _____ ~ A
+TDD-5479077 attempt 0 RAISE n m n n n
+TDD3798334 #2 <IndexError>  📋 "raise" ? _____ ~ RAE
+TDD-3798850 attempt 1 RAISE m m n n m
+TDD5920108 #3 <IndexError>  📋 "raise" ? ____E ~ R
+TDD-5920113 attempt 2 RAISE m n n n Y
+TDD20663201 #4 <IndexError>  📋 "raise" ? ___SE ~ R
+TDD-20663190 attempt 3 RAISE m n n Y Y
+TDD3048080 #5 <IndexError>  📋 "raise" ? _____ ~ RSE
+TDD-3047994 attempt 4 RAISE m n n m m
+TDD1767053 ? 
+TDD-1767152 question done
+TDD1399787 > *
+TDD10528813 try? 1
+TDD-11928448 questioning: ["torse", "#4"]
+TDD17918451 #1 _____ ~A -EIRS  📋 "torse" ? _____ ~ AT
+TDD-17918483 attempt 0 TORSE m n n n n
+TDD3935402 #2 _____ ~AER -IS  📋 "torse" ? .
+TDD-3935405 attempt 1 TORSE n n m n m
+TDD3023517 #3 ____E ~R -AIS  📋 "torse" ? ____E ~ RO
+TDD-3023498 attempt 2 TORSE n m m n Y
+TDD3271250 #4 ___SE ~R -AI  📋 "torse" ? ___SE ~ RO
+TDD-3271383 attempt 3 TORSE n m m Y Y
+TDD3191737 #5 _____ ~ERS -AI  📋 "torse" ? T_R__ ~ SE
+TDD-3191629 attempt 4 TORSE Y n Y m m
+TDD695431 ? 
+TDD-695606 question done
+TDD1335692 > *
+TDD1840089 try? 1
+TDD-3175613 questioning: ["prose", "#4"]
+TDD4903361 #1 _____ ~AT -EIORS  📋 "prose" ? _____ ~ ATP
+TDD-4903421 attempt 0 PROSE m n n n n
+TDD1295508 #2 _____ ~AER -IOST  📋 "prose" ? .
+TDD-1295395 attempt 1 PROSE n m n n m
+TDD1559338 #3 ____E ~OR -AIST  📋 "prose" ? .
+TDD-1559483 attempt 2 PROSE n m m n Y
+TDD1175717 #4 ___SE ~OR -AIT  📋 "prose" ? /it
+TDD-1175632 attempt 3 PROSE Y Y Y Y Y
+TDD1679623 #5 T_R__ ~ES -AIO  📋 "prose" ? .
+TDD-1679620 attempt 4 PROSE n n n m m
+TDD191247 ? 
+TDD-191433 question done
+TDD631728 > *
+TDD-14822 questioning: ["ochre", "#3"]
+TDD4317867 #1 _____ ~APT -EIORS  📋 "ochre" ? .
+TDD-4934676 attempt 0 OCHRE n n n n n
+TDD991771 #2 _____ ~AER -IOPST  📋 "ochre" ? .
+TDD-991769 attempt 1 OCHRE n n n m m
+TDD983495 #3 ____E ~OR -AIPST  📋 "ochre" ? /it
+TDD-983523 attempt 2 OCHRE Y Y Y Y Y
+TDD1703632 #5 T_R__ ~ES -AIOPR  📋 "ochre" ? .
+TDD-1703621 attempt 4 OCHRE n n n n m
+TDD223548 ? 
+TDD-223632 question done
+TDD639794 > *
+TDD749558 questioning: ["adapt", "#1"]
+TDD4661296 #1 _____ ~APT -CEHIORS  📋 "adapt" ? /it
+TDD-6050456 attempt 0 ADAPT Y Y Y Y Y
+TDD4239302 #2 _____ ~AER -CHIOPST  📋 "adapt" ? _____ ~ RAED
+TDD-4239418 attempt 1 ADAPT m m m n n
+TDD1127754 #5 T_R__ ~ES -ACHIOPR  📋 "adapt" ? .
+TDD-1127745 attempt 4 ADAPT n n n n n
+TDD167653 ? 
+TDD-167688 question done
+TDD455620 > *
+TDD1070430 questioning: ["debar", "#2"]
+TDD1515411 #2 _____ ~ADER -CHIOPST  📋 "debar" ? /it
+TDD-3041414 attempt 1 DEBAR Y Y Y Y Y
+TDD1399723 #5 T_R__ ~ES -ACDHIOPRT  📋 "debar" ? .
+TDD-1399695 attempt 4 DEBAR n m n n n
+TDD303748 ? 
+TDD-303861 question done
+TDD415744 > *
+TDD557018 questioning: ["tyres", "#5"]
+TDD2566011 #5 T_R__ ~ES -ABCDHIOPRT  📋 "tyres" ? /it
+TDD-3538672 attempt 4 TYRES Y Y Y Y Y
+TDD599627 ? 
+TDD-599746 question done
+TDD4824474 📋> squareword.org 1430: 7 guesses
+TDD-4824492 📋> 
+TDD-64 📋> 🟩🟩🟩🟩🟩
+TDD-12 📋> 🟨🟨🟨🟨🟨
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟨🟩🟨🟨
+TDD0 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD431264 📋> #squareword #squareword1430
+TDD-118981 📋> ␚
+TDD-312157 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1430: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1430"}
+TDD659 result: "squareword.org 1430: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1430"
+TDD406077 📆 2025-12-31 ? 
