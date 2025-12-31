@@ -1,0 +1,55 @@
+T4318.9048100999935 now: 2025-12-31T11:04:01EST
+TD47 site: spaceword.org
+TDD-19 wordlist: nwl2023.txt
+TDD3887306  ...
+TDD13488824 🧩  ? daily 20251231
+TDD-17375739 puzzle_id: 2025-12-31
+TDD4007248 num letters (default: 21) ? 
+TDD-4007560 num_letters: 21
+TDD5503810 letters? aaacdee
+TDD-5503783 letters: |AAACDEE|
+TDD3767920 letters? hiiiijl
+TDD-3767906 letters: |AAACDEEHIIIIJL|
+TDD2991641 letters? lqrsuxy
+TDD-2991603 letters: |AAACDEEHIIIIJLLQRSUXY|
+TDD1855726 letters. 
+TDD19544267 [doit:100]> /sea -cap 512
+TDD27888142 search f34cd2 [ 512 cap:512 may:1833 prune:67 dead:22 done:4 ]> show done
+TDD-24736054 search f34cd2 [ 512 cap:512 may:1833 prune:67 dead:22 done:4 ]> show 1
+TDD-21328240 search f34cd2 [ 512 cap:512 may:1833 prune:67 dead:22 done:4 ]> ret
+TDD-3223662 change: 13 S
+TDD-351 change: 16 J
+TDD-6 change: 23 L
+TDD-2 change: 26 I
+TDD0 change: 33 Y
+TDD0 change: 35 C
+TDD0 change: 36 H
+TDD0 change: 37 I
+TDD0 change: 43 E
+TDD0 change: 45 A
+TDD0 change: 46 A
+TDD0 change: 53 R
+TDD0 change: 54 A
+TDD0 change: 55 I
+TDD0 change: 56 D
+TDD0 change: 65 Q
+TDD0 change: 66 I
+TDD0 change: 75 U
+TDD0 change: 84 L
+TDD0 change: 85 E
+TDD0 change: 86 X
+TDD71808819 [doit:2160]> /res
+TDD-71048835 📋> ✨ Spaceword.org Daily 2025-12-31 ✨
+TDD-759877 📋> 
+TDD-91 📋> 🏆 Score: 2160
+TDD-2 📋> 🏅 Rank: 97/213 🎈
+TDD-5 📋> 🧩 Tiles: 21/21 ✅
+TDD0 📋> 📏 Space Bonus: +60
+TDD0 📋> 
+TDD0 📋> 
+TDD-2 📋> Play at https://spaceword.org
+TDD383305 📋> #spaceword
+TDD192620 📋> ␚
+TDD-575805 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2025-12-31 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 97/213 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TDD1055 result: "\u2728 Spaceword.org Daily 2025-12-31 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 97/213 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD4949595 [prior:2160]> /store
