@@ -1,0 +1,81 @@
+T691.7251483529981 now: 2025-12-31T10:03:33EST
+TD49 site: m-w.com/games/quordle/#/
+TDD-24 wordlist: nwl2023.txt
+TDD-22 num_words: 4
+TDD15223294  ...
+TDD-12791043 > * 1
+TDD12888024 ? 1
+TDD-15320115 questioning: aloes
+TDD10247453 Classic #1 _____? Ynnnn
+TDD-10247440 attempt: 0 ALOES Y n n n n
+TDD2224167 Classic #2 _____? nMnMn
+TDD-2223945 attempt: 1 ALOES n m n m n
+TDD2430638 Classic #3 _____? nMnYM
+TDD-2430771 attempt: 2 ALOES n m n Y m
+TDD1919648 Classic #4 _____? nYnnn
+TDD-1919649 attempt: 3 ALOES n Y n n n
+TDD13191298 > * 2
+TDD-11287638 ? 1
+TDD-1903710 questioning: field
+TDD3407509 Classic #1 A____ -ELOS? nMnnM
+TDD-3407468 attempt: 0 FIELD n m n n m
+TDD1759679 Classic #2 _____ ~EL -AOS? nYYYY
+TDD-1759685 attempt: 1 FIELD n Y Y Y Y
+TDD2391337 Classic #3 ___E_ ~LS -AO? nnYMn
+TDD-2391418 attempt: 2 FIELD n n Y m n
+TDD2055652 Classic #4 _L___ -AEOS? YMnMn
+TDD-2055673 attempt: 3 FIELD Y m n m n
+TDD3031730 > * 3
+TDD1768126 ? 1
+TDD-4799858 questioning: steel
+TDD5631634 Classic #1 A____ ~DI -EFLOS? nnnnn
+TDD-5631590 attempt: 0 STEEL n n n n n
+TDD2264195 Classic #2 _IELD -AFOS? nnYnM
+TDD-2264121 attempt: 1 STEEL n n Y n m
+TDD1663193 Classic #3 __EE_ ~LS -ADFIO? YYYYY
+TDD-1663309 attempt: 2 STEEL Y Y Y Y Y
+TDD1751487 Classic #4 FL___ ~I -ADEOS? nnnnM
+TDD-1751399 attempt: 3 STEEL n n n n m
+TDD2423474 > * 4
+TDD376182 ? ␚
+TDD-2799826 <EOF>
+TDD1855956 > * 1
+TDD616085 ? ␚
+TDD-2472006 <EOF>
+TDD1767873 > * 2
+TDD4887865 ? ␚
+TDD-6655775 <EOF>
+TDD1368088 > * 1
+TDD-128550 ? 2
+TDD-1239459 questioning: admin
+TDD12999902 Classic #1 A____ ~DI -EFLOST? YYYYY
+TDD-12999844 attempt: 0 ADMIN Y Y Y Y Y
+TDD2167690 Classic #2 _IELD -AFOST? nMnMn
+TDD-2167504 attempt: 1 ADMIN n m n m n
+TDD2911020 Classic #4 FL___ ~I -ADEOST? nnnMn
+TDD-2911211 attempt: 3 ADMIN n n n m n
+TDD1535633 > * 4
+TDD-1448695 questioning: flick
+TDD9057907 Classic #2 _IELD -AFMNOST? nMMnn
+TDD-9144867 attempt: 1 FLICK n m m n n
+TDD1231469 Classic #4 FL___ ~I -ADEMNOST? YYYYY
+TDD-1231400 attempt: 3 FLICK Y Y Y Y Y
+TDD1591494 > * 2
+TDD696572 ? 3
+TDD-2288164 questioning: wield
+TDD4223542 Classic #2 _IELD -ACFKMNOST? nYYYY
+TDD-4223443 attempt: 1 WIELD n Y Y Y Y
+TDD1783480 > * 2
+TDD-639962 ? 1
+TDD-1143584 questioning: yield
+TDD3655778 Classic #2 _IELD -ACFKMNOSTW? YYYYY
+TDD-3655738 attempt: 1 YIELD Y Y Y Y Y
+TDD4328175 📋> 🙂 Daily Quordle 1437
+TDD-4328303 📋> 4️⃣7️⃣
+TDD-81 📋> 3️⃣5️⃣
+TDD-4 📋> m-w.com/games/quordle/
+TDD295365 📋> 
+TDD72661 📋> ␚
+TDD-367939 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1437\n4\ufe0f\u20e37\ufe0f\u20e3\n3\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD28 result: "\ud83d\ude42 Daily Quordle 1437\n4\ufe0f\u20e37\ufe0f\u20e3\n3\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD279495 📆 2025-12-31 ? 
