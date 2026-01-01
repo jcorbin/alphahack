@@ -1,0 +1,48 @@
+T6.692148766975151 now: 2026-01-01T08:30:04EST
+TD57 site: alfagok.diginaut.net
+TDD376087 loaded 399701 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1151 words excluded) asof 52a328c4896d23ecde5ef58801c51783cb0716ab
+T99.5954264359898 now: 2026-01-01T08:32:05EST
+TD4308615  ...
+TDD-1844542 [0 : 199833 : 399701] lijm? b
+TDD-2463715 progress: -1 199833 lijm
+TDD1496736 [0 : 99758 : 199833] ex? a
+TDD-1496778 progress: 1 99758 ex
+TDD1453945 [99759 : 149454 : 199833] huis? a
+TDD-1454117 progress: 1 149454 huis
+TDD1535966 [149455 : 174561 : 199833] kind? b
+TDD-1535958 progress: -1 174561 kind
+TDD1303394 [149455 : 162009 : 174561] izabel? a
+TDD-1303380 progress: 1 162009 izabel
+TDD1535602 [162010 : 168278 : 174561] kano? a
+TDD-1535611 progress: 1 168278 kano
+TDD1447680 [168279 : 171305 : 174561] kennis? a
+TDD-1447691 progress: 1 171305 kennis
+TDD2599805 [171306 : 172932 : 174561] kervel? b
+TDD-2599835 progress: -1 172932 kervel
+TDD1735696 [171306 : 171732 : 172932] kerk? b
+TDD-1735669 progress: -1 171732 kerk
+TDD1559410 [171306 : 171519 : 171732] kennisproject? a
+TDD-1559436 progress: 1 171519 kennisproject
+TDD1960627 [171520 : 171611 : 171732] kenteken? a
+TDD-1960584 progress: 1 171611 kenteken
+TDD1535199 [171612 : 171672 : 171732] keper? a
+TDD-1535212 progress: 1 171672 keper
+TDD1479676 [171673 : 171701 : 171732] keramist? a
+TDD-1479683 progress: 1 171701 keramist
+TDD1687780 [171702 : 171716 : 171732] keren? b
+TDD-1687810 progress: -1 171716 keren
+TDD2280012 [171702 : 171710 : 171716] kerel? it
+TDD-2279972 progress: 0 171710 kerel
+TDD-120 [171702 : 171710 : 171716] <Done>.
+TDD3232204 📋> 🧩 Puzzel #425
+TDD-3232117 📋> 🤔 15 gokken
+TDD-96 📋> ⏱️ 23s
+TDD280280 📋> 🔗 alfagok.diginaut.net
+TDD-72916 📋> ␚
+TDD-207198 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #425\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 23s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD367 result: "\ud83e\udde9 Puzzel #425\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 23s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-535 result puzzle: 425
+TDD-8 result guesses: 15
+TDD-2 result time: 23s
+TDD0 result link: alfagok.diginaut.net
+TDD246842 📆 2026-01-01 ? 
