@@ -1206,6 +1206,20 @@ class StoredLog:
     def puzzle_name(self) -> str:
         return ' '.join(self.puzzle_names)
 
+    @staticmethod
+    def slug_split(s: str):
+        m = re.match(r'''(?x)
+        (?P<slug>
+            .*
+            🧩
+            \s+
+            (?P<puzzle_id> [^\s]+ )
+        )
+        \s+
+        (?P<desc> .+ )
+        ''', s)
+        return (str(m[1]), str(m[3])) if m else ('', s)
+
     def slug(self, link: bool = True):
         site = self.site or self.default_site
 
