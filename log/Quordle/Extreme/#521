@@ -1,0 +1,85 @@
+T1878.4443748920166 now: 2026-01-01T09:01:44EST
+TD96 site: m-w.com/games/quordle/#/extreme
+TDD-65 wordlist: nwl2023.txt
+TDD-26 num_words: 4
+TDD8301521  ...
+TDD-7077559 > * 1
+TDD32443 ? 1
+TDD-1256216 questioning: earns
+TDD4199328 Extreme #1 _____? MYnMn
+TDD-4199273 attempt: 0 EARNS m Y n m n
+TDD2951548 Extreme #2 _____? nMYnM
+TDD-2951513 attempt: 1 EARNS n m Y n m
+TDD1895599 Extreme #3 _____? MMMnn
+TDD-1895711 attempt: 2 EARNS m m m n n
+TDD1103830 Extreme #4 _____? nnnnn
+TDD-1103725 attempt: 3 EARNS n n n n n
+TDD1895538 > * 4
+TDD6752046 ? 2
+TDD-8647710 questioning: itchy
+TDD2927852 Extreme #1 _A___ ~EN -RS? nnnMn
+TDD-2927722 attempt: 0 ITCHY n n n m n
+TDD2943465 Extreme #2 __R__ ~AS -EN? nYnnY
+TDD-2943491 attempt: 1 ITCHY n Y n n Y
+TDD1455356 Extreme #3 _____ ~AER -NS? nnnnn
+TDD-1455401 attempt: 2 ITCHY n n n n n
+TDD1935808 Extreme #4 _____ -AENRS? nnMMn
+TDD-1935735 attempt: 3 ITCHY n n m m n
+TDD2335365 > * 1
+TDD-2230986 questioning: haven
+TDD2534933 Extreme #1 _A___ ~EHN -CIRSTY? YYYYY
+TDD-2639348 attempt: 0 HAVEN Y Y Y Y Y
+TDD1295575 Extreme #2 _TR_Y ~AS -CEHIN? nMnnn
+TDD-1295640 attempt: 1 HAVEN n m n n n
+TDD1463565 Extreme #3 _____ ~AER -CHINSTY? nMnMn
+TDD-1463502 attempt: 2 HAVEN n m n m n
+TDD1559674 Extreme #4 _____ ~CH -AEINRSTY? Mnnnn
+TDD-1559739 attempt: 3 HAVEN m n n n n
+TDD1247494 > * 2
+TDD-1145474 questioning: stray
+TDD2731502 Extreme #2 _TR_Y ~AS -CEHINV? YYYYY
+TDD-2833515 attempt: 1 STRAY Y Y Y Y Y
+TDD2439755 Extreme #3 _____ ~AER -CHINSTVY? nnMMn
+TDD-2439659 attempt: 2 STRAY n n m m n
+TDD1319063 Extreme #4 _____ ~CH -AEINRSTVY? nnnnn
+TDD-1319094 attempt: 3 STRAY n n n n n
+TDD1871568 > * 3
+TDD-71463 ? 2
+TDD-1800107 questioning: realm
+TDD3983520 Extreme #3 _____ ~AER -CHINSTVY? MMYMn
+TDD-3983512 attempt: 2 REALM m m Y m n
+TDD1487506 Extreme #4 _____ ~CH -AEINRSTVY? nnnnn
+TDD-1487598 attempt: 3 REALM n n n n n
+TDD1295419 > * 3
+TDD1584800 ? 1
+TDD-2880175 questioning: flare
+TDD2631300 Extreme #3 __A__ ~ELR -CHIMNSTVY? nYYYY
+TDD-2631261 attempt: 2 FLARE n Y Y Y Y
+TDD2143802 Extreme #4 _____ ~CH -AEILMNRSTVY? nnnnn
+TDD-2143809 attempt: 3 FLARE n n n n n
+TDD6199577 > * 4
+TDD-3760035 ? 1
+TDD-2439584 questioning: cough
+T15.771203590993537 now: 2026-01-01T09:04:03EST
+TD71 questioning: cough
+TDD3548979 Extreme #3 _LARE -CFHIMNSTVY? nnnnn
+TDD-3548857 attempt: 2 COUGH n n n n n
+TDD2791431 Extreme #4 _____ ~CH -AEFILMNRSTVY? MYnnY
+TDD-2791443 attempt: 3 COUGH m Y n n Y
+TDD2703798 > * 3
+TDD-2612563 questioning: blare
+TDD2761259 Extreme #3 _LARE -CFGHIMNOSTUVY? YYYYY
+TDD-2852426 attempt: 2 BLARE Y Y Y Y Y
+TDD6839838 Extreme #4 _O__H ~C -AEFGILMNRSTUVY? nnnnn
+TDD-6839896 attempt: 3 BLARE n n n n n
+TDD3839282 > /res
+TDD-3135056 📋> 🥵 Daily Extreme 521
+TDD-704306 📋> 3️⃣4️⃣
+TDD-93 📋> 8️⃣🟥
+TDD-5 📋> m-w.com/games/quordle/
+TDD303203 📋> 
+TDD768914 📋> ␚
+TDD-1071992 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83e\udd75 Daily Extreme 521\n3\ufe0f\u20e34\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TDD1180 result: "\ud83e\udd75 Daily Extreme 521\n3\ufe0f\u20e34\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TDD869462 > /store
+TDD425566 📆 2026-01-01 ? 
