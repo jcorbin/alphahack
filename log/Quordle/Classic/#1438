@@ -1,0 +1,75 @@
+T583.2361107089964 now: 2026-01-01T08:40:09EST
+TD51 site: m-w.com/games/quordle/#/
+TDD-22 wordlist: nwl2023.txt
+TDD-24 num_words: 4
+TDD6070714  ...
+TDD-4686753 > * 1
+TDD-319976 ? 1
+TDD-1063796 questioning: snare
+TDD3471701 Classic #1 _____? nYMnY
+TDD-3471727 attempt: 0 SNARE n Y m n Y
+TDD2951939 Classic #2 _____? MnMMY
+TDD-2951844 attempt: 1 SNARE m n m m Y
+TDD1887231 Classic #3 _____? nMnnn
+TDD-1887315 attempt: 2 SNARE n m n n n
+TDD1263931 Classic #4 _____? nnMnn
+TDD-1263853 attempt: 3 SNARE n n m n n
+TDD2831303 > * 4
+TDD680731 ? 7
+TDD-3512088 questioning: bloat
+TDD3567720 Classic #1 _N__E ~A -RS? nnYMn
+TDD-3567671 attempt: 0 BLOAT n n Y m n
+TDD1951175 Classic #2 ____E ~ARS -N? nnYMn
+TDD-1951172 attempt: 1 BLOAT n n Y m n
+TDD1447512 Classic #3 _____ ~N -AERS? nnnnn
+TDD-1447513 attempt: 2 BLOAT n n n n n
+TDD1303865 Classic #4 _____ ~A -ENRS? nnnMn
+TDD-1303811 attempt: 3 BLOAT n n n m n
+TDD1735224 > * 4
+TDD1712300 ? ␚
+TDD-3447762 <EOF>
+TDD1183887 > * 1
+TDD-1092938 questioning: anode
+TDD3082170 Classic #1 _NO_E ~A -BLRST? YYYYY
+TDD-3172997 attempt: 0 ANODE Y Y Y Y Y
+TDD1599840 Classic #2 __O_E ~ARS -BLNT? YnYnY
+TDD-1599833 attempt: 1 ANODE Y n Y n Y
+TDD2279816 Classic #3 _____ ~N -ABELORST? nMnnn
+TDD-2279825 attempt: 2 ANODE n m n n n
+TDD1703303 Classic #4 _____ ~A -BELNORST? Mnnnn
+TDD-1703295 attempt: 3 ANODE m n n n n
+TDD1199204 > * 2
+TDD-1105405 questioning: arose
+TDD3868586 Classic #2 A_O_E ~RS -BDLNT? YYYYY
+TDD-3962349 attempt: 1 AROSE Y Y Y Y Y
+TDD1655565 Classic #3 _____ ~N -ABDELORST? nnnnn
+TDD-1655559 attempt: 2 AROSE n n n n n
+TDD1951124 Classic #4 _____ ~A -BDELNORST? Mnnnn
+TDD-1951191 attempt: 3 AROSE m n n n n
+TDD2016111 > * 4
+TDD-704564 ? 1
+TDD-1311510 questioning: campy
+TDD4151322 Classic #3 _____ ~N -ABDELORST? nnnnM
+TDD-4151344 attempt: 2 CAMPY n n n n m
+TDD1511816 Classic #4 _____ ~A -BDELNORST? nYYnn
+TDD-1511821 attempt: 3 CAMPY n Y Y n n
+TDD1375438 > * 3
+TDD1096314 ? 1
+TDD-2471764 questioning: vying
+TDD2960249 Classic #3 _____ ~NY -ABCDELMOPRST? YYYYY
+TDD-2960252 attempt: 2 VYING Y Y Y Y Y
+TDD2143359 Classic #4 _AM__ -BCDELNOPRSTY? nnnnM
+TDD-2143278 attempt: 3 VYING n n n n m
+TDD1447287 > * 4
+TDD-1338076 questioning: gamma
+TDD3333333 Classic #4 _AM__ ~G -BCDEILNOPRSTVY? YYYYY
+TDD-3442604 attempt: 3 GAMMA Y Y Y Y Y
+TDD4624672 📋> 🙂 Daily Quordle 1438
+TDD-4624761 📋> 3️⃣4️⃣
+TDD-87 📋> 6️⃣7️⃣
+TDD-6 📋> m-w.com/games/quordle/
+TDD294783 📋> 
+TDD-78524 📋> ␚
+TDD-216174 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1438\n3\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD694 result: "\ud83d\ude42 Daily Quordle 1438\n3\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD318949 📆 2026-01-01 ? 
