@@ -1,0 +1,195 @@
+T0.8463697819970548 now: 2026-01-01T09:06:26EST
+TD56 site: britannica.com/games/octordle/daily-rescue
+TDD-24 wordlist: nwl2023.txt
+TDD-27 num_words: 8
+TDD5397005  ...
+TDD4411638 > tried prong
+TDD-9808367 questioning: prong
+TDD1751776 Rescue #1 _____? nnnMM
+TDD-1751438 attempt: 0 PRONG n n n m m
+TDD1542178 Rescue #2 _____? nnnMn
+TDD-1542600 attempt: 1 PRONG n n n m n
+TDD1687678 Rescue #3 _____? nMnMn
+TDD-1687694 attempt: 2 PRONG n m n m n
+TDD1527554 Rescue #4 _____? nnnnn
+TDD-1527553 attempt: 3 PRONG n n n n n
+TDD3791736 Rescue #5 _____? nnnnn
+TDD-3791681 attempt: 4 PRONG n n n n n
+TDD1119657 Rescue #6 _____? nMnnn
+TDD-1119642 attempt: 5 PRONG n m n n n
+TDD2199674 Rescue #7 _____? nYnMn
+TDD-2199694 attempt: 6 PRONG n Y n m n
+TDD1400099 Rescue #8 _____? nnnnM
+TDD-1400076 attempt: 7 PRONG n n n n m
+TDD5831732 > tried larva
+TDD-5831784 questioning: larva
+TDD5838705 Rescue #1 _____ ~GN -OPR? nnnMn
+TDD-5838725 attempt: 0 LARVA n n n m n
+TDD1487435 Rescue #2 _____ ~N -GOPR? nnnnn
+TDD-1487442 attempt: 1 LARVA n n n n n
+TDD1719661 Rescue #3 _____ ~NR -GOP? MMMnn
+TDD-1719657 attempt: 2 LARVA m m m n n
+TDD1519863 Rescue #4 _____ -GNOPR? MMnnn
+TDD-1519799 attempt: 3 LARVA m m n n n
+TDD3383377 Rescue #5 _____ -GNOPR? nnnnn
+TDD-3383385 attempt: 4 LARVA n n n n n
+TDD1863797 Rescue #6 _____ ~R -GNOP? nMYnn
+TDD-1863762 attempt: 5 LARVA n m Y n n
+TDD1631663 Rescue #7 _R___ ~N -GOP? nMMnn
+TDD-1631666 attempt: 6 LARVA n m m n n
+TDD1647632 Rescue #8 _____ ~G -NOPR? Mnnnn
+TDD-1647652 attempt: 7 LARVA m n n n n
+TDD5807049 > tried spoil'
+TDD-1295041 > tried spoil
+TDD-4512103 questioning: spoil
+TDD4144293 Rescue #1 _____ ~GNV -ALOPR? nnnMn
+TDD-4144195 attempt: 0 SPOIL n n n m n
+TDD1367021 Rescue #2 _____ ~N -AGLOPRV? nnnYn
+TDD-1367102 attempt: 1 SPOIL n n n Y n
+TDD1743809 Rescue #3 _____ ~ALNR -GOPV A:1? nnnnY
+TDD-1743783 attempt: 2 SPOIL n n n n Y
+TDD1855011 Rescue #4 _____ ~AL -GNOPRV A:1? YnnnY
+TDD-1854963 attempt: 3 SPOIL Y n n n Y
+TDD3912001 Rescue #5 _____ -AGLNOPRV? nnnMn
+TDD-3911980 attempt: 4 SPOIL n n n m n
+TDD1767483 Rescue #6 __R__ ~A -GLNOPV A:1? Ynnnn
+TDD-1767563 attempt: 5 SPOIL Y n n n n
+TDD1712317 Rescue #7 _R___ ~AN -GLOPV A:1? nnnYn
+TDD-1712259 attempt: 6 SPOIL n n n Y n
+TDD1447024 Rescue #8 _____ ~GL -ANOPRV? nnnnM
+TDD-1446993 attempt: 7 SPOIL n n n n m
+TDD3527189 > tried audit
+TDD-3527273 questioning: audit
+TDD4176810 Rescue #1 _____ ~GINV -ALOPRS? nnnMn
+TDD-4176792 attempt: 0 AUDIT n n n m n
+TDD1632269 Rescue #2 ___I_ ~N -AGLOPRSV? nnMYn
+TDD-1632014 attempt: 1 AUDIT n n m Y n
+TDD1589807 Rescue #3 ____L ~ANR -GIOPSV A:1? Mnnnn
+TDD-1590020 attempt: 2 AUDIT m n n n n
+TDD2310988 Rescue #4 S___L ~A -GINOPRV A:1? Mnnnn
+TDD-2311070 attempt: 3 AUDIT m n n n n
+TDD5511484 Rescue #5 _____ ~I -AGLNOPRSV? nnnMn
+TDD-5511460 attempt: 4 AUDIT n n n m n
+TDD1424307 Rescue #6 S_R__ ~A -GILNOPV A:1? MnnnM
+TDD-1424316 attempt: 5 AUDIT m n n n m
+TDD2479547 Rescue #7 _R_I_ ~AN -GLOPSV A:1? MnMYn
+TDD-2479491 attempt: 6 AUDIT m n m Y n
+TDD1567695 Rescue #8 _____ ~GL -AINOPRSV? nYnnn
+TDD-1567698 attempt: 7 AUDIT n Y n n n
+TDD3007684 > * 1
+TDD-2870959 questioning: given
+TDD4917513 Rescue #1 _____ ~GINV -ADLOPRSTU? YYYYY
+TDD-5054221 attempt: 0 GIVEN Y Y Y Y Y
+TDD1623679 Rescue #2 ___I_ ~DN -AGLOPRSTUV? nMnMM
+TDD-1623709 attempt: 1 GIVEN n m n m m
+TDD1447927 Rescue #3 ____L ~ANR -DGIOPSTUV A:1? nnnMM
+TDD-1447971 attempt: 2 GIVEN n n n m m
+TDD1175098 Rescue #4 S___L ~A -DGINOPRTUV A:1? nnnnn
+TDD-1175045 attempt: 3 GIVEN n n n n n
+TDD3375826 Rescue #5 _____ ~I -ADGLNOPRSTUV? nMnnn
+TDD-3375840 attempt: 4 GIVEN n m n n n
+TDD1031549 Rescue #6 S_R__ ~AT -DGILNOPUV A:1? nnnnn
+TDD-1031589 attempt: 5 GIVEN n n n n n
+TDD1623714 Rescue #7 _R_I_ ~ADN -GLOPSTUV A:1? nMnnY'
+TDD-1623653 attempt: 6 GIVEN n m n n Y
+TDD4055654 Rescue #8 _U___ ~GL -ADINOPRSTV? Ynnnn
+TDD-4055715 attempt: 7 GIVEN Y n n n n
+TDD1879662 > * 2
+TDD-1769884 questioning: denim
+TDD4683873 Rescue #2 ___I_ ~DEN -AGLOPRSTUV? YYYYY
+TDD-4793594 attempt: 1 DENIM Y Y Y Y Y
+TDD3519691 Rescue #3 ____L ~AENR -DGIOPSTUV A:1? nYYnn
+TDD-3519750 attempt: 2 DENIM n Y Y n n
+TDD1128017 Rescue #4 S___L ~A -DEGINOPRTUV A:1? nnnnn
+TDD-1127998 attempt: 3 DENIM n n n n n
+TDD4223364 Rescue #5 _____ ~I -ADEGLNOPRSTUV? nnnMn
+TDD-4223386 attempt: 4 DENIM n n n m n
+TDD1415638 Rescue #6 S_R__ ~AT -DEGILNOPUV A:1? nnnnn
+TDD-1415587 attempt: 5 DENIM n n n n n
+TDD2023762 Rescue #7 _R_IN ~AD -EGLOPSTUV A:1? YnMYn
+TDD-2023739 attempt: 6 DENIM Y n m Y n
+TDD1319055 Rescue #8 GU___ ~L -ADEINOPRSTV? nnnnn
+TDD-1319132 attempt: 7 DENIM n n n n n
+TDD1535658 > * 3
+TDD-1441820 questioning: renal
+TDD4460512 Rescue #3 _EN_L ~AR -DGIMOPSTUV A:1? YYYYY
+TDD-4554322 attempt: 2 RENAL Y Y Y Y Y
+TDD2903336 Rescue #4 S___L ~A -DEGIMNOPRTUV A:1? nnnMY
+TDD-2903297 attempt: 3 RENAL n n n m Y
+TDD3648153 Rescue #5 _____ ~I -ADEGLMNOPRSTUV? nnnnn
+TDD-3648152 attempt: 4 RENAL n n n n n
+TDD3590593 Rescue #6 S_R__ ~AT -DEGILMNOPUV A:1? MnnYn
+TDD-3590658 attempt: 5 RENAL m n n Y n
+TDD3775952 Rescue #7 DR_IN ~A -EGLMOPSTUV A:1? MnMMn
+TDD-3775892 attempt: 6 RENAL m n m m n
+TDD1647760 Rescue #8 GU___ ~L -ADEIMNOPRSTV? nnnnM
+TDD-1647738 attempt: 7 RENAL n n n n m
+TDD2823449 > * 7
+TDD-2734903 questioning: drain
+TDD7286176 Rescue #4 S___L ~A -DEGIMNOPRTUV A:1? nnYnn
+TDD-7374723 attempt: 3 DRAIN n n Y n n
+TDD3688074 Rescue #5 _____ ~I -ADEGLMNOPRSTUV? nnnMn
+TDD-3688077 attempt: 4 DRAIN n n n m n
+TDD1751369 Rescue #6 S_RA_ ~T -DEGILMNOPUV? nMMnn
+TDD-1751415 attempt: 5 DRAIN n m m n n
+TDD1367970 Rescue #7 DR_IN ~A -EGLMOPSTUV A:1? YYYYY
+TDD-1368006 attempt: 6 DRAIN Y Y Y Y Y
+TDD1727046 Rescue #8 GU___ ~L -ADEIMNOPRSTV? nnnnn
+TDD-1726971 attempt: 7 DRAIN n n n n n
+TDD2839568 > * 6
+TDD368046 ? 2
+TDD-3207682 questioning: straw
+TDD8832111 Rescue #4 S_A_L -DEGIMNOPRTUV? YnnMn
+TDD-8832078 attempt: 3 STRAW Y n n m n
+TDD3823426 Rescue #5 _____ ~I -ADEGLMNOPRSTUV? nnnnM
+TDD-3823387 attempt: 4 STRAW n n n n m
+TDD1983455 Rescue #6 S_RA_ ~T -DEGILMNOPUV? YYYYn
+TDD-1983518 attempt: 5 STRAW Y Y Y Y n
+TDD2951492 Rescue #8 GU___ ~L -ADEIMNOPRSTV? nnnnn
+TDD-2951499 attempt: 7 STRAW n n n n n
+TDD5288516 > * 6
+TDD-5198338 questioning: stray
+TDD7186717 Rescue #4 S_A_L -DEGIMNOPRTUVW? YnnMn
+TDD-7276838 attempt: 3 STRAY Y n n m n
+TDD4191845 Rescue #5 _____ ~IW -ADEGLMNOPRSTUV? nnnnn
+TDD-4191908 attempt: 4 STRAY n n n n n
+TDD2831315 Rescue #6 STRA_ -DEGILMNOPUVW? YYYYY
+TDD-2831316 attempt: 5 STRAY Y Y Y Y Y
+TDD4224783 Rescue #8 GU___ ~L -ADEIMNOPRSTVW? nnnnY
+TDD-4224764 attempt: 7 STRAY n n n n Y
+TDD1990709 > * 8
+TDD177523 ? ␚
+TDD-2168320 <EOF>
+TDD1879786 > * 4
+TDD1287943 ? 1
+TDD-3167627 questioning: shall
+TDD5287580 Rescue #4 S_A_L -DEGIMNOPRTUVWY? YYYYY
+TDD-5287619 attempt: 3 SHALL Y Y Y Y Y
+TDD3408084 Rescue #5 _____ ~IW -ADEGLMNOPRSTUVY? nYnnn
+TDD-3408061 attempt: 4 SHALL n Y n n n
+TDD4407393 Rescue #8 GU__Y ~L -ADEIMNOPRSTVW? nnnYM
+TDD-4407338 attempt: 7 SHALL n n n Y m
+TDD1335479 > * 8
+TDD-1246375 questioning: gully
+TDD4029964 Rescue #5 _H___ ~IW -ADEGLMNOPRSTUVY? nnnnn
+TDD-4119080 attempt: 4 GULLY n n n n n
+TDD1335229 Rescue #8 GU_LY ~L -ADEHIMNOPRSTVW? YYYYY
+TDD-1335231 attempt: 7 GULLY Y Y Y Y Y
+TDD1647255 > * 5
+TDD912906 ? 2
+TDD-2560197 questioning: which
+TDD8831366 Rescue #5 _H___ ~IW -ADEGLMNOPRSTUVY? YYYnn
+TDD-8831321 attempt: 4 WHICH Y Y Y n n
+TDD2183566 > /res
+TDD1984843 📋> Daily Rescue Octordle #1438
+TDD-4168555 📋> 5️⃣6️⃣
+TDD-80 📋> 7️⃣🕚
+TDD-3 📋> 🟥🔟
+TDD0 📋> 8️⃣🕛
+TDD335015 📋> Score: 7
+TDD-118356 📋> ␚
+TDD-216538 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1438\n5\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udd5a\n\ud83d\udfe5\ud83d\udd1f\n8\ufe0f\u20e3\ud83d\udd5b\nScore: 7"}
+TDD969 result: "Daily Rescue Octordle #1438\n5\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udd5a\n\ud83d\udfe5\ud83d\udd1f\n8\ufe0f\u20e3\ud83d\udd5b\nScore: 7"
+TDD333791 > 
+TDD1760899 > /store
+TDD-736118 📆 2026-01-01 ? 
