@@ -1,0 +1,143 @@
+T522.4666530889808 now: 2026-01-01T09:15:08EST
+TD53 site: britannica.com/games/octordle/extreme
+TDD-28 wordlist: nwl2023.txt
+TDD-21 num_words: 8
+TDD2686385  ...
+TDD-1398136 > * 1
+TDD551625 ? 2
+TDD-1839679 questioning: gears
+TDD3071643 Extreme #1 _____? nnMnn
+TDD-3071669 attempt: 0 GEARS n n m n n
+TDD1360846 Extreme #2 _____? nnnnM
+TDD-1360783 attempt: 1 GEARS n n n n m
+TDD2294658 Extreme #3 _____? nnnMM
+TDD-2294713 attempt: 2 GEARS n n n m m
+TDD1303884 Extreme #4 _____? nnMMn
+TDD-1303773 attempt: 3 GEARS n n m m n
+TDD4455133 Extreme #5 _____? nMnnn
+TDD-4455184 attempt: 4 GEARS n m n n n
+TDD1919582 Extreme #6 _____? nnnnM
+TDD-1919584 attempt: 5 GEARS n n n n m
+TDD1343318 Extreme #7 _____? nnnnn
+TDD-1343324 attempt: 6 GEARS n n n n n
+TDD1200055 Extreme #8 _____? nnYnn
+TDD-1200001 attempt: 7 GEARS n n Y n n
+TDD4007512 > * 7
+TDD-279584 ? 5
+TDD-3728011 questioning: pilot
+TDD5607695 Extreme #1 _____ ~A -EGRS? nnnYn
+TDD-5607702 attempt: 0 PILOT n n n Y n
+TDD1879109 Extreme #2 _____ ~S -AEGR? MYnnn
+TDD-1879052 attempt: 1 PILOT m Y n n n
+TDD1719512 Extreme #3 _____ ~RS -AEG? nYnnn
+TDD-1719516 attempt: 2 PILOT n Y n n n
+TDD2319788 Extreme #4 _____ ~AR -EGS? YnYMn
+TDD-2319789 attempt: 3 PILOT Y n Y m n
+TDD6815089 Extreme #5 _____ ~E -AGRS? nnnMn
+TDD-6815042 attempt: 4 PILOT n n n m n
+TDD2231835 Extreme #6 _____ ~S -AEGR? nYnnM
+TDD-2231948 attempt: 5 PILOT n Y n n m
+TDD1431529 Extreme #7 _____ -AEGRS? YYnnn
+TDD-1431475 attempt: 6 PILOT Y Y n n n
+TDD3063862 Extreme #8 __A__ -EGRS? YMMnY
+TDD-3063853 attempt: 7 PILOT Y m m n Y
+TDD2327050 > * 8
+TDD-2238359 questioning: plait
+TDD14038302 Extreme #1 ___O_ ~A -EGILPRST? nnMnn
+TDD-14127045 attempt: 0 PLAIT n n m n n
+TDD1623715 Extreme #2 _I___ ~PS -AEGLORT? MnnMn
+TDD-1623693 attempt: 1 PLAIT m n n m n
+TDD1463832 Extreme #3 _I___ ~RS -AEGLOPT? nnnMn
+TDD-1463803 attempt: 2 PLAIT n n n m n
+TDD1535077 Extreme #4 P_L__ ~AOR -EGIST? YMMnn
+TDD-1535140 attempt: 3 PLAIT Y m m n n
+TDD4071914 Extreme #5 _____ ~EO -AGILPRST? nnnnn
+TDD-4071916 attempt: 4 PLAIT n n n n n
+TDD1375776 Extreme #6 _I___ ~ST -AEGLOPR? nnnMM
+TDD-1375709 attempt: 5 PLAIT n n n m m
+TDD2559397 Extreme #7 PI___ -AEGLORST? YnnMn
+TDD-2559399 attempt: 6 PLAIT Y n n m n
+TDD1375638 Extreme #8 P_A_T ~IL -EGORS? YYYYY
+TDD-1375652 attempt: 7 PLAIT Y Y Y Y Y
+TDD2447544 > * 4
+TDD-2358595 questioning: polar
+TDD6878170 Extreme #1 ___O_ ~A -EGILPRST? nMnMn
+TDD-6967119 attempt: 0 POLAR n m n m n
+TDD1726577 Extreme #2 _I___ ~PS -AEGLORT? Mnnnn
+TDD-1726646 attempt: 1 POLAR m n n n n
+TDD1663730 Extreme #3 _I___ ~RS -AEGLOPT? nnnnM
+TDD-1663677 attempt: 2 POLAR n n n n m
+TDD1288157 Extreme #4 P_L__ ~AOR -EGIST? YYYYY
+TDD-1288142 attempt: 3 POLAR Y Y Y Y Y
+TDD3839231 Extreme #5 _____ ~EO -AGILPRST? nYnnn
+TDD-3839211 attempt: 4 POLAR n Y n n n
+TDD1560241 Extreme #6 _I___ ~ST -AEGLOPR? nnnnn
+TDD-1560195 attempt: 5 POLAR n n n n n
+TDD2014919 Extreme #7 PI___ -AEGLORST? Ynnnn
+TDD-2014981 attempt: 6 POLAR Y n n n n
+TDD1784045 > * 2
+TDD-1670768 questioning: wispy
+TDD4925399 Extreme #1 ___O_ ~A -EGILPRST? nnnnY
+TDD-5038726 attempt: 0 WISPY n n n n Y
+TDD1246616 Extreme #2 _I___ ~PS -AEGLORT? YYYYY
+TDD-1246565 attempt: 1 WISPY Y Y Y Y Y
+TDD1879589 Extreme #3 _I___ ~RS -AEGLOPT? nYYnY
+TDD-1879578 attempt: 2 WISPY n Y Y n Y
+TDD3255734 Extreme #5 _O___ ~E -AGILPRST? nnnnn
+TDD-3255799 attempt: 4 WISPY n n n n n
+TDD2015984 Extreme #6 _I___ ~ST -AEGLOPR? nYYnY
+TDD-2015908 attempt: 5 WISPY n Y Y n Y
+TDD2775558 Extreme #7 PI___ -AEGLORST? nYnMn
+TDD-2775629 attempt: 6 WISPY n Y n m n
+TDD2631797 > * 1
+TDD-2535560 questioning: annoy
+TDD3854830 Extreme #1 ___OY ~A -EGILPRSTW? YYYYY
+TDD-3951058 attempt: 0 ANNOY Y Y Y Y Y
+TDD2231238 Extreme #3 _IS_Y ~R -AEGLOPTW? nnnnY
+TDD-2231182 attempt: 2 ANNOY n n n n Y
+TDD3184948 Extreme #5 _O___ ~E -AGILPRSTWY? nnnMn
+TDD-3184951 attempt: 4 ANNOY n n n m n
+TDD3054143 Extreme #6 _IS_Y ~T -AEGLOPRW? nnnnY
+TDD-3054160 attempt: 5 ANNOY n n n n Y
+TDD5016284 Extreme #7 PI___ -AEGLORSTWY? nnYnn
+TDD-5016290 attempt: 6 ANNOY n n Y n n
+TDD2063725 > * 3
+TDD-1974170 questioning: risky
+TDD5795535 Extreme #3 _IS_Y ~R -AEGLNOPTW? YYYYY
+TDD-5885119 attempt: 2 RISKY Y Y Y Y Y
+TDD2696622 Extreme #5 _O___ ~E -AGILNPRSTWY? nnnnn
+TDD-2696575 attempt: 4 RISKY n n n n n
+TDD3262548 Extreme #6 _IS_Y ~T -AEGLNOPRW? nYYnY
+TDD-3262619 attempt: 5 RISKY n Y Y n Y
+TDD4335970 Extreme #7 PIN__ -AEGLORSTWY? nYnnn
+TDD-4335906 attempt: 6 RISKY n Y n n n
+TDD1559651 > * 6
+TDD-1468288 questioning: misty
+TDD4481343 Extreme #5 _O___ ~E -AGIKLNPRSTWY? nnnnn
+TDD-4572700 attempt: 4 MISTY n n n n n
+TDD1391087 Extreme #6 _IS_Y ~T -AEGKLNOPRW? YYYYY
+TDD-1391096 attempt: 5 MISTY Y Y Y Y Y
+TDD2839930 Extreme #7 PIN__ -AEGKLORSTWY? nYnnn
+TDD-2839929 attempt: 6 MISTY n Y n n n
+TDD1559163 > * 7
+TDD1040657 ? 1
+TDD-2599898 questioning: pinch
+TDD4448502 Extreme #5 _O___ ~E -AGIKLMNPRSTWY? nnnMn
+TDD-4448414 attempt: 4 PINCH n n n m n
+TDD2374813 Extreme #7 PIN__ -AEGKLMORSTWY? YYYYY
+TDD-2374838 attempt: 6 PINCH Y Y Y Y Y
+TDD1647704 > * 5
+TDD4743799 ? 1
+TDD-6391532 questioning: codex
+TDD5311543 Extreme #5 _O___ ~CE -AGHIKLMNPRSTWY? YYYYY
+TDD-5311421 attempt: 4 CODEX Y Y Y Y Y
+TDD2848405 📋> Daily Extreme Octordle #1438
+TDD-2848607 📋> 6️⃣5️⃣
+TDD-91 📋> 7️⃣4️⃣
+TDD-4 📋> 🔟8️⃣
+TDD-2 📋> 9️⃣3️⃣
+TDD279131 📋> Score: 52
+TDD-47321 📋> ␚
+TDD-231707 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Extreme Octordle #1438\n6\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\n\ud83d\udd1f8\ufe0f\u20e3\n9\ufe0f\u20e33\ufe0f\u20e3\nScore: 52"}
+TDD22 result: "Daily Extreme Octordle #1438\n6\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\n\ud83d\udd1f8\ufe0f\u20e3\n9\ufe0f\u20e33\ufe0f\u20e3\nScore: 52"
+TDD264069 📆 2026-01-01 ? 
