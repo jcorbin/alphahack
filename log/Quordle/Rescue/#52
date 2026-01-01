@@ -1,0 +1,74 @@
+T1607.4323095979926 now: 2026-01-01T08:57:13EST
+TD114 site: m-w.com/games/quordle/#/rescue
+TDD-68 wordlist: nwl2023.txt
+TDD-37 num_words: 4
+TDD5894344  ...
+TDD-2886516 > nMMnn
+TDD4544429 > tried ladle
+TDD-7552090 questioning: ladle
+TDD1967587 Rescue #1 _____? nMMnn
+TDD-1967551 attempt: 0 LADLE n m m n n
+TDD2400158 Rescue #2 _____? Mnnnn
+TDD-2400079 attempt: 1 LADLE m n n n n
+TDD1503066 Rescue #3 _____? nnMnn
+TDD-1503102 attempt: 2 LADLE n n m n n
+TDD1479735 Rescue #4 _____? nnnnn
+TDD-1479725 attempt: 3 LADLE n n n n n
+TDD2255116 > tried major
+TDD-2255192 questioning: major
+TDD1223611 Rescue #1 _____ ~AD -EL? MMnnn
+TDD-1223554 attempt: 0 MAJOR m m n n n
+TDD1407722 Rescue #2 _____ ~L -ADE L:1? nnnnM
+TDD-1407715 attempt: 1 MAJOR n n n n m
+TDD1391401 Rescue #3 _____ ~D -AEL? nnnnn
+TDD-1391477 attempt: 2 MAJOR n n n n n
+TDD1639868 Rescue #4 _____ -ADEL? MnnMn
+TDD-1639831 attempt: 3 MAJOR m n n m n
+TDD2103313 > * 3
+TDD-727759 ? 1
+TDD-1375502 questioning: ducts
+TDD6119989 Rescue #1 _____ ~ADM -EJLOR? MnnMn
+TDD-6119994 attempt: 0 DUCTS m n n m n
+TDD1959449 Rescue #2 _____ ~LR -ADEJMO L:1? nMnMn
+TDD-1959527 attempt: 1 DUCTS n m n m n
+TDD2039695 Rescue #3 _____ ~D -AEJLMOR? Mnnnn
+TDD-2039694 attempt: 2 DUCTS m n n n n
+TDD1559735 Rescue #4 _____ ~MO -ADEJLR? nnnMM
+TDD-1559726 attempt: 3 DUCTS n n n m m
+TDD2207533 > * 4
+TDD-2053656 questioning: stomp
+TDD4395963 Rescue #1 _____ ~ADMT -CEJLORSU? nMnMn
+TDD-4549827 attempt: 0 STOMP n m n m n
+TDD1327487 Rescue #2 _____ ~LRTU -ACDEJMOS L:1? nMnnn
+TDD-1327445 attempt: 1 STOMP n m n n n
+TDD1607799 Rescue #3 _____ ~D -ACEJLMORSTU? nnnnn
+TDD-1607779 attempt: 2 STOMP n n n n n
+TDD1695526 Rescue #4 _____ ~MOST -ACDEJLRU? YYYYY
+TDD-1695558 attempt: 3 STOMP Y Y Y Y Y
+TDD1343521 > * 1
+TDD-1227416 questioning: admit
+TDD5071308 Rescue #1 _____ ~ADMT -CEJLOPRSU? YYYYY
+TDD-5187462 attempt: 0 ADMIT Y Y Y Y Y
+TDD3807438 Rescue #2 _____ ~LRTU -ACDEJMOPS L:1? nnnnY
+TDD-3807374 attempt: 1 ADMIT n n n n Y
+TDD2695459 Rescue #3 _____ ~D -ACEJLMOPRSTU? nMnMn
+TDD-2695523 attempt: 2 ADMIT n m n m n
+TDD3216076 > * 2
+TDD-3107059 questioning: blurt
+TDD3869670 Rescue #2 ____T ~LRU -ACDEIJMOPS L:1? YYYYY
+TDD-3978680 attempt: 1 BLURT Y Y Y Y Y
+TDD3399602 Rescue #3 _____ ~DI -ACEJLMOPRSTU? nnnnn
+TDD-3399552 attempt: 2 BLURT n n n n n
+TDD1239525 > * 3
+TDD-1131776 questioning: windy
+TDD3175927 Rescue #3 _____ ~DI -ABCEJLMOPRSTU? YYYYY
+TDD-3283742 attempt: 2 WINDY Y Y Y Y Y
+TDD5664277 📋> Daily Rescue 52
+TDD-5664369 📋> 5️⃣6️⃣
+TDD-75 📋> 7️⃣4️⃣
+TDD-2 📋> m-w.com/games/quordle/
+TDD327556 📋> 
+TDD-143606 📋> ␚
+TDD-183840 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 52\n5\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD41 result: "Daily Rescue 52\n5\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD231520 📆 2026-01-01 ? 
