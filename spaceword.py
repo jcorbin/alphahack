@@ -1133,6 +1133,15 @@ class SpaceWord(StoredLog):
             return True
         return False
 
+    @override
+    def note_status(self, note: str):
+        _, desc = self.slug_split(note)
+        if not desc: return 'todo'
+        head = desc[0]
+        if head == '🏁': return 'done'
+        if head == '🏗': return 'wip'
+        return 'unknown'
+
     @property
     @override
     def report_desc(self) -> str:
