@@ -1,0 +1,46 @@
+T140.52937518400722 now: 2026-01-01T08:32:46EST
+TD48 site: alphaguess.com
+TDD145921 loaded 196537 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (66 words excluded) asof 52a328c4896d23ecde5ef58801c51783cb0716ab
+TDD3163043  ...
+TDD74893 [0 : 98224 : 196537] mach? a
+TDD-3383744 progress: 1 98224 mach
+TDD1487835 [98225 : 147328 : 196537] rho? a
+TDD-1487834 progress: 1 147328 rho
+TDD1367434 [147329 : 171928 : 196537] tag? b
+TDD-1367438 progress: -1 171928 tag
+TDD1248096 [147329 : 159610 : 171928] slug? a
+TDD-1248078 progress: 1 159610 slug
+TDD1223726 [159611 : 165764 : 171928] stint? a
+TDD-1223663 progress: 1 165764 stint
+TDD1231370 [165765 : 168814 : 171928] sulfur? a
+TDD-1231490 progress: 1 168814 sulfur
+TDD1200101 [168815 : 170368 : 171928] sustain? a
+TDD-1200102 progress: 1 170368 sustain
+TDD1079855 [170369 : 171136 : 171928] symbol? a
+TDD-1079820 progress: 1 171136 symbol
+TDD1167100 [171137 : 171519 : 171928] synth? a
+TDD-1167134 progress: 1 171519 synth
+TDD1207609 [171520 : 171650 : 171928] tab? b
+TDD-1207578 progress: -1 171650 tab
+TDD1175742 [171520 : 171581 : 171650] syringe? a
+TDD-1175771 progress: 1 171581 syringe
+TDD1199560 [171582 : 171608 : 171650] system? b
+TDD-1199537 progress: -1 171608 system
+TDD1503811 [171582 : 171595 : 171608] syrup? it
+TDD-1503816 progress: 0 171595 syrup
+TDD-112 [171582 : 171595 : 171608] <Done>.
+TDD2576072 📋> 🧩 Puzzle #891
+TDD-2576025 📋> 
+TDD-64 📋> 🤔 13 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 15s
+TDD-1 📋> 
+TDD327691 📋> 🔗 alphaguess.com
+TDD-87691 📋> ␚
+TDD-239881 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #891\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 15s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-26 result: "\ud83e\udde9 Puzzle #891\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 15s\n\n\ud83d\udd17 alphaguess.com"
+TDD-83 result puzzle: 891
+TDD-10 result guesses: 13
+TDD-1 result time: 15s
+TDD0 result link: alphaguess.com
+TDD215749 📆 2026-01-01 ? 
