@@ -12,7 +12,7 @@ from contextlib import contextmanager, nullcontext
 from dataclasses import dataclass
 from dateutil.parser import parse as _parse_datetime
 from dateutil.tz import gettz, tzlocal, tzoffset
-from typing import Callable, Self, cast, final
+from typing import Callable, Literal, Self, cast, final
 from types import TracebackType
 from warnings import deprecated
 
@@ -1231,6 +1231,9 @@ class StoredLog:
 
         if self.puzzle_id:
             yield f'🧩 {self.puzzle_id}'
+
+    def note_status(self, note: str) -> Literal['todo','wip','done','unknown']:
+        return 'done' if note else 'todo'
 
     def report_header(self, desc: str|None = None) -> str:
         return f'# {" ".join(self.header_slug)} {self.report_desc if desc is None else desc}'
