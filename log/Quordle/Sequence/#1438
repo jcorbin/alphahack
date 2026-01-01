@@ -1,0 +1,121 @@
+T1728.0421457680059 now: 2026-01-01T08:59:14EST
+TD88 site: m-w.com/games/quordle/#/sequence
+TDD-45 wordlist: nwl2023.txt
+TDD-35 num_words: 4
+TDD10686234  ...
+TDD-9118006 > *1 
+TDD-600526 > * 1
+TDD1135937 ? 1
+TDD-2103469 questioning: teals
+TDD3968086 Sequence #1 _____? MYYnM
+TDD-3968074 attempt: 0 TEALS m Y Y n m
+TDD1783576 > * 1q
+TDD1624019 ? 2
+TDD-3407626 questioning: feast
+TDD3576134 Sequence #1 _EA__ ~ST -L? nYYYY
+TDD-3576107 attempt: 0 FEAST n Y Y Y Y
+TDD1167779 > * 1
+TDD-272292 ? 1
+TDD-895515 questioning: beast
+TDD3120385 Sequence #1 _EAST -FL? YYYYY
+TDD-3120359 attempt: 0 BEAST Y Y Y Y Y
+TDD-146 questioning: TEALS
+TDD3407257 Sequence #2 _____? nMYnnn
+TDD-3407050 attempt: 1 TEALS n m Y n n
+TDD-194 questioning: FEAST
+TDD3775586 Sequence #2 __A__ ~E -LST? nMYnnn
+TDD-3775435 attempt: 1 FEAST n m Y n n
+TDD-167 questioning: BEAST
+TDD2191921 Sequence #2 __A__ ~E -FLST? nMYnnn
+TDD-2191765 attempt: 1 BEAST n m Y n n
+TDD1295541 > * 2
+TDD-119360 ? 1
+TDD-1176169 questioning: grape
+TDD4391355 Sequence #2 __A__ ~E -BFLST? YYYnY
+TDD-4391375 attempt: 1 GRAPE Y Y Y n Y
+TDD1303788 > * 2
+TDD3551948 ? 1
+TDD-4855753 questioning: grade
+TDD1943526 Sequence #2 GRA_E -BFLPST? YYYnY
+TDD-1943449 attempt: 1 GRADE Y Y Y n Y
+TDD1415565 > * 2
+TDD720434 ? 1
+TDD-2136041 questioning: grace
+TDD3255696 Sequence #2 GRA_E -BDFLPST? YYYnY
+TDD-3255636 attempt: 1 GRACE Y Y Y n Y
+TDD1255132 > * 2
+TDD888633 ? 2
+TDD-2143849 questioning: grave
+TDD3727855 Sequence #2 GRA_E -BCDFLPST? YYYYY
+TDD-3727822 attempt: 1 GRAVE Y Y Y Y Y
+TDD-167 questioning: TEALS
+TDD2295985 Sequence #3 _____? nnnMn
+TDD-2295851 attempt: 2 TEALS n n n m n
+TDD-144 questioning: FEAST
+TDD1391386 Sequence #3 _____ ~L -AEST? nnnnn
+TDD-1391240 attempt: 2 FEAST n n n n n
+TDD-146 questioning: BEAST
+TDD1640071 Sequence #3 _____ ~L -AEFST? nnnnn
+TDD-1639919 attempt: 2 BEAST n n n n n
+TDD-150 questioning: GRAPE
+TDD2911431 Sequence #3 _____ ~L -ABEFST? YnnYn
+TDD-2911288 attempt: 2 GRAPE Y n n Y n
+TDD-145 questioning: GRADE
+TDD1864344 Sequence #3 G__P_ ~L -ABEFRST? Ynnnn
+TDD-1864088 attempt: 2 GRADE Y n n n n
+TDD-237 questioning: GRACE
+TDD1847337 Sequence #3 G__P_ ~L -ABDEFRST? Ynnnn
+TDD-1847144 attempt: 2 GRACE Y n n n n
+TDD-196 questioning: GRAVE
+TDD1391681 Sequence #3 G__P_ ~L -ABCDEFRST? Ynnnn
+TDD-1391551 attempt: 2 GRAVE Y n n n n
+TDD1143720 > * 3
+TDD1152081 ? 1
+TDD-2295822 questioning: glyph
+TDD3711584 Sequence #3 G__P_ ~L -ABCDEFRSTV? YYYYY
+TDD-3711556 attempt: 2 GLYPH Y Y Y Y Y
+TDD-150 questioning: TEALS
+TDD3088006 Sequence #4 _____? MnMnn
+TDD-3087846 attempt: 3 TEALS m n m n n
+TDD-159 questioning: FEAST
+TDD1455696 Sequence #4 _____ ~AT -ELS? nnMnM
+TDD-1455550 attempt: 3 FEAST n n m n m
+TDD-146 questioning: BEAST
+TDD1672441 Sequence #4 _____ ~AT -EFLS? nnMnM
+TDD-1672237 attempt: 3 BEAST n n m n m
+TDD-191 questioning: GRAPE
+TDD1919534 Sequence #4 _____ ~AT -BEFLS? nnMnn
+TDD-1919331 attempt: 3 GRAPE n n m n n
+TDD-198 questioning: GRADE
+TDD2567387 Sequence #4 _____ ~AT -BEFGLPRS? nnMnn
+TDD-2567077 attempt: 3 GRADE n n m n n
+TDD-203 questioning: GRACE
+TDD2183246 Sequence #4 _____ ~AT -BDEFGLPRS? nnMYn
+TDD-2183212 attempt: 3 GRACE n n m Y n
+TDD-158 questioning: GRAVE
+TDD2839741 Sequence #4 ___C_ ~AT -BDEFGLPRS? nnMnn
+TDD-2839585 attempt: 3 GRAVE n n m n n
+TDD-156 questioning: GLYPH
+TDD1559909 Sequence #4 ___C_ ~AT -BDEFGLPRSV? nnnnY
+TDD-1559666 attempt: 3 GLYPH n n n n Y
+TDD1639705 > * 4
+TDD-287934 ? 1
+TDD-1351843 questioning: watch
+TDD3375355 Sequence #4 ___CH ~AT -BDEFGLPRSVY? nYYYY
+TDD-3375318 attempt: 3 WATCH n Y Y Y Y
+TDD1151533 > * 4
+TDD3576754 ? 1
+TDD-4728306 questioning: match
+TDD3919145 Sequence #4 _ATCH -BDEFGLPRSVWY? nYYYY
+TDD-3919141 attempt: 3 MATCH n Y Y Y Y
+TDD3143916 > /res
+TDD-2480076 📋> Daily Sequence Quordle 1438
+TDD-663969 📋> 3️⃣7️⃣
+TDD-79 📋> 8️⃣🟥
+TDD-2 📋> m-w.com/games/quordle/
+TDD327828 📋> 
+TDD39652 📋> ␚
+TDD-367367 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1438\n3\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TDD67 result: "Daily Sequence Quordle 1438\n3\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TDD2143864 > /store
+TDD-1503526 📆 2026-01-01 ? 
