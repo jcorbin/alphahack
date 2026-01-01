@@ -1,0 +1,240 @@
+T300.45697951098555 now: 2026-01-01T09:11:26EST
+TD57 site: britannica.com/games/octordle/daily-sequence
+TDD-18 wordlist: nwl2023.txt
+TDD-30 num_words: 8
+TDD14997857  ...
+TDD-12909712 > * 1
+TDD615633 ? 1
+TDD-2703620 questioning: torse
+TDD2215842 Sequence #1 _____? ␚
+TDD-2215916 <EOF>
+TDD1535636 > * 1
+TDD3064505 ? 8
+TDD-4600036 questioning: prose
+TDD3128331 Sequence #1 _____? nnnnY
+TDD-3128284 attempt: 0 PROSE n n n n Y
+TDD1558820 > * 1
+TDD433035 ? 2
+TDD-1991910 questioning: glaze
+TDD3391949 Sequence #1 ____E -OPRS? nnnnY
+TDD-3391906 attempt: 0 GLAZE n n n n Y
+TDD1791481 > * 1
+TDD-7385 ? 2
+TDD-1784162 questioning: chime
+TDD3855701 Sequence #1 ____E -AGLOPRSZ? nMMnY
+TDD-3855589 attempt: 0 CHIME n m m n Y
+TDD1487501 > * 1
+TDD2479650 ? 3
+TDD-3967251 questioning: tithe
+TDD3775870 Sequence #1 ____E ~HI -ACGLMOPRSZ? YYYYY
+TDD-3775825 attempt: 0 TITHE Y Y Y Y Y
+TDD-170 questioning: PROSE
+TDD2744138 Sequence #2 _____? nnnnn
+TDD-2743951 attempt: 1 PROSE n n n n n
+TDD-189 questioning: GLAZE
+TDD1567948 Sequence #2 _____ -EOPRS? nMMnn
+TDD-1567825 attempt: 1 GLAZE n m m n n
+TDD-144 questioning: CHIME
+TDD1487348 Sequence #2 _____ ~AL -EGOPRSZ? nnYnn
+TDD-1487128 attempt: 1 CHIME n n Y n n
+TDD-202 questioning: TITHE
+TDD1495288 Sequence #2 __I__ ~AL -CEGHMOPRSZ? nMnnn
+TDD-1495171 attempt: 1 TITHE n m n n n
+TDD1535400 > * 2
+TDD-423185 ? 1
+TDD-1112152 questioning: daily
+TDD5328039 Sequence #2 __I__ ~AL -CEGHMOPRSTZ? nMYMn
+TDD-5328018 attempt: 1 DAILY n m Y m n
+TDD1695983 > * 2
+TDD-1600559 questioning: axial
+TDD2911446 Sequence #2 __I__ ~AL -CDEGHMOPRSTYZ? YYYYY
+TDD-3006946 attempt: 1 AXIAL Y Y Y Y Y
+TDD-138 questioning: PROSE
+TDD2175994 Sequence #3 _____? nnnnn
+TDD-2175788 attempt: 2 PROSE n n n n n
+TDD-192 questioning: GLAZE
+TDD1359781 Sequence #3 _____ -EOPRS? nMMnn
+TDD-1359630 attempt: 2 GLAZE n m m n n
+TDD-166 questioning: CHIME
+TDD1535309 Sequence #3 _____ ~AL -EGOPRSZ? nnnMn
+TDD-1535165 attempt: 2 CHIME n n n m n
+TDD-137 questioning: TITHE
+TDD1543860 Sequence #3 _____ ~ALM -CEGHIOPRSZ? nnnnn
+TDD-1543736 attempt: 2 TITHE n n n n n
+TDD-130 questioning: DAILY
+TDD2183710 Sequence #3 _____ ~ALM -CEGHIOPRSTZ? nYnYY
+TDD-2183560 attempt: 2 DAILY n Y n Y Y
+TDD-146 questioning: AXIAL
+TDD1503738 Sequence #3 _A_LY ~M -CDEGHIOPRSTZ? MnnnM
+TDD-1503602 attempt: 2 AXIAL m n n n m
+TDD1463831 > * 3
+TDD-1367484 questioning: manly
+TDD2703905 Sequence #3 _A_LY ~M -CDEGHIOPRSTXZ A:1? YYYYY
+TDD-2800163 attempt: 2 MANLY Y Y Y Y Y
+TDD-211 questioning: PROSE
+TDD2591464 Sequence #4 _____? nYnnM
+TDD-2591294 attempt: 3 PROSE n Y n n m
+TDD-177 questioning: GLAZE
+TDD1639015 Sequence #4 _R___ ~E -OPS? YnnnM
+TDD-1638777 attempt: 3 GLAZE Y n n n m
+TDD-212 questioning: CHIME
+TDD1911561 Sequence #4 GR___ ~E -ALOPSZ? nnYnM
+TDD-1911426 attempt: 3 CHIME n n Y n m
+TDD-168 questioning: TITHE
+TDD1696096 Sequence #4 GRI__ ~E -ACHLMOPSZ? nMnnM
+TDD-1695897 attempt: 3 TITHE n m n n m
+TDD-185 questioning: DAILY
+TDD3703800 Sequence #4 GRI__ ~E -ACHLMOPSTZ? nnYnn
+TDD-3703666 attempt: 3 DAILY n n Y n n
+TDD-146 questioning: AXIAL
+TDD1607299 Sequence #4 GRI__ ~E -ACDHLMOPSTYZ? nnYnn
+TDD-1607150 attempt: 3 AXIAL n n Y n n
+TDD-147 questioning: MANLY
+TDD1272323 Sequence #4 GRI__ ~E -ACDHLMOPSTXYZ? nnnnn
+TDD-1272183 attempt: 3 MANLY n n n n n
+TDD1391416 > * 4
+TDD-1302088 questioning: grief
+TDD3301168 Sequence #4 GRI__ ~E -ACDHLMNOPSTXYZ? YYYYY
+TDD-3390428 attempt: 3 GRIEF Y Y Y Y Y
+TDD-193 questioning: PROSE
+TDD2519316 Sequence #5 _____? nnnnY
+TDD-2519123 attempt: 4 PROSE n n n n Y
+TDD-191 questioning: GLAZE
+TDD1848021 Sequence #5 ____E -OPRS? nYnnY
+TDD-1847831 attempt: 4 GLAZE n Y n n Y
+TDD-189 questioning: CHIME
+TDD1983945 Sequence #5 _L__E -AGOPRSZ? nnYnY
+TDD-1983548 attempt: 4 CHIME n n Y n Y
+TDD-392 questioning: TITHE
+TDD2574772 Sequence #5 _LI_E -ACGHMOPRSZ? MMnnY
+TDD-2574625 attempt: 4 TITHE m m n n Y
+TDD-164 questioning: DAILY
+TDD1687918 Sequence #5 _LI_E ~T -ACGHMOPRSZ T:1? nnYMn
+TDD-1687699 attempt: 4 DAILY n n Y m n
+TDD-192 questioning: AXIAL
+TDD1984182 Sequence #5 _LI_E ~T -ACDGHMOPRSYZ T:1? nnYnM
+TDD-1983999 attempt: 4 AXIAL n n Y n m
+TDD-196 questioning: MANLY
+TDD1672252 Sequence #5 _LI_E ~T -ACDGHMOPRSXYZ T:1? nnnMn
+TDD-1672042 attempt: 4 MANLY n n n m n
+TDD-186 questioning: GRIEF
+TDD1470415 Sequence #5 _LI_E ~T -ACDGHMNOPRSXYZ T:1? nnYMn
+TDD-1470192 attempt: 4 GRIEF n n Y m n
+TDD1431895 > * 5
+TDD1143890 ? 2
+TDD-2575904 questioning: elite
+TDD2567007 Sequence #5 _LI_E ~T -ACDFGHMNOPRSXYZ T:1? YYYYY
+TDD-2566997 attempt: 4 ELITE Y Y Y Y Y
+TDD-145 questioning: PROSE
+TDD2192371 Sequence #6 _____? nnnnn
+TDD-2192159 attempt: 5 PROSE n n n n n
+TDD-202 questioning: GLAZE
+TDD2111468 Sequence #6 _____ -EOPRS? nnnnn
+TDD-2111247 attempt: 5 GLAZE n n n n n
+TDD-200 questioning: CHIME
+TDD1575121 Sequence #6 _____ -AEGLOPRSZ? MMnnn
+TDD-1574992 attempt: 5 CHIME m m n n n
+TDD-161 questioning: TITHE
+TDD1600882 Sequence #6 _____ ~CH -AEGILMOPRSZ? nnnYn
+TDD-1600664 attempt: 5 TITHE n n n Y n
+TDD-193 questioning: DAILY
+TDD2815014 Sequence #6 ___H_ ~C -AEGILMOPRSTZ? YnnnY
+TDD-2814814 attempt: 5 DAILY Y n n n Y
+TDD-213 questioning: AXIAL
+TDD2096819 Sequence #6 D__HY ~C -AEGILMOPRSTZ? nnnnn
+TDD-2096611 attempt: 5 AXIAL n n n n n
+TDD-207 questioning: MANLY
+TDD3118484 Sequence #6 D__HY ~C -AEGILMOPRSTXZ? nnnnY
+TDD-3118148 attempt: 5 MANLY n n n n Y
+TDD-277 questioning: GRIEF
+TDD1479524 Sequence #6 D__HY ~C -AEGILMNOPRSTXZ? nnnnn
+TDD-1479373 attempt: 5 GRIEF n n n n n
+TDD-208 questioning: ELITE
+TDD1199782 Sequence #6 D__HY ~C -AEFGILMNOPRSTXZ? nnnnn
+TDD-1199590 attempt: 5 ELITE n n n n n
+TDD1526784 > * 6
+TDD-1411552 questioning: duchy
+TDD2753517 Sequence #6 D__HY ~C -AEFGILMNOPRSTXZ? YYYYY
+TDD-2868678 attempt: 5 DUCHY Y Y Y Y Y
+TDD-251 questioning: PROSE
+TDD4271567 Sequence #7 _____? nYnnn
+TDD-4271289 attempt: 6 PROSE n Y n n n
+TDD-275 questioning: GLAZE
+TDD4023417 Sequence #7 _R___ -EOPS? nnnnn
+TDD-4023261 attempt: 6 GLAZE n n n n n
+TDD-178 questioning: CHIME
+TDD1664047 Sequence #7 _R___ -AEGLOPSZ? nMnnn
+TDD-1663871 attempt: 6 CHIME n m n n n
+TDD-180 questioning: TITHE
+TDD2087761 Sequence #7 _R___ ~H -ACEGILMOPSZ? YnMMn
+TDD-2087544 attempt: 6 TITHE Y n m m n
+TDD-210 questioning: DAILY
+TDD1415786 Sequence #7 TR___ ~H -ACEGILMOPSZ? nnnnn
+TDD-1415534 attempt: 6 DAILY n n n n n
+TDD-236 questioning: AXIAL
+TDD1199059 Sequence #7 TR___ ~H -ACDEGILMOPSYZ? nnnnn
+TDD-1198746 attempt: 6 AXIAL n n n n n
+TDD-320 questioning: MANLY
+TDD1631802 Sequence #7 TR___ ~H -ACDEGILMOPSXYZ? nnnnn
+TDD-1631519 attempt: 6 MANLY n n n n n
+TDD-273 questioning: GRIEF
+TDD1928166 Sequence #7 TR___ ~H -ACDEGILMNOPSXYZ? nYnnn
+TDD-1928003 attempt: 6 GRIEF n Y n n n
+TDD-181 questioning: ELITE
+TDD1767262 Sequence #7 TR___ ~H -ACDEFGILMNOPSXYZ? nnnYn
+TDD-1767055 attempt: 6 ELITE n n n Y n
+TDD-203 questioning: DUCHY
+TDD1679406 Sequence #7 TR_T_ ~H -ACDEFGILMNOPSXYZ? nMnMn
+TDD-1679229 attempt: 6 DUCHY n m n m n
+TDD1712074 > * 7
+TDD-1621058 questioning: truth
+TDD3865132 Sequence #7 TR_T_ ~HU -ACDEFGILMNOPSXYZ? YYYYY
+TDD-3956205 attempt: 6 TRUTH Y Y Y Y Y
+TDD-132 questioning: PROSE
+TDD2287498 Sequence #8 _____? nMnnM
+TDD-2287311 attempt: 7 PROSE n m n n m
+TDD-177 questioning: GLAZE
+TDD1432032 Sequence #8 _____ ~ER -OPS? nnnnM
+TDD-1431905 attempt: 7 GLAZE n n n n m
+TDD-134 questioning: CHIME
+TDD1647567 Sequence #8 _____ ~ER -AGLOPSZ? nnnnM
+TDD-1647361 attempt: 7 CHIME n n n n m
+TDD-191 questioning: TITHE
+TDD1624410 Sequence #8 _____ ~ER -ACGHILMOPSZ? nnnnM
+TDD-1624233 attempt: 7 TITHE n n n n m
+TDD-177 questioning: DAILY
+TDD1767377 Sequence #8 _____ ~ER -ACGHILMOPSTZ? nnnnn
+TDD-1767200 attempt: 7 DAILY n n n n n
+TDD-177 questioning: AXIAL
+TDD2735424 Sequence #8 _____ ~ER -ACDGHILMOPSTYZ? nnnnn
+TDD-2735241 attempt: 7 AXIAL n n n n n
+TDD-178 questioning: MANLY
+TDD1679774 Sequence #8 _____ ~ER -ACDGHILMOPSTXYZ? nnnnn
+TDD-1679602 attempt: 7 MANLY n n n n n
+TDD-176 questioning: GRIEF
+TDD2159701 Sequence #8 _____ ~ER -ACDGHILMNOPSTXYZ? nMnYM
+TDD-2159510 attempt: 7 GRIEF n m n Y m
+TDD-174 questioning: ELITE
+TDD1576276 Sequence #8 ___E_ ~FR -ACDGHILMNOPSTXYZ? MnnnM
+TDD-1576095 attempt: 7 ELITE m n n n m
+TDD-181 questioning: DUCHY
+TDD1966869 Sequence #8 ___E_ ~FR -ACDGHILMNOPSTXYZ? nnnnn
+TDD-1966694 attempt: 7 DUCHY n n n n n
+TDD-186 questioning: TRUTH
+TDD1559451 Sequence #8 ___E_ ~FR -ACDGHILMNOPSTUXYZ? nMnnn
+TDD-1559341 attempt: 7 TRUTH n m n n n
+TDD1416129 > * 8
+TDD2359693 ? 3
+TDD-3775831 questioning: fewer
+TDD3943992 Sequence #8 ___E_ ~FR -ACDGHILMNOPSTUXYZ? YYYYY
+TDD-3943907 attempt: 7 FEWER Y Y Y Y Y
+TDD2927755 📋> Daily Sequence Octordle #1438
+TDD-2927911 📋> 4️⃣6️⃣
+TDD-63 📋> 7️⃣8️⃣
+TDD-12 📋> 9️⃣🔟
+TDD0 📋> 🕚🕛
+TDD303750 📋> Score: 67
+TDD-96059 📋> ␚
+TDD-207563 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Octordle #1438\n4\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a\ud83d\udd5b\nScore: 67"}
+TDD31 result: "Daily Sequence Octordle #1438\n4\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a\ud83d\udd5b\nScore: 67"
+TDD311293 📆 2026-01-01 ? 
