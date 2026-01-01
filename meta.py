@@ -1036,6 +1036,29 @@ class Meta(PromptUI.Arguable):
                 if once(solver_i):
                     yield solver_i
 
+            for solver_i, solver_j, day, note, head, _body in self.read_status(ui, verbose=False):
+                proto = self.solvers.lib.proto[solver_i]
+                status = proto.note_status(note)
+                if note and status == 'done':
+                    have.add(solver_i)
+                else:
+                    name = self.solvers.lib.name[solver_j]
+                    if status == 'unknown':
+                        ui.print(f'Skipping unknown {name} solver status {note!r}')
+                        continue
+                    if once(solver_i):
+                        j = self.solvers.lookup(solver_i)
+                        if (
+                            j is not None and
+                            self.solvers.log_file[j] == proto.log_file and
+                            not os.path.exists(proto.log_file)
+                        ):
+                            log_file = proto.find_prior_log(ui, puzzle_id=None)
+                            if log_file is not None:
+                                self.solvers.log_file[j] = log_file
+                                ui.print(f'TODO continue {status} {name} solver from {log_file}')
+                        yield solver_i, solver_j
+
         for solver_i in candidates():
             name = self.solvers.lib.name[solver_i]
             proto = self.solvers.lib.proto[solver_i]
