@@ -1,0 +1,107 @@
+T917.1277012579958 now: 2026-01-01T08:45:43EST
+TD74 site: squareword.org
+TDD-37 wordlist: nwl2023.txt
+TDD3533553  ...
+TDD-861417 🧩  ? #1431
+TDD-2671960 puzzle_id: #1431
+TDD1655889 > *
+TDD1287486 try? 5
+TDD-2943360 questioning: ["arose", "#5"]
+TDD5879982 #1 <IndexError>  📋 "arose" ? _____ ~ A
+TDD-5879506 attempt 0 AROSE m n n n n
+TDD2758222 #2 <IndexError>  📋 "arose" ? ____E ~ RE
+TDD-2758695 attempt 1 AROSE n m n n Y
+TDD3312112 #3 <IndexError>  📋 "arose" ? ARO__ ~ A
+TDD-3312060 attempt 2 AROSE Y Y Y n n
+TDD2423695 #4 <IndexError>  📋 "arose" ? _____ ~ RE
+TDD-2423696 attempt 3 AROSE n m n n m
+TDD2534947 #5 <IndexError>  📋 "arose" ? _____ ~ RSE
+TDD-2534944 attempt 4 AROSE n m n m m
+TDD1815880 ? 
+TDD-1815984 question done
+TDD37336068 > *
+TDD-34583855 try? 2
+TDD-2752122 questioning: ["aroma", "#3"]
+TDD3167042 #1 _____ ~A -EORS  📋 "aroma" ? .
+TDD-3167035 attempt 0 AROMA m n n n m
+TDD3983837 #2 ____E ~R -AOS  📋 "aroma" ? ____E ~ RE
+TDD-3983836 attempt 1 AROMA n m n n n
+TDD1862116 #3 ARO__ -ES  📋 "aroma" ? /it
+TDD-1862180 attempt 2 AROMA Y Y Y Y Y
+TDD1920193 #4 _____ ~ER -AOS  📋 "aroma" ? .
+TDD-1920076 attempt 3 AROMA n m n n n
+TDD751560 #5 _____ ~ERS -AO  📋 "aroma" ? .
+TDD-751688 attempt 4 AROMA n m n n n
+TDD159888 ? 
+TDD-159941 question done
+TDD2207155 > *
+TDD353437 try? 2
+TDD-2560478 questioning: ["litre", "#2"]
+TDD5934865 #1 _____ ~A -EMORS  📋 "litre" ? __T__ ~ AT
+TDD-5934845 attempt 0 LITRE n n Y n n
+TDD2511032 #2 ____E ~R -AMOS  📋 "litre" ? ____E ~ REI
+TDD-2511107 attempt 1 LITRE n m n m Y
+TDD2791906 #4 _____ ~ER -AMOS  📋 "litre" ? _I___ ~ RE
+TDD-2791812 attempt 3 LITRE n Y n m m
+TDD4999174 #5 _____ ~ERS -AMO  📋 "litre" ? L__R_ ~ SE
+TDD-4999151 attempt 4 LITRE Y n n Y m
+TDD759828 ? 
+TDD-759969 question done
+TDD1247411 > * 
+TDD2257726 try? 2
+TDD-3504829 questioning: ["leers", "#5"]
+TDD5525948 #1 __T__ ~A -EILMORS  📋 "leers" ? __T__ ~ AT
+TDD-5526173 attempt 0 LEERS n n n n n
+TDD2944691 #2 ____E ~IR -ALMOST  📋 "leers" ? _E__E ~ REI
+TDD-2944461 attempt 1 LEERS n Y m m n
+TDD3470465 #4 _I___ ~ER -ALMOST  📋 "leers" ? .
+TDD-3470461 attempt 3 LEERS n m m m n
+TDD694480 #5 L__R_ ~ES -AIMOT  📋 "leers" ? /it
+TDD-694702 attempt 4 LEERS Y Y Y Y Y
+TDD431800 ? 
+TDD-431956 question done
+TDD24167222 > *
+TDD-23075153 questioning: ["eerie", "#2"]
+TDD7471592 #1 __T__ ~A -EILMORS  📋 "eerie" ? __T__ ~ AT
+TDD-8563532 attempt 0 EERIE n n n n n
+TDD1999503 #2 _E__E ~IR -ALMOST  📋 "eerie" ? /it
+TDD-1999557 attempt 1 EERIE Y Y Y Y Y
+TDD1471848 #4 _I___ ~ER -ALMOST  📋 "eerie" ? .
+TDD-1471802 attempt 3 EERIE m m m n m
+TDD175617 ? 
+TDD-175722 question done
+TDD607540 > *
+TDD392232 questioning: ["patty", "#1"]
+TDD2311845 #1 __T__ ~A -EILMORS  📋 "patty" ? /it
+TDD-3311486 attempt 0 PATTY Y Y Y Y Y
+TDD3367650 #4 _I___ ~ER -AILMOST  📋 "patty" ? _I___ ~ REP
+TDD-3367715 attempt 3 PATTY m n n n n
+TDD271636 ? 
+TDD-271695 question done
+TDD776251 > *
+TDD2327015 try? 1
+TDD-3103083 questioning: ["ripen", "#4"]
+TDD16655213 #4 _I___ ~EPR -AILMOSTY  📋 "ripen" ? RIPE_ ~ R
+TDD-16655263 attempt 3 RIPEN Y Y Y Y n
+TDD271717 ? 
+TDD-271851 question done
+TDD535929 > *
+TDD441797 questioning: ["riper", "#4"]
+TDD548032 #4 RIPE_ -ALMNOSTY  📋 "riper" ? /it
+TDD-1525634 attempt 3 RIPER Y Y Y Y Y
+TDD1607803 ? 
+TDD-1607960 question done
+TDD3127764 📋> squareword.org 1431: 8 guesses
+TDD-3127795 📋> 
+TDD-73 📋> 🟨🟨🟩🟨🟨
+TDD-5 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟨🟩🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD335576 📋> #squareword #squareword1431
+TDD-6870 📋> ␚
+TDD-328608 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1431: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1431"}
+TDD1430 result: "squareword.org 1431: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1431"
+TDD284518 📆 2026-01-01 ? 
