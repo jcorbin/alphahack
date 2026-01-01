@@ -514,11 +514,11 @@ class Meta(PromptUI.Arguable[PromptUI.Shell]):
         root['sys'] = self.do_system
         root['env'] = self.do_env
 
-        root['day'] = self.do_day
-        root['share'] = self.do_share
-        root['status'] = self.do_status
-        root['push'] = partial(self.do_system, cmd=('git', 'push', 'origin', '+:'))
-        root['review'] = self.do_review
+        root['meta/day'] = self.do_day
+        root['meta/share'] = self.do_share
+        root['meta/status'] = self.do_status
+        root['meta/push'] = partial(self.do_system, cmd=('git', 'push', 'origin', '+:'))
+        root['meta/review'] = self.do_review
 
         root['meta/solvers/.'] = self.do_solve
 
