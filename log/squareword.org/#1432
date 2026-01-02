@@ -1,0 +1,120 @@
+T800.4759013329749 now: 2026-01-02T09:27:17EST
+TD49 site: squareword.org
+TDD-11 wordlist: nwl2023.txt
+TDD3238590  ...
+TDD-958453 🧩  ? #1432
+TDD-2279888 puzzle_id: #1432
+TDD1415426 > *
+TDD-295424 try? 1
+TDD-1119941 questioning: ["arose", "#5"]
+TDD4535237 #1 <IndexError>  📋 "arose" ? _____ ~ AS
+TDD-4535017 attempt 0 AROSE m n n m n
+TDD2271320 #2 <IndexError>  📋 "arose" ? _____ ~ OS
+TDD-2271592 attempt 1 AROSE n n m m n
+TDD3198938 #3 <IndexError>  📋 "arose" ? A____ 
+TDD-3198914 attempt 2 AROSE Y n n n n
+TDD2639537 #4 <IndexError>  📋 "arose" ? _____ ~ SE
+TDD-2639549 attempt 3 AROSE n n n m m
+TDD3207414 #5 <IndexError>  📋 "arose" ? ___SE ~ A
+TDD-3207436 attempt 4 AROSE m n n Y Y
+TDD839422 ? 
+TDD-839530 question done
+TDD10711463 > *
+TDD-8870679 try? 1
+TDD-1840635 questioning: ["cause", "#5"]
+TDD3398557 #1 _____ ~AS -EOR  📋 "cause" ? .
+TDD-3398604 attempt 0 CAUSE n m n m n
+TDD815415 #2 _____ ~OS -AER  📋 "cause" ? .
+TDD-815404 attempt 1 CAUSE n n n m n
+TDD1319359 #3 A____ -EORS  📋 "cause" ? .
+TDD-1319383 attempt 2 CAUSE n n n n n
+TDD895772 #4 _____ ~ES -AOR  📋 "cause" ? .
+TDD-895833 attempt 3 CAUSE n n n m m
+TDD3543639 #5 ___SE ~A -OR  📋 "cause" ? _A_SE
+TDD-3543643 attempt 4 CAUSE n Y n Y Y
+TDD671446 ? 
+TDD-671520 question done
+TDD480191 > *
+TDD1311551 try? 1
+TDD-1791575 questioning: ["lapse", "#5"]
+TDD4359631 #1 _____ ~AS -CEORU  📋 "lapse" ? _____ ~ ASP
+TDD-4359693 attempt 0 LAPSE n m m m n
+TDD2543344 #2 _____ ~OS -ACERU  📋 "lapse" ? _____ ~ OSP
+TDD-2543301 attempt 1 LAPSE n n m m n
+TDD4127055 #3 A____ -ACEORSU  📋 "lapse" ? A_P__ ~ LP
+TDD-4127119 attempt 2 LAPSE m n Y n n
+TDD2559870 #4 _____ ~ES -ACORU  📋 "lapse" ? _____ ~ SELP
+TDD-2559875 attempt 3 LAPSE m n m m m
+TDD3575466 #5 _A_SE -CORU  📋 "lapse" ? _A_SE
+TDD-3575466 attempt 4 LAPSE n Y n Y Y
+TDD879633 ? 
+TDD-879667 question done
+TDD1319945 > *
+TDD8575748 try? 1
+TDD-9895644 questioning: ["amply", "#3"]
+TDD5935563 #1 _____ ~APS -CELORU  📋 "amply" ? _____ ~ ASPM
+TDD-5935501 attempt 0 AMPLY m m m n n
+TDD1487365 #2 _____ ~OPS -ACELRU  📋 "amply" ? .
+TDD-1487359 attempt 1 AMPLY n n m n n
+TDD3551537 #3 A_P__ ~L -ACEORSU  📋 "amply" ? A_PLY ~ P
+TDD-3551559 attempt 2 AMPLY Y n Y Y Y
+TDD5399550 #4 _____ ~ELPS -ACORU  📋 "amply" ? ___L_ ~ SELP
+TDD-5399530 attempt 3 AMPLY n n m Y n
+TDD4015374 #5 _A_SE -CLOPRU  📋 "amply" ? _A_SE ~ M
+TDD-4015411 attempt 4 AMPLY n m n n n
+TDD623980 ? 
+TDD-624063 question done
+TDD719179 > *
+TDD358671 questioning: ["posit", "#2"]
+TDD4948589 #1 _____ ~AMPS -CELORUY  📋 "posit" ? .
+TDD-6026315 attempt 0 POSIT m n m n n
+TDD734874 #2 _____ ~OPS -ACELMRUY  📋 "posit" ? /it
+TDD-734860 attempt 1 POSIT Y Y Y Y Y
+TDD7943522 #3 A_PLY -CEMORSU  📋 "posit" ? A_PLY ~ P
+TDD-7943527 attempt 2 POSIT m n n n n
+TDD6583364 #4 ___L_ ~EPS -ACMORUY  📋 "posit" ? ___L_ ~ SELP
+TDD-6583459 attempt 3 POSIT m n m n n
+TDD2135576 #5 _A_SE ~M -ACLOPRUY  📋 "posit" ? .
+TDD-2135554 attempt 4 POSIT n n n n n
+TDD375591 ? 
+TDD-375692 question done
+TDD991818 > *
+TDD1210408 questioning: ["spams", "#1"]
+TDD211256 #1 _____ ~AMPS -CEILORTUY  📋 "spams" ? /it
+TDD-2413302 attempt 0 SPAMS Y Y Y Y Y
+TDD5048000 #3 A_PLY -CEIMORSTU  📋 "spams" ? APPLY
+TDD-5048053 attempt 2 SPAMS n Y n n n
+TDD4391199 #4 ___L_ ~EPS -ACIMORTUY  📋 "spams" ? SP_L_ ~ EL
+TDD-4391137 attempt 3 SPAMS Y Y n n n
+TDD1863208 #5 _A_SE ~M -ACILOPRSTUY  📋 "spams" ? .
+TDD-1863242 attempt 4 SPAMS n n n m n
+TDD151453 ? 
+TDD-151594 question done
+TDD648335 > *
+TDD677151 questioning: ["spell", "#4"]
+TDD1868077 #4 SP_L_ ~E -ACIMORTUY  📋 "spell" ? /it
+TDD-3193418 attempt 3 SPELL Y Y Y Y Y
+TDD1288239 #5 _A_SE ~M -ACILOPRSTUY  📋 "spell" ? .
+TDD-1288206 attempt 4 SPELL n n n n n
+TDD158998 ? 
+TDD-159177 question done
+TDD463713 > *
+TDD463572 questioning: ["manse", "#5"]
+TDD3088859 #5 _A_SE ~M -ACEILOPRSTUY  📋 "manse" ? /it
+TDD-4016007 attempt 4 MANSE Y Y Y Y Y
+TDD999637 ? 
+TDD-999770 question done
+TDD3680071 📋> squareword.org 1432: 8 guesses
+TDD-3680124 📋> 
+TDD-70 📋> 🟨🟨🟨🟨🟨
+TDD-5 📋> 🟩🟩🟩🟩🟩
+TDD-3 📋> 🟩🟨🟩🟩🟩
+TDD8 📋> 🟨🟨🟨🟩🟨
+TDD-2 📋> 🟨🟩🟨🟩🟩
+TDD-7 📋> 
+TDD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD327571 📋> #squareword #squareword1432
+TDD-127892 📋> ␚
+TDD-199572 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1432: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1432"}
+TDD1571 result: "squareword.org 1432: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1432"
+TDD236511 📆 2026-01-02 ? 
