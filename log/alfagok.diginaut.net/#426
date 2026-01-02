@@ -1,0 +1,55 @@
+T3.420075966976583 now: 2026-01-02T09:14:00EST
+TD55 site: alfagok.diginaut.net
+TDD381700 loaded 399701 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1151 words excluded) asof 9d55ab8bfbf3da687fe173e62efee997d1674e2c
+TDD3059288  ...
+TDD446864 [0 : 199833 : 399701] lijm? b
+TDD-3887536 progress: -1 199833 lijm
+TDD1576048 [0 : 99758 : 199833] ex? b
+TDD-1576254 progress: -1 99758 ex
+TDD1366917 [0 : 49849 : 99758] boks? a
+TDD-1366918 progress: 1 49849 boks
+TDD1608252 [49850 : 74762 : 99758] dc? b
+TDD-1608292 progress: -1 74762 dc
+TDD1431016 [49850 : 62288 : 74762] cement? a
+TDD-1430989 progress: 1 62288 cement
+TDD3263716 [62289 : 68522 : 74762] connectie? b
+TDD-3263731 progress: -1 68522 connectie
+TDD1583711 [62289 : 65396 : 68522] coat? a
+TDD-1583714 progress: 1 65396 coat
+TDD1439513 [65397 : 66948 : 68522] complet? a
+TDD-1439507 progress: 1 66948 complet
+TDD3592391 [66949 : 67702 : 68522] concert? a
+TDD-3592413 progress: 1 67702 concert
+TDD2039732 [67703 : 68109 : 68522] conductor? b
+TDD-2039712 progress: -1 68109 conductor
+TDD2087842 [67703 : 67903 : 68109] concretiseren? b
+TDD-2087812 progress: -1 67903 concretiseren
+TDD1663725 [67703 : 67801 : 67903] concertzaal? a
+TDD-1663775 progress: 1 67801 concertzaal
+TDD2039530 [67802 : 67849 : 67903] concipieer? a
+TDD-2039486 progress: 1 67849 concipieer
+TDD1647246 [67850 : 67873 : 67903] concordantie? b
+TDD-1647268 progress: -1 67873 concordantie
+TDD1687975 [67850 : 67861 : 67873] concludeer? a
+TDD-1687971 progress: 1 67861 concludeer
+TDD1664224 [67862 : 67865 : 67873] concluderen? a
+TDD-1664224 progress: 1 67865 concluderen
+TDD1655721 [67866 : 67869 : 67873] conclusies? b
+TDD-1655721 progress: -1 67869 conclusies
+TDD1607627 [67866 : 67867 : 67869] concluderende? a
+TDD-1607631 progress: 1 67867 concluderende
+TDD1871762 [67868 : 67868 : 67869] conclusie? it
+TDD-1871787 progress: 0 67868 conclusie
+TDD-98 [67868 : 67868 : 67869] <Done>.
+TDD5336629 📋> 🧩 Puzzel #426
+TDD-5336541 📋> 🤔 19 gokken
+TDD-86 📋> ⏱️ 34s
+TDD430910 📋> 🔗 alfagok.diginaut.net
+TDD-238522 📋> ␚
+TDD-192299 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #426\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD246 result: "\ud83e\udde9 Puzzel #426\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-346 result puzzle: 426
+TDD-4 result guesses: 19
+TDD-1 result time: 34s
+TDD0 result link: alfagok.diginaut.net
+TDD343339 📆 2026-01-02 ? 
