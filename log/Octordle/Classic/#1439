@@ -1,0 +1,163 @@
+T575.2581164519943 now: 2026-01-02T09:23:31EST
+TD90 site: britannica.com/games/octordle/daily
+TDD-41 wordlist: nwl2023.txt
+TDD-40 num_words: 8
+TDD3461902  ...
+TDD-2053753 > * 1
+TDD-304240 ? 1
+TDD-1103745 questioning: arise
+TDD2535711 Classic #1 _____? Mnnnn
+TDD-2535715 attempt: 0 ARISE m n n n n
+TDD1199680 Classic #2 _____? nnnnn
+TDD-1199678 attempt: 1 ARISE n n n n n
+TDD1287592 Classic #3 _____? nnnnn
+TDD-1287606 attempt: 2 ARISE n n n n n
+TDD1383905 Classic #4 _____? nMnnn
+TDD-1383873 attempt: 3 ARISE n m n n n
+TDD4312176 Classic #5 _____? nMMYY
+TDD-4312076 attempt: 4 ARISE n m m Y Y
+TDD2007253 Classic #6 _____? MnnnM
+TDD-2007349 attempt: 5 ARISE m n n n m
+TDD1647399 Classic #7 _____? nnnYn
+TDD-1647342 attempt: 6 ARISE n n n Y n
+TDD1143887 Classic #8 _____? nnnMn
+TDD-1143853 attempt: 7 ARISE n n n m n
+TDD2799306 > * 1
+TDD1904732 ? 9
+TDD-4704161 questioning: loath
+TDD6911236 Classic #1 _____ ~A -EIRS? MnMMn
+TDD-6911220 attempt: 0 LOATH m n m m n
+TDD1783670 Classic #2 _____ -AEIRS? nnnnY
+TDD-1783607 attempt: 1 LOATH n n n n Y
+TDD1704061 Classic #3 _____ -AEIRS? nMnnM
+TDD-1704056 attempt: 2 LOATH n m n n m
+TDD1359242 Classic #4 _____ ~R -AEIS? nnnnY
+TDD-1359315 attempt: 3 LOATH n n n n Y
+TDD4487506 Classic #5 ___SE ~IR -A? nnnnn
+TDD-4487417 attempt: 4 LOATH n n n n n
+TDD1471433 Classic #6 _____ ~AE -IRS? nnMMM
+TDD-1471515 attempt: 5 LOATH n n m m m
+TDD1407653 Classic #7 ___S_ -AEIR? nYnnn
+TDD-1407568 attempt: 6 LOATH n Y n n n
+TDD1495791 Classic #8 _____ ~S -AEIR? nnnMn
+TDD-1495670 attempt: 7 LOATH n n n m n
+TDD2751211 > * 5
+TDD-495894 ? 1
+TDD-2255487 questioning: rinse
+TDD4959751 Classic #1 _____ ~ALT -EHIORS? nnnnn
+TDD-4959740 attempt: 0 RINSE n n n n n
+TDD1639377 Classic #2 ____H -AEILORST? nnYnn
+TDD-1639410 attempt: 1 RINSE n n Y n n
+TDD1295716 Classic #3 _____ ~HO -AEILRST? nnnnn
+TDD-1295671 attempt: 2 RINSE n n n n n
+TDD1375836 Classic #4 ____H ~R -AEILOST? Mnnnn
+TDD-1375833 attempt: 3 RINSE m n n n n
+TDD3535105 Classic #5 ___SE ~IR -AHLOT? YYYYY
+TDD-3535193 attempt: 4 RINSE Y Y Y Y Y
+TDD1871899 Classic #6 _____ ~AEHT -ILORS? nnnnM
+TDD-1871868 attempt: 5 RINSE n n n n m
+TDD2999946 Classic #7 _O_S_ -AEHILRT? nnnYn
+TDD-2999916 attempt: 6 RINSE n n n Y n
+TDD1127356 Classic #8 _____ ~ST -AEHILOR? nnnMn
+TDD-1127391 attempt: 7 RINSE n n n m n
+TDD3167637 > * 4
+TDD1912193 ? 2
+TDD-5079816 questioning: burgh
+TDD10287704 Classic #1 _____ ~ALT -EHINORS? nMnnn
+TDD-10287651 attempt: 0 BURGH n m n n n
+TDD1911686 Classic #2 __N_H -AEILORST? YYnnY
+TDD-1911685 attempt: 1 BURGH Y Y n n Y
+TDD1391762 Classic #3 _____ ~HO -AEILNRST? nnnnM
+TDD-1391731 attempt: 2 BURGH n n n n m
+TDD1127177 Classic #4 ____H ~R -AEILNOST? nnYnY
+TDD-1127227 attempt: 3 BURGH n n Y n Y
+TDD3047607 Classic #6 _____ ~AEHT -ILNORS? nnnnM
+TDD-3047655 attempt: 5 BURGH n n n n m
+TDD1320076 Classic #7 _O_S_ -AEHILNRT? nnnnn
+TDD-1320007 attempt: 6 BURGH n n n n n
+TDD1487043 Classic #8 _____ ~ST -AEHILNOR? nMnnn
+TDD-1487041 attempt: 7 BURGH n m n n n
+TDD3288066 > * 4
+TDD-3193378 questioning: myrrh
+TDD6545714 Classic #1 _____ ~ALTU -BEGHINORS? nnnnn
+TDD-6640403 attempt: 0 MYRRH n n n n n
+TDD1320561 Classic #2 BUN_H -AEGILORST? nnnnY
+TDD-1320562 attempt: 1 MYRRH n n n n Y
+TDD1174786 Classic #3 _____ ~HO -ABEGILNRSTU? nnnnM
+TDD-1174776 attempt: 2 MYRRH n n n n m
+TDD1247335 Classic #4 __R_H -ABEGILNOSTU? YYYYY
+TDD-1247323 attempt: 3 MYRRH Y Y Y Y Y
+TDD3247313 Classic #6 _____ ~AEHT -BGILNORSU? nnnnM
+TDD-3247334 attempt: 5 MYRRH n n n n m
+TDD3271974 Classic #7 _O_S_ -ABEGHILNRTU? YMnnn
+TDD-3271985 attempt: 6 MYRRH Y m n n n
+TDD1142899 Classic #8 _____ ~STU -ABEGHILNOR? nMnnn
+TDD-1142904 attempt: 7 MYRRH n m n n n
+TDD1671986 > * 8
+TDD-1518347 questioning: study
+TDD5891871 Classic #1 _____ ~ALTU -BEGHIMNORSY? nMYnn
+TDD-6045540 attempt: 0 STUDY n m Y n n
+TDD1207646 Classic #2 BUN_H -AEGILMORSTY? nnMnn
+TDD-1207619 attempt: 1 STUDY n n m n n
+TDD1335537 Classic #3 _____ ~HO -ABEGILMNRSTUY? nnnnn
+TDD-1335520 attempt: 2 STUDY n n n n n
+TDD4207724 Classic #6 _____ ~AEHT -BGILMNORSUY? nMnnn
+TDD-4207758 attempt: 5 STUDY n m n n n
+TDD3712194 Classic #7 MO_S_ ~Y -ABEGHILNRTU? MnnnY
+TDD-3712160 attempt: 6 STUDY m n n n Y
+TDD1303110 Classic #8 _____ ~STUY -ABEGHILMNOR? YYYYY
+TDD-1303113 attempt: 7 STUDY Y Y Y Y Y
+TDD1575547 > * 7
+TDD-1484299 questioning: mossy
+TDD6249106 Classic #1 __U__ ~ALT -BDEGHIMNORSY? nnnnn
+TDD-6340372 attempt: 0 MOSSY n n n n n
+TDD1823488 Classic #2 BUN_H -ADEGILMORSTY? nnnnn
+TDD-1823481 attempt: 1 MOSSY n n n n n
+TDD1343620 Classic #3 _____ ~HO -ABDEGILMNRSTUY? nMnnn
+TDD-1343622 attempt: 2 MOSSY n m n n n
+TDD3719136 Classic #6 _____ ~AEHT -BDGILMNORSUY? nnnnn
+TDD-3719161 attempt: 5 MOSSY n n n n n
+TDD3263874 Classic #7 MO_SY -ABDEGHILNRTU? YYYYY
+TDD-3263848 attempt: 6 MOSSY Y Y Y Y Y
+TDD1903502 > * 2
+TDD-1803785 questioning: bunch
+TDD4536289 Classic #1 __U__ ~ALT -BDEGHIMNORSY? nMnnn
+TDD-4636024 attempt: 0 BUNCH n m n n n
+TDD1159483 Classic #2 BUN_H -ADEGILMORSTY? YYYYY
+TDD-1159465 attempt: 1 BUNCH Y Y Y Y Y
+TDD1519567 Classic #3 _____ ~HO -ABDEGILMNRSTUY? nnnYm
+TDD-1519622 attempt: 2 BUNCH n n n Y m
+TDD5023534 Classic #6 _____ ~AEHT -BDGILMNORSUY? nnnMM
+TDD-5023491 attempt: 5 BUNCH n n n m m
+TDD3535743 > * 6
+TDD-3423661 questioning: cheat
+TDD7144027 Classic #1 __U__ ~ALT -BCDEGHIMNORSY? nnnMY
+TDD-7256073 attempt: 0 CHEAT n n n m Y
+TDD3462957 Classic #3 ___C_ ~HO -ABDEGILMNRSTUY? YYnnn
+TDD-3462956 attempt: 2 CHEAT Y Y n n n
+TDD4207476 Classic #6 _____ ~ACEHT -BDGILMNORSUY? YYYYY
+TDD-4207515 attempt: 5 CHEAT Y Y Y Y Y
+TDD2191552 > [C* 3
+TDD-223799 > 
+TDD280173 > *
+TDD2431755 > * 3
+TDD-4585590 questioning: chock
+TDD5155628 Classic #1 __U_T ~AL -BCDEGHIMNORSY? nnnnn
+TDD-5249658 attempt: 0 CHOCK n n n n n
+TDD1527364 Classic #3 CH_C_ ~O -ABDEGILMNRSTUY? YYYYY
+TDD-1527355 attempt: 2 CHOCK Y Y Y Y Y
+TDD1111352 > * 1
+TDD632733 ? 2
+TDD-1744174 questioning: vault
+TDD2911328 Classic #1 __U_T ~AL -BCDEGHIKMNORSY? YYYYY
+TDD-2911299 attempt: 0 VAULT Y Y Y Y Y
+TDD3040100 📋> Daily Octordle #1439
+TDD-3040219 📋> 🕚8️⃣
+TDD-94 📋> 🔟5️⃣
+TDD-3 📋> 3️⃣9️⃣
+TDD-2 📋> 7️⃣6️⃣
+TDD303568 📋> Score: 59
+TDD-103486 📋> ␚
+TDD-199961 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1439\n\ud83d\udd5a8\ufe0f\u20e3\n\ud83d\udd1f5\ufe0f\u20e3\n3\ufe0f\u20e39\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nScore: 59"}
+TDD37 result: "Daily Octordle #1439\n\ud83d\udd5a8\ufe0f\u20e3\n\ud83d\udd1f5\ufe0f\u20e3\n3\ufe0f\u20e39\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nScore: 59"
+TDD343431 📆 2026-01-02 ? 
