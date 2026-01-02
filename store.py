@@ -340,6 +340,9 @@ class StoredLog:
         finally:
             ui.fin()
 
+    def session_init(self, _ui: PromptUI) -> None:
+        pass
+
     def startup(self, ui: PromptUI) -> PromptUI.State|None:
         self.cmd_site_link(ui)
 
@@ -930,12 +933,13 @@ class StoredLog:
         self.puzzle_id = m[1]
 
     def run(self, ui: PromptUI) -> PromptUI.State|None:
+        ui.print(f'📜 {self.log_file} with {len(self.sessions)} prior sessions over {self.elapsed}')
+
         if self.start is None:
             self.start = datetime.datetime.now(tzlocal())
             if self.site: ui.log(f'site: {self.site}')
             if self.puzzle_id: ui.log(f'puzzle_id: {self.puzzle_id}')
-
-        ui.print(f'📜 {self.log_file} with {len(self.sessions)} prior sessions over {self.elapsed}')
+            self.session_init(ui)
 
         expire = self.expire
         if expire is not None: ui.print(f'⏰ Expires {expire}')
