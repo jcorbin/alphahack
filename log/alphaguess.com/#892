@@ -1,0 +1,55 @@
+T125.20577470699209 now: 2026-01-02T09:16:01EST
+TD57 site: alphaguess.com
+TDD152191 loaded 196537 words from nwl2023.txt eb8161b8301b707def190f197f2722087eca9fadd14c1aa2e84eecbaf59be3ed (66 words excluded) asof 9d55ab8bfbf3da687fe173e62efee997d1674e2c
+TDD5829225  ...
+TDD-3781187 [0 : 98224 : 196537] mach? a
+TDD-2200178 progress: 1 98224 mach
+TDD2335660 [98225 : 147328 : 196537] rho? b
+TDD-2335652 progress: -1 147328 rho
+TDD2135921 [98225 : 122109 : 147328] par? a
+TDD-2135917 progress: 1 122109 par
+TDD1391669 [122110 : 134640 : 147328] prog? a
+TDD-1391650 progress: 1 134640 prog
+TDD1352130 [134641 : 140526 : 147328] rec? a
+TDD-1352153 progress: 1 140526 rec
+TDD1607233 [140527 : 143789 : 147328] rem? a
+TDD-1607239 progress: 1 143789 rem
+TDD1511927 [143790 : 145202 : 147328] res? a
+TDD-1511885 progress: 1 145202 res
+TDD2375661 [145203 : 146261 : 147328] retest? a
+TDD-2375698 progress: 1 146261 retest
+TDD1584015 [146262 : 146693 : 147328] rev? b
+TDD-1584016 progress: -1 146693 rev
+TDD1415822 [146262 : 146477 : 146693] retranslation? a
+TDD-1415795 progress: 1 146477 retranslation
+TDD1423549 [146478 : 146527 : 146693] retro? a
+TDD-1423573 progress: 1 146527 retro
+TDD2335810 [146528 : 146610 : 146693] retrovirologies? !
+TDD3880185 [146528 : 146610 : 146692] retrovirologist? !
+TDD-3864172 [146528 : 146610 : 146691] retrovirology? !
+TDD-479814 [146528 : 146610 : 146690] retrovirus? a
+TDD-1871965 progress: 1 146610 retrovirus
+TDD2120136 [146611 : 146650 : 146690] reunifies? b
+TDD-2120170 progress: -1 146650 reunifies
+TDD1663209 [146611 : 146623 : 146650] return? b
+TDD-1663176 progress: -1 146623 return
+TDD1983972 [146611 : 146614 : 146623] rets? b
+TDD-1983995 progress: -1 146614 rets
+TDD1807468 [146611 : 146612 : 146614] retry? it
+TDD-1807485 progress: 0 146612 retry
+TDD-102 [146611 : 146612 : 146614] <Done>.
+TDD3488396 📋> 🧩 Puzzle #892
+TDD-3488327 📋> 
+TDD-72 📋> 🤔 16 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 37s
+TDD-2 📋> 
+TDD367420 📋> 🔗 alphaguess.com
+TDD-79372 📋> ␚
+TDD-287924 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #892\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 37s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-33 result: "\ud83e\udde9 Puzzle #892\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 37s\n\n\ud83d\udd17 alphaguess.com"
+TDD-81 result puzzle: 892
+TDD-7 result guesses: 16
+TDD-1 result time: 37s
+TDD0 result link: alphaguess.com
+TDD335630 📆 2026-01-02 ? 
