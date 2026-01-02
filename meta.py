@@ -788,19 +788,19 @@ class Meta(Arguable):
         def collect_deet_secs():
             for _solver_i, day, _note, head, body in self.read_status(ui):
                 if day == today:
-                    yield head, body
+                    yield head, 1, body
 
-        def deet_sec(head: str, body: Iterable[str]):
-            yield f'# {head}'
+        def deet_sec(head: str, body: Iterable[str], level: int=1):
+            yield f'{"#"*level} {head}'
             yield ''
             for line in trim_lines(body):
                 yield f'> {line}'
 
         def collect_deets() -> Generator[str]:
             first = True
-            for head, body in collect_deet_secs():
+            for head, level, body in collect_deet_secs():
                 if not first: yield ''
-                yield from deet_sec(head, body)
+                yield from deet_sec(head, body, level)
                 first = False
 
         def head_note() -> Generator[str]:
@@ -852,8 +852,8 @@ class Meta(Arguable):
             'head': lambda ui: share_things(ui, 'Header'),
             'details': ui.Prompt('details> ', {
                 'each': lambda ui: share_items(ui, *(
-                    (head, deet_sec(head, body))
-                    for head, body in collect_deet_secs()
+                    (head, deet_sec(head, body, level))
+                    for head, level, body in collect_deet_secs()
                 )),
                 'all': lambda ui: share_things(ui, 'Details'),
             }),
