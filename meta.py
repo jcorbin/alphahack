@@ -694,29 +694,37 @@ class Meta(Arguable):
             if head:
                 day_sections.setdefault(day, set()).add(head)
 
+        prune_sections: set[str] = set()
+
         today = datetime.datetime.today().date()
-        today_solves = day_solves.get(today, ())
-        today_solved = all(
-            i in today_solves
-            for i in range(len(solver_harness)))
 
         # TODO once share records state, determine today_shared
 
-        ui.print(f'today: {today}')
-        ui.print(f'today_solves: {today_solves}')
-        ui.print(f'today_solved: {today_solved}')
+        for day, solves in day_solves.items():
+            prune = False
 
-        for day in day_solves:
             ui.write(f'- {day}')
-            ui.write(f' solves: {day_solves[day]}')
+
+            if day == today:
+                solved = all(
+                    solver_i in solves
+                    for solver_i in range(len(solver_harness)))
+                if solved: # TODO and shared
+                    prune = True
+                ui.write(f' today solved: {solved}')
+
+            else:
+                ui.write(f' solves: {solves}')
+
             ui.fin()
+
+            if prune:
+                prune_sections.add(str(day))
+
             for section in day_sections.get(day, ()):
                 ui.print(f'  * {section}')
-
-        prune_sections: set[str] = set()
-        if today_solved: # TODO and today_shared
-            prune_sections.add(str(today))
-            prune_sections.update(day_sections.get(today, ()))
+                if prune:
+                    prune_sections.add(section)
 
         # TODO prune_sections.update(day_sections[None])
         # TODO prune_sections.update(day_sections[ older days ])
