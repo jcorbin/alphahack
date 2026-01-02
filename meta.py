@@ -783,7 +783,7 @@ class Meta(Arguable):
                 if day != today:
                     yield f'! {day} {note}'
                 else:
-                    yield note
+                    yield f'- {note}'
 
         def collect_deet_secs():
             for _solver_i, day, _note, head, body in self.read_status(ui):
@@ -803,21 +803,19 @@ class Meta(Arguable):
                 yield from deet_sec(head, body)
                 first = False
 
-        def head_note():
+        def head_note() -> Generator[str]:
             yield f'# {today}'
             yield f''
-            for note in collect_notes():
-                yield f'- {note}'
+            yield from collect_notes()
 
         # TODO { reuse link from / save summary to } report file
         link: str = ''
 
-        def summary():
+        def summary() -> Generator[str]:
             nonlocal link
             if not link:
                 link = ui.may_paste(subject='Share Details Link')
-            for note in sum_notes(collect_notes()):
-                yield f'- {note}'
+            yield from sum_notes(collect_notes())
             if link:
                 yield f''
                 yield f'Details and spoilers: {link}'
