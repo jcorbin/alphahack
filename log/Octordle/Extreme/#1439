@@ -1,0 +1,192 @@
+T2636.6905573310214 now: 2026-01-02T10:30:34EST
+TD75 site: britannica.com/games/octordle/extreme
+TDD-62 wordlist: nwl2023.txt
+TDD-9 num_words: 8
+TDD3494088  ...
+TDD-1806171 > * 1
+TDD-487906 ? 1
+TDD-1199800 questioning: dares
+TDD2751739 Extreme #1 _____? nnnMn
+TDD-2751705 attempt: 0 DARES n n n m n
+TDD2231715 Extreme #2 _____? nnYMn
+TDD-2231719 attempt: 1 DARES n n Y m n
+TDD1191317 Extreme #3 _____? nnnnn
+TDD-1191334 attempt: 2 DARES n n n n n
+TDD2303711 Extreme #4 _____? nnnnM
+TDD-2303695 attempt: 3 DARES n n n n m
+TDD5207521 Extreme #5 _____? nnMnn
+TDD-5207520 attempt: 4 DARES n n m n n
+TDD1799877 Extreme #6 _____? nnMnn
+TDD-1799848 attempt: 5 DARES n n m n n
+TDD1495404 Extreme #7 _____? nnMYn
+TDD-1495418 attempt: 6 DARES n n m Y n
+TDD1143903 Extreme #8 _____? nMnnn
+TDD-1143914 attempt: 7 DARES n m n n n
+TDD6015132 > * 3
+TDD-3023402 ? 3
+TDD-2991795 questioning: litho
+TDD4847627 Extreme #1 _____ ~E -ADRS? nMnMn
+TDD-4847556 attempt: 0 LITHO n m n m n
+TDD1143574 Extreme #2 __R__ ~E -ADS? nnnnn
+TDD-1143595 attempt: 1 LITHO n n n n n
+TDD1719399 Extreme #3 _____ -ADERS? nnnnM
+TDD-1719400 attempt: 2 LITHO n n n n m
+TDD3008025 Extreme #4 _____ ~S -ADER? YnMnn
+TDD-3008009 attempt: 3 LITHO Y n m n n
+TDD3455214 Extreme #5 _____ ~R -ADES? nMnnn
+TDD-3455114 attempt: 4 LITHO n m n n n
+TDD1271301 Extreme #6 _____ ~R -ADES? nMMnM
+TDD-1271401 attempt: 5 LITHO n m m n m
+TDD1400048 Extreme #7 ___E_ ~R -ADS? nnnnn
+TDD-1400049 attempt: 6 LITHO n n n n n
+TDD2982921 Extreme #8 _____ ~A -DERS? MYYnn
+TDD-2982907 attempt: 7 LITHO m Y Y n n
+TDD1927888 > * 8
+TDD-1830004 questioning: vital
+TDD5979487 Extreme #1 _____ ~EHI -ADLORST? MMnnn
+TDD-6077395 attempt: 0 VITAL m m n n n
+TDD1743651 Extreme #2 __R__ ~E -ADHILOST? nnnnn
+TDD-1743668 attempt: 1 VITAL n n n n n
+TDD1383510 Extreme #3 _____ ~O -ADEHILRST? nnnnn
+TDD-1383492 attempt: 2 VITAL n n n n n
+TDD1727456 Extreme #4 L____ ~ST -ADEHIOR? nnMnM
+TDD-1727528 attempt: 3 VITAL n n m n m
+TDD3951819 Extreme #5 _____ ~IR -ADEHLOST? nMnnn
+TDD-3951811 attempt: 4 VITAL n m n n n
+TDD1455559 Extreme #6 _____ ~IORT -ADEHLS? nMMnn
+TDD-1455493 attempt: 5 VITAL n m m n n
+TDD1367602 Extreme #7 ___E_ ~R -ADHILOST? nnnnn
+TDD-1367609 attempt: 6 VITAL n n n n n
+TDD1464107 Extreme #8 _IT__ ~AL -DEHORS? YYYYY
+TDD-1464167 attempt: 7 VITAL Y Y Y Y Y
+TDD2927091 > * 1
+TDD-2772884 questioning: chive
+TDD4499406 Extreme #1 _____ ~EHIV -ADLORST? YYYYY
+TDD-4653554 attempt: 0 CHIVE Y Y Y Y Y
+TDD1367923 Extreme #2 __R__ ~E -ADHILOSTV? nnnnM
+TDD-1367967 attempt: 1 CHIVE n n n n m
+TDD1255314 Extreme #3 _____ ~O -ADEHILRSTV? nnnnn
+TDD-1255340 attempt: 2 CHIVE n n n n n
+TDD1127645 Extreme #4 L____ ~ST -ADEHIORV? nnnnn
+TDD-1127576 attempt: 3 CHIVE n n n n n
+TDD4335614 Extreme #5 _____ ~IR -ADEHLOSTV? nnMnn
+TDD-4335666 attempt: 4 CHIVE n n m n n
+TDD1199765 Extreme #6 _____ ~IORT -ADEHLSV? nnMnn
+TDD-1199691 attempt: 5 CHIVE n n m n n
+TDD1639892 Extreme #7 ___E_ ~R -ADHILOSTV? nnnnM
+TDD-1639858 attempt: 6 CHIVE n n n n m
+TDD1767447 > * 7
+TDD-56417 ? ␚
+TDD-1711248 <EOF>
+TDD5360262 > * 6
+TDD-5226222 questioning: orbit
+TDD4467869 Extreme #2 __R__ ~E -ACDHILOSTV? nMnnn
+TDD-4601718 attempt: 1 ORBIT n m n n n
+TDD1767255 Extreme #3 _____ ~O -ACDEHILRSTV? Mnnnn
+TDD-1767294 attempt: 2 ORBIT m n n n n
+TDD1615750 Extreme #4 L____ ~ST -ACDEHIORV? nnnnM
+TDD-1615647 attempt: 3 ORBIT n n n n m
+TDD4511186 Extreme #5 _____ ~IR -ACDEHLOSTV? nYMYn
+TDD-4511272 attempt: 4 ORBIT n Y m Y n
+TDD2064003 Extreme #6 _____ ~IORT -ACDEHLSV? YYYYY
+TDD-2064057 attempt: 5 ORBIT Y Y Y Y Y
+TDD1831197 Extreme #7 ___E_ ~R -ACDHILOSTV? nYnnn
+TDD-1831148 attempt: 6 ORBIT n Y n n n
+TDD3360003 > * 5
+TDD-3265026 questioning: bruin
+TDD6401305 Extreme #2 __R__ ~E -ABCDHILOSTV? nMnnn
+TDD-6496259 attempt: 1 BRUIN n m n n n
+TDD1559717 Extreme #3 _____ ~O -ABCDEHILRSTV? nnMnn
+TDD-1559761 attempt: 2 BRUIN n n m n n
+TDD2143362 Extreme #4 L____ ~ST -ABCDEHIORV? nnMnn
+TDD-2143378 attempt: 3 BRUIN n n m n n
+TDD3087787 Extreme #5 _R_I_ ~B -ACDEHLOSTV? YYYYY
+TDD-3087744 attempt: 4 BRUIN Y Y Y Y Y
+TDD2159538 Extreme #7 _R_E_ -ABCDHILOSTV? nYnnn
+TDD-2159546 attempt: 6 BRUIN n Y n n n
+TDD2399422 > * 4
+TDD-2307642 questioning: lusty
+TDD5640611 Extreme #2 __R__ ~E -ABCDHILNOSTUV? nnnnY
+TDD-5732443 attempt: 1 LUSTY n n n n Y
+TDD1495217 Extreme #3 _____ ~OU -ABCDEHILNRSTV? nMnnn
+TDD-1495150 attempt: 2 LUSTY n m n n n
+TDD2567656 Extreme #4 L____ ~STU -ABCDEHINORV? YYYYY
+TDD-2567706 attempt: 3 LUSTY Y Y Y Y Y
+TDD4359557 Extreme #7 _R_E_ -ABCDHILNOSTUV? nnnnn
+TDD-4359524 attempt: 6 LUSTY n n n n n
+TDD1751530 > * 3
+TDD-1652496 questioning: kokum
+TDD5321461 Extreme #2 __R_Y ~E -ABCDHILNOSTUV? nnnnn
+TDD-5420518 attempt: 1 KOKUM n n n n n
+TDD2071683 Extreme #3 _____ ~OU -ABCDEHILNRSTVY? nYnYn
+TDD-2071625 attempt: 2 KOKUM n Y n Y n
+TDD5543475 Extreme #7 _R_E_ -ABCDHILNOSTUVY? nnnnn
+TDD-5543560 attempt: 6 KOKUM n n n n n
+TDD1368084 > * 7
+TDD-1275059 questioning: freer
+TDD6381938 Extreme #2 __R_Y ~E -ABCDHIKLMNOSTUV? YMMnM
+TDD-6474908 attempt: 1 FREER Y m m n m
+TDD1503144 Extreme #3 _O_U_ -ABCDEHIKLMNRSTVY? nnnnn
+TDD-1503062 attempt: 2 FREER n n n n n
+TDD3087243 Extreme #7 _R_E_ -ABCDHIKLMNOSTUVY? YYYYY
+TDD-3087380 attempt: 6 FREER Y Y Y Y Y
+TDD1327786 > * 2
+TDD-1237790 questioning: ferry
+TDD4851454 Extreme #2 F_R_Y ~E -ABCDHIKLMNOSTUV E:1? YYYYY
+TDD-4941403 attempt: 1 FERRY Y Y Y Y Y
+TDD2271725 Extreme #3 _O_U_ -ABCDEFHIKLMNRSTVY? nnnnn
+TDD-2271585 attempt: 2 FERRY n n n n n
+TDD1109267940 > tried wojus
+TDD-1109268047 questioning: wojus
+TDD4703575 Extreme #3 _O_U_ -ABCDEFHIKLMNRSTVY? nYnYn
+TDD-4703503 attempt: 2 WOJUS n Y n Y n
+TDD109352697 > tried rogue
+TDD-109352768 questioning: rogue
+TDD11759403 Extreme #3 _O_U_ -ABCDEFHIJKLMNRSTVWY? nYnYn
+TDD-11759325 attempt: 2 ROGUE n Y n Y n
+TDD6167468 > /res
+TDD776898 📋> Daily Extreme Octordle #1439
+TDD-6944589 📋> 4️⃣🔟
+TDD-95 📋> 🟥7️⃣
+TDD-6 📋> 6️⃣5️⃣
+TDD0 📋> 9️⃣3️⃣
+TDD383419 📋> Score: 57
+TDD-159431 📋> ␚
+TDD-223876 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Daily Extreme Octordle #1439\n4\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udfe57\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\n9\ufe0f\u20e33\ufe0f\u20e3\nScore: 57"}
+TDD40 result: "Daily Extreme Octordle #1439\n4\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udfe57\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\n9\ufe0f\u20e33\ufe0f\u20e3\nScore: 57"
+TDD3111318 > /store
+TDD-2334902 📆 2026-01-02 ? ␚
+TDD-776454 <EOF>
+TDD1168922 > ␚
+TDD-1168955 <EOF>
+TDD2021939 > ␚
+TDD-2021964 <EOF>
+TDD480055 > ␚
+TDD-480033 <EOF>
+TDD152051 > ␚
+TDD-152062 <EOF>
+TDD287786 > ␚
+TDD-287786 <EOF>
+TDD287877 > ␚
+TDD-287868 <EOF>
+TDD256171 > ␚
+TDD-256168 <EOF>
+TDD175270 > ␚
+TDD-175276 <EOF>
+TDD167981 > ␚
+TDD-167981 <EOF>
+TDD159673 > ␚
+T15858.916391142993 now: 2026-01-02T15:19:03EST
+TD152 questioning: rogue
+TDD8368957 > /res
+TDD-7720352 📋> Daily Extreme Octordle #1439
+TDD-648643 📋> 4️⃣🔟
+TDD-98 📋> 🟥7️⃣
+TDD-3 📋> 6️⃣5️⃣
+TDD-3 📋> 9️⃣3️⃣
+TDD318908 📋> Score: 57
+TDD-87016 📋> ␚
+TDD-231761 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Daily Extreme Octordle #1439\n4\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udfe57\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\n9\ufe0f\u20e33\ufe0f\u20e3\nScore: 57"}
+TDD52 result: "Daily Extreme Octordle #1439\n4\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udfe57\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\n9\ufe0f\u20e33\ufe0f\u20e3\nScore: 57"
+TDD1191297 > /store
+TDD-575043 📆 2026-01-02 ? 
