@@ -899,6 +899,8 @@ class Search(StoredLog):
             self.system_prompt = self.default_system_prompt
         if self.system_prompt:
             ui.log(f'system_prompt: {json.dumps(self.system_prompt)}')
+        if self.auto_affix:
+            ui.log(f'auto_affix: {json.dumps(self.auto_affix)}')
 
     @override
     def startup(self, ui: PromptUI):
