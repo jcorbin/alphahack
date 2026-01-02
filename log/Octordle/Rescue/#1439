@@ -1,0 +1,162 @@
+T2205.6690939130203 now: 2026-01-02T10:23:23EST
+TD64 site: britannica.com/games/octordle/daily-rescue
+TDD-50 wordlist: nwl2023.txt
+TDD-10 num_words: 8
+TDD4510170  ...
+TDD-1446055 > tried pedal
+TDD-3063979 questioning: pedal
+TDD1391355 Rescue #1 _____? nMYnn
+TDD-1391327 attempt: 0 PEDAL n m Y n n
+TDD1231813 Rescue #2 _____? nMnnn
+TDD-1231808 attempt: 1 PEDAL n m n n n
+TDD1648136 Rescue #3 _____? nMnnM
+TDD-1648061 attempt: 2 PEDAL n m n n m
+TDD1559448 Rescue #4 _____? YMnnn
+TDD-1559438 attempt: 3 PEDAL Y m n n n
+TDD5920079 Rescue #5 _____? nMnnM
+TDD-5920080 attempt: 4 PEDAL n m n n m
+TDD1271238 Rescue #6 _____? MMnnn
+TDD-1271241 attempt: 5 PEDAL m m n n n
+TDD1391562 Rescue #7 _____? nnnMn
+TDD-1391570 attempt: 6 PEDAL n n n m n
+TDD1207428 Rescue #8 _____? nnnMM
+TDD-1207435 attempt: 7 PEDAL n n n m m
+TDD3535115 > * 7
+TDD-1854812 ? 1
+TDD-1680377 questioning: roans
+TDD4847088 Rescue #1 __D__ ~E -ALP? MMnnn
+TDD-4846986 attempt: 0 ROANS m m n n n
+TDD1359329 Rescue #2 _____ ~E -ADLP? nMnnn'
+TDD-1359304 attempt: 1 ROANS n m n n n
+TDD3311506 Rescue #3 _____ ~EL -ADP? Mnnnn
+TDD-3311586 attempt: 2 ROANS m n n n n
+TDD1783861 Rescue #4 P____ ~E -ADL? Mnnnn
+TDD-1783856 attempt: 3 ROANS m n n n n
+TDD3079543 Rescue #5 _____ ~EL -ADP? nnnnn
+TDD-3079593 attempt: 4 ROANS n n n n n
+TDD1935596 Rescue #6 _____ ~EP -ADL? nnnnM
+TDD-1935531 attempt: 5 ROANS n n n n m
+TDD2735658 Rescue #7 _____ ~A -DELP? MnYnn
+TDD-2735634 attempt: 6 ROANS m n Y n n
+TDD1495757 Rescue #8 _____ ~AL -DEP? nYMnn
+TDD-1495764 attempt: 7 ROANS n Y m n n
+TDD2031402 > * 1
+TDD-439822 ? 2
+TDD-1591671 questioning: order
+TDD3895957 Rescue #1 __D__ ~EOR -ALNPS? YYYYY
+TDD-3895876 attempt: 0 ORDER Y Y Y Y Y
+TDD1735763 Rescue #2 _____ ~EO -ADLNPRS? MnnMn
+TDD-1735754 attempt: 1 ORDER m n n m n
+TDD1631412 Rescue #3 _____ ~ELR -ADNOPS? nnnYY
+TDD-1631407 attempt: 2 ORDER n n n Y Y
+TDD1463775 Rescue #4 P____ ~ER -ADLNOS? nMnMn
+TDD-1463756 attempt: 3 ORDER n m n m n
+TDD3039182 Rescue #5 _____ ~EL -ADNOPRS? nnnMn
+TDD-3039208 attempt: 4 ORDER n n n m n
+TDD1279458 Rescue #6 _____ ~EPS -ADLNOR? nnnYn
+TDD-1279472 attempt: 5 ORDER n n n Y n
+TDD1487248 Rescue #7 __A__ ~R -DELNOPS? nYnnn
+TDD-1487298 attempt: 6 ORDER n Y n n n
+TDD1703799 Rescue #8 _O___ ~AL -DENPRS? Mnnnn
+TDD-1703805 attempt: 7 ORDER m n n n n
+TDD22255826 > * 4
+TDD-22167634 questioning: purge
+TDD6415312 Rescue #2 _____ ~EO -ADLNPRS? nnnnY
+TDD-6503504 attempt: 1 PURGE n n n n Y
+TDD1431871 Rescue #3 ___ER ~L -ADNOPS? nMMnM
+TDD-1431767 attempt: 2 PURGE n m m n m
+TDD1551423 Rescue #4 P____ ~ER -ADLNOS R:1? YYYYY
+TDD-1551442 attempt: 3 PURGE Y Y Y Y Y
+TDD3887427 Rescue #5 _____ ~EL -ADNOPRS? nYnnY
+TDD-3887495 attempt: 4 PURGE n Y n n Y
+TDD1367818 Rescue #6 ___E_ ~PS -ADLNOR? MnnnM
+TDD-1367758 attempt: 5 PURGE m n n n m
+TDD3191293 Rescue #7 _RA__ -DELNOPS? nnMnn
+TDD-3191371 attempt: 6 PURGE n n m n n
+TDD1287605 Rescue #8 _O___ ~AL -DENPRS? nnnnn
+TDD-1287575 attempt: 7 PURGE n n n n n
+TDD2504049 > * 3
+TDD-440757 ? 1
+TDD-2063344 questioning: ulcer
+TDD8600258 Rescue #2 ____E ~O -ADGLNPRSU? nnnMn
+TDD-8600156 attempt: 1 ULCER n n n m n
+TDD2583547 Rescue #3 ___ER ~LU -ADGNOPS? MYnYY
+TDD-2583552 attempt: 2 ULCER m Y n Y Y
+TDD3399490 Rescue #5 _U__E ~L -ADGNOPRS? MMnMn
+TDD-3399502 attempt: 4 ULCER m m n m n
+TDD1439365 Rescue #6 ___E_ ~PS -ADGLNORU? nnnYn
+TDD-1439349 attempt: 5 ULCER n n n Y n
+TDD2327496 Rescue #7 _RA__ -DEGLNOPSU? nnMnM
+TDD-2327495 attempt: 6 ULCER n n m n m
+TDD1151891 Rescue #8 _O___ ~AL -DEGNPRSU? nMnnn
+TDD-1151900 attempt: 7 ULCER n m n n n
+TDD2007256 > * 3
+TDD-1919038 questioning: bluer
+TDD5687158 Rescue #2 ____E ~O -ACDGLNPRSU? nnnMn
+TDD-5775385 attempt: 1 BLUER n n n m n
+TDD1167632 Rescue #3 _L_ER ~U -ACDGNOPS? YYYYY
+TDD-1167641 attempt: 2 BLUER Y Y Y Y Y
+TDD4759357 Rescue #5 _U__E ~L -ACDGNOPRS? nMMMn
+TDD-4759383 attempt: 4 BLUER n m m m n
+TDD1855520 Rescue #6 ___E_ ~PS -ACDGLNORU? nnnYn
+TDD-1855546 attempt: 5 BLUER n n n Y n
+TDD1392114 Rescue #7 _RA__ ~C -DEGLNOPSU? nnnnM
+TDD-1392101 attempt: 6 BLUER n n n n m
+TDD1303497 Rescue #8 _O___ ~AL -CDEGNPRSU? nMnnn
+TDD-1303442 attempt: 7 BLUER n m n n n
+TDD2791372 > * 2
+TDD-463701 ? 1
+TDD-2327678 questioning: evoke
+TDD4271683 Rescue #2 ____E ~O -ABCDGLNPRSU? YYYYY
+TDD-4271730 attempt: 1 EVOKE Y Y Y Y Y
+TDD3911437 Rescue #5 _U__E ~L -ABCDGNOPRS? nnnnY
+TDD-3911448 attempt: 4 EVOKE n n n n Y
+TDD1624019 Rescue #6 ___E_ ~PS -ABCDGLNORU? MnnnM
+TDD-1623969 attempt: 5 EVOKE m n n n m
+TDD1327335 Rescue #7 _RA__ ~C -BDEGLNOPSU? nnnnn
+TDD-1327330 attempt: 6 EVOKE n n n n n
+TDD2015658 Rescue #8 _O___ ~AL -BCDEGNPRSU? nMMnn
+TDD-2015660 attempt: 7 EVOKE n m m n n
+TDD1975395 > * 5
+TDD2312928 ? ␚
+TDD-4288456 <EOF>
+TDD1704062 > * 6
+TDD2831376 ? 1
+TDD-4535385 questioning: steep
+TDD4224004 Rescue #5 _U__E ~L -ABCDGKNOPRSV? nMMnn
+TDD-4223950 attempt: 4 STEEP n m m n n
+TDD1319368 Rescue #6 ___E_ ~PS -ABCDGKLNORUV? YYYYY
+TDD-1319372 attempt: 5 STEEP Y Y Y Y Y
+TDD1887847 Rescue #7 _RA__ ~C -BDEGKLNOPSUV? nMnnn
+TDD-1887843 attempt: 6 STEEP n m n n n
+TDD1191397 Rescue #8 _O___ ~ALV -BCDEGKNPRSU? nnnnn
+TDD-1191373 attempt: 7 STEEP n n n n n
+TDD1927563 > * 7
+TDD-167475 ? 1
+TDD-1760118 questioning: craft
+TDD3303445 Rescue #5 _U__E ~LT -ABCDGKNOPRSV E:1? nnnnM
+TDD-3303387 attempt: 4 CRAFT n n n n m
+TDD1919664 Rescue #7 _RA__ ~CT -BDEGKLNOPSUV? MYYnY
+TDD-1919677 attempt: 6 CRAFT m Y Y n Y
+TDD1768513 Rescue #8 _O___ ~ALV -BCDEGKNPRSTU? nnMnn
+TDD-1768515 attempt: 7 CRAFT n n m n n
+TDD1599159 > * 7
+TDD-1507331 questioning: tract
+TDD10743225 Rescue #5 _U__E ~LT -ABCDFGKNOPRSV E:1? Ynnnn
+TDD-10835115 attempt: 4 TRACT Y n n n n
+TDD1312325 Rescue #7 _RA_T ~C -BDEFGKLNOPSUV? YYYYY
+TDD-1312295 attempt: 6 TRACT Y Y Y Y Y
+TDD1246919 Rescue #8 _O___ ~ALV -BCDEFGKNPRSTU? nnMnn
+TDD-1246889 attempt: 7 TRACT n n m n n
+TDD6055371 > /res
+TDD-5383069 📋> Daily Rescue Octordle #1439
+TDD-672456 📋> 6️⃣🔟
+TDD-69 📋> 9️⃣7️⃣
+TDD-4 📋> 🟥🕚
+TDD-1 📋> 🕐🟥
+TDD296145 📋> Score: 6
+TDD-88577 📋> ␚
+TDD-207489 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1439\n6\ufe0f\u20e3\ud83d\udd1f\n9\ufe0f\u20e37\ufe0f\u20e3\n\ud83d\udfe5\ud83d\udd5a\n\ud83d\udd50\ud83d\udfe5\nScore: 6"}
+TDD29 result: "Daily Rescue Octordle #1439\n6\ufe0f\u20e3\ud83d\udd1f\n9\ufe0f\u20e37\ufe0f\u20e3\n\ud83d\udfe5\ud83d\udd5a\n\ud83d\udd50\ud83d\udfe5\nScore: 6"
+TDD1559786 > /store
+TDD-895888 📆 2026-01-02 ? 
