@@ -894,24 +894,25 @@ class Search(StoredLog):
         return True
 
     @override
-    def startup(self, ui: PromptUI):
-        if self.startup_done: return self.orient
-
+    def session_init(self, ui: PromptUI) -> None:
         if not self.system_prompt:
             self.system_prompt = self.default_system_prompt
-
         if self.system_prompt:
             ui.log(f'system_prompt: {json.dumps(self.system_prompt)}')
 
-        self.do_startup_scrape(ui)
+    @override
+    def startup(self, ui: PromptUI):
+        if not self.startup_done:
+            self.do_startup_scrape(ui)
+            if not self.puzzle_id:
+                ui.br()
+                self.do_site(ui)
+                self.do_lang(ui)
+                self.do_puzzle(ui)
+                if not self.puzzle_id: return
+            return self.startup_scale
 
-        if not self.puzzle_id:
-            ui.br()
-            self.do_site(ui)
-            self.do_lang(ui)
-            self.do_puzzle(ui)
-            if not self.puzzle_id: return
-        return self.startup_scale
+        return self.orient
 
     def do_startup_scrape(self, ui: PromptUI):
         ui.write('Scraping index...')
