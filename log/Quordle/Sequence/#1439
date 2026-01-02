@@ -1,0 +1,103 @@
+T1972.6992192710168 now: 2026-01-02T10:19:30EST
+TD111 site: m-w.com/games/quordle/#/sequence
+TDD-89 wordlist: nwl2023.txt
+TDD-14 num_words: 4
+TDD3333427  ...
+TDD-2181376 > * 1
+TDD2256045 ? Ynnnn
+TDD-1527879 ? 1
+TDD-1880025 questioning: earls
+TDD1359456 Sequence #1 _____? Ynnnn
+TDD-1359469 attempt: 0 EARLS Y n n n n
+TDD1799773 > * 1
+TDD-479325 ? 1
+TDD-1320432 questioning: ebony
+TDD4726982 Sequence #1 E____ -ALRS? Ynnnn
+TDD-4727001 attempt: 0 EBONY Y n n n n
+TDD1511501 > * 1
+TDD1576406 ? 1
+TDD-3087864 questioning: eight
+TDD2455439 Sequence #1 E____ -ABLNORSY? YnnnM
+TDD-2455448 attempt: 0 EIGHT Y n n n m
+TDD1703809 > * 1
+TDD191773 ? 2
+TDD-1895578 questioning: etude
+TDD2695810 Sequence #1 E____ ~T -ABGHILNORSY? YYYYY
+TDD-2695773 attempt: 0 ETUDE Y Y Y Y Y
+TDD-208 questioning: EARLS
+TDD3439386 Sequence #2 _____? nnnnM
+TDD-3439199 attempt: 1 EARLS n n n n m
+TDD-191 questioning: EBONY
+TDD1279727 Sequence #2 _____ ~S -AELR? nnnnY
+TDD-1279600 attempt: 1 EBONY n n n n Y
+TDD-142 questioning: EIGHT
+TDD1655843 Sequence #2 ____Y ~S -ABELNOR? nnnnn
+TDD-1655688 attempt: 1 EIGHT n n n n n
+TDD-152 questioning: ETUDE
+TDD3391704 Sequence #2 ____Y ~S -ABEGHILNORT? nnMnn
+TDD-3391564 attempt: 1 ETUDE n n m n n
+TDD1551791 > * 2
+TDD4584132 ? 5
+TDD-6135898 questioning: sucky
+TDD7231682 Sequence #2 ____Y ~SU -ABDEGHILNORT? MYnYY
+TDD-7231622 attempt: 1 SUCKY m Y n Y Y
+TDD1423290 > * 2
+TDD-1331233 questioning: musky
+TDD3863661 Sequence #2 _U_KY ~S -ABCDEGHILNORT? YYYYY
+TDD-3955777 attempt: 1 MUSKY Y Y Y Y Y
+TDD-162 questioning: EARLS
+TDD2959780 Sequence #3 _____? nMMnM
+TDD-2959595 attempt: 2 EARLS n m m n m
+TDD-189 questioning: EBONY
+TDD1407545 Sequence #3 _____ ~ARS -EL? nnnnn
+TDD-1407396 attempt: 2 EBONY n n n n n
+TDD-142 questioning: EIGHT
+TDD2383686 Sequence #3 _____ ~ARS -BELNOY? nnMnn
+TDD-2383527 attempt: 2 EIGHT n n m n n
+TDD-166 questioning: ETUDE
+TDD1240340 Sequence #3 _____ ~AGRS -BEHILNOTY? nnnnn
+TDD-1240153 attempt: 2 ETUDE n n n n n
+TDD-176 questioning: SUCKY
+TDD1543081 Sequence #3 _____ ~AGRS -BDEHILNOTUY? Mnnnn
+TDD-1542933 attempt: 2 SUCKY m n n n n
+TDD-158 questioning: MUSKY
+TDD1095795 Sequence #3 _____ ~AGRS -BCDEHIKLNOTUY? nnMnn
+TDD-1095634 attempt: 2 MUSKY n n m n n
+TDD1191624 > * 3
+TDD-1072455 questioning: grasp
+TDD3505441 Sequence #3 _____ ~AGRS -BCDEHIKLMNOTUY? YYYYY
+TDD-3624626 attempt: 2 GRASP Y Y Y Y Y
+TDD-147 questioning: EARLS
+TDD2151661 Sequence #4 _____? MnMnn
+TDD-2151514 attempt: 3 EARLS m n m n n
+TDD-145 questioning: EBONY
+TDD1768355 Sequence #4 _____ ~ER -ALS? MnMnn
+TDD-1768105 attempt: 3 EBONY m n m n n
+TDD-226 questioning: EIGHT
+TDD1271175 Sequence #4 _____ ~EOR -ABLNSY? Mnnnn
+TDD-1270995 attempt: 3 EIGHT m n n n n
+TDD-188 questioning: ETUDE
+TDD2335711 Sequence #4 _____ ~EOR -ABGHILNSTY? MnnYn
+TDD-2335517 attempt: 3 ETUDE m n n Y n
+TDD-195 questioning: SUCKY
+TDD1375690 Sequence #4 ___D_ ~EOR -ABGHILNSTUY E:1? nnMnn
+TDD-1375489 attempt: 3 SUCKY n n m n n
+TDD-198 questioning: MUSKY
+TDD1159954 Sequence #4 ___D_ ~CEOR -ABGHIKLNSTUY E:1? nnnnn
+TDD-1159759 attempt: 3 MUSKY n n n n n
+TDD-194 questioning: GRASP
+TDD2359346 Sequence #4 ___D_ ~CEOR -ABGHIKLMNSTUY E:1? nYnnn
+TDD-2359146 attempt: 3 GRASP n Y n n n
+TDD1271521 > * 4
+TDD-1176500 questioning: credo
+TDD7121526 Sequence #4 _R_D_ ~CEO -ABGHIKLMNPSTUY E:1? YYYYY
+TDD-7216613 attempt: 3 CREDO Y Y Y Y Y
+TDD4136124 📋> Daily Sequence Quordle 1439
+TDD-4136193 📋> 4️⃣6️⃣
+TDD-88 📋> 7️⃣8️⃣
+TDD-4 📋> m-w.com/games/quordle/
+TDD343556 📋> 
+TDD-159736 📋> ␚
+TDD-183735 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1439\n4\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD53 result: "Daily Sequence Quordle 1439\n4\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD287821 📆 2026-01-02 ? 
