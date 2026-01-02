@@ -1,0 +1,97 @@
+T304.4796873169835 now: 2026-01-02T09:19:01EST
+TD94 site: https://play.dictionary.com/games/todays-hurdle
+TDD-43 wordlist: nwl2023.txt
+TDD3461597  ...
+TDD2818586 1.1> *
+TDD-5304595 1.1 ? 1
+TDD31848836 1.1 📋 "teals" ? nnYMn
+TDD-32824285 tried: TEALS n n Y m n
+TDD1287553 1.2> *
+TDD8554 1.2 ? 1
+TDD2975679 1.2 📋 "grail" ? nMYnM
+TDD-4271795 tried: GRAIL n m Y n m
+TDD935532 1.3> *
+TDD1464107 1.3 ? 5
+TDD1080650 1.3 📋 "alarm" ? YYYYY
+TDD-3480225 tried: ALARM Y Y Y Y Y
+TDD15863436 2.1 📋 "alarm" ? YnMnn
+TDD-15863507 tried: ALARM Y n m n n
+TDD1967611 2.2> *
+TDD-55650 2.2 ? 1
+TDD2288069 2.2 📋 "antes" ? YMnnn
+TDD-4199977 tried: ANTES Y m n n n
+TDD759302 2.3> *
+TDD984389 2.3 ? 2
+TDD5592243 2.3 📋 "agony" ? YnnMn
+TDD-7335992 tried: AGONY Y n n m n
+TDD983699 2.4> *
+TDD696301 2.4 ? 1
+TDD1823775 2.4 📋 "avian" ? YYYYY
+TDD-3503758 tried: AVIAN Y Y Y Y Y
+TDD7463740 3.1 📋 "avian" ? nnnYY
+TDD-7463758 tried: AVIAN n n n Y Y
+TDD527654 3.2> *
+TDD768095 3.2 ? 1
+TDD2280247 3.2 📋 "roman" ? MMnYY
+TDD-3575996 tried: ROMAN m m n Y Y
+TDD447645 3.3> *
+TDD2488037 3.3 ? 2
+TDD1112347 3.3 📋 "organ" ? YYYYY
+TDD-4048030 tried: ORGAN Y Y Y Y Y
+TDD7687794 4.1 📋 "organ" ? MMnMn
+TDD-7687776 tried: ORGAN m m n m n
+TDD1079426 4.2> *
+TDD432525 4.2 ? 1
+TDD2863833 4.2 📋 "abort" ? MnMMn
+TDD-4375806 tried: ABORT m n m m n
+TDD1831707 4.3> *
+TDD-255883 4.3 ? 2
+TDD2464432 4.3 📋 "vapor" ? nYnMM
+TDD-4040191 tried: VAPOR n Y n m m
+TDD935773 4.4> *
+TDD3583635 4.4 📋 "radio" ? YYYYY
+TDD-4519408 tried: RADIO Y Y Y Y Y
+TDD12711407 5.1 📋 "alarm" ? nYnYn
+TDD-12711440 tried: ALARM n Y n Y n
+TDD1455753 5.2 📋 "avian" ? nnnnn
+TDD-1455738 tried: AVIAN n n n n n
+TDD1639592 5.3 📋 "organ" ? nMnnn
+TDD-1639639 tried: ORGAN n m n n n
+TDD2367548 5.4 📋 "radio" ? Mnnnn
+TDD-2367553 tried: RADIO m n n n n
+TDD1199681 5.5> *
+TDD576839 5.5 ? 2
+TDD3326928 5.5 📋 "blurt" ? YYYYn
+TDD-5103437 tried: BLURT Y Y Y Y n
+TDD447411 5.6> *
+TDD3664651 5.6 ? 1
+TDD1111749 5.6 📋 "blurb" ? YYYYY
+TDD-5223825 tried: BLURB Y Y Y Y Y
+TDD3392112 📋> Hurdle 1462
+TDD-3392181 📋> 
+TDD-72 📋> 3/6
+TDD8 📋> ⬜⬜🟩🟨⬜
+TDD-15 📋> ⬜🟨🟩⬜🟨
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> 🟩⬜🟨⬜⬜
+TDD-1 📋> 🟩🟨⬜⬜⬜
+TDD0 📋> 🟩⬜⬜🟨⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> ⬜⬜⬜🟩🟩
+TDD0 📋> 🟨🟨⬜🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 4/6
+TDD0 📋> 🟨🟨⬜🟨⬜
+TDD0 📋> 🟨⬜🟨🟨⬜
+TDD0 📋> ⬜🟩⬜🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 2/2
+TDD0 📋> 🟩🟩🟩🟩⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD335143 📋> score: 10,000
+TDD-151282 📋> ␚
+TDD-183777 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1462\n\n3/6\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"}
+TDD333 result: "Hurdle 1462\n\n3/6\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"
+TDD295115 📆 2026-01-02 ? 
