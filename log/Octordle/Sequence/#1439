@@ -1,0 +1,234 @@
+T2437.8322595030186 now: 2026-01-02T10:27:16EST
+TD114 site: britannica.com/games/octordle/daily-sequence
+TDD-93 wordlist: nwl2023.txt
+TDD-13 num_words: 8
+TDD4037415  ...
+TDD-2605468 > * 1
+TDD-431744 ? 1
+TDD-1000007 questioning: reaps
+TDD2903858 Sequence #1 _____? MnnnM
+TDD-2903888 attempt: 0 REAPS m n n n m
+TDD2511412 > 
+TDD-1423658 > * 1
+TDD-47935 ? 1
+TDD-1039849 questioning: crust
+TDD2872280 Sequence #1 _____ ~RS -AEP? nMnMM
+TDD-2872163 attempt: 0 CRUST n m n m m
+TDD1575031 > * 1
+TDD2224928 ? 6
+TDD-3800067 questioning: storm
+TDD3095702 Sequence #1 _____ ~RST -ACEPU? YYYYY
+TDD-3095613 attempt: 0 STORM Y Y Y Y Y
+TDD-189 questioning: REAPS
+TDD1703597 Sequence #2 _____? nnnnn
+TDD-1703481 attempt: 1 REAPS n n n n n
+TDD-134 questioning: CRUST
+TDD1399889 Sequence #2 _____ -AEPRS? MnMnn
+TDD-1399683 attempt: 1 CRUST m n m n n
+TDD-180 questioning: STORM
+TDD1096275 Sequence #2 _____ ~CU -AEPRST? nnnnn
+TDD-1096088 attempt: 1 STORM n n n n n
+TDD1414763 > * 2
+TDD1297540 ? 10
+TDD-2712346 questioning: lunch
+TDD2735558 Sequence #2 _____ ~CU -AEMOPRST? YYnM
+TDD-703972 Sequence #2 _____ ~CU -AEMOPRST? YYnMn
+TDD-2031514 attempt: 1 LUNCH Y Y n m n
+TDD1311555 > * 2
+TDD1512385 ? 1
+TDD-2824019 questioning: lucid
+TDD2967358 Sequence #2 LU___ ~C -AEHMNOPRST? YYYnn
+TDD-2967365 attempt: 1 LUCID Y Y Y n n
+TDD1376129 > *2
+TDD-488504 > * 2
+TDD-796304 questioning: lucky
+TDD3104849 Sequence #2 LUC__ -ADEHIMNOPRST? YYYYY
+TDD-3196190 attempt: 1 LUCKY Y Y Y Y Y
+TDD-139 questioning: REAPS
+TDD1775629 Sequence #3 _____? Mnnnn
+TDD-1775490 attempt: 2 REAPS m n n n n
+TDD-132 questioning: CRUST
+TDD1479791 Sequence #3 _____ ~R -AEPS? nYnnn
+TDD-1479651 attempt: 2 CRUST n Y n n n
+TDD-140 questioning: STORM
+TDD2287836 Sequence #3 _R___ -ACEPSTU? nnYMY
+TDD-2287692 attempt: 2 STORM n n Y m Y
+TDD-142 questioning: LUNCH
+TDD1199699 Sequence #3 _RO_M -ACEPSTU? nnnnn
+TDD-1199563 attempt: 2 LUNCH n n n n n
+TDD-136 questioning: LUCID
+TDD1064214 Sequence #3 _RO_M -ACEHLNPSTU? nnnnn
+TDD-1064043 attempt: 2 LUCID n n n n n
+TDD-163 questioning: LUCKY
+TDD1839400 Sequence #3 _RO_M -ACDEHILNPSTU? nnnnn
+TDD-1839271 attempt: 2 LUCKY n n n n n
+TDD1343978 > * 3
+TDD767789 ? 1
+TDD-2111743 questioning: broom
+TDD3551764 Sequence #3 _RO_M -ACDEHIKLNPSTUY? YYYYY
+TDD-3551785 attempt: 2 BROOM Y Y Y Y Y
+TDD-142 questioning: REAPS
+TDD2231483 Sequence #4 _____? MMnnn
+TDD-2231266 attempt: 3 REAPS m m n n n
+TDD-200 questioning: CRUST
+TDD1447514 Sequence #4 _____ ~ER -APS? nMnnM
+TDD-1447326 attempt: 3 CRUST n m n n m
+TDD-186 questioning: STORM
+TDD2399894 Sequence #4 _____ ~ERT -ACPSU? nMnYn
+TDD-2399756 attempt: 3 STORM n m n Y n
+TDD-152 questioning: LUNCH
+TDD1287830 Sequence #4 ___R_ ~ET -ACMOPSU? nnnnM
+TDD-1287629 attempt: 3 LUNCH n n n n m
+TDD-190 questioning: LUCID
+TDD1320094 Sequence #4 ___R_ ~EHT -ACLMNOPSU? nnnnn
+TDD-1319926 attempt: 3 LUCID n n n n n
+TDD-175 questioning: LUCKY
+TDD1199220 Sequence #4 ___R_ ~EHT -ACDILMNOPSU? nnnnn
+TDD-1199026 attempt: 3 LUCKY n n n n n
+TDD-185 questioning: BROOM
+TDD1775506 Sequence #4 ___R_ ~EHT -ACDIKLMNOPSUY? nMnnn
+TDD-1775360 attempt: 3 BROOM n m n n n
+TDD1647612 > * 4
+TDD-1550169 questioning: there
+TDD2892858 Sequence #4 ___R_ ~EHT -ABCDIKLMNOPSUY? YYYYY
+TDD-2990323 attempt: 3 THERE Y Y Y Y Y
+TDD-141 questioning: REAPS
+TDD2391663 Sequence #5 _____? nnnMM
+TDD-2391521 attempt: 4 REAPS n n n m m
+TDD-141 questioning: CRUST
+TDD1679848 Sequence #5 _____ ~PS -AER? MnnMn
+TDD-1679641 attempt: 4 CRUST m n n m n
+TDD-189 questioning: STORM
+TDD1711851 Sequence #5 _____ ~CPS -AERTU? Ynnnn
+TDD-1711718 attempt: 4 STORM Y n n n n
+TDD-149 questioning: LUNCH
+TDD1479871 Sequence #5 S____ ~CP -AEMORTU? nnnYn
+TDD-1479729 attempt: 4 LUNCH n n n Y n
+TDD-142 questioning: LUCID
+TDD1623637 Sequence #5 S__C_ ~P -AEHLMNORTU? nnMMn
+TDD-1623493 attempt: 4 LUCID n n m m n
+TDD-142 questioning: LUCKY
+TDD1808094 Sequence #5 S__C_ ~IP -ADEHLMNORTU? nnMnY
+TDD-1807879 attempt: 4 LUCKY n n m n Y
+TDD-202 questioning: BROOM
+TDD2695287 Sequence #5 S__CY ~IP -ADEHKLMNORTU? nnnnn
+TDD-2695135 attempt: 4 BROOM n n n n n
+TDD-152 questioning: THERE
+TDD1255727 Sequence #5 S__CY ~IP -ABDEHKLMNORTU? nnnnn
+TDD-1255553 attempt: 4 THERE n n n n n
+TDD1432112 > * 5
+TDD-1332669 questioning: spicy
+TDD3464391 Sequence #5 S__CY ~IP -ABDEHKLMNORTU? YYYYY
+TDD-3563874 attempt: 4 SPICY Y Y Y Y Y
+TDD-132 questioning: REAPS
+TDD5567753 Sequence #6 _____? nMMnn
+TDD-5567636 attempt: 5 REAPS n m m n n
+TDD-135 questioning: CRUST
+TDD1791597 Sequence #6 _____ ~AE -PRS? nnnnM
+TDD-1791384 attempt: 5 CRUST n n n n m
+TDD-193 questioning: STORM
+TDD1568076 Sequence #6 _____ ~AET -CPRSU? nMnnn
+TDD-1567892 attempt: 5 STORM n m n n n
+TDD-186 questioning: LUNCH
+TDD1879670 Sequence #6 _____ ~AET -CMOPRSU? Mnnnn
+TDD-1879489 attempt: 5 LUNCH m n n n n
+TDD-183 questioning: LUCID
+TDD1559201 Sequence #6 _____ ~AELT -CHMNOPRSU? Mnnnn
+TDD-1559047 attempt: 5 LUCID m n n n n
+TDD-160 questioning: LUCKY
+TDD1751760 Sequence #6 _____ ~AELT -CDHIMNOPRSU? Mnnnn
+TDD-1751616 attempt: 5 LUCKY m n n n n
+TDD-145 questioning: BROOM
+TDD2480276 Sequence #6 _____ ~AELT -CDHIKMNOPRSUY? Mnnnn
+TDD-2480049 attempt: 5 BROOM m n n n n
+TDD-215 questioning: THERE
+TDD1895312 Sequence #6 _____ ~ABELT -CDHIKMNOPRSUY? YnnnY
+TDD-1895131 attempt: 5 THERE Y n n n Y
+TDD-184 questioning: SPICY
+TDD1639681 Sequence #6 T___E ~ABL -CDHIKMNOPRSUY? nnnnn
+TDD-1639488 attempt: 5 SPICY n n n n n
+TDD1495931 > * 6
+TDD-1406142 questioning: table
+TDD2803488 Sequence #6 T___E ~ABL -CDHIKMNOPRSUY? YYYYY
+TDD-2893196 attempt: 5 TABLE Y Y Y Y Y
+TDD-258 questioning: REAPS
+TDD2687813 Sequence #7 _____? nMnnn
+TDD-2687552 attempt: 6 REAPS n m n n n
+TDD-253 questioning: CRUST
+TDD2151763 Sequence #7 _____ ~E -APRS? YnMnM
+TDD-2151494 attempt: 6 CRUST Y n m n m
+TDD-267 questioning: STORM
+TDD1455348 Sequence #7 C____ ~ETU -APRS? nMnnn
+TDD-1455092 attempt: 6 STORM n m n n n
+TDD-266 questioning: LUNCH
+TDD1895346 Sequence #7 C____ ~ETU -AMOPRS? nYnMn
+TDD-1894986 attempt: 6 LUNCH n Y n m n
+TDD-337 questioning: LUCID
+TDD2607525 Sequence #7 CU___ ~ET -AHLMNOPRS? nYMYn
+TDD-2607285 attempt: 6 LUCID n Y m Y n
+TDD-262 questioning: LUCKY
+TDD1783679 Sequence #7 CU_I_ ~ET -ADHLMNOPRS? nYMnn
+TDD-1783393 attempt: 6 LUCKY n Y m n n
+TDD-284 questioning: BROOM
+TDD1311824 Sequence #7 CU_I_ ~ET -ADHKLMNOPRSY? nnnnn
+TDD-1311525 attempt: 6 BROOM n n n n n
+TDD-299 questioning: THERE
+TDD1695412 Sequence #7 CU_I_ ~ET -ABDHKLMNOPRSY? MnnnY
+TDD-1695125 attempt: 6 THERE m n n n Y
+TDD-289 questioning: SPICY
+TDD1687699 Sequence #7 CU_IE ~T -ABDHKLMNOPRSY? nnMMn
+TDD-1687412 attempt: 6 SPICY n n m m n
+TDD-285 questioning: TABLE
+TDD1975648 Sequence #7 CU_IE ~T -ABDHKLMNOPRSY? MnnnY
+TDD-1975272 attempt: 6 TABLE m n n n Y
+TDD2087075 > * 7
+TDD-1998708 questioning: cutie
+TDD2798347 Sequence #7 CU_IE ~T -ABDHKLMNOPRSY? YYYYY
+TDD-2886916 attempt: 6 CUTIE Y Y Y Y Y
+TDD-184 questioning: REAPS
+TDD2903624 Sequence #8 _____? nnYnn
+TDD-2903424 attempt: 7 REAPS n n Y n n
+TDD-200 questioning: CRUST
+TDD1991229 Sequence #8 __A__ -EPRS? nnnnn
+TDD-1991110 attempt: 7 CRUST n n n n n
+TDD-136 questioning: STORM
+TDD1776101 Sequence #8 __A__ -CEPRSTU? nnMnM
+TDD-1775958 attempt: 7 STORM n n m n m
+TDD-141 questioning: LUNCH
+TDD1583819 Sequence #8 __A__ ~MO -CEPRSTU? Ynnnn
+TDD-1583587 attempt: 7 LUNCH Y n n n n
+TDD-214 questioning: LUCID
+TDD2199682 Sequence #8 L_A__ ~MO -CEHNPRSTU? Ynnnn
+TDD-2199490 attempt: 7 LUCID Y n n n n
+TDD-195 questioning: LUCKY
+TDD1471708 Sequence #8 L_A__ ~MO -CDEHINPRSTU? YnnnY
+TDD-1471518 attempt: 7 LUCKY Y n n n Y
+TDD-188 questioning: BROOM
+TDD1775545 Sequence #8 L_A_Y ~MO -CDEHIKNPRSTU? nnMnM
+TDD-1775356 attempt: 7 BROOM n n m n m
+TDD-190 questioning: THERE
+TDD1951873 Sequence #8 L_A_Y ~MO -BCDEHIKNPRSTU O:1? nnnnn
+TDD-1951678 attempt: 7 THERE n n n n n
+TDD-191 questioning: SPICY
+TDD2319714 Sequence #8 L_A_Y ~MO -BCDEHIKNPRSTU O:1? nnnnY
+TDD-2319528 attempt: 7 SPICY n n n n Y
+TDD-190 questioning: TABLE
+TDD2015254 Sequence #8 L_A_Y ~MO -BCDEHIKNPRSTU O:1? nMnMn
+TDD-2015121 attempt: 7 TABLE n m n m n
+TDD-145 questioning: CUTIE
+TDD1520177 Sequence #8 L_A_Y ~MO -BCDEHIKNPRSTU O:1? nnnnn
+TDD-1519965 attempt: 7 CUTIE n n n n n
+TDD1399606 > * 8
+TDD-1312094 questioning: loamy
+TDD3408128 Sequence #8 L_A_Y ~MO -BCDEHIKNPRSTU O:1? YYYYY
+TDD-3495597 attempt: 7 LOAMY Y Y Y Y Y
+TDD3688465 📋> Daily Sequence Octordle #1439
+TDD-3688646 📋> 3️⃣6️⃣
+TDD-98 📋> 7️⃣8️⃣
+TDD-1 📋> 9️⃣🔟
+TDD-1 📋> 🕚🕛
+TDD1647450 📋> Score: 66
+TDD-1391962 📋> ␚
+TDD-255365 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Octordle #1439\n3\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a\ud83d\udd5b\nScore: 66"}
+TDD42 result: "Daily Sequence Octordle #1439\n3\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a\ud83d\udd5b\nScore: 66"
+TDD263900 📆 2026-01-02 ? 
