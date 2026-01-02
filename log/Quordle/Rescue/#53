@@ -1,0 +1,75 @@
+T1886.073662994022 now: 2026-01-02T10:18:04EST
+TD72 site: m-w.com/games/quordle/#/rescue
+TDD-58 wordlist: nwl2023.txt
+TDD-9 num_words: 4
+TDD5110425  ...
+TDD-1390650 > tried humid
+TDD-3719646 questioning: humid
+TDD1183729 Rescue #1 _____? nnnnn
+TDD-1183487 attempt: 0 HUMID n n n n n
+TDD1127668 Rescue #2 _____? nnnMy
+TDD-1127755 attempt: 1 HUMID n n n m Y
+TDD2151133 Rescue #3 _____? nnnMn
+TDD-2151242 attempt: 2 HUMID n n n m n
+TDD1135903 Rescue #4 _____? nnnnn
+TDD-1135853 attempt: 3 HUMID n n n n n
+TDD2119360 > MnnYY
+TDD1680569 > tried rigor
+TDD-3800014 questioning: rigor
+TDD1743600 Rescue #1 _____ -DHIMU? MnnYY
+TDD-1743551 attempt: 0 RIGOR m n n Y Y
+TDD1887570 Rescue #2 ____D ~I -HMU? MMnnn
+TDD-1887518 attempt: 1 RIGOR m m n n n
+TDD1799621 Rescue #3 _____ ~I -DHMU? nYnYn
+TDD-1799633 attempt: 2 RIGOR n Y n Y n
+TDD1231446 Rescue #4 _____ -DHIMU? nnnnn
+TDD-1231447 attempt: 3 RIGOR n n n n n
+TDD2567758 > * 4
+TDD-1384161 ? 1
+TDD-1183590 questioning: stalk
+TDD2727562 Rescue #1 ___OR -DGHIMU? nnMnn
+TDD-2727601 attempt: 0 STALK n n m n n
+TDD1047693 Rescue #2 ____D ~IR -GHMOU R:1? nnnnn
+TDD-1047709 attempt: 1 STALK n n n n n
+TDD1319671 Rescue #3 _I_O_ -DGHMRU? Mnnnn
+TDD-1319662 attempt: 2 STALK m n n n n
+TDD1599492 Rescue #4 _____ -DGHIMORU? nnYMn
+TDD-1599476 attempt: 3 STALK n n Y m n
+TDD13951798 > * 4
+TDD-12007986 ? 2
+TDD-1943802 questioning: place
+TDD4527525 Rescue #1 ___OR ~A -DGHIKLMSTU? nnMnn
+TDD-4527556 attempt: 0 PLACE n n m n n
+TDD1711814 Rescue #2 ____D ~IR -AGHKLMOSTU R:1? YnnnM
+TDD-1711822 attempt: 1 PLACE Y n n n m
+TDD1295595 Rescue #3 _I_O_ ~S -ADGHKLMRTU? nnnnn
+TDD-1295528 attempt: 2 PLACE n n n n n
+TDD1095401 Rescue #4 __A__ ~L -DGHIKMORSTU? YYYYY
+TDD-1095386 attempt: 3 PLACE Y Y Y Y Y
+TDD1759777 > * 2
+TDD-1661230 questioning: pried
+TDD3210257 Rescue #1 ___OR ~A -CDEGHIKLMPSTU? nYnnn
+TDD-3308814 attempt: 0 PRIED n Y n n n
+TDD1143524 Rescue #2 P___D ~EIR -ACGHKLMOSTU R:1? YYYYY
+TDD-1143563 attempt: 1 PRIED Y Y Y Y Y
+TDD1639478 Rescue #3 _I_O_ ~S -ACDEGHKLMPRTU? nnMnn
+TDD-1639451 attempt: 2 PRIED n n m n n
+TDD1175496 > * 1
+TDD-1082877 questioning: arbor
+TDD2599039 Rescue #1 _R_OR ~A -CDEGHIKLMPSTU? YYYYY
+TDD-2691641 attempt: 0 ARBOR Y Y Y Y Y
+TDD2070935 Rescue #3 _I_O_ ~S -ACDEGHKLMPRTU? nnMYn
+TDD-2070951 attempt: 2 ARBOR n n m Y n
+TDD1135486 > * 3
+TDD-1037749 questioning: bison
+TDD2628152 Rescue #3 _I_O_ ~BS -ACDEGHKLMPRTU? YYYYY
+TDD-2725894 attempt: 2 BISON Y Y Y Y Y
+TDD4720737 📋> Daily Rescue 53
+TDD-4720859 📋> 6️⃣5️⃣
+TDD-94 📋> 7️⃣4️⃣
+TDD-4 📋> m-w.com/games/quordle/
+TDD303005 📋> 
+TDD-55361 📋> ␚
+TDD-247530 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 53\n6\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD995 result: "Daily Rescue 53\n6\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD285645 📆 2026-01-02 ? 
