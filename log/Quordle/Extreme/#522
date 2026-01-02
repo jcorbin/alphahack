@@ -1,0 +1,91 @@
+T2080.188351615012 now: 2026-01-02T10:21:18EST
+TD107 site: m-w.com/games/quordle/#/extreme
+TDD-88 wordlist: nwl2023.txt
+TDD-12 num_words: 4
+TDD3453358  ...
+TDD-1837267 > * 1
+TDD3055853 ? Mnnnn
+TDD-3015734 ? nnMnY
+TDD-520346 ? nnMnn
+TDD112259 ? Mnnnn
+TDD47708 ? 1
+TDD-1295687 questioning: reais
+TDD1703931 Extreme #1 _____? Mnnnn
+TDD-1703839 attempt: 0 REAIS m n n n n
+TDD1608753 Extreme #2 _____? nnMnY
+TDD-1608802 attempt: 1 REAIS n n m n Y
+TDD1286553 Extreme #3 _____? nnMnn
+TDD-1286564 attempt: 2 REAIS n n m n n
+TDD1423778 Extreme #4 _____? Mnnnn
+TDD-1423701 attempt: 3 REAIS m n n n n
+TDD1983206 > * 3
+TDD641210 ? 1
+TDD-2624477 questioning: aptly
+TDD3558960 Extreme #1 _____ ~R -AEIS? nMnnn
+TDD-3558914 attempt: 0 APTLY n m n n n
+TDD1424253 Extreme #2 ____S ~A -EIR? MMMnn
+TDD-1424279 attempt: 1 APTLY m m m n n
+TDD1743052 Extreme #3 _____ ~A -EIRS? MnnYY
+TDD-1743043 attempt: 2 APTLY m n n Y Y
+TDD1239283 Extreme #4 _____ ~R -AEIS? nnnnn
+TDD-1239304 attempt: 3 APTLY n n n n n
+TDD4863893 > * 4
+TDD-1904321 ? 4
+TDD-2959633 questioning: crown
+TDD3191792 Extreme #1 _____ ~PR -AEILSTY? nYYnn
+TDD-3191626 attempt: 0 CROWN n Y Y n n
+TDD2303392 Extreme #2 ____S ~APT -EILRY? nnnnM
+TDD-2303444 attempt: 1 CROWN n n n n m
+TDD1383349 Extreme #3 ___LY ~A -EIPRST? nnnnn
+TDD-1383433 attempt: 2 CROWN n n n n n
+TDD2103814 Extreme #4 _____ ~R -AEILPSTY? nMMnn
+TDD-2103730 attempt: 3 CROWN n m m n n
+TDD1447441 > * 2
+TDD-1348802 questioning: pants
+TDD3106248 Extreme #1 _RO__ ~P -ACEILNSTWY? Ynnnn
+TDD-3204886 attempt: 0 PANTS Y n n n n
+TDD1351943 Extreme #2 ____S ~ANPT -CEILORWY? YYYYY
+TDD-1351967 attempt: 1 PANTS Y Y Y Y Y
+TDD1655096 Extreme #3 ___LY ~A -CEINOPRSTW? nYnnn
+TDD-1655141 attempt: 2 PANTS n Y n n n
+TDD1295522 Extreme #4 _____ ~OR -ACEILNPSTWY? nnnnn
+TDD-1295503 attempt: 3 PANTS n n n n n
+TDD1351567 > * 1
+TDD-31794 ? 1
+TDD-1319748 questioning: proud
+TDD4791873 Extreme #1 PRO__ -ACEILNSTWY? YYYYY
+TDD-4791859 attempt: 0 PROUD Y Y Y Y Y
+TDD2767595 Extreme #3 _A_LY -CEINOPRSTW? nnnnM
+TDD-2767595 attempt: 2 PROUD n n n n m
+TDD1607589 Extreme #4 _____ ~OR -ACEILNPSTWY? nMMMn
+TDD-1607588 attempt: 3 PROUD n m m m n
+TDD1239882 > * 3
+TDD3111344 ? 1
+TDD-4351266 questioning: madly
+TDD3431592 Extreme #3 _A_LY ~D -CEINOPRSTUW? nYYYY
+TDD-3431561 attempt: 2 MADLY n Y Y Y Y
+TDD1375482 Extreme #4 _____ ~ORU -ACDEILNPSTWY? nnnnn
+TDD-1375441 attempt: 3 MADLY n n n n n
+TDD1175561 > * 3
+TDD-1082474 questioning: badly
+TDD4109350 Extreme #3 _ADLY -CEIMNOPRSTUW? YYYYY
+TDD-4202476 attempt: 2 BADLY Y Y Y Y Y
+TDD1063359 Extreme #4 _____ ~ORU -ACDEILMNPSTWY? nnnnn
+TDD-1063362 attempt: 3 BADLY n n n n n
+TDD1975502 > * 4
+TDD264317 ? 2
+TDD-2239901 questioning: juror
+TDD4623819 Extreme #4 _____ ~ORU -ABCDEILMNPSTWY? nYYYY
+TDD-4623733 attempt: 3 JUROR n Y Y Y Y
+TDD3039555 > /res
+TDD-2438741 📋> 🥵 Daily Extreme 522
+TDD-600963 📋> 5️⃣4️⃣
+TDD-76 📋> 7️⃣🟥
+TDD-5 📋> m-w.com/games/quordle/
+TDD255126 📋> 
+TDD-47189 📋> ␚
+TDD-207854 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83e\udd75 Daily Extreme 522\n5\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TDD65 result: "\ud83e\udd75 Daily Extreme 522\n5\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TDD463629 > 
+TDD1295972 > /store
+TDD-863319 📆 2026-01-02 ? 
