@@ -1,0 +1,75 @@
+T491.9692519980017 now: 2026-01-02T09:22:08EST
+TD52 site: m-w.com/games/quordle/#/
+TDD-23 wordlist: nwl2023.txt
+TDD-24 num_words: 4
+TDD3518163  ...
+TDD-2222071 > * 1
+TDD-208364 ? 1
+TDD-1087589 questioning: lased
+TDD3671856 Classic #1 _____? MYMnn
+TDD-3671790 attempt: 0 LASED m Y m n n
+TDD1111680 Classic #2 _____? nnnMn
+TDD-1111697 attempt: 1 LASED n n n m n
+TDD1215473 Classic #3 _____? nnnYn
+TDD-1215491 attempt: 2 LASED n n n Y n
+TDD2103888 Classic #4 _____? nnMnn
+TDD-2103818 attempt: 3 LASED n n m n n
+TDD2671515 > * 2
+TDD152273 ? 4
+TDD-2823868 questioning: trope
+TDD4391655 Classic #1 _A___ ~LS -DE? nnnnn
+TDD-4391638 attempt: 0 TROPE n n n n n
+TDD3191777 Classic #2 _____ ~E -ADLS? MMnnM
+TDD-3191688 attempt: 1 TROPE m m n n m
+TDD1239405 Classic #3 ___E_ -ADLS? nnnMM
+TDD-1239406 attempt: 2 TROPE n n n m m
+TDD1631521 Classic #4 _____ ~S -ADEL? MnMnn
+TDD-1631589 attempt: 3 TROPE m n m n n
+TDD2903587 > * 1
+TDD1305198 ? 1
+TDD-4208826 questioning: wails
+TDD4078804 Classic #1 _A___ ~LS -DEOPRT? nYnYM
+TDD-4078719 attempt: 0 WAILS n Y n Y m
+TDD1687520 Classic #2 _____ ~ERT -ADLOPS? nnMnn
+TDD-1687495 attempt: 1 WAILS n n m n n
+TDD1567754 Classic #3 ___E_ ~P -ADLORST? nnMnn
+TDD-1567745 attempt: 2 WAILS n n m n n
+TDD1567137 Classic #4 _____ ~OST -ADELPR? nnnnM
+TDD-1567227 attempt: 3 WAILS n n n n m
+TDD1527624 > * 1
+TDD-1432488 questioning: sally
+TDD2553283 Classic #1 _A_L_ ~S -DEIOPRTW? YYYYY
+TDD-2648418 attempt: 0 SALLY Y Y Y Y Y
+TDD2183818 Classic #2 _____ ~EIRT -ADLOPSW? nnnnn
+TDD-2183772 attempt: 1 SALLY n n n n n
+TDD1967372 Classic #3 ___E_ ~IP -ADLORSTW? nnnnY
+TDD-1967358 attempt: 2 SALLY n n n n Y
+TDD1487659 Classic #4 _____ ~OST -ADEILPRW? Ynnnn
+TDD-1487662 attempt: 3 SALLY Y n n n n
+TDD1703405 > * 4
+TDD-1607514 questioning: south
+TDD2712111 Classic #2 _____ ~EIRT -ADLOPSWY? nnnMn
+TDD-2807991 attempt: 1 SOUTH n n n m n
+TDD1215523 Classic #3 ___EY ~IP -ADLORSTW? nnnnn
+TDD-1215560 attempt: 2 SOUTH n n n n n
+TDD1199286 Classic #4 S____ ~OT -ADEILPRWY? YYYYY
+TDD-1199309 attempt: 3 SOUTH Y Y Y Y Y
+TDD1279755 > * 3
+TDD-1157785 questioning: piney
+TDD3155631 Classic #2 _____ ~EIRT -ADHLOPSUWY? nMMMn
+TDD-3277572 attempt: 1 PINEY n m m m n
+TDD1631490 Classic #3 ___EY ~IP -ADHLORSTUW? YYYYY
+TDD-1631538 attempt: 2 PINEY Y Y Y Y Y
+TDD1663729 > * 2
+TDD-1545097 questioning: inert
+TDD2762869 Classic #2 _____ ~EINRT -ADHLOPSUWY? YYYYY
+TDD-2881479 attempt: 1 INERT Y Y Y Y Y
+TDD4999576 📋> 🙂 Daily Quordle 1439
+TDD-4999679 📋> 4️⃣7️⃣
+TDD-82 📋> 6️⃣5️⃣
+TDD-4 📋> m-w.com/games/quordle/
+TDD311827 📋> 
+TDD-120219 📋> ␚
+TDD-191491 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1439\n4\ufe0f\u20e37\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD961 result: "\ud83d\ude42 Daily Quordle 1439\n4\ufe0f\u20e37\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD270101 📆 2026-01-02 ? 
