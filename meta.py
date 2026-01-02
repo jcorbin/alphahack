@@ -386,6 +386,7 @@ def load_solvers() -> Generator[SolverHarness]:
     def make_cemantle(tokens: PromptUI.Tokens):
         cem = Semantic()
         cem.full_auto = False # TODO make -no-auto work True
+        cem.auto_affix = '!prob'
         cem.from_tokens(tokens)
         return cem
     yield SolverHarness('cemantle', make_cemantle)
@@ -397,6 +398,7 @@ def load_solvers() -> Generator[SolverHarness]:
         cex.lang = 'French'
         cex.pub_tzname = 'CET'
         cex.full_auto = False # TODO make -no-auto work True
+        cex.auto_affix = '!prob'
         cex.from_tokens(tokens)
         return cex
     yield SolverHarness('cemantix', make_cemantix)
