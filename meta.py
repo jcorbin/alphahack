@@ -346,12 +346,7 @@ SolverMaker = Callable[[PromptUI.Tokens], Solver]
 
 @final
 class SolverHarness:
-    Arguable = Callable[[PromptUI.Tokens], Solver]
-
-    def __init__(self,
-                 name: str,
-                 make: 'SolverHarness.Arguable',
-                 ):
+    def __init__(self, name: str, make: SolverMaker):
         self.name = name
         self.make = make
 
