@@ -1,0 +1,46 @@
+T74.7445218389621 now: 2026-01-03T08:59:45EST
+TD78 site: dontwordle.com
+TDD-63 wordlist: nwl2023.txt
+TDD3190895  ...
+TDD-694983 1> * -bot 10
+TDD-1279722 ? 1
+TDD3839684 📋 "arose" ? MnnYY
+TDD-5055288 tried: AROSE m n n Y Y
+TDD702778 2> undo
+TDD-703204 undo
+TDD2943622 1> *
+TDD-2127619 ? 1
+TDD4263876 📋 "motto" ? nnnnn
+TDD-5079815 tried: MOTTO n n n n n
+TDD2511913 2> *
+TDD-1152381 ? 1
+TDD5208385 📋 "vizir" ? nnnnn
+TDD-6567899 tried: VIZIR n n n n n
+TDD511259 3> *
+TDD688368 ? 1
+TDD3360258 📋 "wuddy" ? nnnnn
+TDD-4559946 tried: WUDDY n n n n n
+TDD439561 4> *
+TDD1752945 ? 1
+TDD5007273 📋 "beech" ? nMnnn
+TDD-7199753 tried: BEECH n m n n n
+TDD1383000 5> *
+TDD-191198 ? 1
+TDD3192054 📋 "agape" ? MnnnY
+TDD-4383838 tried: AGAPE m n n n Y
+TDD583297 6> *
+TDD4488722 📋 "false" ? YYYYY
+TDD-5072080 tried: FALSE Y Y Y Y Y
+TDD3232452 📋> Don't Wordle 1320 - WORDLED
+TDD-3232530 📋> I must admit that I Wordled!
+TDD-77 📋> ⬜⬜⬜⬜⬜5765
+TDD-5 📋> ⬜⬜⬜⬜⬜2251
+TDD-4 📋> ⬜⬜⬜⬜⬜738
+TDD2 📋> ⬜🟨⬜⬜⬜79
+TDD0 📋> 🟨⬜⬜⬜🟩4
+TDD-3 📋> 🟩🟩🟩🟩🟩0
+TDD791558 📋> Undos used: 1
+TDD536137 📋> ␚
+TDD-1327608 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1320 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5765\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2251\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c738\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c79\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe94\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 1"}
+TDD638 result: "Don't Wordle 1320 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5765\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2251\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c738\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c79\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe94\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 1"
+TDD1982320 📆 2026-01-03 ? 
