@@ -1,0 +1,165 @@
+T628.8809288649936 now: 2026-01-03T09:30:54EST
+TD71 site: britannica.com/games/octordle/extreme
+TDD-59 wordlist: nwl2023.txt
+TDD-8 num_words: 8
+TDD2733194  ...
+TDD-1204887 > * 1
+TDD872032 ? 4
+TDD-2400181 questioning: tesla
+TDD3471298 Extreme #1 _____? nMnMn
+TDD-3471277 attempt: 0 TESLA n m n m n
+TDD1311716 Extreme #2 _____? nMnnn
+TDD-1311659 attempt: 1 TESLA n m n n n
+TDD1367590 Extreme #3 _____? nMnMM
+TDD-1367543 attempt: 2 TESLA n m n m m
+TDD1303169 Extreme #4 _____? nnnnY
+TDD-1303272 attempt: 3 TESLA n n n n Y
+TDD7415962 Extreme #5 _____? MMnnM
+TDD-7415909 attempt: 4 TESLA m m n n m
+TDD1119233 Extreme #6 _____? nnnnM
+TDD-1119237 attempt: 5 TESLA n n n n m
+TDD1351564 Extreme #7 _____? Ynnnn
+TDD-1351633 attempt: 6 TESLA Y n n n n
+TDD1415849 Extreme #8 _____? nYMnn
+TDD-1415770 attempt: 7 TESLA n Y m n n
+TDD2943733 > * 2
+TDD2752077 ? 4
+TDD-5695830 questioning: prone
+TDD4607389 Extreme #1 _____ ~EL -AST? nMnnY
+TDD-4607353 attempt: 0 PRONE n m n n Y
+TDD3527403 Extreme #2 _____ ~E -ALST? MYnnY
+TDD-3527477 attempt: 1 PRONE m Y n n Y
+TDD1447770 Extreme #3 _____ ~AEL -ST? nnnnM
+TDD-1447762 attempt: 2 PRONE n n n n m
+TDD1175764 Extreme #4 ____A -ELST? nMnnn
+TDD-1175790 attempt: 3 PRONE n m n n n
+TDD4271422 Extreme #5 _____ ~AET -LS? nnnnY
+TDD-4271348 attempt: 4 PRONE n n n n Y
+TDD1167658 Extreme #6 _____ ~A -ELST? nMnnn
+TDD-1167665 attempt: 5 PRONE n m n n n
+TDD1471444 Extreme #7 T____ -AELS? nYnnn
+TDD-1471438 attempt: 6 PRONE n Y n n n
+TDD2136203 Extreme #8 _E___ ~S -ALT? nnnMM
+TDD-2136207 attempt: 7 PRONE n n n m m
+TDD2438792 > * 1
+TDD3601389 ? YYYYY
+TDD-3128676 ? nnMMY
+TDD-1199620 ? MnnnM
+TDD112042 ? nYnMn
+TDD2511570 ? 1
+TDD-4335524 questioning: lucre
+TDD1871648 Extreme #1 ____E ~LR -ANOPST? YYYYY
+TDD-1871690 attempt: 0 LUCRE Y Y Y Y Y
+TDD3623651 Extreme #2 _R__E ~P -ALNOST? nnMMY
+TDD-3623611 attempt: 1 LUCRE n n m m Y
+TDD1751672 Extreme #3 _____ ~AEL -NOPRST? MnnnM
+TDD-1751672 attempt: 2 LUCRE m n n n m
+TDD2271996 Extreme #4 ____A ~R -ELNOPST? nYnMn
+TDD-2271956 attempt: 3 LUCRE n Y n m n
+TDD3967183 Extreme #5 ____E ~AT -LNOPRS? nnnnY
+TDD-3967245 attempt: 4 LUCRE n n n n Y
+TDD1223578 Extreme #6 _____ ~AR -ELNOPST? nnnYn
+TDD-1223506 attempt: 5 LUCRE n n n Y n
+TDD1983610 Extreme #7 TR___ -AELNOPS? nMnMn
+TDD-1983617 attempt: 6 LUCRE n m n m n
+TDD1423322 Extreme #8 _E___ ~NS -ALOPRT? nMnnM
+TDD-1423325 attempt: 7 LUCRE n m n n m
+TDD2439752 > * 7
+TDD-2372761 questioning: truth
+TDD5409463 Extreme #2 _R__E ~CP -ALNOSTU? nYnnn
+TDD-5476499 attempt: 1 TRUTH n Y n n n
+TDD2055600 Extreme #3 _____ ~AEL -CNOPRSTU? nnnnM
+TDD-2055625 attempt: 2 TRUTH n n n n m
+TDD1247523 Extreme #4 _U__A ~R -CELNOPST? nMMnn
+TDD-1247514 attempt: 3 TRUTH n m m n n
+TDD3439723 Extreme #5 ____E ~AT -CLNOPRSU? nnnYn
+TDD-3439684 attempt: 4 TRUTH n n n Y n
+TDD3255765 Extreme #6 ___R_ ~A -CELNOPSTU? nMnnn
+TDD-3255813 attempt: 5 TRUTH n m n n n
+TDD1727399 Extreme #7 TR___ ~U -ACELNOPS? YYYYY
+TDD-1727368 attempt: 6 TRUTH Y Y Y Y Y
+TDD1207753 Extreme #8 _E___ ~NSU -ACLOPRT? nnMnn
+TDD-1207727 attempt: 7 TRUTH n n m n n
+TDD1927574 > * 2
+TDD3616114 ? 2
+TDD-5543730 questioning: crepe
+TDD4127768 Extreme #2 _R__E ~CP -AHLNOSTU? YYYYY
+TDD-4127738 attempt: 1 CREPE Y Y Y Y Y
+TDD1887832 Extreme #3 _____ ~AEHL -CNOPRSTU? nnMnn
+TDD-1887882 attempt: 2 CREPE n n m n n
+TDD1368007 Extreme #4 _U__A ~R -CEHLNOPST? nMnnn
+TDD-1367945 attempt: 3 CREPE n m n n n
+TDD4142937 Extreme #5 ___TE ~A -CHLNOPRSU? nnnnY
+TDD-4143000 attempt: 4 CREPE n n n n Y
+TDD1191917 Extreme #6 ___R_ ~A -CEHLNOPSTU? nMnnn
+TDD-1191915 attempt: 5 CREPE n m n n n
+TDD1879286 Extreme #8 _E___ ~NSU -ACHLOPRT? nnMnn
+TDD-1879190 attempt: 7 CREPE n n m n n
+TDD1839478 > * 3
+TDD56437 ? 2
+TDD-1895978 questioning: hazel
+TDD10671490 Extreme #3 _____ ~AEHL -CNOPRSTU E:1? YYYYY
+TDD-10671526 attempt: 2 HAZEL Y Y Y Y Y
+TDD1015744 Extreme #4 _U__A ~R -CEHLNOPST? nMnnn
+TDD-1015677 attempt: 3 HAZEL n m n n n
+TDD9343629 Extreme #5 ___TE ~A -CHLNOPRSU? nMnMn
+TDD-9343631 attempt: 4 HAZEL n m n m n
+TDD1335444 Extreme #6 ___R_ ~A -CEHLNOPSTU? nYnnn
+TDD-1335513 attempt: 5 HAZEL n Y n n n
+TDD2727754 Extreme #8 _E___ ~NSU -ACHLOPRT E:1? nnnMn
+TDD-2727684 attempt: 7 HAZEL n n n m n
+TDD1695434 > * 4
+TDD1120370 ? 1
+TDD-2815888 questioning: burka
+TDD6944152 Extreme #4 _U__A ~R -CEHLNOPSTZ? MYMnY
+TDD-6944118 attempt: 3 BURKA m Y m n Y
+TDD3303334 Extreme #5 ___TE ~A -CHLNOPRSUZ? MnnnM
+TDD-3303283 attempt: 4 BURKA m n n n m
+TDD1431433 Extreme #6 _A_R_ -CEHLNOPSTUZ? nnMnM
+TDD-1431503 attempt: 5 BURKA n n m n m
+TDD3351900 Extreme #8 _E___ ~NSU -ACHLOPRTZ E:1? nMnnn
+TDD-3351840 attempt: 7 BURKA n m n n n
+TDD1487347 > * 4
+TDD-1385390 questioning: rumba
+TDD5435781 Extreme #4 _U__A ~BR -CEHKLNOPSTZ? YYYYY
+TDD-5537764 attempt: 3 RUMBA Y Y Y Y Y
+TDD3935588 Extreme #5 ___TE ~AB -CHKLNOPRSUZ? nnnMM
+TDD-3935554 attempt: 4 RUMBA n n n m m
+TDD1415482 Extreme #6 _A_R_ -BCEHKLNOPSTUZ? MnnnM
+TDD-1415540 attempt: 5 RUMBA m n n n m
+TDD1671631 Extreme #8 _E___ ~NSU -ABCHKLOPRTZ E:1? nMnnn
+TDD-1671564 attempt: 7 RUMBA n m n n n
+TDD1336051 > * 5
+TDD-1232732 questioning: abate
+TDD4753112 Extreme #5 ___TE ~AB -CHKLMNOPRSUZ? YYYYY
+TDD-4856470 attempt: 4 ABATE Y Y Y Y Y
+TDD1463071 Extreme #6 _A_R_ -BCEHKLMNOPSTUZ? Mnnnn
+TDD-1463030 attempt: 5 ABATE m n n n n
+TDD2071670 Extreme #8 _E___ ~NSU -ABCHKLMOPRTZ E:1? nnnnM
+TDD-2071684 attempt: 7 ABATE n n n n m
+TDD1719382 > * 6
+TDD184307 ? 1
+TDD-1903651 questioning: dairy
+TDD2711725 Extreme #6 _A_R_ -BCEHKLMNOPSTUZ A:1? YYYYY
+TDD-2711710 attempt: 5 DAIRY Y Y Y Y Y
+TDD1183238 Extreme #8 _E___ ~NSU -ABCHKLMOPRTZ E:1? nnnnn
+TDD-1183236 attempt: 7 DAIRY n n n n n
+TDD1327459 > * 8
+TDD1608293 ? 3
+TDD-2935859 questioning: venus
+TDD3231988 Extreme #8 _E___ ~NSU -ABCDHIKLMOPRTYZ E:1? nYYYY
+TDD-3231957 attempt: 7 VENUS n Y Y Y Y
+TDD1615198 > * 8
+TDD-1518149 questioning: genus
+TDD3229907 Extreme #8 _ENUS -ABCDHIKLMOPRTVYZ? YYYYY
+TDD-3326982 attempt: 7 GENUS Y Y Y Y Y
+TDD2791460 📋> Daily Extreme Octordle #1440
+TDD-2791563 📋> 3️⃣5️⃣
+TDD-73 📋> 6️⃣8️⃣
+TDD-1 📋> 9️⃣🔟
+TDD-1 📋> 4️⃣🕛
+TDD255934 📋> Score: 57
+TDD-112216 📋> ␚
+TDD-143624 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Extreme Octordle #1440\n3\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\n4\ufe0f\u20e3\ud83d\udd5b\nScore: 57"}
+TDD19 result: "Daily Extreme Octordle #1440\n3\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\n4\ufe0f\u20e3\ud83d\udd5b\nScore: 57"
+TDD159974 📆 2026-01-03 ? 
