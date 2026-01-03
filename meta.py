@@ -977,9 +977,9 @@ class Meta(Arguable):
         '''
         show known solvers
         '''
-        for n, (harness, note) in enumerate(zip(solver_harness, solver_notes), 1):
+        for solver_i, (harness, note) in enumerate(zip(solver_harness, solver_notes)):
             site = solver_site[harness.name]
-            ui.print(f'{n}. {harness} site:{site!r} slug:{note!r}')
+            ui.print(f'{solver_i + 1}. {harness} site:{site!r} slug:{note!r}')
 
     def read_status(self, ui: PromptUI, verbose: bool=False):
 
