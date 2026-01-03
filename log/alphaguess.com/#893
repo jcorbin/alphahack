@@ -1,0 +1,52 @@
+T45.44054598797811 now: 2026-01-03T08:59:16EST
+TD84 site: alphaguess.com
+TDD143163 loaded 196538 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (66 words excluded) asof 698a9a529f2fb896cd5fd3e259beac23782a8b2e
+TDD3288128  ...
+TDD-1447369 [0 : 98224 : 196538] mach? a
+TDD-1983897 progress: 1 98224 mach
+TDD1359884 [98225 : 147329 : 196538] rho? a
+TDD-1359847 progress: 1 147329 rho
+TDD1287462 [147330 : 171929 : 196538] tag? a
+TDD-1287488 progress: 1 171929 tag
+TDD1352097 [171930 : 182015 : 196538] un? b
+TDD-1352089 progress: -1 182015 un
+TDD1231395 [171930 : 176966 : 182015] tom? a
+TDD-1231409 progress: 1 176966 tom
+TDD1296092 [176967 : 179490 : 182015] trifurcate? a
+TDD-1296045 progress: 1 179490 trifurcate
+TDD1191351 [179491 : 180740 : 182015] tune? a
+TDD-1191392 progress: 1 180740 tune
+TDD1159922 [180741 : 181377 : 182015] two? a
+TDD-1159896 progress: 1 181377 two
+TDD1295957 [181378 : 181691 : 182015] ulcer? a
+TDD-1295962 progress: 1 181691 ulcer
+TDD1223571 [181692 : 181741 : 182015] ultra? a
+TDD-1223547 progress: 1 181741 ultra
+TDD1119634 [181742 : 181871 : 182015] ultras? a
+TDD-1119687 progress: 1 181871 ultras
+TDD1167681 [181872 : 181921 : 182015] um? a
+TDD-1167664 progress: 1 181921 um
+TDD1135886 [181922 : 181962 : 182015] umbra? a
+TDD-1135902 progress: 1 181962 umbra
+TDD1247555 [181963 : 181989 : 182015] umm? b
+TDD-1247551 progress: -1 181989 umm
+TDD1280847 [181963 : 181977 : 181989] umiac? b
+TDD-1280772 progress: -1 181977 umiac
+TDD1494659 [181963 : 181971 : 181977] umbrella? it
+TDD-1494737 progress: 0 181971 umbrella
+TDD-93 [181963 : 181971 : 181977] <Done>.
+TDD2704618 📋> 🧩 Puzzle #893
+TDD-2704522 📋> 
+TDD-93 📋> 🤔 16 guesses
+TDD-8 📋> 
+TDD0 📋> ⏱️ 19s
+TDD-1 📋> 
+TDD295114 📋> 🔗 alphaguess.com
+TDD-103293 📋> ␚
+TDD-191732 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #893\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-30 result: "\ud83e\udde9 Puzzle #893\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"
+TDD-60 result puzzle: 893
+TDD-5 result guesses: 16
+TDD0 result time: 19s
+TDD0 result link: alphaguess.com
+TDD207944 📆 2026-01-03 ? 
