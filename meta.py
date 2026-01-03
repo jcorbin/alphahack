@@ -319,156 +319,190 @@ class Report:
             yield from sections(f)
 
 SolverMaker = Callable[[PromptUI.Tokens], StoredLog]
-NamedSolverMaker = tuple[str, SolverMaker]
 
-def load_solvers() -> Generator[NamedSolverMaker]:
-    from binartic import Search as Binartic
+@final
+class SolverLibrary:
+    def __init__(self):
+        self.name: list[str] = []
+        self.make: list[SolverMaker] = []
+        self.proto: list[StoredLog] = []
+        self.by_name: dict[str, int] = {}
 
-    def make_alfa(_tokens: PromptUI.Tokens):
-        alfa = Binartic()
-        alfa.site = 'alfagok.diginaut.net'
-        alfa.wordlist_file = 'opentaal-wordlist.txt'
-        return alfa
-    yield 'alfa', make_alfa
+    def __len__(self):
+        return len(self.name)
 
-    def make_alpha(_tokens: PromptUI.Tokens):
-        alpha = Binartic()
-        alpha.site = 'alphaguess.com'
-        alpha.wordlist_file = 'nwl2023.txt'
-        return alpha
-    yield 'alpha', make_alpha
+    def __iter__(self):
+        for i, name in enumerate(self.name):
+            yield name, i
 
-    from dontword import DontWord
+    def add(self, name: str, maker: SolverMaker):
+        solver_i = len(self.name)
+        self.name.append(name)
+        self.make.append(maker)
+        self.proto.append(maker(PromptUI.Tokens()))
+        _ = self.by_name.setdefault(name, solver_i)
 
-    def make_dontword(_tokens: PromptUI.Tokens):
-        dontword = DontWord()
-        dontword.wordlist_file = 'nwl2023.txt'
-        return dontword
-    yield 'dontword', make_dontword
+    def match(self, nom: str):
+        nom = nom.lower()
+        pat = re.compile('.*'.join(nom))
+        for i, name in enumerate(self.name):
+            if pat.match(name):
+                yield i
 
-    from hurdle import Search as Hurdle
+    def lookup(self, solver_i: int|None=None, name: str=''):
+        if solver_i is None:
+            solver_i = self.by_name.get(name)
+            if solver_i is None:
+                return
+        yield solver_i
 
-    def make_hurdle(_tokens: PromptUI.Tokens):
-        hurdle = Hurdle()
-        hurdle.wordlist_file = 'nwl2023.txt'
-        return hurdle
-    yield 'hurdle', make_hurdle
+    @contextmanager
+    def run(self,
+            ui: PromptUI|None=None,
+            solver_i: int|None=None,
+            name: str='',
+            log_file: str|None=None):
+        if ui is None:
+            ui = PromptUI()
+        if solver_i is None:
+            solver_i = next(self.lookup(solver_i, name), None)
+            if solver_i is None:
+                ui.print(f'! unknown solver {name}')
+                return
+        try:
+            ui.write(f'*** Running solver {name}')
+            solver = self.make[solver_i](ui.tokens)
+            # TODO parse options, like -log-file arg
+            if log_file:
+                solver.log_file = log_file
+            ui.write(f' log_file={solver.log_file}')
+        finally:
+            ui.fin()
+        yield ui, solver
+        ui.interact(solver)
 
-    from nordle import Nordle
+solvers = SolverLibrary()
 
-    # TODO may need changes to support Nordle's kind/mode puzzle_name-ing
+from binartic import Search as Binartic
 
-    def make_quordle(_tokens: PromptUI.Tokens):
-        qu = Nordle()
-        qu.default_site = 'm-w.com/games/quordle'
-        qu.site = qu.default_site
-        qu.log_file = 'quordle.log'
-        qu.wordlist_file = 'nwl2023.txt'
-        qu.kind = 'Quordle'
-        qu.mode = 'Classic'
-        qu.num_words = 4
-        return qu
-    yield 'quordle', make_quordle
+def make_alfa(_tokens: PromptUI.Tokens):
+    alfa = Binartic()
+    alfa.site = 'alfagok.diginaut.net'
+    alfa.wordlist_file = 'opentaal-wordlist.txt'
+    return alfa
 
-    # TODO
-    # Daily: Rescue
-    # https://m-w.com/games/quordle/#/rescue
+solvers.add('alfa', make_alfa)
 
-    # TODO
-    # Daily: Extreme
-    # https://m-w.com/games/quordle/#/extreme
+def make_alpha(_tokens: PromptUI.Tokens):
+    alpha = Binartic()
+    alpha.site = 'alphaguess.com'
+    alpha.wordlist_file = 'nwl2023.txt'
+    return alpha
 
-    # TODO
-    # Daily: Sequence
-    # https://m-w.com/games/quordle/#/sequence
+solvers.add('alpha', make_alpha)
 
-    # TODO
-    # Daily: Practice
-    # https://m-w.com/games/quordle/#/practice
+from dontword import DontWord
 
-    def make_octordle(_tokens: PromptUI.Tokens):
-        oc = Nordle()
-        oc.default_site = 'https://www.britannica.com/games/octordle/daily'
-        oc.site = oc.default_site
-        oc.log_file = 'octordle.log'
-        oc.kind = 'Octordle'
-        oc.mode = 'Classic'
-        oc.num_words = 8
-        oc.wordlist_file = 'nwl2023.txt'
-        return oc
-    yield 'octordle', make_octordle
+def make_dontword(_tokens: PromptUI.Tokens):
+    dontword = DontWord()
+    dontword.wordlist_file = 'nwl2023.txt'
+    return dontword
 
-    from square import Search as Square
+solvers.add('dontword', make_dontword)
 
-    def make_square(_tokens: PromptUI.Tokens):
-        square = Square()
-        square.wordlist_file = 'nwl2023.txt'
-        return square
-    yield 'square', make_square
+from hurdle import Search as Hurdle
 
-    from semantic import Search as Semantic
+def make_hurdle(_tokens: PromptUI.Tokens):
+    hurdle = Hurdle()
+    hurdle.wordlist_file = 'nwl2023.txt'
+    return hurdle
 
-    def make_cemantle(tokens: PromptUI.Tokens):
-        cem = Semantic()
-        cem.full_auto = False # TODO make -no-auto work True
-        cem.auto_affix = '!prob'
-        cem.from_tokens(tokens)
-        return cem
-    yield 'cemantle', make_cemantle
+solvers.add('hurdle', make_hurdle)
 
-    def make_cemantix(tokens: PromptUI.Tokens):
-        cex = Semantic()
-        cex.site = 'cemantix.certitudes.org'
-        cex.log_file = 'cemantix.log'
-        cex.lang = 'French'
-        cex.pub_tzname = 'CET'
-        cex.full_auto = False # TODO make -no-auto work True
-        cex.auto_affix = '!prob'
-        cex.from_tokens(tokens)
-        return cex
-    yield 'cemantix', make_cemantix
+from nordle import Nordle
 
-    from spaceword import SpaceWord
+# TODO may need changes to support Nordle's kind/mode puzzle_name-ing
 
-    def make_space(_tokens: PromptUI.Tokens):
-        space = SpaceWord()
-        space.wordlist_file = 'nwl2023.txt'
-        return space
-    yield 'space', make_space
+def make_quordle(_tokens: PromptUI.Tokens):
+    qu = Nordle()
+    qu.default_site = 'm-w.com/games/quordle'
+    qu.site = qu.default_site
+    qu.log_file = 'quordle.log'
+    qu.wordlist_file = 'nwl2023.txt'
+    qu.kind = 'Quordle'
+    qu.mode = 'Classic'
+    qu.num_words = 4
+    return qu
 
-    # spaceweek = "./spaceword.py --wordlist nwl2023.txt spaceword_weekly.log"
+solvers.add(
+    'quordle',
+    make_quordle,
+    # TODO Daily: Rescue https://m-w.com/games/quordle/#/rescue
+    # TODO Daily: Extreme https://m-w.com/games/quordle/#/extreme
+    # TODO Daily: Sequence https://m-w.com/games/quordle/#/sequence
+    # TODO Daily: Practice https://m-w.com/games/quordle/#/practice
+)
 
-solver_nms = tuple(load_solvers())
-solver_name = tuple(n for n, _ in solver_nms)
-solver_make = tuple(m for _, m in solver_nms)
+def make_octordle(_tokens: PromptUI.Tokens):
+    oc = Nordle()
+    oc.default_site = 'https://www.britannica.com/games/octordle/daily'
+    oc.site = oc.default_site
+    oc.log_file = 'octordle.log'
+    oc.kind = 'Octordle'
+    oc.mode = 'Classic'
+    oc.num_words = 8
+    oc.wordlist_file = 'nwl2023.txt'
+    return oc
 
-# NOTE likely cannot be abstracted over instantiation, since slugs contain
-#      state info from a loaded prior solver log
-solver_prior = tuple(
-    make(PromptUI.Tokens())
-    for make in solver_make)
-solver_cur_log = {
-    name: prior.log_file
-    for name, prior in zip(solver_name, solver_prior)}
+solvers.add(
+    'octordle',
+    make_octordle,
+    # TODO variants
+)
 
-solver_notes = tuple(
-    solver.note_slug[0]
-    for solver in solver_prior)
-solver_heads = tuple(
-    solver.header_slug
-    for solver in solver_prior)
+from square import Search as Square
 
-def run_solver(name: str, make: SolverMaker, ui: PromptUI, log_file: str|None=None):
-    # TODO parse optional -log-file arg
-    try:
-        ui.write(f'*** Running solver {name}')
-        solver = make(ui.tokens, log_file)
-        if log_file:
-            solver.log_file = log_file
-        ui.write(f' log_file={log_file}')
-    finally:
-        ui.fin()
-    ui.interact(solver)
+def make_square(_tokens: PromptUI.Tokens):
+    square = Square()
+    square.wordlist_file = 'nwl2023.txt'
+    return square
+
+solvers.add('square', make_square)
+
+from semantic import Search as Semantic
+
+def make_cemantle(tokens: PromptUI.Tokens):
+    cem = Semantic()
+    cem.full_auto = False # TODO make -no-auto work True
+    cem.auto_affix = '!prob'
+    cem.from_tokens(tokens)
+    return cem
+
+solvers.add('cemantle', make_cemantle)
+
+def make_cemantix(tokens: PromptUI.Tokens):
+    cex = Semantic()
+    cex.site = 'cemantix.certitudes.org'
+    cex.log_file = 'cemantix.log'
+    cex.lang = 'French'
+    cex.pub_tzname = 'CET'
+    cex.full_auto = False # TODO make -no-auto work True
+    cex.auto_affix = '!prob'
+    cex.from_tokens(tokens)
+    return cex
+
+solvers.add('cemantix', make_cemantix)
+
+from spaceword import SpaceWord
+
+def make_space(_tokens: PromptUI.Tokens):
+    space = SpaceWord()
+    space.wordlist_file = 'nwl2023.txt'
+    return space
+
+solvers.add('space', make_space)
+
+# spaceweek = "./spaceword.py --wordlist nwl2023.txt spaceword_weekly.log"
 
 # TODO is there any utility to using StoredLog? having a proper reified
 # "day log"? if sow, what state lives in report.md vs the log? how
@@ -494,7 +528,7 @@ class Meta(Arguable):
 
     def __init__(self):
         super().__init__()
-        self.solver_log = [prior.log_file for prior in solver_prior]
+        self.solver_log = [proto.log_file for proto in solvers.proto]
         self.report = Report()
         self.prompt.mess = self.prompt_mess
 
@@ -516,7 +550,7 @@ class Meta(Arguable):
         root['list_solvers'] = self.do_list_solvers
         root['solvers'] = self.do_solve
 
-        for solver_i, (name, _) in enumerate(zip(solver_name, solver_make)):
+        for name, solver_i in solvers:
             path = f'solvers/{name}'
             for name, cmd in {
                 '': partial(self.do_sol_run, solver_i),
@@ -555,23 +589,14 @@ class Meta(Arguable):
 
     def choose_solver(self, ui: PromptUI):
         if not ui.tokens:
-            return
-        name = next(ui.tokens).lower()
-
-        pat = re.compile('.*'.join(name))
-        ix = tuple(
-            i
-            for i, name in enumerate(solver_name)
-            if pat.match(name))
-
-        if len(ix) == 0:
-            ui.print('! no such solver')
-            return -1
-        elif len(ix) > 1:
-            may = tuple(solver_name[i] for i in ix)
-            ui.print(f'! Ambiguous solver; may be: {" ".join(may)}')
-            return -1
-        return ix[0]
+            ix = tuple(solvers.match(next(ui.tokens)))
+            if len(ix) == 1:
+                return ix[0]
+            elif len(ix) == 0:
+                ui.print('! no such solver')
+            else:
+                may = tuple(solvers.name[i] for i in ix)
+                ui.print(f'! Ambiguous solver; may be: {" ".join(may)}')
 
     def do_tracing(self, ui: PromptUI):
         '''
@@ -675,7 +700,7 @@ class Meta(Arguable):
             if day == today:
                 solved = all(
                     solver_i in solves
-                    for solver_i in range(len(solver_name)))
+                    for solver_i in range(len(solvers)))
                 if solved: # TODO and shared
                     prune = True
                 ui.write(f' today solved: {solved}')
@@ -841,18 +866,16 @@ class Meta(Arguable):
         '''
         run solver
         '''
-        name = solver_name[solver_i]
-        make = solver_make[solver_i]
-        return run_solver(name, make, ui)
+        with solvers.run(ui, solver_i=solver_i):
+            pass
 
     def do_sol_cont(self, solver_i: int, ui: PromptUI):
         '''
         continue solver run
         '''
-        name = solver_name[solver_i]
-        make = solver_make[solver_i]
         log_file = self.solver_log[solver_i]
-        return run_solver(name, make, ui, log_file)
+        with solvers.run(ui, solver_i=solver_i, log_file=log_file):
+            pass
 
     def do_sol_edit(self, solver_i: int, ui: PromptUI):
         '''
@@ -867,7 +890,7 @@ class Meta(Arguable):
         '''
         use current log file
         '''
-        proto = solver_prior[solver_i]
+        proto = solvers.proto[solver_i]
         prior = self.solver_log[solver_i]
         log_file = proto.log_file
         self.solver_log[solver_i] = log_file
@@ -878,7 +901,7 @@ class Meta(Arguable):
         '''
         use latest stored solver log
         '''
-        proto = solver_prior[solver_i]
+        proto = solvers.proto[solver_i]
         log_file = proto.find_prior_log(ui, puzzle_id=None)
         if log_file is None:
             ui.print(f'! could not find last log file')
@@ -890,7 +913,7 @@ class Meta(Arguable):
         '''
         list and select from stored solver logs
         '''
-        proto = solver_prior[solver_i]
+        proto = solvers.proto[solver_i]
         log_file = proto.find_prior_log(ui, puzzle_id='*')
         if log_file is not None:
             ui.print(f'Selected log_file: {log_file}')
@@ -953,25 +976,23 @@ class Meta(Arguable):
                     continue
                 if day is not None and head:
                     continue
-                proto = solver_prior[solver_i]
+                proto = solvers.proto[solver_i]
                 if proto.site_env != 'prod':
                     continue
                 if once(solver_i):
                     yield solver_i
 
         for solver_i in candidates():
-            name = solver_name[solver_i]
-            make = solver_make[solver_i]
-            proto = solver_prior[solver_i]
+            name = solvers.name[solver_i]
+            proto = solvers.proto[solver_i]
             desc = (
                 f'[ {self.solvers.ix.index(solver_i)} / {len(self.solvers)} ] {name}'
                 if solver_i == solver_j else
                 f'{name} variant {proto.note_slug[0]}')
 
             ui.print(f'Running {desc}')
-            name = solver_name[solver_i]
-            make = solver_make[solver_i]
-            return run_solver(name, make, ui)
+            with solvers.run(ui, solver_i=solver_i):
+                return
 
         ui.print('! all solvers reported, specify particular?')
 
@@ -979,16 +1000,20 @@ class Meta(Arguable):
         '''
         list known solvers
         '''
-        for solver_i, (name, proto, note) in enumerate(zip(solver_name, solver_prior, solver_notes)):
+        for name, solver_i, in solvers:
+            proto = solvers.proto[solver_i]
+            note = proto.note_slug[0]
             ui.print(f'{solver_i + 1}. {name} site:{proto.site!r} slug:{note!r}')
 
     def read_status(self, ui: PromptUI, verbose: int=0):
+        solver_notes = tuple(proto.note_slug[0] for proto in solvers.proto)
+        solver_heads = tuple(proto.header_slug[0] for proto in solvers.proto)
 
         days: list[datetime.date] = []
-        notes: list[str] = [''] * len(solver_name)
-        note_days: list[int] = [0] * len(solver_name)
-        heads: list[str] = [''] * len(solver_name)
-        bodys: list[tuple[str, ...]] = [()] * len(solver_name)
+        notes: list[str] = [''] * len(solvers)
+        note_days: list[int] = [0] * len(solvers)
+        heads: list[str] = [''] * len(solvers)
+        bodys: list[tuple[str, ...]] = [()] * len(solvers)
 
         for _level, text, body in self.report.sections():
             m = re.match(r'(?x) (\d{4}) [-_/.]? (\d{2}) [-_/.]? (\d{2})', text.strip())
@@ -1060,7 +1085,7 @@ class Meta(Arguable):
             f'Solver Status ( verbose={verbose} ):' if verbose else
             f'Solver Status:')
         for solver_i, day, note, head, _body in self.read_status(ui, verbose=verbose):
-            name = solver_name[solver_i] if 0 <= solver_i < len(solver_name) else '<No Solver>'
+            name = solvers.name[solver_i] if 0 <= solver_i < len(solvers) else '<No Solver>'
             mark = '❔'
             if day is not None: mark = '✅'
             if head: mark += '📜'
