@@ -502,9 +502,6 @@ solver_harness = tuple(load_solvers())
 solver_prior = tuple(
     harness.make(PromptUI.Tokens())
     for harness in solver_harness)
-solver_site = {
-    sol.name: prior.site
-    for sol, prior in zip(solver_harness, solver_prior)}
 solver_cur_log = {
     sol.name: prior.log_file
     for sol, prior in zip(solver_harness, solver_prior)}
@@ -885,7 +882,8 @@ class Meta(Arguable):
         harness = solver_harness[solver_i]
 
         def use_last(ui: PromptUI, puzzle_id: str = '') -> PromptUI.State|None:
-            found = harness.make(ui.tokens).find_prior_log(ui, puzzle_id)
+            proto = solver_prior[solver_i]
+            found = proto.find_prior_log(ui, puzzle_id)
             if found is None:
                 ui.print(f'! could not find last log file')
                 return
@@ -977,9 +975,8 @@ class Meta(Arguable):
         '''
         show known solvers
         '''
-        for solver_i, (harness, note) in enumerate(zip(solver_harness, solver_notes)):
-            site = solver_site[harness.name]
-            ui.print(f'{solver_i + 1}. {harness} site:{site!r} slug:{note!r}')
+        for solver_i, (harness, proto, note) in enumerate(zip(solver_harness, solver_prior, solver_notes)):
+            ui.print(f'{solver_i + 1}. {harness} site:{proto.site!r} slug:{note!r}')
 
     def read_status(self, ui: PromptUI, verbose: bool=False):
 
