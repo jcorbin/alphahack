@@ -1,0 +1,151 @@
+T146.10810863500228 now: 2026-01-03T09:22:51EST
+TD70 site: britannica.com/games/octordle/daily-rescue
+TDD-57 wordlist: nwl2023.txt
+TDD-8 num_words: 8
+TDD4870584  ...
+TDD-1374327 > tried earth
+TDD-3496113 questioning: earth
+TDD1903530 Rescue #1 _____? MMMnn
+TDD-1903432 attempt: 0 EARTH m m m n n
+TDD1751281 Rescue #2 _____? Ynnnn
+TDD-1751363 attempt: 1 EARTH Y n n n n
+TDD1599960 Rescue #3 _____? nnMnn
+TDD-1599883 attempt: 2 EARTH n n m n n
+TDD1343624 Rescue #4 _____? Mnnnn
+TDD-1343569 attempt: 3 EARTH m n n n n
+TDD3655276 Rescue #5 _____? nnnnn
+TDD-3655341 attempt: 4 EARTH n n n n n
+TDD1223796 Rescue #6 _____? nnnMn
+TDD-1223844 attempt: 5 EARTH n n n m n
+TDD1399314 Rescue #7 _____? nnnnn
+TDD-1399264 attempt: 6 EARTH n n n n n
+TDD1959530 Rescue #8 _____? MMnnn
+TDD-1959592 attempt: 7 EARTH m m n n n
+TDD4087884 > * 5
+TDD-2664079 ? 1
+TDD-1423776 questioning: boils
+TDD4215485 Rescue #1 _____ ~AER -HT? nnnnn
+TDD-4215501 attempt: 0 BOILS n n n n n
+TDD1520289 Rescue #2 E____ -AHRT? nnYMn
+TDD-1520176 attempt: 1 BOILS n n Y m n
+TDD2150750 Rescue #3 _____ ~R -AEHT? MYMnn
+TDD-2150843 attempt: 2 BOILS m Y m n n
+TDD1863713 Rescue #4 _____ ~E -AHRT? nMYnn
+TDD-1863649 attempt: 3 BOILS n m Y n n
+TDD3687582 Rescue #5 _____ -AEHRT? nMMnn
+TDD-3687584 attempt: 4 BOILS n m m n n
+TDD1415198 Rescue #6 _____ ~T -AEHR? nYnnn
+TDD-1415225 attempt: 5 BOILS n Y n n n
+TDD1639608 Rescue #7 _____ -AEHRT? nnnnn
+TDD-1639615 attempt: 6 BOILS n n n n n
+TDD1535585 Rescue #8 _____ ~AE -HRT? nnMnn
+TDD-1535580 attempt: 7 BOILS n n m n n
+TDD2663482 > * 2
+TDD-2570025 questioning: elide
+TDD4996812 Rescue #1 _____ ~AER -BHILOST? Mnnnn
+TDD-5090263 attempt: 0 ELIDE m n n n n
+TDD2463435 Rescue #2 E_I__ ~L -ABHORST? YYYYY
+TDD-2463425 attempt: 1 ELIDE Y Y Y Y Y
+TDD1703596 Rescue #3 _O___ ~BIR -AEHLST? nnMnn
+TDD-1703590 attempt: 2 ELIDE n n m n n
+TDD2063855 Rescue #4 __I__ ~EO -ABHLRST? nnYnY
+TDD-2063846 attempt: 3 ELIDE n n Y n Y
+TDD4471362 Rescue #5 _____ ~IO -ABEHLRST? nnMMn
+TDD-4471380 attempt: 4 ELIDE n n m m n
+TDD2127123 Rescue #6 _O___ ~T -ABEHILRS? nnnnn
+TDD-2127197 attempt: 5 ELIDE n n n n n
+TDD1743678 Rescue #7 _____ -ABEHILORST? nnnnn
+TDD-1743672 attempt: 6 ELIDE n n n n n
+TDD1351677 Rescue #8 _____ ~AEI -BHLORST? nnMnY
+TDD-1351642 attempt: 7 ELIDE n n m n Y
+TDD1807492 > * 3
+TDD-1698540 questioning: robin
+TDD4765810 Rescue #1 _____ ~AER -BDHILOST E:1? MnnnM
+TDD-4874714 attempt: 0 ROBIN m n n n m
+TDD3511630 Rescue #3 _O___ ~BIR -ADEHLST? YYYYY
+TDD-3511716 attempt: 2 ROBIN Y Y Y Y Y
+TDD4103674 Rescue #4 __I_E ~O -ABDHLRST? nMnMM
+TDD-4103610 attempt: 3 ROBIN n m n m m
+TDD4399471 Rescue #5 _____ ~DIO -ABEHLRST? nMnYn
+TDD-4399536 attempt: 4 ROBIN n m n Y n
+TDD1839932 Rescue #6 _O___ ~T -ABDEHILRS? nYnnM
+TDD-1839866 attempt: 5 ROBIN n Y n n m
+TDD1903390 Rescue #7 _____ -ABDEHILORST? nnnnn
+TDD-1903397 attempt: 6 ROBIN n n n n n
+TDD2247700 Rescue #8 ____E ~AI -BDHLORST? nnnMM
+TDD-2247703 attempt: 7 ROBIN n n n m m
+TDD5991259 > * 8
+TDD-3711541 ? 2
+TDD-2279803 questioning: inane
+TDD5623838 Rescue #1 _____ ~AENR -BDHILOST E:1? nYMnM
+TDD-5623803 attempt: 0 INANE n Y m n m
+TDD3095577 Rescue #4 __I_E ~NO -ABDHLRST? MnnYY
+TDD-3095491 attempt: 3 INANE m n n Y Y
+T337.89531953202095 now: 2026-01-03T09:26:03EST
+TD69 questioning: inane
+TDD4668974 Rescue #5 ___I_ ~DO -ABEHLNRST? Mnnnn
+TDD-4668774 attempt: 4 INANE m n n n n
+TDD1343652 Rescue #6 _O___ ~NT -ABDEHILRS? nnnYn
+TDD-1343725 attempt: 5 INANE n n n Y n
+TDD3983526 Rescue #7 _____ -ABDEHILNORST? nnnnn
+TDD-3983553 attempt: 6 INANE n n n n n
+TDD1039543 Rescue #8 ____E ~AIN -BDHLORST? YYYYY
+TDD-1039543 attempt: 7 INANE Y Y Y Y Y
+TDD2631397 > * 1
+TDD-423641 ? 1
+TDD-2207777 questioning: anger
+TDD4175825 Rescue #1 _N___ ~AER -BDHILOST E:1? YYYYY
+TDD-4175788 attempt: 0 ANGER Y Y Y Y Y
+TDD2319630 Rescue #4 __INE ~O -ABDHLRST? nMnMn
+TDD-2319640 attempt: 3 ANGER n m n m n
+TDD5632086 Rescue #5 ___I_ ~DO -ABEHLNRST? nnnnn
+TDD-5632074 attempt: 4 ANGER n n n n n
+TDD1143133 Rescue #6 _O_N_ ~T -ABDEHILRS? nMnnn
+TDD-1143137 attempt: 5 ANGER n m n n n
+TDD4031898 Rescue #7 _____ -ABDEHILNORST? nnnnn
+TDD-4031880 attempt: 6 ANGER n n n n n
+TDD1791517 > * 4
+TDD-391678 ? 1
+TDD-1399848 questioning: opine
+TDD6479629 Rescue #4 __INE ~O -ABDGHLRST? YYYYY
+TDD-6479583 attempt: 3 OPINE Y Y Y Y Y
+TDD4607873 Rescue #5 ___I_ ~DO -ABEGHLNRST? YnMnn
+TDD-4607859 attempt: 4 OPINE Y n m n n
+TDD1959341 Rescue #6 _O_N_ ~T -ABDEGHILRS? MnnYn
+TDD-1959344 attempt: 5 OPINE m n n Y n
+TDD1447275 Rescue #7 _____ -ABDEGHILNORST? nMnnn
+TDD-1447284 attempt: 6 OPINE n m n n n
+TDD2247550 > * 5
+TDD-2156293 questioning: ovoid
+TDD4409483 Rescue #5 O__I_ ~D -ABEGHLNPRST? YYYYY
+TDD-4500806 attempt: 4 OVOID Y Y Y Y Y
+TDD2063425 Rescue #6 _O_N_ ~T -ABDEGHILPRS? Mnnnn
+TDD-2063389 attempt: 5 OVOID m n n n n
+TDD1463562 Rescue #7 _____ ~P -ABDEGHILNORST? nnnnn
+TDD-1463576 attempt: 6 OVOID n n n n n
+TDD1887717 > * 6
+TDD1200215 ? 4
+TDD-3087941 questioning: mount
+TDD2823323 Rescue #6 _O_N_ ~T -ABDEGHILPRSV O:1? nYYYY
+TDD-2823291 attempt: 5 MOUNT n Y Y Y Y
+TDD2007708 Rescue #7 _____ ~P -ABDEGHILNORSTV? nnMnn
+TDD-2007687 attempt: 6 MOUNT n n m n n
+TDD1631557 > * 6
+TDD-79552 ? 2
+TDD-1552048 questioning: count
+TDD5351426 Rescue #6 _OUNT -ABDEGHILMPRSV? YYYYY
+TDD-5351393 attempt: 5 COUNT Y Y Y Y Y
+TDD4863574 Rescue #7 _____ ~PU -ABDEGHILMNORSTV? nnMnn
+TDD-4863565 attempt: 6 COUNT n n m n n
+TDD2175398 > /res
+TDD1721453 📋> Daily Rescue Octordle #1440
+TDD-3896992 📋> 9️⃣6️⃣
+TDD-85 📋> 7️⃣🔟
+TDD-2 📋> 🕚🕐
+TDD-2 📋> 🟥8️⃣
+TDD303060 📋> Score: 7
+TDD-111068 📋> ␚
+TDD-191895 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1440\n9\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a\ud83d\udd50\n\ud83d\udfe58\ufe0f\u20e3\nScore: 7"}
+TDD64 result: "Daily Rescue Octordle #1440\n9\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a\ud83d\udd50\n\ud83d\udfe58\ufe0f\u20e3\nScore: 7"
+TDD1559296 > /store
+TDD-1022980 📆 2026-01-03 ? 
