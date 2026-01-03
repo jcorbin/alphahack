@@ -1037,8 +1037,8 @@ class Meta(Arguable):
         show solver status
         '''
         ui.print('Solver Status:')
-        for i, day, note, head, _body in self.read_status(ui):
-            harness = solver_harness[i] if 0 <= i < len(solver_harness) else None
+        for solver_i, day, note, head, _body in self.read_status(ui):
+            harness = solver_harness[solver_i] if 0 <= solver_i < len(solver_harness) else None
             mark = '❔'
             if day is not None: mark = '✅'
             if head: mark += '📜'
