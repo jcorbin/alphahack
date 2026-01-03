@@ -1,0 +1,119 @@
+T251.29971834196476 now: 2026-01-03T09:10:02EST
+TD76 site: squareword.org
+TDD-58 wordlist: nwl2023.txt
+TDD2534534  ...
+TDD-870620 🧩  ? #1433
+TDD-1663642 puzzle_id: #1433
+TDD687534 > *
+TDD144034 try? 1
+TDD-831655 questioning: ["elans", "#5"]
+T272.94939779595006 now: 2026-01-03T09:10:23EST
+TD86 questioning: ["elans", "#5"]
+TDD5564947 #1 <IndexError>  📋 "elans" ? __A_S ~ S
+TDD-5564728 attempt 0 ELANS n n Y n Y
+TDD2279347 #2 <IndexError>  📋 "elans" ? _____ ~ L
+TDD-2279369 attempt 1 ELANS n m n n n
+TDD4487752 #3 <IndexError>  📋 "elans" ? _____ ~ EA
+TDD-4487824 attempt 2 ELANS m n m n n
+TDD3167464 #4 <IndexError>  📋 "elans" ? _____ ~ EN
+TDD-3167400 attempt 3 ELANS m n n m n
+TDD2903380 #5 <IndexError>  📋 "elans" ? _____ ~ EAS
+TDD-2903372 attempt 4 ELANS m n m n m
+TDD887493 ? 
+TDD-887586 question done
+TDD1055750 > *
+TDD591761 try? 1
+TDD-1647480 questioning: ["taser", "#5"]
+TDD4743709 #1 __A_S -ELN  📋 "taser" ? __A_S ~ STR
+TDD-4743704 attempt 0 TASER m n m n m
+TDD2119701 #2 _____ ~L -AENS  📋 "taser" ? _____ ~ LT
+TDD-2119734 attempt 1 TASER m n n n n
+TDD951388 #3 _____ ~AE -LNS  📋 "taser" ? .
+TDD-951274 attempt 2 TASER n m n m n
+TDD1151572 #4 _____ ~EN -ALS  📋 "taser" ? .
+TDD-1151596 attempt 3 TASER n n n m n
+TDD3527487 #5 _____ ~AES -LN  📋 "taser" ? _A_ER ~ S
+TDD-3527496 attempt 4 TASER n Y m Y Y
+TDD471408 ? 
+TDD-471544 question done
+TDD855854 > *
+TDD2080370 try? 3
+TDD-2936042 questioning: ["brats", "#1"]
+TDD6727153 #1 __A_S ~RT -AELN  📋 "brats" ? __A_S ~ STR
+TDD-6727266 attempt 0 BRATS n m Y m Y
+TDD823581 #2 _____ ~LT -AENRS  📋 "brats" ? .
+TDD-823549 attempt 1 BRATS n n n m n
+TDD2959575 #3 _____ ~AE -LNRST  📋 "brats" ? _____ ~ EAB
+TDD-2959548 attempt 2 BRATS m n m n n
+TDD2735254 #4 _____ ~EN -ALRST  📋 "brats" ? B____ ~ EN
+TDD-2735290 attempt 3 BRATS Y n n n n
+TDD1607552 #5 _A_ER ~S -LNT  📋 "brats" ? .
+TDD-1607498 attempt 4 BRATS n n n n m
+TDD175724 ? 
+TDD-175869 question done
+TDD1823545 > *
+TDD-1278267 questioning: ["stars", "#1"]
+TDD2661071 #1 __A_S ~RT -BELN  📋 "stars" ? /it
+TDD-3206285 attempt 0 STARS Y Y Y Y Y
+TDD1120008 #2 _____ ~LT -ABENRS  📋 "stars" ? .
+TDD-1119918 attempt 1 STARS n m n n n
+TDD1255169 #3 _____ ~ABE -LNRST  📋 "stars" ? .
+TDD-1255259 attempt 2 STARS n n m n n
+TDD1111675 #4 B____ ~EN -ALRST  📋 "stars" ? .
+TDD-1111678 attempt 3 STARS n n n n n
+TDD3719557 #5 _A_ER ~S -ABLNRT  📋 "stars" ? SA_ER
+TDD-3719541 attempt 4 STARS Y n n n n
+TDD215768 ? 
+TDD-215831 question done
+TDD663654 > *
+TDD1943762 try? 1
+TDD-2607347 questioning: ["binge", "#4"]
+TDD4487817 #2 _____ ~LT -ABENRS  📋 "binge" ? _I___ ~ LTI
+TDD-4487714 attempt 1 BINGE n Y n n n
+TDD3471411 #3 _____ ~ABE -LNRST  📋 "binge" ? ____E ~ AB
+TDD-3471510 attempt 2 BINGE m n n n Y
+TDD815519 #4 B____ ~EN -ALRST  📋 "binge" ? /it
+TDD-815461 attempt 3 BINGE Y Y Y Y Y
+TDD5167539 #5 SA_ER -ABLNRT  📋 "binge" ? SA_ER ~ G
+TDD-5167544 attempt 4 BINGE n n n m n
+TDD263333 ? 
+TDD-263507 question done
+TDD1048023 > *
+TDD701551 questioning: ["abode", "#3"]
+TDD4636799 #2 _I___ ~LT -ABEGNRS  📋 "abode" ? _I___ ~ LTI
+TDD-6386266 attempt 1 ABODE n n n n n
+TDD1582942 #3 ____E ~AB -GILNRST  📋 "abode" ? /it
+TDD-1582945 attempt 2 ABODE Y Y Y Y Y
+TDD2615927 #5 SA_ER ~G -ABEILNRT  📋 "abode" ? 
+TDD-1112008 #5 SA_ER ~G -ABEILNRT  ? .
+TDD-1503923 attempt 4 ABODE n n n n n
+TDD831531 ? 
+TDD-831597 question done
+TDD8591511 > *
+TDD-7257654 questioning: ["limit", "#2"]
+TDD1555899 #2 _I___ ~LT -ABDEGNORS  📋 "limit" ? /it
+TDD-2889669 attempt 1 LIMIT Y Y Y Y Y
+TDD1159649 #5 SA_ER ~G -ABDEILNORT  📋 "limit" ? .
+TDD-1159604 attempt 4 LIMIT n n n n n
+TDD175338 ? 
+TDD-175470 question done
+TDD431671 > *
+TDD566305 questioning: ["sager", "#5"]
+TDD972054 #5 SA_ER ~G -ABDEILMNORT  📋 "sager" ? /it
+TDD-1969935 attempt 4 SAGER Y Y Y Y Y
+TDD1519286 ? 
+TDD-1519397 question done
+TDD3704218 📋> squareword.org 1433: 8 guesses
+TDD-3704252 📋> 
+TDD-72 📋> 🟩🟩🟩🟩🟩
+TDD-10 📋> 🟨🟩🟨🟨🟨
+TDD0 📋> 🟨🟨🟨🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟨🟩🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD319388 📋> #squareword #squareword1433
+TDD-183324 📋> ␚
+TDD-135959 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1433: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1433"}
+TDD618 result: "squareword.org 1433: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1433"
+TDD198334 📆 2026-01-03 ? 
