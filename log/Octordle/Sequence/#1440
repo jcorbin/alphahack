@@ -1,0 +1,209 @@
+T455.0552922390052 now: 2026-01-03T09:28:00EST
+TD97 site: britannica.com/games/octordle/daily-sequence
+TDD-80 wordlist: nwl2023.txt
+TDD-12 num_words: 8
+TDD2901638  ...
+TDD-477702 > * 1
+TDD-1407938 ? 1
+TDD-1015849 questioning: ideas
+TDD2855686 Sequence #1 _____? YnMnn
+TDD-2855637 attempt: 0 IDEAS Y n m n n
+TDD1887713 > 
+TDD-1063840 > * 1
+TDD183905 ? 1
+TDD-1007820 questioning: ither
+TDD9247682 Sequence #1 I____ ~E -ADS? YMnYY
+TDD-9247550 attempt: 0 ITHER Y m n Y Y
+TDD1455412 > * 1
+TDD-1362456 questioning: inter
+TDD2725788 Sequence #1 I__ER ~T -ADHS? YYYYY
+TDD-2818807 attempt: 0 INTER Y Y Y Y Y
+TDD-173 questioning: IDEAS
+TDD3695513 Sequence #2 _____? nnnnM
+TDD-3695334 attempt: 1 IDEAS n n n n m
+TDD-184 questioning: ITHER
+TDD1063472 Sequence #2 _____ ~S -ADEI? nMnnn
+TDD-1063270 attempt: 1 ITHER n m n n n
+TDD-202 questioning: INTER
+TDD1327748 Sequence #2 _____ ~ST -ADEHIR? nnMnn
+TDD-1327528 attempt: 1 INTER n n m n n
+TDD1399375 > * 2
+TDD432808 ? 2
+TDD-1832230 questioning: spout
+TDD4231725 Sequence #2 _____ ~ST -ADEHINR? MnMMY
+TDD-4231676 attempt: 1 SPOUT m n m m Y
+TDD1726920 > * 2
+TDD-1620658 questioning: joust
+TDD2850905 Sequence #2 ____T ~OSU -ADEHINPR? YYYYY
+TDD-2957258 attempt: 1 JOUST Y Y Y Y Y
+TDD-145 questioning: IDEAS
+TDD2903819 Sequence #3 _____? nnMYn
+TDD-2903681 attempt: 2 IDEAS n n m Y n
+TDD-139 questioning: ITHER
+TDD1423954 Sequence #3 ___A_ ~E -DIS? nMnMn
+TDD-1423810 attempt: 2 ITHER n m n m n
+TDD-142 questioning: INTER
+TDD1831643 Sequence #3 ___A_ ~ET -DHIRS? nnMMn
+TDD-1831500 attempt: 2 INTER n n m m n
+TDD-142 questioning: SPOUT
+TDD1887903 Sequence #3 ___A_ ~ET -DHINRS? nnnnY
+TDD-1887766 attempt: 2 SPOUT n n n n Y
+TDD-138 questioning: JOUST
+TDD1255558 Sequence #3 ___AT ~E -DHINOPRSU? nnnnY
+TDD-1255414 attempt: 2 JOUST n n n n Y
+TDD1351710 > * 3
+TDD376102 ? 1
+TDD-1727839 questioning: begat
+TDD2639781 Sequence #3 ___AT ~E -DHIJNOPRSU? YYYYY
+TDD-2639702 attempt: 2 BEGAT Y Y Y Y Y
+TDD-180 questioning: IDEAS
+TDD1943656 Sequence #4 _____? nnMnn
+TDD-1943474 attempt: 3 IDEAS n n m n n
+TDD-180 questioning: ITHER
+TDD1583895 Sequence #4 _____ ~E -ADIS? nnnMM
+TDD-1583719 attempt: 3 ITHER n n n m m
+TDD-168 questioning: INTER
+TDD4199677 Sequence #4 _____ ~ER -ADHIST? nnnMM
+TDD-4199563 attempt: 3 INTER n n n m m
+TDD-138 questioning: SPOUT
+TDD2159704 Sequence #4 _____ ~ER -ADHINST? nMYnn
+TDD-2159495 attempt: 3 SPOUT n m Y n n
+TDD-194 questioning: JOUST
+TDD1103534 Sequence #4 __O__ ~EPR -ADHINSTU? nMnnn
+TDD-1103401 attempt: 3 JOUST n m n n n
+TDD-146 questioning: BEGAT
+TDD1759934 Sequence #4 __O__ ~EPR -ADHIJNSTU? MMnnn
+TDD-1759795 attempt: 3 BEGAT m m n n n
+TDD1807582 > * 4
+TDD-1705858 questioning: probe
+TDD4628062 Sequence #4 __O__ ~BEPR -ADGHIJNSTU? YYYYY
+TDD-4729785 attempt: 3 PROBE Y Y Y Y Y
+TDD-141 questioning: IDEAS
+TDD2624165 Sequence #5 _____? MnnMn
+TDD-2623927 attempt: 4 IDEAS m n n m n
+TDD-160 questioning: ITHER
+TDD1887495 Sequence #5 _____ ~AI -DES? MnMnn
+TDD-1887371 attempt: 4 ITHER m n m n n
+TDD-185 questioning: INTER
+TDD1279314 Sequence #5 _____ ~AHI -DERST? MMnnn
+TDD-1279139 attempt: 4 INTER m m n n n
+TDD-173 questioning: SPOUT
+TDD1439810 Sequence #5 _____ ~AHIN -DERST? nnnnn
+TDD-1439550 attempt: 4 SPOUT n n n n n
+TDD-243 questioning: JOUST
+TDD1751551 Sequence #5 _____ ~AHIN -DEOPRSTU? nnnnn
+TDD-1751394 attempt: 4 JOUST n n n n n
+TDD-175 questioning: BEGAT
+TDD1263539 Sequence #5 _____ ~AHIN -DEJOPRSTU? nnnMn
+TDD-1263355 attempt: 4 BEGAT n n n m n
+TDD-185 questioning: PROBE
+TDD1175728 Sequence #5 _____ ~AHIN -BDEGJOPRSTU? nnnnn
+TDD-1175545 attempt: 4 PROBE n n n n n
+TDD1439594 > * 5
+TDD560230 ? 2
+TDD-1999872 questioning: chain
+TDD2639821 Sequence #5 _____ ~AHIN -BDEGJOPRSTU? YYYYY
+TDD-2639834 attempt: 4 CHAIN Y Y Y Y Y
+TDD-138 questioning: IDEAS
+TDD1631717 Sequence #6 _____? nnMnn
+TDD-1631528 attempt: 5 IDEAS n n m n n
+TDD-169 questioning: ITHER
+TDD1303401 Sequence #6 _____ ~E -ADIS? nnnMn
+TDD-1303222 attempt: 5 ITHER n n n m n
+TDD-181 questioning: INTER
+TDD1135747 Sequence #6 _____ ~E -ADHIRST? nnnMn
+TDD-1135564 attempt: 5 INTER n n n m n
+TDD-183 questioning: SPOUT
+TDD1151504 Sequence #6 _____ ~E -ADHINRST? nnnMn
+TDD-1151310 attempt: 5 SPOUT n n n m n
+TDD-184 questioning: JOUST
+TDD2184222 Sequence #6 _____ ~EU -ADHINOPRST? nnMnn
+TDD-2184030 attempt: 5 JOUST n n m n n
+TDD-199 questioning: BEGAT
+TDD1559267 Sequence #6 _____ ~EU -ADHIJNOPRST? YMMnn
+TDD-1559108 attempt: 5 BEGAT Y m m n n
+TDD-174 questioning: PROBE
+TDD1368110 Sequence #6 B____ ~EGU -ADHIJNOPRST? nnnMY
+TDD-1367960 attempt: 5 PROBE n n n m Y
+TDD-152 questioning: CHAIN
+TDD1192174 Sequence #6 B___E ~GU -ADHIJNOPRST? nnnnn
+TDD-1191962 attempt: 5 CHAIN n n n n n
+TDD1471252 > * 6
+TDD-1380674 questioning: bulge
+TDD3201925 Sequence #6 B___E ~GU -ACDHIJNOPRST? YYYYY
+TDD-3292539 attempt: 5 BULGE Y Y Y Y Y
+TDD-162 questioning: IDEAS
+TDD4495713 Sequence #7 _____? nnYnn
+TDD-4495514 attempt: 6 IDEAS n n Y n n
+TDD-185 questioning: ITHER
+TDD1463481 Sequence #7 __E__ -ADIS? nMMMn
+TDD-1463374 attempt: 6 ITHER n m m m n
+TDD-134 questioning: INTER
+TDD2712150 Sequence #7 __E__ ~HT -ADIRS? nnMMn
+TDD-2711936 attempt: 6 INTER n n m m n
+TDD-196 questioning: SPOUT
+TDD1439414 Sequence #7 __E__ ~HT -ADINRS? nnnnM
+TDD-1439229 attempt: 6 SPOUT n n n n m
+TDD-173 questioning: JOUST
+TDD1503706 Sequence #7 __E__ ~HT -ADINOPRSU? nnnnM
+TDD-1503562 attempt: 6 JOUST n n n n m
+TDD-163 questioning: BEGAT
+TDD1655590 Sequence #7 __E__ ~HT -ADIJNOPRSU? nMnnM
+TDD-1655396 attempt: 6 BEGAT n m n n m
+TDD-185 questioning: PROBE
+TDD1647676 Sequence #7 __E__ ~HT -ABDGIJNOPRSU? nnnnY
+TDD-1647552 attempt: 6 PROBE n n n n Y
+TDD-141 questioning: CHAIN
+TDD3079824 Sequence #7 __E_E ~HT -ABDGIJNOPRSU? nYnnn
+TDD-3079621 attempt: 6 CHAIN n Y n n n
+TDD-168 questioning: BULGE
+TDD2056227 Sequence #7 _HE_E ~T -ABCDGIJNOPRSU? nnnnY
+TDD-2056112 attempt: 6 BULGE n n n n Y
+TDD1375226 > * 7
+TDD-1274056 questioning: theme
+TDD2717550 Sequence #7 _HE_E ~T -ABCDGIJLNOPRSU? YYYYY
+TDD-2818702 attempt: 6 THEME Y Y Y Y Y
+TDD-160 questioning: IDEAS
+TDD2167291 Sequence #8 _____? nnMnn
+TDD-2166996 attempt: 7 IDEAS n n m n n
+TDD-261 questioning: ITHER
+TDD5559564 Sequence #8 _____ ~E -ADIS? nMnMM
+TDD-5559410 attempt: 7 ITHER n m n m m
+TDD-190 questioning: INTER
+TDD1207762 Sequence #8 _____ ~ERT -ADHIS? nnMMM
+TDD-1207346 attempt: 7 INTER n n m m m
+TDD-343 questioning: SPOUT
+TDD1679342 Sequence #8 _____ ~ERT -ADHINS? nnnnM
+TDD-1679014 attempt: 7 SPOUT n n n n m
+TDD-355 questioning: JOUST
+TDD1295404 Sequence #8 _____ ~ERT -ADHINOPSU? nnnnM
+TDD-1295138 attempt: 7 JOUST n n n n m
+TDD-292 questioning: BEGAT
+TDD2231791 Sequence #8 _____ ~ERT -ADHIJNOPSU? nYnMM
+TDD-2231509 attempt: 7 BEGAT n Y n m m
+TDD-278 questioning: PROBE
+TDD1375292 Sequence #8 _E___ ~ART -ABDGHIJNOPSU? nMnnM
+TDD-1375053 attempt: 7 PROBE n m n n m
+TDD-257 questioning: CHAIN
+TDD1648239 Sequence #8 _E___ ~ART -ABDGHIJNOPSU? nnYnn
+TDD-1647880 attempt: 7 CHAIN n n Y n n
+TDD-182 questioning: BULGE
+TDD1558555 Sequence #8 _EA__ ~RT -BCDGHIJNOPSU? nnnnM
+TDD-1558480 attempt: 7 BULGE n n n n m
+TDD-233 questioning: THEME
+TDD1735867 Sequence #8 _EA__ ~RT -BCDGHIJLNOPSU? YnMnn
+TDD-1735566 attempt: 7 THEME Y n m n n
+TDD1303163 > * 8
+TDD-1211837 questioning: teary
+TDD3096335 Sequence #8 TEA__ ~R -BCDGHIJLMNOPSU E:1? YYYYY
+TDD-3187830 attempt: 7 TEARY Y Y Y Y Y
+TDD3328287 📋> Daily Sequence Octordle #1440
+TDD-3328369 📋> 3️⃣5️⃣
+TDD-92 📋> 6️⃣7️⃣
+TDD-5 📋> 8️⃣9️⃣
+TDD0 📋> 🔟🕚
+TDD287335 📋> Score: 59
+TDD-151322 📋> ␚
+TDD-135934 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Octordle #1440\n3\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\nScore: 59"}
+TDD78 result: "Daily Sequence Octordle #1440\n3\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\nScore: 59"
+TDD183424 📆 2026-01-03 ? 
