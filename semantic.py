@@ -2556,7 +2556,11 @@ class Search(StoredLog):
             exw = ExtractedWords(
                 lambda word: word in self.search.wordbad,
                 lambda word: word in self.search.wordgood)
+            # TODO how about structured output instead of all this?
             exw.consume(self.search.filter_words(
+                # TODO only bulleted lines?
+                # TODO filter out numbers
+                # TODO strip tags
                 word
                 for line in not_between(
                     spliterate(self.reply, '\n', trim=True),
