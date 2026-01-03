@@ -1,0 +1,87 @@
+T679.4378575289738 now: 2026-01-03T09:17:10EST
+TD71 site: m-w.com/games/quordle/#/rescue
+TDD-58 wordlist: nwl2023.txt
+TDD-8 num_words: 4
+TDD5070118  ...
+TDD-3878228 > * 1
+TDD-183808 ? ␚
+TDD-1008025 <EOF>
+TDD2175940 > tried shorn
+TDD-2175864 questioning: shorn
+TDD2272395 Rescue #1 _____? YnnnM
+TDD-2272324 attempt: 0 SHORN Y n n n m
+TDD1654948 Rescue #2 _____? YnnnM
+TDD-1654961 attempt: 1 SHORN Y n n n m
+TDD1335591 Rescue #3 _____? nnnnn
+TDD-1335608 attempt: 2 SHORN n n n n n
+TDD1439667 Rescue #4 _____? YYnnn
+TDD-1439693 attempt: 3 SHORN Y Y n n n
+TDD2032055 > tried lease
+TDD-2032068 questioning: lease
+TDD3223753 Rescue #1 S____ ~N -HOR? MnnMn
+TDD-3223675 attempt: 0 LEASE m n n m n
+TDD1711452 Rescue #2 S____ ~N -HOR? nMnMY
+TDD-1711489 attempt: 1 LEASE n m n m Y
+TDD1095449 Rescue #3 _____ -HNORS? nnnnn
+TDD-1095463 attempt: 2 LEASE n n n n n
+TDD1975842 Rescue #4 SH___ -NOR? nnYMn
+TDD-1975775 attempt: 3 LEASE n n Y m n
+TDD4135332 > * 3
+TDD-2055255 ? 1
+TDD-2080102 questioning: cubit
+TDD2951687 Rescue #1 S____ ~LN -AEHOR? nnnMn
+TDD-2951692 attempt: 0 CUBIT n n n m n
+TDD1447223 Rescue #2 S___E ~N -AHLOR? Mnnnn
+TDD-1447243 attempt: 1 CUBIT m n n n n
+TDD1583816 Rescue #3 _____ -AEHLNORS? nYMnn
+TDD-1583791 attempt: 2 CUBIT n Y m n n
+TDD1647676 Rescue #4 SHA__ -ELNOR? Mnnnn
+TDD-1647620 attempt: 3 CUBIT m n n n n
+TDD1655504 > * 4
+TDD-1560471 questioning: shack
+TDD3833319 Rescue #1 S____ ~ILN -ABCEHORTU? YnnnY
+TDD-3928437 attempt: 0 SHACK Y n n n Y
+TDD1495789 Rescue #2 S___E ~CN -ABHILORTU? YnnMn
+TDD-1495704 attempt: 1 SHACK Y n n m n
+TDD1367303 Rescue #3 _U___ ~B -ACEHILNORST? nnnnn
+TDD-1367321 attempt: 2 SHACK n n n n n
+TDD1263529 Rescue #4 SHA__ ~C -BEILNORTU? YYYYY
+TDD-1260595 attempt: 3 SHACK Y Y Y Y Y
+TDD2185947 > * 1
+TDD-2094689 questioning: slink
+TDD2667022 Rescue #1 S___K ~ILN -ABCEHORTU? YYYYY
+TDD-2761252 attempt: 0 SLINK Y Y Y Y Y
+TDD4064006 Rescue #2 S___E ~CN -ABHIKLORTU? YnnYn
+TDD-4064033 attempt: 1 SLINK Y n n Y n
+TDD1215135 Rescue #3 _U___ ~B -ACEHIKLNORST? nnnnn
+TDD-1215112 attempt: 2 SLINK n n n n n
+TDD1199754 > * 2
+TDD-1104213 questioning: scene
+TDD3136525 Rescue #2 S__NE ~C -ABHIKLORTU? YYYYY
+TDD-3232043 attempt: 1 SCENE Y Y Y Y Y
+TDD1855301 Rescue #3 _U___ ~B -ACEHIKLNORST? nnnnn
+TDD-1855287 attempt: 2 SCENE n n n n n
+TDD1127508 > * 3
+TDD2216301 ? 1
+TDD-3343886 questioning: bumpy
+TDD4991714 Rescue #3 _U___ ~B -ACEHIKLNORST? YYnnY
+TDD-4991618 attempt: 2 BUMPY Y Y n n Y
+TDD1151723 > * 3
+TDD3855923 ? 2
+TDD-5007681 questioning: buddy
+TDD4335540 Rescue #3 BU__Y -ACEHIKLMNOPRST? YYnnY
+TDD-4335503 attempt: 2 BUDDY Y Y n n Y
+TDD1135335 > * 3
+TDD960530 ? 1
+TDD-2095915 questioning: buggy
+TDD3991566 Rescue #3 BU__Y -ACDEHIKLMNOPRST? YYYYY
+TDD-3991602 attempt: 2 BUGGY Y Y Y Y Y
+TDD3792284 📋> Daily Rescue 54
+TDD-3792342 📋> 5️⃣6️⃣
+TDD-96 📋> 9️⃣4️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD295248 📋> 
+TDD-87228 📋> ␚
+TDD-207903 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 54\n5\ufe0f\u20e36\ufe0f\u20e3\n9\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD36 result: "Daily Rescue 54\n5\ufe0f\u20e36\ufe0f\u20e3\n9\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD215440 📆 2026-01-03 ? 
