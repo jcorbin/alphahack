@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 from emoji import emoji_count, is_emoji
 from functools import partial
 from os.path import basename
-from typing import Callable, Protocol, cast, final, override
+from typing import Callable, cast, final, override
 from types import TracebackType
 
 from store import StoredLog, atomic_rewrite, git_txn
@@ -318,34 +318,7 @@ class Report:
         with self.read() as f:
             yield from sections(f)
 
-class Solver(Protocol):
-    log_file: str
-    site: str
-
-    # TODO store directory / prior log access
-
-    @property
-    def today(self) -> datetime.date|None:
-        return None
-
-    def find_prior_log(self, ui: PromptUI, puzzle_id: str|None=None) -> str|None:
-        raise NotImplemented
-
-    @property
-    def note_slug(self) -> tuple[str, ...]:
-        return ('<undefined>',)
-
-    @property
-    def header_slug(self) -> tuple[str, ...]:
-        return ('<undefined>',)
-
-    def load_log(self, ui: PromptUI, log_file: str|None = None):
-        pass
-
-    def __call__(self, ui: PromptUI) -> PromptUI.State|None:
-        return None
-
-SolverMaker = Callable[[PromptUI.Tokens], Solver]
+SolverMaker = Callable[[PromptUI.Tokens], StoredLog]
 
 @final
 class SolverHarness:
@@ -361,13 +334,13 @@ class SolverHarness:
 
     def __call__(self,
                  tokens: PromptUI.Tokens,
-                 log_file: str|None = None) -> Solver:
+                 log_file: str|None = None):
         solver = self.make(tokens)
         if log_file:
             solver.log_file = log_file
         return solver
 
-def run_solver(name: str, make: Callable[[PromptUI.Tokens, str|None], Solver], ui: PromptUI, log_file: str|None=None):
+def run_solver(name: str, make: Callable[[PromptUI.Tokens, str|None], StoredLog], ui: PromptUI, log_file: str|None=None):
     # TODO parse optional -log-file arg
     try:
         ui.write(f'*** Running solver {name}')
