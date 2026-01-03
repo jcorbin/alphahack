@@ -1,0 +1,41 @@
+T1.4802546029677615 now: 2026-01-03T08:58:32EST
+TD73 site: alfagok.diginaut.net
+TDD378339 loaded 399701 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1151 words excluded) asof 698a9a529f2fb896cd5fd3e259beac23782a8b2e
+TDD4569831  ...
+TDD-1348382 [0 : 199833 : 399701] lijm? b
+TDD-3599487 progress: -1 199833 lijm
+TDD1799011 [0 : 99758 : 199833] ex? a
+TDD-1799223 progress: 1 99758 ex
+TDD4807799 [99759 : 149454 : 199833] huis? b
+TDD-4807797 progress: -1 149454 huis
+TDD1647756 [99759 : 111413 : 149454] ge? a
+TDD-1647778 progress: 1 111413 ge
+TDD1727826 [111414 : 130434 : 149454] gracieuze? b
+TDD-1727826 progress: -1 130434 gracieuze
+TDD1655623 [111414 : 120924 : 130434] gequeruleerd? a
+TDD-1655621 progress: 1 120924 gequeruleerd
+TDD1495867 [120925 : 125678 : 130434] gezeglijk? a
+TDD-1495892 progress: 1 125678 gezeglijk
+TDD1623466 [125679 : 128048 : 130434] glazen? b
+TDD-1623470 progress: -1 128048 glazen
+TDD1575782 [125679 : 126863 : 128048] giek? b
+TDD-1575783 progress: -1 126863 giek
+TDD1719765 [125679 : 126059 : 126863] gezon? b
+TDD-1719737 progress: -1 126059 gezon
+TDD1583778 [125679 : 125859 : 126059] gezin? b
+TDD-1583808 progress: -1 125859 gezin
+TDD2968277 [125679 : 125755 : 125859] gezicht? it
+TDD-2968250 progress: 0 125755 gezicht
+TDD-113 [125679 : 125755 : 125859] <Done>.
+TDD3160285 📋> 🧩 Puzzel #427
+TDD-3160210 📋> 🤔 12 gokken
+TDD-82 📋> ⏱️ 21s
+TDD318950 📋> 🔗 alfagok.diginaut.net
+TDD-94375 📋> ␚
+TDD-224457 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #427\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 21s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD242 result: "\ud83e\udde9 Puzzel #427\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 21s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-367 result puzzle: 427
+TDD-5 result guesses: 12
+TDD-1 result time: 21s
+TDD0 result link: alfagok.diginaut.net
+TDD279110 📆 2026-01-03 ? 
