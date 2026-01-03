@@ -1,0 +1,91 @@
+T381.74773275095504 now: 2026-01-03T09:04:52EST
+TD76 site: m-w.com/games/quordle/#/
+TDD-63 wordlist: nwl2023.txt
+TDD-8 num_words: 4
+TDD5503377  ...
+TDD-3527981 > * 1
+TDD-799455 ? 1
+TDD-1175752 questioning: stela
+TDD3343610 Classic #1 _____? YnMnn
+TDD-3343619 attempt: 0 STELA Y n m n n
+TDD1263731 Classic #2 _____? nnnMM
+TDD-1263723 attempt: 1 STELA n n n m m
+TDD1503668 Classic #3 _____? nnnnn
+TDD-1503695 attempt: 2 STELA n n n n n
+TDD1999650 Classic #4 _____? nMMnM
+TDD-1999576 attempt: 3 STELA n m m n m
+TDD2191884 > * 3
+TDD3143921 ? 1
+TDD-5335886 questioning: purin
+TDD4295423 Classic #1 S____ ~E -ALT? MnMnn
+TDD-4295407 attempt: 0 PURIN m n m n n
+TDD1239946 Classic #2 _____ ~AL -EST? nnMYn
+TDD-1239860 attempt: 1 PURIN n n m Y n
+TDD1143195 Classic #3 _____ -AELST? nnnnn
+TDD-1143273 attempt: 2 PURIN n n n n n
+TDD1247552 Classic #4 _____ ~AET -LS? nnnnn
+TDD-1247586 attempt: 3 PURIN n n n n n
+TDD1463660 > * 1
+TDD-1392649 questioning: spore
+TDD2969784 Classic #1 S____ ~EPR -AILNTU? YYYYY
+TDD-3040699 attempt: 0 SPORE Y Y Y Y Y
+TDD2023559 Classic #2 ___I_ ~ALR -ENPSTU? nnnMn
+TDD-2023554 attempt: 1 SPORE n n n m n
+TDD1567702 Classic #3 _____ -AEILNPRSTU? nnMnn
+TDD-1567768 attempt: 2 SPORE n n m n n
+TDD1543465 Classic #4 _____ ~AET -ILNPRSU? nnnnM
+TDD-1543462 attempt: 3 SPORE n n n n m
+TDD3815635 > * 3
+TDD-2471834 ? 1
+TDD-1343831 questioning: comfy
+T7.186098351958208 now: 2026-01-03T09:05:58EST
+TD72 questioning: comfy
+TDD2125451 Classic #2 ___I_ ~ALR -ENOPSTU? nnnMn
+TDD-2125337 attempt: 1 COMFY n n n m n
+TDD1711684 Classic #3 _____ ~O -AEILNPRSTU? nYnnY
+TDD-1711684 attempt: 2 COMFY n Y n n Y
+TDD1312011 Classic #4 _____ ~AET -ILNOPRSU? Mnnnn
+TDD-1312031 attempt: 3 COMFY m n n n n
+TDD1455123 > * 2
+TDD1104822 ? 1
+TDD-2559947 questioning: frail
+TDD4039815 Classic #2 ___I_ ~AFLR -CEMNOPSTUY? YMYYM
+TDD-4039736 attempt: 1 FRAIL Y m Y Y m
+TDD1591516 Classic #3 _O__Y -ACEFILMNPRSTU? nnnnn
+TDD-1591569 attempt: 2 FRAIL n n n n n
+TDD1367813 Classic #4 _____ ~ACET -FILMNOPRSUY? nnYnn
+TDD-1367826 attempt: 3 FRAIL n n Y n n
+TDD1655281 > * 2
+TDD-1563545 questioning: flair
+TDD3848439 Classic #2 F_AI_ ~LR -CEMNOPSTUY? YYYYY
+TDD-3940169 attempt: 1 FLAIR Y Y Y Y Y
+TDD1487626 Classic #3 _O__Y -ACEFILMNPRSTU? nnnnn
+TDD-1487574 attempt: 2 FLAIR n n n n n
+TDD1383742 Classic #4 __A__ ~CET -FILMNOPRSUY? nnYnn
+TDD-1383693 attempt: 3 FLAIR n n Y n n
+TDD1567203 > * 4
+TDD568689 ? 1
+TDD-2135970 questioning: teach
+TDD3791944 Classic #3 _O__Y -ACEFILMNPRSTU? nnnnn
+TDD-3791965 attempt: 2 TEACH n n n n n
+TDD1231166 Classic #4 __A__ ~CET -FILMNOPRSUY? YYYYY
+TDD-1231174 attempt: 3 TEACH Y Y Y Y Y
+TDD1295721 > * 3
+TDD4848119 ? 4
+TDD-6143873 questioning: dodgy
+TDD3599689 Classic #3 _O__Y -ACEFHILMNPRSTU? nYnnY
+TDD-3599656 attempt: 2 DODGY n Y n n Y
+TDD1295879 > * 3
+TDD303763 ? 1
+TDD-1599678 questioning: bobby
+TDD2703937 Classic #3 _O__Y -ACDEFGHILMNPRSTU? YYYYY
+TDD-2703882 attempt: 2 BOBBY Y Y Y Y Y
+TDD4824169 📋> 🙂 Daily Quordle 1440
+TDD-4824292 📋> 3️⃣6️⃣
+TDD-66 📋> 9️⃣7️⃣
+TDD-3 📋> m-w.com/games/quordle/
+TDD343873 📋> 
+TDD-128300 📋> ␚
+TDD-215429 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1440\n3\ufe0f\u20e36\ufe0f\u20e3\n9\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1038 result: "\ud83d\ude42 Daily Quordle 1440\n3\ufe0f\u20e36\ufe0f\u20e3\n9\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD261285 📆 2026-01-03 ? 
