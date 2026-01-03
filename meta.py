@@ -319,39 +319,9 @@ class Report:
             yield from sections(f)
 
 SolverMaker = Callable[[PromptUI.Tokens], StoredLog]
+NamedSolverMaker = tuple[str, SolverMaker]
 
-@final
-class SolverHarness:
-    def __init__(self, name: str, make: SolverMaker):
-        self.name = name
-        self.make = make
-
-    @override
-    def __str__(self):
-        return self.name
-
-    # TODO prior log file search/browse
-
-    def __call__(self,
-                 tokens: PromptUI.Tokens,
-                 log_file: str|None = None):
-        solver = self.make(tokens)
-        if log_file:
-            solver.log_file = log_file
-        return solver
-
-def run_solver(name: str, make: Callable[[PromptUI.Tokens, str|None], StoredLog], ui: PromptUI, log_file: str|None=None):
-    # TODO parse optional -log-file arg
-    try:
-        ui.write(f'*** Running solver {name}')
-        solver = make(ui.tokens, log_file)
-        if log_file:
-            ui.write(f' log_file={log_file}')
-    finally:
-        ui.fin()
-    ui.interact(solver)
-
-def load_solvers() -> Generator[SolverHarness]:
+def load_solvers() -> Generator[NamedSolverMaker]:
     from binartic import Search as Binartic
 
     def make_alfa(_tokens: PromptUI.Tokens):
@@ -359,14 +329,14 @@ def load_solvers() -> Generator[SolverHarness]:
         alfa.site = 'alfagok.diginaut.net'
         alfa.wordlist_file = 'opentaal-wordlist.txt'
         return alfa
-    yield SolverHarness('alfa', make_alfa)
+    yield 'alfa', make_alfa
 
     def make_alpha(_tokens: PromptUI.Tokens):
         alpha = Binartic()
         alpha.site = 'alphaguess.com'
         alpha.wordlist_file = 'nwl2023.txt'
         return alpha
-    yield SolverHarness('alpha', make_alpha)
+    yield 'alpha', make_alpha
 
     from dontword import DontWord
 
@@ -374,7 +344,7 @@ def load_solvers() -> Generator[SolverHarness]:
         dontword = DontWord()
         dontword.wordlist_file = 'nwl2023.txt'
         return dontword
-    yield SolverHarness('dontword', make_dontword)
+    yield 'dontword', make_dontword
 
     from hurdle import Search as Hurdle
 
@@ -382,11 +352,11 @@ def load_solvers() -> Generator[SolverHarness]:
         hurdle = Hurdle()
         hurdle.wordlist_file = 'nwl2023.txt'
         return hurdle
-    yield SolverHarness('hurdle', make_hurdle)
+    yield 'hurdle', make_hurdle
 
     from nordle import Nordle
 
-    # TODO SolverHarness may need changes to support Nordle's kind/mode puzzle_name-ing
+    # TODO may need changes to support Nordle's kind/mode puzzle_name-ing
 
     def make_quordle(_tokens: PromptUI.Tokens):
         qu = Nordle()
@@ -398,7 +368,7 @@ def load_solvers() -> Generator[SolverHarness]:
         qu.mode = 'Classic'
         qu.num_words = 4
         return qu
-    yield SolverHarness('quordle', make_quordle)
+    yield 'quordle', make_quordle
 
     # TODO
     # Daily: Rescue
@@ -426,7 +396,7 @@ def load_solvers() -> Generator[SolverHarness]:
         oc.num_words = 8
         oc.wordlist_file = 'nwl2023.txt'
         return oc
-    yield SolverHarness('octordle', make_octordle)
+    yield 'octordle', make_octordle
 
     from square import Search as Square
 
@@ -434,7 +404,7 @@ def load_solvers() -> Generator[SolverHarness]:
         square = Square()
         square.wordlist_file = 'nwl2023.txt'
         return square
-    yield SolverHarness('square', make_square)
+    yield 'square', make_square
 
     from semantic import Search as Semantic
 
@@ -444,7 +414,7 @@ def load_solvers() -> Generator[SolverHarness]:
         cem.auto_affix = '!prob'
         cem.from_tokens(tokens)
         return cem
-    yield SolverHarness('cemantle', make_cemantle)
+    yield 'cemantle', make_cemantle
 
     def make_cemantix(tokens: PromptUI.Tokens):
         cex = Semantic()
@@ -456,7 +426,7 @@ def load_solvers() -> Generator[SolverHarness]:
         cex.auto_affix = '!prob'
         cex.from_tokens(tokens)
         return cex
-    yield SolverHarness('cemantix', make_cemantix)
+    yield 'cemantix', make_cemantix
 
     from spaceword import SpaceWord
 
@@ -464,20 +434,22 @@ def load_solvers() -> Generator[SolverHarness]:
         space = SpaceWord()
         space.wordlist_file = 'nwl2023.txt'
         return space
-    yield SolverHarness('space', make_space)
+    yield 'space', make_space
 
     # spaceweek = "./spaceword.py --wordlist nwl2023.txt spaceword_weekly.log"
 
-solver_harness = tuple(load_solvers())
+solver_nms = tuple(load_solvers())
+solver_name = tuple(n for n, _ in solver_nms)
+solver_make = tuple(m for _, m in solver_nms)
 
 # NOTE likely cannot be abstracted over instantiation, since slugs contain
 #      state info from a loaded prior solver log
 solver_prior = tuple(
-    harness.make(PromptUI.Tokens())
-    for harness in solver_harness)
+    make(PromptUI.Tokens())
+    for make in solver_make)
 solver_cur_log = {
-    sol.name: prior.log_file
-    for sol, prior in zip(solver_harness, solver_prior)}
+    name: prior.log_file
+    for name, prior in zip(solver_name, solver_prior)}
 
 solver_notes = tuple(
     solver.note_slug[0]
@@ -485,6 +457,18 @@ solver_notes = tuple(
 solver_heads = tuple(
     solver.header_slug
     for solver in solver_prior)
+
+def run_solver(name: str, make: SolverMaker, ui: PromptUI, log_file: str|None=None):
+    # TODO parse optional -log-file arg
+    try:
+        ui.write(f'*** Running solver {name}')
+        solver = make(ui.tokens)
+        if log_file:
+            solver.log_file = log_file
+        ui.write(f' log_file={log_file}')
+    finally:
+        ui.fin()
+    ui.interact(solver)
 
 # TODO is there any utility to using StoredLog? having a proper reified
 # "day log"? if sow, what state lives in report.md vs the log? how
@@ -565,14 +549,14 @@ class Meta(Arguable):
         pat = re.compile('.*'.join(name))
         ix = tuple(
             i
-            for i, harness in enumerate(solver_harness)
-            if pat.match(harness.name))
+            for i, name in enumerate(solver_name)
+            if pat.match(name))
 
         if len(ix) == 0:
             ui.print('! no such solver')
             return -1
         elif len(ix) > 1:
-            may = tuple(solver_harness[i].name for i in ix)
+            may = tuple(solver_name[i] for i in ix)
             ui.print(f'! Ambiguous solver; may be: {" ".join(may)}')
             return -1
         return ix[0]
@@ -679,7 +663,7 @@ class Meta(Arguable):
             if day == today:
                 solved = all(
                     solver_i in solves
-                    for solver_i in range(len(solver_harness)))
+                    for solver_i in range(len(solver_name)))
                 if solved: # TODO and shared
                     prune = True
                 ui.write(f' today solved: {solved}')
@@ -852,8 +836,6 @@ class Meta(Arguable):
         elif solver_i < 0:
             return
 
-        harness = solver_harness[solver_i]
-
         def use_last(ui: PromptUI, puzzle_id: str = '') -> PromptUI.State|None:
             proto = solver_prior[solver_i]
             found = proto.find_prior_log(ui, puzzle_id)
@@ -881,8 +863,10 @@ class Meta(Arguable):
             raise StopIteration
 
         def do_cont(ui: PromptUI):
+            name = solver_name[solver_i]
+            make = solver_make[solver_i]
             log_file = self.solver_log[solver_i]
-            return run_solver(harness.name, harness, ui, log_file)
+            return run_solver(name, make, ui, log_file)
 
         def do_tail(ui: PromptUI):
             log_file = self.solver_log[solver_i]
@@ -941,23 +925,24 @@ class Meta(Arguable):
                 ui.print('! all solvers reported, specify particular?')
                 return
         if solver_i >= 0:
-            harness = solver_harness[solver_i]
-            return run_solver(harness.name, harness, ui)
+            name = solver_name[solver_i]
+            make = solver_make[solver_i]
+            return run_solver(name, make, ui)
 
     def do_solvers(self, ui: PromptUI):
         '''
         show known solvers
         '''
-        for solver_i, (harness, proto, note) in enumerate(zip(solver_harness, solver_prior, solver_notes)):
-            ui.print(f'{solver_i + 1}. {harness} site:{proto.site!r} slug:{note!r}')
+        for solver_i, (name, proto, note) in enumerate(zip(solver_name, solver_prior, solver_notes)):
+            ui.print(f'{solver_i + 1}. {name} site:{proto.site!r} slug:{note!r}')
 
     def read_status(self, ui: PromptUI, verbose: int=0):
 
         days: list[datetime.date] = []
-        notes: list[str] = [''] * len(solver_harness)
-        note_days: list[int] = [0] * len(solver_harness)
-        heads: list[str] = [''] * len(solver_harness)
-        bodys: list[tuple[str, ...]] = [()] * len(solver_harness)
+        notes: list[str] = [''] * len(solver_name)
+        note_days: list[int] = [0] * len(solver_name)
+        heads: list[str] = [''] * len(solver_name)
+        bodys: list[tuple[str, ...]] = [()] * len(solver_name)
 
         for _level, text, body in self.report.sections():
             m = re.match(r'(?x) (\d{4}) [-_/.]? (\d{2}) [-_/.]? (\d{2})', text.strip())
@@ -1001,7 +986,7 @@ class Meta(Arguable):
                 if not note:
                     ui.print(f'Missing {slug!r}')
 
-        for solver_i in range(len(solver_harness)):
+        for solver_i in range(len(solver_name)):
             dd_n = note_days[solver_i]
             day = days[dd_n-1] if dd_n else None
             if verbose > 1:
@@ -1028,12 +1013,12 @@ class Meta(Arguable):
             f'Solver Status ( verbose={verbose} ):' if verbose else
             f'Solver Status:')
         for solver_i, day, note, head, _body in self.read_status(ui, verbose=verbose):
-            harness = solver_harness[solver_i] if 0 <= solver_i < len(solver_harness) else None
+            name = solver_name[solver_i] if 0 <= solver_i < len(solver_name) else '<No Solver>'
             mark = '❔'
             if day is not None: mark = '✅'
             if head: mark += '📜'
             write_tokens(ui, PeekIter((
-                f'{mark} {harness}',
+                f'{mark} {name}',
                 f'{day}',
                 *marked_tokenize(note)
             )))
