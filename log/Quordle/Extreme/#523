@@ -1,0 +1,78 @@
+T55.01210979401367 now: 2026-01-03T09:21:20EST
+TD75 site: m-w.com/games/quordle/#/extreme
+TDD-61 wordlist: nwl2023.txt
+TDD-10 num_words: 4
+TDD3077999  ...
+TDD-1493879 > * 1
+TDD-568507 ? 1
+TDD-1015485 questioning: earls
+TDD2559946 Extreme #1 _____? MnnnM
+TDD-2559890 attempt: 0 EARLS m n n n m
+TDD1255700 Extreme #2 _____? nnnMn
+TDD-1255687 attempt: 1 EARLS n n n m n
+TDD1535508 Extreme #3 _____? nnMnM
+TDD-1535453 attempt: 2 EARLS n n m n m
+TDD1591481 Extreme #4 _____? nYnnn
+TDD-1591437 attempt: 3 EARLS n Y n n n
+TDD2799300 > * 4
+TDD-1191583 ? 1
+TDD-1607865 questioning: handy
+TDD3575880 Extreme #1 _____ ~ES -ALR? nnnnn
+TDD-3575852 attempt: 0 HANDY n n n n n
+TDD1439568 Extreme #2 _____ ~L -AERS? Mnnnn
+TDD-1439553 attempt: 1 HANDY m n n n n
+TDD1416026 Extreme #3 _____ ~RS -AEL? nnnnn
+TDD-1415980 attempt: 2 HANDY n n n n n
+TDD1863218 Extreme #4 _A___ -ELRS? nYnnM
+TDD-1863277 attempt: 3 HANDY n Y n n m
+TDD3831783 > * 1
+TDD-2712188 ? 1
+TDD-1119569 questioning: suite
+TDD3159705 Extreme #1 _____ ~ES -ADHLNRY? MnnnY
+TDD-3159668 attempt: 0 SUITE m n n n Y
+TDD2919563 Extreme #2 _____ ~HL -ADENRSY? nnMYn
+TDD-2919634 attempt: 1 SUITE n n m Y n
+TDD1647576 Extreme #3 _____ ~RS -ADEHLNY? MnYnn
+TDD-1647498 attempt: 2 SUITE m n Y n n
+TDD1256417 Extreme #4 _A___ ~Y -DEHLNRS? nMnnn
+TDD-1256409 attempt: 3 SUITE n m n n n
+TDD2006537 > * 4
+TDD657201 ? 2
+TDD-2663823 questioning: bayou
+TDD4512143 Extreme #1 ____E ~S -ADHILNRTUY? nnnnn
+TDD-4512086 attempt: 0 BAYOU n n n n n
+TDD1223110 Extreme #2 ___T_ ~HIL -ADENRSUY? nnnnn
+TDD-1223169 attempt: 1 BAYOU n n n n n
+TDD1599654 Extreme #3 __I__ ~RS -ADEHLNTUY? Ynnnn
+TDD-1599625 attempt: 2 BAYOU Y n n n n
+TDD1287593 Extreme #4 _A___ ~UY -DEHILNRST? YYYYY
+TDD-1287623 attempt: 3 BAYOU Y Y Y Y Y
+TDD1327620 > * 3
+TDD-1233299 questioning: brisk
+TDD3099121 Extreme #1 ____E ~S -ABDHILNORTUY? nnnYn
+TDD-3193371 attempt: 0 BRISK n n n Y n
+TDD2071535 Extreme #2 ___T_ ~HIL -ABDENORSUY? nnMnn
+TDD-2071533 attempt: 1 BRISK n n m n n
+TDD3951568 Extreme #3 B_I__ ~RS -ADEHLNOTUY? YYYYY
+TDD-3951575 attempt: 2 BRISK Y Y Y Y Y
+TDD5023584 > * 2
+TDD-2359564 ? 1
+TDD-2664109 questioning: filth
+TDD5815631 Extreme #1 ___SE -ABDHIKLNORTUY? nnnnn
+TDD-5815534 attempt: 0 FILTH n n n n n
+TDD1175385 Extreme #2 ___T_ ~HIL -ABDEKNORSUY? YYYYY
+TDD-1175451 attempt: 1 FILTH Y Y Y Y Y
+TDD1263944 > * 1
+TDD831654 ? 2
+TDD-2095559 questioning: geese
+TDD3463469 Extreme #1 ___SE -ABDFHIKLNORTUY? YYYYY
+TDD-3463494 attempt: 0 GEESE Y Y Y Y Y
+TDD4360181 📋> 🥵 Daily Extreme 523
+TDD-4360250 📋> 7️⃣6️⃣
+TDD-98 📋> 5️⃣4️⃣
+TDD-8 📋> m-w.com/games/quordle/
+TDD303434 📋> 
+TDD-87407 📋> ␚
+TDD-215910 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udd75 Daily Extreme 523\n7\ufe0f\u20e36\ufe0f\u20e3\n5\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD46 result: "\ud83e\udd75 Daily Extreme 523\n7\ufe0f\u20e36\ufe0f\u20e3\n5\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD215351 📆 2026-01-03 ? 
