@@ -1,0 +1,117 @@
+T1331.5204189929937 now: 2026-01-04T09:37:53EST
+TD56 site: squareword.org
+TDD-41 wordlist: nwl2023.txt
+TDD2862986  ...
+TDD209041 🧩  ? #1434
+TDD-3071712 puzzle_id: #1434
+TDD1127370 > *
+TDD-303848 try? 1
+TDD-823640 questioning: ["reads", "#5"]
+T1395.5861489789968 now: 2026-01-04T09:38:57EST
+TD73 questioning: ["reads", "#5"]
+TDD33182183 #1 <IndexError>  📋 "reads" ? __A__ ~ ES
+TDD-33182041 attempt 0 READS n m Y n m
+TDD3727708 #2 <IndexError>  📋 "reads" ? _____ ~ RA
+TDD-3727638 attempt 1 READS m n m n n
+TDD2959224 #3 <IndexError>  📋 "reads" ? ____S ~ EAS
+TDD-2959337 attempt 2 READS n m m n Y
+TDD2295837 #4 <IndexError>  📋 "reads" ? _____ ~ RE
+TDD-2295721 attempt 3 READS m m n n n
+TDD2135520 #5 <IndexError>  📋 "reads" ? _____ ~ DS
+TDD-2135521 attempt 4 READS n n n m m
+TDD1143360 ? 
+TDD-1143437 question done
+TDD4343498 > *
+TDD-2831695 try? 1
+TDD-1511799 questioning: ["odist", "#5"]
+TDD8575970 #1 __A__ ~ES -DR  📋 "odist" ? __AS_ ~ E
+TDD-8575927 attempt 0 ODIST n n n Y n
+TDD6775881 #2 _____ ~AR -DES  📋 "odist" ? _____ ~ RAOT
+TDD-6775846 attempt 1 ODIST m n n n m
+TDD4742932 #3 ____S ~AE -DR  📋 "odist" ? ____S ~ EAS
+TDD-4742899 attempt 2 ODIST n n n m n
+TDD2447446 #4 _____ ~ER -ADS  📋 "odist" ? _____ ~ REO
+TDD-2447568 attempt 3 ODIST m n n n n
+TDD5695712 #5 _____ ~DS -AER  📋 "odist" ? _____ ~ DSO
+TDD-5695712 attempt 4 ODIST m m n m n
+TDD6191747 ? 
+TDD-6191768 question done
+TDD1103438 > *
+TDD3440434 try? 2
+TDD-4543782 questioning: ["phase", "#1"]
+TDD10135609 #1 __AS_ ~E -DIORT  📋 "phase" ? _HASE
+TDD-10135658 attempt 0 PHASE n Y Y Y Y
+TDD2311592 #2 _____ ~AORT -DEIS  📋 "phase" ? .
+TDD-2311513 attempt 1 PHASE n n m n n
+TDD3999381 #3 ____S ~AE -DIORT  📋 "phase" ? ____S ~ EAS
+TDD-3999411 attempt 2 PHASE n n m m m
+TDD3191375 #4 _____ ~EOR -ADIST  📋 "phase" ? ____E ~ RO
+TDD-3191441 attempt 3 PHASE n n n n Y
+TDD1151741 #5 _____ ~DOS -AEIRT  📋 "phase" ? .
+TDD-1151725 attempt 4 PHASE n n n m n
+TDD1079564 ? 
+TDD-1079681 question done
+TDD2839817 > *
+TDD-2204036 questioning: ["chase", "#1"]
+TDD3696154 #1 _HASE -DIOPRT  📋 "chase" ? /it
+TDD-4331753 attempt 0 CHASE Y Y Y Y Y
+TDD1199589 #2 _____ ~AORT -DEHIPS  📋 "chase" ? .
+TDD-1199584 attempt 1 CHASE n n m n n
+TDD4399318 #3 ____S ~AE -DHIOPRT  📋 "chase" ? ____S ~ EAS
+TDD-4399335 attempt 2 CHASE n n m m m
+TDD3015516 #4 ____E ~OR -ADHIPST  📋 "chase" ? .
+TDD-3015494 attempt 3 CHASE n n n n Y
+TDD767310 #5 _____ ~DOS -AEHIPRT  📋 "chase" ? .
+TDD-767426 attempt 4 CHASE n n n m n
+TDD959756 ? 
+TDD-959789 question done
+TDD1071860 > *
+TDD-514449 questioning: ["aorta", "#2"]
+TDD4844693 #2 _____ ~AORT -CDEHIPS  📋 "aorta" ? /it
+TDD-5401978 attempt 1 AORTA Y Y Y Y Y
+TDD5103658 #3 ____S ~AE -CDHIOPRT  📋 "aorta" ? ____S ~ EAS
+TDD-5103758 attempt 2 AORTA m n n n m
+TDD1095656 #4 ____E ~OR -ACDHIPST  📋 "aorta" ? .
+TDD-1095534 attempt 3 AORTA n m m n n
+TDD1119295 #5 _____ ~DOS -ACEHIPRT  📋 "aorta" ? .
+TDD-1119397 attempt 4 AORTA n m n n n
+TDD511809 ? 
+TDD-511842 question done
+TDD1703691 > *
+TDD229206 questioning: ["synod", "#5"]
+TDD5029891 #3 ____S ~AE -CDHIOPRT  📋 "synod" ? S___S ~EA
+TDD-6962651 attempt 2 SYNOD Y n n n n
+TDD3911555 #4 ____E ~OR -ACDHIPST  📋 "synod" ? ____E ~ RON
+TDD-3911555 attempt 3 SYNOD n n m m n
+TDD775191 #5 _____ ~DOS -ACEHIPRT  📋 "synod" ? /it
+TDD-775187 attempt 4 SYNOD Y Y Y Y Y
+TDD351574 ? 
+TDD-351692 question done
+TDD695435 > *
+TDD738984 questioning: ["sages", "#3"]
+TDD1210912 #3 S___S ~AE -CDHINOPRTY  📋 "sages" ? /it
+TDD-2645333 attempt 2 SAGES Y Y Y Y Y
+TDD1743746 #4 ____E ~NOR -ACDHIPSTY  📋 "sages" ? .
+TDD-1743662 attempt 3 SAGES n n n n n
+TDD175427 ? 
+TDD-175549 question done
+TDD751754 > *
+TDD185295 questioning: ["krone", "#4"]
+TDD2445391 #4 ____E ~NOR -ACDEGHIPSTY  📋 "krone" ? /it
+TDD-3382388 attempt 3 KRONE Y Y Y Y Y
+TDD1375969 ? 
+TDD-1376066 question done
+TDD6656183 📋> squareword.org 1434: 8 guesses
+TDD-6656154 📋> 
+TDD-110 📋> 🟩🟩🟩🟩🟩
+TDD-8 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟨🟨🟨🟨🟩
+TDD-1 📋> 🟨🟨🟨🟨🟩
+TDD1 📋> 🟨🟨🟨🟨🟨
+TDD-1 📋> 
+TDD28 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD359171 📋> #squareword #squareword1434
+TDD-143210 📋> ␚
+TDD-215906 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1434: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1434"}
+TDD677 result: "squareword.org 1434: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1434"
+TDD214639 📆 2026-01-04 ? 
