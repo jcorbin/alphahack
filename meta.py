@@ -640,11 +640,14 @@ class Meta(PromptUI.Arguable):
             if tokens.have(r'(?xi) ^ n'):
                 raise StopIteration
 
-    def prompt_mess(self, ui: PromptUI):
-        if self.prompt.re == 0:
+    def prompt_mess(self, ui: PromptUI, _: PromptUI.Shell):
+        if self.shell.re == 0:
             ui.print('')
             self.do_status(ui)
-        return 'meta> '
+
+        cur = self.shell.cur
+
+        return f'{cur}> '
 
     def choose_solver(self, ui: PromptUI):
         if not ui.tokens:
