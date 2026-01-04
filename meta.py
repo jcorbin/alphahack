@@ -231,6 +231,90 @@ def trim_lines(lines: Iterable[str]):
         elif st:
             st += 1
 
+# TODO share base class with StoredLog
+
+class Arguable:
+    @classmethod
+    def main(cls):
+        self, args = cls.parse_args()
+        trace = cast(bool, args.trace)
+        return PromptUI.main(self, trace=trace)
+
+    @classmethod
+    def parse_args(cls):
+        parser = argparse.ArgumentParser(
+            formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+        )
+        cls.add_args(parser)
+        args = parser.parse_args()
+        self = cls()
+        return self, args
+
+    @classmethod
+    def add_args(cls, parser: argparse.ArgumentParser):
+        _ = parser.add_argument('--trace', '-t', action='store_true',
+                                help='Enable execution state tracing')
+
+    def __init__(self):
+        self.prompt: PromptUI.Prompt = PromptUI.Prompt('> ', {})
+
+    def __call__(self, ui: PromptUI):
+        return self.prompt(ui)
+
+# TODO into mdkit
+
+def sections(lines: Iterable[str]) -> Generator[tuple[int, str, Iterable[str]]]:
+    r_sec = re.compile(r'(?x) ( [#]+ ) [ ]+ ( .+ )')
+
+    cur = PeekIter(lines)
+
+    def body():
+        while cur:
+            nxt = cur.peek('')
+            if r_sec.match(nxt):
+                return
+            yield next(cur)
+
+    for line in cur:
+        m = r_sec.match(line)
+        if m:
+            yield len(m[1]), m[2], body()
+
+def items(lines: Iterable[str]):
+    within = False
+    prior: str|None = None
+    for line in lines:
+        if not line.strip():
+            if within:
+                prior = line
+            continue
+        elif re.match(r'(?x) [ ]* [-*+]', line):
+            within = True
+            if prior is not None:
+                yield prior
+                prior = None
+            yield line
+        else:
+            return
+
+# TODO into store module
+
+class Report:
+    filename: str = 'report.md'
+
+    def read(self):
+        try:
+            return open(self.filename)
+        except FileNotFoundError:
+            return open('/dev/null')
+
+    def rewrite(self):
+        return atomic_rewrite(self.filename)
+
+    def sections(self) -> Generator[tuple[int, str, Iterable[str]]]:
+        with self.read() as f:
+            yield from sections(f)
+
 class Solver(Protocol):
     log_file: str
     site: str
@@ -412,90 +496,6 @@ def load_solvers() -> Generator[SolverHarness]:
     yield SolverHarness('space', make_space)
 
     # spaceweek = "./spaceword.py --wordlist nwl2023.txt spaceword_weekly.log"
-
-# TODO share base class with StoredLog
-
-class Arguable:
-    @classmethod
-    def main(cls):
-        self, args = cls.parse_args()
-        trace = cast(bool, args.trace)
-        return PromptUI.main(self, trace=trace)
-
-    @classmethod
-    def parse_args(cls):
-        parser = argparse.ArgumentParser(
-            formatter_class=argparse.ArgumentDefaultsHelpFormatter,
-        )
-        cls.add_args(parser)
-        args = parser.parse_args()
-        self = cls()
-        return self, args
-
-    @classmethod
-    def add_args(cls, parser: argparse.ArgumentParser):
-        _ = parser.add_argument('--trace', '-t', action='store_true',
-                                help='Enable execution state tracing')
-
-    def __init__(self):
-        self.prompt: PromptUI.Prompt = PromptUI.Prompt('> ', {})
-
-    def __call__(self, ui: PromptUI):
-        return self.prompt(ui)
-
-# TODO into mdkit
-
-def sections(lines: Iterable[str]) -> Generator[tuple[int, str, Iterable[str]]]:
-    r_sec = re.compile(r'(?x) ( [#]+ ) [ ]+ ( .+ )')
-
-    cur = PeekIter(lines)
-
-    def body():
-        while cur:
-            nxt = cur.peek('')
-            if r_sec.match(nxt):
-                return
-            yield next(cur)
-
-    for line in cur:
-        m = r_sec.match(line)
-        if m:
-            yield len(m[1]), m[2], body()
-
-def items(lines: Iterable[str]):
-    within = False
-    prior: str|None = None
-    for line in lines:
-        if not line.strip():
-            if within:
-                prior = line
-            continue
-        elif re.match(r'(?x) [ ]* [-*+]', line):
-            within = True
-            if prior is not None:
-                yield prior
-                prior = None
-            yield line
-        else:
-            return
-
-# TODO into store module
-
-class Report:
-    filename: str = 'report.md'
-
-    def read(self):
-        try:
-            return open(self.filename)
-        except FileNotFoundError:
-            return open('/dev/null')
-
-    def rewrite(self):
-        return atomic_rewrite(self.filename)
-
-    def sections(self) -> Generator[tuple[int, str, Iterable[str]]]:
-        with self.read() as f:
-            yield from sections(f)
 
 solver_harness = tuple(load_solvers())
 
