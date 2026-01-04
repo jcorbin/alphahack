@@ -1156,7 +1156,7 @@ class Meta(PromptUI.Arguable):
                 f'{day}',
                 *marked_tokenize(note)
             )))
-        self.prompt.re = max(1, self.prompt.re)
+        self.shell.re = max(1, self.shell.re)
 
 @final
 class Review:
