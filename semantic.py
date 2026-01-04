@@ -1627,6 +1627,15 @@ class Search(StoredLog):
         status = '🥳' if self.result else '😦'
         return f'{status} {guesses} ⏱️ {self.elapsed}'
 
+    @override
+    def note_status(self, note: str):
+        _, desc = self.slug_split(note)
+        if not desc: return 'todo'
+        head = desc[0]
+        if head == '🥳': return 'done'
+        if head == '😦': return 'wip'
+        return 'unknown'
+
     @property
     @override
     def report_body(self) -> Generator[str]:
