@@ -1,0 +1,56 @@
+T284.9883845639997 now: 2026-01-04T09:20:27EST
+TD66 site: alphaguess.com
+TDD126845 loaded 196535 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (69 words excluded) asof 9aceccbfcddee79b1bf57e17a2e2b84a5bdf55f6
+TDD4249253  ...
+TDD-496151 [0 : 98224 : 196535] mach? b
+TDD-3879887 progress: -1 98224 mach
+TDD1983757 [0 : 47386 : 98224] dis? a
+TDD-1983780 progress: 1 47386 dis
+TDD1511821 [47387 : 72805 : 98224] gremmy? a
+TDD-1511822 progress: 1 72805 gremmy
+TDD1871820 [72806 : 85509 : 98224] ins? a
+TDD-1871815 progress: 1 85509 ins
+TDD1712126 [85510 : 91854 : 98224] knot? a
+TDD-1712126 progress: 1 91854 knot
+TDD1247489 [91855 : 94951 : 98224] lib? a
+TDD-1247492 progress: 1 94951 lib
+TDD1287772 [94952 : 96584 : 98224] locks? a
+TDD-1287776 progress: 1 96584 locks
+TDD1359755 [96585 : 97367 : 98224] low? b
+TDD-1359693 progress: -1 97367 low
+TDD1487822 [96585 : 96974 : 97367] loo? b
+TDD-1487872 progress: -1 96974 loo
+TDD1703695 [96585 : 96763 : 96974] logo? a
+TDD-1703708 progress: 1 96763 logo
+TDD1624077 [96764 : 96866 : 96974] lone? b
+TDD-1624051 progress: -1 96866 lone
+TDD1584074 [96764 : 96816 : 96866] loid? a
+TDD-1584108 progress: 1 96816 loid
+TDD1399437 [96817 : 96830 : 96866] loll? a
+TDD-1399380 progress: 1 96830 loll
+TDD2119632 [96831 : 96843 : 96866] lollop? b
+TDD-2119651 progress: -1 96843 lollop
+TDD1951831 [96831 : 96837 : 96843] lollers? a
+TDD-1951855 progress: 1 96837 lollers
+TDD1527743 [96838 : 96840 : 96843] lollingly? a
+TDD-1527749 progress: 1 96840 lollingly
+TDD2007852 [96841 : 96842 : 96843] lollipops? b
+TDD-2007848 progress: -1 96842 lollipops
+TDD5175923 [96841 : 96841 : 96842] lollipop? it
+TDD-5175904 progress: 0 96841 lollipop
+TDD-105 [96841 : 96841 : 96842] <Done>.
+TDD2951999 📋> 🧩 Puzzle #894
+TDD-2951943 📋> 
+TDD-63 📋> 🤔 18 guesses
+TDD-2 📋> 
+TDD0 📋> ⏱️ 29s
+TDD-1 📋> 
+TDD287753 📋> 🔗 alphaguess.com
+TDD192217 📋> ␚
+TDD-479887 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #894\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 29s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-22 result: "\ud83e\udde9 Puzzle #894\n\n\ud83e\udd14 18 guesses\n\n\u23f1\ufe0f 29s\n\n\ud83d\udd17 alphaguess.com"
+TDD-56 result puzzle: 894
+TDD-5 result guesses: 18
+TDD0 result time: 29s
+TDD0 result link: alphaguess.com
+TDD536003 📆 2026-01-04 ? 
