@@ -1,0 +1,52 @@
+T63.14518309298728 now: 2026-01-04T09:16:45EST
+TD54 site: alfagok.diginaut.net
+TDD377836 loaded 399701 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1151 words excluded) asof 9aceccbfcddee79b1bf57e17a2e2b84a5bdf55f6
+TDD11131585  ...
+TDD5122992 [0 : 199833 : 399701] lijm? b
+TDD-16631973 progress: -1 199833 lijm
+TDD2214805 [0 : 99758 : 199833] ex? a
+TDD-2215165 progress: 1 99758 ex
+TDD7207931 [99759 : 149454 : 199833] huis? a
+TDD-7207946 progress: 1 149454 huis
+TDD2175675 [149455 : 174561 : 199833] kind? b
+TDD-2175626 progress: -1 174561 kind
+TDD2359830 [149455 : 162009 : 174561] izabel? b
+TDD-2359858 progress: -1 162009 izabel
+TDD1615769 [149455 : 153625 : 162009] in? a
+TDD-1615760 progress: 1 153625 in
+TDD1863561 [153626 : 157808 : 162009] inrichting? b
+TDD-1863552 progress: -1 157808 inrichting
+TDD1567764 [153626 : 155717 : 157808] ingedeeld? a
+TDD-1567771 progress: 1 155717 ingedeeld
+TDD1535714 [155718 : 156760 : 157808] inkomens? b
+TDD-1535740 progress: -1 156760 inkomens
+TDD1415828 [155718 : 156239 : 156760] ingezeept? a
+TDD-1415796 progress: 1 156239 ingezeept
+T250.34604893399228 now: 2026-01-04T09:19:52EST
+TD5441108 [156240 : 156465 : 156760] inhoud? a
+TDD-5441006 progress: 1 156465 inhoud
+TDD3623805 [156466 : 156604 : 156760] injectie? b
+TDD-3623801 progress: -1 156604 injectie
+TDD2375671 [156466 : 156529 : 156604] inhuur? b
+TDD-2375676 progress: -1 156529 inhuur
+TDD2847979 [156466 : 156497 : 156529] inhoudstabel? b
+TDD-2847953 progress: -1 156497 inhoudstabel
+TDD2911707 [156466 : 156481 : 156497] inhoudsbeheer? b
+TDD-2911701 progress: -1 156481 inhoudsbeheer
+TDD2015827 [156466 : 156473 : 156481] inhouding? b
+TDD-2015814 progress: -1 156473 inhouding
+TDD2023729 [156466 : 156470 : 156473] inhouden? it
+TDD-2023774 progress: 0 156470 inhouden
+TDD-86 [156466 : 156470 : 156473] <Done>.
+TDD2992217 📋> 🧩 Puzzel #428
+TDD-2992127 📋> 🤔 18 gokken
+TDD-82 📋> ⏱️ 3m 1s
+TDD319629 📋> 🔗 alfagok.diginaut.net
+TDD-95575 📋> ␚
+TDD-223985 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #428\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 3m 1s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD199 result: "\ud83e\udde9 Puzzel #428\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 3m 1s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-279 result puzzle: 428
+TDD-5 result guesses: 18
+TDD-1 result time: 3m 1s
+TDD0 result link: alfagok.diginaut.net
+TDD343471 📆 2026-01-04 ? 
