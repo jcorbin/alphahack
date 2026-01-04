@@ -1,0 +1,87 @@
+T163.34343311798875 now: 2026-01-04T11:05:09EST
+TD65 site: m-w.com/games/quordle/#/rescue
+TDD-54 wordlist: nwl2023.txt
+TDD-7 num_words: 4
+TDD6022931  ...
+TDD-2927208 > tried frail
+TDD-3095600 questioning: frail
+TDD1519886 Rescue #1 _____? nnMMn
+TDD-1519663 attempt: 0 FRAIL n n m m n
+TDD1967193 Rescue #2 _____? nYnMn
+TDD-1967347 attempt: 1 FRAIL n Y n m n
+TDD2295653 Rescue #3 _____? nMnMn
+TDD-2295700 attempt: 2 FRAIL n m n m n
+TDD999676 Rescue #4 _____? nnnnn
+TDD-999645 attempt: 3 FRAIL n n n n n
+TDD3055861 > tried rural
+TDD-3055917 questioning: rural
+TDD1415873 Rescue #1 _____ ~AI -FLR? nnnMn
+TDD-1415811 attempt: 0 RURAL n n n m n
+TDD1279552 Rescue #2 _R___ ~I -AFL? Mnnnn
+TDD-1279588 attempt: 1 RURAL m n n n n
+TDD1223666 Rescue #3 _____ ~IR -AFL? Mnnnn
+TDD-1223643 attempt: 2 RURAL m n n n n
+TDD1335707 Rescue #4 _____ -AFILR? nnnnn
+TDD-1335744 attempt: 3 RURAL n n n n n
+TDD3311678 > * 4
+TDD1296420 ? 4
+TDD-4608072 questioning: pends
+TDD2607662 Rescue #1 _____ ~AI -FLRU? nnnnn
+TDD-2607663 attempt: 0 PENDS n n n n n
+TDD1263905 Rescue #2 _R___ ~I -AFLU R:1? nMnnn
+TDD-1263596 attempt: 1 PENDS n m n n n
+TDD1174915 Rescue #3 _____ ~IR -AFLU R:1? nMnnn
+TDD-1175211 attempt: 2 PENDS n m n n n
+TDD1143851 Rescue #4 _____ -AFILRU? nnnnM
+TDD-1143811 attempt: 3 PENDS n n n n m
+TDD2951467 > * 4
+TDD-1871657 ? 1
+TDD-1079886 questioning: showy
+TDD3664046 Rescue #1 _____ ~AI -DEFLNPRSU? nnnnY
+TDD-3664014 attempt: 0 SHOWY n n n n Y
+TDD1391483 Rescue #2 _R___ ~EI -ADFLNPSU R:1? nnnnn
+TDD-1391491 attempt: 1 SHOWY n n n n n
+TDD1255760 Rescue #3 _____ ~EIR -ADFLNPSU R:1? nnnnn
+TDD-1255765 attempt: 2 SHOWY n n n n n
+TDD2295682 Rescue #4 _____ ~S -ADEFILNPRU? YMYnn
+TDD-2295688 attempt: 3 SHOWY Y m Y n n
+TDD1383702 > * 1
+TDD-1295806 questioning: amity
+TDD3295959 Rescue #1 ____Y ~AI -DEFHLNOPRSUW? YYYYY
+TDD-3383850 attempt: 0 AMITY Y Y Y Y Y
+TDD2351778 Rescue #2 _R___ ~EI -ADFHLNOPSUWY R:1? nnYMn
+TDD-2351666 attempt: 1 AMITY n n Y m n
+TDD1615660 Rescue #3 _____ ~EIR -ADFHLNOPSUWY R:1? nMMMn
+TDD-1615771 attempt: 2 AMITY n m m m n
+TDD1511529 Rescue #4 S_O__ ~H -ADEFILNPRUWY? nnnYn
+TDD-1511448 attempt: 3 AMITY n n n Y n
+TDD1303546 > * 4
+TDD-1223216 questioning: sooth
+TDD559083 Rescue #2 _RI__ ~ET -ADFHLMNOPSUWY R:1? 1
+TDD2312204 Rescue #2 _RI__ ~ET -ADFHLMNOPSUWY R:1? nnnMn
+TDD-2951703 attempt: 1 SOOTH n n n m n
+TDD1335813 Rescue #3 _____ ~EIMRT -ADFHLNOPSUWY R:1? nnnMn
+TDD-1335812 attempt: 2 SOOTH n n n m n
+TDD1175683 Rescue #4 S_OT_ ~H -ADEFILMNPRUWY? YYYYY
+TDD-1175658 attempt: 3 SOOTH Y Y Y Y Y
+TDD1543679 > * 3
+TDD80451 ? 2
+TDD-1624154 questioning: timer
+TDD6711452 Rescue #2 _RI__ ~ET -ADFHLMNOPSUWY R:1? YMnMM
+TDD-6711356 attempt: 1 TIMER Y m n m m
+TDD1215558 Rescue #3 _____ ~EIMRT -ADFHLNOPSUWY R:1? YYYYY
+TDD-1215560 attempt: 2 TIMER Y Y Y Y Y
+TDD1263497 > * 2
+TDD376416 ? 1
+TDD-1640025 questioning: tribe
+TDD2759657 Rescue #2 TRI__ ~E -ADFHLMNOPSUWY R:1? YYYYY
+TDD-2759630 attempt: 1 TRIBE Y Y Y Y Y
+TDD4848421 📋> Daily Rescue 55
+TDD-4848501 📋> 5️⃣8️⃣
+TDD-74 📋> 7️⃣6️⃣
+TDD0 📋> m-w.com/games/quordle/
+TDD807378 📋> 
+TDD-495377 📋> ␚
+TDD-311862 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 55\n5\ufe0f\u20e38\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD822 result: "Daily Rescue 55\n5\ufe0f\u20e38\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD237972 📆 2026-01-04 ? 
