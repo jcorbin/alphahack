@@ -1,0 +1,104 @@
+T261.4254967339948 now: 2026-01-04T11:06:47EST
+TD73 site: m-w.com/games/quordle/#/sequence
+TDD-60 wordlist: nwl2023.txt
+TDD-9 num_words: 4
+TDD5430486  ...
+TDD-3870574 > * 1
+TDD1800154 ? nnYYn
+TDD-1247824 ? 1
+TDD-2112019 questioning: lears
+TDD1847389 Sequence #1 _____? nnYYn
+TDD-1847451 attempt: 0 LEARS n n Y Y n
+TDD1135712 > * 1
+TDD-159837 ? 1
+TDD-975894 questioning: chard
+TDD2647721 Sequence #1 __AR_ -ELS? YYYYn
+TDD-2647680 attempt: 0 CHARD Y Y Y Y n
+TDD1599532 > * 1
+TDD-647644 ? 1
+TDD-951927 questioning: chart
+TDD3743844 Sequence #1 CHAR_ -DELS? YYYYn
+TDD-3743830 attempt: 0 CHART Y Y Y Y n
+TDD1103918 > * 1
+TDD1119871 ? 3
+TDD-2223792 questioning: charm
+TDD3839672 Sequence #1 CHAR_ -DELST? YYYYY
+TDD-3839650 attempt: 0 CHARM Y Y Y Y Y
+TDD-141 questioning: LEARS
+TDD2911732 Sequence #2 _____? nMnYM
+TDD-2911583 attempt: 1 LEARS n m n Y m
+TDD-151 questioning: CHARD
+TDD3776513 Sequence #2 ___R_ ~ES -AL? nnnYn
+TDD-3776379 attempt: 1 CHARD n n n Y n
+TDD-140 questioning: CHART
+TDD1767332 Sequence #2 ___R_ ~ES -ACDHL? nnnYn
+TDD-1767087 attempt: 1 CHART n n n Y n
+TDD-218 questioning: CHARM
+TDD1879492 Sequence #2 ___R_ ~ES -ACDHLT? nnnYn
+TDD-1879356 attempt: 1 CHARM n n n Y n
+TDD1343519 > * 2
+TDD-175404 ? 1
+TDD-1168137 questioning: snore
+TDD4935613 Sequence #2 ___R_ ~ES -ACDHLMT? YnYYY
+TDD-4935612 attempt: 1 SNORE Y n Y Y Y
+TDD1167471 > * 2
+TDD824594 ? 1
+TDD-1992006 questioning: spore
+TDD5639675 Sequence #2 S_ORE -ACDHLMNT? YYYYY
+TDD-5639745 attempt: 1 SPORE Y Y Y Y Y
+TDD-128 questioning: LEARS
+TDD1919760 Sequence #3 _____? nnnYn
+TDD-1919617 attempt: 2 LEARS n n n Y n
+TDD-143 questioning: CHARD
+TDD1991898 Sequence #3 ___R_ -AELS? nYnYn
+TDD-1991752 attempt: 2 CHARD n Y n Y n
+TDD-143 questioning: CHART
+TDD1991844 Sequence #3 _H_R_ -ACDELS? nYnYM
+TDD-1991726 attempt: 2 CHART n Y n Y m
+TDD-124 questioning: CHARM
+TDD3303801 Sequence #3 _H_R_ ~T -ACDELS? nYnYn
+TDD-3303676 attempt: 2 CHARM n Y n Y n
+TDD-122 questioning: SNORE
+TDD2807804 Sequence #3 _H_R_ ~T -ACDELMS? nMYYn
+TDD-2807674 attempt: 2 SNORE n m Y Y n
+TDD-130 questioning: SPORE
+TDD1463874 Sequence #3 _HOR_ ~NT -ACDELMS? nnYYn
+TDD-1463740 attempt: 2 SPORE n n Y Y n
+TDD1447600 > * 3
+TDD-1369875 questioning: thorn
+TDD3004415 Sequence #3 _HOR_ ~NT -ACDELMPS? YYYYY
+TDD-3082166 attempt: 2 THORN Y Y Y Y Y
+TDD-111 questioning: LEARS
+TDD2735755 Sequence #4 _____? MMnnM
+TDD-2735600 attempt: 3 LEARS m m n n m
+TDD-142 questioning: CHARD
+TDD1095780 Sequence #4 _____ ~ELS -AR? nnnnn
+TDD-1095665 attempt: 3 CHARD n n n n n
+TDD-123 questioning: CHART
+TDD1031893 Sequence #4 _____ ~ELS -ACDHR? nnnnn
+TDD-1031628 attempt: 3 CHART n n n n n
+TDD-228 questioning: CHARM
+TDD1424170 Sequence #4 _____ ~ELS -ACDHRT? nnnnM
+TDD-1424020 attempt: 3 CHARM n n n n m
+TDD-184 questioning: SNORE
+TDD1583743 Sequence #4 _____ ~ELMS -ACDHRT? YnnnM
+TDD-1583608 attempt: 3 SNORE Y n n n m
+TDD-133 questioning: SPORE
+TDD1391200 Sequence #4 S____ ~ELM -ACDHNORT? YnnnM
+TDD-1391078 attempt: 3 SPORE Y n n n m
+TDD-124 questioning: THORN
+TDD1463764 Sequence #4 S____ ~ELM -ACDHNOPRT? nnnnn
+TDD-1463356 attempt: 3 THORN n n n n n
+TDD1167318 > * 4
+TDD-1084876 questioning: smell
+TDD3178199 Sequence #4 S____ ~ELM -ACDHNOPRT? YYYYY
+TDD-3260920 attempt: 3 SMELL Y Y Y Y Y
+TDD4495505 📋> Daily Sequence Quordle 1441
+TDD-4495560 📋> 4️⃣6️⃣
+TDD-80 📋> 7️⃣8️⃣
+TDD-7 📋> m-w.com/games/quordle/
+TDD544103 📋> 
+TDD-352069 📋> ␚
+TDD-191934 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1441\n4\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD64 result: "Daily Sequence Quordle 1441\n4\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD239629 📆 2026-01-04 ? 
