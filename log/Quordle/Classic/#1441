@@ -1,0 +1,94 @@
+T741.5626658519905 now: 2026-01-04T09:28:03EST
+TD70 site: m-w.com/games/quordle/#/
+TDD-59 wordlist: nwl2023.txt
+TDD-7 num_words: 4
+TDD26310487  ...
+TDD-22798363 > *
+TDD48049267 > * 1
+TDD-49570203 ? 1
+TDD-1991038 questioning: lares
+TDD8783704 Classic #1 _____? nnnnM
+TDD-8783650 attempt: 0 LARES n n n n m
+TDD1151581 Classic #2 _____? MnMnn
+TDD-1151604 attempt: 1 LARES m n m n n
+TDD1959692 Classic #3 _____? nMMnY
+TDD-1959608 attempt: 2 LARES n m m n Y
+TDD1967670 Classic #4 _____? nnMYn
+TDD-1967771 attempt: 3 LARES n n m Y n
+TDD43248366 > * 1 
+TDD-42088854 ? 1
+TDD-1159537 questioning: spout
+TDD2991674 Classic #1 _____ ~S -AELR? YnnMM
+TDD-2991625 attempt: 0 SPOUT Y n n m m
+TDD1647676 Classic #2 _____ ~LR -AES? nnMnn
+TDD-1647699 attempt: 1 SPOUT n n m n n
+TDD1247747 Classic #3 ____S ~AR -EL? Mnnnn
+TDD-1247737 attempt: 2 SPOUT m n n n n
+TDD1143771 Classic #4 ___E_ ~R -ALS? nnnnn
+TDD-1143787 attempt: 3 SPOUT n n n n n
+TDD2599801 > * 4
+TDD-1616042 ? 1
+TDD-983773 questioning: dicer
+TDD4087923 Classic #1 S____ ~TU -AELOPR? nnnnn
+TDD-4087886 attempt: 0 DICER n n n n n
+TDD2399481 Classic #2 _____ ~LOR -AEPSTU? nnMnY
+TDD-2399413 attempt: 1 DICER n n m n Y
+TDD2687539 Classic #3 ____S ~AR -ELOPTU? nnnnM
+TDD-2687601 attempt: 2 DICER n n n n m
+TDD1367476 Classic #4 ___E_ ~R -ALOPSTU? nnMYY
+TDD-1367464 attempt: 3 DICER n n m Y Y
+TDD1591713 > * 2
+TDD-1504196 questioning: color
+TDD8104562 Classic #1 S____ ~TU -ACDEILOPR? nnnnn
+TDD-8192016 attempt: 0 COLOR n n n n n
+TDD1175483 Classic #2 ____R ~CLO -ADEIPSTU? YYYYY
+TDD-1175508 attempt: 1 COLOR Y Y Y Y Y
+TDD1311775 Classic #3 ____S ~AR -CDEILOPTU? nnnnM
+TDD-1311761 attempt: 2 COLOR n n n n m
+TDD1727304 Classic #4 ___ER ~C -ADILOPSTU? YnnnY
+TDD-1727306 attempt: 3 COLOR Y n n n Y
+TDD5791857 > * 1
+TDD-3544360 ? ␚
+TDD-2247635 <EOF>
+TDD847737 > * 3
+TDD2128462 ? ␚
+TDD-2976214 <EOF>
+TDD1559615 > * 4
+TDD7728372 ? ␚
+TDD-9287995 <EOF>
+TDD1119924 > * 1
+TDD1407937 ? 1
+TDD-2527739 questioning: stung
+TDD5023693 Classic #1 S____ ~TU -ACDEILOPR? YYYYY
+TDD-5023741 attempt: 0 STUNG Y Y Y Y Y
+TDD3296091 Classic #3 ____S ~AR -CDEILOPTU? Mnnnn
+TDD-3296076 attempt: 2 STUNG m n n n n
+TDD1023229 Classic #4 C__ER -ADILOPSTU? nnnnn
+TDD-1023271 attempt: 3 STUNG n n n n n
+TDD1919783 > * 4
+TDD-191958 ? ␚
+TDD-1727866 <EOF>
+TDD895839 > * 3
+TDD9112308 ? ␚
+TDD-10008181 <EOF>
+TDD1047944 > * 4
+TDD3511939 ? 2
+TDD-4559815 questioning: cyber
+TDD5647725 Classic #3 ____S ~AR -CDEGILNOPTU? nnMnM
+TDD-5647683 attempt: 2 CYBER n n m n m
+TDD3319702 Classic #4 C__ER -ADGILNOPSTU? YYYYY
+TDD-3319714 attempt: 3 CYBER Y Y Y Y Y
+TDD1975720 > * 3
+TDD2800122 ? 2
+TDD-4775852 questioning: brass
+TDD2879780 Classic #3 ____S ~ABR -CDEGILNOPTUY? YYYYY
+TDD-2879663 attempt: 2 BRASS Y Y Y Y Y
+TDD9912515 📋> 🙂 Daily Quordle 1441
+TDD-9912692 📋> 5️⃣4️⃣
+TDD-81 📋> 7️⃣6️⃣
+TDD-2 📋> m-w.com/games/quordle/
+TDD1102942 📋> 
+TDD-694818 📋> ␚
+TDD-408042 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1441\n5\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD530 result: "\ud83d\ude42 Daily Quordle 1441\n5\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD822718 📆 2026-01-04 ? 
