@@ -621,6 +621,8 @@ class Meta(PromptUI.Arguable):
                 'variant': partial(self.do_sol_variant, solver_i),
             }
 
+        self.shell.cur = root['meta']
+
     @override
     def __call__(self, ui: PromptUI):
         ui.run(super().__call__)
