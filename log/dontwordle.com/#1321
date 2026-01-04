@@ -1,0 +1,61 @@
+T353.6779664479982 now: 2026-01-04T09:21:35EST
+TD62 site: dontwordle.com
+TDD-49 wordlist: nwl2023.txt
+TDD3230344  ...
+TDD6137740 1> *
+TDD4496060 ? ␚
+TDD-13864093 <EOF>
+TDD12024361 1> * -bot 10
+TDD22623692 ? 1
+TDD-28504025 📋 "rales" ? YMMMn
+TDD-6143751 tried: RALES Y m m m n
+TDD7815514 2> undo
+TDD-7815673 undo
+TDD3287631 1> *
+TDD-2167866 ? 1
+TDD2648159 📋 "sibbs" ? nnnnn
+TDD-3767942 tried: SIBBS n n n n n
+TDD943731 2> *
+TDD-248000 ? 1
+TDD2704248 📋 "howff" ? nnnnn
+TDD-3399917 tried: HOWFF n n n n n
+TDD799617 3> *
+TDD184025 ? 1
+TDD2928868 📋 "yuppy" ? nnnnn
+TDD-3912502 tried: YUPPY n n n n n
+TDD918851 4> *
+TDD496820 ? 1
+TDD2704274 📋 "ceded" ? nYnnn
+TDD-4120015 tried: CEDED n Y n n n
+TDD551704 5> *
+TDD560030 ? 1
+TDD12056484 📋 "jeeze" ? ␚
+TDD-13168306 <EOF>
+TDD15008036 5> * -sans :v e.*e
+TDD-5272068 ? 1
+TDD-4887984 📋 "gemma" ? nYnnM
+TDD-4847772 tried: GEMMA n Y n n m
+TDD1335451 6> *
+TDD1632204 📋 "venae" ? ␚
+TDD-2967877 <EOF>
+TDD14144106 6> * -sans :v e.*e
+TDD-10384223 ? 1
+TDD3128244 📋 "leant" ? MYMMn
+TDD-6887961 tried: LEANT m Y m m n
+TDD4552058 📋> Don't Wordle 1321 - SURVIVED
+TDD-4552191 📋> Hooray! I didn't Wordle today!
+TDD-82 📋> ⬜⬜⬜⬜⬜4209
+TDD-8 📋> ⬜⬜⬜⬜⬜1798
+TDD-1 📋> ⬜⬜⬜⬜⬜712
+TDD2 📋> ⬜🟩⬜⬜⬜37
+TDD-1 📋> ⬜🟩⬜⬜🟨9
+TDD-1 📋> 🟨🟩🟨🟨⬜3
+TDD0 📋> Undos used: 1
+TDD1 📋> 
+TDD0 📋>   3 words remaining
+TDD0 📋> x 7 unused letters
+TDD695144 📋> = 21 total score
+TDD-327049 📋> ␚
+TDD-368009 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1321 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4209\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1798\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c712\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c37\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe89\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c3\nUndos used: 1\n\n  3 words remaining\nx 7 unused letters\n= 21 total score"}
+TDD468 result: "Don't Wordle 1321 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4209\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1798\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c712\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c37\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe89\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c3\nUndos used: 1\n\n  3 words remaining\nx 7 unused letters\n= 21 total score"
+TDD302752 📆 2026-01-04 ? 
