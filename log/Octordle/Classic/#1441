@@ -1,0 +1,163 @@
+T1008.66991964099 now: 2026-01-04T09:32:30EST
+TD71 site: britannica.com/games/octordle/daily
+TDD-55 wordlist: nwl2023.txt
+TDD-12 num_words: 8
+TDD1030198  ...
+TDD3473558 > * 1
+TDD8736307 ? 1
+TDD-13239920 questioning: arose
+TDD7889150 Classic #1 _____? MnMnn
+TDD-7889133 attempt: 0 AROSE m n m n n
+TDD1550462 Classic #2 _____? nnYYY
+TDD-1550472 attempt: 1 AROSE n n Y Y Y
+TDD3391677 Classic #3 _____? YnMnn
+TDD-3391674 attempt: 2 AROSE Y n m n n
+TDD2599771 Classic #4 _____? nnMnM
+TDD-2599736 attempt: 3 AROSE n n m n m
+TDD4287821 Classic #5 _____? MMMnn
+TDD-4287850 attempt: 4 AROSE m m m n n
+TDD1335488 Classic #6 _____? YnMnn
+TDD-1335403 attempt: 5 AROSE Y n m n n
+TDD1719603 Classic #7 _____? MnMnn
+TDD-1719612 attempt: 6 AROSE m n m n n
+TDD1039639 Classic #8 _____? nnnnn
+TDD-1039621 attempt: 7 AROSE n n n n n
+TDD7087325 > * 2
+TDD-2335005 ? ␚
+TDD-4752501 <EOF>
+TDD2807861 > * 8
+TDD-712048 ? 1
+TDD-2095670 questioning: linty
+TDD6479547 Classic #1 _____ ~AO -ERS? nnnMn
+TDD-6479588 attempt: 0 LINTY n n n m n
+TDD1311534 Classic #2 __OSE -AR? nnnnn
+TDD-1311466 attempt: 1 LINTY n n n n n
+TDD2023426 Classic #3 A____ ~O -ERS? nMMnn
+TDD-2023424 attempt: 2 LINTY n m m n n
+TDD1887535 Classic #4 _____ ~EO -ARS? nnMnY
+TDD-1887580 attempt: 3 LINTY n n m n Y
+TDD4471757 Classic #5 _____ ~AOR -ES? Mnnnn
+TDD-4471725 attempt: 4 LINTY m n n n n
+TDD1551579 Classic #6 A____ ~O -ERS? nnnMn
+TDD-1551571 attempt: 5 LINTY n n n m n
+TDD2039444 Classic #7 _____ ~AO -ERS? nnMMn
+TDD-2039442 attempt: 6 LINTY n n m m n
+TDD1415520 Classic #8 _____ -AEORS? nnYnY
+TDD-1415515 attempt: 7 LINTY n n Y n Y
+TDD5743561 > * 4
+TDD-3231782 ? 2
+TDD-2511809 questioning: enjoy
+TDD7151723 Classic #1 _____ ~AOT -EILNRSY? nnnYn
+TDD-7151667 attempt: 0 ENJOY n n n Y n
+TDD1511470 Classic #2 __OSE -AILNRTY? MnnMn
+TDD-1511459 attempt: 1 ENJOY m n n m n
+TDD1303407 Classic #3 A____ ~INO -ELRSTY? nMnYn
+TDD-1303431 attempt: 2 ENJOY n m n Y n
+TDD1239425 Classic #4 ____Y ~ENO -AILRST? YYYYY
+TDD-1239511 attempt: 3 ENJOY Y Y Y Y Y
+TDD2927991 Classic #5 _____ ~ALOR -EINSTY? nnnMn
+TDD-2927909 attempt: 4 ENJOY n n n m n
+TDD1103598 Classic #6 A____ ~OT -EILNRSY? nnnYn
+TDD-1103612 attempt: 5 ENJOY n n n Y n
+TDD1591259 Classic #7 _____ ~ANOT -EILRSY? nMnYn
+TDD-1591258 attempt: 6 ENJOY n m n Y n
+TDD1471613 Classic #8 __N_Y -AEILORST? nMnnY
+TDD-1471611 attempt: 7 ENJOY n m n n Y
+TDD5607432 > *3
+TDD-4303504 > * 3
+TDD5367651 ? MnnYn
+TDD-5615758 ? nnnMn
+TDD1880017 ? 2
+TDD-2935869 questioning: axion
+TDD2815650 Classic #1 ___O_ ~AT -EIJLNRSY? MnnYn
+TDD-2815604 attempt: 0 AXION m n n Y n
+TDD1127445 Classic #2 __OSE -AIJLNRTY? nnnMn
+TDD-1127533 attempt: 1 AXION n n n m n
+TDD1415968 Classic #3 A__O_ ~IN -EJLRSTY? YYYYY
+TDD-1415947 attempt: 2 AXION Y Y Y Y Y
+TDD3007449 Classic #5 _____ ~ALOR -EIJNSTY? MnnMn
+TDD-3007389 attempt: 4 AXION m n n m n
+TDD1559525 Classic #6 A__O_ ~T -EIJLNRSY? YnnYn
+TDD-1559516 attempt: 5 AXION Y n n Y n
+TDD1775314 Classic #7 ___O_ ~ANT -EIJLRSY? MnnYY
+TDD-1775424 attempt: 6 AXION m n n Y Y
+TDD1695919 Classic #8 __N_Y -AEIJLORST? nnnnM
+TDD-1695825 attempt: 7 AXION n n n n m
+TDD4567373 > * 7
+TDD736564 ? 1
+TDD-5303957 questioning: baton
+TDD2935576 Classic #1 ___O_ ~AT -EIJLNRSXY? MYMYn
+TDD-2935631 attempt: 0 BATON m Y m Y n
+TDD1127624 Classic #2 __OSE -AIJLNRTXY? nnnMn
+TDD-1127616 attempt: 1 BATON n n n m n
+TDD5624276 Classic #5 _____ ~ALOR -EIJNSTXY? nMnMn
+TDD-5624286 attempt: 4 BATON n m n m n
+TDD1863208 Classic #6 A__O_ ~T -EIJLNRSXY? MMMYn
+TDD-1863208 attempt: 5 BATON m m m Y n
+TDD5079712 Classic #7 ___ON ~AT -EIJLRSXY? YYYYY
+TDD-5079636 attempt: 6 BATON Y Y Y Y Y
+TDD1879438 Classic #8 __N_Y -AEIJLORSTX? YnnnM
+TDD-1879490 attempt: 7 BATON Y n n n m
+TDD2159747 > * 8
+TDD-2083028 questioning: bunny
+TDD5390213 Classic #1 _A_O_ ~BT -EIJLNRSXY? Mnnnn
+TDD-5466847 attempt: 0 BUNNY m n n n n
+TDD1015496 Classic #2 __OSE -ABIJLNRTXY? nnnnn
+TDD-1015527 attempt: 1 BUNNY n n n n n
+TDD8743522 Classic #5 _____ ~ALOR -BEIJNSTXY? nnnnn
+TDD-8743519 attempt: 4 BUNNY n n n n n
+TDD1151464 Classic #6 A__O_ ~BT -EIJLNRSXY? Mnnnn
+TDD-1151466 attempt: 5 BUNNY m n n n n
+TDD2167580 Classic #8 B_N_Y -AEIJLORSTX? YYYYY
+TDD-2167656 attempt: 7 BUNNY Y Y Y Y Y
+TDD1727798 > * 1
+TDD-1651672 questioning: taboo
+TDD3903341 Classic #1 _A_O_ ~BT -EIJLNRSUXY? YYYYY
+TDD-3979405 attempt: 0 TABOO Y Y Y Y Y
+TDD2039684 Classic #2 __OSE -ABIJLNRTUXY? nnnMn
+TDD-2039676 attempt: 1 TABOO n n n m n
+TDD4039435 Classic #5 _____ ~ALOR -BEIJNSTUXY? nMnMn
+TDD-4039438 attempt: 4 TABOO n m n m n
+TDD2247645 Classic #6 A__O_ ~BT -EIJLNRSUXY? MMYYn
+TDD-2247655 attempt: 5 TABOO m m Y Y n
+TDD2031427 > * 6
+TDD744145 ? 1
+TDD-2775648 questioning: abbot
+TDD4095913 Classic #2 __OSE -ABIJLNRTUXY O:1? nnnMn
+TDD-4095821 attempt: 1 ABBOT n n n m n
+TDD4071527 Classic #5 _____ ~ALOR -BEIJNSTUXY O:1? MnnMn
+TDD-4071480 attempt: 4 ABBOT m n n m n
+TDD3871503 Classic #6 A_BO_ ~T -EIJLNRSUXY? YYYYY
+TDD-3871545 attempt: 5 ABBOT Y Y Y Y Y
+TDD3039525 > * 2
+TDD-1815787 ? 1
+TDD-1223781 questioning: chose
+TDD4399860 Classic #2 __OSE -ABIJLNRTUXY O:1? nYYYY
+TDD-4399789 attempt: 1 CHOSE n Y Y Y Y
+TDD4791246 Classic #5 _____ ~ALOR -BEIJNSTUXY O:1? nnMnn
+TDD-4791344 attempt: 4 CHOSE n n m n n
+TDD1791886 > * 2
+TDD-1718638 questioning: whose
+TDD4837198 Classic #2 _HOSE -ABCIJLNRTUXY? YYYYY
+TDD-4910294 attempt: 1 WHOSE Y Y Y Y Y
+TDD3863266 Classic #5 _____ ~ALOR -BCEHIJNSTUXY O:1? nnMnn
+TDD-3863253 attempt: 4 WHOSE n n m n n
+TDD1415476 > * 5
+TDD616070 ? 1
+TDD-2031727 questioning: molar
+TDD4903711 Classic #5 _____ ~ALOR -BCEHIJNSTUWXY O:1? YYMYM
+TDD-4903640 attempt: 4 MOLAR Y Y m Y m
+TDD1471579 > * 5
+TDD-1393733 questioning: moral
+TDD4003803 Classic #5 MO_A_ ~LR -BCEHIJNSTUWXY? YYYYY
+TDD-4081710 attempt: 4 MORAL Y Y Y Y Y
+TDD2528393 📋> Daily Octordle #1441
+TDD-2528454 📋> 7️⃣🔟
+TDD-94 📋> 4️⃣3️⃣
+TDD-3 📋> 🕛8️⃣
+TDD-3 📋> 5️⃣6️⃣
+TDD263275 📋> Score: 55
+TDD-7106 📋> ␚
+TDD-256082 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1441\n7\ufe0f\u20e3\ud83d\udd1f\n4\ufe0f\u20e33\ufe0f\u20e3\n\ud83d\udd5b8\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nScore: 55"}
+TDD18 result: "Daily Octordle #1441\n7\ufe0f\u20e3\ud83d\udd1f\n4\ufe0f\u20e33\ufe0f\u20e3\n\ud83d\udd5b8\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nScore: 55"
+TDD911565 📆 2026-01-04 ? 
