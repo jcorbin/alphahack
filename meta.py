@@ -1377,7 +1377,7 @@ class Meta(PromptUI.Arguable):
                         *marked_tokenize(note)
                     )))
 
-        self.prompt.re = max(1, self.prompt.re)
+        self.shell.re = max(1, self.shell.re)
 
 @final
 class Review:
