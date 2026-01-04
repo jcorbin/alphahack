@@ -536,6 +536,8 @@ class Meta(PromptUI.Arguable[PromptUI.Shell]):
                 'variant': partial(self.do_sol_variant, solver_i),
             }
 
+        sh.cur = root['meta']
+
         return sh
 
     def __init__(self):
