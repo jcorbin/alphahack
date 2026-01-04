@@ -572,6 +572,8 @@ class Meta(PromptUI.Arguable):
                 'tail': partial(self.do_sol_tail, solver_i),
             }
 
+        root['meta/all/rm'] = self.do_all_rm
+
         self.shell.cur = root['meta']
 
     @override
@@ -954,6 +956,31 @@ class Meta(PromptUI.Arguable):
                 os.unlink(log_file)
             except OSError as err:
                 ui.print(f'! {err}')
+
+    def do_all_rm(self, ui: PromptUI):
+        '''
+        remove any ephemeral solver log files
+        '''
+        verbose: int = 0
+        while ui.tokens:
+            v = ui.tokens.have(r'-(v+)', then=lambda m: len(m[1]))
+            if v is not None:
+                verbose += v
+                continue
+            ui.print(f'! invalid argument {next(ui.tokens)}')
+            return
+
+        for proto in solvers.proto:
+            log_file = proto.log_file
+            if verbose:
+                ui.print(f'+ rm {log_file}')
+            try:
+                os.unlink(log_file)
+                if not verbose:
+                    ui.print(f'removed {log_file}')
+            except OSError as err:
+                if verbose:
+                    ui.print(f'! {err}')
 
     def do_sol_tail(self, solver_i: int, ui: PromptUI):
         '''
