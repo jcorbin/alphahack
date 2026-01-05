@@ -569,6 +569,20 @@ class Meta(PromptUI.Arguable[PromptUI.Shell]):
 
         cur = self.root.cur
 
+        m = re.match(r'''(?x)
+            /
+            meta /
+            solvers /
+            (?P<name> [^/] + )
+            (?P<path> .* )
+        ''', cur.path)
+        if m:
+            j = self.solvers.lookup(name=m[1])
+            if j is None:
+                ui.print(f'! unknown solver {name!r}')
+            else:
+                ui.print(f'solver log_file: {self.solvers.log_file[j]}')
+
         return f'{cur}> '
 
     def choose_solver(self, ui: PromptUI):
