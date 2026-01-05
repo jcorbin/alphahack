@@ -619,6 +619,8 @@ class Meta(PromptUI.Arguable):
                 'rm': partial(self.do_sol_rm, solver_i),
                 'tail': partial(self.do_sol_tail, solver_i),
                 'variant': partial(self.do_sol_variant, solver_i),
+                # TODO fin / result
+                # TODO share / report
             }
 
         root['meta/all/rm'] = self.do_all_rm
