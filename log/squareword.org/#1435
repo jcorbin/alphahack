@@ -1,0 +1,116 @@
+T35.22055747397826 now: 2026-01-05T09:57:31EST
+TD62 site: squareword.org
+TDD-46 wordlist: nwl2023.txt
+TDD3326198  ...
+TDD-1318219 🧩  ? #1435
+TDD-2007820 puzzle_id: #1435
+TDD1335762 > *
+TDD-183906 try? 1
+TDD-1151796 questioning: ["saner", "#5"]
+T8.449220948998118 now: 2026-01-05T09:58:02EST
+TD77 questioning: ["saner", "#5"]
+TDD8357297 #1 <IndexError>  📋 "saner" ? _A___ ~ S
+TDD-8356919 attempt 0 SANER m Y n n n
+TDD3103036 #2 <IndexError>  📋 "saner" ? S____ ~ AE
+TDD-3103283 attempt 1 SANER Y m n m n
+TDD3263751 #3 <IndexError>  📋 "saner" ? ___E_ 
+TDD-3263770 attempt 2 SANER n n n Y n
+TDD2279552 #4 <IndexError>  📋 "saner" ? _____ ~ AE
+TDD-2279553 attempt 3 SANER n m n m n
+TDD2959816 #5 <IndexError>  📋 "saner" ? _AN__ ~ S
+TDD-2959701 attempt 4 SANER m Y Y n n
+TDD999269 ? 
+TDD-999387 question done
+TDD1343697 > *
+TDD1456456 try? 1
+TDD-2799976 questioning: ["tansy", "#5"]
+TDD9487130 #1 _A___ ~S -ENR  📋 "tansy" ? _A_SY
+TDD-9487314 attempt 0 TANSY n Y n Y Y
+TDD2895564 #2 S____ ~AE -NR  📋 "tansy" ? S____ ~ AET
+TDD-2895573 attempt 1 TANSY m m n n n
+TDD4375835 #3 ___E_ -ANRS  📋 "tansy" ? ___E_ ~ Y
+TDD-4375788 attempt 2 TANSY n n n n m
+TDD983475 #4 _____ ~AE -NRS  📋 "tansy" ? .
+TDD-983379 attempt 3 TANSY n m n n n
+TDD3079831 #5 _AN__ ~S -ER  📋 "tansy" ? _AN__ ~ S
+TDD-3079848 attempt 4 TANSY n Y Y m n
+TDD503191 ? 
+TDD-503326 question done
+TDD911742 > *
+TDD-319137 questioning: ["palsy", "#1"]
+TDD4926307 #1 _A_SY -ENRT  📋 "palsy" ? it
+TDD-4334874 #1 _A_SY -ENRT  ? /it
+TDD-1183933 attempt 0 PALSY Y Y Y Y Y
+TDD5151248 #2 S____ ~AET -NRSY  📋 "palsy" ? S____ ~ AETL
+TDD-5151235 attempt 1 PALSY n m m n n
+TDD4287498 #3 ___E_ ~Y -ANRST  📋 "palsy" ? ___E_ ~ YL
+TDD-4287493 attempt 2 PALSY n n m n m
+TDD2615552 #4 _____ ~AE -NRSTY  📋 "palsy" ? _____ ~ AEP
+TDD-2615564 attempt 3 PALSY m m n n n
+TDD1895227 #5 _AN__ ~S -ERTY  📋 "palsy" ? .
+TDD-1895298 attempt 4 PALSY n Y n m n
+TDD160129 ? 
+TDD-160185 question done
+TDD759407 > *
+TDD1848287 try? 1
+TDD-2607584 questioning: ["yokel", "#3"]
+TDD6311669 #2 S____ ~AELT -NPRSY  📋 "yokel" ? .
+TDD-6311741 attempt 1 YOKEL n n n m m
+TDD2271793 #3 ___E_ ~LY -ANPRST  📋 "yokel" ? YO_EL
+TDD-2271696 attempt 2 YOKEL Y Y n Y Y
+TDD1135255 #4 _____ ~AEP -LNRSTY  📋 "yokel" ? .
+TDD-1135356 attempt 3 YOKEL n n n m n
+TDD3880194 #5 _AN__ ~S -ELPRTY  📋 "yokel" ? _AN__ ~ SK
+TDD-3880102 attempt 4 YOKEL n n m n n
+TDD335038 ? 
+TDD-335155 question done
+TDD735936 > *
+TDD888160 questioning: ["slate", "#2"]
+TDD1175145 #2 S____ ~AELT -KNOPRSY  📋 "slate" ? /it
+TDD-2799181 attempt 1 SLATE Y Y Y Y Y
+TDD2063602 #3 YO_EL -AKNPRST  📋 "slate" ? .
+TDD-2063626 attempt 2 SLATE n n n n n
+TDD767934 #4 _____ ~AEP -KLNORSTY  📋 "slate" ? .
+TDD-767938 attempt 3 SLATE n n m n m
+TDD1055490 #5 _AN__ ~KS -ELOPRTY  📋 "slate" ? .
+TDD-1055390 attempt 4 SLATE m n n n n
+TDD159245 ? 
+TDD-159432 question done
+TDD407965 > *
+TDD1421386 questioning: ["yodel", "#3"]
+TDD733080 #3 YO_EL -AEKLNPRST  📋 "yodel" ? /it
+TDD-2562333 attempt 2 YODEL Y Y Y Y Y
+TDD1079646 #4 _____ ~AEP -KLNORSTY  📋 "yodel" ? .
+TDD-1079656 attempt 3 YODEL n n n m n
+TDD727672 #5 _AN__ ~KS -AELOPRTY  📋 "yodel" ? .
+TDD-727577 attempt 4 YODEL n n n n n
+TDD167323 ? 
+TDD-167457 question done
+TDD431839 > *
+TDD995965 questioning: ["cheap", "#4"]
+TDD1136056 #4 _____ ~AEP -DKLNORSTY  📋 "cheap" ? /it
+TDD-2563856 attempt 3 CHEAP Y Y Y Y Y
+TDD5703787 #5 _AN__ ~KS -ADELOPRTY  📋 "cheap" ? _AN__ ~ SKH
+TDD-5703609 attempt 4 CHEAP n m n n n
+TDD583645 ? 
+TDD-583825 question done
+TDD1063471 > *
+TDD-157830 questioning: ["hanks", "#5"]
+TDD2004121 #5 _AN__ ~HKS -ACDELOPRTY  📋 "hanks" ? /it
+TDD-2909739 attempt 4 HANKS Y Y Y Y Y
+TDD856096 ? 
+TDD-856174 question done
+TDD5832017 📋> squareword.org 1435: 8 guesses
+TDD-5832043 📋> 
+TDD-63 📋> 🟩🟩🟩🟩🟩
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟨🟩🟩
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟨🟩🟩🟨🟨
+TDD-1 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD359742 📋> #squareword #squareword1435
+TDD-31914 📋> ␚
+TDD-327708 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1435: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1435"}
+TDD646 result: "squareword.org 1435: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1435"
+TDD286212 📆 2026-01-05 ? 
