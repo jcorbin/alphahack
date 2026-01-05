@@ -1,0 +1,97 @@
+T117.47181501399609 now: 2026-01-05T09:47:49EST
+TD110 site: m-w.com/games/quordle/#/
+TDD-96 wordlist: nwl2023.txt
+TDD-10 num_words: 4
+TDD5757234  ...
+TDD-4597331 > * 1
+TDD-87873 ? 1
+TDD-1071872 questioning: maser
+TDD2887697 Classic #1 _____? nnnYY
+TDD-2887684 attempt: 0 MASER n n n Y Y
+TDD1207588 Classic #2 _____? nMnnn
+TDD-1207583 attempt: 1 MASER n m n n n
+TDD2551778 Classic #3 _____? nMnMM
+TDD-2551796 attempt: 2 MASER n m n m m
+TDD5264152 Classic #4 _____? YnnYY
+TDD-5264062 attempt: 3 MASER Y n n Y Y
+TDD44399796 > * 2
+TDD-42904028 ? 1
+TDD-1495859 questioning: loath
+TDD4935753 Classic #1 ___ER -AMS? nMnnn
+TDD-4935728 attempt: 0 LOATH n m n n n
+TDD6808371 Classic #2 _____ ~A -EMRS? MnMnn
+TDD-6808302 attempt: 1 LOATH m n m n n
+TDD2854963 Classic #3 _____ ~AER -MS? nnYnn
+TDD-2855042 attempt: 2 LOATH n n Y n n
+TDD3007722 Classic #4 M__ER -AS? nnnMn
+TDD-3007727 attempt: 3 LOATH n n n m n
+TDD3391769 > * 4
+TDD1424813 ? 1
+TDD-4816556 questioning: muter
+TDD4678818 Classic #1 ___ER ~O -AHLMST? nnnYY
+TDD-4678825 attempt: 0 MUTER n n n Y Y
+TDD1351647 Classic #2 _____ ~AL -EHMORST? nnnnn
+TDD-1351701 attempt: 1 MUTER n n n n n
+TDD1783722 Classic #3 __A__ ~ER -HLMOST? nnnMM
+TDD-1783629 attempt: 2 MUTER n n n m m
+TDD2279570 Classic #4 M__ER ~T -AHLOS? YnYYY
+TDD-2279613 attempt: 3 MUTER Y n Y Y Y
+TDD6759911 > * 2
+TDD2831911 ? 7
+TDD-9591768 questioning: align
+TDD4623756 Classic #1 ___ER ~O -AHLMSTU? nnnnM
+TDD-4623835 attempt: 0 ALIGN n n n n m
+TDD4343535 Classic #2 _____ ~AL -EHMORSTU? MMMnn
+TDD-4343470 attempt: 1 ALIGN m m m n n
+TDD7543601 Classic #3 __A__ ~ER -HLMOSTU? Mnnnn
+TDD-7543673 attempt: 2 ALIGN m n n n n
+TDD7631841 Classic #4 M_TER -AHLOSU? nnnnn
+TDD-7631838 attempt: 3 ALIGN n n n n n
+TDD11224509 > * 1
+TDD-11139389 questioning: owner
+TDD3972781 Classic #1 ___ER ~NO -AGHILMSTU? YYYYY
+TDD-4057911 attempt: 0 OWNER Y Y Y Y Y
+TDD1095728 Classic #2 _____ ~AIL -EGHMNORSTU? nnnnn
+TDD-1095709 attempt: 1 OWNER n n n n n
+TDD1287896 Classic #3 __A__ ~ER -GHILMNOSTU? nnnMM
+TDD-1287903 attempt: 2 OWNER n n n m m
+TDD1407617 Classic #4 M_TER -AGHILNOSU? nnnYY
+TDD-1407547 attempt: 3 OWNER n n n Y Y
+TDD1295628 > * 4
+TDD-1218275 questioning: meter
+TDD3772967 Classic #2 _____ ~AIL -EGHMNORSTUW? nnnnn
+TDD-3850389 attempt: 1 METER n n n n n
+TDD1735920 Classic #3 __A__ ~ER -GHILMNOSTUW? nYnnM
+TDD-1735930 attempt: 2 METER n Y n n m
+TDD2719428 Classic #4 M_TER -AGHILNOSUW? YYYYY
+TDD-2719423 attempt: 3 METER Y Y Y Y Y
+TDD1479897 > * 3
+TDD2871807 ? ␚
+TDD-4351793 <EOF>
+TDD1231906 > * 2
+TDD4159840 ? 1
+TDD-5391638 questioning: pibal
+TDD3208168 Classic #2 _____ ~AIL -EGHMNORSTUW? nYnMM
+TDD-3208161 attempt: 1 PIBAL n Y n m m
+TDD2031397 Classic #3 _EA__ ~R -GHILMNOSTUW? nnMMn
+TDD-2031402 attempt: 2 PIBAL n n m m n
+TDD1591512 > * 3
+TDD-1506930 questioning: beard
+TDD5710575 Classic #2 _I___ ~AL -BEGHMNOPRSTUW? nnMnn
+TDD-5795090 attempt: 1 BEARD n n m n n
+TDD1695955 Classic #3 _EA__ ~BR -GHILMNOPSTUW? YYYYY
+TDD-1696055 attempt: 2 BEARD Y Y Y Y Y
+TDD1423378 > * 2
+TDD2152397 ? 1
+TDD-3575778 questioning: villa
+TDD4031734 Classic #2 _I___ ~AL -BDEGHMNOPRSTUW? YYYYY
+TDD-4031730 attempt: 1 VILLA Y Y Y Y Y
+TDD4824185 📋> 🙂 Daily Quordle 1442
+TDD-4824247 📋> 5️⃣9️⃣
+TDD-73 📋> 8️⃣6️⃣
+TDD-3 📋> m-w.com/games/quordle/
+TDD335839 📋> 
+TDD143830 📋> ␚
+TDD-479583 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1442\n5\ufe0f\u20e39\ufe0f\u20e3\n8\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD688 result: "\ud83d\ude42 Daily Quordle 1442\n5\ufe0f\u20e39\ufe0f\u20e3\n8\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD294818 📆 2026-01-05 ? 
