@@ -1,0 +1,46 @@
+T144.6113521810039 now: 2026-01-05T09:37:45EST
+TD66 site: alphaguess.com
+TDD128509 loaded 196535 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (69 words excluded) asof 89e0d333b47482355a7813634a72e3c2dcd0b666
+TDD28469286  ...
+TDD-25797704 [0 : 98224 : 196535] mach? b
+TDD-2800043 progress: -1 98224 mach
+TDD2295705 [0 : 47386 : 98224] dis? a
+TDD-2295706 progress: 1 47386 dis
+TDD2119722 [47387 : 72805 : 98224] gremmy? b
+TDD-2119696 progress: -1 72805 gremmy
+TDD1671701 [47387 : 60089 : 72805] face? b
+TDD-1671732 progress: -1 60089 face
+TDD1223742 [47387 : 53402 : 60089] el? a
+TDD-1223744 progress: 1 53402 el
+TDD1239837 [53403 : 56747 : 60089] equate? b
+TDD-1239788 progress: -1 56747 equate
+TDD1343913 [53403 : 54925 : 56747] end? a
+TDD-1343951 progress: 1 54925 end
+TDD1327713 [54926 : 55805 : 56747] enter? b
+TDD-1327715 progress: -1 55805 enter
+TDD1503996 [54926 : 55324 : 55805] eng? a
+TDD-1503995 progress: 1 55324 eng
+TDD1929025 [55325 : 55562 : 55805] enol? b
+TDD-1929027 progress: -1 55562 enol
+TDD1238539 [55325 : 55443 : 55562] enharmonic? b
+TDD-1238546 progress: -1 55443 enharmonic
+TDD1415481 [55325 : 55384 : 55443] engraft? b
+TDD-1415484 progress: -1 55384 engraft
+TDD1736335 [55325 : 55347 : 55384] engine? it
+TDD-1736295 progress: 0 55347 engine
+TDD-117 [55325 : 55347 : 55384] <Done>.
+TDD3592122 📋> 🧩 Puzzle #895
+TDD-3592069 📋> 
+TDD-70 📋> 🤔 13 guesses
+TDD-2 📋> 
+TDD0 📋> ⏱️ 19s
+TDD-1 📋> 
+TDD351240 📋> 🔗 alphaguess.com
+TDD281002 📋> ␚
+TDD-632160 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #895\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-22 result: "\ud83e\udde9 Puzzle #895\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"
+TDD-57 result puzzle: 895
+TDD-4 result guesses: 13
+TDD0 result time: 19s
+TDD0 result link: alphaguess.com
+TDD287519 📆 2026-01-05 ? 
