@@ -1,0 +1,59 @@
+T1816.9883325650007 now: 2026-01-05T10:28:10EST
+TD121 site: spaceword.org
+TDD-91 wordlist: nwl2023.txt
+TDD6431060  ...
+TDD2449004 🧩  ? daily 20260105
+TDD-8879380 puzzle_id: 2026-01-05
+TDD5662418 num letters (default: 21) ? aaeefii
+TDD-5663042 num_letters: 21
+TDD2056275 letters? ikmoorr
+TDD-2056195 letters: |IKMOORR|
+TDD2687552 letters? /clear
+TDD-2687593 letters: ||
+TDD3407520 letters? aaeefii
+TDD-3407452 letters: |AAEEFII|
+TDD3655580 letters? ikmoorr
+TDD-3655636 letters: |AAEEFIIIKMOORR|
+TDD2440038 letters? rstuxyz
+TDD-2439996 letters: |AAEEFIIIKMOORRRSTUXYZ|
+TDD831587 letters. 
+TDD3407933 [doit:100]> /sea -cap 512
+TDD135314260 search ae6365 [ 512 cap:512 may:1791 prune:10 dead:23 done:10 ]> show done
+TDD-135145888 search ae6365 [ 512 cap:512 may:1791 prune:10 dead:23 done:10 ]> show 10
+TDD79795 search ae6365 [ 512 cap:512 may:1791 prune:10 dead:23 done:10 ]> ret
+TDD-4487568 change: 32 A
+TDD-297 change: 33 U
+TDD-3 change: 34 R
+TDD0 change: 35 A
+TDD0 change: 36 T
+TDD0 change: 37 E
+TDD0 change: 47 K
+TDD0 change: 53 F
+TDD0 change: 54 O
+TDD0 change: 55 X
+TDD0 change: 56 I
+TDD0 change: 57 E
+TDD0 change: 58 R
+TDD0 change: 62 Z
+TDD0 change: 63 O
+TDD0 change: 64 R
+TDD0 change: 65 I
+TDD0 change: 66 S
+TDD0 change: 68 I
+TDD0 change: 73 Y
+TDD0 change: 78 M
+TDD45864043 [doit:2165]> /res
+TDD-45167224 📋> ✨ Spaceword.org Daily 2026-01-05 ✨
+TDD-696744 📋> 
+TDD-69 📋> 🏆 Score: 2165
+TDD-2 📋> 🏅 Rank: 76/169 🎈
+TDD0 📋> 🧩 Tiles: 21/21 ✅
+TDD-1 📋> 📏 Space Bonus: +65
+TDD1 📋> 
+TDD0 📋> 
+TDD-3 📋> Play at https://spaceword.org
+TDD527366 📋> #spaceword
+TDD-143617 📋> ␚
+TDD-383656 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-01-05 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 76/169 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TDD574 result: "\u2728 Spaceword.org Daily 2026-01-05 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 76/169 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD2206770 [prior:2165]> /store
