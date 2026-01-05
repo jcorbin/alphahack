@@ -1,0 +1,93 @@
+T350.5252085009997 now: 2026-01-05T09:41:11EST
+TD75 site: https://play.dictionary.com/games/todays-hurdle
+TDD-61 wordlist: nwl2023.txt
+TDD12062315  ...
+TDD6986027 1.1> *
+TDD-17408152 1.1 ? 1
+TDD4999794 1.1 📋 "stare" ? MnYnn
+TDD-6639852 tried: STARE m n Y n n
+TDD919700 1.2> *
+TDD320099 1.2 ? 1
+TDD2280250 1.2 📋 "plans" ? nYYnM
+TDD-3519961 tried: PLANS n Y Y n m
+TDD1167626 1.3> *
+TDD-247799 1.3 ? 1
+TDD2903810 1.3 📋 "clash" ? nYYYY
+TDD-3823719 tried: CLASH n Y Y Y Y
+TDD431727 1.4> *
+TDD2736259 1.4 📋 "flash" ? YYYYY
+TDD-3167978 tried: FLASH Y Y Y Y Y
+TDD13055942 2.1 📋 "flash" ? nnYnn
+TDD-13055921 tried: FLASH n n Y n n
+TDD7975772 2.2> *
+TDD-1623837 2.2 ? nYYnn
+TDD-4615953 2.2 ? 1
+TDD-255525 2.2 📋 "drape" ? nYYnn
+TDD-1480472 tried: DRAPE n Y Y n n
+TDD1214982 2.3> *
+TDD-391261 2.3 ? 1
+TDD2689007 2.3 📋 "brank" ? nYYnY
+TDD-3512630 tried: BRANK n Y Y n Y
+TDD750727 2.4> *
+TDD41017 2.4 ? 1
+TDD1480190 2.4 📋 "track" ? 1
+TDD-216329 2.4 📋 "track" ? nYYYY
+TDD-2055715 tried: TRACK n Y Y Y Y
+TDD359925 2.5> *
+TDD1143866 2.5 ? 2
+TDD1616241 2.5 📋 "crack" ? nYYYY
+TDD-3119973 tried: CRACK n Y Y Y Y
+TDD399465 2.6> *
+TDD2800286 2.6 📋 "wrack" ? YYYYY
+TDD-3199755 tried: WRACK Y Y Y Y Y
+TDD8767748 3.1 📋 "wrack" ? nnnnn
+TDD-8767812 tried: WRACK n n n n n
+TDD543756 3.2> *
+TDD20288478 3.2 ? 1
+TDD-10936229 3.2 📋 "teloi" ? nnnnn
+TDD-9895986 tried: TELOI n n n n n
+TDD3087790 3.3> *
+TDD3120253 3.3 ? 1
+TDD152354 3.3 📋 "spumy" ? nnMYY
+TDD-6360415 tried: SPUMY n n m Y Y
+TDD1087778 3.4> *
+TDD9143763 3.4 ? 4
+TDD-4807780 3.4 📋 "dummy" ? nYYYY
+TDD-5423742 tried: DUMMY n Y Y Y Y
+TDD2055760 3.5> *
+TDD6336222 3.5 ? 1
+TDD-4623997 3.5 📋 "gummy" ? nYYYY
+TDD-3767928 tried: GUMMY n Y Y Y Y
+TDD1503566 3.6> *
+TDD15416415 3.6 ? 2
+TDD-11583853 3.6 📋 "yummy" ? nYYYY
+TDD-5336209 tried: YUMMY n Y Y Y Y
+T30.182911256008083 now: 2026-01-05T09:46:22EST
+TD3820859 3.7> /fail mummy
+TDD-1932599 3.7> /res
+TDD-823783 📋> Hurdle 1465
+TDD-1064371 📋> 
+TDD-83 📋> 4/6
+TDD0 📋> 🟨⬜🟩⬜⬜
+TDD-7 📋> ⬜🟩🟩⬜🟨
+TDD0 📋> ⬜🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 6/6
+TDD1 📋> ⬜⬜🟩⬜⬜
+TDD1 📋> ⬜🟩🟩⬜⬜
+TDD-1 📋> ⬜🟩🟩⬜🟩
+TDD0 📋> ⬜🟩🟩🟩🟩
+TDD0 📋> ⬜🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> X/6
+TDD1 📋> ⬜⬜⬜⬜⬜
+TDD-1 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> ⬜⬜🟨🟩🟩
+TDD0 📋> ⬜🟩🟩🟩🟩
+TDD-1 📋> ⬜🟩🟩🟩🟩
+TDD-2 📋> ⬜🟩🟩🟩🟩
+TDD502961 📋> score: 2,260
+TDD-310788 📋> ␚
+TDD-192082 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Hurdle 1465\n\n4/6\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n6/6\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nX/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 2,260"}
+TDD256 result: "Hurdle 1465\n\n4/6\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n6/6\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nX/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 2,260"
+TDD398835 📆 2026-01-05 ? 
