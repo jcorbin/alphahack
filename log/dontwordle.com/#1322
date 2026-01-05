@@ -1,0 +1,51 @@
+T217.3160156319791 now: 2026-01-05T09:38:58EST
+TD56 site: dontwordle.com
+TDD-45 wordlist: nwl2023.txt
+TDD5582163  ...
+TDD25626066 1> * -bot 10
+TDD-22720030 ? 1
+TDD-631800 📋 "reais" ? nYnnn
+TDD-7856070 tried: REAIS n Y n n n
+TDD6335210 2> undo
+TDD-6335428 undo
+TDD4391667 1> *
+TDD-2567763 ? 1
+TDD12047911 📋 "qajaq" ? nnnnn
+TDD-13871679 tried: QAJAQ n n n n n
+TDD1095514 2> *
+TDD-231820 ? 1
+TDD7720265 📋 "bobby" ? nnnnn
+TDD-8583990 tried: BOBBY n n n n n
+TDD2071507 3> *
+TDD-1023543 ? 1
+TDD5055625 📋 "vigil" ? nnnnn
+TDD-6103654 tried: VIGIL n n n n n
+TDD4016180 4> *
+TDD-1776708 ? 1
+TDD1912317 📋 "sukhs" ? nnnnn
+TDD-4151686 tried: SUKHS n n n n n
+TDD543801 5> *
+TDD695612 ? 1
+TDD7208697 📋 "feeze" ? nYnnY
+TDD-8448223 tried: FEEZE n Y n n Y
+TDD1295718 6> *
+TDD-216248 ? 1
+TDD2840939 📋 "rente" ? nYYnY
+TDD-3920411 tried: RENTE n Y Y n Y
+TDD3008345 📋> Don't Wordle 1322 - SURVIVED
+TDD-3008425 📋> Hooray! I didn't Wordle today!
+TDD-61 📋> ⬜⬜⬜⬜⬜7419
+TDD-3 📋> ⬜⬜⬜⬜⬜3170
+TDD-1 📋> ⬜⬜⬜⬜⬜1012
+TDD-1 📋> ⬜⬜⬜⬜⬜120
+TDD1 📋> ⬜🟩⬜⬜🟩13
+TDD0 📋> ⬜🟩🟩⬜🟩2
+TDD0 📋> Undos used: 1
+TDD1 📋> 
+TDD-1 📋>   2 words remaining
+TDD0 📋> x 6 unused letters
+TDD318804 📋> = 12 total score
+TDD-102360 📋> ␚
+TDD-216316 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1322 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7419\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3170\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1012\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c120\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe913\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe92\nUndos used: 1\n\n  2 words remaining\nx 6 unused letters\n= 12 total score"}
+TDD1120 result: "Don't Wordle 1322 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7419\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3170\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1012\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c120\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe913\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe92\nUndos used: 1\n\n  2 words remaining\nx 6 unused letters\n= 12 total score"
+TDD669398 📆 2026-01-05 ? 
