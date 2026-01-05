@@ -1,0 +1,83 @@
+T1465.6808531209826 now: 2026-01-05T10:22:19EST
+TD62 site: m-w.com/games/quordle/#/rescue
+TDD-49 wordlist: nwl2023.txt
+TDD-9 num_words: 4
+TDD7582247  ...
+TDD4801940 > tried duvet
+TDD-12383998 questioning: duvet
+TDD2783875 Rescue #1 _____? nnYnn
+TDD-2783879 attempt: 0 DUVET n n Y n n
+TDD1567549 Rescue #2 _____? nnnMn
+TDD-1567552 attempt: 1 DUVET n n n m n
+TDD1599649 Rescue #3 _____? nYnnn
+TDD-1599654 attempt: 2 DUVET n Y n n n
+TDD967604 Rescue #4 _____? nnnn
+TDD464174 Rescue #4 _____? nnnnn
+TDD-1431642 attempt: 3 DUVET n n n n n
+TDD2919320 > tried stock
+TDD-2919499 questioning: stock
+TDD4703784 Rescue #1 __V__ -DETU? YnMnn
+TDD-4703672 attempt: 0 STOCK Y n m n n
+TDD11415599 Rescue #2 _____ ~E -DTUV? nnYMM
+TDD-11415588 attempt: 1 STOCK n n Y m m
+TDD5743590 Rescue #3 _U___ -DETV? nnnnn
+TDD-5743609 attempt: 2 STOCK n n n n n
+TDD1959785 Rescue #4 _____ -DETUV? nnnnn
+TDD-1959786 attempt: 3 STOCK n n n n n
+TDD5495442 > * 2
+TDD-5409638 questioning: choke
+TDD8324664 Rescue #1 S_V__ ~O -CDEKTU? nnMnn
+TDD-8410530 attempt: 0 CHOKE n n m n n
+TDD1255172 Rescue #2 __O__ ~CEK -DSTUV? YYYYY
+TDD-1255198 attempt: 1 CHOKE Y Y Y Y Y
+TDD1135348 Rescue #3 _U___ -CDEKOSTV? nnnnn
+TDD-1135344 attempt: 2 CHOKE n n n n n
+TDD1583762 Rescue #4 _____ -CDEKOSTUV? nnnnn
+TDD-1583775 attempt: 3 CHOKE n n n n n
+TDD1359692 > * 1
+TDD1896476 ? 1
+TDD-3256084 questioning: savor
+TDD6287527 Rescue #1 S_V__ ~O -CDEHKTU? YYYYY
+TDD-6287597 attempt: 0 SAVOR Y Y Y Y Y
+TDD1951712 Rescue #3 _U___ -CDEHKOSTV? nnnnM
+TDD-1951708 attempt: 2 SAVOR n n n n m
+TDD1536289 Rescue #4 _____ -CDEHKOSTUV? nYnnn
+TDD-1536235 attempt: 3 SAVOR n Y n n n
+TDD3303379 > * 3
+TDD-1383945 ? ␚
+TDD-1919573 <EOF>
+TDD1879724 > * 4
+TDD664413 ? 3
+TDD-2544005 questioning: balmy
+TDD3647885 Rescue #3 _U___ ~R -ACDEHKOSTV? nnnnY
+TDD-3647909 attempt: 2 BALMY n n n n Y
+TDD4128216 Rescue #4 _A___ -CDEHKORSTUV? nYnnn
+TDD-4128165 attempt: 3 BALMY n Y n n n
+TDD2310928 > * 3
+TDD4720700 ? 2
+TDD-7031700 questioning: runny
+TDD4280170 Rescue #3 _U__Y ~R -ABCDEHKLMOSTV? MYnnY
+TDD-4280183 attempt: 2 RUNNY m Y n n Y
+TDD1919385 Rescue #4 _A___ -BCDEHKLMORSTUVY? nnMnn
+TDD-1919373 attempt: 3 RUNNY n n m n n
+TDD1239440 > * 3
+TDD2304397 ? 2
+TDD-3543865 questioning: furry
+TDD3575845 Rescue #3 _U__Y ~R -ABCDEHKLMNOSTV? YYYYY
+TDD-3575810 attempt: 2 FURRY Y Y Y Y Y
+TDD1399748 Rescue #4 _A___ ~N -BCDEHKLMORSTUVY N:1? nnnnn
+TDD-1399748 attempt: 3 FURRY n n n n n
+TDD1247679 > * 4
+TDD1968396 ? 3
+TDD-3216039 questioning: pagan
+TDD3615615 Rescue #4 _A___ ~N -BCDEFHKLMORSTUVY N:1? YYYYY
+TDD-3615638 attempt: 3 PAGAN Y Y Y Y Y
+TDD4463835 📋> Daily Rescue 56
+TDD-4463908 📋> 4️⃣3️⃣
+TDD-92 📋> 7️⃣8️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD416040 📋> 
+TDD-80219 📋> ␚
+TDD-335706 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 56\n4\ufe0f\u20e33\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1002 result: "Daily Rescue 56\n4\ufe0f\u20e33\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD437361 📆 2026-01-05 ? 
