@@ -1,0 +1,109 @@
+T1611.002169993997 now: 2026-01-05T10:24:44EST
+TD66 site: m-w.com/games/quordle/#/sequence
+TDD-52 wordlist: nwl2023.txt
+TDD-9 num_words: 4
+TDD3406777  ...
+TDD-2206716 > * 1
+TDD3656181 ? 1
+TDD-4856031 questioning: teals
+TDD3223323 Sequence #1 _____? nnMnM
+TDD-3223381 attempt: 0 TEALS n n m n m
+TDD1511584 > * 1
+TDD-607528 ? 1
+TDD-904008 questioning: psoai
+TDD7599576 Sequence #1 _____ ~AS -ELT? nMnMn
+TDD-7599602 attempt: 0 PSOAI n m n m n
+TDD1415995 > * 1
+TDD-304375 ? 1
+TDD-1111661 questioning: mashy
+TDD3415849 Sequence #1 _____ ~AS -EILOPT? nYMMn
+TDD-3415724 attempt: 0 MASHY n Y m m n
+TDD1247109 > * 1
+TDD1864819 ? 5
+TDD-3112049 questioning: harsh
+TDD3463602 Sequence #1 _A___ ~HS -EILMOPTY? YYYYY
+TDD-3463599 attempt: 0 HARSH Y Y Y Y Y
+TDD-118 questioning: TEALS
+TDD4144004 Sequence #2 _____? MnMnM
+TDD-4143875 attempt: 1 TEALS m n m n m
+TDD-125 questioning: PSOAI
+TDD4400114 Sequence #2 _____ ~AST -EL? nYMMn
+TDD-4399979 attempt: 1 PSOAI n Y m m n
+TDD-139 questioning: MASHY
+TDD2175609 Sequence #2 _S___ ~AOT -EILP? nMMnn
+TDD-2175477 attempt: 1 MASHY n m m n n
+TDD-132 questioning: HARSH
+TDD1831867 Sequence #2 _S___ ~AOT -EHILMPY? nMnMn
+TDD-1831720 attempt: 1 HARSH n m n m n
+TDD1207831 > * 2
+TDD-1125206 questioning: ascot
+TDD4202018 Sequence #2 _S___ ~AOT -EHILMPRY? YYYYY
+TDD-4284540 attempt: 1 ASCOT Y Y Y Y Y
+TDD-223 questioning: TEALS
+TDD1975604 Sequence #3 _____? nMnnn
+TDD-1975507 attempt: 2 TEALS n m n n n
+TDD-122 questioning: PSOAI
+TDD1591997 Sequence #3 _____ ~E -ALST? nnnnn
+TDD-1591763 attempt: 2 PSOAI n n n n n
+TDD-210 questioning: MASHY
+TDD1415975 Sequence #3 _____ ~E -AILOPST? nnnnn
+TDD-1415874 attempt: 2 MASHY n n n n n
+TDD-121 questioning: HARSH
+TDD1368044 Sequence #3 _____ ~E -AHILMOPSTY? nnMnn
+TDD-1367895 attempt: 2 HARSH n n m n n
+TDD-147 questioning: ASCOT
+TDD1103139 Sequence #3 _____ ~ER -AHILMOPSTY? nnnnn
+TDD-1102919 attempt: 2 ASCOT n n n n n
+TDD1239374 > * 3
+TDD-31258 ? 1
+TDD-1208223 questioning: urged
+TDD3935471 Sequence #3 _____ ~ER -ACHILMOPSTY? YMnYM
+TDD-3935341 attempt: 2 URGED Y m n Y m
+TDD288247 > 
+TDD791011 > * 3
+TDD576402 ? 1
+TDD-1655775 questioning: under
+TDD3351450 Sequence #3 U__E_ ~DR -ACGHILMOPSTY? YnYYY
+TDD-3351423 attempt: 2 UNDER Y n Y Y Y
+TDD1127606 > * 3
+TDD-1046832 questioning: udder
+TDD3006166 Sequence #3 U_DER -ACGHILMNOPSTY? YYYYY
+TDD-3086977 attempt: 2 UDDER Y Y Y Y Y
+TDD-123 questioning: TEALS
+TDD2967921 Sequence #4 _____? nMMMn
+TDD-2967802 attempt: 3 TEALS n m m m n
+TDD-121 questioning: PSOAI
+TDD1503863 Sequence #4 _____ ~AEL -ST? nnnMn
+TDD-1503651 attempt: 3 PSOAI n n n m n
+TDD-179 questioning: MASHY
+TDD1607620 Sequence #4 _____ ~AEL -IOPST? nYnnn
+TDD-1607442 attempt: 3 MASHY n Y n n n
+TDD-183 questioning: HARSH
+TDD1359659 Sequence #4 _A___ ~EL -HIMOPSTY? nYnnn
+TDD-1359476 attempt: 3 HARSH n Y n n n
+TDD-189 questioning: ASCOT
+TDD1703631 Sequence #4 _A___ ~EL -HIMOPRSTY? Mnnnn
+TDD-1703519 attempt: 3 ASCOT m n n n n
+TDD-131 questioning: URGED
+TDD1352061 Sequence #4 _A___ ~EL -CHIMOPRSTY? nnnYn
+TDD-1351843 attempt: 3 URGED n n n Y n
+TDD-197 questioning: UNDER
+TDD1239390 Sequence #4 _A_E_ ~L -CDGHIMOPRSTUY? nnnYn
+TDD-1239286 attempt: 3 UNDER n n n Y n
+TDD-125 questioning: UDDER
+TDD1224469 Sequence #4 _A_E_ ~L -CDGHIMNOPRSTUY? nnnYn
+TDD-1224288 attempt: 3 UDDER n n n Y n
+TDD1358934 > * 4
+TDD473320 ? 2
+TDD-1832329 questioning: label
+TDD3039384 Sequence #4 _A_E_ ~L -CDGHIMNOPRSTUY? YYYYY
+TDD-3039313 attempt: 3 LABEL Y Y Y Y Y
+TDD4000269 📋> Daily Sequence Quordle 1442
+TDD-4000367 📋> 4️⃣5️⃣
+TDD-93 📋> 8️⃣9️⃣
+TDD-6 📋> m-w.com/games/quordle/
+TDD383731 📋> 
+TDD-95589 📋> ␚
+TDD-288063 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1442\n4\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD11 result: "Daily Sequence Quordle 1442\n4\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD359070 📆 2026-01-05 ? 
