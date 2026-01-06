@@ -400,6 +400,7 @@ class SolverScope:
         return i in self.ix
 
     def lookup(self, solver_i: int|None=None, name: str=''):
+        # TODO reconcile with SolverLibrary.lookup
         if solver_i is None:
             solver_i = self.lib.by_name.get(name)
         if solver_i is not None:
