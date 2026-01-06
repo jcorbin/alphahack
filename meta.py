@@ -513,10 +513,11 @@ class Meta(Arguable):
         root['push'] = partial(self.do_system, cmd=('git', 'push', 'origin', '+:'))
         root['review'] = self.do_review
 
+        root['list_solvers'] = self.do_list_solvers
+
         # TODO invert control to `sol/<name>/{log,run,...}`
         root['log'] = self.do_log
         root['run'] = self.do_run
-        root['solvers'] = self.do_solvers
 
     @override
     def __call__(self, ui: PromptUI):
@@ -929,9 +930,9 @@ class Meta(Arguable):
             make = solver_make[solver_i]
             return run_solver(name, make, ui)
 
-    def do_solvers(self, ui: PromptUI):
+    def do_list_solvers(self, ui: PromptUI):
         '''
-        show known solvers
+        list known solvers
         '''
         for solver_i, (name, proto, note) in enumerate(zip(solver_name, solver_prior, solver_notes)):
             ui.print(f'{solver_i + 1}. {name} site:{proto.site!r} slug:{note!r}')
