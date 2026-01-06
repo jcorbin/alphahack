@@ -539,10 +539,10 @@ class Meta(PromptUI.Arguable):
     def __init__(self):
         super().__init__()
         self.report = Report()
-        self.prompt.mess = self.prompt_mess
+        self.shell.prompt = self.prompt_mess
         self.solvers = SolverScope(solvers)
 
-        root = self.prompt
+        root = self.shell.root
 
         # TODO should be std; also tron/troff bindings
         root['tracing'] = self.do_tracing
@@ -557,13 +557,12 @@ class Meta(PromptUI.Arguable):
         root['push'] = partial(self.do_system, cmd=('git', 'push', 'origin', '+:'))
         root['review'] = self.do_review
 
-        root['list_solvers'] = self.do_list_solvers
-        root['solvers'] = self.do_solve
+        root['meta/solvers/.'] = self.do_solve
 
         for name, solver_i in solvers:
-            path = f'solvers/{name}'
-            for name, cmd in {
-                '': partial(self.do_sol_run, solver_i),
+            path = f'meta/solvers/{name}'
+            root[path] = {
+                '.': partial(self.do_sol_run, solver_i),
                 'cont': partial(self.do_sol_cont, solver_i),
                 'current': partial(self.do_sol_cur, solver_i),
                 'edit': partial(self.do_sol_edit, solver_i),
@@ -571,8 +570,7 @@ class Meta(PromptUI.Arguable):
                 'ls': partial(self.do_sol_ls, solver_i),
                 'rm': partial(self.do_sol_rm, solver_i),
                 'tail': partial(self.do_sol_tail, solver_i),
-            }.items():
-                root[f'{path}{name}'] = cmd
+            }
 
     @override
     def __call__(self, ui: PromptUI):
@@ -1016,15 +1014,6 @@ class Meta(PromptUI.Arguable):
                 return
 
         ui.print('! all solvers reported, specify particular?')
-
-    def do_list_solvers(self, ui: PromptUI):
-        '''
-        list known solvers
-        '''
-        for name, solver_i, in solvers:
-            proto = solvers.proto[solver_i]
-            note = proto.note_slug[0]
-            ui.print(f'{solver_i + 1}. {name} site:{proto.site!r} slug:{note!r}')
 
     def read_status(self, ui: PromptUI, verbose: int=0):
         solvers = self.solvers.lib
