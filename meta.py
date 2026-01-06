@@ -514,6 +514,7 @@ class Meta(Arguable):
         root['review'] = self.do_review
 
         root['list_solvers'] = self.do_list_solvers
+        root['solvers'] = self.do_solve
 
         # TODO invert control to `sol/<name>/{log,run,...}`
         root['log'] = self.do_log
@@ -918,30 +919,42 @@ class Meta(Arguable):
         run a solver, by name or inferred "next"
         '''
         solver_i = self.choose_solver(ui)
-        if solver_i is None:
+        if solver_i is not None and solver_i >= 0:
+            ui.print(f'Running {desc}')
+            name = solver_name[solver_i]
+            make = solver_make[solver_i]
+            return run_solver(name, make, ui)
+
+    def do_solve(self, ui: PromptUI):
+        '''
+        run next solver
+        '''
+
+        def candidates():
+            # uncompleted primary solvers
             for solver_i, day, _note, head, _body in self.read_status(ui):
                 if day is not None and head:
                     continue
                 proto = solver_prior[solver_i]
                 if proto.site_env != 'prod':
                     continue
-            else:
-                ui.print('! all solvers reported, specify particular?')
-                return
+                yield solver_i
 
-        name = solver_name[solver_i]
-        make = solver_make[solver_i]
-        proto = solver_prior[solver_i]
-        desc = (
-            f'[ {self.solvers.ix.index(solver_i)} / {len(self.solvers)} ] {name}'
-            if solver_i == solver_j else
-            f'{name} variant {proto.note_slug[0]}')
+        for solver_i in candidates():
+            name = solver_name[solver_i]
+            make = solver_make[solver_i]
+            proto = solver_prior[solver_i]
+            desc = (
+                f'[ {self.solvers.ix.index(solver_i)} / {len(self.solvers)} ] {name}'
+                if solver_i == solver_j else
+                f'{name} variant {proto.note_slug[0]}')
 
-        if solver_i >= 0:
             ui.print(f'Running {desc}')
             name = solver_name[solver_i]
             make = solver_make[solver_i]
             return run_solver(name, make, ui)
+
+        ui.print('! all solvers reported, specify particular?')
 
     def do_list_solvers(self, ui: PromptUI):
         '''
