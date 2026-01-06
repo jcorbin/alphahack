@@ -1,0 +1,50 @@
+T184.42327953899803 now: 2026-01-06T09:12:25EST
+TD63 site: alphaguess.com
+TDD114050 loaded 196535 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (69 words excluded) asof 2d1bafbd55b593c5efdab81df9f27f523b1ab83d
+TDD4650117  ...
+TDD2259728 [0 : 98224 : 196535] mach? b
+TDD-7023807 progress: -1 98224 mach
+TDD2175613 [0 : 47386 : 98224] dis? b
+TDD-2175653 progress: -1 47386 dis
+TDD1599833 [0 : 23687 : 47386] camp? b
+TDD-1599792 progress: -1 23687 camp
+TDD1711721 [0 : 11764 : 23687] back? a
+TDD-1711702 progress: 1 11764 back
+TDD2247955 [11765 : 17719 : 23687] blind? b
+TDD-2247998 progress: -1 17719 blind
+TDD1839589 [11765 : 13806 : 17719] be? b
+TDD-1839567 progress: -1 13806 be
+TDD2255624 [11765 : 12602 : 13806] ban? b
+TDD-2255670 progress: -1 12602 ban
+TDD1839749 [11765 : 12183 : 12602] baff? b
+TDD-1839743 progress: -1 12183 baff
+TDD1607779 [11765 : 11957 : 12183] backs? a
+TDD-1607780 progress: 1 11957 backs
+TDD5424089 [11958 : 12069 : 12183] backwind? !
+TDD-1696272 [11958 : 12070 : 12182] backwinding? !
+TDD-856026 [11958 : 12071 : 12181] backwood? b
+TDD-2871795 progress: -1 12071 backwood
+TDD1695858 [11958 : 12013 : 12071] backstamp? a
+TDD-1695812 progress: 1 12013 backstamp
+TDD2111852 [12014 : 12042 : 12071] backswimmer? !
+TDD7896 [12014 : 12042 : 12070] backswimmers? !
+TDD368157 [12014 : 12042 : 12069] backswing? a
+TDD-2487907 progress: 1 12042 backswing
+TDD2775587 [12043 : 12054 : 12069] backward? it
+TDD-2775578 progress: 0 12054 backward
+TDD-133 [12043 : 12054 : 12069] <Done>.
+TDD2800901 📋> 🧩 Puzzle #896
+TDD-2800850 📋> 
+TDD-71 📋> 🤔 13 guesses
+TDD-2 📋> 
+TDD0 📋> ⏱️ 39s
+TDD0 📋> 
+TDD2894891 📋> 🔗 alphaguess.com
+TDD-2126895 📋> ␚
+TDD-767895 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #896\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 39s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-20 result: "\ud83e\udde9 Puzzle #896\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 39s\n\n\ud83d\udd17 alphaguess.com"
+TDD-63 result puzzle: 896
+TDD-16 result guesses: 13
+TDD-1 result time: 39s
+TDD0 result link: alphaguess.com
+TDD648222 📆 2026-01-06 ? 
