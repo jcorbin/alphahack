@@ -1,0 +1,57 @@
+T1073.1567755010037 now: 2026-01-06T09:52:24EST
+TD59 site: spaceword.org
+TDD-46 wordlist: nwl2023.txt
+TDD3094794  ...
+TDD1273071 🧩  ? daily 20260106
+TDD-4367521 puzzle_id: 2026-01-06
+TDD2407292 num letters (default: 21) ? 
+TDD-2407532 num_letters: 21
+TDD2551827 letters? abcdeei
+TDD-2551770 letters: |ABCDEEI|
+TDD2207625 letters? iloopqr
+TDD-2207597 letters: |ABCDEEIILOOPQR|
+TDD1991750 letters? rtuuuvw
+TDD-1991753 letters: |ABCDEEIILOOPQRRTUUUVW|
+TDD695479 letters. 
+TDD688651 [doit:100]> /sea -512
+TDD567343 search 7277d3 [ 1 ]> ␚
+TDD2944432 [doit:100]> /sea -cap 512
+TDD103168779 search e61868 [ 512 cap:512 may:2356 done:5 prune:66 dead:5 ]> show done
+TDD-104072697 search e61868 [ 512 cap:512 may:2356 done:5 prune:66 dead:5 ]> show 1
+TDD-1648311 search e61868 [ 512 cap:512 may:2356 done:5 prune:66 dead:5 ]> ret
+TDD-2343598 change: 2 W
+TDD-274 change: 12 A
+TDD-2 change: 22 I
+TDD0 change: 32 V
+TDD0 change: 42 E
+TDD0 change: 45 D
+TDD0 change: 49 C
+TDD0 change: 51 B
+TDD0 change: 52 R
+TDD0 change: 53 U
+TDD0 change: 54 L
+TDD0 change: 55 O
+TDD0 change: 56 T
+TDD0 change: 59 U
+TDD0 change: 63 P
+TDD0 change: 64 I
+TDD0 change: 65 R
+TDD0 change: 66 O
+TDD0 change: 67 Q
+TDD4 change: 68 U
+TDD-4 change: 69 E
+TDD57976495 [doit:2137]> /res
+TDD-57216246 📋> ✨ Spaceword.org Daily 2026-01-06 ✨
+TDD-760140 📋> 
+TDD-100 📋> 🏆 Score: 2137
+TDD-3 📋> 🏅 Rank: 141/229 😀
+TDD0 📋> 🧩 Tiles: 21/21 ✅
+TDD-1 📋> 📏 Space Bonus: +37
+TDD0 📋> 
+TDD0 📋> 
+TDD2 📋> Play at https://spaceword.org
+TDD303633 📋> #spaceword
+TDD24254 📋> ␚
+TDD-327759 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-01-06 \u2728\n\n\ud83c\udfc6 Score: 2137\n\ud83c\udfc5 Rank: 141/229 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +37\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TDD1216 result: "\u2728 Spaceword.org Daily 2026-01-06 \u2728\n\n\ud83c\udfc6 Score: 2137\n\ud83c\udfc5 Rank: 141/229 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +37\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD2261016 [prior:2137]> /store
