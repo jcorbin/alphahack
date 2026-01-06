@@ -485,7 +485,7 @@ solvers.add('space', make_space)
 # can be generated on demand?
 
 @final
-class Meta(PromptUI.Arguable[PromptUI.Prompt]):
+class Meta(PromptUI.Arguable[PromptUI.Shell]):
     @override
     @classmethod
     def add_args(cls, parser: argparse.ArgumentParser):
@@ -503,8 +503,9 @@ class Meta(PromptUI.Arguable[PromptUI.Prompt]):
 
     @override
     def make_root(self):
-        root = PromptUI.Prompt('> ', {})
-        root.mess = self.prompt_mess
+        sh = PromptUI.Shell()
+        sh.prompt = self.prompt_mess
+        root = sh.root
 
         # TODO should be std; also tron/troff bindings
         root['tracing'] = self.do_tracing
@@ -519,13 +520,12 @@ class Meta(PromptUI.Arguable[PromptUI.Prompt]):
         root['push'] = partial(self.do_system, cmd=('git', 'push', 'origin', '+:'))
         root['review'] = self.do_review
 
-        root['list_solvers'] = self.do_list_solvers
-        root['solvers'] = self.do_solve
+        root['meta/solvers/.'] = self.do_solve
 
         for name, solver_i in solvers:
-            path = f'solvers/{name}'
-            for name, cmd in {
-                '': partial(self.do_sol_run, solver_i),
+            path = f'meta/solvers/{name}'
+            root[path] = {
+                '.': partial(self.do_sol_run, solver_i),
                 'cont': partial(self.do_sol_cont, solver_i),
                 'current': partial(self.do_sol_cur, solver_i),
                 'edit': partial(self.do_sol_edit, solver_i),
@@ -534,10 +534,9 @@ class Meta(PromptUI.Arguable[PromptUI.Prompt]):
                 'rm': partial(self.do_sol_rm, solver_i),
                 'tail': partial(self.do_sol_tail, solver_i),
                 'variant': partial(self.do_sol_variant, solver_i),
-            }.items():
-                root[f'{path}/{name}'] = cmd
+            }
 
-        return root
+        return sh
 
     def __init__(self):
         self.report = Report()
@@ -561,7 +560,7 @@ class Meta(PromptUI.Arguable[PromptUI.Prompt]):
             if tokens.have(r'(?xi) ^ n'):
                 raise StopIteration
 
-    def prompt_mess(self, ui: PromptUI):
+    def prompt_mess(self, ui: PromptUI, _sh: PromptUI.Shell):
         if self.root.re == 0:
             ui.print('')
             self.do_status(ui)
@@ -1146,15 +1145,6 @@ class Meta(PromptUI.Arguable[PromptUI.Prompt]):
         ui.print(f'Running {proto.name}')
         with self.solvers.run(ui, solver_i=solver_i, log_file=log_file):
             return
-
-    def do_list_solvers(self, ui: PromptUI):
-        '''
-        list known solvers
-        '''
-        for name, solver_i, in solvers:
-            proto = solvers.proto[solver_i]
-            note = proto.note_slug[0]
-            ui.print(f'{solver_i + 1}. {name} site:{proto.site!r} slug:{note!r}')
 
     def read_status(self, ui: PromptUI, verbose: int=0):
         solvers = self.solvers.lib
