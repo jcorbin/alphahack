@@ -934,7 +934,7 @@ class Meta(Arguable):
         '''
         solver_i = self.choose_solver(ui)
         if solver_i is None:
-            for solver_i, day, _note, head, _body in self.read_status(ui, verbose=False):
+            for solver_i, day, _note, head, _body in self.read_status(ui):
                 if day is None or not head:
                     break
             else:
@@ -951,7 +951,7 @@ class Meta(Arguable):
         for solver_i, (harness, proto, note) in enumerate(zip(solver_harness, solver_prior, solver_notes)):
             ui.print(f'{solver_i + 1}. {harness} site:{proto.site!r} slug:{note!r}')
 
-    def read_status(self, ui: PromptUI, verbose: bool=False):
+    def read_status(self, ui: PromptUI, verbose: int=0):
 
         days: list[datetime.date] = []
         notes: list[str] = [''] * len(solver_harness)
@@ -975,6 +975,9 @@ class Meta(Arguable):
                         if line.startswith(slug):
                             notes[solver_i] = line
                             note_days[solver_i] = dd_n
+                            if verbose > 1:
+                                ui.print(f'* matched [{solver_i}] day:[{dd_n-1}] {slug!r} <- {line!r}')
+
                             # TODO support multi
                             break
 
@@ -1001,14 +1004,30 @@ class Meta(Arguable):
         for solver_i in range(len(solver_harness)):
             dd_n = note_days[solver_i]
             day = days[dd_n-1] if dd_n else None
+            if verbose > 1:
+                ui.print(f'* [{solver_i}] day=[{dd_n-1}]={day} base')
             yield solver_i, day, notes[solver_i], heads[solver_i], bodys[solver_i]
 
     def do_status(self, ui: PromptUI):
         '''
         show solver status
         '''
-        ui.print('Solver Status:')
-        for solver_i, day, note, head, _body in self.read_status(ui):
+        verbose: int = 0
+        while ui.tokens:
+            v = ui.tokens.have(r'-(v+)', then=lambda m: len(m[1]))
+            if v is not None:
+                verbose += v
+                continue
+            if ui.tokens.have(r'-(q+)'):
+                verbose = 0
+                continue
+            ui.print(f'! invalid status argument {next(ui.tokens)}')
+            return
+
+        ui.print(
+            f'Solver Status ( verbose={verbose} ):' if verbose else
+            f'Solver Status:')
+        for solver_i, day, note, head, _body in self.read_status(ui, verbose=verbose):
             harness = solver_harness[solver_i] if 0 <= solver_i < len(solver_harness) else None
             mark = '❔'
             if day is not None: mark = '✅'
