@@ -1,0 +1,117 @@
+T1290.362111696988 now: 2026-01-06T09:30:51EST
+TD104 site: squareword.org
+TDD-86 wordlist: nwl2023.txt
+TDD4301841  ...
+TDD-2069949 🧩  ? #1436
+TDD-2231712 puzzle_id: #1436
+TDD1799670 > *
+TDD1848265 try? 1
+TDD-3647895 questioning: ["urase", "#5"]
+TDD17015552 #1 <IndexError>  📋 "urase" ? _____ ~ RAE
+TDD-17015383 attempt 0 URASE n m m n m
+TDD5799289 #2 <IndexError>  📋 "urase" ? _R_SE ~ A
+TDD-5799387 attempt 1 URASE n Y m Y Y
+TDD2015612 #3 <IndexError>  📋 "urase" ? _____ ~ A
+TDD-2015630 attempt 2 URASE n n m n n
+TDD1703250 #4 <IndexError>  📋 "urase" ? _____ ~ E
+TDD-1703334 attempt 3 URASE n n n n m
+TDD1903605 #5 <IndexError>  📋 "urase" ? _____ ~ RE
+TDD-1903612 attempt 4 URASE n m n n m
+TDD1023689 ? 
+TDD-1023750 question done
+TDD727612 > *
+TDD1496287 try? 2
+TDD-2223708 questioning: ["arose", "#2"]
+TDD3023437 #1 _____ ~AER -SU  📋 "arose" ? .
+TDD-3023513 attempt 0 AROSE m m n n m
+TDD1159443 #2 _R_SE ~A -U  📋 "arose" ? /it
+TDD-1159501 attempt 1 AROSE Y Y Y Y Y
+TDD2607672 #3 _____ ~A -ERSU  📋 "arose" ? _____ ~ AO
+TDD-2607668 attempt 2 AROSE m n m n n
+TDD775557 #4 _____ ~E -ARSU  📋 "arose" ? .
+TDD-775522 attempt 3 AROSE n n n n m
+TDD791566 #5 _____ ~ER -ASU  📋 "arose" ? .
+TDD-791590 attempt 4 AROSE n m n n m
+TDD167475 ? 
+TDD-167548 question done
+TDD399909 > *
+TDD1215975 try? 1
+TDD-1615716 questioning: ["octal", "#3"]
+TDD5999480 #1 _____ ~AER -OSU  📋 "octal" ? nnnYn ~ REC
+TDD-5999591 attempt 0 OCTAL n m n n n
+TDD2447714 #3 _____ ~AO -ERSU  📋 "octal" ? .
+TDD-2447685 attempt 2 OCTAL m n n m n
+TDD767305 #4 _____ ~E -AORSU  📋 "octal" ? .
+TDD-767286 attempt 3 OCTAL n n n n n
+TDD751567 #5 _____ ~ER -AOSU  📋 "octal" ? .
+TDD-751607 attempt 4 OCTAL n n n n n
+TDD159532 ? 
+TDD-159601 question done
+T70.58163743400655 now: 2026-01-06T09:35:41EST
+TD573259  ...
+TDD1218417 > ?
+TDD11560371 > /man
+TDD-608031 > /man 2
+TDD3680180 > "CIDAR"
+TDD-14728253 > cidar
+TDD-1695597 questioning: ["cidar", "entered"]
+TDD13671630 #1 _____ ~CER -ALOSTU  📋 "cidar" ? C_DAR ~ E
+TDD-13671482 attempt 0 CIDAR Y n Y Y Y
+TDD5950813 #3 _____ ~AO -CELRSTU  📋 "cidar" ? __D__ ~ AO
+TDD-5951095 attempt 2 CIDAR n n Y m n
+TDD3711824 #4 _____ ~E -ACLORSTU  📋 "cidar" ? ___E_ ~ ED
+TDD-3711741 attempt 3 CIDAR n n m n n
+TDD4295258 #5 _____ ~ER -ACLOSTU  📋 "cidar" ? _____ ~ RED
+TDD-4295365 attempt 4 CIDAR n n m n m
+TDD4703716 ? 
+TDD-4703710 question done
+TDD3007788 > vodka
+TDD-3007693 questioning: ["vodka", "entered"]
+TDD7103294 #1 C_DAR ~E -ILOSTU  📋 "vodka" ? .
+TDD-7103393 attempt 0 VODKA n n Y n n
+TDD3255749 #3 __D__ ~AO -CEILRSTU  📋 "vodka" ? /it
+TDD-3255531 attempt 2 VODKA Y Y Y Y Y
+TDD6967162 #4 _____ ~DE -ACILORSTU  📋 "vodka" ? ___E_ ~ ED
+TDD-6967354 attempt 3 VODKA n n m n n
+TDD1271683 #5 _____ ~DER -ACILOSTU  📋 "vodka" ? .
+TDD-1271685 attempt 4 VODKA n n m n n
+TDD855630 ? 
+TDD-855680 question done
+TDD16272032 > *
+TDD-15563164 questioning: ["cedar", "#1"]
+TDD3093480 #1 C_DAR ~E -AIKLOSTUV  📋 "cedar" ? /it
+TDD-3802314 attempt 0 CEDAR Y Y Y Y Y
+TDD7823884 #4 _____ ~DE -ACIKLORSTUV  📋 "cedar" ? ___E_ ~ ED
+TDD-7823850 attempt 3 CEDAR n m m n n
+TDD6255802 #5 _____ ~DER -ACIKLOSTUV  📋 "cedar" ? _E___ ~ RED
+TDD-6255671 attempt 4 CEDAR n Y m n m
+TDD1103028 ? 
+TDD-1103267 question done
+TDD9879792 > *
+TDD-9626418 questioning: ["edged", "#4"]
+TDD5685058 #4 _____ ~DE -ACIKLORSTUV  📋 "edged" ? /it
+TDD-5938349 attempt 3 EDGED Y Y Y Y Y
+TDD5927769 #5 _E___ ~DR -ACIKLOSTUV  📋 "edged" ? _E___ ~ RED
+TDD-5927634 attempt 4 EDGED m m n m m
+TDD1911205 ? 
+TDD-1911365 question done
+TDD871720 > *
+TDD-405594 questioning: ["reedy", "#5"]
+TDD4283803 #5 _E___ ~DR -ACGIKLOSTUV  📋 "reedy" ? /it
+TDD-4749819 attempt 4 REEDY Y Y Y Y Y
+TDD950990 ? 
+TDD-951173 question done
+TDD4280764 📋> squareword.org 1436: 8 guesses
+TDD-4280738 📋> 
+TDD-92 📋> 🟩🟨🟩🟩🟩
+TDD-26 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟩🟨
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD-1 📋> 
+TDD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD286974 📋> #squareword #squareword1436
+TDD869 📋> ␚
+TDD-287709 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1436: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1436"}
+TDD547 result: "squareword.org 1436: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1436"
+TDD262405 📆 2026-01-06 ? 
