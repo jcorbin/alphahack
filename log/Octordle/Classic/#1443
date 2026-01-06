@@ -1,0 +1,165 @@
+T1052.367725485994 now: 2026-01-06T09:26:53EST
+TD58 site: britannica.com/games/octordle/daily
+TDD-46 wordlist: nwl2023.txt
+TDD-8 num_words: 8
+TDD3173955  ...
+TDD-1109920 > * 1
+TDD-1160086 ? 1
+TDD-903804 questioning: laser
+TDD11207847 Classic #1 _____? nMMMn
+TDD-11207824 attempt: 0 LASER n m m m n
+TDD1463685 Classic #2 _____? nnnMn
+TDD-1463689 attempt: 1 LASER n n n m n
+TDD1303686 Classic #3 _____? nnnnM
+TDD-1303588 attempt: 2 LASER n n n n m
+TDD1759631 Classic #4 _____? nYnnM
+TDD-1759596 attempt: 3 LASER n Y n n m
+TDD3559475 Classic #5 _____? MMMnn
+TDD-3559500 attempt: 4 LASER m m m n n
+TDD1431411 Classic #6 _____? MnMMn
+TDD-1431413 attempt: 5 LASER m n m m n
+TDD1792118 Classic #7 _____? nMMnM
+TDD-1792126 attempt: 6 LASER n m m n m
+TDD1142891 Classic #8 _____? nnnYM
+TDD-1142879 attempt: 7 LASER n n n Y m
+TDD3511302 > * 2
+TDD-2335634 ? 1
+TDD-1175734 questioning: opine
+TDD4399822 Classic #1 _____ ~AES -LR? nnnnY
+TDD-4399851 attempt: 0 OPINE n n n n Y
+TDD1879507 Classic #2 _____ ~E -ALRS? MnnnY
+TDD-1879416 attempt: 1 OPINE m n n n Y
+TDD1848013 Classic #3 _____ ~R -AELS? Mnnnn
+TDD-1848017 attempt: 2 OPINE m n n n n
+TDD1270966 Classic #4 _A___ ~R -ELS? nnnnn
+TDD-1271055 attempt: 3 OPINE n n n n n
+TDD3279868 Classic #5 _____ ~ALS -ER? nYnnn
+TDD-3279883 attempt: 4 OPINE n Y n n n
+TDD1663572 Classic #6 _____ ~ELS -AR? nMnnM
+TDD-1663576 attempt: 5 OPINE n m n n m
+TDD1504116 Classic #7 _____ ~ARS -EL? nYnnn
+TDD-1504021 attempt: 6 OPINE n Y n n n
+TDD1271105 Classic #8 ___E_ ~R -ALS? nnnMM
+TDD-1271103 attempt: 7 OPINE n n n m m
+TDD2664725 > * 5
+TDD1141778 ? 2
+TDD-3806582 questioning: splat
+TDD7871662 Classic #1 ____E ~AS -ILNOPR? MnnMn
+TDD-7871681 attempt: 0 SPLAT m n n m n
+TDD1431893 Classic #2 ____E ~O -AILNPRS? nnnnn
+TDD-1431873 attempt: 1 SPLAT n n n n n
+TDD1255546 Classic #3 _____ ~OR -AEILNPS? nnnnn
+TDD-1255507 attempt: 2 SPLAT n n n n n
+TDD1167472 Classic #4 _A___ ~R -EILNOPS? nnnMn
+TDD-1167503 attempt: 3 SPLAT n n n m n
+TDD2951854 Classic #5 _P___ ~ALS -EINOR? YYYYY
+TDD-2951887 attempt: 4 SPLAT Y Y Y Y Y
+TDD3815646 Classic #6 _____ ~ELPS -AINOR? YMMnY
+TDD-3815618 attempt: 5 SPLAT Y m m n Y
+TDD2135599 Classic #7 _P___ ~ARS -EILNO? YYnYn
+TDD-2135514 attempt: 6 SPLAT Y Y n Y n
+TDD1223511 Classic #8 ___E_ ~NR -AILOPS? nnnnn
+TDD-1223523 attempt: 7 SPLAT n n n n n
+TDD2783586 > * 6
+TDD-2703065 questioning: slept
+TDD9966371 Classic #1 ____E ~AS -ILNOPRT? MnMnn
+TDD-10046941 attempt: 0 SLEPT m n m n n
+TDD1831758 Classic #2 ____E ~O -AILNPRST? nnMnn
+TDD-1831766 attempt: 1 SLEPT n n m n n
+TDD1111615 Classic #3 _____ ~OR -AEILNPST? nnnnn
+TDD-1111533 attempt: 2 SLEPT n n n n n
+TDD1063689 Classic #4 _A___ ~R -EILNOPST? nnnnn
+TDD-1063800 attempt: 3 SLEPT n n n n n
+TDD3143499 Classic #6 S___T ~ELP -AINOR? YYYYY
+TDD-3143423 attempt: 5 SLEPT Y Y Y Y Y
+TDD2183333 Classic #7 SP_A_ ~R -EILNOT? YnnMn
+TDD-2183315 attempt: 6 SLEPT Y n n m n
+TDD1591658 Classic #8 ___E_ ~NR -AILOPST? nnMnn
+TDD-1591716 attempt: 7 SLEPT n n m n n
+TDD2479740 > * 7u
+TDD3623988 ? 2
+TDD-6103711 questioning: spray
+TDD12303858 Classic #1 ____E ~AS -ILNOPRT? MnnMn
+TDD-12303887 attempt: 0 SPRAY m n n m n
+TDD1279387 Classic #2 ____E ~O -AILNPRST? nnnnn
+TDD-1279298 attempt: 1 SPRAY n n n n n
+TDD1559463 Classic #3 _____ ~OR -AEILNPST? nnMnY
+TDD-1559468 attempt: 2 SPRAY n n m n Y
+TDD1495363 Classic #4 _A___ ~R -EILNOPST? nnYMY
+TDD-1495472 attempt: 3 SPRAY n n Y m Y
+TDD3039934 Classic #7 SP_A_ ~R -EILNOT? YYYYY
+TDD-3039808 attempt: 6 SPRAY Y Y Y Y Y
+TDD1271151 Classic #8 ___E_ ~NR -AILOPST? nnMnn
+TDD-1271271 attempt: 7 SPRAY n n m n n
+TDD2087759 > * 8
+TDD-432107 ? 2
+TDD-1655671 questioning: renew
+TDD4895998 Classic #1 ____E ~AS -ILNOPRTY? nMnnn
+TDD-4895867 attempt: 0 RENEW n m n n n
+TDD1264007 Classic #2 ____E ~O -AILNPRSTY? nMnnn
+TDD-1264128 attempt: 1 RENEW n m n n n
+TDD1927636 Classic #3 ____Y ~OR -AEILNPST? YnnnM
+TDD-1927543 attempt: 2 RENEW Y n n n m
+TDD1350809 Classic #4 _AR_Y -EILNOPST? Mnnnn
+TDD-1350812 attempt: 3 RENEW m n n n n
+TDD4263679 Classic #8 ___E_ ~NR -AILOPSTY? YYYYY
+TDD-4263762 attempt: 7 RENEW Y Y Y Y Y
+TDD1623645 > * 3
+TDD-1544513 questioning: rowdy
+TDD4825685 Classic #1 ____E ~AS -ILNOPRTWY E:1? nnnnn
+TDD-4904724 attempt: 0 ROWDY n n n n n
+TDD1311131 Classic #2 ____E ~O -AILNPRSTWY E:1? nYnnn
+TDD-1311228 attempt: 1 ROWDY n Y n n n
+TDD1703738 Classic #3 R___Y ~OW -AEILNPST? YYYYY
+TDD-1703654 attempt: 2 ROWDY Y Y Y Y Y
+TDD1991471 Classic #4 _AR_Y -EILNOPSTW? MnnnY
+TDD-1991448 attempt: 3 ROWDY m n n n Y
+TDD3455552 > * 4
+TDD-935651 ? 5
+TDD-2520022 questioning: barky
+TDD12807808 Classic #1 ____E ~AS -DILNOPRTWY E:1? nMnnn
+TDD-12807688 attempt: 0 BARKY n m n n n
+TDD2167592 Classic #2 _O__E -ADILNPRSTWY E:1? Ynnnn
+TDD-2167697 attempt: 1 BARKY Y n n n n
+TDD2343646 Classic #4 _AR_Y -DEILNOPSTW? nYYnY
+TDD-2343548 attempt: 3 BARKY n Y Y n Y
+TDD2639393 > * 1
+TDD-1383375 ? 1
+TDD-1256133 questioning: usage
+TDD2527573 Classic #1 ____E ~AS -BDIKLNOPRTWY E:1? YYYYY
+TDD-2527472 attempt: 0 USAGE Y Y Y Y Y
+TDD1415244 Classic #2 BO__E -ADIKLNPRSTWY E:1? nnnnY
+TDD-1415320 attempt: 1 USAGE n n n n Y
+TDD2008201 Classic #4 _AR_Y -BDEIKLNOPSTW? nnMnn
+TDD-2008141 attempt: 3 USAGE n n m n n
+TDD1439096 > * 2
+TDD832817 ? 3
+TDD-2271868 questioning: booze
+TDD2543266 Classic #2 BO__E -ADGIKLNPRSTUWY? YYYYY
+TDD-2543224 attempt: 1 BOOZE Y Y Y Y Y
+TDD1519476 Classic #4 _AR_Y -BDEGIKLNOPSTUW? nnnnn
+TDD-1519462 attempt: 3 BOOZE n n n n n
+TDD1231141 > * 4
+TDD4016706 ? 1
+TDD-5248019 questioning: marvy
+TDD4199721 Classic #4 _AR_Y -BDEGIKLNOPSTUWZ? nYYnY
+TDD-4199644 attempt: 3 MARVY n Y Y n Y
+TDD1487302 > * 4
+TDD2808632 ? 1
+TDD-4295958 questioning: harry
+TDD2752369 Classic #4 _AR_Y -BDEGIKLMNOPSTUVWZ? nYYYY
+TDD-2752415 attempt: 3 HARRY n Y Y Y Y
+TDD1566971 > * 4
+TDD-1492027 questioning: carry
+TDD4417740 Classic #4 _ARRY -BDEGHIKLMNOPSTUVWZ? YYYYY
+TDD-4492706 attempt: 3 CARRY Y Y Y Y Y
+TDD3208415 📋> Daily Octordle #1443
+TDD-3208438 📋> 9️⃣🔟
+TDD-109 📋> 7️⃣🕐
+TDD-5 📋> 3️⃣4️⃣
+TDD0 📋> 5️⃣6️⃣
+TDD295332 📋> Score: 57
+TDD796 📋> ␚
+TDD-296047 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1443\n9\ufe0f\u20e3\ud83d\udd1f\n7\ufe0f\u20e3\ud83d\udd50\n3\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nScore: 57"}
+TDD12 result: "Daily Octordle #1443\n9\ufe0f\u20e3\ud83d\udd1f\n7\ufe0f\u20e3\ud83d\udd50\n3\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nScore: 57"
+TDD271298 📆 2026-01-06 ? 
