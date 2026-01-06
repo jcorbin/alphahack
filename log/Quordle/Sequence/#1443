@@ -1,0 +1,102 @@
+T884.810344700003 now: 2026-01-06T09:49:16EST
+TD1119 site: m-w.com/games/quordle/#/sequence
+TDD-1106 wordlist: nwl2023.txt
+TDD-10 num_words: 4
+TDD7846343  ...
+TDD-4614340 > * 1
+TDD-2167949 ? 1
+TDD-1063867 questioning: ideas
+TDD3055528 Sequence #1 _____? MnMnn
+TDD-3055541 attempt: 0 IDEAS m n m n n
+TDD1551785 > * 1
+TDD-464016 ? 1
+TDD-1087713 questioning: kiter
+TDD2719823 Sequence #1 _____ ~EI -ADS? nMnMn
+TDD-2719852 attempt: 0 KITER n m n m n
+TDD1287257 > * 1
+TDD3528682 ? 1
+TDD-4815905 questioning: monie
+TDD2543603 Sequence #1 _____ ~EI -ADKRST? nnnMM
+TDD-2543647 attempt: 0 MONIE n n n m m
+TDD2935540 > * 1
+TDD-6403 ? 5
+TDD-2929097 questioning: weigh
+TDD3542352 Sequence #1 _____ ~EI -ADKMNORST? YYYYY
+TDD-3542422 attempt: 0 WEIGH Y Y Y Y Y
+TDD-127 questioning: IDEAS
+TDD2303847 Sequence #2 _____? nnnYn
+TDD-2303714 attempt: 1 IDEAS n n n Y n
+TDD-138 questioning: KITER
+TDD1015776 Sequence #2 ___A_ -DEIS? nnnnn
+TDD-1015644 attempt: 1 KITER n n n n n
+TDD-130 questioning: MONIE
+TDD1479782 Sequence #2 ___A_ -DEIKRST? nnMnn
+TDD-1479640 attempt: 1 MONIE n n m n n
+TDD-143 questioning: WEIGH
+TDD1015681 Sequence #2 ___A_ ~N -DEIKMORST? nnnnn
+TDD-1015541 attempt: 1 WEIGH n n n n n
+TDD1335738 > * 2
+TDD344079 ? 1
+TDD-1679843 questioning: unlay
+TDD3791946 Sequence #2 ___A_ ~N -DEGHIKMORSTW? nMMYn
+TDD-3791912 attempt: 1 UNLAY n m m Y n
+TDD1583565 > * 2
+TDD-1505900 questioning: naval
+TDD2964218 Sequence #2 ___A_ ~LN -DEGHIKMORSTUWY? YYYYY
+TDD-3041893 attempt: 1 NAVAL Y Y Y Y Y
+TDD-135 questioning: IDEAS
+TDD2791819 Sequence #3 _____? nnnnn
+TDD-2791684 attempt: 2 IDEAS n n n n n
+TDD-134 questioning: KITER
+TDD1167825 Sequence #3 _____ -ADEIS? nnnnM
+TDD-1167685 attempt: 2 KITER n n n n m
+TDD-143 questioning: MONIE
+TDD1095771 Sequence #3 _____ ~R -ADEIKST? nnnnn
+TDD-1095629 attempt: 2 MONIE n n n n n
+TDD-140 questioning: WEIGH
+TDD1455759 Sequence #3 _____ ~R -ADEIKMNOST? nnnnY
+TDD-1455548 attempt: 2 WEIGH n n n n Y
+TDD-208 questioning: UNLAY
+TDD3047795 Sequence #3 ____H ~R -ADEGIKMNOSTW? MnMnn
+TDD-3047638 attempt: 2 UNLAY m n m n n
+TDD-160 questioning: NAVAL
+TDD1360063 Sequence #3 ____H ~LRU -ADEGIKMNOSTWY? nnnnM
+TDD-1359804 attempt: 2 NAVAL n n n n m
+TDD1255224 > * 3
+TDD-1169015 questioning: lurch
+TDD3546936 Sequence #3 ____H ~LRU -ADEGIKMNOSTVWY? YYYYY
+TDD-3633220 attempt: 2 LURCH Y Y Y Y Y
+TDD-172 questioning: IDEAS
+TDD2175730 Sequence #4 _____? nnnMn
+TDD-2175571 attempt: 3 IDEAS n n n m n
+TDD-162 questioning: KITER
+TDD1271880 Sequence #4 _____ ~A -DEIS? nnMnn
+TDD-1271660 attempt: 3 KITER n n m n n
+TDD-204 questioning: MONIE
+TDD1175897 Sequence #4 _____ ~AT -DEIKRS? nMnnn
+TDD-1175679 attempt: 3 MONIE n m n n n
+TDD-216 questioning: WEIGH
+TDD1031208 Sequence #4 _____ ~AOT -DEIKMNRS? nnnnn
+TDD-1031076 attempt: 3 WEIGH n n n n n
+TDD-153 questioning: UNLAY
+TDD2103811 Sequence #4 _____ ~AOT -DEGHIKMNRSW? MnnMn
+TDD-2103675 attempt: 3 UNLAY m n n m n
+TDD-137 questioning: NAVAL
+TDD1671822 Sequence #4 _____ ~AOTU -DEGHIKLMNRSWY? nMnnn
+TDD-1671680 attempt: 3 NAVAL n m n n n
+TDD-141 questioning: LURCH
+TDD1383741 Sequence #4 _____ ~AOTU -DEGHIKLMNRSVWY A:1? nMnnn
+TDD-1383590 attempt: 3 LURCH n m n n n
+TDD1487925 > * 4
+TDD-1396154 questioning: about
+TDD2768463 Sequence #4 _____ ~AOTU -CDEGHIKLMNRSVWY A:1? YYYYY
+TDD-2860167 attempt: 3 ABOUT Y Y Y Y Y
+TDD4271637 📋> Daily Sequence Quordle 1443
+TDD-4271762 📋> 4️⃣6️⃣
+TDD-96 📋> 7️⃣8️⃣
+TDD-6 📋> m-w.com/games/quordle/
+TDD255342 📋> 
+TDD96599 📋> ␚
+TDD-351832 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1443\n4\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD27 result: "Daily Sequence Quordle 1443\n4\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD375833 📆 2026-01-06 ? 
