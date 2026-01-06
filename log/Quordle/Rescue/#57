@@ -1,0 +1,90 @@
+T706.2657154030021 now: 2026-01-06T09:46:17EST
+TD85 site: m-w.com/games/quordle/#/rescue
+TDD-65 wordlist: nwl2023.txt
+TDD-13 num_words: 4
+TDD7934881  ...
+TDD2864705 > tried patsy
+TDD-10799389 questioning: patsy
+TDD2687521 Rescue #1 _____? nnnnn
+TDD-2687433 attempt: 0 PATSY n n n n n
+TDD1607584 Rescue #2 _____? nnMMn
+TDD-1607697 attempt: 1 PATSY n n m m n
+TDD1487541 Rescue #3 _____? nYnnY
+TDD-1487459 attempt: 2 PATSY n Y n n Y
+TDD1535606 Rescue #4 _____? nMnnY
+TDD-1535612 attempt: 3 PATSY n m n n Y
+TDD16359414 > tried water
+TDD-16359541 questioning: water
+TDD2575828 Rescue #1 _____ -APSTY? nnnnY
+TDD-2575779 attempt: 0 WATER n n n n Y
+TDD1431851 Rescue #2 _____ ~ST -APY? nnMnn
+TDD-1431857 attempt: 1 WATER n n m n n
+TDD1367418 Rescue #3 _A__Y -PST? nYnnn
+TDD-1367331 attempt: 2 WATER n Y n n n
+TDD1327642 Rescue #4 ____Y ~A -PST? nMnnM
+TDD-1327644 attempt: 3 WATER n m n n m
+TDD2423420 > * 2
+TDD2736437 ? 1
+TDD-5159948 questioning: lunts
+TDD2999631 Rescue #1 ____R -AEPSTWY? nnnnn
+TDD-2999539 attempt: 0 LUNTS n n n n n
+TDD1671447 Rescue #2 _____ ~ST -AEPRWY? nnMMM
+TDD-1671514 attempt: 1 LUNTS n n m m m
+TDD1919695 Rescue #3 _A__Y -EPRSTW? Mnnnn
+TDD-1919716 attempt: 2 LUNTS m n n n n
+TDD1231894 Rescue #4 ____Y ~AR -EPSTW? nnMnn
+TDD-1231889 attempt: 3 LUNTS n n m n n
+TDD4727560 > * 4
+TDD-4642032 questioning: angry
+TDD4796483 Rescue #1 ____R -AELNPSTUWY? nnnMn
+TDD-4882024 attempt: 0 ANGRY n n n m n
+TDD1199775 Rescue #2 _____ ~NST -AELPRUWY? nMnnn
+TDD-1199773 attempt: 1 ANGRY n m n n n
+TDD2519802 Rescue #3 _A__Y ~L -ENPRSTUW? MnnnY
+TDD-2519689 attempt: 2 ANGRY m n n n Y
+TDD1479597 Rescue #4 ____Y ~ANR -ELPSTUW? YYYYY
+TDD-1479713 attempt: 3 ANGRY Y Y Y Y Y
+TDD2247470 > * 3
+TDD-1055429 ? 1
+TDD-1191979 questioning: badly
+TDD3807389 Rescue #1 ____R -AEGLNPSTUWY? nnnnn
+TDD-3807344 attempt: 0 BADLY n n n n n
+TDD1199461 Rescue #2 _____ ~NST -AEGLPRUWY? nnnnn
+TDD-1199547 attempt: 1 BADLY n n n n n
+TDD1288146 Rescue #3 _A__Y ~L -EGNPRSTUW? YYYYY
+TDD-1288075 attempt: 2 BADLY Y Y Y Y Y
+TDD1519269 > * 1
+TDD528675 ? 1
+TDD-2047945 questioning: ichor
+TDD5471136 Rescue #1 ____R -ABDEGLNPSTUWY? MMMMY
+TDD-5471226 attempt: 0 ICHOR m m m m Y
+TDD1335717 Rescue #2 _____ ~NST -ABDEGLPRUWY? Mnnnn
+TDD-1335673 attempt: 1 ICHOR m n n n n
+TDD1487509 > * 1
+TDD-1404665 questioning: choir
+TDD3186034 Rescue #1 ____R ~CHIO -ABDEGLNPSTUWY? YYYYY
+TDD-3268834 attempt: 0 CHOIR Y Y Y Y Y
+TDD1303502 Rescue #2 _____ ~INST -ABCDEGHLOPRUWY? nnnMn
+TDD-1303577 attempt: 1 CHOIR n n n m n
+TDD2583700 > *
+TDD320585 > * 2
+TDD655143 ? 2
+TDD-3559388 questioning: stink
+TDD8879804 Rescue #2 _____ ~INST -ABCDEGHLOPRUWY? YYYYn
+TDD-8879753 attempt: 1 STINK Y Y Y Y n
+TDD1903281 > * 2
+TDD-1829860 questioning: stint
+TDD8564710 Rescue #2 STIN_ -ABCDEGHKLOPRUWY? YYYYY
+TDD-8638237 attempt: 1 STINT Y Y Y Y Y
+TDD1015731 📋> ␚
+TDD-1015794 pasted: {"subject": "share result", "method": "read:must:stdin", "content": ""}
+TDD207781 📋> 
+TDD5176579 📋> Daily Rescue 57
+TDD-5384367 📋> 7️⃣9️⃣
+TDD-82 📋> 5️⃣4️⃣
+TDD-1 📋> m-w.com/games/quordle/
+TDD311634 📋> 
+TDD-111784 📋> ␚
+TDD-199764 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\nDaily Rescue 57\n7\ufe0f\u20e39\ufe0f\u20e3\n5\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD529 result: "\nDaily Rescue 57\n7\ufe0f\u20e39\ufe0f\u20e3\n5\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD278954 📆 2026-01-06 ? 
