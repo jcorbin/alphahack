@@ -419,6 +419,8 @@ class SolverScope:
                 log_file = self.log_file[j]
         return self.lib.run(ui, solver_i=solver_i, name=name, log_file=log_file)
 
+    # TODO reprise SolverHarness issuance here ; borg all do_sol_* family from below
+
 solvers = SolverLibrary()
 
 from binartic import Search as Binartic
