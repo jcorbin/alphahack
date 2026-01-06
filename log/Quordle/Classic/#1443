@@ -1,0 +1,70 @@
+T951.9739212599961 now: 2026-01-06T09:25:13EST
+TD57 site: m-w.com/games/quordle/#/
+TDD-45 wordlist: nwl2023.txt
+TDD-8 num_words: 4
+TDD4006960  ...
+TDD8953019 > * 1
+TDD-10167723 ? 1
+TDD-2792102 questioning: reals
+TDD3183501 Classic #1 _____? nnMnn
+TDD-3183420 attempt: 0 REALS n n m n n
+TDD2143526 Classic #2 _____? nMYnn
+TDD-2143479 attempt: 1 REALS n m Y n n
+TDD2031423 Classic #3 _____? nnYMn
+TDD-2031539 attempt: 2 REALS n n Y m n
+TDD1816059 Classic #4 _____? Mnnnn
+TDD-1816062 attempt: 3 REALS m n n n n
+TDD3103997 > * 1
+TDD-1672473 ? 1
+TDD-1431448 questioning: unica
+TDD6143353 Classic #1 _____ ~A -ELRS? nnYnM
+TDD-6143425 attempt: 0 UNICA n n Y n m
+TDD2407548 Classic #2 __A__ ~E -LRS? nnMnM
+TDD-2407542 attempt: 1 UNICA n n m n m
+TDD2432397 Classic #3 __A__ ~L -ERS? nnnnM
+TDD-2432387 attempt: 2 UNICA n n n n m
+TDD2071249 Classic #4 _____ ~R -AELS? MMnnn
+TDD-2071274 attempt: 3 UNICA m m n n n
+TDD1655494 > * 2
+TDD-1564409 questioning: image
+TDD5145447 Classic #1 __I__ ~A -CELNRSU? MYMnn
+TDD-5236527 attempt: 0 IMAGE m Y m n n
+TDD1143646 Classic #2 __A__ ~EI -CLNRSU? YYYYY
+TDD-1143651 attempt: 1 IMAGE Y Y Y Y Y
+TDD1719677 Classic #3 __A__ ~L -CEINRSU? nnYnn
+TDD-1719669 attempt: 2 IMAGE n n Y n n
+TDD1823796 Classic #4 _____ ~NRU -ACEILS? nnnMn
+TDD-1823716 attempt: 3 IMAGE n n n m n
+TDD2711438 > * 1
+TDD-191545 ? 2
+TDD-2519918 questioning: amity
+TDD3975445 Classic #1 _MI__ ~A -CEGLNRSU? YYYYY
+TDD-3975508 attempt: 0 AMITY Y Y Y Y Y
+TDD2359713 Classic #3 __A__ ~L -CEGIMNRSU? MnnYn
+TDD-2359716 attempt: 2 AMITY m n n Y n
+TDD1703777 Classic #4 _____ ~GNRU -ACEILMS? nnnnn
+TDD-1703688 attempt: 3 AMITY n n n n n
+TDD1231352 > * 3
+TDD-1151983 questioning: loath
+TDD4344865 Classic #3 __AT_ ~L -CEGIMNRSUY? YYYYY
+TDD-4424317 attempt: 2 LOATH Y Y Y Y Y
+TDD2271677 Classic #4 _____ ~GNRU -ACEILMSTY? nnnnn
+TDD-2271688 attempt: 3 LOATH n n n n n
+TDD1327661 > * 4
+TDD1048371 ? 1
+TDD-2376035 questioning: brung
+TDD4487748 Classic #4 _____ ~GNRU -ACEHILMOSTY? nYYYY
+TDD-4487646 attempt: 3 BRUNG n Y Y Y Y
+TDD1775387 > * 4
+TDD-1699861 questioning: wrung
+TDD3192587 Classic #4 _RUNG -ABCEHILMOSTY? YYYYY
+TDD-3268121 attempt: 3 WRUNG Y Y Y Y Y
+TDD4839811 📋> 🙂 Daily Quordle 1443
+TDD-4839968 📋> 4️⃣3️⃣
+TDD-81 📋> 5️⃣7️⃣
+TDD-3 📋> m-w.com/games/quordle/
+TDD399606 📋> 
+TDD-223551 📋> ␚
+TDD-175961 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1443\n4\ufe0f\u20e33\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1253 result: "\ud83d\ude42 Daily Quordle 1443\n4\ufe0f\u20e33\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD181201 📆 2026-01-06 ? 
