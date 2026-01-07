@@ -458,22 +458,17 @@ class Nordle(StoredLog):
         usage: `guess <N>`
         '''
 
-        n = ui.tokens.have(r'\d+', then=lambda m: int(m[0]))
-        if n is None:
-            ui.print('! missing <number>')
-            return
-        i = n - 1
-        try:
-            word = self.words[i]
-        except IndexError:
-            ui.print('! invalid <number>')
-            return
-
         chooser = Chooser(show_n=show_n)
         jitter = 0.5
+        word_n = 0
         verbose = 0
 
         while ui.tokens:
+            n = ui.tokens.have(r'\d+', then=lambda m: int(m[0]))
+            if n is not None:
+                word_n = n
+                continue
+
             try:
                 if chooser.collect(ui.tokens):
                     continue
@@ -504,8 +499,20 @@ class Nordle(StoredLog):
             ui.print(f'! invalid * arg {next(ui.tokens)!r}')
             return
 
-        pat = word.pattern()
-        words = set(self.find(pat))
+        if word_n:
+            word_i = word_n - 1
+            try:
+                word = self.words[word_i]
+            except IndexError:
+                ui.print(f'! invalid word #{word_n}')
+                return
+            pat = word.pattern()
+            words = set(self.find(pat))
+
+        else:
+            ui.print('! missing <number>')
+            return
+
         match_words = tuple(sorted(words))
 
         def select(words: Sequence[str], jitter: float = 0.5):
