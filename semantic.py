@@ -1933,6 +1933,8 @@ class Search(StoredLog):
             if self.auto_affix:
                 tokens.rest = f'{tokens.rest} {self.auto_affix}'
 
+            abbr_done: set[str] = set()
+
             for token in tokens:
                 if re.match(r'\d+$', token):
                     if count_given:
@@ -1947,9 +1949,11 @@ class Search(StoredLog):
                     continue
 
                 if token in self.abbr:
-                    trail = self.abbr[token]
-                    if trail not in trailer:
-                        trailer.append(trail)
+                    if token not in abbr_done:
+                        abbr_done.add(token)
+                        trail = self.abbr[token]
+                        if trail not in trailer:
+                            trailer.append(trail)
                     continue
 
                 if token in trailer_seps:
