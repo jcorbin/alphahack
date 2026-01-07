@@ -1,0 +1,116 @@
+T2563.8532840999833 now: 2026-01-07T09:52:48EST
+TD87 site: m-w.com/games/quordle/#/rescue
+TDD-70 wordlist: nwl2023.txt
+TDD-11 num_words: 4
+TDD49247134  ...
+TDD-42911046 > ␚
+T4.09085041002254 now: 2026-01-07T10:40:10EST
+TD1661507  ...
+TDD3034576 > ␚
+T0.6318022400082555 now: 2026-01-07T10:41:39EST
+TD1484808  ...'
+TDD-252722  ...
+TDD1967962 > *
+T19.20746529600001 now: 2026-01-07T12:12:50EST
+TD1204695  ...
+TDD747204 > 
+TDD-1791932 > 
+TDD2344352 > tried sting
+TDD-2504152 questioning: sting
+TDD1719450 Rescue #1 _____? nMnnn
+TDD-1719037 attempt: 0 STING n m n n n
+TDD1374824 Rescue #2 _____? nnnnn
+TDD-1375170 attempt: 1 STING n n n n n
+TDD1479504 Rescue #3 _____? Ynnnn
+TDD-1479545 attempt: 2 STING Y n n n n
+TDD1287605 Rescue #4 _____? nnnnn
+TDD-1287617 attempt: 3 STING n n n n n
+TDD6319698 > tried qualm
+TDD-6319722 questioning: qualm
+TDD4079889 Rescue #1 _____ ~T -GINS? nnnnM
+TDD-4079833 attempt: 0 QUALM n n n n m
+TDD2983741 Rescue #2 _____ -GINST? nnMnn
+TDD-2983632 attempt: 1 QUALM n n m n n
+TDD1599475 Rescue #3 S____ -GINT? nnnMn
+TDD-1599403 attempt: 2 QUALM n n n m n
+TDD1494856 Rescue #4 _____ -GINST? nnMMn
+TDD-1495068 attempt: 3 QUALM n n m m n
+TDD9592453 > *
+TDD-9204 ? ␚
+TDD-9583356 <EOF>
+TDD6791822 > ␚
+T1.8256617290026043 now: 2026-01-07T12:14:34EST
+TD68 questioning: qualm
+TDD3412542 > ␚
+T1.183272146008676 now: 2026-01-07T12:14:59EST
+TD45 questioning: qualm
+TDD2716913 > *
+TDD3339097 ? 1
+TDD-6055836 questioning: adobe
+TDD12967682 Rescue #1 _____ ~MT -AGILNQSU? nnMnM
+TDD-12967696 attempt: 0 ADOBE n n m n m
+TDD1263640 Rescue #2 _____ ~A -GILMNQSTU? MnnnM
+TDD-1263609 attempt: 1 ADOBE m n n n m
+TDD1271516 Rescue #3 S____ ~L -AGIMNQTU? nnYnn
+TDD-1271559 attempt: 2 ADOBE n n Y n n
+TDD1567567 Rescue #4 _____ ~AL -GIMNQSTU? MnnnM
+TDD-1567586 attempt: 3 ADOBE m n n n m
+TDD1263668 > *
+TDD2128288 ? 1
+TDD-3391870 questioning: paver
+TDD4367453 Rescue #1 _____ ~EMOT -ABDGILNQSU? nnnYn
+TDD-4367492 attempt: 0 PAVER n n n Y n
+TDD1767592 Rescue #2 _____ ~AE -BDGILMNOQSTU? MMnMn
+TDD-1767623 attempt: 1 PAVER m m n m n
+TDD1439731 Rescue #3 S_O__ ~L -ABDEGIMNQTU? nnnnn
+TDD-1439726 attempt: 2 PAVER n n n n n
+TDD2135656 Rescue #4 _____ ~AEL -BDGIMNOQSTU? YYnYY
+TDD-2135555 attempt: 3 PAVER Y Y n Y Y
+TDD1087259 > *
+TDD4096507 ? ␚
+TDD-5183968 <EOF>
+TDD1456292 > ␚
+TDD-1456278 <EOF>
+TDD1031261 > ␚
+TDD-1031291 <EOF>
+TDD1128366 > ␚
+T0.7952000920195132 now: 2026-01-07T12:39:35EST
+TD79 questioning: paver
+TDD1443068 > *
+TDD-1442492 questioning: paler
+TDD5990558 Rescue #1 ___E_ ~MOT -ABDGILNPQRSUV? nnnYn
+TDD-5991001 attempt: 0 PALER n n n Y n
+TDD2495752 Rescue #2 _____ ~AEP -BDGILMNOQRSTUV? MMnMn
+TDD-2495771 attempt: 1 PALER m m n m n
+TDD1599950 Rescue #3 S_O__ ~L -ABDEGIMNPQRTUV? nnMnn
+TDD-1599937 attempt: 2 PALER n n m n n
+TDD1783095 Rescue #4 PA_ER ~L -BDGIMNOQSTUV? YYYYY
+TDD-1783091 attempt: 3 PALER Y Y Y Y Y
+TDD1031604 > *
+TDD4680309 ? 1
+TDD-5711878 questioning: cheap
+TDD2967570 Rescue #1 ___E_ ~MOT -ABDGILNPQRSUV? YnMnn
+TDD-2967560 attempt: 0 CHEAP Y n m n n
+TDD1287464 Rescue #2 _____ ~AEP -BDGILMNOQRSTUV? YYYYY
+TDD-1287482 attempt: 1 CHEAP Y Y Y Y Y
+TDD1359396 Rescue #3 S_O__ ~L -ABDEGIMNPQRTUV? Mnnnn
+TDD-1359373 attempt: 2 CHEAP m n n n n
+TDD2335792 > *
+TDD-2335717 questioning: comet
+TDD3943154 Rescue #1 C__E_ ~MOT -ABDGHILNPQRSUV? YYYYY
+TDD-3943311 attempt: 0 COMET Y Y Y Y Y
+TDD2767801 Rescue #3 S_O__ ~CL -ABDEGHIMNPQRTUV? MMnnn
+TDD-2767764 attempt: 2 COMET m m n n n
+TDD935530 > *
+TDD-935416 questioning: scowl
+TDD3455306 Rescue #3 S_O__ ~CL -ABDEGHIMNPQRTUV? YYYYY
+TDD-3455393 attempt: 2 SCOWL Y Y Y Y Y
+TDD4672127 📋> Daily Rescue 58
+TDD-4672263 📋> 7️⃣6️⃣
+TDD-94 📋> 8️⃣5️⃣
+TDD-2 📋> m-w.com/games/quordle/
+TDD263703 📋> 
+TDD-56094 📋> ␚
+TDD-207481 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 58\n7\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD786 result: "Daily Rescue 58\n7\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD270045 📆 2026-01-07 ? 
