@@ -455,7 +455,7 @@ class Nordle(StoredLog):
 
     def do_guess(self, ui: PromptUI, show_n: int=10):
         '''
-        usage: `guess <N>`
+        usage: `guess <N> [-v] [-jitter <prop>] [...chooser options...]`
         '''
 
         chooser = Chooser(show_n=show_n)
