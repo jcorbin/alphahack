@@ -1,0 +1,200 @@
+T1021.1639085609931 now: 2026-01-07T13:44:56EST
+TD166 site: britannica.com/games/octordle/daily-sequence
+TDD-137 wordlist: nwl2023.txt
+TDD-20 num_words: 8
+TDD5286809  ...
+TDD-3998808 > *
+TDD160106 ? 1
+TDD-1447891 questioning: arose
+TDD2911561 Sequence #1 _____? nnnMM
+TDD-2911619 attempt: 0 AROSE n n n m m
+TDD1631644 > *
+TDD-695746 ? 1
+TDD-935859 questioning: tules
+TDD3063525 Sequence #1 _____ ~ES -AOR? MMnMM
+TDD-3063551 attempt: 0 TULES m m n m m
+TDD1527660 > *
+TDD-1527503 questioning: setup
+TDD4599339 Sequence #1 _____ ~ESTU -ALOR? YYYYY
+TDD-4599435 attempt: 0 SETUP Y Y Y Y Y
+TDD-180 questioning: AROSE
+TDD2871806 Sequence #2 _____? nMYMn
+TDD-2871672 attempt: 1 AROSE n m Y m n
+TDD-155 questioning: TULES
+TDD2359660 Sequence #2 __O__ ~RS -AE? MnnnM
+TDD-2359517 attempt: 1 TULES m n n n m
+TDD-145 questioning: SETUP
+TDD1847748 Sequence #2 __O__ ~RST -AELU? YnMnM
+TDD-1847618 attempt: 1 SETUP Y n m n m
+TDD1295809 > *
+TDD-1295672 questioning: sport
+TDD6279336 Sequence #2 S_O__ ~PRT -AELU? YYYYY
+TDD-6279394 attempt: 1 SPORT Y Y Y Y Y
+TDD-189 questioning: AROSE
+TDD1919750 Sequence #3 _____? nnYnn
+TDD-1919578 attempt: 2 AROSE n n Y n n
+TDD-174 questioning: TULES
+TDD1831597 Sequence #3 __O__ -AERS? MYnnn
+TDD-1831477 attempt: 2 TULES m Y n n n
+TDD-140 questioning: SETUP
+TDD1951852 Sequence #3 _UO__ ~T -AELRS? nnMMn
+TDD-1950084 attempt: 2 SETUP n n m m n
+TDD-1731 questioning: SPORT
+TDD2134017 Sequence #3 _UO__ ~T -AELPRS? nnYnM
+TDD-2133924 attempt: 2 SPORT n n Y n m
+TDD951694 > *
+TDD-951571 questioning: quoth
+TDD3703467 Sequence #3 _UO__ ~T -AELPRS? YYYYY
+TDD-3703594 attempt: 2 QUOTH Y Y Y Y Y
+TDD-125 questioning: AROSE
+TDD14056028 Sequence #4 _____? nnnnY
+TDD-14055776 attempt: 3 AROSE n n n n Y
+TDD-230 questioning: TULES
+TDD1391571 Sequence #4 ____E -AORS? nYnMn
+TDD-1391343 attempt: 3 TULES n Y n m n
+TDD-227 questioning: SETUP
+TDD1855629 Sequence #4 _U__E -ALORST? nMnYn
+TDD-1855478 attempt: 3 SETUP n m n Y n
+TDD-164 questioning: SPORT
+TDD1463838 Sequence #4 _U_UE -ALOPRST? nnnnn
+TDD-1463687 attempt: 3 SPORT n n n n n
+TDD-150 questioning: QUOTH
+TDD1303602 Sequence #4 _U_UE -ALOPRST? nYnnn
+TDD-1303468 attempt: 3 QUOTH n Y n n n
+TDD959951 > *
+TDD-959791 questioning: fugue
+TDD7327180 Sequence #4 _U_UE -AHLOPQRST? YYYYY
+TDD-7327273 attempt: 3 FUGUE Y Y Y Y Y
+TDD-189 questioning: AROSE
+TDD7095862 Sequence #5 _____? MMnnM
+TDD-7095684 attempt: 4 AROSE m m n n m
+TDD-181 questioning: TULES
+TDD1711522 Sequence #5 _____ ~AER -OS? nnYMn
+TDD-1711389 attempt: 4 TULES n n Y m n
+TDD-146 questioning: SETUP
+TDD1447815 Sequence #5 __L__ ~AER -OSTU? nYnnn
+TDD-1447604 attempt: 4 SETUP n Y n n n
+TDD-195 questioning: SPORT
+TDD1495691 Sequence #5 _EL__ ~AR -OPSTU? nnnMn
+TDD-1495553 attempt: 4 SPORT n n n m n
+TDD-152 questioning: QUOTH
+TDD1391878 Sequence #5 _EL__ ~AR -OPSTU? nnnnn
+TDD-1391669 attempt: 4 QUOTH n n n n n
+TDD-191 questioning: FUGUE
+TDD1295605 Sequence #5 _EL__ ~AR -HOPQSTU? nnnnM
+TDD-1295411 attempt: 4 FUGUE n n n n m
+TDD1175448 > *
+TDD1184283 ? 1
+TDD-2359833 questioning: relay
+TDD4407799 Sequence #5 _EL__ ~AR -FGHOPQSTU? YYYYn
+TDD-4407783 attempt: 4 RELAY Y Y Y Y n
+TDD1031700 > *
+TDD-1031563 questioning: relax
+TDD3535476 Sequence #5 RELA_ -FGHOPQSTUY? YYYYY
+TDD-3535616 attempt: 4 RELAX Y Y Y Y Y
+TDD-126 questioning: AROSE
+TDD2679779 Sequence #6 _____? nnnnn
+TDD-2679654 attempt: 5 AROSE n n n n n
+TDD-122 questioning: TULES
+TDD1775782 Sequence #6 _____ -AEORS? nYMn
+TDD6432263 Sequence #6 _____ -AEORS? nYMnn
+TDD-8207883 attempt: 5 TULES n Y m n n
+TDD-156 questioning: SETUP
+TDD1407808 Sequence #6 _U___ ~L -AEORST? nnnMn
+TDD-1407582 attempt: 5 SETUP n n n m n
+TDD-211 questioning: SPORT
+TDD1351596 Sequence #6 _U___ ~L -AEOPRST? nnnnn
+TDD-1351495 attempt: 5 SPORT n n n n n
+TDD-125 questioning: QUOTH
+TDD1415841 Sequence #6 _U___ ~L -AEOPRST? nYnnn
+TDD-1415616 attempt: 5 QUOTH n Y n n n
+TDD-202 questioning: FUGUE
+TDD1567783 Sequence #6 _U___ ~L -AEHOPQRST? nYMnn
+TDD-1567595 attempt: 5 FUGUE n Y m n n
+TDD-189 questioning: RELAY
+TDD1503608 Sequence #6 _U___ ~GL -AEFHOPQRST? nnMnn
+TDD-1503504 attempt: 5 RELAY n n m n n
+TDD-125 questioning: RELAX
+TDD1775803 Sequence #6 _U___ ~GL -AEFHOPQRSTY? nnMnn
+TDD-1775510 attempt: 5 RELAX n n m n n
+TDD943301 > *
+TDD1072429 ? 2
+TDD-2015896 questioning: guild
+TDD3383684 Sequence #6 _U___ ~GL -AEFHOPQRSTXY? YYYYY
+TDD-3383676 attempt: 5 GUILD Y Y Y Y Y
+TDD-132 questioning: AROSE
+TDD2135903 Sequence #7 _____? nnMnn
+TDD-2135776 attempt: 6 AROSE n n m n n
+TDD-129 questioning: TULES
+TDD1495682 Sequence #7 _____ ~O -AERS? nMnnn
+TDD-1495557 attempt: 6 TULES n m n n n
+TDD-123 questioning: SETUP
+TDD1960088 Sequence #7 _____ ~OU -AELRST? nnnMn
+TDD-1959947 attempt: 6 SETUP n n n m n
+TDD-139 questioning: SPORT
+TDD3287562 Sequence #7 _____ ~OU -AELPRST? nnMnn
+TDD-3287343 attempt: 6 SPORT n n m n n
+TDD-199 questioning: QUOTH
+TDD2079614 Sequence #7 _____ ~OU -AELPRST? nMMnn
+TDD-2079502 attempt: 6 QUOTH n m m n n
+TDD-134 questioning: FUGUE
+TDD1367781 Sequence #7 _____ ~OU -AEHLPQRST? nMnnn
+TDD-1367647 attempt: 6 FUGUE n m n n n
+TDD-132 questioning: RELAY
+TDD1375878 Sequence #7 _____ ~OU -AEFGHLPQRST U:1? nnnnn
+TDD-1375629 attempt: 6 RELAY n n n n n
+TDD-220 questioning: RELAX
+TDD1319615 Sequence #7 _____ ~OU -AEFGHLPQRSTY U:1? nnnnn
+TDD-1319500 attempt: 6 RELAX n n n n n
+TDD-145 questioning: GUILD
+TDD2103713 Sequence #7 _____ ~OU -AEFGHLPQRSTXY U:1? nMYnn
+TDD-2103484 attempt: 6 GUILD n m Y n n
+TDD903591 > *
+TDD-903279 questioning: union
+TDD2863315 Sequence #7 __I__ ~OU -ADEFGHLPQRSTXY U:1? YYYYY
+TDD-2863623 attempt: 6 UNION Y Y Y Y Y
+TDD-141 questioning: AROSE
+TDD2366969 Sequence #8 _____? nnnnn
+TDD-2366924 attempt: 7 AROSE n n n n n
+TDD-91 questioning: TULES
+TDD1159848 Sequence #8 _____ -AEORS? nnnnn
+TDD-1159659 attempt: 7 TULES n n n n n
+TDD-111 questioning: SETUP
+TDD1479373 Sequence #8 _____ -AELORSTU? nnnnn
+TDD-1479371 attempt: 7 SETUP n n n n n
+TDD-99 questioning: SPORT
+TDD1967663 Sequence #8 _____ -AELOPRSTU? nnnnn
+TDD-1967534 attempt: 7 SPORT n n n n n
+TDD-93 questioning: QUOTH
+TDD2663684 Sequence #8 _____ -AELOPRSTU? nnnnY
+TDD-2663614 attempt: 7 QUOTH n n n n Y
+TDD-89 questioning: FUGUE
+TDD3199723 Sequence #8 ____H -AELOPQRSTU? nnnnn
+TDD-3199639 attempt: 7 FUGUE n n n n n
+TDD-94 questioning: RELAY
+TDD1439924 Sequence #8 ____H -AEFGLOPQRSTU? nnnnn
+TDD-1439727 attempt: 7 RELAY n n n n n
+TDD-140 questioning: RELAX
+TDD1287374 Sequence #8 ____H -AEFGLOPQRSTUY? nnnnn
+TDD-1287334 attempt: 7 RELAX n n n n n
+TDD-83 questioning: GUILD
+TDD1287722 Sequence #8 ____H -AEFGLOPQRSTUXY? nnMnn
+TDD-1287625 attempt: 7 GUILD n n m n n
+TDD-108 questioning: UNION
+TDD1367815 Sequence #8 ____H ~I -ADEFGLOPQRSTUXY? nMMnn
+TDD-1367598 attempt: 7 UNION n m m n n
+TDD943338 > *
+TDD752418 ? 1
+TDD-1695819 questioning: winch
+TDD3159637 Sequence #8 ____H ~IN -ADEFGLOPQRSTUXY N:1? YYYYY
+TDD-3159685 attempt: 7 WINCH Y Y Y Y Y
+TDD5064197 📋> Daily Sequence Octordle #1444
+TDD-5064249 📋> 3️⃣4️⃣
+TDD-95 📋> 5️⃣6️⃣
+TDD-8 📋> 8️⃣9️⃣
+TDD0 📋> 🔟🕚
+TDD431310 📋> Score: 56
+TDD-167352 📋> ␚
+TDD-263859 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Octordle #1444\n3\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\nScore: 56"}
+TDD-7 result: "Daily Sequence Octordle #1444\n3\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\nScore: 56"
+TDD327886 📆 2026-01-07 ? 
