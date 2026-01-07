@@ -1,0 +1,187 @@
+T197.96231449500192 now: 2026-01-07T13:23:19EST
+TD132 site: britannica.com/games/octordle/daily-rescue
+TDD-109 wordlist: nwl2023.txt
+TDD-15 num_words: 8
+TDD5223089  ...
+TDD-3902952 > *
+TDD-304346 ? 1
+TDD-1015649 questioning: aisle
+TDD4679741 Rescue #1 _____? ␚
+TDD-4679814 <EOF>
+TDD2783864 > tried rally
+TDD-2783775 questioning: rally
+TDD1927751 Rescue #1 _____? Mnnnn
+TDD-1927730 attempt: 0 RALLY m n n n n
+TDD1631634 Rescue #2 _____? Mnnnn
+TDD-1631636 attempt: 1 RALLY m n n n n
+TDD1991631 Rescue #3 _____? nMnnY
+TDD-1991622 attempt: 2 RALLY n m n n Y
+TDD1895833 Rescue #4 _____? Ynnnn
+TDD-1895831 attempt: 3 RALLY Y n n n n
+TDD4415444 Rescue #5 _____? nnnnn
+TDD-4415485 attempt: 4 RALLY n n n n n
+TDD1415700 Rescue #6 _____? Mnnnn
+TDD-1415692 attempt: 5 RALLY m n n n n
+TDD1967741 Rescue #7 _____? Mnnnn
+TDD-1967718 attempt: 6 RALLY m n n n n
+TDD1967668 Rescue #8 _____? nMnYn
+TDD-1967674 attempt: 7 RALLY n m n Y n
+TDD1679639 > *
+TDD504199 ? 1
+TDD-2183843 questioning: shone
+TDD4823708 Rescue #1 _____ ~R -ALY? YnYnY
+TDD-4823682 attempt: 0 SHONE Y n Y n Y
+TDD1583683 Rescue #2 _____ ~R -ALY? nnYnY
+TDD-1583634 attempt: 1 SHONE n n Y n Y
+TDD1855968 Rescue #3 ____Y ~A -LR? Mnnnn
+TDD-1856021 attempt: 2 SHONE m n n n n
+TDD2007167 Rescue #4 R____ -ALY? nnnMM
+TDD-2007179 attempt: 3 SHONE n n n m m
+TDD3615603 Rescue #5 _____ -ALRY? nnnnn
+TDD-3615606 attempt: 4 SHONE n n n n n
+TDD1999694 Rescue #6 _____ ~R -ALY? nnYMn
+TDD-1999656 attempt: 5 SHONE n n Y m n
+TDD1871686 Rescue #7 _____ ~R -ALY? nnnYn
+TDD-1871732 attempt: 6 SHONE n n n Y n
+TDD1823582 Rescue #8 ___L_ ~A -RY? nnnMY
+TDD-1823561 attempt: 7 SHONE n n n m Y
+TDD1191666 > *
+TDD-1191410 questioning: assay
+TDD5087076 Rescue #1 S_O_E ~R -AHLNY? nMnnn
+TDD-5087333 attempt: 0 ASSAY n m n n n
+TDD1183677 Rescue #2 __O_E ~R -AHLNSY? nnnnn
+TDD-1183634 attempt: 1 ASSAY n n n n n
+TDD1327489 Rescue #3 ____Y ~AS -EHLNOR? YYYYY
+TDD-1327553 attempt: 2 ASSAY Y Y Y Y Y
+TDD1351762 Rescue #4 R____ ~EN -AHLOSY? nnnnn
+TDD-1351700 attempt: 3 ASSAY n n n n n
+TDD3415545 Rescue #5 _____ -AEHLNORSY? nnnnn
+TDD-3415478 attempt: 4 ASSAY n n n n n
+TDD1127411 Rescue #6 __O__ ~NR -AEHLSY? nnnnn
+TDD-1127537 attempt: 5 ASSAY n n n n n
+TDD1791654 Rescue #7 ___N_ ~R -AEHLOSY? nnnnn
+TDD-1791651 attempt: 6 ASSAY n n n n n
+TDD1767604 Rescue #8 ___LE ~AN -HORSY? Ynnnn
+TDD-1767612 attempt: 7 ASSAY Y n n n n
+TDD1215694 > *
+TDD6800288 ? 2
+TDD-8015991 questioning: quick
+TDD4751659 Rescue #1 S_O_E ~R -AHLNY S:1? nnnnn
+TDD-4751656 attempt: 0 QUICK n n n n n
+TDD1199705 Rescue #2 __O_E ~R -AHLNSY? nnnnn
+TDD-1199687 attempt: 1 QUICK n n n n n
+TDD1671692 Rescue #4 R____ ~EN -AHLOSY? nnMnn
+TDD-1671699 attempt: 3 QUICK n n m n n
+TDD3623676 Rescue #5 _____ -AEHLNORSY? nnMMn
+TDD-3623678 attempt: 4 QUICK n n m m n
+TDD1759642 Rescue #6 __O__ ~NR -AEHLSY? nnMnn
+TDD-1759636 attempt: 5 QUICK n n m n n
+TDD1679716 Rescue #7 ___N_ ~R -AEHLOSY? nnYnn
+TDD-1679704 attempt: 6 QUICK n n Y n n
+TDD1551575 Rescue #8 A__LE ~N -HORSY? nnnnnM
+TDD-1551584 attempt: 7 QUICK n n n n n
+TDD1527733 > *
+TDD-1527364 questioning: groin
+TDD8462937 Rescue #1 S_O_E ~R -ACHIKLNQUY S:1? nMYnn
+TDD-8463282 attempt: 0 GROIN n m Y n n
+TDD1767847 Rescue #2 __O_E ~R -ACHIKLNQSUY? nYYnn
+TDD-1767795 attempt: 1 GROIN n Y Y n n
+TDD2671322 Rescue #4 R____ ~EIN -ACHKLOQSUY? nMnMY
+TDD-2671321 attempt: 3 GROIN n m n m Y
+TDD5823511 Rescue #5 _____ ~CI -AEHKLNOQRSUY? nnnYn
+TDD-5823586 attempt: 4 GROIN n n n Y n
+TDD1415720 Rescue #6 __O__ ~INR -ACEHKLQSUY? YYYYY
+TDD-1415685 attempt: 5 GROIN Y Y Y Y Y
+TDD1863538 Rescue #7 __IN_ ~R -ACEHKLOQSUY? YYnMM
+TDD-1863499 attempt: 6 GROIN Y Y n m m
+TDD1647459 Rescue #8 A__LE ~N -CHIKOQRSUY? nnnnM
+TDD-1647521 attempt: 7 GROIN n n n n m
+TDD1087647 > *
+TDD-1087383 questioning: grind
+TDD6479161 Rescue #1 S_O_E ~R -ACGHIKLNQUY S:1? nMnnn
+TDD-6479432 attempt: 0 GRIND n m n n n
+TDD1431594 Rescue #2 _RO_E -ACGHIKLNQSUY? nYnnn
+TDD-1431547 attempt: 1 GRIND n Y n n n
+TDD2255591 Rescue #4 R___N ~EI -ACGHKLOQSUY? nMMMn
+TDD-2255643 attempt: 3 GRIND n m m m n
+TDD3551672 Rescue #5 ___I_ ~C -AEGHKLNOQRSUY? nnMnn
+TDD-3551665 attempt: 4 GRIND n n m n n
+TDD3119722 Rescue #7 GRIN_ -ACEHKLOQSUY? YYYYY
+TDD-3119643 attempt: 6 GRIND Y Y Y Y Y
+TDD1847425 Rescue #8 A__LE ~N -CGHIKOQRSUY? nnnMn
+TDD-1847509 attempt: 7 GRIND n n n m n
+TDD1231653 > *
+TDD-1231518 questioning: anele
+TDD7495545 Rescue #1 S_O_E ~R -ACDGHIKLNQUY S:1? nnnnY
+TDD-7495687 attempt: 0 ANELE n n n n Y
+TDD3007663 Rescue #2 _RO_E -ACDGHIKLNQSUY? nnnnY
+TDD-3007660 attempt: 1 ANELE n n n n Y
+TDD1991562 Rescue #4 R___N ~EI -ACDGHKLOQSUY? nMMnn
+TDD-1991559 attempt: 3 ANELE n m m n n
+TDD3159802 Rescue #5 ___I_ ~C -ADEGHKLNOQRSUY? nnnnn
+TDD-3159818 attempt: 4 ANELE n n n n n
+TDD4599600 Rescue #8 A__LE ~N -CDGHIKOQRSUY? YYnYY
+TDD-4599590 attempt: 7 ANELE Y Y n Y Y
+TDD5591686 > *
+TDD-3775795 > *
+TDD5904324 > ␚
+TDD-7720318 <EOF>
+TDD1319430 > ␚
+TDD-1319432 <EOF>
+TDD575991 <INT>
+TDD-575990 <INT>
+TDD-62 <INT>
+TDD0 <INT>
+T6.1901756600127555 now: 2026-01-07T13:27:23EST
+TD66 questioning: anele
+TDD2075356 > *
+TDD-330965 ? 2
+TDD-1744222 questioning: ripen
+T6.4624051679857075 now: 2026-01-07T13:28:01EST
+TD61 questioning: ripen
+TDD6131539 Rescue #1 S_O_E ~R -ACDGHIKLNQUY S:1? MnnMn
+TDD-6131333 attempt: 0 RIPEN m n n m n
+TDD2111576 Rescue #2 _RO_E -ACDGHIKLNQSUY? MnnMn
+TDD-2111647 attempt: 1 RIPEN m n n m n
+TDD2543442 Rescue #4 R___N ~EI -ACDGHKLOQSUY E:1? YYYYY
+TDD-2543452 attempt: 3 RIPEN Y Y Y Y Y
+TDD4383726 Rescue #5 ___I_ ~C -ADEGHKLNOQRSUY? nYnnn
+TDD-4383708 attempt: 4 RIPEN n Y n n n
+TDD3991552 Rescue #8 AN_LE -CDGHIKOQRSUY? nnnMM
+TDD-3991511 attempt: 7 RIPEN n n n m m
+TDD1383761 > *
+TDD-64237 ? 1
+TDD-1319577 questioning: swore
+TDD5527641 Rescue #1 S_O_E ~R -ACDGHIKLNPQUY S:1? YnYYY
+TDD-5527646 attempt: 0 SWORE Y n Y Y Y
+TDD1647681 Rescue #2 _RO_E -ACDGHIKLNPQSUY? nnYMY
+TDD-1647677 attempt: 1 SWORE n n Y m Y
+TDD5327986 Rescue #5 _I_I_ ~C -ADEGHKLNOPQRSUY? nnnnn
+TDD-5327917 attempt: 4 SWORE n n n n n
+TDD6399221 Rescue #8 AN_LE -CDGHIKOPQRSUY? nnnnY
+TDD-6399238 attempt: 7 SWORE n n n n Y
+TDD1255491 > *
+TDD-1255237 questioning: store
+TDD6743406 Rescue #1 S_ORE -ACDGHIKLNPQUWY? YYYYY
+TDD-6743708 attempt: 0 STORE Y Y Y Y Y
+TDD2303292 Rescue #2 _RO_E -ACDGHIKLNPQSUWY? nnYMY
+TDD-2303299 attempt: 1 STORE n n Y m Y
+TDD7047709 Rescue #5 _I_I_ ~C -ADEGHKLNOPQRSUWY? nnnnn
+TDD-7047672 attempt: 4 STORE n n n n n
+TDD3351531 Rescue #8 AN_LE -CDGHIKOPQRSUWY? nnnnY
+TDD-3351573 attempt: 7 STORE n n n n Y
+TDD2679690 > /res
+TDD3168583 📋> Daily Rescue Octordle #1444
+TDD-5848343 📋> 🕐🟥
+TDD-93 📋> 6️⃣🕚
+TDD-5 📋> 🟥8️⃣
+TDD-2 📋> 9️⃣🟥
+TDD535519 📋> Score: 5
+TDD538 📋> ␚
+TDD-535910 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1444\n\ud83d\udd50\ud83d\udfe5\n6\ufe0f\u20e3\ud83d\udd5a\n\ud83d\udfe58\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udfe5\nScore: 5"}
+TDD1262 result: "Daily Rescue Octordle #1444\n\ud83d\udd50\ud83d\udfe5\n6\ufe0f\u20e3\ud83d\udd5a\n\ud83d\udfe58\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udfe5\nScore: 5"
+TDD13269066 > /store
+TDD-12486605 📆 2026-01-07 ? ␚
+TDD-783791 <EOF>
+TDD1351827 > /store
+TDD-975870 📆 2026-01-07 ? 
