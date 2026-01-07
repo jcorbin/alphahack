@@ -1,0 +1,71 @@
+T36.27325916400878 now: 2026-01-07T09:04:53EST
+TD76 site: m-w.com/games/quordle/#/
+TDD-62 wordlist: nwl2023.txt
+TDD-9 num_words: 4
+TDD3575891  ...
+TDD-2032948 > * 1
+TDD-350187 ? 1
+TDD-1192569 questioning: races
+TDD2951012 Classic #1 _____? MMnMn
+TDD-2951038 attempt: 0 RACES m m n m n
+TDD1855690 Classic #2 _____? nnMnM
+TDD-1855684 attempt: 1 RACES n n m n m
+TDD1647683 Classic #3 _____? nnnnM
+TDD-1647665 attempt: 2 RACES n n n n m
+TDD1527591 Classic #4 _____? MnnnM
+TDD-1527592 attempt: 3 RACES m n n n m
+TDD1735575 > * 3
+TDD-431664 ? 1
+TDD-1303928 questioning: sloth
+TDD2920993 Classic #1 _____ ~AER -CS? nnnnn
+TDD-2920899 attempt: 0 SLOTH n n n n n
+TDD1542169 Classic #2 _____ ~CS -AER? Ynnnn
+TDD-1542228 attempt: 1 SLOTH Y n n n n
+TDD2151992 Classic #3 _____ ~S -ACER? MnMMn
+TDD-2151891 attempt: 2 SLOTH m n m m n
+TDD1727143 Classic #4 _____ ~RS -ACE? YMnnn
+TDD-1727193 attempt: 3 SLOTH Y m n n n
+TDD2551477 > * 4
+TDD184382 ? 3
+TDD-2735901 questioning: swirl
+TDD4615594 Classic #1 _____ ~AER -CHLOST? nnnYn
+TDD-4615563 attempt: 0 SWIRL n n n Y n
+TDD1807561 Classic #2 S____ ~C -AEHLORT? YnYnn
+TDD-1807615 attempt: 1 SWIRL Y n Y n n
+TDD2135639 Classic #3 _____ ~OST -ACEHLR? MnYnn
+TDD-2135645 attempt: 2 SWIRL m n Y n n
+TDD1847715 Classic #4 S____ ~LR -ACEHOT? YYYYY
+TDD-1847725 attempt: 3 SWIRL Y Y Y Y Y
+TDD2191713 > * 2
+TDD-439524 ? 2
+TDD-1752202 questioning: spicy
+TDD4623438 Classic #1 ___R_ ~AE -CHILOSTW? nnnnn
+TDD-4623412 attempt: 0 SPICY n n n n n
+TDD1271738 Classic #2 S_I__ ~C -AEHLORTW? YYYYY
+TDD-1271758 attempt: 1 SPICY Y Y Y Y Y
+TDD1775941 Classic #3 __I__ ~OST -ACEHLRW? MnYnn
+TDD-1775921 attempt: 2 SPICY m n Y n n
+TDD1887313 > * 3
+TDD304492 ? ␚
+TDD-2191894 <EOF>
+TDD1760042 > * 1
+TDD96169 ? 2
+TDD-1856097 questioning: beard
+TDD4343169 Classic #1 ___R_ ~AE -CHILOPSTWY? YYYYY
+TDD-4343144 attempt: 0 BEARD Y Y Y Y Y
+TDD2112751 Classic #3 __I__ ~OST -ACEHLPRWY? nnnnn
+TDD-2112765 attempt: 2 BEARD n n n n n
+TDD1478617 > * 3
+TDD1113105 ? 1
+TDD-2591710 questioning: moist
+TDD3095603 Classic #3 __I__ ~OST -ABCDEHLPRWY? YYYYY
+TDD-3095640 attempt: 2 MOIST Y Y Y Y Y
+TDD3984292 📋> 🙂 Daily Quordle 1444
+TDD-3984371 📋> 5️⃣4️⃣
+TDD-101 📋> 6️⃣3️⃣
+TDD-6 📋> m-w.com/games/quordle/
+TDD279123 📋> 
+TDD-79250 📋> ␚
+TDD-199739 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1444\n5\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD784 result: "\ud83d\ude42 Daily Quordle 1444\n5\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD254396 📆 2026-01-07 ? 
