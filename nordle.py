@@ -528,6 +528,8 @@ class Nordle(StoredLog):
         '''
 
         def select(words: Sequence[str]):
+            # TODO cross-score with other unsolved words
+
             diag = DiagScores(words)
             scores = diag.scores
 
