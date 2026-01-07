@@ -1,0 +1,52 @@
+T72.66975085600279 now: 2026-01-07T08:47:01EST
+TD71 site: alphaguess.com
+TDD147978 loaded 196535 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (69 words excluded) asof ffd7f8f26e803736e07b21971ea810f86f54a7b2
+TDD3710158  ...
+TDD-1810030 [0 : 98224 : 196535] mach? a
+TDD-2048056 progress: 1 98224 mach
+TDD2191292 [98225 : 147377 : 196535] rhotic? b
+TDD-2191295 progress: -1 147377 rhotic
+TDD1751593 [98225 : 122787 : 147377] parr? b
+TDD-1751561 progress: -1 122787 parr
+TDD1511897 [98225 : 109943 : 122787] ne? a
+TDD-1511918 progress: 1 109943 ne
+TDD1287457 [109944 : 116361 : 122787] orchard? b
+TDD-1287469 progress: -1 116361 orchard
+TDD1432027 [109944 : 111493 : 116361] no? b
+TDD-1432027 progress: -1 111493 no
+TDD1367871 [109944 : 110715 : 111493] neuroglia? a
+TDD-1367834 progress: 1 110715 neuroglia
+TDD1232457 [110716 : 111104 : 111493] niddering? a
+TDD-1232477 progress: 1 111104 niddering
+TDD1238936 [111105 : 111289 : 111493] nim? b
+TDD-1238921 progress: -1 111289 nim
+TDD1599721 [111105 : 111185 : 111289] night? b
+TDD-1599745 progress: -1 111185 night
+TDD1231867 [111105 : 111139 : 111185] niff? a
+TDD-1231869 progress: 1 111139 niff
+TDD1271962 [111140 : 111159 : 111185] niggard? b
+TDD-1271960 progress: -1 111159 niggard
+TDD2263720 [111140 : 111149 : 111159] niffy? a
+TDD-2263680 progress: 1 111149 niffy
+TDD1359501 [111150 : 111154 : 111159] niftiness? a
+TDD-1359522 progress: 1 111154 niftiness
+TDD1351751 [111155 : 111157 : 111159] nigella? b
+TDD-1351727 progress: -1 111157 nigella
+TDD1824006 [111155 : 111156 : 111157] nifty? it
+TDD-1824018 progress: 0 111156 nifty
+TDD-128 [111155 : 111156 : 111157] <Done>.
+TDD2600292 📋> 🧩 Puzzle #897
+TDD-2600233 📋> 
+TDD-75 📋> 🤔 16 guesses
+TDD-1 📋> 
+TDD0 📋> ⏱️ 23s
+TDD-1 📋> 
+TDD287109 📋> 🔗 alphaguess.com
+TDD-119147 📋> ␚
+TDD-167870 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #897\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-19 result: "\ud83e\udde9 Puzzle #897\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"
+TDD-69 result puzzle: 897
+TDD-3 result guesses: 16
+TDD-1 result time: 23s
+TDD0 result link: alphaguess.com
+TDD151887 📆 2026-01-07 ? 
