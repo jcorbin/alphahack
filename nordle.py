@@ -513,8 +513,6 @@ class Nordle(StoredLog):
             ui.print('! missing <number>')
             return
 
-        match_words = tuple(sorted(words))
-
         def select(words: Sequence[str], jitter: float = 0.5):
             diag = DiagScores(words)
             scores = diag.scores
@@ -535,7 +533,7 @@ class Nordle(StoredLog):
             return scores, annotate
 
         pos = Possible(
-            match_words,
+            tuple(sorted(words)),
             lambda words: select(words, jitter=jitter),
             choices=chooser.choices,
             verbose=verbose)
