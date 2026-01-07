@@ -75,8 +75,6 @@
     }
   }
 
-  const keyTarget = document;
-
   /**
    * @param {DOMTokenList} classList
    * @param {string[]} classLabels
@@ -129,6 +127,36 @@
     };
   }
 
+  const keyTarget = document;
+
+  const knownCodes = new Map([
+    ['Backspace', 0x08],
+    ['Enter', 0x0D],
+    ['Escape', 0x1B],
+    // TODO fill in more standard key codes
+  ]);
+
+  /** @param {string} key */
+  const sendKey = key => {
+    let code = '';
+    let keyCode = 0;
+    const known = knownCodes.get(key);
+    if (known !== undefined) {
+      code = key;
+      keyCode = known;
+    } else if (key.match(/^[a-zA-Z]$/)) {
+      const ki = key.toUpperCase();
+      code = `Key${ki}`;
+      keyCode = ki.charCodeAt(0);
+    }
+    keyTarget.dispatchEvent(new KeyboardEvent('keydown', {
+      key,
+      code,
+      keyCode,
+      which: keyCode,
+    }));
+  };
+
   // ── Keymap registry (evolved from manual listener) ───────────────
   /** @typedef {[keys: string[], label: string, handle: (...a: any[]) => void]} KeymapEntry */
   /** @type {KeymapEntry[]} */
@@ -137,11 +165,34 @@
     [['*', 'w'], '📋 Copy All', copyAll],
     [['$'], '', copyLatest],
     [['^'], '🤖 Turn Up', turnup],
+    [[':'], '📋 Send It', sendIt],
   ];
 
   // ── Action handlers ──────────────────────────────────────────────
 
   async function turnup() { offerText([DROPIN_INIT]); }
+
+  /** @param {number} delay */
+  const after = delay => new Promise(resolve => setTimeout(resolve, delay));
+
+  async function sendIt() {
+    const raw = await navigator.clipboard.readText();
+
+    const m = raw.match(/^([a-zA-Z]{5})$/);
+    if (!m) throw new Error('invalid word input');
+
+    const word = m[1].toLocaleUpperCase();
+
+    for (const key of word) {
+      sendKey(key);
+      await after(50);
+    }
+
+    sendKey('Enter');
+    await after(50);
+
+    await copyWordRes(word);
+  }
 
   /** @param {Iterable<string>} lines */
   async function offerText(lines) {
