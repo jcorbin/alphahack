@@ -585,17 +585,6 @@ class Meta(PromptUI.Arguable[PromptUI.Shell]):
 
         return f'{cur}> '
 
-    def choose_solver(self, ui: PromptUI):
-        if not ui.tokens:
-            ix = tuple(solvers.match(next(ui.tokens)))
-            if len(ix) == 1:
-                return ix[0]
-            elif len(ix) == 0:
-                ui.print('! no such solver')
-            else:
-                may = tuple(solvers.name[i] for i in ix)
-                ui.print(f'! Ambiguous solver; may be: {" ".join(may)}')
-
     def do_tracing(self, ui: PromptUI):
         '''
         show or set ui state tracing
