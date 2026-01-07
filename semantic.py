@@ -1947,14 +1947,19 @@ class Search(StoredLog):
                     continue
 
                 if token in self.abbr:
-                    trailer.append(self.abbr[token])
+                    trail = self.abbr[token]
+                    if trail not in trailer:
+                        trailer.append(trail)
                     continue
 
                 if token in trailer_seps:
                     trailer_given = True
                     rest = tokens.take_rest()
-                    if rest.strip():
-                        trailer.append(f'{token} {rest.strip()}')
+                    trail = rest.strip()
+                    if trail:
+                        trail = f'{token} {trail}'
+                        if trail not in trailer:
+                            trailer.append(trail)
                     break
 
                 lul_refs = rec(
