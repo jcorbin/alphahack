@@ -1,0 +1,117 @@
+T326.2385921649984 now: 2026-01-07T09:09:43EST
+TD78 site: squareword.org
+TDD-58 wordlist: nwl2023.txt
+TDD3366068  ...
+TDD-1293939 🧩  ? #1437
+TDD-2071885 puzzle_id: #1437
+TDD1679578 > *
+TDD-231995 try? 1
+TDD-1447543 questioning: ["arose", "#5"]
+T7.022153961996082 now: 2026-01-07T09:10:11EST
+TD98 questioning: ["arose", "#5"]
+TDD4605234 #1 <IndexError>  📋 "arose" ? _RO__ 
+TDD-4604779 attempt 0 AROSE n Y Y n n
+TDD2558695 #2 <IndexError>  📋 "arose" ? _____ ~ ARO
+TDD-2558935 attempt 1 AROSE m m m n n
+TDD2535399 #3 <IndexError>  📋 "arose" ? __O__ ~ R
+TDD-2535411 attempt 2 AROSE n m Y n n
+TDD2135375 #4 <IndexError>  📋 "arose" ? _____ ~ SE
+TDD-2135385 attempt 3 AROSE n n n m m
+TDD2199435 #5 <IndexError>  📋 "arose" ? _____ ~ SE
+TDD-2199482 attempt 4 AROSE n n n m m
+TDD823489 ? 
+TDD-823602 question done
+TDD1287837 > *
+TDD368028 try? 1
+TDD-1655617 questioning: ["volar", "#2"]
+TDD7343016 #1 _RO__ -AES  📋 "volar" ? .
+TDD-7343197 attempt 0 VOLAR n n n n n
+TDD2967724 #2 _____ ~AOR -ES  📋 "volar" ? ____R ~ ARO
+TDD-2967622 attempt 1 VOLAR n m n m Y
+TDD4047529 #3 __O__ ~R -AES  📋 "volar" ? __O__ ~ RV
+TDD-4047614 attempt 2 VOLAR m n n n m
+TDD1215793 #4 _____ ~ES -AOR  📋 "volar" ? .
+TDD-1215686 attempt 3 VOLAR n n n n n
+TDD2519068 #5 _____ ~ES -AOR  📋 "volar" ? _____ ~ SEL
+TDD-2519174 attempt 4 VOLAR n n m n n
+TDD183923 ? 
+TDD-183991 question done
+TDD719436 > *
+TDD-131352 questioning: ["ivory", "#3"]
+TDD4791926 #1 _RO__ -AELORSV  📋 "ivory" ? .
+TDD-5379824 attempt 0 IVORY n n Y n n
+TDD3023321 #2 ____R ~AO -ELSV  📋 "ivory" ? ____R ~ ARO
+TDD-3023346 attempt 1 IVORY n n m m n
+TDD799426 #3 __O__ ~RV -AELOS  📋 "ivory" ? /it
+TDD-799507 attempt 2 IVORY Y Y Y Y Y
+TDD2215271 #4 _____ ~ES -ALORV  📋 "ivory" ? .
+TDD-2215189 attempt 3 IVORY n n n n n
+TDD728403 #5 _____ ~ELS -AORV  📋 "ivory" ? l
+TDD-553276 #5 _____ ~ELS -AORV  ? 
+TDD840384 #5 _____ ~ELS -AORV  ? .
+TDD-1015593 attempt 4 IVORY n n n n n
+TDD759304 ? 
+TDD-759368 question done
+TDD856293 > *
+TDD1495419 try? 2
+TDD-2351557 questioning: ["razor", "#2"]
+TDD3191056 #1 _RO__ -AEILRSVY  📋 "razor" ? .
+TDD-3191081 attempt 0 RAZOR n n n n n
+TDD927420 #2 ____R ~AO -EILSVY  📋 "razor" ? /it
+TDD-927496 attempt 1 RAZOR Y Y Y Y Y
+TDD1055757 #4 _____ ~ES -AILORVY  📋 "razor" ? .
+TDD-1055648 attempt 3 RAZOR n n n n n
+TDD823452 #5 _____ ~ELS -AIORVY  📋 "razor" ? .
+TDD-823483 attempt 4 RAZOR n n n n n
+TDD311917 ? 
+TDD-312037 question done
+TDD606972 > *
+TDD3488822 try? 2
+TDD-4095756 questioning: ["sleds", "#5"]
+TDD3735771 #1 _RO__ -AEILORSVYZ  📋 "sleds" ? .
+TDD-3735691 attempt 0 SLEDS n n n n n
+TDD3255422 #4 _____ ~ES -AILORVYZ  📋 "sleds" ? ____S ~ E
+TDD-3255443 attempt 3 SLEDS n n m n Y
+TDD2679205 #5 _____ ~ELS -AIORVYZ  📋 "sleds" ? SLE__ ~ E
+TDD-2679235 attempt 4 SLEDS Y Y Y n n
+TDD471583 ? 
+TDD-471667 question done
+TDD536131 > *
+TDD1142852 questioning: ["sleet", "#5"]
+TDD2257679 #1 _RO__ -ADEILORSVYZ  📋 "sleet" ? _RO_T
+TDD-3936536 attempt 0 SLEET n n n n Y
+TDD2695483 #4 ____S ~E -ADILORVYZ  📋 "sleet" ? ____S ~ ET
+TDD-2695485 attempt 3 SLEET n n m m m
+TDD1119405 #5 SLE__ -ADIORVYZ  📋 "sleet" ? /it
+TDD-1119384 attempt 4 SLEET Y Y Y Y Y
+TDD271040 ? 
+TDD-271231 question done
+TDD816080 > *
+TDD403359 questioning: ["croft", "#1"]
+TDD1736699 #1 _RO_T -ADEILORSVYZ  📋 "croft" ? /it
+TDD-2956034 attempt 0 CROFT Y Y Y Y Y
+TDD2344141 #4 ____S ~ET -ADILORSVYZ  📋 "croft" ? .
+TDD-2344109 attempt 3 CROFT n n n n m
+TDD159023 ? 
+TDD-159162 question done
+TDD583922 > *
+TDD2904018 try? 1
+TDD-3487750 questioning: ["bents", "#4"]
+TDD3743486 #4 ____S ~ET -ACDFILORSVYZ  📋 "bents" ? /it
+TDD-3743531 attempt 3 BENTS Y Y Y Y Y
+TDD2455268 ? 
+TDD-2455400 question done
+TDD3168339 📋> squareword.org 1437: 8 guesses
+TDD-3168341 📋> 
+TDD-99 📋> 🟨🟩🟩🟨🟨
+TDD-10 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟨🟨🟨🟩
+TDD1 📋> 🟩🟩🟩🟨🟨
+TDD-1 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD343504 📋> #squareword #squareword1437
+TDD-167559 📋> ␚
+TDD-175812 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1437: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1437"}
+TDD614 result: "squareword.org 1437: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1437"
+TDD174338 📆 2026-01-07 ? 
