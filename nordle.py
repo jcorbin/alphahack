@@ -699,6 +699,8 @@ class Nordle(StoredLog):
         self.last_guess_i = -1
 
         def select(words: Sequence[str]):
+            # TODO cross-score with other unsolved words
+
             diag = DiagScores(words)
             scores = diag.scores
 
