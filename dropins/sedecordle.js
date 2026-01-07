@@ -180,39 +180,155 @@
     };
   }
 
+  // ── Dialog UI ──────────────────────────────────────────────────────
+
+  /** @type {HTMLDialogElement | undefined} */
+  let _dialogEl;
+
+  /** @type {number | undefined} */
+  let _dialogTimeout;
+
+  function closeDialog() {
+    if (_dialogTimeout) {
+      clearTimeout(_dialogTimeout);
+      _dialogTimeout = undefined;
+      if (_dialogEl && _dialogEl.open) _dialogEl.close();
+    }
+  }
+
   /**
-   * TODO evolve this to be an options object, so that the caller may opt-in to things like modal (feature of <dialog>)
+   * @param {number} [timeout]
+   * @returns {HTMLDialogElement}
+   */
+  function getDialog(timeout = 0) {
+    if (!_dialogEl) {
+      _dialogEl = document.createElement('dialog');
+      _dialogEl.id = '_sedecordle_dialog';
+      Object.assign(_dialogEl.style, {
+        // All metrics in 'em' relative to the base font size below (1em ≈ 13px)
+        fontFamily: 'monospace, sans-serif',
+        fontSize: '13px',
+        maxWidth: '80vw',
+        maxHeight: '80vh',
+        overflow: 'auto',
+        padding: '1.23em 1.54em', // was 16px 20px
+        borderRadius: '0.46em', // was 6px
+        border: '0.08em solid #444', // was 1px
+        background: '#1e1e1e',
+        color: '#e0e0e0',
+        margin: 'auto',
+      });
+      document.body.appendChild(_dialogEl);
+    }
+    if (_dialogTimeout) {
+      clearTimeout(_dialogTimeout);
+      _dialogTimeout = undefined;
+    }
+    if (timeout) {
+      _dialogTimeout = setTimeout(closeDialog, timeout);
+    }
+    return _dialogEl;
+  }
+
+  /**
+   * @typedef {{
+   *   timeout?: number;
+   * }} ShowOpts
+   */
+
+  /**
+   * Open the shared <dialog> showing the given text preformatted
+   * (line breaks and runs of whitespace are preserved).
+   *
+   * @param {string|string[]} text
+   * @param {ShowOpts} [opts]
+   * @returns {HTMLDivElement}
+   */
+  function showText(text, opts = {}) {
+    const d = getDialog(opts.timeout ?? 0);
+    if (d.open) d.close();
+    d.textContent = '';
+    const flat = Array.isArray(text) ? text.join('\n') : text;
+    const el = document.createElement('div');
+    el.style.whiteSpace = 'pre-wrap';
+    el.style.overflowX = 'auto';
+    el.textContent = flat;
+    d.appendChild(el);
+    d.showModal();
+    return el;
+  }
+
+  /**
+   * Show a status message in a shared <dialog>.
+   * Pass a falsy label to close the dialog.
    *
    * @param {string|string[]} label
+   * @param {ShowOpts} [opts]
    */
-  function showStatus(label) {
-    const mine = '_sedecordle_status';
-    document.body.querySelectorAll(`#${mine}`).forEach(el => el.remove());
-    if (!label) return;
-    if (Array.isArray(label)) {
-      label = label.join('\n');
+  function showStatus(label, opts = {}) {
+    const text = Array.isArray(label) ? label.join('\n') : label;
+    if (text) {
+      showText(text, opts);
+    } else {
+      closeDialog();
     }
-    // TODO rework over a modern <dialog> element
-    const el = document.createElement('div');
-    el.id = mine;
-    el.textContent = label;
-    Object.assign(el.style, {
-      position: 'fixed',
-      top: '8px',
-      left: '50%',
-      transform: 'translateX(-50%)',
-      background: '#222',
-      color: '#fff',
-      padding: '6px 14px',
-      borderRadius: '4px',
-      zIndex: '9999',
-      fontFamily: 'sans-serif',
-      fontSize: '13px',
-      pointerEvents: 'none',
-      whiteSpace: 'pre',
+  }
+
+  /** @param {Record<string, any>[]} rows */
+  function showTable(rows) {
+    const d = getDialog();
+    d.innerHTML = '';
+    if (d.open) d.close();
+    d.showModal();
+
+    if (!rows || rows.length === 0) {
+      d.textContent = '(no data)';
+      return;
+    }
+
+    const keys = Object.keys(rows[0]);
+
+    const table = document.createElement('table');
+    Object.assign(table.style, {
+      borderCollapse: 'collapse',
+      width: '100%',
     });
-    document.body.appendChild(el);
-    setTimeout(() => el.remove(), label.includes('\n') ? 3000 : 1500);
+
+    const thead = document.createElement('thead');
+    const keyRow = document.createElement('tr');
+    for (const k of keys) {
+      const th = document.createElement('th');
+      th.textContent = k;
+      Object.assign(th.style, {
+        textAlign: 'left',
+        borderBottom: '1px solid #555',
+        padding: '4px 10px',
+        whiteSpace: 'nowrap',
+      });
+      keyRow.appendChild(th);
+    }
+    thead.appendChild(keyRow);
+    table.appendChild(thead);
+
+    const tbody = document.createElement('tbody');
+    for (const row of rows) {
+      const tr = document.createElement('tr');
+      for (const k of keys) {
+        const td = document.createElement('td');
+        const v = row[k];
+        td.textContent = v === null || v === undefined ? '' : String(v);
+        Object.assign(td.style, {
+          padding: '3px 10px',
+          borderBottom: '1px solid #333',
+          whiteSpace: 'nowrap',
+        });
+        tr.appendChild(td);
+      }
+      tbody.appendChild(tr);
+    }
+    table.appendChild(tbody);
+
+    d.appendChild(table);
   }
 
   const keyTarget = document;
@@ -304,20 +420,32 @@
   }
 
   async function inspectCells() {
-    console.table(Array.from(readBoxen()));
+    showTable(Array.from(readBoxen()));
   }
 
   async function inspectRows() {
     const { rows } = readData();
-    console.table(rows);
+    showTable(rows);
   }
 
   /** @param {Iterable<string>} lines */
-  async function offerText(lines) {
-    const text = new Blob(Array.from(itMap(lines, line => `${line}\n`)));
-    const item = new ClipboardItem({ ['text/plain']: text });
-    await navigator.clipboard.write([item]);
-    alert(`📋 ${await text.text()}`);
+  async function offerText(lines, settleEvery = 0, settleLimit = 0, settleMin = 0) {
+    let settleLeft = 0;
+    const el = showText('...');
+    for (; ;) {
+      const text = new Blob(Array.from(itMap(lines, line => `${line}\n`)));
+      const textContent = await text.text();
+      if (el.textContent !== textContent) {
+        el.textContent = textContent;
+        await navigator.clipboard.write([new ClipboardItem({ ['text/plain']: text })]);
+        settleLeft = settleMin;
+      }
+      if (settleLeft-- > 0 && settleEvery > 0 && settleLimit-- > 0) {
+        await after(settleEvery);
+        continue;
+      }
+      return;
+    }
   }
 
   async function copyAll() {
@@ -345,14 +473,16 @@
    * @param {Map<string, WordEnt[]>} [byWord]
    */
   async function copyWordRes(word, byWord = undefined) {
-    return offerText(function*() {
-      if (!byWord) ({ byWord } = readData());
-      const dat = byWord.get(word);
-      if (!dat) throw new Error(`no result for word ${JSON.stringify(word)}`);
-      for (const { board_n, resp } of dat) {
-        yield `#${board_n} ${resp}`;
+    return offerText({
+      *[Symbol.iterator]() {
+        if (!byWord) ({ byWord } = readData());
+        const dat = byWord.get(word);
+        if (!dat) throw new Error(`no result for word ${JSON.stringify(word)}`);
+        for (const { board_n, resp } of dat) {
+          yield `#${board_n} ${resp}`;
+        }
       }
-    }());
+    }, 200, 20, 3);
   }
 
   // ── Event listener (keymap-driven) ───────────────────────────────
@@ -378,10 +508,13 @@
   /** @param {string} key @returns {boolean} */
   const procKey = key => {
     switch (key) {
-      case 'Escape':
-      case 'Backspace': {
+      case 'Escape': {
         pending = [];
         showStatus('');
+        return true;
+      }
+      case 'Backspace': {
+        pending = [];
         return true;
       }
       case '?': {
@@ -414,13 +547,13 @@
 
     const MAX_LEN = Math.max(...KEYMAP.map(([k]) => k.length), 0);
     if (any && have < MAX_LEN) {
-      showStatus(`${pending} ...`);
+      showStatus(`${pending} ...`, { timeout: 1500 });
       return true;
     }
 
     pending = [];
     if (have > 1) {
-      showStatus(`${pending} => abort`);
+      showStatus(`${pending} => abort`, { timeout: 1500 });
       return true;
     }
 
