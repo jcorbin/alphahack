@@ -60,6 +60,10 @@ class Nordle(StoredLog):
 
         self._result: Result|None = None
 
+        self.last_word_i: list[int] = []
+        self.last_word_pat: list[re.Pattern[str]] = []
+        self.last_word_words: list[set[str]] = []
+
         self.play_prompt = self.std_prompt
         self.play_prompt.mess = self.play_prompt_mess
         self.play_prompt.update({
@@ -311,18 +315,24 @@ class Nordle(StoredLog):
 
     def play_prompt_mess(self, ui: PromptUI):
         if self.play_prompt.re == 0:
+            self.last_word_i.clear()
+            self.last_word_pat.clear()
+            self.last_word_words.clear()
             ws = tuple(str(w) for w in self.words)
             wl = max(len(w) for w in ws)
-            for n, (word, s) in enumerate(zip(self.words, ws), 1):
+            for word_i, (word, s) in enumerate(zip(self.words, ws)):
                 try:
-                    ui.write(f'{n}. {s:<{wl}}')
+                    ui.write(f'{word_i + 1}. {s:<{wl}}')
                     if word.done:
                         ui.write(f' ✅')
                     else:
                         ui.write(f' ❓')
                         pat = word.pattern()
                         words = set(self.find(pat))
-                        ui.write(f' #{len(words)}')
+                        self.last_word_i.append(word_i)
+                        self.last_word_pat.append(pat)
+                        self.last_word_words.append(words)
+                        ui.write(f' N:{len(words)}')
                 finally:
                     ui.fin()
 
