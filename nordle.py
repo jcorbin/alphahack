@@ -4,7 +4,7 @@ import argparse
 import re
 from collections.abc import Generator, Sequence
 from dataclasses import dataclass
-from typing import cast, final, override
+from typing import Callable, cast, final, override
 
 from sortem import Chooser, DiagScores, Possible, RandScores
 from store import StoredLog, matcher
@@ -463,9 +463,39 @@ class Nordle(StoredLog):
 
         return self.do_question
 
+    def auto_guess_last(self,
+                        fin_under: int = 4,
+                        debug: Callable[[str], None]|None = None,
+                        ):
+        if self.mode.lower() == 'sequence':
+            yield 'next', 0
+            return
+
+        lix = sorted(
+            range(len(self.last_word_words)),
+            key=lambda i: len(self.last_word_words[i]))
+        if debug:
+            debug(f'lix: {lix!r}')
+        for j, i in enumerate(lix):
+            n = len(self.last_word_words[i])
+            if n < 1:
+                if debug:
+                    debug(f'... {j},{i} n:{n} SKIP')
+                continue
+            elif n < fin_under:
+                if debug:
+                    debug(f'... {j},{i} n:{n} FIN')
+                yield 'finish', i
+            else:
+                if debug:
+                    debug(f'... {j},{i} n:{n} then narrow tail')
+                for k in range(len(lix)-1, j-1, -1):
+                    yield 'narrow', lix[k]
+                break
+
     def do_guess(self, ui: PromptUI, show_n: int=10):
         '''
-        usage: `guess <N> [-v] [-jitter <prop>] [...chooser options...]`
+        usage: `guess [<N>] [-v] [-jitter <prop>] [...chooser options...]`
         '''
 
         chooser = Chooser(show_n=show_n)
@@ -518,10 +548,24 @@ class Nordle(StoredLog):
                 return
             pat = word.pattern()
             words = set(self.find(pat))
+            reason = 'selected'
 
         else:
-            ui.print('! missing <number>')
-            return
+            ri = next(self.auto_guess_last(), None)
+            if ri is None:
+                ui.print('! unable to auto select candidate word, specify a <number>')
+                for _ in self.auto_guess_last(debug=lambda mess: ui.print(f'  DEBUG {mess}')):
+                    pass
+                return
+            reason, i = ri
+            reason = f'auto {reason}'
+            word_i = self.last_word_i[i]
+            pat = self.last_word_pat[i]
+            words = self.last_word_words[i]
+            word = self.words[word_i]
+            word_n = word_i + 1
+
+        ui.print(f'{reason} #{word_n} N:{len(words)}')
 
         def select(words: Sequence[str], jitter: float = 0.5):
             diag = DiagScores(words)
