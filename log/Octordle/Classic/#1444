@@ -1,0 +1,153 @@
+T118.60268370399717 now: 2026-01-07T09:06:15EST
+TD73 site: britannica.com/games/octordle/daily
+TDD-59 wordlist: nwl2023.txt
+TDD-9 num_words: 8
+TDD2470743  ...
+TDD-1102786 > * 1
+TDD5520723 ? 1
+TDD-6888499 questioning: saner
+TDD1223072 Classic #1 _____? nnnnn
+TDD-1223070 attempt: 0 SANER n n n n n
+TDD1607699 Classic #2 _____? nnYnn
+TDD-1607708 attempt: 1 SANER n n Y n n
+TDD1911786 Classic #3 _____? nnYMn
+TDD-1911709 attempt: 2 SANER n n Y m n
+TDD1399638 Classic #4 _____? nMnnn
+TDD-1399630 attempt: 3 SANER n m n n n
+TDD4247990 Classic #5 _____? nnnnn
+TDD-4248009 attempt: 4 SANER n n n n n
+TDD1319767 Classic #6 _____? nMnnM
+TDD-1319763 attempt: 5 SANER n m n n m
+TDD1511568 Classic #7 _____? nnnMY
+TDD-1511590 attempt: 6 SANER n n n m Y
+TDD1303056 Classic #8 _____? nMnMn
+TDD-1303025 attempt: 7 SANER n m n m n
+TDD2815243 > * 5
+TDD2513101 ? 10
+TDD-5328437 questioning: cloth
+TDD4847083 Classic #1 _____ -AENRS? nMnMn
+TDD-4847082 attempt: 0 CLOTH n m n m n
+TDD1464316 Classic #2 __N__ -AERS? nnMnn
+TDD-1464291 attempt: 1 CLOTH n n m n n
+TDD1327377 Classic #3 __N__ ~E -ARS? nnnnn
+TDD-1327327 attempt: 2 CLOTH n n n n n
+TDD1719440 Classic #4 _____ ~A -ENRS? nYnnM
+TDD-1719498 attempt: 3 CLOTH n Y n n m
+TDD3335985 Classic #5 _____ -AENRS? YYnnn
+TDD-3335898 attempt: 4 CLOTH Y Y n n n
+TDD1615300 Classic #6 _____ ~AR -ENS? nYYnn
+TDD-1615321 attempt: 5 CLOTH n Y Y n n
+TDD1439622 Classic #7 ____R ~E -ANS? nnnMM
+TDD-1439621 attempt: 6 CLOTH n n n m m
+TDD1327831 Classic #8 _____ ~AE -NRS? nYnnn
+TDD-1327836 attempt: 7 CLOTH n Y n n n
+TDD2014976 > * 7
+TDD-1910592 questioning: their
+TDD5519148 Classic #1 _____ ~LT -ACEHNORS? MnnYn
+TDD-5623517 attempt: 0 THEIR m n n Y n
+TDD1151350 Classic #2 __N__ ~O -ACEHLRST? nnnMn
+TDD-1151365 attempt: 1 THEIR n n n m n
+TDD1287285 Classic #3 __N__ ~E -ACHLORST? nnMnn
+TDD-1287346 attempt: 2 THEIR n n m n n
+TDD1495589 Classic #4 _L___ ~AH -CENORST? nMnnn
+TDD-1495570 attempt: 3 THEIR n m n n n
+TDD3783872 Classic #5 CL___ -AEHNORST? nnnMn
+TDD-3783889 attempt: 4 THEIR n n n m n
+TDD1383340 Classic #6 _LO__ ~AR -CEHNST? nnnnM
+TDD-1383313 attempt: 5 THEIR n n n n m
+TDD1567862 Classic #7 ____R ~EHT -ACLNOS? YYYYY
+TDD-1567919 attempt: 6 THEIR Y Y Y Y Y
+TDD1464363 Classic #8 _L___ ~AE -CHNORST? nnMnn
+TDD-1464336 attempt: 7 THEIR n n m n n
+TDD2695729 > * 6
+TDD-2593827 questioning: flora
+TDD4315275 Classic #1 ___I_ ~LT -ACEHNORS? nMnnn
+TDD-4417170 attempt: 0 FLORA n m n n n
+TDD1471590 Classic #2 __N__ ~IO -ACEHLRST? nnMnn
+TDD-1471513 attempt: 1 FLORA n n m n n
+TDD1855325 Classic #3 __N__ ~E -ACHILORST? nnnnn
+TDD-1855435 attempt: 2 FLORA n n n n n
+TDD1655970 Classic #4 _L___ ~AH -CEINORST? nYnnY
+TDD-1655870 attempt: 3 FLORA n Y n n Y
+TDD5407606 Classic #5 CL___ ~I -AEHNORST? MYnnn
+TDD-5407608 attempt: 4 FLORA m Y n n n
+TDD1407342 Classic #6 _LO__ ~AR -CEHINST? YYYYY
+TDD-1407351 attempt: 5 FLORA Y Y Y Y Y
+TDD2383715 Classic #8 _L___ ~AE -CHINORST? nYnnM
+TDD-2383709 attempt: 7 FLORA n Y n n m
+TDD2119689 > * 5
+TDD-2028022 questioning: cliff
+TDD4368177 Classic #1 ___I_ ~LT -ACEFHNORS? nMMnn
+TDD-4459930 attempt: 0 CLIFF n m m n n
+TDD1111437 Classic #2 __N__ ~IO -ACEFHLRST? nnMnn
+TDD-1111423 attempt: 1 CLIFF n n m n n
+TDD1199911 Classic #3 __N__ ~E -ACFHILORST? nnnnn
+TDD-1199871 attempt: 2 CLIFF n n n n n
+TDD3855842 Classic #4 _L__A ~H -CEFINORST? nYnnn
+TDD-3855869 attempt: 3 CLIFF n Y n n n
+TDD4783175 Classic #5 CL___ ~FI -AEHNORST? YYYYY
+TDD-4783139 attempt: 4 CLIFF Y Y Y Y Y
+TDD3031671 Classic #8 _L___ ~AE -CFHINORST? nYnnn
+TDD-3031721 attempt: 7 CLIFF n Y n n n
+TDD1759360 > * 4
+TDD-1687209 questioning: alpha
+TDD4567919 Classic #1 ___I_ ~LT -ACEFHNORS? nMnnn
+TDD-4639998 attempt: 0 ALPHA n m n n n
+TDD975329 Classic #2 __N__ ~IO -ACEFHLRST? nnnnn
+TDD-975339 attempt: 1 ALPHA n n n n n
+TDD1343895 Classic #3 __N__ ~E -ACFHILORST? nnnnn
+TDD-1343862 attempt: 2 ALPHA n n n n n
+TDD2462798 Classic #4 _L__A ~H -CEFINORST? YYYYY
+TDD-2462886 attempt: 3 ALPHA Y Y Y Y Y
+TDD3463854 Classic #8 _L___ ~AE -CFHINORST? MYnnn
+TDD-3463857 attempt: 7 ALPHA m Y n n n
+TDD1815409 > * 1
+TDD-1742952 questioning: limit
+TDD6559094 Classic #1 ___I_ ~LT -ACEFHNOPRS? YYYYY
+TDD-6631537 attempt: 0 LIMIT Y Y Y Y Y
+TDD1688000 Classic #2 __N__ ~IO -ACEFHLPRST? nYnnn
+TDD-1687973 attempt: 1 LIMIT n Y n n n
+TDD1479222 Classic #3 __N__ ~E -ACFHILOPRST? nnnnn
+TDD-1479245 attempt: 2 LIMIT n n n n n
+TDD4463935 Classic #8 _L___ ~AE -CFHINOPRST A:1? Mnnnn
+TDD-4463906 attempt: 7 LIMIT m n n n n
+TDD2311789 > * 8
+TDD2167614 ? ␚
+TDD-4479534 <EOF>
+TDD1647825 > * 3
+TDD-167756 ? 1
+TDD-1480017 questioning: bendy
+TDD5439343 Classic #2 _IN__ ~O -ACEFHLMPRST? nnYMn
+TDD-5439274 attempt: 1 BENDY n n Y m n
+TDD3360074 Classic #3 __N__ ~E -ACFHILMOPRST? nYYnn
+TDD-3360106 attempt: 2 BENDY n Y Y n n
+TDD5927643 Classic #8 _L___ ~AE -CFHIMNOPRST A:1? nMnYn
+TDD-5927640 attempt: 7 BENDY n m n Y n
+TDD1239572 > * 8
+TDD-1142301 questioning: glade
+TDD5765334 Classic #2 _IN__ ~DO -ABCEFHLMPRSTY? MnnMn
+TDD-5862493 attempt: 1 GLADE m n n m n
+TDD4687271 Classic #3 _EN__ -ABCDFHILMOPRSTY? nnnnY
+TDD-4687375 attempt: 2 GLADE n n n n Y
+TDD2239682 Classic #8 _L_D_ ~AE -BCFHIMNOPRSTY A:1? YYYYY
+TDD-2239624 attempt: 7 GLADE Y Y Y Y Y
+TDD2031131 > * 3
+TDD-1941410 questioning: venue
+TDD4924199 Classic #2 _IN__ ~DGO -ABCEFHLMPRSTY? nnYnn
+TDD-5013866 attempt: 1 VENUE n n Y n n
+TDD1271412 Classic #3 _EN_E -ABCDFGHILMOPRSTY? YYYYY
+TDD-1271437 attempt: 2 VENUE Y Y Y Y Y
+TDD703491 > * 2
+TDD-601201 questioning: dingo
+TDD4058872 Classic #2 _IN__ ~DGO -ABCEFHLMPRSTUVY? YYYYY
+TDD-4161210 attempt: 1 DINGO Y Y Y Y Y
+TDD3456324 📋> Daily Octordle #1444
+TDD-3456435 📋> 7️⃣🕚
+TDD-107 📋> 🔟6️⃣
+TDD-7 📋> 5️⃣4️⃣
+TDD-1 📋> 3️⃣9️⃣
+TDD399223 📋> Score: 55
+TDD-214688 📋> ␚
+TDD-184417 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1444\n7\ufe0f\u20e3\ud83d\udd5a\n\ud83d\udd1f6\ufe0f\u20e3\n5\ufe0f\u20e34\ufe0f\u20e3\n3\ufe0f\u20e39\ufe0f\u20e3\nScore: 55"}
+TDD47 result: "Daily Octordle #1444\n7\ufe0f\u20e3\ud83d\udd5a\n\ud83d\udd1f6\ufe0f\u20e3\n5\ufe0f\u20e34\ufe0f\u20e3\n3\ufe0f\u20e39\ufe0f\u20e3\nScore: 55"
+TDD302755 📆 2026-01-07 ? 
