@@ -584,8 +584,6 @@ class Meta(Arguable):
             self.do_status(ui)
         return 'meta> '
 
-    # TODO txn.will_add(self.report.filename)
-
     def choose_solver(self, ui: PromptUI):
         if not ui.tokens:
             return
