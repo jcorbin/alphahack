@@ -541,13 +541,13 @@ class Nordle(StoredLog):
             verbose=verbose)
 
         if not pos.data:
-            ui.print(f'! no results for {pat.pattern} for {word}')
+            ui.print(f'! no results for {pat.pattern} for #{word_n} {word}')
             # TODO maybe try harder?
             return
 
         return ui.interact(pos.choose(
             then=lambda ch: lambda ui: self.question(ui, ch),
-            head=lambda ui: ui.print(f'{pos} from {word}'),
+            head=lambda ui: ui.print(f'{pos} from #{word_n} {word}'),
         ))
 
 score_codes = {
