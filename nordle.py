@@ -469,9 +469,9 @@ class Nordle(StoredLog):
             ui.print('! invalid <number>')
             return
 
-        verbose = 0
-        jitter = 0.5
         chooser = Chooser(show_n=show_n)
+        jitter = 0.5
+        verbose = 0
 
         while ui.tokens:
             try:
