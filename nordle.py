@@ -597,6 +597,8 @@ class Nordle(StoredLog):
         ui.print(f'{reason} #{word_n} N:{len(words)}')
 
         def select(words: Sequence[str], jitter: float = 0.5):
+            # TODO cross-score with other unsolved words
+
             diag = DiagScores(words)
             scores = diag.scores
 
