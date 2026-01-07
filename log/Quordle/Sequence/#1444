@@ -1,0 +1,95 @@
+T0.6587534309946932 now: 2026-01-07T13:16:59EST
+TD73 site: m-w.com/games/quordle/#/sequence
+TDD-58 wordlist: nwl2023.txt
+TDD-10 num_words: 4
+TDD6717790  ...
+TDD-1573743 > ␚
+T1.3142049250018317 now: 2026-01-07T13:20:02EST
+TD493249  ...
+TDD634782 > *
+TDD1431978 ? 1
+TDD-2559829 questioning: saner
+TDD7127642 Sequence #1 _____? nnYYn
+TDD-7127432 attempt: 0 SANER n n Y Y n
+TDD2559360 > *
+TDD-1143838 ? 1
+TDD-1415741 questioning: toned
+TDD2863684 Sequence #1 __NE_ -ARS? nYYYn
+TDD-2863652 attempt: 0 TONED n Y Y Y n
+TDD1319610 > *
+TDD1840938 ? 4
+TDD-3160578 questioning: money
+TDD3270981 Sequence #1 _ONE_ -ADRST? nYYYY
+TDD-3270974 attempt: 0 MONEY n Y Y Y Y
+TDD1383646 > *
+TDD792230 ? 1
+TDD-2175882 questioning: honey
+TDD3879651 Sequence #1 _ONEY -ADMRST? YYYYY
+TDD-3879637 attempt: 0 HONEY Y Y Y Y Y
+TDD-154 questioning: SANER
+TDD1799852 Sequence #2 _____? *
+TDD1536037 Sequence #2 _____? nnnMM
+TDD-3335736 attempt: 1 SANER n n n m m
+TDD-155 questioning: TONED
+TDD2935949 Sequence #2 _____ ~ER -ANS? MnnMn
+TDD-2935689 attempt: 1 TONED m n n m n
+TDD-238 questioning: MONEY
+TDD2039684 Sequence #2 _____ ~ERT -ADNOS? nnnMY
+TDD-2039572 attempt: 1 MONEY n n n m Y
+TDD-140 questioning: HONEY
+TDD1511590 Sequence #2 ____Y ~ERT -ADMNOS? nnnMY
+TDD-1511457 attempt: 1 HONEY n n n m Y
+TDD1375772 > *
+TDD-1375603 questioning: retry
+TDD3167762 Sequence #2 ____Y ~ERT -ADHMNOS? YYYYY
+TDD-3167895 attempt: 1 RETRY Y Y Y Y Y
+TDD-162 questioning: SANER
+TDD3047330 Sequence #3 _____? nnMMn
+TDD-3047118 attempt: 2 SANER n n m m n
+TDD-198 questioning: TONED
+TDD1399637 Sequence #3 _____ ~EN -ARS? nnMMn
+TDD-1399444 attempt: 2 TONED n n m m n
+TDD-193 questioning: MONEY
+TDD1319721 Sequence #3 _____ ~EN -ADORST? nnMMn
+TDD-1319582 attempt: 2 MONEY n n m m n
+TDD-154 questioning: HONEY
+TDD1607828 Sequence #3 _____ ~EN -ADMORSTY? MnMMn
+TDD-1607682 attempt: 2 HONEY m n m m n
+TDD-146 questioning: RETRY
+TDD1991988 Sequence #3 _____ ~EHN -ADMORSTY? nYnnn
+TDD-1991838 attempt: 2 RETRY n Y n n n
+TDD1223365 > *
+TDD-1223224 questioning: neigh
+TDD5199420 Sequence #3 _E___ ~HN -ADMORSTY? YYYYY
+TDD-5199489 attempt: 2 NEIGH Y Y Y Y Y
+TDD-202 questioning: SANER
+TDD10391744 Sequence #4 _____? nYYMn
+TDD-10391610 attempt: 3 SANER n Y Y m n
+TDD-151 questioning: TONED
+TDD2103797 Sequence #4 _AN__ ~E -RS? nnYMn
+TDD-2103649 attempt: 3 TONED n n Y m n
+TDD-147 questioning: MONEY
+TDD2247820 Sequence #4 _AN__ ~E -DORST? YnYMn
+TDD-2247601 attempt: 3 MONEY Y n Y m n
+TDD-205 questioning: HONEY
+TDD1823913 Sequence #4 MAN__ ~E -DORSTY? nnYMn
+TDD-1823747 attempt: 3 HONEY n n Y m n
+TDD-168 questioning: RETRY
+TDD1391374 Sequence #4 MAN__ ~E -DHORSTY? nMnnn
+TDD-1391237 attempt: 3 RETRY n m n n n
+TDD-149 questioning: NEIGH
+TDD5807865 Sequence #4 MAN__ ~E -DHORSTY? MMnYn
+TDD-5807724 attempt: 3 NEIGH m m n Y n
+TDD1719712 > *
+TDD-1719539 questioning: mange
+TDD2991306 Sequence #4 MANG_ ~E -DHIORSTY? YYYYY
+TDD-2991473 attempt: 3 MANGE Y Y Y Y Y
+TDD4696169 📋> Daily Sequence Quordle 1444
+TDD-4696230 📋> 4️⃣5️⃣
+TDD-97 📋> 6️⃣7️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD343462 📋> 
+TDD-87598 📋> ␚
+TDD-255765 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1444\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD762 result: "Daily Sequence Quordle 1444\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD262216 📆 2026-01-07 ? 
