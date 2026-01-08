@@ -1,0 +1,84 @@
+T6.380081461975351 now: 2026-01-07T13:14:30EST
+TD90 site: m-w.com/games/quordle/#/rescue
+TDD-73 wordlist: nwl2023.txt
+TDD-11 num_words: 4
+TDD5966194  ...␚
+T14.19666768697789 now: 2026-01-07T13:14:38EST
+TD765653  ...␚
+T0.8877481809759047 now: 2026-01-07T13:16:34EST
+TD1252466  ...␚
+T489.63365017699834 now: 2026-01-08T08:49:58EST
+TD4020742  ...
+TDD-1668657 > tried chasm
+TDD-2351944 questioning: chasm
+TDD1615695 Rescue #1 _____? nnMnn
+TDD-1615645 attempt: 0 CHASM n n m n n
+TDD1407730 Rescue #2 _____? nnnnn
+TDD-1407779 attempt: 1 CHASM n n n n n
+TDD1887608 Rescue #3 _____? nnnnM
+TDD-1887565 attempt: 2 CHASM n n n n m
+TDD1775760 Rescue #4 _____? nnnnn
+TDD-1775784 attempt: 3 CHASM n n n n n
+TDD3736011 > tried slept
+TDD-3735985 questioning: slept
+TDD1959871 Rescue #1 _____ ~A -CHMS? nnYnn
+TDD-1959874 attempt: 0 SLEPT n n Y n n
+TDD1703307 Rescue #2 _____ -ACHMS? nnYnn
+TDD-1703236 attempt: 1 SLEPT n n Y n n
+TDD3479298 Rescue #3 _____ ~M -ACHS? nMnn
+TDD328443 Rescue #3 _____ ~M -ACHS? nMnnn
+TDD-3807818 attempt: 2 SLEPT n m n n n
+TDD1560032 Rescue #4 _____ -ACHMS? nnnnn
+TDD-1560035 attempt: 3 SLEPT n n n n n
+TDD1663428 > *
+TDD-687754 ? 1
+TDD-975692 questioning: groin
+TDD3168387 Rescue #1 __E__ ~A -CHLMPST? nYnnn
+TDD-3168297 attempt: 0 GROIN n Y n n n
+TDD1591094 Rescue #2 __E__ -ACHLMPST? YYnnn
+TDD-1591147 attempt: 1 GROIN Y Y n n n
+TDD1712033 Rescue #3 _____ ~LM -ACEHPST? nnnMn
+TDD-1711984 attempt: 2 GROIN n n n m n
+TDD1311173 Rescue #4 _____ -ACEHLMPST? nnMMn
+TDD-1311243 attempt: 3 GROIN n n m m n
+TDD1119613 > *
+TDD5560474 ? ␚
+TDD-6680181 <EOF>
+TDD1487623 > * 4
+TDD336352 ? 2
+TDD-1823905 questioning: widow
+TDD5463849 Rescue #1 _RE__ ~A -CGHILMNOPST? Ynnnn
+TDD-5463747 attempt: 0 WIDOW Y n n n n
+TDD1383521 Rescue #2 GRE__ -ACHILMNOPST? nnMnn
+TDD-1383601 attempt: 1 WIDOW n n m n n
+TDD2295906 Rescue #3 _____ ~ILM -ACEGHNOPRST? nYMnn
+TDD-2295838 attempt: 2 WIDOW n Y m n n
+TDD1167097 Rescue #4 _____ ~IO -ACEGHLMNPRST? YYYYY
+TDD-1167108 attempt: 3 WIDOW Y Y Y Y Y
+TDD1039972 > *
+TDD-1039879 questioning: wreak
+TDD7463185 Rescue #1 WRE__ ~A -CDGHILMNOPST? YYYYY
+TDD-7463330 attempt: 0 WREAK Y Y Y Y Y
+TDD1311637 Rescue #2 GRE__ ~D -ACHILMNOPSTW? nYYnn
+TDD-1311636 attempt: 1 WREAK n Y Y n n
+TDD1239410 Rescue #3 _I___ ~DLM -ACEGHNOPRSTW? nnnnn
+TDD-1239412 attempt: 2 WREAK n n n n n
+TDD615611 > *
+TDD-615501 questioning: greed
+TDD5471983 Rescue #2 GRE__ ~D -ACHIKLMNOPSTW? YYYYY
+TDD-5472056 attempt: 1 GREED Y Y Y Y Y
+TDD1247343 Rescue #3 _I___ ~DLM -ACEGHKNOPRSTW? nnnnM
+TDD-1247324 attempt: 2 GREED n n n n m
+TDD639505 > *
+TDD-639406 questioning: dimly
+TDD3295730 Rescue #3 _I___ ~DLM -ACEGHKNOPRSTW? YYYYY
+TDD-3295752 attempt: 2 DIMLY Y Y Y Y Y
+TDD4672496 📋> Daily Rescue 59
+TDD-4672687 📋> 5️⃣6️⃣
+TDD-102 📋> 7️⃣4️⃣
+TDD-2 📋> m-w.com/games/quordle/
+TDD270526 📋> 
+TDD-86596 📋> ␚
+TDD-183822 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 59\n5\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD38 result: "Daily Rescue 59\n5\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD143629 📆 2026-01-08 ? 
