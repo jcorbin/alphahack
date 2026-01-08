@@ -1,0 +1,148 @@
+T0.7962773940016632 now: 2026-01-08T08:41:49EST
+TD76 site: britannica.com/games/octordle/daily
+TDD-62 wordlist: nwl2023.txt
+TDD-9 num_words: 8
+TDD3981537  ...
+TDD-2701758 > *
+TDD-79653 ? 1
+TDD-1199964 questioning: aisle
+TDD3159606 Classic #1 _____? nnYnY
+TDD-3159408 attempt: 0 AISLE n n Y n Y
+TDD1911319 Classic #2 _____? Mnnnn
+TDD-1911482 attempt: 1 AISLE m n n n n
+TDD1855676 Classic #3 _____? YnMnn
+TDD-1855690 attempt: 2 AISLE Y n m n n
+TDD1711875 Classic #4 _____? YMnnn
+TDD-1711824 attempt: 3 AISLE Y m n n n
+TDD4751316 Classic #5 _____? nMYnY
+TDD-4751377 attempt: 4 AISLE n m Y n Y
+TDD2103904 Classic #6 _____? nMnnM
+TDD-2103894 attempt: 5 AISLE n m n n m
+TDD1407456 Classic #7 _____? MMnnn
+TDD-1407404 attempt: 6 AISLE m m n n n
+TDD1471424 Classic #8 _____? MnnMM
+TDD-1471411 attempt: 7 AISLE m n n m m
+TDD1711766 > *
+TDD1488002 ? 2
+TDD-3199863 questioning: issue
+TDD4719769 Classic #1 __S_E -AIL? nnYYY
+TDD-4719761 attempt: 0 ISSUE n n Y Y Y
+TDD1063584 Classic #2 _____ ~A -EILS? nnnnn
+TDD-1063583 attempt: 1 ISSUE n n n n n
+TDD1271557 Classic #3 A____ ~S -EIL? nMnnn
+TDD-1271551 attempt: 2 ISSUE n m n n n
+TDD1215657 Classic #4 A____ ~I -ELS? Mnnnn
+TDD-1215670 attempt: 3 ISSUE m n n n n
+TDD3592089 Classic #5 __S_E ~I -AL? YYYYY
+TDD-3592019 attempt: 4 ISSUE Y Y Y Y Y
+TDD1455503 Classic #6 _____ ~EI -ALS? MnnnM
+TDD-1455452 attempt: 5 ISSUE m n n n m
+TDD1383074 Classic #7 _____ ~AI -ELS? Mnnnn
+TDD-1383187 attempt: 6 ISSUE m n n n n
+TDD1280089 Classic #8 _____ ~AEL -IS? nnnnM
+TDD-1280033 attempt: 7 ISSUE n n n n m
+TDD1167279 > *
+TDD-1167175 questioning: ensue
+TDD5215395 Classic #1 __SUE -AIL? YYYYY
+TDD-5215471 attempt: 0 ENSUE Y Y Y Y Y
+TDD1071315 Classic #2 _____ ~A -EILSU? nnnnn
+TDD-1071357 attempt: 1 ENSUE n n n n n
+TDD1872000 Classic #3 A____ ~S -EILU S:1? nYMnn
+TDD-1871972 attempt: 2 ENSUE n Y m n n
+TDD1055228 Classic #4 A____ ~I -ELSU? nnnnn
+TDD-1055302 attempt: 3 ENSUE n n n n n
+TDD2735667 Classic #6 _____ ~EI -ALSU? Mnnnn
+TDD-2735603 attempt: 5 ENSUE m n n n n
+TDD1511869 Classic #7 _____ ~AI -ELSU? nnnnn
+TDD-1511874 attempt: 6 ENSUE n n n n n
+TDD3311517 Classic #8 _____ ~AEL -ISU? Mnnnn
+TDD-3311499 attempt: 7 ENSUE m n n n n
+TDD1247606 > *
+TDD-112289 ? 1
+TDD-1135397 questioning: roach
+TDD5847783 Classic #2 _____ ~A -EILNSU? MnYMM
+TDD-5847767 attempt: 1 ROACH m n Y m m
+TDD1727756 Classic #3 AN___ ~S -EILU S:1? nnMnn
+TDD-1727754 attempt: 2 ROACH n n m n n
+TDD1896144 Classic #4 A____ ~I -ELNSU? nnYnn
+TDD-1896087 attempt: 3 ROACH n n Y n n
+TDD5319341 Classic #6 _____ ~EI -ALNSU E:1? MnnMn
+TDD-5319321 attempt: 5 ROACH m n n m n
+TDD5031548 Classic #7 _____ ~AI -ELNSU? MnYnn
+TDD-5031556 attempt: 6 ROACH m n Y n n
+TDD1295734 Classic #8 _____ ~AEL -INSU E:1? nnMnn
+TDD-1295764 attempt: 7 ROACH n n m n n
+TDD1487290 > *
+TDD-1487175 questioning: await
+TDD6119263 Classic #2 __A__ ~CHR -EILNOSU? nnYnY
+TDD-6119320 attempt: 1 AWAIT n n Y n Y
+TDD1703658 Classic #3 AN___ ~S -CEHILORU S:1? YnnnY
+TDD-1703711 attempt: 2 AWAIT Y n n n Y
+TDD1207466 Classic #4 A_A__ ~I -CEHLNORSU? YYYYY
+TDD-1207426 attempt: 3 AWAIT Y Y Y Y Y
+TDD4471422 Classic #6 _____ ~CEIR -AHLNOSU E:1? nnnMn
+TDD-4471502 attempt: 5 AWAIT n n n m n
+TDD2935834 Classic #7 __A__ ~IR -CEHLNOSU? nnYYY
+TDD-2935778 attempt: 6 AWAIT n n Y Y Y
+TDD1359161 Classic #8 _____ ~AEL -CHINORSU E:1? Mnnnn
+TDD-1359171 attempt: 7 AWAIT m n n n n
+TDD5143611 > *
+TDD-5143516 questioning: chart
+TDD3335350 Classic #2 __A_T ~CHR -EILNOSUW? YYYYY
+TDD-3335425 attempt: 1 CHART Y Y Y Y Y
+TDD2184139 Classic #3 AN__T ~S -CEHILORUW S:1? nnMnY
+TDD-2184144 attempt: 2 CHART n n m n Y
+TDD9495047 Classic #6 _____ ~CEIR -AHLNOSTUW E:1? YnnMn
+TDD-9495102 attempt: 5 CHART Y n n m n
+TDD3935685 Classic #7 __AIT ~R -CEHLNOSUW? nnYMY
+TDD-3935715 attempt: 6 CHART n n Y m Y
+TDD1199614 Classic #8 _____ ~AEL -CHINORSTUW A:1 E:1? nnMnn
+TDD-1199598 attempt: 7 CHART n n m n n
+TDD1255710 > *
+TDD-1255365 questioning: angst
+TDD5023226 Classic #3 AN__T ~S -CEHILORUW S:1? YYYYY
+TDD-5023566 attempt: 2 ANGST Y Y Y Y Y
+TDD4359604 Classic #6 C____ ~EIR -AHLNOSTUW E:1? nnnnn
+TDD-4359595 attempt: 5 ANGST n n n n n
+TDD2487408 Classic #7 __AIT ~R -CEHLNOSUW? MnnnY
+TDD-2487369 attempt: 6 ANGST m n n n Y
+TDD1415456 Classic #8 _____ ~AEL -CHINORSTUW A:1 E:1? MnMnn
+TDD-1415509 attempt: 7 ANGST m n m n n
+TDD1055979 > *
+TDD2735911 ? 1
+TDD-3791919 questioning: cried
+TDD7727549 Classic #6 C____ ~EIR -AGHLNOSTUW E:1? YYYYn
+TDD-7727510 attempt: 5 CRIED Y Y Y Y n
+TDD2584113 Classic #7 __AIT ~R -CEGHLNOSUW? nYMnn
+TDD-2584065 attempt: 6 CRIED n Y m n n
+TDD1399853 Classic #8 _____ ~AEGL -CHINORSTUW A:1 E:1? nnnYn
+TDD-1399849 attempt: 7 CRIED n n n Y n
+TDD1150860 > *
+TDD-1150675 questioning: crier
+TDD4487710 Classic #6 CRIE_ -ADGHLNOSTUW? YYYYY
+TDD-4487895 attempt: 5 CRIER Y Y Y Y Y
+TDD3295510 Classic #7 _RAIT -CDEGHLNOSUW? nYMnn
+TDD-3295567 attempt: 6 CRIER n Y m n n
+TDD1511198 Classic #8 ___E_ ~AGL -CDHINORSTUW A:1? nnnYn
+TDD-1511144 attempt: 7 CRIER n n n Y n
+TDD3447745 > *
+TDD-3447493 questioning: gavel
+TDD3558722 Classic #7 _RAIT -CDEGHLNOSUW? nMnnn
+TDD-3559009 attempt: 6 GAVEL n m n n n
+TDD1383811 Classic #8 ___E_ ~AGL -CDHINORSTUW A:1? YYYYY
+TDD-1383806 attempt: 7 GAVEL Y Y Y Y Y
+TDD895594 > *
+TDD528288 ? 2
+TDD-1423892 questioning: trait
+TDD3007594 Classic #7 _RAIT -CDEGHLNOSUVW? YYYYY
+TDD-3007604 attempt: 6 TRAIT Y Y Y Y Y
+TDD3066729 📋> Daily Octordle #1445
+TDD-3066737 📋> 3️⃣6️⃣
+TDD-154 📋> 7️⃣5️⃣
+TDD-12 📋> 2️⃣9️⃣
+TDD0 📋> 🕚🔟
+TDD300895 📋> Score: 53
+TDD-124800 📋> ␚
+TDD-175997 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1445\n3\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e35\ufe0f\u20e3\n2\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd5a\ud83d\udd1f\nScore: 53"}
+TDD664 result: "Daily Octordle #1445\n3\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e35\ufe0f\u20e3\n2\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd5a\ud83d\udd1f\nScore: 53"
+TDD245988 📆 2026-01-08 ? 
