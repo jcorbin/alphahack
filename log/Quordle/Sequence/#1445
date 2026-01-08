@@ -1,0 +1,97 @@
+T579.0810279959987 now: 2026-01-08T08:51:27EST
+TD70 site: m-w.com/games/quordle/#/sequence
+TDD-56 wordlist: nwl2023.txt
+TDD-9 num_words: 4
+TDD3182311  ...
+TDD-2254074 > *
+TDD39479 ? 1
+TDD-967481 questioning: earls
+TDD2447692 Sequence #1 _____? nnnnn
+TDD-2447763 attempt: 0 EARLS n n n n n
+TDD1167599 > *
+TDD-255518 ? 1
+TDD-912052 questioning: monty
+TDD4743540 Sequence #1 _____ -AELRS? nYnnn
+TDD-4743558 attempt: 0 MONTY n Y n n n
+TDD431867 > *
+TDD2279578 ? 1
+TDD-2711468 questioning: covid
+TDD3495833 Sequence #1 _O___ -AELMNRSTY? !
+TDD-2223926 Sequence #1 _O___ -AELMNRSTY? ␚
+TDD-1271986 <EOF>
+TDD1471879 > *
+TDD367815 ? 2
+TDD-1839626 questioning: cough
+TDD5663990 Sequence #1 _O___ -AELMNRSTY? MYYnY
+TDD-5663879 attempt: 0 COUGH m Y Y n Y
+TDD1103442 > *
+TDD456422 ? 1
+TDD-1559919 questioning: pouch
+TDD3256223 Sequence #1 _OU_H ~C -AEGLMNRSTY? YYYYY
+TDD-3256173 attempt: 0 POUCH Y Y Y Y Y
+TDD-202 questioning: EARLS
+TDD2687199 Sequence #2 _____? nMnnM
+TDD-2687016 attempt: 1 EARLS n m n n m
+TDD-184 questioning: MONTY
+TDD1351244 Sequence #2 _____ ~AS -ELR? nnnnY
+TDD-1351110 attempt: 1 MONTY n n n n Y
+TDD-152 questioning: COUGH
+TDD1056289 Sequence #2 ____Y ~AS -ELMNORT? nnnnn
+TDD-1056152 attempt: 1 COUGH n n n n n
+TDD-136 questioning: POUCH
+TDD1320179 Sequence #2 ____Y ~AS -CEGHLMNORTU? nnnnn
+TDD-1319971 attempt: 1 POUCH n n n n n
+TDD903279 > *
+TDD-903141 questioning: assay
+TDD3102675 Sequence #2 ____Y ~AS -CEGHLMNOPRTU? YYYYY
+TDD-3102871 attempt: 1 ASSAY Y Y Y Y Y
+TDD-133 questioning: EARLS
+TDD2903862 Sequence #3 _____? nnnYn
+TDD-2903733 attempt: 2 EARLS n n n Y n
+TDD-144 questioning: MONTY
+TDD1167812 Sequence #3 ___L_ -AERS? nnnnY
+TDD-1167621 attempt: 2 MONTY n n n n Y
+TDD-175 questioning: COUGH
+TDD1207611 Sequence #3 ___LY -AEMNORST? nnnnM
+TDD-1207407 attempt: 2 COUGH n n n n m
+TDD-203 questioning: POUCH
+TDD1159648 Sequence #3 ___LY ~H -ACEGMNORSTU? nnnnM
+TDD-1159437 attempt: 2 POUCH n n n n m
+TDD-211 questioning: ASSAY
+TDD1319818 Sequence #3 ___LY ~H -ACEGMNOPRSTU? nnnnY
+TDD-1319688 attempt: 2 ASSAY n n n n Y
+TDD1039483 > *
+TDD-1039196 questioning: hilly
+TDD3847377 Sequence #3 ___LY ~H -ACEGMNOPRSTU? YYYYY
+TDD-3847664 attempt: 2 HILLY Y Y Y Y Y
+TDD-141 questioning: EARLS
+TDD4055517 Sequence #4 _____? MYnYn
+TDD-4055292 attempt: 3 EARLS m Y n Y n
+TDD-210 questioning: MONTY
+TDD1255793 Sequence #4 _A_L_ ~E -RS? nnnMn
+TDD-1255600 attempt: 3 MONTY n n n m n
+TDD-194 questioning: COUGH
+TDD1047452 Sequence #4 _A_L_ ~ET -MNORSY? nnnnn
+TDD-1047317 attempt: 3 COUGH n n n n n
+TDD-147 questioning: POUCH
+TDD1080367 Sequence #4 _A_L_ ~ET -CGHMNORSUY? nnnnn
+TDD-1080161 attempt: 3 POUCH n n n n n
+TDD-191 questioning: ASSAY
+TDD1823282 Sequence #4 _A_L_ ~ET -CGHMNOPRSUY? Mnnnn
+TDD-1823099 attempt: 3 ASSAY m n n n n
+TDD-184 questioning: HILLY
+TDD1687771 Sequence #4 _A_L_ ~ET -CGHMNOPRSUY A:1? nnnYn
+TDD-1687588 attempt: 3 HILLY n n n Y n
+TDD847449 > *
+TDD-847364 questioning: table
+TDD3103311 Sequence #4 _A_L_ ~ET -CGHIMNOPRSUY A:1? YYYYY
+TDD-3103374 attempt: 3 TABLE Y Y Y Y Y
+TDD4313806 📋> Daily Sequence Quordle 1445
+TDD-4313966 📋> 4️⃣5️⃣
+TDD-79 📋> 6️⃣7️⃣
+TDD0 📋> m-w.com/games/quordle/
+TDD278212 📋> 
+TDD-86135 📋> ␚
+TDD-191974 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1445\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD16 result: "Daily Sequence Quordle 1445\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD215139 📆 2026-01-08 ? 
