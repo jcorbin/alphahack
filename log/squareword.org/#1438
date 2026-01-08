@@ -1,0 +1,101 @@
+T199.1257139369991 now: 2026-01-08T08:45:07EST
+TD85 site: squareword.org
+TDD-63 wordlist: nwl2023.txt
+TDD990094  ...
+TDD3865632 🧩  ? #1438
+TDD-4855533 puzzle_id: #1438
+TDD2087848 > *
+TDD-968417 try? 1
+TDD-1119405 questioning: ["satem", "#5"]
+TDD7943836 #1 <IndexError>  📋 "satem" ? S____ ~ AE
+TDD-7943602 attempt 0 SATEM Y m n m n
+TDD4695161 #2 <IndexError>  📋 "satem" ? _____ ~ E
+TDD-4695342 attempt 1 SATEM n n n m n
+TDD4335529 #3 <IndexError>  📋 "satem" ? _____ ~ AE
+TDD-4335549 attempt 2 SATEM n m n m n
+TDD3599486 #4 <IndexError>  📋 "satem" ? _A_E_ ~ SE
+TDD-3599468 attempt 3 SATEM m Y n Y n
+TDD3023210 #5 <IndexError>  📋 "satem" ? _____ ~ SE
+TDD-3023218 attempt 4 SATEM m n n m n
+TDD879331 ? 
+TDD-879478 question done
+TDD479950 > *
+TDD5120161 try? 4
+TDD-5600006 questioning: ["spare", "#1"]
+TDD4215488 #1 S____ ~AE -MT  📋 "spare" ? .
+TDD-4215383 attempt 0 SPARE Y n m n m
+TDD3167201 #2 _____ ~E -AMST  📋 "spare" ? ____E ~ R
+TDD-3167269 attempt 1 SPARE n n n m Y
+TDD3975587 #3 _____ ~AE -MST  📋 "spare" ? __A_E ~ E
+TDD-3975663 attempt 2 SPARE n n Y n Y
+TDD7423991 #4 _A_E_ ~S -MT  📋 "spare" ? _A_E_ ~ SE
+TDD-7423888 attempt 3 SPARE m n n n m
+TDD2655277 #5 _____ ~ES -AMT  📋 "spare" ? _____ ~ SER
+TDD-2655377 attempt 4 SPARE m n n m m
+TDD391702 ? 
+TDD-391741 question done
+TDD679112 > *
+TDD1297543 try? 1
+TDD-1976573 questioning: ["sneak", "#1"]
+TDD2094916 #1 S____ ~AE -MPRT  📋 "sneak" ? /it
+TDD-2094951 attempt 0 SNEAK Y Y Y Y Y
+TDD2471535 #2 ____E ~R -AMPST  📋 "sneak" ? .
+TDD-2471529 attempt 1 SNEAK n n n n n
+TDD3447719 #3 __A_E -MPRST  📋 "sneak" ? __A_E ~ E
+TDD-3447719 attempt 2 SNEAK n n m n n
+TDD5311490 #4 _A_E_ ~S -AMPRT  📋 "sneak" ? _A_E_ ~ SE
+TDD-5311436 attempt 3 SNEAK m n m n n
+TDD3015353 #5 _____ ~ERS -AMPT  📋 "sneak" ? __E__ ~ SER
+TDD-3015348 attempt 4 SNEAK m n Y n n
+TDD207323 ? 
+TDD-207483 question done
+TDD607815 > *
+TDD30800 questioning: ["easel", "#4"]
+TDD4186806 #2 ____E ~R -AEKMNPST  📋 "easel" ? .
+TDD-4825319 attempt 1 EASEL n n n n n
+TDD2767718 #3 __A_E -AKMNPRST  📋 "easel" ? E_A_E
+TDD-2767736 attempt 2 EASEL Y n n n n
+TDD1303358 #4 _A_E_ ~S -AKMNPRT  📋 "easel" ? /it
+TDD-1303286 attempt 3 EASEL Y Y Y Y Y
+TDD3576074 #5 __E__ ~RS -AKMNPT  📋 "easel" ? __E__ ~ SER
+TDD-3576071 attempt 4 EASEL m n m m n
+TDD167139 ? 
+TDD-167263 question done
+TDD583506 > *
+TDD655601 questioning: ["horde", "#2"]
+TDD4073265 #2 ____E ~R -AEKLMNPST  📋 "horde" ? /it
+TDD-5312257 attempt 1 HORDE Y Y Y Y Y
+TDD2807964 #3 E_A_E -AKLMNPRST  📋 "horde" ? E_ADE
+TDD-2808022 attempt 2 HORDE n n n Y Y
+TDD2935755 #5 __E__ ~RS -AKLMNPT  📋 "horde" ? __ED_ ~ SER
+TDD-2935705 attempt 4 HORDE n n m Y m
+TDD471870 ? 
+TDD-471971 question done
+TDD687766 > *
+TDD437954 questioning: ["evade", "#3"]
+TDD2379841 #3 E_ADE -AHKLMNOPRST  📋 "evade" ? /it
+TDD-3505444 attempt 2 EVADE Y Y Y Y Y
+TDD4807431 #5 __ED_ ~RS -AHKLMNOPT  📋 "evade" ? __ED_ ~ SER
+TDD-4807507 attempt 4 EVADE m n n Y m
+TDD479956 ? 
+TDD-480034 question done
+TDD775178 > *
+TDD149459 questioning: ["reeds", "#5"]
+TDD2710360 #5 __ED_ ~RS -AHKLMNOPTV  📋 "reeds" ? /it
+TDD-3634854 attempt 4 REEDS Y Y Y Y Y
+TDD1031407 ? 
+TDD-1031529 question done
+TDD4136627 📋> squareword.org 1438: 7 guesses
+TDD-4136660 📋> 
+TDD-92 📋> 🟩🟩🟩🟩🟩
+TDD-8 📋> 🟩🟩🟩🟩🟩
+TDD-3 📋> 🟩🟨🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD2 📋> 🟨🟨🟩🟩🟨
+TDD-2 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD303201 📋> #squareword #squareword1438
+TDD-79229 📋> ␚
+TDD-223858 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1438: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1438"}
+TDD631 result: "squareword.org 1438: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1438"
+TDD215052 📆 2026-01-08 ? 
