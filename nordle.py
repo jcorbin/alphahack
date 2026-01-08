@@ -54,7 +54,7 @@ class Nordle(StoredLog):
 
         # TODO support sequence mode
 
-        self.questioning: str = ''
+        self.questioning: tuple[str, ...] = ()
         self.words: Sequence[Word] = tuple()
         self.attempts: Sequence[list[Attempt]] = tuple()
 
@@ -293,7 +293,7 @@ class Nordle(StoredLog):
             self.cmd_site_link(ui)
 
         if self.questioning:
-            return lambda ui: self.question(ui, self.questioning)
+            return lambda ui: self.question(ui, *self.questioning)
 
         return self.play
 
@@ -306,7 +306,7 @@ class Nordle(StoredLog):
 
     def play(self, ui: PromptUI):
         if self.run_done: return self.finish
-        self.questioning = ''
+        self.questioning = ()
         return self.play_prompt(ui)
 
     def finish(self, _ui: PromptUI):
@@ -386,68 +386,86 @@ class Nordle(StoredLog):
 
     def do_tried(self, ui: PromptUI):
         '''
-        usage: `tried <word>`
+        usage: `tried <word> [<word> ...]`
         '''
-        if not ui.tokens:
+        word_pat = re.compile(r'[a-zA-Z]{' + str(self.size) +  r'}$')
+        words: list[str] = []
+        for token in ui.tokens:
+            m = word_pat.match(token)
+            if not m:
+                ui.print(f'! invalid <word> {token!r}; expected {word_pat.pattern}')
+                return
+            words.append(m[0])
+        if not words:
             ui.print('! missing <word>')
             return
-        word_str = next(ui.tokens)
-        if len(word_str) != self.size:
-            ui.print(f'! invalid <word> length; expected {self.size} got {len(word_str)}')
-            return
-        return self.question(ui, word_str)
+        return self.question(ui, *words)
 
     @matcher(r'''(?x)
         questioning :
         \s+
-        \s* (?P<word> [^\s]+ )
+        \s* (?P<word> [^\s]+ .* )
         $''')
     def load_question(self, _t: float, m: re.Match[str]):
-        self.questioning = m[1]
+        self.questioning = tuple(m[1].split())
 
-    def question(self, ui: PromptUI, word_str: str):
+    def question(self, ui: PromptUI, *words: str):
         # TODO reconcile with wordlish.Question
-        ui.log(f'questioning: {word_str}')
-        self.questioning = word_str
-        ui.copy(word_str)
-        ui.print(f'📋 "{word_str}"')
+        ui.log(f'questioning: {" ".join(words)}')
+        self.questioning = words
         return self.do_question
 
     def do_question(self, ui: PromptUI) -> PromptUI.State|None:
-        wu = self.questioning.upper()
+        def next_q():
+            self.questioning = self.questioning[1:]
+            return self.do_question if self.questioning else self.play
+
+        qws = tuple(w.upper() for w in self.questioning)
 
         pending = list(range(len(self.words)))
         pending = [i for i in pending if not self.words[i].done]
         if not pending:
-            return self.play
+            return next_q()
         if self.mode.lower() == 'sequence':
             i = pending[0]
             prio = self.attempts[i-1]
             mine = self.attempts[i]
-            if len(mine) >= len(prio) and wu in (a.word for a in self.attempts[i]):
-                return self.play
+            if (len(mine) >= len(prio) and
+                all(
+                    w in (a.word for a in self.attempts[i])
+                    for w in qws)):
+                return next_q()
         else:
-            pending = [i for i in pending if wu not in (a.word for a in self.attempts[i])]
+            pending = [
+                i for i in pending
+                if any(
+                    w not in (a.word for a in self.attempts[i])
+                    for w in qws)]
         if not pending:
-            return self.play
+            return next_q()
 
         def collect_feedback(i: int):
-            while True:
-                word = self.words[i]
-                with ui.input(f'{self.mode} #{i+1} {word}? ') as tokens:
-                    fb = parse_feedback(tokens, len(word))
-                    if len(fb) != len(word):
-                        ui.print(f'! invalid feedback length; expected {len(word)}, got {len(fb)}')
-                        continue
-                    at = Attempt(wu, fb)
-                    self.attempt_update(word, self.attempts[i], at)
-                    ui.log(f'attempt: {i} {at}')
-                    break
+            word = self.words[i]
+            for wu in (
+                w for w in qws
+                if w not in (a.word for a in self.attempts[i])):
+                ui.copy(wu)
+                ui.print(f'📋 "{wu}"')
+                while True:
+                    with ui.input(f'{self.mode} #{i+1} {word}? ') as tokens:
+                        fb = parse_feedback(tokens, len(word))
+                        if len(fb) != len(word):
+                            ui.print(f'! invalid feedback length; expected {len(word)}, got {len(fb)}')
+                            continue
+                        at = Attempt(wu, fb)
+                        self.attempt_update(word, self.attempts[i], at)
+                        ui.log(f'attempt: {i} {at}')
+                        break
 
         if self.mode.lower() != 'sequence':
             for i in pending:
                 collect_feedback(i)
-            return self.play
+            return next_q()
 
         i = pending[0]
 
@@ -455,8 +473,8 @@ class Nordle(StoredLog):
         mine = self.attempts[i]
         if len(mine) < len(prio):
             prior = prio[len(mine)].word
-            if prior != self.questioning:
-                return self.question(ui, prior)
+            if prior != self.questioning[0]:
+                return self.question(ui, prior, *self.questioning[1:])
 
         if not self.words[i].done:
             collect_feedback(i)
