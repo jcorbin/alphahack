@@ -1,0 +1,108 @@
+T439.35877983399405 now: 2026-01-08T08:34:16EST
+TD74 site: m-w.com/games/quordle/#/
+TDD-59 wordlist: nwl2023.txt
+TDD-10 num_words: 4
+TDD2630254  ...
+TDD-677973 > *
+TDD-816389 ? 1
+TDD-1135745 questioning: hears
+TDD4463601 Classic #1 _____? nnnnM
+TDD-4463591 attempt: 0 HEARS n n n n m
+TDD1799785 Classic #2 _____? nnnnn
+TDD-1799770 attempt: 1 HEARS n n n n n
+TDD1343552 Classic #3 _____? nMnnn
+TDD-1343562 attempt: 2 HEARS n m n n n
+TDD1111756 Classic #4 _____? nnnnn
+TDD-1111695 attempt: 3 HEARS n n n n n
+TDD911874 > *
+TDD296049 ? 1
+TDD-1207986 questioning: lying
+TDD2431266 Classic #1 _____ ~S -AEHR? nMnnn
+TDD-2431174 attempt: 0 LYING n m n n n
+TDD1631555 Classic #2 _____ -AEHRS? MMnnn
+TDD-1631630 attempt: 1 LYING m m n n n
+TDD1439597 Classic #3 _____ ~E -AHRS? nnMMn
+TDD-1439562 attempt: 2 LYING n n m m n
+TDD1567741 Classic #4 _____ -AEHRS? YMnnn
+TDD-1567779 attempt: 3 LYING Y m n n n
+TDD1287652 > *
+TDD-223785 ? 1
+TDD-1063896 questioning: inked
+TDD2879603 Classic #1 _____ ~SY -AEGHILNR? nnnnM
+TDD-2879475 attempt: 0 INKED n n n n m
+TDD1239604 Classic #2 _____ ~LY -AEGHINRS? nnnnn
+TDD-1239644 attempt: 1 INKED n n n n n
+TDD3071337 Classic #3 _____ ~EIN -AGHLRSY? MYnMn
+TDD-3071371 attempt: 2 INKED m Y n m n
+TDD1064103 Classic #4 L____ ~Y -AEGHINRS? nnnnn
+TDD-1064036 attempt: 3 INKED n n n n n
+TDD1118841 > *
+TDD1473120 ? 2
+TDD-2592076 questioning: untie
+TDD3807938 Classic #1 _____ ~DSY -AEGHIKLNR? MnMnn
+TDD-3807850 attempt: 0 UNTIE m n m n n
+TDD1031772 Classic #2 _____ ~LY -ADEGHIKNRS? nnnnn
+TDD-1031848 attempt: 1 UNTIE n n n n n
+TDD1319255 Classic #3 _N___ ~EI -ADGHKLRSY? YYYYY
+TDD-1319254 attempt: 2 UNTIE Y Y Y Y Y
+TDD1695396 Classic #4 L____ ~Y -ADEGHIKNRS? nnnnn
+TDD-1695385 attempt: 3 UNTIE n n n n n
+TDD1016283 > *
+TDD847976 ? 2
+TDD-1864226 questioning: study
+TDD3119036 Classic #1 _____ ~DSTUY -AEGHIKLNR? YYYYY
+TDD-3119005 attempt: 0 STUDY Y Y Y Y Y
+TDD1431634 Classic #2 _____ ~LY -ADEGHIKNRSTU? nnnnY
+TDD-1431625 attempt: 1 STUDY n n n n Y
+TDD1527290 Classic #4 L____ ~Y -ADEGHIKNRSTU? nnnnY
+TDD-1527306 attempt: 3 STUDY n n n n Y
+TDD959701 > *
+TDD1367902 ? 3
+TDD-2327644 questioning: blowy
+TDD5592375 Classic #2 ____Y ~L -ADEGHIKNRSTU? nMMnY
+TDD-5592297 attempt: 1 BLOWY n m m n Y
+TDD2599028 Classic #4 L___Y -ADEGHIKNRSTU? nMMMY
+TDD-2599006 attempt: 3 BLOWY n m m m Y
+TDD982912 > *
+TDD-982876 questioning: lowly
+TDD9127748 Classic #2 ____Y ~LO -ABDEGHIKNRSTUW? nYnYY
+TDD-9127833 attempt: 1 LOWLY n Y n Y Y
+TDD1351451 Classic #4 L___Y ~OW -ABDEGHIKNRSTU? YYYYY
+TDD-1351526 attempt: 3 LOWLY Y Y Y Y Y
+TDD1295575 > *
+TDD208366 > *
+TDD-552226 > * 2
+TDD2975957 ? ␚
+TDD-3927764 <EOF>
+TDD680179 > *
+TDD215731 > *
+TDD5175924 > ␚
+TDD-6071846 <EOF>
+TDD711927 > ␚
+TDD-711901 <EOF>
+TDD343846 > ␚
+TDD-343858 <EOF>
+TDD623989 <INT>
+TDD-623951 <INT>
+TDD-89 <INT>
+TDD-6 <INT>
+T2.0152466199942864 now: 2026-01-08T08:39:29EST
+TD64 questioning: lowly
+TDD1011715 > *
+TDD30628696 > ␚
+T0.7060049440042349 now: 2026-01-08T08:40:04EST
+TD64 questioning: lowly
+TDD788505 > *
+TDD5323243 ? 1
+TDD-6111588 questioning: coyly
+TDD5775449 Classic #2 _O_LY -ABDEGHIKNRSTUW? YYYYY
+TDD-5775425 attempt: 1 COYLY Y Y Y Y Y
+TDD3912401 📋> 🙂 Daily Quordle 1445
+TDD-3912548 📋> 5️⃣8️⃣
+TDD-84 📋> 4️⃣7️⃣
+TDD-4 📋> m-w.com/games/quordle/
+TDD254949 📋> 
+TDD-70735 📋> ␚
+TDD-184096 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1445\n5\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1401 result: "\ud83d\ude42 Daily Quordle 1445\n5\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD261238 📆 2026-01-08 ? 
