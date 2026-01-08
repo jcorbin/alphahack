@@ -1,0 +1,183 @@
+T26.055252234000363 now: 2026-01-08T09:18:53EST
+TD76 site: britannica.com/games/octordle/daily-rescue
+TDD-60 wordlist: nwl2023.txt
+TDD-10 num_words: 8
+TDD2030100  ...
+TDD5146426 > tried pasty start shawl perky
+TDD-7176044 questioning: pasty start shawl perky
+TDD1727016 Rescue #1 _____? nnnnn
+TDD-1726985 attempt: 0 PASTY n n n n n
+TDD1238639 Rescue #1 _____ -APSTY? nnnnn
+TDD-1238912 attempt: 0 START n n n n n
+TDD1327600 Rescue #1 _____ -APRSTY? nnnMM
+TDD-1327587 attempt: 0 SHAWL n n n m m
+TDD1071769 Rescue #1 _____ ~LW -AHPRSTY? nnnnn
+TDD-1071800 attempt: 0 PERKY n n n n n
+TDD1327396 Rescue #2 _____? nnYnY
+TDD-1327433 attempt: 1 PASTY n n Y n Y
+TDD1511769 Rescue #2 __S_Y -APT? Mnnnn
+TDD-1511735 attempt: 1 START m n n n n
+TDD1991370 Rescue #2 __S_Y -APRT? Mnnnn
+TDD-1991330 attempt: 1 SHAWL m n n n n
+TDD1776450 Rescue #2 __S_Y -AHLPRTW? nnnnY
+TDD-1776463 attempt: 1 PERKY n n n n Y
+TDD1990772 Rescue #3 _____? Ynnnn
+TDD-1990852 attempt: 2 PASTY Y n n n n
+TDD1312402 Rescue #3 P____ -ASTY? nnnMn
+TDD-1312256 attempt: 2 START n n n m n
+TDD1078923 Rescue #3 P____ ~R -ASTY? nnnnn
+TDD-1079005 attempt: 2 SHAWL n n n n n
+TDD1783523 Rescue #3 P____ ~R -AHLSTWY? YnMnn
+TDD-1783521 attempt: 2 PERKY Y n m n n
+TDD1166844 Rescue #4 _____? nnMnn
+TDD-1166922 attempt: 3 PASTY n n m n n
+TDD1496676 Rescue #4 _____ ~S -APTY? Ynnnn
+TDD-1496574 attempt: 3 START Y n n n n
+TDD1703252 Rescue #4 S____ -APRTY? YYnnn
+TDD-1703256 attempt: 3 SHAWL Y Y n n n
+TDD3911077 Rescue #4 SH___ -ALPRTWY? nMnnn
+TDD-3911106 attempt: 3 PERKY n m n n n
+T1.9620137250021799 now: 2026-01-08T09:19:55EST
+TD71 questioning: pasty start shawl perky
+TDD3692622 Rescue #5 _____? YMnnn
+TDD-3692410 attempt: 4 PASTY Y m n n n
+TDD1103532 Rescue #5 P____ ~A -STY? nnMnn
+TDD-1103559 attempt: 4 START n n m n n
+TDD1263686 Rescue #5 P____ ~A -RSTY? nnMnn
+TDD-1263690 attempt: 4 SHAWL n n m n n
+TDD1495678 Rescue #5 P____ ~A -HLRSTWY? YYnnn
+TDD-1495697 attempt: 4 PERKY Y Y n n n
+TDD2039061 Rescue #6 _____? nnnYn
+TDD-2039058 attempt: 5 PASTY n n n Y n
+TDD2536056 Rescue #6 ___T_ -APSY? nMnMn
+TDD-2536013 attempt: 5 START n m n m n
+TDD1383777 Rescue #6 ___T_ ~R -APSY T:1? nMnnn
+TDD-1383826 attempt: 5 SHAWL n m n n n
+TDD1351111 Rescue #6 ___T_ ~HR -ALPSWY T:1? nnYnn
+TDD-1351101 attempt: 5 PERKY n n Y n n
+TDD1623579 Rescue #7 _____? nnnnn
+TDD-1623591 attempt: 6 PASTY n n n n n
+TDD1015937 Rescue #7 _____ -APSTY? nnnnn
+TDD-1015905 attempt: 6 START n n n n n
+TDD1023253 Rescue #7 _____ -APRSTY? nnnnn
+TDD-1023269 attempt: 6 SHAWL n n n n n
+TDD1567315 Rescue #7 _____ -AHLPRSTWY? nnnnn
+TDD-1567376 attempt: 6 PERKY n n n n n
+TDD2103598 Rescue #8 _____? nYnnn
+TDD-2103538 attempt: 7 PASTY n Y n n n
+TDD1695237 Rescue #8 _A___ -PSTY? nnMMn
+TDD-1695311 attempt: 7 START n n m m n
+TDD1655558 Rescue #8 _A___ ~R -PSTY? nnMnM
+TDD-1655556 attempt: 7 SHAWL n n m n m
+TDD1344025 Rescue #8 _A___ ~LR -HPSTWY? nMMnn
+TDD-1343963 attempt: 7 PERKY n m m n n
+TDD1279488 > *
+TDD5192568 ? 2
+TDD-6472056 questioning: would
+TDD2135203 Rescue #1 _____ ~LW -AEHKPRSTY? YYYYY
+TDD-2135266 attempt: 0 WOULD Y Y Y Y Y
+TDD2352542 Rescue #2 __S_Y -AEHKLPRTW? nYnnn
+TDD-2352406 attempt: 1 WOULD n Y n n n
+TDD1878653 Rescue #3 P____ ~R -AEHKLSTWY? nMnnn
+TDD-1878752 attempt: 2 WOULD n m n n n
+TDD2103503 Rescue #4 SH___ ~E -AKLPRTWY? nMnnn
+TDD-2103471 attempt: 3 WOULD n m n n n
+TDD3255699 Rescue #5 PE___ ~A -HKLRSTWY? nnnnn
+TDD-3255724 attempt: 4 WOULD n n n n n
+TDD1327867 Rescue #6 __RT_ ~H -AEKLPSWY T:1? nYnnn
+TDD-1327833 attempt: 5 WOULD n Y n n n
+TDD2295398 Rescue #7 _____ -AEHKLPRSTWY? nYnnM
+TDD-2295416 attempt: 6 WOULD n Y n n m
+TDD1151581 Rescue #8 _A___ ~ELR -HKPSTWY? nnnMn
+TDD-1151578 attempt: 7 WOULD n n n m n
+TDD1240327 > *
+TDD1246626 ? 1
+TDD-2487005 questioning: bossy
+TDD5975457 Rescue #2 _OS_Y -ADEHKLPRTUW? YYYYY
+TDD-5975465 attempt: 1 BOSSY Y Y Y Y Y
+TDD2496194 Rescue #3 P____ ~OR -ADEHKLSTUWY? nMnnn
+TDD-2496127 attempt: 2 BOSSY n m n n n
+TDD1151406 Rescue #4 SH___ ~EO -ADKLPRTUWY? nMMnn
+TDD-1151390 attempt: 3 BOSSY n m m n n
+TDD3192107 Rescue #5 PE___ ~A -DHKLORSTUWY? nnnnn
+TDD-3192139 attempt: 4 BOSSY n n n n n
+TDD1247191 Rescue #6 _ORT_ ~H -ADEKLPSUWY T:1? nYnnn
+TDD-1247136 attempt: 5 BOSSY n Y n n n
+TDD1254975 Rescue #7 _O___ ~D -AEHKLPRSTUWY? nYnnn
+TDD-1255050 attempt: 6 BOSSY n Y n n n
+TDD1711909 Rescue #8 _A___ ~ELR -DHKOPSTUWY? Ynnnn
+TDD-1711833 attempt: 7 BOSSY Y n n n n
+TDD1135555 > *
+TDD-1135412 questioning: baler
+TDD6631047 Rescue #3 P____ ~OR -ABDEHKLSTUWY? nnnnM
+TDD-6631297 attempt: 2 BALER n n n n m
+TDD1335538 Rescue #4 SH___ ~EO -ABDKLPRTUWY S:1? nnnMn
+TDD-1335529 attempt: 3 BALER n n n m n
+TDD3384745 Rescue #5 PE___ ~A -BDHKLORSTUWY? nMnMn
+TDD-3384664 attempt: 4 BALER n m n m n
+TDD1294767 Rescue #6 _ORT_ ~H -ABDEKLPSUWY T:1? nnnnM
+TDD-1294797 attempt: 5 BALER n n n n m
+TDD1439971 Rescue #7 _O___ ~D -ABEHKLPRSTUWY? nnnnn
+TDD-1440025 attempt: 6 BALER n n n n n
+TDD1671667 Rescue #8 BA___ ~ELR -DHKOPSTUWY? YYYYY
+TDD-1671619 attempt: 7 BALER Y Y Y Y Y
+TDD1086977 > *
+TDD4480872 ? 1
+TDD-5567880 questioning: pecan
+TDD4591515 Rescue #3 P____ ~OR -ABDEHKLSTUWY? Ynnnn
+TDD-4591432 attempt: 2 PECAN Y n n n n
+TDD1343759 Rescue #4 SH___ ~EO -ABDKLPRTUWY S:1? nMnnn
+TDD-1343798 attempt: 3 PECAN n m n n n
+TDD1271413 Rescue #5 PE___ ~A -BDHKLORSTUWY? YYYYY
+TDD-1271419 attempt: 4 PECAN Y Y Y Y Y
+TDD951618 Rescue #6 _ORT_ ~H -ABDEKLPSUWY T:1? nnnnn
+TDD-951610 attempt: 5 PECAN n n n n n
+TDD3047162 Rescue #7 _O___ ~D -ABEHKLPRSTUWY? nnnnM
+TDD-3047165 attempt: 6 PECAN n n n n m
+TDD1111957 > *
+TDD-1111607 questioning: forth
+TDD9351035 Rescue #3 P____ ~OR -ABCDEHKLNSTUWY? nMMnn
+TDD-9351374 attempt: 2 FORTH n m m n n
+TDD1287584 Rescue #4 SH___ ~EO -ABCDKLNPRTUWY S:1? nMnnM
+TDD-1287584 attempt: 3 FORTH n m n n m
+TDD2359094 Rescue #6 _ORT_ ~H -ABCDEKLNPSUWY T:1? YYYYY
+TDD-2359137 attempt: 5 FORTH Y Y Y Y Y
+TDD3207360 Rescue #7 _O___ ~DN -ABCEHKLPRSTUWY? nYnnn
+TDD-3207391 attempt: 6 FORTH n Y n n n
+TDD991863 > *
+TDD1208269 ? 2
+TDD-2200152 questioning: promo
+TDD7695525 Rescue #3 P____ ~OR -ABCDEFHKLNSTUWY? YYnYY
+TDD-7695445 attempt: 2 PROMO Y Y n Y Y
+TDD1824504 Rescue #4 SH___ ~EO -ABCDFKLNPRTUWY S:1? nnYnn
+TDD-1824492 attempt: 3 PROMO n n Y n n
+TDD5094443 Rescue #7 _O___ ~DN -ABCEFHKLPRSTUWY? nnMnn
+TDD-5094528 attempt: 6 PROMO n n m n n
+TDD1023951 > *
+TDD-1023631 questioning: primo
+TDD4615688 Rescue #3 PR_MO -ABCDEFHKLNSTUWY? YYYYY
+TDD-4615896 attempt: 2 PRIMO Y Y Y Y Y
+TDD1806909 Rescue #4 SHO__ ~E -ABCDFKLMNPRTUWY S:1? nnnnM
+TDD-1806977 attempt: 3 PRIMO n n n n m
+TDD3727738 Rescue #7 _O___ ~DN -ABCEFHKLMPRSTUWY O:1? nnYnM
+TDD-3727710 attempt: 6 PRIMO n n Y n m
+TDD799877 > *
+TDD-799427 questioning: shove
+TDD10678451 Rescue #4 SHO__ ~E -ABCDFIKLMNPRTUWY S:1? YYYYY
+TDD-10678864 attempt: 3 SHOVE Y Y Y Y Y
+TDD2879386 Rescue #7 _OI__ ~DN -ABCEFHKLMPRSTUWY O:1? nnMnn
+TDD-2879462 attempt: 6 SHOVE n n m n n
+TDD1055646 > *
+TDD-1055422 questioning: doing
+TDD3430995 Rescue #7 _OI__ ~DN -ABCEFHKLMPRSTUVWY O:1? YYYYY
+TDD-3431211 attempt: 6 DOING Y Y Y Y Y
+TDD4152449 📋> Daily Rescue Octordle #1445
+TDD-4152509 📋> 5️⃣6️⃣
+TDD-113 📋> 🕚🕛
+TDD-6 📋> 8️⃣9️⃣
+TDD-3 📋> 🕐7️⃣
+TDD263614 📋> Score: 8
+TDD-124 📋> ␚
+TDD-263375 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1445\n5\ufe0f\u20e36\ufe0f\u20e3\n\ud83d\udd5a\ud83d\udd5b\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd507\ufe0f\u20e3\nScore: 8"}
+TDD866 result: "Daily Rescue Octordle #1445\n5\ufe0f\u20e36\ufe0f\u20e3\n\ud83d\udd5a\ud83d\udd5b\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd507\ufe0f\u20e3\nScore: 8"
+TDD765893 📆 2026-01-08 ? 
