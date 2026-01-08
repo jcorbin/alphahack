@@ -1,0 +1,46 @@
+T115.43620490399917 now: 2026-01-08T08:28:52EST
+TD92 site: alphaguess.com
+TDD169868 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof 473f27e8333aa815bb969278b233b3a7a91da15d
+TDD5378426  ...
+TDD-1323959 [0 : 98220 : 196531] mach? a
+TDD-4224275 progress: 1 98220 mach
+TDD4055718 [98221 : 147373 : 196531] rhotic? b
+TDD-4055707 progress: -1 147373 rhotic
+TDD1583361 [98221 : 122783 : 147373] parr? a
+TDD-1583369 progress: 1 122783 parr
+TDD1487275 [122784 : 135074 : 147373] proper? a
+TDD-1487248 progress: 1 135074 proper
+TDD1600099 [135075 : 140523 : 147373] rec? b
+TDD-1600122 progress: -1 140523 rec
+TDD1423589 [135075 : 137794 : 140523] quart? b
+TDD-1423588 progress: -1 137794 quart
+TDD1543721 [135075 : 136434 : 137794] pul? b
+TDD-1543721 progress: -1 136434 pul
+TDD1327600 [135075 : 135753 : 136434] provincial? a
+TDD-1327601 progress: 1 135753 provincial
+TDD1303953 [135754 : 136057 : 136434] psycho? a
+TDD-1303952 progress: 1 136057 psycho
+TDD1608060 [136058 : 136241 : 136434] pube? a
+TDD-1608049 progress: 1 136241 pube
+TDD1447099 [136242 : 136308 : 136434] pud? b
+TDD-1447117 progress: -1 136308 pud
+TDD1415863 [136242 : 136275 : 136308] publish? b
+TDD-1415858 progress: -1 136275 publish
+TDD1647820 [136242 : 136253 : 136275] public? it
+TDD-1647816 progress: 0 136253 public
+TDD-135 [136242 : 136253 : 136275] <Done>.
+TDD2904181 📋> 🧩 Puzzle #898
+TDD-2904092 📋> 
+TDD-96 📋> 🤔 13 guesses
+TDD-7 📋> 
+TDD0 📋> ⏱️ 21s
+TDD-1 📋> 
+TDD359346 📋> 🔗 alphaguess.com
+TDD-103643 📋> ␚
+TDD-255579 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #898\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-40 result: "\ud83e\udde9 Puzzle #898\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+TDD-79 result puzzle: 898
+TDD-7 result guesses: 13
+TDD-1 result time: 21s
+TDD0 result link: alphaguess.com
+TDD351929 📆 2026-01-08 ? 
