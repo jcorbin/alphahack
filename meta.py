@@ -382,7 +382,7 @@ class SolverScope:
                  lib: SolverLibrary,
                  ix: Iterable[int]|None=None):
         self.lib = lib
-        self.ix = list(range(len(lib)) if ix is None else ix)
+        self.ix = list(lib.base_ix() if ix is None else ix)
         self.log_file = [lib.proto[i].log_file for i in self.ix]
 
     def __len__(self):
