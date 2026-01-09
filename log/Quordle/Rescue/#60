@@ -1,0 +1,81 @@
+T1891.2934922489949 now: 2026-01-09T09:12:29EST
+TD106 site: m-w.com/games/quordle/#/rescue
+TDD-90 wordlist: nwl2023.txt
+TDD-12 num_words: 4
+TDD6051558  ...
+TDD-665315 > tried bathe stack
+TDD-5385887 questioning: bathe stack
+TDD2248979 Rescue #1 _____? nnnnn
+TDD-2249036 attempt: 0 BATHE n n n n n
+TDD3720201 Rescue #1 _____ -ABEHT? YnnnY
+TDD-3720127 attempt: 0 STACK Y n n n Y
+TDD1649732 Rescue #2 _____? nnMnn
+TDD-1649924 attempt: 1 BATHE n n m n n
+TDD1359036 Rescue #2 _____ ~T -ABEH? MMnnn
+TDD-1358989 attempt: 1 STACK m m n n n
+TDD1675524 Rescue #3 _____? YnnMM
+TDD-1675525 attempt: 2 BATHE Y n n m m
+TDD1756273 Rescue #3 B____ ~EH -AT? nnnYn
+TDD-1756229 attempt: 2 STACK n n n Y n
+TDD1918763 Rescue #4 _____? nnnMn
+TDD-1918802 attempt: 3 BATHE n n n m n
+TDD1444766 Rescue #4 _____ ~H -ABET? nnnMn
+TDD-1444730 attempt: 3 STACK n n n m n
+TDD1246630 > *
+TDD631257 ? 1
+TDD-1877961 questioning: trios
+TDD3662482 Rescue #1 S___K -ABCEHT? nnnnM
+TDD-3662398 attempt: 0 TRIOS n n n n m
+TDD1709830 Rescue #2 _____ ~ST -ABCEHK? MnMMM
+TDD-1709886 attempt: 1 TRIOS m n m m m
+TDD1177535 Rescue #3 B__C_ ~EH -AKST? nnnnn
+TDD-1177529 attempt: 2 TRIOS n n n n n
+TDD1336824 Rescue #4 _____ ~CH -ABEKST? nnYnn
+TDD-1336713 attempt: 3 TRIOS n n Y n n
+TDD1218219 > *
+TDD-1218235 questioning: posit
+TDD5266007 Rescue #1 S___K -ABCEHIORT? nnMnn
+TDD-5266101 attempt: 0 POSIT n n m n n
+TDD1299524 Rescue #2 _____ ~IOST -ABCEHKR? YYYYY
+TDD-1299520 attempt: 1 POSIT Y Y Y Y Y
+TDD1401561 Rescue #3 B__C_ ~EH -AIKORST? nnnnn
+TDD-1401572 attempt: 2 POSIT n n n n n
+TDD1257688 Rescue #4 __I__ ~CH -ABEKORST? nnnMn
+TDD-1257727 attempt: 3 POSIT n n n m n
+TDD1164371 > *
+TDD539586 ? 1
+TDD-1703994 questioning: slunk
+TDD3409888 Rescue #1 S___K -ABCEHIOPRT? YnYYY
+TDD-3409800 attempt: 0 SLUNK Y n Y Y Y
+TDD1642206 Rescue #3 B__C_ ~EH -AIKOPRST? nnnMn
+TDD-1642202 attempt: 2 SLUNK n n n m n
+TDD1400991 Rescue #4 __I__ ~CH -ABEKOPRST? nMnnn
+TDD-1400974 attempt: 3 SLUNK n m n n n
+TDD1054500 > *
+TDD-1054302 questioning: skunk
+TDD4436236 Rescue #1 S_UNK -ABCEHILOPRT? YYYYY
+TDD-4436519 attempt: 0 SKUNK Y Y Y Y Y
+TDD2387267 Rescue #3 B__C_ ~EHN -AIKLOPRSTU? nnnMn
+TDD-2387223 attempt: 2 SKUNK n n n m n
+TDD1514214 Rescue #4 __I__ ~CHL -ABEKNOPRSTU? nnnnn
+TDD-1514244 attempt: 3 SKUNK n n n n n
+TDD979570 > *
+TDD-979328 questioning: bench
+TDD3617614 Rescue #3 B__C_ ~EHN -AIKLOPRSTU? YYYYY
+TDD-3617800 attempt: 2 BENCH Y Y Y Y Y
+TDD1306448 Rescue #4 __I__ ~CHL -ABEKNOPRSTU? nnnMM
+TDD-1306454 attempt: 3 BENCH n n n m m
+TDD1169999 > *
+TDD1110712 ? 2
+TDD-2280756 questioning: child
+TDD4734187 Rescue #4 __I__ ~CHL -ABEKNOPRSTU? YYYYY
+TDD-4734141 attempt: 3 CHILD Y Y Y Y Y
+TDD3634371 📋> Daily Rescue 60
+TDD-3634502 📋> 6️⃣4️⃣
+TDD-90 📋> 7️⃣8️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD300032 📋> 
+TDD-99511 📋> ␚
+TDD-200416 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 60\n6\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD48 result: "Daily Rescue 60\n6\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD278648 📆 2026-01-09 ? 
