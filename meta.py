@@ -732,7 +732,7 @@ class Meta(PromptUI.Arguable):
         '''
         day_solves: dict[date|None, set[int]] = {}
         day_sections: dict[date|None, set[str]] = {}
-        for solver_i, day, _note, head, _body in self.read_status(ui):
+        for solver_i, _solver_j, day, _note, head, _body in self.read_status(ui):
             day_solves.setdefault(day, set()).add(solver_i)
             if head:
                 day_sections.setdefault(day, set()).add(head)
@@ -825,16 +825,21 @@ class Meta(PromptUI.Arguable):
                 yield  ' '.join(parts)
 
         def collect_notes():
-            for _solver_i, day, note, _head, _body in self.read_status(ui):
+            for solver_i, solver_j, day, note, _head, _body in self.read_status(ui):
                 if day != today:
                     yield f'! {day} {note}'
-                else:
+                elif solver_i == solver_j:
                     yield f'- {note}'
+                else:
+                    yield f'  - {note}'
 
         def collect_deet_secs():
-            for _solver_i, day, _note, head, body in self.read_status(ui):
+            for solver_i, solver_j, day, _note, head, body in self.read_status(ui):
                 if day == today:
-                    yield head, 1, body
+                    if solver_i == solver_j:
+                        yield head, 1, body
+                    else:
+                        yield head, 2, body
 
         def deet_sec(head: str, body: Iterable[str], level: int=1):
             yield f'{"#"*level} {head}'
@@ -1057,7 +1062,7 @@ class Meta(PromptUI.Arguable):
                 return not had
 
             # uncompleted primary solvers
-            for solver_i, day, note, head, _body in self.read_status(ui):
+            for solver_i, solver_j, day, note, head, _body in self.read_status(ui):
                 if day == today and note:
                     done.add(note)
                     continue
@@ -1067,7 +1072,7 @@ class Meta(PromptUI.Arguable):
                 if proto.site_env != 'prod':
                     continue
                 if once(solver_i):
-                    yield solver_i
+                    yield solver_i, solver_j
 
             for solver_i, solver_j, day, note, head, _body in self.read_status(ui, verbose=False):
                 proto = self.solvers.lib.proto[solver_i]
@@ -1092,8 +1097,20 @@ class Meta(PromptUI.Arguable):
                                 ui.print(f'TODO continue {status} {name} solver from {log_file}')
                         yield solver_i, solver_j
 
-        for solver_i in candidates():
-            name = self.solvers.lib.name[solver_i]
+            # optional secondary solver variants
+            for solver_j in self.solvers.ix:
+                for solver_i in self.solvers.lib.variants(solver_j):
+                    proto = self.solvers.lib.proto[solver_i]
+                    if proto.site_env != 'prod':
+                        continue
+
+                    note = proto.note_slug[0]
+                    dun = any(n.startswith(note) for n in done)
+                    if not dun and once(solver_i):
+                        yield solver_i, solver_j
+
+        for solver_i, solver_j in candidates():
+            name = self.solvers.lib.name[solver_j]
             proto = self.solvers.lib.proto[solver_i]
             desc = (
                 f'[ {self.solvers.ix.index(solver_i)} / {len(self.solvers)} ] {name}'
@@ -1182,7 +1199,6 @@ class Meta(PromptUI.Arguable):
                 if compare_parts(a, b) == 0:
                     extra_head_note[j] = i
                     extra_note_head[i] = j
-                # TODO link siblings/related/alternates?
 
         if verbose:
             for slug, note in zip(solver_notes, notes):
@@ -1204,14 +1220,20 @@ class Meta(PromptUI.Arguable):
             dd_n = note_days[solver_i]
             day = days[dd_n-1] if dd_n else None
             if verbose > 1:
-                ui.print(f'* [{solver_i}] day=[{dd_n-1}]={day} base')
-            yield solver_i, day, notes[solver_i], heads[solver_i], bodys[solver_i]
+                ui.print(f'* [{solver_i},{solver_i}] day=[{dd_n-1}]={day} base')
+            yield solver_i, solver_i, day, notes[solver_i], heads[solver_i], bodys[solver_i]
+
+            for solver_j in self.solvers.lib.variants(solver_i):
+                if solver_j not in self.solvers and notes[solver_j]:
+                    if verbose > 1:
+                        ui.print(f'* [{solver_j},{solver_i}] day=[{dd_n-1}]={day} variant')
+                    yield solver_j, solver_i, day, notes[solver_j], heads[solver_j], bodys[solver_j]
 
         for dd_n, note, head, body in extra_dat:
             day = days[dd_n-1] if dd_n else None
             if verbose > 1:
-                ui.print(f'* [-1] day=[{dd_n-1}]={day} unmatched note={note!r}')
-            yield -1, day, note, head, body
+                ui.print(f'* [-1,-1] day=[{dd_n-1}]={day} unmatched note={note!r}')
+            yield -1, -1, day, note, head, body
 
     def do_status(self, ui: PromptUI):
         '''
@@ -1233,12 +1255,12 @@ class Meta(PromptUI.Arguable):
             f'Solver Status ( verbose={verbose} ):' if verbose else
             f'Solver Status:')
         cont = ''
-        for solver_i, day, note, head, _body in self.read_status(ui, verbose=verbose):
+        for solver_i, solver_j, day, note, head, _body in self.read_status(ui, verbose=verbose):
             name = solvers.name[solver_i] if 0 <= solver_i < len(solvers) else '<No Solver>'
             mark = '❔'
             if day is not None: mark = '✅'
             if head: mark += '📜'
-            if solver_i == solver_i:
+            if solver_i == solver_j:
                 main = f'{name} {day}'
                 cont = ' ' * len(main)
                 write_tokens(ui, PeekIter((
