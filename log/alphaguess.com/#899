@@ -1,0 +1,46 @@
+T63.58632828400005 now: 2026-01-09T08:42:01EST
+TD76 site: alphaguess.com
+TDD142317 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof bd20351d7a53b29c3e98b36441d78784fc6f53e4
+TDD9969867  ...
+TDD-7746758 [0 : 98220 : 196531] mach? a
+TDD-2365366 progress: 1 98220 mach
+TDD1541918 [98221 : 147373 : 196531] rhotic? a
+TDD-1541911 progress: 1 147373 rhotic
+TDD1778234 [147374 : 171643 : 196531] ta? b
+TDD-1778226 progress: -1 171643 ta
+TDD1697501 [147374 : 159490 : 171643] slop? b
+TDD-1697447 progress: -1 159490 slop
+TDD1704497 [147374 : 153322 : 159490] sea? b
+TDD-1704562 progress: -1 153322 sea
+TDD2846202 [147374 : 150344 : 153322] sallow? b
+TDD-2846200 progress: -1 150344 sallow
+TDD6380285 [147374 : 148810 : 150344] rot? b
+TDD-6380307 progress: -1 148810 rot
+TDD2195900 [147374 : 148084 : 148810] river? b
+TDD-2195873 progress: -1 148084 river
+TDD2560297 [147374 : 147699 : 148084] right? b
+TDD-2560332 progress: -1 147699 right
+TDD1602040 [147374 : 147526 : 147699] rick? b
+TDD-1602032 progress: -1 147526 rick
+TDD1490748 [147374 : 147430 : 147526] rib? a
+TDD-1490683 progress: 1 147430 rib
+TDD1489333 [147431 : 147478 : 147526] ribonucleases? a
+TDD-1489386 progress: 1 147478 ribonucleases
+TDD1824540 [147479 : 147496 : 147526] rice? it
+TDD-1824527 progress: 0 147496 rice
+TDD-121 [147479 : 147496 : 147526] <Done>.
+TDD2339259 📋> 🧩 Puzzle #899
+TDD-2339174 📋> 
+TDD-88 📋> 🤔 13 guesses
+TDD-5 📋> 
+TDD0 📋> ⏱️ 27s
+TDD0 📋> 
+TDD312293 📋> 🔗 alphaguess.com
+TDD-140484 📋> ␚
+TDD-171692 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #899\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 27s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-41 result: "\ud83e\udde9 Puzzle #899\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 27s\n\n\ud83d\udd17 alphaguess.com"
+TDD-77 result puzzle: 899
+TDD-6 result guesses: 13
+TDD-2 result time: 27s
+TDD0 result link: alphaguess.com
+TDD291330 📆 2026-01-09 ? 
