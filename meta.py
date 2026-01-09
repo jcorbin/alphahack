@@ -456,43 +456,51 @@ solvers.add('hurdle', make_hurdle)
 
 from nordle import Nordle
 
-# TODO may need changes to support Nordle's kind/mode puzzle_name-ing
-
-def make_quordle(_tokens: PromptUI.Tokens):
-    qu = Nordle()
-    qu.default_site = 'm-w.com/games/quordle'
-    qu.site = qu.default_site
-    qu.log_file = 'quordle.log'
-    qu.wordlist_file = 'nwl2023.txt'
-    qu.kind = 'Quordle'
-    qu.mode = 'Classic'
-    qu.num_words = 4
-    return qu
+def quordle_variant(mode: str, site: str):
+    def make_quordle(_tokens: PromptUI.Tokens):
+        qu = Nordle()
+        qu.default_site = site
+        qu.site = qu.default_site
+        qu.log_file = f'quordle-{mode.lower()}.log'
+        qu.wordlist_file = 'nwl2023.txt'
+        qu.kind = 'Quordle'
+        qu.mode = mode
+        qu.num_words = 4
+        if mode == 'Practice':
+            qu.site_env = 'practice'
+        return qu
+    return make_quordle
 
 solvers.add(
     'quordle',
-    make_quordle,
-    # TODO Daily: Rescue https://m-w.com/games/quordle/#/rescue
-    # TODO Daily: Extreme https://m-w.com/games/quordle/#/extreme
-    # TODO Daily: Sequence https://m-w.com/games/quordle/#/sequence
-    # TODO Daily: Practice https://m-w.com/games/quordle/#/practice
+    quordle_variant('Classic', 'm-w.com/games/quordle/#/'),
+    quordle_variant('Rescue', 'm-w.com/games/quordle/#/rescue'),
+    quordle_variant('Sequence', 'm-w.com/games/quordle/#/sequence'),
+    quordle_variant('Extreme', 'm-w.com/games/quordle/#/extreme'),
+    quordle_variant('Practice', 'm-w.com/games/quordle/#/practice'),
 )
 
-def make_octordle(_tokens: PromptUI.Tokens):
-    oc = Nordle()
-    oc.default_site = 'https://www.britannica.com/games/octordle/daily'
-    oc.site = oc.default_site
-    oc.log_file = 'octordle.log'
-    oc.kind = 'Octordle'
-    oc.mode = 'Classic'
-    oc.num_words = 8
-    oc.wordlist_file = 'nwl2023.txt'
-    return oc
+def octordle_variant(mode: str, site: str):
+    def make_octordle(_tokens: PromptUI.Tokens):
+        oc = Nordle()
+        oc.default_site = site
+        oc.site = oc.default_site
+        oc.log_file = f'octordle-{mode.lower()}.log'
+        oc.kind = 'Octordle'
+        oc.mode = mode
+        oc.num_words = 8
+        oc.wordlist_file = 'nwl2023.txt'
+        if mode == 'Practice':
+            oc.site_env = 'practice'
+        return oc
+    return make_octordle
 
 solvers.add(
     'octordle',
-    make_octordle,
-    # TODO variants
+    octordle_variant('Classic', 'britannica.com/games/octordle/daily'),
+    octordle_variant('Rescue', 'britannica.com/games/octordle/daily-rescue'),
+    octordle_variant('Sequence', 'britannica.com/games/octordle/daily-sequence'),
+    octordle_variant('Extreme', 'britannica.com/games/octordle/extreme'),
 )
 
 from square import Search as Square
