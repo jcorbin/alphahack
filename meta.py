@@ -391,6 +391,46 @@ class SolverLibrary:
         yield ui, solver
         ui.interact(solver)
 
+@final
+class SolverScope:
+    def __init__(self,
+                 lib: SolverLibrary,
+                 ix: Iterable[int]|None=None):
+        self.lib = lib
+        self.ix = list(range(len(lib)) if ix is None else ix)
+        self.log_file = [lib.proto[i].log_file for i in self.ix]
+
+    def __len__(self):
+        return len(self.ix)
+
+    def __iter__(self) -> Generator[int]:
+        yield from self.ix
+
+    def __contains__(self, i: int):
+        return i in self.ix
+
+    def lookup(self, solver_i: int|None=None, name: str=''):
+        if solver_i is None:
+            solver_i = self.lib.by_name.get(name)
+        if solver_i is not None:
+            for j, i in enumerate(self.ix):
+                if i == solver_i:
+                    return j
+
+    def run(self,
+            ui: PromptUI,
+            name: str='',
+            solver_i: int|None=None,
+            log_file: str|None=None):
+        j = self.lookup(solver_i, name)
+        if log_file is None:
+            if j is not None:
+                log_file = self.log_file[j]
+        elif j is not None:
+            ui.print(f'NOTE: remembering log_file={log_file} for {self.lib.name[self.ix[j]]}')
+            self.log_file[j] = log_file
+        return self.lib.run(ui, solver_i=solver_i, name=name, log_file=log_file)
+
 solvers = SolverLibrary()
 
 from binartic import Search as Binartic
@@ -538,9 +578,9 @@ class Meta(Arguable):
 
     def __init__(self):
         super().__init__()
-        self.solver_log = [proto.log_file for proto in solvers.proto]
         self.report = Report()
         self.prompt.mess = self.prompt_mess
+        self.solvers = SolverScope(solvers)
 
         root = self.prompt
 
@@ -710,7 +750,7 @@ class Meta(Arguable):
             if day == today:
                 solved = all(
                     solver_i in solves
-                    for solver_i in range(len(solvers)))
+                    for solver_i in self.solvers)
                 if solved: # TODO and shared
                     prune = True
                 ui.write(f' today solved: {solved}')
@@ -876,15 +916,14 @@ class Meta(Arguable):
         '''
         run solver
         '''
-        with solvers.run(ui, solver_i=solver_i):
+        with self.solvers.run(ui, solver_i=solver_i):
             pass
 
     def do_sol_cont(self, solver_i: int, ui: PromptUI):
         '''
         continue solver run
         '''
-        log_file = self.solver_log[solver_i]
-        with solvers.run(ui, solver_i=solver_i, log_file=log_file):
+        with self.solvers.run(ui, solver_i=solver_i):
             pass
 
     def do_sol_edit(self, solver_i: int, ui: PromptUI):
@@ -892,65 +931,77 @@ class Meta(Arguable):
         open solver log in $EDITOR
         '''
         editor = os.environ.get('EDITOR', 'vi')
-        log_file = self.solver_log[solver_i]
-        with ui.check_proc(subprocess.Popen((editor, log_file))):
-            pass
+        j = self.solvers.lookup(solver_i)
+        if j is not None:
+            log_file = self.solvers.log_file[j]
+            with ui.check_proc(subprocess.Popen((editor, log_file))):
+                pass
 
     def do_sol_cur(self, solver_i: int, ui: PromptUI):
         '''
         use current log file
         '''
-        proto = solvers.proto[solver_i]
-        prior = self.solver_log[solver_i]
-        log_file = proto.log_file
-        self.solver_log[solver_i] = log_file
-        action = 'Reset' if prior != log_file else 'Current'
-        ui.print(f'{action} log file: {log_file}')
+        j = self.solvers.lookup(solver_i)
+        if j is not None:
+            proto = solvers.proto[solver_i]
+            prior = self.solvers.log_file[j]
+            log_file = proto.log_file
+            self.solvers.log_file[j] = log_file
+            action = 'Reset' if prior != log_file else 'Current'
+            ui.print(f'{action} log file: {log_file}')
 
     def do_sol_last(self, solver_i: int, ui: PromptUI):
         '''
         use latest stored solver log
         '''
         proto = solvers.proto[solver_i]
-        log_file = proto.find_prior_log(ui, None)
-        if log_file is None:
-            ui.print(f'! could not find last log file')
-            return
-        ui.print(f'Found last log_file: {log_file}')
-        self.solver_log[solver_i] = log_file
+        j = self.solvers.lookup(solver_i)
+        if j is not None:
+            log_file = proto.find_prior_log(ui, None)
+            if log_file is None:
+                ui.print(f'! could not find last log file')
+                return
+            ui.print(f'Found last log_file: {log_file}')
+            self.solvers.log_file[j] = log_file
 
     def do_sol_ls(self, solver_i: int, ui: PromptUI):
         '''
         list and select from stored solver logs
         '''
         proto = solvers.proto[solver_i]
-        log_file = proto.find_prior_log(ui, '*')
-        if log_file is not None:
-            ui.print(f'Selected log_file: {log_file}')
-            self.solver_log[solver_i] = log_file
+        j = self.solvers.lookup(solver_i)
+        if j is not None:
+            log_file = proto.find_prior_log(ui, '*')
+            if log_file is not None:
+                ui.print(f'Selected log_file: {log_file}')
+                self.solvers.log_file[j] = log_file
 
     def do_sol_rm(self, solver_i: int, ui: PromptUI):
         '''
         remove solver log file
         '''
-        log_file = self.solver_log[solver_i]
-        ui.print(f'+ rm {log_file}')
-        try:
-            os.unlink(log_file)
-        except OSError as err:
-            ui.print(f'! {err}')
+        j = self.solvers.lookup(solver_i)
+        if j is not None:
+            log_file = self.solvers.log_file[j]
+            ui.print(f'+ rm {log_file}')
+            try:
+                os.unlink(log_file)
+            except OSError as err:
+                ui.print(f'! {err}')
 
     def do_sol_tail(self, solver_i: int, ui: PromptUI):
         '''
         show last N lines from solver log file
         '''
-        log_file = self.solver_log[solver_i]
-        tail_n = (
-            3 if ui.screen_lines < 10 else
-            10 if ui.screen_lines < 20 else
-            ui.screen_lines//2)
-        with ui.check_proc(subprocess.Popen(('tail', f'-n{tail_n}', log_file))):
-            pass
+        j = self.solvers.lookup(solver_i)
+        if j is not None:
+            log_file = self.solvers.log_file[j]
+            tail_n = (
+                3 if ui.screen_lines < 10 else
+                10 if ui.screen_lines < 20 else
+                ui.screen_lines//2)
+            with ui.check_proc(subprocess.Popen(('tail', f'-n{tail_n}', log_file))):
+                pass
 
     def do_review(self, ui: PromptUI):
         try:
@@ -986,10 +1037,10 @@ class Meta(Arguable):
         days = tuple(day for _, day, _, _, _ in status)
         notes = tuple(note for _, _, note, _, _ in status)
         names = tuple(
-            solvers.name[solver_i]
+            self.solvers.lib.name[solver_i]
             for solver_i in solver_for)
         protos = tuple(
-            solvers.proto[solver_i]
+            self.solvers.lib.proto[solver_i]
             for solver_i in solver_for)
         states = tuple(
             ( 'todo' if day is None else
@@ -1105,7 +1156,7 @@ class Meta(Arguable):
         name = solvers.name[solver_i]
         proto = solvers.proto[solver_i]
         ui.print(f'Running {proto.name}')
-        with solvers.run(ui, solver_i=solver_i, log_file=log_file):
+        with self.solvers.run(ui, solver_i=solver_i, log_file=log_file):
             return
 
     def do_list_solvers(self, ui: PromptUI):
@@ -1118,6 +1169,7 @@ class Meta(Arguable):
             ui.print(f'{solver_i + 1}. {name} site:{proto.site!r} slug:{note!r}')
 
     def read_status(self, ui: PromptUI, verbose: int=0):
+        solvers = self.solvers.lib
         solver_notes = tuple(proto.note_slug[0] for proto in solvers.proto)
         solver_heads = tuple(proto.header_slug[0] for proto in solvers.proto)
 
@@ -1203,7 +1255,7 @@ class Meta(Arguable):
             for (note, dd_n, head_i) in zip(extra_note, extra_note_days, extra_note_head)
             if head_i >= 0]
 
-        for solver_i in range(len(solvers)):
+        for solver_i in self.solvers:
             dd_n = note_days[solver_i]
             day = days[dd_n-1] if dd_n else None
             if verbose > 1:
