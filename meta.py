@@ -1199,17 +1199,26 @@ class Meta(PromptUI.Arguable):
         ui.print(
             f'Solver Status ( verbose={verbose} ):' if verbose else
             f'Solver Status:')
+        cont = ''
         for solver_i, day, note, head, _body in self.read_status(ui, verbose=verbose):
             name = solvers.name[solver_i] if 0 <= solver_i < len(solvers) else '<No Solver>'
             mark = '❔'
             if day is not None: mark = '✅'
             if head: mark += '📜'
-            main = f'{name} {day}'
-            write_tokens(ui, PeekIter((
-                f'{mark}',
-                main,
-                *marked_tokenize(note)
-            )))
+            if solver_i == solver_i:
+                main = f'{name} {day}'
+                cont = ' ' * len(main)
+                write_tokens(ui, PeekIter((
+                    f'{mark}',
+                    main,
+                    *marked_tokenize(note)
+                )))
+            else:
+                write_tokens(ui, PeekIter((
+                    f'{mark}',
+                    cont,
+                    *marked_tokenize(note)
+                )))
         self.shell.re = max(1, self.shell.re)
 
 @final
