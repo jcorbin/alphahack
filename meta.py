@@ -297,20 +297,36 @@ class SolverLibrary:
         self.make: list[SolverMaker] = []
         self.proto: list[StoredLog] = []
         self.by_name: dict[str, int] = {}
+        self.base: list[int] = list()
+        self.next: list[int] = list()
 
     def __len__(self):
         return len(self.name)
 
     def __iter__(self):
         for i, name in enumerate(self.name):
-            yield name, i
+            if self.base[i] == i:
+                yield name, i
 
-    def add(self, name: str, maker: SolverMaker):
-        solver_i = len(self.name)
-        self.name.append(name)
-        self.make.append(maker)
-        self.proto.append(maker(PromptUI.Tokens()))
-        _ = self.by_name.setdefault(name, solver_i)
+    def base_ix(self):
+        for i, base in enumerate(self.base):
+            if base == i:
+                yield i
+
+    def add(self, name: str, *makers: SolverMaker):
+        base = len(self.name)
+        last: int = -1
+        for maker in makers:
+            solver_i = len(self.name)
+            self.name.append(name)
+            self.make.append(maker)
+            self.proto.append(maker(PromptUI.Tokens()))
+            self.next.append(solver_i)
+            self.base.append(base)
+            _ = self.by_name.setdefault(name, solver_i)
+            if last != -1:
+                self.next[last] = solver_i
+            last = solver_i
 
     def match(self, nom: str):
         nom = nom.lower()
@@ -325,6 +341,15 @@ class SolverLibrary:
             if solver_i is None:
                 return
         yield solver_i
+        solver_j = self.next[solver_i]
+        while solver_j != solver_i:
+            yield solver_j
+            solver_i, solver_j = solver_j, self.next[solver_j]
+
+    def variants(self, solver_i: int):
+        for solver_j in self.lookup(solver_i):
+            if solver_j != solver_i:
+                yield solver_j
 
     @contextmanager
     def run(self,
