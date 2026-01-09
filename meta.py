@@ -26,7 +26,10 @@ from ui import PromptUI
 
 def read_tmuxenv():
     try:
-        showenv = subprocess.Popen(('tmux', 'showenv'), stdout=subprocess.PIPE, text=True)
+        showenv = subprocess.Popen(('tmux', 'showenv'),
+                                   stdout=subprocess.PIPE,
+                                   stderr=subprocess.DEVNULL,
+                                   text=True)
     except FileNotFoundError:
         return False
     assert showenv.stdout is not None
