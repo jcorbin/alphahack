@@ -981,10 +981,10 @@ class Meta(Arguable):
     def read_status(self, ui: PromptUI, verbose: bool=False):
 
         days: list[datetime.date] = []
-        notes: list[str] = ['' for _ in solver_notes]
-        note_days: list[int] = [0 for _ in solver_notes]
-        heads: list[str] = ['' for _ in solver_heads]
-        bodys: list[tuple[str, ...]] = [() for _ in solver_heads]
+        notes: list[str] = [''] * len(solver_harness)
+        note_days: list[int] = [0] * len(solver_harness)
+        heads: list[str] = [''] * len(solver_harness)
+        bodys: list[tuple[str, ...]] = [()] * len(solver_harness)
 
         for _level, text, body in self.report.sections():
             m = re.match(r'(?x) (\d{4}) [-_/.]? (\d{2}) [-_/.]? (\d{2})', text.strip())
