@@ -603,6 +603,7 @@ class Meta(PromptUI.Arguable):
                 'ls': partial(self.do_sol_ls, solver_i),
                 'rm': partial(self.do_sol_rm, solver_i),
                 'tail': partial(self.do_sol_tail, solver_i),
+                'variant': partial(self.do_sol_variant, solver_i),
             }
 
         root['meta/all/rm'] = self.do_all_rm
@@ -923,6 +924,40 @@ class Meta(PromptUI.Arguable):
         run solver
         '''
         with self.solvers.run(ui, solver_i=solver_i):
+            pass
+
+    def do_sol_variant(self, solver_i: int, ui: PromptUI):
+        name =self.solvers.lib.name[solver_i]
+        i_notes = tuple(
+            (solver_j, self.solvers.lib.proto[solver_j].note_slug[0])
+            for solver_j in self.solvers.lib.lookup(solver_i))
+
+        if not ui.tokens:
+            ui.print(f'{name} variants')
+            for _, note in i_notes: ui.print(f'- {note}')
+            return
+
+        toke = next(ui.tokens)
+        tok = toke.lower()
+        tok_i_notes = tuple(
+            (i, note)
+            for i, note in i_notes
+            if tok in note.lower())
+
+        if not tok_i_notes:
+            ui.print(f'! no such {name} variant {toke!r}; choose one of:')
+            for _, note in i_notes: ui.print(f'- {note}')
+            return
+
+        if len(tok_i_notes) > 1:
+            ui.print(f'! ambiguous {name} variant {toke!r}; may be:')
+            for _, note in tok_i_notes: ui.print(f'- {note}')
+            return
+
+        assert len(tok_i_notes) == 1
+        solver_j, note = tok_i_notes[0]
+        ui.print(f'running {note} variant of {name}')
+        with self.solvers.run(ui, solver_i=solver_j):
             pass
 
     def do_sol_cont(self, solver_i: int, ui: PromptUI):
