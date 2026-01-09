@@ -1,0 +1,99 @@
+T802.5592009849934 now: 2026-01-09T08:54:20EST
+TD104 site: squareword.org
+TDD-83 wordlist: nwl2023.txt
+TDD2660111  ...
+TDD244214 🧩  ? #1439
+TDD-2904049 puzzle_id: #1439
+TDD7022065 > 8
+TDD-6124038 > *
+TDD77040 try? 1
+TDD-975083 questioning: ["steal", "#5"]
+TDD4363170 #1 <IndexError>  📋 "steal" ? _____ ~ EL
+TDD-4362756 attempt 0 STEAL n n m n m
+TDD2044512 #2 <IndexError>  📋 "steal" ? _____ ~ E
+TDD-2044978 attempt 1 STEAL n n m n n
+TDD2814373 #3 <IndexError>  📋 "steal" ? _T___ ~ TE
+TDD-2814326 attempt 2 STEAL n Y m n n
+TDD2064373 #4 <IndexError>  📋 "steal" ? __EA_ ~ T
+TDD-2064333 attempt 3 STEAL n m Y Y n
+TDD3337205 #5 <IndexError>  📋 "steal" ? _____ ~ SEAL
+TDD-3337332 attempt 4 STEAL m n m m m
+TDD646984 ? *
+TDD1512261 #6 <IndexError>  📋 "steal" ? ␚
+TDD-2159340 question done
+TDD1411817 > *
+TDD517789 try? 1
+TDD-1929381 questioning: ["great", "#4"]
+TDD5013136 #1 _____ ~EL -AST  📋 "great" ? _____ ~ ELR
+TDD-5013240 attempt 0 GREAT n m m n n
+TDD1422149 #2 _____ ~E -ALST  📋 "great" ? .
+TDD-1422058 attempt 1 GREAT n n m n n
+TDD2806626 #3 _T___ ~E -ALS  📋 "great" ? _T___ ~ TER
+TDD-2806660 attempt 2 GREAT n m m n m
+TDD1222374 #4 __EA_ ~T -LS  📋 "great" ? /it
+TDD-1222364 attempt 3 GREAT Y Y Y Y Y
+TDD3680356 #5 _____ ~AELS -T  📋 "great" ? _____ ~ SEALR
+TDD-3680345 attempt 4 GREAT n m m m n
+TDD947939 ? 
+TDD-948112 question done
+TDD674162 > *
+TDD6662 questioning: ["earls", "#5"]
+TDD3549091 #1 _____ ~ELR -AGST  📋 "earls" ? .
+TDD-4229823 attempt 0 EARLS m n m m n
+TDD764094 #2 _____ ~E -AGLRST  📋 "earls" ? .
+TDD-764027 attempt 1 EARLS m n n n n
+TDD2841576 #3 _T___ ~ER -AGLS  📋 "earls" ? _T___ ~ TER
+TDD-2841563 attempt 2 EARLS m n m n n
+TDD699885 #5 _____ ~AELRS -GT  📋 "earls" ? /it
+TDD-699895 attempt 4 EARLS Y Y Y Y Y
+TDD218000 ? 
+TDD-218137 question done
+TDD921730 > *
+TDD2450574 try? 1
+TDD-3372233 questioning: ["ither", "#3"]
+TDD5494434 #1 _____ ~ELR -AGST  📋 "ither" ? _____ ~ ELRI
+TDD-5494323 attempt 0 ITHER m n n m m
+TDD2696826 #2 _____ ~E -AGLRST  📋 "ither" ? _____ ~ EI
+TDD-2696879 attempt 1 ITHER m n n m n
+TDD2600522 #3 _T___ ~ER -AGLS  📋 "ither" ? _T_ER ~ T
+TDD-2600495 attempt 2 ITHER n Y n Y Y
+TDD710377 ? 
+TDD-710521 question done
+TDD7229970 > *
+TDD-6138521 questioning: ["relic", "#1"]
+TDD2485954 #1 _____ ~EILR -AGHST  📋 "relic" ? /it
+TDD-3577288 attempt 0 RELIC Y Y Y Y Y
+TDD1300179 #2 _____ ~EI -AGHLRST  📋 "relic" ? .
+TDD-1300148 attempt 1 RELIC n m n m n
+TDD3279827 #3 _T_ER -AGHILS  📋 "relic" ? _T_ER ~ T
+TDD-3279846 attempt 2 RELIC n n n n n
+TDD212160 ? 
+TDD-212292 question done
+TDD733594 > *
+TDD620311 questioning: ["oxide", "#2"]
+TDD2779737 #2 _____ ~EI -ACGHLRST  📋 "oxide" ? /it
+TDD-4133478 attempt 1 OXIDE Y Y Y Y Y
+TDD2426270 #3 _T_ER -ACEGHILRS  📋 "oxide" ? _T_ER ~ T
+TDD-2426317 attempt 2 OXIDE n n n n n
+TDD427403 ? 
+TDD-427559 question done
+TDD561865 > *
+TDD373723 questioning: ["utter", "#3"]
+TDD2104844 #3 _T_ER -ACDEGHILORSX  📋 "utter" ? /it
+TDD-3040331 attempt 2 UTTER Y Y Y Y Y
+TDD1531359 ? 
+TDD-1531411 question done
+TDD3696961 📋> squareword.org 1439: 7 guesses
+TDD-3697033 📋> 
+TDD-72 📋> 🟩🟩🟩🟩🟩
+TDD-10 📋> 🟨🟨🟨🟨🟨
+TDD2 📋> 🟨🟩🟨🟩🟩
+TDD1 📋> 🟩🟩🟩🟩🟩
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD296385 📋> #squareword #squareword1439
+TDD-118263 📋> ␚
+TDD-178033 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1439: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1439"}
+TDD424 result: "squareword.org 1439: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1439"
+TDD237103 📆 2026-01-09 ? 
