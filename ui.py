@@ -201,11 +201,20 @@ def term_osc_seq(code: int, *args: str):
 
 @final
 class OSC52Clipboard:
+    notified: bool = False
+
+    def _maybe_not(self):
+        if not self.notified:
+            self.notified = True
+            print('WARNING: OSC-52 past not-implemented', file=sys.stderr)
+
     @property
     def name(self): return 'osc52'
 
     def can_copy(self): return True
-    def can_paste(self): return False
+    def can_paste(self):
+        self._maybe_not()
+        return False
 
     def copy(self, mess: str):
         # TODO print directly to tty? stderr? /dev/fd/2?
@@ -214,6 +223,7 @@ class OSC52Clipboard:
         print(term_osc_seq(52, 'c', encoded_str), end='')
 
     def paste(self):
+        self._maybe_not()
         # TODO implement
         return ''
 
@@ -243,7 +253,6 @@ if pyperclip and pyperclip.is_available():
     DefaultClipboard = Pyperclip()
 
 else:
-    print('WARNING: falling back on OSC-52 half-implemented clipboard', file=sys.stderr)
     DefaultClipboard = OSC52Clipboard()
 
 @final
