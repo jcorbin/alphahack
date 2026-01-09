@@ -1,0 +1,66 @@
+T497.88757996298955 now: 2026-01-09T08:49:15EST
+TD117 site: m-w.com/games/quordle/#/
+TDD-94 wordlist: nwl2023.txt
+TDD-15 num_words: 4
+TDD5333054  ...
+TDD-3871971 > *
+TDD-554862 ? 1
+TDD-906063 questioning: steal
+TDD2896316 Classic #1 _____? nMnMn
+TDD-2896216 attempt: 0 STEAL n m n m n
+TDD1953884 Classic #2 _____? nnMYY
+TDD-1953886 attempt: 1 STEAL n n m Y Y
+TDD1970590 Classic #3 _____? nMYnM
+TDD-1970667 attempt: 2 STEAL n m Y n m
+TDD1637008 Classic #4 _____? nMMMn
+TDD-1636919 attempt: 3 STEAL n m m m n
+TDD1298137 > *
+TDD-515815 ? 1
+TDD-782406 questioning: canto
+TDD3917304 Classic #1 _____ ~AT -ELS? YMnMn
+TDD-3917293 attempt: 0 CANTO Y m n m n
+TDD1280805 Classic #2 ___AL ~E -ST? MMnnn
+TDD-1280624 attempt: 1 CANTO m m n n n
+TDD1256121 Classic #3 __E__ ~LT -AS? nnnMn
+TDD-1256288 attempt: 2 CANTO n n n m n
+TDD1570303 Classic #4 _____ ~AET -LS? nMnMn
+TDD-1570254 attempt: 3 CANTO n m n m n
+TDD3301413 > *
+TDD-643615 ? 2
+TDD-2657855 questioning: decal
+TDD7179199 Classic #1 C____ ~AT -ELNOS? nnMMn
+TDD-7179145 attempt: 0 DECAL n n m m n
+TDD1544789 Classic #2 ___AL ~CE -NOST? YYYYY
+TDD-1544776 attempt: 1 DECAL Y Y Y Y Y
+TDD1678567 Classic #3 __E__ ~LT -ACNOS? YMnnM
+TDD-1678598 attempt: 2 DECAL Y m n n m
+TDD1734107 Classic #4 _____ ~AET -CLNOS? MMnMn
+TDD-1734072 attempt: 3 DECAL m m n m n
+TDD1097496 > *
+TDD-1097426 questioning: dwelt
+TDD7164771 Classic #1 C____ ~AT -DELNOS? nnnnY
+TDD-7164882 attempt: 0 DWELT n n n n Y
+TDD1800735 Classic #3 D_E__ ~LT -ACNOS? YYYYY
+TDD-1800731 attempt: 2 DWELT Y Y Y Y Y
+TDD2161351 Classic #4 _____ ~ADET -CLNOS? MnMnM
+TDD-2161414 attempt: 3 DWELT m n m n m
+TDD1604885 > *
+TDD-1604618 questioning: trade
+TDD8312307 Classic #1 C___T ~A -DELNOSW? MYYnn
+TDD-8312479 attempt: 0 TRADE m Y Y n n
+TDD2498879 Classic #4 _____ ~ADET -CLNOSW? YYYYY
+TDD-2498919 attempt: 3 TRADE Y Y Y Y Y
+TDD974017 > *
+TDD-973888 questioning: craft
+TDD4414378 Classic #1 CRA_T -DELNOSW? YYYYY
+TDD-4414490 attempt: 0 CRAFT Y Y Y Y Y
+TDD1277186 📋> 
+TDD2414057 📋> 🙂 Daily Quordle 1446
+TDD-3691381 📋> 6️⃣3️⃣
+TDD-93 📋> 4️⃣5️⃣
+TDD-6 📋> m-w.com/games/quordle/
+TDD335610 📋> 
+TDD-199428 📋> ␚
+TDD-136065 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\n\ud83d\ude42 Daily Quordle 1446\n6\ufe0f\u20e33\ufe0f\u20e3\n4\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD994 result: "\n\ud83d\ude42 Daily Quordle 1446\n6\ufe0f\u20e33\ufe0f\u20e3\n4\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD234117 📆 2026-01-09 ? 
