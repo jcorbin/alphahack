@@ -1,0 +1,219 @@
+T338.9275926429982 now: 2026-01-09T09:23:20EST
+TD128 site: britannica.com/games/octordle/daily-sequence
+TDD-104 wordlist: nwl2023.txt
+TDD-15 num_words: 8
+TDD5649882  ...
+TDD-4326084 > *
+TDD-107818 ? 1
+TDD-1215792 questioning: saner
+TDD2829695 Sequence #1 _____? nMnnn
+TDD-2829691 attempt: 0 SANER n m n n n
+TDD1310374 > *
+TDD-344632 ? 1
+TDD-965738 questioning: louma
+TDD3548453 Sequence #1 _____ ~A -ENRS? nnMnM
+TDD-3548428 attempt: 0 LOUMA n n m n m
+TDD1578521 > *
+TDD-631704 ? 1
+TDD-946846 questioning: aught
+TDD4974864 Sequence #1 _____ ~AU -ELMNORS? MYnnn
+TDD-4974821 attempt: 0 AUGHT m Y n n n
+TDD1321802 > *
+TDD442766 ? 2
+TDD-1764609 questioning: quack
+TDD2701696 Sequence #1 _U___ ~A -EGHLMNORST? YYYYY
+TDD-2701662 attempt: 0 QUACK Y Y Y Y Y
+TDD-173 questioning: SANER
+TDD2414889 Sequence #2 _____? nnMnn
+TDD-2414702 attempt: 1 SANER n n m n n
+TDD-178 questioning: LOUMA
+TDD1143765 Sequence #2 _____ ~N -AERS? nnnnn
+TDD-1143577 attempt: 1 LOUMA n n n n n
+TDD-199 questioning: AUGHT
+TDD1351494 Sequence #2 _____ ~N -AELMORSU? nnnMM
+TDD-1351385 attempt: 1 AUGHT n n n m m
+TDD-129 questioning: QUACK
+TDD1302011 Sequence #2 _____ ~HNT -AEGLMORSU? nnnnY
+TDD-1301793 attempt: 1 QUACK n n n n Y
+TDD1252434 > *
+TDD-1252262 questioning: think
+TDD5239542 Sequence #2 ____K ~HNT -ACEGLMOQRSU? YYYYY
+TDD-5239735 attempt: 1 THINK Y Y Y Y Y
+TDD-179 questioning: SANER
+T14.148531440005172 now: 2026-01-09T09:24:27EST
+TD65 questioning: SANER
+TDD4161566 Sequence #3 _____? MnnMM
+TDD-4161350 attempt: 2 SANER m n n m m
+TDD-194 questioning: LOUMA
+TDD2175828 Sequence #3 _____ ~ERS -AN? nnYnn
+TDD-2175644 attempt: 2 LOUMA n n Y n n
+TDD-208 questioning: AUGHT
+TDD1310446 Sequence #3 __U__ ~ERS -ALMNO? nMnnn
+TDD-1310268 attempt: 2 AUGHT n m n n n
+TDD-185 questioning: QUACK
+TDD2352568 Sequence #3 __U__ ~ERS -AGHLMNOT? nMnnn
+TDD-2352370 attempt: 2 QUACK n m n n n
+TDD-192 questioning: THINK
+TDD1563507 Sequence #3 __U__ ~ERS -ACGHKLMNOQT? nnnnn
+TDD-1563301 attempt: 2 THINK n n n n n
+TDD1587947 > *
+TDD1468806 ? 3
+TDD-3056785 questioning: reuse
+TDD5344752 Sequence #3 __U__ ~ERS -ACGHIKLMNOQT? YYYYY
+TDD-5344747 attempt: 2 REUSE Y Y Y Y Y
+TDD-180 questioning: SANER
+TDD1045678 Sequence #4 _____? ␚
+TDD-1045631 <EOF>
+TDD1654379 > ␚
+T28.876553327019792 now: 2026-01-09T11:57:47EST
+TD149 questioning: SANER
+TDD12842071 Sequence #4 _____? YnMnn
+TDD-12842031 attempt: 3 SANER Y n m n n
+TDD-139 questioning: LOUMA
+TDD3282615 Sequence #4 S____ ~N -AER? nMnnn
+TDD-3282446 attempt: 3 LOUMA n m n n n
+TDD-164 questioning: AUGHT
+TDD1283985 Sequence #4 S____ ~NO -AELMRU? nnnnM
+TDD-1283823 attempt: 3 AUGHT n n n n m
+TDD-172 questioning: QUACK
+TDD3244347 Sequence #4 S____ ~NOT -AEGHLMRU? nnnnn
+TDD-3244122 attempt: 3 QUACK n n n n n
+TDD-188 questioning: THINK
+TDD2187552 Sequence #4 S____ ~NOT -ACEGHKLMQRU? MnnYn
+TDD-2187438 attempt: 3 THINK m n n Y n
+TDD-151 questioning: REUSE
+TDD1509229 Sequence #4 S__N_ ~OT -ACEGHIKLMQRU? nnnMn
+TDD-1509100 attempt: 3 REUSE n n n m n
+TDD1196109 > *
+TDD-1195654 questioning: stony
+TDD5958140 Sequence #4 S__N_ ~OT -ACEGHIKLMQRU? YYYYY
+TDD-5958577 attempt: 3 STONY Y Y Y Y Y
+TDD-151 questioning: SANER
+TDD2970533 Sequence #5 _____? MnnMM
+TDD-2970281 attempt: 4 SANER m n n m m
+TDD-228 questioning: LOUMA
+TDD1881128 Sequence #5 _____ ~ERS -AN? nYnnn
+TDD-1880947 attempt: 4 LOUMA n Y n n n
+TDD-184 questioning: AUGHT
+TDD1619229 Sequence #5 _O___ ~ERS -ALMNU? nnnnn
+TDD-1619088 attempt: 4 AUGHT n n n n n
+TDD-157 questioning: QUACK
+TDD5590567 Sequence #5 _O___ ~ERS -AGHLMNTU? nnnnn
+TDD-5588172 attempt: 4 QUACK n n n n n
+TDD-2386 questioning: THINK
+TDD1930960 Sequence #5 _O___ ~ERS -ACGHKLMNQTU? nnnnn
+TDD-1930769 attempt: 4 THINK n n n n n
+TDD-180 questioning: REUSE
+TDD2323974 Sequence #5 _O___ ~ERS -ACGHIKLMNQTU? MnnYY
+TDD-2323853 attempt: 4 REUSE m n n Y Y
+TDD-128 questioning: STONY
+TDD1933139 Sequence #5 _O_SE ~R -ACGHIKLMNQTU? MnMnn
+TDD-1933010 attempt: 4 STONY m n m n n
+TDD1374165 > *
+TDD-1373840 questioning: worse
+TDD4810931 Sequence #5 _O_SE ~R -ACGHIKLMNQTUY? YYYYY
+TDD-4811156 attempt: 4 WORSE Y Y Y Y Y
+TDD-146 questioning: SANER
+TDD1587378 Sequence #6 _____? nMMnM
+TDD-1587318 attempt: 5 SANER n m m n m
+TDD-123 questioning: LOUMA
+TDD1434904 Sequence #6 _____ ~ANR -ES? nnnnM
+TDD-1434678 attempt: 5 LOUMA n n n n m
+TDD-221 questioning: AUGHT
+TDD1383483 Sequence #6 _____ ~ANR -ELMOSU? Mnnnn
+TDD-1383386 attempt: 5 AUGHT m n n n n
+TDD-127 questioning: QUACK
+TDD4030549 Sequence #6 _____ ~ANR -EGHLMOSTU? nnYnY
+TDD-4030415 attempt: 5 QUACK n n Y n Y
+TDD-139 questioning: THINK
+TDD2384157 Sequence #6 __A_K ~NR -CEGHLMOQSTU? nnnYY
+TDD-2384019 attempt: 5 THINK n n n Y Y
+TDD-136 questioning: REUSE
+TDD2216906 Sequence #6 __ANK ~R -CEGHILMOQSTU? Mnnnn
+TDD-2216716 attempt: 5 REUSE m n n n n
+TDD-170 questioning: STONY
+TDD3565706 Sequence #6 __ANK ~R -CEGHILMOQSTU? nnnYn
+TDD-3565586 attempt: 5 STONY n n n Y n
+TDD-140 questioning: WORSE
+TDD1619803 Sequence #6 __ANK ~R -CEGHILMOQSTUY? nnMnn
+TDD-1619666 attempt: 5 WORSE n n m n n
+TDD920659 > *
+TDD2065787 ? 1
+TDD-2986420 questioning: drank
+TDD3136103 Sequence #6 __ANK ~R -CEGHILMOQSTUWY? YYYYY
+TDD-3136035 attempt: 5 DRANK Y Y Y Y Y
+TDD-181 questioning: SANER
+TDD2422583 Sequence #7 _____? nnnnn
+TDD-2422489 attempt: 6 SANER n n n n n
+TDD-143 questioning: LOUMA
+TDD2156771 Sequence #7 _____ -AENRS? nYnnn
+TDD-2156636 attempt: 6 LOUMA n Y n n n
+TDD-136 questioning: AUGHT
+TDD1397274 Sequence #7 _O___ -AELMNRSU? nnnnn
+TDD-1397140 attempt: 6 AUGHT n n n n n
+TDD-131 questioning: QUACK
+TDD1278325 Sequence #7 _O___ -AEGHLMNRSTU? nnnnn
+TDD-1278127 attempt: 6 QUACK n n n n n
+TDD-180 questioning: THINK
+TDD1566026 Sequence #7 _O___ -ACEGHKLMNQRSTU? nnnnn
+TDD-1565913 attempt: 6 THINK n n n n n
+TDD-129 questioning: REUSE
+TDD1613509 Sequence #7 _O___ -ACEGHIKLMNQRSTU? nnnnn
+TDD-1613312 attempt: 6 REUSE n n n n n
+TDD-176 questioning: STONY
+TDD2214378 Sequence #7 _O___ -ACEGHIKLMNQRSTU? nnMnY
+TDD-2214249 attempt: 6 STONY n n m n Y
+TDD-150 questioning: WORSE
+TDD1844151 Sequence #7 _O__Y -ACEGHIKLMNQRSTU? MYnnn
+TDD-1843892 attempt: 6 WORSE m Y n n n
+TDD-238 questioning: DRANK
+TDD1805808 Sequence #7 _O__Y ~W -ACEGHIKLMNQRSTU? Ynnnn
+TDD-1805624 attempt: 6 DRANK Y n n n n
+TDD1215941 > *
+TDD-1215857 questioning: dowdy
+TDD3630693 Sequence #7 DO__Y ~W -ACEGHIKLMNQRSTU? YYYYY
+TDD-3630756 attempt: 6 DOWDY Y Y Y Y Y
+TDD-206 questioning: SANER
+TDD2531326 Sequence #8 _____? nnMMn
+TDD-2531203 attempt: 7 SANER n n m m n
+TDD-139 questioning: LOUMA
+TDD1421285 Sequence #8 _____ ~EN -ARS? nnnYn
+TDD-1421144 attempt: 7 LOUMA n n n Y n
+TDD-141 questioning: AUGHT
+TDD1312122 Sequence #8 ___M_ ~EN -ALORSU? nnnnn
+TDD-1311939 attempt: 7 AUGHT n n n n n
+TDD-168 questioning: QUACK
+TDD1189467 Sequence #8 ___M_ ~EN -AGHLORSTU? nnnnn
+TDD-1189340 attempt: 7 QUACK n n n n n
+TDD-138 questioning: THINK
+TDD1980290 Sequence #8 ___M_ ~EN -ACGHKLOQRSTU? nnnMn
+TDD-1980133 attempt: 7 THINK n n n m n
+TDD-158 questioning: REUSE
+TDD1518761 Sequence #8 ___M_ ~EN -ACGHIKLOQRSTU? nMnnM
+TDD-1518548 attempt: 7 REUSE n m n n m
+TDD-195 questioning: STONY
+TDD1487113 Sequence #8 ___M_ ~EN -ACGHIKLOQRSTU? nnnMY
+TDD-1486919 attempt: 7 STONY n n n m Y
+TDD-192 questioning: WORSE
+TDD1591414 Sequence #8 ___MY ~EN -ACGHIKLOQRSTU? nnnnM
+TDD-1591239 attempt: 7 WORSE n n n n m
+TDD-175 questioning: DRANK
+TDD1622722 Sequence #8 ___MY ~EN -ACGHIKLOQRSTUW? nnnMn
+TDD-1622576 attempt: 7 DRANK n n n m n
+TDD-150 questioning: DOWDY
+TDD1292897 Sequence #8 ___MY ~EN -ACDGHIKLOQRSTUW? nnnnY
+TDD-1292777 attempt: 7 DOWDY n n n n Y
+TDD1955890 > *
+TDD-1955605 questioning: enemy
+TDD3596223 Sequence #8 ___MY ~EN -ACDGHIKLOQRSTUW? YYYYY
+TDD-3596488 attempt: 7 ENEMY Y Y Y Y Y
+TDD3679734 📋> Daily Sequence Octordle #1446
+TDD-3679817 📋> 4️⃣5️⃣
+TDD-92 📋> 6️⃣7️⃣
+TDD-5 📋> 8️⃣9️⃣
+TDD0 📋> 🔟🕚
+TDD289344 📋> Score: 60
+TDD21773 📋> ␚
+TDD-311024 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Octordle #1446\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\nScore: 60"}
+TDD710 result: "Daily Sequence Octordle #1446\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\nScore: 60"
+TDD312509 📆 2026-01-09 ? 
