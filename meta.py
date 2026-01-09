@@ -340,20 +340,36 @@ class SolverLibrary:
         self.make: list[SolverMaker] = []
         self.proto: list[StoredLog] = []
         self.by_name: dict[str, int] = {}
+        self.base: list[int] = list()
+        self.next: list[int] = list()
 
     def __len__(self):
         return len(self.name)
 
     def __iter__(self):
         for i, name in enumerate(self.name):
-            yield name, i
+            if self.base[i] == i:
+                yield name, i
 
-    def add(self, name: str, maker: SolverMaker):
-        solver_i = len(self.name)
-        self.name.append(name)
-        self.make.append(maker)
-        self.proto.append(maker(PromptUI.Tokens()))
-        _ = self.by_name.setdefault(name, solver_i)
+    def base_ix(self):
+        for i, base in enumerate(self.base):
+            if base == i:
+                yield i
+
+    def add(self, name: str, *makers: SolverMaker):
+        base = len(self.name)
+        last: int = -1
+        for maker in makers:
+            solver_i = len(self.name)
+            self.name.append(name)
+            self.make.append(maker)
+            self.proto.append(maker(PromptUI.Tokens()))
+            self.next.append(solver_i)
+            self.base.append(base)
+            _ = self.by_name.setdefault(name, solver_i)
+            if last != -1:
+                self.next[last] = solver_i
+            last = solver_i
 
     def match(self, nom: str):
         nom = nom.lower()
@@ -368,6 +384,15 @@ class SolverLibrary:
             if solver_i is None:
                 return
         yield solver_i
+        solver_j = self.next[solver_i]
+        while solver_j != solver_i:
+            yield solver_j
+            solver_i, solver_j = solver_j, self.next[solver_j]
+
+    def variants(self, solver_i: int):
+        for solver_j in self.lookup(solver_i):
+            if solver_j != solver_i:
+                yield solver_j
 
     @contextmanager
     def run(self,
@@ -402,7 +427,7 @@ class SolverScope:
                  lib: SolverLibrary,
                  ix: Iterable[int]|None=None):
         self.lib = lib
-        self.ix = list(range(len(lib)) if ix is None else ix)
+        self.ix = list(lib.base_ix() if ix is None else ix)
         self.log_file = [lib.proto[i].log_file for i in self.ix]
 
     def __len__(self):
@@ -616,6 +641,7 @@ class Meta(Arguable):
                 'ls': partial(self.do_sol_ls, solver_i),
                 'rm': partial(self.do_sol_rm, solver_i),
                 'tail': partial(self.do_sol_tail, solver_i),
+                'variant': partial(self.do_sol_variant, solver_i),
             }.items():
                 root[f'{path}{name}'] = cmd
 
@@ -736,7 +762,7 @@ class Meta(Arguable):
         '''
         day_solves: dict[date|None, set[int]] = {}
         day_sections: dict[date|None, set[str]] = {}
-        for solver_i, day, _note, head, _body in self.read_status(ui):
+        for solver_i, _solver_j, day, _note, head, _body in self.read_status(ui):
             day_solves.setdefault(day, set()).add(solver_i)
             if head:
                 day_sections.setdefault(day, set()).add(head)
@@ -829,16 +855,21 @@ class Meta(Arguable):
                 yield  ' '.join(parts)
 
         def collect_notes():
-            for _solver_i, day, note, _head, _body in self.read_status(ui):
+            for solver_i, solver_j, day, note, _head, _body in self.read_status(ui):
                 if day != today:
                     yield f'! {day} {note}'
-                else:
+                elif solver_i == solver_j:
                     yield f'- {note}'
+                else:
+                    yield f'  - {note}'
 
         def collect_deet_secs():
-            for _solver_i, day, _note, head, body in self.read_status(ui):
+            for solver_i, solver_j, day, _note, head, body in self.read_status(ui):
                 if day == today:
-                    yield head, 1, body
+                    if solver_i == solver_j:
+                        yield head, 1, body
+                    else:
+                        yield head, 2, body
 
         def deet_sec(head: str, body: Iterable[str], level: int=1):
             yield f'{"#"*level} {head}'
@@ -922,6 +953,40 @@ class Meta(Arguable):
         run solver
         '''
         with self.solvers.run(ui, solver_i=solver_i):
+            pass
+
+    def do_sol_variant(self, solver_i: int, ui: PromptUI):
+        name =self.solvers.lib.name[solver_i]
+        i_notes = tuple(
+            (solver_j, self.solvers.lib.proto[solver_j].note_slug[0])
+            for solver_j in self.solvers.lib.lookup(solver_i))
+
+        if not ui.tokens:
+            ui.print(f'{name} variants')
+            for _, note in i_notes: ui.print(f'- {note}')
+            return
+
+        toke = next(ui.tokens)
+        tok = toke.lower()
+        tok_i_notes = tuple(
+            (i, note)
+            for i, note in i_notes
+            if tok in note.lower())
+
+        if not tok_i_notes:
+            ui.print(f'! no such {name} variant {toke!r}; choose one of:')
+            for _, note in i_notes: ui.print(f'- {note}')
+            return
+
+        if len(tok_i_notes) > 1:
+            ui.print(f'! ambiguous {name} variant {toke!r}; may be:')
+            for _, note in tok_i_notes: ui.print(f'- {note}')
+            return
+
+        assert len(tok_i_notes) == 1
+        solver_j, note = tok_i_notes[0]
+        ui.print(f'running {note} variant of {name}')
+        with self.solvers.run(ui, solver_i=solver_j):
             pass
 
     def do_sol_cont(self, solver_i: int, ui: PromptUI):
@@ -1038,9 +1103,9 @@ class Meta(Arguable):
             return
 
         status = tuple(self.read_status(ui)) # TODO decompose / naturalize
-        solver_for = tuple(solver_i for solver_i, _, _, _, _ in status)
-        days = tuple(day for _, day, _, _, _ in status)
-        notes = tuple(note for _, _, note, _, _ in status)
+        solver_for = tuple(solver_i for solver_i, _, _, _, _, _ in status)
+        days = tuple(day for _, _, day, _, _, _ in status)
+        notes = tuple(note for _, _, _, note, _, _ in status)
         names = tuple(
             self.solvers.lib.name[solver_i]
             for solver_i in solver_for)
@@ -1074,6 +1139,10 @@ class Meta(Arguable):
             i
             for i, state in enumerate(states)
             if state == 'todo')
+        done_ix = tuple(
+            i
+            for i, state in enumerate(states)
+            if state == 'done')
 
         def running_candidates():
             for solver_ix in running_ix:
@@ -1090,6 +1159,19 @@ class Meta(Arguable):
         def todo_candidates():
             for i in todo_ix:
                 yield solver_for[i], None
+
+        def var_candidates():
+            for j in done_ix:
+                solver_j = solver_for[j]
+                if self.solvers.lib.base[solver_j] != solver_j:
+                    continue
+                for solver_i in self.solvers.lib.variants(solver_j):
+                    proto = self.solvers.lib.proto[solver_i]
+                    note = proto.note_slug[0]
+                    if not any(
+                        have_note.startswith(note)
+                        for have_note in notes):
+                        yield solver_i, None
 
         def env_filter(
             want: str|Callable[[str], bool],
@@ -1108,6 +1190,8 @@ class Meta(Arguable):
             ('Finish running solvers', running_candidates),
             ('Continue prior solver runs', wip_candidates),
             ('Next solver', lambda: env_filter('prod', todo_candidates)),
+            ('Bonus solver variants', lambda: env_filter('prod', var_candidates)),
+            ('Practice solvers', lambda: env_filter(lambda env: env != 'prod', todo_candidates, var_candidates)),
         )
         phase_i: int = 0
         phase_re: int = 0
@@ -1242,7 +1326,6 @@ class Meta(Arguable):
                 if not b and compare_parts(a, b) == 0:
                     extra_head_note[j] = i
                     extra_note_head[i] = j
-                # TODO link siblings/related/alternates?
 
         if verbose:
             for slug, note in zip(solver_notes, notes):
@@ -1264,14 +1347,20 @@ class Meta(Arguable):
             dd_n = note_days[solver_i]
             day = days[dd_n-1] if dd_n else None
             if verbose > 1:
-                ui.print(f'* [{solver_i}] day=[{dd_n-1}]={day} base')
-            yield solver_i, day, notes[solver_i], heads[solver_i], bodys[solver_i]
+                ui.print(f'* [{solver_i},{solver_i}] day=[{dd_n-1}]={day} base')
+            yield solver_i, solver_i, day, notes[solver_i], heads[solver_i], bodys[solver_i]
+
+            for solver_j in self.solvers.lib.variants(solver_i):
+                if solver_j not in self.solvers and notes[solver_j]:
+                    if verbose > 1:
+                        ui.print(f'* [{solver_j},{solver_i}] day=[{dd_n-1}]={day} variant')
+                    yield solver_j, solver_i, day, notes[solver_j], heads[solver_j], bodys[solver_j]
 
         for dd_n, note, head, body in extra_dat:
             day = days[dd_n-1] if dd_n else None
             if verbose > 1:
-                ui.print(f'* [-1] day=[{dd_n-1}]={day} unmatched note={note!r}')
-            yield -1, day, note, head, body
+                ui.print(f'* [-1,-1] day=[{dd_n-1}]={day} unmatched note={note!r}')
+            yield -1, -1, day, note, head, body
 
     def do_status(self, ui: PromptUI):
         '''
@@ -1296,16 +1385,25 @@ class Meta(Arguable):
             lw.write(':')
             lw.fin()
 
-            for solver_i, day, note, head, _body in self.read_status(ui, verbose=verbose):
+            cont = ''
+            for solver_i, solver_j, day, note, head, _body in self.read_status(ui, verbose=verbose):
                 name = solvers.name[solver_i] if 0 <= solver_i < len(solvers) else '<No Solver>'
                 mark = '❔'
                 if day is not None: mark = '✅'
                 if head: mark += '📜'
-                lw.wrap_tokens(PeekIter((
-                    f'{mark} {name}',
-                    f'{day}',
-                    *marked_tokenize(note)
-                )))
+                if solver_i == solver_j:
+                    main = f'{name} {day}'
+                    cont = ' ' * len(main)
+                    lw.wrap_tokens(PeekIter((
+                        f'{mark}',
+                        main,
+                        *marked_tokenize(note)
+                    )))
+                else:
+                    lw.wrap_tokens(PeekIter((
+                        f'{mark}', cont,
+                        *marked_tokenize(note)
+                    )))
 
         self.prompt.re = max(1, self.prompt.re)
 
