@@ -898,3 +898,128 @@ TDD-95659 📋> ␚
 TDD-223697 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-01-09 \u2728\n\n\ud83c\udfc6 Score: 2164\n\ud83c\udfc5 Rank: 145/234 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +64\n\n\nPlay at https://spaceword.org\n#spaceword"}
 TDD723 result: "\u2728 Spaceword.org Daily 2026-01-09 \u2728\n\n\ud83c\udfc6 Score: 2164\n\ud83c\udfc5 Rank: 145/234 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +64\n\n\nPlay at https://spaceword.org\n#spaceword"
 TDD1014477 [prior:2164]> /store
+T1370.0741401519917 now: 2026-01-09T12:51:18EST
+TD11597567 [prior:2164]> /clear
+TDD-11597376 change: 22 
+TDD-178 change: 23 
+TDD-4 change: 24 
+TDD-1 change: 26 
+TDD0 change: 32 
+TDD0 change: 33 
+TDD0 change: 34 
+TDD0 change: 35 
+TDD0 change: 36 
+TDD9 change: 37 
+TDD-9 change: 43 
+TDD0 change: 44 
+TDD0 change: 46 
+TDD0 change: 53 
+TDD0 change: 54 
+TDD0 change: 56 
+TDD0 change: 63 
+TDD0 change: 64 
+TDD0 change: 66 
+TDD0 change: 74 
+TDD0 change: 76 
+TDD4447483 [prior:2164 meh:100]> @ 1 4
+TDD-4447257 at: 1 4 X
+TDD4855419 [prior:2164 meh:100]> @ 0 4
+TDD-4855465 at: 0 4 X
+TDD2287548 [prior:2164 meh:100]> ^ UGH
+TDD-2287489 change: 40 U
+TDD-235 change: 41 G
+TDD-2 change: 42 H
+TDD2120298 [prior:2164 meh:397]> /clear
+TDD-2120139 change: 40 
+TDD-139 change: 41 
+TDD-19 change: 42 
+TDD4864007 [prior:2164 meh:100]> @ 1 3
+TDD-4863818 at: 1 3 X
+TDD1726971 [prior:2164 meh:100]> ^ UGH
+TDD-1726850 change: 31 U
+TDD-299 change: 32 G
+TDD-6 change: 33 H
+TDD7239778 [prior:2164 meh:397]> @ 2 3
+TDD-7239553 at: 2 3 X
+TDD3855594 [prior:2164 meh:397]> @ 2 3 Y
+TDD-3855427 at: 2 3 Y
+TDD2863320 [prior:2164 meh:397]> ^ GOO
+TDD-2863468 change: 42 O
+TDD-244 change: 52 O
+TDD4071828 [prior:2164 meh:591]> @ 1 5
+TDD-4071590 at: 1 5 Y
+TDD4567553 [prior:2164 meh:591]> @ 1 5 X
+TDD-4567603 at: 1 5 X
+TDD2799821 [prior:2164 meh:591]> ^ LOXED
+TDD-2799775 change: 51 L
+TDD-234 change: 53 X
+TDD-2 change: 54 E
+TDD0 change: 55 D
+TDD8799666 [prior:2164 meh:985]> @ 4 4
+TDD-8799388 at: 4 4 X
+TDD5495783 [prior:2164 meh:985]> @ 3 4
+TDD-5495792 at: 3 4 X
+TDD3175253 [prior:2164 meh:985]> ^ PARVO
+TDD-3175285 change: 43 P
+TDD-233 change: 44 A
+TDD-2 change: 45 R
+TDD-1 change: 46 V
+TDD0 change: 47 O
+TDD6383744 [prior:2164 meh:1479]> _ 5
+TDD-6383517 change: 43 
+TDD-221 change: 44 
+TDD-3 change: 45 
+TDD0 change: 46 
+TDD-1 change: 47 
+TDD2943841 [prior:2164 meh:985]> @ 4 4
+TDD-2943655 at: 4 4 X
+TDD2087618 [prior:2164 meh:985]> ^ PARVO
+TDD-2087575 change: 44 P
+TDD-226 change: 45 A
+TDD-2 change: 46 R
+TDD0 change: 47 V
+TDD0 change: 48 O
+TDD6752029 [prior:2164 meh:1476]> @ 4 4 Y
+TDD-6751838 at: 4 4 Y
+TDD1711563 [prior:2164 meh:1476]> ^ PEW
+TDD-1711515 change: 64 W
+TDD4511384 [prior:2164 meh:1568]> @ 6 4
+TDD-4511388 at: 6 4 Y
+TDD7383738 [prior:2164 meh:1568]> @ 6 3
+TDD-7383783 at: 6 3 Y
+TDD1703607 [prior:2164 meh:1568]> ^ OAR
+TDD632436 [prior:2164 meh:1568]> ^ OAR
+TDD4831578 [prior:2164 meh:1568]> @ 6 3 X
+TDD-7167620 at: 6 3 X
+TDD2127600 [prior:2164 meh:1568]> @ OAR
+TDD1232572 [prior:2164 meh:1568]> ^ OAR
+TDD-3360112 change: 36 O
+TDD-245 change: 37 A
+TDD-5 change: 38 R
+TDD9191458 [prior:2164 meh:1868]> @ 8 3
+TDD-9191277 at: 8 3 X
+TDD3759734 [prior:2164 meh:1868]> @ 8 3 Y
+TDD-3759715 at: 8 3 Y
+TDD2063598 [prior:2164 meh:1868]> ^ RODE
+TDD-2063554 change: 58 D
+TDD-235 change: 68 E
+TDD7863805 [prior:2164 meh:2068]> @ 7 5 X
+TDD-7863607 at: 7 5 X
+TDD2023676 [prior:2164 meh:2068]> ^ A
+TDD-2023649 change: 57 A
+TDD2207486 [prior:2164 bet:2168]> /res
+TDD2096635 📋> ✨ Spaceword.org Daily 2026-01-09 ✨
+TDD-4304284 📋> 
+TDD-66 📋> 🏆 Score: 2168
+TDD-3 📋> 🏅 Rank: 122/239 😀
+TDD2 📋> 🧩 Tiles: 21/21 ✅
+TDD-4 📋> 📏 Space Bonus: +68
+TDD0 📋> 
+TDD0 📋> 
+TDD0 📋> Play at https://spaceword.org
+TDD351606 📋> #spaceword
+TDD-143639 📋> ␚
+TDD-207877 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-01-09 \u2728\n\n\ud83c\udfc6 Score: 2168\n\ud83c\udfc5 Rank: 122/239 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +68\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TDD57 result: "\u2728 Spaceword.org Daily 2026-01-09 \u2728\n\n\ud83c\udfc6 Score: 2168\n\ud83c\udfc5 Rank: 122/239 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +68\n\n\nPlay at https://spaceword.org\n#spaceword"
+TDD295795 [prior:2168]> 
+TDD2711867 [prior:2168]> /store
