@@ -1,0 +1,181 @@
+T2124.212970878987 now: 2026-01-09T09:16:22EST
+TD71 site: britannica.com/games/octordle/daily-rescue
+TDD-56 wordlist: nwl2023.txt
+TDD-10 num_words: 8
+TDD4902619  ...
+TDD-3499780 > *
+TDD-500968 ? ␚
+TDD-901778 <EOF>
+TDD34007174 > tried amity tripe tonic omega
+TDD-34007106 questioning: amity tripe tonic omega
+TDD2258997 Rescue #1 _____? Mnnnn
+TDD-2258897 attempt: 0 AMITY m n n n n
+TDD2298341 Rescue #1 _____ ~A -IMTY? nYnYY
+TDD-2298409 attempt: 0 TRIPE n Y n Y Y
+TDD1252389 Rescue #1 _R_PE ~A -IMTY? nnnnn
+TDD-1252412 attempt: 0 TONIC n n n n n
+TDD2448330 Rescue #1 _R_PE ~A -CIMNOTY? nnMnM
+TDD-2448272 attempt: 0 OMEGA n n m n m
+TDD1449768 Rescue #2 _____? Mnnnn
+TDD-1449730 attempt: 1 AMITY m n n n n
+TDD1379022 Rescue #2 _____ ~A -IMTY? nYnnn
+TDD-1379053 attempt: 1 TRIPE n Y n n n
+TDD1327243 Rescue #2 _R___ ~A -EIMPTY? nnnnM
+TDD-1327237 attempt: 1 TONIC n n n n m
+TDD1317697 Rescue #2 _R___ ~AC -EIMNOPTY? nnnnM
+TDD-1317672 attempt: 1 OMEGA n n n n m
+TDD2716212 Rescue #3 _____? nnMnn
+TDD-2716215 attempt: 2 AMITY n n m n n
+TDD1706273 Rescue #3 _____ ~I -AMTY? nMMnM
+TDD-1706352 attempt: 2 TRIPE n m m n m
+TDD1265881 Rescue #3 _____ ~EIR -AMPTY? nnnMn
+TDD-1265885 attempt: 2 TONIC n n n m n
+TDD1320028 Rescue #3 _____ ~EIR -ACMNOPTY? nnMnn
+TDD-1320025 attempt: 2 OMEGA n n m n n
+TDD1490781 Rescue #4 _____? nnMnn
+TDD-1490734 attempt: 3 AMITY n n m n n
+TDD1682245 Rescue #4 _____ ~I -AMTY? nMMnn
+TDD-1682246 attempt: 3 TRIPE n m m n n
+TDD1507735 Rescue #4 _____ ~IR -AEMPTY? nnnYn
+TDD-1507731 attempt: 3 TONIC n n n Y n
+TDD1507059 Rescue #4 ___I_ ~R -ACEMNOPTY? nnnnn
+TDD-1507021 attempt: 3 OMEGA n n n n n
+T29.977079555988894 now: 2026-01-09T09:18:12EST
+TD76 questioning: amity tripe tonic omega
+TDD4355901 Rescue #5 _____? MnnMn
+TDD-4355699 attempt: 4 AMITY m n n m n
+TDD2863495 Rescue #5 _____ ~AT -IMY? MnnnM
+TDD-2863518 attempt: 4 TRIPE m n n n m
+TDD1484206 Rescue #5 _____ ~AET -IMPRY? Mnnnn
+TDD-1484213 attempt: 4 TONIC m n n n n
+TDD1813758 Rescue #5 _____ ~AET -CIMNOPRY? nnMnM
+TDD-1813756 attempt: 4 OMEGA n n m n m
+TDD1571504 Rescue #6 _____? nnnMn
+TDD-1571507 attempt: 5 AMITY n n n m n
+TDD2332014 Rescue #6 _____ ~T -AIMY? MMnnM
+TDD-2332013 attempt: 5 TRIPE m m n n m
+TDD1927053 Rescue #6 _____ ~ERT -AIMPY? MMnnn
+TDD-1927054 attempt: 5 TONIC m m n n n
+TDD1953645 Rescue #6 _____ ~EORT -ACIMNPY? YnMnn
+TDD-1953646 attempt: 5 OMEGA Y n m n n
+TDD2416202 Rescue #7 _____? Mnnnn
+TDD-2416205 attempt: 6 AMITY m n n n n
+TDD1570322 Rescue #7 _____ ~A -IMTY? nYnnM
+TDD-1570384 attempt: 6 TRIPE n Y n n m
+TDD1304444 Rescue #7 _R___ ~AE -IMPTY? nnnnn
+TDD-1304391 attempt: 6 TONIC n n n n n
+TDD1546902 Rescue #7 _R___ ~AE -CIMNOPTY? nnYnM
+TDD-1546849 attempt: 6 OMEGA n n Y n m
+TDD2439184 Rescue #8 _____? nnnnY
+TDD-2439226 attempt: 7 AMITY n n n n Y
+TDD1520550 Rescue #8 ____Y -AIMT? nnnnn
+TDD-1520561 attempt: 7 TRIPE n n n n n
+TDD2900763 Rescue #8 ____Y -AEIMPRT? nYnnM
+TDD-2900746 attempt: 7 TONIC n Y n n m
+TDD1568850 Rescue #8 _O__Y ~C -AEIMNPRT? Mnnnn
+TDD-1568921 attempt: 7 OMEGA m n n n n
+TDD1450021 > *
+TDD-1448110 questioning: drape
+TDD15458605 Rescue #1 _R_PE ~A -CGIMNOTY? YYYYY
+TDD-15460459 attempt: 0 DRAPE Y Y Y Y Y
+TDD2819112 Rescue #2 _R___ ~AC -EGIMNOPTY? nYYnn
+TDD-2819106 attempt: 1 DRAPE n Y Y n n
+TDD1987410 Rescue #3 _____ ~EIR -ACGMNOPTY? MMnnM
+TDD-1987398 attempt: 2 DRAPE m m n n m
+TDD1510586 Rescue #4 ___I_ ~R -ACEGMNOPTY? MMnnn
+TDD-1510588 attempt: 3 DRAPE m m n n n
+TDD11069065 Rescue #5 _____ ~AET -CGIMNOPRY? nnYnM
+TDD-11069029 attempt: 4 DRAPE n n Y n m
+TDD1319528 Rescue #6 O____ ~ERT -ACGIMNPY? nMnnM
+TDD-1319567 attempt: 5 DRAPE n m n n m
+TDD2701375 Rescue #7 _RE__ ~A -CGIMNOPTY? YYMnM
+TDD-2701440 attempt: 6 DRAPE Y Y m n m
+TDD1556411 Rescue #8 _O__Y ~C -AEGIMNPRT? nnnnn
+TDD-1556355 attempt: 7 DRAPE n n n n n
+TDD1317702 > *
+TDD-147133 ? 1
+TDD-1170580 questioning: lurid
+TDD8138769 Rescue #2 _RA__ ~C -DEGIMNOPTY? nnMnn
+TDD-8138702 attempt: 1 LURID n n m n n
+TDD1855717 Rescue #3 _____ ~DEIR -ACGMNOPTY? MnMMM
+TDD-1855770 attempt: 2 LURID m n m m m
+TDD1190703 Rescue #4 ___I_ ~DR -ACEGMNOPTY? YYYYY
+TDD-1190665 attempt: 3 LURID Y Y Y Y Y
+TDD6200183 Rescue #5 __A__ ~ET -CDGIMNOPRY? Mnnnn
+TDD-6200120 attempt: 4 LURID m n n n n
+TDD1453972 Rescue #6 O____ ~ERT -ACDGIMNPY? nYMnn
+TDD-1454138 attempt: 5 LURID n Y m n n
+TDD1876858 Rescue #7 DRE__ ~A -CGIMNOPTY? nnMnY
+TDD-1876810 attempt: 6 LURID n n m n Y
+TDD1937601 Rescue #8 _O__Y ~C -ADEGIMNPRT? Mnnnn
+TDD-1937644 attempt: 7 LURID m n n n n
+TDD1318687 > *
+TDD-1318419 questioning: idler
+TDD7757032 Rescue #2 _RA__ ~C -DEGILMNOPTUY? nnnnM
+TDD-7757255 attempt: 1 IDLER n n n n m
+TDD1360754 Rescue #3 _____ ~DEILR -ACGMNOPTUY? YYYYY
+TDD-1360734 attempt: 2 IDLER Y Y Y Y Y
+TDD4645287 Rescue #5 __A__ ~ELT -CDGIMNOPRUY? nnMMn
+TDD-4645277 attempt: 4 IDLER n n m m n
+TDD4050921 Rescue #6 OU___ ~ERT -ACDGILMNPY? nnnYY
+TDD-4050949 attempt: 5 IDLER n n n Y Y
+TDD3939171 Rescue #7 DRE_D ~A -CGILMNOPTUY? nMnMM
+TDD-3939164 attempt: 6 IDLER n m n m m
+TDD1615140 Rescue #8 _O__Y ~CL -ADEGIMNPRTU? nnMnn
+TDD-1615195 attempt: 7 IDLER n n m n n
+TDD1172157 > *
+TDD-1171864 questioning: exalt
+TDD6224475 Rescue #2 _RA__ ~C -DEGILMNOPTUY? nnYnn
+TDD-6224714 attempt: 1 EXALT n n Y n n
+TDD3585267 Rescue #5 __A__ ~ELT -CDGIMNOPRUY? YYYYY
+TDD-3585271 attempt: 4 EXALT Y Y Y Y Y
+TDD1524122 Rescue #6 OU_ER ~T -ACDGILMNPY? MnnnM
+TDD-1524188 attempt: 5 EXALT m n n n m
+TDD3230951 Rescue #7 DRE_D ~A -CGILMNOPTUY? MnMnn
+TDD-3230805 attempt: 6 EXALT m n m n n
+TDD1314196 Rescue #8 _O__Y ~CL -ADEGIMNPRTU? nnnYn
+TDD-1314325 attempt: 7 EXALT n n n Y n
+TDD1082564 > *
+TDD-1082316 questioning: outer
+TDD5328834 Rescue #2 _RA__ ~C -DEGILMNOPTUXY? nnnnM
+TDD-5329044 attempt: 1 OUTER n n n n m
+TDD4419460 Rescue #6 OU_ER ~T -ACDGILMNPXY? YYYYY
+TDD-4419364 attempt: 5 OUTER Y Y Y Y Y
+TDD3051349 Rescue #7 DRE_D ~A -CGILMNOPTUXY? nnnMM
+TDD-3051430 attempt: 6 OUTER n n n m m
+TDD2475255 Rescue #8 _O_LY ~C -ADEGIMNPRTUX? Mnnnn
+TDD-2475299 attempt: 7 OUTER m n n n n
+TDD2557105 > *
+TDD-2556967 questioning: dread
+TDD6311190 Rescue #2 _RA__ ~C -DEGILMNOPTUXY? nYnMn
+TDD-6311287 attempt: 1 DREAD n Y n m n
+TDD3581888 Rescue #7 DRE_D ~A -CGILMNOPTUXY? YYYYY
+TDD-3581907 attempt: 6 DREAD Y Y Y Y Y
+TDD2442602 Rescue #8 _O_LY ~C -ADEGIMNPRTUX? nnnnn
+TDD-2442558 attempt: 7 DREAD n n n n n
+TDD1300698 > *
+TDD935815 ? 1
+TDD-2236599 questioning: coyly
+TDD6696445 Rescue #2 _RA__ ~C -DEGILMNOPTUXY? Ynnnn
+TDD-6696347 attempt: 1 COYLY Y n n n n
+TDD3190344 Rescue #8 _O_LY ~C -ADEGIMNPRTUX? YYYYY
+TDD-3190448 attempt: 7 COYLY Y Y Y Y Y
+TDD1900806 > *
+TDD-811544 ? 1
+TDD-1089235 questioning: crash
+TDD4735196 Rescue #2 CRA__ -DEGILMNOPTUXY? YYYnn
+TDD-4735177 attempt: 1 CRASH Y Y Y n n
+TDD1516763 > *
+TDD-1516455 questioning: crack
+TDD3520979 Rescue #2 CRA__ -DEGHILMNOPSTUXY? YYYYY
+TDD-3521331 attempt: 1 CRACK Y Y Y Y Y
+TDD2520236 📋> Daily Rescue Octordle #1446
+TDD-2520266 📋> 5️⃣🕐
+TDD-118 📋> 7️⃣6️⃣
+TDD-7 📋> 8️⃣9️⃣
+TDD0 📋> 🔟🕚
+TDD296309 📋> Score: 8
+TDD-93490 📋> ␚
+TDD-202727 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1446\n5\ufe0f\u20e3\ud83d\udd50\n7\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\nScore: 8"}
+TDD792 result: "Daily Rescue Octordle #1446\n5\ufe0f\u20e3\ud83d\udd50\n7\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\nScore: 8"
+TDD254337 📆 2026-01-09 ? 
