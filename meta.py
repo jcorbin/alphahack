@@ -1204,9 +1204,10 @@ class Meta(PromptUI.Arguable):
             mark = '❔'
             if day is not None: mark = '✅'
             if head: mark += '📜'
+            main = f'{name} {day}'
             write_tokens(ui, PeekIter((
-                f'{mark} {name}',
-                f'{day}',
+                f'{mark}',
+                main,
                 *marked_tokenize(note)
             )))
         self.shell.re = max(1, self.shell.re)
