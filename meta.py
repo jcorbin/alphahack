@@ -1025,9 +1025,10 @@ class Meta(Arguable):
                 if not note:
                     ui.print(f'Missing {slug!r}')
 
-        for solver_i, (dd_n, note, head, body) in enumerate(zip(note_days, notes, heads, bodys)):
+        for solver_i in range(len(solver_harness)):
+            dd_n = note_days[solver_i]
             day = days[dd_n-1] if dd_n else None
-            yield solver_i, day, note, head, body
+            yield solver_i, day, notes[solver_i], heads[solver_i], bodys[solver_i]
 
     def do_status(self, ui: PromptUI):
         '''
