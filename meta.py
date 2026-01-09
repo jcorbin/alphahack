@@ -1001,10 +1001,10 @@ class Meta(Arguable):
                     if not m: continue
                     line = m[1]
 
-                    for i, slug in enumerate(solver_notes):
+                    for solver_i, slug in enumerate(solver_notes):
                         if line.startswith(slug):
-                            notes[i] = line
-                            note_days[i] = dd_n
+                            notes[solver_i] = line
+                            note_days[solver_i] = dd_n
                             # TODO support multi
                             break
 
@@ -1015,10 +1015,10 @@ class Meta(Arguable):
                             ui.print('')
 
             else:
-                for i, slug in enumerate(solver_heads):
+                for solver_i, slug in enumerate(solver_heads):
                     if text.startswith(slug):
-                        heads[i] = text
-                        bodys[i] = tuple(line.rstrip() for line in body)
+                        heads[solver_i] = text
+                        bodys[solver_i] = tuple(line.rstrip() for line in body)
                         break
 
                 # TODO else: report unknown sections?
