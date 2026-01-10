@@ -920,8 +920,11 @@ class Meta(Arguable):
         solver_i = self.choose_solver(ui)
         if solver_i is None:
             for solver_i, day, _note, head, _body in self.read_status(ui):
-                if day is None or not head:
-                    break
+                if day is not None and head:
+                    continue
+                proto = solver_prior[solver_i]
+                if proto.site_env != 'prod':
+                    continue
             else:
                 ui.print('! all solvers reported, specify particular?')
                 return
@@ -934,9 +937,8 @@ class Meta(Arguable):
             if solver_i == solver_j else
             f'{name} variant {proto.note_slug[0]}')
 
-        ui.print(f'Running {desc}')
-
         if solver_i >= 0:
+            ui.print(f'Running {desc}')
             name = solver_name[solver_i]
             make = solver_make[solver_i]
             return run_solver(name, make, ui)
