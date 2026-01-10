@@ -1,0 +1,79 @@
+T1992.6790361259918 now: 2026-01-09T09:14:10EST
+TD69 site: m-w.com/games/quordle/#/rescue
+TDD-56 wordlist: nwl2023.txt
+TDD-9 num_words: 4
+TDD2969552  ...␚
+T1997.1216008499905 now: 2026-01-09T09:14:14EST
+TD2598067  ...␚
+T2842.365685847006 now: 2026-01-10T09:54:00EST
+TD5525650  ...
+TDD-3517552 > nnnnn
+TDD4688180 > tried broth glare
+TDD-6695824 questioning: broth glare
+TDD2839294 Rescue #1 _____? nnnnn
+TDD-2839542 attempt: 0 BROTH n n n n n
+TDD3543844 Rescue #1 _____ -BHORT? nnnnM
+TDD-3543878 attempt: 0 GLARE n n n n m
+TDD2646940 Rescue #2 _____? nnnnY
+TDD-2646935 attempt: 1 BROTH n n n n Y
+TDD2335845 Rescue #2 ____H -BORT? nnnnn
+TDD-2335743 attempt: 1 GLARE n n n n n
+TDD3631646 Rescue #3 _____? YMnnn
+TDD-3631731 attempt: 2 BROTH Y m n n n
+TDD1287457 Rescue #3 B____ ~R -HOT? nnnMM
+TDD-1287474 attempt: 2 GLARE n n n m m
+TDD5480042 Rescue #4 _____? nYnnn
+TDD-5479947 attempt: 3 BROTH n Y n n n
+TDD4183371 Rescue #4 _R___ -BHOT? YnYMn
+TDD-4183396 attempt: 3 GLARE Y n Y m n
+TDD1303742 > *
+TDD-16386 ? 1
+TDD-1287426 questioning: inked
+TDD3671936 Rescue #1 _____ ~E -ABGHLORT? nYnMn
+TDD-3671851 attempt: 0 INKED n Y n m n
+TDD1991321 Rescue #2 ____H -ABEGLORT? MMnnn
+TDD-1991405 attempt: 1 INKED m m n n n
+TDD4079827 Rescue #3 B____ ~ER -AGHLOT? nnnYn
+TDD-4079756 attempt: 2 INKED n n n Y n
+TDD2175340 Rescue #4 GRA__ -BEHLOT? MMnnn
+TDD-2175413 attempt: 3 INKED m m n n n
+TDD1103647 > *
+TDD-1103488 questioning: grain
+TDD3391440 Rescue #1 _N___ ~E -ABDGHIKLORT? nnnnM
+TDD-3391594 attempt: 0 GRAIN n n n n m
+TDD1359454 Rescue #2 ____H ~IN -ABDEGKLORT? nnnMM
+TDD-1359449 attempt: 1 GRAIN n n n m m
+TDD1319425 Rescue #3 B__E_ ~R -ADGHIKLNOT? nMnnn/
+TDD-1319428 attempt: 2 GRAIN n m n n n
+TDD3488150 Rescue #4 GRA__ ~IN -BDEHKLOT? YYYYY
+TDD-3488095 attempt: 3 GRAIN Y Y Y Y Y
+TDD1055173 > *
+TDD1072623 ? 2
+TDD-2127872 questioning: enemy
+TDD3559731 Rescue #1 _N___ ~E -ABDGHIKLORT? YYYYY
+TDD-3559724 attempt: 0 ENEMY Y Y Y Y Y
+TDD1351892 Rescue #2 ____H ~IN -ABDEGKLORT? nMnnn
+TDD-1351883 attempt: 1 ENEMY n m n n n
+TDD1623503 Rescue #3 B__E_ ~R -ADGHIKLNOT? MnnnM
+TDD-1623474 attempt: 2 ENEMY m n n n m
+TDD919618 > *
+TDD1128142 ? 1
+TDD-2047763 questioning: buyer
+TDD5431861 Rescue #2 ____H ~IN -ABDEGKLMORTY? nnnnn
+TDD-5431826 attempt: 1 BUYER n n n n n
+TDD2199298 Rescue #3 B__E_ ~RY -ADGHIKLMNOT E:1? YYYYY
+TDD-2199258 attempt: 2 BUYER Y Y Y Y Y
+TDD1567705 > *
+TDD1768348 ? 1
+TDD-3336150 questioning: finch
+TDD3455107 Rescue #2 ____H ~IN -ABDEGKLMORTUY? YYYYY
+TDD-3455098 attempt: 1 FINCH Y Y Y Y Y
+TDD4800381 📋> Daily Rescue 61
+TDD-4800464 📋> 5️⃣7️⃣
+TDD-88 📋> 6️⃣4️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD367489 📋> 
+TDD-175459 📋> ␚
+TDD-191898 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 61\n5\ufe0f\u20e37\ufe0f\u20e3\n6\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD-29 result: "Daily Rescue 61\n5\ufe0f\u20e37\ufe0f\u20e3\n6\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD247209 📆 2026-01-10 ? 
