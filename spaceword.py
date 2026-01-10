@@ -1013,6 +1013,7 @@ class SpaceWord(StoredLog):
     default_site: str = 'spaceword.org'
     default_wordlist: str = '/usr/share/dict/words'
     pub_tzname = 'US/Eastern'
+    find_latest_by = 'name'
 
     @override
     def add_args(self, parser: argparse.ArgumentParser):
