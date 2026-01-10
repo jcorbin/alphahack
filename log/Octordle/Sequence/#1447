@@ -1,0 +1,214 @@
+T253.13248810000368 now: 2026-01-10T10:20:38EST
+TD71 site: britannica.com/games/octordle/daily-sequence
+TDD-58 wordlist: nwl2023.txt
+TDD-8 num_words: 8
+TDD3567193  ...
+TDD-2159305 > *
+TDD-208026 ? 1
+TDD-1199738 questioning: nears
+TDD2999791 Sequence #1 _____? Mnnnn
+TDD-2999772 attempt: 0 NEARS m n n n n
+TDD2455760 > *
+TDD-1399735 ? 1
+TDD-1055977 questioning: gipon
+TDD3343804 Sequence #1 _____ ~N -AERS? nnnYY
+TDD-3343814 attempt: 0 GIPON n n n Y Y
+TDD1311523 > *
+TDD3712462 ? 4
+TDD-5024021 questioning: futon
+TDD3271751 Sequence #1 ___ON -AEGIPRS? nnnYY
+TDD-3271658 attempt: 0 FUTON n n n Y Y
+TDD1311980 > *
+TDD1887684 ? 1
+TDD-3199710 questioning: colon
+TDD2598882 Sequence #1 ___ON -AEFGIPRSTU? YYYYY'
+TDD-2598881 attempt: 0 COLON Y Y Y Y Y
+TDD-132 questioning: NEARS
+TDD3216017 Sequence #2 _____? nMnMn
+TDD-3215898 attempt: 1 NEARS n m n m n
+TDD-139 questioning: GIPON
+TDD1200348 Sequence #2 _____ ~ER -ANS? nnnnn
+TDD-1200124 attempt: 1 GIPON n n n n n
+TDD-210 questioning: FUTON
+TDD1063199 Sequence #2 _____ ~ER -AGINOPS? nnnnn
+TDD-1063077 attempt: 1 FUTON n n n n n
+TDD-136 questioning: COLON
+TDD1895569 Sequence #2 _____ ~ER -AFGINOPSTU? nnMnn
+TDD-1895436 attempt: 1 COLON n n m n n
+TDD1335981 > *
+TDD872088 ? 2
+TDD-2208070 questioning: elder
+TDD3095246 Sequence #2 _____ ~ELR -ACFGINOPSTU? YYYYY
+TDD-3095194 attempt: 1 ELDER Y Y Y Y Y
+TDD-165 questioning: NEARS
+TDD2224082 Sequence #3 _____? nnnMM
+TDD-2223898 attempt: 2 NEARS n n n m m
+TDD-185 questioning: GIPON
+TDD1295309 Sequence #3 _____ ~RS -AEN? nnnnn
+TDD-1295104 attempt: 2 GIPON n n n n n
+TDD-222 questioning: FUTON
+TDD2231883 Sequence #3 _____ ~RS -AEGINOP? nMnnn
+TDD-2231605 attempt: 2 FUTON n m n n n
+TDD-234 questioning: COLON
+TDD1847232 Sequence #3 _____ ~RSU -AEFGINOPT? nnnnn
+TDD-1847090 attempt: 2 COLON n n n n n
+TDD-167 questioning: ELDER
+TDD1656405 Sequence #3 _____ ~RSU -ACEFGILNOPT? nnnnM
+TDD-1656194 attempt: 2 ELDER n n n n m
+TDD1222965 > *
+TDD1872872 ? 3
+TDD-3095882 questioning: brush
+TDD3647586 Sequence #3 _____ ~RSU -ACDEFGILNOPT? YYYYY
+TDD-3647509 attempt: 2 BRUSH Y Y Y Y Y
+TDD-227 questioning: NEARS
+TDD1887556 Sequence #4 _____? nMnnM
+TDD-1887434 attempt: 3 NEARS n m n n m
+TDD-156 questioning: GIPON
+TDD1623472 Sequence #4 _____ ~ES -ANR? nnnnn
+TDD-1623312 attempt: 3 GIPON n n n n n
+TDD-139 questioning: FUTON
+TDD1951823 Sequence #4 _____ ~ES -AGINOPR? nnMnn
+TDD-1951621 attempt: 3 FUTON n n m n n
+TDD-203 questioning: COLON
+TDD1335859 Sequence #4 _____ ~EST -AFGINOPRU? nnMnn
+TDD-1335685 attempt: 3 COLON n n m n n
+TDD-171 questioning: ELDER
+TDD2943439 Sequence #4 _____ ~ELST -ACFGINOPRU? MMnYn
+TDD-2943270 attempt: 3 ELDER m m n Y n
+TDD-143 questioning: BRUSH
+TDD1991416 Sequence #4 ___E_ ~ELST -ACDFGINOPRU? nnnMn
+TDD-1991260 attempt: 3 BRUSH n n n m n
+TDD1063748 > *
+TDD-1063563 questioning: steel
+TDD3927098 Sequence #4 ___E_ ~ELST -ABCDFGHINOPRU? YYYYY
+TDD-3927346 attempt: 3 STEEL Y Y Y Y Y
+TDD-137 questioning: NEARS
+TDD2927797 Sequence #5 _____? nMnnn
+TDD-2927662 attempt: 4 NEARS n m n n n
+TDD-138 questioning: GIPON
+TDD1831864 Sequence #5 _____ ~E -ANRS? nYnnn
+TDD-1831656 attempt: 4 GIPON n Y n n n
+TDD-187 questioning: FUTON
+TDD1503830 Sequence #5 _I___ ~E -AGNOPRS? nnnnn
+TDD-1503717 attempt: 4 FUTON n n n n n
+TDD-129 questioning: COLON
+TDD2111450 Sequence #5 _I___ ~E -AFGNOPRSTU? Mnnnn
+TDD-2111243 attempt: 4 COLON m n n n n
+TDD-188 questioning: ELDER
+TDD1967801 Sequence #5 _I___ ~CE -AFGLNOPRSTU? nnMYn
+TDD-1967694 attempt: 4 ELDER n n m Y n
+TDD-126 questioning: BRUSH
+TDD1167559 Sequence #5 _I_E_ ~CD -AFGLNOPRSTU? nnnnn
+TDD-1167424 attempt: 4 BRUSH n n n n n
+TDD-131 questioning: STEEL
+TDD1776104 Sequence #5 _I_E_ ~CD -ABFGHLNOPRSTU? nnnYn
+TDD-1775913 attempt: 4 STEEL n n n Y n
+TDD1167466 > *
+TDD2504355 ? 1
+TDD-3671904 questioning: dicey
+TDD3719705 Sequence #5 _I_E_ ~CD -ABFGHLNOPRSTU? YYYYY
+TDD-3719626 attempt: 4 DICEY Y Y Y Y Y
+TDD-176 questioning: NEARS
+TDD2087743 Sequence #6 _____? nYnnn
+TDD-2087559 attempt: 5 NEARS n Y n n n
+TDD-181 questioning: GIPON
+TDD1367542 Sequence #6 _E___ -ANRS? Ynnnn
+TDD-1367402 attempt: 5 GIPON Y n n n n
+TDD-149 questioning: FUTON
+TDD2039939 Sequence #6 GE___ -AINOPRS? nnnnn
+TDD-2039820 attempt: 5 FUTON n n n n n
+TDD-120 questioning: COLON
+TDD1511639 Sequence #6 GE___ -AFINOPRSTU? nnnnn
+TDD-1511542 attempt: 5 COLON n n n n n
+TDD-107 questioning: ELDER
+TDD2343625 Sequence #6 GE___ -ACFILNOPRSTU? MnnMn
+TDD-2343430 attempt: 5 ELDER m n n m n
+TDD-171 questioning: BRUSH
+TDD1447856 Sequence #6 GE___ -ACDFILNOPRSTU? nnnnn
+TDD-1447744 attempt: 5 BRUSH n n n n n
+TDD-128 questioning: STEEL
+TDD2791942 Sequence #6 GE___ -ABCDFHILNOPRSTU? nnYMn
+TDD-2791750 attempt: 5 STEEL n n Y m n
+TDD-192 questioning: DICEY
+TDD2063419 Sequence #6 GEE__ -ABCDFHILNOPRSTU? nnnMY
+TDD-2063279 attempt: 5 DICEY n n n m Y
+TDD975975 > *
+TDD-975839 questioning: geeky
+TDD3791721 Sequence #6 GEE_Y -ABCDFHILNOPRSTU? YYYYY
+TDD-3791878 attempt: 5 GEEKY Y Y Y Y Y
+TDD-119 questioning: NEARS
+TDD2223284 Sequence #7 _____? nnMMn
+TDD-2223142 attempt: 6 NEARS n n m m n
+TDD-136 questioning: GIPON
+TDD1519623 Sequence #7 _____ ~AR -ENS? Mnnnn
+TDD-1519429 attempt: 6 GIPON m n n n n
+TDD-169 questioning: FUTON
+TDD1559725 Sequence #7 _____ ~AGR -EINOPS? nYnnn
+TDD-1559604 attempt: 6 FUTON n Y n n n
+TDD-147 questioning: COLON
+TDD1671651 Sequence #7 _U___ ~AGR -EFINOPST? nnnnn
+TDD-1671470 attempt: 6 COLON n n n n n
+TDD-164 questioning: ELDER
+TDD1767933 Sequence #7 _U___ ~AGR -CEFILNOPST? nnnnY
+TDD-1767767 attempt: 6 ELDER n n n n Y
+TDD-160 questioning: BRUSH
+TDD2135398 Sequence #7 _U__R ~AG -CDEFILNOPST? nMMnn
+TDD-2135224 attempt: 6 BRUSH n m m n n
+TDD-177 questioning: STEEL
+TDD1215680 Sequence #7 _U__R ~AG -BCDEFHILNOPST? nnnnn
+TDD-1215513 attempt: 6 STEEL n n n n n
+TDD-171 questioning: DICEY
+TDD1088028 Sequence #7 _U__R ~AG -BCDEFHILNOPST? nnnnn
+TDD-1087901 attempt: 6 DICEY n n n n n
+TDD-143 questioning: GEEKY
+TDD1831477 Sequence #7 _U__R ~AG -BCDEFHILNOPSTY? Mnnnn
+TDD-1831284 attempt: 6 GEEKY m n n n n
+TDD1015610 > *
+TDD-1015456 questioning: augur
+TDD3263283 Sequence #7 _U__R ~AG -BCDEFHIKLNOPSTY? YYYYY
+TDD-3263429 attempt: 6 AUGUR Y Y Y Y Y
+TDD-91 questioning: NEARS
+TDD2639304 Sequence #8 _____? nYnMM
+TDD-2639216 attempt: 7 NEARS n Y n m m
+TDD-86 questioning: GIPON
+TDD1199663 Sequence #8 _E___ ~RS -AN? nnnnn
+TDD-1199635 attempt: 7 GIPON n n n n n
+TDD-80 questioning: FUTON
+TDD1247393 Sequence #8 _E___ ~RS -AGINOP? nnMnn
+TDD-1247262 attempt: 7 FUTON n n m n n
+TDD-78 questioning: COLON
+TDD1336038 Sequence #8 _E___ ~RST -AFGINOPU? nnnnn
+TDD-1336024 attempt: 7 COLON n n n n n
+TDD-53 questioning: ELDER
+TDD2287544 Sequence #8 _E___ ~RST -ACFGILNOPU? MnnMM
+TDD-2287469 attempt: 7 ELDER m n n m m
+TDD-100 questioning: BRUSH
+TDD2447772 Sequence #8 _E___ ~RST -ACDFGILNOPU? nMnYn
+TDD-2447627 attempt: 7 BRUSH n m n Y n
+TDD-81 questioning: STEEL
+TDD2639270 Sequence #8 _E_S_ ~RT -ABCDFGHILNOPU? MMMMn
+TDD-2639230 attempt: 7 STEEL m m m m n
+TDD-54 questioning: DICEY
+TDD1511576 Sequence #8 _E_S_ ~RT -ABCDFGHILNOPU? nnnMn
+TDD-1511473 attempt: 7 DICEY n n n m n
+TDD-101 questioning: GEEKY
+TDD1847828 Sequence #8 _E_S_ ~RT -ABCDFGHILNOPUY? nYMnn
+TDD-1847742 attempt: 7 GEEKY n Y m n n
+TDD-90 questioning: AUGUR
+TDD1446977 Sequence #8 _E_S_ ~RT -ABCDFGHIKLNOPUY? nnnnM
+TDD-1446838 attempt: 7 AUGUR n n n n m
+TDD879673 > *
+TDD1279919 ? 2
+TDD-2159644 questioning: terse
+TDD2815559 Sequence #8 _E_S_ ~RT -ABCDFGHIKLNOPUY? YYYYY
+TDD-2815616 attempt: 7 TERSE Y Y Y Y Y
+TDD2632456 📋> Daily Sequence Octordle #1447
+TDD-2632495 📋> 4️⃣5️⃣
+TDD-104 📋> 6️⃣7️⃣
+TDD-6 📋> 8️⃣9️⃣
+TDD0 📋> 🔟🕚
+TDD399260 📋> Score: 60
+TDD-199590 📋> ␚
+TDD-199540 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Octordle #1447\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\nScore: 60"}
+TDD26 result: "Daily Sequence Octordle #1447\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\nScore: 60"
+TDD287526 📆 2026-01-10 ? 
