@@ -1,0 +1,54 @@
+T1.567273816006491 now: 2026-01-10T09:06:39EST
+TD84 site: alfagok.diginaut.net
+TDD386104 loaded 399692 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1160 words excluded) asof 9e78f7b53615a3c1c6428e95c7e97cc5192131de
+TDD4818736  ...
+TDD-1965371 [0 : 199833 : 399692] lijm? a
+TDD-3239228 progress: 1 199833 lijm
+TDD1519170 [199834 : 299739 : 399692] schub? a
+TDD-1519357 progress: 1 299739 schub
+TDD1623786 [299740 : 349524 : 399692] vakantie? b
+TDD-1623783 progress: -1 349524 vakantie
+TDD1727781 [299740 : 324315 : 349524] sub? a
+TDD-1727758 progress: 1 324315 sub
+TDD1511575 [324316 : 336917 : 349524] toetsing? b
+TDD-1511625 progress: -1 336917 toetsing
+TDD1511959 [324316 : 330500 : 336917] televisie? a
+TDD-1511927 progress: 1 330500 televisie
+TDD1535726 [330501 : 333705 : 336917] these? a
+TDD-1535737 progress: 1 333705 these
+TDD1551710 [333706 : 334118 : 336917] ti? a
+TDD-1551713 progress: 1 334118 ti
+TDD1944161 [334119 : 335516 : 336917] tjin? !
+TDD167405 [334119 : 335516 : 336916] tjingel? a
+TDD-2111557 progress: 1 335516 tjingel
+TDD1831652 [335517 : 336162 : 336916] toekomst? b
+TDD-1831647 progress: -1 336162 toekomst
+TDD1535834 [335517 : 335810 : 336162] toegang? a
+TDD-1535841 progress: 1 335810 toegang
+TDD1512095 [335811 : 335986 : 336162] toegeschroefde? a
+TDD-1512064 progress: 1 335986 toegeschroefde
+TDD1958953 [335987 : 336074 : 336162] toegrijnsde? b
+TDD-1958984 progress: -1 336074 toegrijnsde
+TDD2447936 [335987 : 336027 : 336074] toegevend? b
+TDD-2447942 progress: -1 336027 toegevend
+TDD1463588 [335987 : 336007 : 336027] toegestemd? a
+TDD-1463581 progress: 1 336007 toegestemd
+TDD1503814 [336008 : 336017 : 336027] toegestuurde? a
+TDD-1503848 progress: 1 336017 toegestuurde
+TDD1431586 [336018 : 336022 : 336027] toegetelde? a
+TDD-1431558 progress: 1 336022 toegetelde
+TDD1920404 [336023 : 336026 : 336027] toegeven? it
+TDD-1920364 progress: 0 336026 toegeven
+TDD-142 [336023 : 336026 : 336027] <Done>.
+TDD2992090 📋> 🧩 Puzzel #434
+TDD-2992025 📋> 🤔 18 gokken
+TDD-80 📋> ⏱️ 31s
+TDD319025 📋> 🔗 alfagok.diginaut.net
+TDD-6925 📋> ␚
+TDD-311981 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #434\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD420 result: "\ud83e\udde9 Puzzel #434\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-540 result puzzle: 434
+TDD-7 result guesses: 18
+TDD-3 result time: 31s
+TDD0 result link: alfagok.diginaut.net
+TDD207337 📆 2026-01-10 ? 
