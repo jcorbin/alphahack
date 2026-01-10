@@ -1,0 +1,95 @@
+T1.4385709050111473 now: 2026-01-10T10:05:34EST
+TD82 site: m-w.com/games/quordle/#/sequence
+TDD-66 wordlist: nwl2023.txt
+TDD-11 num_words: 4
+TDD1373667  ...␚
+T1.4641714280005544 now: 2026-01-10T10:06:49EST
+TD4069661  ...
+TDD-3029895 > *
+TDD-319623 ? 1
+TDD-719959 questioning: toeas
+TDD4831732 Sequence #1 _____? 1
+TDD-776015 Sequence #1 _____? nnYnn
+TDD-4055609 attempt: 0 TOEAS n n Y n n
+TDD871964 > *
+TDD159183 ? 1
+TDD-1031274 questioning: ureic
+TDD4303891 Sequence #1 __E__ -AOST? nYYnn
+TDD-4303862 attempt: 0 UREIC n Y Y n n
+TDD1095740 > *
+TDD2664059 ? 1
+TDD-3759818 questioning: breed
+TDD3679615 Sequence #1 _RE__ -ACIOSTU? nYYYn
+TDD-3679597 attempt: 0 BREED n Y Y Y n
+TDD991702 > *
+TDD1767953 ? 1
+TDD-2759689 questioning: preen
+TDD5896106 Sequence #1 _REE_ -ABCDIOSTU? YYYYY
+TDD-5896039 attempt: 0 PREEN Y Y Y Y Y
+TDD-170 questioning: TOEAS
+TDD2311251 Sequence #2 _____? nnMYn
+TDD-2311056 attempt: 1 TOEAS n n m Y n
+TDD-193 questioning: UREIC
+TDD1432146 Sequence #2 ___A_ ~E -OST? nnMnn
+TDD-1431971 attempt: 1 UREIC n n m n n
+TDD-180 questioning: BREED
+TDD1719621 Sequence #2 ___A_ ~E -CIORSTU? nnMnM
+TDD-1719509 attempt: 1 BREED n n m n m
+TDD-128 questioning: PREEN
+TDD1287539 Sequence #2 ___A_ ~DE -BCIORSTU E:1? nnMnn
+TDD-1287404 attempt: 1 PREEN n n m n n
+TDD959670 > *
+TDD880114 ? 4
+TDD-1839808 questioning: medal
+TDD4111926 Sequence #2 ___A_ ~DE -BCINOPRSTU E:1? YYYYY
+TDD-4111891 attempt: 1 MEDAL Y Y Y Y Y
+TDD-144 questioning: TOEAS
+TDD2527726 Sequence #3 _____? nnnnn
+TDD-2527585 attempt: 2 TOEAS n n n n n
+TDD-135 questioning: UREIC
+TDD1079495 Sequence #3 _____ -AEOST? nnnMn
+TDD-1079296 attempt: 2 UREIC n n n m n
+TDD-187 questioning: BREED
+TDD1071614 Sequence #3 _____ ~I -ACEORSTU? nnnnn
+TDD-1071494 attempt: 2 BREED n n n n n
+TDD-134 questioning: PREEN
+TDD2255768 Sequence #3 _____ ~I -ABCDEORSTU? Mnnnn
+TDD-2254805 attempt: 2 PREEN m n n n n
+TDD-958 questioning: MEDAL
+TDD1623536 Sequence #3 _____ ~IP -ABCDENORSTU? MnnnM
+TDD-1623404 attempt: 2 MEDAL m n n n m
+TDD895196 > *
+TDD-894948 questioning: imply
+TDD4047520 Sequence #3 _____ ~ILMP -ABCDENORSTU? YYYYY'
+TDD-4047708 attempt: 2 IMPLY Y Y Y Y Y
+TDD-150 questioning: TOEAS
+TDD3303322 Sequence #4 _____? nnMnn
+TDD-3303233 attempt: 3 TOEAS n n m n n
+TDD-138 questioning: UREIC
+TDD1431811 Sequence #4 _____ ~E -AOST? nMMnn
+TDD-1431675 attempt: 3 UREIC n m m n n
+TDD-134 questioning: BREED
+TDD1719727 Sequence #4 _____ ~ER -ACIOSTU? nMMYn
+TDD-1719533 attempt: 3 BREED n m m Y n
+TDD-180 questioning: PREEN
+TDD2687503 Sequence #4 ___E_ ~ER -ABCDIOSTU? MMMYn
+TDD-2687365 attempt: 3 PREEN m m m Y n
+TDD-150 questioning: MEDAL
+TDD2903993 Sequence #4 ___E_ ~EPR -ABCDINOSTU? nYnnY
+TDD-2903861 attempt: 3 MEDAL n Y n n Y
+TDD-130 questioning: IMPLY
+TDD1487648 Sequence #4 _E_EL ~PR -ABCDIMNOSTU? nnYMn
+TDD-1487504 attempt: 3 IMPLY n n Y m n
+TDD975730 > *
+TDD-975590 questioning: repel
+TDD5303197 Sequence #4 _EPEL ~R -ABCDIMNOSTUY? YYYYY
+TDD-5303349 attempt: 3 REPEL Y Y Y Y Y
+TDD5616338 📋> Daily Sequence Quordle 1447
+TDD-5616400 📋> 4️⃣5️⃣
+TDD-87 📋> 6️⃣7️⃣
+TDD-6 📋> m-w.com/games/quordle/
+TDD319115 📋> 
+TDD-102538 📋> ␚
+TDD-216453 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1447\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1304 result: "Daily Sequence Quordle 1447\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD188922 📆 2026-01-10 ? 
