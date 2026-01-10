@@ -925,6 +925,17 @@ class Meta(Arguable):
             else:
                 ui.print('! all solvers reported, specify particular?')
                 return
+
+        name = solver_name[solver_i]
+        make = solver_make[solver_i]
+        proto = solver_prior[solver_i]
+        desc = (
+            f'[ {self.solvers.ix.index(solver_i)} / {len(self.solvers)} ] {name}'
+            if solver_i == solver_j else
+            f'{name} variant {proto.note_slug[0]}')
+
+        ui.print(f'Running {desc}')
+
         if solver_i >= 0:
             name = solver_name[solver_i]
             make = solver_make[solver_i]
