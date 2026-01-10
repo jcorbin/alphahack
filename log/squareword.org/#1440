@@ -1,0 +1,101 @@
+T1042.3497645550233 now: 2026-01-10T09:24:00EST
+TD97 site: squareword.org
+TDD-75 wordlist: nwl2023.txt
+TDD2885971  ...
+TDD-166334 🧩  ? #1440
+TDD-2719455 puzzle_id: #1440
+TDD575675 > *
+TDD1104092 try? 1
+TDD-1679742 questioning: ["saner", "#5"]
+TDD4999619 #1 <IndexError>  📋 "saner" ? _____ ~ SA
+TDD-4999457 attempt 0 SANER m m n n n
+TDD2983597 #2 <IndexError>  📋 "saner" ? _A__R ~ AR
+TDD-2983650 attempt 1 SANER n Y n n Y
+TDD2887462 #3 <IndexError>  📋 "saner" ? _____ ~ ANE
+TDD-2887509 attempt 2 SANER n m m m n
+TDD3119290 #4 <IndexError>  📋 "saner" ? S__E_ ~ ER
+TDD-3119309 attempt 3 SANER Y n n Y m
+TDD3047530 #5 <IndexError>  📋 "saner" ? S____ ~ ER
+TDD-3047543 attempt 4 SANER Y n n m m
+TDD967348 ? 
+TDD-967464 question done
+TDD2351660 > *
+TDD2448108 try? 7
+TDD-4799682 questioning: ["shred", "#4"]
+TDD3528137 #1 _____ ~AS -ENR  📋 "shred" ? .
+TDD-3528125 attempt 0 SHRED m n n n n
+TDD8215182 #2 _A__R -ENS  📋 "shred" ? _A__R ~ ARD
+TDD-8215221 attempt 1 SHRED n n m n m
+TDD1687503 #3 _____ ~AEN -RS  📋 "shred" ? .
+TDD-1687485 attempt 2 SHRED n n n m n
+TDD3103710 #4 S__E_ ~R -AN  📋 "shred" ? S_RE_ ~ E
+TDD-3103713 attempt 3 SHRED Y n Y Y n
+TDD2279250 #5 S____ ~ER -AN  📋 "shred" ? SH__D ~ ER
+TDD-2279267 attempt 4 SHRED Y Y m m Y
+TDD255776 ? 
+TDD-255859 question done
+TDD791885 > *
+TDD-50593 questioning: ["radar", "#2"]
+TDD3381057 #1 _____ ~AS -DEHNR  📋 "radar" ? .
+TDD-4122259 attempt 0 RADAR n m n m n
+TDD775537 #2 _A__R ~D -EHNS  📋 "radar" ? /it
+TDD-775433 attempt 1 RADAR Y Y Y Y Y
+TDD1271684 #3 _____ ~AEN -DHRS  📋 "radar" ? .
+TDD-1271713 attempt 2 RADAR n m n m n
+TDD3943249 #4 S_RE_ -ADHN  📋 "radar" ? S_RE_ ~ E
+TDD-3943273 attempt 3 RADAR n n n n n
+TDD1543805 #5 SH__D ~ER -AN  📋 "radar" ? .
+TDD-1543842 attempt 4 RADAR m n n n m
+TDD151133 ? 
+TDD-151247 question done
+TDD584145 > *
+TDD-45718 questioning: ["sherd", "#5"]
+TDD3882634 #1 _____ ~AS -DEHNR  📋 "sherd" ? .
+TDD-4420880 attempt 0 SHERD m n n n n
+TDD999504 #3 _____ ~AEN -DHRS  📋 "sherd" ? .
+TDD-999502 attempt 2 SHERD n n m n n
+TDD2967623 #4 S_RE_ -ADHNR  📋 "sherd" ? S_RE_ ~ E
+TDD-2967618 attempt 3 SHERD Y n m n n
+TDD639231 #5 SH__D ~ER -ADN  📋 "sherd" ? /it
+TDD-639294 attempt 4 SHERD Y Y Y Y Y
+TDD175688 ? 
+TDD-175749 question done
+TDD519530 > *
+TDD3944248 try? 2
+TDD-4463666 questioning: ["blast", "#1"]
+TDD2287341 #1 _____ ~AS -DEHNR  📋 "blast" ? /it
+TDD-2287445 attempt 0 BLAST Y Y Y Y Y
+TDD3336063 #3 _____ ~AEN -DHRS  📋 "blast" ? _____ ~ ANET
+TDD-3335964 attempt 2 BLAST n n m n m
+TDD4927730 #4 S_RE_ -ADHNR  📋 "blast" ? S_RE_ ~ E
+TDD-4927735 attempt 3 BLAST n n n n n
+TDD198970 ? 
+TDD-199147 question done
+TDD552027 > *
+TDD790892 questioning: ["atone", "#3"]
+TDD1993708 #3 _____ ~AENT -BDHLRS  📋 "atone" ? /it
+TDD-3336429 attempt 2 ATONE Y Y Y Y Y
+TDD2919521 #4 S_RE_ -ABDHLNRST  📋 "atone" ? S_REE
+TDD-2919538 attempt 3 ATONE n n n n Y
+TDD311334 ? 
+TDD-311490 question done
+TDD511613 > *
+TDD381371 questioning: ["scree", "#4"]
+TDD2053899 #4 S_REE -ABDHLNORST  📋 "scree" ? /it
+TDD-2946794 attempt 3 SCREE Y Y Y Y Y
+TDD1815830 ? 
+TDD-1815909 question done
+TDD3632182 📋> squareword.org 1440: 7 guesses
+TDD-3632216 📋> 
+TDD-81 📋> 🟩🟩🟩🟩🟩
+TDD-8 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟩🟨🟩🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD399589 📋> #squareword #squareword1440
+TDD-223231 📋> ␚
+TDD-176248 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1440: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1440"}
+TDD636 result: "squareword.org 1440: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1440"
+TDD341461 📆 2026-01-10 ? 
