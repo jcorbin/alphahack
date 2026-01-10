@@ -1,0 +1,181 @@
+T431.14385795698036 now: 2026-01-10T10:23:36EST
+TD67 site: britannica.com/games/octordle/extreme
+TDD-55 wordlist: nwl2023.txt
+TDD-7 num_words: 8
+TDD3461787  ...
+TDD-1749588 > *
+TDD-568090 ? 1
+TDD-1143971 questioning: earls
+TDD2455476 Extreme #1 _____? nnnYn
+TDD-2455470 attempt: 0 EARLS n n n Y n
+TDD2967725 Extreme #2 _____? nMYMn
+TDD-2967693 attempt: 1 EARLS n m Y m n
+TDD2647909 Extreme #3 _____? YMnMn
+TDD-2647905 attempt: 2 EARLS Y m n m n
+TDD1103725 Extreme #4 _____? nnnnM
+TDD-1103662 attempt: 3 EARLS n n n n m
+TDD4056058 Extreme #5 _____? Mnnnn
+TDD-4056053 attempt: 4 EARLS m n n n n
+TDD1615372 Extreme #6 _____? nYnnn
+TDD-1615437 attempt: 5 EARLS n Y n n n
+TDD1455183 Extreme #7 _____? MnMnn
+TDD-1455132 attempt: 6 EARLS m n m n n
+TDD2263377 Extreme #8 _____? Mnnnn
+TDD-2263371 attempt: 7 EARLS m n n n n
+TDD1239840 > *
+TDD4280316 ? nYnnn
+TDD-3544898 ? nnnnn
+TDD920542 ? MnnMn
+TDD528373 ? 1
+TDD-3424245 questioning: toped
+TDD3303485 Extreme #1 ___L_ -AERS? nYnnn
+TDD-3303362 attempt: 0 TOPED n Y n n n
+TDD1191166 Extreme #2 __R__ ~AL -ES? nnnnn
+TDD-1191296 attempt: 1 TOPED n n n n n
+TDD3327888 Extreme #3 E____ ~AL -RS? MnnMn
+TDD-3327850 attempt: 2 TOPED m n n m n
+TDD2023654 Extreme #4 _____ ~S -AELR? nYnnn
+TDD-2023652 attempt: 3 TOPED n Y n n n
+TDD4575582 Extreme #5 _____ ~E -ALRS? nnnMn
+TDD-4575607 attempt: 4 TOPED n n n m n
+TDD1575835 Extreme #6 _A___ -ELRS? Mnnnn
+TDD-1575774 attempt: 5 TOPED m n n n n
+TDD1855354 Extreme #7 _____ ~ER -ALS? MnnMn
+TDD-1855418 attempt: 6 TOPED m n n m n
+TDD3327757 Extreme #8 _____ ~E -ALRS? nnnMn
+TDD-3327678 attempt: 7 TOPED n n n m n
+TDD1511546 > *
+TDD968071 ? 2
+TDD-2479713 questioning: elate
+TDD6271689 Extreme #1 _O_L_ -ADEPRST? nMnnn
+TDD-6271659 attempt: 0 ELATE n m n n n
+TDD1335819 Extreme #2 __R__ ~AL -DEOPST? nMMnn
+TDD-1335839 attempt: 1 ELATE n m m n n
+TDD3135555 Extreme #3 E____ ~ALT -DOPRS? YMMMn
+TDD-3135541 attempt: 2 ELATE Y m m m n
+TDD1263957 Extreme #4 _O___ ~S -ADELPRT? nnnnn
+TDD-1263883 attempt: 3 ELATE n n n n n
+TDD4351456 Extreme #5 _____ ~E -ADLOPRST? nnnnY
+TDD-4351479 attempt: 4 ELATE n n n n Y
+TDD1471542 Extreme #6 _A___ ~T -DELOPRS? nnMYn
+TDD-1471525 attempt: 5 ELATE n n m Y n
+TDD2063386 Extreme #7 _____ ~ERT -ADLOPS? MnnMn
+TDD-2063396 attempt: 6 ELATE m n n m n
+TDD1215485 Extreme #8 _____ ~E -ADLOPRST? Mnnnn
+TDD-1215548 attempt: 7 ELATE m n n n n
+TDD1416039 > *
+TDD-1415880 questioning: eclat
+TDD5023574 Extreme #1 _O_L_ -ADEPRST? nnYnn
+TDD-5023733 attempt: 0 ECLAT n n Y n n
+TDD2319116 Extreme #2 __R__ ~AL -DEOPST? nnMYn
+TDD-2319052 attempt: 1 ECLAT n n m Y n
+TDD1271493 Extreme #3 E____ ~ALT -DOPRS? YYYYY
+TDD-1271552 attempt: 2 ECLAT Y Y Y Y Y
+TDD1719475 Extreme #4 _O___ ~S -ADELPRT? nnnnn
+TDD-1719504 attempt: 3 ECLAT n n n n n
+TDD4424284 Extreme #5 ____E -ADLOPRST? Mnnnn
+TDD-4424262 attempt: 4 ECLAT m n n n n
+TDD1463431 Extreme #6 _A_T_ -DELOPRS? nMnMM
+TDD-1463419 attempt: 5 ECLAT n m n m m
+TDD1487772 Extreme #7 _____ ~ERT -ADLOPS E:1? MnnnY
+TDD-1487764 attempt: 6 ECLAT m n n n Y
+TDD1583689 Extreme #8 _____ ~E -ADLOPRST E:1? MMnnn
+TDD-1583694 attempt: 7 ECLAT m m n n n
+TDD1439755 > *
+TDD-144162 ? 1
+TDD-1295636 questioning: binge
+TDD6528160 Extreme #1 _OLL_ -ACDEPRST? nnnnn
+TDD-6528129 attempt: 0 BINGE n n n n n
+TDD1127162 Extreme #2 __RA_ ~L -CDEOPST? nnnnn
+TDD-1127110 attempt: 1 BINGE n n n n n
+TDD3079630 Extreme #4 _O___ ~S -ACDELPRT? YnMnn
+TDD-3079620 attempt: 3 BINGE Y n m n n
+TDD3783411 Extreme #5 ____E -ACDLOPRST? MMnnY
+TDD-3783414 attempt: 4 BINGE m m n n Y
+TDD1447588 Extreme #6 _A_T_ ~C -DELOPRS? nMnnn
+TDD-1447653 attempt: 5 BINGE n m n n n
+TDD1600745 Extreme #7 ____T ~ER -ACDLOPS E:1? nMMnM
+TDD-1600746 attempt: 6 BINGE n m m n m
+TDD1702529 Extreme #8 _____ ~CE -ADLOPRST E:1? nnnnM
+TDD-1702501 attempt: 7 BINGE n n n n m
+TDD1471841 > *
+TDD-1471731 questioning: cacti
+TDD4591146 Extreme #1 _OLL_ -ABCDEGINPRST? nnnnn
+TDD-4591196 attempt: 0 CACTI n n n n n
+TDD1183851 Extreme #2 __RA_ ~L -BCDEGINOPST? nMnnn
+TDD-1183900 attempt: 1 CACTI n m n n n
+TDD2223781 Extreme #4 BO___ ~NS -ACDEGILPRT? nnnnn
+TDD-2223831 attempt: 3 CACTI n n n n n
+TDD5583433 Extreme #5 ____E ~BI -ACDGLNOPRST? nnnnM
+TDD-5583395 attempt: 4 CACTI n n n n m
+TDD2455607 Extreme #6 _A_T_ ~CI -BDEGLNOPRS? YYYYY
+TDD-2455520 attempt: 5 CACTI Y Y Y Y Y
+TDD2263104 Extreme #7 ____T ~EINR -ABCDGLOPS E:1? nnnMM
+TDD-2263156 attempt: 6 CACTI n n n m m
+TDD2543836 Extreme #8 _____ ~CE -ABDGILNOPRST E:1? YnMnn
+TDD-2543796 attempt: 7 CACTI Y n m n n
+TDD1175840 > *
+TDD-1175677 questioning: inert
+TDD4590883 Extreme #1 _OLL_ -ABCDEGINPRST? nnnnn
+TDD-4591151 attempt: 0 INERT n n n n n
+TDD1079310 Extreme #2 __RA_ ~L -BCDEGINOPST? nnnMn
+TDD-1079248 attempt: 1 INERT n n n m n
+TDD1775599 Extreme #4 BO___ ~NS -ACDEGILPRT? nMnnn
+TDD-1775567 attempt: 3 INERT n m n n n
+TDD3615604 Extreme #5 ____E ~BI -ACDGLNOPRST? YnMnn
+TDD-3615678 attempt: 4 INERT Y n m n n
+TDD5479696 Extreme #7 ____T ~EINR -ABCDGLOPS E:1? YYYYY
+TDD-5479640 attempt: 6 INERT Y Y Y Y Y
+TDD1823691 Extreme #8 C____ ~CE -ABDGILNOPRST E:1? nnYnn
+TDD-1823726 attempt: 7 INERT n n Y n n
+TDD1127426 > *
+TDD-1127229 questioning: imbue
+TDD5415531 Extreme #1 _OLL_ -ABCDEGINPRST? nnnnn
+TDD-5415702 attempt: 0 IMBUE n n n n n
+TDD1527335 Extreme #2 __RA_ ~L -BCDEGINOPST? nMnMn
+TDD-1527336 attempt: 1 IMBUE n m n m n
+TDD2751675 Extreme #4 BO___ ~NS -ACDEGILPRT? nnMnn
+TDD-2751677 attempt: 3 IMBUE n n m n n
+TDD4311440 Extreme #5 I___E ~B -ACDGLNOPRST? YYYYY
+TDD-4311441 attempt: 4 IMBUE Y Y Y Y Y
+TDD4935540 Extreme #8 C_E__ ~C -ABDGILNOPRST? nnnnM
+TDD-4935598 attempt: 7 IMBUE n n n n m
+TDD1159750 > *
+TDD-1159594 questioning: mural
+TDD8375380 Extreme #1 _OLL_ -ABCDEGIMNPRSTU? nnnnM
+TDD-8375498 attempt: 0 MURAL n n n n m
+TDD1687823 Extreme #2 __RA_ ~LMU -BCDEGINOPST? YYYYY
+TDD-1687802 attempt: 1 MURAL Y Y Y Y Y
+TDD3303273 Extreme #4 BO___ ~NS -ACDEGILMPRTU? nnnnn
+TDD-3303334 attempt: 3 MURAL n n n n n
+TDD3240142 Extreme #8 C_E__ ~C -ABDGILMNOPRSTU? nnnnn
+TDD-3240140 attempt: 7 MURAL n n n n n
+TDD1023564 > *
+TDD-1023381 questioning: boson
+TDD5599213 Extreme #1 _OLL_ -ABCDEGIMNPRSTU? nYnnn
+TDD-5599398 attempt: 0 BOSON n Y n n n
+TDD6831389 Extreme #4 BO___ ~NS -ACDEGILMPRTU? YYYYY
+TDD-6831388 attempt: 3 BOSON Y Y Y Y Y
+TDD6288096 Extreme #8 C_E__ ~C -ABDGILMNOPRSTU? nnnnn
+TDD-6288030 attempt: 7 BOSON n n n n n
+TDD1047579 > *
+TDD-1047404 questioning: check
+TDD4590830 Extreme #1 _OLL_ -ABCDEGIMNPRSTU? nMnnn
+TDD-4591005 attempt: 0 CHECK n m n n n
+TDD3455759 Extreme #8 C_E__ ~C -ABDGILMNOPRSTU? YYYYY
+TDD-3455784 attempt: 7 CHECK Y Y Y Y Y
+TDD919719 > *
+TDD5903863 ? 2
+TDD-6823643 questioning: holly
+TDD1519810 Extreme #1 _OLL_ ~H -ABCDEGIKMNPRSTU? YYYYY
+TDD-1519680 attempt: 0 HOLLY Y Y Y Y Y
+TDD2511957 📋> Daily Extreme Octordle #1447
+TDD-2512139 📋> 🕛9️⃣
+TDD-86 📋> 4️⃣🔟
+TDD-4 📋> 8️⃣6️⃣
+TDD0 📋> 7️⃣🕚
+TDD415305 📋> Score: 67
+TDD-223171 📋> ␚
+TDD-191995 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Extreme Octordle #1447\n\ud83d\udd5b9\ufe0f\u20e3\n4\ufe0f\u20e3\ud83d\udd1f\n8\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udd5a\nScore: 67"}
+TDD33 result: "Daily Extreme Octordle #1447\n\ud83d\udd5b9\ufe0f\u20e3\n4\ufe0f\u20e3\ud83d\udd1f\n8\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udd5a\nScore: 67"
+TDD231564 📆 2026-01-10 ? 
