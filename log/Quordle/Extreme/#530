@@ -1,0 +1,87 @@
+T1.0649580959870946 now: 2026-01-10T10:12:14EST
+TD84 site: m-w.com/games/quordle/#/extreme
+TDD-69 wordlist: nwl2023.txt
+TDD-10 num_words: 4
+TDD11005833  ...
+TDD-9933721 > *
+TDD-200234 ? 1
+TDD-871693 questioning: raise
+TDD3671922 Extreme #1 _____? nnMMY
+TDD-3671543 attempt: 0 RAISE n n m m Y
+TDD1990640 Extreme #2 _____? MYnnY
+TDD-1991012 attempt: 1 RAISE m Y n n Y
+TDD1431979 Extreme #3 _____? nnnnn
+TDD-1431941 attempt: 2 RAISE n n n n n
+TDD1775528 Extreme #4 _____? nnYMn
+TDD-1775582 attempt: 3 RAISE n n Y m n
+TDD1111313 > *
+TDD520813 ? 1
+TDD-1632142 questioning: umpty
+TDD2703381 Extreme #1 ____E ~IS -AR? nnnnn
+TDD-2703357 attempt: 0 UMPTY n n n n n
+TDD1128165 Extreme #2 _A__E ~R -IS? nnnnn
+TDD-1128176 attempt: 1 UMPTY n n n n n
+TDD2743464 Extreme #3 _____ -AEIRS? MMnMn
+TDD-2743388 attempt: 2 UMPTY m m n m n
+TDD1375178 Extreme #4 __I__ ~S -AER? nnnMn
+TDD-1375178 attempt: 3 UMPTY n n n m n
+TDD1271716 > *
+TDD-263814 ? 1
+TDD-1007972 questioning: shift
+TDD3831696 Extreme #1 ____E ~IS -AMPRTUY? YnMnn
+TDD-3831631 attempt: 0 SHIFT Y n m n n
+TDD1063343 Extreme #2 _A__E ~R -IMPSTUY? nnnnn
+TDD-1063363 attempt: 1 SHIFT n n n n n
+TDD2231304 Extreme #3 _____ ~MTU -AEIPRSY? nnnnY
+TDD-2231267 attempt: 2 SHIFT n n n n Y
+TDD1103523 Extreme #4 __I__ ~ST -AEMPRUY? YYYYY
+TDD-1103606 attempt: 3 SHIFT Y Y Y Y Y
+TDD967676 > *
+TDD408210 ? 1
+TDD-1375878 questioning: mount
+TDD3295870 Extreme #1 S___E ~I -AFHMPRTUY? nnnMn
+TDD-3295823 attempt: 0 MOUNT n n n m n
+TDD1095303 Extreme #2 _A__E ~R -FHIMPSTUY? nnnnn
+TDD-1095382 attempt: 1 MOUNT n n n n n
+TDD2383641 Extreme #3 ____T ~MU -AEFHIPRSY? YYYnY
+TDD-2383626 attempt: 2 MOUNT Y Y Y n Y
+TDD3151749 > * 1
+TDD-1223764 ? ␚
+TDD-1928080 <EOF>
+TDD1271972 > *
+TDD-1271732 questioning: moult
+TDD6599371 Extreme #1 S___E ~IN -AFHMOPRTUY? nnnnn
+TDD-6599439 attempt: 0 MOULT n n n n n
+TDD1055397 Extreme #2 _A__E ~R -FHIMNOPSTUY? nnnnn
+TDD-1055475 attempt: 1 MOULT n n n n n
+TDD1399633 Extreme #3 MOU_T -AEFHINPRSY? YYYYY
+TDD-1399611 attempt: 2 MOULT Y Y Y Y Y
+TDD1055682 > *
+TDD168139 ? 1
+TDD-1223864 questioning: since
+TDD2815960 Extreme #1 S___E ~IN -AFHLMOPRTUY? YYYnY
+TDD-2815961 attempt: 0 SINCE Y Y Y n Y
+TDD2583628 Extreme #2 _A__E ~R -FHILMNOPSTUY? nnnMY
+TDD-2583538 attempt: 1 SINCE n n n m Y
+TDD1007062 > *
+TDD-1006845 questioning: singe
+TDD4855474 Extreme #1 SIN_E -ACFHLMOPRTUY? YYYYY
+TDD-4855695 attempt: 0 SINGE Y Y Y Y Y
+TDD1263273 Extreme #2 _A__E ~CR -FHILMNOPSTUY? nnnnY
+TDD-1263272 attempt: 1 SINGE n n n n Y
+TDD799635 > *
+TDD1424128 ? 1
+TDD-2223853 questioning: carve
+TDD9312027 Extreme #2 _A__E ~CR -FGHILMNOPSTUY? YYMnY
+TDD-9312004 attempt: 1 CARVE Y Y m n Y
+TDD6511502 > /res
+TDD-5911319 📋> 🥵 Daily Extreme 530
+TDD-600271 📋> 7️⃣🟥
+TDD-75 📋> 5️⃣3️⃣
+TDD-2 📋> m-w.com/games/quordle/
+TDD263552 📋> 
+TDD-7151 📋> ␚
+TDD-256308 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83e\udd75 Daily Extreme 530\n7\ufe0f\u20e3\ud83d\udfe5\n5\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD3715 result: "\ud83e\udd75 Daily Extreme 530\n7\ufe0f\u20e3\ud83d\udfe5\n5\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD1199854 > /store
+TDD-515006 📆 2026-01-10 ? 
