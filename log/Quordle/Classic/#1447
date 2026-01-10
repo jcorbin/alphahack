@@ -1,0 +1,92 @@
+T691.8264999340172 now: 2026-01-10T09:18:09EST
+TD70 site: m-w.com/games/quordle/#/
+TDD-56 wordlist: nwl2023.txt
+TDD-9 num_words: 4
+TDD5918669  ...
+TDD-4486890 > *
+TDD-511898 ? 1
+TDD-919753 questioning: antes
+TDD3623754 Classic #1 _____? MnnMn
+TDD-3623694 attempt: 0 ANTES m n n m n
+TDD1255731 Classic #2 _____? nnnnn
+TDD-1255704 attempt: 1 ANTES n n n n n
+TDD1439972 Classic #3 _____? nnnMn
+TDD-1439894 attempt: 2 ANTES n n n m n
+TDD2359174 Classic #4 _____? nMnYn
+TDD-2359288 attempt: 3 ANTES n m n Y n
+TDD2760208 > * 2
+TDD1799371 ? 2
+TDD-4559577 questioning: bigly
+TDD3103354 Classic #1 _____ ~AE -NST? nnnMn
+TDD-3103366 attempt: 0 BIGLY n n n m n
+TDD1071764 Classic #2 _____ -AENST? nnnMn
+TDD-1071754 attempt: 1 BIGLY n n n m n
+TDD2847622 Classic #3 _____ ~E -ANST? YnnMn
+TDD-2847549 attempt: 2 BIGLY Y n n m n
+TDD1311573 Classic #4 ___E_ ~N -AST? nYnnn
+TDD-1311577 attempt: 3 BIGLY n Y n n n
+TDD1383544 > *
+TDD88055 ? 2
+TDD-1471647 questioning: clear
+TDD2759679 Classic #1 _____ ~AEL -BGINSTY? nMMMn
+TDD-2759634 attempt: 0 CLEAR n m m m n
+TDD1807388 Classic #2 _____ ~L -ABEGINSTY? nYnnn
+TDD-1807455 attempt: 1 CLEAR n Y n n n
+TDD1431741 Classic #3 B____ ~EL -AGINSTY? nMMnn
+TDD-1431722 attempt: 2 CLEAR n m m n n
+TDD1879625 Classic #4 _I_E_ ~N -ABGLSTY? nnMnY
+TDD-1879627 attempt: 3 CLEAR n n m n Y
+TDD1007565 > *
+TDD-1007436 questioning: below
+TDD3335291 Classic #1 _____ ~AEL -BCGINRSTY? nMYnn
+TDD-3335432 attempt: 0 BELOW n m Y n n
+TDD1359431 Classic #2 _L___ -ABCEGINRSTY? nnMnn
+TDD-1359446 attempt: 1 BELOW n n m n n
+TDD1568071 Classic #3 B____ ~EL -ACGINRSTY? YYYYY
+TDD-1568082 attempt: 2 BELOW Y Y Y Y Y
+TDD1607579 Classic #4 _I_ER ~N -ABCGLSTY? nMnnn
+TDD-1607499 attempt: 3 BELOW n m n n n
+TDD1199445 > *
+TDD2576688 ? 1
+TDD-3776228 questioning: value
+TDD5183373 Classic #1 __L__ ~AE -BCGINORSTWY? MYYnY
+TDD-5183221 attempt: 0 VALUE m Y Y n Y
+TDD1247450 Classic #2 _L___ -ABCEGINORSTWY? nnMMn
+TDD-1247574 attempt: 1 VALUE n n m m n
+TDD1695354 Classic #4 _I_ER ~N -ABCGLOSTWY? nnnnM
+TDD-1695340 attempt: 3 VALUE n n n n m
+TDD1079658 > *
+TDD-1079541 questioning: halve
+TDD4695916 Classic #1 _AL_E ~V -BCGINORSTUWY? YYYYY
+TDD-4696026 attempt: 0 HALVE Y Y Y Y Y
+TDD2023163 Classic #2 _L___ ~U -ABCEGINORSTVWY? nnMnn
+TDD-2023190 attempt: 1 HALVE n n m n n
+TDD1855728 Classic #4 _I_ER ~N -ABCGLOSTUVWY? nnnnM
+TDD-1855725 attempt: 3 HALVE n n n n m
+TDD1103588 > *
+TDD2408205 ? 1
+TDD-3511807 questioning: flump
+TDD3536122 Classic #2 _L___ ~U -ABCEGHINORSTVWY? YYYnn
+TDD-3536106 attempt: 1 FLUMP Y Y Y n n
+TDD1543205 Classic #4 _I_ER ~N -ABCGHLOSTUVWY? nnnnn
+TDD-1543174 attempt: 3 FLUMP n n n n n
+TDD991660 > *
+TDD-991555 questioning: fluff
+TDD3223508 Classic #2 FLU__ -ABCEGHIMNOPRSTVWY? YYYYY
+TDD-3223622 attempt: 1 FLUFF Y Y Y Y Y
+TDD1959462 Classic #4 _I_ER ~N -ABCFGHLMOPSTUVWY? nnnnn
+TDD-1959493 attempt: 3 FLUFF n n n n n
+TDD799921 > *
+TDD360081 ? 1
+TDD-1159983 questioning: diner
+TDD2735766 Classic #4 _I_ER ~N -ABCFGHLMOPSTUVWY? YYYYY
+TDD-2735731 attempt: 3 DINER Y Y Y Y Y
+TDD7095926 📋> 🙂 Daily Quordle 1447
+TDD-7095935 📋> 6️⃣8️⃣
+TDD-173 📋> 4️⃣9️⃣
+TDD-21 📋> m-w.com/games/quordle/
+TDD382968 📋> 
+TDD-150899 📋> ␚
+TDD-231964 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1447\n6\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD945 result: "\ud83d\ude42 Daily Quordle 1447\n6\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD357944 📆 2026-01-10 ? 
