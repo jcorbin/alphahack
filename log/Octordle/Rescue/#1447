@@ -1,0 +1,180 @@
+T6.513837184989825 now: 2026-01-10T10:16:32EST
+TD83 site: britannica.com/games/octordle/daily-rescue
+TDD-67 wordlist: nwl2023.txt
+TDD-10 num_words: 8
+TDD5614316  ...
+TDD-2926229 > 
+TDD-2544170 > 
+TDD758 > 
+TDD7391868 > tried ethic digit blimp canoe
+TDD-7536211 questioning: ethic digit blimp canoe
+TDD2382750 Rescue #1 _____? nnnnM
+TDD-2382697 attempt: 0 ETHIC n n n n m
+TDD1935405 Rescue #1 _____ ~C -EHIT? nnnnn
+TDD-1935511 attempt: 0 DIGIT n n n n n
+TDD1391113 Rescue #1 _____ ~C -DEGHIT? nnnnn
+TDD-1391139 attempt: 0 BLIMP n n n n n
+TDD2047280 Rescue #1 _____ ~C -BDEGHILMPT? YnMMn
+TDD-2047359 attempt: 0 CANOE Y n m m n
+TDD1607846 Rescue #2 _____? Mnnnn
+TDD-1607782 attempt: 1 ETHIC m n n n n
+TDD1447392 Rescue #2 _____ ~E -CHIT? nnnnn
+TDD-1447457 attempt: 1 DIGIT n n n n n
+TDD1976003 Rescue #2 _____ ~E -CDGHIT? nYnYM
+TDD-1975998 attempt: 1 BLIMP n Y n Y m
+TDD1287527 Rescue #2 _L_M_ ~EP -BCDGHIT? nnnnY
+TDD-1287462 attempt: 1 CANOE n n n n Y
+TDD2335467 Rescue #3 _____? nMnYn
+TDD-2335536 attempt: 2 ETHIC n m n Y n
+TDD1543619 Rescue #3 ___I_ ~T -CEH? nnnYY
+TDD-1543558 attempt: 2 DIGIT n n n Y Y
+TDD1583469 Rescue #3 ___IT -CDEGH? nnMMn
+TDD-1583532 attempt: 2 BLIMP n n m m n
+TDD1839807 Rescue #3 ___IT ~M -BCDEGHLP? nnnMn
+TDD-1839811 attempt: 2 CANOE n n n m n
+TDD1847609 Rescue #4 _____? MMnnM
+TDD-1847637 attempt: 3 ETHIC m m n n m
+TDD1343862 Rescue #4 _____ ~CET -HI? nnnnM
+TDD-1343832 attempt: 3 DIGIT n n n n m
+TDD1631503 Rescue #4 _____ ~CET -DGHI? nnnnn
+TDD-1631501 attempt: 3 BLIMP n n n n n
+TDD2319879 Rescue #4 _____ ~CET -BDGHILMP? MMnnY
+TDD-2319877 attempt: 3 CANOE m m n n Y
+TDD5415475 Rescue #5 _____? nnnnn
+TDD-5415417 attempt: 4 ETHIC n n n n n
+TDD1095594 Rescue #5 _____ -CEHIT? nnnnn
+TDD-1095671 attempt: 4 DIGIT n n n n n
+TDD2055873 Rescue #5 _____ -CDEGHIT? nnnYn
+TDD-2055788 attempt: 4 BLIMP n n n Y n
+TDD1231489 Rescue #5 ___M_ -BCDEGHILPT? nMnMn
+TDD-1231554 attempt: 4 CANOE n m n m n
+TDD2031531 Rescue #6 _____? MnnYn
+TDD-2031466 attempt: 5 ETHIC m n n Y n
+TDD1855550 Rescue #6 ___I_ ~E -CHT? nnnYn
+TDD-1855565 attempt: 5 DIGIT n n n Y n
+TDD2671572 Rescue #6 ___I_ ~E -CDGHT? YMMnn
+TDD-2671569 attempt: 5 BLIMP Y m m n n
+TDD1407616 Rescue #6 B__I_ ~EL -CDGHMPT? nnnnY
+TDD-1407607 attempt: 5 CANOE n n n n Y
+TDD2383415 Rescue #7 _____? Mnnnn
+TDD-2383475 attempt: 6 ETHIC m n n n n
+TDD1335821 Rescue #7 _____ ~E -CHIT? Mnnnn
+TDD-1335808 attempt: 6 DIGIT m n n n n
+TDD2079777 Rescue #7 _____ ~DE -CGHIT? nnnnM
+TDD-2079737 attempt: 6 BLIMP n n n n m
+TDD1519296 Rescue #7 _____ ~DEP -BCGHILMT? nnnnY
+TDD-1519332 attempt: 6 CANOE n n n n Y
+TDD1847859 Rescue #8 _____? nMnnn
+TDD-1847879 attempt: 7 ETHIC n m n n n
+TDD2647410 Rescue #8 _____ ~T -CEHI? nnMnM
+TDD-2647407 attempt: 7 DIGIT n n m n m
+TDD1416087 Rescue #8 _____ ~GT -CDEHI? nnnnn
+TDD-1416017 attempt: 7 BLIMP n n n n n
+TDD1871157 Rescue #8 _____ ~GT -BCDEHILMP? nYYnn
+TDD-1871219 attempt: 7 CANOE n Y Y n n
+TDD1271839 > *
+TDD-1271509 questioning: plume
+TDD6991335 Rescue #1 C____ ~NO -ABDEGHILMPT? nnnnn
+TDD-6991624 attempt: 0 PLUME n n n n n
+TDD1903361 Rescue #2 _L_ME ~P -ABCDGHINOT? YYYYY
+TDD-1903352 attempt: 1 PLUME Y Y Y Y Y
+TDD1831739 Rescue #3 ___IT ~MO -ABCDEGHLNP? nnnMn
+TDD-1831719 attempt: 2 PLUME n n n m n
+TDD1447283 Rescue #4 ____E ~ACT -BDGHILMNOP? nnYnY
+TDD-1447299 attempt: 3 PLUME n n Y n Y
+TDD4599387 Rescue #5 ___M_ ~AO -BCDEGHILNPT? nnnYn
+TDD-4599432 attempt: 4 PLUME n n n Y n
+TDD1615556 Rescue #6 B__IE ~L -ACDGHMNOPT? nMnnY
+TDD-1615563 attempt: 5 PLUME n m n n Y
+TDD2647618 Rescue #7 ____E ~DP -ABCGHILMNOT? YnYnY
+TDD-2647611 attempt: 6 PLUME Y n Y n Y
+TDD1184250 Rescue #8 _AN__ ~GT -BCDEHILMOP? nnnnn
+TDD-1184214 attempt: 7 PLUME n n n n n
+TDD1199447 > *
+TDD-1199346 questioning: vomit
+TDD5728227 Rescue #1 C____ ~NO -ABDEGHILMPTU? nMnnn
+TDD-5728335 attempt: 0 VOMIT n m n n n
+TDD1278664 Rescue #3 ___IT ~MO -ABCDEGHLNPU? YYYYY
+TDD-1278722 attempt: 2 VOMIT Y Y Y Y Y
+TDD1623723 Rescue #4 __U_E ~ACT -BDGHILMNOP? nnnnM
+TDD-1623652 attempt: 3 VOMIT n n n n m
+TDD4160023 Rescue #5 ___M_ ~AO -BCDEGHILNPTU? nYMnn
+TDD-4160021 attempt: 4 VOMIT n Y m n n
+TDD1471373 Rescue #6 B__IE ~L -ACDGHMNOPTU? nnnYn
+TDD-1471374 attempt: 5 VOMIT n n n Y n
+TDD1238995 Rescue #7 P_U_E ~D -ABCGHILMNOT? nnnnn
+TDD-1239066 attempt: 6 VOMIT n n n n n
+TDD1535807 Rescue #8 _AN__ ~GT -BCDEHILMOPU? nnnnM
+TDD-1535735 attempt: 7 VOMIT n n n n m
+TDD1312586 > *
+TDD-1312426 questioning: acute
+TDD4702438 Rescue #1 C____ ~NO -ABDEGHILMPTUV? nMnnn
+TDD-4702648 attempt: 0 ACUTE n m n n n
+TDD2103044 Rescue #4 __U_E ~ACT -BDGHILMNOPV? YYYYY
+TDD-2102996 attempt: 3 ACUTE Y Y Y Y Y
+TDD3488530 Rescue #5 _O_M_ ~A -BCDEGHILNPTUV? Mnnnn
+TDD-3488525 attempt: 4 ACUTE m n n n n
+TDD1494740 Rescue #6 B__IE ~L -ACDGHMNOPTUV? nnnnY
+TDD-1494742 attempt: 5 ACUTE n n n n Y
+TDD2479557 Rescue #7 P_U_E ~D -ABCGHILMNOTV? nnYnY
+TDD-2479544 attempt: 6 ACUTE n n Y n Y
+TDD1695659 Rescue #8 _AN__ ~GT -BCDEHILMOPUV? MnnMn
+TDD-1695671 attempt: 7 ACUTE m n n m n
+TDD1567472 > *
+TDD-1567387 questioning: belie
+TDD6087508 Rescue #1 C____ ~NO -ABDEGHILMPTUV? nnnnn
+TDD-6087628 attempt: 0 BELIE n n n n n
+TDD4839666 Rescue #5 _O_M_ ~A -BCDEGHILNPTUV? nnnnn
+TDD-4839607 attempt: 4 BELIE n n n n n
+TDD1503385 Rescue #6 B__IE ~L -ACDGHMNOPTUV? YYYYY
+TDD-1503442 attempt: 5 BELIE Y Y Y Y Y
+TDD1959958 Rescue #7 P_U_E ~D -ABCGHILMNOTV? nnnnY
+TDD-1959924 attempt: 6 BELIE n n n n Y
+TDD1095019 Rescue #8 _AN__ ~GT -BCDEHILMOPUV? nnnnn
+TDD-1095050 attempt: 7 BELIE n n n n n
+TDD1039419 > *
+TDD-1039316 questioning: prude
+TDD4791811 Rescue #1 C____ ~NO -ABDEGHILMPTUV? nYnnn
+TDD-4791856 attempt: 0 PRUDE n Y n n n
+TDD3359716 Rescue #5 _O_M_ ~A -BCDEGHILNPTUV? nnnnn
+TDD-3359740 attempt: 4 PRUDE n n n n n
+TDD4535417 Rescue #7 P_U_E ~D -ABCGHILMNOTV? YYYYY
+TDD-4535414 attempt: 6 PRUDE Y Y Y Y Y
+TDD2783491 Rescue #8 _AN__ ~GT -BCDEHILMOPUV? nnnnn
+TDD-2783492 attempt: 7 PRUDE n n n n n
+TDD1087285 > *
+TDD4472600 ? 2
+TDD-5559929 questioning: crown
+TDD1295465 Rescue #1 CR___ ~NO -ABDEGHILMPTUV? YYYYY
+TDD-1295404 attempt: 0 CROWN Y Y Y Y Y
+TDD4351566 Rescue #5 _O_M_ ~A -BCDEGHILNPRTUV? nnMnn
+TDD-4351662 attempt: 4 CROWN n n m n n
+TDD2775993 Rescue #8 _AN__ ~GT -BCDEHILMOPRUV? nnnnM
+TDD-2775988 attempt: 7 CROWN n n n n m
+TDD1063132 > *
+TDD3568722 ? 2
+TDD-4631857 questioning: foams
+TDD8632956 Rescue #5 _O_M_ ~A -BCDEGHILNPRTUVW? YYYYn
+TDD-8632932 attempt: 4 FOAMS Y Y Y Y n
+TDD3262677 Rescue #8 _AN__ ~GT -BCDEHILMOPRUVW? nnMnn
+TDD-3262693 attempt: 7 FOAMS n n m n n
+TDD911448 > *
+TDD-911298 questioning: foamy
+TDD4631705 Rescue #5 FOAM_ -BCDEGHILNPRSTUVW? YYYYY
+TDD-4631770 attempt: 4 FOAMY Y Y Y Y Y
+TDD2455400 Rescue #8 _AN__ ~GT -BCDEFHILMOPRSUVW? nnMnY
+TDD-2455485 attempt: 7 FOAMY n n m n Y
+TDD879793 > *
+TDD-879669 questioning: tangy
+TDD3847228 Rescue #8 _AN_Y ~GT -BCDEFHILMOPRSUVW? YYYYY
+TDD-3847364 attempt: 7 TANGY Y Y Y Y Y
+TDD2768326 📋> Daily Rescue Octordle #1447
+TDD-2768406 📋> 🔟5️⃣
+TDD-77 📋> 6️⃣7️⃣
+TDD-1 📋> 🕛8️⃣
+TDD-2 📋> 9️⃣🕐
+TDD327245 📋> Score: 8
+TDD853 📋> ␚
+TDD-327980 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1447\n\ud83d\udd1f5\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\n\ud83d\udd5b8\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd50\nScore: 8"}
+TDD879 result: "Daily Rescue Octordle #1447\n\ud83d\udd1f5\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\n\ud83d\udd5b8\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd50\nScore: 8"
+TDD317990 📆 2026-01-10 ? 
