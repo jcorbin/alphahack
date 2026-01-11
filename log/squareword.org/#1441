@@ -1,0 +1,101 @@
+T803.5114172510002 now: 2026-01-11T08:58:56EST
+TD83 site: squareword.org
+TDD-59 wordlist: nwl2023.txt
+TDD6359442  ...#1441
+TDD-4663335  ...
+TDD103487 🧩  ? #1441
+TDD-1799175 puzzle_id: #1441
+TDD1150838 > *
+TDD2425130 try? 1
+TDD-3576012 questioning: ["hares", "#5"]
+TDD4871199 #1 <IndexError>  📋 "hares" ? _____ ~ AS
+TDD-4870794 attempt 0 HARES n m n n m
+TDD2174306 #2 <IndexError>  📋 "hares" ? _____ ~ ARS
+TDD-2174757 attempt 1 HARES n m m n m
+TDD2671897 #3 <IndexError>  📋 "hares" ? _____ ~ AES
+TDD-2671906 attempt 2 HARES n m n m m
+TDD3222371 #4 <IndexError>  📋 "hares" ? _A___ ~ E
+TDD-3222370 attempt 3 HARES n Y n m n
+TDD2256272 #5 <IndexError>  📋 "hares" ? ____S ~ E
+TDD-2256270 attempt 4 HARES n n n m Y
+TDD878768 ? 
+TDD-878836 question done
+TDD8264258 > *
+TDD-4321307 try? 1
+TDD-3942843 questioning: ["astir", "#2"]
+TDD3287912 #1 _____ ~AS -EHR  📋 "astir" ? .
+TDD-3287920 attempt 0 ASTIR m m n n n
+TDD3118458 #2 _____ ~ARS -EH  📋 "astir" ? A____ ~ RS
+TDD-3118584 attempt 1 ASTIR Y m n n m
+TDD4616715 #3 _____ ~AES -HR  📋 "astir" ? _____ ~ AEST
+TDD-4616644 attempt 2 ASTIR m m m n n
+TDD2814184 #4 _A___ ~E -HRS  📋 "astir" ? .
+TDD-2814137 attempt 3 ASTIR n n n n n
+TDD927988 #5 ____S ~E -AHR  📋 "astir" ? .
+TDD-928064 attempt 4 ASTIR n n n n n
+TDD199528 ? 
+TDD-199624 question done
+TDD663144 > *
+TDD-88152 questioning: ["arson", "#2"]
+TDD3425073 #1 _____ ~AS -EHIRT  📋 "arson" ? .
+TDD-4000003 attempt 0 ARSON m n m n n
+TDD936157 #2 A____ ~RS -EHIT  📋 "arson" ? /it
+TDD-936067 attempt 1 ARSON Y Y Y Y Y
+TDD1847731 #3 _____ ~AEST -HIR  📋 "arson" ? .
+TDD-1847700 attempt 2 ARSON m n m n n
+TDD1223185 #4 _A___ ~E -AHIRST  📋 "arson" ? .
+TDD-1223188 attempt 3 ARSON n n n n n
+TDD3087378 #5 ____S ~E -AHIRST  📋 "arson" ? ____S ~ EON
+TDD-3087121 attempt 4 ARSON n n n m m
+TDD862627 ? 
+TDD-862855 question done
+TDD878626 > *
+TDD-161961 questioning: ["scuba", "#1"]
+TDD2325543 #1 _____ ~AS -EHINORT  📋 "scuba" ? /it
+TDD-3042349 attempt 0 SCUBA Y Y Y Y Y
+TDD1527695 #3 _____ ~AEST -HINOR  📋 "scuba" ? .
+TDD-1527691 attempt 2 SCUBA m n n n m
+TDD3704386 #4 _A___ ~E -AHINORST  📋 "scuba" ? _A___ ~ EU
+TDD-3704070 attempt 3 SCUBA n n m n n
+TDD2734087 #5 ____S ~ENO -AHIRST  📋 "scuba" ? .
+TDD-2734311 attempt 4 SCUBA n n n n n
+TDD311335 ? 
+TDD-311499 question done
+TDD623662 > *
+TDD867707 questioning: ["vague", "#4"]
+TDD4825044 #3 _____ ~AEST -BCHINORU  📋 "vague" ? .
+TDD-6316247 attempt 2 VAGUE n m n n m
+TDD1327031 #4 _A___ ~EU -ABCHINORST  📋 "vague" ? /it
+TDD-1327049 attempt 3 VAGUE Y Y Y Y Y
+TDD2351915 #5 ____S ~ENO -ABCHIRSTU  📋 "vague" ? .
+TDD-2351940 attempt 4 VAGUE n n n n m
+TDD271070 ? 
+TDD-271227 question done
+TDD12127957 > *
+TDD-10870791 questioning: ["least", "#3"]
+TDD4709302 #3 _____ ~AEST -BCGHINORUV  📋 "least" ? /it
+TDD-5966276 attempt 2 LEAST Y Y Y Y Y
+TDD1262569 #5 ____S ~ENO -ABCGHIRSTUV  📋 "least" ? .
+TDD-1262566 attempt 4 LEAST n m n n n
+TDD1407604 ? 
+TDD-1407740 question done
+TDD3071826 > *
+TDD-2166391 questioning: ["omens", "#5"]
+TDD3868338 #5 ____S ~ENO -ABCGHILRSTUV  📋 "omens" ? /it
+TDD-4773611 attempt 4 OMENS Y Y Y Y Y
+TDD783199 ? 
+TDD-783433 question done
+TDD4520933 📋> squareword.org 1441: 7 guesses
+TDD-4520956 📋> 
+TDD-106 📋> 🟩🟩🟩🟩🟩
+TDD-7 📋> 🟩🟩🟩🟩🟩
+TDD-2 📋> 🟨🟨🟨🟨🟨
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD9 📋> 🟨🟨🟨🟨🟩
+TDD-9 📋> 
+TDD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD470910 📋> #squareword #squareword1441
+TDD-230664 📋> ␚
+TDD-240125 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1441: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1441"}
+TDD362 result: "squareword.org 1441: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1441"
+TDD238439 📆 2026-01-11 ? 
