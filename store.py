@@ -231,6 +231,8 @@ def matcher(pat: str|re.Pattern[str]):
         return Matcher(pat, then)
     return inner
 
+OrderLogsBy = Literal['mtime']
+
 class StoredLog:
     @classmethod
     def main(cls):
@@ -795,7 +797,14 @@ class StoredLog:
         self.loaded = True
         self.log_file = log_file
 
-    def find_prior_log(self, ui: PromptUI, puzzle_id: str|None=None) -> str|None:
+    find_latest_by: OrderLogsBy = 'mtime'
+
+    def find_prior_log(self,
+                       ui: PromptUI,
+                       puzzle_id: str|None=None,
+                       latest_by: OrderLogsBy|None=None) -> str|None:
+        if latest_by is None:
+            latest_by = self.find_latest_by
         if puzzle_id is None:
             puzzle_id = next(ui.tokens, '')
 
@@ -805,7 +814,8 @@ class StoredLog:
             raise StopIteration
 
         ents = [ent for ent in os.scandir(sd) if ent.is_file()]
-        ents = sorted(ents, key=lambda ent: ent.stat().st_mtime, reverse=True)
+        if latest_by == 'mtime':
+            ents = sorted(ents, key=lambda ent: ent.stat().st_mtime, reverse=True)
 
         def try_token(puzzle_id: str):
             for ent in ents:
