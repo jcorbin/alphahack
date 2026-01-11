@@ -1105,8 +1105,10 @@ class Meta(PromptUI.Arguable):
                         continue
 
                     note = proto.note_slug[0]
-                    dun = any(n.startswith(note) for n in done)
-                    if not dun and once(solver_i):
+                    if any(n.startswith(note) for n in done):
+                        continue
+
+                    if once(solver_i):
                         yield solver_i, solver_j
 
         for solver_i, solver_j in candidates():
