@@ -525,9 +525,19 @@ class Meta(Arguable):
         root['list_solvers'] = self.do_list_solvers
         root['solvers'] = self.do_solve
 
-        # TODO invert control to `sol/<name>/{log,run,...}`
-        root['log'] = self.do_log
-        root['run'] = self.do_run
+        for solver_i, (name, _) in enumerate(zip(solver_name, solver_make)):
+            path = f'solvers/{name}'
+            for name, cmd in {
+                '': partial(self.do_sol_run, solver_i),
+                'cont': partial(self.do_sol_cont, solver_i),
+                'current': partial(self.do_sol_cur, solver_i),
+                'edit': partial(self.do_sol_edit, solver_i),
+                'last': partial(self.do_sol_last, solver_i),
+                'ls': partial(self.do_sol_ls, solver_i),
+                'rm': partial(self.do_sol_rm, solver_i),
+                'tail': partial(self.do_sol_tail, solver_i),
+            }.items():
+                root[f'{path}{name}'] = cmd
 
     @override
     def __call__(self, ui: PromptUI):
@@ -836,79 +846,85 @@ class Meta(Arguable):
         except (EOFError, StopIteration):
             pass
 
-    def do_log(self, ui: PromptUI):
+    def do_sol_run(self, solver_i: int, ui: PromptUI):
         '''
-        manage solver log(s)
+        run solver
         '''
-        solver_i = self.choose_solver(ui)
-        if solver_i is None:
-            ui.print('! must name a solver')
+        make = solver_make[solver_i]
+        return run_solver(make, ui)
+
+    def do_sol_cont(self, solver_i: int, ui: PromptUI):
+        '''
+        continue solver run
+        '''
+        make = solver_make[solver_i]
+        log_file = self.solver_log[solver_i]
+        return run_solver(make, ui, log_file)
+
+    def do_sol_edit(self, solver_i: int, ui: PromptUI):
+        '''
+        open solver log in $EDITOR
+        '''
+        editor = os.environ.get('EDITOR', 'vi')
+        log_file = self.solver_log[solver_i]
+        with ui.check_proc(subprocess.Popen((editor, log_file))):
+            pass
+
+    def do_sol_cur(self, solver_i: int, ui: PromptUI):
+        '''
+        use current log file
+        '''
+        proto = solver_prior[solver_i]
+        prior = self.solver_log[solver_i]
+        log_file = proto.log_file
+        self.solver_log[solver_i] = log_file
+        action = 'Reset' if prior != log_file else 'Current'
+        ui.print(f'{action} log file: {log_file}')
+
+    def do_sol_last(self, solver_i: int, ui: PromptUI):
+        '''
+        use latest stored solver log
+        '''
+        proto = solver_prior[solver_i]
+        log_file = proto.find_prior_log(ui, None)
+        if log_file is None:
+            ui.print(f'! could not find last log file')
             return
-        elif solver_i < 0:
-            return
+        ui.print(f'Found last log_file: {log_file}')
+        self.solver_log[solver_i] = log_file
 
-        def use_last(ui: PromptUI, puzzle_id: str = '') -> PromptUI.State|None:
-            proto = solver_prior[solver_i]
-            found = proto.find_prior_log(ui, puzzle_id)
-            if found is None:
-                ui.print(f'! could not find last log file')
-                return
-            ui.print(f'Found last log_file: {found}')
-            self.solver_log[solver_i] = found
-            if ui.tokens:
-                return pr.handle(ui)
-            else:
-                return pr
+    def do_sol_ls(self, solver_i: int, ui: PromptUI):
+        '''
+        list and select from stored solver logs
+        '''
+        proto = solver_prior[solver_i]
+        log_file = proto.find_prior_log(ui, '*')
+        if log_file is not None:
+            ui.print(f'Selected log_file: {log_file}')
+            self.solver_log[solver_i] = log_file
 
-        def do_edit(ui: PromptUI):
-            editor = os.environ.get('EDITOR', 'vi')
-            log_file = self.solver_log[solver_i]
-            with ui.check_proc(subprocess.Popen((editor, log_file))):
-                pass
-            raise StopIteration
-
-        def do_rm(ui: PromptUI):
-            log_file = self.solver_log[solver_i]
-            ui.print(f'+ rm {log_file}')
-            os.unlink(log_file)
-            raise StopIteration
-
-        def do_cont(ui: PromptUI):
-            make = solver_make[solver_i]
-            log_file = self.solver_log[solver_i]
-            return run_solver(make, ui, log_file)
-
-        def do_tail(ui: PromptUI):
-            log_file = self.solver_log[solver_i]
-            tail_n = (
-                3 if ui.screen_lines < 10 else
-                10 if ui.screen_lines < 20 else
-                ui.screen_lines//2)
-            with ui.check_proc(subprocess.Popen(('tail', f'-n{tail_n}', log_file))):
-                pass
-            raise StopIteration
-
-        def prompt_mess(_: PromptUI):
-            log_file = self.solver_log[solver_i]
-            return f'{log_file}> '
-
-        pr = ui.Prompt(prompt_mess, {
-            'last': use_last,
-            'ls': partial(use_last, puzzle_id='*'),
-
-            'cont': do_cont,
-            'edit': do_edit,
-            'tail': do_tail,
-            'rm': do_rm,
-
-            # TODO fin / result
-            # TODO share / report
-        })
-
+    def do_sol_rm(self, solver_i: int, ui: PromptUI):
+        '''
+        remove solver log file
+        '''
+        log_file = self.solver_log[solver_i]
+        ui.print(f'+ rm {log_file}')
         try:
-            ui.call_state(lambda ui: pr.handle(ui) or pr if ui.tokens else pr)
-        except (StopIteration, EOFError):
-            return self.prompt
+            os.unlink(log_file)
+        except OSError as err:
+            ui.print(f'! {err}')
+
+    def do_sol_tail(self, solver_i: int, ui: PromptUI):
+        '''
+        show last N lines from solver log file
+        '''
+        log_file = self.solver_log[solver_i]
+        tail_n = (
+            3 if ui.screen_lines < 10 else
+            10 if ui.screen_lines < 20 else
+            ui.screen_lines//2)
+        with ui.check_proc(subprocess.Popen(('tail', f'-n{tail_n}', log_file))):
+            pass
 
     def do_review(self, ui: PromptUI):
         try:
@@ -924,15 +940,6 @@ class Meta(Arguable):
 
         except subprocess.CalledProcessError as err:
             ui.print(f'! {err}')
-
-    def do_run(self, ui: PromptUI):
-        '''
-        run a solver, by name or inferred "next"
-        '''
-        solver_i = self.choose_solver(ui)
-        if solver_i is not None and solver_i >= 0:
-            make = solver_make[solver_i]
-            return run_solver(make, ui)
 
     def do_solve(self, ui: PromptUI):
         '''
