@@ -898,7 +898,7 @@ class StoredLog:
         if spec_match:
             puzzle_id = str(spec_match[1])
             action = str(spec_match[2])
-            found_log_file = self.find_prior_log(ui, puzzle_id)
+            found_log_file = self.find_prior_log(ui, puzzle_id=puzzle_id)
             if not found_log_file:
                 raise StopIteration
 
