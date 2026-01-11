@@ -1,0 +1,62 @@
+T133.9288565650022 now: 2026-01-11T08:47:46EST
+TD78 site: dontwordle.com
+TDD-64 wordlist: nwl2023.txt
+TDD4287134  ...
+TDD-1565976 1> * -bot 10
+TDD-1528710 ? 1
+TDD4510643 📋 "aster" ? nnnYM
+TDD-5702628 tried: ASTER n n n Y m
+TDD990823 2> undo
+TDD-991065 undo
+TDD2743294 1> 
+TDD-2222492 1> *
+TDD526290 ? 1
+TDD3985553 📋 "kibbi" ? nMMnn
+TDD-5032403 tried: KIBBI n m m n n
+TDD878951 2> undo
+TDD-879197 undo
+TDD3230681 1> *
+TDD-2029902 ? 1
+TDD3271122 📋 "doody" ? nnnnn
+TDD-4471669 tried: DOODY n n n n n
+TDD454298 2> *
+TDD330094 ? 1
+TDD3110527 📋 "faffs" ? Mnnnn
+TDD-3895130 tried: FAFFS m n n n n
+TDD767035 3> undo
+TDD-767060 undo
+TDD2768270 2> *
+TDD-457496 ? 1
+TDD2146726 📋 "qajaq" ? nnnnn
+TDD-4457210 tried: QAJAQ n n n n n
+TDD726893 3> *
+TDD304528 ? 1
+TDD3703312 📋 "smuts" ? nnnnn
+TDD-4734963 tried: SMUTS n n n n n
+TDD951304 4> *
+TDD4392074 📋 "grrrl" ? nYnnn
+TDD-5343369 tried: GRRRL n Y n n n
+TDD1327322 5> *
+TDD1209713 ? 1
+TDD1837842 📋 "crick" ? nYYnn
+TDD-4374887 tried: CRICK n Y Y n n
+TDD423812 6> *
+TDD7334829 📋 "frizz" ? MYYnn
+TDD-7758633 tried: FRIZZ m Y Y n n
+TDD3553017 📋> Don't Wordle 1328 - SURVIVED
+TDD-3553202 📋> Hooray! I didn't Wordle today!
+TDD-94 📋> ⬜⬜⬜⬜⬜6216
+TDD-7 📋> ⬜⬜⬜⬜⬜2882
+TDD0 📋> ⬜⬜⬜⬜⬜457
+TDD-1 📋> ⬜🟩⬜⬜⬜31
+TDD0 📋> ⬜🟩🟩⬜⬜8
+TDD0 📋> 🟨🟩🟩⬜⬜2
+TDD0 📋> Undos used: 3
+TDD0 📋> 
+TDD0 📋>   2 words remaining
+TDD-1 📋> x 8 unused letters
+TDD350775 📋> = 16 total score
+TDD-101828 📋> ␚
+TDD-248633 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1328 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6216\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2882\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c457\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c31\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c2\nUndos used: 3\n\n  2 words remaining\nx 8 unused letters\n= 16 total score"}
+TDD790 result: "Don't Wordle 1328 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6216\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2882\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c457\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c31\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c2\nUndos used: 3\n\n  2 words remaining\nx 8 unused letters\n= 16 total score"
+TDD236488 📆 2026-01-11 ? 
