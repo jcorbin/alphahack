@@ -1,0 +1,115 @@
+T1.5411064789950615 now: 2026-01-11T09:19:01EST
+TD73 site: m-w.com/games/quordle/#/sequence
+TDD-57 wordlist: nwl2023.txt
+TDD-11 num_words: 4
+T22.89632731799793 now: 2026-01-11T09:19:27EST
+TD3861591  ...
+TDD-2589597 > *
+TDD48218 ? 1
+TDD-1319998 questioning: stoae
+TDD3759563 Sequence #1 _____? nMnnM
+TDD-3759344 attempt: 0 STOAE n m n n m
+TDD1047926 > *
+TDD-151888 ? 1
+TDD-896275 questioning: recti
+TDD2742900 Sequence #1 _____ ~ET -AOS? nMMMM
+TDD-2742792 attempt: 0 RECTI n m m m m
+TDD1030823 > *
+TDD-158770 ? 1
+TDD-872079 questioning: edict
+TDD4175246 Sequence #1 _____ ~CEIT -AORS? YnYYY
+TDD-4175316 attempt: 0 EDICT Y n Y Y Y
+TDD960217 > *
+TDD-960072 questioning: evict
+TDD9686690 Sequence #1 E_ICT -ADORS? YYYYY
+TDD-9686837 attempt: 0 EVICT Y Y Y Y Y
+TDD-165 questioning: STOAE
+TDD2360642 Sequence #2 _____? nnnnM
+TDD-2360348 attempt: 1 STOAE n n n n m
+TDD-268 questioning: RECTI
+TDD1487147 Sequence #2 _____ ~E -AOST? nMnnM
+TDD-1486904 attempt: 1 RECTI n m n n m
+TDD-247 questioning: EDICT
+TDD2039979 Sequence #2 _____ ~EI -ACORST? MMMnn
+TDD-2039634 attempt: 1 EDICT m m m n n
+TDD-338 questioning: EVICT
+TDD1526715 Sequence #2 _____ ~DEI -ACORST? MnMnn
+TDD-1526466 attempt: 1 EVICT m n m n n
+TDD1551895 > *
+TDD-232591 ? 1
+TDD-1319433 questioning: mined
+TDD3911442 Sequence #2 _____ ~DEI -ACORSTV? nYnMY
+TDD-3911429 attempt: 1 MINED n Y n m Y
+TDD959843 > *
+TDD103823 ? 1
+TDD-1063659 questioning: wield
+TDD3119618 Sequence #2 _I__D ~E -ACMNORSTV? nYYYY
+TDD-3119636 attempt: 1 WIELD n Y Y Y Y
+TDD911778 > *
+TDD1647984 ? 2
+TDD-2559751 questioning: field
+TDD2768147 Sequence #2 _IELD -ACMNORSTVW? YYYYY
+TDD-2768143 attempt: 1 FIELD Y Y Y Y Y
+TDD-166 questioning: STOAE
+TDD2519133 Sequence #3 _____? MnnnM
+TDD-2518940 attempt: 2 STOAE m n n n m
+TDD-180 questioning: RECTI
+TDD2119835 Sequence #3 _____ ~ES -AOT? MMnnM
+TDD-2119611 attempt: 2 RECTI m m n n m
+TDD-219 questioning: EDICT
+TDD1575886 Sequence #3 _____ ~EIRS -ACOT? MnMnn
+TDD-1575637 attempt: 2 EDICT m n m n n
+TDD-247 questioning: EVICT
+TDD1191203 Sequence #3 _____ ~EIRS -ACDOT? MnMnn
+TDD-1191051 attempt: 2 EVICT m n m n n
+TDD-170 questioning: MINED
+TDD1688078 Sequence #3 _____ ~EIRS -ACDOTV? nYnYn
+TDD-1687837 attempt: 2 MINED n Y n Y n
+TDD-111 questioning: WIELD
+TDD1695146 Sequence #3 _I_E_ ~RS -ACDMNOTV? YYMnn
+TDD-1695009 attempt: 2 WIELD Y Y m n n
+TDD-247 questioning: FIELD
+TDD1928192 Sequence #3 WI_E_ ~RS -ACDLMNOTV? nYMnn
+TDD-1927952 attempt: 2 FIELD n Y m n n
+TDD1126990 > *
+TDD3336800 ? 1
+TDD-4463908 questioning: wiser
+TDD5135567 Sequence #3 WI_E_ ~RS -ACDFLMNOTV? YYYYY
+TDD-5135550 attempt: 2 WISER Y Y Y Y Y
+TDD-158 questioning: STOAE
+TDD2431779 Sequence #4 _____? nnnMM
+TDD-2431516 attempt: 3 STOAE n n n m m
+TDD-241 questioning: RECTI
+TDD1320022 Sequence #4 _____ ~AE -OST? nMnnn
+TDD-1319891 attempt: 3 RECTI n m n n n
+TDD-156 questioning: EDICT
+TDD1743332 Sequence #4 _____ ~AE -CIORST? Mnnnn
+TDD-1742997 attempt: 3 EDICT m n n n n
+TDD-266 questioning: EVICT
+TDD1239424 Sequence #4 _____ ~AE -CDIORST? Mnnnn
+TDD-1239334 attempt: 3 EVICT m n n n n
+TDD-154 questioning: MINED
+TDD3736586 Sequence #4 _____ ~AE -CDIORSTV? nnYYn
+TDD-3736426 attempt: 3 MINED n n Y Y n
+TDD-158 questioning: WIELD
+TDD10023148 Sequence #4 __NE_ ~A -CDIMORSTV? nnMMn
+TDD-10022870 attempt: 3 WIELD n n m m n
+TDD-253 questioning: FIELD
+TDD1271442 Sequence #4 __NE_ ~AL -CDIMORSTVW? nnMMn
+TDD-1271234 attempt: 3 FIELD n n m m n
+TDD-227 questioning: WISER
+TDD1704344 Sequence #4 __NE_ ~AL -CDFIMORSTVW? nnnYn
+TDD-1704194 attempt: 3 WISER n n n Y n
+TDD847391 > *
+TDD-847231 questioning: panel
+TDD3087379 Sequence #4 __NE_ ~AL -CDFIMORSTVW? YYYYY
+TDD-3087499 attempt: 3 PANEL Y Y Y Y Y
+TDD4456415 📋> Daily Sequence Quordle 1448
+TDD-4456455 📋> 4️⃣7️⃣
+TDD-165 📋> 8️⃣9️⃣
+TDD-6 📋> m-w.com/games/quordle/
+TDD294897 📋> 
+TDD24955 📋> ␚
+TDD-319710 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1448\n4\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD839 result: "Daily Sequence Quordle 1448\n4\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD390256 📆 2026-01-11 ? 
