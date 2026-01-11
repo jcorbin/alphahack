@@ -1,0 +1,80 @@
+T137.400713447998 now: 2026-01-11T09:21:21EST
+TD55 site: m-w.com/games/quordle/#/extreme
+TDD-45 wordlist: nwl2023.txt
+TDD-7 num_words: 4
+TDD3526526  ...
+TDD-2358575 > *
+TDD-103527 ? 1
+TDD-1064226 questioning: tears
+TDD2751758 Extreme #1 _____? nnnnn
+TDD-2751737 attempt: 0 TEARS n n n n n
+TDD1038975 Extreme #2 _____? nnnnn
+TDD-1039002 attempt: 1 TEARS n n n n n
+TDD1599774 Extreme #3 _____? nnYMn
+TDD-1599610 attempt: 2 TEARS n n Y m n
+TDD1447579 Extreme #4 _____? MnMnn
+TDD-1447621 attempt: 3 TEARS m n m n n
+TDD1103336 > *
+TDD-335517 ? 1
+TDD-767864 questioning: lingy
+TDD3359042 Extreme #1 _____ -AERST? nMMnY
+TDD-3359116 attempt: 0 LINGY n m m n Y
+TDD1231856 Extreme #2 _____ -AERST? nnYnY
+TDD-1231754 attempt: 1 LINGY n n Y n Y
+TDD1183587 Extreme #3 __A__ ~R -EST? nnnnn
+TDD-1183593 attempt: 2 LINGY n n n n n
+TDD1287376 Extreme #4 _____ ~AT -ERS? nnnnY
+TDD-1287376 attempt: 3 LINGY n n n n Y
+TDD1095164 > *
+TDD464537 ? 1
+TDD-1559751 questioning: unify
+TDD3799871 Extreme #1 ____Y ~IN -AEGLRST? nMYnY
+TDD-3799794 attempt: 0 UNIFY n m Y n Y
+TDD2951383 Extreme #2 __N_Y -AEGILRST? MMnnY
+TDD-2951381 attempt: 1 UNIFY m m n n Y
+TDD1367345 Extreme #3 __A__ ~R -EGILNSTY? nnnnn
+TDD-1367366 attempt: 2 UNIFY n n n n n
+TDD1335158 Extreme #4 ____Y ~AT -EGILNRS? nnnnY
+TDD-1335168 attempt: 3 UNIFY n n n n Y
+TDD1055459 > *
+TDD-1055411 questioning: whiny
+TDD4439315 Extreme #1 __I_Y ~N -AEFGLRSTU? YYYYY
+TDD-4439420 attempt: 0 WHINY Y Y Y Y Y
+TDD3695966 Extreme #2 __N_Y ~U -AEFGILRST? nMnMY
+TDD-3695903 attempt: 1 WHINY n m n m Y
+TDD1271046 Extreme #3 __A__ ~R -EFGILNSTUY? nnnnn
+TDD-1271052 attempt: 2 WHINY n n n n n
+TDD1383598 Extreme #4 ____Y ~AT -EFGILNRSU? nnnnY
+TDD-1383532 attempt: 3 WHINY n n n n Y
+TDD1031442 > *
+TDD-1031391 questioning: hunky
+TDD9103002 Extreme #2 __N_Y ~HU -AEFGILRSTW? YYYYY
+TDD-9103210 attempt: 1 HUNKY Y Y Y Y Y
+TDD1735560 Extreme #3 __A__ ~R -EFGHILNSTUWY? nnnMn
+TDD-1735448 attempt: 2 HUNKY n n n m n
+TDD1383890 Extreme #4 ____Y ~AT -EFGHILNRSUW? nnnnY
+TDD-1383995 attempt: 3 HUNKY n n n n Y
+TDD1055247 > *
+TDD-1055119 questioning: crack
+TDD3791182 Extreme #3 __A__ ~KR -EFGHILNSTUWY? YYYYY
+TDD-3791311 attempt: 2 CRACK Y Y Y Y Y
+TDD1199755 Extreme #4 ____Y ~AT -EFGHIKLNRSUW? nnMnn
+TDD-1199770 attempt: 3 CRACK n n m n n
+TDD1416088 > *
+TDD1367515 ? 1
+TDD-2783528 questioning: atopy
+TDD3271180 Extreme #4 ____Y ~AT -CEFGHIKLNRSUW? MMnnY
+TDD-3271211 attempt: 3 ATOPY m m n n Y
+TDD896103 > *
+TDD-895896 questioning: batty
+TDD4558556 Extreme #4 ____Y ~AT -CEFGHIKLNOPRSUW? YYYYY
+TDD-4558753 attempt: 3 BATTY Y Y Y Y Y
+TDD5383966 📋> 🥵 Daily Extreme 531
+TDD-5384074 📋> 4️⃣5️⃣
+TDD-122 📋> 6️⃣8️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD439926 📋> 
+TDD-240035 📋> ␚
+TDD-199731 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udd75 Daily Extreme 531\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD17 result: "\ud83e\udd75 Daily Extreme 531\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD167563 📆 2026-01-11 ? 
