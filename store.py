@@ -201,7 +201,7 @@ def make_oneshot(
 
 def part_seq[T](sq: Sequence[T], token: T):
     cur: list[T] = []
-    for i, t in enumerate(sq):
+    for _, t in enumerate(sq):
         if t == token:
             yield tuple(cur)
             cur = []
