@@ -1,0 +1,76 @@
+T464.9651364070014 now: 2026-01-11T08:53:17EST
+TD77 site: m-w.com/games/quordle/#/
+TDD-62 wordlist: nwl2023.txt
+TDD-10 num_words: 4
+TDD4925928  ...
+TDD-3573908 > *
+TDD-583897 ? 1
+TDD-767934 questioning: nears
+TDD3519584 Classic #1 _____? nnMnM
+TDD-3519558 attempt: 0 NEARS n n m n m
+TDD1671560 Classic #2 _____? MnnMn
+TDD-1671462 attempt: 1 NEARS m n n m n
+TDD1535681 Classic #3 _____? MnMnn
+TDD-1535777 attempt: 2 NEARS m n m n n
+TDD1519684 Classic #4 _____? nnMYn
+TDD-1519593 attempt: 3 NEARS n n m Y n
+TDD3182866 > *
+TDD-2335152 ? 1
+TDD-847794 questioning: algin
+TDD6631720 Classic #1 _____ ~AS -ENR? MMnnn
+TDD-6631590 attempt: 0 ALGIN m m n n n
+TDD10207238 Classic #2 _____ ~NR -AES? nnnMM
+TDD-10207294 attempt: 1 ALGIN n n n m m
+TDD2543423 Classic #3 _____ ~AN -ERS? YnMnM
+TDD-2543443 attempt: 2 ALGIN Y n m n m
+TDD1895811 Classic #4 ___R_ ~A -ENS? MnnMn
+TDD-1895767 attempt: 3 ALGIN m n n m n
+TDD1447584 > *
+TDD128150 ? 1
+TDD-1575807 questioning: among
+TDD4015375 Classic #1 _____ ~ALS -EGINR? Mnnnn
+TDD-4015402 attempt: 0 AMONG m n n n n
+TDD2103381 Classic #2 _____ ~INR -AEGLS? nnMYn
+TDD-2103386 attempt: 1 AMONG n n m Y n
+TDD2952107 Classic #3 A____ ~GN -EILRS? YnYYM
+TDD-2952043 attempt: 2 AMONG Y n Y Y m
+TDD2279007 Classic #4 ___R_ ~AI -EGLNS? Mnnnn
+TDD-2279067 attempt: 3 AMONG m n n n n
+TDD1192117 > *
+TDD-1191884 questioning: rhino
+TDD3750455 Classic #1 _____ ~ALS -EGIMNOR? nnnnn
+TDD-3750614 attempt: 0 RHINO n n n n n
+TDD1615247 Classic #2 ___N_ ~IOR -AEGLMS? YYYYY
+TDD-1615340 attempt: 1 RHINO Y Y Y Y Y
+TDD2543709 Classic #3 A_ON_ ~G -EILMRS? nnnYM
+TDD-2543569 attempt: 2 RHINO n n n Y m
+TDD1983319 Classic #4 ___R_ ~AI -EGLMNOS? MMYnn
+TDD-1983353 attempt: 3 RHINO m m Y n n
+TDD1110984 > *
+TDD-1110914 questioning: agony
+TDD4519979 Classic #1 _____ ~ALS -EGHIMNOR? MnnnY
+TDD-4520067 attempt: 0 AGONY m n n n Y
+TDD2343120 Classic #3 A_ON_ ~G -EHILMRS? YYYYY
+TDD-2343105 attempt: 2 AGONY Y Y Y Y Y
+TDD1703546 Classic #4 __IR_ ~AH -EGLMNOS? MnnnY
+TDD-1703551 attempt: 3 AGONY m n n n Y
+TDD2215283 > *
+TDD-2215071 questioning: hairy
+TDD4070832 Classic #1 ____Y ~ALS -EGHIMNOR? nYnnY
+TDD-4071112 attempt: 0 HAIRY n Y n n Y
+TDD1375650 Classic #4 __IRY ~AH -EGLMNOS? YYYYY
+TDD-1375676 attempt: 3 HAIRY Y Y Y Y Y
+TDD863458 > *
+TDD297079 ? 1
+TDD-1160441 questioning: sadly
+TDD3206881 Classic #1 _A__Y ~LS -EGHIMNOR? YYYYY
+TDD-3206893 attempt: 0 SADLY Y Y Y Y Y
+TDD4777123 📋> 🙂 Daily Quordle 1448
+TDD-4777201 📋> 7️⃣4️⃣
+TDD-211 📋> 5️⃣6️⃣
+TDD0 📋> m-w.com/games/quordle/
+TDD286014 📋> 
+TDD-94099 📋> ␚
+TDD-191765 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1448\n7\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD866 result: "\ud83d\ude42 Daily Quordle 1448\n7\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD238575 📆 2026-01-11 ? 
