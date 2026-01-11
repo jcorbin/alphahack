@@ -1,0 +1,97 @@
+T1674.2972723839994 now: 2026-01-11T09:13:26EST
+TD67 site: m-w.com/games/quordle/#/rescue
+TDD-57 wordlist: nwl2023.txt
+TDD-7 num_words: 4
+TDD4270261  ...
+TDD-477636 > 
+TDD-3569064 > 
+TDD4816461 > tried noise axial
+TDD-5039721 questioning: noise axial
+T11.425752286995703 now: 2026-01-11T09:14:10EST
+TD1148892  ...
+TDD-1148755 questioning: noise axial
+TDD2663714 Rescue #1 _____? nnYnM
+TDD-2663481 attempt: 0 NOISE n n Y n m
+TDD2319180 Rescue #1 __I__ ~E -NOS? nnYnn
+TDD-2319336 attempt: 0 AXIAL n n Y n n
+TDD2439911 Rescue #2 _____? nnnnM
+TDD-2439927 attempt: 1 NOISE n n n n m
+TDD1648088 Rescue #2 _____ ~E -INOS? nnnnM
+TDD-1648079 attempt: 1 AXIAL n n n n m
+TDD1622975 Rescue #3 _____? nnnYY
+TDD-1622970 attempt: 2 NOISE n n n Y Y
+TDD2535959 Rescue #3 ___SE -INO? nnnnn
+TDD-2535958 attempt: 2 AXIAL n n n n n
+TDD1983709 Rescue #4 _____? nMnMn
+TDD-1983553 attempt: 3 NOISE n m n m n
+TDD1518694 Rescue #4 _____ ~OS -EIN? nnnnn
+TDD-1518832 attempt: 3 AXIAL n n n n n
+TDD1543717 > *
+TDD-112041 ? 1
+TDD-1431703 questioning: trogs
+TDD3047933 Rescue #1 __I__ ~E -ALNOSX? nYnnn
+TDD-3047945 attempt: 0 TROGS n Y n n n
+TDD1983482 Rescue #2 _____ ~EL -AINOSX? nnnnn
+TDD-1983443 attempt: 1 TROGS n n n n n
+TDD1839877 Rescue #3 ___SE -AILNOX? nMnnM
+TDD-1839891 attempt: 2 TROGS n m n n m
+TDD1951606 Rescue #4 _____ ~OS -AEILNX? MnYnM
+TDD-1951609 attempt: 3 TROGS m n Y n m
+TDD3983999 > *
+TDD-2688907 ? 1
+TDD-1295120 questioning: muled
+TDD3231521 Rescue #1 _RI__ ~E -AGLNOSTX? nnnYY
+TDD-3231512 attempt: 0 MULED n n n Y Y
+TDD3855804 Rescue #2 _____ ~EL -AGINORSTX? nnYMn
+TDD-3855760 attempt: 1 MULED n n Y m n
+TDD2103440 Rescue #3 ___SE ~R -AGILNOTX? nYnMn
+TDD-2103240 attempt: 2 MULED n Y n m n
+TDD1991104 Rescue #4 __O__ ~ST -AEGILNRX? nMnnn
+TDD-1991351 attempt: 3 MULED n m n n n
+TDD1679805 > *
+TDD-239927 ? 1
+TDD-1439867 questioning: curse
+TDD3111673 Rescue #1 _RIED -AGLMNOSTUX? nnMnM
+TDD-3111607 attempt: 0 CURSE n n m n m
+TDD2023311 Rescue #2 __L__ ~E -ADGIMNORSTUX? MnnnM
+TDD-2023338 attempt: 1 CURSE m n n n m
+TDD1839702 Rescue #3 _U_SE ~R -ADGILMNOTX? YYYYY
+TDD-1839657 attempt: 2 CURSE Y Y Y Y Y
+TDD1807271 Rescue #4 __O__ ~STU -ADEGILMNRX? nMnMn
+TDD-1807249 attempt: 3 CURSE n m n m n
+TDD1127795 > *
+TDD1815605 ? 2
+TDD-2943524 questioning: belch
+TDD3135770 Rescue #1 _RIED -ACGLMNOSTUX? nMnnn
+TDD-3135648 attempt: 0 BELCH n m n n n
+TDD1463376 Rescue #2 __L__ ~CE -ADGIMNORSTUX? YYYYY
+TDD-1463390 attempt: 1 BELCH Y Y Y Y Y
+TDD2103492 Rescue #4 __O__ ~STU -ACDEGILMNRX? nnnnn
+TDD-2103498 attempt: 3 BELCH n n n n n
+TDD1439296 > *
+TDD240706 ? 1
+TDD-1680076 questioning: spout
+TDD4695462 Rescue #1 _RIED -ABCGHLMNOSTUX? nnnnn
+TDD-4695416 attempt: 0 SPOUT n n n n n
+TDD2183425 Rescue #4 __O__ ~STU -ABCDEGHILMNRX? YnYYY
+TDD-2183473 attempt: 3 SPOUT Y n Y Y Y
+TDD1064333 > *
+TDD-1064159 questioning: stout
+TDD4462641 Rescue #1 _RIED -ABCGHLMNOPSTUX? nnnnn
+TDD-4462736 attempt: 0 STOUT n n n n n
+TDD1463524 Rescue #4 S_OUT -ABCDEGHILMNPRX? YYYYY
+TDD-1463610 attempt: 3 STOUT Y Y Y Y Y
+TDD1071528 > *
+TDD-31916 ? 1
+TDD-1039600 questioning: fried
+TDD3751758 Rescue #1 _RIED -ABCGHLMNOPSTUX? YYYYY
+TDD-3751739 attempt: 0 FRIED Y Y Y Y Y
+TDD5280114 📋> Daily Rescue 62
+TDD-5280229 📋> 9️⃣6️⃣
+TDD-107 📋> 5️⃣8️⃣
+TDD-1 📋> m-w.com/games/quordle/
+TDD447587 📋> 
+TDD-167740 📋> ␚
+TDD-279671 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 62\n9\ufe0f\u20e36\ufe0f\u20e3\n5\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1078 result: "Daily Rescue 62\n9\ufe0f\u20e36\ufe0f\u20e3\n5\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD405747 📆 2026-01-11 ? 
