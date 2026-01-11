@@ -931,6 +931,12 @@ class Meta(Arguable):
         '''
 
         def candidates():
+            have: set[int] = set()
+            def once(i: int):
+                had = i in have
+                have.add(i)
+                return not had
+
             # uncompleted primary solvers
             for solver_i, day, _note, head, _body in self.read_status(ui):
                 if day is not None and head:
@@ -938,7 +944,8 @@ class Meta(Arguable):
                 proto = solver_prior[solver_i]
                 if proto.site_env != 'prod':
                     continue
-                yield solver_i
+                if once(solver_i):
+                    yield solver_i
 
         for solver_i in candidates():
             name = solver_name[solver_i]
