@@ -856,7 +856,7 @@ class Meta(Arguable):
 
         def use_last(ui: PromptUI, puzzle_id: str = '') -> PromptUI.State|None:
             proto = solver_prior[solver_i]
-            found = proto.find_prior_log(ui, puzzle_id)
+            found = proto.find_prior_log(ui, puzzle_id=puzzle_id)
             if found is None:
                 ui.print(f'! could not find last log file')
                 return
