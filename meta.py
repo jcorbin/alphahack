@@ -931,6 +931,9 @@ class Meta(Arguable):
         '''
 
         def candidates():
+            today = datetime.datetime.today().date()
+            done: set[str] = set()
+
             have: set[int] = set()
             def once(i: int):
                 had = i in have
@@ -938,7 +941,10 @@ class Meta(Arguable):
                 return not had
 
             # uncompleted primary solvers
-            for solver_i, day, _note, head, _body in self.read_status(ui):
+            for solver_i, day, note, head, _body in self.read_status(ui):
+                if day == today and note:
+                    done.add(note)
+                    continue
                 if day is not None and head:
                     continue
                 proto = solver_prior[solver_i]
