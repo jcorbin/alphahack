@@ -1,0 +1,249 @@
+T260.5281244639991 now: 2026-01-11T09:32:10EST
+TD131 site: britannica.com/games/octordle/daily-sequence
+TDD-107 wordlist: nwl2023.txt
+TDD-15 num_words: 8
+TDD9285840  ...
+TDD-7710135 > *
+TDD-464056 ? 1
+TDD-1111484 questioning: aures
+TDD3288657 Sequence #1 _____? nnYMM
+TDD-3288505 attempt: 0 AURES n n Y m m
+TDD2863415 > 
+TDD-2063975 > *
+TDD63683 ? 1
+TDD-863180 questioning: verso
+TDD3191604 Sequence #1 __R__ ~ES -AU? YYYYn
+TDD-3191559 attempt: 0 VERSO Y Y Y Y n
+TDD1943022 > *
+TDD-150860 ? 2
+TDD-1792183 questioning: verse
+TDD2839733 Sequence #1 VERS_ -AOU? YYYYY
+TDD-2837716 attempt: 0 VERSE Y Y Y Y Y
+TDD-2266 questioning: AURES
+TDD2085060 Sequence #2 _____? nnnMn
+TDD-2084830 attempt: 1 AURES n n n m n
+TDD-218 questioning: VERSO
+TDD1840767 Sequence #2 _____ ~E -ARSU? nMnnM
+TDD-1840508 attempt: 1 VERSO n m n n m
+TDD-253 questioning: VERSE
+TDD1759190 Sequence #2 _____ ~EO -ARSUV? nMnnn
+TDD-1758943 attempt: 1 VERSE n m n n n
+TDD1471242 > *
+TDD2368636 ? 7
+TDD-3839933 questioning: emoji
+TDD8679087 Sequence #2 _____ ~EO -ARSUV E:1? YnMnn
+TDD-8679014 attempt: 1 EMOJI Y n m n n
+TDD1343173 > *
+TDD-255517 ? 1
+TDD-1087768 questioning: elbow
+TDD4647582 Sequence #2 E____ ~O -AIJMRSUV? YMnY
+TDD-183744 Sequence #2 E____ ~O -AIJMRSUV? YMnYn
+TDD-4463747 attempt: 1 ELBOW Y m n Y n
+TDD1271900 > *
+TDD-1271833 questioning: extol
+TDD4239282 Sequence #2 E__O_ ~L -ABIJMRSUVW? YYYYY
+TDD-4239434 attempt: 1 EXTOL Y Y Y Y Y
+TDD-176 questioning: AURES
+TDD2383123 Sequence #3 _____? nYYnn
+TDD-2382871 attempt: 2 AURES n Y Y n n
+TDD-234 questioning: VERSO
+TDD3743731 Sequence #3 _UR__ -AES? nnYnn
+TDD-3743547 attempt: 2 VERSO n n Y n n
+TDD-200 questioning: VERSE
+TDD1759948 Sequence #3 _UR__ -AEOSV? nnYnn
+TDD-1759698 attempt: 2 VERSE n n Y n n
+TDD-230 questioning: EMOJI
+TDD1479317 Sequence #3 _UR__ -AEOSV? nnnnn
+TDD-1479089 attempt: 2 EMOJI n n n n n
+TDD-229 questioning: ELBOW
+TDD2391634 Sequence #3 _UR__ -AEIJMOSV? nnMnn
+TDD-2391468 attempt: 2 ELBOW n n m n n
+TDD-186 questioning: EXTOL
+TDD1599854 Sequence #3 _UR__ ~B -AEIJLMOSVW? nnMnn
+TDD-1599666 attempt: 2 EXTOL n n m n n
+TDD1119556 > *
+TDD-1119336 questioning: burnt
+TDD3807885 Sequence #3 _UR__ ~BT -AEIJLMOSVWX? YYYYY
+TDD-3808023 attempt: 2 BURNT Y Y Y Y Y
+TDD-246 questioning: AURES
+TDD6999331 Sequence #4 _____? MnnnM
+TDD-6999151 attempt: 3 AURES m n n n m
+TDD-201 questioning: VERSO
+TDD1367425 Sequence #4 _____ ~AS -ERU? nnnYM
+TDD-1367176 attempt: 3 VERSO n n n Y m
+TDD-221 questioning: VERSE
+TDD1719921 Sequence #4 ___S_ ~AO -ERUV? nnnYn
+TDD-1719702 attempt: 3 VERSE n n n Y n
+TDD-231 questioning: EMOJI
+TDD2559305 Sequence #4 ___S_ ~AO -ERUV? nnMnn
+TDD-2559055 attempt: 3 EMOJI n n m n n
+TDD-245 questioning: ELBOW
+TDD1568053 Sequence #4 ___S_ ~AO -EIJMRUV? nnnMn
+TDD-1567888 attempt: 3 ELBOW n n n m n
+TDD-186 questioning: EXTOL
+TDD1759347 Sequence #4 ___S_ ~AO -BEIJLMRUVW? nnMMn
+TDD-1759115 attempt: 3 EXTOL n n m m n
+TDD-220 questioning: BURNT
+TDD1503106 Sequence #4 ___S_ ~AOT -BEIJLMRUVWX? nnnnY
+TDD-1502886 attempt: 3 BURNT n n n n Y
+TDD1399786 > *
+TDD447528 ? 1
+TDD-1847390 questioning: coast
+TDD2999891 Sequence #4 ___ST ~AO -BEIJLMNRUVWX? nYYYY
+TDD-2999785 attempt: 3 COAST n Y Y Y Y
+TDD1143586 > *
+TDD-1143521 questioning: toast
+TDD3086988 Sequence #4 _OAST -BCEIJLMNRUVWX? YYYYY
+TDD-3087011 attempt: 3 TOAST Y Y Y Y Y
+TDD-265 questioning: AURES
+TDD3119803 Sequence #5 _____? MnYMn
+TDD-3119565 attempt: 4 AURES m n Y m n
+TDD-264 questioning: VERSO
+TDD1855608 Sequence #5 __R__ ~AE -SU? nMYnn
+TDD-1855427 attempt: 4 VERSO n m Y n n
+TDD-193 questioning: VERSE
+TDD1392152 Sequence #5 __R__ ~AE -OSUV? nnYnY
+TDD-1391891 attempt: 4 VERSE n n Y n Y
+TDD-238 questioning: EMOJI
+TDD1479028 Sequence #5 __R_E ~A -OSUV? Mnnnn
+TDD-1478865 attempt: 4 EMOJI m n n n n
+TDD-183 questioning: ELBOW
+TDD1591435 Sequence #5 __R_E ~A -IJMOSUV? Mnnnn
+TDD-1591177 attempt: 4 ELBOW m n n n n
+TDD-240 questioning: EXTOL
+TDD1887756 Sequence #5 __R_E ~A -BIJLMOSUVW? Mnnnn
+TDD-1887500 attempt: 4 EXTOL m n n n n
+TDD-253 questioning: BURNT
+TDD1999731 Sequence #5 __R_E ~A -BIJLMOSTUVWX? nnYnn
+TDD-1999467 attempt: 4 BURNT n n Y n n
+TDD-262 questioning: COAST
+TDD1639235 Sequence #5 __R_E ~A -BIJLMNOSTUVWX? MnMnn
+TDD-1638973 attempt: 4 COAST m n m n n
+TDD-274 questioning: TOAST
+TDD1079757 Sequence #5 __R_E ~AC -BIJLMNOSTUVWX? nnMnn
+TDD-1079485 attempt: 4 TOAST n n m n n
+TDD1047263 > *
+TDD-1047109 questioning: farce
+TDD3599357 Sequence #5 __R_E ~AC -BIJLMNOSTUVWX? YYYYY
+TDD-3599537 attempt: 4 FARCE Y Y Y Y Y
+TDD-150 questioning: AURES
+TDD2063239 Sequence #6 _____? nnYnM
+TDD-2063066 attempt: 5 AURES n n Y n m
+TDD-179 questioning: VERSO
+TDD1415625 Sequence #6 __R__ ~S -AEU? nnYMM
+TDD-1415417 attempt: 5 VERSO n n Y m m
+TDD-203 questioning: VERSE
+TDD1687923 Sequence #6 __R__ ~OS -AEUV? nnYMn
+TDD-1687838 attempt: 5 VERSE n n Y m n
+TDD-120 questioning: EMOJI
+TDD1982969 Sequence #6 __R__ ~OS -AEUV? nnMnn
+TDD-1982842 attempt: 5 EMOJI n n m n n
+TDD-147 questioning: ELBOW
+TDD1487524 Sequence #6 __R__ ~OS -AEIJMUV? nnnMn
+TDD-1487388 attempt: 5 ELBOW n n n m n
+TDD-132 questioning: EXTOL
+TDD2287665 Sequence #6 __R__ ~OS -ABEIJLMUVW? nnnMn
+TDD-2287431 attempt: 5 EXTOL n n n m n
+TDD-184 questioning: BURNT
+TDD1655589 Sequence #6 __R__ ~OS -ABEIJLMTUVWX? nnYnn
+TDD-1655363 attempt: 5 BURNT n n Y n n
+TDD-174 questioning: COAST
+TDD2615100 Sequence #6 __R__ ~OS -ABEIJLMNTUVWX? nYnMn
+TDD-2615059 attempt: 5 COAST n Y n m n
+TDD-128 questioning: TOAST
+TDD2200062 Sequence #6 _OR__ ~S -ABCEIJLMNTUVWX? nYnMn
+TDD-2199897 attempt: 5 TOAST n Y n m n
+TDD-117 questioning: FARCE
+TDD2175676 Sequence #6 _OR__ ~S -ABCEIJLMNTUVWX? nnYnn
+TDD-2175437 attempt: 5 FARCE n n Y n n
+TDD943323 > *
+TDD-942749 questioning: sorry
+TDD2941268 Sequence #6 _OR__ ~S -ABCEFIJLMNTUVWX? YYYYY
+TDD-2942021 attempt: 5 SORRY Y Y Y Y Y
+TDD-168 questioning: AURES
+TDD2944080 Sequence #7 _____? MnMnM
+TDD-2943819 attempt: 6 AURES m n m n m
+TDD-242 questioning: VERSO
+TDD1968157 Sequence #7 _____ ~ARS -EU? nnMMn
+TDD-1967921 attempt: 6 VERSO n n m m n
+TDD-240 questioning: VERSE
+TDD1510428 Sequence #7 _____ ~ARS -EOUV? nnMMn
+TDD-1510280 attempt: 6 VERSE n n m m n
+TDD-167 questioning: EMOJI
+TDD2104107 Sequence #7 _____ ~ARS -EOUV? nnnnn
+TDD-2103842 attempt: 6 EMOJI n n n n n
+TDD-242 questioning: ELBOW
+TDD1568111 Sequence #7 _____ ~ARS -EIJMOUV? nnnnn
+TDD-1567913 attempt: 6 ELBOW n n n n n
+TDD-211 questioning: EXTOL
+TDD1374823 Sequence #7 _____ ~ARS -BEIJLMOUVW? nnnnn
+TDD-1374566 attempt: 6 EXTOL n n n n n
+TDD-243 questioning: BURNT
+TDD1192207 Sequence #7 _____ ~ARS -BEIJLMOTUVWX? nnMnn
+TDD-1192007 attempt: 6 BURNT n n m n n
+TDD-183 questioning: COAST
+TDD2535058 Sequence #7 _____ ~ARS -BEIJLMNOTUVWX? MnYMn
+TDD-2534798 attempt: 6 COAST m n Y m n
+TDD-272 questioning: TOAST
+TDD2159601 Sequence #7 __A__ ~CRS -BEIJLMNOTUVWX? nnYMn
+TDD-2159372 attempt: 6 TOAST n n Y m n
+TDD-232 questioning: FARCE
+TDD3624299 Sequence #7 __A__ ~CRS -BEIJLMNOTUVWX? MMMMn
+TDD-3624138 attempt: 6 FARCE m m m m n
+TDD-178 questioning: SORRY
+TDD1702728 Sequence #7 __A__ ~CFRS -BEIJLMNOTUVWX? YnnYn
+TDD-1702556 attempt: 6 SORRY Y n n Y n
+TDD879806 > *
+TDD-879635 questioning: scarf
+TDD3343671 Sequence #7 S_AR_ ~CF -BEIJLMNOTUVWXY? YYYYY
+TDD-3343756 attempt: 6 SCARF Y Y Y Y Y
+TDD-234 questioning: AURES
+TDD2231606 Sequence #8 _____? Ynnnn
+TDD-2231424 attempt: 7 AURES Y n n n n
+TDD-187 questioning: VERSO
+TDD1463553 Sequence #8 A____ -ERSU? nnnnM
+TDD-1463307 attempt: 7 VERSO n n n n m
+TDD-242 questioning: VERSE
+TDD1295232 Sequence #8 A____ ~O -ERSUV? nnnnn
+TDD-1295069 attempt: 7 VERSE n n n n n
+TDD-182 questioning: EMOJI
+TDD2695882 Sequence #8 A____ ~O -ERSUV? nnYnn
+TDD-2695626 attempt: 7 EMOJI n n Y n n
+TDD-238 questioning: ELBOW
+TDD1983270 Sequence #8 A_O__ -EIJMRSUV? nMnMn
+TDD-1983120 attempt: 7 ELBOW n m n m n
+TDD-169 questioning: EXTOL
+TDD1775741 Sequence #8 A_O__ ~L -BEIJMRSUVW? nnMMY
+TDD-1775536 attempt: 7 EXTOL n n m m Y
+TDD-206 questioning: BURNT
+TDD1344183 Sequence #8 A_O_L ~T -BEIJMRSUVWX? nnnnM
+TDD-1343979 attempt: 7 BURNT n n n n m
+TDD-201 questioning: COAST
+TDD3263579 Sequence #8 A_O_L ~T -BEIJMNRSUVWX? nMMnM
+TDD-3263313 attempt: 7 COAST n m m n m
+TDD-248 questioning: TOAST
+TDD1367393 Sequence #8 A_O_L ~T -BCEIJMNRSUVWX? MMMnn
+TDD-1367161 attempt: 7 TOAST m m m n n
+TDD-231 questioning: FARCE
+TDD2871519 Sequence #8 A_O_L ~T -BCEIJMNRSUVWX T:1? nMnnn
+TDD-2871276 attempt: 7 FARCE n m n n n
+TDD-245 questioning: SORRY
+TDD2265738 Sequence #8 A_O_L ~T -BCEFIJMNRSUVWX T:1? nMnnn
+TDD-2265472 attempt: 7 SORRY n m n n n
+TDD-260 questioning: SCARF
+TDD2086244 Sequence #8 A_O_L ~T -BCEFIJMNRSUVWXY T:1? nnMnn
+TDD-2086015 attempt: 7 SCARF n n m n n
+TDD847733 > *
+TDD-847523 questioning: atoll
+TDD4717775 Sequence #8 A_O_L ~T -BCEFIJMNRSUVWXY T:1? YYYYY
+TDD-4718067 attempt: 7 ATOLL Y Y Y Y Y
+TDD2896948 📋> Daily Sequence Octordle #1448
+TDD-2897003 📋> 3️⃣6️⃣
+TDD-135 📋> 7️⃣9️⃣
+TDD-1 📋> 🔟🕚
+TDD-3 📋> 🕛🕐
+TDD287333 📋> Score: 71
+TDD160241 📋> ␚
+TDD-447409 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Octordle #1448\n3\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\n\ud83d\udd5b\ud83d\udd50\nScore: 71"}
+TDD30 result: "Daily Sequence Octordle #1448\n3\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\n\ud83d\udd5b\ud83d\udd50\nScore: 71"
+TDD303757 📆 2026-01-11 ? 
