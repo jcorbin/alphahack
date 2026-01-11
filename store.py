@@ -231,7 +231,7 @@ def matcher(pat: str|re.Pattern[str]):
         return Matcher(pat, then)
     return inner
 
-OrderLogsBy = Literal['mtime']
+OrderLogsBy = Literal['mtime','name']
 
 class StoredLog:
     @classmethod
@@ -816,6 +816,8 @@ class StoredLog:
         ents = [ent for ent in os.scandir(sd) if ent.is_file()]
         if latest_by == 'mtime':
             ents = sorted(ents, key=lambda ent: ent.stat().st_mtime, reverse=True)
+        elif latest_by == 'name':
+            ents = sorted(ents, key=lambda ent: ent.name, reverse=True)
 
         def try_token(puzzle_id: str):
             for ent in ents:
