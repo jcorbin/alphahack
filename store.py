@@ -325,9 +325,8 @@ class StoredLog:
 
         try:
             ui.write(f'🔗 ')
-            ui.link(url)
-            ui.write(f' {label}')
-            ui.link('')
+            with ui.linked(url):
+                ui.write(f' {label}')
 
             while True:
                 with ui.input(' ...') as tokens:

@@ -1731,6 +1731,12 @@ class PromptUI:
         # TODO url-escape any ';'s ?
         self.sink(term_osc_seq(8, '', url))
 
+    @contextmanager
+    def linked(self, url: str):
+        self.link(url)
+        yield self.link
+        self.link('')
+
     def print(self, mess: str):
         self.fin()
         if mess.startswith('//'):
