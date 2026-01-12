@@ -1,0 +1,169 @@
+T1819.3614810159997 now: 2026-01-12T09:57:20EST
+TD87 site: britannica.com/games/octordle/daily-rescue
+TDD-74 wordlist: nwl2023.txt
+TDD-9 num_words: 8
+TDD3798091  ...
+TDD6114172 > tried table churn posit skunk
+TDD-9912058 questioning: table churn posit skunk
+TDD2992144 Rescue #1 _____? nMnnY
+TDD-2992131 attempt: 0 TABLE n m n n Y
+TDD1303672 Rescue #1 ____E ~A -BLT? nnnnn
+TDD-1303673 attempt: 0 CHURN n n n n n
+TDD2303497 Rescue #1 ____E ~A -BCHLNRTU? nMnnn
+TDD-2303488 attempt: 0 POSIT n m n n n
+TDD1326977 Rescue #1 ____E ~AO -BCHILNPRSTU? nMnnn
+TDD-1326987 attempt: 0 SKUNK n m n n n
+TDD2087899 Rescue #2 _____? nnnMn
+TDD-2087828 attempt: 1 TABLE n n n m n
+TDD1167714 Rescue #2 _____ ~L -ABET? nnnnn
+TDD-1167710 attempt: 1 CHURN n n n n n
+TDD1855346 Rescue #2 _____ ~L -ABCEHNRTU? nMnnn
+TDD-1855297 attempt: 1 POSIT n m n n n
+TDD1623584 Rescue #2 _____ ~LO -ABCEHINPRSTU? nnnnn
+TDD-1623632 attempt: 1 SKUNK n n n n n
+TDD2054991 Rescue #3 _____? nYnnn
+TDD-2055043 attempt: 2 TABLE n Y n n n
+TDD1359341 Rescue #3 _A___ -BELT? nnnMM
+TDD-1359277 attempt: 2 CHURN n n n m m
+TDD1367317 Rescue #3 _A___ ~NR -BCEHLTU? nMnnn
+TDD-1367389 attempt: 2 POSIT n m n n n
+TDD1703515 Rescue #3 _A___ ~NOR -BCEHILPSTU? nnnMn
+TDD-1703437 attempt: 2 SKUNK n n n m n
+TDD3183062 Rescue #4 _____? nnnnM
+TDD-3183158 attempt: 3 TABLE n n n n m
+TDD2807901 Rescue #4 _____ ~E -ABLT? nnnYn
+TDD-2807800 attempt: 3 CHURN n n n Y n
+TDD1415222 Rescue #4 ___R_ ~E -ABCHLNTU? nnnnn
+TDD-1415307 attempt: 3 POSIT n n n n n
+TDD1247360 Rescue #4 ___R_ ~E -ABCHILNOPSTU? nnnnn
+TDD-1247378 attempt: 3 SKUNK n n n n n
+TDD4087904 Rescue #5 _____? nnnnn
+TDD-4087890 attempt: 4 TABLE n n n n n
+TDD1463655 Rescue #5 _____ -ABELT? nnnYn
+TDD-1463571 attempt: 4 CHURN n n n Y n
+TDD2366956 Rescue #5 ___R_ -ABCEHLNTU? nMMnn
+TDD-2366972 attempt: 4 POSIT n m m n n
+TDD1776205 Rescue #5 ___R_ ~OS -ABCEHILNPTU? Ynnnn
+TDD-1776208 attempt: 4 SKUNK Y n n n n
+TDD1439070 Rescue #6 _____? nnnMM
+TDD-1439056 attempt: 5 TABLE n n n m m
+TDD5623581 Rescue #6 _____ ~EL -ABT? nnnnY
+TDD-5623583 attempt: 5 CHURN n n n n Y
+TDD1815250 Rescue #6 ____N ~EL -ABCHRTU? nnnMn
+TDD-1815255 attempt: 5 POSIT n n n m n
+TDD1480778 Rescue #6 ____N ~EIL -ABCHOPRSTU? nMnMn
+TDD-1480766 attempt: 5 SKUNK n m n m n
+TDD3070567 Rescue #7 _____? MnnYY
+TDD-3070547 attempt: 6 TABLE m n n Y Y
+TDD1374505 Rescue #7 ___LE ~T -AB? nnnnn
+TDD-1374618 attempt: 6 CHURN n n n n n
+TDD1744059 Rescue #7 ___LE ~T -ABCHNRU? nMMnM
+TDD-1743985 attempt: 6 POSIT n m m n m
+TDD1526855 Rescue #7 ___LE ~OST -ABCHINPRU? Ynnnn
+TDD-1526820 attempt: 6 SKUNK Y n n n n
+TDD1383407 Rescue #8 _____? nnnnM
+TDD-1383494 attempt: 7 TABLE n n n n m
+TDD1943787 Rescue #8 _____ ~E -ABLT? nnMMn
+TDD-1943721 attempt: 7 CHURN n n m m n
+TDD1511429 Rescue #8 _____ ~ERU -ABCHLNT? Ynnnn
+TDD-1511429 attempt: 7 POSIT Y n n n n
+TDD1855345 Rescue #8 P____ ~ERU -ABCHILNOST? nnMnn
+TDD-1855361 attempt: 7 SKUNK n n m n n
+TDD4551349 > *
+TDD-4551246 questioning: awoke
+TDD5232558 Rescue #1 ____E ~AKO -BCHILNPRSTU K:1? YYYYY
+TDD-5232603 attempt: 0 AWOKE Y Y Y Y Y
+TDD1878246 Rescue #2 _____ ~LO -ABCEHIKNPRSTU? nnYnn
+TDD-1878301 attempt: 1 AWOKE n n Y n n
+TDD1983111 Rescue #3 _A___ ~NOR -BCEHIKLPSTU? MnMnn
+TDD-1983169 attempt: 2 AWOKE m n m n n
+TDD1215453 Rescue #4 ___R_ ~E -ABCHIKLNOPSTU? nnnnM
+TDD-1215390 attempt: 3 AWOKE n n n n m
+TDD3503860 Rescue #5 S__R_ ~O -ABCEHIKLNPTU? nYYnn
+TDD-3503851 attempt: 4 AWOKE n Y Y n n
+TDD1279738 Rescue #6 ____N ~EIKL -ABCHOPRSTU K:1? nnnMM
+TDD-1279725 attempt: 5 AWOKE n n n m m
+TDD1870599 Rescue #7 S__LE ~OT -ABCHIKNPRU? nnYnY
+TDD-1870626 attempt: 6 AWOKE n n Y n Y
+TDD1319676 Rescue #8 P____ ~ERU -ABCHIKLNOST? nnnnM
+TDD-1319672 attempt: 7 AWOKE n n n n m
+TDD1495313 > *
+TDD-1495217 questioning: sword
+TDD10894965 Rescue #2 __O__ ~L -ABCEHIKNPRSTUW? nnYnY
+TDD-10895131 attempt: 1 SWORD n n Y n Y
+TDD1455874 Rescue #3 _A___ ~NOR -BCEHIKLPSTUW? nnMMn
+TDD-1455795 attempt: 2 SWORD n n m m n
+TDD1247789 Rescue #4 ___R_ ~E -ABCHIKLNOPSTUW? nnnYn
+TDD-1247729 attempt: 3 SWORD n n n Y n
+TDD3934898 Rescue #5 SWOR_ -ABCEHIKLNPTU? YYYYY
+TDD-3935046 attempt: 4 SWORD Y Y Y Y Y
+TDD1895476 Rescue #6 ____N ~EIKL -ABCHOPRSTUW K:1? nnnnn
+TDD-1895468 attempt: 5 SWORD n n n n n
+TDD3143895 Rescue #7 S_OLE ~T -ABCHIKNPRUW? YnYnn
+TDD-3143829 attempt: 6 SWORD Y n Y n n
+TDD1199047 Rescue #8 P____ ~ERU -ABCHIKLNOSTW? nnnMn
+TDD-1199093 attempt: 7 SWORD n n n m n
+TDD1432392 > *
+TDD-1432237 questioning: flood
+TDD4334759 Rescue #2 __O_D ~L -ABCEHIKNPRSTUW? YYYYY
+TDD-4334808 attempt: 1 FLOOD Y Y Y Y Y
+TDD2774963 Rescue #3 _A___ ~NOR -BCDEHIKLPSTUW? nnnYn
+TDD-2775012 attempt: 2 FLOOD n n n Y n
+TDD1271522 Rescue #4 ___R_ ~E -ABCDHIKLNOPSTUW? Ynnnn
+TDD-1271547 attempt: 3 FLOOD Y n n n n
+TDD3263037 Rescue #6 ____N ~EIKL -ABCDHOPRSTUW K:1? nMnnn
+TDD-3263022 attempt: 5 FLOOD n m n n n
+TDD2623470 Rescue #7 S_OLE ~T -ABCDHIKNPRUW? nMYnn
+TDD-2623467 attempt: 6 FLOOD n m Y n n
+TDD1055512 Rescue #8 P____ ~ERU -ABCDHIKLNOSTW? nnnnn
+TDD-1055518 attempt: 7 FLOOD n n n n n
+TDD1631470 > *
+TDD-1631358 questioning: manor
+TDD7727147 Rescue #3 _A_O_ ~NR -BCDEFHIKLPSTUW? YYYYY
+TDD-7727253 attempt: 2 MANOR Y Y Y Y Y
+TDD1559381 Rescue #4 F__R_ ~E -ABCDHIKLNOPSTUW? nnnnM
+TDD-1559452 attempt: 3 MANOR n n n n m
+TDD4048111 Rescue #6 ____N ~EIKL -ABCDFHOPRSTUW K:1? nnMnn
+TDD-4047968 attempt: 5 MANOR n n m n n
+TDD2871575 Rescue #7 S_OLE ~T -ABCDFHIKNPRUW? nnnMn
+TDD-2871645 attempt: 6 MANOR n n n m n
+TDD2143212 Rescue #8 P____ ~ERU -ABCDFHIKLNOSTW? nnnnY
+TDD-2143195 attempt: 7 MANOR n n n n Y
+TDD983765 > *
+TDD-983681 questioning: ferry
+TDD4551480 Rescue #4 F__R_ ~E -ABCDHIKLMNOPSTUW? YYYYY
+TDD-4551597 attempt: 3 FERRY Y Y Y Y Y
+TDD3030579 Rescue #6 ____N ~EIKL -ABCDFHMOPRSTUW K:1? nMnnn
+TDD-3030638 attempt: 5 FERRY n m n n n
+TDD1391822 Rescue #7 S_OLE ~T -ABCDFHIKMNPRUW? nMnnn
+TDD-1391704 attempt: 6 FERRY n m n n n
+TDD2231125 Rescue #8 P___R ~EU -ABCDFHIKLMNOSTW? nMYMn
+TDD-2231142 attempt: 7 FERRY n m Y m n
+TDD911623 > *
+TDD-911405 questioning: liken
+TDD3143302 Rescue #6 ____N ~EIKL -ABCDFHMOPRSTUWY K:1? YYYYY
+TDD-3143610 attempt: 5 LIKEN Y Y Y Y Y
+TDD2279545 Rescue #7 S_OLE ~T -ABCDFHIKMNPRUWY? MnnMn
+TDD-2279440 attempt: 6 LIKEN m n n m n
+TDD1319769 Rescue #8 P_R_R ~EU -ABCDFHIKLMNOSTWY? nnnYn
+TDD-1319770 attempt: 7 LIKEN n n n Y n
+TDD910793 > *
+TDD-910613 questioning: stole
+TDD2950929 Rescue #7 S_OLE ~T -ABCDFHIKMNPRUWY? YYYYY
+TDD-2951222 attempt: 6 STOLE Y Y Y Y Y
+TDD2351016 Rescue #8 P_RER ~U -ABCDFHIKLMNOSTWY? nnnnM
+TDD-2350924 attempt: 7 STOLE n n n n m
+TDD919133 > *
+TDD-919081 questioning: purer
+TDD3255019 Rescue #8 P_RER ~U -ABCDFHIKLMNOSTWY? YYYYY
+TDD-3255179 attempt: 7 PURER Y Y Y Y Y
+TDD4905612 📋> Daily Rescue Octordle #1449
+TDD-4905708 📋> 5️⃣7️⃣
+TDD-102 📋> 8️⃣9️⃣
+TDD-2 📋> 6️⃣🔟
+TDD2 📋> 🕚🕛
+TDD375044 📋> Score: 9
+TDD-204905 📋> ␚
+TDD-170031 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1449\n5\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n6\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a\ud83d\udd5b\nScore: 9"}
+TDD8 result: "Daily Rescue Octordle #1449\n5\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n6\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a\ud83d\udd5b\nScore: 9"
+TDD196871 📆 2026-01-12 ? 
