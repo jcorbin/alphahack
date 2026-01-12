@@ -1145,6 +1145,8 @@ class Meta(PromptUI.Arguable[PromptUI.Shell]):
 
             phase_re = 0
 
+            # TODO if len(choices) == 1
+
             ui.print(f'Phase {phase_i+1}/{len(phases)} -- {label}:')
             for i, (solver_i, log_file) in enumerate(choices):
                 ui.write(f'{i+1}. {solvers.name[solver_i]} ')
