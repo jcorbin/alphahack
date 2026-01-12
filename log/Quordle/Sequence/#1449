@@ -1,0 +1,116 @@
+T1521.5364141470054 now: 2026-01-12T09:52:22EST
+TD87 site: m-w.com/games/quordle/#/sequence
+TDD-72 wordlist: nwl2023.txt
+TDD-9 num_words: 4
+TDD3854926  ...
+TDD-2326234 > *
+TDD3030506 ? MnYnn
+TDD-3006868 ? 1
+TDD-1552068 questioning: raise
+TDD1927280 Sequence #1 _____? MnYnn
+TDD-1927237 attempt: 0 RAISE m n Y n n
+TDD1287493 > *
+TDD-399916 ? 1
+TDD-887589 questioning: brith
+TDD4455527 Sequence #1 __I__ ~R -AES? YYYnn
+TDD-4455552 attempt: 0 BRITH Y Y Y n n
+TDD1095329 > *
+TDD504614 ? 1
+TDD-1600006 questioning: brink
+TDD3847373 Sequence #1 BRI__ -AEHST? YYYYn
+TDD-3847293 attempt: 0 BRINK Y Y Y Y n
+TDD1095424 > *
+TDD112480 ? 1
+TDD-1207939 questioning: bring
+TDD3319269 Sequence #1 BRIN_ -AEHKST? YYYYY
+TDD-3319230 attempt: 0 BRING Y Y Y Y Y
+TDD-233 questioning: RAISE
+TDD3608722 Sequence #2 _____? nnnnn
+TDD-3608516 attempt: 1 RAISE n n n n n
+TDD-217 questioning: BRITH
+TDD1478517 Sequence #2 _____ -AEIRS? nnnnM
+TDD-1478323 attempt: 1 BRITH n n n n m
+TDD-185 questioning: BRINK
+TDD1271832 Sequence #2 _____ ~H -ABEIRST? nnnYY
+TDD-1271576 attempt: 1 BRINK n n n Y Y
+TDD-255 questioning: BRING
+TDD1671429 Sequence #2 ___NK ~H -ABEIRST? nnnYn
+TDD-1671180 attempt: 1 BRING n n n Y n
+TDD1103567 > *
+TDD-1103454 questioning: chunk
+TDD3423091 Sequence #2 ___NK ~H -ABEGIRST? YYYYY
+TDD-3423219 attempt: 1 CHUNK Y Y Y Y Y
+TDD-237 questioning: RAISE
+TDD4399911 Sequence #3 _____? MYnnM
+TDD-4399649 attempt: 2 RAISE m Y n n m
+TDD-260 questioning: BRITH
+TDD1422927 Sequence #3 _A___ ~ER -IS? nMnnn
+TDD-1422758 attempt: 2 BRITH n m n n n
+TDD-188 questioning: BRINK
+TDD1360295 Sequence #3 _A___ ~ER -BHIST? nMnnn
+TDD-1360012 attempt: 2 BRINK n m n n n
+TDD-260 questioning: BRING
+TDD1687772 Sequence #3 _A___ ~ER -BHIKNST? nMnnn
+TDD-1687586 attempt: 2 BRING n m n n n
+TDD-206 questioning: CHUNK
+TDD1534826 Sequence #3 _A___ ~ER -BGHIKNST? nnnnn
+TDD-1534611 attempt: 2 CHUNK n n n n n
+TDD1167583 > *
+TDD6864447 ? 6
+TDD-8032023 questioning: wafer
+TDD4495173 Sequence #3 _A___ ~ER -BCGHIKNSTU? nYnYY
+TDD-4495134 attempt: 2 WAFER n Y n Y Y
+TDD1039624 > *
+TDD776092 ? 1
+TDD-1815763 questioning: payer
+TDD3111477 Sequence #3 _A_ER -BCFGHIKNSTUW? YYnYY
+TDD-3111418 attempt: 2 PAYER Y Y n Y Y
+TDD1055344 > *
+TDD3176371 ? 1
+TDD-4231761 questioning: paver
+TDD3095204 Sequence #3 PA_ER -BCFGHIKNSTUWY? YYnYY
+TDD-3095176 attempt: 2 PAVER Y Y n Y Y
+TDD991467 > *
+TDD4000525 ? 3
+TDD-4991971 questioning: paper
+TDD3575250 Sequence #3 PA_ER -BCFGHIKNSTUVWY? YYYYY
+TDD-3575283 attempt: 2 PAPER Y Y Y Y Y
+TDD-229 questioning: RAISE
+TDD3367446 Sequence #4 _____? nnYMY
+TDD-3367200 attempt: 3 RAISE n n Y m Y
+TDD-245 questioning: BRITH
+TDD1303727 Sequence #4 __I_E ~S -AR? nnYnn
+TDD-1303528 attempt: 3 BRITH n n Y n n
+TDD-213 questioning: BRINK
+TDD1231429 Sequence #4 __I_E ~S -ABHRT? nnYnn
+TDD-1231175 attempt: 3 BRINK n n Y n n
+TDD-237 questioning: BRING
+TDD1807955 Sequence #4 __I_E ~S -ABHKNRT? nnYnn
+TDD-1807713 attempt: 3 BRING n n Y n n
+TDD-243 questioning: CHUNK
+TDD1775308 Sequence #4 __I_E ~S -ABGHKNRT? Mnnnn
+TDD-1775169 attempt: 3 CHUNK m n n n n
+TDD-164 questioning: WAFER
+TDD2671799 Sequence #4 __I_E ~CS -ABGHKNRTU? nnnMn
+TDD-2671613 attempt: 3 WAFER n n n m n
+TDD-179 questioning: PAYER
+TDD5591880 Sequence #4 __I_E ~CS -ABFGHKNRTUW? MnnMn
+TDD-5591694 attempt: 3 PAYER m n n m n
+TDD-182 questioning: PAVER
+TDD2159881 Sequence #4 __I_E ~CPS -ABFGHKNRTUWY? MnnMn
+TDD-2159696 attempt: 3 PAVER m n n m n
+TDD-191 questioning: PAPER
+TDD1895191 Sequence #4 __I_E ~CPS -ABFGHKNRTUVWY? MnnMn
+TDD-1894970 attempt: 3 PAPER m n n m n
+TDD855504 > *
+TDD-855255 questioning: spice
+TDD3302975 Sequence #4 __I_E ~CPS -ABFGHKNRTUVWY P:1? YYYYY
+TDD-3303133 attempt: 3 SPICE Y Y Y Y Y
+TDD4384102 📋> Daily Sequence Quordle 1449
+TDD-4384312 📋> 4️⃣5️⃣
+TDD-119 📋> 9️⃣🔟
+TDD-2 📋> m-w.com/games/quordle/
+TDD584036 📋> ␚
+TDD-583916 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1449\n4\ufe0f\u20e35\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\nm-w.com/games/quordle/"}
+TDD-5 result: "Daily Sequence Quordle 1449\n4\ufe0f\u20e35\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\nm-w.com/games/quordle/"
+TDD199529 📆 2026-01-12 ? 
