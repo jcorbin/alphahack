@@ -1,0 +1,81 @@
+T394.2495791399997 now: 2026-01-12T09:09:30EST
+TD83 site: m-w.com/games/quordle/#/
+TDD-68 wordlist: nwl2023.txt
+TDD-9 num_words: 4
+TDD21655495  ...
+TDD-20431476 > *
+TDD127810 ? 1
+TDD-1351624 questioning: steal
+TDD2455726 Classic #1 _____? nnMnn
+TDD-2455696 attempt: 0 STEAL n n m n n
+TDD1863235 Classic #2 _____? nnnnn
+TDD-1863235 attempt: 1 STEAL n n n n n
+TDD1727949 Classic #3 _____? nnMnM
+TDD-1727884 attempt: 2 STEAL n n m n m
+TDD1447133 Classic #4 _____? MnMnn
+TDD-1447083 attempt: 3 STEAL m n m n n
+TDD3007187 > *
+TDD-2375053 ? 1
+TDD-632251 questioning: diker
+TDD12479431 Classic #1 _____ ~E -ALST? nMnMM
+TDD-12479405 attempt: 0 DIKER n m n m m
+TDD1519450 Classic #2 _____ -AELST? MnnnM
+TDD-1519494 attempt: 1 DIKER m n n n m
+TDD1279397 Classic #3 _____ ~EL -AST? nnnMn
+TDD-1279390 attempt: 2 DIKER n n n m n
+TDD1919794 Classic #4 _____ ~ES -ALT? nnnMM
+TDD-1919702 attempt: 3 DIKER n n n m m
+TDD1383370 > *
+TDD-463645 ? 1
+TDD-919767 questioning: clone
+TDD3319230 Classic #1 _____ ~EIR -ADKLST? nnnYY
+TDD-3319190 attempt: 0 CLONE n n n Y Y
+TDD1199951 Classic #2 _____ ~DR -AEIKLST? nnMYn
+TDD-1199948 attempt: 1 CLONE n n m Y n
+TDD2182973 Classic #3 _____ ~EL -ADIKRST? nYnnY
+TDD-2182949 attempt: 2 CLONE n Y n n Y
+TDD1255715 Classic #4 _____ ~ERS -ADIKLT? nnnnM
+TDD-1255756 attempt: 3 CLONE n n n n m
+TDD1150750 > *
+TDD-1150665 questioning: round
+TDD4023861 Classic #1 ___NE ~IR -ACDKLOST? MnnYn
+TDD-4023940 attempt: 0 ROUND m n n Y n
+TDD1094883 Classic #2 ___N_ ~DOR -ACEIKLST? YYYYY
+TDD-1094968 attempt: 1 ROUND Y Y Y Y Y
+TDD1343555 Classic #3 _L__E -ACDIKNORST? nnYnn
+TDD-1343470 attempt: 2 ROUND n n Y n n
+TDD1511680 Classic #4 _____ ~ERS -ACDIKLNOT? YnMnn
+TDD-1511751 attempt: 3 ROUND Y n m n n
+TDD1007391 > *
+TDD-1007077 questioning: brine
+TDD3470963 Classic #1 ___NE ~IR -ACDKLOSTU? YYYYY
+TDD-3471281 attempt: 0 BRINE Y Y Y Y Y
+TDD2263455 Classic #3 _LU_E -ACDIKNORST? nnnnY
+TDD-2263370 attempt: 2 BRINE n n n n Y
+TDD1511569 Classic #4 R____ ~ESU -ACDIKLNOT? MMnnM
+TDD-1511560 attempt: 3 BRINE m m n n m
+TDD863028 > *
+TDD-862954 questioning: rebus
+TDD3975613 Classic #3 _LU_E -ABCDIKNORST? nMnMn
+TDD-3975408 attempt: 2 REBUS n m n m n
+TDD1318780 Classic #4 R____ ~BESU -ACDIKLNOT? YYYYY
+TDD-1319025 attempt: 3 REBUS Y Y Y Y Y
+TDD1511324 > *
+TDD1544114 ? 2
+TDD-3055444 questioning: plume
+TDD3143418 Classic #3 _LU_E -ABCDIKNORST? nYYYY
+TDD-3143556 attempt: 2 PLUME n Y Y Y Y
+TDD831666 > *
+TDD1432212 ? 1
+TDD-2263881 questioning: flume
+TDD3479660 Classic #3 _LUME -ABCDIKNOPRST? YYYYY
+TDD-3479578 attempt: 2 FLUME Y Y Y Y Y
+TDD4887976 📋> 🙂 Daily Quordle 1449
+TDD-4888152 📋> 5️⃣4️⃣
+TDD-109 📋> 8️⃣6️⃣
+TDD-3 📋> m-w.com/games/quordle/
+TDD751366 📋> 
+TDD-582810 📋> ␚
+TDD-168367 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1449\n5\ufe0f\u20e34\ufe0f\u20e3\n8\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD2801 result: "\ud83d\ude42 Daily Quordle 1449\n5\ufe0f\u20e34\ufe0f\u20e3\n8\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD329632 📆 2026-01-12 ? 
