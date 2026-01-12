@@ -1129,6 +1129,7 @@ class Meta(PromptUI.Arguable[PromptUI.Shell]):
             ('Next solver', lambda: env_filter('prod', todo_candidates)),
             ('Bonus solver variants', lambda: env_filter('prod', var_candidates)),
             ('Practice solvers', lambda: env_filter(lambda env: env != 'prod', todo_candidates, var_candidates)),
+            # TODO tomorrow solvers
         )
         phase_i: int = 0
         phase_re: int = 0
