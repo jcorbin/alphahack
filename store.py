@@ -347,7 +347,7 @@ class StoredLog:
         '''
         present puzzle site hyperlink... or "copy" to clipboard
         '''
-        label = self.site_name or self.site
+        label = self.name
         url = self.site
         if '://'not in url:
             url = f'https://{url}'
@@ -442,7 +442,7 @@ class StoredLog:
             return self.store
 
         if self.dirty:
-            with git_txn(f'{self.site_name or self.store_name} {self.puzzle_id} result', ui=ui) as txn:
+            with git_txn(f'{self.name} {self.puzzle_id} result', ui=ui) as txn:
                 txn.add(self.log_file)
             if self.in_report(ui):
                 self.do_report(ui)
@@ -1164,7 +1164,7 @@ class StoredLog:
         prior_log = self.log_file
         if not prior_log or not store_to: return
         was_stored = self.stored
-        with git_txn(f'{self.site_name or self.store_name} day {self.puzzle_id}', ui=ui) as txn:
+        with git_txn(f'{self.name} day {self.puzzle_id}', ui=ui) as txn:
             with (
                 txn.will_rm(prior_log) if was_stored else nullcontext(),
                 txn.will_add(store_to)):
@@ -1282,15 +1282,14 @@ class StoredLog:
         ''', s)
         return (str(m[1]), str(m[3])) if m else ('', s)
 
+    @property
+    def name(self):
+        # TODO wow so many; simplify
+        return self.puzzle_name or self.site_name or self.site or self.default_site
+
     def slug(self, link: bool = True):
         site = self.site or self.default_site
-
-        name = self.puzzle_name or self.site_name
-        if name:
-            yield f'[{name}]({site})' if link else f'🔗 {name}'
-        else:
-            yield site if link else f'🔗 {site}'
-
+        yield f'[{self.name}]({site})' if link else f'🔗 {self.name}'
         if self.puzzle_id:
             yield f'🧩 {self.puzzle_id}'
 
@@ -1330,7 +1329,7 @@ class StoredLog:
         body = self.report_section()
 
         with (
-            git_txn(f'DAILY {self.site_name or self.store_name}', ui=ui) as txn,
+            git_txn(f'DAILY {self.name or self.store_name}', ui=ui) as txn,
             txn.will_add(self.report_file),
             atomic_rewrite(self.report_file) as (r, w)
         ):
