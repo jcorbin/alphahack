@@ -523,6 +523,7 @@ class Meta(Arguable):
         root['review'] = self.do_review
 
         root['list_solvers'] = self.do_list_solvers
+        root['solvers'] = self.do_solve
 
         # TODO invert control to `sol/<name>/{log,run,...}`
         root['log'] = self.do_log
@@ -929,16 +930,148 @@ class Meta(Arguable):
         run a solver, by name or inferred "next"
         '''
         solver_i = self.choose_solver(ui)
-        if solver_i is None:
-            for solver_i, day, _note, head, _body in self.read_status(ui):
-                if day is None or not head:
-                    break
-            else:
-                ui.print('! all solvers reported, specify particular?')
-                return
-        if solver_i >= 0:
+        if solver_i is not None and solver_i >= 0:
             make = solver_make[solver_i]
             return run_solver(make, ui)
+
+    def do_solve(self, ui: PromptUI):
+        '''
+        run next solver
+        '''
+        today = datetime.datetime.today().date()
+        verbose: int = 0
+        while ui.tokens:
+            v = ui.tokens.have(r'-(v+)', then=lambda m: len(m[1]))
+            if v is not None:
+                verbose += v
+                continue
+            ui.print(f'! invalid status argument {next(ui.tokens)}')
+            return
+
+        status = tuple(self.read_status(ui)) # TODO decompose / naturalize
+        solver_for = tuple(solver_i for solver_i, _, _, _, _ in status)
+        days = tuple(day for _, day, _, _, _ in status)
+        notes = tuple(note for _, _, note, _, _ in status)
+        names = tuple(
+            solver_name[solver_i]
+            for solver_i in solver_for)
+        protos = tuple(
+            solver_prior[solver_i]
+            for solver_i in solver_for)
+        states = tuple(
+            ( 'todo' if day is None else
+              'todo' if day < today else
+              proto.note_status(note) )
+            for proto, day, note in zip(protos, days, notes))
+
+        if verbose:
+            ui.print(f'today:{today} days:{days}')
+            ui.print('>>> NOTE state:')
+            for i, (name, state) in enumerate(zip(names, states)):
+                ui.print(f'{i+1}. {name} {state}')
+
+        running_ix = tuple(
+            solver_i
+            for solver_i, proto in enumerate(solvers.proto)
+            if os.path.exists(proto.log_file))
+        if verbose:
+            ui.print(f'... running:  {running_ix}')
+
+        wip_ix = tuple(
+            i
+            for i, state in enumerate(states)
+            if state == 'wip')
+        todo_ix = tuple(
+            i
+            for i, state in enumerate(states)
+            if state == 'todo')
+
+        def running_candidates():
+            for solver_ix in running_ix:
+                proto = solvers.proto[solver_ix]
+                yield solver_ix, proto.log_file
+
+        def wip_candidates():
+            for i in wip_ix:
+                solver_ix = solver_for[i]
+                if solver_ix in running_ix: continue
+                proto = protos[i]
+                yield solver_ix, proto.find_prior_log(ui, None)
+
+        def todo_candidates():
+            for i in todo_ix:
+                yield solver_for[i], None
+
+        def env_filter(
+            want: str|Callable[[str], bool],
+            *cands: Callable[[], Iterable[tuple[int, str|None]]],
+        ) -> Generator[tuple[int, str|None]]:
+            if isinstance(want, str):
+                env = want
+                want = lambda e: e == env
+            for cand in chain.from_iterable(c() for c in cands):
+                solver_i, _ = cand
+                proto = solver_prior[solver_i]
+                if want(proto.site_env):
+                    yield cand
+
+        phases = (
+            ('Finish running solvers', running_candidates),
+            ('Continue prior solver runs', wip_candidates),
+            ('Next solver', lambda: env_filter('prod', todo_candidates)),
+        )
+        phase_i: int = 0
+        phase_re: int = 0
+
+        while True:
+            if phase_re > 2*len(phases):
+                ui.print('! unable to present solver choices')
+                return
+
+            label, phase_gen = phases[phase_i]
+            choices = tuple(phase_gen())
+            if len(choices) == 0:
+                if verbose:
+                    ui.print(f'No solvers to {label.partition(' ')[0].lower()}')
+                phase_i = (phase_i + 1) % len(phases)
+                phase_re += 1
+                continue
+
+            phase_re = 0
+
+            ui.print(f'Phase {phase_i+1}/{len(phases)} -- {label}:')
+            for i, (solver_i, log_file) in enumerate(choices):
+                ui.write(f'{i+1}. {solvers.name[solver_i]} ')
+                proto = solvers.proto[solver_i]
+                with ui.linked(proto.site):
+                    ui.write(f'📎 {proto.name}')
+                if log_file is not None:
+                    ui.write(f' log_file={log_file}')
+                ui.fin()
+
+            with ui.input('? ') as tokens:
+                if not tokens:
+                    solver_i, log_file = choices[0]
+                    break
+
+                if tokens.have(r'(?ix) n(e(xt?)?)?'):
+                    phase_i = (phase_i + 1) % len(phases)
+                    continue
+
+                if tokens.have(r'(?ix) p(r(ev?)?)?'):
+                    phase_i = (phase_i - 1) % len(phases)
+                    continue
+
+                n = tokens.have(r'\d+', then=lambda m: int(m[0]))
+                if n is not None:
+                    solver_i, log_file = choices[n-1]
+                    break
+
+                ui.print(f'! unknown input {tokens.rest!r}')
+
+        name = solver_name[solver_i]
+        make = solver_make[solver_i]
+        return run_solver(make, ui, log_file=log_file)
 
     def do_list_solvers(self, ui: PromptUI):
         '''
