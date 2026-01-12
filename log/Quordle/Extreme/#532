@@ -1,0 +1,84 @@
+T1673.0799229630065 now: 2026-01-12T09:54:54EST
+TD76 site: m-w.com/games/quordle/#/extreme
+TDD-64 wordlist: nwl2023.txt
+TDD-8 num_words: 4
+TDD4103328  ...
+TDD-3070870 > *
+TDD-128771 ? 1
+TDD-903434 questioning: reads
+TDD2495478 Extreme #1 _____? nnMnn
+TDD-2495440 attempt: 0 READS n n m n n
+TDD3519533 Extreme #2 _____? nMnMn
+TDD-3519602 attempt: 1 READS n m n m n
+TDD1567561 Extreme #3 _____? nYnnn
+TDD-1567566 attempt: 2 READS n Y n n n
+TDD1223875 Extreme #4 _____? nnMnn
+TDD-1223841 attempt: 3 READS n n m n n
+TDD1151112 > *
+TDD-335250 ? 1
+TDD-815851 questioning: vinal
+TDD5087853 Extreme #1 _____ ~A -DERS? nnnMn
+TDD-5087802 attempt: 0 VINAL n n n m n
+TDD1702807 Extreme #2 _____ ~DE -ARS? nnnnM
+TDD-1702811 attempt: 1 VINAL n n n n m
+TDD7231368 Extreme #3 _E___ -ADRS? nnMnM
+TDD-7231444 attempt: 2 VINAL n n m n m
+TDD1159823 Extreme #4 _____ ~A -DERS? nnnMM
+TDD-1159754 attempt: 3 VINAL n n n m m
+TDD1183064 > *
+TDD2768593 ? 1
+TDD-3951734 questioning: atomy
+TDD3607833 Extreme #1 _____ ~A -DEILNRSV? MnnnY
+TDD-3607778 attempt: 0 ATOMY m n n n Y
+TDD1303530 Extreme #2 _____ ~DEL -AINRSV? nnMnn
+TDD-1303499 attempt: 1 ATOMY n n m n n
+TDD1463094 Extreme #3 _E___ ~LN -ADIRSV? nnnnY
+TDD-1463180 attempt: 2 ATOMY n n n n Y
+TDD2295965 Extreme #4 _____ ~AL -DEINRSV? YMYnn
+TDD-2295965 attempt: 3 ATOMY Y m Y n n
+TDD1143632 > *
+TDD-1143473 questioning: aloft
+TDD3414864 Extreme #1 ____Y ~A -DEILMNORSTV? Mnnnn
+TDD-3415034 attempt: 0 ALOFT m n n n n
+TDD1335313 Extreme #2 _____ ~DELO -AIMNRSTVY? nMMnn
+TDD-1335303 attempt: 1 ALOFT n m m n n
+TDD1208007 Extreme #3 _E__Y ~LN -ADIMORSTV? nMnnn
+TDD-1207927 attempt: 2 ALOFT n m n n n
+TDD1183329 Extreme #4 A_O__ ~LT -DEIMNRSVY? YYYYY
+TDD-1183337 attempt: 3 ALOFT Y Y Y Y Y
+TDD1143231 > *
+TDD248560 ? 1
+TDD-1391827 questioning: newly
+TDD3215524 Extreme #1 ____Y ~A -DEFILMNORSTV? nnnnY
+TDD-3215560 attempt: 0 NEWLY n n n n Y
+TDD1591643 Extreme #2 _____ ~DELO -AFIMNRSTVY? nMnMn
+TDD-1591538 attempt: 1 NEWLY n m n m n
+TDD2247476 Extreme #3 _E__Y ~LN -ADFIMORSTV? YYYYY
+TDD-2247515 attempt: 2 NEWLY Y Y Y Y Y
+TDD15871262 > *
+TDD-8415541 ? 3
+TDD-7455753 questioning: gauzy
+TDD4431345 Extreme #1 ____Y ~A -DEFILMNORSTVW? nYnYY
+TDD-4431294 attempt: 0 GAUZY n Y n Y Y
+TDD1999862 Extreme #2 _____ ~DELO -AFIMNRSTVWY? Mnnnn
+TDD-1999796 attempt: 1 GAUZY m n n n n
+TDD5567005 > *
+TDD-5566879 questioning: jazzy
+TDD3822754 Extreme #1 _A_ZY -DEFGILMNORSTUVW? YYYYY
+TDD-3823041 attempt: 0 JAZZY Y Y Y Y Y
+TDD2296074 Extreme #2 _____ ~DEGLO -AFIMNRSTUVWYZ? nnnnn
+TDD-2295971 attempt: 1 JAZZY n n n n n
+TDD1270835 > *
+TDD1105075 ? 2
+TDD-2376011 questioning: lodge
+TDD2735549 Extreme #2 _____ ~DEGLO -AFIJMNRSTUVWYZ? YYYYY
+TDD-2735460 attempt: 1 LODGE Y Y Y Y Y
+TDD4112597 📋> 🥵 Daily Extreme 532
+TDD-4112793 📋> 7️⃣8️⃣
+TDD-101 📋> 5️⃣4️⃣
+TDD-2 📋> m-w.com/games/quordle/
+TDD327557 📋> 
+TDD-127657 📋> ␚
+TDD-199729 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udd75 Daily Extreme 532\n7\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD21 result: "\ud83e\udd75 Daily Extreme 532\n7\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD207580 📆 2026-01-12 ? 
