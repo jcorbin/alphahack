@@ -466,10 +466,11 @@ solver_heads = tuple(
     solver.header_slug
     for solver in solver_prior)
 
-def run_solver(name: str, make: SolverMaker, ui: PromptUI, log_file: str|None=None):
+def run_solver(make: SolverMaker, ui: PromptUI, log_file: str|None=None):
     # TODO parse optional -log-file arg
     try:
-        ui.write(f'*** Running solver {name}')
+        proto = make(PromptUI.Tokens())
+        ui.write(f'*** Running solver {proto.name}')
         solver = make(ui.tokens)
         if log_file:
             solver.log_file = log_file
@@ -872,10 +873,9 @@ class Meta(Arguable):
             raise StopIteration
 
         def do_cont(ui: PromptUI):
-            name = solver_name[solver_i]
             make = solver_make[solver_i]
             log_file = self.solver_log[solver_i]
-            return run_solver(name, make, ui, log_file)
+            return run_solver(make, ui, log_file)
 
         def do_tail(ui: PromptUI):
             log_file = self.solver_log[solver_i]
@@ -937,9 +937,8 @@ class Meta(Arguable):
                 ui.print('! all solvers reported, specify particular?')
                 return
         if solver_i >= 0:
-            name = solver_name[solver_i]
             make = solver_make[solver_i]
-            return run_solver(name, make, ui)
+            return run_solver(make, ui)
 
     def do_list_solvers(self, ui: PromptUI):
         '''
