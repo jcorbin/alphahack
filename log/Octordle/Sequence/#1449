@@ -1,0 +1,228 @@
+T2.1458979189992533 now: 2026-01-12T10:16:45EST
+TD114 site: britannica.com/games/octordle/daily-sequence
+TDD-99 wordlist: nwl2023.txt
+TDD-9 num_words: 8
+TDD4502702  ...
+TDD-3182954 > *
+TDD1336224 ? 3
+TDD-2655759 questioning: meats
+TDD5711907 Sequence #1 _____? nMnMM
+TDD-5711444 attempt: 0 MEATS n m n m m
+TDD1614536 > nnnnn
+TDD1152903 > *
+TDD-1312474 ? 1
+TDD-1455361 questioning: stope
+TDD2855809 Sequence #1 _____ ~EST -AM? YYnnM
+TDD-2855724 attempt: 0 STOPE Y Y n n m
+TDD1479431 > *
+TDD-87805 ? 1
+TDD-1391713 questioning: stern
+TDD3159460 Sequence #1 ST___ ~E -AMOP? YYYYY
+TDD-3159332 attempt: 0 STERN Y Y Y Y Y
+TDD-323 questioning: MEATS
+TDD1840015 Sequence #2 _____? MnMnn
+TDD-1839790 attempt: 1 MEATS m n m n n
+TDD-251 questioning: STOPE
+TDD1231526 Sequence #2 _____ ~AM -EST? nnnnn
+TDD-1231276 attempt: 1 STOPE n n n n n
+TDD-249 questioning: STERN
+TDD1927041 Sequence #2 _____ ~AM -EOPST? nnnMn
+TDD-1926710 attempt: 1 STERN n n n m n
+TDD1327541 > *
+TDD5687549 ? 1
+TDD-7015214 questioning: ziram
+TDD3279746 Sequence #2 _____ ~AMR -ENOPST? nnMMM
+TDD-3279661 attempt: 1 ZIRAM n n m m m
+TDD1303281 > *
+TDD607990 ? 1
+TDD-1911364 questioning: rumba
+TDD3031612 Sequence #2 _____ ~AMR -EINOPSTZ? YYYYY
+TDD-3031657 attempt: 1 RUMBA Y Y Y Y Y
+TDD-173 questioning: MEATS
+TDD1880406 Sequence #3 _____? nnnMn
+TDD-1880153 attempt: 2 MEATS n n n m n
+TDD-239 questioning: STOPE
+TDD1487068 Sequence #3 _____ ~T -AEMS? nMnnn
+TDD-1486780 attempt: 2 STOPE n m n n n
+TDD-267 questioning: STERN
+TDD1663442 Sequence #3 _____ ~T -AEMOPS? nMnnM
+TDD-1663220 attempt: 2 STERN n m n n m
+TDD-239 questioning: ZIRAM
+TDD1599654 Sequence #3 _____ ~NT -AEMOPRS? nYnnn
+TDD-1599399 attempt: 2 ZIRAM n Y n n n
+TDD-253 questioning: RUMBA
+TDD2336072 Sequence #3 _I___ ~NT -AEMOPRSZ? nnnnn
+TDD-2335837 attempt: 2 RUMBA n n n n n
+TDD1166929 > *
+TDD232854 ? 1
+TDD-1399825 questioning: night
+TDD2847485 Sequence #3 _I___ ~NT -ABEMOPRSUZ? YYYYY
+TDD-2847522 attempt: 2 NIGHT Y Y Y Y Y
+TDD-179 questioning: MEATS
+TDD2064027 Sequence #4 _____? nnnnn
+TDD-2063761 attempt: 3 MEATS n n n n n
+TDD-245 questioning: STOPE
+TDD1734976 Sequence #4 _____ -AEMST? nnMnn
+TDD-1734798 attempt: 3 STOPE n n m n n
+TDD-196 questioning: STERN
+TDD1607952 Sequence #4 _____ ~O -AEMPST? nnnMn
+TDD-1607705 attempt: 3 STERN n n n m n
+TDD-226 questioning: ZIRAM
+TDD2152003 Sequence #4 _____ ~OR -AEMNPST? nnYnn
+TDD-2151758 attempt: 3 ZIRAM n n Y n n
+TDD-244 questioning: RUMBA
+TDD1326921 Sequence #4 __R__ ~O -AEIMNPSTZ? Mnnnn
+TDD-1326670 attempt: 3 RUMBA m n n n n
+TDD-254 questioning: NIGHT
+TDD1183969 Sequence #4 __R__ ~O -ABEIMNPSTUZ? nnnnn
+TDD-1183719 attempt: 3 NIGHT n n n n n
+TDD1175901 > *
+TDD279036 ? 1
+TDD-1454953 questioning: dorky
+TDD3183912 Sequence #4 __R__ ~O -ABEGHIMNPSTUZ? MYYnn
+TDD-3183906 attempt: 3 DORKY m Y Y n n
+TDD2111058 > *
+TDD-566730 ? 1
+TDD-1544308 questioning: world
+TDD2551312 Sequence #4 _OR__ ~D -ABEGHIKMNPSTUYZ? YYYYY
+TDD-2551329 attempt: 3 WORLD Y Y Y Y Y
+TDD-243 questioning: MEATS
+TDD3808672 Sequence #5 _____? MnYnn
+TDD-3808139 attempt: 4 MEATS m n Y n n
+TDD-471 questioning: STOPE
+TDD2470378 Sequence #5 __A__ ~M -EST? nnnMn
+TDD-2470204 attempt: 4 STOPE n n n m n
+TDD-236 questioning: STERN
+TDD1150966 Sequence #5 __A__ ~MP -EOST? nnnnn
+TDD-1150739 attempt: 4 STERN n n n n n
+TDD-226 questioning: ZIRAM
+TDD2159598 Sequence #5 __A__ ~MP -ENORST? nnnMM
+TDD-2159356 attempt: 4 ZIRAM n n n m m
+TDD-238 questioning: RUMBA
+TDD2447538 Sequence #5 __A__ ~MP -EINORSTZ? nnMnM
+TDD-2447303 attempt: 4 RUMBA n n m n m
+TDD-232 questioning: NIGHT
+TDD1511308 Sequence #5 __A__ ~MP -BEINORSTUZ? nnnMn
+TDD-1511061 attempt: 4 NIGHT n n n m n
+TDD-247 questioning: DORKY
+TDD2032393 Sequence #5 __A__ ~HMP -BEGINORSTUZ? nnnnn
+TDD-2032075 attempt: 4 DORKY n n n n n
+TDD-307 questioning: WORLD
+TDD1134760 Sequence #5 __A__ ~HMP -BDEGIKNORSTUYZ? nnnnn
+TDD-1134522 attempt: 4 WORLD n n n n n
+TDD1055751 > *
+TDD-1055463 questioning: champ
+TDD2854241 Sequence #5 __A__ ~HMP -BDEGIKLNORSTUWYZ? YYYYY
+TDD-2854601 attempt: 4 CHAMP Y Y Y Y Y
+TDD-190 questioning: MEATS
+TDD2521120 Sequence #6 _____? MnMnn
+TDD-2520814 attempt: 5 MEATS m n m n n
+TDD-281 questioning: STOPE
+TDD1158780 Sequence #6 _____ ~AM -EST? nnnnn
+TDD-1158546 attempt: 5 STOPE n n n n n
+TDD-248 questioning: STERN
+TDD2031149 Sequence #6 _____ ~AM -EOPST? nnnnY
+TDD-2030958 attempt: 5 STERN n n n n Y
+TDD-202 questioning: ZIRAM
+TDD7407891 Sequence #6 ____N ~AM -EOPRST? nMnMM
+TDD-7407648 attempt: 5 ZIRAM n m n m m
+TDD-225 questioning: RUMBA
+TDD3831704 Sequence #6 ____N ~AIM -EOPRSTZ? nnYnM
+TDD-3831458 attempt: 5 RUMBA n n Y n m
+TDD-248 questioning: NIGHT
+TDD4143182 Sequence #6 __M_N ~AI -BEOPRSTUZ? MMnnn
+TDD-4143030 attempt: 5 NIGHT m m n n n
+TDD-170 questioning: DORKY
+TDD2263748 Sequence #6 __M_N ~AI -BEGHOPRSTUZ? Mnnnn
+TDD-2263487 attempt: 5 DORKY m n n n n
+TDD-240 questioning: WORLD
+TDD1279624 Sequence #6 __M_N ~ADI -BEGHKOPRSTUYZ? nnnnM
+TDD-1279463 attempt: 5 WORLD n n n n m
+TDD-182 questioning: CHAMP
+TDD1903737 Sequence #6 __M_N ~ADI -BEGHKLOPRSTUWYZ? nnMMn
+TDD-1903552 attempt: 5 CHAMP n n m m n
+TDD992288 > *
+TDD-992075 questioning: admin
+TDD3358376 Sequence #6 __M_N ~ADI -BCEGHKLOPRSTUWYZ? YYYYY
+TDD-3358524 attempt: 5 ADMIN Y Y Y Y Y
+TDD-184 questioning: MEATS
+TDD2295414 Sequence #7 _____? nnMnM
+TDD-2295236 attempt: 6 MEATS n n m n m
+TDD-201 questioning: STOPE
+TDD3631851 Sequence #7 _____ ~AS -EMT? YnnMn
+TDD-3631604 attempt: 6 STOPE Y n n m n
+TDD-215 questioning: STERN
+TDD2527544 Sequence #7 S____ ~AP -EMOT? YnnMn
+TDD-2527407 attempt: 6 STERN Y n n m n
+TDD-147 questioning: ZIRAM
+TDD1967616 Sequence #7 S____ ~APR -EMNOT? nnYYn
+TDD-1967461 attempt: 6 ZIRAM n n Y Y n
+TDD-172 questioning: RUMBA
+TDD5384102 Sequence #7 S_RA_ ~P -EIMNOTZ? MnnnM
+TDD-5383851 attempt: 6 RUMBA m n n n m
+TDD-191 questioning: NIGHT
+TDD2302737 Sequence #7 S_RA_ ~P -BEIMNOTUZ? nnnnn
+TDD-2302653 attempt: 6 NIGHT n n n n n
+TDD-149 questioning: DORKY
+TDD2543215 Sequence #7 S_RA_ ~P -BEGHIMNOTUZ? nnYnY
+TDD-2543087 attempt: 6 DORKY n n Y n Y
+TDD-143 questioning: WORLD
+TDD1872166 Sequence #7 S_RAY ~P -BDEGHIKMNOTUZ? nnYnn
+TDD-1871993 attempt: 6 WORLD n n Y n n
+TDD-148 questioning: CHAMP
+TDD1327399 Sequence #7 S_RAY ~P -BDEGHIKLMNOTUWZ? nnMnM
+TDD-1327216 attempt: 6 CHAMP n n m n m
+TDD-154 questioning: ADMIN
+TDD4431519 Sequence #7 S_RAY ~P -BCDEGHIKLMNOTUWZ? Mnnnn
+TDD-4431414 attempt: 6 ADMIN m n n n n
+TDD1216074 > *
+TDD-1215781 questioning: spray
+TDD9551792 Sequence #7 S_RAY ~P -BCDEGHIKLMNOTUWZ? YYYYY
+TDD-9551820 attempt: 6 SPRAY Y Y Y Y Y
+TDD-397 questioning: MEATS
+TDD7118260 Sequence #8 _____? YnMnn
+TDD-7118083 attempt: 7 MEATS Y n m n n
+TDD-219 questioning: STOPE
+TDD1119941 Sequence #8 M____ ~A -EST? nnnnn
+TDD-1119691 attempt: 7 STOPE n n n n n
+TDD-236 questioning: STERN
+TDD1559323 Sequence #8 M____ ~A -EOPST? nnnnM
+TDD-1559162 attempt: 7 STERN n n n n m
+TDD-180 questioning: ZIRAM
+TDD2711338 Sequence #8 M____ ~AN -EOPRST? nnnMM
+TDD-2711059 attempt: 7 ZIRAM n n n m m
+TDD-251 questioning: RUMBA
+TDD1280193 Sequence #8 M____ ~AN -EIOPRSTZ? nnMnM
+TDD-1279966 attempt: 7 RUMBA n n m n m
+TDD-236 questioning: NIGHT
+TDD2959909 Sequence #8 M____ ~AN -BEIOPRSTUZ? MnMnn
+TDD-2959639 attempt: 7 NIGHT m n m n n
+TDD-264 questioning: DORKY
+TDD1543288 Sequence #8 M____ ~AGN -BEHIOPRSTUZ? nnnnY
+TDD-1543059 attempt: 7 DORKY n n n n Y
+TDD-237 questioning: WORLD
+TDD2047432 Sequence #8 M___Y ~AGN -BDEHIKOPRSTUZ? nnnnn
+TDD-2047237 attempt: 7 WORLD n n n n n
+TDD-211 questioning: CHAMP
+TDD3209040 Sequence #8 M___Y ~AGN -BDEHIKLOPRSTUWZ? nnMMn
+TDD-3208469 attempt: 7 CHAMP n n m m n
+TDD-529 questioning: ADMIN
+TDD3509403 Sequence #8 M___Y ~AGN -BCDEHIKLOPRSTUWZ? MnMnM
+TDD-3509186 attempt: 7 ADMIN m n m n m
+TDD-239 questioning: SPRAY
+TDD1551644 Sequence #8 M___Y ~AGN -BCDEHIKLOPRSTUWZ? nnnMY
+TDD-1551400 attempt: 7 SPRAY n n n m Y
+TDD879618 > *
+TDD-879354 questioning: mangy
+TDD3038418 Sequence #8 M___Y ~AGN -BCDEHIKLOPRSTUWZ? YYYYY
+TDD-3038768 attempt: 7 MANGY Y Y Y Y Y
+TDD3736716 📋> Daily Sequence Octordle #1449
+TDD-3736792 📋> 3️⃣5️⃣
+TDD-125 📋> 6️⃣8️⃣
+TDD-5 📋> 9️⃣🔟
+TDD0 📋> 🕚🕛
+TDD447312 📋> Score: 64
+TDD-279433 📋> ␚
+TDD-167713 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Octordle #1449\n3\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a\ud83d\udd5b\nScore: 64"}
+TDD970 result: "Daily Sequence Octordle #1449\n3\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a\ud83d\udd5b\nScore: 64"
+TDD221838 📆 2026-01-12 ? 
