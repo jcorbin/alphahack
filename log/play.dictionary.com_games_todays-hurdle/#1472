@@ -1,0 +1,111 @@
+T201.8000963270024 now: 2026-01-12T09:06:18EST
+TD132 site: https://play.dictionary.com/games/todays-hurdle
+TDD-109 wordlist: nwl2023.txt
+TDD29230858  ...
+TDD-27118933 1.1> *
+TDD-1359461 1.1 ? 1
+TDD3471439 1.1 📋 "ureas" ? MMnnM
+TDD-4223652 tried: UREAS m m n n m
+TDD615521 1.2> *
+TDD607714 1.2 ? 1
+TDD2248595 1.2 📋 "hurst" ? ␚
+TDD-3471998 <EOF>
+TDD2120065 1.2> hurts
+TDD3719931 1.2> ?
+TDD1448019 1.2> tried hurts nMYnM
+TDD-7287891 tried: HURTS n m Y n m
+TDD935314 1.3> *
+TDD4192461 1.3 ? 5
+TDD-439812 1.3 📋 "scrub" ? YYYYY
+TDD-4687961 tried: SCRUB Y Y Y Y Y
+TDD8295925 2.1 📋 "scrub" ? Ynnnn
+TDD-8295867 tried: SCRUB Y n n n n
+TDD679002 2.2> *
+TDD2488875 2.2 ? 8
+TDD384047 2.2 📋 "shine" ? YnYYn
+TDD-3551924 tried: SHINE Y n Y Y n
+TDD575591 2.3> *
+TDD3431669 2.3 ? 8
+TDD-151321 2.3 📋 "sling" ? YnYYn
+TDD-3855938 tried: SLING Y n Y Y n
+TDD551319 2.4> *
+TDD808158 2.4 ? 1
+TDD3312424 2.4 📋 "stink" ? YnYYn
+TDD-4671938 tried: STINK Y n Y Y n
+TDD463576 2.5> *
+TDD2456296 2.5 ? 1
+TDD1759888 2.5 📋 "spiny" ? YYYYY
+TDD-4679721 tried: SPINY Y Y Y Y Y
+TDD6119194 3.1 📋 "spiny" ? YnnMn
+TDD-6119261 tried: SPINY Y n n m n
+TDD791658 3.2> *
+TDD152228 3.2 ? 1
+TDD3031864 3.2 📋 "senor" ? YYMnn
+TDD-3975747 tried: SENOR Y Y m n n
+TDD455347 3.3> *
+TDD4592946 3.3 ? 2
+TDD447314 3.3 📋 "sedan" ? YYnnY
+TDD-5495599 tried: SEDAN Y Y n n Y
+TDD447905 3.4> *
+TDD1279306 3.4 ? 2
+TDD1904720 3.4 📋 "seven" ? YYYYY
+TDD-3631901 tried: SEVEN Y Y Y Y Y
+TDD6975240 4.1 📋 "seven" ? nnnnn
+TDD-6975221 tried: SEVEN n n n n n
+TDD447935 4.2> *
+TDD1807384 4.2 ? 2
+TDD1632571 4.2 📋 "moral" ? nnnnY
+TDD-3887880 tried: MORAL n n n n Y
+TDD423548 4.3> *
+TDD2063693 4.3 ? 1
+TDD1120866 4.3 📋 "quill" ? nnYYY
+TDD-3608122 tried: QUILL n n Y Y Y
+TDD503513 4.4> *
+TDD1776143 4.4 ? 2
+TDD1104337 4.4 📋 "chill" ? YYYYY
+TDD-3383981 tried: CHILL Y Y Y Y Y
+TDD7647015 5.1 📋 "scrub" ? YnMnn
+TDD-7647081 tried: SCRUB Y n m n n
+TDD1991625 5.2 📋 "spiny" ? Ynnnn
+TDD-1991630 tried: SPINY Y n n n n
+TDD1599434 5.3 📋 "seven" ? YMnnn
+TDD-1599440 tried: SEVEN Y m n n n
+TDD1775708 5.4 📋 "chill" ? nYnnn
+TDD-1775700 tried: CHILL n Y n n n
+TDD767630 5.5> *
+TDD1608182 5.5 ? 3
+TDD1031843 5.5 📋 "share" ? YYnYY
+TDD-3407574 tried: SHARE Y Y n Y Y
+TDD543456 5.6> *
+TDD2384203 5.6 📋 "shore" ? YYYYY
+TDD-2927759 tried: SHORE Y Y Y Y Y
+TDD4975680 📋> Hurdle 1472
+TDD-4975789 📋> 
+TDD-97 📋> 3/6
+TDD0 📋> 🟨🟨⬜⬜🟨
+TDD-4 📋> ⬜🟨🟩⬜🟨
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 5/6
+TDD0 📋> 🟩⬜⬜⬜⬜
+TDD0 📋> 🟩⬜🟩🟩⬜
+TDD0 📋> 🟩⬜🟩🟩⬜
+TDD-1 📋> 🟩⬜🟩🟩⬜
+TDD1 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 4/6
+TDD0 📋> 🟩⬜⬜🟨⬜
+TDD0 📋> 🟩🟩🟨⬜⬜
+TDD0 📋> 🟩🟩⬜⬜🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> ⬜⬜⬜⬜⬜
+TDD0 📋> ⬜⬜⬜⬜🟩
+TDD0 📋> ⬜⬜🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 2/2
+TDD0 📋> 🟩🟩⬜🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD304024 📋> score: 9,800
+TDD-120414 📋> ␚
+TDD-183464 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1472\n\n3/6\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,800"}
+TDD391 result: "Hurdle 1472\n\n3/6\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,800"
+TDD230854 📆 2026-01-12 ? 
