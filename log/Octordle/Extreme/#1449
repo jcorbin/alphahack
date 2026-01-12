@@ -1,0 +1,152 @@
+T241.8275780710028 now: 2026-01-12T10:20:45EST
+TD233 site: britannica.com/games/octordle/extreme
+TDD-173 wordlist: nwl2023.txt
+TDD-45 num_words: 8
+TDD4030466  ...
+TDD-2774403 > *
+TDD3271867 ? 9
+TDD-4527764 questioning: roast
+TDD3096480 Extreme #1 _____? nnnYn
+TDD-3096353 attempt: 0 ROAST n n n Y n
+TDD1614938 Extreme #2 _____? nYYYY
+TDD-1615014 attempt: 1 ROAST n Y Y Y Y
+TDD1655532 Extreme #3 _____? MMnnM
+TDD-1655529 attempt: 2 ROAST m m n n m
+TDD1343543 Extreme #4 _____? Mnnnn
+TDD-1343469 attempt: 3 ROAST m n n n n
+TDD4311473 Extreme #5 _____? Ynnnn
+TDD-4311468 attempt: 4 ROAST Y n n n n
+TDD1175638 Extreme #6 _____? nnnnn
+TDD-1175624 attempt: 5 ROAST n n n n n
+TDD2127213 Extreme #7 _____? MMnnM
+TDD-2127220 attempt: 6 ROAST m m n n m
+TDD1520152 Extreme #8 _____? nnnnn
+TDD-1520168 attempt: 7 ROAST n n n n n
+TDD4134787 > *
+TDD-606822 ? 2
+TDD-3527984 questioning: coast
+TDD5367387 Extreme #1 ___S_ -AORT? nnnYn
+TDD-5367372 attempt: 0 COAST n n n Y n
+TDD1287424 Extreme #2 _OAST -R? YYYYY
+TDD-1287429 attempt: 1 COAST Y Y Y Y Y
+TDD2079124 Extreme #3 _____ ~ORT -AS? nMnnM
+TDD-2079035 attempt: 2 COAST n m n n m
+TDD1135497 Extreme #4 _____ ~R -AOST? nnnnn
+TDD-1135573 attempt: 3 COAST n n n n n
+TDD3687680 Extreme #5 R____ -AOST? nnnnn
+TDD-3687758 attempt: 4 COAST n n n n n
+TDD1487092 Extreme #6 _____ -AORST? nnnnn
+TDD-1486961 attempt: 5 COAST n n n n n
+TDD1743554 Extreme #7 _____ ~ORT -AS? nMnnM
+TDD-1743604 attempt: 6 COAST n m n n m
+TDD1079587 Extreme #8 _____ -AORST? nnnnn
+TDD-1079677 attempt: 7 COAST n n n n n
+TDD1375562 > *
+TDD1473312 ? 1
+TDD-2848752 questioning: ledgy
+TDD5469881 Extreme #1 ___S_ -ACORT? nYnnY
+TDD-5469930 attempt: 0 LEDGY n Y n n Y
+TDD1519948 Extreme #3 _____ ~ORT -ACS? nnnnn
+TDD-1519850 attempt: 2 LEDGY n n n n n
+TDD1759014 Extreme #4 _____ ~R -ACOST? nMMYn
+TDD-1759098 attempt: 3 LEDGY n m m Y n
+TDD3606782 Extreme #5 R____ -ACOST? nMnnM
+TDD-3606875 attempt: 4 LEDGY n m n n m
+TDD1535784 Extreme #6 _____ -ACORST? MMnnn
+TDD-1535711 attempt: 5 LEDGY m m n n n
+TDD1406976 Extreme #7 _____ ~ORT -ACS? nnnnn
+TDD-1406977 attempt: 6 LEDGY n n n n n
+TDD2223622 Extreme #8 _____ -ACORST? nnnnY
+TDD-2223603 attempt: 7 LEDGY n n n n Y
+TDD1272118 > *
+TDD-1272038 questioning: dirge
+TDD6438828 Extreme #1 _E_SY -ACDGLORT? nnnnM
+TDD-6438912 attempt: 0 DIRGE n n n n m
+TDD1783766 Extreme #3 _____ ~ORT -ACDEGLSY? nnYnn
+TDD-1783778 attempt: 2 DIRGE n n Y n n
+TDD1847267 Extreme #4 ___G_ ~DER -ACLOSTY? YYYYY
+TDD-1847338 attempt: 3 DIRGE Y Y Y Y Y
+TDD4727938 Extreme #5 R____ ~EY -ACDGLOST? nnMnY
+TDD-4727842 attempt: 4 DIRGE n n m n Y
+TDD1430793 Extreme #6 _____ ~EL -ACDGORSTY? nnnnM
+TDD-1430805 attempt: 5 DIRGE n n n n m
+TDD2423401 Extreme #7 _____ ~ORT -ACDEGLSY? nnMnn
+TDD-2423479 attempt: 6 DIRGE n n m n n
+TDD1648018 Extreme #8 ____Y -ACDEGLORST? nnnnn
+TDD-1647947 attempt: 7 DIRGE n n n n n
+TDD1767218 > *
+TDD-1767123 questioning: rhyme
+TDD5623158 Extreme #1 _E_SY -ACDGILORT? nnMMM
+TDD-5623248 attempt: 0 RHYME n n m m m
+TDD1671643 Extreme #3 __R__ ~OT -ACDEGILSY? MYnnn
+TDD-1671635 attempt: 2 RHYME m Y n n n
+TDD3359679 Extreme #5 R___E ~Y -ACDGILOST? YYYYY
+TDD-3359704 attempt: 4 RHYME Y Y Y Y Y
+TDD1415297 Extreme #6 _____ ~EL -ACDGIORSTY? nnnnM
+TDD-1415332 attempt: 5 RHYME n n n n m
+TDD3150701 Extreme #7 _____ ~ORT -ACDEGILSY? MMnnn
+TDD-3150723 attempt: 6 RHYME m m n n n
+TDD1303865 Extreme #8 ____Y -ACDEGILORST? nMMnn
+TDD-1303875 attempt: 7 RHYME n m m n n
+TDD1136225 > *
+TDD-1135946 questioning: messy
+TDD5030203 Extreme #1 _E_SY ~M -ACDGHILORT? YYYYY
+TDD-5030417 attempt: 0 MESSY Y Y Y Y Y
+TDD1720040 Extreme #3 _HR__ ~OT -ACDEGILMSY? nnnnn
+TDD-1720012 attempt: 2 MESSY n n n n n
+TDD2639046 Extreme #6 _____ ~EL -ACDGHIMORSTY? nMnnn
+TDD-2639109 attempt: 5 MESSY n m n n n
+TDD1864174 Extreme #7 _____ ~HORT -ACDEGILMSY? nnnnn
+TDD-1864182 attempt: 6 MESSY n n n n n
+TDD1686715 Extreme #8 ____Y ~H -ACDEGILMORST? nnnnY
+TDD-1686665 attempt: 7 MESSY n n n n Y
+TDD1215387 > *
+TDD744192 ? 2
+TDD-1959614 questioning: throw
+TDD7479717 Extreme #3 _HR__ ~OT -ACDEGILMSY? YYYYn
+TDD-7479717 attempt: 2 THROW Y Y Y Y n
+TDD3207968 Extreme #6 _____ ~EL -ACDGHIMORSTY? nnnnn
+TDD-3207912 attempt: 5 THROW n n n n n
+TDD3351127 Extreme #7 _____ ~HORT -ACDEGILMSY? MMMMn
+TDD-3351160 attempt: 6 THROW m m m m n
+TDD1127568 Extreme #8 ____Y ~H -ACDEGILMORST? nMnnn
+TDD-1127461 attempt: 7 THROW n m n n n
+TDD1375608 > *
+TDD-1375497 questioning: throb
+TDD5102847 Extreme #3 THRO_ -ACDEGILMSWY? YYYYY
+TDD-5103063 attempt: 2 THROB Y Y Y Y Y
+TDD2839058 Extreme #6 _____ ~EL -ACDGHIMORSTWY? nnnnM
+TDD-2839034 attempt: 5 THROB n n n n m
+TDD2447358 Extreme #7 _____ ~HORT -ACDEGILMSWY? MMMMM
+TDD-2447365 attempt: 6 THROB m m m m m
+TDD1703082 Extreme #8 ____Y ~H -ACDEGILMORSTW? nMnnn
+TDD-1703092 attempt: 7 THROB n m n n n
+TDD1024180 > *
+TDD-1023996 questioning: bleep
+TDD5358898 Extreme #6 _____ ~BEL -ACDGHIMORSTWY? YYYYY
+TDD-5359023 attempt: 5 BLEEP Y Y Y Y Y
+TDD4343824 Extreme #7 _____ ~BHORT -ACDEGILMSWY? Ynnnn
+TDD-4343865 attempt: 6 BLEEP Y n n n n
+TDD1991568 Extreme #8 ____Y ~H -ABCDEGILMORSTW? nnnnn
+TDD-1991644 attempt: 7 BLEEP n n n n n
+TDD8182759 > *
+TDD-8182561 questioning: broth
+TDD4183310 Extreme #7 B____ ~HORT -ACDEGILMPSWY? YYYYY
+TDD-4183433 attempt: 6 BROTH Y Y Y Y Y
+TDD1775850 Extreme #8 ____Y ~H -ABCDEGILMOPRSTW? nnnnM
+TDD-1775837 attempt: 7 BROTH n n n n m
+TDD855451 > *
+TDD847712 ? 1
+TDD-1703242 questioning: hunky
+TDD3215443 Extreme #8 ____Y ~H -ABCDEGILMOPRSTW? YYYYY
+TDD-3215333 attempt: 7 HUNKY Y Y Y Y Y
+TDD3511912 📋> Daily Extreme Octordle #1449
+TDD-3512118 📋> 6️⃣2️⃣
+TDD-109 📋> 8️⃣4️⃣
+TDD-19 📋> 5️⃣9️⃣
+TDD0 📋> 🔟🕚
+TDD543349 📋> Score: 55
+TDD-391255 📋> ␚
+TDD-151968 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Extreme Octordle #1449\n6\ufe0f\u20e32\ufe0f\u20e3\n8\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\nScore: 55"}
+TDD-10 result: "Daily Extreme Octordle #1449\n6\ufe0f\u20e32\ufe0f\u20e3\n8\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\nScore: 55"
+TDD151935 📆 2026-01-12 ? 
