@@ -1,0 +1,65 @@
+T349.78665015399747 now: 2026-01-13T08:49:08EST
+TD130 site: dontwordle.com
+TDD-106 wordlist: nwl2023.txt
+TDD4871238  ...
+TDD2778183 1> *
+TDD-2994293 ? ␚
+TDD-4655021 <EOF>
+TDD1727937 1> * -bot 10
+TDD2487890 ? 4
+TDD-240190 📋 "nears" ? nnMYn
+TDD-3975458 tried: NEARS n n m Y n
+TDD4951756 2> undo
+TDD-4951584 undo
+TDD702651 1> *
+TDD673247 ? 1
+TDD3543368 📋 "edged" ? nnnnn
+TDD-4919449 tried: EDGED n n n n n
+TDD487202 2> *
+TDD360997 ? 1
+TDD2767697 📋 "mimic" ? nnnnn
+TDD-3615632 tried: MIMIC n n n n n
+TDD806569 3> *
+TDD3936382 ? 2
+TDD-807399 📋 "boffo" ? MMnnn
+TDD-3935876 tried: BOFFO m m n n n
+TDD832607 4> undo
+TDD-832610 undo
+TDD3582986 3> *
+TDD-2183696 ? 1
+TDD4002306 📋 "phpht" ? nnnnY
+TDD-5401294 tried: PHPHT n n n n Y
+TDD917855 4> undo
+TDD-918124 undo
+TDD3695073 3> *
+TDD-1558868 ? 1
+TDD2343044 📋 "jukus" ? nnnnn
+TDD-4479282 tried: JUKUS n n n n n
+TDD537014 4> *
+TDD3228672 📋 "xylyl" ? nnnnn
+TDD-3765627 tried: XYLYL n n n n n
+TDD1215817 5> *
+TDD3352272 📋 "phpht" ? nnnnY
+TDD-4568077 tried: PHPHT n n n n Y
+TDD830972 6> *
+TDD953738 ? 
+TDD-1233326 ? 1
+TDD3719346 📋 "avant" ? YnnnY
+TDD-4270744 tried: AVANT Y n n n Y
+TDD2953256 📋> Don't Wordle 1330 - SURVIVED
+TDD-2953428 📋> Hooray! I didn't Wordle today!
+TDD-109 📋> ⬜⬜⬜⬜⬜5334
+TDD-4 📋> ⬜⬜⬜⬜⬜2330
+TDD-2 📋> ⬜⬜⬜⬜⬜531
+TDD0 📋> ⬜⬜⬜⬜⬜178
+TDD0 📋> ⬜⬜⬜⬜🟩20
+TDD0 📋> 🟩⬜⬜⬜🟩3
+TDD0 📋> Undos used: 3
+TDD1 📋> 
+TDD0 📋>   3 words remaining
+TDD0 📋> x 7 unused letters
+TDD278653 📋> = 21 total score
+TDD-126231 📋> ␚
+TDD-152251 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1330 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5334\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2330\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c531\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c178\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe920\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\ud83d\udfe93\nUndos used: 3\n\n  3 words remaining\nx 7 unused letters\n= 21 total score"}
+TDD846 result: "Don't Wordle 1330 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5334\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2330\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c531\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c178\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe920\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\ud83d\udfe93\nUndos used: 3\n\n  3 words remaining\nx 7 unused letters\n= 21 total score"
+TDD453712 📆 2026-01-13 ? 
