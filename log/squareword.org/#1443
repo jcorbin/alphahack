@@ -1,0 +1,138 @@
+T456.76382563600055 now: 2026-01-13T08:50:55EST
+TD133 site: squareword.org
+TDD-96 wordlist: nwl2023.txt
+TDD4614614  ...
+TDD-2166787 🧩  ? #1443
+TDD-2447636 puzzle_id: #1443
+TDD5127798 > *
+TDD-3415992 try? 1
+TDD-1711628 questioning: ["dears", "#5"]
+TDD4175176 #1 <IndexError>  📋 "dears" ? __A__ ~ S
+TDD-4175012 attempt 0 DEARS n n Y n m
+TDD2535488 #2 <IndexError>  📋 "dears" ? _____
+TDD-2535700 attempt 1 DEARS n n n n n
+TDD1894851 #3 <IndexError>  📋 "dears" ? _____ ~ DE
+TDD-1894847 attempt 2 DEARS m m n n n
+TDD1783527 #4 <IndexError>  📋 "dears" ? _____ ~ E
+TDD-1783625 attempt 3 DEARS n m n n n
+TDD4599338 #5 <IndexError>  📋 "dears" ? ____S ~ A
+TDD-4599329 attempt 4 DEARS n n m n Y
+TDD855537 ? 
+TDD-855565 question done
+TDD991389 > *
+TDD3384191 try? 1
+TDD-4375436 questioning: ["shalt", "#1"]
+TDD8200405 #1 __A__ ~S -DER  📋 "shalt" ? YnYnn ~ S
+TDD-8200421 attempt 0 SHALT m n n n n
+TDD2391150 #2 _____ -ADERS  📋 "shalt" ? _____ ~ LT
+TDD-2391160 attempt 1 SHALT n n n m m
+TDD2302655 #3 _____ ~DE -ARS  📋 "shalt" ? _____ ~ DET
+TDD-2302669 attempt 2 SHALT n n n n m
+TDD2543833 #4 _____ ~E -ADRS  📋 "shalt" ? .
+TDD-2543816 attempt 3 SHALT n n n n n
+TDD3679024 #5 ____S ~A -DER  📋 "shalt" ? ____S ~ AT
+TDD-3679049 attempt 4 SHALT n n m n m
+TDD231634 ? 
+TDD-231761 question done
+TDD607951 > *
+TDD1902908 try? 1
+TDD-2510707 questioning: ["quasi", "#1"]
+TDD7375499 #1 __A__ ~S -ADEHLRT  📋 "quasi" ? S_AS_
+TDD-7375538 attempt 0 QUASI n n Y Y n
+TDD887810 #2 _____ ~LT -ADEHRS  📋 "quasi" ? .
+TDD-887766 attempt 1 QUASI n n n n n
+TDD974647 #3 _____ ~DET -AHLRS  📋 "quasi" ? .
+TDD-974572 attempt 2 QUASI n n n n n
+TDD2744555 #4 _____ ~E -ADHLRST  📋 "quasi" ? _____ ~ EI
+TDD-2744368 attempt 3 QUASI n n n n m
+TDD1877906 #5 ____S ~AT -DEHLRS  📋 "quasi" ? .
+TDD-1878173 attempt 4 QUASI n n m n n
+TDD183021 ? 
+TDD-183196 question done
+TDD736784 > *
+TDD6942919 try? 3
+TDD-7679238 questioning: ["lofty", "#2"]
+TDD7262600 #1 __AS_ -DEHILQRTU  📋 "lofty" ? S_AS
+TDD-4632130 #1 __AS_ -DEHILQRTU  ? S_AS_
+TDD-2630798 attempt 0 LOFTY n n n n n
+TDD3479771 #2 _____ ~LT -ADEHIQRSU  📋 "lofty" ? LO_T_ ~ TO
+TDD-3479379 attempt 1 LOFTY Y Y n Y n
+TDD3478307 #3 _____ ~DET -AHILQRSU  📋 "lofty" ? _____ ~ DETO
+TDD-3478691 attempt 2 LOFTY n m n m n
+TDD3695315 #4 _____ ~EI -ADHLQRSTU  📋 "lofty" ? _____ ~ EIO
+TDD-3695094 attempt 3 LOFTY n m n n n
+TDD2879028 #5 ____S ~AT -DEHILQRSU  📋 "lofty" ? ___TS ~ A
+TDD-2879243 attempt 4 LOFTY n n n Y n
+TDD319301 ? 
+TDD-319421 question done
+TDD2415652 > *
+TDD-1501042 questioning: ["lotto", "#2"]
+TDD5090362 #1 __AS_ -DEFHILOQRTUY  📋 "lotto" ? S_AS_
+TDD-6004943 attempt 0 LOTTO n n n n n
+TDD1231594 #2 LO_T_ -ADEFHIQRSUY  📋 "lotto" ? /it
+TDD-1231537 attempt 1 LOTTO Y Y Y Y Y
+TDD3999822 #3 _____ ~DEOT -AFHILQRSUY  📋 "lotto" ? __T__ ~ DEO
+TDD-3999777 attempt 2 LOTTO n m Y n m
+TDD1935558 #4 _____ ~EIO -ADFHLQRSTUY  📋 "lotto" ? .
+TDD-1935384 attempt 3 LOTTO n m n n m
+TDD3285733 #5 ___TS ~A -DEFHILOQRSUY  📋 "lotto" ? 
+TDD-1294776 #5 ___TS ~A -DEFHILOQRSUY  ? .
+TDD-1991238 attempt 4 LOTTO n n n Y n
+TDD647924 ? 
+TDD-647953 question done
+TDD1031564 > *
+TDD538700 questioning: ["opted", "#3"]
+TDD4491022 #1 __AS_ -DEFHILOQRTUY  📋 "opted" ? SPAS_
+TDD-6061237 attempt 0 OPTED n Y n n n
+TDD1903516 #3 __T__ ~DEO -AFHILQRSUY  📋 "opted" ? /it
+TDD-1903414 attempt 2 OPTED Y Y Y Y Y
+TDD5231690 #4 _____ ~EIO -ADFHLQRSTUY  📋 "opted" ? OP___ ~ EI
+TDD-5231710 attempt 3 OPTED Y Y n m n
+TDD2863712 #5 ___TS ~A -DEFHILOQRSUY  📋 "opted" ? ___TS ~ AP
+TDD-2863681 attempt 4 OPTED n m n n n
+TDD439095 ? 
+TDD-439267 question done
+TDD687040 > *
+TDD900484 questioning: ["opine", "#4"]
+TDD5801106 #1 _PAS_ -DEFHILOQRTUY  📋 "opine" ? SPAS_ 
+TDD-7388508 attempt 0 OPINE n Y n n n
+TDD999254 #4 OP___ ~EI -ADFHLQRSTUY  📋 "opine" ? /it
+TDD-999234 attempt 3 OPINE Y Y Y Y Y
+TDD1046714 #5 ___TS ~AP -DEFHILOQRSTUY  📋 "opine" ? .
+TDD-1046701 attempt 4 OPINE n m n n n
+TDD159364 ? 
+TDD-159567 question done
+TDD512279 > *
+TDD748572 questioning: ["pacts", "#5"]
+TDD8590203 #1 _PAS_ -DEFHILNOQRTUY  📋 "pacts" ? SPAS_
+TDD-9850842 attempt 0 PACTS n n n n n
+TDD774615 #5 ___TS ~AP -DEFHILNOQRSTUY  📋 "pacts" ? /it
+TDD-774671 attempt 4 PACTS Y Y Y Y Y
+TDD295286 ? 
+TDD-295406 question done
+TDD1103236 > *
+TDD2713014 > 
+TDD-3456932 > 
+TDD145164 > 
+TDD119503 > ?
+TDD6232058 > /man #1 SPAS_
+TDD10799193 > /man 1 SPAS_
+TDD-17228011 questioning: ["SPASM", "#1"]
+TDD4153123 #1 _PAS_ -ACDEFHILNOPQRSTUY  📋 "SPASM" ? /it
+TDD-4580312 attempt 0 SPASM Y Y Y Y Y
+TDD5623856 ? 
+TDD-5623899 question done
+TDD1416260 📋> squareword.org 1443: 9 guesses
+TDD-1416333 📋> 
+TDD-96 📋> 🟩🟨🟩🟩🟨
+TDD-6 📋> 🟩🟩🟩🟩🟩
+TDD6 📋> 🟨🟨🟩🟨🟨
+TDD-8 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟨🟨🟨🟩🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD382932 📋> #squareword #squareword1443
+TDD-166516 📋> ␚
+TDD-216207 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1443: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1443"}
+TDD635 result: "squareword.org 1443: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1443"
+TDD206027 📆 2026-01-13 ? 
