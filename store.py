@@ -12,6 +12,7 @@ from contextlib import contextmanager, nullcontext
 from dataclasses import dataclass
 from dateutil.parser import parse as _parse_datetime
 from dateutil.tz import gettz, tzlocal, tzoffset
+from shutil import copy
 from typing import Callable, Literal, Self, cast, final
 from types import TracebackType
 from warnings import deprecated
@@ -35,6 +36,36 @@ def atomic_file(name: str):
     finally:
         if not ok:
             os.unlink(f.name)
+
+@final
+class bak_file:
+    def __init__(
+        self,
+        actual: str,
+        suffix: str='.orig', # TODO |Callable[[], str] for rng?
+        temp: bool=True,
+    ):
+        self.temp = temp
+        self.actual = actual
+        self.name = copy(actual, f'{actual}{suffix}')
+
+    def cleanup(self):
+        if self.temp:
+            try:
+                os.unlink(self.name)
+            except FileNotFoundError:
+                pass
+
+    def __enter__(self):
+        return self
+
+    def __exit__(
+        self,
+        exc_type: type[BaseException] | None,
+        exc: BaseException | None,
+        exc_tb: TracebackType | None,
+    ):
+        self.cleanup()
 
 @contextmanager
 def atomic_rewrite(name: str):
