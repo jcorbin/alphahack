@@ -1,0 +1,205 @@
+T93.23483701000077 now: 2026-01-13T09:25:57EST
+TD137 site: britannica.com/games/octordle/daily-sequence
+TDD-106 wordlist: nwl2023.txt
+TDD-26 num_words: 8
+TDD5997398  ...
+TDD-2565461 > *
+TDD-2080043 ? 1
+TDD-1351649 questioning: tries
+TDD3223646 Sequence #1 _____? nnnnn
+TDD-3223596 attempt: 0 TRIES n n n n n
+TDD1607409 > *
+TDD8239 ? 1
+TDD-1615714 questioning: onlay
+TDD2976586 Sequence #1 _____ -EIRST? nnnnY
+TDD-2976524 attempt: 0 ONLAY n n n n Y
+TDD1294454 > *
+TDD2305798 ? 4
+TDD-3600291 questioning: dumpy
+TDD3191770 Sequence #1 ____Y -AEILNORST? YYYYY
+TDD-3191689 attempt: 0 DUMPY Y Y Y Y Y
+TDD-268 questioning: TRIES
+TDD3431572 Sequence #2 _____? nnYnM
+TDD-3431313 attempt: 1 TRIES n n Y n m
+TDD-265 questioning: ONLAY
+TDD1344409 Sequence #2 __I__ ~S -ERT? nnnnn
+TDD-1344246 attempt: 1 ONLAY n n n n n
+TDD-179 questioning: DUMPY
+TDD1302277 Sequence #2 __I__ ~S -AELNORTY? nnMMn
+TDD-1302072 attempt: 1 DUMPY n n m m n
+TDD1311840 > *
+TDD-1311547 questioning: skimp
+TDD4926425 Sequence #2 __I__ ~MPS -ADELNORTUY? YYYYY
+TDD-4926776 attempt: 1 SKIMP Y Y Y Y Y
+TDD-154 questioning: TRIES
+TDD2159791 Sequence #3 _____? nMnnn
+TDD-2159456 attempt: 2 TRIES n m n n n
+TDD-253 questioning: ONLAY
+TDD3215888 Sequence #3 _____ ~R -EIST? MnnMn
+TDD-3215697 attempt: 2 ONLAY m n n m n
+TDD-234 questioning: DUMPY
+TDD1807803 Sequence #3 _____ ~AOR -EILNSTY? nnnnn
+TDD-1805611 attempt: 2 DUMPY n n n n n
+TDD-2221 questioning: SKIMP
+TDD1428974 Sequence #3 _____ ~AOR -DEILMNPSTUY? nnnnn
+TDD-1428698 attempt: 2 SKIMP n n n n n
+TDD3119461 > *
+TDD-1047190 ? 2
+TDD-2072327 questioning: roach
+TDD3135421 Sequence #3 _____ ~AOR -DEIKLMNPSTUY? MMMnM
+TDD-3135477 attempt: 2 ROACH m m m n m
+TDD2007353 > *
+TDD-2006986 questioning: abhor
+TDD4278579 Sequence #3 _____ ~AHOR -CDEIKLMNPSTUY? YYYYY
+TDD-4278811 attempt: 2 ABHOR Y Y Y Y Y
+TDD-264 questioning: TRIES
+TDD4487275 Sequence #4 _____? nMnYM
+TDD-4487134 attempt: 3 TRIES n m n Y m
+TDD-180 questioning: ONLAY
+TDD1176288 Sequence #4 ___E_ ~RS -IT? nnnnn
+TDD-1176043 attempt: 3 ONLAY n n n n n
+TDD-216 questioning: DUMPY
+TDD1983726 Sequence #4 ___E_ ~RS -AILNOTY? nYnMn
+TDD-1983576 attempt: 3 DUMPY n Y n m n
+TDD-175 questioning: SKIMP
+TDD1743392 Sequence #4 _U_E_ ~PRS -ADILMNOTY? YnnnM
+TDD-1743128 attempt: 3 SKIMP Y n n n m
+TDD-245 questioning: ROACH
+TDD1959736 Sequence #4 SU_E_ ~PR -ADIKLMNOTY? Mnnnn
+TDD-1959582 attempt: 3 ROACH m n n n n
+TDD-173 questioning: ABHOR
+TDD1767586 Sequence #4 SU_E_ ~PR -ACDHIKLMNOTY? nnnnY
+TDD-1767326 attempt: 3 ABHOR n n n n Y
+TDD12263356 > sol
+TDD-10751408 > *
+TDD-1511884 questioning: super
+TDD5190969 Sequence #4 SU_ER ~P -ABCDHIKLMNOTY? YYYYY
+TDD-5191055 attempt: 3 SUPER Y Y Y Y Y
+TDD-216 questioning: TRIES
+TDD1839733 Sequence #5 _____? nnnnM
+TDD-1839501 attempt: 4 TRIES n n n n m
+TDD-233 questioning: ONLAY
+TDD1447405 Sequence #5 _____ ~S -EIRT? nnMnn
+TDD-1447174 attempt: 4 ONLAY n n m n n
+TDD-230 questioning: DUMPY
+TDD1503538 Sequence #5 _____ ~LS -AEINORTY? nMMMn
+TDD-1503386 attempt: 4 DUMPY n m m m n
+TDD-172 questioning: SKIMP
+TDD2903727 Sequence #5 _____ ~LMPSU -ADEINORTY? YnnYY
+TDD-2903539 attempt: 4 SKIMP Y n n Y Y
+TDD-188 questioning: ROACH
+TDD1288322 Sequence #5 S__MP ~LU -ADEIKNORTY? nnnnn
+TDD-1287934 attempt: 4 ROACH n n n n n
+TDD-349 questioning: ABHOR
+TDD1391425 Sequence #5 S__MP ~LU -ACDEHIKNORTY? nnnnn
+TDD-1391187 attempt: 4 ABHOR n n n n n
+TDD-249 questioning: SUPER
+TDD1630873 Sequence #5 S__MP ~LU -ABCDEHIKNORTY? YMMnn
+TDD-1630637 attempt: 4 SUPER Y m m n n
+TDD1247243 > *
+TDD-1247082 questioning: slump
+TDD3615246 Sequence #5 S__MP ~LU -ABCDEHIKNORTY? YYYYY
+TDD-3615501 attempt: 4 SLUMP Y Y Y Y Y
+TDD-163 questioning: TRIES
+TDD3575846 Sequence #6 _____? MnnMn
+TDD-3575673 attempt: 5 TRIES m n n m n
+TDD-180 questioning: ONLAY
+TDD1487591 Sequence #6 _____ ~ET -IRS? nnMMn
+TDD-1487414 attempt: 5 ONLAY n n m m n
+TDD-172 questioning: DUMPY
+TDD2464468 Sequence #6 _____ ~AELT -INORSY? nnnMn
+TDD-2464202 attempt: 5 DUMPY n n n m n
+TDD-245 questioning: SKIMP
+TDD1447634 Sequence #6 _____ ~AELPT -DIMNORSUY? nnnnM
+TDD-1447425 attempt: 5 SKIMP n n n n m
+TDD-209 questioning: ROACH
+TDD1582829 Sequence #6 _____ ~AELPT -DIKMNORSUY? nnYnn
+TDD-1582592 attempt: 5 ROACH n n Y n n
+TDD-232 questioning: ABHOR
+TDD1512049 Sequence #6 __A__ ~ELPT -CDHIKMNORSUY? Mnnnn
+TDD-1511781 attempt: 5 ABHOR m n n n n
+TDD-268 questioning: SUPER
+TDD3815034 Sequence #6 __A__ ~ELPT -BCDHIKMNORSUY? nnMMn
+TDD-3814809 attempt: 5 SUPER n n m m n
+TDD-225 questioning: SLUMP
+TDD1584026 Sequence #6 __A__ ~ELPT -BCDHIKMNORSUY? nYnnM
+TDD-1583851 attempt: 5 SLUMP n Y n n m
+TDD1343030 > *
+TDD-1342918 questioning: plate
+TDD4695611 Sequence #6 _LA__ ~EPT -BCDHIKMNORSUY? YYYYY
+TDD-4695742 attempt: 5 PLATE Y Y Y Y Y
+TDD-180 questioning: TRIES
+TDD2191777 Sequence #7 _____? nnnMn
+TDD-2191511 attempt: 6 TRIES n n n m n
+TDD-244 questioning: ONLAY
+TDD2759381 Sequence #7 _____ ~E -IRST? nMMMn
+TDD-2759148 attempt: 6 ONLAY n m m m n
+TDD-233 questioning: DUMPY
+TDD2111687 Sequence #7 _____ ~AELN -IORSTY? nnnnn
+TDD-2111525 attempt: 6 DUMPY n n n n n
+TDD-188 questioning: SKIMP
+TDD2135704 Sequence #7 _____ ~AELN -DIMOPRSTUY? nnnnn
+TDD-2135410 attempt: 6 SKIMP n n n n n
+TDD-258 questioning: ROACH
+TDD2743771 Sequence #7 _____ ~AELN -DIKMOPRSTUY? nnMYn
+TDD-2743527 attempt: 6 ROACH n n m Y n
+TDD-252 questioning: ABHOR
+TDD1671515 Sequence #7 ___C_ ~AELN -DHIKMOPRSTUY? Mnnnn
+TDD-1671278 attempt: 6 ABHOR m n n n n
+TDD-246 questioning: SUPER
+TDD1919347 Sequence #7 ___C_ ~AELN -BDHIKMOPRSTUY? nnnMn
+TDD-1919184 attempt: 6 SUPER n n n m n
+TDD-175 questioning: SLUMP
+TDD1464303 Sequence #7 ___C_ ~AELN -BDHIKMOPRSTUY? nMnnn
+TDD-1464119 attempt: 6 SLUMP n m n n n
+TDD-184 questioning: PLATE
+TDD1711783 Sequence #7 ___C_ ~AELN -BDHIKMOPRSTUY? nMMnY
+TDD-1711600 attempt: 6 PLATE n m m n Y
+TDD999140 > *
+TDD-998780 questioning: lance
+TDD3767069 Sequence #7 ___CE ~ALN -BDHIKMOPRSTUY? YYYYY
+TDD-3767439 attempt: 6 LANCE Y Y Y Y Y
+TDD-145 questioning: TRIES
+TDD2367293 Sequence #8 _____? YnMMn
+TDD-2367102 attempt: 7 TRIES Y n m m n
+TDD-181 questioning: ONLAY
+TDD1351551 Sequence #8 T____ ~EI -RS? nnYnn
+TDD-1351332 attempt: 7 ONLAY n n Y n n
+TDD-185 questioning: DUMPY
+TDD2064834 Sequence #8 T_L__ ~EI -ANORSY? Mnnnn
+TDD-2064597 attempt: 7 DUMPY m n n n n
+TDD-199 questioning: SKIMP
+TDD1463311 Sequence #8 T_L__ ~DEI -AMNOPRSUY? nnMnn
+TDD-1463160 attempt: 7 SKIMP n n m n n
+TDD-166 questioning: ROACH
+TDD1438124 Sequence #8 T_L__ ~DEI -AKMNOPRSUY? nnnnn
+TDD-1437952 attempt: 7 ROACH n n n n n
+TDD-179 questioning: ABHOR
+TDD1223874 Sequence #8 T_L__ ~DEI -ACHKMNOPRSUY? nnnnn
+TDD-1223680 attempt: 7 ABHOR n n n n n
+TDD-199 questioning: SUPER
+TDD1647650 Sequence #8 T_L__ ~DEI -ABCHKMNOPRSUY? nnnMn
+TDD-1647478 attempt: 7 SUPER n n n m n
+TDD-171 questioning: SLUMP
+TDD1543821 Sequence #8 T_L__ ~DEI -ABCHKMNOPRSUY? nMnnn
+TDD-1543595 attempt: 7 SLUMP n m n n n
+TDD-207 questioning: PLATE
+TDD2399855 Sequence #8 T_L__ ~DEI -ABCHKMNOPRSUY? nMnMY
+TDD-2399691 attempt: 7 PLATE n m n m Y
+TDD-178 questioning: LANCE
+TDD3167014 Sequence #8 T_L_E ~DI -ABCHKMNOPRSUY? MnnnY
+TDD-3166807 attempt: 7 LANCE m n n n Y
+TDD1095140 > *
+TDD-1094976 questioning: tilde
+TDD4343519 Sequence #8 T_L_E ~DI -ABCHKMNOPRSUY? YYYYY
+TDD-4343710 attempt: 7 TILDE Y Y Y Y Y
+TDD2744919 📋> Daily Sequence Octordle #1450
+TDD-2745072 📋> 3️⃣4️⃣
+TDD-135 📋> 6️⃣7️⃣
+TDD-4 📋> 8️⃣9️⃣
+TDD0 📋> 🔟🕚
+TDD406566 📋> Score: 58
+TDD-239655 📋> ␚
+TDD-166742 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Octordle #1450\n3\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\nScore: 58"}
+TDD19 result: "Daily Sequence Octordle #1450\n3\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\nScore: 58"
+TDD264605 📆 2026-01-13 ? 
