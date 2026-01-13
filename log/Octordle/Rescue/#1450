@@ -1,0 +1,192 @@
+T127.16204528600065 now: 2026-01-13T09:15:00EST
+TD88 site: britannica.com/games/octordle/daily-rescue
+TDD-73 wordlist: nwl2023.txt
+TDD-10 num_words: 8
+TDD1862340  ...
+TDD1553998 > *
+TDD-1504600 ? 2
+TDD-1911482 questioning: tares
+TDD815352 Rescue #1 _____? ␚
+TDD-815492 <EOF>
+TDD10536503 > tried avail delta havoc alarm
+TDD-10536272 questioning: avail delta havoc alarm
+TDD2279205 Rescue #1 _____? nnnnn
+TDD-2279216 attempt: 0 AVAIL n n n n n
+TDD2815152 Rescue #1 _____ -AILV? nMnnn
+TDD-2815189 attempt: 0 DELTA n m n n n
+TDD2079674 Rescue #1 _____ ~E -ADILTV? nnnMn
+TDD-2079666 attempt: 0 HAVOC n n n m n
+TDD1543925 Rescue #1 _____ ~EO -ACDHILTV? nnnnn
+TDD-1543913 attempt: 0 ALARM n n n n n
+TDD1982673 Rescue #2 _____? nnnYM
+TDD-1982691 attempt: 1 AVAIL n n n Y m
+TDD1911335 Rescue #2 ___I_ ~L -AV? MnMnn
+TDD-1911316 attempt: 1 DELTA m n m n n
+TDD1479844 Rescue #2 ___I_ ~DL -AETV? nnnnn
+TDD-1479860 attempt: 1 HAVOC n n n n n
+TDD3439038 Rescue #2 ___I_ ~DL -ACEHOTV? nYnnn
+TDD-3439052 attempt: 1 ALARM n Y n n n
+TDD2982943 Rescue #3 _____? nnnMM
+TDD-2983013 attempt: 2 AVAIL n n n m m
+TDD1807971 Rescue #3 _____ ~IL -AV? nnYYn
+TDD-1807885 attempt: 2 DELTA n n Y Y n
+TDD2375814 Rescue #3 __LT_ ~I -ADEV? Mnnnn
+TDD-2375811 attempt: 2 HAVOC m n n n n
+TDD1550863 Rescue #3 __LT_ ~HI -ACDEOV? nMnnn
+TDD-1550885 attempt: 2 ALARM n m n n n
+TDD2008126 Rescue #4 _____? nnnnn
+TDD-2008107 attempt: 3 AVAIL n n n n n
+TDD1591165 Rescue #4 _____ -AILV? nnnnn
+TDD-1591179 attempt: 3 DELTA n n n n n
+TDD1695202 Rescue #4 _____ -ADEILTV? Mnnnn
+TDD-1695185 attempt: 3 HAVOC m n n n n
+TDD1680473 Rescue #4 _____ ~H -ACDEILOTV? nnnYM
+TDD-1680219 attempt: 3 ALARM n n n Y m
+TDD5822327 Rescue #5 _____? nnnnM
+TDD-5822635 attempt: 4 AVAIL n n n n m
+TDD2295801 Rescue #5 _____ ~L -AIV? MnMnn
+TDD-2295762 attempt: 4 DELTA m n m n n
+TDD2158894 Rescue #5 _____ ~DL -AEITV? nnnMM
+TDD-2158856 attempt: 4 HAVOC n n n m m
+TDD1343600 Rescue #5 _____ ~CDLO -AEHITV? nMnnn
+TDD-1343701 attempt: 4 ALARM n m n n n
+TDD2159561 Rescue #6 _____? nnnMn
+TDD-2159483 attempt: 5 AVAIL n n n m n
+TDD1807270 Rescue #6 _____ ~I -ALV? nMnnn
+TDD-1807275 attempt: 5 DELTA n m n n n
+TDD1639188 Rescue #6 _____ ~EI -ADLTV? nnnnM
+TDD-1639173 attempt: 5 HAVOC n n n n m
+TDD3023084 Rescue #6 _____ ~CEI -ADHLOTV? nnnnn
+TDD-3023128 attempt: 5 ALARM n n n n n
+TDD2799261 Rescue #7 _____? nnYnM
+TDD-2799248 attempt: 6 AVAIL n n Y n m
+TDD2383929 Rescue #7 __A__ ~L -IV? nnMnM
+TDD-2383943 attempt: 6 DELTA n n m n m
+TDD3263140 Rescue #7 __A__ ~L -DEITV? nMnnn
+TDD-3263221 attempt: 6 HAVOC n m n n n
+TDD4760021 Rescue #7 __A__ ~L -CDEHIOTV? nYYnn
+TDD-4759882 attempt: 6 ALARM n Y Y n n
+TDD2376363 Rescue #8 _____? nnnnn
+TDD-2376461 attempt: 7 AVAIL n n n n n
+TDD1824699 Rescue #8 _____ -AILV? nMnnn
+TDD-1824410 attempt: 7 DELTA n m n n n
+TDD1885263 Rescue #8 _____ ~E -ADILTV? nnnMn
+TDD-1885470 attempt: 7 HAVOC n n n m n
+TDD1495431 Rescue #8 _____ ~EO -ACDHILTV? nnnnM
+TDD-1495511 attempt: 7 ALARM n n n n m
+TDD14047526 > *
+TDD-14047217 questioning: fluid
+TDD6246412 Rescue #1 _____ ~EO -ACDHILMRTV? nnnnn
+TDD-6246674 attempt: 0 FLUID n n n n n
+TDD1279690 Rescue #2 _L_I_ ~D -ACEHMORTV? YYYYY
+TDD-1279677 attempt: 1 FLUID Y Y Y Y Y
+TDD2343478 Rescue #3 __LT_ ~HI -ACDEMORV? YMnMn
+TDD-2343472 attempt: 2 FLUID Y m n m n
+TDD1111380 Rescue #4 ___R_ ~HM -ACDEILOTV? nnnnn
+TDD-1111394 attempt: 3 FLUID n n n n n
+TDD3359433 Rescue #5 _____ ~CDLO -AEHIMRTV? nMnnY
+TDD-3359424 attempt: 4 FLUID n m n n Y
+TDD1710884 Rescue #6 _____ ~CEI -ADHLMORTV? nnnMn
+TDD-1710728 attempt: 5 FLUID n n n m n
+TDD3415643 Rescue #7 _LA__ -CDEHIMORTV? YYnnn
+TDD-3415783 attempt: 6 FLUID Y Y n n n
+TDD1639214 Rescue #8 _____ ~EMO -ACDHILRTV? nnYnn
+TDD-1639218 attempt: 7 FLUID n n Y n n
+TDD10366999 > *
+TDD-10366799 questioning: filth
+TDD7463589 Rescue #1 _____ ~EO -ACDFHILMRTUV? nnnnn
+TDD-7463801 attempt: 0 FILTH n n n n n
+TDD1558981 Rescue #3 F_LT_ ~HI -ACDEMORUV? YYYYY
+TDD-1558969 attempt: 2 FILTH Y Y Y Y Y
+TDD1151623 Rescue #4 ___R_ ~HM -ACDEFILOTUV? nnnnY
+TDD-1151625 attempt: 3 FILTH n n n n Y
+TDD5975159 Rescue #5 ____D ~CLO -AEFHIMRTUV? nnMnn
+TDD-5975161 attempt: 4 FILTH n n m n n
+TDD1560178 Rescue #6 _____ ~CEI -ADFHLMORTUV? nYnnn
+TDD-1557128 attempt: 5 FILTH n Y n n n
+TDD1841287 Rescue #7 FLA__ -CDEHIMORTUV? YnMnn
+TDD-1844326 attempt: 6 FILTH Y n m n n
+TDD1166919 Rescue #8 __U__ ~EMO -ACDFHILRTV? nnnnn
+TDD-1166952 attempt: 7 FILTH n n n n n
+TDD1822942 > *
+TDD-1822883 questioning: myrrh
+TDD7383721 Rescue #1 _____ ~EO -ACDFHILMRTUV? nnnnn
+TDD-7383783 attempt: 0 MYRRH n n n n n
+TDD1471141 Rescue #4 ___RH ~M -ACDEFILOTUV? YYYYY
+TDD-1471211 attempt: 3 MYRRH Y Y Y Y Y
+TDD3807786 Rescue #5 ____D ~CLO -AEFHIMRTUV? nnnnn
+TDD-3807706 attempt: 4 MYRRH n n n n n
+TDD1144861 Rescue #6 _I___ ~CE -ADFHLMORTUV? nnnnn
+TDD-1144797 attempt: 5 MYRRH n n n n n
+TDD1606606 Rescue #7 FLA__ -CDEHIMORTUV? nMnnn
+TDD-1606612 attempt: 6 MYRRH n m n n n
+TDD1391133 Rescue #8 __U__ ~EMO -ACDFHILRTV? Ynnnn
+TDD-1391224 attempt: 7 MYRRH Y n n n n
+TDD1456919 > ␚
+TDD-1456896 <EOF>
+TDD2070027 <INT>
+TDD-2070152 <INT>
+T86.72532276200218 now: 2026-01-13T09:19:28EST
+TD83 questioning: myrrh
+TDD2112970 > *
+TDD-2112360 questioning: scold
+TDD7182637 Rescue #1 _____ ~EO -ACDFHILMRTUVY? MnYnn
+TDD-7182996 attempt: 0 SCOLD m n Y n n
+TDD3799298 Rescue #5 ____D ~CLO -AEFHIMRTUVY? YYYYY
+TDD-3799278 attempt: 4 SCOLD Y Y Y Y Y
+TDD1671629 Rescue #6 _I___ ~CE -ADFHLMORTUVY? nMnnn
+TDD-1671747 attempt: 5 SCOLD n m n n n
+TDD4151381 Rescue #7 FLA__ ~Y -CDEHIMORTUV? nnnMn
+TDD-4151326 attempt: 6 SCOLD n n n m n
+TDD2615460 Rescue #8 M_U__ ~EO -ACDFHILRTVY? MnMnn
+TDD-2615445 attempt: 7 SCOLD m n m n n
+TDD2975231 > *
+TDD-15220 ? 1
+TDD-2960035 questioning: mouse
+TDD7503872 Rescue #1 __O__ ~ES -ACDFHILMRTUVY? nYnYY
+TDD-7503821 attempt: 0 MOUSE n Y n Y Y
+TDD3534784 Rescue #6 _I___ ~CE -ADFHLMORSTUVY? nnnnY
+TDD-3534787 attempt: 5 MOUSE n n n n Y
+TDD3135310 Rescue #7 FLA__ ~Y -CDEHIMORSTUV? nnnnn
+TDD-3135363 attempt: 6 MOUSE n n n n n
+TDD1319332 Rescue #8 M_U__ ~EOS -ACDFHILRTVY? YYYYY
+TDD-1319365 attempt: 7 MOUSE Y Y Y Y Y
+TDD4087689 > *
+TDD3792160 ? ␚
+TDD-7879982 <EOF>
+TDD1271642 > * 6
+TDD13713489 ? ␚
+TDD-14985098 <EOF>
+TDD1399260 > * 7
+TDD7256705 ? ␚
+TDD-8655978 <EOF>
+TDD1439834 > * 6
+TDD2968200 ? 3
+TDD-4407895 questioning: niece
+TDD23038830 Rescue #1 _OOSE -ACDFHILMRTUVY? YnnnY
+TDD-23038791 attempt: 0 NIECE Y n n n Y
+TDD9456328 Rescue #6 _I__E ~C -ADFHLMORSTUVY? MYnYY
+TDD-9456250 attempt: 5 NIECE m Y n Y Y
+TDD4686437 Rescue #7 FLA__ ~Y -CDEHIMORSTUV? nnnnn
+TDD-4686534 attempt: 6 NIECE n n n n n
+TDD19679862 > *
+TDD-19679619 questioning: wince
+TDD5430898 Rescue #6 _I_CE ~N -ADFHLMORSTUVY? YYYYY
+TDD-5431211 attempt: 5 WINCE Y Y Y Y Y
+TDD4567606 Rescue #7 FLA__ ~Y -CDEHIMNORSTUV? nnnnn
+TDD-4567540 attempt: 6 WINCE n n n n n
+TDD1039617 > *
+TDD1744197 ? 1
+TDD-2783830 questioning: flaky
+TDD3319706 Rescue #7 FLA__ ~Y -CDEHIMNORSTUVW? YYYYY
+TDD-3319745 attempt: 6 FLAKY Y Y Y Y Y
+TDD6920537 📋> Daily Rescue Octordle #1450
+TDD-6920634 📋> 🕐5️⃣
+TDD-123 📋> 6️⃣7️⃣
+TDD-1 📋> 8️⃣🕚
+TDD0 📋> 🕛9️⃣
+TDD318780 📋> Score: 8
+TDD-78462 📋> ␚
+TDD-240147 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1450\n\ud83d\udd505\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udd5a\n\ud83d\udd5b9\ufe0f\u20e3\nScore: 8"}
+TDD1052 result: "Daily Rescue Octordle #1450\n\ud83d\udd505\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udd5a\n\ud83d\udd5b9\ufe0f\u20e3\nScore: 8"
+TDD340766 📆 2026-01-13 ? 
