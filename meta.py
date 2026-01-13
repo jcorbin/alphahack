@@ -1333,6 +1333,7 @@ class EditFile:
         self.name = name
         self.r = None
         self.w = None
+        self.cleanup: list[Callable[[], None]] = []
 
     def __enter__(self):
         try:
@@ -1376,6 +1377,9 @@ class EditFile:
 
     def finalize(self):
         self.close()
+        while self.cleanup:
+            [c, *self.cleanup] = self.cleanup
+            c()
 
 @final
 class EditBack:
