@@ -20,7 +20,7 @@ from os.path import basename
 from typing import Callable, cast, final, override
 from types import TracebackType
 
-from store import StoredLog, atomic_rewrite, git_txn
+from store import StoredLog, atomic_rewrite, bak_file, git_txn
 from strkit import PeekIter, spliterate
 from ui import PromptUI
 
@@ -907,6 +907,9 @@ class Meta(Arguable):
                 git_rebase_editor(ui) as todo_file,
                 todo_file as (r, w),
             ):
+                bak = bak_file(todo_file.name)
+                todo_file.cleanup.append(bak.cleanup)
+                print(f'# original rebase plan: {bak.name}', file=w)
                 for line in Review(r)():
                     print(line, file=w)
 
