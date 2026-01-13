@@ -1,0 +1,56 @@
+T13.367874591996951 now: 2026-01-13T08:43:32EST
+TD144 site: alfagok.diginaut.net
+TDD416977 loaded 399691 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1161 words excluded) asof e031451efab5c1c5f524048e41d189bf24a9491b
+TDD2460830  ...
+TDD1890082 [0 : 199833 : 399691] lijm? b
+TDD-4767537 progress: -1 199833 lijm
+TDD3823977 [0 : 99758 : 199833] ex? b
+TDD-3824217 progress: -1 99758 ex
+TDD1895407 [0 : 49849 : 99758] boks? b
+TDD-1895464 progress: -1 49849 boks
+TDD2262440 [0 : 24910 : 49849] bad? a
+TDD-2262436 progress: 1 24910 bad
+TDD1769184 [24911 : 37364 : 49849] bescherm? b
+TDD-1769179 progress: -1 37364 bescherm
+TDD1496341 [24911 : 31127 : 37364] begeleid? a
+TDD-1496147 progress: 1 31127 begeleid
+TDD2429847 [31128 : 34010 : 37364] beleid? a
+TDD-2430041 progress: 1 34010 beleid
+TDD1888517 [34011 : 35661 : 37364] beoordeling? a
+TDD-1888520 progress: 1 35661 beoordeling
+TDD1518474 [35662 : 36500 : 37364] berichten? a
+TDD-1518470 progress: 1 36500 berichten
+TDD1464402 [36501 : 36798 : 37364] beroeps? b
+TDD-1464408 progress: -1 36798 beroeps
+TDD1439604 [36501 : 36588 : 36798] berk? a
+TDD-1439599 progress: 1 36588 berk
+TDD1334344 [36589 : 36680 : 36798] berm? a
+TDD-1334363 progress: 1 36680 berm
+TDD1784606 [36681 : 36713 : 36798] bern? !
+TDD447976 [36681 : 36736 : 36797] bernhard? !
+TDD-154028 [36681 : 36739 : 36796] bernhardstraat? !
+TDD129444 [36681 : 36739 : 36795] bernhardtiti? a
+TDD-2207985 progress: 1 36739 bernhardtiti
+TDD2007014 [36740 : 36756 : 36795] beroem? a
+TDD-2007020 progress: 1 36756 beroem
+TDD1704941 [36757 : 36771 : 36795] beroepen? b
+TDD-1704781 progress: -1 36771 beroepen
+TDD1751103 [36757 : 36764 : 36771] beroemdst? b
+TDD-1751247 progress: -1 36764 beroemdst
+TDD1504443 [36757 : 36758 : 36764] beroemde? b
+TDD-1504120 progress: -1 36758 beroemde
+TDD1662577 [36757 : 36757 : 36758] beroemd? it
+TDD-1662694 progress: 0 36757 beroemd
+TDD-372 [36757 : 36757 : 36758] <Done>.
+TDD2318888 📋> 🧩 Puzzel #437
+TDD-2318789 📋> 🤔 18 gokken
+TDD-129 📋> ⏱️ 39s
+TDD271489 📋> 🔗 alfagok.diginaut.net
+TDD-127180 📋> ␚
+TDD-144143 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #437\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 39s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD326 result: "\ud83e\udde9 Puzzel #437\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 39s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-497 result puzzle: 437
+TDD-6 result guesses: 18
+TDD-1 result time: 39s
+TDD0 result link: alfagok.diginaut.net
+TDD168432 📆 2026-01-13 ? 
