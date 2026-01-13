@@ -1,0 +1,147 @@
+T1090.6976046909986 now: 2026-01-13T09:01:29EST
+TD110 site: britannica.com/games/octordle/daily
+TDD-94 wordlist: nwl2023.txt
+TDD-10 num_words: 8
+TDD4070669  ...
+TDD-2806598 > *
+TDD-104098 ? 1
+TDD-1159773 questioning: aures
+TDD3671602 Classic #1 _____? MnMMn
+TDD-3671579 attempt: 0 AURES m n m m n
+TDD1351443 Classic #2 _____? nnMnn
+TDD-1351448 attempt: 1 AURES n n m n n
+TDD1312383 Classic #3 _____? nnMYn
+TDD-1312319 attempt: 2 AURES n n m Y n
+TDD1318805 Classic #4 _____? nnnYn
+TDD-1318784 attempt: 3 AURES n n n Y n
+TDD3376003 Classic #5 _____? nMMnM
+TDD-3375987 attempt: 4 AURES n m m n m
+TDD1510952 Classic #6 _____? nMnMn
+TDD-1510980 attempt: 5 AURES n m n m n
+TDD2239901 Classic #7 _____? nnMYM
+TDD-2239866 attempt: 6 AURES n n m Y m
+TDD2407600 Classic #8 _____? MMMnn
+TDD-2407458 attempt: 7 AURES m m m n n
+TDD1199062 > *
+TDD-240494 ? 1
+TDD-958783 questioning: olden
+TDD5471601 Classic #1 _____ ~AER -SU? nnnMn
+TDD-5471548 attempt: 0 OLDEN n n n m n
+TDD1671685 Classic #2 _____ ~R -AESU? nMnnn
+TDD-1671686 attempt: 1 OLDEN n m n n n
+TDD1479443 Classic #3 ___E_ ~R -ASU? nnnYn
+TDD-1479353 attempt: 2 OLDEN n n n Y n
+TDD1671730 Classic #4 ___E_ -ARSU? nMnYn
+TDD-1671803 attempt: 3 OLDEN n m n Y n
+TDD3654531 Classic #5 _____ ~RSU -AE? nnnnn
+TDD-3654624 attempt: 4 OLDEN n n n n n
+TDD1335910 Classic #6 _____ ~EU -ARS? nnnMY
+TDD-1335815 attempt: 5 OLDEN n n n m Y
+TDD1166967 Classic #7 ___E_ ~RS -AU? nnnYn
+TDD-1167071 attempt: 6 OLDEN n n n Y n
+TDD1248478 Classic #8 _____ ~ARU -ES? nYnnn
+TDD-1248396 attempt: 7 OLDEN n Y n n n
+TDD1254933 > *
+TDD-1254712 questioning: begun
+TDD5334471 Classic #1 _____ ~AER -DLNOSU? MYnnn
+TDD-5334770 attempt: 0 BEGUN m Y n n n
+TDD1503619 Classic #2 _____ ~LR -ADENOSU? nnMnn
+TDD-1503653 attempt: 1 BEGUN n n m n n
+TDD1400325 Classic #3 ___E_ ~R -ADLNOSU? nMnnn
+TDD-1400224 attempt: 2 BEGUN n m n n n
+TDD1975781 Classic #4 ___E_ ~L -ADNORSU? nMnnn
+TDD-1975766 attempt: 3 BEGUN n m n n n
+TDD3718653 Classic #5 _____ ~RSU -ADELNO? nnnMn
+TDD-3718660 attempt: 4 BEGUN n n n m n
+TDD1559899 Classic #6 ____N ~EU -ADLORS? YYYYY
+TDD-1559984 attempt: 5 BEGUN Y Y Y Y Y
+TDD1711988 Classic #7 ___E_ ~RS -ADLNOU? nMnnn
+TDD-1711874 attempt: 6 BEGUN n m n n n
+TDD1518893 Classic #8 _L___ ~ARU -DENOS? nnnMn
+TDD-1518913 attempt: 7 BEGUN n n n m n
+TDD2143313 > *
+TDD-2143123 questioning: grill
+TDD4342461 Classic #1 _E___ ~ABR -DGLNOSU? nMnnn
+TDD-4342663 attempt: 0 GRILL n m n n n
+TDD1031406 Classic #2 _____ ~GLR -ABDENOSU? YYYYY
+TDD-1031408 attempt: 1 GRILL Y Y Y Y Y
+TDD1768453 Classic #3 ___E_ ~R -ABDGLNOSU? nMnnn
+TDD-1768344 attempt: 2 GRILL n m n n n
+TDD2527163 Classic #4 ___E_ ~L -ABDGNORSU? nnMnY
+TDD-2527147 attempt: 3 GRILL n n m n Y
+TDD3286557 Classic #5 _____ ~RSU -ABDEGLNO? nMnnn
+TDD-3286704 attempt: 4 GRILL n m n n n
+TDD2536188 Classic #7 ___E_ ~RS -ABDGLNOU? nMnnn
+TDD-2536145 attempt: 6 GRILL n m n n n
+TDD1230653 Classic #8 _L___ ~ARU -BDEGNOS? nMnMn
+TDD-1230742 attempt: 7 GRILL n m n m n
+TDD1503632 > *
+TDD-1503336 questioning: ultra
+TDD5423006 Classic #1 _E___ ~ABR -DGILNOSU? nnnYY
+TDD-5423210 attempt: 0 ULTRA n n n Y Y
+TDD1447857 Classic #3 ___E_ ~R -ABDGILNOSU? nnMMn
+TDD-1447849 attempt: 2 ULTRA n n m m n
+TDD1679215 Classic #4 ___EL ~I -ABDGNORSU? nMnnn
+TDD-1679097 attempt: 3 ULTRA n m n n n
+TDD4671118 Classic #5 _____ ~RSU -ABDEGILNO? MnMYn
+TDD-4671211 attempt: 4 ULTRA m n m Y n
+TDD2286469 Classic #7 ___E_ ~RS -ABDGILNOU? nnYMn
+TDD-2286620 attempt: 6 ULTRA n n Y m n
+TDD1151681 Classic #8 _L___ ~ARU -BDEGINOS L:1? YYYYY
+TDD-1151552 attempt: 7 ULTRA Y Y Y Y Y
+TDD1119417 > *
+TDD-1119237 questioning: zebra
+TDD5359321 Classic #1 _E_RA ~B -DGILNOSTU? YYYYY
+TDD-5359531 attempt: 0 ZEBRA Y Y Y Y Y
+TDD1511949 Classic #3 ___E_ ~RT -ABDGILNOSU? nMnMn
+TDD-1511945 attempt: 2 ZEBRA n m n m n
+TDD1319178 Classic #4 ___EL ~I -ABDGNORSTU? nMnnn
+TDD-1319182 attempt: 3 ZEBRA n m n n n
+TDD3647437 Classic #5 ___R_ ~STU -ABDEGILNO? nnnYn
+TDD-3647511 attempt: 4 ZEBRA n n n Y n
+TDD2727357 Classic #7 __TE_ ~RS -ABDGILNOU? nMnMn
+TDD-2727288 attempt: 6 ZEBRA n m n m n
+TDD1231374 > *
+TDD-1231137 questioning: ester
+TDD6934934 Classic #3 ___E_ ~RT -ABDGILNOSUZ? YnMYY
+TDD-6935195 attempt: 2 ESTER Y n m Y Y
+TDD1207555 Classic #4 ___EL ~I -ABDGNORSTUZ? nnnYn
+TDD-1207612 attempt: 3 ESTER n n n Y n
+TDD2943790 Classic #5 ___R_ ~STU -ABDEGILNOZ? nMMnM
+TDD-2943703 attempt: 4 ESTER n m m n m
+TDD2855072 Classic #7 __TE_ ~RS -ABDGILNOUZ? YYYYY
+TDD-2855158 attempt: 6 ESTER Y Y Y Y Y
+TDD1047751 > *
+TDD-1047573 questioning: ether
+TDD5415029 Classic #3 E__ER ~T -ABDGILNOSUZ? YYYYY
+TDD-5415127 attempt: 2 ETHER Y Y Y Y Y
+TDD1664000 Classic #4 ___EL ~I -ABDGNORSTUZ? nnnYn
+TDD-1663995 attempt: 3 ETHER n n n Y n
+TDD3255109 Classic #5 ___R_ ~STU -ABDEGILNOZ? nMnnM
+TDD-3255068 attempt: 4 ETHER n m n n m
+TDD1031981 > *
+TDD-1031820 questioning: spurt
+TDD4111180 Classic #4 ___EL ~I -ABDGHNORSTUZ? nMnnn
+TDD-4111363 attempt: 3 SPURT n m n n n
+TDD2135140 Classic #5 ___R_ ~STU -ABDEGHILNOZ? YYYYY
+TDD-2135156 attempt: 4 SPURT Y Y Y Y Y
+TDD1007163 > *
+TDD904386 ? 2
+TDD-1911510 questioning: pixel
+TDD2782941 Classic #4 ___EL ~IP -ABDGHNORSTUZ? MMnYY
+TDD-2782967 attempt: 3 PIXEL m m n Y Y
+TDD856169 > *
+TDD-855813 questioning: impel
+TDD3645721 Classic #4 ___EL ~IP -ABDGHNORSTUXZ? YYYYY
+TDD-3646129 attempt: 3 IMPEL Y Y Y Y Y
+TDD3440458 📋> Daily Octordle #1450
+TDD-3440586 📋> 6️⃣4️⃣
+TDD-116 📋> 8️⃣🕚
+TDD-7 📋> 9️⃣3️⃣
+TDD0 📋> 7️⃣5️⃣
+TDD248450 📋> Score: 53
+TDD-40430 📋> ␚
+TDD-207721 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1450\n6\ufe0f\u20e34\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udd5a\n9\ufe0f\u20e33\ufe0f\u20e3\n7\ufe0f\u20e35\ufe0f\u20e3\nScore: 53"}
+TDD-53 result: "Daily Octordle #1450\n6\ufe0f\u20e34\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udd5a\n9\ufe0f\u20e33\ufe0f\u20e3\n7\ufe0f\u20e35\ufe0f\u20e3\nScore: 53"
+TDD205746 📆 2026-01-13 ? '
+TDD1122784 📆 2026-01-13 ? 
