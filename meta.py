@@ -1374,6 +1374,9 @@ class EditFile:
             w.close()
             self.w = None
 
+    def finalize(self):
+        self.close()
+
 @final
 class EditBack:
     def __init__(self, proc: subprocess.Popen[str]):
@@ -1431,7 +1434,7 @@ class EditBack:
         ok = exc is None
         try:
             for f in self.files:
-                f.close()
+                f.finalize()
         except:
             ok = False
         finally:
