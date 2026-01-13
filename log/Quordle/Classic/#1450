@@ -1,0 +1,82 @@
+T1007.6493631779958 now: 2026-01-13T09:00:06EST
+TD87 site: m-w.com/games/quordle/#/
+TDD-69 wordlist: nwl2023.txt
+TDD-13 num_words: 4
+TDD4022226  ...
+TDD-2278404 > *
+TDD408210 ? 1
+TDD-2151835 questioning: serac
+TDD3023722 Classic #1 _____? nnnnn
+TDD-3023690 attempt: 0 SERAC n n n n n
+TDD1335907 Classic #2 _____? Mnnnn
+TDD-1335884 attempt: 1 SERAC m n n n n
+TDD1335234 Classic #3 _____? MMnnn
+TDD-1335189 attempt: 2 SERAC m m n n n
+TDD1383402 Classic #4 _____? nnYnn
+TDD-1383386 attempt: 3 SERAC n n Y n n
+TDD1159346 > *
+TDD208128 ? 1
+TDD-1367540 questioning: until
+TDD2448121 Classic #1 _____ -ACERS? nnnMM
+TDD-2448135 attempt: 0 UNTIL n n n m m
+TDD1007139 Classic #2 _____ ~S -ACER? nnnnn
+TDD-1007073 attempt: 1 UNTIL n n n n n
+TDD1175530 Classic #3 _____ ~ES -ACR? nnMMn
+TDD-1175587 attempt: 2 UNTIL n n m m n
+TDD1192108 Classic #4 __R__ -ACES? nnMMn
+TDD-1192064 attempt: 3 UNTIL n n m m n
+TDD1142663 > *
+TDD-438382 ? 1
+TDD-704367 questioning: hypos
+TDD3575606 Classic #1 _____ ~IL -ACENRSTU? nMnnn
+TDD-3575560 attempt: 0 HYPOS n m n n n
+TDD2000327 Classic #2 _____ ~S -ACEILNRTU? nMnMM
+TDD-2000306 attempt: 1 HYPOS n m n m m
+TDD3150380 Classic #3 _____ ~EIST -ACLNRU? nnnnM
+TDD-3150434 attempt: 2 HYPOS n n n n m
+TDD1255394 Classic #4 __R__ ~IT -ACELNSU? Mnnnn
+TDD-1255311 attempt: 3 HYPOS m n n n n
+TDD1079223 > *
+TDD-1079155 questioning: exist
+TDD2807405 Classic #1 _____ ~ILY -ACEHNOPRSTU? nnMnn
+TDD-2807474 attempt: 0 EXIST n n m n n
+TDD1655834 Classic #2 _____ ~OSY -ACEHILNPRTU? nnnYn
+TDD-1655825 attempt: 1 EXIST n n n Y n
+TDD1270975 Classic #3 _____ ~EIST -ACHLNOPRUY? YYYYY
+TDD-1271001 attempt: 2 EXIST Y Y Y Y Y
+TDD1519853 Classic #4 __R__ ~HIT -ACELNOPSUY? nnMnM
+TDD-1519837 attempt: 3 EXIST n n m n m
+TDD999328 > *
+TDD1456230 ? 2
+TDD-2455590 questioning: bossy
+TDD3192321 Classic #1 _____ ~ILY -ACEHNOPRSTUX? YnnnY
+TDD-3192279 attempt: 0 BOSSY Y n n n Y
+TDD1166663 Classic #2 ___S_ ~OY -ACEHILNPRTUX? YYYYY
+TDD-1166679 attempt: 1 BOSSY Y Y Y Y Y
+TDD1943379 Classic #4 __R__ ~HIT -ACELNOPSUXY? Ynnnn
+TDD-1943452 attempt: 3 BOSSY Y n n n n
+TDD927360 > *
+TDD-927064 questioning: birth
+TDD3511003 Classic #1 B___Y ~IL -ACEHNOPRSTUX? YYnnn
+TDD-3511212 attempt: 0 BIRTH Y Y n n n
+TDD1407345 Classic #4 B_R__ ~HIT -ACELNOPSUXY? YYYY
+TDD696294 Classic #4 B_R__ ~HIT -ACELNOPSUXY? YYYYY
+TDD-2103644 attempt: 3 BIRTH Y Y Y Y Y
+TDD879520 > *
+TDD3384172 ? 1
+TDD-4263778 questioning: bigly
+TDD4256084 Classic #1 BI__Y ~L -ACEHNOPRSTUX? YYnYY
+TDD-4256002 attempt: 0 BIGLY Y Y n Y Y
+TDD935293 > *
+TDD-935207 questioning: billy
+TDD3694926 Classic #1 BI_LY -ACEGHNOPRSTUX? YYYYY
+TDD-3695090 attempt: 0 BILLY Y Y Y Y Y
+TDD3920423 📋> 🙂 Daily Quordle 1450
+TDD-3920527 📋> 8️⃣5️⃣
+TDD-108 📋> 4️⃣6️⃣
+TDD-3 📋> m-w.com/games/quordle/
+TDD271380 📋> 
+TDD-94747 📋> ␚
+TDD-176365 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1450\n8\ufe0f\u20e35\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD3439 result: "\ud83d\ude42 Daily Quordle 1450\n8\ufe0f\u20e35\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD160870 📆 2026-01-13 ? 
