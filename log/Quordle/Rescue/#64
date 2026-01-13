@@ -1,0 +1,81 @@
+T1272.100686607002 now: 2026-01-13T09:04:30EST
+TD133 site: m-w.com/games/quordle/#/rescue
+TDD-111 wordlist: nwl2023.txt
+TDD-14 num_words: 4
+TDD2813192  ...
+TDD3562837 > tried equip budge
+TDD-6375718 questioning: equip budge
+TDD2239495 Rescue #1 _____? Mnnnn
+TDD-2239500 attempt: 0 EQUIP m n n n n
+TDD1791827 Rescue #1 _____ ~E -IPQU? nnnnM
+TDD-1791909 attempt: 0 BUDGE n n n n m
+TDD2663221 Rescue #2 _____? nnnMn
+TDD-2663147 attempt: 1 EQUIP n n n m n
+TDD1119558 Rescue #2 _____ ~I -EPQU? nnnMn
+TDD-1119604 attempt: 1 BUDGE n n n m n
+TDD1471145 Rescue #3 _____? Mnnnn
+TDD-1471083 attempt: 2 EQUIP m n n n n
+TDD2071808 Rescue #3 _____ ~E -IPQU? MnnnY
+T5.698392653997871 now: 2026-01-13T09:12:58EST
+TD89 questioning: equip budge
+TDD4068822 Rescue #3 _____ ~E -IPQU? nnYnM
+TDD-4068577 attempt: 2 BUDGE n n Y n m
+TDD1879725 Rescue #4 _____? MnnnY
+TDD-1879701 attempt: 3 EQUIP m n n n Y
+TDD1631021 Rescue #4 ____P ~E -IQU? YnnnM
+TDD-1631063 attempt: 3 BUDGE Y n n n m
+TDD1783803 > *
+TDD2047835 ? 1
+TDD-3831650 questioning: becap
+TDD7982941 Rescue #1 _____ ~E -BDGIPQU? nYnYn
+TDD-7982953 attempt: 0 BECAP n Y n Y n
+TDD1647386 Rescue #2 _____ ~GI -BDEPQU? nnnnn
+TDD-1647474 attempt: 1 BECAP n n n n n
+TDD1599910 Rescue #3 __D__ ~E -BGIPQU? nMnnn
+TDD-1599875 attempt: 2 BECAP n m n n n
+TDD2199584 Rescue #4 B___P ~E -DGIQU? YMnnY
+TDD-2199372 attempt: 3 BECAP Y m n n Y
+TDD1150682 > *
+TDD-1150724 questioning: bleep
+TDD3559372 Rescue #1 _E_A_ -BCDGIPQU? nMMnn
+TDD-3557826 attempt: 0 BLEEP n m m n n
+TDD1236297 Rescue #2 _____ ~GI -ABCDEPQU? nnnnn
+TDD-1237954 attempt: 1 BLEEP n n n n n
+TDD1383282 Rescue #3 __D__ ~E -ABCGIPQU? nMnYn
+TDD-1383347 attempt: 2 BLEEP n m n Y n
+TDD1191548 Rescue #4 B___P ~E -ACDGIQU? YYYYY
+TDD-1191529 attempt: 3 BLEEP Y Y Y Y Y
+TDD1159713 > *
+TDD152042 ? 1
+TDD-1311748 questioning: sight
+TDD3119660 Rescue #1 _E_A_ ~L -BCDGIPQU E:1? nnnnn
+TDD-3119621 attempt: 0 SIGHT n n n n n
+TDD1495034 Rescue #2 _____ ~GI -ABCDELPQU? nYYYY
+TDD-1495097 attempt: 1 SIGHT n Y Y Y Y
+TDD1600222 Rescue #3 __DE_ ~L -ABCGIPQU? nnnnn
+TDD-1600241 attempt: 2 SIGHT n n n n n
+TDD991091 > *
+TDD128499 ? 1
+TDD-1119548 questioning: model
+TDD3927701 Rescue #1 _E_A_ ~L -BCDGHIPQSTU E:1? nnnMM
+TDD-3927664 attempt: 0 MODEL n n n m m
+TDD1415449 Rescue #2 _IGHT -ABCDELPQSU? nnnnn
+TDD-1415451 attempt: 1 MODEL n n n n n
+TDD1655548 Rescue #3 __DE_ ~L -ABCGHIPQSTU? YYYYY
+TDD-1655468 attempt: 2 MODEL Y Y Y Y Y
+TDD943105 > *
+TDD1016270 ? 1
+TDD-1959475 questioning: relay
+TDD5112031 Rescue #1 _E_A_ ~L -BCDGHIMOPQSTU E:1? YYYYY
+TDD-5111849 attempt: 0 RELAY Y Y Y Y Y
+TDD1582655 Rescue #2 _IGHT -ABCDELMOPQSU? Ynnnn
+TDD-1582810 attempt: 1 RELAY Y n n n n
+TDD22993252 📋> Daily Rescue 64
+TDD-22993238 📋> 7️⃣8️⃣
+TDD-252 📋> 6️⃣4️⃣
+TDD-50 📋> m-w.com/games/quordle/
+TDD294049 📋> 
+TDD-93515 📋> ␚
+TDD-200247 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 64\n7\ufe0f\u20e38\ufe0f\u20e3\n6\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD857 result: "Daily Rescue 64\n7\ufe0f\u20e38\ufe0f\u20e3\n6\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD292822 📆 2026-01-13 ? 
