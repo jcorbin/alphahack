@@ -1,0 +1,112 @@
+T29.916694801999256 now: 2026-01-13T09:22:59EST
+TD153 site: m-w.com/games/quordle/#/sequence
+TDD-128 wordlist: nwl2023.txt
+TDD-15 num_words: 4
+TDD2894144  ...
+TDD-1493529 > *
+TDD1710526 ? 2
+TDD-3110804 questioning: solar
+TDD7999181 Sequence #1 _____? nMnnM
+TDD-7999077 attempt: 0 SOLAR n m n n m
+TDD1495170 > *
+TDD208375 ? 1
+TDD-1703701 questioning: drove
+TDD2631583 Sequence #1 _____ ~OR -ALS? nYYYY
+TDD-2631561 attempt: 0 DROVE n Y Y Y Y
+TDD919231 > *
+TDD712801 ? 1
+TDD-1632058 questioning: prove
+TDD2543517 Sequence #1 _ROVE -ADLS? nYYYY
+TDD-2543496 attempt: 0 PROVE n Y Y Y Y
+TDD455294 > *
+TDD760275 ? 2
+TDD-1215682 questioning: grove
+TDD2855742 Sequence #1 _ROVE -ADLPS? nYYYY
+TDD-2855625 attempt: 0 GROVE n Y Y Y Y
+TDD1375141 > *
+TDD-1374933 questioning: trove
+TDD4271233 Sequence #1 _ROVE -ADGLPS? YYYYY
+TDD-4271542 attempt: 0 TROVE Y Y Y Y Y
+TDD-168 questioning: SOLAR
+TDD2175508 Sequence #2 _____? nnnnY
+TDD-2175241 attempt: 1 SOLAR n n n n Y
+TDD-256 questioning: DROVE
+TDD1591455 Sequence #2 ____R -ALOS? nMnnM
+TDD-1591298 attempt: 1 DROVE n m n n m
+TDD-177 questioning: PROVE
+TDD1487854 Sequence #2 ____R ~E -ADLOSV? nMnnM
+TDD-1487589 attempt: 1 PROVE n m n n m
+TDD-244 questioning: GROVE
+TDD1487880 Sequence #2 ____R ~E -ADLOPSV? MMnnM
+TDD-1487634 attempt: 1 GROVE m m n n m
+TDD-246 questioning: TROVE
+TDD1471260 Sequence #2 ____R ~EG -ADLOPSV? YMnnM
+TDD-1470991 attempt: 1 TROVE Y m n n m
+TDD927305 > *
+TDD-927311 questioning: tiger
+TDD4311585 Sequence #2 T___R ~EG -ADLOPSV? YYYYY
+TDD-4311615 attempt: 1 TIGER Y Y Y Y Y
+TDD-241 questioning: SOLAR
+TDD3335640 Sequence #3 _____? nnnnM
+TDD-3335382 attempt: 2 SOLAR n n n n m
+TDD-243 questioning: DROVE
+TDD1575510 Sequence #3 _____ ~R -ALOS? nMnnn
+TDD-1575354 attempt: 2 DROVE n m n n n
+TDD-182 questioning: PROVE
+TDD1119769 Sequence #3 _____ ~R -ADELOSV? nMnnn
+TDD-1119583 attempt: 2 PROVE n m n n n
+TDD-188 questioning: GROVE
+TDD1753059 Sequence #3 _____ ~R -ADELOPSV? MMnnn
+TDD-1752877 attempt: 2 GROVE m m n n n
+TDD-170 questioning: TROVE
+TDD2094356 Sequence #3 _____ ~GR -ADELOPSV? nMnnn
+TDD-2094206 attempt: 2 TROVE n m n n n
+TDD-167 questioning: TIGER
+TDD3215571 Sequence #3 _____ ~GR -ADELOPSTV? nnYnM
+TDD-3215284 attempt: 2 TIGER n n Y n m
+TDD2575926 > *
+TDD-2575868 questioning: rugby
+TDD4422995 Sequence #3 __G__ ~R -ADEILOPSTV? YYYYY
+TDD-4423155 attempt: 2 RUGBY Y Y Y Y Y
+TDD-174 questioning: SOLAR
+TDD2615380 Sequence #4 _____? nnnnM
+TDD-2615209 attempt: 3 SOLAR n n n n m
+T38.2352321119979 now: 2026-01-13T09:25:02EST
+TD90 questioning: SOLAR
+TDD-68 questioning: DROVE
+TDD3636558 Sequence #4 _____ ~R -ALOS? nYnnY
+TDD-3636342 attempt: 3 DROVE n Y n n Y
+TDD-194 questioning: PROVE
+TDD1655711 Sequence #4 _R__E -ADLOSV? nYnnY
+TDD-1655444 attempt: 3 PROVE n Y n n Y
+TDD-248 questioning: GROVE
+TDD1959378 Sequence #4 _R__E -ADLOPSV? nYnnY
+TDD-1959211 attempt: 3 GROVE n Y n n Y
+TDD-186 questioning: TROVE
+TDD4648267 Sequence #4 _R__E -ADGLOPSV? YYnnY
+TDD-4648022 attempt: 3 TROVE Y Y n n Y
+TDD-244 questioning: TIGER
+TDD1575368 Sequence #4 TR__E -ADGLOPSV? YMnMM
+TDD-1575117 attempt: 3 TIGER Y m n m m
+TDD-231 questioning: RUGBY
+TDD1223349 Sequence #4 TR__E ~I -ADGLOPSV? Mnnnn
+TDD-1223105 attempt: 3 RUGBY m n n n n
+TDD4880005 > *
+TDD2103140 ? 1
+TDD-6983158 questioning: trine
+TDD3471561 Sequence #4 TR__E ~I -ABDGLOPSUVY? YYYnY
+TDD-3471621 attempt: 3 TRINE Y Y Y n Y
+TDD1007350 > *
+TDD7616572 ? 3
+TDD-8623889 questioning: trite
+TDD3496292 Sequence #4 TRI_E -ABDGLNOPSUVY? YYYYY
+TDD-3496262 attempt: 3 TRITE Y Y Y Y Y
+TDD5575353 📋> Daily Sequence Quordle 1450
+TDD-5575531 📋> 5️⃣6️⃣
+TDD-110 📋> 7️⃣9️⃣
+TDD-1 📋> m-w.com/games/quordle/
+TDD344256 📋> 
+TDD-144693 📋> ␚
+TDD-199383 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1450\n5\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD759 result: "Daily Sequence Quordle 1450\n5\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD261642 📆 2026-01-13 ? 
