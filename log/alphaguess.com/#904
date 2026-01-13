@@ -1,0 +1,44 @@
+T77.330906915995 now: 2026-01-13T08:44:35EST
+TD185 site: alphaguess.com
+TDD145994 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof e031451efab5c1c5f524048e41d189bf24a9491b
+TDD2511784  ...
+TDD886811 [0 : 98220 : 196531] mach? a
+TDD-3544574 progress: 1 98220 mach
+TDD1302852 [98221 : 147373 : 196531] rhotic? a
+TDD-1302893 progress: 1 147373 rhotic
+TDD2160251 [147374 : 171643 : 196531] ta? a
+TDD-2160226 progress: 1 171643 ta
+TDD1255284 [171644 : 182008 : 196531] un? a
+TDD-1255268 progress: 1 182008 un
+TDD1151945 [182009 : 189270 : 196531] vicar? a
+TDD-1151952 progress: 1 189270 vicar
+TDD1150970 [189271 : 192874 : 196531] whir? a
+TDD-1150996 progress: 1 192874 whir
+TDD1311972 [192875 : 194699 : 196531] worship? b
+TDD-1311988 progress: -1 194699 worship
+TDD1152470 [192875 : 193490 : 194699] win? b
+TDD-1152454 progress: -1 193490 win
+TDD1247395 [192875 : 193182 : 193490] wicca? b
+TDD-1247373 progress: -1 193182 wicca
+TDD1310862 [192875 : 192950 : 193182] whit? b
+TDD-1310848 progress: -1 192950 whit
+TDD1192199 [192875 : 192911 : 192950] whisk? a
+TDD-1192233 progress: 1 192911 whisk
+TDD1455509 [192912 : 192923 : 192950] whisper? it
+TDD-1455524 progress: 0 192923 whisper
+TDD-136 [192912 : 192923 : 192950] <Done>.
+TDD2359873 📋> 🧩 Puzzle #904
+TDD-2359760 📋> 
+TDD-113 📋> 🤔 12 guesses
+TDD-4 📋> 
+TDD0 📋> ⏱️ 15s
+TDD-2 📋> 
+TDD231767 📋> 🔗 alphaguess.com
+TDD-72003 📋> ␚
+TDD-159649 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #904\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 15s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-43 result: "\ud83e\udde9 Puzzle #904\n\n\ud83e\udd14 12 guesses\n\n\u23f1\ufe0f 15s\n\n\ud83d\udd17 alphaguess.com"
+TDD-71 result puzzle: 904
+TDD-6 result guesses: 12
+TDD0 result time: 15s
+TDD0 result link: alphaguess.com
+TDD104010 📆 2026-01-13 ? 
