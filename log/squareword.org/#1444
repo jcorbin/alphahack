@@ -1,0 +1,116 @@
+T726.1000205599994 now: 2026-01-14T08:36:19EST
+TD127 site: squareword.org
+TDD-98 wordlist: nwl2023.txt
+TDD4207732  ...
+TDD-1777256 🧩  ? #1444
+TDD-2430138 puzzle_id: #1444
+TDD3063295 > *
+TDD-1975664 try? 1
+TDD-1087680 questioning: ["races", "#5"]
+TDD4783435 #1 <IndexError>  📋 "races" ? _____ ~ AS
+TDD-4782932 attempt 0 RACES n m n n m
+TDD2790248 #2 <IndexError>  📋 "races" ? _A___ ~ AS
+TDD-2790831 attempt 1 RACES n Y n n m
+TDD1999622 #3 <IndexError>  📋 "races" ? ___E_ ~ R
+TDD-1999563 attempt 2 RACES m n n Y n
+TDD2232031 #4 <IndexError>  📋 "races" ? _____ ~ RE
+TDD-2231997 attempt 3 RACES m n n m n
+TDD2391529 #5 <IndexError>  📋 "races" ? ____S ~ RE
+TDD-2391498 attempt 4 RACES m n n m Y
+TDD687110 ? 
+TDD-687233 question done
+TDD2111790 > *
+TDD4215359 try? 5
+TDD-6327005 questioning: ["heirs", "#5"]
+TDD4839576 #1 _____ ~AS -CER  📋 "heirs" ? _____ ~ ASH
+TDD-4839569 attempt 0 HEIRS m n n n m
+TDD3886835 #2 _A___ ~S -CER  📋 "heirs" ? _A___ ~ AS
+TDD-3886969 attempt 1 HEIRS n n n n m
+TDD2207535 #3 ___E_ ~R -ACS  📋 "heirs" ? .
+TDD-2207417 attempt 2 HEIRS n n n m n
+TDD3367171 #4 _____ ~ER -ACS  📋 "heirs" ? ___R_ ~ E
+TDD-3367193 attempt 3 HEIRS n m n Y n
+TDD3039490 #5 ____S ~ER -AC  📋 "heirs" ? _E__S ~ R
+TDD-3039493 attempt 4 HEIRS n Y n m Y
+TDD343697 ? 
+TDD-343880 question done
+TDD920149 > *
+TDD1951310 try? 2
+TDD-2871234 questioning: ["entry", "#4"]
+TDD3110832 #1 _____ ~AHS -CEIR  📋 "entry" ? .
+TDD-3110852 attempt 0 ENTRY n n n n n
+TDD3303049 #2 _A___ ~S -CEHIR  📋 "entry" ? _A___ ~ AST
+TDD-3303172 attempt 1 ENTRY n n m n n
+TDD2839683 #3 ___E_ ~R -ACEHIS  📋 "entry" ? __TE_ ~ R
+TDD-2839702 attempt 2 ENTRY n n Y m n
+TDD4048460 #4 ___R_ ~E -ACHIS  📋 "entry" ? ___R_ ~ ET
+TDD-4048276 attempt 3 ENTRY m n m Y n
+TDD3078100 #5 _E__S ~R -ACHI  📋 "entry" ? _E__S ~ RN
+TDD-3078282 attempt 4 ENTRY n m n m n
+TDD288175 ? 
+TDD-288153 question done
+TDD831384 > *
+TDD-315935 questioning: ["overt", "#4"]
+TDD4496688 #1 _____ ~AHS -CEINRTY  📋 "overt" ? .
+TDD-5012136 attempt 0 OVERT n n n n n
+TDD4095573 #2 _A___ ~ST -CEHINRY  📋 "overt" ? _A___ ~ AST
+TDD-4095473 attempt 1 OVERT n n n n m
+TDD2535277 #3 __TE_ ~R -ACEHINSY  📋 "overt" ? O_TE_ ~ R
+TDD-2535277 attempt 2 OVERT Y n n m n
+TDD623408 #4 ___R_ ~ET -ACHINSY  📋 "overt" ? /it
+TDD-623396 attempt 3 OVERT Y Y Y Y Y
+TDD1735330 #5 _E__S ~NR -ACEHITY  📋 "overt" ? .
+TDD-1735348 attempt 4 OVERT n n n m n
+TDD175245 ? 
+TDD-175379 question done
+TDD671561 > *
+TDD908167 questioning: ["pasta", "#2"]
+TDD3200316 #1 _____ ~AHS -CEINORTVY  📋 "pasta" ? .
+TDD-4779964 attempt 0 PASTA n m m n m
+TDD551525 #2 _A___ ~ST -CEHINORVY  📋 "pasta" ? /it
+TDD-551462 attempt 1 PASTA Y Y Y Y Y
+TDD1295065 #3 O_TE_ ~R -ACEHINSTVY  📋 "pasta" ? .
+TDD-1295076 attempt 2 PASTA n n n n n
+TDD1254619 #5 _E__S ~NR -ACEHIOTVY  📋 "pasta" ? .
+TDD-1254682 attempt 4 PASTA n n n n n
+TDD159493 ? 
+TDD-159598 question done
+TDD455963 > *
+TDD1231201 questioning: ["outer", "#3"]
+TDD1665559 #1 _____ ~AHS -CEINOPRTVY  📋 "outer" ? .
+TDD-3352548 attempt 0 OUTER n n n n n
+TDD560435 #3 O_TE_ ~R -ACEHINPSTVY  📋 "outer" ? /it
+TDD-560193 attempt 2 OUTER Y Y Y Y Y
+TDD965426 #5 _E__S ~NR -ACEHIOPSTVY  📋 "outer" ? .
+TDD-965648 attempt 4 OUTER n n n n m
+TDD143347 ? 
+TDD-143500 question done
+TDD463834 > *
+TDD872780 questioning: ["smash", "#1"]
+TDD1093786 #1 _____ ~AHS -CEINOPRTUVY  📋 "smash" ? /it
+TDD-2430356 attempt 0 SMASH Y Y Y Y Y
+TDD1495423 #5 _E__S ~NR -ACEHIOPSTUVY  📋 "smash" ? .
+TDD-1495344 attempt 4 SMASH n n n n n
+TDD159845 ? 
+TDD-159980 question done
+TDD504095 > *
+TDD1767379 try? 1
+TDD-2271251 questioning: ["ferns", "#5"]
+TDD2358499 #5 _E__S ~NR -ACEHIMOPSTUVY  📋 "ferns" ? /it
+TDD-2358671 attempt 4 FERNS Y Y Y Y Y
+TDD647322 ? 
+TDD-647427 question done
+TDD4617037 📋> squareword.org 1444: 8 guesses
+TDD-4617015 📋> 
+TDD-147 📋> 🟨🟨🟨🟨🟨
+TDD-9 📋> 🟩🟩🟩🟩🟩
+TDD-3 📋> 🟩🟨🟩🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD1 📋> 🟨🟩🟨🟨🟩
+TDD3 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD327054 📋> #squareword #squareword1444
+TDD-159362 📋> ␚
+TDD-167544 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1444: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1444"}
+TDD757 result: "squareword.org 1444: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1444"
+TDD190424 📆 2026-01-14 ? 
