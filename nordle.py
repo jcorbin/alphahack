@@ -395,7 +395,7 @@ class Nordle(StoredLog):
             if not m:
                 ui.print(f'! invalid <word> {token!r}; expected {word_pat.pattern}')
                 return
-            words.append(m[0])
+            words.append(m[0].upper())
         if not words:
             ui.print('! missing <word>')
             return
