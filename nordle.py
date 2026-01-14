@@ -453,6 +453,12 @@ class Nordle(StoredLog):
                 ui.print(f'📋 "{wu}"')
                 while True:
                     with ui.input(f'{self.mode} #{i+1} {word}? ') as tokens:
+                        if tokens.have(r'/tried$'):
+                            ui.print(f'! retry  -> {tokens.rest}')
+                            st = self.do_tried(ui)
+                            if st is None: raise StopIteration
+                            return st
+
                         fb = parse_feedback(tokens, len(word))
                         if len(fb) != len(word):
                             ui.print(f'! invalid feedback length; expected {len(word)}, got {len(fb)}')
@@ -464,7 +470,9 @@ class Nordle(StoredLog):
 
         if self.mode.lower() != 'sequence':
             for i in pending:
-                collect_feedback(i)
+                st = collect_feedback(i)
+                if st is not None:
+                    return st
             return next_q()
 
         i = pending[0]
@@ -473,11 +481,14 @@ class Nordle(StoredLog):
         mine = self.attempts[i]
         if len(mine) < len(prio):
             prior = prio[len(mine)].word
-            if prior != self.questioning[0]:
-                return self.question(ui, prior, *self.questioning[1:])
+            if prior not in self.questioning:
+                ui.print(f'! splice  -> {prior!r} {self.questioning!r}')
+                return self.question(ui, prior, *self.questioning)
 
         if not self.words[i].done:
-            collect_feedback(i)
+            st = collect_feedback(i)
+            if st is not None:
+                return st
 
         return self.do_question
 
