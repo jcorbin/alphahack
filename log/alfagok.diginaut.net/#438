@@ -1,0 +1,45 @@
+T9.663990727000055 now: 2026-01-14T08:21:58EST
+TD102 site: alfagok.diginaut.net
+TDD383603 loaded 399691 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1161 words excluded) asof a23a3c1e2c0ac9aaa148a1e3b39b7e11586912ad
+TDD5335046  ...
+TDD-1894777 [0 : 199833 : 399691] lijm? a
+TDD-3823546 progress: 1 199833 lijm
+TDD1774823 [199834 : 299738 : 399691] schub? a
+TDD-1775036 progress: 1 299738 schub
+TDD1623952 [299739 : 349523 : 399691] vakantie? b
+TDD-1623971 progress: -1 349523 vakantie
+TDD1903849 [299739 : 324314 : 349523] sub? a
+TDD-1903848 progress: 1 324314 sub
+TDD1631275 [324315 : 336916 : 349523] toetsing? b
+TDD-1631273 progress: -1 336916 toetsing
+TDD1719968 [324315 : 330499 : 336916] televisie? b
+TDD-1719970 progress: -1 330499 televisie
+TDD1591834 [324315 : 327305 : 330499] tafel? a
+TDD-1591818 progress: 1 327305 tafel
+TDD1663179 [327306 : 328895 : 330499] technologie? b
+TDD-1663209 progress: -1 328895 technologie
+TDD1519151 [327306 : 328048 : 328895] tank? b
+TDD-1519144 progress: -1 328048 tank
+TDD1664219 [327306 : 327604 : 328048] tal? a
+TDD-1664216 progress: 1 327604 tal
+TDD1543883 [327605 : 327770 : 328048] tam? a
+TDD-1543809 progress: 1 327770 tam
+TDD2070572 [327771 : 327859 : 328048] tand? b
+TDD-2070642 progress: -1 327859 tand
+TDD1816366 [327771 : 327813 : 327859] tambour-maître? !
+TDD47274 [327771 : 327815 : 327858] tambour-maîtretjes? !
+TDD312347 [327771 : 327815 : 327857] tamelijk? it
+TDD-2176004 progress: 0 327815 tamelijk
+TDD-163 [327771 : 327815 : 327857] <Done>.
+TDD4160502 📋> 🧩 Puzzel #438
+TDD-4160366 📋> 🤔 13 gokken
+TDD-133 📋> ⏱️ 25s
+TDD360068 📋> 🔗 alfagok.diginaut.net
+TDD-176821 📋> ␚
+TDD-183082 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #438\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 25s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD411 result: "\ud83e\udde9 Puzzel #438\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 25s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-577 result puzzle: 438
+TDD-9 result guesses: 13
+TDD-2 result time: 25s
+TDD0 result link: alfagok.diginaut.net
+TDD214606 📆 2026-01-14 ? 
