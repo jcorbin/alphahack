@@ -1,0 +1,87 @@
+T243.96087840900145 now: 2026-01-14T08:28:17EST
+TD88 site: m-w.com/games/quordle/#/
+TDD-73 wordlist: nwl2023.txt
+TDD-10 num_words: 4
+TDD6574830  ...
+TDD-5334917 > *
+TDD1560054 ? 4
+TDD-2799797 questioning: ables
+TDD3015709 Classic #1 _____? nnnnM
+TDD-3015679 attempt: 0 ABLES n n n n m
+TDD1536022 Classic #2 _____? nnnnM
+TDD-1536015 attempt: 1 ABLES n n n n m
+TDD2391592 Classic #3 _____? nnnnM
+TDD-2391579 attempt: 2 ABLES n n n n m
+TDD1783347 Classic #4 _____? YnMnn
+TDD-1783350 attempt: 3 ABLES Y n m n n
+TDD1127449 > *
+TDD202 ? 1
+TDD-1127665 questioning: south
+TDD4527734 Classic #1 _____ ~S -ABEL? YMnnn
+TDD-4527632 attempt: 0 SOUTH Y m n n n
+TDD1431388 Classic #2 _____ ~S -ABEL? MnnMn
+TDD-1431400 attempt: 1 SOUTH m n n m n
+TDD1663538 Classic #3 _____ ~S -ABEL? MMnMM
+TDD-1663579 attempt: 2 SOUTH m m n m m
+TDD1519719 Classic #4 A____ ~L -BES? nnnnM
+TDD-1519638 attempt: 3 SOUTH n n n n m
+TDD1231553 > *
+TDD-1231499 questioning: ghost
+TDD3638703 Classic #1 S____ ~O -ABEHLTU? nnYMn
+TDD-3638880 attempt: 0 GHOST n n Y m n
+TDD1439493 Classic #2 _____ ~ST -ABEHLOU? nnnYY
+TDD-1439437 attempt: 1 GHOST n n n Y Y
+TDD1327420 Classic #3 _____ ~HOST -ABELU? YYYYY
+TDD-1327435 attempt: 2 GHOST Y Y Y Y Y
+TDD1440001 Classic #4 A____ ~HL -BEOSTU? nMnnn
+TDD-1440011 attempt: 3 GHOST n m n n n
+TDD7335833 > *
+TDD-7335536 questioning: alpha
+TDD3414178 Classic #1 S_O__ -ABEGHLTU? nnMnn
+TDD-3414495 attempt: 0 ALPHA n n m n n
+TDD1215591 Classic #2 ___ST -ABEGHLOU? nnnnn
+TDD-1215593 attempt: 1 ALPHA n n n n n
+TDD1159802 Classic #4 A____ ~HL -BEGOSTU? YYYYY
+TDD-1159710 attempt: 3 ALPHA Y Y Y Y Y
+TDD983208 > *
+TDD3120508 ? 2
+TDD-4103829 questioning: spork
+TDD3343469 Classic #1 S_O__ ~P -ABEGHLTU? YMYnn
+TDD-3343363 attempt: 0 SPORK Y m Y n n
+TDD1592031 Classic #2 ___ST -ABEGHLOPU? MnnMn
+TDD-1592036 attempt: 1 SPORK m n n m n
+TDD886920 > *
+TDD1224814 ? 1
+TDD-2111765 questioning: scoop
+TDD3487329 Classic #1 S_O__ ~P -ABEGHKLRTU? YnYYY
+TDD-3487380 attempt: 0 SCOOP Y n Y Y Y
+TDD2624535 Classic #2 ___ST ~R -ABEGHKLOPU? Mnnnn
+TDD-2624426 attempt: 1 SCOOP m n n n n
+TDD1383269 > *
+TDD2095719 ? ␚
+TDD-3479218 <EOF>
+TDD1183822 > * 2
+TDD88682 ? 1
+TDD-1272320 questioning: first
+TDD4182558 Classic #1 S_OOP -ABCEGHKLRTU? nnnMn
+TDD-4182537 attempt: 0 FIRST n n n m n
+TDD1375596 Classic #2 ___ST ~R -ABCEGHKLOPU? YYYYY
+TDD-1375598 attempt: 1 FIRST Y Y Y Y Y
+TDD855400 > *
+TDD400450 ? 1
+TDD-1255949 questioning: snoop
+TDD3111365 Classic #1 S_OOP -ABCEFGHIKLRTU? YnYYY
+TDD-3111201 attempt: 0 SNOOP Y n Y Y Y
+TDD647387 > *
+TDD-647287 questioning: swoop
+TDD2766848 Classic #1 S_OOP -ABCEFGHIKLNRTU? YYYYY
+TDD-2767100 attempt: 0 SWOOP Y Y Y Y Y
+TDD4872761 📋> 🙂 Daily Quordle 1451
+TDD-4872812 📋> 9️⃣7️⃣
+TDD-144 📋> 3️⃣4️⃣
+TDD4 📋> m-w.com/games/quordle/
+TDD295319 📋> 
+TDD-143562 📋> ␚
+TDD-151602 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1451\n9\ufe0f\u20e37\ufe0f\u20e3\n3\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD778 result: "\ud83d\ude42 Daily Quordle 1451\n9\ufe0f\u20e37\ufe0f\u20e3\n3\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD245651 📆 2026-01-14 ? 
