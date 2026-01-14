@@ -1,0 +1,90 @@
+T3.5966104740000446 now: 2026-01-14T08:50:13EST
+TD158 site: m-w.com/games/quordle/#/rescue
+TDD-132 wordlist: nwl2023.txt
+TDD-19 num_words: 4
+TDD598816  ...
+TDD5521172 > tried rehab rupee clone
+TDD-6119422 questioning: rehab rupee clone
+TDD2767059 Rescue #1 _____? MYnnn
+TDD-2767174 attempt: 0 REHAB m Y n n n
+TDD1718902 Rescue #1 _E___ ~R -ABH? MnnMn
+TDD-1719122 attempt: 0 RUPEE m n n m n
+TDD1591790 Rescue #1 _E___ ~R -ABHPU E:1? nnnnM
+TDD-1591818 attempt: 0 CLONE n n n n m
+TDD2111917 Rescue #2 _____? Mnnnn
+TDD-2111834 attempt: 1 REHAB m n n n n
+TDD1790990 Rescue #2 _____ ~R -ABEH? MMnnn
+TDD-1791065 attempt: 1 RUPEE m m n n n
+TDD1335528 Rescue #2 _____ ~RU -ABEHP? nnnnn
+TDD-1335516 attempt: 1 CLONE n n n n n
+TDD1759476 Rescue #3 _____? MnnMn
+TDD-1759484 attempt: 2 REHAB m n n m n
+TDD1463764 Rescue #3 _____ ~AR -BEH? Mnnnn
+TDD-1463761 attempt: 2 RUPEE m n n n n
+TDD1383767 Rescue #3 _____ ~AR -BEHPU? nnMnn
+TDD-1383636 attempt: 2 CLONE n n m n n
+TDD1495140 Rescue #4 _____? nMnnn
+TDD-1495179 attempt: 3 REHAB n m n n n
+TDD1479164 Rescue #4 _____ ~E -ABHR? nnnnY
+TDD-1479253 attempt: 3 RUPEE n n n n Y
+TDD1727718 Rescue #4 ____E -ABHPRU? nnYnY
+TDD-1727715 attempt: 3 CLONE n n Y n Y
+TDD1111361 > *
+TDD648749 ? 1
+TDD-1760078 questioning: jerky
+TDD3823766 Rescue #1 _E___ ~R -ABCHLNOPU E:1? nYYnn
+TDD-3823692 attempt: 0 JERKY n Y Y n n
+TDD2719472 Rescue #2 _____ ~RU -ABCEHLNOP? nnMnn
+TDD-2719503 attempt: 1 JERKY n n m n n
+TDD1751441 Rescue #3 _____ ~AOR -BCEHLNPU? nnYnn
+TDD-1751443 attempt: 2 JERKY n n Y n n
+TDD1847002 Rescue #4 __O_E -ABCHLNPRU? nMnnn
+TDD-1847071 attempt: 3 JERKY n m n n n
+TDD1703455 > *
+TDD792280 ? 3
+TDD-2495745 questioning: sorta
+TDD3135894 Rescue #1 _ER__ -ABCHJKLNOPUY? nnYMn
+TDD-3135892 attempt: 0 SORTA n n Y m n
+TDD1703584 Rescue #2 _____ ~RU -ABCEHJKLNOPY? MnMMn
+TDD-1703593 attempt: 1 SORTA m n m m n
+TDD2967591 Rescue #3 __R__ ~AO -BCEHJKLNPUY? nMYMM
+TDD-2967512 attempt: 2 SORTA n m Y m m
+TDD1303334 Rescue #4 __O_E -ABCHJKLNPRUY? MYnnn
+TDD-1303336 attempt: 3 SORTA m Y n n n
+TDD1119474 > *
+TDD-1119158 questioning: merit
+TDD3047040 Rescue #1 _ER__ ~T -ABCHJKLNOPSUY? YYYYY
+TDD-3047351 attempt: 0 MERIT Y Y Y Y Y
+TDD2583497 Rescue #2 _____ ~RSTU -ABCEHJKLNOPY? nnMnY
+TDD-2583486 attempt: 1 MERIT n n m n Y
+TDD1343376 Rescue #3 __R__ ~AOT -BCEHJKLNPSUY? nnYnY
+TDD-1343374 attempt: 2 MERIT n n Y n Y
+TDD1511850 Rescue #4 _OO_E ~S -ABCHJKLNPRTUY? nMnnn
+TDD-1511913 attempt: 3 MERIT n m n n n
+TDD1006885 > *
+TDD-1006606 questioning: trust
+TDD4807419 Rescue #2 ____T ~RSU -ABCEHIJKLMNOPY? YYYYY
+TDD-4807706 attempt: 1 TRUST Y Y Y Y Y
+TDD2222947 Rescue #3 __R_T ~AO -BCEHIJKLMNPSUY? YMnnY
+TDD-2222962 attempt: 2 TRUST Y m n n Y
+TDD1376129 Rescue #4 _OO_E ~S -ABCHIJKLMNPRTUY? nnnYn
+TDD-1376057 attempt: 3 TRUST n n n Y n
+TDD967162 > *
+TDD-967079 questioning: tarot
+TDD3487436 Rescue #3 T_R_T ~AO -BCEHIJKLMNPSUY? YYYYY
+TDD-3487536 attempt: 2 TAROT Y Y Y Y Y
+TDD1270973 Rescue #4 _OOSE -ABCHIJKLMNPRTUY? nnnMn
+TDD-1271013 attempt: 3 TAROT n n n m n
+TDD807735 > *
+TDD-807517 questioning: goose
+TDD2711139 Rescue #4 _OOSE -ABCHIJKLMNPRTUY? YYYYY
+TDD-2711384 attempt: 3 GOOSE Y Y Y Y Y
+TDD4328983 📋> Daily Rescue 65
+TDD-4329059 📋> 6️⃣7️⃣
+TDD-124 📋> 8️⃣9️⃣
+TDD-2 📋> m-w.com/games/quordle/
+TDD287206 📋> 
+TDD-71759 📋> ␚
+TDD-215285 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 65\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD848 result: "Daily Rescue 65\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD237600 📆 2026-01-14 ? 
