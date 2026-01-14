@@ -1,0 +1,174 @@
+T488.67440040899965 now: 2026-01-14T08:32:22EST
+TD132 site: britannica.com/games/octordle/daily
+TDD-94 wordlist: nwl2023.txt
+TDD-29 num_words: 8
+TDD7998427  ...
+TDD-6326370 > *
+TDD4616168 ? 10
+TDD-6288008 questioning: later
+TDD3016033 Classic #1 _____? nnnYn
+TDD-3015939 attempt: 0 LATER n n n Y n
+TDD1087334 Classic #2 _____? nnnnn
+TDD-1087349 attempt: 1 LATER n n n n n
+TDD1303240 Classic #3 _____? nnnnn
+TDD-1303237 attempt: 2 LATER n n n n n
+TDD1527583 Classic #4 _____? MMnnn
+TDD-1527662 attempt: 3 LATER m m n n n
+TDD4679158 Classic #5 _____? MMnMn
+TDD-4679074 attempt: 4 LATER m m n m n
+TDD1439715 Classic #6 _____? nMnnn
+TDD-1439770 attempt: 5 LATER n m n n n
+TDD1247813 Classic #7 _____? nnnnM
+TDD-1247774 attempt: 6 LATER n n n n m
+TDD1134775 Classic #8 _____? nnnYn
+TDD-1134784 attempt: 7 LATER n n n Y n
+TDD1239572 > *
+TDD552318 ? 2
+TDD-1791916 questioning: sonic
+TDD4230874 Classic #1 ___E_ -ALRT? nnMMn
+TDD-4230928 attempt: 0 SONIC n n m m n
+TDD1143567 Classic #2 _____ -AELRT? nnnnn
+TDD-1143487 attempt: 1 SONIC n n n n n
+TDD1967623 Classic #3 _____ -AELRT? YnMMn
+TDD-1967608 attempt: 2 SONIC Y n m m n
+TDD1055942 Classic #4 _____ ~AL -ERT? nnnnn
+TDD-1055942 attempt: 3 SONIC n n n n n
+TDD3111184 Classic #5 _____ ~AEL -RT? nnnMn
+TDD-3111254 attempt: 4 SONIC n n n m n
+TDD1663434 Classic #6 _____ ~A -ELRT? YnnMn
+TDD-1663366 attempt: 5 SONIC Y n n m n
+TDD1871198 Classic #7 _____ ~R -AELT? Mnnnn
+TDD-1871221 attempt: 6 SONIC m n n n n
+TDD1999630 Classic #8 ___E_ -ALRT? nYMnM
+TDD-1999602 attempt: 7 SONIC n Y m n m
+TDD1463719 > *
+TDD5447679 ? 9
+TDD-6911451 questioning: flaky
+TDD4295573 Classic #1 ___E_ ~IN -ACLORST? nnnnn
+TDD-4295530 attempt: 0 FLAKY n n n n n
+TDD1495171 Classic #2 _____ -ACEILNORST? MnnnY
+TDD-1495242 attempt: 1 FLAKY m n n n Y
+TDD1280212 Classic #3 S____ ~IN -ACELORT? nnnnn
+TDD-1280214 attempt: 2 FLAKY n n n n n
+TDD2726876 Classic #4 _____ ~AL -CEINORST? nYMnY
+TDD-2726782 attempt: 3 FLAKY n Y m n Y
+TDD3111458 Classic #5 _____ ~AEIL -CNORST? nYMnn
+TDD-3111447 attempt: 4 FLAKY n Y m n n
+TDD1247413 Classic #6 S____ ~AI -CELNORT? nnMnn
+TDD-1247406 attempt: 5 FLAKY n n m n n
+TDD1215237 Classic #7 _____ ~RS -ACEILNOT? nnnnn
+TDD-1215250 attempt: 6 FLAKY n n n n n
+TDD1039445 Classic #8 _O_E_ ~CN -AILRST? nnnnn
+TDD-1039540 attempt: 7 FLAKY n n n n n
+TDD1368180 > *
+TDD4415197 ? ␚
+TDD-5783471 <EOF>
+TDD1511395 > * 5
+TDD4744633 ? nnMnM
+TDD-3439828 ? 1
+TDD-2816037 questioning: alive
+TDD2679296 Classic #1 ___E_ ~IN -ACFKLORSTY? nnMnM
+TDD-2679292 attempt: 0 ALIVE n n m n m
+TDD1135060 Classic #2 ____Y ~F -ACEIKLNORST? nnnnn
+TDD-1135148 attempt: 1 ALIVE n n n n n
+TDD1687995 Classic #3 S____ ~IN -ACEFKLORTY? nnYnn
+TDD-1687917 attempt: 2 ALIVE n n Y n n
+TDD1416271 Classic #4 _L__Y ~A -CEFIKNORST? YYnnn
+TDD-1416269 attempt: 3 ALIVE Y Y n n n
+TDD2798442 Classic #5 _L___ ~AEI -CFKNORSTY? YYYYY
+TDD-2798518 attempt: 4 ALIVE Y Y Y Y Y
+TDD3655718 Classic #6 S____ ~AI -CEFKLNORTY? MnMnn
+TDD-3655629 attempt: 5 ALIVE m n m n n
+TDD1264776 Classic #7 _____ ~RS -ACEFIKLNOTY? nnnnn
+TDD-1264767 attempt: 6 ALIVE n n n n n
+TDD1638947 Classic #8 _O_E_ ~CN -AFIKLRSTY? nnnMM
+TDD-1638898 attempt: 7 ALIVE n n n m m
+TDD1494486 > *
+TDD-1494222 questioning: coven
+TDD5334726 Classic #1 ___E_ ~IN -ACFKLORSTVY? nnnYY
+TDD-5335062 attempt: 0 COVEN n n n Y Y
+TDD1159973 Classic #2 ____Y ~F -ACEIKLNORSTV? nnnnn
+TDD-1159979 attempt: 1 COVEN n n n n n
+TDD1518819 Classic #3 S_I__ ~N -ACEFKLORTVY? nnnnM
+TDD-1518805 attempt: 2 COVEN n n n n m
+TDD1423369 Classic #4 AL__Y -CEFIKNORSTV? nnnnn
+TDD-1423380 attempt: 3 COVEN n n n n n
+TDD2824069 Classic #6 S____ ~AI -CEFKLNORTVY? nnnnn
+TDD-2824049 attempt: 5 COVEN n n n n n
+TDD2134678 Classic #7 _____ ~RS -ACEFIKLNOTVY? nnnnn
+TDD-2134687 attempt: 6 COVEN n n n n n
+TDD1279780 Classic #8 _O_E_ ~CNV -AFIKLRSTY? YYYYY
+TDD-1279770 attempt: 7 COVEN Y Y Y Y Y
+TDD2230932 > *
+TDD-1471304 ? ␚
+TDD-759816 <EOF>
+TDD2111665 > * 6
+TDD-383618 ? 1
+TDD-1727907 questioning: sigma
+TDD5975380 Classic #1 ___EN ~I -ACFKLORSTVY? nYnnn
+TDD-5975353 attempt: 0 SIGMA n Y n n n
+TDD1135444 Classic #2 ____Y ~F -ACEIKLNORSTV? nnnnn
+TDD-1135511 attempt: 1 SIGMA n n n n n
+TDD2879820 Classic #3 S_I__ ~N -ACEFKLORTVY? YMMnn
+TDD-2879666 attempt: 2 SIGMA Y m m n n
+TDD1631451 Classic #4 AL__Y -CEFIKNORSTV? nnnnM
+TDD-1631524 attempt: 3 SIGMA n n n n m
+TDD2879586 Classic #6 S____ ~AI -CEFKLNORTVY? YYYYY
+TDD-2879659 attempt: 5 SIGMA Y Y Y Y Y
+TDD2447199 Classic #7 _____ ~RS -ACEFIKLNOTVY? Mnnnn
+TDD-2447203 attempt: 6 SIGMA m n n n n
+TDD3111528 > * 3
+TDD2960067 ? nMMMn
+TDD-4887877 ? nnnnn
+TDD520048 ? 2
+TDD-1703792 questioning: swing
+TDD2063628 Classic #1 _I_EN -ACFGKLMORSTVY? nMMMn
+TDD-2063604 attempt: 0 SWING n m m m n
+TDD1199623 Classic #2 ____Y ~F -ACEGIKLMNORSTV? nnnnn
+TDD-1199628 attempt: 1 SWING n n n n n
+TDD1736067 Classic #3 S_I__ ~GN -ACEFKLMORTVY? YYYYY
+TDD-1735979 attempt: 2 SWING Y Y Y Y Y
+TDD1015377 Classic #4 AL__Y -CEFGIKMNORSTV? nnnnn
+TDD-1015460 attempt: 3 SWING n n n n n
+TDD2647625 Classic #7 _____ ~RS -ACEFGIKLMNOTVY? Mnnnn
+TDD-2647543 attempt: 6 SWING m n n n n
+TDD1983142 > *
+TDD-1983056 questioning: allay
+TDD7863041 Classic #1 _I_EN ~W -ACFGKLMORSTVY? nnnnn
+TDD-7863205 attempt: 0 ALLAY n n n n n
+TDD1615542 Classic #2 ____Y ~F -ACEGIKLMNORSTVW? nnnnY
+TDD-1615491 attempt: 1 ALLAY n n n n Y
+TDD1639649 Classic #4 AL__Y -CEFGIKMNORSTVW? YYYYY
+TDD-1639703 attempt: 3 ALLAY Y Y Y Y Y
+TDD3719338 Classic #7 _____ ~RS -ACEFGIKLMNOTVWY? nnnnn
+TDD-3719273 attempt: 6 ALLAY n n n n n
+TDD1919321 > *
+TDD5568515 ? 2
+TDD-7487924 questioning: widen
+TDD1599680 Classic #1 _I_EN ~W -ACFGKLMORSTVY? YYYYY
+TDD-1599662 attempt: 0 WIDEN Y Y Y Y Y
+TDD1383542 Classic #2 ____Y ~F -ACEGIKLMNORSTVW? nnnnn
+TDD-1383494 attempt: 1 WIDEN n n n n n
+TDD3695992 Classic #7 _____ ~RS -ACEFGIKLMNOTVWY? nnnnn
+TDD-3696004 attempt: 6 WIDEN n n n n n
+TDD1190920 > *
+TDD2528809 ? 1
+TDD-3719735 questioning: puffy
+TDD2927783 Classic #2 ____Y ~F -ACDEGIKLMNORSTVW? YYYYY
+TDD-2927769 attempt: 1 PUFFY Y Y Y Y Y
+TDD3087189 Classic #7 _____ ~RS -ACDEFGIKLMNOTVWY? MMnnn
+TDD-3087160 attempt: 6 PUFFY m m n n n
+TDD919551 > *
+TDD-919307 questioning: usurp
+TDD5775296 Classic #7 _____ ~PRSU -ACDEFGIKLMNOTVWY? YYYYY
+TDD-5775553 attempt: 6 USURP Y Y Y Y Y
+TDD3127835 📋> Daily Octordle #1451
+TDD-3127961 📋> 9️⃣🔟
+TDD-135 📋> 7️⃣8️⃣
+TDD-1 📋> 4️⃣6️⃣
+TDD-5 📋> 🕚5️⃣
+TDD351554 📋> Score: 60
+TDD-31615 📋> ␚
+TDD-319777 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1451\n9\ufe0f\u20e3\ud83d\udd1f\n7\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\n\ud83d\udd5a5\ufe0f\u20e3\nScore: 60"}
+TDD18 result: "Daily Octordle #1451\n9\ufe0f\u20e3\ud83d\udd1f\n7\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\n\ud83d\udd5a5\ufe0f\u20e3\nScore: 60"
+TDD407197 📆 2026-01-14 ? 
