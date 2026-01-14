@@ -1,0 +1,114 @@
+T329.6824185009973 now: 2026-01-14T08:55:39EST
+TD129 site: m-w.com/games/quordle/#/sequence
+TDD-107 wordlist: nwl2023.txt
+TDD-14 num_words: 4
+TDD2607175  ...
+TDD-1495609 > *
+TDD-143581 ? 1
+TDD-967787 questioning: asker
+TDD4159777 Sequence #1 _____? MnnYn
+TDD-4159745 attempt: 0 ASKER m n n Y n
+TDD919386 > *
+TDD2624739 ? nYnYn
+TDD-2856564 ? *
+TDD112474 ? 1
+TDD-800067 questioning: mated
+TDD1607493 Sequence #1 ___E_ ~A -KRS? nYnYn
+TDD-1607475 attempt: 0 MATED n Y n Y n
+TDD1079597 > *
+TDD616470 ? 2
+TDD-1696012 questioning: gavel
+TDD3855053 Sequence #1 _A_E_ -DKMRST? MYnYn
+TDD-3854972 attempt: 0 GAVEL m Y n Y n
+TDD1359536 > *
+TDD-1359374 questioning: cagey
+TDD4886918 Sequence #1 _A_E_ ~G -DKLMRSTV? YYYYY
+TDD-4887132 attempt: 0 CAGEY Y Y Y Y Y
+TDD-243 questioning: ASKER
+TDD9199823 Sequence #2 _____? MnnMM
+TDD-9199564 attempt: 1 ASKER m n n m m
+TDD-262 questioning: MATED
+TDD1471679 Sequence #2 _____ ~AER -KS? nMnMn
+TDD-1471430 attempt: 1 MATED n m n m n
+TDD-250 questioning: GAVEL
+TDD2423778 Sequence #2 _____ ~AER -DKMST? nMnMY
+TDD-2423525 attempt: 1 GAVEL n m n m Y
+TDD-254 questioning: CAGEY
+TDD1343220 Sequence #2 ____L ~AER -DGKMSTV? nMnMn
+TDD-1343045 attempt: 1 CAGEY n m n m n
+TDD1711827 > *
+TDD-592430 ? 1
+TDD-1119417 questioning: pearl
+TDD3575628 Sequence #2 ____L ~AER -CDGKMSTVY? nYMMY
+TDD-3575563 attempt: 1 PEARL n Y m m Y
+TDD1007555 > *
+TDD176351 ? 1
+TDD-1183919 questioning: feral
+TDD5727683 Sequence #2 _E__L ~AR -CDGKMPSTVY? nYMYY
+TDD-5727722 attempt: 1 FERAL n Y m Y Y
+TDD1463355 > *
+TDD-1463073 questioning: renal
+TDD2606815 Sequence #2 _E_AL ~R -CDFGKMPSTVY? YYYYY
+TDD-2607051 attempt: 1 RENAL Y Y Y Y Y
+TDD-217 questioning: ASKER
+TDD2871810 Sequence #3 _____? nnnYM
+TDD-2871556 attempt: 2 ASKER n n n Y m
+TDD-248 questioning: MATED
+TDD1287968 Sequence #3 ___E_ ~R -AKS? nnnYn
+TDD-1287718 attempt: 2 MATED n n n Y n
+TDD-249 questioning: GAVEL
+TDD1287101 Sequence #3 ___E_ ~R -ADKMST? nnnYn
+TDD-1286860 attempt: 2 GAVEL n n n Y n
+TDD-245 questioning: CAGEY
+TDD1247986 Sequence #3 ___E_ ~R -ADGKLMSTV? nnnYn
+TDD-1247671 attempt: 2 CAGEY n n n Y n
+TDD-305 questioning: PEARL
+TDD1831718 Sequence #3 ___E_ ~R -ACDGKLMSTVY? YMnMn
+TDD-1831543 attempt: 2 PEARL Y m n m n
+TDD-200 questioning: FERAL
+TDD1951282 Sequence #3 P__E_ ~R -ACDGKLMSTVY? nMMnn
+TDD-1951003 attempt: 2 FERAL n m m n n
+TDD-258 questioning: RENAL
+TDD1199744 Sequence #3 P__E_ ~R -ACDFGKLMSTVY? MMMnn
+TDD-1199485 attempt: 2 RENAL m m m n n
+TDD943126 > *
+TDD-942951 questioning: preen
+TDD2927633 Sequence #3 P__E_ ~NR -ACDFGKLMSTVY? YYYYY
+TDD-2927886 attempt: 2 PREEN Y Y Y Y Y
+TDD-200 questioning: ASKER
+TDD3519019 Sequence #4 _____? nnnYn
+TDD-3518840 attempt: 3 ASKER n n n Y n
+TDD-183 questioning: MATED
+TDD1239860 Sequence #4 ___E_ -AKRS? nnnYn
+TDD-1239637 attempt: 3 MATED n n n Y n
+TDD-211 questioning: GAVEL
+TDD1855880 Sequence #4 ___E_ -ADKMRST? nnnYY
+TDD-1855555 attempt: 3 GAVEL n n n Y Y
+TDD-281 questioning: CAGEY
+TDD1551303 Sequence #4 ___EL -ADGKMRSTV? nnnYn
+TDD-1551098 attempt: 3 CAGEY n n n Y n
+TDD-253 questioning: PEARL
+TDD4472072 Sequence #4 ___EL -ACDGKMRSTVY? nMnnY
+TDD-4471753 attempt: 3 PEARL n m n n Y
+TDD-304 questioning: FERAL
+TDD1887076 Sequence #4 ___EL -ACDGKMPRSTVY? nMnnY
+TDD-1886903 attempt: 3 FERAL n m n n Y
+TDD-192 questioning: RENAL
+TDD2135703 Sequence #4 ___EL -ACDFGKMPRSTVY? nMnnY
+TDD-2135428 attempt: 3 RENAL n m n n Y
+TDD-255 questioning: PREEN
+TDD1535543 Sequence #4 ___EL -ACDFGKMNPRSTVY? nnYYn
+TDD-1535377 attempt: 3 PREEN n n Y Y n
+TDD815592 > *
+TDD-815375 questioning: wheel
+TDD2887141 Sequence #4 __EEL -ACDFGKMNPRSTVY? YYYYY
+TDD-2887300 attempt: 3 WHEEL Y Y Y Y Y
+TDD4360102 📋> Daily Sequence Quordle 1451
+TDD-4360213 📋> 4️⃣7️⃣
+TDD-145 📋> 8️⃣9️⃣
+TDD-8 📋> m-w.com/games/quordle/
+TDD351334 📋> 
+TDD-95109 📋> ␚
+TDD-256078 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Sequence Quordle 1451\n4\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD11 result: "Daily Sequence Quordle 1451\n4\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD319414 📆 2026-01-14 ? 
