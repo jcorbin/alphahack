@@ -1,0 +1,172 @@
+T118.15113760199893 now: 2026-01-14T08:52:07EST
+TD86 site: britannica.com/games/octordle/daily-rescue
+TDD-71 wordlist: nwl2023.txt
+TDD-11 num_words: 8
+TDD3366402  ...
+TDD5769843 > tried coral unwed swarm flirt
+TDD-9135971 questioning: coral unwed swarm flirt
+TDD2127821 Rescue #1 _____? nYMnn
+TDD-2127756 attempt: 0 CORAL n Y m n n
+TDD1343335 Rescue #1 _O___ ~R -ACL? nnnnn
+TDD-1343412 attempt: 0 UNWED n n n n n
+TDD1583640 Rescue #1 _O___ ~R -ACDELNUW? nnnMM
+TDD-1583672 attempt: 0 SWARM n n n m m
+TDD1151738 Rescue #1 _O___ ~MR -ACDELNSUW? nnnMM
+TDD-1151753 attempt: 0 FLIRT n n n m m
+TDD1583723 Rescue #2 _____? nnYMM
+TDD-1583447 attempt: 1 CORAL n n Y m m
+TDD1414834 Rescue #2 __R__ ~AL -CO? nnnMn
+TDD-1415027 attempt: 1 UNWED n n n m n
+TDD2087010 Rescue #2 __R__ ~AEL -CDNOUW? nnMMn
+TDD-2087004 attempt: 1 SWARM n n m m n
+TDD1543647 Rescue #2 __R__ ~AEL -CDMNOSUW? nMnMn
+TDD-1543638 attempt: 1 FLIRT n m n m n
+TDD1455447 Rescue #3 _____? nnnnM
+TDD-1455453 attempt: 2 CORAL n n n n m
+TDD1519281 Rescue #3 _____ ~L -ACOR? Mnnnn
+TDD-1519288 attempt: 2 UNWED m n n n n
+TDD1671195 Rescue #3 _____ ~LU -ACDENORW? Mnnnn
+TDD-1671185 attempt: 2 SWARM m n n n n
+TDD1799913 Rescue #3 _____ ~LSU -ACDEMNORW? nYnnn
+TDD-1799885 attempt: 2 FLIRT n Y n n n
+TDD1767062 Rescue #4 _____? YnMnn
+TDD-1767101 attempt: 3 CORAL Y n m n n
+TDD1423464 Rescue #4 C____ ~R -ALO? nnnMn
+TDD-1423450 attempt: 3 UNWED n n n m n
+TDD1919188 Rescue #4 C____ ~ER -ADLNOUW? nnnMM
+TDD-1919214 attempt: 3 SWARM n n n m m
+TDD1536080 Rescue #4 C____ ~EMR -ADLNOSUW? nnnMn
+TDD-1536108 attempt: 3 FLIRT n n n m n
+TDD12679390 Rescue #5 _____? nYMnn
+TDD-12679330 attempt: 4 CORAL n Y m n n
+TDD2871568 Rescue #5 _O___ ~R -ACL? nnnnn
+TDD-2871574 attempt: 4 UNWED n n n n n
+TDD2807526 Rescue #5 _O___ ~R -ACDELNUW? MnnMn
+TDD-2807532 attempt: 4 SWARM m n n m n
+TDD1488217 Rescue #5 _O___ ~RS -ACDELMNUW? nnnMY
+TDD-1488290 attempt: 4 FLIRT n n n m Y
+TDD1471554 Rescue #6 _____? YYnnn
+TDD-1471473 attempt: 5 CORAL Y Y n n n
+TDD2974209 Rescue #6 CO___ -ALR? nMnYn
+TDD-2974107 attempt: 5 UNWED n m n Y n
+TDD1423986 Rescue #6 CO_E_ ~N -ADLRUW? nnnnn
+TDD-1424118 attempt: 5 SWARM n n n n n
+TDD2134853 Rescue #6 CO_E_ ~N -ADLMRSUW? nnnnn
+TDD-2134827 attempt: 5 FLIRT n n n n n
+TDD2591849 Rescue #7 _____? nnnMM
+TDD-2591853 attempt: 6 CORAL n n n m m
+TDD1414906 Rescue #7 _____ ~AL -COR? nMnnn
+TDD-1414918 attempt: 6 UNWED n m n n n
+TDD4303172 Rescue #7 _____ ~ALN -CDEORUW? nnYnn
+TDD-4303162 attempt: 6 SWARM n n Y n n
+TDD3311528 Rescue #7 __A__ ~LN -CDEMORSUW? nYnnn
+TDD-3311638 attempt: 6 FLIRT n Y n n n
+TDD1807921 Rescue #8 _____? nYMnn
+TDD-1807890 attempt: 7 CORAL n Y m n n
+TDD2007188 Rescue #8 _O___ ~R -ACL? nnnYn
+TDD-2007112 attempt: 7 UNWED n n n Y n
+TDD1519806 Rescue #8 _O_E_ ~R -ACDLNUW? nnnMn
+TDD-1519802 attempt: 7 SWARM n n n m n
+TDD1071617 Rescue #8 _O_E_ ~R -ACDLMNSUW? nnnMn
+TDD-1071616 attempt: 7 FLIRT n n n m n
+TDD1246982 > *
+TDD-1246764 questioning: motor
+TDD4039589 Rescue #1 _O___ ~MRT -ACDEFILNSUW? YYYYY
+TDD-4039813 attempt: 0 MOTOR Y Y Y Y Y
+TDD1934666 Rescue #2 __R__ ~AEL -CDFIMNOSTUW? nnnnM
+TDD-1934744 attempt: 1 MOTOR n n n n m
+TDD1463729 Rescue #3 _L___ ~SU -ACDEFIMNORTW? nnnnn
+TDD-1463658 attempt: 2 MOTOR n n n n n
+TDD1559801 Rescue #4 C____ ~EMR -ADFILNOSTUW? MnnnM
+TDD-1559780 attempt: 3 MOTOR m n n n m
+TDD4070834 Rescue #5 _O__T ~RS -ACDEFILMNUW? nYMMM
+TDD-4070928 attempt: 4 MOTOR n Y m m m
+TDD1199595 Rescue #6 CO_E_ ~N -ADFILMRSTUW? nYnnn
+TDD-1199521 attempt: 5 MOTOR n Y n n n
+TDD1447386 Rescue #7 _LA__ ~N -CDEFIMORSTUW? nnnnn
+TDD-1447466 attempt: 6 MOTOR n n n n n
+TDD1343684 Rescue #8 _O_E_ ~R -ACDFILMNSTUW? nYnnY
+TDD-1343640 attempt: 7 MOTOR n Y n n Y
+TDD1655898 > *
+TDD-1655624 questioning: creme
+TDD4630729 Rescue #2 __R__ ~AEL -CDFIMNOSTUW? nMnnY
+TDD-4631041 attempt: 1 CREME n m n n Y
+TDD1255775 Rescue #3 _L___ ~SU -ACDEFIMNORTW? nnnnn
+TDD-1255694 attempt: 2 CREME n n n n n
+TDD1175058 Rescue #4 C____ ~EMR -ADFILNOSTUW? YYYYY
+TDD-1175139 attempt: 3 CREME Y Y Y Y Y
+TDD4167746 Rescue #5 _O__T ~RS -ACDEFILMNUW? nMnnn
+TDD-4167661 attempt: 4 CREME n m n n n
+TDD1423338 Rescue #6 CO_E_ ~N -ADFILMRSTUW? YnMnn
+TDD-1423309 attempt: 5 CREME Y n m n n
+TDD1615500 Rescue #7 _LA__ ~N -CDEFIMORSTUW? nnnnn
+TDD-1615476 attempt: 6 CREME n n n n n
+TDD1879586 Rescue #8 _O_ER -ACDFILMNSTUW? nMMnn
+TDD-1879577 attempt: 7 CREME n m m n n
+TDD1647087 > *
+TDD-1646940 questioning: roost
+TDD4910767 Rescue #2 __R_E ~AL -CDFIMNOSTUW? Mnnnn
+TDD-4911049 attempt: 1 ROOST m n n n n
+TDD1799744 Rescue #3 _L___ ~SU -ACDEFIMNORTW? nnnYn
+TDD-1799770 attempt: 2 ROOST n n n Y n
+TDD3359405 Rescue #5 _O__T ~RS -ACDEFILMNUW? YYYYY
+TDD-3359265 attempt: 4 ROOST Y Y Y Y Y
+TDD2328222 Rescue #6 CO_E_ ~N -ADFILMRSTUW E:1? nYnnn
+TDD-2328261 attempt: 5 ROOST n Y n n n
+TDD2638732 Rescue #7 _LA__ ~N -CDEFIMORSTUW? nnnnn
+TDD-2638738 attempt: 6 ROOST n n n n n
+TDD1439586 Rescue #8 _O_ER -ACDFILMNSTUW E:1? MYnnn
+TDD-1439686 attempt: 7 ROOST m Y n n n
+TDD1504050 > *
+TDD3831237 ? 1
+TDD-5335235 questioning: large
+TDD2208027 Rescue #2 __R_E ~AL -CDFIMNOSTUW? YYYYY
+TDD-2207978 attempt: 1 LARGE Y Y Y Y Y
+TDD3207401 Rescue #3 _L_S_ ~U -ACDEFIMNORTW? Mnnnn
+TDD-3207388 attempt: 2 LARGE m n n n n
+TDD4831317 Rescue #6 CO_E_ ~N -ADFILMRSTUW E:1? nnnnM
+TDD-4831242 attempt: 5 LARGE n n n n m
+TDD1975197 Rescue #7 _LA__ ~N -CDEFIMORSTUW? MMnnn
+TDD-1975366 attempt: 6 LARGE m m n n n
+TDD1559141 Rescue #8 _O_ER -ACDFILMNSTUW E:1? nnMnM
+TDD-1559082 attempt: 7 LARGE n n m n m
+TDD2736133 > *
+TDD3382990 ? 1
+TDD-6119199 questioning: blush
+TDD2007687 Rescue #3 _L_S_ ~U -ACDEFGIMNORTW? YYYYY
+TDD-2007664 attempt: 2 BLUSH Y Y Y Y Y
+TDD2863662 Rescue #6 CO_E_ ~N -ADFGILMRSTUW E:1? nnnnn
+TDD-2863594 attempt: 5 BLUSH n n n n n
+TDD2144283 Rescue #7 _LA__ ~N -CDEFGIMORSTUW? nYnnn
+TDD-2144322 attempt: 6 BLUSH n Y n n n
+TDD1062909 Rescue #8 _O_ER -ACDFGILMNSTUW E:1? nnnnn
+TDD-1062851 attempt: 7 BLUSH n n n n n
+TDD1199324 > *
+TDD-1199240 questioning: plank
+TDD2991250 Rescue #6 CO_E_ ~N -ABDFGHILMRSTUW E:1? nnnMn
+TDD-2991413 attempt: 5 PLANK n n n m n
+TDD1751434 Rescue #7 _LA__ ~N -BCDEFGHIMORSTUW? YYYYY
+TDD-1751437 attempt: 6 PLANK Y Y Y Y Y
+TDD4232030 Rescue #8 _O_ER -ABCDFGHILMNSTUW E:1? nnnnM
+TDD-4232022 attempt: 7 PLANK n n n n m
+TDD1215759 > *
+TDD-1215430 questioning: joker
+TDD3558138 Rescue #6 CO_E_ ~N -ABDFGHIKLMPRSTUW E:1? nYnYn
+TDD-3558465 attempt: 5 JOKER n Y n Y n
+TDD1463932 Rescue #8 _O_ER ~K -ABCDFGHILMNPSTUW E:1? YYYYY
+TDD-1463876 attempt: 7 JOKER Y Y Y Y Y
+TDD1776087 > *
+TDD1311072 ? 3
+TDD-3087192 questioning: coven
+TDD2831156 Rescue #6 CO_E_ ~N -ABDFGHIJKLMPRSTUW? YYYYY
+TDD-2831193 attempt: 5 COVEN Y Y Y Y Y
+TDD2752117 📋> Daily Rescue Octordle #1451
+TDD-2752243 📋> 5️⃣8️⃣
+TDD-91 📋> 9️⃣6️⃣
+TDD-1 📋> 7️⃣🕛
+TDD-1 📋> 🔟🕚
+TDD271727 📋> Score: 9
+TDD-103936 📋> ␚
+TDD-167672 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1451\n5\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udd5b\n\ud83d\udd1f\ud83d\udd5a\nScore: 9"}
+TDD14 result: "Daily Rescue Octordle #1451\n5\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udd5b\n\ud83d\udd1f\ud83d\udd5a\nScore: 9"
+TDD199717 📆 2026-01-14 ? 
