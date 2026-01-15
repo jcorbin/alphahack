@@ -1,0 +1,40 @@
+T138.481859765001 now: 2026-01-15T08:33:28EST
+TD136 site: alphaguess.com
+TDD145210 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof 283785ae9771b39aadf87d827038d3520cce6dcf
+TDD5772599  ...
+TDD-2310077 [0 : 98220 : 196531] mach? a
+TDD-3607446 progress: 1 98220 mach
+TDD3023019 [98221 : 147373 : 196531] rhotic? b
+TDD-3023255 progress: -1 147373 rhotic
+TDD54344821 [98221 : 122783 : 147373] parr? a
+TDD-54344770 progress: 1 122783 parr
+TDD5567625 [122784 : 135074 : 147373] proper? a
+TDD-5567657 progress: 1 135074 proper
+TDD1903382 [135075 : 140523 : 147373] rec? a
+TDD-1903396 progress: 1 140523 rec
+TDD1871984 [140524 : 143786 : 147373] rem? a
+TDD-1871986 progress: 1 143786 rem
+TDD6231687 [143787 : 145199 : 147373] res? b
+TDD-6231679 progress: -1 145199 res
+TDD1759456 [143787 : 144419 : 145199] rep? a
+TDD-1759473 progress: 1 144419 rep
+TDD1479930 [144420 : 144809 : 145199] repp? b
+TDD-1479921 progress: -1 144809 repp
+TDD1647749 [144420 : 144608 : 144809] replace? it
+TDD-1647792 progress: 0 144608 replace
+TDD-124 [144420 : 144608 : 144809] <Done>.
+TDD3360040 📋> 🧩 Puzzle #906
+TDD-3359927 📋> 
+TDD-115 📋> 🤔 10 guesses
+TDD-5 📋> 
+TDD0 📋> ⏱️ 1m 19s
+TDD-3 📋> 
+TDD375397 📋> 🔗 alphaguess.com
+TDD-207384 📋> ␚
+TDD-167852 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #906\n\n\ud83e\udd14 10 guesses\n\n\u23f1\ufe0f 1m 19s\n\n\ud83d\udd17 alphaguess.com"}
+TDD363 result: "\ud83e\udde9 Puzzle #906\n\n\ud83e\udd14 10 guesses\n\n\u23f1\ufe0f 1m 19s\n\n\ud83d\udd17 alphaguess.com"
+TDD-510 result puzzle: 906
+TDD-17 result guesses: 10
+TDD-2 result time: 1m 19s
+TDD0 result link: alphaguess.com
+TDD239061 📆 2026-01-15 ? 
