@@ -477,13 +477,14 @@ class Nordle(StoredLog):
 
         i = pending[0]
 
-        prio = self.attempts[i-1]
-        mine = self.attempts[i]
-        if len(mine) < len(prio):
-            prior = prio[len(mine)].word
-            if prior not in self.questioning:
-                ui.print(f'! splice  -> {prior!r} {self.questioning!r}')
-                return self.question(ui, prior, *self.questioning)
+        # NOTE sequence mode is full on busted rn
+        # prio = self.attempts[i-1]
+        # mine = self.attempts[i]
+        # if len(mine) < len(prio):
+        #     prior = prio[len(mine)].word
+        #     if prior not in self.questioning:
+        #         ui.print(f'! splice  -> {prior!r} {self.questioning!r}')
+        #         return self.question(ui, prior, *self.questioning)
 
         if not self.words[i].done:
             st = collect_feedback(i)
