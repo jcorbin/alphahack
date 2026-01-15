@@ -1,0 +1,179 @@
+T825.7814658760035 now: 2026-01-15T08:50:11EST
+TD88 site: britannica.com/games/octordle/daily
+TDD-73 wordlist: nwl2023.txt
+TDD-10 num_words: 8
+TDD3582142  ...
+TDD-2182167 > *
+TDD-503939 ? 1
+TDD-895719 questioning: aisle
+TDD3911575 Classic #1 _____? Mnnnn
+TDD-3911702 attempt: 0 AISLE m n n n n
+TDD1504104 Classic #2 _____? nnMnY
+TDD-1504058 attempt: 1 AISLE n n m n Y
+TDD1206872 Classic #3 _____? nnMnn
+TDD-1206926 attempt: 2 AISLE n n m n n
+TDD1991898 Classic #4 _____? MnMnY
+TDD-1991842 attempt: 3 AISLE m n m n Y
+TDD3847996 Classic #5 _____? MnnnY
+TDD-3847864 attempt: 4 AISLE m n n n Y
+TDD1478812 Classic #6 _____? Mnnnn
+TDD-1478811 attempt: 5 AISLE m n n n n
+TDD2152396 Classic #7 _____? nnnnM
+TDD-2152461 attempt: 6 AISLE n n n n m
+TDD1502464 Classic #8 _____? nnMnM
+TDD-1502463 attempt: 7 AISLE n n m n m
+TDD1335164 > *
+TDD-150954 ? 1
+TDD-1184262 questioning: hurts
+TDD4167017 Classic #1 _____ ~A -EILS? nnnnn
+TDD-4166991 attempt: 0 HURTS n n n n n
+TDD2447505 Classic #2 ____E ~S -AIL? YnYnM
+TDD-2447451 attempt: 1 HURTS Y n Y n m
+TDD3303580 Classic #3 _____ ~S -AEIL? MMYnM
+TDD-3303605 attempt: 2 HURTS m m Y n m
+TDD4135658 Classic #4 ____E ~AS -IL? MnnnM
+TDD-4135668 attempt: 3 HURTS m n n n m
+TDD3574890 Classic #5 ____E ~A -ILS? nnnnn
+TDD-3574967 attempt: 4 HURTS n n n n n
+TDD1935604 Classic #6 _____ ~A -EILS? MnMnn
+TDD-1935526 attempt: 5 HURTS m n m n n
+TDD2839758 Classic #7 _____ ~E -AILS? MnnYn
+TDD-2839758 attempt: 6 HURTS m n n Y n
+TDD2063884 Classic #8 _____ ~ES -AIL? MnMnM
+TDD-2063834 attempt: 7 HURTS m n m n m
+TDD1574349 > *
+TDD-1574172 questioning: horse
+TDD4327301 Classic #1 _____ ~A -EHILRSTU? nnnnn
+TDD-4327530 attempt: 0 HORSE n n n n n
+TDD2199375 Classic #2 H_R_E ~S -AILTU? YYYYY
+TDD-2199374 attempt: 1 HORSE Y Y Y Y Y
+TDD3007609 Classic #3 __R__ ~HSU -AEILT? MnYMn
+TDD-3007639 attempt: 2 HORSE m n Y m n
+TDD2343332 Classic #4 ____E ~AHS -ILRTU? MnnMY
+TDD-2343376 attempt: 3 HORSE m n n m Y
+TDD4111352 Classic #5 ____E ~A -HILRSTU? nMnnY
+TDD-4111348 attempt: 4 HORSE n m n n Y
+TDD2328206 Classic #6 _____ ~AHR -EILSTU? MYMnn
+TDD-2328127 attempt: 5 HORSE m Y m n n
+TDD2742770 Classic #7 ___T_ ~EH -AILRSU? MnnnM
+TDD-2742776 attempt: 6 HORSE m n n n m
+TDD2496063 Classic #8 _____ ~EHRS -AILTU? MnMMM
+TDD-2496029 attempt: 7 HORSE m n m m m
+TDD1191267 > *
+TDD-1191235 questioning: canoe
+TDD4910754 Classic #1 _____ ~A -EHILORSTU? MYnnn
+TDD-4910817 attempt: 0 CANOE m Y n n n
+TDD2503991 Classic #3 __R__ ~HSU -AEILOT? nnnnn
+TDD-2503998 attempt: 2 CANOE n n n n n
+TDD3798929 Classic #4 ____E ~AHS -ILORTU? nMnnY
+TDD-3798926 attempt: 3 CANOE n m n n Y
+TDD3279784 Classic #5 ____E ~AO -HILRSTU? YYYYY
+TDD-3279847 attempt: 4 CANOE Y Y Y Y Y
+TDD2255115 Classic #6 _O___ ~AHR -EILSTU? MMnMn
+TDD-2255135 attempt: 5 CANOE m m n m n
+TDD1608209 Classic #7 ___T_ ~EH -AILORSU? nnYnM
+TDD-1608129 attempt: 6 CANOE n n Y n m
+TDD1319082 Classic #8 _____ ~EHRS -AILOTU? nnnnM
+TDD-1319058 attempt: 7 CANOE n n n n m
+TDD1695300 > *
+TDD-1695092 questioning: roach
+TDD7062792 Classic #1 _A___ ~C -EHILNORSTU? nnMMn
+TDD-7063098 attempt: 0 ROACH n n m m n
+TDD2023431 Classic #3 __R__ ~HSU -ACEILNOT? MnnnM
+TDD-2023435 attempt: 2 ROACH m n n n m
+TDD1887793 Classic #4 ____E ~AHS -CILNORTU? nnYnM
+TDD-1887774 attempt: 3 ROACH n n Y n m
+TDD3487818 Classic #6 _O___ ~ACHR -EILNSTU? YYYYY
+TDD-3487764 attempt: 5 ROACH Y Y Y Y Y
+TDD1983333 Classic #7 __NT_ ~EH -ACILORSU? nnnnY
+TDD-1983318 attempt: 6 ROACH n n n n Y
+TDD2423254 Classic #8 _____ ~EHRS -ACILNOTU? MnnnM
+TDD-2423249 attempt: 7 ROACH m n n n m
+TDD2496895 > *
+TDD-2496251 questioning: tenth
+TDD6916912 Classic #1 _A___ ~C -EHILNORSTU? nnnnn
+TDD-6917569 attempt: 0 TENTH n n n n n
+TDD2007153 Classic #3 __R__ ~HSU -ACEILNOT? nnnnM
+TDD-2007152 attempt: 2 TENTH n n n n m
+TDD1255380 Classic #4 __A_E ~HS -CILNORTU? nMnnM
+TDD-1255435 attempt: 3 TENTH n m n n m
+TDD3327497 Classic #7 __NTH ~E -ACILORSU? YYYYY
+TDD-3327450 attempt: 6 TENTH Y Y Y Y Y
+TDD2375417 Classic #8 _____ ~EHRS -ACILNOTU? nMnnM
+TDD-2375494 attempt: 7 TENTH n m n n m
+TDD1055608 > m*
+TDD528133 > *
+TDD3656254 ? 1
+TDD-5239953 questioning: shrug
+TDD3175734 Classic #1 _A___ ~C -EHILNORSTU? nnnnn
+TDD-3175745 attempt: 0 SHRUG n n n n n
+T1.409541157001513 now: 2026-01-15T08:53:07EST
+TD83 questioning: shrug
+TDD4210902 Classic #3 __R__ ~HSU -ACEILNOT? YYYYY
+TDD-4210533 attempt: 2 SHRUG Y Y Y Y Y
+TDD18007067 Classic #4 __A_E ~HS -CILNORTU? YYnnn
+TDD-18007185 attempt: 3 SHRUG Y Y n n n
+TDD7911365 Classic #8 _____ ~EHRS -ACILNOTU? YYMnn
+TDD-7911372 attempt: 7 SHRUG Y Y m n n
+TDD98897034 > *
+TDD-93257542 ? 1
+TDD-5639511 questioning: sherd
+TDD8615670 Classic #1 _A___ ~C -EGHILNORSTU? nnnnn
+TDD-8615741 attempt: 0 SHERD n n n n n
+TDD3999911 Classic #4 SHA_E -CGILNORTU? YYMnn
+TDD-3999836 attempt: 3 SHERD Y Y m n n
+TDD6623144 Classic #8 SH___ ~ER -ACGILNOTU? YYYMn
+TDD-6623123 attempt: 7 SHERD Y Y Y m n
+TDD22303185 > *
+TDD-22302927 questioning: sheer
+TDD9982829 Classic #1 _A___ ~C -DEGHILNORSTU? nnnnn
+TDD-9983086 attempt: 0 SHEER n n n n n
+TDD4631428 Classic #4 SHA_E -CDGILNORTU? YYMnn
+TDD-4631502 attempt: 3 SHEER Y Y m n n
+TDD3575377 Classic #8 SHE__ ~R -ACDGILNOTU? YYYYY
+TDD-3575307 attempt: 7 SHEER Y Y Y Y Y
+TDD1399580 > *
+TDD-199762 ? 1
+TDD-1199788 questioning: shame
+TDD10879508 Classic #1 _A___ ~C -DEGHILNORSTU? nnMnn
+TDD-10879540 attempt: 0 SHAME n n m n n
+TDD3662828 Classic #4 SHA_E -CDGILNORTU E:1? YYYnY
+TDD-3662887 attempt: 3 SHAME Y Y Y n Y
+TDD2959522 > *
+TDD-959797 ? 1
+TDD-1999674 questioning: jacky
+TDD6072357 Classic #1 _A___ ~C -DEGHILMNORSTU? nYYYY
+TDD-6072324 attempt: 0 JACKY n Y Y Y Y
+TDD2974618 Classic #4 SHA_E -CDGILMNORTU? nMnnn
+TDD-2974653 attempt: 3 JACKY n m n n n
+TDD1143566 > *
+TDD-1143270 questioning: wacky
+TDD3023204 Classic #1 _ACKY -DEGHIJLMNORSTU? YYYYY
+TDD-3023446 attempt: 0 WACKY Y Y Y Y Y
+TDD2958639 Classic #4 SHA_E -CDGIJKLMNORTUY? nMnnn
+TDD-2958702 attempt: 3 WACKY n m n n n
+TDD1183891 > *
+TDD423320 ? 2
+TDD-1607196 questioning: shape
+TDD10239999 Classic #4 SHA_E -CDGIJKLMNORTUWY? YYYnY
+TDD-10240032 attempt: 3 SHAPE Y Y Y n Y
+TDD4159353 > Daily Octordle #1452
+TDD-4159372 > 🕛3️⃣
+TDD-54 > 7️⃣🟥
+TDD-79 > 4️⃣5️⃣
+TDD-15 > 6️⃣9️⃣
+TDD2487103 > Score: 60/res
+TDD2913037 > 
+TDD-5248708 > 
+TDD1296535 > /res
+TDD8975880 📋> Daily Octordle #1452
+TDD-10423853 📋> 🕛3️⃣
+TDD-107 📋> 7️⃣🟥
+TDD-3 📋> 4️⃣5️⃣
+TDD-1 📋> 6️⃣9️⃣
+TDD967778 📋> Score: 60
+TDD-599720 📋> ␚
+TDD-367874 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Daily Octordle #1452\n\ud83d\udd5b3\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udfe5\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e39\ufe0f\u20e3\nScore: 60"}
+TDD810 result: "Daily Octordle #1452\n\ud83d\udd5b3\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udfe5\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e39\ufe0f\u20e3\nScore: 60"
+TDD2414229 > /store
+TDD-1703493 📆 2026-01-15 ? 
