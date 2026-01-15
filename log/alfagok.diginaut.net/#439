@@ -1,0 +1,41 @@
+T786.5000630750001 now: 2026-01-15T08:49:31EST
+TD82 site: alfagok.diginaut.net
+TDD400549 loaded 399688 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1164 words excluded) asof 283785ae9771b39aadf87d827038d3520cce6dcf
+TDD806012  ...
+TDD7578374 [0 : 199830 : 399688] lijm? b
+TDD-8784567 progress: -1 199830 lijm
+TDD2047583 [0 : 99755 : 199830] ex? b
+TDD-2047822 progress: -1 99755 ex
+TDD1622572 [0 : 49846 : 99755] boks? a
+TDD-1622591 progress: 1 49846 boks
+TDD1471983 [49847 : 74759 : 99755] dc? a
+TDD-1471986 progress: 1 74759 dc
+TDD1383402 [74760 : 87220 : 99755] draag? a
+TDD-1383386 progress: 1 87220 draag
+TDD3032129 [87221 : 93448 : 99755] eet? b
+TDD-3032146 progress: -1 93448 eet
+TDD2167472 [87221 : 90072 : 93448] dubbel? a
+TDD-2167369 progress: 1 90072 dubbel
+TDD3102694 [90073 : 91760 : 93448] dwerg? a
+TDD-3102753 progress: 1 91760 dwerg
+TDD2079476 [91761 : 92589 : 93448] educatie? a
+TDD-2079556 progress: 1 92589 educatie
+TDD1792257 [92590 : 92756 : 93448] een? a
+TDD-1792219 progress: 1 92756 een
+TDD1687024 [92757 : 93099 : 93448] eenpersoons? b
+TDD-1687025 progress: -1 93099 eenpersoons
+TDD1832224 [92757 : 92923 : 93099] eenheid? it
+TDD-1832218 progress: 0 92923 eenheid
+TDD-168 [92757 : 92923 : 93099] <Done>.
+TDD2856383 📋> 🧩 Puzzel #439
+TDD-2856281 📋> 🤔 12 gokken
+TDD-112 📋> ⏱️ 22s
+TDD286942 📋> 🔗 alfagok.diginaut.net
+TDD-70749 📋> ␚
+TDD-216042 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #439\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD300 result: "\ud83e\udde9 Puzzel #439\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-457 result puzzle: 439
+TDD-7 result guesses: 12
+TDD-1 result time: 22s
+TDD0 result link: alfagok.diginaut.net
+TDD159879 📆 2026-01-15 ? 
