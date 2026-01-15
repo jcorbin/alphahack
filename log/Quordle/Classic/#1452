@@ -1,0 +1,93 @@
+T212.8530230460019 now: 2026-01-15T08:39:58EST
+TD82 site: m-w.com/games/quordle/#/
+TDD-68 wordlist: nwl2023.txt
+TDD-9 num_words: 4
+TDD1767051  ...
+TDD5424938 > *
+TDD-5567918 ? 2
+TDD-1623854 questioning: riles
+TDD3951768 Classic #1 _____? nMnnM
+TDD-3951533 attempt: 0 RILES n m n n m
+TDD1615026 Classic #2 _____? MnnMn
+TDD-1615158 attempt: 1 RILES m n n m n
+TDD2207514 Classic #3 _____? MnnMn
+TDD-2207524 attempt: 2 RILES m n n m n
+TDD1263295 Classic #4 _____? nMMnn
+TDD-1263263 attempt: 3 RILES n m m n n
+TDD1159249 > *
+TDD-23391 ? 1
+TDD-1135940 questioning: grace
+TDD2735334 Classic #1 _____ ~IS -ELR? nnnnn
+TDD-2735299 attempt: 0 GRACE n n n n n
+TDD2439476 Classic #2 _____ ~ER -ILS? nYnYM
+TDD-2439438 attempt: 1 GRACE n Y n Y m
+TDD4295601 Classic #3 _____ ~ER -ILS? nMMnM
+TDD-4295627 attempt: 2 GRACE n m m n m
+TDD1520126 Classic #4 _____ ~IL -ERS? nnnnn
+TDD-1520108 attempt: 3 GRACE n n n n n
+TDD1142441 > *
+TDD153080 ? 1
+TDD-1295645 questioning: joist
+TDD3831622 Classic #1 _____ ~IS -ACEGLR? nnYMY
+TDD-3831588 attempt: 0 JOIST n n Y m Y
+TDD1111553 Classic #2 _R_C_ ~E -AGILS? nnnnn
+TDD-1111496 attempt: 1 JOIST n n n n n
+TDD1191439 Classic #3 _____ ~AER -CGILS? nnnnM
+TDD-1191472 attempt: 2 JOIST n n n n m
+TDD1071496 Classic #4 _____ ~IL -ACEGRS? nnMnn
+TDD-1071435 attempt: 3 JOIST n n m n n
+TDD1175345 > *
+TDD-95551 ? 1
+TDD-1079857 questioning: wreck
+TDD3871408 Classic #1 __I_T ~S -ACEGJLOR? nnnnn
+TDD-3871436 attempt: 0 WRECK n n n n n
+TDD1791848 Classic #2 _R_C_ ~E -AGIJLOST? YYYYY
+TDD-1791861 attempt: 1 WRECK Y Y Y Y Y
+TDD4095740 Classic #3 _____ ~AERT -CGIJLOS? nMMnn
+TDD-4095647 attempt: 2 WRECK n m m n n
+TDD1063782 Classic #4 _____ ~IL -ACEGJORST? nnnnn
+TDD-1063750 attempt: 3 WRECK n n n n n
+TDD2086999 > *
+TDD1320507 ? ␚
+TDD-3407709 <EOF>
+TDD1223743 > * 4
+TDD688271 ? 1
+TDD-1911895 questioning: fluid
+TDD3359170 Classic #1 __I_T ~S -ACEGJKLORW? nnnMn
+TDD-3359102 attempt: 0 FLUID n n n m n
+TDD3479554 Classic #3 _____ ~AERT -CGIJKLOSW? nnnnn
+TDD-3479569 attempt: 2 FLUID n n n n n
+TDD2111233 Classic #4 _____ ~IL -ACEGJKORSTW? nMMYn
+TDD-2111218 attempt: 3 FLUID n m m Y n
+TDD975306 > *
+TDD-975114 questioning: stint
+TDD4439065 Classic #1 __I_T ~S -ACDEFGJKLORUW? YYYYY
+TDD-4439272 attempt: 0 STINT Y Y Y Y Y
+TDD3143553 Classic #3 _____ ~AERT -CDFGIJKLOSUW? nMnnn
+TDD-3143558 attempt: 2 STINT n m n n n
+TDD1415365 Classic #4 ___I_ ~LU -ACDEFGJKORSTW? nnMnn
+TDD-1415362 attempt: 3 STINT n n m n n
+TDD1047369 > *
+TDD-1047164 questioning: pupil
+TDD4175019 Classic #3 _____ ~AERT -CDFGIJKLNOSUW T:1? nnnnn
+TDD-4175314 attempt: 2 PUPIL n n n n n
+TDD1207552 Classic #4 ___I_ ~LU -ACDEFGJKNORSTW? YYYYY
+TDD-1207425 attempt: 3 PUPIL Y Y Y Y Y
+TDD1863352 > *
+TDD3616404 ? 3
+TDD-5479844 questioning: earth
+TDD4351510 Classic #3 _____ ~AERT -CDFGIJKLNOPSUW T:1? YMMMn
+TDD-4351543 attempt: 2 EARTH Y m m m n
+TDD743535 > *
+TDD-743153 questioning: extra
+TDD2950784 Classic #3 E____ ~ART -CDFGHIJKLNOPSUW T:1? YYYYY
+TDD-2951147 attempt: 2 EXTRA Y Y Y Y Y
+TDD4456595 📋> 🙂 Daily Quordle 1452
+TDD-4456678 📋> 6️⃣4️⃣
+TDD-131 📋> 9️⃣7️⃣
+TDD-8 📋> m-w.com/games/quordle/
+TDD327423 📋> 
+TDD-150986 📋> ␚
+TDD-176274 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1452\n6\ufe0f\u20e34\ufe0f\u20e3\n9\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1064 result: "\ud83d\ude42 Daily Quordle 1452\n6\ufe0f\u20e34\ufe0f\u20e3\n9\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD188455 📆 2026-01-15 ? 
