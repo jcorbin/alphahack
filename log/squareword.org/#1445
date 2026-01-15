@@ -1,0 +1,144 @@
+T613.6507100410017 now: 2026-01-15T08:46:38EST
+TD136 site: squareword.org
+TDD-101 wordlist: nwl2023.txt
+TDD3686375  ...
+TDD-1430369 🧩  ? #1445
+TDD-2255787 puzzle_id: #1445
+TDD4599716 > *
+TDD2384640 try? ____S ~ A
+TDD-5560863 try? 1
+TDD-1423326 questioning: ["ideas", "#5"]
+TDD2623108 #1 <IndexError>  📋 "ideas" ? ____S ~ A
+TDD-2622973 attempt 0 IDEAS n n n m Y
+TDD2134689 #2 <IndexError>  📋 "ideas" ? _____ ~ E
+TDD-2134829 attempt 1 IDEAS n n m n n
+TDD1983780 #3 <IndexError>  📋 "ideas" ? _____ ~ EA
+TDD-1983846 attempt 2 IDEAS n n m m n
+TDD1687184 #4 <IndexError>  📋 "ideas" ? _____ ~ E
+TDD-1687165 attempt 3 IDEAS n n m n n
+TDD2655488 #5 <IndexError>  📋 "ideas" ? __EA_ ~ S
+TDD-2655498 attempt 4 IDEAS n n Y Y m
+TDD286859 ? 
+TDD-286957 question done
+TDD544266 > *
+TDD1014768 try? 1
+TDD-1558877 questioning: ["speak", "#5"]
+TDD4638789 #1 ____S ~A -DEI  📋 "speak" ? ____S ~ AP
+TDD-4638939 attempt 0 SPEAK n m n m n
+TDD2583741 #2 _____ ~E -ADIS  📋 "speak" ? .
+TDD-2583679 attempt 1 SPEAK n n m n n
+TDD8823435 #3 _____ ~AE -DIS  📋 "speak" ? _____ ~ EA
+TDD-8823453 attempt 2 SPEAK n n m m n
+TDD3479208 #4 _____ ~E -ADIS  📋 "speak" ? _____ ~ EK
+TDD-3479230 attempt 3 SPEAK n n m n m
+TDD3455970 #5 __EA_ ~S -DI  📋 "speak" ? S_EA_ 
+TDD-3455922 attempt 4 SPEAK Y n Y Y n
+TDD647518 ? 
+TDD-647647 question done
+TDD502883 > *
+TDD2560941 try? 1
+TDD-3063597 questioning: ["shear", "#5"]
+TDD7135466 #1 ____S ~AP -DEIKS  📋 "shear" ? ____S ~ APR
+TDD-7135649 attempt 0 SHEAR n n n m m
+TDD3047438 #2 _____ ~E -ADIKPS  📋 "shear" ? _____ ~ EHR
+TDD-3047346 attempt 1 SHEAR n m m n m
+TDD1711397 #3 _____ ~AE -DIKPS  📋 "shear" ? .
+TDD-1711406 attempt 2 SHEAR n n m m n
+TDD1199349 #4 _____ ~EK -ADIPS  📋 "shear" ? .
+TDD-1199318 attempt 3 SHEAR n n m n n
+TDD1735374 #5 S_EA_ -DIKP  📋 "shear" ? S_EAR
+TDD-1735480 attempt 4 SHEAR Y n Y Y Y
+TDD215461 ? 
+TDD-215553 question done
+TDD999385 > *
+TDD1432656 try? 1
+TDD-2431808 questioning: ["swear", "#5"]
+TDD7439140 #1 ____S ~APR -DEHIKS  📋 "swear" ? .
+TDD-7439165 attempt 0 SWEAR n n n m m
+TDD1727297 #2 _____ ~EHR -ADIKPS  📋 "swear" ? .
+TDD-1727265 attempt 1 SWEAR n n m n m
+TDD679505 #3 _____ ~AE -DHIKPRS  📋 "swear" ? .
+TDD-679647 attempt 2 SWEAR n n m m n
+TDD759506 #4 _____ ~EK -ADHIPRS  📋 "swear" ? .
+TDD-759420 attempt 3 SWEAR n n m n n
+TDD1918939 #5 S_EAR -DHIKP  📋 "swear" ? .
+TDD-1919019 attempt 4 SWEAR Y n Y Y Y
+TDD1175538 ? 
+TDD-1175647 question done
+TDD623839 > *
+TDD-111723 questioning: ["smear", "#5"]
+TDD4303398 #1 ____S ~APR -DEHIKSW  📋 "smear" ? .
+TDD-4815415 attempt 0 SMEAR n n n m m
+TDD887534 #2 _____ ~EHR -ADIKPSW  📋 "smear" ? .
+TDD-887437 attempt 1 SMEAR n n m n m
+TDD1079332 #3 _____ ~AE -DHIKPRSW  📋 "smear" ? .
+TDD-1079413 attempt 2 SMEAR n n m m n
+TDD479463 #4 _____ ~EK -ADHIPRSW  📋 "smear" ? .
+TDD-479383 attempt 3 SMEAR n n m n n
+TDD4055421 #5 S_EAR -DHIKPW  📋 "smear" ? /it
+TDD-4055524 attempt 4 SMEAR Y Y Y Y Y
+TDD527802 ? 
+TDD-527840 question done
+TDD783627 > *
+TDD2456274 try? 2
+TDD-3239760 questioning: ["retch", "#2"]
+TDD10926883 #1 ____S ~APR -DEHIKMSW  📋 "retch" ? ____S ~ APRC
+TDD-10926899 attempt 0 RETCH m n n m n
+TDD3887780 #2 _____ ~EHR -ADIKMPSW  📋 "retch" ? _E___ ~ HR
+TDD-3887723 attempt 1 RETCH m Y n n m
+TDD1296196 #3 _____ ~AE -DHIKMPRSW  📋 "retch" ? .
+TDD-1296228 attempt 2 RETCH n m n n n
+TDD1815243 #4 _____ ~EK -ADHIMPRSW  📋 "retch" ? .
+TDD-1815252 attempt 3 RETCH n m n n n
+TDD174039 ? 
+TDD-174169 question done
+TDD536541 > *
+TDD1216426 questioning: ["craps", "#1"]
+TDD1404696 #1 ____S ~ACPR -DEHIKMSTW  📋 "craps" ? /it
+TDD-3157630 attempt 0 CRAPS Y Y Y Y Y
+TDD1231902 #2 _E___ ~HR -ACDIKMPSTW  📋 "craps" ? .
+TDD-1231746 attempt 1 CRAPS n m n n n
+TDD879040 #3 _____ ~AE -CDHIKMPRSTW  📋 "craps" ? .
+TDD-879109 attempt 2 CRAPS n n m n n
+TDD583181 #4 _____ ~EK -ACDHIMPRSTW  📋 "craps" ? .
+TDD-583184 attempt 3 CRAPS n n n n n
+TDD175267 ? 
+TDD-175370 question done
+TDD503557 > *
+TDD1080155 questioning: ["heron", "#2"]
+TDD1871642 #2 _E___ ~HR -ACDIKMPSTW  📋 "heron" ? /it
+TDD-3455331 attempt 1 HERON Y Y Y Y Y
+TDD1064202 #3 _____ ~AE -CDHIKMPRSTW  📋 "heron" ? .
+TDD-1064080 attempt 2 HERON n m n n n
+TDD519099 #4 _____ ~EK -ACDHIMPRSTW  📋 "heron" ? .
+TDD-519134 attempt 3 HERON n m n n n
+TDD159706 ? 
+TDD-159856 question done
+TDD598784 > *
+TDD709484 questioning: ["eagle", "#3"]
+TDD2007103 #3 _____ ~AE -CDHIKMNOPRSTW  📋 "eagle" ? /it
+TDD-3315291 attempt 2 EAGLE Y Y Y Y Y
+TDD2808176 #4 _____ ~EK -ACDHIMNOPRSTW  📋 "eagle" ? ____E ~ KL
+TDD-2808047 attempt 3 EAGLE n n n m Y
+TDD247005 ? 
+TDD-247211 question done
+TDD711562 > *
+TDD196501 questioning: ["fluke", "#4"]
+TDD2662952 #4 ____E ~KL -ACDGHIMNOPRSTW  📋 "fluke" ? /it
+TDD-3570863 attempt 3 FLUKE Y Y Y Y Y
+TDD599444 ? 
+TDD-599605 question done
+TDD6145052 📋> squareword.org 1445: 10 guesses
+TDD-6145112 📋> 
+TDD-115 📋> 🟨🟨🟨🟨🟩
+TDD-9 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD-1 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD710832 📋> #squareword #squareword1445
+TDD-518527 📋> ␚
+TDD-192144 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1445: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1445"}
+TDD332 result: "squareword.org 1445: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1445"
+TDD344060 📆 2026-01-15 ? 
