@@ -1,0 +1,84 @@
+T970.0084996720034 now: 2026-01-15T09:09:15EST
+TD85 site: m-w.com/games/quordle/#/rescue
+TDD-69 wordlist: nwl2023.txt
+TDD-11 num_words: 4
+TDD1238845  ...
+TDD1016857 > 
+TDD1807977 > *
+TDD-3215590 ? 1
+TDD-847902 questioning: leads
+TDD3127612 Rescue #1 _____? ␚
+TDD-3127708 <EOF>
+TDD5263901 > tried ulcer payer leads
+TDD-5263534 questioning: ULCER PAYER LEADS
+TDD1631179 Rescue #1 _____? MnnnM
+TDD-1631334 attempt: 0 ULCER m n n n m
+TDD1279197 Rescue #1 _____ ~RU -CEL? nMnnM
+TDD-1279278 attempt: 0 PAYER n m n n m
+TDD1567556 Rescue #1 _____ ~ARU -CELPY? nnYMn
+TDD-1567559 attempt: 0 LEADS n n Y m n
+TDD1655716 Rescue #2 _____? Mnnnn
+TDD-1655640 attempt: 1 ULCER m n n n n
+TDD1383233 Rescue #2 _____ ~U -CELR? nMnnn
+TDD-1383270 attempt: 1 PAYER n m n n n
+TDD1679577 Rescue #2 _____ ~AU -CELPRY? nnMnn
+TDD-1679615 attempt: 1 LEADS n n m n n
+TDD1207749 Rescue #3 _____? nMMnn
+TDD-1207747 attempt: 2 ULCER n m m n n
+TDD1527321 Rescue #3 _____ ~CL -ERU? nYnnn
+TDD-1527326 attempt: 2 PAYER n Y n n n
+TDD1727694 Rescue #3 _A___ ~CL -EPRUY? YnMnn
+TDD-1727658 attempt: 2 LEADS Y n m n n
+TDD1927328 Rescue #4 _____? nnnMM
+TDD-1927354 attempt: 3 ULCER n n n m m
+TDD1303903 Rescue #4 _____ ~ER -CLU? nnMMM
+TDD-1303828 attempt: 3 PAYER n n m m m
+TDD1304132 Rescue #4 _____ ~ERY -ACLPU? nYnnn
+TDD-1304112 attempt: 3 LEADS n Y n n n
+TDD1086556 > *
+TDD816836 ? 1
+TDD-1903513 questioning: guard
+TDD3863882 Rescue #1 __A__ ~DRU -CELPSY? YYYYY
+TDD-3863763 attempt: 0 GUARD Y Y Y Y Y
+TDD1735407 Rescue #2 _____ ~AU -CDELPRSY? nYMnn
+TDD-1735410 attempt: 1 GUARD n Y m n n
+TDD1159106 Rescue #3 LA___ ~C -DEPRSUY? nnMnn
+TDD-1159125 attempt: 2 GUARD n n m n n
+TDD2639460 Rescue #4 _E___ ~RY -ACDLPSU? nnnMn
+TDD-2639537 attempt: 3 GUARD n n n m n
+TDD2160171 > * 2
+TDD423752 ? 1
+TDD-2583891 questioning: junta
+TDD3847198 Rescue #2 _U___ ~A -CDEGLPRSY? nYMnM
+TDD-3847227 attempt: 1 JUNTA n Y m n m
+TDD1463428 Rescue #3 LA___ ~C -DEGPRSUY? nnnMM
+TDD-1463386 attempt: 2 JUNTA n n n m m
+TDD1511620 Rescue #4 _E___ ~RY -ACDGLPSU? Ynnnn
+TDD-1511533 attempt: 3 JUNTA Y n n n n
+TDD943230 > *
+TDD-943063 questioning: latch
+TDD4830770 Rescue #2 _U___ ~AN -CDEGJLPRSTY? nMnnM
+TDD-4831031 attempt: 1 LATCH n m n n m
+TDD1967789 Rescue #3 LA___ ~CT -DEGJNPRSUY? YYYYY
+TDD-1967740 attempt: 2 LATCH Y Y Y Y Y
+TDD1767280 Rescue #4 JE___ ~RY -ACDGLNPSTU? nnnnn
+TDD-1767365 attempt: 3 LATCH n n n n n
+TDD919330 > *
+TDD-919030 questioning: human
+TDD3711298 Rescue #2 _U___ ~AHN -CDEGJLPRSTY? YYYYY
+TDD-3711575 attempt: 1 HUMAN Y Y Y Y Y
+TDD1599309 Rescue #4 JE___ ~RY -ACDGHLNPSTU? nnnnn
+TDD-1599342 attempt: 3 HUMAN n n n n n
+TDD1063815 > *
+TDD-1063400 questioning: jerky
+TDD3990534 Rescue #4 JE___ ~RY -ACDGHLMNPSTU? YYYYY
+TDD-3990948 attempt: 3 JERKY Y Y Y Y Y
+TDD3961695 📋> Daily Rescue 66
+TDD-3961778 📋> 4️⃣7️⃣
+TDD-120 📋> 6️⃣8️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD285730 📋> 
+TDD-101065 📋> ␚
+TDD-184474 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 66\n4\ufe0f\u20e37\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD-15 result: "Daily Rescue 66\n4\ufe0f\u20e37\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD183168 📆 2026-01-15 ? 
