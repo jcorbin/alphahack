@@ -1,0 +1,192 @@
+T98.42023209200124 now: 2026-01-15T09:31:51EST
+TD119 site: britannica.com/games/octordle/daily-rescue
+TDD-101 wordlist: nwl2023.txt
+TDD-13 num_words: 8
+TDD887444  ...
+TDD10824357 > tried hunky baker hence saute
+TDD-11711049 questioning: HUNKY BAKER HENCE SAUTE
+TDD2975428 Rescue #1 _____? Mnnnn
+TDD-2975705 attempt: 0 HUNKY m n n n n
+TDD1654635 Rescue #1 _____ ~H -KNUY? nnnnM
+TDD-1654795 attempt: 0 BAKER n n n n m
+TDD1775464 Rescue #1 _____ ~HR -ABEKNUY? Mnnnn
+TDD-1775481 attempt: 0 HENCE m n n n n
+TDD1718879 Rescue #1 _____ ~HR -ABCEKNUY? nnnMn
+TDD-1718873 attempt: 0 SAUTE n n n m n
+TDD2056013 Rescue #2 _____? nnMnY
+TDD-2056020 attempt: 1 HUNKY n n m n Y
+TDD1815336 Rescue #2 ____Y ~N -HKU? nnnnn
+TDD-1815324 attempt: 1 BAKER n n n n n
+TDD1766930 Rescue #2 ____Y ~N -ABEHKRU? nnMnn
+TDD-1766915 attempt: 1 HENCE n n m n n
+TDD2895358 Rescue #2 ____Y ~N -ABCEHKRU? nnnnn
+TDD-2895366 attempt: 1 SAUTE n n n n n
+TDD1767353 Rescue #3 _____? nnMnn
+TDD-1767343 attempt: 2 HUNKY n n m n n
+TDD1943368 Rescue #3 _____ ~N -HKUY? nMnMn
+TDD-1943387 attempt: 2 BAKER n m n m n
+TDD1303564 Rescue #3 _____ ~AEN -BHKRUY? nMMMn
+TDD-1303573 attempt: 2 HENCE n m m m n
+TDD1591310 Rescue #3 _____ ~ACEN -BHKRUY E:1? nMnnM
+TDD-1591301 attempt: 2 SAUTE n m n n m
+TDD1479286 Rescue #4 _____? Mnnnn
+TDD-1479262 attempt: 3 HUNKY m n n n n
+TDD1895220 Rescue #4 _____ ~H -KNUY? nYnnM
+TDD-1895324 attempt: 3 BAKER n Y n n m
+TDD2295688 Rescue #4 _A___ ~HR -BEKNUY? Mnnnn
+TDD-2295601 attempt: 3 HENCE m n n n n
+TDD2287862 Rescue #4 _A___ ~HR -BCEKNUY? MYnnn
+TDD-2287873 attempt: 3 SAUTE m Y n n n
+TDD4287159 Rescue #5 _____? nnnnn
+TDD-4287143 attempt: 4 HUNKY n n n n n
+TDD2360248 Rescue #5 _____ -HKNUY? nnnYY
+TDD-2360274 attempt: 4 BAKER n n n Y Y
+TDD2399629 Rescue #5 ___ER -ABHKNUY? nMnnn
+TDD-2399694 attempt: 4 HENCE n m n n n
+TDD2015318 Rescue #5 ___ER -ABCHKNUY E:1? nnnnM
+TDD-2011647 attempt: 4 SAUTE n n n n m
+TDD1216748 Rescue #6 _____? nnnMn
+TDD-1220416 attempt: 5 HUNKY n n n m n
+TDD1399898 Rescue #6 _____ ~K -HNUY? nnMnn
+TDD-1399641 attempt: 5 BAKER n n m n n
+TDD1661623 Rescue #6 _____ ~K -ABEHNRUY? nnnnn
+TDD-1661876 attempt: 5 HENCE n n n n n
+TDD1871347 Rescue #6 _____ ~K -ABCEHNRUY? Ynnnn
+TDD-1871281 attempt: 5 SAUTE Y n n n n
+TDD2231773 Rescue #7 _____? nnnnn
+TDD-2231662 attempt: 6 HUNKY n n n n n
+TDD2047169 Rescue #7 _____ -HKNUY? nYnnY
+TDD-2047266 attempt: 6 BAKER n Y n n Y
+TDD1160319 Rescue #7 _A__R -BEHKNUY? nnnnn
+TDD-1160189 attempt: 6 HENCE n n n n n
+TDD1958736 Rescue #7 _A__R -BCEHKNUY? nYnnn
+TDD-1958855 attempt: 6 SAUTE n Y n n n
+TDD1445946 Rescue #8 _____? nnnnY
+TDD-1446000 attempt: 7 HUNKY n n n n Y
+TDD1663545 Rescue #8 ____Y -HKNU? nnnnM
+TDD-1663597 attempt: 7 BAKER n n n n m
+TDD1295580 Rescue #8 ____Y ~R -ABEHKNU? nnnnn
+TDD-1295516 attempt: 7 HENCE n n n n n
+TDD1383385 Rescue #8 ____Y ~R -ABCEHKNU? nnnnn
+TDD-1383377 attempt: 7 SAUTE n n n n n
+TDD1431802 > *
+TDD-1431187 questioning: marsh
+TDD4998086 Rescue #1 _____ ~HRT -ABCEKNSUY? nnMnM
+TDD-4998700 attempt: 0 MARSH n n m n m
+TDD1231314 Rescue #2 ____Y ~N -ABCEHKRSTU? nnnnn
+TDD-1231310 attempt: 1 MARSH n n n n n
+TDD1887438 Rescue #3 _____ ~ACEN -BHKRSTUY E:1? nMnnn
+TDD-1887405 attempt: 2 MARSH n m n n n
+TDD1503169 Rescue #4 _A___ ~HRS -BCEKNTUY? YYYYY
+TDD-1503214 attempt: 3 MARSH Y Y Y Y Y
+TDD3111552 Rescue #5 ___ER -ABCHKNSTUY E:1? nnMnn
+TDD-3111546 attempt: 4 MARSH n n m n n
+TDD1727798 Rescue #6 S____ ~K -ABCEHNRTUY? nnnMn
+TDD-1727860 attempt: 5 MARSH n n n m n
+TDD1551399 Rescue #7 _A__R -BCEHKNSTUY? nYMnn
+TDD-1551314 attempt: 6 MARSH n Y m n n
+TDD1423307 Rescue #8 ____Y ~R -ABCEHKNSTU? nnYnn
+TDD-1423315 attempt: 7 MARSH n n Y n n
+TDD4127153 > * 5
+TDD1432466 ? 1
+TDD-5559636 questioning: oiler
+TDD2991590 Rescue #1 _____ ~HRT -ABCEKMNSUY? nMnnM
+TDD-2991657 attempt: 0 OILER n m n n m
+TDD1255562 Rescue #2 ____Y ~N -ABCEHKMRSTU? Mnnnn
+TDD-1255481 attempt: 1 OILER m n n n n
+TDD1607887 Rescue #3 _____ ~ACEN -BHKMRSTUY E:1? nnMMn
+TDD-1607882 attempt: 2 OILER n n m m n
+TDD7631043 Rescue #5 ___ER -ABCHKMNSTUY E:1? YnnYY
+TDD-7631018 attempt: 4 OILER Y n n Y Y
+TDD1711267 Rescue #6 S____ ~K -ABCEHMNRTUY? nMMnn
+TDD-1711280 attempt: 5 OILER n m m n n
+TDD1447407 Rescue #7 _A__R -BCEHKMNSTUY? MnnnY
+TDD-1447403 attempt: 6 OILER m n n n Y
+TDD1791631 Rescue #8 __R_Y -ABCEHKMNSTU? MnnnM
+TDD-1791654 attempt: 7 OILER m n n n m
+TDD1271300 > *
+TDD-1271015 questioning: third
+TDD4182624 Rescue #1 _____ ~HIRT -ABCEKLMNOSUY? YYYYY
+TDD-4182961 attempt: 0 THIRD Y Y Y Y Y
+TDD2055780 Rescue #2 ____Y ~NO -ABCEHIKLMRSTU? nnnnM
+TDD-2055732 attempt: 1 THIRD n n n n m
+TDD2167079 Rescue #3 _____ ~ACELN -BHIKMORSTUY E:1? nnnnn
+TDD-2167156 attempt: 2 THIRD n n n n n
+TDD6624210 Rescue #5 O__ER -ABCHIKLMNSTUY? nnnMM
+TDD-6624104 attempt: 4 THIRD n n n m m
+TDD1606896 Rescue #6 S____ ~IKL -ABCEHMNORTUY? nnYnn
+TDD-1606907 attempt: 5 THIRD n n Y n n
+TDD2239313 Rescue #7 _A__R ~O -BCEHIKLMNSTUY? nnnMn
+TDD-2239369 attempt: 6 THIRD n n n m n
+TDD1160532 Rescue #8 __R_Y ~O -ABCEHIKLMNSTU? nnnMM
+TDD-1160441 attempt: 7 THIRD n n n m m
+TDD1118506 > *
+TDD-1118460 questioning: clean
+TDD5191602 Rescue #2 ____Y ~DNO -ABCEHIKLMRSTU? nnnnM
+TDD-5191736 attempt: 1 CLEAN n n n n m
+TDD2975602 Rescue #3 _____ ~ACELN -BDHIKMORSTUY E:1? YYYYY
+TDD-2975521 attempt: 2 CLEAN Y Y Y Y Y
+TDD2742995 Rescue #5 O__ER ~D -ABCHIKLMNSTUY? nnMnn
+TDD-2743060 attempt: 4 CLEAN n n m n n
+TDD1303806 Rescue #6 S_I__ ~KL -ABCDEHMNORTUY? nMnnn
+TDD-1303776 attempt: 5 CLEAN n m n n n
+TDD2511260 Rescue #7 _A__R ~O -BCDEHIKLMNSTUY? nnnMn
+TDD-2511270 attempt: 6 CLEAN n n n m n
+TDD1183283 Rescue #8 __R_Y ~DO -ABCEHIKLMNSTU? nnnnn
+TDD-1183292 attempt: 7 CLEAN n n n n n
+TDD999753 > *
+TDD-999514 questioning: skill
+TDD4838484 Rescue #2 ____Y ~DNO -ABCEHIKLMRSTU? nnnnn
+TDD-4838787 attempt: 1 SKILL n n n n n
+TDD3023629 Rescue #5 O__ER ~D -ABCHIKLMNSTUY? nnnnn
+TDD-3023566 attempt: 4 SKILL n n n n n
+TDD1103095 Rescue #6 S_I__ ~KL -ABCDEHMNORTUY? YYYYY
+TDD-1103138 attempt: 5 SKILL Y Y Y Y Y
+TDD1831690 Rescue #7 _A__R ~O -BCDEHIKLMNSTUY? nnnnn
+TDD-1831717 attempt: 6 SKILL n n n n n
+TDD1047998 Rescue #8 __R_Y ~DO -ABCEHIKLMNSTU? nnnnn
+TDD-1047887 attempt: 7 SKILL n n n n n
+TDD1062864 > *
+TDD-1062810 questioning: wordy
+TDD5543553 Rescue #2 ____Y ~DNO -ABCEHIKLMRSTU? MYnMY
+TDD-5543635 attempt: 1 WORDY m Y n m Y
+TDD5927886 Rescue #5 O__ER ~D -ABCHIKLMNSTUY? nMMMn
+TDD-5927899 attempt: 4 WORDY n m m m n
+TDD4350980 Rescue #7 _A__R ~O -BCDEHIKLMNSTUY? nMMnn
+TDD-4350957 attempt: 6 WORDY n m m n n
+TDD1311286 Rescue #8 __R_Y ~DO -ABCEHIKLMNSTU? YYYYY
+TDD-1311389 attempt: 7 WORDY Y Y Y Y Y
+TDD1047257 > *
+TDD-1046841 questioning: downy
+TDD4295447 Rescue #2 _O__Y ~DNW -ABCEHIKLMRSTU? YYYYY
+TDD-4295766 attempt: 1 DOWNY Y Y Y Y Y
+TDD3063553 Rescue #5 O__ER ~D -ABCHIKLMNSTUWY? MMnnn
+TDD-3063565 attempt: 4 DOWNY m m n n n
+TDD2719053 Rescue #7 _A__R ~O -BCDEHIKLMNSTUWY? nMnnn
+TDD-2719000 attempt: 6 DOWNY n m n n n
+TDD959601 > *
+TDD440551 ? 1
+TDD-1400221 questioning: order
+TDD9126840 Rescue #5 O__ER ~D -ABCHIKLMNSTUWY? YnYYY
+TDD-9126902 attempt: 4 ORDER Y n Y Y Y
+TDD2911661 Rescue #7 _A__R ~O -BCDEHIKLMNSTUWY? MnnnY
+TDD-2911584 attempt: 6 ORDER m n n n Y
+TDD895333 > *
+TDD-895160 questioning: odder
+TDD4022977 Rescue #5 O_DER -ABCHIKLMNSTUWY? YYYYY
+TDD-4023238 attempt: 4 ODDER Y Y Y Y Y
+TDD4087511 Rescue #7 _A__R ~O -BCDEHIKLMNSTUWY? MnnnY
+TDD-4087497 attempt: 6 ODDER m n n n Y
+TDD5543227 > /res
+TDD-2470462 📋> Daily Rescue Octordle #1452
+TDD-3072833 📋> 7️⃣🕚
+TDD-131 📋> 8️⃣5️⃣
+TDD7 📋> 🕐9️⃣
+TDD-12 📋> 🟥🔟
+TDD607595 📋> Score: 7
+TDD-431555 📋> ␚
+TDD-175871 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1452\n7\ufe0f\u20e3\ud83d\udd5a\n8\ufe0f\u20e35\ufe0f\u20e3\n\ud83d\udd509\ufe0f\u20e3\n\ud83d\udfe5\ud83d\udd1f\nScore: 7"}
+TDD920 result: "Daily Rescue Octordle #1452\n7\ufe0f\u20e3\ud83d\udd5a\n8\ufe0f\u20e35\ufe0f\u20e3\n\ud83d\udd509\ufe0f\u20e3\n\ud83d\udfe5\ud83d\udd1f\nScore: 7"
+TDD277675 > 
+TDD1736838 > /store
+TDD-1407914 📆 2026-01-15 ? 
