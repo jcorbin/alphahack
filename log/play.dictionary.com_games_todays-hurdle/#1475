@@ -1,0 +1,102 @@
+T241.1623986409977 now: 2026-01-15T08:35:11EST
+TD88 site: https://play.dictionary.com/games/todays-hurdle
+TDD-74 wordlist: nwl2023.txt
+TDD17816331  ...
+TDD-14000236 1.1> *
+TDD16096175 1.1 ? 3
+TDD-13568048 1.1 📋 "arise" ? nMnMn
+TDD-6343769 tried: ARISE n m n m n
+TDD1535114 1.2> *
+TDD8792308 1.2 ? 1
+TDD-6767408 1.2 📋 "fours" ? nMnYM
+TDD-3560160 tried: FOURS n m n Y m
+T20.107716653001262 now: 2026-01-15T08:36:45EST
+TD2389718 1.3> *
+TDD2298494 1.3 ? 1
+TDD80020 1.3 📋 "snort" ? YnYYn
+TDD-4767883 tried: SNORT Y n Y Y n
+TDD591317 1.4> *
+TDD1111949 1.4 ? 2
+TDD2720685 1.4 📋 "sword" ? YYYYY
+TDD-4424036 tried: SWORD Y Y Y Y Y
+TDD9087720 2.1 📋 "sword" ? nnnnn
+TDD-9087684 tried: SWORD n n n n n
+TDD2199856 2.2> *
+TDD2895094 2.2 ? 2
+TDD-1094784 2.2 📋 "anime" ? nnnnY
+TDD-4000233 tried: ANIME n n n n Y
+TDD839136 2.3> *
+TDD2080823 2.3 ? 1
+TDD1832046 2.3 📋 "bugle" ? nMnMY
+TDD-4752022 tried: BUGLE n m n m Y
+TDD511339 2.4> *
+TDD5512464 2.4 ? 1
+TDD-1631278 2.4 📋 "fluke" ? YYYYY
+TDD-4392459 tried: FLUKE Y Y Y Y Y
+TDD8614949 3.1 📋 "fluke" ? nnnMn
+TDD-8614931 tried: FLUKE n n n m n
+TDD3151429 3.2> *
+TDD-839586 3.2 ? 3
+TDD4319755 3.2 📋 "kinds" ? MnMMn
+TDD-6631704 tried: KINDS m n m m n
+TDD2655744 3.3> *
+TDD3096134 3.3 📋 "drank" ? YYYYY
+TDD-5751784 tried: DRANK Y Y Y Y Y
+TDD8183512 4.1 📋 "drank" ? nYnnn
+TDD-8183567 tried: DRANK n Y n n n
+TDD3088037 4.2> *
+TDD-1312738 4.2 ? 1
+TDD1704677 4.2 📋 "prose" ? nYnnn
+TDD-3479955 tried: PROSE n Y n n n
+TDD503573 4.3> *
+TDD4312167 4.3 ? 2
+TDD3224385 4.3 📋 "cruft" ? nYnnn
+TDD-8040085 tried: CRUFT n Y n n n
+TDD2998903 4.4> *
+TDD-87102 4.4 ? 1
+TDD2655948 4.4 📋 "grimy" ? YYYYY
+TDD-5567809 tried: GRIMY Y Y Y Y Y
+TDD9559773 5.1 📋 "sword" ? nnnnn
+TDD-9559711 tried: SWORD n n n n n
+TDD1679244 5.2 📋 "fluke" ? MnnnM
+TDD-1679319 tried: FLUKE m n n n m
+TDD1143704 5.3 📋 "drank" ? nnnnn
+TDD-1143638 tried: DRANK n n n n n
+TDD1319651 5.4 📋 "grimy" ? nnYnn
+TDD-1319708 tried: GRIMY n n Y n n
+TDD687512 5.5> *
+TDD1200057 5.5 ? 1
+TDD2072529 5.5 📋 "chief" ? nYYYY
+TDD-3960053 tried: CHIEF n Y Y Y Y
+TDD639237 5.6> *
+TDD2456790 5.6 📋 "thief" ? YYYYY
+TDD-3096018 tried: THIEF Y Y Y Y Y
+TDD18095665 📋> Hurdle 1475
+TDD-18095835 📋> 
+TDD-105 📋> 4/6
+TDD-1 📋> ⬜🟨⬜🟨⬜
+TDD-2 📋> ⬜🟨⬜🟩🟨
+TDD-1 📋> 🟩⬜🟩🟩⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD6 📋> ⬜⬜⬜⬜⬜
+TDD-5 📋> ⬜⬜⬜⬜🟩
+TDD-1 📋> ⬜🟨⬜🟨🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> ⬜⬜⬜🟨⬜
+TDD0 📋> 🟨⬜🟨🟨⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 4/6
+TDD0 📋> ⬜🟩⬜⬜⬜
+TDD0 📋> ⬜🟩⬜⬜⬜
+TDD0 📋> ⬜🟩⬜⬜⬜
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 2/2
+TDD0 📋> ⬜🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD887636 📋> score: 9,900
+TDD-695424 📋> ␚
+TDD-192053 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1475\n\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,900"}
+TDD328 result: "Hurdle 1475\n\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,900"
+TDD230720 📆 2026-01-15 ? 
