@@ -206,7 +206,7 @@ class OSC52Clipboard:
     def _maybe_not(self):
         if not self.notified:
             self.notified = True
-            print('WARNING: OSC-52 past not-implemented', file=sys.stderr)
+            print('WARNING: OSC-52 paste not-implemented', file=sys.stderr)
 
     @property
     def name(self): return 'osc52'
