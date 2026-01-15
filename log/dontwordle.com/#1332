@@ -1,0 +1,92 @@
+T331.9528617140022 now: 2026-01-15T08:41:57EST
+TD153 site: dontwordle.com
+TDD-127 wordlist: nwl2023.txt
+TDD5525693  ...
+TDD-4525851 1> *
+TDD60704824 ? ␚
+TDD-61704549 <EOF>
+TDD6543663 1> * -bot 10
+TDD8103 ? 1
+TDD1480637 📋 "tears" ? nnnnn
+TDD-8032006 tried: TEARS n n n n n
+TDD2678736 2> * -bot 10
+TDD-1382794 ? 1
+TDD3415038 📋 "lying" ? nMnnn
+TDD-4711212 tried: LYING n m n n n
+TDD1959558 3> undo
+TDD-1959631 undo
+TDD697019 2> undo
+TDD-696815 undo
+TDD4757877 1> * -bot 10
+TDD3105211 ? ␚
+TDD-7863384 <EOF>
+TDD5016416 1> * -bot 10 :v [tears]
+TDD3383168 1> * -bot 10 :v [tear]
+TDD-3615659 1> * -bot 10 :v [ea]
+TDD775955 1> *
+TDD-4575936 ? ␚
+TDD-983948 <EOF>
+TDD2279685 1> * :v [ea]
+TDD-807263 ? ␚
+TDD-1472433 <EOF>
+TDD8687406 1> * :v [ea] -bot 10
+TDD-7519359 ? ␚
+TDD-1168050 <EOF>
+TDD6959510 1> * :v [tears] -bot 10
+TDD-495610 ? 2
+TDD3832371 📋 "login" ? nnnnn
+TDD-10296097 tried: LOGIN n n n n n
+TDD6287731 2> undo
+TDD-6287777 undo
+TDD5455172 1> * :v [tearslogin] -bot 10
+TDD-4023414 ? 1
+TDD6936224 📋 "chump" ? MnMMn
+TDD-8367952 tried: CHUMP m n m m n
+TDD830884 2> undo
+TDD-830989 undo
+TDD3888356 1> * 
+TDD-2959245 ? 1
+TDD3677442 📋 "oppos" ? nnnnn
+TDD-4606206 tried: OPPOS n n n n n
+TDD574337 2> *
+TDD1817899 ? 1
+TDD3830797 📋 "kaiak" ? Mnnnn
+TDD-6223290 tried: KAIAK m n n n n
+TDD3495490 3> undo
+TDD-3495557 undo
+TDD5712124 2> *
+TDD-4664162 ? 1
+TDD2647496 📋 "wanna" ? nnnnn
+TDD-3695361 tried: WANNA n n n n n
+TDD1247472 3> *
+TDD552026 ? 1
+TDD2736798 📋 "verve" ? nnnnn
+TDD-4536312 tried: VERVE n n n n n
+TDD1822642 4> *
+TDD1097453 ? 1
+TDD1383935 📋 "zizit" ? nnnnn
+TDD-4304024 tried: ZIZIT n n n n n
+TDD727145 5> *
+TDD768564 ? 1
+TDD2424518 📋 "bluff" ? nnMnn
+TDD-3920233 tried: BLUFF n n m n n
+TDD543169 6> *
+TDD4856268 📋 "jugum" ? nYnnM
+TDD-5399502 tried: JUGUM n Y n n m
+TDD3136645 📋> Don't Wordle 1332 - SURVIVED
+TDD-3136759 📋> Hooray! I didn't Wordle today!
+TDD-95 📋> ⬜⬜⬜⬜⬜4100
+TDD-4 📋> ⬜⬜⬜⬜⬜1330
+TDD-1 📋> ⬜⬜⬜⬜⬜263
+TDD0 📋> ⬜⬜⬜⬜⬜62
+TDD0 📋> ⬜⬜🟨⬜⬜20
+TDD0 📋> ⬜🟩⬜⬜🟨6
+TDD0 📋> Undos used: 5
+TDD0 📋> 
+TDD0 📋>   6 words remaining
+TDD0 📋> x 7 unused letters
+TDD278895 📋> = 42 total score
+TDD-70675 📋> ␚
+TDD-208053 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1332 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4100\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1330\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c263\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c62\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c20\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe86\nUndos used: 5\n\n  6 words remaining\nx 7 unused letters\n= 42 total score"}
+TDD812 result: "Don't Wordle 1332 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4100\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1330\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c263\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c62\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c20\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe86\nUndos used: 5\n\n  6 words remaining\nx 7 unused letters\n= 42 total score"
+TDD309523 📆 2026-01-15 ? 
