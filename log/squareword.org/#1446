@@ -1,0 +1,101 @@
+T12.421768917999998 now: 2026-01-16T09:02:24EST
+TD208 site: squareword.org
+TDD-165 wordlist: nwl2023.txt
+TDD4585945  ...
+TDD-2166396 🧩  ? #1446
+TDD-2419305 puzzle_id: #1446
+TDD1234335 > *
+TDD62674 try? 1
+TDD-1296855 questioning: ["tales", "#5"]
+TDD5401535 #1 <IndexError>  📋 "tales" ? ___E_ ~ TA
+TDD-5401133 attempt 0 TALES m m n Y n
+TDD2035879 #2 <IndexError>  📋 "tales" ? _____ ~ AL
+TDD-2036293 attempt 1 TALES n m m n n
+TDD2756908 #3 <IndexError>  📋 "tales" ? _____ ~ TA
+TDD-2756918 attempt 2 TALES m m n n n
+TDD2643352 #4 <IndexError>  📋 "tales" ? _____ ~ AE
+TDD-2643461 attempt 3 TALES n m n m n
+TDD3209200 #5 <IndexError>  📋 "tales" ? _A_E_ ~ ES
+TDD-3209105 attempt 4 TALES n Y n Y m
+TDD650207 ? 
+TDD-650359 question done
+TDD607554 > *
+TDD1555727 try? 1
+TDD-2163206 questioning: ["after", "#1"]
+TDD4006958 #1 ___E_ ~AT -LS  📋 "after" ? A_TE_
+TDD-4006972 attempt 0 AFTER Y n Y Y n
+TDD1905538 #2 _____ ~AL -EST  📋 "after" ? .
+TDD-1905497 attempt 1 AFTER m n n n n
+TDD1970176 #3 _____ ~AT -ELS  📋 "after" ? A____ ~ T
+TDD-1970177 attempt 2 AFTER Y n m n n
+TDD2763621 #4 _____ ~AE -LST  📋 "after" ? _____ ~ AER
+TDD-2763755 attempt 3 AFTER m n n m m
+TDD3711085 #5 _A_E_ ~S -LT  📋 "after" ? _A_E_ ~ ES
+TDD-3710858 attempt 4 AFTER n n n Y n
+TDD549170 ? 
+TDD-549330 question done
+TDD864460 > *
+TDD2098763 try? 2
+TDD-2963198 questioning: ["acted", "#1"]
+TDD2977671 #1 A_TE_ -FLRS  📋 "acted" ? /it
+TDD-2977628 attempt 0 ACTED Y Y Y Y Y
+TDD3499302 #2 _____ ~AL -EFRST  📋 "acted" ? _____ ~ ALD
+TDD-3499363 attempt 1 ACTED m n n n m
+TDD1917857 #3 A____ ~T -EFLRS  📋 "acted" ? .
+TDD-1917761 attempt 2 ACTED Y n m n n
+TDD779994 #4 _____ ~AER -FLST  📋 "acted" ? .
+TDD-780053 attempt 3 ACTED m n n m n
+TDD3767214 #5 _A_E_ ~S -AFLRT  📋 "acted" ? _A_ED ~ ES
+TDD-3767199 attempt 4 ACTED n n n Y Y
+TDD269091 ? 
+TDD-269243 question done
+TDD2156791 > *
+TDD-1533321 questioning: ["doula", "#2"]
+TDD3413483 #2 _____ ~ADL -CEFRST  📋 "doula" ? /it
+TDD-4036848 attempt 1 DOULA Y Y Y Y Y
+TDD3836912 #3 A____ ~T -CDEFLRS  📋 "doula" ? A____ ~ TO
+TDD-3836851 attempt 2 DOULA n m n n n
+TDD1336407 #4 _____ ~AER -CDFLST  📋 "doula" ? .
+TDD-1336528 attempt 3 DOULA n n n n m
+TDD3345093 #5 _A_ED ~S -ACFLRT  📋 "doula" ? _A_ED ~ ES
+TDD-3344945 attempt 4 DOULA n n n n n
+TDD404955 ? 
+TDD-405133 question done
+TDD11072945 > *
+TDD-9534521 questioning: ["abbot", "#3"]
+TDD4091482 #3 A____ ~OT -ACDEFLRSU  📋 "abbot" ? /it
+TDD-5629777 attempt 2 ABBOT Y Y Y Y Y
+TDD2185369 #4 _____ ~AER -CDFLOSTU  📋 "abbot" ? .
+TDD-2185560 attempt 3 ABBOT m n n n n
+TDD3213946 #5 _A_ED ~S -ACDFLORTU  📋 "abbot" ? _A_ED ~ ES
+TDD-3213909 attempt 4 ABBOT n n n n n
+TDD297343 ? 
+TDD-297316 question done
+TDD659577 > *
+TDD1014858 questioning: ["grape", "#4"]
+TDD1448032 #4 _____ ~AER -BCDFLOSTU  📋 "grape" ? /it
+TDD-3122319 attempt 3 GRAPE Y Y Y Y Y
+TDD3133182 #5 _A_ED ~S -ABCDFLORTU  📋 "grape" ? _A_ED ~ ES
+TDD-3133208 attempt 4 GRAPE n n n n m
+TDD796279 ? 
+TDD-796390 question done
+TDD582793 > *
+TDD508408 questioning: ["eased", "#5"]
+TDD2284452 #5 _A_ED ~S -ABCDFGLOPRTU  📋 "eased" ? /it
+TDD-3375573 attempt 4 EASED Y Y Y Y Y
+TDD7778981 ? ␚
+TDD-7779124 question done
+TDD814091 📋> squareword.org 1446: 7 guesses
+TDD-814120 📋> 
+TDD-95 📋> 🟩🟩🟩🟩🟩
+TDD-17 📋> 🟩🟩🟩🟩🟩
+TDD1 📋> 🟩🟩🟩🟩🟩
+TDD-4 📋> 🟨🟨🟨🟨🟨
+TDD0 📋> 🟨🟩🟨🟩🟩
+TDD0 📋> 
+TDD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD333912 📋> #squareword #squareword1446
+TDD-104936 📋> ␚
+TDD-228861 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1446: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1446"}
+TDD714 result: "squareword.org 1446: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1446"
+TDD364679 📆 2026-01-16 ? 
