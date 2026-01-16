@@ -1,0 +1,51 @@
+T6.566802843999994 now: 2026-01-16T08:42:34EST
+TD181 site: alfagok.diginaut.net
+TDD403410 loaded 399689 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1163 words excluded) asof 538c2ecbe8f6c09f886440f764334eaa1533a1ef
+TDD6364357  ...
+TDD-2600425 [0 : 199833 : 399689] lijm? a
+TDD-4167023 progress: 1 199833 lijm
+TDD2134612 [199834 : 299738 : 399689] schub? a
+TDD-2134944 progress: 1 299738 schub
+TDD1666118 [299739 : 349521 : 399689] vakantie? a
+TDD-1666040 progress: 1 349521 vakantie
+TDD1883365 [349522 : 374263 : 399689] vrij? b
+TDD-1883453 progress: -1 374263 vrij
+TDD1591102 [349522 : 353089 : 374263] ver? a
+TDD-1591071 progress: 1 353089 ver
+TDD1595850 [353090 : 363672 : 374263] verzot? a
+TDD-1595860 progress: 1 363672 verzot
+TDD1963146 [363673 : 368685 : 374263] voetbal? b
+TDD-1963162 progress: -1 368685 voetbal
+TDD1628457 [363673 : 365612 : 368685] vis? b
+TDD-1628449 progress: -1 365612 vis
+TDD1675660 [363673 : 364522 : 365612] vier? a
+TDD-1675607 progress: 1 364522 vier
+TDD3245315 [364523 : 365060 : 365612] vijgen? b
+TDD-3245170 progress: -1 365060 vijgen
+TDD5813448 [364523 : 364791 : 365060] vietnamveteraan? !
+TDD-3472370 [364523 : 364791 : 365059] vieux? a
+TDD-2341288 progress: 1 364791 vieux
+TDD1796143 [364792 : 364865 : 365059] vijf? 
+TDD-1135668 [364792 : 364865 : 365059] vijf? a
+TDD-660455 progress: 1 364865 vijf
+TDD1857851 [364866 : 364959 : 365059] vijfhonderd? a
+TDD-1857931 progress: 1 364959 vijfhonderd
+TDD1846219 [364960 : 365010 : 365059] vijftal? a
+TDD-1846162 progress: 1 365010 vijftal
+TDD1897853 [365011 : 365029 : 365059] vijftig? b
+TDD-1897773 progress: -1 365029 vijftig
+TDD2653116 [365011 : 365014 : 365029] vijftien? it
+TDD-2653114 progress: 0 365014 vijftien
+TDD-205 [365011 : 365014 : 365029] <Done>.
+TDD2766029 📋> 🧩 Puzzel #440
+TDD-2765940 📋> 🤔 16 gokken
+TDD-99 📋> ⏱️ 36s
+TDD329445 📋> 🔗 alfagok.diginaut.net
+TDD-157134 📋> ␚
+TDD-172205 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #440\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 36s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD426 result: "\ud83e\udde9 Puzzel #440\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 36s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-536 result puzzle: 440
+TDD-7 result guesses: 16
+TDD-3 result time: 36s
+TDD0 result link: alfagok.diginaut.net
+TDD240303 📆 2026-01-16 ? 
