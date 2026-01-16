@@ -1,0 +1,104 @@
+T436.06036364500005 now: 2026-01-16T08:49:44EST
+TD135 site: m-w.com/games/quordle/#/
+TDD-110 wordlist: nwl2023.txt
+TDD-16 num_words: 4
+TDD6794810  ...
+TDD-5768207 > *
+TDD100408 ? 1
+TDD-1126824 questioning: raise
+TDD65858664 Classic #1 _____? nnYnn
+TDD-65858168 attempt: 0 RAISE n n Y n n
+TDD1210429 Classic #2 _____? nnnnn
+TDD-1210724 attempt: 1 RAISE n n n n n
+TDD1884961 Classic #3 _____? nMnnM
+TDD-1885182 attempt: 2 RAISE n m n n m
+TDD1649152 Classic #4 _____? MYnnn
+TDD-1648979 attempt: 3 RAISE m Y n n n
+TDD1198347 > ␚
+TDD-1198528 <EOF>
+T179.24722835700004 now: 2026-01-16T08:54:06EST
+TD120 questioning: raise
+TDD1792222 > *
+TDD796185 ? 4
+TDD-2588279 questioning: lofty
+TDD3507172 Classic #1 __I__ -AERS? nnnYY
+TDD-3507023 attempt: 0 LOFTY n n n Y Y
+TDD1854398 Classic #2 _____ -AEIRS? MYnnY
+TDD-1854490 attempt: 1 LOFTY m Y n n Y
+TDD1621145 Classic #3 _____ ~AE -IRS? YnnnY
+TDD-1621185 attempt: 2 LOFTY Y n n n Y
+TDD1227319 Classic #4 _A___ ~R -EIS? nnnYY
+TDD-1227276 attempt: 3 LOFTY n n n Y Y
+TDD1372229 > *
+TDD1106963 ? ␚
+TDD-2479390 <EOF>
+TDD1193483 > * 2
+TDD106167 ? 1
+TDD-1299521 questioning: godly
+TDD4771846 Classic #1 __ITY -AEFLORS? nnnnY
+TDD-4771827 attempt: 0 GODLY n n n n Y
+TDD1617428 Classic #2 _O__Y ~L -AEFIRST? nYnYY
+TDD-1617379 attempt: 1 GODLY n Y n Y Y
+TDD1817074 Classic #3 L___Y ~AE -FIORST? nnnMY
+TDD-1817050 attempt: 2 GODLY n n n m Y
+TDD1471468 Classic #4 _A_TY ~R -EFILOS? nnnnY
+TDD-1471564 attempt: 3 GODLY n n n n Y
+TDD3546790 > *
+TDD-1202251 ? 1
+TDD-2344537 questioning: unity
+TDD3884869 Classic #1 __ITY -ADEFGLORS? YYYYY
+TDD-3884808 attempt: 0 UNITY Y Y Y Y Y
+TDD1487726 Classic #2 _O_LY -ADEFGIRST? nnnnY
+TDD-1487783 attempt: 1 UNITY n n n n Y
+TDD1818800 Classic #3 L___Y ~AE -DFGIORST? nnnnY
+TDD-1818649 attempt: 2 UNITY n n n n Y
+TDD1615089 Classic #4 _A_TY ~R -DEFGILOS? nnnYY
+TDD-1615109 attempt: 3 UNITY n n n Y Y
+TDD1195440 > *
+TDD859472 ? 2
+TDD-2054990 questioning: leaky
+TDD9018357 Classic #2 _O_LY -ADEFGINRSTU? MnnnY
+TDD-9018235 attempt: 1 LEAKY m n n n Y
+TDD1415403 Classic #3 L___Y ~AE -DFGINORSTU? YYYYY
+TDD-1415532 attempt: 2 LEAKY Y Y Y Y Y
+TDD2105299 Classic #4 _A_TY ~R -DEFGILNOSU? nnMnY
+TDD-2105254 attempt: 3 LEAKY n n m n Y
+TDD14920008 > * 
+TDD-9710751 ? 2
+TDD-5209401 questioning: party
+TDD9705158 Classic #2 _O_LY -ADEFGIKNRSTU? nnnnY
+TDD-9705037 attempt: 1 PARTY n n n n Y
+TDD1357856 Classic #4 _A_TY ~R -DEFGIKLNOSU? nYYYY
+TDD-1357850 attempt: 3 PARTY n Y Y Y Y
+TDD1407477 > *
+TDD3458 ? ␚
+TDD-1411164 <EOF>
+TDD1805877 > * 
+TDD-963107 ? ␚
+TDD-842669 <EOF>
+TDD794230 > * 2
+TDD6707805 ? 1
+TDD-7501964 questioning: jowly
+TDD3288272 Classic #2 _O_LY -ADEFGIKNPRSTU? YYnYY
+TDD-3288268 attempt: 1 JOWLY Y Y n Y Y
+TDD2189605 Classic #4 _ARTY -DEFGIKLNOPSU? nnMnY
+TDD-2189625 attempt: 3 JOWLY n n m n Y
+TDD1029855 > *
+TDD-1029746 questioning: jolly
+TDD3557081 Classic #2 JO_LY -ADEFGIKNPRSTUW? YYYYY
+TDD-3557293 attempt: 1 JOLLY Y Y Y Y Y
+TDD3275888 Classic #4 _ARTY ~W -DEFGIJKLNOPSU? nnnnY
+TDD-3275725 attempt: 3 JOLLY n n n n Y
+TDD1082543 > *
+TDD-1082351 questioning: warty
+TDD5990985 Classic #4 _ARTY ~W -DEFGIJKLNOPSU? YYYYY
+TDD-5991046 attempt: 3 WARTY Y Y Y Y Y
+TDD4109373 📋> 🙂 Daily Quordle 1453
+TDD-4109645 📋> 4️⃣8️⃣
+TDD-137 📋> 5️⃣9️⃣
+TDD-3 📋> m-w.com/games/quordle/
+TDD290344 📋> 
+TDD-145666 📋> ␚
+TDD-144521 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1453\n4\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD5691 result: "\ud83d\ude42 Daily Quordle 1453\n4\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD200827 📆 2026-01-16 ? 
