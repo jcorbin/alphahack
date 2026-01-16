@@ -1,0 +1,77 @@
+T1289.8780176059995 now: 2026-01-16T09:23:41EST
+TD162 site: m-w.com/games/quordle/#/rescue
+TDD-124 wordlist: nwl2023.txt
+TDD-25 num_words: 4
+TDD5918060  ...
+TDD-4257810 > 
+TDD4422595 > tried group tepee
+TDD-6082343 questioning: GROUP TEPEE
+TDD2471926 Rescue #1 _____? nnnMn
+TDD-2471606 attempt: 0 GROUP n n n m n
+TDD1278807 Rescue #1 _____ ~U -GOPR? nnnnY
+TDD-1279292 attempt: 0 TEPEE n n n n Y
+TDD2013820 Rescue #2 _____? nMMnn
+TDD-2013779 attempt: 1 GROUP n m m n n
+TDD1218016 Rescue #2 _____ ~OR -GPU? nnnnn
+TDD-1218024 attempt: 1 TEPEE n n n n n
+TDD1559991 Rescue #3 _____? nnnnn
+TDD-1560072 attempt: 2 GROUP n n n n n
+TDD995043 Rescue #3 _____ -GOPRU? nnnnn
+TDD-995193 attempt: 2 TEPEE n n n n n
+TDD2153594 Rescue #4 _____? YnMMn
+TDD-2153394 attempt: 3 GROUP Y n m m n
+TDD1181106 Rescue #4 G____ ~OU -PR? nnnnY
+TDD-1181142 attempt: 3 TEPEE n n n n Y
+TDD3685484 > *
+TDD-3685319 questioning: gouge
+TDD9332760 Rescue #1 ____E ~U -GOPRT? nnYnY
+TDD-9332907 attempt: 0 GOUGE n n Y n Y
+TDD1258805 Rescue #2 _____ ~OR -EGPTU? nMnnn
+TDD-1258575 attempt: 1 GOUGE n m n n n
+TDD1578112 Rescue #3 _____ -EGOPRTU? nnnnn
+TDD-1578299 attempt: 2 GOUGE n n n n n
+TDD2093383 Rescue #4 G___E ~OU -PRT? YYYYY
+TDD-2093380 attempt: 3 GOUGE Y Y Y Y Y
+TDD4881521 > *
+TDD3501179 ? 6
+TDD-8382801 questioning: winks
+TDD6297764 Rescue #1 __U_E -GOPRT? nnnnn
+TDD-6297617 attempt: 0 WINKS n n n n n
+TDD2218905 Rescue #2 _____ ~OR -EGPTU? nYYnn
+TDD-2219041 attempt: 1 WINKS n Y Y n n
+TDD18382041 Rescue #3 _____ -EGOPRTU? nnYnn
+TDD-18381935 attempt: 2 WINKS n n Y n n
+TDD3130017 > I
+TDD-1354117 > *
+TDD-1775704 questioning: minor
+TDD5225127 Rescue #1 __U_E -GIKNOPRSTW? Ynnnn
+TDD-5225411 attempt: 0 MINOR Y n n n n
+TDD1722628 Rescue #2 _IN__ ~OR -EGKPSTUW? YYYYY
+TDD-1722410 attempt: 1 MINOR Y Y Y Y Y
+TDD1869420 Rescue #3 __N__ -EGIKOPRSTUW? nnYnn
+TDD-1869597 attempt: 2 MINOR n n Y n n
+TDD4602424 > *
+TDD-4602029 questioning: mauve
+TDD8225773 Rescue #1 M_U_E -GIKNOPRSTW? YYYYY
+TDD-8226222 attempt: 0 MAUVE Y Y Y Y Y
+TDD1710450 Rescue #3 __N__ -EGIKMOPRSTUW? nYnnn
+TDD-1710371 attempt: 2 MAUVE n Y n n n
+TDD1554242 > *
+TDD-528618 ? 1
+TDD-1025733 questioning: candy
+TDD3462885 Rescue #3 _AN__ -EGIKMOPRSTUVW? nYYYY
+TDD-3462703 attempt: 2 CANDY n Y Y Y Y
+TDD948702 > *
+TDD10629638 ? 2
+TDD-11578522 questioning: handy
+TDD4055583 Rescue #3 _ANDY -CEGIKMOPRSTUVW? YYYYY
+TDD-4055185 attempt: 2 HANDY Y Y Y Y Y
+TDD3574693 📋> Daily Rescue 67
+TDD-3575087 📋> 6️⃣5️⃣
+TDD-208 📋> 8️⃣3️⃣
+TDD-8 📋> m-w.com/games/quordle/
+TDD276748 📋> 
+TDD-125814 📋> ␚
+TDD-150662 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 67\n6\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD3125 result: "Daily Rescue 67\n6\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD227377 📆 2026-01-16 ? 
