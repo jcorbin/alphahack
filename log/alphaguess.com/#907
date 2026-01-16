@@ -1,0 +1,60 @@
+T60.581685962000165 now: 2026-01-16T08:43:28EST
+TD413 site: alphaguess.com
+TDD161662 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof 538c2ecbe8f6c09f886440f764334eaa1533a1ef
+TDD3670528  ...
+TDD319691 [0 : 98220 : 196531] mach? b
+TDD-4151975 progress: -1 98220 mach
+TDD2135618 [0 : 47382 : 98220] dis? a
+TDD-2135755 progress: 1 47382 dis
+TDD1602503 [47383 : 72801 : 98220] gremmy? a
+TDD-1602398 progress: 1 72801 gremmy
+TDD1458310 [72802 : 85505 : 98220] ins? a
+TDD-1458424 progress: 1 85505 ins
+TDD1467264 [85506 : 91850 : 98220] knot? b
+TDD-1467255 progress: -1 91850 knot
+TDD1569747 [85506 : 88665 : 91850] jacks? a
+TDD-1569691 progress: 1 88665 jacks
+TDD1831248 [88666 : 90255 : 91850] kaf? b
+TDD-1831315 progress: -1 90255 kaf
+TDD1709911 [88666 : 89456 : 90255] jive? a
+TDD-1709735 progress: 1 89456 jive
+TDD1661969 [89457 : 89851 : 90255] judge? b
+TDD-1662151 progress: -1 89851 judge
+TDD1892235 [89457 : 89472 : 89851] jo? a
+TDD-1892204 progress: 1 89472 jo
+TDD1510348 [89473 : 89658 : 89851] jones? a
+TDD-1510322 progress: 1 89658 jones
+TDD1423987 [89659 : 89751 : 89851] joust? a
+TDD-1424070 progress: 1 89751 joust
+TDD1411495 [89752 : 89778 : 89851] joy? a
+TDD-1411537 progress: 1 89778 joy
+TDD1410954 [89779 : 89813 : 89851] joys? a
+TDD-1410889 progress: 1 89813 joys
+TDD1378826 [89814 : 89830 : 89851] jubilate? a
+TDD-1378821 progress: 1 89830 jubilate
+TDD2024097 [89831 : 89841 : 89851] jucos? b
+TDD-2023913 progress: -1 89841 jucos
+TDD1696186 [89831 : 89836 : 89841] jubile? b
+TDD-1696349 progress: -1 89836 jubile
+TDD2021476 [89831 : 89833 : 89836] jubilating? a
+TDD-2021587 progress: 1 89833 jubilating
+TDD1910105 [89834 : 89835 : 89836] jubilations? b
+TDD-1910061 progress: -1 89835 jubilations
+TDD1859211 [89834 : 89834 : 89835] jubilation? it
+TDD-1859151 progress: 0 89834 jubilation
+TDD-150 [89834 : 89834 : 89835] <Done>.
+TDD2276099 📋> 🧩 Puzzle #907
+TDD-2275991 📋> 
+TDD-111 📋> 🤔 20 guesses
+TDD-7 📋> 
+TDD0 📋> ⏱️ 33s
+TDD-2 📋> 
+TDD247230 📋> 🔗 alphaguess.com
+TDD-118164 📋> ␚
+TDD-128939 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #907\n\n\ud83e\udd14 20 guesses\n\n\u23f1\ufe0f 33s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-54 result: "\ud83e\udde9 Puzzle #907\n\n\ud83e\udd14 20 guesses\n\n\u23f1\ufe0f 33s\n\n\ud83d\udd17 alphaguess.com"
+TDD-74 result puzzle: 907
+TDD-7 result guesses: 20
+TDD-1 result time: 33s
+TDD0 result link: alphaguess.com
+TDD187890 📆 2026-01-16 ? 
