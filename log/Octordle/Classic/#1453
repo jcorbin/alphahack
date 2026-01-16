@@ -1,0 +1,216 @@
+T323.40644555000017 now: 2026-01-16T08:56:30EST
+TD168 site: britannica.com/games/octordle/daily
+TDD-139 wordlist: nwl2023.txt
+TDD-17 num_words: 8
+TDD825121  ...
+TDD4653745 > *
+TDD-4200408 ? 1
+TDD-1278212 questioning: aside
+TDD3262745 Classic #1 _____? nnnnM
+TDD-3262712 attempt: 0 ASIDE n n n n m
+TDD1756166 Classic #2 _____? nMnnM
+TDD-1756184 attempt: 1 ASIDE n m n n m
+TDD1355408 Classic #3 _____? nnMMn
+TDD-1355421 attempt: 2 ASIDE n n m m n
+TDD1281115 Classic #4 _____? nnnMM
+TDD-1281062 attempt: 3 ASIDE n n n m m
+TDD3663190 Classic #5 _____? nMnnn
+TDD-3663197 attempt: 4 ASIDE n m n n n
+TDD1336097 Classic #6 _____? nnnnn
+TDD-1336103 attempt: 5 ASIDE n n n n n
+TDD1952417 Classic #7 _____? MnnnY
+TDD-1952416 attempt: 6 ASIDE m n n n Y
+TDD1735346 Classic #8 _____? nnnnM
+TDD-1735235 attempt: 7 ASIDE n n n n m
+TDD2073726 > *
+TDD3070613 ? 1
+TDD-5144438 questioning: nurls
+TDD4360105 Classic #1 _____ ~E -ADIS? nnnMn
+TDD-4360233 attempt: 0 NURLS n n n m n
+TDD1754955 Classic #2 _____ ~ES -ADI? nYnnY
+TDD-1754862 attempt: 1 NURLS n Y n n Y
+TDD2069655 Classic #3 _____ ~DI -AES? nnnnn
+TDD-2069770 attempt: 2 NURLS n n n n n
+TDD1125350 Classic #4 _____ ~DE -AIS? nnnnn
+TDD-1125234 attempt: 3 NURLS n n n n n
+TDD3858910 Classic #5 _____ ~S -ADEI? nYnnY
+TDD-3858913 attempt: 4 NURLS n Y n n Y
+TDD1331330 Classic #6 _____ -ADEIS? nnMnn
+TDD-1331355 attempt: 5 NURLS n n m n n
+TDD1766104 Classic #7 ____E ~A -DIS? Mnnnn
+TDD-1766105 attempt: 6 NURLS m n n n n
+TDD1470293 Classic #8 _____ ~E -ADIS? nnnMn
+TDD-1470286 attempt: 7 NURLS n n n m n
+TDD1833666 > *
+TDD-512951 ? 1
+TDD-1320662 questioning: yoked
+TDD4436613 Classic #1 _____ ~EL -ADINRSU? nYnYn
+TDD-4436686 attempt: 0 YOKED n Y n Y n
+TDD1313302 Classic #2 _U__S ~E -ADILNR? nnnMn
+TDD-1313051 attempt: 1 YOKED n n n m n
+TDD1549387 Classic #3 _____ ~DI -AELNRSU? nMnnM
+TDD-1549551 attempt: 2 YOKED n m n n m
+TDD1972832 Classic #4 _____ ~DE -AILNRSU? nYnYM
+TDD-1972630 attempt: 3 YOKED n Y n Y m
+TDD3383571 Classic #5 _U__S -ADEILNR? nnnnn
+TDD-3383886 attempt: 4 YOKED n n n n n
+TDD3487354 Classic #6 _____ ~R -ADEILNSU? nMMnn
+TDD-3487283 attempt: 5 YOKED n m m n n
+TDD1360044 Classic #7 ____E ~AN -DILRSU? nnnMn
+TDD-1359947 attempt: 6 YOKED n n n m n
+TDD1620955 Classic #8 _____ ~EL -ADINRSU? nMnMn
+TDD-1621012 attempt: 7 YOKED n m n m n
+TDD2796443 > * 5
+TDD1530448 ? 5
+TDD-4327012 questioning: jumps
+TDD3867756 Classic #1 _O_E_ ~L -ADIKNRSUY? nnnnn
+TDD-3867740 attempt: 0 JUMPS n n n n n
+TDD2821784 Classic #2 _U__S ~E -ADIKLNORY? nYnnY
+TDD-2821741 attempt: 1 JUMPS n Y n n Y
+TDD1449726 Classic #3 _____ ~DIO -AEKLNRSUY? nnnnn
+TDD-1449685 attempt: 2 JUMPS n n n n n
+TDD1314570 Classic #4 _O_E_ ~D -AIKLNRSUY? nnMnn
+TDD-1314578 attempt: 3 JUMPS n n m n n
+TDD3252407 Classic #5 _U__S -ADEIKLNORY? nYYnY
+TDD-3252351 attempt: 4 JUMPS n Y Y n Y
+TDD1160228 Classic #6 _____ ~KOR -ADEILNSUY? nnnnn
+TDD-1160159 attempt: 5 JUMPS n n n n n
+TDD1734871 Classic #7 ____E ~AN -DIKLORSUY? nnMnn
+TDD-1735115 attempt: 6 JUMPS n n m n n
+TDD1189359 Classic #8 _____ ~ELO -ADIKNRSUY? nnnnn
+TDD-1189399 attempt: 7 JUMPS n n n n n
+TDD1537230 > *
+TDD-1536782 questioning: modem
+TDD5395507 Classic #1 _O_E_ ~L -ADIJKMNPRSUY? nYnYn
+TDD-5395769 attempt: 0 MODEM n Y n Y n
+TDD1204641 Classic #2 _U__S ~E -ADIJKLMNOPRY? nnnMn
+TDD-1204669 attempt: 1 MODEM n n n m n
+TDD2384045 Classic #3 _____ ~DIO -AEJKLMNPRSUY? nMMnn
+TDD-2384017 attempt: 2 MODEM n m m n n
+TDD1277045 Classic #4 _O_E_ ~DM -AIJKLNPRSUY? YYYYY
+TDD-1277065 attempt: 3 MODEM Y Y Y Y Y
+TDD3090409 Classic #5 _UM_S -ADEIJKLNOPRY? Mnnnn
+TDD-3090367 attempt: 4 MODEM m n n n n
+TDD2395252 Classic #6 _____ ~KOR -ADEIJLMNPSUY? nMnnn
+TDD-2395136 attempt: 5 MODEM n m n n n
+TDD2448134 Classic #7 ____E ~AMN -DIJKLOPRSUY? YnnMn
+TDD-2448341 attempt: 6 MODEM Y n n m n
+TDD1597846 Classic #8 _____ ~ELO -ADIJKMNPRSUY? nMnMn
+TDD-1597842 attempt: 7 MODEM n m n m n
+TDD1452575 > *
+TDD-1452419 questioning: mange
+TDD4726204 Classic #1 _O_E_ ~L -ADIJKMNPRSUY? nnnnM
+TDD-4726342 attempt: 0 MANGE n n n n m
+TDD1257372 Classic #2 _U__S ~E -ADIJKLMNOPRY? nnnMM
+TDD-1257271 attempt: 1 MANGE n n n m m
+TDD1687145 Classic #3 _____ ~DIO -AEJKLMNPRSUY? nnnnn
+TDD-1687122 attempt: 2 MANGE n n n n n
+TDD3000466 Classic #5 _UM_S -ADEIJKLNOPRY M:1? Mnnnn
+TDD-3000580 attempt: 4 MANGE m n n n n
+TDD1658889 Classic #6 _____ ~KOR -ADEIJLMNPSUY? nnnnn
+TDD-1658876 attempt: 5 MANGE n n n n n
+TDD2510421 Classic #7 M___E ~AN -DIJKLOPRSUY? YYYYY
+TDD-2510452 attempt: 6 MANGE Y Y Y Y Y
+TDD1754201 Classic #8 _____ ~ELO -ADIJKMNPRSUY? nnnnM
+TDD-1753989 attempt: 7 MANGE n n n n m
+TDD1391562 > *
+TDD-1391728 questioning: guess
+TDD4649691 Classic #1 _O_E_ ~L -ADGIJKMNPRSUY? nnMnn
+TDD-4649701 attempt: 0 GUESS n n m n n
+TDD1244288 Classic #2 _U__S ~EG -ADIJKLMNOPRY? YYYYY
+TDD-1244351 attempt: 1 GUESS Y Y Y Y Y
+TDD1180990 Classic #3 _____ ~DIO -AEGJKLMNPRSUY? nnnnn
+TDD-1181002 attempt: 2 GUESS n n n n n
+TDD2704656 Classic #5 _UM_S -ADEGIJKLNOPRY M:1? nYnnY
+TDD-2704560 attempt: 4 GUESS n Y n n Y
+TDD1165557 Classic #6 _____ ~KOR -ADEGIJLMNPSUY? nnnnn
+TDD-1165627 attempt: 5 GUESS n n n n n
+TDD2218125 Classic #8 _____ ~ELO -ADGIJKMNPRSUY? nnMnn
+TDD-2218111 attempt: 7 GUESS n n m n n
+TDD2638449 > * 1
+TDD1232564 ? 3
+TDD-3871062 questioning: vowel
+TDD6150737 Classic #1 _O_E_ ~L -ADGIJKMNPRSUY? nYYYY
+TDD-6150650 attempt: 0 VOWEL n Y Y Y Y
+TDD2987356 Classic #3 _____ ~DIO -AEGJKLMNPRSUY? nMnnn
+TDD-2987406 attempt: 2 VOWEL n m n n n
+TDD3372186 Classic #5 _UM_S -ADEGIJKLNOPRY M:1? nnnnn
+TDD-3372227 attempt: 4 VOWEL n n n n n
+TDD1148992 Classic #6 _____ ~KOR -ADEGIJLMNPSUY? nMnnn
+TDD-1148850 attempt: 5 VOWEL n m n n n
+TDD2584381 Classic #8 _____ ~ELO -ADGIJKMNPRSUY? nMMMM
+TDD-2584465 attempt: 7 VOWEL n m m m m
+TDD3515959 > * 6
+TDD121582 ? ␚
+TDD-3637719 <EOF>
+TDD1915225 > *
+TDD-580109 ? ␚
+TDD-1335082 <EOF>
+TDD3096717 > * 5
+TDD-363800 ? 2
+TDD-2732759 questioning: humus
+TDD5300497 Classic #1 _OWEL -ADGIJKMNPRSUVY? nnnnn
+TDD-5300349 attempt: 0 HUMUS n n n n n
+TDD1896491 Classic #3 _____ ~DIO -AEGJKLMNPRSUVWY? nnnnn
+TDD-1896637 attempt: 2 HUMUS n n n n n
+TDD2928058 Classic #5 _UM_S -ADEGIJKLNOPRVWY M:1? nnnnn
+TDD-2928052 attempt: 4 HUMUS n n n n n
+TDD2998239 Classic #6 _____ ~KOR -ADEGIJLMNPSUVWY? nnnnn
+TDD-2998365 attempt: 5 HUMUS n n n n n
+TDD4860106 Classic #8 _____ ~ELOW -ADGIJKMNPRSUVY? nnnnn
+TDD-4860036 attempt: 7 HUMUS n n n n n
+TDD1451234 > *
+TDD-1450632 questioning: bumfs
+TDD24234482 Classic #1 _OWEL -ADGHIJKMNPRSUVY? nnnnn
+TDD-24235018 attempt: 0 BUMFS n n n n n
+TDD1359057 Classic #3 _____ ~DIO -AEGHJKLMNPRSUVWY? nnnnn
+TDD-1359026 attempt: 2 BUMFS n n n n n
+TDD5802238 Classic #5 _UM_S -ADEGHIJKLMNOPRSUVWY M:1? nnnMn
+TDD-5802439 attempt: 4 BUMFS n n n m n
+TDD3040653 Classic #6 _____ ~KOR -ADEGHIJLMNPSUVWY? Ynnnn
+TDD-3040468 attempt: 5 BUMFS Y n n n n
+TDD3040873 Classic #8 _____ ~ELOW -ADGHIJKMNPRSUVY? Ynnnn
+TDD-3040843 attempt: 7 BUMFS Y n n n n
+TDD1525077 > *
+TDD-1524488 questioning: towel
+TDD4504983 Classic #1 _OWEL -ABDFGHIJKMNPRSUVY? YYYYY
+TDD-4505724 attempt: 0 TOWEL Y Y Y Y Y
+TDD3980267 Classic #3 _____ ~DIO -ABEFGHJKLMNPRSUVWY? MMnnn
+TDD-3980155 attempt: 2 TOWEL m m n n n
+TDD3813242 Classic #5 _UM_S ~F -ABDEGHIJKLMNOPRSUVWY M:1? nMnnn
+TDD-3813267 attempt: 4 TOWEL n m n n n
+TDD18999260 Classic #6 B____ ~KOR -ADEFGHIJLMNPSUVWY? nMnnn
+TDD-18999207 attempt: 5 TOWEL n m n n n
+TDD2375434 Classic #8 B____ ~ELOW -ADFGHIJKMNPRSUVY? nMMMM
+TDD-2375474 attempt: 7 TOWEL n m m m m
+TDD1061198 > *
+TDD-1061052 questioning: below
+TDD6987921 Classic #3 _____ ~DIOT -ABEFGHJKLMNPRSUVWY? nnnMn
+TDD-6988057 attempt: 2 BELOW n n n m n
+TDD15879356 Classic #5 _UM_S ~FO -ABDEGHIJKLMNOPRSTUVWY M:1? nnnnn
+TDD-15879097 attempt: 4 BELOW n n n n n
+TDD2854517 Classic #6 B____ ~KOR -ADEFGHIJLMNPSTUVWY? nnnMn
+TDD-2854780 attempt: 5 BELOW n n n m n
+TDD2361107 Classic #8 B____ ~ELOW -ADFGHIJKMNPRSTUVY? YYYYY
+TDD-2361198 attempt: 7 BELOW Y Y Y Y Y
+TDD1044098 > *
+TDD-1043742 questioning: ditto
+TDD7761918 Classic #3 _____ ~DIOT -ABEFGHJKLMNPRSUVWY? YYYYY
+TDD-7762137 attempt: 2 DITTO Y Y Y Y Y
+TDD6082996 Classic #5 _UM_S ~F -ABDEGHIJKLMNOPRSTUVWY M:1? nnnnn
+TDD-6083104 attempt: 4 DITTO n n n n n
+TDD2814607 Classic #6 B____ ~KOR -ABDEFGHIJLMNPSTUVWY? nnnnM
+TDD-2814531 attempt: 5 DITTO n n n n m
+TDD2877757 > /res
+TDD264094 📋> Daily Octordle #1453
+TDD-3142063 📋> 🕚7️⃣
+TDD-86 📋> 🕐5️⃣
+TDD-12 📋> 9️⃣🟥
+TDD-1 📋> 6️⃣🕛
+TDD272119 📋> Score: 77
+TDD-133605 📋> ␚
+TDD-138287 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Daily Octordle #1453\n\ud83d\udd5a7\ufe0f\u20e3\n\ud83d\udd505\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udfe5\n6\ufe0f\u20e3\ud83d\udd5b\nScore: 77"}
+TDD-11 result: "Daily Octordle #1453\n\ud83d\udd5a7\ufe0f\u20e3\n\ud83d\udd505\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udfe5\n6\ufe0f\u20e3\ud83d\udd5b\nScore: 77"
+TDD186924 > 
+TDD1054020 > /store
+TDD-491974 📆 2026-01-16 ? 
