@@ -1,0 +1,69 @@
+T110.86983558300017 now: 2026-01-16T08:44:19EST
+TD204 site: dontwordle.com
+TDD-165 wordlist: nwl2023.txt
+TDD4733291  ...
+TDD-110454 1> * -bot 10
+TDD-3494505 ? 1
+TDD5481044 📋 "earls" ? nnnMM
+TDD-6608605 tried: EARLS n n n m m
+TDD2355926 2> undo
+TDD-2356507 undo
+TDD3915759 1> * -bot 10
+TDD-2826207 ? 1
+TDD4848190 📋 "adore" ? nnnnn
+TDD-5937654 tried: ADORE n n n n n
+TDD22652821 2> * :v [adore] -bot 10
+TDD-20281644 ? 1
+TDD4925240 📋 "unity" ? MnnnY
+TDD-7296493 tried: UNITY m n n n Y
+TDD724659 3> undo
+TDD-724654 undo
+TDD4505347 2> undo
+TDD-4505401 undo
+TDD1699860 1> *
+TDD909323 ? 1
+TDD2352869 📋 "phpht" ? nnnnn
+TDD-4961984 tried: PHPHT n n n n n
+TDD666627 2> *(
+TDD321337 2> *
+TDD-83446 ? 1
+TDD6599590 📋 "abaka" ? nnnYn
+TDD-7504004 tried: ABAKA n n n Y n
+TDD755925 3> undo
+TDD-756092 undo
+TDD3554826 2> *
+TDD1998288 ? nnnnn
+TDD-4635465 ? 1
+TDD176662 📋 "egged" ? nnnnn
+TDD-1094248 tried: EGGED n n n n n
+TDD478898 3> *
+TDD476374 ? 1
+TDD2885172 📋 "immix" ? nnnnn
+TDD-3840346 tried: IMMIX n n n n n
+TDD683043 4> *
+TDD330956 ? 1
+TDD1820755 📋 "baboo" ? nnnnn
+TDD-2834908 tried: BABOO n n n n n
+TDD1603163 5> *
+TDD6093527 📋 "wryly" ? nnnMY
+TDD-7696640 tried: WRYLY n n n m Y
+TDD650965 6> *
+TDD6809107 📋 "luvvy" ? MYnnY
+TDD-7460050 tried: LUVVY m Y n n Y
+TDD2602547 📋> Don't Wordle 1333 - SURVIVED
+TDD-2602704 📋> Hooray! I didn't Wordle today!
+TDD-99 📋> ⬜⬜⬜⬜⬜7300
+TDD-8 📋> ⬜⬜⬜⬜⬜2491
+TDD1 📋> ⬜⬜⬜⬜⬜1262
+TDD-2 📋> ⬜⬜⬜⬜⬜115
+TDD0 📋> ⬜⬜⬜🟨🟩4
+TDD-1 📋> 🟨🟩⬜⬜🟩1
+TDD0 📋> Undos used: 4
+TDD0 📋> 
+TDD0 📋>   1 words remaining
+TDD-1 📋> x 8 unused letters
+TDD223766 📋> = 8 total score
+TDD-109811 📋> ␚
+TDD-113771 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1333 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7300\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2491\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1262\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c115\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe94\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"}
+TDD1890 result: "Don't Wordle 1333 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7300\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2491\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1262\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c115\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe94\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"
+TDD173658 📆 2026-01-16 ? 
