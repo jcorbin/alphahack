@@ -1,0 +1,94 @@
+T407.9443913169998 now: 2026-01-17T09:27:49EST
+TD170 site: dontwordle.com
+TDD-139 wordlist: nwl2023.txt
+TDD3217842  ...
+TDD-293595 1> * -bot 10
+TDD-2045800 ? 1
+TDD4850190 📋 "rales" ? MnnMn
+TDD-5728389 tried: RALES m n n m n
+TDD1477633 2> undo
+TDD-1477672 undo
+TDD12754060 1> * :v [als] -bot 10
+TDD-10982186 ? 1
+TDD6544908 📋 "point" ? nnMnn
+TDD-8316638 tried: POINT n n m n n
+TDD1208813 2> ␚
+T448.777521850001 now: 2026-01-17T09:28:30EST
+TD4392187 2> undo
+TDD-4391962 undo
+TDD15729681 1> * :v [alspont] -bot 10
+TDD-5625602 ? 1
+TDD-3889295 📋 "mucky" ? nnnnY
+TDD-6214712 tried: MUCKY n n n n Y
+TDD1019065 2> undo
+TDD-1019007 undo
+TDD17048606 1> * :v [alspontmuck] -bot 10
+TDD-2338598 1> *
+TDD-13233145 ? 1
+TDD2518305 📋 "jnana" ? nnnnn
+TDD-3995206 tried: JNANA n n n n n
+TDD540893 2> *
+TDD279385 ? 1
+TDD3258712 📋 "motto" ? nnnnn
+TDD-4078780 tried: MOTTO n n n n n
+TDD2041663 3> *
+TDD-1128445 ? 1
+TDD3230911 📋 "sudds" ? nnnnn
+TDD-4144371 tried: SUDDS n n n n n
+TDD1125260 4> *
+TDD6452794 📋 "grrrl" ? nnnYn
+TDD-7577961 tried: GRRRL n n n Y n
+TDD627543 5> *
+TDD6378833 📋 "where" ? nnYYn
+TDD-7006425 tried: WHERE n n Y Y n
+TDD714153 6> undo
+TDD-714243 undo
+TDD5315324 5> undo
+TDD-5315297 undo
+TDD1304329 4> *
+TDD40268 📋 "grrrl" ? ␚
+TDD-1344745 <EOF>
+TDD15866579 4> * -sans :v ...r.
+TDD-10982663 ? ␚
+TDD-4883917 <EOF>
+TDD6017886 4> * :v ...r. -top 10
+TDD2278135 4> * :v ...R. -top 10
+TDD1175989 4> * :v ...R.
+TDD-6823220 4> * :v ...r.
+TDD-745961 4> *
+TDD-808922 📋 "grrrl" ? ␚
+TDD-1093895 <EOF>
+TDD5157786 4> * -sans :v ...R. =top 10
+TDD283175 4> * -sans :v ...R. -top 10
+TDD9777284 ? * -sans :v ...R. :v [ei] -top 10
+TDD-3866184 ? * -san :v ...R. :v [EI]
+TDD-9863198 ? ␚
+TDD-1488846 <EOF>
+TDD4639425 4> * -sans :v ...R. :v [EI]
+TDD2788453 ? 2
+TDD-1742033 📋 "ghyll" ? nnMnn
+TDD-5685868 tried: GHYLL n n m n n
+TDD1421204 5> *
+TDD11222668 ? 3
+TDD-7233628 📋 "fizzy" ? YYnnY
+TDD-5409912 tried: FIZZY Y Y n n Y
+TDD1822753 6> *
+TDD4381050 📋 "firry" ? YYnYY
+TDD-6203961 tried: FIRRY Y Y n Y Y
+TDD3116176 📋> Don't Wordle 1334 - SURVIVED
+TDD-3116331 📋> Hooray! I didn't Wordle today!
+TDD-118 📋> ⬜⬜⬜⬜⬜5846
+TDD-5 📋> ⬜⬜⬜⬜⬜2128
+TDD-3 📋> ⬜⬜⬜⬜⬜455
+TDD0 📋> ⬜⬜🟨⬜⬜61
+TDD25 📋> 🟩🟩⬜⬜🟩2
+TDD-26 📋> 🟩🟩⬜🟩🟩1
+TDD0 📋> Undos used: 5
+TDD1 📋> 
+TDD4 📋>   1 words remaining
+TDD-5 📋> x 9 unused letters
+TDD279209 📋> = 9 total score
+TDD-1976 📋> ␚
+TDD-277084 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1334 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5846\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2128\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c455\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c61\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe92\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe91\nUndos used: 5\n\n  1 words remaining\nx 9 unused letters\n= 9 total score"}
+TDD1702 result: "Don't Wordle 1334 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5846\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2128\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c455\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c61\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe92\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe91\nUndos used: 5\n\n  1 words remaining\nx 9 unused letters\n= 9 total score"
+TDD265749 📆 2026-01-17 ? 
