@@ -525,21 +525,27 @@ solvers.add(
     quordle_variant('Practice', 'm-w.com/games/quordle/#/practice'),
 )
 
-def make_octordle(_tokens: PromptUI.Tokens):
-    oc = Nordle()
-    oc.default_site = 'https://www.britannica.com/games/octordle/daily'
-    oc.site = oc.default_site
-    oc.log_file = 'octordle.log'
-    oc.kind = 'Octordle'
-    oc.mode = 'Classic'
-    oc.num_words = 8
-    oc.wordlist_file = 'nwl2023.txt'
-    return oc
+def octordle_variant(mode: str, site: str):
+    def make_octordle(_tokens: PromptUI.Tokens):
+        oc = Nordle()
+        oc.default_site = site
+        oc.site = oc.default_site
+        oc.log_file = f'octordle-{mode.lower()}.log'
+        oc.kind = 'Octordle'
+        oc.mode = mode
+        oc.num_words = 8
+        oc.wordlist_file = 'nwl2023.txt'
+        if mode == 'Practice':
+            oc.site_env = 'practice'
+        return oc
+    return make_octordle
 
 solvers.add(
     'octordle',
-    make_octordle,
-    # TODO variants
+    octordle_variant('Classic', 'britannica.com/games/octordle/daily'),
+    octordle_variant('Rescue', 'britannica.com/games/octordle/daily-rescue'),
+    octordle_variant('Sequence', 'britannica.com/games/octordle/daily-sequence'),
+    octordle_variant('Extreme', 'britannica.com/games/octordle/extreme'),
 )
 
 from square import Search as Square
