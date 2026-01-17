@@ -1,0 +1,40 @@
+T11.446342332001223 now: 2026-01-17T09:21:13EST
+TD204 site: alphaguess.com
+TDD167791 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof 8c59d554bde2e88599ca24192dd826e96ae6e921
+TDD3748170  ...
+TDD1283786 [0 : 98220 : 196531] mach? a
+TDD-5199133 progress: 1 98220 mach
+TDD1615898 [98221 : 147373 : 196531] rhotic? a
+TDD-1616580 progress: 1 147373 rhotic
+TDD1617649 [147374 : 171643 : 196531] ta? b
+TDD-1617572 progress: -1 171643 ta
+TDD1506187 [147374 : 159490 : 171643] slop? a
+TDD-1506149 progress: 1 159490 slop
+TDD2358926 [159491 : 165532 : 171643] stick? b
+TDD-2358944 progress: -1 165532 stick
+TDD1564547 [159491 : 162477 : 165532] spec? a
+TDD-1564561 progress: 1 162477 spec
+TDD1566543 [162478 : 164003 : 165532] squab? b
+TDD-1566563 progress: -1 164003 squab
+TDD1509434 [162478 : 163213 : 164003] spit? b
+TDD-1509380 progress: -1 163213 spit
+TDD1595093 [162478 : 162845 : 163213] spheric? b
+TDD-1595116 progress: -1 162845 spheric
+TDD1920278 [162478 : 162637 : 162845] speed? it
+TDD-1920332 progress: 0 162637 speed
+TDD-145 [162478 : 162637 : 162845] <Done>.
+TDD2450869 📋> 🧩 Puzzle #908
+TDD-2450827 📋> 
+TDD-64 📋> 🤔 10 guesses
+TDD-2 📋> 
+TDD0 📋> ⏱️ 17s
+TDD-1 📋> 
+TDD215491 📋> 🔗 alphaguess.com
+TDD-98758 📋> ␚
+TDD-116564 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #908\n\n\ud83e\udd14 10 guesses\n\n\u23f1\ufe0f 17s\n\n\ud83d\udd17 alphaguess.com"}
+TDD629 result: "\ud83e\udde9 Puzzle #908\n\n\ud83e\udd14 10 guesses\n\n\u23f1\ufe0f 17s\n\n\ud83d\udd17 alphaguess.com"
+TDD-778 result puzzle: 908
+TDD-12 result guesses: 10
+TDD-4 result time: 17s
+TDD0 result link: alphaguess.com
+TDD168469 📆 2026-01-17 ? 
