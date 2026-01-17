@@ -185,9 +185,12 @@ class LineWriter:
 
     def write(self, s: str):
         self.ui.write(s)
-        _, _, last = s.rpartition('\n')
+        _, nl, last = s.rpartition('\n')
         # TODO parse ansi positioning sequences
-        self.at = screen_width(last)
+        if nl:
+            self.at = screen_width(last)
+        else:
+            self.at += screen_width(last)
 
     def truncate(self, s: str, cont: str = '...'):
         n = self.remain
@@ -209,26 +212,28 @@ class LineWriter:
     ):
         self.fin()
 
-def write_tokens(ui: PromptUI,
-                 tokens: PeekIter[str],
-                 pre: str = '',
-                 sep: str = ' ',
-                 sub_pre: str = '  ',
-                 limit: int = -1,
-                 ):
-    if not tokens: return
-    with LineWriter(ui) as lw:
-        first = True
-        while tokens and limit != 0:
-            lw.write(f'{pre}{next(tokens, '')}')
+    def wrap_tokens(
+        self,
+        tokens: PeekIter[str],
+        pre: str = '',
+        sep: str = ' ',
+        sub_pre: str = '  ',
+    ):
+        if not tokens: return
+        try:
+            first = True
             while tokens:
-                if lw.remain < 0: break
-                lw.write(f'{sep}{next(tokens)}')
-            if first:
-                first = False
-                pre = sub_pre
-            if limit > 0:
-                limit -= 1
+                self.write(f'{pre}{next(tokens, '')}')
+                while tokens:
+                    part = f'{sep}{next(tokens)}'
+                    n = screen_width(part)
+                    if self.remain < n: break
+                    self.write(part)
+                if first:
+                    first = False
+                    pre = sub_pre
+        finally:
+            self.fin()
 
 def trim_lines(lines: Iterable[str]):
     st = 0
@@ -1284,19 +1289,24 @@ class Meta(Arguable):
             ui.print(f'! invalid status argument {next(ui.tokens)}')
             return
 
-        ui.print(
-            f'Solver Status ( verbose={verbose} ):' if verbose else
-            f'Solver Status:')
-        for solver_i, day, note, head, _body in self.read_status(ui, verbose=verbose):
-            name = solvers.name[solver_i] if 0 <= solver_i < len(solvers) else '<No Solver>'
-            mark = '❔'
-            if day is not None: mark = '✅'
-            if head: mark += '📜'
-            write_tokens(ui, PeekIter((
-                f'{mark} {name}',
-                f'{day}',
-                *marked_tokenize(note)
-            )))
+        with LineWriter(ui) as lw:
+            lw.write('Solver Status')
+            if verbose:
+                lw.write(f' ( verbose={verbose} )')
+            lw.write(':')
+            lw.fin()
+
+            for solver_i, day, note, head, _body in self.read_status(ui, verbose=verbose):
+                name = solvers.name[solver_i] if 0 <= solver_i < len(solvers) else '<No Solver>'
+                mark = '❔'
+                if day is not None: mark = '✅'
+                if head: mark += '📜'
+                lw.wrap_tokens(PeekIter((
+                    f'{mark} {name}',
+                    f'{day}',
+                    *marked_tokenize(note)
+                )))
+
         self.prompt.re = max(1, self.prompt.re)
 
 @final
