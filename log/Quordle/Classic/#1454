@@ -1,0 +1,95 @@
+T285.5335222040012 now: 2026-01-17T09:25:47EST
+TD195 site: m-w.com/games/quordle/#/
+TDD-160 wordlist: nwl2023.txt
+TDD-18 num_words: 4
+TDD6317615  ...
+TDD-4802245 > *
+TDD266631 ? 2
+TDD-1781760 questioning: sarge
+TDD2783734 Classic #1 _____? MMMnn
+TDD-2783490 attempt: 0 SARGE m m m n n
+TDD1514572 Classic #2 _____? nnnnn
+TDD-1514816 attempt: 1 SARGE n n n n n
+TDD1228404 Classic #3 _____? nnMnn
+TDD-1228443 attempt: 2 SARGE n n m n n
+TDD1499950 Classic #4 _____? nnMnY
+TDD-1499777 attempt: 3 SARGE n n m n Y
+TDD1186422 > *
+TDD-366145 ? 1
+TDD-820398 questioning: cloth
+TDD3335134 Classic #1 _____ ~ARS -EG? nnMMn
+TDD-3335013 attempt: 0 CLOTH n n m m n
+TDD1223289 Classic #2 _____ -AEGRS? nMMnn
+TDD-1223307 attempt: 1 CLOTH n m m n n
+TDD2902670 Classic #3 _____ ~R -AEGS? nMYnn
+TDD-2902569 attempt: 2 CLOTH n m Y n n
+TDD2010281 Classic #4 ____E ~R -AGS? nnYnn
+TDD-2010392 attempt: 3 CLOTH n n Y n n
+TDD1171932 > *
+TDD1455473 ? ␚
+TDD-2627610 <EOF>
+TDD4523811 > *
+TDD-1780191 ? 2
+TDD-2743589 questioning: roast
+TDD2323233 Classic #1 _____ ~AORST -CEGHL? YYYYY
+TDD-2323281 attempt: 0 ROAST Y Y Y Y Y
+TDD1530604 Classic #2 _____ ~LO -ACEGHRST? nYnnn
+TDD-1530343 attempt: 1 ROAST n Y n n n
+TDD1823683 Classic #3 __O__ ~LR -ACEGHST? MMnnn
+TDD-1823650 attempt: 2 ROAST m m n n n
+TDD1915352 Classic #4 __O_E ~R -ACGHLST? MMnnn
+TDD-1915460 attempt: 3 ROAST m m n n n
+TDD2907143 > *
+TDD-1286334 ? 1
+TDD-1620991 questioning: would
+TDD3941808 Classic #2 _O___ ~L -ACEGHRST? nYnMn
+TDD-3941668 attempt: 1 WOULD n Y n m n
+TDD4110432 Classic #3 __O__ ~LR -ACEGHST? nMnYM
+TDD-4110439 attempt: 2 WOULD n m n Y m
+TDD1824100 Classic #4 __O_E ~R -ACGHLST? nMnnn
+TDD-1824107 attempt: 3 WOULD n m n n n
+TDD1074051 > *
+TDD-1073683 questioning: droll
+TDD4703270 Classic #2 _O___ ~L -ACDEGHRSTUW? nnMMn
+TDD-4703600 attempt: 1 DROLL n n m m n
+TDD1967079 Classic #3 __OL_ ~DR -ACEGHSTUW? YYYYY
+TDD-1967101 attempt: 2 DROLL Y Y Y Y Y
+TDD1668630 Classic #4 __O_E ~R -ACDGHLSTUW? nYYnn
+TDD-1668656 attempt: 3 DROLL n Y Y n n
+TDD1311663 > *
+TDD-134023 ? 1
+TDD-1177426 questioning: prone
+TDD3202970 Classic #2 _O___ ~L -ACDEGHRSTUW L:1? nnMnn
+TDD-3203127 attempt: 1 PRONE n n m n n
+TDD1503938 Classic #4 _RO_E -ACDGHLSTUW? YYYnY
+TDD-1503956 attempt: 3 PRONE Y Y Y n Y
+TDD2507649 > *
+TDD-649882 ? ␚
+TDD-1857952 <EOF>
+TDD1260447 > * 2
+TDD1361642 ? 1
+TDD-2621941 questioning: folky
+TDD3878789 Classic #2 _O___ ~L -ACDEGHNPRSTUW L:1? YYYnn
+TDD-3878676 attempt: 1 FOLKY Y Y Y n n
+TDD1603611 Classic #4 PRO_E -ACDGHLNSTUW? nMnnn
+TDD-1603701 attempt: 3 FOLKY n m n n n
+TDD967365 > *
+TDD-967077 questioning: folio
+TDD3021271 Classic #2 FOL__ -ACDEGHKNPRSTUWY? YYYYY
+TDD-3021500 attempt: 1 FOLIO Y Y Y Y Y
+TDD1893550 Classic #4 PRO_E -ACDFGHKLNSTUWY? nMnnn
+TDD-1893734 attempt: 3 FOLIO n m n n n
+TDD1486469 > *
+TDD-129012 ? 1
+TDD-1357131 questioning: prove
+TDD4667654 Classic #4 PRO_E -ACDFGHIKLNSTUWY O:1? YYYYY
+TDD-4667776 attempt: 3 PROVE Y Y Y Y Y
+TDD3292718 📋> 🙂 Daily Quordle 1454
+TDD-3292905 📋> 3️⃣8️⃣
+TDD-140 📋> 5️⃣9️⃣
+TDD-7 📋> m-w.com/games/quordle/
+TDD237385 📋> 
+TDD-82707 📋> ␚
+TDD-154538 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1454\n3\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD2323 result: "\ud83d\ude42 Daily Quordle 1454\n3\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD185318 📆 2026-01-17 ? 
