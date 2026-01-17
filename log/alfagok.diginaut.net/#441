@@ -1,0 +1,40 @@
+T491.6968505749992 now: 2026-01-17T09:20:21EST
+TD165 site: alfagok.diginaut.net
+TDD391977 loaded 399689 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1163 words excluded) asof 8c59d554bde2e88599ca24192dd826e96ae6e921
+TDD3436881  ...
+TDD-704691 [0 : 199833 : 399689] lijm? b
+TDD-3123524 progress: -1 199833 lijm
+TDD1658547 [0 : 99758 : 199833] ex? b
+TDD-1659143 progress: -1 99758 ex
+TDD1537884 [0 : 49849 : 99758] boks? a
+TDD-1537905 progress: 1 49849 boks
+TDD1727297 [49850 : 74762 : 99758] dc? b
+TDD-1727294 progress: -1 74762 dc
+TDD1635280 [49850 : 62288 : 74762] cement? b
+TDD-1635200 progress: -1 62288 cement
+TDD1644526 [49850 : 55941 : 62288] bron? b
+TDD-1644553 progress: -1 55941 bron
+TDD1596560 [49850 : 52691 : 55941] bouw? b
+TDD-1596594 progress: -1 52691 bouw
+TDD1872259 [49850 : 51256 : 52691] boots? a
+TDD-1872258 progress: 1 51256 boots
+TDD1707909 [51257 : 51834 : 52691] bos? b
+TDD-1707907 progress: -1 51834 bos
+TDD2036558 [51257 : 51542 : 51834] borner? !
+TDD-73837 [51257 : 51545 : 51833] bornput? b
+TDD-1962732 progress: -1 51545 bornput
+TDD2167206 [51257 : 51332 : 51545] bord? it
+TDD-2167235 progress: 0 51332 bord
+TDD-146 [51257 : 51332 : 51545] <Done>.
+TDD3009649 📋> 🧩 Puzzel #441
+TDD-3009541 📋> 🤔 11 gokken
+TDD-109 📋> ⏱️ 20s
+TDD259482 📋> 🔗 alfagok.diginaut.net
+TDD-133321 📋> ␚
+TDD-126006 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #441\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 20s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD500 result: "\ud83e\udde9 Puzzel #441\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 20s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-659 result puzzle: 441
+TDD-11 result guesses: 11
+TDD-3 result time: 20s
+TDD0 result link: alfagok.diginaut.net
+TDD206020 📆 2026-01-17 ? 
