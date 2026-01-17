@@ -1,0 +1,112 @@
+T961.7992111120002 now: 2026-01-17T09:37:03EST
+TD189 site: squareword.org
+TDD-144 wordlist: nwl2023.txt
+TDD919828  ...
+TDD5966513 🧩  ? #1447
+TDD-6885858 puzzle_id: #1447
+TDD1356872 > *
+TDD-285518 try? 1
+TDD-1071426 questioning: ["rates", "#5"]
+TDD3937705 #1 <IndexError>  📋 "rates" ? _____ ~ RTS
+TDD-3937145 attempt 0 RATES m n m n m
+TDD2294496 #2 <IndexError>  📋 "rates" ? _A_E_ ~ RTS
+TDD-2295176 attempt 1 RATES m Y m Y m
+TDD1954766 #3 <IndexError>  📋 "rates" ? _____ ~ E
+TDD-1954639 attempt 2 RATES n n n m n
+TDD2028537 #4 <IndexError>  📋 "rates" ? _____ ~ E
+TDD-2027285 attempt 3 RATES n n n m n
+TDD2269833 #5 <IndexError>  📋 "rates" ? ___ES ~ E
+TDD-2271092 attempt 4 RATES n n n Y Y
+TDD286075 ? 
+TDD-286297 question done
+TDD809087 > *
+TDD-74111 questioning: ["taser", "#2"]
+TDD5695822 #1 _____ ~RST -AE  📋 "taser" ? .
+TDD-6430637 attempt 0 TASER m n m n m
+TDD742473 #2 _A_E_ ~RST  📋 "taser" ? /it
+TDD-742495 attempt 1 TASER Y Y Y Y Y
+TDD1620062 #3 _____ ~E -ARST  📋 "taser" ? .
+TDD-1620042 attempt 2 TASER n n n m n
+TDD1465529 #4 _____ ~E -ARST  📋 "taser" ? .
+TDD-1465755 attempt 3 TASER n n n m n
+TDD4398551 #5 ___ES -ART  📋 "taser" ? ___ES ~ E
+TDD-4398369 attempt 4 TASER n n n Y n
+TDD297923 ? 
+TDD-298023 question done
+TDD645369 > *
+TDD1835503 try? 2
+TDD-2480665 questioning: ["skirt", "#1"]
+TDD5141786 #1 _____ ~RST -AE  📋 "skirt" ? S__RT
+TDD-5141827 attempt 0 SKIRT Y n n Y Y
+TDD2689192 #3 _____ ~E -ARST  📋 "skirt" ? __I__ ~ E
+TDD-2689152 attempt 2 SKIRT n n Y n n
+TDD1191210 #4 _____ ~E -ARST  📋 "skirt" ? .
+TDD-1191194 attempt 3 SKIRT n n n n n
+TDD5211587 #5 ___ES -ARST  📋 "skirt" ? ___ES ~ E
+TDD-5211693 attempt 4 SKIRT n n n n n
+TDD451271 ? 
+TDD-451397 question done
+TDD3940070 > *
+TDD-1917892 try? 1
+TDD-2022104 questioning: ["snort", "#1"]
+TDD6984156 #1 S__RT -AEIK  📋 "snort" ? .
+TDD-6984236 attempt 0 SNORT Y n n Y Y
+TDD3106252 #3 __I__ ~E -AKRST  📋 "snort" ? __I__ ~ EO
+TDD-3105968 attempt 2 SNORT n n m n n
+TDD3927417 #4 _____ ~E -AIKRST  📋 "snort" ? _____ ~ EN
+TDD-3927525 attempt 3 SNORT n m n n n
+TDD3113453 #5 ___ES -AIKRST  📋 "snort" ? ___ES ~ E
+TDD-3113437 attempt 4 SNORT n n n n n
+TDD306178 ? 
+TDD-306356 question done
+TDD862213 > *
+TDD943099 try? 1
+TDD-1805130 questioning: ["spurt", "#1"]
+TDD2321814 #1 S__RT -AEIKNO  📋 "spurt" ? /it
+TDD-2321394 attempt 0 SPURT Y Y Y Y Y
+TDD1368307 #3 __I__ ~EO -AKNRST  📋 "spurt" ? .
+TDD-1368766 attempt 2 SPURT n n n n n
+TDD2832155 #4 _____ ~EN -AIKORST  📋 "spurt" ? _____ ~ ENU
+TDD-2832128 attempt 3 SPURT n n m n n
+TDD3252739 #5 ___ES -AIKNORST  📋 "spurt" ? ___ES ~ E
+TDD-3252721 attempt 4 SPURT n n n n n
+TDD188122 ? 
+TDD-188311 question done
+TDD670761 > *
+TDD773969 questioning: ["venue", "#4"]
+TDD8592599 #3 __I__ ~EO -AKNPRSTU  📋 "venue" ? __I_E ~ OV
+TDD-10037134 attempt 2 VENUE m n n n Y
+TDD1994512 #4 _____ ~ENU -AIKOPRST  📋 "venue" ? /it
+TDD-1994539 attempt 3 VENUE Y Y Y Y Y
+TDD4075819 #5 ___ES -AIKNOPRSTU  📋 "venue" ? ___ES ~ E
+TDD-4075847 attempt 4 VENUE n m n n m
+TDD224215 ? 
+TDD-224429 question done
+TDD728923 > *
+TDD890853 questioning: ["edges", "#5"]
+TDD33741966 #3 __I_E ~OV -AKNPRSTU  📋 "edges" ? .
+TDD-35361428 attempt 2 EDGES n n n n n
+TDD996466 #5 ___ES -AIKNOPRSTUV  📋 "edges" ? /it
+TDD-996469 attempt 4 EDGES Y Y Y Y Y
+TDD326173 ? 
+TDD-326447 question done
+TDD697004 > *
+TDD388528 questioning: ["olive", "#3"]
+TDD2358379 #3 __I_E ~OV -ADEGKNPRSTU  📋 "olive" ? /it
+TDD-3443692 attempt 2 OLIVE Y Y Y Y Y
+TDD1353820 ? ␚
+TDD-1354068 question done
+TDD4328123 📋> squareword.org 1447: 8 guesses
+TDD-4328148 📋> 
+TDD-123 📋> 🟩🟩🟩🟩🟩
+TDD-9 📋> 🟩🟩🟩🟩🟩
+TDD-5 📋> 🟨🟨🟩🟨🟨
+TDD0 📋> 🟨🟨🟨🟨🟨
+TDD4 📋> 🟨🟨🟨🟩🟩
+TDD-5 📋> 
+TDD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD312425 📋> #squareword #squareword1447
+TDD-195436 📋> ␚
+TDD-116842 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1447: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1447"}
+TDD1305 result: "squareword.org 1447: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1447"
+TDD216350 📆 2026-01-17 ? 
