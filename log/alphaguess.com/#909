@@ -1,0 +1,48 @@
+T109.43097346099967 now: 2026-01-18T08:11:51EST
+TD71 site: alphaguess.com
+TDD148158 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof cd8c081fbe4ab55af17c740a5457c7ff0bac04af
+TDD3610940  ...
+TDD-237873 [0 : 98220 : 196531] mach? a
+TDD-3521086 progress: 1 98220 mach
+TDD1642832 [98221 : 147373 : 196531] rhotic? a
+TDD-1642745 progress: 1 147373 rhotic
+TDD1558183 [147374 : 171643 : 196531] ta? a
+TDD-1558291 progress: 1 171643 ta
+TDD1593883 [171644 : 182008 : 196531] un? b
+TDD-1593856 progress: -1 182008 un
+TDD1646988 [171644 : 176814 : 182008] toil? b
+TDD-1646985 progress: -1 176814 toil
+TDD1601007 [171644 : 174192 : 176814] term? a
+TDD-1601038 progress: 1 174192 term
+TDD1431005 [174193 : 175500 : 176814] thrash? a
+TDD-1431030 progress: 1 175500 thrash
+TDD1599009 [175501 : 176149 : 176814] till? b
+TDD-1598922 progress: -1 176149 till
+TDD1503812 [175501 : 175823 : 176149] thunk? a
+TDD-1503861 progress: 1 175823 thunk
+TDD1411320 [175824 : 175947 : 176149] tick? a
+TDD-1411285 progress: 1 175947 tick
+TDD3512879 [175948 : 176041 : 176149] tie? b
+TDD-3512754 progress: -1 176041 tie
+TDD1751037 [175948 : 175991 : 176041] tictac? b
+TDD-1751191 progress: -1 175991 tictac
+TDD1625079 [175948 : 175962 : 175991] tickle? b
+TDD-1625103 progress: -1 175962 tickle
+TDD1780382 [175948 : 175953 : 175962] ticket? it
+TDD-1780374 progress: 0 175953 ticket
+TDD-127 [175948 : 175953 : 175962] <Done>.
+TDD2462031 📋> 🧩 Puzzle #909
+TDD-2461937 📋> 
+TDD-106 📋> 🤔 14 guesses
+TDD-9 📋> 
+TDD1 📋> ⏱️ 23s
+TDD0 📋> 
+TDD225364 📋> 🔗 alphaguess.com
+TDD-33531 📋> ␚
+TDD-191686 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #909\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"}
+TDD2 result: "\ud83e\udde9 Puzzle #909\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 23s\n\n\ud83d\udd17 alphaguess.com"
+TDD-149 result puzzle: 909
+TDD-19 result guesses: 14
+TDD-3 result time: 23s
+TDD0 result link: alphaguess.com
+TDD180627 📆 2026-01-18 ? 
