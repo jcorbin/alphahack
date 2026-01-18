@@ -1,0 +1,94 @@
+T393.4687316560012 now: 2026-01-18T08:16:35EST
+TD335 site: https://play.dictionary.com/games/todays-hurdle
+TDD-278 wordlist: nwl2023.txt
+TDD516554  ...
+TDD2862128 1.1> /site
+TDD11546461  ...
+TDD737467 1.1> *
+TDD-12980955 1.1 ? 2
+TDD1617279 1.1 📋 "stale" ? nnnMM
+TDD-4298819 tried: STALE n n n m m
+TDD776041 1.2> *
+TDD357484 1.2 ? 1
+TDD2467561 1.2 📋 "idler" ? nnYMn
+TDD-3601080 tried: IDLER n n Y m n
+TDD817890 1.3> *
+TDD1373471 1.3 ? 3
+TDD1526179 1.3 📋 "melon" ? nYYnn
+TDD-3717366 tried: MELON n Y Y n n
+TDD474444 1.4> *
+TDD2084320 1.4 ? 1
+TDD996272 1.4 📋 "belch" ? YYYYY
+TDD-3554994 tried: BELCH Y Y Y Y Y
+TDD9397025 2.1 📋 "belch" ? YYnnn
+TDD-9397081 tried: BELCH Y Y n n n
+TDD464258 2.2> *
+TDD787006 2.2 ? 1
+TDD3582085 2.2 📋 "beats" ? YYYMM
+TDD-4833564 tried: BEATS Y Y Y m m
+TDD865177 2.3> *
+TDD3867184 2.3 📋 "beast" ? YYYYY
+TDD-4732306 tried: BEAST Y Y Y Y Y
+TDD4278446 3.1 📋 "beast" ? *
+TDD-1981402 3.1 ? ␚
+TDD-2297164 <EOF>
+TDD2086110 3.1 📋 "beast" ? nnMnM
+TDD-2086026 tried: BEAST n n m n m
+TDD916562 3.2> *
+TDD5467 3.2 ? 1
+TDD2718570 3.2 📋 "actor" ? MnYMn
+TDD-3640428 tried: ACTOR m n Y m n
+TDD856413 3.3> *
+TDD4295247 3.3 ? 5
+TDD-1533818 3.3 📋 "patio" ? YYYYY
+TDD-3617862 tried: PATIO Y Y Y Y Y
+TDD9260012 4.1 📋 "patio" ? nMnYM
+TDD-9260124 tried: PATIO n m n Y m
+TDD860116 4.2> *
+TDD9371205 4.2 ? ␚
+TDD-10231348 <EOF>
+TDD464225 4.2> *
+TDD1823705 4.2 ? 10
+TDD1355506 4.2 📋 "avoid" ? YYYYY
+TDD-3643386 tried: AVOID Y Y Y Y Y
+TDD8765489 5.1 📋 "belch" ? nYnnn
+TDD-8765266 tried: BELCH n Y n n n
+TDD1383137 5.2 📋 "beast" ? nYYnn
+TDD-1383340 tried: BEAST n Y Y n n
+TDD1792007 5.3 📋 "patio" ? nMnnn
+TDD-1791823 tried: PATIO n m n n n
+TDD1886196 5.4 📋 "avoid" ? Mnnnn
+TDD-1886009 tried: AVOID m n n n n
+TDD1016395 5.5> *
+TDD2269464 5.5 ? 1
+TDD4363176 5.5 📋 "yearn" ? MYYYn
+TDD-7649081 tried: YEARN m Y Y Y n
+TDD1365269 5.6> *
+TDD2913630 5.6 📋 "weary" ? YYYYY
+TDD-4279008 tried: WEARY Y Y Y Y Y
+TDD4800376 📋> Hurdle 1478
+TDD-4800543 📋> 
+TDD-231 📋> 4/6
+TDD-1 📋> ⬜⬜⬜🟨🟨
+TDD-9 📋> ⬜⬜🟩🟨⬜
+TDD-6 📋> ⬜🟩🟩⬜⬜
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> 🟩🟩⬜⬜⬜
+TDD0 📋> 🟩🟩🟩🟨🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-4 📋> 3/6
+TDD3 📋> ⬜⬜🟨⬜🟨
+TDD2 📋> 🟨⬜🟩🟨⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 2/6
+TDD0 📋> ⬜🟨⬜🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 2/2
+TDD-1 📋> 🟨🟩🟩🟩⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD218850 📋> score: 10,200
+TDD-70936 📋> ␚
+TDD-147686 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1478\n\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n2/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,200"}
+TDD1761 result: "Hurdle 1478\n\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n2/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,200"
+TDD159417 📆 2026-01-18 ? 
