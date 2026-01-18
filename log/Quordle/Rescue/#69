@@ -1,0 +1,73 @@
+T2414.166125996002 now: 2026-01-18T08:50:16EST
+TD225 site: m-w.com/games/quordle/#/rescue
+TDD-186 wordlist: nwl2023.txt
+TDD-25 num_words: 4
+TDD2681352  ...
+TDD46320282 > tried spice whole
+TDD-49001010 questioning: SPICE WHOLE
+TDD3412875 Rescue #1 _____? nnnnY
+TDD-3413187 attempt: 0 SPICE n n n n Y
+TDD1613421 Rescue #1 ____E -CIPS? nnYnY
+TDD-1613451 attempt: 0 WHOLE n n Y n Y
+TDD1864692 Rescue #2 _____? YMnnn
+TDD-1864556 attempt: 1 SPICE Y m n n n
+TDD1269222 Rescue #2 S____ ~P -CEI? nnnMn
+TDD-1269267 attempt: 1 WHOLE n n n m n
+TDD1762030 Rescue #3 _____? MYnnM
+TDD-1761957 attempt: 2 SPICE m Y n n m
+TDD1351663 Rescue #3 _P___ ~ES -CI? nnnnM
+TDD-1351806 attempt: 2 WHOLE n n n n m
+TDD1081588 Rescue #4 _____? nnnnn
+TDD-1081630 attempt: 3 SPICE n n n n n
+TDD1105261 Rescue #4 _____ -CEIPS? nnnnn
+TDD-1105182 attempt: 3 WHOLE n n n n n
+TDD1541903 > *
+TDD-397983 ? 1
+TDD-1144034 questioning: tardy
+TDD36638477 Rescue #1 __O_E -CHILPSW? MMnnn
+TDD-36638270 attempt: 0 TARDY m m n n n
+TDD8570257 Rescue #2 S____ ~LP -CEHIOW? nnMnn
+TDD-8570357 attempt: 1 TARDY n n m n n
+TDD3399415 Rescue #3 _P___ ~ES -CHILOW? Mnnnn
+TDD-3399421 attempt: 2 TARDY m n n n n
+TDD1974447 Rescue #4 _____ -CEHILOPSW? MYnnn
+TDD-1974453 attempt: 3 TARDY m Y n n n
+TDD1151000 > *
+TDD-1150643 questioning: slurp
+TDD4077842 Rescue #1 __O_E ~AT -CDHILPRSWY? nnnnn
+TDD-4078148 attempt: 0 SLURP n n n n n
+TDD1498008 Rescue #2 S____ ~LPR -ACDEHIOTWY? YYYYY
+TDD-1498166 attempt: 1 SLURP Y Y Y Y Y
+TDD2731617 Rescue #3 _P___ ~EST -ACDHILORWY? MnMnM
+TDD-2731513 attempt: 2 SLURP m n m n m
+TDD1454460 Rescue #4 _A___ ~T -CDEHILOPRSWY? nnYnn
+TDD-1454437 attempt: 3 SLURP n n Y n n
+TDD1261831 > *
+TDD-1261294 questioning: upset
+TDD3055443 Rescue #1 __O_E ~AT -CDHILPRSUWY? nnnMM
+TDD-3055881 attempt: 0 UPSET n n n m m
+TDD1347977 Rescue #3 _P___ ~ESTU -ACDHILORWY? YYYYY
+TDD-1348049 attempt: 2 UPSET Y Y Y Y Y
+TDD1494407 Rescue #4 _AU__ ~T -CDEHILOPRSWY? MnnnY
+TDD-1494335 attempt: 3 UPSET m n n n Y
+TDD1095883 > *
+TDD356960 ? 2
+TDD-1452989 questioning: atone
+TDD3733115 Rescue #1 __O_E ~AT -CDHILPRSUWY? YYYYY
+TDD-3732988 attempt: 0 ATONE Y Y Y Y Y
+TDD1863450 Rescue #4 _AU_T -CDEHILOPRSWY? MMnYn
+TDD-1863591 attempt: 3 ATONE m m n Y n
+TDD890188 > *
+TDD1470915 ? 3
+TDD-2361148 questioning: jaunt
+TDD2995713 Rescue #4 _AUNT -CDEHILOPRSWY? YYYYY
+TDD-2995634 attempt: 3 JAUNT Y Y Y Y Y
+TDD4784247 📋> Daily Rescue 69
+TDD-4784394 📋> 6️⃣4️⃣
+TDD-138 📋> 5️⃣7️⃣
+TDD-10 📋> m-w.com/games/quordle/
+TDD236329 📋> 
+TDD-85409 📋> ␚
+TDD-150724 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 69\n6\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD0 result: "Daily Rescue 69\n6\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD181894 📆 2026-01-18 ? 
