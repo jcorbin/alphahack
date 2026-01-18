@@ -1,0 +1,78 @@
+T153.71197203700285 now: 2026-01-18T08:12:35EST
+TD207 site: dontwordle.com
+TDD-171 wordlist: nwl2023.txt
+TDD3809029  ...
+TDD-2025995 1> * -bot 10
+TDD1795648 ? 4
+TDD811721 📋 "tesla" ? nYnnY
+TDD-4389471 tried: TESLA n Y n n Y
+TDD1250432 2> undo
+TDD-1251125 undo
+TDD14897289 1> * :v [tsl] -bot 10
+TDD-13233400 ? 1
+TDD3608014 📋 "fugio" ? nnnYn
+TDD-5271876 tried: FUGIO n n n Y n
+TDD883167 2> undo
+TDD-883080 undo
+TDD13245457 1> * :v [tslfugo] -bot 10
+TDD-10035837 ? 2
+TDD2725877 📋 "nymph" ? nnMnn
+TDD-5935527 tried: NYMPH n n m n n
+TDD2886369 2> undo
+TDD-2886445 undo
+TDD4797002 1> *
+TDD121516 ? 1
+TDD1181601 📋 "poopy" ? nnnnn
+TDD-6100195 tried: POOPY n n n n n
+TDD787773 2> *
+TDD182407 ? 1
+TDD4279551 📋 "jujus" ? nnnnn
+TDD-5249664 tried: JUJUS n n n n n
+TDD593679 3> *
+TDD1214272 ? 1
+TDD3761707 📋 "grrrl" ? nnnnn
+TDD-5569617 tried: GRRRL n n n n n
+TDD7163139 4> *
+TDD-5966582 ? 1
+TDD4119245 📋 "bifid" ? nnnYM
+TDD-5315737 tried: BIFID n n n Y m
+TDD1575706 5> undo
+TDD-1575605 undo
+TDD2979897 4> *
+TDD16575881 ? 3
+TDD-15512625 📋 "chick" ? nnMnn
+TDD-4043289 tried: CHICK n n m n n
+TDD558105 5> *
+TDD4483286 ? ␚
+TDD-5041516 <EOF>
+TDD5546688 5> * :v ...i. 
+TDD14259451 5> * :v ...I.
+TDD-10186522 5> *
+TDD-2211131 ? 2
+TDD-2616984 📋 "fixit" ? nnnYn
+TDD-4791424 tried: FIXIT n n n Y n
+TDD698144 6> *
+TDD2424701 ? 1
+TDD3680081 📋 "innie" ? ␚
+TDD-6803095 <EOF>
+TDD825220 6> *
+TDD1566763 ? 2
+TDD1674591 📋 "newie" ? nYnYn
+TDD-4066461 tried: NEWIE n Y n Y n
+TDD2637777 📋> Don't Wordle 1335 - SURVIVED
+TDD-2637760 📋> Hooray! I didn't Wordle today!
+TDD-210 📋> ⬜⬜⬜⬜⬜6473
+TDD-20 📋> ⬜⬜⬜⬜⬜2436
+TDD0 📋> ⬜⬜⬜⬜⬜753
+TDD5 📋> ⬜⬜🟨⬜⬜154
+TDD-3 📋> ⬜⬜⬜🟩⬜16
+TDD1 📋> ⬜🟩⬜🟩⬜2
+TDD-2 📋> Undos used: 4
+TDD0 📋> 
+TDD-1 📋>   2 words remaining
+TDD4 📋> x 7 unused letters
+TDD235672 📋> = 14 total score
+TDD-87480 📋> ␚
+TDD-147968 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1335 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6473\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2436\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c753\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c154\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c16\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c2\nUndos used: 4\n\n  2 words remaining\nx 7 unused letters\n= 14 total score"}
+TDD2010 result: "Don't Wordle 1335 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6473\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2436\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c753\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c154\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c16\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c2\nUndos used: 4\n\n  2 words remaining\nx 7 unused letters\n= 14 total score"
+TDD145798 📆 2026-01-18 ? 
