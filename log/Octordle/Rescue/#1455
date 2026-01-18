@@ -1,0 +1,179 @@
+T2590.3348384679994 now: 2026-01-18T08:53:12EST
+TD60 site: britannica.com/games/octordle/daily-rescue
+TDD-50 wordlist: nwl2023.txt
+TDD-7 num_words: 8
+TDD3626003  ...
+TDD7168000 > tried gross llama power libel
+TDD-10793631 questioning: GROSS LLAMA POWER LIBEL
+TDD4133926 Rescue #1 _____? nYnnn
+TDD-4133695 attempt: 0 GROSS n Y n n n
+TDD2581093 Rescue #1 _R___ -GOS? nnYnn
+TDD-2581317 attempt: 0 LLAMA n n Y n n
+TDD1507790 Rescue #1 _RA__ -GLMOS? nnnnM
+TDD-1507798 attempt: 0 POWER n n n n m
+TDD1330889 Rescue #1 _RA__ -EGLMOPSW? nMnnn
+TDD-1330906 attempt: 0 LIBEL n m n n n
+TDD2355189 Rescue #2 _____? Ynnnn
+TDD-2355270 attempt: 1 GROSS Y n n n n
+TDD1596480 Rescue #2 G____ -ORS? MMnnn
+TDD-1596381 attempt: 1 LLAMA m m n n n
+TDD1399165 Rescue #2 G____ ~L -AMORS? nnnnn
+TDD-1399128 attempt: 1 POWER n n n n n
+TDD1896223 Rescue #2 G____ ~L -AEMOPRSW? MnnnM
+TDD-1896188 attempt: 1 LIBEL m n n n m
+TDD2686198 Rescue #3 _____? MYYnn
+TDD-2686190 attempt: 2 GROSS m Y Y n n
+TDD2112647 Rescue #3 _RO__ ~G -S? nnnnn
+TDD-2112770 attempt: 2 LLAMA n n n n n
+TDD2147643 Rescue #3 _RO__ ~G -ALMS? YMnnM
+TDD-2147552 attempt: 2 POWER Y m n n m
+TDD1705905 Rescue #3 PRO__ ~G -AELMSW? nnnnn
+TDD-1705999 attempt: 2 LIBEL n n n n n
+TDD1950540 Rescue #4 _____? nMnnn
+TDD-1950428 attempt: 3 GROSS n m n n n
+TDD3534735 Rescue #4 _____ ~R -GOS? YnMnY
+TDD-3534696 attempt: 3 LLAMA Y n m n Y
+TDD1313207 Rescue #4 L___A ~R -GMOS? nnnnM
+TDD-1313322 attempt: 3 POWER n n n n m
+TDD1368087 Rescue #4 L___A ~R -EGMOPSW? Ynnnn
+TDD-1367985 attempt: 3 LIBEL Y n n n n
+T42.182367047993466 now: 2026-01-18T08:55:07EST
+TD192 questioning: GROSS LLAMA POWER LIBEL
+TDD6810185 Rescue #5 _____? nnYMn
+TDD-6809833 attempt: 4 GROSS n n Y m n
+TDD1501756 Rescue #5 __O__ ~S -GR S:1? Mnnnn
+TDD-1501904 attempt: 4 LLAMA m n n n n
+TDD1182657 Rescue #5 __O__ ~LS -AGMR L:1 S:1? MMnnn
+TDD-1182626 attempt: 4 POWER m m n n n
+TDD1993273 Rescue #5 __O__ ~LPS -AEGMRW L:1 S:1? nMnnY
+TDD-1993401 attempt: 4 LIBEL n m n n Y
+TDD1665859 Rescue #6 _____? nnnnn
+TDD-1665849 attempt: 5 GROSS n n n n n
+TDD1249930 Rescue #6 _____ -GORS? nnMnn
+TDD-1249953 attempt: 5 LLAMA n n m n n
+TDD1021461 Rescue #6 _____ ~A -GLMORS A:1? nnnnn
+TDD-1021372 attempt: 5 POWER n n n n n
+TDD1227409 Rescue #6 _____ ~A -EGLMOPRSW A:1? nMnnn
+TDD-1227445 attempt: 5 LIBEL n m n n n
+TDD1511677 Rescue #7 _____? nnnMn
+TDD-1511529 attempt: 6 GROSS n n n m n
+TDD1282927 Rescue #7 _____ ~S -GOR S:1? nnYnn
+TDD-1283105 attempt: 6 LLAMA n n Y n n
+TDD1872655 Rescue #7 __A__ ~S -GLMOR S:1? nnnMn
+TDD-1872545 attempt: 6 POWER n n n m n
+TDD1119197 Rescue #7 __A__ ~ES -GLMOPRW S:1? nnnMn
+TDD-1119215 attempt: 6 LIBEL n n n m n
+TDD1274092 Rescue #8 _____? nnYnn
+TDD-1274005 attempt: 7 GROSS n n Y n n
+TDD1577025 Rescue #8 __O__ -GRS? nYnnn
+TDD-1577107 attempt: 7 LLAMA n Y n n n
+TDD5374896 Rescue #8 _LO__ -AGMRS? nMMnn
+TDD-5374928 attempt: 7 POWER n m m n n
+TDD1551720 Rescue #8 _LO__ ~W -AEGMPRS? Mnnnn
+TDD-1551762 attempt: 7 LIBEL m n n n n
+TDD59145561 > *
+TDD-59143821 questioning: prong
+TDD7627690 Rescue #1 _RA__ ~I -BEGLMOPSW? nYnMn
+TDD-7629557 attempt: 0 PRONG n Y n m n
+TDD1357046 Rescue #2 G____ ~L -ABEIMOPRSW? nnnnM
+TDD-1356903 attempt: 1 PRONG n n n n m
+TDD1661811 Rescue #3 PRO__ ~G -ABEILMSW? YYYYY
+TDD-1661784 attempt: 2 PRONG Y Y Y Y Y
+TDD1189881 Rescue #4 L___A ~R -BEGIMOPSW? nMnnn
+TDD-1189911 attempt: 3 PRONG n m n n n
+TDD4581707 Rescue #5 __O_L ~IPS -ABEGMRW S:1? MnYnn
+TDD-4581645 attempt: 4 PRONG m n Y n n
+TDD1102805 Rescue #6 _____ ~AI -BEGLMOPRSW A:1? nnnnn
+TDD-1102731 attempt: 5 PRONG n n n n n
+TDD1418810 Rescue #7 __A__ ~ES -BGILMOPRW S:1? nnnnn
+TDD-1418760 attempt: 6 PRONG n n n n n
+TDD1185240 Rescue #8 _LO__ ~W -ABEGIMPRS L:1? nnYMn
+TDD-1185208 attempt: 7 PRONG n n Y m n
+TDD1202489 > *
+TDD-1202294 questioning: spoil
+TDD5496732 Rescue #1 _RA__ ~IN -BEGLMOPSW? nnnYn
+TDD-5497066 attempt: 0 SPOIL n n n Y n
+TDD1161615 Rescue #2 G____ ~L -ABEIMNOPRSW? nnnnM
+TDD-1161545 attempt: 1 SPOIL n n n n m
+TDD1461720 Rescue #4 L___A ~R -BEGIMNOPSW? nnnnM
+TDD-1461814 attempt: 3 SPOIL n n n n m
+TDD2957042 Rescue #5 __O_L ~IPS -ABEGMNRW S:1? YYYYY
+TDD-2957105 attempt: 4 SPOIL Y Y Y Y Y
+TDD1718563 Rescue #6 _____ ~AI -BEGLMNOPRSW A:1? nnnYn
+TDD-1718171 attempt: 5 SPOIL n n n Y n
+TDD2267940 Rescue #7 __A__ ~ES -BGILMNOPRW S:1? Ynnnn
+TDD-2268315 attempt: 6 SPOIL Y n n n n
+TDD1180859 Rescue #8 _LO__ ~NW -ABEGIMPRS L:1? nnYnM
+TDD-1180873 attempt: 7 SPOIL n n Y n m
+TDD1223972 > *
+TDD346641 ? 1
+TDD-1570571 questioning: drain
+TDD8488322 Rescue #1 _RAI_ ~N -BEGLMOPSW? YYYYY
+TDD-8488507 attempt: 0 DRAIN Y Y Y Y Y
+TDD1737891 Rescue #2 G____ ~L -ABEIMNOPRSW? nnnnn
+TDD-1737556 attempt: 1 DRAIN n n n n n
+TDD2108041 Rescue #4 L___A ~R -BEGIMNOPSW? nMMnn
+TDD-2108202 attempt: 3 DRAIN n m m n n
+TDD4381413 Rescue #6 ___I_ ~A -BEGLMNOPRSW A:1? MnMYn
+TDD-4381492 attempt: 5 DRAIN m n m Y n
+TDD3051961 Rescue #7 S_A__ ~E -BGILMNOPRW? nnYnn
+TDD-3051849 attempt: 6 DRAIN n n Y n n
+TDD1195829 Rescue #8 _LO__ ~NW -ABEGIMPRS L:1? nnnnY
+TDD-1195953 attempt: 7 DRAIN n n n n Y
+TDD1154471 > *
+TDD-1153765 questioning: audit
+TDD5679590 Rescue #2 G____ ~L -ABDEIMNOPRSW? nYnnn
+TDD-5680310 attempt: 1 AUDIT n Y n n n
+TDD1253562 Rescue #4 L___A ~R -BDEGIMNOPSW? Mnnnn
+TDD-1253425 attempt: 3 AUDIT m n n n n
+TDD4508383 Rescue #6 ___I_ ~AD -BEGLMNOPRSW A:1? YYYYY
+TDD-4508440 attempt: 5 AUDIT Y Y Y Y Y
+TDD2091243 Rescue #7 S_A__ ~E -BDGILMNOPRW? MYnnn
+TDD-2091222 attempt: 6 AUDIT m Y n n n
+TDD1399898 Rescue #8 _LO_N ~W -ABDEGIMPRS L:1? nnnnn
+TDD-1399850 attempt: 7 AUDIT n n n n n
+TDD1153005 > *
+TDD-1152784 questioning: suave
+TDD5396459 Rescue #2 GU___ ~L -ABDEIMNOPRSTW? nYnnn
+TDD-5396832 attempt: 1 SUAVE n Y n n n
+TDD3105323 Rescue #4 L___A ~R -BDEGIMNOPSTUW? nnMYn
+TDD-3105196 attempt: 3 SUAVE n n m Y n
+TDD4167911 Rescue #7 SUA__ ~E -BDGILMNOPRTW? YYYYY
+TDD-4167907 attempt: 6 SUAVE Y Y Y Y Y
+TDD1355286 Rescue #8 _LO_N ~W -ABDEGIMPRSTU L:1? nnnnn
+TDD-1355216 attempt: 7 SUAVE n n n n n
+TDD1253054 > *
+TDD-1252930 questioning: larva
+TDD5939860 Rescue #2 GU___ ~L -ABDEIMNOPRSTVW? Mnnnn
+TDD-5940035 attempt: 1 LARVA m n n n n
+TDD1479086 Rescue #4 L__VA ~R -BDEGIMNOPSTUW? YYYYY
+TDD-1479161 attempt: 3 LARVA Y Y Y Y Y
+TDD4784246 Rescue #8 _LO_N ~W -ABDEGIMPRSTUV L:1? Mnnnn
+TDD-4784378 attempt: 7 LARVA m n n n n
+TDD1304157 > *
+TDD-118240 ? 1
+TDD-1185686 questioning: flown
+TDD3728516 Rescue #2 GU___ ~L -ABDEIMNOPRSTVW? nMnnn
+TDD-3728813 attempt: 1 FLOWN n m n n n
+TDD3788091 Rescue #8 _LO_N ~W -ABDEGIMPRSTUV L:1? nYYYY
+TDD-3787843 attempt: 7 FLOWN n Y Y Y Y
+TDD922894 > *
+TDD-923069 questioning: clown
+TDD5391717 Rescue #2 GU___ ~L -ABDEFIMNOPRSTVW? nMnnn
+TDD-5391599 attempt: 1 CLOWN n m n n n
+TDD2824064 Rescue #8 _LOWN -ABDEFGIMPRSTUV? YYYYY
+TDD-2824056 attempt: 7 CLOWN Y Y Y Y Y
+TDD844298 > *
+TDD-844424 questioning: gully
+TDD4547372 Rescue #2 GU___ ~L -ABCDEFIMNOPRSTVW? YYYYY
+TDD-4547281 attempt: 1 GULLY Y Y Y Y Y
+TDD3253004 📋> Daily Rescue Octordle #1455
+TDD-3253025 📋> 7️⃣🕐
+TDD-220 📋> 5️⃣🔟
+TDD-5 📋> 6️⃣8️⃣
+TDD-5 📋> 9️⃣🕛
+TDD190281 📋> Score: 8
+TDD-76620 📋> ␚
+TDD-113559 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1455\n7\ufe0f\u20e3\ud83d\udd50\n5\ufe0f\u20e3\ud83d\udd1f\n6\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd5b\nScore: 8"}
+TDD2214 result: "Daily Rescue Octordle #1455\n7\ufe0f\u20e3\ud83d\udd50\n5\ufe0f\u20e3\ud83d\udd1f\n6\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd5b\nScore: 8"
+TDD136613 📆 2026-01-18 ? 
