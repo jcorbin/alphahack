@@ -1,0 +1,172 @@
+T1304.5714409659995 now: 2026-01-18T08:31:46EST
+TD337 site: britannica.com/games/octordle/daily
+TDD-278 wordlist: nwl2023.txt
+TDD-31 num_words: 8
+TDD203978  ...
+TDD2049723 > /site
+TDD531539  ...
+TDD-1180510 > *
+TDD-672090 ? 1
+TDD-932399 questioning: laser
+TDD3007906 Classic #1 _____? nMMnn
+TDD-3007610 attempt: 0 LASER n m m n n
+TDD1016832 Classic #2 _____? nnnnn
+TDD-1017017 attempt: 1 LASER n n n n n
+TDD1130699 Classic #3 _____? nnnnM
+TDD-1130698 attempt: 2 LASER n n n n m
+TDD1339370 Classic #4 _____? nnnYn
+TDD-1339510 attempt: 3 LASER n n n Y n
+TDD3958964 Classic #5 _____? nYnnM
+TDD-3958878 attempt: 4 LASER n Y n n m
+TDD6035158 Classic #6 _____? MYnMM
+TDD-6035322 attempt: 5 LASER m Y n m m
+TDD2216955 Classic #7 _____? nMnnn
+TDD-2216736 attempt: 6 LASER n m n n n
+TDD2459880 Classic #8 _____? nnMnM
+TDD-2458523 attempt: 7 LASER n n m n m
+TDD1922870 > *
+TDD-459767 ? 1
+TDD-1464492 questioning: yogin
+TDD4425776 Classic #1 _____ ~AS -ELR? nnnYn
+TDD-4425818 attempt: 0 YOGIN n n n Y n
+TDD1610738 Classic #2 _____ -AELRS? nYnnn
+TDD-1610662 attempt: 1 YOGIN n Y n n n
+TDD1633621 Classic #3 _____ ~R -AELS? nMnnn
+TDD-1633436 attempt: 2 YOGIN n m n n n
+TDD1665342 Classic #4 ___E_ -ALRS? nnnnM
+TDD-1665347 attempt: 3 YOGIN n n n n m
+TDD2956035 Classic #5 _A___ ~R -ELS? nnnnn
+TDD-2956245 attempt: 4 YOGIN n n n n n
+TDD2772259 Classic #6 _A___ ~ELR -S? Mnnnn
+TDD-2772287 attempt: 5 YOGIN m n n n n
+TDD2201173 Classic #7 _____ ~A -ELRS? MYnnn
+TDD-2201153 attempt: 6 YOGIN m Y n n n
+TDD1551435 Classic #8 _____ ~RS -AEL? nnnMn
+TDD-1551381 attempt: 7 YOGIN n n n m n
+TDD1867967 > *
+TDD-1867766 questioning: early
+TDD3936233 Classic #1 ___I_ ~AS -EGLNORY? nMnnn
+TDD-3936672 attempt: 0 EARLY n m n n n
+TDD1132300 Classic #2 _O___ -AEGILNRSY? nnnnn
+TDD-1132160 attempt: 1 EARLY n n n n n
+TDD1742245 Classic #3 _____ ~OR -AEGILNSY? nnYnn
+TDD-1742028 attempt: 2 EARLY n n Y n n
+TDD1439560 Classic #4 ___E_ ~N -AGILORSY? Mnnnn
+TDD-1439648 attempt: 3 EARLY m n n n n
+TDD3235426 Classic #5 _A___ ~R -EGILNOSY? nYYnn
+TDD-3235434 attempt: 4 EARLY n Y Y n n
+TDD1254980 Classic #6 _A___ ~ELRY -GINOS? YYYYY
+TDD-1255090 attempt: 5 EARLY Y Y Y Y Y
+TDD2523027 Classic #7 _O___ ~AY -EGILNRS? nMnnY
+TDD-2522788 attempt: 6 EARLY n m n n Y
+TDD1604993 Classic #8 _____ ~IRS -AEGLNOY? nnMnn
+TDD-1605026 attempt: 7 EARLY n n m n n
+TDD1439833 > *
+TDD306524 ? 2
+TDD-1746541 questioning: mouth
+TDD4681976 Classic #1 ___I_ ~AS -EGLNORY? nnnMn
+TDD-4681976 attempt: 0 MOUTH n n n m n
+TDD3066630 Classic #2 _O___ -AEGILNRSY? nYnYY
+TDD-3066593 attempt: 1 MOUTH n Y n Y Y
+TDD1719739 Classic #3 __R__ ~O -AEGILNSY? nMnMM
+TDD-1719737 attempt: 2 MOUTH n m n m m
+TDD1517714 Classic #4 ___E_ ~N -AGILORSY? MnMMn
+TDD-1517742 attempt: 3 MOUTH m n m m n
+TDD2984412 Classic #5 _AR__ -EGILNOSY? nnnnn
+TDD-2984579 attempt: 4 MOUTH n n n n n
+TDD6001956 Classic #7 _O__Y ~A -EGILNRS? nYnMn
+TDD-6001906 attempt: 6 MOUTH n Y n m n
+TDD1455857 Classic #8 _____ ~IRS -AEGLNOY? Mnnnn
+TDD-1455670 attempt: 7 MOUTH m n n n n
+TDD1258825 > *
+TDD-1258618 questioning: unmet
+TDD6989544 Classic #1 ___I_ ~AST -EGHLMNORUY? nnnnM
+TDD-6989822 attempt: 0 UNMET n n n n m
+TDD1725984 Classic #2 _O_TH -AEGILMNRSUY? nnnnM
+TDD-1725710 attempt: 1 UNMET n n n n m
+TDD2229072 Classic #3 __R__ ~HOT -AEGILMNSUY? nnnnM
+TDD-2229367 attempt: 2 UNMET n n n n m
+TDD2031193 Classic #4 ___E_ ~MNTU -AGHILORSY? YYYYY
+TDD-2031278 attempt: 3 UNMET Y Y Y Y Y
+TDD3690511 Classic #5 _AR__ -EGHILMNOSTUY? nnnnn
+TDD-3690366 attempt: 4 UNMET n n n n n
+TDD3987362 Classic #7 _O__Y ~AT -EGHILMNRSU? nnnnM
+TDD-3987398 attempt: 6 UNMET n n n n m
+TDD1164361 Classic #8 _____ ~IMRS -AEGHLNOTUY? nnMnn
+TDD-1164379 attempt: 7 UNMET n n m n n
+TDD1450703 > *
+TDD-1450419 questioning: staid
+TDD4656050 Classic #1 ___I_ ~AST -EGHLMNORUY? YYYYY
+TDD-4656349 attempt: 0 STAID Y Y Y Y Y
+TDD1916354 Classic #2 _O_TH -AEGILMNRSUY? nMnnn
+TDD-1916089 attempt: 1 STAID n m n n n
+TDD1699605 Classic #3 __R__ ~HOT -AEGILMNSUY? nMnnn
+TDD-1700010 attempt: 2 STAID n m n n n
+TDD3610417 Classic #5 _AR__ -EGHILMNOSTUY? nnMnn
+TDD-3610467 attempt: 4 STAID n n m n n
+TDD2708569 Classic #7 _O__Y ~AT -EGHILMNRSU? nMMnM
+TDD-2708196 attempt: 6 STAID n m m n m
+TDD1601468 Classic #8 _____ ~IMRS -AEGHLNOTUY? MnnMn
+TDD-1601586 attempt: 7 STAID m n n m n
+TDD1110164 > *
+TDD-1109940 questioning: today
+TDD5357374 Classic #2 _O_TH -ADEGILMNRSUY? YYnnn
+TDD-5357628 attempt: 1 TODAY Y Y n n n
+TDD1953816 Classic #3 __R__ ~HOT -ADEGILMNSUY? YMnnn
+TDD-1953741 attempt: 2 TODAY Y m n n n
+TDD2915293 Classic #5 _AR__ -DEGHILMNOSTUY? nnnMn
+TDD-2915381 attempt: 4 TODAY n n n m n
+TDD3042167 Classic #7 _O__Y ~ADT -EGHILMNRSU? YYYYY
+TDD-3042166 attempt: 6 TODAY Y Y Y Y Y
+TDD1994744 Classic #8 _____ ~IMRS -ADEGHLNOTUY? nnnnn
+TDD-1994700 attempt: 7 TODAY n n n n n
+TDD1365424 > *
+TDD-1365102 questioning: tooth
+TDD5015191 Classic #2 TO_TH -ADEGILMNRSUY? YYYYY
+TDD-5015583 attempt: 1 TOOTH Y Y Y Y Y
+TDD2472890 Classic #3 T_R__ ~HO -ADEGILMNSUY? YMnnM
+TDD-2472807 attempt: 2 TOOTH Y m n n m
+TDD3156540 Classic #5 _AR__ -DEGHILMNOSTUY? nnnnn
+TDD-3156486 attempt: 4 TOOTH n n n n n
+TDD2624304 Classic #8 _____ ~IMRS -ADEGHLNOTUY? nnnnn
+TDD-2623979 attempt: 7 TOOTH n n n n n
+TDD1736045 > *
+TDD-45995 ? 2
+TDD-1690491 questioning: throw
+TDD5774320 Classic #3 T_R__ ~HO -ADEGILMNSUY O:1? YYYYY
+TDD-5774277 attempt: 2 THROW Y Y Y Y Y
+TDD2956310 Classic #5 _AR__ -DEGHILMNOSTUY? nnYnn
+TDD-2956295 attempt: 4 THROW n n Y n n
+TDD2935492 Classic #8 _____ ~IMRS -ADEGHLNOTUY? nnMnn
+TDD-2935508 attempt: 7 THROW n n m n n
+TDD1049550 > *
+TDD514272 ? 2
+TDD-1563649 questioning: parka
+TDD8035347 Classic #5 _AR__ -DEGHILMNOSTUWY? YYYYY
+TDD-8035584 attempt: 4 PARKA Y Y Y Y Y
+TDD2789146 Classic #8 _____ ~IMRS -ADEGHLNOTUWY? YnMnn
+TDD-2789136 attempt: 7 PARKA Y n m n n
+TDD698682 > *
+TDD984057 ? 1
+TDD-1682747 questioning: prism
+TDD2955818 Classic #8 P____ ~IMRS -ADEGHKLNOTUWY? YYYYY
+TDD-2955402 attempt: 7 PRISM Y Y Y Y Y
+TDD2990284 📋> Daily Octordle #1455
+TDD-2990858 📋> 6️⃣8️⃣
+TDD-132 📋> 9️⃣5️⃣
+TDD-2 📋> 🔟3️⃣
+TDD-2 📋> 7️⃣🕚
+TDD757238 📋> Score: 59
+TDD-612440 📋> ␚
+TDD-144617 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\u0002Daily Octordle #1455\n6\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e35\ufe0f\u20e3\n\ud83d\udd1f3\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udd5a\nScore: 59"}
+TDD234476 📋> 
+TDD2850938 📋> Daily Octordle #1455
+TDD-3085484 📋> 6️⃣8️⃣
+TDD-108 📋> 9️⃣5️⃣
+TDD-6 📋> 🔟3️⃣
+TDD-2 📋> 7️⃣🕚
+TDD356630 📋> Score: 59
+TDD497314 📋> ␚
+TDD-853728 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\nDaily Octordle #1455\n6\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e35\ufe0f\u20e3\n\ud83d\udd1f3\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udd5a\nScore: 59"}
+TDD103 result: "\nDaily Octordle #1455\n6\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e35\ufe0f\u20e3\n\ud83d\udd1f3\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udd5a\nScore: 59"
+TDD1559486 📆 2026-01-18 ? 
