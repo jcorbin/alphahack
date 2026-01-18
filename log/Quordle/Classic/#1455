@@ -1,0 +1,100 @@
+T609.487266049 now: 2026-01-18T08:20:11EST
+TD216 site: m-w.com/games/quordle/#/
+TDD-177 wordlist: nwl2023.txt
+TDD-25 num_words: 4
+TDD7317358  ...
+TDD-6227349 > *
+TDD-338854 ? 1
+TDD-750893 questioning: arose
+TDD3300035 Classic #1 _____? Mnnnn
+TDD-3299780 attempt: 0 AROSE m n n n n
+TDD2812191 Classic #2 _____? nnnnY
+TDD-2812063 attempt: 1 AROSE n n n n Y
+TDD1265031 Classic #3 _____? nnnnM
+TDD-1265355 attempt: 2 AROSE n n n n m
+TDD1200019 Classic #4 _____? Mnnnn
+TDD-1199846 attempt: 3 AROSE m n n n n
+TDD1120127 > *
+TDD-400657 ? 1
+TDD-719705 questioning: unlay
+TDD3087988 Classic #1 _____ ~A -EORS? nnnMY
+TDD-3087726 attempt: 0 UNLAY n n n m Y
+TDD1469970 Classic #2 ____E -AORS? nMnnn
+TDD-1470323 attempt: 1 UNLAY n m n n n
+TDD1415784 Classic #3 _____ ~E -AORS? Mnnnn
+TDD-1415581 attempt: 2 UNLAY m n n n n
+TDD1808543 Classic #4 _____ ~A -EORS? nnYMY
+TDD-1808527 attempt: 3 UNLAY n n Y m Y
+TDD1694654 > *
+TDD-810885 ? 1
+TDD-883939 questioning: campy
+TDD2991080 Classic #1 ____Y ~A -ELNORSU? nYnnY
+TDD-2990981 attempt: 0 CAMPY n Y n n Y
+TDD1405888 Classic #2 ____E ~N -ALORSUY? nnnnn
+TDD-1405919 attempt: 1 CAMPY n n n n n
+TDD1304172 Classic #3 _____ ~EU -ALNORSY? nnnnn
+TDD-1303818 attempt: 2 CAMPY n n n n n
+TDD1636783 Classic #4 __L_Y ~A -ENORSU? nYnnY
+TDD-1637036 attempt: 3 CAMPY n Y n n Y
+TDD1125058 > *
+TDD-250335 ? 1
+TDD-874819 questioning: tinge
+TDD2758286 Classic #1 _A__Y -CELMNOPRSU? Mnnnn
+TDD-2758297 attempt: 0 TINGE m n n n n
+TDD2157670 Classic #2 ____E ~N -ACLMOPRSUY? YMMnY
+TDD-2157411 attempt: 1 TINGE Y m m n Y
+TDD1608521 Classic #3 _____ ~EU -ACLMNOPRSY? MnnnM
+TDD-1608758 attempt: 2 TINGE m n n n m
+TDD1529505 Classic #4 _AL_Y -CEMNOPRSU? Ynnnn
+TDD-1529484 attempt: 3 TINGE Y n n n n
+TDD1079975 > *
+TDD1226483 ? 2
+TDD-2306482 questioning: twine
+TDD4725466 Classic #1 _A__Y ~T -CEGILMNOPRSU? Mnnnn
+TDD-4725286 attempt: 0 TWINE m n n n n
+TDD1510512 Classic #2 T___E ~IN -ACGLMOPRSUY? YYYYY
+TDD-1510655 attempt: 1 TWINE Y Y Y Y Y
+TDD1556988 Classic #3 _____ ~ETU -ACGILMNOPRSY? MnnnM
+TDD-1557040 attempt: 2 TWINE m n n n m
+TDD4055246 Classic #4 TAL_Y -CEGIMNOPRSU? Ynnnn
+TDD-4055204 attempt: 3 TWINE Y n n n n
+TDD1136290 > *
+TDD467553 ? 1
+TDD-1603838 questioning: fatty
+TDD3278793 Classic #1 _A__Y ~T -CEGILMNOPRSUW? nYYYY
+TDD-3278811 attempt: 0 FATTY n Y Y Y Y
+TDD2051387 Classic #3 _____ ~ETU -ACGILMNOPRSWY? nnMnn
+TDD-2051236 attempt: 2 FATTY n n m n n
+TDD1600625 Classic #4 TAL_Y -CEGIMNOPRSUW? nYMnY
+TDD-1600682 attempt: 3 FATTY n Y m n Y
+TDD1018952 > *
+TDD-1018759 questioning: batty
+TDD3435910 Classic #1 _ATTY -CEFGILMNOPRSUW? YYYYY
+TDD-3436239 attempt: 0 BATTY Y Y Y Y Y
+TDD2140748 Classic #3 _____ ~ETU -ACFGILMNOPRSWY T:1? MnMnn
+TDD-2140812 attempt: 2 BATTY m n m n n
+TDD1774050 Classic #4 TAL_Y -CEFGIMNOPRSUW T:1? nYMnY
+TDD-1773979 attempt: 3 BATTY n Y m n Y
+TDD937245 > *
+TDD-936972 questioning: debut
+TDD4120895 Classic #3 _____ ~BETU -ACFGILMNOPRSWY T:1? YYYYY
+TDD-4121124 attempt: 2 DEBUT Y Y Y Y Y
+TDD1729042 Classic #4 TAL_Y -BCEFGIMNOPRSUW T:1? nnnnM
+TDD-1728954 attempt: 3 DEBUT n n n n m
+TDD973325 > *
+TDD1635269 ? 1
+TDD-2608727 questioning: talky
+TDD1130288 Classic #4 TAL_Y -BCDEFGIMNOPRSUW T:1? jtalky
+TDD14973419 Classic #4 TAL_Y -BCDEFGIMNOPRSUW T:1? YYYnY
+TDD-16103702 attempt: 3 TALKY Y Y Y n Y
+TDD1712062 > /res
+TDD5556254 📋> 🙂 Daily Quordle 1455
+TDD-7268414 📋> 7️⃣5️⃣
+TDD-153 📋> 8️⃣🟥
+TDD-9 📋> m-w.com/games/quordle/
+TDD271313 📋> 
+TDD-19019 📋> ␚
+TDD-252111 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1455\n7\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TDD2112 result: "\ud83d\ude42 Daily Quordle 1455\n7\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TDD2613545 > /store
+TDD-1422055 📆 2026-01-18 ? 
