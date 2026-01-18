@@ -1,0 +1,60 @@
+T35.01463554800284 now: 2026-01-18T08:10:37EST
+TD261 site: alfagok.diginaut.net
+TDD397617 loaded 399688 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1164 words excluded) asof cd8c081fbe4ab55af17c740a5457c7ff0bac04af
+TDD3930283  ...
+TDD-593553 [0 : 199833 : 399688] lijm? a
+TDD-3734163 progress: 1 199833 lijm
+TDD1504562 [199834 : 299738 : 399688] schub? 
+TDD-1000089 [199834 : 299738 : 399688] schub? a
+TDD-504701 progress: 1 299738 schub
+TDD1522978 [299739 : 349521 : 399688] vakantie? b
+TDD-1522924 progress: -1 349521 vakantie
+TDD1580372 [299739 : 324314 : 349521] sub? b
+TDD-1580469 progress: -1 324314 sub
+TDD1633490 [299739 : 311908 : 324314] spier? a
+TDD-1633456 progress: 1 311908 spier
+TDD1530621 [311909 : 314617 : 324314] st? a
+TDD-1530521 progress: 1 314617 st
+TDD1643285 [314618 : 319411 : 324314] stik? b
+TDD-1643299 progress: -1 319411 stik
+TDD1552879 [314618 : 316832 : 319411] start? a
+TDD-1553065 progress: 1 316832 start
+TDD1690845 [316833 : 318111 : 319411] stem? b
+TDD-1690734 progress: -1 318111 stem
+TDD1591391 [316833 : 317320 : 318111] stee? a
+TDD-1591441 progress: 1 317320 stee
+TDD1503283 [317321 : 317475 : 318111] steen? a
+TDD-1503255 progress: 1 317475 steen
+TDD1902147 [317476 : 317778 : 318111] stef? !
+TDD204294 [317476 : 317792 : 318110] steffi? !
+TDD-155839 [317476 : 317793 : 318109] steffies? !
+TDD-140248 [317476 : 317793 : 318108] steffy? !
+TDD173609 [317476 : 317794 : 318107] steg? a
+TDD-1983958 progress: 1 317794 steg
+TDD1724223 [317795 : 317894 : 318107] stek? a
+TDD-1724154 progress: 1 317894 stek
+TDD1554530 [317895 : 317970 : 318107] stel? a
+TDD-1554562 progress: 1 317970 stel
+TDD1842089 [317971 : 318019 : 318107] stelling? b
+TDD-1842101 progress: -1 318019 stelling
+TDD1975180 [317971 : 317995 : 318019] stella? !
+TDD-117822 [317971 : 317995 : 318018] stellaard? !
+TDD467811 [317971 : 317995 : 318017] stellage? a
+TDD-2325160 progress: 1 317995 stellage
+TDD2160185 [317996 : 318006 : 318017] stellers? b
+TDD-2160205 progress: -1 318006 stellers
+TDD2306839 [317996 : 318000 : 318006] stellen? it
+TDD-2306838 progress: 0 318000 stellen
+TDD-175 [317996 : 318000 : 318006] <Done>.
+TDD3648998 📋> 🧩 Puzzel #442
+TDD-3648850 📋> 🤔 18 gokken
+TDD-149 📋> ⏱️ 42s
+TDD270928 📋> 🔗 alfagok.diginaut.net
+TDD-110581 📋> ␚
+TDD-160195 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #442\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 42s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD653 result: "\ud83e\udde9 Puzzel #442\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 42s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-814 result puzzle: 442
+TDD-14 result guesses: 18
+TDD-4 result time: 42s
+TDD0 result link: alfagok.diginaut.net
+TDD182353 📆 2026-01-18 ? 
