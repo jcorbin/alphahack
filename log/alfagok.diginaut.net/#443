@@ -1,0 +1,49 @@
+T1.701552635000553 now: 2026-01-19T08:13:05EST
+TD181 site: alfagok.diginaut.net
+TDD383506 loaded 399688 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1164 words excluded) asof 129e71f51e19cfc6a55bcfc74f9740b0a08ea588
+TDD3599135  ...
+TDD609680 [0 : 199832 : 399688] lijm? a
+TDD-4591851 progress: 1 199832 lijm
+TDD1675627 [199833 : 299737 : 399688] schub? b
+TDD-1676049 progress: -1 299737 schub
+TDD1550111 [199833 : 247734 : 299737] op? b
+TDD-1550016 progress: -1 247734 op
+TDD1531618 [199833 : 223778 : 247734] molest? a
+TDD-1531853 progress: 1 223778 molest
+TDD1412703 [223779 : 235752 : 247734] odeur? a
+TDD-1412588 progress: 1 235752 odeur
+TDD1460395 [235753 : 238792 : 247734] on? a
+TDD-1460350 progress: 1 238792 on
+TDD1783715 [238793 : 243262 : 247734] onroerend? b
+TDD-1783846 progress: -1 243262 onroerend
+TDD1507190 [238793 : 240876 : 243262] onderwijs? b
+TDD-1507084 progress: -1 240876 onderwijs
+TDD1383690 [238793 : 239577 : 240876] onder? a
+TDD-1383668 progress: 1 239577 onder
+TDD1305216 [239578 : 240227 : 240876] onderlossers? a
+TDD-1305357 progress: 1 240227 onderlossers
+TDD1431912 [240228 : 240551 : 240876] ondersneeuw? a
+TDD-1431809 progress: 1 240551 ondersneeuw
+TDD1533818 [240552 : 240714 : 240876] ondertunnelde? a
+TDD-1533765 progress: 1 240714 ondertunnelde
+TDD1525795 [240715 : 240794 : 240876] ondervraging? a
+TDD-1525835 progress: 1 240794 ondervraging
+TDD1531427 [240795 : 240806 : 240876] onderwater? a
+TDD-1531442 progress: 1 240806 onderwater
+TDD2623740 [240807 : 240841 : 240876] onderwaterzetting? a
+TDD-2623766 progress: 1 240841 onderwaterzetting
+TDD2130555 [240842 : 240854 : 240876] onderwerp? it
+TDD-2130525 progress: 0 240854 onderwerp
+TDD-178 [240842 : 240854 : 240876] <Done>.
+TDD4169755 📋> 🧩 Puzzel #443
+TDD-4169580 📋> 🤔 16 gokken
+TDD-173 📋> ⏱️ 24s
+TDD211423 📋> 🔗 alfagok.diginaut.net
+TDD-70497 📋> ␚
+TDD-140802 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #443\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD495 result: "\ud83e\udde9 Puzzel #443\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-634 result puzzle: 443
+TDD-11 result guesses: 16
+TDD-3 result time: 24s
+TDD0 result link: alfagok.diginaut.net
+TDD153337 📆 2026-01-19 ? 
