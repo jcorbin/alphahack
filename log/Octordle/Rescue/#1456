@@ -1,0 +1,196 @@
+T138.6738481890061 now: 2026-01-19T16:31:48EST
+TD86 site: britannica.com/games/octordle/daily-rescue
+TDD-72 wordlist: nwl2023.txt
+TDD-9 num_words: 8
+TDD933662  ...
+TDD10121430 > tried otter nasty fleet bobby
+TDD-11054776 questioning: OTTER NASTY FLEET BOBBY
+TDD3079454 Rescue #1 _____? nMMnM
+TDD-3079581 attempt: 0 OTTER n m m n m
+TDD1888419 Rescue #1 _____ ~RT -EO? nMnMn
+TDD-1888220 attempt: 0 NASTY n m n m n
+TDD1574787 Rescue #1 _____ ~ART -ENOSY? nnnnY
+TDD-1574949 attempt: 0 FLEET n n n n Y
+TDD1895220 Rescue #1 ____T ~AR -EFLNOSY? nnnnn
+TDD-1895086 attempt: 0 BOBBY n n n n n
+TDD2055439 Rescue #2 _____? Mnnnn
+TDD-2055575 attempt: 1 OTTER m n n n n
+TDD1816424 Rescue #2 _____ ~O -ERT? nMnnn
+TDD-1816396 attempt: 1 NASTY n m n n n
+TDD1887654 Rescue #2 _____ ~AO -ENRSTY? nMnnn
+TDD-1887667 attempt: 1 FLEET n m n n n
+TDD1390887 Rescue #2 _____ ~ALO -EFNRSTY? nYnnn
+TDD-1390827 attempt: 1 BOBBY n Y n n n
+TDD1880081 Rescue #3 _____? nnnMn
+TDD-1880048 attempt: 2 OTTER n n n m n
+TDD1182973 Rescue #3 _____ ~E -ORT? nMnnn
+TDD-1183000 attempt: 2 NASTY n m n n n
+TDD2751571 Rescue #3 _____ ~AE -NORSTY? nMMnn
+TDD-2751581 attempt: 2 FLEET n m m n n
+TDD1190669 Rescue #3 _____ ~AEL -FNORSTY E:1? nnnnn
+TDD-1190736 attempt: 2 BOBBY n n n n n
+TDD1856582 Rescue #4 _____? nnnnn
+TDD-1856415 attempt: 3 OTTER n n n n n
+TDD1854692 Rescue #4 _____ -EORT? nMMnn
+TDD-1854785 attempt: 3 NASTY n m m n n
+TDD1662849 Rescue #4 _____ ~AS -ENORTY? nnnnn
+TDD-1662968 attempt: 3 FLEET n n n n n
+TDD1024524 Rescue #4 _____ ~AS -EFLNORTY? nnnnn
+TDD-1024349 attempt: 3 BOBBY n n n n n
+TDD6102559 Rescue #5 _____? nMYMn
+TDD-6102702 attempt: 4 OTTER n m Y m n
+TDD1360644 Rescue #5 __T__ ~E -OR? nnnYn
+TDD-1360558 attempt: 4 NASTY n n n Y n
+TDD1670386 Rescue #5 __TT_ ~E -ANORSY? nnMnM
+TDD-1670397 attempt: 4 FLEET n n m n m
+TDD1696726 Rescue #5 __TT_ ~E -AFLNORSY E:1? Ynnnn
+TDD-1696727 attempt: 4 BOBBY Y n n n n
+TDD1527435 Rescue #6 _____? MnnnM
+TDD-1527429 attempt: 5 OTTER m n n n m
+TDD2431526 Rescue #6 _____ ~OR -ET? nnMnn
+TDD-2431510 attempt: 5 NASTY n n m n n
+TDD1127644 Rescue #6 _____ ~ORS -AENTY? nnnnn
+TDD-1127620 attempt: 5 FLEET n n n n n
+TDD2375469 Rescue #6 _____ ~ORS -AEFLNTY? nMnnn
+TDD-2375508 attempt: 5 BOBBY n m n n n
+TDD2224474 Rescue #7 _____? nYMnM
+TDD-2224467 attempt: 6 OTTER n Y m n m
+TDD1493863 Rescue #7 _T___ ~R -EO? nnMMn
+TDD-1493861 attempt: 6 NASTY n n m m n
+TDD1743062 Rescue #7 _T___ ~RS -AENOY? nnnnY
+TDD-1743051 attempt: 6 FLEET n n n n Y
+TDD1270649 Rescue #7 _T__T ~RS -AEFLNOY? nnnnn
+TDD-1270746 attempt: 6 BOBBY n n n n n
+TDD1760154 Rescue #8 _____? nnnMn
+TDD-1759700 attempt: 7 OTTER n n n m n
+TDD1902125 Rescue #8 _____ ~E -ORT? nMnnn
+TDD-1902559 attempt: 7 NASTY n m n n n
+TDD2128834 Rescue #8 _____ ~AE -NORSTY? nnMnn
+TDD-2128517 attempt: 7 FLEET n n m n n
+TDD2110784 Rescue #8 _____ ~AE -FLNORSTY E:1? MnYnn
+TDD-2111028 attempt: 7 BOBBY m n Y n n
+TDD1390246 > *
+TDD-1389930 questioning: butte
+TDD4991415 Rescue #1 ____T ~AR -BEFLNOSY? nnMMn
+TDD-4991745 attempt: 0 BUTTE n n m m n
+TDD1302897 Rescue #2 _O___ ~AL -BEFNRSTY? nnnnn
+TDD-1302894 attempt: 1 BUTTE n n n n n
+TDD1840119 Rescue #3 _____ ~AEL -BFNORSTY E:1? nnnnM
+TDD-1840119 attempt: 2 BUTTE n n n n m
+TDD1983508 Rescue #4 _____ ~AS -BEFLNORTY? nnnnn
+TDD-1983495 attempt: 3 BUTTE n n n n n
+TDD3207044 Rescue #5 B_TT_ ~E -AFLNORSY E:1? YYYYY
+TDD-3206992 attempt: 4 BUTTE Y Y Y Y Y
+TDD1704441 Rescue #6 _____ ~ORS -ABEFLNTY? nnnnn
+TDD-1704534 attempt: 5 BUTTE n n n n n
+TDD2215525 Rescue #7 _T__T ~RS -ABEFLNOY? nMMMn
+TDD-2215445 attempt: 6 BUTTE n m m m n
+TDD2462320 Rescue #8 __B__ ~AE -FLNORSTY B:1 E:1? MnnnM
+TDD-2462363 attempt: 7 BUTTE m n n n m
+TDD1648495 > *
+TDD-49492 ? ␚
+TDD-1599164 <EOF>
+TDD1646777 > * 4
+TDD6018355 ? ␚
+TDD-7665146 <EOF>
+TDD1870945 > * 4
+TDD369058 ? 10
+TDD-2239840 questioning: smack
+TDD5616020 Rescue #1 ____T ~AR -BEFLNOSUY? nnYYn
+TDD-5615999 attempt: 0 SMACK n n Y Y n
+TDD1342920 Rescue #2 _O___ ~AL -BEFNRSTUY? nnMnn
+TDD-1342920 attempt: 1 SMACK n n m n n
+TDD3623974 Rescue #3 _____ ~AEL -BFNORSTUY E:1? nnMnn
+TDD-3623797 attempt: 2 SMACK n n m n n
+TDD1486101 Rescue #4 _____ ~AS -BEFLNORTUY? YnYnn
+TDD-1486272 attempt: 3 SMACK Y n Y n n
+TDD4671869 Rescue #6 _____ ~ORS -ABEFLNTUY? MnnMn
+TDD-4671970 attempt: 5 SMACK m n n m n
+TDD1767034 Rescue #7 _T__T ~RSU -ABEFLNOY? Ynnnn
+TDD-1764831 attempt: 6 SMACK Y n n n n
+TDD1876189 Rescue #8 __B__ ~AE -FLNORSTUY B:1 E:1? nnMnM
+TDD-1878291 attempt: 7 SMACK n n m n m
+TDD1222517 > *
+TDD-1222302 questioning: tract
+TDD4366929 Rescue #1 __ACT ~R -BEFKLMNOSUY? YYYYY
+TDD-4367240 attempt: 0 TRACT Y Y Y Y Y
+TDD1639522 Rescue #2 _O___ ~AL -BCEFKMNRSTUY? nnMnn
+TDD-1639497 attempt: 1 TRACT n n m n n
+TDD1911697 Rescue #3 _____ ~AEL -BCFKMNORSTUY E:1? nnMnn
+TDD-1911651 attempt: 2 TRACT n n m n n
+TDD1351574 Rescue #4 S_A__ -BCEFKLMNORTUY? nnYnn
+TDD-1351592 attempt: 3 TRACT n n Y n n
+TDD3703079 Rescue #6 _____ ~CORS -ABEFKLMNTUY? nYnMn
+TDD-3703120 attempt: 5 TRACT n Y n m n
+TDD3104478 Rescue #7 ST__T ~RU -ABCEFKLMNOY? MMnnY
+TDD-3104391 attempt: 6 TRACT m m n n Y
+TDD1327403 Rescue #8 __B__ ~AEK -CFLMNORSTUY B:1 E:1? nnMnn
+TDD-1327346 attempt: 7 TRACT n n m n n
+TDD1246507 > *
+TDD-1246370 questioning: kebab
+TDD5111706 Rescue #2 _O___ ~AL -BCEFKMNRSTUY? nnnMn
+TDD-5111910 attempt: 1 KEBAB n n n m n
+TDD2006554 Rescue #3 _____ ~AEL -BCFKMNORSTUY E:1? nYnYn
+TDD-2006627 attempt: 2 KEBAB n Y n Y n
+TDD1199938 Rescue #4 S_A__ -BCEFKLMNORTUY? nnnMn
+TDD-1199961 attempt: 3 KEBAB n n n m n
+TDD2544236 Rescue #6 _R___ ~COS -ABEFKLMNTUY? nnnnn
+TDD-2544151 attempt: 5 KEBAB n n n n n
+TDD2894736 Rescue #7 ST__T ~RU -ABCEFKLMNOY? nnnnn
+TDD-2894737 attempt: 6 KEBAB n n n n n
+TDD2111651 Rescue #8 __B__ ~AEK -CFLMNORSTUY B:1 E:1? YYYYY
+TDD-2111730 attempt: 7 KEBAB Y Y Y Y Y
+TDD2375395 > * 4
+TDD4000421 ? 5
+TDD-6375812 questioning: swash
+TDD9696636 Rescue #2 _O___ ~AL -BCEFKMNRSTUY? nnMnn
+TDD-9696541 attempt: 1 SWASH n n m n n
+TDD1326253 Rescue #3 _E_A_ ~L -BCFKMNORSTUY? nnMnn
+TDD-1326308 attempt: 2 SWASH n n m n n
+TDD1385186 Rescue #4 S_A__ -BCEFKLMNORTUY? YYYYY
+TDD-1384987 attempt: 3 SWASH Y Y Y Y Y
+TDD3733269 Rescue #6 _R___ ~COS -ABEFKLMNTUY? MnnYn
+TDD-3733477 attempt: 5 SWASH m n n Y n
+TDD1735489 Rescue #7 ST__T ~RU -ABCEFKLMNOY? Ynnnn
+TDD-1735436 attempt: 6 SWASH Y n n n n
+TDD1127592 > *
+TDD-1127487 questioning: cross
+TDD4783194 Rescue #2 _O___ ~AL -BCEFHKMNRSTUWY? nnMnn
+TDD-4783317 attempt: 1 CROSS n n m n n
+TDD1399067 Rescue #3 _E_A_ ~L -BCFHKMNORSTUWY? nnnnn
+TDD-1399178 attempt: 2 CROSS n n n n n
+TDD2911951 Rescue #6 _R_S_ ~COS -ABEFHKLMNTUWY? YYYYY
+TDD-2911816 attempt: 5 CROSS Y Y Y Y Y
+TDD2823887 Rescue #7 ST__T ~RU -ABCEFHKLMNOWY? nMnMn
+TDD-2823910 attempt: 6 CROSS n m n m n
+TDD1231960 > *
+TDD2382873 ? 1
+TDD-3614885 questioning: strut
+TDD5576380 Rescue #2 _O___ ~AL -BCEFHKMNRSTUWY? nnnnn
+TDD-5576335 attempt: 1 STRUT n n n n n
+TDD1783477 Rescue #3 _E_A_ ~L -BCFHKMNORSTUWY? nnnnn
+TDD-1783476 attempt: 2 STRUT n n n n n
+TDD3055844 Rescue #7 ST__T ~RU -ABCEFHKLMNOWY S:1? YYYYY
+TDD-3055843 attempt: 6 STRUT Y Y Y Y Y
+TDD2950613 > *
+TDD496773 ? 1
+TDD-3447474 questioning: voila
+TDD3255566 Rescue #2 _O___ ~AL -BCEFHKMNRSTUWY? YYYYY
+TDD-3255467 attempt: 1 VOILA Y Y Y Y Y
+TDD1991534 Rescue #3 _E_A_ ~L -BCFHKMNORSTUWY? nnnMM
+TDD-1991558 attempt: 2 VOILA n n n m m
+TDD863456 > *
+TDD2425921 ? 2
+TDD-3289360 questioning: pedal
+TDD5045837 Rescue #3 _E_A_ ~L -BCFHIKMNORSTUVWY? YYYYY
+TDD-5045880 attempt: 2 PEDAL Y Y Y Y Y
+TDD2576578 📋> Daily Rescue Octordle #1456
+TDD-2576694 📋> 7️⃣🕛
+TDD-110 📋> 🕐9️⃣
+TDD-13 📋> 5️⃣🔟
+TDD7 📋> 🕚8️⃣
+TDD295126 📋> Score: 8
+TDD-70826 📋> ␚
+TDD-224136 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1456\n7\ufe0f\u20e3\ud83d\udd5b\n\ud83d\udd509\ufe0f\u20e3\n5\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a8\ufe0f\u20e3\nScore: 8"}
+TDD8 result: "Daily Rescue Octordle #1456\n7\ufe0f\u20e3\ud83d\udd5b\n\ud83d\udd509\ufe0f\u20e3\n5\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a8\ufe0f\u20e3\nScore: 8"
+TDD199815 📆 2026-01-19 ? 
