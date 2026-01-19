@@ -1,0 +1,81 @@
+T7623.586076583015 now: 2026-01-19T16:27:53EST
+TD118 site: m-w.com/games/quordle/#/rescue
+TDD-88 wordlist: nwl2023.txt
+TDD-24 num_words: 4
+TDD4211933  ...
+TDD-523975 > tried child idyll 
+TDD-3687468 questioning: CHILD IDYLL
+TDD2047204 Rescue #1 _____? nMMnn
+TDD-2046798 attempt: 0 CHILD n m m n n
+TDD1550104 Rescue #1 _____ ~HI -CDL? MnMnn
+TDD-1550683 attempt: 0 IDYLL m n m n n
+TDD2167619 Rescue #2 _____? nYnYn
+TDD-2167615 attempt: 1 CHILD n Y n Y n
+TDD1943307 Rescue #2 _H_L_ -CDI? nnYYn
+TDD-1943385 attempt: 1 IDYLL n n Y Y n
+TDD7248384 Rescue #3 _____? Mnnnn
+TDD-7248325 attempt: 2 CHILD m n n n n
+TDD1678750 Rescue #3 _____ ~C -DHIL? nnnnn
+TDD-1678758 attempt: 2 IDYLL n n n n n
+TDD1967421 Rescue #4 _____? nMnnn
+TDD-1967404 attempt: 3 CHILD n m n n n
+TDD1271471 Rescue #4 _____ ~H -CDIL? nnnnn
+TDD-1271492 attempt: 3 IDYLL n n n n n
+TDD5983555 > *
+TDD-311832 ? 1
+TDD-5671701 questioning: phyla
+TDD7760129 Rescue #1 _____ ~HIY -CDL? YMMnn
+TDD-7760129 attempt: 0 PHYLA Y m m n n
+TDD2599079 Rescue #2 _HYL_ -CDI? nYYYn
+TDD-2599098 attempt: 1 PHYLA n Y Y Y n
+TDD1679861 Rescue #3 _____ ~C -DHILY? nnnnM
+TDD-1679932 attempt: 2 PHYLA n n n n m
+TDD2359311 Rescue #4 _____ ~H -CDILY? nMnnM
+TDD-2359228 attempt: 3 PHYLA n m n n m
+TDD1047387 > *
+TDD-1047154 questioning: pithy
+TDD6063891 Rescue #1 P____ ~HIY -ACDL? YYYYY
+TDD-6064132 attempt: 0 PITHY Y Y Y Y Y
+TDD1558873 Rescue #2 _HYL_ -ACDIP? nnnMY
+TDD-1558847 attempt: 1 PITHY n n n m Y
+TDD1343404 Rescue #3 _____ ~AC -DHILPY? nnMnn
+TDD-1343427 attempt: 2 PITHY n n m n n
+TDD1358886 Rescue #4 _____ ~AH -CDILPY? nnnMn
+TDD-1358881 attempt: 3 PITHY n n n m n
+TDD1039774 > *
+TDD-1039704 questioning: shyly
+TDD4775218 Rescue #2 _HYLY -ACDIPT? YYYYY
+TDD-4775372 attempt: 1 SHYLY Y Y Y Y Y
+TDD1583596 Rescue #3 _____ ~ACT -DHILPY? nnnnn
+TDD-1583553 attempt: 2 SHYLY n n n n n
+TDD1151439 Rescue #4 _____ ~AH -CDILPTY? nMnnn
+TDD-1151460 attempt: 3 SHYLY n m n n n
+TDD935309 > *
+TDD913724 ? 10
+TDD-1848964 questioning: harem
+T78.2633898149943 now: 2026-01-19T16:30:48EST
+TD99 questioning: harem
+TDD8709989 Rescue #3 _____ ~ACT -DHILPSY? nMMnn
+TDD-8709742 attempt: 2 HAREM n m m n n
+TDD2711608 Rescue #4 _____ ~AH -CDILPSTY? YMnnM
+TDD-2711714 attempt: 3 HAREM Y m n n m
+TDD1159513 > *
+TDD-1158898 questioning: human
+TDD5062050 Rescue #3 _____ ~ACRT -DEHILMPSY? nnnMn
+TDD-5062683 attempt: 2 HUMAN n n n m n
+TDD2919873 Rescue #4 H____ ~AM -CDEILPRSTY? YYYYY
+TDD-2919867 attempt: 3 HUMAN Y Y Y Y Y
+TDD879458 > *
+TDD1544216 ? 1
+TDD-2423612 questioning: track
+TDD3887514 Rescue #3 _____ ~ACRT -DEHILMNPSUY? YYYYY
+TDD-3887508 attempt: 2 TRACK Y Y Y Y Y
+TDD5399807 📋> Daily Rescue 70
+TDD-5399910 📋> 4️⃣5️⃣
+TDD-171 📋> 8️⃣7️⃣
+TDD-7 📋> m-w.com/games/quordle/
+TDD352196 📋> 
+TDD239953 📋> ␚
+TDD-592023 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 70\n4\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD716 result: "Daily Rescue 70\n4\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD373971 📆 2026-01-19 ? 
