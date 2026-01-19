@@ -1,0 +1,58 @@
+T39.87903287199879 now: 2026-01-19T08:17:51EST
+TD170 site: dontwordle.com
+TDD-132 wordlist: nwl2023.txt
+TDD3314663  ...
+TDD804621 1> * -bot 10
+TDD-3254935 ? 1
+TDD3384372 📋 "arose" ? nYnnn
+TDD-4247897 tried: AROSE n Y n n n
+TDD829312 2> undo
+TDD-829935 undo
+TDD8822036 1> * :v [aose] -bot 10
+TDD-7873745 ? 1
+TDD4743175 📋 "unlit" ? MMnnM
+TDD-5691370 tried: UNLIT m m n n m
+TDD791098 2> undo
+TDD-791324 undo
+TDD16297992 1> * :v [aoseli] -bot 10
+TDD-8632345 📋 "pygmy" ? nnnnn
+TDD-7665488 tried: PYGMY n n n n n
+TDD1489089 2> *
+TDD-514617 ? 1
+TDD6285359 📋 "beses" ? nnnnn
+TDD-7259800 tried: BESES n n n n n
+TDD665373 3> *
+TDD303687 ? 1
+TDD3811754 📋 "volva" ? nnnnn
+TDD-4780823 tried: VOLVA n n n n n
+TDD877076 4> *
+TDD-82447 ? 1
+TDD1861538 📋 "chick" ? ␚
+TDD-2656325 <EOF>
+TDD647814 4> *
+TDD435446 ? 1
+TDD2875851 📋 "whiff" ? nnnnn
+TDD-3958890 tried: WHIFF n n n n n
+TDD615143 5> *
+TDD4676717 📋 "kudzu" ? MMnnn
+TDD-5291962 tried: KUDZU m m n n n
+TDD567079 6> *
+TDD5336764 📋 "cruck" ? nYYnY
+TDD-5903790 tried: CRUCK n Y Y n Y
+TDD4276799 📋> Don't Wordle 1336 - SURVIVED
+TDD-4276915 📋> Hooray! I didn't Wordle today!
+TDD-151 📋> ⬜⬜⬜⬜⬜6857
+TDD-19 📋> ⬜⬜⬜⬜⬜1221
+TDD-1 📋> ⬜⬜⬜⬜⬜129
+TDD3 📋> ⬜⬜⬜⬜⬜11
+TDD0 📋> 🟨🟨⬜⬜⬜4
+TDD-1 📋> ⬜🟩🟩⬜🟩1
+TDD0 📋> Undos used: 2
+TDD-1 📋> 
+TDD0 📋>   1 words remaining
+TDD0 📋> x 5 unused letters
+TDD277504 📋> = 5 total score
+TDD-92156 📋> ␚
+TDD-185182 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1336 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6857\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1221\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c129\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c11\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c4\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe91\nUndos used: 2\n\n  1 words remaining\nx 5 unused letters\n= 5 total score"}
+TDD1729 result: "Don't Wordle 1336 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6857\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1221\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c129\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c11\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c4\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe91\nUndos used: 2\n\n  1 words remaining\nx 5 unused letters\n= 5 total score"
+TDD362349 📆 2026-01-19 ? 
