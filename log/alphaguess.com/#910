@@ -1,0 +1,55 @@
+T41.92071079699963 now: 2026-01-19T08:13:45EST
+TD172 site: alphaguess.com
+TDD151168 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof 129e71f51e19cfc6a55bcfc74f9740b0a08ea588
+TDD747397  ...
+T178.61732004000078 now: 2026-01-19T08:16:53EST
+TD3689437  ...
+TDD3860720 [0 : 98220 : 196531] mach? 
+TDD-5588106 [0 : 98220 : 196531] mach? a
+TDD-1961455 progress: 1 98220 mach
+T9.51878279599623 now: 2026-01-19T08:17:21EST
+TD1222992 [98221 : 147373 : 196531] rhotic? a
+TDD-1222222 progress: 1 147373 rhotic
+TDD2106360 [147374 : 171643 : 196531] ta? a
+TDD-2106895 progress: 1 171643 ta
+TDD1462196 [171644 : 182008 : 196531] un? b
+TDD-1462207 progress: -1 182008 un
+TDD1876136 [171644 : 176814 : 182008] toil? b
+TDD-1876146 progress: -1 176814 toil
+TDD1529437 [171644 : 174192 : 176814] term? b
+TDD-1529400 progress: -1 174192 term
+TDD1539431 [171644 : 172904 : 174192] taw? b
+TDD-1539484 progress: -1 172904 taw
+TDD1438223 [171644 : 172223 : 172904] tam? a
+TDD-1438181 progress: 1 172223 tam
+TDD1523740 [172224 : 172558 : 172904] tar? b
+TDD-1523766 progress: -1 172558 tar
+TDD1941572 [172224 : 172385 : 172558] tank? b
+TDD-1941543 progress: -1 172385 tank
+TDD1569137 [172224 : 172300 : 172385] tamper? a
+TDD-1569298 progress: 1 172300 tamper
+TDD1612274 [172301 : 172331 : 172385] tang? 
+TDD-1109947 [172301 : 172331 : 172385] tang? a
+TDD-502211 progress: 1 172331 tang
+TDD1713885 [172332 : 172358 : 172385] tanginesses? a
+TDD-1713882 progress: 1 172358 tanginesses
+TDD1627279 [172359 : 172371 : 172385] tango? b
+TDD-1627274 progress: -1 172371 tango
+TDD2029893 [172359 : 172360 : 172371] tangle? it
+TDD-2029993 progress: 0 172360 tangle
+TDD-85 [172359 : 172360 : 172371] <Done>.
+TDD2812879 📋> 🧩 Puzzle #910
+TDD-2812754 📋> 
+TDD-100 📋> 🤔 15 guesses
+TDD-3 📋> 
+TDD18 📋> ⏱️ 38s
+TDD-24 📋> 
+TDD248038 📋> 🔗 alphaguess.com
+TDD-81556 📋> ␚
+TDD-166275 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #910\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 38s\n\n\ud83d\udd17 alphaguess.com"}
+TDD1122 result: "\ud83e\udde9 Puzzle #910\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 38s\n\n\ud83d\udd17 alphaguess.com"
+TDD-1265 result puzzle: 910
+TDD-81 result guesses: 15
+TDD-6 result time: 38s
+TDD-1 result link: alphaguess.com
+TDD159369 📆 2026-01-19 ? 
