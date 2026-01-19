@@ -1,0 +1,79 @@
+T338.5699552849983 now: 2026-01-19T08:22:50EST
+TD266 site: m-w.com/games/quordle/#/
+TDD-215 wordlist: nwl2023.txt
+TDD-31 num_words: 4
+TDD6033612  ...
+TDD-4869891 > *
+TDD-199299 ? 1
+TDD-964150 questioning: dears
+TDD3121076 Classic #1 _____? nMnnn
+TDD-3120895 attempt: 0 DEARS n m n n n
+TDD1279797 Classic #2 _____? nnMMn
+TDD-1279623 attempt: 1 DEARS n n m m n
+TDD1201176 Classic #3 _____? nnMnM
+TDD-1201427 attempt: 2 DEARS n n m n m
+TDD1320247 Classic #4 _____? nMMnM
+TDD-1320334 attempt: 3 DEARS n m m n m
+TDD1225654 > *
+TDD94299 ? 1
+TDD-1319991 questioning: toile
+TDD3248201 Classic #1 _____ ~E -ADRS? nMnnM
+TDD-3248173 attempt: 0 TOILE n m n n m
+TDD1782214 Classic #2 _____ ~AR -DES? MnnMn
+TDD-1781914 attempt: 1 TOILE m n n m n
+TDD1418450 Classic #3 _____ ~AS -DER? MnnMn
+TDD-1418705 attempt: 2 TOILE m n n m n
+TDD1489595 Classic #4 _____ ~AES -DR? nnnMy
+TDD-1489580 attempt: 3 TOILE n n n m Y
+TDD1338839 > *
+TDD-544502 ? 1
+TDD-794305 questioning: enjoy
+TDD3486450 Classic #1 _____ ~EO -ADILRST? YMnMY
+TDD-3486638 attempt: 0 ENJOY Y m n m Y
+TDD1407084 Classic #2 _____ ~ALRT -DEIOS? nnnnn
+TDD-1406973 attempt: 1 ENJOY n n n n n
+TDD1337481 Classic #3 _____ ~ALST -DEIOR? nnnnY
+TDD-1337487 attempt: 2 ENJOY n n n n Y
+TDD1350850 Classic #4 ____E ~ALS -DIORT? Mnnnn
+TDD-1350683 attempt: 3 ENJOY m n n n n
+TDD1094486 > *
+TDD-1094393 questioning: ebony
+TDD3459794 Classic #1 E___Y ~NO -ADIJLRST? YYYYY
+TDD-3460039 attempt: 0 EBONY Y Y Y Y Y
+TDD1170667 Classic #2 _____ ~ALRT -DEIJNOSY? nnnnn
+TDD-1170693 attempt: 1 EBONY n n n n n
+TDD1189379 Classic #3 ____Y ~ALST -DEIJNOR? nnnnY
+TDD-1189220 attempt: 2 EBONY n n n n Y
+TDD1278293 Classic #4 ____E ~ALS -DIJNORTY? Mnnnn
+TDD-1278358 attempt: 3 EBONY m n n n n
+TDD1169674 > *
+TDD-1169458 questioning: salty
+TDD3954164 Classic #2 _____ ~ALRT -BDEIJNOSY? nMMMn
+TDD-3954450 attempt: 1 SALTY n m m m n
+TDD1236222 Classic #3 ____Y ~ALST -BDEIJNOR? YYYYY
+TDD-1236241 attempt: 2 SALTY Y Y Y Y Y
+TDD2120790 Classic #4 ____E ~ALS -BDIJNORTY? MYYnn
+TDD-2120661 attempt: 3 SALTY m Y Y n n
+TDD996235 > *
+TDD3905570 ? YYYYY
+TDD-3009826 ? MMnnn
+TDD373860 ? 1
+TDD-2265815 questioning: altar
+TDD2349175 Classic #2 _____ ~ALRT -BDEIJNOSY? YYYYY
+TDD-2349293 attempt: 1 ALTAR Y Y Y Y Y
+TDD1847501 Classic #4 _AL_E ~S -BDIJNORTY? MMnnn
+TDD-1847486 attempt: 3 ALTAR m m n n n
+TDD1373417 > *
+TDD-279378 ? 1
+TDD-1094081 questioning: false
+TDD3116547 Classic #4 _AL_E ~S -BDIJNORTY A:1? YYYYY
+TDD-3116519 attempt: 3 FALSE Y Y Y Y Y
+TDD4085735 📋> 🙂 Daily Quordle 1456
+TDD-4085929 📋> 4️⃣6️⃣
+TDD-115 📋> 5️⃣7️⃣
+TDD-3 📋> m-w.com/games/quordle/
+TDD383043 📋> 
+TDD-259578 📋> ␚
+TDD-123400 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1456\n4\ufe0f\u20e36\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD823 result: "\ud83d\ude42 Daily Quordle 1456\n4\ufe0f\u20e36\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD203232 📆 2026-01-19 ? 
