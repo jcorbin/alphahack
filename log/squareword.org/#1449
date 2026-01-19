@@ -1,0 +1,128 @@
+T641.3533268120009 now: 2026-01-19T08:27:52EST
+TD174 site: squareword.org
+TDD-133 wordlist: nwl2023.txt
+TDD3000738  ...
+TDD-2377165 🧩  ? *
+TDD415817  ...
+TDD523044 🧩  ? #1449
+TDD-1562326 puzzle_id: #1449
+TDD3126097 > *
+TDD-1389124 try? 1
+TDD-1736587 questioning: ["saner", "#5"]
+TDD3993089 #1 <IndexError>  📋 "saner" ? _A___ ~ S
+TDD-3992732 attempt 0 SANER m Y n n n
+T12.681408844000543 now: 2026-01-19T08:28:29EST
+TD172 questioning: ["saner", "#5"]
+TDD12163751 #2 <IndexError>  📋 "saner" ? _____ ~ E
+TDD-12162919 attempt 1 SANER n n n m n
+TDD2699658 #3 <IndexError>  📋 "saner" ? _____ ~ AE
+TDD-2700239 attempt 2 SANER n m n m n
+TDD1738396 #4 <IndexError>  📋 "saner" ? _A_ER 
+TDD-1738461 attempt 3 SANER n Y n Y Y
+TDD2796828 #5 <IndexError>  📋 "saner" ? S____ ~ E
+TDD-2796867 attempt 4 SANER Y n n m n
+TDD760333 ? 
+TDD-760503 question done
+TDD645336 > *
+TDD1372677 try? 1
+TDD-2017785 questioning: ["pager", "#4"]
+TDD3588012 #1 _A___ ~S -ENR  📋 "pager" ? .
+TDD-3588043 attempt 0 PAGER n Y n n n
+TDD969721 #2 _____ ~E -ANRS  📋 "pager" ? .
+TDD-969715 attempt 1 PAGER n n n m n
+TDD3037373 #3 _____ ~AE -NRS  📋 "pager" ? _____ ~ AEG
+TDD-3037240 attempt 2 PAGER n m m m n
+TDD2484497 #4 _A_ER -NS  📋 "pager" ? .
+TDD-2484583 attempt 3 PAGER n Y n Y Y
+TDD1107817 #5 S____ ~E -ANR  📋 "pager" ? .
+TDD-1107654 attempt 4 PAGER n n n m n
+TDD200279 ? 
+TDD-200636 question done
+TDD451368 > *
+TDD2310032 try? 3
+TDD-2761156 questioning: ["agile", "#3"]
+TDD7526098 #1 _A___ ~S -EGNPR  📋 "agile" ? _A___ ~ SIL
+TDD-7526056 attempt 0 AGILE n n m m n
+TDD5577807 #2 _____ ~E -AGNPRS  📋 "agile" ? ____E ~ EL
+TDD-5577717 attempt 1 AGILE n n n m Y
+TDD3107021 #3 _____ ~AEG -NPRS  📋 "agile" ? 
+TDD-1236121 #3 _____ ~AEG -NPRS  ? /it
+TDD-1870973 attempt 2 AGILE Y Y Y Y Y
+TDD2066679 #4 _A_ER -GNPS  📋 "agile" ? .
+TDD-2066770 attempt 3 AGILE n n n n n
+TDD1012324 #5 S____ ~E -AGNPR  📋 "agile" ? .
+TDD-1012286 attempt 4 AGILE n n n n m
+TDD158915 ? 
+TDD-159281 question done
+TDD429950 > *
+TDD396363 questioning: ["elude", "#2"]
+TDD11717102 #1 _A___ ~ILS -AEGNPR  📋 "elude" ? .
+TDD-12543119 attempt 0 ELUDE n m n n n
+TDD781131 #2 ____E ~L -AGINPRS  📋 "elude" ? /it
+TDD-781106 attempt 1 ELUDE Y Y Y Y Y
+TDD1793104 #4 _A_ER -AEGILNPS  📋 "elude" ? .
+TDD-1793099 attempt 3 ELUDE n n n n n
+TDD3603458 #5 S____ ~E -AGILNPR  📋 "elude" ? S__D_ ~ E
+TDD-3603500 attempt 4 ELUDE m n n Y m
+TDD312133 ? 
+TDD-312301 question done
+TDD519217 > *
+TDD1294414 questioning: ["basil", "#1"]
+TDD1450612 #1 _A___ ~ILS -ADEGNPRU  📋 "basil" ? /it
+TDD-3264137 attempt 0 BASIL Y Y Y Y Y
+TDD2220742 #4 _A_ER -ADEGILNPSU  📋 "basil" ? .
+TDD-2220538 attempt 3 BASIL n Y n n n
+TDD944646 #5 S__D_ ~E -AGILNPRU  📋 "basil" ? .
+TDD-944710 attempt 4 BASIL n n n n n
+TDD176001 ? 
+TDD-176240 question done
+TDD461971 > *
+TDD1131891 questioning: ["seedy", "#5"]
+TDD2380916 #4 _A_ER -BDEGILNPSU  📋 "seedy" ? .
+TDD-3974569 attempt 3 SEEDY n n n n n
+TDD548595 #5 S__D_ ~E -ABGILNPRSU  📋 "seedy" ? /it
+TDD-548857 attempt 4 SEEDY Y Y Y Y Y
+TDD147665 ? 
+TDD-147627 question done
+TDD512547 > *
+TDD1621246 try? 1
+TDD-2133620 questioning: ["mater", "#4"]
+TDD4325370 #4 _A_ER -BDEGILNPSUY  📋 "mater" ? _ATER ~ T
+TDD-4325286 attempt 3 MATER n Y Y Y Y
+TDD287831 ? 
+TDD-288087 question done
+TDD455255 > *
+TDD2933056 try? 2
+TDD-3388169 questioning: ["tater", "#4"]
+TDD1588575 #4 _ATER -BDGILMNPSUY  📋 "tater" ? /it
+TDD-1588435 attempt 3 TATER Y Y Y Y Y
+TDD4628534 ? squareword.org 1449: 8 guesses
+TDD-4628269 ? 
+TDD-683 question done
+TDD28800 📋> 🟩🟩🟩🟩🟩
+TDD-28841 📋> 🟩🟩🟩🟩🟩
+TDD-18 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟩🟨🟩🟩
+TDD1 📋> 🟩🟨🟨🟩🟨
+TDD-1 📋> 
+TDD0 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD199735 📋> #squareword #squareword1449
+TDD-88748 📋> ␚
+TDD-110755 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1449"}
+TDD144397 📋> 
+TDD989219 📋> ␚
+TDD-1133629 pasted: {"subject": "share result", "method": "read:must:stdin", "content": ""}
+TDD1037977 📋> squareword.org 1449: 8 guesses
+TDD-1038032 📋> 
+TDD-134 📋> 🟩🟩🟩🟩🟩
+TDD-14 📋> 🟩🟩🟩🟩🟩
+TDD25 📋> 🟩🟩🟩🟩🟩
+TDD-23 📋> 🟨🟩🟨🟩🟩
+TDD0 📋> 🟩🟨🟨🟩🟨
+TDD-1 📋> 
+TDD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD486986 📋> #squareword #squareword1449
+TDD-277202 📋> ␚
+TDD-209588 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1449: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1449"}
+TDD514 result: "squareword.org 1449: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1449"
+TDD173413 📆 2026-01-19 ? 
