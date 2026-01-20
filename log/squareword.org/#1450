@@ -1,0 +1,102 @@
+T172.90283195300435 now: 2026-01-20T08:37:10EST
+TD88 site: squareword.org
+TDD-67 wordlist: nwl2023.txt
+TDD543245  ...
+TDD3536274 🧩  ? #1450
+TDD-4079306 puzzle_id: #1450
+TDD3479700 > *
+TDD-880074 try? 1
+TDD-2599545 questioning: ["share", "#5"]
+TDD3911506 #1 <IndexError>  📋 "share" ? S____ ~ E
+TDD-3910714 attempt 0 SHARE Y n n n m
+TDD2285793 #2 <IndexError>  📋 "share" ? __A__ ~ A
+TDD-2286619 attempt 1 SHARE n n Y n n
+TDD2672197 #3 <IndexError>  📋 "share" ? _____ ~ AE
+TDD-2672131 attempt 2 SHARE n n m n m
+TDD2311259 #4 <IndexError>  📋 "share" ? S____ ~ E
+TDD-2311268 attempt 3 SHARE Y n n n m
+TDD2463668 #5 <IndexError>  📋 "share" ? _____ ~ SHRE
+TDD-2463340 attempt 4 SHARE m m n m m
+TDD854315 ? 
+TDD-854754 question done
+TDD487369 > *
+TDD6232342 try? 2
+TDD-6719587 questioning: ["heros", "#5"]
+TDD5567719 #1 S____ ~E -AHR  📋 "heros" ? SE___ ~ E
+TDD-5567784 attempt 0 HEROS n Y n n n
+TDD3959084 #2 __A__ -EHRS  📋 "heros" ? __A__ ~ A
+TDD-3959040 attempt 1 HEROS n n n n n
+TDD1503619 #3 _____ ~AE -HRS  📋 "heros" ? .
+TDD-1503526 attempt 2 HEROS n m n n n
+TDD2871254 #4 S____ ~E -AHR  📋 "heros" ? S____ ~ EO
+TDD-2871321 attempt 3 HEROS n m n m n
+TDD2007261 #5 _____ ~EHRS -A  📋 "heros" ? HER_S
+TDD-2007264 attempt 4 HEROS Y Y Y n Y
+TDD175291 ? 
+TDD-175411 question done
+TDD655256 > *
+TDD98952 questioning: ["steno", "#4"]
+TDD5483857 #1 SE___ -AHORS  📋 "steno" ? SE___ ~ E
+TDD-6237951 attempt 0 STENO Y n m n n
+TDD3135109 #2 __A__ -EHORS  📋 "steno" ? __A__ ~ A
+TDD-3135114 attempt 1 STENO n n n n n
+TDD1359601 #3 _____ ~AE -HORS  📋 "steno" ? .
+TDD-1359577 attempt 2 STENO n n m n n
+TDD598692 #4 S____ ~EO -AHRS  📋 "steno" ? /it
+TDD-598704 attempt 3 STENO Y Y Y Y Y
+TDD911904 #5 HER_S -AO  📋 "steno" ? .
+TDD-911918 attempt 4 STENO n n n n n
+TDD174335 ? 
+TDD-174527 question done
+TDD624410 > *
+TDD105173 questioning: ["llama", "#2"]
+TDD4676276 #1 SE___ -AHNORT  📋 "llama" ? SE___ ~ E
+TDD-5405657 attempt 0 LLAMA n n n n n
+TDD624467 #2 __A__ -EHNORST  📋 "llama" ? /it
+TDD-624218 attempt 1 LLAMA Y Y Y Y Y
+TDD709768 #3 _____ ~AE -HNORST  📋 "llama" ? 
+TDD-558594 #3 _____ ~AE -HNORST  ? 
+TDD2280688 #3 _____ ~AE -HNORST  ? .
+TDD-2432130 attempt 2 LLAMA n n m n m
+TDD3214735 #5 HER_S -AENOST  📋 "llama" ? .
+TDD-3214821 attempt 4 LLAMA n n n n n
+TDD167715 ? 
+TDD-167785 question done
+TDD448007 > *
+TDD944670 questioning: ["aided", "#3"]
+TDD4070431 #1 SE___ -AHLMNORT  📋 "aided" ? SE_ED
+TDD-5462964 attempt 0 AIDED n n n Y Y
+TDD1439605 #3 _____ ~AE -HLMNORST  📋 "aided" ? /it
+TDD-1439588 attempt 2 AIDED Y Y Y Y Y
+TDD3951091 #5 HER_S -AELMNOST  📋 "aided" ? HER_S ~ D
+TDD-3951107 attempt 4 AIDED n n m n m
+TDD159683 ? 
+TDD-159805 question done
+TDD591182 > *
+TDD635397 questioning: ["sewed", "#1"]
+TDD1545655 #1 SE_ED -AHILMNORT  📋 "sewed" ? /it
+TDD-2772093 attempt 0 SEWED Y Y Y Y Y
+TDD1935817 #5 HER_S ~D -AEILMNOST  📋 "sewed" ? .
+TDD-1935820 attempt 4 SEWED n Y n n m
+TDD535423 ? 
+TDD-535568 question done
+TDD551977 > *
+TDD357042 questioning: ["herds", "#5"]
+TDD6909819 #5 HER_S ~D -AILMNOSTW  📋 "herds" ? /it
+TDD-7818661 attempt 4 HERDS Y Y Y Y Y
+TDD1742452 ? 
+TDD-1742642 question done
+TDD2999697 📋> squareword.org 1450: 7 guesses
+TDD-2999773 📋> 
+TDD-99 📋> 🟩🟩🟨🟩🟩
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD3 📋> 🟩🟩🟩🟨🟩
+TDD-2 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD295657 📋> #squareword #squareword1450
+TDD-127690 📋> ␚
+TDD-167781 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1450: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1450"}
+TDD554 result: "squareword.org 1450: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1450"
+TDD174377 📆 2026-01-20 ? 
