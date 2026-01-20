@@ -1,0 +1,50 @@
+T52910.93689753 now: 2026-01-20T08:22:26EST
+TD88 site: alphaguess.com
+TDD158502 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof 076b7859a888df56dbbd42a78997852f3f9befe1
+TDD11874317  ...
+TDD-9745059 [0 : 98220 : 196531] mach? a
+TDD-2287649 progress: 1 98220 mach
+TDD1431643 [98221 : 147373 : 196531] rhotic? a
+TDD-1431654 progress: 1 147373 rhotic
+TDD1655665 [147374 : 171643 : 196531] ta? a
+TDD-1655659 progress: 1 171643 ta
+TDD1440215 [171644 : 182008 : 196531] un? a
+TDD-1440134 progress: 1 182008 un
+TDD1302847 [182009 : 189270 : 196531] vicar? a
+TDD-1302928 progress: 1 189270 vicar
+TDD1415622 [189271 : 192874 : 196531] whir? b
+TDD-1415621 progress: -1 192874 whir
+TDD1503749 [189271 : 191050 : 192874] walk? a
+TDD-1503750 progress: 1 191050 walk
+TDD6167699 [191051 : 191913 : 192874] we? a
+TDD-6167700 progress: 1 191913 we
+TDD2223956 [191914 : 192383 : 192874] wen? a
+TDD-2223921 progress: 1 192383 wen
+TDD1687111 [192384 : 192587 : 192874] whee? b
+TDD-1687148 progress: -1 192587 whee
+TDD2031821 [192384 : 192485 : 192587] wha? a
+TDD-2031815 progress: 1 192485 wha
+TDD1799369 [192486 : 192535 : 192587] wharf? a
+TDD-1799375 progress: 1 192535 wharf
+TDD2407842 [192536 : 192547 : 192587] what? a
+TDD-2407839 progress: 1 192547 what
+TDD1687752 [192548 : 192561 : 192587] whats? a
+TDD-1687745 progress: 1 192561 whats
+TDD1807550 [192562 : 192572 : 192587] wheat? it
+TDD-1807500 progress: 0 192572 wheat
+TDD-194 [192562 : 192572 : 192587] <Done>.
+TDD3864125 📋> 🧩 Puzzle #911
+TDD-3864077 📋> 
+TDD-96 📋> 🤔 15 guesses
+TDD-1 📋> 
+TDD0 📋> ⏱️ 28s
+TDD0 📋> 
+TDD439453 📋> 🔗 alphaguess.com
+TDD-183509 📋> ␚
+TDD-255827 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #911\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 28s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-34 result: "\ud83e\udde9 Puzzle #911\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 28s\n\n\ud83d\udd17 alphaguess.com"
+TDD-79 result puzzle: 911
+TDD-7 result guesses: 15
+TDD0 result time: 28s
+TDD0 result link: alphaguess.com
+TDD359911 📆 2026-01-20 ? 
