@@ -1,0 +1,178 @@
+T2531.9081087349987 now: 2026-01-20T09:16:29EST
+TD88 site: britannica.com/games/octordle/daily-rescue
+TDD-73 wordlist: nwl2023.txt
+TDD-9 num_words: 8
+TDD1102409  ...
+TDD2329361 > *
+TDD-2519733 ? 1
+TDD-911835 questioning: braes
+TDD2623486 Rescue #1 _____? ␚
+TDD-2623583 <EOF>
+TDD1271895 > 
+TDD7047897 > tried rouse beget token snack
+TDD-8319684 questioning: ROUSE BEGET TOKEN SNACK
+TDD1847901 Rescue #1 _____? MnnnM
+TDD-1847875 attempt: 0 ROUSE m n n n m
+TDD3391518 Rescue #1 _____ ~ER -OSU? nMnYM
+TDD-3391452 attempt: 0 BEGET n m n Y m
+TDD1575903 Rescue #1 ___E_ ~ERT -BGOSU? MnnYn
+TDD-1575895 attempt: 0 TOKEN m n n Y n
+TDD1127744 Rescue #1 ___E_ ~RT -BGKNOSU? nnMnn
+TDD-1127741 attempt: 0 SNACK n n m n n
+TDD1750861 Rescue #2 _____? YnnnM
+TDD-1750869 attempt: 1 ROUSE Y n n n m
+TDD1454825 Rescue #2 R____ ~E -OSU? nnnYn
+TDD-1454845 attempt: 1 BEGET n n n Y n
+TDD1055387 Rescue #2 R__E_ -BGOSTU? nnnYn
+TDD-1055378 attempt: 1 TOKEN n n n Y n
+TDD1103484 Rescue #2 R__E_ -BGKNOSTU? nnnnn
+TDD-1103467 attempt: 1 SNACK n n n n n
+TDD1807310 Rescue #3 _____? MMnnn
+TDD-1807386 attempt: 2 ROUSE m m n n n
+TDD1111697 Rescue #3 _____ ~OR -ESU? nnnnn
+TDD-1111692 attempt: 2 BEGET n n n n n
+TDD1879628 Rescue #3 _____ ~OR -BEGSTU? nMnnn
+TDD-1879578 attempt: 2 TOKEN n m n n n
+TDD1559019 Rescue #3 _____ ~OR -BEGKNSTU? nnnnn
+TDD-1559100 attempt: 2 SNACK n n n n n
+TDD1423708 Rescue #4 _____? nnnnM
+TDD-1423727 attempt: 3 ROUSE n n n n m
+TDD2024271 Rescue #4 _____ ~E -ORSU? nMnnY
+TDD-2024157 attempt: 3 BEGET n m n n Y
+TDD1911391 Rescue #4 ____T ~E -BGORSU E:1? MnnMn
+TDD-1911392 attempt: 3 TOKEN m n n m n
+TDD1486639 Rescue #4 ____T ~E -BGKNORSU E:1? nnMnn
+TDD-1486716 attempt: 3 SNACK n n m n n
+TDD5328551 Rescue #5 _____? nnYnn
+TDD-5328480 attempt: 4 ROUSE n n Y n n
+TDD1126661 Rescue #5 __U__ -EORS? nnnnn
+TDD-1126748 attempt: 4 BEGET n n n n n
+TDD2159949 Rescue #5 __U__ -BEGORST? nnnnM
+TDD-2159858 attempt: 4 TOKEN n n n n m
+TDD1535119 Rescue #5 __U__ ~N -BEGKORST? nMMnn
+TDD-1535104 attempt: 4 SNACK n m m n n
+TDD1191984 Rescue #6 _____? nnnMn
+TDD-1192074 attempt: 5 ROUSE n n n m n
+TDD2022914 Rescue #6 _____ ~S -EORU? nnnnn
+TDD-2022842 attempt: 5 BEGET n n n n n
+TDD1847950 Rescue #6 _____ ~S -BEGORTU? nnMnn
+TDD-1847951 attempt: 5 TOKEN n n m n n
+TDD2383480 Rescue #6 _____ ~KS -BEGNORTU? YnYnM
+TDD-2383478 attempt: 5 SNACK Y n Y n m
+TDD1430501 Rescue #7 _____? nMnnM
+TDD-1430550 attempt: 6 ROUSE n m n n m
+TDD1303549 Rescue #7 _____ ~EO -RSU? nMnnM
+TDD-1303495 attempt: 6 BEGET n m n n m
+TDD1600165 Rescue #7 _____ ~EOT -BGRSU E:1? MMnMn
+TDD-1600246 attempt: 6 TOKEN m m n m n
+TDD1390497 Rescue #7 _____ ~EOT -BGKNRSU E:1? nnnnn
+TDD-1390498 attempt: 6 SNACK n n n n n
+TDD2384235 Rescue #8 _____? MnMYY
+TDD-2384238 attempt: 7 ROUSE m n m Y Y
+TDD1960760 Rescue #8 ___SE ~RU -O? nMnnn
+TDD-1960479 attempt: 7 BEGET n m n n n
+TDD1558495 Rescue #8 ___SE ~RU -BGOT E:1? nnnMM
+TDD-1558686 attempt: 7 TOKEN n n n m m
+TDD1894235 Rescue #8 ___SE ~NRU -BGKOT E:1? MMnnn
+TDD-1894216 attempt: 7 SNACK m m n n n
+TDD1247796 > *
+TDD-1247567 questioning: extol
+TDD5351097 Rescue #1 ___E_ ~ART -BCGKNOSU? YnYnn
+TDD-5351347 attempt: 0 EXTOL Y n Y n n
+TDD1351629 Rescue #2 R__E_ -ABCGKNOSTU? Mnnnn
+TDD-1351614 attempt: 1 EXTOL m n n n n
+TDD2015134 Rescue #3 _____ ~OR -ABCEGKNSTU? nnnYY
+TDD-2015146 attempt: 2 EXTOL n n n Y Y
+TDD1920568 Rescue #4 ____T ~AE -BCGKNORSU E:1? MnMnn
+TDD-1920515 attempt: 3 EXTOL m n m n n
+TDD3125784 Rescue #5 __U__ ~AN -BCEGKORST? nnnnn
+TDD-3125831 attempt: 4 EXTOL n n n n n
+TDD1111705 Rescue #6 S_A__ ~K -BCEGNORTU? nnnnn
+TDD-1111716 attempt: 5 EXTOL n n n n n
+TDD1390832 Rescue #7 _____ ~EOT -ABCGKNRSU E:1? YYYYY
+TDD-1390833 attempt: 6 EXTOL Y Y Y Y Y
+TDD2191364 Rescue #8 ___SE ~NRU -ABCGKOT E:1? Mnnnn
+TDD-2191374 attempt: 7 EXTOL m n n n n
+TDD1896274 > * 8
+TDD-1810226 questioning: nurse
+TDD5130477 Rescue #1 E_TE_ ~AR -BCGKLNOSUX? nnMnM
+TDD-5216521 attempt: 0 NURSE n n m n m
+TDD1511400 Rescue #2 R__E_ -ABCGKLNOSTUX? nnMnM
+TDD-1511391 attempt: 1 NURSE n n m n m
+TDD2007604 Rescue #3 ___OL ~R -ABCEGKNSTUX? nnMnn
+TDD-2007686 attempt: 2 NURSE n n m n n
+TDD1375413 Rescue #4 ____T ~AE -BCGKLNORSUX E:1? nnnnM
+TDD-1375322 attempt: 3 NURSE n n n n m
+TDD3271800 Rescue #5 __U__ ~AN -BCEGKLORSTX? MMnnn
+TDD-3271821 attempt: 4 NURSE m m n n n
+TDD1111248 Rescue #6 S_A__ ~K -BCEGLNORTUX? nnnMn
+TDD-1111251 attempt: 5 NURSE n n n m n
+TDD1558941 Rescue #8 ___SE ~NRU -ABCGKLOTX E:1? YYYYY
+TDD-1558929 attempt: 7 NURSE Y Y Y Y Y
+TDD2255125 > * 6
+TDD-2165696 questioning: shaky
+TDD7621467 Rescue #1 E_TE_ ~AR -BCGKLNOSUX? nnMnn
+TDD-7710879 attempt: 0 SHAKY n n m n n
+TDD1175100 Rescue #2 R__E_ -ABCGKLNOSTUX? nnnnn
+TDD-1175200 attempt: 1 SHAKY n n n n n
+TDD1599602 Rescue #3 ___OL ~R -ABCEGKNSTUX? nnnnn
+TDD-1599604 attempt: 2 SHAKY n n n n n
+TDD1263294 Rescue #4 ____T ~AE -BCGKLNORSUX E:1? nYMnn
+TDD-1263209 attempt: 3 SHAKY n Y m n n
+TDD2823077 Rescue #5 __U__ ~AN -BCEGKLORSTX? nnMnn
+TDD-2823155 attempt: 4 SHAKY n n m n n
+TDD1216328 Rescue #6 S_A__ ~K -BCEGLNORTUX? YYYYY
+TDD-1216240 attempt: 5 SHAKY Y Y Y Y Y
+TDD2942746 > *
+TDD-2942672 questioning: eater
+TDD5768034 Rescue #1 E_TE_ ~AR -BCGHKLNOSUXY? YYYYY
+TDD-5768155 attempt: 0 EATER Y Y Y Y Y
+TDD2446640 Rescue #2 R__E_ -ABCGHKLNOSTUXY? nnnYY
+TDD-2446606 attempt: 1 EATER n n n Y Y
+TDD1743456 Rescue #3 ___OL ~R -ABCEGHKNSTUXY? nnnnM
+TDD-1743532 attempt: 2 EATER n n n n m
+TDD1943205 Rescue #4 _H__T ~AE -BCGKLNORSUXY E:1? MMMnn
+TDD-1943144 attempt: 3 EATER m m m n n
+TDD2848059 Rescue #5 __U__ ~AN -BCEGHKLORSTXY? nYnnn
+TDD-2847981 attempt: 4 EATER n Y n n n
+TDD2199878 > *
+TDD-2199693 questioning: drool
+T8.079381201001524 now: 2026-01-20T09:20:11EST
+TD78 questioning: drool
+TDD6080875 Rescue #2 R__ER -ABCGHKLNOSTUXY? nMnnn
+TDD-6080480 attempt: 1 DROOL n m n n n
+TDD2806732 Rescue #3 ___OL ~R -ABCEGHKNSTUXY? YYYYY
+TDD-2806922 attempt: 2 DROOL Y Y Y Y Y
+TDD1927335 Rescue #4 _H__T ~AE -BCGKLNORSUXY E:1? nnnnn
+TDD-1927354 attempt: 3 DROOL n n n n n
+TDD3039892 Rescue #5 _AU__ ~N -BCEGHKLORSTXY? nnnnn
+TDD-3039817 attempt: 4 DROOL n n n n n
+TDD3742848 > *
+TDD-3742215 questioning: wheat
+TDD5022099 Rescue #2 R__ER -ABCDGHKLNOSTUXY? nnMnn
+TDD-5022739 attempt: 1 WHEAT n n m n n
+TDD1431615 Rescue #4 _H__T ~AE -BCDGKLNORSUXY E:1? YYYYY
+TDD-1431642 attempt: 3 WHEAT Y Y Y Y Y
+TDD2823357 Rescue #5 _AU__ ~N -BCDEGHKLORSTXY? nnnMn
+TDD-2823303 attempt: 4 WHEAT n n n m n
+TDD1247909 > *
+TDD-1247664 questioning: fauna
+TDD8567256 Rescue #2 R__ER -ABCDGHKLNOSTUWXY? nnnnn
+TDD-8567362 attempt: 1 FAUNA n n n n n
+TDD2813754 Rescue #5 _AU__ ~N -BCDEGHKLORSTWXY? YYYYY
+TDD-2813928 attempt: 4 FAUNA Y Y Y Y Y
+TDD2463841 > *
+TDD71351 ? 2
+TDD-2535223 questioning: riper
+TDD3703706 Rescue #2 R__ER -ABCDFGHKLNOSTUWXY? YYYYY
+TDD-3703776 attempt: 1 RIPER Y Y Y Y Y
+TDD3167953 📋> Daily Rescue Octordle #1457
+TDD-3168036 📋> 8️⃣🕛
+TDD-122 📋> 9️⃣🔟
+TDD-4 📋> 🕚7️⃣
+TDD-1 📋> 5️⃣6️⃣
+TDD623741 📋> Score: 9
+TDD-264070 📋> ␚
+TDD-359509 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1457\n8\ufe0f\u20e3\ud83d\udd5b\n9\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a7\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nScore: 9"}
+TDD1079 result: "Daily Rescue Octordle #1457\n8\ufe0f\u20e3\ud83d\udd5b\n9\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a7\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nScore: 9"
+TDD429358 📆 2026-01-20 ? 
