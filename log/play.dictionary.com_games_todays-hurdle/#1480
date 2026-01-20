@@ -1,0 +1,76 @@
+T53104.533077061 now: 2026-01-20T08:25:39EST
+TD143 site: https://play.dictionary.com/games/todays-hurdle
+TDD-129 wordlist: nwl2023.txt
+TDD15685033  ...
+TDD-4492603 1.1> *
+TDD-9896326 1.1 ? 1
+TDD13807925 1.1 📋 "taser" ? YnMMn
+TDD-15103714 tried: TASER Y n m m n
+TDD2335427 1.2> *
+TDD1912419 1.2 ? 1
+TDD208136 1.2 📋 "thens" ? YYYnM
+TDD-4455993 tried: THENS Y Y Y n m
+TDD863676 1.3> *
+TDD3391198 1.3 ? 2
+TDD497004 1.3 📋 "these" ? YYYYY
+TDD-4751975 tried: THESE Y Y Y Y Y
+TDD9263989 2.1 📋 "these" ? nYnnn
+TDD-9263952 tried: THESE n Y n n n
+TDD3775586 2.2> *
+TDD-2880145 2.2 ? 1
+TDD3976390 2.2 📋 "china" ? YYYYY
+TDD-4871783 tried: CHINA Y Y Y Y Y
+TDD9247891 3.1 📋 "china" ? nnYnn
+TDD-9247956 tried: CHINA n n Y n n
+TDD799065 3.2> *
+TDD232765 3.2 ? 1
+TDD5568134 3.2 📋 "tried" ? MYYMn
+TDD-6599986 tried: TRIED m Y Y m n
+TDD8080108 3.3> *
+TDD-2392575 3.3 📋 "write" ? YYYYY
+TDD-5687520 tried: WRITE Y Y Y Y Y
+TDD9247680 4.1 📋 "write" ? nnnMn
+TDD-9247622 tried: WRITE n n n m n
+TDD727625 4.2> *
+TDD1335714 4.2 ? 2
+TDD2056538 4.2 📋 "oaths" ? MMMnn
+TDD-4119856 tried: OATHS m m m n n
+TDD503295 4.3> *
+TDD656905 4.3 ? 1
+TDD2791251 4.3 📋 "gloat" ? YYYYY
+TDD-3951408 tried: GLOAT Y Y Y Y Y
+TDD7415460 5.1 📋 "these" ? nnnnn
+TDD-7415508 tried: THESE n n n n n
+TDD1759339 5.2 📋 "china" ? nnnYn
+TDD-1759418 tried: CHINA n n n Y n
+TDD1839568 5.3 📋 "write" ? Ynnnn
+TDD-1839570 tried: WRITE Y n n n n
+TDD1119563 5.4 📋 "gloat" ? nnMnn
+TDD-1119563 tried: GLOAT n n m n n
+TDD3823280 5.5> *
+TDD2609057 5.5 📋 "wound" ? YYYYY
+TDD-6432262 tried: WOUND Y Y Y Y Y
+TDD9167899 📋> Hurdle 1480
+TDD-9168096 📋> 
+TDD-94 📋> 3/6
+TDD0 📋> 🟩⬜🟨🟨⬜
+TDD0 📋> 🟩🟩🟩⬜🟨
+TDD-4 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 2/6
+TDD0 📋> ⬜🟩⬜⬜⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 3/6
+TDD0 📋> ⬜⬜🟩⬜⬜
+TDD0 📋> 🟨🟩🟩🟨⬜
+TDD3 📋> 🟩🟩🟩🟩🟩
+TDD-3 📋> 3/6
+TDD0 📋> ⬜⬜⬜🟨⬜
+TDD0 📋> 🟨🟨🟨⬜⬜
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> Final 1/2
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD319292 📋> score: 10,400
+TDD-151264 📋> ␚
+TDD-167841 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1480\n\n3/6\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n2/6\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,400"}
+TDD436 result: "Hurdle 1480\n\n3/6\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n2/6\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,400"
+TDD230466 📆 2026-01-20 ? 
