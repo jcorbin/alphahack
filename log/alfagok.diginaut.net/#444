@@ -1,0 +1,49 @@
+T52771.225980891 now: 2026-01-20T08:20:06EST
+TD150 site: alfagok.diginaut.net
+TDD432228 loaded 399682 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1170 words excluded) asof 076b7859a888df56dbbd42a78997852f3f9befe1
+TDD6237578  ...
+TDD-614728 [0 : 199833 : 399682] lijm? b
+TDD-6054820 progress: -1 199833 lijm
+TDD1631616 [0 : 99758 : 199833] ex? a
+TDD-1631782 progress: 1 99758 ex
+TDD1463656 [99759 : 149454 : 199833] huis? a
+TDD-1463742 progress: 1 149454 huis
+TDD1526880 [149455 : 174561 : 199833] kind? a
+TDD-1526845 progress: 1 174561 kind
+TDD1792693 [174562 : 187197 : 199833] krontjongs? a
+TDD-1792686 progress: 1 187197 krontjongs
+TDD1815176 [187198 : 193498 : 199833] lavendel? a
+TDD-1815181 progress: 1 193498 lavendel
+TDD1607704 [193499 : 196514 : 199833] les? b
+TDD-1607701 progress: -1 196514 les
+TDD1751603 [193499 : 194923 : 196514] lees? a
+TDD-1751624 progress: 1 194923 lees
+TDD1527679 [194924 : 195640 : 196514] leid? a
+TDD-1527674 progress: 1 195640 leid
+TDD1479083 [195641 : 196068 : 196514] lengte? a
+TDD-1479074 progress: 1 196068 lengte
+TDD1511869 [196069 : 196233 : 196514] lente? a
+TDD-1511846 progress: 1 196233 lente
+TDD2424018 [196234 : 196374 : 196514] leopoldlaan? !
+TDD1607740 [196234 : 196374 : 196513] leopoldsburg? !
+TDD-1560337 [196234 : 196375 : 196512] lep? a
+TDD-2471399 progress: 1 196375 lep
+TDD5151902 [196376 : 196445 : 196512] lept? a
+TDD-5151945 progress: 1 196445 lept
+TDD1759453 [196446 : 196472 : 196512] leraren? b
+TDD-1759424 progress: -1 196472 leraren
+TDD2752806 [196446 : 196453 : 196472] leraar? it
+TDD-2752673 progress: 0 196453 leraar
+TDD-314 [196446 : 196453 : 196472] <Done>.
+TDD2703140 📋> 🧩 Puzzel #444
+TDD-2703063 📋> 🤔 15 gokken
+TDD-105 📋> ⏱️ 34s
+TDD287241 📋> 🔗 alfagok.diginaut.net
+TDD-55223 📋> ␚
+TDD-231847 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #444\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD197 result: "\ud83e\udde9 Puzzel #444\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-366 result puzzle: 444
+TDD-7 result guesses: 15
+TDD-1 result time: 34s
+TDD0 result link: alfagok.diginaut.net
+TDD374813 📆 2026-01-20 ? 
