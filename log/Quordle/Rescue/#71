@@ -1,0 +1,75 @@
+T2418.242567263005 now: 2026-01-20T09:14:36EST
+TD102 site: m-w.com/games/quordle/#/rescue
+TDD-85 wordlist: nwl2023.txt
+TDD-9 num_words: 4
+TDD7687477  ...
+TDD-2967683 > tried quirk pouty
+TDD-4719327 questioning: QUIRK POUTY
+TDD2119385 Rescue #1 _____? nMnMn
+TDD-2119593 attempt: 0 QUIRK n m n m n
+TDD1407120 Rescue #1 _____ ~RU -IKQ? nnYnn
+TDD-1407150 attempt: 0 POUTY n n Y n n
+TDD1719834 Rescue #2 _____? nnnYn
+TDD-1719773 attempt: 1 QUIRK n n n Y n
+TDD1935431 Rescue #2 ___R_ -IKQU? nMnnn
+TDD-1935409 attempt: 1 POUTY n m n n n
+TDD3790954 Rescue #3 _____? nnMMn
+TDD-3790999 attempt: 2 QUIRK n n m m n
+TDD1343890 Rescue #3 _____ ~IR -KQU? nMnnY
+TDD-1343900 attempt: 2 POUTY n m n n Y
+TDD1415010 Rescue #4 _____? nnYnn
+TDD-1415032 attempt: 3 QUIRK n n Y n n
+TDD1279623 Rescue #4 __I__ -KQRU? nYnM
+TDD1488419 Rescue #4 __I__ -KQRU? nYnMn
+TDD-2767973 attempt: 3 POUTY n Y n m n
+TDD1207242 > *
+TDD-1207200 questioning: irony
+TDD4599412 Rescue #1 __U__ ~R -IKOPQTY? nYnnn
+TDD-4599541 attempt: 0 IRONY n Y n n n
+TDD3951583 Rescue #2 ___R_ ~O -IKPQTUY? nMYMn
+TDD-3951554 attempt: 1 IRONY n m Y m n
+TDD1623162 Rescue #3 ____Y ~IOR -KPQTU? YYYYY
+TDD-1623180 attempt: 2 IRONY Y Y Y Y Y
+TDD2327540 Rescue #4 _OI__ ~T -KPQRUY? MnMYn
+TDD-2327557 attempt: 3 IRONY m n m Y n
+TDD967569 > *
+TDD-964165 questioning: joint
+TDD5352830 Rescue #1 _RU__ -IKNOPQTY? nnnnn
+TDD-5356051 attempt: 0 JOINT n n n n n
+TDD2375673 Rescue #2 __OR_ ~N -IKPQTUY? nMnMn
+TDD-2375761 attempt: 1 JOINT n m n m n
+TDD1319231 Rescue #4 _OIN_ ~T -KPQRUY? YYYYY
+TDD-1319250 attempt: 3 JOINT Y Y Y Y Y
+TDD1167065 > *
+TDD-119319 ? 1
+TDD-1047768 questioning: cruel
+TDD5023461 Rescue #1 _RU__ -IJKNOPQTY? nYYnn
+TDD-5023422 attempt: 0 CRUEL n Y Y n n
+TDD1703369 Rescue #2 __OR_ ~N -IJKPQTUY? MMnnn
+TDD-1703363 attempt: 1 CRUEL m m n n n
+TDD2607570 > * 1
+TDD-1527994 ? 1
+TDD-1079624 questioning: brugh
+TDD6383709 Rescue #1 _RU__ -CEIJKLNOPQTY? YYYnY
+TDD-6383670 attempt: 0 BRUGH Y Y Y n Y
+TDD3559009 Rescue #2 __OR_ ~CN -EIJKLPQTUY? nMnnn
+TDD-3559094 attempt: 1 BRUGH n m n n n
+TDD1175869 > *
+TDD-1175558 questioning: brush
+TDD3391037 Rescue #1 BRU_H -CEGIJKLNOPQTY? YYYYY
+TDD-3391275 attempt: 0 BRUSH Y Y Y Y Y
+TDD2591380 Rescue #2 __OR_ ~CN -BEGHIJKLPQTUY? nMnnn
+TDD-2591372 attempt: 1 BRUSH n m n n n
+TDD823284 > *
+TDD-823213 questioning: acorn
+TDD3271241 Rescue #2 __OR_ ~CN -BEGHIJKLPQSTUY? YYYYY
+TDD-3271320 attempt: 1 ACORN Y Y Y Y Y
+TDD4544631 📋> Daily Rescue 71
+TDD-4544791 📋> 7️⃣8️⃣
+TDD-120 📋> 3️⃣4️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD367087 📋> 
+TDD-159178 📋> ␚
+TDD-207751 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 71\n7\ufe0f\u20e38\ufe0f\u20e3\n3\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD52 result: "Daily Rescue 71\n7\ufe0f\u20e38\ufe0f\u20e3\n3\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD191905 📆 2026-01-20 ? 
