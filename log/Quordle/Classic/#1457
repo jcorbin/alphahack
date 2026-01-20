@@ -1,0 +1,86 @@
+T53284.269896448 now: 2026-01-20T08:28:39EST
+TD94 site: m-w.com/games/quordle/#/
+TDD-78 wordlist: nwl2023.txt
+TDD-10 num_words: 4
+TDD3814942  ...
+TDD-2566949 > [C
+TDD-719984 > 
+TDD40044 > 
+TDD-392066 > 
+TDD-8029 > 
+TDD560054 > st
+TDD1975993 > *
+TDD-1639970 ? 1
+TDD-1063807 questioning: liers
+TDD3183691 Classic #1 _____? nnMnn
+TDD-3183577 attempt: 0 LIERS n n m n n
+TDD1319338 Classic #2 _____? nnnMM
+TDD-1319446 attempt: 1 LIERS n n n m m
+TDD1375816 Classic #3 _____? nnMMn
+TDD-1375742 attempt: 2 LIERS n n m m n
+TDD1287085 Classic #4 _____? nnMnM
+TDD-1287075 attempt: 3 LIERS n n m n m
+TDD1575389 > *
+TDD-311787 ? 1
+TDD-1263716 questioning: mated
+TDD5296241 Classic #1 _____ ~E -ILRS? YnnYn
+TDD-5296252 attempt: 0 MATED Y n n Y n
+TDD1383260 Classic #2 _____ ~RS -EIL? nMMnn
+TDD-1383147 attempt: 1 MATED n m m n n
+TDD1279523 Classic #3 _____ ~ER -ILS? nnMMn
+TDD-1279593 attempt: 2 MATED n n m m n
+TDD2167206 Classic #4 _____ ~ES -ILR? nMnMM
+TDD-2167181 attempt: 3 MATED n m n m m
+TDD2439539 > *
+TDD-855732 ? ␚
+TDD-1583941 <EOF>
+TDD3263935 > * 3
+TDD-2088254 ? 1
+TDD-1175547 questioning: wrote
+TDD4991566 Classic #1 M__E_ -ADILRST? nnMnM
+TDD-4991153 attempt: 0 WROTE n n m n m
+TDD1606925 Classic #2 _____ ~ARST -DEILM? nYnMn
+TDD-1607234 attempt: 1 WROTE n Y n m n
+TDD2423449 Classic #3 _____ ~ERT -ADILMS? nYYMY
+TDD-2423578 attempt: 2 WROTE n Y Y m Y
+TDD1239221 Classic #4 _____ ~ADES -ILMRT? nnnnY
+TDD-1239223 attempt: 3 WROTE n n n n Y
+TDD1103667 > *
+TDD-1103297 questioning: trash
+TDD3758547 Classic #1 M__E_ ~O -ADILRSTW? nnnnn
+TDD-3758850 attempt: 0 TRASH n n n n n
+TDD1255416 Classic #2 _R___ ~AST -DEILMOW? YYYYY
+TDD-1255496 attempt: 1 TRASH Y Y Y Y Y
+TDD1583604 Classic #3 _RO_E ~T -ADILMSW? YYnnn
+TDD-1583599 attempt: 2 TRASH Y Y n n n
+TDD2231738 Classic #4 ____E ~ADS -ILMORTW? nnYMM
+TDD-2231625 attempt: 3 TRASH n n Y m m
+TDD1623342 > *
+TDD-1623204 questioning: shade
+TDD5022936 Classic #1 M__E_ ~O -ADHILRSTW? nnnnM
+TDD-5023177 attempt: 0 SHADE n n n n m
+TDD1399522 Classic #3 TRO_E -ADHILMSW? nnnnY
+TDD-1399537 attempt: 2 SHADE n n n n Y
+TDD1335650 Classic #4 __A_E ~DHS -ILMORTW? YYYYY
+TDD-1335554 attempt: 3 SHADE Y Y Y Y Y
+TDD1015317 > *
+TDD504445 ? 2
+TDD-1519865 questioning: money
+TDD4991630 Classic #1 M__E_ ~O -ADHILRSTW? YYYYY
+TDD-4991619 attempt: 0 MONEY Y Y Y Y Y
+TDD4455849 Classic #3 TRO_E -ADHILMSW? nMnMn
+TDD-4455780 attempt: 2 MONEY n m n m n
+TDD935723 > *
+TDD2167986 ? 3
+TDD-3103744 questioning: trope
+TDD3118999 Classic #3 TRO_E -ADHILMNSWY? YYYYY
+TDD-3118957 attempt: 2 TROPE Y Y Y Y Y
+TDD27064241 📋> 🙂 Daily Quordle 1457
+TDD-27064400 📋> 6️⃣4️⃣
+TDD-131 📋> 7️⃣5️⃣
+TDD-4 📋> m-w.com/games/quordle/
+TDD303354 📋> 
+TDD-95346 📋> ␚
+TDD-207854 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1457\n6\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1375 result: "\ud83d\ude42 Daily Quordle 1457\n6\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD228808 📆 2026-01-20 ? 
