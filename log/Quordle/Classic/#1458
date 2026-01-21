@@ -1,0 +1,84 @@
+T180.8654477999953 now: 2026-01-21T08:32:38EST
+TD86 site: m-w.com/games/quordle/#/
+TDD-71 wordlist: nwl2023.txt
+TDD-8 num_words: 4
+TDD3711633  ...
+TDD-2624180 > *
+TDD64507 ? 1
+TDD-1151765 questioning: antes
+TDD3455667 Classic #1 _____? nnnnn
+TDD-3455530 attempt: 0 ANTES n n n n n
+TDD1631437 Classic #2 _____? MnnnM
+TDD-1631517 attempt: 1 ANTES m n n n m
+TDD1183419 Classic #3 _____? nnMMn
+TDD-1183453 attempt: 2 ANTES n n m m n
+TDD1823681 Classic #4 _____? YnMnn
+TDD-1823650 attempt: 3 ANTES Y n m n n
+TDD4151426 > *
+TDD-3295688 ? 1
+TDD-855773 questioning: imply
+TDD4551672 Classic #1 _____ -AENST? MnMnY
+TDD-4551612 attempt: 0 IMPLY m n m n Y
+TDD1647442 Classic #2 _____ ~AS -ENT? nnnnY
+TDD-1647488 attempt: 1 IMPLY n n n n Y
+TDD1791650 Classic #3 _____ ~ET -ANS? MMnnn
+TDD-1791543 attempt: 2 IMPLY m m n n n
+TDD1367244 Classic #4 A____ ~T -ENS? nnnnn
+TDD-1367356 attempt: 3 IMPLY n n n n n
+TDD1527943 > *
+TDD-344520 ? ␚
+TDD-1183509 <EOF>
+TDD1319673 > * 2
+TDD-71801 ? 1
+TDD-1247818 questioning: scary
+TDD3280470 Classic #1 ____Y ~IP -AELMNST? nnnMY
+TDD-3280441 attempt: 0 SCARY n n n m Y
+TDD1854847 Classic #2 ____Y ~AS -EILMNPT? YnYnY
+TDD-1854874 attempt: 1 SCARY Y n Y n Y
+TDD1455472 Classic #3 _____ ~EIMT -ALNPSY? nnnMn
+TDD-1455416 attempt: 2 SCARY n n n m n
+TDD1599519 Classic #4 A____ ~T -EILMNPSY? nnMMn
+TDD-1599553 attempt: 3 SCARY n n m m n
+TDD1119581 > *
+TDD976341 ? 1
+TDD-2095941 questioning: privy
+TDD3615627 Classic #1 ____Y ~IPR -ACELMNST? YYYYY
+TDD-3615528 attempt: 0 PRIVY Y Y Y Y Y
+TDD1591915 Classic #2 S_A_Y -CEILMNPRT? nnnnY
+TDD-1591881 attempt: 1 PRIVY n n n n Y
+TDD1238745 Classic #3 _____ ~EIMRT -ACLNPSY? nMMnn
+TDD-1238840 attempt: 2 PRIVY n m m n n
+TDD1223563 Classic #4 A____ ~RT -CEILMNPSY? nMnnn
+TDD-1223494 attempt: 3 PRIVY n m n n n
+TDD1407888 > *
+TDD-1407645 questioning: aorta
+TDD3798440 Classic #2 S_A_Y -CEILMNPRTV? Mnnnn
+TDD-3798777 attempt: 1 AORTA m n n n n
+TDD1391547 Classic #3 _____ ~EIMRT -ACLNPSVY? nnMMn
+TDD-1391541 attempt: 2 AORTA n n m m n
+TDD7200005 Classic #4 A____ ~RT -CEILMNPSVY? YYYYY
+TDD-7199977 attempt: 3 AORTA Y Y Y Y Y
+TDD1727234 > *
+TDD-1726933 questioning: remit
+TDD6671062 Classic #2 S_A_Y -CEILMNOPRTV A:1? nnnnn
+TDD-6671367 attempt: 1 REMIT n n n n n
+TDD1111507 Classic #3 _____ ~EIMRT -ACLNOPSVY? YYYYY
+TDD-1111529 attempt: 2 REMIT Y Y Y Y Y
+TDD831484 > *
+TDD752211 ? 1
+TDD-1583681 questioning: shaky
+TDD3583766 Classic #2 S_A_Y -CEILMNOPRTV A:1? YYYnY
+TDD-3583685 attempt: 1 SHAKY Y Y Y n Y
+TDD447221 > *
+TDD-447174 questioning: shady
+TDD2391305 Classic #2 SHA_Y -CEIKLMNOPRTV? YYYYY
+TDD-2391451 attempt: 1 SHADY Y Y Y Y Y
+TDD4632418 📋> 🙂 Daily Quordle 1458
+TDD-4632488 📋> 4️⃣8️⃣
+TDD-123 📋> 6️⃣5️⃣
+TDD-5 📋> m-w.com/games/quordle/
+TDD255633 📋> 
+TDD-104271 📋> ␚
+TDD-151200 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1458\n4\ufe0f\u20e38\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD2186 result: "\ud83d\ude42 Daily Quordle 1458\n4\ufe0f\u20e38\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD379217 📆 2026-01-21 ? 
