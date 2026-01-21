@@ -1,0 +1,187 @@
+T931.0561800399955 now: 2026-01-21T08:45:08EST
+TD89 site: britannica.com/games/octordle/daily
+TDD-75 wordlist: nwl2023.txt
+TDD-9 num_words: 8
+TDD487360  ...
+TDD3984500 > *
+TDD-3607873 ? 1
+TDD-863807 questioning: leans
+TDD2215652 Classic #1 _____? nMnnn
+TDD-2215637 attempt: 0 LEANS n m n n n
+TDD1359587 Classic #2 _____? MnnnM
+TDD-1359600 attempt: 1 LEANS m n n n m
+TDD2143708 Classic #3 _____? nMnYn
+TDD-2143700 attempt: 2 LEANS n m n Y n
+TDD1559696 Classic #4 _____? MnMMn
+TDD-1559673 attempt: 3 LEANS m n m m n
+TDD4215654 Classic #5 _____? nnMMn
+TDD-4215556 attempt: 4 LEANS n n m m n
+TDD1751435 Classic #6 _____? MnnYn
+TDD-1751432 attempt: 5 LEANS m n n Y n
+TDD2047456 Classic #7 _____? nnnYn
+TDD-2047444 attempt: 6 LEANS n n n Y n
+TDD1743022 Classic #8 _____? YnMnn
+TDD-1743024 attempt: 7 LEANS Y n m n n
+TDD2031745 > *
+TDD-1064209 ? 1
+TDD-967590 questioning: credo
+TDD7183773 Classic #1 _____ ~E -ALNS? nYMYn
+TDD-7183746 attempt: 0 CREDO n Y m Y n
+TDD1367372 Classic #2 _____ ~LS -AEN? nnnnn
+TDD-1367372 attempt: 1 CREDO n n n n n
+TDD2215151 Classic #3 ___N_ ~E -ALS? nnMnn
+TDD-2215119 attempt: 2 CREDO n n m n n
+TDD1231379 Classic #4 _____ ~ALN -ES? nnnnn
+TDD-1231494 attempt: 3 CREDO n n n n n
+TDD3247577 Classic #5 _____ ~AN -ELS? nnnnM
+TDD-3247564 attempt: 4 CREDO n n n n m
+TDD1239609 Classic #6 ___N_ ~L -AES? nnnnn
+TDD-1239625 attempt: 5 CREDO n n n n n
+TDD1783363 Classic #7 ___N_ -AELS? nnnnM
+TDD-1783232 attempt: 6 CREDO n n n n m
+TDD1111263 Classic #8 L____ ~A -ENS? nMnnn
+TDD-1111401 attempt: 7 CREDO n m n n n
+TDD1383666 > *
+TDD2384096 ? 3
+TDD-3767759 questioning: blush
+TDD7552183 Classic #1 _R_D_ ~E -ACLNOS? nnYnn
+TDD-7552099 attempt: 0 BLUSH n n Y n n
+TDD1398965 Classic #2 _____ ~LS -ACDENOR? nYYYY
+TDD-1399018 attempt: 1 BLUSH n Y Y Y Y
+TDD1639477 Classic #3 ___N_ ~E -ACDLORS? nnnnn
+TDD-1639415 attempt: 2 BLUSH n n n n n
+TDD1791920 Classic #4 _____ ~ALN -CDEORS? YMnnn
+TDD-1791913 attempt: 3 BLUSH Y m n n n
+TDD3791083 Classic #5 _____ ~ANO -CDELRS? nnnnn
+TDD-3791074 attempt: 4 BLUSH n n n n n
+TDD1383227 Classic #6 ___N_ ~L -ACDEORS? nYYnn
+TDD-1383317 attempt: 5 BLUSH n Y Y n n
+TDD1111432 Classic #7 ___N_ ~O -ACDELRS? nnnnn
+TDD-1111442 attempt: 6 BLUSH n n n n n
+TDD1407552 Classic #8 L____ ~AR -CDENOS? nMnnn
+TDD-1407551 attempt: 7 BLUSH n m n n n
+TDD1807953 > *
+TDD-1807795 questioning: prude
+TDD4431382 Classic #1 _RUD_ ~E -ABCHLNOS? YYYYY
+TDD-4431462 attempt: 0 PRUDE Y Y Y Y Y
+TDD1983333 Classic #2 _LUSH -ABCDENOR? nnYnn
+TDD-1983336 attempt: 1 PRUDE n n Y n n
+TDD1319146 Classic #3 ___N_ ~E -ABCDHLORSU? nnnnM
+TDD-1319086 attempt: 2 PRUDE n n n n m
+TDD1151333 Classic #4 B____ ~ALN -CDEHORSU? nnnnn
+TDD-1150479 attempt: 3 PRUDE n n n n n
+TDD3494025 Classic #5 _____ ~ANO -BCDEHLRSU? nnnnn
+TDD-3494947 attempt: 4 PRUDE n n n n n
+TDD1526969 Classic #6 _LUN_ -ABCDEHORS? YnYnn
+TDD-1526938 attempt: 5 PRUDE Y n Y n n
+TDD1119374 Classic #7 ___N_ ~O -ABCDEHLRSU? nnnnn
+TDD-1119402 attempt: 6 PRUDE n n n n n
+TDD1175809 Classic #8 L____ ~AR -BCDEHNOSU? nMnnn
+TDD-1175798 attempt: 7 PRUDE n m n n n
+TDD1303035 > *
+TDD-1302891 questioning: plunk
+TDD4719238 Classic #2 _LUSH -ABCDENOPR? nYYnn
+TDD-4719380 attempt: 1 PLUNK n Y Y n n
+TDD1231325 Classic #3 ___N_ ~E -ABCDHLOPRSU? nnnYn
+TDD-1231376 attempt: 2 PLUNK n n n Y n
+TDD1335399 Classic #4 B____ ~ALN -CDEHOPRSU? nMnMn
+TDD-1335349 attempt: 3 PLUNK n m n m n
+TDD3255684 Classic #5 _____ ~ANO -BCDEHLPRSU? nnnMn
+TDD-3255641 attempt: 4 PLUNK n n n m n
+TDD1335150 Classic #6 PLUN_ -ABCDEHORS? YYYYY
+TDD-1335229 attempt: 5 PLUNK Y Y Y Y Y
+TDD1904029 Classic #7 ___N_ ~O -ABCDEHLPRSU? nnnYn
+TDD-1903988 attempt: 6 PLUNK n n n Y n
+TDD1294926 Classic #8 L____ ~AR -BCDEHNOPSU? nMnnn
+TDD-1294964 attempt: 7 PLUNK n m n n n
+TDD1007906 > *
+TDD2535334 ? ␚
+TDD-3543380 <EOF>
+TDD1591543 > * 5
+TDD-543598 ? 1
+TDD-1047825 questioning: gonia
+TDD4759659 Classic #2 _LUSH -ABCDEKNOPR? nnnnn
+TDD-4759615 attempt: 1 GONIA n n n n n
+TDD2039392 Classic #3 ___N_ ~E -ABCDHKLOPRSU? MnMMn
+TDD-2039401 attempt: 2 GONIA m n m m n
+TDD1407402 Classic #4 B____ ~ALN -CDEHKOPRSU? nnYnM
+TDD-1407398 attempt: 3 GONIA n n Y n m
+TDD3695498 Classic #5 _____ ~ANO -BCDEHKLPRSU? MYYnY
+TDD-3695484 attempt: 4 GONIA m Y Y n Y
+TDD3279589 Classic #7 ___N_ ~O -ABCDEHKLPRSU? nYMMn
+TDD-3279593 attempt: 6 GONIA n Y m m n
+TDD1751439 Classic #8 L____ ~AR -BCDEHKNOPSU? nnnnY
+TDD-1751426 attempt: 7 GONIA n n n n Y
+TDD1703026 > *
+TDD-1702967 questioning: banal
+TDD4631287 Classic #2 _LUSH -ABCDEGIKNOPR? nnnnM
+TDD-4631406 attempt: 1 BANAL n n n n m
+TDD2663634 Classic #3 ___N_ ~EGI -ABCDHKLOPRSU? nnMnn
+TDD-2663679 attempt: 2 BANAL n n m n n
+TDD1351517 Classic #4 B_N__ ~AL -CDEGHIKOPRSU? YYYYY
+TDD-1351475 attempt: 3 BANAL Y Y Y Y Y
+TDD3319466 Classic #5 _ON_A ~G -BCDEHIKLPRSU? nMYnn
+TDD-3319419 attempt: 4 BANAL n m Y n n
+TDD1367335 Classic #7 _O_N_ ~I -ABCDEGHKLPRSU? nnMnn
+TDD-1367428 attempt: 6 BANAL n n m n n
+TDD2159950 Classic #8 L___A ~R -BCDEGHIKNOPSU? nYnMM
+TDD-2159833 attempt: 7 BANAL n Y n m m
+TDD1927154 > *
+TDD-1926937 questioning: tonga
+TDD4679462 Classic #2 _LUSH -ABCDEGIKNOPR? nnnnn
+TDD-4679701 attempt: 1 TONGA n n n n n
+TDD2790914 Classic #3 ___N_ ~EGI -ABCDHKLOPRSU? nnMMn
+TDD-2790908 attempt: 2 TONGA n n m m n
+TDD2487743 Classic #5 _ON_A ~G -BCDEHIKLPRSU A:1? YYYYY
+TDD-2487794 attempt: 4 TONGA Y Y Y Y Y
+TDD3407101 Classic #7 _O_N_ ~I -ABCDEGHKLPRSU? MYMnn
+TDD-3407130 attempt: 6 TONGA m Y m n n
+TDD2912115 Classic #8 LA__A ~R -BCDEGHIKNOPSU? nnnnY
+TDD-2912080 attempt: 7 TONGA n n n n Y
+TDD1375014 > *
+TDD-1374794 questioning: joint
+TDD3783004 Classic #2 _LUSH -ABCDEGIKNOPRT? nnnnn
+TDD-3783179 attempt: 1 JOINT n n n n n
+TDD1567451 Classic #3 ___N_ ~EGI -ABCDHKLOPRSTU? nnYYn
+TDD-1567436 attempt: 2 JOINT n n Y Y n
+TDD3519400 Classic #7 _O_N_ ~IT -ABCDEGHKLPRSU? YYYYY
+TDD-3519421 attempt: 6 JOINT Y Y Y Y Y
+TDD1247372 Classic #8 LA__A ~R -BCDEGHIKNOPSTU? nnnnn
+TDD-1247307 attempt: 7 JOINT n n n n n
+TDD1127314 > *
+TDD-1127072 questioning: larva
+TDD5519049 Classic #2 _LUSH -ABCDEGIJKNOPRT? Mnnnn
+TDD-5519359 attempt: 1 LARVA m n n n n
+TDD1639022 Classic #3 __IN_ ~EG -ABCDHJKLOPRSTU? nnnnn
+TDD-1639008 attempt: 2 LARVA n n n n n
+TDD2744018 Classic #8 LA__A ~R -BCDEGHIJKNOPSTU? YYYYY
+TDD-2744056 attempt: 7 LARVA Y Y Y Y Y
+TDD1046835 > *
+TDD1201275 ? ␚
+TDD-2248255 <EOF>
+TDD1079364 > * 3
+TDD1481088 ? 2
+TDD-2560328 questioning: eying
+TDD4375504 Classic #2 _LUSH -ABCDEGIJKNOPRTV? nnnnn
+TDD-4375541 attempt: 1 EYING n n n n n
+TDD1111109 Classic #3 __IN_ ~EG -ABCDHJKLOPRSTUV? YYYYY
+TDD-1111034 attempt: 2 EYING Y Y Y Y Y
+TDD895239 > *
+TDD96370 ? 1
+TDD-991700 questioning: flush
+TDD3039949 Classic #2 _LUSH -ABCDEGIJKNOPRTVY? nYYYY
+TDD-3039846 attempt: 1 FLUSH n Y Y Y Y
+TDD1223882 > *
+TDD-1223647 questioning: slush
+TDD2382632 Classic #2 _LUSH -ABCDEFGIJKNOPRTVY? YYYYY
+TDD-2382960 attempt: 1 SLUSH Y Y Y Y Y
+TDD4031963 📋> Daily Octordle #1458
+TDD-4032032 📋> 4️⃣🕐
+TDD-124 📋> 🕚7️⃣
+TDD-4 📋> 8️⃣5️⃣
+TDD-1 📋> 9️⃣🔟
+TDD295235 📋> Score: 67
+TDD-151353 📋> ␚
+TDD-143773 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1458\n4\ufe0f\u20e3\ud83d\udd50\n\ud83d\udd5a7\ufe0f\u20e3\n8\ufe0f\u20e35\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\nScore: 67"}
+TDD81 result: "Daily Octordle #1458\n4\ufe0f\u20e3\ud83d\udd50\n\ud83d\udd5a7\ufe0f\u20e3\n8\ufe0f\u20e35\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\nScore: 67"
+TDD159458 📆 2026-01-21 ? 
