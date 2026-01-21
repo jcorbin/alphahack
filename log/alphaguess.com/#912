@@ -1,0 +1,48 @@
+T244.61321946399403 now: 2026-01-21T08:22:35EST
+TD79 site: alphaguess.com
+TDD145148 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof e66b40ae87c681d850b563106c9739c81dbb1bc2
+TDD22877404  ...
+TDD-20174408 [0 : 98220 : 196531] mach? b
+TDD-2848067 progress: -1 98220 mach
+TDD1679106 [0 : 47382 : 98220] dis? a
+TDD-1679110 progress: 1 47382 dis
+TDD2519731 [47383 : 72801 : 98220] gremmy? b
+TDD-2519734 progress: -1 72801 gremmy
+TDD1695683 [47383 : 60085 : 72801] face? b
+TDD-1695634 progress: -1 60085 face
+TDD1415707 [47383 : 53398 : 60085] el? b
+TDD-1415634 progress: -1 53398 el
+TDD1359440 [47383 : 49429 : 53398] do? a
+TDD-1359517 progress: 1 49429 do
+TDD8471909 [49430 : 51403 : 53398] drunk? b
+TDD-8471900 progress: -1 51403 drunk
+TDD2535542 [49430 : 50406 : 51403] dove? a
+TDD-2535592 progress: 1 50406 dove
+TDD3527716 [50407 : 50900 : 51403] drawl? a
+TDD-3527684 progress: 1 50900 drawl
+TDD1975753 [50901 : 51132 : 51403] drive? a
+TDD-1975746 progress: 1 51132 drive
+TDD3095419 [51133 : 51226 : 51403] drop? b
+TDD-3095464 progress: -1 51226 drop
+TDD2567825 [51133 : 51180 : 51226] droll? a
+TDD-2567821 progress: 1 51180 droll
+TDD2023640 [51181 : 51202 : 51226] drongo? a
+TDD-2023593 progress: 1 51202 drongo
+TDD1719705 [51203 : 51208 : 51226] drool? it
+TDD-1719742 progress: 0 51208 drool
+TDD-139 [51203 : 51208 : 51226] <Done>.
+TDD3384595 📋> 🧩 Puzzle #912
+TDD-3384487 📋> 
+TDD-115 📋> 🤔 14 guesses
+TDD-2 📋> 
+TDD0 📋> ⏱️ 35s
+TDD-2 📋> 
+TDD479177 📋> 🔗 alphaguess.com
+TDD-319357 📋> ␚
+TDD-159709 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #912\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 35s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-35 result: "\ud83e\udde9 Puzzle #912\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 35s\n\n\ud83d\udd17 alphaguess.com"
+TDD-70 result puzzle: 912
+TDD-6 result guesses: 14
+TDD0 result time: 35s
+TDD0 result link: alphaguess.com
+TDD680167 📆 2026-01-21 ? 
