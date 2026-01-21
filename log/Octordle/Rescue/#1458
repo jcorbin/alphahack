@@ -1,0 +1,183 @@
+T5522.281047024 now: 2026-01-21T10:01:39EST
+TD92 site: britannica.com/games/octordle/daily-rescue
+TDD-78 wordlist: nwl2023.txt
+TDD-9 num_words: 8
+TDD910697  ...
+TDD17641263 > tried charm penne crimp globe
+TDD-18551754 questioning: CHARM PENNE CRIMP GLOBE
+TDD2295788 Rescue #1 _____? nMnMn
+TDD-2295704 attempt: 0 CHARM n m n m n
+TDD1279261 Rescue #1 _____ ~HR -ACM? nYnnn
+TDD-1279249 attempt: 0 PENNE n Y n n n
+TDD3183931 Rescue #1 _E___ ~HR -ACMNP? nMnnn
+TDD-3183935 attempt: 0 CRIMP n m n n n
+TDD4671555 Rescue #1 _E___ ~HR -ACIMNP? nnnMM
+TDD-4671547 attempt: 0 GLOBE n n n m m
+TDD2510843 Rescue #2 _____? nnMnn
+TDD-2510905 attempt: 1 CHARM n n m n n
+TDD1231821 Rescue #2 _____ ~A -CHMR? nnYnn
+TDD-1231770 attempt: 1 PENNE n n Y n n
+TDD1631290 Rescue #2 __N__ ~A -CEHMPR? nnnnn
+TDD-1631366 attempt: 1 CRIMP n n n n n
+TDD2007438 Rescue #2 __N__ ~A -CEHIMPR? nnnnn
+TDD-2007358 attempt: 1 GLOBE n n n n n
+TDD4783456 Rescue #3 _____? nnYMn
+TDD-4783456 attempt: 2 CHARM n n Y m n
+TDD5991508 Rescue #3 __A__ ~R -CHM? MnnnY
+TDD-5991535 attempt: 2 PENNE m n n n Y
+TDD13783587 Rescue #3 __A_E ~PR -CHMN? nYnnM
+TDD-13783502 attempt: 2 CRIMP n Y n n m
+TDD1863168 Rescue #3 _RA_E ~P -CHIMN? YnnnY
+TDD-1863225 attempt: 2 GLOBE Y n n n Y
+TDD3167513 Rescue #4 _____? nnnMM
+TDD-3167530 attempt: 3 CHARM n n n m m
+TDD1447492 Rescue #4 _____ ~MR -ACH? nMnnn
+TDD-1447557 attempt: 3 PENNE n m n n n
+TDD1311477 Rescue #4 _____ ~EMR -ACHNP E:1? nMnMn
+TDD-1311410 attempt: 3 CRIMP n m n m n
+TDD1927425 Rescue #4 _____ ~EMR -ACHINP E:1? nnMnM
+TDD-1927372 attempt: 3 GLOBE n n m n m
+TDD5783284 Rescue #5 _____? nnnnn
+TDD-5783330 attempt: 4 CHARM n n n n n
+TDD1775529 Rescue #5 _____ -ACHMR? nnnnY
+TDD-1775608 attempt: 4 PENNE n n n n Y
+TDD2127525 Rescue #5 ____E -ACHMNPR? nnnnn
+TDD-2127513 attempt: 4 CRIMP n n n n n
+TDD1831447 Rescue #5 ____E -ACHIMNPR? nMMnY
+TDD-1831457 attempt: 4 GLOBE n m m n Y
+TDD3831931 Rescue #6 _____? nMnMn
+TDD-3831835 attempt: 5 CHARM n m n m n
+TDD1375713 Rescue #6 _____ ~HR -ACM? nnnnY
+TDD-1375748 attempt: 5 PENNE n n n n Y
+TDD1526991 Rescue #6 ____E ~HR -ACMNP? nMnnn
+TDD-1526961 attempt: 5 CRIMP n m n n n
+TDD1639254 Rescue #6 ____E ~HR -ACIMNP? nnMnY
+TDD-1639263 attempt: 5 GLOBE n n m n Y
+TDD2007556 Rescue #7 _____? nnnnn
+TDD-2007544 attempt: 6 CHARM n n n n n
+TDD1816274 Rescue #7 _____ -ACHMR? nYnnY
+TDD-1816298 attempt: 6 PENNE n Y n n Y
+TDD1615101 Rescue #7 _E__E -ACHMNPR? nnnnn
+TDD-1615083 attempt: 6 CRIMP n n n n n
+TDD1766738 Rescue #7 _E__E -ACHIMNPR? MMnnY
+TDD-1766778 attempt: 6 GLOBE m m n n Y
+TDD2543562 Rescue #8 _____? nnnMn
+TDD-2543590 attempt: 7 CHARM n n n m n
+TDD1679510 Rescue #8 _____ ~R -ACHM? nnnnn
+TDD-1679528 attempt: 7 PENNE n n n n n
+TDD3175657 Rescue #8 _____ ~R -ACEHMNP? nYYnn
+TDD-3175557 attempt: 7 CRIMP n Y Y n n
+TDD1415252 Rescue #8 _RI__ -ACEHMNP? nnnnn
+TDD-1415345 attempt: 7 GLOBE n n n n n
+TDD1807999 > *
+TDD-1807792 questioning: berth
+TDD39407223 Rescue #1 _E___ ~BHR -ACGILMNOP? YYYYY
+TDD-39407355 attempt: 0 BERTH Y Y Y Y Y
+TDD2047428 Rescue #2 __N__ ~A -BCEGHILMOPR? nnnnn
+TDD-2047425 attempt: 1 BERTH n n n n n
+TDD4183357 Rescue #3 GRA_E ~P -BCHILMNO? nMMnn
+TDD-4183409 attempt: 2 BERTH n m m n n
+TDD1207903 Rescue #4 _____ ~EMOR -ABCGHILNP E:1? nMMnn
+TDD-1207831 attempt: 3 BERTH n m m n n
+TDD5599047 Rescue #5 ____E ~LO -ABCGHIMNPR? nMnnn
+TDD-5599066 attempt: 4 BERTH n m n n n
+TDD2295351 Rescue #6 ____E ~HOR -ABCGILMNP? nMYnM
+TDD-2295357 attempt: 5 BERTH n m Y n m
+TDD2815644 Rescue #7 _E__E ~GL -ABCHIMNOPR? nYnnn
+TDD-2815631 attempt: 6 BERTH n Y n n n
+TDD1943226 Rescue #8 _RI__ -ABCEGHLMNOP? nnMYn
+TDD-1943221 attempt: 7 BERTH n n m Y n
+TDD1799644 > *
+TDD-1799408 questioning: grape
+TDD6550710 Rescue #2 __N__ ~A -BCEGHILMOPRT? nnMnn
+TDD-6550953 attempt: 1 GRAPE n n m n n
+TDD1431764 Rescue #3 GRA_E ~P -BCHILMNOT? YYYYY
+TDD-1431768 attempt: 2 GRAPE Y Y Y Y Y
+TDD1535482 Rescue #4 _____ ~EMOR -ABCGHILNPT E:1? nMnnM
+TDD-1535470 attempt: 3 GRAPE n m n n m
+TDD3559171 Rescue #5 ____E ~LO -ABCGHIMNPRT? nnnnY
+TDD-3559173 attempt: 4 GRAPE n n n n Y
+TDD9399341 Rescue #6 __R_E ~HO -ABCGILMNPT? nMnnY
+TDD-9399422 attempt: 5 GRAPE n m n n Y
+TDD2367412 Rescue #7 _E__E ~GL -ABCHIMNOPRT? MnnnY
+TDD-2367311 attempt: 6 GRAPE m n n n Y
+TDD2895319 Rescue #8 _RIT_ -ABCEGHLMNOP? nYnnn
+TDD-2895437 attempt: 7 GRAPE n Y n n n
+TDD6607879 > *
+TDD-6607580 questioning: ledge
+TDD7974730 Rescue #2 __N__ ~A -BCEGHILMOPRT? nnMnn
+TDD-7975015 attempt: 1 LEDGE n n m n n
+TDD2175671 Rescue #4 _____ ~EMOR -ABCGHILNPT E:1? nMnnn
+TDD-2175538 attempt: 3 LEDGE n m n n n
+TDD3831591 Rescue #5 ____E ~LO -ABCGHIMNPRT? YnnnY
+TDD-3831734 attempt: 4 LEDGE Y n n n Y
+TDD2927158 Rescue #6 __R_E ~HO -ABCGILMNPT? nnnnY
+TDD-2927069 attempt: 5 LEDGE n n n n Y
+TDD3799573 Rescue #7 _E__E ~GL -ABCHIMNOPRT? YYYYY
+TDD-3799603 attempt: 6 LEDGE Y Y Y Y Y
+TDD1735897 Rescue #8 _RIT_ -ABCEGHLMNOP? nnnnn
+TDD-1735932 attempt: 7 LEDGE n n n n n
+TDD5119037 > *
+TDD-5118758 questioning: horse
+TDD5015410 Rescue #2 __N__ ~AD -BCEGHILMOPRT? horse
+TDD4455831 Rescue #2 __N__ ~AD -BCEGHILMOPRT? nnnMn
+TDD-9471462 attempt: 1 HORSE n n n m n
+TDD4543449 Rescue #4 _____ ~EMOR -ABCDGHILNPT E:1? nYMnM
+TDD-4543526 attempt: 3 HORSE n Y m n m
+TDD6040078 Rescue #5 L___E ~O -ABCDGHIMNPRT? nYnYY
+TDD-6039999 attempt: 4 HORSE n Y n Y Y
+TDD3462927 Rescue #6 __R_E ~HO -ABCDGILMNPT? YYYYY
+TDD-3462928 attempt: 5 HORSE Y Y Y Y Y
+TDD4663554 Rescue #8 _RIT_ -ABCDEGHLMNOP? nnMnn
+TDD-4663553 attempt: 7 HORSE n n m n n
+TDD4303196 > * 4
+TDD-439392 ? 3
+TDD-3863844 questioning: mover
+TDD6495504 Rescue #2 __N__ ~ADS -BCEGHILMOPRT? nnnnn
+TDD-6495548 attempt: 1 MOVER n n n n n
+TDD2216362 Rescue #4 _O___ ~EMR -ABCDGHILNPST E:1? YYnYY
+TDD-2216262 attempt: 3 MOVER Y Y n Y Y
+TDD5279275 Rescue #5 LO_SE -ABCDGHIMNPRT? nYnMn
+TDD-5279299 attempt: 4 MOVER n Y n m n
+TDD3423378 Rescue #8 _RIT_ -ABCDEGHLMNOPS? nnnnM
+TDD-3423409 attempt: 7 MOVER n n n n m
+TDD1247168 > *
+TDD-1247035 questioning: mower
+TDD4311024 Rescue #2 __N__ ~ADS -BCEGHILMOPRTV? nnnnn
+TDD-4311174 attempt: 1 MOWER n n n n n
+TDD1351797 Rescue #4 MO_ER -ABCDGHILNPSTV? YYYYY
+TDD-1351753 attempt: 3 MOWER Y Y Y Y Y
+TDD3504009 Rescue #5 LO_SE -ABCDGHIMNPRTV? nYnMn
+TDD-3503996 attempt: 4 MOWER n Y n m n
+TDD6182971 Rescue #8 _RIT_ -ABCDEGHLMNOPSV? nnnnM
+TDD-6183047 attempt: 7 MOWER n n n n m
+TDD3383576 > *
+TDD-3383299 questioning: louse
+TDD4511300 Rescue #2 __N__ ~ADS -BCEGHILMOPRTVW? nnnMn
+TDD-4511389 attempt: 1 LOUSE n n n m n
+TDD12062688 Rescue #5 LO_SE -ABCDGHIMNPRTVW? YYYYY
+TDD-12062803 attempt: 4 LOUSE Y Y Y Y Y
+TDD2311660 Rescue #8 _RIT_ -ABCDEGHLMNOPSVW? nnnnn
+TDD-2311741 attempt: 7 LOUSE n n n n n
+TDD1071334 > *
+TDD665231 ? 1
+TDD-1736510 questioning: sandy
+TDD5102640 Rescue #2 __N__ ~ADS -BCEGHILMOPRTUVW? YYYYY
+TDD-5102617 attempt: 1 SANDY Y Y Y Y Y
+TDD3343535 Rescue #8 _RIT_ -ABCDEGHLMNOPSUVW? nnnnn
+TDD-3343513 attempt: 7 SANDY n n n n n
+TDD919448 > *
+TDD391982 ? 1
+TDD-1311555 questioning: fritz
+TDD4319767 Rescue #8 _RIT_ -ABCDEGHLMNOPSUVWY? YYYYY
+TDD-4319746 attempt: 7 FRITZ Y Y Y Y Y
+TDD2824071 📋> Daily Rescue Octordle #1458
+TDD-2824166 📋> 5️⃣🕛
+TDD-108 📋> 6️⃣🔟
+TDD-2 📋> 🕚8️⃣
+TDD0 📋> 7️⃣🕐
+TDD543519 📋> Score: 8
+TDD-247581 📋> ␚
+TDD-295774 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1458\n5\ufe0f\u20e3\ud83d\udd5b\n6\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a8\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udd50\nScore: 8"}
+TDD25 result: "Daily Rescue Octordle #1458\n5\ufe0f\u20e3\ud83d\udd5b\n6\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a8\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udd50\nScore: 8"
+TDD319254 📆 2026-01-21 ? 
