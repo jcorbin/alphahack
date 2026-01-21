@@ -1,0 +1,76 @@
+T5418.311691736999 now: 2026-01-21T09:59:56EST
+TD119 site: m-w.com/games/quordle/#/rescue
+TDD-105 wordlist: nwl2023.txt
+TDD-10 num_words: 4
+TDD767424  ...
+TDD11704093 > tried
+TDD-3903351 > tried crump gavel
+TDD-8567935 questioning: CRUMP GAVEL
+TDD2927555 Rescue #1 _____? nnnnn
+TDD-2927535 attempt: 0 CRUMP n n n n n
+TDD1567440 Rescue #1 _____ -CMPRU? nnnYM
+TDD-1567453 attempt: 0 GAVEL n n n Y m
+TDD1935508 Rescue #2 _____? Mnnnn
+TDD-1935517 attempt: 1 CRUMP m n n n n
+TDD1327600 Rescue #2 _____ ~C -MPRU? nnnMM
+TDD-1327503 attempt: 1 GAVEL n n n m m
+TDD2831443 Rescue #3 _____? nMnnn
+TDD-2831456 attempt: 2 CRUMP n m n n n
+TDD2215342 Rescue #3 _____ ~R -CMPU? nnnMn
+TDD-2215349 attempt: 2 GAVEL n n n m n
+TDD1527291 Rescue #4 _____? nYnnM
+TDD-1527352 attempt: 3 CRUMP n Y n n m
+TDD3551694 Rescue #4 _R___ ~P -CMU? YMnMn
+TDD-3551628 attempt: 3 GAVEL Y m n m n
+TDD1151264 > *
+TDD-1151040 questioning: grape
+TDD5182984 Rescue #1 ___E_ ~L -ACGMPRUV? nnnnM
+TDD-5183220 attempt: 0 GRAPE n n n n m
+TDD1327484 Rescue #2 _____ ~CEL -AGMPRUV? nnnnY
+TDD-1327408 attempt: 1 GRAPE n n n n Y
+TDD2295301 Rescue #3 _____ ~ER -ACGLMPUV? nMnnM
+TDD-2295367 attempt: 2 GRAPE n m n n m
+TDD1191466 Rescue #4 GR___ ~AEP -CLMUV? YYYYY
+TDD-1191456 attempt: 3 GRAPE Y Y Y Y Y
+TDD1183338 > *
+TDD464307 ? 1
+TDD-1647765 questioning: rents
+TDD3175785 Rescue #1 ___E_ ~L -ACGMPRUV? nMnMn
+TDD-3175681 attempt: 0 RENTS n m n m n
+TDD1728018 Rescue #2 ____E ~CL -AGMPRUV? nMnnM
+TDD-1727988 attempt: 1 RENTS n m n n m
+TDD1942471 Rescue #3 _____ ~ER -ACGLMPUV? MYnnn
+TDD-1942576 attempt: 2 RENTS m Y n n n
+TDD1831607 > *
+TDD960401 ? 2
+TDD-2791961 questioning: slice
+TDD3951214 Rescue #1 ___E_ ~LT -ACGMNPRSUV? nYnnM
+TDD-3951268 attempt: 0 SLICE n Y n n m
+TDD1519744 Rescue #2 ____E ~CLS -AGMNPRTUV? YYYYY
+TDD-1519671 attempt: 1 SLICE Y Y Y Y Y
+TDD1703322 Rescue #3 _E___ ~R -ACGLMNPSTUV? nnnnM
+TDD-1703317 attempt: 2 SLICE n n n n m
+TDD1039579 > *
+TDD-1039428 questioning: fleet
+TDD3071069 Rescue #1 _L_E_ ~T -ACGIMNPRSUV? YYYYY
+TDD-3071304 attempt: 0 FLEET Y Y Y Y Y
+TDD1279205 Rescue #3 _E___ ~R -ACGILMNPSTUV? nnMnn
+TDD-1279206 attempt: 2 FLEET n n m n n
+TDD855804 > *
+TDD183866 ? 1
+TDD-1039692 questioning: derby
+TDD4647933 Rescue #3 _E___ ~R -ACFGILMNPSTUV E:1? nYYMY
+TDD-4647900 attempt: 2 DERBY n Y Y m Y
+TDD1575543 > *
+TDD-1575391 questioning: berry
+TDD3863245 Rescue #3 _ER_Y ~B -ACDFGILMNPSTUV? YYYYY
+TDD-3863320 attempt: 2 BERRY Y Y Y Y Y
+TDD4360331 📋> Daily Rescue 72
+TDD-4360525 📋> 6️⃣5️⃣
+TDD-102 📋> 8️⃣3️⃣
+TDD-3 📋> m-w.com/games/quordle/
+TDD439222 📋> 
+TDD-159503 📋> ␚
+TDD-279554 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 72\n6\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD90 result: "Daily Rescue 72\n6\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD999470 📆 2026-01-21 ? 
