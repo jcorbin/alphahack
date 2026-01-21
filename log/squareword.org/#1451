@@ -1,0 +1,103 @@
+T1145.9540644090011 now: 2026-01-21T08:48:43EST
+TD130 site: squareword.org
+TDD-99 wordlist: nwl2023.txt
+TDD454996  ...
+TDD2928884 🧩  ? #1451
+TDD-3383648 puzzle_id: #1451
+TDD3463503 > *
+TDD-2295819 try? 1
+TDD-1167654 questioning: ["aloes", "#5"]
+TDD5375364 #1 <IndexError>  📋 "aloes" ? _L__S ~ E
+TDD-5374893 attempt 0 ALOES n Y n m Y
+TDD2311357 #2 <IndexError>  📋 "aloes" ? _____ ~ AL
+TDD-2311797 attempt 1 ALOES m m n n n
+TDD2910964 #3 <IndexError>  📋 "aloes" ? _____ ~ AOE
+TDD-2911034 attempt 2 ALOES m n m m n
+TDD2175132 #4 <IndexError>  📋 "aloes" ? ___E~ 
+TDD2320605 #4 <IndexError>  ? ___E_ 
+TDD-4495732 attempt 3 ALOES n n n Y n
+TDD2663593 #5 <IndexError>  📋 "aloes" ? _____ ~ LES
+TDD-2663590 attempt 4 ALOES n m n m m
+TDD351511 ? 
+TDD-351566 question done
+TDD543596 > *
+TDD3464980 try? 1
+TDD-4008332 questioning: ["clefs", "#1"]
+TDD14590613 #1 _L__S ~E -AO  📋 "clefs" ? _LE_S
+TDD-14590803 attempt 0 CLEFS n Y Y n Y
+TDD2743236 #2 _____ ~AL -EOS  📋 "clefs" ? _____ ~ ALC
+TDD-2743148 attempt 1 CLEFS m m n n n
+TDD2335889 #3 _____ ~AEO -LS  📋 "clefs" ? __E__ ~ AO
+TDD-2335981 attempt 2 CLEFS n n Y n n
+TDD2879149 #4 ___E_ -ALOS  📋 "clefs" ? .
+TDD-2879024 attempt 3 CLEFS n n n n n
+TDD1055136 #5 _____ ~ELS -AO  📋 "clefs" ? .
+TDD-1055160 attempt 4 CLEFS n m m n m
+TDD151390 ? 
+TDD-151540 question done
+TDD439781 > *
+TDD9072003 try? 2
+TDD-9511627 questioning: ["lilac", "#2"]
+TDD6070991 #1 _LE_S -ACFO  📋 "lilac" ? .
+TDD-6071092 attempt 0 LILAC n n n n n
+TDD599350 #2 _____ ~ACL -EFOS  📋 "lilac" ? /it
+TDD-599353 attempt 1 LILAC Y Y Y Y Y
+TDD2511918 #3 __E__ ~AO -CFLS  📋 "lilac" ? .
+TDD-2511830 attempt 2 LILAC n n n m n
+TDD3815190 #4 ___E_ -ACEFLOS  📋 "lilac" ? _I_E_
+TDD-3815252 attempt 3 LILAC n Y n n n
+TDD1503218 #5 _____ ~ELS -ACFO  📋 "lilac" ? .
+TDD-1503240 attempt 4 LILAC m n m n n
+TDD167417 ? 
+TDD-167540 question done
+TDD775715 > *
+TDD-42868 questioning: ["style", "#5"]
+TDD3686112 #1 _LE_S -ACFILO  📋 "style" ? .
+TDD-4418734 attempt 0 STYLE n n n n n
+TDD1143610 #3 __E__ ~AO -CFILS  📋 "style" ? .
+TDD-1143618 attempt 2 STYLE n n n n n
+TDD4607542 #4 _I_E_ -ACEFLOS  📋 "style" ? _I_E_ ~ T
+TDD-4607555 attempt 3 STYLE n m n n n
+TDD1182708 #5 _____ ~ELS -ACFIO  📋 "style" ? /it
+TDD-1182663 attempt 4 STYLE Y Y Y Y Y
+TDD535277 ? 
+TDD-535521 question done
+TDD655720 > *
+TDD1028089 questioning: ["omega", "#3"]
+TDD2768888 #1 _LE_S -ACEFILOSTY  📋 "omega" ? .
+TDD-4452493 attempt 0 OMEGA n n Y n n
+TDD646515 #3 __E__ ~AO -CEFILSTY  📋 "omega" ? /it
+TDD-646524 attempt 2 OMEGA Y Y Y Y Y
+TDD4311467 #4 _I_E_ ~T -ACEFLOSY  📋 "omega" ? _I_E_ ~ TG
+TDD-4311457 attempt 3 OMEGA n n n m n
+TDD1039178 ? 
+TDD-1039314 question done
+TDD935978 > *
+TDD341292 questioning: ["tiger", "#4"]
+TDD2076615 #1 _LE_S -ACFGILMOSTY  📋 "tiger" ? .
+TDD-3353829 attempt 0 TIGER n n n n n
+TDD551423 #4 _I_E_ ~GT -ACEFLMOSY  📋 "tiger" ? /it
+TDD-551439 attempt 3 TIGER Y Y Y Y Y
+TDD143569 ? 
+TDD-143642 question done
+TDD527736 > *
+TDD2056489 try? 1
+TDD-2584106 questioning: ["plebs", "#1"]
+TDD2294741 #1 _LE_S -ACEFGILMORSTY  📋 "plebs" ? /it
+TDD-2294782 attempt 0 PLEBS Y Y Y Y Y
+TDD479712 ? 
+TDD-479775 question done
+TDD4768108 📋> squareword.org 1451: 7 guesses
+TDD-4768202 📋> 
+TDD-93 📋> 🟨🟩🟩🟨🟩
+TDD-5 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟩🟨🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 
+TDD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD1711225 📋> #squareword #squareword1451[C
+TDD-1110946 📋> ␚
+TDD-600159 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1451: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1451\u001b[C"}
+TDD361 result: "squareword.org 1451: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1451\u001b[C"
+TDD390667 📆 2026-01-21 ? 
