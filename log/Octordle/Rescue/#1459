@@ -1,0 +1,176 @@
+T98634.35530014698 now: 2026-01-22T11:53:32EST
+TD80 site: britannica.com/games/octordle/daily-rescue
+TDD-68 wordlist: nwl2023.txt
+TDD-7 num_words: 8
+TDD622895  ...
+TDD271275 > 
+TDD4315646 > 
+TDD1478406 > tried media groan cobra wrath
+TDD-6687957 questioning: MEDIA GROAN COBRA WRATH
+TDD2047451 Rescue #1 _____? nMnnM
+TDD-2047411 attempt: 0 MEDIA n m n n m
+TDD1311340 Rescue #1 _____ ~AE -DIM? nnnMn
+TDD-1311426 attempt: 0 GROAN n n n m n
+TDD1295667 Rescue #1 _____ ~AE -DGIMNOR? nnnnM
+TDD-1295663 attempt: 0 COBRA n n n n m
+TDD1559399 Rescue #1 _____ ~AE -BCDGIMNOR? MnYnn
+TDD-1559390 attempt: 0 WRATH m n Y n n
+TDD1591649 Rescue #2 _____? nnnMY
+TDD-1591581 attempt: 1 MEDIA n n n m Y
+TDD1191314 Rescue #2 ____A ~I -DEM? nnnMM
+TDD-1191381 attempt: 1 GROAN n n n m m
+TDD1311621 Rescue #2 ____A ~IN -DEGMOR? nnnnY
+TDD-1311549 attempt: 1 COBRA n n n n Y
+TDD1399406 Rescue #2 ____A ~IN -BCDEGMOR? nnMnn
+TDD-1399487 attempt: 1 WRATH n n m n n
+TDD1879462 Rescue #3 _____? nnnMn
+TDD-1879464 attempt: 2 MEDIA n n n m n
+TDD1295613 Rescue #3 _____ ~I -ADEM? nnnnM
+TDD-1295535 attempt: 2 GROAN n n n n m
+TDD2135428 Rescue #3 _____ ~IN -ADEGMOR? Mnnnn
+TDD-2135421 attempt: 2 COBRA m n n n n
+TDD1599404 Rescue #3 _____ ~CIN -ABDEGMOR? YnnnY
+TDD-1599513 attempt: 2 WRATH Y n n n Y
+TDD1503586 Rescue #4 _____? nMnnM
+TDD-1503480 attempt: 3 MEDIA n m n n m
+TDD1623824 Rescue #4 _____ ~AE -DIM? nnnYn
+TDD-1623822 attempt: 3 GROAN n n n Y n
+TDD1639077 Rescue #4 ___A_ ~E -DGIMNOR? YnnnM
+TDD-1639152 attempt: 3 COBRA Y n n n m
+TDD1391621 Rescue #4 C__A_ ~E -BDGIMNOR? nnMMM
+TDD-1391593 attempt: 3 WRATH n n m m m
+TDD3687337 Rescue #5 _____? nnnMn
+TDD-3687208 attempt: 4 MEDIA n n n m n
+TDD1679265 Rescue #5 _____ ~I -ADEM? nnMnY
+TDD-1679418 attempt: 4 GROAN n n m n Y
+TDD1743463 Rescue #5 ____N ~IO -ADEGMR? nMMnn
+TDD-1743473 attempt: 4 COBRA n m m n n
+TDD1839714 Rescue #5 ____N ~BIO -ACDEGMR? nnnnn
+TDD-1839628 attempt: 4 WRATH n n n n n
+TDD1455346 Rescue #6 _____? nnnnn
+TDD-1455448 attempt: 5 MEDIA n n n n n
+TDD2159550 Rescue #6 _____ -ADEIM? nMYnn
+TDD-2159517 attempt: 5 GROAN n m Y n n
+TDD2479441 Rescue #6 __O__ ~R -ADEGIMN? nMnYn
+TDD-2479358 attempt: 5 COBRA n m n Y n
+TDD2295882 Rescue #6 __OR_ -ABCDEGIMN? nMnMn
+TDD-2295907 attempt: 5 WRATH n m n m n
+TDD1583311 Rescue #7 _____? nMnMn
+TDD-1583310 attempt: 6 MEDIA n m n m n
+TDD1639070 Rescue #7 _____ ~EI -ADM? MnnnM
+TDD-1639060 attempt: 6 GROAN m n n n m
+TDD1167378 Rescue #7 _____ ~EGIN -ADMOR? nnnnn
+TDD-1167379 attempt: 6 COBRA n n n n n
+TDD1247327 Rescue #7 _____ ~EGIN -ABCDMOR? nnnnn
+TDD-1247404 attempt: 6 WRATH n n n n n
+TDD2423663 Rescue #8 _____? YnnnY
+TDD-2423633 attempt: 7 MEDIA Y n n n Y
+TDD2087470 Rescue #8 M___A -DEI? MnnMn
+TDD-2087474 attempt: 7 GROAN m n n m n
+TDD1511477 Rescue #8 M___A ~G -DEINOR? nnnnY
+TDD-1511438 attempt: 7 COBRA n n n n Y
+TDD1743337 Rescue #8 M___A ~G -BCDEINOR? nnMnn
+TDD-1743445 attempt: 7 WRATH n n m n n
+TDD1519644 > *
+TDD-1519443 questioning: winch
+TDD32495511 Rescue #1 __A__ ~EW -BCDGHIMNORT? Mnnnn
+TDD-32495584 attempt: 0 WINCH m n n n n
+TDD2287473 Rescue #2 ____A ~IN -BCDEGHMORTW? nYYnn
+TDD-2287532 attempt: 1 WINCH n Y Y n n
+TDD1503572 Rescue #3 W___H ~CIN -ABDEGMORT? YYYYY
+TDD-1503576 attempt: 2 WINCH Y Y Y Y Y
+TDD2023425 Rescue #4 C__A_ ~EHT -BDGIMNORW? nnnMM
+TDD-2023303 attempt: 3 WINCH n n n m m
+TDD5815321 Rescue #5 ____N ~BIO -ACDEGHMRTW? nYMnn
+TDD-5815380 attempt: 4 WINCH n Y m n n
+TDD1775336 Rescue #6 __OR_ ~T -ABCDEGHIMNW? nnnnn
+TDD-1775427 attempt: 5 WINCH n n n n n
+TDD2447743 Rescue #7 _____ ~EGIN -ABCDHMORTW? nMMnn
+TDD-2447644 attempt: 6 WINCH n m m n n
+TDD1143224 Rescue #8 M___A ~G -BCDEHINORTW? nnnnn
+TDD-1143249 attempt: 7 WINCH n n n n n
+TDD57703923 > *
+TDD-57703805 questioning: cheat
+T18.373113495996222 now: 2026-01-22T11:57:00EST
+TD110 questioning: cheat
+TDD387651 Rescue #1 __A__ ~EW -BCDGHIMNORT? 
+TDD4660761 Rescue #1 __A__ ~EW -BCDGHIMNORT? nnMMn
+TDD-5048067 attempt: 0 CHEAT n n m m n
+TDD1766675 Rescue #2 _IN_A -BCDEGHMORTW? nnnMn
+TDD-1766813 attempt: 1 CHEAT n n n m n
+TDD1431278 Rescue #4 C__A_ ~EHT -BDGIMNORW? YYYYY
+TDD-1431304 attempt: 3 CHEAT Y Y Y Y Y
+TDD3127662 Rescue #5 _I__N ~BO -ACDEGHMRTW? nnnnn
+TDD-3127724 attempt: 4 CHEAT n n n n n
+TDD2287379 Rescue #6 __OR_ ~T -ABCDEGHIMNW? nnnnM
+TDD-2287248 attempt: 5 CHEAT n n n n m
+TDD1287331 Rescue #7 _____ ~EGIN -ABCDHMORTW? nnMnn
+TDD-1287384 attempt: 6 CHEAT n n m n n
+TDD1327366 Rescue #8 M___A ~G -BCDEHINORTW? nnnMn
+TDD-1327361 attempt: 7 CHEAT n n n m n
+TDD2751825 > *8 
+TDD-1400500 > * 8
+TDD-1252981 questioning: magma
+TDD7146718 Rescue #1 __A__ ~EW -BCDGHIMNORT? nMnnM
+TDD-7245143 attempt: 0 MAGMA n m n n m
+TDD1359542 Rescue #2 _IN_A -BCDEGHMORTW? nnnnY
+TDD-1359544 attempt: 1 MAGMA n n n n Y
+TDD3055533 Rescue #5 _I__N ~BO -ACDEGHMRTW? nnnnn
+TDD-3055455 attempt: 4 MAGMA n n n n n
+TDD1087333 Rescue #6 __OR_ ~T -ABCDEGHIMNW? nnnnn
+TDD-1087325 attempt: 5 MAGMA n n n n n
+TDD1247552 Rescue #7 _____ ~EGIN -ABCDHMORTW? nnMnn
+TDD-1247648 attempt: 6 MAGMA n n m n n
+TDD1887523 Rescue #8 M___A ~G -BCDEHINORTW? YYYYY
+TDD-1887451 attempt: 7 MAGMA Y Y Y Y Y
+TDD3031550 > *
+TDD-3031421 questioning: bison
+TDD4334996 Rescue #1 __A__ ~EW -BCDGHIMNORT? nnnnn
+TDD-4335220 attempt: 0 BISON n n n n n
+TDD1839796 Rescue #2 _IN_A -BCDEGHMORTW? nYnnM
+TDD-1839767 attempt: 1 BISON n Y n n m
+TDD3103590 Rescue #5 _I__N ~BO -ACDEGHMRTW? YYYYY
+TDD-3103589 attempt: 4 BISON Y Y Y Y Y
+TDD1319500 Rescue #6 __OR_ ~T -ABCDEGHIMNW? nnMMn
+TDD-1319416 attempt: 5 BISON n n m m n
+TDD2223418 Rescue #7 _____ ~EGIN -ABCDHMORTW? nMnnM
+TDD-2223406 attempt: 6 BISON n m n n m
+TDD1535490 > *
+TDD-1535349 questioning: awake
+TDD5751102 Rescue #1 __A__ ~EW -BCDGHIMNORST? YYYYY
+TDD-5751346 attempt: 0 AWAKE Y Y Y Y Y
+TDD1687742 Rescue #2 _IN_A -BCDEGHMORSTW? Mnnnn
+TDD-1687659 attempt: 1 AWAKE m n n n n
+TDD2951064 Rescue #6 __OR_ ~ST -ABCDEGHIMNW? nnnMn
+TDD-2951097 attempt: 5 AWAKE n n n m n
+TDD2495550 Rescue #7 _____ ~EGIN -ABCDHMORSTW? nnnnM
+TDD-2495585 attempt: 6 AWAKE n n n n m
+TDD1559569 > *
+TDD-1559419 questioning: stork
+TDD5167443 Rescue #2 _IN_A -BCDEGHKMORSTW A:1? nnnnn
+TDD-5167600 attempt: 1 STORK n n n n n
+TDD3815522 Rescue #6 __OR_ ~KST -ABCDEGHIMNW? YYYYY
+TDD-3815451 attempt: 5 STORK Y Y Y Y Y
+TDD1607270 Rescue #7 _____ ~EGIN -ABCDHKMORSTW? nnnnn
+TDD-1607265 attempt: 6 STORK n n n n n
+TDD1535488 > *
+TDD2552163 ? 1
+TDD-4087738 questioning: eying
+TDD4159788 Rescue #2 _IN_A -BCDEGHKMORSTW A:1? nnMMn
+TDD-4159764 attempt: 1 EYING n n m m n
+TDD1767458 Rescue #7 _____ ~EGIN -ABCDHKMORSTW? YYYYY
+TDD-1767471 attempt: 6 EYING Y Y Y Y Y
+TDD1343478 > *
+TDD-1343332 questioning: ninja
+TDD4271533 Rescue #2 _IN_A -BCDEGHKMORSTWY A:1? YYYYY
+TDD-4271572 attempt: 1 NINJA Y Y Y Y Y
+TDD3671851 📋> Daily Rescue Octordle #1459
+TDD-3672042 📋> 9️⃣🕛
+TDD-128 📋> 5️⃣6️⃣
+TDD0 📋> 8️⃣🔟
+TDD-3 📋> 🕚7️⃣
+TDD287283 📋> Score: 9
+TDD-135299 📋> ␚
+TDD-151808 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1459\n9\ufe0f\u20e3\ud83d\udd5b\n5\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a7\ufe0f\u20e3\nScore: 9"}
+TDD901 result: "Daily Rescue Octordle #1459\n9\ufe0f\u20e3\ud83d\udd5b\n5\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a7\ufe0f\u20e3\nScore: 9"
+TDD149793 📆 2026-01-22 ? 
