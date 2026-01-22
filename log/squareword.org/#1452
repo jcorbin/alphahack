@@ -1,0 +1,115 @@
+T96439.28818404001 now: 2026-01-22T11:16:57EST
+TD105 site: squareword.org
+TDD-77 wordlist: nwl2023.txt
+TDD5966869  ...
+TDD-4054758 🧩  ? #1452
+TDD-1911869 puzzle_id: #1452
+TDD2735316 > *
+TDD-1807529 try? 1
+TDD-927791 questioning: ["least", "#5"]
+TDD4407592 #1 <IndexError>  📋 "least" ? _____ ~ ES
+TDD-4407071 attempt 0 LEAST n m n m n
+TDD2614824 #2 <IndexError>  📋 "least" ? _____ ~ A
+TDD-2615302 attempt 1 LEAST n n m n n
+TDD3096498 #3 <IndexError>  📋 "least" ? __A__ ~ EA
+TDD-3096447 attempt 2 LEAST n m Y n n
+TDD3886471 #4 <IndexError>  📋 "least" ? _____ ~ A
+TDD-3886493 attempt 3 LEAST n n m n n
+TDD2535172 #5 <IndexError>  📋 "least" ? ____T ~ LEA
+TDD-2535132 attempt 4 LEAST m m m n Y
+TDD295576 ? 
+TDD-295719 question done
+TDD583068 > *
+TDD4200445 try? 3
+TDD-4783418 questioning: ["alert", "#5"]
+TDD14759785 #1 _____ ~ES -ALT  📋 "alert" ? __E__ ~ S
+TDD-14759759 attempt 0 ALERT n n Y n n
+TDD2871324 #2 _____ ~A -ELST  📋 "alert" ? .
+TDD-2871341 attempt 1 ALERT m n n n n
+TDD3999230 #3 __A__ ~E -LST  📋 "alert" ? A_A__ ~ E
+TDD-3999211 attempt 2 ALERT Y n m n n
+TDD5471501 #4 _____ ~A -ELST  📋 "alert" ? _____ ~ AR
+TDD-5471516 attempt 3 ALERT m n n m n
+TDD3455338 #5 ____T ~AEL -S  📋 "alert" ? _LE_T ~ A
+TDD-3455321 attempt 4 ALERT m Y Y n Y
+TDD863190 ? 
+TDD-863376 question done
+TDD8903623 > *
+TDD-2375915 try? 2
+TDD-6527498 questioning: ["cleat", "#5"]
+TDD6407892 #1 __E__ ~S -ALRT  📋 "cleat" ? __E__ ~ SC
+TDD-6407905 attempt 0 CLEAT m n Y n n
+TDD2422593 #2 _____ ~A -ELRST  📋 "cleat" ? _____ ~ AC
+TDD-2422683 attempt 1 CLEAT m n n m n
+TDD4736149 #3 A_A__ ~E -LRST  📋 "cleat" ? A_A__ ~ EC
+TDD-4736053 attempt 2 CLEAT m n m n n
+TDD1134918 #4 _____ ~AR -ELST  📋 "cleat" ? .
+TDD-1134910 attempt 3 CLEAT n n n m n
+TDD2007389 #5 _LE_T ~A -RS  📋 "cleat" ? _LEAT
+TDD-2007521 attempt 4 CLEAT n Y Y Y Y
+TDD391787 ? 
+TDD-391809 question done
+TDD599292 > *
+TDD2053541 questioning: ["apace", "#3"]
+TDD4702028 #1 __E__ ~CS -ALRT  📋 "apace" ? _PEC_ ~ S
+TDD-7354742 attempt 0 APACE n Y n Y n
+TDD1167646 #2 _____ ~AC -ELRST  📋 "apace" ? .
+TDD-1167634 attempt 1 APACE m n m m n
+TDD774347 #3 A_A__ ~CE -ALRST  📋 "apace" ? /it
+TDD-774452 attempt 2 APACE Y Y Y Y Y
+TDD1183632 #4 _____ ~AR -CELST  📋 "apace" ? .
+TDD-1183592 attempt 3 APACE m n m n n
+TDD3639452 #5 _LEAT -CRS  📋 "apace" ? _LEAT ~ P
+TDD-3639414 attempt 4 APACE n m n n n
+TDD239729 ? 
+TDD-239855 question done
+TDD815587 > *
+TDD1384188 questioning: ["havoc", "#2"]
+TDD4335708 #1 _PEC_ ~S -AELRT  📋 "havoc" ? .
+TDD-6535325 attempt 0 HAVOC n n n n n
+TDD671470 #2 _____ ~AC -ELPRST  📋 "havoc" ? /it
+TDD-671527 attempt 1 HAVOC Y Y Y Y Y
+TDD17919346 #4 _____ ~AR -CELPST  📋 "havoc" ? _A_O_ ~ R
+TDD-17919394 attempt 3 HAVOC n Y n Y n
+TDD1248078 #5 _LEAT ~P -ACERS  📋 "havoc" ? .
+TDD-1247982 attempt 4 HAVOC n n n n n
+TDD166573 ? 
+TDD-166782 question done
+TDD776694 > *
+TDD1070047 questioning: ["specs", "#1"]
+TDD1073276 #1 _PEC_ ~S -ACEHLORTV  📋 "specs" ? /it
+TDD-2919884 attempt 0 SPECS Y Y Y Y Y
+TDD1903783 #4 _A_O_ ~R -CEHLPSTV  📋 "specs" ? .
+TDD-1903726 attempt 3 SPECS n n n n n
+TDD1207642 #5 _LEAT ~P -ACEHORSV  📋 "specs" ? .
+TDD-1207640 attempt 4 SPECS n m Y n n
+TDD902616 ? 
+TDD-902758 question done
+TDD1168161 > *
+TDD174112 questioning: ["radon", "#4"]
+TDD3098505 #4 _A_O_ ~R -CEHLPSTV  📋 "radon" ? /it
+TDD-4440628 attempt 3 RADON Y Y Y Y Y
+TDD1207391 #5 _LEAT ~P -ACHORSV  📋 "radon" ? .
+TDD-1207357 attempt 4 RADON n n n n n
+TDD263396 ? 
+TDD-263573 question done
+TDD487519 > *
+TDD477082 questioning: ["pleat", "#5"]
+TDD1254133 #5 _LEAT ~P -ACDHNORSV  📋 "pleat" ? /it
+TDD-2218602 attempt 4 PLEAT Y Y Y Y Y
+TDD487505 ? 
+TDD-487634 question done
+TDD6776412 📋> squareword.org 1452: 8 guesses
+TDD-6776513 📋> 
+TDD-100 📋> 🟨🟩🟩🟩🟨
+TDD-5 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟨🟩🟨🟩🟨
+TDD0 📋> 🟨🟩🟩🟩🟩
+TDD0 📋> 
+TDD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD703990 📋> #squareword #squareword1452
+TDD-520628 📋> ␚
+TDD-183198 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1452: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1452"}
+TDD1072 result: "squareword.org 1452: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1452"
+TDD196977 📆 2026-01-22 ? 
