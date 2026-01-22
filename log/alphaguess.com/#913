@@ -1,0 +1,46 @@
+T95610.66572648699 now: 2026-01-22T11:03:08EST
+TD127 site: alphaguess.com
+TDD180876 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof e66b40ae87c681d850b563106c9739c81dbb1bc2
+TDD45477  ...
+TDD17301234 [0 : 98220 : 196531] mach? a
+TDD-17527480 progress: 1 98220 mach
+TDD1279098 [98221 : 147373 : 196531] rhotic? a
+TDD-1279179 progress: 1 147373 rhotic
+TDD2527632 [147374 : 171643 : 196531] ta? a
+TDD-2527596 progress: 1 171643 ta
+TDD1407610 [171644 : 182008 : 196531] un? b
+TDD-1407641 progress: -1 182008 un
+TDD1272501 [171644 : 176814 : 182008] toil? a
+TDD-1272500 progress: 1 176814 toil
+TDD1302890 [176815 : 179409 : 182008] tricot? b
+TDD-1302860 progress: -1 179409 tricot
+TDD1871683 [176815 : 178110 : 179409] tragi? b
+TDD-1871682 progress: -1 178110 tragi
+TDD1311436 [176815 : 177367 : 178110] tor? b
+TDD-1311476 progress: -1 177367 tor
+TDD1191821 [176815 : 177041 : 177367] ton? b
+TDD-1191780 progress: -1 177041 ton
+TDD1279655 [176815 : 176908 : 177041] toll? b
+TDD-1279647 progress: -1 176908 toll
+TDD1279764 [176815 : 176861 : 176908] tokomak? b
+TDD-1279807 progress: -1 176861 tokomak
+TDD1207518 [176815 : 176838 : 176861] toit? b
+TDD-1207520 progress: -1 176838 toit
+TDD1511773 [176815 : 176820 : 176838] toilet? it
+TDD-1511728 progress: 0 176820 toilet
+TDD-172 [176815 : 176820 : 176838] <Done>.
+TDD2640317 📋> 🧩 Puzzle #913
+TDD-2640238 📋> 
+TDD-96 📋> 🤔 13 guesses
+TDD-3 📋> 
+TDD2 📋> ⏱️ 17s
+TDD-3 📋> 
+TDD271443 📋> 🔗 alphaguess.com
+TDD-71629 📋> ␚
+TDD-199664 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #913\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 17s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-57 result: "\ud83e\udde9 Puzzle #913\n\n\ud83e\udd14 13 guesses\n\n\u23f1\ufe0f 17s\n\n\ud83d\udd17 alphaguess.com"
+TDD-84 result puzzle: 913
+TDD-7 result guesses: 13
+TDD-1 result time: 17s
+TDD0 result link: alphaguess.com
+TDD175679 📆 2026-01-22 ? 
