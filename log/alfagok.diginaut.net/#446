@@ -1,0 +1,53 @@
+T95493.64013220799 now: 2026-01-22T11:01:11EST
+TD83 site: alfagok.diginaut.net
+TDD486535 loaded 399682 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1170 words excluded) asof e66b40ae87c681d850b563106c9739c81dbb1bc2
+TDD-486484  ...
+TDD7104695 [0 : 199833 : 399682] lijm? b
+TDD-7104372 progress: -1 199833 lijm
+TDD3231343 [0 : 99758 : 199833] ex? b
+TDD-3231583 progress: -1 99758 ex
+TDD2831531 [0 : 49849 : 99758] boks? a
+TDD-2831549 progress: 1 49849 boks
+TDD5575324 [49850 : 74762 : 99758] dc? a
+TDD-5575324 progress: 1 74762 dc
+TDD1400169 [74763 : 87223 : 99758] draag? a
+TDD-1400202 progress: 1 87223 draag
+TDD1343556 [87224 : 93451 : 99758] eet? a
+TDD-1343567 progress: 1 93451 eet
+TDD1783644 [93452 : 96590 : 99758] energiek? b
+TDD-1783608 progress: -1 96590 energiek
+TDD1775543 [93452 : 94980 : 96590] eiwit? b
+TDD-1775382 progress: -1 94980 eiwit
+TDD1710981 [93452 : 94052 : 94980] eigen? a
+TDD-1711138 progress: 1 94052 eigen
+TDD2496053 [94053 : 94497 : 94980] einde? a
+TDD-2496051 progress: 1 94497 einde
+TDD1703419 [94498 : 94739 : 94980] eindresultaat? b
+TDD-1703440 progress: -1 94739 eindresultaat
+TDD1591884 [94498 : 94618 : 94739] eindkandidaten? b
+TDD-1591839 progress: -1 94618 eindkandidaten
+TDD1631245 [94498 : 94533 : 94618] eindexamen? b
+TDD-1631240 progress: -1 94533 eindexamen
+TDD1591431 [94498 : 94513 : 94533] eindeloopbaan? b
+TDD-1591438 progress: -1 94513 eindeloopbaan
+TDD1448242 [94498 : 94505 : 94513] eindejaarsmarge? a
+TDD-1448237 progress: 1 94505 eindejaarsmarge
+TDD1415223 [94506 : 94509 : 94513] eindejaarsrally? a
+TDD-1415260 progress: 1 94509 eindejaarsrally
+TDD4375351 [94510 : 94511 : 94513] eindejaarsuitkering? a
+TDD-4375333 progress: 1 94511 eindejaarsuitkering
+TDD2207787 [94512 : 94512 : 94513] eindelijk? it
+TDD-2207798 progress: 0 94512 eindelijk
+TDD-167 [94512 : 94512 : 94513] <Done>.
+TDD2447942 📋> 🧩 Puzzel #446
+TDD-2447837 📋> 🤔 18 gokken
+TDD-109 📋> ⏱️ 38s
+TDD311548 📋> 🔗 alfagok.diginaut.net
+TDD-119607 📋> ␚
+TDD-191829 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #446\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 38s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD252 result: "\ud83e\udde9 Puzzel #446\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 38s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-374 result puzzle: 446
+TDD-6 result guesses: 18
+TDD-2 result time: 38s
+TDD0 result link: alfagok.diginaut.net
+TDD183645 📆 2026-01-22 ? 
