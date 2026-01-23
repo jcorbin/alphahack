@@ -1,0 +1,185 @@
+T41972.156097909996 now: 2026-01-23T08:23:02EST
+TD90 site: britannica.com/games/octordle/daily
+TDD-75 wordlist: nwl2023.txt
+TDD-10 num_words: 8
+TDD750543  ...
+TDD20417138 > *
+TDD-20183053 ? 1
+TDD-984427 questioning: laser
+TDD3199184 Classic #1 _____? nMMnM
+TDD-3199093 attempt: 0 LASER n m m n m
+TDD1503550 Classic #2 _____? nnnYM
+TDD-1503639 attempt: 1 LASER n n n Y m
+TDD5679531 Classic #3 _____? nYYMn
+TDD-5679419 attempt: 2 LASER n Y Y m n
+TDD1359620 Classic #4 _____? nnMMM
+TDD-1359626 attempt: 3 LASER n n m m m
+TDD3559383 Classic #5 _____? nMnnM
+TDD-3559465 attempt: 4 LASER n m n n m
+TDD1791305 Classic #6 _____? nYnYY
+TDD-1791351 attempt: 5 LASER n Y n Y Y
+TDD1335608 Classic #7 _____? nnnMM
+TDD-1335495 attempt: 6 LASER n n n m m
+TDD1848059 Classic #8 _____? nnYMn
+TDD-1847394 attempt: 7 LASER n n Y m n
+TDD2157528 > *
+TDD-94448 ? 2
+TDD-2063832 questioning: route
+TDD4847693 Classic #1 _____ ~ARS -EL? Mnnnn
+TDD-4847589 attempt: 0 ROUTE m n n n n
+TDD1583375 Classic #2 ___E_ ~R -ALS? YnnnM
+TDD-1583371 attempt: 1 ROUTE Y n n n m
+TDD1687738 Classic #3 _AS__ ~E -LR? nnnYY
+TDD-1687721 attempt: 2 ROUTE n n n Y Y
+TDD1503591 Classic #4 _____ ~ERS -AL? MnnnY
+TDD-1503577 attempt: 3 ROUTE m n n n Y
+TDD3374946 Classic #5 _____ ~AR -ELS? Mnnnn
+TDD-3375012 attempt: 4 ROUTE m n n n n
+TDD1631547 Classic #6 _A_ER -LS? MnnMM
+TDD-1631517 attempt: 5 ROUTE m n n m m
+TDD1687041 Classic #7 _____ ~ER -ALS? MnnnM
+TDD-1687066 attempt: 6 ROUTE m n n n m
+TDD1431869 Classic #8 __S__ ~E -ALR? nnnnM
+TDD-1431848 attempt: 7 ROUTE n n n n m
+TDD1735487 > *
+TDD-111889 ? 1
+TDD-1623681 questioning: crags
+TDD4839124 Classic #1 _____ ~ARS -ELOTU? nMMnM
+TDD-4839159 attempt: 0 CRAGS n m m n m
+TDD1207743 Classic #2 R__E_ -ALOSTU? nMnnn
+TDD-1207604 attempt: 1 CRAGS n m n n n
+TDD1999413 Classic #3 _ASTE -LORU? YnMnM
+TDD-1999518 attempt: 2 CRAGS Y n m n m
+TDD1415516 Classic #4 ____E ~RS -ALOTU? nMnnM
+TDD-1415508 attempt: 3 CRAGS n m n n m
+TDD2975822 Classic #5 _____ ~AR -ELOSTU? nYYnn
+TDD-2975598 attempt: 4 CRAGS n Y Y n n
+TDD1295174 Classic #6 _A_ER ~T -LOSU? nMMnn
+TDD-1295394 attempt: 5 CRAGS n m m n n
+TDD1647245 Classic #7 _____ ~ER -ALOSTU? nMnnn
+TDD-1647213 attempt: 6 CRAGS n m n n n
+TDD1543776 Classic #8 __S__ ~E -ALORTU? nnnnM
+TDD-1543801 attempt: 7 CRAGS n n n n m
+TDD5176019 > * 7
+TDD-3488881 ? 2
+TDD-1687117 questioning: weird
+T1.4799900180005352 now: 2026-01-23T08:25:16EST
+TD116 questioning: weird
+TDD4156797 Classic #1 _____ ~ARS -CEGLOTU? nnnMn
+TDD-4156510 attempt: 0 WEIRD n n n m n
+TDD3606232 Classic #2 R__E_ -ACGLOSTU? MYnMn
+TDD-3606404 attempt: 1 WEIRD m Y n m n
+T5.488856083000428 now: 2026-01-23T08:25:35EST
+TD83 questioning: weird
+TDD11388028 Classic #4 ____E ~RS -ACGLOTU? nMYYn
+TDD-11387502 attempt: 3 WEIRD n m Y Y n
+TDD3239285 Classic #5 _RA__ -CEGLOSTU? nnnMM
+TDD-3239655 attempt: 4 WEIRD n n n m m
+TDD3222953 Classic #6 _A_ER ~T -CGLOSU? YMnMn
+TDD-3222916 attempt: 5 WEIRD Y m n m n
+TDD1543453 Classic #7 _____ ~ER -ACGLOSTU? nYnYn
+TDD-1543452 attempt: 6 WEIRD n Y n Y n
+TDD1343330 Classic #8 __S__ ~E -ACGLORTU? nYnnn
+TDD-1343382 attempt: 7 WEIRD n Y n n n
+TDD7487751 > tried caste
+TDD-7487570 questioning: CASTE
+TDD2439716 Classic #1 _____ ~ARS -CDEGILOTUW? nMMnn
+TDD-2437158 attempt: 0 CASTE n m m n n
+TDD2106336 Classic #2 RE_E_ ~W -ACDGILOSTU? nnnnM
+TDD-2108986 attempt: 1 CASTE n n n n m
+TDD2855661 Classic #4 __IRE ~S -ACDGLOTUW? nnMnY
+TDD-2855726 attempt: 3 CASTE n n m n Y
+TDD4079694 Classic #5 _RA__ ~D -CEGILOSTUW? nMnnn
+TDD-4079640 attempt: 4 CASTE n m n n n
+TDD1638435 Classic #6 WA_ER ~T -CDGILOSU? nYnMM
+TDD-1638520 attempt: 5 CASTE n Y n m m
+TDD1143879 Classic #7 _E_R_ -ACDGILOSTUW? nnnnM
+TDD-1143780 attempt: 6 CASTE n n n n m
+TDD2791329 Classic #8 _ES__ -ACDGILORTUW? nnYnM
+TDD-2791341 attempt: 7 CASTE n n Y n m
+TDD3951452 > *
+TDD-3950811 questioning: spray
+TDD3854100 Classic #1 _____ ~ARS -CDEGILOTUW? YYYYY
+TDD-3854819 attempt: 0 SPRAY Y Y Y Y Y
+TDD1399738 Classic #2 RE_E_ ~W -ACDGILOSTU? nnMnn
+TDD-1399629 attempt: 1 SPRAY n n m n n
+TDD2166876 Classic #4 __IRE ~S -ACDGLOTUW? YYMnn
+TDD-2166916 attempt: 3 SPRAY Y Y m n n
+TDD5416082 Classic #5 _RA__ ~D -CEGILOSTUW? nnMMn
+TDD-5416016 attempt: 4 SPRAY n n m m n
+TDD2447336 Classic #6 WA_ER ~T -CDGILOSU? nnMMn
+TDD-2447315 attempt: 5 SPRAY n n m m n
+TDD4118937 Classic #7 _E_R_ -ACDGILOSTUW? nnYnY
+TDD-4119105 attempt: 6 SPRAY n n Y n Y
+TDD2183173 Classic #8 _ES__ -ACDGILORTUW? MMnnY'
+TDD-2183076 attempt: 7 SPRAY m m n n Y
+T1.0134022670026752 now: 2026-01-23T08:27:51EST
+TD78 questioning: spray
+TDD14819528 > tried spire
+TDD-14819016 questioning: SPIRE
+TDD2063084 Classic #2 RE_E_ ~W -ACDGILOPSTUY? nnnMM
+TDD-2063167 attempt: 1 SPIRE n n n m m
+TDD3839000 Classic #5 _RA__ ~D -CEGILOPSTUWY? nnnMn
+TDD-3839190 attempt: 4 SPIRE n n n m n
+TDD1214712 Classic #6 WA_ER ~T -CDGILOPSUY? nnnMM
+TDD-1214803 attempt: 5 SPIRE n n n m m
+TDD3119796 Classic #7 _ERRY -ACDGILOPSTUW? nnnYM
+TDD-3119712 attempt: 6 SPIRE n n n Y m
+TDD1599196 Classic #8 _ES_Y ~P -ACDGILORTUW? MMnnM
+TDD-1599289 attempt: 7 SPIRE m m n n m
+TDD2495792 > *
+TDD-2495436 questioning: renew
+TDD8287241 Classic #2 RE_E_ ~W -ACDGILOPSTUY? YYYYY
+TDD-8287514 attempt: 1 RENEW Y Y Y Y Y
+TDD2967923 Classic #5 _RA__ ~D -CEGILOPSTUWY? MnMnn
+TDD-2967977 attempt: 4 RENEW m n m n n
+TDD2086989 Classic #6 WA_ER ~T -CDGILOPSUY? MnnYM
+TDD-2086912 attempt: 5 RENEW m n n Y m
+TDD3199920 Classic #7 _ERRY -ACDGILOPSTUW? MYnnn
+TDD-3199931 attempt: 6 RENEW m Y n n n
+TDD2159460 Classic #8 _ES_Y ~P -ACDGILORTUW? nYnnn
+TDD-2159464 attempt: 7 RENEW n Y n n n
+TDD1142778 > *
+TDD-1142666 questioning: drank
+TDD4087185 Classic #5 _RA__ ~DN -CEGILOPSTUWY? YYYYY
+TDD-4087346 attempt: 4 DRANK Y Y Y Y Y
+TDD1735434 Classic #6 WA_ER ~T -CDGILNOPSUY? nMMnn
+TDD-1735464 attempt: 5 DRANK n m m n n
+TDD1175864 Classic #7 _ERRY -ACDGILNOPSTUW? nMnnn
+TDD-1175859 attempt: 6 DRANK n m n n n
+TDD1502921 Classic #8 _ES_Y ~P -ACDGILNORTUW? nnnnM
+TDD-1502884 attempt: 7 DRANK n n n n m
+TDD1007632 > *
+TDD-1007385 questioning: water
+TDD2959266 Classic #6 WA_ER ~T -CDGIKLNOPSUY? YYYYY
+TDD-2959486 attempt: 5 WATER Y Y Y Y Y
+TDD1783797 Classic #7 _ERRY -ACDGIKLNOPSTUW? nnnMM
+TDD-1783688 attempt: 6 WATER n n n m m
+TDD1191186 Classic #8 _ES_Y ~KP -ACDGILNORTUW? nnnMn
+TDD-1191282 attempt: 7 WATER n n n m n
+TDD967054 > *
+TDD-966874 questioning: pesky
+TDD5287857 Classic #7 _ERRY -ACDGIKLNOPSTUW? nYnnY
+TDD-5288025 attempt: 6 PESKY n Y n n Y
+TDD1342517 Classic #8 _ES_Y ~KP -ACDGILNORTUW? YYYYY
+TDD-1342551 attempt: 7 PESKY Y Y Y Y Y
+TDD903482 > *
+TDD5152338 ? 1
+TDD-6055885 questioning: berry
+TDD3704152 Classic #7 _ERRY -ACDGIKLNOPSTUW? nYYYY
+TDD-3704070 attempt: 6 BERRY n Y Y Y Y
+TDD878462 > *
+TDD569956 ? 4
+TDD-1448492 questioning: merry
+TDD4526793 Classic #7 _ERRY -ABCDGIKLNOPSTUW? YYYYY
+TDD-4526831 attempt: 6 MERRY Y Y Y Y Y
+TDD2833171 📋> Daily Octordle #1460
+TDD-2833245 📋> 6️⃣8️⃣
+TDD-108 📋> 5️⃣7️⃣
+TDD-2 📋> 9️⃣🔟
+TDD-1 📋> 🕐🕚
+TDD279550 📋> Score: 69
+TDD-111868 📋> ␚
+TDD-167545 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1460\n6\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd50\ud83d\udd5a\nScore: 69"}
+TDD1195 result: "Daily Octordle #1460\n6\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd50\ud83d\udd5a\nScore: 69"
+TDD180894 📆 2026-01-23 ? 
