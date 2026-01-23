@@ -1,0 +1,48 @@
+T41436.228379101995 now: 2026-01-23T08:14:06EST
+TD131 site: alphaguess.com
+TDD145556 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof adabf9fa2c3f0609cab1a9353bd557b7ba5cae66
+TDD131581  ...
+TDD22692612 [0 : 98220 : 196531] mach? b
+TDD-22969670 progress: -1 98220 mach
+TDD1582641 [0 : 47382 : 98220] dis? b
+TDD-1582607 progress: -1 47382 dis
+TDD3510805 [0 : 23683 : 47382] camp? b
+TDD-3510858 progress: -1 23683 camp
+TDD1527506 [0 : 11764 : 23683] back? a
+TDD-1527541 progress: 1 11764 back
+TDD1639695 [11765 : 17715 : 23683] blind? b
+TDD-1639644 progress: -1 17715 blind
+TDD1463654 [11765 : 13802 : 17715] be? a
+TDD-1463671 progress: 1 13802 be
+TDD1375547 [13803 : 15758 : 17715] bewrap? b
+TDD-1375540 progress: -1 15758 bewrap
+TDD1327702 [13803 : 14779 : 15758] bel? a
+TDD-1327704 progress: 1 14779 bel
+TDD1351694 [14780 : 15268 : 15758] berascal? a
+TDD-1351690 progress: 1 15268 berascal
+TDD1559671 [15269 : 15378 : 15758] bes? b
+TDD-1559677 progress: -1 15378 bes
+TDD1367502 [15269 : 15323 : 15378] beriberis? a
+TDD-1367500 progress: 1 15323 beriberis
+TDD1272025 [15324 : 15351 : 15378] berrettas? a
+TDD-1272022 progress: 1 15351 berrettas
+TDD1423217 [15352 : 15361 : 15378] berserk? b
+TDD-1423216 progress: -1 15361 berserk
+TDD1567638 [15352 : 15354 : 15361] berry? it
+TDD-1567642 progress: 0 15354 berry
+TDD-166 [15352 : 15354 : 15361] <Done>.
+TDD2336122 📋> 🧩 Puzzle #914
+TDD-2336007 📋> 
+TDD-127 📋> 🤔 14 guesses
+TDD-3 📋> 
+TDD0 📋> ⏱️ 21s
+TDD-2 📋> 
+TDD287481 📋> 🔗 alphaguess.com
+TDD-103406 📋> ␚
+TDD-183921 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #914\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-52 result: "\ud83e\udde9 Puzzle #914\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 21s\n\n\ud83d\udd17 alphaguess.com"
+TDD-97 result puzzle: 914
+TDD-8 result guesses: 14
+TDD-1 result time: 21s
+TDD0 result link: alphaguess.com
+TDD352081 📆 2026-01-23 ? 
