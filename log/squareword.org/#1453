@@ -1,0 +1,101 @@
+T102.37095008799952 now: 2026-01-23T08:29:32EST
+TD118 site: squareword.org
+TDD-91 wordlist: nwl2023.txt
+TDD3822478  ...
+TDD-1766470 🧩  ? #1453
+TDD-2055670 puzzle_id: #1453
+TDD2343338 > *
+TDD-695650 try? 1
+TDD-1647602 questioning: ["serai", "#5"]
+TDD5919666 #1 <IndexError>  📋 "serai" ? S____ ~ EA
+TDD-5919378 attempt 0 SERAI Y m n m n
+TDD2358298 #2 <IndexError>  📋 "serai" ? _____ ~ ERA
+TDD-2358661 attempt 1 SERAI n m m m n
+TDD2216014 #3 <IndexError>  📋 "serai" ? ___A_ ~ I
+TDD-2216060 attempt 2 SERAI n n n Y m
+TDD3134984 #4 <IndexError>  📋 "serai" ? _E___ ~ SA
+TDD-3134975 attempt 3 SERAI m Y n m n
+TDD2470857 #5 <IndexError>  📋 "serai" ? _____ ~ SER
+TDD-2470846 attempt 4 SERAI m m m n n
+TDD839971 ? 
+TDD-840139 question done
+TDD7615681 > *
+TDD-5984724 try? 1
+TDD-1630677 questioning: ["vinal", "#3"]
+TDD3720196 #1 S____ ~AE -IR  📋 "vinal" ? .
+TDD-3720263 attempt 0 VINAL n n n m n
+TDD1055237 #2 _____ ~AER -IS  📋 "vinal" ? .
+TDD-1055248 attempt 1 VINAL n n n m n
+TDD2982577 #3 ___A_ ~I -ERS  📋 "vinal" ? _I_A_ ~ N
+TDD-2982613 attempt 2 VINAL n Y m Y n
+TDD1599547 #4 _E___ ~AS -IR  📋 "vinal" ? .
+TDD-1599524 attempt 3 VINAL n n n m n
+TDD2639404 #5 _____ ~ERS -AI  📋 "vinal" ? _____ ~ SERL
+TDD-2639434 attempt 4 VINAL n n n n m
+TDD383384 ? 
+TDD-383505 question done
+TDD7495728 > *
+TDD-5487858 try? 1
+TDD-2007720 questioning: ["rules", "#5"]
+TDD5894546 #1 S____ ~AE -ILNRV  📋 "rules" ? S__E_ ~ A
+TDD-5894574 attempt 0 RULES n n n Y n
+TDD1231391 #2 _____ ~AER -ILNSV  📋 "rules" ? .
+TDD-1231463 attempt 1 RULES m n n m n
+TDD2727387 #3 _I_A_ ~N -ELRSV  📋 "rules" ? .
+TDD-2727395 attempt 2 RULES n n n n n
+TDD3152285 #4 _E___ ~AS -ILNRV  📋 "rules" ? .
+TDD-3152145 attempt 3 RULES n n n n m
+TDD775006 #5 _____ ~ELRS -AINV  📋 "rules" ? /it
+TDD-775048 attempt 4 RULES Y Y Y Y Y
+TDD287027 ? 
+TDD-287245 question done
+TDD575710 > *
+TDD161929 questioning: ["adore", "#2"]
+TDD5372423 #1 S__E_ ~A -ILNRSUV  📋 "adore" ? S__E_ ~ AD
+TDD-6109843 attempt 0 ADORE m m n n n
+TDD1063123 #2 _____ ~AER -ILNSUV  📋 "adore" ? /it
+TDD-1063220 attempt 1 ADORE Y Y Y Y Y
+TDD1247479 #3 _I_A_ ~N -ELRSUV  📋 "adore" ? .
+TDD-1247404 attempt 2 ADORE n n n n n
+TDD911442 #4 _E___ ~AS -EILNRUV  📋 "adore" ? .
+TDD-911524 attempt 3 ADORE m n n n n
+TDD175259 ? 
+TDD-175373 question done
+TDD431971 > *
+TDD1218465 questioning: ["yeast", "#4"]
+TDD5979174 #1 S__E_ ~AD -EILNORSUV  📋 "yeast" ? S__E_ ~ ADT
+TDD-7629384 attempt 0 YEAST n n m n m
+TDD3607535 #3 _I_A_ ~N -ADELORSUV  📋 "yeast" ? _I_A_ ~ NT
+TDD-3607552 attempt 2 YEAST n n n n m
+TDD687594 #4 _E___ ~AS -DEILNORUV  📋 "yeast" ? /it
+TDD-687605 attempt 3 YEAST Y Y Y Y Y
+TDD167565 ? 
+TDD-167521 question done
+TDD678599 > *
+TDD566819 questioning: ["sated", "#1"]
+TDD1428454 #1 S__E_ ~ADT -EILNORSUVY  📋 "sated" ? /it
+TDD-2673820 attempt 0 SATED Y Y Y Y Y
+TDD2519338 #3 _I_A_ ~NT -ADELORSUVY  📋 "sated" ? _ITA_ ~ NT
+TDD-2519443 attempt 2 SATED n n Y n n
+TDD351413 ? 
+TDD-351550 question done
+TDD615144 > *
+TDD259102 questioning: ["titan", "#3"]
+TDD2458870 #3 _ITA_ ~N -ADELORSUVY  📋 "titan" ? /it
+TDD-3333061 attempt 2 TITAN Y Y Y Y Y
+TDD423954 ? 
+TDD-424006 question done
+TDD6104323 📋> squareword.org 1453: 7 guesses
+TDD-6104366 📋> 
+TDD-139 📋> 🟩🟨🟨🟩🟨
+TDD-9 📋> 🟩🟩🟩🟩🟩
+TDD-1 📋> 🟨🟩🟨🟩🟨
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> 
+TDD1 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD735361 📋> #squareword #squareword1453
+TDD-415901 📋> ␚
+TDD-319304 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1453: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1453"}
+TDD524 result: "squareword.org 1453: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1453"
+TDD430428 📆 2026-01-23 ? 
