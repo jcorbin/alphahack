@@ -1,0 +1,59 @@
+T41525.285639718 now: 2026-01-23T08:15:35EST
+TD84 site: dontwordle.com
+TDD-69 wordlist: nwl2023.txt
+TDD198978  ...
+TDD3761625 1> 
+TDD-1375993 1> * -bot 10
+TDD-1425104 ? 1
+TDD3296307 📋 "laser" ? MMMnn
+TDD-4455152 tried: LASER m m m n n
+TDD702473 2> undo
+TDD-702905 undo
+TDD13887807 1> * :v [er] -bot 10
+TDD-10144638 ? 1
+TDD1185754 📋 "doing" ? nnnnn
+TDD-4928842 tried: DOING n n n n n
+TDD3678814 2> undo
+TDD-3678881 undo
+TDD7944156 1> * :v [erdoing] -bot 10
+TDD-6952579 ? 1
+TDD6728233 📋 "umpty" ? nnMnn
+TDD-7719773 tried: UMPTY n n m n n
+TDD767032 2> undo
+TDD-767079 undo
+TDD13919963 1> * :v [erdoingumty] -bot 10
+TDD-12936177 1> *
+TDD-279847 ? 1
+TDD3000092 📋 "verve" ? nnnnn
+TDD-3703979 tried: VERVE n n n n n
+TDD550865 2> *
+TDD137590 ? 1
+TDD3615430 📋 "onion" ? nnnnn
+TDD-4303894 tried: ONION n n n n n
+TDD366816 3> *
+TDD407995 ? 1
+TDD3313957 📋 "yukky" ? nnnnn
+TDD-4088763 tried: YUKKY n n n n n
+TDD5992249 4> *
+TDD-545897 📋 "phpht" ? Mnnnn
+TDD-5446325 tried: PHPHT m n n n n
+TDD592420 5> *
+TDD5110622 📋 "abamp" ? nnYnY
+TDD-5703047 tried: ABAMP n n Y n Y
+TDD2791896 6> *
+TDD-1408555 ? 1
+TDD4151979 📋 "scalp" ? YYYYY
+TDD-5535342 tried: SCALP Y Y Y Y Y
+TDD2895671 📋> Don't Wordle 1340 - WORDLED
+TDD-2895832 📋> I must admit that I Wordled!
+TDD-112 📋> ⬜⬜⬜⬜⬜5059
+TDD-5 📋> ⬜⬜⬜⬜⬜1356
+TDD-5 📋> ⬜⬜⬜⬜⬜418
+TDD0 📋> 🟨⬜⬜⬜⬜38
+TDD0 📋> ⬜⬜🟩⬜🟩2
+TDD-1 📋> 🟩🟩🟩🟩🟩0
+TDD439541 📋> Undos used: 3
+TDD320890 📋> ␚
+TDD-760272 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1340 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5059\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1356\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c418\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c38\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe92\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 3"}
+TDD867 result: "Don't Wordle 1340 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5059\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1356\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c418\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c38\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe92\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 3"
+TDD3061771 📆 2026-01-23 ? 
