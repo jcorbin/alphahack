@@ -626,7 +626,7 @@ class Search(StoredLog):
     default_chat_model: str = environ.get('OLLAMA_MODEL', 'llama')
     default_system_prompt: str = ' '.join([
         'You are a related word suggestion oracle.',
-        'Give your responses as simple numbered lists of words related to the ones given by the user.'
+        'Give your responses as a simple numbered list of words, one per line.',
     ])
 
     pub_at = datetime.time(hour=0)
