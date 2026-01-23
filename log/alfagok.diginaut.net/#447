@@ -1,0 +1,45 @@
+T41235.514289832994 now: 2026-01-23T08:10:46EST
+TD135 site: alfagok.diginaut.net
+TDD417510 loaded 399681 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1171 words excluded) asof adabf9fa2c3f0609cab1a9353bd557b7ba5cae66
+TDD2562722  ...
+TDD820286 [0 : 199833 : 399681] lijm? a
+TDD-3800308 progress: 1 199833 lijm
+TDD3887044 [199834 : 299738 : 399681] schub? a
+TDD-3887177 progress: 1 299738 schub
+TDD2023755 [299739 : 349515 : 399681] vakantie? b
+TDD-2023774 progress: -1 349515 vakantie
+TDD1583944 [299739 : 324308 : 349515] sub? a
+TDD-1583978 progress: 1 324308 sub
+TDD3238934 [324309 : 336908 : 349515] toetsing? b
+TDD-3238899 progress: -1 336908 toetsing
+TDD2712230 [324309 : 330491 : 336908] televisie? a
+TDD-2712261 progress: 1 330491 televisie
+TDD1550913 [330492 : 333696 : 336908] these? b
+TDD-1550920 progress: -1 333696 these
+TDD1672447 [330492 : 331886 : 333696] terug? a
+TDD-1672415 progress: 1 331886 terug
+TDD3031820 [331887 : 332628 : 333696] test? a
+TDD-3031828 progress: 1 332628 test
+TDD1567572 [332629 : 333136 : 333696] theater? a
+TDD-1567547 progress: 1 333136 theater
+TDD2063655 [333137 : 333416 : 333696] thekla? !
+TDD360014 [333137 : 333416 : 333695] thelen? !
+TDD-504017 [333137 : 333416 : 333694] thelma? !
+TDD2128282 [333137 : 333416 : 333693] theloosen? !
+TDD-1552609 [333137 : 333417 : 333692] thema? a
+TDD-2495341 progress: 1 333417 thema
+TDD4072488 [333418 : 333549 : 333692] theorie? it
+TDD-4072486 progress: 0 333549 theorie
+TDD-162 [333418 : 333549 : 333692] <Done>.
+TDD4000186 📋> 🧩 Puzzel #447
+TDD-4000074 📋> 🤔 12 gokken
+TDD-122 📋> ⏱️ 36s
+TDD375927 📋> 🔗 alfagok.diginaut.net
+TDD-886 📋> ␚
+TDD-374884 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #447\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 36s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD424 result: "\ud83e\udde9 Puzzel #447\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 36s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-580 result puzzle: 447
+TDD-10 result guesses: 12
+TDD-2 result time: 36s
+TDD0 result link: alfagok.diginaut.net
+TDD359608 📆 2026-01-23 ? 
