@@ -1,0 +1,76 @@
+T41899.314497770996 now: 2026-01-23T08:21:49EST
+TD88 site: m-w.com/games/quordle/#/
+TDD-74 wordlist: nwl2023.txt
+TDD-10 num_words: 4
+TDD382701  ...
+TDD1001244 > *
+TDD3416160 ? 1
+TDD-4799906 questioning: eyras
+TDD3311637 Classic #1 _____? MnMnn
+TDD-3311563 attempt: 0 EYRAS m n m n n
+TDD1143437 Classic #2 _____? nnMMn
+TDD-1143505 attempt: 1 EYRAS n n m m n
+TDD1903637 Classic #3 _____? Mnnnn
+TDD-1903655 attempt: 2 EYRAS m n n n n
+TDD1455696 Classic #4 _____? nnMMn
+TDD-1455582 attempt: 3 EYRAS n n m m n
+TDD1191342 > *
+TDD-159701 ? 1
+TDD-1031728 questioning: wield
+TDD3343716 Classic #1 _____ ~ER -ASY? YnYnn
+TDD-3343726 attempt: 0 WIELD Y n Y n n
+TDD1199644 Classic #2 _____ ~AR -ESY? nnnnY
+TDD-1199550 attempt: 1 WIELD n n n n Y
+TDD1383392 Classic #3 _____ ~E -ARSY? nMMMn
+TDD-1383471 attempt: 2 WIELD n m m m n
+TDD1063414 Classic #4 _____ ~AR -ESY? nnnnn
+TDD-1063338 attempt: 3 WIELD n n n n n
+TDD3335389 > * 4
+TDD-2175489 ? 1
+TDD-1159999 questioning: boart
+TDD3439592 Classic #1 W_E__ ~R -ADILSY? nnnMn
+TDD-3439477 attempt: 0 BOART n n n m n
+TDD1231464 Classic #2 ____D ~AR -EILSWY? nnYYn
+TDD-1231472 attempt: 1 BOART n n Y Y n
+TDD1503434 Classic #3 _____ ~EIL -ADRSWY? Ynnnn
+TDD-1503434 attempt: 2 BOART Y n n n n
+TDD2287288 Classic #4 _____ ~AR -DEILSWY? YMYMn
+TDD-2287366 attempt: 3 BOART Y m Y m n
+TDD1183475 > *
+TDD-1183203 questioning: wreck
+TDD3471405 Classic #1 W_E__ ~R -ABDILOSTY? YYYYY
+TDD-3471688 attempt: 0 WRECK Y Y Y Y Y
+TDD1159555 Classic #2 __ARD -BEILOSTWY? nMnnn
+TDD-1159464 attempt: 1 WRECK n m n n n
+TDD1303533 Classic #3 B____ ~EIL -ADORSTWY? nnMnn
+TDD-1303578 attempt: 2 WRECK n n m n n
+TDD1639033 Classic #4 B_A__ ~OR -DEILSTWY? nYnnn
+TDD-1639074 attempt: 3 WRECK n Y n n n
+TDD935721 > *
+TDD-935583 questioning: guard
+TDD3839218 Classic #2 __ARD -BCEIKLOSTWY? YYYYY
+TDD-3839284 attempt: 1 GUARD Y Y Y Y Y
+TDD2111670 Classic #3 B____ ~EIL -ACDKORSTWY? nnnnn
+TDD-2111645 attempt: 2 GUARD n n n n n
+TDD1559090 Classic #4 BRA__ ~O -CDEIKLSTWY? nnYMn
+TDD-1559189 attempt: 3 GUARD n n Y m n
+TDD887525 > *
+TDD-887251 questioning: bravo
+TDD4175307 Classic #3 B____ ~EIL -ACDGKORSTUWY? Ynnnn
+TDD-4175585 attempt: 2 BRAVO Y n n n n
+TDD1439721 Classic #4 BRA__ ~O -CDEGIKLSTUWY? YYYYY
+TDD-1439657 attempt: 3 BRAVO Y Y Y Y Y
+TDD599763 > *
+TDD2167570 ? 2
+TDD-2767408 questioning: belie
+TDD2936426 Classic #3 B____ ~EIL -ACDGKORSTUVWY? YYYYY
+TDD-2936322 attempt: 2 BELIE Y Y Y Y Y
+TDD4327531 📋> 🙂 Daily Quordle 1460
+TDD-4327706 📋> 4️⃣5️⃣
+TDD-119 📋> 7️⃣6️⃣
+TDD12 📋> m-w.com/games/quordle/
+TDD311008 📋> 
+TDD-142996 📋> ␚
+TDD-167877 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1460\n4\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1065 result: "\ud83d\ude42 Daily Quordle 1460\n4\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD309230 📆 2026-01-23 ? 
