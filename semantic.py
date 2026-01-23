@@ -624,7 +624,10 @@ class Search(StoredLog):
     default_site: str = 'cemantle.certitudes.org'
     default_lang: str = ''
     default_chat_model: str = environ.get('OLLAMA_MODEL', 'llama')
-    default_system_prompt: str = 'You are a related word suggestion oracle. Give your responses as simple numbered lists of words related to the ones given by the user.'
+    default_system_prompt: str = ' '.join([
+        'You are a related word suggestion oracle.',
+        'Give your responses as simple numbered lists of words related to the ones given by the user.'
+    ])
 
     pub_at = datetime.time(hour=0)
     pub_tzname = 'US/Pacific'
