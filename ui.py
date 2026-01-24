@@ -1601,7 +1601,7 @@ class PromptUI:
         self.sink = sink
         self.log_sink = log_sink
         self.clip = clip
-        self.last: Literal['empty','prompt','print','write','remark'] = 'empty'
+        self.last: Literal['empty','pending','prompt','print','write','remark'] = 'empty'
         self.zlog = zlib.compressobj()
 
         self.traced = False
@@ -1818,6 +1818,8 @@ class PromptUI:
             return False
 
     def raw_input(self, prompt: str):
+        self.last = 'pending'
+
         self.log(f'{prompt}␅')
         try:
             resp = self.get_input(prompt)
@@ -1964,7 +1966,7 @@ class PromptUI:
             # particularly, the output printing / formatting sub-surface
 
             def fin(self):
-                if self.ui.last in ('prompt', 'write'):
+                if self.ui.last in ('pending', 'prompt', 'write'):
                     self.ui.write(f'\n{self.mark} ')
                 else:
                     self.ui.write(f'{self.mark} ')
