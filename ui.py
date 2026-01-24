@@ -201,6 +201,32 @@ term_st = '\033\\'
 def term_osc_seq(code: int, *args: str):
     return f'{term_osc}{code};{";".join(args)}{term_st}'
 
+term_csi = '\033['
+term_dec = f'{term_csi}?'
+
+def term_dec_set(code: int):
+    return f'{term_dec}{code}h'
+
+def term_dec_rst(code: int):
+    return f'{term_dec}{code}l'
+
+@contextmanager
+def term_dec_codes(*codes: int):
+    for code in codes:
+        print(term_dec_set(code))
+    try:
+        yield
+    finally:
+        for code in reversed(codes):
+            print(term_dec_rst(code))
+
+term_dec_code_focus_events = 1004
+term_dec_code_focus_in = f'{term_csi}I'
+term_dec_code_focus_out = f'{term_csi}O'
+
+# TODO term_dec_code_focus_{ in & out } observation
+#      ... with term_dec_codes(term_dec_code_focus_events):
+
 @final
 class OSC52Clipboard:
     notified: bool = False
