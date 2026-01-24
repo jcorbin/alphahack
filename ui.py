@@ -1821,7 +1821,7 @@ class PromptUI:
         try:
             resp = self.get_input(prompt)
         except EOFError:
-            self.log(f'{prompt}␚')
+            self.log(f'{prompt}␄')
             raise
         self.log(f'{prompt}{resp}')
         self.last = 'prompt'
