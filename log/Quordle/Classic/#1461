@@ -1,0 +1,78 @@
+T86271.0536045 now: 2026-01-24T08:32:31EST
+TD129 site: m-w.com/games/quordle/#/
+TDD-71 wordlist: nwl2023.txt
+TDD-48 num_words: 4
+TDD3094594  ...
+TDD-1966615 > *
+TDD-319943 ? 1
+TDD-807834 questioning: snare
+TDD4783793 Classic #1 _____? MnnnM
+TDD-4783531 attempt: 0 SNARE m n n n m
+TDD1815093 Classic #2 _____? nnnMM
+TDD-1815330 attempt: 1 SNARE n n n m m
+TDD1199342 Classic #3 _____? nnnnM
+TDD-1199347 attempt: 2 SNARE n n n n m
+TDD1335611 Classic #4 _____? MnnMM
+TDD-1335612 attempt: 3 SNARE m n n m m
+TDD1167519 > *
+TDD-423662 ? 1
+TDD-743888 questioning: telos
+T17.662967804004438 now: 2026-01-24T08:33:21EST
+TD87 questioning: telos
+TDD3997542 Classic #1 _____ ~ES -ANR? MYnnM
+TDD-3997186 attempt: 0 TELOS m Y n n m
+TDD2798474 Classic #2 _____ ~ER -ANS? YMnnn
+TDD-2798706 attempt: 1 TELOS Y m n n n
+TDD3864155 Classic #3 _____ ~E -ANRS? MYnYn
+TDD-3864033 attempt: 2 TELOS m Y n Y n
+TDD2334732 Classic #4 _____ ~ERS -AN? nMnnY
+TDD-2334827 attempt: 3 TELOS n m n n Y
+TDD20319738 > *
+TDD-16183526 ? 7
+TDD-4136149 questioning: rides
+TDD4039369 Classic #1 _E___ ~ST -ALNOR? nMnMM
+TDD-4039440 attempt: 0 RIDES n m n m m
+TDD1303662 Classic #2 T____ ~ER -ALNOS? MMnMn
+TDD-1303590 attempt: 1 RIDES m m n m n
+TDD2455101 Classic #3 _E_O_ ~T -ALNRS? nnMMn
+TDD-2455024 attempt: 2 RIDES n n m m n
+TDD1743749 Classic #4 ____S ~ER -ALNOT? MnnMY
+TDD-1743849 attempt: 3 RIDES m n n m Y
+TDD1263038 > *
+TDD-1262861 questioning: their
+TDD4055122 Classic #1 _E___ ~IST -ADLNOR? MMMMn
+TDD-4055271 attempt: 0 THEIR m m m m n
+TDD1279909 Classic #2 T____ ~EIR -ADLNOS? YYYYY
+TDD-1279897 attempt: 1 THEIR Y Y Y Y Y
+TDD3006941 Classic #3 _E_O_ ~DT -AILNRS? MnMnn
+TDD-3006927 attempt: 2 THEIR m n m n n
+TDD1583235 Classic #4 ____S ~ER -ADILNOT? nnYnM
+TDD-1583230 attempt: 3 THEIR n n Y n m
+TDD10464207 > *
+TDD-10464026 questioning: heist
+TDD6094504 Classic #1 _E___ ~HIST -ADLNOR? YYYYY
+TDD-6094678 attempt: 0 HEIST Y Y Y Y Y
+TDD2607394 Classic #3 _E_O_ ~DT -AHILNRS? nYnnM
+TDD-2607416 attempt: 2 HEIST n Y n n m
+TDD4271291 Classic #4 __E_S ~R -ADHILNOT? nMnYn
+TDD-4271341 attempt: 3 HEIST n m n Y n
+TDD1479451 > *
+TDD-1479211 questioning: detox
+TDD7471171 Classic #3 _E_O_ ~DT -AHILNRS? YYYYY
+TDD-7471350 attempt: 2 DETOX Y Y Y Y Y
+TDD2159106 Classic #4 __ESS ~R -ADHILNOT? nMnnn
+TDD-2159084 attempt: 3 DETOX n m n n n
+TDD1359235 > *
+TDD208788 ? 2
+TDD-1568104 questioning: press
+TDD2903738 Classic #4 __ESS ~R -ADHILNOTX? YYYYY
+TDD-2903699 attempt: 3 PRESS Y Y Y Y Y
+TDD8880071 📋> 🙂 Daily Quordle 1461
+TDD-8880222 📋> 5️⃣4️⃣
+TDD-146 📋> 6️⃣7️⃣
+TDD-4 📋> m-w.com/games/quordle/
+TDD454813 📋> 
+TDD-86468 📋> ␚
+TDD-368155 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1461\n5\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD1481 result: "\ud83d\ude42 Daily Quordle 1461\n5\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD2468846 📆 2026-01-24 ? 
