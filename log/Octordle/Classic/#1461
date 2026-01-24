@@ -1,0 +1,359 @@
+T149.41474137600744 now: 2026-01-24T08:35:32EST
+TD155 site: britannica.com/games/octordle/daily
+TDD-131 wordlist: nwl2023.txt
+TDD-11 num_words: 8
+TDD527763  ...
+TDD4814702 > *
+TDD17386920 ? 1
+TDD-22729123 questioning: aisle
+TDD6198705 Classic #1 _____? MMYnn
+TDD-6198755 attempt: 0 AISLE m m Y n n
+TDD2135582 Classic #2 _____? MnnnY
+TDD-2135478 attempt: 1 AISLE m n n n Y
+TDD2247187 Classic #3 _____? nMnMn
+TDD-2247269 attempt: 2 AISLE n m n m n
+TDD2015343 Classic #4 _____? Mnnnn
+TDD-2015380 attempt: 3 AISLE m n n n n
+TDD47552698 Classic #5 _____? nMnnY
+TDD-47552582 attempt: 4 AISLE n m n n Y
+TDD1431164 Classic #6 _____? MnMnn
+TDD-1431169 attempt: 5 AISLE m n m n n
+TDD1967335 Classic #7 _____? Mnnnn
+TDD-1967339 attempt: 6 AISLE m n n n n
+TDD1512091 Classic #8 _____? Mnnnn
+TDD-1511865 attempt: 7 AISLE m n n n n
+TDD5158623 <INT>
+T3.105040675989585 now: 2026-01-24T08:49:44EST
+TD87 questioning: aisle
+TDD702990 > ␅
+TDD9527419 ␆*
+TDD-10230385 > *
+TDD5264 ? ␅
+TDD1500808 ␆1
+TDD-1506077 ? 1
+TDD122 questioning: tarns
+TDD-47 Classic #1 __S__ ~AI -EL? ␅
+TDD5007163 ␆nYnnY
+TDD-5007241 Classic #1 __S__ ~AI -EL? nYnnY
+TDD315 attempt: 0 TARNS n Y n n Y
+TDD-239 Classic #2 ____E ~A -ILS? ␅
+TDD1983374 ␆nYMMn
+TDD-1983420 Classic #2 ____E ~A -ILS? nYMMn
+TDD165 attempt: 1 TARNS n Y m m n
+TDD-163 Classic #3 _____ ~IL -AES? ␅
+TDD1878767 ␆YnMnn
+TDD-1878807 Classic #3 _____ ~IL -AES? YnMnn
+TDD137 attempt: 2 TARNS Y n m n n
+TDD-121 Classic #4 _____ ~A -EILS? ␅
+TDD1825671 ␆nYnMn
+TDD-1825676 Classic #4 _____ ~A -EILS? nYnMn
+TDD120 attempt: 3 TARNS n Y n m n
+TDD-109 Classic #5 ____E ~I -ALS? ␅
+TDD4677554 ␆nnnnn
+TDD-4677570 Classic #5 ____E ~I -ALS? nnnnn
+TDD90 attempt: 4 TARNS n n n n n
+TDD-98 Classic #6 _____ ~AS -EIL? ␅
+TDD1527853 ␆nMnnM
+TDD-1527830 Classic #6 _____ ~AS -EIL? nMnnM
+TDD109 attempt: 5 TARNS n m n n m
+TDD-112 Classic #7 _____ ~A -EILS? ␅
+TDD1967824 ␆nMMnn
+TDD-1967814 Classic #7 _____ ~A -EILS? nMMnn
+TDD93 attempt: 6 TARNS n m m n n
+TDD-99 Classic #8 _____ ~A -EILS? ␅
+TDD1119244 ␆nMMnn
+TDD-1119246 Classic #8 _____ ~A -EILS? nMMnn
+TDD114 attempt: 7 TARNS n m m n n
+TDD633083 > ␅
+TDD52629361 ␄
+TDD-53262530 <EOF>
+TDD665890 > ␅
+TDD-563980 ␄
+T51.6647532019997 now: 2026-01-24T10:27:09EST
+TD104 questioning: tarns
+TDD735310 > ␅
+TDD32373272 ␆*
+TDD-33108580 > *
+TDD2526 ? ␅
+TDD5179399 ␄
+TDD-5181911 <EOF>
+TDD719063 > ␅
+TDD1584930 ␆*8
+TDD-2304012 > *8
+TDD87 > ␅
+TDD1679604 ␆* 8
+TDD-1679673 > * 8
+TDD111387 ? ␅
+TDD2753427 ␆1
+TDD-2864826 ? 1
+TDD97 questioning: brach
+TDD-13 Classic #1 _AS_S ~I -ELNRT? ␅
+TDD8166710 ␆YnMnn
+TDD-8166800 Classic #1 _AS_S ~I -ELNRT? YnMnn
+TDD295 attempt: 0 BRACH Y n m n n
+TDD-276 Classic #2 _A__E ~NR -ILST? ␅
+TDD1399237 ␆nMMnn
+TDD-1399291 Classic #2 _A__E ~NR -ILST? nMMnn
+TDD68 attempt: 1 BRACH n m m n n
+TDD-67 Classic #3 T____ ~ILR -AENS? ␅
+TDD1623577 ␆nMnnn
+TDD-1623558 Classic #3 T____ ~ILR -AENS? nMnnn
+TDD67 attempt: 2 BRACH n m n n n
+TDD-77 Classic #4 _A___ ~N -EILRST? ␅
+TDD1263808 ␆nnMnn
+TDD-1263775 Classic #4 _A___ ~N -EILRST? nnMnn
+TDD103 attempt: 3 BRACH n n m n n
+TDD-89 Classic #5 ____E ~I -ALNRST? ␅
+TDD10839668 ␆nnnnn
+TDD-10839674 Classic #5 ____E ~I -ALNRST? nnnnn
+TDD92 attempt: 4 BRACH n n n n n
+TDD-100 Classic #6 _____ ~AS -EILNRT? ␅
+TDD1487298 ␆nnYnn
+TDD-1487299 Classic #6 _____ ~AS -EILNRT? nnYnn
+TDD107 attempt: 5 BRACH n n Y n n
+TDD-108 Classic #7 _____ ~AR -EILNST? ␅
+TDD1527632 ␆MMMnn
+TDD-1527628 Classic #7 _____ ~AR -EILNST? MMMnn
+TDD87 attempt: 6 BRACH m m m n n
+TDD-97 Classic #8 _____ ~AR -EILNST? ␅
+TDD1399607 ␆nYYnn
+TDD-1399596 Classic #8 _____ ~AR -EILNST? nYYnn
+TDD143 attempt: 7 BRACH n Y Y n n
+TDD659644 > ␅
+TDD399923 ␆*
+TDD-1059735 > *
+TDD311 questioning: basis
+TDD-279 Classic #1 BAS_S ~I -CEHLNRT? ␅
+TDD6879772 ␆YYYYY
+TDD-6879783 Classic #1 BAS_S ~I -CEHLNRT? YYYYY
+TDD132 attempt: 0 BASIS Y Y Y Y Y
+TDD-105 Classic #2 _A__E ~NR -BCHILST? ␅
+TDD1766961 ␆nYnnn
+TDD-1766990 Classic #2 _A__E ~NR -BCHILST? nYnnn
+TDD113 attempt: 1 BASIS n Y n n n
+TDD-104 Classic #3 T____ ~ILR -ABCEHNS? ␅
+TDD2231615 ␆nnnMn
+TDD-2231609 Classic #3 T____ ~ILR -ABCEHNS? nnnMn
+TDD94 attempt: 2 BASIS n n n m n
+TDD-107 Classic #4 _A___ ~N -BCEHILRST? ␅
+TDD1390941 ␆nYnnn
+TDD-1390966 Classic #4 _A___ ~N -BCEHILRST? nYnnn
+TDD58 attempt: 3 BASIS n Y n n n
+TDD-70 Classic #5 ____E ~I -ABCHLNRST? ␅
+TDD3695435 ␆nnnMn
+TDD-3695426 Classic #5 ____E ~I -ABCHLNRST? nnnMn
+TDD60 attempt: 4 BASIS n n n m n
+TDD-62 Classic #6 __A__ ~S -BCEHILNRT? ␅
+TDD1799646 ␆nMMnM
+TDD-1799644 Classic #6 __A__ ~S -BCEHILNRT? nMMnM
+TDD59 attempt: 5 BASIS n m m n m
+TDD-68 Classic #7 _____ ~ABR -CEHILNST? ␅
+TDD1847667 ␆MMnnn
+TDD-1847636 Classic #7 _____ ~ABR -CEHILNST? MMnnn
+TDD101 attempt: 6 BASIS m m n n n
+TDD-91 Classic #8 _RA__ -BCEHILNST? ␅
+TDD1919452 ␆nMnnn
+TDD-1919455 Classic #8 _RA__ -BCEHILNST? nMnnn
+TDD103 attempt: 7 BASIS n m n n n
+TDD627033 > ␅
+TDD4609356 ␆*
+TDD-5236511 > *
+TDD268 questioning: twirl
+TDD-267 Classic #2 _A__E ~NR -BCHILST? ␅
+TDD5879894 ␆nnnMn
+TDD-5879904 Classic #2 _A__E ~NR -BCHILST? nnnMn
+TDD57 attempt: 1 TWIRL n n n m n
+TDD-70 Classic #3 T____ ~ILR -ABCEHNS? ␅
+TDD1431063 ␆YYYYY
+TDD-1431035 Classic #3 T____ ~ILR -ABCEHNS? YYYYY
+TDD120 attempt: 2 TWIRL Y Y Y Y Y
+TDD-111 Classic #4 _A___ ~N -BCEHILRST? ␅
+TDD1487297 ␆nnnnn
+TDD-1487301 Classic #4 _A___ ~N -BCEHILRST? nnnnn
+TDD106 attempt: 3 TWIRL n n n n n
+TDD-103 Classic #5 ____E ~I -ABCHLNRST? ␅
+TDD3472638 ␆nnYnn
+TDD-3472644 Classic #5 ____E ~I -ABCHLNRST? nnYnn
+TDD134 attempt: 4 TWIRL n n Y n n
+TDD-123 Classic #6 __A__ ~S -BCEHILNRT? ␅
+TDD1094920 ␆nnnnn
+TDD-1094929 Classic #6 __A__ ~S -BCEHILNRT? nnnnn
+TDD103 attempt: 5 TWIRL n n n n n
+TDD-126 Classic #7 _____ ~ABR -CEHILNST? ␅
+TDD1847784 ␆nnnMn
+TDD-1847760 Classic #7 _____ ~ABR -CEHILNST? nnnMn
+TDD96 attempt: 6 TWIRL n n n m n
+TDD-102 Classic #8 _RA__ -BCEHILNST? ␅
+TDD1119257 ␆nnnMn
+TDD-1119277 Classic #8 _RA__ -BCEHILNST? nnnMn
+TDD70 attempt: 7 TWIRL n n n m n
+TDD523099 > ␅
+TDD496500 ␆*
+TDD-1019680 > *
+TDD352 ? ␅
+TDD1463056 ␄
+TDD-1463375 <EOF>
+TDD468370 > ␅
+TDD1759603 ␆* 4
+TDD-2227978 > * 4
+TDD99595 ? ␅
+TDD7249642 ␆4
+TDD-7349231 ? 4
+TDD71 questioning: mangy
+TDD-17 Classic #2 _A__E ~NR -BCHILSTW? ␅
+TDD4983093 ␆nYYYn
+TDD-4983137 Classic #2 _A__E ~NR -BCHILSTW? nYYYn
+TDD91 attempt: 1 MANGY n Y Y Y n
+TDD-101 Classic #4 _A___ ~N -BCEHILRSTW? ␅
+TDD2214593 ␆YYYYn
+TDD-2214591 Classic #4 _A___ ~N -BCEHILRSTW? YYYYn
+TDD107 attempt: 3 MANGY Y Y Y Y n
+TDD-98 Classic #5 __I_E -ABCHLNRSTW? ␅
+TDD2606913 ␆nnnnn
+TDD-2606952 Classic #5 __I_E -ABCHLNRSTW? nnnnn
+TDD70 attempt: 4 MANGY n n n n n
+TDD-58 Classic #6 __A__ ~S -BCEHILNRTW? ␅
+TDD1799756 ␆MMnnn
+TDD-1799730 Classic #6 __A__ ~S -BCEHILNRTW? MMnnn
+TDD169 attempt: 5 MANGY m m n n n
+TDD-143 Classic #7 _____ ~ABR -CEHILNSTW? ␅
+TDD1687202 ␆MMnnn
+TDD-1687264 Classic #7 _____ ~ABR -CEHILNSTW? MMnnn
+TDD71 attempt: 6 MANGY m m n n n
+TDD-80 Classic #8 _RA__ -BCEHILNSTW? ␅
+TDD1263810 ␆nMnnn
+TDD-1263787 Classic #8 _RA__ -BCEHILNSTW? nMnnn
+TDD79 attempt: 7 MANGY n m n n n
+TDD555055 > ␅
+TDD1073677 ␆*
+TDD-1628816 > *
+TDD354 questioning: range
+TDD-286 Classic #2 _ANGE ~R -BCHILMSTWY? ␅
+TDD5654483 ␆YYYYY
+TDD-5654543 Classic #2 _ANGE ~R -BCHILMSTWY? YYYYY
+TDD115 attempt: 1 RANGE Y Y Y Y Y
+TDD-101 Classic #4 MANG_ -BCEHILRSTWY? ␅
+TDD1823839 ␆nYYYn
+TDD-1823871 Classic #4 MANG_ -BCEHILRSTWY? nYYYn
+TDD64 attempt: 3 RANGE n Y Y Y n
+TDD-73 Classic #5 __I_E -ABCGHLMNRSTWY? ␅
+TDD3199954 ␆nnnnY
+TDD-3199949 Classic #5 __I_E -ABCGHLMNRSTWY? nnnnY
+TDD76 attempt: 4 RANGE n n n n Y
+TDD-77 Classic #6 __A__ ~MS -BCEGHILNRTWY? ␅
+TDD1847090 ␆nMnnn
+TDD-1847049 Classic #6 __A__ ~MS -BCEGHILNRTWY? nMnnn
+TDD158 attempt: 5 RANGE n m n n n
+TDD-137 Classic #7 _____ ~ABMR -CEGHILNSTWY? ␅
+TDD2855402 ␆YMnnn
+TDD-2855462 Classic #7 _____ ~ABMR -CEGHILNSTWY? YMnnn
+TDD73 attempt: 6 RANGE Y m n n n
+TDD-73 Classic #8 _RA__ -BCEGHILMNSTWY? ␅
+TDD1351695 ␆MMnnn
+TDD-1351676 Classic #8 _RA__ -BCEGHILMNSTWY? MMnnn
+TDD120 attempt: 7 RANGE m m n n n
+TDD456590 > ␅
+TDD774118 ␆*
+TDD-1230811 > *
+TDD391 questioning: oxide
+TDD-305 Classic #4 MANG_ -BCEHILRSTWY? ␅
+TDD10183310 ␆Mnnnn
+TDD-10183436 Classic #4 MANG_ -BCEHILRSTWY? Mnnnn
+TDD74 attempt: 3 OXIDE m n n n n
+TDD-76 Classic #5 __I_E -ABCGHLMNRSTWY? ␅
+TDD2527198 ␆YYYYY
+TDD-2527192 Classic #5 __I_E -ABCGHLMNRSTWY? YYYYY
+TDD63 attempt: 4 OXIDE Y Y Y Y Y
+TDD-66 Classic #6 __A__ ~MS -BCEGHILNRTWY? ␅
+TDD1528041 ␆nnnnn
+TDD-1528009 Classic #6 __A__ ~MS -BCEGHILNRTWY? nnnnn
+TDD165 attempt: 5 OXIDE n n n n n
+TDD-133 Classic #7 R____ ~ABM -CEGHILNSTWY? ␅
+TDD3743100 ␆nnnnn
+TDD-3743157 Classic #7 R____ ~ABM -CEGHILNSTWY? nnnnn
+TDD106 attempt: 6 OXIDE n n n n n
+TDD-98 Classic #8 _RA__ -BCEGHILMNSTWY? ␅
+TDD1920073 ␆nnnMn
+TDD-1920044 Classic #8 _RA__ -BCEGHILMNSTWY? nnnMn
+TDD100 attempt: 7 OXIDE n n n m n
+TDD351879 > ␅
+TDD430990 ␆*
+TDD-782985 > *
+TDD324 questioning: mango
+TDD-293 Classic #4 MANG_ ~O -BCDEHILRSTWXY? ␅
+TDD6727559 ␆YYYYY
+TDD-6727575 Classic #4 MANG_ ~O -BCDEHILRSTWXY? YYYYY
+TDD89 attempt: 3 MANGO Y Y Y Y Y
+TDD-76 Classic #6 __A__ ~MS -BCDEGHILNORTWXY? ␅
+TDD3439197 ␆MMnnn
+TDD-3439256 Classic #6 __A__ ~MS -BCDEGHILNORTWXY? MMnnn
+TDD76 attempt: 5 MANGO m m n n n
+TDD-66 Classic #7 R____ ~ABM -CDEGHILNOSTWXY? ␅
+TDD2943414 ␆MMnnn
+TDD-2943390 Classic #7 R____ ~ABM -CDEGHILNOSTWXY? MMnnn
+TDD99 attempt: 6 MANGO m m n n n
+TDD-99 Classic #8 _RA__ ~D -BCEGHILMNOSTWXY? ␅
+TDD3071142 ␆nMnnn
+TDD-3071160 Classic #8 _RA__ ~D -BCEGHILMNOSTWXY? nMnnn
+TDD110 attempt: 7 MANGO n m n n n
+TDD278730 > ␅
+TDD458503 ␆*
+TDD-737351 > *
+TDD240 questioning: spasm
+TDD-215 Classic #6 __A__ ~MS -BCDEGHILNORTWXY? ␅
+TDD3167304 ␆YYYYY
+TDD-3167306 Classic #6 __A__ ~MS -BCDEGHILNORTWXY? YYYYY
+TDD154 attempt: 5 SPASM Y Y Y Y Y
+TDD-114 Classic #7 R____ ~ABM -CDEGHILNOSTWXY? ␅
+TDD5158709 ␆nnMnM
+TDD-5158764 Classic #7 R____ ~ABM -CDEGHILNOSTWXY? nnMnM
+TDD120 attempt: 6 SPASM n n m n m
+TDD-95 Classic #8 _RA__ ~D -BCEGHILMNOSTWXY? ␅
+TDD1624360 ␆nnYnn
+TDD-1624368 Classic #8 _RA__ ~D -BCEGHILMNOSTWXY? nnYnn
+TDD103 attempt: 7 SPASM n n Y n n
+TDD171822 > ␅
+TDD575399 ␆*
+TDD-747339 > *
+TDD211 questioning: rumba
+TDD-224 Classic #7 R____ ~ABM -CDEGHILNOPSTWXY? ␅
+TDD4351467 ␆YYYYY
+TDD-4351439 Classic #7 R____ ~ABM -CDEGHILNOPSTWXY? YYYYY
+TDD99 attempt: 6 RUMBA Y Y Y Y Y
+TDD-94 Classic #8 _RA__ ~D -BCEGHILMNOPSTWXY? ␅
+TDD1927389 ␆MMnnM
+TDD-1927400 Classic #8 _RA__ ~D -BCEGHILMNOPSTWXY? MMnnM
+TDD106 attempt: 7 RUMBA m m n n m
+TDD91317 > ␅
+TDD649078 ␆*
+TDD-740503 > *
+TDD398 questioning: fraud
+TDD-377 Classic #8 _RA__ ~DU -BCEGHILMNOPSTWXY? ␅
+TDD3062114 ␆YYYYY
+TDD-3062141 Classic #8 _RA__ ~DU -BCEGHILMNOPSTWXY? YYYYY
+TDD115 attempt: 7 FRAUD Y Y Y Y Y
+TDD-73 📋> ␅
+TDD2800987 ␆Daily Octordle #1461
+TDD-2801023 📋> Daily Octordle #1461
+TDD-90 📋> ␅
+TDD28 ␆4️⃣7️⃣
+TDD-39 📋> 4️⃣7️⃣
+TDD0 📋> ␅
+TDD8 ␆5️⃣9️⃣
+TDD-8 📋> 5️⃣9️⃣
+TDD0 📋> ␅
+TDD6 ␆8️⃣🔟
+TDD-6 📋> 8️⃣🔟
+TDD0 📋> ␅
+TDD5 ␆🕚🕛
+TDD-6 📋> 🕚🕛
+TDD0 📋> ␅
+TDD358537 ␆Score: 66
+TDD-358432 📋> Score: 66
+TDD-97 📋> ␅
+TDD223836 ␄
+TDD-223636 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1461\n4\ufe0f\u20e37\ufe0f\u20e3\n5\ufe0f\u20e39\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a\ud83d\udd5b\nScore: 66"}
+TDD995 result: "Daily Octordle #1461\n4\ufe0f\u20e37\ufe0f\u20e3\n5\ufe0f\u20e39\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udd1f\n\ud83d\udd5a\ud83d\udd5b\nScore: 66"
+TDD-1081 📆 2026-01-24 ? ␅
+TDD310081 ␆
+TDD-310119 📆 2026-01-24 ? 
