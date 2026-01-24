@@ -1,0 +1,209 @@
+T925.30179786199 now: 2026-01-24T10:41:42EST
+TD99 site: squareword.org
+TDD-79 wordlist: nwl2023.txt
+TDD9  ...␅
+TDD3166045 ␆
+TDD-3165996  ...
+TDD-21 🧩  ? ␅
+TDD1887739 ␆#1454
+TDD-1887727 🧩  ? #1454
+TDD119 puzzle_id: #1454
+TDD-29 > ␅
+TDD2087562 ␆*
+TDD-2087633 > *
+TDD176740 try? ␅
+TDD1870211 ␆1
+TDD-2046934 try? 1
+TDD224 questioning: ["taser", "#5"]
+TDD10 #1 <IndexError>  📋 "taser" ? ␅
+TDD7400245 ␆_____ ~ S
+TDD-7400497 #1 <IndexError>  📋 "taser" ? _____ ~ S
+TDD373 attempt 0 TASER n n m n n
+TDD-365 #2 <IndexError>  📋 "taser" ? ␅
+TDD3286723 ␆_A_ER 
+TDD-3286717 #2 <IndexError>  📋 "taser" ? _A_ER 
+TDD186 attempt 1 TASER n Y n Y Y
+TDD-159 #3 <IndexError>  📋 "taser" ? ␅
+TDD2312003 ␆_____ ~ E
+TDD-2312048 #3 <IndexError>  📋 "taser" ? _____ ~ E
+TDD103 attempt 2 TASER n n n m n
+TDD-95 #4 <IndexError>  📋 "taser" ? ␅
+TDD2055372 ␆_____ ~ ER
+TDD-2055362 #4 <IndexError>  📋 "taser" ? _____ ~ ER
+TDD155 attempt 3 TASER n n n m m
+TDD-132 #5 <IndexError>  📋 "taser" ? ␅
+TDD1694403 ␆___ER 
+TDD-1694449 #5 <IndexError>  📋 "taser" ? ___ER 
+TDD112 attempt 4 TASER n n n Y Y
+TDD27 ? ␅
+TDD303059 ␆
+TDD-303205 ? 
+TDD36 question done
+TDD80 > ␅
+TDD1335843 ␆*
+TDD-1335943 > *
+TDD673657 try? ␅
+TDD4220523 ␆10
+TDD-4894161 try? 10
+TDD205 questioning: ["scold", "#1"]
+TDD-84 #1 _____ ~S -AERT  📋 "scold" ? ␅
+TDD4383259 ␆S____
+TDD-4383384 #1 _____ ~S -AERT  📋 "scold" ? S____
+TDD153 attempt 0 SCOLD Y n n n n
+TDD-112 #2 _A_ER -ST  📋 "scold" ? ␅
+TDD4704105 ␆_A_ER ~ C
+TDD-4704149 #2 _A_ER -ST  📋 "scold" ? _A_ER ~ C
+TDD152 attempt 1 SCOLD n m n n n
+TDD-102 #3 _____ ~E -ARST  📋 "scold" ? ␅
+TDD2574929 ␆__O__ ~ EO
+TDD-2574995 #3 _____ ~E -ARST  📋 "scold" ? __O__ ~ EO
+TDD97 attempt 2 SCOLD n n Y n n
+TDD-77 #4 _____ ~ER -AST  📋 "scold" ? ␅
+TDD2487770 ␆_____ ~ ERCO
+TDD-2487791 #4 _____ ~ER -AST  📋 "scold" ? _____ ~ ERCO
+TDD97 attempt 3 SCOLD n m m n n
+TDD-76 #5 ___ER -AST  📋 "scold" ? ␅
+TDD5039584 ␆___ER ~ O
+TDD-5039587 #5 ___ER -AST  📋 "scold" ? ___ER ~ O
+TDD148 attempt 4 SCOLD n n m n n
+TDD95 ? ␅
+TDD462560 ␆
+TDD-462812 ? 
+TDD29 question done
+TDD181 > ␅
+TDD6143481 ␆*
+TDD-6143685 > *
+TDD647043 questioning: ["force", "#4"]
+TDD-646966 #1 S____ -ACDELORT  📋 "force" ? ␅
+TDD26583880 ␆S____ ~ F
+TDD-26583971 #1 S____ -ACDELORT  📋 "force" ? S____ ~ F
+TDD87 attempt 0 FORCE m n n n n
+TDD-60 #2 _A_ER ~C -DLOST  📋 "force" ? ␅
+TDD1640248 ␆.
+TDD-1640260 #2 _A_ER ~C -DLOST  📋 "force" ? .
+TDD177 attempt 1 FORCE n n n m n
+TDD-176 #3 __O__ ~E -ACDLRST  📋 "force" ? ␅
+TDD3639263 ␆__O_E ~ O
+TDD-3639265 #3 __O__ ~E -ACDLRST  📋 "force" ? __O_E ~ O
+TDD162 attempt 2 FORCE n m n n Y
+TDD-106 #4 _____ ~CEOR -ADLST  📋 "force" ? ␅
+TDD1431502 ␆/it
+TDD-1431548 #4 _____ ~CEOR -ADLST  📋 "force" ? /it
+TDD206 attempt 3 FORCE Y Y Y Y Y
+TDD-183 #5 ___ER ~O -ACDLST  📋 "force" ? ␅
+TDD3303087 ␆FO_ER
+TDD-3303117 #5 ___ER ~O -ACDLST  📋 "force" ? FO_ER
+TDD149 attempt 4 FORCE Y Y n n n
+TDD87 ? ␅
+TDD271654 ␆
+TDD-271875 ? 
+TDD10 question done
+TDD186 > ␅
+TDD630755 ␆*
+TDD-630986 > *
+TDD716542 questioning: ["skiff", "#1"]
+TDD-716444 #1 S____ ~F -ACDELORT  📋 "skiff" ? ␅
+TDD3042128 ␆/it
+TDD-3042207 #1 S____ ~F -ACDELORT  📋 "skiff" ? /it
+TDD219 attempt 0 SKIFF Y Y Y Y Y
+TDD-199 #2 _A_ER ~C -DEFLORST  📋 "skiff" ? ␅
+TDD5328013 ␆.
+TDD-5328045 #2 _A_ER ~C -DEFLORST  📋 "skiff" ? .
+TDD138 attempt 1 SKIFF n n n n n
+TDD-145 #3 __O_E -ACDFLRST  📋 "skiff" ? ␅
+TDD6695543 ␆__O_E ~O
+TDD-6695525 #3 __O_E -ACDFLRST  📋 "skiff" ? __O_E ~O
+TDD281 attempt 2 SKIFF n n n n n
+TDD-121 #5 FO_ER -ACDELRST  📋 "skiff" ? ␅
+TDD1823049 ␆.
+TDD-1823218 #5 FO_ER -ACDELRST  📋 "skiff" ? .
+TDD95 attempt 4 SKIFF n n n n n
+TDD-7 ? ␅
+TDD2495457 ␆
+TDD-2495519 ? 
+TDD3 question done
+TDD201 > ␅
+TDD615328 ␆*
+TDD-615565 > *
+TDD1558845 questioning: ["caver", "#2"]
+TDD-1558741 #2 _A_ER ~C -DEFIKLORST  📋 "caver" ? ␅
+TDD3288005 ␆/it
+TDD-3288094 #2 _A_ER ~C -DEFIKLORST  📋 "caver" ? /it
+TDD159 attempt 1 CAVER Y Y Y Y Y
+TDD-156 #3 __O_E -ACDFIKLRST  📋 "caver" ? ␅
+TDD3351352 ␆__O_E ~ O
+TDD-3351346 #3 __O_E -ACDFIKLRST  📋 "caver" ? __O_E ~ O
+TDD143 attempt 2 CAVER n n n n n
+TDD-80 #5 FO_ER -ACDEFIKLRST  📋 "caver" ? ␅
+TDD2128147 ␆.
+TDD-2128181 #5 FO_ER -ACDEFIKLRST  📋 "caver" ? .
+TDD133 attempt 4 CAVER n n n Y Y
+TDD34 ? ␅
+TDD167047 ␆
+TDD-167246 ? 
+TDD13 question done
+TDD177 > ␅
+TDD630869 ␆*
+TDD-631066 > *
+TDD1278466 questioning: ["ozone", "#3"]
+TDD-1278386 #3 __O_E -ACDEFIKLRSTV  📋 "ozone" ? ␅
+TDD2672485 ␆/it
+TDD-2672582 #3 __O_E -ACDEFIKLRSTV  📋 "ozone" ? /it
+TDD107 attempt 2 OZONE Y Y Y Y Y
+TDD-119 #5 FO_ER -ACDFIKLSTV  📋 "ozone" ? ␅
+TDD7263995 ␆.
+TDD-7263965 #5 FO_ER -ACDFIKLSTV  📋 "ozone" ? .
+TDD143 attempt 4 OZONE n n n n n
+TDD36 ? ␅
+TDD199112 ␆
+TDD-199291 ? 
+TDD5 question done
+TDD178 > ␅
+TDD591382 ␆*
+TDD-591569 > *
+TDD879472 questioning: ["foyer", "#5"]
+TDD-879381 #5 FO_ER -ACDEFIKLNOSTVZ  📋 "foyer" ? ␅
+TDD3287472 ␆/it
+TDD-3287561 #5 FO_ER -ACDEFIKLNOSTVZ  📋 "foyer" ? /it
+TDD152 attempt 4 FOYER Y Y Y Y Y
+TDD-41 ? ␅
+TDD687565 ␆
+TDD-687681 ? 
+TDD12 question done
+TDD21469 📋> ␅
+TDD3909431 ␆squareword.org 1454: 7 guesses
+TDD-3930929 📋> squareword.org 1454: 7 guesses
+TDD-72 📋> ␅
+TDD20 ␆
+TDD-25 📋> 
+TDD-1 📋> ␅
+TDD7 ␆🟩🟩🟩🟩🟩
+TDD-7 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> ␅
+TDD2 ␆🟩🟩🟩🟩🟩
+TDD-3 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> ␅
+TDD2 ␆🟨🟨🟩🟨🟩
+TDD-2 📋> 🟨🟨🟩🟨🟩
+TDD0 📋> ␅
+TDD2 ␆🟩🟩🟩🟩🟩
+TDD-2 📋> 🟩🟩🟩🟩🟩
+TDD0 📋> ␅
+TDD2 ␆🟩🟩🟨🟩🟩
+TDD-2 📋> 🟩🟩🟨🟩🟩
+TDD0 📋> ␅
+TDD3 ␆
+TDD-3 📋> 
+TDD0 📋> ␅
+TDD4 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD-3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TDD0 📋> ␅
+TDD455673 ␆#squareword #squareword1454
+TDD-455579 📋> #squareword #squareword1454
+TDD-85 📋> ␅
+TDD263250 ␄
+TDD-263083 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1454: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1454"}
+TDD375 result: "squareword.org 1454: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1454"
+TDD-485 📆 2026-01-24 ? ␅
+TDD487163 ␆
+TDD-487132 📆 2026-01-24 ? 
