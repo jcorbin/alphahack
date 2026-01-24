@@ -1,0 +1,179 @@
+T1670.6999996849918 now: 2026-01-24T10:54:08EST
+TD152 site: m-w.com/games/quordle/#/rescue
+TDD-127 wordlist: nwl2023.txt
+TDD-17 num_words: 4
+TDD125  ...␅
+TDD3062852 ␆
+TDD-3062917  ...
+TDD376268 > ␅
+TDD1367310 ␆*
+TDD-1743559 > *
+TDD45121 ? ␅
+TDD1581135 ␆1
+TDD-1626281 ? 1
+TDD59 questioning: reals
+TDD-33 Rescue #1 _____? ␅
+TDD2847930 ␄
+TDD-2847885 <EOF>
+TDD335629 > ␅
+TDD5840002 ␆tried queue brute
+TDD-6175689 > tried queue brute
+TDD196 questioning: QUEUE BRUTE
+TDD-177 Rescue #1 _____? ␅
+TDD2143862 ␆nYnnn
+TDD-2143861 Rescue #1 _____? nYnnn
+TDD122 attempt: 0 QUEUE n Y n n n
+TDD-114 Rescue #1 _U___ -EQ? ␅
+TDD1871452 ␆nnMnn
+TDD-1871458 Rescue #1 _U___ -EQ? nnMnn
+TDD134 attempt: 0 BRUTE n n m n n
+TDD-127 Rescue #2 _____? ␅
+TDD1191251 ␆nnnnn
+TDD-1191280 Rescue #2 _____? nnnnn
+TDD78 attempt: 1 QUEUE n n n n n
+TDD-88 Rescue #2 _____ -EQU? ␅
+TDD983561 ␆nnnnn
+TDD-983533 Rescue #2 _____ -EQU? nnnnn
+TDD125 attempt: 1 BRUTE n n n n n
+TDD-117 Rescue #3 _____? ␅
+TDD1743821 ␆nMnnY
+TDD-1743821 Rescue #3 _____? nMnnY
+TDD156 attempt: 2 QUEUE n m n n Y
+TDD-148 Rescue #3 ____E ~U -Q U:1? ␅
+TDD1623059 ␆nnMnY
+TDD-1623095 Rescue #3 ____E ~U -Q U:1? nnMnY
+TDD83 attempt: 2 BRUTE n n m n Y
+TDD-86 Rescue #4 _____? ␅
+TDD1200104 ␆nnMnn
+TDD-1200094 Rescue #4 _____? nnMnn
+TDD64 attempt: 3 QUEUE n n m n n
+TDD-78 Rescue #4 _____ ~E -QU E:1? ␅
+TDD1919621 ␆nMnMM
+TDD-1919609 Rescue #4 _____ ~E -QU E:1? nMnMM
+TDD76 attempt: 3 BRUTE n m n m m
+TDD402242 > ␅
+TDD466635 ␆*
+TDD-868936 > *
+TDD35865 ? ␅
+TDD6791998 ␆9
+TDD-6827875 ? 9
+TDD54 questioning: galop
+TDD-34 Rescue #1 _U___ -BEQRT? ␅
+TDD4271631 ␆nnYnn
+TDD-4271641 Rescue #1 _U___ -BEQRT? nnYnn
+TDD121 attempt: 0 GALOP n n Y n n
+TDD-107 Rescue #2 _____ -BEQRTU? ␅
+TDD1223368 ␆nnMnn
+TDD-1223379 Rescue #2 _____ -BEQRTU? nnMnn
+TDD119 attempt: 1 GALOP n n m n n
+TDD-106 Rescue #3 ____E ~U -BQRT U:1? ␅
+TDD1375612 ␆nnMnn
+TDD-1375626 Rescue #3 ____E ~U -BQRT U:1? nnMnn
+TDD121 attempt: 2 GALOP n n m n n
+TDD-109 Rescue #4 _____ ~ERT -BQU E:1? ␅
+TDD991378 ␆nnnnn
+TDD-991393 Rescue #4 _____ ~ERT -BQU E:1? nnnnn
+TDD122 attempt: 3 GALOP n n n n n
+TDD411585 > ␅
+TDD328179 ␆*
+TDD-739910 > *
+TDD241 questioning: uncle
+TDD-231 Rescue #1 _UL__ -ABEGOPQRT? ␅
+TDD4479834 ␆MnnYn
+TDD-4479836 Rescue #1 _UL__ -ABEGOPQRT? MnnYn
+TDD77 attempt: 0 UNCLE m n n Y n
+TDD-69 Rescue #2 _____ ~L -ABEGOPQRTU? ␅
+TDD1863681 ␆nnMYn
+TDD-1863693 Rescue #2 _____ ~L -ABEGOPQRTU? nnMYn
+TDD82 attempt: 1 UNCLE n n m Y n
+TDD-80 Rescue #3 ____E ~LU -ABGOPQRT U:1? ␅
+TDD2760170 ␆YYYYY
+TDD-2760149 Rescue #3 ____E ~LU -ABGOPQRT U:1? YYYYY
+TDD80 attempt: 2 UNCLE Y Y Y Y Y
+TDD-96 Rescue #4 _____ ~ERT -ABGLOPQU E:1? ␅
+TDD1246738 ␆nYnnM
+TDD-1246740 Rescue #4 _____ ~ERT -ABGLOPQU E:1? nYnnM
+TDD83 attempt: 3 UNCLE n Y n n m
+TDD277083 > ␅
+TDD1685503 ␆* 1
+TDD-1962678 > * 1
+TDD87994 ? ␅
+TDD6976065 ␆1
+TDD-7064050 ? 1
+TDD56 questioning: dully
+TDD-31 Rescue #1 _ULL_ -ABCEGNOPQRT? ␅
+TDD3343361 ␆nYYYY
+TDD-3343357 Rescue #1 _ULL_ -ABCEGNOPQRT? nYYYY
+TDD119 attempt: 0 DULLY n Y Y Y Y
+TDD-106 Rescue #2 ___L_ ~C -ABEGNOPQRTU? ␅
+TDD2287052 ␆nnnYY
+TDD-2287073 Rescue #2 ___L_ ~C -ABEGNOPQRTU? nnnYY
+TDD117 attempt: 1 DULLY n n n Y Y
+TDD-99 Rescue #4 _N___ ~ERT -ABCGLOPQU E:1? ␅
+TDD1063890 ␆nnnnn
+TDD-1063880 Rescue #4 _N___ ~ERT -ABCGLOPQU E:1? nnnnn
+TDD75 attempt: 3 DULLY n n n n n
+TDD290049 > ␅
+TDD690697 ␆[C*
+TDD-980879 > [C*
+TDD55 > ␅
+TDD1551705 ␆*
+TDD-1551739 > *
+TDD345 questioning: icily
+TDD-347 Rescue #1 _ULLY -ABCDEGNOPQRT? ␅
+TDD5279731 ␆nnnYY
+TDD-5279727 Rescue #1 _ULLY -ABCDEGNOPQRT? nnnYY
+TDD117 attempt: 0 ICILY n n n Y Y
+TDD-96 Rescue #2 ___LY ~C -ABDEGNOPQRTU? ␅
+TDD1687310 ␆YYYYY
+TDD-1687341 Rescue #2 ___LY ~C -ABDEGNOPQRTU? YYYYY
+TDD137 attempt: 1 ICILY Y Y Y Y Y
+TDD-107 Rescue #4 _N___ ~ERT -ABCDGLOPQUY E:1? ␅
+TDD1951453 ␆Ynnnn
+TDD-1951492 Rescue #4 _N___ ~ERT -ABCDGLOPQUY E:1? Ynnnn
+TDD84 attempt: 3 ICILY Y n n n n
+TDD183343 > ␅
+TDD1593145 ␆*
+TDD-1776556 > *
+TDD341 questioning: inter
+TDD-324 Rescue #1 _ULLY -ABCDEGINOPQRT? ␅
+TDD2798813 ␆nnnnn
+TDD-2798824 Rescue #1 _ULLY -ABCDEGINOPQRT? nnnnn
+TDD134 attempt: 0 INTER n n n n n
+TDD-119 Rescue #4 IN___ ~ERT -ABCDGLOPQUY E:1? ␅
+TDD1175444 ␆YYYYY
+TDD-1175485 Rescue #4 IN___ ~ERT -ABCDGLOPQUY E:1? YYYYY
+TDD95 attempt: 3 INTER Y Y Y Y Y
+TDD87289 > ␅
+TDD1153481 ␆*
+TDD-1240845 > *
+TDD439 ? ␅
+TDD2862734 ␆1
+TDD-2863172 ? 1
+TDD75 questioning: sully
+TDD-21 Rescue #1 _ULLY -ABCDEGINOPQRT? ␅
+TDD3494807 ␆YYYYY
+TDD-3494869 Rescue #1 _ULLY -ABCDEGINOPQRT? YYYYY
+TDD122 attempt: 0 SULLY Y Y Y Y Y
+TDD-126 📋> ␅
+TDD5993159 ␆Daily Rescue 75
+TDD-5993141 📋> Daily Rescue 75
+TDD-89 📋> ␅
+TDD46 ␆8️⃣6️⃣
+TDD-54 📋> 8️⃣6️⃣
+TDD-1 📋> ␅
+TDD7 ␆4️⃣7️⃣
+TDD-8 📋> 4️⃣7️⃣
+TDD1 📋> ␅
+TDD11 ␆m-w.com/games/quordle/
+TDD-6 📋> m-w.com/games/quordle/
+TDD-1 📋> ␅
+TDD511336 ␆
+TDD-511161 📋> 
+TDD-167 📋> ␅
+TDD407496 ␄
+TDD-407335 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 75\n8\ufe0f\u20e36\ufe0f\u20e3\n4\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TDD23 result: "Daily Rescue 75\n8\ufe0f\u20e36\ufe0f\u20e3\n4\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TDD-107 📆 2026-01-24 ? ␅
+TDD1150952 ␆
+TDD-1150944 📆 2026-01-24 ? 
