@@ -2183,6 +2183,9 @@ class PromptUI:
     def raw_input(self, prompt: str):
         self.last = 'pending'
 
+        # TODO use term_dec_set(1004) ...
+        # TODO ... then log user attention via CSI O and CSI I
+
         self.log(f'{prompt}␅')
         try:
             resp = self.get_input(prompt)
