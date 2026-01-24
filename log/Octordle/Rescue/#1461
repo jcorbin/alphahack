@@ -1,0 +1,381 @@
+T1784.3902699519822 now: 2026-01-24T10:56:01EST
+TD128 site: britannica.com/games/octordle/daily-rescue
+TDD-105 wordlist: nwl2023.txt
+TDD-15 num_words: 8
+TDD150  ...␅
+TDD469584 ␆
+TDD-469641  ...
+TDD674215 > ␅
+TDD5715504 ␆*
+TDD-6389732 > *
+TDD45540 ? ␅
+TDD2308472 ␄
+TDD-2354017 <EOF>
+TDD763201 > ␅
+TDD5697620 ␆tried goner penal modem camel
+TDD-6460824 > tried goner penal modem camel
+TDD55 questioning: GONER PENAL MODEM CAMEL
+TDD-28 Rescue #1 _____? ␅
+TDD7039539 ␆YnMnM
+TDD-7039550 Rescue #1 _____? YnMnM
+TDD126 attempt: 0 GONER Y n m n m
+TDD-118 Rescue #1 G____ ~NR -EO? ␅
+TDD1383621 ␆nnMnn
+TDD-1383630 Rescue #1 G____ ~NR -EO? nnMnn
+TDD66 attempt: 0 PENAL n n m n n
+TDD-79 Rescue #1 G____ ~NR -AELOP? ␅
+TDD1471935 ␆nnMnn
+TDD-1471916 Rescue #1 G____ ~NR -AELOP? nnMnn
+TDD101 attempt: 0 MODEM n n m n n
+TDD-95 Rescue #1 G____ ~DNR -AELMOP? ␅
+TDD1207744 ␆nnnnn
+TDD-1207748 Rescue #1 G____ ~DNR -AELMOP? nnnnn
+TDD119 attempt: 0 CAMEL n n n n n
+TDD-114 Rescue #2 _____? ␅
+TDD1822922 ␆nnMMn
+TDD-1822925 Rescue #2 _____? nnMMn
+TDD129 attempt: 1 GONER n n m m n
+TDD-132 Rescue #2 _____ ~EN -GOR? ␅
+TDD1383472 ␆nMMMM
+TDD-1383470 Rescue #2 _____ ~EN -GOR? nMMMM
+TDD133 attempt: 1 PENAL n m m m m
+TDD-108 Rescue #2 _____ ~AELN -GOPR? ␅
+TDD1272167 ␆nnnMn
+TDD-1272191 Rescue #2 _____ ~AELN -GOPR? nnnMn
+TDD108 attempt: 1 MODEM n n n m n
+TDD-106 Rescue #2 _____ ~AELN -DGMOPR? ␅
+TDD3590923 ␆nMnMM
+TDD-3590908 Rescue #2 _____ ~AELN -DGMOPR? nMnMM
+TDD110 attempt: 1 CAMEL n m n m m
+TDD-124 Rescue #3 _____? ␅
+TDD1847701 ␆nnnnM
+TDD-1847703 Rescue #3 _____? nnnnM
+TDD111 attempt: 2 GONER n n n n m
+TDD-112 Rescue #3 _____ ~R -EGNO? ␅
+TDD1510957 ␆nnnMM
+TDD-1510986 Rescue #3 _____ ~R -EGNO? nnnMM
+TDD85 attempt: 2 PENAL n n n m m
+TDD-84 Rescue #3 _____ ~ALR -EGNOP? ␅
+TDD1191745 ␆nnnnn
+TDD-1191722 Rescue #3 _____ ~ALR -EGNOP? nnnnn
+TDD114 attempt: 2 MODEM n n n n n
+TDD-4 Rescue #3 _____ ~ALR -DEGMNOP? ␅
+TDD1607174 ␆nYnnM
+TDD-1607254 Rescue #3 _____ ~ALR -DEGMNOP? nYnnM
+TDD84 attempt: 2 CAMEL n Y n n m
+TDD-128 Rescue #4 _____? ␅
+TDD1359606 ␆nnnMn
+TDD-1359554 Rescue #4 _____? nnnMn
+TDD36 attempt: 3 GONER n n n m n
+TDD-95 Rescue #4 _____ ~E -GNOR? ␅
+TDD3807507 ␆nMnMn
+TDD-3807478 Rescue #4 _____ ~E -GNOR? nMnMn
+TDD202 attempt: 3 PENAL n m n m n
+TDD-140 Rescue #4 _____ ~AE -GLNOPR? ␅
+TDD2039494 ␆nnnMn
+TDD-2039585 Rescue #4 _____ ~AE -GLNOPR? nnnMn
+TDD74 attempt: 3 MODEM n n n m n
+TDD-76 Rescue #4 _____ ~AE -DGLMNOPR? ␅
+TDD2015347 ␆nYnMn
+TDD-2015321 Rescue #4 _____ ~AE -DGLMNOPR? nYnMn
+TDD125 attempt: 3 CAMEL n Y n m n
+TDD-146 Rescue #5 _____? ␅
+TDD7239643 ␆nMnMY
+T1.8901275520038325 now: 2026-01-24T10:58:11EST
+TD86 questioning: GONER PENAL MODEM CAMEL
+TDD-13 Rescue #5 _____? ␅
+TDD4171114 ␆nnnMM
+TDD-4171091 Rescue #5 _____? nnnMM
+TDD283 attempt: 4 GONER n n n m m
+TDD-247 Rescue #5 _____ ~ER -GNO? ␅
+TDD2199058 ␆nYnYY
+TDD-2199092 Rescue #5 _____ ~ER -GNO? nYnYY
+TDD128 attempt: 4 PENAL n Y n Y Y
+TDD-128 Rescue #5 _E_AL ~R -GNOP? ␅
+TDD1511827 ␆nnnMn
+TDD-1511820 Rescue #5 _E_AL ~R -GNOP? nnnMn
+TDD129 attempt: 4 MODEM n n n m n
+TDD-37 Rescue #5 _E_AL ~R -DGMNOP? ␅
+TDD1967321 ␆nMnMY
+TDD-1967390 Rescue #5 _E_AL ~R -DGMNOP? nMnMY
+TDD121 attempt: 4 CAMEL n m n m Y
+TDD-142 Rescue #6 _____? ␅
+TDD1655632 ␆nnnMn
+TDD-1655640 Rescue #6 _____? nnnMn
+TDD115 attempt: 5 GONER n n n m n
+TDD-109 Rescue #6 _____ ~E -GNOR? ␅
+TDD1391081 ␆nMnnM
+TDD-1391052 Rescue #6 _____ ~E -GNOR? nMnnM
+TDD87 attempt: 5 PENAL n m n n m
+TDD-105 Rescue #6 _____ ~EL -AGNOPR? ␅
+TDD1199368 ␆nnnMn
+TDD-1199364 Rescue #6 _____ ~EL -AGNOPR? nnnMn
+TDD136 attempt: 5 MODEM n n n m n
+TDD-134 Rescue #6 _____ ~EL -ADGMNOPR? ␅
+TDD1295320 ␆nnnMM
+TDD-1295341 Rescue #6 _____ ~EL -ADGMNOPR? nnnMM
+TDD126 attempt: 5 CAMEL n n n m m
+TDD-126 Rescue #7 _____? ␅
+TDD2143601 ␆nMnMM
+TDD-2143582 Rescue #7 _____? nMnMM
+TDD94 attempt: 6 GONER n m n m m
+TDD-117 Rescue #7 _____ ~EOR -GN? ␅
+TDD1079264 ␆nMnnn
+TDD-1079266 Rescue #7 _____ ~EOR -GN? nMnnn
+TDD134 attempt: 6 PENAL n m n n n
+TDD-127 Rescue #7 _____ ~EOR -AGLNP? ␅
+TDD1455769 ␆nMnMn
+TDD-1455782 Rescue #7 _____ ~EOR -AGLNP? nMnMn
+TDD70 attempt: 6 MODEM n m n m n
+TDD-88 Rescue #7 _____ ~EOR -ADGLMNP? ␅
+TDD1559731 ␆nnnMn
+TDD-1559705 Rescue #7 _____ ~EOR -ADGLMNP? nnnMn
+TDD55 attempt: 6 CAMEL n n n m n
+TDD-86 Rescue #8 _____? ␅
+TDD2671919 ␆nnnMn
+TDD-2671877 Rescue #8 _____? nnnMn
+TDD116 attempt: 7 GONER n n n m n
+TDD-125 Rescue #8 _____ ~E -GNOR? ␅
+TDD1327146 ␆nYnnY
+TDD-1327146 Rescue #8 _____ ~E -GNOR? nYnnY
+TDD124 attempt: 7 PENAL n Y n n Y
+TDD-114 Rescue #8 _E__L -AGNOPR? ␅
+TDD1287586 ␆nnMMn
+TDD-1287595 Rescue #8 _E__L -AGNOPR? nnMMn
+TDD109 attempt: 7 MODEM n n m m n
+TDD-95 Rescue #8 _E__L ~D -AGMNOPR? ␅
+TDD1215300 ␆nnnMY
+TDD-1215299 Rescue #8 _E__L ~D -AGMNOPR? nnnMY
+TDD141 attempt: 7 CAMEL n n n m Y
+TDD709873 > ␅
+TDD-116572 ␆*
+TDD-593456 > *
+TDD653 questioning: grind
+TDD-665 Rescue #1 G____ ~DNR -ACELMOP? ␅
+TDD6294432 ␆YYYYY
+TDD-6294445 Rescue #1 G____ ~DNR -ACELMOP? YYYYY
+TDD76 attempt: 0 GRIND Y Y Y Y Y
+TDD-76 Rescue #2 _____ ~AELN -CDGMOPR? ␅
+TDD2287841 ␆nnnMn
+TDD-2287830 Rescue #2 _____ ~AELN -CDGMOPR? nnnMn
+TDD84 attempt: 1 GRIND n n n m n
+TDD-94 Rescue #3 _A___ ~LR -CDEGMNOP? ␅
+TDD1607738 ␆nMnnn
+TDD-1607723 Rescue #3 _A___ ~LR -CDEGMNOP? nMnnn
+TDD55 attempt: 2 GRIND n m n n n
+TDD-75 Rescue #4 _A___ ~E -CDGLMNOPR? ␅
+TDD1055387 ␆nnnnn
+TDD-1055382 Rescue #4 _A___ ~E -CDGLMNOPR? nnnnn
+TDD118 attempt: 3 GRIND n n n n n
+TDD-109 Rescue #5 _E_AL ~R -CDGMNOP? ␅
+TDD3216183 ␆nMnnn
+TDD-3216186 Rescue #5 _E_AL ~R -CDGMNOP? nMnnn
+TDD94 attempt: 4 GRIND n m n n n
+TDD-90 Rescue #6 _____ ~EL -ACDGMNOPR? ␅
+TDD1223331 ␆nnYnn
+TDD-1223323 Rescue #6 _____ ~EL -ACDGMNOPR? nnYnn
+TDD67 attempt: 5 GRIND n n Y n n
+TDD-88 Rescue #7 _____ ~EOR -ACDGLMNP? ␅
+TDD1631948 ␆nMnnn
+TDD-1631946 Rescue #7 _____ ~EOR -ACDGLMNP? nMnnn
+TDD79 attempt: 6 GRIND n m n n n
+TDD-81 Rescue #8 _E__L ~D -ACGMNOPR? ␅
+TDD1431688 ␆nnMnM
+TDD-1431655 Rescue #8 _E__L ~D -ACGMNOPR? nnMnM
+TDD119 attempt: 7 GRIND n n m n m
+TDD587233 > ␅
+TDD841124 ␆*
+TDD-1428486 > *
+TDD397 questioning: devil
+TDD-371 Rescue #2 _____ ~AELN -CDGIMOPR? ␅
+TDD4838520 ␆nMnnM
+TDD-4838548 Rescue #2 _____ ~AELN -CDGIMOPR? nMnnM
+TDD117 attempt: 1 DEVIL n m n n m
+TDD-101 Rescue #3 _A___ ~LR -CDEGIMNOP? ␅
+TDD1871441 ␆nnnnM
+TDD-1871458 Rescue #3 _A___ ~LR -CDEGIMNOP? nnnnM
+TDD116 attempt: 2 DEVIL n n n n m
+TDD-105 Rescue #4 _A___ ~E -CDGILMNOPR? ␅
+TDD1087734 ␆nMnnn
+TDD-1087761 Rescue #4 _A___ ~E -CDGILMNOPR? nMnnn
+TDD130 attempt: 3 DEVIL n m n n n
+TDD-92 Rescue #5 _E_AL ~R -CDGIMNOP? ␅
+TDD3943213 ␆nYnnY
+TDD-3943235 Rescue #5 _E_AL ~R -CDGIMNOP? nYnnY
+TDD119 attempt: 4 DEVIL n Y n n Y
+TDD-103 Rescue #6 __I__ ~EL -ACDGMNOPR? ␅
+TDD1615255 ␆nMnMM
+TDD-1615293 Rescue #6 __I__ ~EL -ACDGMNOPR? nMnMM
+TDD103 attempt: 5 DEVIL n m n m m
+TDD-81 Rescue #7 _____ ~EOR -ACDGILMNP? ␅
+TDD2496234 ␆nMnnn
+TDD-2496229 Rescue #7 _____ ~EOR -ACDGILMNP? nMnnn
+TDD128 attempt: 6 DEVIL n m n n n
+TDD-109 Rescue #8 _E__L ~DI -ACGMNOPR? ␅
+TDD1102849 ␆YYYYY
+TDD-1102892 Rescue #8 _E__L ~DI -ACGMNOPR? YYYYY
+TDD69 attempt: 7 DEVIL Y Y Y Y Y
+TDD568815 > ␅
+TDD1542409 ␆*
+TDD-2111274 > *
+TDD522 ? ␅
+TDD1893916 ␆2
+TDD-1894458 ? 2
+TDD71 questioning: ankle
+TDD-16 Rescue #2 _____ ~AELN -CDGIMOPRV? ␅
+TDD4672182 ␆YYYYY
+TDD-4672210 Rescue #2 _____ ~AELN -CDGIMOPRV? YYYYY
+TDD139 attempt: 1 ANKLE Y Y Y Y Y
+TDD-126 Rescue #3 _A___ ~LR -CDEGIMNOPV? ␅
+TDD2935246 ␆MnnYn
+TDD-2935285 Rescue #3 _A___ ~LR -CDEGIMNOPV? MnnYn
+TDD85 attempt: 2 ANKLE m n n Y n
+TDD-77 Rescue #4 _A___ ~E -CDGILMNOPRV? ␅
+TDD1503806 ␆MnnnY
+TDD-1503806 Rescue #4 _A___ ~E -CDGILMNOPRV? MnnnY
+TDD110 attempt: 3 ANKLE m n n n Y
+TDD-100 Rescue #5 _E_AL ~R -CDGIMNOPV? ␅
+TDD3511834 ␆MnnMM
+TDD-3511822 Rescue #5 _E_AL ~R -CDGIMNOPV? MnnMM
+TDD101 attempt: 4 ANKLE m n n m m
+TDD-133 Rescue #6 __I__ ~EL -ACDGMNOPRV? ␅
+TDD1287540 ␆nnnYY
+TDD-1287516 Rescue #6 __I__ ~EL -ACDGMNOPRV? nnnYY
+TDD123 attempt: 5 ANKLE n n n Y Y
+TDD-113 Rescue #7 _____ ~EOR -ACDGILMNPV? ␅
+TDD2776129 ␆nnnnY
+TDD-2776140 Rescue #7 _____ ~EOR -ACDGILMNPV? nnnnY
+TDD128 attempt: 6 ANKLE n n n n Y
+TDD458294 > ␅
+TDD15554006 ␆*
+TDD-16012427 > *
+TDD448 ? ␅
+TDD2143218 ␆2
+TDD-2143669 ? 2
+TDD78 questioning: feral
+TDD-17 Rescue #3 _A_L_ ~R -CDEGIKMNOPV? ␅
+TDD4287207 ␆nnMMM
+TDD-4287262 Rescue #3 _A_L_ ~R -CDEGIKMNOPV? nnMMM
+TDD94 attempt: 2 FERAL n n m m m
+TDD-113 Rescue #4 _A__E -CDGIKLMNOPRV? ␅
+TDD1328177 ␆nMnMn
+TDD-1328137 Rescue #4 _A__E -CDGIKLMNOPRV? nMnMn
+TDD156 attempt: 3 FERAL n m n m n
+TDD-80 Rescue #5 _E_AL ~R -CDGIKMNOPV? ␅
+TDD3030518 ␆YYYYY
+TDD-3030625 Rescue #5 _E_AL ~R -CDGIKMNOPV? YYYYY
+TDD120 attempt: 4 FERAL Y Y Y Y Y
+TDD-100 Rescue #6 __ILE -ACDGKMNOPRV? ␅
+TDD1583426 ␆nMnnM
+TDD-1583430 Rescue #6 __ILE -ACDGKMNOPRV? nMnnM
+TDD109 attempt: 5 FERAL n m n n m
+TDD-112 Rescue #7 ____E ~OR -ACDGIKLMNPV? ␅
+TDD2752507 ␆nMMnn
+TDD-2752532 Rescue #7 ____E ~OR -ACDGIKLMNPV? nMMnn
+TDD72 attempt: 6 FERAL n m m n n
+TDD347817 > ␅
+TDD863311 ␆*
+TDD-1211186 > *
+TDD469 ? ␅
+TDD6998761 ␆2
+TDD-6999247 ? 2
+TDD54 questioning: rally
+TDD-22 Rescue #3 _A_L_ ~R -CDEFGIKMNOPV? ␅
+TDD5383167 ␆YYYYY
+TDD-5383180 Rescue #3 _A_L_ ~R -CDEFGIKMNOPV? YYYYY
+TDD99 attempt: 2 RALLY Y Y Y Y Y
+TDD-89 Rescue #4 _A__E -CDFGIKLMNOPRV? ␅
+TDD1671598 ␆nYnnn
+TDD-1671611 Rescue #4 _A__E -CDFGIKLMNOPRV? nYnnn
+TDD109 attempt: 3 RALLY n Y n n n
+TDD-90 Rescue #6 __ILE -ACDFGKMNOPRV? ␅
+TDD2815480 ␆nnnYn
+TDD-2815495 Rescue #6 __ILE -ACDFGKMNOPRV? nnnYn
+TDD118 attempt: 5 RALLY n n n Y n
+TDD-101 Rescue #7 ____E ~OR -ACDFGIKLMNPV? ␅
+TDD2703702 ␆Mnnnn
+TDD-2703746 Rescue #7 ____E ~OR -ACDFGIKLMNPV? Mnnnn
+TDD108 attempt: 6 RALLY m n n n n
+TDD298959 > ␅
+TDD1280926 ␆*
+TDD-1579973 > *
+TDD628 ? ␅
+TDD2783022 ␆2
+TDD-2783647 ? 2
+TDD85 questioning: haste
+TDD-28 Rescue #4 _A__E -CDFGIKLMNOPRVY? ␅
+TDD4151434 ␆nYYYY
+TDD-4151491 Rescue #4 _A__E -CDFGIKLMNOPRVY? nYYYY
+TDD133 attempt: 3 HASTE n Y Y Y Y
+TDD-121 Rescue #6 __ILE -ACDFGKMNOPRVY? ␅
+TDD3015003 ␆nnnMY
+TDD-3015035 Rescue #6 __ILE -ACDFGKMNOPRVY? nnnMY
+TDD77 attempt: 5 HASTE n n n m Y
+TDD-73 Rescue #7 ____E ~OR -ACDFGIKLMNPVY? ␅
+TDD2608154 ␆nnMnY
+TDD-2608150 Rescue #7 ____E ~OR -ACDFGIKLMNPVY? nnMnY
+TDD71 attempt: 6 HASTE n n m n Y
+TDD260419 > ␅
+TDD606065 ␆*
+TDD-866567 > *
+TDD220 questioning: swore
+TDD-213 Rescue #4 _ASTE -CDFGHIKLMNOPRVY? ␅
+TDD5143595 ␆MnnnY
+TDD-5143580 Rescue #4 _ASTE -CDFGHIKLMNOPRVY? MnnnY
+TDD110 attempt: 3 SWORE m n n n Y
+TDD-86 Rescue #6 __ILE ~T -ACDFGHKMNOPRSVY? ␅
+TDD2879867 ␆nnnnY
+TDD-2879885 Rescue #6 __ILE ~T -ACDFGHKMNOPRSVY? nnnnY
+TDD117 attempt: 5 SWORE n n n n Y
+TDD-101 Rescue #7 ____E ~ORS -ACDFGHIKLMNPTVY? ␅
+TDD2855414 ␆YYYYY
+TDD-2855449 Rescue #7 ____E ~ORS -ACDFGHIKLMNPTVY? YYYYY
+TDD63 attempt: 6 SWORE Y Y Y Y Y
+TDD171882 > ␅
+TDD887734 ␆*
+TDD-1059684 > *
+TDD413 ? ␅
+TDD1976328 ␆2
+TDD-1976737 ? 2
+TDD49 questioning: taste
+TDD-20 Rescue #4 _ASTE -CDFGHIKLMNOPRVWY? ␅
+TDD7270027 ␆YYYYY
+TDD-7270042 Rescue #4 _ASTE -CDFGHIKLMNOPRVWY? YYYYY
+TDD118 attempt: 3 TASTE Y Y Y Y Y
+TDD-96 Rescue #6 __ILE ~T -ACDFGHKMNOPRSVWY? ␅
+TDD4887356 ␆MnnnY
+TDD-4887381 Rescue #6 __ILE ~T -ACDFGHKMNOPRSVWY? MnnnY
+TDD105 attempt: 5 TASTE m n n n Y
+TDD85219 > ␅
+TDD3709500 ␆*
+TDD-3794820 > *
+TDD243 questioning: utile
+TDD-248 Rescue #6 __ILE ~T -ACDFGHKMNOPRSVWY T:1? ␅
+TDD4271020 ␆YYYYY
+TDD-4271022 Rescue #6 __ILE ~T -ACDFGHKMNOPRSVWY T:1? YYYYY
+TDD130 attempt: 5 UTILE Y Y Y Y Y
+TDD-106 📋> ␅
+TDD3225116 ␆Daily Rescue Octordle #1461
+TDD-3225155 📋> Daily Rescue Octordle #1461
+TDD-67 📋> ␅
+TDD41 ␆5️⃣7️⃣
+TDD-49 📋> 5️⃣7️⃣
+TDD0 📋> ␅
+TDD9 ␆9️⃣🕛
+TDD-9 📋> 9️⃣🕛
+TDD0 📋> ␅
+TDD6 ␆8️⃣🕐
+TDD-6 📋> 8️⃣🕐
+TDD0 📋> ␅
+TDD7 ␆🕚6️⃣
+TDD-7 📋> 🕚6️⃣
+TDD0 📋> ␅
+TDD358594 ␆Score: 8
+TDD-358499 📋> Score: 8
+TDD-85 📋> ␅
+TDD287774 ␄
+TDD-287607 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1461\n5\ufe0f\u20e37\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd5b\n8\ufe0f\u20e3\ud83d\udd50\n\ud83d\udd5a6\ufe0f\u20e3\nScore: 8"}
+TDD983 result: "Daily Rescue Octordle #1461\n5\ufe0f\u20e37\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udd5b\n8\ufe0f\u20e3\ud83d\udd50\n\ud83d\udd5a6\ufe0f\u20e3\nScore: 8"
+TDD-1089 📆 2026-01-24 ? ␅
+TDD326915 ␆
+TDD-326912 📆 2026-01-24 ? 
