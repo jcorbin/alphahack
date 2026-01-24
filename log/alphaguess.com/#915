@@ -1,0 +1,48 @@
+T85747.48868531299 now: 2026-01-24T08:23:48EST
+TD97 site: alphaguess.com
+TDD202777 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof 74b901e76c7c37cef814e7f14232825e007b532e
+TDD3497323  ...
+TDD-1371887 [0 : 98220 : 196531] mach? a
+TDD-2328081 progress: 1 98220 mach
+TDD3783308 [98221 : 147373 : 196531] rhotic? a
+TDD-3783293 progress: 1 147373 rhotic
+TDD1903526 [147374 : 171643 : 196531] ta? a
+TDD-1903570 progress: 1 171643 ta
+TDD1951393 [171644 : 182008 : 196531] un? b
+TDD-1951390 progress: -1 182008 un
+TDD2495855 [171644 : 176814 : 182008] toil? a
+TDD-2495859 progress: 1 176814 toil
+TDD1679153 [176815 : 179409 : 182008] tricot? a
+TDD-1679088 progress: 1 179409 tricot
+TDD1816115 [179410 : 180643 : 182008] tum? a
+TDD-1816158 progress: 1 180643 tum
+TDD1863205 [180644 : 181321 : 182008] twirl? b
+TDD-1863184 progress: -1 181321 twirl
+TDD1647794 [180644 : 180933 : 181321] turn? a
+TDD-1647820 progress: 1 180933 turn
+TDD1367671 [180934 : 181127 : 181321] twa? b
+TDD-1367662 progress: -1 181127 twa
+TDD1599463 [180934 : 181030 : 181127] tusche? b
+TDD-1599459 progress: -1 181030 tusche
+TDD1327371 [180934 : 180975 : 181030] turns? a
+TDD-1327412 progress: 1 180975 turns
+TDD1311560 [180976 : 181003 : 181030] turquois? a
+TDD-1311550 progress: 1 181003 turquois
+TDD1527589 [181004 : 181012 : 181030] turtle? it
+TDD-1527589 progress: 0 181012 turtle
+TDD-168 [181004 : 181012 : 181030] <Done>.
+TDD3256475 📋> 🧩 Puzzle #915
+TDD-3256363 📋> 
+TDD-127 📋> 🤔 14 guesses
+TDD152 📋> 
+TDD-151 📋> ⏱️ 24s
+TDD-6 📋> 
+TDD271046 📋> 🔗 alphaguess.com
+TDD-62714 📋> ␚
+TDD-208200 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #915\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 24s\n\n\ud83d\udd17 alphaguess.com"}
+TDD9 result: "\ud83e\udde9 Puzzle #915\n\n\ud83e\udd14 14 guesses\n\n\u23f1\ufe0f 24s\n\n\ud83d\udd17 alphaguess.com"
+TDD-140 result puzzle: 915
+TDD-6 result guesses: 14
+TDD-1 result time: 24s
+TDD0 result link: alphaguess.com
+TDD239006 📆 2026-01-24 ? 
