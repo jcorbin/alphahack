@@ -1818,12 +1818,14 @@ class PromptUI:
             return False
 
     def raw_input(self, prompt: str):
+        self.log(f'{prompt}␅')
         try:
             resp = self.get_input(prompt)
         except EOFError:
-            self.log(f'{prompt}␄')
+            self.log(f'␄')
             raise
-        self.log(f'{prompt}{resp}')
+        self.log(f'␆{resp}')
+        self.log(f'{prompt}{resp}') # TODO deprecated and redundant by above logs
         self.last = 'prompt'
         return resp
 
