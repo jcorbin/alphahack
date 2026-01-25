@@ -317,6 +317,10 @@ class SolverScope:
         self.ix = list(lib.base_ix() if ix is None else ix)
         self.log_file = [lib.proto[i].log_file for i in self.ix]
 
+    def show_list(self, ui: PromptUI):
+        for i, solver_i in enumerate(self.ix):
+            ui.print(f'{i+1}. {self.lib.name[solver_i]}')
+
     def __len__(self):
         return len(self.ix)
 
@@ -523,21 +527,7 @@ class Meta(PromptUI.Arguable[PromptUI.Shell]):
         root['meta/solvers/.'] = self.do_solve
 
         for name, solver_i in solvers:
-            path = f'meta/solvers/{name}'
-            root[path] = {
-                '.': partial(self.do_sol_run, solver_i),
-                'cont': partial(self.do_sol_cont, solver_i),
-                'current': partial(self.do_sol_cur, solver_i),
-                'edit': partial(self.do_sol_edit, solver_i),
-                'fin': partial(self.do_sol_cont, solver_i, give='fin'),
-                'last': partial(self.do_sol_last, solver_i),
-                'ls': partial(self.do_sol_ls, solver_i),
-                'rm': partial(self.do_sol_rm, solver_i),
-                'tail': partial(self.do_sol_tail, solver_i),
-                'variant': partial(self.do_sol_variant, solver_i),
-                # TODO fin / result
-                # TODO share / report
-            }
+            root[f'meta/solvers/{name}'] = self.SolverHarness(self.solvers, solver_i).make_spec()
 
         root['meta/all/rm'] = self.do_all_rm
 
@@ -859,117 +849,160 @@ class Meta(PromptUI.Arguable[PromptUI.Shell]):
         except (EOFError, StopIteration):
             pass
 
-    def do_sol_run(self, solver_i: int, ui: PromptUI):
-        '''
-        run solver
-        '''
-        with self.solvers.run(ui, solver_i=solver_i):
-            pass
+    @final
+    class SolverHarness:
+        def __init__(self, scope: SolverScope, solver_i: int):
+            self.scope = scope
+            self.solver_i = solver_i
+            # TODO use Handle and provide a sub-handle upgrade path through it
 
-    def do_sol_variant(self, solver_i: int, ui: PromptUI):
-        name =self.solvers.lib.name[solver_i]
-        i_notes = tuple(
-            (solver_j, self.solvers.lib.proto[solver_j].note_slug[0])
-            for solver_j in self.solvers.lib.lookup(solver_i))
+        def handle_items(self) -> Generator[PromptUI.Entry]:
+            yield '.', self.do_run
+            yield 'cont', self.do_cont
+            yield 'current', self.do_cur
+            yield 'edit', self.do_edit
+            yield 'fin', self.do_fin
+            yield 'last', self.do_last
+            yield 'ls', self.do_ls
+            # TODO report
+            # TODO result
+            # TODO share 
+            yield 'rm', self.do_rm
+            yield 'run', self.do_run
+            yield 'tail', self.do_tail
+            yield 'variant', self.do_variant
 
-        if not ui.tokens:
-            ui.print(f'{name} variants')
-            for _, note in i_notes: ui.print(f'- {note}')
-            return
+        def make_spec(self):
+            return dict(self.handle_items())
 
-        toke = next(ui.tokens)
-        tok = toke.lower()
-        tok_i_notes = tuple(
-            (i, note)
-            for i, note in i_notes
-            if tok in note.lower())
+        def do_cont(self, ui: PromptUI, give: str=''):
+            '''
+            continue solver run
+            '''
+            with self.scope.run(ui, solver_i=self.solver_i) as (ui, _solver):
+                if give:
+                    ui.tokens.give(give)
 
-        if not tok_i_notes:
-            ui.print(f'! no such {name} variant {toke!r}; choose one of:')
-            for _, note in i_notes: ui.print(f'- {note}')
-            return
+        def do_cur(self, ui: PromptUI):
+            '''
+            use current log file
+            '''
+            j = self.scope.lookup(self.solver_i)
+            if j is not None:
+                proto = solvers.proto[self.solver_i]
+                prior = self.scope.log_file[j]
+                log_file = proto.log_file
+                self.scope.log_file[j] = log_file
+                action = 'Reset' if prior != log_file else 'Current'
+                ui.print(f'{action} log file: {log_file}')
 
-        if len(tok_i_notes) > 1:
-            ui.print(f'! ambiguous {name} variant {toke!r}; may be:')
-            for _, note in tok_i_notes: ui.print(f'- {note}')
-            return
+        def do_edit(self, ui: PromptUI):
+            '''
+            open solver log in $EDITOR
+            '''
+            editor = os.environ.get('EDITOR', 'vi')
+            j = self.scope.lookup(self.solver_i)
+            if j is not None:
+                log_file = self.scope.log_file[j]
+                with ui.check_proc(subprocess.Popen((editor, log_file))):
+                    pass
 
-        assert len(tok_i_notes) == 1
-        solver_j, note = tok_i_notes[0]
-        ui.print(f'running {note} variant of {name}')
-        with self.solvers.run(ui, solver_i=solver_j):
-            pass
+        def do_fin(self, ui: PromptUI):
+            return self.do_cont(ui, give='fin') # TODO fix, not quite right yet
 
-    def do_sol_cont(self, solver_i: int, ui: PromptUI, give: str=''):
-        '''
-        continue solver run
-        '''
-        with self.solvers.run(ui, solver_i=solver_i) as (ui, _solver):
-            if give:
-                ui.tokens.give(give)
+        def do_last(self, ui: PromptUI):
+            '''
+            use latest stored solver log
+            '''
+            proto = solvers.proto[self.solver_i]
+            j = self.scope.lookup(self.solver_i)
+            if j is not None:
+                log_file = proto.find_prior_log(ui, None)
+                if log_file is None:
+                    ui.print(f'! could not find last log file')
+                    return
+                ui.print(f'Found last log_file: {log_file}')
+                self.scope.log_file[j] = log_file
 
-    def do_sol_edit(self, solver_i: int, ui: PromptUI):
-        '''
-        open solver log in $EDITOR
-        '''
-        editor = os.environ.get('EDITOR', 'vi')
-        j = self.solvers.lookup(solver_i)
-        if j is not None:
-            log_file = self.solvers.log_file[j]
-            with ui.check_proc(subprocess.Popen((editor, log_file))):
+        def do_ls(self, ui: PromptUI):
+            '''
+            list and select from stored solver logs
+            '''
+            proto = solvers.proto[self.solver_i]
+            j = self.scope.lookup(self.solver_i)
+            if j is not None:
+                log_file = proto.find_prior_log(ui, '*')
+                if log_file is not None:
+                    ui.print(f'Selected log_file: {log_file}')
+                    self.scope.log_file[j] = log_file
+
+        def do_rm(self, ui: PromptUI):
+            '''
+            remove solver log file
+            '''
+            j = self.scope.lookup(self.solver_i)
+            if j is not None:
+                log_file = self.scope.log_file[j]
+                ui.print(f'+ rm {log_file}')
+                try:
+                    os.unlink(log_file)
+                except OSError as err:
+                    ui.print(f'! {err}')
+
+        def do_run(self, ui: PromptUI):
+            '''
+            run solver
+            '''
+            with self.scope.run(ui, solver_i=self.solver_i):
                 pass
 
-    def do_sol_cur(self, solver_i: int, ui: PromptUI):
-        '''
-        use current log file
-        '''
-        j = self.solvers.lookup(solver_i)
-        if j is not None:
-            proto = solvers.proto[solver_i]
-            prior = self.solvers.log_file[j]
-            log_file = proto.log_file
-            self.solvers.log_file[j] = log_file
-            action = 'Reset' if prior != log_file else 'Current'
-            ui.print(f'{action} log file: {log_file}')
+        def do_tail(self, ui: PromptUI):
+            '''
+            show last N lines from solver log file
+            '''
+            j = self.scope.lookup(self.solver_i)
+            if j is not None:
+                log_file = self.scope.log_file[j]
+                tail_n = (
+                    3 if ui.screen_lines < 10 else
+                    10 if ui.screen_lines < 20 else
+                    ui.screen_lines//2)
+                with ui.check_proc(subprocess.Popen(('tail', f'-n{tail_n}', log_file))):
+                    pass
 
-    def do_sol_last(self, solver_i: int, ui: PromptUI):
-        '''
-        use latest stored solver log
-        '''
-        proto = solvers.proto[solver_i]
-        j = self.solvers.lookup(solver_i)
-        if j is not None:
-            log_file = proto.find_prior_log(ui, None)
-            if log_file is None:
-                ui.print(f'! could not find last log file')
+        def do_variant(self, ui: PromptUI):
+            name =self.scope.lib.name[self.solver_i]
+            i_notes = tuple(
+                (solver_j, self.scope.lib.proto[solver_j].note_slug[0])
+                for solver_j in self.scope.lib.lookup(self.solver_i))
+
+            if not ui.tokens:
+                ui.print(f'{name} variants')
+                for _, note in i_notes: ui.print(f'- {note}')
                 return
-            ui.print(f'Found last log_file: {log_file}')
-            self.solvers.log_file[j] = log_file
 
-    def do_sol_ls(self, solver_i: int, ui: PromptUI):
-        '''
-        list and select from stored solver logs
-        '''
-        proto = solvers.proto[solver_i]
-        j = self.solvers.lookup(solver_i)
-        if j is not None:
-            log_file = proto.find_prior_log(ui, '*')
-            if log_file is not None:
-                ui.print(f'Selected log_file: {log_file}')
-                self.solvers.log_file[j] = log_file
+            toke = next(ui.tokens)
+            tok = toke.lower()
+            tok_i_notes = tuple(
+                (i, note)
+                for i, note in i_notes
+                if tok in note.lower())
 
-    def do_sol_rm(self, solver_i: int, ui: PromptUI):
-        '''
-        remove solver log file
-        '''
-        j = self.solvers.lookup(solver_i)
-        if j is not None:
-            log_file = self.solvers.log_file[j]
-            ui.print(f'+ rm {log_file}')
-            try:
-                os.unlink(log_file)
-            except OSError as err:
-                ui.print(f'! {err}')
+            if not tok_i_notes:
+                ui.print(f'! no such {name} variant {toke!r}; choose one of:')
+                for _, note in i_notes: ui.print(f'- {note}')
+                return
+
+            if len(tok_i_notes) > 1:
+                ui.print(f'! ambiguous {name} variant {toke!r}; may be:')
+                for _, note in tok_i_notes: ui.print(f'- {note}')
+                return
+
+            assert len(tok_i_notes) == 1
+            solver_j, note = tok_i_notes[0]
+            ui.print(f'running {note} variant of {name}')
+            with self.scope.run(ui, solver_i=solver_j):
+                pass
 
     def do_all_rm(self, ui: PromptUI):
         '''
@@ -995,20 +1028,6 @@ class Meta(PromptUI.Arguable[PromptUI.Shell]):
             except OSError as err:
                 if verbose:
                     ui.print(f'! {err}')
-
-    def do_sol_tail(self, solver_i: int, ui: PromptUI):
-        '''
-        show last N lines from solver log file
-        '''
-        j = self.solvers.lookup(solver_i)
-        if j is not None:
-            log_file = self.solvers.log_file[j]
-            tail_n = (
-                3 if ui.screen_lines < 10 else
-                10 if ui.screen_lines < 20 else
-                ui.screen_lines//2)
-            with ui.check_proc(subprocess.Popen(('tail', f'-n{tail_n}', log_file))):
-                pass
 
     def do_review(self, ui: PromptUI):
         try:
