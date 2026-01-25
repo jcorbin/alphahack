@@ -1,0 +1,103 @@
+T41.24856810900383 now: 2026-01-25T08:50:43EST
+TD147 site: alphaguess.com
+TDD108608 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof 328bfa8fd785d581c62f7c4111f3f994c2c894e4
+TDD-108655  ...␅
+TDD65951 ␆
+TDD-65942  ...
+TDD118 [0 : 98220 : 196531] mach? ␅
+TDD6975427 ␆b
+TDD-6975562 [0 : 98220 : 196531] mach? b
+TDD11 progress: -1 98220 mach
+TDD9 [0 : 47382 : 98220] dis? ␅
+TDD1631633 ␆b
+TDD-1631672 [0 : 47382 : 98220] dis? b
+TDD-2 progress: -1 47382 dis
+TDD0 [0 : 23683 : 47382] camp? ␅
+TDD1527673 ␆a
+TDD-1527668 [0 : 23683 : 47382] camp? a
+TDD18 progress: 1 23683 camp
+TDD-22 [23684 : 35526 : 47382] convention? ␅
+TDD2119807 ␆b
+TDD-2119800 [23684 : 35526 : 47382] convention? b
+TDD21 progress: -1 35526 convention
+TDD113 [23684 : 29604 : 35526] circuit? ␅
+TDD1623380 ␆b
+TDD-1623498 [23684 : 29604 : 35526] circuit? b
+TDD9 progress: -1 29604 circuit
+TDD16 [23684 : 26636 : 29604] cep? ␅
+TDD1463496 ␆b
+TDD-1463521 [23684 : 26636 : 29604] cep? b
+TDD8 progress: -1 26636 cep
+TDD-2 [23684 : 25105 : 26636] carp? ␅
+TDD1375534 ␆a
+TDD-1375564 [23684 : 25105 : 26636] carp? a
+TDD3 progress: 1 25105 carp
+TDD4 [25106 : 25587 : 26636] cat? ␅
+TDD1271915 ␆a
+TDD-1271901 [25106 : 25587 : 26636] cat? a
+TDD20 progress: 1 25587 cat
+TDD3 [25588 : 26109 : 26636] cavalier? ␅
+TDD1207485 ␆a
+TDD-1207530 [25588 : 26109 : 26636] cavalier? a
+TDD-1 progress: 1 26109 cavalier
+TDD1 [26110 : 26332 : 26636] cell? ␅
+TDD1623560 ␆b
+TDD-1623539 [26110 : 26332 : 26636] cell? b
+TDD16 progress: -1 26332 cell
+TDD71 [26110 : 26214 : 26332] cease? ␅
+TDD1631701 ␆b
+TDD-1631786 [26110 : 26214 : 26332] cease? b
+TDD24 progress: -1 26214 cease
+TDD58 [26110 : 26160 : 26214] caviar? ␅
+TDD1383383 ␆a
+TDD-1383477 [26110 : 26160 : 26214] caviar? a
+TDD7 progress: 1 26160 caviar
+TDD94 [26161 : 26187 : 26214] cavities? ␅
+TDD1231248 ␆a
+TDD-1231366 [26161 : 26187 : 26214] cavities? a
+TDD0 progress: 1 26187 cavities
+TDD17 [26188 : 26200 : 26214] cay? ␅
+TDD1871646 ␆b
+TDD-1871611 [26188 : 26200 : 26214] cay? b
+TDD-42 progress: -1 26200 cay
+TDD19 [26188 : 26189 : 26200] cavort? ␅
+TDD1319618 ␆b
+TDD-1319623 [26188 : 26189 : 26200] cavort? b
+TDD6 progress: -1 26189 cavort
+TDD98 [26188 : 26188 : 26189] cavity? ␅
+TDD1535558 ␆it
+TDD-1535665 [26188 : 26188 : 26189] cavity? it
+TDD11 progress: 0 26188 cavity
+TDD-70 [26188 : 26188 : 26189] <Done>.
+TDD51 📋> ␅
+TDD2431877 ␆🧩 Puzzle #916
+TDD-2431855 📋> 🧩 Puzzle #916
+TDD-98 📋> ␅
+TDD25 ␆
+TDD-31 📋> 
+TDD-2 📋> ␅
+TDD6 ␆🤔 16 guesses
+TDD-6 📋> 🤔 16 guesses
+TDD0 📋> ␅
+TDD5 ␆
+TDD-5 📋> 
+TDD0 📋> ␅
+TDD5 ␆⏱️ 26s
+TDD-5 📋> ⏱️ 26s
+TDD0 📋> ␅
+TDD4 ␆
+TDD-4 📋> 
+TDD0 📋> ␅
+TDD271487 ␆🔗 alphaguess.com
+TDD-271384 📋> 🔗 alphaguess.com
+TDD-94 📋> ␅
+TDD167770 ␄
+TDD-167642 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #916\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 26s\n\n\ud83d\udd17 alphaguess.com"}
+TDD-62 result: "\ud83e\udde9 Puzzle #916\n\n\ud83e\udd14 16 guesses\n\n\u23f1\ufe0f 26s\n\n\ud83d\udd17 alphaguess.com"
+TDD-68 result puzzle: 916
+TDD-5 result guesses: 16
+TDD-1 result time: 26s
+TDD0 result link: alphaguess.com
+TDD71 📆 2026-01-25 ? ␅
+TDD351608 ␆
+TDD-351592 📆 2026-01-25 ? 
