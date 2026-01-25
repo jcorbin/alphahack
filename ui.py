@@ -461,6 +461,8 @@ class Handle:
 
         if init:
             for key, ent in init:
+                if isinstance(ent, str):
+                    ent = self[key]
                 self[key] = ent
 
         if isinstance(given, str):
