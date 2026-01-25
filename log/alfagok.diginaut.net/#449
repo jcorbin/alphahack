@@ -1,0 +1,94 @@
+T2.13645754600293 now: 2026-01-25T08:50:04EST
+TD170 site: alfagok.diginaut.net
+TDD328850 loaded 399677 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1175 words excluded) asof 328bfa8fd785d581c62f7c4111f3f994c2c894e4
+TDD-328907  ...␅
+TDD2269482 ␆
+TDD-2269486  ...
+TDD130 [0 : 199833 : 399677] lijm? ␅
+TDD7839640 ␆a
+TDD-7839775 [0 : 199833 : 399677] lijm? a
+TDD257 progress: 1 199833 lijm
+TDD-242 [199834 : 299738 : 399677] schub? ␅
+TDD2222994 ␆a
+TDD-2223029 [199834 : 299738 : 399677] schub? a
+TDD9 progress: 1 299738 schub
+TDD-10 [299739 : 349511 : 399677] vakantie? ␅
+TDD1511949 ␆a
+TDD-1511954 [299739 : 349511 : 399677] vakantie? a
+TDD-1 progress: 1 349511 vakantie
+TDD0 [349512 : 374252 : 399677] vrij? ␅
+TDD1439715 ␆b
+TDD-1439685 [349512 : 374252 : 399677] vrij? b
+TDD12 progress: -1 374252 vrij
+TDD23 [349512 : 353079 : 374252] ver? ␅
+TDD1359301 ␆a
+TDD-1359357 [349512 : 353079 : 374252] ver? a
+TDD-8 progress: 1 353079 ver
+TDD42 [353080 : 363662 : 374252] verzot? ␅
+TDD1351565 ␆a
+TDD-1351586 [353080 : 363662 : 374252] verzot? a
+TDD6 progress: 1 363662 verzot
+TDD0 [363663 : 368674 : 374252] voetbal? ␅
+TDD1448046 ␆a
+TDD-1448051 [363663 : 368674 : 374252] voetbal? a
+TDD10 progress: 1 368674 voetbal
+TDD16 [368675 : 370523 : 374252] voor? ␅
+TDD1447136 ␆a
+TDD-1447163 [368675 : 370523 : 374252] voor? a
+TDD5 progress: 1 370523 voor
+TDD6 [370524 : 372375 : 374252] voortplanting? ␅
+TDD1295563 ␆a
+TDD-1295591 [370524 : 372375 : 374252] voortplanting? a
+TDD-1 progress: 1 372375 voortplanting
+TDD1 [372376 : 373246 : 374252] vos? ␅
+TDD1775872 ␆b
+TDD-1775876 [372376 : 373246 : 374252] vos? b
+TDD-5 progress: -1 373246 vos
+TDD84 [372376 : 372809 : 373246] voorwereld? ␅
+TDD1703329 ␆a
+TDD-1703399 [372376 : 372809 : 373246] voorwereld? a
+TDD-4 progress: 1 372809 voorwereld
+TDD16 [372810 : 373020 : 373246] vork? ␅
+TDD1439520 ␆a
+TDD-1439542 [372810 : 373020 : 373246] vork? a
+TDD-3 progress: 1 373020 vork
+TDD-2 [373021 : 373030 : 373246] vorm? ␅
+TDD1560600 ␆a
+TDD-1560568 [373021 : 373030 : 373246] vorm? a
+TDD15 progress: 1 373030 vorm
+TDD208 [373031 : 373138 : 373246] vormloosheid? ␅
+TDD1494294 ␆b
+TDD-1494527 [373031 : 373138 : 373246] vormloosheid? b
+TDD6 progress: -1 373138 vormloosheid
+TDD341 [373031 : 373085 : 373138] vormgeving? ␅
+TDD1359024 ␆a
+TDD-1359370 [373031 : 373085 : 373138] vormgeving? a
+TDD6 progress: 1 373085 vormgeving
+TDD7 [373086 : 373093 : 373138] vorming? ␅
+TDD1623461 ␆it
+TDD-1623471 [373086 : 373093 : 373138] vorming? it
+TDD22 progress: 0 373093 vorming
+TDD-97 [373086 : 373093 : 373138] <Done>.
+TDD87 📋> ␅
+TDD2984464 ␆🧩 Puzzel #449
+TDD-2984505 📋> 🧩 Puzzel #449
+TDD-67 📋> ␅
+TDD17 ␆🤔 16 gokken
+TDD-24 📋> 🤔 16 gokken
+TDD-1 📋> ␅
+TDD4 ␆⏱️ 23s
+TDD-3 📋> ⏱️ 23s
+TDD-1 📋> ␅
+TDD247039 ␆🔗 alfagok.diginaut.net
+TDD-246969 📋> 🔗 alfagok.diginaut.net
+TDD-66 📋> ␅
+TDD159806 ␄
+TDD-159643 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #449\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 23s\n\ud83d\udd17 alfagok.diginaut.net"}
+TDD423 result: "\ud83e\udde9 Puzzel #449\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 23s\n\ud83d\udd17 alfagok.diginaut.net"
+TDD-573 result puzzle: 449
+TDD-9 result guesses: 16
+TDD-2 result time: 23s
+TDD0 result link: alfagok.diginaut.net
+TDD77 📆 2026-01-25 ? ␅
+TDD135436 ␆
+TDD-135420 📆 2026-01-25 ? 
