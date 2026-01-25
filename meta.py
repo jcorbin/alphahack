@@ -317,6 +317,10 @@ class SolverScope:
         self.ix = list(lib.base_ix() if ix is None else ix)
         self.log_file = [lib.proto[i].log_file for i in self.ix]
 
+    def show_list(self, ui: PromptUI):
+        for i, solver_i in enumerate(self.ix):
+            ui.print(f'{i+1}. {self.lib.name[solver_i]}')
+
     def __len__(self):
         return len(self.ix)
 
