@@ -1166,7 +1166,8 @@ class LogTime:
 
     @override
     def __str__(self):
-        return self.tdd_str or self.td_str or self.t_str or 'None'
+        # TODO when is self.tdd_str worth?
+        return self.td_str or self.t_str or 'None'
 
     def items(self) -> Generator[tuple[str, float]]:
         yield 't1', self.t1
