@@ -325,7 +325,7 @@ class Timer:
         obs('done', end, elapsed, final or print)
 
 State = Callable[['PromptUI'], 'State|None']
-Listing = dict[str, 'Listing|State']
+Listing = MutableMapping[str, 'Listing|State']
 Entry = tuple[str, Listing|State]
 
 def descend(par: Listing, name: str) -> Listing:
@@ -431,16 +431,16 @@ class Handle:
             par = cast(Listing, arg)
         else:
             init = arg
-            par = {}
+            par = cast(Listing, {})
 
         if isinstance(par, Handle):
             self.par = par.par
             self.name = par.name
             self.pre_path = par.path
-            self.specials = par.specials.copy()
+            self.specials = dict(par.specials)
 
         else:
-            self.specials = self.std_specials.copy()
+            self.specials = dict(self.std_specials)
             self.specials.update({
                 'cwd': self.do_cwd,
                 'pwd': self.do_cwd,
