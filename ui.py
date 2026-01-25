@@ -2184,6 +2184,7 @@ class PromptUI:
     Dispatcher = Dispatcher
     Prompt = Prompt
     Shell = Shell
+    Handle = Handle
 
     def dispatch(self, spec: dict[str, State|str]):
         return self.Dispatcher(spec)(self)
