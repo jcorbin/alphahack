@@ -425,9 +425,11 @@ class MarkedSpec:
         return self._lines
 
     def assert_no_trailer(self):
-        lines = self.trailer
-        if lines.peek() == '': _ = next(lines)
-        assert list(lines) == []
+        for _ in self.props: pass
+        lines = self._lines
+        if lines is not None:
+            if lines.peek() == '': _ = next(lines)
+            assert list(lines) == []
 
 @final
 class GenThen[Y, R]:
