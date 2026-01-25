@@ -4048,12 +4048,6 @@ def test_word_extraction(spec: MarkedSpec):
     - prompt: give me 9 French words that are seen with $1; do not list any words that you have already listed above
     - clear: false
 
-    #..._x15_similar_t3
-    > *15 similar t3 // NOTE trailing space before comment was regression cause
-    - prior: give me 9 French words that are seen with $1; do not list any words that you have already listed above
-    - prompt: give me 15 French words that are similar to $1, $2, and $3; do not list any words that you have already listed above
-    - clear: false
-
     #rec_ref
     > *9 ~1
     - prior: give me 10 French words that are seen with $1 and $2

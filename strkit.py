@@ -245,7 +245,7 @@ def test_marked_spec_lines():
     ''')) == [
 
         "> first",
-        "- second: thing ",
+        "- second: thing",
         "",
         "> second",
         "- quoted: ```",
@@ -253,7 +253,7 @@ def test_marked_spec_lines():
         "// should not skip",
         "and // should not strip",
         "```",
-        "- back: to ",
+        "- back: to",
         "- but: keep this",
         "",
 
@@ -285,7 +285,7 @@ def uncomment_lines(lines: Iterable[str]):
                 yield line
                 break
             line, _mark, _rem = line.partition('//')
-            yield line
+            yield line.rstrip()
         else:
             break
         for line in it:
