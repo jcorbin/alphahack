@@ -854,6 +854,7 @@ class Meta(PromptUI.Arguable[PromptUI.Shell]):
         def __init__(self, scope: SolverScope, solver_i: int):
             self.scope = scope
             self.solver_i = solver_i
+            # TODO use Handle and provide a sub-handle upgrade path through it
 
         def handle_items(self) -> Generator[PromptUI.Entry]:
             yield '.', self.do_run
