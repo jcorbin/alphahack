@@ -1,0 +1,243 @@
+T786.4543199780164 now: 2026-01-25T09:07:16EST
+TD116 site: squareword.org
+TD24 wordlist: nwl2023.txt
+TD35  ...␅
+TD4815086 ␆#1455
+TD96  ...#1455
+TD108  ...␅
+TD999831 ␆
+TD72  ...
+TD57 🧩  ? ␅
+TD1279787 ␆#1455
+TD75 🧩  ? #1455
+TD192 puzzle_id: #1455
+TD167 > ␅
+TD1048126 ␆*
+TD73 > *
+TD186458 try? ␅
+TD684939 ␆1
+TD100 try? 1
+TD323 questioning: ["nears", "#5"]
+TD391 #1 <IndexError>  📋 "nears" ? ␅
+TD4183523 ␆____S ~ ES
+TD100 #1 <IndexError>  📋 "nears" ? ____S ~ ES
+TD669 attempt 0 NEARS n m n n Y
+TD77 #2 <IndexError>  📋 "nears" ? ␅
+TD3479645 ␆_____ ~ NAR
+TD82 #2 <IndexError>  📋 "nears" ? _____ ~ NAR
+TD219 attempt 1 NEARS m n m m n
+TD94 #3 <IndexError>  📋 "nears" ? ␅
+TD2031144 ␆_____ ~ NER
+TD74 #3 <IndexError>  📋 "nears" ? _____ ~ NER
+TD170 attempt 2 NEARS m m n m n
+TD82 #4 <IndexError>  📋 "nears" ? ␅
+TD2159610 ␆_____ ~ NES
+TD104 #4 <IndexError>  📋 "nears" ? _____ ~ NES
+TD254 attempt 3 NEARS m m n n m
+TD132 #5 <IndexError>  📋 "nears" ? ␅
+TD1903493 ␆_E___ ~ E
+TD82 #5 <IndexError>  📋 "nears" ? _E___ ~ E
+TD182 attempt 4 NEARS n Y n n n
+TD202 ? ␅
+TD303310 ␆
+TD98 ? 
+TD153 question done
+TD322 > ␅
+TD639788 ␆*
+TD102 > *
+TD670259 try? ␅
+TD1817425 ␆1
+TD98 try? 1
+TD305 questioning: ["baron", "#2"]
+TD459 #1 ____S ~E -ANR  📋 "baron" ? ␅
+TD5079069 ␆B___S ~ ES
+TD106 #1 ____S ~E -ANR  📋 "baron" ? B___S ~ ES
+TD283 attempt 0 BARON Y n n n n
+TD177 #2 _____ ~ANR -ES  📋 "baron" ? ␅
+TD2639337 ␆_A___ ~ NR
+TD94 #2 _____ ~ANR -ES  📋 "baron" ? _A___ ~ NR
+TD164 attempt 1 BARON n Y m n m
+TD102 #3 _____ ~ENR -AS  📋 "baron" ? ␅
+TD1127816 ␆.
+TD96 #3 _____ ~ENR -AS  📋 "baron" ? .
+TD286 attempt 2 BARON n n m n m
+TD101 #4 _____ ~ENS -AR  📋 "baron" ? ␅
+TD2935561 ␆_____ ~ NESO
+TD108 #4 _____ ~ENS -AR  📋 "baron" ? _____ ~ NESO
+TD280 attempt 3 BARON n n n m m
+TD102 #5 _E___ -ANRS  📋 "baron" ? ␅
+TD3487612 ␆_E___ ~ E
+TD69 #5 _E___ -ANRS  📋 "baron" ? _E___ ~ E
+TD148 attempt 4 BARON n n n n n
+TD305 ? ␅
+TD247402 ␆
+TD81 ? 
+TD105 question done
+TD182 > ␅
+TD535401 ␆*
+TD81 > *
+TD670162 try? ␅
+TD1874263 ␆1
+TD100 try? 1
+TD284 questioning: ["blues", "#1"]
+TD322 #1 B___S ~E -ANOR  📋 "blues" ? ␅
+TD4479260 ␆BL__S ~ ES
+TD79 #1 B___S ~E -ANOR  📋 "blues" ? BL__S ~ ES
+TD180 attempt 0 BLUES Y Y n m Y
+TD98 #2 _A___ ~NR -BEOS  📋 "blues" ? ␅
+TD2151756 ␆.
+TD119 #2 _A___ ~NR -BEOS  📋 "blues" ? .
+TD380 attempt 1 BLUES n n n n n
+TD129 #3 _____ ~ENR -ABOS  📋 "blues" ? ␅
+TD4247011 ␆___E_ ~ NRU
+TD96 #3 _____ ~ENR -ABOS  📋 "blues" ? ___E_ ~ NRU
+TD265 attempt 2 BLUES n n m Y n
+TD155 #4 _____ ~ENOS -ABR  📋 "blues" ? ␅
+TD1815590 ␆.
+TD102 #4 _____ ~ENOS -ABR  📋 "blues" ? .
+TD277 attempt 3 BLUES n n n m m
+TD112 #5 _E___ -ABNORS  📋 "blues" ? ␅
+TD1991450 ␆_E_E_
+TD102 #5 _E___ -ABNORS  📋 "blues" ? _E_E_
+TD257 attempt 4 BLUES n n n Y n
+TD276 ? ␅
+TD383495 ␆
+TD105 ? 
+TD135 question done
+TD416 > ␅
+TD551521 ␆*
+TD97 > *
+TD589585 questioning: ["under", "#3"]
+TD188 #1 BL__S ~E -ANORU  📋 "under" ? ␅
+TD12057951 ␆BL__S ~ ES
+TD114 #1 BL__S ~E -ANORU  📋 "under" ? BL__S ~ ES
+TD270 attempt 0 UNDER n n n m n
+TD162 #2 _A___ ~NR -BELOSU  📋 "under" ? ␅
+TD2007477 ␆.
+TD109 #2 _A___ ~NR -BELOSU  📋 "under" ? .
+TD333 attempt 1 UNDER n m n n m
+TD115 #3 ___E_ ~NRU -ABLOS  📋 "under" ? ␅
+TD1087414 ␆/it
+TD100 #3 ___E_ ~NRU -ABLOS  📋 "under" ? /it
+TD264 attempt 2 UNDER Y Y Y Y Y
+TD104 #4 _____ ~ENOS -ABLRU  📋 "under" ? ␅
+TD1079635 ␆.
+TD97 #4 _____ ~ENOS -ABLRU  📋 "under" ? .
+TD277 attempt 3 UNDER n m n m n
+TD106 #5 _E_E_ -ABLNORSU  📋 "under" ? ␅
+TD2391362 ␆_E_E_ ~ D
+TD103 #5 _E_E_ -ABLNORSU  📋 "under" ? _E_E_ ~ D
+TD282 attempt 4 UNDER n n m Y n
+TD386 ? ␅
+TD447543 ␆
+TD98 ? 
+TD118 question done
+TD308 > ␅
+TD903238 ␆*
+TD105 > *
+TD1798566 questioning: ["scone", "#4"]
+TD194 #1 BL__S ~E -ADNORU  📋 "scone" ? ␅
+TD7561751 ␆BL__S ~ ES
+TD105 #1 BL__S ~E -ADNORU  📋 "scone" ? BL__S ~ ES
+TD174 attempt 0 SCONE m n n n m
+TD98 #2 _A___ ~NR -BDELOSU  📋 "scone" ? ␅
+TD2720078 ␆_A___ ~ NRC
+TD115 #2 _A___ ~NR -BDELOSU  📋 "scone" ? _A___ ~ NRC
+TD270 attempt 1 SCONE n m n m n
+TD170 #4 _____ ~ENOS -ABDLRU  📋 "scone" ? ␅
+TD1582574 ␆/it
+TD96 #4 _____ ~ENOS -ABDLRU  📋 "scone" ? /it
+TD241 attempt 3 SCONE Y Y Y Y Y
+TD182 #5 _E_E_ ~D -ABLNORSU  📋 "scone" ? ␅
+TD2551769 ␆.
+TD121 #5 _E_E_ ~D -ABLNORSU  📋 "scone" ? .
+TD310 attempt 4 SCONE n n n n n
+TD279 ? ␅
+TD167731 ␆
+TD103 ? 
+TD126 question done
+TD369 > ␅
+TD486746 ␆*
+TD95 > *
+TD1805854 questioning: ["bless", "#1"]
+TD195 #1 BL__S ~E -ACDNORU  📋 "bless" ? ␅
+TD2473775 ␆/it
+TD117 #1 BL__S ~E -ACDNORU  📋 "bless" ? /it
+TD333 attempt 0 BLESS Y Y Y Y Y
+TD156 #2 _A___ ~CNR -BDELOSU  📋 "bless" ? ␅
+TD2815477 ␆.
+TD105 #2 _A___ ~CNR -BDELOSU  📋 "bless" ? .
+TD278 attempt 1 BLESS n n n n n
+TD134 #5 _E_E_ ~D -ABCELNORSU  📋 "bless" ? ␅
+TD775402 ␆.
+TD109 #5 _E_E_ ~D -ABCELNORSU  📋 "bless" ? .
+TD323 attempt 4 BLESS n n n n n
+TD375 ? ␅
+TD151264 ␆
+TD109 ? 
+TD130 question done
+TD381 > ␅
+TD423356 ␆*
+TD97 > *
+TD1334721 questioning: ["ranch", "#2"]
+TD192 #2 _A___ ~CNR -BDELOSU  📋 "ranch" ? ␅
+TD2656898 ␆/it
+TD99 #2 _A___ ~CNR -BDELOSU  📋 "ranch" ? /it
+TD269 attempt 1 RANCH Y Y Y Y Y
+TD121 #5 _E_E_ ~D -ABCELNORSU  📋 "ranch" ? ␅
+TD4343652 ␆_E_E_ ~ DH
+TD98 #5 _E_E_ ~D -ABCELNORSU  📋 "ranch" ? _E_E_ ~ DH
+TD265 attempt 4 RANCH n n n n m
+TD341 ? ␅
+TD375371 ␆
+TD73 ? 
+TD82 question done
+TD196 > ␅
+TD575469 ␆*
+TD76 > *
+TD928126 questioning: ["hewed", "#5"]
+TD201 #5 _E_E_ ~DH -ABCELNORSU  📋 "hewed" ? ␅
+TD3447535 ␆/it
+TD84 #5 _E_E_ ~DH -ABCELNORSU  📋 "hewed" ? /it
+TD200 attempt 4 HEWED Y Y Y Y Y
+TD218 ? ␅
+TD471561 ␆
+TD85 ? 
+TD94 question done
+TD18981 📋> ␅
+TD4837568 ␆squareword.org 1455: 8 guesses
+TD73 📋> squareword.org 1455: 8 guesses
+TD8 📋> ␅
+TD30 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD9 ␆🟩🟩🟨🟨🟩
+TD3 📋> 🟩🟩🟨🟨🟩
+TD2 📋> ␅
+TD6 ␆🟨🟩🟨🟨🟨
+TD2 📋> 🟨🟩🟨🟨🟨
+TD2 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟨🟩🟨🟩🟨
+TD2 📋> 🟨🟩🟨🟩🟨
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD8 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD303095 ␆#squareword #squareword1455
+TD75 📋> #squareword #squareword1455
+TD8 📋> ␅
+TD175985 ␄
+TD174 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1455: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1455"}
+TD876 result: "squareword.org 1455: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1455"
+TD67 📆 2026-01-25 ? ␅
+TD215340 ␆
+TD121 📆 2026-01-25 ? 
