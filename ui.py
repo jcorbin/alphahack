@@ -2220,6 +2220,8 @@ class PromptUI:
         return f'{st}'
 
     State = State
+    Listing = Listing
+    Entry = Entry
 
     Next = Next
     Troff = Next(set_tracing=False)
