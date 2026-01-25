@@ -1,0 +1,175 @@
+T1694.1988283600076 now: 2026-01-25T09:22:24EST
+TD108 site: m-w.com/games/quordle/#/rescue
+TD11 wordlist: nwl2023.txt
+TD3 num_words: 4
+TD69  ...␅
+TD3606125 ␆
+TD71  ...
+TD380383 > ␅
+TD4371490 ␆tried trait radio
+TD71 > tried trait radio
+TD298 questioning: TRAIT RADIO
+TD107 Rescue #1 _____? ␅
+TD2319717 ␆nMnnn
+TD70 Rescue #1 _____? nMnnn
+TD128 attempt: 0 TRAIT n m n n n
+TD57 Rescue #1 _____ ~R -AIT? ␅
+TD1727845 ␆MnnnM
+TD99 Rescue #1 _____ ~R -AIT? MnnnM
+TD241 attempt: 0 RADIO m n n n m
+TD100 Rescue #2 _____? ␅
+TD2863816 ␆YnYnY
+TD107 Rescue #2 _____? YnYnY
+TD269 attempt: 1 TRAIT Y n Y n Y
+TD112 Rescue #2 T_A_T -IR? ␅
+TD2103265 ␆nMnnM
+TD73 Rescue #2 T_A_T -IR? nMnnM
+TD136 attempt: 1 RADIO n m n n m
+TD62 Rescue #3 _____? ␅
+TD2591787 ␆nnnnY
+TD61 Rescue #3 _____? nnnnY
+TD134 attempt: 2 TRAIT n n n n Y
+TD67 Rescue #3 ____T -AIR? ␅
+TD3320177 ␆nnnnn
+TD97 Rescue #3 ____T -AIR? nnnnn
+TD224 attempt: 2 RADIO n n n n n
+TD100 Rescue #4 _____? ␅
+TD1703095 ␆nMYnn
+TD71 Rescue #4 _____? nMYnn
+TD136 attempt: 3 TRAIT n m Y n n
+TD64 Rescue #4 __A__ ~R -IT? ␅
+TD1247987 ␆MMnnn
+TD108 Rescue #4 __A__ ~R -IT? MMnnn
+TD232 attempt: 3 RADIO m m n n n
+TD324127 > ␅
+TD771422 ␆*
+TD76 > *
+TD301 questioning: toast
+TD61 Rescue #1 _____ ~OR -ADIT? ␅
+TD6551531 ␆nYnnn
+TD106 Rescue #1 _____ ~OR -ADIT? nYnnn
+TD238 attempt: 0 TOAST n Y n n n
+TD113 Rescue #2 T_A_T ~O -DIR? ␅
+TD1391399 ␆YYYYY
+TD83 Rescue #2 T_A_T ~O -DIR? YYYYY
+TD146 attempt: 1 TOAST Y Y Y Y Y
+TD80 Rescue #3 ____T -ADIOR? ␅
+TD6071812 ␆nnnYY
+TD72 Rescue #3 ____T -ADIOR? nnnYY
+TD143 attempt: 2 TOAST n n n Y Y
+TD70 Rescue #4 __A__ ~R -DIOT? ␅
+TD1399789 ␆nnYMn
+TD121 Rescue #4 __A__ ~R -DIOT? nnYMn
+TD159 attempt: 3 TOAST n n Y m n
+TD232758 > ␅
+TD1446936 ␆*
+TD78 > *
+TD4416 ? ␅
+TD1395511 ␆1
+TD93 ? 1
+TD184 questioning: coper
+TD145 Rescue #1 _O___ ~R -ADIST? ␅
+TD2935626 ␆nYnnM
+TD81 Rescue #1 _O___ ~R -ADIST? nYnnM
+TD146 attempt: 0 COPER n Y n n m
+TD69 Rescue #3 ___ST -ADIOR? ␅
+TD2311823 ␆YnnMn
+TD110 Rescue #3 ___ST -ADIOR? YnnMn
+TD252 attempt: 2 COPER Y n n m n
+TD128 Rescue #4 __A__ ~RS -DIOT? ␅
+TD2223394 ␆nnMnM
+TD108 Rescue #4 __A__ ~RS -DIOT? nnMnM
+TD230 attempt: 3 COPER n n m n m
+TD243253 > ␅
+TD1180408 ␆*
+TD107 > *
+TD436 questioning: chest
+TD120 Rescue #1 _O___ ~R -ACDEIPST? ␅
+TD3535425 ␆nnnnn
+TD99 Rescue #1 _O___ ~R -ACDEIPST? nnnnn
+TD230 attempt: 0 CHEST n n n n n
+TD119 Rescue #3 C__ST ~E -ADIOPR? ␅
+TD1455597 ␆YYYYY
+TD99 Rescue #3 C__ST ~E -ADIOPR? YYYYY
+TD230 attempt: 2 CHEST Y Y Y Y Y
+TD135 Rescue #4 __A__ ~PRS -CDEIOT? ␅
+TD1847554 ␆nnnMn
+TD96 Rescue #4 __A__ ~PRS -CDEIOT? nnnMn
+TD232 attempt: 3 CHEST n n n m n
+TD149106 > ␅
+TD2402472 ␆*
+TD79 > *
+TD436 ? ␅
+TD1695503 ␆1
+TD84 ? 1
+TD118 questioning: spark
+TD95 Rescue #1 _O___ ~R -ACDEHIPST? ␅
+TD4936378 ␆nnnYn
+TD71 Rescue #1 _O___ ~R -ACDEHIPST? nnnYn
+TD136 attempt: 0 SPARK n n n Y n
+TD68 Rescue #4 __A__ ~PRS -CDEHIOT? ␅
+TD1159795 ␆YYYYY
+TD74 Rescue #4 __A__ ~PRS -CDEHIOT? YYYYY
+TD147 attempt: 3 SPARK Y Y Y Y Y
+TD81032 > ␅
+TD1166231 ␆*
+TD71 > *
+TD677 ? ␅
+TD2319143 ␆1
+TD88 ? 1
+TD148 questioning: yourn
+TD116 Rescue #1 _O_R_ -ACDEHIKPST? ␅
+TD1167669 ␄
+TD111 <EOF>
+TD90016 > ␅
+TD789800 ␆*
+TD82 > *
+TD446 ? ␅
+TD2775906 ␆4
+TD79 ? 4
+TD127 questioning: mourn
+TD99 Rescue #1 _O_R_ -ACDEHIKPST? ␅
+TD3663720 ␆nYnYn
+TD117 Rescue #1 _O_R_ -ACDEHIKPST? nYnYn
+TD344 attempt: 0 MOURN n Y n Y n
+TD74724 > ␅
+TD660615 ␆*
+TD108 > *
+TD621 ? ␅
+TD1383177 ␆1
+TD99 ? 1
+TD181 questioning: worry
+TD150 Rescue #1 _O_R_ -ACDEHIKMNPSTU? ␅
+TD2831573 ␆nYYYY
+TD96 Rescue #1 _O_R_ -ACDEHIKMNPSTU? nYYYY
+TD228 attempt: 0 WORRY n Y Y Y Y
+TD85404 > ␅
+TD410281 ␆*
+TD100 > *
+TD446 questioning: lorry
+TD136 Rescue #1 _ORRY -ACDEHIKMNPSTUW? ␅
+TD2607295 ␆YYYYY
+TD64 Rescue #1 _ORRY -ACDEHIKMNPSTUW? YYYYY
+TD132 attempt: 0 LORRY Y Y Y Y Y
+TD61 📋> ␅
+TD4464508 ␆Daily Rescue 76
+TD111 📋> Daily Rescue 76
+TD16 📋> ␅
+TD48 ␆9️⃣3️⃣
+TD7 📋> 9️⃣3️⃣
+TD6 📋> ␅
+TD13 ␆5️⃣6️⃣
+TD5 📋> 5️⃣6️⃣
+TD5 📋> ␅
+TD11 ␆m-w.com/games/quordle/
+TD17 📋> m-w.com/games/quordle/
+TD9 📋> ␅
+TD279043 ␆
+TD102 📋> 
+TD15 📋> ␅
+TD176004 ␄
+TD207 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 76\n9\ufe0f\u20e33\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD198 result: "Daily Rescue 76\n9\ufe0f\u20e33\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD98 📆 2026-01-25 ? ␅
+TD183582 ␆
+TD86 📆 2026-01-25 ? 
