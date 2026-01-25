@@ -447,10 +447,10 @@ def match_between(
             yield 0, token
 
         elif inside:
-            yield -1, token
+            yield 1, token
 
         else:
-            yield 1, token
+            yield -1, token
 
 def test_match_between():
     assert list(match_between(
