@@ -3697,7 +3697,7 @@ class Result:
     > </html>
     - lang: French
     - puzzle_id: #1069
-    - pubtime: 1738537200.0
+    - pubtime: 23:00:00 // aka 1738537200.0
     - scale: 🧊 : -100.0
     - scale: 🥶 :    0.0
     - scale: 😎 :   17.6
