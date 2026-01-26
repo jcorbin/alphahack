@@ -1,0 +1,168 @@
+T1547.2157198850182 now: 2026-01-26T09:23:10EST
+TD131 site: m-w.com/games/quordle/#/rescue
+TD24 wordlist: nwl2023.txt
+TD8 num_words: 4
+TD132  ...␅
+TD1061529 ␆
+TD109  ...
+TD413781 > ␅
+TD16015694 ␆tried devil filly
+TD110 > tried devil filly
+TD401 questioning: DEVIL FILLY
+TD139 Rescue #1 _____? ␅
+TD2187912 ␆nMnnn
+TD83 Rescue #1 _____? nMnnn
+TD175 attempt: 0 DEVIL n m n n n
+TD69 Rescue #1 _____ ~E -DILV? ␅
+TD6475798 ␆nnnnn
+TD79 Rescue #1 _____ ~E -DILV? nnnnn
+TD156 attempt: 0 FILLY n n n n n
+TD68 Rescue #2 _____? ␅
+TD2061227 ␆nnnMn
+TD101 Rescue #2 _____? nnnMn
+TD277 attempt: 1 DEVIL n n n m n
+TD110 Rescue #2 _____ ~I -DELV? ␅
+TD1325534 ␆nMnnn
+TD99 Rescue #2 _____ ~I -DELV? nMnnn
+TD238 attempt: 1 FILLY n m n n n
+TD75 Rescue #3 _____? ␅
+TD2023703 ␆nMnYn
+TD133 Rescue #3 _____? nMnYn
+TD222 attempt: 2 DEVIL n m n Y n
+TD78 Rescue #3 ___I_ ~E -DLV? ␅
+TD1197442 ␆nMnnn
+TD77 Rescue #3 ___I_ ~E -DLV? nMnnn
+TD168 attempt: 2 FILLY n m n n n
+TD69 Rescue #4 _____? ␅
+TD1324636 ␆nMnMn
+TD101 Rescue #4 _____? nMnMn
+TD249 attempt: 3 DEVIL n m n m n
+TD100 Rescue #4 _____ ~EI -DLV? ␅
+TD1213809 ␆nMnnn
+TD84 Rescue #4 _____ ~EI -DLV? nMnnn
+TD166 attempt: 3 FILLY n m n n n
+TD373578 > ␅
+TD833867 ␆*
+TD94 > *
+TD7861 ? ␅
+TD1375335 ␆1
+TD114 ? 1
+TD173 questioning: oater
+TD146 Rescue #1 _____ ~E -DFILVY? ␅
+TD4672221 ␆nMnMM
+TD71 Rescue #1 _____ ~E -DFILVY? nMnMM
+TD157 attempt: 0 OATER n m n m m
+TD77 Rescue #2 _____ ~I -DEFLVY? ␅
+TD1069316 ␆nnnnn
+TD89 Rescue #2 _____ ~I -DEFLVY? nnnnn
+TD157 attempt: 1 OATER n n n n n
+TD78 Rescue #3 ___I_ ~E -DFLVY? ␅
+TD2210935 ␆nnYMn
+TD92 Rescue #3 ___I_ ~E -DFLVY? nnYMn
+TD225 attempt: 2 OATER n n Y m n
+TD106 Rescue #4 _____ ~EI -DFLVY? ␅
+TD1381790 ␆nnnYY
+TD69 Rescue #4 _____ ~EI -DFLVY? nnnYY
+TD134 attempt: 3 OATER n n n Y Y
+TD314722 > ␅
+TD1998505 ␆*
+TD101 > *
+TD544 ? ␅
+TD2514578 ␄
+TD152 <EOF>
+TD321124 > ␅
+TD1854506 ␆* 2
+TD70 > * 2
+TD75030 ? ␅
+TD1558270 ␆1
+TD94 ? 1
+TD183 questioning: snick
+TD153 Rescue #1 _____ ~AER -DFILOTVY? ␅
+TD4151337 ␆nnnnY
+TD90 Rescue #1 _____ ~AER -DFILOTVY? nnnnY
+TD216 attempt: 0 SNICK n n n n Y
+TD102 Rescue #2 _____ ~I -ADEFLORTVY? ␅
+TD1990208 ␆nnYYn
+TD105 Rescue #2 _____ ~I -ADEFLORTVY? nnYYn
+TD211 attempt: 1 SNICK n n Y Y n
+TD104 Rescue #3 __TI_ ~E -ADFLORVY? ␅
+TD1462118 ␆nnMMn
+TD96 Rescue #3 __TI_ ~E -ADFLORVY? nnMMn
+TD186 attempt: 2 SNICK n n m m n
+TD75 Rescue #4 ___ER ~I -ADFLOTVY? ␅
+TD1402200 ␆nnYMn
+TD118 Rescue #4 ___ER ~I -ADFLOTVY? nnYMn
+TD222 attempt: 3 SNICK n n Y m n
+TD349230 > ␅
+TD859797 ␆*
+TD94 > *
+TD432 questioning: which
+TD130 Rescue #1 ____K ~AER -CDFILNOSTVY? ␅
+TD3276042 ␆Ynnnn
+TD98 Rescue #1 ____K ~AER -CDFILNOSTVY? Ynnnn
+TD217 attempt: 0 WHICH Y n n n n
+TD112 Rescue #2 __IC_ -ADEFKLNORSTVY? ␅
+TD1464041 ␆YYYYY
+TD91 Rescue #2 __IC_ -ADEFKLNORSTVY? YYYYY
+TD248 attempt: 1 WHICH Y Y Y Y Y
+TD156 Rescue #3 __TI_ ~CE -ADFKLNORSVY? ␅
+TD1662571 ␆nnMMn
+TD97 Rescue #3 __TI_ ~CE -ADFKLNORSVY? nnMMn
+TD216 attempt: 2 WHICH n n m m n
+TD124 Rescue #4 __IER ~C -ADFKLNOSTVY? ␅
+TD1269366 ␆nnYMn
+TD95 Rescue #4 __IER ~C -ADFKLNOSTVY? nnYMn
+TD213 attempt: 3 WHICH n n Y m n
+TD251271 > ␅
+TD807387 ␆*
+TD94 > *
+TD287 questioning: wreak
+TD70 Rescue #1 W___K ~AER -CDFHILNOSTVY? ␅
+TD3432025 ␆YYYYY
+TD96 Rescue #1 W___K ~AER -CDFHILNOSTVY? YYYYY
+TD216 attempt: 0 WREAK Y Y Y Y Y
+TD116 Rescue #3 __TI_ ~CE -ADFHKLNORSVWY? ␅
+TD3417508 ␆nnMnn
+TD77 Rescue #3 __TI_ ~CE -ADFHKLNORSVWY? nnMnn
+TD217 attempt: 2 WREAK n n m n n
+TD196 Rescue #4 __IER ~C -ADFHKLNOSTVWY? ␅
+TD1750366 ␆nYMnn
+TD98 Rescue #4 __IER ~C -ADFHKLNOSTVWY? nYMnn
+TD239 attempt: 3 WREAK n Y m n n
+TD153082 > ␅
+TD818634 ␆*
+TD72 > *
+TD278 questioning: cutie
+TD67 Rescue #3 __TI_ ~CE -ADFHKLNORSVWY? ␅
+TD3986969 ␆YYYYY
+TD95 Rescue #3 __TI_ ~CE -ADFHKLNORSVWY? YYYYY
+TD206 attempt: 2 CUTIE Y Y Y Y Y
+TD86 Rescue #4 _RIER ~C -ADFHKLNOSTVWY? ␅
+TD2855297 ␆YnnMM
+TD78 Rescue #4 _RIER ~C -ADFHKLNOSTVWY? YnnMM
+TD161 attempt: 3 CUTIE Y n n m m
+TD66 📋> ␅
+TD1610967 ␆
+TD98 📋> 
+TD13 📋> ␅
+TD10804308 ␆Daily Rescue 77
+TD113 📋> Daily Rescue 77
+TD35 📋> ␅
+TD77 ␆6️⃣5️⃣
+TD10 📋> 6️⃣5️⃣
+TD9 📋> ␅
+TD18 ␆7️⃣8️⃣
+TD8 📋> 7️⃣8️⃣
+TD8 📋> ␅
+TD16 ␆m-w.com/games/quordle/
+TD8 📋> m-w.com/games/quordle/
+TD8 📋> ␅
+TD312048 ␆
+TD97 📋> 
+TD12 📋> ␅
+TD321780 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\nDaily Rescue 77\n6\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD204 result: "\nDaily Rescue 77\n6\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD92 📆 2026-01-26 ? ␅
+TD332140 ␆
+TD99 📆 2026-01-26 ? 
