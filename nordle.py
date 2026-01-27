@@ -528,25 +528,20 @@ class Nordle(StoredLog):
         usage: `guess [<N>] [-v] [-jitter <prop>] [...chooser options...]`
         '''
 
-        def select(words: Sequence[str], jitter: float = 0.5):
+        def select(words: Sequence[str]):
             # TODO cross-score with other unsolved words
 
             diag = DiagScores(words)
             scores = diag.scores
 
-            rand = None if jitter == 0 else RandScores(scores, jitter=jitter)
-            if rand is not None:
-                scores = rand.scores
-
             def annotate(i: int) -> Generator[str]:
-                if rand is not None:
-                    yield from rand.explain(i)
                 yield from diag.explain(i)
                 wf_parts = list(diag.explain_wf(i))
                 if wf_parts:
                     yield f'WF:{" ".join(wf_parts)}'
                 yield f'LF:{" ".join(diag.explain_lf(i))}'
                 yield f'LF norm:{" ".join(diag.explain_lf_norm(i))}'
+
             return scores, annotate
 
         may_rand = Randomized(select, show_n=show_n)
