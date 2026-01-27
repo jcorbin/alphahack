@@ -1,0 +1,102 @@
+T3.872510482004145 now: 2026-01-27T08:25:16EST
+TD96 site: alfagok.diginaut.net
+TD365806 loaded 399678 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1174 words excluded) asof f628270bbdd91bcbd2f3f7fc279c8e74990c5a6a
+TD183  ...␅
+TD7616645 ␆
+TD109  ...
+TD236 [0 : 199833 : 399678] lijm? ␅
+TD3335724 ␆b
+TD110 [0 : 199833 : 399678] lijm? b
+TD346 progress: -1 199833 lijm
+TD129 [0 : 99758 : 199833] ex? ␅
+TD1559543 ␆b
+TD79 [0 : 99758 : 199833] ex? b
+TD91 progress: -1 99758 ex
+TD80 [0 : 49849 : 99758] boks? ␅
+TD1751538 ␆b
+TD109 [0 : 49849 : 99758] boks? b
+TD107 progress: -1 49849 boks
+TD118 [0 : 24910 : 49849] bad? ␅
+TD1375923 ␆a
+TD97 [0 : 24910 : 49849] bad? a
+TD112 progress: 1 24910 bad
+TD120 [24911 : 37364 : 49849] bescherm? ␅
+TD1399583 ␆a
+TD73 [24911 : 37364 : 49849] bescherm? a
+TD73 progress: 1 37364 bescherm
+TD75 [37365 : 43070 : 49849] bij? ␅
+TD1551562 ␆b
+TD74 [37365 : 43070 : 49849] bij? b
+TD75 progress: -1 43070 bij
+TD71 [37365 : 39999 : 43070] beurs? ␅
+TD1383800 ␆a
+TD76 [37365 : 39999 : 43070] beurs? a
+TD84 progress: 1 39999 beurs
+TD72 [40000 : 41516 : 43070] bewijs? ␅
+TD1624183 ␆b
+TD74 [40000 : 41516 : 43070] bewijs? b
+TD75 progress: -1 41516 bewijs
+TD162 [40000 : 40754 : 41516] bevoel? ␅
+TD1503572 ␆a
+TD108 [40000 : 40754 : 41516] bevoel? a
+TD117 progress: 1 40754 bevoel
+TD119 [40755 : 41059 : 41516] bewaar? ␅
+TD1399569 ␆a
+TD103 [40755 : 41059 : 41516] bewaar? a
+TD106 progress: 1 41059 bewaar
+TD104 [41060 : 41287 : 41516] beweging? ␅
+TD1543695 ␆b
+TD104 [41060 : 41287 : 41516] beweging? b
+TD128 progress: -1 41287 beweging
+TD146 [41060 : 41151 : 41287] bewaking? ␅
+TD1383639 ␆a
+TD82 [41060 : 41151 : 41287] bewaking? a
+TD85 progress: 1 41151 bewaking
+TD90 [41152 : 41217 : 41287] bewas? ␅
+TD1415663 ␆a
+TD73 [41152 : 41217 : 41287] bewas? a
+TD73 progress: 1 41217 bewas
+TD67 [41218 : 41232 : 41287] beweeg? ␅
+TD1343727 ␆a
+TD81 [41218 : 41232 : 41287] beweeg? a
+TD77 progress: 1 41232 beweeg
+TD110 [41233 : 41260 : 41287] beweegoffers? ␅
+TD1439775 ␆a
+TD99 [41233 : 41260 : 41287] beweegoffers? a
+TD109 progress: 1 41260 beweegoffers
+TD151 [41261 : 41273 : 41287] beweer? ␅
+TD1295691 ␆a
+TD99 [41261 : 41273 : 41287] beweer? a
+TD109 progress: 1 41273 beweer
+TD240 [41274 : 41279 : 41287] bewegelijk? ␅
+TD1423921 ␆a
+TD80 [41274 : 41279 : 41287] bewegelijk? a
+TD85 progress: 1 41279 bewegelijk
+TD127 [41280 : 41282 : 41287] bewegen? ␅
+TD1647673 ␆it
+TD82 [41280 : 41282 : 41287] bewegen? it
+TD77 progress: 0 41282 bewegen
+TD16 [41280 : 41282 : 41287] <Done>.
+TD69 📋> ␅
+TD6144345 ␆🧩 Puzzel #451
+TD96 📋> 🧩 Puzzel #451
+TD12 📋> ␅
+TD37 ␆🤔 18 gokken
+TD3 📋> 🤔 18 gokken
+TD3 📋> ␅
+TD6 ␆⏱️ 25s
+TD3 📋> ⏱️ 25s
+TD2 📋> ␅
+TD319255 ␆🔗 alfagok.diginaut.net
+TD109 📋> 🔗 alfagok.diginaut.net
+TD17 📋> ␅
+TD543933 ␄
+TD183 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #451\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 25s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD567 result: "\ud83e\udde9 Puzzel #451\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 25s\n\ud83d\udd17 alfagok.diginaut.net"
+TD9 result puzzle: 451
+TD3 result guesses: 18
+TD2 result time: 25s
+TD2 result link: alfagok.diginaut.net
+TD58 📆 2026-01-27 ? ␅
+TD599487 ␆
+TD117 📆 2026-01-27 ? 
