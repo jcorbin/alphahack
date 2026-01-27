@@ -548,8 +548,12 @@ class Randomized[Dat]:
 
             def annotate(i: int) -> Generator[str]:
                 if rand is not None:
+                    yield '('
+                    yield from explain(i)
+                    yield ')'
                     yield from rand.explain(i)
-                yield from explain(i)
+                else:
+                    yield from explain(i)
 
             return scores, annotate
 
