@@ -10,7 +10,7 @@ from functools import partial
 from itertools import chain
 from typing import Callable, cast, final, overload, override
 
-from sortem import Chooser, DiagScores, Possible, RandScores, wrap_item
+from sortem import DiagScores, Possible, Randomized, wrap_item
 from store import StoredLog, git_txn
 from strkit import MarkedSpec, PeekStr, spliterate
 from ui import PromptUI
@@ -371,7 +371,6 @@ class Search(StoredLog):
     def score_words(self,
                     word_i: int,
                     words: Sequence[str],
-                    jitter: float = 0.5,
                     ):
         diag = DiagScores(words)
 
@@ -403,17 +402,9 @@ class Search(StoredLog):
             else score
             for score, unseen, neg in zip(diag.scores, unseens, negs)]
 
-        rand = None
-        if jitter != 0:
-            rand = RandScores(scores, jitter)
-            scores = rand.scores
-
         def annotate(i: int) -> Generator[str]:
             score = scores[i]
             yield f'{100*score:0.2f}%'
-
-            if rand is not None:
-                yield from rand.explain(i)
 
             yield from diag.explain(i)
 
@@ -742,9 +733,35 @@ class Search(StoredLog):
             ui.print(f'{n}. {at}')
 
     def do_choose(self, ui: PromptUI) -> PromptUI.State|None:
+        def score_words(words: Sequence[str]):
+            assert word_i is not None
+            scores, explain_score = self.score_words(word_i, words)
+
+            penalty = tuple(self.recent_sug.get(word, 0) for word in words)
+            for n, word in zip(penalty, words):
+                if n > 1:
+                    self.recent_sug[word] = n - 1
+                elif word in self.recent_sug:
+                    del self.recent_sug[word]
+                    self.recent_sug.update()
+
+            scores = [
+                score / n if n > 1 else score
+                for n, score in zip(penalty, scores)]
+
+            def explain(i: int) -> Generator[str]:
+                n = penalty[i]
+                if n > 1:
+                    yield '('
+                    yield from explain_score(i)
+                    yield f') / penalty:{n}'
+                else:
+                    yield from explain_score(i)
+
+            return scores, explain
+
         avoid = True
-        verbose = 0
-        chooser = Chooser()
+        may_rand = Randomized(score_words)
         word_i: int|None = None
 
         while ui.tokens:
@@ -752,20 +769,15 @@ class Search(StoredLog):
             if n is not None:
                 word_i = n-1
                 continue
-
-            match = ui.tokens.have(r'-(v+)')
-            if match:
-                ui.print(f'parse choosing verbose: {verbose}')
-                verbose += len(match.group(1))
-                continue
-
             if ui.tokens.have(r'-sans'):
                 avoid = False
                 continue
-
-            if chooser.collect(ui.tokens):
-                continue
-
+            try:
+                if may_rand.parse_arg(ui):
+                    continue
+            except Exception as err:
+                ui.print(f'! {err}')
+                return
             ui.print(f'! invalid * arg {next(ui.tokens)!r}')
             return
 
@@ -794,32 +806,18 @@ class Search(StoredLog):
         else:
             sel = self.select(row=word_i, avoid=avoid)
 
-        words = tuple(
+        ch = self.choose(ui, word_i, sel.word, may_rand.choose(
             word.lower()
-            for word in self.find(sel.pattern, row=word_i))
-        scores, explain_score = self.score_words(word_i, words)
-        for i, word in enumerate(words):
-            if word in self.recent_sug:
-                penalty = self.recent_sug[word]
-                if penalty > 1:
-                    self.recent_sug[word] = penalty - 1
-                else:
-                    del self.recent_sug[word]
-                scores[i] /= penalty
-
-        pos = Possible(
-            words,
-            lambda _: (scores, explain_score),
-            verbose=verbose,
-            choices=chooser.choices)
-
-        ch = self.choose(ui, word_i, sel.word, pos)
+            for word in self.find(sel.pattern, row=word_i)))
         if ch is not None:
             ui.interact(ch)
 
     def do_manual_gen(self, ui: PromptUI):
-        verbose = 0
-        chooser = Chooser()
+        def score_words(words: Sequence[str]):
+            assert word_i is not None
+            return self.score_words(word_i, words)
+
+        may_rand = Randomized(score_words)
         word_i: int|None = None
         word: Word|None = None
         raw: bool = False
@@ -835,14 +833,12 @@ class Search(StoredLog):
                 raw = True
                 continue
 
-            match = ui.tokens.have(r'-(v+)')
-            if match:
-                ui.print(f'parse choosing verbose: {verbose}')
-                verbose += len(match.group(1))
-                continue
-
-            if chooser.collect(ui.tokens):
-                continue
+            try:
+                if may_rand.parse_arg(ui):
+                    continue
+            except Exception as err:
+                ui.print(f'! {err}')
+                return
 
             try:
                 word = Word.parse(ui.tokens.rest)
@@ -860,10 +856,10 @@ class Search(StoredLog):
             ui.print(f'! must have word spec')
             return
 
-        if verbose:
+        if may_rand.verbose:
             ui.print(f'manual gen {word}')
 
-        if verbose:
+        if may_rand.verbose:
             ui.print(f'- uni: {"".join(word.uni)}')
             ui.print(f'- alpha: {"".join(word.alpha)}')
             ui.print(f'- yes: {word.yes}')
@@ -882,23 +878,16 @@ class Search(StoredLog):
                 ui.print(f'  {n}. {r!r}')
 
         pat = word.pattern()
-        if verbose:
+        if may_rand.verbose:
             ui.print(f'- pattern: {pat}')
 
         words = tuple(
             self.find(pat) if raw else
             self.find(pat, row=word_i))
-        if verbose:
+        if may_rand.verbose:
             ui.print(f'- found: {len(words)}')
 
-        scores, explain_score = self.score_words(word_i, words)
-        pos = Possible(
-            words,
-            lambda _: (scores, explain_score),
-            verbose=verbose,
-            choices=chooser.choices)
-
-        ch = self.choose(ui, word_i, word, pos)
+        ch = self.choose(ui, word_i, word, may_rand.choose(words))
         if ch is not None:
             ui.interact(ch)
 
