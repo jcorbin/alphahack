@@ -507,7 +507,7 @@ class Randomized[Dat]:
                  show_n: int=10,
                  ):
         self.chooser = Chooser(show_n=show_n)
-        self.jitter = 0.5
+        self.jitter: float|None = None
         self.score = score
         self.verbose = 0
 
@@ -543,6 +543,8 @@ class Randomized[Dat]:
 
         data = tuple(idata)
         jitter = self.jitter
+        if jitter is None:
+            jitter = 0.5
 
         def select(words: Sequence[Dat]):
             scores, explain = self.score(words)
