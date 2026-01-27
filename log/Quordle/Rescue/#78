@@ -1,0 +1,156 @@
+T936.3524796290003 now: 2026-01-27T13:45:28EST
+TD87 site: m-w.com/games/quordle/#/rescue
+TD14 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD88  ...␅
+TD2383210 ␆
+TD83  ...
+TD382180 > ␅
+TD10641688 ␆tried bough homer
+TD65 > tried bough homer
+TD232 questioning: BOUGH HOMER
+TD91 Rescue #1 _____? ␅
+TD2023870 ␆nMnMn
+TD79 Rescue #1 _____? nMnMn
+TD380 attempt: 0 BOUGH n m n m n
+TD106 Rescue #1 _____ ~GO -BHU? ␅
+TD1535808 ␆nMnnM
+TD111 Rescue #1 _____ ~GO -BHU? nMnnM
+TD253 attempt: 0 HOMER n m n n m
+TD124 Rescue #2 _____? ␅
+TD1367262 ␆nMnnn
+TD81 Rescue #2 _____? nMnnn
+TD186 attempt: 1 BOUGH n m n n n
+TD96 Rescue #2 _____ ~O -BGHU? ␅
+TD2383822 ␆nMnYY
+TD83 Rescue #2 _____ ~O -BGHU? nMnYY
+TD167 attempt: 1 HOMER n m n Y Y
+TD75 Rescue #3 _____? ␅
+TD1695279 ␆nnnnn
+TD75 Rescue #3 _____? nnnnn
+TD153 attempt: 2 BOUGH n n n n n
+TD81 Rescue #3 _____ -BGHOU? ␅
+TD1783686 ␆nnMnn
+TD77 Rescue #3 _____ -BGHOU? nnMnn
+TD169 attempt: 2 HOMER n n m n n
+TD71 Rescue #4 _____? ␅
+TD1239739 ␆nnnnn
+TD77 Rescue #4 _____? nnnnn
+TD160 attempt: 3 BOUGH n n n n n
+TD70 Rescue #4 _____ -BGHOU? ␅
+TD975559 ␆nnnnn
+TD76 Rescue #4 _____ -BGHOU? nnnnn
+TD147 attempt: 3 HOMER n n n n n
+TD396562 > ␅
+TD1091341 ␆*
+TD94 > *
+TD7160 ? ␅
+TD952800 ␆1
+TD97 ? 1
+TD210 questioning: spilt
+TD160 Rescue #1 _____ ~GOR -BEHMU? ␅
+TD2800002 ␆nnnnn
+TD109 Rescue #1 _____ ~GOR -BEHMU? nnnnn
+TD209 attempt: 0 SPILT n n n n n
+TD109 Rescue #2 ___ER ~O -BGHMU? ␅
+TD967000 ␆nnnnn
+TD97 Rescue #2 ___ER ~O -BGHMU? nnnnn
+TD234 attempt: 1 SPILT n n n n n
+TD114 Rescue #3 _____ ~M -BEGHORU? ␅
+TD1711592 ␆YMnnn
+TD72 Rescue #3 _____ ~M -BEGHORU? YMnnn
+TD261 attempt: 2 SPILT Y m n n n
+TD152 Rescue #4 _____ -BEGHMORU? ␅
+TD1383584 ␆nnMnY
+TD89 Rescue #4 _____ -BEGHMORU? nnMnY
+TD236 attempt: 3 SPILT n n m n Y
+TD318206 > ␅
+TD697694 ␆*
+TD86 > *
+TD358 ? ␅
+TD1959993 ␄
+TD94 <EOF>
+TD321927 > ␅
+TD1077801 ␆* 1
+TD98 > * 1
+TD105157 ? ␅
+TD7670458 ␆6
+TD97 ? 6
+TD178 questioning: grown
+TD152 Rescue #1 _____ ~GOR -BEHILMPSTU? ␅
+TD4079560 ␆YYYYY
+TD82 Rescue #1 _____ ~GOR -BEHILMPSTU? YYYYY
+TD149 attempt: 0 GROWN Y Y Y Y Y
+TD75 Rescue #2 ___ER ~O -BGHILMPSTU? ␅
+TD1391901 ␆nMMnn
+TD166 Rescue #2 ___ER ~O -BGHILMPSTU? nMMnn
+TD178 attempt: 1 GROWN n m m n n
+TD77 Rescue #3 S____ ~MP -BEGHILORTU? ␅
+TD3071558 ␆nnnnn
+TD109 Rescue #3 S____ ~MP -BEGHILORTU? nnnnn
+TD267 attempt: 2 GROWN n n n n n
+TD138 Rescue #4 ____T ~I -BEGHLMOPRSU? ␅
+TD1303478 ␆nnnnn
+TD98 Rescue #4 ____T ~I -BEGHLMOPRSU? nnnnn
+TD217 attempt: 3 GROWN n n n n n
+TD289383 > ␅
+TD590187 ␆*
+TD75 > *
+TD283 questioning: scamp
+TD100 Rescue #2 ___ER ~O -BGHILMNPSTUW? ␅
+TD2880587 ␆nnnnn
+TD89 Rescue #2 ___ER ~O -BGHILMNPSTUW? nnnnn
+TD162 attempt: 1 SCAMP n n n n n
+TD81 Rescue #3 S____ ~MP -BEGHILNORTUW? ␅
+TD1574751 ␆YYYYY
+TD90 Rescue #3 S____ ~MP -BEGHILNORTUW? YYYYY
+TD153 attempt: 2 SCAMP Y Y Y Y Y
+TD78 Rescue #4 ____T ~I -BEGHLMNOPRSUW? ␅
+TD1447622 ␆nMMnn
+TD92 Rescue #4 ____T ~I -BEGHLMNOPRSUW? nMMnn
+TD220 attempt: 3 SCAMP n m m n n
+TD195442 > ␅
+TD1148332 ␆*
+TD91 > *
+TD369 questioning: tacit
+TD143 Rescue #2 ___ER ~O -ABCGHILMNPSTUW? ␅
+TD4127607 ␆nnnnn
+TD90 Rescue #2 ___ER ~O -ABCGHILMNPSTUW? nnnnn
+TD208 attempt: 1 TACIT n n n n n
+TD114 Rescue #4 ____T ~ACI -BEGHLMNOPRSUW? ␅
+TD1407331 ␆YYYYY
+TD77 Rescue #4 ____T ~ACI -BEGHLMNOPRSUW? YYYYY
+TD147 attempt: 3 TACIT Y Y Y Y Y
+TD93481 > ␅
+TD1090280 ␆*
+TD84 > *
+TD351 ? ␅
+TD1895624 ␆1
+TD98 ? 1
+TD200 questioning: odder
+TD178 Rescue #2 ___ER ~O -ABCGHILMNPSTUW? ␅
+TD2727919 ␆YYYYY
+TD97 Rescue #2 ___ER ~O -ABCGHILMNPSTUW? YYYYY
+TD222 attempt: 1 ODDER Y Y Y Y Y
+TD109 📋> ␅
+TD4552163 ␆Daily Rescue 78
+TD101 📋> Daily Rescue 78
+TD12 📋> ␅
+TD46 ␆4️⃣7️⃣
+TD6 📋> 4️⃣7️⃣
+TD5 📋> ␅
+TD12 ␆5️⃣6️⃣
+TD4 📋> 5️⃣6️⃣
+TD4 📋> ␅
+TD10 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD526929 ␆
+TD102 📋> 
+TD13 📋> ␅
+TD207879 ␄
+TD175 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 78\n4\ufe0f\u20e37\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1335 result: "Daily Rescue 78\n4\ufe0f\u20e37\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD177 📆 2026-01-27 ? ␅
+TD230354 ␆
+TD74 📆 2026-01-27 ? 
