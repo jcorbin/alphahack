@@ -552,7 +552,13 @@ class Randomized[Dat]:
         data = tuple(idata)
         jitter = self.jitter
         if jitter is None:
-            jitter = 0.5
+            sel, want_n = self.chooser.want_n
+            if sel == 'rand':
+                jitter = 0.5
+            elif len(data) > want_n:
+                jitter = (1.0 - 1.0/(len(data)-(want_n-1)))**42/2
+            else:
+                jitter = 0
 
         def select(words: Sequence[Dat]):
             scores, explain = self.score(words)
