@@ -1,0 +1,314 @@
+T3.422059482007171 now: 2026-01-27T13:28:38EST
+TD94 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD26  ...␅
+TD3351252 ␆
+TD74  ...
+TD58 🧩  ? ␅
+TD2655241 ␆#1457
+TD66 🧩  ? #1457
+TD178 puzzle_id: #1457
+TD154 > ␅
+TD1167644 ␆*
+TD68 > *
+T1.417252922008629 now: 2026-01-27T13:29:53EST
+TD130  ...␅
+TD1029273 ␆
+TD100  ...
+TD387 > ␅
+TD1295501 ␆*
+TD97 > *
+TD233901 try? ␅
+TD822070 ␆1
+TD75 try? 1
+TD270 questioning: ["paise", "#5"]
+TD207 #1 <IndexError>  📋 "paise" ? ␅
+TD6783408 ␆_____ ~ AS
+TD75 #1 <IndexError>  📋 "paise" ? _____ ~ AS
+TD521 attempt 0 PAISE n m n m n
+TD132 #2 <IndexError>  📋 "paise" ? ␅
+TD1959451 ␆____E ~ E
+TD106 #2 <IndexError>  📋 "paise" ? ____E ~ E
+TD352 attempt 1 PAISE n n n n Y
+TD151 #3 <IndexError>  📋 "paise" ? ␅
+TD3167775 ␆_A___ ~ SE
+TD100 #3 <IndexError>  📋 "paise" ? _A___ ~ SE
+TD260 attempt 2 PAISE n Y n m m
+TD121 #4 <IndexError>  📋 "paise" ? ␅
+TD3991367 ␆_____ ~ A
+TD89 #4 <IndexError>  📋 "paise" ? _____ ~ A
+TD208 attempt 3 PAISE n m n n n
+TD87 #5 <IndexError>  📋 "paise" ? ␅
+TD2191520 ␆___SE ~ E
+TD81 #5 <IndexError>  📋 "paise" ? ___SE ~ E
+TD187 attempt 4 PAISE n n n Y Y
+TD275 ? ␅
+TD831215 ␆
+TD89 ? 
+TD150 question done
+TD314 > ␅
+TD1743991 ␆*
+TD92 > *
+TD686287 try? ␅
+TD1353225 ␆1
+TD80 try? 1
+TD240 questioning: ["rouse", "#5"]
+TD214 #1 _____ ~AS -EIP  📋 "rouse" ? ␅
+TD3423703 ␆.
+TD105 #1 _____ ~AS -EIP  📋 "rouse" ? .
+TD273 attempt 0 ROUSE n n n m n
+TD95 #2 ____E -AIPS  📋 "rouse" ? ␅
+TD3271391 ␆____E ~ ER
+TD89 #2 ____E -AIPS  📋 "rouse" ? ____E ~ ER
+TD197 attempt 1 ROUSE m n n n Y
+TD115 #3 _A___ ~ES -IP  📋 "rouse" ? ␅
+TD1503646 ␆.
+TD97 #3 _A___ ~ES -IP  📋 "rouse" ? .
+TD296 attempt 2 ROUSE n n n m m
+TD100 #4 _____ ~A -EIPS  📋 "rouse" ? ␅
+TD2479292 ␆_____ ~ AO
+TD77 #4 _____ ~A -EIPS  📋 "rouse" ? _____ ~ AO
+TD192 attempt 3 ROUSE n m n n n
+TD105 #5 ___SE -AIP  📋 "rouse" ? ␅
+TD6272348 ␆___SE ~ E
+TD75 #5 ___SE -AIP  📋 "rouse" ? ___SE ~ E
+TD178 attempt 4 ROUSE n n n Y Y
+TD214 ? ␅
+TD223237 ␆
+TD94 ? 
+TD132 question done
+TD273 > ␅
+TD423488 ␆*
+TD93 > *
+TD491782 try? ␅
+TD1035806 ␆1
+TD80 try? 1
+TD224 questioning: ["tense", "#5"]
+TD278 #1 _____ ~AS -EIOPRU  📋 "tense" ? ␅
+TD6183732 ␆_____ ~ AST
+TD95 #1 _____ ~AS -EIOPRU  📋 "tense" ? _____ ~ AST
+TD262 attempt 0 TENSE m n n m n
+TD158 #2 ____E ~R -AIOPSU  📋 "tense" ? ␅
+TD3639596 ␆T___E ~ ER
+TD107 #2 ____E ~R -AIOPSU  📋 "tense" ? T___E ~ ER
+TD298 attempt 1 TENSE Y m n n Y
+TD177 #3 _A___ ~ES -IOPRU  📋 "tense" ? ␅
+TD1951340 ␆.
+TD76 #3 _A___ ~ES -IOPRU  📋 "tense" ? .
+TD182 attempt 2 TENSE n m n m m
+TD63 #4 _____ ~AO -EIPRSU  📋 "tense" ? ␅
+TD2767808 ␆_____ ~ AON
+TD91 #4 _____ ~AO -EIPRSU  📋 "tense" ? _____ ~ AON
+TD248 attempt 3 TENSE n n m n n
+TD142 #5 ___SE -AIOPRU  📋 "tense" ? ␅
+TD3079381 ␆_ENSE
+TD74 #5 ___SE -AIOPRU  📋 "tense" ? _ENSE
+TD174 attempt 4 TENSE n Y Y Y Y
+TD257 ? ␅
+TD287597 ␆
+TD98 ? 
+TD129 question done
+TD383 > ␅
+TD623238 ␆*
+TD85 > *
+TD757893 try? ␅
+TD3850573 ␆1
+TD100 try? 1
+TD294 questioning: ["there", "#2"]
+TD337 #1 _____ ~AST -EINOPRU  📋 "there" ? ␅
+TD4727559 ␆.
+TD166 #1 _____ ~AST -EINOPRU  📋 "there" ? .
+TD225 attempt 0 THERE m n n n n
+TD68 #2 T___E ~R -AINOPSU  📋 "there" ? ␅
+TD2454981 ␆TH__E ~ ER
+TD102 #2 T___E ~R -AINOPSU  📋 "there" ? TH__E ~ ER
+TD258 attempt 1 THERE Y Y m m Y
+TD191 #3 _A___ ~ES -INOPRTU  📋 "there" ? ␅
+TD1439324 ␆.
+TD76 #3 _A___ ~ES -INOPRTU  📋 "there" ? .
+TD191 attempt 2 THERE n n m n m
+TD65 #4 _____ ~ANO -EIPRSTU  📋 "there" ? ␅
+TD1159721 ␆.
+TD97 #4 _____ ~ANO -EIPRSTU  📋 "there" ? .
+TD262 attempt 3 THERE n n n n n
+TD99 #5 _ENSE -AIOPRTU  📋 "there" ? ␅
+TD847525 ␆.
+TD70 #5 _ENSE -AIOPRTU  📋 "there" ? .
+TD185 attempt 4 THERE n n n n Y
+TD205 ? ␅
+TD159364 ␆
+TD76 ? 
+TD84 question done
+TD189 > ␅
+TD407926 ␆*
+TD78 > *
+TD967901 questioning: ["three", "#2"]
+TD187 #1 _____ ~AST -EHINOPRU  📋 "three" ? ␅
+TD3327769 ␆.
+TD72 #1 _____ ~AST -EHINOPRU  📋 "three" ? .
+TD183 attempt 0 THREE m n n n n
+TD75 #2 TH__E ~R -AINOPSU  📋 "three" ? ␅
+TD791423 ␆/it
+TD78 #2 TH__E ~R -AINOPSU  📋 "three" ? /it
+TD188 attempt 1 THREE Y Y Y Y Y
+TD74 #3 _A___ ~ES -HINOPRTU  📋 "three" ? ␅
+TD3568164 ␆_A_E_ ~ SE
+TD73 #3 _A___ ~ES -HINOPRTU  📋 "three" ? _A_E_ ~ SE
+TD184 attempt 2 THREE n n n Y m
+TD103 #4 _____ ~ANO -EHIPRSTU  📋 "three" ? ␅
+TD863585 ␆.
+TD76 #4 _____ ~ANO -EHIPRSTU  📋 "three" ? .
+TD186 attempt 3 THREE n n n n n
+TD65 #5 _ENSE -AHIOPRTU  📋 "three" ? ␅
+TD167707 ␆
+TD90 #5 _ENSE -AHIOPRTU  📋 "three" ? 
+TD262 #5 _ENSE -AHIOPRTU  ? ␅
+TD839508 ␆.
+TD109 #5 _ENSE -AHIOPRTU  ? .
+TD308 attempt 4 THREE n n n n Y
+TD379 ? ␅
+TD639606 ␆*
+TD85 ? *
+TD379 ? ␅
+TD735147 ␆
+TD79 ? 
+TD84 question done
+TD188 > ␅
+TD488049 ␆*
+TD92 > *
+TD1093059 try? ␅
+TD3274661 ␆2
+TD73 try? 2
+TD268 questioning: ["easel", "#3"]
+TD317 #1 _____ ~AST -EHINOPRU  📋 "easel" ? ␅
+TD3439270 ␆.
+TD74 #1 _____ ~AST -EHINOPRU  📋 "easel" ? .
+TD189 attempt 0 EASEL n m m n n
+TD67 #3 _A_E_ ~ES -HINOPRTU  📋 "easel" ? ␅
+TD2239792 ␆EASE_
+TD87 #3 _A_E_ ~ES -HINOPRTU  📋 "easel" ? EASE_
+TD195 attempt 2 EASEL Y Y Y Y n
+TD124 #4 _____ ~ANO -EHIPRSTU  📋 "easel" ? ␅
+TD3047491 ␆_____ ~ AONL
+TD94 #4 _____ ~ANO -EHIPRSTU  📋 "easel" ? _____ ~ AONL
+TD257 attempt 3 EASEL n m n n m
+TD162 #5 _ENSE -AHIOPRTU  📋 "easel" ? ␅
+TD3239455 ␆.
+TD74 #5 _ENSE -AHIOPRTU  📋 "easel" ? .
+TD193 attempt 4 EASEL n n n n n
+TD176 ? ␅
+TD639421 ␆
+TD98 ? 
+TD115 question done
+TD315 > ␅
+TD1343365 ␆*
+TD91 > *
+TD1925300 questioning: ["along", "#4"]
+TD186 #1 _____ ~AST -EHILNOPRU  📋 "along" ? ␅
+TD3690676 ␆.
+TD88 #1 _____ ~AST -EHILNOPRU  📋 "along" ? .
+TD264 attempt 0 ALONG m n n n n
+TD103 #3 EASE_ -HILNOPRTU  📋 "along" ? ␅
+TD975477 ␆.
+TD66 #3 EASE_ -HILNOPRTU  📋 "along" ? .
+TD183 attempt 2 ALONG n n n n n
+TD67 #4 _____ ~ALNO -EHIPRSTU  📋 "along" ? ␅
+TD775681 ␆/it
+TD77 #4 _____ ~ALNO -EHIPRSTU  📋 "along" ? /it
+TD187 attempt 3 ALONG Y Y Y Y Y
+TD64 #5 _ENSE -AEHILOPRSTU  📋 "along" ? ␅
+TD784319 ␆.
+TD78 #5 _ENSE -AEHILOPRSTU  📋 "along" ? .
+TD182 attempt 4 ALONG n n n n n
+TD179 ? ␅
+TD183519 ␆
+TD104 ? 
+TD82 question done
+TD195 > ␅
+TD439448 ␆*
+TD110 > *
+TD1769390 questioning: ["swats", "#1"]
+TD190 #1 _____ ~AST -EGHILNOPRU  📋 "swats" ? ␅
+TD3829867 ␆/it
+TD87 #1 _____ ~AST -EGHILNOPRU  📋 "swats" ? /it
+TD227 attempt 0 SWATS Y Y Y Y Y
+TD78 #3 EASE_ -AGHILNOPRTU  📋 "swats" ? ␅
+TD1639904 ␆.
+TD74 #3 EASE_ -AGHILNOPRTU  📋 "swats" ? .
+TD192 attempt 2 SWATS n n n n n
+TD71 #5 _ENSE -AEGHILNOPRSTU  📋 "swats" ? ␅
+TD503665 ␆.
+TD95 #5 _ENSE -AEGHILNOPRSTU  📋 "swats" ? .
+TD199 attempt 4 SWATS n n n n n
+TD4246 ? ␅
+TD235458 ␆
+TD83 ? 
+TD84 question done
+TD209 > ␅
+TD527386 ␆*
+TD79 > *
+TD1326085 questioning: ["eased", "#3"]
+TD184 #3 EASE_ -AGHILNOPRSTUW  📋 "eased" ? ␅
+TD2545653 ␆/it
+TD71 #3 EASE_ -AGHILNOPRSTUW  📋 "eased" ? /it
+TD221 attempt 2 EASED Y Y Y Y Y
+TD61 #5 _ENSE -AEGHILNOPRSTUW  📋 "eased" ? ␅
+TD895978 ␆
+TD98 #5 _ENSE -AEGHILNOPRSTUW  📋 "eased" ? 
+TD411 #5 _ENSE -AEGHILNOPRSTUW  ? ␅
+TD823406 ␆.
+TD78 #5 _ENSE -AEGHILNOPRSTUW  ? .
+TD207 attempt 4 EASED n n n n n
+TD357 ? ␅
+TD191166 ␆
+TD98 ? 
+TD114 question done
+TD297 > ␅
+TD2791764 ␆dense
+TD99 > dense
+TD578 questioning: ["dense", "entered"]
+TD337 #5 _ENSE -ADEGHILNOPRSTUW  📋 "dense" ? ␅
+TD2302968 ␆/it
+TD80 #5 _ENSE -ADEGHILNOPRSTUW  📋 "dense" ? /it
+TD271 attempt 4 DENSE Y Y Y Y Y
+TD271 ? ␅
+TD1543618 ␆
+TD90 ? 
+TD87 question done
+TD23451 📋> ␅
+TD5896573 ␆squareword.org 1457: 10 guesses
+TD77 📋> squareword.org 1457: 10 guesses
+TD11 📋> ␅
+TD42 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD13 ␆🟨🟨🟨🟨🟨
+TD3 📋> 🟨🟨🟨🟨🟨
+TD2 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD8 ␆🟨🟩🟨🟩🟨
+TD2 📋> 🟨🟩🟨🟩🟨
+TD2 📋> ␅
+TD9 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD2 📋> ␅
+TD8 ␆🟨🟩🟩🟩🟩
+TD2 📋> 🟨🟩🟩🟩🟩
+TD2 📋> ␅
+TD8 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD13 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD13 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD335359 ␆#squareword #squareword1457
+TD103 📋> #squareword #squareword1457
+TD13 📋> ␅
+TD271634 ␄
+TD132 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1457: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1457"}
+TD538 result: "squareword.org 1457: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1457"
+TD68 📆 2026-01-27 ? ␅
+TD327737 ␆
+TD80 📆 2026-01-27 ? 
