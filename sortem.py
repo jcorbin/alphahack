@@ -501,6 +501,64 @@ Explainer = Callable[[int], Iterable[str]]
 Scorer = Callable[[Sequence[Dat]], tuple[Iterable[float], Explainer]]
 
 @final
+class Randomized[Dat]:
+    def __init__(self,
+                 score: Scorer[Dat],
+                 show_n: int=10,
+                 ):
+        self.chooser = Chooser(show_n=show_n)
+        self.jitter = 0.5
+        self.score = score
+        self.verbose = 0
+
+    def parse_arg(self, ui: PromptUI):
+        match = ui.tokens.have(r'-(v+)')
+        if match:
+            self.verbose += len(match.group(1))
+            return True
+
+        if ui.tokens.have(r'-j(itter)?'):
+            n = ui.tokens.have(r'\d+(?:\.\d+)?', lambda match: float(match[0]))
+            if n is not None:
+                if n < 0:
+                    self.jitter = 0
+                    ui.print('! clamped -jitter value to 0')
+                elif n > 1:
+                    self.jitter = 1
+                    ui.print('! clamped -jitter value to 1')
+                else:
+                    self.jitter = n
+            else:
+                ui.print('! -jitter expected value')
+            return True
+
+        return self.chooser.collect(ui.tokens)
+
+    def choose(self, idata: Iterable[Dat]):
+        data = tuple(idata)
+        jitter = self.jitter
+
+        def select(words: Sequence[Dat]):
+            scores, explain = self.score(words)
+            scores = tuple(scores)
+
+            rand = None if jitter == 0 else RandScores(scores, jitter=jitter)
+            if rand is not None:
+                scores = rand.scores
+
+            def annotate(i: int) -> Generator[str]:
+                if rand is not None:
+                    yield from rand.explain(i)
+                yield from explain(i)
+
+            return scores, annotate
+
+        return Possible(
+            data, select,
+            choices=self.chooser.choices,
+            verbose=self.verbose)
+
+@final
 class Possible[Dat]:
     def __init__(self, 
                  data: Iterable[Dat],
