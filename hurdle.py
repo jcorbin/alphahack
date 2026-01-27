@@ -8,7 +8,7 @@ from itertools import zip_longest
 from os import path
 from typing import cast, final, override
 
-from sortem import Chooser, DiagScores, Possible, RandScores
+from sortem import DiagScores, Randomized
 from store import StoredLog, git_txn
 from strkit import spliterate
 from ui import PromptUI
@@ -286,33 +286,25 @@ class Search(StoredLog):
         return False
 
     def guess(self, ui: PromptUI, show_n: int=10):
-        verbose = 0
-        jitter = 0.5
-        chooser = Chooser(show_n=show_n)
+        def select(words: Sequence[str]):
+            diag = DiagScores(words)
+            scores = diag.scores
+            def annotate(i: int) -> Generator[str]:
+                yield from diag.explain(i)
+                wf_parts = list(diag.explain_wf(i))
+                if wf_parts:
+                    yield f'WF:{" ".join(wf_parts)}'
+                yield f'LF:{" ".join(diag.explain_lf(i))}'
+                yield f'LF norm:{" ".join(diag.explain_lf_norm(i))}'
+            return scores, annotate
 
+        may_rand = Randomized(select, show_n=show_n)
         while ui.tokens:
-            if chooser.collect(ui.tokens):
-                continue
-
-            match = ui.tokens.have(r'-(v+)')
-            if match:
-                verbose += len(match.group(1))
-                continue
-
-            if ui.tokens.have(r'-j(itter)?'):
-                n = ui.tokens.have(r'\d+(?:\.\d+)?', lambda match: float(match[0]))
-                if n is not None:
-                    if n < 0:
-                        jitter = 0
-                        ui.print('! clamped -jitter value to 0')
-                    elif n > 1:
-                        jitter = 1
-                        ui.print('! clamped -jitter value to 1')
-                    else:
-                        jitter = n
-                else:
-                    ui.print('! -jitter expected value')
-                continue
+            try:
+                if may_rand.parse_arg(ui):
+                    continue
+            except Exception as err:
+                ui.print(f'! {err}')
 
             ui.print(f'! invalid * arg {next(ui.tokens)!r}')
             return
@@ -331,20 +323,16 @@ class Search(StoredLog):
         if skip_words:
             if self.debug > 1:
                 ui.log(f'skip ∩tried remain:{len(words)} dropped:{len(skip_words)} -- {sorted(skip_words)!r}')
-            if verbose:
+            if may_rand.verbose:
                 ui.print(f'- pruned {len(skip_words)} words based on priors')
-                if verbose > 1:
+                if may_rand.verbose > 1:
                     for i, word in tried_words:
                         ui.print(f'  {i+1}. {word}')
                         for let, j, i in self.tried_letters(word):
                             if not self.word.yes[i]:
                                 ui.print(f'    - {let.upper()} from {self.tried[j]!r}[{i}]')
 
-        pos = Possible(
-            sorted(words),
-            lambda words: self.select(ui, words, jitter=jitter),
-            choices=chooser.choices,
-            verbose=verbose)
+        pos = may_rand.choose(sorted(words))
 
         def parts():
             yield f'{pos} from {self.word}'
@@ -387,21 +375,6 @@ class Search(StoredLog):
             for j, prior in enumerate(self.tried):
                 if prior.word[i] == let:
                     yield let, j, i
-
-    def select(self, _ui: PromptUI, words: Sequence[str], jitter: float = 0.5):
-        diag = DiagScores(words)
-        rand = None if jitter == 0 else RandScores(diag.scores, jitter=jitter)
-        scores = diag.scores if rand is None else rand.scores
-        def annotate(i: int) -> Generator[str]:
-            if rand is not None:
-                yield from rand.explain(i)
-            yield from diag.explain(i)
-            wf_parts = list(diag.explain_wf(i))
-            if wf_parts:
-                yield f'WF:{" ".join(wf_parts)}'
-            yield f'LF:{" ".join(diag.explain_lf(i))}'
-            yield f'LF norm:{" ".join(diag.explain_lf_norm(i))}'
-        return scores, annotate
 
     def find(self, pattern: re.Pattern[str]):
         for word in self.wordlist.words:
