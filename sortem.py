@@ -491,6 +491,14 @@ class Chooser:
         return False
 
     @property
+    def want_n(self) -> tuple[Sample.Select, int]:
+        for ch in self._choices:
+            if isinstance(ch, MatchPat): continue
+            if callable(ch): continue
+            return ch
+        return 'top', self.show_n
+
+    @property
     def choices(self) -> Generator[Sample.Choice|MatchPat]:
         if not self._choices:
             yield 'top', self.show_n,
