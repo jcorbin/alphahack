@@ -6,7 +6,7 @@ from collections.abc import Generator, Sequence
 from dataclasses import dataclass
 from typing import Callable, cast, final, override
 
-from sortem import Chooser, DiagScores, Possible, RandScores
+from sortem import DiagScores, Randomized
 from store import StoredLog, matcher
 from strkit import MarkedSpec, consume_codes, spliterate
 from ui import PromptUI
@@ -516,44 +516,33 @@ class Nordle(StoredLog):
         usage: `guess [<N>] [-v] [-jitter <prop>] [...chooser options...]`
         '''
 
-        chooser = Chooser(show_n=show_n)
-        jitter = 0.5
-        word_n = 0
-        verbose = 0
+        def select(words: Sequence[str]):
+            diag = DiagScores(words)
+            scores = diag.scores
 
+            def annotate(i: int) -> Generator[str]:
+                yield from diag.explain(i)
+                wf_parts = list(diag.explain_wf(i))
+                if wf_parts:
+                    yield f'WF:{" ".join(wf_parts)}'
+                yield f'LF:{" ".join(diag.explain_lf(i))}'
+                yield f'LF norm:{" ".join(diag.explain_lf_norm(i))}'
+
+            return scores, annotate
+
+        may_rand = Randomized(select, show_n=show_n)
+        word_n = 0
         while ui.tokens:
             n = ui.tokens.have(r'\d+', then=lambda m: int(m[0]))
             if n is not None:
                 word_n = n
                 continue
-
             try:
-                if chooser.collect(ui.tokens):
+                if may_rand.parse_arg(ui):
                     continue
             except re.PatternError as err:
                 ui.print(f'! {err}')
                 return
-
-            match = ui.tokens.have(r'-(v+)')
-            if match:
-                verbose += len(match.group(1))
-                continue
-
-            if ui.tokens.have(r'-j(itter)?'):
-                n = ui.tokens.have(r'\d+(?:\.\d+)?', lambda match: float(match[0]))
-                if n is not None:
-                    if n < 0:
-                        jitter = 0
-                        ui.print('! clamped -jitter value to 0')
-                    elif n > 1:
-                        jitter = 1
-                        ui.print('! clamped -jitter value to 1')
-                    else:
-                        jitter = n
-                else:
-                    ui.print('! -jitter expected value')
-                continue
-
             ui.print(f'! invalid * arg {next(ui.tokens)!r}')
             return
 
@@ -566,7 +555,7 @@ class Nordle(StoredLog):
                 return
             pat = word.pattern()
             words = set(self.find(pat))
-            reason = 'selected'
+            ui.print(f'selected #{word_n} N:{len(words)}')
 
         else:
             ri = next(self.auto_guess_last(), None)
@@ -576,39 +565,14 @@ class Nordle(StoredLog):
                     pass
                 return
             reason, i = ri
-            reason = f'auto {reason}'
             word_i = self.last_word_i[i]
             pat = self.last_word_pat[i]
             words = self.last_word_words[i]
             word = self.words[word_i]
             word_n = word_i + 1
+            ui.print(f'auto {reason} #{word_n} N:{len(words)}')
 
-        ui.print(f'{reason} #{word_n} N:{len(words)}')
-
-        def select(words: Sequence[str], jitter: float = 0.5):
-            diag = DiagScores(words)
-            scores = diag.scores
-
-            rand = None if jitter == 0 else RandScores(scores, jitter=jitter)
-            if rand is not None:
-                scores = rand.scores
-
-            def annotate(i: int) -> Generator[str]:
-                if rand is not None:
-                    yield from rand.explain(i)
-                yield from diag.explain(i)
-                wf_parts = list(diag.explain_wf(i))
-                if wf_parts:
-                    yield f'WF:{" ".join(wf_parts)}'
-                yield f'LF:{" ".join(diag.explain_lf(i))}'
-                yield f'LF norm:{" ".join(diag.explain_lf_norm(i))}'
-            return scores, annotate
-
-        pos = Possible(
-            tuple(sorted(words)),
-            lambda words: select(words, jitter=jitter),
-            choices=chooser.choices,
-            verbose=verbose)
+        pos = may_rand.choose(sorted(words))
 
         if not pos.data:
             ui.print(f'! no results for {pat.pattern} for #{word_n} {word}')
