@@ -1,0 +1,99 @@
+T63.480868519996875 now: 2026-01-27T08:26:16EST
+TD165 site: alphaguess.com
+TD115771 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof f628270bbdd91bcbd2f3f7fc279c8e74990c5a6a
+TD120  ...␅
+TD3490715 ␆
+TD99  ...
+TD177 [0 : 98220 : 196531] mach? ␅
+TD2951663 ␆a
+TD98 [0 : 98220 : 196531] mach? a
+TD114 progress: 1 98220 mach
+TD252 [98221 : 147373 : 196531] rhotic? ␅
+TD1687504 ␆a
+TD100 [98221 : 147373 : 196531] rhotic? a
+TD111 progress: 1 147373 rhotic
+TD121 [147374 : 171643 : 196531] ta? ␅
+TD1263627 ␆a
+TD72 [147374 : 171643 : 196531] ta? a
+TD73 progress: 1 171643 ta
+TD80 [171644 : 182008 : 196531] un? ␅
+TD1392275 ␆b
+TD114 [171644 : 182008 : 196531] un? b
+TD130 progress: -1 182008 un
+TD133 [171644 : 176814 : 182008] toil? ␅
+TD1391527 ␆b
+TD97 [171644 : 176814 : 182008] toil? b
+TD109 progress: -1 176814 toil
+TD124 [171644 : 174192 : 176814] term? ␅
+TD1319429 ␆a
+TD72 [171644 : 174192 : 176814] term? a
+TD74 progress: 1 174192 term
+TD70 [174193 : 175500 : 176814] thrash? ␅
+TD1311758 ␆b
+TD76 [174193 : 175500 : 176814] thrash? b
+TD82 progress: -1 175500 thrash
+TD77 [174193 : 174775 : 175500] the? ␅
+TD1223608 ␆b
+TD97 [174193 : 174775 : 175500] the? b
+TD107 progress: -1 174775 the
+TD130 [174193 : 174471 : 174775] tet? ␅
+TD1527818 ␆a
+TD97 [174193 : 174471 : 174775] tet? a
+TD109 progress: 1 174471 tet
+TD120 [174472 : 174619 : 174775] text? ␅
+TD1624198 ␆a
+TD107 [174472 : 174619 : 174775] text? a
+TD131 progress: 1 174619 text
+TD348 [174620 : 174692 : 174775] thalli? ␅
+TD1071500 ␆a
+TD77 [174620 : 174692 : 174775] thalli? a
+TD72 progress: 1 174692 thalli
+TD70 [174693 : 174724 : 174775] thank? ␅
+TD1119108 ␆a
+TD79 [174693 : 174724 : 174775] thank? a
+TD84 progress: 1 174724 thank
+TD77 [174725 : 174747 : 174775] that? ␅
+TD1231728 ␆b
+TD72 [174725 : 174747 : 174775] that? b
+TD72 progress: -1 174747 that
+TD89 [174725 : 174735 : 174747] thankless? ␅
+TD1135780 ␆a
+TD81 [174725 : 174735 : 174747] thankless? a
+TD85 progress: 1 174735 thankless
+TD117 [174736 : 174739 : 174747] thanks? ␅
+TD7335952 ␆it
+TD85 [174736 : 174739 : 174747] thanks? it
+TD81 progress: 0 174739 thanks
+TD18 [174736 : 174739 : 174747] <Done>.
+TD71 📋> ␅
+TD3992119 ␆🧩 Puzzle #918
+TD70 📋> 🧩 Puzzle #918
+TD6 📋> ␅
+TD26 ␆
+TD3 📋> 
+TD2 📋> ␅
+TD5 ␆🤔 15 guesses
+TD2 📋> 🤔 15 guesses
+TD1 📋> ␅
+TD4 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD8 ␆⏱️ 19s
+TD2 📋> ⏱️ 19s
+TD1 📋> ␅
+TD4 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD535398 ␆🔗 alphaguess.com
+TD94 📋> 🔗 alphaguess.com
+TD13 📋> ␅
+TD175849 ␄
+TD193 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #918\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"}
+TD125 result: "\ud83e\udde9 Puzzle #918\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 19s\n\n\ud83d\udd17 alphaguess.com"
+TD17 result puzzle: 918
+TD7 result guesses: 15
+TD6 result time: 19s
+TD6 result link: alphaguess.com
+TD101 📆 2026-01-27 ? ␅
+TD159694 ␆
+TD99 📆 2026-01-27 ? 
