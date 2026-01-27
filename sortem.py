@@ -542,7 +542,13 @@ class Randomized[Dat]:
 
         return self.chooser.collect(ui.tokens)
 
-    def choose(self, idata: Iterable[Dat]):
+    def choose(self,
+               idata: Iterable[Dat],
+               choices: Iterable[Sample.Choice|MatchPat]|None = None,
+               ):
+        if choices is None:
+            choices = self.chooser.choices
+
         data = tuple(idata)
         jitter = self.jitter
         if jitter is None:
@@ -575,7 +581,7 @@ class Randomized[Dat]:
 
         return Possible(
             data, select,
-            choices=self.chooser.choices,
+            choices=choices,
             verbose=self.verbose)
 
 @final
