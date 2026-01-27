@@ -8,7 +8,7 @@ from itertools import combinations
 from os import path
 from typing import cast, final, override
 
-from sortem import Chooser, DiagScores, MatchPat, Possible, RandScores
+from sortem import DiagScores, MatchPat, Randomized
 from store import StoredLog, git_txn, matcher
 from strkit import spliterate
 from ui import PromptUI
@@ -230,56 +230,44 @@ class DontWord(StoredLog):
         self.word.reset()
 
     def guess(self, ui: PromptUI, show_n: int=10):
-        verbose = 0
-        jitter = 0.5
+
+        def select(words: Sequence[str]):
+            diag = DiagScores(words)
+            scores = tuple(1.0-score for score in diag.scores)
+            def annotate(i: int) -> Generator[str]:
+                yield '1-='
+                yield from diag.explain(i)
+                wf_parts = list(diag.explain_wf(i))
+                if wf_parts:
+                    yield f'WF:{" ".join(wf_parts)}'
+                yield f'LF:{" ".join(diag.explain_lf(i))}'
+                yield f'LF norm:{" ".join(diag.explain_lf_norm(i))}'
+            return scores, annotate
+
+        may_rand = Randomized(select, show_n=show_n)
         sans = False
-        chooser = Chooser(show_n=show_n)
 
         while ui.tokens:
-            try:
-                if chooser.collect(ui.tokens):
-                    continue
-            except re.PatternError as err:
-                ui.print(f'! {err}')
-                return
-
-            match = ui.tokens.have(r'-(v+)')
-            if match:
-                verbose += len(match.group(1))
-                continue
-
             if ui.tokens.have(r'-sans'):
                 sans = True
                 continue
 
-            if ui.tokens.have(r'-j(itter)?'):
-                n = ui.tokens.have(r'\d+(?:\.\d+)?', lambda match: float(match[0]))
-                if n is not None:
-                    if n < 0:
-                        jitter = 0
-                        ui.print('! clamped -jitter value to 0')
-                    elif n > 1:
-                        jitter = 1
-                        ui.print('! clamped -jitter value to 1')
-                    else:
-                        jitter = n
-                else:
-                    ui.print('! -jitter expected value')
-                continue
+            try:
+                if may_rand.parse_arg(ui):
+                    continue
+            except Exception as err:
+                ui.print(f'! {err}')
+                return
 
             ui.print(f'! invalid * arg {next(ui.tokens)!r}')
             return
 
-        match_words, tried_words = self._guess(ui, verbose=verbose, sans=sans)
+        match_words, tried_words = self._guess(ui, verbose=may_rand.verbose, sans=sans)
 
-        pos = Possible(
-            match_words,
-            lambda words: self.select(ui, words, jitter=jitter),
-            choices=chooser.choices,
-            verbose=verbose)
+        pos = may_rand.choose(match_words)
 
-        if not pos.data and not sans and not chooser and self.void_letters:
-            sans_words, sans_tried_words = self._guess(ui, verbose=verbose, sans=True)
+        if not pos.data and not sans and not may_rand.chooser and self.void_letters:
+            sans_words, sans_tried_words = self._guess(ui, verbose=may_rand.verbose, sans=True)
             if sans_words:
                 tried_words = sans_tried_words
                 how = '-sans'
@@ -288,11 +276,7 @@ class DontWord(StoredLog):
                         MatchPat(re.compile(f'[{''.join(comb)}]', flags=re.I), neg=True)
                         for comb in combinations(self.void_letters, len(self.void_letters)-k))
                     k_pos = tuple(
-                        Possible(
-                            sans_words,
-                            lambda words: self.select(ui, words, jitter=jitter),
-                            choices=(pat,),
-                            verbose=verbose)
+                        may_rand.choose(sans_words, choices=(pat,))
                         for pat in k_pats)
                     k_have = tuple(
                         sum(1 for _ in ps.index())
@@ -308,11 +292,7 @@ class DontWord(StoredLog):
                         how = f'{how} {k_pats[min_i].arg_str()}'
                         break
                 else:
-                    pos = Possible(
-                        sans_words,
-                        lambda words: self.select(ui, words, jitter=jitter),
-                        choices=chooser.choices,
-                        verbose=verbose)
+                    pos = may_rand.choose(sans_words)
                     have = sum(1 for _ in pos.index())
                 ui.print(f'auto try harder: {how} ... {have} / {pos}')
 
@@ -384,26 +364,6 @@ class DontWord(StoredLog):
             for j, prior in enumerate(self.tried):
                 if prior.word[i] == let:
                     yield let, j, i
-
-    def select(self, _ui: PromptUI, words: Sequence[str], jitter: float = 0.5):
-        diag = DiagScores(words)
-        scores = tuple(1.0-score for score in diag.scores)
-
-        rand = None if jitter == 0 else RandScores(scores, jitter=jitter)
-        if rand is not None:
-            scores = rand.scores
-
-        def annotate(i: int) -> Generator[str]:
-            if rand is not None:
-                yield from rand.explain(i)
-            yield '1-='
-            yield from diag.explain(i)
-            wf_parts = list(diag.explain_wf(i))
-            if wf_parts:
-                yield f'WF:{" ".join(wf_parts)}'
-            yield f'LF:{" ".join(diag.explain_lf(i))}'
-            yield f'LF norm:{" ".join(diag.explain_lf_norm(i))}'
-        return scores, annotate
 
     def find(self, pattern: re.Pattern[str]):
         for word in self.wordlist.words:
