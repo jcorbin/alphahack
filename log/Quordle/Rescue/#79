@@ -1,0 +1,204 @@
+T3.3840580670002964 now: 2026-01-28T10:35:37EST
+TD103 site: m-w.com/games/quordle/#/rescue
+TD14 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD85  ...␅
+TD3974767 ␆
+TD68  ...
+TD382112 > ␅
+TD5002132 ␆tried octal pouty
+TD74 > tried octal pouty
+TD355 questioning: OCTAL POUTY
+TD122 Rescue #1 _____? ␅
+TD1695187 ␆nnnnn
+TD75 Rescue #1 _____? nnnnn
+TD404 attempt: 0 OCTAL n n n n n
+TD73 Rescue #1 _____ -ACLOT? ␅
+TD1183474 ␆nnYnn
+TD93 Rescue #1 _____ -ACLOT? nnYnn
+TD261 attempt: 0 POUTY n n Y n n
+TD95 Rescue #2 _____? ␅
+TD1183541 ␆nnnMn
+TD75 Rescue #2 _____? nnnMn
+TD173 attempt: 1 OCTAL n n n m n
+TD71 Rescue #2 _____ ~A -CLOT? ␅
+TD1439669 ␆MnnnY
+TD78 Rescue #2 _____ ~A -CLOT? MnnnY
+TD172 attempt: 1 POUTY m n n n Y
+TD69 Rescue #3 _____? ␅
+TD1687750 ␆nnnMn
+TD78 Rescue #3 _____? nnnMn
+TD161 attempt: 2 OCTAL n n n m n
+TD90 Rescue #3 _____ ~A -CLOT? ␅
+TD999754 ␆nnnnn
+TD110 Rescue #3 _____ ~A -CLOT? nnnnn
+TD221 attempt: 2 POUTY n n n n n
+TD90 Rescue #4 _____? ␅
+TD1375524 ␆nnnMn
+TD99 Rescue #4 _____? nnnMn
+TD237 attempt: 3 OCTAL n n n m n
+TD101 Rescue #4 _____ ~A -CLOT? ␅
+TD1031548 ␆nnnnn
+TD99 Rescue #4 _____ ~A -CLOT? nnnnn
+TD229 attempt: 3 POUTY n n n n n
+TD390960 > ␅
+TD664728 ␆*
+TD98 > *
+TD6062 ? ␅
+TD3697779 ␆7
+TD82 ? 7
+TD233 questioning: grade
+TD190 Rescue #1 __U__ -ACLOPTY? ␅
+TD6567549 ␆nYnMn
+TD79 Rescue #1 __U__ -ACLOPTY? nYnMn
+TD164 attempt: 0 GRADE n Y n m n
+TD72 Rescue #2 ____Y ~AP -CLOTU? ␅
+TD1087696 ␆nnMnn
+TD70 Rescue #2 ____Y ~AP -CLOTU? nnMnn
+TD161 attempt: 1 GRADE n n m n n
+TD75 Rescue #3 _____ ~A -CLOPTUY? ␅
+TD2479716 ␆nnYnY
+TD82 Rescue #3 _____ ~A -CLOPTUY? nnYnY
+TD167 attempt: 2 GRADE n n Y n Y
+TD73 Rescue #4 _____ ~A -CLOPTUY? ␅
+TD1895796 ␆nMMnM
+TD106 Rescue #4 _____ ~A -CLOPTUY? nMMnM
+TD216 attempt: 3 GRADE n m m n m
+TD407757 > ␅
+TD1487812 ␆*
+TD77 > *
+TD824 ? ␅
+TD5343202 ␆7
+TD78 ? 7
+TD140 questioning: hares
+TD112 Rescue #1 _RU__ ~D -ACEGLOPTY? ␅
+TD3607582 ␆nnMnn
+TD83 Rescue #1 _RU__ ~D -ACEGLOPTY? nnMnn
+TD155 attempt: 0 HARES n n m n n
+TD78 Rescue #2 ____Y ~AP -CDEGLORTU? ␅
+TD1431864 ␆YYnnn
+TD98 Rescue #2 ____Y ~AP -CDEGLORTU? YYnnn
+TD211 attempt: 1 HARES Y Y n n n
+TD87 Rescue #3 __A_E -CDGLOPRTUY? ␅
+TD1471480 ␆nMnMn
+TD75 Rescue #3 __A_E -CDGLOPRTUY? nMnMn
+TD160 attempt: 2 HARES n m n m n
+TD72 Rescue #4 _____ ~AER -CDGLOPTUY? ␅
+TD1823768 ␆nYMYn
+TD70 Rescue #4 _____ ~AER -CDGLOPTUY? nYMYn
+TD156 attempt: 3 HARES n Y m Y n
+TD351644 > ␅
+TD800095 ␆*
+TD94 > *
+TD381 questioning: happy
+TD120 Rescue #1 _RU__ ~D -ACEGHLOPSTY? ␅
+TD4551480 ␆nnnnn
+TD96 Rescue #1 _RU__ ~D -ACEGHLOPSTY? nnnnn
+TD208 attempt: 0 HAPPY n n n n n
+TD120 Rescue #2 HA__Y ~P -CDEGLORSTU? ␅
+TD1191588 ␆YYYYY
+TD89 Rescue #2 HA__Y ~P -CDEGLORSTU? YYYYY
+TD155 attempt: 1 HAPPY Y Y Y Y Y
+TD84 Rescue #3 __A_E -CDGHLOPRSTUY? ␅
+TD1735623 ␆nMnnn
+TD84 Rescue #3 __A_E -CDGHLOPRSTUY? nMnnn
+TD152 attempt: 2 HAPPY n m n n n
+TD78 Rescue #4 _A_E_ ~R -CDGHLOPSTUY? ␅
+TD1311614 ␆nYnnn
+TD102 Rescue #4 _A_E_ ~R -CDGHLOPSTUY? nYnnn
+TD188 attempt: 3 HAPPY n Y n n n
+TD243161 > ␅
+TD1044596 ␆*
+TD68 > *
+TD304 ? ␅
+TD1503827 ␄
+TD109 <EOF>
+TD265858 > ␅
+TD1661890 ␆* 4
+TD73 > * 4
+TD92648 ? ␅
+TD3427402 ␆1
+TD103 ? 1
+TD178 questioning: waker
+TD157 Rescue #1 _RU__ ~D -ACEGHLOPSTY? ␅
+TD2791520 ␆nnMnM
+TD105 Rescue #1 _RU__ ~D -ACEGHLOPSTY? nnMnM
+TD271 attempt: 0 WAKER n n m n m
+TD133 Rescue #3 __A_E -CDGHLOPRSTUY? ␅
+TD1951405 ␆nMnMn
+TD101 Rescue #3 __A_E -CDGHLOPRSTUY? nMnMn
+TD266 attempt: 2 WAKER n m n m n
+TD137 Rescue #4 _A_E_ ~R -CDGHLOPSTUY? ␅
+TD2591504 ␆nYYYY
+TD78 Rescue #4 _A_E_ ~R -CDGHLOPSTUY? nYYYY
+TD162 attempt: 3 WAKER n Y Y Y Y
+TD282018 > ␅
+TD765935 ␆*
+TD156 > *
+TD354 questioning: drunk
+TD88 Rescue #1 _RU__ ~DK -ACEGHLOPSTWY? ␅
+TD3815314 ␆YYYYY
+TD79 Rescue #1 _RU__ ~DK -ACEGHLOPSTWY? YYYYY
+TD154 attempt: 0 DRUNK Y Y Y Y Y
+TD77 Rescue #3 __A_E -CDGHKLOPRSTUWY? ␅
+TD1423774 ␆nnnYn
+TD75 Rescue #3 __A_E -CDGHKLOPRSTUWY? nnnYn
+TD159 attempt: 2 DRUNK n n n Y n
+TD75 Rescue #4 _AKER -CDGHLOPSTUWY? ␅
+TD1503572 ␆nMnnM
+TD74 Rescue #4 _AKER -CDGHLOPSTUWY? nMnnM
+TD165 attempt: 3 DRUNK n m n n m
+TD180425 > ␅
+TD683362 ␆*
+TD93 > *
+TD382 questioning: inane
+TD108 Rescue #3 __ANE -CDGHKLOPRSTUWY? ␅
+TD2879797 ␆YYYYY
+TD96 Rescue #3 __ANE -CDGHKLOPRSTUWY? YYYYY
+TD180 attempt: 2 INANE Y Y Y Y Y
+TD126 Rescue #4 _AKER -CDGHLNOPSTUWY? ␅
+TD3015253 ␆nnMnM
+TD93 Rescue #4 _AKER -CDGHLNOPSTUWY? nnMnM
+TD215 attempt: 3 INANE n n m n m
+TD90095 > ␅
+TD789526 ␆*
+TD67 > *
+TD339 ? ␅
+TD1199657 ␆1
+TD77 ? 1
+TD131 questioning: baker
+TD111 Rescue #4 _AKER -CDGHILNOPSTUWY? ␅
+TD11639782 ␆nYYYY
+TD82 Rescue #4 _AKER -CDGHILNOPSTUWY? nYYYY
+TD166 attempt: 3 BAKER n Y Y Y Y
+TD90647 > ␅
+TD5677178 ␆/res
+TD96 > /res
+TD205 📋> ␅
+TD592611 ␆Daily Rescue 79
+TD77 📋> Daily Rescue 79
+TD11 📋> ␅
+TD33 ␆7️⃣5️⃣
+TD3 📋> 7️⃣5️⃣
+TD3 📋> ␅
+TD7 ␆8️⃣🟥
+TD2 📋> 8️⃣🟥
+TD2 📋> ␅
+TD6 ␆m-w.com/games/quordle/
+TD2 📋> m-w.com/games/quordle/
+TD2 📋> ␅
+TD326941 ␆
+TD71 📋> 
+TD8 📋> ␅
+TD175827 ␄
+TD136 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Daily Rescue 79\n7\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TD1543 result: "Daily Rescue 79\n7\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TD88897 > ␅
+TD101583 ␆
+TD84 > 
+TD178 > ␅
+TD2623652 ␆/store
+TD95 > /store
+TD232 📆 2026-01-28 ? ␅
+TD735697 ␆
+TD79 📆 2026-01-28 ? 
