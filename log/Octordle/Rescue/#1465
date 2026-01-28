@@ -1,0 +1,363 @@
+T128.29690814599599 now: 2026-01-28T10:37:42EST
+TD86 site: britannica.com/games/octordle/daily-rescue
+TD14 wordlist: nwl2023.txt
+TD4 num_words: 8
+TD93  ...␅
+TD718768 ␆
+TD78  ...
+TD654300 > ␅
+TD24905748 ␆tried shell reuse outgo flame
+TD75 > tried shell reuse outgo flame
+TD161 questioning: SHELL REUSE OUTGO FLAME
+TD162 Rescue #1 _____? ␅
+TD2119572 ␆MnYnn
+TD76 Rescue #1 _____? MnYnn
+TD156 attempt: 0 SHELL m n Y n n
+TD67 Rescue #1 __E__ ~S -HL? ␅
+TD2127757 ␆nMMYn
+TD72 Rescue #1 __E__ ~S -HL? nMMYn
+TD155 attempt: 0 REUSE n m m Y n
+TD77 Rescue #1 __ES_ ~U -HLR E:1? ␅
+TD1551776 ␆nYnMn
+TD77 Rescue #1 __ES_ ~U -HLR E:1? nYnMn
+TD162 attempt: 0 OUTGO n Y n m n
+TD70 Rescue #1 _UES_ ~G -HLORT E:1? ␅
+TD1415634 ␆nnnnM
+TD93 Rescue #1 _UES_ ~G -HLORT E:1? nnnnM
+TD245 attempt: 0 FLAME n n n n m
+TD97 Rescue #2 _____? ␅
+TD1807593 ␆nnnnn
+TD93 Rescue #2 _____? nnnnn
+TD243 attempt: 1 SHELL n n n n n
+TD101 Rescue #2 _____ -EHLS? ␅
+TD1943652 ␆nnMnn
+TD74 Rescue #2 _____ -EHLS? nnMnn
+TD166 attempt: 1 REUSE n n m n n
+TD71 Rescue #2 _____ ~U -EHLRS? ␅
+TD1223579 ␆nYnnn
+TD69 Rescue #2 _____ ~U -EHLRS? nYnnn
+TD155 attempt: 1 OUTGO n Y n n n
+TD79 Rescue #2 _U___ -EGHLORST? ␅
+TD1119771 ␆nnnnn
+TD75 Rescue #2 _U___ -EGHLORST? nnnnn
+TD168 attempt: 1 FLAME n n n n n
+TD71 Rescue #3 _____? ␅
+TD1591699 ␆nnMnn
+TD74 Rescue #3 _____? nnMnn
+TD162 attempt: 2 SHELL n n m n n
+TD67 Rescue #3 _____ ~E -HLS? ␅
+TD1943608 ␆MMnnn
+TD87 Rescue #3 _____ ~E -HLS? MMnnn
+TD162 attempt: 2 REUSE m m n n n
+TD73 Rescue #3 _____ ~ER -HLSU E:1? ␅
+TD1903740 ␆nnMnn
+TD77 Rescue #3 _____ ~ER -HLSU E:1? nnMnn
+TD161 attempt: 2 OUTGO n n m n n
+TD74 Rescue #3 _____ ~ERT -GHLOSU E:1? ␅
+TD1344011 ␆nnnMM
+TD110 Rescue #3 _____ ~ERT -GHLOSU E:1? nnnMM
+TD233 attempt: 2 FLAME n n n m m
+TD99 Rescue #4 _____? ␅
+TD1703294 ␆nnnMn
+TD95 Rescue #4 _____? nnnMn
+TD287 attempt: 3 SHELL n n n m n
+TD136 Rescue #4 _____ ~L -EHS L:1? ␅
+TD2511410 ␆nnMnn
+TD74 Rescue #4 _____ ~L -EHS L:1? nnMnn
+TD241 attempt: 3 REUSE n n m n n
+TD146 Rescue #4 _____ ~LU -EHRS L:1? ␅
+TD1399601 ␆MMnnn
+TD77 Rescue #4 _____ ~LU -EHRS L:1? MMnnn
+TD163 attempt: 3 OUTGO m m n n n
+TD107 Rescue #4 _____ ~LOU -EGHRST L:1 O:1? ␅
+TD1439709 ␆nYMnn
+TD104 Rescue #4 _____ ~LOU -EGHRST L:1 O:1? nYMnn
+TD243 attempt: 3 FLAME n Y m n n
+TD98 Rescue #5 _____? ␅
+TD4119671 ␆nnnnn
+TD99 Rescue #5 _____? nnnnn
+TD216 attempt: 4 SHELL n n n n n
+TD104 Rescue #5 _____ -EHLS? ␅
+TD1503576 ␆MnMnn
+TD81 Rescue #5 _____ -EHLS? MnMnn
+TD160 attempt: 4 REUSE m n m n n
+TD85 Rescue #5 _____ ~RU -EHLS? ␅
+TD1335938 ␆nYnnn
+TD102 Rescue #5 _____ ~RU -EHLS? nYnnn
+TD259 attempt: 4 OUTGO n Y n n n
+TD94 Rescue #5 _U___ ~R -EGHLOST? ␅
+TD1823729 ␆nnnnn
+TD78 Rescue #5 _U___ ~R -EGHLOST? nnnnn
+TD153 attempt: 4 FLAME n n n n n
+TD67 Rescue #6 _____? ␅
+TD1671442 ␆nnnnn
+TD100 Rescue #6 _____? nnnnn
+TD206 attempt: 5 SHELL n n n n n
+TD80 Rescue #6 _____ -EHLS? ␅
+TD1887555 ␆Mnnnn
+TD98 Rescue #6 _____ -EHLS? Mnnnn
+TD215 attempt: 5 REUSE m n n n n
+TD111 Rescue #6 _____ ~R -EHLSU? ␅
+TD1687809 ␆nnnMn
+TD76 Rescue #6 _____ ~R -EHLSU? nnnMn
+TD149 attempt: 5 OUTGO n n n m n
+TD71 Rescue #6 _____ ~GR -EHLOSTU? ␅
+TD1327204 ␆nnMnn
+TD71 Rescue #6 _____ ~GR -EHLOSTU? nnMnn
+TD155 attempt: 5 FLAME n n m n n
+TD65 Rescue #7 _____? ␅
+TD1679723 ␆nnMnn
+TD78 Rescue #7 _____? nnMnn
+TD154 attempt: 6 SHELL n n m n n
+TD70 Rescue #7 _____ ~E -HLS? ␅
+TD1384311 ␆MMnnM
+TD76 Rescue #7 _____ ~E -HLS? MMnnM
+TD153 attempt: 6 REUSE m m n n m
+TD74 Rescue #7 _____ ~ER -HLSU? ␅
+TD1175199 ␆nnnMn
+TD93 Rescue #7 _____ ~ER -HLSU? nnnMn
+TD237 attempt: 6 OUTGO n n n m n
+TD132 Rescue #7 _____ ~EGR -HLOSTU? ␅
+TD2711516 ␆nnMnM
+TD109 Rescue #7 _____ ~EGR -HLOSTU? nnMnM
+TD224 attempt: 6 FLAME n n m n m
+TD99 Rescue #8 _____? ␅
+TD1783610 ␆MnMnn
+TD87 Rescue #8 _____? MnMnn
+TD175 attempt: 7 SHELL m n m n n
+TD79 Rescue #8 _____ ~ES -HL? ␅
+TD1896147 ␆nYnYY
+TD78 Rescue #8 _____ ~ES -HL? nYnYY
+TD169 attempt: 7 REUSE n Y n Y Y
+TD80 Rescue #8 _E_SE -HLRU? ␅
+TD1455384 ␆nnnnn
+TD74 Rescue #8 _E_SE -HLRU? nnnnn
+TD146 attempt: 7 OUTGO n n n n n
+TD85 Rescue #8 _E_SE -GHLORTU? ␅
+TD1647521 ␆nnnnY
+TD75 Rescue #8 _E_SE -GHLORTU? nnnnY
+TD155 attempt: 7 FLAME n n n n Y
+TD706635 > ␅
+TD485162 ␆*
+TD103 > *
+TD400 questioning: guess
+TD136 Rescue #1 _UES_ ~G -AFHLMORT E:1? ␅
+TD5919426 ␆YYYYY
+TD97 Rescue #1 _UES_ ~G -AFHLMORT E:1? YYYYY
+TD223 attempt: 0 GUESS Y Y Y Y Y
+TD123 Rescue #2 _U___ -AEFGHLMORST? ␅
+TD2095564 ␆nYnnn
+TD76 Rescue #2 _U___ -AEFGHLMORST? nYnnn
+TD161 attempt: 1 GUESS n Y n n n
+TD88 Rescue #3 _____ ~EMRT -AFGHLOSU E:1? ␅
+TD1983579 ␆nnMnn
+TD68 Rescue #3 _____ ~EMRT -AFGHLOSU E:1? nnMnn
+TD153 attempt: 2 GUESS n n m n n
+TD83 Rescue #4 _L___ ~AOU -EFGHMRST O:1? ␅
+TD1487963 ␆nMnnn
+TD76 Rescue #4 _L___ ~AOU -EFGHMRST O:1? nMnnn
+TD154 attempt: 3 GUESS n m n n n
+TD82 Rescue #5 _U___ ~R -AEFGHLMOST? ␅
+TD4535592 ␆nYnnn
+TD78 Rescue #5 _U___ ~R -AEFGHLMOST? nYnnn
+TD174 attempt: 4 GUESS n Y n n n
+TD100 Rescue #6 _____ ~AGR -EFHLMOSTU? ␅
+TD1895639 ␆Mnnnn
+TD71 Rescue #6 _____ ~AGR -EFHLMOSTU? Mnnnn
+TD149 attempt: 5 GUESS m n n n n
+TD74 Rescue #7 _____ ~AEGR -FHLMOSTU? ␅
+TD1960169 ␆MnMnn
+TD83 Rescue #7 _____ ~AEGR -FHLMOSTU? MnMnn
+TD188 attempt: 6 GUESS m n m n n
+TD81 Rescue #8 _E_SE -AFGHLMORTU? ␅
+TD1271113 ␆nnMYn
+TD97 Rescue #8 _E_SE -AFGHLMORTU? nnMYn
+TD217 attempt: 7 GUESS n n m Y n
+TD671262 > ␅
+TD3176430 ␆*
+TD78 > *
+TD286 questioning: timer
+TD102 Rescue #2 _U___ -AEFGHLMORST? ␅
+TD4743586 ␆nnnnn
+TD75 Rescue #2 _U___ -AEFGHLMORST? nnnnn
+TD154 attempt: 1 TIMER n n n n n
+TD78 Rescue #3 _____ ~EMRT -AFGHLOSU E:1? ␅
+TD1431685 ␆YYYYY
+TD95 Rescue #3 _____ ~EMRT -AFGHLOSU E:1? YYYYY
+TD230 attempt: 2 TIMER Y Y Y Y Y
+TD116 Rescue #4 _L___ ~AOU -EFGHMRST O:1? ␅
+TD1431538 ␆nnnnn
+TD103 Rescue #4 _L___ ~AOU -EFGHMRST O:1? nnnnn
+TD227 attempt: 3 TIMER n n n n n
+TD113 Rescue #5 _U___ ~R -AEFGHLMOST? ␅
+TD3391747 ␆nnnnM
+TD89 Rescue #5 _U___ ~R -AEFGHLMOST? nnnnM
+TD225 attempt: 4 TIMER n n n n m
+TD114 Rescue #6 _____ ~AGR -EFHLMOSTU? ␅
+TD1767517 ␆nnnnM
+TD95 Rescue #6 _____ ~AGR -EFHLMOSTU? nnnnM
+TD223 attempt: 5 TIMER n n n n m
+TD109 Rescue #7 _____ ~AEGR -FHLMOSTU? ␅
+TD1343476 ␆nnnYY
+TD76 Rescue #7 _____ ~AEGR -FHLMOSTU? nnnYY
+TD160 attempt: 6 TIMER n n n Y Y
+TD74 Rescue #8 _E_SE -AFGHLMORTU? ␅
+TD1295850 ␆nnnMn
+TD90 Rescue #8 _E_SE -AFGHLMORTU? nnnMn
+TD226 attempt: 7 TIMER n n n m n
+TD553129 > ␅
+TD2422446 ␆*
+TD75 > *
+TD281 questioning: aloud
+TD103 Rescue #2 _U___ -AEFGHILMORST? ␅
+TD4631564 ␆nnnMM
+TD95 Rescue #2 _U___ -AEFGHILMORST? nnnMM
+TD220 attempt: 1 ALOUD n n n m m
+TD102 Rescue #4 _L___ ~AOU -EFGHIMRST O:1? ␅
+TD1247697 ␆YYYYY
+TD78 Rescue #4 _L___ ~AOU -EFGHIMRST O:1? YYYYY
+TD163 attempt: 3 ALOUD Y Y Y Y Y
+TD77 Rescue #5 _U___ ~R -AEFGHILMOST? ␅
+TD3687621 ␆nnnMn
+TD80 Rescue #5 _U___ ~R -AEFGHILMOST? nnnMn
+TD171 attempt: 4 ALOUD n n n m n
+TD85 Rescue #6 _____ ~AGR -EFHILMOSTU? ␅
+TD1975712 ␆Ynnnn
+TD71 Rescue #6 _____ ~AGR -EFHILMOSTU? Ynnnn
+TD159 attempt: 5 ALOUD Y n n n n
+TD82 Rescue #7 ___ER ~AG -FHILMOSTU? ␅
+TD2471924 ␆Mnnnn
+TD95 Rescue #7 ___ER ~AG -FHILMOSTU? Mnnnn
+TD239 attempt: 6 ALOUD m n n n n
+TD146 Rescue #8 _E_SE -AFGHILMORTU? ␅
+TD1671303 ␆nnnnM
+TD96 Rescue #8 _E_SE -AFGHILMORTU? nnnnM
+TD222 attempt: 7 ALOUD n n n n m
+TD440882 > ␅
+TD3142802 ␆* 8
+TD77 > * 8
+TD87834 questioning: dense
+TD118 Rescue #2 _U___ ~D -AEFGHILMORST? ␅
+TD5047950 ␆Mnnnn
+TD103 Rescue #2 _U___ ~D -AEFGHILMORST? Mnnnn
+TD210 attempt: 1 DENSE m n n n n
+TD90 Rescue #5 _U___ ~R -ADEFGHILMOST? ␅
+TD3655923 ␆nnnnn
+TD73 Rescue #5 _U___ ~R -ADEFGHILMOST? nnnnn
+TD156 attempt: 4 DENSE n n n n n
+TD80 Rescue #6 A____ ~GR -DEFHILMOSTU? ␅
+TD1647354 ␆nnMnn
+TD66 Rescue #6 A____ ~GR -DEFHILMOSTU? nnMnn
+TD156 attempt: 5 DENSE n n m n n
+TD77 Rescue #7 ___ER ~AG -DFHILMOSTU? ␅
+TD3247793 ␆nMnnM
+TD85 Rescue #7 ___ER ~AG -DFHILMOSTU? nMnnM
+TD217 attempt: 6 DENSE n m n n m
+TD122 Rescue #8 _E_SE ~D -AFGHILMORTU? ␅
+TD1231705 ␆YYYYY
+TD73 Rescue #8 _E_SE ~D -AFGHILMORTU? YYYYY
+TD148 attempt: 7 DENSE Y Y Y Y Y
+TD381906 > ␅
+TD4586134 ␆*
+TD114 > *
+TD388 questioning: angry
+TD135 Rescue #2 _U___ ~D -AEFGHILMNORST? ␅
+TD5207578 ␆nnnnY
+TD109 Rescue #2 _U___ ~D -AEFGHILMNORST? nnnnY
+TD218 attempt: 1 ANGRY n n n n Y
+TD111 Rescue #5 _U___ ~R -ADEFGHILMNOST? ␅
+TD3887735 ␆nnnMY
+TD109 Rescue #5 _U___ ~R -ADEFGHILMNOST? nnnMY
+TD226 attempt: 4 ANGRY n n n m Y
+TD119 Rescue #6 A____ ~GNR -DEFHILMOSTU? ␅
+TD1902914 ␆YYYYY
+TD93 Rescue #6 A____ ~GNR -DEFHILMOSTU? YYYYY
+TD224 attempt: 5 ANGRY Y Y Y Y Y
+TD111 Rescue #7 ___ER ~AG -DFHILMNOSTU? ␅
+TD3407727 ␆MnYMn
+TD74 Rescue #7 ___ER ~AG -DFHILMNOSTU? MnYMn
+TD2280 attempt: 6 ANGRY m n Y m n
+TD259933 > ␅
+TD1233774 ␆*
+TD118 > *
+TD345 questioning: curvy
+TD83 Rescue #2 _U__Y ~D -AEFGHILMNORST? ␅
+TD5247440 ␆nYnnY
+TD144 Rescue #2 _U__Y ~D -AEFGHILMNORST? nYnnY
+TD235 attempt: 1 CURVY n Y n n Y
+TD114 Rescue #5 _U__Y ~R -ADEFGHILMNOST? ␅
+TD4039464 ␆YYYYY
+TD71 Rescue #5 _U__Y ~R -ADEFGHILMNOST? YYYYY
+TD158 attempt: 4 CURVY Y Y Y Y Y
+TD82 Rescue #7 __GER ~A -DFHILMNOSTUY? ␅
+TD2879627 ␆nnMnn
+TD92 Rescue #7 __GER ~A -DFHILMNOSTUY? nnMnn
+TD225 attempt: 6 CURVY n n m n n
+TD173995 > ␅
+TD1313822 ␆*
+TD76 > *
+TD353 ? ␅
+TD2567619 ␆1
+TD96 ? 1
+TD138 questioning: buddy
+TD118 Rescue #2 _U__Y ~D -ACEFGHILMNORSTV? ␅
+TD4647684 ␆YYYYY
+TD96 Rescue #2 _U__Y ~D -ACEFGHILMNORSTV? YYYYY
+TD214 attempt: 1 BUDDY Y Y Y Y Y
+TD120 Rescue #7 __GER ~A -CDFHILMNOSTUVY? ␅
+TD3871445 ␆nnnnn
+TD77 Rescue #7 __GER ~A -CDFHILMNOSTUVY? nnnnn
+TD153 attempt: 6 BUDDY n n n n n
+TD94732 > ␅
+TD737298 ␆*
+TD76 > *
+TD388 ? ␅
+TD5039396 ␆3
+TD73 ? 3
+TD127 questioning: wager
+TD101 Rescue #7 __GER ~A -BCDFHILMNOSTUVY? ␅
+TD4743909 ␆nYYYY
+TD98 Rescue #7 __GER ~A -BCDFHILMNOSTUVY? nYYYY
+TD225 attempt: 6 WAGER n Y Y Y Y
+TD89781 > ␅
+TD709735 ␆*
+TD96 > *
+TD530 ? ␅
+TD1751328 ␆2
+TD81 ? 2
+TD130 questioning: pager
+TD110 Rescue #7 _AGER -BCDFHILMNOSTUVWY? ␅
+TD5039844 ␆nYYYY
+TD97 Rescue #7 _AGER -BCDFHILMNOSTUVWY? nYYYY
+TD223 attempt: 6 PAGER n Y Y Y Y
+TD86107 > ␅
+TD2873411 ␆/res
+TD71 > /res
+TD153 📋> ␅
+TD664029 ␆Daily Rescue Octordle #1465
+TD79 📋> Daily Rescue Octordle #1465
+TD17 📋> ␅
+TD47 ␆5️⃣🕚
+TD14 📋> 5️⃣🕚
+TD13 📋> ␅
+TD21 ␆6️⃣7️⃣
+TD16 📋> 6️⃣7️⃣
+TD12 📋> ␅
+TD19 ␆🔟9️⃣
+TD11 📋> 🔟9️⃣
+TD11 📋> ␅
+TD18 ␆🟥8️⃣
+TD10 📋> 🟥8️⃣
+TD11 📋> ␅
+TD295597 ␆Score: 7
+TD117 📋> Score: 7
+TD33 📋> ␅
+TD223812 ␄
+TD157 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1465\n5\ufe0f\u20e3\ud83d\udd5a\n6\ufe0f\u20e37\ufe0f\u20e3\n\ud83d\udd1f9\ufe0f\u20e3\n\ud83d\udfe58\ufe0f\u20e3\nScore: 7"}
+TD407 result: "Daily Rescue Octordle #1465\n5\ufe0f\u20e3\ud83d\udd5a\n6\ufe0f\u20e37\ufe0f\u20e3\n\ud83d\udd1f9\ufe0f\u20e3\n\ud83d\udfe58\ufe0f\u20e3\nScore: 7"
+TD87629 > ␅
+TD1175549 ␆/store
+TD79 > /store
+TD175 📆 2026-01-28 ? ␅
+TD904032 ␆
+TD99 📆 2026-01-28 ? 
