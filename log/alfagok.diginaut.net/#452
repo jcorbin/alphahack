@@ -1,0 +1,90 @@
+T21.10921301900089 now: 2026-01-28T08:05:30EST
+TD90 site: alfagok.diginaut.net
+TD388493 loaded 399678 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1174 words excluded) asof 497a8021f3c9b42fecb0abf9f0ff754a2c7f64aa
+TD126  ...␅
+TD9034578 ␆
+TD79  ...
+TD163 [0 : 199833 : 399678] lijm? ␅
+TD2880033 ␆a
+TD99 [0 : 199833 : 399678] lijm? a
+TD343 progress: 1 199833 lijm
+TD117 [199834 : 299738 : 399678] schub? ␅
+TD1455164 ␆a
+TD98 [199834 : 299738 : 399678] schub? a
+TD128 progress: 1 299738 schub
+TD138 [299739 : 349512 : 399678] vakantie? ␅
+TD3735648 ␆b
+TD96 [299739 : 349512 : 399678] vakantie? b
+TD105 progress: -1 349512 vakantie
+TD162 [299739 : 324308 : 349512] sub? ␅
+TD2135727 ␆a
+TD88 [299739 : 324308 : 349512] sub? a
+TD113 progress: 1 324308 sub
+TD132 [324309 : 336905 : 349512] toetsing? ␅
+TD1879686 ␆a
+TD96 [324309 : 336905 : 349512] toetsing? a
+TD120 progress: 1 336905 toetsing
+TD124 [336906 : 343095 : 349512] tv? ␅
+TD1919664 ␆b
+TD94 [336906 : 343095 : 349512] tv? b
+TD124 progress: -1 343095 tv
+TD108 [336906 : 339896 : 343095] transport? ␅
+TD1775816 ␆b
+TD73 [336906 : 339896 : 343095] transport? b
+TD83 progress: -1 339896 transport
+TD81 [336906 : 338395 : 339896] topt? ␅
+TD1479582 ␆b
+TD78 [336906 : 338395 : 339896] topt? b
+TD90 progress: -1 338395 topt
+TD87 [336906 : 337562 : 338395] toneel? ␅
+TD1848076 ␆b
+TD75 [336906 : 337562 : 338395] toneel? b
+TD79 progress: -1 337562 toneel
+TD81 [336906 : 337213 : 337562] toilet? ␅
+TD1535977 ␆b
+TD76 [336906 : 337213 : 337562] toilet? b
+TD78 progress: -1 337213 toilet
+TD220 [336906 : 337059 : 337213] toewenden? ␅
+TD1471555 ␆b
+TD75 [336906 : 337059 : 337213] toewenden? b
+TD84 progress: -1 337059 toewenden
+TD164 [336906 : 336981 : 337059] toeven? ␅
+TD2047411 ␆b
+TD98 [336906 : 336981 : 337059] toeven? b
+TD107 progress: -1 336981 toeven
+TD226 [336906 : 336943 : 336981] toetsscores? ␅
+TD1703460 ␆a
+TD106 [336906 : 336943 : 336981] toetsscores? a
+TD106 progress: 1 336943 toetsscores
+TD119 [336944 : 336957 : 336981] toeval? ␅
+TD1559616 ␆a
+TD85 [336944 : 336957 : 336981] toeval? a
+TD86 progress: 1 336957 toeval
+TD101 [336958 : 336960 : 336981] toevallig? ␅
+TD1696020 ␆it
+TD86 [336958 : 336960 : 336981] toevallig? it
+TD106 progress: 0 336960 toevallig
+TD25 [336958 : 336960 : 336981] <Done>.
+TD97 📋> ␅
+TD3640090 ␆🧩 Puzzel #452
+TD76 📋> 🧩 Puzzel #452
+TD7 📋> ␅
+TD29 ␆🤔 15 gokken
+TD3 📋> 🤔 15 gokken
+TD3 📋> ␅
+TD6 ␆⏱️ 26s
+TD3 📋> ⏱️ 26s
+TD2 📋> ␅
+TD343322 ␆🔗 alfagok.diginaut.net
+TD83 📋> 🔗 alfagok.diginaut.net
+TD8 📋> ␅
+TD160261 ␄
+TD145 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #452\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 26s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD610 result: "\ud83e\udde9 Puzzel #452\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 26s\n\ud83d\udd17 alfagok.diginaut.net"
+TD19 result puzzle: 452
+TD8 result guesses: 15
+TD6 result time: 26s
+TD5 result link: alfagok.diginaut.net
+TD64 📆 2026-01-28 ? ␅
+TD358825 ␆
+TD72 📆 2026-01-28 ? 
