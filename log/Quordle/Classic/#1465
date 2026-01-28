@@ -1,0 +1,162 @@
+T645.1066370249973 now: 2026-01-28T08:15:54EST
+TD97 site: m-w.com/games/quordle/#/
+TD15 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD94  ...␅
+TD4079197 ␆
+TD68  ...
+TD292739 > ␅
+TD1507207 ␆*
+TD62 > *
+TD33801 ? ␅
+TD1054064 ␆1
+TD70 ? 1
+TD138 questioning: aisle
+TD110 Classic #1 _____? ␅
+TD3943825 ␆nMnnn
+TD70 Classic #1 _____? nMnnn
+TD284 attempt: 0 AISLE n m n n n
+TD152 Classic #2 _____? ␅
+TD1727871 ␆nMnMn
+TD97 Classic #2 _____? nMnMn
+TD246 attempt: 1 AISLE n m n m n
+TD99 Classic #3 _____? ␅
+TD1311143 ␆nnnnM
+TD79 Classic #3 _____? nnnnM
+TD170 attempt: 2 AISLE n n n n m
+TD74 Classic #4 _____? ␅
+TD3751799 ␆MnnMY
+TD97 Classic #4 _____? MnnMY
+TD228 attempt: 3 AISLE m n n m Y
+TD427239 > ␅
+TD796438 ␆*
+TD96 > *
+TD3419 ? ␅
+TD2124427 ␆3
+TD115 ? 3
+TD215 questioning: toner
+TD188 Classic #1 _____ ~I -AELS? ␅
+TD2743589 ␆MMMnn
+TD98 Classic #1 _____ ~I -AELS? MMMnn
+TD225 attempt: 0 TONER m m m n n
+TD85 Classic #2 _____ ~IL -AES? ␅
+TD1135978 ␆nMnnn
+TD106 Classic #2 _____ ~IL -AES? nMnnn
+TD244 attempt: 1 TONER n m n n n
+TD77 Classic #3 _____ ~E -AILS? ␅
+TD1631263 ␆nYYYY
+TD92 Classic #3 _____ ~E -AILS? nYYYY
+TD218 attempt: 2 TONER n Y Y Y Y
+TD124 Classic #4 ____E ~AL -IS? ␅
+TD1071409 ␆nnnMn
+TD76 Classic #4 ____E ~AL -IS? nnnMn
+TD154 attempt: 3 TONER n n n m n
+TD462283 > ␅
+TD1793690 ␆* 4
+TD96 > * 4
+TD100294 ? ␅
+TD1195431 ␄
+TD115 <EOF>
+TD455429 > ␅
+TD640557 ␆*
+TD103 > *
+TD625 ? ␅
+TD1847321 ␆1
+TD92 ? 1
+TD177 questioning: ingot
+TD164 Classic #1 _____ ~INOT -AELRS? ␅
+TD3815736 ␆YYYYY
+TD75 Classic #1 _____ ~INOT -AELRS? YYYYY
+TD169 attempt: 0 INGOT Y Y Y Y Y
+TD79 Classic #2 _____ ~ILO -AENRST? ␅
+TD2263494 ␆YnMYn
+TD74 Classic #2 _____ ~ILO -AENRST? YnMYn
+TD162 attempt: 1 INGOT Y n m Y n
+TD72 Classic #3 _ONER -AILST? ␅
+TD1511676 ␆nMMMn
+TD67 Classic #3 _ONER -AILST? nMMMn
+TD135 attempt: 2 INGOT n m m m n
+TD65 Classic #4 ____E ~AL -INORST? ␅
+TD1247942 ␆nnnnn
+TD95 Classic #4 ____E ~AL -INORST? nnnnn
+TD236 attempt: 3 INGOT n n n n n
+TD266335 > ␅
+TD765443 ␆*
+TD86 > *
+TD455 questioning: igloo
+TD99 Classic #2 I__O_ ~GL -AENRST? ␅
+TD3239192 ␆YYYYY
+TD98 Classic #2 I__O_ ~GL -AENRST? YYYYY
+TD220 attempt: 1 IGLOO Y Y Y Y Y
+TD110 Classic #3 _ONER ~G -AILST? ␅
+TD1703517 ␆nMnMn
+TD79 Classic #3 _ONER ~G -AILST? nMnMn
+TD166 attempt: 2 IGLOO n m n m n
+TD91 Classic #4 ____E ~AL -GINORST? ␅
+TD1335649 ␆nnMnn
+TD75 Classic #4 ____E ~AL -GINORST? nnMnn
+TD153 attempt: 3 IGLOO n n m n n
+TD185951 > ␅
+TD661868 ␆*
+TD96 > *
+TD391 questioning: goner
+TD84 Classic #3 _ONER ~G -AILST O:1? ␅
+TD2831507 ␆YYYYY
+TD78 Classic #3 _ONER ~G -AILST O:1? YYYYY
+TD171 attempt: 2 GONER Y Y Y Y Y
+TD76 Classic #4 ____E ~AL -GINORST? ␅
+TD1239689 ␆nnnMn
+TD87 Classic #4 ____E ~AL -GINORST? nnnMn
+TD195 attempt: 3 GONER n n n m n
+TD93385 > ␅
+TD810439 ␆*
+TD181 > *
+TD664 ? ␅
+TD1183189 ␆1
+TD103 ? 1
+TD178 questioning: blade
+TD148 Classic #4 ____E ~AL -GINORST? ␅
+TD2935657 ␆nYYnY
+TD85 Classic #4 ____E ~AL -GINORST? nYYnY
+TD182 attempt: 3 BLADE n Y Y n Y
+TD96745 > ␅
+TD782933 ␆*
+TD93 > *
+TD454 ? ␅
+TD3847623 ␆3
+TD117 ? 3
+TD205 questioning: flame
+TD174 Classic #4 _LA_E -BDGINORST? ␅
+TD2711675 ␆YYYnY
+TD95 Classic #4 _LA_E -BDGINORST? YYYnY
+TD223 attempt: 3 FLAME Y Y Y n Y
+TD86196 > ␅
+TD697967 ␆*
+TD171 > *
+TD348 questioning: flake
+TD79 Classic #4 FLA_E -BDGIMNORST? ␅
+TD2783876 ␆YYYYY
+TD99 Classic #4 FLA_E -BDGIMNORST? YYYYY
+TD206 attempt: 3 FLAKE Y Y Y Y Y
+TD103 📋> ␅
+TD4319194 ␆🙂 Daily Quordle 1465
+TD103 📋> 🙂 Daily Quordle 1465
+TD12 📋> ␅
+TD43 ␆3️⃣4️⃣
+TD7 📋> 3️⃣4️⃣
+TD7 📋> ␅
+TD12 ␆5️⃣8️⃣
+TD5 📋> 5️⃣8️⃣
+TD5 📋> ␅
+TD12 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD303508 ␆
+TD95 📋> 
+TD13 📋> ␅
+TD199826 ␄
+TD129 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1465\n3\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1226 result: "\ud83d\ude42 Daily Quordle 1465\n3\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD80 📆 2026-01-28 ? ␅
+TD238600 ␆
+TD80 📆 2026-01-28 ? 
