@@ -17,7 +17,7 @@ from typing import Callable, Literal, Never, Self, cast, final, override
 
 flatten = chain.from_iterable
 
-from sortem import Chooser, MatchPat, Possible, Sample, RandScores, match_show, numbered_item, wrap_item
+from sortem import Chooser, MatchPat, Sample, Randomized, match_show, numbered_item, wrap_item
 from store import StoredLog, matcher
 from strkit import MarkedSpec, block_lines, spliterate
 
@@ -929,26 +929,22 @@ class Board:
         def possible(self,
             ui: PromptUI,
             oracle: Callable[[re.Pattern[str]], Iterable[str]],
+            show_n: int=10,
         ):
-            verbose = 0
+
+            # TODO subsume
             wsr = WordScorer(max(2, len(self.ix) - 2))
-            chooser = Chooser()
 
+            may_rand = Randomized(wsr.score, show_n=show_n)
             while ui.tokens:
-                match = ui.tokens.have(r'-(v+)')
-                if match:
-                    verbose += len(match.group(1))
-                    continue
-
                 try:
-                    if wsr.parse_option(ui.tokens):
+                    if wsr.parse_option(ui):
                         continue
-                    if chooser.collect(ui.tokens):
+                    if may_rand.parse_arg(ui):
                         continue
-                except ValueError as err:
+                except Exception as err:
                     ui.print(f'! {err}')
                     return
-
                 n = ui.tokens.have(r'\d+', lambda match: int(match[0]))
                 if n is not None:
                     if n > len(self.ix):
@@ -956,15 +952,9 @@ class Board:
                         n = len(self.ix)
                     wsr.ideal_len = n
                     continue
-
                 ui.print(f'! invalid arg {next(ui.tokens)!r}')
                 return
-
-            return Possible(
-                self.suggest(oracle),
-                wsr.score,
-                choices=chooser.choices,
-                verbose=verbose)
+            return may_rand.choose(self.suggest(oracle))
 
 def test_board_bones():
     board = Board(letters='bdehlllmooorw')
@@ -1023,33 +1013,22 @@ def test_board_bones():
 
 @final
 class WordScorer:
-    def __init__(self,
-                 ideal_len: int,
-                 jitter: float = 0.5):
+    def __init__(self, ideal_len: int):
         self.ideal_len = ideal_len
-        self.jitter = jitter
 
-    def parse_option(self, tokens: PromptUI.Tokens):
-        match = tokens.have(r'-r(?:and)?(\d*(?:\.\d+)?)')
+    def parse_option(self, ui: PromptUI):
+        match = ui.tokens.have(r'-n(\d*)')
         if match:
-            arg = match[1] if match[1] else tokens.have(r'\d*(?\.\d+)?*', lambda match: match[0])
-            if not arg:
-                raise ValueError(f'missing -rand value')
-            self.jitter = float(arg)
-            return True
-
-        match = tokens.have(r'-n(\d*)')
-        if match:
-            arg = match[1] if match[1] else tokens.have(r'\d*', lambda match: match[0])
+            arg = match[1] if match[1] else ui.tokens.have(r'\d*', lambda match: match[0])
             if not arg:
                 raise ValueError(f'missing -n value')
             self.ideal_len = int(arg)
             return True
-
         return False
 
     def score(self, words: Sequence[str]):
-        ws = self.Scores(words, self.ideal_len, self.jitter)
+        # TODO subsume
+        ws = self.Scores(words, self.ideal_len)
         return ws.scores, ws.explain
 
     @final
@@ -1057,7 +1036,7 @@ class WordScorer:
         def __init__(self,
                      words: Sequence[str],
                      ideal_len: int,
-                     jitter: float = 0.5):
+                     ):
 
             self.ideal_len = ideal_len
 
@@ -1081,13 +1060,7 @@ class WordScorer:
                 m * r
                 for m, r in zip(self.mid, self.rare))
 
-            self.rand = None
-            if jitter:
-                self.rand = RandScores(self.scores, jitter=jitter)
-                self.scores = self.rand.scores
-
         def explain(self, i: int) -> Generator[str]:
-            if self.rand: yield from self.rand.explain(i)
             yield f'*= mid: {100*self.mid[i]:.1f}%'
             yield f'*= rare: {100*self.rare[i]:.1f}%'
 
@@ -2024,34 +1997,35 @@ class Search:
 
         return f'search {self.sid} {" ".join(isurround("[", prompt_parts(), "]"))}> '
 
-    def do_add(self, ui: PromptUI):
+    def do_add(self, ui: PromptUI, show_n: int=10):
         '''
         generates new boards by adding a word to each frontier boards
         usage: `add [-v[v...]] [<COUNT-PER> = <CAP>/<FRONTIER>(min:3) or 10] [...chooser-per options]`
         '''
 
-        chooser = Chooser(show_n=10)
-        jitter: float = 0.5
+        # TODO subsume
+        wsr = WordScorer(2)
+
+        may_rand = Randomized(wsr.score, show_n=show_n)
         max_area: int|None = None
-        verbose = self.verbose
+
+        def wsr_of(n: int):
+            wsr.ideal_len = n
+            return wsr
 
         if self.frontier_cap:
-            chooser.show_n = max(3, math.ceil(self.frontier_cap / len(self.frontier)))
+            may_rand.chooser.show_n = max(3, math.ceil(self.frontier_cap / len(self.frontier)))
+
         while ui.tokens:
             mn = ui.tokens.have(r'\d+', lambda m: int(m[0]))
             if mn is not None:
-                chooser.show_n = mn
-                continue
-
-            match = ui.tokens.have(r'-(v+)')
-            if match:
-                verbose += len(match.group(1))
+                may_rand.chooser.show_n = mn
                 continue
 
             try:
-                if chooser.collect(ui.tokens):
+                if may_rand.parse_arg(ui):
                     continue
-            except ValueError as err:
+            except Exception as err:
                 ui.print(f'! {err}')
                 return
 
@@ -2061,13 +2035,13 @@ class Search:
         timing: list[tuple[str, float, float]] = list()
         with ui.time.elapsed('add_word',
                              collect=lambda label, now, elapsed: timing.append((label, now, elapsed)),
-                             print=ui.print if verbose > 1 else lambda _: None,
-                             final=ui.print if verbose > 0 else lambda _: None,
+                             print=ui.print if may_rand.verbose > 1 else lambda _: None,
+                             final=ui.print if may_rand.verbose > 0 else lambda _: None,
                              ) as mark:
 
             # NOTE should be redundant by proper result handling
             ded = self.frontier.split(lambda board, i: not any(l for l in board.letters))
-            if ded and verbose:
+            if ded and may_rand.verbose:
                 ui.print(f'pruned {len(ded)} boards from frontier')
             mark('prune')
 
@@ -2141,7 +2115,7 @@ class Search:
             )
             mark('constrain seeds')
 
-            if verbose:
+            if may_rand.verbose:
                 ui.print(f'searching {len(seeds)} seeds from {len(boards)} boards')
 
             # TODO suggest erasures
@@ -2183,13 +2157,9 @@ class Search:
             # now, that's getting to be **rather a lot** of words, so take a
             # parametric sample of each boards' filtered word list 
             seed_pos = tuple(
-                (board, frags, seed, Possible(
-                    words,
-                    wsr.score,
-                    choices=chooser.choices,
-                    verbose=verbose))
+                (board, frags, seed, may_rand.choose(words))
                 for board, frags, seed, words in seed_words
-                for wsr in (WordScorer(ideal_len_for(seed), jitter=jitter),))
+                for _ in (wsr_of(ideal_len_for(seed)),))
             mark('seed pos')
 
             # unroll and enumerate each possible word for every board
