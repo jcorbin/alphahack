@@ -682,8 +682,12 @@ class Search(StoredLog):
         self.attempt: int = 0
         self.word: list[str] = []
         self.score: list[float] = [] # TODO store normalized [0.0, 1.0]
-        self.prog: dict[int, int] = dict()
+
+        # sorted by score
         self.index: list[int] = []
+
+        # sparse index for warm words
+        self.prog: dict[int, int] = dict()
         self.recs: list[int] = []
 
         self.wordbad: set[str] = set()
@@ -1135,17 +1139,30 @@ class Search(StoredLog):
                     break
 
         if not len(self.word): return
+
         ww = max(len(word) for word in self.word)
+
         ix = 0
         for lim, (tier, words) in zip(counts, self.tier_words()):
             for word in words():
                 if lim > 0:
                     i = self.index[ix]
-                    prog = self.prog.get(i)
-                    score = self.score[i]
-                    word = self.word[i]
-                    ps = '' if prog is None else f' {prog:>4}‰'
-                    yield ix, i, f'{word:{ww}} {score:>7.2f}°C {tier}{ps}'
+
+                    def parts():
+                        assert word == self.word[i]
+                        yield f'{word:{ww}}'
+
+                        score = self.score[i]
+                        yield f'{score:>7.2f}°C'
+
+                        yield tier
+
+                        prog = self.prog.get(i)
+                        if prog is not None:
+                            yield f'{prog:>4}‰'
+
+                    yield ix, i, ' '.join(parts())
+
                     lim -= 1
                 ix += 1
 
@@ -2373,10 +2390,12 @@ class Search(StoredLog):
             if name == 'prog': prog = None if value == '_' else int(value)
         for _ in self.apply_fix(i, score, prog): pass
 
-    def record(self, ui: PromptUI, word: str, score: float, prog: int|None):
-        if word in self.wordbad:
-            self.wordbad.remove(word)
-
+    def record(self,
+               ui: PromptUI,
+               word: str,
+               score: float,
+               prog: int|None,
+               ):
         if word in self.wordgood:
             # TODO nicer to update, believe the user
             ui.print(f'! ignoring duplicate response for word "{word}"')
@@ -2386,42 +2405,64 @@ class Search(StoredLog):
         ui.log(f'attempt_{i}: "{word}" score:{score:.2f} prog:{prog}')
         return i
 
-    def append_record(self, word: str, score: float, prog: int|None):
+    def append_record(self,
+                      word: str,
+                      score: float,
+                      prog: int|None,
+                      ):
         i = len(self.word)
         assert i == self.attempt
-
-        # TODO prog rank should be unique
+        self.attempt += 1
 
         self.word.append(word)
         self.score.append(score)
-        if prog is not None:
-            self.prog[i] = prog
-            self.recs.append(i)
 
         self.index.append(i)
         self.index = sorted(self.index, key=lambda i: self.score[i], reverse=True)
 
-        self.attempt += 1
+        # TODO prog rank should be unique
+        if prog is not None:
+            self.prog[i] = prog
+            self.recs.append(i)
+
         self.wordgood[word] = i
+        if word in self.wordbad:
+            self.wordbad.remove(word)
+
         return i
 
     @matcher(r'''(?x)
         attempt_ (?P<attempt> \d+ ) :
         \s+
         " (?P<word> .+? ) "
-        \s+
-        score : (?P<score> -? \d+(?:\.\d*)? )
-        \s+
-        prog : (?P<prog> None | \d+ )
-        \s* (?P<rest> .* )
-        $''')
+        \s* (?P<rest> .* ) $''')
     def load_record(self, _t: float, match: re.Match[str]):
-        si, word, ss, ps, rest = match.groups()
+        si, word, rest = match.groups()
         i = int(si)
-        score = float(ss)
-        prog = None if ps == 'None' else int(ps)
         assert i == self.attempt
-        assert rest == ''
+
+        score: float = math.nan
+        prog: int|None = None
+
+        while rest:
+            m = re.match(r'''(?x)
+            score : ( -? \d+(?:\.\d*)? )
+            \s* ( .* ) $''', rest)
+            if m:
+                score = float(m[1])
+                rest = m[2]
+                continue
+
+            m = re.match(r'''(?x)
+            prog : ( None | \d+ )
+            \s* ( .* ) $''', rest)
+            if m:
+                prog = None if m[1] == 'None' else int(m[1])
+                rest = m[2]
+                continue
+
+            raise ValueError(f'unrecognized attempt record trailer: {rest!r}')
+
         j = self.append_record(word, score, prog)
         if j != i:
             raise RuntimeError(f'reload inconsistency attempt({word!r}, {score}, {prog}) -> {j} != {i}')
