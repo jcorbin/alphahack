@@ -693,6 +693,7 @@ class Search(StoredLog):
         self.attempt: int = 0
         self.word: list[str] = []
         self.score: list[float] = [] # TODO store normalized [0.0, 1.0]
+        self.word_used: list[int] = []
 
         self.word_source: list[int] = []
         self.word_sources: list[str] = []
@@ -1183,6 +1184,7 @@ class Search(StoredLog):
         nw = len(str(len(self.word)))+1
         sw = max(len(source) for source in self.word_source_noms)
         tw = len(str(len(self.ix_warm_rec)))+1
+        uw = max(len(str(n)) for n in self.word_used)
         ww = max(len(word) for word in self.word)
 
         part_widths = (
@@ -1194,6 +1196,7 @@ class Search(StoredLog):
             5, # prog‰
             tw, # ~N
             7+sw, # source:nom
+            5+uw, # used:N
         )
 
         def extra_parts(word_i: int):
@@ -1209,6 +1212,8 @@ class Search(StoredLog):
                 yield f'source:{source:{sw}}'
             else:
                 yield ''
+
+            yield f'used:{self.word_used[word_i]}'
 
         ix = 0
         for lim, (tier, words) in zip(counts, self.tier_words()):
@@ -2501,6 +2506,7 @@ class Search(StoredLog):
         self.word.append(word)
         self.score.append(score)
         self.word_source.append(self.source_code(source))
+        self.word_used.append(0)
 
         self.index.append(i)
         self.index = sorted(self.index, key=lambda i: self.score[i], reverse=True)
@@ -2665,19 +2671,21 @@ class Search(StoredLog):
     def chat_history_extracts(self):
         for i, h in enumerate(self.all_chats()):
             for j, (prompt, reply) in enumerate(prompt_pairs(h.chat)):
-                yield self.ChatHistoryExtract(self, i, j, prompt, reply)
+                yield self.ChatHistoryExtract(self, i, h, j, prompt, reply)
 
     @final
     class ChatHistoryExtract:
         def __init__(self,
                      search: 'Search',
                      chat_i: int,
+                     sess: ChatSession,
                      prompt_i: int,
                      prompt: str,
                      reply: str
                      ):
             self.search = search
             self.chat_i = chat_i
+            self.sess = sess
             self.prompt_i = prompt_i
             self.prompt = prompt
             self.reply = reply
@@ -2986,8 +2994,9 @@ class Search(StoredLog):
         return s
 
     def collect_word_ref(self, k: WordRef, n: int):
-        qword, score = self.word_ref_score(k, n)
-        self.last_chat_basis[qword] = score
+        i, _, qword = self.word_iref(k, n)
+        self.last_chat_basis[qword] = self.score[i]
+        self.word_used[i] += 1
         return qword
 
     def set_chat_prompt(self, ui: PromptUI, prompt: str|ChatPrompt):
