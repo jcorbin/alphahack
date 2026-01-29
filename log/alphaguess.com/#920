@@ -1,0 +1,99 @@
+T223.5264375389961 now: 2026-01-29T08:30:08EST
+TD95 site: alphaguess.com
+TD143467 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof fc72bb9ce12217914ad2b2393814e6d3596dab9f
+TD122  ...␅
+TD4703329 ␆
+TD81  ...
+TD133 [0 : 98220 : 196531] mach? ␅
+TD3063863 ␆b
+TD99 [0 : 98220 : 196531] mach? b
+TD111 progress: -1 98220 mach
+TD122 [0 : 47382 : 98220] dis? ␅
+TD1551438 ␆b
+TD75 [0 : 47382 : 98220] dis? b
+TD83 progress: -1 47382 dis
+TD81 [0 : 23683 : 47382] camp? ␅
+TD1415945 ␆b
+TD93 [0 : 23683 : 47382] camp? b
+TD104 progress: -1 23683 camp
+TD113 [0 : 11764 : 23683] back? ␅
+TD1383354 ␆b
+TD78 [0 : 11764 : 23683] back? b
+TD82 progress: -1 11764 back
+TD77 [0 : 5876 : 11764] angel? ␅
+TD1344046 ␆b
+TD79 [0 : 5876 : 11764] angel? b
+TD85 progress: -1 5876 angel
+TD86 [0 : 2802 : 5876] ag? ␅
+TD1359807 ␆b
+TD98 [0 : 2802 : 5876] ag? b
+TD110 progress: -1 2802 ag
+TD325 [0 : 1398 : 2802] acrogen? ␅
+TD2159680 ␆b
+TD108 [0 : 1398 : 2802] acrogen? b
+TD106 progress: -1 1398 acrogen
+TD200 [0 : 698 : 1398] acaleph? ␅
+TD1471223 ␆b
+TD78 [0 : 698 : 1398] acaleph? b
+TD88 progress: -1 698 acaleph
+TD86 [0 : 19 : 698] ab? ␅
+TD1319744 ␆a
+TD79 [0 : 19 : 698] ab? a
+TD92 progress: 1 19 ab
+TD79 [20 : 355 : 698] abort? ␅
+TD1287878 ␆a
+TD78 [20 : 355 : 698] abort? a
+TD85 progress: 1 355 abort
+TD81 [356 : 451 : 698] abs? ␅
+TD1423801 ␆b
+TD96 [356 : 451 : 698] abs? b
+TD107 progress: -1 451 abs
+TD223 [356 : 404 : 451] abrasive? ␅
+TD1551433 ␆b
+TD79 [356 : 404 : 451] abrasive? b
+TD82 progress: -1 404 abrasive
+TD109 [356 : 379 : 404] abound? ␅
+TD1288061 ␆a
+TD85 [356 : 379 : 404] abound? a
+TD80 progress: 1 379 abound
+TD201 [380 : 392 : 404] abrachias? ␅
+TD1335305 ␆b
+TD80 [380 : 392 : 404] abrachias? b
+TD84 progress: -1 392 abrachias
+TD107 [380 : 385 : 392] above? ␅
+TD1791806 ␆it
+TD96 [380 : 385 : 392] above? it
+TD110 progress: 0 385 above
+TD27 [380 : 385 : 392] <Done>.
+TD91 📋> ␅
+TD3104898 ␆🧩 Puzzle #920
+TD94 📋> 🧩 Puzzle #920
+TD12 📋> ␅
+TD40 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD13 ␆🤔 15 guesses
+TD5 📋> 🤔 15 guesses
+TD5 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD11 ␆⏱️ 20s
+TD5 📋> ⏱️ 20s
+TD5 📋> ␅
+TD9 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD350751 ␆🔗 alphaguess.com
+TD73 📋> 🔗 alphaguess.com
+TD14 📋> ␅
+TD199704 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #920\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"}
+TD110 result: "\ud83e\udde9 Puzzle #920\n\n\ud83e\udd14 15 guesses\n\n\u23f1\ufe0f 20s\n\n\ud83d\udd17 alphaguess.com"
+TD25 result puzzle: 920
+TD7 result guesses: 15
+TD6 result time: 20s
+TD5 result link: alphaguess.com
+TD93 📆 2026-01-29 ? ␅
+TD255763 ␆
+TD81 📆 2026-01-29 ? 
