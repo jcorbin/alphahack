@@ -702,9 +702,9 @@ class Search(StoredLog):
         # sorted by score
         self.index: list[int] = []
 
-        # sparse index for warm words
+        # sparse indices
         self.prog: dict[int, int] = dict()
-        self.recs: list[int] = []
+        self.ix_warm_rec: list[int] = []
 
         self.wordbad: set[str] = set()
         self.wordgood: dict[str, int] = dict()
@@ -1232,7 +1232,7 @@ class Search(StoredLog):
 
         nw = len(str(len(self.word)))+1
         sw = max(len(source) for source in self.word_source_noms)
-        tw = len(str(len(self.recs)))+1
+        tw = len(str(len(self.ix_warm_rec)))+1
         uw = max(len(str(n)) for n in self.word_used)
         ww = max(len(word) for word in self.word)
 
@@ -1250,8 +1250,8 @@ class Search(StoredLog):
 
         def extra_parts(word_i: int):
             try:
-                ri = self.recs.index(word_i)
-                yield f'~{len(self.recs)-ri}'
+                ri = self.ix_warm_rec.index(word_i)
+                yield f'~{len(self.ix_warm_rec)-ri}'
             except ValueError:
                 yield ''
 
@@ -2563,7 +2563,7 @@ class Search(StoredLog):
         # TODO prog rank should be unique
         if prog is not None:
             self.prog[i] = prog
-            self.recs.append(i)
+            self.ix_warm_rec.append(i)
 
         self.wordgood[word] = i
         if word in self.wordbad:
@@ -3030,7 +3030,7 @@ class Search(StoredLog):
             return i, None, f'"{self.word[i]}"'
 
         elif k == '~':
-            i = self.recs[len(self.recs)-n]
+            i = self.ix_warm_rec[len(self.ix_warm_rec)-n]
             return i, None, f'"{self.word[i]}"'
 
         assert_never(k)
