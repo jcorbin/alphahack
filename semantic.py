@@ -18,6 +18,7 @@ from itertools import chain
 from os import environ
 from typing import assert_never, cast, final, overload, override, Callable, Literal
 from urllib.parse import urlparse
+from warnings import deprecated
 
 from chat import get_olm_models
 from mdkit import break_sections, capture_fences, fenceit
@@ -2872,21 +2873,10 @@ class Search(StoredLog):
 
         assert_never(k)
 
+    @deprecated("use word_iref")
     def word_ref(self, k: WordRef, n: int):
-        if k == '$':
-            ix = n - 1
-            i = self.index[ix]
-            return f'"{self.word[i]}"'
-
-        elif k == '#':
-            i = n - 1
-            return f'"{self.word[i]}"'
-
-        elif k == '~':
-            i = self.recs[len(self.recs)-n]
-            return f'"{self.word[i]}"'
-
-        assert_never(k)
+        _, _, s = self.word_iref(k, n)
+        return s
 
     def collect_word_ref(self, k: WordRef, n: int):
         qword, score = self.word_ref_score(k, n)
