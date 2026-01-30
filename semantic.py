@@ -1112,18 +1112,8 @@ class Search(StoredLog):
             ui.print(line)
 
     def prog_lines(self, limit: int):
-        iw = len(str(len(self.word))) + 1
         for ix, i, desc in self.describe_prog(limit = limit):
-            var = '<no-index>' if ix < 0 else f'${ix+1}'
-            nth = f'#{i+1}'
-
-            try:
-                ri = self.recs.index(i)
-                rec = f'~{len(self.recs)-ri}'
-            except ValueError:
-                rec = ''
-
-            yield f'    {var:>{iw}} {nth:>{iw}} {rec:>{iw}} {desc}'
+            yield f'    {desc}'
 
     def describe_prog(self, limit: int = 10):
         rem = [sum(1 for _ in words())-1 for _, words in self.tier_words()]
@@ -1139,6 +1129,7 @@ class Search(StoredLog):
 
         if not len(self.word): return
 
+        nw = len(str(len(self.word)))+1
         ww = max(len(word) for word in self.word)
 
         ix = 0
@@ -1149,6 +1140,20 @@ class Search(StoredLog):
 
                     def parts():
                         assert word == self.word[i]
+
+                        var = '<no-index>' if ix < 0 else f'${ix+1}'
+                        yield f'{var:>{nw}}'
+
+                        nth = f'#{i+1}'
+                        yield f'{nth:>{nw}}'
+
+                        try:
+                            ri = self.recs.index(i)
+                            rec = f'~{len(self.recs)-ri}'
+                        except ValueError:
+                            rec = ''
+                        yield f'{rec:>{nw}}'
+
                         yield f'{word:{ww}}'
 
                         score = self.score[i]
@@ -1238,10 +1243,8 @@ class Search(StoredLog):
             yield from spliterate(self.result_text, '\n', trim=True)
         else:
             yield '😦 No result'
-            for ix, i, desc in self.describe_prog():
-                var = '<no-index>' if ix < 0 else f'${ix+1}'
-                nth = f'#{i+1}'
-                yield f'    {var} {nth} {desc}'
+            for _, _, desc in self.describe_prog():
+                yield f'    {desc}'
         elapsed = self.elapsed + datetime.timedelta(seconds=ui.time.now)
         yield f'⏱️ {elapsed}'
 
