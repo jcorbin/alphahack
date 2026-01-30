@@ -101,7 +101,7 @@ Tier = Literal['🧊']|Literal['🥶']|Literal['😎']|Literal['🥵']|Literal['
 Mark = Literal['🚀']|Literal['☠️']|Tier
 Scale = dict[Tier, float]
 
-tiers: list[Tier] = [
+tiers: tuple[Tier, ...] = (
     '🧊',
     '🥶',
     '😎',
@@ -109,7 +109,7 @@ tiers: list[Tier] = [
     '🔥',
     '😱',
     '🥳',
-]
+)
 
 tier_progs: list[int|None] = [
     None, # 🧊
