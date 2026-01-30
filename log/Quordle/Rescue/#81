@@ -1,0 +1,153 @@
+T943.4902381629945 now: 2026-01-30T11:07:32EST
+TD95 site: m-w.com/games/quordle/#/rescue
+TD15 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD91  ...␅
+TD3630798 ␆
+TD69  ...
+TD321056 > ␅
+TD4038882 ␆tried scale paper
+TD64 > tried scale paper
+TD239 questioning: SCALE PAPER
+TD95 Rescue #1 _____? ␅
+TD2335639 ␆nnMnn
+TD69 Rescue #1 _____? nnMnn
+TD365 attempt: 0 SCALE n n m n n
+TD71 Rescue #1 _____ ~A -CELS? ␅
+TD3759639 ␆nYnnM
+TD80 Rescue #1 _____ ~A -CELS? nYnnM
+TD177 attempt: 0 PAPER n Y n n m
+TD66 Rescue #2 _____? ␅
+TD1199664 ␆nnMnY
+TD75 Rescue #2 _____? nnMnY
+TD158 attempt: 1 SCALE n n m n Y
+TD70 Rescue #2 ____E ~A -CLS? ␅
+TD1504275 ␆nYnMn
+TD101 Rescue #2 ____E ~A -CLS? nYnMn
+TD179 attempt: 1 PAPER n Y n m n
+TD90 Rescue #3 _____? ␅
+TD1447068 ␆nnMMn
+TD78 Rescue #3 _____? nnMMn
+TD160 attempt: 2 SCALE n n m m n
+TD72 Rescue #3 _____ ~AL -CES? ␅
+TD1215736 ␆nMnnn
+TD88 Rescue #3 _____ ~AL -CES? nMnnn
+TD196 attempt: 2 PAPER n m n n n
+TD82 Rescue #4 _____? ␅
+TD1327655 ␆nnnMn
+TD100 Rescue #4 _____? nnnMn
+TD230 attempt: 3 SCALE n n n m n
+TD99 Rescue #4 _____ ~L -ACES? ␅
+TD1088004 ␆nnnnn
+TD88 Rescue #4 _____ ~L -ACES? nnnnn
+TD153 attempt: 3 PAPER n n n n n
+TD392349 > ␅
+TD798936 ␆*
+TD77 > *
+TD1192 ? ␅
+TD1206702 ␆1
+TD78 ? 1
+TD153 questioning: until
+TD107 Rescue #1 _A___ ~R -CELPS? ␅
+TD3863974 ␆nnYnn
+TD83 Rescue #1 _A___ ~R -CELPS? nnYnn
+TD170 attempt: 0 UNTIL n n Y n n
+TD83 Rescue #2 _A__E -CLPRS? ␅
+TD1079648 ␆nnnnn
+TD77 Rescue #2 _A__E -CLPRS? nnnnn
+TD158 attempt: 1 UNTIL n n n n n
+TD83 Rescue #3 _____ ~AL -CEPRS? ␅
+TD1911876 ␆MnnnY
+TD117 Rescue #3 _____ ~AL -CEPRS? MnnnY
+TD225 attempt: 2 UNTIL m n n n Y
+TD106 Rescue #4 _____ ~L -ACEPRS? ␅
+TD2423292 ␆MMnnM
+TD78 Rescue #4 _____ ~L -ACEPRS? MMnnM
+TD155 attempt: 3 UNTIL m m n n m
+TD371373 > ␅
+TD1628733 ␆*
+TD78 > *
+TD307 questioning: ratty
+TD79 Rescue #1 _AT__ ~R -CEILNPSU? ␅
+TD5375397 ␆YYYYY
+TD78 Rescue #1 _AT__ ~R -CEILNPSU? YYYYY
+TD161 attempt: 0 RATTY Y Y Y Y Y
+TD78 Rescue #2 _A__E -CILNPRSTU? ␅
+TD1303876 ␆nYnnn
+TD97 Rescue #2 _A__E -CILNPRSTU? nYnnn
+TD216 attempt: 1 RATTY n Y n n n
+TD110 Rescue #3 ____L ~AU -CEINPRST? ␅
+TD1303836 ␆nMnnn
+TD113 Rescue #3 ____L ~AU -CEINPRST? nMnnn
+TD259 attempt: 2 RATTY n m n n n
+TD120 Rescue #4 _____ ~LNU -ACEIPRST? ␅
+TD1319559 ␆nnnnn
+TD108 Rescue #4 _____ ~LNU -ACEIPRST? nnnnn
+TD239 attempt: 3 RATTY n n n n n
+TD332732 > ␅
+TD666401 ␆*
+TD83 > *
+TD414 ? ␅
+TD2055796 ␆1
+TD102 ? 1
+TD184 questioning: flung
+TD157 Rescue #2 _A__E -CILNPRSTUY? ␅
+TD2823516 ␆nnnnM
+TD87 Rescue #2 _A__E -CILNPRSTUY? nnnnM
+TD196 attempt: 1 FLUNG n n n n m
+TD82 Rescue #3 ____L ~AU -CEINPRSTY? ␅
+TD2951683 ␆MMMnn
+TD98 Rescue #3 ____L ~AU -CEINPRSTY? MMMnn
+TD226 attempt: 2 FLUNG m m m n n
+TD115 Rescue #4 _____ ~LNU -ACEIPRSTY? ␅
+TD1327495 ␆YYYYY
+TD98 Rescue #4 _____ ~LNU -ACEIPRSTY? YYYYY
+TD226 attempt: 3 FLUNG Y Y Y Y Y
+TD137013 > ␅
+TD774636 ␆*
+TD78 > *
+TD333 ? ␅
+TD1223590 ␆1
+TD76 ? 1
+TD135 questioning: badge
+TD108 Rescue #2 _A__E ~G -CFILNPRSTUY? ␅
+TD2567604 ␆YYYYY
+TD72 Rescue #2 _A__E ~G -CFILNPRSTUY? YYYYY
+TD147 attempt: 1 BADGE Y Y Y Y Y
+TD74 Rescue #3 ____L ~AFU -CEGINPRSTY? ␅
+TD1351672 ␆nMnnn
+TD107 Rescue #3 ____L ~AFU -CEGINPRSTY? nMnnn
+TD229 attempt: 2 BADGE n m n n n
+TD94768 > ␅
+TD664857 ␆*
+TD97 > *
+TD415 ? ␅
+TD1832054 ␆2
+TD99 ? 2
+TD172 questioning: awful
+TD107 Rescue #3 ____L ~AFU -BCDEGINPRSTY? ␅
+TD2895858 ␆YYYYY
+TD74 Rescue #3 ____L ~AFU -BCDEGINPRSTY? YYYYY
+TD160 attempt: 2 AWFUL Y Y Y Y Y
+TD87 📋> ␅
+TD4199995 ␆Daily Rescue 81
+TD81 📋> Daily Rescue 81
+TD11 📋> ␅
+TD32 ␆4️⃣6️⃣
+TD3 📋> 4️⃣6️⃣
+TD3 📋> ␅
+TD6 ␆7️⃣5️⃣
+TD3 📋> 7️⃣5️⃣
+TD2 📋> ␅
+TD5 ␆m-w.com/games/quordle/
+TD2 📋> m-w.com/games/quordle/
+TD3 📋> ␅
+TD294926 ␆
+TD79 📋> 
+TD8 📋> ␅
+TD119898 ␄
+TD135 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 81\n4\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD843 result: "Daily Rescue 81\n4\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD79 📆 2026-01-30 ? ␅
+TD183343 ␆
+TD79 📆 2026-01-30 ? 
