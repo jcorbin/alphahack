@@ -1,0 +1,75 @@
+T715.1499764639884 now: 2026-01-30T08:35:02EST
+TD138 site: alphaguess.com
+TD148366 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof dc86af2c9b32cee6dfaae6a7ed65a160ed637431
+TD104  ...␅
+TD3699106 ␆
+TD121  ...
+TD178 [0 : 98220 : 196531] mach? ␅
+TD2583382 ␆a
+TD96 [0 : 98220 : 196531] mach? a
+TD113 progress: 1 98220 mach
+TD277 [98221 : 147373 : 196531] rhotic? ␅
+TD1326798 ␆a
+TD83 [98221 : 147373 : 196531] rhotic? a
+TD117 progress: 1 147373 rhotic
+TD97 [147374 : 171643 : 196531] ta? ␅
+TD1527966 ␆b
+TD100 [147374 : 171643 : 196531] ta? b
+TD109 progress: -1 171643 ta
+TD103 [147374 : 159490 : 171643] slop? ␅
+TD1256802 ␆a
+TD101 [147374 : 159490 : 171643] slop? a
+TD108 progress: 1 159490 slop
+TD102 [159491 : 165532 : 171643] stick? ␅
+TD1326724 ␆b
+TD141 [159491 : 165532 : 171643] stick? b
+TD107 progress: -1 165532 stick
+TD123 [159491 : 162477 : 165532] spec? ␅
+TD1271466 ␆a
+TD81 [159491 : 162477 : 165532] spec? a
+TD84 progress: 1 162477 spec
+TD89 [162478 : 164003 : 165532] squab? ␅
+TD1215650 ␆a
+TD99 [162478 : 164003 : 165532] squab? a
+TD97 progress: 1 164003 squab
+TD79 [164004 : 164731 : 165532] star? ␅
+TD1472044 ␆b
+TD101 [164004 : 164731 : 165532] star? b
+TD109 progress: -1 164731 star
+TD170 [164004 : 164357 : 164731] stack? ␅
+TD3839368 ␆it
+TD102 [164004 : 164357 : 164731] stack? it
+TD110 progress: 0 164357 stack
+TD25 [164004 : 164357 : 164731] <Done>.
+TD179 📋> ␅
+TD4272627 ␆🧩 Puzzle #921
+TD86 📋> 🧩 Puzzle #921
+TD8 📋> ␅
+TD29 ␆
+TD4 📋> 
+TD3 📋> ␅
+TD7 ␆🤔 9 guesses
+TD2 📋> 🤔 9 guesses
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD6 ␆⏱️ 13s
+TD2 📋> ⏱️ 13s
+TD2 📋> ␅
+TD6 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD582699 ␆🔗 alphaguess.com
+TD97 📋> 🔗 alphaguess.com
+TD12 📋> ␅
+TD263987 ␄
+TD174 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #921\n\n\ud83e\udd14 9 guesses\n\n\u23f1\ufe0f 13s\n\n\ud83d\udd17 alphaguess.com"}
+TD116 result: "\ud83e\udde9 Puzzle #921\n\n\ud83e\udd14 9 guesses\n\n\u23f1\ufe0f 13s\n\n\ud83d\udd17 alphaguess.com"
+TD15 result puzzle: 921
+TD7 result guesses: 9
+TD5 result time: 13s
+TD4 result link: alphaguess.com
+TD93 📆 2026-01-30 ? ␅
+TD463703 ␆
+TD107 📆 2026-01-30 ? 
