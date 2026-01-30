@@ -23,7 +23,7 @@ from warnings import deprecated
 from chat import get_olm_models
 from mdkit import break_sections, capture_fences, fenceit
 from store import StoredLog, git_txn, matcher
-from strkit import make_digit_str, matchgen, parse_digit_int, spliterate, wraplines, MarkedSpec
+from strkit import make_digit_str, matchgen, pad_parts, parse_digit_int, spliterate, wraplines, MarkedSpec
 from ui import PromptUI
 
 _ = load_dotenv()
@@ -1062,28 +1062,6 @@ class Search(StoredLog):
             if self.prog_at is None and tier == '😎':
                 self.prog_at = temp
 
-    def describe_word(self, i: int, ix: int|None = None, word: str|None = None):
-        if word is not None:
-            assert self.word[i] == word
-        else:
-            word = self.word[i]
-
-        if ix is None:
-            ix = self.index.index(i)
-            if ix < 0: ix = None
-        else:
-            assert self.index[ix] == i
-
-        score = self.score[i]
-        prog = self.prog.get(i)
-        progs = '' if prog is None else f'{prog:>5}‰'
-        var = '<no-index>' if ix is None else f'${ix+1}'
-        nth = f'#{i+1}'
-
-        ww = max(len(word) for word in self.word)
-        iw = len(str(len(self.word)))+1
-        return f'{var:>{iw}} {nth:>{iw}} {word:{ww}} {score:>7.2f}°C {mark(score, prog)}{progs}'
-
     @property
     def found(self):
         if not self.index: return None
@@ -1111,6 +1089,68 @@ class Search(StoredLog):
                 ui.br()
             ui.print(f'    {desc}')
 
+    def describe_word_parts(self,
+                            word_i: int,
+                            ix: int|None = None,
+                            word: str|None = None,
+                            tier: str|None = None,
+                            ):
+        if word is not None:
+            assert self.word[word_i] == word
+        else:
+            word = self.word[word_i]
+        if ix is None:
+            ix = self.index.index(word_i)
+            if ix < 0: ix = None
+        else:
+            assert self.index[ix] == word_i
+
+        yield '$_' if ix is None else f'${ix+1}'
+        yield f'#{word_i+1}'
+        yield word
+
+        score = self.score[word_i]
+        yield f'{score:>.2f}°C'
+
+        prog = self.prog.get(word_i)
+        if tier is None:
+            tier = mark(score, prog)
+        if tier:
+            yield tier
+
+        yield '' if prog is None else f'{prog}‰'
+
+    def describe_word(self,
+                      word_i: int,
+                      ix: int|None = None,
+                      word: str|None = None,
+                      ):
+        ww = max(len(word) for word in self.word)
+        iw = len(str(len(self.word)))+1
+        return ' '.join(pad_parts(
+            self.describe_word_parts(word_i, ix, word), (
+                iw, # $N
+                iw, # #N
+                ww, # word
+                9, # 7.2f°C
+                1, # prog_mark
+                5, # prog‰
+            )))
+
+    def prog_lines(self, limit: int):
+        iw = len(str(len(self.word))) + 1
+        for ix, i, desc in self.describe_prog(limit = limit):
+            var = '<no-index>' if ix < 0 else f'${ix+1}'
+            nth = f'#{i+1}'
+
+            try:
+                ri = self.recs.index(i)
+                rec = f'~{len(self.recs)-ri}'
+            except ValueError:
+                rec = ''
+
+            yield f'    {var:>{iw}} {nth:>{iw}} {rec:>{iw}} {desc}'
+
     def describe_prog(self, limit: int = 10):
         rem = [sum(1 for _ in words())-1 for _, words in self.tier_words()]
         counts = [1 for _ in rem]
@@ -1126,43 +1166,36 @@ class Search(StoredLog):
         if not len(self.word): return
 
         nw = len(str(len(self.word)))+1
+        tw = len(str(len(self.recs)))+1
         ww = max(len(word) for word in self.word)
+
+        part_widths = (
+            nw, # $N
+            nw, # #N
+            ww, # word
+            9, # 7.2f°C
+            1, # tier
+            5, # prog‰
+            tw, # ~N
+        )
+
+        def extra_parts(word_i: int):
+            try:
+                ri = self.recs.index(word_i)
+                yield f'~{len(self.recs)-ri}'
+            except ValueError:
+                yield ''
 
         ix = 0
         for lim, (tier, words) in zip(counts, self.tier_words()):
             for word in words():
                 if lim > 0:
-                    i = self.index[ix]
-
-                    def parts():
-                        assert word == self.word[i]
-
-                        var = '<no-index>' if ix < 0 else f'${ix+1}'
-                        yield f'{var:>{nw}}'
-
-                        nth = f'#{i+1}'
-                        yield f'{nth:>{nw}}'
-
-                        try:
-                            ri = self.recs.index(i)
-                            rec = f'~{len(self.recs)-ri}'
-                        except ValueError:
-                            rec = ''
-                        yield f'{rec:>{nw}}'
-
-                        yield f'{word:{ww}}'
-
-                        score = self.score[i]
-                        yield f'{score:>7.2f}°C'
-
-                        yield tier
-
-                        prog = self.prog.get(i)
-                        if prog is not None:
-                            yield f'{prog:>4}‰'
-
-                    yield ' '.join(parts())
-
+                    word_i = self.index[ix]
+                    yield ' '.join(pad_parts(
+                        chain(
+                            self.describe_word_parts(word_i, ix, word, tier),
+                            extra_parts(word_i),
+                        ), part_widths))
                     lim -= 1
                 ix += 1
 
