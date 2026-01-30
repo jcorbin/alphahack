@@ -1183,9 +1183,11 @@ class Search(StoredLog):
 
         if not len(self.word): return
 
+        til_ix = self.ix_warm_rec
+
         nw = len(str(len(self.word)))+1
         sw = max(len(source) for source in self.word_source_noms)
-        tw = len(str(len(self.ix_warm_rec)))+1
+        tw = len(str(len(til_ix)))+1
         uw = max(len(str(n)) for n in self.word_used)
         ww = max(len(word) for word in self.word)
 
@@ -1204,8 +1206,8 @@ class Search(StoredLog):
 
         def extra_parts(word_i: int):
             try:
-                ri = self.ix_warm_rec.index(word_i)
-                yield f'~{len(self.ix_warm_rec)-ri}'
+                ri = til_ix.index(word_i)
+                yield f'~{len(til_ix)-ri}'
             except ValueError:
                 yield ''
 
@@ -3004,7 +3006,8 @@ class Search(StoredLog):
             return i, None, f'"{self.word[i]}"'
 
         elif k == '~':
-            i = self.ix_warm_rec[len(self.ix_warm_rec)-n]
+            ix = self.ix_warm_rec
+            i = ix[len(ix)-n]
             return i, None, f'"{self.word[i]}"'
 
         assert_never(k)
