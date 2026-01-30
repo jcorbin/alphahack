@@ -1,6 +1,6 @@
 import itertools
 import re
-from collections.abc import Generator, Iterable, Iterator
+from collections.abc import Generator, Iterable, Iterator, Sequence
 from hashlib import md5
 from itertools import chain
 from typing import cast, final, overload, Callable
@@ -496,3 +496,8 @@ def make_digits(n: int):
 def make_digit_str(n: int):
     parts = list(make_digits(n))
     return ''.join(reversed(parts))
+
+def pad_parts(parts: Iterable[str], widths: Sequence[int]):
+    for i, part in enumerate(parts):
+        pw = widths[i] if i < len(widths) else 0
+        yield f'{part:>{pw}}'
