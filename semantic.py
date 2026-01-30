@@ -1106,14 +1106,10 @@ class Search(StoredLog):
 
     def show_prog(self, ui: PromptUI):
         limit = max(len(tiers), math.ceil(ui.screen_lines*4/5))
-        for i, line in enumerate(self.prog_lines(limit)):
+        for i, desc in enumerate(self.describe_prog(limit)):
             if i == 0:
                 ui.br()
-            ui.print(line)
-
-    def prog_lines(self, limit: int):
-        for ix, i, desc in self.describe_prog(limit = limit):
-            yield f'    {desc}'
+            ui.print(f'    {desc}')
 
     def describe_prog(self, limit: int = 10):
         rem = [sum(1 for _ in words())-1 for _, words in self.tier_words()]
@@ -1165,7 +1161,7 @@ class Search(StoredLog):
                         if prog is not None:
                             yield f'{prog:>4}‰'
 
-                    yield ix, i, ' '.join(parts())
+                    yield ' '.join(parts())
 
                     lim -= 1
                 ix += 1
@@ -1243,7 +1239,7 @@ class Search(StoredLog):
             yield from spliterate(self.result_text, '\n', trim=True)
         else:
             yield '😦 No result'
-            for _, _, desc in self.describe_prog():
+            for desc in self.describe_prog():
                 yield f'    {desc}'
         elapsed = self.elapsed + datetime.timedelta(seconds=ui.time.now)
         yield f'⏱️ {elapsed}'
@@ -1667,7 +1663,8 @@ class Search(StoredLog):
         else:
             yield f'😦 {" ".join(self.tier_count_parts())}'
         yield ''
-        yield from self.prog_lines(2*len(tiers))
+        for desc in self.describe_prog(2*len(tiers)):
+            yield f'    {desc}'
 
     def do_notbad(self, ui: PromptUI):
         with ui.tokens as tokens:
