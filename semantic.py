@@ -1104,12 +1104,10 @@ class Search(StoredLog):
         return i, prog
 
     def show_prog(self, ui: PromptUI):
-        lines = self.prog_lines(limit=max(len(tiers), math.ceil(ui.screen_lines*4/5)))
-        for line in lines:
-            ui.br()
-            ui.print(line)
-            break
-        for line in lines:
+        limit = max(len(tiers), math.ceil(ui.screen_lines*4/5))
+        for i, line in enumerate(self.prog_lines(limit)):
+            if i == 0:
+                ui.br()
             ui.print(line)
 
     def prog_lines(self, limit: int):
