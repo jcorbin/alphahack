@@ -9,6 +9,7 @@ import math
 import ollama
 import re
 import requests
+from bisect import insort
 from collections import Counter
 from collections.abc import Generator, Iterable, MutableMapping, Sequence
 from dataclasses import dataclass
@@ -706,6 +707,7 @@ class Search(StoredLog):
         # sparse indices
         self.prog: dict[int, int] = dict()
         self.ix_warm_rec: list[int] = []
+        self.ix_used: list[int] = []
 
         self.wordbad: set[str] = set()
         self.wordgood: dict[str, int] = dict()
@@ -1195,8 +1197,9 @@ class Search(StoredLog):
             1, # tier
             5, # prog‰
             tw, # ~N
-            7+sw, # source:nom
             5+uw, # used:N
+            2+nw, # [I]
+            7+sw, # source:nom
         )
 
         def extra_parts(word_i: int):
@@ -1206,14 +1209,15 @@ class Search(StoredLog):
             except ValueError:
                 yield ''
 
+            yield f'used:{self.word_used[word_i]}'
+            yield f'[{self.ix_used.index(word_i)}]'
+
             source_id = self.word_source[word_i]
             source = self.source_nom(source_id)
             if source:
                 yield f'source:{source:{sw}}'
             else:
                 yield ''
-
-            yield f'used:{self.word_used[word_i]}'
 
         ix = 0
         for lim, (tier, words) in zip(counts, self.tier_words()):
@@ -2516,11 +2520,28 @@ class Search(StoredLog):
             self.prog[i] = prog
             self.ix_warm_rec.append(i)
 
+        self.ix_used.append(i)
+        insort(self.ix_used, i, key=self.used_key())
+
         self.wordgood[word] = i
         if word in self.wordbad:
             self.wordbad.remove(word)
 
         return i
+
+    def used_key(self):
+        tier_scores = tuple(
+            self.scale[tier]
+            for tier in tiers)
+        def key(word_i: int):
+            score = self.score[word_i]
+            tier = len(tier_scores)
+            for i, ts in enumerate(tier_scores):
+                if score < ts:
+                    tier = tier - i + 1
+                    break
+            return tier, self.word_used[word_i], -score
+        return key
 
     @matcher(r'''(?x)
         attempt_ (?P<attempt> \d+ ) :
@@ -2997,6 +3018,7 @@ class Search(StoredLog):
         i, _, qword = self.word_iref(k, n)
         self.last_chat_basis[qword] = self.score[i]
         self.word_used[i] += 1
+        self.ix_used.sort(key=self.used_key())
         return qword
 
     def set_chat_prompt(self, ui: PromptUI, prompt: str|ChatPrompt):
