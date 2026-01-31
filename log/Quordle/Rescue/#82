@@ -1,0 +1,191 @@
+T593.9412781139981 now: 2026-01-31T08:37:06EST
+TD95 site: m-w.com/games/quordle/#/rescue
+TD15 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD110  ...␅
+TD5142890 ␆
+TD71  ...
+TD318457 > ␅
+TD4353784 ␆tried plier shaky
+TD77 > tried plier shaky
+TD300 questioning: PLIER SHAKY
+TD117 Rescue #1 _____? ␅
+TD1663051 ␆nMMnn
+TD87 Rescue #1 _____? nMMnn
+TD637 attempt: 0 PLIER n m m n n
+TD120 Rescue #1 _____ ~IL -EPR? ␅
+TD1463461 ␆MnMnn
+TD108 Rescue #1 _____ ~IL -EPR? MnMnn
+TD244 attempt: 0 SHAKY m n m n n
+TD99 Rescue #2 _____? ␅
+TD1263318 ␆nnnnn
+TD99 Rescue #2 _____? nnnnn
+TD235 attempt: 1 PLIER n n n n n
+TD110 Rescue #2 _____ -EILPR? ␅
+TD1495798 ␆YnnMn
+TD109 Rescue #2 _____ -EILPR? YnnMn
+TD247 attempt: 1 SHAKY Y n n m n
+TD100 Rescue #3 _____? ␅
+TD1599467 ␆MYnnn
+TD99 Rescue #3 _____? MYnnn
+TD245 attempt: 2 PLIER m Y n n n
+TD104 Rescue #3 _L___ ~P -EIR? ␅
+TD1351380 ␆MnYnn
+TD89 Rescue #3 _L___ ~P -EIR? MnYnn
+TD240 attempt: 2 SHAKY m n Y n n
+TD102 Rescue #4 _____? ␅
+TD1271958 ␆nMMMn
+TD80 Rescue #4 _____? nMMMn
+TD159 attempt: 3 PLIER n m m m n
+TD70 Rescue #4 _____ ~EIL -PR? ␅
+TD1159644 ␆nnMnn
+TD77 Rescue #4 _____ ~EIL -PR? nnMnn
+TD159 attempt: 3 SHAKY n n m n n
+TD454452 > ␅
+TD1873218 ␆*
+TD106 > *
+TD768 ? ␅
+TD3311463 ␄
+TD222 <EOF>
+TD477715 > ␅
+TD953563 ␆* 2
+TD98 > * 2
+TD91424 ? ␅
+TD1580442 ␆1
+TD69 ? 1
+TD128 questioning: snuck
+TD103 Rescue #1 _____ ~AILS -EHKPRY? ␅
+TD3247745 ␆Mnnnn
+TD72 Rescue #1 _____ ~AILS -EHKPRY? Mnnnn
+TD168 attempt: 0 SNUCK m n n n n
+TD84 Rescue #2 S____ ~K -AEHILPRY? ␅
+TD5199969 ␆YMYnY
+TD120 Rescue #2 S____ ~K -AEHILPRY? YMYnY
+TD191 attempt: 1 SNUCK Y m Y n Y
+TD80 Rescue #3 _LA__ ~PS -EHIKRY? ␅
+TD1607799 ␆MnnMn
+TD77 Rescue #3 _LA__ ~PS -EHIKRY? MnnMn
+TD156 attempt: 2 SNUCK m n n m n
+TD77 Rescue #4 _____ ~AEIL -HKPRSY? ␅
+TD1319268 ␆nnnnn
+TD71 Rescue #4 _____ ~AEIL -HKPRSY? nnnnn
+TD164 attempt: 3 SNUCK n n n n n
+TD428494 > ␅
+TD1955390 ␆*
+TD103 > *
+TD528 ? ␅
+TD1759370 ␄
+TD131 <EOF>
+TD411343 > ␅
+TD1684595 ␆* 3
+TD90 > * 3
+TD87433 ? ␅
+TD1248647 ␄
+TD105 <EOF>
+TD468446 > ␅
+TD595210 ␆*
+TD108 > *
+TD524 ? ␅
+TD855658 ␄
+TD106 <EOF>
+TD434277 > ␅
+TD749348 ␆* 1
+TD100 > * 1
+TD160106 ? ␅
+TD13208152 ␆3
+TD78 ? 3
+TD140 questioning: litas
+TD111 Rescue #1 _____ ~AILS -CEHKNPRUY? ␅
+TD2999680 ␆MMnMM
+TD76 Rescue #1 _____ ~AILS -CEHKNPRUY? MMnMM
+TD155 attempt: 0 LITAS m m n m m
+TD76 Rescue #2 S_U_K ~N -ACEHILPRY? ␅
+TD2463389 ␆nnMnM
+TD87 Rescue #2 S_U_K ~N -ACEHILPRY? nnMnM
+TD155 attempt: 1 LITAS n n m n m
+TD81 Rescue #3 _LA__ ~CPS -EHIKNRUY? ␅
+TD1287762 ␆MnnMM
+TD79 Rescue #3 _LA__ ~CPS -EHIKNRUY? MnnMM
+TD154 attempt: 2 LITAS m n n m m
+TD82 Rescue #4 _____ ~AEIL -CHKNPRSUY? ␅
+TD1575719 ␆MMnYn
+TD83 Rescue #4 _____ ~AEIL -CHKNPRSUY? MMnYn
+TD237 attempt: 3 LITAS m m n Y n
+TD375259 > ␅
+TD680583 ␆*
+TD78 > *
+TD281 questioning: basil
+TD91 Rescue #1 _____ ~AILS -CEHKNPRTUY? ␅
+TD3135758 ␆YYYYY
+TD98 Rescue #1 _____ ~AILS -CEHKNPRTUY? YYYYY
+TD216 attempt: 0 BASIL Y Y Y Y Y
+TD132 Rescue #2 S_U_K ~NT -ACEHILPRY? ␅
+TD1247487 ␆nnMnn
+TD98 Rescue #2 S_U_K ~NT -ACEHILPRY? nnMnn
+TD229 attempt: 1 BASIL n n m n n
+TD116 Rescue #3 _LA__ ~CPS -EHIKNRTUY? ␅
+TD1335472 ␆nMMnM
+TD79 Rescue #3 _LA__ ~CPS -EHIKNRTUY? nMMnM
+TD157 attempt: 2 BASIL n m m n m
+TD81 Rescue #4 ___A_ ~EIL -CHKNPRSTUY? ␅
+TD1647733 ␆nMnMY
+TD98 Rescue #4 ___A_ ~EIL -CHKNPRSTUY? nMnMY
+TD230 attempt: 3 BASIL n m n m Y
+TD275578 > ␅
+TD539822 ␆*
+TD97 > *
+TD390 questioning: stunk
+TD129 Rescue #2 S_U_K ~NT -ABCEHILPRY? ␅
+TD2783811 ␆YYYYY
+TD98 Rescue #2 S_U_K ~NT -ABCEHILPRY? YYYYY
+TD212 attempt: 1 STUNK Y Y Y Y Y
+TD133 Rescue #3 _LA__ ~CPS -BEHIKNRTUY? ␅
+TD2463442 ␆Mnnnn
+TD112 Rescue #3 _LA__ ~CPS -BEHIKNRTUY? Mnnnn
+TD296 attempt: 2 STUNK m n n n n
+TD214 Rescue #4 ___AL ~EI -BCHKNPRSTUY? ␅
+TD1319118 ␆nnnnn
+TD76 Rescue #4 ___AL ~EI -BCHKNPRSTUY? nnnnn
+TD137 attempt: 3 STUNK n n n n n
+TD135529 > ␅
+TD720428 ␆*
+TD72 > *
+TD252 questioning: clasp
+TD71 Rescue #3 _LA__ ~CPS -BEHIKNRTUY? ␅
+TD3112254 ␆YYYYY
+TD95 Rescue #3 _LA__ ~CPS -BEHIKNRTUY? YYYYY
+TD193 attempt: 2 CLASP Y Y Y Y Y
+TD106 Rescue #4 ___AL ~EI -BCHKNPRSTUY? ␅
+TD1318926 ␆nMMnn
+TD102 Rescue #4 ___AL ~EI -BCHKNPRSTUY? nMMnn
+TD181 attempt: 3 CLASP n m m n n
+TD89997 > ␅
+TD701649 ␆*
+TD90 > *
+TD381 questioning: ideal
+TD131 Rescue #4 ___AL ~EI -BCHKNPRSTUY? ␅
+TD3215686 ␆YYYYY
+TD79 Rescue #4 ___AL ~EI -BCHKNPRSTUY? YYYYY
+TD147 attempt: 3 IDEAL Y Y Y Y Y
+TD79 📋> ␅
+TD7416899 ␆Daily Rescue 82
+TD97 📋> Daily Rescue 82
+TD18 📋> ␅
+TD62 ␆5️⃣6️⃣
+TD7 📋> 5️⃣6️⃣
+TD6 📋> ␅
+TD14 ␆7️⃣8️⃣
+TD6 📋> 7️⃣8️⃣
+TD5 📋> ␅
+TD12 ␆m-w.com/games/quordle/
+TD7 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD334668 ␆
+TD104 📋> 
+TD13 📋> ␅
+TD183778 ␄
+TD149 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 82\n5\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD836 result: "Daily Rescue 82\n5\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD67 📆 2026-01-31 ? ␅
+TD142954 ␆
+TD84 📆 2026-01-31 ? 
