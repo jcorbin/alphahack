@@ -28,6 +28,16 @@ from ui import PromptUI
 
 _ = load_dotenv()
 
+def shorten_under(name: str, names: Sequence[str]):
+    for m in re.finditer(r'\w+', name):
+        nom = name[:m.end()]
+        if not any(
+            n.startswith(nom)
+            for n in names
+            if n != name
+        ): return nom
+    return name
+
 def weighted(score: float, w: int|float):
     if w == 0: return 0
     if score < 0:
@@ -684,6 +694,7 @@ class Search(StoredLog):
         self.score: list[float] = [] # TODO store normalized [0.0, 1.0]
 
         self.word_sources: list[str] = []
+        self.word_source_noms: list[str] = []
         self.word_sources_by: dict[str, int] = dict()
 
         # sorted by score
@@ -2467,12 +2478,28 @@ class Search(StoredLog):
     def source_code(self, source: str):
         source_id = self.word_sources_by.get(source)
         if source_id is None:
+            nom = shorten_under(source, self.word_source_noms)
             self.word_sources.append(source)
+            self.word_source_noms.append(nom)
             self.word_sources_by[source] = source_id = len(self.word_sources)
+            for i, nom in enumerate(self.word_source_noms):
+                if nom and source.startswith(nom):
+                    name = self.word_sources[i]
+                    nom = shorten_under(name, self.word_sources)
+                self.word_source_noms[i] = nom
         return source_id
 
     def source_name(self, source_id: int):
         return self.word_sources[source_id-1]
+
+    def source_nom(self, source_id: int):
+        i = source_id-1
+        name = self.word_source_noms[i]
+        if not name:
+            name = self.word_sources[i]
+            name = shorten_under(name, self.word_sources)
+            self.word_source_noms[i] = name
+        return name
 
     def append_record(self,
                       word: str,
