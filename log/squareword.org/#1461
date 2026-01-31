@@ -1,0 +1,187 @@
+T133.2730761740022 now: 2026-01-31T08:05:43EST
+TD82 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD24  ...␅
+TD2414606 ␆
+TD81  ...
+TD70 🧩  ? ␅
+TD4879711 ␆#1461
+TD127 🧩  ? #1461
+TD285 puzzle_id: #1461
+TD292 > ␅
+TD3287389 ␆*
+TD99 > *
+TD242874 try? ␅
+TD956865 ␆1
+TD99 try? 1
+TD333 questioning: ["reals", "#5"]
+TD305 #1 <IndexError>  📋 "reals" ? ␅
+TD3775269 ␆R___S ~ A
+TD105 #1 <IndexError>  📋 "reals" ? R___S ~ A
+TD704 attempt 0 REALS Y n m n Y
+TD123 #2 <IndexError>  📋 "reals" ? ␅
+TD2471457 ␆_____ ~ AL
+TD99 #2 <IndexError>  📋 "reals" ? _____ ~ AL
+TD277 attempt 1 REALS n n m m n
+TD124 #3 <IndexError>  📋 "reals" ? ␅
+TD2727462 ␆_____ ~ RE
+TD74 #3 <IndexError>  📋 "reals" ? _____ ~ RE
+TD681 attempt 2 REALS m m n n n
+TD87 #4 <IndexError>  📋 "reals" ? ␅
+TD2287164 ␆_E___ ~ RE
+TD96 #4 <IndexError>  📋 "reals" ? _E___ ~ RE
+TD261 attempt 3 REALS m Y n n n
+TD124 #5 <IndexError>  📋 "reals" ? ␅
+TD3231445 ␆REA__ 
+TD78 #5 <IndexError>  📋 "reals" ? REA__ 
+TD194 attempt 4 REALS Y Y Y n n
+TD417 ? ␅
+TD295298 ␆
+TD81 ? 
+TD116 question done
+TD193 > ␅
+TD879793 ␆*
+TD95 > *
+TD758684 questioning: ["eerie", "#4"]
+TD183 #1 R___S ~A -EL  📋 "eerie" ? ␅
+TD5160658 ␆.
+TD112 #1 R___S ~A -EL  📋 "eerie" ? .
+TD289 attempt 0 EERIE n n n n n
+TD103 #2 _____ ~AL -ERS  📋 "eerie" ? ␅
+TD663984 ␆.
+TD98 #2 _____ ~AL -ERS  📋 "eerie" ? .
+TD265 attempt 1 EERIE n n n n n
+TD101 #3 _____ ~ER -ALS  📋 "eerie" ? ␅
+TD3263411 ␆____E ~ R
+TD84 #3 _____ ~ER -ALS  📋 "eerie" ? ____E ~ R
+TD177 attempt 2 EERIE n n m n Y
+TD111 #4 _E___ ~R -ALS  📋 "eerie" ? ␅
+TD615526 ␆/it
+TD70 #4 _E___ ~R -ALS  📋 "eerie" ? /it
+TD181 attempt 3 EERIE Y Y Y Y Y
+TD73 #5 REA__ -LS  📋 "eerie" ? ␅
+TD743543 ␆.
+TD100 #5 REA__ -LS  📋 "eerie" ? .
+TD267 attempt 4 EERIE n Y n n n
+TD243 ? ␅
+TD175703 ␆
+TD87 ? 
+TD115 question done
+TD299 > ␅
+TD631166 ␆*
+TD106 > *
+TD672442 try? ␅
+TD2095750 ␆1
+TD101 try? 1
+TD285 questioning: ["react", "#5"]
+TD364 #1 R___S ~A -EILR  📋 "react" ? ␅
+TD5991175 ␆R___S ~ AT
+TD80 #1 R___S ~A -EILR  📋 "react" ? R___S ~ AT
+TD180 attempt 0 REACT Y n m n m
+TD103 #2 _____ ~AL -EIRS  📋 "react" ? ␅
+TD1135751 ␆.
+TD99 #2 _____ ~AL -EIRS  📋 "react" ? .
+TD231 attempt 1 REACT n n m n n
+TD69 #3 ____E ~R -AILS  📋 "react" ? ␅
+TD3111585 ␆____E ~ RC
+TD96 #3 ____E ~R -AILS  📋 "react" ? ____E ~ RC
+TD241 attempt 2 REACT m n n m n
+TD145 #5 REA__ -ILRS  📋 "react" ? ␅
+TD991720 ␆/it
+TD96 #5 REA__ -ILRS  📋 "react" ? /it
+TD256 attempt 4 REACT Y Y Y Y Y
+TD329 ? ␅
+TD223228 ␆
+TD100 ? 
+TD116 question done
+TD333 > ␅
+TD663417 ␆*
+TD97 > *
+TD442355 try? ␅
+TD2541246 ␆1
+TD69 try? 1
+TD215 questioning: ["rafts", "#1"]
+TD217 #1 R___S ~AT -CEIL  📋 "rafts" ? ␅
+TD2487951 ␆/it
+TD78 #1 R___S ~AT -CEIL  📋 "rafts" ? /it
+TD181 attempt 0 RAFTS Y Y Y Y Y
+TD83 #2 _____ ~AL -CEIRST  📋 "rafts" ? ␅
+TD1031515 ␆.
+TD95 #2 _____ ~AL -CEIRST  📋 "rafts" ? .
+TD266 attempt 1 RAFTS n m n n n
+TD99 #3 ____E ~CR -AEILST  📋 "rafts" ? ␅
+TD1119354 ␆.
+TD94 #3 ____E ~CR -AEILST  📋 "rafts" ? .
+TD275 attempt 2 RAFTS m n n n n
+TD318 ? ␅
+TD167212 ␆
+TD92 ? 
+TD115 question done
+TD318 > ␅
+TD495780 ␆*
+TD80 > *
+TD769649 try? ␅
+TD1925953 ␆1
+TD78 try? 1
+TD213 questioning: ["crone", "#3"]
+TD233 #2 _____ ~AL -CEFIRST  📋 "crone" ? ␅
+TD4687778 ␆_____ ~ ALO
+TD119 #2 _____ ~AL -CEFIRST  📋 "crone" ? _____ ~ ALO
+TD305 attempt 1 CRONE n n m n n
+TD181 #3 ____E ~CR -AEFILST  📋 "crone" ? ␅
+TD735231 ␆/it
+TD77 #3 ____E ~CR -AEFILST  📋 "crone" ? /it
+TD183 attempt 2 CRONE Y Y Y Y Y
+TD188 ? ␅
+TD279774 ␆
+TD77 ? 
+TD86 question done
+TD254 > ␅
+TD607568 ␆*
+TD88 > *
+TD838544 questioning: ["aglow", "#2"]
+TD197 #2 _____ ~ALO -CEFINRST  📋 "aglow" ? ␅
+TD4481029 ␆/it
+TD101 #2 _____ ~ALO -CEFINRST  📋 "aglow" ? /it
+TD262 attempt 1 AGLOW Y Y Y Y Y
+TD345 ? ␅
+TD855148 ␆
+TD75 ? 
+TD81 question done
+TD22619 📋> ␅
+TD7249889 ␆squareword.org 1461: 6 guesses
+TD114 📋> squareword.org 1461: 6 guesses
+TD13 📋> ␅
+TD45 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD29 ␆🟩🟩🟩🟩🟩
+TD19 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD12 ␆🟨🟨🟨🟨🟨
+TD5 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD591240 ␆#squareword #squareword1461
+TD92 📋> #squareword #squareword1461
+TD13 📋> ␅
+TD415902 ␄
+TD142 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1461: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1461"}
+TD494 result: "squareword.org 1461: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1461"
+TD68 📆 2026-01-31 ? ␅
+TD463391 ␆
+TD81 📆 2026-01-31 ? 
