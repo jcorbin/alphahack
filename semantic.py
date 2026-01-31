@@ -2622,13 +2622,14 @@ class Search(StoredLog):
             exw = ExtractedWords(
                 lambda word: word in self.search.wordbad,
                 lambda word: word in self.search.wordgood)
-            exw.consume(self.search.filter_words(
-                word
-                for line in not_between(
-                    spliterate(self.reply, '\n', trim=True),
-                    re.compile('<think>'), re.compile('</think>'))
-                for _, word in find_match_words(line)
-            ))
+            exw.consume(
+                self.search.filter_words(
+                    word
+                    for line in not_between(
+                        spliterate(self.reply, '\n', trim=True),
+                        re.compile('<think>'), re.compile('</think>'))
+                    for _, word in find_match_words(line)
+                ))
             return exw
 
         @property
@@ -2693,7 +2694,11 @@ class Search(StoredLog):
                 if verbose:
                     ui.print(f'{indent} {"; ".join(explain())}')
 
-    def attempt_word(self, ui: PromptUI, word: str, desc: str) -> PromptUI.State|None:
+    def attempt_word(self,
+                     ui: PromptUI,
+                     word: str,
+                     desc: str,
+                     ) -> PromptUI.State|None:
         word = word.lower()
         word = word.strip().strip("'\"").strip()
 
