@@ -683,6 +683,9 @@ class Search(StoredLog):
         self.word: list[str] = []
         self.score: list[float] = [] # TODO store normalized [0.0, 1.0]
 
+        self.word_sources: list[str] = []
+        self.word_sources_by: dict[str, int] = dict()
+
         # sorted by score
         self.index: list[int] = []
 
@@ -2460,6 +2463,16 @@ class Search(StoredLog):
         i = self.append_record(word, score, prog)
         ui.log(f'attempt_{i}: "{word}" score:{score:.2f} prog:{prog}')
         return i
+
+    def source_code(self, source: str):
+        source_id = self.word_sources_by.get(source)
+        if source_id is None:
+            self.word_sources.append(source)
+            self.word_sources_by[source] = source_id = len(self.word_sources)
+        return source_id
+
+    def source_name(self, source_id: int):
+        return self.word_sources[source_id-1]
 
     def append_record(self,
                       word: str,
