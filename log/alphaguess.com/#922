@@ -1,0 +1,112 @@
+T120.48492588999943 now: 2026-01-31T07:46:36EST
+TD149 site: alphaguess.com
+TD149678 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof d99d3397c98ace55ee2e7261760da19c1010cce1
+TD125  ...␅
+TD6048546 ␆
+TD83  ...
+TD130 [0 : 98220 : 196531] mach? ␅
+TD2967819 ␆a
+TD82 [0 : 98220 : 196531] mach? a
+TD83 progress: 1 98220 mach
+TD149 [98221 : 147373 : 196531] rhotic? ␅
+TD1479597 ␆a
+TD77 [98221 : 147373 : 196531] rhotic? a
+TD79 progress: 1 147373 rhotic
+TD81 [147374 : 171643 : 196531] ta? ␅
+TD1720249 ␆b
+TD100 [147374 : 171643 : 196531] ta? b
+TD105 progress: -1 171643 ta
+TD102 [147374 : 159490 : 171643] slop? ␅
+TD1175380 ␆a
+TD80 [147374 : 159490 : 171643] slop? a
+TD79 progress: 1 159490 slop
+TD76 [159491 : 165532 : 171643] stick? ␅
+TD1175818 ␆a
+TD96 [159491 : 165532 : 171643] stick? a
+TD106 progress: 1 165532 stick
+TD109 [165533 : 168584 : 171643] sue? ␅
+TD1231517 ␆b
+TD97 [165533 : 168584 : 171643] sue? b
+TD107 progress: -1 168584 sue
+TD113 [165533 : 167051 : 168584] stuff? ␅
+TD1239381 ␆b
+TD115 [165533 : 167051 : 168584] stuff? b
+TD109 progress: -1 167051 stuff
+TD200 [165533 : 166291 : 167051] straddle? ␅
+TD1151625 ␆a
+TD83 [165533 : 166291 : 167051] straddle? a
+TD81 progress: 1 166291 straddle
+TD77 [166292 : 166667 : 167051] stria? ␅
+TD1623832 ␆a
+TD72 [166292 : 166667 : 167051] stria? a
+TD80 progress: 1 166667 stria
+TD77 [166668 : 166853 : 167051] strong? ␅
+TD1312010 ␆b
+TD99 [166668 : 166853 : 167051] strong? b
+TD105 progress: -1 166853 strong
+TD110 [166668 : 166745 : 166853] string? ␅
+TD1239568 ␆a
+TD99 [166668 : 166745 : 166853] string? a
+TD111 progress: 1 166745 string
+TD156 [166746 : 166774 : 166853] strip? ␅
+TD1407971 ␆a
+TD103 [166746 : 166774 : 166853] strip? a
+TD129 progress: 1 166774 strip
+TD132 [166775 : 166811 : 166853] strobil? ␅
+TD2287464 ␆b
+TD98 [166775 : 166811 : 166853] strobil? b
+TD106 progress: -1 166811 strobil
+TD198 [166775 : 166794 : 166811] stript? ␅
+TD1847676 ␆b
+TD81 [166775 : 166794 : 166811] stript? b
+TD84 progress: -1 166794 stript
+TD131 [166775 : 166784 : 166794] striping? ␅
+TD1719321 ␆b
+TD81 [166775 : 166784 : 166794] striping? b
+TD80 progress: -1 166784 striping
+TD122 [166775 : 166779 : 166784] stripers? ␅
+TD2015720 ␆b
+TD81 [166775 : 166779 : 166784] stripers? b
+TD83 progress: -1 166779 stripers
+TD119 [166775 : 166777 : 166779] stripeless? ␅
+TD2367730 ␆b
+TD71 [166775 : 166777 : 166779] stripeless? b
+TD77 progress: -1 166777 stripeless
+TD122 [166775 : 166776 : 166777] striped? ␅
+TD2383967 ␆b
+TD97 [166775 : 166776 : 166777] striped? b
+TD104 progress: -1 166776 striped
+TD196 [166775 : 166775 : 166776] stripe? ␅
+TD8223483 ␆it
+TD88 [166775 : 166775 : 166776] stripe? it
+TD83 progress: 0 166775 stripe
+TD21 [166775 : 166775 : 166776] <Done>.
+TD62 📋> ␅
+TD2071997 ␆stripe
+TD98 📋> stripe
+TD12 📋> ␅
+TD431750 ␄
+TD132 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "stripe"}
+TD110 📋> ␅
+TD4816038 ␆🧩 Puzzle #922
+TD78 📋> 🧩 Puzzle #922
+TD8 📋> ␅
+TD30 ␆🤔 19 guesses
+TD3 📋> 🤔 19 guesses
+TD2 📋> ␅
+TD6 ␆⏱️ 29s
+TD3 📋> ⏱️ 29s
+TD2 📋> ␅
+TD487396 ␆🔗 alphaguess.com
+TD79 📋> 🔗 alphaguess.com
+TD8 📋> ␅
+TD256003 ␄
+TD180 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #922\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 29s\n\ud83d\udd17 alphaguess.com"}
+TD105 result: "\ud83e\udde9 Puzzle #922\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 29s\n\ud83d\udd17 alphaguess.com"
+TD16 result puzzle: 922
+TD6 result guesses: 19
+TD5 result time: 29s
+TD5 result link: alphaguess.com
+TD88 📆 2026-01-31 ? ␅
+TD407956 ␆
+TD101 📆 2026-01-31 ? 
