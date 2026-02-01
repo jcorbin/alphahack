@@ -1,0 +1,110 @@
+T85217.304170254 now: 2026-02-01T08:24:54EST
+TD161 site: alfagok.diginaut.net
+TD688535 loaded 399678 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1174 words excluded) asof 3f0c9c17829a830e4ce889a0b4507c4fb104023b
+TD155  ...␅
+TD3813762 ␆
+TD111  ...
+TD647 [0 : 199833 : 399678] lijm? ␅
+TD5767136 ␆a
+TD86 [0 : 199833 : 399678] lijm? a
+TD464 progress: 1 199833 lijm
+TD101 [199834 : 299738 : 399678] schub? ␅
+TD2887453 ␆a
+TD93 [199834 : 299738 : 399678] schub? a
+TD132 progress: 1 299738 schub
+TD126 [299739 : 349512 : 399678] vakantie? ␅
+TD1615807 ␆b
+TD89 [299739 : 349512 : 399678] vakantie? b
+TD100 progress: -1 349512 vakantie
+TD129 [299739 : 324308 : 349512] sub? ␅
+TD1447415 ␆b
+TD87 [299739 : 324308 : 349512] sub? b
+TD111 progress: -1 324308 sub
+TD130 [299739 : 311908 : 324308] spier? ␅
+TD1439927 ␆a
+TD94 [299739 : 311908 : 324308] spier? a
+TD114 progress: 1 311908 spier
+TD106 [311909 : 318105 : 324308] stem? ␅
+TD1423554 ␆b
+TD109 [311909 : 318105 : 324308] stem? b
+TD110 progress: -1 318105 stem
+TD106 [311909 : 314901 : 318105] staats? ␅
+TD1327557 ␆a
+TD96 [311909 : 314901 : 318105] staats? a
+TD111 progress: 1 314901 staats
+TD120 [314902 : 316389 : 318105] standaard? ␅
+TD1368166 ␆a
+TD99 [314902 : 316389 : 318105] standaard? a
+TD159 progress: 1 316389 standaard
+TD107 [316390 : 317214 : 318105] statu? ␅
+TD4447195 ␆!
+TD79 [316390 : 317214 : 318105] statu? !
+TD254 [316390 : 317031 : 318104] stat? ␅
+TD4511937 ␆a
+TD108 [316390 : 317031 : 318104] stat? a
+TD114 progress: 1 317031 stat
+TD124 [317032 : 317474 : 318104] steen? ␅
+TD1927768 ␆a
+TD80 [317032 : 317474 : 318104] steen? a
+TD88 progress: 1 317474 steen
+TD204 [317475 : 317789 : 318104] steffens? ␅
+TD3927564 ␆!
+TD73 [317475 : 317789 : 318104] steffens? !
+TD264 [317475 : 317789 : 318103] steffers? ␅
+TD1871575 ␆!
+TD98 [317475 : 317789 : 318103] steffers? !
+TD398 [317475 : 317789 : 318102] steffie? ␅
+TD1887608 ␆!
+TD109 [317475 : 317789 : 318102] steffie? !
+TD377 [317475 : 317790 : 318101] steg? ␅
+TD1703447 ␆a
+TD95 [317475 : 317790 : 318101] steg? a
+TD165 progress: 1 317790 steg
+TD106 [317791 : 317890 : 318101] stek? ␅
+TD3087758 ␆a
+TD75 [317791 : 317890 : 318101] stek? a
+TD123 progress: 1 317890 stek
+TD87 [317891 : 317966 : 318101] stel? ␅
+TD3855916 ␆b
+TD97 [317891 : 317966 : 318101] stel? b
+TD168 progress: -1 317966 stel
+TD152 [317891 : 317893 : 317966] stekel? ␅
+TD2415333 ␆a
+TD80 [317891 : 317893 : 317966] stekel? a
+TD86 progress: 1 317893 stekel
+TD123 [317894 : 317926 : 317966] stekelvarken? ␅
+TD1951714 ␆a
+TD77 [317894 : 317926 : 317966] stekelvarken? a
+TD84 progress: 1 317926 stekelvarken
+TD128 [317927 : 317946 : 317966] stekjes? ␅
+TD1751891 ␆b
+TD79 [317927 : 317946 : 317966] stekjes? b
+TD84 progress: -1 317946 stekjes
+TD105 [317927 : 317933 : 317946] steken? ␅
+TD1664275 ␆it
+TD89 [317927 : 317933 : 317946] steken? it
+TD102 progress: 0 317933 steken
+TD21 [317927 : 317933 : 317946] <Done>.
+TD119 📋> ␅
+TD3351825 ␆🧩 Puzzel #456
+TD97 📋> 🧩 Puzzel #456
+TD13 📋> ␅
+TD40 ␆🤔 17 gokken
+TD6 📋> 🤔 17 gokken
+TD6 📋> ␅
+TD12 ␆⏱️ 48s
+TD6 📋> ⏱️ 48s
+TD5 📋> ␅
+TD431248 ␆🔗 alfagok.diginaut.net
+TD101 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD207773 ␄
+TD166 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #456\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 48s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD672 result: "\ud83e\udde9 Puzzel #456\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 48s\n\ud83d\udd17 alfagok.diginaut.net"
+TD16 result puzzle: 456
+TD5 result guesses: 17
+TD3 result time: 48s
+TD2 result link: alfagok.diginaut.net
+TD79 📆 2026-02-01 ? ␅
+TD151617 ␆
+TD93 📆 2026-02-01 ? 
