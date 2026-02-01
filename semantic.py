@@ -132,6 +132,16 @@ tier_progs: list[int|None] = [
     1000, # 🥳
 ]
 
+tier_wants: list[int] = [
+    -100,  # 🧊
+    -1,    # 🥶
+    1,     # 😎
+    10,    # 🥵
+    100,   # 🔥
+    1000,  # 😱
+    10000, # 🥳
+]
+
 scale_fixed: dict[Tier, float] = {}
 scale_fixed['🧊'] = -100.0
 scale_fixed['🥶'] =    0.0
@@ -2587,8 +2597,8 @@ class Search(StoredLog):
                 if score < ts:
                     tier = i-1
                     break
-            tier += len(tier_scores)
-            return tier, used, -score
+            want = tier_wants[tier]
+            return -(want if used == 0 else want/used), -score
 
         return key
 
