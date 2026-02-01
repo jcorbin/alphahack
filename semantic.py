@@ -9,6 +9,7 @@ import math
 import ollama
 import re
 import requests
+from bisect import insort
 from collections import Counter
 from collections.abc import Generator, Iterable, MutableMapping, Sequence
 from dataclasses import dataclass
@@ -705,6 +706,7 @@ class Search(StoredLog):
         # sparse indices
         self.prog: dict[int, int] = dict()
         self.ix_warm_rec: list[int] = []
+        self.ix_used: list[int] = []
 
         self.wordbad: set[str] = set()
         self.wordgood: dict[str, int] = dict()
@@ -1245,6 +1247,7 @@ class Search(StoredLog):
             f'>5',      # prog‰
             f'>{tw}',   # ~N
             f'<{5+uw}', # used:N
+            f'<{2+nw}', # [I]
             f'<{7+sw}', # source:nom
         )
 
@@ -1256,6 +1259,7 @@ class Search(StoredLog):
                 yield ''
 
             yield f'used:{self.word_used[word_i]}'
+            yield f'[{self.ix_used.index(word_i)}]'
 
             source_id = self.word_source[word_i]
             source = self.source_nom(source_id)
@@ -2565,11 +2569,28 @@ class Search(StoredLog):
             self.prog[i] = prog
             self.ix_warm_rec.append(i)
 
+        insort(self.ix_used, i, key=self.used_key())
+
         self.wordgood[word] = i
         if word in self.wordbad:
             self.wordbad.remove(word)
 
         return i
+
+    def used_key(self):
+        def key(word_i: int):
+            score = self.score[word_i]
+            used = self.word_used[word_i]
+            tier = 0
+            for i, t in enumerate(tiers):
+                ts = self.scale[t]
+                if score < ts:
+                    tier = i-1
+                    break
+            tier += len(tier_scores)
+            return tier, used, -score
+
+        return key
 
     @matcher(r'''(?x)
         attempt_ (?P<attempt> \d+ ) :
@@ -3044,6 +3065,7 @@ class Search(StoredLog):
         i, _, qword = self.word_iref(k, n)
         self.last_chat_basis[qword] = self.score[i]
         self.word_used[i] += 1
+        self.ix_used.sort(key=self.used_key())
         return qword
 
     def set_chat_prompt(self, ui: PromptUI, prompt: str|ChatPrompt):
