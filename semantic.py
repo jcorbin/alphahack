@@ -202,26 +202,6 @@ def word_refs(s: str) -> Generator[tuple[WordRef, int]]:
     for match in word_ref_pattern.finditer(s):
         yield from word_match_refs(match)
 
-def unroll_refs(s: str) -> Generator[str]:
-    for match in word_ref_pattern.finditer(s):
-        yield from unroll_word_match(match)
-
-def unroll_word_match(match: re.Match[str]):
-    nth, vartb, varn, recn = match.groups()
-    if nth:
-        yield f'#{nth}'
-    elif vartb:
-        if vartb.lower() == 't':
-            for n in range(1, int(varn)+1):
-                yield f'${n}'
-        elif vartb.lower() == 'b':
-            for n in range(int(varn), 0, -1):
-                yield f'${-n}'
-    elif varn:
-        yield f'${varn}'
-    elif recn:
-        yield f'~{recn}'
-
 def word_match_refs(match: re.Match[str]) -> Generator[tuple[WordRef, int]]:
     nth, vartb, varn, recn = match.groups()
     if nth:
@@ -2098,8 +2078,8 @@ class Search(StoredLog):
             m = re.match(r'(?x) ( [Tt] ) | ( [Bb] ) ( \d+ )', token)
             if m:
                 b = True if m[1] else False
-                for r in unroll_refs(f'${token}'):
-                    yield b, r
+                for k, n in word_refs(f'${token}'):
+                    yield b, f'{k}{n}'
 
         def signed_ref(token: str):
             if token.startswith('+') and len(token) > 1:
