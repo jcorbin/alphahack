@@ -2095,10 +2095,11 @@ class Search(StoredLog):
                 if val is not None: return val
 
         def tb_refs(token: str):
-            if re.match(r'[Tt]\d+', token):
-                return [(True, r) for r in unroll_refs(f'${token}')]
-            if re.match(r'[Bb]\d+', token):
-                return [(False, r) for r in unroll_refs(f'${token}')]
+            m = re.match(r'(?x) ( [Tt] ) | ( [Bb] ) ( \d+ )', token)
+            if m:
+                b = True if m[1] else False
+                for r in unroll_refs(f'${token}'):
+                    yield b, r
 
         def signed_ref(token: str):
             if token.startswith('+') and len(token) > 1:
