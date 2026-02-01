@@ -1137,20 +1137,6 @@ class Search(StoredLog):
                 5, # prog‰
             )))
 
-    def prog_lines(self, limit: int):
-        iw = len(str(len(self.word))) + 1
-        for ix, i, desc in self.describe_prog(limit = limit):
-            var = '<no-index>' if ix < 0 else f'${ix+1}'
-            nth = f'#{i+1}'
-
-            try:
-                ri = self.recs.index(i)
-                rec = f'~{len(self.recs)-ri}'
-            except ValueError:
-                rec = ''
-
-            yield f'    {var:>{iw}} {nth:>{iw}} {rec:>{iw}} {desc}'
-
     def describe_prog(self, limit: int = 10):
         rem = [sum(1 for _ in words())-1 for _, words in self.tier_words()]
         counts = [1 for _ in rem]
