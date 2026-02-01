@@ -1,0 +1,219 @@
+T660.3370895049884 now: 2026-02-01T10:10:42EST
+TD150 site: m-w.com/games/quordle/#/rescue
+TD24 wordlist: nwl2023.txt
+TD5 num_words: 4
+TD128  ...␅
+TD25871559 ␆
+TD152  ...
+TD952655 > ␅
+TD3735574 ␆tried flint aloof
+TD98 > tried flint aloof
+TD476 questioning: FLINT ALOOF
+TD239 Rescue #1 _____? ␅
+TD1886868 ␆nnYMn
+TD98 Rescue #1 _____? nnYMn
+TD692 attempt: 0 FLINT n n Y m n
+TD115 Rescue #1 __I__ ~N -FLT? ␅
+TD1143104 ␆nnnnn
+TD95 Rescue #1 __I__ ~N -FLT? nnnnn
+TD254 attempt: 0 ALOOF n n n n n
+TD94 Rescue #2 _____? ␅
+TD1543484 ␆nnnMn
+TD113 Rescue #2 _____? nnnMn
+TD295 attempt: 1 FLINT n n n m n
+TD167 Rescue #2 _____ ~N -FILT? ␅
+TD983441 ␆nnnnn
+TD95 Rescue #2 _____ ~N -FILT? nnnnn
+TD231 attempt: 1 ALOOF n n n n n
+TD95 Rescue #3 _____? ␅
+TD1463523 ␆nnnMn
+TD101 Rescue #3 _____? nnnMn
+TD222 attempt: 2 FLINT n n n m n
+TD112 Rescue #3 _____ ~N -FILT? ␅
+TD959729 ␆nnnnn
+TD109 Rescue #3 _____ ~N -FILT? nnnnn
+TD231 attempt: 2 ALOOF n n n n n
+TD95 Rescue #4 _____? ␅
+TD1767593 ␆nMnnn
+TD106 Rescue #4 _____? nMnnn
+TD234 attempt: 3 FLINT n m n n n
+TD100 Rescue #4 _____ ~L -FINT? ␅
+TD1455488 ␆nMnnn
+TD100 Rescue #4 _____ ~L -FINT? nMnnn
+TD225 attempt: 3 ALOOF n m n n n
+TD906433 > ␅
+TD1133289 ␆*
+TD103 > *
+TD2702 ? ␅
+TD2693837 ␆4
+TD108 ? 4
+TD210 questioning: lucks
+TD167 Rescue #1 __I__ ~N -AFLOT? ␅
+TD2814838 ␆nnnnM
+TD108 Rescue #1 __I__ ~N -AFLOT? nnnnM
+TD243 attempt: 0 LUCKS n n n n m
+TD114 Rescue #2 _____ ~N -AFILOT? ␅
+TD1119598 ␆nnMnn
+TD102 Rescue #2 _____ ~N -AFILOT? nnMnn
+TD240 attempt: 1 LUCKS n n m n n
+TD114 Rescue #3 _____ ~N -AFILOT? ␅
+TD2359623 ␆nMnnM
+TD114 Rescue #3 _____ ~N -AFILOT? nMnnM
+TD217 attempt: 2 LUCKS n m n n m
+TD117 Rescue #4 _____ ~L -AFINOT? ␅
+TD1543600 ␆MYMnn
+TD142 Rescue #4 _____ ~L -AFINOT? MYMnn
+TD5165 attempt: 3 LUCKS m Y m n n
+TD1111224 > ␅
+TD1579572 ␆*
+TD162 > *
+TD709 ? ␅
+TD2287213 ␄
+TD184 <EOF>
+TD1057340 > ␅
+TD1190331 ␆* 4
+TD155 > * 4
+TD226819 ? ␅
+TD7292848 ␆3
+TD101 ? 3
+TD216 questioning: dulce
+TD163 Rescue #1 __I__ ~NS -ACFKLOTU? ␅
+TD3871580 ␆MnnnY
+TD92 Rescue #1 __I__ ~NS -ACFKLOTU? MnnnY
+TD188 attempt: 0 DULCE m n n n Y
+TD90 Rescue #2 _____ ~CN -AFIKLOSTU? ␅
+TD1359624 ␆nnnYY
+TD122 Rescue #2 _____ ~CN -AFIKLOSTU? nnnYY
+TD275 attempt: 1 DULCE n n n Y Y
+TD135 Rescue #3 _____ ~NSU -ACFIKLOT? ␅
+TD1599614 ␆nMnnY
+TD98 Rescue #3 _____ ~NSU -ACFIKLOT? nMnnY
+TD222 attempt: 2 DULCE n m n n Y
+TD111 Rescue #4 _U___ ~CL -AFIKNOST? ␅
+TD1615826 ␆nYYYn
+TD95 Rescue #4 _U___ ~CL -AFIKNOST? nYYYn
+TD227 attempt: 3 DULCE n Y Y Y n
+TD391032 > ␅
+TD1056347 ␆*
+TD86 > *
+TD386 questioning: snide
+TD121 Rescue #1 __I_E ~DNS -ACFKLOTU? ␅
+TD3415383 ␆YYYYY
+TD97 Rescue #1 __I_E ~DNS -ACFKLOTU? YYYYY
+TD215 attempt: 0 SNIDE Y Y Y Y Y
+TD119 Rescue #2 ___CE ~N -ADFIKLOSTU? ␅
+TD3831929 ␆nMnnY
+TD75 Rescue #2 ___CE ~N -ADFIKLOSTU? nMnnY
+TD152 attempt: 1 SNIDE n m n n Y
+TD75 Rescue #3 ____E ~NSU -ACDFIKLOT? ␅
+TD2399608 ␆MYnnY
+TD111 Rescue #3 ____E ~NSU -ACDFIKLOT? MYnnY
+TD280 attempt: 2 SNIDE m Y n n Y
+TD130 Rescue #4 _ULC_ -ADEFIKNOST? ␅
+TD1263695 ␆nnnnn
+TD96 Rescue #4 _ULC_ -ADEFIKNOST? nnnnn
+TD215 attempt: 3 SNIDE n n n n n
+TD291448 > ␅
+TD1291813 ␆*
+TD112 > *
+TD605 ? ␅
+TD2183417 ␄
+TD109 <EOF>
+TD291017 > ␅
+TD1285139 ␆* 3
+TD106 > * 3
+TD95603 ? ␅
+TD2423980 ␄
+TD116 <EOF>
+TD270358 > ␅
+TD2225469 ␆* 3
+TD86 > * 3
+TD95378 ? ␅
+TD784549 ␄
+TD100 <EOF>
+TD277159 > ␅
+TD506743 ␆* 4
+TD80 > * 4
+TD90324 ? ␅
+TD7781638 ␆2
+TD72 ? 2
+TD132 questioning: mulch
+TD104 Rescue #2 ___CE ~N -ADFIKLOSTU? ␅
+TD4727821 ␆nnnYM
+TD71 Rescue #2 ___CE ~N -ADFIKLOSTU? nnnYM
+TD146 attempt: 1 MULCH n n n Y m
+TD76 Rescue #3 _N__E ~SU -ACDFIKLOT? ␅
+TD1423715 ␆nMnnn
+TD91 Rescue #3 _N__E ~SU -ACDFIKLOT? nMnnn
+TD236 attempt: 2 MULCH n m n n n
+TD117 Rescue #4 _ULC_ -ADEFIKNOST? ␅
+TD2263669 ␆nYYYY
+TD99 Rescue #4 _ULC_ -ADEFIKNOST? nYYYY
+TD218 attempt: 3 MULCH n Y Y Y Y
+TD275289 > ␅
+TD684386 ␆*
+TD95 > *
+TD377 questioning: hence
+TD134 Rescue #2 ___CE ~HN -ADFIKLMOSTU? ␅
+TD2911369 ␆YYYYY
+TD90 Rescue #2 ___CE ~HN -ADFIKLMOSTU? YYYYY
+TD210 attempt: 1 HENCE Y Y Y Y Y
+TD129 Rescue #3 _N__E ~SU -ACDFHIKLMOT? ␅
+TD1439543 ␆nMMnY
+TD72 Rescue #3 _N__E ~SU -ACDFHIKLMOT? nMMnY
+TD155 attempt: 2 HENCE n m m n Y
+TD73 Rescue #4 _ULCH -ADEFIKMNOST? ␅
+TD1511636 ␆MnnYn
+TD79 Rescue #4 _ULCH -ADEFIKMNOST? MnnYn
+TD155 attempt: 3 HENCE m n n Y n
+TD181721 > ␅
+TD1122026 ␆*'
+TD80 > *'
+TD129 > ␅
+TD927807 ␆*
+TD70 > *
+TD358 ? ␅
+TD2127661 ␆1
+TD86 ? 1
+TD157 questioning: ensue
+TD127 Rescue #3 _N__E ~SU -ACDFHIKLMOT? ␅
+TD3071687 ␆YYYYY
+TD75 Rescue #3 _N__E ~SU -ACDFHIKLMOT? YYYYY
+TD144 attempt: 2 ENSUE Y Y Y Y Y
+TD74 Rescue #4 _ULCH -ADEFIKMNOST? ␅
+TD1183729 ␆nnnMn
+TD76 Rescue #4 _ULCH -ADEFIKMNOST? nnnMn
+TD150 attempt: 3 ENSUE n n n m n
+TD89401 > ␅
+TD590543 ␆*
+TD97 > *
+TD543 ? ␅
+TD1527262 ␆1
+TD76 ? 1
+TD134 questioning: gulch
+TD109 Rescue #4 _ULCH -ADEFIKMNOST? ␅
+TD5279666 ␆YYYYY
+TD78 Rescue #4 _ULCH -ADEFIKMNOST? YYYYY
+TD167 attempt: 3 GULCH Y Y Y Y Y
+TD86 📋> ␅
+TD3576553 ␆Daily Rescue 83
+TD98 📋> Daily Rescue 83
+TD17 📋> ␅
+TD47 ␆5️⃣7️⃣
+TD6 📋> 5️⃣7️⃣
+TD6 📋> ␅
+TD13 ␆8️⃣9️⃣
+TD5 📋> 8️⃣9️⃣
+TD5 📋> ␅
+TD11 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD319075 ␆
+TD104 📋> 
+TD14 📋> ␅
+TD231839 ␄
+TD187 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 83\n5\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1239 result: "Daily Rescue 83\n5\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD69 📆 2026-02-01 ? ␅
+TD310529 ␆
+TD100 📆 2026-02-01 ? 
