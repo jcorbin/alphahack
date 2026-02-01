@@ -1,0 +1,106 @@
+T85293.55208287499 now: 2026-02-01T08:26:10EST
+TD111 site: alphaguess.com
+TD193107 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof 3f0c9c17829a830e4ce889a0b4507c4fb104023b
+TD128  ...␅
+TD3141969 ␆
+TD91  ...
+TD192 [0 : 98220 : 196531] mach? ␅
+TD2919707 ␆b
+TD81 [0 : 98220 : 196531] mach? b
+TD146 progress: -1 98220 mach
+TD92 [0 : 47382 : 98220] dis? ␅
+TD1391576 ␆b
+TD101 [0 : 47382 : 98220] dis? b
+TD109 progress: -1 47382 dis
+TD117 [0 : 23683 : 47382] camp? ␅
+TD1287806 ␆b
+TD79 [0 : 23683 : 47382] camp? b
+TD124 progress: -1 23683 camp
+TD84 [0 : 11764 : 23683] back? ␅
+TD2399685 ␆b
+TD75 [0 : 11764 : 23683] back? b
+TD81 progress: -1 11764 back
+TD77 [0 : 5876 : 11764] angel? ␅
+TD1695834 ␆a
+TD81 [0 : 5876 : 11764] angel? a
+TD84 progress: 1 5876 angel
+TD86 [5877 : 8323 : 11764] ar? ␅
+TD1312135 ␆a
+TD81 [5877 : 8323 : 11764] ar? a
+TD95 progress: 1 8323 ar
+TD98 [8324 : 9341 : 11764] as? ␅
+TD1287379 ␆a
+TD82 [8324 : 9341 : 11764] as? a
+TD93 progress: 1 9341 as
+TD255 [9342 : 10553 : 11764] audient? ␅
+TD2024085 ␆b
+TD80 [9342 : 10553 : 11764] audient? b
+TD86 progress: -1 10553 audient
+TD293 [9342 : 9947 : 10553] asthenosphere? ␅
+TD1327037 ␆a
+TD82 [9342 : 9947 : 10553] asthenosphere? a
+TD95 progress: 1 9947 asthenosphere
+TD82 [9948 : 10247 : 10553] atonal? ␅
+TD1463782 ␆a
+TD100 [9948 : 10247 : 10553] atonal? a
+TD88 progress: 1 10247 atonal
+TD69 [10248 : 10396 : 10553] attest? ␅
+TD1527692 ␆a
+TD80 [10248 : 10396 : 10553] attest? a
+TD128 progress: 1 10396 attest
+TD232 [10397 : 10472 : 10553] attribution? ␅
+TD1351623 ␆b
+TD88 [10397 : 10472 : 10553] attribution? b
+TD84 progress: -1 10472 attribution
+TD193 [10397 : 10432 : 10472] attitudinize? ␅
+TD1607481 ␆b
+TD80 [10397 : 10432 : 10472] attitudinize? b
+TD84 progress: -1 10432 attitudinize
+TD89 [10397 : 10409 : 10432] attic? ␅
+TD1415902 ␆a
+TD93 [10397 : 10409 : 10432] attic? a
+TD88 progress: 1 10409 attic
+TD118 [10410 : 10420 : 10432] attire? ␅
+TD1343690 ␆a
+TD105 [10410 : 10420 : 10432] attire? a
+TD179 progress: 1 10420 attire
+TD381 [10421 : 10426 : 10432] attitudinal? ␅
+TD1415230 ␆b
+TD80 [10421 : 10426 : 10432] attitudinal? b
+TD93 progress: -1 10426 attitudinal
+TD130 [10421 : 10423 : 10426] attiring? ␅
+TD1272001 ␆a
+TD99 [10421 : 10423 : 10426] attiring? a
+TD111 progress: 1 10423 attiring
+TD193 [10424 : 10425 : 10426] attitudes? ␅
+TD1511372 ␆b
+TD86 [10424 : 10425 : 10426] attitudes? b
+TD88 progress: -1 10425 attitudes
+TD123 [10424 : 10424 : 10425] attitude? ␅
+TD1487720 ␆it
+TD87 [10424 : 10424 : 10425] attitude? it
+TD88 progress: 0 10424 attitude
+TD16 [10424 : 10424 : 10425] <Done>.
+TD64 📋> ␅
+TD3872143 ␆🧩 Puzzle #923
+TD76 📋> 🧩 Puzzle #923
+TD8 📋> ␅
+TD30 ␆🤔 19 guesses
+TD3 📋> 🤔 19 guesses
+TD2 📋> ␅
+TD6 ␆⏱️ 27s
+TD3 📋> ⏱️ 27s
+TD2 📋> ␅
+TD375629 ␆🔗 alphaguess.com
+TD76 📋> 🔗 alphaguess.com
+TD8 📋> ␅
+TD223886 ␄
+TD132 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #923\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 27s\n\ud83d\udd17 alphaguess.com"}
+TD120 result: "\ud83e\udde9 Puzzle #923\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 27s\n\ud83d\udd17 alphaguess.com"
+TD10 result puzzle: 923
+TD4 result guesses: 19
+TD2 result time: 27s
+TD2 result link: alphaguess.com
+TD110 📆 2026-02-01 ? ␅
+TD231523 ␆
+TD106 📆 2026-02-01 ? 
