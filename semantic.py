@@ -730,6 +730,7 @@ class Search(StoredLog):
 
             '/prog': self.show_prog,
             '/tiers': self.show_tiers,
+            '/word': self.show_word,
 
             '/lang': self.do_lang,
             '/puzzle': self.do_puzzle,
@@ -753,6 +754,7 @@ class Search(StoredLog):
             'tiers': self.show_tiers,
             'last': self.chat_last,
             'result': self.show_result,
+            'word': self.show_word,
         })
 
     @property
@@ -1088,6 +1090,43 @@ class Search(StoredLog):
             if i == 0:
                 ui.br()
             ui.print(f'    {desc}')
+
+    def show_word(self, ui: PromptUI):
+        # TODO unify with { describe, show }_prog
+        nw = len(str(len(self.word)))+1
+        ww = max(len(word) for word in self.word)
+
+        def rows() -> Generator[tuple[str, ...]]:
+            for token in ui.tokens:
+                had_any = False
+                for k, n in word_refs(token):
+                    had_any = True
+                    word_i, ix, _ = self.word_iref(k, n)
+                    yield tuple(
+                        self.describe_word_parts(word_i, ix)
+                    )
+                if not had_any:
+                    yield (
+                        '???', # $N
+                        '', # #N
+                        token,
+                        '', # 7.2f°C
+                        '', # tier
+                        '', # prog‰
+                    )
+
+        part_widths = (
+            nw, # $N
+            nw, # #N
+            ww, # word
+            9, # 7.2f°C
+            1, # tier
+            5, # prog‰
+        )
+
+        for row in rows():
+            desc = ' '.join(pad_parts(row, part_widths))
+            ui.print(f'{desc}')
 
     def describe_word_parts(self,
                             word_i: int,
