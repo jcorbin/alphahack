@@ -1,0 +1,164 @@
+T53.191379825002514 now: 2026-02-02T08:45:38EST
+TD100 site: m-w.com/games/quordle/#/rescue
+TD15 wordlist: nwl2023.txt
+TD5 num_words: 4
+TD84  ...␅
+TD839102 ␆
+TD130  ...
+TD357109 > ␅
+TD22634970 ␆tried horse given
+TD78 > tried horse given
+TD304 questioning: HORSE GIVEN
+TD114 Rescue #1 _____? ␅
+TD1831486 ␆nMnMn
+TD65 Rescue #1 _____? nMnMn
+TD363 attempt: 0 HORSE n m n m n
+TD85 Rescue #1 _____ ~OS -EHR? ␅
+TD1455490 ␆nMnnn
+TD77 Rescue #1 _____ ~OS -EHR? nMnnn
+TD145 attempt: 0 GIVEN n m n n n
+TD54 Rescue #2 _____? ␅
+TD1855982 ␆nnnnn
+TD102 Rescue #2 _____? nnnnn
+TD229 attempt: 1 HORSE n n n n n
+TD107 Rescue #2 _____ -EHORS? ␅
+TD1759387 ␆nMnnM
+TD117 Rescue #2 _____ -EHORS? nMnnM
+TD242 attempt: 1 GIVEN n m n n m
+TD103 Rescue #3 _____? ␅
+TD2463653 ␆nnMnY
+TD111 Rescue #3 _____? nnMnY
+TD260 attempt: 2 HORSE n n m n Y
+TD117 Rescue #3 ____E ~R -HOS? ␅
+TD2263637 ␆YnnMn
+TD103 Rescue #3 ____E ~R -HOS? YnnMn
+TD242 attempt: 2 GIVEN Y n n m n
+TD102 Rescue #4 _____? ␅
+TD5039797 ␆MnnnY
+TD112 Rescue #4 _____? MnnnY
+TD284 attempt: 3 HORSE m n n n Y
+TD116 Rescue #4 ____E ~H -ORS? ␅
+TD1615197 ␆nMnMM
+TD99 Rescue #4 ____E ~H -ORS? nMnMM
+TD225 attempt: 3 GIVEN n m n m m
+TD422198 > ␅
+TD1481505 ␆*
+TD107 > *
+TD573 ? ␅
+TD2991354 ␄
+TD136 <EOF>
+TD377525 > ␅
+TD1070336 ␆* 2
+TD101 > * 2
+TD90491 ? ␅
+TD3981527 ␆1
+TD96 ? 1
+TD182 questioning: antic
+TD167 Rescue #1 _____ ~IOS -EGHNRV? ␅
+TD3983681 ␆nnnYn
+TD99 Rescue #1 _____ ~IOS -EGHNRV? nnnYn
+TD247 attempt: 0 ANTIC n n n Y n
+TD114 Rescue #2 _____ ~IN -EGHORSV? ␅
+TD2639450 ␆nYMYn
+TD77 Rescue #2 _____ ~IN -EGHORSV? nYMYn
+TD154 attempt: 1 ANTIC n Y m Y n
+TD69 Rescue #3 G___E ~R -HINOSV? ␅
+TD2471722 ␆Mnnnn
+TD90 Rescue #3 G___E ~R -HINOSV? Mnnnn
+TD163 attempt: 2 ANTIC m n n n n
+TD82 Rescue #4 ____E ~HIN -GORSV? ␅
+TD4895826 ␆nMnMn
+TD99 Rescue #4 ____E ~HIN -GORSV? nMnMn
+TD243 attempt: 3 ANTIC n m n m n
+TD315542 > ␅
+TD2004202 ␆*
+TD111 > *
+TD407 questioning: whine
+TD104 Rescue #1 ___I_ ~OS -ACEGHNRTV? ␅
+TD3079287 ␆nnMnn
+TD83 Rescue #1 ___I_ ~OS -ACEGHNRTV? nnMnn
+TD185 attempt: 0 WHINE n n m n n
+TD93 Rescue #2 _N_I_ ~T -ACEGHORSV? ␅
+TD1479704 ␆nnMMn
+TD73 Rescue #2 _N_I_ ~T -ACEGHORSV? nnMMn
+TD144 attempt: 1 WHINE n n m m n
+TD63 Rescue #3 G___E ~AR -CHINOSTV? ␅
+TD1823837 ␆nnnnY
+TD98 Rescue #3 G___E ~AR -CHINOSTV? nnnnY
+TD230 attempt: 2 WHINE n n n n Y
+TD115 Rescue #4 ____E ~HIN -ACGORSTV? ␅
+TD1311438 ␆YYYYY
+TD82 Rescue #4 ____E ~HIN -ACGORSTV? YYYYY
+TD136 attempt: 3 WHINE Y Y Y Y Y
+TD232333 > ␅
+TD1927584 ␆*
+TD96 > *
+TD525 ? ␅
+TD2007372 ␆2
+TD97 ? 2
+TD187 questioning: spoil
+TD183 Rescue #1 ___I_ ~OS -ACEGHNRTVW? ␅
+TD3103925 ␆YYYYY
+TD75 Rescue #1 ___I_ ~OS -ACEGHNRTVW? YYYYY
+TD134 attempt: 0 SPOIL Y Y Y Y Y
+TD68 Rescue #2 _N_I_ ~T -ACEGHORSVW? ␅
+TD1671255 ␆nnnYn
+TD76 Rescue #2 _N_I_ ~T -ACEGHORSVW? nnnYn
+TD134 attempt: 1 SPOIL n n n Y n
+TD71 Rescue #3 G___E ~AR -CHINOSTVW? ␅
+TD1367848 ␆nnnnn
+TD70 Rescue #3 G___E ~AR -CHINOSTVW? nnnnn
+TD129 attempt: 2 SPOIL n n n n n
+TD137004 > ␅
+TD718714 ␆*
+TD76 > *
+TD273 questioning: unfit
+TD75 Rescue #2 _N_I_ ~T -ACEGHLOPRSVW? ␅
+TD3023700 ␆YYYYY
+TD108 Rescue #2 _N_I_ ~T -ACEGHLOPRSVW? YYYYY
+TD257 attempt: 1 UNFIT Y Y Y Y Y
+TD141 Rescue #3 G___E ~AR -CHILNOPSTVW? ␅
+TD1335762 ␆nnnnn
+TD79 Rescue #3 G___E ~AR -CHILNOPSTVW? nnnnn
+TD159 attempt: 2 UNFIT n n n n n
+TD97645 > ␅
+TD774170 ␆*
+TD100 > *
+TD383 ? ␅
+TD1143660 ␆1
+TD78 ? 1
+TD123 questioning: grade
+TD110 Rescue #3 G___E ~AR -CFHILNOPSTUVW? ␅
+TD3183898 ␆YYYnY
+TD80 Rescue #3 G___E ~AR -CFHILNOPSTUVW? YYYnY
+TD192 attempt: 2 GRADE Y Y Y n Y
+TD95045 > ␅
+TD584094 ␆*
+TD81 > *
+TD291 questioning: graze
+TD79 Rescue #3 GRA_E -CDFHILNOPSTUVW? ␅
+TD2319522 ␆YYYYY
+TD77 Rescue #3 GRA_E -CDFHILNOPSTUVW? YYYYY
+TD156 attempt: 2 GRAZE Y Y Y Y Y
+TD87 📋> ␅
+TD4160479 ␆Daily Rescue 84
+TD99 📋> Daily Rescue 84
+TD17 📋> ␅
+TD49 ␆5️⃣6️⃣
+TD8 📋> 5️⃣6️⃣
+TD6 📋> ␅
+TD15 ␆8️⃣4️⃣
+TD5 📋> 8️⃣4️⃣
+TD5 📋> ␅
+TD12 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD255231 ␆
+TD116 📋> 
+TD15 📋> ␅
+TD151802 ␄
+TD193 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 84\n5\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1176 result: "Daily Rescue 84\n5\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD71 📆 2026-02-02 ? ␅
+TD134825 ␆
+TD103 📆 2026-02-02 ? 
