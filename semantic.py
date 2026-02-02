@@ -693,6 +693,7 @@ class Search(StoredLog):
         self.word: list[str] = []
         self.score: list[float] = [] # TODO store normalized [0.0, 1.0]
         self.word_source: list[int] = []
+        self.word_used: list[int] = []
 
         self.word_sources: list[str] = []
         self.word_source_noms: list[str] = []
@@ -1109,10 +1110,17 @@ class Search(StoredLog):
         # TODO unify with { describe, show }_prog
         nw = len(str(len(self.word)))+1
         sw = max(len(source) for source in self.word_source_noms)
+        uw = max(len(str(n)) for n in self.word_used)
         ww = max(len(word) for word in self.word)
 
         def rows() -> Generator[tuple[str, ...]]:
             def extra_parts(word_i: int):
+                rec_i = self.ix_warm_rec.index(word_i)
+                yield f'rec_i:{rec_i}'
+
+                yield f'used:{self.word_used[word_i]}'
+                yield f'[{self.ix_used.index(word_i)}]'
+
                 source_id = self.word_source[word_i]
                 source = self.source_nom(source_id)
                 if source:
@@ -1137,6 +1145,9 @@ class Search(StoredLog):
                         '', # 7.2f°C
                         '', # tier
                         '', # prog‰
+                        '', # rec_i:N
+                        '', # used:N
+                        '', # [I]
                         'source:arg', # source:nom
                     )
 
@@ -1147,7 +1158,10 @@ class Search(StoredLog):
             f'>9',      # 7.2f°C
             f'>1',      # tier
             f'>5',      # prog‰
-            f'>{7+sw}', # source:nom
+            f'<{6+nw}', # rec_i:N
+            f'<{5+nw}', # used:N
+            f'<{2+nw}', # [I]
+            f'<{7+sw}', # source:nom
         )
 
         for row in rows():
@@ -1219,6 +1233,7 @@ class Search(StoredLog):
         nw = len(str(len(self.word)))+1
         sw = max(len(source) for source in self.word_source_noms)
         tw = len(str(len(self.recs)))+1
+        uw = max(len(str(n)) for n in self.word_used)
         ww = max(len(word) for word in self.word)
 
         part_widths = (
@@ -1229,7 +1244,8 @@ class Search(StoredLog):
             f'>1',      # tier
             f'>5',      # prog‰
             f'>{tw}',   # ~N
-            f'>{7+sw}', # source:nom
+            f'<{5+uw}', # used:N
+            f'<{7+sw}', # source:nom
         )
 
         def extra_parts(word_i: int):
@@ -1238,6 +1254,8 @@ class Search(StoredLog):
                 yield f'~{len(self.recs)-ri}'
             except ValueError:
                 yield ''
+
+            yield f'used:{self.word_used[word_i]}'
 
             source_id = self.word_source[word_i]
             source = self.source_nom(source_id)
@@ -2537,6 +2555,7 @@ class Search(StoredLog):
         self.word.append(word)
         self.score.append(score)
         self.word_source.append(self.source_code(source))
+        self.word_used.append(0)
 
         self.index.append(i)
         self.index = sorted(self.index, key=lambda i: self.score[i], reverse=True)
@@ -3022,8 +3041,9 @@ class Search(StoredLog):
         return s
 
     def collect_word_ref(self, k: WordRef, n: int):
-        qword, score = self.word_ref_score(k, n)
-        self.last_chat_basis[qword] = score
+        i, _, qword = self.word_iref(k, n)
+        self.last_chat_basis[qword] = self.score[i]
+        self.word_used[i] += 1
         return qword
 
     def set_chat_prompt(self, ui: PromptUI, prompt: str|ChatPrompt):
