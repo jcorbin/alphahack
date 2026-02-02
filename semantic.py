@@ -558,16 +558,16 @@ class ExtractedWords:
         self.known = is_good
         self.bad: set[str] = set()
         self.good: set[str] = set()
-        self.may: set[str] = set()
+        self.may: dict[str, int] = dict()
         self.extracted = 0
 
-    def consume(self, words: Iterable[str]):
-        for word in words:
+    def consume(self, words: Iterable[tuple[str, int]]):
+        for word, source_id in words:
             word = word.lower()
             self.extracted += 1
             if self.reject(word): self.bad.add(word)
             elif self.known(word): self.good.add(word)
-            else: self.may.add(word)
+            else: self.may[word] = source_id
 
     @property
     def notes(self):
@@ -2617,13 +2617,13 @@ class Search(StoredLog):
             lambda word: word in self.wordbad,
             lambda word: word in self.wordgood)
         exw.consume(
-            word
-            for _i, _j, _n, word in self.filter_words(
+            (word, source_id)
+            for _i, _j, _n, word, source_id in self.filter_words(
                 self.chat_extract_word_matchs(mode),
                 key = lambda ijn_word: ijn_word[3]))
         return exw
 
-    def chat_extract_word_matchs(self, mode: ChatExtractMode|None = None) -> Generator[tuple[int, int, int, str]]:
+    def chat_extract_word_matchs(self, mode: ChatExtractMode|None = None) -> Generator[tuple[int, int, int, str, int]]:
         if mode: self.chat_extract_mode = mode
         else: mode = self.chat_extract_mode
 
@@ -2637,6 +2637,7 @@ class Search(StoredLog):
         else: assert_never(mode.source)
 
         for i, h in enumerate(self.all_chats()):
+            source_id = self.source_code(h.model)
             for j, reply in enumerate(role_history(h.chat, 'assistant')):
                 if not isinstance(want, bool):
                     try:
@@ -2644,7 +2645,7 @@ class Search(StoredLog):
                     except KeyError: continue
                 for line in spliterate(reply, '\n', trim=True):
                     for n, word in find_match_words(line):
-                        yield (i, j, n, word)
+                        yield (i, j, n, word, source_id)
                 if not want: break
 
     def describe_extracted_word(self, word: str):
@@ -2664,29 +2665,33 @@ class Search(StoredLog):
     def chat_history_extracts(self):
         for i, h in enumerate(self.all_chats()):
             for j, (prompt, reply) in enumerate(prompt_pairs(h.chat)):
-                yield self.ChatHistoryExtract(self, i, j, prompt, reply)
+                yield self.ChatHistoryExtract(self, i, h, j, prompt, reply)
 
     @final
     class ChatHistoryExtract:
         def __init__(self,
                      search: 'Search',
                      chat_i: int,
+                     sess: ChatSession,
                      prompt_i: int,
                      prompt: str,
                      reply: str
                      ):
             self.search = search
             self.chat_i = chat_i
+            self.sess = sess
             self.prompt_i = prompt_i
             self.prompt = prompt
             self.reply = reply
 
         def extract_words(self):
+            source_id = self.search.source_code(self.sess.model)
             exw = ExtractedWords(
                 lambda word: word in self.search.wordbad,
                 lambda word: word in self.search.wordgood)
             exw.consume(
-                self.search.filter_words(
+                (word, source_id)
+                for word in self.search.filter_words(
                     word
                     for line in not_between(
                         spliterate(self.reply, '\n', trim=True),
