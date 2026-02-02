@@ -1,0 +1,246 @@
+T867.2432955629774 now: 2026-02-02T08:33:18EST
+TD66 site: squareword.org
+TD17 wordlist: nwl2023.txt
+TD20  ...␅
+TD2862981 ␆
+TD77  ...
+TD51 🧩  ? ␅
+TD3023935 ␆#1463
+TD77 🧩  ? #1463
+TD179 puzzle_id: #1463
+TD154 > ␅
+TD2399517 ␆*
+TD83 > *
+TD213294 try? ␅
+TD858648 ␆1
+TD78 try? 1
+TD225 questioning: ["lears", "#5"]
+TD316 #1 <IndexError>  📋 "lears" ? ␅
+TD3791437 ␆_____ ~ S
+TD81 #1 <IndexError>  📋 "lears" ? _____ ~ S
+TD472 attempt 0 LEARS n n n n m
+TD80 #2 <IndexError>  📋 "lears" ? ␅
+TD1823433 ␆_____ ~ A
+TD88 #2 <IndexError>  📋 "lears" ? _____ ~ A
+TD279 attempt 1 LEARS n n m n n
+TD125 #3 <IndexError>  📋 "lears" ? ␅
+TD2023454 ␆_____ ~ ER
+TD77 #3 <IndexError>  📋 "lears" ? _____ ~ ER
+TD255 attempt 2 LEARS n m n m n
+TD83 #4 <IndexError>  📋 "lears" ? ␅
+TD1871451 ␆_____ ~ ER
+TD79 #4 <IndexError>  📋 "lears" ? _____ ~ ER
+TD188 attempt 3 LEARS n m n m n
+TD89 #5 <IndexError>  📋 "lears" ? ␅
+TD2319813 ␆_E__S ~ LE
+TD76 #5 <IndexError>  📋 "lears" ? _E__S ~ LE
+TD185 attempt 4 LEARS m Y n n Y
+TD214 ? ␅
+TD527596 ␆
+TD101 ? 
+TD153 question done
+TD305 > ␅
+TD559846 ␆*
+TD95 > *
+TD539207 try? ␅
+TD1580184 ␆
+TD106 try? 
+TD272 try? ␅
+TD2191684 ␆4
+TD97 try? 4
+TD305 questioning: ["melts", "#5"]
+TD275 #1 _____ ~S -AELR  📋 "melts" ? ␅
+TD2495363 ␆.
+TD96 #1 _____ ~S -AELR  📋 "melts" ? .
+TD273 attempt 0 MELTS n n n n m
+TD94 #2 _____ ~A -ELRS  📋 "melts" ? ␅
+TD3367672 ␆M____ ~ A
+TD73 #2 _____ ~A -ELRS  📋 "melts" ? M____ ~ A
+TD265 attempt 1 MELTS Y n n n n
+TD170 #3 _____ ~ER -ALS  📋 "melts" ? ␅
+TD1047347 ␆.
+TD66 #3 _____ ~ER -ALS  📋 "melts" ? .
+TD193 attempt 2 MELTS n m n n n
+TD68 #4 _____ ~ER -ALS  📋 "melts" ? ␅
+TD783927 ␆.
+TD110 #4 _____ ~ER -ALS  📋 "melts" ? .
+TD329 attempt 3 MELTS n m n n n
+TD114 #5 _E__S ~L -AR  📋 "melts" ? ␅
+TD3535350 ␆_E__S ~ LE
+TD113 #5 _E__S ~L -AR  📋 "melts" ? _E__S ~ LE
+TD280 attempt 4 MELTS n Y m n Y
+TD229 ? ␅
+TD591425 ␆
+TD112 ? 
+TD152 question done
+TD882 > ␅
+TD9119035 ␆*
+TD98 > *
+TD481555 try? ␅
+TD5190203 ␆2
+TD91 try? 2
+TD202 questioning: ["ceils", "#5"]
+TD279 #1 _____ ~S -AELMRT  📋 "ceils" ? ␅
+TD6823439 ␆__I__ ~ S
+TD97 #1 _____ ~S -AELMRT  📋 "ceils" ? __I__ ~ S
+TD242 attempt 0 CEILS n n Y n m
+TD130 #2 M____ ~A -ELRST  📋 "ceils" ? ␅
+TD1071642 ␆.
+TD75 #2 M____ ~A -ELRST  📋 "ceils" ? .
+TD197 attempt 1 CEILS n n n n n
+TD66 #3 _____ ~ER -ALMST  📋 "ceils" ? ␅
+TD815576 ␆.
+TD108 #3 _____ ~ER -ALMST  📋 "ceils" ? .
+TD288 attempt 2 CEILS n m n n n
+TD107 #4 _____ ~ER -ALMST  📋 "ceils" ? ␅
+TD2895704 ␆C_I__ ~ ER
+TD92 #4 _____ ~ER -ALMST  📋 "ceils" ? C_I__ ~ ER
+TD182 attempt 3 CEILS Y m Y n n
+TD112 #5 _E__S ~L -AMRT  📋 "ceils" ? ␅
+TD2823545 ␆_E_LS ~ E
+TD79 #5 _E__S ~L -AMRT  📋 "ceils" ? _E_LS ~ E
+TD174 attempt 4 CEILS n Y n Y Y
+TD209 ? ␅
+TD343560 ␆
+TD99 ? 
+TD129 question done
+TD315 > ␅
+TD687313 ␆*
+TD79 > *
+TD655857 try? ␅
+TD1496737 ␆1
+TD82 try? 1
+TD230 questioning: ["cried", "#4"]
+TD200 #1 __I__ ~S -ACELMRT  📋 "cried" ? ␅
+TD3374890 ␆.
+TD78 #1 __I__ ~S -ACELMRT  📋 "cried" ? .
+TD255 attempt 0 CRIED n n Y n n
+TD131 #2 M____ ~A -CEILRST  📋 "cried" ? ␅
+TD959691 ␆.
+TD94 #2 M____ ~A -CEILRST  📋 "cried" ? .
+TD289 attempt 1 CRIED n n n n n
+TD105 #3 _____ ~ER -ACILMST  📋 "cried" ? ␅
+TD3015519 ␆___E_ ~ RD
+TD99 #3 _____ ~ER -ACILMST  📋 "cried" ? ___E_ ~ RD
+TD275 attempt 2 CRIED n m n Y m
+TD156 #4 C_I__ ~ER -ALMST  📋 "cried" ? ␅
+TD863404 ␆/it
+TD81 #4 C_I__ ~ER -ALMST  📋 "cried" ? /it
+TD217 attempt 3 CRIED Y Y Y Y Y
+TD71 #5 _E_LS -ACIMRT  📋 "cried" ? ␅
+TD4231895 ␆_E_LS ~ E
+TD89 #5 _E_LS -ACIMRT  📋 "cried" ? _E_LS ~ E
+TD233 attempt 4 CRIED n n n m n
+TD286 ? ␅
+TD247495 ␆
+TD113 ? 
+TD126 question done
+TD315 > ␅
+TD527358 ␆*
+TD113 > *
+TD841800 questioning: ["manna", "#2"]
+TD197 #1 __I__ ~S -ACDELMRT  📋 "manna" ? ␅
+TD8181693 ␆.
+TD79 #1 __I__ ~S -ACDELMRT  📋 "manna" ? .
+TD179 attempt 0 MANNA n n n n n
+TD77 #2 M____ ~A -CDEILRST  📋 "manna" ? ␅
+TD663536 ␆/it
+TD83 #2 M____ ~A -CDEILRST  📋 "manna" ? /it
+TD212 attempt 1 MANNA Y Y Y Y Y
+TD93 #3 ___E_ ~DR -ACILMST  📋 "manna" ? ␅
+TD1199736 ␆.
+TD83 #3 ___E_ ~DR -ACILMST  📋 "manna" ? .
+TD194 attempt 2 MANNA n n n n n
+TD78 #5 _E_LS -ACDIMRT  📋 "manna" ? ␅
+TD3655654 ␆_E_LS ~ E
+TD85 #5 _E_LS -ACDIMRT  📋 "manna" ? _E_LS ~ E
+TD173 attempt 4 MANNA n n n n n
+TD225 ? ␅
+TD215587 ␆
+TD89 ? 
+TD100 question done
+TD207 > ␅
+TD479630 ␆*
+TD82 > *
+TD1813963 questioning: ["spiky", "#1"]
+TD198 #1 __I__ ~S -ACDELMNRT  📋 "spiky" ? ␅
+TD2810002 ␆/it
+TD86 #1 __I__ ~S -ACDELMNRT  📋 "spiky" ? /it
+TD205 attempt 0 SPIKY Y Y Y Y Y
+TD78 #3 ___E_ ~DR -ACILMNST  📋 "spiky" ? ␅
+TD1311508 ␆.
+TD110 #3 ___E_ ~DR -ACILMNST  📋 "spiky" ? .
+TD276 attempt 2 SPIKY n n n n n
+TD102 #5 _E_LS -ACDIMNRT  📋 "spiky" ? ␅
+TD2719519 ␆_E_LS ~ EK
+TD147 #5 _E_LS -ACDIMNRT  📋 "spiky" ? _E_LS ~ EK
+TD266 attempt 4 SPIKY n n n m n
+TD345 ? ␅
+TD223102 ␆
+TD80 ? 
+TD125 question done
+TD375 > ␅
+TD519860 ␆*
+TD102 > *
+TD1449952 questioning: ["odder", "#3"]
+TD194 #3 ___E_ ~DR -ACIKLMNPSTY  📋 "odder" ? ␅
+TD2621439 ␆/it
+TD125 #3 ___E_ ~DR -ACIKLMNPSTY  📋 "odder" ? /it
+TD273 attempt 2 ODDER Y Y Y Y Y
+TD111 #5 _E_LS ~K -ACDIMNPRSTY  📋 "odder" ? ␅
+TD3455968 ␆_E_LS ~ EK
+TD81 #5 _E_LS ~K -ACDIMNPRSTY  📋 "odder" ? _E_LS ~ EK
+TD179 attempt 4 ODDER n n n m n
+TD206 ? ␅
+TD215058 ␆
+TD92 ? 
+TD96 question done
+TD196 > ␅
+TD464184 ␆*
+TD98 > *
+TD929410 questioning: ["keels", "#5"]
+TD191 #5 _E_LS ~K -ACDIMNOPRSTY  📋 "keels" ? ␅
+TD2661919 ␆/it
+TD79 #5 _E_LS ~K -ACDIMNOPRSTY  📋 "keels" ? /it
+TD183 attempt 4 KEELS Y Y Y Y Y
+TD171 ? ␅
+TD1175401 ␆
+TD113 ? 
+TD109 question done
+TD30312 📋> ␅
+TD4122183 ␆squareword.org 1463: 8 guesses
+TD99 📋> squareword.org 1463: 8 guesses
+TD13 📋> ␅
+TD42 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD16 ␆🟨🟨🟩🟨🟨
+TD6 📋> 🟨🟨🟩🟨🟨
+TD5 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟨🟨🟩🟨
+TD4 📋> 🟨🟨🟨🟩🟨
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟩🟨🟩🟩
+TD4 📋> 🟨🟩🟨🟩🟩
+TD5 📋> ␅
+TD19 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD11 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD295222 ␆#squareword #squareword1463
+TD77 📋> #squareword #squareword1463
+TD7 📋> ␅
+TD159692 ␄
+TD130 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1463: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1463"}
+TD1264 result: "squareword.org 1463: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1463"
+TD63 📆 2026-02-02 ? ␅
+TD166533 ␆
+TD96 📆 2026-02-02 ? 
