@@ -651,7 +651,7 @@ class Meta(Arguable):
                 'tail': partial(self.do_sol_tail, solver_i),
                 'variant': partial(self.do_sol_variant, solver_i),
             }.items():
-                root[f'{path}{name}'] = cmd
+                root[f'{path}/{name}'] = cmd
 
     @override
     def __call__(self, ui: PromptUI):
