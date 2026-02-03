@@ -2478,7 +2478,7 @@ class Search(StoredLog):
                 prog = None if m[1] == 'None' else int(m[1])
                 continue
 
-            raise ValueError(f'unrecognized attempt record trailer: {tokens.rest!r}')
+            _skip = next(tokens)
 
         j = self.append_record(word, score, prog)
         if j != i:
