@@ -1,0 +1,111 @@
+T22.93134645599639 now: 2026-02-03T08:13:42EST
+TD93 site: alfagok.diginaut.net
+TD388932 loaded 399674 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1178 words excluded) asof f3e933ea69c16f2bdfc1041ab1c3785061e84efd
+TD117  ...␅
+TD6282109 ␆
+TD96  ...
+TD217 [0 : 199833 : 399674] lijm? ␅
+TD3895599 ␆b
+TD77 [0 : 199833 : 399674] lijm? b
+TD243 progress: -1 199833 lijm
+TD87 [0 : 99758 : 199833] ex? ␅
+TD2176063 ␆b
+TD90 [0 : 99758 : 199833] ex? b
+TD126 progress: -1 99758 ex
+TD114 [0 : 49849 : 99758] boks? ␅
+TD1591269 ␆b
+TD98 [0 : 49849 : 99758] boks? b
+TD114 progress: -1 49849 boks
+TD114 [0 : 24910 : 49849] bad? ␅
+TD1863747 ␆a
+TD77 [0 : 24910 : 49849] bad? a
+TD85 progress: 1 24910 bad
+TD84 [24911 : 37364 : 49849] bescherm? ␅
+TD1583799 ␆b
+TD95 [24911 : 37364 : 49849] bescherm? b
+TD106 progress: -1 37364 bescherm
+TD104 [24911 : 31127 : 37364] begeleid? ␅
+TD1535687 ␆a
+TD96 [24911 : 31127 : 37364] begeleid? a
+TD110 progress: 1 31127 begeleid
+TD122 [31128 : 34010 : 37364] beleid? ␅
+TD1535663 ␆a
+TD80 [31128 : 34010 : 37364] beleid? a
+TD83 progress: 1 34010 beleid
+TD85 [34011 : 35661 : 37364] beoordeling? ␅
+TD1447669 ␆b
+TD98 [34011 : 35661 : 37364] beoordeling? b
+TD107 progress: -1 35661 beoordeling
+TD235 [34011 : 34828 : 35661] belucht? ␅
+TD1463602 ␆b
+TD96 [34011 : 34828 : 35661] belucht? b
+TD106 progress: -1 34828 belucht
+TD109 [34011 : 34415 : 34828] belemmer? ␅
+TD1407705 ␆a
+TD98 [34011 : 34415 : 34828] belemmer? a
+TD106 progress: 1 34415 belemmer
+TD275 [34416 : 34623 : 34828] belizaan? ␅
+TD1919643 ␆!
+TD81 [34416 : 34623 : 34828] belizaan? !
+TD421 [34416 : 34622 : 34827] belinfante? ␅
+TD2231464 ␆!
+TD76 [34416 : 34622 : 34827] belinfante? !
+TD413 [34416 : 34622 : 34826] belizaans? ␅
+TD1767438 ␆!
+TD77 [34416 : 34622 : 34826] belizaans? !
+TD405 [34416 : 34622 : 34825] belizaanse? ␅
+TD1663553 ␆!
+TD77 [34416 : 34622 : 34825] belizaanse? !
+TD382 [34416 : 34622 : 34824] belize? ␅
+TD2047904 ␆!
+TD75 [34416 : 34622 : 34824] belize? !
+TD391 [34416 : 34622 : 34823] beljaars? ␅
+TD1863301 ␆!
+TD79 [34416 : 34622 : 34823] beljaars? !
+TD498 [34416 : 34622 : 34822] beljon? ␅
+TD1783450 ␆!
+TD95 [34416 : 34622 : 34822] beljon? !
+TD460 [34416 : 34622 : 34821] belkaart? ␅
+TD4047564 ␆a
+TD77 [34416 : 34622 : 34821] belkaart? a
+TD82 progress: 1 34622 belkaart
+TD247 [34623 : 34722 : 34821] belommering? ␅
+TD2359405 ␆b
+TD106 [34623 : 34722 : 34821] belommering? b
+TD106 progress: -1 34722 belommering
+TD108 [34623 : 34638 : 34722] belle? ␅
+TD1671845 ␆a
+TD97 [34623 : 34638 : 34722] belle? a
+TD109 progress: 1 34638 belle
+TD159 [34639 : 34677 : 34722] bellettrist? ␅
+TD1776022 ␆b
+TD101 [34639 : 34677 : 34722] bellettrist? b
+TD106 progress: -1 34677 bellettrist
+TD107 [34639 : 34651 : 34677] bellen? ␅
+TD2367473 ␆it
+TD97 [34639 : 34651 : 34677] bellen? it
+TD119 progress: 0 34651 bellen
+TD26 [34639 : 34651 : 34677] <Done>.
+TD99 📋> ␅
+TD2967788 ␆🧩 Puzzel #458
+TD105 📋> 🧩 Puzzel #458
+TD12 📋> ␅
+TD41 ␆🤔 15 gokken
+TD6 📋> 🤔 15 gokken
+TD6 📋> ␅
+TD13 ␆⏱️ 40s
+TD6 📋> ⏱️ 40s
+TD5 📋> ␅
+TD959604 ␆🔗 alfagok.diginaut.net
+TD89 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD303945 ␄
+TD166 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #458\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 40s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD603 result: "\ud83e\udde9 Puzzel #458\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 40s\n\ud83d\udd17 alfagok.diginaut.net"
+TD20 result puzzle: 458
+TD8 result guesses: 15
+TD6 result time: 40s
+TD5 result link: alfagok.diginaut.net
+TD89 📆 2026-02-03 ? ␅
+TD334912 ␆
+TD75 📆 2026-02-03 ? 
