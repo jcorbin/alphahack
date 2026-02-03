@@ -2462,24 +2462,23 @@ class Search(StoredLog):
         score: float = math.nan
         prog: int|None = None
 
-        while rest:
-            m = re.match(r'''(?x)
+        tokens = PromptUI.Tokens(rest)
+        while tokens:
+            m = tokens.have(r'''(?x)
             score : ( -? \d+(?:\.\d*)? )
-            \s* ( .* ) $''', rest)
+            \s* ( .* ) $''')
             if m:
                 score = float(m[1])
-                rest = m[2]
                 continue
 
-            m = re.match(r'''(?x)
+            m = tokens.have(r'''(?x)
             prog : ( None | \d+ )
-            \s* ( .* ) $''', rest)
+            \s* ( .* ) $''')
             if m:
                 prog = None if m[1] == 'None' else int(m[1])
-                rest = m[2]
                 continue
 
-            raise ValueError(f'unrecognized attempt record trailer: {rest!r}')
+            raise ValueError(f'unrecognized attempt record trailer: {tokens.rest!r}')
 
         j = self.append_record(word, score, prog)
         if j != i:
