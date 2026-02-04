@@ -2144,7 +2144,7 @@ class Search(StoredLog):
             yield f'🤖 {stats.assistant_count}'
             yield f'🫧 {stats.user_count}'
             yield f'🪙 {stats.token_count}'
-        yield f'#{self.attempt+1}'
+        yield f'❓ #{self.attempt+1}'
 
     def write_prompt(self, ui: PromptUI):
         first = True
@@ -2208,11 +2208,11 @@ class Search(StoredLog):
             for attempt in range(3):
                 if attempt > 0:
                     if self.explain_auto:
-                        ui.print(f'// automate attempt {attempt+1}, try again')
+                        ui.print(f'💡/ automate attempt {attempt+1}, try again')
                     may = sorted(self.automate(), reverse=True)
                 for score, input, explain in may:
                     if self.explain_auto:
-                        ui.print(f'// {score:.2f} = {explanation(explain)}')
+                        ui.print(f'💡 {score:.2f} = {explanation(explain)}')
                     self.write_prompt(ui)
                     ui.fin(f'[AUTO]? {input}')
                     input, _, _ = input.partition('//')
@@ -2221,7 +2221,7 @@ class Search(StoredLog):
                     st = self.do_ideate(ui)
                     if st: return st
 
-            ui.print(f'// full auto exhausted')
+            ui.print(f'😫 full auto exhausted')
             self.full_auto = False
 
     def ideate_stop(self, ui: PromptUI) -> PromptUI.State|None:
@@ -2867,7 +2867,7 @@ class Search(StoredLog):
         )
 
         if self.auto_score:
-            ui.write(f'Auto scoring {word!r:{ww}}...')
+            ui.write(f'🛜 Auto scoring {word!r:{ww}}...')
 
             res = self.request(ui, 'post', '/score', params={'n': f'{self.puzzle_num}'}, data={'word': word})
 
@@ -3133,14 +3133,15 @@ class Search(StoredLog):
                     ui.print(f'! {e}')
                     return self.ideate
 
+            ui.fin()
             for line in wraplines(ui.screen_cols-4, prompt.splitlines()):
-                ui.print(f'>>> {line}')
+                ui.print(f'🗨️ {line}')
 
             def known_mess_parts(mess: ollama.Message):
                 if mess.thinking is not None:
-                    yield '... (thinking) ', mess.thinking
+                    yield '🧠', mess.thinking
                 if mess.content is not None:
-                    yield '...', mess.content
+                    yield '💬', mess.content
 
             def mess_parts(mess: ollama.Message):
                 unk = True
@@ -3148,7 +3149,7 @@ class Search(StoredLog):
                     unk = False
                     yield part
                 if unk:
-                    yield '???', mess.model_dump_json(indent=2)
+                    yield '❓', mess.model_dump_json(indent=2)
 
             # TODO wrapped writer
             # TODO tee content into a word scanner
@@ -3179,7 +3180,7 @@ class Search(StoredLog):
                 return self.chat_extract_all
 
             if not self.full_auto:
-                ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
+                ui.print(f'📝 No new words extracted from {self.chat_extract_desc(exw)}')
 
     def chat_say(self, ui: PromptUI, prompt: str):
         if not self.chat and self.system_prompt:
@@ -3404,7 +3405,7 @@ class Search(StoredLog):
 
             if not words:
                 if not self.full_auto:
-                    ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
+                    ui.print(f'📝 No new words extracted from {self.chat_extract_desc(exw)}')
                 return
 
             if do_all:
@@ -3417,14 +3418,14 @@ class Search(StoredLog):
         words = sorted(exw.may)
 
         ui.br()
-        ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
+        ui.print(f'📝 Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
         iw = len(str(len(words)))
         for i, word in enumerate(words):
             source = self.source_name(exw.may[word])
             ui.print(f'[{i+1:{iw}}] {word} source:{source}')
 
         basis_change = str(self.analyze_basis())
-        if basis_change: ui.print(f'// {basis_change}')
+        if basis_change: ui.print(f'📌 {basis_change}')
 
         with (
             ui.catch_state(KeyboardInterrupt, self.ideate),
@@ -3460,7 +3461,7 @@ class Search(StoredLog):
         words = sorted(exw.may)
         if not words:
             if not self.full_auto:
-                ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
+                ui.print(f'📝 No new words extracted from {self.chat_extract_desc(exw)}')
             return self.ideate
 
         with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
@@ -3500,9 +3501,9 @@ class Search(StoredLog):
 
             if not self.full_auto:
                 ui.br()
-                ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
+                ui.print(f'📝 Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
                 basis_note = str(basis_change)
-                if basis_note: ui.print(f'// {basis_note}')
+                if basis_note: ui.print(f'📌 {basis_note}')
 
             word = words[0]
             source = self.source_name(exw.may[word])
@@ -3554,7 +3555,7 @@ class Search(StoredLog):
                 if mess.role == 'user':
                     if mess.content:
                         for line in wraplines(ui.screen_cols-4, spliterate(mess.content, '\n', trim=True)):
-                            ui.print(f'>>> {line}')
+                            ui.print(f'🗨️ {line}')
 
                 elif mess.role == 'assistant':
                     if mess.content:
@@ -3569,21 +3570,21 @@ class Search(StoredLog):
             for mess in chat:
                 if mess.role == 'user':
                     if reply:
-                        ui.print(f'... 🪙 {count_tokens(reply)}')
+                        ui.print(f'💬 🪙 {count_tokens(reply)}')
                         reply = ''
                     if mess.content:
                         for line in wraplines(ui.screen_cols-4, spliterate(mess.content, '\n', trim=True)):
-                            ui.print(f'>>> {line}')
+                            ui.print(f'🗨️ {line}')
 
                 elif mess.role == 'assistant':
                     if mess.thinking:
-                        ui.print(f'... (thinking) 🪙 {count_tokens(mess.thinking)}')
+                        ui.print(f'🧠 🪙 {count_tokens(mess.thinking)}')
                     elif mess.content:
                         reply = mess.content
 
             if reply:
                 for line in wraplines(ui.screen_cols-4, spliterate(reply, '\n')):
-                    ui.print(f'... {line}')
+                    ui.print(f'💬 {line}')
 
                 ext_words = set(
                     word.lower()
