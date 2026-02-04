@@ -3302,6 +3302,10 @@ class Search(StoredLog):
                     messages=self.chat,
                     stream=True,
                     think=self.llm_thinking,
+                    # TODO format: Optional[Union[Literal['', 'json'], JsonSchemaValue]] = None,
+                    # TODO options: Optional[Union[Mapping[str, Any], Options]] = None,
+                    #     seed: Optional[int] = None
+                    #     temperature: Optional[float] = None
                 ):
                     with ui.catch_exception(Exception,
                                             extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
