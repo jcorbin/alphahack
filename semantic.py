@@ -3134,13 +3134,13 @@ class Search(StoredLog):
                     return self.ideate
 
             for line in wraplines(ui.screen_cols-4, prompt.splitlines()):
-                ui.print(f'>>> {line}')
+                ui.print(f'🗨️ {line}')
 
             def known_mess_parts(mess: ollama.Message):
                 if mess.thinking is not None:
-                    yield '... (thinking) ', mess.thinking
+                    yield '🧠', mess.thinking
                 if mess.content is not None:
-                    yield '...', mess.content
+                    yield '💬', mess.content
 
             def mess_parts(mess: ollama.Message):
                 unk = True
@@ -3148,7 +3148,7 @@ class Search(StoredLog):
                     unk = False
                     yield part
                 if unk:
-                    yield '???', mess.model_dump_json(indent=2)
+                    yield '❓', mess.model_dump_json(indent=2)
 
             # TODO wrapped writer
             # TODO tee content into a word scanner
@@ -3554,7 +3554,7 @@ class Search(StoredLog):
                 if mess.role == 'user':
                     if mess.content:
                         for line in wraplines(ui.screen_cols-4, spliterate(mess.content, '\n', trim=True)):
-                            ui.print(f'>>> {line}')
+                            ui.print(f'🗨️ {line}')
 
                 elif mess.role == 'assistant':
                     if mess.content:
@@ -3569,21 +3569,21 @@ class Search(StoredLog):
             for mess in chat:
                 if mess.role == 'user':
                     if reply:
-                        ui.print(f'... 🪙 {count_tokens(reply)}')
+                        ui.print(f'💬 🪙 {count_tokens(reply)}')
                         reply = ''
                     if mess.content:
                         for line in wraplines(ui.screen_cols-4, spliterate(mess.content, '\n', trim=True)):
-                            ui.print(f'>>> {line}')
+                            ui.print(f'🗨️ {line}')
 
                 elif mess.role == 'assistant':
                     if mess.thinking:
-                        ui.print(f'... (thinking) 🪙 {count_tokens(mess.thinking)}')
+                        ui.print(f'🧠 🪙 {count_tokens(mess.thinking)}')
                     elif mess.content:
                         reply = mess.content
 
             if reply:
                 for line in wraplines(ui.screen_cols-4, spliterate(reply, '\n')):
-                    ui.print(f'... {line}')
+                    ui.print(f'💬 {line}')
 
                 ext_words = set(
                     word.lower()
