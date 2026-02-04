@@ -3247,7 +3247,7 @@ class Search(StoredLog):
                 if unk:
                     yield '❓', mess.model_dump_json(indent=2)
 
-            # TODO wrapped writer
+            # TODO with ui.line_writer() as lw:
             # TODO tee content into a word scanner
 
             try:
