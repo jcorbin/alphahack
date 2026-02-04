@@ -3045,7 +3045,21 @@ class Search(StoredLog):
             self.chat_append(ui, ollama.Message(role='user', content=prompt))
 
         for _retry in ui.retries('ollama chat', retries=0):
-            parts: list[str] = []
+            part_role = 'assistant'
+            part_content: list[str] = []
+
+            def flush():
+                if part_content:
+                    self.chat_append(ui, ollama.Message(
+                        role=part_role,
+                        content=''.join(part_content),
+                    ))
+                part_content.clear()
+
+            def collect(mess: ollama.Message):
+                if mess.content is not None:
+                    part_content.append(mess.content)
+
             try:
                 for resp in self.llm_client.chat(
                     model=self.llm_model,
@@ -3054,32 +3068,23 @@ class Search(StoredLog):
                 ):
                     with ui.catch_exception(Exception,
                                             extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
-
-                        # TODO care about resp['done'] / resp['done_reason'] ?
-
+                        # TODO care about resp.done / resp.done_reason ?
                         mess = resp.message 
-                        role = mess.role
-
-                        if role != 'assistant':
+                        if mess.role != 'assistant':
                             # TODO note?
                             continue
-
-                        content = mess.content
-                        if content is None:
+                        if mess.content is None:
                             # TODO note?
                             continue
-
-                        parts.append(content)
-
-                        yield role, content
+                        collect(resp.message)
+                        yield mess.role, mess.content
                 return
 
             except httpx.HTTPError as err:
                 ui.print(f'! ollama http error: {err}')
 
             finally:
-                if parts:
-                    self.chat_append(ui, ollama.Message(role='assistant', content=''.join(parts)))
+                flush()
 
     def chat_clear(self, ui: PromptUI):
         ui.log(f'session clear')
