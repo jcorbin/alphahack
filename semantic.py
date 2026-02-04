@@ -3174,18 +3174,23 @@ class Search(StoredLog):
 
         for _retry in ui.retries('ollama chat', retries=0):
             part_role = 'assistant'
+            part_thinking: list[str] = []
             part_content: list[str] = []
 
             def flush():
-                if part_content:
+                if part_content or part_thinking:
                     self.chat_append(ui, ollama.Message(
                         role=part_role,
-                        content=''.join(part_content),
+                        thinking=''.join(part_thinking) if part_thinking else None,
+                        content=''.join(part_content) if part_content else None,
                     ))
+                part_thinking.clear()
                 part_content.clear()
 
             def collect(mess: ollama.Message):
-                if mess.content is not None:
+                if mess.thinking:
+                    part_thinking.append(mess.thinking)
+                if mess.content:
                     part_content.append(mess.content)
 
             try:
@@ -3199,9 +3204,6 @@ class Search(StoredLog):
                         # TODO care about resp.done / resp.done_reason ?
                         mess = resp.message 
                         if mess.role != 'assistant':
-                            # TODO note?
-                            continue
-                        if mess.content is None:
                             # TODO note?
                             continue
                         collect(resp.message)
