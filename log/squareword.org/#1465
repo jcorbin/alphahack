@@ -1,0 +1,211 @@
+T89.05831466100062 now: 2026-02-04T08:20:21EST
+TD141 site: squareword.org
+TD33 wordlist: nwl2023.txt
+TD45  ...␅
+TD6366877 ␆
+TD87  ...
+TD72 🧩  ? ␅
+TD2455842 ␆#1465
+TD97 🧩  ? #1465
+TD277 puzzle_id: #1465
+TD257 > ␅
+TD2599340 ␆*
+TD90 > *
+TD235033 try? ␅
+TD868802 ␆1
+TD96 try? 1
+TD327 questioning: ["rotes", "#5"]
+TD316 #1 <IndexError>  📋 "rotes" ? ␅
+TD3455388 ␆_____ ~ S
+TD75 #1 <IndexError>  📋 "rotes" ? _____ ~ S
+TD468 attempt 0 ROTES n n n n m
+TD96 #2 <IndexError>  📋 "rotes" ? ␅
+TD1815478 ␆_____ ~ OE
+TD86 #2 <IndexError>  📋 "rotes" ? _____ ~ OE
+TD243 attempt 1 ROTES n m n m n
+TD103 #3 <IndexError>  📋 "rotes" ? ␅
+TD2359556 ␆_____ ~ T
+TD97 #3 <IndexError>  📋 "rotes" ? _____ ~ T
+TD260 attempt 2 ROTES n n m n n
+TD172 #4 <IndexError>  📋 "rotes" ? ␅
+TD2583541 ␆____S ~ E
+TD94 #4 <IndexError>  📋 "rotes" ? ____S ~ E
+TD184 attempt 3 ROTES n n n m Y
+TD89 #5 <IndexError>  📋 "rotes" ? ␅
+TD3631665 ␆R__E_ ~ TES
+TD93 #5 <IndexError>  📋 "rotes" ? R__E_ ~ TES
+TD295 attempt 4 ROTES Y n m Y m
+TD214 ? ␅
+TD639367 ␆
+TD91 ? 
+TD151 question done
+TD319 > ␅
+TD1343419 ␆*
+TD96 > *
+TD648038 questioning: ["reset", "#5"]
+TD182 #1 _____ ~S -EORT  📋 "reset" ? ␅
+TD5159806 ␆.
+TD97 #1 _____ ~S -EORT  📋 "reset" ? .
+TD310 attempt 0 RESET n n m n n
+TD115 #2 _____ ~EO -RST  📋 "reset" ? ␅
+TD863455 ␆.
+TD96 #2 _____ ~EO -RST  📋 "reset" ? .
+TD295 attempt 1 RESET n m n m n
+TD98 #3 _____ ~T -EORS  📋 "reset" ? ␅
+TD911577 ␆.
+TD90 #3 _____ ~T -EORS  📋 "reset" ? .
+TD352 attempt 2 RESET n n n n m
+TD130 #4 ____S ~E -ORT  📋 "reset" ? ␅
+TD1031426 ␆.
+TD96 #4 ____S ~E -ORT  📋 "reset" ? .
+TD281 attempt 3 RESET n m n m n
+TD104 #5 R__E_ ~ST -O  📋 "reset" ? ␅
+TD607454 ␆/it
+TD87 #5 R__E_ ~ST -O  📋 "reset" ? /it
+TD191 attempt 4 RESET Y Y Y Y Y
+TD194 ? ␅
+TD151549 ␆
+TD38 ? 
+TD60 question done
+TD158 > ␅
+TD407746 ␆*
+TD39 > *
+TD530433 try? ␅
+TD1277404 ␆1
+TD72 try? 1
+TD217 questioning: ["amens", "#4"]
+TD211 #1 _____ ~S -EORT  📋 "amens" ? ␅
+TD4687745 ␆_____ ~ SA
+TD99 #1 _____ ~S -EORT  📋 "amens" ? _____ ~ SA
+TD268 attempt 0 AMENS m n n n m
+TD159 #2 _____ ~EO -RST  📋 "amens" ? ␅
+TD887659 ␆.
+TD95 #2 _____ ~EO -RST  📋 "amens" ? .
+TD272 attempt 1 AMENS n n m n n
+TD99 #3 _____ ~T -EORS  📋 "amens" ? ␅
+TD2423244 ␆_____ ~ TA
+TD78 #3 _____ ~T -EORS  📋 "amens" ? _____ ~ TA
+TD188 attempt 2 AMENS m n n n n
+TD101 #4 ____S ~E -ORST  📋 "amens" ? ␅
+TD3495675 ␆__ENS ~ E
+TD77 #4 ____S ~E -ORST  📋 "amens" ? __ENS ~ E
+TD189 attempt 3 AMENS n n Y Y Y
+TD217 ? ␅
+TD295515 ␆
+TD76 ? 
+TD95 question done
+TD203 > ␅
+TD1135720 ␆*
+TD77 > *
+TD537153 questioning: ["evens", "#4"]
+TD180 #1 _____ ~AS -EMNORT  📋 "evens" ? ␅
+TD4038545 ␆.
+TD99 #1 _____ ~AS -EMNORT  📋 "evens" ? .
+TD276 attempt 0 EVENS n n n n m
+TD106 #2 _____ ~EO -AMNRST  📋 "evens" ? ␅
+TD2103575 ␆E____ ~ OE
+TD111 #2 _____ ~EO -AMNRST  📋 "evens" ? E____ ~ OE
+TD270 attempt 1 EVENS Y n m n n
+TD162 #3 _____ ~AT -EMNORS  📋 "evens" ? ␅
+TD1199443 ␆.
+TD90 #3 _____ ~AT -EMNORS  📋 "evens" ? .
+TD296 attempt 2 EVENS n n n n n
+TD100 #4 __ENS -AMORT  📋 "evens" ? ␅
+TD663543 ␆/it
+TD100 #4 __ENS -AMORT  📋 "evens" ? /it
+TD263 attempt 3 EVENS Y Y Y Y Y
+TD318 ? ␅
+TD215419 ␆
+TD107 ? 
+TD124 question done
+TD325 > ␅
+TD647340 ␆*
+TD124 > *
+TD450395 questioning: ["elope", "#2"]
+TD198 #1 _____ ~AS -EMNORTV  📋 "elope" ? ␅
+TD5653569 ␆_____ ~ SALP
+TD145 #1 _____ ~AS -EMNORTV  📋 "elope" ? _____ ~ SALP
+TD290 attempt 0 ELOPE n m n m n
+TD162 #2 E____ ~EO -AMNRSTV  📋 "elope" ? ␅
+TD791245 ␆/it
+TD119 #2 E____ ~EO -AMNRSTV  📋 "elope" ? /it
+TD315 attempt 1 ELOPE Y Y Y Y Y
+TD112 #3 _____ ~AT -EMNORSV  📋 "elope" ? ␅
+TD903541 ␆
+TD128 #3 _____ ~AT -EMNORSV  📋 "elope" ? 
+TD378 #3 _____ ~AT -EMNORSV  ? ␅
+TD327641 ␆
+TD140 #3 _____ ~AT -EMNORSV  ? 
+TD465 #3 _____ ~AT -EMNORSV  ? ␅
+TD2711212 ␆.
+TD96 #3 _____ ~AT -EMNORSV  ? .
+TD261 attempt 2 ELOPE n n n n n
+TD307 ? ␅
+TD287309 ␆
+TD78 ? 
+TD98 question done
+TD187 > ␅
+TD623595 ␆*
+TD79 > *
+TD1318198 questioning: ["palsy", "#1"]
+TD197 #1 _____ ~ALPS -EMNORTV  📋 "palsy" ? ␅
+TD2609467 ␆/it
+TD85 #1 _____ ~ALPS -EMNORTV  📋 "palsy" ? /it
+TD177 attempt 0 PALSY Y Y Y Y Y
+TD66 #3 _____ ~AT -ELMNOPRSV  📋 "palsy" ? ␅
+TD1359885 ␆.
+TD79 #3 _____ ~AT -ELMNOPRSV  📋 "palsy" ? .
+TD194 attempt 2 PALSY n m n n n
+TD199 ? ␅
+TD175516 ␆
+TD115 ? 
+TD114 question done
+TD327 > ␅
+TD447460 ␆*
+TD71 > *
+TD919542 questioning: ["tibia", "#3"]
+TD417 #3 _____ ~AT -ELMNOPRSVY  📋 "tibia" ? ␅
+TD4687850 ␆/it
+TD108 #3 _____ ~AT -ELMNOPRSVY  📋 "tibia" ? /it
+TD329 attempt 2 TIBIA Y Y Y Y Y
+TD377 ? ␅
+TD999220 ␆
+TD83 ? 
+TD85 question done
+TD16272 📋> ␅
+TD4288327 ␆squareword.org 1465: 7 guesses
+TD114 📋> squareword.org 1465: 7 guesses
+TD16 📋> ␅
+TD50 ␆
+TD9 📋> 
+TD8 📋> ␅
+TD24 ␆🟨🟨🟨🟨🟨
+TD9 📋> 🟨🟨🟨🟨🟨
+TD8 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD15 ␆🟨🟨🟨🟨🟨
+TD7 📋> 🟨🟨🟨🟨🟨
+TD7 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD7 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD9 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> ␅
+TD342911 ␆#squareword #squareword1465
+TD84 📋> #squareword #squareword1465
+TD13 📋> ␅
+TD248012 ␄
+TD138 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1465: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1465"}
+TD494 result: "squareword.org 1465: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1465"
+TD78 📆 2026-02-04 ? ␅
+TD375304 ␆
+TD81 📆 2026-02-04 ? 
