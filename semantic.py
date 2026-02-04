@@ -3576,7 +3576,9 @@ class Search(StoredLog):
                             ui.print(f'>>> {line}')
 
                 elif mess.role == 'assistant':
-                    if mess.content:
+                    if mess.thinking:
+                        ui.print(f'... (thinking) 🪙 {count_tokens(mess.thinking)}')
+                    elif mess.content:
                         reply = mess.content
 
             if reply:
