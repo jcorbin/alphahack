@@ -3397,33 +3397,33 @@ class Search(StoredLog):
 
         if given:
             for mess in chat:
-                role = mess.role
-                content = mess.content or ''
-                if role == 'user':
-                    for line in wraplines(ui.screen_cols-4, spliterate(content, '\n', trim=True)):
-                        ui.print(f'>>> {line}')
-                elif role != 'assistant':
-                    continue
+                if mess.role == 'user':
+                    if mess.content:
+                        for line in wraplines(ui.screen_cols-4, spliterate(mess.content, '\n', trim=True)):
+                            ui.print(f'>>> {line}')
 
-                for word in self.filter_words((
-                    word.lower()
-                    for line in spliterate(content, '\n', trim=True)
-                    for _, word in find_match_words(line))):
-                    ui.print(self.describe_extracted_word(word))
+                elif mess.role == 'assistant':
+                    if mess.content:
+                        for word in self.filter_words((
+                            word.lower()
+                            for line in spliterate(mess.content, '\n', trim=True)
+                            for _, word in find_match_words(line))):
+                            ui.print(self.describe_extracted_word(word))
 
         else:
             reply = ''
             for mess in chat:
-                role = mess.role
-                content = mess.content or ''
-                if role == 'assistant':
-                    reply = content
-                elif role == 'user':
+                if mess.role == 'user':
                     if reply:
                         ui.print(f'... 🪙 {count_tokens(reply)}')
                         reply = ''
-                    for line in wraplines(ui.screen_cols-4, spliterate(content, '\n', trim=True)):
-                        ui.print(f'>>> {line}')
+                    if mess.content:
+                        for line in wraplines(ui.screen_cols-4, spliterate(mess.content, '\n', trim=True)):
+                            ui.print(f'>>> {line}')
+
+                elif mess.role == 'assistant':
+                    if mess.content:
+                        reply = mess.content
 
             if reply:
                 for line in wraplines(ui.screen_cols-4, spliterate(reply, '\n')):
