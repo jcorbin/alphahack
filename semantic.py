@@ -632,6 +632,27 @@ def explanation(explain: Explainable):
         explain = '; '.join(explain)
     return explain
 
+ThinkingValue = Literal['low', 'medium', 'high']|bool|None
+
+def parse_think(tokens: PromptUI.Tokens,
+                fallthru: Callable[[], Exception]|ThinkingValue=lambda: ValueError('invalid thinking value')):
+    if tokens.have(r'(?ix) - | none | null | na | def(a(u(lt?)?)?)?'):
+        return None
+    elif tokens.have(r'(?ix) yes? | t(r(ue?)?)? | 1'):
+        return True
+    elif tokens.have(r'(?ix) no | f(a(l(se?)?)?)? | 0'):
+        return False
+    elif tokens.have(r'(?ix) l(ow?)?'):
+        return 'low'
+    elif tokens.have(r'(?ix) m(e(d(i(um?)?)?)?)?'):
+        return 'medium'
+    elif tokens.have(r'(?ix) h(i(gh?)?)?'):
+        return 'high'
+    if callable(fallthru):
+        raise fallthru()
+    else:
+        return fallthru
+
 @final
 class Search(StoredLog):
     log_file: str = 'cemantle.log'
@@ -724,6 +745,7 @@ class Search(StoredLog):
         self.llm_client = ollama.Client()
         self.llm_model: str = self.default_chat_model
         self.llm_sel = self.ModelSelector(self.llm_client)
+        self.llm_thinking: ThinkingValue = None
 
         self.abbr: dict[str, str] = dict(default_abbr)
         self.chat: list[ollama.Message] = []
@@ -765,6 +787,7 @@ class Search(StoredLog):
             '/clear': self.chat_clear_cmd,
             '/extract': self.chat_extract,
             '/model': self.chat_model_cmd,
+            '/think': self.chat_think_cmd,
             '/last': self.chat_last,
             '/system': self.chat_system_cmd,
             '/scrape': self.do_startup_scrape,
@@ -3220,6 +3243,7 @@ class Search(StoredLog):
                     model=self.llm_model,
                     messages=self.chat,
                     stream=True,
+                    think=self.llm_thinking,
                 ):
                     with ui.catch_exception(Exception,
                                             extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
@@ -3800,6 +3824,34 @@ class Search(StoredLog):
 
         else:
             ui.print(f'Using model {self.llm_model!r}')
+
+        res = self.llm_client.show(model)
+        caps = res.capabilities
+        if self.llm_thinking and (not caps or 'thinking' not in caps):
+            ui.print(f'Model does is not capable of thinking, resetting to default')
+            self.llm_thinking = None
+            ui.log(f'session thinking: {json.dumps(self.llm_thinking)}')
+
+    def chat_think_cmd(self, ui: PromptUI):
+        with ui.tokens as tokens:
+            if not tokens:
+                ui.print(f'thinking: {self.llm_thinking}')
+                return
+            try:
+                self.llm_thinking = parse_think(ui.tokens)
+            except ValueError:
+                ui.print(f'! invalid thinking argument {next(tokens)!r}')
+                return
+            ui.log(f'session thinking: {json.dumps(self.llm_thinking)}')
+            ui.print(f'Set thinking={self.llm_thinking}')
+
+    @matcher(r'''(?x) session \s+ thinking : \s* ([^\s]+ ) $''')
+    def load_chat_think(self, _t: float, m: re.Match[str]):
+        val = cast(object, json.loads(m[1]))
+        if val is True or val is False or val is None:
+            self.llm_thinking = val
+        elif isinstance(val, str) and val in ('low', 'medium', 'high'):
+            self.llm_thinking = val
 
     def chat_model(self, ui: PromptUI, model: str):
         if self.llm_model != model:
