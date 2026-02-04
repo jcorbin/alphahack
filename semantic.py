@@ -50,10 +50,9 @@ def lang_code_to_kind(la: str):
 
 def role_history(chat: Sequence[ollama.Message], role: str):
     for mess in reversed(chat):
-        rol = mess.role
-        content = mess.content
-        if rol == role and content is not None:
-            yield content
+        if mess.role != role: continue
+        if mess.content is not None:
+            yield mess.content
 
 def prompt_pairs(chat: Sequence[ollama.Message]):
     rev = reversed(chat)
@@ -3049,9 +3048,10 @@ class Search(StoredLog):
             parts: list[str] = []
             try:
                 for resp in self.llm_client.chat(
-                        model=self.llm_model,
-                        messages=self.chat,
-                        stream=True):
+                    model=self.llm_model,
+                    messages=self.chat,
+                    stream=True,
+                ):
                     with ui.catch_exception(Exception,
                                             extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
 
