@@ -14,7 +14,7 @@ from itertools import chain
 from collections.abc import Generator, Iterable, Mapping, Sequence
 from datetime import date
 from dotenv import load_dotenv
-from emoji import emoji_count, is_emoji
+from emoji import is_emoji
 from functools import partial
 from os.path import basename
 from typing import Callable, Literal, cast, final, override
@@ -151,89 +151,6 @@ def marked_tokenize(s: str,
         #     ui.print(f'wat {[c for c in n]!r}')
 
         yield tok
-
-def screen_width(s: str):
-    return len(s) + emoji_count(s)
-
-def screen_truncate(s: str, width: int):
-    if screen_width(s) <= width:
-        return s
-    # TODO this is oblivious to zero-width/combining characters
-    s = s[:width]
-    # TODO this would probably be better as a binary search
-    while screen_width(s) > width:
-        s = s[:-1]
-    return s
-
-@final
-class LineWriter:
-    # TODO wants to accept just the output protocol (plus screen
-    #      size attrs?)... and implement the same
-
-    def __init__(self, ui: PromptUI, at: int = 0, limit: int = 0):
-        self.ui = ui
-        self.at = at
-        self.limit = limit
-
-    @property
-    def remain(self):
-        return self.limit - self.at
-
-    def fin(self):
-        self.ui.fin()
-        self.at = 0
-
-    def write(self, s: str):
-        self.ui.write(s)
-        _, nl, last = s.rpartition('\n')
-        # TODO parse ansi positioning sequences
-        if nl:
-            self.at = screen_width(last)
-        else:
-            self.at += screen_width(last)
-
-    def truncate(self, s: str, cont: str = '...'):
-        n = self.remain
-        if screen_width(s) > n:
-            pre = screen_truncate(s, n-screen_width(cont))
-            return f'{pre}{cont}'
-        return s
-
-    def __enter__(self):
-        if not self.limit:
-            self.limit = self.ui.screen_cols
-        return self
-
-    def __exit__(
-        self,
-        exc_type: type[BaseException] | None,
-        exc: BaseException | None,
-        exc_tb: TracebackType | None,
-    ):
-        self.fin()
-
-    def wrap_tokens(
-        self,
-        tokens: PeekIter[str],
-        pre: str = '',
-        sep: str = ' ',
-        sub_pre: str = '  ',
-    ):
-        if not tokens: return
-        try:
-            first = True
-            while tokens:
-                self.write(f'{pre}{next(tokens, '')}')
-                while tokens:
-                    part = f'{sep}{next(tokens)}'
-                    n = screen_width(part)
-                    if self.remain < n: break
-                    self.write(part)
-                if first:
-                    first = False
-                    pre = sub_pre
-        finally:
-            self.fin()
 
 def trim_lines(lines: Iterable[str]):
     st = 0
@@ -719,7 +636,7 @@ class Meta(Arguable):
         env = os.environ
 
         if not ui.tokens:
-            with LineWriter(ui) as lw:
+            with ui.line_writer() as lw:
                 for name, value in env.items():
                     rval = repr(value) # TODO this only needs to quote control chars for ansi sequences
                     lw.write(f'${name} = ')
@@ -1386,7 +1303,7 @@ class Meta(Arguable):
             ui.print(f'! invalid status argument {next(ui.tokens)}')
             return
 
-        with LineWriter(ui) as lw:
+        with ui.line_writer() as lw:
             lw.write('Solver Status')
             if verbose:
                 lw.write(f' ( verbose={verbose} )')

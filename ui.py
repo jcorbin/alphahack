@@ -15,11 +15,12 @@ from base64 import b64encode, b85encode
 from bisect import bisect
 from contextlib import contextmanager
 from collections.abc import Generator, Iterable, Sequence
+from emoji import emoji_count
 from io import StringIO
 from types import TracebackType
 from typing import Callable, Literal, Protocol, TextIO, cast, final, override, runtime_checkable
 
-from strkit import block_lines, matcherate, PeekStr, reflow_block
+from strkit import block_lines, matcherate, PeekIter, PeekStr, reflow_block
 
 def join_word_seq(join: str, words: Sequence[str]):
     if len(words) == 1:
@@ -1713,6 +1714,9 @@ class PromptUI:
         zb2 = self.zlog.flush(zlib.Z_SYNC_FLUSH)
         self.log_sink(f'{self._log_time} Z {b85encode(zb1 + zb2).decode()}')
 
+    def line_writer(self, at: int = 0, limit: int = 0):
+        return LineWriter(self, at, limit)
+
     def write(self, mess: str):
         self.last = 'print' if mess.endswith('\n') else 'write'
         self.sink(mess)
@@ -2236,6 +2240,89 @@ class PromptUI:
     def check_call[T: (str, bytes)](self, proc: subprocess.Popen[T]):
         with self.check_proc(proc):
             pass
+
+def screen_width(s: str):
+    return len(s) + emoji_count(s)
+
+def screen_truncate(s: str, width: int):
+    if screen_width(s) <= width:
+        return s
+    # TODO this is oblivious to zero-width/combining characters
+    s = s[:width]
+    # TODO this would probably be better as a binary search
+    while screen_width(s) > width:
+        s = s[:-1]
+    return s
+
+@final
+class LineWriter:
+    # TODO wants to accept just the output protocol (plus screen
+    #      size attrs?)... and implement the same
+
+    def __init__(self, ui: PromptUI, at: int = 0, limit: int = 0):
+        self.ui = ui
+        self.at = at
+        self.limit = limit
+
+    @property
+    def remain(self):
+        return self.limit - self.at
+
+    def fin(self):
+        self.ui.fin()
+        self.at = 0
+
+    def write(self, s: str):
+        self.ui.write(s)
+        _, nl, last = s.rpartition('\n')
+        # TODO parse ansi positioning sequences
+        if nl:
+            self.at = screen_width(last)
+        else:
+            self.at += screen_width(last)
+
+    def truncate(self, s: str, cont: str = '...'):
+        n = self.remain
+        if screen_width(s) > n:
+            pre = screen_truncate(s, n-screen_width(cont))
+            return f'{pre}{cont}'
+        return s
+
+    def __enter__(self):
+        if not self.limit:
+            self.limit = self.ui.screen_cols
+        return self
+
+    def __exit__(
+        self,
+        exc_type: type[BaseException] | None,
+        exc: BaseException | None,
+        exc_tb: TracebackType | None,
+    ):
+        self.fin()
+
+    def wrap_tokens(
+        self,
+        tokens: PeekIter[str],
+        pre: str = '',
+        sep: str = ' ',
+        sub_pre: str = '  ',
+    ):
+        if not tokens: return
+        try:
+            first = True
+            while tokens:
+                self.write(f'{pre}{next(tokens, '')}')
+                while tokens:
+                    part = f'{sep}{next(tokens)}'
+                    n = screen_width(part)
+                    if self.remain < n: break
+                    self.write(part)
+                if first:
+                    first = False
+                    pre = sub_pre
+        finally:
+            self.fin()
 
 class Lister(Protocol):
     def __len__(self) -> int:
