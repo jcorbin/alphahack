@@ -1,0 +1,88 @@
+T96.62100332100817 now: 2026-02-04T08:06:34EST
+TD102 site: alphaguess.com
+TD144365 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof 5443237afd72cb4f1086a7657bb726503243699c
+TD121  ...␅
+TD638699 ␆
+TD101  ...
+TD180 [0 : 98220 : 196531] mach? ␅
+TD4903757 ␆
+TD100 [0 : 98220 : 196531] mach? 
+TD127 [0 : 98220 : 196531] mach? ␅
+TD504383 ␆
+TD104 [0 : 98220 : 196531] mach? 
+TD162 [0 : 98220 : 196531] mach? ␅
+TD9023110 ␆a
+TD100 [0 : 98220 : 196531] mach? a
+TD123 progress: 1 98220 mach
+TD243 [98221 : 147373 : 196531] rhotic? ␅
+TD1495440 ␆a
+TD97 [98221 : 147373 : 196531] rhotic? a
+TD106 progress: 1 147373 rhotic
+TD124 [147374 : 171643 : 196531] ta? ␅
+TD2991901 ␆a
+TD106 [147374 : 171643 : 196531] ta? a
+TD109 progress: 1 171643 ta
+TD130 [171644 : 182008 : 196531] un? ␅
+TD1679469 ␆a
+TD97 [171644 : 182008 : 196531] un? a
+TD110 progress: 1 182008 un
+TD239 [182009 : 189270 : 196531] vicar? ␅
+TD1783589 ␆a
+TD87 [182009 : 189270 : 196531] vicar? a
+TD84 progress: 1 189270 vicar
+TD118 [189271 : 192874 : 196531] whir? ␅
+TD1575797 ␆b
+TD96 [189271 : 192874 : 196531] whir? b
+TD116 progress: -1 192874 whir
+TD110 [189271 : 191050 : 192874] walk? ␅
+TD2079682 ␆a
+TD79 [189271 : 191050 : 192874] walk? a
+TD88 progress: 1 191050 walk
+TD79 [191051 : 191913 : 192874] we? ␅
+TD1455779 ␆a
+TD94 [191051 : 191913 : 192874] we? a
+TD122 progress: 1 191913 we
+TD104 [191914 : 192383 : 192874] wen? ␅
+TD1415719 ␆b
+TD88 [191914 : 192383 : 192874] wen? b
+TD82 progress: -1 192383 wen
+TD102 [191914 : 192148 : 192383] wee? ␅
+TD1383727 ␆a
+TD106 [191914 : 192148 : 192383] wee? a
+TD108 progress: 1 192148 wee
+TD217 [192149 : 192246 : 192383] weight? ␅
+TD1319705 ␆a
+TD100 [192149 : 192246 : 192383] weight? a
+TD109 progress: 1 192246 weight
+TD105 [192247 : 192307 : 192383] weld? ␅
+TD1303550 ␆b
+TD84 [192247 : 192307 : 192383] weld? b
+TD88 progress: -1 192307 weld
+TD83 [192247 : 192271 : 192307] weird? ␅
+TD1695866 ␆it
+TD108 [192247 : 192271 : 192307] weird? it
+TD113 progress: 0 192271 weird
+TD29 [192247 : 192271 : 192307] <Done>.
+TD84 📋> ␅
+TD2896023 ␆🧩 Puzzle #926
+TD76 📋> 🧩 Puzzle #926
+TD7 📋> ␅
+TD28 ␆🤔 13 guesses
+TD3 📋> 🤔 13 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 21s
+TD3 📋> ⏱️ 21s
+TD2 📋> ␅
+TD303612 ␆🔗 alphaguess.com
+TD96 📋> 🔗 alphaguess.com
+TD12 📋> ␅
+TD183725 ␄
+TD169 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #926\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com"}
+TD103 result: "\ud83e\udde9 Puzzle #926\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com"
+TD15 result puzzle: 926
+TD7 result guesses: 13
+TD6 result time: 21s
+TD5 result link: alphaguess.com
+TD90 📆 2026-02-04 ? ␅
+TD319655 ␆
+TD98 📆 2026-02-04 ? 
