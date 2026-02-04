@@ -3173,12 +3173,13 @@ class Search(StoredLog):
             self.chat_append(ui, ollama.Message(role='user', content=prompt))
 
         for _retry in ui.retries('ollama chat', retries=0):
-            part_role = 'assistant'
+            part_role: str = ''
             part_thinking: list[str] = []
             part_content: list[str] = []
 
             def flush():
-                if part_content or part_thinking:
+                nonlocal part_role
+                if part_role:
                     self.chat_append(ui, ollama.Message(
                         role=part_role,
                         thinking=''.join(part_thinking) if part_thinking else None,
@@ -3186,8 +3187,13 @@ class Search(StoredLog):
                     ))
                 part_thinking.clear()
                 part_content.clear()
+                part_role = ''
 
             def collect(mess: ollama.Message):
+                nonlocal part_role
+                if part_role != mess.role:
+                    flush()
+                    part_role = mess.role
                 if mess.thinking:
                     part_thinking.append(mess.thinking)
                 if mess.content:
@@ -3202,11 +3208,8 @@ class Search(StoredLog):
                     with ui.catch_exception(Exception,
                                             extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
                         # TODO care about resp.done / resp.done_reason ?
-                        mess = resp.message 
-                        if mess.role != 'assistant':
-                            # TODO note?
-                            continue
                         collect(resp.message)
+                        mess = resp.message 
                         yield mess.role, mess.content
                 return
 
