@@ -1,0 +1,74 @@
+T48.98836602999654 now: 2026-02-04T08:05:46EST
+TD78 site: alfagok.diginaut.net
+TD328811 loaded 399674 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1178 words excluded) asof 5443237afd72cb4f1086a7657bb726503243699c
+TD124  ...␅
+TD1206303 ␆
+TD99  ...
+TD219 [0 : 199833 : 399674] lijm? ␅
+TD10383795 ␆b
+TD99 [0 : 199833 : 399674] lijm? b
+TD350 progress: -1 199833 lijm
+TD141 [0 : 99758 : 199833] ex? ␅
+TD2087228 ␆b
+TD99 [0 : 99758 : 199833] ex? b
+TD124 progress: -1 99758 ex
+TD107 [0 : 49849 : 99758] boks? ␅
+TD1551622 ␆a
+TD80 [0 : 49849 : 99758] boks? a
+TD81 progress: 1 49849 boks
+TD82 [49850 : 74762 : 99758] dc? ␅
+TD1631967 ␆b
+TD76 [49850 : 74762 : 99758] dc? b
+TD82 progress: -1 74762 dc
+TD79 [49850 : 62288 : 74762] cement? ␅
+TD1663723 ␆b
+TD80 [49850 : 62288 : 74762] cement? b
+TD85 progress: -1 62288 cement
+TD80 [49850 : 55941 : 62288] bron? ␅
+TD1527726 ␆b
+TD83 [49850 : 55941 : 62288] bron? b
+TD83 progress: -1 55941 bron
+TD77 [49850 : 52691 : 55941] bouw? ␅
+TD1591915 ␆a
+TD77 [49850 : 52691 : 55941] bouw? a
+TD85 progress: 1 52691 bouw
+TD76 [52692 : 54274 : 55941] brandstof? ␅
+TD2911699 ␆b
+TD96 [52692 : 54274 : 55941] brandstof? b
+TD108 progress: -1 54274 brandstof
+TD117 [52692 : 53209 : 54274] boven? ␅
+TD11847986 ␆a
+TD105 [52692 : 53209 : 54274] boven? a
+TD115 progress: 1 53209 boven
+TD111 [53210 : 53716 : 54274] braak? ␅
+TD2256041 ␆a
+TD102 [53210 : 53716 : 54274] braak? a
+TD106 progress: 1 53716 braak
+TD105 [53717 : 53984 : 54274] brand? ␅
+TD2103573 ␆it
+TD100 [53717 : 53984 : 54274] brand? it
+TD121 progress: 0 53984 brand
+TD28 [53717 : 53984 : 54274] <Done>.
+TD95 📋> ␅
+TD2759759 ␆🧩 Puzzel #459
+TD78 📋> 🧩 Puzzel #459
+TD8 📋> ␅
+TD29 ␆🤔 11 gokken
+TD5 📋> 🤔 11 gokken
+TD4 📋> ␅
+TD9 ␆⏱️ 32s
+TD5 📋> ⏱️ 32s
+TD4 📋> ␅
+TD343559 ␆🔗 alfagok.diginaut.net
+TD93 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD199801 ␄
+TD159 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #459\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 32s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD757 result: "\ud83e\udde9 Puzzel #459\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 32s\n\ud83d\udd17 alfagok.diginaut.net"
+TD41 result puzzle: 459
+TD10 result guesses: 11
+TD6 result time: 32s
+TD5 result link: alfagok.diginaut.net
+TD91 📆 2026-02-04 ? ␅
+TD279055 ␆
+TD100 📆 2026-02-04 ? 
