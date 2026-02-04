@@ -6,10 +6,12 @@ from collections import Counter
 from collections.abc import Callable, Generator, Iterable, Sequence
 from dataclasses import dataclass
 from typing import cast, final
+from warnings import deprecated
 
 from strkit import spliterate, wraplines
 from ui import PromptUI
 
+@deprecated('just use client.list()')
 def get_olm_models(client: ollama.Client) -> Generator[str]:
     # TODO inline
     for model in client.list().models:
@@ -243,12 +245,13 @@ class ChatContext:
         model = self.model
 
         if not self.messages and self.system_prompt:
-            self.append(logger, {'role': 'system', 'content': self.system_prompt})
+            self.append(logger, ollama.Message(role='system', content= self.system_prompt))
 
         if not self._is_last(prompt):
-            self.append(logger, {'role': 'user', 'content': prompt})
+            self.append(logger, ollama.Message(role='user', content=prompt))
 
         # TODO with-pending-append-partial
+        # TODO reconcile with new thinking-aware counterpart in semantic.py
 
         parts: list[str] = []
 
@@ -273,7 +276,7 @@ class ChatContext:
 
             yield content
 
-        self.append(logger, {'role': 'assistant', 'content': ''.join(parts)})
+        self.append(logger, ollama.Message(role='assistant', content=''.join(parts)))
 
     def chat_cmd(self, ui: PromptUI):
         if ui.tokens.empty: _ = ui.input('> ')
