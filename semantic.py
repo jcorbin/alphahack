@@ -3136,20 +3136,36 @@ class Search(StoredLog):
             for line in wraplines(ui.screen_cols-4, prompt.splitlines()):
                 ui.print(f'>>> {line}')
 
+            def known_mess_parts(mess: ollama.Message):
+                if mess.thinking is not None:
+                    yield '... (thinking) ', mess.thinking
+                if mess.content is not None:
+                    yield '...', mess.content
+
+            def mess_parts(mess: ollama.Message):
+                unk = True
+                for part in known_mess_parts(mess):
+                    unk = False
+                    yield part
+                if unk:
+                    yield '???', mess.model_dump_json(indent=2)
+
             # TODO wrapped writer
             # TODO tee content into a word scanner
 
             try:
-                for _, content in self.chat_say(ui, prompt):
-                    lines = spliterate(content, '\n', trim=True)
-                    first = True
-                    for line in lines:
-                        if first:
-                            ui.write(line if ui.last == 'write' else f'... {line}')
+                last_mark = ''
+                for mess in self.chat_say(ui, prompt):
+                    for mark, raw in mess_parts(mess):
+                        first = True
+                        for line in spliterate(raw, '\n', trim=True):
+                            if first and ui.last == 'write' and mark == last_mark:
+                                ui.write(line)
+                            else:
+                                ui.fin()
+                                ui.write(f'{mark} {line}')
+                            last_mark = mark
                             first = False
-                        else:
-                            ui.fin()
-                            ui.write(f'... {line}')
 
             except ollama.ResponseError as err:
                 ui.print(f'! ollama error: {err}')
@@ -3209,8 +3225,8 @@ class Search(StoredLog):
                                             extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
                         # TODO care about resp.done / resp.done_reason ?
                         collect(resp.message)
-                        mess = resp.message 
-                        yield mess.role, mess.content
+                        yield resp.message
+
                 return
 
             except httpx.HTTPError as err:
