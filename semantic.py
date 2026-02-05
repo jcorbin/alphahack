@@ -9,7 +9,7 @@ import math
 import ollama
 import re
 import requests
-from bisect import insort
+from bisect import bisect_left, insort
 from collections import Counter
 from collections.abc import Generator, Iterable, MutableMapping, Sequence
 from dataclasses import dataclass
@@ -21,7 +21,6 @@ from typing import assert_never, cast, final, overload, override, Callable, Lite
 from urllib.parse import urlparse
 from warnings import deprecated
 
-from chat import get_olm_models
 from mdkit import break_sections, capture_fences, fenceit
 from store import StoredLog, git_txn, matcher
 from strkit import make_digit_str, matchgen, pad_parts, parse_digit_int, spliterate, wraplines, MarkedSpec
@@ -184,12 +183,6 @@ TierCounts = tuple[
     int,
     int,
 ]
-
-def olm_find_model(client: ollama.Client, name: str):
-    try:
-        return max(n for n in get_olm_models(client) if n.startswith(name))
-    except ValueError:
-        raise RuntimeError(f'Unavailable --ollama-model {name!r} ; available models: {' '.join(sorted(get_olm_models(client)))}')
 
 word_ref_pattern = re.compile(r'''(?x)
                                 \# ( \d+ )
@@ -730,6 +723,7 @@ class Search(StoredLog):
 
         self.llm_client = ollama.Client()
         self.llm_model: str = self.default_chat_model
+        self.llm_sel = self.ModelSelector(self.llm_client)
 
         self.abbr: dict[str, str] = dict(default_abbr)
         self.chat: list[ollama.Message] = []
@@ -1985,7 +1979,7 @@ class Search(StoredLog):
             self.prog_at = self.scale.get('😎')
 
         try:
-            model = olm_find_model(self.llm_client, self.llm_model)
+            model = self.llm_sel.find(self.llm_model)
         except RuntimeError:
             self.chat_model_cmd(ui)
         else:
@@ -3595,40 +3589,119 @@ class Search(StoredLog):
         ui.print('cleared chat 🪙 = 0')
         self.chat_clear(ui)
 
+    @final
+    class ModelSelector:
+        def __init__(self, client: ollama.Client):
+            self.client = client
+            self.models: list[ollama.ListResponse.Model] = []
+            self.names: list[str] = []
+            self.name_ix: list[int] = []
+            self.show_ix: list[int] = []
+
+        def clear(self):
+            self.models.clear()
+            self.names.clear()
+            self.name_ix.clear()
+            self.show_ix.clear()
+
+        def alloc(self, model: ollama.ListResponse.Model):
+            model_i = len(self.models)
+            self.models.append(model)
+            self.names.append('')
+            return model_i
+
+        def refresh(self, ui: PromptUI):
+            # TODO factor out spinner? abstract into progress?
+            self.clear()
+            try:
+                ui.write('Refreshing ollama models:')
+                self.load()
+                ui.write('.')
+            finally:
+                ui.fin()
+
+        def load(self):
+            for model in self.client.list().models:
+                model_i = self.alloc(model)
+
+                name = model.model
+                if name is not None:
+                    self.names[model_i] = name
+
+            self.name_ix = sorted(
+                ( model_i
+                  for model_i, name in enumerate(self.names)
+                  if name ),
+                key=lambda i: self.names[i])
+
+        def find(self, name: str):
+            if not self.models:
+                self.load()
+            ni = bisect_left(self.name_ix, name, key=lambda i: self.names[i])
+            if ni < len(self.name_ix):
+                model_i = self.name_ix[ni]
+                nom = self.names[model_i]
+                if nom.startswith(name):
+                    return nom
+            avail = sorted(self.names[i] for i in self.name_ix)
+            raise KeyError(f'unavailable model {name!r} ; available models: {' '.join(avail)}')
+
+        def select(self, arg: str):
+            m = re.match(r'\d+$', arg)
+            if m:
+                n = int(m[0])
+                model_i = self.show_ix[n-1]
+                return self.names[model_i]
+            return self.find(arg)
+
+        def show_list(self, ui: PromptUI,
+                      mark: Callable[[int], str] = lambda _: '',
+                      mark_width: int = 0):
+            part_widths = (
+                f'>{len(str(len(self.show_ix)))+1}',       # N.
+                f'>{mark_width}',                          # ?
+                f'<{max(len(nom) for nom in self.names)}', # ...
+            )
+            for n, model_i in enumerate(self.show_ix, 1):
+                ui.print(' '.join(pad_parts((
+                    f'{n}.',
+                    mark(model_i),
+                    self.names[model_i],
+                ), part_widths)))
+
     def select_model(self, ui: PromptUI):
+        sel = self.llm_sel
+
+        def pick():
+            ix = sel.name_ix
+            return ix
+
+        def maybe_refresh():
+            if not sel.models:
+                sel.refresh(ui)
+            sel.show_ix = pick()
+
         try:
             with ui.tokens as tokens:
-                byn: list[str] = []
                 while True:
-                    if not tokens.empty:
-                        mod = ''
+                    if tokens:
+                        nom = next(tokens)
+                        try:
+                            return sel.select(nom)
+                        except LookupError as err:
+                            ui.print(f'! {err}')
+                            continue
 
-                        n = tokens.have(r'\d+$', lambda m: int(m[0]))
-                        if n is not None:
-                            try:
-                                mod = byn[n-1]
-                            except IndexError:
-                                ui.print(f'! invalid list number')
-
-                        else:
-                            mod = next(tokens)
-
-                        if mod:
-                            try:
-                                mod = olm_find_model(self.llm_client, mod)
-                            except RuntimeError:
-                                ui.print(f'! unavailable model {mod!r}')
-                            else:
-                                return mod
+                    maybe_refresh()
 
                     ui.br()
                     ui.print(f'Available Models:')
-                    byn = sorted(get_olm_models(self.llm_client))
-                    for i, m in enumerate(byn):
-                        mark = '*' if m == self.llm_model else ' '
-                        ui.print(f'{i+1}. {mark} {m}')
-
+                    sel.show_list(
+                        ui,
+                        mark=lambda model_i: '*' if sel.names[model_i] == self.llm_model else '',
+                        mark_width=1)
                     tokens.raw = ui.raw_input('Select model (by name or number)> ')
+
         except KeyboardInterrupt:
             return
 
