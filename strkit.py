@@ -497,7 +497,7 @@ def make_digit_str(n: int):
     parts = list(make_digits(n))
     return ''.join(reversed(parts))
 
-def pad_parts(parts: Iterable[str], widths: Sequence[int]):
+def pad_parts(parts: Iterable[str], formats: Sequence[str]):
     for i, part in enumerate(parts):
-        pw = widths[i] if i < len(widths) else 0
-        yield f'{part:>{pw}}'
+        pf = formats[i] if i < len(formats) else ''
+        yield f'{part:{pf}}'

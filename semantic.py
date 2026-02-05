@@ -1116,12 +1116,12 @@ class Search(StoredLog):
                     )
 
         part_widths = (
-            nw, # $N
-            nw, # #N
-            ww, # word
-            9, # 7.2f°C
-            1, # tier
-            5, # prog‰
+            f'>{nw}', # $N
+            f'>{nw}', # #N
+            f'<{ww}', # word
+            f'>9',    # 7.2f°C
+            f'>1',    # tier
+            f'>5',    # prog‰
         )
 
         for row in rows():
@@ -1168,12 +1168,12 @@ class Search(StoredLog):
         iw = len(str(len(self.word)))+1
         return ' '.join(pad_parts(
             self.describe_word_parts(word_i, ix, word), (
-                iw, # $N
-                iw, # #N
-                ww, # word
-                9, # 7.2f°C
-                1, # prog_mark
-                5, # prog‰
+                f'>{iw}', # $N
+                f'>{iw}', # #N
+                f'<{ww}', # word
+                f'>9',    # 7.2f°C
+                f'>1',    # prog_mark
+                f'>5',    # prog‰
             )))
 
     def describe_prog(self, limit: int = 10):
@@ -1195,13 +1195,13 @@ class Search(StoredLog):
         ww = max(len(word) for word in self.word)
 
         part_widths = (
-            nw, # $N
-            nw, # #N
-            ww, # word
-            9, # 7.2f°C
-            1, # tier
-            5, # prog‰
-            tw, # ~N
+            f'>{nw}', # $N
+            f'>{nw}', # #N
+            f'<{ww}', # word
+            f'>9',    # 7.2f°C
+            f'>1',    # tier
+            f'>5',    # prog‰
+            f'>{tw}', # ~N
         )
 
         def extra_parts(word_i: int):
