@@ -3595,12 +3595,14 @@ class Search(StoredLog):
             self.client = client
             self.models: list[ollama.ListResponse.Model] = []
             self.names: list[str] = []
+            self.size_byte: list[str] = []
             self.name_ix: list[int] = []
             self.show_ix: list[int] = []
 
         def clear(self):
             self.models.clear()
             self.names.clear()
+            self.size_byte.clear()
             self.name_ix.clear()
             self.show_ix.clear()
 
@@ -3608,6 +3610,7 @@ class Search(StoredLog):
             model_i = len(self.models)
             self.models.append(model)
             self.names.append('')
+            self.size_byte.append('')
             return model_i
 
         def refresh(self, ui: PromptUI):
@@ -3627,6 +3630,8 @@ class Search(StoredLog):
                 name = model.model
                 if name is not None:
                     self.names[model_i] = name
+                if model.size is not None:
+                    self.size_byte[model_i] = model.size.human_readable()
 
             self.name_ix = sorted(
                 ( model_i
@@ -3661,12 +3666,14 @@ class Search(StoredLog):
                 f'>{len(str(len(self.show_ix)))+1}',       # N.
                 f'>{mark_width}',                          # ?
                 f'<{max(len(nom) for nom in self.names)}', # ...
+                f'<{2+8}',                                 # B:123.4XiB
             )
             for n, model_i in enumerate(self.show_ix, 1):
                 ui.print(' '.join(pad_parts((
                     f'{n}.',
                     mark(model_i),
                     self.names[model_i],
+                    f'B:{self.size_byte[model_i]:>8}', # 123.4XiB
                 ), part_widths)))
 
     def select_model(self, ui: PromptUI):
