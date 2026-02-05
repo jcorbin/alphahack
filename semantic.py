@@ -3763,6 +3763,7 @@ class Search(StoredLog):
         sel = self.llm_sel
 
         want_fam: str = ''
+        want_thinking = self.llm_thinking
         wanted: list[str] = []
 
         def pick():
@@ -3780,6 +3781,12 @@ class Search(StoredLog):
                     if sel.fams[model_i].startswith(want_fam)]
                 wanted.append(f'fam:{want_fam}')
 
+            if want_thinking:
+                ix = [
+                    model_i for model_i in ix
+                    if sel.cap_think[model_i]]
+                wanted.append('thinking')
+
             return ix
 
         def maybe_refresh():
@@ -3793,6 +3800,14 @@ class Search(StoredLog):
                     if tokens.have(r'/fam(i(ly?)?)?'):
                         want_fam = next(tokens, '')
                         ui.print(f'Using family filter: {want_fam!r}')
+                        maybe_refresh()
+                        continue
+
+                    if tokens.have(r'/think(i(ng?)?)?'):
+                        try:
+                            want_thinking = parse_think(tokens, fallthru=False if want_thinking else True)
+                        except ValueError:
+                            ui.print(f'! invalid thinking argument {next(tokens)!r}')
                         maybe_refresh()
                         continue
 
