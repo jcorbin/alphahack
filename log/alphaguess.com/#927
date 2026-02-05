@@ -1,0 +1,76 @@
+T3.0187839759746566 now: 2026-02-05T08:05:33EST
+TD86 site: alphaguess.com
+TD150117 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof 0f53f36312c44e1f26da9e638386af8f6a59392b
+TD194  ...␅
+TD4760886 ␆
+TD102  ...
+TD236 [0 : 98220 : 196531] mach? ␅
+TD2575498 ␆b
+TD98 [0 : 98220 : 196531] mach? b
+TD347 progress: -1 98220 mach
+TD92 [0 : 47382 : 98220] dis? ␅
+TD1416122 ␆b
+TD129 [0 : 47382 : 98220] dis? b
+TD170 progress: -1 47382 dis
+TD94 [0 : 23683 : 47382] camp? ␅
+TD1454881 ␆b
+TD96 [0 : 23683 : 47382] camp? b
+TD112 progress: -1 23683 camp
+TD104 [0 : 11764 : 23683] back? ␅
+TD1607821 ␆a
+TD106 [0 : 11764 : 23683] back? a
+TD130 progress: 1 11764 back
+TD124 [11765 : 17715 : 23683] blind? ␅
+TD1327691 ␆a
+TD84 [11765 : 17715 : 23683] blind? a
+TD98 progress: 1 17715 blind
+TD113 [17716 : 20687 : 23683] brill? ␅
+TD1599613 ␆a
+TD99 [17716 : 20687 : 23683] brill? a
+TD109 progress: 1 20687 brill
+TD103 [20688 : 22027 : 23683] bur? ␅
+TD4471790 ␆
+TD100 [20688 : 22027 : 23683] bur? 
+TD114 [20688 : 22027 : 23683] bur? ␅
+TD3407721 ␆a
+TD110 [20688 : 22027 : 23683] bur? a
+TD126 progress: 1 22027 bur
+TD397 [22028 : 22855 : 23683] cachacas? ␅
+TD2207438 ␆!
+TD100 [22028 : 22855 : 23683] cachacas? !
+TD623 [22028 : 22855 : 23682] cachalot? ␅
+TD2567362 ␆b
+TD99 [22028 : 22855 : 23682] cachalot? b
+TD122 progress: -1 22855 cachalot
+TD120 [22028 : 22288 : 22855] bus? ␅
+TD2095593 ␆a
+TD80 [22028 : 22288 : 22855] bus? a
+TD85 progress: 1 22288 bus
+TD76 [22289 : 22554 : 22855] button? ␅
+TD1551826 ␆it
+TD99 [22289 : 22554 : 22855] button? it
+TD113 progress: 0 22554 button
+TD36 [22289 : 22554 : 22855] <Done>.
+TD109 📋> ␅
+TD2440250 ␆🧩 Puzzle #927
+TD98 📋> 🧩 Puzzle #927
+TD18 📋> ␅
+TD43 ␆🤔 10 guesses
+TD6 📋> 🤔 10 guesses
+TD6 📋> ␅
+TD14 ␆⏱️ 24s
+TD6 📋> ⏱️ 24s
+TD5 📋> ␅
+TD343325 ␆🔗 alphaguess.com
+TD100 📋> 🔗 alphaguess.com
+TD25 📋> ␅
+TD151753 ␄
+TD142 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #927\n\ud83e\udd14 10 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com"}
+TD378 result: "\ud83e\udde9 Puzzle #927\n\ud83e\udd14 10 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com"
+TD11 result puzzle: 927
+TD4 result guesses: 10
+TD3 result time: 24s
+TD2 result link: alphaguess.com
+TD63 📆 2026-02-05 ? ␅
+TD191454 ␆
+TD97 📆 2026-02-05 ? 
