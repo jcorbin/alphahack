@@ -3696,8 +3696,20 @@ class Search(StoredLog):
     def select_model(self, ui: PromptUI):
         sel = self.llm_sel
 
+        want_fam: str = ''
+        wanted: list[str] = []
+
         def pick():
+            wanted.clear()
+
             ix = sel.name_ix
+
+            if want_fam:
+                ix = [
+                    model_i for model_i in ix
+                    if sel.fams[model_i].startswith(want_fam)]
+                wanted.append(f'fam:{want_fam}')
+
             return ix
 
         def maybe_refresh():
@@ -3708,6 +3720,12 @@ class Search(StoredLog):
         try:
             with ui.tokens as tokens:
                 while True:
+                    if tokens.have(r'/fam(i(ly?)?)?'):
+                        want_fam = next(tokens, '')
+                        sel.show_ix = pick()
+                        ui.print(f'Using family filter: {want_fam!r}')
+                        continue
+
                     if tokens:
                         nom = next(tokens)
                         try:
@@ -3719,7 +3737,7 @@ class Search(StoredLog):
                     maybe_refresh()
 
                     ui.br()
-                    ui.print(f'Available Models:')
+                    ui.print(f'Available{''.join(f' {w}' for w in wanted)} Models:')
                     sel.show_list(
                         ui,
                         mark=lambda model_i: '*' if sel.names[model_i] == self.llm_model else '',
