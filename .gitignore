@@ -3,7 +3,7 @@ __pycache__/
 
 *.log
 
-*.txt
+/*.txt
 !*.exclude.txt
 !nwl2023*.txt
 !opentaal-wordlist.txt
