@@ -3646,6 +3646,7 @@ class Search(StoredLog):
             self.size_parm: list[str] = []
             self.fams: list[str] = []
             self.cap_chat: list[bool|None] = []
+            self.cap_think: list[bool|None] = []
             self.name_ix: list[int] = []
             self.show_ix: list[int] = []
 
@@ -3656,6 +3657,7 @@ class Search(StoredLog):
             self.size_parm.clear()
             self.fams.clear()
             self.cap_chat.clear()
+            self.cap_think.clear()
             self.name_ix.clear()
             self.show_ix.clear()
 
@@ -3667,6 +3669,7 @@ class Search(StoredLog):
             self.size_parm.append('')
             self.fams.append('')
             self.cap_chat.append(None)
+            self.cap_think.append(None)
             return model_i
 
         def refresh(self, ui: PromptUI):
@@ -3711,6 +3714,7 @@ class Search(StoredLog):
                 caps = self.client.show(name).capabilities
                 if caps is not None:
                     self.cap_chat[model_i] = 'completion' in caps
+                    self.cap_think[model_i] = 'thinking' in caps
                 yield model_i
 
         def find(self, name: str):
@@ -3752,6 +3756,7 @@ class Search(StoredLog):
                     f'fam:{self.fams[model_i]}',
                     f'B:{self.size_byte[model_i]:>8}', # 123.4XiB
                     f'P:{self.size_parm[model_i]:>6}', # 123.4B
+                    f'(thinking)' if self.cap_think[model_i] else '',
                 ), part_widths)))
 
     def select_model(self, ui: PromptUI):
