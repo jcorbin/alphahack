@@ -3598,6 +3598,7 @@ class Search(StoredLog):
             self.size_byte: list[str] = []
             self.size_parm: list[str] = []
             self.fams: list[str] = []
+            self.cap_chat: list[bool|None] = []
             self.name_ix: list[int] = []
             self.show_ix: list[int] = []
 
@@ -3607,6 +3608,7 @@ class Search(StoredLog):
             self.size_byte.clear()
             self.size_parm.clear()
             self.fams.clear()
+            self.cap_chat.clear()
             self.name_ix.clear()
             self.show_ix.clear()
 
@@ -3617,6 +3619,7 @@ class Search(StoredLog):
             self.size_byte.append('')
             self.size_parm.append('')
             self.fams.append('')
+            self.cap_chat.append(None)
             return model_i
 
         def refresh(self, ui: PromptUI):
@@ -3626,6 +3629,8 @@ class Search(StoredLog):
                 ui.write('Refreshing ollama models:')
                 self.load()
                 ui.write('.')
+                for _ in self.load_caps():
+                    ui.write('.')
             finally:
                 ui.fin()
 
@@ -3651,6 +3656,15 @@ class Search(StoredLog):
                   for model_i, name in enumerate(self.names)
                   if name ),
                 key=lambda i: self.names[i])
+
+        def load_caps(self):
+            # TODO do this in parallel
+            for model_i, name in enumerate(self.names):
+                if not name: continue
+                caps = self.client.show(name).capabilities
+                if caps is not None:
+                    self.cap_chat[model_i] = 'completion' in caps
+                yield model_i
 
         def find(self, name: str):
             if not self.models:
@@ -3704,6 +3718,10 @@ class Search(StoredLog):
 
             ix = sel.name_ix
 
+            ix = [
+                model_i for model_i in ix
+                if sel.cap_chat[model_i]]
+
             if want_fam:
                 ix = [
                     model_i for model_i in ix
@@ -3713,7 +3731,7 @@ class Search(StoredLog):
             return ix
 
         def maybe_refresh():
-            if not sel.models:
+            if not sel.models or any(val is None for val in sel.cap_chat):
                 sel.refresh(ui)
             sel.show_ix = pick()
 
@@ -3722,8 +3740,8 @@ class Search(StoredLog):
                 while True:
                     if tokens.have(r'/fam(i(ly?)?)?'):
                         want_fam = next(tokens, '')
-                        sel.show_ix = pick()
                         ui.print(f'Using family filter: {want_fam!r}')
+                        maybe_refresh()
                         continue
 
                     if tokens:
