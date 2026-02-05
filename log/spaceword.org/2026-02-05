@@ -1,0 +1,102 @@
+T1.5401512400130741 now: 2026-02-05T13:36:58EST
+TD110 site: spaceword.org
+TD19 wordlist: nwl2023.txt
+TD39  ...␅
+TD2718270 ␆
+TD78  ...
+TD66 🧩  ? ␅
+TD5407967 ␆daily 20260205
+TD93 🧩  ? daily 20260205
+TD641 puzzle_id: 2026-02-05
+TD51 num letters (default: 21) ? ␅
+TD3447161 ␆
+TD88 num letters (default: 21) ? 
+TD60 num_letters: 21
+TD175 letters? ␅
+TD2367559 ␆abeehii
+TD98 letters? abeehii
+TD377 letters: |ABEEHII|
+TD122 letters? ␅
+TD1639405 ␆ijlnnoo
+TD96 letters? ijlnnoo
+TD171 letters: |ABEEHIIIJLNNOO|
+TD123 letters? ␅
+TD2287570 ␆qstuuyz
+TD94 letters? qstuuyz
+TD162 letters: |ABEEHIIIJLNNOOQSTUUYZ|
+TD123 letters. ␅
+TD775811 ␆
+TD102 letters. 
+TD56444 [doit:100]> ␅
+TD6223383 ␆/sea -cap 512
+TD100 [doit:100]> /sea -cap 512
+TD52899901 search 3a2310 [ 512 cap:512 may:3127 prune:84 done:6 dead:10 ]> ␅
+TD941370499 ␆show done
+TD136 search 3a2310 [ 512 cap:512 may:3127 prune:84 done:6 dead:10 ]> show done
+TD1766 search 3a2310 [ 512 cap:512 may:3127 prune:84 done:6 dead:10 ]> ␅
+TD4014050 ␆show 1
+TD81 search 3a2310 [ 512 cap:512 may:3127 prune:84 done:6 dead:10 ]> show 1
+TD690 search 3a2310 [ 512 cap:512 may:3127 prune:84 done:6 dead:10 ]> ␅
+TD4455904 ␆ret
+TD102 search 3a2310 [ 512 cap:512 may:3127 prune:84 done:6 dead:10 ]> ret
+TD408 change: 14 B
+TD13 change: 15 Y
+TD7 change: 16 E
+TD5 change: 24 I
+TD5 change: 26 O
+TD5 change: 32 J
+TD5 change: 33 O
+TD5 change: 34 U
+TD4 change: 35 A
+TD5 change: 36 L
+TD5 change: 37 S
+TD5 change: 44 N
+TD5 change: 46 I
+TD5 change: 54 I
+TD5 change: 56 T
+TD5 change: 64 Q
+TD5 change: 66 H
+TD5 change: 74 U
+TD5 change: 83 Z
+TD4 change: 84 E
+TD4 change: 85 N
+TD22358 [doit:2152]> ␅
+TD50464914 ␆/res
+TD112 [doit:2152]> /res
+TD214 📋> ␅
+TD640122 ␆✨ Spaceword.org Daily 2026-02-05 ✨
+TD108 📋> ✨ Spaceword.org Daily 2026-02-05 ✨
+TD11 📋> ␅
+TD28 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD6 ␆🏆 Score: 2152
+TD3 📋> 🏆 Score: 2152
+TD2 📋> ␅
+TD6 ␆🏅 Rank: 163/240 😀
+TD2 📋> 🏅 Rank: 163/240 😀
+TD2 📋> ␅
+TD8 ␆🧩 Tiles: 21/21 ✅
+TD2 📋> 🧩 Tiles: 21/21 ✅
+TD2 📋> ␅
+TD5 ␆📏 Space Bonus: +52
+TD2 📋> 📏 Space Bonus: +52
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD5 ␆Play at https://spaceword.org
+TD2 📋> Play at https://spaceword.org
+TD3 📋> ␅
+TD335285 ␆#spaceword
+TD110 📋> #spaceword
+TD17 📋> ␅
+TD207781 ␄
+TD143 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-02-05 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 163/240 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TD935 result: "\u2728 Spaceword.org Daily 2026-02-05 \u2728\n\n\ud83c\udfc6 Score: 2152\n\ud83c\udfc5 Rank: 163/240 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +52\n\n\nPlay at https://spaceword.org\n#spaceword"
+TD24951 [prior:2152]> ␅
+TD910058 ␆/store
+TD100 [prior:2152]> /store
