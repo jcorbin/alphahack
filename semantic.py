@@ -3596,6 +3596,7 @@ class Search(StoredLog):
             self.models: list[ollama.ListResponse.Model] = []
             self.names: list[str] = []
             self.size_byte: list[str] = []
+            self.size_parm: list[str] = []
             self.name_ix: list[int] = []
             self.show_ix: list[int] = []
 
@@ -3603,6 +3604,7 @@ class Search(StoredLog):
             self.models.clear()
             self.names.clear()
             self.size_byte.clear()
+            self.size_parm.clear()
             self.name_ix.clear()
             self.show_ix.clear()
 
@@ -3611,6 +3613,7 @@ class Search(StoredLog):
             self.models.append(model)
             self.names.append('')
             self.size_byte.append('')
+            self.size_parm.append('')
             return model_i
 
         def refresh(self, ui: PromptUI):
@@ -3632,6 +3635,11 @@ class Search(StoredLog):
                     self.names[model_i] = name
                 if model.size is not None:
                     self.size_byte[model_i] = model.size.human_readable()
+
+                det = model.details
+                if det:
+                    if det.parameter_size is not None:
+                        self.size_parm[model_i] = det.parameter_size
 
             self.name_ix = sorted(
                 ( model_i
@@ -3667,6 +3675,7 @@ class Search(StoredLog):
                 f'>{mark_width}',                          # ?
                 f'<{max(len(nom) for nom in self.names)}', # ...
                 f'<{2+8}',                                 # B:123.4XiB
+                f'<{2+6}',                                 # P:123.4B
             )
             for n, model_i in enumerate(self.show_ix, 1):
                 ui.print(' '.join(pad_parts((
@@ -3674,6 +3683,7 @@ class Search(StoredLog):
                     mark(model_i),
                     self.names[model_i],
                     f'B:{self.size_byte[model_i]:>8}', # 123.4XiB
+                    f'P:{self.size_parm[model_i]:>6}', # 123.4B
                 ), part_widths)))
 
     def select_model(self, ui: PromptUI):
