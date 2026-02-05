@@ -3597,6 +3597,7 @@ class Search(StoredLog):
             self.names: list[str] = []
             self.size_byte: list[str] = []
             self.size_parm: list[str] = []
+            self.fams: list[str] = []
             self.name_ix: list[int] = []
             self.show_ix: list[int] = []
 
@@ -3605,6 +3606,7 @@ class Search(StoredLog):
             self.names.clear()
             self.size_byte.clear()
             self.size_parm.clear()
+            self.fams.clear()
             self.name_ix.clear()
             self.show_ix.clear()
 
@@ -3614,6 +3616,7 @@ class Search(StoredLog):
             self.names.append('')
             self.size_byte.append('')
             self.size_parm.append('')
+            self.fams.append('')
             return model_i
 
         def refresh(self, ui: PromptUI):
@@ -3638,6 +3641,8 @@ class Search(StoredLog):
 
                 det = model.details
                 if det:
+                    if det.family is not None:
+                        self.fams[model_i] = det.family
                     if det.parameter_size is not None:
                         self.size_parm[model_i] = det.parameter_size
 
@@ -3671,17 +3676,19 @@ class Search(StoredLog):
                       mark: Callable[[int], str] = lambda _: '',
                       mark_width: int = 0):
             part_widths = (
-                f'>{len(str(len(self.show_ix)))+1}',       # N.
-                f'>{mark_width}',                          # ?
-                f'<{max(len(nom) for nom in self.names)}', # ...
-                f'<{2+8}',                                 # B:123.4XiB
-                f'<{2+6}',                                 # P:123.4B
+                f'>{len(str(len(self.show_ix)))+1}',        # N.
+                f'>{mark_width}',                           # ?
+                f'<{max(len(nom) for nom in self.names)}',  # ...
+                f'<{4+max(len(fam) for fam in self.fams)}', # fam:...
+                f'<{2+8}',                                  # B:123.4XiB
+                f'<{2+6}',                                  # P:123.4B
             )
             for n, model_i in enumerate(self.show_ix, 1):
                 ui.print(' '.join(pad_parts((
                     f'{n}.',
                     mark(model_i),
                     self.names[model_i],
+                    f'fam:{self.fams[model_i]}',
                     f'B:{self.size_byte[model_i]:>8}', # 123.4XiB
                     f'P:{self.size_parm[model_i]:>6}', # 123.4B
                 ), part_widths)))
