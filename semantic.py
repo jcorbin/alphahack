@@ -3203,6 +3203,7 @@ class Search(StoredLog):
                     ui.print(f'! {e}')
                     return self.ideate
 
+            ui.fin()
             for line in wraplines(ui.screen_cols-4, prompt.splitlines()):
                 ui.print(f'🗨️ {line}')
 
