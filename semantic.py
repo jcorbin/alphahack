@@ -38,6 +38,12 @@ def shorten_under(name: str, names: Sequence[str]):
         ): return nom
     return name
 
+def sumit[K](kns: Iterable[tuple[K, int]]):
+    counts = Counter[K]()
+    for k, n in kns:
+        counts[k] += n
+    return counts
+
 def weighted(score: float, w: int|float):
     if w == 0: return 0
     if score < 0:
@@ -502,18 +508,43 @@ def not_between(lines: Iterable[str], start: re.Pattern[str], end: re.Pattern[st
 class ChatStats:
     source_id: int
 
-    token_count: int
-    user_count: int
-    assistant_count: int
+    sys_mess: int
+    sys_tokens: int
+
+    user_mess: int
+    user_tokens: int
+
+    asst_mess: int
+    asst_tokens: int
+
+    other_mess: int
+    other_tokens: int
+
+    @property
+    def token_count(self):
+        return sum((
+            self.sys_tokens,
+            self.user_tokens,
+            self.asst_tokens,
+            self.other_tokens,
+        ))
 
     def token_marks(self):
-        yield f'💬 {stats.assistant_count}'
-        yield f'🫧 {stats.user_count}'
-        yield f'🪙 {stats.token_count}'
+        if self.sys_mess or self.sys_tokens:
+            yield f'📜{self.sys_tokens}/{self.sys_mess}'
+
+        if self.user_mess:
+            yield f'❓{self.user_tokens}/{self.user_mess}'
+
+        if self.asst_mess:
+            yield f'💬{self.asst_tokens}/{self.asst_mess}'
+
+        if self.other_mess or self.other_tokens:
+            yield f'🤷{self.other_tokens}/{self.other_mess}'
 
     def token_desc(self):
         marks = tuple(self.token_marks())
-        return ' '.join(marks) if marks else '🪙 ∅'
+        return f'🪙 {' '.join(marks)}' if marks else '🪙 ∅'
 
 @dataclass
 class ChatSession:
@@ -3303,16 +3334,26 @@ class Search(StoredLog):
 
     def chat_stats(self):
         role_counts = Counter(mess.role for mess in self.chat)
-        token_count = sum(
-            count_tokens(mess.content or '')
+        content_tokens = sumit(
+            (mess.role, count_tokens(mess.content or ''))
             for mess in self.chat)
-        user_count = role_counts.pop("user", 0)
-        assistant_count = role_counts.pop("assistant", 0)
+
+        sys_mess = role_counts.pop('system', 0)
+        sys_tokens = content_tokens.pop('system', 0)
+        user_tokens = content_tokens.pop('user', 0)
+        asst_tokens = content_tokens.pop('assistant', 0)
+        other_tokens = sum(content_tokens.values())
+
+        user_mess = role_counts.pop('user', 0)
+        asst_mess = role_counts.pop('assistant', 0)
+        other_mess = sum(role_counts.values())
+
         return ChatStats(
             self.source_code(self.llm_model),
-            token_count,
-            user_count,
-            assistant_count,
+            sys_mess, sys_tokens,
+            user_mess, user_tokens,
+            asst_mess, asst_tokens,
+            other_mess, other_tokens,
         )
 
     @property
