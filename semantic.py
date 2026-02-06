@@ -500,6 +500,8 @@ def not_between(lines: Iterable[str], start: re.Pattern[str], end: re.Pattern[st
 @final
 @dataclass
 class ChatStats:
+    source_id: int
+
     token_count: int
     user_count: int
     assistant_count: int
@@ -2172,7 +2174,8 @@ class Search(StoredLog):
 
     def prompt_parts(self):
         stats = self.chat_stats()
-        yield f'🤖 {stats.token_desc()}'
+        nom = self.source_nom(stats.source_id) if stats.source_id else '<unknown>'
+        yield f'🤖 {nom} {stats.token_desc()}'
         yield f'#{self.attempt+1}'
 
     def write_prompt(self, ui: PromptUI):
@@ -3305,7 +3308,12 @@ class Search(StoredLog):
             for mess in self.chat)
         user_count = role_counts.pop("user", 0)
         assistant_count = role_counts.pop("assistant", 0)
-        return ChatStats(token_count, user_count, assistant_count)
+        return ChatStats(
+            self.source_code(self.llm_model),
+            token_count,
+            user_count,
+            assistant_count,
+        )
 
     @property
     def last_chat_role(self):
