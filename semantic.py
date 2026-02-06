@@ -2214,7 +2214,7 @@ class Search(StoredLog):
         stats = self.chat_stats()
         nom = self.source_nom(stats.source_id) if stats.source_id else '<unknown>'
         yield f'🤖 {nom} {stats.token_desc()}'
-        yield f'#{self.attempt+1}'
+        yield f'❓ #{self.attempt+1}'
 
     def write_prompt(self, ui: PromptUI):
         first = True
@@ -2278,11 +2278,11 @@ class Search(StoredLog):
             for attempt in range(3):
                 if attempt > 0:
                     if self.explain_auto:
-                        ui.print(f'// automate attempt {attempt+1}, try again')
+                        ui.print(f'💡/ automate attempt {attempt+1}, try again')
                     may = sorted(self.automate(), reverse=True)
                 for score, input, explain in may:
                     if self.explain_auto:
-                        ui.print(f'// {score:.2f} = {explanation(explain)}')
+                        ui.print(f'💡 {score:.2f} = {explanation(explain)}')
                     self.write_prompt(ui)
                     ui.fin(f'[AUTO]? {input}')
                     input, _, _ = input.partition('//')
@@ -2291,7 +2291,7 @@ class Search(StoredLog):
                     st = self.do_ideate(ui)
                     if st: return st
 
-            ui.print(f'// full auto exhausted')
+            ui.print(f'😫 full auto exhausted')
             self.full_auto = False
 
     def ideate_stop(self, ui: PromptUI) -> PromptUI.State|None:
@@ -2937,7 +2937,7 @@ class Search(StoredLog):
         )
 
         if self.auto_score:
-            ui.write(f'Auto scoring {word!r:{ww}}...')
+            ui.write(f'🛜 Auto scoring {word!r:{ww}}...')
 
             res = self.request(ui, 'post', '/score', params={'n': f'{self.puzzle_num}'}, data={'word': word})
 
@@ -3249,7 +3249,7 @@ class Search(StoredLog):
                 return self.chat_extract_all
 
             if not self.full_auto:
-                ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
+                ui.print(f'📝 No new words extracted from {self.chat_extract_desc(exw)}')
 
     def chat_say(self, ui: PromptUI, prompt: str):
         if not self.chat and self.system_prompt:
