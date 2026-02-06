@@ -1,0 +1,149 @@
+T114.47006237899768 now: 2026-02-06T10:19:26EST
+TD150 site: m-w.com/games/quordle/#/rescue
+TD24 wordlist: nwl2023.txt
+TD8 num_words: 4
+TD134  ...␅
+TD3726428 ␆
+TD77  ...
+TD300334 > ␅
+TD4019837 ␆tried unlit emcee
+TD73 > tried unlit emcee
+TD315 questioning: UNLIT EMCEE
+TD106 Rescue #1 _____? ␅
+TD2543382 ␆MMnYM
+TD96 Rescue #1 _____? MMnYM
+TD631 attempt: 0 UNLIT m m n Y m
+TD110 Rescue #1 ___I_ ~NTU -L? ␅
+TD1143116 ␆nnMnn
+TD98 Rescue #1 ___I_ ~NTU -L? nnMnn
+TD225 attempt: 0 EMCEE n n m n n
+TD98 Rescue #2 _____? ␅
+TD1479760 ␆nnnMY
+TD108 Rescue #2 _____? nnnMY
+TD291 attempt: 1 UNLIT n n n m Y
+TD118 Rescue #2 ____T ~I -LNU? ␅
+TD1079395 ␆nnnnn
+TD78 Rescue #2 ____T ~I -LNU? nnnnn
+TD140 attempt: 1 EMCEE n n n n n
+TD67 Rescue #3 _____? ␅
+TD1839930 ␆nMnnn
+TD108 Rescue #3 _____? nMnnn
+TD274 attempt: 2 UNLIT n m n n n
+TD116 Rescue #3 _____ ~N -ILTU? ␅
+TD1199790 ␆nnnnn
+TD97 Rescue #3 _____ ~N -ILTU? nnnnn
+TD209 attempt: 2 EMCEE n n n n n
+TD98 Rescue #4 _____? ␅
+TD1487121 ␆Mnnnn
+TD80 Rescue #4 _____? Mnnnn
+TD154 attempt: 3 UNLIT m n n n n
+TD68 Rescue #4 _____ ~U -ILNT? ␅
+TD1151728 ␆nnMnn
+TD96 Rescue #4 _____ ~U -ILNT? nnMnn
+TD207 attempt: 3 EMCEE n n m n n
+TD392679 > ␅
+TD1478979 ␆*
+TD85 > *
+TD728 ? ␅
+TD4759147 ␆2
+TD78 ? 2
+TD153 questioning: tunic
+TD104 Rescue #1 ___I_ ~CNTU -ELM? ␅
+TD3399913 ␆YYYYY
+TD75 Rescue #1 ___I_ ~CNTU -ELM? YYYYY
+TD205 attempt: 0 TUNIC Y Y Y Y Y
+TD102 Rescue #2 ____T ~I -CELMNU? ␅
+TD1519616 ␆MnnMn
+TD91 Rescue #2 ____T ~I -CELMNU? MnnMn
+TD165 attempt: 1 TUNIC m n n m n
+TD77 Rescue #3 _____ ~N -CEILMTU? ␅
+TD1191545 ␆nnMnn
+TD76 Rescue #3 _____ ~N -CEILMTU? nnMnn
+TD151 attempt: 2 TUNIC n n m n n
+TD81 Rescue #4 _____ ~CU -EILMNT? ␅
+TD2111762 ␆nMnnM
+TD87 Rescue #4 _____ ~CU -EILMNT? nMnnM
+TD224 attempt: 3 TUNIC n m n n m
+TD308714 > ␅
+TD1203162 ␆*
+TD86 > *
+TD3449 ? ␅
+TD1244201 ␆1
+TD97 ? 1
+TD180 questioning: sworn
+TD158 Rescue #2 ____T ~I -CELMNU? ␅
+TD2663691 ␆nnMnn
+TD79 Rescue #2 ____T ~I -CELMNU? nnMnn
+TD161 attempt: 1 SWORN n n m n n
+TD80 Rescue #3 _____ ~N -CEILMTU? ␅
+TD1631764 ␆YYYnY
+TD104 Rescue #3 _____ ~N -CEILMTU? YYYnY
+TD216 attempt: 2 SWORN Y Y Y n Y
+TD112 Rescue #4 _____ ~CU -EILMNT? ␅
+TD1119561 ␆nnMnn
+TD103 Rescue #4 _____ ~CU -EILMNT? nnMnn
+TD218 attempt: 3 SWORN n n m n n
+TD322106 > ␅
+TD621436 ␆*
+TD71 > *
+TD272 questioning: swoon
+TD75 Rescue #2 ____T ~IO -CELMNRSUW? ␅
+TD3431741 ␆nnnYn
+TD86 Rescue #2 ____T ~IO -CELMNRSUW? nnnYn
+TD187 attempt: 1 SWOON n n n Y n
+TD83 Rescue #3 SWO_N -CEILMRTU? ␅
+TD1263594 ␆YYYYY
+TD87 Rescue #3 SWO_N -CEILMRTU? YYYYY
+TD188 attempt: 2 SWOON Y Y Y Y Y
+TD90 Rescue #4 _____ ~COU -EILMNRSTW? ␅
+TD991714 ␆nnMnn
+TD108 Rescue #4 _____ ~COU -EILMNRSTW? nnMnn
+TD221 attempt: 3 SWOON n n m n n
+TD203107 > ␅
+TD1012458 ␆*
+TD78 > *
+TD424 ? ␅
+TD1119566 ␆1
+TD84 ? 1
+TD137 questioning: pouch
+TD105 Rescue #2 ___OT ~I -CELMNRSUW? ␅
+TD4479610 ␆nMnnn
+TD78 Rescue #2 ___OT ~I -CELMNRSUW? nMnnn
+TD161 attempt: 1 POUCH n m n n n
+TD85 Rescue #4 _____ ~COU -EILMNRSTW O:1? ␅
+TD1055723 ␆YYYYY
+TD76 Rescue #4 _____ ~COU -EILMNRSTW O:1? YYYYY
+TD170 attempt: 3 POUCH Y Y Y Y Y
+TD94445 > ␅
+TD745455 ␆*
+TD99 > *
+TD379 ? ␅
+TD1711467 ␆2
+TD89 ? 2
+TD173 questioning: bigot
+TD151 Rescue #2 ___OT ~I -CEHLMNPRSUW? ␅
+TD3447556 ␆YYYYY
+TD79 Rescue #2 ___OT ~I -CEHLMNPRSUW? YYYYY
+TD154 attempt: 1 BIGOT Y Y Y Y Y
+TD72 📋> ␅
+TD4208418 ␆Daily Rescue 88
+TD96 📋> Daily Rescue 88
+TD17 📋> ␅
+TD44 ␆3️⃣7️⃣
+TD6 📋> 3️⃣7️⃣
+TD6 📋> ␅
+TD12 ␆5️⃣6️⃣
+TD5 📋> 5️⃣6️⃣
+TD5 📋> ␅
+TD10 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD311160 ␆
+TD77 📋> 
+TD8 📋> ␅
+TD160018 ␄
+TD139 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 88\n3\ufe0f\u20e37\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD851 result: "Daily Rescue 88\n3\ufe0f\u20e37\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD67 📆 2026-02-06 ? ␅
+TD166768 ␆
+TD98 📆 2026-02-06 ? 
