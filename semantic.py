@@ -3497,7 +3497,7 @@ class Search(StoredLog):
 
             if not words:
                 if not self.full_auto:
-                    ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
+                    ui.print(f'📝 No new words extracted from {self.chat_extract_desc(exw)}')
                 return
 
             if do_all:
@@ -3510,14 +3510,14 @@ class Search(StoredLog):
         words = sorted(exw.may)
 
         ui.br()
-        ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
+        ui.print(f'📝 Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
         iw = len(str(len(words)))
         for i, word in enumerate(words):
             source = self.source_name(exw.may[word])
             ui.print(f'[{i+1:{iw}}] {word} source:{source}')
 
         basis_change = str(self.analyze_basis())
-        if basis_change: ui.print(f'// {basis_change}')
+        if basis_change: ui.print(f'📌 {basis_change}')
 
         with (
             ui.catch_state(KeyboardInterrupt, self.ideate),
@@ -3553,7 +3553,7 @@ class Search(StoredLog):
         words = sorted(exw.may)
         if not words:
             if not self.full_auto:
-                ui.print(f'// No new words extracted from {self.chat_extract_desc(exw)}')
+                ui.print(f'📝 No new words extracted from {self.chat_extract_desc(exw)}')
             return self.ideate
 
         with ui.catch_state(KeyboardInterrupt, self.ideate_stop):
@@ -3593,9 +3593,9 @@ class Search(StoredLog):
 
             if not self.full_auto:
                 ui.br()
-                ui.print(f'// Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
+                ui.print(f'📝 Extracted {len(words)} new words from {self.chat_extract_desc(exw)}')
                 basis_note = str(basis_change)
-                if basis_note: ui.print(f'// {basis_note}')
+                if basis_note: ui.print(f'📌 {basis_note}')
 
             word = words[0]
             source = self.source_name(exw.may[word])
