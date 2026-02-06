@@ -516,6 +516,7 @@ class ChatStats:
 
     asst_mess: int
     asst_tokens: int
+    asst_thinking: int
 
     other_mess: int
     other_tokens: int
@@ -526,6 +527,7 @@ class ChatStats:
             self.sys_tokens,
             self.user_tokens,
             self.asst_tokens,
+            self.asst_thinking,
             self.other_tokens,
         ))
 
@@ -537,7 +539,12 @@ class ChatStats:
             yield f'❓{self.user_tokens}/{self.user_mess}'
 
         if self.asst_mess:
-            yield f'💬{self.asst_tokens}/{self.asst_mess}'
+            if self.asst_thinking and self.asst_tokens:
+                yield f'🧠💬{self.asst_thinking}:{self.asst_tokens}/{self.asst_mess}'
+            elif self.asst_thinking:
+                yield f'🧠{self.asst_thinking}/{self.asst_mess}'
+            elif self.asst_tokens:
+                yield f'💬{self.asst_tokens}/{self.asst_mess}'
 
         if self.other_mess or self.other_tokens:
             yield f'🤷{self.other_tokens}/{self.other_mess}'
@@ -3337,12 +3344,18 @@ class Search(StoredLog):
         content_tokens = sumit(
             (mess.role, count_tokens(mess.content or ''))
             for mess in self.chat)
+        thinking_tokens = sumit(
+            (mess.role, count_tokens(mess.thinking or ''))
+            for mess in self.chat)
 
         sys_mess = role_counts.pop('system', 0)
-        sys_tokens = content_tokens.pop('system', 0)
+        sys_tokens = (
+            content_tokens.pop('system', 0) +
+            thinking_tokens.pop('system', 0))
         user_tokens = content_tokens.pop('user', 0)
         asst_tokens = content_tokens.pop('assistant', 0)
-        other_tokens = sum(content_tokens.values())
+        asst_thinking = thinking_tokens.pop('assistant', 0)
+        other_tokens = sum(content_tokens.values()) + sum(thinking_tokens.values())
 
         user_mess = role_counts.pop('user', 0)
         asst_mess = role_counts.pop('assistant', 0)
@@ -3352,7 +3365,7 @@ class Search(StoredLog):
             self.source_code(self.llm_model),
             sys_mess, sys_tokens,
             user_mess, user_tokens,
-            asst_mess, asst_tokens,
+            asst_mess, asst_tokens, asst_thinking,
             other_mess, other_tokens,
         )
 
