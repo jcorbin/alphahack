@@ -1,0 +1,97 @@
+T53406.76708583001 now: 2026-02-06T08:07:31EST
+TD94 site: alphaguess.com
+TD145939 loaded 196531 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (73 words excluded) asof 0a98eabe33450b97ef0e4ad5f07aba630d2be3f1
+TD119  ...␅
+TD3421382 ␆
+TD95  ...
+TD173 [0 : 98220 : 196531] mach? ␅
+TD1119694 ␆
+TD100 [0 : 98220 : 196531] mach? 
+TD115 [0 : 98220 : 196531] mach? ␅
+TD2087678 ␆b
+TD81 [0 : 98220 : 196531] mach? b
+TD89 progress: -1 98220 mach
+TD84 [0 : 47382 : 98220] dis? ␅
+TD1447859 ␆b
+TD99 [0 : 47382 : 98220] dis? b
+TD109 progress: -1 47382 dis
+TD115 [0 : 23683 : 47382] camp? ␅
+TD1775843 ␆a
+TD98 [0 : 23683 : 47382] camp? a
+TD110 progress: 1 23683 camp
+TD110 [23684 : 35526 : 47382] convention? ␅
+TD1991588 ␆b
+TD91 [23684 : 35526 : 47382] convention? b
+TD112 progress: -1 35526 convention
+TD237 [23684 : 29604 : 35526] circuit? ␅
+TD3287667 ␆a
+TD103 [23684 : 29604 : 35526] circuit? a
+TD111 progress: 1 29604 circuit
+TD116 [29605 : 32553 : 35526] color? ␅
+TD6879698 ␆a
+TD92 [29605 : 32553 : 35526] color? a
+TD111 progress: 1 32553 color
+TD126 [32554 : 33701 : 35526] con? ␅
+TD2167491 ␆b
+TD92 [32554 : 33701 : 35526] con? b
+TD109 progress: -1 33701 con
+TD108 [32554 : 33110 : 33701] common? ␅
+TD1287794 ␆a
+TD78 [32554 : 33110 : 33701] common? a
+TD86 progress: 1 33110 common
+TD80 [33111 : 33399 : 33701] complain? ␅
+TD1383771 ␆b
+TD96 [33111 : 33399 : 33701] complain? b
+TD109 progress: -1 33399 complain
+TD121 [33111 : 33236 : 33399] comp? ␅
+TD1463583 ␆a
+TD92 [33111 : 33236 : 33399] comp? a
+TD84 progress: 1 33236 comp
+TD165 [33237 : 33319 : 33399] compatible? ␅
+TD1703855 ␆b
+TD98 [33237 : 33319 : 33399] compatible? b
+TD108 progress: -1 33319 compatible
+TD319 [33237 : 33276 : 33319] comparative? ␅
+TD3815483 ␆a
+TD87 [33237 : 33276 : 33319] comparative? a
+TD83 progress: 1 33276 comparative
+TD79 [33277 : 33292 : 33319] compart? ␅
+TD4191672 ␆a
+TD98 [33277 : 33292 : 33319] compart? a
+TD110 progress: 1 33292 compart
+TD123 [33293 : 33302 : 33319] compas? ␅
+TD1495744 ␆a
+TD90 [33293 : 33302 : 33319] compas? a
+TD114 progress: 1 33302 compas
+TD118 [33303 : 33304 : 33319] compass? ␅
+TD1391707 ␆a
+TD98 [33303 : 33304 : 33319] compass? a
+TD108 progress: 1 33304 compass
+TD106 [33305 : 33309 : 33319] compassion? ␅
+TD1527749 ␆it
+TD99 [33305 : 33309 : 33319] compassion? it
+TD112 progress: 0 33309 compassion
+TD28 [33305 : 33309 : 33319] <Done>.
+TD81 📋> ␅
+TD2520035 ␆🧩 Puzzle #928
+TD87 📋> 🧩 Puzzle #928
+TD10 📋> ␅
+TD36 ␆🤔 16 guesses
+TD4 📋> 🤔 16 guesses
+TD4 📋> ␅
+TD10 ␆⏱️ 36s
+TD4 📋> ⏱️ 36s
+TD3 📋> ␅
+TD287502 ␆🔗 alphaguess.com
+TD99 📋> 🔗 alphaguess.com
+TD15 📋> ␅
+TD183880 ␄
+TD161 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #928\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 36s\n\ud83d\udd17 alphaguess.com"}
+TD104 result: "\ud83e\udde9 Puzzle #928\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 36s\n\ud83d\udd17 alphaguess.com"
+TD16 result puzzle: 928
+TD7 result guesses: 16
+TD6 result time: 36s
+TD5 result link: alphaguess.com
+TD95 📆 2026-02-06 ? ␅
+TD159579 ␆
+TD77 📆 2026-02-06 ? 
