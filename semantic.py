@@ -504,6 +504,15 @@ class ChatStats:
     user_count: int
     assistant_count: int
 
+    def token_marks(self):
+        yield f'💬 {self.assistant_count}'
+        yield f'🫧 {self.user_count}'
+        yield f'🪙 {self.token_count}'
+
+    def token_desc(self):
+        marks = tuple(self.token_marks())
+        return ' '.join(marks) if marks else '🪙 ∅'
+
 @dataclass
 class ChatSession:
     chat: list[ollama.Message]
@@ -2140,10 +2149,7 @@ class Search(StoredLog):
 
     def prompt_parts(self):
         stats = self.chat_stats()
-        if stats.token_count > 0:
-            yield f'🤖 {stats.assistant_count}'
-            yield f'🫧 {stats.user_count}'
-            yield f'🪙 {stats.token_count}'
+        yield f'🤖 {stats.token_desc()}'
         yield f'❓ #{self.attempt+1}'
 
     def write_prompt(self, ui: PromptUI):
