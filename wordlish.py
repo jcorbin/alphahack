@@ -375,7 +375,7 @@ class Word:
                     can.difference_update((c,))
         return at
 
-    def re_may(self,
+    def may_alpha(self,
                i: int,
                less: Iterable[str]|None = None,
                void: Iterable[str]|None = None,
@@ -390,11 +390,15 @@ class Word:
                 if self.max[c] - n <= 0)
         if void is not None:
             alpha = alpha.difference(void)
-        return f'[{"".join(char_ranges(alpha))}]'
+        return alpha
 
     def re_can_lets(self, void: Iterable[str]|None = None):
         for i, known in enumerate(self.yes):
-            yield known or self.re_may(i, void=void)
+            if known:
+                yield known
+                continue
+            alpha = self.may_alpha(i, void=void)
+            yield f'[{"".join(char_ranges(alpha))}]'
 
     def re_can(self, void: Iterable[str]|None = None):
         return ''.join(self.re_can_lets(void))
@@ -411,9 +415,12 @@ class Word:
 
     def re_may_alts(self, void: Iterable[str]|None = None):
         may = tuple(sorted(self.may))
+        may_alpha = tuple(
+            self.may_alpha(i, may, void=void)
+            for i in range(len(self.yes)))
         can = tuple(
-            known or self.re_may(i, may, void=void)
-            for i, known in enumerate(self.yes))
+            known or f'[{"".join(char_ranges(alpha))}]'
+            for known, alpha in zip(self.yes, may_alpha))
         for mix, pmay in self.re_may_perms():
             if any(
                 pmay[j] not in self.can[i]
