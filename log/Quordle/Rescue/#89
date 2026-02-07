@@ -1,0 +1,201 @@
+T1788.7999987520002 now: 2026-02-07T10:00:31EST
+TD66 site: m-w.com/games/quordle/#/rescue
+TD11 wordlist: nwl2023.txt
+TD2 num_words: 4
+TD62  ...␅
+TD3079547 ␆
+TD69  ...
+TD360608 > ␅
+TD4695504 ␆tried wacky frill
+TD96 > tried wacky frill
+TD400 questioning: WACKY FRILL
+TD147 Rescue #1 _____? ␅
+TD1991502 ␆nYMnn
+TD95 Rescue #1 _____? nYMnn
+TD239 attempt: 0 WACKY n Y m n n
+TD104 Rescue #1 _A___ ~C -KWY? ␅
+TD1919598 ␆nnnnn
+TD93 Rescue #1 _A___ ~C -KWY? nnnnn
+TD220 attempt: 0 FRILL n n n n n
+TD105 Rescue #2 _____? ␅
+TD1751723 ␆nYnnn
+TD93 Rescue #2 _____? nYnnn
+TD230 attempt: 1 WACKY n Y n n n
+TD101 Rescue #2 _A___ -CKWY? ␅
+TD1575545 ␆Ynnnn
+TD94 Rescue #2 _A___ -CKWY? Ynnnn
+TD233 attempt: 1 FRILL Y n n n n
+TD119 Rescue #3 _____? ␅
+TD2151656 ␆nnnnn
+TD75 Rescue #3 _____? nnnnn
+TD137 attempt: 2 WACKY n n n n n
+TD62 Rescue #3 _____ -ACKWY? ␅
+TD1592086 ␆YnnMn
+TD106 Rescue #3 _____ -ACKWY? YnnMn
+TD222 attempt: 2 FRILL Y n n m n
+TD96 Rescue #4 _____? ␅
+TD1599442 ␆nnnnn
+TD106 Rescue #4 _____? nnnnn
+TD250 attempt: 3 WACKY n n n n n
+TD113 Rescue #4 _____ -ACKWY? ␅
+TD1351574 ␆nnYnn
+TD84 Rescue #4 _____ -ACKWY? nnYnn
+TD233 attempt: 3 FRILL n n Y n n
+TD290307 > ␅
+TD1229385 ␆*
+TD72 > *
+TD826 ? ␅
+TD935118 ␆1
+TD78 ? 1
+TD123 questioning: noise
+TD125 Rescue #1 _A___ ~C -FIKLRWY? ␅
+TD2912013 ␆MMnnn
+TD99 Rescue #1 _A___ ~C -FIKLRWY? MMnnn
+TD229 attempt: 0 NOISE m m n n n
+TD111 Rescue #2 FA___ -CIKLRWY? ␅
+TD1471588 ␆Mnnnn
+TD80 Rescue #2 FA___ -CIKLRWY? Mnnnn
+TD154 attempt: 1 NOISE m n n n n
+TD76 Rescue #3 F____ ~L -ACIKRWY L:1? ␅
+TD1495787 ␆nnnnM
+TD71 Rescue #3 F____ ~L -ACIKRWY L:1? nnnnM
+TD142 attempt: 2 NOISE n n n n m
+TD69 Rescue #4 __I__ -ACFKLRWY? ␅
+TD1343824 ␆nnYMn
+TD66 Rescue #4 __I__ -ACFKLRWY? nnYMn
+TD127 attempt: 3 NOISE n n Y m n
+TD328039 > ␅
+TD1255977 ␆*
+TD80 > *
+TD333 ? ␅
+TD1439519 ␄
+TD98 <EOF>
+TD323051 > ␅
+TD900784 ␆* 4
+TD74 > * 4
+TD91655 ? ␅
+TD1500307 ␆1
+TD62 ? 1
+TD115 questioning: duits
+TD95 Rescue #1 _A___ ~CNO -EFIKLRSWY? ␅
+TD3111923 ␆nnnnn
+TD83 Rescue #1 _A___ ~CNO -EFIKLRSWY? nnnnn
+TD143 attempt: 0 DUITS n n n n n
+TD74 Rescue #2 FA___ ~N -CEIKLORSWY? ␅
+TD1647851 ␆nMnnn
+TD106 Rescue #2 FA___ ~N -CEIKLORSWY? nMnnn
+TD229 attempt: 1 DUITS n m n n n
+TD120 Rescue #3 F____ ~EL -ACIKNORSWY L:1? ␅
+TD1447719 ␆nnnMn
+TD97 Rescue #3 F____ ~EL -ACIKNORSWY L:1? nnnMn
+TD252 attempt: 2 DUITS n n n m n
+TD128 Rescue #4 __I__ ~S -ACEFKLNORWY? ␅
+TD1303401 ␆nnYYm
+TD72 Rescue #4 __I__ ~S -ACEFKLNORWY? nnYYm
+TD139 attempt: 3 DUITS n n Y Y m
+TD345421 > ␅
+TD870438 ␆*
+TD87 > *
+TD308 questioning: fleet
+TD81 Rescue #1 _A___ ~CNO -DEFIKLRSTUWY? ␅
+TD2687650 ␆nnnnn
+TD70 Rescue #1 _A___ ~CNO -DEFIKLRSTUWY? nnnnn
+TD136 attempt: 0 FLEET n n n n n
+TD72 Rescue #2 FA___ ~NU -CDEIKLORSTWY? ␅
+TD1591851 ␆Ynnnn
+TD89 Rescue #2 FA___ ~NU -CDEIKLORSTWY? Ynnnn
+TD233 attempt: 1 FLEET Y n n n n
+TD136 Rescue #3 F____ ~ELT -ACDIKNORSUWY L:1? ␅
+TD1207626 ␆YYYYY
+TD70 Rescue #3 F____ ~ELT -ACDIKNORSUWY L:1? YYYYY
+TD136 attempt: 2 FLEET Y Y Y Y Y
+TD78 Rescue #4 __IT_ ~S -ACDEFKLNORUWY? ␅
+TD1327772 ␆nnnnM
+TD73 Rescue #4 __IT_ ~S -ACDEFKLNORUWY? nnnnM
+TD138 attempt: 3 FLEET n n n n m
+TD259157 > ␅
+TD1109948 ␆*
+TD68 > *
+TD314 ? ␅
+TD4694571 ␄
+TD105 <EOF>
+TD262334 > ␅
+TD1097671 ␆* 1
+TD76 > * 1
+TD98344 ? ␅
+TD4405774 ␆1
+TD83 ? 1
+TD142 questioning: banco
+TD116 Rescue #1 _A___ ~CNO -DEFIKLRSTUWY? ␅
+TD5504145 ␆nYYMM
+TD82 Rescue #1 _A___ ~CNO -DEFIKLRSTUWY? nYYMM
+TD159 attempt: 0 BANCO n Y Y m m
+TD88 Rescue #2 FA___ ~NU -CDEIKLORSTWY? ␅
+TD1175536 ␆nYMnn
+TD71 Rescue #2 FA___ ~NU -CDEIKLORSTWY? nYMnn
+TD131 attempt: 1 BANCO n Y m n n
+TD64 Rescue #4 __IT_ ~S -ACDEFKLNORUWY? ␅
+TD1583791 ␆nnnnn
+TD95 Rescue #4 __IT_ ~S -ACDEFKLNORUWY? nnnnn
+TD223 attempt: 3 BANCO n n n n n
+TD261442 > ␅
+TD754340 ␆*
+TD68 > *
+TD240 questioning: canon
+TD67 Rescue #1 _AN__ ~CO -BDEFIKLRSTUWY? ␅
+TD2943848 ␆YYYYY
+TD73 Rescue #1 _AN__ ~CO -BDEFIKLRSTUWY? YYYYY
+TD141 attempt: 0 CANON Y Y Y Y Y
+TD71 Rescue #2 FA___ ~NU -BCDEIKLORSTWY? ␅
+TD1655827 ␆nYMnn
+TD76 Rescue #2 FA___ ~NU -BCDEIKLORSTWY? nYMnn
+TD147 attempt: 1 CANON n Y m n n
+TD79 Rescue #4 __IT_ ~S -ABCDEFKLNORUWY? ␅
+TD1407658 ␆nnnnn
+TD109 Rescue #4 __IT_ ~S -ABCDEFKLNORUWY? nnnnn
+TD220 attempt: 3 CANON n n n n n
+TD147961 > ␅
+TD619826 ␆*
+TD82 > *
+TD303 questioning: fauna
+TD91 Rescue #2 FA___ ~NU -BCDEIKLORSTWY N:1? ␅
+TD2999545 ␆YYYYY
+TD77 Rescue #2 FA___ ~NU -BCDEIKLORSTWY N:1? YYYYY
+TD159 attempt: 1 FAUNA Y Y Y Y Y
+TD87 Rescue #4 __IT_ ~S -ABCDEFKLNORUWY? ␅
+TD1647842 ␆nnnnn
+TD117 Rescue #4 __IT_ ~S -ABCDEFKLNORUWY? nnnnn
+TD255 attempt: 3 FAUNA n n n n n
+TD78557 > ␅
+TD785279 ␆*
+TD110 > *
+TD576 ? ␅
+TD1271191 ␆1
+TD97 ? 1
+TD199 questioning: smith
+TD164 Rescue #4 __IT_ ~S -ABCDEFKLNORUWY? ␅
+TD2655688 ␆YYYYY
+TD72 Rescue #4 __IT_ ~S -ABCDEFKLNORUWY? YYYYY
+TD138 attempt: 3 SMITH Y Y Y Y Y
+TD56 📋> ␅
+TD3976494 ␆Daily Rescue 89
+TD99 📋> Daily Rescue 89
+TD14 📋> ␅
+TD48 ␆7️⃣8️⃣
+TD7 📋> 7️⃣8️⃣
+TD6 📋> ␅
+TD12 ␆5️⃣9️⃣
+TD5 📋> 5️⃣9️⃣
+TD5 📋> ␅
+TD14 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD303273 ␆
+TD112 📋> 
+TD17 📋> ␅
+TD216064 ␄
+TD249 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 89\n7\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD323 result: "Daily Rescue 89\n7\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD153 📆 2026-02-07 ? ␅
+TD327046 ␆
+TD84 📆 2026-02-07 ? 
