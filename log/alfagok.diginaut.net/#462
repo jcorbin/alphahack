@@ -1,0 +1,76 @@
+T45.82428958300443 now: 2026-02-07T08:26:26EST
+TD94 site: alfagok.diginaut.net
+TD405994 loaded 399667 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1185 words excluded) asof 9d8ad445668f57f6952d0938ae6d4270188358db
+TD140  ...␅
+TD5320335 ␆
+TD79  ...
+TD175 [0 : 199826 : 399667] lijm? ␅
+TD2215801 ␆a
+TD93 [0 : 199826 : 399667] lijm? a
+TD345 progress: 1 199826 lijm
+TD124 [199827 : 299731 : 399667] schub? ␅
+TD1735571 ␆a
+TD96 [199827 : 299731 : 399667] schub? a
+TD125 progress: 1 299731 schub
+TD120 [299732 : 349501 : 399667] vakantie? ␅
+TD1463521 ␆b
+TD95 [299732 : 349501 : 399667] vakantie? b
+TD110 progress: -1 349501 vakantie
+TD142 [299732 : 324297 : 349501] sub? ␅
+TD1511771 ␆a
+TD106 [299732 : 324297 : 349501] sub? a
+TD112 progress: 1 324297 sub
+TD110 [324298 : 336894 : 349501] toetsing? ␅
+TD1927720 ␆b
+TD96 [324298 : 336894 : 349501] toetsing? b
+TD111 progress: -1 336894 toetsing
+TD118 [324298 : 330480 : 336894] televisie? ␅
+TD1615606 ␆a
+TD107 [324298 : 330480 : 336894] televisie? a
+TD109 progress: 1 330480 televisie
+TD421 [330481 : 333686 : 336894] thesing? ␅
+TD1959443 ␆!
+TD97 [330481 : 333686 : 336894] thesing? !
+TD614 [330481 : 333688 : 336893] thesis? ␅
+TD3559305 ␆a
+TD94 [330481 : 333688 : 336893] thesis? a
+TD110 progress: 1 333688 thesis
+TD118 [333689 : 334094 : 336893] ti? ␅
+TD1824226 ␆a
+TD112 [333689 : 334094 : 336893] ti? a
+TD124 progress: 1 334094 ti
+TD326 [334095 : 335492 : 336893] tjin? ␅
+TD1903157 ␆!
+TD96 [334095 : 335492 : 336893] tjin? !
+TD462 [334095 : 335492 : 336892] tjingel? ␅
+TD2287479 ␆b
+TD107 [334095 : 335492 : 336892] tjingel? b
+TD180 progress: -1 335492 tjingel
+TD137 [334095 : 334411 : 335492] tijd? ␅
+TD2223543 ␆it
+TD75 [334095 : 334411 : 335492] tijd? it
+TD87 progress: 0 334411 tijd
+TD17 [334095 : 334411 : 335492] <Done>.
+TD74 📋> ␅
+TD5776727 ␆🧩 Puzzel #462
+TD95 📋> 🧩 Puzzel #462
+TD14 📋> ␅
+TD42 ␆🤔 10 gokken
+TD7 📋> 🤔 10 gokken
+TD6 📋> ␅
+TD55 ␆⏱️ 22s
+TD7 📋> ⏱️ 22s
+TD5 📋> ␅
+TD311054 ␆🔗 alfagok.diginaut.net
+TD89 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD167696 ␄
+TD180 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #462\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD607 result: "\ud83e\udde9 Puzzel #462\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"
+TD19 result puzzle: 462
+TD9 result guesses: 10
+TD6 result time: 22s
+TD5 result link: alfagok.diginaut.net
+TD87 📆 2026-02-07 ? ␅
+TD167264 ␆
+TD95 📆 2026-02-07 ? 
