@@ -652,7 +652,7 @@ def main():
         for n, at in enumerate(attempts, 1):
             print(f'{n}. {at}', file=sys.stderr)
         if void:
-            print(f'- avoid: {' '.join(sorted(void))}')
+            print(f'- avoid: {' '.join(sorted(void))}', file=sys.stderr)
         print(word, file=sys.stderr)
 
     pat = word.pattern(void=void)
