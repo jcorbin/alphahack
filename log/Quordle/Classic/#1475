@@ -1,0 +1,153 @@
+T566.973244724 now: 2026-02-07T09:40:09EST
+TD142 site: m-w.com/games/quordle/#/
+TD24 wordlist: nwl2023.txt
+TD7 num_words: 4
+TD143  ...␅
+TD4614774 ␆
+TD70  ...
+TD404985 > ␅
+TD1747002 ␆*
+TD65 > *
+TD35057 ? ␅
+TD1028945 ␆1
+TD75 ? 1
+TD164 questioning: taser
+TD117 Classic #1 _____? ␅
+TD3471623 ␆nMnMn
+TD60 Classic #1 _____? nMnMn
+TD233 attempt: 0 TASER n m n m n
+TD63 Classic #2 _____? ␅
+TD1671740 ␆nYnnY
+TD69 Classic #2 _____? nYnnY
+TD148 attempt: 1 TASER n Y n n Y
+TD57 Classic #3 _____? ␅
+TD1335755 ␆nYnYn
+TD81 Classic #3 _____? nYnYn
+TD151 attempt: 2 TASER n Y n Y n
+TD63 Classic #4 _____? ␅
+TD1623694 ␆Mnnnn
+TD73 Classic #4 _____? Mnnnn
+TD140 attempt: 3 TASER m n n n n
+TD300319 > ␅
+TD795538 ␆*
+TD108 > *
+TD1673 ? ␅
+TD1966300 ␆3
+TD97 ? 3
+TD215 questioning: unfit
+TD200 Classic #1 _____ ~AE -RST? ␅
+TD2479545 ␆nnnnn
+TD97 Classic #1 _____ ~AE -RST? nnnnn
+TD316 attempt: 0 UNFIT n n n n n
+TD188 Classic #2 _A__R -EST? ␅
+TD1047376 ␆nnnnn
+TD72 Classic #2 _A__R -EST? nnnnn
+TD182 attempt: 1 UNFIT n n n n n
+TD118 Classic #3 _A_E_ -RST? ␅
+TD1487745 ␆nnnnn
+TD100 Classic #3 _A_E_ -RST? nnnnn
+TD160 attempt: 2 UNFIT n n n n n
+TD75 Classic #4 _____ ~T -AERS? ␅
+TD1695664 ␆nnMYM
+TD96 Classic #4 _____ ~T -AERS? nnMYM
+TD227 attempt: 3 UNFIT n n m Y m
+TD385763 > ␅
+TD750121 ␆*
+TD81 > *
+TD278 questioning: motif
+TD80 Classic #1 _____ ~AE -FINRSTU? ␅
+TD4127392 ␆nnnnn
+TD77 Classic #1 _____ ~AE -FINRSTU? nnnnn
+TD158 attempt: 0 MOTIF n n n n n
+TD77 Classic #2 _A__R -EFINSTU? ␅
+TD1375693 ␆nMnnn
+TD78 Classic #2 _A__R -EFINSTU? nMnnn
+TD143 attempt: 1 MOTIF n m n n n
+TD65 Classic #3 _A_E_ -FINRSTU? ␅
+TD1543885 ␆Mnnnn
+TD95 Classic #3 _A_E_ -FINRSTU? Mnnnn
+TD230 attempt: 2 MOTIF m n n n n
+TD114 Classic #4 ___I_ ~FT -AENRSU? ␅
+TD1399472 ␆YYYYY
+TD69 Classic #4 ___I_ ~FT -AENRSU? YYYYY
+TD147 attempt: 3 MOTIF Y Y Y Y Y
+TD253086 > ␅
+TD875023 ␆*
+TD98 > *
+TD1053 ? ␅
+TD2166744 ␆2
+TD63 ? 2
+TD119 questioning: pedal
+TD92 Classic #1 _____ ~AE -FIMNORSTU? ␅
+TD3751763 ␆MMnMM
+TD67 Classic #1 _____ ~AE -FIMNORSTU? MMnMM
+TD149 attempt: 0 PEDAL m m n m m
+TD76 Classic #2 _A__R ~O -EFIMNSTU? ␅
+TD2567772 ␆nnnMn
+TD110 Classic #2 _A__R ~O -EFIMNSTU? nnnMn
+TD175 attempt: 1 PEDAL n n n m n
+TD83 Classic #3 _A_E_ ~M -FINORSTU? ␅
+TD1591571 ␆nMnMY
+TD77 Classic #3 _A_E_ ~M -FINORSTU? nMnMY
+TD156 attempt: 2 PEDAL n m n m Y
+TD292072 > ␅
+TD779782 ␆*
+TD74 > *
+TD289 questioning: razor
+TD86 Classic #1 _____ ~AELP -DFIMNORSTU? ␅
+TD3919758 ␆nMnnn
+TD96 Classic #1 _____ ~AELP -DFIMNORSTU? nMnnn
+TD218 attempt: 0 RAZOR n m n n n
+TD143 Classic #2 _A__R ~O -DEFILMNPSTU? ␅
+TD1399539 ␆YYYYY
+TD102 Classic #2 _A__R ~O -DEFILMNPSTU? YYYYY
+TD226 attempt: 1 RAZOR Y Y Y Y Y
+TD115 Classic #3 _A_EL ~M -DFINOPRSTU? ␅
+TD1383557 ␆nYnnn
+TD127 Classic #3 _A_EL ~M -DFINOPRSTU? nYnnn
+TD224 attempt: 2 RAZOR n Y n n n
+TD216014 > ␅
+TD687681 ␆*
+TD91 > *
+TD324 questioning: camel
+TD94 Classic #1 _____ ~AELP -DFIMNORSTUZ? ␅
+TD3351529 ␆nMnMM
+TD90 Classic #1 _____ ~AELP -DFIMNORSTUZ? nMnMM
+TD208 attempt: 0 CAMEL n m n m m
+TD109 Classic #3 _A_EL ~M -DFINOPRSTUZ? ␅
+TD1503668 ␆YYYYY
+TD97 Classic #3 _A_EL ~M -DFINOPRSTUZ? YYYYY
+TD212 attempt: 2 CAMEL Y Y Y Y Y
+TD126350 > ␅
+TD785347 ␆*
+TD77 > *
+TD361 ? ␅
+TD3671746 ␆2
+TD71 ? 2
+TD133 questioning: apple
+TD101 Classic #1 _____ ~AELP -CDFIMNORSTUZ? ␅
+TD3095816 ␆YYYYY
+TD83 Classic #1 _____ ~AELP -CDFIMNORSTUZ? YYYYY
+TD136 attempt: 0 APPLE Y Y Y Y Y
+TD63 📋> ␅
+TD4968366 ␆🙂 Daily Quordle 1475
+TD95 📋> 🙂 Daily Quordle 1475
+TD13 📋> ␅
+TD46 ␆7️⃣5️⃣
+TD8 📋> 7️⃣5️⃣
+TD6 📋> ␅
+TD13 ␆6️⃣3️⃣
+TD5 📋> 6️⃣3️⃣
+TD5 📋> ␅
+TD11 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD343244 ␆
+TD74 📋> 
+TD10 📋> ␅
+TD215881 ␄
+TD122 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1475\n7\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1610 result: "\ud83d\ude42 Daily Quordle 1475\n7\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD82 📆 2026-02-07 ? ␅
+TD214223 ␆
+TD89 📆 2026-02-07 ? 
