@@ -3,7 +3,7 @@
 from collections import Counter
 from collections.abc import Generator, Iterable
 from dataclasses import dataclass
-from itertools import chain, combinations, permutations
+from itertools import chain, combinations, permutations, product
 from typing import Callable, Literal, Never, cast, final, override
 import re
 import sys
@@ -431,6 +431,29 @@ class Word:
                 parts[i] = pmay[j]
             yield ''.join(parts)
 
+    def gen_maybe(self, void: Iterable[str]|None = None):
+        may = tuple(sorted(self.may))
+        may_alpha = tuple(
+            self.may_alpha(i, may, void=void)
+            for i in range(len(self.yes)))
+        can_alpha = tuple(
+            {known} if known else alpha
+            for known, alpha in zip(self.yes, may_alpha))
+        seen: set[str] = set()
+        for mix, pmay in self.re_may_perms():
+            if any(
+                pmay[j] not in self.can[i]
+                for j, i in enumerate(mix)
+            ): continue
+            parts = list(can_alpha)
+            for j, i in enumerate(mix):
+                parts[i] = {pmay[j]}
+            for particular in product(*parts):
+                maybe = ''.join(particular)
+                if maybe not in seen:
+                    seen.add(maybe)
+                    yield maybe
+
     def patstr(self, void: Iterable[str]|None = None):
         return '|'.join(self.re_may_alts(void=void)) if self.may else self.re_can(void=void)
 
@@ -597,9 +620,12 @@ def main():
         yield f''
         yield f'  -void <LETTER...>'
         yield f''
+        yield f'  -gen -- No Matches? then generate all maybe strings'
+        yield f''
         yield f'NOTE: word-feedback pairs should be given after any -word prior state'
 
     attempts: list[Attempt] = []
+    may_gen: bool = False
     word = Word(size=5)
     verbose: int = 0
     void: set[str] = set()
@@ -640,6 +666,10 @@ def main():
                     void.update(lets.upper())
                 continue
 
+            if name.lower() == 'gen':
+                may_gen = True
+                continue
+
             carp(f'unknown option {opt}')
 
         try:
@@ -668,9 +698,14 @@ def main():
         found = True
 
     if not found:
-        print(f'No Matches; reconsider:', file=sys.stderr)
-        for alt in word.re_may_alts(void=void):
-            print(f'  | {alt}', file=sys.stderr)
+        if may_gen:
+            print(f'No Matches; could be:', file=sys.stderr)
+            for maybe in word.gen_maybe(void=void):
+                print(f'  {maybe}', file=sys.stderr)
+        else:
+            print(f'No Matches; reconsider:', file=sys.stderr)
+            for alt in word.re_may_alts(void=void):
+                print(f'  | {alt}', file=sys.stderr)
 
 if __name__ == '__main__':
     try:
