@@ -1,0 +1,277 @@
+T901.322957891 now: 2026-02-07T09:45:44EST
+TD138 site: squareword.org
+TD33 wordlist: nwl2023.txt
+TD42  ...␅
+TD2854513 ␆
+TD71  ...
+TD56 🧩  ? ␅
+TD4336141 ␆#1468
+TD95 🧩  ? #1468
+TD256 puzzle_id: #1468
+TD182 > ␅
+TD1399507 ␆*
+TD97 > *
+TD264483 try? ␅
+TD1631423 ␆2
+TD98 try? 2
+TD304 questioning: ["laser", "#5"]
+TD249 #1 <IndexError>  📋 "laser" ? ␅
+TD6199639 ␆_____ ~ ASER
+TD81 #1 <IndexError>  📋 "laser" ? _____ ~ ASER
+TD454 attempt 0 LASER n m m m m
+TD84 #2 <IndexError>  📋 "laser" ? ␅
+TD1927496 ␆____R 
+TD100 #2 <IndexError>  📋 "laser" ? ____R 
+TD277 attempt 1 LASER n n n n Y
+TD125 #3 <IndexError>  📋 "laser" ? ␅
+TD2600053 ␆____R ~ A
+TD113 #3 <IndexError>  📋 "laser" ? ____R ~ A
+TD273 attempt 2 LASER n m n n Y
+TD125 #4 <IndexError>  📋 "laser" ? ␅
+TD2551063 ␆L____ ~ E
+TD95 #4 <IndexError>  📋 "laser" ? L____ ~ E
+TD269 attempt 3 LASER Y n n m n
+TD166 #5 <IndexError>  📋 "laser" ? ␅
+TD2127670 ␆___E_ ~ ER
+TD84 #5 <IndexError>  📋 "laser" ? ___E_ ~ ER
+TD183 attempt 4 LASER n n n Y m
+TD203 ? ␅
+TD311595 ␆
+TD98 ? 
+TD147 question done
+TD324 > ␅
+TD695434 ␆*
+TD78 > *
+TD722816 try? ␅
+TD8637638 ␆4
+TD78 try? 4
+TD235 questioning: ["stare", "#1"]
+TD201 #1 _____ ~AERS -L  📋 "stare" ? ␅
+TD6712405 ␆S_ARE
+TD111 #1 _____ ~AERS -L  📋 "stare" ? S_ARE
+TD246 attempt 0 STARE Y n Y Y Y
+TD166 #2 ____R -AELS  📋 "stare" ? ␅
+TD1063292 ␆.
+TD114 #2 ____R -AELS  📋 "stare" ? .
+TD321 attempt 1 STARE n n n n n
+TD108 #3 ____R ~A -ELS  📋 "stare" ? ␅
+TD1007095 ␆.
+TD97 #3 ____R ~A -ELS  📋 "stare" ? .
+TD267 attempt 2 STARE n n m n n
+TD89 #4 L____ ~E -ARS  📋 "stare" ? ␅
+TD3944394 ␆L___E ~ E
+TD122 #4 L____ ~E -ARS  📋 "stare" ? L___E ~ E
+TD257 attempt 3 STARE n n n n Y
+TD147 #5 ___E_ ~R -ALS  📋 "stare" ? ␅
+TD4055386 ␆___E_ ~ ERT
+TD97 #5 ___E_ ~R -ALS  📋 "stare" ? ___E_ ~ ERT
+TD207 attempt 4 STARE n m n m m
+TD213 ? ␅
+TD247438 ␆
+TD98 ? 
+TD142 question done
+TD295 > ␅
+TD511145 ␆*
+TD98 > *
+TD714920 try? ␅
+TD6021417 ␄
+TD113 <EOF>
+TD245 > ␅
+TD3095672 ␆* 5
+TD110 > * 5
+TD2292 try? ␅
+TD2782485 ␆1
+TD97 try? 1
+TD286 questioning: ["tired", "#5"]
+TD314 #1 S_ARE -LT  📋 "tired" ? ␅
+TD6239309 ␆.
+TD116 #1 S_ARE -LT  📋 "tired" ? .
+TD273 attempt 0 TIRED n n n n n
+TD91 #2 ____R -AELRST  📋 "tired" ? ␅
+TD2087543 ␆.
+TD97 #2 ____R -AELRST  📋 "tired" ? .
+TD218 attempt 1 TIRED n n n n n
+TD68 #3 ____R ~A -ELRST  📋 "tired" ? ␅
+TD1559441 ␆.
+TD85 #3 ____R ~A -ELRST  📋 "tired" ? .
+TD239 attempt 2 TIRED n n n n n
+TD78 #4 L___E -ARST  📋 "tired" ? ␅
+TD4208135 ␆L___E ~ ED
+TD97 #4 L___E -ARST  📋 "tired" ? L___E ~ ED
+TD254 attempt 3 TIRED n n n m m
+TD146 #5 ___E_ ~RT -ALS  📋 "tired" ? ␅
+TD2791507 ␆T__ED ~ ER
+TD79 #5 ___E_ ~RT -ALS  📋 "tired" ? T__ED ~ ER
+TD183 attempt 4 TIRED Y n m Y Y
+TD199 ? ␅
+TD583445 ␆
+TD99 ? 
+TD118 question done
+TD281 > ␅
+TD1312143 ␆* 4
+TD109 > * 4
+TD265262 try? ␅
+TD3694479 ␆1
+TD97 try? 1
+TD299 questioning: ["lodge", "#4"]
+TD271 #1 S_ARE -DEILRT  📋 "lodge" ? ␅
+TD4672259 ␆.
+TD85 #1 S_ARE -DEILRT  📋 "lodge" ? .
+TD253 attempt 0 LODGE n n n n Y
+TD76 #2 ____R -ADEILRST  📋 "lodge" ? ␅
+TD3374917 ␆_O__R ~ O
+TD89 #2 ____R -ADEILRST  📋 "lodge" ? _O__R ~ O
+TD292 attempt 1 LODGE n Y n n n
+TD148 #3 ____R ~A -DEILRST  📋 "lodge" ? ␅
+TD3231782 ␆____R ~ AO
+TD97 #3 ____R ~A -DEILRST  📋 "lodge" ? ____R ~ AO
+TD255 attempt 2 LODGE n m n n n
+TD158 #4 L___E ~D -AIRST  📋 "lodge" ? ␅
+TD3599744 ␆L_DGE ~ E
+TD92 #4 L___E ~D -AIRST  📋 "lodge" ? L_DGE ~ E
+TD233 attempt 3 LODGE Y n Y Y Y
+TD150 #5 T__ED ~R -AILS  📋 "lodge" ? ␅
+TD6871755 ␆T__ED ~ ER
+TD96 #5 T__ED ~R -AILS  📋 "lodge" ? T__ED ~ ER
+TD258 attempt 4 LODGE n n n n m
+TD338 ? ␅
+TD247343 ␆
+TD95 ? 
+TD129 question done
+TD314 > ␅
+TD551436 ␆*
+TD86 > *
+TD1277925 questioning: ["honor", "#2"]
+TD194 #1 S_ARE -DGILORT  📋 "honor" ? ␅
+TD4121838 ␆.
+TD95 #1 S_ARE -DGILORT  📋 "honor" ? .
+TD263 attempt 0 HONOR n n n n n
+TD95 #2 _O__R -ADEGILRST  📋 "honor" ? ␅
+TD631480 ␆/it
+TD102 #2 _O__R -ADEGILRST  📋 "honor" ? /it
+TD299 attempt 1 HONOR Y Y Y Y Y
+TD110 #3 ____R ~AO -DEGILRST  📋 "honor" ? ␅
+TD1863604 ␆.
+TD98 #3 ____R ~AO -DEGILRST  📋 "honor" ? .
+TD276 attempt 2 HONOR n m n m Y
+TD102 #4 L_DGE -AIORST  📋 "honor" ? ␅
+TD3720156 ␆L_DGE ~ E
+TD101 #4 L_DGE -AIORST  📋 "honor" ? L_DGE ~ E
+TD250 attempt 3 HONOR n n n n n
+TD159 #5 T__ED ~R -ADGILOS  📋 "honor" ? ␅
+TD4927496 ␆T__ED ~ ER
+TD89 #5 T__ED ~R -ADGILOS  📋 "honor" ? T__ED ~ ER
+TD249 attempt 4 HONOR n n n n m
+TD356 ? ␅
+TD231168 ␆
+TD89 ? 
+TD114 question done
+TD285 > ␅
+TD479603 ␆*
+TD93 > *
+TD1758663 questioning: ["amour", "#3"]
+TD186 #1 S_ARE -DGHILNORT  📋 "amour" ? ␅
+TD3193241 ␆.
+TD98 #1 S_ARE -DGHILNORT  📋 "amour" ? .
+TD265 attempt 0 AMOUR n n n n n
+TD117 #3 ____R ~AO -DEGHILNST  📋 "amour" ? ␅
+TD767556 ␆/it
+TD100 #3 ____R ~AO -DEGHILNST  📋 "amour" ? /it
+TD323 attempt 2 AMOUR Y Y Y Y Y
+TD126 #4 L_DGE -AHINORST  📋 "amour" ? ␅
+TD5191719 ␆L_DGE ~ E
+TD105 #4 L_DGE -AHINORST  📋 "amour" ? L_DGE ~ E
+TD205 attempt 3 AMOUR n n n n n
+TD104 #5 T__ED ~R -ADGHILNOS  📋 "amour" ? ␅
+TD3431883 ␆T__ED ~ ER
+TD94 #5 T__ED ~R -ADGHILNOS  📋 "amour" ? T__ED ~ ER
+TD246 attempt 4 AMOUR n n n n m
+TD333 ? ␅
+TD207238 ␆
+TD109 ? 
+TD151 question done
+TD384 > ␅
+TD503391 ␆*
+TD98 > *
+TD1704310 questioning: ["ledge", "#4"]
+TD200 #1 S_ARE -ADGHILMNORTU  📋 "ledge" ? ␅
+TD3583554 ␆.
+TD97 #1 S_ARE -ADGHILMNORTU  📋 "ledge" ? .
+TD679 attempt 0 LEDGE n n n n Y
+TD104 #4 L_DGE -AHIMNORSTU  📋 "ledge" ? ␅
+TD727183 ␆/it
+TD99 #4 L_DGE -AHIMNORSTU  📋 "ledge" ? /it
+TD255 attempt 3 LEDGE Y Y Y Y Y
+TD103 #5 T__ED ~R -ADGHILMNOSU  📋 "ledge" ? ␅
+TD3375763 ␆T__ED ~ ER
+TD99 #5 T__ED ~R -ADGHILMNOSU  📋 "ledge" ? T__ED ~ ER
+TD251 attempt 4 LEDGE n m n n m
+TD264 ? ␅
+TD279509 ␆
+TD85 ? 
+TD115 question done
+TD314 > ␅
+TD631434 ␆*
+TD95 > *
+TD1183406 questioning: ["treed", "#5"]
+TD186 #1 S_ARE -ADGHILMNORTU  📋 "treed" ? ␅
+TD4073236 ␆.
+TD103 #1 S_ARE -ADGHILMNORTU  📋 "treed" ? .
+TD251 attempt 0 TREED n n n n n
+TD125 #5 T__ED ~R -ADGHILMNOSU  📋 "treed" ? ␅
+TD927701 ␆/it
+TD101 #5 T__ED ~R -ADGHILMNOSU  📋 "treed" ? /it
+TD276 attempt 4 TREED Y Y Y Y Y
+TD297 ? ␅
+TD582968 ␆
+TD101 ? 
+TD114 question done
+TD307 > ␅
+TD647757 ␆*
+TD98 > *
+TD876475 questioning: ["scare", "#1"]
+TD191 #1 S_ARE -ADEGHILMNORTU  📋 "scare" ? ␅
+TD4018759 ␆/it
+TD79 #1 S_ARE -ADEGHILMNORTU  📋 "scare" ? /it
+TD277 attempt 0 SCARE Y Y Y Y Y
+TD178 ? ␅
+TD1319553 ␆
+TD98 ? 
+TD109 question done
+TD22144 📋> ␅
+TD3962642 ␆squareword.org 1468: 9 guesses
+TD92 📋> squareword.org 1468: 9 guesses
+TD12 📋> ␅
+TD61 ␆
+TD10 📋> 
+TD8 📋> ␅
+TD32 ␆🟩🟨🟩🟩🟩
+TD9 📋> 🟩🟨🟩🟩🟩
+TD8 📋> ␅
+TD23 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD17 ␆🟨🟨🟨🟨🟩
+TD4 📋> 🟨🟨🟨🟨🟩
+TD5 📋> ␅
+TD16 ␆🟩🟨🟩🟩🟩
+TD4 📋> 🟩🟨🟩🟩🟩
+TD4 📋> ␅
+TD17 ␆🟩🟨🟨🟩🟩
+TD5 📋> 🟩🟨🟨🟩🟩
+TD4 📋> ␅
+TD15 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD17 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD519199 ␆#squareword #squareword1468
+TD86 📋> #squareword #squareword1468
+TD8 📋> ␅
+TD151565 ␄
+TD138 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1468: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1468"}
+TD536 result: "squareword.org 1468: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1468"
+TD70 📆 2026-02-07 ? ␅
+TD239386 ␆
+TD95 📆 2026-02-07 ? 
