@@ -1,0 +1,74 @@
+T72.96936795700458 now: 2026-02-08T07:48:19EST
+TD106 site: alphaguess.com
+TD119023 loaded 196530 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (74 words excluded) asof 13a3de35e88f90d552c013bc68403310f7ab2b8a
+TD123  ...␅
+TD12831905 ␆
+TD101  ...
+TD172 [0 : 98219 : 196530] mach? ␅
+TD3447490 ␆b
+TD90 [0 : 98219 : 196530] mach? b
+TD106 progress: -1 98219 mach
+TD112 [0 : 47381 : 98219] dis? ␅
+TD1583739 ␆a
+TD98 [0 : 47381 : 98219] dis? a
+TD109 progress: 1 47381 dis
+TD367 [47382 : 72800 : 98219] gremmy? ␅
+TD1383260 ␆b
+TD97 [47382 : 72800 : 98219] gremmy? b
+TD108 progress: -1 72800 gremmy
+TD104 [47382 : 60084 : 72800] face? ␅
+TD1335750 ␆a
+TD106 [47382 : 60084 : 72800] face? a
+TD119 progress: 1 60084 face
+TD175 [60085 : 66440 : 72800] french? ␅
+TD1223614 ␆a
+TD97 [60085 : 66440 : 72800] french? a
+TD106 progress: 1 66440 french
+TD473 [66441 : 69620 : 72800] geosynclinal? ␅
+TD1327501 ␆b
+TD99 [66441 : 69620 : 72800] geosynclinal? b
+TD110 progress: -1 69620 geosynclinal
+TD125 [66441 : 68006 : 69620] gall? ␅
+TD1175636 ␆a
+TD95 [66441 : 68006 : 69620] gall? a
+TD109 progress: 1 68006 gall
+TD108 [68007 : 68788 : 69620] gate? ␅
+TD6615864 ␆a
+TD99 [68007 : 68788 : 69620] gate? a
+TD114 progress: 1 68788 gate
+TD111 [68789 : 69155 : 69620] gem? ␅
+TD1951578 ␆a
+TD97 [68789 : 69155 : 69620] gem? a
+TD111 progress: 1 69155 gem
+TD109 [69156 : 69212 : 69620] gen? ␅
+TD1415568 ␆a
+TD86 [69156 : 69212 : 69620] gen? a
+TD91 progress: 1 69212 gen
+TD112 [69213 : 69409 : 69620] gentle? ␅
+TD2264027 ␆it
+TD105 [69213 : 69409 : 69620] gentle? it
+TD118 progress: 0 69409 gentle
+TD29 [69213 : 69409 : 69620] <Done>.
+TD93 📋> ␅
+TD5264009 ␆🧩 Puzzle #930
+TD163 📋> 🧩 Puzzle #930
+TD15 📋> ␅
+TD44 ␆🤔 12 guesses
+TD7 📋> 🤔 12 guesses
+TD12 📋> ␅
+TD13 ␆⏱️ 20s
+TD6 📋> ⏱️ 20s
+TD5 📋> ␅
+TD479246 ␆🔗 alphaguess.com/930
+TD78 📋> 🔗 alphaguess.com/930
+TD8 📋> ␅
+TD191972 ␄
+TD124 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #930\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/930"}
+TD79 result: "\ud83e\udde9 Puzzle #930\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/930"
+TD9 result puzzle: 930
+TD3 result guesses: 12
+TD2 result time: 20s
+TD2 result link: alphaguess.com/930
+TD67 📆 2026-02-08 ? ␅
+TD199679 ␆
+TD71 📆 2026-02-08 ? 
