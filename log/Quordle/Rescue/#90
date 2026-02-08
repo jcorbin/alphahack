@@ -1,0 +1,238 @@
+T2583.2954847140063 now: 2026-02-08T08:44:27EST
+TD72 site: m-w.com/games/quordle/#/rescue
+TD12 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD69  ...␅
+TD7094903 ␆
+TD76  ...
+TD361931 > ␅
+TD3990008 ␆tried grove often
+TD63 > tried grove often
+TD261 questioning: GROVE OFTEN
+TD93 Rescue #1 _____? ␅
+TD1967615 ␆nnnnY
+TD63 Rescue #1 _____? nnnnY
+TD135 attempt: 0 GROVE n n n n Y
+TD57 Rescue #1 ____E -GORV? ␅
+TD1183873 ␆nnnMM
+TD105 Rescue #1 ____E -GORV? nnnMM
+TD243 attempt: 0 OFTEN n n n m m
+TD67 Rescue #2 _____? ␅
+TD1503617 ␆nMnnY
+TD76 Rescue #2 _____? nMnnY
+TD162 attempt: 1 GROVE n m n n Y
+TD69 Rescue #2 ____E ~R -GOV? ␅
+TD1303720 ␆nnnMn
+TD67 Rescue #2 ____E ~R -GOV? nnnMn
+TD128 attempt: 1 OFTEN n n n m n
+TD58 Rescue #3 _____? ␅
+TD1519648 ␆nYnnY
+TD71 Rescue #3 _____? nYnnY
+TD137 attempt: 2 GROVE n Y n n Y
+TD60 Rescue #3 _R__E -GOV? ␅
+TD1159758 ␆nnnMM
+TD76 Rescue #3 _R__E -GOV? nnnMM
+TD135 attempt: 2 OFTEN n n n m m
+TD59 Rescue #4 _____? ␅
+TD1247742 ␆nMnnM
+TD80 Rescue #4 _____? nMnnM
+TD148 attempt: 3 GROVE n m n n m
+TD68 Rescue #4 _____ ~ER -GOV? ␅
+TD1391733 ␆nMnYM
+TD76 Rescue #4 _____ ~ER -GOV? nMnYM
+TD139 attempt: 3 OFTEN n m n Y m
+TD316767 > ␅
+TD42933 ␆
+TD65 > 
+TD112 > ␅
+TD1991874 ␆*
+TD75 > *
+TD333 ? ␅
+TD10127790 ␄
+TD147 <EOF>
+TD314207 > ␅
+TD973596 ␆* 1
+TD95 > * 1
+TD78978 ? ␅
+TD6312964 ␄
+TD129 <EOF>
+TD294155 > ␅
+TD11625817 ␆* 1 :g f.... | ..f..
+TD77 > * 1 :g f.... | ..f..
+TD326330 > ␅
+TD8833766 ␆* 1 :g f....|..f..
+TD90 > * 1 :g f....|..f..
+TD387990 > ␅
+TD10412004 ␆* 2 :g f....|..f..
+TD104 > * 2 :g f....|..f..
+TD395486 > ␅
+TD2084600 ␆* 2
+TD102 > * 2
+TD76983 ? ␅
+TD2770848 ␄
+TD109 <EOF>
+TD322765 > ␅
+TD1485148 ␆* 3
+TD117 > * 3
+TD72826 ? ␅
+TD1151088 ␄
+TD113 <EOF>
+TD287853 > ␅
+TD8808043 ␆*1 :g f
+TD79 > *1 :g f
+TD130 > ␅
+TD3399924 ␆*2 :g f
+TD92 > *2 :g f
+TD339 > ␅
+TD5759625 ␆
+TD72 > 
+TD213 > ␅
+TD2327702 ␆* 2 :g f
+TD69 > * 2 :g f
+TD378634 > ␅
+TD2341185 ␆* 1 :g f
+TD83 > * 1 :g f
+TD374297 > ␅
+TD5801899 ␆*
+TD79 > *
+TD341 ? ␅
+TD2415641 ␄
+TD132 <EOF>
+TD291792 > ␅
+TD6796353 ␆* 1 :g .n
+TD68 > * 1 :g .n
+TD71810 ? ␅
+TD2479941 ␄
+TD93 <EOF>
+TD297838 > ␅
+TD15414027 ␆* 1 :g .n|..n -top 10
+TD110 > * 1 :g .n|..n -top 10
+TD73865 ? ␅
+TD3477949 ␆1
+TD77 ? 1
+TD134 questioning: anise
+TD90 Rescue #1 ____E ~N -FGORTV? ␅
+TD3343818 ␆nMnMY
+TD68 Rescue #1 ____E ~N -FGORTV? nMnMY
+TD145 attempt: 0 ANISE n m n m Y
+TD66 Rescue #2 ____E ~R -FGNOTV? ␅
+TD1663727 ␆MnnnY
+TD68 Rescue #2 ____E ~R -FGNOTV? MnnnY
+TD142 attempt: 1 ANISE m n n n Y
+TD71 Rescue #3 _R__E ~N -FGOTV? ␅
+TD1512198 ␆nMYnY
+TD91 Rescue #3 _R__E ~N -FGOTV? nMYnY
+TD229 attempt: 2 ANISE n m Y n Y
+TD106 Rescue #4 ___E_ ~FNR -GOTV? ␅
+TD1367089 ␆nYMnM
+TD68 Rescue #4 ___E_ ~FNR -GOTV? nYMnM
+TD132 attempt: 3 ANISE n Y m n m
+TD330523 > ␅
+TD957315 ␆*
+TD74 > *
+TD266 questioning: infer
+TD65 Rescue #1 ____E ~NS -AFGIORTV? ␅
+TD4871826 ␆nMnMn
+TD66 Rescue #1 ____E ~NS -AFGIORTV? nMnMn
+TD139 attempt: 0 INFER n m n m n
+TD94 Rescue #2 ____E ~AR -FGINOSTV? ␅
+TD1336392 ␆nnnMM
+TD104 Rescue #2 ____E ~AR -FGINOSTV? nnnMM
+TD259 attempt: 1 INFER n n n m m
+TD112 Rescue #3 _RI_E ~N -AFGOSTV? ␅
+TD1310737 ␆MMnMM
+TD77 Rescue #3 _RI_E ~N -AFGOSTV? MMnMM
+TD153 attempt: 2 INFER m m n m m
+TD80 Rescue #4 _N_E_ ~FIR -AGOSTV? ␅
+TD1207647 ␆YYYYY
+TD70 Rescue #4 _N_E_ ~FIR -AGOSTV? YYYYY
+TD137 attempt: 3 INFER Y Y Y Y Y
+TD237841 > ␅
+TD1353985 ␆*
+TD69 > *
+TD334 ? ␅
+TD4007951 ␄
+TD138 <EOF>
+TD218321 > ␅
+TD1021271 ␆* 2
+TD78 > * 2
+TD83327 ? ␅
+TD1388628 ␆1
+TD78 ? 1
+TD141 questioning: barde
+TD105 Rescue #1 ____E ~NS -AFGIORTV? ␅
+TD5135736 ␆nnnnY
+TD130 Rescue #1 ____E ~NS -AFGIORTV? nnnnY
+TD254 attempt: 0 BARDE n n n n Y
+TD124 Rescue #2 ____E ~AR -FGINOSTV? ␅
+TD1631574 ␆YMMnY
+TD76 Rescue #2 ____E ~AR -FGINOSTV? YMMnY
+TD135 attempt: 1 BARDE Y m m n Y
+TD77 Rescue #3 _RI_E ~N -AFGOSTV? ␅
+TD1967637 ␆YnMnY
+TD75 Rescue #3 _RI_E ~N -AFGOSTV? YnMnY
+TD189 attempt: 2 BARDE Y n m n Y
+TD250259 > ␅
+TD861444 ␆
+TD82 > 
+TD120 > ␅
+TD567759 ␆*
+TD69 > *
+TD247 questioning: blare
+TD76 Rescue #1 ____E ~NS -ABDFGIORTV? ␅
+TD3455685 ␆nnnnY
+TD82 Rescue #1 ____E ~NS -ABDFGIORTV? nnnnY
+TD147 attempt: 0 BLARE n n n n Y
+TD78 Rescue #2 B___E ~AR -DFGINOSTV? ␅
+TD1063720 ␆YYYYY
+TD91 Rescue #2 B___E ~AR -DFGINOSTV? YYYYY
+TD161 attempt: 1 BLARE Y Y Y Y Y
+TD83 Rescue #3 BRI_E ~N -ADFGOSTV? ␅
+TD1671703 ␆YnnMY
+TD112 Rescue #3 BRI_E ~N -ADFGOSTV? YnnMY
+TD226 attempt: 2 BLARE Y n n m Y
+TD171091 > ␅
+TD884594 ␆*
+TD96 > *
+TD389 questioning: brine
+TD111 Rescue #1 ____E ~NS -ABDFGILORTV? ␅
+TD3168443 ␆nnnYY
+TD106 Rescue #1 ____E ~NS -ABDFGILORTV? nnnYY
+TD237 attempt: 0 BRINE n n n Y Y
+TD148 Rescue #3 BRI_E ~N -ADFGLOSTV? ␅
+TD1246602 ␆YYYYY
+TD81 Rescue #3 BRI_E ~N -ADFGLOSTV? YYYYY
+TD164 attempt: 2 BRINE Y Y Y Y Y
+TD88135 > ␅
+TD1039494 ␆*
+TD97 > *
+TD538 ? ␅
+TD1559524 ␆2
+TD91 ? 2
+TD182 questioning: scene
+TD119 Rescue #1 ___NE ~S -ABDFGILORTV? ␅
+TD2527530 ␆YYYYY
+TD100 Rescue #1 ___NE ~S -ABDFGILORTV? YYYYY
+TD194 attempt: 0 SCENE Y Y Y Y Y
+TD58 📋> ␅
+TD4912019 ␆Daily Rescue 90
+TD97 📋> Daily Rescue 90
+TD13 📋> ␅
+TD49 ␆8️⃣6️⃣
+TD7 📋> 8️⃣6️⃣
+TD6 📋> ␅
+TD14 ␆7️⃣4️⃣
+TD7 📋> 7️⃣4️⃣
+TD5 📋> ␅
+TD15 ␆m-w.com/games/quordle/
+TD6 📋> m-w.com/games/quordle/
+TD6 📋> ␅
+TD287569 ␆
+TD96 📋> 
+TD14 📋> ␅
+TD159717 ␄
+TD115 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 90\n8\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD109 result: "Daily Rescue 90\n8\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD56 📆 2026-02-08 ? ␅
+TD151741 ␆
+TD71 📆 2026-02-08 ? 
