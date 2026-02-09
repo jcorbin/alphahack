@@ -1,0 +1,154 @@
+T1875.668856548 now: 2026-02-09T09:10:31EST
+TD85 site: m-w.com/games/quordle/#/rescue
+TD14 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD79  ...␅
+TD4647121 ␆
+TD78  ...
+TD334179 > ␅
+TD881534 ␆*
+TD76 > *
+TD72626 ? ␅
+TD4863242 ␆10
+TD61 ? 10
+TD116 questioning: earns
+TD77 Rescue #1 _____? ␅
+TD1935798 ␄
+TD98 <EOF>
+TD310265 > ␅
+TD3505836 ␆tried spell flung
+TD74 > tried spell flung
+TD245 questioning: SPELL FLUNG
+TD85 Rescue #1 _____? ␅
+TD1847585 ␆nnMMn
+TD72 Rescue #1 _____? nnMMn
+TD145 attempt: 0 SPELL n n m m n
+TD59 Rescue #1 _____ ~EL -PS L:1? ␅
+TD1551613 ␆nMnnn
+TD76 Rescue #1 _____ ~EL -PS L:1? nMnnn
+TD156 attempt: 0 FLUNG n m n n n
+TD69 Rescue #2 _____? ␅
+TD2159705 ␆YnMnn
+TD75 Rescue #2 _____? YnMnn
+TD139 attempt: 1 SPELL Y n m n n
+TD62 Rescue #2 S____ ~E -LP? ␅
+TD1415859 ␆nnnYn
+TD76 Rescue #2 S____ ~E -LP? nnnYn
+TD142 attempt: 1 FLUNG n n n Y n
+TD62 Rescue #3 _____? ␅
+TD1487599 ␆nnnMn
+TD74 Rescue #3 _____? nnnMn
+TD162 attempt: 2 SPELL n n n m n
+TD69 Rescue #3 _____ ~L -EPS L:1? ␅
+TD1463775 ␆MMnnn
+TD75 Rescue #3 _____ ~L -EPS L:1? MMnnn
+TD154 attempt: 2 FLUNG m m n n n
+TD65 Rescue #4 _____? ␅
+TD1495729 ␆nnnnn
+TD82 Rescue #4 _____? nnnnn
+TD163 attempt: 3 SPELL n n n n n
+TD77 Rescue #4 _____ -ELPS? ␅
+TD1119722 ␆nnnnn
+TD109 Rescue #4 _____ -ELPS? nnnnn
+TD236 attempt: 3 FLUNG n n n n n
+TD329125 > ␅
+TD990389 ␆*
+TD74 > *
+TD2278 ? ␅
+TD4150544 ␆4
+TD107 ? 4
+TD158 questioning: birth
+TD95 Rescue #1 _____ ~EL -FGNPSU L:1? ␅
+TD3294851 ␆nnnnn
+TD107 Rescue #1 _____ ~EL -FGNPSU L:1? nnnnn
+TD226 attempt: 0 BIRTH n n n n n
+TD108 Rescue #2 S__N_ ~E -FGLPU? ␅
+TD2095542 ␆nnnMn
+TD96 Rescue #2 S__N_ ~E -FGLPU? nnnMn
+TD222 attempt: 1 BIRTH n n n m n
+TD106 Rescue #3 _____ ~FL -EGNPSU L:1? ␅
+TD1335616 ␆nnnYn
+TD97 Rescue #3 _____ ~FL -EGNPSU L:1? nnnYn
+TD226 attempt: 2 BIRTH n n n Y n
+TD110 Rescue #4 _____ -EFGLNPSU? ␅
+TD1647695 ␆nMnYn
+TD98 Rescue #4 _____ -EFGLNPSU? nMnYn
+TD230 attempt: 3 BIRTH n m n Y n
+TD302570 > ␅
+TD689066 ␆*
+TD100 > *
+TD470 questioning: lofty
+TD164 Rescue #1 _____ ~EL -BFGHINPRSTU L:1? ␅
+TD3327334 ␆Mnnnn
+TD78 Rescue #1 _____ ~EL -BFGHINPRSTU L:1? Mnnnn
+TD147 attempt: 0 LOFTY m n n n n
+TD71 Rescue #2 S__N_ ~ET -BFGHILPRU? ␅
+TD2103668 ␆nMnMn
+TD100 Rescue #2 S__N_ ~ET -BFGHILPRU? nMnMn
+TD220 attempt: 1 LOFTY n m n m n
+TD126 Rescue #3 ___T_ ~FL -BEGHINPRSU L:1? ␅
+TD1808026 ␆YYYYY
+TD95 Rescue #3 ___T_ ~FL -BEGHINPRSU L:1? YYYYY
+TD192 attempt: 2 LOFTY Y Y Y Y Y
+TD89 Rescue #4 ___T_ ~I -BEFGHLNPRSU? ␅
+TD1583266 ␆nnnYn
+TD85 Rescue #4 ___T_ ~I -BEFGHLNPRSU? nnnYn
+TD162 attempt: 3 LOFTY n n n Y n
+TD257347 > ␅
+TD854402 ␆*
+TD100 > *
+TD405 questioning: stone
+TD128 Rescue #1 _____ ~EL -BFGHINOPRSTUY L:1? ␅
+TD3215351 ␆nnnnY
+TD95 Rescue #1 _____ ~EL -BFGHINOPRSTUY L:1? nnnnY
+TD239 attempt: 0 STONE n n n n Y
+TD126 Rescue #2 S__N_ ~EOT -BFGHILPRUY? ␅
+TD1287570 ␆YYYYY
+TD82 Rescue #2 S__N_ ~EOT -BFGHILPRUY? YYYYY
+TD205 attempt: 1 STONE Y Y Y Y Y
+TD149 Rescue #4 ___T_ ~I -BEFGHLNOPRSUY? ␅
+TD1711960 ␆nMnnn
+TD71 Rescue #4 ___T_ ~I -BEFGHLNOPRSUY? nMnnn
+TD133 attempt: 3 STONE n m n n n
+TD158385 > ␅
+TD721015 ␆*
+TD108 > *
+TD361 questioning: cacti
+TD82 Rescue #1 ____E ~L -BFGHINOPRSTUY L:1? ␅
+TD5287374 ␆nYnnn
+TD132 Rescue #1 ____E ~L -BFGHINOPRSTUY L:1? nYnnn
+TD259 attempt: 0 CACTI n Y n n n
+TD119 Rescue #4 ___T_ ~I -BEFGHLNOPRSUY? ␅
+TD1087509 ␆YYYYY
+TD86 Rescue #4 ___T_ ~I -BEFGHLNOPRSUY? YYYYY
+TD171 attempt: 3 CACTI Y Y Y Y Y
+TD75457 > ␅
+TD1236354 ␆*
+TD99 > *
+TD377 questioning: valve
+TD114 Rescue #1 _A__E ~L -BCFGHINOPRSTUY L:1? ␅
+TD4151328 ␆YYYYY
+TD76 Rescue #1 _A__E ~L -BCFGHINOPRSTUY L:1? YYYYY
+TD157 attempt: 0 VALVE Y Y Y Y Y
+TD64 📋> ␅
+TD3744442 ␆Daily Rescue 91
+TD83 📋> Daily Rescue 91
+TD6 📋> ␅
+TD34 ␆7️⃣5️⃣
+TD3 📋> 7️⃣5️⃣
+TD2 📋> ␅
+TD5 ␆4️⃣6️⃣
+TD2 📋> 4️⃣6️⃣
+TD1 📋> ␅
+TD4 ␆m-w.com/games/quordle/
+TD2 📋> m-w.com/games/quordle/
+TD2 📋> ␅
+TD303246 ␆
+TD111 📋> 
+TD15 📋> ␅
+TD191883 ␄
+TD200 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 91\n7\ufe0f\u20e35\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD224 result: "Daily Rescue 91\n7\ufe0f\u20e35\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD116 📆 2026-02-09 ? ␅
+TD143528 ␆
+TD97 📆 2026-02-09 ? 
