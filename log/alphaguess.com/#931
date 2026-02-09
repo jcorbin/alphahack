@@ -1,0 +1,100 @@
+T209.99034786900302 now: 2026-02-09T08:42:46EST
+TD157 site: alphaguess.com
+TD157640 loaded 196530 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (74 words excluded) asof d87d4b98484d51c4fa044ff362aba78faf45d021
+TD128  ...␅
+TD2769474 ␆
+TD115  ...
+TD193 [0 : 98219 : 196530] mach? ␅
+TD2191595 ␆a
+TD113 [0 : 98219 : 196530] mach? a
+TD143 progress: 1 98219 mach
+TD150 [98220 : 147372 : 196530] rhotic? ␅
+TD1519542 ␆b
+TD78 [98220 : 147372 : 196530] rhotic? b
+TD87 progress: -1 147372 rhotic
+TD80 [98220 : 122782 : 147372] parr? ␅
+TD1495838 ␆b
+TD159 [98220 : 122782 : 147372] parr? b
+TD143 progress: -1 122782 parr
+TD128 [98220 : 109938 : 122782] ne? ␅
+TD1399501 ␆b
+TD100 [98220 : 109938 : 122782] ne? b
+TD113 progress: -1 109938 ne
+TD133 [98220 : 102761 : 109938] mi? ␅
+TD1207811 ␆a
+TD101 [98220 : 102761 : 109938] mi? a
+TD112 progress: 1 102761 mi
+TD117 [102762 : 106331 : 109938] mono? ␅
+TD1351660 ␆a
+TD104 [102762 : 106331 : 109938] mono? a
+TD111 progress: 1 106331 mono
+TD140 [106332 : 107681 : 109938] mu? ␅
+TD1391636 ␆a
+TD81 [106332 : 107681 : 109938] mu? a
+TD81 progress: 1 107681 mu
+TD89 [107682 : 108786 : 109938] mut? ␅
+TD1383646 ␆b
+TD113 [107682 : 108786 : 109938] mut? b
+TD109 progress: -1 108786 mut
+TD725 [107682 : 108234 : 108786] multiplicative? ␅
+TD1471209 ␆a
+TD98 [107682 : 108234 : 108786] multiplicative? a
+TD122 progress: 1 108234 multiplicative
+TD107 [108235 : 108505 : 108786] murder? ␅
+TD1535513 ␆a
+TD108 [108235 : 108505 : 108786] murder? a
+TD109 progress: 1 108505 murder
+TD105 [108506 : 108641 : 108786] mush? ␅
+TD1351831 ␆a
+TD80 [108506 : 108641 : 108786] mush? a
+TD82 progress: 1 108641 mush
+TD76 [108642 : 108701 : 108786] musk? ␅
+TD1399789 ␆b
+TD100 [108642 : 108701 : 108786] musk? b
+TD104 progress: -1 108701 musk
+TD111 [108642 : 108663 : 108701] musical? ␅
+TD1319650 ␆b
+TD98 [108642 : 108663 : 108701] musical? b
+TD108 progress: -1 108663 musical
+TD215 [108642 : 108652 : 108663] mushings? ␅
+TD3007637 ␆!
+TD99 [108642 : 108652 : 108663] mushings? !
+TD348 [108642 : 108652 : 108662] mushrat? ␅
+TD2255557 ␆!
+TD82 [108642 : 108652 : 108662] mushrat? !
+TD252 [108642 : 108653 : 108661] mushroom? ␅
+TD1823753 ␆a
+TD108 [108642 : 108653 : 108661] mushroom? a
+TD126 progress: 1 108653 mushroom
+TD260 [108654 : 108657 : 108661] mushrooms? ␅
+TD3887480 ␆a
+TD99 [108654 : 108657 : 108661] mushrooms? a
+TD110 progress: 1 108657 mushrooms
+TD190 [108658 : 108660 : 108661] music? ␅
+TD6839716 ␆it
+TD117 [108658 : 108660 : 108661] music? it
+TD116 progress: 0 108660 music
+TD26 [108658 : 108660 : 108661] <Done>.
+TD86 📋> ␅
+TD6408106 ␆🧩 Puzzle #931
+TD98 📋> 🧩 Puzzle #931
+TD12 📋> ␅
+TD40 ␆🤔 16 guesses
+TD6 📋> 🤔 16 guesses
+TD6 📋> ␅
+TD12 ␆⏱️ 32s
+TD6 📋> ⏱️ 32s
+TD5 📋> ␅
+TD503413 ␆🔗 alphaguess.com/931
+TD97 📋> 🔗 alphaguess.com/931
+TD12 📋> ␅
+TD183821 ␄
+TD175 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #931\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 32s\n\ud83d\udd17 alphaguess.com/931"}
+TD99 result: "\ud83e\udde9 Puzzle #931\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 32s\n\ud83d\udd17 alphaguess.com/931"
+TD12 result puzzle: 931
+TD3 result guesses: 16
+TD2 result time: 32s
+TD2 result link: alphaguess.com/931
+TD68 📆 2026-02-09 ? ␅
+TD167519 ␆
+TD81 📆 2026-02-09 ? 
