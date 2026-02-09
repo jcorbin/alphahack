@@ -1,0 +1,90 @@
+T155.82215340399853 now: 2026-02-09T08:41:51EST
+TD147 site: alfagok.diginaut.net
+TD353357 loaded 399665 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1187 words excluded) asof d87d4b98484d51c4fa044ff362aba78faf45d021
+TD116  ...␅
+TD6477551 ␆
+TD99  ...
+TD220 [0 : 199826 : 399665] lijm? ␅
+TD3399603 ␆b
+TD82 [0 : 199826 : 399665] lijm? b
+TD248 progress: -1 199826 lijm
+TD91 [0 : 99751 : 199826] ex? ␅
+TD2287680 ␆b
+TD97 [0 : 99751 : 199826] ex? b
+TD127 progress: -1 99751 ex
+TD106 [0 : 49842 : 99751] boks? ␅
+TD1679543 ␆a
+TD95 [0 : 49842 : 99751] boks? a
+TD104 progress: 1 49842 boks
+TD112 [49843 : 74755 : 99751] dc? ␅
+TD1671723 ␆b
+TD97 [49843 : 74755 : 99751] dc? b
+TD109 progress: -1 74755 dc
+TD110 [49843 : 62281 : 74755] cement? ␅
+TD1560573 ␆b
+TD96 [49843 : 62281 : 74755] cement? b
+TD108 progress: -1 62281 cement
+TD91 [49843 : 55934 : 62281] bron? ␅
+TD1998933 ␆b
+TD91 [49843 : 55934 : 62281] bron? b
+TD94 progress: -1 55934 bron
+TD88 [49843 : 52684 : 55934] bouw? ␅
+TD1615704 ␆a
+TD96 [49843 : 52684 : 55934] bouw? a
+TD109 progress: 1 52684 bouw
+TD108 [52685 : 54267 : 55934] brandstof? ␅
+TD1544097 ␆a
+TD103 [52685 : 54267 : 55934] brandstof? a
+TD109 progress: 1 54267 brandstof
+TD176 [54268 : 55098 : 55934] brevet? ␅
+TD1679187 ␆a
+TD81 [54268 : 55098 : 55934] brevet? a
+TD83 progress: 1 55098 brevet
+TD94 [55099 : 55514 : 55934] brod? ␅
+TD1719786 ␆a
+TD97 [55099 : 55514 : 55934] brod? a
+TD106 progress: 1 55514 brod
+TD77 [55515 : 55716 : 55934] broek? ␅
+TD2031663 ␆a
+TD108 [55515 : 55716 : 55934] broek? a
+TD125 progress: 1 55716 broek
+TD223 [55717 : 55825 : 55934] broezen? ␅
+TD1783732 ␆b
+TD99 [55717 : 55825 : 55934] broezen? b
+TD110 progress: -1 55825 broezen
+TD225 [55717 : 55771 : 55825] broekpolder? ␅
+TD1687362 ␆a
+TD100 [55717 : 55771 : 55825] broekpolder? a
+TD94 progress: 1 55771 broekpolder
+TD182 [55772 : 55799 : 55825] broekvent? ␅
+TD1647605 ␆a
+TD92 [55772 : 55799 : 55825] broekvent? a
+TD105 progress: 1 55799 broekvent
+TD120 [55800 : 55810 : 55825] broer? ␅
+TD1967881 ␆it
+TD78 [55800 : 55810 : 55825] broer? it
+TD84 progress: 0 55810 broer
+TD17 [55800 : 55810 : 55825] <Done>.
+TD76 📋> ␅
+TD2576264 ␆🧩 Puzzel #464
+TD98 📋> 🧩 Puzzel #464
+TD15 📋> ␅
+TD46 ␆🤔 15 gokken
+TD8 📋> 🤔 15 gokken
+TD8 📋> ␅
+TD15 ␆⏱️ 25s
+TD8 📋> ⏱️ 25s
+TD7 📋> ␅
+TD423330 ␆🔗 alfagok.diginaut.net
+TD97 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD223942 ␄
+TD193 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #464\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 25s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD683 result: "\ud83e\udde9 Puzzel #464\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 25s\n\ud83d\udd17 alfagok.diginaut.net"
+TD29 result puzzle: 464
+TD8 result guesses: 15
+TD5 result time: 25s
+TD4 result link: alfagok.diginaut.net
+TD88 📆 2026-02-09 ? ␅
+TD142794 ␆
+TD86 📆 2026-02-09 ? 
