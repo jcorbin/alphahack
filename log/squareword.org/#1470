@@ -1,0 +1,240 @@
+T1110.4381195800015 now: 2026-02-09T08:57:46EST
+TD82 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD25  ...␅
+TD3318888 ␆
+TD68  ...
+TD57 🧩  ? ␅
+TD1928461 ␆#1470
+TD76 🧩  ? #1470
+TD195 puzzle_id: #1470
+TD176 > ␅
+TD846973 ␆*
+TD91 > *
+TD176774 try? ␅
+TD1111178 ␆1
+TD91 try? 1
+TD327 questioning: ["raise", "#5"]
+TD325 #1 <IndexError>  📋 "raise" ? ␅
+TD4087396 ␆_____ ~ RSE
+TD101 #1 <IndexError>  📋 "raise" ? _____ ~ RSE
+TD733 attempt 0 RAISE m n n m m
+TD124 #2 <IndexError>  📋 "raise" ? ␅
+TD2295133 ␆____E ~ AE
+TD101 #2 <IndexError>  📋 "raise" ? ____E ~ AE
+TD283 attempt 1 RAISE n m n n Y
+TD123 #3 <IndexError>  📋 "raise" ? ␅
+TD3175446 ␆____E ~ I
+TD109 #3 <IndexError>  📋 "raise" ? ____E ~ I
+TD323 attempt 2 RAISE n n m n Y
+TD142 #4 <IndexError>  📋 "raise" ? ␅
+TD2271486 ␆__I__ ~ S
+TD102 #4 <IndexError>  📋 "raise" ? __I__ ~ S
+TD268 attempt 3 RAISE n n Y m n
+TD123 #5 <IndexError>  📋 "raise" ? ␅
+TD2071394 ␆_____ ~ S
+TD81 #5 <IndexError>  📋 "raise" ? _____ ~ S
+TD195 attempt 4 RAISE n n n m n
+TD304 ? ␅
+TD447508 ␆
+TD100 ? 
+TD146 question done
+TD308 > ␅
+TD639479 ␆*
+TD100 > *
+TD614498 try? ␅
+TD4481454 ␆1
+TD92 try? 1
+TD335 questioning: ["indue", "#3"]
+TD356 #1 _____ ~ERS -AI  📋 "indue" ? ␅
+TD4463203 ␆.
+TD81 #1 _____ ~ERS -AI  📋 "indue" ? .
+TD225 attempt 0 INDUE n n n n m
+TD73 #2 ____E ~A -IRS  📋 "indue" ? ␅
+TD3719484 ␆____E ~ AE
+TD75 #2 ____E ~A -IRS  📋 "indue" ? ____E ~ AE
+TD172 attempt 1 INDUE n n n n Y
+TD97 #3 ____E ~I -ARS  📋 "indue" ? ␅
+TD4511884 ␆__D_E ~ I
+TD100 #3 ____E ~I -ARS  📋 "indue" ? __D_E ~ I
+TD282 attempt 2 INDUE m n Y n Y
+TD152 #4 __I__ ~S -AER  📋 "indue" ? ␅
+TD2119456 ␆.
+TD147 #4 __I__ ~S -AER  📋 "indue" ? .
+TD288 attempt 3 INDUE n n n n n
+TD92 #5 _____ ~S -AEIR  📋 "indue" ? ␅
+TD695940 ␆.
+TD101 #5 _____ ~S -AEIR  📋 "indue" ? .
+TD261 attempt 4 INDUE n n n n n
+TD292 ? ␅
+TD174788 ␆
+TD83 ? 
+TD89 question done
+TD196 > ␅
+TD439765 ␆*
+TD100 > *
+TD543878 try? ␅
+TD3968070 ␆3
+TD108 try? 3
+TD291 questioning: ["oldie", "#3"]
+TD333 #1 _____ ~ERS -ADINU  📋 "oldie" ? ␅
+TD4127306 ␆.
+TD116 #1 _____ ~ERS -ADINU  📋 "oldie" ? .
+TD275 attempt 0 OLDIE n n n n m
+TD104 #2 ____E ~A -DINRSU  📋 "oldie" ? ␅
+TD4791523 ␆____E ~ AEL
+TD108 #2 ____E ~A -DINRSU  📋 "oldie" ? ____E ~ AEL
+TD253 attempt 1 OLDIE n m n n Y
+TD158 #3 __D_E ~I -ANRSU  📋 "oldie" ? ␅
+TD631363 ␆/it
+TD99 #3 __D_E ~I -ANRSU  📋 "oldie" ? /it
+TD271 attempt 2 OLDIE Y Y Y Y Y
+TD97 #4 __I__ ~S -ADEINRU  📋 "oldie" ? ␅
+TD3471706 ␆_LI__ ~ S
+TD95 #4 __I__ ~S -ADEINRU  📋 "oldie" ? _LI__ ~ S
+TD262 attempt 3 OLDIE n Y n n n
+TD150 #5 _____ ~S -ADEINRU  📋 "oldie" ? ␅
+TD1895421 ␆_____ ~ SO
+TD89 #5 _____ ~S -ADEINRU  📋 "oldie" ? _____ ~ SO
+TD189 attempt 4 OLDIE m n n n n
+TD209 ? ␅
+TD287611 ␆
+TD107 ? 
+TD133 question done
+TD310 > ␅
+TD863353 ␆*
+TD110 > *
+TD634768 try? ␅
+TD1285267 ␆1
+TD104 try? 1
+TD296 questioning: ["leave", "#2"]
+TD303 #1 _____ ~ERS -ADILNOU  📋 "leave" ? ␅
+TD2407228 ␆.
+TD105 #1 _____ ~ERS -ADILNOU  📋 "leave" ? .
+TD254 attempt 0 LEAVE n m n n m
+TD95 #2 ____E ~AL -DINORSU  📋 "leave" ? ␅
+TD583539 ␆/it
+TD88 #2 ____E ~AL -DINORSU  📋 "leave" ? /it
+TD194 attempt 1 LEAVE Y Y Y Y Y
+TD71 #4 _LI__ ~S -ADEINORU  📋 "leave" ? ␅
+TD1407671 ␆.
+TD109 #4 _LI__ ~S -ADEINORU  📋 "leave" ? .
+TD306 attempt 3 LEAVE n n n n n
+TD126 #5 _____ ~OS -ADEILNRU  📋 "leave" ? ␅
+TD807487 ␆.
+TD100 #5 _____ ~OS -ADEILNRU  📋 "leave" ? .
+TD294 attempt 4 LEAVE n n n n n
+TD394 ? ␅
+TD175171 ␆
+TD102 ? 
+TD105 question done
+TD199 > ␅
+TD519540 ␆*'
+TD101 > *'
+TD788 > ␅
+TD1119163 ␆*
+TD115 > *
+TD1015561 try? ␅
+TD2808394 ␆4
+TD75 try? 4
+TD210 questioning: ["slick", "#4"]
+TD204 #1 _____ ~ERS -ADILNOUV  📋 "slick" ? ␅
+TD4407499 ␆S____ ~ RE
+TD100 #1 _____ ~ERS -ADILNOUV  📋 "slick" ? S____ ~ RE
+TD261 attempt 0 SLICK Y n n n n
+TD156 #4 _LI__ ~S -ADEILNORUV  📋 "slick" ? ␅
+TD719318 ␆/it
+TD90 #4 _LI__ ~S -ADEILNORUV  📋 "slick" ? /it
+TD187 attempt 3 SLICK Y Y Y Y Y
+TD70 #5 _____ ~OS -ADEILNRUV  📋 "slick" ? ␅
+TD623781 ␆.
+TD92 #5 _____ ~OS -ADEILNRUV  📋 "slick" ? .
+TD195 attempt 4 SLICK m n n n n
+TD171 ? ␅
+TD167614 ␆
+TD102 ? 
+TD118 question done
+TD337 > ␅
+TD423410 ␆*
+TD98 > *
+TD1342511 try? ␅
+TD2625468 ␆2
+TD73 try? 2
+TD194 questioning: ["hosts", "#5"]
+TD170 #1 S____ ~ER -ACDIKLNOUV  📋 "hosts" ? ␅
+TD17223633 ␆S____ ~ REH
+TD87 #1 S____ ~ER -ACDIKLNOUV  📋 "hosts" ? S____ ~ REH
+TD198 attempt 0 HOSTS m n n n n
+TD125 #5 _____ ~OS -ACDEIKLNRUV  📋 "hosts" ? ␅
+TD3343774 ␆HO_TS ~ O
+TD101 #5 _____ ~OS -ACDEIKLNRUV  📋 "hosts" ? HO_TS ~ O
+TD253 attempt 4 HOSTS Y Y n Y Y
+TD369 ? ␅
+TD279213 ␆
+TD91 ? 
+TD128 question done
+TD299 > ␅
+TD527322 ␆*
+TD58 > *
+TD1332469 questioning: ["shrew", "#1"]
+TD180 #1 S____ ~EHR -ACDIKLNOSTUV  📋 "shrew" ? ␅
+TD2875258 ␆/it
+TD77 #1 S____ ~EHR -ACDIKLNOSTUV  📋 "shrew" ? /it
+TD165 attempt 0 SHREW Y Y Y Y Y
+TD68 #5 HO_TS -ACDEIKLNRUV  📋 "shrew" ? ␅
+TD1744004 ␆.
+TD84 #5 HO_TS -ACDEIKLNRUV  📋 "shrew" ? .
+TD213 attempt 4 SHREW n n n n n
+TD260 ? ␅
+TD159285 ␆
+TD87 ? 
+TD95 question done
+TD238 > ␅
+TD439527 ␆*
+TD83 > *
+TD871260 questioning: ["hoots", "#5"]
+TD193 #5 HO_TS -ACDEHIKLNRSUVW  📋 "hoots" ? ␅
+TD4360888 ␆/it
+TD98 #5 HO_TS -ACDEHIKLNRSUVW  📋 "hoots" ? /it
+TD272 attempt 4 HOOTS Y Y Y Y Y
+TD318 ? ␅
+TD1087179 ␆
+TD100 ? 
+TD107 question done
+TD28676 📋> ␅
+TD3283412 ␆squareword.org 1470: 8 guesses
+TD111 📋> squareword.org 1470: 8 guesses
+TD13 📋> ␅
+TD44 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD16 ␆🟩🟨🟨🟨🟨
+TD6 📋> 🟩🟨🟨🟨🟨
+TD5 📋> ␅
+TD13 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟨🟨🟨🟨
+TD4 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD13 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD383246 ␆#squareword #squareword1470
+TD94 📋> #squareword #squareword1470
+TD11 📋> ␅
+TD343902 ␄
+TD176 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1470: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1470"}
+TD1748 result: "squareword.org 1470: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1470"
+TD68 📆 2026-02-09 ? ␅
+TD246176 ␆
+TD103 📆 2026-02-09 ? 
