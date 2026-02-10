@@ -1,0 +1,177 @@
+T1189.2582451290218 now: 2026-02-10T10:00:52EST
+TD69 site: m-w.com/games/quordle/#/rescue
+TD11 wordlist: nwl2023.txt
+TD3 num_words: 4
+TD70  ...␅
+TD15711508 ␆
+TD71  ...
+TD351736 > ␅
+TD8536174 ␆tried inbox slung
+TD73 > tried inbox slung
+TD269 questioning: INBOX SLUNG
+TD110 Rescue #1 _____? ␅
+TD1943569 ␆nnnMn
+TD71 Rescue #1 _____? nnnMn
+TD368 attempt: 0 INBOX n n n m n
+TD65 Rescue #1 _____ ~O -BINX? ␅
+TD1183660 ␆nMnnn
+TD75 Rescue #1 _____ ~O -BINX? nMnnn
+TD148 attempt: 0 SLUNG n m n n n
+TD61 Rescue #2 _____? ␅
+TD2127740 ␆nnnMn
+TD97 Rescue #2 _____? nnnMn
+TD233 attempt: 1 INBOX n n n m n
+TD110 Rescue #2 _____ ~O -BINX? ␅
+TD1095526 ␆nnnnn
+TD81 Rescue #2 _____ ~O -BINX? nnnnn
+TD137 attempt: 1 SLUNG n n n n n
+TD66 Rescue #3 _____? ␅
+TD1783581 ␆Mnnnn
+TD75 Rescue #3 _____? Mnnnn
+TD140 attempt: 2 INBOX m n n n n
+TD61 Rescue #3 _____ ~I -BNOX? ␅
+TD1239760 ␆Mnnnn
+TD73 Rescue #3 _____ ~I -BNOX? Mnnnn
+TD138 attempt: 2 SLUNG m n n n n
+TD64 Rescue #4 _____? ␅
+TD1663739 ␆Mnnnn
+TD75 Rescue #4 _____? Mnnnn
+TD133 attempt: 3 INBOX m n n n n
+TD61 Rescue #4 _____ ~I -BNOX? ␅
+TD1439756 ␆Ynnnn
+TD79 Rescue #4 _____ ~I -BNOX? Ynnnn
+TD164 attempt: 3 SLUNG Y n n n n
+TD315625 > ␅
+TD756142 ␆*
+TD68 > *
+TD1693 ? ␅
+TD1118200 ␆1
+TD70 ? 1
+TD130 questioning: doter
+TD3165 Rescue #1 _____ ~LO -BGINSUX? ␅
+TD3180719 ␆YMnnM
+TD92 Rescue #1 _____ ~LO -BGINSUX? YMnnM
+TD332 attempt: 0 DOTER Y m n n m
+TD112 Rescue #2 _____ ~O -BGILNSUX? ␅
+TD1431472 ␆nYnnM
+TD73 Rescue #2 _____ ~O -BGILNSUX? nYnnM
+TD145 attempt: 1 DOTER n Y n n m
+TD64 Rescue #3 _____ ~IS -BGLNOUX? ␅
+TD1207760 ␆nnnnn
+TD74 Rescue #3 _____ ~IS -BGLNOUX? nnnnn
+TD143 attempt: 2 DOTER n n n n n
+TD71 Rescue #4 S____ ~I -BGLNOUX? ␅
+TD1439894 ␆nnnMn
+TD80 Rescue #4 S____ ~I -BGLNOUX? nnnMn
+TD160 attempt: 3 DOTER n n n m n
+TD314496 > ␅
+TD605040 ␆*
+TD73 > *
+TD282 questioning: droll
+TD81 Rescue #1 D____ ~LOR -BEGINSTUX? ␅
+TD2727634 ␆YYYYY
+TD73 Rescue #1 D____ ~LOR -BEGINSTUX? YYYYY
+TD136 attempt: 0 DROLL Y Y Y Y Y
+TD68 Rescue #2 _O___ ~R -BDEGILNSTUX? ␅
+TD1535767 ␆nMMnn
+TD71 Rescue #2 _O___ ~R -BDEGILNSTUX? nMMnn
+TD136 attempt: 1 DROLL n m m n n
+TD69 Rescue #3 _____ ~IS -BDEGLNORTUX? ␅
+TD1175712 ␆nnnnn
+TD73 Rescue #3 _____ ~IS -BDEGLNORTUX? nnnnn
+TD137 attempt: 2 DROLL n n n n n
+TD66 Rescue #4 S____ ~EI -BDGLNORTUX? ␅
+TD1095683 ␆nnnnn
+TD74 Rescue #4 S____ ~EI -BDGLNORTUX? nnnnn
+TD135 attempt: 3 DROLL n n n n n
+TD214880 > ␅
+TD1016918 ␆*
+TD110 > *
+TD1093 ? ␅
+TD2070818 ␆3
+TD101 ? 3
+TD186 questioning: chips
+TD165 Rescue #2 _O___ ~R -BDEGILNSTUX? ␅
+TD4680111 ␆Mnnnn
+TD111 Rescue #2 _O___ ~R -BDEGILNSTUX? Mnnnn
+TD184 attempt: 1 CHIPS m n n n n
+TD92 Rescue #3 _____ ~IS -BDEGLNORTUX? ␅
+TD3023225 ␆nnYnY
+TD115 Rescue #3 _____ ~IS -BDEGLNORTUX? nnYnY
+TD248 attempt: 2 CHIPS n n Y n Y
+TD80 Rescue #4 S____ ~EI -BDGLNORTUX? ␅
+TD1647448 ␆MnYMM
+TD75 Rescue #4 S____ ~EI -BDGLNORTUX? MnYMM
+TD162 attempt: 3 CHIPS m n Y m m
+TD256234 > ␅
+TD663522 ␆*
+TD72 > *
+TD253 questioning: rocky
+TD85 Rescue #2 _O___ ~CR -BDEGHILNPSTUX? ␅
+TD3151798 ␆YYYYY
+TD97 Rescue #2 _O___ ~CR -BDEGHILNPSTUX? YYYYY
+TD265 attempt: 1 ROCKY Y Y Y Y Y
+TD147 Rescue #3 __I_S -BCDEGHLNOPRTUX? ␅
+TD1223395 ␆nnnnn
+TD72 Rescue #3 __I_S -BCDEGHLNOPRTUX? nnnnn
+TD163 attempt: 2 ROCKY n n n n n
+TD85 Rescue #4 S_I__ ~CEP -BDGHLNORTUX? ␅
+TD1023598 ␆nnMnn
+TD73 Rescue #4 S_I__ ~CEP -BDGHLNORTUX? nnMnn
+TD137 attempt: 3 ROCKY n n m n n
+TD133200 > ␅
+TD682611 ␆*
+TD68 > *
+TD282 questioning: spice
+TD80 Rescue #3 __I_S -BCDEGHKLNOPRTUXY? ␅
+TD2991589 ␆MnYnn
+TD100 Rescue #3 __I_S -BCDEGHKLNOPRTUXY? MnYnn
+TD237 attempt: 2 SPICE m n Y n n
+TD121 Rescue #4 S_I__ ~CEP -BDGHKLNORTUXY? ␅
+TD1103567 ␆YYYYY
+TD71 Rescue #4 S_I__ ~CEP -BDGHKLNORTUXY? YYYYY
+TD137 attempt: 3 SPICE Y Y Y Y Y
+TD66176 > ␅
+TD653798 ␆*
+TD109 > *
+TD624 ? ␅
+TD4303140 ␆1
+TD97 ? 1
+TD159 questioning: waifs
+TD96 Rescue #3 __I_S -BCDEGHKLNOPRTUXY? ␅
+TD4887652 ␆nMYnY
+TD69 Rescue #3 __I_S -BCDEGHKLNOPRTUXY? nMYnY
+TD137 attempt: 2 WAIFS n m Y n Y
+TD76155 > ␅
+TD1020670 ␆*
+TD125 > *
+TD418 ? ␅
+TD1606645 ␆2
+TD108 ? 2
+TD168 questioning: amiss
+TD93 Rescue #3 __I_S ~A -BCDEFGHKLNOPRTUWXY? ␅
+TD5335697 ␆YYYYY
+TD77 Rescue #3 __I_S ~A -BCDEFGHKLNOPRTUWXY? YYYYY
+TD168 attempt: 2 AMISS Y Y Y Y Y
+TD85 📋> ␅
+TD2760285 ␆Daily Rescue 92
+TD69 📋> Daily Rescue 92
+TD12 📋> ␅
+TD32 ␆4️⃣6️⃣
+TD3 📋> 4️⃣6️⃣
+TD3 📋> ␅
+TD7 ␆9️⃣7️⃣
+TD3 📋> 9️⃣7️⃣
+TD2 📋> ␅
+TD5 ␆m-w.com/games/quordle/
+TD2 📋> m-w.com/games/quordle/
+TD2 📋> ␅
+TD391255 ␆
+TD90 📋> 
+TD9 📋> ␅
+TD175819 ␄
+TD189 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 92\n4\ufe0f\u20e36\ufe0f\u20e3\n9\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1117 result: "Daily Rescue 92\n4\ufe0f\u20e36\ufe0f\u20e3\n9\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD59 📆 2026-02-10 ? ␅
+TD222658 ␆
+TD97 📆 2026-02-10 ? 
