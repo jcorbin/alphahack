@@ -3717,8 +3717,7 @@ class Search(StoredLog):
             self.fams: list[str] = []
 
             self.shown: list[bool] = []
-            self.cap_chat: list[bool|None] = []
-            self.cap_think: list[bool|None] = []
+            self.caps: list[tuple[str, ...]] = []
 
             self.name_ix: list[int] = []
             self.show_ix: list[int] = []
@@ -3731,8 +3730,7 @@ class Search(StoredLog):
             self.fams.clear()
 
             self.shown.clear()
-            self.cap_chat.clear()
-            self.cap_think.clear()
+            self.caps.clear()
 
             self.name_ix.clear()
             self.show_ix.clear()
@@ -3746,8 +3744,7 @@ class Search(StoredLog):
             self.fams.append('')
 
             self.shown.append(False)
-            self.cap_chat.append(None)
-            self.cap_think.append(None)
+            self.caps.append(())
 
             return model_i
 
@@ -3798,9 +3795,7 @@ class Search(StoredLog):
                 self.update_model_info(model_i, info)
 
         def update_model_info(self, model_i: int, info: ollama.ShowResponse):
-            caps = tuple(info.capabilities) if info.capabilities else ()
-            self.cap_chat[model_i] = 'completion' in caps
-            self.cap_think[model_i] = 'thinking' in caps
+            self.caps[model_i] = tuple(info.capabilities) if info.capabilities else ()
             self.shown[model_i] = True
 
         def index(self, name: str):
@@ -3846,7 +3841,7 @@ class Search(StoredLog):
                     f'fam:{self.fams[model_i]}',
                     f'B:{self.size_byte[model_i]:>8}', # 123.4XiB
                     f'P:{self.size_parm[model_i]:>6}', # 123.4B
-                    f'(thinking)' if self.cap_think[model_i] else '',
+                    f'(thinking)' if 'thinking' in self.caps[model_i] else '',
                 ), part_widths)))
 
     def select_model(self, ui: PromptUI):
@@ -3863,7 +3858,7 @@ class Search(StoredLog):
 
             ix = [
                 model_i for model_i in ix
-                if sel.cap_chat[model_i]]
+                if 'completion' in sel.caps[model_i]]
 
             if want_fam:
                 ix = [
@@ -3874,7 +3869,7 @@ class Search(StoredLog):
             if want_thinking:
                 ix = [
                     model_i for model_i in ix
-                    if sel.cap_think[model_i]]
+                    if 'thinking' in sel.caps[model_i]]
                 wanted.append('thinking')
 
             return ix
@@ -3954,7 +3949,7 @@ class Search(StoredLog):
         sel = self.llm_sel
         model_i = sel.index(model)
         sel.load_model_info(model_i)
-        if self.llm_thinking and not sel.cap_think[model_i]:
+        if self.llm_thinking and 'thinking' not in sel.caps[model_i]:
             ui.print(f'Model does is not capable of thinking, resetting to default')
             self.llm_thinking = None
             ui.log(f'session thinking: {json.dumps(self.llm_thinking)}')
