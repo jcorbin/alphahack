@@ -275,6 +275,7 @@ OrderLogsBy = Literal['mtime','name']
 class StoredLog:
     @classmethod
     def main(cls):
+        # TODO erase over ui main
         import argparse
 
         ui = PromptUI()
