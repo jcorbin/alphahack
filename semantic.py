@@ -3711,11 +3711,15 @@ class Search(StoredLog):
             self.client = client
             self.models: list[ollama.ListResponse.Model] = []
             self.names: list[str] = []
+
             self.size_byte: list[str] = []
             self.size_parm: list[str] = []
             self.fams: list[str] = []
+
+            self.shown: list[bool] = []
             self.cap_chat: list[bool|None] = []
             self.cap_think: list[bool|None] = []
+
             self.name_ix: list[int] = []
             self.show_ix: list[int] = []
 
@@ -3725,8 +3729,11 @@ class Search(StoredLog):
             self.size_byte.clear()
             self.size_parm.clear()
             self.fams.clear()
+
+            self.shown.clear()
             self.cap_chat.clear()
             self.cap_think.clear()
+
             self.name_ix.clear()
             self.show_ix.clear()
 
@@ -3737,8 +3744,11 @@ class Search(StoredLog):
             self.size_byte.append('')
             self.size_parm.append('')
             self.fams.append('')
+
+            self.shown.append(False)
             self.cap_chat.append(None)
             self.cap_think.append(None)
+
             return model_i
 
         def load_models(self):
@@ -3769,22 +3779,29 @@ class Search(StoredLog):
                   if name ),
                 key=lambda i: self.names[i])
 
-        def load_model_infos(self):
+        def load_model_infos(self, reload: bool=False):
             # TODO do this in parallel
-            for model_i, name in enumerate(self.names):
-                if not name: continue
-                info = self.client.show(name)
+            def get_info(model_i: int, name: str):
+                return model_i, self.client.show(name)
+            for res in (
+                get_info(model_i, name)
+                for model_i, name in enumerate(self.names)
+                if name
+                if reload or not self.shown[model_i]):
+                model_i, info = res
                 self.update_model_info(model_i, info)
                 yield model_i
 
         def load_model_info(self, model_i: int):
-            info = self.client.show(self.names[model_i])
-            self.update_model_info(model_i, info)
+            if not self.shown[model_i]:
+                info = self.client.show(self.names[model_i])
+                self.update_model_info(model_i, info)
 
         def update_model_info(self, model_i: int, info: ollama.ShowResponse):
             caps = tuple(info.capabilities) if info.capabilities else ()
             self.cap_chat[model_i] = 'completion' in caps
             self.cap_think[model_i] = 'thinking' in caps
+            self.shown[model_i] = True
 
         def index(self, name: str):
             if not self.models:
@@ -3870,7 +3887,7 @@ class Search(StoredLog):
                     sel.load_models()
                     ui.write('L')
 
-                if any(val is None for val in sel.cap_chat):
+                if not all(sel.shown):
                     for _ in sel.load_model_infos():
                         ui.write('S')
 
