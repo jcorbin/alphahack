@@ -3231,29 +3231,34 @@ class Search(StoredLog):
                 if unk:
                     yield '❓', mess.model_dump_json(indent=2)
 
-            # TODO with ui.line_writer() as lw:
-            # TODO tee content into a word scanner
+            def runit():
+                # TODO with ui.line_writer() as lw:
+                # TODO tee content into a word scanner
 
-            try:
-                last_mark = ''
-                for mess in self.chat_say(ui, prompt):
-                    for mark, raw in mess_parts(mess):
-                        first = True
-                        for line in spliterate(raw, '\n', trim=True):
-                            if first and ui.last == 'write' and mark == last_mark:
-                                ui.write(line)
-                            else:
-                                ui.fin()
-                                ui.write(f'{mark} {line}')
-                            last_mark = mark
-                            first = False
+                try:
+                    last_mark = ''
+                    for mess in self.chat_say(ui, prompt):
+                        for mark, raw in mess_parts(mess):
+                            first = True
+                            for line in spliterate(raw, '\n', trim=True):
+                                if first and ui.last == 'write' and mark == last_mark:
+                                    ui.write(line)
+                                else:
+                                    ui.fin()
+                                    ui.write(f'{mark} {line}')
+                                last_mark = mark
+                                first = False
 
-            except ollama.ResponseError as err:
-                ui.print(f'! ollama error: {err}')
-                return self.ideate # TODO ollama config state
+                except ollama.ResponseError as err:
+                    ui.print(f'! ollama error: {err}')
+                    return self.ideate # TODO ollama config state
 
-            finally:
-                ui.fin()
+                finally:
+                    ui.fin()
+
+            st = runit()
+            if st is not None:
+                return st
 
             exw = self.chat_extract_words(ChatExtractMode('last', False))
             if any(exw.may):
