@@ -3819,6 +3819,15 @@ class Search(StoredLog):
         def update_model_info(self, model_i: int, info: ollama.ShowResponse):
             self.caps[model_i] = tuple(info.capabilities) if info.capabilities else ()
             self.model_infos[model_i] = tuple(info.modelinfo.items()) if info.modelinfo else ()
+
+            # TODO save context window size
+            # arch = self.get_model_info_item(model_i, 'general.architecture', '')
+            # ctx_win_raw = self.get_model_info_item(model_i, f'{arch}.context_length') if arch else None
+            # if isinstance(ctx_win_raw, str):
+            #     ctx_win = int(f'{ctx_win_raw}')
+            # elif isinstance(ctx_win_raw, int):
+            #     ctx_win = ctx_win_raw
+
             self.shown[model_i] = True
 
         def get_model_info_item(self, model_i: int, key: str, dflt: object=None):
