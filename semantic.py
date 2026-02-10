@@ -3780,11 +3780,14 @@ class Search(StoredLog):
             # TODO do this in parallel
             for model_i, name in enumerate(self.names):
                 if not name: continue
-                caps = self.client.show(name).capabilities
-                if caps is not None:
-                    self.cap_chat[model_i] = 'completion' in caps
-                    self.cap_think[model_i] = 'thinking' in caps
+                info = self.client.show(name)
+                self.update_model_info(model_i, info)
                 yield model_i
+
+        def update_model_info(self, model_i: int, info: ollama.ShowResponse):
+            caps = tuple(info.capabilities) if info.capabilities else ()
+            self.cap_chat[model_i] = 'completion' in caps
+            self.cap_think[model_i] = 'thinking' in caps
 
         def find(self, name: str):
             if not self.models:
