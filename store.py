@@ -1,4 +1,5 @@
 import argparse
+import asyncio
 import datetime
 import json
 import os
@@ -313,6 +314,8 @@ class StoredLog:
         self.log_start: datetime.datetime|None = None
         self.result_text: str = ''
 
+        self.async_runner: asyncio.Runner = asyncio.Runner()
+
         self.std_prompt: PromptUI.Prompt = PromptUI.Prompt('> ', {
             '/result': self.cmd_result,
             '/site': self.cmd_site_link,
@@ -339,6 +342,7 @@ class StoredLog:
 
     def __enter__(self):
         self._entered = True
+        _ = self.async_runner.__enter__()
         # TODO log file handling here?
         return self
 
@@ -348,6 +352,7 @@ class StoredLog:
         exc: BaseException | None,
         exc_tb: TracebackType | None,
     ):
+        self.async_runner.__exit__(exc_type, exc, exc_tb)
         # TODO log file handling here?
         self._entered = False
         pass
