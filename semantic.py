@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import argparse
+import asyncio
 import bs4
 import datetime
 import httpx
@@ -791,9 +792,9 @@ class Search(StoredLog):
         self.http_verbose: int = 0
         self.logged_cookies: dict[str, str] = {}
 
-        self.llm_client = ollama.Client()
+        self.llm_async_client = ollama.AsyncClient()
         self.llm_model: str = self.default_chat_model
-        self.llm_sel = self.ModelSelector(self.llm_client)
+        self.llm_sel = self.ModelSelector(self.llm_async_client)
         self.llm_thinking: ThinkingValue = None
 
         self.abbr: dict[str, str] = dict(default_abbr)
@@ -3231,13 +3232,13 @@ class Search(StoredLog):
                 if unk:
                     yield '❓', mess.model_dump_json(indent=2)
 
-            def runit():
+            async def runit():
                 # TODO with ui.line_writer() as lw:
                 # TODO tee content into a word scanner
 
                 try:
                     last_mark = ''
-                    for mess in self.chat_say(ui, prompt):
+                    async for mess in self.chat_say(ui, prompt):
                         for mark, raw in mess_parts(mess):
                             first = True
                             for line in spliterate(raw, '\n', trim=True):
@@ -3256,7 +3257,7 @@ class Search(StoredLog):
                 finally:
                     ui.fin()
 
-            st = runit()
+            st = asyncio.run(runit())
             if st is not None:
                 return st
 
@@ -3267,7 +3268,7 @@ class Search(StoredLog):
             if not self.full_auto:
                 ui.print(f'📝 No new words extracted from {self.chat_extract_desc(exw)}')
 
-    def chat_say(self, ui: PromptUI, prompt: str):
+    async def chat_say(self, ui: PromptUI, prompt: str):
         if not self.chat and self.system_prompt:
             self.chat_append(ui, ollama.Message(role='system', content=self.system_prompt))
 
@@ -3302,7 +3303,7 @@ class Search(StoredLog):
                     part_content.append(mess.content)
 
             try:
-                for resp in self.llm_client.chat(
+                async for resp in (await self.llm_async_client.chat(
                     model=self.llm_model,
                     messages=self.chat,
                     stream=True,
@@ -3311,7 +3312,7 @@ class Search(StoredLog):
                     # TODO options: Optional[Union[Mapping[str, Any], Options]] = None,
                     #     seed: Optional[int] = None
                     #     temperature: Optional[float] = None
-                ):
+                )):
                     with ui.catch_exception(Exception,
                                             extra = lambda ui: ui.print(f'\n! ollama response: {json.dumps(resp)}')):
                         # TODO care about resp.done / resp.done_reason ?
@@ -3726,7 +3727,7 @@ class Search(StoredLog):
 
     @final
     class ModelSelector:
-        def __init__(self, client: ollama.Client):
+        def __init__(self, client: ollama.AsyncClient):
             self.client = client
             self.models: list[ollama.ListResponse.Model] = []
             self.names: list[str] = []
@@ -3770,8 +3771,9 @@ class Search(StoredLog):
 
             return model_i
 
-        def load_models(self):
-            for model in self.client.list().models:
+        async def load_models(self):
+            res = await self.client.list()
+            for model in res.models:
                 model_i = self.alloc(model)
 
                 name = model.model
@@ -3787,8 +3789,8 @@ class Search(StoredLog):
                     if det.parameter_size is not None:
                         self.size_parm[model_i] = det.parameter_size
 
-        def load(self):
-            self.load_models()
+        async def load(self):
+            await self.load_models()
             self.update_name_ix()
 
         def update_name_ix(self):
@@ -3798,22 +3800,21 @@ class Search(StoredLog):
                   if name ),
                 key=lambda i: self.names[i])
 
-        def load_model_infos(self, reload: bool=False):
-            # TODO do this in parallel
-            def get_info(model_i: int, name: str):
-                return model_i, self.client.show(name)
-            for res in (
+        async def load_model_infos(self, reload: bool=False):
+            async def get_info(model_i: int, name: str):
+                return model_i, await self.client.show(name)
+            for res in asyncio.as_completed(
                 get_info(model_i, name)
                 for model_i, name in enumerate(self.names)
                 if name
                 if reload or not self.shown[model_i]):
-                model_i, info = res
+                model_i, info = await res
                 self.update_model_info(model_i, info)
                 yield model_i
 
-        def load_model_info(self, model_i: int):
+        async def load_model_info(self, model_i: int):
             if not self.shown[model_i]:
-                info = self.client.show(self.names[model_i])
+                info = await self.client.show(self.names[model_i])
                 self.update_model_info(model_i, info)
 
         def update_model_info(self, model_i: int, info: ollama.ShowResponse):
@@ -3838,7 +3839,7 @@ class Search(StoredLog):
 
         def index(self, name: str):
             if not self.models:
-                self.load()
+                asyncio.run(self.load())
             ni = bisect_left(self.name_ix, name, key=lambda i: self.names[i])
             if ni < len(self.name_ix):
                 model_i = self.name_ix[ni]
@@ -3912,16 +3913,16 @@ class Search(StoredLog):
 
             return ix
 
-        def maybe_refresh():
+        async def maybe_refresh():
             try:
                 ui.write('Refreshing ollama models:')
 
                 if not sel.models:
-                    sel.load_models()
+                    await sel.load_models()
                     ui.write('L')
 
                 if not all(sel.shown):
-                    for _ in sel.load_model_infos():
+                    async for _ in sel.load_model_infos():
                         ui.write('S')
 
                 sel.update_name_ix()
@@ -3939,7 +3940,7 @@ class Search(StoredLog):
                     if tokens.have(r'/fam(i(ly?)?)?'):
                         want_fam = next(tokens, '')
                         ui.print(f'Using family filter: {want_fam!r}')
-                        maybe_refresh()
+                        asyncio.run(maybe_refresh())
                         continue
 
                     if tokens.have(r'/think(i(ng?)?)?'):
@@ -3947,7 +3948,7 @@ class Search(StoredLog):
                             want_thinking = parse_think(tokens, fallthru=False if want_thinking else True)
                         except ValueError:
                             ui.print(f'! invalid thinking argument {next(tokens)!r}')
-                        maybe_refresh()
+                        asyncio.run(maybe_refresh())
                         continue
 
                     if tokens:
@@ -3958,7 +3959,7 @@ class Search(StoredLog):
                             ui.print(f'! {err}')
                             continue
 
-                    maybe_refresh()
+                    asyncio.run(maybe_refresh())
 
                     ui.br()
                     ui.print(f'Available{''.join(f' {w}' for w in wanted)} Models:')
@@ -3986,7 +3987,7 @@ class Search(StoredLog):
 
         sel = self.llm_sel
         model_i = sel.index(model)
-        sel.load_model_info(model_i)
+        asyncio.run(sel.load_model_info(model_i))
         if self.llm_thinking and 'thinking' not in sel.caps[model_i]:
             ui.print(f'Model does is not capable of thinking, resetting to default')
             self.llm_thinking = None
