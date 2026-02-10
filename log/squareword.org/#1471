@@ -1,0 +1,253 @@
+T736.5142342829786 now: 2026-02-10T07:52:40EST
+TD83 site: squareword.org
+TD22 wordlist: nwl2023.txt
+TD27  ...␅
+TD3047264 ␆
+TD91  ...
+TD73 🧩  ? ␅
+TD2447826 ␆#1471
+TD79 🧩  ? #1471
+TD219 puzzle_id: #1471
+TD204 > ␅
+TD4503762 ␆*
+TD113 > *
+TD218314 try? ␅
+TD997259 ␆1
+TD78 try? 1
+TD194 questioning: ["lanes", "#5"]
+TD149 #1 <IndexError>  📋 "lanes" ? ␅
+TD6559724 ␆_A___ ~ A
+TD79 #1 <IndexError>  📋 "lanes" ? _A___ ~ A
+TD454 attempt 0 LANES n Y n n n
+TD84 #2 <IndexError>  📋 "lanes" ? ␅
+TD1903417 ␆_____ ~ LE
+TD94 #2 <IndexError>  📋 "lanes" ? _____ ~ LE
+TD271 attempt 1 LANES m n n m n
+TD123 #3 <IndexError>  📋 "lanes" ? ␅
+TD4687725 ␆__N__ 
+TD98 #3 <IndexError>  📋 "lanes" ? __N__ 
+TD260 attempt 2 LANES n n Y n n
+TD124 #4 <IndexError>  📋 "lanes" ? ␅
+TD2840121 ␆_____ ~ N
+TD82 #4 <IndexError>  📋 "lanes" ? _____ ~ N
+TD170 attempt 3 LANES n n m n n
+TD81 #5 <IndexError>  📋 "lanes" ? ␅
+TD2519105 ␆____S ~ ANE
+TD92 #5 <IndexError>  📋 "lanes" ? ____S ~ ANE
+TD211 attempt 4 LANES n m m m Y
+TD210 ? ␅
+TD831373 ␆
+TD73 ? 
+TD108 question done
+TD208 > ␅
+TD591567 ␆*
+TD79 > *
+TD649958 try? ␅
+TD1430050 ␆1
+TD73 try? 1
+TD206 questioning: ["means", "#5"]
+TD162 #1 _A___ -ELNS  📋 "means" ? ␅
+TD5407574 ␆_A___ ~ A
+TD77 #1 _A___ -ELNS  📋 "means" ? _A___ ~ A
+TD169 attempt 0 MEANS n n m n n
+TD96 #2 _____ ~EL -ANS  📋 "means" ? ␅
+TD1055843 ␆.
+TD87 #2 _____ ~EL -ANS  📋 "means" ? .
+TD266 attempt 1 MEANS n m n n n
+TD101 #3 __N__ -AELS  📋 "means" ? ␅
+TD1735394 ␆.
+TD103 #3 __N__ -AELS  📋 "means" ? .
+TD308 attempt 2 MEANS n n n n n
+TD123 #4 _____ ~N -AELS  📋 "means" ? ␅
+TD951423 ␆.
+TD70 #4 _____ ~N -AELS  📋 "means" ? .
+TD163 attempt 3 MEANS n n n m n
+TD52 #5 ____S ~AEN -L  📋 "means" ? ␅
+TD1743912 ␆_EANS
+TD82 #5 ____S ~AEN -L  📋 "means" ? _EANS
+TD163 attempt 4 MEANS n Y Y Y Y
+TD191 ? ␅
+TD263728 ␆
+TD81 ? 
+TD111 question done
+TD230 > ␅
+TD503329 ␆*
+TD94 > *
+TD629274 try? ␅
+TD1378467 ␆1
+TD65 try? 1
+TD190 questioning: ["beans", "#5"]
+TD163 #1 _A___ -ELMNS  📋 "beans" ? ␅
+TD7511919 ␆_A___ ~ A
+TD78 #1 _A___ -ELMNS  📋 "beans" ? _A___ ~ A
+TD171 attempt 0 BEANS n n m n n
+TD101 #2 _____ ~EL -AMNS  📋 "beans" ? ␅
+TD895576 ␆.
+TD74 #2 _____ ~EL -AMNS  📋 "beans" ? .
+TD183 attempt 1 BEANS n m n n n
+TD62 #3 __N__ -AELMNS  📋 "beans" ? ␅
+TD1135682 ␆.
+TD108 #3 __N__ -AELMNS  📋 "beans" ? .
+TD351 attempt 2 BEANS n n n n n
+TD120 #4 _____ ~N -AELMS  📋 "beans" ? ␅
+TD799562 ␆.
+TD102 #4 _____ ~N -AELMS  📋 "beans" ? .
+TD296 attempt 3 BEANS n n n m n
+TD97 #5 _EANS -LM  📋 "beans" ? ␅
+TD863417 ␆.
+TD80 #5 _EANS -LM  📋 "beans" ? .
+TD206 attempt 4 BEANS n Y Y Y Y
+TD203 ? ␅
+TD160087 ␆
+TD76 ? 
+TD77 question done
+TD171 > ␅
+TD1167012 ␆*
+TD73 > *
+TD400731 try? ␅
+TD879419 ␄
+TD135 <EOF>
+TD373 > ␅
+TD4471385 ␆* 1
+TD82 > * 1
+TD3763 try? ␅
+TD2388303 ␆3
+TD101 try? 3
+TD326 questioning: ["ratch", "#1"]
+TD357 #1 _A___ -BELMNS  📋 "ratch" ? ␅
+TD8503113 ␆RA__H ~ A
+TD112 #1 _A___ -BELMNS  📋 "ratch" ? RA__H ~ A
+TD271 attempt 0 RATCH Y Y n n Y
+TD154 #2 _____ ~EL -ABMNS  📋 "ratch" ? ␅
+TD1327517 ␆.
+TD101 #2 _____ ~EL -ABMNS  📋 "ratch" ? .
+TD286 attempt 1 RATCH n n n n n
+TD101 #3 __N__ -ABELMNS  📋 "ratch" ? ␅
+TD2303496 ␆__N__ ~ R
+TD103 #3 __N__ -ABELMNS  📋 "ratch" ? __N__ ~ R
+TD305 attempt 2 RATCH m n n n n
+TD133 #4 _____ ~N -ABELMS  📋 "ratch" ? ␅
+TD2391541 ␆__T__ ~ NR
+TD67 #4 _____ ~N -ABELMS  📋 "ratch" ? __T__ ~ NR
+TD182 attempt 3 RATCH m n Y n n
+TD97 #5 _EANS -BLM  📋 "ratch" ? ␅
+TD1959700 ␆.
+TD88 #5 _EANS -BLM  📋 "ratch" ? .
+TD233 attempt 4 RATCH n n n n n
+TD204 ? ␅
+TD159479 ␆
+TD113 ? 
+TD116 question done
+TD372 > ␅
+TD703408 ␆*
+TD133 > *
+TD1679546 questioning: ["donor", "#3"]
+TD199 #1 RA__H -BCELMNST  📋 "donor" ? ␅
+TD5824070 ␆RA__H ~ A
+TD85 #1 RA__H -BCELMNST  📋 "donor" ? RA__H ~ A
+TD209 attempt 0 DONOR n n n n n
+TD124 #2 _____ ~EL -ABCHMNRST  📋 "donor" ? ␅
+TD1975732 ␆_____ ~ LED
+TD102 #2 _____ ~EL -ABCHMNRST  📋 "donor" ? _____ ~ LED
+TD246 attempt 1 DONOR m n n n n
+TD166 #3 __N__ ~R -ABCEHLMNST  📋 "donor" ? ␅
+TD631349 ␆/it
+TD75 #3 __N__ ~R -ABCEHLMNST  📋 "donor" ? /it
+TD223 attempt 2 DONOR Y Y Y Y Y
+TD78 #4 __T__ ~NR -ABCEHLMS  📋 "donor" ? ␅
+TD5095776 ␆__T__ ~ NRO
+TD96 #4 __T__ ~NR -ABCEHLMS  📋 "donor" ? __T__ ~ NRO
+TD247 attempt 3 DONOR n m m m m
+TD150 #5 _EANS -ABCHLMRT  📋 "donor" ? ␅
+TD5303524 ␆DEANS
+TD80 #5 _EANS -ABCHLMRT  📋 "donor" ? DEANS
+TD171 attempt 4 DONOR Y n n n n
+TD214 ? ␅
+TD519625 ␆
+TD100 ? 
+TD134 question done
+TD363 > ␅
+TD679389 ␆*
+TD110 > *
+TD1699068 questioning: ["intro", "#4"]
+TD201 #1 RA__H -BCDELMNORST  📋 "intro" ? ␅
+TD6284775 ␆RA__H ~ A
+TD81 #1 RA__H -BCDELMNORST  📋 "intro" ? RA__H ~ A
+TD172 attempt 0 INTRO n n n n n
+TD112 #2 _____ ~DEL -ABCHMNORST  📋 "intro" ? ␅
+TD1255582 ␆.
+TD84 #2 _____ ~DEL -ABCHMNORST  📋 "intro" ? .
+TD210 attempt 1 INTRO n n n n n
+TD75 #4 __T__ ~NOR -ABCDEHLMS  📋 "intro" ? ␅
+TD695498 ␆/it
+TD71 #4 __T__ ~NOR -ABCDEHLMS  📋 "intro" ? /it
+TD168 attempt 3 INTRO Y Y Y Y Y
+TD151 ? ␅
+TD183617 ␆
+TD74 ? 
+TD76 question done
+TD178 > ␅
+TD487800 ␆*
+TD100 > *
+TD1297942 questioning: ["elude", "#2"]
+TD199 #1 RA__H -BCDEILMNORST  📋 "elude" ? ␅
+TD5605918 ␆RA__H ~ A
+TD97 #1 RA__H -BCDEILMNORST  📋 "elude" ? RA__H ~ A
+TD243 attempt 0 ELUDE n n n n n
+TD157 #2 _____ ~DEL -ABCHIMNORST  📋 "elude" ? ␅
+TD687387 ␆/it
+TD101 #2 _____ ~DEL -ABCHIMNORST  📋 "elude" ? /it
+TD259 attempt 1 ELUDE Y Y Y Y Y
+TD326 ? ␅
+TD167292 ␆
+TD85 ? 
+TD86 question done
+TD188 > ␅
+TD423828 ␆*
+TD106 > *
+TD820582 questioning: ["rajah", "#1"]
+TD197 #1 RA__H -BCDEILMNORSTU  📋 "rajah" ? ␅
+TD4162903 ␆/it
+TD78 #1 RA__H -BCDEILMNORSTU  📋 "rajah" ? /it
+TD179 attempt 0 RAJAH Y Y Y Y Y
+TD183 ? ␅
+TD783568 ␆
+TD64 ? 
+TD70 question done
+TD18614 📋> ␅
+TD3837819 ␆squareword.org 1471: 8 guesses
+TD96 📋> squareword.org 1471: 8 guesses
+TD14 📋> ␅
+TD55 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD20 ␆🟩🟩🟨🟨🟩
+TD6 📋> 🟩🟩🟨🟨🟩
+TD5 📋> ␅
+TD12 ␆🟨🟨🟨🟨🟨
+TD5 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD10 ␆🟨🟨🟩🟨🟨
+TD5 📋> 🟨🟨🟩🟨🟨
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD271184 ␆#squareword #squareword1471
+TD87 📋> #squareword #squareword1471
+TD15 📋> ␅
+TD152077 ␄
+TD176 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1471: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1471"}
+TD1205 result: "squareword.org 1471: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1471"
+TD64 📆 2026-02-10 ? ␅
+TD134380 ␆
+TD93 📆 2026-02-10 ? 
