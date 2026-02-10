@@ -3789,7 +3789,7 @@ class Search(StoredLog):
             self.cap_chat[model_i] = 'completion' in caps
             self.cap_think[model_i] = 'thinking' in caps
 
-        def find(self, name: str):
+        def index(self, name: str):
             if not self.models:
                 self.load()
             ni = bisect_left(self.name_ix, name, key=lambda i: self.names[i])
@@ -3797,9 +3797,13 @@ class Search(StoredLog):
                 model_i = self.name_ix[ni]
                 nom = self.names[model_i]
                 if nom.startswith(name):
-                    return nom
+                    return model_i
             avail = sorted(self.names[i] for i in self.name_ix)
             raise KeyError(f'unavailable model {name!r} ; available models: {' '.join(avail)}')
+
+        def find(self, name: str):
+            model_i = self.index(name)
+            return self.names[model_i]
 
         def select(self, arg: str):
             m = re.match(r'\d+$', arg)
