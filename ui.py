@@ -2555,6 +2555,7 @@ class PromptUI:
     class Arguable[T : State]:
         @classmethod
         def main(cls):
+            # TODO reconcile with StoredLog.main
             self, args = cls.parse_args()
             trace = cast(bool, args.trace)
 
