@@ -3716,6 +3716,7 @@ class Search(StoredLog):
             self.fams: list[str] = []
 
             self.shown: list[bool] = []
+            self.model_infos: list[tuple[tuple[str, object], ...]] = []
             self.caps: list[tuple[str, ...]] = []
 
             self.name_ix: list[int] = []
@@ -3729,6 +3730,7 @@ class Search(StoredLog):
             self.fams.clear()
 
             self.shown.clear()
+            self.model_infos.clear()
             self.caps.clear()
 
             self.name_ix.clear()
@@ -3743,6 +3745,7 @@ class Search(StoredLog):
             self.fams.append('')
 
             self.shown.append(False)
+            self.model_infos.append(())
             self.caps.append(())
 
             return model_i
@@ -3795,7 +3798,14 @@ class Search(StoredLog):
 
         def update_model_info(self, model_i: int, info: ollama.ShowResponse):
             self.caps[model_i] = tuple(info.capabilities) if info.capabilities else ()
+            self.model_infos[model_i] = tuple(info.modelinfo.items()) if info.modelinfo else ()
             self.shown[model_i] = True
+
+        def get_model_info_item(self, model_i: int, key: str, dflt: object=None):
+            info = self.model_infos[model_i]
+            for k, v in info:
+                if k == key: return v
+            return dflt
 
         def index(self, name: str):
             if not self.models:
