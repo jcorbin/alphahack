@@ -3925,9 +3925,10 @@ class Search(StoredLog):
         else:
             ui.print(f'Using model {self.llm_model!r}')
 
-        res = self.llm_client.show(model)
-        caps = res.capabilities
-        if self.llm_thinking and (not caps or 'thinking' not in caps):
+        sel = self.llm_sel
+        model_i = sel.index(model)
+        sel.load_model_info(model_i)
+        if self.llm_thinking and not sel.cap_think[model_i]:
             ui.print(f'Model does is not capable of thinking, resetting to default')
             self.llm_thinking = None
             ui.log(f'session thinking: {json.dumps(self.llm_thinking)}')
