@@ -3868,15 +3868,17 @@ class Search(StoredLog):
 
                 if not sel.models:
                     sel.load_models()
-                    ui.write('.')
+                    ui.write('L')
 
                 if any(val is None for val in sel.cap_chat):
                     for _ in sel.load_model_infos():
-                        ui.write('.')
+                        ui.write('S')
 
                 sel.update_name_ix()
+                ui.write('N')
 
                 sel.show_ix = pick()
+                ui.write('X')
 
             finally:
                 ui.fin()
