@@ -3741,19 +3741,7 @@ class Search(StoredLog):
             self.cap_think.append(None)
             return model_i
 
-        def refresh(self, ui: PromptUI):
-            # TODO factor out spinner? abstract into progress?
-            self.clear()
-            try:
-                ui.write('Refreshing ollama models:')
-                self.load()
-                ui.write('.')
-                for _ in self.load_model_infos():
-                    ui.write('.')
-            finally:
-                ui.fin()
-
-        def load(self):
+        def load_models(self):
             for model in self.client.list().models:
                 model_i = self.alloc(model)
 
@@ -3770,6 +3758,11 @@ class Search(StoredLog):
                     if det.parameter_size is not None:
                         self.size_parm[model_i] = det.parameter_size
 
+        def load(self):
+            self.load_models()
+            self.update_name_ix()
+
+        def update_name_ix(self):
             self.name_ix = sorted(
                 ( model_i
                   for model_i, name in enumerate(self.names)
@@ -3870,9 +3863,23 @@ class Search(StoredLog):
             return ix
 
         def maybe_refresh():
-            if not sel.models or any(val is None for val in sel.cap_chat):
-                sel.refresh(ui)
-            sel.show_ix = pick()
+            try:
+                ui.write('Refreshing ollama models:')
+
+                if not sel.models:
+                    sel.load_models()
+                    ui.write('.')
+
+                if any(val is None for val in sel.cap_chat):
+                    for _ in sel.load_model_infos():
+                        ui.write('.')
+
+                sel.update_name_ix()
+
+                sel.show_ix = pick()
+
+            finally:
+                ui.fin()
 
         try:
             with ui.tokens as tokens:
