@@ -1,0 +1,361 @@
+T293.00662075102446 now: 2026-02-11T13:52:36EST
+TD169 site: britannica.com/games/octordle/daily-rescue
+TD27 wordlist: nwl2023.txt
+TD9 num_words: 8
+TD197  ...␅
+TD653964 ␆
+TD108  ...
+TD1427614 > ␅
+TD16068700 ␆tried rumba troop notch exact
+TD125 > tried rumba troop notch exact
+TD500 questioning: RUMBA TROOP NOTCH EXACT
+TD183 Rescue #1 _____? ␅
+TD3998792 ␆nnnMn
+TD94 Rescue #1 _____? nnnMn
+TD167 attempt: 0 RUMBA n n n m n
+TD96 Rescue #1 _____ ~B -AMRU? ␅
+TD3703704 ␆nnnnn
+TD87 Rescue #1 _____ ~B -AMRU? nnnnn
+TD164 attempt: 0 TROOP n n n n n
+TD76 Rescue #1 _____ ~B -AMOPRTU? ␅
+TD1536162 ␆nnnnn
+TD116 Rescue #1 _____ ~B -AMOPRTU? nnnnn
+TD166 attempt: 0 NOTCH n n n n n
+TD74 Rescue #1 _____ ~B -ACHMNOPRTU? ␅
+TD1823185 ␆Mnnnn
+TD84 Rescue #1 _____ ~B -ACHMNOPRTU? Mnnnn
+TD168 attempt: 0 EXACT m n n n n
+TD73 Rescue #2 _____? ␅
+TD2007792 ␆nnnnn
+TD139 Rescue #2 _____? nnnnn
+TD167 attempt: 1 RUMBA n n n n n
+TD72 Rescue #2 _____ -ABMRU? ␅
+TD1959589 ␆nnYYn
+TD106 Rescue #2 _____ -ABMRU? nnYYn
+TD162 attempt: 1 TROOP n n Y Y n
+TD73 Rescue #2 __OO_ -ABMPRTU? ␅
+TD1503785 ␆nMnnM
+TD114 Rescue #2 __OO_ -ABMPRTU? nMnnM
+TD204 attempt: 1 NOTCH n m n n m
+TD88 Rescue #2 __OO_ ~H -ABCMNPRTU? ␅
+TD1215436 ␆nnnnn
+TD103 Rescue #2 __OO_ ~H -ABCMNPRTU? nnnnn
+TD307 attempt: 1 EXACT n n n n n
+TD134 Rescue #3 _____? ␅
+TD1783488 ␆nnnnM
+TD146 Rescue #3 _____? nnnnM
+TD274 attempt: 2 RUMBA n n n n m
+TD124 Rescue #3 _____ ~A -BMRU? ␅
+TD1271526 ␆nnnnM
+TD125 Rescue #3 _____ ~A -BMRU? nnnnM
+TD257 attempt: 2 TROOP n n n n m
+TD94 Rescue #3 _____ ~AP -BMORTU? ␅
+TD1607908 ␆Mnnnn
+TD89 Rescue #3 _____ ~AP -BMORTU? Mnnnn
+TD226 attempt: 2 NOTCH m n n n n
+TD106 Rescue #3 _____ ~ANP -BCHMORTU? ␅
+TD1479213 ␆MnMnn
+TD97 Rescue #3 _____ ~ANP -BCHMORTU? MnMnn
+TD218 attempt: 2 EXACT m n m n n
+TD100 Rescue #4 _____? ␅
+TD1471621 ␆nMnnn
+TD102 Rescue #4 _____? nMnnn
+TD217 attempt: 3 RUMBA n m n n n
+TD103 Rescue #4 _____ ~U -ABMR? ␅
+TD1655436 ␆Mnnnn
+TD77 Rescue #4 _____ ~U -ABMR? Mnnnn
+TD137 attempt: 3 TROOP m n n n n
+TD64 Rescue #4 _____ ~TU -ABMOPR? ␅
+TD1159753 ␆nnMnn
+TD78 Rescue #4 _____ ~TU -ABMOPR? nnMnn
+TD143 attempt: 3 NOTCH n n m n n
+TD68 Rescue #4 _____ ~TU -ABCHMNOPR? ␅
+TD1247688 ␆nnnnM
+TD81 Rescue #4 _____ ~TU -ABCHMNOPR? nnnnM
+TD136 attempt: 3 EXACT n n n n m
+TD59 Rescue #5 _____? ␅
+TD5663993 ␆nnMnn
+TD121 Rescue #5 _____? nnMnn
+TD268 attempt: 4 RUMBA n n m n n
+TD122 Rescue #5 _____ ~M -ABRU? ␅
+TD1527518 ␆nnYnn
+TD125 Rescue #5 _____ ~M -ABRU? nnYnn
+TD299 attempt: 4 TROOP n n Y n n
+TD143 Rescue #5 __O__ ~M -ABPRTU? ␅
+TD2583507 ␆nMnYn
+TD113 Rescue #5 __O__ ~M -ABPRTU? nMnYn
+TD259 attempt: 4 NOTCH n m n Y n
+TD126 Rescue #5 __OC_ ~M -ABHNPRTU? ␅
+TD1495544 ␆nnnYn
+TD126 Rescue #5 __OC_ ~M -ABHNPRTU? nnnYn
+TD304 attempt: 4 EXACT n n n Y n
+TD128 Rescue #6 _____? ␅
+TD1463317 ␆Mnnnn
+TD108 Rescue #6 _____? Mnnnn
+TD251 attempt: 5 RUMBA m n n n n
+TD119 Rescue #6 _____ ~R -ABMU? ␅
+TD1455601 ␆nYnnY
+TD124 Rescue #6 _____ ~R -ABMU? nYnnY
+TD306 attempt: 5 TROOP n Y n n Y
+TD142 Rescue #6 _R__P -ABMOTU? ␅
+TD1543435 ␆nnnMn
+TD126 Rescue #6 _R__P -ABMOTU? nnnMn
+TD270 attempt: 5 NOTCH n n n m n
+TD128 Rescue #6 _R__P ~C -ABHMNOTU? ␅
+TD1047364 ␆nnnMn
+TD99 Rescue #6 _R__P ~C -ABHMNOTU? nnnMn
+TD261 attempt: 5 EXACT n n n m n
+TD110 Rescue #7 _____? ␅
+TD1167661 ␆nnnnn
+TD118 Rescue #7 _____? nnnnn
+TD249 attempt: 6 RUMBA n n n n n
+TD127 Rescue #7 _____ -ABMRU? ␅
+TD1239530 ␆nnnnn
+TD132 Rescue #7 _____ -ABMRU? nnnnn
+TD312 attempt: 6 TROOP n n n n n
+TD143 Rescue #7 _____ -ABMOPRTU? ␅
+TD2055549 ␆nnnnn
+TD109 Rescue #7 _____ -ABMOPRTU? nnnnn
+TD298 attempt: 6 NOTCH n n n n n
+TD163 Rescue #7 _____ -ABCHMNOPRTU? ␅
+TD2135343 ␆Mnnnn
+TD106 Rescue #7 _____ -ABCHMNOPRTU? Mnnnn
+TD254 attempt: 6 EXACT m n n n n
+TD128 Rescue #8 _____? ␅
+TD1807688 ␆MMnnn
+TD107 Rescue #8 _____? MMnnn
+TD260 attempt: 7 RUMBA m m n n n
+TD130 Rescue #8 _____ ~RU -ABM? ␅
+TD1839312 ␆nMMnn
+TD106 Rescue #8 _____ ~RU -ABM? nMMnn
+TD246 attempt: 7 TROOP n m m n n
+TD118 Rescue #8 _____ ~ORU -ABMPT O:1? ␅
+TD1503702 ␆nYnnn
+TD103 Rescue #8 _____ ~ORU -ABMPT O:1? nYnnn
+TD295 attempt: 7 NOTCH n Y n n n
+TD130 Rescue #8 _O___ ~RU -ABCHMNPT? ␅
+TD1815345 ␆nnnnn
+TD108 Rescue #8 _O___ ~RU -ABCHMNPT? nnnnn
+TD250 attempt: 7 EXACT n n n n n
+TD1914612 > ␅
+TD653057 ␆*
+TD102 > *
+TD435 questioning: smock
+TD126 Rescue #1 _____ ~BE -ACHMNOPRTUX? ␅
+TD6703409 ␆Mnnnn
+TD104 Rescue #1 _____ ~BE -ACHMNOPRTUX? Mnnnn
+TD252 attempt: 0 SMOCK m n n n n
+TD139 Rescue #2 __OO_ ~H -ABCEMNPRTUX? ␅
+TD1959559 ␆YnYnY
+TD98 Rescue #2 __OO_ ~H -ABCEMNPRTUX? YnYnY
+TD211 attempt: 1 SMOCK Y n Y n Y
+TD122 Rescue #3 _____ ~AENP -BCHMORTUX? ␅
+TD1343526 ␆nnnnn
+TD107 Rescue #3 _____ ~AENP -BCHMORTUX? nnnnn
+TD268 attempt: 2 SMOCK n n n n n
+TD160 Rescue #4 _____ ~TU -ABCEHMNOPRX? ␅
+TD1551493 ␆Ynnnn
+TD102 Rescue #4 _____ ~TU -ABCEHMNOPRX? Ynnnn
+TD220 attempt: 3 SMOCK Y n n n n
+TD128 Rescue #5 __OC_ ~M -ABEHNPRTUX? ␅
+TD2991491 ␆YYYYY
+TD105 Rescue #5 __OC_ ~M -ABEHNPRTUX? YYYYY
+TD173 attempt: 4 SMOCK Y Y Y Y Y
+TD93 Rescue #6 _R__P ~C -ABEHMNOTUX? ␅
+TD1615704 ␆MnnMn
+TD103 Rescue #6 _R__P ~C -ABEHMNOTUX? MnnMn
+TD226 attempt: 5 SMOCK m n n m n
+TD128 Rescue #7 _____ ~E -ABCHMNOPRTUX? ␅
+TD1359442 ␆nnnnn
+TD97 Rescue #7 _____ ~E -ABCHMNOPRTUX? nnnnn
+TD240 attempt: 6 SMOCK n n n n n
+TD140 Rescue #8 _O___ ~RU -ABCEHMNPTX? ␅
+TD1191658 ␆nnMnn
+TD100 Rescue #8 _O___ ~RU -ABCEHMNPTX? nnMnn
+TD229 attempt: 7 SMOCK n n m n n
+TD1720747 > ␅
+TD1110974 ␆*
+TD109 > *
+TD476 questioning: shook
+TD181 Rescue #1 _____ ~BES -ACHKMNOPRTUX? ␅
+TD9895315 ␆Mnnnn
+TD114 Rescue #1 _____ ~BES -ACHKMNOPRTUX? Mnnnn
+TD260 attempt: 0 SHOOK m n n n n
+TD133 Rescue #2 S_OOK ~H -ABCEMNPRTUX? ␅
+TD2671547 ␆YYYYY
+TD140 Rescue #2 S_OOK ~H -ABCEMNPRTUX? YYYYY
+TD203 attempt: 1 SHOOK Y Y Y Y Y
+TD116 Rescue #3 _____ ~AENP -BCHKMORSTUX? ␅
+TD1367514 ␆nnnnn
+TD101 Rescue #3 _____ ~AENP -BCHKMORSTUX? nnnnn
+TD219 attempt: 2 SHOOK n n n n n
+TD112 Rescue #4 S____ ~TU -ABCEHKMNOPRX? ␅
+TD1663638 ␆Ynnnn
+TD113 Rescue #4 S____ ~TU -ABCEHKMNOPRX? Ynnnn
+TD247 attempt: 3 SHOOK Y n n n n
+TD116 Rescue #6 _R__P ~CS -ABEHKMNOTUX? ␅
+TD2879574 ␆Mnnnn
+TD144 Rescue #6 _R__P ~CS -ABEHKMNOTUX? Mnnnn
+TD215 attempt: 5 SHOOK m n n n n
+TD108 Rescue #7 _____ ~E -ABCHKMNOPRSTUX? ␅
+TD1511557 ␆nnnnn
+TD96 Rescue #7 _____ ~E -ABCHKMNOPRSTUX? nnnnn
+TD206 attempt: 6 SHOOK n n n n n
+TD291 Rescue #8 _O___ ~RU -ABCEHKMNPSTX? ␅
+TD1439372 ␆nnMnn
+TD124 Rescue #8 _O___ ~RU -ABCEHKMNPSTX? nnMnn
+TD246 attempt: 7 SHOOK n n m n n
+TD1477265 > ␅
+TD802436 ␆*
+TD114 > *
+TD485 questioning: crisp
+TD157 Rescue #1 _____ ~BES -ACHKMNOPRTUX? ␅
+TD5303253 ␆nnnYn
+TD99 Rescue #1 _____ ~BES -ACHKMNOPRTUX? nnnYn
+TD221 attempt: 0 CRISP n n n Y n
+TD114 Rescue #3 _____ ~AENP -BCHKMORSTUX? ␅
+TD2055644 ␆nnnnM
+TD99 Rescue #3 _____ ~AENP -BCHKMORSTUX? nnnnM
+TD216 attempt: 2 CRISP n n n n m
+TD109 Rescue #4 S____ ~TU -ABCEHKMNOPRX? ␅
+TD1183535 ␆nnnMn
+TD106 Rescue #4 S____ ~TU -ABCEHKMNOPRX? nnnMn
+TD218 attempt: 3 CRISP n n n m n
+TD254 Rescue #6 _R__P ~CS -ABEHKMNOTUX? ␅
+TD3015478 ␆YYYYY
+TD99 Rescue #6 _R__P ~CS -ABEHKMNOTUX? YYYYY
+TD203 attempt: 5 CRISP Y Y Y Y Y
+TD112 Rescue #7 _____ ~E -ABCHKMNOPRSTUX? ␅
+TD3399554 ␆nnnnn
+TD101 Rescue #7 _____ ~E -ABCHKMNOPRSTUX? nnnnn
+TD213 attempt: 6 CRISP n n n n n
+TD117 Rescue #8 _O___ ~RU -ABCEHKMNPSTX O:1? ␅
+TD1199559 ␆nMnnn
+TD96 Rescue #8 _O___ ~RU -ABCEHKMNPSTX O:1? nMnnn
+TD211 attempt: 7 CRISP n m n n n
+TD1131545 > ␅
+TD1116450 ␆*
+TD117 > *
+TD514 questioning: bless
+TD191 Rescue #1 ___S_ ~BE -ACHIKMNOPRTUX? ␅
+TD4894996 ␆YYYYY
+TD124 Rescue #1 ___S_ ~BE -ACHIKMNOPRTUX? YYYYY
+TD302 attempt: 0 BLESS Y Y Y Y Y
+TD163 Rescue #3 _____ ~AENP -BCHIKMORSTUX? ␅
+TD4567295 ␆nMMnn
+TD94 Rescue #3 _____ ~AENP -BCHIKMORSTUX? nMMnn
+TD215 attempt: 2 BLESS n m m n n
+TD112 Rescue #4 S____ ~TU -ABCEHIKMNOPRX? ␅
+TD1199587 ␆nnnMn
+TD94 Rescue #4 S____ ~TU -ABCEHIKMNOPRX? nnnMn
+TD220 attempt: 3 BLESS n n n m n
+TD86 Rescue #7 _____ ~E -ABCHIKMNOPRSTUX? ␅
+TD2991713 ␆nMMnn
+TD80 Rescue #7 _____ ~E -ABCHIKMNOPRSTUX? nMMnn
+TD2297 attempt: 6 BLESS n m m n n
+TD112 Rescue #8 _O___ ~RU -ABCEHIKMNPSTX O:1? ␅
+TD1149577 ␆nnnnn
+TD91 Rescue #8 _O___ ~RU -ABCEHIKMNPSTX O:1? nnnnn
+TD183 attempt: 7 BLESS n n n n n
+TD377786 > ␅
+TD925836 ␆*
+TD98 > *
+TD383 questioning: gourd
+TD131 Rescue #3 _____ ~AELNP -BCHIKMORSTUX? ␅
+TD3983568 ␆nnnnn
+TD98 Rescue #3 _____ ~AELNP -BCHIKMORSTUX? nnnnn
+TD220 attempt: 2 GOURD n n n n n
+TD118 Rescue #4 S____ ~TU -ABCEHIKLMNOPRX S:1? ␅
+TD1671379 ␆nnYnn
+TD98 Rescue #4 S____ ~TU -ABCEHIKLMNOPRX S:1? nnYnn
+TD227 attempt: 3 GOURD n n Y n n
+TD119 Rescue #7 _____ ~EL -ABCHIKMNOPRSTUX? ␅
+TD2759612 ␆nnnnn
+TD75 Rescue #7 _____ ~EL -ABCHIKMNOPRSTUX? nnnnn
+TD147 attempt: 6 GOURD n n n n n
+TD77 Rescue #8 _O___ ~RU -ABCEHIKLMNPSTX O:1? ␅
+TD2135783 ␆YYYYY
+TD95 Rescue #8 _O___ ~RU -ABCEHIKLMNPSTX O:1? YYYYY
+TD237 attempt: 7 GOURD Y Y Y Y Y
+TD296077 > ␅
+TD1063655 ␆*
+TD101 > *
+TD433 questioning: stuff
+TD263 Rescue #3 _____ ~AELNP -BCDGHIKMORSTUX? ␅
+TD5119238 ␆nnnnn
+TD80 Rescue #3 _____ ~AELNP -BCDGHIKMORSTUX? nnnnn
+TD145 attempt: 2 STUFF n n n n n
+TD81 Rescue #4 S_U__ ~T -ABCDEGHIKLMNOPRX S:1? ␅
+TD1591608 ␆YYYYY
+TD94 Rescue #4 S_U__ ~T -ABCDEGHIKLMNOPRX S:1? YYYYY
+TD221 attempt: 3 STUFF Y Y Y Y Y
+TD114 Rescue #7 _____ ~EL -ABCDGHIKMNOPRSTUX? ␅
+TD3943732 ␆nnnnn
+TD75 Rescue #7 _____ ~EL -ABCDGHIKMNOPRSTUX? nnnnn
+TD133 attempt: 6 STUFF n n n n n
+TD177524 > ␅
+TD1734142 ␆*
+TD91 > *
+TD510 ? ␅
+TD12583666 ␄
+TD140 <EOF>
+TD211711 > ␅
+TD2780050 ␆* 7
+TD76 > * 7
+TD99610 ? ␅
+TD6668426 ␆2
+TD79 ? 2
+TD133 questioning: jewel
+TD120 Rescue #3 _____ ~AELNP -BCDFGHIKMORSTUX? ␅
+TD6887747 ␆nnnYY
+TD77 Rescue #3 _____ ~AELNP -BCDFGHIKMORSTUX? nnnYY
+TD188 attempt: 2 JEWEL n n n Y Y
+TD100 Rescue #7 _____ ~EL -ABCDFGHIKMNOPRSTUX? ␅
+TD3207650 ␆nYnYY
+TD79 Rescue #7 _____ ~EL -ABCDFGHIKMNOPRSTUX? nYnYY
+TD165 attempt: 6 JEWEL n Y n Y Y
+TD175916 > ␅
+TD751805 ␆*
+TD97 > *
+TD405 questioning: panel
+TD145 Rescue #3 ___EL ~ANP -BCDFGHIJKMORSTUWX? ␅
+TD6215468 ␆YYYYY
+TD81 Rescue #3 ___EL ~ANP -BCDFGHIJKMORSTUWX? YYYYY
+TD161 attempt: 2 PANEL Y Y Y Y Y
+TD83 Rescue #7 _E_EL -ABCDFGHIJKMNOPRSTUWX? ␅
+TD3135686 ␆nnnYY
+TD104 Rescue #7 _E_EL -ABCDFGHIJKMNOPRSTUWX? nnnYY
+TD220 attempt: 6 PANEL n n n Y Y
+TD88416 > ␅
+TD711492 ␆*
+TD86 > *
+TD369 questioning: level
+TD128 Rescue #7 _E_EL -ABCDFGHIJKMNOPRSTUWX? ␅
+TD2807672 ␆YYYYY
+TD139 Rescue #7 _E_EL -ABCDFGHIJKMNOPRSTUWX? YYYYY
+TD255 attempt: 6 LEVEL Y Y Y Y Y
+TD155 📋> ␅
+TD3079602 ␆Daily Rescue Octordle #1479
+TD106 📋> Daily Rescue Octordle #1479
+TD19 📋> ␅
+TD57 ␆8️⃣6️⃣
+TD12 📋> 8️⃣6️⃣
+TD12 📋> ␅
+TD23 ␆🕛🔟
+TD10 📋> 🕛🔟
+TD10 📋> ␅
+TD22 ␆5️⃣7️⃣
+TD10 📋> 5️⃣7️⃣
+TD9 📋> ␅
+TD21 ␆🕐9️⃣
+TD9 📋> 🕐9️⃣
+TD9 📋> ␅
+TD319164 ␆Score: 8
+TD102 📋> Score: 8
+TD18 📋> ␅
+TD319882 ␄
+TD154 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue Octordle #1479\n8\ufe0f\u20e36\ufe0f\u20e3\n\ud83d\udd5b\ud83d\udd1f\n5\ufe0f\u20e37\ufe0f\u20e3\n\ud83d\udd509\ufe0f\u20e3\nScore: 8"}
+TD279 result: "Daily Rescue Octordle #1479\n8\ufe0f\u20e36\ufe0f\u20e3\n\ud83d\udd5b\ud83d\udd1f\n5\ufe0f\u20e37\ufe0f\u20e3\n\ud83d\udd509\ufe0f\u20e3\nScore: 8"
+TD78 📆 2026-02-11 ? ␅
+TD479626 ␆
+TD102 📆 2026-02-11 ? 
