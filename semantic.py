@@ -3748,7 +3748,7 @@ class Search(StoredLog):
                 ui.write('Refreshing ollama models:')
                 self.load()
                 ui.write('.')
-                for _ in self.load_caps():
+                for _ in self.load_model_infos():
                     ui.write('.')
             finally:
                 ui.fin()
@@ -3776,13 +3776,17 @@ class Search(StoredLog):
                   if name ),
                 key=lambda i: self.names[i])
 
-        def load_caps(self):
+        def load_model_infos(self):
             # TODO do this in parallel
             for model_i, name in enumerate(self.names):
                 if not name: continue
                 info = self.client.show(name)
                 self.update_model_info(model_i, info)
                 yield model_i
+
+        def load_model_info(self, model_i: int):
+            info = self.client.show(self.names[model_i])
+            self.update_model_info(model_i, info)
 
         def update_model_info(self, model_i: int, info: ollama.ShowResponse):
             caps = tuple(info.capabilities) if info.capabilities else ()
