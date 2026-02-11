@@ -1,0 +1,113 @@
+T108.20109686700744 now: 2026-02-11T09:13:39EST
+TD91 site: alphaguess.com
+TD191339 loaded 196528 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (76 words excluded) asof 52039c7754eff9d4f067ca6e09252d80a6579505
+TD126  ...␅
+TD7895785 ␆
+TD99  ...
+TD175 [0 : 98219 : 196528] mach? ␅
+TD1871806 ␆a
+TD101 [0 : 98219 : 196528] mach? a
+TD109 progress: 1 98219 mach
+TD312 [98220 : 147375 : 196528] rhumb? ␅
+TD1367582 ␆b
+TD90 [98220 : 147375 : 196528] rhumb? b
+TD130 progress: -1 147375 rhumb
+TD108 [98220 : 122780 : 147375] parr? ␅
+TD1415481 ␆a
+TD100 [98220 : 122780 : 147375] parr? a
+TD111 progress: 1 122780 parr
+TD121 [122781 : 135071 : 147375] proper? ␅
+TD1247841 ␆a
+TD99 [122781 : 135071 : 147375] proper? a
+TD109 progress: 1 135071 proper
+TD131 [135072 : 140520 : 147375] rec? ␅
+TD1399747 ␆b
+TD97 [135072 : 140520 : 147375] rec? b
+TD121 progress: -1 140520 rec
+TD105 [135072 : 137791 : 140520] quart? ␅
+TD1303489 ␆a
+TD82 [135072 : 137791 : 140520] quart? a
+TD83 progress: 1 137791 quart
+TD79 [137792 : 139060 : 140520] ram? ␅
+TD1327739 ␆b
+TD75 [137792 : 139060 : 140520] ram? b
+TD79 progress: -1 139060 ram
+TD75 [137792 : 138419 : 139060] rabbit? ␅
+TD1239803 ␆b
+TD99 [137792 : 138419 : 139060] rabbit? b
+TD107 progress: -1 138419 rabbit
+TD258 [137792 : 138104 : 138419] quiff? ␅
+TD1335512 ␆b
+TD76 [137792 : 138104 : 138419] quiff? b
+TD81 progress: -1 138104 quiff
+TD100 [137792 : 137940 : 138104] queer? ␅
+TD1215908 ␆b
+TD98 [137792 : 137940 : 138104] queer? b
+TD120 progress: -1 137940 queer
+TD130 [137792 : 137862 : 137940] quass? ␅
+TD1231625 ␆a
+TD73 [137792 : 137862 : 137940] quass? a
+TD80 progress: 1 137862 quass
+TD158 [137863 : 137898 : 137940] quays? ␅
+TD1255614 ␆a
+TD101 [137863 : 137898 : 137940] quays? a
+TD110 progress: 1 137898 quays
+TD176 [137899 : 137918 : 137940] queen? ␅
+TD1223506 ␆b
+TD84 [137899 : 137918 : 137940] queen? b
+TD84 progress: -1 137918 queen
+TD238 [137899 : 137908 : 137918] queasiest? ␅
+TD1239668 ␆a
+TD82 [137899 : 137908 : 137918] queasiest? a
+TD84 progress: 1 137908 queasiest
+TD132 [137909 : 137913 : 137918] queazier? ␅
+TD1319788 ␆b
+TD100 [137909 : 137913 : 137918] queazier? b
+TD116 progress: -1 137913 queazier
+TD193 [137909 : 137911 : 137913] queasinesses? ␅
+TD1239544 ␆a
+TD98 [137909 : 137911 : 137913] queasinesses? a
+TD110 progress: 1 137911 queasinesses
+TD264 [137912 : 137912 : 137913] queasy? ␅
+TD6695465 ␆it
+TD80 [137912 : 137912 : 137913] queasy? it
+TD87 progress: 0 137912 queasy
+TD19 [137912 : 137912 : 137913] <Done>.
+TD60 📋> ␅
+TD1200063 ␆queasy
+TD103 📋> queasy
+TD13 📋> ␅
+TD215693 ␄
+TD165 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "queasy"}
+TD174 📋> ␅
+TD263719 ␆
+TD137 📋> 
+TD15 📋> ␅
+TD3175975 ␆queasy
+TD84 📋> queasy
+TD8 📋> ␅
+TD2335854 ␄
+TD175 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\nqueasy"}
+TD149 📋> ␅
+TD2672052 ␆🧩 Puzzle #933
+TD84 📋> 🧩 Puzzle #933
+TD8 📋> ␅
+TD35 ␆🤔 17 guesses
+TD4 📋> 🤔 17 guesses
+TD4 📋> ␅
+TD8 ␆⏱️ 20s
+TD5 📋> ⏱️ 20s
+TD3 📋> ␅
+TD287568 ␆🔗 alphaguess.com/933
+TD97 📋> 🔗 alphaguess.com/933
+TD13 📋> ␅
+TD183753 ␄
+TD229 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #933\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/933"}
+TD118 result: "\ud83e\udde9 Puzzle #933\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/933"
+TD20 result puzzle: 933
+TD8 result guesses: 17
+TD6 result time: 20s
+TD5 result link: alphaguess.com/933
+TD89 📆 2026-02-11 ? ␅
+TD208203 ␆
+TD69 📆 2026-02-11 ? 
