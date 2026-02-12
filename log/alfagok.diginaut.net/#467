@@ -1,0 +1,110 @@
+T66024.78141403699 now: 2026-02-12T10:38:39EST
+TD160 site: alfagok.diginaut.net
+TD851053 loaded 399665 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1187 words excluded) asof 0722993a35e1978ffb36af37cbaa3d9dd1cfcb28
+TD201  ...␅
+TD3347510 ␆
+TD132  ...
+TD318 [0 : 199826 : 399665] lijm? ␅
+TD4759543 ␆a
+TD122 [0 : 199826 : 399665] lijm? a
+TD422 progress: 1 199826 lijm
+TD148 [199827 : 299731 : 399665] schub? ␅
+TD1335273 ␆a
+TD130 [199827 : 299731 : 399665] schub? a
+TD186 progress: 1 299731 schub
+TD170 [299732 : 349499 : 399665] vakantie? ␅
+TD1295410 ␆a
+TD128 [299732 : 349499 : 399665] vakantie? a
+TD142 progress: 1 349499 vakantie
+TD177 [349500 : 374240 : 399665] vrij? ␅
+TD1527664 ␆a
+TD115 [349500 : 374240 : 399665] vrij? a
+TD123 progress: 1 374240 vrij
+TD145 [374241 : 386781 : 399665] wind? ␅
+TD1487767 ␆a
+TD125 [374241 : 386781 : 399665] wind? a
+TD125 progress: 1 386781 wind
+TD125 [386782 : 393198 : 399665] zelfmoord? ␅
+TD1519510 ␆a
+TD124 [386782 : 393198 : 399665] zelfmoord? a
+TD142 progress: 1 393198 zelfmoord
+TD146 [393199 : 396406 : 399665] zone? ␅
+TD1527651 ␆a
+TD128 [393199 : 396406 : 399665] zone? a
+TD130 progress: 1 396406 zone
+TD128 [396407 : 398031 : 399665] zuurstof? ␅
+TD1599495 ␆b
+TD113 [396407 : 398031 : 399665] zuurstof? b
+TD123 progress: -1 398031 zuurstof
+TD121 [396407 : 397152 : 398031] zout? ␅
+TD1471766 ␆a
+TD125 [396407 : 397152 : 398031] zout? a
+TD143 progress: 1 397152 zout
+TD179 [397153 : 397336 : 398031] zuid? ␅
+TD1719548 ␆a
+TD117 [397153 : 397336 : 398031] zuid? a
+TD124 progress: 1 397336 zuid
+TD129 [397337 : 397626 : 398031] zuig? ␅
+TD2935530 ␆a
+TD121 [397337 : 397626 : 398031] zuig? a
+TD137 progress: 1 397626 zuig
+TD151 [397627 : 397825 : 398031] zuivering? ␅
+TD1839598 ␆a
+TD114 [397627 : 397825 : 398031] zuivering? a
+TD88 progress: 1 397825 zuivering
+TD96 [397826 : 397916 : 398031] zuster? ␅
+TD1919761 ␆b
+TD119 [397826 : 397916 : 398031] zuster? b
+TD147 progress: -1 397916 zuster
+TD136 [397826 : 397866 : 397916] zul? ␅
+TD1487553 ␆a
+TD125 [397826 : 397866 : 397916] zul? a
+TD135 progress: 1 397866 zul
+TD354 [397867 : 397891 : 397916] zundgaten? ␅
+TD1439384 ␆b
+TD131 [397867 : 397891 : 397916] zundgaten? b
+TD145 progress: -1 397891 zundgaten
+TD211 [397867 : 397875 : 397891] zult? ␅
+TD1431654 ␆b
+TD98 [397867 : 397875 : 397891] zult? b
+TD104 progress: -1 397875 zult
+TD173 [397867 : 397870 : 397875] zulle? ␅
+TD1415540 ␆a
+TD98 [397867 : 397870 : 397875] zulle? a
+TD107 progress: 1 397870 zulle
+TD225 [397871 : 397873 : 397875] zullende? ␅
+TD1463437 ␆b
+TD63 [397871 : 397873 : 397875] zullende? b
+TD68 progress: -1 397873 zullende
+TD97 [397871 : 397872 : 397873] zullend? ␅
+TD1455818 ␆b
+TD81 [397871 : 397872 : 397873] zullend? b
+TD83 progress: -1 397872 zullend
+TD129 [397871 : 397871 : 397872] zullen? ␅
+TD1671837 ␆it
+TD83 [397871 : 397871 : 397872] zullen? it
+TD85 progress: 0 397871 zullen
+TD18 [397871 : 397871 : 397872] <Done>.
+TD74 📋> ␅
+TD2520494 ␆🧩 Puzzel #467
+TD93 📋> 🧩 Puzzel #467
+TD6 📋> ␅
+TD26 ␆🤔 20 gokken
+TD2 📋> 🤔 20 gokken
+TD2 📋> ␅
+TD4 ␆⏱️ 30s
+TD2 📋> ⏱️ 30s
+TD1 📋> ␅
+TD271020 ␆🔗 alfagok.diginaut.net
+TD74 📋> 🔗 alfagok.diginaut.net
+TD6 📋> ␅
+TD175908 ␄
+TD135 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #467\n\ud83e\udd14 20 gokken\n\u23f1\ufe0f 30s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD335 result: "\ud83e\udde9 Puzzel #467\n\ud83e\udd14 20 gokken\n\u23f1\ufe0f 30s\n\ud83d\udd17 alfagok.diginaut.net"
+TD11 result puzzle: 467
+TD3 result guesses: 20
+TD2 result time: 30s
+TD2 result link: alfagok.diginaut.net
+TD68 📆 2026-02-12 ? ␅
+TD143740 ␆
+TD77 📆 2026-02-12 ? 
