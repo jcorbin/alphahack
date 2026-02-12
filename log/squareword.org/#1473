@@ -1,0 +1,252 @@
+T917.2264762559935 now: 2026-02-12T11:01:19EST
+TD68 site: squareword.org
+TD14 wordlist: nwl2023.txt
+TD26  ...␅
+TD9919160 ␆
+TD98  ...
+TD83 🧩  ? ␅
+TD5175840 ␆#1473
+TD73 🧩  ? #1473
+TD181 puzzle_id: #1473
+TD149 > ␅
+TD4319447 ␆*
+TD73 > *
+TD240641 try? ␅
+TD807351 ␆1
+TD109 try? 1
+TD328 questioning: ["aster", "#5"]
+TD318 #1 <IndexError>  📋 "aster" ? ␅
+TD3951257 ␆___E_ ~ STE
+TD79 #1 <IndexError>  📋 "aster" ? ___E_ ~ STE
+TD411 attempt 0 ASTER n m m Y n
+TD83 #2 <IndexError>  📋 "aster" ? ␅
+TD2863415 ␆___E_ 
+TD75 #2 <IndexError>  📋 "aster" ? ___E_ 
+TD169 attempt 1 ASTER n n n Y n
+TD76 #3 <IndexError>  📋 "aster" ? ␅
+TD3200530 ␆A____ ~ AER
+TD81 #3 <IndexError>  📋 "aster" ? A____ ~ AER
+TD161 attempt 2 ASTER Y n n m m
+TD75 #4 <IndexError>  📋 "aster" ? ␅
+TD4206908 ␆_____ ~ AE
+TD84 #4 <IndexError>  📋 "aster" ? _____ ~ AE
+TD166 attempt 3 ASTER m n n m n
+TD76 #5 <IndexError>  📋 "aster" ? ␅
+TD2631658 ␆___E_ ~ STE
+TD75 #5 <IndexError>  📋 "aster" ? ___E_ ~ STE
+TD156 attempt 4 ASTER n m m Y n
+TD171 ? ␅
+TD687716 ␆
+TD106 ? 
+TD163 question done
+TD352 > ␅
+TD1343339 ␆*
+TD73 > *
+TD615842 try? ␅
+TD2984346 ␆2
+TD102 try? 2
+TD263 questioning: ["adore", "#3"]
+TD190 #1 ___E_ ~ST -AR  📋 "adore" ? ␅
+TD9511503 ␆___E_ ~ STE
+TD70 #1 ___E_ ~ST -AR  📋 "adore" ? ___E_ ~ STE
+TD165 attempt 0 ADORE n n n n m
+TD91 #2 ___E_ -ARST  📋 "adore" ? ␅
+TD2463426 ␆___E_ ~ O
+TD72 #2 ___E_ -ARST  📋 "adore" ? ___E_ ~ O
+TD154 attempt 1 ADORE n n m n n
+TD89 #3 A____ ~ER -ST  📋 "adore" ? ␅
+TD3527727 ␆A__RE ~ A
+TD67 #3 A____ ~ER -ST  📋 "adore" ? A__RE ~ A
+TD146 attempt 2 ADORE Y n n Y Y
+TD84 #4 _____ ~AE -RST  📋 "adore" ? ␅
+TD4151751 ␆_____ ~ AED
+TD82 #4 _____ ~AE -RST  📋 "adore" ? _____ ~ AED
+TD181 attempt 3 ADORE m m n n m
+TD137 #5 ___E_ ~ST -AR  📋 "adore" ? ␅
+TD3487603 ␆___E_ ~ STE
+TD90 #5 ___E_ ~ST -AR  📋 "adore" ? ___E_ ~ STE
+TD176 attempt 4 ADORE n n n n m
+TD235 ? ␅
+TD263511 ␆
+TD70 ? 
+TD108 question done
+TD191 > ␅
+TD647752 ␆*
+TD95 > *
+TD601141 questioning: ["media", "#4"]
+TD180 #1 ___E_ ~ST -ADOR  📋 "media" ? ␅
+TD19806865 ␆___E_ ~ STE
+TD100 #1 ___E_ ~ST -ADOR  📋 "media" ? ___E_ ~ STE
+TD300 attempt 0 MEDIA n m n n n
+TD198 #2 ___E_ ~O -ADERST  📋 "media" ? ␅
+TD5407220 ␆.
+TD90 #2 ___E_ ~O -ADERST  📋 "media" ? .
+TD220 attempt 1 MEDIA n n n n n
+TD69 #3 A__RE -DOST  📋 "media" ? ␅
+TD2367609 ␆A__RE ~ A
+TD103 #3 A__RE -DOST  📋 "media" ? A__RE ~ A
+TD253 attempt 2 MEDIA n n n n m
+TD146 #4 _____ ~ADE -ORST  📋 "media" ? ␅
+TD279552 ␆/
+TD109 #4 _____ ~ADE -ORST  📋 "media" ? /
+TD642 #4 _____ ~ADE -ORST  📋 "media" ? ␅
+TD1927253 ␆/it
+TD101 #4 _____ ~ADE -ORST  📋 "media" ? /it
+TD173 attempt 3 MEDIA Y Y Y Y Y
+TD59 #5 ___E_ ~ST -ADOR  📋 "media" ? ␅
+TD5399672 ␆___E_ ~ STE
+TD92 #5 ___E_ ~ST -ADOR  📋 "media" ? ___E_ ~ STE
+TD189 attempt 4 MEDIA n m n n n
+TD204 ? ␅
+TD1399528 ␆
+TD89 ? 
+TD89 question done
+TD191 > ␅
+TD1535849 <INT>
+TD138 <INT>
+TD32 <INT>
+T77.04911170099513 now: 2026-02-12T11:04:23EST
+TD208  ...␅
+TD781717 ␆
+TD171  ...
+TD626 > ␅
+TD1991136 ␆*
+TD121 > *
+TD1813773 try? ␅
+TD2362137 ␆2
+TD128 try? 2
+TD458 questioning: ["aware", "#3"]
+TD4893 #1 ___E_ ~ST -ADIMOR  📋 "aware" ? ␅
+TD7410530 ␆___E_ ~ STE
+TD115 #1 ___E_ ~ST -ADIMOR  📋 "aware" ? ___E_ ~ STE
+TD673 attempt 0 AWARE n n n n m
+TD155 #2 ___E_ ~O -ADEIMRST  📋 "aware" ? ␅
+TD695034 ␆.
+TD111 #2 ___E_ ~O -ADEIMRST  📋 "aware" ? .
+TD268 attempt 1 AWARE n n n n n
+TD101 #3 A__RE -DEIMOST  📋 "aware" ? ␅
+TD679421 ␆/it
+TD102 #3 A__RE -DEIMOST  📋 "aware" ? /it
+TD270 attempt 2 AWARE Y Y Y Y Y
+TD102 #5 ___E_ ~ST -ADIMOR  📋 "aware" ? ␅
+TD3599692 ␆___E_ ~ STE
+TD115 #5 ___E_ ~ST -ADIMOR  📋 "aware" ? ___E_ ~ STE
+TD194 attempt 4 AWARE n n n n m
+TD227 ? ␅
+TD607998 ␆
+TD80 ? 
+TD93 question done
+TD364 > ␅
+TD646995 ␆*
+TD100 > *
+TD298931 try? ␅
+TD7540873 ␄
+TD143 <EOF>
+TD272 > ␅
+TD1015515 ␆* 1
+TD77 > * 1
+TD793 try? ␅
+TD2007220 ␆2
+TD111 try? 2
+TD337 questioning: ["upset", "#1"]
+TD413 #1 ___E_ ~ST -ADIMORW  📋 "upset" ? ␅
+TD6415149 ␆___E_ ~ STEP
+TD86 #1 ___E_ ~ST -ADIMORW  📋 "upset" ? ___E_ ~ STEP
+TD196 attempt 0 UPSET n m m Y m
+TD119 #2 ___E_ ~O -ADEIMRSTW  📋 "upset" ? ␅
+TD1519617 ␆.
+TD74 #2 ___E_ ~O -ADEIMRSTW  📋 "upset" ? .
+TD176 attempt 1 UPSET n n n Y n
+TD59 #5 ___E_ ~ST -ADIMORW  📋 "upset" ? ␅
+TD3919703 ␆___ET ~ SE
+TD81 #5 ___E_ ~ST -ADIMORW  📋 "upset" ? ___ET ~ SE
+TD202 attempt 4 UPSET n n m Y Y
+TD248 ? ␅
+TD351586 ␆
+TD112 ? 
+TD153 question done
+TD388 > ␅
+TD655294 ␆*
+TD104 > *
+TD291207 questioning: ["steep", "#1"]
+TD180 #1 ___E_ ~PST -ADIMORUW  📋 "steep" ? ␅
+TD3340361 ␆/it
+TD114 #1 ___E_ ~PST -ADIMORUW  📋 "steep" ? /it
+TD279 attempt 0 STEEP Y Y Y Y Y
+TD106 #2 ___E_ ~O -ADIMPRSTUW  📋 "steep" ? ␅
+TD1599649 ␆.
+TD82 #2 ___E_ ~O -ADIMPRSTUW  📋 "steep" ? .
+TD187 attempt 1 STEEP n n n Y n
+TD70 #5 ___ET ~S -ADIMOPRUW  📋 "steep" ? ␅
+TD3055739 ␆S_EET
+TD106 #5 ___ET ~S -ADIMOPRUW  📋 "steep" ? S_EET
+TD248 attempt 4 STEEP Y n Y Y n
+TD358 ? ␅
+TD551295 ␆
+TD83 ? 
+TD108 question done
+TD288 > ␅
+TD679607 ␆*
+TD96 > *
+TD388807 questioning: ["hovel", "#2"]
+TD185 #2 ___E_ ~O -ADIMPRSTUW  📋 "hovel" ? ␅
+TD2899131 ␆/it
+TD110 #2 ___E_ ~O -ADIMPRSTUW  📋 "hovel" ? /it
+TD268 attempt 1 HOVEL Y Y Y Y Y
+TD110 #5 S_EET -ADIMOPRTUW  📋 "hovel" ? ␅
+TD4927271 ␆S_EET ~ L
+TD94 #5 S_EET -ADIMOPRTUW  📋 "hovel" ? S_EET ~ L
+TD245 attempt 4 HOVEL n n n Y m
+TD355 ? ␅
+TD247567 ␆
+TD96 ? 
+TD122 question done
+TD329 > ␅
+TD375070 ␆*
+TD78 > *
+TD493128 questioning: ["sleet", "#5"]
+TD242 #5 S_EET ~L -ADHIMOPRTUVW  📋 "sleet" ? ␅
+TD3010584 ␆/it
+TD78 #5 S_EET ~L -ADHIMOPRTUVW  📋 "sleet" ? /it
+TD190 attempt 4 SLEET Y Y Y Y Y
+TD187 ? ␅
+TD351589 ␆
+TD92 ? 
+TD110 question done
+TD17144 📋> ␅
+TD4311013 ␆squareword.org 1473: 8 guesses
+TD100 📋> squareword.org 1473: 8 guesses
+TD18 📋> ␅
+TD43 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD18 ␆🟨🟨🟨🟩🟨
+TD5 📋> 🟨🟨🟨🟩🟨
+TD5 📋> ␅
+TD12 ␆🟨🟨🟨🟩🟨
+TD5 📋> 🟨🟨🟨🟩🟨
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟨🟨🟨🟩🟩
+TD4 📋> 🟨🟨🟨🟩🟩
+TD4 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD13 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD279330 ␆#squareword #squareword1473
+TD96 📋> #squareword #squareword1473
+TD13 📋> ␅
+TD191915 ␄
+TD126 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1473: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1473"}
+TD401 result: "squareword.org 1473: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1473"
+TD60 📆 2026-02-12 ? ␅
+TD175381 ␆
+TD77 📆 2026-02-12 ? 
