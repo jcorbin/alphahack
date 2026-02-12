@@ -1,0 +1,201 @@
+T2974.8275918650033 now: 2026-02-12T12:14:30EST
+TD93 site: m-w.com/games/quordle/#/rescue
+TD15 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD111  ...␅
+TD1966827 ␆
+TD75  ...
+TD331274 > ␅
+TD3748665 ␆tried bongo dream
+TD80 > tried bongo dream
+TD275 questioning: BONGO DREAM
+TD127 Rescue #1 _____? ␅
+TD1983604 ␆nYnnn
+TD72 Rescue #1 _____? nYnnn
+TD382 attempt: 0 BONGO n Y n n n
+TD84 Rescue #1 _O___ -BGN? ␅
+TD1367431 ␆nMMnn
+TD66 Rescue #1 _O___ -BGN? nMMnn
+TD145 attempt: 0 DREAM n m m n n
+TD58 Rescue #2 _____? ␅
+TD1583764 ␆nMMnn
+TD73 Rescue #2 _____? nMMnn
+TD133 attempt: 1 BONGO n m m n n
+TD63 Rescue #2 _____ ~NO -BG O:1? ␅
+TD2079779 ␆nYMnn
+TD76 Rescue #2 _____ ~NO -BG O:1? nYMnn
+TD144 attempt: 1 DREAM n Y m n n
+TD61 Rescue #3 _____? ␅
+TD1767854 ␆nnMnn
+TD103 Rescue #3 _____? nnMnn
+TD140 attempt: 2 BONGO n n m n n
+TD66 Rescue #3 _____ ~N -BGO? ␅
+TD1407710 ␆nMYnn
+TD72 Rescue #3 _____ ~N -BGO? nMYnn
+TD142 attempt: 2 DREAM n m Y n n
+TD62 Rescue #4 _____? ␅
+TD2311761 ␆nnMnn
+TD79 Rescue #4 _____? nnMnn
+TD140 attempt: 3 BONGO n n m n n
+TD66 Rescue #4 _____ ~N -BGO? ␅
+TD2327755 ␆nnYnn
+TD71 Rescue #4 _____ ~N -BGO? nnYnn
+TD142 attempt: 3 DREAM n n Y n n
+TD353504 > ␅
+TD6078471 ␆*
+TD71 > *
+TD936 ? ␅
+TD1582800 ␆2
+TD97 ? 2
+TD201 questioning: worse
+TD169 Rescue #1 _O___ ~ER -ABDGMN? ␅
+TD3799714 ␆nYMnM
+TD106 Rescue #1 _O___ ~ER -ABDGMN? nYMnM
+TD255 attempt: 0 WORSE n Y m n m
+TD135 Rescue #2 _R___ ~ENO -ABDGM O:1? ␅
+TD4135474 ␆nMMnY
+TD104 Rescue #2 _R___ ~ENO -ABDGM O:1? nMMnY
+TD168 attempt: 1 WORSE n m m n Y
+TD68 Rescue #3 __E__ ~NR -ABDGMO? ␅
+TD1303583 ␆nnMMM
+TD76 Rescue #3 __E__ ~NR -ABDGMO? nnMMM
+TD132 attempt: 2 WORSE n n m m m
+TD71 Rescue #4 __E__ ~N -ABDGMOR? ␅
+TD1303876 ␆nnnMM
+TD97 Rescue #4 __E__ ~N -ABDGMOR? nnnMM
+TD283 attempt: 3 WORSE n n n m m
+TD315913 > ␅
+TD787623 ␆*
+TD70 > *
+TD328 ? ␅
+TD5567819 ␄
+TD107 <EOF>
+TD342173 > ␅
+TD1361583 ␆* 1
+TD109 > * 1
+TD75752 ? ␅
+TD4844196 ␆6
+TD98 ? 6
+TD191 questioning: voter
+TD172 Rescue #1 _O___ ~ER -ABDGMNSW? ␅
+TD3647589 ␆nYnYY
+TD73 Rescue #1 _O___ ~ER -ABDGMNSW? nYnYY
+TD135 attempt: 0 VOTER n Y n Y Y
+TD83 Rescue #2 _R__E ~NO -ABDGMSW O:1? ␅
+TD1271738 ␆nMnMM
+TD98 Rescue #2 _R__E ~NO -ABDGMSW O:1? nMnMM
+TD240 attempt: 1 VOTER n m n m m
+TD118 Rescue #3 __E__ ~NRS -ABDGMOW? ␅
+TD1631704 ␆nnMMM
+TD113 Rescue #3 __E__ ~NRS -ABDGMOW? nnMMM
+TD168 attempt: 2 VOTER n n m m m
+TD77 Rescue #4 __E__ ~NS -ABDGMORW? ␅
+TD1543527 ␆nnnYn
+TD84 Rescue #4 __E__ ~NS -ABDGMORW? nnnYn
+TD159 attempt: 3 VOTER n n n Y n
+TD315858 > ␅
+TD4572931 ␆*
+TD88 > *
+TD294 questioning: stern
+TD69 Rescue #1 _O_ER -ABDGMNSTVW? ␅
+TD14014683 ␆nnMMn
+TD76 Rescue #1 _O_ER -ABDGMNSTVW? nnMMn
+TD126 attempt: 0 STERN n n m m n
+TD65 Rescue #2 _R__E ~NO -ABDGMSTVW O:1? ␅
+TD1423947 ␆nnMMM
+TD98 Rescue #2 _R__E ~NO -ABDGMSTVW O:1? nnMMM
+TD225 attempt: 1 STERN n n m m m
+TD120 Rescue #3 __E__ ~NRST -ABDGMOVW? ␅
+TD1335431 ␆YYYYY
+TD96 Rescue #3 __E__ ~NRST -ABDGMOVW? YYYYY
+TD208 attempt: 2 STERN Y Y Y Y Y
+TD116 Rescue #4 __EE_ ~NS -ABDGMORTVW? ␅
+TD1887555 ␆YnYnY
+TD74 Rescue #4 __EE_ ~NS -ABDGMORTVW? YnYnY
+TD139 attempt: 3 STERN Y n Y n Y
+TD205399 > ␅
+TD4162481 ␆*
+TD69 > *
+TD352 ? ␅
+TD4359670 ␄
+TD94 <EOF>
+TD233856 > ␅
+TD2414237 ␆* 1
+TD100 > * 1
+TD73726 ? ␅
+TD6870341 ␆3
+TD96 ? 3
+TD168 questioning: poker
+TD130 Rescue #1 _O_ER -ABDGMNSTVW? ␅
+TD3327434 ␆nYnYY
+TD107 Rescue #1 _O_ER -ABDGMNSTVW? nYnYY
+TD293 attempt: 0 POKER n Y n Y Y
+TD130 Rescue #2 _R__E ~NO -ABDGMSTVW O:1? ␅
+TD2383599 ␆YMnMM
+TD87 Rescue #2 _R__E ~NO -ABDGMSTVW O:1? YMnMM
+TD171 attempt: 1 POKER Y m n m m
+TD87 Rescue #4 S_EEN -ABDGMORTVW? ␅
+TD1503526 ␆nnnYn
+TD98 Rescue #4 S_EEN -ABDGMORTVW? nnnYn
+TD224 attempt: 3 POKER n n n Y n
+TD227424 > ␅
+TD772274 ␆*
+TD79 > *
+TD297 questioning: prone
+TD82 Rescue #1 _O_ER -ABDGKMNPSTVW? ␅
+TD3959587 ␆nMMnM
+TD108 Rescue #1 _O_ER -ABDGKMNPSTVW? nMMnM
+TD249 attempt: 0 PRONE n m m n m
+TD140 Rescue #2 PR__E ~NO -ABDGKMSTVW O:1? ␅
+TD1519600 ␆YYYYY
+TD89 Rescue #2 PR__E ~NO -ABDGKMSTVW O:1? YYYYY
+TD195 attempt: 1 PRONE Y Y Y Y Y
+TD106 Rescue #4 S_EEN -ABDGKMOPRTVW? ␅
+TD1135469 ␆nnnMM
+TD75 Rescue #4 S_EEN -ABDGKMOPRTVW? nnnMM
+TD146 attempt: 3 PRONE n n n m m
+TD172308 > ␅
+TD731615 ␆*
+TD93 > *
+TD381 questioning: sheen
+TD97 Rescue #1 _O_ER -ABDGKMNPSTVW? ␅
+TD4375377 ␆nnnYn
+TD85 Rescue #1 _O_ER -ABDGKMNPSTVW? nnnYn
+TD144 attempt: 0 SHEEN n n n Y n
+TD76 Rescue #4 S_EEN -ABDGKMOPRTVW? ␅
+TD1527873 ␆YYYYY
+TD99 Rescue #4 S_EEN -ABDGKMOPRTVW? YYYYY
+TD225 attempt: 3 SHEEN Y Y Y Y Y
+TD63070 > ␅
+TD30400346 ␆*
+TD73 > *
+TD2889 ? ␅
+TD2701837 ␆2
+TD95 ? 2
+TD170 questioning: foyer
+TD111 Rescue #1 _O_ER -ABDGHKMNPSTVW? ␅
+TD3734774 ␆YYYYY
+TD74 Rescue #1 _O_ER -ABDGHKMNPSTVW? YYYYY
+TD132 attempt: 0 FOYER Y Y Y Y Y
+TD66 📋> ␅
+TD9632163 ␆Daily Rescue 94
+TD81 📋> Daily Rescue 94
+TD11 📋> ␅
+TD34 ␆9️⃣7️⃣
+TD3 📋> 9️⃣7️⃣
+TD3 📋> ␅
+TD7 ␆5️⃣8️⃣
+TD2 📋> 5️⃣8️⃣
+TD2 📋> ␅
+TD9 ␆m-w.com/games/quordle/
+TD29 📋> m-w.com/games/quordle/
+TD3 📋> ␅
+TD271382 ␆
+TD85 📋> 
+TD8 📋> ␅
+TD207850 ␄
+TD164 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 94\n9\ufe0f\u20e37\ufe0f\u20e3\n5\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1014 result: "Daily Rescue 94\n9\ufe0f\u20e37\ufe0f\u20e3\n5\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD75 📆 2026-02-12 ? ␅
+TD414618 ␆
+TD76 📆 2026-02-12 ? 
