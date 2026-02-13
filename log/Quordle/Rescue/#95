@@ -1,0 +1,187 @@
+T4381.1835313710035 now: 2026-02-13T11:01:53EST
+TD67 site: m-w.com/games/quordle/#/rescue
+TD11 wordlist: nwl2023.txt
+TD2 num_words: 4
+TD66  ...␅
+TD4415044 ␆
+TD111  ...
+TD975206 > ␅
+TD1864455 ␆
+TD76 > 
+TD118 > ␅
+TD207921 ␆
+TD109 > 
+TD429 > ␅
+TD159413 ␆
+TD105 > 
+TD451 > ␅
+TD5119359 ␆tried alloy unmet
+TD95 > tried alloy unmet
+TD270 questioning: ALLOY UNMET
+TD107 Rescue #1 _____? ␅
+TD2295454 ␆nnnnn
+TD111 Rescue #1 _____? nnnnn
+TD226 attempt: 0 ALLOY n n n n n
+TD108 Rescue #1 _____ -ALOY? ␅
+TD1759479 ␆nMnYn
+TD82 Rescue #1 _____ -ALOY? nMnYn
+TD175 attempt: 0 UNMET n m n Y n
+TD83 Rescue #2 _____? ␅
+TD1759740 ␆Mnnnn
+TD109 Rescue #2 _____? Mnnnn
+TD225 attempt: 1 ALLOY m n n n n
+TD111 Rescue #2 _____ ~A -LOY? ␅
+TD1263324 ␆nnnMM
+TD79 Rescue #2 _____ ~A -LOY? nnnMM
+TD159 attempt: 1 UNMET n n n m m
+TD69 Rescue #3 _____? ␅
+TD1183553 ␆nMnMn
+TD73 Rescue #3 _____? nMnMn
+TD136 attempt: 2 ALLOY n m n m n
+TD64 Rescue #3 _____ ~LO -AY L:1? ␅
+TD2160160 ␆MnnMn
+TD86 Rescue #3 _____ ~LO -AY L:1? MnnMn
+TD161 attempt: 2 UNMET m n n m n
+TD72 Rescue #4 _____? ␅
+TD1263172 ␆MMnnn
+TD112 Rescue #4 _____? MMnnn
+TD171 attempt: 3 ALLOY m m n n n
+TD74 Rescue #4 _____ ~AL -OY L:1? ␅
+TD1799681 ␆MnMnn
+TD91 Rescue #4 _____ ~AL -OY L:1? MnMnn
+TD178 attempt: 3 UNMET m n m n n
+TD444068 > ␅
+TD763578 ␆*
+TD84 > *
+TD1298 ? ␅
+TD1014528 ␆1
+TD105 ? 1
+TD223 questioning: stare
+TD186 Rescue #1 ___E_ ~N -ALMOTUY? ␅
+TD2479313 ␆nnnMM
+TD97 Rescue #1 ___E_ ~N -ALMOTUY? nnnMM
+TD197 attempt: 0 STARE n n n m m
+TD88 Rescue #2 _____ ~AET -LMNOUY? ␅
+TD2015466 ␆YYYnY
+TD72 Rescue #2 _____ ~AET -LMNOUY? YYYnY
+TD138 attempt: 1 STARE Y Y Y n Y
+TD64 Rescue #3 _____ ~ELOU -AMNTY L:1? ␅
+TD1607744 ␆MnnnY
+TD80 Rescue #3 _____ ~ELOU -AMNTY L:1? MnnnY
+TD167 attempt: 2 STARE m n n n Y
+TD80 Rescue #4 _____ ~ALMU -ENOTY L:1? ␅
+TD1303640 ␆nnYnn
+TD79 Rescue #4 _____ ~ALMU -ENOTY L:1? nnYnn
+TD156 attempt: 3 STARE n n Y n n
+TD386160 > ␅
+TD773508 ␆*
+TD78 > *
+TD294 questioning: louse
+TD85 Rescue #1 ___E_ ~NR -ALMOSTUY? ␅
+TD5351383 ␆nnnnM
+TD100 Rescue #1 ___E_ ~NR -ALMOSTUY? nnnnM
+TD266 attempt: 0 LOUSE n n n n m
+TD120 Rescue #2 STA_E -LMNORUY? ␅
+TD1263550 ␆nnnMY
+TD101 Rescue #2 STA_E -LMNORUY? nnnMY
+TD234 attempt: 1 LOUSE n n n m Y
+TD111 Rescue #3 ____E ~LOSU -AMNRTY L:1? ␅
+TD1319281 ␆YYYYY
+TD97 Rescue #3 ____E ~LOSU -AMNRTY L:1? YYYYY
+TD223 attempt: 2 LOUSE Y Y Y Y Y
+TD115 Rescue #4 __A__ ~LMU -ENORSTY L:1? ␅
+TD1543349 ␆MnMnn
+TD77 Rescue #4 __A__ ~LMU -ENORSTY L:1? MnMnn
+TD161 attempt: 3 LOUSE m n m n n
+TD314333 > ␅
+TD693577 ␆*
+TD75 > *
+TD345 ? ␅
+TD7695248 ␄
+TD136 <EOF>
+TD290341 > ␅
+TD1230196 ␆* 1
+TD120 > * 1
+TD114514 ? ␅
+TD1460454 ␆1
+TD78 ? 1
+TD137 questioning: ripen
+TD106 Rescue #1 ___E_ ~NR -ALMOSTUY? ␅
+TD3911513 ␆MnnYM
+TD89 Rescue #1 ___E_ ~NR -ALMOSTUY? MnnYM
+TD159 attempt: 0 RIPEN m n n Y m
+TD85 Rescue #2 STA_E -LMNORUY? ␅
+TD1279613 ␆nnnMn
+TD80 Rescue #2 STA_E -LMNORUY? nnnMn
+TD153 attempt: 1 RIPEN n n n m n
+TD77 Rescue #4 __A__ ~LMU -ENORSTY L:1? ␅
+TD1239683 ␆nnnnn
+TD98 Rescue #4 __A__ ~LMU -ENORSTY L:1? nnnnn
+TD224 attempt: 3 RIPEN n n n n n
+TD309297 > ␅
+TD698432 ␆*
+TD99 > *
+TD385 questioning: qualm
+TD121 Rescue #1 ___E_ ~NR -AILMOPSTUY? ␅
+TD3391042 ␆nnnnn
+TD71 Rescue #1 ___E_ ~NR -AILMOPSTUY? nnnnn
+TD192 attempt: 0 QUALM n n n n n
+TD68 Rescue #2 STA_E -ILMNOPRUY? ␅
+TD1359712 ␆nnYnn
+TD80 Rescue #2 STA_E -ILMNOPRUY? nnYnn
+TD159 attempt: 1 QUALM n n Y n n
+TD81 Rescue #4 __A__ ~LMU -EINOPRSTY L:1? ␅
+TD1279640 ␆YYYYY
+TD84 Rescue #4 __A__ ~LMU -EINOPRSTY L:1? YYYYY
+TD157 attempt: 3 QUALM Y Y Y Y Y
+TD184861 > ␅
+TD1142995 ␆*
+TD99 > *
+TD531 ? ␅
+TD1167096 ␄
+TD112 <EOF>
+TD187286 > ␅
+TD852562 ␆* 2
+TD79 > * 2
+TD92520 ? ␅
+TD2939309 ␆4
+TD75 ? 4
+TD125 questioning: stave
+TD104 Rescue #1 ___E_ ~NR -AILMOPQSTUY? ␅
+TD3751591 ␆nnnMM
+TD87 Rescue #1 ___E_ ~NR -AILMOPQSTUY? nnnMM
+TD156 attempt: 0 STAVE n n n m m
+TD75 Rescue #2 STA_E -ILMNOPQRUY? ␅
+TD1159663 ␆YYYYY
+TD109 Rescue #2 STA_E -ILMNOPQRUY? YYYYY
+TD221 attempt: 1 STAVE Y Y Y Y Y
+TD104780 > ␅
+TD1214742 ␆*
+TD111 > *
+TD397 questioning: never
+TD79 Rescue #1 ___E_ ~NRV -AILMOPQSTUY? ␅
+TD2871274 ␆YYYYY
+TD96 Rescue #1 ___E_ ~NRV -AILMOPQSTUY? YYYYY
+TD209 attempt: 0 NEVER Y Y Y Y Y
+TD107 📋> ␅
+TD4255985 ␆Daily Rescue 95
+TD131 📋> Daily Rescue 95
+TD76 📋> ␅
+TD163 ␆8️⃣7️⃣
+TD11 📋> 8️⃣7️⃣
+TD7 📋> ␅
+TD20 ␆4️⃣6️⃣
+TD8 📋> 4️⃣6️⃣
+TD8 📋> ␅
+TD12 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD319038 ␆
+TD78 📋> 
+TD13 📋> ␅
+TD143720 ␄
+TD88 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 95\n8\ufe0f\u20e37\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD130 result: "Daily Rescue 95\n8\ufe0f\u20e37\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD66 📆 2026-02-13 ? ␅
+TD135842 ␆
+TD12 📆 2026-02-13 ? 
