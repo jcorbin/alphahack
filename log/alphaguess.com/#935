@@ -1,0 +1,74 @@
+T160.0319668899756 now: 2026-02-13T09:51:32EST
+TD170 site: alphaguess.com
+TD316249 loaded 196528 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (76 words excluded) asof c9f99987cff33a6980cc0f52e2a3556a66973942
+TD177  ...␅
+TD2682285 ␆
+TD122  ...
+TD220 [0 : 98219 : 196528] mach? ␅
+TD3847536 ␆a
+TD149 [0 : 98219 : 196528] mach? a
+TD204 progress: 1 98219 mach
+TD372 [98220 : 147375 : 196528] rhumb? ␅
+TD1271414 ␆a
+TD123 [98220 : 147375 : 196528] rhumb? a
+TD149 progress: 1 147375 rhumb
+TD145 [147376 : 171640 : 196528] ta? ␅
+TD1383439 ␆b
+TD114 [147376 : 171640 : 196528] ta? b
+TD124 progress: -1 171640 ta
+TD200 [147376 : 159487 : 171640] slop? ␅
+TD1511754 ␆a
+TD111 [147376 : 159487 : 171640] slop? a
+TD122 progress: 1 159487 slop
+TD120 [159488 : 165529 : 171640] stick? ␅
+TD1231723 ␆b
+TD139 [159488 : 165529 : 171640] stick? b
+TD139 progress: -1 165529 stick
+TD154 [159488 : 162474 : 165529] spec? ␅
+TD1215541 ␆b
+TD145 [159488 : 162474 : 165529] spec? b
+TD137 progress: -1 162474 spec
+TD136 [159488 : 160966 : 162474] soft? ␅
+TD1151322 ␆b
+TD97 [159488 : 160966 : 162474] soft? b
+TD102 progress: -1 160966 soft
+TD255 [159488 : 160226 : 160966] snath? ␅
+TD1223570 ␆b
+TD94 [159488 : 160226 : 160966] snath? b
+TD104 progress: -1 160226 snath
+TD185 [159488 : 159848 : 160226] smell? ␅
+TD1375601 ␆a
+TD86 [159488 : 159848 : 160226] smell? a
+TD75 progress: 1 159848 smell
+TD109 [159849 : 160033 : 160226] smoulder? ␅
+TD1167874 ␆a
+TD87 [159849 : 160033 : 160226] smoulder? a
+TD89 progress: 1 160033 smoulder
+TD82 [160034 : 160121 : 160226] snake? ␅
+TD2567919 ␆it
+TD123 [160034 : 160121 : 160226] snake? it
+TD132 progress: 0 160121 snake
+TD30 [160034 : 160121 : 160226] <Done>.
+TD114 📋> ␅
+TD2496220 ␆🧩 Puzzle #935
+TD112 📋> 🧩 Puzzle #935
+TD16 📋> ␅
+TD46 ␆🤔 11 guesses
+TD8 📋> 🤔 11 guesses
+TD7 📋> ␅
+TD15 ␆⏱️ 13s
+TD7 📋> ⏱️ 13s
+TD6 📋> ␅
+TD239223 ␆🔗 alphaguess.com/935
+TD115 📋> 🔗 alphaguess.com/935
+TD16 📋> ␅
+TD143772 ␄
+TD193 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #935\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 13s\n\ud83d\udd17 alphaguess.com/935"}
+TD115 result: "\ud83e\udde9 Puzzle #935\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 13s\n\ud83d\udd17 alphaguess.com/935"
+TD17 result puzzle: 935
+TD9 result guesses: 11
+TD7 result time: 13s
+TD6 result link: alphaguess.com/935
+TD103 📆 2026-02-13 ? ␅
+TD135466 ␆
+TD124 📆 2026-02-13 ? 
