@@ -1,0 +1,324 @@
+T2617.400838275993 now: 2026-02-13T10:32:29EST
+TD152 site: squareword.org
+TD36 wordlist: nwl2023.txt
+TD51  ...␅
+TD3926607 ␆
+TD106  ...
+TD88 🧩  ? ␅
+TD2215779 ␆#1474
+TD100 🧩  ? #1474
+TD276 puzzle_id: #1474
+TD301 > ␅
+TD3671323 ␆*
+TD99 > *
+TD606128 try? ␅
+TD1986010 ␆3
+TD146 try? 3
+TD509 questioning: ["heals", "#5"]
+TD723 #1 <IndexError>  📋 "heals" ? ␅
+TD5750603 ␆__A__ ~ S
+TD93 #1 <IndexError>  📋 "heals" ? __A__ ~ S
+TD577 attempt 0 HEALS n n Y n m
+TD103 #2 <IndexError>  📋 "heals" ? ␅
+TD1663249 ␆_E___
+TD96 #2 <IndexError>  📋 "heals" ? _E___
+TD246 attempt 1 HEALS n Y n n n
+TD115 #3 <IndexError>  📋 "heals" ? ␅
+TD1943981 ␆_____ ~ A
+TD107 #3 <IndexError>  📋 "heals" ? _____ ~ A
+TD941 attempt 2 HEALS n n m n n
+TD166 #4 <IndexError>  📋 "heals" ? ␅
+TD1718256 ␆_____ ~ S
+TD81 #4 <IndexError>  📋 "heals" ? _____ ~ S
+TD184 attempt 3 HEALS n n n n m
+TD88 #5 <IndexError>  📋 "heals" ? ␅
+TD2407738 ␆H___S ~ E
+TD97 #5 <IndexError>  📋 "heals" ? H___S ~ E
+TD225 attempt 4 HEALS Y m n n Y
+TD308 ? ␅
+TD383346 ␆
+TD105 ? 
+TD156 question done
+TD271 > ␅
+TD591673 ␆*
+TD99 > *
+TD1014144 try? ␅
+TD2937496 ␆3
+TD147 try? 3
+TD341 questioning: ["hopes", "#5"]
+TD547 #1 __A__ ~S -EHL  📋 "hopes" ? ␅
+TD3767035 ␆.
+TD91 #1 __A__ ~S -EHL  📋 "hopes" ? .
+TD223 attempt 0 HOPES n n n n m
+TD69 #2 _E___ -AHLS  📋 "hopes" ? ␅
+TD3791638 ␆_E___ ~ O
+TD128 #2 _E___ -AHLS  📋 "hopes" ? _E___ ~ O
+TD225 attempt 1 HOPES n m n n n
+TD119 #3 _____ ~A -EHLS  📋 "hopes" ? ␅
+TD2311615 ␆_____ ~ AO
+TD121 #3 _____ ~A -EHLS  📋 "hopes" ? _____ ~ AO
+TD318 attempt 2 HOPES n m n n n
+TD179 #4 _____ ~S -AEHL  📋 "hopes" ? ␅
+TD2607712 ␆_____ ~ SOP
+TD168 #4 _____ ~S -AEHL  📋 "hopes" ? _____ ~ SOP
+TD248 attempt 3 HOPES n m m n m
+TD99 #5 H___S ~E -AL  📋 "hopes" ? ␅
+TD2031207 ␆HO_ES
+TD105 #5 H___S ~E -AL  📋 "hopes" ? HO_ES
+TD195 attempt 4 HOPES Y Y n Y Y
+TD226 ? ␅
+TD223570 ␆
+TD90 ? 
+TD142 question done
+TD301 > ␅
+TD455335 ␆*
+TD82 > *
+TD610127 try? ␅
+TD2077759 ␆2
+TD132 try? 2
+TD343 questioning: ["homes", "#5"]
+TD295 #1 __A__ ~S -EHLOP  📋 "homes" ? ␅
+TD6103429 ␆.
+TD102 #1 __A__ ~S -EHLOP  📋 "homes" ? .
+TD226 attempt 0 HOMES n n n n m
+TD71 #2 _E___ ~O -AEHLPS  📋 "homes" ? ␅
+TD663737 ␆.
+TD168 #2 _E___ ~O -AEHLPS  📋 "homes" ? .
+TD431 attempt 1 HOMES n m n n n
+TD140 #3 _____ ~AO -EHLPS  📋 "homes" ? ␅
+TD4015189 ␆_____ ~ AOM
+TD93 #3 _____ ~AO -EHLPS  📋 "homes" ? _____ ~ AOM
+TD208 attempt 2 HOMES n m m n n
+TD131 #4 _____ ~OPS -AEHL  📋 "homes" ? ␅
+TD679599 ␆.
+TD126 #4 _____ ~OPS -AEHL  📋 "homes" ? .
+TD339 attempt 3 HOMES n m n n m
+TD135 #5 HO_ES -ALP  📋 "homes" ? ␅
+TD1671671 ␆.
+TD233 #5 HO_ES -ALP  📋 "homes" ? .
+TD344 attempt 4 HOMES Y Y n Y Y
+TD319 ? ␅
+TD726832 ␆*
+TD123 ? *
+TD455 ? ␅
+TD847461 ␆
+TD165 ? 
+TD146 question done
+TD369 > ␅
+TD431285 ␆*
+TD128 > *
+TD844531 try? ␅
+TD515342 ␄
+TD122 <EOF>
+TD252 > ␅
+TD10519939 ␆* 3
+TD182 > * 3
+TD1670 try? ␅
+TD7542388 ␄
+TD175 <EOF>
+TD493 > ␅
+TD927080 ␆* 4
+TD125 > * 4
+TD1787 try? ␅
+TD8894343 ␆6
+TD153 try? 6
+TD326 questioning: ["stowp", "#4"]
+TD232 #1 __A__ ~S -EHLMOP  📋 "stowp" ? ␅
+TD7879296 ␆STA__ 
+TD119 #1 __A__ ~S -EHLMOP  📋 "stowp" ? STA__ 
+TD313 attempt 0 STOWP Y Y n n n
+TD204 #2 _E___ ~O -AEHLMPS  📋 "stowp" ? ␅
+TD3127313 ␆_E___ ~ ET
+TD105 #2 _E___ ~O -AEHLMPS  📋 "stowp" ? _E___ ~ ET
+TD309 attempt 1 STOWP n m n n n
+TD193 #3 _____ ~AMO -EHLPS  📋 "stowp" ? ␅
+TD1159373 ␆.
+TD103 #3 _____ ~AMO -EHLPS  📋 "stowp" ? .
+TD229 attempt 2 STOWP n n m n n
+TD68 #4 _____ ~OPS -AEHLM  📋 "stowp" ? ␅
+TD2679780 ␆S_O__ ~ PT
+TD134 #4 _____ ~OPS -AEHLM  📋 "stowp" ? S_O__ ~ PT
+TD317 attempt 3 STOWP Y m Y n m
+TD187 #5 HO_ES -ALMP  📋 "stowp" ? ␅
+TD543275 ␆.
+TD124 #5 HO_ES -ALMP  📋 "stowp" ? .
+TD313 attempt 4 STOWP n n n n n
+TD391 ? ␅
+TD183149 ␆
+TD130 ? 
+TD169 question done
+TD487 > ␅
+TD1063255 ␆*
+TD118 > *
+TD2439659 questioning: ["hones", "#5"]
+TD200 #1 STA__ -EHLMOPW  📋 "hones" ? ␅
+TD4480303 ␆.
+TD129 #1 STA__ -EHLMOPW  📋 "hones" ? .
+TD366 attempt 0 HONES n n n n n
+TD148 #2 _E___ ~T -AEHLMOPSW  📋 "hones" ? ␅
+TD3975232 ␆_EN__ ~ OTN
+TD101 #2 _E___ ~T -AEHLMOPSW  📋 "hones" ? _EN__ ~ OTN
+TD271 attempt 1 HONES n m Y n n
+TD174 #3 _____ ~AMO -EHLPSTW  📋 "hones" ? ␅
+TD1175436 ␆.
+TD100 #3 _____ ~AMO -EHLPSTW  📋 "hones" ? .
+TD276 attempt 2 HONES n m n n n
+TD115 #4 S_O__ ~PT -AEHLMW  📋 "hones" ? ␅
+TD1519461 ␆.
+TD77 #4 S_O__ ~PT -AEHLMW  📋 "hones" ? .
+TD188 attempt 3 HONES n n n n n
+TD69 #5 HO_ES -ALMOPSTW  📋 "hones" ? ␅
+TD639568 ␆/it
+TD75 #5 HO_ES -ALMOPSTW  📋 "hones" ? /it
+TD174 attempt 4 HONES Y Y Y Y Y
+TD171 ? ␅
+TD167823 ␆
+TD102 ? 
+TD116 question done
+TD389 > ␅
+TD631273 ␆*
+TD80 > *
+TD2287422 try? ␅
+TD6392726 ␆2
+TD100 try? 2
+TD391 questioning: ["amigo", "#3"]
+TD397 #1 STA__ -EHLMNOPSW  📋 "amigo" ? ␅
+TD2967094 ␆.
+TD98 #1 STA__ -EHLMNOPSW  📋 "amigo" ? .
+TD244 attempt 0 AMIGO n n n n n
+TD80 #2 _EN__ ~OT -AEHLMOPSW  📋 "amigo" ? ␅
+TD3975646 ␆_EN__ ~ OTN
+TD101 #2 _EN__ ~OT -AEHLMOPSW  📋 "amigo" ? _EN__ ~ OTN
+TD204 attempt 1 AMIGO n n n n m
+TD144 #3 _____ ~AMO -EHLNPSTW  📋 "amigo" ? ␅
+TD575466 ␆/it
+TD100 #3 _____ ~AMO -EHLNPSTW  📋 "amigo" ? /it
+TD252 attempt 2 AMIGO Y Y Y Y Y
+TD88 #4 S_O__ ~PT -AEHLMNOSW  📋 "amigo" ? ␅
+TD847986 ␆.
+TD90 #4 S_O__ ~PT -AEHLMNOSW  📋 "amigo" ? .
+TD247 attempt 3 AMIGO n n n n n
+TD217 ? ␅
+TD143239 ␆
+TD133 ? 
+TD129 question done
+TD326 > ␅
+TD375241 ␆*
+TD96 > *
+TD2033384 try? ␅
+TD1942762 ␆1
+TD116 try? 1
+TD303 questioning: ["sport", "#4"]
+TD252 #1 STA__ -AEGHILMNOPSW  📋 "sport" ? ␅
+TD5815277 ␆STAR_
+TD105 #1 STA__ -AEGHILMNOPSW  📋 "sport" ? STAR_
+TD254 attempt 0 SPORT Y n n Y n
+TD146 #2 _EN__ ~OT -AEGHILMOPSW  📋 "sport" ? ␅
+TD6591796 ␆_EN__ ~ OTN
+TD124 #2 _EN__ ~OT -AEGHILMOPSW  📋 "sport" ? _EN__ ~ OTN
+TD351 attempt 1 SPORT n n m n m
+TD232 #4 S_O__ ~PT -AEGHILMNOSW  📋 "sport" ? ␅
+TD3367499 ␆SPO_T
+TD169 #4 S_O__ ~PT -AEGHILMNOSW  📋 "sport" ? SPO_T
+TD310 attempt 3 SPORT Y Y Y n Y
+TD420 ? ␅
+TD190851 ␆
+TD85 ? 
+TD135 question done
+TD394 > ␅
+TD439273 ␆*
+TD79 > *
+TD5214157 questioning: ["stark", "#1"]
+TD442 #1 STAR_ -AEGHILMNOPTW  📋 "stark" ? ␅
+TD3873501 ␆/it
+TD112 #1 STAR_ -AEGHILMNOPTW  📋 "stark" ? /it
+TD274 attempt 0 STARK Y Y Y Y Y
+TD114 #2 _EN__ ~OT -AEGHILMOPRSW  📋 "stark" ? ␅
+TD4903657 ␆_EN__ ~ OTN
+TD100 #2 _EN__ ~OT -AEGHILMOPRSW  📋 "stark" ? _EN__ ~ OTN
+TD251 attempt 1 STARK n m n n n
+TD181 #4 SPO_T -AEGHILMNRW  📋 "stark" ? ␅
+TD1407403 ␆.
+TD98 #4 SPO_T -AEGHILMNRW  📋 "stark" ? .
+TD271 attempt 3 STARK Y n n n n
+TD324 ? ␅
+TD167351 ␆
+TD107 ? 
+TD122 question done
+TD319 > ␅
+TD511435 ␆*
+TD100 > *
+TD3707969 questioning: ["spout", "#4"]
+TD512 #2 _EN__ ~OT -AEGHIKLMOPRSW  📋 "spout" ? ␅
+TD8795587 ␆_EN__ ~ OTN
+TD135 #2 _EN__ ~OT -AEGHIKLMOPRSW  📋 "spout" ? _EN__ ~ OTN
+TD345 attempt 1 SPOUT n n m n m
+TD205 #4 SPO_T -AEGHIKLMNRTW  📋 "spout" ? ␅
+TD719260 ␆/it
+TD102 #4 SPO_T -AEGHIKLMNRTW  📋 "spout" ? /it
+TD305 attempt 3 SPOUT Y Y Y Y Y
+TD362 ? ␅
+TD223357 ␆
+TD119 ? 
+TD152 question done
+TD311 > ␅
+TD423356 ␆*
+TD111 > *
+TD1269658 > ␅
+TD2434389 ␆*
+TD133 > *
+TD1251610 > ␅
+TD5804165 ␆?
+TD136 > ?
+TD1352 > ␅
+TD8750980 ␆/man 2 _EN ~OTN
+TD118 > /man 2 _EN ~OTN
+TD415187 > ␅
+TD113201763 ␆tenon
+TD117 > tenon
+TD612 questioning: ["tenon", "entered"]
+TD600 #2 _EN__ ~OT -AEGHIKLMOPRSUW  📋 "tenon" ? ␅
+TD1566588 ␆/it
+TD116 #2 _EN__ ~OT -AEGHIKLMOPRSUW  📋 "tenon" ? /it
+TD332 attempt 1 TENON Y Y Y Y Y
+TD397 ? ␅
+TD543215 ␆
+TD98 ? 
+TD121 question done
+TD22544 📋> ␅
+TD2849750 ␆squareword.org 1474: 10 guesses
+TD92 📋> squareword.org 1474: 10 guesses
+TD49 📋> ␅
+TD42 ␆
+TD5 📋> 
+TD9 📋> ␅
+TD15 ␆🟩🟩🟩🟨🟨
+TD4 📋> 🟩🟩🟩🟨🟨
+TD25 📋> ␅
+TD10 ␆🟨🟩🟩🟨🟨
+TD3 📋> 🟨🟩🟩🟨🟨
+TD7 📋> ␅
+TD9 ␆🟨🟨🟨🟨🟨
+TD3 📋> 🟨🟨🟨🟨🟨
+TD6 📋> ␅
+TD9 ␆🟩🟨🟩🟨🟨
+TD3 📋> 🟩🟨🟩🟨🟨
+TD6 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD12 📋> ␅
+TD20 ␆
+TD4 📋> 
+TD6 📋> ␅
+TD9 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD255270 ␆#squareword #squareword1474
+TD99 📋> #squareword #squareword1474
+TD52 📋> ␅
+TD143668 ␄
+TD163 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1474: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1474"}
+TD516 result: "squareword.org 1474: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1474"
+TD74 📆 2026-02-13 ? ␅
+TD143226 ␆
+TD106 📆 2026-02-13 ? 
