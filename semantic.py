@@ -3568,7 +3568,7 @@ class Search(StoredLog):
                     ] / 100.0
                     for word in exw.good
                 ]
-                sc_e = sum(extracted, 0) / len(extracted)
+                sc_e = sum(extracted, 0) / len(extracted) if extracted else 0
                 expect = (sc_e + sc_bo) / 2
 
                 cp = self.last_known_prompt()
