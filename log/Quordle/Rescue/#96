@@ -1,0 +1,175 @@
+T1824.3460223360016 now: 2026-02-14T09:25:33EST
+TD139 site: m-w.com/games/quordle/#/rescue
+TD23 wordlist: nwl2023.txt
+TD7 num_words: 4
+TD131  ...␅
+TD4558726 ␆
+TD96  ...
+TD442243 > ␅
+TD3278108 ␆tried overt gland
+TD124 > tried overt gland
+TD591 questioning: OVERT GLAND
+TD211 Rescue #1 _____? ␅
+TD1966941 ␆nnnnn
+TD97 Rescue #1 _____? nnnnn
+TD230 attempt: 0 OVERT n n n n n
+TD97 Rescue #1 _____ -EORTV? ␅
+TD1759479 ␆MYnYn
+TD97 Rescue #1 _____ -EORTV? MYnYn
+TD225 attempt: 0 GLAND m Y n Y n
+TD110 Rescue #2 _____? ␅
+TD1383538 ␆Mnnnn
+TD117 Rescue #2 _____? Mnnnn
+TD313 attempt: 1 OVERT m n n n n
+TD128 Rescue #2 _____ ~O -ERTV? ␅
+TD1815597 ␆nnnMY
+TD120 Rescue #2 _____ ~O -ERTV? nnnMY
+TD258 attempt: 1 GLAND n n n m Y
+TD116 Rescue #3 _____? ␅
+TD1503433 ␆nnMnn
+TD123 Rescue #3 _____? nnMnn
+TD331 attempt: 2 OVERT n n m n n
+TD154 Rescue #3 _____ ~E -ORTV? ␅
+TD1359699 ␆nMnnn
+TD122 Rescue #3 _____ ~E -ORTV? nMnnn
+TD166 attempt: 2 GLAND n m n n n
+TD70 Rescue #4 _____? ␅
+TD968062 ␆nnnnn
+TD107 Rescue #4 _____? nnnnn
+TD374 attempt: 3 OVERT n n n n n
+TD212 Rescue #4 _____ -EORTV? ␅
+TD1758568 ␆MYYYn
+TD103 Rescue #4 _____ -EORTV? MYYYn
+TD198 attempt: 3 GLAND m Y Y Y n
+TD434689 > ␅
+TD1349370 ␆*
+TD101 > *
+TD562 ? ␅
+TD5719178 ␄
+TD147 <EOF>
+TD367113 > ␅
+TD1248721 ␆* 3
+TD89 > * 3
+TD98755 ? ␅
+TD1757118 ␆3
+TD116 ? 3
+TD193 questioning: yules
+TD159 Rescue #1 _L_N_ ~G -ADEORTV? ␅
+TD3215805 ␆nMMnn
+TD102 Rescue #1 _L_N_ ~G -ADEORTV? nMMnn
+TD242 attempt: 0 YULES n m m n n
+TD121 Rescue #2 ____D ~NO -AEGLRTV? ␅
+TD1375334 ␆MnnnM
+TD76 Rescue #2 ____D ~NO -AEGLRTV? MnnnM
+TD158 attempt: 1 YULES m n n n m
+TD76 Rescue #3 _____ ~EL -ADGNORTV? ␅
+TD1495722 ␆nnYYn
+TD75 Rescue #3 _____ ~EL -ADGNORTV? nnYYn
+TD130 attempt: 2 YULES n n Y Y n
+TD71 Rescue #4 _LAN_ ~G -DEORTV? ␅
+TD1271780 ␆nnMnn
+TD77 Rescue #4 _LAN_ ~G -DEORTV? nnMnn
+TD151 attempt: 3 YULES n n m n n
+TD303893 > ␅
+TD687859 ␆*
+TD72 > *
+TD242 questioning: synod
+TD67 Rescue #1 _L_N_ ~GU -ADEORSTVY? ␅
+TD4335809 ␆nnMnn
+TD106 Rescue #1 _L_N_ ~GU -ADEORSTVY? nnMnn
+TD231 attempt: 0 SYNOD n n m n n
+TD123 Rescue #2 ____D ~NOSY -AEGLRTUV? ␅
+TD1351611 ␆YYYYY
+TD96 Rescue #2 ____D ~NOSY -AEGLRTUV? YYYYY
+TD206 attempt: 1 SYNOD Y Y Y Y Y
+TD107 Rescue #3 __LE_ -ADGNORSTUVY? ␅
+TD1279651 ␆nnnnn
+TD100 Rescue #3 __LE_ -ADGNORSTUVY? nnnnn
+TD220 attempt: 2 SYNOD n n n n n
+TD113 Rescue #4 _LAN_ ~G -DEORSTUVY? ␅
+TD1599606 ␆nnMnn
+TD97 Rescue #4 _LAN_ ~G -DEORSTUVY? nnMnn
+TD221 attempt: 3 SYNOD n n m n n
+TD278020 > ␅
+TD1609617 ␆*
+TD72 > *
+TD294 ? ␅
+TD1359703 ␄
+TD101 <EOF>
+TD223777 > ␅
+TD1063945 ␆* 3
+TD93 > * 3
+TD71536 ? ␅
+TD3080424 ␆3
+TD82 ? 3
+TD128 questioning: celeb
+TD105 Rescue #1 _L_N_ ~GU -ADEORSTVY? ␅
+TD3623814 ␆YnMnn
+TD100 Rescue #1 _L_N_ ~GU -ADEORSTVY? YnMnn
+TD216 attempt: 0 CELEB Y n m n n
+TD114 Rescue #3 __LE_ -ADGNORSTUVY? ␅
+TD2128012 ␆nYYYn
+TD75 Rescue #3 __LE_ -ADGNORSTUVY? nYYYn
+TD148 attempt: 2 CELEB n Y Y Y n
+TD71 Rescue #4 _LAN_ ~G -DEORSTUVY? ␅
+TD1639386 ␆YnMnn
+TD90 Rescue #4 _LAN_ ~G -DEORSTUVY? YnMnn
+TD157 attempt: 3 CELEB Y n m n n
+TD232964 > ␅
+TD814777 ␆*
+TD72 > *
+TD366 questioning: clung
+TD147 Rescue #1 CL_N_ ~GU -ABDEORSTVY? ␅
+TD5583632 ␆YYYYY
+TD105 Rescue #1 CL_N_ ~GU -ABDEORSTVY? YYYYY
+TD242 attempt: 0 CLUNG Y Y Y Y Y
+TD123 Rescue #3 _ELE_ -ABCDGNORSTUVY? ␅
+TD1607387 ␆nMnnn
+TD79 Rescue #3 _ELE_ -ABCDGNORSTUVY? nMnnn
+TD161 attempt: 2 CLUNG n m n n n
+TD86 Rescue #4 CLAN_ ~G -BDEORSTUVY? ␅
+TD2047883 ␆YYnYY
+TD99 Rescue #4 CLAN_ ~G -BDEORSTUVY? YYnYY
+TD233 attempt: 3 CLUNG Y Y n Y Y
+TD96629 > ␅
+TD822856 ␆*
+TD66 > *
+TD325 ? ␅
+TD2367744 ␆2
+TD113 ? 2
+TD184 questioning: melee
+TD154 Rescue #3 _ELE_ -ABCDGNORSTUVY? ␅
+TD3216142 ␆YYYYY
+TD102 Rescue #3 _ELE_ -ABCDGNORSTUVY? YYYYY
+TD217 attempt: 2 MELEE Y Y Y Y Y
+TD108 📋> ␅
+TD1991045 ␆nnMnn
+TD102 📋> nnMnn
+TD12 📋> ␅
+TD4376118 ␆
+TD91 📋> 
+TD10 📋> ␅
+TD591757 ␄
+TD143 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "nnMnn\n"}
+TD169 📋> ␅
+TD10544427 ␆Daily Rescue 96
+TD110 📋> Daily Rescue 96
+TD25 📋> ␅
+TD59 ␆6️⃣4️⃣
+TD10 📋> 6️⃣4️⃣
+TD8 📋> ␅
+TD18 ␆7️⃣8️⃣
+TD6 📋> 7️⃣8️⃣
+TD5 📋> ␅
+TD10 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD304132 ␆
+TD106 📋> 
+TD14 📋> ␅
+TD183164 ␄
+TD174 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 96\n6\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD178 result: "Daily Rescue 96\n6\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD94 📆 2026-02-14 ? ␅
+TD279437 ␆
+TD76 📆 2026-02-14 ? 
