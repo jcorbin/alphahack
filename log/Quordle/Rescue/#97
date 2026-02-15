@@ -1,0 +1,202 @@
+T3199.2312983589945 now: 2026-02-15T09:21:49EST
+TD163 site: m-w.com/games/quordle/#/rescue
+TD41 wordlist: nwl2023.txt
+TD3 num_words: 4
+TD252  ...␅
+TD6938440 ␆
+TD64  ...
+TD341849 > ␅
+TD3930278 ␆tried debug dairy
+TD71 > tried debug dairy
+TD894 questioning: DEBUG DAIRY
+TD263 Rescue #1 _____? ␅
+TD2158668 ␆MMnnM
+TD76 Rescue #1 _____? MMnnM
+TD408 attempt: 0 DEBUG m m n n m
+TD89 Rescue #1 _____ ~DEG -BU? ␅
+TD1415482 ␆MMnnn
+TD96 Rescue #1 _____ ~DEG -BU? MMnnn
+TD221 attempt: 0 DAIRY m m n n n
+TD99 Rescue #2 _____? ␅
+TD1847639 ␆nnnnn
+TD98 Rescue #2 _____? nnnnn
+TD213 attempt: 1 DEBUG n n n n n
+TD103 Rescue #2 _____ -BDEGU? ␅
+TD1895609 ␆nMnMn
+TD95 Rescue #2 _____ -BDEGU? nMnMn
+TD215 attempt: 1 DAIRY n m n m n
+TD93 Rescue #3 _____? ␅
+TD1327578 ␆nnnnn
+TD93 Rescue #3 _____? nnnnn
+TD221 attempt: 2 DEBUG n n n n n
+TD101 Rescue #3 _____ -BDEGU? ␅
+TD1311635 ␆nnnMY
+TD99 Rescue #3 _____ -BDEGU? nnnMY
+TD226 attempt: 2 DAIRY n n n m Y
+TD98 Rescue #4 _____? ␅
+TD1191588 ␆nMnnn
+TD80 Rescue #4 _____? nMnnn
+TD178 attempt: 3 DEBUG n m n n n
+TD79 Rescue #4 _____ ~E -BDGU? ␅
+TD2423597 ␆nnnnn
+TD82 Rescue #4 _____ ~E -BDGU? nnnnn
+TD155 attempt: 3 DAIRY n n n n n
+TD337481 > ␅
+TD1158325 ␆*
+TD72 > *
+TD983 ? ␅
+TD16607391 ␄
+TD260 <EOF>
+TD356284 > ␅
+TD1419210 ␆* 4
+TD78 > * 4
+TD95488 ? ␅
+TD1360549 ␆
+TD80 ? 
+TD380 ? ␅
+TD567427 ␆1
+TD79 ? 1
+TD172 questioning: spelt
+TD112 Rescue #1 _____ ~ADEG -BIRUY? ␅
+TD8615809 ␆nnMMn
+TD98 Rescue #1 _____ ~ADEG -BIRUY? nnMMn
+TD233 attempt: 0 SPELT n n m m n
+TD81 Rescue #2 _____ ~AR -BDEGIUY? ␅
+TD1199759 ␆nnnnn
+TD96 Rescue #2 _____ ~AR -BDEGIUY? nnnnn
+TD214 attempt: 1 SPELT n n n n n
+TD113 Rescue #3 ____Y ~R -ABDEGIU? ␅
+TD2679595 ␆nnnnn
+TD98 Rescue #3 ____Y ~R -ABDEGIU? nnnnn
+TD222 attempt: 2 SPELT n n n n n
+TD112 Rescue #4 _____ ~E -ABDGIRUY? ␅
+TD2087464 ␆nnYMn
+TD107 Rescue #4 _____ ~E -ABDGIRUY? nnYMn
+TD221 attempt: 3 SPELT n n Y m n
+TD385852 > ␅
+TD1365776 ␆*
+TD81 > *
+TD263 questioning: glade
+TD72 Rescue #1 _____ ~ADEGL -BIPRSTUY? ␅
+TD5135618 ␆YYYYY
+TD74 Rescue #1 _____ ~ADEGL -BIPRSTUY? YYYYY
+TD137 attempt: 0 GLADE Y Y Y Y Y
+TD71 Rescue #2 _____ ~AR -BDEGILPSTUY? ␅
+TD1839754 ␆nnYnn
+TD71 Rescue #2 _____ ~AR -BDEGILPSTUY? nnYnn
+TD139 attempt: 1 GLADE n n Y n n
+TD69 Rescue #3 ____Y ~R -ABDEGILPSTU? ␅
+TD1255947 ␆nnnnn
+TD75 Rescue #3 ____Y ~R -ABDEGILPSTU? nnnnn
+TD149 attempt: 2 GLADE n n n n n
+TD76 Rescue #4 __E__ ~L -ABDGIPRSTUY? ␅
+TD1615544 ␆nMnnM
+TD79 Rescue #4 __E__ ~L -ABDGIPRSTUY? nMnnM
+TD156 attempt: 3 GLADE n m n n m
+TD245572 > ␅
+TD1042346 ␆*
+TD110 > *
+TD536 ? ␅
+TD2335379 ␄
+TD135 <EOF>
+TD292555 > ␅
+TD1915165 ␆* 12
+TD99 > * 12
+TD272057 > ␅
+TD975833 ␆* 2
+TD65 > * 2
+TD107721 ? ␅
+TD844280 ␄
+TD105 <EOF>
+TD210754 > ␅
+TD917990 ␆* 2
+TD84 > * 2
+TD84006 ? ␅
+TD1043224 ␄
+TD108 <EOF>
+TD226153 > ␅
+TD509564 ␆* 3
+TD70 > * 3
+TD72851 ? ␅
+TD2455138 ␆6
+TD82 ? 6
+TD135 questioning: horny
+TD114 Rescue #2 __A__ ~R -BDEGILPSTUY? ␅
+TD7015768 ␆nnMYn
+TD82 Rescue #2 __A__ ~R -BDEGILPSTUY? nnMYn
+TD168 attempt: 1 HORNY n n m Y n
+TD88 Rescue #3 ____Y ~R -ABDEGILPSTU? ␅
+TD2071716 ␆nYMnY
+TD66 Rescue #3 ____Y ~R -ABDEGILPSTU? nYMnY
+TD137 attempt: 2 HORNY n Y m n Y
+TD69 Rescue #4 __E__ ~L -ABDGIPRSTUY? ␅
+TD967559 ␆nnnMn
+TD71 Rescue #4 __E__ ~L -ABDGIPRSTUY? nnnMn
+TD156 attempt: 3 HORNY n n n m n
+TD267160 > ␅
+TD604800 ␆*
+TD98 > *
+TD372 questioning: kneel
+TD134 Rescue #2 __AN_ ~R -BDEGHILOPSTUY? ␅
+TD6975411 ␆MMnnn
+TD80 Rescue #2 __AN_ ~R -BDEGHILOPSTUY? MMnnn
+TD154 attempt: 1 KNEEL m m n n n
+TD82 Rescue #3 _O__Y ~R -ABDEGHILNPSTU? ␅
+TD1335802 ␆Mnnnn
+TD110 Rescue #3 _O__Y ~R -ABDEGHILNPSTU? Mnnnn
+TD217 attempt: 2 KNEEL m n n n n
+TD128 Rescue #4 __E__ ~LN -ABDGHIOPRSTUY? ␅
+TD1359584 ␆YYYYY
+TD89 Rescue #4 __E__ ~LN -ABDGHIOPRSTUY? YYYYY
+TD178 attempt: 3 KNEEL Y Y Y Y Y
+TD190794 > ␅
+TD672918 ␆*
+TD70 > *
+TD507 ? ␅
+TD2319388 ␄
+TD104 <EOF>
+TD195551 > ␅
+TD1676265 ␆* 3
+TD99 > * 3
+TD89500 ? ␅
+TD1422589 ␆1
+TD103 ? 1
+TD195 questioning: rocky
+TD171 Rescue #2 __AN_ ~KR -BDEGHILOPSTUY? ␅
+TD4647477 ␆MnMMn
+TD79 Rescue #2 __AN_ ~KR -BDEGHILOPSTUY? MnMMn
+TD161 attempt: 1 ROCKY m n m m n
+TD80 Rescue #3 _O__Y ~KR -ABDEGHILNPSTU? ␅
+TD1279831 ␆YYYYY
+TD79 Rescue #3 _O__Y ~KR -ABDEGHILNPSTU? YYYYY
+TD153 attempt: 2 ROCKY Y Y Y Y Y
+TD98817 > ␅
+TD1388815 ␆*
+TD71 > *
+TD344 questioning: crank
+TD111 Rescue #2 __AN_ ~CKR -BDEGHILOPSTUY? ␅
+TD2863481 ␆YYYYY
+TD73 Rescue #2 __AN_ ~CKR -BDEGHILOPSTUY? YYYYY
+TD133 attempt: 1 CRANK Y Y Y Y Y
+TD208 📋> ␅
+TD4360016 ␆Daily Rescue 97
+TD99 📋> Daily Rescue 97
+TD13 📋> ␅
+TD49 ␆4️⃣8️⃣
+TD6 📋> 4️⃣8️⃣
+TD6 📋> ␅
+TD13 ␆7️⃣6️⃣
+TD5 📋> 7️⃣6️⃣
+TD4 📋> ␅
+TD12 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD239593 ␆
+TD102 📋> 
+TD13 📋> ␅
+TD191835 ␄
+TD776 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 97\n4\ufe0f\u20e38\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD590 result: "Daily Rescue 97\n4\ufe0f\u20e38\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD92 📆 2026-02-15 ? ␅
+TD182454 ␆
+TD101 📆 2026-02-15 ? 
