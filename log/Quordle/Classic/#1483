@@ -1,0 +1,197 @@
+T242.85227662400575 now: 2026-02-15T08:32:32EST
+TD83 site: m-w.com/games/quordle/#/
+TD15 wordlist: nwl2023.txt
+TD5 num_words: 4
+TD88  ...␅
+TD2718926 ␆
+TD77  ...
+TD309801 > ␅
+TD818089 ␆*
+TD67 > *
+TD57298 ? ␅
+TD574662 ␆1
+TD66 ? 1
+TD135 questioning: aisle
+TD107 Classic #1 _____? ␅
+TD3191720 ␆MMnYn
+TD63 Classic #1 _____? MMnYn
+TD239 attempt: 0 AISLE m m n Y n
+TD69 Classic #2 _____? ␅
+TD2416290 ␆MnMnn
+TD69 Classic #2 _____? MnMnn
+TD138 attempt: 1 AISLE m n m n n
+TD57 Classic #3 _____? ␅
+TD3439212 ␆MnnnM
+TD70 Classic #3 _____? MnnnM
+TD138 attempt: 2 AISLE m n n n m
+TD59 Classic #4 _____? ␅
+TD1351782 ␆nnnnn
+TD98 Classic #4 _____? nnnnn
+TD244 attempt: 3 AISLE n n n n n
+TD378625 > ␅
+TD1021737 ␆*
+TD95 > *
+TD3414 ? ␅
+TD2667774 ␆1
+TD81 ? 1
+TD138 questioning: karst
+TD110 Classic #1 ___L_ ~AI -ES? ␅
+TD3111635 ␆nMnnn
+TD78 Classic #1 ___L_ ~AI -ES? nMnnn
+TD165 attempt: 0 KARST n m n n n
+TD75 Classic #2 _____ ~AS -EIL? ␅
+TD1631845 ␆MMnMn
+TD86 Classic #2 _____ ~AS -EIL? MMnMn
+TD185 attempt: 1 KARST m m n m n
+TD76 Classic #3 _____ ~AE -ILS? ␅
+TD1727623 ␆nMnnY
+TD98 Classic #3 _____ ~AE -ILS? nMnnY
+TD240 attempt: 2 KARST n m n n Y
+TD105 Classic #4 _____ -AEILS? ␅
+TD999426 ␆nnnnn
+TD86 Classic #4 _____ -AEILS? nnnnn
+TD161 attempt: 3 KARST n n n n n
+TD394325 > ␅
+TD661557 ␆*
+TD92 > *
+TD437 questioning: voila
+TD108 Classic #1 ___L_ ~AI -EKRST? ␅
+TD711206 ␆1
+TD76 Classic #1 ___L_ ~AI -EKRST? 1
+TD162 Classic #1 ___L_ ~AI -EKRST? ␅
+TD9896224 ␆YYYYY
+TD87 Classic #1 ___L_ ~AI -EKRST? YYYYY
+TD191 attempt: 0 VOILA Y Y Y Y Y
+TD117 Classic #2 _____ ~AKS -EILRT? ␅
+TD1711499 ␆nnnnM
+TD109 Classic #2 _____ ~AKS -EILRT? nnnnM
+TD184 attempt: 1 VOILA n n n n m
+TD96 Classic #3 ____T ~AE -IKLRS? ␅
+TD1415594 ␆nnnnM
+TD122 Classic #3 ____T ~AE -IKLRS? nnnnM
+TD257 attempt: 2 VOILA n n n n m
+TD129 Classic #4 _____ -AEIKLRST? ␅
+TD1463593 ␆nMnnn
+TD104 Classic #4 _____ -AEIKLRST? nMnnn
+TD314 attempt: 3 VOILA n m n n n
+TD353936 > ␅
+TD1053446 ␆*
+TD120 > *
+TD661 ? ␅
+TD1687208 ␆2
+TD96 ? 2
+TD176 questioning: phony
+TD109 Classic #2 _____ ~AKS -EILORTV? ␅
+TD6423673 ␆nYnnY
+TD79 Classic #2 _____ ~AKS -EILORTV? nYnnY
+TD166 attempt: 1 PHONY n Y n n Y
+TD78 Classic #3 ____T ~AE -IKLORSV? ␅
+TD1351683 ␆nYnnn
+TD73 Classic #3 ____T ~AE -IKLORSV? nYnnn
+TD142 attempt: 2 PHONY n Y n n n
+TD73 Classic #4 _____ ~O -AEIKLRSTV? ␅
+TD1351788 ␆nnMnn
+TD80 Classic #4 _____ ~O -AEIKLRSTV? nnMnn
+TD136 attempt: 3 PHONY n n m n n
+TD216052 > ␅
+TD727641 ␆*
+TD68 > *
+TD279 questioning: shaky
+TD76 Classic #2 _H__Y ~AKS -EILNOPRTV? ␅
+TD3439735 ␆YYYYY
+TD79 Classic #2 _H__Y ~AKS -EILNOPRTV? YYYYY
+TD135 attempt: 1 SHAKY Y Y Y Y Y
+TD71 Classic #3 _H__T ~AE -IKLNOPRSVY? ␅
+TD2135850 ␆nYMnn
+TD104 Classic #3 _H__T ~AE -IKLNOPRSVY? nYMnn
+TD262 attempt: 2 SHAKY n Y m n n
+TD139 Classic #4 _____ ~O -AEHIKLNPRSTVY? ␅
+TD1423386 ␆nnnnn
+TD108 Classic #4 _____ ~O -AEHIKLNPRSTVY? nnnnn
+TD250 attempt: 3 SHAKY n n n n n
+TD415486 > ␅
+TD832180 ␆*
+TD112 > *
+TD583 ? ␅
+TD2223731 ␄
+TD150 <EOF>
+TD310949 > ␅
+TD1016513 ␆* 4
+TD121 > * 4
+TD109227 ? ␅
+TD4754727 ␆6
+TD112 ? 6
+TD176 questioning: oxbow
+TD278 Classic #3 _H__T ~AE -IKLNOPRSVY? ␅
+TD4887426 ␆nnnnM
+TD83 Classic #3 _H__T ~AE -IKLNOPRSVY? nnnnM
+TD133 attempt: 2 OXBOW n n n n m
+TD71 Classic #4 _____ ~O -AEHIKLNPRSTVY? ␅
+TD1743756 ␆MnMnn
+TD78 Classic #4 _____ ~O -AEHIKLNPRSTVY? MnMnn
+TD153 attempt: 3 OXBOW m n m n n
+TD137147 > ␅
+TD654664 ␆*
+TD99 > *
+TD434 questioning: wheat
+TD131 Classic #3 _H__T ~AEW -BIKLNOPRSVXY? ␅
+TD3423499 ␆YYYYY
+TD137 Classic #3 _H__T ~AEW -BIKLNOPRSVXY? YYYYY
+TD139 attempt: 2 WHEAT Y Y Y Y Y
+TD78 Classic #4 _____ ~BO -AEHIKLNPRSTVWXY O:1? ␅
+TD2127477 ␆nnnnn
+TD97 Classic #4 _____ ~BO -AEHIKLNPRSTVWXY O:1? nnnnn
+TD227 attempt: 3 WHEAT n n n n n
+TD68408 > ␅
+TD667287 ␆*
+TD98 > *
+TD665 ? ␅
+TD3927397 ␆4
+TD98 ? 4
+TD143 questioning: jumbo
+TD135 Classic #4 _____ ~BO -AEHIKLNPRSTVWXY O:1? ␅
+TD3647558 ␆nYYYY
+TD95 Classic #4 _____ ~BO -AEHIKLNPRSTVWXY O:1? nYYYY
+TD199 attempt: 3 JUMBO n Y Y Y Y
+TD79855 > ␅
+TD359807 ␆*
+TD145 > *
+TD477 ? ␅
+TD839437 ␆1
+TD115 ? 1
+TD185 questioning: dumbo
+TD129 Classic #4 _UMBO -AEHIJKLNPRSTVWXY? ␅
+TD4559723 ␆nYYYY
+TD119 Classic #4 _UMBO -AEHIJKLNPRSTVWXY? nYYYY
+TD247 attempt: 3 DUMBO n Y Y Y Y
+TD212105 > ␅
+TD2395690 ␆/res
+TD111 > /res
+TD264 📋> ␅
+TD2720357 ␆🙂 Daily Quordle 1483
+TD114 📋> 🙂 Daily Quordle 1483
+TD17 📋> ␅
+TD61 ␆3️⃣5️⃣
+TD11 📋> 3️⃣5️⃣
+TD9 📋> ␅
+TD21 ␆7️⃣🟥
+TD9 📋> 7️⃣🟥
+TD8 📋> ␅
+TD18 ␆m-w.com/games/quordle/
+TD8 📋> m-w.com/games/quordle/
+TD8 📋> ␅
+TD286839 ␆
+TD124 📋> 
+TD19 📋> ␅
+TD207896 ␄
+TD262 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1483\n3\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TD1769 result: "\ud83d\ude42 Daily Quordle 1483\n3\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TD210699 > ␅
+TD146 ␆
+TD11 > 
+TD191 > ␅
+TD914853 ␆/store
+TD113 > /store
+TD307 📆 2026-02-15 ? ␅
+TD583738 ␆
+TD114 📆 2026-02-15 ? 
