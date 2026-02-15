@@ -1,0 +1,102 @@
+T52.08525021400419 now: 2026-02-15T08:26:17EST
+TD79 site: alphaguess.com
+TD174974 loaded 196528 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (76 words excluded) asof 4cdd80fb6b031c454288f9436062434eb0a2fb54
+TD120  ...␅
+TD1224227 ␆
+TD97  ...
+TD184 [0 : 98219 : 196528] mach? ␅
+TD5807587 ␆a
+TD92 [0 : 98219 : 196528] mach? a
+TD103 progress: 1 98219 mach
+TD361 [98220 : 147375 : 196528] rhumb? ␅
+TD1671537 ␆a
+TD97 [98220 : 147375 : 196528] rhumb? a
+TD106 progress: 1 147375 rhumb
+TD114 [147376 : 171640 : 196528] ta? ␅
+TD2055862 ␆b
+TD97 [147376 : 171640 : 196528] ta? b
+TD104 progress: -1 171640 ta
+TD183 [147376 : 159487 : 171640] slop? ␅
+TD1575554 ␆a
+TD92 [147376 : 159487 : 171640] slop? a
+TD105 progress: 1 159487 slop
+TD102 [159488 : 165529 : 171640] stick? ␅
+TD1383758 ␆a
+TD101 [159488 : 165529 : 171640] stick? a
+TD111 progress: 1 165529 stick
+TD105 [165530 : 168581 : 171640] sue? ␅
+TD1455647 ␆a
+TD79 [165530 : 168581 : 171640] sue? a
+TD82 progress: 1 168581 sue
+TD77 [168582 : 170088 : 171640] surf? ␅
+TD1375623 ␆a
+TD77 [168582 : 170088 : 171640] surf? a
+TD78 progress: 1 170088 surf
+TD77 [170089 : 170861 : 171640] switch? ␅
+TD1552636 ␆b
+TD75 [170089 : 170861 : 171640] switch? b
+TD79 progress: -1 170861 switch
+TD77 [170089 : 170472 : 170861] swamp? ␅
+TD1415388 ␆b
+TD107 [170089 : 170472 : 170861] swamp? b
+TD106 progress: -1 170472 swamp
+TD421 [170089 : 170281 : 170472] survival? ␅
+TD3391060 ␆b
+TD95 [170089 : 170281 : 170472] survival? b
+TD104 progress: -1 170281 survival
+TD136 [170089 : 170180 : 170281] surpass? ␅
+TD1743745 ␆b
+TD100 [170089 : 170180 : 170281] surpass? b
+TD106 progress: -1 170180 surpass
+TD154 [170089 : 170133 : 170180] surge? ␅
+TD1623593 ␆b
+TD96 [170089 : 170133 : 170180] surge? b
+TD102 progress: -1 170133 surge
+TD152 [170089 : 170110 : 170133] surfeit? ␅
+TD1583711 ␆b
+TD80 [170089 : 170110 : 170133] surfeit? b
+TD78 progress: -1 170110 surfeit
+TD140 [170089 : 170099 : 170110] surfbird? ␅
+TD1519992 ␆b
+TD91 [170089 : 170099 : 170110] surfbird? b
+TD103 progress: -1 170099 surfbird
+TD181 [170089 : 170090 : 170099] surface? ␅
+TD6327440 ␆it
+TD97 [170089 : 170090 : 170099] surface? it
+TD116 progress: 0 170090 surface
+TD25 [170089 : 170090 : 170099] <Done>.
+TD97 📋> ␅
+TD927777 ␆surface
+TD148 📋> surface
+TD20 📋> ␅
+TD1312066 ␄
+TD183 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "surface"}
+TD646 📋> ␅
+TD2198861 ␆surface
+TD140 📋> surface
+TD19 📋> ␅
+TD2247791 ␄
+TD155 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "surface"}
+TD101 📋> ␅
+TD2336233 ␆🧩 Puzzle #937
+TD105 📋> 🧩 Puzzle #937
+TD12 📋> ␅
+TD38 ␆🤔 15 guesses
+TD7 📋> 🤔 15 guesses
+TD6 📋> ␅
+TD12 ␆⏱️ 25s
+TD6 📋> ⏱️ 25s
+TD5 📋> ␅
+TD383465 ␆🔗 alphaguess.com/937
+TD97 📋> 🔗 alphaguess.com/937
+TD13 📋> ␅
+TD215835 ␄
+TD172 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #937\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/937"}
+TD107 result: "\ud83e\udde9 Puzzle #937\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/937"
+TD18 result puzzle: 937
+TD9 result guesses: 15
+TD6 result time: 25s
+TD5 result link: alphaguess.com/937
+TD91 📆 2026-02-15 ? ␅
+TD151503 ␆
+TD94 📆 2026-02-15 ? 
