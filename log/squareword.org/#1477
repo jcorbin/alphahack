@@ -1,0 +1,255 @@
+T83641.033715122 now: 2026-02-16T08:48:48EST
+TD124 site: squareword.org
+TD31 wordlist: nwl2023.txt
+TD38  ...␅
+TD4070911 ␆
+TD91  ...
+TD80 🧩  ? ␅
+TD1959714 ␆#1477
+TD81 🧩  ? #1477
+TD247 puzzle_id: #1477
+TD247 > ␅
+TD1151697 ␆*
+TD85 > *
+TD266167 try? ␅
+TD933520 ␆1
+TD96 try? 1
+TD304 questioning: ["aisle", "#5"]
+TD312 #1 <IndexError>  📋 "aisle" ? ␅
+TD4823757 ␆_____ ~ AS
+TD113 #1 <IndexError>  📋 "aisle" ? _____ ~ AS
+TD838 attempt 0 AISLE m n m n n
+TD140 #2 <IndexError>  📋 "aisle" ? ␅
+TD2422581 ␆_____ ~ A
+TD90 #2 <IndexError>  📋 "aisle" ? _____ ~ A
+TD235 attempt 1 AISLE m n n n n
+TD108 #3 <IndexError>  📋 "aisle" ? ␅
+TD2695518 ␆___L_ ~ A
+TD98 #3 <IndexError>  📋 "aisle" ? ___L_ ~ A
+TD267 attempt 2 AISLE m n n Y n
+TD137 #4 <IndexError>  📋 "aisle" ? ␅
+TD2007454 ␆_____ ~ E
+TD79 #4 <IndexError>  📋 "aisle" ? _____ ~ E
+TD190 attempt 3 AISLE n n n n m
+TD89 #5 <IndexError>  📋 "aisle" ? ␅
+TD2007677 ␆_____ ~ SE
+TD80 #5 <IndexError>  📋 "aisle" ? _____ ~ SE
+TD191 attempt 4 AISLE n n m n m
+TD233 ? ␅
+TD399661 ␆
+TD94 ? 
+TD135 question done
+TD205 > ␅
+TD807418 ␆*
+TD77 > *
+TD701438 try? ␅
+TD1050662 ␆1
+TD100 try? 1
+TD373 questioning: ["badly", "#3"]
+TD447 #1 _____ ~AS -EIL  📋 "badly" ? ␅
+TD3382921 ␆.
+TD82 #1 _____ ~AS -EIL  📋 "badly" ? .
+TD198 attempt 0 BADLY n m n n n
+TD66 #2 _____ ~A -EILS  📋 "badly" ? ␅
+TD2759853 ␆_A___
+TD80 #2 _____ ~A -EILS  📋 "badly" ? _A___
+TD287 attempt 1 BADLY n Y n n n
+TD192 #3 ___L_ ~A -EIS  📋 "badly" ? ␅
+TD2695371 ␆.
+TD90 #3 ___L_ ~A -EIS  📋 "badly" ? .
+TD270 attempt 2 BADLY n m n Y n
+TD85 #4 _____ ~E -AILS  📋 "badly" ? ␅
+TD2759564 ␆____Y ~ E
+TD95 #4 _____ ~E -AILS  📋 "badly" ? ____Y ~ E
+TD221 attempt 3 BADLY n n n n Y
+TD120 #5 _____ ~ES -AIL  📋 "badly" ? ␅
+TD863582 ␆.
+TD107 #5 _____ ~ES -AIL  📋 "badly" ? .
+TD335 attempt 4 BADLY n n n n n
+TD245 ? ␅
+TD168371 ␆
+TD81 ? 
+TD99 question done
+TD187 > ␅
+TD494662 ␆*
+TD75 > *
+TD701246 try? ␅
+TD2722537 ␆2
+TD89 try? 2
+TD299 questioning: ["chalk", "#3"]
+TD338 #1 _____ ~AS -BDEILY  📋 "chalk" ? ␅
+TD5255431 ␆__A__ ~ S
+TD77 #1 _____ ~AS -BDEILY  📋 "chalk" ? __A__ ~ S
+TD188 attempt 0 CHALK n n Y n n
+TD102 #2 _A___ -BDEILSY  📋 "chalk" ? ␅
+TD1327670 ␆.
+TD128 #2 _A___ -BDEILSY  📋 "chalk" ? .
+TD276 attempt 1 CHALK n n n n n
+TD95 #3 ___L_ ~A -BDEISY  📋 "chalk" ? ␅
+TD2655534 ␆.
+TD106 #3 ___L_ ~A -BDEISY  📋 "chalk" ? .
+TD273 attempt 2 CHALK n n m Y n
+TD100 #4 ____Y ~E -ABDILS  📋 "chalk" ? ␅
+TD935376 ␆.
+TD68 #4 ____Y ~E -ABDILS  📋 "chalk" ? .
+TD165 attempt 3 CHALK n n n n n
+TD57 #5 _____ ~ES -ABDILY  📋 "chalk" ? ␅
+TD663757 ␆.
+TD72 #5 _____ ~ES -ABDILY  📋 "chalk" ? .
+TD166 attempt 4 CHALK n n n n n
+TD135 ? ␅
+TD159767 ␆
+TD96 ? 
+TD115 question done
+TD307 > ␅
+TD423421 ␆*
+TD108 > *
+TD553938 try? ␅
+TD4365974 ␆3
+TD85 try? 3
+TD218 questioning: ["uvula", "#3"]
+TD265 #1 __A__ ~S -BCDEHIKLY  📋 "uvula" ? ␅
+TD3911507 ␆.
+TD102 #1 __A__ ~S -BCDEHIKLY  📋 "uvula" ? .
+TD265 attempt 0 UVULA n n n n n
+TD104 #2 _A___ -ABCDEHIKLSY  📋 "uvula" ? ␅
+TD695477 ␆.
+TD85 #2 _A___ -ABCDEHIKLSY  📋 "uvula" ? .
+TD185 attempt 1 UVULA n n n n n
+TD79 #3 ___L_ ~A -BCDEHIKSY  📋 "uvula" ? ␅
+TD751707 ␆/it
+TD90 #3 ___L_ ~A -BCDEHIKSY  📋 "uvula" ? /it
+TD215 attempt 2 UVULA Y Y Y Y Y
+TD78 #4 ____Y ~E -ABCDHIKLS  📋 "uvula" ? ␅
+TD3151641 ␆____Y ~ EV
+TD81 #4 ____Y ~E -ABCDHIKLS  📋 "uvula" ? ____Y ~ EV
+TD181 attempt 3 UVULA n m n n n
+TD105 #5 _____ ~ES -ABCDHIKLY  📋 "uvula" ? ␅
+TD487599 ␆.
+TD85 #5 _____ ~ES -ABCDHIKLY  📋 "uvula" ? .
+TD203 attempt 4 UVULA n n n n n
+TD184 ? ␅
+TD167493 ␆
+TD85 ? 
+TD87 question done
+TD193 > ␅
+TD623886 ␆*
+TD98 > *
+TD1338526 try? ␅
+TD1981304 ␆2
+TD97 try? 2
+TD288 questioning: ["pervy", "#4"]
+TD334 #1 __A__ ~S -ABCDEHIKLUVY  📋 "pervy" ? ␅
+TD7455284 ␆!
+TD97 #1 __A__ ~S -ABCDEHIKLUVY  📋 "pervy" ? !
+TD168 reject: pervy
+TD29 question done
+TD320 > ␅
+TD1055461 ␆*
+TD101 > *
+TD924156 questioning: ["nervy", "#4"]
+TD217 #1 __A__ ~S -ABCDEHIKLUVY  📋 "nervy" ? ␅
+TD6755566 ␆__A__ ~ SR
+TD102 #1 __A__ ~S -ABCDEHIKLUVY  📋 "nervy" ? __A__ ~ SR
+TD258 attempt 0 NERVY n n m n n
+TD154 #2 _A___ -ABCDEHIKLSUVY  📋 "nervy" ? ␅
+TD2791631 ␆_A___ ~ R
+TD91 #2 _A___ -ABCDEHIKLSUVY  📋 "nervy" ? _A___ ~ R
+TD259 attempt 1 NERVY n n m n n
+TD157 #4 ____Y ~EV -ABCDHIKLSU  📋 "nervy" ? ␅
+TD847356 ␆/it
+TD94 #4 ____Y ~EV -ABCDHIKLSU  📋 "nervy" ? /it
+TD268 attempt 3 NERVY Y Y Y Y Y
+TD102 #5 _____ ~ES -ABCDHIKLUVY  📋 "nervy" ? ␅
+TD3239567 ␆_____ ~ SER
+TD100 #5 _____ ~ES -ABCDHIKLUVY  📋 "nervy" ? _____ ~ SER
+TD260 attempt 4 NERVY n m m n n
+TD397 ? ␅
+TD199218 ␆
+TD104 ? 
+TD130 question done
+TD338 > ␅
+TD751418 ␆*
+TD86 > *
+TD2204709 questioning: ["razor", "#2"]
+TD212 #1 __A__ ~RS -ABCDEHIKLNUVY  📋 "razor" ? ␅
+TD6331228 ␆.
+TD85 #1 __A__ ~RS -ABCDEHIKLNUVY  📋 "razor" ? .
+TD191 attempt 0 RAZOR m n n n m
+TD70 #2 _A___ ~R -ABCDEHIKLNSUVY  📋 "razor" ? ␅
+TD663414 ␆/it
+TD81 #2 _A___ ~R -ABCDEHIKLNSUVY  📋 "razor" ? /it
+TD187 attempt 1 RAZOR Y Y Y Y Y
+TD75 #5 _____ ~ERS -ABCDHIKLNUVY  📋 "razor" ? ␅
+TD1119807 ␆.
+TD100 #5 _____ ~ERS -ABCDHIKLNUVY  📋 "razor" ? .
+TD269 attempt 4 RAZOR m n n n m
+TD327 ? ␅
+TD159412 ␆
+TD79 ? 
+TD85 question done
+TD269 > ␅
+TD479610 ␆*
+TD101 > *
+TD1765532 questioning: ["grasp", "#1"]
+TD194 #1 __A__ ~RS -ABCDEHIKLNOUVYZ  📋 "grasp" ? ␅
+TD3026052 ␆/it
+TD108 #1 __A__ ~RS -ABCDEHIKLNOUVYZ  📋 "grasp" ? /it
+TD332 attempt 0 GRASP Y Y Y Y Y
+TD154 #5 _____ ~ERS -ABCDHIKLNOUVYZ  📋 "grasp" ? ␅
+TD3239673 ␆_R___ ~ SE
+TD96 #5 _____ ~ERS -ABCDHIKLNOUVYZ  📋 "grasp" ? _R___ ~ SE
+TD268 attempt 4 GRASP n Y n m n
+TD272 ? ␅
+TD263233 ␆
+TD78 ? 
+TD91 question done
+TD203 > ␅
+TD831533 ␆*
+TD91 > *
+TD1105205 questioning: ["trees", "#5"]
+TD231 #5 _R___ ~ES -ABCDGHIKLNOPUVYZ  📋 "trees" ? ␅
+TD3126527 ␆/it
+TD100 #5 _R___ ~ES -ABCDGHIKLNOPUVYZ  📋 "trees" ? /it
+TD276 attempt 4 TREES Y Y Y Y Y
+TD242 ? ␅
+TD527416 ␆
+TD115 ? 
+TD151 question done
+TD41718 📋> ␅
+TD6038594 ␆squareword.org 1477: 8 guesses
+TD79 📋> squareword.org 1477: 8 guesses
+TD33 📋> ␅
+TD31 ␆
+TD3 📋> 
+TD7 📋> ␅
+TD9 ␆🟨🟨🟩🟨🟨
+TD3 📋> 🟨🟨🟩🟨🟨
+TD6 📋> ␅
+TD6 ␆🟨🟩🟨🟨🟨
+TD2 📋> 🟨🟩🟨🟨🟨
+TD6 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD12 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD6 📋> ␅
+TD7 ␆
+TD3 📋> 
+TD5 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD359300 ␆#squareword #squareword1477
+TD79 📋> #squareword #squareword1477
+TD27 📋> ␅
+TD183895 ␄
+TD241 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1477: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1477"}
+TD922 result: "squareword.org 1477: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1477"
+TD101 📆 2026-02-16 ? ␅
+TD142599 ␆
+TD94 📆 2026-02-16 ? 
