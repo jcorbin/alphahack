@@ -1,0 +1,86 @@
+T82806.78456316 now: 2026-02-16T08:34:53EST
+TD87 site: alphaguess.com
+TD186063 loaded 196528 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (76 words excluded) asof 4cdd80fb6b031c454288f9436062434eb0a2fb54
+TD134  ...␅
+TD3445252 ␆
+TD101  ...
+TD190 [0 : 98219 : 196528] mach? ␅
+TD2407653 ␆b
+TD79 [0 : 98219 : 196528] mach? b
+TD77 progress: -1 98219 mach
+TD86 [0 : 47381 : 98219] dis? ␅
+TD1455827 ␆b
+TD99 [0 : 47381 : 98219] dis? b
+TD120 progress: -1 47381 dis
+TD118 [0 : 23682 : 47381] camp? ␅
+TD1407506 ␆b
+TD80 [0 : 23682 : 47381] camp? b
+TD79 progress: -1 23682 camp
+TD78 [0 : 11764 : 23682] back? ␅
+TD1447727 ␆a
+TD86 [0 : 11764 : 23682] back? a
+TD90 progress: 1 11764 back
+TD87 [11765 : 17715 : 23682] blind? ␅
+TD1359784 ␆a
+TD84 [11765 : 17715 : 23682] blind? a
+TD88 progress: 1 17715 blind
+TD113 [17716 : 20687 : 23682] brill? ␅
+TD1447818 ␆b
+TD96 [17716 : 20687 : 23682] brill? b
+TD117 progress: -1 20687 brill
+TD110 [17716 : 19160 : 20687] boot? ␅
+TD1335968 ␆a
+TD118 [17716 : 19160 : 20687] boot? a
+TD107 progress: 1 19160 boot
+TD118 [19161 : 19874 : 20687] bra? ␅
+TD1719471 ␆b
+TD84 [19161 : 19874 : 20687] bra? b
+TD95 progress: -1 19874 bra
+TD114 [19161 : 19409 : 19874] bot? ␅
+TD1623704 ␆b
+TD108 [19161 : 19409 : 19874] bot? b
+TD108 progress: -1 19409 bot
+TD111 [19161 : 19275 : 19409] bore? ␅
+TD1559514 ␆a
+TD98 [19161 : 19275 : 19409] bore? a
+TD106 progress: 1 19275 bore
+TD246 [19276 : 19342 : 19409] borstal? ␅
+TD1535666 ␆b
+TD100 [19276 : 19342 : 19409] borstal? b
+TD119 progress: -1 19342 borstal
+TD172 [19276 : 19309 : 19342] born? ␅
+TD1551668 ␆a
+TD107 [19276 : 19309 : 19342] born? a
+TD106 progress: 1 19309 born
+TD226 [19310 : 19326 : 19342] boroughs? ␅
+TD1591551 ␆a
+TD78 [19310 : 19326 : 19342] boroughs? a
+TD85 progress: 1 19326 boroughs
+TD97 [19327 : 19329 : 19342] borrow? ␅
+TD2855821 ␆it
+TD96 [19327 : 19329 : 19342] borrow? it
+TD107 progress: 0 19329 borrow
+TD27 [19327 : 19329 : 19342] <Done>.
+TD85 📋> ␅
+TD2632067 ␆🧩 Puzzle #938
+TD94 📋> 🧩 Puzzle #938
+TD13 📋> ␅
+TD42 ␆🤔 14 guesses
+TD7 📋> 🤔 14 guesses
+TD6 📋> ␅
+TD14 ␆⏱️ 19s
+TD7 📋> ⏱️ 19s
+TD5 📋> ␅
+TD303463 ␆🔗 alphaguess.com/938
+TD92 📋> 🔗 alphaguess.com/938
+TD13 📋> ␅
+TD255760 ␄
+TD139 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #938\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/938"}
+TD74 result: "\ud83e\udde9 Puzzle #938\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/938"
+TD11 result puzzle: 938
+TD4 result guesses: 14
+TD3 result time: 19s
+TD2 result link: alphaguess.com/938
+TD68 📆 2026-02-16 ? ␅
+TD135728 ␆
+TD108 📆 2026-02-16 ? 
