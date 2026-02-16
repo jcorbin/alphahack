@@ -1,0 +1,97 @@
+T82751.16842908901 now: 2026-02-16T08:33:58EST
+TD82 site: alfagok.diginaut.net
+TD494896 loaded 399656 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1196 words excluded) asof 4cdd80fb6b031c454288f9436062434eb0a2fb54
+TD137  ...␅
+TD2751958 ␆
+TD99  ...
+TD327 [0 : 199817 : 399656] lijm? ␅
+TD2855559 ␆b
+TD101 [0 : 199817 : 399656] lijm? b
+TD344 progress: -1 199817 lijm
+TD138 [0 : 99742 : 199817] ex? ␅
+TD1663399 ␆b
+TD94 [0 : 99742 : 199817] ex? b
+TD122 progress: -1 99742 ex
+TD105 [0 : 49842 : 99742] boks? ␅
+TD1823725 ␆b
+TD98 [0 : 49842 : 99742] boks? b
+TD107 progress: -1 49842 boks
+TD98 [0 : 24910 : 49842] bad? ␅
+TD1567577 ␆a
+TD82 [0 : 24910 : 49842] bad? a
+TD95 progress: 1 24910 bad
+TD99 [24911 : 37357 : 49842] bescherm? ␅
+TD1527757 ␆a
+TD85 [24911 : 37357 : 49842] bescherm? a
+TD82 progress: 1 37357 bescherm
+TD92 [37358 : 43063 : 49842] bij? ␅
+TD1807736 ␆b
+TD92 [37358 : 43063 : 49842] bij? b
+TD87 progress: -1 43063 bij
+TD94 [37358 : 39992 : 43063] beurs? ␅
+TD1551697 ␆a
+TD96 [37358 : 39992 : 43063] beurs? a
+TD107 progress: 1 39992 beurs
+TD109 [39993 : 41509 : 43063] bewijs? ␅
+TD1647653 ␆a
+TD82 [39993 : 41509 : 43063] bewijs? a
+TD79 progress: 1 41509 bewijs
+TD89 [41510 : 42261 : 43063] bezuiniging? ␅
+TD1775862 ␆b
+TD88 [41510 : 42261 : 43063] bezuiniging? b
+TD89 progress: -1 42261 bezuiniging
+TD90 [41510 : 41876 : 42261] bezet? ␅
+TD1535803 ␆b
+TD87 [41510 : 41876 : 42261] bezet? b
+TD92 progress: -1 41876 bezet
+TD94 [41510 : 41650 : 41876] bewoners? ␅
+TD2087888 ␆b
+TD90 [41510 : 41650 : 41876] bewoners? b
+TD103 progress: -1 41650 bewoners
+TD145 [41510 : 41578 : 41650] bewijze? ␅
+TD2127471 ␆!
+TD92 [41510 : 41578 : 41650] bewijze? !
+TD435 [41510 : 41578 : 41649] bewijzen? ␅
+TD2431564 ␆a
+TD87 [41510 : 41578 : 41649] bewijzen? a
+TD87 progress: 1 41578 bewijzen
+TD88 [41579 : 41596 : 41649] bewind? ␅
+TD2943917 ␆a
+TD90 [41579 : 41596 : 41649] bewind? a
+TD90 progress: 1 41596 bewind
+TD150 [41597 : 41622 : 41649] bewolk? ␅
+TD2279473 ␆a
+TD84 [41597 : 41622 : 41649] bewolk? a
+TD89 progress: 1 41622 bewolk
+TD87 [41623 : 41629 : 41649] bewonder? ␅
+TD2111908 ␆b
+TD100 [41623 : 41629 : 41649] bewonder? b
+TD106 progress: -1 41629 bewonder
+TD164 [41623 : 41626 : 41629] bewolkt? ␅
+TD2183475 ␆it
+TD96 [41623 : 41626 : 41629] bewolkt? it
+TD109 progress: 0 41626 bewolkt
+TD27 [41623 : 41626 : 41629] <Done>.
+TD95 📋> ␅
+TD2848271 ␆🧩 Puzzel #471
+TD87 📋> 🧩 Puzzel #471
+TD8 📋> ␅
+TD29 ␆🤔 16 gokken
+TD3 📋> 🤔 16 gokken
+TD3 📋> ␅
+TD7 ␆⏱️ 31s
+TD3 📋> ⏱️ 31s
+TD2 📋> ␅
+TD479608 ␆🔗 alfagok.diginaut.net
+TD85 📋> 🔗 alfagok.diginaut.net
+TD8 📋> ␅
+TD231761 ␄
+TD172 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #471\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD515 result: "\ud83e\udde9 Puzzel #471\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"
+TD9 result puzzle: 471
+TD3 result guesses: 16
+TD2 result time: 31s
+TD1 result link: alfagok.diginaut.net
+TD57 📆 2026-02-16 ? ␅
+TD287335 ␆
+TD103 📆 2026-02-16 ? 
