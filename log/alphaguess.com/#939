@@ -1,0 +1,102 @@
+T4.661210407008184 now: 2026-02-17T14:20:00EST
+TD97 site: alphaguess.com
+TD160066 loaded 196528 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (76 words excluded) asof c6e84ae540afe211980a046fb2f43ee3b2114a85
+TD116  ...␅
+TD3390478 ␆
+TD83  ...
+TD175 [0 : 98219 : 196528] mach? ␅
+TD1911709 ␆a
+TD96 [0 : 98219 : 196528] mach? a
+TD342 progress: 1 98219 mach
+TD314 [98220 : 147375 : 196528] rhumb? ␅
+TD1495318 ␆a
+TD101 [98220 : 147375 : 196528] rhumb? a
+TD126 progress: 1 147375 rhumb
+TD114 [147376 : 171640 : 196528] ta? ␅
+TD1543519 ␆b
+TD99 [147376 : 171640 : 196528] ta? b
+TD107 progress: -1 171640 ta
+TD171 [147376 : 159487 : 171640] slop? ␅
+TD1287770 ␆a
+TD76 [147376 : 159487 : 171640] slop? a
+TD82 progress: 1 159487 slop
+TD99 [159488 : 165529 : 171640] stick? ␅
+TD1415666 ␆b
+TD99 [159488 : 165529 : 171640] stick? b
+TD111 progress: -1 165529 stick
+TD126 [159488 : 162474 : 165529] spec? ␅
+TD1223781 ␆a
+TD98 [159488 : 162474 : 165529] spec? a
+TD106 progress: 1 162474 spec
+TD129 [162475 : 164000 : 165529] squab? ␅
+TD1303479 ␆a
+TD79 [162475 : 164000 : 165529] squab? a
+TD82 progress: 1 164000 squab
+TD85 [164001 : 164728 : 165529] star? ␅
+TD1351988 ␆b
+TD97 [164001 : 164728 : 165529] star? b
+TD108 progress: -1 164728 star
+TD187 [164001 : 164354 : 164728] stack? ␅
+TD2007521 ␆b
+TD96 [164001 : 164354 : 164728] stack? b
+TD107 progress: -1 164354 stack
+TD168 [164001 : 164176 : 164354] squid? ␅
+TD1599619 ␆b
+TD98 [164001 : 164176 : 164354] squid? b
+TD105 progress: -1 164176 squid
+TD130 [164001 : 164076 : 164176] squash? ␅
+TD1391513 ␆b
+TD97 [164001 : 164076 : 164176] squash? b
+TD104 progress: -1 164076 squash
+TD146 [164001 : 164030 : 164076] squall? ␅
+TD1479901 ␆a
+TD95 [164001 : 164030 : 164076] squall? a
+TD107 progress: 1 164030 squall
+TD166 [164031 : 164053 : 164076] squander? ␅
+TD1472214 ␆b
+TD97 [164031 : 164053 : 164076] squander? b
+TD114 progress: -1 164053 squander
+TD162 [164031 : 164042 : 164053] squama? ␅
+TD1430970 ␆b
+TD98 [164031 : 164042 : 164053] squama? b
+TD106 progress: -1 164042 squama
+TD209 [164031 : 164036 : 164042] squalling? ␅
+TD1375577 ␆a
+TD98 [164031 : 164036 : 164042] squalling? a
+TD105 progress: 1 164036 squalling
+TD197 [164037 : 164039 : 164042] squally? ␅
+TD1415642 ␆a
+TD98 [164037 : 164039 : 164042] squally? a
+TD102 progress: 1 164039 squally
+TD180 [164040 : 164041 : 164042] squalors? ␅
+TD1431617 ␆b
+TD98 [164040 : 164041 : 164042] squalors? b
+TD105 progress: -1 164041 squalors
+TD192 [164040 : 164040 : 164041] squalor? ␅
+TD2799624 ␆it
+TD109 [164040 : 164040 : 164041] squalor? it
+TD110 progress: 0 164040 squalor
+TD26 [164040 : 164040 : 164041] <Done>.
+TD107 📋> ␅
+TD2944301 ␆🧩 Puzzle #939
+TD85 📋> 🧩 Puzzle #939
+TD11 📋> ␅
+TD30 ␆🤔 18 guesses
+TD3 📋> 🤔 18 guesses
+TD3 📋> ␅
+TD6 ␆⏱️ 24s
+TD4 📋> ⏱️ 24s
+TD2 📋> ␅
+TD287727 ␆🔗 alphaguess.com/939
+TD88 📋> 🔗 alphaguess.com/939
+TD13 📋> ␅
+TD223477 ␄
+TD136 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #939\n\ud83e\udd14 18 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/939"}
+TD358 result: "\ud83e\udde9 Puzzle #939\n\ud83e\udd14 18 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/939"
+TD9 result puzzle: 939
+TD4 result guesses: 18
+TD3 result time: 24s
+TD2 result link: alphaguess.com/939
+TD59 📆 2026-02-17 ? ␅
+TD328526 ␆
+TD102 📆 2026-02-17 ? 
