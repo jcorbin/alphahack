@@ -1,0 +1,197 @@
+T942.8532987830113 now: 2026-02-17T14:35:38EST
+TD82 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD26  ...␅
+TD4751032 ␆
+TD89  ...
+TD73 🧩  ? ␅
+TD2831696 ␆#1478
+TD97 🧩  ? #1478
+TD286 puzzle_id: #1478
+TD305 > ␅
+TD1215283 ␆*
+TD82 > *
+TD211241 try? ␅
+TD924777 ␆1
+TD91 try? 1
+TD306 questioning: ["acres", "#5"]
+TD317 #1 <IndexError>  📋 "acres" ? ␅
+TD4927351 ␆_____ ~ ACES
+TD100 #1 <IndexError>  📋 "acres" ? _____ ~ ACES
+TD710 attempt 0 ACRES m m n m m
+TD119 #2 <IndexError>  📋 "acres" ? ␅
+TD2784458 ␆A____ ~ R
+TD82 #2 <IndexError>  📋 "acres" ? A____ ~ R
+TD201 attempt 1 ACRES Y n m n n
+TD86 #3 <IndexError>  📋 "acres" ? ␅
+TD2582338 ␆____S ~ AR
+TD81 #3 <IndexError>  📋 "acres" ? ____S ~ AR
+TD187 attempt 2 ACRES m n m n Y
+TD116 #4 <IndexError>  📋 "acres" ? ␅
+TD2471656 ␆A__E_ 
+TD102 #4 <IndexError>  📋 "acres" ? A__E_ 
+TD273 attempt 3 ACRES Y n n Y n
+TD129 #5 <IndexError>  📋 "acres" ? ␅
+TD3023372 ␆_____ ~ ES
+TD75 #5 <IndexError>  📋 "acres" ? _____ ~ ES
+TD183 attempt 4 ACRES n n n m m
+TD228 ? ␅
+TD679532 ␆
+TD83 ? 
+TD111 question done
+TD203 > ␅
+TD671667 ␆*
+TD93 > *
+TD819653 try? ␅
+TD4836316 ␆1
+TD79 try? 1
+TD228 questioning: ["caste", "#1"]
+TD215 #1 _____ ~ACES -R  📋 "caste" ? ␅
+TD6855511 ␆C___E ~ AES
+TD78 #1 _____ ~ACES -R  📋 "caste" ? C___E ~ AES
+TD202 attempt 0 CASTE Y m m n Y
+TD105 #2 A____ ~R -CES  📋 "caste" ? ␅
+TD1671740 ␆.
+TD104 #2 A____ ~R -CES  📋 "caste" ? .
+TD277 attempt 1 CASTE n n n n n
+TD96 #3 ____S ~AR -CE  📋 "caste" ? ␅
+TD1375514 ␆.
+TD137 #3 ____S ~AR -CE  📋 "caste" ? .
+TD280 attempt 2 CASTE n m n n n
+TD104 #4 A__E_ -CRS  📋 "caste" ? ␅
+TD3119476 ␆.
+TD86 #4 A__E_ -CRS  📋 "caste" ? .
+TD188 attempt 3 CASTE n n n n n
+TD66 #5 _____ ~ES -ACR  📋 "caste" ? ␅
+TD4479722 ␆____E ~ EST
+TD102 #5 _____ ~ES -ACR  📋 "caste" ? ____E ~ EST
+TD251 attempt 4 CASTE n n m m Y
+TD323 ? ␅
+TD255378 ␆
+TD100 ? 
+TD129 question done
+TD366 > ␅
+TD1559312 ␆*
+TD104 > *
+TD608437 questioning: ["adieu", "#4"]
+TD194 #1 C___E ~AS -RT  📋 "adieu" ? ␅
+TD7199380 ␆C___E ~ AES
+TD94 #1 C___E ~AS -RT  📋 "adieu" ? C___E ~ AES
+TD253 attempt 0 ADIEU m n n m n
+TD126 #2 A____ ~R -ACEST  📋 "adieu" ? ␅
+TD927446 ␆.
+TD69 #2 A____ ~R -ACEST  📋 "adieu" ? .
+TD190 attempt 1 ADIEU Y n n n n
+TD65 #3 ____S ~AR -CEST  📋 "adieu" ? ␅
+TD1143657 ␆.
+TD92 #3 ____S ~AR -CEST  📋 "adieu" ? .
+TD269 attempt 2 ADIEU m n n n n
+TD108 #4 A__E_ -ACERST  📋 "adieu" ? ␅
+TD823493 ␆/it
+TD77 #4 A__E_ -ACERST  📋 "adieu" ? /it
+TD187 attempt 3 ADIEU Y Y Y Y Y
+TD64 #5 ____E ~ST -ACR  📋 "adieu" ? ␅
+TD3791822 ␆____E ~ EST
+TD71 #5 ____E ~ST -ACR  📋 "adieu" ? ____E ~ EST
+TD181 attempt 4 ADIEU n n n m n
+TD217 ? ␅
+TD279563 ␆
+TD96 ? 
+TD125 question done
+TD293 > ␅
+TD503436 ␆*
+TD77 > *
+TD507910 questioning: ["argon", "#2"]
+TD184 #1 C___E ~AS -DIRTU  📋 "argon" ? ␅
+TD7492032 ␆C___S ~ E
+TD110 #1 C___E ~AS -DIRTU  📋 "argon" ? C___S ~ E
+TD260 attempt 0 ARGON n n n n n
+TD154 #2 A____ ~R -CDEISTU  📋 "argon" ? ␅
+TD935336 ␆/it
+TD85 #2 A____ ~R -CDEISTU  📋 "argon" ? /it
+TD192 attempt 1 ARGON Y Y Y Y Y
+TD73 #3 ____S ~AR -CDEISTU  📋 "argon" ? ␅
+TD3367793 ␆____S ~ ARO
+TD92 #3 ____S ~AR -CDEISTU  📋 "argon" ? ____S ~ ARO
+TD256 attempt 2 ARGON m m n m n
+TD151 #5 ____E ~ST -ACDIRU  📋 "argon" ? ␅
+TD3575562 ␆____E ~ ESTN
+TD99 #5 ____E ~ST -ACDIRU  📋 "argon" ? ____E ~ ESTN
+TD260 attempt 4 ARGON n n n n m
+TD374 ? ␅
+TD519218 ␆
+TD80 ? 
+TD98 question done
+TD187 > ␅
+TD751516 ␆*
+TD72 > *
+TD1539603 questioning: ["tense", "#5"]
+TD199 #1 C___E ~S -ADGINORTU  📋 "tense" ? ␅
+TD6076342 ␆CE_SE ~ A
+TD77 #1 C___E ~S -ADGINORTU  📋 "tense" ? CE_SE ~ A
+TD174 attempt 0 TENSE n Y n Y Y
+TD107 #3 ____S ~AOR -CDEGINSTU  📋 "tense" ? ␅
+TD2415699 ␆.
+TD126 #3 ____S ~AOR -CDEGINSTU  📋 "tense" ? .
+TD262 attempt 2 TENSE n n n n n
+TD104 #5 ____E ~NST -ACDGIORU  📋 "tense" ? ␅
+TD839325 ␆/it
+TD97 #5 ____E ~NST -ACDGIORU  📋 "tense" ? /it
+TD251 attempt 4 TENSE Y Y Y Y Y
+TD304 ? ␅
+TD215353 ␆
+TD79 ? 
+TD102 question done
+TD312 > ␅
+TD503641 ␆*
+TD97 > *
+TD1321619 questioning: ["roars", "#3"]
+TD237 #1 CE_SE -ADGINORTU  📋 "roars" ? ␅
+TD7454122 ␆CEASE
+TD95 #1 CE_SE -ADGINORTU  📋 "roars" ? CEASE
+TD243 attempt 0 ROARS n n Y n n
+TD171 #3 ____S ~AOR -CDEGINSTU  📋 "roars" ? ␅
+TD711754 ␆/it
+TD99 #3 ____S ~AOR -CDEGINSTU  📋 "roars" ? /it
+TD267 attempt 2 ROARS Y Y Y Y Y
+TD300 ? ␅
+TD735056 ␆
+TD105 ? 
+TD117 question done
+TD26750 📋> ␅
+TD3429537 ␆squareword.org 1478: 6 guesses
+TD81 📋> squareword.org 1478: 6 guesses
+TD8 📋> ␅
+TD34 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD9 ␆🟩🟩🟨🟩🟩
+TD3 📋> 🟩🟩🟨🟩🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟨🟨🟨🟨🟩
+TD2 📋> 🟨🟨🟨🟨🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD263394 ␆#squareword #squareword1478
+TD96 📋> #squareword #squareword1478
+TD13 📋> ␅
+TD135830 ␄
+TD150 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1478: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1478"}
+TD789 result: "squareword.org 1478: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1478"
+TD90 📆 2026-02-17 ? ␅
+TD158906 ␆
+TD101 📆 2026-02-17 ? 
