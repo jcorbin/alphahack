@@ -1,0 +1,104 @@
+T76.44086024200078 now: 2026-02-18T08:22:31EST
+TD81 site: alphaguess.com
+TD144364 loaded 196528 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (76 words excluded) asof c6e84ae540afe211980a046fb2f43ee3b2114a85
+TD119  ...␅
+TD2030311 ␆
+TD99  ...
+TD185 [0 : 98219 : 196528] mach? ␅
+TD3567860 ␆b
+TD110 [0 : 98219 : 196528] mach? b
+TD104 progress: -1 98219 mach
+TD113 [0 : 47381 : 98219] dis? ␅
+TD1247686 ␆a
+TD82 [0 : 47381 : 98219] dis? a
+TD81 progress: 1 47381 dis
+TD245 [47382 : 72800 : 98219] gremmy? ␅
+TD1415554 ␆a
+TD113 [47382 : 72800 : 98219] gremmy? a
+TD109 progress: 1 72800 gremmy
+TD113 [72801 : 85504 : 98219] ins? ␅
+TD1256057 ␆a
+TD78 [72801 : 85504 : 98219] ins? a
+TD80 progress: 1 85504 ins
+TD76 [85505 : 91849 : 98219] knot? ␅
+TD1311327 ␆b
+TD81 [85505 : 91849 : 98219] knot? b
+TD84 progress: -1 91849 knot
+TD84 [85505 : 88664 : 91849] jacks? ␅
+TD1159767 ␆a
+TD81 [85505 : 88664 : 91849] jacks? a
+TD85 progress: 1 88664 jacks
+TD76 [88665 : 90254 : 91849] kaf? ␅
+TD1111853 ␆a
+TD103 [88665 : 90254 : 91849] kaf? a
+TD107 progress: 1 90254 kaf
+TD170 [90255 : 91049 : 91849] khi? ␅
+TD1207960 ␆b
+TD96 [90255 : 91049 : 91849] khi? b
+TD104 progress: -1 91049 khi
+TD103 [90255 : 90645 : 91049] keen? ␅
+TD1079296 ␆a
+TD82 [90255 : 90645 : 91049] keen? a
+TD89 progress: 1 90645 keen
+TD172 [90646 : 90847 : 91049] kermode? ␅
+TD1759689 ␆!
+TD78 [90646 : 90847 : 91049] kermode? !
+TD297 [90646 : 90848 : 91048] kern? ␅
+TD3159724 ␆a
+TD105 [90646 : 90848 : 91048] kern? a
+TD104 progress: 1 90848 kern
+TD106 [90849 : 90945 : 91048] keyboard? ␅
+TD1327665 ␆b
+TD96 [90849 : 90945 : 91048] keyboard? b
+TD106 progress: -1 90945 keyboard
+TD121 [90849 : 90893 : 90945] ketch? ␅
+TD2399743 ␆a
+TD77 [90849 : 90893 : 90945] ketch? a
+TD82 progress: 1 90893 ketch
+TD76 [90894 : 90902 : 90945] keto? ␅
+TD1447713 ␆b
+TD96 [90894 : 90902 : 90945] keto? b
+TD105 progress: -1 90902 keto
+TD128 [90894 : 90895 : 90902] ketchup? ␅
+TD5416350 ␆🧩 Puzzle #940
+TD97 [90894 : 90895 : 90902] ketchup? 🧩 Puzzle #940
+TD700 [90894 : 90898 : 90902] ketchups? ␅
+TD45 ␆🤔 14 guesses
+TD7 [90894 : 90898 : 90902] ketchups? 🤔 14 guesses
+TD65 [90894 : 90898 : 90902] ketchups? ␅
+TD16 ␆⏱️ 21s
+TD5 [90894 : 90898 : 90902] ketchups? ⏱️ 21s
+TD55 [90894 : 90898 : 90902] ketchups? ␅
+TD334555 ␆🔗 alphaguess.com/940
+TD96 [90894 : 90898 : 90902] ketchups? 🔗 alphaguess.com/940
+TD199 [90894 : 90898 : 90902] ketchups? ␅
+TD143593 ␄
+T114.17552787798923 now: 2026-02-18T08:23:08EST
+TD164 [90894 : 90895 : 90902] ketchup? ␅
+TD1704346 ␆it
+TD100 [90894 : 90895 : 90902] ketchup? it
+TD108 progress: 0 90895 ketchup
+TD26 [90894 : 90895 : 90902] <Done>.
+TD90 📋> ␅
+TD2840374 ␆🧩 Puzzle #940
+TD81 📋> 🧩 Puzzle #940
+TD7 📋> ␅
+TD28 ␆🤔 14 guesses
+TD3 📋> 🤔 14 guesses
+TD2 📋> ␅
+TD6 ␆⏱️ 21s
+TD4 📋> ⏱️ 21s
+TD2 📋> ␅
+TD279701 ␆🔗 alphaguess.com/940
+TD85 📋> 🔗 alphaguess.com/940
+TD11 📋> ␅
+TD127554 ␄
+TD186 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #940\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com/940"}
+TD99 result: "\ud83e\udde9 Puzzle #940\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com/940"
+TD14 result puzzle: 940
+TD11 result guesses: 14
+TD5 result time: 21s
+TD5 result link: alphaguess.com/940
+TD87 📆 2026-02-18 ? ␅
+TD167540 ␆
+TD79 📆 2026-02-18 ? 
