@@ -1,0 +1,214 @@
+T8288.474882918992 now: 2026-02-18T10:39:23EST
+TD149 site: m-w.com/games/quordle/#/rescue
+TD21 wordlist: nwl2023.txt
+TD38 num_words: 4
+TD214  ...␅
+TD4808333 ␆
+TD110  ...
+TD1016631 > ␅
+TD2023258 ␆
+TD134 > 
+TD207 > ␅
+TD495619 ␆
+TD138 > 
+TD570 > ␅
+TD167290 ␆
+TD143 > 
+TD423 > ␅
+TD167572 ␆
+TD142 > 
+TD439 > ␅
+TD7199365 ␆tried growl early 
+TD137 > tried growl early 
+TD234 questioning: GROWL EARLY
+TD4751 Rescue #1 _____? ␅
+TD1978984 ␆nnMnM
+TD82 Rescue #1 _____? nnMnM
+TD232 attempt: 0 GROWL n n m n m
+TD89 Rescue #1 _____ ~LO -GRW? ␅
+TD1847502 ␆nMnYn
+TD119 Rescue #1 _____ ~LO -GRW? nMnYn
+TD332 attempt: 0 EARLY n m n Y n
+TD149 Rescue #2 _____? ␅
+TD1495785 ␆nnnnM
+TD122 Rescue #2 _____? nnnnM
+TD270 attempt: 1 GROWL n n n n m
+TD129 Rescue #2 _____ ~L -GORW? ␅
+TD3775261 ␆nnnYY
+TD133 Rescue #2 _____ ~L -GORW? nnnYY
+TD288 attempt: 1 EARLY n n n Y Y
+TD138 Rescue #3 _____? ␅
+TD2159368 ␆nnnMn
+TD115 Rescue #3 _____? nnnMn
+TD346 attempt: 2 GROWL n n n m n
+TD161 Rescue #3 _____ ~W -GLOR? ␅
+TD2151527 ␆MMnnn
+TD154 Rescue #3 _____ ~W -GLOR? MMnnn
+TD286 attempt: 2 EARLY m m n n n
+TD141 Rescue #4 _____? ␅
+TD1711243 ␆nnYnn
+TD161 Rescue #4 _____? nnYnn
+TD295 attempt: 3 GROWL n n Y n n
+TD134 Rescue #4 __O__ -GLRW? ␅
+TD1175212 ␆Mnnnn
+TD127 Rescue #4 __O__ -GLRW? Mnnnn
+TD181 attempt: 3 EARLY m n n n n
+TD637660 > ␅
+TD826177 ␆*
+TD91 > *
+TD31575 ? ␅
+TD1120536 ␆1
+TD100 ? 1
+TD176 questioning: shone
+TD127 Rescue #1 ___L_ ~AO -EGRWY? ␅
+TD2439357 ␆nnMnn
+TD82 Rescue #1 ___L_ ~AO -EGRWY? nnMnn
+TD169 attempt: 0 SHONE n n m n n
+TD89 Rescue #2 ___LY -AEGORW? ␅
+TD1511789 ␆Ynnnn
+TD108 Rescue #2 ___LY -AEGORW? Ynnnn
+TD220 attempt: 1 SHONE Y n n n n
+TD118 Rescue #3 _____ ~AEW -GLORY? ␅
+TD1575928 ␆nnnnY
+TD98 Rescue #3 _____ ~AEW -GLORY? nnnnY
+TD177 attempt: 2 SHONE n n n n Y
+TD129 Rescue #4 __O__ ~E -AGLRWY? ␅
+TD1471199 ␆nYYYY
+TD81 Rescue #4 __O__ ~E -AGLRWY? nYYYY
+TD178 attempt: 3 SHONE n Y Y Y Y
+TD467430 > ␅
+TD732311 ␆*
+TD95 > *
+TD345 questioning: phone
+TD89 Rescue #1 ___L_ ~AO -EGHNRSWY? ␅
+TD1279524 ␆
+TD97 Rescue #1 ___L_ ~AO -EGHNRSWY? 
+TD149 Rescue #1 ___L_ ~AO -EGHNRSWY? ␅
+TD3159775 ␆nnMnn
+TD111 Rescue #1 ___L_ ~AO -EGHNRSWY? nnMnn
+TD167 attempt: 0 PHONE n n m n n
+TD81 Rescue #2 S__LY -AEGHNORW? ␅
+TD1567525 ␆nnnnn
+TD70 Rescue #2 S__LY -AEGHNORW? nnnnn
+TD129 attempt: 1 PHONE n n n n n
+TD68 Rescue #3 ____E ~AW -GHLNORSY? ␅
+TD1327834 ␆nnnnY
+TD74 Rescue #3 ____E ~AW -GHLNORSY? nnnnY
+TD148 attempt: 2 PHONE n n n n Y
+TD72 Rescue #4 _HONE -AGLRSWY? ␅
+TD1207661 ␆YYYYY
+TD78 Rescue #4 _HONE -AGLRSWY? YYYYY
+TD148 attempt: 3 PHONE Y Y Y Y Y
+TD262555 > ␅
+TD1009281 ␆*
+TD83 > *
+TD441 ? ␅
+TD3975537 ␄
+TD116 <EOF>
+TD291700 > ␅
+TD1132296 ␆* 1
+TD76 > * 1
+TD107945 ? ␅
+TD3635900 ␆6
+TD79 ? 6
+TD137 questioning: koala
+TD112 Rescue #1 ___L_ ~AO -EGHNPRSWY? ␅
+TD3415734 ␆nYnYY
+TD73 Rescue #1 ___L_ ~AO -EGHNPRSWY? nYnYY
+TD162 attempt: 0 KOALA n Y n Y Y
+TD68 Rescue #2 S__LY -AEGHNOPRW? ␅
+TD1263674 ␆nnnYn
+TD70 Rescue #2 S__LY -AEGHNOPRW? nnnYn
+TD125 attempt: 1 KOALA n n n Y n
+TD74 Rescue #3 ____E ~AW -GHLNOPRSY? ␅
+TD1783776 ␆MnYnM
+TD65 Rescue #3 ____E ~AW -GHLNOPRSY? MnYnM
+TD126 attempt: 2 KOALA m n Y n m
+TD220811 > ␅
+TD1346977 ␆*
+TD70 > *
+TD236 questioning: awake
+TD71 Rescue #1 _O_LA -EGHKNPRSWY? ␅
+TD4295678 ␆Mnnnn
+TD88 Rescue #1 _O_LA -EGHKNPRSWY? Mnnnn
+TD195 attempt: 0 AWAKE m n n n n
+TD114 Rescue #2 S__LY -AEGHKNOPRW? ␅
+TD1495610 ␆nnnnn
+TD75 Rescue #2 S__LY -AEGHKNOPRW? nnnnn
+TD151 attempt: 1 AWAKE n n n n n
+TD78 Rescue #3 __A_E ~AKW -GHLNOPRSY? ␅
+TD1407817 ␆YYYYY
+TD74 Rescue #3 __A_E ~AKW -GHLNOPRSY? YYYYY
+TD147 attempt: 2 AWAKE Y Y Y Y Y
+TD199224 > ␅
+TD856486 ␆*
+TD99 > *
+TD424 ? ␅
+TD5791565 ␄
+TD129 <EOF>
+TD176671 > ␅
+TD1311170 ␆* 2
+TD80 > * 2
+TD90521 ? ␅
+TD1373400 ␄
+TD108 <EOF>
+TD196177 > ␅
+TD651621 ␆* 1
+TD77 > * 1
+TD89667 ? ␅
+TD3766453 ␆3
+TD76 ? 3
+TD125 questioning: doula
+TD101 Rescue #1 _O_LA -EGHKNPRSWY A:1? ␅
+TD3887698 ␆nYnYY
+TD79 Rescue #1 _O_LA -EGHKNPRSWY A:1? nYnYY
+TD130 attempt: 0 DOULA n Y n Y Y
+TD65 Rescue #2 S__LY -AEGHKNOPRW? ␅
+TD1599831 ␆nnnYn
+TD68 Rescue #2 S__LY -AEGHKNOPRW? nnnYn
+TD126 attempt: 1 DOULA n n n Y n
+TD138668 > ␅
+TD941046 ␆*
+TD86 > *
+TD503 ? ␅
+TD2431439 ␆2
+TD71 ? 2
+TD126 questioning: voila
+TD107 Rescue #1 _O_LA -DEGHKNPRSUWY? ␅
+TD2775761 ␆YYYYY
+TD79 Rescue #1 _O_LA -DEGHKNPRSUWY? YYYYY
+TD149 attempt: 0 VOILA Y Y Y Y Y
+TD84 Rescue #2 S__LY -ADEGHKNOPRUW? ␅
+TD7351864 ␆nnMYn
+TD99 Rescue #2 S__LY -ADEGHKNOPRUW? nnMYn
+TD259 attempt: 1 VOILA n n m Y n
+TD96703 > ␅
+TD574980 ␆*
+TD98 > *
+TD384 questioning: silly
+TD85 Rescue #2 S__LY ~I -ADEGHKNOPRUVW? ␅
+TD2903284 ␆YYYYY
+TD80 Rescue #2 S__LY ~I -ADEGHKNOPRUVW? YYYYY
+TD151 attempt: 1 SILLY Y Y Y Y Y
+TD139 📋> ␅
+TD4728222 ␆Daily Rescue 100
+TD98 📋> Daily Rescue 100
+TD13 📋> ␅
+TD48 ␆8️⃣9️⃣
+TD6 📋> 8️⃣9️⃣
+TD6 📋> ␅
+TD13 ␆6️⃣4️⃣
+TD5 📋> 6️⃣4️⃣
+TD5 📋> ␅
+TD11 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD311447 ␆
+TD81 📋> 
+TD8 📋> ␅
+TD159875 ␄
+TD4912 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 100\n8\ufe0f\u20e39\ufe0f\u20e3\n6\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD312 result: "Daily Rescue 100\n8\ufe0f\u20e39\ufe0f\u20e3\n6\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD92 📆 2026-02-18 ? ␅
+TD194671 ␆
+TD57 📆 2026-02-18 ? 
