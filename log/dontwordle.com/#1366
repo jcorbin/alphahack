@@ -1,0 +1,188 @@
+T1093.42302297501 now: 2026-02-18T08:39:28EST
+TD77 site: dontwordle.com
+TD12 wordlist: nwl2023.txt
+TD24  ...␅
+TD2774788 ␆
+TD110  ...
+TD111 1> ␅
+TD3247950 ␆* -bot 10
+TD127 1> * -bot 10
+TD365927 ? ␅
+TD2993909 ␆6
+TD110 ? 6
+TD290 📋 "nears" ? ␅
+TD3863713 ␆nnMMn
+TD122 📋 "nears" ? nnMMn
+TD571 tried: NEARS n n m m n
+TD145 2> ␅
+TD551119 ␆*
+TD126 2> *
+TD97443 ? ␅
+TD1326283 ␆1
+TD122 ? 1
+TD314 📋 "karma" ? ␅
+TD4735633 ␆nYYnn
+TD99 📋 "karma" ? nYYnn
+TD186 tried: KARMA n Y Y n n
+TD128 3> ␅
+TD719714 ␆*
+TD118 3> *
+TD86331 ? ␅
+TD7913517 ␆1
+TD97 ? 1
+TD237 📋 "aargh" ? ␅
+TD3808004 ␄
+TD176 <EOF>
+TD158 3> ␅
+TD1423616 ␆undo
+TD110 3> undo
+TD158 undo
+TD170 2> ␅
+TD655406 ␆undo
+TD105 2> undo
+TD167 undo
+TD153 1> ␅
+TD3799619 ␆*
+TD104 1> *
+TD218260 ? ␅
+TD1069787 ␆1
+TD142 ? 1
+TD280 📋 "sexes" ? ␅
+TD4063672 ␆nnnnn
+TD121 📋 "sexes" ? nnnnn
+TD268 tried: SEXES n n n n n
+TD232 2> ␅
+TD415293 ␆*
+TD151 2> *
+TD218934 ? ␅
+TD756701 ␆1
+TD92 ? 1
+TD221 📋 "inion" ? ␅
+TD6511865 ␆nnnYn
+TD127 📋 "inion" ? nnnYn
+TD245 tried: INION n n n Y n
+TD148 3> ␅
+TD735392 ␆undo
+TD131 3> undo
+TD120 undo
+TD128 2> ␅
+TD2791705 ␆*
+TD92 2> *
+TD75140 ? ␅
+TD1932857 ␆1
+TD131 ? 1
+TD317 📋 "civic" ? ␅
+TD3639529 ␆Ynnnn
+TD109 📋 "civic" ? Ynnnn
+TD166 tried: CIVIC Y n n n n
+TD119 3> ␅
+TD703892 ␆undo
+TD83 3> undo
+TD138 undo
+TD157 2> ␅
+TD2935521 ␆*
+TD129 2> *
+TD78703 ? ␅
+TD881238 ␆1
+TD124 ? 1
+TD288 📋 "livid" ? ␅
+TD3887480 ␆Mnnnn
+TD111 📋 "livid" ? Mnnnn
+TD181 tried: LIVID m n n n n
+TD129 3> ␅
+TD1071912 ␆undo
+TD136 3> undo
+TD176 undo
+TD253 2> ␅
+TD2431342 ␆*
+TD99 2> *
+TD86552 ? ␅
+TD1081384 ␆1
+TD127 ? 1
+TD295 📋 "zizit" ? ␅
+TD4079655 ␆nnnnn
+TD113 📋 "zizit" ? nnnnn
+TD278 tried: ZIZIT n n n n n
+TD225 3> ␅
+TD375683 ␆*
+TD117 3> *
+TD77213 ? ␅
+TD826047 ␆1
+TD97 ? 1
+TD244 📋 "bubby" ? ␅
+TD3975892 ␆nnnnn
+TD98 📋 "bubby" ? nnnnn
+TD196 tried: BUBBY n n n n n
+TD181 4> ␅
+TD415479 ␆*
+TD125 4> *
+TD184305 ? ␅
+TD815483 ␆1
+TD79 ? 1
+TD185 📋 "doggo" ? ␅
+TD4479825 ␆nMnnn
+TD149 📋 "doggo" ? nMnnn
+TD216 tried: DOGGO n m n n n
+TD197 5> ␅
+TD431488 ␆*
+TD96 5> *
+TD91005 ? ␅
+TD916898 ␆1
+TD89 ? 1
+TD232 📋 "known" ? ␅
+TD5519858 ␆nnMnn
+TD109 📋 "known" ? nnMnn
+TD200 tried: KNOWN n n m n n
+TD207 6> ␅
+TD735313 ␆*
+TD93 6> *
+TD184401 📋 "havoc" ? ␅
+TD4831561 ␆nYnYM
+TD76 📋 "havoc" ? nYnYM
+TD145 tried: HAVOC n Y n Y m
+TD148 📋> ␅
+TD3192302 ␆Don't Wordle 1366 - SURVIVED
+TD75 📋> Don't Wordle 1366 - SURVIVED
+TD7 📋> ␅
+TD27 ␆Hooray! I didn't Wordle today!
+TD3 📋> Hooray! I didn't Wordle today!
+TD3 📋> ␅
+TD8 ␆⬜⬜⬜⬜⬜3586
+TD3 📋> ⬜⬜⬜⬜⬜3586
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜⬜⬜1660
+TD3 📋> ⬜⬜⬜⬜⬜1660
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜⬜⬜579
+TD3 📋> ⬜⬜⬜⬜⬜579
+TD2 📋> ␅
+TD5 ␆⬜🟨⬜⬜⬜78
+TD2 📋> ⬜🟨⬜⬜⬜78
+TD2 📋> ␅
+TD5 ␆⬜⬜🟨⬜⬜18
+TD2 📋> ⬜⬜🟨⬜⬜18
+TD2 📋> ␅
+TD5 ␆⬜🟩⬜🟩🟨2
+TD2 📋> ⬜🟩⬜🟩🟨2
+TD2 📋> ␅
+TD5 ␆Undos used: 5
+TD2 📋> Undos used: 5
+TD3 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD5 ␆  2 words remaining
+TD2 📋>   2 words remaining
+TD3 📋> ␅
+TD5 ␆x 7 unused letters
+TD2 📋> x 7 unused letters
+TD2 📋> ␅
+TD319339 ␆= 14 total score
+TD97 📋> = 14 total score
+TD12 📋> ␅
+TD207895 ␄
+TD139 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1366 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3586\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1660\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c579\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c78\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c18\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe82\nUndos used: 5\n\n  2 words remaining\nx 7 unused letters\n= 14 total score"}
+TD1244 result: "Don't Wordle 1366 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3586\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1660\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c579\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c78\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c18\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe82\nUndos used: 5\n\n  2 words remaining\nx 7 unused letters\n= 14 total score"
+TD115 📆 2026-02-18 ? ␅
+TD254308 ␆
+TD79 📆 2026-02-18 ? 
