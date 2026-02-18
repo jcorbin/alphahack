@@ -1,0 +1,215 @@
+T3124.83337810199 now: 2026-02-18T09:13:19EST
+TD91 site: squareword.org
+TD60 wordlist: nwl2023.txt
+TD46  ...␅
+TD15524790 ␆
+TD74  ...
+TD135 🧩  ? ␅
+TD2552059 ␆#1479
+TD97 🧩  ? #1479
+TD412 puzzle_id: #1479
+TD581 > ␅
+TD4958722 ␆*
+TD75 > *
+TD226467 try? ␅
+TD797438 ␆1
+TD70 try? 1
+TD403 questioning: ["acres", "#5"]
+TD265 #1 <IndexError>  📋 "acres" ? ␅
+TD4927688 ␆___E_ ~ A
+TD98 #1 <IndexError>  📋 "acres" ? ___E_ ~ A
+TD982 attempt 0 ACRES m n n Y n
+TD132 #2 <IndexError>  📋 "acres" ? ␅
+TD2950460 ␆A____ ~ E
+TD70 #2 <IndexError>  📋 "acres" ? A____ ~ E
+TD202 attempt 1 ACRES Y n n m n
+TD90 #3 <IndexError>  📋 "acres" ? ␅
+TD2815769 ␆___E_ 
+TD76 #3 <IndexError>  📋 "acres" ? ___E_ 
+TD228 attempt 2 ACRES n n n Y n
+TD90 #4 <IndexError>  📋 "acres" ? ␅
+TD2687689 ␆A____ ~ AR
+TD96 #4 <IndexError>  📋 "acres" ? A____ ~ AR
+TD261 attempt 3 ACRES Y n m n n
+TD128 #5 <IndexError>  📋 "acres" ? ␅
+TD2623359 ␆__R__ ~ AS
+TD94 #5 <IndexError>  📋 "acres" ? __R__ ~ AS
+TD260 attempt 4 ACRES m n Y n m
+TD390 ? ␅
+TD799477 ␆
+TD75 ? 
+TD114 question done
+TD187 > ␅
+TD1287675 ␆*
+TD77 > *
+TD681495 try? ␅
+TD3158257 ␆4
+TD74 try? 4
+TD246 questioning: ["abort", "#4"]
+TD215 #1 ___E_ ~A -CRS  📋 "abort" ? ␅
+TD3655519 ␆.
+TD76 #1 ___E_ ~A -CRS  📋 "abort" ? .
+TD193 attempt 0 ABORT m n n n n
+TD67 #2 A____ ~E -CRS  📋 "abort" ? ␅
+TD3839781 ␆ABO__ ~ E
+TD77 #2 A____ ~E -CRS  📋 "abort" ? ABO__ ~ E
+TD178 attempt 1 ABORT Y Y Y n n
+TD102 #3 ___E_ -ACRS  📋 "abort" ? ␅
+TD3639762 ␆___E_ ~ OT
+TD81 #3 ___E_ -ACRS  📋 "abort" ? ___E_ ~ OT
+TD175 attempt 2 ABORT n n m n m
+TD102 #4 A____ ~R -CES  📋 "abort" ? ␅
+TD2671466 ␆A_O__ ~ AR
+TD72 #4 A____ ~R -CES  📋 "abort" ? A_O__ ~ AR
+TD167 attempt 3 ABORT Y n Y m n
+TD96 #5 __R__ ~AS -CE  📋 "abort" ? ␅
+TD3984189 ␆__R__ ~ AST
+TD81 #5 __R__ ~AS -CE  📋 "abort" ? __R__ ~ AST
+TD186 attempt 4 ABORT m n n n m
+TD220 ? ␅
+TD335141 ␆
+TD96 ? 
+TD142 question done
+TD303 > ␅
+TD671545 ␆*
+TD94 > *
+TD597535 try? ␅
+TD1626229 ␆1
+TD92 try? 1
+TD214 questioning: ["abode", "#2"]
+TD244 #1 ___E_ ~A -BCORST  📋 "abode" ? ␅
+TD4895611 ␆___E_ ~ AD
+TD98 #1 ___E_ ~A -BCORST  📋 "abode" ? ___E_ ~ AD
+TD251 attempt 0 ABODE m n n m n
+TD153 #2 ABO__ ~E -CRST  📋 "abode" ? ␅
+TD767398 ␆/it
+TD97 #2 ABO__ ~E -CRST  📋 "abode" ? /it
+TD262 attempt 1 ABODE Y Y Y Y Y
+TD99 #3 ___E_ ~OT -ABCRS  📋 "abode" ? ␅
+TD2543584 ␆.
+TD94 #3 ___E_ ~OT -ABCRS  📋 "abode" ? .
+TD201 attempt 2 ABODE n n m n n
+TD63 #4 A_O__ ~R -BCEST  📋 "abode" ? ␅
+TD4223701 ␆A_O__ ~ AR
+TD95 #4 A_O__ ~R -BCEST  📋 "abode" ? A_O__ ~ AR
+TD254 attempt 3 ABODE Y n Y n n
+TD151 #5 __R__ ~AST -BCEOR  📋 "abode" ? ␅
+TD2688003 ␆.
+TD76 #5 __R__ ~AST -BCEOR  📋 "abode" ? .
+TD187 attempt 4 ABODE m n n n n
+TD185 ? ␅
+TD1495216 ␆
+TD82 ? 
+TD90 question done
+TD191 > ␅
+TD807664 ␆*
+TD81 > *
+TD595466 questioning: ["aroma", "#4"]
+TD236 #1 ___E_ ~AD -BCEORST  📋 "aroma" ? ␅
+TD5508212 ␆___E_ ~ ADM
+TD99 #1 ___E_ ~AD -BCEORST  📋 "aroma" ? ___E_ ~ ADM
+TD251 attempt 0 AROMA m n n m m
+TD155 #3 ___E_ ~OT -ABCDERS  📋 "aroma" ? ␅
+TD3599565 ␆___E_ ~ OTM
+TD101 #3 ___E_ ~OT -ABCDERS  📋 "aroma" ? ___E_ ~ OTM
+TD252 attempt 2 AROMA n n m m n
+TD152 #4 A_O__ ~R -BCDEST  📋 "aroma" ? ␅
+TD1255459 ␆/it
+TD102 #4 A_O__ ~R -BCDEST  📋 "aroma" ? /it
+TD265 attempt 3 AROMA Y Y Y Y Y
+TD102 #5 __R__ ~AST -BCDEOR  📋 "aroma" ? ␅
+TD1871562 ␆.
+TD98 #5 __R__ ~AST -BCDEOR  📋 "aroma" ? .
+TD256 attempt 4 AROMA m n n n m
+TD383 ? ␅
+TD167138 ␆
+TD82 ? 
+TD103 question done
+TD313 > ␅
+TD583604 ␆*
+TD104 > *
+TD980144 try? ␅
+TD3419905 ␆1
+TD89 try? 1
+TD287 questioning: ["motel", "#3"]
+TD411 #1 ___E_ ~ADM -BCEORST  📋 "motel" ? ␅
+TD5103148 ␆___E_ ~ ADML
+TD64 #1 ___E_ ~ADM -BCEORST  📋 "motel" ? ___E_ ~ ADML
+TD158 attempt 0 MOTEL m n n Y m
+TD92 #3 ___E_ ~MOT -ABCDERS  📋 "motel" ? ␅
+TD871662 ␆/it
+TD92 #3 ___E_ ~MOT -ABCDERS  📋 "motel" ? /it
+TD262 attempt 2 MOTEL Y Y Y Y Y
+TD80 #5 __R__ ~AST -BCDEMOR  📋 "motel" ? ␅
+TD2559691 ␆.
+TD77 #5 __R__ ~AST -BCDEMOR  📋 "motel" ? .
+TD200 attempt 4 MOTEL n n m n n
+TD211 ? ␅
+TD191497 ␆
+TD93 ? 
+TD115 question done
+TD323 > ␅
+TD647424 ␆*
+TD97 > *
+TD1388907 questioning: ["lamed", "#1"]
+TD192 #1 ___E_ ~ADLM -BCORST  📋 "lamed" ? ␅
+TD2474787 ␆/it
+TD97 #1 ___E_ ~ADLM -BCORST  📋 "lamed" ? /it
+TD256 attempt 0 LAMED Y Y Y Y Y
+TD104 #5 __R__ ~AST -BCDELMOR  📋 "lamed" ? ␅
+TD2759601 ␆.
+TD97 #5 __R__ ~AST -BCDELMOR  📋 "lamed" ? .
+TD265 attempt 4 LAMED n m n n n
+TD299 ? ␅
+TD183318 ␆
+TD80 ? 
+TD85 question done
+TD196 > ␅
+TD567726 ␆*
+TD78 > *
+TD919597 questioning: ["stray", "#5"]
+TD242 #5 __R__ ~AST -BCDELMOR  📋 "stray" ? ␅
+TD3856110 ␆/it
+TD97 #5 __R__ ~AST -BCDELMOR  📋 "stray" ? /it
+TD260 attempt 4 STRAY Y Y Y Y Y
+TD285 ? ␅
+TD591370 ␆
+TD80 ? 
+TD82 question done
+TD22743 📋> ␅
+TD5745598 ␆squareword.org 1479: 7 guesses
+TD82 📋> squareword.org 1479: 7 guesses
+TD9 📋> ␅
+TD34 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD9 ␆🟨🟨🟨🟩🟨
+TD3 📋> 🟨🟨🟨🟩🟨
+TD2 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟨🟨🟩🟨🟨
+TD2 📋> 🟨🟨🟩🟨🟨
+TD2 📋> ␅
+TD6 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD7 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD399371 ␆#squareword #squareword1479
+TD96 📋> #squareword #squareword1479
+TD13 📋> ␅
+TD167813 ␄
+TD138 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1479: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1479"}
+TD1154 result: "squareword.org 1479: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1479"
+TD132 📆 2026-02-18 ? ␅
+TD142678 ␆
+TD98 📆 2026-02-18 ? 
