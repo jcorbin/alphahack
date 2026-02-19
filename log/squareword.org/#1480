@@ -1,0 +1,266 @@
+T77638.80941749 now: 2026-02-19T08:17:01EST
+TD87 site: squareword.org
+TD20 wordlist: nwl2023.txt
+TD30  ...␅
+TD2982556 ␆
+TD75  ...
+TD64 🧩  ? ␅
+TD4520059 ␆#1480
+TD97 🧩  ? #1480
+TD208 puzzle_id: #1480
+TD189 > ␅
+TD1951551 ␆*
+TD99 > *
+TD267985 try? ␅
+TD1371809 ␆1
+TD78 try? 1
+TD238 questioning: ["mares", "#5"]
+TD303 #1 <IndexError>  📋 "mares" ? ␅
+TD4319456 ␆_____ ~ MAS
+TD103 #1 <IndexError>  📋 "mares" ? _____ ~ MAS
+TD643 attempt 0 MARES m m n n m
+TD84 #2 <IndexError>  📋 "mares" ? ␅
+TD1919243 ␆_____ ~ E
+TD105 #2 <IndexError>  📋 "mares" ? _____ ~ E
+TD264 attempt 1 MARES n n n m n
+TD122 #3 <IndexError>  📋 "mares" ? ␅
+TD1975520 ␆_____ ~ AR
+TD104 #3 <IndexError>  📋 "mares" ? _____ ~ AR
+TD248 attempt 2 MARES n m m n n
+TD117 #4 <IndexError>  📋 "mares" ? ␅
+TD1951627 ␆_A___ ~ R
+TD106 #4 <IndexError>  📋 "mares" ? _A___ ~ R
+TD248 attempt 3 MARES n Y m n n
+TD117 #5 <IndexError>  📋 "mares" ? ␅
+TD2727553 ␆____S
+TD108 #5 <IndexError>  📋 "mares" ? ____S
+TD256 attempt 4 MARES n n n n Y
+TD362 ? ␅
+TD1351268 ␆
+TD85 ? 
+TD113 question done
+TD188 > ␅
+TD455551 ␆*
+TD87 > *
+TD741476 try? ␅
+TD2354406 ␆2
+TD102 try? 2
+TD312 questioning: ["swamp", "#1"]
+TD338 #1 _____ ~AMS -ER  📋 "swamp" ? ␅
+TD4615339 ␆S_A__ ~ MS
+TD91 #1 _____ ~AMS -ER  📋 "swamp" ? S_A__ ~ MS
+TD209 attempt 0 SWAMP Y n Y m n
+TD120 #2 _____ ~E -AMRS  📋 "swamp" ? ␅
+TD3103597 ␆_____ ~ EP
+TD100 #2 _____ ~E -AMRS  📋 "swamp" ? _____ ~ EP
+TD261 attempt 1 SWAMP n n n n m
+TD151 #3 _____ ~AR -EMS  📋 "swamp" ? ␅
+TD3127587 ␆.
+TD76 #3 _____ ~AR -EMS  📋 "swamp" ? .
+TD191 attempt 2 SWAMP n n m n n
+TD65 #4 _A___ ~R -EMS  📋 "swamp" ? ␅
+TD1919595 ␆.
+TD96 #4 _A___ ~R -EMS  📋 "swamp" ? .
+TD281 attempt 3 SWAMP n n n n n
+TD98 #5 ____S -AEMR  📋 "swamp" ? ␅
+TD5207544 ␆____S ~ P
+TD99 #5 ____S -AEMR  📋 "swamp" ? ____S ~ P
+TD261 attempt 4 SWAMP n n n n m
+TD360 ? ␅
+TD511419 ␆
+TD97 ? 
+TD126 question done
+TD312 > ␅
+TD1407474 ␆*
+TD97 > *
+TD712215 try? ␅
+TD2663668 ␆1
+TD81 try? 1
+TD216 questioning: ["smack", "#1"]
+TD223 #1 S_A__ ~M -EPRW  📋 "smack" ? ␅
+TD7607491 ␆SMA__ ~ S
+TD72 #1 S_A__ ~M -EPRW  📋 "smack" ? SMA__ ~ S
+TD197 attempt 0 SMACK Y Y Y n n
+TD124 #2 _____ ~EP -AMRSW  📋 "smack" ? ␅
+TD4095839 ␆_____ ~ EPC
+TD99 #2 _____ ~EP -AMRSW  📋 "smack" ? _____ ~ EPC
+TD254 attempt 1 SMACK n n n m n
+TD147 #3 _____ ~AR -EMPSW  📋 "smack" ? ␅
+TD4151534 ␆_____ ~ AR
+TD113 #3 _____ ~AR -EMPSW  📋 "smack" ? _____ ~ AR
+TD274 attempt 2 SMACK n n m n n
+TD158 #4 _A___ ~R -AEMPSW  📋 "smack" ? ␅
+TD1591456 ␆.
+TD97 #4 _A___ ~R -AEMPSW  📋 "smack" ? .
+TD296 attempt 3 SMACK n n n n n
+TD106 #5 ____S ~P -AEMRSW  📋 "smack" ? ␅
+TD1039470 ␆.
+TD76 #5 ____S ~P -AEMRSW  📋 "smack" ? .
+TD192 attempt 4 SMACK n n n n n
+TD178 ? ␅
+TD223562 ␆
+TD83 ? 
+TD88 question done
+TD201 > ␅
+TD615700 ␆*
+TD97 > *
+TD665664 questioning: ["coupe", "#2"]
+TD233 #1 SMA__ -CEKPRW  📋 "coupe" ? ␅
+TD7726092 ␆SMA__ ~ S
+TD104 #1 SMA__ -CEKPRW  📋 "coupe" ? SMA__ ~ S
+TD247 attempt 0 COUPE n n n n n
+TD150 #2 _____ ~CEP -AKMRSW  📋 "coupe" ? ␅
+TD2327515 ␆/it
+TD209 #2 _____ ~CEP -AKMRSW  📋 "coupe" ? /it
+TD294 attempt 1 COUPE Y Y Y Y Y
+TD107 #3 _____ ~AR -CEKMPSW  📋 "coupe" ? ␅
+TD4712152 ␆_____ ~ ARO
+TD100 #3 _____ ~AR -CEKMPSW  📋 "coupe" ? _____ ~ ARO
+TD265 attempt 2 COUPE n m n n n
+TD152 #4 _A___ ~R -ACEKMPSW  📋 "coupe" ? ␅
+TD894713 ␆.
+TD76 #4 _A___ ~R -ACEKMPSW  📋 "coupe" ? .
+TD190 attempt 3 COUPE n n n n n
+TD68 #5 ____S ~P -ACEKMRSW  📋 "coupe" ? ␅
+TD3504974 ␆____S ~ PO
+TD101 #5 ____S ~P -ACEKMRSW  📋 "coupe" ? ____S ~ PO
+TD257 attempt 4 COUPE n m n m n
+TD354 ? ␅
+TD822065 ␆
+TD86 ? 
+TD97 question done
+TD199 > ␅
+TD19440170 ␆*
+TD113 > *
+TD1763644 questioning: ["smash", "#1"]
+TD200 #1 SMA__ -CEKOPRUW  📋 "smash" ? ␅
+TD4331645 ␆/it
+TD84 #1 SMA__ -CEKOPRUW  📋 "smash" ? /it
+TD185 attempt 0 SMASH Y Y Y Y Y
+TD73 #3 _____ ~AOR -CEKMPSUW  📋 "smash" ? ␅
+TD4232633 ␆.
+TD94 #3 _____ ~AOR -CEKMPSUW  📋 "smash" ? .
+TD265 attempt 2 SMASH n n m n n
+TD121 #4 _A___ ~R -ACEKMOPSUW  📋 "smash" ? ␅
+TD1102715 ␆.
+TD90 #4 _A___ ~R -ACEKMOPSUW  📋 "smash" ? .
+TD196 attempt 3 SMASH n n n n n
+TD73 #5 ____S ~OP -ACEKMRSUW  📋 "smash" ? ␅
+TD991583 ␆.
+TD101 #5 ____S ~OP -ACEKMRSUW  📋 "smash" ? .
+TD264 attempt 4 SMASH n n n n n
+TD328 ? ␅
+TD192438 ␆
+TD86 ? 
+TD91 question done
+TD198 > ␅
+TD1078456 ␆*
+TD102 > *
+TD1863633 try? ␅
+TD5936444 ␆1
+TD100 try? 1
+TD300 questioning: ["bairn", "#4"]
+TD379 #3 _____ ~AOR -CEHKMPSUW  📋 "bairn" ? ␅
+TD6911357 ␆.
+TD97 #3 _____ ~AOR -CEHKMPSUW  📋 "bairn" ? .
+TD271 attempt 2 BAIRN n m n m n
+TD156 #4 _A___ ~R -ACEHKMOPSUW  📋 "bairn" ? ␅
+TD1527446 ␆_AIR_
+TD100 #4 _A___ ~R -ACEHKMOPSUW  📋 "bairn" ? _AIR_
+TD252 attempt 3 BAIRN n Y Y Y n
+TD170 #5 ____S ~OP -ACEHKMRSUW  📋 "bairn" ? ␅
+TD855415 ␆.
+TD98 #5 ____S ~OP -ACEHKMRSUW  📋 "bairn" ? .
+TD275 attempt 4 BAIRN n n n n n
+TD325 ? ␅
+TD167320 ␆
+TD101 ? 
+TD113 question done
+TD329 > ␅
+TD359283 ␆*
+TD83 > *
+TD1870171 questioning: ["ardor", "#3"]
+TD204 #3 _____ ~AOR -BCEHIKMNPSUW  📋 "ardor" ? ␅
+TD4137845 ␆/it
+TD100 #3 _____ ~AOR -BCEHIKMNPSUW  📋 "ardor" ? /it
+TD267 attempt 2 ARDOR Y Y Y Y Y
+TD107 #4 _AIR_ -BCEHKMNOPSUW  📋 "ardor" ? ␅
+TD4615417 ␆_AIR_ ~ D
+TD80 #4 _AIR_ -BCEHKMNOPSUW  📋 "ardor" ? _AIR_ ~ D
+TD182 attempt 3 ARDOR n n m n n
+TD110 #5 ____S ~OP -ABCEHIKMNRSUW  📋 "ardor" ? ␅
+TD503754 ␆
+TD77 #5 ____S ~OP -ABCEHIKMNRSUW  📋 "ardor" ? 
+TD207 #5 ____S ~OP -ABCEHIKMNRSUW  ? ␅
+TD855751 ␆.
+TD101 #5 ____S ~OP -ABCEHIKMNRSUW  ? .
+TD290 attempt 4 ARDOR n n n m n
+TD346 ? ␅
+TD423262 ␆
+TD81 ? 
+TD86 question done
+TD196 > ␅
+TD471577 ␆*
+TD79 > *
+TD1352478 questioning: ["laird", "#4"]
+TD213 #4 _AIR_ ~D -ABCEHKMNOPRSUW  📋 "laird" ? ␅
+TD2839390 ␆/it
+TD78 #4 _AIR_ ~D -ABCEHKMNOPRSUW  📋 "laird" ? /it
+TD190 attempt 3 LAIRD Y Y Y Y Y
+TD70 #5 ____S ~OP -ABCDEHIKMNRSUW  📋 "laird" ? ␅
+TD3583562 ␆____S ~ POL
+TD101 #5 ____S ~OP -ABCDEHIKMNRSUW  📋 "laird" ? ____S ~ POL
+TD275 attempt 4 LAIRD m n n n n
+TD364 ? ␅
+TD191311 ␆
+TD104 ? 
+TD137 question done
+TD324 > ␅
+TD463335 ␆*
+TD96 > *
+TD998168 questioning: ["plots", "#5"]
+TD243 #5 ____S ~LOP -ABCDEHIKMNRSUW  📋 "plots" ? ␅
+TD3065624 ␆/it
+TD84 #5 ____S ~LOP -ABCDEHIKMNRSUW  📋 "plots" ? /it
+TD241 attempt 4 PLOTS Y Y Y Y Y
+TD228 ? ␅
+TD1615575 ␆
+TD97 ? 
+TD98 question done
+TD25808 📋> ␅
+TD4070541 ␆squareword.org 1480: 9 guesses
+TD101 📋> squareword.org 1480: 9 guesses
+TD64 📋> ␅
+TD43 ␆
+TD6 📋> 
+TD13 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD11 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD10 📋> ␅
+TD12 ␆🟨🟨🟨🟨🟨
+TD4 📋> 🟨🟨🟨🟨🟨
+TD9 📋> ␅
+TD19 ␆🟨🟩🟨🟨🟨
+TD5 📋> 🟨🟩🟨🟨🟨
+TD23 📋> ␅
+TD11 ␆🟨🟨🟨🟨🟩
+TD5 📋> 🟨🟨🟨🟨🟩
+TD10 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD10 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD10 📋> ␅
+TD278992 ␆#squareword #squareword1480
+TD99 📋> #squareword #squareword1480
+TD44 📋> ␅
+TD159812 ␄
+TD223 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1480: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1480"}
+TD946 result: "squareword.org 1480: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1480"
+TD67 📆 2026-02-19 ? ␅
+TD166724 ␆
+TD103 📆 2026-02-19 ? 
