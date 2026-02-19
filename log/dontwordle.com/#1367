@@ -1,0 +1,160 @@
+T76976.770345433 now: 2026-02-19T08:05:59EST
+TD128 site: dontwordle.com
+TD25 wordlist: nwl2023.txt
+TD26  ...␅
+TD4478571 ␆
+TD103  ...
+TD273 1> ␅
+TD11583468 ␆* -bot 10
+TD100 1> * -bot 10
+TD867460 ? ␅
+TD1108246 ␆1
+TD101 ? 1
+TD270 📋 "snare" ? ␅
+TD4439873 ␆YYnYn
+TD102 📋 "snare" ? YYnYn
+TD583 tried: SNARE Y Y n Y n
+TD206 2> ␅
+TD670977 ␆undo
+TD100 2> undo
+TD150 undo
+TD156 1> ␅
+TD3679702 ␆*
+TD98 1> *
+TD122538 ? ␅
+TD829428 ␆1
+TD101 ? 1
+TD258 📋 "gabba" ? ␅
+TD3951719 ␆nnnnn
+TD104 📋 "gabba" ? nnnnn
+TD213 tried: GABBA n n n n n
+TD181 2> ␅
+TD11119591 ␆* :v [snare] -bot 10
+TD109 2> * :v [snare] -bot 10
+TD103625 ? ␅
+TD1832284 ␆2
+TD110 ? 2
+TD235 📋 "cloud" ? ␅
+TD4623724 ␆nnYnn
+TD103 📋 "cloud" ? nnYnn
+TD212 tried: CLOUD n n Y n n
+TD205 3> ␅
+TD671833 ␆undo
+TD88 3> undo
+TD142 undo
+TD202 2> ␅
+TD3535952 ␆*
+TD98 2> *
+TD98994 ? ␅
+TD828140 ␆1
+TD101 ? 1
+TD228 📋 "immix" ? ␅
+TD6119881 ␆nnnnn
+TD98 📋 "immix" ? nnnnn
+TD209 tried: IMMIX n n n n n
+TD182 3> ␅
+TD12927609 ␆* :v [cloudsnare] -bot 10
+TD97 3> * :v [cloudsnare] -bot 10
+TD93629 📋 "phpht" ? ␅
+TD8466342 ␆nnnnY
+TD107 📋 "phpht" ? nnnnY
+TD200 tried: PHPHT n n n n Y
+TD192 4> ␅
+TD967564 ␆undo
+TD100 4> undo
+TD142 undo
+TD234 3> ␅
+TD2927518 ␆*
+TD103 3> *
+TD95842 ? ␅
+TD848032 ␆1
+TD96 ? 1
+TD230 📋 "pewee" ? ␅
+TD4799682 ␆nnnnn
+TD98 📋 "pewee" ? nnnnn
+TD208 tried: PEWEE n n n n n
+TD186 4> ␅
+TD423431 ␆*
+TD95 4> *
+TD99715 ? ␅
+TD620328 ␆1
+TD100 ? 1
+TD237 📋 "yukky" ? ␅
+TD4288808 ␆nnnnn
+TD100 📋 "yukky" ? nnnnn
+TD213 tried: YUKKY n n n n n
+TD194 5> ␅
+TD438424 ␆*
+TD99 5> *
+TD205804 ? ␅
+TD1810125 ␆1
+TD93 ? 1
+TD240 📋 "cholo" ? ␅
+TD4272043 ␆nnYnn
+TD91 📋 "cholo" ? nnYnn
+TD206 tried: CHOLO n n Y n n
+TD217 6> ␅
+TD479055 ␆*
+TD81 6> *
+TD183631 📋 "foods" ? ␅
+TD768283 ␆1
+TD102 📋 "foods" ? 1
+TD237 📋 "foods" ? ␅
+TD6664647 ␄
+TD174 <EOF>
+TD150 6> ␅
+TD3119263 ␆* -sans
+TD116 6> * -sans
+TD90519 ? ␅
+TD5525118 ␆3
+TD105 ? 3
+TD232 📋 "stots" ? ␅
+TD3895614 ␆YMYnn
+TD84 📋 "stots" ? YMYnn
+TD162 tried: STOTS Y m Y n n
+TD134 📋> ␅
+TD3640033 ␆Don't Wordle 1367 - SURVIVED
+TD81 📋> Don't Wordle 1367 - SURVIVED
+TD7 📋> ␅
+TD28 ␆Hooray! I didn't Wordle today!
+TD4 📋> Hooray! I didn't Wordle today!
+TD3 📋> ␅
+TD8 ␆⬜⬜⬜⬜⬜5913
+TD3 📋> ⬜⬜⬜⬜⬜5913
+TD2 📋> ␅
+TD6 ␆⬜⬜⬜⬜⬜3209
+TD2 📋> ⬜⬜⬜⬜⬜3209
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜⬜⬜907
+TD2 📋> ⬜⬜⬜⬜⬜907
+TD2 📋> ␅
+TD6 ␆⬜⬜⬜⬜⬜242
+TD2 📋> ⬜⬜⬜⬜⬜242
+TD2 📋> ␅
+TD7 ␆⬜⬜🟩⬜⬜18
+TD2 📋> ⬜⬜🟩⬜⬜18
+TD2 📋> ␅
+TD6 ␆🟩🟨🟩⬜⬜1
+TD2 📋> 🟩🟨🟩⬜⬜1
+TD2 📋> ␅
+TD5 ␆Undos used: 3
+TD2 📋> Undos used: 3
+TD3 📋> ␅
+TD7 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD6 ␆  1 words remaining
+TD2 📋>   1 words remaining
+TD3 📋> ␅
+TD7 ␆x 8 unused letters
+TD2 📋> x 8 unused letters
+TD2 📋> ␅
+TD247369 ␆= 8 total score
+TD86 📋> = 8 total score
+TD8 📋> ␅
+TD111817 ␄
+TD124 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1367 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5913\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3209\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c907\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c242\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c18\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c1\nUndos used: 3\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"}
+TD1146 result: "Don't Wordle 1367 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5913\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3209\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c907\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c242\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c18\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c1\nUndos used: 3\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"
+TD65 📆 2026-02-19 ? ␅
+TD150619 ␆
+TD102 📆 2026-02-19 ? 
