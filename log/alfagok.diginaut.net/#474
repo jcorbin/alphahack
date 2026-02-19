@@ -1,0 +1,66 @@
+T76889.185048157 now: 2026-02-19T08:04:32EST
+TD105 site: alfagok.diginaut.net
+TD610800 loaded 399655 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1197 words excluded) asof 29a61020961409e1a7498db52df1dc28287541c2
+TD286  ...␅
+TD12899655 ␆
+TD100  ...
+TD5512 [0 : 199816 : 399655] lijm? ␅
+TD2994455 ␆a
+TD99 [0 : 199816 : 399655] lijm? a
+TD1607 progress: 1 199816 lijm
+TD120 [199817 : 299721 : 399655] schub? ␅
+TD1494417 ␆a
+TD151 [199817 : 299721 : 399655] schub? a
+TD217 progress: 1 299721 schub
+TD123 [299722 : 349489 : 399655] vakantie? ␅
+TD1503174 ␆b
+TD102 [299722 : 349489 : 399655] vakantie? b
+TD107 progress: -1 349489 vakantie
+TD153 [299722 : 324287 : 349489] sub? ␅
+TD1951774 ␆b
+TD102 [299722 : 324287 : 349489] sub? b
+TD117 progress: -1 324287 sub
+TD132 [299722 : 311891 : 324287] spier? ␅
+TD1447488 ␆a
+TD81 [299722 : 311891 : 324287] spier? a
+TD81 progress: 1 311891 spier
+TD85 [311892 : 318084 : 324287] stem? ␅
+TD1503796 ␆a
+TD100 [311892 : 318084 : 324287] stem? a
+TD102 progress: 1 318084 stem
+TD114 [318085 : 321058 : 324287] straat? ␅
+TD1575624 ␆b
+TD93 [318085 : 321058 : 324287] straat? b
+TD104 progress: -1 321058 straat
+TD501 [318085 : 319568 : 321058] stimulatie? ␅
+TD1847453 ␆b
+TD103 [318085 : 319568 : 321058] stimulatie? b
+TD104 progress: -1 319568 stimulatie
+TD121 [318085 : 318822 : 319568] sterven? ␅
+TD2039514 ␆it
+TD99 [318085 : 318822 : 319568] sterven? it
+TD110 progress: 0 318822 sterven
+TD27 [318085 : 318822 : 319568] <Done>.
+TD152 📋> ␅
+TD2928377 ␆🧩 Puzzel #474
+TD98 📋> 🧩 Puzzel #474
+TD12 📋> ␅
+TD43 ␆🤔 9 gokken
+TD6 📋> 🤔 9 gokken
+TD6 📋> ␅
+TD13 ␆⏱️ 13s
+TD6 📋> ⏱️ 13s
+TD5 📋> ␅
+TD263212 ␆🔗 alfagok.diginaut.net
+TD75 📋> 🔗 alfagok.diginaut.net
+TD10 📋> ␅
+TD143912 ␄
+TD148 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #474\n\ud83e\udd14 9 gokken\n\u23f1\ufe0f 13s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD989 result: "\ud83e\udde9 Puzzel #474\n\ud83e\udd14 9 gokken\n\u23f1\ufe0f 13s\n\ud83d\udd17 alfagok.diginaut.net"
+TD13 result puzzle: 474
+TD5 result guesses: 9
+TD3 result time: 13s
+TD2 result link: alfagok.diginaut.net
+TD94 📆 2026-02-19 ? ␅
+TD142705 ␆
+TD62 📆 2026-02-19 ? 
