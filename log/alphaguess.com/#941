@@ -1,0 +1,106 @@
+T76925.433036289 now: 2026-02-19T08:05:08EST
+TD122 site: alphaguess.com
+TD181658 loaded 196528 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (76 words excluded) asof 29a61020961409e1a7498db52df1dc28287541c2
+TD124  ...␅
+TD2529273 ␆
+TD86  ...
+TD126 [0 : 98219 : 196528] mach? ␅
+TD2159722 ␆b
+TD81 [0 : 98219 : 196528] mach? b
+TD83 progress: -1 98219 mach
+TD82 [0 : 47381 : 98219] dis? ␅
+TD1711759 ␆a
+TD111 [0 : 47381 : 98219] dis? a
+TD106 progress: 1 47381 dis
+TD421 [47382 : 72800 : 98219] gremmy? ␅
+TD1359312 ␆b
+TD96 [47382 : 72800 : 98219] gremmy? b
+TD162 progress: -1 72800 gremmy
+TD138 [47382 : 60084 : 72800] face? ␅
+TD1407478 ␆a
+TD90 [47382 : 60084 : 72800] face? a
+TD104 progress: 1 60084 face
+TD172 [60085 : 66440 : 72800] french? ␅
+TD1439739 ␆b
+TD99 [60085 : 66440 : 72800] french? b
+TD113 progress: -1 66440 french
+TD103 [60085 : 63240 : 66440] flag? ␅
+TD1280139 ␆a
+TD95 [60085 : 63240 : 66440] flag? a
+TD100 progress: 1 63240 flag
+TD101 [63241 : 64837 : 66440] foment? ␅
+TD1247353 ␆a
+TD82 [63241 : 64837 : 66440] foment? a
+TD76 progress: 1 64837 foment
+TD75 [64838 : 65636 : 66440] format? ␅
+TD1287630 ␆a
+TD79 [64838 : 65636 : 66440] format? a
+TD87 progress: 1 65636 format
+TD83 [65637 : 66033 : 66440] fractional? ␅
+TD1359863 ␆b
+TD103 [65637 : 66033 : 66440] fractional? b
+TD107 progress: -1 66033 fractional
+TD108 [65637 : 65825 : 66033] foss? ␅
+TD2407760 ␆b
+TD96 [65637 : 65825 : 66033] foss? b
+TD103 progress: -1 65825 foss
+TD127 [65637 : 65729 : 65825] forsake? ␅
+TD1439653 ␆a
+TD139 [65637 : 65729 : 65825] forsake? a
+TD109 progress: 1 65729 forsake
+TD105 [65730 : 65747 : 65825] fort? ␅
+TD1440107 ␆a
+TD110 [65730 : 65747 : 65825] fort? a
+TD104 progress: 1 65747 fort
+TD149 [65748 : 65782 : 65825] fortress? ␅
+TD2743211 ␆b
+TD99 [65748 : 65782 : 65825] fortress? b
+TD105 progress: -1 65782 fortress
+TD348 [65748 : 65765 : 65782] fortifications? ␅
+TD1495601 ␆a
+TD96 [65748 : 65765 : 65782] fortifications? a
+TD101 progress: 1 65765 fortifications
+TD160 [65766 : 65772 : 65782] fortis? ␅
+TD1399644 ␆a
+TD99 [65766 : 65772 : 65782] fortis? a
+TD85 progress: 1 65772 fortis
+TD122 [65773 : 65778 : 65782] fortnight? ␅
+TD1407459 ␆b
+TD84 [65773 : 65778 : 65782] fortnight? b
+TD82 progress: -1 65778 fortnight
+TD134 [65773 : 65775 : 65778] fortissimos? ␅
+TD1303748 ␆a
+TD81 [65773 : 65775 : 65778] fortissimos? a
+TD78 progress: 1 65775 fortissimos
+TD124 [65776 : 65777 : 65778] fortitudes? ␅
+TD1383976 ␆b
+TD99 [65776 : 65777 : 65778] fortitudes? b
+TD105 progress: -1 65777 fortitudes
+TD197 [65776 : 65776 : 65777] fortitude? ␅
+TD2679386 ␆it
+TD112 [65776 : 65776 : 65777] fortitude? it
+TD107 progress: 0 65776 fortitude
+TD27 [65776 : 65776 : 65777] <Done>.
+TD83 📋> ␅
+TD3712406 ␆🧩 Puzzle #941
+TD95 📋> 🧩 Puzzle #941
+TD13 📋> ␅
+TD40 ␆🤔 19 guesses
+TD6 📋> 🤔 19 guesses
+TD6 📋> ␅
+TD12 ␆⏱️ 27s
+TD13 📋> ⏱️ 27s
+TD5 📋> ␅
+TD287797 ␆🔗 alphaguess.com/941
+TD83 📋> 🔗 alphaguess.com/941
+TD12 📋> ␅
+TD175514 ␄
+TD150 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #941\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 27s\n\ud83d\udd17 alphaguess.com/941"}
+TD104 result: "\ud83e\udde9 Puzzle #941\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 27s\n\ud83d\udd17 alphaguess.com/941"
+TD14 result puzzle: 941
+TD7 result guesses: 19
+TD6 result time: 27s
+TD5 result link: alphaguess.com/941
+TD111 📆 2026-02-19 ? ␅
+TD175562 ␆
+TD98 📆 2026-02-19 ? 
