@@ -252,10 +252,10 @@
 🤔 26 attempts
 📜 1 sessions
 
-    @        [     0] &-teken   
-    @+1      [     1] &-tekens  
-    @+2      [     2] -cijferig 
-    @+3      [     3] -e-mail   
+    @        [     0] &-teken
+    @+1      [     1] &-tekens
+    @+2      [     2] -cijferig
+    @+3      [     3] -e-mail
     @+199816 [199816] lijm      q0  ? ␅
     @+199816 [199816] lijm      q1  ? after
     @+299721 [299721] schub     q2  ? ␅
@@ -289,8 +289,8 @@
 🤔 28 attempts
 📜 1 sessions
 
-    @        [     0] aa      
-    @+2      [     2] aahed   
+    @        [     0] aa
+    @+2      [     2] aahed
     @+98219  [ 98219] mach    q0  ? ␅
     @+98219  [ 98219] mach    q1  ? after
     @+122780 [122780] parr    q4  ? ␅
