@@ -719,10 +719,19 @@ class Meta(PromptUI.Arguable[PromptUI.Prompt]):
         '''
         prepare and copy share content for chat
         '''
-        today = ui.tokens.have(
-            r'(?x) (\d{4}) [-_/.]? (\d{2}) [-_/.]? (\d{2})',
-            then=lambda m: date(int(m[1]), int(m[2]), int(m[3])),
-            default=datetime.datetime.today().date())
+
+        today = datetime.datetime.today().date()
+
+        while ui.tokens:
+            day = ui.tokens.have(
+                r'(?x) (\d{4}) [-_/.]? (\d{2}) [-_/.]? (\d{2})',
+                then=lambda m: date(int(m[1]), int(m[2]), int(m[3])))
+            if day is not None:
+                today = day
+                continue
+
+            ui.print(f'! invalid argument {next(ui.tokens)}')
+            return
 
         def sum_notes(notes: Iterable[str],
                        flag: Callable[[str, str], None]|None = None):
