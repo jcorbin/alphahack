@@ -1,0 +1,150 @@
+T10394.941425194964 now: 2026-02-20T09:27:28EST
+TD80 site: m-w.com/games/quordle/#/rescue
+TD17 wordlist: nwl2023.txt
+TD3 num_words: 4
+TD74  ...␅
+TD550633 ␆
+TD92  ...
+TD423479 > ␅
+TD9343962 ␆tried conic slyly
+TD69 > tried conic slyly
+TD272 questioning: CONIC SLYLY
+TD96 Rescue #1 _____? ␅
+TD1959527 ␆Mnnnn
+TD96 Rescue #1 _____? Mnnnn
+TD242 attempt: 0 CONIC m n n n n
+TD107 Rescue #1 _____ ~C -INO C:1? ␅
+TD1096373 ␆nnnnn
+TD109 Rescue #1 _____ ~C -INO C:1? nnnnn
+TD222 attempt: 0 SLYLY n n n n n
+TD106 Rescue #2 _____? ␅
+TD2342725 ␆nYnnn
+TD91 Rescue #2 _____? nYnnn
+TD223 attempt: 1 CONIC n Y n n n
+TD101 Rescue #2 _O___ -CIN? ␅
+TD2192131 ␆nMnYY
+TD76 Rescue #2 _O___ -CIN? nMnYY
+TD150 attempt: 1 SLYLY n m n Y Y
+TD176 Rescue #3 _____? ␅
+TD1974692 ␆MnnMn
+TD84 Rescue #3 _____? MnnMn
+TD166 attempt: 2 CONIC m n n m n
+TD71 Rescue #3 _____ ~CI -NO C:1? ␅
+TD1095704 ␆nnnnn
+TD97 Rescue #3 _____ ~CI -NO C:1? nnnnn
+TD210 attempt: 2 SLYLY n n n n n
+TD99 Rescue #4 _____? ␅
+TD1511689 ␆nnnnn
+TD101 Rescue #4 _____? nnnnn
+TD209 attempt: 3 CONIC n n n n n
+TD101 Rescue #4 _____ -CINO? ␅
+TD1071379 ␆nnnnn
+TD101 Rescue #4 _____ -CINO? nnnnn
+TD217 attempt: 3 SLYLY n n n n n
+TD400488 > ␅
+TD615125 ␆*
+TD101 > *
+TD14465 ? ␅
+TD1137490 ␆1
+TD94 ? 1
+TD186 questioning: rated
+TD150 Rescue #1 _____ ~C -ILNOSY C:1? ␅
+TD2575455 ␆nMnMn
+TD99 Rescue #1 _____ ~C -ILNOSY C:1? nMnMn
+TD265 attempt: 0 RATED n m n m n
+TD113 Rescue #2 _O_LY -CINS? ␅
+TD1079484 ␆nnnnn
+TD70 Rescue #2 _O_LY -CINS? nnnnn
+TD158 attempt: 1 RATED n n n n n
+TD77 Rescue #3 _____ ~CI -LNOSY C:1? ␅
+TD1551668 ␆Mnnnn
+TD114 Rescue #3 _____ ~CI -LNOSY C:1? Mnnnn
+TD233 attempt: 2 RATED m n n n n
+TD120 Rescue #4 _____ -CILNOSY? ␅
+TD1583424 ␆MnMMn
+TD94 Rescue #4 _____ -CILNOSY? MnMMn
+TD227 attempt: 3 RATED m n m m n
+TD365246 > ␅
+TD810331 ␆*
+TD72 > *
+TD435 ? ␅
+TD2231374 ␆2
+TD69 ? 2
+TD130 questioning: brute
+TD107 Rescue #1 _____ ~ACE -DILNORSTY C:1? ␅
+TD3263754 ␆YnnnM
+TD74 Rescue #1 _____ ~ACE -DILNORSTY C:1? YnnnM
+TD163 attempt: 0 BRUTE Y n n n m
+TD91 Rescue #2 _O_LY -ACDEINRST? ␅
+TD1223473 ␆nnnnn
+TD93 Rescue #2 _O_LY -ACDEINRST? nnnnn
+TD218 attempt: 1 BRUTE n n n n n
+TD111 Rescue #3 _____ ~CIR -ADELNOSTY C:1? ␅
+TD1327487 ␆YYnnn
+TD100 Rescue #3 _____ ~CIR -ADELNOSTY C:1? YYnnn
+TD232 attempt: 2 BRUTE Y Y n n n
+TD117 Rescue #4 _____ ~ERT -ACDILNOSY? ␅
+TD1191579 ␆YYYYY
+TD97 Rescue #4 _____ ~ERT -ACDILNOSY? YYYYY
+TD216 attempt: 3 BRUTE Y Y Y Y Y
+TD282464 > ␅
+TD797205 ␆*
+TD91 > *
+TD288 questioning: brick
+TD78 Rescue #1 B____ ~ACE -DILNORSTUY C:1? ␅
+TD4103375 ␆YnnYn
+TD93 Rescue #1 B____ ~ACE -DILNORSTUY C:1? YnnYn
+TD169 attempt: 0 BRICK Y n n Y n
+TD80 Rescue #2 _O_LY -ABCDEINRSTU? ␅
+TD1671648 ␆nnnnn
+TD78 Rescue #2 _O_LY -ABCDEINRSTU? nnnnn
+TD158 attempt: 1 BRICK n n n n n
+TD80 Rescue #3 BR___ ~CI -ADELNOSTUY C:1? ␅
+TD1975630 ␆YYYYY
+TD76 Rescue #3 BR___ ~CI -ADELNOSTUY C:1? YYYYY
+TD160 attempt: 2 BRICK Y Y Y Y Y
+TD189526 > ␅
+TD1538062 ␆*
+TD97 > *
+TD478 questioning: beach
+TD158 Rescue #1 B__C_ ~AE -DIKLNORSTUY? ␅
+TD7447032 ␆YYYYY
+TD97 Rescue #1 B__C_ ~AE -DIKLNORSTUY? YYYYY
+TD213 attempt: 0 BEACH Y Y Y Y Y
+TD81 Rescue #2 _O_LY -ABCDEIKNRSTU? ␅
+TD1191591 ␆nnnnM
+TD89 Rescue #2 _O_LY -ABCDEIKNRSTU? nnnnM
+TD161 attempt: 1 BEACH n n n n m
+TD96364 > ␅
+TD711288 ␆*
+TD77 > *
+TD341 ? ␅
+TD2167545 ␆1
+TD77 ? 1
+TD133 questioning: holly
+TD105 Rescue #2 _O_LY ~H -ABCDEIKNRSTU? ␅
+TD4847581 ␆YYYYY
+TD75 Rescue #2 _O_LY ~H -ABCDEIKNRSTU? YYYYY
+TD167 attempt: 1 HOLLY Y Y Y Y Y
+TD65 📋> ␅
+TD3360172 ␆Daily Rescue 102
+TD77 📋> Daily Rescue 102
+TD8 📋> ␅
+TD29 ␆6️⃣7️⃣
+TD3 📋> 6️⃣7️⃣
+TD3 📋> ␅
+TD7 ␆5️⃣4️⃣
+TD2 📋> 5️⃣4️⃣
+TD2 📋> ␅
+TD6 ␆m-w.com/games/quordle/
+TD3 📋> m-w.com/games/quordle/
+TD3 📋> ␅
+TD311160 ␆
+TD100 📋> 
+TD13 📋> ␅
+TD143778 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 102\n6\ufe0f\u20e37\ufe0f\u20e3\n5\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD189 result: "Daily Rescue 102\n6\ufe0f\u20e37\ufe0f\u20e3\n5\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD101 📆 2026-02-20 ? ␅
+TD143535 ␆
+TD70 📆 2026-02-20 ? 
