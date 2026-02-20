@@ -1,0 +1,82 @@
+T8557.50582049397 now: 2026-02-20T08:56:50EST
+TD98 site: alfagok.diginaut.net
+TD352805 loaded 399655 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1197 words excluded) asof 29a61020961409e1a7498db52df1dc28287541c2
+TD109  ...␅
+TD3125884 ␆
+TD85  ...
+TD182 [0 : 199816 : 399655] lijm? ␅
+TD2215779 ␆a
+TD102 [0 : 199816 : 399655] lijm? a
+TD339 progress: 1 199816 lijm
+TD118 [199817 : 299721 : 399655] schub? ␅
+TD1423500 ␆a
+TD92 [199817 : 299721 : 399655] schub? a
+TD128 progress: 1 299721 schub
+TD118 [299722 : 349489 : 399655] vakantie? ␅
+TD1447584 ␆b
+TD101 [299722 : 349489 : 399655] vakantie? b
+TD112 progress: -1 349489 vakantie
+TD148 [299722 : 324287 : 349489] sub? ␅
+TD1391731 ␆a
+TD100 [299722 : 324287 : 349489] sub? a
+TD105 progress: 1 324287 sub
+TD120 [324288 : 336882 : 349489] toetsing? ␅
+TD1319384 ␆a
+TD93 [324288 : 336882 : 349489] toetsing? a
+TD107 progress: 1 336882 toetsing
+TD127 [336883 : 343072 : 349489] tv? ␅
+TD1471858 ␆b
+TD94 [336883 : 343072 : 349489] tv? b
+TD111 progress: -1 343072 tv
+TD106 [336883 : 339873 : 343072] transport? ␅
+TD1751683 ␆a
+TD80 [336883 : 339873 : 343072] transport? a
+TD78 progress: 1 339873 transport
+TD81 [339874 : 341444 : 343072] trompet? ␅
+TD1399763 ␆a
+TD95 [339874 : 341444 : 343072] trompet? a
+TD103 progress: 1 341444 trompet
+TD105 [341445 : 342126 : 343072] tuin? ␅
+TD1624250 ␆b
+TD85 [341445 : 342126 : 343072] tuin? b
+TD86 progress: -1 342126 tuin
+TD86 [341445 : 341764 : 342126] truc? ␅
+TD1559294 ␆b
+TD99 [341445 : 341764 : 342126] truc? b
+TD106 progress: -1 341764 truc
+TD108 [341445 : 341600 : 341764] tros? ␅
+TD1495611 ␆a
+TD98 [341445 : 341600 : 341764] tros? a
+TD104 progress: 1 341600 tros
+TD108 [341601 : 341655 : 341764] trouw? ␅
+TD1767805 ␆b
+TD96 [341601 : 341655 : 341764] trouw? b
+TD107 progress: -1 341655 trouw
+TD109 [341601 : 341613 : 341655] trots? ␅
+TD1927982 ␆it
+TD97 [341601 : 341613 : 341655] trots? it
+TD106 progress: 0 341613 trots
+TD26 [341601 : 341613 : 341655] <Done>.
+TD107 📋> ␅
+TD2800243 ␆🧩 Puzzel #475
+TD96 📋> 🧩 Puzzel #475
+TD18 📋> ␅
+TD39 ␆🤔 13 gokken
+TD6 📋> 🤔 13 gokken
+TD6 📋> ␅
+TD12 ␆⏱️ 18s
+TD6 📋> ⏱️ 18s
+TD5 📋> ␅
+TD551140 ␆🔗 alfagok.diginaut.net
+TD98 📋> 🔗 alfagok.diginaut.net
+TD13 📋> ␅
+TD224408 ␄
+TD193 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #475\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 18s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD608 result: "\ud83e\udde9 Puzzel #475\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 18s\n\ud83d\udd17 alfagok.diginaut.net"
+TD18 result puzzle: 475
+TD9 result guesses: 13
+TD7 result time: 18s
+TD5 result link: alfagok.diginaut.net
+TD104 📆 2026-02-20 ? ␅
+TD142371 ␆
+TD90 📆 2026-02-20 ? 
