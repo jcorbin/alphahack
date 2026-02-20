@@ -1,0 +1,175 @@
+T8659.811058352003 now: 2026-02-20T08:58:33EST
+TD134 site: dontwordle.com
+TD22 wordlist: nwl2023.txt
+TD43  ...␅
+TD2590952 ␆
+TD102  ...
+TD125 1> ␅
+TD2728668 ␆* -bot 10
+TD102 1> * -bot 10
+TD200356 ? ␅
+TD3238614 ␆1
+TD96 ? 1
+TD262 📋 "arose" ? ␅
+TD3839714 ␆nnMMn
+TD95 📋 "arose" ? nnMMn
+TD557 tried: AROSE n n m m n
+TD194 2> ␅
+TD1263234 ␆undo
+TD97 2> undo
+TD154 undo
+TD145 1> ␅
+TD4063934 ␆*
+TD91 1> *
+TD111117 ? ␅
+TD656750 ␆1
+TD101 ? 1
+TD253 📋 "papaw" ? ␅
+TD3903429 ␆nnnnn
+TD101 📋 "papaw" ? nnnnn
+TD217 tried: PAPAW n n n n n
+TD173 2> ␅
+TD9343658 ␆* :v [arose] -bot 10
+TD101 2> * :v [arose] -bot 10
+TD103041 ? ␅
+TD840729 ␆1
+TD102 ? 1
+TD223 📋 "until" ? ␅
+TD3919856 ␆nMnnn
+TD112 📋 "until" ? nMnnn
+TD196 tried: UNTIL n m n n n
+TD184 3> ␅
+TD695479 ␆undo
+TD99 3> undo
+TD140 undo
+TD198 2> ␅
+TD3455668 ␆*
+TD100 2> *
+TD93322 ? ␅
+TD818466 ␆1
+TD93 ? 1
+TD221 📋 "bezel" ? ␅
+TD3824041 ␆nnnnn
+TD86 📋 "bezel" ? nnnnn
+TD154 tried: BEZEL n n n n n
+TD128 3> ␅
+TD503451 ␆*
+TD99 3> *
+TD90471 ? ␅
+TD1037440 ␆1
+TD97 ? 1
+TD235 📋 "jiffy" ? ␅
+TD7135630 ␆nnnnM
+TD98 📋 "jiffy" ? nnnnM
+TD207 tried: JIFFY n n n n m
+TD197 4> ␅
+TD887610 ␆undo
+TD94 4> undo
+TD144 undo
+TD230 3> ␅
+TD3423751 ␆*
+TD100 3> *
+TD89122 ? ␅
+TD966524 ␆1
+TD99 ? 1
+TD233 📋 "civic" ? ␅
+TD3879814 ␆nnnnn
+TD102 📋 "civic" ? nnnnn
+TD203 tried: CIVIC n n n n n
+TD185 4> ␅
+TD695522 ␆*
+TD102 4> *
+TD87540 ? ␅
+TD3856746 ␆1
+TD103 ? 1
+TD237 📋 "durum" ? ␅
+TD3471350 ␆Mnnnn
+TD107 📋 "durum" ? Mnnnn
+TD204 tried: DURUM m n n n n
+TD213 5> ␅
+TD759487 ␆undo
+TD96 5> undo
+TD128 undo
+TD236 4> ␅
+TD3503620 ␆*
+TD95 4> *
+TD92483 ? ␅
+TD971408 ␆1
+TD96 ? 1
+TD222 📋 "truth" ? ␅
+TD2647597 ␆nnnnn
+TD93 📋 "truth" ? nnnnn
+TD198 tried: TRUTH n n n n n
+TD205 5> ␅
+TD1439658 ␆*
+TD98 5> *
+TD189028 📋 "doggo" ? ␅
+TD4274923 ␆MMnnn
+TD101 📋 "doggo" ? MMnnn
+TD204 tried: DOGGO m m n n n
+TD208 6> ␅
+TD440126 ␆*
+TD94 6> *
+TD162356 📋 "synod" ? ␅
+TD7005027 ␄
+TD144 <EOF>
+TD151 6> ␅
+TD1703793 ␆undo
+TD109 6> undo
+TD135 undo
+TD242 5> ␅
+TD4335398 ␆* -sans
+TD97 5> * -sans
+TD86328 ? ␅
+TD16169967 ␆2
+TD114 ? 2
+TD228 📋 "gogos" ? ␅
+TD6311677 ␆nnnYM
+TD95 📋 "gogos" ? nnnYM
+TD209 tried: GOGOS n n n Y m
+TD218 6> ␅
+TD535479 ␆*
+TD97 6> *
+TD186562 📋 "snook" ? ␅
+TD6302292 ␄
+TD131 <EOF>
+TD153 6> ␅
+TD4726880 ␆/fail synod
+TD98 6> /fail synod
+TD162 6> ␅
+TD3384132 ␆/res
+TD90 6> /res
+TD208 📋> ␅
+TD655984 ␆Don't Wordle 1368 - ELIMINATED
+TD95 📋> Don't Wordle 1368 - ELIMINATED
+TD13 📋> ␅
+TD41 ␆Well technically I didn't Wordle!
+TD7 📋> Well technically I didn't Wordle!
+TD6 📋> ␅
+TD15 ␆⬜⬜⬜⬜⬜5916
+TD6 📋> ⬜⬜⬜⬜⬜5916
+TD5 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜1681
+TD5 📋> ⬜⬜⬜⬜⬜1681
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜723
+TD5 📋> ⬜⬜⬜⬜⬜723
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜102
+TD5 📋> ⬜⬜⬜⬜⬜102
+TD4 📋> ␅
+TD11 ␆⬜⬜⬜🟩🟨1
+TD5 📋> ⬜⬜⬜🟩🟨1
+TD5 📋> ␅
+TD10 ␆⬛⬛⬛⬛⬛
+TD5 📋> ⬛⬛⬛⬛⬛
+TD5 📋> ␅
+TD319140 ␆Undos used: 5
+TD100 📋> Undos used: 5
+TD13 📋> ␅
+TD207887 ␄
+TD176 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Don't Wordle 1368 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5916\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1681\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c723\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c102\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe81\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"}
+TD1172 result: "Don't Wordle 1368 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5916\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1681\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c723\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c102\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe81\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"
+TD84 📆 2026-02-20 ? ␅
+TD422468 ␆
+TD100 📆 2026-02-20 ? 
