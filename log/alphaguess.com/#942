@@ -1,0 +1,85 @@
+T8587.889877123001 now: 2026-02-20T08:57:21EST
+TD84 site: alphaguess.com
+TD154587 loaded 196528 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (76 words excluded) asof 29a61020961409e1a7498db52df1dc28287541c2
+TD124  ...␅
+TD892467 ␆
+TD92  ...
+TD180 [0 : 98219 : 196528] mach? ␅
+TD4695694 ␆a
+TD102 [0 : 98219 : 196528] mach? a
+TD109 progress: 1 98219 mach
+TD332 [98220 : 147375 : 196528] rhumb? ␅
+TD1511659 ␆b
+TD97 [98220 : 147375 : 196528] rhumb? b
+TD114 progress: -1 147375 rhumb
+TD106 [98220 : 122780 : 147375] parr? ␅
+TD1439501 ␆a
+TD96 [98220 : 122780 : 147375] parr? a
+TD109 progress: 1 122780 parr
+TD106 [122781 : 135071 : 147375] proper? ␅
+TD2023831 ␆
+TD101 [122781 : 135071 : 147375] proper? 
+TD115 [122781 : 135071 : 147375] proper? ␅
+TD647660 ␆b
+TD90 [122781 : 135071 : 147375] proper? b
+TD108 progress: -1 135071 proper
+TD106 [122781 : 128849 : 135071] play? ␅
+TD1335839 ␆a
+TD98 [122781 : 128849 : 135071] play? a
+TD107 progress: 1 128849 play
+TD307 [128850 : 131959 : 135071] prearm? ␅
+TD1415372 ␆b
+TD96 [128850 : 131959 : 135071] prearm? b
+TD103 progress: -1 131959 prearm
+TD111 [128850 : 130063 : 131959] poly? ␅
+TD1519709 ␆a
+TD98 [128850 : 130063 : 131959] poly? a
+TD104 progress: 1 130063 poly
+TD121 [130064 : 130931 : 131959] pos? ␅
+TD1375592 ␆b
+TD97 [130064 : 130931 : 131959] pos? b
+TD109 progress: -1 130931 pos
+TD104 [130064 : 130484 : 130931] pond? ␅
+TD1247895 ␆a
+TD97 [130064 : 130484 : 130931] pond? a
+TD114 progress: 1 130484 pond
+TD115 [130485 : 130698 : 130931] popular? ␅
+TD1423706 ␆b
+TD97 [130485 : 130698 : 130931] popular? b
+TD114 progress: -1 130698 popular
+TD107 [130485 : 130565 : 130698] poo? ␅
+TD1375777 ␆a
+TD152 [130485 : 130565 : 130698] poo? a
+TD133 progress: 1 130565 poo
+TD189 [130566 : 130613 : 130698] poor? ␅
+TD1279531 ␆b
+TD105 [130566 : 130613 : 130698] poor? b
+TD106 progress: -1 130613 poor
+TD195 [130566 : 130590 : 130613] pool? ␅
+TD2191522 ␆it
+TD97 [130566 : 130590 : 130613] pool? it
+TD110 progress: 0 130590 pool
+TD28 [130566 : 130590 : 130613] <Done>.
+TD84 📋> ␅
+TD2400329 ␆🧩 Puzzle #942
+TD98 📋> 🧩 Puzzle #942
+TD13 📋> ␅
+TD40 ␆🤔 13 guesses
+TD6 📋> 🤔 13 guesses
+TD5 📋> ␅
+TD12 ␆⏱️ 18s
+TD6 📋> ⏱️ 18s
+TD5 📋> ␅
+TD255274 ␆🔗 alphaguess.com/942
+TD101 📋> 🔗 alphaguess.com/942
+TD12 📋> ␅
+TD111816 ␄
+TD108 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #942\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/942"}
+TD97 result: "\ud83e\udde9 Puzzle #942\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/942"
+TD14 result puzzle: 942
+TD7 result guesses: 13
+TD6 result time: 18s
+TD5 result link: alphaguess.com/942
+TD89 📆 2026-02-20 ? ␅
+TD135542 ␆
+TD26 📆 2026-02-20 ? 
