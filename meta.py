@@ -659,16 +659,17 @@ class Meta(PromptUI.Arguable[PromptUI.Prompt]):
         '''
         clear out today sections if done
         '''
+
+        today = datetime.datetime.today().date()
+
         day_solves: dict[date|None, set[int]] = {}
         day_sections: dict[date|None, set[str]] = {}
+        prune_sections: set[str] = set()
+
         for solver_i, _solver_j, day, _note, head, _body in self.read_status(ui):
             day_solves.setdefault(day, set()).add(solver_i)
             if head:
                 day_sections.setdefault(day, set()).add(head)
-
-        prune_sections: set[str] = set()
-
-        today = datetime.datetime.today().date()
 
         # TODO once share records state, determine today_shared
 
@@ -701,7 +702,9 @@ class Meta(PromptUI.Arguable[PromptUI.Prompt]):
         # TODO prune_sections.update(day_sections[None])
         # TODO prune_sections.update(day_sections[ older days ])
 
-        # ui.print(f'prune_sections: {prune_sections}')
+        if not prune_sections:
+            ui.print('-- nothing to prune --')
+            return
 
         with git_txn(f'DAILY {today} prune') as txn:
             with (txn.will_add(self.report.filename),
