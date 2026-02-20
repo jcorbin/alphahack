@@ -661,6 +661,7 @@ class Meta(PromptUI.Arguable[PromptUI.Prompt]):
         '''
 
         today = datetime.datetime.today().date()
+        force: bool = False
 
         while ui.tokens:
             day = ui.tokens.have(
@@ -668,6 +669,10 @@ class Meta(PromptUI.Arguable[PromptUI.Prompt]):
                 then=lambda m: date(int(m[1]), int(m[2]), int(m[3])))
             if day is not None:
                 today = day
+                continue
+
+            if ui.tokens.have(r'-f'):
+                force = True
                 continue
 
             ui.print(f'! invalid argument {next(ui.tokens)}')
@@ -693,7 +698,7 @@ class Meta(PromptUI.Arguable[PromptUI.Prompt]):
                 solved = all(
                     solver_i in solves
                     for solver_i in self.solvers)
-                if solved: # TODO and shared
+                if solved or force:
                     prune = True
                 ui.write(f' today solved: {solved}')
 
