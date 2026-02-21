@@ -1,0 +1,102 @@
+T144.29062921897275 now: 2026-02-21T08:46:58EST
+TD85 site: alphaguess.com
+TD151792 loaded 196527 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (77 words excluded) asof 758b35168650cc5445443fb1e67a53890b5cd2ef
+TD122  ...␅
+TD3663064 ␆
+TD96  ...
+TD181 [0 : 98218 : 196527] mach? ␅
+TD1920006 ␆b
+TD87 [0 : 98218 : 196527] mach? b
+TD105 progress: -1 98218 mach
+TD111 [0 : 47381 : 98218] dis? ␅
+TD1559115 ␆b
+TD100 [0 : 47381 : 98218] dis? b
+TD104 progress: -1 47381 dis
+TD192 [0 : 23682 : 47381] camp? ␅
+TD1583555 ␆b
+TD99 [0 : 23682 : 47381] camp? b
+TD104 progress: -1 23682 camp
+TD115 [0 : 11764 : 23682] back? ␅
+TD1663784 ␆b
+TD96 [0 : 11764 : 23682] back? b
+TD114 progress: -1 11764 back
+TD109 [0 : 5876 : 11764] angel? ␅
+TD2103656 ␆b
+TD91 [0 : 5876 : 11764] angel? b
+TD106 progress: -1 5876 angel
+TD143 [0 : 2802 : 5876] ag? ␅
+TD1567463 ␆b
+TD99 [0 : 2802 : 5876] ag? b
+TD106 progress: -1 2802 ag
+TD340 [0 : 1398 : 2802] acrogen? ␅
+TD1415409 ␆a
+TD100 [0 : 1398 : 2802] acrogen? a
+TD106 progress: 1 1398 acrogen
+TD107 [1399 : 2097 : 2802] ads? ␅
+TD1319663 ␆a
+TD77 [1399 : 2097 : 2802] ads? a
+TD80 progress: 1 2097 ads
+TD80 [2098 : 2391 : 2802] aero? ␅
+TD1327753 ␆a
+TD90 [2098 : 2391 : 2802] aero? a
+TD108 progress: 1 2391 aero
+TD119 [2392 : 2544 : 2802] aff? ␅
+TD3183710 ␆a
+TD100 [2392 : 2544 : 2802] aff? a
+TD106 progress: 1 2544 aff
+TD131 [2545 : 2666 : 2802] afford? ␅
+TD1463330 ␆a
+TD99 [2545 : 2666 : 2802] afford? a
+TD104 progress: 1 2666 afford
+TD288 [2667 : 2734 : 2802] afresh? ␅
+TD1407761 ␆b
+TD101 [2667 : 2734 : 2802] afresh? b
+TD106 progress: -1 2734 afresh
+TD206 [2667 : 2698 : 2734] affright? ␅
+TD1303367 ␆a
+TD97 [2667 : 2698 : 2734] affright? a
+TD105 progress: 1 2698 affright
+TD257 [2699 : 2716 : 2734] afield? ␅
+TD1303468 ␆a
+TD92 [2699 : 2716 : 2734] afield? a
+TD103 progress: 1 2716 afield
+TD151 [2717 : 2724 : 2734] afore? ␅
+TD1199677 ␆a
+TD99 [2717 : 2724 : 2734] afore? a
+TD107 progress: 1 2724 afore
+TD195 [2725 : 2729 : 2734] aforetime? ␅
+TD1231620 ␆a
+TD99 [2725 : 2729 : 2734] aforetime? a
+TD106 progress: 1 2729 aforetime
+TD233 [2730 : 2732 : 2734] afreet? ␅
+TD1351437 ␆b
+TD87 [2730 : 2732 : 2734] afreet? b
+TD102 progress: -1 2732 afreet
+TD203 [2730 : 2731 : 2732] afraid? ␅
+TD2487617 ␆it
+TD102 [2730 : 2731 : 2732] afraid? it
+TD106 progress: 0 2731 afraid
+TD27 [2730 : 2731 : 2732] <Done>.
+TD89 📋> ␅
+TD2743814 ␆🧩 Puzzle #943
+TD92 📋> 🧩 Puzzle #943
+TD13 📋> ␅
+TD42 ␆🤔 18 guesses
+TD6 📋> 🤔 18 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 26s
+TD6 📋> ⏱️ 26s
+TD5 📋> ␅
+TD239465 ␆🔗 alphaguess.com/943
+TD75 📋> 🔗 alphaguess.com/943
+TD7 📋> ␅
+TD152309 ␄
+TD147 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #943\n\ud83e\udd14 18 guesses\n\u23f1\ufe0f 26s\n\ud83d\udd17 alphaguess.com/943"}
+TD101 result: "\ud83e\udde9 Puzzle #943\n\ud83e\udd14 18 guesses\n\u23f1\ufe0f 26s\n\ud83d\udd17 alphaguess.com/943"
+TD14 result puzzle: 943
+TD7 result guesses: 18
+TD5 result time: 26s
+TD5 result link: alphaguess.com/943
+TD92 📆 2026-02-21 ? ␅
+TD135142 ␆
+TD100 📆 2026-02-21 ? 
