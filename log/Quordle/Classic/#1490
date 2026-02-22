@@ -1,0 +1,205 @@
+T35598.012713723 now: 2026-02-22T09:05:57EST
+TD84 site: m-w.com/games/quordle/#/
+TD14 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD80  ...␅
+TD3783196 ␆
+TD65  ...
+TD327306 > ␅
+TD808599 ␆*
+TD69 > *
+TD35196 ? ␅
+TD684735 ␆1
+TD66 ? 1
+TD121 questioning: carse
+TD99 Classic #1 _____? ␅
+TD4239801 ␆nnnMn
+TD65 Classic #1 _____? nnnMn
+TD246 attempt: 0 CARSE n n n m n
+TD67 Classic #2 _____? ␅
+TD1383643 ␆nMMnn
+TD67 Classic #2 _____? nMMnn
+TD141 attempt: 1 CARSE n m m n n
+TD54 Classic #3 _____? ␅
+TD1527675 ␆MYnnn
+TD67 Classic #3 _____? MYnnn
+TD137 attempt: 2 CARSE m Y n n n
+TD56 Classic #4 _____? ␅
+TD1527814 ␆nnMnM
+TD69 Classic #4 _____? nnMnM
+TD138 attempt: 3 CARSE n n m n m
+TD371387 > ␅
+TD676398 ␆*
+TD65 > *
+TD3550 ? ␅
+TD4348536 ␆1
+TD81 ? 1
+TD131 questioning: louis
+TD102 Classic #1 _____ ~S -ACER? ␅
+TD2767766 ␆nnnMM
+TD82 Classic #1 _____ ~S -ACER? nnnMM
+TD158 attempt: 0 LOUIS n n n m m
+TD73 Classic #2 _____ ~AR -CES? ␅
+TD1583722 ␆nnMnn
+TD89 Classic #2 _____ ~AR -CES? nnMnn
+TD159 attempt: 1 LOUIS n n m n n
+TD73 Classic #3 _A___ ~C -ERS? ␅
+TD1455729 ␆nnnnn
+TD100 Classic #3 _A___ ~C -ERS? nnnnn
+TD218 attempt: 2 LOUIS n n n n n
+TD115 Classic #4 _____ ~ER -ACS? ␅
+TD1967582 ␆YnMnn
+TD77 Classic #4 _____ ~ER -ACS? YnMnn
+TD152 attempt: 3 LOUIS Y n m n n
+TD389254 > ␅
+TD1146631 ␆*
+TD74 > *
+TD332 ? ␅
+TD1927499 ␄
+TD111 <EOF>
+TD359068 > ␅
+TD1544862 ␆* 1
+TD107 > * 1
+TD81306 ? ␅
+TD10366746 ␆9
+TD124 ? 9
+TD200 questioning: sting
+TD173 Classic #1 _____ ~IS -ACELORU? ␅
+TD5623448 ␆YMMnn
+TD72 Classic #1 _____ ~IS -ACELORU? YMMnn
+TD159 attempt: 0 STING Y m m n n
+TD81 Classic #2 _____ ~ARU -CEILOS? ␅
+TD1119966 ␆nnnnn
+TD81 Classic #2 _____ ~ARU -CEILOS? nnnnn
+TD156 attempt: 1 STING n n n n n
+TD92 Classic #3 _A___ ~C -EILORSU? ␅
+TD1919608 ␆nMnnn
+TD84 Classic #3 _A___ ~C -EILORSU? nMnnn
+TD179 attempt: 2 STING n m n n n
+TD87 Classic #4 L____ ~ERU -ACIOS? ␅
+TD1607612 ␆nnnnn
+TD98 Classic #4 L____ ~ERU -ACIOS? nnnnn
+TD212 attempt: 3 STING n n n n n
+TD355601 > ␅
+TD1636228 ␆*
+TD81 > *
+TD357 ? ␅
+TD1951575 ␄
+TD127 <EOF>
+TD324424 > ␅
+TD1259284 ␆* 2
+TD100 > * 2
+TD101392 ? ␅
+TD7850729 ␄
+TD92 <EOF>
+TD332424 > ␅
+TD1435475 ␆* 3
+TD108 > * 3
+TD75038 ? ␅
+TD4492876 ␆3
+TD67 ? 3
+TD116 questioning: batch
+TD87 Classic #1 S____ ~IT -ACEGLNORU? ␅
+TD3559729 ␄
+TD102 <EOF>
+TD332814 > ␅
+TD899123 ␆* 3
+TD101 > * 3
+TD73649 ? ␅
+TD1158186 ␆4
+TD70 ? 4
+TD116 questioning: match
+TD101 Classic #1 S____ ~IT -ACEGLNORU? ␅
+TD3919874 ␆nnMnY
+TD76 Classic #1 S____ ~IT -ACEGLNORU? nnMnY
+TD132 attempt: 0 MATCH n n m n Y
+TD63 Classic #2 _____ ~ARU -CEGILNOST? ␅
+TD1111776 ␆nMnnn
+TD76 Classic #2 _____ ~ARU -CEGILNOST? nMnnn
+TD134 attempt: 1 MATCH n m n n n
+TD67 Classic #3 _A___ ~CT -EGILNORSU? ␅
+TD1991828 ␆nYMMM
+TD96 Classic #3 _A___ ~CT -EGILNORSU? nYMMM
+TD211 attempt: 2 MATCH n Y m m m
+TD108 Classic #4 L____ ~ERU -ACGINOST? ␅
+TD1359338 ␆Mnnnn
+TD71 Classic #4 L____ ~ERU -ACGINOST? Mnnnn
+TD137 attempt: 3 MATCH m n n n n
+TD326572 > ␅
+TD705246 ␆*
+TD72 > *
+TD236 questioning: sixth
+TD72 Classic #1 S___H ~IT -ACEGLMNORU? ␅
+TD4463852 ␆YYYYY
+TD77 Classic #1 S___H ~IT -ACEGLMNORU? YYYYY
+TD164 attempt: 0 SIXTH Y Y Y Y Y
+TD117 Classic #2 _____ ~ARU -CEGHILMNOST? ␅
+TD1127647 ␆nnnnn
+TD102 Classic #2 _____ ~ARU -CEGHILMNOST? nnnnn
+TD214 attempt: 1 SIXTH n n n n n
+TD111 Classic #3 _A___ ~CHT -EGILMNORSU? ␅
+TD1263569 ␆nnnMM
+TD79 Classic #3 _A___ ~CHT -EGILMNORSU? nnnMM
+TD154 attempt: 2 SIXTH n n n m m
+TD80 Classic #4 L____ ~EMRU -ACGHINOST? ␅
+TD999762 ␆nnnnn
+TD98 Classic #4 L____ ~EMRU -ACGHINOST? nnnnn
+TD217 attempt: 3 SIXTH n n n n n
+TD258924 > ␅
+TD700700 ␆*
+TD94 > *
+TD386 questioning: yacht
+TD113 Classic #2 _____ ~ARU -CEGHILMNOSTX? ␅
+TD2983329 ␆nMnnn
+TD76 Classic #2 _____ ~ARU -CEGHILMNOSTX? nMnnn
+TD154 attempt: 1 YACHT n m n n n
+TD75 Classic #3 _A___ ~CHT -EGILMNORSUX? ␅
+TD1399752 ␆YYYYY
+TD72 Classic #3 _A___ ~CHT -EGILMNORSUX? YYYYY
+TD145 attempt: 2 YACHT Y Y Y Y Y
+TD78 Classic #4 L____ ~EMRU -ACGHINOSTX? ␅
+TD1151941 ␆nnnnn
+TD91 Classic #4 L____ ~EMRU -ACGHINOSTX? nnnnn
+TD230 attempt: 3 YACHT n n n n n
+TD188990 > ␅
+TD426682 ␆*
+TD98 > *
+TD387 questioning: lemur
+TD120 Classic #2 _____ ~ARU -CEGHILMNOSTXY? ␅
+TD3303192 ␆nnnYM
+TD84 Classic #2 _____ ~ARU -CEGHILMNOSTXY? nnnYM
+TD151 attempt: 1 LEMUR n n n Y m
+TD75 Classic #4 L____ ~EMRU -ACGHINOSTXY? ␅
+TD1239762 ␆YYYYY
+TD83 Classic #4 L____ ~EMRU -ACGHINOSTXY? YYYYY
+TD153 attempt: 3 LEMUR Y Y Y Y Y
+TD104110 > ␅
+TD695718 ␆*
+TD78 > *
+TD266 questioning: fraud
+TD94 Classic #2 ___U_ ~AR -CEGHILMNOSTXY? ␅
+TD3447599 ␆YYYYY
+TD80 Classic #2 ___U_ ~AR -CEGHILMNOSTXY? YYYYY
+TD149 attempt: 1 FRAUD Y Y Y Y Y
+TD80 📋> ␅
+TD4168357 ␆🙂 Daily Quordle 1490
+TD70 📋> 🙂 Daily Quordle 1490
+TD5 📋> ␅
+TD41 ␆5️⃣8️⃣
+TD3 📋> 5️⃣8️⃣
+TD2 📋> ␅
+TD8 ␆6️⃣7️⃣
+TD2 📋> 6️⃣7️⃣
+TD1 📋> ␅
+TD7 ␆m-w.com/games/quordle/
+TD2 📋> m-w.com/games/quordle/
+TD1 📋> ␅
+TD263184 ␆
+TD73 📋> 
+TD6 📋> ␅
+TD104009 ␄
+TD122 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1490\n5\ufe0f\u20e38\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD806 result: "\ud83d\ude42 Daily Quordle 1490\n5\ufe0f\u20e38\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD58 📆 2026-02-22 ? ␅
+TD142948 ␆
+TD90 📆 2026-02-22 ? 
