@@ -1,0 +1,258 @@
+T35923.25788622099 now: 2026-02-22T09:11:22EST
+TD135 site: squareword.org
+TD31 wordlist: nwl2023.txt
+TD43  ...␅
+TD742330 ␆
+TD110  ...
+TD79 🧩  ? ␅
+TD815941 ␆
+TD103 🧩  ? 
+TD163  ...␅
+TD1319683 ␆
+TD101  ...
+TD74 🧩  ? ␅
+TD4351757 ␆#1483
+TD89 🧩  ? #1483
+TD265 puzzle_id: #1483
+TD284 > ␅
+TD1279324 ␆*
+TD64 > *
+TD182501 try? ␅
+TD745395 ␆1
+TD71 try? 1
+TD242 questioning: ["rates", "#5"]
+TD157 #1 <IndexError>  📋 "rates" ? ␅
+TD21599284 ␆_____ ~ ATES
+TD97 #1 <IndexError>  📋 "rates" ? _____ ~ ATES
+TD706 attempt 0 RATES n m m m m
+TD238 #2 <IndexError>  📋 "rates" ? ␅
+TD1822969 ␆_____ ~ A
+TD102 #2 <IndexError>  📋 "rates" ? _____ ~ A
+TD273 attempt 1 RATES n m n n n
+TD124 #3 <IndexError>  📋 "rates" ? ␅
+TD2487540 ␆___ES ~ RAS
+TD99 #3 <IndexError>  📋 "rates" ? ___ES ~ RAS
+TD313 attempt 2 RATES m m n Y Y
+TD143 #4 <IndexError>  📋 "rates" ? ␅
+TD4255255 ␆___E_ ~ E
+TD115 #4 <IndexError>  📋 "rates" ? ___E_ ~ E
+TD322 attempt 3 RATES n n n Y n
+TD153 #5 <IndexError>  📋 "rates" ? ␅
+TD2055350 ␆_____ ~ ES
+TD102 #5 <IndexError>  📋 "rates" ? _____ ~ ES
+TD248 attempt 4 RATES n n n m m
+TD328 ? ␅
+TD287705 ␆
+TD122 ? 
+TD147 question done
+TD287 > ␅
+TD479114 ␆*
+TD103 > *
+TD633154 try? ␅
+TD1078674 ␆1
+TD101 try? 1
+TD313 questioning: ["acres", "#3"]
+TD338 #1 _____ ~AEST -R  📋 "acres" ? ␅
+TD3207251 ␆.
+TD106 #1 _____ ~AEST -R  📋 "acres" ? .
+TD311 attempt 0 ACRES m n n m m
+TD108 #2 _____ ~A -ERST  📋 "acres" ? ␅
+TD2703267 ␆_____ ~ AC
+TD74 #2 _____ ~A -ERST  📋 "acres" ? _____ ~ AC
+TD167 attempt 1 ACRES m m n n n
+TD89 #3 ___ES ~AR -T  📋 "acres" ? ␅
+TD2439778 ␆A__ES ~ RS
+TD77 #3 ___ES ~AR -T  📋 "acres" ? A__ES ~ RS
+TD165 attempt 2 ACRES Y n m Y Y
+TD102 #4 ___E_ -ARST  📋 "acres" ? ␅
+TD3575866 ␆___E_ ~ E
+TD82 #4 ___E_ -ARST  📋 "acres" ? ___E_ ~ E
+TD228 attempt 3 ACRES n n n Y n
+TD134 #5 _____ ~ES -ART  📋 "acres" ? ␅
+TD791249 ␆.
+TD84 #5 _____ ~ES -ART  📋 "acres" ? .
+TD205 attempt 4 ACRES n n n m m
+TD175 ? ␅
+TD183640 ␆
+TD68 ? 
+TD83 question done
+TD182 > ␅
+TD455425 ␆*
+TD84 > *
+TD610522 try? ␅
+TD6181222 ␆1
+TD74 try? 1
+TD212 questioning: ["arles", "#3"]
+TD184 #1 _____ ~AEST -CR  📋 "arles" ? ␅
+TD3255513 ␆.
+TD79 #1 _____ ~AEST -CR  📋 "arles" ? .
+TD182 attempt 0 ARLES m n n m m
+TD61 #2 _____ ~AC -ERST  📋 "arles" ? ␅
+TD1415776 ␆.
+TD73 #2 _____ ~AC -ERST  📋 "arles" ? .
+TD194 attempt 1 ARLES m n n n n
+TD64 #3 A__ES ~R -CT  📋 "arles" ? ␅
+TD3831622 ␆AR_ES ~ S
+TD88 #3 A__ES ~R -CT  📋 "arles" ? AR_ES ~ S
+TD164 attempt 2 ARLES Y Y n Y Y
+TD94 #4 ___E_ -ACRST  📋 "arles" ? ␅
+TD3575558 ␆__LE_ ~ E
+TD79 #4 ___E_ -ACRST  📋 "arles" ? __LE_ ~ E
+TD203 attempt 3 ARLES n n Y Y n
+TD147 #5 _____ ~ES -ACRT  📋 "arles" ? ␅
+TD2647532 ␆_____ ~ ESL
+TD83 #5 _____ ~ES -ACRT  📋 "arles" ? _____ ~ ESL
+TD180 attempt 4 ARLES n n m m m
+TD208 ? ␅
+TD863527 ␆
+TD102 ? 
+TD135 question done
+TD314 > ␅
+TD407366 ␆*
+TD100 > *
+TD640941 questioning: ["arses", "#3"]
+TD182 #1 _____ ~AEST -CLR  📋 "arses" ? ␅
+TD4214758 ␆.
+TD107 #1 _____ ~AEST -CLR  📋 "arses" ? .
+TD258 attempt 0 ARSES m n m m m
+TD99 #2 _____ ~AC -ELRST  📋 "arses" ? ␅
+TD935530 ␆.
+TD150 #2 _____ ~AC -ELRST  📋 "arses" ? .
+TD270 attempt 1 ARSES m n n n n
+TD100 #3 AR_ES -CLT  📋 "arses" ? ␅
+TD903233 ␆/it
+TD72 #3 AR_ES -CLT  📋 "arses" ? /it
+TD161 attempt 2 ARSES Y Y Y Y Y
+TD61 #4 __LE_ -ACRST  📋 "arses" ? ␅
+TD3655874 ␆__LE_ ~ E
+TD84 #4 __LE_ -ACRST  📋 "arses" ? __LE_ ~ E
+TD180 attempt 3 ARSES n n n Y n
+TD109 #5 _____ ~ELS -ACRT  📋 "arses" ? ␅
+TD1127584 ␆.
+TD76 #5 _____ ~ELS -ACRT  📋 "arses" ? .
+TD185 attempt 4 ARSES n n m m m
+TD168 ? ␅
+TD159536 ␆
+TD98 ? 
+TD118 question done
+TD288 > ␅
+TD487446 ␆*
+TD96 > *
+TD294195 try? ␅
+TD1481781 ␆1
+TD96 try? 1
+TD292 questioning: ["china", "#2"]
+TD353 #1 _____ ~AEST -CLR  📋 "china" ? ␅
+TD2615067 ␆.
+TD98 #1 _____ ~AEST -CLR  📋 "china" ? .
+TD275 attempt 0 CHINA n n n n m
+TD99 #2 _____ ~AC -ELRST  📋 "china" ? ␅
+TD575539 ␆/it
+TD101 #2 _____ ~AC -ELRST  📋 "china" ? /it
+TD308 attempt 1 CHINA Y Y Y Y Y
+TD112 #4 __LE_ -ACRST  📋 "china" ? ␅
+TD3055536 ␆__LE_ ~ E
+TD76 #4 __LE_ -ACRST  📋 "china" ? __LE_ ~ E
+TD201 attempt 3 CHINA n n n n n
+TD150 #5 _____ ~ELS -ACRT  📋 "china" ? ␅
+TD1103581 ␆
+TD103 #5 _____ ~ELS -ACRT  📋 "china" ? 
+TD318 #5 _____ ~ELS -ACRT  ? ␅
+TD552050 ␆
+TD103 #5 _____ ~ELS -ACRT  ? 
+TD406 #5 _____ ~ELS -ACRT  ? ␅
+TD1495022 ␆.
+TD96 #5 _____ ~ELS -ACRT  ? .
+TD264 attempt 4 CHINA n n n n n
+TD294 ? ␅
+TD183311 ␆
+TD91 ? 
+TD117 question done
+TD226 > ␅
+TD807604 ␆*
+TD99 > *
+TD1803972 questioning: ["stake", "#1"]
+TD233 #1 _____ ~AEST -CHILNR  📋 "stake" ? ␅
+TD2827364 ␆/it
+TD99 #1 _____ ~AEST -CHILNR  📋 "stake" ? /it
+TD264 attempt 0 STAKE Y Y Y Y Y
+TD100 #4 __LE_ -ACHINRST  📋 "stake" ? ␅
+TD3975701 ␆__LEE ~ E
+TD104 #4 __LE_ -ACHINRST  📋 "stake" ? __LEE ~ E
+TD259 attempt 3 STAKE n n n n Y
+TD165 #5 _____ ~ELS -ACHINRT  📋 "stake" ? ␅
+TD2959190 ␆S____ ~ EL
+TD85 #5 _____ ~ELS -ACHINRT  📋 "stake" ? S____ ~ EL
+TD250 attempt 4 STAKE Y n n n m
+TD344 ? ␅
+TD231603 ␆
+TD80 ? 
+TD96 question done
+TD202 > ␅
+TD623608 ␆*
+TD104 > *
+TD1345737 try? ␅
+TD2350053 ␆2
+TD101 try? 2
+TD292 questioning: ["melee", "#4"]
+TD367 #4 __LEE -ACHIKNRST  📋 "melee" ? ␅
+TD2655206 ␆/it
+TD103 #4 __LEE -ACHIKNRST  📋 "melee" ? /it
+TD246 attempt 3 MELEE Y Y Y Y Y
+TD102 #5 S____ ~EL -ACHIKNRT  📋 "melee" ? ␅
+TD1623578 ␆.
+TD104 #5 S____ ~EL -ACHIKNRT  📋 "melee" ? .
+TD252 attempt 4 MELEE n m m m m
+TD311 ? ␅
+TD191260 ␆
+TD103 ? 
+TD113 question done
+TD304 > ␅
+TD559452 ␆*
+TD99 > *
+TD916961 questioning: ["swell", "#5"]
+TD197 #5 S____ ~EL -ACHIKMNRT  📋 "swell" ? ␅
+TD3426416 ␆/it
+TD73 #5 S____ ~EL -ACHIKMNRT  📋 "swell" ? /it
+TD153 attempt 4 SWELL Y Y Y Y Y
+TD134 ? ␅
+TD983675 ␆
+TD64 ? 
+TD69 question done
+TD19520 📋> ␅
+TD6220896 ␆squareword.org 1483: 8 guesses
+TD116 📋> squareword.org 1483: 8 guesses
+TD18 📋> ␅
+TD74 ␆
+TD9 📋> 
+TD8 📋> ␅
+TD28 ␆🟨🟨🟨🟨🟨
+TD7 📋> 🟨🟨🟨🟨🟨
+TD6 📋> ␅
+TD22 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD20 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD21 ␆🟨🟨🟩🟩🟨
+TD6 📋> 🟨🟨🟩🟩🟨
+TD6 📋> ␅
+TD30 ␆🟨🟨🟨🟨🟨
+TD6 📋> 🟨🟨🟨🟨🟨
+TD6 📋> ␅
+TD19 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD21 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD262932 ␆#squareword #squareword1483
+TD79 📋> #squareword #squareword1483
+TD8 📋> ␅
+TD167891 ␄
+TD128 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1483: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1483"}
+TD657 result: "squareword.org 1483: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1483"
+TD73 📆 2026-02-22 ? ␅
+TD191283 ␆
+TD101 📆 2026-02-22 ? 
