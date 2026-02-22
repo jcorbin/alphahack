@@ -1,0 +1,85 @@
+T35269.512670786 now: 2026-02-22T09:00:28EST
+TD71 site: alphaguess.com
+TD135187 loaded 196527 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (77 words excluded) asof 85c0871306104b35917196981b6eb72b0949e2f0
+TD110  ...␅
+TD583578 ␆
+TD107  ...
+TD166 [0 : 98218 : 196527] mach? ␅
+TD3407787 ␆
+TD70 [0 : 98218 : 196527] mach? 
+TD83 [0 : 98218 : 196527] mach? ␅
+TD2567959 ␆a
+TD101 [0 : 98218 : 196527] mach? a
+TD100 progress: 1 98218 mach
+TD295 [98219 : 147374 : 196527] rhumb? ␅
+TD1319575 ␆b
+TD106 [98219 : 147374 : 196527] rhumb? b
+TD107 progress: -1 147374 rhumb
+TD103 [98219 : 122779 : 147374] parr? ␅
+TD1639615 ␆b
+TD87 [98219 : 122779 : 147374] parr? b
+TD86 progress: -1 122779 parr
+TD79 [98219 : 109935 : 122779] ne? ␅
+TD1519524 ␆b
+TD70 [98219 : 109935 : 122779] ne? b
+TD69 progress: -1 109935 ne
+TD64 [98219 : 104073 : 109935] minor? ␅
+TD1232619 ␆a
+TD103 [98219 : 104073 : 109935] minor? a
+TD112 progress: 1 104073 minor
+TD109 [104074 : 106939 : 109935] mor? ␅
+TD1135207 ␆a
+TD77 [104074 : 106939 : 109935] mor? a
+TD71 progress: 1 106939 mor
+TD69 [106940 : 108419 : 109935] mun? ␅
+TD1143778 ␆a
+TD100 [106940 : 108419 : 109935] mun? a
+TD101 progress: 1 108419 mun
+TD127 [108420 : 108926 : 109935] my? ␅
+TD1247596 ␆b
+TD107 [108420 : 108926 : 109935] my? b
+TD115 progress: -1 108926 my
+TD118 [108420 : 108660 : 108926] musical? ␅
+TD1207607 ␆b
+TD80 [108420 : 108660 : 108926] musical? b
+TD78 progress: -1 108660 musical
+TD94 [108420 : 108538 : 108660] murk? ␅
+TD1239947 ␆a
+TD99 [108420 : 108538 : 108660] murk? a
+TD101 progress: 1 108538 murk
+TD127 [108539 : 108582 : 108660] mus? ␅
+TD1320048 ␆a
+TD83 [108539 : 108582 : 108660] mus? a
+TD80 progress: 1 108582 mus
+TD162 [108583 : 108621 : 108660] musculatures? ␅
+TD1207409 ␆b
+TD93 [108583 : 108621 : 108660] musculatures? b
+TD96 progress: -1 108621 musculatures
+TD87 [108583 : 108600 : 108621] muscle? ␅
+TD2071663 ␆it
+TD99 [108583 : 108600 : 108621] muscle? it
+TD105 progress: 0 108600 muscle
+TD35 [108583 : 108600 : 108621] <Done>.
+TD80 📋> ␅
+TD2552511 ␆🧩 Puzzle #944
+TD94 📋> 🧩 Puzzle #944
+TD12 📋> ␅
+TD36 ␆🤔 13 guesses
+TD6 📋> 🤔 13 guesses
+TD5 📋> ␅
+TD11 ␆⏱️ 17s
+TD6 📋> ⏱️ 17s
+TD5 📋> ␅
+TD238960 ␆🔗 alphaguess.com/944
+TD75 📋> 🔗 alphaguess.com/944
+TD6 📋> ␅
+TD103967 ␄
+TD166 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #944\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/944"}
+TD120 result: "\ud83e\udde9 Puzzle #944\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/944"
+TD17 result puzzle: 944
+TD7 result guesses: 13
+TD6 result time: 17s
+TD5 result link: alphaguess.com/944
+TD93 📆 2026-02-22 ? ␅
+TD127443 ␆
+TD106 📆 2026-02-22 ? 
