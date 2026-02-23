@@ -1,0 +1,246 @@
+T851.1506695160001 now: 2026-02-23T09:41:34EST
+TD92 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD32  ...␅
+TD7398453 ␆
+TD100  ...
+TD85 🧩  ? ␅
+TD1775896 ␆#1484
+TD146 🧩  ? #1484
+TD301 puzzle_id: #1484
+TD302 > ␅
+TD1367254 ␆*
+TD106 > *
+TD234823 try? ␅
+TD836998 ␆1
+TD85 try? 1
+TD295 questioning: ["teals", "#5"]
+TD278 #1 <IndexError>  📋 "teals" ? ␅
+TD6063564 ␆__A_S ~ T
+TD74 #1 <IndexError>  📋 "teals" ? __A_S ~ T
+TD475 attempt 0 TEALS m n Y n Y
+TD86 #2 <IndexError>  📋 "teals" ? ␅
+TD3983339 ␆_E___ ~ L
+TD86 #2 <IndexError>  📋 "teals" ? _E___ ~ L
+TD278 attempt 1 TEALS n Y n m n
+TD138 #3 <IndexError>  📋 "teals" ? ␅
+TD1895326 ␆_____ ~ EA
+TD76 #3 <IndexError>  📋 "teals" ? _____ ~ EA
+TD188 attempt 2 TEALS n m m n n
+TD86 #4 <IndexError>  📋 "teals" ? ␅
+TD1759751 ␆_____ ~ A
+TD85 #4 <IndexError>  📋 "teals" ? _____ ~ A
+TD193 attempt 3 TEALS n n m n n
+TD88 #5 <IndexError>  📋 "teals" ? ␅
+TD1767825 ␆_____ ~ EL
+TD92 #5 <IndexError>  📋 "teals" ? _____ ~ EL
+TD262 attempt 4 TEALS n m n m n
+TD340 ? ␅
+TD1151360 ␆
+TD102 ? 
+TD151 question done
+TD296 > ␅
+TD703283 ␆*
+TD92 > *
+TD687660 try? ␅
+TD1224385 ␆1
+TD99 try? 1
+TD311 questioning: ["prats", "#1"]
+TD339 #1 __A_S ~T -EL  📋 "prats" ? ␅
+TD5247344 ␆_RATS
+TD82 #1 __A_S ~T -EL  📋 "prats" ? _RATS
+TD187 attempt 0 PRATS n Y Y Y Y
+TD103 #2 _E___ ~L -AST  📋 "prats" ? ␅
+TD2895581 ␆_E___ ~ LR
+TD111 #2 _E___ ~L -AST  📋 "prats" ? _E___ ~ LR
+TD263 attempt 1 PRATS n m n n n
+TD152 #3 _____ ~AE -LST  📋 "prats" ? ␅
+TD1007529 ␆.
+TD97 #3 _____ ~AE -LST  📋 "prats" ? .
+TD285 attempt 2 PRATS n n m n n
+TD93 #4 _____ ~A -ELST  📋 "prats" ? ␅
+TD839547 ␆.
+TD90 #4 _____ ~A -ELST  📋 "prats" ? .
+TD282 attempt 3 PRATS n n m n n
+TD99 #5 _____ ~EL -AST  📋 "prats" ? ␅
+TD735557 ␆.
+TD78 #5 _____ ~EL -AST  📋 "prats" ? .
+TD194 attempt 4 PRATS n n n n n
+TD180 ? ␅
+TD151672 ␆
+TD81 ? 
+TD95 question done
+TD181 > ␅
+TD415458 ␆*
+TD82 > *
+TD676179 try? ␅
+TD1387993 ␄
+TD150 <EOF>
+TD425 > ␅
+TD4359296 ␆* 2
+TD100 > * 2
+TD2922 try? ␅
+TD4397091 ␆2
+TD80 try? 2
+TD220 questioning: ["reoil", "#2"]
+TD319 #1 _RATS -ELP  📋 "reoil" ? ␅
+TD4735306 ␆.
+TD71 #1 _RATS -ELP  📋 "reoil" ? .
+TD185 attempt 0 REOIL n n n n n
+TD62 #2 _E___ ~LR -APST  📋 "reoil" ? ␅
+TD2135717 ␆RE_I_ ~ L
+TD98 #2 _E___ ~LR -APST  📋 "reoil" ? RE_I_ ~ L
+TD255 attempt 1 REOIL Y Y n Y m
+TD150 #3 _____ ~AE -LPRST  📋 "reoil" ? ␅
+TD2447650 ␆_____ ~ EAI
+TD99 #3 _____ ~AE -LPRST  📋 "reoil" ? _____ ~ EAI
+TD265 attempt 2 REOIL n m n m n
+TD149 #4 _____ ~A -ELPRST  📋 "reoil" ? ␅
+TD2519533 ␆___I_ ~ A
+TD101 #4 _____ ~A -ELPRST  📋 "reoil" ? ___I_ ~ A
+TD267 attempt 3 REOIL n n n Y n
+TD154 #5 _____ ~EL -APRST  📋 "reoil" ? ␅
+TD2903470 ␆_____ ~ ELI
+TD102 #5 _____ ~EL -APRST  📋 "reoil" ? _____ ~ ELI
+TD265 attempt 4 REOIL n m n m m
+TD349 ? ␅
+TD327195 ␆
+TD102 ? 
+TD148 question done
+TD323 > ␅
+TD623552 ␆*
+TD99 > *
+TD632930 questioning: ["relic", "#2"]
+TD190 #1 _RATS -EILOPR  📋 "relic" ? ␅
+TD3550807 ␆.
+TD80 #1 _RATS -EILOPR  📋 "relic" ? .
+TD180 attempt 0 RELIC n n n n n
+TD60 #2 RE_I_ ~L -AOPST  📋 "relic" ? ␅
+TD687566 ␆/it
+TD82 #2 RE_I_ ~L -AOPST  📋 "relic" ? /it
+TD188 attempt 1 RELIC Y Y Y Y Y
+TD78 #3 _____ ~AEI -LOPRST  📋 "relic" ? ␅
+TD999790 ␆.
+TD74 #3 _____ ~AEI -LOPRST  📋 "relic" ? .
+TD193 attempt 2 RELIC n m n m n
+TD69 #4 ___I_ ~A -ELOPRST  📋 "relic" ? ␅
+TD3559649 ␆___I_ ~ AC
+TD71 #4 ___I_ ~A -ELOPRST  📋 "relic" ? ___I_ ~ AC
+TD179 attempt 3 RELIC n n n Y m
+TD91 #5 _____ ~EIL -AOPRST  📋 "relic" ? ␅
+TD935743 ␆.
+TD108 #5 _____ ~EIL -AOPRST  📋 "relic" ? .
+TD279 attempt 4 RELIC n m m m n
+TD187 ? ␅
+TD175332 ␆
+TD77 ? 
+TD76 question done
+TD170 > ␅
+TD2895773 ␆*
+TD74 > *
+TD1255788 questioning: ["anime", "#3"]
+TD188 #1 _RATS -CEILOPR  📋 "anime" ? ␅
+TD3992086 ␆.
+TD99 #1 _RATS -CEILOPR  📋 "anime" ? .
+TD263 attempt 0 ANIME n n n n n
+TD100 #3 _____ ~AEI -CLOPRST  📋 "anime" ? ␅
+TD639455 ␆/it
+TD104 #3 _____ ~AEI -CLOPRST  📋 "anime" ? /it
+TD264 attempt 2 ANIME Y Y Y Y Y
+TD114 #4 ___I_ ~AC -ELOPRST  📋 "anime" ? ␅
+TD3711751 ␆___I_ ~ ACN
+TD106 #4 ___I_ ~AC -ELOPRST  📋 "anime" ? ___I_ ~ ACN
+TD282 attempt 3 ANIME m m n n n
+TD160 #5 _____ ~EIL -ACOPRST  📋 "anime" ? ␅
+TD5791370 ␆__I_E ~ EL
+TD99 #5 _____ ~EIL -ACOPRST  📋 "anime" ? __I_E ~ EL
+TD260 attempt 4 ANIME n n Y n Y
+TD357 ? ␅
+TD279318 ␆
+TD98 ? 
+TD135 question done
+TD323 > ␅
+TD3711478 ␆*
+TD100 > *
+TD1780001 questioning: ["cabin", "#4"]
+TD205 #1 _RATS -ACEILMNOPR  📋 "cabin" ? ␅
+TD7019732 ␆_RATS ~ B
+TD68 #1 _RATS -ACEILMNOPR  📋 "cabin" ? _RATS ~ B
+TD167 attempt 0 CABIN n n m n n
+TD101 #4 ___I_ ~ACN -EILMOPRST  📋 "cabin" ? ␅
+TD1303956 ␆/it
+TD100 #4 ___I_ ~ACN -EILMOPRST  📋 "cabin" ? /it
+TD269 attempt 3 CABIN Y Y Y Y Y
+TD114 #5 __I_E ~L -ACMNOPRST  📋 "cabin" ? ␅
+TD5399496 ␆__I_E ~ EL
+TD100 #5 __I_E ~L -ACMNOPRST  📋 "cabin" ? __I_E ~ EL
+TD233 attempt 4 CABIN n n n n n
+TD229 ? ␅
+TD231467 ␆
+TD116 ? 
+TD178 question done
+TD333 > ␅
+TD487247 ␆*
+TD78 > *
+TD1388556 questioning: ["brats", "#1"]
+TD192 #1 _RATS ~B -ACEILMNOPR  📋 "brats" ? ␅
+TD6987252 ␆/it
+TD78 #1 _RATS ~B -ACEILMNOPR  📋 "brats" ? /it
+TD190 attempt 0 BRATS Y Y Y Y Y
+TD73 #5 __I_E ~L -ABCIMNOPRST  📋 "brats" ? ␅
+TD3207885 ␆__I_E ~ EL
+TD97 #5 __I_E ~L -ABCIMNOPRST  📋 "brats" ? __I_E ~ EL
+TD250 attempt 4 BRATS n n n n n
+TD332 ? ␅
+TD223156 ␆
+TD90 ? 
+TD114 question done
+TD294 > ␅
+TD583609 ␆*
+TD98 > *
+TD924384 questioning: ["elide", "#5"]
+TD190 #5 __I_E ~L -ABCIMNOPRST  📋 "elide" ? ␅
+TD2611308 ␆/it
+TD100 #5 __I_E ~L -ABCIMNOPRST  📋 "elide" ? /it
+TD267 attempt 4 ELIDE Y Y Y Y Y
+TD518 ? ␅
+TD3863358 ␆
+TD109 ? 
+TD113 question done
+TD22435 📋> ␅
+TD3289912 ␆squareword.org 1484: 8 guesses
+TD100 📋> squareword.org 1484: 8 guesses
+TD16 📋> ␅
+TD66 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD21 ␆🟨🟩🟩🟩🟩
+TD5 📋> 🟨🟩🟩🟩🟩
+TD5 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD14 ␆🟨🟨🟨🟩🟨
+TD4 📋> 🟨🟨🟨🟩🟨
+TD4 📋> ␅
+TD24 ␆🟨🟨🟩🟨🟩
+TD4 📋> 🟨🟨🟩🟨🟩
+TD4 📋> ␅
+TD14 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD15 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD303064 ␆#squareword #squareword1484
+TD107 📋> #squareword #squareword1484
+TD14 📋> ␅
+TD191883 ␄
+TD187 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1484: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1484"}
+TD904 result: "squareword.org 1484: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1484"
+TD69 📆 2026-02-23 ? ␅
+TD198782 ␆
+TD97 📆 2026-02-23 ? 
