@@ -1,0 +1,165 @@
+T160.17306845300027 now: 2026-02-23T09:30:03EST
+TD139 site: dontwordle.com
+TD22 wordlist: nwl2023.txt
+TD44  ...␅
+TD2007088 ␆
+TD124  ...
+TD124 1> ␅
+TD3559805 ␆* -bot 10
+TD100 1> * -bot 10
+TD171768 ? ␅
+TD1780744 ␆3
+TD100 ? 3
+TD272 📋 "aisle" ? ␅
+TD4967070 ␆nnnMn
+TD101 📋 "aisle" ? nnnMn
+TD533 tried: AISLE n n n m n
+TD191 2> ␅
+TD719566 ␆undo
+TD102 2> undo
+TD151 undo
+TD145 1> ␅
+TD2927236 ␆*
+TD97 1> *
+TD121688 ? ␅
+TD5710261 ␆1
+TD93 ? 1
+TD247 📋 "cirri" ? ␅
+TD6071708 ␆nnMnn
+TD84 📋 "cirri" ? nnMnn
+TD162 tried: CIRRI n n m n n
+TD123 2> ␅
+TD679594 ␆undo
+TD100 2> undo
+TD144 undo
+TD134 1> ␅
+TD2439731 ␆*
+TD98 1> *
+TD100155 ? ␅
+TD788079 ␆1
+TD102 ? 1
+TD223 📋 "papaw" ? ␅
+TD5711428 ␆nnnnn
+TD103 📋 "papaw" ? nnnnn
+TD209 tried: PAPAW n n n n n
+TD174 2> ␅
+TD1871368 ␆* 
+TD79 2> * 
+TD113425 ? ␅
+TD798453 ␆1
+TD63 ? 1
+TD156 📋 "vivid" ? ␅
+TD5184030 ␆nnnnn
+TD96 📋 "vivid" ? nnnnn
+TD195 tried: VIVID n n n n n
+TD181 3> ␅
+TD17319694 ␆* :v [aislecir] -bot 10
+TD79 3> * :v [aislecir] -bot 10
+TD96010 ? ␅
+TD1015942 ␆1
+TD100 ? 1
+TD225 📋 "knout" ? ␅
+TD8831805 ␆nnYYn
+TD107 📋 "knout" ? nnYYn
+TD237 tried: KNOUT n n Y Y n
+TD243 4> ␅
+TD975253 ␆undo
+TD104 4> undo
+TD155 undo
+TD282 3> ␅
+TD2887631 ␆*
+TD98 3> *
+TD80197 ? ␅
+TD791678 ␆1
+TD103 ? 1
+TD260 📋 "feeze" ? ␅
+TD3527637 ␆Ynnnn
+TD89 📋 "feeze" ? Ynnnn
+TD207 tried: FEEZE Y n n n n
+TD194 4> ␅
+TD743501 ␆undo
+TD98 4> undo
+TD140 undo
+TD238 3> ␅
+TD2727489 ␆*
+TD71 3> *
+TD66833 ? ␅
+TD845072 ␆1
+TD106 ? 1
+TD264 📋 "seeks" ? ␅
+TD3207794 ␆nnnnn
+TD80 📋 "seeks" ? nnnnn
+TD157 tried: SEEKS n n n n n
+TD128 4> ␅
+TD791539 ␆*
+TD79 4> *
+TD92168 ? ␅
+TD3147891 ␆1
+TD94 ? 1
+TD236 📋 "mythy" ? ␅
+TD5343582 ␆nnnnn
+TD85 📋 "mythy" ? nnnnn
+TD153 tried: MYTHY n n n n n
+TD141 5> ␅
+TD663758 ␆*
+TD118 5> *
+TD163783 ? ␅
+TD2499875 ␆1
+TD85 ? 1
+TD189 📋 "bongo" ? ␅
+TD4224276 ␆nMnnn
+TD120 📋 "bongo" ? nMnnn
+TD286 tried: BONGO n m n n n
+TD294 6> ␅
+TD439096 ␆*
+TD111 6> *
+TD162629 📋 "quoll" ? ␅
+TD4877290 ␆nMYMn
+TD128 📋 "quoll" ? nMYMn
+TD232 tried: QUOLL n m Y m n
+TD255 📋> ␅
+TD4344287 ␆Don't Wordle 1371 - SURVIVED
+TD125 📋> Don't Wordle 1371 - SURVIVED
+TD17 📋> ␅
+TD47 ␆Hooray! I didn't Wordle today!
+TD8 📋> Hooray! I didn't Wordle today!
+TD7 📋> ␅
+TD18 ␆⬜⬜⬜⬜⬜5916
+TD7 📋> ⬜⬜⬜⬜⬜5916
+TD6 📋> ␅
+TD13 ␆⬜⬜⬜⬜⬜2890
+TD6 📋> ⬜⬜⬜⬜⬜2890
+TD5 📋> ␅
+TD12 ␆⬜⬜⬜⬜⬜452
+TD5 📋> ⬜⬜⬜⬜⬜452
+TD5 📋> ␅
+TD12 ␆⬜⬜⬜⬜⬜66
+TD5 📋> ⬜⬜⬜⬜⬜66
+TD5 📋> ␅
+TD13 ␆⬜🟨⬜⬜⬜10
+TD5 📋> ⬜🟨⬜⬜⬜10
+TD5 📋> ␅
+TD12 ␆⬜🟨🟩🟨⬜2
+TD5 📋> ⬜🟨🟩🟨⬜2
+TD5 📋> ␅
+TD11 ␆Undos used: 4
+TD6 📋> Undos used: 4
+TD6 📋> ␅
+TD14 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD16 ␆  2 words remaining
+TD6 📋>   2 words remaining
+TD6 📋> ␅
+TD11 ␆x 6 unused letters
+TD5 📋> x 6 unused letters
+TD5 📋> ␅
+TD894801 ␆= 12 total score
+TD117 📋> = 12 total score
+TD16 📋> ␅
+TD439791 ␄
+TD210 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1371 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5916\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2890\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c452\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c66\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c10\n\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\u2b1c2\nUndos used: 4\n\n  2 words remaining\nx 6 unused letters\n= 12 total score"}
+TD1622 result: "Don't Wordle 1371 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5916\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2890\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c452\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c66\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c10\n\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\u2b1c2\nUndos used: 4\n\n  2 words remaining\nx 6 unused letters\n= 12 total score"
+TD111 📆 2026-02-23 ? ␅
+TD286100 ␆
+TD117 📆 2026-02-23 ? 
