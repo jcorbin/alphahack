@@ -1,0 +1,244 @@
+T503.25846240300007 now: 2026-02-23T09:35:46EST
+TD82 site: m-w.com/games/quordle/#/
+TD13 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD78  ...␅
+TD7301599 ␆
+TD73  ...
+TD346304 > ␅
+TD781673 ␆*
+TD74 > *
+TD33760 ? ␅
+TD1006203 ␆1
+TD62 ? 1
+TD123 questioning: snare
+TD92 Classic #1 _____? ␅
+TD2479988 ␆YMnnn
+TD97 Classic #1 _____? YMnnn
+TD305 attempt: 0 SNARE Y m n n n
+TD63 Classic #2 _____? ␅
+TD1719297 ␆YnMnn
+TD107 Classic #2 _____? YnMnn
+TD246 attempt: 1 SNARE Y n m n n
+TD103 Classic #3 _____? ␅
+TD1215713 ␆nnMMn
+TD73 Classic #3 _____? nnMMn
+TD138 attempt: 2 SNARE n n m m n
+TD64 Classic #4 _____? ␅
+TD1799621 ␆nMYMn
+TD96 Classic #4 _____? nMYMn
+TD228 attempt: 3 SNARE n m Y m n
+TD300182 > ␅
+TD979516 ␆*
+TD77 > *
+TD1314 ? ␅
+TD1950629 ␆1
+TD75 ? 1
+TD128 questioning: carol
+TD101 Classic #1 S____ ~N -AER? ␅
+TD3431947 ␆nnnnM
+TD77 Classic #1 S____ ~N -AER? nnnnM
+TD150 attempt: 0 CAROL n n n n m
+TD72 Classic #2 S____ ~A -ENR? ␅
+TD1495613 ␆MMnnn
+TD78 Classic #2 S____ ~A -ENR? MMnnn
+TD156 attempt: 1 CAROL m m n n n
+TD74 Classic #3 _____ ~AR -ENS? ␅
+TD1711745 ␆nMYMn
+TD100 Classic #3 _____ ~AR -ENS? nMYMn
+TD154 attempt: 2 CAROL n m Y m n
+TD71 Classic #4 __A__ ~NR -ES? ␅
+TD1431628 ␆nMMnn
+TD85 Classic #4 __A__ ~NR -ES? nMMnn
+TD164 attempt: 3 CAROL n m m n n
+TD309202 > ␅
+TD2914557 ␆*
+TD76 > *
+TD536 ? ␅
+TD2335519 ␄
+TD106 <EOF>
+TD282982 > ␅
+TD756689 ␆* 1
+TD75 > * 1
+TD73048 ? ␅
+TD3695198 ␄
+TD118 <EOF>
+TD324817 > ␅
+TD714855 ␆*
+TD72 > *
+TD446 ? ␅
+TD1599665 ␆1
+TD99 ? 1
+TD172 questioning: grant
+TD155 Classic #1 S____ ~LN -ACEOR? ␅
+TD4239684 ␆nnnYn
+TD100 Classic #1 S____ ~LN -ACEOR? nnnYn
+TD233 attempt: 0 GRANT n n n Y n
+TD142 Classic #2 S____ ~AC -ELNOR? ␅
+TD1807396 ␆nnMnn
+TD76 Classic #2 S____ ~AC -ELNOR? nnMnn
+TD166 attempt: 1 GRANT n n m n n
+TD73 Classic #3 __R__ ~AO -CELNS? ␅
+TD1248117 ␆nMMnn
+TD81 Classic #3 __R__ ~AO -CELNS? nMMnn
+TD185 attempt: 2 GRANT n m m n n
+TD79 Classic #4 __A__ ~NR -CELOS? ␅
+TD1255291 ␆nYYMn
+TD73 Classic #4 __A__ ~NR -CELOS? nYYMn
+TD148 attempt: 3 GRANT n Y Y m n
+TD340577 > ␅
+TD1219197 ␆*
+TD97 > *
+TD501 ? ␅
+TD2823571 ␄
+TD135 <EOF>
+TD368702 > ␅
+TD1094920 ␆* 3
+TD83 > * 3
+TD86858 ? ␅
+TD8265224 ␆6
+TD62 ? 6
+TD115 questioning: korai
+TD88 Classic #1 S__N_ ~L -ACEGORT? ␅
+TD3359773 ␆MnnnM
+TD76 Classic #1 S__N_ ~L -ACEGORT? MnnnM
+TD156 attempt: 0 KORAI m n n n m
+TD77 Classic #2 S____ ~AC -EGLNORT? ␅
+TD1760559 ␆nnnYn
+TD85 Classic #2 S____ ~AC -EGLNORT? nnnYn
+TD135 attempt: 1 KORAI n n n Y n
+TD65 Classic #3 __R__ ~AO -CEGLNST? ␅
+TD1647109 ␆nYYYn
+TD104 Classic #3 __R__ ~AO -CEGLNST? nYYYn
+TD248 attempt: 2 KORAI n Y Y Y n
+TD113 Classic #4 _RA__ ~N -CEGLOST? ␅
+TD1255454 ␆nnMMn
+TD77 Classic #4 _RA__ ~N -CEGLOST? nnMMn
+TD153 attempt: 3 KORAI n n m m n
+TD270756 > ␅
+TD680928 ␆*
+TD72 > *
+TD256 questioning: slink
+TD75 Classic #1 S__N_ ~IKL -ACEGORT? ␅
+TD3031794 ␆YYYYY
+TD108 Classic #1 S__N_ ~IKL -ACEGORT? YYYYY
+TD217 attempt: 0 SLINK Y Y Y Y Y
+TD116 Classic #2 S__A_ ~C -EGIKLNORT? ␅
+TD3600352 ␆Ynnnn
+TD78 Classic #2 S__A_ ~C -EGIKLNORT? Ynnnn
+TD150 attempt: 1 SLINK Y n n n n
+TD117 Classic #3 _ORA_ -CEGIKLNST? ␅
+TD1934742 ␆nnnnn
+TD76 Classic #3 _ORA_ -CEGIKLNST? nnnnn
+TD155 attempt: 2 SLINK n n n n n
+TD74 Classic #4 _RA__ ~N -CEGIKLOST? ␅
+TD1271868 ␆nnnMn
+TD99 Classic #4 _RA__ ~N -CEGIKLOST? nnnMn
+TD224 attempt: 3 SLINK n n n m n
+TD252753 > ␅
+TD850825 ␆*
+TD69 > *
+TD315 ? ␅
+TD7055788 ␄
+TD105 <EOF>
+TD232968 > ␅
+TD1518896 ␆* 3
+TD108 > * 3
+TD79158 ? ␅
+TD13936928 ␄
+TD143 <EOF>
+TD240120 > ␅
+TD943820 ␆* 4
+TD99 > * 4
+TD67927 ? ␅
+TD2300323 ␄
+TD135 <EOF>
+TD212433 > ␅
+TD1003178 ␆* 3
+TD100 > * 3
+TD66107 ? ␅
+TD5573572 ␆1
+TD74 ? 1
+TD121 questioning: foram
+TD100 Classic #2 S__A_ ~C -EGIKLNORT? ␅
+TD7488105 ␆nnnYM
+TD99 Classic #2 S__A_ ~C -EGIKLNORT? nnnYM
+TD233 attempt: 1 FORAM n n n Y m
+TD143 Classic #3 _ORA_ -CEGIKLNST? ␅
+TD1951417 ␆YYYYn
+TD69 Classic #3 _ORA_ -CEGIKLNST? YYYYn
+TD131 attempt: 2 FORAM Y Y Y Y n
+TD66 Classic #4 _RA__ ~N -CEGIKLOST? ␅
+TD1079796 ␆nnMMn
+TD106 Classic #4 _RA__ ~N -CEGIKLOST? nnMMn
+TD268 attempt: 3 FORAM n n m m n
+TD218209 > ␅
+TD797436 ␆*
+TD64 > *
+TD248 questioning: sumac
+TD73 Classic #2 S__A_ ~CM -EFGIKLNORT? ␅
+TD2663626 ␆YYYYY
+TD71 Classic #2 S__A_ ~CM -EFGIKLNORT? YYYYY
+TD130 attempt: 1 SUMAC Y Y Y Y Y
+TD68 Classic #3 FORA_ -CEGIKLMNST? ␅
+TD1375787 ␆nnnYn
+TD76 Classic #3 FORA_ -CEGIKLMNST? nnnYn
+TD136 attempt: 2 SUMAC n n n Y n
+TD66 Classic #4 _RA__ ~N -CEFGIKLMOST? ␅
+TD2175631 ␆nnnMn
+TD82 Classic #4 _RA__ ~N -CEFGIKLMOST? nnnMn
+TD150 attempt: 3 SUMAC n n n m n
+TD170701 > ␅
+TD637101 ␆*
+TD96 > *
+TD378 questioning: foray
+TD79 Classic #3 FORA_ -CEGIKLMNSTU? ␅
+TD2447497 ␆YYYYY
+TD100 Classic #3 FORA_ -CEGIKLMNSTU? YYYYY
+TD217 attempt: 2 FORAY Y Y Y Y Y
+TD126 Classic #4 _RA__ ~N -CEFGIKLMOSTU? ␅
+TD1247624 ␆nnMMn
+TD98 Classic #4 _RA__ ~N -CEFGIKLMOSTU? nnMMn
+TD234 attempt: 3 FORAY n n m m n
+TD77561 > ␅
+TD698173 ␆*
+TD98 > *
+TD540 ? ␅
+TD3471331 ␆2
+TD73 ? 2
+TD128 questioning: drawn
+TD91 Classic #4 _RA__ ~N -CEFGIKLMOSTUY? ␅
+TD4111897 ␆nYYYY
+TD119 Classic #4 _RA__ ~N -CEFGIKLMOSTUY? nYYYY
+TD238 attempt: 3 DRAWN n Y Y Y Y
+TD67167 > ␅
+TD3756254 ␆/res
+TD109 > /res
+TD261 📋> ␅
+TD608450 ␆🙂 Daily Quordle 1491
+TD77 📋> 🙂 Daily Quordle 1491
+TD7 📋> ␅
+TD31 ␆5️⃣7️⃣
+TD4 📋> 5️⃣7️⃣
+TD3 📋> ␅
+TD6 ␆8️⃣🟥
+TD2 📋> 8️⃣🟥
+TD2 📋> ␅
+TD5 ␆m-w.com/games/quordle/
+TD3 📋> m-w.com/games/quordle/
+TD2 📋> ␅
+TD295154 ␆
+TD78 📋> 
+TD9 📋> ␅
+TD215873 ␄
+TD149 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1491\n5\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TD842 result: "\ud83d\ude42 Daily Quordle 1491\n5\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TD88824 > ␅
+TD142192 ␆
+TD74 > 
+TD134 > ␅
+TD1647881 ␆/store
+TD103 > /store
+TD263 📆 2026-02-23 ? ␅
+TD1479784 ␆
+TD103 📆 2026-02-23 ? 
