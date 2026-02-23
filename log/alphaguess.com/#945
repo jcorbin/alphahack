@@ -1,0 +1,78 @@
+T111.16453098600005 now: 2026-02-23T09:29:14EST
+TD83 site: alphaguess.com
+TD146071 loaded 196527 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (77 words excluded) asof 85c0871306104b35917196981b6eb72b0949e2f0
+TD103  ...␅
+TD2773044 ␆
+TD101  ...
+TD181 [0 : 98218 : 196527] mach? ␅
+TD4567785 ␆b
+TD100 [0 : 98218 : 196527] mach? b
+TD106 progress: -1 98218 mach
+TD117 [0 : 47381 : 98218] dis? ␅
+TD1519869 ␆b
+TD97 [0 : 47381 : 98218] dis? b
+TD107 progress: -1 47381 dis
+TD122 [0 : 23682 : 47381] camp? ␅
+TD1407476 ␆b
+TD98 [0 : 23682 : 47381] camp? b
+TD107 progress: -1 23682 camp
+TD108 [0 : 11764 : 23682] back? ␅
+TD1359747 ␆b
+TD96 [0 : 11764 : 23682] back? b
+TD108 progress: -1 11764 back
+TD110 [0 : 5876 : 11764] angel? ␅
+TD1279527 ␆a
+TD99 [0 : 5876 : 11764] angel? a
+TD110 progress: 1 5876 angel
+TD107 [5877 : 8323 : 11764] ar? ␅
+TD1271847 ␆a
+TD99 [5877 : 8323 : 11764] ar? a
+TD109 progress: 1 8323 ar
+TD140 [8324 : 9341 : 11764] as? ␅
+TD1319766 ␆a
+TD104 [8324 : 9341 : 11764] as? a
+TD106 progress: 1 9341 as
+TD420 [9342 : 10553 : 11764] audient? ␅
+TD1799304 ␆b
+TD98 [9342 : 10553 : 11764] audient? b
+TD108 progress: -1 10553 audient
+TD541 [9342 : 9947 : 10553] asthenosphere? ␅
+TD1375136 ␆a
+TD98 [9342 : 9947 : 10553] asthenosphere? a
+TD112 progress: 1 9947 asthenosphere
+TD106 [9948 : 10247 : 10553] atonal? ␅
+TD2295809 ␆a
+TD98 [9948 : 10247 : 10553] atonal? a
+TD105 progress: 1 10247 atonal
+TD112 [10248 : 10396 : 10553] attest? ␅
+TD2135677 ␆b
+TD99 [10248 : 10396 : 10553] attest? b
+TD106 progress: -1 10396 attest
+TD106 [10248 : 10316 : 10396] attach? ␅
+TD3039713 ␆it
+TD99 [10248 : 10316 : 10396] attach? it
+TD109 progress: 0 10316 attach
+TD28 [10248 : 10316 : 10396] <Done>.
+TD87 📋> ␅
+TD2936280 ␆🧩 Puzzle #945
+TD86 📋> 🧩 Puzzle #945
+TD13 📋> ␅
+TD42 ␆🤔 12 guesses
+TD6 📋> 🤔 12 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 17s
+TD6 📋> ⏱️ 17s
+TD5 📋> ␅
+TD255210 ␆🔗 alphaguess.com/945
+TD99 📋> 🔗 alphaguess.com/945
+TD13 📋> ␅
+TD535942 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #945\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/945"}
+TD102 result: "\ud83e\udde9 Puzzle #945\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/945"
+TD16 result puzzle: 945
+TD14 result guesses: 12
+TD7 result time: 17s
+TD5 result link: alphaguess.com/945
+TD134 📆 2026-02-23 ? ␅
+TD207409 ␆
+TD73 📆 2026-02-23 ? 
