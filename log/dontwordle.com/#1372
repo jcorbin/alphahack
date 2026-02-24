@@ -1,0 +1,160 @@
+T126.11311348900199 now: 2026-02-24T08:02:57EST
+TD75 site: dontwordle.com
+TD13 wordlist: nwl2023.txt
+TD24  ...␅
+TD479147 ␆
+TD118  ...
+TD147 1> ␅
+TD7095709 ␆* -bot 10
+TD107 1> * -bot 10
+TD151487 ? ␅
+TD3160483 ␆8
+TD119 ? 8
+TD318 📋 "saner" ? ␅
+TD4215622 ␆nMnnY
+TD121 📋 "saner" ? nMnnY
+TD681 tried: SANER n m n n Y
+TD240 2> ␅
+TD694935 ␆undo
+TD120 2> undo
+TD184 undo
+TD172 1> ␅
+TD3455405 ␆*
+TD145 1> *
+TD113443 ? ␅
+TD734413 ␆1
+TD90 ? 1
+TD275 📋 "cuppy" ? ␅
+TD3471726 ␆Ynnnn
+TD132 📋 "cuppy" ? Ynnnn
+TD314 tried: CUPPY Y n n n n
+TD281 2> ␅
+TD655126 ␆undo
+TD110 2> undo
+TD144 undo
+TD123 1> ␅
+TD2495740 ␆*
+TD106 1> *
+TD120058 ? ␅
+TD527974 ␆1
+TD126 ? 1
+TD365 📋 "immix" ? ␅
+TD5959589 ␆nnnYn
+TD124 📋 "immix" ? nnnYn
+TD196 tried: IMMIX n n n Y n
+TD121 2> ␅
+TD623211 ␆undo
+TD79 2> undo
+TD105 undo
+TD100 1> ␅
+TD2807962 ␆*
+TD134 1> *
+TD93814 ? ␅
+TD602242 ␆1
+TD109 ? 1
+TD258 📋 "stots" ? ␅
+TD6031548 ␆nnnnn
+TD125 📋 "stots" ? nnnnn
+TD205 tried: STOTS n n n n n
+TD178 2> ␅
+TD479373 ␆*
+TD101 2> *
+TD101566 ? ␅
+TD1202333 ␆1
+TD81 ? 1
+TD181 📋 "keeve" ? ␅
+TD3375810 ␆nnnnn
+TD99 📋 "keeve" ? nnnnn
+TD207 tried: KEEVE n n n n n
+TD178 3> ␅
+TD815569 ␆*
+TD107 3> *
+TD97688 ? ␅
+TD710297 ␆1
+TD98 ? 1
+TD230 📋 "wuddy" ? ␅
+TD4599598 ␆nnnnn
+TD102 📋 "wuddy" ? nnnnn
+TD208 tried: WUDDY n n n n n
+TD204 4> ␅
+TD407634 ␆*
+TD107 4> *
+TD142796 📋 "grrrl" ? ␅
+TD7537010 ␆nMnnn
+TD98 📋 "grrrl" ? nMnnn
+TD207 tried: GRRRL n m n n n
+TD204 5> ␅
+TD455585 ␆*
+TD83 5> *
+TD190958 ? ␅
+TD2033248 ␆1
+TD98 ? 1
+TD236 📋 "bazar" ? ␅
+TD7135569 ␆nMnnY
+TD119 📋 "bazar" ? nMnnY
+TD222 tried: BAZAR n m n n Y
+TD261 6> ␅
+TD663146 ␆undo
+TD79 6> undo
+TD106 undo
+TD179 5> ␅
+TD4048127 ␆* -sans
+TD98 5> * -sans
+TD88705 ? ␅
+TD15438997 ␆3
+TD98 ? 3
+TD220 📋 "faqir" ? ␅
+TD6167808 ␆nMnYY
+TD106 📋 "faqir" ? nMnYY
+TD219 tried: FAQIR n m n Y Y
+TD260 6> ␅
+TD911779 ␆undo
+TD98 6> undo
+TD138 undo
+TD274 5> ␅
+TD5487945 ␆* -sans
+TD87 5> * -sans
+TD95283 ? ␅
+TD967898 ␆1
+TD95 ? 1
+TD223 📋 "rajah" ? ␅
+TD9327794 ␆MMnnM
+TD100 📋 "rajah" ? MMnnM
+TD205 tried: RAJAH m m n n m
+TD224 6> ␅
+TD3768767 ␆/res
+TD85 6> /res
+TD147 📋> ␅
+TD607182 ␆Don't Wordle 1372 - ELIMINATED
+TD98 📋> Don't Wordle 1372 - ELIMINATED
+TD12 📋> ␅
+TD42 ␆Well technically I didn't Wordle!
+TD7 📋> Well technically I didn't Wordle!
+TD6 📋> ␅
+TD16 ␆⬜⬜⬜⬜⬜3618
+TD6 📋> ⬜⬜⬜⬜⬜3618
+TD5 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜1313
+TD5 📋> ⬜⬜⬜⬜⬜1313
+TD5 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜408
+TD5 📋> ⬜⬜⬜⬜⬜408
+TD4 📋> ␅
+TD12 ␆⬜🟨⬜⬜⬜14
+TD4 📋> ⬜🟨⬜⬜⬜14
+TD4 📋> ␅
+TD11 ␆🟨🟨⬜⬜🟨1
+TD4 📋> 🟨🟨⬜⬜🟨1
+TD4 📋> ␅
+TD10 ␆⬛⬛⬛⬛⬛
+TD4 📋> ⬛⬛⬛⬛⬛
+TD4 📋> ␅
+TD303013 ␆Undos used: 5
+TD96 📋> Undos used: 5
+TD13 📋> ␅
+TD175947 ␄
+TD181 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Don't Wordle 1372 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3618\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1313\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c408\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c14\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe81\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"}
+TD1199 result: "Don't Wordle 1372 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3618\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1313\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c408\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c14\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe81\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"
+TD83 📆 2026-02-24 ? ␅
+TD198454 ␆
+TD90 📆 2026-02-24 ? 
