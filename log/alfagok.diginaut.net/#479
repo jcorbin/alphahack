@@ -1,0 +1,90 @@
+T43.72857630600629 now: 2026-02-24T08:01:35EST
+TD80 site: alfagok.diginaut.net
+TD437570 loaded 399643 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1209 words excluded) asof 586c738c69b6b5e72260ced366bf90929cbd330a
+TD150  ...␅
+TD3185135 ␆
+TD119  ...
+TD261 [0 : 199816 : 399643] lijm? ␅
+TD2967463 ␆a
+TD117 [0 : 199816 : 399643] lijm? a
+TD410 progress: 1 199816 lijm
+TD141 [199817 : 299709 : 399643] schub? ␅
+TD1919337 ␆b
+TD80 [199817 : 299709 : 399643] schub? b
+TD102 progress: -1 299709 schub
+TD88 [199817 : 247706 : 299709] op? ␅
+TD1375683 ␆a
+TD121 [199817 : 247706 : 299709] op? a
+TD136 progress: 1 247706 op
+TD180 [247707 : 273511 : 299709] proef? ␅
+TD1519835 ␆b
+TD117 [247707 : 273511 : 299709] proef? b
+TD135 progress: -1 273511 proef
+TD126 [247707 : 260592 : 273511] pater? ␅
+TD2855492 ␆a
+TD118 [247707 : 260592 : 273511] pater? a
+TD128 progress: 1 260592 pater
+TD132 [260593 : 267045 : 273511] plomp? ␅
+TD1439529 ␆a
+TD114 [260593 : 267045 : 273511] plomp? a
+TD125 progress: 1 267045 plomp
+TD129 [267046 : 270118 : 273511] pot? ␅
+TD3711750 ␆a
+TD172 [267046 : 270118 : 273511] pot? a
+TD356 progress: 1 270118 pot
+TD139 [270119 : 271779 : 273511] prijs? ␅
+TD1903203 ␆b
+TD97 [270119 : 271779 : 273511] prijs? b
+TD93 progress: -1 271779 prijs
+TD116 [270119 : 270797 : 271779] pre? ␅
+TD1807787 ␆b
+TD92 [270119 : 270797 : 271779] pre? b
+TD99 progress: -1 270797 pre
+TD107 [270119 : 270439 : 270797] pr? ␅
+TD1743737 ␆a
+TD123 [270119 : 270439 : 270797] pr? a
+TD90 progress: 1 270439 pr
+TD168 [270440 : 270615 : 270797] practicum? ␅
+TD1783513 ␆b
+TD124 [270440 : 270615 : 270797] practicum? b
+TD124 progress: -1 270615 practicum
+TD92 [270440 : 270491 : 270615] praat? ␅
+TD1751926 ␆a
+TD176 [270440 : 270491 : 270615] praat? a
+TD146 progress: 1 270491 praat
+TD120 [270492 : 270546 : 270615] pracht? ␅
+TD1615484 ␆a
+TD105 [270492 : 270546 : 270615] pracht? a
+TD117 progress: 1 270546 pracht
+TD173 [270547 : 270581 : 270615] prachtlievende? ␅
+TD1599584 ␆b
+TD99 [270547 : 270581 : 270615] prachtlievende? b
+TD121 progress: -1 270581 prachtlievende
+TD127 [270547 : 270562 : 270581] prachtig? ␅
+TD1935635 ␆it
+TD148 [270547 : 270562 : 270581] prachtig? it
+TD151 progress: 0 270562 prachtig
+TD33 [270547 : 270562 : 270581] <Done>.
+TD113 📋> ␅
+TD2872257 ␆🧩 Puzzel #479
+TD131 📋> 🧩 Puzzel #479
+TD14 📋> ␅
+TD50 ␆🤔 15 gokken
+TD9 📋> 🤔 15 gokken
+TD6 📋> ␅
+TD15 ␆⏱️ 27s
+TD6 📋> ⏱️ 27s
+TD5 📋> ␅
+TD303207 ␆🔗 alfagok.diginaut.net
+TD128 📋> 🔗 alfagok.diginaut.net
+TD16 📋> ␅
+TD135750 ␄
+TD247 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #479\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 27s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD567 result: "\ud83e\udde9 Puzzel #479\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 27s\n\ud83d\udd17 alfagok.diginaut.net"
+TD12 result puzzle: 479
+TD4 result guesses: 15
+TD3 result time: 27s
+TD2 result link: alfagok.diginaut.net
+TD71 📆 2026-02-24 ? ␅
+TD191297 ␆
+TD120 📆 2026-02-24 ? 
