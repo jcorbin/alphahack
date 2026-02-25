@@ -1,0 +1,193 @@
+T4749.287086505006 now: 2026-02-25T09:26:44EST
+TD78 site: m-w.com/games/quordle/#/
+TD13 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD80  ...␅
+TD271100 ␆
+TD102  ...
+TD303292 > ␅
+TD928397 ␆
+TD66 > 
+TD114 > ␅
+TD2391748 ␆*
+TD60 > *
+TD33657 ? ␅
+TD1286279 ␆1
+TD66 ? 1
+TD121 questioning: snare
+TD94 Classic #1 _____? ␅
+TD3639772 ␆Ynnnn
+TD65 Classic #1 _____? Ynnnn
+TD225 attempt: 0 SNARE Y n n n n
+TD74 Classic #2 _____? ␅
+TD1439698 ␆nYnnM
+TD67 Classic #2 _____? nYnnM
+TD141 attempt: 1 SNARE n Y n n m
+TD59 Classic #3 _____? ␅
+TD1759754 ␆nnnMM
+TD66 Classic #3 _____? nnnMM
+TD136 attempt: 2 SNARE n n n m m
+TD59 Classic #4 _____? ␅
+TD1151774 ␆nMnnM
+TD70 Classic #4 _____? nMnnM
+TD134 attempt: 3 SNARE n m n n m
+TD359595 > ␅
+TD752141 ␆*
+TD71 > *
+TD1481 ? ␅
+TD1662546 ␆2
+TD74 ? 2
+TD121 questioning: older
+TD94 Classic #1 S____ -AENR? ␅
+TD2623687 ␆MMnnn
+TD71 Classic #1 S____ -AENR? MMnnn
+TD131 attempt: 0 OLDER m m n n n
+TD61 Classic #2 _N___ ~E -ARS? ␅
+TD1415975 ␆nnYYn
+TD110 Classic #2 _N___ ~E -ARS? nnYYn
+TD756 attempt: 1 OLDER n n Y Y n
+TD71 Classic #3 _____ ~ER -ANS? ␅
+TD1663034 ␆nYnYY
+TD100 Classic #3 _____ ~ER -ANS? nYnYY
+TD228 attempt: 2 OLDER n Y n Y Y
+TD107 Classic #4 _____ ~EN -ARS? ␅
+TD1311449 ␆MMnMn
+TD75 Classic #4 _____ ~EN -ARS? MMnMn
+TD137 attempt: 3 OLDER m m n m n
+TD371206 > ␅
+TD780645 ␆*
+TD92 > *
+TD329 ? ␅
+TD4223788 ␄
+TD142 <EOF>
+TD322192 > ␅
+TD2301503 ␆* 1
+TD93 > * 1
+TD65246 ? ␅
+TD1974771 ␆2
+TD77 ? 2
+TD124 questioning: spoil
+TD98 Classic #1 S____ ~LO -ADENR? ␅
+TD3263802 ␆YYYnY
+TD98 Classic #1 S____ ~LO -ADENR? YYYnY
+TD243 attempt: 0 SPOIL Y Y Y n Y
+TD115 Classic #2 _NDE_ -ALORS? ␅
+TD1431555 ␆nnnMn
+TD98 Classic #2 _NDE_ -ALORS? nnnMn
+TD242 attempt: 1 SPOIL n n n m n
+TD113 Classic #3 _L_ER -ADNOS? ␅
+TD1727531 ␆nnnnM
+TD60 Classic #3 _L_ER -ADNOS? nnnnM
+TD131 attempt: 2 SPOIL n n n n m
+TD64 Classic #4 _____ ~ELNO -ADRS? ␅
+TD1359632 ␆nnMnM
+TD63 Classic #4 _____ ~ELNO -ADRS? nnMnM
+TD129 attempt: 3 SPOIL n n m n m
+TD319491 > ␅
+TD544495 ␆*
+TD87 > *
+TD410 questioning: spool
+TD124 Classic #1 SPO_L -ADEINR? ␅
+TD4799401 ␆YYYYY
+TD98 Classic #1 SPO_L -ADEINR? YYYYY
+TD217 attempt: 0 SPOOL Y Y Y Y Y
+TD114 Classic #2 _NDE_ ~I -ALOPRS? ␅
+TD1231563 ␆nnnnn
+TD98 Classic #2 _NDE_ ~I -ALOPRS? nnnnn
+TD221 attempt: 1 SPOOL n n n n n
+TD118 Classic #3 _L_ER -ADINOPS? ␅
+TD1607601 ␆nnnnM
+TD80 Classic #3 _L_ER -ADINOPS? nnnnM
+TD164 attempt: 2 SPOOL n n n n m
+TD80 Classic #4 _____ ~ELNO -ADIPRS? ␅
+TD1271499 ␆nnnYM
+TD88 Classic #4 _____ ~ELNO -ADIPRS? nnnYM
+TD220 attempt: 3 SPOOL n n n Y m
+TD220788 > ␅
+TD547085 ␆*
+TD99 > *
+TD394 questioning: index
+TD122 Classic #2 _NDE_ ~I -ALOPRS? ␅
+TD3383355 ␆YYYYY
+TD99 Classic #2 _NDE_ ~I -ALOPRS? YYYYY
+TD232 attempt: 1 INDEX Y Y Y Y Y
+TD113 Classic #3 _L_ER -ADINOPS? ␅
+TD1599594 ␆nnnYn
+TD97 Classic #3 _L_ER -ADINOPS? nnnYn
+TD235 attempt: 2 INDEX n n n Y n
+TD115 Classic #4 ___O_ ~ELN -ADIPRS? ␅
+TD1312162 ␆nMnMn
+TD82 Classic #4 ___O_ ~ELN -ADIPRS? nMnMn
+TD161 attempt: 3 INDEX n m n m n
+TD138949 > ␅
+TD932817 ␆*
+TD90 > *
+TD616 ? ␅
+TD2366775 ␄
+TD116 <EOF>
+TD191893 > ␅
+TD999833 ␆* 4
+TD80 > * 4
+TD96168 ? ␅
+TD5823823 ␄
+TD106 <EOF>
+TD154087 > ␅
+TD1333827 ␆* 3
+TD95 > * 3
+TD65699 ? ␅
+TD5694327 ␆4
+TD79 ? 4
+TD131 questioning: flyer
+TD104 Classic #3 _L_ER -ADINOPSX? ␅
+TD4871778 ␆nYnYY
+TD75 Classic #3 _L_ER -ADINOPSX? nYnYY
+TD150 attempt: 2 FLYER n Y n Y Y
+TD73 Classic #4 ___O_ ~ELN -ADIPRSX? ␅
+TD2087769 ␆YMnMn
+TD97 Classic #4 ___O_ ~ELN -ADIPRSX? YMnMn
+TD227 attempt: 3 FLYER Y m n m n
+TD157397 > ␅
+TD610261 ␆*
+TD92 > *
+TD368 questioning: felon
+TD111 Classic #3 _L_ER -ADFINOPSXY? ␅
+TD3887537 ␆nMMnn
+TD94 Classic #3 _L_ER -ADFINOPSXY? nMMnn
+TD209 attempt: 2 FELON n m m n n
+TD110 Classic #4 F__O_ ~ELN -ADIPRSXY? ␅
+TD1079473 ␆YYYYY
+TD78 Classic #4 F__O_ ~ELN -ADIPRSXY? YYYYY
+TD154 attempt: 3 FELON Y Y Y Y Y
+TD78555 > ␅
+TD625253 ␆*
+TD99 > *
+TD560 ? ␅
+TD5655318 ␆1
+TD108 ? 1
+TD184 questioning: bluer
+TD156 Classic #3 _L_ER -ADFINOPSXY? ␅
+TD3607870 ␆YYYYY
+TD95 Classic #3 _L_ER -ADFINOPSXY? YYYYY
+TD226 attempt: 2 BLUER Y Y Y Y Y
+TD109 📋> ␅
+TD5287838 ␆🙂 Daily Quordle 1493
+TD93 📋> 🙂 Daily Quordle 1493
+TD12 📋> ␅
+TD60 ␆4️⃣5️⃣
+TD7 📋> 4️⃣5️⃣
+TD6 📋> ␅
+TD19 ␆8️⃣7️⃣
+TD5 📋> 8️⃣7️⃣
+TD4 📋> ␅
+TD14 ␆m-w.com/games/quordle/
+TD11 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD287437 ␆
+TD79 📋> 
+TD8 📋> ␅
+TD207848 ␄
+TD173 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1493\n4\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1461 result: "\ud83d\ude42 Daily Quordle 1493\n4\ufe0f\u20e35\ufe0f\u20e3\n8\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD69 📆 2026-02-25 ? ␅
+TD294306 ␆
+TD81 📆 2026-02-25 ? 
