@@ -1,0 +1,94 @@
+T29.065204081009142 now: 2026-02-25T08:08:04EST
+TD159 site: alfagok.diginaut.net
+TD841368 loaded 399643 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1209 words excluded) asof dea229b50459290adef9e108bca6ed8a90addec3
+TD203  ...␅
+TD1828927 ␆
+TD121  ...
+TD263 [0 : 199816 : 399643] lijm? ␅
+TD4463675 ␆a
+TD130 [0 : 199816 : 399643] lijm? a
+TD393 progress: 1 199816 lijm
+TD142 [199817 : 299709 : 399643] schub? ␅
+TD1879216 ␆a
+TD107 [199817 : 299709 : 399643] schub? a
+TD148 progress: 1 299709 schub
+TD132 [299710 : 349477 : 399643] vakantie? ␅
+TD1431498 ␆a
+TD109 [299710 : 349477 : 399643] vakantie? a
+TD120 progress: 1 349477 vakantie
+TD147 [349478 : 374218 : 399643] vrij? ␅
+TD1495626 ␆b
+TD110 [349478 : 374218 : 399643] vrij? b
+TD121 progress: -1 374218 vrij
+TD151 [349478 : 353045 : 374218] ver? ␅
+TD1463657 ␆a
+TD110 [349478 : 353045 : 374218] ver? a
+TD123 progress: 1 353045 ver
+TD328 [353046 : 363628 : 374218] verzot? ␅
+TD1447383 ␆a
+TD121 [353046 : 363628 : 374218] verzot? a
+TD121 progress: 1 363628 verzot
+TD132 [363629 : 368640 : 374218] voetbal? ␅
+TD1407692 ␆a
+TD112 [363629 : 368640 : 374218] voetbal? a
+TD121 progress: 1 368640 voetbal
+TD147 [368641 : 370489 : 374218] voor? ␅
+TD1439757 ␆a
+TD127 [368641 : 370489 : 374218] voor? a
+TD126 progress: 1 370489 voor
+TD168 [370490 : 372341 : 374218] voortplanting? ␅
+TD1551583 ␆a
+TD109 [370490 : 372341 : 374218] voortplanting? a
+TD138 progress: 1 372341 voortplanting
+TD137 [372342 : 373212 : 374218] vos? ␅
+TD1591397 ␆b
+TD108 [372342 : 373212 : 374218] vos? b
+TD121 progress: -1 373212 vos
+TD415 [372342 : 372775 : 373212] voorwereld? ␅
+TD1439537 ␆a
+TD110 [372342 : 372775 : 373212] voorwereld? a
+TD138 progress: 1 372775 voorwereld
+TD196 [372776 : 372986 : 373212] vork? ␅
+TD1463578 ␆a
+TD111 [372776 : 372986 : 373212] vork? a
+TD130 progress: 1 372986 vork
+TD123 [372987 : 372996 : 373212] vorm? ␅
+TD1439600 ␆a
+TD112 [372987 : 372996 : 373212] vorm? a
+TD124 progress: 1 372996 vorm
+TD299 [372997 : 373104 : 373212] vormloosheid? ␅
+TD1791523 ␆b
+TD127 [372997 : 373104 : 373212] vormloosheid? b
+TD127 progress: -1 373104 vormloosheid
+TD530 [372997 : 373051 : 373104] vormgeving? ␅
+TD1655275 ␆a
+TD126 [372997 : 373051 : 373104] vormgeving? a
+TD121 progress: 1 373051 vormgeving
+TD131 [373052 : 373059 : 373104] vorming? ␅
+TD1719670 ␆it
+TD112 [373052 : 373059 : 373104] vorming? it
+TD123 progress: 0 373059 vorming
+TD30 [373052 : 373059 : 373104] <Done>.
+TD114 📋> ␅
+TD2760258 ␆🧩 Puzzel #480
+TD119 📋> 🧩 Puzzel #480
+TD15 📋> ␅
+TD46 ␆🤔 16 gokken
+TD8 📋> 🤔 16 gokken
+TD7 📋> ␅
+TD14 ␆⏱️ 23s
+TD7 📋> ⏱️ 23s
+TD6 📋> ␅
+TD271047 ␆🔗 alfagok.diginaut.net
+TD127 📋> 🔗 alfagok.diginaut.net
+TD13 📋> ␅
+TD143800 ␄
+TD157 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #480\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 23s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD691 result: "\ud83e\udde9 Puzzel #480\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 23s\n\ud83d\udd17 alfagok.diginaut.net"
+TD22 result puzzle: 480
+TD10 result guesses: 16
+TD7 result time: 23s
+TD6 result link: alfagok.diginaut.net
+TD98 📆 2026-02-25 ? ␅
+TD150946 ␆
+TD59 📆 2026-02-25 ? 
