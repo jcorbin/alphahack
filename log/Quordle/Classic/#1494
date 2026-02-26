@@ -1,0 +1,185 @@
+T654.2588529000059 now: 2026-02-26T09:27:12EST
+TD167 site: m-w.com/games/quordle/#/
+TD27 wordlist: nwl2023.txt
+TD9 num_words: 4
+TD159  ...␅
+TD4901049 ␆
+TD136  ...
+TD982259 > ␅
+TD264731 ␆*
+TD134 > *
+TD110689 ? ␅
+TD976961 ␆1
+TD133 ? 1
+TD335 questioning: marse
+TD296 Classic #1 _____? ␅
+TD2663385 ␆nMMnn
+TD107 Classic #1 _____? nMMnn
+TD420 attempt: 0 MARSE n m m n n
+TD133 Classic #2 _____? ␅
+TD1359502 ␆MnnnM
+TD125 Classic #2 _____? MnnnM
+TD341 attempt: 1 MARSE m n n n m
+TD160 Classic #3 _____? ␅
+TD1295297 ␆nnMnM
+TD109 Classic #3 _____? nnMnM
+TD260 attempt: 2 MARSE n n m n m
+TD114 Classic #4 _____? ␅
+TD1359578 ␆nnnMY
+TD108 Classic #4 _____? nnnMY
+TD308 attempt: 3 MARSE n n n m Y
+TD1038404 > ␅
+TD793231 ␆*
+TD91 > *
+TD5011 ? ␅
+TD931660 ␆1
+TD112 ? 1
+TD214 questioning: voter
+TD193 Classic #1 _____ ~AR -EMS? ␅
+TD2918616 ␆nMYnY
+TD99 Classic #1 _____ ~AR -EMS? nMYnY
+TD305 attempt: 0 VOTER n m Y n Y
+TD228 Classic #2 _____ ~EM -ARS? ␅
+TD975435 ␆nnnMn
+TD97 Classic #2 _____ ~EM -ARS? nnnMn
+TD228 attempt: 1 VOTER n n n m n
+TD118 Classic #3 _____ ~ER -AMS? ␅
+TD1639634 ␆nYnYY
+TD103 Classic #3 _____ ~ER -AMS? nYnYY
+TD273 attempt: 2 VOTER n Y n Y Y
+TD138 Classic #4 ____E ~S -AMR? ␅
+TD1351437 ␆nnnMn
+TD145 Classic #4 ____E ~S -AMR? nnnMn
+TD259 attempt: 3 VOTER n n n m n
+TD938826 > ␅
+TD804772 ␆*
+TD118 > *
+TD605 ? ␅
+TD5159406 ␄
+TD150 <EOF>
+TD839612 > ␅
+TD1656223 ␆* 4
+TD111 > * 4
+TD216484 ? ␅
+TD4455520 ␆10
+TD106 ? 10
+TD203 questioning: since
+TD168 Classic #1 __T_R ~AO -EMSV? ␅
+TD2799570 ␆nnnMn
+TD103 Classic #1 __T_R ~AO -EMSV? nnnMn
+TD264 attempt: 0 SINCE n n n m n
+TD126 Classic #2 _____ ~EM -AORSTV? ␅
+TD1519575 ␆nnMnM
+TD128 Classic #2 _____ ~EM -AORSTV? nnMnM
+TD267 attempt: 1 SINCE n n m n m
+TD133 Classic #3 _O_ER -AMSTV? ␅
+TD2704257 ␆nnYnM
+TD102 Classic #3 _O_ER -AMSTV? nnYnM
+TD268 attempt: 2 SINCE n n Y n m
+TD127 Classic #4 ____E ~S -AMORTV? ␅
+TD3119426 ␆YnMMY
+TD123 Classic #4 ____E ~S -AMORTV? YnMMY
+TD277 attempt: 3 SINCE Y n m m Y
+TD884377 > ␅
+TD850575 ␆*
+TD118 > *
+TD460 questioning: actor
+TD146 Classic #1 __T_R ~ACO -EIMNSV? ␅
+TD3847999 ␆YYYYY
+TD111 Classic #1 __T_R ~ACO -EIMNSV? YYYYY
+TD254 attempt: 0 ACTOR Y Y Y Y Y
+TD128 Classic #2 _____ ~EMN -ACIORSTV? ␅
+TD1390955 ␆nnnnn
+TD114 Classic #2 _____ ~EMN -ACIORSTV? nnnnn
+TD253 attempt: 1 ACTOR n n n n n
+TD125 Classic #3 _ONER -ACIMSTV? ␅
+TD1376067 ␆nnnMY
+TD115 Classic #3 _ONER -ACIMSTV? nnnMY
+TD507 attempt: 2 ACTOR n n n m Y
+TD128 Classic #4 S___E ~CN -AIMORTV? ␅
+TD1630681 ␆nYnnn
+TD109 Classic #4 S___E ~CN -AIMORTV? nYnnn
+TD256 attempt: 3 ACTOR n Y n n n
+TD652931 > ␅
+TD738737 ␆*
+TD109 > *
+TD436 questioning: scene
+TD141 Classic #2 _____ ~EMN -ACIORSTV? ␅
+TD2991325 ␆nnYMM
+TD108 Classic #2 _____ ~EMN -ACIORSTV? nnYMM
+TD254 attempt: 1 SCENE n n Y m m
+TD128 Classic #3 _ONER -ACIMSTV? ␅
+TD1487830 ␆nnMMn
+TD125 Classic #3 _ONER -ACIMSTV? nnMMn
+TD290 attempt: 2 SCENE n n m m n
+TD165 Classic #4 SC__E ~N -AIMORTV? ␅
+TD1351238 ␆YYYYY
+TD127 Classic #4 SC__E ~N -AIMORTV? YYYYY
+TD310 attempt: 3 SCENE Y Y Y Y Y
+TD400186 > ␅
+TD727319 ␆*
+TD119 > *
+TD575 questioning: enemy
+TD142 Classic #2 __E__ ~EMN -ACIORSTV? ␅
+TD3495202 ␆YYYYY
+TD121 Classic #2 __E__ ~EMN -ACIORSTV? YYYYY
+TD233 attempt: 1 ENEMY Y Y Y Y Y
+TD125 Classic #3 _ONER -ACIMSTV E:1? ␅
+TD2079571 ␆MMnnn
+TD102 Classic #3 _ONER -ACIMSTV E:1? MMnnn
+TD225 attempt: 2 ENEMY m m n n n
+TD197358 > ␅
+TD946337 ␆*
+TD100 > *
+TD589 ? ␅
+TD2399345 ␆1
+TD118 ? 1
+TD179 questioning: boner
+TD151 Classic #3 _ONER -ACIMSTVY E:1? ␅
+TD2567694 ␆nYYYY
+TD114 Classic #3 _ONER -ACIMSTVY E:1? nYYYY
+TD411 attempt: 2 BONER n Y Y Y Y
+TD210814 > ␅
+TD516604 ␆*
+TD106 > *
+TD621 ? ␅
+TD3751320 ␆3
+TD111 ? 3
+TD197 questioning: loner
+TD176 Classic #3 _ONER -ABCIMSTVY? ␅
+TD3839713 ␆nYYYY
+TD113 Classic #3 _ONER -ABCIMSTVY? nYYYY
+TD282 attempt: 2 LONER n Y Y Y Y
+TD202264 > ␅
+TD389245 ␆*
+TD107 > *
+TD708 ? ␅
+TD1999134 ␆1
+TD103 ? 1
+TD230 questioning: goner
+TD193 Classic #3 _ONER -ABCILMSTVY? ␅
+TD2951602 ␆YYYYY
+TD129 Classic #3 _ONER -ABCILMSTVY? YYYYY
+TD294 attempt: 2 GONER Y Y Y Y Y
+TD135 📋> ␅
+TD4888382 ␆🙂 Daily Quordle 1494
+TD133 📋> 🙂 Daily Quordle 1494
+TD20 📋> ␅
+TD68 ␆4️⃣6️⃣
+TD16 📋> 4️⃣6️⃣
+TD14 📋> ␅
+TD27 ␆9️⃣5️⃣
+TD22 📋> 9️⃣5️⃣
+TD11 📋> ␅
+TD25 ␆m-w.com/games/quordle/
+TD12 📋> m-w.com/games/quordle/
+TD22 📋> ␅
+TD262858 ␆
+TD186 📋> 
+TD51 📋> ␅
+TD159632 ␄
+TD247 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1494\n4\ufe0f\u20e36\ufe0f\u20e3\n9\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD905 result: "\ud83d\ude42 Daily Quordle 1494\n4\ufe0f\u20e36\ufe0f\u20e3\n9\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD87 📆 2026-02-26 ? ␅
+TD190846 ␆
+TD97 📆 2026-02-26 ? 
