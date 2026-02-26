@@ -1,0 +1,86 @@
+T325.517193837004 now: 2026-02-26T09:21:43EST
+TD126 site: alphaguess.com
+TD144954 loaded 196527 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (77 words excluded) asof dea229b50459290adef9e108bca6ed8a90addec3
+TD154  ...␅
+TD8725444 ␆
+TD125  ...
+TD211 [0 : 98218 : 196527] mach? ␅
+TD2087524 ␆a
+TD111 [0 : 98218 : 196527] mach? a
+TD97 progress: 1 98218 mach
+TD166 [98219 : 147374 : 196527] rhumb? ␅
+TD1359866 ␆b
+TD123 [98219 : 147374 : 196527] rhumb? b
+TD86 progress: -1 147374 rhumb
+TD87 [98219 : 122779 : 147374] parr? ␅
+TD1319746 ␆a
+TD145 [98219 : 122779 : 147374] parr? a
+TD141 progress: 1 122779 parr
+TD130 [122780 : 135070 : 147374] proper? ␅
+TD1327301 ␆b
+TD107 [122780 : 135070 : 147374] proper? b
+TD103 progress: -1 135070 proper
+TD86 [122780 : 128848 : 135070] play? ␅
+TD1655773 ␆a
+TD176 [122780 : 128848 : 135070] play? a
+TD150 progress: 1 128848 play
+TD341 [128849 : 131958 : 135070] prearm? ␅
+TD1367406 ␆b
+TD114 [128849 : 131958 : 135070] prearm? b
+TD100 progress: -1 131958 prearm
+TD98 [128849 : 130062 : 131958] poly? ␅
+TD1207725 ␆a
+TD132 [128849 : 130062 : 131958] poly? a
+TD123 progress: 1 130062 poly
+TD153 [130063 : 130930 : 131958] pos? ␅
+TD1335594 ␆a
+TD142 [130063 : 130930 : 131958] pos? a
+TD130 progress: 1 130930 pos
+TD145 [130931 : 131370 : 131958] pot? ␅
+TD1223515 ␆a
+TD95 [130931 : 131370 : 131958] pot? a
+TD113 progress: 1 131370 pot
+TD107 [131371 : 131617 : 131958] pow? ␅
+TD1231627 ␆b
+TD129 [131371 : 131617 : 131958] pow? b
+TD140 progress: -1 131617 pow
+TD128 [131371 : 131488 : 131617] pots? ␅
+TD1327622 ␆a
+TD125 [131371 : 131488 : 131617] pots? a
+TD132 progress: 1 131488 pots
+TD131 [131489 : 131550 : 131617] poult? ␅
+TD1207746 ␆a
+TD122 [131489 : 131550 : 131617] poult? a
+TD138 progress: 1 131550 poult
+TD138 [131551 : 131582 : 131617] pour? ␅
+TD1751452 ␆b
+TD112 [131551 : 131582 : 131617] pour? b
+TD135 progress: -1 131582 pour
+TD187 [131551 : 131564 : 131582] pounce? ␅
+TD2319716 ␆it
+TD137 [131551 : 131564 : 131582] pounce? it
+TD126 progress: 0 131564 pounce
+TD31 [131551 : 131564 : 131582] <Done>.
+TD106 📋> ␅
+TD3095978 ␆🧩 Puzzle #948
+TD127 📋> 🧩 Puzzle #948
+TD10 📋> ␅
+TD26 ␆🤔 14 guesses
+TD3 📋> 🤔 14 guesses
+TD2 📋> ␅
+TD5 ␆⏱️ 17s
+TD3 📋> ⏱️ 17s
+TD2 📋> ␅
+TD255485 ␆🔗 alphaguess.com/948
+TD88 📋> 🔗 alphaguess.com/948
+TD7 📋> ␅
+TD135736 ␄
+TD201 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #948\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/948"}
+TD90 result: "\ud83e\udde9 Puzzle #948\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/948"
+TD11 result puzzle: 948
+TD2 result guesses: 14
+TD2 result time: 17s
+TD1 result link: alphaguess.com/948
+TD65 📆 2026-02-26 ? ␅
+TD127710 ␆
+TD85 📆 2026-02-26 ? 
