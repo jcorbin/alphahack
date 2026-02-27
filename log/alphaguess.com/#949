@@ -1,0 +1,74 @@
+T2.6929970759999833 now: 2026-02-27T10:42:59EST
+TD95 site: alphaguess.com
+TD154552 loaded 196526 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (78 words excluded) asof 0cd162f96d824c87fd3458d7217778936e45f62d
+TD110  ...␅
+TD2508877 ␆
+TD197  ...
+TD381 [0 : 98218 : 196526] mach? ␅
+TD2062641 ␆a
+TD103 [0 : 98218 : 196526] mach? a
+TD364 progress: 1 98218 mach
+TD253 [98219 : 147369 : 196526] rhotic? ␅
+TD1182893 ␆a
+TD103 [98219 : 147369 : 196526] rhotic? a
+TD126 progress: 1 147369 rhotic
+TD115 [147370 : 171639 : 196526] ta? ␅
+TD1312863 ␆b
+TD173 [147370 : 171639 : 196526] ta? b
+TD160 progress: -1 171639 ta
+TD139 [147370 : 159486 : 171639] slop? ␅
+TD1302245 ␆b
+TD147 [147370 : 159486 : 171639] slop? b
+TD219 progress: -1 159486 slop
+TD168 [147370 : 153318 : 159486] sea? ␅
+TD1264743 ␆a
+TD186 [147370 : 153318 : 159486] sea? a
+TD165 progress: 1 153318 sea
+TD152 [153319 : 156354 : 159486] ship? ␅
+TD1198464 ␆a
+TD100 [153319 : 156354 : 159486] ship? a
+TD100 progress: 1 156354 ship
+TD108 [156355 : 157882 : 159486] sim? ␅
+TD1271283 ␆b
+TD100 [156355 : 157882 : 159486] sim? b
+TD114 progress: -1 157882 sim
+TD214 [156355 : 157118 : 157882] shrub? ␅
+TD1256281 ␆b
+TD99 [156355 : 157118 : 157882] shrub? b
+TD100 progress: -1 157118 shrub
+TD205 [156355 : 156736 : 157118] shop? ␅
+TD1591947 ␆b
+TD103 [156355 : 156736 : 157118] shop? b
+TD123 progress: -1 156736 shop
+TD307 [156355 : 156545 : 156736] shlemiehls? ␅
+TD2591091 ␆b
+TD99 [156355 : 156545 : 156736] shlemiehls? b
+TD99 progress: -1 156545 shlemiehls
+TD159 [156355 : 156426 : 156545] shirt? ␅
+TD3287359 ␆it
+TD104 [156355 : 156426 : 156545] shirt? it
+TD102 progress: 0 156426 shirt
+TD24 [156355 : 156426 : 156545] <Done>.
+TD100 📋> ␅
+TD3033755 ␆🧩 Puzzle #949
+TD189 📋> 🧩 Puzzle #949
+TD20 📋> ␅
+TD63 ␆🤔 11 guesses
+TD9 📋> 🤔 11 guesses
+TD6 📋> ␅
+TD14 ␆⏱️ 14s
+TD7 📋> ⏱️ 14s
+TD5 📋> ␅
+TD343134 ␆🔗 alphaguess.com/949
+TD183 📋> 🔗 alphaguess.com/949
+TD14 📋> ␅
+TD173913 ␄
+TD258 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #949\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 14s\n\ud83d\udd17 alphaguess.com/949"}
+TD417 result: "\ud83e\udde9 Puzzle #949\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 14s\n\ud83d\udd17 alphaguess.com/949"
+TD11 result puzzle: 949
+TD4 result guesses: 11
+TD3 result time: 14s
+TD2 result link: alphaguess.com/949
+TD65 📆 2026-02-27 ? ␅
+TD231670 ␆
+TD101 📆 2026-02-27 ? 
