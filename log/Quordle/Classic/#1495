@@ -1,0 +1,188 @@
+T283.3472207310001 now: 2026-02-27T10:47:40EST
+TD78 site: m-w.com/games/quordle/#/
+TD13 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD84  ...␅
+TD3143180 ␆
+TD98  ...
+TD368859 > ␅
+TD710878 ␆*
+TD97 > *
+TD34081 ? ␅
+TD781734 ␆1
+TD64 ? 1
+TD124 questioning: reaps
+TD95 Classic #1 _____? ␅
+TD3055775 ␆nnnnM
+TD72 Classic #1 _____? nnnnM
+TD240 attempt: 0 REAPS n n n n m
+TD65 Classic #2 _____? ␅
+TD1335591 ␆nMnnM
+TD65 Classic #2 _____? nMnnM
+TD165 attempt: 1 REAPS n m n n m
+TD77 Classic #3 _____? ␅
+TD1247741 ␆nnMMM
+TD67 Classic #3 _____? nnMMM
+TD134 attempt: 2 REAPS n n m m m
+TD62 Classic #4 _____? ␅
+TD1104592 ␆nYMnn
+TD93 Classic #4 _____? nYMnn
+TD252 attempt: 3 REAPS n Y m n n
+TD339794 > ␅
+TD675026 ␆*
+TD105 > *
+TD1380 ? ␅
+TD1478921 ␆1
+TD90 ? 1
+TD177 questioning: stony
+TD154 Classic #1 _____ ~S -AEPR? ␅
+TD2951191 ␆YYnnn
+TD79 Classic #1 _____ ~S -AEPR? YYnnn
+TD159 attempt: 0 STONY Y Y n n n
+TD76 Classic #2 _____ ~ES -APR? ␅
+TD1511722 ␆YnnMn
+TD96 Classic #2 _____ ~ES -APR? YnnMn
+TD229 attempt: 1 STONY Y n n m n
+TD110 Classic #3 _____ ~APS -ER? ␅
+TD1479865 ␆MMnnY
+TD96 Classic #3 _____ ~APS -ER? MMnnY
+TD223 attempt: 2 STONY m m n n Y
+TD108 Classic #4 _E___ ~A -PRS? ␅
+TD1255344 ␆nMnnn
+TD97 Classic #4 _E___ ~A -PRS? nMnnn
+TD225 attempt: 3 STONY n m n n n
+TD383119 > ␅
+TD768570 ␆*
+TD98 > *
+TD503 ? ␅
+TD7375510 ␆1
+TD101 ? 1
+TD172 questioning: pasty
+TD156 Classic #1 ST___ -AENOPRY? ␅
+TD4743450 ␆nnMMn
+TD99 Classic #1 ST___ -AENOPRY? nnMMn
+TD212 attempt: 0 PASTY n n m m n
+TD107 Classic #2 S____ ~EN -AOPRTY? ␅
+TD1087673 ␆nnMnn
+TD78 Classic #2 S____ ~EN -AOPRTY? nnMnn
+TD155 attempt: 1 PASTY n n m n n
+TD75 Classic #3 ____Y ~APST -ENOR? ␅
+TD2383405 ␆YYMMY
+TD82 Classic #3 ____Y ~APST -ENOR? YYMMY
+TD152 attempt: 2 PASTY Y Y m m Y
+TD76 Classic #4 _E___ ~AT -NOPRSY? ␅
+TD1383844 ␆nMnMn
+TD85 Classic #4 _E___ ~AT -NOPRSY? nMnMn
+TD222 attempt: 3 PASTY n m n m n
+TD338270 > ␅
+TD773233 ␆*
+TD69 > *
+TD273 questioning: patsy
+TD75 Classic #1 ST___ -AENOPRY? ␅
+TD5567665 ␆nnMMn
+TD89 Classic #1 ST___ -AENOPRY? nnMMn
+TD150 attempt: 0 PATSY n n m m n
+TD79 Classic #2 S____ ~EN -AOPRTY? ␅
+TD1519674 ␆nnnMn
+TD94 Classic #2 S____ ~EN -AOPRTY? nnnMn
+TD216 attempt: 1 PATSY n n n m n
+TD111 Classic #3 PA__Y ~ST -ENOR? ␅
+TD2167628 ␆YYYYY
+TD98 Classic #3 PA__Y ~ST -ENOR? YYYYY
+TD493 attempt: 2 PATSY Y Y Y Y Y
+TD112 Classic #4 _E___ ~AT -NOPRSY? ␅
+TD1719219 ␆nMYnn
+TD101 Classic #4 _E___ ~AT -NOPRSY? nMYnn
+TD221 attempt: 3 PATSY n m Y n n
+TD287331 > ␅
+TD848362 ␆*
+TD103 > *
+TD496 ? ␅
+TD1167488 ␄
+TD133 <EOF>
+TD269551 > ␅
+TD1554236 ␆* 2
+TD169 > * 2
+TD91886 ? ␅
+TD10308017 ␄
+TD125 <EOF>
+TD272897 > ␅
+TD863169 ␆* 1
+TD101 > * 1
+TD87204 ? ␅
+TD39624329 ␆5
+TD104 ? 5
+TD177 questioning: stuff
+TD152 Classic #1 ST___ -AENOPRY? ␅
+TD4199661 ␆YYnYY
+TD102 Classic #1 ST___ -AENOPRY? YYnYY
+TD206 attempt: 0 STUFF Y Y n Y Y
+TD112 Classic #2 S____ ~EN -AOPRTY? ␅
+TD3887658 ␆Ynnnn
+TD78 Classic #2 S____ ~EN -AOPRTY? Ynnnn
+TD148 attempt: 1 STUFF Y n n n n
+TD83 Classic #4 _ET__ ~A -NOPRSY? ␅
+TD3847504 ␆nMnnn
+TD90 Classic #4 _ET__ ~A -NOPRSY? nMnnn
+TD224 attempt: 3 STUFF n m n n n
+TD275632 > ␅
+TD772037 ␆*
+TD79 > *
+TD276 questioning: stiff
+TD83 Classic #1 ST_FF -AENOPRUY? ␅
+TD2831487 ␆YYYYY
+TD78 Classic #1 ST_FF -AENOPRUY? YYYYY
+TD149 attempt: 0 STIFF Y Y Y Y Y
+TD79 Classic #2 S____ ~EN -AFOPRTUY? ␅
+TD4263853 ␆YnMnn
+TD118 Classic #2 S____ ~EN -AFOPRTUY? YnMnn
+TD245 attempt: 1 STIFF Y n m n n
+TD117 Classic #4 _ET__ ~A -FNOPRSUY? ␅
+TD1559502 ␆nMnnn
+TD86 Classic #4 _ET__ ~A -FNOPRSUY? nMnnn
+TD150 attempt: 3 STIFF n m n n n
+TD179649 > ␅
+TD1324078 ␆*
+TD76 > *
+TD309 questioning: metal
+TD89 Classic #2 S____ ~EIN -AFOPRTUY? ␅
+TD2695471 ␆nMnnn
+TD68 Classic #2 S____ ~EIN -AFOPRTUY? nMnnn
+TD162 attempt: 1 METAL n m n n n
+TD77 Classic #4 _ET__ ~A -FINOPRSUY? ␅
+TD1367852 ␆YYYYY
+TD87 Classic #4 _ET__ ~A -FINOPRSUY? YYYYY
+TD213 attempt: 3 METAL Y Y Y Y Y
+TD95706 > ␅
+TD1424575 ␆*
+TD102 > *
+TD604 ? ␅
+TD2262607 ␆1
+TD114 ? 1
+TD170 questioning: since
+TD151 Classic #2 S____ ~EIN -AFLMOPRTUY? ␅
+TD2735626 ␆YYYYY
+TD116 Classic #2 S____ ~EIN -AFLMOPRTUY? YYYYY
+TD209 attempt: 1 SINCE Y Y Y Y Y
+TD91 📋> ␅
+TD4328071 ␆🙂 Daily Quordle 1495
+TD100 📋> 🙂 Daily Quordle 1495
+TD11 📋> ␅
+TD72 ␆6️⃣8️⃣
+TD7 📋> 6️⃣8️⃣
+TD6 📋> ␅
+TD19 ␆4️⃣7️⃣
+TD4 📋> 4️⃣7️⃣
+TD4 📋> ␅
+TD15 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD327205 ␆
+TD109 📋> 
+TD14 📋> ␅
+TD216273 ␄
+TD179 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1495\n6\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1271 result: "\ud83d\ude42 Daily Quordle 1495\n6\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD68 📆 2026-02-27 ? ␅
+TD198055 ␆
+TD101 📆 2026-02-27 ? 
