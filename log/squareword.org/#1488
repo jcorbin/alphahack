@@ -1,0 +1,214 @@
+T83.96894670300003 now: 2026-02-27T10:54:16EST
+TD137 site: squareword.org
+TD30 wordlist: nwl2023.txt
+TD43  ...␅
+TD4061691 ␆
+TD88  ...
+TD77 🧩  ? ␅
+TD2935564 ␆#1488
+TD87 🧩  ? #1488
+TD272 puzzle_id: #1488
+TD284 > ␅
+TD2583311 ␆*
+TD76 > *
+TD242344 try? ␅
+TD845747 ␆1
+TD98 try? 1
+TD328 questioning: ["aster", "#5"]
+TD315 #1 <IndexError>  📋 "aster" ? ␅
+TD5735264 ␆A__E_ ~ SR
+TD99 #1 <IndexError>  📋 "aster" ? A__E_ ~ SR
+TD529 attempt 0 ASTER Y m n Y m
+TD89 #2 <IndexError>  📋 "aster" ? ␅
+TD1999308 ␆_____ 
+TD98 #2 <IndexError>  📋 "aster" ? _____ 
+TD267 attempt 1 ASTER n n n n n
+TD127 #3 <IndexError>  📋 "aster" ? ␅
+TD2392099 ␆_____ ~ AS
+TD98 #3 <IndexError>  📋 "aster" ? _____ ~ AS
+TD257 attempt 2 ASTER m m n n n
+TD125 #4 <IndexError>  📋 "aster" ? ␅
+TD2238853 ␆___ER ~ E
+TD99 #4 <IndexError>  📋 "aster" ? ___ER ~ E
+TD251 attempt 3 ASTER n n n Y Y
+TD120 #5 <IndexError>  📋 "aster" ? ␅
+TD2367635 ␆_____ ~ ASE
+TD98 #5 <IndexError>  📋 "aster" ? _____ ~ ASE
+TD264 attempt 4 ASTER m m n m n
+TD311 ? ␅
+TD671334 ␆
+TD100 ? 
+TD140 question done
+TD284 > ␅
+TD815478 ␆*
+TD87 > *
+TD823510 try? ␅
+TD1392278 ␆1
+TD96 try? 1
+TD273 questioning: ["acres", "#1"]
+TD206 #1 A__E_ ~RS -T  📋 "acres" ? ␅
+TD2367366 ␆/it
+TD95 #1 A__E_ ~RS -T  📋 "acres" ? /it
+TD265 attempt 0 ACRES Y Y Y Y Y
+TD99 #2 _____ -AERST  📋 "acres" ? ␅
+TD1055481 ␆.
+TD73 #2 _____ -AERST  📋 "acres" ? .
+TD190 attempt 1 ACRES n n n n n
+TD61 #3 _____ ~AS -ERT  📋 "acres" ? ␅
+TD984423 ␆.
+TD99 #3 _____ ~AS -ERT  📋 "acres" ? .
+TD266 attempt 2 ACRES m n n n m
+TD92 #4 ___ER -AST  📋 "acres" ? ␅
+TD5134953 ␆___ER ~ E
+TD103 #4 ___ER -AST  📋 "acres" ? ___ER ~ E
+TD255 attempt 3 ACRES n n n Y n
+TD136 #5 _____ ~AES -RT  📋 "acres" ? ␅
+TD1055891 ␆.
+TD72 #5 _____ ~AES -RT  📋 "acres" ? .
+TD193 attempt 4 ACRES m n n m m
+TD175 ? ␅
+TD151054 ␆
+TD72 ? 
+TD83 question done
+TD184 > ␅
+TD615741 ␆*
+TD94 > *
+TD695886 try? ␅
+TD1832001 ␆2
+TD94 try? 2
+TD285 questioning: ["lapse", "#5"]
+TD246 #2 _____ -ACERST  📋 "lapse" ? ␅
+TD4903444 ␆_____ ~ LP
+TD110 #2 _____ -ACERST  📋 "lapse" ? _____ ~ LP
+TD251 attempt 1 LAPSE m n m n n
+TD141 #3 _____ ~AS -CERT  📋 "lapse" ? ␅
+TD1983438 ␆_A___ ~ AS
+TD101 #3 _____ ~AS -CERT  📋 "lapse" ? _A___ ~ AS
+TD263 attempt 2 LAPSE n Y n m n
+TD146 #4 ___ER -ACRST  📋 "lapse" ? ␅
+TD2431500 ␆___ER ~ E
+TD107 #4 ___ER -ACRST  📋 "lapse" ? ___ER ~ E
+TD298 attempt 3 LAPSE n n n n m
+TD182 #5 _____ ~AES -CRT  📋 "lapse" ? ␅
+TD3015458 ␆____E ~ ASP
+TD96 #5 _____ ~AES -CRT  📋 "lapse" ? ____E ~ ASP
+TD250 attempt 4 LAPSE n m m m Y
+TD335 ? ␅
+TD247615 ␆
+TD90 ? 
+TD137 question done
+TD297 > ␅
+TD567009 ␆*
+TD79 > *
+TD531255 questioning: ["spade", "#5"]
+TD170 #2 _____ ~LP -ACERST  📋 "spade" ? ␅
+TD4548640 ␆.
+TD88 #2 _____ ~LP -ACERST  📋 "spade" ? .
+TD258 attempt 1 SPADE n m n n n
+TD92 #3 _A___ ~S -CELPRT  📋 "spade" ? ␅
+TD2743601 ␆SA___ ~ A
+TD98 #3 _A___ ~S -CELPRT  📋 "spade" ? SA___ ~ A
+TD258 attempt 2 SPADE Y n m n n
+TD158 #4 ___ER -ACLPRST  📋 "spade" ? ␅
+TD6984442 ␆___ER ~ E
+TD107 #4 ___ER -ACLPRST  📋 "spade" ? ___ER ~ E
+TD259 attempt 3 SPADE n n n n m
+TD147 #5 ____E ~APS -CLRT  📋 "spade" ? ␅
+TD1086635 ␆/it
+TD99 #5 ____E ~APS -CLRT  📋 "spade" ? /it
+TD262 attempt 4 SPADE Y Y Y Y Y
+TD306 ? ␅
+TD167642 ␆
+TD111 ? 
+TD107 question done
+TD286 > ␅
+TD487207 ␆*
+TD101 > *
+TD1215020 questioning: ["plump", "#2"]
+TD189 #2 _____ ~LP -ACDERST  📋 "plump" ? ␅
+TD3000452 ␆/it
+TD106 #2 _____ ~LP -ACDERST  📋 "plump" ? /it
+TD259 attempt 1 PLUMP Y Y Y Y Y
+TD105 #3 SA___ -CDELPRT  📋 "plump" ? ␅
+TD4385113 ␆SA___ ~ AM
+TD179 #3 SA___ -CDELPRT  📋 "plump" ? SA___ ~ AM
+TD219 attempt 2 PLUMP n n n m n
+TD149 #4 ___ER -ACDLPRST  📋 "plump" ? ␅
+TD10558146 ␆___ER ~ EM
+TD97 #4 ___ER -ACDLPRST  📋 "plump" ? ___ER ~ EM
+TD256 attempt 3 PLUMP n n n m n
+TD369 ? ␅
+TD1614939 ␆
+TD80 ? 
+TD98 question done
+TD185 > ␅
+TD1335551 ␆*
+TD76 > *
+TD1325309 questioning: ["ember", "#4"]
+TD186 #3 SA___ ~M -CDELPRTU  📋 "ember" ? ␅
+TD6274486 ␆SA___ ~ AMB
+TD102 #3 SA___ ~M -CDELPRTU  📋 "ember" ? SA___ ~ AMB
+TD252 attempt 2 EMBER n m m n n
+TD156 #4 ___ER ~M -ACDLPRSTU  📋 "ember" ? ␅
+TD1175602 ␆/it
+TD96 #4 ___ER ~M -ACDLPRSTU  📋 "ember" ? /it
+TD245 attempt 3 EMBER Y Y Y Y Y
+TD1142 ? ␅
+TD1094306 ␆
+TD75 ? 
+TD82 question done
+TD179 > ␅
+TD1535978 ␆
+TD82 > 
+TD296 > ␅
+TD647495 ␆*
+TD99 > *
+TD978303 try? ␅
+TD2053509 ␆2
+TD97 try? 2
+TD284 questioning: ["samba", "#3"]
+TD361 #3 SA___ ~BM -CDELPRTU  📋 "samba" ? ␅
+TD2095108 ␆/it
+TD99 #3 SA___ ~BM -CDELPRTU  📋 "samba" ? /it
+TD261 attempt 2 SAMBA Y Y Y Y Y
+TD299 ? ␅
+TD615875 ␆
+TD104 ? 
+TD109 question done
+TD22475 📋> ␅
+TD5065746 ␆squareword.org 1488: 7 guesses
+TD80 📋> squareword.org 1488: 7 guesses
+TD8 📋> ␅
+TD29 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟨🟨🟨
+TD2 📋> 🟩🟩🟨🟨🟨
+TD2 📋> ␅
+TD5 ␆🟨🟨🟨🟩🟩
+TD2 📋> 🟨🟨🟨🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD343204 ␆#squareword #squareword1488
+TD74 📋> #squareword #squareword1488
+TD8 📋> ␅
+TD175565 ␄
+TD135 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1488: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1488"}
+TD821 result: "squareword.org 1488: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1488"
+TD68 📆 2026-02-27 ? ␅
+TD182966 ␆
+TD75 📆 2026-02-27 ? 
