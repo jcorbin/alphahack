@@ -1,0 +1,105 @@
+T78084.807653688 now: 2026-02-28T08:34:17EST
+TD244 site: alfagok.diginaut.net
+TD1121902 loaded 399643 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1209 words excluded) asof 0cd162f96d824c87fd3458d7217778936e45f62d
+TD309  ...␅
+TD1123685 ␆
+TD110  ...
+TD5501 [0 : 199816 : 399643] lijm? ␅
+TD3442257 ␆
+TD111 [0 : 199816 : 399643] lijm? 
+TD428 [0 : 199816 : 399643] lijm? ␅
+TD3119333 ␆b
+TD106 [0 : 199816 : 399643] lijm? b
+TD770 progress: -1 199816 lijm
+TD169 [0 : 99741 : 199816] ex? ␅
+TD1518961 ␆b
+TD105 [0 : 99741 : 199816] ex? b
+TD132 progress: -1 99741 ex
+TD128 [0 : 49841 : 99741] boks? ␅
+TD1351802 ␆a
+TD110 [0 : 49841 : 99741] boks? a
+TD134 progress: 1 49841 boks
+TD132 [49842 : 74770 : 99741] dccclx? ␅
+TD1535440 ␆!
+TD104 [49842 : 74770 : 99741] dccclx? !
+TD649 [49842 : 74760 : 99740] dcccl? ␅
+TD1719311 ␆!
+TD108 [49842 : 74760 : 99740] dcccl? !
+TD521 [49842 : 74754 : 99739] dc? ␅
+TD1703253 ␆a
+TD100 [49842 : 74754 : 99739] dc? a
+TD128 progress: 1 74754 dc
+TD124 [74755 : 87213 : 99739] draag? ␅
+TD1735879 ␆a
+TD104 [74755 : 87213 : 99739] draag? a
+TD113 progress: 1 87213 draag
+TD124 [87214 : 93432 : 99739] eet? ␅
+TD2503418 ␆b
+TD113 [87214 : 93432 : 99739] eet? b
+TD114 progress: -1 93432 eet
+TD107 [87214 : 90065 : 93432] dubbel? ␅
+TD1615935 ␆b
+TD109 [87214 : 90065 : 93432] dubbel? b
+TD117 progress: -1 90065 dubbel
+TD116 [87214 : 88622 : 90065] drink? ␅
+TD1551586 ␆b
+TD100 [87214 : 88622 : 90065] drink? b
+TD120 progress: -1 88622 drink
+TD118 [87214 : 87890 : 88622] dre? ␅
+TD1815773 ␆!
+TD102 [87214 : 87890 : 88622] dre? !
+TD550 [87214 : 87911 : 88621] dreg? ␅
+TD1887268 ␆a
+TD105 [87214 : 87911 : 88621] dreg? a
+TD115 progress: 1 87911 dreg
+TD128 [87912 : 88256 : 88621] driek? ␅
+TD3935586 ␆!
+TD109 [87912 : 88256 : 88621] driek? !
+TD405 [87912 : 88138 : 88620] drie? ␅
+TD2887612 ␆b
+TD107 [87912 : 88138 : 88620] drie? b
+TD119 progress: -1 88138 drie
+TD309 [87912 : 88024 : 88138] drens? ␅
+TD1607474 ␆b
+TD107 [87912 : 88024 : 88138] drens? b
+TD119 progress: -1 88024 drens
+TD170 [87912 : 87967 : 88024] drek? ␅
+TD1495606 ␆b
+TD111 [87912 : 87967 : 88024] drek? b
+TD123 progress: -1 87967 drek
+TD125 [87912 : 87936 : 87967] dreiging? ␅
+TD1407618 ␆b
+TD105 [87912 : 87936 : 87967] dreiging? b
+TD122 progress: -1 87936 dreiging
+TD123 [87912 : 87919 : 87936] dreig? ␅
+TD1767710 ␆a
+TD102 [87912 : 87919 : 87936] dreig? a
+TD117 progress: 1 87919 dreig
+TD229 [87920 : 87928 : 87936] dreigen? ␅
+TD1775581 ␆it
+TD109 [87920 : 87928 : 87936] dreigen? it
+TD124 progress: 0 87928 dreigen
+TD30 [87920 : 87928 : 87936] <Done>.
+TD171 📋> ␅
+TD2704112 ␆🧩 Puzzel #483
+TD108 📋> 🧩 Puzzel #483
+TD14 📋> ␅
+TD49 ␆🤔 15 gokken
+TD8 📋> 🤔 15 gokken
+TD7 📋> ␅
+TD16 ␆⏱️ 34s
+TD7 📋> ⏱️ 34s
+TD5 📋> ␅
+TD247561 ␆🔗 alfagok.diginaut.net
+TD97 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD135534 ␄
+TD232 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #483\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD1121 result: "\ud83e\udde9 Puzzel #483\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"
+TD27 result puzzle: 483
+TD12 result guesses: 15
+TD7 result time: 34s
+TD6 result link: alfagok.diginaut.net
+TD152 📆 2026-02-28 ? ␅
+TD118464 ␆
+TD97 📆 2026-02-28 ? 
