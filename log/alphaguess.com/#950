@@ -1,0 +1,90 @@
+T78133.015478241 now: 2026-02-28T08:35:05EST
+TD153 site: alphaguess.com
+TD384196 loaded 196526 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (78 words excluded) asof 0cd162f96d824c87fd3458d7217778936e45f62d
+TD185  ...␅
+TD47 ␆
+TD7  ...
+TD126 [0 : 98218 : 196526] mach? ␅
+TD7581797 ␆b
+TD106 [0 : 98218 : 196526] mach? b
+TD130 progress: -1 98218 mach
+TD139 [0 : 47381 : 98218] dis? ␅
+TD1463994 ␆a
+TD100 [0 : 47381 : 98218] dis? a
+TD105 progress: 1 47381 dis
+TD404 [47382 : 72800 : 98218] gremmy? ␅
+TD1455053 ␆b
+TD98 [47382 : 72800 : 98218] gremmy? b
+TD108 progress: -1 72800 gremmy
+TD118 [47382 : 60084 : 72800] face? ␅
+TD1391745 ␆a
+TD86 [47382 : 60084 : 72800] face? a
+TD113 progress: 1 60084 face
+TD166 [60085 : 66440 : 72800] french? ␅
+TD1415676 ␆b
+TD98 [60085 : 66440 : 72800] french? b
+TD115 progress: -1 66440 french
+TD107 [60085 : 63240 : 66440] flag? ␅
+TD1503608 ␆b
+TD90 [60085 : 63240 : 66440] flag? b
+TD112 progress: -1 63240 flag
+TD104 [60085 : 61620 : 63240] fen? ␅
+TD1247783 ␆a
+TD107 [60085 : 61620 : 63240] fen? a
+TD107 progress: 1 61620 fen
+TD102 [61621 : 62424 : 63240] fila? ␅
+TD1407585 ␆b
+TD106 [61621 : 62424 : 63240] fila? b
+TD130 progress: -1 62424 fila
+TD132 [61621 : 62018 : 62424] feudal? ␅
+TD1327738 ␆a
+TD98 [61621 : 62018 : 62424] feudal? a
+TD105 progress: 1 62018 feudal
+TD284 [62019 : 62216 : 62424] fickle? ␅
+TD1415476 ␆a
+TD90 [62019 : 62216 : 62424] fickle? a
+TD128 progress: 1 62216 fickle
+TD105 [62217 : 62315 : 62424] field? ␅
+TD1647660 ␆b
+TD98 [62217 : 62315 : 62424] field? b
+TD113 progress: -1 62315 field
+TD112 [62217 : 62263 : 62315] fiddle? ␅
+TD1207727 ␆a
+TD104 [62217 : 62263 : 62315] fiddle? a
+TD104 progress: 1 62263 fiddle
+TD231 [62264 : 62290 : 62315] fidge? ␅
+TD1295673 ␆a
+TD100 [62264 : 62290 : 62315] fidge? a
+TD106 progress: 1 62290 fidge
+TD191 [62291 : 62303 : 62315] fido? ␅
+TD1295469 ␆b
+TD104 [62291 : 62303 : 62315] fido? b
+TD105 progress: -1 62303 fido
+TD104 [62291 : 62293 : 62303] fidget? ␅
+TD4191711 ␆it
+TD94 [62291 : 62293 : 62303] fidget? it
+TD104 progress: 0 62293 fidget
+TD27 [62291 : 62293 : 62303] <Done>.
+TD80 📋> ␅
+TD2688354 ␆🧩 Puzzle #950
+TD99 📋> 🧩 Puzzle #950
+TD12 📋> ␅
+TD39 ␆🤔 15 guesses
+TD6 📋> 🤔 15 guesses
+TD6 📋> ␅
+TD12 ␆⏱️ 19s
+TD6 📋> ⏱️ 19s
+TD4 📋> ␅
+TD335294 ␆🔗 alphaguess.com/950
+TD94 📋> 🔗 alphaguess.com/950
+TD12 📋> ␅
+TD159752 ␄
+TD146 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #950\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/950"}
+TD102 result: "\ud83e\udde9 Puzzle #950\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/950"
+TD16 result puzzle: 950
+TD6 result guesses: 15
+TD5 result time: 19s
+TD4 result link: alphaguess.com/950
+TD89 📆 2026-02-28 ? ␅
+TD143697 ␆
+TD121 📆 2026-02-28 ? 
