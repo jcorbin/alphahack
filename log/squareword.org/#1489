@@ -1,0 +1,242 @@
+T78731.225205345 now: 2026-02-28T08:45:04EST
+TD89 site: squareword.org
+TD42 wordlist: nwl2023.txt
+TD45  ...␅
+TD1167032 ␆
+TD103  ...
+TD78 🧩  ? ␅
+TD3863382 ␆#1489
+TD77 🧩  ? #1489
+TD301 puzzle_id: #1489
+TD275 > ␅
+TD2415314 ␆*
+TD100 > *
+TD94643 try? ␅
+TD1473302 ␆2
+TD71 try? 2
+TD262 questioning: ["laser", "#5"]
+TD160 #1 <IndexError>  📋 "laser" ? ␅
+TD3551503 ␆_____ ~ AS
+TD62 #1 <IndexError>  📋 "laser" ? _____ ~ AS
+TD433 attempt 0 LASER n m m n n
+TD80 #2 <IndexError>  📋 "laser" ? ␅
+TD1839478 ␆_____ ~ AR
+TD73 #2 <IndexError>  📋 "laser" ? _____ ~ AR
+TD203 attempt 1 LASER n m n n m
+TD87 #3 <IndexError>  📋 "laser" ? ␅
+TD1567591 ␆_____ ~ A
+TD81 #3 <IndexError>  📋 "laser" ? _____ ~ A
+TD197 attempt 2 LASER n m n n n
+TD87 #4 <IndexError>  📋 "laser" ? ␅
+TD2463877 ␆_____ ~ ER
+TD97 #4 <IndexError>  📋 "laser" ? _____ ~ ER
+TD260 attempt 3 LASER n n n m m
+TD159 #5 <IndexError>  📋 "laser" ? ␅
+TD2111553 ␆___E_ ~ ER
+TD87 #5 <IndexError>  📋 "laser" ? ___E_ ~ ER
+TD265 attempt 4 LASER n n n Y m
+TD380 ? ␅
+TD711320 ␆
+TD100 ? 
+TD143 question done
+TD296 > ␅
+TD527344 ␆*
+TD98 > *
+TD2136132 try? ␅
+TD3695875 ␆1
+TD99 try? 1
+TD293 questioning: ["pored", "#5"]
+TD331 #1 _____ ~AS -ELR  📋 "pored" ? ␅
+TD4799454 ␆_____ ~ ASP
+TD98 #1 _____ ~AS -ELR  📋 "pored" ? _____ ~ ASP
+TD267 attempt 0 PORED m n n n n
+TD151 #2 _____ ~AR -ELS  📋 "pored" ? ␅
+TD3927426 ␆_O___ ~ ARP
+TD79 #2 _____ ~AR -ELS  📋 "pored" ? _O___ ~ ARP
+TD192 attempt 1 PORED m Y m n n
+TD104 #3 _____ ~A -ELRS  📋 "pored" ? ␅
+TD2072127 ␆.
+TD103 #3 _____ ~A -ELRS  📋 "pored" ? .
+TD278 attempt 2 PORED n n n n n
+TD91 #4 _____ ~ER -ALS  📋 "pored" ? ␅
+TD782993 ␆.
+TD97 #4 _____ ~ER -ALS  📋 "pored" ? .
+TD265 attempt 3 PORED n n m m n
+TD93 #5 ___E_ ~R -ALS  📋 "pored" ? ␅
+TD3415850 ␆___ED ~ ER
+TD107 #5 ___E_ ~R -ALS  📋 "pored" ? ___ED ~ ER
+TD254 attempt 4 PORED n n m Y Y
+TD329 ? ␅
+TD583235 ␆
+TD100 ? 
+TD127 question done
+TD320 > ␅
+TD2079866 ␆*
+TD101 > *
+TD2988594 questioning: ["copra", "#2"]
+TD203 #1 _____ ~APS -DELOR  📋 "copra" ? ␅
+TD3642855 ␆.
+TD98 #1 _____ ~APS -DELOR  📋 "copra" ? .
+TD274 attempt 0 COPRA n n m n m
+TD113 #2 _O___ ~APR -DELS  📋 "copra" ? ␅
+TD575787 ␆/it
+TD124 #2 _O___ ~APR -DELS  📋 "copra" ? /it
+TD261 attempt 1 COPRA Y Y Y Y Y
+TD101 #3 _____ ~A -DELOPRS  📋 "copra" ? ␅
+TD1959204 ␆.
+TD92 #3 _____ ~A -DELOPRS  📋 "copra" ? .
+TD270 attempt 2 COPRA n n n n m
+TD119 #4 _____ ~ER -ADLOPS  📋 "copra" ? ␅
+TD3071568 ␆_____ ~ ERC
+TD95 #4 _____ ~ER -ADLOPS  📋 "copra" ? _____ ~ ERC
+TD256 attempt 3 COPRA m n n m n
+TD158 #5 ___ED ~R -ALOPS  📋 "copra" ? ␅
+TD3303466 ␆___ED ~ ER
+TD94 #5 ___ED ~R -ALOPS  📋 "copra" ? ___ED ~ ER
+TD257 attempt 4 COPRA n n n m n
+TD356 ? ␅
+TD527460 ␆
+TD92 ? 
+TD139 question done
+TD324 > ␅
+TD28864277 ␆
+TD119 > 
+TD533 > ␅
+TD863333 ␆*
+TD102 > *
+TD2466179 try? ␅
+TD8581601 ␆3
+TD99 try? 3
+TD285 questioning: ["truce", "#4"]
+TD362 #1 _____ ~APS -CDELOR  📋 "truce" ? ␅
+TD10879201 ␆_____ ~ ASPT
+TD71 #1 _____ ~APS -CDELOR  📋 "truce" ? _____ ~ ASPT
+TD194 attempt 0 TRUCE m n n n n
+TD113 #3 _____ ~A -CDELOPRS  📋 "truce" ? ␅
+TD2895778 ␆_____ ~ AT
+TD99 #3 _____ ~A -CDELOPRS  📋 "truce" ? _____ ~ AT
+TD263 attempt 2 TRUCE m n n n n
+TD168 #4 _____ ~CER -ADLOPS  📋 "truce" ? ␅
+TD3495683 ␆___CE ~ ERC
+TD103 #4 _____ ~CER -ADLOPS  📋 "truce" ? ___CE ~ ERC
+TD260 attempt 3 TRUCE n m n Y Y
+TD141 #5 ___ED ~R -ACLOPS  📋 "truce" ? ␅
+TD2575386 ␆_R_ED ~ E
+TD107 #5 ___ED ~R -ACLOPS  📋 "truce" ? _R_ED ~ E
+TD265 attempt 4 TRUCE n Y n n m
+TD224 ? ␅
+TD351530 ␆
+TD102 ? 
+TD143 question done
+TD247 > ␅
+TD823222 ␆*
+TD76 > *
+TD2582054 questioning: ["recce", "#4"]
+TD205 #1 _____ ~APST -CDELORU  📋 "recce" ? ␅
+TD10978427 ␆.
+TD91 #1 _____ ~APST -CDELORU  📋 "recce" ? .
+TD212 attempt 0 RECCE n n n n n
+TD80 #3 _____ ~AT -CDELOPRSU  📋 "recce" ? ␅
+TD1111291 ␆.
+TD115 #3 _____ ~AT -CDELOPRSU  📋 "recce" ? .
+TD259 attempt 2 RECCE n n n n n
+TD103 #4 ___CE ~R -ADLOPSTU  📋 "recce" ? ␅
+TD799455 ␆/it
+TD105 #4 ___CE ~R -ADLOPSTU  📋 "recce" ? /it
+TD249 attempt 3 RECCE Y Y Y Y Y
+TD103 #5 _R_ED -ACLOPSTU  📋 "recce" ? ␅
+TD5031570 ␆_R_ED ~ E
+TD106 #5 _R_ED -ACLOPSTU  📋 "recce" ? _R_ED ~ E
+TD286 attempt 4 RECCE n m n n m
+TD371 ? ␅
+TD295438 ␆
+TD89 ? 
+TD126 question done
+TD332 > ␅
+TD623209 ␆*
+TD74 > *
+TD1978410 questioning: ["await", "#3"]
+TD201 #1 _____ ~APST -CDELORU  📋 "await" ? ␅
+TD9181512 ␆__A__ ~ SPT
+TD100 #1 _____ ~APST -CDELORU  📋 "await" ? __A__ ~ SPT
+TD258 attempt 0 AWAIT n n Y n m
+TD157 #3 _____ ~AT -CDELOPRSU  📋 "await" ? ␅
+TD663588 ␆/it
+TD93 #3 _____ ~AT -CDELOPRSU  📋 "await" ? /it
+TD305 attempt 2 AWAIT Y Y Y Y Y
+TD108 #5 _R_ED -ACLOPRSTU  📋 "await" ? ␅
+TD5127548 ␆_R_ED ~ E
+TD101 #5 _R_ED -ACLOPRSTU  📋 "await" ? _R_ED ~ E
+TD241 attempt 4 AWAIT n n n n n
+TD338 ? ␅
+TD311433 ␆
+TD96 ? 
+TD122 question done
+TD318 > ␅
+TD863406 ␆*
+TD98 > *
+TD1580840 questioning: ["freed", "#5"]
+TD206 #1 __A__ ~PST -CDEILORUW  📋 "freed" ? ␅
+TD5882907 ␆.
+TD98 #1 __A__ ~PST -CDEILORUW  📋 "freed" ? .
+TD261 attempt 0 FREED n n n n n
+TD105 #5 _R_ED -ACILOPRSTUW  📋 "freed" ? ␅
+TD583491 ␆/it
+TD94 #5 _R_ED -ACILOPRSTUW  📋 "freed" ? /it
+TD248 attempt 4 FREED Y Y Y Y Y
+TD306 ? ␅
+TD175412 ␆
+TD90 ? 
+TD106 question done
+TD313 > ␅
+TD624001 ␆*
+TD103 > *
+TD1153891 try? ␅
+TD5117599 ␆1
+TD95 try? 1
+TD349 questioning: ["staph", "#1"]
+TD349 #1 __A__ ~PST -CDEFILORUW  📋 "staph" ? ␅
+TD2687192 ␆/it
+TD92 #1 __A__ ~PST -CDEFILORUW  📋 "staph" ? /it
+TD266 attempt 0 STAPH Y Y Y Y Y
+TD317 ? ␅
+TD1023499 ␆
+TD99 ? 
+TD116 question done
+TD35680 📋> ␅
+TD5372650 ␆squareword.org 1489: 8 guesses
+TD76 📋> squareword.org 1489: 8 guesses
+TD9 📋> ␅
+TD42 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD13 ␆🟨🟨🟨🟨🟨
+TD3 📋> 🟨🟨🟨🟨🟨
+TD2 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD9 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD2 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD9 ␆🟨🟩🟨🟩🟩
+TD2 📋> 🟨🟩🟨🟩🟩
+TD2 📋> ␅
+TD8 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD10 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD335301 ␆#squareword #squareword1489
+TD79 📋> #squareword #squareword1489
+TD8 📋> ␅
+TD223843 ␄
+TD152 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1489: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1489"}
+TD911 result: "squareword.org 1489: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1489"
+TD71 📆 2026-02-28 ? ␅
+TD215187 ␆
+TD66 📆 2026-02-28 ? 
