@@ -1,0 +1,82 @@
+T38.839500615009456 now: 2026-03-01T12:09:50EST
+TD77 site: alphaguess.com
+TD145806 loaded 196526 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (78 words excluded) asof 37cec5014f46a7e3847f87635e81466dece2ce2d
+TD127  ...␅
+TD13413412 ␆
+TD76  ...
+TD137 [0 : 98218 : 196526] mach? ␅
+TD2239647 ␆b
+TD95 [0 : 98218 : 196526] mach? b
+TD106 progress: -1 98218 mach
+TD115 [0 : 47381 : 98218] dis? ␅
+TD1351769 ␆b
+TD75 [0 : 47381 : 98218] dis? b
+TD80 progress: -1 47381 dis
+TD79 [0 : 23682 : 47381] camp? ␅
+TD1319664 ␆b
+TD80 [0 : 23682 : 47381] camp? b
+TD78 progress: -1 23682 camp
+TD77 [0 : 11764 : 23682] back? ␅
+TD1295796 ␆b
+TD77 [0 : 11764 : 23682] back? b
+TD81 progress: -1 11764 back
+TD75 [0 : 5876 : 11764] angel? ␅
+TD1247851 ␆a
+TD78 [0 : 5876 : 11764] angel? a
+TD81 progress: 1 5876 angel
+TD76 [5877 : 8323 : 11764] ar? ␅
+TD1311839 ␆b
+TD95 [5877 : 8323 : 11764] ar? b
+TD100 progress: -1 8323 ar
+TD103 [5877 : 6632 : 8323] anti? ␅
+TD1215696 ␆a
+TD74 [5877 : 6632 : 8323] anti? a
+TD80 progress: 1 6632 anti
+TD75 [6633 : 7465 : 8323] any? ␅
+TD1151694 ␆a
+TD75 [6633 : 7465 : 8323] any? a
+TD73 progress: 1 7465 any
+TD75 [7466 : 7883 : 8323] app? ␅
+TD1199877 ␆a
+TD93 [7466 : 7883 : 8323] app? a
+TD102 progress: 1 7883 app
+TD307 [7884 : 8094 : 8323] appraise? ␅
+TD1215398 ␆b
+TD79 [7884 : 8094 : 8323] appraise? b
+TD79 progress: -1 8094 appraise
+TD216 [7884 : 7989 : 8094] appetences? ␅
+TD1103773 ␆a
+TD94 [7884 : 7989 : 8094] appetences? a
+TD105 progress: 1 7989 appetences
+TD458 [7990 : 8042 : 8094] applier? ␅
+TD1303175 ␆b
+TD76 [7990 : 8042 : 8094] applier? b
+TD80 progress: -1 8042 applier
+TD94 [7990 : 8014 : 8042] apple? ␅
+TD2175826 ␆it
+TD72 [7990 : 8014 : 8042] apple? it
+TD80 progress: 0 8014 apple
+TD17 [7990 : 8014 : 8042] <Done>.
+TD64 📋> ␅
+TD2496166 ␆🧩 Puzzle #951
+TD70 📋> 🧩 Puzzle #951
+TD8 📋> ␅
+TD31 ␆🤔 13 guesses
+TD3 📋> 🤔 13 guesses
+TD2 📋> ␅
+TD8 ␆⏱️ 15s
+TD3 📋> ⏱️ 15s
+TD2 📋> ␅
+TD287486 ␆🔗 alphaguess.com/951
+TD33 📋> 🔗 alphaguess.com/951
+TD5 📋> ␅
+TD239951 ␄
+TD77 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #951\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 15s\n\ud83d\udd17 alphaguess.com/951"}
+TD71 result: "\ud83e\udde9 Puzzle #951\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 15s\n\ud83d\udd17 alphaguess.com/951"
+TD8 result puzzle: 951
+TD4 result guesses: 13
+TD2 result time: 15s
+TD2 result link: alphaguess.com/951
+TD67 📆 2026-03-01 ? ␅
+TD143688 ␆
+TD7 📆 2026-03-01 ? 
