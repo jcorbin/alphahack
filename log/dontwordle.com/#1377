@@ -1,0 +1,176 @@
+T74.89561697200406 now: 2026-03-01T12:10:26EST
+TD90 site: dontwordle.com
+TD15 wordlist: nwl2023.txt
+TD33  ...␅
+TD127234 ␆
+TD27  ...
+TD72 1> ␅
+TD5344052 ␆* -bot 10
+TD91 1> * -bot 10
+TD212652 ? ␅
+TD707210 ␆1
+TD93 ? 1
+TD273 📋 "taser" ? ␅
+TD4671677 ␆nMnnM
+TD93 📋 "taser" ? nMnnM
+TD579 tried: TASER n m n n m
+TD129 2> ␅
+TD983084 ␆undo
+TD67 2> undo
+TD126 undo
+TD140 1> ␅
+TD2495825 ␆*
+TD73 1> *
+TD120892 ? ␅
+TD927035 ␆1
+TD97 ? 1
+TD256 📋 "teeth" ? ␅
+TD3815758 ␆nnnnn
+TD99 📋 "teeth" ? nnnnn
+TD220 tried: TEETH n n n n n
+TD183 2> ␅
+TD1479345 ␆* -bot 10
+TD97 2> * -bot 10
+TD99609 ? ␅
+TD2028354 ␄
+TD107 <EOF>
+TD98 2> ␅
+TD8423988 ␆* :v [taser] -bot 10
+TD135 2> * :v [taser] -bot 10
+TD107115 ? ␅
+TD5644791 ␆7
+TD115 ? 7
+TD232 📋 "blind" ? ␅
+TD6599716 ␆nnnnn
+TD96 📋 "blind" ? nnnnn
+TD202 tried: BLIND n n n n n
+TD203 3> ␅
+T202.23436824600503 now: 2026-03-01T12:12:33EST
+TD108 3> ␅
+TD1549756 ␆undo
+TD97 3> undo
+TD149 undo
+TD177 2> ␅
+TD3383697 ␆"goofs"
+TD115 2> "goofs"
+TD221 2> ␅
+TD1735523 ␆goofs
+TD137 2> goofs
+TD335 2> ␅
+TD4719668 ␆tried goofs nnnnn
+TD96 2> tried goofs nnnnn
+TD180 tried: GOOFS n n n n n
+TD106 3> ␅
+TD11847770 ␆undo
+TD85 3> undo
+TD113 undo
+TD150 2> ␅
+TD463548 ␆*
+TD104 2> *
+TD116522 ? ␅
+TD835532 ␆1
+TD115 ? 1
+TD278 📋 "doggo" ? ␅
+TD6967685 ␆nnnnn
+TD88 📋 "doggo" ? nnnnn
+TD134 tried: DOGGO n n n n n
+TD104 3> ␅
+TD447550 ␆*
+TD110 3> *
+TD204144 ? ␅
+TD771827 ␆1
+TD109 ? 1
+TD256 📋 "yukky" ? ␅
+TD5071762 ␆nYMnn
+TD109 📋 "yukky" ? nYMnn
+TD234 tried: YUKKY n Y m n n
+TD235 4> ␅
+TD647273 ␆undo
+TD110 4> undo
+TD155 undo
+TD263 3> ␅
+TD2671916 ␆*
+TD95 3> *
+TD100227 ? ␅
+TD635231 ␆1
+TD80 ? 1
+TD219 📋 "civic" ? ␅
+TD4095855 ␆nnnnn
+TD108 📋 "civic" ? nnnnn
+TD161 tried: CIVIC n n n n n
+TD128 4> ␅
+TD663435 ␆*
+TD86 4> *
+TD77881 ? ␅
+TD1194391 ␆1
+TD102 ? 1
+TD224 📋 "xylyl" ? ␅
+TD3695639 ␆nnnnn
+TD76 📋 "xylyl" ? nnnnn
+TD132 tried: XYLYL n n n n n
+TD118 5> ␅
+TD1535517 ␆*
+TD122 5> *
+TD180424 ? ␅
+TD1371501 ␆1
+TD73 ? 1
+TD162 📋 "bubus" ? ␅
+TD4591594 ␆nYnnn
+TD76 📋 "bubus" ? nYnnn
+TD140 tried: BUBUS n Y n n n
+TD123 6> ␅
+TD495675 ␆*
+TD74 6> *
+TD147345 ? ␅
+TD1660759 ␆1
+TD107 ? 1
+TD208 📋 "quaff" ? ␅
+TD4848252 ␆YYYnn
+TD115 📋 "quaff" ? YYYnn
+TD208 tried: QUAFF Y Y Y n n
+TD204 📋> ␅
+TD2951603 ␆Don't Wordle 1377 - SURVIVED
+TD99 📋> Don't Wordle 1377 - SURVIVED
+TD13 📋> ␅
+TD40 ␆Hooray! I didn't Wordle today!
+TD6 📋> Hooray! I didn't Wordle today!
+TD6 📋> ␅
+TD17 ␆⬜⬜⬜⬜⬜4651
+TD6 📋> ⬜⬜⬜⬜⬜4651
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜1966
+TD4 📋> ⬜⬜⬜⬜⬜1966
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜874
+TD4 📋> ⬜⬜⬜⬜⬜874
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜389
+TD4 📋> ⬜⬜⬜⬜⬜389
+TD4 📋> ␅
+TD10 ␆⬜🟩⬜⬜⬜14
+TD4 📋> ⬜🟩⬜⬜⬜14
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩⬜⬜1
+TD4 📋> 🟩🟩🟩⬜⬜1
+TD4 📋> ␅
+TD9 ␆Undos used: 4
+TD4 📋> Undos used: 4
+TD5 📋> ␅
+TD9 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD9 ␆  1 words remaining
+TD6 📋>   1 words remaining
+TD5 📋> ␅
+TD9 ␆x 8 unused letters
+TD4 📋> x 8 unused letters
+TD4 📋> ␅
+TD663142 ␆= 8 total score
+TD102 📋> = 8 total score
+TD12 📋> ␅
+TD215758 ␄
+TD155 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1377 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4651\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1966\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c874\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c389\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c14\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c1\nUndos used: 4\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"}
+TD1318 result: "Don't Wordle 1377 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4651\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1966\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c874\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c389\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c14\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c1\nUndos used: 4\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"
+TD120 📆 2026-03-01 ? ␅
+TD238434 ␆
+TD62 📆 2026-03-01 ? 
