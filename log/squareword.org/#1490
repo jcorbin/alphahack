@@ -1,0 +1,288 @@
+T1100.4268550850102 now: 2026-03-01T12:27:31EST
+TD167 site: squareword.org
+TD37 wordlist: nwl2023.txt
+TD56  ...␅
+TD3269625 ␆
+TD112  ...
+TD88 🧩  ? ␅
+TD2079708 ␆#1490
+TD110 🧩  ? #1490
+TD448 puzzle_id: #1490
+TD416 > ␅
+TD1511151 ␆*
+TD159 > *
+TD534077 try? ␅
+TD1057820 ␆1
+TD149 try? 1
+TD484 questioning: ["aisle", "#5"]
+TD412 #1 <IndexError>  📋 "aisle" ? ␅
+TD4262954 ␆_____ ~ ASL
+TD122 #1 <IndexError>  📋 "aisle" ? _____ ~ ASL
+TD916 attempt 0 AISLE m n m m n
+TD158 #2 <IndexError>  📋 "aisle" ? ␅
+TD2326606 ␆_____ ~ AE
+TD98 #2 <IndexError>  📋 "aisle" ? _____ ~ AE
+TD272 attempt 1 AISLE m n n n m
+TD135 #3 <IndexError>  📋 "aisle" ? ␅
+TD4423562 ␆A____ ~ I
+TD102 #3 <IndexError>  📋 "aisle" ? A____ ~ I
+TD252 attempt 2 AISLE Y m n n n
+TD122 #4 <IndexError>  📋 "aisle" ? ␅
+TD3095639 ␆_____ ~ LE
+TD113 #4 <IndexError>  📋 "aisle" ? _____ ~ LE
+TD283 attempt 3 AISLE n n n m m
+TD124 #5 <IndexError>  📋 "aisle" ? ␅
+TD2191365 ␆_____ ~ SE
+TD105 #5 <IndexError>  📋 "aisle" ? _____ ~ SE
+TD267 attempt 4 AISLE n n m n m
+TD342 ? ␅
+TD759347 ␆
+TD101 ? 
+TD208 question done
+TD309 > ␅
+TD3135348 ␆*
+TD114 > *
+TD1599453 try? ␅
+TD2160486 ␆1
+TD122 try? 1
+TD339 questioning: ["admin", "#3"]
+TD380 #1 _____ ~ALS -EI  📋 "admin" ? ␅
+TD3055444 ␆.
+TD145 #1 _____ ~ALS -EI  📋 "admin" ? .
+TD405 attempt 0 ADMIN m n n n n
+TD114 #2 _____ ~AE -ILS  📋 "admin" ? ␅
+TD839554 ␆.
+TD193 #2 _____ ~AE -ILS  📋 "admin" ? .
+TD415 attempt 1 ADMIN m n n n n
+TD132 #3 A____ ~I -ELS  📋 "admin" ? ␅
+TD2558993 ␆A__I_ ~ D
+TD152 #3 A____ ~I -ELS  📋 "admin" ? A__I_ ~ D
+TD361 attempt 2 ADMIN Y m n Y n
+TD167 #4 _____ ~EL -AIS  📋 "admin" ? ␅
+TD1575297 ␆.
+TD155 #4 _____ ~EL -AIS  📋 "admin" ? .
+TD392 attempt 3 ADMIN n n n n n
+TD132 #5 _____ ~ES -AIL  📋 "admin" ? ␅
+TD3303374 ␆_____ ~ SED
+TD157 #5 _____ ~ES -AIL  📋 "admin" ? _____ ~ SED
+TD336 attempt 4 ADMIN n m n n n
+TD458 ? ␅
+TD358978 ␆
+TD117 ? 
+TD155 question done
+TD422 > ␅
+TD719382 ␆*
+TD138 > *
+TD1700344 try? ␅
+TD3292089 ␆2
+TD166 try? 2
+TD508 questioning: ["audio", "#3"]
+TD576 #1 _____ ~ALS -DEIMN  📋 "audio" ? ␅
+TD2902157 ␆.
+TD156 #1 _____ ~ALS -DEIMN  📋 "audio" ? .
+TD380 attempt 0 AUDIO m n n n n
+TD134 #2 _____ ~AE -DILMNS  📋 "audio" ? ␅
+TD783217 ␆.
+TD123 #2 _____ ~AE -DILMNS  📋 "audio" ? .
+TD403 attempt 1 AUDIO m n n n n
+TD138 #3 A__I_ ~D -ELMNS  📋 "audio" ? ␅
+TD4167493 ␆A__I_ ~ DO
+TD161 #3 A__I_ ~D -ELMNS  📋 "audio" ? A__I_ ~ DO
+TD334 attempt 2 AUDIO Y n m Y m
+TD192 #4 _____ ~EL -ADIMNS  📋 "audio" ? ␅
+TD1063271 ␆.
+TD158 #4 _____ ~EL -ADIMNS  📋 "audio" ? .
+TD351 attempt 3 AUDIO n n n n n
+TD132 #5 _____ ~DES -AILMN  📋 "audio" ? ␅
+TD855412 ␆.
+TD148 #5 _____ ~DES -AILMN  📋 "audio" ? .
+TD395 attempt 4 AUDIO n n m n n
+TD382 ? ␅
+TD191115 ␆
+TD151 ? 
+TD164 question done
+TD404 > ␅
+TD679400 ␆*
+TD128 > *
+TD1424162 try? ␅
+TD2255522 ␆2
+TD172 try? 2
+TD368 questioning: ["avoid", "#3"]
+TD442 #1 _____ ~ALS -DEIMNOU  📋 "avoid" ? ␅
+TD2407131 ␆.
+TD153 #1 _____ ~ALS -DEIMNOU  📋 "avoid" ? .
+TD384 attempt 0 AVOID m n n n n
+TD143 #2 _____ ~AE -DILMNOSU  📋 "avoid" ? ␅
+TD727437 ␆.
+TD169 #2 _____ ~AE -DILMNOSU  📋 "avoid" ? .
+TD387 attempt 1 AVOID m n n n n
+TD131 #3 A__I_ ~DO -ELMNSU  📋 "avoid" ? ␅
+TD711169 ␆/it
+TD167 #3 A__I_ ~DO -ELMNSU  📋 "avoid" ? /it
+TD395 attempt 2 AVOID Y Y Y Y Y
+TD137 #4 _____ ~EL -ADIMNOSU  📋 "avoid" ? ␅
+TD2543225 ␆_____ ~ LEV
+TD112 #4 _____ ~EL -ADIMNOSU  📋 "avoid" ? _____ ~ LEV
+TD466 attempt 3 AVOID n m n n n
+TD258 #5 _____ ~DES -AILMNOU  📋 "avoid" ? ␅
+TD591311 ␆.
+TD157 #5 _____ ~DES -AILMNOU  📋 "avoid" ? .
+TD388 attempt 4 AVOID n n n n m
+TD371 ? ␅
+TD335101 ␆
+TD115 ? 
+TD179 question done
+TD430 > ␅
+TD471183 ␆*
+TD189 > *
+TD1830920 try? ␅
+TD4080781 ␆1
+TD115 try? 1
+TD337 questioning: ["lever", "#4"]
+TD424 #1 _____ ~ALS -DEIMNOUV  📋 "lever" ? ␅
+TD3255442 ␆.
+TD150 #1 _____ ~ALS -DEIMNOUV  📋 "lever" ? .
+TD357 attempt 0 LEVER m n n n n
+TD181 #2 _____ ~AE -DILMNOSUV  📋 "lever" ? ␅
+TD2599198 ␆_E___ ~ AR
+TD132 #2 _____ ~AE -DILMNOSUV  📋 "lever" ? _E___ ~ AR
+TD333 attempt 1 LEVER n Y n n m
+TD187 #4 _____ ~ELV -ADIMNOSU  📋 "lever" ? ␅
+TD4327451 ␆_EVE_ ~ LR
+TD140 #4 _____ ~ELV -ADIMNOSU  📋 "lever" ? _EVE_ ~ LR
+TD325 attempt 3 LEVER m Y Y Y m
+TD214 #5 _____ ~DES -AILMNOUV  📋 "lever" ? ␅
+TD3007145 ␆_E___ ~ SED
+TD119 #5 _____ ~DES -AILMNOUV  📋 "lever" ? _E___ ~ SED
+TD304 attempt 4 LEVER n Y n m n
+TD415 ? ␅
+TD319189 ␆
+TD115 ? 
+TD171 question done
+TD380 > ␅
+TD671314 ␆*
+TD112 > *
+TD4718107 questioning: ["revel", "#4"]
+TD439 #1 _____ ~ALS -DEIMNORUV  📋 "revel" ? ␅
+TD3721443 ␆.
+TD119 #1 _____ ~ALS -DEIMNORUV  📋 "revel" ? .
+TD311 attempt 0 REVEL n n n n m
+TD119 #2 _E___ ~AR -DILMNOSUV  📋 "revel" ? ␅
+TD1015509 ␆.
+TD144 #2 _E___ ~AR -DILMNOSUV  📋 "revel" ? .
+TD337 attempt 1 REVEL m Y n n n
+TD125 #4 _EVE_ ~LR -ADIMNOSU  📋 "revel" ? ␅
+TD615238 ␆/it
+TD110 #4 _EVE_ ~LR -ADIMNOSU  📋 "revel" ? /it
+TD317 attempt 3 REVEL Y Y Y Y Y
+TD122 #5 _E___ ~DES -AILMNORUV  📋 "revel" ? ␅
+TD2839967 ␆.
+TD125 #5 _E___ ~DES -AILMNORUV  📋 "revel" ? .
+TD311 attempt 4 REVEL n Y n m n
+TD377 ? ␅
+TD502866 ␆
+TD130 ? 
+TD160 question done
+TD382 > ␅
+TD719311 ␆*
+TD115 > *
+TD4449502 questioning: ["seedy", "#5"]
+TD446 #1 _____ ~ALS -DEIMNORUV  📋 "seedy" ? ␅
+TD17430370 ␆.
+TD270 #1 _____ ~ALS -DEIMNORUV  📋 "seedy" ? .
+TD543 attempt 0 SEEDY m n n n n
+TD130 #2 _E___ ~AR -DILMNOSUV  📋 "seedy" ? ␅
+TD1183184 ␆.
+TD167 #2 _E___ ~AR -DILMNOSUV  📋 "seedy" ? .
+TD342 attempt 1 SEEDY n Y n n n
+TD124 #5 _E___ ~DES -AILMNORUV  📋 "seedy" ? ␅
+TD599083 ␆/it
+TD141 #5 _E___ ~DES -AILMNORUV  📋 "seedy" ? /it
+TD317 attempt 4 SEEDY Y Y Y Y Y
+TD390 ? ␅
+TD335149 ␆
+TD118 ? 
+TD130 question done
+TD367 > ␅
+TD559935 ␆*
+TD124 > *
+TD3787187 try? ␅
+TD3172214 ␆1
+TD99 try? 1
+TD341 questioning: ["zebra", "#2"]
+TD355 #1 _____ ~ALS -DEIMNORUVY  📋 "zebra" ? ␅
+TD4727655 ␆.
+TD104 #1 _____ ~ALS -DEIMNORUVY  📋 "zebra" ? .
+TD288 attempt 0 ZEBRA n n n n m
+TD100 #2 _E___ ~AR -DILMNOSUVY  📋 "zebra" ? ␅
+TD622957 ␆/it
+TD113 #2 _E___ ~AR -DILMNOSUVY  📋 "zebra" ? /it
+TD276 attempt 1 ZEBRA Y Y Y Y Y
+TD290 ? ␅
+TD159356 ␆
+TD56 ? 
+TD90 question done
+TD254 > ␅
+TD519664 ␆*
+TD115 > *
+TD2455818 try? ␅
+TD2712386 ␆2
+TD138 try? 2
+TD377 questioning: ["claws", "#1"]
+TD479 #1 _____ ~ALS -BDEIMNORUVYZ  📋 "claws" ? ␅
+TD5647012 ␆CLA_S
+TD133 #1 _____ ~ALS -BDEIMNORUVYZ  📋 "claws" ? CLA_S
+TD395 attempt 0 CLAWS Y Y Y n Y
+TD549 ? ␅
+TD518778 ␆
+TD126 ? 
+TD201 question done
+TD402 > ␅
+TD607153 ␆*
+TD144 > *
+TD2305436 questioning: ["claps", "#1"]
+TD428 #1 CLA_S -BDEIMNORUVWYZ  📋 "claps" ? ␅
+TD1430079 ␆/it
+TD107 #1 CLA_S -BDEIMNORUVWYZ  📋 "claps" ? /it
+TD287 attempt 0 CLAPS Y Y Y Y Y
+TD379 ? ␅
+TD863283 ␆
+TD110 ? 
+TD125 question done
+TD48935 📋> ␅
+TD4439542 ␆squareword.org 1490: 10 guesses
+TD108 📋> squareword.org 1490: 10 guesses
+TD15 📋> ␅
+TD56 ␆
+TD8 📋> 
+TD7 📋> ␅
+TD22 ␆🟨🟨🟨🟨🟨
+TD6 📋> 🟨🟨🟨🟨🟨
+TD6 📋> ␅
+TD15 ␆🟨🟩🟨🟨🟨
+TD6 📋> 🟨🟩🟨🟨🟨
+TD5 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD14 ␆🟨🟩🟩🟩🟨
+TD5 📋> 🟨🟩🟩🟩🟨
+TD5 📋> ␅
+TD13 ␆🟨🟩🟨🟨🟨
+TD5 📋> 🟨🟩🟨🟨🟨
+TD5 📋> ␅
+TD12 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD15 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD398865 ␆#squareword #squareword1490
+TD108 📋> #squareword #squareword1490
+TD15 📋> ␅
+TD208756 ␄
+TD198 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1490: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1490"}
+TD1159 result: "squareword.org 1490: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1490"
+TD154 📆 2026-03-01 ? ␅
+TD213621 ␆
+TD111 📆 2026-03-01 ? 
