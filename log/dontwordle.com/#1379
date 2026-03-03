@@ -1,0 +1,177 @@
+T121.23784662699472 now: 2026-03-03T07:44:00EST
+TD77 site: dontwordle.com
+TD13 wordlist: nwl2023.txt
+TD25  ...␅
+TD623052 ␆
+TD102  ...
+TD130 1> ␅
+TD4495755 ␆* -bot 10
+TD92 1> * -bot 10
+TD201067 ? ␅
+TD1959093 ␆2
+TD105 ? 2
+TD269 📋 "arise" ? ␅
+TD4840006 ␆nnnnM
+TD91 📋 "arise" ? nnnnM
+TD386 tried: ARISE n n n n m
+TD142 2> ␅
+TD631188 ␆undo
+TD103 2> undo
+TD148 undo
+TD147 1> ␅
+TD6367610 ␆* :v [arise] -bot 10
+TD103 1> * :v [arise] -bot 10
+TD126948 ? ␅
+TD1408703 ␆2
+TD102 ? 2
+TD248 📋 "tough" ? ␅
+TD3799876 ␆nYnnn
+TD102 📋 "tough" ? nYnnn
+TD216 tried: TOUGH n Y n n n
+TD204 2> ␅
+TD655148 ␆undo
+TD108 2> undo
+TD144 undo
+TD132 1> ␅
+TD3039814 ␆*
+TD94 1> *
+TD108418 ? ␅
+TD1155481 ␆1
+TD104 ? 1
+TD221 📋 "llama" ? ␅
+TD3823754 ␆Mnnnn
+TD110 📋 "llama" ? Mnnnn
+TD199 tried: LLAMA m n n n n
+TD182 2> ␅
+TD568027 ␆undo
+TD104 2> undo
+TD154 undo
+TD135 1> ␅
+TD2166979 ␆*
+TD96 1> *
+TD105061 ? ␅
+TD614837 ␆1
+TD78 ? 1
+TD174 📋 "butut" ? ␅
+TD3279973 ␆nnnnn
+TD100 📋 "butut" ? nnnnn
+TD192 tried: BUTUT n n n n n
+TD164 2> ␅
+TD359744 ␆*(
+TD100 2> *(
+TD160 2> ␅
+TD695391 ␆*
+TD87 2> *
+TD93917 ? ␅
+TD730080 ␆1
+TD98 ? 1
+TD223 📋 "pacha" ? ␅
+TD6399792 ␄
+TD134 <EOF>
+TD130 2> ␅
+TD559678 ␆*
+TD66 2> *
+TD123216 ? ␅
+TD3668763 ␆2
+TD99 ? 2
+TD220 📋 "agama" ? ␅
+TD4015582 ␆nnnnn
+TD74 📋 "agama" ? nnnnn
+TD144 tried: AGAMA n n n n n
+TD122 3> ␅
+TD391823 ␆*
+TD99 3> *
+TD96797 ? ␅
+TD2471468 ␆3
+TD84 ? 3
+TD182 📋 "ninny" ? ␅
+TD4056081 ␆Ynnnn
+TD101 📋 "ninny" ? Ynnnn
+TD200 tried: NINNY Y n n n n
+TD188 4> ␅
+TD1022902 ␆undo
+TD108 4> undo
+TD132 undo
+TD223 3> ␅
+TD2407581 ␆*
+TD99 3> *
+TD88753 ? ␅
+TD4503213 ␆2
+TD98 ? 2
+TD234 📋 "fizzy" ? ␅
+TD4215684 ␆nnnnn
+TD100 📋 "fizzy" ? nnnnn
+TD202 tried: FIZZY n n n n n
+TD177 4> ␅
+TD439532 ␆*
+TD99 4> *
+TD194394 ? ␅
+TD1309529 ␆1
+TD97 ? 1
+TD240 📋 "chock" ? ␅
+TD3984042 ␆nnMnn
+TD102 📋 "chock" ? nnMnn
+TD200 tried: CHOCK n n m n n
+TD209 5> ␅
+TD359149 ␆*
+TD98 5> *
+TD101361 ? ␅
+TD1466550 ␆1
+TD99 ? 1
+TD245 📋 "dorrs" ? ␅
+TD4008048 ␆nYnnn
+TD102 📋 "dorrs" ? nYnnn
+TD211 tried: DORRS n Y n n n
+TD232 6> ␅
+TD983148 ␆*
+TD124 6> *
+TD176484 📋 "wowee" ? ␅
+TD6063344 ␆nYnYn
+TD91 📋 "wowee" ? nYnYn
+TD204 tried: WOWEE n Y n Y n
+TD194 📋> ␅
+TD3641590 ␆Don't Wordle 1379 - SURVIVED
+TD107 📋> Don't Wordle 1379 - SURVIVED
+TD14 📋> ␅
+TD39 ␆Hooray! I didn't Wordle today!
+TD7 📋> Hooray! I didn't Wordle today!
+TD6 📋> ␅
+TD15 ␆⬜⬜⬜⬜⬜7042
+TD6 📋> ⬜⬜⬜⬜⬜7042
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜2820
+TD5 📋> ⬜⬜⬜⬜⬜2820
+TD4 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜1119
+TD5 📋> ⬜⬜⬜⬜⬜1119
+TD5 📋> ␅
+TD11 ␆⬜⬜🟨⬜⬜256
+TD4 📋> ⬜⬜🟨⬜⬜256
+TD4 📋> ␅
+TD10 ␆⬜🟩⬜⬜⬜10
+TD5 📋> ⬜🟩⬜⬜⬜10
+TD4 📋> ␅
+TD10 ␆⬜🟩⬜🟩⬜2
+TD5 📋> ⬜🟩⬜🟩⬜2
+TD4 📋> ␅
+TD10 ␆Undos used: 4
+TD5 📋> Undos used: 4
+TD5 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD10 ␆  2 words remaining
+TD5 📋>   2 words remaining
+TD5 📋> ␅
+TD10 ␆x 7 unused letters
+TD4 📋> x 7 unused letters
+TD4 📋> ␅
+TD317504 ␆= 14 total score
+TD41 📋> = 14 total score
+TD10 📋> ␅
+TD183998 ␄
+TD110 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1379 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7042\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2820\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1119\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c256\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c10\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c2\nUndos used: 4\n\n  2 words remaining\nx 7 unused letters\n= 14 total score"}
+TD1134 result: "Don't Wordle 1379 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7042\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2820\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1119\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c256\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c10\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c2\nUndos used: 4\n\n  2 words remaining\nx 7 unused letters\n= 14 total score"
+TD69 📆 2026-03-03 ? ␅
+TD174649 ␆
+TD42 📆 2026-03-03 ? 
