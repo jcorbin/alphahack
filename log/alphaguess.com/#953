@@ -1,0 +1,98 @@
+T90.78218278599525 now: 2026-03-03T07:43:30EST
+TD136 site: alphaguess.com
+TD169986 loaded 196526 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (78 words excluded) asof 39af6ab95acbdf6106bab685f5d2cfdf6ee28a93
+TD116  ...␅
+TD3092202 ␆
+TD94  ...
+TD178 [0 : 98218 : 196526] mach? ␅
+TD1471650 ␆b
+TD97 [0 : 98218 : 196526] mach? b
+TD106 progress: -1 98218 mach
+TD112 [0 : 47381 : 98218] dis? ␅
+TD1231824 ␆a
+TD93 [0 : 47381 : 98218] dis? a
+TD100 progress: 1 47381 dis
+TD402 [47382 : 72800 : 98218] gremmy? ␅
+TD1279344 ␆b
+TD96 [47382 : 72800 : 98218] gremmy? b
+TD104 progress: -1 72800 gremmy
+TD109 [47382 : 60084 : 72800] face? ␅
+TD1279520 ␆b
+TD88 [47382 : 60084 : 72800] face? b
+TD107 progress: -1 60084 face
+TD109 [47382 : 53397 : 60084] el? ␅
+TD1279920 ␆a
+TD94 [47382 : 53397 : 60084] el? a
+TD105 progress: 1 53397 el
+TD437 [53398 : 56742 : 60084] equate? ␅
+TD1159362 ␆a
+TD95 [53398 : 56742 : 60084] equate? a
+TD101 progress: 1 56742 equate
+TD114 [56743 : 58358 : 60084] ex? ␅
+TD1567756 ␆b
+TD97 [56743 : 58358 : 60084] ex? b
+TD102 progress: -1 58358 ex
+TD102 [56743 : 57525 : 58358] et? ␅
+TD1263673 ␆a
+TD91 [56743 : 57525 : 58358] et? a
+TD105 progress: 1 57525 et
+TD327 [57526 : 57938 : 58358] euphemize? ␅
+TD1183453 ␆a
+TD96 [57526 : 57938 : 58358] euphemize? a
+TD107 progress: 1 57938 euphemize
+TD326 [57939 : 58148 : 58358] evanish? ␅
+TD1295586 ␆a
+TD97 [57939 : 58148 : 58358] evanish? a
+TD109 progress: 1 58148 evanish
+TD116 [58149 : 58172 : 58358] eve? ␅
+TD1311527 ␆a
+TD95 [58149 : 58172 : 58358] eve? a
+TD106 progress: 1 58172 eve
+TD163 [58173 : 58257 : 58358] evict? ␅
+TD1287679 ␆b
+TD95 [58173 : 58257 : 58358] evict? b
+TD102 progress: -1 58257 evict
+TD153 [58173 : 58193 : 58257] event? ␅
+TD1192022 ␆a
+TD105 [58173 : 58193 : 58257] event? a
+TD105 progress: 1 58193 event
+TD110 [58194 : 58217 : 58257] ever? ␅
+TD1095323 ␆a
+TD92 [58194 : 58217 : 58257] ever? a
+TD103 progress: 1 58217 ever
+TD134 [58218 : 58233 : 58257] evert? ␅
+TD1143776 ␆a
+TD92 [58218 : 58233 : 58257] evert? a
+TD102 progress: 1 58233 evert
+TD116 [58234 : 58241 : 58257] every? ␅
+TD1191683 ␆a
+TD77 [58234 : 58241 : 58257] every? a
+TD79 progress: 1 58241 every
+TD122 [58242 : 58249 : 58257] everyone? ␅
+TD2119811 ␆it
+TD98 [58242 : 58249 : 58257] everyone? it
+TD114 progress: 0 58249 everyone
+TD28 [58242 : 58249 : 58257] <Done>.
+TD88 📋> ␅
+TD2864497 ␆🧩 Puzzle #953
+TD79 📋> 🧩 Puzzle #953
+TD8 📋> ␅
+TD30 ␆🤔 17 guesses
+TD3 📋> 🤔 17 guesses
+TD3 📋> ␅
+TD5 ␆⏱️ 20s
+TD3 📋> ⏱️ 20s
+TD2 📋> ␅
+TD255033 ␆🔗 alphaguess.com/953
+TD89 📋> 🔗 alphaguess.com/953
+TD11 📋> ␅
+TD143869 ␄
+TD131 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #953\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/953"}
+TD108 result: "\ud83e\udde9 Puzzle #953\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/953"
+TD15 result puzzle: 953
+TD7 result guesses: 17
+TD6 result time: 20s
+TD5 result link: alphaguess.com/953
+TD92 📆 2026-03-03 ? ␅
+TD127600 ␆
+TD27 📆 2026-03-03 ? 
