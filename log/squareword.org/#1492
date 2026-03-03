@@ -1,0 +1,181 @@
+T765.5248327389927 now: 2026-03-03T07:54:45EST
+TD79 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD27  ...␅
+TD2926970 ␆
+TD93  ...
+TD73 🧩  ? ␅
+TD3343732 ␆#1492
+TD107 🧩  ? #1492
+TD313 puzzle_id: #1492
+TD310 > ␅
+TD1431325 ␆*
+TD99 > *
+TD229470 try? ␅
+TD1066347 ␆1
+TD93 try? 1
+TD321 questioning: ["stale", "#5"]
+TD327 #1 <IndexError>  📋 "stale" ? ␅
+TD4215594 ␆__A__ ~ STL
+TD106 #1 <IndexError>  📋 "stale" ? __A__ ~ STL
+TD468 attempt 0 STALE m m Y m n
+TD83 #2 <IndexError>  📋 "stale" ? ␅
+TD2975007 ␆___LE ~ AE
+TD96 #2 <IndexError>  📋 "stale" ? ___LE ~ AE
+TD287 attempt 1 STALE n n m Y Y
+TD127 #3 <IndexError>  📋 "stale" ? ␅
+TD2303575 ␆__A__ 
+TD99 #3 <IndexError>  📋 "stale" ? __A__ 
+TD249 attempt 2 STALE n n Y n n
+TD91 #4 <IndexError>  📋 "stale" ? ␅
+TD2183428 ␆_____ ~ TE
+TD101 #4 <IndexError>  📋 "stale" ? _____ ~ TE
+TD252 attempt 3 STALE n m n n m
+TD135 #5 <IndexError>  📋 "stale" ? ␅
+TD2008103 ␆_____ ~ STA
+TD80 #5 <IndexError>  📋 "stale" ? _____ ~ STA
+TD185 attempt 4 STALE m m m n n
+TD218 ? ␅
+TD463045 ␆
+TD101 ? 
+TD198 question done
+TD350 > ␅
+TD575213 ␆*
+TD76 > *
+TD688109 try? ␅
+TD1599915 ␆1
+TD97 try? 1
+TD332 questioning: ["blast", "#1"]
+TD270 #1 __A__ ~LST -E  📋 "blast" ? ␅
+TD2207281 ␆/it
+TD71 #1 __A__ ~LST -E  📋 "blast" ? /it
+TD174 attempt 0 BLAST Y Y Y Y Y
+TD67 #2 ___LE ~A -ST  📋 "blast" ? ␅
+TD3903639 ␆___LE ~ AE
+TD97 #2 ___LE ~A -ST  📋 "blast" ? ___LE ~ AE
+TD274 attempt 1 BLAST n n m n n
+TD148 #3 __A__ -ELST  📋 "blast" ? ␅
+TD1759475 ␆.
+TD98 #3 __A__ -ELST  📋 "blast" ? .
+TD290 attempt 2 BLAST n n Y n n
+TD98 #4 _____ ~ET -ALS  📋 "blast" ? ␅
+TD3607576 ␆____T ~ E
+TD96 #4 _____ ~ET -ALS  📋 "blast" ? ____T ~ E
+TD268 attempt 3 BLAST n n n n Y
+TD149 #5 _____ ~AST -EL  📋 "blast" ? ␅
+TD1111435 ␆.
+TD94 #5 _____ ~AST -EL  📋 "blast" ? .
+TD285 attempt 4 BLAST n n m m m
+TD306 ? ␅
+TD167275 ␆
+TD97 ? 
+TD117 question done
+TD318 > ␅
+TD479572 ␆*
+TD99 > *
+TD667180 questioning: ["eagle", "#2"]
+TD187 #2 ___LE ~A -BLST  📋 "eagle" ? ␅
+TD2804352 ␆/it
+TD75 #2 ___LE ~A -BLST  📋 "eagle" ? /it
+TD176 attempt 1 EAGLE Y Y Y Y Y
+TD65 #3 __A__ -BELST  📋 "eagle" ? ␅
+TD3383857 ␆__A__ ~ G
+TD115 #3 __A__ -BELST  📋 "eagle" ? __A__ ~ G
+TD271 attempt 2 EAGLE n n m n n
+TD119 #4 ____T ~E -ABLS  📋 "eagle" ? ␅
+TD3087542 ␆E___T 
+TD102 #4 ____T ~E -ABLS  📋 "eagle" ? E___T 
+TD262 attempt 3 EAGLE Y n n n n
+TD153 #5 _____ ~AST -BEL  📋 "eagle" ? ␅
+TD2463422 ␆_A___ ~ ST
+TD104 #5 _____ ~AST -BEL  📋 "eagle" ? _A___ ~ ST
+TD278 attempt 4 EAGLE n Y n n n
+TD399 ? ␅
+TD439436 ␆
+TD125 ? 
+TD150 question done
+TD384 > ␅
+TD687107 ␆*
+TD99 > *
+TD453746 questioning: ["grain", "#3"]
+TD182 #3 __A__ ~G -ABELST  📋 "grain" ? ␅
+TD3737931 ␆/it
+TD94 #3 __A__ ~G -ABELST  📋 "grain" ? /it
+TD270 attempt 2 GRAIN Y Y Y Y Y
+TD101 #4 E___T -ABGLS  📋 "grain" ? ␅
+TD3231642 ␆E___T ~ I
+TD101 #4 E___T -ABGLS  📋 "grain" ? E___T ~ I
+TD280 attempt 3 GRAIN n n n m n
+TD154 #5 _A___ ~ST -BEGL  📋 "grain" ? ␅
+TD4015357 ␆_A___ ~ STN
+TD96 #5 _A___ ~ST -BEGL  📋 "grain" ? _A___ ~ STN
+TD254 attempt 4 GRAIN n n n n m
+TD329 ? ␅
+TD247303 ␆
+TD96 ? 
+TD124 question done
+TD305 > ␅
+TD503922 ␆*
+TD101 > *
+TD1018284 questioning: ["evict", "#4"]
+TD185 #4 E___T ~I -ABGLNRS  📋 "evict" ? ␅
+TD3028796 ␆/it
+TD93 #4 E___T ~I -ABGLNRS  📋 "evict" ? /it
+TD261 attempt 3 EVICT Y Y Y Y Y
+TD99 #5 _A___ ~NST -ABEGILR  📋 "evict" ? ␅
+TD2023589 ␆.
+TD96 #5 _A___ ~NST -ABEGILR  📋 "evict" ? .
+TD281 attempt 4 EVICT n n n n m
+TD316 ? ␅
+TD151432 ␆
+TD97 ? 
+TD120 question done
+TD343 > ␅
+TD391450 ␆*
+TD93 > *
+TD690119 questioning: ["tanks", "#5"]
+TD193 #5 _A___ ~NST -ABCEGILRV  📋 "tanks" ? ␅
+TD2797644 ␆/it
+TD101 #5 _A___ ~NST -ABCEGILRV  📋 "tanks" ? /it
+TD292 attempt 4 TANKS Y Y Y Y Y
+TD328 ? ␅
+TD703130 ␆
+TD97 ? 
+TD111 question done
+TD22668 📋> ␅
+TD5921525 ␆squareword.org 1492: 6 guesses
+TD121 📋> squareword.org 1492: 6 guesses
+TD15 📋> ␅
+TD48 ␆
+TD7 📋> 
+TD7 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD17 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟨🟩🟨🟨🟨
+TD4 📋> 🟨🟩🟨🟨🟨
+TD5 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD14 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD279305 ␆#squareword #squareword1492
+TD102 📋> #squareword #squareword1492
+TD14 📋> ␅
+TD151919 ␄
+TD183 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1492: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1492"}
+TD843 result: "squareword.org 1492: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1492"
+TD66 📆 2026-03-03 ? ␅
+TD182925 ␆
+TD113 📆 2026-03-03 ? 
