@@ -783,6 +783,7 @@ class Meta(PromptUI.Arguable[PromptUI.Prompt]):
 
         def collect_notes():
             for solver_i, solver_j, day, note, _head, _body in self.read_status(ui):
+                if day is None: continue
                 if day != today:
                     yield f'! {day} {note}'
                 elif solver_i == solver_j:
