@@ -1,0 +1,226 @@
+T124.69252664298983 now: 2026-03-04T07:58:32EST
+TD76 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD26  ...␅
+TD3918553 ␆
+TD66  ...
+TD52 🧩  ? ␅
+TD3071942 ␆#1493
+TD67 🧩  ? #1493
+TD194 puzzle_id: #1493
+TD177 > ␅
+TD3271637 ␆*
+TD79 > *
+TD205210 try? ␅
+TD2122574 ␆3
+TD99 try? 3
+TD348 questioning: ["spare", "#5"]
+TD204 #1 <IndexError>  📋 "spare" ? ␅
+TD5511609 ␆S____ ~ A
+TD100 #1 <IndexError>  📋 "spare" ? S____ ~ A
+TD608 attempt 0 SPARE Y n m n n
+TD95 #2 <IndexError>  📋 "spare" ? ␅
+TD3167146 ␆____E ~ SPR
+TD97 #2 <IndexError>  📋 "spare" ? ____E ~ SPR
+TD277 attempt 1 SPARE m m n m Y
+TD129 #3 <IndexError>  📋 "spare" ? ␅
+TD3247593 ␆_____ ~ RE
+TD98 #3 <IndexError>  📋 "spare" ? _____ ~ RE
+TD1041 attempt 2 SPARE n n n m m
+TD88 #4 <IndexError>  📋 "spare" ? ␅
+TD2174823 ␆____E ~ A
+TD102 #4 <IndexError>  📋 "spare" ? ____E ~ A
+TD260 attempt 3 SPARE n n m n Y
+TD128 #5 <IndexError>  📋 "spare" ? ␅
+TD4247498 ␆_____ ~ SARE
+TD100 #5 <IndexError>  📋 "spare" ? _____ ~ SARE
+TD249 attempt 4 SPARE m n m m m
+TD229 ? ␅
+TD895494 ␆
+TD111 ? 
+TD154 question done
+TD314 > ␅
+TD6207570 ␆*
+TD101 > *
+TD603438 try? ␅
+TD2780359 ␆1
+TD99 try? 1
+TD316 questioning: ["prise", "#2"]
+TD276 #1 S____ ~A -EPR  📋 "prise" ? ␅
+TD3719331 ␆.
+TD77 #1 S____ ~A -EPR  📋 "prise" ? .
+TD190 attempt 0 PRISE n n n n n
+TD63 #2 ____E ~PRS -A  📋 "prise" ? ␅
+TD791568 ␆/it
+TD96 #2 ____E ~PRS -A  📋 "prise" ? /it
+TD353 attempt 1 PRISE Y Y Y Y Y
+TD106 #3 _____ ~ER -APS  📋 "prise" ? ␅
+TD3007691 ␆_____ ~ REI
+TD97 #3 _____ ~ER -APS  📋 "prise" ? _____ ~ REI
+TD266 attempt 2 PRISE n m m n m
+TD151 #4 ____E ~A -PRS  📋 "prise" ? ␅
+TD1423421 ␆.
+TD99 #4 ____E ~A -PRS  📋 "prise" ? .
+TD302 attempt 3 PRISE n n n n Y
+TD106 #5 _____ ~AERS -P  📋 "prise" ? ␅
+TD1223367 ␆.
+TD99 #5 _____ ~AERS -P  📋 "prise" ? .
+TD267 attempt 4 PRISE n m n m m
+TD331 ? ␅
+TD175337 ␆
+TD94 ? 
+TD117 question done
+TD364 > ␅
+TD487442 ␆*
+TD95 > *
+TD740938 try? ␅
+TD6746977 ␆1
+TD87 try? 1
+TD281 questioning: ["salut", "#1"]
+TD253 #1 S____ ~A -EIPRS  📋 "salut" ? ␅
+TD4431521 ␆!
+TD114 #1 S____ ~A -EIPRS  📋 "salut" ? !
+TD171 reject: salut
+TD34 question done
+TD300 > ␅
+TD703325 ␆*
+TD97 > *
+TD2864 try? ␅
+TD1757031 ␆1
+TD79 try? 1
+TD212 questioning: ["softa", "#1"]
+TD222 #1 S____ ~A -EIPRS  📋 "softa" ? ␅
+TD3447680 ␆.
+TD92 #1 S____ ~A -EIPRS  📋 "softa" ? .
+TD277 attempt 0 SOFTA Y n n n m
+TD95 #3 _____ ~EIR -APS  📋 "softa" ? ␅
+TD3543524 ␆_____ ~ REIT
+TD92 #3 _____ ~EIR -APS  📋 "softa" ? _____ ~ REIT
+TD264 attempt 2 SOFTA n n n m n
+TD152 #4 ____E ~A -IPRS  📋 "softa" ? ␅
+TD3375569 ␆____E ~ AO
+TD101 #4 ____E ~A -IPRS  📋 "softa" ? ____E ~ AO
+TD256 attempt 3 SOFTA n m n n m
+TD149 #5 _____ ~AERS -IP  📋 "softa" ? ␅
+TD3239436 ␆_____ ~ SARET
+TD61 #5 _____ ~AERS -IP  📋 "softa" ? _____ ~ SARET
+TD162 attempt 4 SOFTA m n n m m
+TD334 ? ␅
+TD383549 ␆
+TD100 ? 
+TD145 question done
+TD334 > ␅
+TD719289 ␆*
+TD62 > *
+TD398491 try? ␅
+TD2385372 ␆5
+TD74 try? 5
+TD212 questioning: ["taser", "#5"]
+TD208 #1 S____ ~A -EFIOPRT  📋 "taser" ? ␅
+TD5263661 ␆SA___ ~ A
+TD102 #1 S____ ~A -EFIOPRT  📋 "taser" ? SA___ ~ A
+TD262 attempt 0 TASER n Y n n n
+TD153 #3 _____ ~EIRT -AFOPS  📋 "taser" ? ␅
+TD1247528 ␆.
+TD101 #3 _____ ~EIRT -AFOPS  📋 "taser" ? .
+TD1178 attempt 2 TASER m n n m m
+TD73 #4 ____E ~AO -FIPRST  📋 "taser" ? ␅
+TD974724 ␆.
+TD80 #4 ____E ~AO -FIPRST  📋 "taser" ? .
+TD188 attempt 3 TASER n m n n n
+TD66 #5 _____ ~AERST -FIOP  📋 "taser" ? ␅
+TD583581 ␆/it
+TD119 #5 _____ ~AERST -FIOP  📋 "taser" ? /it
+TD286 attempt 4 TASER Y Y Y Y Y
+TD315 ? ␅
+TD175305 ␆
+TD104 ? 
+TD115 question done
+TD315 > ␅
+TD527486 ␆*
+TD98 > *
+TD1080026 try? ␅
+TD3096058 ␆2
+TD111 try? 2
+TD287 questioning: ["remit", "#3"]
+TD351 #1 SA___ -EFIOPRST  📋 "remit" ? ␅
+TD5639177 ␆SA___ ~ A
+TD99 #1 SA___ -EFIOPRST  📋 "remit" ? SA___ ~ A
+TD257 attempt 0 REMIT n n n n n
+TD156 #3 _____ ~EIRT -AFOPS  📋 "remit" ? ␅
+TD2351796 ␆/it
+TD96 #3 _____ ~EIRT -AFOPS  📋 "remit" ? /it
+TD277 attempt 2 REMIT Y Y Y Y Y
+TD115 #4 ____E ~AO -EFIPRST  📋 "remit" ? ␅
+TD1799305 ␆.
+TD97 #4 ____E ~AO -EFIPRST  📋 "remit" ? .
+TD270 attempt 3 REMIT n n n n n
+TD305 ? ␅
+TD255691 ␆
+TD106 ? 
+TD123 question done
+TD319 > ␅
+TD471110 ␆*
+TD94 > *
+TD1281922 questioning: ["salad", "#1"]
+TD196 #1 SA___ -EFIMOPRST  📋 "salad" ? ␅
+TD2941661 ␆/it
+TD75 #1 SA___ -EFIMOPRST  📋 "salad" ? /it
+TD175 attempt 0 SALAD Y Y Y Y Y
+TD71 #4 ____E ~AO -EFIMPRST  📋 "salad" ? ␅
+TD3375775 ␆____E ~ AOD
+TD98 #4 ____E ~AO -EFIMPRST  📋 "salad" ? ____E ~ AOD
+TD253 attempt 3 SALAD n m n m m
+TD355 ? ␅
+TD279414 ␆
+TD100 ? 
+TD124 question done
+TD314 > ␅
+TD535663 ␆*
+TD96 > *
+TD892972 questioning: ["anode", "#4"]
+TD239 #4 ____E ~ADO -EFILMPRST  📋 "anode" ? ␅
+TD2458607 ␆/it
+TD99 #4 ____E ~ADO -EFILMPRST  📋 "anode" ? /it
+TD258 attempt 3 ANODE Y Y Y Y Y
+TD304 ? ␅
+TD10783315 ␆
+TD100 ? 
+TD114 question done
+TD21795 📋> ␅
+TD794274 ␆squareword.org 1493: 7 guesses
+TD98 📋> squareword.org 1493: 7 guesses
+TD12 📋> ␅
+TD67 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD24 ␆🟩🟩🟨🟨🟨
+TD6 📋> 🟩🟩🟨🟨🟨
+TD5 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD26 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD17 ␆🟨🟨🟨🟨🟩
+TD4 📋> 🟨🟨🟨🟨🟩
+TD4 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD16 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD18 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD263387 ␆#squareword #squareword1493
+TD92 📋> #squareword #squareword1493
+TD12 📋> ␅
+TD144721 ␄
+TD173 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1493: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1493"}
+TD788 result: "squareword.org 1493: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1493"
+TD70 📆 2026-03-04 ? ␅
+TD174137 ␆
+TD99 📆 2026-03-04 ? 
