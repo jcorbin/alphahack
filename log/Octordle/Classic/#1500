@@ -1,0 +1,358 @@
+T82607.109658465 now: 2026-03-04T07:53:40EST
+TD85 site: britannica.com/games/octordle/daily
+TD15 wordlist: nwl2023.txt
+TD4 num_words: 8
+TD130  ...␅
+TD2502783 ␆
+TD64  ...
+TD776552 > ␅
+TD6439460 ␆*
+TD63 > *
+TD46941 ? ␅
+TD1417499 ␆1
+TD70 ? 1
+TD121 questioning: toeas
+TD95 Classic #1 _____? ␅
+TD4831398 ␆MYnnn
+TD73 Classic #1 _____? MYnnn
+TD151 attempt: 0 TOEAS m Y n n n
+TD79 Classic #2 _____? ␅
+TD1472418 ␆nMnnn
+TD74 Classic #2 _____? nMnnn
+TD152 attempt: 1 TOEAS n m n n n
+TD67 Classic #3 _____? ␅
+TD1510973 ␆nnnnM
+TD71 Classic #3 _____? nnnnM
+TD137 attempt: 2 TOEAS n n n n m
+TD67 Classic #4 _____? ␅
+TD1175750 ␆nnYnn
+TD98 Classic #4 _____? nnYnn
+TD256 attempt: 3 TOEAS n n Y n n
+TD113 Classic #5 _____? ␅
+TD3975691 ␆MnYMn
+TD106 Classic #5 _____? MnYMn
+TD229 attempt: 4 TOEAS m n Y m n
+TD98 Classic #6 _____? ␅
+TD1671604 ␆MYnnn
+TD149 Classic #6 _____? MYnnn
+TD235 attempt: 5 TOEAS m Y n n n
+TD102 Classic #7 _____? ␅
+TD1751722 ␆YnnMn
+TD82 Classic #7 _____? YnnMn
+TD169 attempt: 6 TOEAS Y n n m n
+TD72 Classic #8 _____? ␅
+TD1375473 ␆MMnnn
+TD109 Classic #8 _____? MMnnn
+TD907 attempt: 7 TOEAS m m n n n
+TD765364 > ␅
+TD1129626 ␆*
+TD101 > *
+TD1791 ? ␅
+TD1077970 ␆1
+TD89 ? 1
+TD183 questioning: irony
+TD165 Classic #1 _O___ ~T -AES? ␅
+TD4863784 ␆nMMnn
+TD105 Classic #1 _O___ ~T -AES? nMMnn
+TD226 attempt: 0 IRONY n m m n n
+TD110 Classic #2 _____ ~O -AEST? ␅
+TD1207413 ␆nnYnn
+TD61 Classic #2 _____ ~O -AEST? nnYnn
+TD144 attempt: 1 IRONY n n Y n n
+TD73 Classic #3 _____ ~S -AEOT? ␅
+TD1767775 ␆MYnnn
+TD83 Classic #3 _____ ~S -AEOT? MYnnn
+TD163 attempt: 2 IRONY m Y n n n
+TD74 Classic #4 __E__ -AOST? ␅
+TD2223823 ␆nnnnY
+TD97 Classic #4 __E__ -AOST? nnnnY
+TD223 attempt: 3 IRONY n n n n Y
+TD108 Classic #5 __E__ ~AT -OS? ␅
+TD3823580 ␆nnnYn
+TD100 Classic #5 __E__ ~AT -OS? nnnYn
+TD227 attempt: 4 IRONY n n n Y n
+T1.206170707999263 now: 2026-03-04T07:55:00EST
+TD66 questioning: irony
+TD55 Classic #6 _O___ ~T -AES? ␅
+TD5407926 ␆nnMMn
+TD98 Classic #6 _O___ ~T -AES? nnMMn
+TD316 attempt: 5 IRONY n n m m n
+TD90 Classic #7 T____ ~A -EOS? ␅
+TD1575491 ␆nnnnY
+TD81 Classic #7 T____ ~A -EOS? nnnnY
+TD161 attempt: 6 IRONY n n n n Y
+TD73 Classic #8 _____ ~OT -AES? ␅
+TD1359649 ␆MnMnn
+TD95 Classic #8 _____ ~OT -AES? MnMnn
+TD215 attempt: 7 IRONY m n m n n
+TD642289 > ␅
+TD1877491 ␆*
+TD99 > *
+TD820 ? ␅
+TD1615122 ␆1
+TD99 ? 1
+TD225 questioning: agent
+TD174 Classic #1 _O___ ~RT -AEINSY? ␅
+TD6488131 ␆nnnnY
+TD108 Classic #1 _O___ ~RT -AEINSY? nnnnY
+TD249 attempt: 0 AGENT n n n n Y
+TD111 Classic #2 __O__ -AEINRSTY? ␅
+TD1406932 ␆nMnnn
+TD91 Classic #2 __O__ -AEINRSTY? nMnnn
+TD237 attempt: 1 AGENT n m n n n
+TD112 Classic #3 _R___ ~IS -AENOTY? ␅
+TD1503589 ␆nnnnn
+TD95 Classic #3 _R___ ~IS -AENOTY? nnnnn
+TD220 attempt: 2 AGENT n n n n n
+TD109 Classic #4 __E_Y -AINORST? ␅
+TD1383601 ␆nMYnn
+TD88 Classic #4 __E_Y -AINORST? nMYnn
+TD223 attempt: 3 AGENT n m Y n n
+TD108 Classic #5 __EN_ ~AT -IORSY? ␅
+TD3255702 ␆YYYYY
+TD104 Classic #5 __EN_ ~AT -IORSY? YYYYY
+TD214 attempt: 4 AGENT Y Y Y Y Y
+TD106 Classic #6 _O___ ~NT -AEIRSY? ␅
+TD1215518 ␆nnnMM
+TD107 Classic #6 _O___ ~NT -AEIRSY? nnnMM
+TD215 attempt: 5 AGENT n n n m m
+TD119 Classic #7 T___Y ~A -EINORS? ␅
+TD1543498 ␆MnnnM
+TD95 Classic #7 T___Y ~A -EINORS? MnnnM
+TD232 attempt: 6 AGENT m n n n m
+TD112 Classic #8 _____ ~IOT -AENRSY? ␅
+TD1303672 ␆nMnnY
+TD103 Classic #8 _____ ~IOT -AENRSY? nMnnY
+TD231 attempt: 7 AGENT n m n n Y
+TD544709 > ␅
+TD1558958 ␆*
+TD102 > *
+TD556 ? ␅
+TD3439357 ␄
+TD145 <EOF>
+TD547058 > ␅
+TD2652888 ␆* 7
+TD99 > * 7
+TD90146 ? ␅
+TD4894348 ␆1
+TD76 ? 1
+TD133 questioning: talcy
+TD112 Classic #1 _O__T ~R -AEGINSY? ␅
+TD5087070 ␆MnnMn
+TD81 Classic #1 _O__T ~R -AEGINSY? MnnMn
+TD156 attempt: 0 TALCY m n n m n
+TD73 Classic #2 __O__ ~G -AEINRSTY? ␅
+TD1135801 ␆nnMnn
+TD100 Classic #2 __O__ ~G -AEINRSTY? nnMnn
+TD223 attempt: 1 TALCY n n m n n
+TD115 Classic #3 _R___ ~IS -AEGNOTY? ␅
+TD2495635 ␆nnnMn
+TD109 Classic #3 _R___ ~IS -AEGNOTY? nnnMn
+TD240 attempt: 2 TALCY n n n m n
+TD119 Classic #4 __E_Y ~G -AINORST? ␅
+TD1735849 ␆nnnMnY
+TD113 Classic #4 __E_Y ~G -AINORST? nnnMnY
+TD159 attempt: 3 TALCY n n n m n
+TD80 Classic #6 _O___ ~NT -AEGIRSY? ␅
+TD3071204 ␆MnnYn
+TD77 Classic #6 _O___ ~NT -AEGIRSY? MnnYn
+TD135 attempt: 5 TALCY m n n Y n
+TD66 Classic #7 T___Y ~A -EGINORS? ␅
+TD1455769 ␆YYnnY
+TD102 Classic #7 T___Y ~A -EGINORS? YYnnY
+TD234 attempt: 6 TALCY Y Y n n Y
+TD121 Classic #8 ____T ~GIO -AENRSY? ␅
+TD1175621 ␆Mnnnn
+TD83 Classic #8 ____T ~GIO -AENRSY? Mnnnn
+TD150 attempt: 7 TALCY m n n n n
+TD581555 > ␅
+TD2218215 ␆*
+TD96 > *
+TD409 questioning: court
+TD130 Classic #1 _O__T ~CR -AEGILNSY? ␅
+TD5183554 ␆YYYYY
+TD98 Classic #1 _O__T ~CR -AEGILNSY? YYYYY
+TD216 attempt: 0 COURT Y Y Y Y Y
+TD115 Classic #2 __O__ ~GL -ACEINRSTY? ␅
+TD1319534 ␆nMnnn
+TD98 Classic #2 __O__ ~GL -ACEINRSTY? nMnnn
+TD224 attempt: 1 COURT n m n n n
+TD114 Classic #3 _R___ ~CIS -AEGLNOTY? ␅
+TD4175606 ␆YnnMn
+TD78 Classic #3 _R___ ~CIS -AEGLNOTY? YnnMn
+TD205 attempt: 2 COURT Y n n m n
+T1.662867533013923 now: 2026-03-04T07:56:28EST
+TD74 questioning: court
+TD73 Classic #4 __E_Y ~CG -AILNORSTY? ␅
+TD1514883 ␆nnnnn
+TD96 Classic #4 __E_Y ~CG -AILNORSTY? nnnnn
+TD381 attempt: 3 COURT n n n n n
+TD132 Classic #6 _O_C_ ~NT -AEGILRSY? ␅
+TD4135339 ␆MYnnM
+TD75 Classic #6 _O_C_ ~NT -AEGILRSY? MYnnM
+TD159 attempt: 5 COURT m Y n n m
+TD79 Classic #7 TA__Y -CEGILNORS? ␅
+TD3759617 ␆nnnnM
+TD79 Classic #7 TA__Y -CEGILNORS? nnnnM
+TD149 attempt: 6 COURT n n n n m
+TD74 Classic #8 ____T ~GIO -ACELNRSY? ␅
+TD1135807 ␆nMnnY
+TD82 Classic #8 ____T ~GIO -ACELNRSY? nMnnY
+TD153 attempt: 7 COURT n m n n Y
+TD460576 > ␅
+TD4027103 ␆*
+TD66 > *
+TD2260 questioning: crisp
+TD88 Classic #2 __O__ ~GL -ACEINRSTUY? ␅
+TD5541867 ␆nnnnn
+TD76 Classic #2 __O__ ~GL -ACEINRSTUY? nnnnn
+TD147 attempt: 1 CRISP n n n n n
+TD89 Classic #3 CR___ ~IS -AEGLNOTUY? ␅
+TD1399691 ␆YYYYY
+TD76 Classic #3 CR___ ~IS -AEGLNOTUY? YYYYY
+TD135 attempt: 2 CRISP Y Y Y Y Y
+TD67 Classic #4 __E_Y ~G -ACILNORSTUY? ␅
+TD1327741 ␆nnnnn
+TD102 Classic #4 __E_Y ~G -ACILNORSTUY? nnnnn
+TD206 attempt: 3 CRISP n n n n n
+TD108 Classic #6 _O_C_ ~NT -AEGILRSUY? ␅
+TD3167510 ␆Mnnnn
+TD69 Classic #6 _O_C_ ~NT -AEGILRSUY? Mnnnn
+TD135 attempt: 5 CRISP m n n n n
+TD68 Classic #7 TA__Y -CEGILNORSU? ␅
+TD1879676 ␆nnnnn
+TD101 Classic #7 TA__Y -CEGILNORSU? nnnnn
+TD207 attempt: 6 CRISP n n n n n
+TD70 Classic #8 ____T ~GIO -ACELNRSUY? ␅
+TD1503700 ␆nnMnn
+TD109 Classic #8 ____T ~GIO -ACELNRSUY? nnMnn
+TD229 attempt: 7 CRISP n n m n n
+TD333293 > ␅
+TD658360 ␆*
+TD70 > *
+TD302 questioning: geeky
+TD154 Classic #2 __O__ ~GL -ACEINPRSTUY? ␅
+TD6879682 ␆Ynnnn
+TD98 Classic #2 __O__ ~GL -ACEINPRSTUY? Ynnnn
+TD192 attempt: 1 GEEKY Y n n n n
+TD84 Classic #4 __E_Y ~G -ACILNOPRSTUY? ␅
+TD2119629 ␆MMYnY
+TD90 Classic #4 __E_Y ~G -ACILNOPRSTUY? MMYnY
+TD210 attempt: 3 GEEKY m m Y n Y
+TD119 Classic #6 _O_C_ ~NT -AEGILPRSUY? ␅
+TD3183583 ␆nnnnn
+TD94 Classic #6 _O_C_ ~NT -AEGILPRSUY? nnnnn
+TD207 attempt: 5 GEEKY n n n n n
+TD118 Classic #7 TA__Y -CEGILNOPRSU? ␅
+TD1672043 ␆nnnnY
+TD84 Classic #7 TA__Y -CEGILNOPRSU? nnnnY
+TD168 attempt: 6 GEEKY n n n n Y
+TD77 Classic #8 ____T ~GIO -ACELNPRSUY? ␅
+TD1254969 ␆Mnnnn
+TD69 Classic #8 ____T ~GIO -ACELNPRSUY? Mnnnn
+TD130 attempt: 7 GEEKY m n n n n
+TD375326 > ␅
+TD1168714 ␆*
+TD78 > *
+TD262 questioning: notch
+TD82 Classic #2 G_O__ ~L -ACEIKNPRSTUY? ␅
+TD8543567 ␆nMnnn
+TD94 Classic #2 G_O__ ~L -ACEIKNPRSTUY? nMnnn
+TD236 attempt: 1 NOTCH n m n n n
+TD126 Classic #4 __E_Y ~G -ACIKLNOPRSTU? ␅
+TD1559686 ␆nnnnn
+TD94 Classic #4 __E_Y ~G -ACIKLNOPRSTU? nnnnn
+TD223 attempt: 3 NOTCH n n n n n
+TD113 Classic #6 _O_C_ ~NT -AEGIKLPRSUY? ␅
+TD2807665 ␆YYYYY
+TD98 Classic #6 _O_C_ ~NT -AEGIKLPRSUY? YYYYY
+TD215 attempt: 5 NOTCH Y Y Y Y Y
+TD114 Classic #7 TA__Y -CEGIKLNOPRSU? ␅
+TD1463468 ␆nnMnn
+TD68 Classic #7 TA__Y -CEGIKLNOPRSU? nnMnn
+TD147 attempt: 6 NOTCH n n m n n
+TD78 Classic #8 ____T ~GIO -ACEKLNPRSUY? ␅
+TD1071787 ␆nMMnn
+TD98 Classic #8 ____T ~GIO -ACEKLNPRSUY? nMMnn
+TD222 attempt: 7 NOTCH n m m n n
+TD360833 > ␅
+TD822822 ␆*
+TD93 > *
+TD390 questioning: bigot
+TD136 Classic #2 G_O__ ~L -ACEHIKNPRSTUY? ␅
+TD4943499 ␆nnMYn
+TD109 Classic #2 G_O__ ~L -ACEHIKNPRSTUY? nnMYn
+TD223 attempt: 1 BIGOT n n m Y n
+TD117 Classic #4 __E_Y ~G -ACHIKLNOPRSTU? ␅
+TD1367608 ␆nnMnn
+TD97 Classic #4 __E_Y ~G -ACHIKLNOPRSTU? nnMnn
+TD226 attempt: 3 BIGOT n n m n n
+TD118 Classic #7 TA__Y -CEGHIKLNOPRSU? ␅
+TD4439598 ␆nnnnM
+TD99 Classic #7 TA__Y -CEGHIKLNOPRSU? nnnnM
+TD223 attempt: 6 BIGOT n n n n m
+TD114 Classic #8 ____T ~GIO -ACEHKLNPRSUY? ␅
+TD1279914 ␆YYYYY
+TD104 Classic #8 ____T ~GIO -ACEHKLNPRSUY? YYYYY
+TD259 attempt: 7 BIGOT Y Y Y Y Y
+TD196069 > ␅
+TD1243102 ␆*
+TD72 > *
+TD243 questioning: gloom
+TD74 Classic #2 G_OO_ ~L -ABCEHIKNPRSTUY? ␅
+TD5383625 ␆YYYYY
+TD66 Classic #2 G_OO_ ~L -ABCEHIKNPRSTUY? YYYYY
+TD124 attempt: 1 GLOOM Y Y Y Y Y
+TD72 Classic #4 __E_Y ~G -ABCHIKLNOPRSTU? ␅
+TD2791893 ␆MYnnn
+TD95 Classic #4 __E_Y ~G -ABCHIKLNOPRSTU? MYnnn
+TD219 attempt: 3 GLOOM m Y n n n
+TD68 Classic #7 TA__Y -BCEGHIKLNOPRSU? ␅
+TD3399676 ␆nnnnn
+TD95 Classic #7 TA__Y -BCEGHIKLNOPRSU? nnnnn
+TD216 attempt: 6 GLOOM n n n n n
+TD139142 > ␅
+TD901215 ␆*
+TD107 > *
+TD413 questioning: elegy
+TD135 Classic #4 _LE_Y ~G -ABCHIKMNOPRSTU? ␅
+TD7102759 ␆YYYYY
+TD76 Classic #4 _LE_Y ~G -ABCHIKMNOPRSTU? YYYYY
+TD154 attempt: 3 ELEGY Y Y Y Y Y
+TD93 Classic #7 TA__Y -BCEGHIKLMNOPRSU? ␅
+TD4295628 ␆nnnnY
+TD70 Classic #7 TA__Y -BCEGHIKLMNOPRSU? nnnnY
+TD130 attempt: 6 ELEGY n n n n Y
+TD66552 > ␅
+TD493386 ␆*
+TD95 > *
+TD391 questioning: taffy
+TD133 Classic #7 TA__Y -BCEGHIKLMNOPRSU? ␅
+TD2855444 ␆YYYYY
+TD100 Classic #7 TA__Y -BCEGHIKLMNOPRSU? YYYYY
+TD216 attempt: 6 TAFFY Y Y Y Y Y
+TD116 📋> ␅
+TD2656069 ␆Daily Octordle #1500
+TD109 📋> Daily Octordle #1500
+TD20 📋> ␅
+TD54 ␆5️⃣🔟
+TD8 📋> 5️⃣🔟
+TD6 📋> ␅
+TD16 ␆6️⃣🕚
+TD6 📋> 6️⃣🕚
+TD6 📋> ␅
+TD14 ␆3️⃣8️⃣
+TD6 📋> 3️⃣8️⃣
+TD6 📋> ␅
+TD15 ␆🕛9️⃣
+TD5 📋> 🕛9️⃣
+TD5 📋> ␅
+TD263335 ␆Score: 64
+TD99 📋> Score: 64
+TD12 📋> ␅
+TD175901 ␄
+TD217 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1500\n5\ufe0f\u20e3\ud83d\udd1f\n6\ufe0f\u20e3\ud83d\udd5a\n3\ufe0f\u20e38\ufe0f\u20e3\n\ud83d\udd5b9\ufe0f\u20e3\nScore: 64"}
+TD937 result: "Daily Octordle #1500\n5\ufe0f\u20e3\ud83d\udd1f\n6\ufe0f\u20e3\ud83d\udd5a\n3\ufe0f\u20e38\ufe0f\u20e3\n\ud83d\udd5b9\ufe0f\u20e3\nScore: 64"
+TD66 📆 2026-03-04 ? ␅
+TD134461 ␆
+TD81 📆 2026-03-04 ? 
