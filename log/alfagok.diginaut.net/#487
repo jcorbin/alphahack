@@ -1,0 +1,82 @@
+T82117.048548906 now: 2026-03-04T07:45:30EST
+TD143 site: alfagok.diginaut.net
+TD570480 loaded 399639 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1213 words excluded) asof 39af6ab95acbdf6106bab685f5d2cfdf6ee28a93
+TD124  ...␅
+TD3331551 ␆
+TD79  ...
+TD2134 [0 : 199812 : 399639] lijm? ␅
+TD2614647 ␆a
+TD101 [0 : 199812 : 399639] lijm? a
+TD765 progress: 1 199812 lijm
+TD84 [199813 : 299705 : 399639] schub? ␅
+TD1374083 ␆a
+TD74 [199813 : 299705 : 399639] schub? a
+TD93 progress: 1 299705 schub
+TD86 [299706 : 349473 : 399639] vakantie? ␅
+TD1335851 ␆a
+TD96 [299706 : 349473 : 399639] vakantie? a
+TD103 progress: 1 349473 vakantie
+TD125 [349474 : 374214 : 399639] vrij? ␅
+TD1439639 ␆b
+TD76 [349474 : 374214 : 399639] vrij? b
+TD116 progress: -1 374214 vrij
+TD92 [349474 : 353041 : 374214] ver? ␅
+TD1431931 ␆a
+TD93 [349474 : 353041 : 374214] ver? a
+TD140 progress: 1 353041 ver
+TD212 [353042 : 363624 : 374214] verzot? ␅
+TD1415885 ␆a
+TD79 [353042 : 363624 : 374214] verzot? a
+TD78 progress: 1 363624 verzot
+TD81 [363625 : 368636 : 374214] voetbal? ␅
+TD1431730 ␆a
+TD80 [363625 : 368636 : 374214] voetbal? a
+TD81 progress: 1 368636 voetbal
+TD90 [368637 : 370485 : 374214] voor? ␅
+TD2032013 ␆a
+TD101 [368637 : 370485 : 374214] voor? a
+TD104 progress: 1 370485 voor
+TD121 [370486 : 372337 : 374214] voortplanting? ␅
+TD1639098 ␆b
+TD85 [370486 : 372337 : 374214] voortplanting? b
+TD87 progress: -1 372337 voortplanting
+TD124 [370486 : 371409 : 372337] voorleg? ␅
+TD1527709 ␆a
+TD80 [370486 : 371409 : 372337] voorleg? a
+TD78 progress: 1 371409 voorleg
+TD226 [371410 : 371868 : 372337] voorschakel? ␅
+TD1416017 ␆a
+TD85 [371410 : 371868 : 372337] voorschakel? a
+TD81 progress: 1 371868 voorschakel
+TD97 [371869 : 372021 : 372337] voorst? ␅
+TD1487280 ␆a
+TD72 [371869 : 372021 : 372337] voorst? a
+TD84 progress: 1 372021 voorst
+TD95 [372022 : 372106 : 372337] voort? ␅
+TD1807687 ␆it
+TD77 [372022 : 372106 : 372337] voort? it
+TD82 progress: 0 372106 voort
+TD17 [372022 : 372106 : 372337] <Done>.
+TD67 📋> ␅
+TD2584476 ␆🧩 Puzzel #487
+TD81 📋> 🧩 Puzzel #487
+TD10 📋> ␅
+TD29 ␆🤔 13 gokken
+TD3 📋> 🤔 13 gokken
+TD3 📋> ␅
+TD7 ␆⏱️ 18s
+TD3 📋> ⏱️ 18s
+TD2 📋> ␅
+TD279634 ␆🔗 alfagok.diginaut.net
+TD54 📋> 🔗 alfagok.diginaut.net
+TD5 📋> ␅
+TD183589 ␄
+TD168 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #487\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 18s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD548 result: "\ud83e\udde9 Puzzel #487\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 18s\n\ud83d\udd17 alfagok.diginaut.net"
+TD13 result puzzle: 487
+TD5 result guesses: 13
+TD3 result time: 18s
+TD3 result link: alfagok.diginaut.net
+TD75 📆 2026-03-04 ? ␅
+TD183550 ␆
+TD62 📆 2026-03-04 ? 
