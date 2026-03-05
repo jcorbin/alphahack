@@ -1,0 +1,128 @@
+T20.891171303999727 now: 2026-03-05T08:57:13EST
+TD141 site: alfagok.diginaut.net
+TD752220 loaded 399639 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1213 words excluded) asof eab8966882f66428f199ce03d2dbdb2c15ccf9f8
+TD137  ...␅
+TD9238350 ␆
+TD111  ...
+TD250 [0 : 199812 : 399639] lijm? ␅
+TD2287297 ␆a
+TD101 [0 : 199812 : 399639] lijm? a
+TD251 progress: 1 199812 lijm
+TD85 [199813 : 299705 : 399639] schub? ␅
+TD1383669 ␆b
+TD110 [199813 : 299705 : 399639] schub? b
+TD142 progress: -1 299705 schub
+TD141 [199813 : 247702 : 299705] op? ␅
+TD1383756 ␆b
+TD117 [199813 : 247702 : 299705] op? b
+TD116 progress: -1 247702 op
+TD124 [199813 : 223584 : 247702] mol? ␅
+TD1343416 ␆a
+TD73 [199813 : 223584 : 247702] mol? a
+TD71 progress: 1 223584 mol
+TD170 [223585 : 235643 : 247702] octopus? ␅
+TD1487881 ␆b
+TD111 [223585 : 235643 : 247702] octopus? b
+TD118 progress: -1 235643 octopus
+TD139 [223585 : 229602 : 235643] natuur? ␅
+TD1511576 ␆a
+TD116 [223585 : 229602 : 235643] natuur? a
+TD125 progress: 1 229602 natuur
+TD132 [229603 : 232619 : 235643] niets? ␅
+TD1423847 ␆b
+TD117 [229603 : 232619 : 235643] niets? b
+TD123 progress: -1 232619 niets
+TD131 [229603 : 230946 : 232619] neg? ␅
+TD1311725 ␆a
+TD132 [229603 : 230946 : 232619] neg? a
+TD141 progress: 1 230946 neg
+TD142 [230947 : 231696 : 232619] netwerk? ␅
+TD1399384 ␆b
+TD109 [230947 : 231696 : 232619] netwerk? b
+TD118 progress: -1 231696 netwerk
+TD416 [230947 : 231321 : 231696] neoromantisch? ␅
+TD1551214 ␆b
+TD111 [230947 : 231321 : 231696] neoromantisch? b
+TD117 progress: -1 231321 neoromantisch
+TD284 [230947 : 231124 : 231321] neig? ␅
+TD1399742 ␆a
+TD112 [230947 : 231124 : 231321] neig? a
+TD119 progress: 1 231124 neig
+TD326 [231125 : 231223 : 231321] neobarok? ␅
+TD1400072 ␆b
+TD126 [231125 : 231223 : 231321] neobarok? b
+TD134 progress: -1 231223 neobarok
+TD140 [231125 : 231145 : 231223] nek? ␅
+TD1398949 ␆a
+TD111 [231125 : 231145 : 231223] nek? a
+TD117 progress: 1 231145 nek
+TD173 [231146 : 231183 : 231223] nel? ␅
+TD1367699 ␆a
+TD109 [231146 : 231183 : 231223] nel? a
+TD116 progress: 1 231183 nel
+TD127 [231184 : 231193 : 231223] nell? ␅
+TD1743446 ␆!
+TD110 [231184 : 231193 : 231223] nell? !
+TD666 [231184 : 231203 : 231222] nellissen? ␅
+TD1655420 ␆!
+TD109 [231184 : 231203 : 231222] nellissen? !
+TD503 [231184 : 231203 : 231221] nells? ␅
+TD3655344 ␆!
+TD108 [231184 : 231203 : 231221] nells? !
+TD463 [231184 : 231203 : 231220] nelly? ␅
+TD2063463 ␆!
+TD106 [231184 : 231203 : 231220] nelly? !
+TD446 [231184 : 231204 : 231219] nels? ␅
+TD2535506 ␆!
+TD115 [231184 : 231204 : 231219] nels? !
+TD445 [231184 : 231203 : 231218] nelom? ␅
+TD1879379 ␆!
+TD115 [231184 : 231203 : 231218] nelom? !
+TD501 [231184 : 231203 : 231217] nelson? ␅
+TD2295545 ␆a
+TD120 [231184 : 231203 : 231217] nelson? a
+TD128 progress: 1 231203 nelson
+TD196 [231204 : 231208 : 231217] neme? ␅
+TD1935539 ␆a
+TD130 [231204 : 231208 : 231217] neme? a
+TD118 progress: 1 231208 neme
+TD239 [231209 : 231213 : 231217] nemers? ␅
+TD1999283 ␆b
+TD102 [231209 : 231213 : 231217] nemers? b
+TD109 progress: -1 231213 nemers
+TD236 [231209 : 231211 : 231213] nemende? ␅
+TD2071899 ␆b
+TD114 [231209 : 231211 : 231213] nemende? b
+TD146 progress: -1 231211 nemende
+TD232 [231209 : 231210 : 231211] nemend? ␅
+TD1608078 ␆b
+TD109 [231209 : 231210 : 231211] nemend? b
+TD108 progress: -1 231210 nemend
+TD124 [231209 : 231209 : 231210] nemen? ␅
+TD2991032 ␆it
+TD84 [231209 : 231209 : 231210] nemen? it
+TD91 progress: 0 231209 nemen
+TD16 [231209 : 231209 : 231210] <Done>.
+TD78 📋> ␅
+TD2664588 ␆🧩 Puzzel #488
+TD125 📋> 🧩 Puzzel #488
+TD14 📋> ␅
+TD56 ␆🤔 20 gokken
+TD8 📋> 🤔 20 gokken
+TD7 📋> ␅
+TD14 ␆⏱️ 43s
+TD7 📋> ⏱️ 43s
+TD6 📋> ␅
+TD278971 ␆🔗 alfagok.diginaut.net
+TD94 📋> 🔗 alfagok.diginaut.net
+TD6 📋> ␅
+TD191890 ␄
+TD242 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #488\n\ud83e\udd14 20 gokken\n\u23f1\ufe0f 43s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD481 result: "\ud83e\udde9 Puzzel #488\n\ud83e\udd14 20 gokken\n\u23f1\ufe0f 43s\n\ud83d\udd17 alfagok.diginaut.net"
+TD24 result puzzle: 488
+TD3 result guesses: 20
+TD2 result time: 43s
+TD2 result link: alfagok.diginaut.net
+TD4418 📆 2026-03-05 ? ␅
+TD170732 ␆
+TD113 📆 2026-03-05 ? 
