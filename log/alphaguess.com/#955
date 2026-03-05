@@ -1,0 +1,86 @@
+T82.93930606199865 now: 2026-03-05T08:58:15EST
+TD113 site: alphaguess.com
+TD118909 loaded 196526 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (78 words excluded) asof eab8966882f66428f199ce03d2dbdb2c15ccf9f8
+TD121  ...␅
+TD3015995 ␆
+TD104  ...
+TD208 [0 : 98218 : 196526] mach? ␅
+TD2151892 ␆a
+TD137 [0 : 98218 : 196526] mach? a
+TD143 progress: 1 98218 mach
+TD292 [98219 : 147369 : 196526] rhotic? ␅
+TD1231124 ␆a
+TD76 [98219 : 147369 : 196526] rhotic? a
+TD75 progress: 1 147369 rhotic
+TD76 [147370 : 171639 : 196526] ta? ␅
+TD1319707 ␆b
+TD86 [147370 : 171639 : 196526] ta? b
+TD85 progress: -1 171639 ta
+TD94 [147370 : 159486 : 171639] slop? ␅
+TD1207818 ␆a
+TD140 [147370 : 159486 : 171639] slop? a
+TD121 progress: 1 159486 slop
+TD137 [159487 : 165528 : 171639] stick? ␅
+TD1151661 ␆b
+TD99 [159487 : 165528 : 171639] stick? b
+TD106 progress: -1 165528 stick
+TD140 [159487 : 162473 : 165528] spec? ␅
+TD1279683 ␆a
+TD91 [159487 : 162473 : 165528] spec? a
+TD99 progress: 1 162473 spec
+TD184 [162474 : 163999 : 165528] squab? ␅
+TD1192287 ␆b
+TD101 [162474 : 163999 : 165528] squab? b
+TD103 progress: -1 163999 squab
+TD110 [162474 : 163209 : 163999] spit? ␅
+TD1455097 ␆a
+TD78 [162474 : 163209 : 163999] spit? a
+TD82 progress: 1 163209 spit
+TD430 [163210 : 163604 : 163999] sporopollenins? ␅
+TD1311569 ␆b
+TD100 [163210 : 163604 : 163999] sporopollenins? b
+TD100 progress: -1 163604 sporopollenins
+TD103 [163210 : 163404 : 163604] splutter? ␅
+TD1495618 ␆b
+TD109 [163210 : 163404 : 163604] splutter? b
+TD105 progress: -1 163404 splutter
+TD179 [163210 : 163305 : 163404] splendid? ␅
+TD1255424 ␆a
+TD97 [163210 : 163305 : 163404] splendid? a
+TD102 progress: 1 163305 splendid
+TD158 [163306 : 163353 : 163404] splint? ␅
+TD1239838 ␆a
+TD142 [163306 : 163353 : 163404] splint? a
+TD93 progress: 1 163353 splint
+TD177 [163354 : 163380 : 163404] splosh? ␅
+TD1223492 ␆b
+TD81 [163354 : 163380 : 163404] splosh? b
+TD86 progress: -1 163380 splosh
+TD79 [163354 : 163364 : 163380] split? ␅
+TD1847735 ␆it
+TD99 [163354 : 163364 : 163380] split? it
+TD119 progress: 0 163364 split
+TD28 [163354 : 163364 : 163380] <Done>.
+TD86 📋> ␅
+TD2360352 ␆🧩 Puzzle #955
+TD99 📋> 🧩 Puzzle #955
+TD12 📋> ␅
+TD42 ␆🤔 14 guesses
+TD6 📋> 🤔 14 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 16s
+TD6 📋> ⏱️ 16s
+TD5 📋> ␅
+TD248282 ␆🔗 alphaguess.com/955
+TD156 📋> 🔗 alphaguess.com/955
+TD17 📋> ␅
+TD158861 ␄
+TD165 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #955\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/955"}
+TD95 result: "\ud83e\udde9 Puzzle #955\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/955"
+TD16 result puzzle: 955
+TD6 result guesses: 14
+TD5 result time: 16s
+TD4 result link: alphaguess.com/955
+TD90 📆 2026-03-05 ? ␅
+TD135424 ␆
+TD99 📆 2026-03-05 ? 
