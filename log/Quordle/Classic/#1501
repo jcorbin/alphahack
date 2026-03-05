@@ -1,0 +1,178 @@
+T443.89497980799933 now: 2026-03-05T09:04:16EST
+TD79 site: m-w.com/games/quordle/#/
+TD14 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD75  ...␅
+TD399176 ␆
+TD84  ...
+TD366848 > ␅
+TD4961216 ␆*
+TD92 > *
+TD33761 ? ␅
+TD774014 ␆1
+TD74 ? 1
+TD124 questioning: snare
+TD99 Classic #1 _____? ␅
+TD3359742 ␆nnYnY
+TD62 Classic #1 _____? nnYnY
+TD222 attempt: 0 SNARE n n Y n Y
+TD68 Classic #2 _____? ␅
+TD1399681 ␆nMMnn
+TD67 Classic #2 _____? nMMnn
+TD172 attempt: 1 SNARE n m m n n
+TD75 Classic #3 _____? ␅
+TD1608127 ␆nMYMn
+TD87 Classic #3 _____? nMYMn
+TD154 attempt: 2 SNARE n m Y m n
+TD66 Classic #4 _____? ␅
+TD1207273 ␆nMMnY
+TD65 Classic #4 _____? nMMnY
+TD172 attempt: 3 SNARE n m m n Y
+TD381732 > ␅
+TD666120 ␆*
+TD72 > *
+TD1046 ? ␅
+TD2679132 ␆4
+TD105 ? 4
+TD193 questioning: mango
+TD169 Classic #1 __A_E -NRS? ␅
+TD3047396 ␆nMnMn
+TD114 Classic #1 __A_E -NRS? nMnMn
+TD160 attempt: 0 MANGO n m n m n
+TD76 Classic #2 _____ ~AN -ERS? ␅
+TD1735725 ␆nYMMn
+TD83 Classic #2 _____ ~AN -ERS? nYMMn
+TD159 attempt: 1 MANGO n Y m m n
+TD75 Classic #3 __A__ ~NR -ES? ␅
+TD4799599 ␆nMMnn
+TD103 Classic #3 __A__ ~NR -ES? nMMnn
+TD219 attempt: 2 MANGO n m m n n
+TD106 Classic #4 ____E ~AN -RS? ␅
+TD2288172 ␆nYYnn
+TD101 Classic #4 ____E ~AN -RS? nYYnn
+TD260 attempt: 3 MANGO n Y Y n n
+TD335608 > ␅
+TD671546 ␆*
+TD73 > *
+TD439 ? ␅
+TD999385 ␆1
+TD107 ? 1
+TD172 questioning: trank
+TD146 Classic #1 __A_E ~G -MNORS? ␅
+TD3399692 ␆MnYnn
+TD97 Classic #1 __A_E ~G -MNORS? MnYnn
+TD200 attempt: 0 TRANK m n Y n n
+TD76 Classic #2 _A___ ~GN -EMORS? ␅
+TD2471580 ␆MnMYn
+TD72 Classic #2 _A___ ~GN -EMORS? MnMYn
+TD159 attempt: 1 TRANK m n m Y n
+TD75 Classic #3 __A__ ~NR -EGMOS? ␅
+TD3071874 ␆nYYMn
+TD103 Classic #3 __A__ ~NR -EGMOS? nYYMn
+TD255 attempt: 2 TRANK n Y Y m n
+TD118 Classic #4 _AN_E -GMORS? ␅
+TD1167522 ␆nnMMn
+TD81 Classic #4 _AN_E -GMORS? nnMMn
+TD157 attempt: 3 TRANK n n m m n
+TD354815 > ␅
+TD708821 ␆*
+TD74 > *
+TD272 questioning: agate
+TD79 Classic #1 __A_E ~GT -KMNORS? ␅
+TD2951721 ␆YYYYY
+TD125 Classic #1 __A_E ~GT -KMNORS? YYYYY
+TD251 attempt: 0 AGATE Y Y Y Y Y
+TD136 Classic #2 _A_N_ ~GT -EKMORS? ␅
+TD1479450 ␆MMnMn
+TD79 Classic #2 _A_N_ ~GT -EKMORS? MMnMn
+TD150 attempt: 1 AGATE m m n m n
+TD77 Classic #3 _RA__ ~N -EGKMOST? ␅
+TD1271888 ␆nnYnn
+TD79 Classic #3 _RA__ ~N -EGKMOST? nnYnn
+TD151 attempt: 2 AGATE n n Y n n
+TD76 Classic #4 _AN_E -GKMORST? ␅
+TD1567540 ␆MnnnY
+TD81 Classic #4 _AN_E -GKMORST? MnnnY
+TD150 attempt: 3 AGATE m n n n Y
+TD255425 > ␅
+TD688231 ␆*
+TD79 > *
+TD290 questioning: gaunt
+TD79 Classic #2 _A_N_ ~GT -EKMORS A:1? ␅
+TD3839820 ␆YYYYY
+TD99 Classic #2 _A_N_ ~GT -EKMORS A:1? YYYYY
+TD225 attempt: 1 GAUNT Y Y Y Y Y
+TD115 Classic #3 _RA__ ~N -EGKMOST? ␅
+TD1295686 ␆nMnMn
+TD98 Classic #3 _RA__ ~N -EGKMOST? nMnMn
+TD223 attempt: 2 GAUNT n m n m n
+TD120 Classic #4 _AN_E -GKMORST A:1? ␅
+TD1359520 ␆nYnMn
+TD86 Classic #4 _AN_E -GKMORST A:1? nYnMn
+TD209 attempt: 3 GAUNT n Y n m n
+TD184659 > ␅
+TD726848 ␆*
+TD89 > *
+TD529 ? ␅
+TD2063549 ␄
+TD138 <EOF>
+TD185211 > ␅
+TD990627 ␆* 3
+TD96 > * 3
+TD94379 ? ␅
+TD3457486 ␆3
+TD85 ? 3
+TD149 questioning: drain
+TD118 Classic #3 _RA__ ~N -EGKMOSTU? ␅
+TD3063636 ␆nYYYY
+TD84 Classic #3 _RA__ ~N -EGKMOSTU? nYYYY
+TD166 attempt: 2 DRAIN n Y Y Y Y
+TD76 Classic #4 _AN_E -GKMORSTU? ␅
+TD2231853 ␆nnMnM
+TD75 Classic #4 _AN_E -GKMORSTU? nnMnM
+TD147 attempt: 3 DRAIN n n m n m
+TD137759 > ␅
+TD709931 ␆*
+TD81 > *
+TD288 questioning: brain
+TD82 Classic #3 _RAIN -DEGKMOSTU? ␅
+TD3031636 ␆YYYYY
+TD97 Classic #3 _RAIN -DEGKMOSTU? YYYYY
+TD212 attempt: 2 BRAIN Y Y Y Y Y
+TD125 Classic #4 _AN_E -DGIKMORSTU? ␅
+TD1911612 ␆nnMnM
+TD128 Classic #4 _AN_E -DGIKMORSTU? nnMnM
+TD182 attempt: 3 BRAIN n n m n m
+TD65331 > ␅
+TD694291 ␆*
+TD94 > *
+TD507 ? ␅
+TD1743231 ␆2
+TD96 ? 2
+TD174 questioning: lance
+TD146 Classic #4 _AN_E -BDGIKMORSTU? ␅
+TD2295952 ␆YYYYY
+TD108 Classic #4 _AN_E -BDGIKMORSTU? YYYYY
+TD163 attempt: 3 LANCE Y Y Y Y Y
+TD59 📋> ␅
+TD4400237 ␆🙂 Daily Quordle 1501
+TD96 📋> 🙂 Daily Quordle 1501
+TD13 📋> ␅
+TD64 ␆4️⃣5️⃣
+TD7 📋> 4️⃣5️⃣
+TD15 📋> ␅
+TD33 ␆7️⃣8️⃣
+TD6 📋> 7️⃣8️⃣
+TD5 📋> ␅
+TD15 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD231142 ␆
+TD100 📋> 
+TD14 📋> ␅
+TD175646 ␄
+TD108 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1501\n4\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD720 result: "\ud83d\ude42 Daily Quordle 1501\n4\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD56 📆 2026-03-05 ? ␅
+TD263557 ␆
+TD115 📆 2026-03-05 ? 
