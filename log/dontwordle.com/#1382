@@ -1,0 +1,166 @@
+T82326.561827935 now: 2026-03-06T08:01:39EST
+TD82 site: dontwordle.com
+TD44 wordlist: nwl2023.txt
+TD27  ...␅
+TD3126408 ␆
+TD99  ...
+TD230 1> ␅
+TD5063698 ␆* -bot 10
+TD93 1> * -bot 10
+TD287722 ? ␅
+TD983991 ␆1
+TD97 ? 1
+TD396 📋 "rales" ? ␅
+TD4311681 ␆MnnMn
+TD99 📋 "rales" ? MnnMn
+TD750 tried: RALES m n n m n
+TD149 2> ␅
+TD863439 ␆undo
+TD101 2> undo
+TD146 undo
+TD317 1> ␅
+TD4215100 ␆* 
+TD90 1> * 
+TD118738 ? ␅
+TD809081 ␆1
+TD93 ? 1
+TD243 📋 "shush" ? ␅
+TD5063833 ␆nnnnn
+TD98 📋 "shush" ? nnnnn
+TD212 tried: SHUSH n n n n n
+TD171 2> ␅
+TD6383416 ␆* :v [rales] -bot 10
+TD76 2> * :v [rales] -bot 10
+TD110843 ? ␅
+TD1833366 ␆2
+TD99 ? 2
+TD228 📋 "yonic" ? ␅
+TD4679568 ␆Mnnnn
+TD100 📋 "yonic" ? Mnnnn
+TD204 tried: YONIC m n n n n
+TD199 3> ␅
+TD695456 ␆undo
+TD98 3> undo
+TD145 undo
+TD195 2> ␅
+TD3935680 ␆*
+TD111 2> *
+TD93741 ? ␅
+TD866682 ␆1
+TD98 ? 1
+TD249 📋 "nanna" ? ␅
+TD4103455 ␆nnnnn
+TD103 📋 "nanna" ? nnnnn
+TD201 tried: NANNA n n n n n
+TD178 3> ␅
+TD1583253 ␆*
+TD80 3> *
+TD89875 ? ␅
+TD821923 ␆1
+TD96 ? 1
+TD223 📋 "iodid" ? ␅
+TD4271873 ␆nnnnn
+TD100 📋 "iodid" ? nnnnn
+TD199 tried: IODID n n n n n
+TD172 4> ␅
+TD415868 ␆*
+TD99 4> *
+TD184393 📋 "grrrl" ? ␅
+TD5799425 ␆nnYnn
+TD103 📋 "grrrl" ? nnYnn
+TD199 tried: GRRRL n n Y n n
+TD206 5> ␅
+TD775268 ␆undo
+TD98 5> undo
+TD138 undo
+TD275 4> ␅
+TD3639505 ␆*
+TD98 4> *
+TD176858 📋 "grrrl" ? ␅
+TD599124 ␄
+TD135 <EOF>
+TD141 4> ␅
+TD1287586 ␆* -sans
+TD95 4> * -sans
+TD95760 ? ␅
+TD28928842 ␄
+TD147 <EOF>
+TD156 4> ␅
+TD6143633 ␆* :v [ry]
+TD101 4> * :v [ry]
+TD89805 4> ␅
+TD11142214 ␆* -sans :v [ry]
+TD94 4> * -sans :v [ry]
+TD91624 ? ␅
+TD8828492 ␆10
+TD99 ? 10
+TD239 📋 "cleft" ? ␅
+TD4975622 ␆nnMnn
+TD115 📋 "cleft" ? nnMnn
+TD207 tried: CLEFT n n m n n
+TD207 5> ␅
+TD687918 ␆*
+TD104 5> *
+TD182913 ? ␅
+TD7673052 ␆2
+TD98 ? 2
+TD390 📋 "pewee" ? ␅
+TD4583473 ␆nYnnn
+TD95 📋 "pewee" ? nYnnn
+TD215 tried: PEWEE n Y n n n
+TD206 6> ␅
+TD439833 ␆*
+TD82 6> *
+TD178186 ? ␅
+TD4325193 ␆1
+TD94 ? 1
+TD220 📋 "bevvy" ? ␅
+TD5616385 ␆nYnnY
+TD120 📋 "bevvy" ? nYnnY
+TD212 tried: BEVVY n Y n n Y
+TD268 📋> ␅
+TD3559425 ␆Don't Wordle 1382 - SURVIVED
+TD100 📋> Don't Wordle 1382 - SURVIVED
+TD13 📋> ␅
+TD41 ␆Hooray! I didn't Wordle today!
+TD7 📋> Hooray! I didn't Wordle today!
+TD6 📋> ␅
+TD15 ␆⬜⬜⬜⬜⬜4857
+TD6 📋> ⬜⬜⬜⬜⬜4857
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜1827
+TD4 📋> ⬜⬜⬜⬜⬜1827
+TD5 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜284
+TD5 📋> ⬜⬜⬜⬜⬜284
+TD5 📋> ␅
+TD13 ␆⬜⬜🟨⬜⬜51
+TD5 📋> ⬜⬜🟨⬜⬜51
+TD5 📋> ␅
+TD11 ␆⬜🟩⬜⬜⬜12
+TD4 📋> ⬜🟩⬜⬜⬜12
+TD4 📋> ␅
+TD11 ␆⬜🟩⬜⬜🟩8
+TD4 📋> ⬜🟩⬜⬜🟩8
+TD4 📋> ␅
+TD18 ␆Undos used: 3
+TD5 📋> Undos used: 3
+TD5 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD10 ␆  8 words remaining
+TD5 📋>   8 words remaining
+TD5 📋> ␅
+TD10 ␆x 8 unused letters
+TD4 📋> x 8 unused letters
+TD4 📋> ␅
+TD295480 ␆= 64 total score
+TD98 📋> = 64 total score
+TD13 📋> ␅
+TD207455 ␄
+TD301 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1382 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4857\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1827\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c284\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c51\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c12\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe98\nUndos used: 3\n\n  8 words remaining\nx 8 unused letters\n= 64 total score"}
+TD1523 result: "Don't Wordle 1382 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4857\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1827\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c284\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c51\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c12\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe98\nUndos used: 3\n\n  8 words remaining\nx 8 unused letters\n= 64 total score"
+TD81 📆 2026-03-06 ? ␅
+TD230264 ␆
+TD117 📆 2026-03-06 ? 
