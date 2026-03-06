@@ -1,0 +1,96 @@
+T82276.320951355 now: 2026-03-06T08:00:49EST
+TD83 site: alphaguess.com
+TD182042 loaded 196526 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (78 words excluded) asof 02323c9d8edfcd49e3adf6b5f5cf613d093f8239
+TD120  ...␅
+TD3736659 ␆
+TD98  ...
+TD179 [0 : 98218 : 196526] mach? ␅
+TD2231796 ␆
+TD99 [0 : 98218 : 196526] mach? 
+TD117 [0 : 98218 : 196526] mach? ␅
+TD5695647 ␆a
+TD96 [0 : 98218 : 196526] mach? a
+TD113 progress: 1 98218 mach
+TD245 [98219 : 147369 : 196526] rhotic? ␅
+TD2095617 ␆b
+TD96 [98219 : 147369 : 196526] rhotic? b
+TD108 progress: -1 147369 rhotic
+TD117 [98219 : 122779 : 147369] parr? ␅
+TD1471732 ␆a
+TD96 [98219 : 122779 : 147369] parr? a
+TD109 progress: 1 122779 parr
+TD108 [122780 : 135070 : 147369] proper? ␅
+TD1487471 ␆a
+TD90 [122780 : 135070 : 147369] proper? a
+TD86 progress: 1 135070 proper
+TD92 [135071 : 140519 : 147369] rec? ␅
+TD1424015 ␆b
+TD111 [135071 : 140519 : 147369] rec? b
+TD107 progress: -1 140519 rec
+TD109 [135071 : 137790 : 140519] quart? ␅
+TD1439859 ␆b
+TD101 [135071 : 137790 : 140519] quart? b
+TD106 progress: -1 137790 quart
+TD233 [135071 : 136430 : 137790] pul? ␅
+TD1423214 ␆b
+TD97 [135071 : 136430 : 137790] pul? b
+TD107 progress: -1 136430 pul
+TD257 [135071 : 135749 : 136430] provincial? ␅
+TD1799737 ␆a
+TD91 [135071 : 135749 : 136430] provincial? a
+TD109 progress: 1 135749 provincial
+TD118 [135750 : 136053 : 136430] psycho? ␅
+TD1415582 ␆b
+TD99 [135750 : 136053 : 136430] psycho? b
+TD107 progress: -1 136053 psycho
+TD148 [135750 : 135900 : 136053] psalm? ␅
+TD1703577 ␆b
+TD111 [135750 : 135900 : 136053] psalm? b
+TD108 progress: -1 135900 psalm
+TD372 [135750 : 135826 : 135900] proximate? ␅
+TD1439508 ␆a
+TD78 [135750 : 135826 : 135900] proximate? a
+TD80 progress: 1 135826 proximate
+TD207 [135827 : 135863 : 135900] pruniest? ␅
+TD4047858 ␆!
+TD98 [135827 : 135863 : 135900] pruniest? !
+TD549 [135827 : 135863 : 135899] pruning? ␅
+TD3391128 ␆b
+TD73 [135827 : 135863 : 135899] pruning? b
+TD81 progress: -1 135863 pruning
+TD146 [135827 : 135844 : 135863] prudish? ␅
+TD1687815 ␆b
+TD78 [135827 : 135844 : 135863] prudish? b
+TD84 progress: -1 135844 prudish
+TD102 [135827 : 135834 : 135844] prude? ␅
+TD1727712 ␆a
+TD79 [135827 : 135834 : 135844] prude? a
+TD81 progress: 1 135834 prude
+TD106 [135835 : 135837 : 135844] prudent? ␅
+TD2983820 ␆it
+TD94 [135835 : 135837 : 135844] prudent? it
+TD108 progress: 0 135837 prudent
+TD26 [135835 : 135837 : 135844] <Done>.
+TD84 📋> ␅
+TD3144107 ␆🧩 Puzzle #956
+TD84 📋> 🧩 Puzzle #956
+TD9 📋> ␅
+TD29 ␆🤔 15 guesses
+TD3 📋> 🤔 15 guesses
+TD3 📋> ␅
+TD6 ␆⏱️ 28s
+TD3 📋> ⏱️ 28s
+TD2 📋> ␅
+TD391581 ␆🔗 alphaguess.com/956
+TD91 📋> 🔗 alphaguess.com/956
+TD13 📋> ␅
+TD207791 ␄
+TD136 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #956\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/956"}
+TD93 result: "\ud83e\udde9 Puzzle #956\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/956"
+TD11 result puzzle: 956
+TD3 result guesses: 15
+TD3 result time: 28s
+TD2 result link: alphaguess.com/956
+TD100 📆 2026-03-06 ? ␅
+TD359686 ␆
+TD93 📆 2026-03-06 ? 
