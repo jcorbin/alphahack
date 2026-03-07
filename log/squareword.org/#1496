@@ -1,0 +1,212 @@
+T88303.190522928 now: 2026-03-07T10:17:21EST
+TD98 site: squareword.org
+TD30 wordlist: nwl2023.txt
+TD27  ...␅
+TD681788 ␆
+TD98  ...
+TD69 🧩  ? ␅
+TD3375729 ␆#1496
+TD75 🧩  ? #1496
+TD230 puzzle_id: #1496
+TD434 > ␅
+TD1047205 ␆*
+TD72 > *
+TD305554 try? ␅
+TD1558546 ␆1
+TD77 try? 1
+TD458 questioning: ["leans", "#5"]
+TD280 #1 <IndexError>  📋 "leans" ? ␅
+TD3767226 ␆_____ ~ E
+TD94 #1 <IndexError>  📋 "leans" ? _____ ~ E
+TD860 attempt 0 LEANS n m n n n
+TD146 #2 <IndexError>  📋 "leans" ? ␅
+TD2006805 ␆_____ ~ LE
+TD97 #2 <IndexError>  📋 "leans" ? _____ ~ LE
+TD287 attempt 1 LEANS m m n n n
+TD123 #3 <IndexError>  📋 "leans" ? ␅
+TD1695520 ␆_____ ~ E
+TD97 #3 <IndexError>  📋 "leans" ? _____ ~ E
+TD271 attempt 2 LEANS n m n n n
+TD123 #4 <IndexError>  📋 "leans" ? ␅
+TD1735454 ␆_____ ~ LE
+TD79 #4 <IndexError>  📋 "leans" ? _____ ~ LE
+TD187 attempt 3 LEANS m m n n n
+TD89 #5 <IndexError>  📋 "leans" ? ␅
+TD3367796 ␆_EA_S
+TD94 #5 <IndexError>  📋 "leans" ? _EA_S
+TD259 attempt 4 LEANS n Y Y n Y
+TD455 ? ␅
+TD375160 ␆
+TD99 ? 
+TD209 question done
+TD329 > ␅
+TD2215420 ␆*
+TD97 > *
+TD659797 try? ␅
+TD1036057 ␆1
+TD84 try? 1
+TD449 questioning: ["bears", "#5"]
+TD1212 #1 _____ ~E -ALNS  📋 "bears" ? ␅
+TD4254381 ␆_____ ~ ER
+TD103 #1 _____ ~E -ALNS  📋 "bears" ? _____ ~ ER
+TD256 attempt 0 BEARS n m n m n
+TD150 #2 _____ ~EL -ANS  📋 "bears" ? ␅
+TD823454 ␆.
+TD81 #2 _____ ~EL -ANS  📋 "bears" ? .
+TD195 attempt 1 BEARS n m n n n
+TD63 #3 _____ ~E -ALNS  📋 "bears" ? ␅
+TD863634 ␆.
+TD97 #3 _____ ~E -ALNS  📋 "bears" ? .
+TD263 attempt 2 BEARS n m n n n
+TD68 #4 _____ ~EL -ANS  📋 "bears" ? ␅
+TD863544 ␆.
+TD74 #4 _____ ~EL -ANS  📋 "bears" ? .
+TD196 attempt 3 BEARS n m n n n
+TD62 #5 _EA_S -LN  📋 "bears" ? ␅
+TD1727816 ␆_EARS
+TD81 #5 _EA_S -LN  📋 "bears" ? _EARS
+TD174 attempt 4 BEARS n Y Y Y Y
+TD217 ? ␅
+TD327573 ␆
+TD101 ? 
+TD126 question done
+TD371 > ␅
+TD2415374 ␆*
+TD94 > *
+TD601021 try? ␅
+TD1846921 ␆1
+TD95 try? 1
+TD293 questioning: ["dears", "#5"]
+TD254 #1 _____ ~ER -ABLNS  📋 "dears" ? ␅
+TD2367381 ␆.
+TD97 #1 _____ ~ER -ABLNS  📋 "dears" ? .
+TD272 attempt 0 DEARS n m n m n
+TD102 #2 _____ ~EL -ABNRS  📋 "dears" ? ␅
+TD1823763 ␆.
+TD107 #2 _____ ~EL -ABNRS  📋 "dears" ? .
+TD283 attempt 1 DEARS n m n n n
+TD99 #3 _____ ~E -ABLNRS  📋 "dears" ? ␅
+TD4903364 ␆D____ ~ ED
+TD114 #3 _____ ~E -ABLNRS  📋 "dears" ? D____ ~ ED
+TD257 attempt 2 DEARS Y m n n n
+TD149 #4 _____ ~EL -ABNRS  📋 "dears" ? ␅
+TD2431405 ␆_____  ~LED
+TD98 #4 _____ ~EL -ABNRS  📋 "dears" ? _____  ~LED
+TD248 attempt 3 DEARS m m n n n
+TD147 #5 _EARS -BLN  📋 "dears" ? ␅
+TD1479368 ␆/it
+TD103 #5 _EARS -BLN  📋 "dears" ? /it
+TD263 attempt 4 DEARS Y Y Y Y Y
+TD330 ? ␅
+TD191519 ␆
+TD97 ? 
+TD109 question done
+TD307 > ␅
+TD511341 ␆*
+TD97 > *
+TD606280 questioning: ["idled", "#4"]
+TD216 #1 _____ ~ER -ABDLNS  📋 "idled" ? ␅
+TD6641735 ␆___E_ ~ R
+TD96 #1 _____ ~ER -ABDLNS  📋 "idled" ? ___E_ ~ R
+TD298 attempt 0 IDLED n n n Y n
+TD152 #2 _____ ~EL -ABDNRS  📋 "idled" ? ␅
+TD3479416 ␆_____ ~ LEI
+TD96 #2 _____ ~EL -ABDNRS  📋 "idled" ? _____ ~ LEI
+TD234 attempt 1 IDLED m n m m n
+TD148 #3 D____ ~E -ABLNRS  📋 "idled" ? ␅
+TD5639642 ␆D____ ~ EDI
+TD98 #3 D____ ~E -ABLNRS  📋 "idled" ? D____ ~ EDI
+TD249 attempt 2 IDLED m m n m m
+TD151 #4 _____ ~DEL -ABNRS  📋 "idled" ? ␅
+TD703330 ␆/it
+TD95 #4 _____ ~DEL -ABNRS  📋 "idled" ? /it
+TD266 attempt 3 IDLED Y Y Y Y Y
+TD303 ? ␅
+TD207456 ␆
+TD97 ? 
+TD113 question done
+TD317 > ␅
+TD519365 ␆*
+TD85 > *
+TD852014 questioning: ["diode", "#3"]
+TD182 #1 ___E_ ~R -ABDILNS  📋 "diode" ? ␅
+TD4987856 ␆___E_ ~ RO
+TD113 #1 ___E_ ~R -ABDILNS  📋 "diode" ? ___E_ ~ RO
+TD247 attempt 0 DIODE n n m n n
+TD205 #2 _____ ~EIL -ABDNRS  📋 "diode" ? ␅
+TD3143892 ␆____E ~ LEI
+TD120 #2 _____ ~EIL -ABDNRS  📋 "diode" ? ____E ~ LEI
+TD257 attempt 1 DIODE n m n n Y
+TD209 #3 D____ ~EI -ABLNRS  📋 "diode" ? ␅
+TD1254874 ␆/it
+TD94 #3 D____ ~EI -ABLNRS  📋 "diode" ? /it
+TD253 attempt 2 DIODE Y Y Y Y Y
+TD305 ? ␅
+TD215497 ␆
+TD118 ? 
+TD118 question done
+TD342 > ␅
+TD559711 ␆*
+TD101 > *
+TD1453740 questioning: ["exile", "#2"]
+TD281 #1 ___E_ ~OR -ABDEILNS  📋 "exile" ? ␅
+TD6313750 ␆.
+TD93 #1 ___E_ ~OR -ABDEILNS  📋 "exile" ? .
+TD310 attempt 0 EXILE n n n n n
+TD103 #2 ____E ~IL -ABDNORS  📋 "exile" ? ␅
+TD719378 ␆/it
+TD76 #2 ____E ~IL -ABDNORS  📋 "exile" ? /it
+TD179 attempt 1 EXILE Y Y Y Y Y
+TD185 ? ␅
+TD215583 ␆
+TD96 ? 
+TD106 question done
+TD368 > ␅
+TD607462 ␆*
+TD101 > *
+TD1069732 questioning: ["rover", "#1"]
+TD243 #1 ___E_ ~OR -ABDEILNSX  📋 "rover" ? ␅
+TD2809651 ␆/it
+TD99 #1 ___E_ ~OR -ABDEILNSX  📋 "rover" ? /it
+TD311 attempt 0 ROVER Y Y Y Y Y
+TD364 ? ␅
+TD663785 ␆
+TD209 ? 
+TD84 question done
+TD35245 📋> ␅
+TD5500754 ␆squareword.org 1496: 7 guesses
+TD99 📋> squareword.org 1496: 7 guesses
+TD13 📋> ␅
+TD45 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD22 ␆🟨🟨🟨🟩🟨
+TD6 📋> 🟨🟨🟨🟩🟨
+TD5 📋> ␅
+TD12 ␆🟨🟨🟨🟨🟩
+TD4 📋> 🟨🟨🟨🟨🟩
+TD5 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD311187 ␆#squareword #squareword1496
+TD93 📋> #squareword #squareword1496
+TD13 📋> ␅
+TD183753 ␄
+TD228 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1496: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1496"}
+TD1517 result: "squareword.org 1496: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1496"
+TD66 📆 2026-03-07 ? ␅
+TD182246 ␆
+TD81 📆 2026-03-07 ? 
