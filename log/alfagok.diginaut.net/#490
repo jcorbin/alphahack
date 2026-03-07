@@ -1,0 +1,106 @@
+T87621.80336803 now: 2026-03-07T10:05:59EST
+TD182 site: alfagok.diginaut.net
+TD1220699 loaded 399633 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1219 words excluded) asof 82e0964798ef7543d1f70075617ebb8ea525d80c
+TD251  ...␅
+TD2673013 ␆
+TD145  ...
+TD5551 [0 : 199812 : 399633] lijm? ␅
+TD4466006 ␆a
+TD72 [0 : 199812 : 399633] lijm? a
+TD403 progress: 1 199812 lijm
+TD110 [199813 : 299699 : 399633] schub? ␅
+TD1751688 ␆a
+TD113 [199813 : 299699 : 399633] schub? a
+TD157 progress: 1 299699 schub
+TD145 [299700 : 349467 : 399633] vakantie? ␅
+TD2967961 ␆a
+TD111 [299700 : 349467 : 399633] vakantie? a
+TD119 progress: 1 349467 vakantie
+TD143 [349468 : 374208 : 399633] vrij? ␅
+TD1535951 ␆a
+TD111 [349468 : 374208 : 399633] vrij? a
+TD117 progress: 1 374208 vrij
+TD151 [374209 : 386749 : 399633] wind? ␅
+TD2910793 ␆b
+TD112 [374209 : 386749 : 399633] wind? b
+TD125 progress: -1 386749 wind
+TD134 [374209 : 380420 : 386749] weer? ␅
+TD2039765 ␆b
+TD115 [374209 : 380420 : 386749] weer? b
+TD131 progress: -1 380420 weer
+TD139 [374209 : 377271 : 380420] wandel? ␅
+TD1983662 ␆b
+TD119 [374209 : 377271 : 380420] wandel? b
+TD137 progress: -1 377271 wandel
+TD132 [374209 : 375653 : 377271] vuur? ␅
+TD1863649 ␆b
+TD242 [374209 : 375653 : 377271] vuur? b
+TD186 progress: -1 375653 vuur
+TD138 [374209 : 374898 : 375653] vrouwen? ␅
+TD2391510 ␆b
+TD136 [374209 : 374898 : 375653] vrouwen? b
+TD132 progress: -1 374898 vrouwen
+TD284 [374209 : 374551 : 374898] vrijmacht? ␅
+TD2735894 ␆a
+TD1106 [374209 : 374551 : 374898] vrijmacht? a
+TD1479 progress: 1 374551 vrijmacht
+TD1708 [374552 : 374693 : 374898] vrijwilligers? ␅
+TD1843160 ␆b
+TD114 [374552 : 374693 : 374898] vrijwilligers? b
+TD206 progress: -1 374693 vrijwilligers
+TD247 [374552 : 374614 : 374693] vrijst? ␅
+TD1591530 ␆a
+TD121 [374552 : 374614 : 374693] vrijst? a
+TD118 progress: 1 374614 vrijst
+TD413 [374615 : 374654 : 374693] vrijt? ␅
+TD1591270 ␆a
+TD110 [374615 : 374654 : 374693] vrijt? a
+TD133 progress: 1 374654 vrijt
+TD497 [374655 : 374671 : 374693] vrijwaar? ␅
+TD1879220 ␆a
+TD113 [374655 : 374671 : 374693] vrijwaar? a
+TD126 progress: 1 374671 vrijwaar
+TD141 [374672 : 374676 : 374693] vrijwaring? ␅
+TD1671654 ␆a
+TD107 [374672 : 374676 : 374693] vrijwaring? a
+TD173 progress: 1 374676 vrijwaring
+TD236 [374677 : 374686 : 374693] vrijwiel? ␅
+TD1679536 ␆b
+TD112 [374677 : 374686 : 374693] vrijwiel? b
+TD119 progress: -1 374686 vrijwiel
+TD384 [374677 : 374681 : 374686] vrijwaringsclausules? ␅
+TD1631317 ␆a
+TD75 [374677 : 374681 : 374686] vrijwaringsclausules? a
+TD81 progress: 1 374681 vrijwaringsclausules
+TD125 [374682 : 374684 : 374686] vrijwaringsverklaring? ␅
+TD1567913 ␆a
+TD114 [374682 : 374684 : 374686] vrijwaringsverklaring? a
+TD121 progress: 1 374684 vrijwaringsverklaring
+TD233 [374685 : 374685 : 374686] vrijwel? ␅
+TD1783413 ␆it
+TD81 [374685 : 374685 : 374686] vrijwel? it
+TD90 progress: 0 374685 vrijwel
+TD55 [374685 : 374685 : 374686] <Done>.
+TD518 📋> ␅
+TD3247767 ␆🧩 Puzzel #490
+TD72 📋> 🧩 Puzzel #490
+TD7 📋> ␅
+TD30 ␆🤔 19 gokken
+TD3 📋> 🤔 19 gokken
+TD2 📋> ␅
+TD4 ␆⏱️ 37s
+TD3 📋> ⏱️ 37s
+TD2 📋> ␅
+TD271566 ␆🔗 alfagok.diginaut.net
+TD120 📋> 🔗 alfagok.diginaut.net
+TD9 📋> ␅
+TD183961 ␄
+TD600 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #490\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 37s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD1693 result: "\ud83e\udde9 Puzzel #490\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 37s\n\ud83d\udd17 alfagok.diginaut.net"
+TD41 result puzzle: 490
+TD5 result guesses: 19
+TD2 result time: 37s
+TD2 result link: alfagok.diginaut.net
+TD290 📆 2026-03-07 ? ␅
+TD141053 ␆
+TD100 📆 2026-03-07 ? 
