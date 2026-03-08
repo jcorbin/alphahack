@@ -1,0 +1,78 @@
+T57.181606748003105 now: 2026-03-08T09:26:53EDT
+TD130 site: alphaguess.com
+TD138228 loaded 196526 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (78 words excluded) asof 82e0964798ef7543d1f70075617ebb8ea525d80c
+TD103  ...␅
+TD20562 ␆
+TD59  ...
+TD123 [0 : 98218 : 196526] mach? ␅
+TD4592353 ␆b
+TD96 [0 : 98218 : 196526] mach? b
+TD104 progress: -1 98218 mach
+TD107 [0 : 47381 : 98218] dis? ␅
+TD1607365 ␆b
+TD102 [0 : 47381 : 98218] dis? b
+TD103 progress: -1 47381 dis
+TD113 [0 : 23682 : 47381] camp? ␅
+TD1408455 ␆a
+TD106 [0 : 23682 : 47381] camp? a
+TD105 progress: 1 23682 camp
+TD158 [23683 : 35525 : 47381] convention? ␅
+TD1374905 ␆a
+TD142 [23683 : 35525 : 47381] convention? a
+TD104 progress: 1 35525 convention
+TD110 [35526 : 40841 : 47381] da? ␅
+TD1688070 ␆b
+TD100 [35526 : 40841 : 47381] da? b
+TD104 progress: -1 40841 da
+TD462 [35526 : 38184 : 40841] crazy? ␅
+TD5839429 ␆b
+TD97 [35526 : 38184 : 40841] crazy? b
+TD102 progress: -1 38184 crazy
+TD100 [35526 : 36726 : 38184] cos? ␅
+TD1751073 ␆b
+TD103 [35526 : 36726 : 38184] cos? b
+TD168 progress: -1 36726 cos
+TD117 [35526 : 36091 : 36726] cor? ␅
+TD1319713 ␆a
+TD98 [35526 : 36091 : 36726] cor? a
+TD104 progress: 1 36091 cor
+TD89 [36092 : 36402 : 36726] corona? ␅
+TD1271751 ␆a
+TD97 [36092 : 36402 : 36726] corona? a
+TD105 progress: 1 36402 corona
+TD400 [36403 : 36564 : 36726] corrigendum? ␅
+TD1343518 ␆b
+TD97 [36403 : 36564 : 36726] corrigendum? b
+TD104 progress: -1 36564 corrigendum
+TD162 [36403 : 36481 : 36564] corps? ␅
+TD1247609 ␆a
+TD95 [36403 : 36481 : 36564] corps? a
+TD100 progress: 1 36481 corps
+TD102 [36482 : 36508 : 36564] correct? ␅
+TD2207670 ␆it
+TD91 [36482 : 36508 : 36564] correct? it
+TD79 progress: 0 36508 correct
+TD16 [36482 : 36508 : 36564] <Done>.
+TD57 📋> ␅
+TD4176421 ␆🧩 Puzzle #958
+TD99 📋> 🧩 Puzzle #958
+TD12 📋> ␅
+TD39 ␆🤔 12 guesses
+TD6 📋> 🤔 12 guesses
+TD5 📋> ␅
+TD12 ␆⏱️ 20s
+TD9 📋> ⏱️ 20s
+TD5 📋> ␅
+TD239339 ␆🔗 alphaguess.com/958
+TD96 📋> 🔗 alphaguess.com/958
+TD12 📋> ␅
+TD144162 ␄
+TD173 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #958\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/958"}
+TD105 result: "\ud83e\udde9 Puzzle #958\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/958"
+TD16 result puzzle: 958
+TD7 result guesses: 12
+TD6 result time: 20s
+TD5 result link: alphaguess.com/958
+TD106 📆 2026-03-08 ? ␅
+TD127546 ␆
+TD103 📆 2026-03-08 ? 
