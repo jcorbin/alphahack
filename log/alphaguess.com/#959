@@ -1,0 +1,70 @@
+T44757.343390982 now: 2026-03-09T06:52:55EDT
+TD124 site: alphaguess.com
+TD189973 loaded 196526 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (78 words excluded) asof 82e0964798ef7543d1f70075617ebb8ea525d80c
+TD128  ...␅
+TD4954343 ␆
+TD117  ...
+TD137 [0 : 98218 : 196526] mach? ␅
+TD1870082 ␆b
+TD87 [0 : 98218 : 196526] mach? b
+TD95 progress: -1 98218 mach
+TD98 [0 : 47381 : 98218] dis? ␅
+TD1304212 ␆a
+TD88 [0 : 47381 : 98218] dis? a
+TD104 progress: 1 47381 dis
+TD311 [47382 : 72800 : 98218] gremmy? ␅
+TD1639573 ␆a
+TD91 [47382 : 72800 : 98218] gremmy? a
+TD84 progress: 1 72800 gremmy
+TD84 [72801 : 85504 : 98218] ins? ␅
+TD1823392 ␆b
+TD95 [72801 : 85504 : 98218] ins? b
+TD92 progress: -1 85504 ins
+TD85 [72801 : 79132 : 85504] hood? ␅
+TD2127836 ␆b
+TD92 [72801 : 79132 : 85504] hood? b
+TD88 progress: -1 79132 hood
+TD93 [72801 : 75956 : 79132] haw? ␅
+TD1351775 ␆a
+TD93 [72801 : 75956 : 79132] haw? a
+TD93 progress: 1 75956 haw
+TD98 [75957 : 77500 : 79132] hetero? ␅
+TD1327519 ␆b
+TD99 [75957 : 77500 : 79132] hetero? b
+TD84 progress: -1 77500 hetero
+TD80 [75957 : 76699 : 77500] helio? ␅
+TD1295879 ␆b
+TD102 [75957 : 76699 : 77500] helio? b
+TD101 progress: -1 76699 helio
+TD104 [75957 : 76291 : 76699] heart? ␅
+TD1375592 ␆b
+TD113 [75957 : 76291 : 76699] heart? b
+TD117 progress: -1 76291 heart
+TD102 [75957 : 76083 : 76291] head? ␅
+TD2695800 ␆it
+TD105 [75957 : 76083 : 76291] head? it
+TD94 progress: 0 76083 head
+TD21 [75957 : 76083 : 76291] <Done>.
+TD100 📋> ␅
+TD2864040 ␆🧩 Puzzle #959
+TD81 📋> 🧩 Puzzle #959
+TD7 📋> ␅
+TD34 ␆🤔 10 guesses
+TD3 📋> 🤔 10 guesses
+TD2 📋> ␅
+TD6 ␆⏱️ 13s
+TD3 📋> ⏱️ 13s
+TD2 📋> ␅
+TD271395 ␆🔗 alphaguess.com/959
+TD102 📋> 🔗 alphaguess.com/959
+TD9 📋> ␅
+TD175931 ␄
+TD170 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #959\n\ud83e\udd14 10 guesses\n\u23f1\ufe0f 13s\n\ud83d\udd17 alphaguess.com/959"}
+TD81 result: "\ud83e\udde9 Puzzle #959\n\ud83e\udd14 10 guesses\n\u23f1\ufe0f 13s\n\ud83d\udd17 alphaguess.com/959"
+TD10 result puzzle: 959
+TD3 result guesses: 10
+TD3 result time: 13s
+TD2 result link: alphaguess.com/959
+TD73 📆 2026-03-09 ? ␅
+TD151543 ␆
+TD88 📆 2026-03-09 ? 
