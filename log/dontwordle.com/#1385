@@ -1,0 +1,153 @@
+T44783.903578796 now: 2026-03-09T06:53:22EDT
+TD112 site: dontwordle.com
+TD33 wordlist: nwl2023.txt
+TD35  ...␅
+TD126998 ␆
+TD92  ...
+TD132 1> ␅
+TD1111838 ␆
+TD96 1> 
+TD128 1> ␅
+TD4967880 ␆* -bot 10
+TD101 1> * -bot 10
+TD297864 ? ␅
+TD949767 ␆1
+TD91 ? 1
+TD277 📋 "arose" ? ␅
+TD5359895 ␆nMnnn
+TD81 📋 "arose" ? nMnnn
+TD541 tried: AROSE n m n n n
+TD179 2> ␅
+TD1207291 ␆undo
+TD94 2> undo
+TD132 undo
+TD178 1> ␅
+TD3063280 ␆*
+TD71 1> *
+TD163932 ? ␅
+TD500143 ␆1
+TD99 ? 1
+TD272 📋 "papaw" ? ␅
+TD5559762 ␆nnnnn
+TD76 📋 "papaw" ? nnnnn
+TD401 tried: PAPAW n n n n n
+TD115 2> ␅
+TD6271665 ␆* :v [arose] bot 10
+TD92 2> * :v [arose] bot 10
+TD624 2> ␅
+TD5831089 ␆* :v [arose] -bot 10
+TD110 2> * :v [arose] -bot 10
+TD154536 ? ␅
+TD1773508 ␆2
+TD95 ? 2
+TD201 📋 "guild" ? ␅
+TD3871729 ␆nnMMn
+TD80 📋 "guild" ? nnMMn
+TD155 tried: GUILD n n m m n
+TD127 3> ␅
+TD647379 ␆undo
+TD139 3> undo
+TD117 undo
+TD136 2> ␅
+TD3015900 ␆*
+TD92 2> *
+TD133629 ? ␅
+TD562259 ␆1
+TD81 ? 1
+TD198 📋 "egged" ? ␅
+TD4503727 ␆nnnnn
+TD109 📋 "egged" ? nnnnn
+TD174 tried: EGGED n n n n n
+TD134 3> ␅
+TD447456 ␆*
+TD93 3> *
+TD129154 ? ␅
+TD622900 ␆1
+TD104 ? 1
+TD237 📋 "hooch" ? ␅
+TD3967747 ␆nnnMn
+TD75 📋 "hooch" ? nnnMn
+TD171 tried: HOOCH n n n m n
+TD144 4> ␅
+TD615370 ␆undo
+TD83 4> undo
+TD149 undo
+TD162 3> ␅
+TD2815606 ␆*
+TD136 3> *
+TD136056 ? ␅
+TD544087 ␆1
+TD83 ? 1
+TD197 📋 "booms" ? ␅
+TD3983670 ␆nnnnn
+TD98 📋 "booms" ? nnnnn
+TD138 tried: BOOMS n n n n n
+TD141 4> ␅
+TD367599 ␆*
+TD89 4> *
+TD125283 ? ␅
+TD554760 ␆1
+TD82 ? 1
+TD160 📋 "tutty" ? ␅
+TD4951841 ␆nnnnM
+TD89 📋 "tutty" ? nnnnM
+TD180 tried: TUTTY n n n n m
+TD158 5> ␅
+TD655529 ␆undo
+TD100 5> undo
+TD147 undo
+TD298 4> ␅
+TD3631471 ␆*
+TD86 4> *
+TD128464 📋 "thunk" ? ␅
+TD4335702 ␆nnnnn
+TD86 📋 "thunk" ? nnnnn
+TD170 tried: THUNK n n n n n
+TD169 5> ␅
+TD399084 ␆*
+TD71 5> *
+TD372435 📋 "civic" ? ␅
+TD5875687 ␆nnnYY
+TD80 📋 "civic" ? nnnYY
+TD149 tried: CIVIC n n n Y Y
+TD137 6> ␅
+TD431870 ␆*
+TD98 6> *
+TD267002 📋 "lyric" ? ␅
+TD6981485 ␆YYYYY
+TD90 📋 "lyric" ? YYYYY
+TD155 tried: LYRIC Y Y Y Y Y
+TD124 📋> ␅
+TD3151489 ␆Don't Wordle 1385 - WORDLED
+TD103 📋> Don't Wordle 1385 - WORDLED
+TD10 📋> ␅
+TD35 ␆I must admit that I Wordled!
+TD4 📋> I must admit that I Wordled!
+TD4 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜5916
+TD4 📋> ⬜⬜⬜⬜⬜5916
+TD3 📋> ␅
+TD7 ␆⬜⬜⬜⬜⬜1942
+TD3 📋> ⬜⬜⬜⬜⬜1942
+TD3 📋> ␅
+TD7 ␆⬜⬜⬜⬜⬜250
+TD3 📋> ⬜⬜⬜⬜⬜250
+TD3 📋> ␅
+TD7 ␆⬜⬜⬜⬜⬜19
+TD3 📋> ⬜⬜⬜⬜⬜19
+TD3 📋> ␅
+TD8 ␆⬜⬜⬜🟩🟩2
+TD3 📋> ⬜⬜⬜🟩🟩2
+TD3 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩0
+TD3 📋> 🟩🟩🟩🟩🟩0
+TD3 📋> ␅
+TD391260 ␆Undos used: 4
+TD95 📋> Undos used: 4
+TD10 📋> ␅
+TD199970 ␄
+TD162 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1385 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5916\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1942\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c250\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c19\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe92\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 4"}
+TD1016 result: "Don't Wordle 1385 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5916\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1942\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c250\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c19\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe92\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 4"
+TD85 📆 2026-03-09 ? ␅
+TD246749 ␆
+TD87 📆 2026-03-09 ? 
