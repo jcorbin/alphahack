@@ -1,0 +1,249 @@
+T45299.284488164005 now: 2026-03-09T07:01:57EDT
+TD74 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD26  ...␅
+TD711353 ␆
+TD99  ...
+TD131 🧩  ? ␅
+TD4695660 ␆#1498
+TD77 🧩  ? #1498
+TD221 puzzle_id: #1498
+TD185 > ␅
+TD1023464 ␆*'
+TD71 > *'
+TD412 > ␅
+TD840310 ␆*
+TD89 > *
+TD264320 try? ␅
+TD1118865 ␆1
+TD96 try? 1
+TD315 questioning: ["lanes", "#5"]
+TD305 #1 <IndexError>  📋 "lanes" ? ␅
+TD3207388 ␆_____ ~ AE
+TD103 #1 <IndexError>  📋 "lanes" ? _____ ~ AE
+TD690 attempt 0 LANES n m n m n
+TD116 #2 <IndexError>  📋 "lanes" ? ␅
+TD2023326 ␆____S ~ NE
+TD110 #2 <IndexError>  📋 "lanes" ? ____S ~ NE
+TD274 attempt 1 LANES n n m m Y
+TD125 #3 <IndexError>  📋 "lanes" ? ␅
+TD2599377 ␆_AN_S 
+TD100 #3 <IndexError>  📋 "lanes" ? _AN_S 
+TD250 attempt 2 LANES n Y Y n Y
+TD126 #4 <IndexError>  📋 "lanes" ? ␅
+TD2095354 ␆_____ ~ A
+TD87 #4 <IndexError>  📋 "lanes" ? _____ ~ A
+TD256 attempt 3 LANES n m n n n
+TD120 #5 <IndexError>  📋 "lanes" ? ␅
+TD1647623 ␆_____ ~ LA
+TD104 #5 <IndexError>  📋 "lanes" ? _____ ~ LA
+TD258 attempt 4 LANES m m n n n
+TD339 ? ␅
+TD303332 ␆
+TD91 ? 
+TD136 question done
+TD285 > ␅
+TD431948 ␆*
+TD82 > *
+TD835200 try? ␅
+TD1252217 ␆1
+TD102 try? 1
+TD301 questioning: ["tangs", "#3"]
+TD329 #1 _____ ~AE -LNS  📋 "tangs" ? ␅
+TD3383371 ␆.
+TD70 #1 _____ ~AE -LNS  📋 "tangs" ? .
+TD204 attempt 0 TANGS n m n n n
+TD62 #2 ____S ~EN -AL  📋 "tangs" ? ␅
+TD1863705 ␆.
+TD94 #2 ____S ~EN -AL  📋 "tangs" ? .
+TD269 attempt 1 TANGS n n m n Y
+TD95 #3 _AN_S -EL  📋 "tangs" ? ␅
+TD9343633 ␆_AN_S ~ T
+TD77 #3 _AN_S -EL  📋 "tangs" ? _AN_S ~ T
+TD177 attempt 2 TANGS m Y Y n Y
+TD99 #4 _____ ~A -ELNS  📋 "tangs" ? ␅
+TD2472281 ␆T____ ~ A
+TD95 #4 _____ ~A -ELNS  📋 "tangs" ? T____ ~ A
+TD190 attempt 3 TANGS Y m n n n
+TD106 #5 _____ ~AL -ENS  📋 "tangs" ? ␅
+TD895043 ␆.
+TD94 #5 _____ ~AL -ENS  📋 "tangs" ? .
+TD267 attempt 4 TANGS n m n n n
+TD237 ? ␅
+TD159362 ␆
+TD96 ? 
+TD117 question done
+TD299 > ␅
+TD375363 ␆*
+TD96 > *
+TD574380 try? ␅
+TD6081770 ␆3
+TD77 try? 3
+TD217 questioning: ["pants", "#3"]
+TD206 #1 _____ ~AE -GLNST  📋 "pants" ? ␅
+TD2879451 ␆.
+TD97 #1 _____ ~AE -GLNST  📋 "pants" ? .
+TD272 attempt 0 PANTS n m n n n
+TD99 #2 ____S ~EN -AGLT  📋 "pants" ? ␅
+TD975447 ␆.
+TD91 #2 ____S ~EN -AGLT  📋 "pants" ? .
+TD267 attempt 1 PANTS n n m n Y
+TD95 #3 _AN_S ~T -EGL  📋 "pants" ? ␅
+TD2287607 ␆_ANTS
+TD97 #3 _AN_S ~T -EGL  📋 "pants" ? _ANTS
+TD243 attempt 2 PANTS n Y Y Y Y
+TD153 #4 T____ ~A -EGLNS  📋 "pants" ? ␅
+TD1239583 ␆.
+TD98 #4 T____ ~A -EGLNS  📋 "pants" ? .
+TD276 attempt 3 PANTS n m n n n
+TD102 #5 _____ ~AL -EGNST  📋 "pants" ? ␅
+TD551598 ␆.
+TD97 #5 _____ ~AL -EGNST  📋 "pants" ? .
+TD263 attempt 4 PANTS n m n n n
+TD303 ? ␅
+TD271258 ␆
+TD99 ? 
+TD108 question done
+TD297 > ␅
+TD751446 ␆*
+TD82 > *
+TD559672 try? ␅
+TD6744253 ␆2
+TD73 try? 2
+TD209 questioning: ["tiara", "#4"]
+TD202 #1 _____ ~AE -GLNPST  📋 "tiara" ? ␅
+TD4511675 ␆_____ ~ AEIR
+TD114 #1 _____ ~AE -GLNPST  📋 "tiara" ? _____ ~ AEIR
+TD255 attempt 0 TIARA n m m m m
+TD189 #2 ____S ~EN -AGLPT  📋 "tiara" ? ␅
+TD1503392 ␆.
+TD79 #2 ____S ~EN -AGLPT  📋 "tiara" ? .
+TD184 attempt 1 TIARA n n n n n
+TD67 #3 _ANTS -EGLP  📋 "tiara" ? ␅
+TD2575658 ␆_ANTS ~ R
+TD94 #3 _ANTS -EGLP  📋 "tiara" ? _ANTS ~ R
+TD242 attempt 2 TIARA n n n m n
+TD149 #4 T____ ~A -EGLNPST  📋 "tiara" ? ␅
+TD975595 ␆/it
+TD97 #4 T____ ~A -EGLNPST  📋 "tiara" ? /it
+TD262 attempt 3 TIARA Y Y Y Y Y
+TD108 #5 _____ ~AL -EGNPST  📋 "tiara" ? ␅
+TD615448 ␆.
+TD99 #5 _____ ~AL -EGNPST  📋 "tiara" ? .
+TD264 attempt 4 TIARA n n m n m
+TD302 ? ␅
+TD143450 ␆
+TD57 ? 
+TD93 question done
+TD278 > ␅
+TD407445 ␆*
+TD71 > *
+TD1408618 questioning: ["aerie", "#1"]
+TD196 #1 _____ ~AEIR -GLNPST  📋 "aerie" ? ␅
+TD2999251 ␆/it
+TD67 #1 _____ ~AEIR -GLNPST  📋 "aerie" ? /it
+TD167 attempt 0 AERIE Y Y Y Y Y
+TD58 #2 ____S ~EN -AGILPRT  📋 "aerie" ? ␅
+TD1119790 ␆.
+TD79 #2 ____S ~EN -AGILPRT  📋 "aerie" ? .
+TD183 attempt 1 AERIE n m n n m
+TD66 #3 _ANTS ~R -AEGILPT  📋 "aerie" ? ␅
+TD1815687 ␆.
+TD110 #3 _ANTS ~R -AEGILPT  📋 "aerie" ? .
+TD281 attempt 2 AERIE n n m n n
+TD107 #5 _____ ~AL -EGINPRST  📋 "aerie" ? ␅
+TD3615468 ␆A____ ~ L
+TD76 #5 _____ ~AL -EGINPRST  📋 "aerie" ? A____ ~ L
+TD184 attempt 4 AERIE Y n n n n
+TD225 ? ␅
+TD255574 ␆
+TD99 ? 
+TD120 question done
+TD333 > ␅
+TD584211 ␆*
+TD98 > *
+TD1548261 questioning: ["omens", "#2"]
+TD179 #2 ____S ~EN -AGILPRT  📋 "omens" ? ␅
+TD2242708 ␆/it
+TD96 #2 ____S ~EN -AGILPRT  📋 "omens" ? /it
+TD266 attempt 1 OMENS Y Y Y Y Y
+TD104 #3 _ANTS ~R -AEGILPT  📋 "omens" ? ␅
+TD191540 ␆
+TD92 #3 _ANTS ~R -AEGILPT  📋 "omens" ? 
+TD324 #3 _ANTS ~R -AEGILPT  ? ␅
+TD2855472 ␆.
+TD89 #3 _ANTS ~R -AEGILPT  ? .
+TD264 attempt 2 OMENS n n n n Y
+TD115 #5 A____ ~L -EGINPRST  📋 "omens" ? ␅
+TD5631812 ␆A____ ~ LO
+TD95 #5 A____ ~L -EGINPRST  📋 "omens" ? A____ ~ LO
+TD253 attempt 4 OMENS m n n n n
+TD344 ? ␅
+TD375136 ␆
+TD98 ? 
+TD122 question done
+TD314 > ␅
+TD591837 ␆*
+TD77 > *
+TD1335143 questioning: ["rants", "#3"]
+TD213 #3 _ANTS ~R -AEGILMNOPT  📋 "rants" ? ␅
+TD3152223 ␆/it
+TD79 #3 _ANTS ~R -AEGILMNOPT  📋 "rants" ? /it
+TD200 attempt 2 RANTS Y Y Y Y Y
+TD70 #5 A____ ~LO -EGIMNPRST  📋 "rants" ? ␅
+TD1239841 ␆.
+TD99 #5 A____ ~LO -EGIMNPRST  📋 "rants" ? .
+TD261 attempt 4 RANTS n n n n n
+TD293 ? ␅
+TD167654 ␆
+TD100 ? 
+TD93 question done
+TD185 > ␅
+TD383226 ␆*
+TD97 > *
+TD955376 questioning: ["alloy", "#5"]
+TD190 #5 A____ ~LO -AEGIMNPRST  📋 "alloy" ? ␅
+TD2940288 ␆/it
+TD77 #5 A____ ~LO -AEGIMNPRST  📋 "alloy" ? /it
+TD191 attempt 4 ALLOY Y Y Y Y Y
+TD171 ? ␅
+TD679678 ␆
+TD77 ? 
+TD88 question done
+TD22935 📋> ␅
+TD5425855 ␆squareword.org 1498: 8 guesses
+TD95 📋> squareword.org 1498: 8 guesses
+TD12 📋> ␅
+TD79 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD23 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD17 ␆🟨🟨🟨🟨🟩
+TD5 📋> 🟨🟨🟨🟨🟩
+TD4 📋> ␅
+TD15 ␆🟨🟩🟩🟩🟩
+TD4 📋> 🟨🟩🟩🟩🟩
+TD4 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD16 ␆🟩🟨🟨🟨🟨
+TD4 📋> 🟩🟨🟨🟨🟨
+TD4 📋> ␅
+TD17 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD18 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD302863 ␆#squareword #squareword1498
+TD96 📋> #squareword #squareword1498
+TD13 📋> ␅
+TD215702 ␄
+TD185 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1498: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1498"}
+TD850 result: "squareword.org 1498: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1498"
+TD73 📆 2026-03-09 ? ␅
+TD166761 ␆
+TD63 📆 2026-03-09 ? 
