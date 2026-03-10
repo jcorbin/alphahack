@@ -1,0 +1,85 @@
+T52508.836599628004 now: 2026-03-10T06:51:00EDT
+TD90 site: alphaguess.com
+TD180485 loaded 196525 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (79 words excluded) asof 72b0e8262d9e98fda43e3965f4b3eda3f31a93ee
+TD177  ...␅
+TD41 ␆
+TD3  ...
+TD82 [0 : 98218 : 196525] mach? ␅
+TD3298439 ␆
+TD98 [0 : 98218 : 196525] mach? 
+TD102 [0 : 98218 : 196525] mach? ␅
+TD2111389 ␆a
+TD75 [0 : 98218 : 196525] mach? a
+TD139 progress: 1 98218 mach
+TD163 [98219 : 147373 : 196525] rhumb? ␅
+TD1399734 ␆b
+TD100 [98219 : 147373 : 196525] rhumb? b
+TD91 progress: -1 147373 rhumb
+TD88 [98219 : 122779 : 147373] parr? ␅
+TD1223877 ␆a
+TD80 [98219 : 122779 : 147373] parr? a
+TD78 progress: 1 122779 parr
+TD76 [122780 : 135070 : 147373] proper? ␅
+TD1623844 ␆b
+TD105 [122780 : 135070 : 147373] proper? b
+TD91 progress: -1 135070 proper
+TD78 [122780 : 128848 : 135070] play? ␅
+TD1272156 ␆b
+TD89 [122780 : 128848 : 135070] play? b
+TD88 progress: -1 128848 play
+TD86 [122780 : 125811 : 128848] petti? ␅
+TD1279449 ␆b
+TD97 [122780 : 125811 : 128848] petti? b
+TD95 progress: -1 125811 petti
+TD94 [122780 : 123692 : 125811] pe? ␅
+TD2543759 ␆a
+TD91 [122780 : 123692 : 125811] pe? a
+TD101 progress: 1 123692 pe
+TD111 [123693 : 124746 : 125811] per? ␅
+TD1583411 ␆b
+TD85 [123693 : 124746 : 125811] per? b
+TD83 progress: -1 124746 per
+TD149 [123693 : 124219 : 124746] pelican? ␅
+TD1495638 ␆a
+TD85 [123693 : 124219 : 124746] pelican? a
+TD84 progress: 1 124219 pelican
+TD87 [124220 : 124475 : 124746] penny? ␅
+TD1279755 ␆a
+TD84 [124220 : 124475 : 124746] penny? a
+TD83 progress: 1 124475 penny
+TD259 [124476 : 124611 : 124746] penuchles? ␅
+TD1367561 ␆a
+TD127 [124476 : 124611 : 124746] penuchles? a
+TD102 progress: 1 124611 penuchles
+TD150 [124612 : 124676 : 124746] pepper? ␅
+TD1351616 ␆b
+TD80 [124612 : 124676 : 124746] pepper? b
+TD76 progress: -1 124676 pepper
+TD75 [124612 : 124640 : 124676] people? ␅
+TD2287910 ␆it
+TD86 [124612 : 124640 : 124676] people? it
+TD86 progress: 0 124640 people
+TD17 [124612 : 124640 : 124676] <Done>.
+TD57 📋> ␅
+TD2544371 ␆🧩 Puzzle #960
+TD79 📋> 🧩 Puzzle #960
+TD7 📋> ␅
+TD32 ␆🤔 13 guesses
+TD3 📋> 🤔 13 guesses
+TD2 📋> ␅
+TD6 ␆⏱️ 17s
+TD3 📋> ⏱️ 17s
+TD2 📋> ␅
+TD303505 ␆🔗 alphaguess.com/960
+TD85 📋> 🔗 alphaguess.com/960
+TD7 📋> ␅
+TD231628 ␄
+TD120 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #960\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/960"}
+TD64 result: "\ud83e\udde9 Puzzle #960\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/960"
+TD8 result puzzle: 960
+TD3 result guesses: 13
+TD2 result time: 17s
+TD2 result link: alphaguess.com/960
+TD58 📆 2026-03-10 ? ␅
+TD239953 ␆
+TD84 📆 2026-03-10 ? 
