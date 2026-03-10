@@ -1,0 +1,217 @@
+T67.38861080200877 now: 2026-03-10T07:00:50EDT
+TD283 site: squareword.org
+TD47 wordlist: nwl2023.txt
+TD51  ...␅
+TD413882 ␆
+TD74  ...
+TD59 🧩  ? ␅
+TD2999866 ␆#1499
+TD98 🧩  ? #1499
+TD266 puzzle_id: #1499
+TD275 > ␅
+TD1503213 ␆*
+TD89 > *
+TD234310 try? ␅
+TD2822354 ␆4
+TD79 try? 4
+TD239 questioning: ["meals", "#5"]
+TD192 #1 <IndexError>  📋 "meals" ? ␅
+TD4870997 ␆_____ ~ A
+TD94 #1 <IndexError>  📋 "meals" ? _____ ~ A
+TD719 attempt 0 MEALS n n m n n
+TD122 #2 <IndexError>  📋 "meals" ? ␅
+TD2391032 ␆__A__ ~ EL
+TD95 #2 <IndexError>  📋 "meals" ? __A__ ~ EL
+TD274 attempt 1 MEALS n m Y m n
+TD126 #3 <IndexError>  📋 "meals" ? ␅
+TD1823507 ␆_____ ~ L
+TD81 #3 <IndexError>  📋 "meals" ? _____ ~ L
+TD190 attempt 2 MEALS n n n m n
+TD107 #4 <IndexError>  📋 "meals" ? ␅
+TD2207638 ␆____S ~ E
+TD98 #4 <IndexError>  📋 "meals" ? ____S ~ E
+TD252 attempt 3 MEALS n m n n Y
+TD115 #5 <IndexError>  📋 "meals" ? ␅
+TD2456590 ␆_E___ ~ E
+TD104 #5 <IndexError>  📋 "meals" ? _E___ ~ E
+TD253 attempt 4 MEALS n Y n n n
+TD365 ? ␅
+TD358622 ␆
+TD101 ? 
+TD139 question done
+TD278 > ␅
+TD415752 ␆*
+TD99 > *
+TD652024 try? ␅
+TD2004701 ␆2
+TD100 try? 2
+TD327 questioning: ["plane", "#2"]
+TD298 #1 _____ ~A -ELMS  📋 "plane" ? ␅
+TD2807558 ␆.
+TD105 #1 _____ ~A -ELMS  📋 "plane" ? .
+TD280 attempt 0 PLANE n n m n n
+TD93 #2 __A__ ~EL -MS  📋 "plane" ? ␅
+TD2413910 ␆_LA_E
+TD93 #2 __A__ ~EL -MS  📋 "plane" ? _LA_E
+TD241 attempt 1 PLANE n Y Y n Y
+TD151 #3 _____ ~L -AEMS  📋 "plane" ? ␅
+TD2615449 ␆_____ ~ LN
+TD78 #3 _____ ~L -AEMS  📋 "plane" ? _____ ~ LN
+TD182 attempt 2 PLANE n m n m n
+TD100 #4 ____S ~E -ALM  📋 "plane" ? ␅
+TD2855743 ␆___NS ~ E
+TD96 #4 ____S ~E -ALM  📋 "plane" ? ___NS ~ E
+TD245 attempt 3 PLANE n n n Y m
+TD156 #5 _E___ -ALMS  📋 "plane" ? ␅
+TD2335406 ␆_E__E
+TD77 #5 _E___ -ALMS  📋 "plane" ? _E__E
+TD172 attempt 4 PLANE n n n n Y
+TD203 ? ␅
+TD264582 ␆
+TD102 ? 
+TD138 question done
+TD289 > ␅
+TD480038 ␆*
+TD98 > *
+TD638597 try? ␅
+TD6608470 ␆3
+TD117 try? 3
+TD281 questioning: ["ovens", "#4"]
+TD296 #1 _____ ~A -ELMNPS  📋 "ovens" ? ␅
+TD3134724 ␆.
+TD81 #1 _____ ~A -ELMNPS  📋 "ovens" ? .
+TD191 attempt 0 OVENS n n n n n
+TD84 #2 _LA_E -MNPS  📋 "ovens" ? ␅
+TD1192213 ␆.
+TD101 #2 _LA_E -MNPS  📋 "ovens" ? .
+TD266 attempt 1 OVENS n n n n n
+TD98 #3 _____ ~LN -AEMPS  📋 "ovens" ? ␅
+TD3487441 ␆_____ ~ LNO
+TD84 #3 _____ ~LN -AEMPS  📋 "ovens" ? _____ ~ LNO
+TD183 attempt 2 OVENS m n n m n
+TD111 #4 ___NS ~E -ALMP  📋 "ovens" ? ␅
+TD943521 ␆/it
+TD90 #4 ___NS ~E -ALMP  📋 "ovens" ? /it
+TD266 attempt 3 OVENS Y Y Y Y Y
+TD98 #5 _E__E -ALMNPS  📋 "ovens" ? ␅
+TD671560 ␆.
+TD97 #5 _E__E -ALMNPS  📋 "ovens" ? .
+TD262 attempt 4 OVENS n n n n n
+TD297 ? ␅
+TD159625 ␆
+TD102 ? 
+TD114 question done
+TD298 > ␅
+TD583485 ␆*
+TD80 > *
+TD586367 try? ␅
+TD1517706 ␆2
+TD106 try? 2
+TD288 questioning: ["login", "#3"]
+TD341 #1 _____ ~A -ELMNOPSV  📋 "login" ? ␅
+TD5775126 ␆___I_ ~ A
+TD100 #1 _____ ~A -ELMNOPSV  📋 "login" ? ___I_ ~ A
+TD201 attempt 0 LOGIN n n n Y n
+TD107 #2 _LA_E -EMNOPSV  📋 "login" ? ␅
+TD3919399 ␆_LA_E ~ G
+TD88 #2 _LA_E -EMNOPSV  📋 "login" ? _LA_E ~ G
+TD249 attempt 1 LOGIN n n m n n
+TD105 #3 _____ ~LNO -AEMPSV  📋 "login" ? ␅
+TD847646 ␆/it
+TD80 #3 _____ ~LNO -AEMPSV  📋 "login" ? /it
+TD204 attempt 2 LOGIN Y Y Y Y Y
+TD73 #5 _E__E -AELMNOPSV  📋 "login" ? ␅
+TD3576693 ␆_E__E ~ G
+TD103 #5 _E__E -AELMNOPSV  📋 "login" ? _E__E ~ G
+TD250 attempt 4 LOGIN n n m n n
+TD344 ? ␅
+TD214441 ␆
+TD107 ? 
+TD121 question done
+TD294 > ␅
+TD519897 ␆*
+TD101 > *
+TD1675930 questioning: ["acrid", "#1"]
+TD194 #1 ___I_ ~A -EGLMNOPSV  📋 "acrid" ? ␅
+TD3234863 ␆/it
+TD100 #1 ___I_ ~A -EGLMNOPSV  📋 "acrid" ? /it
+TD258 attempt 0 ACRID Y Y Y Y Y
+TD96 #2 _LA_E ~G -EILMNOPSV  📋 "acrid" ? ␅
+TD8840547 ␆_LA_E ~ GC
+TD161 #2 _LA_E ~G -EILMNOPSV  📋 "acrid" ? _LA_E ~ GC
+TD261 attempt 1 ACRID n m n n n
+TD150 #5 _E__E ~G -AEILMNOPSV  📋 "acrid" ? ␅
+TD4952627 ␆_E__E ~ GD
+TD189 #5 _E__E ~G -AEILMNOPSV  📋 "acrid" ? _E__E ~ GD
+TD439 attempt 4 ACRID n n n n m
+TD516 ? ␅
+TD326041 ␆
+TD105 ? 
+TD126 question done
+TD288 > ␅
+TD759150 ␆*
+TD104 > *
+TD1344433 questioning: ["glace", "#2"]
+T12.328969221998705 now: 2026-03-10T07:03:08EDT
+TD93 questioning: ["glace", "#2"]
+TD196 #2 _LA_E ~CG -ADEILMNOPRSV  📋 "glace" ? ␅
+TD3500447 ␆GLACE
+TD101 #2 _LA_E ~CG -ADEILMNOPRSV  📋 "glace" ? GLACE
+TD770 attempt 1 GLACE Y Y Y Y Y
+TD168 #5 _E__E ~DG -ACEILMNOPRSV  📋 "glace" ? ␅
+TD6326815 ␆.
+TD96 #5 _E__E ~DG -ACEILMNOPRSV  📋 "glace" ? .
+TD291 attempt 4 GLACE m n n n Y
+TD241 ? ␅
+TD871764 ␆
+TD104 ? 
+TD126 question done
+TD357 > ␅
+TD526659 ␆*
+TD85 > *
+TD567254 questioning: ["wedge", "#5"]
+TD216 #5 _E__E ~DG -ACILMNOPRSV  📋 "wedge" ? ␅
+TD1160529 ␆/it
+TD100 #5 _E__E ~DG -ACILMNOPRSV  📋 "wedge" ? /it
+TD255 attempt 4 WEDGE Y Y Y Y Y
+TD294 ? ␅
+TD1015758 ␆
+TD103 ? 
+TD115 question done
+TD22573 📋> ␅
+TD3641519 ␆squareword.org 1499: 7 guesses
+TD97 📋> squareword.org 1499: 7 guesses
+TD17 📋> ␅
+TD38 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟨🟩🟩🟨🟩
+TD5 📋> 🟨🟩🟩🟨🟩
+TD4 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD20 ␆🟨🟩🟨🟨🟩
+TD4 📋> 🟨🟩🟨🟨🟩
+TD4 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD11 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD311392 ␆#squareword #squareword1499
+TD102 📋> #squareword #squareword1499
+TD12 📋> ␅
+TD287801 ␄
+TD180 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1499: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1499"}
+TD774 result: "squareword.org 1499: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1499"
+TD68 📆 2026-03-10 ? ␅
+TD271486 ␆
+TD106 📆 2026-03-10 ? 
