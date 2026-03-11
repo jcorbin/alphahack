@@ -1,0 +1,270 @@
+T813.3460114810005 now: 2026-03-11T07:57:21EDT
+TD77 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD124  ...␅
+TD199206 ␆
+TD77  ...
+TD63 🧩  ? ␅
+TD4487742 ␆#1500
+TD64 🧩  ? #1500
+TD181 puzzle_id: #1500
+TD159 > ␅
+TD791698 ␆*
+TD62 > *
+TD249258 try? ␅
+TD854613 ␆1
+TD65 try? 1
+TD200 questioning: ["aster", "#5"]
+TD163 #1 <IndexError>  📋 "aster" ? ␅
+TD3863654 ␆_____ ~ ASR
+TD78 #1 <IndexError>  📋 "aster" ? _____ ~ ASR
+TD472 attempt 0 ASTER m m n n m
+TD80 #2 <IndexError>  📋 "aster" ? ␅
+TD2015394 ␆_____ ~ ER
+TD79 #2 <IndexError>  📋 "aster" ? _____ ~ ER
+TD200 attempt 1 ASTER n n n m m
+TD86 #3 <IndexError>  📋 "aster" ? ␅
+TD2559658 ␆A____ ~ E
+TD79 #3 <IndexError>  📋 "aster" ? A____ ~ E
+TD182 attempt 2 ASTER Y n n m n
+TD86 #4 <IndexError>  📋 "aster" ? ␅
+TD1967720 ␆___E_ ~ SE
+TD79 #4 <IndexError>  📋 "aster" ? ___E_ ~ SE
+TD198 attempt 3 ASTER n m n Y n
+TD94 #5 <IndexError>  📋 "aster" ? ␅
+TD2015710 ␆_____ ~ SE
+TD79 #5 <IndexError>  📋 "aster" ? _____ ~ SE
+TD187 attempt 4 ASTER n m n m n
+TD240 ? ␅
+TD1839413 ␆
+TD80 ? 
+TD110 question done
+TD193 > ␅
+TD911726 ␆*
+TD80 > *
+TD691043 try? ␅
+TD2628772 ␆3
+TD75 try? 3
+TD203 questioning: ["agile", "#3"]
+TD167 #1 _____ ~ARS -ET  📋 "agile" ? ␅
+TD5735757 ␆_____ ~ ASRG
+TD98 #1 _____ ~ARS -ET  📋 "agile" ? _____ ~ ASRG
+TD270 attempt 0 AGILE m m n n n
+TD175 #2 _____ ~ER -AST  📋 "agile" ? ␅
+TD2935860 ␆_____ ~ ERIL
+TD81 #2 _____ ~ER -AST  📋 "agile" ? _____ ~ ERIL
+TD159 attempt 1 AGILE n n m m m
+TD95 #3 A____ ~E -RST  📋 "agile" ? ␅
+TD3311288 ␆A_I_E 
+TD71 #3 A____ ~E -RST  📋 "agile" ? A_I_E 
+TD151 attempt 2 AGILE Y n Y n Y
+TD90 #4 ___E_ ~S -ART  📋 "agile" ? ␅
+TD6175758 ␆___E_ ~ SE
+TD98 #4 ___E_ ~S -ART  📋 "agile" ? ___E_ ~ SE
+TD208 attempt 3 AGILE n n n n m
+TD115 #5 _____ ~ES -ART  📋 "agile" ? ␅
+TD3503585 ␆____E ~ SE
+TD79 #5 _____ ~ES -ART  📋 "agile" ? ____E ~ SE
+TD189 attempt 4 AGILE n n n n Y
+TD225 ? ␅
+TD327467 ␆
+TD96 ? 
+TD144 question done
+TD214 > ␅
+TD25104047 ␆
+TD110 > 
+TD437 > ␅
+TD847156 ␆*
+TD98 > *
+TD653524 try? ␅
+TD3026391 ␆2
+TD101 try? 2
+TD297 questioning: ["peril", "#2"]
+TD286 #1 _____ ~AGRS -EILT  📋 "peril" ? ␅
+TD3247504 ␆.
+TD93 #1 _____ ~AGRS -EILT  📋 "peril" ? .
+TD259 attempt 0 PERIL n n m n n
+TD97 #2 _____ ~EILR -AGST  📋 "peril" ? ␅
+TD2279524 ␆_E_I_ ~ RL
+TD103 #2 _____ ~EILR -AGST  📋 "peril" ? _E_I_ ~ RL
+TD268 attempt 1 PERIL n Y m Y m
+TD152 #3 A_I_E -GLRST  📋 "peril" ? ␅
+TD1183485 ␆.
+TD77 #3 A_I_E -GLRST  📋 "peril" ? .
+TD198 attempt 2 PERIL n n n n n
+TD66 #4 ___E_ ~S -AGILRT  📋 "peril" ? ␅
+TD3735604 ␆_E_E_ ~ S
+TD76 #4 ___E_ ~S -AGILRT  📋 "peril" ? _E_E_ ~ S
+TD163 attempt 3 PERIL n Y n n n
+TD92 #5 ____E ~S -AGILRT  📋 "peril" ? ␅
+TD2559745 ␆____E ~ SE
+TD97 #5 ____E ~S -AGILRT  📋 "peril" ? ____E ~ SE
+TD261 attempt 4 PERIL n m n n n
+TD322 ? ␅
+TD367395 ␆
+TD80 ? 
+TD96 question done
+TD187 > ␅
+TD775714 ␆*
+TD96 > *
+TD661296 questioning: ["relic", "#2"]
+TD179 #1 _____ ~AGRS -EILPT  📋 "relic" ? ␅
+TD3554405 ␆.
+TD99 #1 _____ ~AGRS -EILPT  📋 "relic" ? .
+TD278 attempt 0 RELIC m n n n n
+TD103 #2 _E_I_ ~LR -AGPST  📋 "relic" ? ␅
+TD639432 ␆/it
+TD98 #2 _E_I_ ~LR -AGPST  📋 "relic" ? /it
+TD264 attempt 1 RELIC Y Y Y Y Y
+TD102 #3 A_I_E -EGILPRST  📋 "relic" ? ␅
+TD1623645 ␆.
+TD96 #3 A_I_E -EGILPRST  📋 "relic" ? .
+TD268 attempt 2 RELIC n n n n n
+TD97 #4 _E_E_ ~S -AGILPRT  📋 "relic" ? ␅
+TD1239524 ␆.
+TD73 #4 _E_E_ ~S -AGILPRT  📋 "relic" ? .
+TD187 attempt 3 RELIC n Y n n n
+TD66 #5 ____E ~S -AGILPRT  📋 "relic" ? ␅
+TD3423789 ␆____E ~ SE
+TD109 #5 ____E ~S -AGILPRT  📋 "relic" ? ____E ~ SE
+TD295 attempt 4 RELIC n m n n n
+TD257 ? ␅
+TD239199 ␆
+TD94 ? 
+TD117 question done
+TD302 > ␅
+TD543538 ␆*
+TD81 > *
+TD1326301 try? ␅
+TD2761685 ␆1
+TD97 try? 1
+TD291 questioning: ["semen", "#4"]
+TD364 #1 _____ ~AGRS -CEILPT  📋 "semen" ? ␅
+TD8159216 ␆_____ ~ ASRGM
+TD97 #1 _____ ~AGRS -CEILPT  📋 "semen" ? _____ ~ ASRGM
+TD259 attempt 0 SEMEN m n m n n
+TD157 #3 A_I_E -CEGILPRST  📋 "semen" ? ␅
+TD4351589 ␆A_I_E ~ MN
+TD104 #3 A_I_E -CEGILPRST  📋 "semen" ? A_I_E ~ MN
+TD248 attempt 2 SEMEN n n m n m
+TD151 #4 _E_E_ ~S -ACGILPRT  📋 "semen" ? ␅
+TD1911529 ␆SE_EN
+TD97 #4 _E_E_ ~S -ACGILPRT  📋 "semen" ? SE_EN
+TD245 attempt 3 SEMEN Y Y n Y Y
+TD152 #5 ____E ~S -ACGILPRT  📋 "semen" ? ␅
+TD2575563 ␆S___E ~ E
+TD70 #5 ____E ~S -ACGILPRT  📋 "semen" ? S___E ~ E
+TD158 attempt 4 SEMEN Y m n m n
+TD184 ? ␅
+TD335622 ␆
+TD98 ? 
+TD144 question done
+TD313 > ␅
+TD983412 ␆*
+TD97 > *
+TD2150445 questioning: ["grams", "#1"]
+TD182 #1 _____ ~AGMRS -CEILNPT  📋 "grams" ? ␅
+TD2409152 ␆/it
+TD98 #1 _____ ~AGMRS -CEILNPT  📋 "grams" ? /it
+TD267 attempt 0 GRAMS Y Y Y Y Y
+TD108 #3 A_I_E ~MN -CEGILPRST  📋 "grams" ? ␅
+TD4511964 ␆A_IME ~ N
+TD95 #3 A_I_E ~MN -CEGILPRST  📋 "grams" ? A_IME ~ N
+TD270 attempt 2 GRAMS n n n Y n
+TD163 #4 SE_EN -ACGILMPRT  📋 "grams" ? ␅
+TD2327272 ␆.
+TD99 #4 SE_EN -ACGILMPRT  📋 "grams" ? .
+TD279 attempt 3 GRAMS n n n n n
+TD102 #5 S___E -ACGILMNPRT  📋 "grams" ? ␅
+TD2759398 ␆S___E ~ E
+TD71 #5 S___E -ACGILMNPRT  📋 "grams" ? S___E ~ E
+TD163 attempt 4 GRAMS n n n n n
+TD188 ? ␅
+TD263720 ␆
+TD111 ? 
+TD118 question done
+TD205 > ␅
+TD791623 ␆*
+TD97 > *
+TD1742017 questioning: ["anime", "#3"]
+TD205 #3 A_IME ~N -ACEGILPRST  📋 "anime" ? ␅
+TD2193612 ␆/it
+TD99 #3 A_IME ~N -ACEGILPRST  📋 "anime" ? /it
+TD264 attempt 2 ANIME Y Y Y Y Y
+TD102 #4 SE_EN -ACGILMPRST  📋 "anime" ? ␅
+TD2255619 ␆.
+TD96 #4 SE_EN -ACGILMPRST  📋 "anime" ? .
+TD275 attempt 3 ANIME n n n n n
+TD99 #5 S___E -ACGILMNPRST  📋 "anime" ? ␅
+TD2215529 ␆S___E ~ E
+TD107 #5 S___E -ACGILMNPRST  📋 "anime" ? S___E ~ E
+TD269 attempt 4 ANIME n n n n Y
+TD307 ? ␅
+TD239252 ␆
+TD82 ? 
+TD92 question done
+TD190 > ␅
+TD551634 ␆*
+TD77 > *
+TD1390335 questioning: ["seven", "#4"]
+TD183 #4 SE_EN -ACEGILMNPRST  📋 "seven" ? ␅
+TD3121556 ␆/it
+TD92 #4 SE_EN -ACEGILMNPRST  📋 "seven" ? /it
+TD257 attempt 3 SEVEN Y Y Y Y Y
+TD102 #5 S___E -ACGILMNPRST  📋 "seven" ? ␅
+TD2431438 ␆S___E ~ E
+TD75 #5 S___E -ACGILMNPRST  📋 "seven" ? S___E ~ E
+TD182 attempt 4 SEVEN Y m n m n
+TD213 ? ␅
+TD239583 ␆
+TD63 ? 
+TD106 question done
+TD294 > ␅
+TD503527 ␆*
+TD96 > *
+TD947298 questioning: ["swede", "#5"]
+TD239 #5 S___E -ACGILMNPRTV  📋 "swede" ? ␅
+TD3260385 ␆/it
+TD135 #5 S___E -ACGILMNPRTV  📋 "swede" ? /it
+TD290 attempt 4 SWEDE Y Y Y Y Y
+TD211 ? ␅
+TD607382 ␆
+TD121 ? 
+TD166 question done
+TD17482 📋> ␅
+TD6927010 ␆squareword.org 1500: 9 guesses
+TD104 📋> squareword.org 1500: 9 guesses
+TD63 📋> ␅
+TD52 ␆
+TD8 📋> 
+TD15 📋> ␅
+TD19 ␆🟨🟨🟨🟨🟨
+TD7 📋> 🟨🟨🟨🟨🟨
+TD13 📋> ␅
+TD13 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD12 📋> ␅
+TD13 ␆🟩🟨🟩🟨🟩
+TD5 📋> 🟩🟨🟩🟨🟩
+TD11 📋> ␅
+TD12 ␆🟩🟩🟨🟩🟩
+TD12 📋> 🟩🟩🟨🟩🟩
+TD126 📋> ␅
+TD132 ␆🟩🟨🟨🟨🟩
+TD9 📋> 🟩🟨🟨🟨🟩
+TD13 📋> ␅
+TD17 ␆
+TD6 📋> 
+TD11 📋> ␅
+TD15 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD10 📋> ␅
+TD326718 ␆#squareword #squareword1500
+TD78 📋> #squareword #squareword1500
+TD28 📋> ␅
+TD199803 ␄
+TD187 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1500: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1500"}
+TD823 result: "squareword.org 1500: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1500"
+TD109 📆 2026-03-11 ? ␅
+TD190946 ␆
+TD78 📆 2026-03-11 ? 
