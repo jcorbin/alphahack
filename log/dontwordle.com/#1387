@@ -1,0 +1,169 @@
+T0.9386354790040059 now: 2026-03-11T07:43:49EDT
+TD88 site: dontwordle.com
+TD12 wordlist: nwl2023.txt
+TD24  ...␅
+TD190671 ␆
+TD89  ...
+TD124 1> ␅
+TD13959981 ␆* -bot 10
+TD74 1> * -bot 10
+TD173042 ? ␅
+TD1370872 ␆2
+TD96 ? 2
+TD273 📋 "snare" ? ␅
+TD8807758 ␆nnnnM
+TD100 📋 "snare" ? nnnnM
+TD504 tried: SNARE n n n n m
+TD137 2> ␅
+TD1767235 ␆undo
+TD97 2> undo
+TD151 undo
+TD137 1> ␅
+TD6167745 ␆* :v [snare] -bot 10
+TD97 1> * :v [snare] -bot 10
+TD117931 ? ␅
+TD1417845 ␆2
+TD99 ? 2
+TD251 📋 "optic" ? ␅
+TD3959764 ␆MnMnn
+TD99 📋 "optic" ? MnMnn
+TD235 tried: OPTIC m n m n n
+TD198 2> ␅
+TD1111415 ␆undo
+TD100 2> undo
+TD124 undo
+TD99 1> ␅
+TD2567768 ␆*
+TD110 1> *
+TD96267 ? ␅
+TD1287520 ␆1
+TD81 ? 1
+TD179 📋 "yummy" ? ␅
+TD4295832 ␆nnnnn
+TD98 📋 "yummy" ? nnnnn
+TD207 tried: YUMMY n n n n n
+TD180 2> ␅
+TD503612 ␆*
+TD98 2> *
+TD100124 ? ␅
+TD763867 ␆1
+TD100 ? 1
+TD231 📋 "lahal" ? ␅
+TD4951907 ␆nnnnY
+TD97 📋 "lahal" ? nnnnY
+TD198 tried: LAHAL n n n n Y
+TD187 3> ␅
+TD759133 ␆undo
+TD80 3> undo
+TD105 undo
+TD133 2> ␅
+TD3207728 ␆*
+TD101 2> *
+TD95120 ? ␅
+TD824790 ␆1
+TD95 ? 1
+TD232 📋 "javas" ? ␅
+TD14263834 ␆nnnnn
+TD109 📋 "javas" ? nnnnn
+TD200 tried: JAVAS n n n n n
+TD189 3> ␅
+TD1455551 ␆*
+TD113 3> *
+TD95813 ? ␅
+TD873285 ␆1
+TD81 ? 1
+TD172 📋 "rigid" ? ␅
+TD4606601 ␆nnnnn
+TD99 📋 "rigid" ? nnnnn
+TD209 tried: RIGID n n n n n
+TD207 4> ␅
+TD1527470 ␆*
+TD81 4> *
+TD193324 📋 "phpht" ? ␅
+TD11870608 ␆nnnnM
+TD88 📋 "phpht" ? nnnnM
+TD164 tried: PHPHT n n n n m
+TD131 5> ␅
+TD991748 ␆*
+TD95 5> *
+TD165775 ? ␅
+TD1666093 ␆1
+TD95 ? 1
+TD225 📋 "botox" ? ␅
+TD4823697 ␄
+TD102 <EOF>
+TD110 5> ␅
+TD1375891 ␆*
+TD97 5> *
+TD173891 ? ␅
+TD1161895 ␆2
+TD112 ? 2
+TD232 📋 "conto" ? ␅
+TD4119716 ␆nYnMn
+TD95 📋 "conto" ? nYnMn
+TD204 tried: CONTO n Y n m n
+TD219 6> ␅
+TD407739 ␆*
+TD97 6> *
+TD179501 ? ␅
+TD1300105 ␆2
+TD82 ? 2
+TD180 📋 "kotow" ? ␅
+TD8064054 ␄
+TD129 <EOF>
+TD171 6> ␅
+TD1527494 ␆* -sans
+TD98 6> * -sans
+TD94228 ? ␅
+TD4449833 ␆3
+TD79 ? 3
+TD173 📋 "botel" ? ␅
+TD7215814 ␆nYMYY
+TD79 📋 "botel" ? nYMYY
+TD148 tried: BOTEL n Y m Y Y
+TD158 📋> ␅
+TD3640322 ␆Don't Wordle 1387 - SURVIVED
+TD117 📋> Don't Wordle 1387 - SURVIVED
+TD23 📋> ␅
+TD46 ␆Hooray! I didn't Wordle today!
+TD9 📋> Hooray! I didn't Wordle today!
+TD8 📋> ␅
+TD20 ␆⬜⬜⬜⬜⬜7572
+TD8 📋> ⬜⬜⬜⬜⬜7572
+TD7 📋> ␅
+TD13 ␆⬜⬜⬜⬜⬜1691
+TD6 📋> ⬜⬜⬜⬜⬜1691
+TD6 📋> ␅
+TD13 ␆⬜⬜⬜⬜⬜286
+TD6 📋> ⬜⬜⬜⬜⬜286
+TD6 📋> ␅
+TD13 ␆⬜⬜⬜⬜🟨39
+TD6 📋> ⬜⬜⬜⬜🟨39
+TD6 📋> ␅
+TD13 ␆⬜🟩⬜🟨⬜3
+TD6 📋> ⬜🟩⬜🟨⬜3
+TD6 📋> ␅
+TD12 ␆⬜🟩🟨🟩🟩1
+TD6 📋> ⬜🟩🟨🟩🟩1
+TD6 📋> ␅
+TD14 ␆Undos used: 3
+TD6 📋> Undos used: 3
+TD7 📋> ␅
+TD13 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD13 ␆  1 words remaining
+TD6 📋>   1 words remaining
+TD6 📋> ␅
+TD12 ␆x 6 unused letters
+TD6 📋> x 6 unused letters
+TD6 📋> ␅
+TD270793 ␆= 6 total score
+TD71 📋> = 6 total score
+TD7 📋> ␅
+TD151820 ␄
+TD131 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1387 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7572\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1691\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c286\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe839\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c3\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 6 unused letters\n= 6 total score"}
+TD617 result: "Don't Wordle 1387 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7572\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1691\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c286\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe839\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c3\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 6 unused letters\n= 6 total score"
+TD57 📆 2026-03-11 ? ␅
+TD175377 ␆
+TD68 📆 2026-03-11 ? 
