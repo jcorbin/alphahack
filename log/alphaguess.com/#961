@@ -1,0 +1,89 @@
+T44359.958693765 now: 2026-03-11T07:42:11EDT
+TD102 site: alphaguess.com
+TD122796 loaded 196525 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (79 words excluded) asof b2cee49b9129ac5abbe03cc7bdc315ff37962078
+TD106  ...␅
+TD404322 ␆
+TD95  ...
+TD172 [0 : 98218 : 196525] mach? ␅
+TD53928291 ␆
+TD111 [0 : 98218 : 196525] mach? 
+TD112 [0 : 98218 : 196525] mach? ␅
+TD4095693 ␆b
+TD106 [0 : 98218 : 196525] mach? b
+TD106 progress: -1 98218 mach
+TD116 [0 : 47381 : 98218] dis? ␅
+TD1431751 ␆a
+TD95 [0 : 47381 : 98218] dis? a
+TD101 progress: 1 47381 dis
+TD421 [47382 : 72800 : 98218] gremmy? ␅
+TD1647172 ␆a
+TD84 [47382 : 72800 : 98218] gremmy? a
+TD111 progress: 1 72800 gremmy
+TD110 [72801 : 85504 : 98218] ins? ␅
+TD1407876 ␆b
+TD95 [72801 : 85504 : 98218] ins? b
+TD104 progress: -1 85504 ins
+TD102 [72801 : 79132 : 85504] hood? ␅
+TD2567624 ␆b
+TD103 [72801 : 79132 : 85504] hood? b
+TD105 progress: -1 79132 hood
+TD79 [72801 : 75956 : 79132] haw? ␅
+TD1511873 ␆a
+TD97 [72801 : 75956 : 79132] haw? a
+TD104 progress: 1 75956 haw
+TD118 [75957 : 77500 : 79132] hetero? ␅
+TD1535481 ␆b
+TD101 [75957 : 77500 : 79132] hetero? b
+TD100 progress: -1 77500 hetero
+TD116 [75957 : 76699 : 77500] helio? ␅
+TD8247774 ␆b
+TD108 [75957 : 76699 : 77500] helio? b
+TD109 progress: -1 76699 helio
+TD108 [75957 : 76291 : 76699] heart? ␅
+TD2503896 ␆b
+TD103 [75957 : 76291 : 76699] heart? b
+TD109 progress: -1 76291 heart
+TD107 [75957 : 76083 : 76291] head? ␅
+TD2623602 ␆a
+TD89 [75957 : 76083 : 76291] head? a
+TD104 progress: 1 76083 head
+TD265 [76084 : 76187 : 76291] headrail? ␅
+TD1911414 ␆a
+TD77 [76084 : 76187 : 76291] headrail? a
+TD81 progress: 1 76187 headrail
+TD156 [76188 : 76239 : 76291] headwork? ␅
+TD1967875 ␆a
+TD94 [76188 : 76239 : 76291] headwork? a
+TD104 progress: 1 76239 headwork
+TD143 [76240 : 76264 : 76291] heap? ␅
+TD1695594 ␆a
+TD96 [76240 : 76264 : 76291] heap? a
+TD106 progress: 1 76264 heap
+TD105 [76265 : 76271 : 76291] hear? ␅
+TD2735600 ␆it
+TD98 [76265 : 76271 : 76291] hear? it
+TD110 progress: 0 76271 hear
+TD26 [76265 : 76271 : 76291] <Done>.
+TD92 📋> ␅
+TD2512261 ␆🧩 Puzzle #961
+TD92 📋> 🧩 Puzzle #961
+TD13 📋> ␅
+TD40 ␆🤔 14 guesses
+TD6 📋> 🤔 14 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 30s
+TD6 📋> ⏱️ 30s
+TD5 📋> ␅
+TD295421 ␆🔗 alphaguess.com/961
+TD94 📋> 🔗 alphaguess.com/961
+TD13 📋> ␅
+TD175992 ␄
+TD155 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #961\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 30s\n\ud83d\udd17 alphaguess.com/961"}
+TD100 result: "\ud83e\udde9 Puzzle #961\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 30s\n\ud83d\udd17 alphaguess.com/961"
+TD16 result puzzle: 961
+TD7 result guesses: 14
+TD6 result time: 30s
+TD5 result link: alphaguess.com/961
+TD92 📆 2026-03-11 ? ␅
+TD159501 ␆
+TD79 📆 2026-03-11 ? 
