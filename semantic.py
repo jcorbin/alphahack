@@ -687,9 +687,9 @@ def parse_think(tokens: PromptUI.Tokens,
                 fallthru: Callable[[], Exception]|ThinkingValue=lambda: ValueError('invalid thinking value')):
     if tokens.have(r'(?ix) - | none | null | na | def(a(u(lt?)?)?)?'):
         return None
-    elif tokens.have(r'(?ix) yes? | t(r(ue?)?)? | 1'):
+    elif tokens.have(r'(?ix) yes? | on | t(r(ue?)?)? | 1'):
         return True
-    elif tokens.have(r'(?ix) no | f(a(l(se?)?)?)? | 0'):
+    elif tokens.have(r'(?ix) no | off? | f(a(l(se?)?)?)? | 0'):
         return False
     elif tokens.have(r'(?ix) l(ow?)?'):
         return 'low'
