@@ -1,0 +1,278 @@
+T54331.58478738599 now: 2026-03-12T07:50:13EDT
+TD117 site: squareword.org
+TD30 wordlist: nwl2023.txt
+TD42  ...␅
+TD2934772 ␆
+TD92  ...
+TD74 🧩  ? ␅
+TD2687770 ␆#1501
+TD94 🧩  ? #1501
+TD273 puzzle_id: #1501
+TD290 > ␅
+TD847423 ␆*
+TD88 > *
+TD270571 try? ␅
+TD729347 ␆1
+TD97 try? 1
+TD315 questioning: ["resat", "#5"]
+TD280 #1 <IndexError>  📋 "resat" ? ␅
+TD4375371 ␆_____ ~ ES
+TD95 #1 <IndexError>  📋 "resat" ? _____ ~ ES
+TD704 attempt 0 RESAT n m m n n
+TD98 #2 <IndexError>  📋 "resat" ? ␅
+TD1599246 ␆_____ ~ R
+TD101 #2 <IndexError>  📋 "resat" ? _____ ~ R
+TD282 attempt 1 RESAT m n n n n
+TD122 #3 <IndexError>  📋 "resat" ? ␅
+TD1976054 ␆_____ ~ EA
+TD95 #3 <IndexError>  📋 "resat" ? _____ ~ EA
+TD256 attempt 2 RESAT n m n m n
+TD126 #4 <IndexError>  📋 "resat" ? ␅
+TD2926858 ␆__S__ ~ REA
+TD79 #4 <IndexError>  📋 "resat" ? __S__ ~ REA
+TD185 attempt 3 RESAT m m Y m n
+TD111 #5 <IndexError>  📋 "resat" ? ␅
+TD2607804 ␆_E___ ~ RES
+TD105 #5 <IndexError>  📋 "resat" ? _E___ ~ RES
+TD261 attempt 4 RESAT m Y m n n
+TD344 ? ␅
+TD271213 ␆
+TD94 ? 
+TD153 question done
+TD294 > ␅
+TD623335 ␆*
+TD97 > *
+TD622003 try? ␅
+TD1090098 ␆1
+TD99 try? 1
+TD297 questioning: ["baser", "#4"]
+TD311 #1 _____ ~ES -ART  📋 "baser" ? ␅
+TD3775250 ␆.
+TD77 #1 _____ ~ES -ART  📋 "baser" ? .
+TD204 attempt 0 BASER n n m m n
+TD65 #2 _____ ~R -AEST  📋 "baser" ? ␅
+TD903632 ␆.
+TD76 #2 _____ ~R -AEST  📋 "baser" ? .
+TD320 attempt 1 BASER n n n n m
+TD124 #3 _____ ~AE -RST  📋 "baser" ? ␅
+TD855428 ␆.
+TD96 #3 _____ ~AE -RST  📋 "baser" ? .
+TD290 attempt 2 BASER n m n m n
+TD97 #4 __S__ ~AER -T  📋 "baser" ? ␅
+TD2327573 ␆_ASER
+TD77 #4 __S__ ~AER -T  📋 "baser" ? _ASER
+TD189 attempt 3 BASER n Y Y Y Y
+TD106 #5 _E___ ~RS -AT  📋 "baser" ? ␅
+TD3799856 ␆_E___ ~ RES
+TD100 #5 _E___ ~RS -AT  📋 "baser" ? _E___ ~ RES
+TD261 attempt 4 BASER n n m m m
+TD319 ? ␅
+TD223516 ␆
+TD108 ? 
+TD152 question done
+TD316 > ␅
+TD566995 ␆*
+TD99 > *
+TD667989 try? ␅
+TD5036005 ␆1
+TD117 try? 1
+TD293 questioning: ["laser", "#4"]
+TD335 #1 _____ ~ES -ABRT  📋 "laser" ? ␅
+TD2815305 ␆.
+TD102 #1 _____ ~ES -ABRT  📋 "laser" ? .
+TD279 attempt 0 LASER n n m m n
+TD98 #2 _____ ~R -ABEST  📋 "laser" ? ␅
+TD647566 ␆.
+TD94 #2 _____ ~R -ABEST  📋 "laser" ? .
+TD253 attempt 1 LASER n n n n m
+TD111 #3 _____ ~AE -BRST  📋 "laser" ? ␅
+TD711520 ␆.
+TD88 #3 _____ ~AE -BRST  📋 "laser" ? .
+TD272 attempt 2 LASER n m n m n
+TD95 #4 _ASER -BT  📋 "laser" ? ␅
+TD647519 ␆/it
+TD166 #4 _ASER -BT  📋 "laser" ? /it
+TD270 attempt 3 LASER Y Y Y Y Y
+TD96 #5 _E___ ~RS -ABT  📋 "laser" ? ␅
+TD3135521 ␆_E___ ~ RES
+TD97 #5 _E___ ~RS -ABT  📋 "laser" ? _E___ ~ RES
+TD255 attempt 4 LASER n n m m m
+TD338 ? ␅
+TD279379 ␆
+TD98 ? 
+TD125 question done
+TD299 > ␅
+TD455239 ␆*
+TD70 > *
+TD516959 try? ␅
+TD2603204 ␆1
+TD78 try? 1
+TD215 questioning: ["keirs", "#5"]
+TD210 #1 _____ ~ES -ABLRT  📋 "keirs" ? ␅
+TD3295580 ␆.
+TD75 #1 _____ ~ES -ABLRT  📋 "keirs" ? .
+TD191 attempt 0 KEIRS n m n n m
+TD63 #2 _____ ~R -ABELST  📋 "keirs" ? ␅
+TD2519659 ␆_____ ~ RI
+TD99 #2 _____ ~R -ABELST  📋 "keirs" ? _____ ~ RI
+TD255 attempt 1 KEIRS n n m m n
+TD150 #3 _____ ~AE -BLRST  📋 "keirs" ? ␅
+TD1503462 ␆.
+TD96 #3 _____ ~AE -BLRST  📋 "keirs" ? .
+TD273 attempt 2 KEIRS n m n n n
+TD100 #5 _E___ ~RS -ABLT  📋 "keirs" ? ␅
+TD3143553 ␆_E_RS ~ E
+TD93 #5 _E___ ~RS -ABLT  📋 "keirs" ? _E_RS ~ E
+TD264 attempt 4 KEIRS n Y n Y Y
+TD354 ? ␅
+TD207356 ␆
+TD73 ? 
+TD92 question done
+TD187 > ␅
+TD552060 ␆*
+TD79 > *
+TD731714 try? ␅
+TD1979844 ␆1
+TD78 try? 1
+TD291 questioning: ["deers", "#5"]
+TD367 #1 _____ ~ES -ABIKLRT  📋 "deers" ? ␅
+TD4823305 ␆__E__ ~ SD
+TD110 #1 _____ ~ES -ABIKLRT  📋 "deers" ? __E__ ~ SD
+TD257 attempt 0 DEERS m n Y n m
+TD153 #2 _____ ~IR -ABEKLST  📋 "deers" ? ␅
+TD1799594 ␆.
+TD94 #2 _____ ~IR -ABEKLST  📋 "deers" ? .
+TD270 attempt 1 DEERS n n n m n
+TD98 #3 _____ ~AE -BIKLRST  📋 "deers" ? ␅
+TD584093 ␆.
+TD94 #3 _____ ~AE -BIKLRST  📋 "deers" ? .
+TD269 attempt 2 DEERS n m m n n
+TD112 #5 _E_RS -ABIKLT  📋 "deers" ? ␅
+TD206818 ␆
+TD77 #5 _E_RS -ABIKLT  📋 "deers" ? 
+TD232 #5 _E_RS -ABIKLT  ? ␅
+TD1495704 ␆
+TD81 #5 _E_RS -ABIKLT  ? 
+TD284 #5 _E_RS -ABIKLT  ? ␅
+TD1655579 ␆_EERS
+TD95 #5 _E_RS -ABIKLT  ? _EERS
+TD237 attempt 4 DEERS n Y Y Y Y
+TD346 ? ␅
+TD519502 ␆
+TD94 ? 
+TD115 question done
+TD281 > ␅
+TD599330 ␆*
+TD69 > *
+TD1585828 try? ␅
+TD2006318 ␆1
+TD104 try? 1
+TD333 questioning: ["peers", "#5"]
+TD349 #1 __E__ ~DS -ABIKLRT  📋 "peers" ? ␅
+TD5023267 ␆__E__ ~ SDP
+TD98 #1 __E__ ~DS -ABIKLRT  📋 "peers" ? __E__ ~ SDP
+TD252 attempt 0 PEERS m n Y n m
+TD170 #2 _____ ~IR -ABDEKLST  📋 "peers" ? ␅
+TD1095490 ␆.
+TD91 #2 _____ ~IR -ABDEKLST  📋 "peers" ? .
+TD271 attempt 1 PEERS n n n m n
+TD112 #3 _____ ~AE -BDIKLRST  📋 "peers" ? ␅
+TD3263580 ␆_____ ~ EAP
+TD99 #3 _____ ~AE -BDIKLRST  📋 "peers" ? _____ ~ EAP
+TD213 attempt 2 PEERS m m m n n
+TD108 #5 _EERS -ABDIKLT  📋 "peers" ? ␅
+TD303567 ␆
+TD100 #5 _EERS -ABDIKLT  📋 "peers" ? 
+TD325 #5 _EERS -ABDIKLT  ? ␅
+TD1607452 ␆/it
+TD96 #5 _EERS -ABDIKLT  ? /it
+TD259 attempt 4 PEERS Y Y Y Y Y
+TD312 ? ␅
+TD447351 ␆
+TD79 ? 
+TD87 question done
+TD191 > ␅
+TD575754 ␆*
+TD98 > *
+TD1478149 questioning: ["spend", "#1"]
+TD201 #1 __E__ ~DPS -ABIKLRT  📋 "spend" ? ␅
+TD2929407 ␆/it
+TD94 #1 __E__ ~DPS -ABIKLRT  📋 "spend" ? /it
+TD259 attempt 0 SPEND Y Y Y Y Y
+TD100 #2 _____ ~IR -ABDEKLPST  📋 "spend" ? ␅
+TD1447781 ␆.
+TD92 #2 _____ ~IR -ABDEKLPST  📋 "spend" ? .
+TD266 attempt 1 SPEND n n n n n
+TD100 #3 _____ ~AEP -BDIKLRST  📋 "spend" ? ␅
+TD2591370 ␆_P___ ~ EA
+TD97 #3 _____ ~AEP -BDIKLRST  📋 "spend" ? _P___ ~ EA
+TD272 attempt 2 SPEND n Y m n n
+TD379 ? ␅
+TD975647 ␆
+TD102 ? 
+TD125 question done
+TD315 > ␅
+TD7263167 ␆*
+TD73 > *
+TD1382741 questioning: ["curio", "#2"]
+TD186 #2 _____ ~IR -ABDEKLNPST  📋 "curio" ? ␅
+TD5337047 ␆/it
+TD72 #2 _____ ~IR -ABDEKLNPST  📋 "curio" ? /it
+TD186 attempt 1 CURIO Y Y Y Y Y
+TD72 #3 _P___ ~AE -BDIKLNRST  📋 "curio" ? ␅
+TD3247899 ␆_P___ ~ EAC
+TD111 #3 _P___ ~AE -BDIKLNRST  📋 "curio" ? _P___ ~ EAC
+TD258 attempt 2 CURIO m n n n n
+TD363 ? ␅
+TD271078 ␆
+TD75 ? 
+TD88 question done
+TD195 > ␅
+TD559983 ␆*
+TD85 > *
+TD851079 questioning: ["apace", "#3"]
+TD214 #3 _P___ ~ACE -BDIKLNORSTU  📋 "apace" ? ␅
+TD2708384 ␆/it
+TD113 #3 _P___ ~ACE -BDIKLNORSTU  📋 "apace" ? /it
+TD316 attempt 2 APACE Y Y Y Y Y
+TD268 ? ␅
+TD543326 ␆
+TD113 ? 
+TD142 question done
+TD22458 📋> ␅
+TD6481505 ␆squareword.org 1501: 9 guesses
+TD69 📋> squareword.org 1501: 9 guesses
+TD26 📋> ␅
+TD30 ␆
+TD3 📋> 
+TD6 📋> ␅
+TD9 ␆🟨🟨🟩🟨🟨
+TD3 📋> 🟨🟨🟩🟨🟨
+TD5 📋> ␅
+TD6 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD6 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD6 ␆🟨🟩🟩🟩🟩
+TD2 📋> 🟨🟩🟩🟩🟩
+TD4 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD4 📋> ␅
+TD7 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> ␅
+TD295580 ␆#squareword #squareword1501
+TD99 📋> #squareword #squareword1501
+TD51 📋> ␅
+TD207854 ␄
+TD217 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1501: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1501"}
+TD765 result: "squareword.org 1501: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1501"
+TD70 📆 2026-03-12 ? ␅
+TD190965 ␆
+TD91 📆 2026-03-12 ? 
