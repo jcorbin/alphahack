@@ -1,0 +1,82 @@
+T52223.332493837006 now: 2026-03-13T07:55:42EDT
+TD124 site: alphaguess.com
+TD146375 loaded 196525 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (79 words excluded) asof 7de3671a52ee42e962c495a64bac545b12864763
+TD118  ...␅
+TD3373121 ␆
+TD102  ...
+TD175 [0 : 98218 : 196525] mach? ␅
+TD4030915 ␆b
+TD100 [0 : 98218 : 196525] mach? b
+TD104 progress: -1 98218 mach
+TD111 [0 : 47381 : 98218] dis? ␅
+TD1351668 ␆a
+TD94 [0 : 47381 : 98218] dis? a
+TD102 progress: 1 47381 dis
+TD380 [47382 : 72800 : 98218] gremmy? ␅
+TD6015467 ␆a
+TD95 [47382 : 72800 : 98218] gremmy? a
+TD102 progress: 1 72800 gremmy
+TD113 [72801 : 85504 : 98218] ins? ␅
+TD1568372 ␆a
+TD111 [72801 : 85504 : 98218] ins? a
+TD101 progress: 1 85504 ins
+TD103 [85505 : 91848 : 98218] knot? ␅
+TD1791498 ␆b
+TD96 [85505 : 91848 : 98218] knot? b
+TD125 progress: -1 91848 knot
+TD108 [85505 : 88664 : 91848] jacks? ␅
+TD1431218 ␆b
+TD91 [85505 : 88664 : 91848] jacks? b
+TD101 progress: -1 88664 jacks
+TD101 [85505 : 87077 : 88664] intima? ␅
+TD1327861 ␆a
+TD95 [85505 : 87077 : 88664] intima? a
+TD100 progress: 1 87077 intima
+TD200 [87078 : 87868 : 88664] iris? ␅
+TD2312512 ␆a
+TD100 [87078 : 87868 : 88664] iris? a
+TD105 progress: 1 87868 iris
+TD120 [87869 : 88124 : 88664] is? ␅
+TD1607109 ␆a
+TD89 [87869 : 88124 : 88664] is? a
+TD90 progress: 1 88124 is
+TD203 [88125 : 88394 : 88664] isotactic? ␅
+TD1311932 ␆b
+TD100 [88125 : 88394 : 88664] isotactic? b
+TD102 progress: -1 88394 isotactic
+TD391 [88125 : 88259 : 88394] isogenies? ␅
+TD1446652 ␆b
+TD93 [88125 : 88259 : 88394] isogenies? b
+TD103 progress: -1 88259 isogenies
+TD325 [88125 : 88191 : 88259] isobath? ␅
+TD1279706 ␆b
+TD98 [88125 : 88191 : 88259] isobath? b
+TD101 progress: -1 88191 isobath
+TD177 [88125 : 88159 : 88191] island? ␅
+TD2191832 ␆it
+TD96 [88125 : 88159 : 88191] island? it
+TD117 progress: 0 88159 island
+TD27 [88125 : 88159 : 88191] <Done>.
+TD84 📋> ␅
+TD2792710 ␆🧩 Puzzle #963
+TD97 📋> 🧩 Puzzle #963
+TD21 📋> ␅
+TD42 ␆🤔 13 guesses
+TD6 📋> 🤔 13 guesses
+TD7 📋> ␅
+TD25 ␆⏱️ 23s
+TD11 📋> ⏱️ 23s
+TD4 📋> ␅
+TD270554 ␆🔗 alphaguess.com/963
+TD96 📋> 🔗 alphaguess.com/963
+TD12 📋> ␅
+TD143962 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #963\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/963"}
+TD117 result: "\ud83e\udde9 Puzzle #963\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/963"
+TD14 result puzzle: 963
+TD6 result guesses: 13
+TD87 result time: 23s
+TD76 result link: alphaguess.com/963
+TD115 📆 2026-03-13 ? ␅
+TD167149 ␆
+TD98 📆 2026-03-13 ? 
