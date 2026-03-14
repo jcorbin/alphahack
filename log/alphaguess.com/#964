@@ -1,0 +1,101 @@
+T140141.118126116 now: 2026-03-14T08:21:00EDT
+TD129 site: alphaguess.com
+TD181094 loaded 196525 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (79 words excluded) asof 824cdd74ec74a802b6f52d6f149bf0a218630e04
+TD101  ...␅
+TD46 ␆
+TD3  ...
+TD78 [0 : 98218 : 196525] mach? ␅
+TD1178232 ␆
+TD92 [0 : 98218 : 196525] mach? 
+TD117 [0 : 98218 : 196525] mach? ␅
+TD3879296 ␆b
+TD100 [0 : 98218 : 196525] mach? b
+TD107 progress: -1 98218 mach
+TD118 [0 : 47381 : 98218] dis? ␅
+TD1423540 ␆a
+TD142 [0 : 47381 : 98218] dis? a
+TD112 progress: 1 47381 dis
+TD422 [47382 : 72800 : 98218] gremmy? ␅
+TD1759343 ␆b
+TD94 [47382 : 72800 : 98218] gremmy? b
+TD105 progress: -1 72800 gremmy
+TD107 [47382 : 60084 : 72800] face? ␅
+TD1359602 ␆b
+TD102 [47382 : 60084 : 72800] face? b
+TD107 progress: -1 60084 face
+TD119 [47382 : 53397 : 60084] el? ␅
+TD1680189 ␆b
+TD98 [47382 : 53397 : 60084] el? b
+TD105 progress: -1 53397 el
+TD119 [47382 : 49428 : 53397] do? ␅
+TD1487208 ␆a
+TD87 [47382 : 49428 : 53397] do? a
+TD102 progress: 1 49428 do
+TD289 [49429 : 51402 : 53397] drunk? ␅
+TD1783699 ␆a
+TD90 [49429 : 51402 : 53397] drunk? a
+TD102 progress: 1 51402 drunk
+TD110 [51403 : 52395 : 53397] earth? ␅
+TD1447602 ␆b
+TD94 [51403 : 52395 : 53397] earth? b
+TD102 progress: -1 52395 earth
+TD104 [51403 : 51896 : 52395] dupe? ␅
+TD1344941 ␆a
+TD100 [51403 : 51896 : 52395] dupe? a
+TD105 progress: 1 51896 dupe
+TD277 [51897 : 52147 : 52395] dyke? ␅
+TD1518627 ␆a
+TD97 [51897 : 52147 : 52395] dyke? a
+TD105 progress: 1 52147 dyke
+TD313 [52148 : 52271 : 52395] dysprosium? ␅
+TD1311317 ␆a
+TD99 [52148 : 52271 : 52395] dysprosium? a
+TD105 progress: 1 52271 dysprosium
+TD107 [52272 : 52324 : 52395] ear? ␅
+TD1319373 ␆a
+TD101 [52272 : 52324 : 52395] ear? a
+TD102 progress: 1 52324 ear
+TD130 [52325 : 52342 : 52395] earl? ␅
+TD1271984 ␆a
+TD90 [52325 : 52342 : 52395] earl? a
+TD106 progress: 1 52342 earl
+TD144 [52343 : 52368 : 52395] earn? ␅
+TD1327609 ␆b
+TD99 [52343 : 52368 : 52395] earn? b
+TD106 progress: -1 52368 earn
+TD211 [52343 : 52356 : 52368] earls? ␅
+TD1215613 ␆a
+TD92 [52343 : 52356 : 52368] earls? a
+TD110 progress: 1 52356 earls
+TD163 [52357 : 52362 : 52368] earmark? ␅
+TD1271738 ␆b
+TD97 [52357 : 52362 : 52368] earmark? b
+TD105 progress: -1 52362 earmark
+TD189 [52357 : 52359 : 52362] early? ␅
+TD1935442 ␆it
+TD95 [52357 : 52359 : 52362] early? it
+TD104 progress: 0 52359 early
+TD24 [52357 : 52359 : 52362] <Done>.
+TD85 📋> ␅
+TD3288557 ␆🧩 Puzzle #964
+TD94 📋> 🧩 Puzzle #964
+TD13 📋> ␅
+TD41 ␆🤔 17 guesses
+TD6 📋> 🤔 17 guesses
+TD7 📋> ␅
+TD17 ␆⏱️ 22s
+TD8 📋> ⏱️ 22s
+TD8 📋> ␅
+TD271098 ␆🔗 alphaguess.com/964
+TD95 📋> 🔗 alphaguess.com/964
+TD13 📋> ␅
+TD143901 ␄
+TD195 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #964\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/964"}
+TD119 result: "\ud83e\udde9 Puzzle #964\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/964"
+TD12 result puzzle: 964
+TD7 result guesses: 17
+TD6 result time: 22s
+TD5 result link: alphaguess.com/964
+TD100 📆 2026-03-14 ? ␅
+TD143446 ␆
+TD98 📆 2026-03-14 ? 
