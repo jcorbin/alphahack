@@ -1,0 +1,255 @@
+T77.9331733029976 now: 2026-03-14T08:44:42EDT
+TD77 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD26  ...␅
+TD1974776 ␆
+TD82  ...
+TD63 🧩  ? ␅
+TD1919938 ␆#1503
+TD76 🧩  ? #1503
+TD200 puzzle_id: #1503
+TD196 > ␅
+TD319616 ␆
+TD98 > 
+TD396 > ␅
+TD711349 ␆*
+TD77 > *
+TD218915 try? ␅
+TD589015 ␆1
+TD70 try? 1
+TD217 questioning: ["toeas", "#5"]
+TD155 #1 <IndexError>  📋 "toeas" ? ␅
+TD6367702 ␆_____ ~ A
+TD97 #1 <IndexError>  📋 "toeas" ? _____ ~ A
+TD791 attempt 0 TOEAS n n n m n
+TD133 #2 <IndexError>  📋 "toeas" ? ␅
+TD1919008 ␆_____ ~ A
+TD96 #2 <IndexError>  📋 "toeas" ? _____ ~ A
+TD278 attempt 1 TOEAS n n n m n
+TD136 #3 <IndexError>  📋 "toeas" ? ␅
+TD1855472 ␆_____ ~ OE
+TD95 #3 <IndexError>  📋 "toeas" ? _____ ~ OE
+TD261 attempt 2 TOEAS n m m n n
+TD124 #4 <IndexError>  📋 "toeas" ? ␅
+TD2263554 ␆__E__ ~ TE
+TD79 #4 <IndexError>  📋 "toeas" ? __E__ ~ TE
+TD196 attempt 3 TOEAS m n Y n n
+TD85 #5 <IndexError>  📋 "toeas" ? ␅
+TD2271651 ␆TO__S ~ T
+TD98 #5 <IndexError>  📋 "toeas" ? TO__S ~ T
+TD282 attempt 4 TOEAS Y Y n n Y
+TD328 ? ␅
+TD199300 ␆
+TD98 ? 
+TD162 question done
+TD298 > ␅
+TD3143394 ␆*
+TD93 > *
+TD672866 try? ␅
+TD1119164 ␆1
+TD101 try? 1
+TD302 questioning: ["crept", "#4"]
+TD326 #1 _____ ~A -EOST  📋 "crept" ? ␅
+TD4119139 ␆C____ ~ AR
+TD78 #1 _____ ~A -EOST  📋 "crept" ? C____ ~ AR
+TD188 attempt 0 CREPT Y m n n n
+TD105 #2 _____ ~A -EOST  📋 "crept" ? ␅
+TD1943704 ␆_____ ~ AR
+TD95 #2 _____ ~A -EOST  📋 "crept" ? _____ ~ AR
+TD256 attempt 1 CREPT n m n n n
+TD143 #3 _____ ~EO -AST  📋 "crept" ? ␅
+TD3095461 ␆_____ ~ OE
+TD73 #3 _____ ~EO -AST  📋 "crept" ? _____ ~ OE
+TD181 attempt 2 CREPT n n m n n
+TD101 #4 __E__ ~T -AOS  📋 "crept" ? ␅
+TD2487842 ␆__E_T ~ E
+TD171 #4 __E__ ~T -AOS  📋 "crept" ? __E_T ~ E
+TD266 attempt 3 CREPT n n Y n Y
+TD144 #5 TO__S -AE  📋 "crept" ? ␅
+TD3951701 ␆TO__S ~ T
+TD117 #5 TO__S -AE  📋 "crept" ? TO__S ~ T
+TD251 attempt 4 CREPT n n n n m
+TD352 ? ␅
+TD239540 ␆
+TD81 ? 
+TD110 question done
+TD185 > ␅
+TD758984 ␆*
+TD76 > *
+TD619882 try? ␅
+TD3388168 ␆1
+TD93 try? 1
+TD251 questioning: ["ident", "#4"]
+TD214 #1 C____ ~AR -EOPST  📋 "ident" ? ␅
+TD3255378 ␆!
+TD99 #1 C____ ~AR -EOPST  📋 "ident" ? !
+TD166 reject: ident
+TD23 question done
+TD262 > ␅
+TD847986 ␆*
+TD75 > *
+TD8849 try? ␅
+TD1478490 ␆2
+TD103 try? 2
+TD288 questioning: ["event", "#4"]
+TD341 #1 C____ ~AR -EOPST  📋 "event" ? ␅
+TD6160691 ␆.
+TD100 #1 C____ ~AR -EOPST  📋 "event" ? .
+TD265 attempt 0 EVENT n n n n n
+TD101 #2 _____ ~AR -CEOPST  📋 "event" ? ␅
+TD910350 ␆.
+TD96 #2 _____ ~AR -CEOPST  📋 "event" ? .
+TD266 attempt 1 EVENT n n n n n
+TD101 #3 _____ ~EO -ACPRST  📋 "event" ? ␅
+TD2975527 ␆_____ ~ OEV
+TD92 #3 _____ ~EO -ACPRST  📋 "event" ? _____ ~ OEV
+TD250 attempt 2 EVENT m m m n n
+TD147 #4 __E_T -ACOPRS  📋 "event" ? ␅
+TD5543555 ␆__E_T ~ E
+TD97 #4 __E_T -ACOPRS  📋 "event" ? __E_T ~ E
+TD251 attempt 3 EVENT m n Y n Y
+TD151 #5 TO__S -ACEPR  📋 "event" ? ␅
+TD2607823 ␆TO__S ~ T
+TD99 #5 TO__S -ACEPR  📋 "event" ? TO__S ~ T
+TD244 attempt 4 EVENT n n n n m
+TD354 ? ␅
+TD390969 ␆
+TD90 ? 
+TD123 question done
+TD293 > ␅
+TD647481 ␆*
+TD102 > *
+TD519062 questioning: ["fleet", "#4"]
+TD178 #1 C____ ~AR -ENOPSTV  📋 "fleet" ? ␅
+TD3632687 ␆.
+TD99 #1 C____ ~AR -ENOPSTV  📋 "fleet" ? .
+TD258 attempt 0 FLEET n n n n n
+TD101 #2 _____ ~AR -CENOPSTV  📋 "fleet" ? ␅
+TD799647 ␆.
+TD99 #2 _____ ~AR -CENOPSTV  📋 "fleet" ? .
+TD248 attempt 1 FLEET n n n n n
+TD97 #3 _____ ~EOV -ACNPRST  📋 "fleet" ? ␅
+TD3063483 ␆_L___ ~ OEV
+TD94 #3 _____ ~EOV -ACNPRST  📋 "fleet" ? _L___ ~ OEV
+TD258 attempt 2 FLEET n Y m m n
+TD156 #4 __E_T -ACNOPRSV  📋 "fleet" ? ␅
+TD751314 ␆/it
+TD78 #4 __E_T -ACNOPRSV  📋 "fleet" ? /it
+TD191 attempt 3 FLEET Y Y Y Y Y
+TD71 #5 TO__S -ACENPRV  📋 "fleet" ? ␅
+TD2319821 ␆TO__S ~ T
+TD94 #5 TO__S -ACENPRV  📋 "fleet" ? TO__S ~ T
+TD248 attempt 4 FLEET n n n n m
+TD368 ? ␅
+TD215302 ␆
+TD99 ? 
+TD118 question done
+TD288 > ␅
+TD495440 ␆*
+TD100 > *
+TD742729 questioning: ["olive", "#3"]
+TD192 #1 C____ ~AR -EFLNOPSTV  📋 "olive" ? ␅
+TD3833072 ␆.
+TD67 #1 C____ ~AR -EFLNOPSTV  📋 "olive" ? .
+TD175 attempt 0 OLIVE n n n n n
+TD66 #2 _____ ~AR -CEFLNOPSTV  📋 "olive" ? ␅
+TD2639645 ␆_____ ~ ARI
+TD95 #2 _____ ~AR -CEFLNOPSTV  📋 "olive" ? _____ ~ ARI
+TD252 attempt 1 OLIVE n n m n n
+TD152 #3 _L___ ~EOV -ACFNPRST  📋 "olive" ? ␅
+TD639354 ␆/it
+TD74 #3 _L___ ~EOV -ACFNPRST  📋 "olive" ? /it
+TD178 attempt 2 OLIVE Y Y Y Y Y
+TD67 #5 TO__S -ACEFLNPRV  📋 "olive" ? ␅
+TD2359956 ␆TO__S ~ T
+TD99 #5 TO__S -ACEFLNPRV  📋 "olive" ? TO__S ~ T
+TD235 attempt 4 OLIVE n n n n n
+TD360 ? ␅
+TD191151 ␆
+TD124 ? 
+TD124 question done
+TD278 > ␅
+TD551616 ␆*
+TD98 > *
+TD1838909 questioning: ["radii", "#2"]
+TD195 #1 C____ ~AR -EFILNOPSTV  📋 "radii" ? ␅
+TD5792846 ␆C____ ~ ARD
+TD99 #1 C____ ~AR -EFILNOPSTV  📋 "radii" ? C____ ~ ARD
+TD240 attempt 0 RADII m m m n n
+TD152 #2 _____ ~AIR -CEFLNOPSTV  📋 "radii" ? ␅
+TD1991548 ␆/it
+TD95 #2 _____ ~AIR -CEFLNOPSTV  📋 "radii" ? /it
+TD246 attempt 1 RADII Y Y Y Y Y
+TD101 #5 TO__S -ACEFILNOPRV  📋 "radii" ? ␅
+TD3055453 ␆TO__S ~ T
+TD84 #5 TO__S -ACEFILNOPRV  📋 "radii" ? TO__S ~ T
+TD181 attempt 4 RADII n n n n n
+TD221 ? ␅
+TD199642 ␆
+TD100 ? 
+TD124 question done
+TD318 > ␅
+TD575319 ␆*
+TD93 > *
+TD1337774 questioning: ["chard", "#1"]
+TD187 #1 C____ ~ADR -EFILNOPSTV  📋 "chard" ? ␅
+TD2510186 ␆/it
+TD75 #1 C____ ~ADR -EFILNOPSTV  📋 "chard" ? /it
+TD175 attempt 0 CHARD Y Y Y Y Y
+TD69 #5 TO__S -ACDEFILNOPRV  📋 "chard" ? ␅
+TD2831561 ␆TO__S ~ T
+TD97 #5 TO__S -ACDEFILNOPRV  📋 "chard" ? TO__S ~ T
+TD247 attempt 4 CHARD n n n n n
+TD358 ? ␅
+TD167338 ␆
+TD93 ? 
+TD117 question done
+TD309 > ␅
+TD543442 ␆*
+TD86 > *
+TD956192 questioning: ["touts", "#5"]
+TD275 #5 TO__S -ACDEFHILNOPRV  📋 "touts" ? ␅
+TD2499410 ␆/it
+TD117 #5 TO__S -ACDEFHILNOPRV  📋 "touts" ? /it
+TD324 attempt 4 TOUTS Y Y Y Y Y
+TD293 ? ␅
+TD679319 ␆
+TD113 ? 
+TD137 question done
+TD22310 📋> ␅
+TD4770148 ␆squareword.org 1503: 8 guesses
+TD98 📋> squareword.org 1503: 8 guesses
+TD57 📋> ␅
+TD45 ␆
+TD6 📋> 
+TD13 📋> ␅
+TD16 ␆🟩🟨🟨🟨🟨
+TD6 📋> 🟩🟨🟨🟨🟨
+TD11 📋> ␅
+TD11 ␆🟨🟨🟨🟨🟨
+TD5 📋> 🟨🟨🟨🟨🟨
+TD11 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD10 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD10 ␆🟩🟩🟨🟨🟩
+TD4 📋> 🟩🟩🟨🟨🟩
+TD9 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD11 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD10 📋> ␅
+TD311154 ␆#squareword #squareword1503
+TD95 📋> #squareword #squareword1503
+TD48 📋> ␅
+TD191637 ␄
+TD155 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1503: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1503"}
+TD751 result: "squareword.org 1503: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1503"
+TD66 📆 2026-03-14 ? ␅
+TD183011 ␆
+TD65 📆 2026-03-14 ? 
