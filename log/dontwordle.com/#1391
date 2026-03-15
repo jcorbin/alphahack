@@ -1,0 +1,165 @@
+T79957.33905978099 now: 2026-03-15T08:11:26EDT
+TD104 site: dontwordle.com
+TD51 wordlist: nwl2023.txt
+TD26  ...␅
+TD149703 ␆
+TD105  ...
+TD234 1> ␅
+TD5463665 ␆* -bot 10
+TD100 1> * -bot 10
+TD323496 ? ␅
+TD1964540 ␆
+TD102 ? 
+TD1749 ? ␅
+TD358138 ␆1
+TD104 ? 1
+TD550 📋 "earns" ? ␅
+TD4783600 ␆nnnnM
+TD108 📋 "earns" ? nnnnM
+TD781 tried: EARNS n n n n m
+TD255 2> ␅
+TD2535322 ␆undo
+TD95 2> undo
+TD150 undo
+TD278 1> ␅
+TD6887057 ␆* :v [earns] -bot 10
+TD98 1> * :v [earns] -bot 10
+TD138738 ? ␅
+TD2429219 ␆4
+TD84 ? 4
+TD199 📋 "cloth" ? ␅
+TD5431803 ␆nnnnn
+TD102 📋 "cloth" ? nnnnn
+TD207 tried: CLOTH n n n n n
+TD184 2> ␅
+TD6583565 ␆undo
+TD110 2> undo
+TD143 undo
+TD119 1> ␅
+TD2599910 ␆*
+TD98 1> *
+TD129674 ? ␅
+TD686052 ␆1
+TD98 ? 1
+TD226 📋 "yukky" ? ␅
+TD4775225 ␆nnnnY
+TD94 📋 "yukky" ? nnnnY
+TD202 tried: YUKKY n n n n Y
+TD176 2> ␅
+TD640013 ␆undo
+TD101 2> undo
+TD139 undo
+TD127 1> ␅
+TD2471511 ␆*
+TD101 1> *
+TD117153 ? ␅
+TD714792 ␆1
+TD99 ? 1
+TD225 📋 "butut" ? ␅
+TD4639673 ␆nnnnn
+TD104 📋 "butut" ? nnnnn
+TD198 tried: BUTUT n n n n n
+TD143 2> ␅
+TD351171 ␆*
+TD99 2> *
+TD104292 ? ␅
+TD399975 ␆1
+TD102 ? 1
+TD205 📋 "erred" ? ␅
+TD5095602 ␆nnnnn
+TD104 📋 "erred" ? nnnnn
+TD209 tried: ERRED n n n n n
+TD184 3> ␅
+TD2103718 ␆*
+TD104 3> *
+TD92035 ? ␅
+TD787446 ␆1
+TD100 ? 1
+TD230 📋 "villi" ? ␅
+TD4944333 ␆nYnnn
+TD121 📋 "villi" ? nYnnn
+TD205 tried: VILLI n Y n n n
+TD208 4> ␅
+TD638940 ␆undo
+TD97 4> undo
+TD111 undo
+TD153 3> ␅
+TD2895597 ␆*
+TD110 3> *
+TD95188 ? ␅
+TD825476 ␆1
+TD95 ? 1
+TD244 📋 "glogg" ? ␅
+TD5967228 ␆nnnnn
+TD102 📋 "glogg" ? nnnnn
+TD218 tried: GLOGG n n n n n
+TD190 4> ␅
+TD423674 ␆*
+TD94 4> *
+TD89615 ? ␅
+TD590256 ␆1
+TD79 ? 1
+TD176 📋 "qajaq" ? ␅
+TD5183853 ␆nnnnn
+TD99 📋 "qajaq" ? nnnnn
+TD206 tried: QAJAQ n n n n n
+TD225 5> ␅
+TD391746 ␆*
+TD118 5> *
+TD189284 📋 "nymph" ? ␅
+TD8898673 ␆nMnYn
+TD97 📋 "nymph" ? nMnYn
+TD198 tried: NYMPH n m n Y n
+TD192 6> ␅
+TD454789 ␆*
+TD78 6> *
+TD195668 📋 "zippy" ? ␅
+TD5260333 ␆nYnYY
+TD109 📋 "zippy" ? nYnYY
+TD199 tried: ZIPPY n Y n Y Y
+TD268 📋> ␅
+TD3408144 ␆Don't Wordle 1391 - SURVIVED
+TD97 📋> Don't Wordle 1391 - SURVIVED
+TD13 📋> ␅
+TD47 ␆Hooray! I didn't Wordle today!
+TD7 📋> Hooray! I didn't Wordle today!
+TD6 📋> ␅
+TD17 ␆⬜⬜⬜⬜⬜7042
+TD6 📋> ⬜⬜⬜⬜⬜7042
+TD5 📋> ␅
+TD16 ␆⬜⬜⬜⬜⬜2086
+TD5 📋> ⬜⬜⬜⬜⬜2086
+TD5 📋> ␅
+TD12 ␆⬜⬜⬜⬜⬜611
+TD4 📋> ⬜⬜⬜⬜⬜611
+TD4 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜167
+TD4 📋> ⬜⬜⬜⬜⬜167
+TD4 📋> ␅
+TD12 ␆⬜🟨⬜🟩⬜5
+TD5 📋> ⬜🟨⬜🟩⬜5
+TD4 📋> ␅
+TD11 ␆⬜🟩⬜🟩🟩1
+TD4 📋> ⬜🟩⬜🟩🟩1
+TD4 📋> ␅
+TD11 ␆Undos used: 4
+TD5 📋> Undos used: 4
+TD5 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD11 ␆  1 words remaining
+TD5 📋>   1 words remaining
+TD5 📋> ␅
+TD11 ␆x 7 unused letters
+TD5 📋> x 7 unused letters
+TD4 📋> ␅
+TD359060 ␆= 7 total score
+TD100 📋> = 7 total score
+TD12 📋> ␅
+TD223716 ␄
+TD336 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1391 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7042\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2086\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c611\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c167\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c5\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"}
+TD1036 result: "Don't Wordle 1391 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7042\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2086\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c611\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c167\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c5\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TD82 📆 2026-03-15 ? ␅
+TD198546 ␆
+TD100 📆 2026-03-15 ? 
