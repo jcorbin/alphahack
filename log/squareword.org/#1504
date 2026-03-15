@@ -1,0 +1,246 @@
+T80726.393730048 now: 2026-03-15T08:24:15EDT
+TD118 site: squareword.org
+TD24 wordlist: nwl2023.txt
+TD22  ...␅
+TD134592 ␆
+TD32  ...
+TD54 🧩  ? ␅
+TD7528082 ␆#1504
+TD74 🧩  ? #1504
+TD292 puzzle_id: #1504
+TD330 > ␅
+TD1079261 ␆*
+TD80 > *
+TD284817 try? ␅
+TD707938 ␆1
+TD99 try? 1
+TD500 questioning: ["tears", "#5"]
+TD304 #1 <IndexError>  📋 "tears" ? ␅
+TD26822560 ␆_____ ~ TEAS
+TD107 #1 <IndexError>  📋 "tears" ? _____ ~ TEAS
+TD715 attempt 0 TEARS m m m n m
+TD82 #2 <IndexError>  📋 "tears" ? ␅
+TD1783060 ␆_____ ~ AR
+TD80 #2 <IndexError>  📋 "tears" ? _____ ~ AR
+TD192 attempt 1 TEARS n n m m n
+TD94 #3 <IndexError>  📋 "tears" ? ␅
+TD3879721 ␆__A__ ~ TER
+TD76 #3 <IndexError>  📋 "tears" ? __A__ ~ TER
+TD196 attempt 2 TEARS m m Y m n
+TD87 #4 <IndexError>  📋 "tears" ? ␅
+TD2199692 ␆_____ ~ EAR
+TD79 #4 <IndexError>  📋 "tears" ? _____ ~ EAR
+TD190 attempt 3 TEARS n m m m n
+TD85 #5 <IndexError>  📋 "tears" ? ␅
+TD3535714 ␆_E_RS ~ E
+TD83 #5 <IndexError>  📋 "tears" ? _E_RS ~ E
+TD201 attempt 4 TEARS n Y n Y Y
+TD284 ? ␅
+TD279642 ␆
+TD76 ? 
+TD114 question done
+TD189 > ␅
+TD687247 ␆*
+TD76 > *
+TD967588 try? ␅
+TD1152838 ␆1
+TD99 try? 1
+TD301 questioning: ["crate", "#3"]
+TD337 #1 _____ ~AEST -R  📋 "crate" ? ␅
+TD3495583 ␆.
+TD97 #1 _____ ~AEST -R  📋 "crate" ? .
+TD276 attempt 0 CRATE n n m m m
+TD97 #2 _____ ~AR -EST  📋 "crate" ? ␅
+TD806857 ␆.
+TD100 #2 _____ ~AR -EST  📋 "crate" ? .
+TD283 attempt 1 CRATE n m m n n
+TD95 #3 __A__ ~ERT -S  📋 "crate" ? ␅
+TD1472223 ␆_RATE
+TD98 #3 __A__ ~ERT -S  📋 "crate" ? _RATE
+TD251 attempt 2 CRATE n Y Y Y Y
+TD148 #4 _____ ~AER -ST  📋 "crate" ? ␅
+TD3166884 ␆____E ~ EAR
+TD75 #4 _____ ~AER -ST  📋 "crate" ? ____E ~ EAR
+TD194 attempt 3 CRATE n m m n Y
+TD286 #5 _E_RS -AT  📋 "crate" ? ␅
+TD4080325 ␆_E_RS ~ E
+TD103 #5 _E_RS -AT  📋 "crate" ? _E_RS ~ E
+TD260 attempt 4 CRATE n n n n m
+TD347 ? ␅
+TD358537 ␆
+TD107 ? 
+TD131 question done
+TD283 > ␅
+TD1039773 ␆*
+TD99 > *
+TD791716 try? ␅
+TD6416500 ␄
+TD155 <EOF>
+TD368 > ␅
+TD1014744 ␆* 1
+TD98 > * 1
+TD2765 try? ␅
+TD2461289 ␆1
+TD107 try? 1
+TD284 questioning: ["sated", "#1"]
+TD345 #1 _____ ~AEST -CR  📋 "sated" ? ␅
+TD5655946 ␆___E_ ~ TAS
+TD84 #1 _____ ~AEST -CR  📋 "sated" ? ___E_ ~ TAS
+TD194 attempt 0 SATED m m m Y n
+TD118 #2 _____ ~AR -CEST  📋 "sated" ? ␅
+TD1015298 ␆.
+TD104 #2 _____ ~AR -CEST  📋 "sated" ? .
+TD271 attempt 1 SATED n m n n n
+TD94 #3 _RATE -CS  📋 "sated" ? ␅
+TD1439122 ␆.
+TD100 #3 _RATE -CS  📋 "sated" ? .
+TD260 attempt 2 SATED n n n n n
+TD94 #4 ____E ~AR -CST  📋 "sated" ? ␅
+TD5175701 ␆___EE ~ AR
+TD101 #4 ____E ~AR -CST  📋 "sated" ? ___EE ~ AR
+TD260 attempt 3 SATED n m n Y n
+TD147 #5 _E_RS -ACRT  📋 "sated" ? ␅
+TD3063557 ␆_E_RS ~ E
+TD107 #5 _E_RS -ACRT  📋 "sated" ? _E_RS ~ E
+TD244 attempt 4 SATED n n n m n
+TD322 ? ␅
+TD239269 ␆
+TD100 ? 
+TD131 question done
+TD312 > ␅
+TD855352 ␆*
+TD104 > *
+TD627283 questioning: ["asset", "#1"]
+TD175 #1 ___E_ ~AST -CDR  📋 "asset" ? ␅
+TD3476479 ␆/it
+TD86 #1 ___E_ ~AST -CDR  📋 "asset" ? /it
+TD202 attempt 0 ASSET Y Y Y Y Y
+TD73 #2 _____ ~AR -CDEST  📋 "asset" ? ␅
+TD1175609 ␆.
+TD105 #2 _____ ~AR -CDEST  📋 "asset" ? .
+TD261 attempt 1 ASSET m n n n n
+TD98 #3 _RATE -ACDEST  📋 "asset" ? ␅
+TD1519580 ␆.
+TD78 #3 _RATE -ACDEST  📋 "asset" ? .
+TD184 attempt 2 ASSET n n n n n
+TD65 #4 ___EE ~AR -CDST  📋 "asset" ? ␅
+TD2687864 ␆A__EE ~ R
+TD95 #4 ___EE ~AR -CDST  📋 "asset" ? A__EE ~ R
+TD247 attempt 3 ASSET Y n n Y n
+TD144 #5 _E_RS -ACDRST  📋 "asset" ? ␅
+TD3216265 ␆_E_RS ~ E
+TD101 #5 _E_RS -ACDRST  📋 "asset" ? _E_RS ~ E
+TD178 attempt 4 ASSET n n n m n
+TD227 ? ␅
+TD407417 ␆
+TD116 ? 
+TD122 question done
+TD310 > ␅
+TD1023688 ␆*
+TD84 > *
+TD1392168 questioning: ["agree", "#4"]
+TD188 #2 _____ ~AR -CDEST  📋 "agree" ? ␅
+TD5606739 ␆.
+TD96 #2 _____ ~AR -CDEST  📋 "agree" ? .
+TD259 attempt 1 AGREE m n m n n
+TD101 #3 _RATE -ACDEST  📋 "agree" ? ␅
+TD4039723 ␆_RATE ~ G
+TD101 #3 _RATE -ACDEST  📋 "agree" ? _RATE ~ G
+TD256 attempt 2 AGREE n m n n Y
+TD180 #4 A__EE ~R -CDST  📋 "agree" ? ␅
+TD631786 ␆/it
+TD85 #4 A__EE ~R -CDST  📋 "agree" ? /it
+TD226 attempt 3 AGREE Y Y Y Y Y
+TD72 #5 _E_RS -ACDRST  📋 "agree" ? ␅
+TD2391793 ␆_E_RS ~ E
+TD101 #5 _E_RS -ACDRST  📋 "agree" ? _E_RS ~ E
+TD249 attempt 4 AGREE n n n m m
+TD369 ? ␅
+TD750737 ␆
+TD94 ? 
+TD95 question done
+TD199 > ␅
+TD3327524 ␆*
+TD100 > *
+TD1364376 questioning: ["lunar", "#2"]
+TD205 #2 _____ ~AR -CDEGST  📋 "lunar" ? ␅
+TD3579218 ␆/it
+TD84 #2 _____ ~AR -CDEGST  📋 "lunar" ? /it
+TD191 attempt 1 LUNAR Y Y Y Y Y
+TD66 #3 _RATE ~G -ACDRST  📋 "lunar" ? ␅
+TD3415853 ␆_RATE ~ G
+TD96 #3 _RATE ~G -ACDRST  📋 "lunar" ? _RATE ~ G
+TD247 attempt 2 LUNAR n n n n n
+TD149 #5 _E_RS -ACDGRST  📋 "lunar" ? ␅
+TD4263810 ␆LE_RS ~ E
+TD102 #5 _E_RS -ACDGRST  📋 "lunar" ? LE_RS ~ E
+TD287 attempt 4 LUNAR Y n n n n
+TD287 ? ␅
+TD335377 ␆
+TD99 ? 
+TD140 question done
+TD306 > ␅
+TD5055569 ␆*
+TD116 > *
+TD1502444 questioning: ["grate", "#3"]
+TD196 #3 _RATE ~G -ACDLNRSTU  📋 "grate" ? ␅
+TD2720789 ␆/it
+TD99 #3 _RATE ~G -ACDLNRSTU  📋 "grate" ? /it
+TD255 attempt 2 GRATE Y Y Y Y Y
+TD102 #5 LE_RS -ACDGNRSTU  📋 "grate" ? ␅
+TD6935813 ␆LE_RS ~ E
+TD97 #5 LE_RS -ACDGNRSTU  📋 "grate" ? LE_RS ~ E
+TD251 attempt 4 GRATE n n n n m
+TD335 ? ␅
+TD239286 ␆
+TD101 ? 
+TD125 question done
+TD268 > ␅
+TD535813 ␆*
+TD101 > *
+TD1136007 questioning: ["leers", "#5"]
+TD201 #5 LE_RS -ACDGNRSTU  📋 "leers" ? ␅
+TD4879333 ␆/it
+TD96 #5 LE_RS -ACDGNRSTU  📋 "leers" ? /it
+TD259 attempt 4 LEERS Y Y Y Y Y
+TD325 ? ␅
+TD1279450 ␆
+TD96 ? 
+TD124 question done
+TD31396 📋> ␅
+TD5240900 ␆squareword.org 1504: 8 guesses
+TD95 📋> squareword.org 1504: 8 guesses
+TD14 📋> ␅
+TD60 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD23 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD17 ␆🟨🟨🟨🟨🟨
+TD5 📋> 🟨🟨🟨🟨🟨
+TD5 📋> ␅
+TD17 ␆🟨🟩🟩🟩🟩
+TD4 📋> 🟨🟩🟩🟩🟩
+TD5 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD15 ␆🟨🟩🟨🟩🟩
+TD4 📋> 🟨🟩🟨🟩🟩
+TD4 📋> ␅
+TD15 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD17 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD271001 ␆#squareword #squareword1504
+TD97 📋> #squareword #squareword1504
+TD13 📋> ␅
+TD159925 ␄
+TD239 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1504: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1504"}
+TD1123 result: "squareword.org 1504: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1504"
+TD80 📆 2026-03-15 ? ␅
+TD142374 ␆
+TD84 📆 2026-03-15 ? 
