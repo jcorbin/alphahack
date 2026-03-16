@@ -1,0 +1,247 @@
+T78819.85220160402 now: 2026-03-16T07:57:18EDT
+TD81 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD24  ...␅
+TD5135169 ␆
+TD98  ...
+TD86 🧩  ? ␅
+TD2791763 ␆#1505
+TD112 🧩  ? #1505
+TD288 puzzle_id: #1505
+TD299 > ␅
+TD1423304 ␆*
+TD94 > *
+TD257468 try? ␅
+TD926910 ␆1
+TD99 try? 1
+TD317 questioning: ["arles", "#5"]
+T8.052830897970125 now: 2026-03-16T07:57:45EDT
+TD109 questioning: ["arles", "#5"]
+TD152 #1 <IndexError>  📋 "arles" ? ␅
+TD5324796 ␆_____ ~ ARS
+TD102 #1 <IndexError>  📋 "arles" ? _____ ~ ARS
+TD813 attempt 0 ARLES m m n n m
+TD133 #2 <IndexError>  📋 "arles" ? ␅
+TD3270197 ␆AR___ ~ A
+TD99 #2 <IndexError>  📋 "arles" ? AR___ ~ A
+TD285 attempt 1 ARLES Y Y n n n
+TD147 #3 <IndexError>  📋 "arles" ? ␅
+TD2111521 ␆_____ ~ ARL
+TD98 #3 <IndexError>  📋 "arles" ? _____ ~ ARL
+TD248 attempt 2 ARLES m m m n n
+TD126 #4 <IndexError>  📋 "arles" ? ␅
+TD2143730 ␆____S ~ E
+TD101 #4 <IndexError>  📋 "arles" ? ____S ~ E
+TD267 attempt 3 ARLES n n n m Y
+TD121 #5 <IndexError>  📋 "arles" ? ␅
+TD2079441 ␆_____ ~ ES
+TD101 #5 <IndexError>  📋 "arles" ? _____ ~ ES
+TD260 attempt 4 ARLES n n n m m
+TD341 ? ␅
+TD335979 ␆
+TD100 ? 
+TD161 question done
+TD325 > ␅
+TD1239055 ␆*
+TD91 > *
+TD897271 try? ␅
+TD3014881 ␆1
+TD99 try? 1
+TD323 questioning: ["argot", "#2"]
+TD339 #1 _____ ~ARS -EL  📋 "argot" ? ␅
+TD2839830 ␆.
+TD102 #1 _____ ~ARS -EL  📋 "argot" ? .
+TD286 attempt 0 ARGOT m m n n n
+TD98 #2 AR___ -ELS  📋 "argot" ? ␅
+TD4126915 ␆AR___ ~ AO
+TD104 #2 AR___ -ELS  📋 "argot" ? AR___ ~ AO
+TD243 attempt 1 ARGOT Y Y n m n
+TD140 #3 _____ ~ALR -ES  📋 "argot" ? ␅
+TD2975338 ␆___O_ ~ ARL
+TD98 #3 _____ ~ALR -ES  📋 "argot" ? ___O_ ~ ARL
+TD255 attempt 2 ARGOT m m n Y n
+TD144 #4 ____S ~E -ALR  📋 "argot" ? ␅
+TD2120108 ␆l'
+TD100 #4 ____S ~E -ALR  📋 "argot" ? l'
+TD334 #4 ____S ~E -ALR  ? ␅
+TD2294865 ␆.
+TD98 #4 ____S ~E -ALR  ? .
+TD269 attempt 3 ARGOT n n n n n
+TD93 #5 _____ ~ES -ALR  📋 "argot" ? ␅
+TD4167577 ␆_____ ~ esg
+TD79 #5 _____ ~ES -ALR  📋 "argot" ? _____ ~ esg
+TD181 attempt 4 ARGOT n n m n n
+TD209 ? ␅
+TD407732 ␆
+TD98 ? 
+TD120 question done
+TD307 > ␅
+TD671437 ␆*
+TD94 > *
+TD575137 try? ␅
+TD1904774 ␆2
+TD80 try? 2
+TD229 questioning: ["aroma", "#2"]
+TD206 #1 _____ ~ARS -EGLOT  📋 "aroma" ? ␅
+TD2839574 ␆.
+TD96 #1 _____ ~ARS -EGLOT  📋 "aroma" ? .
+TD263 attempt 0 AROMA m m n n m
+TD100 #2 AR___ ~O -EGLST  📋 "aroma" ? ␅
+TD703405 ␆/it
+TD79 #2 AR___ ~O -EGLST  📋 "aroma" ? /it
+TD190 attempt 1 AROMA Y Y Y Y Y
+TD65 #3 ___O_ ~ALR -EGST  📋 "aroma" ? ␅
+TD1903725 ␆.
+TD98 #3 ___O_ ~ALR -EGST  📋 "aroma" ? .
+TD259 attempt 2 AROMA m m n n m
+TD98 #4 ____S ~E -AGLORT  📋 "aroma" ? ␅
+TD959652 ␆.
+TD96 #4 ____S ~E -AGLORT  📋 "aroma" ? .
+TD260 attempt 3 AROMA n n n n n
+TD98 #5 _____ ~EGS -ALORT  📋 "aroma" ? ␅
+TD919548 ␆.
+TD92 #5 _____ ~EGS -ALORT  📋 "aroma" ? .
+TD260 attempt 4 AROMA n n n n n
+TD291 ? ␅
+TD159532 ␆
+TD47 ? 
+TD71 question done
+TD256 > ␅
+TD471432 ␆*
+TD73 > *
+TD712008 try? ␅
+TD1048001 ␆1
+TD98 try? 1
+TD301 questioning: ["carol", "#3"]
+TD361 #1 _____ ~ARS -EGLMOT  📋 "carol" ? ␅
+TD6543988 ␆__R__ ~ ASC
+TD109 #1 _____ ~ARS -EGLMOT  📋 "carol" ? __R__ ~ ASC
+TD286 attempt 0 CAROL m m Y n n
+TD155 #3 ___O_ ~ALR -EGMOST  📋 "carol" ? ␅
+TD3319101 ␆_A_O_ ~ RL
+TD97 #3 ___O_ ~ALR -EGMOST  📋 "carol" ? _A_O_ ~ RL
+TD193 attempt 2 CAROL n Y m Y m
+TD99 #4 ____S ~E -AGLMORT  📋 "carol" ? ␅
+TD935295 ␆.
+TD94 #4 ____S ~E -AGLMORT  📋 "carol" ? .
+TD268 attempt 3 CAROL n n n n n
+TD95 #5 _____ ~EGS -ALMORT  📋 "carol" ? ␅
+TD1007718 ␆.
+TD98 #5 _____ ~EGS -ALMORT  📋 "carol" ? .
+TD283 attempt 4 CAROL n n n n n
+TD297 ? ␅
+TD175610 ␆
+TD65 ? 
+TD76 question done
+TD467 > ␅
+TD719092 ␆*
+TD94 > *
+TD963410 questioning: ["scrap", "#1"]
+TD184 #1 __R__ ~ACS -EGLMOT  📋 "scrap" ? ␅
+TD3252992 ␆/it
+TD100 #1 __R__ ~ACS -EGLMOT  📋 "scrap" ? /it
+TD250 attempt 0 SCRAP Y Y Y Y Y
+TD97 #3 _A_O_ ~LR -CEGMST  📋 "scrap" ? ␅
+TD2071021 ␆.
+TD109 #3 _A_O_ ~LR -CEGMST  📋 "scrap" ? .
+TD272 attempt 2 SCRAP n n m n n
+TD138 #4 ____S ~E -ACGLMORT  📋 "scrap" ? ␅
+TD1487501 ␆.
+TD91 #4 ____S ~E -ACGLMORT  📋 "scrap" ? .
+TD341 attempt 3 SCRAP n n n n n
+TD125 #5 _____ ~EGS -ACLMORT  📋 "scrap" ? ␅
+TD2479472 ␆S____ ~ EG
+TD95 #5 _____ ~EGS -ACLMORT  📋 "scrap" ? S____ ~ EG
+TD259 attempt 4 SCRAP Y n n n n
+TD332 ? ␅
+TD775233 ␆
+TD100 ? 
+TD130 question done
+TD317 > ␅
+TD639362 ␆*'
+TD93 > *'
+TD677 > ␅
+TD1207373 ␆*
+TD106 > *
+TD1676692 questioning: ["labor", "#3"]
+TD238 #3 _A_O_ ~LR -ACEGMPST  📋 "labor" ? ␅
+TD2762746 ␆/it
+TD80 #3 _A_O_ ~LR -ACEGMPST  📋 "labor" ? /it
+TD183 attempt 2 LABOR Y Y Y Y Y
+TD69 #4 ____S ~E -ACGLMOPRST  📋 "labor" ? ␅
+TD1192345 ␆.
+TD97 #4 ____S ~E -ACGLMOPRST  📋 "labor" ? .
+TD263 attempt 3 LABOR n n n n n
+TD99 #5 S____ ~EG -ACLMOPRT  📋 "labor" ? ␅
+TD903916 ␆.
+TD97 #5 S____ ~EG -ACLMOPRT  📋 "labor" ? .
+TD272 attempt 4 LABOR n n n n n
+TD258 ? ␅
+TD174661 ␆
+TD103 ? 
+TD114 question done
+TD316 > ␅
+TD17311770 ␆*
+TD94 > *
+TD1417236 questioning: ["evens", "#4"]
+TD191 #4 ____S ~E -ABCGLMOPRST  📋 "evens" ? ␅
+TD3678426 ␆/it
+TD83 #4 ____S ~E -ABCGLMOPRST  📋 "evens" ? /it
+TD183 attempt 3 EVENS Y Y Y Y Y
+TD66 #5 S____ ~EG -ABCLMOPRT  📋 "evens" ? ␅
+TD1760700 ␆.
+TD69 #5 S____ ~EG -ABCLMOPRT  📋 "evens" ? .
+TD182 attempt 4 EVENS m n m n n
+TD180 ? ␅
+TD327065 ␆
+TD102 ? 
+TD116 question done
+TD326 > ␅
+TD1079107 ␆*
+TD92 > *
+TD978668 questioning: ["sedge", "#5"]
+TD193 #5 S____ ~EG -ABCLMNOPRSTV  📋 "sedge" ? ␅
+TD4469940 ␆/it
+TD106 #5 S____ ~EG -ABCLMNOPRSTV  📋 "sedge" ? /it
+TD267 attempt 4 SEDGE Y Y Y Y Y
+TD295 ? ␅
+TD774537 ␆
+TD104 ? 
+TD115 question done
+TD22507 📋> ␅
+TD3985607 ␆squareword.org 1505: 8 guesses
+TD98 📋> squareword.org 1505: 8 guesses
+TD17 📋> ␅
+TD52 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟩🟨🟩🟨
+TD5 📋> 🟨🟩🟨🟩🟨
+TD4 📋> ␅
+TD10 ␆🟨🟨🟨🟨🟩
+TD4 📋> 🟨🟨🟨🟨🟩
+TD4 📋> ␅
+TD10 ␆🟩🟨🟨🟨🟨
+TD4 📋> 🟩🟨🟨🟨🟨
+TD4 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD311248 ␆#squareword #squareword1505
+TD100 📋> #squareword #squareword1505
+TD13 📋> ␅
+TD271893 ␄
+TD170 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1505: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1505"}
+TD1007 result: "squareword.org 1505: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1505"
+TD69 📆 2026-03-16 ? ␅
+TD174799 ␆
+TD76 📆 2026-03-16 ? 
