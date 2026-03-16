@@ -1,0 +1,78 @@
+T78288.716742866 now: 2026-03-16T07:48:26EDT
+TD122 site: alphaguess.com
+TD171267 loaded 196525 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (79 words excluded) asof 824cdd74ec74a802b6f52d6f149bf0a218630e04
+TD117  ...␅
+TD2909 ␆
+TD25  ...
+TD94 [0 : 98218 : 196525] mach? ␅
+TD4456355 ␆b
+TD101 [0 : 98218 : 196525] mach? b
+TD113 progress: -1 98218 mach
+TD113 [0 : 47381 : 98218] dis? ␅
+TD1647479 ␆b
+TD100 [0 : 47381 : 98218] dis? b
+TD107 progress: -1 47381 dis
+TD117 [0 : 23682 : 47381] camp? ␅
+TD1375650 ␆b
+TD108 [0 : 23682 : 47381] camp? b
+TD107 progress: -1 23682 camp
+TD107 [0 : 11764 : 23682] back? ␅
+TD1352436 ␆a
+TD117 [0 : 11764 : 23682] back? a
+TD106 progress: 1 11764 back
+TD105 [11765 : 17715 : 23682] blind? ␅
+TD2422990 ␆b
+TD101 [11765 : 17715 : 23682] blind? b
+TD108 progress: -1 17715 blind
+TD125 [11765 : 13802 : 17715] be? ␅
+TD3463908 ␆a
+TD99 [11765 : 13802 : 17715] be? a
+TD105 progress: 1 13802 be
+TD173 [13803 : 15758 : 17715] bewrap? ␅
+TD2111699 ␆a
+TD103 [13803 : 15758 : 17715] bewrap? a
+TD104 progress: 1 15758 bewrap
+TD108 [15759 : 16728 : 17715] bios? ␅
+TD2855883 ␆a
+TD100 [15759 : 16728 : 17715] bios? a
+TD102 progress: 1 16728 bios
+TD228 [16729 : 17210 : 17715] blab? ␅
+TD3743496 ␆a
+TD98 [16729 : 17210 : 17715] blab? a
+TD101 progress: 1 17210 blab
+TD179 [17211 : 17459 : 17715] blarney? ␅
+TD1591241 ␆a
+TD97 [17211 : 17459 : 17715] blarney? a
+TD100 progress: 1 17459 blarney
+TD135 [17460 : 17585 : 17715] bleak? ␅
+TD1576428 ␆b
+TD82 [17460 : 17585 : 17715] bleak? b
+TD79 progress: -1 17585 bleak
+TD78 [17460 : 17475 : 17585] blast? ␅
+TD2583020 ␆it
+TD97 [17460 : 17475 : 17585] blast? it
+TD108 progress: 0 17475 blast
+TD26 [17460 : 17475 : 17585] <Done>.
+TD86 📋> ␅
+TD2488703 ␆🧩 Puzzle #966
+TD95 📋> 🧩 Puzzle #966
+TD12 📋> ␅
+TD40 ␆🤔 12 guesses
+TD5 📋> 🤔 12 guesses
+TD5 📋> ␅
+TD12 ␆⏱️ 23s
+TD5 📋> ⏱️ 23s
+TD4 📋> ␅
+TD271000 ␆🔗 alphaguess.com/966
+TD96 📋> 🔗 alphaguess.com/966
+TD12 📋> ␅
+TD200555 ␄
+TD187 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #966\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/966"}
+TD98 result: "\ud83e\udde9 Puzzle #966\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/966"
+TD16 result puzzle: 966
+TD7 result guesses: 12
+TD6 result time: 23s
+TD5 result link: alphaguess.com/966
+TD95 📆 2026-03-16 ? ␅
+TD271227 ␆
+TD101 📆 2026-03-16 ? 
