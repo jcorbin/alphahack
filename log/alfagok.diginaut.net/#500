@@ -1,0 +1,76 @@
+T16.90054099698318 now: 2026-03-17T07:57:29EDT
+TD66 site: alfagok.diginaut.net
+TD311493 loaded 399628 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1224 words excluded) asof 2221f71f107c2d305ae32dadc61ece9676d8c562
+TD114  ...␅
+TD26 ␆
+TD2  ...
+TD105 [0 : 199609 : 399628] lij? ␅
+TD863596 ␆
+TD72 [0 : 199609 : 399628] lij? 
+TD96 [0 : 199609 : 399628] lij? ␅
+TD6191898 ␆
+TD81 [0 : 199609 : 399628] lij? 
+TD144 [0 : 199609 : 399628] lij? ␅
+TD847675 ␆a
+TD96 [0 : 199609 : 399628] lij? a
+TD360 progress: 1 199609 lij
+TD105 [199610 : 299483 : 399628] schro? ␅
+TD1847558 ␆b
+TD104 [199610 : 299483 : 399628] schro? b
+TD126 progress: -1 299483 schro
+TD123 [199610 : 247696 : 299483] op? ␅
+TD1831691 ␆a
+TD99 [199610 : 247696 : 299483] op? a
+TD160 progress: 1 247696 op
+TD138 [247697 : 273501 : 299483] proef? ␅
+TD1663579 ␆a
+TD96 [247697 : 273501 : 299483] proef? a
+TD112 progress: 1 273501 proef
+TD108 [273502 : 286485 : 299483] rijns? ␅
+TD1871727 ␆b
+TD97 [273502 : 286485 : 299483] rijns? b
+TD116 progress: -1 286485 rijns
+TD116 [273502 : 279767 : 286485] rechts? ␅
+TD2016266 ␆b
+TD97 [273502 : 279767 : 286485] rechts? b
+TD107 progress: -1 279767 rechts
+TD109 [273502 : 276630 : 279767] quarantaine? ␅
+TD1550881 ␆a
+TD98 [273502 : 276630 : 279767] quarantaine? a
+TD105 progress: 1 276630 quarantaine
+TD108 [276631 : 278111 : 279767] ram? ␅
+TD1719953 ␆b
+TD125 [276631 : 278111 : 279767] ram? b
+TD102 progress: -1 278111 ram
+TD77 [276631 : 277313 : 278111] rad? ␅
+TD1711714 ␆b
+TD118 [276631 : 277313 : 278111] rad? b
+TD89 progress: -1 277313 rad
+TD83 [276631 : 276855 : 277313] raad? ␅
+TD1983590 ␆it
+TD99 [276631 : 276855 : 277313] raad? it
+TD120 progress: 0 276855 raad
+TD26 [276631 : 276855 : 277313] <Done>.
+TD102 📋> ␅
+TD3864411 ␆🧩 Puzzel #500
+TD79 📋> 🧩 Puzzel #500
+TD8 📋> ␅
+TD30 ␆🤔 10 gokken
+TD3 📋> 🤔 10 gokken
+TD3 📋> ␅
+TD7 ␆⏱️ 17s
+TD3 📋> ⏱️ 17s
+TD2 📋> ␅
+TD279269 ␆🔗 alfagok.diginaut.net
+TD81 📋> 🔗 alfagok.diginaut.net
+TD7 📋> ␅
+TD215916 ␄
+TD192 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #500\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 17s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD595 result: "\ud83e\udde9 Puzzel #500\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 17s\n\ud83d\udd17 alfagok.diginaut.net"
+TD18 result puzzle: 500
+TD8 result guesses: 10
+TD6 result time: 17s
+TD5 result link: alfagok.diginaut.net
+TD89 📆 2026-03-17 ? ␅
+TD215063 ␆
+TD106 📆 2026-03-17 ? 
