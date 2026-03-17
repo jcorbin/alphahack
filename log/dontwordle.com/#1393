@@ -1,0 +1,174 @@
+T85.67738982301671 now: 2026-03-17T07:58:38EDT
+TD73 site: dontwordle.com
+TD14 wordlist: nwl2023.txt
+TD24  ...␅
+TD215099 ␆
+TD97  ...
+TD119 1> ␅
+TD4631691 ␆* -bot 10
+TD98 1> * -bot 10
+TD166412 ? ␅
+TD2385502 ␆1
+TD97 ? 1
+TD263 📋 "raise" ? ␅
+TD6167843 ␆nnnMY
+TD80 📋 "raise" ? nnnMY
+TD388 tried: RAISE n n n m Y
+TD147 2> ␅
+TD615393 ␆undo
+TD107 2> undo
+TD166 undo
+TD163 1> ␅
+TD7479543 ␆* :v [raise] -bot 10
+TD77 1> * :v [raise] -bot 10
+TD108724 ? ␅
+TD2683264 ␆4
+TD96 ? 4
+TD242 📋 "godly" ? ␅
+TD4279724 ␆nMnnn
+TD97 📋 "godly" ? nMnnn
+TD217 tried: GODLY n m n n n
+TD217 2> ␅
+TD639464 ␆undo
+TD99 2> undo
+TD147 undo
+TD150 1> ␅
+TD3823603 ␆*
+TD112 1> *
+TD76771 ? ␅
+TD379004 ␆1
+TD73 ? 1
+TD156 📋 "gabba" ? ␅
+TD4047988 ␆nnnnnn
+TD103 📋 "gabba" ? nnnnnn
+TD275 📋 "gabba" ? ␅
+TD407545 ␆*
+TD94 📋 "gabba" ? *
+TD179 ? ␅
+TD2319737 ␆nnnnn
+TD81 ? nnnnn
+TD156 tried: GABBA n n n n n
+TD122 2> ␅
+TD1055628 ␆*
+TD98 2> *
+TD90065 ? ␅
+TD749811 ␆1
+TD96 ? 1
+TD234 📋 "vivid" ? ␅
+TD3831789 ␆nnnnn
+TD79 📋 "vivid" ? nnnnn
+TD146 tried: VIVID n n n n n
+TD118 3> ␅
+TD607895 ␆*
+TD97 3> *
+TD73343 ? ␅
+TD630415 ␆1
+TD110 ? 1
+TD282 📋 "punny" ? ␅
+TD5815722 ␆nnnYn
+TD118 📋 "punny" ? nnnYn
+TD206 tried: PUNNY n n n Y n
+TD202 4> ␅
+TD591200 ␆undo
+TD96 4> undo
+TD140 undo
+TD236 3> ␅
+TD2455713 ␆*
+TD95 3> *
+TD73042 ? ␅
+TD1598824 ␆
+TD90 ? 
+TD402 ? ␅
+TD567420 ␆1
+TD93 ? 1
+TD205 📋 "fluff" ? ␅
+TD5031900 ␆nnnnn
+TD118 📋 "fluff" ? nnnnn
+TD202 tried: FLUFF n n n n n
+TD188 4> ␅
+TD543508 ␆*
+TD105 4> *
+TD95251 ? ␅
+TD1344619 ␆1h
+TD81 ? 1h
+TD177 📋 "phpht" ? ␅
+TD5088124 ␆nnnnn
+TD99 📋 "phpht" ? nnnnn
+TD199 tried: PHPHT n n n n n
+TD192 5> ␅
+TD383186 ␆*
+TD101 5> *
+TD176000 ? ␅
+TD1095914 ␆1
+TD105 ? 1
+TD233 📋 "cocky" ? ␅
+TD5016307 ␆MMnnn
+TD96 📋 "cocky" ? MMnnn
+TD206 tried: COCKY m m n n n
+TD236 6> ␅
+TD886806 ␆undo
+TD104 6> undo
+TD140 undo
+TD282 5> ␅
+TD2855516 ␆*
+TD87 5> *
+TD185444 ? ␅
+TD1014436 ␆1
+TD115 ? 1
+TD254 📋 "kooky" ? ␅
+TD4271787 ␆nnYnn
+TD97 📋 "kooky" ? nnYnn
+TD189 tried: KOOKY n n Y n n
+TD243 6> ␅
+TD383285 ␆*
+TD76 6> *
+TD178261 📋 "exome" ? ␅
+TD5661828 ␆nnYnY
+TD96 📋 "exome" ? nnYnY
+TD200 tried: EXOME n n Y n Y
+TD200 📋> ␅
+TD3704215 ␆Don't Wordle 1393 - SURVIVED
+TD111 📋> Don't Wordle 1393 - SURVIVED
+TD15 📋> ␅
+TD47 ␆Hooray! I didn't Wordle today!
+TD7 📋> Hooray! I didn't Wordle today!
+TD6 📋> ␅
+TD18 ␆⬜⬜⬜⬜⬜5913
+TD7 📋> ⬜⬜⬜⬜⬜5913
+TD5 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜2926
+TD5 📋> ⬜⬜⬜⬜⬜2926
+TD5 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜1423
+TD5 📋> ⬜⬜⬜⬜⬜1423
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜471
+TD5 📋> ⬜⬜⬜⬜⬜471
+TD5 📋> ␅
+TD12 ␆⬜⬜🟩⬜⬜26
+TD5 📋> ⬜⬜🟩⬜⬜26
+TD5 📋> ␅
+TD10 ␆⬜⬜🟩⬜🟩7
+TD5 📋> ⬜⬜🟩⬜🟩7
+TD5 📋> ␅
+TD10 ␆Undos used: 4
+TD6 📋> Undos used: 4
+TD6 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD10 ␆  7 words remaining
+TD6 📋>   7 words remaining
+TD5 📋> ␅
+TD10 ␆x 8 unused letters
+TD5 📋> x 8 unused letters
+TD5 📋> ␅
+TD335167 ␆= 56 total score
+TD98 📋> = 56 total score
+TD13 📋> ␅
+TD191579 ␄
+TD117 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1393 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5913\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2926\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1423\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c471\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c26\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe97\nUndos used: 4\n\n  7 words remaining\nx 8 unused letters\n= 56 total score"}
+TD583 result: "Don't Wordle 1393 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5913\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2926\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1423\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c471\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c26\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe97\nUndos used: 4\n\n  7 words remaining\nx 8 unused letters\n= 56 total score"
+TD53 📆 2026-03-17 ? ␅
+TD175318 ␆
+TD106 📆 2026-03-17 ? 
