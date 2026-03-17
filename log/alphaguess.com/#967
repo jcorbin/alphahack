@@ -1,0 +1,74 @@
+T57.23722462600563 now: 2026-03-17T07:58:10EDT
+TD136 site: alphaguess.com
+TD155798 loaded 196524 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (80 words excluded) asof 2221f71f107c2d305ae32dadc61ece9676d8c562
+TD100  ...␅
+TD1467134 ␆
+TD99  ...
+TD176 [0 : 98217 : 196524] mach? ␅
+TD2551543 ␆b
+TD174 [0 : 98217 : 196524] mach? b
+TD119 progress: -1 98217 mach
+TD118 [0 : 47381 : 98217] dis? ␅
+TD1471643 ␆b
+TD95 [0 : 47381 : 98217] dis? b
+TD102 progress: -1 47381 dis
+TD113 [0 : 23682 : 47381] camp? ␅
+TD1359798 ␆a
+TD90 [0 : 23682 : 47381] camp? a
+TD104 progress: 1 23682 camp
+TD106 [23683 : 35525 : 47381] convention? ␅
+TD1319584 ␆b
+TD97 [23683 : 35525 : 47381] convention? b
+TD106 progress: -1 35525 convention
+TD229 [23683 : 29603 : 35525] circuit? ␅
+TD1399458 ␆b
+TD102 [23683 : 29603 : 35525] circuit? b
+TD104 progress: -1 29603 circuit
+TD119 [23683 : 26635 : 29603] cep? ␅
+TD1351831 ␆b
+TD96 [23683 : 26635 : 29603] cep? b
+TD104 progress: -1 26635 cep
+TD105 [23683 : 25104 : 26635] carp? ␅
+TD1359790 ␆b
+TD92 [23683 : 25104 : 26635] carp? b
+TD106 progress: -1 25104 carp
+TD107 [23683 : 24228 : 25104] cap? ␅
+TD1311725 ␆b
+TD95 [23683 : 24228 : 25104] cap? b
+TD103 progress: -1 24228 cap
+TD101 [23683 : 23768 : 24228] can? ␅
+TD1280204 ␆a
+TD77 [23683 : 23768 : 24228] can? a
+TD79 progress: 1 23768 can
+TD110 [23769 : 23986 : 24228] cannibal? ␅
+TD1335101 ␆b
+TD95 [23769 : 23986 : 24228] cannibal? b
+TD105 progress: -1 23986 cannibal
+TD93 [23769 : 23865 : 23986] candle? ␅
+TD1992154 ␆it
+TD97 [23769 : 23865 : 23986] candle? it
+TD107 progress: 0 23865 candle
+TD28 [23769 : 23865 : 23986] <Done>.
+TD84 📋> ␅
+TD2584292 ␆🧩 Puzzle #967
+TD97 📋> 🧩 Puzzle #967
+TD13 📋> ␅
+TD43 ␆🤔 11 guesses
+TD6 📋> 🤔 11 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 13s
+TD6 📋> ⏱️ 13s
+TD5 📋> ␅
+TD262962 ␆🔗 alphaguess.com/967
+TD95 📋> 🔗 alphaguess.com/967
+TD13 📋> ␅
+TD135814 ␄
+TD124 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #967\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 13s\n\ud83d\udd17 alphaguess.com/967"}
+TD79 result: "\ud83e\udde9 Puzzle #967\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 13s\n\ud83d\udd17 alphaguess.com/967"
+TD10 result puzzle: 967
+TD3 result guesses: 11
+TD2 result time: 13s
+TD2 result link: alphaguess.com/967
+TD69 📆 2026-03-17 ? ␅
+TD159831 ␆
+TD94 📆 2026-03-17 ? 
