@@ -1,0 +1,85 @@
+T68.60823298000014 now: 2026-03-18T07:47:52EDT
+TD126 site: alphaguess.com
+TD142100 loaded 196524 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (80 words excluded) asof 2221f71f107c2d305ae32dadc61ece9676d8c562
+TD123  ...␅
+TD49037 ␆
+TD105  ...
+TD198 [0 : 98217 : 196524] mach? ␅
+TD3614971 ␆
+TD102 [0 : 98217 : 196524] mach? 
+TD119 [0 : 98217 : 196524] mach? ␅
+TD2103886 ␆b
+TD101 [0 : 98217 : 196524] mach? b
+TD103 progress: -1 98217 mach
+TD115 [0 : 47381 : 98217] dis? ␅
+TD1455383 ␆b
+TD101 [0 : 47381 : 98217] dis? b
+TD133 progress: -1 47381 dis
+TD119 [0 : 23682 : 47381] camp? ␅
+TD1376081 ␆b
+TD99 [0 : 23682 : 47381] camp? b
+TD109 progress: -1 23682 camp
+TD109 [0 : 11764 : 23682] back? ␅
+TD1407302 ␆b
+TD119 [0 : 11764 : 23682] back? b
+TD104 progress: -1 11764 back
+TD107 [0 : 5876 : 11764] angel? ␅
+TD1351709 ␆a
+TD107 [0 : 5876 : 11764] angel? a
+TD111 progress: 1 5876 angel
+TD111 [5877 : 8323 : 11764] ar? ␅
+TD1535521 ␆b
+TD101 [5877 : 8323 : 11764] ar? b
+TD143 progress: -1 8323 ar
+TD112 [5877 : 6632 : 8323] anti? ␅
+TD1456053 ␆b
+TD100 [5877 : 6632 : 8323] anti? b
+TD107 progress: -1 6632 anti
+TD388 [5877 : 6254 : 6632] annuitants? ␅
+TD4903039 ␆b
+TD91 [5877 : 6254 : 6632] annuitants? b
+TD176 progress: -1 6254 annuitants
+TD137 [5877 : 6041 : 6254] animal? ␅
+TD2847966 ␆a
+TD103 [5877 : 6041 : 6254] animal? a
+TD106 progress: 1 6041 animal
+TD157 [6042 : 6143 : 6254] ankle? ␅
+TD1679933 ␆a
+TD100 [6042 : 6143 : 6254] ankle? a
+TD104 progress: 1 6143 ankle
+TD104 [6144 : 6194 : 6254] annex? ␅
+TD1711104 ␆a
+TD106 [6144 : 6194 : 6254] annex? a
+TD106 progress: 1 6194 annex
+TD484 [6195 : 6224 : 6254] annotations? ␅
+TD1543889 ␆a
+TD98 [6195 : 6224 : 6254] annotations? a
+TD109 progress: 1 6224 annotations
+TD107 [6225 : 6236 : 6254] annoy? ␅
+TD2215722 ␆it
+TD98 [6225 : 6236 : 6254] annoy? it
+TD109 progress: 0 6236 annoy
+TD27 [6225 : 6236 : 6254] <Done>.
+TD89 📋> ␅
+TD2607537 ␆🧩 Puzzle #968
+TD91 📋> 🧩 Puzzle #968
+TD13 📋> ␅
+TD41 ␆🤔 13 guesses
+TD6 📋> 🤔 13 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 22s
+TD6 📋> ⏱️ 22s
+TD5 📋> ␅
+TD287686 ␆🔗 alphaguess.com/968
+TD125 📋> 🔗 alphaguess.com/968
+TD20 📋> ␅
+TD199332 ␄
+TD170 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #968\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/968"}
+TD163 result: "\ud83e\udde9 Puzzle #968\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/968"
+TD39 result puzzle: 968
+TD10 result guesses: 13
+TD5 result time: 22s
+TD5 result link: alphaguess.com/968
+TD94 📆 2026-03-18 ? ␅
+TD167841 ␆
+TD103 📆 2026-03-18 ? 
