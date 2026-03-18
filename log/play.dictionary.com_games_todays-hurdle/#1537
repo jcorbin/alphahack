@@ -1,0 +1,298 @@
+T217.45641615400018 now: 2026-03-18T07:50:21EDT
+TD115 site: https://play.dictionary.com/games/todays-hurdle
+TD21 wordlist: nwl2023.txt
+TD41  ...␅
+TD174572 ␆
+TD41  ...
+TD86 1.1> ␅
+TD720021 ␆
+TD100 1.1> 
+TD167 1.1> ␅
+TD2871432 ␆*
+TD92 1.1> *
+TD211135 1.1 ? ␅
+TD41820736 ␆1
+TD98 1.1 ? 1
+TD248 1.1 📋 "raise" ? ␅
+TD4759771 ␆nnnnY
+TD94 1.1 📋 "raise" ? nnnnY
+TD204 tried: RAISE n n n n Y
+TD425 1.2> ␅
+TD463171 ␆*
+TD98 1.2> *
+TD95342 1.2 ? ␅
+TD616584 ␆1
+TD96 1.2 ? 1
+TD244 1.2 📋 "longe" ? ␅
+TD6495671 ␆nnnnY
+TD96 1.2 📋 "longe" ? nnnnY
+TD215 tried: LONGE n n n n Y
+TD249 1.3> ␅
+TD1039494 ␆*
+TD95 1.3> *
+TD94215 1.3 ? ␅
+TD1505521 ␆1
+TD83 1.3 ? 1
+TD180 1.3 📋 "chute" ? ␅
+TD4207928 ␆nnMnY
+TD78 1.3 📋 "chute" ? nnMnY
+TD153 tried: CHUTE n n m n Y
+TD161 1.4> ␅
+TD495478 ␆*
+TD91 1.4> *
+TD93498 1.4 ? ␅
+TD4970431 ␆1
+TD108 1.4 ? 1
+TD246 1.4 📋 "upbye" ? ␅
+TD4527758 ␆MnnnY
+TD98 1.4 📋 "upbye" ? MnnnY
+TD204 tried: UPBYE m n n n Y
+TD250 1.5> ␅
+TD415337 ␆*
+TD98 1.5> *
+TD89543 1.5 ? ␅
+TD1742415 ␆2
+TD92 1.5 ? 2
+TD239 1.5 📋 "queue" ? ␅
+TD5239755 ␆YYYYY
+TD99 1.5 📋 "queue" ? YYYYY
+TD194 tried: QUEUE Y Y Y Y Y
+TD460 2.1 📋 "queue" ? ␅
+TD14919110 ␆nYnnn
+TD79 2.1 📋 "queue" ? nYnnn
+TD151 tried: QUEUE n Y n n n
+TD136 2.2> ␅
+TD455763 ␆*
+TD97 2.2> *
+TD91572 2.2 ? ␅
+TD812216 ␆1
+TD100 2.2 ? 1
+TD237 2.2 📋 "autos" ? ␅
+TD4367785 ␆nYnnn
+TD101 2.2 📋 "autos" ? nYnnn
+TD208 tried: AUTOS n Y n n n
+TD213 2.3> ␅
+TD439486 ␆*
+TD97 2.3> *
+TD90193 2.3 ? ␅
+TD2077694 ␆1
+TD103 2.3 ? 1
+TD240 2.3 📋 "ludic" ? ␅
+TD3783533 ␆MYnnM
+TD97 2.3 📋 "ludic" ? MYnnM
+TD206 tried: LUDIC m Y n n m
+TD252 2.4> ␅
+TD463801 ␆*
+TD108 2.4> *
+TD98581 2.4 ? ␅
+TD1581085 ␆1
+TD71 2.4 ? 1
+TD180 2.4 📋 "curly" ? ␅
+TD3919671 ␆YYYYY
+TD97 2.4 📋 "curly" ? YYYYY
+TD201 tried: CURLY Y Y Y Y Y
+TD332 3.1 📋 "curly" ? ␅
+TD8095328 ␆YYnnn
+TD99 3.1 📋 "curly" ? YYnnn
+TD207 tried: CURLY Y Y n n n
+TD229 3.2> ␅
+TD567569 ␆*
+TD97 3.2> *
+TD93852 3.2 ? ␅
+TD1178114 ␆1
+TD98 3.2 ? 1
+TD236 3.2 📋 "cutis" ? ␅
+TD4679593 ␆YYnYn
+TD79 3.2 📋 "cutis" ? YYnYn
+TD151 tried: CUTIS Y Y n Y n
+TD153 3.3> ␅
+TD527550 ␆*
+TD73 3.3> *
+TD91883 3.3 ? ␅
+TD1460084 ␆1
+TD93 3.3 ? 1
+TD237 3.3 📋 "cumin" ? ␅
+TD4303724 ␆YYnYn
+TD110 3.3 📋 "cumin" ? YYnYn
+TD203 tried: CUMIN Y Y n Y n
+TD248 3.4> ␅
+TD399378 ␆*
+TD95 3.4> *
+TD89500 3.4 ? ␅
+TD1998522 ␆2
+TD98 3.4 ? 2
+TD229 3.4 📋 "cubic" ? ␅
+TD3799521 ␆YYnYn
+TD97 3.4 📋 "cubic" ? YYnYn
+TD201 tried: CUBIC Y Y n Y n
+TD239 3.5> ␅
+TD375419 ␆*
+TD98 3.5> *
+TD88878 3.5 📋 "cupid" ? ␅
+TD3023116 ␆YYYYY
+TD79 3.5 📋 "cupid" ? YYYYY
+TD143 tried: CUPID Y Y Y Y Y
+TD197 4.1 📋 "cupid" ? ␅
+TD7383573 ␆nnnMn
+TD98 4.1 📋 "cupid" ? nnnMn
+TD206 tried: CUPID n n n m n
+TD228 4.2> ␅
+TD599508 ␆*
+TD97 4.2> *
+TD105612 4.2 ? ␅
+TD926286 ␆1
+TD94 4.2 ? 1
+TD240 4.2 📋 "siren" ? ␅
+TD6567730 ␆nYMYM
+TD84 4.2 📋 "siren" ? nYMYM
+TD153 tried: SIREN n Y m Y m
+TD175 4.3> ␅
+TD696245 ␆*
+TD99 4.3> *
+TD101555 4.3 ? ␅
+TD3193784 ␆2
+TD79 4.3 ? 2
+TD181 4.3 📋 "finer" ? ␅
+TD4271631 ␆nYYYY
+TD107 4.3 📋 "finer" ? nYYYY
+TD201 tried: FINER n Y Y Y Y
+TD237 4.4> ␅
+TD391331 ␆*
+TD95 4.4> *
+TD91025 4.4 ? ␅
+TD2908946 ␆2
+TD79 4.4 ? 2
+TD177 4.4 📋 "liner" ? ␅
+TD2864676 ␆YYYYY
+TD105 4.4 📋 "liner" ? YYYYY
+TD205 tried: LINER Y Y Y Y Y
+TD309 5.1 📋 "queue" ? ␅
+TD9414482 ␆nnnnn
+TD79 5.1 📋 "queue" ? nnnnn
+TD153 tried: QUEUE n n n n n
+TD169 5.2 📋 "curly" ? ␅
+TD919590 ␆nn
+TD89 5.2 📋 "curly" ? nn
+TD250 5.2 📋 "curly" ? ␅
+TD2655657 ␆nn
+TD75 5.2 📋 "curly" ? nn
+TD188 5.2 📋 "curly" ? ␅
+TD4239880 ␆nnYnY
+TD99 5.2 📋 "curly" ? nnYnY
+TD207 tried: CURLY n n Y n Y
+TD296 5.3 📋 "cupid" ? ␅
+TD2031360 ␆nnnnM
+TD78 5.3 📋 "cupid" ? nnnnM
+TD152 tried: CUPID n n n n m
+TD170 5.4 📋 "liner" ? ␅
+TD1063569 ␆nnnnM
+TD96 5.4 📋 "liner" ? nnnnM
+TD208 tried: LINER n n n n m
+TD254 5.5> ␅
+TD1295415 ␆*
+TD97 5.5> *
+TD102968 5.5 ? ␅
+TD3545035 ␆1
+TD110 5.5 ? 1
+TD240 5.5 📋 "dorty" ? ␅
+TD4335630 ␆MnYMY
+TD110 5.5 📋 "dorty" ? MnYMY
+TD202 tried: DORTY m n Y m Y
+TD277 5.6> ␅
+TD479221 ␆*
+TD98 5.6> *
+TD91996 5.6 📋 "tardy" ? ␅
+TD4668105 ␆YYYYY
+TD97 5.6 📋 "tardy" ? YYYYY
+TD199 tried: TARDY Y Y Y Y Y
+TD262 📋> ␅
+TD4383911 ␆Hurdle 1537
+TD92 📋> Hurdle 1537
+TD14 📋> ␅
+TD39 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD12 ␆5/6
+TD5 📋> 5/6
+TD5 📋> ␅
+TD14 ␆⬜⬜⬜⬜🟩
+TD5 📋> ⬜⬜⬜⬜🟩
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜🟩
+TD4 📋> ⬜⬜⬜⬜🟩
+TD5 📋> ␅
+TD10 ␆⬜⬜🟨⬜🟩
+TD4 📋> ⬜⬜🟨⬜🟩
+TD4 📋> ␅
+TD10 ␆🟨⬜⬜⬜🟩
+TD5 📋> 🟨⬜⬜⬜🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆4/6
+TD4 📋> 4/6
+TD5 📋> ␅
+TD10 ␆⬜🟩⬜⬜⬜
+TD5 📋> ⬜🟩⬜⬜⬜
+TD4 📋> ␅
+TD9 ␆⬜🟩⬜⬜⬜
+TD4 📋> ⬜🟩⬜⬜⬜
+TD4 📋> ␅
+TD9 ␆🟨🟩⬜⬜🟨
+TD4 📋> 🟨🟩⬜⬜🟨
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆5/6
+TD5 📋> 5/6
+TD4 📋> ␅
+TD9 ␆🟩🟩⬜⬜⬜
+TD4 📋> 🟩🟩⬜⬜⬜
+TD4 📋> ␅
+TD10 ␆🟩🟩⬜🟩⬜
+TD4 📋> 🟩🟩⬜🟩⬜
+TD4 📋> ␅
+TD10 ␆🟩🟩⬜🟩⬜
+TD4 📋> 🟩🟩⬜🟩⬜
+TD4 📋> ␅
+TD9 ␆🟩🟩⬜🟩⬜
+TD4 📋> 🟩🟩⬜🟩⬜
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆4/6
+TD5 📋> 4/6
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜🟨⬜
+TD5 📋> ⬜⬜⬜🟨⬜
+TD4 📋> ␅
+TD10 ␆⬜🟩🟨🟩🟨
+TD4 📋> ⬜🟩🟨🟩🟨
+TD4 📋> ␅
+TD10 ␆⬜🟩🟩🟩🟩
+TD4 📋> ⬜🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆Final 2/2
+TD5 📋> Final 2/2
+TD5 📋> ␅
+TD10 ␆🟨⬜🟩🟨🟩
+TD4 📋> 🟨⬜🟩🟨🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD302814 ␆score: 9,600
+TD97 📋> score: 9,600
+TD16 📋> ␅
+TD232730 ␄
+TD186 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1537\n\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,600"}
+TD646 result: "Hurdle 1537\n\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,600"
+TD86 📆 2026-03-18 ? ␅
+TD246442 ␆
+TD100 📆 2026-03-18 ? 
