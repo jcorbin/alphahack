@@ -1,0 +1,163 @@
+T102.66391395300025 now: 2026-03-18T07:48:26EDT
+TD128 site: dontwordle.com
+TD21 wordlist: nwl2023.txt
+TD43  ...␅
+TD174630 ␆
+TD121  ...
+TD116 1> ␅
+TD8695782 ␆* -bot 10
+TD120 1> * -bot 10
+TD200040 ? ␅
+TD831856 ␆1
+TD104 ? 1
+TD246 📋 "raise" ? ␅
+TD4624311 ␆nMnYn
+TD103 📋 "raise" ? nMnYn
+TD559 tried: RAISE n m n Y n
+TD204 2> ␅
+TD1294531 ␆undo
+TD99 2> undo
+TD145 undo
+TD140 1> ␅
+TD9679794 ␆* :v [raise] -bot 10
+TD101 1> * :v [raise] -bot 10
+TD108768 ? ␅
+TD674905 ␆1
+TD111 ? 1
+TD241 📋 "pound" ? ␅
+TD3927698 ␆nYnnn
+TD97 📋 "pound" ? nYnnn
+TD216 tried: POUND n Y n n n
+TD201 2> ␅
+TD656165 ␆undo
+TD84 2> undo
+TD127 undo
+TD138 1> ␅
+TD2478999 ␆*
+TD96 1> *
+TD102940 ? ␅
+TD432947 ␆1
+TD101 ? 1
+TD227 📋 "peeve" ? ␅
+TD3567686 ␆nnnnn
+TD90 📋 "peeve" ? nnnnn
+TD152 tried: PEEVE n n n n n
+TD115 2> ␅
+TD1184199 ␆
+TD116 2> 
+TD159 2> ␅
+TD11647535 ␆*
+TD101 2> *
+TD89611 ? ␅
+TD4854193 ␆1
+TD83 ? 1
+TD174 📋 "ictic" ? ␅
+TD4303404 ␆nnMnn
+TD102 📋 "ictic" ? nnMnn
+TD201 tried: ICTIC n n m n n
+TD193 3> ␅
+TD687658 ␆undo
+TD98 3> undo
+TD131 undo
+TD196 2> ␅
+TD2416104 ␆*
+TD98 2> *
+TD88101 ? ␅
+TD703172 ␆1
+TD95 ? 1
+TD224 📋 "kinin" ? ␅
+TD4272132 ␆nnnnn
+TD102 📋 "kinin" ? nnnnn
+TD200 tried: KININ n n n n n
+TD187 3> ␅
+TD415083 ␆*
+TD98 3> *
+TD85728 ? ␅
+TD690849 ␆1
+TD102 ? 1
+TD239 📋 "yummy" ? ␅
+TD5063369 ␆nnnnn
+TD112 📋 "yummy" ? nnnnn
+TD189 tried: YUMMY n n n n n
+TD131 4> ␅
+TD815883 ␆*
+TD91 4> *
+TD85618 📋 "grrrl" ? ␅
+TD7129936 ␆nnnnn
+TD98 📋 "grrrl" ? nnnnn
+TD194 tried: GRRRL n n n n n
+TD182 5> ␅
+TD751181 ␆*
+TD76 5> *
+TD181781 ? ␅
+TD762367 ␆1
+TD48 ? 1
+TD169 📋 "boffo" ? ␅
+TD4471820 ␆nYnnn
+TD98 📋 "boffo" ? nYnnn
+TD204 tried: BOFFO n Y n n n
+TD203 6> ␅
+TD415408 ␆*
+TD91 6> *
+TD180739 ? ␅
+TD1514968 ␆1
+TD103 ? 1
+TD225 📋 "cooch" ? ␅
+TD4360194 ␄
+TD117 <EOF>
+TD116 6> ␅
+TD1671549 ␆* -sans
+TD104 6> * -sans
+TD86443 ? ␅
+TD6897352 ␆8
+TD100 ? 8
+TD221 📋 "sojas" ? ␅
+TD4839566 ␆MYnMn
+TD111 📋 "sojas" ? MYnMn
+TD202 tried: SOJAS m Y n m n
+TD206 📋> ␅
+TD4400014 ␆Don't Wordle 1394 - SURVIVED
+TD81 📋> Don't Wordle 1394 - SURVIVED
+TD9 📋> ␅
+TD29 ␆Hooray! I didn't Wordle today!
+TD3 📋> Hooray! I didn't Wordle today!
+TD3 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜5924
+TD3 📋> ⬜⬜⬜⬜⬜5924
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜⬜⬜2597
+TD2 📋> ⬜⬜⬜⬜⬜2597
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜⬜⬜1051
+TD2 📋> ⬜⬜⬜⬜⬜1051
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜⬜⬜303
+TD2 📋> ⬜⬜⬜⬜⬜303
+TD2 📋> ␅
+TD5 ␆⬜🟩⬜⬜⬜34
+TD2 📋> ⬜🟩⬜⬜⬜34
+TD2 📋> ␅
+TD5 ␆🟨🟩⬜🟨⬜6
+TD2 📋> 🟨🟩⬜🟨⬜6
+TD2 📋> ␅
+TD5 ␆Undos used: 3
+TD2 📋> Undos used: 3
+TD3 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD5 ␆  6 words remaining
+TD2 📋>   6 words remaining
+TD2 📋> ␅
+TD5 ␆x 8 unused letters
+TD2 📋> x 8 unused letters
+TD2 📋> ␅
+TD271854 ␆= 48 total score
+TD71 📋> = 48 total score
+TD8 📋> ␅
+TD207816 ␄
+TD73 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1394 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5924\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2597\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1051\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c303\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c34\n\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c6\nUndos used: 3\n\n  6 words remaining\nx 8 unused letters\n= 48 total score"}
+TD952 result: "Don't Wordle 1394 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5924\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2597\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1051\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c303\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c34\n\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c6\nUndos used: 3\n\n  6 words remaining\nx 8 unused letters\n= 48 total score"
+TD78 📆 2026-03-18 ? ␅
+TD350653 ␆
+TD69 📆 2026-03-18 ? 
