@@ -1,0 +1,149 @@
+T95.64907308400143 now: 2026-03-19T07:55:55EDT
+TD75 site: dontwordle.com
+TD13 wordlist: nwl2023.txt
+TD26  ...␅
+TD149735 ␆
+TD102  ...
+TD122 1> ␅
+TD7055838 ␆* -bot 10
+TD97 1> * -bot 10
+TD201280 ? ␅
+TD9438570 ␆1
+TD99 ? 1
+TD250 📋 "raise" ? ␅
+TD5583770 ␆nYnMM
+TD100 📋 "raise" ? nYnMM
+TD549 tried: RAISE n Y n m m
+TD194 2> ␅
+TD799070 ␆undo
+TD96 2> undo
+TD146 undo
+TD146 1> ␅
+TD15031793 ␆* :v [raise] -bot 10
+TD93 1> * :v [raise] -bot 10
+TD101924 ? ␅
+TD1394613 ␆1
+TD80 ? 1
+TD191 📋 "uncoy" ? ␅
+TD5135179 ␆nnnnn
+TD111 📋 "uncoy" ? nnnnn
+TD223 tried: UNCOY n n n n n
+TD196 2> ␅
+TD847467 ␆undo
+TD103 2> undo
+TD149 undo
+TD148 1> ␅
+TD3951891 ␆*
+TD85 1> *
+TD93904 ? ␅
+TD745680 ␆1
+TD80 ? 1
+TD198 📋 "potto" ? ␅
+TD5423808 ␆nnnnn
+TD99 📋 "potto" ? nnnnn
+TD207 tried: POTTO n n n n n
+TD167 2> ␅
+TD495986 ␆*
+TD100 2> *
+TD90996 ? ␅
+TD476229 ␆1
+TD99 ? 1
+TD230 📋 "vivid" ? ␅
+TD3799898 ␆nnnnn
+TD100 📋 "vivid" ? nnnnn
+TD207 tried: VIVID n n n n n
+TD172 3> ␅
+TD1567497 ␆*
+TD99 3> *
+TD92398 ? ␅
+TD7859574 ␆nnnnn
+TD100 ? nnnnn
+TD442 ? ␅
+TD2047445 ␆1
+TD100 ? 1
+TD240 📋 "yummy" ? ␅
+TD1279714 ␆nnnnn
+TD101 📋 "yummy" ? nnnnn
+TD205 tried: YUMMY n n n n n
+TD178 4> ␅
+TD3976114 ␆* -bot 10
+TD112 4> * -bot 10
+TD86831 📋 "grrrl" ? ␅
+TD1352482 ␄
+TD197 <EOF>
+TD138 4> ␅
+TD743645 ␆*
+TD98 4> *
+TD88933 📋 "grrrl" ? ␅
+TD5439311 ␆nnnnY
+TD93 📋 "grrrl" ? nnnnY
+TD203 tried: GRRRL n n n n Y
+TD202 5> ␅
+TD1127813 ␆*
+TD89 5> *
+TD178078 ? ␅
+TD1589191 ␆1
+TD109 ? 1
+TD231 📋 "annal" ? ␅
+TD4656938 ␆MnnnY
+TD81 📋 "annal" ? MnnnY
+TD156 tried: ANNAL m n n n Y
+TD140 6> ␅
+TD438353 ␆*
+TD102 6> *
+TD174201 ? ␅
+TD1514536 ␆1
+TD101 ? 1
+TD238 📋 "scall" ? ␅
+TD4014848 ␆MnMnY
+TD99 📋 "scall" ? MnMnY
+TD203 tried: SCALL m n m n Y
+TD200 📋> ␅
+TD527464 ␆
+TD97 📋> 
+TD13 📋> ␅
+TD2713743 ␆Don't Wordle 1395 - SURVIVED
+TD97 📋> Don't Wordle 1395 - SURVIVED
+TD13 📋> ␅
+TD44 ␆Hooray! I didn't Wordle today!
+TD7 📋> Hooray! I didn't Wordle today!
+TD6 📋> ␅
+TD15 ␆⬜⬜⬜⬜⬜5809
+TD6 📋> ⬜⬜⬜⬜⬜5809
+TD5 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜2803
+TD5 📋> ⬜⬜⬜⬜⬜2803
+TD4 📋> ␅
+TD21 ␆⬜⬜⬜⬜⬜1182
+TD23 📋> ⬜⬜⬜⬜⬜1182
+TD5 📋> ␅
+TD12 ␆⬜⬜⬜⬜🟩44
+TD5 📋> ⬜⬜⬜⬜🟩44
+TD4 📋> ␅
+TD11 ␆🟨⬜⬜⬜🟩7
+TD5 📋> 🟨⬜⬜⬜🟩7
+TD4 📋> ␅
+TD11 ␆🟨⬜🟨⬜🟩1
+TD4 📋> 🟨⬜🟨⬜🟩1
+TD5 📋> ␅
+TD11 ␆Undos used: 2
+TD5 📋> Undos used: 2
+TD5 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD12 ␆  1 words remaining
+TD5 📋>   1 words remaining
+TD5 📋> ␅
+TD10 ␆x 10 unused letters
+TD4 📋> x 10 unused letters
+TD5 📋> ␅
+TD261841 ␆= 10 total score
+TD100 📋> = 10 total score
+TD12 📋> ␅
+TD215778 ␄
+TD190 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\nDon't Wordle 1395 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5809\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2803\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1182\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe944\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe97\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe91\nUndos used: 2\n\n  1 words remaining\nx 10 unused letters\n= 10 total score"}
+TD1210 result: "\nDon't Wordle 1395 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5809\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2803\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1182\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe944\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe97\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe91\nUndos used: 2\n\n  1 words remaining\nx 10 unused letters\n= 10 total score"
+TD66 📆 2026-03-19 ? ␅
+TD150941 ␆
+TD104 📆 2026-03-19 ? 
