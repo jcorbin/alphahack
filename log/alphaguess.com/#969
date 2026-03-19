@@ -1,0 +1,82 @@
+T64.92741362800007 now: 2026-03-19T07:55:25EDT
+TD76 site: alphaguess.com
+TD152320 loaded 196524 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (80 words excluded) asof 683d458d5791cb24aaee546872a104249748ddbb
+TD114  ...␅
+TD4142782 ␆
+TD82  ...
+TD132 [0 : 98217 : 196524] mach? ␅
+TD3383851 ␆a
+TD94 [0 : 98217 : 196524] mach? a
+TD100 progress: 1 98217 mach
+TD277 [98218 : 147372 : 196524] rhumb? ␅
+TD1599408 ␆a
+TD96 [98218 : 147372 : 196524] rhumb? a
+TD105 progress: 1 147372 rhumb
+TD116 [147373 : 171637 : 196524] ta? ␅
+TD1543753 ␆b
+TD97 [147373 : 171637 : 196524] ta? b
+TD106 progress: -1 171637 ta
+TD172 [147373 : 159484 : 171637] slop? ␅
+TD1575587 ␆b
+TD89 [147373 : 159484 : 171637] slop? b
+TD106 progress: -1 159484 slop
+TD105 [147373 : 153316 : 159484] sea? ␅
+TD1759879 ␆b
+TD97 [147373 : 153316 : 159484] sea? b
+TD104 progress: -1 153316 sea
+TD105 [147373 : 150338 : 153316] sallow? ␅
+TD1423629 ␆b
+TD96 [147373 : 150338 : 153316] sallow? b
+TD102 progress: -1 150338 sallow
+TD98 [147373 : 148804 : 150338] rot? ␅
+TD1487623 ␆b
+TD99 [147373 : 148804 : 150338] rot? b
+TD105 progress: -1 148804 rot
+TD105 [147373 : 148078 : 148804] river? ␅
+TD1511984 ␆b
+TD100 [147373 : 148078 : 148804] river? b
+TD102 progress: -1 148078 river
+TD100 [147373 : 147693 : 148078] right? ␅
+TD1455428 ␆a
+TD96 [147373 : 147693 : 148078] right? a
+TD102 progress: 1 147693 right
+TD103 [147694 : 147822 : 148078] rin? ␅
+TD1399738 ␆a
+TD96 [147694 : 147822 : 148078] rin? a
+TD101 progress: 1 147822 rin
+TD107 [147823 : 147916 : 148078] rip? ␅
+TD1335771 ␆b
+TD96 [147823 : 147916 : 148078] rip? b
+TD101 progress: -1 147916 rip
+TD102 [147823 : 147866 : 147916] rings? ␅
+TD1247732 ␆b
+TD75 [147823 : 147866 : 147916] rings? b
+TD80 progress: -1 147866 rings
+TD76 [147823 : 147831 : 147866] ring? ␅
+TD2095794 ␆it
+TD95 [147823 : 147831 : 147866] ring? it
+TD104 progress: 0 147831 ring
+TD27 [147823 : 147831 : 147866] <Done>.
+TD82 📋> ␅
+TD2728496 ␆🧩 Puzzle #969
+TD96 📋> 🧩 Puzzle #969
+TD12 📋> ␅
+TD43 ␆🤔 13 guesses
+TD6 📋> 🤔 13 guesses
+TD6 📋> ␅
+TD12 ␆⏱️ 18s
+TD6 📋> ⏱️ 18s
+TD5 📋> ␅
+TD262990 ␆🔗 alphaguess.com/969
+TD93 📋> 🔗 alphaguess.com/969
+TD13 📋> ␅
+TD191710 ␄
+TD166 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #969\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/969"}
+TD102 result: "\ud83e\udde9 Puzzle #969\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/969"
+TD17 result puzzle: 969
+TD7 result guesses: 13
+TD6 result time: 18s
+TD5 result link: alphaguess.com/969
+TD90 📆 2026-03-19 ? ␅
+TD176103 ␆
+TD101 📆 2026-03-19 ? 
