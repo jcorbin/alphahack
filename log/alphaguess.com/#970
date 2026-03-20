@@ -1,0 +1,106 @@
+T84585.010781553 now: 2026-03-20T08:27:50EDT
+TD173 site: alphaguess.com
+TD376031 loaded 196524 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (80 words excluded) asof 683d458d5791cb24aaee546872a104249748ddbb
+TD187  ...␅
+TD4430667 ␆
+TD115  ...
+TD200 [0 : 98217 : 196524] mach? ␅
+TD3615514 ␆b
+TD109 [0 : 98217 : 196524] mach? b
+TD132 progress: -1 98217 mach
+TD135 [0 : 47381 : 98217] dis? ␅
+TD1727625 ␆a
+TD116 [0 : 47381 : 98217] dis? a
+TD127 progress: 1 47381 dis
+TD494 [47382 : 72799 : 98217] gremmy? ␅
+TD1391410 ␆a
+TD109 [47382 : 72799 : 98217] gremmy? a
+TD116 progress: 1 72799 gremmy
+TD126 [72800 : 85503 : 98217] ins? ␅
+TD1567599 ␆a
+TD117 [72800 : 85503 : 98217] ins? a
+TD116 progress: 1 85503 ins
+TD120 [85504 : 91847 : 98217] knot? ␅
+TD1415611 ␆b
+TD198 [85504 : 91847 : 98217] knot? b
+TD145 progress: -1 91847 knot
+TD120 [85504 : 88663 : 91847] jacks? ␅
+TD1431499 ␆a
+TD99 [85504 : 88663 : 91847] jacks? a
+TD102 progress: 1 88663 jacks
+TD108 [88664 : 90194 : 91847] ka? ␅
+TD1311839 ␆a
+TD97 [88664 : 90194 : 91847] ka? a
+TD102 progress: 1 90194 ka
+TD374 [90195 : 91022 : 91847] khan? ␅
+TD1359653 ␆b
+TD101 [90195 : 91022 : 91847] khan? b
+TD108 progress: -1 91022 khan
+TD129 [90195 : 90603 : 91022] keck? ␅
+TD1287394 ␆a
+TD93 [90195 : 90603 : 91022] keck? a
+TD104 progress: 1 90603 keck
+TD494 [90604 : 90813 : 91022] keratosis? ␅
+TD1287385 ␆a
+TD91 [90604 : 90813 : 91022] keratosis? a
+TD102 progress: 1 90813 keratosis
+TD106 [90814 : 90901 : 91022] keto? ␅
+TD1791659 ␆a
+TD104 [90814 : 90901 : 91022] keto? a
+TD107 progress: 1 90901 keto
+TD111 [90902 : 90943 : 91022] key? ␅
+TD1295609 ␆a
+TD109 [90902 : 90943 : 91022] key? a
+TD117 progress: 1 90943 key
+TD175 [90944 : 90980 : 91022] keypunch? ␅
+TD1327568 ␆b
+TD109 [90944 : 90980 : 91022] keypunch? b
+TD112 progress: -1 90980 keypunch
+TD191 [90944 : 90962 : 90980] keyhole? ␅
+TD1279539 ␆b
+TD111 [90944 : 90962 : 90980] keyhole? b
+TD109 progress: -1 90962 keyhole
+TD193 [90944 : 90953 : 90962] keybuttons? ␅
+TD1279699 ␆b
+TD98 [90944 : 90953 : 90962] keybuttons? b
+TD105 progress: -1 90953 keybuttons
+TD201 [90944 : 90948 : 90953] keyboarding? ␅
+TD1223635 ␆b
+TD88 [90944 : 90948 : 90953] keyboarding? b
+TD106 progress: -1 90948 keyboarding
+TD195 [90944 : 90946 : 90948] keyboarder? ␅
+TD1271501 ␆b
+TD104 [90944 : 90946 : 90948] keyboarder? b
+TD104 progress: -1 90946 keyboarder
+TD201 [90944 : 90945 : 90946] keyboarded? ␅
+TD1255819 ␆b
+TD96 [90944 : 90945 : 90946] keyboarded? b
+TD102 progress: -1 90945 keyboarded
+TD188 [90944 : 90944 : 90945] keyboard? ␅
+TD1639812 ␆it
+TD88 [90944 : 90944 : 90945] keyboard? it
+TD106 progress: 0 90944 keyboard
+TD25 [90944 : 90944 : 90945] <Done>.
+TD82 📋> ␅
+TD4144124 ␆🧩 Puzzle #970
+TD100 📋> 🧩 Puzzle #970
+TD11 📋> ␅
+TD41 ␆🤔 19 guesses
+TD7 📋> 🤔 19 guesses
+TD5 📋> ␅
+TD12 ␆⏱️ 25s
+TD12 📋> ⏱️ 25s
+TD4 📋> ␅
+TD527273 ␆🔗 alphaguess.com/970
+TD96 📋> 🔗 alphaguess.com/970
+TD12 📋> ␅
+TD215774 ␄
+TD136 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #970\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/970"}
+TD100 result: "\ud83e\udde9 Puzzle #970\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/970"
+TD16 result puzzle: 970
+TD7 result guesses: 19
+TD5 result time: 25s
+TD5 result link: alphaguess.com/970
+TD89 📆 2026-03-20 ? ␅
+TD287607 ␆
+TD66 📆 2026-03-20 ? 
