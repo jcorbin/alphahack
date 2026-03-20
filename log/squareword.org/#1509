@@ -1,0 +1,252 @@
+T85259.67406891899 now: 2026-03-20T08:39:05EDT
+TD77 site: squareword.org
+TD20 wordlist: nwl2023.txt
+TD23  ...␅
+TD2150906 ␆
+TD78  ...
+TD54 🧩  ? ␅
+TD1927805 ␆#1509
+TD68 🧩  ? #1509
+TD211 puzzle_id: #1509
+TD191 > ␅
+TD535548 ␆
+TD76 > 
+TD265 > ␅
+TD575763 ␆*
+TD71 > *
+TD326700 try? ␅
+TD801316 ␆1
+TD90 try? 1
+TD298 questioning: ["serai", "#5"]
+TD306 #1 <IndexError>  📋 "serai" ? ␅
+TD3903294 ␆_____ ~ SI
+TD99 #1 <IndexError>  📋 "serai" ? _____ ~ SI
+TD722 attempt 0 SERAI m n n n m
+TD124 #2 <IndexError>  📋 "serai" ? ␅
+TD2295104 ␆_E___ ~ A
+TD77 #2 <IndexError>  📋 "serai" ? _E___ ~ A
+TD193 attempt 1 SERAI n Y n m n
+TD84 #3 <IndexError>  📋 "serai" ? ␅
+TD2935655 ␆___A_ ~ RA
+TD79 #3 <IndexError>  📋 "serai" ? ___A_ ~ RA
+TD188 attempt 2 SERAI n n m Y n
+TD85 #4 <IndexError>  📋 "serai" ? ␅
+TD2191676 ␆_____ ~ EI
+TD95 #4 <IndexError>  📋 "serai" ? _____ ~ EI
+TD261 attempt 3 SERAI n m n n m
+TD94 #5 <IndexError>  📋 "serai" ? ␅
+TD2736065 ␆_E___ ~ SE
+TD109 #5 <IndexError>  📋 "serai" ? _E___ ~ SE
+TD266 attempt 4 SERAI m Y n n n
+TD346 ? ␅
+TD526921 ␆
+TD98 ? 
+TD151 question done
+TD320 > ␅
+TD1399317 ␆*
+TD98 > *
+TD846514 try? ␅
+TD889535 ␆1
+TD99 try? 1
+TD320 questioning: ["molar", "#3"]
+TD247 #1 _____ ~IS -AER  📋 "molar" ? ␅
+TD2999368 ␆.
+TD100 #1 _____ ~IS -AER  📋 "molar" ? .
+TD287 attempt 0 MOLAR n n n n n
+TD102 #2 _E___ ~A -IRS  📋 "molar" ? ␅
+TD1495362 ␆.
+TD94 #2 _E___ ~A -IRS  📋 "molar" ? .
+TD279 attempt 1 MOLAR n n n m n
+TD106 #3 ___A_ ~R -EIS  📋 "molar" ? ␅
+TD2679672 ␆___AR ~ RA
+TD78 #3 ___A_ ~R -EIS  📋 "molar" ? ___AR ~ RA
+TD295 attempt 2 MOLAR n n n Y Y
+TD195 #4 _____ ~EI -ARS  📋 "molar" ? ␅
+TD1175715 ␆.
+TD98 #4 _____ ~EI -ARS  📋 "molar" ? .
+TD289 attempt 3 MOLAR n n n n n
+TD100 #5 _E___ ~S -AIR  📋 "molar" ? ␅
+TD3199299 ␆_E___ ~ SE
+TD90 #5 _E___ ~S -AIR  📋 "molar" ? _E___ ~ SE
+TD270 attempt 4 MOLAR n n n n n
+TD338 ? ␅
+TD295285 ␆
+TD87 ? 
+TD132 question done
+TD296 > ␅
+TD687862 ␆*
+TD100 > *
+TD762778 try? ␅
+TD4332928 ␆1
+TD93 try? 1
+TD282 questioning: ["unbar", "#3"]
+TD221 #1 _____ ~IS -AELMOR  📋 "unbar" ? ␅
+TD2687677 ␆.
+TD97 #1 _____ ~IS -AELMOR  📋 "unbar" ? .
+TD262 attempt 0 UNBAR n n n n n
+TD92 #2 _E___ ~A -ILMORS  📋 "unbar" ? ␅
+TD4487712 ␆_E___ ~ AN
+TD110 #2 _E___ ~A -ILMORS  📋 "unbar" ? _E___ ~ AN
+TD257 attempt 1 UNBAR n m n m n
+TD146 #3 ___AR -EILMOS  📋 "unbar" ? ␅
+TD12271199 ␆___AR ~ RA
+TD98 #3 ___AR -EILMOS  📋 "unbar" ? ___AR ~ RA
+TD257 attempt 2 UNBAR n n n Y Y
+TD150 #4 _____ ~EI -ALMORS  📋 "unbar" ? ␅
+TD1327371 ␆.
+TD79 #4 _____ ~EI -ALMORS  📋 "unbar" ? .
+TD207 attempt 3 UNBAR n n n n n
+TD66 #5 _E___ ~S -AILMOR  📋 "unbar" ? ␅
+TD3175857 ␆_E___ ~ SE
+TD99 #5 _E___ ~S -AILMOR  📋 "unbar" ? _E___ ~ SE
+TD244 attempt 4 UNBAR n n n n n
+TD219 ? ␅
+TD295448 ␆
+TD100 ? 
+TD123 question done
+TD306 > ␅
+TD703416 ␆*
+TD90 > *
+TD610246 try? ␅
+TD3942122 ␆2
+TD97 try? 2
+TD293 questioning: ["radar", "#3"]
+TD352 #1 _____ ~IS -ABELMNORU  📋 "radar" ? ␅
+TD3006949 ␆.
+TD95 #1 _____ ~IS -ABELMNORU  📋 "radar" ? .
+TD256 attempt 0 RADAR n n n n n
+TD101 #2 _E___ ~AN -BILMORSU  📋 "radar" ? ␅
+TD1159512 ␆.
+TD93 #2 _E___ ~AN -BILMORSU  📋 "radar" ? .
+TD251 attempt 1 RADAR n m n m n
+TD99 #3 ___AR -BEILMNOSU  📋 "radar" ? ␅
+TD647332 ␆/it
+TD77 #3 ___AR -BEILMNOSU  📋 "radar" ? /it
+TD179 attempt 2 RADAR Y Y Y Y Y
+TD66 #4 _____ ~EI -ABLMNORSU  📋 "radar" ? ␅
+TD968143 ␆.
+TD98 #4 _____ ~EI -ABLMNORSU  📋 "radar" ? .
+TD245 attempt 3 RADAR n n n n n
+TD107 #5 _E___ ~S -ABILMNORU  📋 "radar" ? ␅
+TD2615426 ␆_E___ ~ SE
+TD90 #5 _E___ ~S -ABILMNORU  📋 "radar" ? _E___ ~ SE
+TD242 attempt 4 RADAR n n n n n
+TD377 ? ␅
+TD279265 ␆
+TD93 ? 
+TD126 question done
+TD310 > ␅
+TD583520 ␆*
+TD97 > *
+TD788873 try? ␅
+TD5946974 ␆1
+TD71 try? 1
+TD217 questioning: ["evict", "#4"]
+TD217 #1 _____ ~IS -ABDELMNORU  📋 "evict" ? ␅
+TD4503691 ␆__I_T ~ ST
+TD67 #1 _____ ~IS -ABDELMNORU  📋 "evict" ? __I_T ~ ST
+TD181 attempt 0 EVICT n n Y n Y
+TD116 #2 _E___ ~AN -BDILMORSU  📋 "evict" ? ␅
+TD1815389 ␆.
+TD72 #2 _E___ ~AN -BDILMORSU  📋 "evict" ? .
+TD191 attempt 1 EVICT n n n n n
+TD69 #4 _____ ~EI -ABDLMNORSU  📋 "evict" ? ␅
+TD767646 ␆/it
+TD72 #4 _____ ~EI -ABDLMNORSU  📋 "evict" ? /it
+TD194 attempt 3 EVICT Y Y Y Y Y
+TD67 #5 _E___ ~S -ABDILMNORU  📋 "evict" ? ␅
+TD4832045 ␆_E___ ~ SE
+TD93 #5 _E___ ~S -ABDILMNORU  📋 "evict" ? _E___ ~ SE
+TD270 attempt 4 EVICT m n n n n
+TD329 ? ␅
+TD479227 ␆
+TD98 ? 
+TD128 question done
+TD333 > ␅
+TD1015513 ␆*
+TD97 > *
+TD2242475 try? ␅
+TD2845446 ␆2
+TD93 try? 2
+TD288 questioning: ["twist", "#1"]
+TD358 #1 __I_T ~S -ABCDELMNORUV  📋 "twist" ? ␅
+TD2279073 ␆/it
+TD76 #1 __I_T ~S -ABCDELMNORUV  📋 "twist" ? /it
+TD175 attempt 0 TWIST Y Y Y Y Y
+TD81 #2 _E___ ~AN -BCDEILMORSTUV  📋 "twist" ? ␅
+TD1295774 ␆.
+TD71 #2 _E___ ~AN -BCDEILMORSTUV  📋 "twist" ? .
+TD182 attempt 1 TWIST n n n n n
+TD79 #5 _E___ ~S -ABCDILMNORTUV  📋 "twist" ? ␅
+TD3072199 ␆_E___ ~ SEW
+TD100 #5 _E___ ~S -ABCDILMNORTUV  📋 "twist" ? _E___ ~ SEW
+TD182 attempt 4 TWIST n m n m n
+TD219 ? ␅
+TD287261 ␆
+TD104 ? 
+TD125 question done
+TD323 > ␅
+TD13041050 ␆*
+TD102 > *
+TD1646846 questioning: ["henna", "#2"]
+TD195 #2 _E___ ~AN -BCDEILMORSTUVW  📋 "henna" ? ␅
+TD2895206 ␆/it
+TD88 #2 _E___ ~AN -BCDEILMORSTUVW  📋 "henna" ? /it
+TD188 attempt 1 HENNA Y Y Y Y Y
+TD73 #5 _E___ ~SW -ABCDILMNORTUV  📋 "henna" ? ␅
+TD5399859 ␆_E___ ~ SEW
+TD77 #5 _E___ ~SW -ABCDILMNORTUV  📋 "henna" ? _E___ ~ SEW
+TD179 attempt 4 HENNA n Y n n n
+TD223 ? ␅
+TD311567 ␆
+TD99 ? 
+TD119 question done
+TD305 > ␅
+TD607492 ␆*
+TD97 > *
+TD1193798 questioning: ["weeks", "#5"]
+TD189 #5 _E___ ~SW -ABCDHILMNORTUV  📋 "weeks" ? ␅
+TD7598083 ␆/it
+TD101 #5 _E___ ~SW -ABCDHILMNORTUV  📋 "weeks" ? /it
+TD245 attempt 4 WEEKS Y Y Y Y Y
+TD275 ? ␅
+TD3871400 ␆
+TD75 ? 
+TD87 question done
+TD39242 📋> ␅
+TD3121169 ␆squareword.org 1509: 8 guesses
+TD102 📋> squareword.org 1509: 8 guesses
+TD13 📋> ␅
+TD61 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD24 ␆🟨🟨🟩🟨🟩
+TD6 📋> 🟨🟨🟩🟨🟩
+TD5 📋> ␅
+TD18 ␆🟨🟩🟨🟨🟨
+TD5 📋> 🟨🟩🟨🟨🟨
+TD4 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD24 ␆🟨🟩🟨🟨🟨
+TD5 📋> 🟨🟩🟨🟨🟨
+TD5 📋> ␅
+TD17 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD16 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD423061 ␆#squareword #squareword1509
+TD98 📋> #squareword #squareword1509
+TD14 📋> ␅
+TD279776 ␄
+TD181 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1509: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1509"}
+TD1012 result: "squareword.org 1509: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1509"
+TD67 📆 2026-03-20 ? ␅
+TD318786 ␆
+TD101 📆 2026-03-20 ? 
