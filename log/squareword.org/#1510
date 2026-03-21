@@ -1,0 +1,211 @@
+T601.5667412769981 now: 2026-03-21T08:50:55EDT
+TD72 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD23  ...␅
+TD167245 ␆
+TD80  ...
+TD56 🧩  ? ␅
+TD4687954 ␆#1510
+TD95 🧩  ? #1510
+TD204 puzzle_id: #1510
+TD189 > ␅
+TD1151475 ␆*
+TD76 > *
+TD258746 try? ␅
+TD1013275 ␆1
+TD91 try? 1
+TD257 questioning: ["rates", "#5"]
+TD149 #1 <IndexError>  📋 "rates" ? ␅
+TD9415627 ␆_A___ ~ RS
+TD94 #1 <IndexError>  📋 "rates" ? _A___ ~ RS
+TD639 attempt 0 RATES m Y n n m
+TD86 #2 <IndexError>  📋 "rates" ? ␅
+TD2375119 ␆_____ ~ RATE
+TD97 #2 <IndexError>  📋 "rates" ? _____ ~ RATE
+TD264 attempt 1 RATES m m m m n
+TD128 #3 <IndexError>  📋 "rates" ? ␅
+TD2183551 ␆___E_ ~ E
+TD96 #3 <IndexError>  📋 "rates" ? ___E_ ~ E
+TD252 attempt 2 RATES n n n Y n
+TD120 #4 <IndexError>  📋 "rates" ? ␅
+TD2023507 ␆___E_ ~ E
+TD92 #4 <IndexError>  📋 "rates" ? ___E_ ~ E
+TD250 attempt 3 RATES n n n Y n
+TD122 #5 <IndexError>  📋 "rates" ? ␅
+TD2415598 ␆_A__S ~ R
+TD71 #5 <IndexError>  📋 "rates" ? _A__S ~ R
+TD177 attempt 4 RATES m Y n n Y
+TD206 ? ␅
+TD479468 ␆
+TD71 ? 
+TD103 question done
+TD185 > ␅
+TD559682 ␆*
+TD76 > *
+TD582886 try? ␅
+TD7057806 ␆5
+TD84 try? 5
+TD241 questioning: ["marsh", "#1"]
+TD207 #1 _A___ ~RS -ET  📋 "marsh" ? ␅
+TD3190947 ␆YYYYY
+TD106 #1 _A___ ~RS -ET  📋 "marsh" ? MARSH
+TD246 attempt 0 MARSH Y Y Y Y Y
+TD143 #2 _____ ~AERT -S  📋 "marsh" ? ␅
+TD1615357 ␆.
+TD95 #2 _____ ~AERT -S  📋 "marsh" ? .
+TD276 attempt 1 MARSH n m m n n
+TD95 #3 ___E_ -ARST  📋 "marsh" ? ␅
+TD2951714 ␆___E_ ~ E
+TD89 #3 ___E_ -ARST  📋 "marsh" ? ___E_ ~ E
+TD263 attempt 2 MARSH n n n n n
+TD152 #4 ___E_ -ARST  📋 "marsh" ? ␅
+TD2167576 ␆___E_ ~ E
+TD94 #4 ___E_ -ARST  📋 "marsh" ? ___E_ ~ E
+TD245 attempt 3 MARSH n n n n n
+TD150 #5 _A__S ~R -ET  📋 "marsh" ? ␅
+TD2935512 ␆_AR_S 
+TD101 #5 _A__S ~R -ET  📋 "marsh" ? _AR_S 
+TD254 attempt 4 MARSH n Y Y n n
+TD336 ? ␅
+TD279284 ␆
+TD99 ? 
+TD141 question done
+TD302 > ␅
+TD679998 ␆*
+TD98 > *
+TD477670 try? ␅
+TD3937684 ␆5
+TD91 try? 5
+TD232 questioning: ["alert", "#2"]
+TD168 #1 _A___ -AEHMRST  📋 "alert" ? ␅
+T33.026434545987286 now: 2026-03-21T08:52:37EDT
+TD109 questioning: ["alert", "#2"]
+TD184 #2 _____ ~AERT -HMS  📋 "alert" ? ␅
+TD8837478 ␆.
+TD75 #2 _____ ~AERT -HMS  📋 "alert" ? .
+TD294 attempt 1 ALERT m n m m m
+TD70 #3 ___E_ -AHMRST  📋 "alert" ? ␅
+TD3519634 ␆___E_ ~ EL
+TD75 #3 ___E_ -AHMRST  📋 "alert" ? ___E_ ~ EL
+TD445 attempt 2 ALERT n m m n n
+TD100 #4 ___E_ -AHMRST  📋 "alert" ? ␅
+TD3263593 ␆__EE_ ~ L
+TD97 #4 ___E_ -AHMRST  📋 "alert" ? __EE_ ~ L
+TD264 attempt 3 ALERT n m Y n n
+TD154 #5 _AR_S -EHMST  📋 "alert" ? ␅
+TD1791490 ␆.
+TD101 #5 _AR_S -EHMST  📋 "alert" ? .
+TD299 attempt 4 ALERT n n n n n
+TD352 ? ␅
+TD247081 ␆
+TD96 ? 
+TD115 question done
+TD376 > ␅
+TD1288287 ␆*
+TD100 > *
+TD785953 questioning: ["kneel", "#4"]
+TD179 #2 _____ ~AERT -HLMS  📋 "kneel" ? ␅
+TD3717042 ␆.
+TD98 #2 _____ ~AERT -HLMS  📋 "kneel" ? .
+TD251 attempt 1 KNEEL n n m m n
+TD102 #3 ___E_ ~L -AHMRST  📋 "kneel" ? ␅
+TD6087710 ␆___E_ ~ EL
+TD104 #3 ___E_ ~L -AHMRST  📋 "kneel" ? ___E_ ~ EL
+TD286 attempt 2 KNEEL n n m Y m
+TD169 #4 __EE_ ~L -AHMRST  📋 "kneel" ? ␅
+TD663344 ␆/it
+TD92 #4 __EE_ ~L -AHMRST  📋 "kneel" ? /it
+TD236 attempt 3 KNEEL Y Y Y Y Y
+TD107 #5 _AR_S -AEHLMRST  📋 "kneel" ? ␅
+TD975575 ␆.
+TD109 #5 _AR_S -AEHLMRST  📋 "kneel" ? .
+TD251 attempt 4 KNEEL n n n n n
+TD287 ? ␅
+TD167356 ␆
+TD71 ? 
+TD83 question done
+TD185 > ␅
+TD623739 ␆*
+TD86 > *
+TD504322 questioning: ["levee", "#3"]
+TD216 #2 _____ ~AERT -HKLMNS  📋 "levee" ? ␅
+TD11607473 ␆____E ~ RAT
+TD96 #2 _____ ~AERT -HKLMNS  📋 "levee" ? ____E ~ RAT
+TD177 attempt 1 LEVEE n n n n Y
+TD101 #3 ___E_ ~L -AHKMNRST  📋 "levee" ? ␅
+TD703675 ␆/it
+TD93 #3 ___E_ ~L -AHKMNRST  📋 "levee" ? /it
+TD252 attempt 2 LEVEE Y Y Y Y Y
+TD95 #5 _AR_S -AEHKLMNRST  📋 "levee" ? ␅
+TD1335600 ␆.
+TD88 #5 _AR_S -AEHKLMNRST  📋 "levee" ? .
+TD252 attempt 4 LEVEE n n n n n
+TD295 ? ␅
+TD191404 ␆
+TD77 ? 
+TD109 question done
+TD326 > ␅
+TD863783 ␆*
+TD109 > *
+TD531889 questioning: ["irate", "#2"]
+TD197 #2 ____E ~ART -HKLMNSV  📋 "irate" ? ␅
+TD2707397 ␆/it
+TD92 #2 ____E ~ART -HKLMNSV  📋 "irate" ? /it
+TD257 attempt 1 IRATE Y Y Y Y Y
+TD96 #5 _AR_S -AEHKLMNRSTV  📋 "irate" ? ␅
+TD1591603 ␆.
+TD95 #5 _AR_S -AEHKLMNRSTV  📋 "irate" ? .
+TD267 attempt 4 IRATE n n n n n
+TD223 ? ␅
+TD159545 ␆
+TD111 ? 
+TD115 question done
+TD310 > ␅
+TD615738 ␆*
+TD100 > *
+TD510471 questioning: ["yards", "#5"]
+TD196 #5 _AR_S -AEHIKLMNRSTV  📋 "yards" ? ␅
+TD5128859 ␆/it
+TD96 #5 _AR_S -AEHIKLMNRSTV  📋 "yards" ? /it
+TD264 attempt 4 YARDS Y Y Y Y Y
+TD310 ? ␅
+TD783362 ␆
+TD104 ? 
+TD114 question done
+TD21763 📋> ␅
+TD5890668 ␆squareword.org 1510: 7 guesses
+TD98 📋> squareword.org 1510: 7 guesses
+TD18 📋> ␅
+TD40 ␆
+TD8 📋> 
+TD6 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟨🟨🟨🟨🟩
+TD4 📋> 🟨🟨🟨🟨🟩
+TD5 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟨🟩🟩🟨🟩
+TD4 📋> 🟨🟩🟩🟨🟩
+TD4 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD271333 ␆#squareword #squareword1510
+TD95 📋> #squareword #squareword1510
+TD14 📋> ␅
+TD199827 ␄
+TD169 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1510: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1510"}
+TD916 result: "squareword.org 1510: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1510"
+TD118 📆 2026-03-21 ? ␅
+TD206742 ␆
+TD65 📆 2026-03-21 ? 
