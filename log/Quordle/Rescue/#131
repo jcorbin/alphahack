@@ -1,0 +1,155 @@
+T3.520430145028513 now: 2026-03-21T09:18:41EDT
+TD115 site: m-w.com/games/quordle/#/rescue
+TD17 wordlist: nwl2023.txt
+TD5 num_words: 4
+TD94  ...␅
+TD445962 ␆
+TD71  ...
+TD318422 > ␅
+TD3729817 ␆tried query borax
+TD118 > tried query borax
+TD332 questioning: QUERY BORAX
+TD153 Rescue #1 _____? ␅
+TD1519232 ␆nnMnn
+TD76 Rescue #1 _____? nnMnn
+TD500 attempt: 0 QUERY n n m n n
+TD92 Rescue #1 _____ ~E -QRUY? ␅
+TD1999444 ␆nMnnn
+TD102 Rescue #1 _____ ~E -QRUY? nMnnn
+TD246 attempt: 0 BORAX n m n n n
+TD109 Rescue #2 _____? ␅
+TD1583535 ␆nnMnn
+TD160 Rescue #2 _____? nnMnn
+TD284 attempt: 1 QUERY n n m n n
+TD115 Rescue #2 _____ ~E -QRUY? ␅
+TD1455319 ␆YMnnn
+TD64 Rescue #2 _____ ~E -QRUY? YMnnn
+TD136 attempt: 1 BORAX Y m n n n
+TD55 Rescue #3 _____? ␅
+TD1231906 ␆nnnMn
+TD80 Rescue #3 _____? nnnMn
+TD152 attempt: 2 QUERY n n n m n
+TD75 Rescue #3 _____ ~R -EQUY? ␅
+TD4047601 ␆nYMMn
+TD78 Rescue #3 _____ ~R -EQUY? nYMMn
+TD157 attempt: 2 BORAX n Y m m n
+TD69 Rescue #4 _____? ␅
+TD1432057 ␆nnnnn
+TD84 Rescue #4 _____? nnnnn
+TD153 attempt: 3 QUERY n n n n n
+TD69 Rescue #4 _____ -EQRUY? ␅
+TD1559362 ␆YYnnn
+TD80 Rescue #4 _____ -EQRUY? YYnnn
+TD150 attempt: 3 BORAX Y Y n n n
+TD371326 > ␅
+TD1484407 ␆*
+TD69 > *
+TD3008 ? ␅
+TD836955 ␆1
+TD84 ? 1
+TD149 questioning: stone
+TD110 Rescue #1 _____ ~EO -ABQRUXY? ␅
+TD2880681 ␆YnYnY
+TD81 Rescue #1 _____ ~EO -ABQRUXY? YnYnY
+TD156 attempt: 0 STONE Y n Y n Y
+TD74 Rescue #2 B____ ~EO -AQRUXY? ␅
+TD1702797 ␆nnYnY
+TD77 Rescue #2 B____ ~EO -AQRUXY? nnYnY
+TD152 attempt: 1 STONE n n Y n Y
+TD81 Rescue #3 _O___ ~AR -BEQUXY? ␅
+TD1159616 ␆nnMnn
+TD74 Rescue #3 _O___ ~AR -BEQUXY? nnMnn
+TD148 attempt: 2 STONE n n m n n
+TD74 Rescue #4 BO___ -AEQRUXY? ␅
+TD1175729 ␆nnMMn
+TD74 Rescue #4 BO___ -AEQRUXY? nnMMn
+TD146 attempt: 3 STONE n n m m n
+TD340597 > ␅
+TD1243163 ␆*
+TD95 > *
+TD455 questioning: roach
+TD127 Rescue #1 S_O_E -ABNQRTUXY? ␅
+TD3335490 ␆nMnMn
+TD100 Rescue #1 S_O_E -ABNQRTUXY? nMnMn
+TD235 attempt: 0 ROACH n m n m n
+TD116 Rescue #2 B_O_E -ANQRSTUXY? ␅
+TD1271530 ␆nMnnn
+TD92 Rescue #2 B_O_E -ANQRSTUXY? nMnnn
+TD257 attempt: 1 ROACH n m n n n
+TD113 Rescue #3 _O___ ~AR -BENQSTUXY? ␅
+TD1703389 ␆YYYYY
+TD65 Rescue #3 _O___ ~AR -BENQSTUXY? YYYYY
+TD129 attempt: 2 ROACH Y Y Y Y Y
+TD66 Rescue #4 BO___ ~N -AEQRSTUXY? ␅
+TD1223712 ␆nYnnn
+TD66 Rescue #4 BO___ ~N -AEQRSTUXY? nYnnn
+TD133 attempt: 3 ROACH n Y n n n
+TD192344 > ␅
+TD735608 ␆*
+TD61 > *
+TD246 questioning: scope
+TD67 Rescue #1 S_O_E ~C -ABHNQRTUXY? ␅
+TD3935610 ␆YYYYY
+TD87 Rescue #1 S_O_E ~C -ABHNQRTUXY? YYYYY
+TD202 attempt: 0 SCOPE Y Y Y Y Y
+TD109 Rescue #2 B_O_E -ACHNQRSTUXY? ␅
+TD1543676 ␆nnYnY
+TD75 Rescue #2 B_O_E -ACHNQRSTUXY? nnYnY
+TD148 attempt: 1 SCOPE n n Y n Y
+TD78 Rescue #4 BO___ ~N -ACEHQRSTUXY? ␅
+TD2359620 ␆nnMnn
+TD76 Rescue #4 BO___ ~N -ACEHQRSTUXY? nnMnn
+TD156 attempt: 3 SCOPE n n m n n
+TD188715 > ␅
+TD539173 ␆*
+TD98 > *
+TD432 questioning: bongo
+TD133 Rescue #2 B_O_E -ACHNPQRSTUXY? ␅
+TD4607275 ␆YMnnn
+TD79 Rescue #2 B_O_E -ACHNPQRSTUXY? YMnnn
+TD156 attempt: 1 BONGO Y m n n n
+TD84 Rescue #4 BO___ ~N -ACEHPQRSTUXY? ␅
+TD1399768 ␆YYYYY
+TD95 Rescue #4 BO___ ~N -ACEHPQRSTUXY? YYYYY
+TD214 attempt: 3 BONGO Y Y Y Y Y
+TD86455 > ␅
+TD977233 ␆*
+TD77 > *
+TD371 ? ␅
+TD1439467 ␆1
+TD95 ? 1
+TD179 questioning: biome
+TD145 Rescue #2 B_O_E -ACGHNPQRSTUXY O:1? ␅
+TD4151717 ␆YnYnY
+TD75 Rescue #2 B_O_E -ACGHNPQRSTUXY O:1? YnYnY
+TD164 attempt: 1 BIOME Y n Y n Y
+TD94275 > ␅
+TD545399 ␆*
+TD99 > *
+TD437 questioning: bloke
+TD134 Rescue #2 B_O_E -ACGHIMNPQRSTUXY? ␅
+TD2879348 ␆YYYYY
+TD93 Rescue #2 B_O_E -ACGHIMNPQRSTUXY? YYYYY
+TD212 attempt: 1 BLOKE Y Y Y Y Y
+TD118 📋> ␅
+TD4248308 ␆Daily Rescue 131
+TD106 📋> Daily Rescue 131
+TD18 📋> ␅
+TD42 ␆5️⃣8️⃣
+TD7 📋> 5️⃣8️⃣
+TD6 📋> ␅
+TD14 ␆4️⃣6️⃣
+TD5 📋> 4️⃣6️⃣
+TD5 📋> ␅
+TD11 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD239149 ␆
+TD75 📋> 
+TD7 📋> ␅
+TD176176 ␄
+TD127 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Rescue 131\n5\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD660 result: "Daily Rescue 131\n5\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD80 📆 2026-03-21 ? ␅
+TD142596 ␆
+TD57 📆 2026-03-21 ? 
