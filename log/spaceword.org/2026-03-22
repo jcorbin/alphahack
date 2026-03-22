@@ -1,0 +1,114 @@
+T2909.814206428011 now: 2026-03-22T10:45:49EDT
+TD105 site: spaceword.org
+TD21 wordlist: nwl2023.txt
+TD30  ...␅
+TD478703 ␆
+TD103  ...
+TD78 🧩  ? ␅
+TD7151523 ␆daily 20260322
+TD98 🧩  ? daily 20260322
+TD601 puzzle_id: 2026-03-22
+TD41 num letters (default: 21) ? ␅
+TD959809 ␆
+TD100 num letters (default: 21) ? 
+TD67 num_letters: 21
+TD208 letters? ␅
+TD4279064 ␆aabdeei
+TD94 letters? aabdeei
+TD159 letters: |AABDEEI|
+TD124 letters? ␅
+TD1632261 ␆iilnoop
+TD98 letters? iilnoop
+TD182 letters: |AABDEEIIILNOOP|
+TD121 letters? ␅
+TD2583339 ␆qrtuvwy
+TD94 letters? qrtuvwy
+TD161 letters: |AABDEEIIILNOOPQRTUVWY|
+TD124 letters. ␅
+TD479945 ␆
+TD102 letters. 
+TD57636 [doit:100]> ␅
+TD3069561 ␆/sea -clear -cap 1024
+TD95 [doit:100]> /sea -clear -cap 1024
+TD137192178 search bf76f2 [ 1024 cap:1024 may:9743 done:1 dead:1 ]> ␅
+TD461789451 ␆show done
+TD96 search bf76f2 [ 1024 cap:1024 may:9743 done:1 dead:1 ]> show done
+TD3020 search bf76f2 [ 1024 cap:1024 may:9743 done:1 dead:1 ]> ␅
+TD2653036 ␆show 1
+TD70 search bf76f2 [ 1024 cap:1024 may:9743 done:1 dead:1 ]> show 1
+TD1209 search bf76f2 [ 1024 cap:1024 may:9743 done:1 dead:1 ]> ␅
+TD2286667 ␆show 1
+TD109 search bf76f2 [ 1024 cap:1024 may:9743 done:1 dead:1 ]> show 1
+TD877 search bf76f2 [ 1024 cap:1024 may:9743 done:1 dead:1 ]> ␅
+TD1966939 ␆ret
+TD66 search bf76f2 [ 1024 cap:1024 may:9743 done:1 dead:1 ]> ret
+TD274 change: 1 I
+TD7 change: 11 N
+TD3 change: 21 V
+TD2 change: 31 I
+TD2 change: 41 T
+TD2 change: 43 B
+TD2 change: 44 A
+TD2 change: 45 Y
+TD2 change: 46 W
+TD2 change: 47 O
+TD2 change: 48 P
+TD2 change: 51 A
+TD2 change: 58 E
+TD2 change: 61 L
+TD2 change: 62 I
+TD2 change: 63 Q
+TD2 change: 64 U
+TD2 change: 65 O
+TD2 change: 66 R
+TD2 change: 67 E
+TD2 change: 68 D
+TD23255 [doit:2144]> ␅
+TD200252 ␆/
+TD69 [doit:2144]> /
+TD23014 [doit:2144]> ␅
+TD5153243 ␆/sea -cap 1024
+TD97 [doit:2144]> /sea -cap 1024
+TD29646461 Z c$_Lq%}Px!Q7Fz#u}V%(HZV0*NXpMkwK6oYQt(uO0Y5k^49-HxhA22WMuz(bC@45W1Y8vqd^`g~{exUx;EG5900000|Nj
+TD59108155 search ccc051 [ 1023 cap:1024 may:11115 prune:33387 reject:1 ]> ␅
+TD886170 ␄
+TD17546 [doit:2144]> ␅
+TD854469 ␆/res
+TD97 [doit:2144]> /res
+TD369 📋> ␅
+TD656758 ␆✨ Spaceword.org Daily 2026-03-22 ✨
+TD101 📋> ✨ Spaceword.org Daily 2026-03-22 ✨
+TD13 📋> ␅
+TD43 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD13 ␆🏆 Score: 2144
+TD5 📋> 🏆 Score: 2144
+TD5 📋> ␅
+TD11 ␆🏅 Rank: 156/194 😀
+TD5 📋> 🏅 Rank: 156/194 😀
+TD5 📋> ␅
+TD11 ␆🧩 Tiles: 21/21 ✅
+TD4 📋> 🧩 Tiles: 21/21 ✅
+TD4 📋> ␅
+TD11 ␆📏 Space Bonus: +44
+TD4 📋> 📏 Space Bonus: +44
+TD4 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD11 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD16 ␆Play at https://spaceword.org
+TD5 📋> Play at https://spaceword.org
+TD6 📋> ␅
+TD295227 ␆#spaceword
+TD103 📋> #spaceword
+TD13 📋> ␅
+TD215097 ␄
+TD174 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-03-22 \u2728\n\n\ud83c\udfc6 Score: 2144\n\ud83c\udfc5 Rank: 156/194 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +44\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TD1425 result: "\u2728 Spaceword.org Daily 2026-03-22 \u2728\n\n\ud83c\udfc6 Score: 2144\n\ud83c\udfc5 Rank: 156/194 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +44\n\n\nPlay at https://spaceword.org\n#spaceword"
+TD22951 [prior:2144]> ␅
+TD871454 ␆/store
+TD99 [prior:2144]> /store
