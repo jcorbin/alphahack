@@ -1,0 +1,89 @@
+T62.796724026004085 now: 2026-03-22T09:49:14EDT
+TD88 site: alphaguess.com
+TD142622 loaded 196524 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (80 words excluded) asof 26ba2635cec524096cd2bf8dd60a0a431657abc4
+TD117  ...␅
+TD1000107 ␆
+TD104  ...
+TD218 [0 : 98217 : 196524] mach? ␅
+TD3263255 ␆
+TD76 [0 : 98217 : 196524] mach? 
+TD111 [0 : 98217 : 196524] mach? ␅
+TD1959904 ␆a
+TD128 [0 : 98217 : 196524] mach? a
+TD348 progress: 1 98217 mach
+TD308 [98218 : 147372 : 196524] rhumb? ␅
+TD1439199 ␆b
+TD107 [98218 : 147372 : 196524] rhumb? b
+TD118 progress: -1 147372 rhumb
+TD105 [98218 : 122778 : 147372] parr? ␅
+TD1287557 ␆a
+TD97 [98218 : 122778 : 147372] parr? a
+TD174 progress: 1 122778 parr
+TD131 [122779 : 135069 : 147372] proper? ␅
+TD1152121 ␆a
+TD99 [122779 : 135069 : 147372] proper? a
+TD105 progress: 1 135069 proper
+TD115 [135070 : 140517 : 147372] rec? ␅
+TD1263673 ␆a
+TD97 [135070 : 140517 : 147372] rec? a
+TD101 progress: 1 140517 rec
+TD107 [140518 : 143941 : 147372] reminisce? ␅
+TD1487332 ␆b
+TD92 [140518 : 143941 : 147372] reminisce? b
+TD103 progress: -1 143941 reminisce
+TD102 [140518 : 142213 : 143941] ref? ␅
+TD1215677 ␆b
+TD103 [140518 : 142213 : 143941] ref? b
+TD102 progress: -1 142213 ref
+TD226 [140518 : 141352 : 142213] recto? ␅
+TD1239651 ␆b
+TD98 [140518 : 141352 : 142213] recto? b
+TD102 progress: -1 141352 recto
+TD157 [140518 : 140934 : 141352] recollect? ␅
+TD1175557 ␆b
+TD102 [140518 : 140934 : 141352] recollect? b
+TD99 progress: -1 140934 recollect
+TD103 [140518 : 140723 : 140934] rechart? ␅
+TD1263612 ␆b
+TD121 [140518 : 140723 : 140934] rechart? b
+TD102 progress: -1 140723 rechart
+TD139 [140518 : 140617 : 140723] recce? ␅
+TD1167702 ␆a
+TD103 [140518 : 140617 : 140723] recce? a
+TD105 progress: 1 140617 recce
+TD108 [140618 : 140667 : 140723] recept? ␅
+TD1320237 ␆b
+TD101 [140618 : 140667 : 140723] recept? b
+TD101 progress: -1 140667 recept
+TD190 [140618 : 140641 : 140667] recement? ␅
+TD1215003 ␆b
+TD104 [140618 : 140641 : 140667] recement? b
+TD107 progress: -1 140641 recement
+TD162 [140618 : 140625 : 140641] receipt? ␅
+TD1944416 ␆it
+TD100 [140618 : 140625 : 140641] receipt? it
+TD105 progress: 0 140625 receipt
+TD25 [140618 : 140625 : 140641] <Done>.
+TD122 📋> ␅
+TD2856178 ␆🧩 Puzzle #972
+TD77 📋> 🧩 Puzzle #972
+TD11 📋> ␅
+TD30 ␆🤔 14 guesses
+TD6 📋> 🤔 14 guesses
+TD6 📋> ␅
+TD12 ␆⏱️ 16s
+TD7 📋> ⏱️ 16s
+TD5 📋> ␅
+TD239052 ␆🔗 alphaguess.com/972
+TD95 📋> 🔗 alphaguess.com/972
+TD11 📋> ␅
+TD127909 ␄
+TD152 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #972\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/972"}
+TD78 result: "\ud83e\udde9 Puzzle #972\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/972"
+TD10 result puzzle: 972
+TD5 result guesses: 14
+TD3 result time: 16s
+TD2 result link: alphaguess.com/972
+TD67 📆 2026-03-22 ? ␅
+TD135270 ␆
+TD95 📆 2026-03-22 ? 
