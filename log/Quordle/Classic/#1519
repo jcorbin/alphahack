@@ -1,0 +1,195 @@
+T452.58257500402397 now: 2026-03-23T08:25:04EDT
+TD76 site: m-w.com/games/quordle/#/
+TD14 wordlist: nwl2023.txt
+TD3 num_words: 4
+TD80  ...␅
+TD111307 ␆
+TD92  ...
+TD370921 > ␅
+TD2548978 ␆*
+TD91 > *
+TD33659 ? ␅
+TD854282 ␆1
+TD89 ? 1
+TD178 questioning: pares
+TD156 Classic #1 _____? ␅
+TD2935476 ␆nYnYn
+TD62 Classic #1 _____? nYnYn
+TD226 attempt: 0 PARES n Y n Y n
+TD61 Classic #2 _____? ␅
+TD1487639 ␆nMMnn
+TD63 Classic #2 _____? nMMnn
+TD139 attempt: 1 PARES n m m n n
+TD60 Classic #3 _____? ␅
+TD1215757 ␆nMMnn
+TD66 Classic #3 _____? nMMnn
+TD139 attempt: 2 PARES n m m n n
+TD59 Classic #4 _____? ␅
+TD2431841 ␆nYnnn
+TD95 Classic #4 _____? nYnnn
+TD224 attempt: 3 PARES n Y n n n
+TD307289 > ␅
+TD805039 ␆*
+TD85 > *
+TD2120 ? ␅
+TD5381191 ␆10
+TD98 ? 10
+TD179 questioning: vaunt
+TD159 Classic #1 _A_E_ -PRS? ␅
+TD2559662 ␆nYnnn
+TD93 Classic #1 _A_E_ -PRS? nYnnn
+TD223 attempt: 0 VAUNT n Y n n n
+TD109 Classic #2 _____ ~AR -EPS? ␅
+TD1903518 ␆nMnnn
+TD99 Classic #2 _____ ~AR -EPS? nMnnn
+TD222 attempt: 1 VAUNT n m n n n
+TD110 Classic #3 _____ ~AR -EPS? ␅
+TD1311551 ␆nMMnn
+TD72 Classic #3 _____ ~AR -EPS? nMMnn
+TD155 attempt: 2 VAUNT n m m n n
+TD75 Classic #4 _A___ -EPRS? ␅
+TD2311811 ␆nYnMM
+TD90 Classic #4 _A___ -EPRS? nYnMM
+TD215 attempt: 3 VAUNT n Y n m m
+TD454736 > ␅
+TD576925 ␆*
+TD96 > *
+TD1117 ? ␅
+TD6255210 ␆10
+TD157 ? 10
+TD136 questioning: frail
+TD94 Classic #1 _A_E_ -NPRSTUV? ␅
+TD3623405 ␆nnMnY
+TD93 Classic #1 _A_E_ -NPRSTUV? nnMnY
+TD234 attempt: 0 FRAIL n n m n Y
+TD112 Classic #2 _____ ~AR -ENPSTUV? ␅
+TD1751501 ␆nMYnn
+TD89 Classic #2 _____ ~AR -ENPSTUV? nMYnn
+TD237 attempt: 1 FRAIL n m Y n n
+TD113 Classic #3 _____ ~ARU -ENPSTV? ␅
+TD1135552 ␆nMMnn
+TD109 Classic #3 _____ ~ARU -ENPSTV? nMMnn
+TD267 attempt: 2 FRAIL n m m n n
+TD128 Classic #4 _A___ ~NT -EPRSUV? ␅
+TD1175327 ␆nnMnn
+TD79 Classic #4 _A___ ~NT -EPRSUV? nnMnn
+TD156 attempt: 3 FRAIL n n m n n
+TD329234 > ␅
+TD1294792 ␆*
+TD93 > *
+TD794 ? ␅
+TD894970 ␄
+TD151 <EOF>
+TD291907 > ␅
+TD891839 ␆* 1
+TD82 > * 1
+TD96189 ? ␅
+TD4967942 ␄
+TD103 <EOF>
+TD387011 > ␅
+TD1588726 ␆* 4
+TD79 > * 4
+TD97628 ? ␅
+TD15198608 ␆2
+TD107 ? 2
+TD174 questioning: tango
+TD152 Classic #1 _A_EL -FINPRSTUV? ␅
+TD3295644 ␆nYnMn
+TD94 Classic #1 _A_EL -FINPRSTUV? nYnMn
+TD228 attempt: 0 TANGO n Y n m n
+TD113 Classic #2 __A__ ~R -EFILNPSTUV? ␅
+TD1311467 ␆nMnnM
+TD85 Classic #2 __A__ ~R -EFILNPSTUV? nMnnM
+TD234 attempt: 1 TANGO n m n n m
+TD113 Classic #3 _____ ~ARU -EFILNPSTV? ␅
+TD1679726 ␆nMnMn
+TD70 Classic #3 _____ ~ARU -EFILNPSTV? nMnMn
+TD151 attempt: 2 TANGO n m n m n
+TD73 Classic #4 _A___ ~NT -EFILPRSUV? ␅
+TD1831690 ␆YYYYn
+TD109 Classic #4 _A___ ~NT -EFILPRSUV? YYYYn
+TD216 attempt: 3 TANGO Y Y Y Y n
+TD397957 > ␅
+TD1225698 ␆*
+TD77 > *
+TD282 questioning: bagel
+TD80 Classic #1 _A_EL ~G -FINOPRSTUV? ␅
+TD4343787 ␆YYYYY
+TD97 Classic #1 _A_EL ~G -FINOPRSTUV? YYYYY
+TD214 attempt: 0 BAGEL Y Y Y Y Y
+TD120 Classic #2 __A__ ~OR -EFGILNPSTUV? ␅
+TD1255695 ␆nMnnn
+TD90 Classic #2 __A__ ~OR -EFGILNPSTUV? nMnnn
+TD171 attempt: 1 BAGEL n m n n n
+TD82 Classic #3 _____ ~AGRU -EFILNOPSTV? ␅
+TD1455375 ␆nMYnn
+TD96 Classic #3 _____ ~AGRU -EFILNOPSTV? nMYnn
+TD226 attempt: 2 BAGEL n m Y n n
+TD118 Classic #4 TANG_ -EFILOPRSUV? ␅
+TD1527368 ␆nYMnn
+TD80 Classic #4 TANG_ -EFILOPRSUV? nYMnn
+TD155 attempt: 3 BAGEL n Y m n n
+TD305783 > ␅
+TD798040 ␆*
+TD95 > *
+TD630 questioning: augur
+TD121 Classic #2 __A__ ~OR -BEFGILNPSTUV? ␅
+TD5023445 ␆MnnnM
+TD106 Classic #2 __A__ ~OR -BEFGILNPSTUV? MnnnM
+TD220 attempt: 1 AUGUR m n n n m
+TD84 Classic #3 __G__ ~ARU -BEFILNOPSTV? ␅
+TD1703593 ␆YYYYY
+TD92 Classic #3 __G__ ~ARU -BEFILNOPSTV? YYYYY
+TD212 attempt: 2 AUGUR Y Y Y Y Y
+TD118 Classic #4 TANG_ -BEFILOPRSUV? ␅
+TD1327463 ␆MnMnn
+TD76 Classic #4 TANG_ -BEFILOPRSUV? MnMnn
+TD151 attempt: 3 AUGUR m n m n n
+TD173361 > ␅
+TD1354524 ␆*
+TD93 > *
+TD448 ? ␅
+TD2735430 ␆1
+TD84 ? 1
+TD147 questioning: tangy
+TD112 Classic #2 __A__ ~OR -BEFGILNPSTUV? ␅
+TD4055695 ␆nMnnn
+TD96 Classic #2 __A__ ~OR -BEFGILNPSTUV? nMnnn
+TD228 attempt: 1 TANGY n m n n n
+TD127 Classic #4 TANG_ -BEFILOPRSUV? ␅
+TD1295851 ␆YYYYY
+TD96 Classic #4 TANG_ -BEFILOPRSUV? YYYYY
+TD160 attempt: 3 TANGY Y Y Y Y Y
+TD101422 > ␅
+TD745931 ␆*
+TD75 > *
+TD339 ? ␅
+TD2103651 ␆1
+TD75 ? 1
+TD151 questioning: hoard
+TD109 Classic #2 __A__ ~OR -BEFGILNPSTUVY? ␅
+TD3288044 ␆YYYYY
+TD94 Classic #2 __A__ ~OR -BEFGILNPSTUVY? YYYYY
+TD217 attempt: 1 HOARD Y Y Y Y Y
+TD104 📋> ␅
+TD4944071 ␆🙂 Daily Quordle 1519
+TD94 📋> 🙂 Daily Quordle 1519
+TD12 📋> ␅
+TD62 ␆5️⃣8️⃣
+TD8 📋> 5️⃣8️⃣
+TD6 📋> ␅
+TD20 ␆6️⃣7️⃣
+TD5 📋> 6️⃣7️⃣
+TD5 📋> ␅
+TD17 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD295161 ␆
+TD96 📋> 
+TD13 📋> ␅
+TD199817 ␄
+TD173 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1519\n5\ufe0f\u20e38\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1686 result: "\ud83d\ude42 Daily Quordle 1519\n5\ufe0f\u20e38\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD106 📆 2026-03-23 ? ␅
+TD222045 ␆
+TD99 📆 2026-03-23 ? 
