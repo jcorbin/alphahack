@@ -1,0 +1,218 @@
+T842.1948917350092 now: 2026-03-23T08:31:34EDT
+TD75 site: squareword.org
+TD20 wordlist: nwl2023.txt
+TD27  ...␅
+TD1718888 ␆
+TD96  ...
+TD73 🧩  ? ␅
+TD2055752 ␆#1512
+TD67 🧩  ? #1512
+TD177 puzzle_id: #1512
+TD147 > ␅
+TD2615732 ␆*
+TD86 > *
+TD241504 try? ␅
+TD974365 ␆1
+TD110 try? 1
+TD364 questioning: ["reals", "#5"]
+TD387 #1 <IndexError>  📋 "reals" ? ␅
+TD3287146 ␆_____ ~ S
+TD90 #1 <IndexError>  📋 "reals" ? _____ ~ S
+TD695 attempt 0 REALS n n n n m
+TD135 #2 <IndexError>  📋 "reals" ? ␅
+TD2543645 ␆R____ ~ E
+TD80 #2 <IndexError>  📋 "reals" ? R____ ~ E
+TD205 attempt 1 REALS Y m n n n
+TD85 #3 <IndexError>  📋 "reals" ? ␅
+TD2119697 ␆_____ ~ EA
+TD103 #3 <IndexError>  📋 "reals" ? _____ ~ EA
+TD283 attempt 2 REALS n m m n n
+TD130 #4 <IndexError>  📋 "reals" ? ␅
+TD1751015 ␆_____ ~ EA
+TD74 #4 <IndexError>  📋 "reals" ? _____ ~ EA
+TD177 attempt 3 REALS n m m n n
+TD82 #5 <IndexError>  📋 "reals" ? ␅
+TD1951979 ␆____S ~ R
+TD80 #5 <IndexError>  📋 "reals" ? ____S ~ R
+TD265 attempt 4 REALS m n n n Y
+TD344 ? ␅
+TD215082 ␆
+TD96 ? 
+TD149 question done
+TD311 > ␅
+TD391405 ␆*
+TD96 > *
+TD547911 try? ␅
+TD1275973 ␆1
+TD78 try? 1
+TD228 questioning: ["ronde", "#2"]
+TD213 #1 _____ ~S -AELR  📋 "ronde" ? ␅
+TD4271490 ␆_____ ~ SO
+TD79 #1 _____ ~S -AELR  📋 "ronde" ? _____ ~ SO
+TD187 attempt 0 RONDE n m n n n
+TD104 #2 R____ ~E -ALS  📋 "ronde" ? ␅
+TD2496049 ␆RO__E 
+TD102 #2 R____ ~E -ALS  📋 "ronde" ? RO__E 
+TD268 attempt 1 RONDE Y Y n n Y
+TD156 #3 _____ ~AE -LRS  📋 "ronde" ? ␅
+TD2159037 ␆_____ ~ EAN
+TD98 #3 _____ ~AE -LRS  📋 "ronde" ? _____ ~ EAN
+TD260 attempt 2 RONDE n n m n m
+TD156 #4 _____ ~AE -LRS  📋 "ronde" ? ␅
+TD3431625 ␆_____ ~ EAN
+TD93 #4 _____ ~AE -LRS  📋 "ronde" ? _____ ~ EAN
+TD250 attempt 3 RONDE n n m n m
+TD154 #5 ____S ~R -AEL  📋 "ronde" ? ␅
+TD2439544 ␆____S ~ RO
+TD99 #5 ____S ~R -AEL  📋 "ronde" ? ____S ~ RO
+TD255 attempt 4 RONDE m m n n n
+TD357 ? ␅
+TD783139 ␆
+TD78 ? 
+TD107 question done
+TD189 > ␅
+TD647638 ␆*
+TD73 > *
+TD513120 try? ␅
+TD1502862 ␆1
+TD89 try? 1
+TD288 questioning: ["ghost", "#1"]
+TD349 #1 _____ ~OS -ADELNR  📋 "ghost" ? ␅
+TD2927201 ␆/it
+TD74 #1 _____ ~OS -ADELNR  📋 "ghost" ? /it
+TD186 attempt 0 GHOST Y Y Y Y Y
+TD66 #2 RO__E -ADLNS  📋 "ghost" ? ␅
+TD3567942 ␆RO__E ~ T
+TD111 #2 RO__E -ADLNS  📋 "ghost" ? RO__E ~ T
+TD250 attempt 1 GHOST n n n n m
+TD139 #3 _____ ~AEN -DLORS  📋 "ghost" ? ␅
+TD3015561 ␆_____ ~ EANT
+TD100 #3 _____ ~AEN -DLORS  📋 "ghost" ? _____ ~ EANT
+TD271 attempt 2 GHOST n n n n m
+TD148 #4 _____ ~AEN -DLORS  📋 "ghost" ? ␅
+TD4047446 ␆____T ~ EANG
+TD79 #4 _____ ~AEN -DLORS  📋 "ghost" ? ____T ~ EANG
+TD186 attempt 3 GHOST m n n n Y
+TD105 #5 ____S ~OR -ADELN  📋 "ghost" ? ␅
+TD3023621 ␆____S ~ ROT
+TD96 #5 ____S ~OR -ADELN  📋 "ghost" ? ____S ~ ROT
+TD257 attempt 4 GHOST n n m n m
+TD321 ? ␅
+TD335595 ␆
+TD81 ? 
+TD107 question done
+TD190 > ␅
+TD5775427 ␆*
+TD100 > *
+TD832235 questioning: ["agent", "#4"]
+TD188 #2 RO__E ~T -ADGHLNOS  📋 "agent" ? ␅
+TD4471390 ␆.
+TD79 #2 RO__E ~T -ADGHLNOS  📋 "agent" ? .
+TD197 attempt 1 AGENT n n n n m
+TD64 #3 _____ ~AENT -DGHLORS  📋 "agent" ? ␅
+TD847732 ␆.
+TD76 #3 _____ ~AENT -DGHLORS  📋 "agent" ? .
+TD194 attempt 2 AGENT m n m m m
+TD65 #4 ____T ~AEGN -DHLORS  📋 "agent" ? ␅
+TD631708 ␆/it
+TD100 #4 ____T ~AEGN -DHLORS  📋 "agent" ? /it
+TD268 attempt 3 AGENT Y Y Y Y Y
+TD99 #5 ____S ~ORT -ADEGHLNS  📋 "agent" ? ␅
+TD1247513 ␆.
+TD94 #5 ____S ~ORT -ADEGHLNS  📋 "agent" ? .
+TD272 attempt 4 AGENT n n n n m
+TD307 ? ␅
+TD159417 ␆
+TD97 ? 
+TD126 question done
+TD305 > ␅
+TD431520 ␆*
+TD96 > *
+TD1097497 try? ␅
+TD3574743 ␆1
+TD107 try? 1
+TD304 questioning: ["route", "#2"]
+TD378 #2 RO__E ~T -ADEGHLNOS  📋 "route" ? ␅
+TD862879 ␆/it
+TD107 #2 RO__E ~T -ADEGHLNOS  📋 "route" ? /it
+TD254 attempt 1 ROUTE Y Y Y Y Y
+TD99 #3 _____ ~AENT -DGHLORS  📋 "route" ? ␅
+TD1479571 ␆.
+TD156 #3 _____ ~AENT -DGHLORS  📋 "route" ? .
+TD256 attempt 2 ROUTE n n n m m
+TD96 #5 ____S ~ORT -ADEGHLNS  📋 "route" ? ␅
+TD1327483 ␆.
+TD111 #5 ____S ~ORT -ADEGHLNS  📋 "route" ? .
+TD262 attempt 4 ROUTE m m n m n
+TD301 ? ␅
+TD167308 ␆
+TD105 ? 
+TD116 question done
+TD321 > ␅
+TD463475 ␆*
+TD116 > *
+TD1029956 try? ␅
+TD1937844 ␆2
+TD82 try? 2
+TD221 questioning: ["eaten", "#3"]
+TD214 #3 _____ ~AENT -DGHLORSU  📋 "eaten" ? ␅
+TD2447472 ␆/it
+TD102 #3 _____ ~AENT -DGHLORSU  📋 "eaten" ? /it
+TD250 attempt 2 EATEN Y Y Y Y Y
+TD68 #5 ____S ~ORT -ADEGHLNSU  📋 "eaten" ? ␅
+TD1095725 ␆.
+TD74 #5 ____S ~ORT -ADEGHLNSU  📋 "eaten" ? .
+TD198 attempt 4 EATEN n n m n n
+TD305 ? ␅
+TD159392 ␆
+TD99 ? 
+TD116 question done
+TD324 > ␅
+TD1639483 ␆*
+TD95 > *
+TD1060417 questioning: ["tyros", "#5"]
+TD251 #5 ____S ~ORT -ADEGHLNSU  📋 "tyros" ? ␅
+TD7211136 ␆/it
+TD101 #5 ____S ~ORT -ADEGHLNSU  📋 "tyros" ? /it
+TD263 attempt 4 TYROS Y Y Y Y Y
+TD300 ? ␅
+TD1711577 ␆
+TD103 ? 
+TD114 question done
+TD21930 📋> ␅
+TD4154340 ␆squareword.org 1512: 7 guesses
+TD92 📋> squareword.org 1512: 7 guesses
+TD13 📋> ␅
+TD43 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟨🟨🟨🟨🟨
+TD4 📋> 🟨🟨🟨🟨🟨
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟨🟨🟨🟩
+TD4 📋> 🟨🟨🟨🟨🟩
+TD4 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD18 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD231132 ␆#squareword #squareword1512
+TD95 📋> #squareword #squareword1512
+TD13 📋> ␅
+TD183937 ␄
+TD179 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1512: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1512"}
+TD1136 result: "squareword.org 1512: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1512"
+TD69 📆 2026-03-23 ? ␅
+TD166536 ␆
+TD98 📆 2026-03-23 ? 
