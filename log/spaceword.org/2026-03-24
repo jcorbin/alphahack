@@ -1,0 +1,178 @@
+T4999.3654106500035 now: 2026-03-24T09:25:20EDT
+TD96 site: spaceword.org
+TD25 wordlist: nwl2023.txt
+TD45  ...␅
+TD536564 ␆
+TD101  ...
+TD119 🧩  ? ␅
+TD5647731 ␆daily 20260324
+TD71 🧩  ? daily 20260324
+TD470 puzzle_id: 2026-03-24
+TD39 num letters (default: 21) ? ␅
+TD2895714 ␆
+TD101 num letters (default: 21) ? 
+TD153 num_letters: 21
+TD481 letters? ␅
+TD2783173 ␆aaacdde
+TD71 letters? aaacdde
+TD134 letters: |AAACDDE|
+TD86 letters? ␅
+TD2551643 ␆eegikno
+TD71 letters? eegikno
+TD127 letters: |AAACDDEEEGIKNO|
+TD80 letters? ␅
+TD2127811 ␆opqrtux
+TD100 letters? opqrtux
+TD158 letters: |AAACDDEEEGIKNOOPQRTUX|
+TD133 letters. ␅
+TD343656 ␆
+TD94 letters. 
+TD75295 [doit:100]> ␅
+TD4228595 ␆/sea -cap 512
+TD90 [doit:100]> /sea -cap 512
+TD57396116 search af0cb6 [ 512 cap:512 may:5544 done:2 dead:2 ]> ␅
+TD707726227 ␆show done
+TD99 search af0cb6 [ 512 cap:512 may:5544 done:2 dead:2 ]> show done
+TD1537 search af0cb6 [ 512 cap:512 may:5544 done:2 dead:2 ]> ␅
+TD1526447 ␆show 1
+TD95 search af0cb6 [ 512 cap:512 may:5544 done:2 dead:2 ]> show 1
+TD989 search af0cb6 [ 512 cap:512 may:5544 done:2 dead:2 ]> ␅
+TD1398911 ␆ret
+TD98 search af0cb6 [ 512 cap:512 may:5544 done:2 dead:2 ]> ret
+TD382 change: 1 E
+TD14 change: 11 X
+TD6 change: 21 A
+TD5 change: 31 C
+TD5 change: 41 T
+TD5 change: 43 Q
+TD5 change: 44 U
+TD4 change: 45 A
+TD5 change: 46 K
+TD4 change: 47 E
+TD4 change: 48 D
+TD5 change: 51 E
+TD5 change: 58 A
+TD5 change: 61 D
+TD5 change: 62 R
+TD5 change: 63 O
+TD5 change: 64 O
+TD5 change: 65 P
+TD4 change: 66 I
+TD5 change: 67 N
+TD4 change: 68 G
+TD23817 [doit:2144]> ␅
+TD5951704 ␆/sea -cap 1024
+TD77 [doit:2144]> /sea -cap 1024
+TD25820971 Z c$_Lq%}Px!Q7Fz#u}U*EHcd@YNXpMkwK6oYQgBs(fe1Lu5zcakvqBUCLmj<cT@+wC92FE?g8cmhJpJ6^ibwze00030{{
+TD60333410 Z DjIxF0ssI2|Nj
+TD135 Z !s8@t0DH*6LJ1mjjtUAP@K8eNa3M0J00000|Nj
+TD13040245 Z 8ib()00030{{
+TD139 Z 8ib()00030{{
+TD234170 search f135ed [ 1023 cap:1024 may:8302 prune:3642 dead:16 reject:2 done:10 ]> ␅
+TD330760187 ␆show done
+TD106 search f135ed [ 1023 cap:1024 may:8302 prune:3642 dead:16 reject:2 done:10 ]> show done
+TD3365 search f135ed [ 1023 cap:1024 may:8302 prune:3642 dead:16 reject:2 done:10 ]> ␅
+TD3572540 ␆show 5
+TD128 search f135ed [ 1023 cap:1024 may:8302 prune:3642 dead:16 reject:2 done:10 ]> show 5
+TD1171 search f135ed [ 1023 cap:1024 may:8302 prune:3642 dead:16 reject:2 done:10 ]> ␅
+TD4294997 ␆ret
+TD135 search f135ed [ 1023 cap:1024 may:8302 prune:3642 dead:16 reject:2 done:10 ]> ret
+TD359 change: 32 
+TD9 change: 1 
+TD4 change: 32 
+TD4 change: 11 
+TD3 change: 32 
+TD3 change: 21 
+TD2 change: 32 
+TD2 change: 31 
+TD2 change: 32 
+TD3 change: 41 
+TD3 change: 32 
+TD2 change: 43 
+TD2 change: 32 
+TD3 change: 44 
+TD3 change: 32 
+TD2 change: 45 
+TD2 change: 32 
+TD2 change: 46 
+TD2 change: 32 
+TD2 change: 48 
+TD4 change: 32 D
+TD3 change: 51 
+TD3 change: 61 
+TD2 change: 58 D
+TD2 change: 61 
+TD2 change: 61 
+TD2 change: 33 E
+TD3 change: 62 
+TD2 change: 34 
+TD2 change: 63 
+TD2 change: 34 
+TD2 change: 64 
+TD2 change: 34 
+TD2 change: 65 
+TD2 change: 34 P
+TD2 change: 66 
+TD4 change: 35 O
+TD5 change: 67 
+TD2 change: 68 A
+TD1 change: 36 R
+TD2 change: 37 T
+TD2 change: 53 Q
+TD1 change: 54 U
+TD1 change: 55 A
+TD2 change: 56 K
+TD1 change: 57 E
+TD1 change: 72 C
+TD1 change: 73 O
+TD2 change: 74 A
+TD1 change: 75 X
+TD1 change: 76 I
+TD1 change: 77 N
+TD1 change: 78 G
+TD20243 [doit:2165]> ␅
+TD1666804 ␆/sea -cap 1024
+TD95 [doit:2165]> /sea -cap 1024
+TD32612750 Z LUNLUp;=n8CH{y*0xqrr{y`yVQ3{Jfq}<@_?-)T+LI(f<0RR6
+TD23188073 search 016fc9 [ 1023 cap:1024 may:28615 prune:14774 reject:1 ]> ␅
+TD967992 ␄
+TD18046 [doit:2165]> ␅
+TD685872 ␆/res
+TD91 [doit:2165]> /res
+TD406 📋> ␅
+TD616551 ␆✨ Spaceword.org Daily 2026-03-24 ✨
+TD99 📋> ✨ Spaceword.org Daily 2026-03-24 ✨
+TD13 📋> ␅
+TD40 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD13 ␆🏆 Score: 2165
+TD5 📋> 🏆 Score: 2165
+TD5 📋> ␅
+TD12 ␆🏅 Rank: 90/175 😀
+TD5 📋> 🏅 Rank: 90/175 😀
+TD4 📋> ␅
+TD12 ␆🧩 Tiles: 21/21 ✅
+TD4 📋> 🧩 Tiles: 21/21 ✅
+TD4 📋> ␅
+TD11 ␆📏 Space Bonus: +65
+TD4 📋> 📏 Space Bonus: +65
+TD16 📋> ␅
+TD32 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD9 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD9 ␆Play at https://spaceword.org
+TD5 📋> Play at https://spaceword.org
+TD6 📋> ␅
+TD310560 ␆#spaceword
+TD97 📋> #spaceword
+TD13 📋> ␅
+TD264107 ␄
+TD183 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-03-24 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 90/175 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TD1130 result: "\u2728 Spaceword.org Daily 2026-03-24 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 90/175 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"
+TD23239 [prior:2165]> ␅
+TD1215139 ␆/store
+TD81 [prior:2165]> /store
