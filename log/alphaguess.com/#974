@@ -1,0 +1,78 @@
+T50403.43794539399 now: 2026-03-24T07:41:31EDT
+TD102 site: alphaguess.com
+TD301003 loaded 196524 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (80 words excluded) asof 97952328d0cb37ed1df3af33463b241eb8be60ca
+TD196  ...␅
+TD2745756 ␆
+TD98  ...
+TD182 [0 : 98217 : 196524] mach? ␅
+TD44072216 ␆b
+TD126 [0 : 98217 : 196524] mach? b
+TD108 progress: -1 98217 mach
+TD118 [0 : 47381 : 98217] dis? ␅
+TD2112106 ␆b
+TD103 [0 : 47381 : 98217] dis? b
+TD107 progress: -1 47381 dis
+TD121 [0 : 23682 : 47381] camp? ␅
+TD2319334 ␆b
+TD75 [0 : 23682 : 47381] camp? b
+TD81 progress: -1 23682 camp
+TD80 [0 : 11764 : 23682] back? ␅
+TD1271574 ␆a
+TD98 [0 : 11764 : 23682] back? a
+TD133 progress: 1 11764 back
+TD110 [11765 : 17715 : 23682] blind? ␅
+TD1255849 ␆a
+TD100 [11765 : 17715 : 23682] blind? a
+TD107 progress: 1 17715 blind
+TD143 [17716 : 20687 : 23682] brill? ␅
+TD1207725 ␆a
+TD99 [17716 : 20687 : 23682] brill? a
+TD105 progress: 1 20687 brill
+TD112 [20688 : 22027 : 23682] bur? ␅
+TD1279669 ␆b
+TD97 [20688 : 22027 : 23682] bur? b
+TD108 progress: -1 22027 bur
+TD476 [20688 : 21357 : 22027] bryologists? ␅
+TD1551331 ␆a
+TD81 [20688 : 21357 : 22027] bryologists? a
+TD83 progress: 1 21357 bryologists
+TD77 [21358 : 21687 : 22027] bulk? ␅
+TD1311669 ␆b
+TD97 [21358 : 21687 : 22027] bulk? b
+TD108 progress: -1 21687 bulk
+TD109 [21358 : 21513 : 21687] budge? ␅
+TD1343774 ␆a
+TD82 [21358 : 21513 : 21687] budge? a
+TD80 progress: 1 21513 budge
+TD85 [21514 : 21581 : 21687] bug? ␅
+TD1287839 ␆b
+TD75 [21514 : 21581 : 21687] bug? b
+TD81 progress: -1 21581 bug
+TD82 [21514 : 21544 : 21581] buffalo? ␅
+TD2991680 ␆it
+TD100 [21514 : 21544 : 21581] buffalo? it
+TD108 progress: 0 21544 buffalo
+TD26 [21514 : 21544 : 21581] <Done>.
+TD86 📋> ␅
+TD3087969 ␆🧩 Puzzle #974
+TD84 📋> 🧩 Puzzle #974
+TD8 📋> ␅
+TD27 ␆🤔 12 guesses
+TD3 📋> 🤔 12 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 17s
+TD3 📋> ⏱️ 17s
+TD2 📋> ␅
+TD247480 ␆🔗 alphaguess.com/974
+TD67 📋> 🔗 alphaguess.com/974
+TD11 📋> ␅
+TD152062 ␄
+TD106 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #974\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/974"}
+TD76 result: "\ud83e\udde9 Puzzle #974\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/974"
+TD10 result puzzle: 974
+TD3 result guesses: 12
+TD3 result time: 17s
+TD2 result link: alphaguess.com/974
+TD71 📆 2026-03-24 ? ␅
+TD135643 ␆
+TD68 📆 2026-03-24 ? 
