@@ -1,0 +1,271 @@
+T835.6535327900201 now: 2026-03-24T07:59:42EDT
+TD81 site: squareword.org
+TD20 wordlist: nwl2023.txt
+TD23  ...␅
+TD167124 ␆
+TD33  ...
+TD35 🧩  ? ␅
+TD5504124 ␆#1513
+TD72 🧩  ? #1513
+TD194 puzzle_id: #1513
+TD189 > ␅
+TD3079682 ␆*
+TD95 > *
+TD231981 try? ␅
+TD911703 ␆1
+TD95 try? 1
+TD305 questioning: ["acres", "#5"]
+TD412 #1 <IndexError>  📋 "acres" ? ␅
+TD3239221 ␆_____ ~ A
+TD100 #1 <IndexError>  📋 "acres" ? _____ ~ A
+TD677 attempt 0 ACRES m n n n n
+TD84 #2 <IndexError>  📋 "acres" ? ␅
+TD1871304 ␆_____ ~ E
+TD98 #2 <IndexError>  📋 "acres" ? _____ ~ E
+TD285 attempt 1 ACRES n n n m n
+TD122 #3 <IndexError>  📋 "acres" ? ␅
+TD1943351 ␆__R__ ~ E
+TD96 #3 <IndexError>  📋 "acres" ? __R__ ~ E
+TD259 attempt 2 ACRES n n Y m n
+TD134 #4 <IndexError>  📋 "acres" ? ␅
+TD2335675 ␆___E_ ~ RE
+TD96 #4 <IndexError>  📋 "acres" ? ___E_ ~ RE
+TD269 attempt 3 ACRES n n m Y n
+TD123 #5 <IndexError>  📋 "acres" ? ␅
+TD2047602 ␆_____ ~ AS
+TD97 #5 <IndexError>  📋 "acres" ? _____ ~ AS
+TD265 attempt 4 ACRES m n n n m
+TD338 ? ␅
+TD1911258 ␆
+TD100 ? 
+TD199 question done
+TD203 > ␅
+TD4623471 ␆*
+TD98 > *
+TD592698 try? ␅
+TD855114 ␆1
+TD92 try? 1
+TD328 questioning: ["nerol", "#3"]
+TD1274 #1 _____ ~A -CERS  📋 "nerol" ? ␅
+TD4294477 ␆_____ ~ ANO
+TD94 #1 _____ ~A -CERS  📋 "nerol" ? _____ ~ ANO
+TD263 attempt 0 NEROL m n n m n
+TD152 #2 _____ ~E -ACRS  📋 "nerol" ? ␅
+TD1975674 ␆_____ ~ ENO
+TD98 #2 _____ ~E -ACRS  📋 "nerol" ? _____ ~ ENO
+TD208 attempt 1 NEROL m m n m n
+TD105 #3 __R__ ~E -ACS  📋 "nerol" ? ␅
+TD3567476 ␆_ER__ ~ E
+TD88 #3 __R__ ~E -ACS  📋 "nerol" ? _ER__ ~ E
+TD156 attempt 2 NEROL n Y Y n n
+TD91 #4 ___E_ ~R -ACS  📋 "nerol" ? ␅
+TD4759655 ␆___E_ ~ RE
+TD123 #4 ___E_ ~R -ACS  📋 "nerol" ? ___E_ ~ RE
+TD253 attempt 3 NEROL n m m n n
+TD153 #5 _____ ~AS -CER  📋 "nerol" ? ␅
+TD3559596 ␆_____ ~ ASL
+TD98 #5 _____ ~AS -CER  📋 "nerol" ? _____ ~ ASL
+TD253 attempt 4 NEROL n n n n m
+TD332 ? ␅
+TD463414 ␆
+TD101 ? 
+TD148 question done
+TD299 > ␅
+TD6439411 ␆*
+TD78 > *
+TD604356 try? ␅
+TD6667569 ␆4
+TD98 try? 4
+TD293 questioning: ["opine", "#2"]
+TD225 #1 _____ ~ANO -CELRS  📋 "opine" ? ␅
+TD3223487 ␆.
+TD100 #1 _____ ~ANO -CELRS  📋 "opine" ? .
+TD270 attempt 0 OPINE m n n m n
+TD106 #2 _____ ~ENO -ACLRS  📋 "opine" ? ␅
+TD759574 ␆/it
+TD98 #2 _____ ~ENO -ACLRS  📋 "opine" ? /it
+TD263 attempt 1 OPINE Y Y Y Y Y
+TD100 #3 _ER__ -ACLNOS  📋 "opine" ? ␅
+TD3079571 ␆_ER_E
+TD92 #3 _ER__ -ACLNOS  📋 "opine" ? _ER_E
+TD247 attempt 2 OPINE n n n n Y
+TD149 #4 ___E_ ~R -ACLNOS  📋 "opine" ? ␅
+TD3711839 ␆___E_ ~ RE
+TD112 #4 ___E_ ~R -ACLNOS  📋 "opine" ? ___E_ ~ RE
+TD264 attempt 3 OPINE n n n n m
+TD151 #5 _____ ~ALS -CENOR  📋 "opine" ? ␅
+TD743030 ␆.
+TD74 #5 _____ ~ALS -CENOR  📋 "opine" ? .
+TD191 attempt 4 OPINE n n n n n
+TD171 ? ␅
+TD159691 ␆
+TD94 ? 
+TD112 question done
+TD303 > ␅
+TD695463 ␆*
+TD94 > *
+TD837694 try? ␅
+TD1106166 ␆1
+TD98 try? 1
+TD291 questioning: ["merge", "#3"]
+TD358 #1 _____ ~ANO -CEILPRS  📋 "merge" ? ␅
+TD5415489 ␆_____ ~ ANOM
+TD97 #1 _____ ~ANO -CEILPRS  📋 "merge" ? _____ ~ ANOM
+TD249 attempt 0 MERGE m n n n n
+TD165 #3 _ER_E -ACILNOPS  📋 "merge" ? ␅
+TD679303 ␆/it
+TD94 #3 _ER_E -ACILNOPS  📋 "merge" ? /it
+TD253 attempt 2 MERGE Y Y Y Y Y
+TD97 #4 ___E_ ~R -ACILNOPS  📋 "merge" ? ␅
+TD2607511 ␆___E_ ~ RE
+TD78 #4 ___E_ ~R -ACILNOPS  📋 "merge" ? ___E_ ~ RE
+TD175 attempt 3 MERGE n m m n m
+TD111 #5 _____ ~ALS -CEINOPR  📋 "merge" ? ␅
+TD671664 ␆.
+TD73 #5 _____ ~ALS -CEINOPR  📋 "merge" ? .
+TD182 attempt 4 MERGE n n n n n
+TD183 ? ␅
+TD167553 ␆
+TD73 ? 
+TD80 question done
+TD187 > ␅
+TD551645 ␆*
+TD79 > *
+TD879504 try? ␅
+TD1760470 ␆2
+TD73 try? 2
+TD215 questioning: ["woman", "#1"]
+TD218 #1 _____ ~AMNO -CEGILPRS  📋 "woman" ? ␅
+TD1847419 ␆/it
+TD95 #1 _____ ~AMNO -CEGILPRS  📋 "woman" ? /it
+TD260 attempt 0 WOMAN Y Y Y Y Y
+TD110 #4 ___E_ ~R -ACGILMNOPS  📋 "woman" ? ␅
+TD3335758 ␆___E_ ~ RE
+TD99 #4 ___E_ ~R -ACGILMNOPS  📋 "woman" ? ___E_ ~ RE
+TD253 attempt 3 WOMAN n n n n n
+TD175 #5 _____ ~ALS -CEGIMNOPR  📋 "woman" ? ␅
+TD1759535 ␆
+TD94 #5 _____ ~ALS -CEGIMNOPR  📋 "woman" ? 
+TD322 #5 _____ ~ALS -CEGIMNOPR  ? ␅
+TD1127595 ␆.
+TD99 #5 _____ ~ALS -CEGIMNOPR  ? .
+TD266 attempt 4 WOMAN n n n m n
+TD309 ? ␅
+TD527253 ␆
+TD78 ? 
+TD89 question done
+TD188 > ␅
+TD543559 ␆*
+TD72 > *
+TD1331194 questioning: ["breed", "#4"]
+TD240 #4 ___E_ ~R -ACGILMNOPSW  📋 "breed" ? ␅
+TD3500540 ␆/it
+TD80 #4 ___E_ ~R -ACGILMNOPSW  📋 "breed" ? /it
+TD195 attempt 3 BREED Y Y Y Y Y
+TD102 #5 _____ ~ALS -CEGIMNOPRW  📋 "breed" ? ␅
+TD5839858 ␆_____ ~ ASLD
+TD97 #5 _____ ~ALS -CEGIMNOPRW  📋 "breed" ? _____ ~ ASLD
+TD261 attempt 4 BREED n n n n m
+TD355 ? ␅
+TD663137 ␆
+TD76 ? 
+TD90 question done
+TD184 > ␅
+TD11575738 ␆*
+TD88 > *
+TD994892 questioning: ["sadly", "#5"]
+TD194 #5 _____ ~ADLS -BCEGIMNOPRW  📋 "sadly" ? ␅
+TD3092890 ␆/it
+TD101 #5 _____ ~ADLS -BCEGIMNOPRW  📋 "sadly" ? /it
+TD272 attempt 4 SADLY Y Y Y Y Y
+TD293 ? ␅
+TD6687687 ␆squareword.org 1513: 7 guesses
+TD78 ? squareword.org 1513: 7 guesses
+TD285 ? ␅
+TD26 ␆
+TD3 ? 
+TD21 question done
+TD23101 📋> ␅
+TD53 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟨🟨🟨🟩🟨
+TD2 📋> 🟨🟨🟨🟩🟨
+TD2 📋> ␅
+TD5 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD936235 ␆#squareword #squareword1513
+TD104 📋> #squareword #squareword1513
+TD13 📋> ␅
+TD543750 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1513"}
+TD731 📋> ␅
+TD271092 ␆
+TD69 📋> 
+TD12 📋> ␅
+TD992000 <INT>
+TD142 <INT>
+TD27 <INT>
+TD19 <INT>
+TD18 <INT>
+TD16 <INT>
+TD18 <INT>
+T1.0252724799793214 now: 2026-03-24T08:01:58EDT
+TD118  ...␅
+TD872385 ␆/
+TD99  .../
+TD98  ...␅
+T2.3576188549923245 now: 2026-03-24T08:02:03EDT
+TD106  ...␅
+TD683055 ␆
+TD101  ...
+TD57276 📋> ␅
+TD1246771 ␆squareword.org 1513: 7 guesses
+TD97 📋> squareword.org 1513: 7 guesses
+TD17 📋> ␅
+TD38 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟨🟨🟩🟨
+TD4 📋> 🟨🟨🟨🟩🟨
+TD4 📋> ␅
+TD10 ␆🟨🟨🟨🟨🟨
+TD4 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD9 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD11 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD439389 ␆#squareword #squareword1513
+TD109 📋> #squareword #squareword1513
+TD15 📋> ␅
+TD271953 ␄
+TD145 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1513: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1513"}
+TD501 result: "squareword.org 1513: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1513"
+TD72 📆 2026-03-24 ? ␅
+TD223390 ␆
+TD97 📆 2026-03-24 ? 
