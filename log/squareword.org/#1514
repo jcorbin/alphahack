@@ -1,0 +1,246 @@
+T41776.106167891994 now: 2026-03-25T07:50:46EDT
+TD76 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD24  ...␅
+TD423063 ␆
+TD101  ...
+TD78 🧩  ? ␅
+TD19752032 ␆#1514
+TD83 🧩  ? #1514
+TD225 puzzle_id: #1514
+TD178 > ␅
+TD2375345 ␆*
+TD84 > *
+TD246987 try? ␅
+TD977307 ␆1
+TD87 try? 1
+TD227 questioning: ["osier", "#5"]
+TD183 #1 <IndexError>  📋 "osier" ? ␅
+TD6231354 ␆_____ ~ SI
+TD102 #1 <IndexError>  📋 "osier" ? _____ ~ SI
+TD618 attempt 0 OSIER n m m n n
+TD78 #2 <IndexError>  📋 "osier" ? ␅
+TD2095282 ␆___E_ ~ O
+TD112 #2 <IndexError>  📋 "osier" ? ___E_ ~ O
+TD288 attempt 1 OSIER m n n Y n
+TD129 #3 <IndexError>  📋 "osier" ? ␅
+TD3487478 ␆__I__
+TD96 #3 <IndexError>  📋 "osier" ? __I__
+TD253 attempt 2 OSIER n n Y n n
+TD120 #4 <IndexError>  📋 "osier" ? ␅
+TD2175795 ␆_____ ~ ER
+TD96 #4 <IndexError>  📋 "osier" ? _____ ~ ER
+TD255 attempt 3 OSIER n n n m m
+TD119 #5 <IndexError>  📋 "osier" ? ␅
+TD2191333 ␆_____ ~ O
+TD78 #5 <IndexError>  📋 "osier" ? _____ ~ O
+TD187 attempt 4 OSIER m n n n n
+TD218 ? ␅
+TD1287565 ␆
+TD96 ? 
+TD154 question done
+TD312 > ␅
+TD4743344 ␆*
+TD89 > *
+TD622159 try? ␅
+TD770141 ␆1
+TD97 try? 1
+TD938 questioning: ["plica", "#3"]
+TD201 #1 _____ ~IS -EOR  📋 "plica" ? ␅
+TD5198806 ␆_____ ~ SIA
+TD100 #1 _____ ~IS -EOR  📋 "plica" ? _____ ~ SIA
+TD268 attempt 0 PLICA n n m n m
+TD159 #2 ___E_ ~O -IRS  📋 "plica" ? ␅
+TD1527185 ␆.
+TD74 #2 ___E_ ~O -IRS  📋 "plica" ? .
+TD190 attempt 1 PLICA n n n n n
+TD63 #3 __I__ -EORS  📋 "plica" ? ␅
+TD2991569 ␆__I__ ~ A
+TD91 #3 __I__ -EORS  📋 "plica" ? __I__ ~ A
+TD268 attempt 2 PLICA n n Y n m
+TD148 #4 _____ ~ER -IOS  📋 "plica" ? ␅
+TD4279766 ␆_____ ~ ERLA
+TD96 #4 _____ ~ER -IOS  📋 "plica" ? _____ ~ ERLA
+TD259 attempt 3 PLICA n m n n m
+TD157 #5 _____ ~O -EIRS  📋 "plica" ? ␅
+TD2247374 ␆_____ ~ OL
+TD110 #5 _____ ~O -EIRS  📋 "plica" ? _____ ~ OL
+TD266 attempt 4 PLICA n m n n n
+TD361 ? ␅
+TD247343 ␆
+TD100 ? 
+TD140 question done
+TD318 > ␅
+TD455469 ␆*
+TD99 > *
+TD543415 try? ␅
+TD1928424 ␆2
+TD95 try? 2
+TD278 questioning: ["large", "#4"]
+TD327 #1 _____ ~AIS -CELOPR  📋 "large" ? ␅
+TD3807703 ␆.
+TD95 #1 _____ ~AIS -CELOPR  📋 "large" ? .
+TD202 attempt 0 LARGE n m n n n
+TD67 #2 ___E_ ~O -ACILPRS  📋 "large" ? ␅
+TD1039322 ␆.
+TD90 #2 ___E_ ~O -ACILPRS  📋 "large" ? .
+TD265 attempt 1 LARGE n n n n n
+TD102 #3 __I__ ~A -CELOPRS  📋 "large" ? ␅
+TD1439557 ␆.
+TD90 #3 __I__ ~A -CELOPRS  📋 "large" ? .
+TD275 attempt 2 LARGE n m n n n
+TD82 #4 _____ ~AELR -CIOPS  📋 "large" ? ␅
+TD4447646 ␆_____ ~ ERLAG
+TD95 #4 _____ ~AELR -CIOPS  📋 "large" ? _____ ~ ERLAG
+TD239 attempt 3 LARGE m m m m m
+TD156 #5 _____ ~LO -ACEIPRS  📋 "large" ? ␅
+TD1271471 ␆.
+TD80 #5 _____ ~LO -ACEIPRS  📋 "large" ? .
+TD193 attempt 4 LARGE m n n n n
+TD170 ? ␅
+TD167413 ␆
+TD75 ? 
+TD80 question done
+TD182 > ␅
+TD423877 ␆*
+TD96 > *
+TD580871 questioning: ["regal", "#4"]
+TD186 #1 _____ ~AIS -CEGLOPR  📋 "regal" ? ␅
+TD4938736 ␆.
+TD80 #1 _____ ~AIS -CEGLOPR  📋 "regal" ? .
+TD198 attempt 0 REGAL n n n m n
+TD66 #2 ___E_ ~O -ACEGILPRS  📋 "regal" ? ␅
+TD1223668 ␆.
+TD91 #2 ___E_ ~O -ACEGILPRS  📋 "regal" ? .
+TD267 attempt 1 REGAL n n n n n
+TD99 #3 __I__ ~A -CEGLOPRS  📋 "regal" ? ␅
+TD1991642 ␆.
+TD96 #3 __I__ ~A -CEGLOPRS  📋 "regal" ? .
+TD274 attempt 2 REGAL n n n m n
+TD113 #4 _____ ~AEGLR -CIOPS  📋 "regal" ? ␅
+TD751410 ␆/it
+TD95 #4 _____ ~AEGLR -CIOPS  📋 "regal" ? /it
+TD265 attempt 3 REGAL Y Y Y Y Y
+TD100 #5 _____ ~LO -ACEGIPRS  📋 "regal" ? ␅
+TD2719732 ␆____L ~ OL
+TD97 #5 _____ ~LO -ACEGIPRS  📋 "regal" ? ____L ~ OL
+TD271 attempt 4 REGAL n n n n Y
+TD352 ? ␅
+TD319308 ␆
+TD93 ? 
+TD123 question done
+TD315 > ␅
+TD791383 ␆*
+TD99 > *
+TD794426 try? ␅
+TD2605573 ␆1
+TD110 try? 1
+TD262 questioning: ["amity", "#3"]
+TD212 #1 _____ ~AIS -CEGLOPR  📋 "amity" ? ␅
+TD4559457 ␆_____ ~ SIAM
+TD92 #1 _____ ~AIS -CEGLOPR  📋 "amity" ? _____ ~ SIAM
+TD261 attempt 0 AMITY m m m n n
+TD131 #2 ___E_ ~O -ACEGILPRS  📋 "amity" ? ␅
+TD2815393 ␆___E_ ~OM
+TD95 #2 ___E_ ~O -ACEGILPRS  📋 "amity" ? ___E_ ~OM
+TD282 attempt 1 AMITY n m n n n
+TD168 #3 __I__ ~A -CEGLOPRS  📋 "amity" ? ␅
+TD1991644 ␆/it
+TD101 #3 __I__ ~A -CEGLOPRS  📋 "amity" ? /it
+TD289 attempt 2 AMITY Y Y Y Y Y
+TD101 #5 ____L ~O -ACEGIPRS  📋 "amity" ? ␅
+TD3551538 ␆____L ~ OL
+TD99 #5 ____L ~O -ACEGIPRS  📋 "amity" ? ____L ~ OL
+TD271 attempt 4 AMITY n n n n n
+TD356 ? ␅
+TD255278 ␆
+TD100 ? 
+TD137 question done
+TD314 > ␅
+TD655423 ␆*
+TD80 > *
+TD1558487 questioning: ["swami", "#1"]
+TD191 #1 _____ ~AIMS -CEGLOPRTY  📋 "swami" ? ␅
+TD5425132 ␆/it
+TD79 #1 _____ ~AIMS -CEGLOPRTY  📋 "swami" ? /it
+TD197 attempt 0 SWAMI Y Y Y Y Y
+TD68 #2 ___E_ ~MO -ACEGILPRSTY  📋 "swami" ? ␅
+TD1640062 ␆.
+TD103 #2 ___E_ ~MO -ACEGILPRSTY  📋 "swami" ? .
+TD223 attempt 1 SWAMI n n n m n
+TD68 #5 ____L ~O -ACEGIMPRSTY  📋 "swami" ? ␅
+TD4831498 ␆____L ~ OL
+TD99 #5 ____L ~O -ACEGIMPRSTY  📋 "swami" ? ____L ~ OL
+TD257 attempt 4 SWAMI n n n n n
+TD358 ? ␅
+TD391601 ␆
+TD99 ? 
+TD126 question done
+TD311 > ␅
+TD1767034 ␆
+TD75 > 
+TD294 > ␅
+TD551556 ␆*
+TD87 > *
+TD1308648 questioning: ["homed", "#2"]
+TD188 #2 ___E_ ~MO -ACEGILPRSTWY  📋 "homed" ? ␅
+TD2707033 ␆/it
+TD95 #2 ___E_ ~MO -ACEGILPRSTWY  📋 "homed" ? /it
+TD270 attempt 1 HOMED Y Y Y Y Y
+TD104 #5 ____L ~O -ACEGIMPRSTWY  📋 "homed" ? ␅
+TD4983876 ␆____L ~ OL
+TD97 #5 ____L ~O -ACEGIMPRSTWY  📋 "homed" ? ____L ~ OL
+TD250 attempt 4 HOMED n m n n n
+TD322 ? ␅
+TD2527292 ␆
+TD76 ? 
+TD88 question done
+TD180 > ␅
+TD743625 ␆*
+TD97 > *
+TD885885 questioning: ["knoll", "#5"]
+TD176 #5 ____L ~O -ACDEGHIMPRSTWY  📋 "knoll" ? ␅
+TD3753799 ␆/it
+TD78 #5 ____L ~O -ACDEGHIMPRSTWY  📋 "knoll" ? /it
+TD183 attempt 4 KNOLL Y Y Y Y Y
+TD177 ? ␅
+TD671759 ␆
+TD96 ? 
+TD109 question done
+TD23300 📋> ␅
+TD5361088 ␆squareword.org 1514: 8 guesses
+TD74 📋> squareword.org 1514: 8 guesses
+TD8 📋> ␅
+TD34 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD11 ␆🟨🟨🟨🟨🟨
+TD7 📋> 🟨🟨🟨🟨🟨
+TD2 📋> ␅
+TD8 ␆🟨🟨🟨🟩🟨
+TD2 📋> 🟨🟨🟨🟩🟨
+TD2 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD8 ␆🟨🟨🟨🟨🟩
+TD2 📋> 🟨🟨🟨🟨🟩
+TD2 📋> ␅
+TD7 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD8 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD311256 ␆#squareword #squareword1514
+TD96 📋> #squareword #squareword1514
+TD13 📋> ␅
+TD351872 ␄
+TD138 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1514: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1514"}
+TD590 result: "squareword.org 1514: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1514"
+TD67 📆 2026-03-25 ? ␅
+TD367221 ␆
+TD69 📆 2026-03-25 ? 
