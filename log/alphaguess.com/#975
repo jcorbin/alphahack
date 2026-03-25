@@ -1,0 +1,90 @@
+T40886.22390340798 now: 2026-03-25T07:35:56EDT
+TD85 site: alphaguess.com
+TD145140 loaded 196524 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (80 words excluded) asof b6e79953468a8944f57708ef524c4d2baee882c8
+TD108  ...␅
+TD3773634 ␆
+TD97  ...
+TD174 [0 : 98217 : 196524] mach? ␅
+TD2207605 ␆b
+TD93 [0 : 98217 : 196524] mach? b
+TD106 progress: -1 98217 mach
+TD114 [0 : 47381 : 98217] dis? ␅
+TD1327925 ␆a
+TD99 [0 : 47381 : 98217] dis? a
+TD104 progress: 1 47381 dis
+TD372 [47382 : 72799 : 98217] gremmy? ␅
+TD1335794 ␆b
+TD102 [47382 : 72799 : 98217] gremmy? b
+TD103 progress: -1 72799 gremmy
+TD109 [47382 : 60084 : 72799] face? ␅
+TD1383081 ␆a
+TD98 [47382 : 60084 : 72799] face? a
+TD106 progress: 1 60084 face
+TD170 [60085 : 66440 : 72799] french? ␅
+TD1744562 ␆b
+TD101 [60085 : 66440 : 72799] french? b
+TD108 progress: -1 66440 french
+TD102 [60085 : 63240 : 66440] flag? ␅
+TD1798867 ␆b
+TD101 [60085 : 63240 : 66440] flag? b
+TD105 progress: -1 63240 flag
+TD104 [60085 : 61620 : 63240] fen? ␅
+TD1447734 ␆a
+TD93 [60085 : 61620 : 63240] fen? a
+TD105 progress: 1 61620 fen
+TD108 [61621 : 62424 : 63240] fila? ␅
+TD1695689 ␆b
+TD95 [61621 : 62424 : 63240] fila? b
+TD103 progress: -1 62424 fila
+TD112 [61621 : 62018 : 62424] feudal? ␅
+TD1320308 ␆a
+TD85 [61621 : 62018 : 62424] feudal? a
+TD88 progress: 1 62018 feudal
+TD169 [62019 : 62216 : 62424] fickle? ␅
+TD1383026 ␆a
+TD143 [62019 : 62216 : 62424] fickle? a
+TD113 progress: 1 62216 fickle
+TD110 [62217 : 62315 : 62424] field? ␅
+TD1287623 ␆a
+TD83 [62217 : 62315 : 62424] field? a
+TD81 progress: 1 62315 field
+TD173 [62316 : 62368 : 62424] fifth? ␅
+TD1391680 ␆b
+TD77 [62316 : 62368 : 62424] fifth? b
+TD78 progress: -1 62368 fifth
+TD86 [62316 : 62337 : 62368] fiend? ␅
+TD1311722 ␆a
+TD95 [62316 : 62337 : 62368] fiend? a
+TD106 progress: 1 62337 fiend
+TD270 [62338 : 62353 : 62368] fieriness? ␅
+TD1287557 ␆b
+TD80 [62338 : 62353 : 62368] fieriness? b
+TD80 progress: -1 62353 fieriness
+TD95 [62338 : 62344 : 62353] fierce? ␅
+TD3352019 ␆it
+TD94 [62338 : 62344 : 62353] fierce? it
+TD104 progress: 0 62344 fierce
+TD26 [62338 : 62344 : 62353] <Done>.
+TD79 📋> ␅
+TD5376259 ␆🧩 Puzzle #975
+TD97 📋> 🧩 Puzzle #975
+TD13 📋> ␅
+TD36 ␆🤔 15 guesses
+TD6 📋> 🤔 15 guesses
+TD5 📋> ␅
+TD11 ␆⏱️ 20s
+TD6 📋> ⏱️ 20s
+TD4 📋> ␅
+TD335349 ␆🔗 alphaguess.com/975
+TD100 📋> 🔗 alphaguess.com/975
+TD13 📋> ␅
+TD247914 ␄
+TD168 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #975\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/975"}
+TD99 result: "\ud83e\udde9 Puzzle #975\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/975"
+TD15 result puzzle: 975
+TD6 result guesses: 15
+TD5 result time: 20s
+TD4 result link: alphaguess.com/975
+TD162 📆 2026-03-25 ? ␅
+TD183515 ␆
+TD103 📆 2026-03-25 ? 
