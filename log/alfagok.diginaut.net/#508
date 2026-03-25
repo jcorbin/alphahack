@@ -1,0 +1,84 @@
+T40829.06298991502 now: 2026-03-25T07:34:59EDT
+TD99 site: alfagok.diginaut.net
+TD450502 loaded 399627 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1225 words excluded) asof b6e79953468a8944f57708ef524c4d2baee882c8
+TD126  ...␅
+TD12177 ␆
+TD42  ...
+TD178 [0 : 199609 : 399627] lij? ␅
+TD599822 ␆
+TD79 [0 : 199609 : 399627] lij? 
+TD105 [0 : 199609 : 399627] lij? ␅
+TD10599939 ␆b
+TD79 [0 : 199609 : 399627] lij? b
+TD246 progress: -1 199609 lij
+TD87 [0 : 99737 : 199609] ex? ␅
+TD1511826 ␆a
+TD98 [0 : 99737 : 199609] ex? a
+TD120 progress: 1 99737 ex
+TD101 [99738 : 149642 : 199609] huishoud? ␅
+TD3951655 ␆a
+TD101 [99738 : 149642 : 199609] huishoud? a
+TD109 progress: 1 149642 huishoud
+TD136 [149643 : 174540 : 199609] kind? ␅
+TD2303698 ␆a
+TD97 [149643 : 174540 : 199609] kind? a
+TD104 progress: 1 174540 kind
+TD111 [174541 : 187070 : 199609] kromme? ␅
+TD1479459 ␆a
+TD97 [174541 : 187070 : 199609] kromme? a
+TD106 progress: 1 187070 kromme
+TD110 [187071 : 193272 : 199609] lat? ␅
+TD1575781 ␆b
+TD96 [187071 : 193272 : 199609] lat? b
+TD114 progress: -1 193272 lat
+TD119 [187071 : 189172 : 193272] kw? ␅
+TD6295810 ␆!
+TD97 [187071 : 189172 : 193272] kw? !
+TD410 [187071 : 190169 : 193271] kwik? ␅
+TD2240004 ␆a
+TD115 [187071 : 190169 : 193271] kwik? a
+TD105 progress: 1 190169 kwik
+TD107 [190170 : 191578 : 193271] landbouw? ␅
+TD1503237 ␆a
+TD99 [190170 : 191578 : 193271] landbouw? a
+TD111 progress: 1 191578 landbouw
+TD198 [191579 : 192381 : 193271] lange? ␅
+TD1543403 ␆a
+TD76 [191579 : 192381 : 193271] lange? a
+TD78 progress: 1 192381 lange
+TD130 [192382 : 192826 : 193271] lanyards? ␅
+TD1559979 ␆a
+TD77 [192382 : 192826 : 193271] lanyards? a
+TD82 progress: 1 192826 lanyards
+TD89 [192827 : 193008 : 193271] laser? ␅
+TD1543767 ␆a
+TD80 [192827 : 193008 : 193271] laser? a
+TD83 progress: 1 193008 laser
+TD84 [193009 : 193135 : 193271] last? ␅
+TD2351889 ␆it
+TD109 [193009 : 193135 : 193271] last? it
+TD109 progress: 0 193135 last
+TD27 [193009 : 193135 : 193271] <Done>.
+TD87 📋> ␅
+TD2584209 ␆🧩 Puzzel #508
+TD87 📋> 🧩 Puzzel #508
+TD13 📋> ␅
+TD38 ␆🤔 12 gokken
+TD6 📋> 🤔 12 gokken
+TD6 📋> ␅
+TD13 ␆⏱️ 28s
+TD6 📋> ⏱️ 28s
+TD5 📋> ␅
+TD287188 ␆🔗 alfagok.diginaut.net
+TD97 📋> 🔗 alfagok.diginaut.net
+TD22 📋> ␅
+TD191879 ␄
+TD176 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #508\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 28s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD575 result: "\ud83e\udde9 Puzzel #508\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 28s\n\ud83d\udd17 alfagok.diginaut.net"
+TD12 result puzzle: 508
+TD4 result guesses: 12
+TD3 result time: 28s
+TD2 result link: alfagok.diginaut.net
+TD63 📆 2026-03-25 ? ␅
+TD167102 ␆
+TD98 📆 2026-03-25 ? 
