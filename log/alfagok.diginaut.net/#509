@@ -1,0 +1,94 @@
+T45873.1548051 now: 2026-03-26T08:19:15EDT
+TD126 site: alfagok.diginaut.net
+TD376777 loaded 399627 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1225 words excluded) asof cdbca46d5f0ca12f9d78c19bbd2dea49ce1a221f
+TD114  ...␅
+TD1398167 ␆
+TD103  ...
+TD224 [0 : 199609 : 399627] lij? ␅
+TD3799648 ␆b
+TD102 [0 : 199609 : 399627] lij? b
+TD346 progress: -1 199609 lij
+TD135 [0 : 99737 : 199609] ex? ␅
+TD1351674 ␆b
+TD99 [0 : 99737 : 199609] ex? b
+TD128 progress: -1 99737 ex
+TD109 [0 : 49841 : 99737] boks? ␅
+TD1623469 ␆b
+TD98 [0 : 49841 : 99737] boks? b
+TD108 progress: -1 49841 boks
+TD109 [0 : 24910 : 49841] bad? ␅
+TD1343715 ␆b
+TD100 [0 : 24910 : 49841] bad? b
+TD107 progress: -1 24910 bad
+TD120 [0 : 8648 : 24910] af? ␅
+TD1311644 ␆a
+TD98 [0 : 8648 : 24910] af? a
+TD110 progress: 1 8648 af
+TD119 [8649 : 16154 : 24910] am? ␅
+TD1471720 ␆b
+TD91 [8649 : 16154 : 24910] am? b
+TD105 progress: -1 16154 am
+TD169 [8649 : 12394 : 16154] afsplits? ␅
+TD3215731 ␆b
+TD98 [8649 : 12394 : 16154] afsplits? b
+TD106 progress: -1 12394 afsplits
+TD107 [8649 : 10518 : 12394] afhang? ␅
+TD1479663 ␆a
+TD98 [8649 : 10518 : 12394] afhang? a
+TD109 progress: 1 10518 afhang
+TD233 [10519 : 11455 : 12394] afpunt? ␅
+TD1487653 ␆b
+TD98 [10519 : 11455 : 12394] afpunt? b
+TD104 progress: -1 11455 afpunt
+TD106 [10519 : 10979 : 11455] aflees? ␅
+TD1631679 ␆b
+TD100 [10519 : 10979 : 11455] aflees? b
+TD105 progress: -1 10979 aflees
+TD378 [10519 : 10749 : 10979] afklom? ␅
+TD1479350 ␆b
+TD94 [10519 : 10749 : 10979] afklom? b
+TD100 progress: -1 10749 afklom
+TD163 [10519 : 10631 : 10749] afkam? ␅
+TD8023912 ␆b
+TD100 [10519 : 10631 : 10749] afkam? b
+TD104 progress: -1 10631 afkam
+TD229 [10519 : 10571 : 10631] afhol? ␅
+TD1727482 ␆b
+TD98 [10519 : 10571 : 10631] afhol? b
+TD105 progress: -1 10571 afhol
+TD174 [10519 : 10541 : 10571] afhap? ␅
+TD1447742 ␆b
+TD96 [10519 : 10541 : 10571] afhap? b
+TD106 progress: -1 10541 afhap
+TD125 [10519 : 10528 : 10541] afhankelijk? ␅
+TD1535579 ␆b
+TD98 [10519 : 10528 : 10541] afhankelijk? b
+TD107 progress: -1 10528 afhankelijk
+TD211 [10519 : 10522 : 10528] afhangen? ␅
+TD1719604 ␆it
+TD97 [10519 : 10522 : 10528] afhangen? it
+TD109 progress: 0 10522 afhangen
+TD25 [10519 : 10522 : 10528] <Done>.
+TD101 📋> ␅
+TD2616350 ␆🧩 Puzzel #509
+TD97 📋> 🧩 Puzzel #509
+TD13 📋> ␅
+TD44 ␆🤔 16 gokken
+TD6 📋> 🤔 16 gokken
+TD6 📋> ␅
+TD14 ␆⏱️ 31s
+TD6 📋> ⏱️ 31s
+TD5 📋> ␅
+TD263166 ␆🔗 alfagok.diginaut.net
+TD94 📋> 🔗 alfagok.diginaut.net
+TD10 📋> ␅
+TD151985 ␄
+TD170 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #509\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD606 result: "\ud83e\udde9 Puzzel #509\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"
+TD19 result puzzle: 509
+TD8 result guesses: 16
+TD6 result time: 31s
+TD5 result link: alfagok.diginaut.net
+TD91 📆 2026-03-26 ? ␅
+TD142902 ␆
+TD92 📆 2026-03-26 ? 
