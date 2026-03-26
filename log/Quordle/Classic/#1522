@@ -1,0 +1,217 @@
+T46258.880068215 now: 2026-03-26T08:25:40EDT
+TD83 site: m-w.com/games/quordle/#/
+TD15 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD85  ...␅
+TD167031 ␆
+TD81  ...
+TD349791 > ␅
+TD4722285 ␆*
+TD70 > *
+TD38721 ? ␅
+TD3361184 ␆10
+TD68 ? 10
+TD117 questioning: roast
+TD91 Classic #1 _____? ␅
+TD3599785 ␆nYnnn
+TD77 Classic #1 _____? nYnnn
+TD268 attempt: 0 ROAST n Y n n n
+TD77 Classic #2 _____? ␅
+TD1527631 ␆nYnnn
+TD101 Classic #2 _____? nYnnn
+TD236 attempt: 1 ROAST n Y n n n
+TD99 Classic #3 _____? ␅
+TD1775615 ␆MYnnn
+TD98 Classic #3 _____? MYnnn
+TD226 attempt: 2 ROAST m Y n n n
+TD109 Classic #4 _____? ␅
+TD1031641 ␆nnnnn
+TD100 Classic #4 _____? nnnnn
+TD222 attempt: 3 ROAST n n n n n
+TD332588 > ␅
+TD755105 ␆*
+TD97 > *
+TD5430 ? ␅
+TD1722307 ␆2
+TD98 ? 2
+TD184 questioning: dying
+TD156 Classic #1 _O___ -ARST? ␅
+TD3263646 ␆nMnnn
+TD76 Classic #1 _O___ -ARST? nMnnn
+TD152 attempt: 0 DYING n m n n n
+TD71 Classic #2 _O___ -ARST? ␅
+TD1287804 ␆Mnnnn
+TD99 Classic #2 _O___ -ARST? Mnnnn
+TD234 attempt: 1 DYING m n n n n
+TD110 Classic #3 _O___ ~R -AST? ␅
+TD1455662 ␆nnnnn
+TD100 Classic #3 _O___ ~R -AST? nnnnn
+TD229 attempt: 2 DYING n n n n n
+TD111 Classic #4 _____ -AORST? ␅
+TD1407538 ␆MnnnM
+TD99 Classic #4 _____ -AORST? MnnnM
+TD232 attempt: 3 DYING m n n n m
+TD406344 > ␅
+TD809389 ␆*
+TD100 > *
+TD862 ? ␅
+TD3350916 ␆8
+TD95 ? 8
+TD180 questioning: homey
+TD150 Classic #1 _O___ ~Y -ADGINRST? ␅
+TD3087749 ␆YYnnY
+TD82 Classic #1 _O___ ~Y -ADGINRST? YYnnY
+TD165 attempt: 0 HOMEY Y Y n n Y
+TD78 Classic #2 _O___ ~D -AGINRSTY? ␅
+TD1367564 ␆nYnnn
+TD70 Classic #2 _O___ ~D -AGINRSTY? nYnnn
+TD154 attempt: 1 HOMEY n Y n n n
+TD79 Classic #3 _O___ ~R -ADGINSTY? ␅
+TD1703847 ␆MYMnn
+TD107 Classic #3 _O___ ~R -ADGINSTY? MYMnn
+TD226 attempt: 2 HOMEY m Y m n n
+TD110 Classic #4 _____ ~DG -AINORSTY? ␅
+TD999457 ␆nnnMn
+TD89 Classic #4 _____ ~DG -AINORSTY? nnnMn
+TD224 attempt: 3 HOMEY n n n m n
+TD429069 > ␅
+TD1218757 ␆*
+TD107 > *
+TD527 ? ␅
+TD4823348 ␄
+TD127 <EOF>
+TD400426 > ␅
+TD2631480 ␆* 4
+TD80 > * 4
+TD136126 ? ␅
+TD3447759 ␆4
+TD107 ? 4
+TD175 questioning: pudge
+TD157 Classic #1 HO__Y -ADEGIMNRST? ␅
+TD3823911 ␆nnnnn
+TD82 Classic #1 HO__Y -ADEGIMNRST? nnnnn
+TD158 attempt: 0 PUDGE n n n n n
+TD84 Classic #2 _O___ ~D -AEGHIMNRSTY? ␅
+TD1311442 ␆nMMnn
+TD97 Classic #2 _O___ ~D -AEGHIMNRSTY? nMMnn
+TD221 attempt: 1 PUDGE n m m n n
+TD116 Classic #3 _O___ ~HMR -ADEGINSTY? ␅
+TD1303660 ␆Mnnnn
+TD79 Classic #3 _O___ ~HMR -ADEGINSTY? Mnnnn
+TD156 attempt: 2 PUDGE m n n n n
+TD75 Classic #4 _____ ~DEG -AHIMNORSTY? ␅
+TD1815878 ␆nnYYY
+TD73 Classic #4 _____ ~DEG -AHIMNORSTY? nnYYY
+TD145 attempt: 3 PUDGE n n Y Y Y
+TD292448 > ␅
+TD747220 ␆*
+TD79 > *
+TD280 questioning: morph
+TD82 Classic #1 HO__Y -ADEGIMNPRSTU? ␅
+TD4039673 ␆nYnnM
+TD91 Classic #1 HO__Y -ADEGIMNPRSTU? nYnnM
+TD217 attempt: 0 MORPH n Y n n m
+TD118 Classic #2 _O___ ~DU -AEGHIMNPRSTY? ␅
+TD1719542 ␆nYnnn
+TD78 Classic #2 _O___ ~DU -AEGHIMNPRSTY? nYnnn
+TD216 attempt: 1 MORPH n Y n n n
+TD118 Classic #3 _O___ ~HMPR -ADEGINSTUY? ␅
+TD2935458 ␆YYYYY
+TD72 Classic #3 _O___ ~HMPR -ADEGINSTUY? YYYYY
+TD154 attempt: 2 MORPH Y Y Y Y Y
+TD79 Classic #4 __DGE -AHIMNOPRSTUY? ␅
+TD1111759 ␆nnnnn
+TD78 Classic #4 __DGE -AHIMNOPRSTUY? nnnnn
+TD144 attempt: 3 MORPH n n n n n
+TD257135 > ␅
+TD982719 ␆*
+TD97 > *
+TD513 ? ␅
+TD1767382 ␄
+TD105 <EOF>
+TD271703 > ␅
+TD936171 ␆* 1
+TD93 > * 1
+TD87607 ? ␅
+TD2400370 ␄
+TD133 <EOF>
+TD235778 > ␅
+TD1516043 ␆* 4
+TD72 > * 4
+TD85526 ? ␅
+TD1634620 ␆3
+TD67 ? 3
+TD123 questioning: wedge
+TD103 Classic #1 HO__Y -ADEGIMNPRSTU? ␅
+TD4127620 ␆nnnnn
+TD72 Classic #1 HO__Y -ADEGIMNPRSTU? nnnnn
+TD148 attempt: 0 WEDGE n n n n n
+TD84 Classic #2 _O___ ~DU -AEGHIMNPRSTY? ␅
+TD1391705 ␆nnMnn
+TD90 Classic #2 _O___ ~DU -AEGHIMNPRSTY? nnMnn
+TD218 attempt: 1 WEDGE n n m n n
+TD117 Classic #4 __DGE -AHIMNOPRSTUY? ␅
+TD1295571 ␆nYYYY
+TD91 Classic #4 __DGE -AHIMNOPRSTUY? nYYYY
+TD212 attempt: 3 WEDGE n Y Y Y Y
+TD277058 > ␅
+TD714659 ␆*
+TD97 > *
+TD389 questioning: could
+TD124 Classic #1 HO__Y -ADEGIMNPRSTUW? ␅
+TD3447535 ␆nYnnn
+TD89 Classic #1 HO__Y -ADEGIMNPRSTUW? nYnnn
+TD160 attempt: 0 COULD n Y n n n
+TD142 Classic #2 _O___ ~DU -AEGHIMNPRSTWY? ␅
+TD1487571 ␆YYYYY
+TD92 Classic #2 _O___ ~DU -AEGHIMNPRSTWY? YYYYY
+TD211 attempt: 1 COULD Y Y Y Y Y
+TD124 Classic #4 _EDGE -AHIMNOPRSTUWY? ␅
+TD1415555 ␆nnnMM
+TD94 Classic #4 _EDGE -AHIMNOPRSTUWY? nnnMM
+TD221 attempt: 3 COULD n n n m m
+TD173309 > ␅
+TD850663 ␆*
+TD123 > *
+TD378 questioning: ledge
+TD124 Classic #1 HO__Y -ACDEGILMNPRSTUW? ␅
+TD3247169 ␆nnnnn
+TD69 Classic #1 HO__Y -ACDEGILMNPRSTUW? nnnnn
+TD144 attempt: 0 LEDGE n n n n n
+TD91 Classic #4 _EDGE ~L -ACHIMNOPRSTUWY? ␅
+TD1631612 ␆YYYYY
+TD67 Classic #4 _EDGE ~L -ACHIMNOPRSTUWY? YYYYY
+TD122 attempt: 3 LEDGE Y Y Y Y Y
+TD93642 > ␅
+TD874248 ␆*
+TD97 > *
+TD587 ? ␅
+TD2751423 ␆2
+TD99 ? 2
+TD211 questioning: hobby
+TD477 Classic #1 HO__Y -ACDEGILMNPRSTUW? ␅
+TD2903343 ␆YYYYY
+TD127 Classic #1 HO__Y -ACDEGILMNPRSTUW? YYYYY
+TD227 attempt: 0 HOBBY Y Y Y Y Y
+TD113 📋> ␅
+TD4168079 ␆🙂 Daily Quordle 1522
+TD108 📋> 🙂 Daily Quordle 1522
+TD19 📋> ␅
+TD54 ␆9️⃣7️⃣
+TD13 📋> 9️⃣7️⃣
+TD11 📋> ␅
+TD22 ␆5️⃣8️⃣
+TD10 📋> 5️⃣8️⃣
+TD10 📋> ␅
+TD22 ␆m-w.com/games/quordle/
+TD10 📋> m-w.com/games/quordle/
+TD10 📋> ␅
+TD311183 ␆
+TD108 📋> 
+TD19 📋> ␅
+TD151643 ␄
+TD138 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1522\n9\ufe0f\u20e37\ufe0f\u20e3\n5\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1625 result: "\ud83d\ude42 Daily Quordle 1522\n9\ufe0f\u20e37\ufe0f\u20e3\n5\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD75 📆 2026-03-26 ? ␅
+TD158102 ␆
+TD39 📆 2026-03-26 ? 
