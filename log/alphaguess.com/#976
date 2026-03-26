@@ -1,0 +1,84 @@
+T45914.131407376 now: 2026-03-26T08:19:56EDT
+TD132 site: alphaguess.com
+TD145265 loaded 196524 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (80 words excluded) asof cdbca46d5f0ca12f9d78c19bbd2dea49ce1a221f
+TD111  ...␅
+TD27 ␆
+TD3  ...
+TD80 [0 : 98217 : 196524] mach? ␅
+TD693614 ␆
+TD102 [0 : 98217 : 196524] mach? 
+TD113 [0 : 98217 : 196524] mach? ␅
+TD4943648 ␆az
+TD97 [0 : 98217 : 196524] mach? az
+TD203 [0 : 98217 : 196524] mach? ␅
+TD3431757 ␆a
+TD81 [0 : 98217 : 196524] mach? a
+TD81 progress: 1 98217 mach
+TD183 [98218 : 147372 : 196524] rhumb? ␅
+TD1631743 ␆b
+TD74 [98218 : 147372 : 196524] rhumb? b
+TD77 progress: -1 147372 rhumb
+TD76 [98218 : 122778 : 147372] parr? ␅
+TD1471678 ␆a
+TD73 [98218 : 122778 : 147372] parr? a
+TD77 progress: 1 122778 parr
+TD76 [122779 : 135069 : 147372] proper? ␅
+TD1375887 ␆b
+TD95 [122779 : 135069 : 147372] proper? b
+TD101 progress: -1 135069 proper
+TD104 [122779 : 128847 : 135069] play? ␅
+TD1775927 ␆b
+TD90 [122779 : 128847 : 135069] play? b
+TD107 progress: -1 128847 play
+TD107 [122779 : 125810 : 128847] petti? ␅
+TD1767544 ␆a
+TD91 [122779 : 125810 : 128847] petti? a
+TD103 progress: 1 125810 petti
+TD121 [125811 : 127323 : 128847] pidgin? ␅
+TD1511723 ␆a
+TD96 [125811 : 127323 : 128847] pidgin? a
+TD105 progress: 1 127323 pidgin
+TD241 [127324 : 128076 : 128847] pis? ␅
+TD1663550 ␆a
+TD99 [127324 : 128076 : 128847] pis? a
+TD107 progress: 1 128076 pis
+TD181 [128077 : 128453 : 128847] plain? ␅
+TD1511671 ␆b
+TD99 [128077 : 128453 : 128847] plain? b
+TD113 progress: -1 128453 plain
+TD116 [128077 : 128167 : 128453] pit? ␅
+TD1399583 ␆a
+TD103 [128077 : 128167 : 128453] pit? a
+TD86 progress: 1 128167 pit
+TD89 [128168 : 128287 : 128453] pix? ␅
+TD1495824 ␆a
+TD94 [128168 : 128287 : 128453] pix? a
+TD111 progress: 1 128287 pix
+TD109 [128288 : 128362 : 128453] place? ␅
+TD2463606 ␆it
+TD102 [128288 : 128362 : 128453] place? it
+TD107 progress: 0 128362 place
+TD38 [128288 : 128362 : 128453] <Done>.
+TD89 📋> ␅
+TD2648327 ␆🧩 Puzzle #976
+TD95 📋> 🧩 Puzzle #976
+TD13 📋> ␅
+TD40 ␆🤔 12 guesses
+TD6 📋> 🤔 12 guesses
+TD6 📋> ␅
+TD12 ␆⏱️ 20s
+TD6 📋> ⏱️ 20s
+TD5 📋> ␅
+TD311335 ␆🔗 alphaguess.com/976
+TD96 📋> 🔗 alphaguess.com/976
+TD12 📋> ␅
+TD159930 ␄
+TD164 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #976\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/976"}
+TD102 result: "\ud83e\udde9 Puzzle #976\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/976"
+TD15 result puzzle: 976
+TD6 result guesses: 12
+TD6 result time: 20s
+TD5 result link: alphaguess.com/976
+TD93 📆 2026-03-26 ? ␅
+TD151476 ␆
+TD75 📆 2026-03-26 ? 
