@@ -1,0 +1,174 @@
+T45947.739711501 now: 2026-03-26T08:20:29EDT
+TD91 site: dontwordle.com
+TD18 wordlist: nwl2023.txt
+TD26  ...␅
+TD143191 ␆
+TD91  ...
+TD117 1> ␅
+TD591885 ␆
+TD93 1> 
+TD173 1> ␅
+TD3639693 ␆* -bot 10
+TD77 1> * -bot 10
+TD175149 ? ␅
+TD960807 ␆1
+TD96 ? 1
+TD256 📋 "arose" ? ␅
+TD4319722 ␆Mnnnn
+TD100 📋 "arose" ? Mnnnn
+TD572 tried: AROSE m n n n n
+TD186 2> ␅
+TD695121 ␆undo
+TD102 2> undo
+TD149 undo
+TD143 1> ␅
+TD5919652 ␆* :v [arose] -bot 10
+TD100 1> * :v [arose] -bot 10
+TD131089 ? ␅
+TD868825 ␆1
+TD100 ? 1
+TD248 📋 "uplit" ? ␅
+TD4535752 ␆nnnnn
+TD102 📋 "uplit" ? nnnnn
+TD210 tried: UPLIT n n n n n
+TD189 2> ␅
+TD1967538 ␆undo
+TD99 2> undo
+TD146 undo
+TD140 1> ␅
+TD2447599 ␆*
+TD83 1> *
+TD146895 ? ␅
+TD452982 ␆1
+TD101 ? 1
+TD233 📋 "bubus" ? ␅
+TD3503783 ␆Ynnnn
+TD99 📋 "bubus" ? Ynnnn
+TD202 tried: BUBUS Y n n n n
+TD178 2> ␅
+TD655521 ␆undo
+TD100 2> undo
+TD138 undo
+TD127 1> ␅
+TD14895805 ␆* :v [aroseuplitbubus] -bot 10
+TD89 1> * :v [aroseuplitbubus] -bot 10
+TD120778 1> ␅
+TD13079300 ␆* :v [aroseuplit] -bot 10
+TD76 1> * :v [aroseuplit] -bot 10
+TD123046 1> ␅
+TD2853109 ␆*
+TD96 1> *
+TD127041 ? ␅
+TD6520800 ␆1
+TD102 ? 1
+TD233 📋 "xylyl" ? ␅
+TD1503625 ␆nMnnn
+TD170 📋 "xylyl" ? nMnnn
+TD290 tried: XYLYL n m n n n
+TD186 2> ␅
+TD631449 ␆undo
+TD97 2> undo
+TD138 undo
+TD129 1> ␅
+TD2455563 ␆*
+TD103 1> *
+TD115075 ? ␅
+TD460975 ␆1
+TD114 ? 1
+TD238 📋 "heeze" ? ␅
+TD4503735 ␆nnnnn
+TD104 📋 "heeze" ? nnnnn
+TD203 tried: HEEZE n n n n n
+TD177 2> ␅
+TD391456 ␆*
+TD93 2> *
+TD98943 ? ␅
+TD668893 ␆1
+TD97 ? 1
+TD228 📋 "motto" ? ␅
+TD3431906 ␆nnnnn
+TD98 📋 "motto" ? nnnnn
+TD201 tried: MOTTO n n n n n
+TD181 3> ␅
+TD567443 ␆*
+TD92 3> *
+TD88832 ? ␅
+TD671106 ␆1
+TD92 ? 1
+TD231 📋 "civic" ? ␅
+TD4879667 ␆nnnnn
+TD101 📋 "civic" ? nnnnn
+TD201 tried: CIVIC n n n n n
+TD185 4> ␅
+TD431516 ␆*
+TD68 4> *
+TD91784 ? ␅
+TD692177 ␆1
+TD97 ? 1
+TD235 📋 "jujus" ? ␅
+TD5255796 ␆nnnnn
+TD98 📋 "jujus" ? nnnnn
+TD198 tried: JUJUS n n n n n
+TD196 5> ␅
+TD407406 ␆*
+TD91 5> *
+TD92310 📋 "grrrl" ? ␅
+TD6195848 ␆nnnnn
+TD97 📋 "grrrl" ? nnnnn
+TD201 tried: GRRRL n n n n n
+TD210 6> ␅
+TD615383 ␆*
+TD99 6> *
+TD174662 ? ␅
+TD809289 ␆1
+TD94 ? 1
+TD225 📋 "addax" ? ␅
+TD4135799 ␆MMnnn
+TD99 📋 "addax" ? MMnnn
+TD203 tried: ADDAX m m n n n
+TD213 📋> ␅
+TD3320052 ␆Don't Wordle 1402 - SURVIVED
+TD107 📋> Don't Wordle 1402 - SURVIVED
+TD15 📋> ␅
+TD41 ␆Hooray! I didn't Wordle today!
+TD7 📋> Hooray! I didn't Wordle today!
+TD6 📋> ␅
+TD15 ␆⬜⬜⬜⬜⬜5957
+TD6 📋> ⬜⬜⬜⬜⬜5957
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜2237
+TD5 📋> ⬜⬜⬜⬜⬜2237
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜1050
+TD5 📋> ⬜⬜⬜⬜⬜1050
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜229
+TD4 📋> ⬜⬜⬜⬜⬜229
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜57
+TD5 📋> ⬜⬜⬜⬜⬜57
+TD5 📋> ␅
+TD11 ␆🟨🟨⬜⬜⬜6
+TD5 📋> 🟨🟨⬜⬜⬜6
+TD5 📋> ␅
+TD10 ␆Undos used: 4
+TD5 📋> Undos used: 4
+TD6 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD10 ␆  6 words remaining
+TD5 📋>   6 words remaining
+TD5 📋> ␅
+TD10 ␆x 8 unused letters
+TD5 📋> x 8 unused letters
+TD4 📋> ␅
+TD303066 ␆= 48 total score
+TD97 📋> = 48 total score
+TD12 📋> ␅
+TD231824 ␄
+TD153 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1402 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5957\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2237\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1050\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c229\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c57\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c6\nUndos used: 4\n\n  6 words remaining\nx 8 unused letters\n= 48 total score"}
+TD1174 result: "Don't Wordle 1402 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5957\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2237\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1050\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c229\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c57\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c6\nUndos used: 4\n\n  6 words remaining\nx 8 unused letters\n= 48 total score"
+TD78 📆 2026-03-26 ? ␅
+TD222551 ␆
+TD82 📆 2026-03-26 ? 
