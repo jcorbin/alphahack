@@ -1,0 +1,86 @@
+T121.69843654101714 now: 2026-03-27T08:15:58EDT
+TD119 site: alphaguess.com
+TD144552 loaded 196524 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (80 words excluded) asof c048afef204d09d31b3fe1a1061fcff2cf911f57
+TD114  ...␅
+TD5566325 ␆
+TD99  ...
+TD172 [0 : 98217 : 196524] mach? ␅
+TD1639587 ␆b
+TD92 [0 : 98217 : 196524] mach? b
+TD105 progress: -1 98217 mach
+TD114 [0 : 47381 : 98217] dis? ␅
+TD1551838 ␆a
+TD95 [0 : 47381 : 98217] dis? a
+TD105 progress: 1 47381 dis
+TD432 [47382 : 72799 : 98217] gremmy? ␅
+TD1479558 ␆b
+TD93 [47382 : 72799 : 98217] gremmy? b
+TD112 progress: -1 72799 gremmy
+TD107 [47382 : 60084 : 72799] face? ␅
+TD1383532 ␆a
+TD93 [47382 : 60084 : 72799] face? a
+TD105 progress: 1 60084 face
+TD217 [60085 : 66440 : 72799] french? ␅
+TD1511590 ␆b
+TD73 [60085 : 66440 : 72799] french? b
+TD78 progress: -1 66440 french
+TD75 [60085 : 63240 : 66440] flag? ␅
+TD1415582 ␆a
+TD96 [60085 : 63240 : 66440] flag? a
+TD108 progress: 1 63240 flag
+TD107 [63241 : 64837 : 66440] foment? ␅
+TD4103942 ␆b
+TD95 [63241 : 64837 : 66440] foment? b
+TD105 progress: -1 64837 foment
+TD147 [63241 : 64037 : 64837] flood? ␅
+TD2503729 ␆a
+TD97 [63241 : 64037 : 64837] flood? a
+TD112 progress: 1 64037 flood
+TD116 [64038 : 64380 : 64837] fluor? ␅
+TD2207735 ␆b
+TD77 [64038 : 64380 : 64837] fluor? b
+TD92 progress: -1 64380 fluor
+TD88 [64038 : 64197 : 64380] flour? ␅
+TD2928596 ␆a
+TD96 [64038 : 64197 : 64380] flour? a
+TD100 progress: 1 64197 flour
+TD108 [64198 : 64283 : 64380] flue? ␅
+TD6262785 ␆b
+TD105 [64198 : 64283 : 64380] flue? b
+TD111 progress: -1 64283 flue
+TD107 [64198 : 64229 : 64283] flower? ␅
+TD1823550 ␆b
+TD93 [64198 : 64229 : 64283] flower? b
+TD106 progress: -1 64229 flower
+TD148 [64198 : 64212 : 64229] flout? ␅
+TD1671769 ␆b
+TD99 [64198 : 64212 : 64229] flout? b
+TD178 progress: -1 64212 flout
+TD106 [64198 : 64202 : 64212] flourish? ␅
+TD3455621 ␆it
+TD80 [64198 : 64202 : 64212] flourish? it
+TD89 progress: 0 64202 flourish
+TD19 [64198 : 64202 : 64212] <Done>.
+TD62 📋> ␅
+TD4352756 ␆🧩 Puzzle #977
+TD95 📋> 🧩 Puzzle #977
+TD12 📋> ␅
+TD50 ␆🤔 14 guesses
+TD6 📋> 🤔 14 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 30s
+TD6 📋> ⏱️ 30s
+TD5 📋> ␅
+TD310981 ␆🔗 alphaguess.com/977
+TD96 📋> 🔗 alphaguess.com/977
+TD12 📋> ␅
+TD271834 ␄
+TD169 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #977\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 30s\n\ud83d\udd17 alphaguess.com/977"}
+TD100 result: "\ud83e\udde9 Puzzle #977\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 30s\n\ud83d\udd17 alphaguess.com/977"
+TD17 result puzzle: 977
+TD7 result guesses: 14
+TD5 result time: 30s
+TD5 result link: alphaguess.com/977
+TD89 📆 2026-03-27 ? ␅
+TD191743 ␆
+TD100 📆 2026-03-27 ? 
