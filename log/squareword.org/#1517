@@ -1,0 +1,317 @@
+T169.66155245600385 now: 2026-03-28T07:53:14EDT
+TD80 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD27  ...␅
+TD159130 ␆
+TD79  ...
+TD58 🧩  ? ␅
+TD5504113 ␆
+TD79 🧩  ? 
+TD118  ...␅
+TD1175688 ␆
+TD83  ...
+TD59 🧩  ? ␅
+TD2031862 ␆#1517
+TD104 🧩  ? #1517
+TD272 puzzle_id: #1517
+TD287 > ␅
+TD7783926 ␆*
+TD69 > *
+TD238050 try? ␅
+TD833385 ␆1
+TD96 try? 1
+TD329 questioning: ["agers", "#5"]
+TD307 #1 <IndexError>  📋 "agers" ? ␅
+TD5191381 ␆_____ ~ E
+TD78 #1 <IndexError>  📋 "agers" ? _____ ~ E
+TD469 attempt 0 AGERS n n m n n
+TD88 #2 <IndexError>  📋 "agers" ? ␅
+TD1863522 ␆_____ ~ A
+TD92 #2 <IndexError>  📋 "agers" ? _____ ~ A
+TD264 attempt 1 AGERS m n n n n
+TD129 #3 <IndexError>  📋 "agers" ? ␅
+TD2023385 ␆_____ ~ AER
+TD71 #3 <IndexError>  📋 "agers" ? _____ ~ AER
+TD176 attempt 2 AGERS m n m m n
+TD83 #4 <IndexError>  📋 "agers" ? ␅
+TD2007462 ␆_____ ~ E
+TD99 #4 <IndexError>  📋 "agers" ? _____ ~ E
+TD248 attempt 3 AGERS n n m n n
+TD121 #5 <IndexError>  📋 "agers" ? ␅
+TD2071746 ␆____S ~ E
+TD96 #5 <IndexError>  📋 "agers" ? ____S ~ E
+TD274 attempt 4 AGERS n n m n Y
+TD342 ? ␅
+TD311375 ␆
+TD97 ? 
+TD138 question done
+TD268 > ␅
+TD863371 ␆*
+TD94 > *
+TD488098 try? ␅
+TD2159748 ␆1
+TD114 try? 1
+TD329 questioning: ["pared", "#3"]
+TD311 #1 _____ ~E -AGRS  📋 "pared" ? ␅
+TD4023347 ␆___ED ~ E
+TD90 #1 _____ ~E -AGRS  📋 "pared" ? ___ED ~ E
+TD208 attempt 0 PARED n n n Y Y
+TD101 #2 _____ ~A -EGRS  📋 "pared" ? ␅
+TD1111765 ␆.
+TD86 #2 _____ ~A -EGRS  📋 "pared" ? .
+TD229 attempt 1 PARED n m n n n
+TD79 #3 _____ ~AER -GS  📋 "pared" ? ␅
+TD2255520 ␆_ARE_ ~ R
+TD100 #3 _____ ~AER -GS  📋 "pared" ? _ARE_ ~ R
+TD261 attempt 2 PARED n Y Y Y n
+TD150 #4 _____ ~E -AGRS  📋 "pared" ? ␅
+TD1351727 ␆.
+TD79 #4 _____ ~E -AGRS  📋 "pared" ? .
+TD203 attempt 3 PARED n n n m n
+TD65 #5 ____S ~E -AGR  📋 "pared" ? ␅
+TD5231617 ␆____S ~ ED
+TD80 #5 ____S ~E -AGR  📋 "pared" ? ____S ~ ED
+TD195 attempt 4 PARED n n n m m
+TD226 ? ␅
+TD327520 ␆
+TD81 ? 
+TD94 question done
+TD184 > ␅
+TD6103555 ␆*
+TD95 > *
+TD706949 try? ␅
+TD2821098 ␆3
+TD93 try? 3
+TD250 questioning: ["caret", "#3"]
+TD219 #1 ___ED -AGPRS  📋 "caret" ? ␅
+TD6839500 ␆___ED ~ E
+TD97 #1 ___ED -AGPRS  📋 "caret" ? ___ED ~ E
+TD259 attempt 0 CARET n n n Y n
+TD166 #2 _____ ~A -DEGPRS  📋 "caret" ? ␅
+TD911516 ␆.
+TD99 #2 _____ ~A -DEGPRS  📋 "caret" ? .
+TD282 attempt 1 CARET n m n n n
+TD97 #3 _ARE_ -DGPS  📋 "caret" ? ␅
+TD3783504 ␆_ARE_ ~ R
+TD93 #3 _ARE_ -DGPS  📋 "caret" ? _ARE_ ~ R
+TD243 attempt 2 CARET n Y Y Y n
+TD148 #4 _____ ~E -ADGPRS  📋 "caret" ? ␅
+TD1055537 ␆.
+TD92 #4 _____ ~E -ADGPRS  📋 "caret" ? .
+TD282 attempt 3 CARET n n n m n
+TD95 #5 ____S ~DE -AGPR  📋 "caret" ? ␅
+TD5639831 ␆.
+TD100 #5 ____S ~DE -AGPR  📋 "caret" ? .
+TD270 attempt 4 CARET n n n m n
+TD279 ? ␅
+TD439213 ␆
+TD101 ? 
+TD97 question done
+TD185 > ␅
+TD6111899 ␆*
+TD95 > *
+TD427184 try? ␅
+TD1252619 ␆1
+TD99 try? 1
+TD288 questioning: ["harem", "#3"]
+TD331 #1 ___ED -ACGPRST  📋 "harem" ? ␅
+TD5511069 ␆___ED ~ E
+TD76 #1 ___ED -ACGPRST  📋 "harem" ? ___ED ~ E
+TD188 attempt 0 HAREM n n n Y n
+TD105 #2 _____ ~A -CDEGPRST  📋 "harem" ? ␅
+TD2807577 ␆_____ ~ AM
+TD99 #2 _____ ~A -CDEGPRST  📋 "harem" ? _____ ~ AM
+TD261 attempt 1 HAREM n m n n m
+TD146 #3 _ARE_ -CDGPST  📋 "harem" ? ␅
+TD2479603 ␆_ARE_ ~ R
+TD82 #3 _ARE_ -CDGPST  📋 "harem" ? _ARE_ ~ R
+TD188 attempt 2 HAREM n Y Y Y n
+TD105 #4 _____ ~E -ACDGPRST  📋 "harem" ? ␅
+TD743890 ␆.
+TD105 #4 _____ ~E -ACDGPRST  📋 "harem" ? .
+TD276 attempt 3 HAREM n n n m n
+TD97 #5 ____S ~DE -ACGPRT  📋 "harem" ? ␅
+TD999209 ␆.
+TD97 #5 ____S ~DE -ACGPRT  📋 "harem" ? .
+TD280 attempt 4 HAREM n n n m n
+TD282 ? ␅
+TD183389 ␆
+TD74 ? 
+TD100 question done
+TD264 > ␅
+TD768199 ␆*
+TD103 > *
+TD484375 try? ␅
+TD9651048 ␄
+TD136 <EOF>
+TD332 > ␅
+TD5079434 ␆* 1
+TD71 > * 1
+TD2744 try? ␅
+TD1229261 ␆1
+TD97 try? 1
+TD296 questioning: ["lobed", "#1"]
+TD309 #1 ___ED -ACGHMPRST  📋 "lobed" ? ␅
+TD5583223 ␆__BED ~ EB
+TD82 #1 ___ED -ACGHMPRST  📋 "lobed" ? __BED ~ EB
+TD191 attempt 0 LOBED n n Y Y Y
+TD130 #2 _____ ~AM -CDEGHPRST  📋 "lobed" ? ␅
+TD3215671 ␆L____ ~ AML
+TD99 #2 _____ ~AM -CDEGHPRST  📋 "lobed" ? L____ ~ AML
+TD266 attempt 1 LOBED Y n n n n
+TD150 #3 _ARE_ -CDGHMPST  📋 "lobed" ? ␅
+TD3407586 ␆_ARE_ ~ RB
+TD72 #3 _ARE_ -CDGHMPST  📋 "lobed" ? _ARE_ ~ RB
+TD184 attempt 2 LOBED n n m Y n
+TD103 #4 _____ ~E -ACDGHMPRST  📋 "lobed" ? ␅
+TD3567671 ␆_____ ~ EO
+TD100 #4 _____ ~E -ACDGHMPRST  📋 "lobed" ? _____ ~ EO
+TD234 attempt 3 LOBED n m n m n
+TD105 #5 ____S ~DE -ACGHMPRT  📋 "lobed" ? ␅
+TD583602 ␆.
+TD97 #5 ____S ~DE -ACGHMPRT  📋 "lobed" ? .
+TD282 attempt 4 LOBED n n n m m
+TD190 ? ␅
+TD167328 ␆
+TD90 ? 
+TD107 question done
+TD288 > ␅
+TD720009 ␆*
+TD71 > *
+TD1721222 questioning: ["llama", "#2"]
+TD195 #1 __BED -ACGHLMOPRST  📋 "llama" ? ␅
+TD8742097 ␆__BED ~ EB
+TD95 #1 __BED -ACGHLMOPRST  📋 "llama" ? __BED ~ EB
+TD237 attempt 0 LLAMA n n n n n
+TD159 #2 L____ ~AM -BCDEGHOPRST  📋 "llama" ? ␅
+TD975540 ␆/it
+TD79 #2 L____ ~AM -BCDEGHOPRST  📋 "llama" ? /it
+TD186 attempt 1 LLAMA Y Y Y Y Y
+TD69 #3 _ARE_ ~B -CDGHLMOPST  📋 "llama" ? ␅
+TD4088711 ␆_ARE_ ~ RB
+TD104 #3 _ARE_ ~B -CDGHLMOPST  📋 "llama" ? _ARE_ ~ RB
+TD207 attempt 2 LLAMA n n n n n
+TD112 #4 _____ ~EO -ABCDGHLMPRST  📋 "llama" ? ␅
+TD1230770 ␆.
+TD94 #4 _____ ~EO -ABCDGHLMPRST  📋 "llama" ? .
+TD259 attempt 3 LLAMA n n n n n
+TD108 #5 ____S ~DE -ABCGHLMOPRT  📋 "llama" ? ␅
+TD943379 ␆.
+TD78 #5 ____S ~DE -ABCGHLMOPRT  📋 "llama" ? .
+TD182 attempt 4 LLAMA n n n n n
+TD170 ? ␅
+TD183425 ␆
+TD66 ? 
+TD78 question done
+TD180 > ␅
+TD895771 ␆*
+TD81 > *
+TD1633175 questioning: ["ebbed", "#1"]
+TD198 #1 __BED -ACGHLMOPRST  📋 "ebbed" ? ␅
+TD5326580 ␆/it
+TD95 #1 __BED -ACGHLMOPRST  📋 "ebbed" ? /it
+TD250 attempt 0 EBBED Y Y Y Y Y
+TD104 #3 _ARE_ ~B -ACDGHLMOPST  📋 "ebbed" ? ␅
+TD4839790 ␆_ARE_ ~ RB
+TD100 #3 _ARE_ ~B -ACDGHLMOPST  📋 "ebbed" ? _ARE_ ~ RB
+TD242 attempt 2 EBBED n m m Y n
+TD163 #4 _____ ~EO -ABCDGHLMPRST  📋 "ebbed" ? ␅
+TD1175452 ␆.
+TD100 #4 _____ ~EO -ABCDGHLMPRST  📋 "ebbed" ? .
+TD255 attempt 3 EBBED m n n m n
+TD105 #5 ____S ~DE -ABCGHLMOPRT  📋 "ebbed" ? ␅
+TD1047372 ␆.
+TD92 #5 ____S ~DE -ABCGHLMOPRT  📋 "ebbed" ? .
+TD252 attempt 4 EBBED m n n m m
+TD303 ? ␅
+TD167503 ␆
+TD95 ? 
+TD109 question done
+TD310 > ␅
+TD727487 ␆*
+TD79 > *
+TD1501940 questioning: ["barer", "#3"]
+TD189 #3 _ARE_ ~B -ACDGHLMOPST  📋 "barer" ? ␅
+TD3145776 ␆/it
+TD93 #3 _ARE_ ~B -ACDGHLMOPST  📋 "barer" ? /it
+TD253 attempt 2 BARER Y Y Y Y Y
+TD108 #4 _____ ~EO -ABCDGHLMPRST  📋 "barer" ? ␅
+TD1463615 ␆.
+TD90 #4 _____ ~EO -ABCDGHLMPRST  📋 "barer" ? .
+TD269 attempt 3 BARER n n n m n
+TD111 #5 ____S ~DE -ABCGHLMOPRT  📋 "barer" ? ␅
+TD895528 ␆.
+TD95 #5 ____S ~DE -ABCGHLMOPRT  📋 "barer" ? .
+TD258 attempt 4 BARER n n n m n
+TD305 ? ␅
+TD183454 ␆
+TD100 ? 
+TD117 question done
+TD332 > ␅
+TD695291 ␆*
+TD99 > *
+TD1080766 questioning: ["ozone", "#4"]
+TD233 #4 _____ ~EO -ABCDGHLMPRST  📋 "ozone" ? ␅
+TD4456058 ␆/it
+TD117 #4 _____ ~EO -ABCDGHLMPRST  📋 "ozone" ? /it
+TD336 attempt 3 OZONE Y Y Y Y Y
+TD157 #5 ____S ~DE -ABCGHLMOPRT  📋 "ozone" ? ␅
+TD3406472 ␆____S ~ EDn
+TD112 #5 ____S ~DE -ABCGHLMOPRT  📋 "ozone" ? ____S ~ EDn
+TD292 attempt 4 OZONE n n n m m
+TD367 ? ␅
+TD999183 ␆
+TD72 ? 
+TD112 question done
+TD148 > ␅
+TD1295619 ␆
+TD129 > 
+TD577 > ␅
+TD599831 ␆*
+TD117 > *
+TD835841 questioning: ["wends", "#5"]
+TD193 #5 ____S ~DEN -ABCGHLMOPRTZ  📋 "wends" ? ␅
+TD2523232 ␆/it
+TD76 #5 ____S ~DEN -ABCGHLMOPRTZ  📋 "wends" ? /it
+TD183 attempt 4 WENDS Y Y Y Y Y
+TD170 ? ␅
+TD5639676 ␆
+TD85 ? 
+TD86 question done
+TD22055 📋> ␅
+TD3098396 ␆squareword.org 1517: 10 guesses
+TD95 📋> squareword.org 1517: 10 guesses
+TD13 📋> ␅
+TD45 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD16 ␆🟨🟨🟩🟩🟩
+TD5 📋> 🟨🟨🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟩🟨🟨🟨🟨
+TD5 📋> 🟩🟨🟨🟨🟨
+TD4 📋> ␅
+TD10 ␆🟨🟩🟩🟩🟨
+TD4 📋> 🟨🟩🟩🟩🟨
+TD4 📋> ␅
+TD18 ␆🟨🟨🟨🟨🟨
+TD17 📋> 🟨🟨🟨🟨🟨
+TD5 📋> ␅
+TD10 ␆🟨🟨🟨🟨🟩
+TD4 📋> 🟨🟨🟨🟨🟩
+TD4 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD263097 ␆#squareword #squareword1517
+TD77 📋> #squareword #squareword1517
+TD9 📋> ␅
+TD175790 ␄
+TD141 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1517: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1517"}
+TD500 result: "squareword.org 1517: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1517"
+TD69 📆 2026-03-28 ? ␅
+TD175703 ␆
+TD76 📆 2026-03-28 ? 
