@@ -1,0 +1,97 @@
+T74548.41644254501 now: 2026-03-28T07:40:53EDT
+TD153 site: alphaguess.com
+TD132789 loaded 196524 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (80 words excluded) asof e6271dbe8584c3dcb4bdb64e34194e28ea8ee7f1
+TD103  ...␅
+TD4490056 ␆
+TD104  ...
+TD176 [0 : 98217 : 196524] mach? ␅
+TD2960034 ␆b
+TD82 [0 : 98217 : 196524] mach? b
+TD84 progress: -1 98217 mach
+TD81 [0 : 47381 : 98217] dis? ␅
+TD1567238 ␆b
+TD93 [0 : 47381 : 98217] dis? b
+TD110 progress: -1 47381 dis
+TD113 [0 : 23682 : 47381] camp? ␅
+TD2296024 ␆b
+TD95 [0 : 23682 : 47381] camp? b
+TD102 progress: -1 23682 camp
+TD100 [0 : 11764 : 23682] back? ␅
+TD1615729 ␆a
+TD78 [0 : 11764 : 23682] back? a
+TD78 progress: 1 11764 back
+TD77 [11765 : 17715 : 23682] blind? ␅
+TD1711620 ␆a
+TD100 [11765 : 17715 : 23682] blind? a
+TD103 progress: 1 17715 blind
+TD131 [17716 : 20687 : 23682] brill? ␅
+TD1583903 ␆b
+TD95 [17716 : 20687 : 23682] brill? b
+TD102 progress: -1 20687 brill
+TD102 [17716 : 19160 : 20687] boot? ␅
+TD2231634 ␆a
+TD96 [17716 : 19160 : 20687] boot? a
+TD102 progress: 1 19160 boot
+TD109 [19161 : 19874 : 20687] bra? ␅
+TD1527961 ␆a
+TD81 [19161 : 19874 : 20687] bra? a
+TD80 progress: 1 19874 bra
+TD141 [19875 : 20269 : 20687] braze? ␅
+TD1559503 ␆b
+TD101 [19875 : 20269 : 20687] braze? b
+TD104 progress: -1 20269 braze
+TD213 [19875 : 20072 : 20269] bralette? ␅
+TD2183469 ␆!
+TD80 [19875 : 20072 : 20269] bralette? !
+TD344 [19875 : 20073 : 20268] bramble? ␅
+TD2087910 ␆a
+TD100 [19875 : 20073 : 20268] bramble? a
+TD103 progress: 1 20073 bramble
+TD100 [20074 : 20158 : 20268] brass? ␅
+TD1575355 ␆a
+TD98 [20074 : 20158 : 20268] brass? a
+TD106 progress: 1 20158 brass
+TD151 [20159 : 20210 : 20268] brava? ␅
+TD3048354 ␆a
+TD107 [20159 : 20210 : 20268] brava? a
+TD104 progress: 1 20210 brava
+TD99 [20211 : 20236 : 20268] braw? ␅
+TD1831520 ␆b
+TD102 [20211 : 20236 : 20268] braw? b
+TD105 progress: -1 20236 braw
+TD134 [20211 : 20215 : 20236] brave? ␅
+TD1679302 ␆a
+TD83 [20211 : 20215 : 20236] brave? a
+TD81 progress: 1 20215 brave
+TD124 [20216 : 20226 : 20236] bravi? ␅
+TD1559739 ␆a
+TD87 [20216 : 20226 : 20236] bravi? a
+TD77 progress: 1 20226 bravi
+TD87 [20227 : 20228 : 20236] bravo? ␅
+TD2439574 ␆it
+TD75 [20227 : 20228 : 20236] bravo? it
+TD85 progress: 0 20228 bravo
+TD18 [20227 : 20228 : 20236] <Done>.
+TD62 📋> ␅
+TD2728266 ␆🧩 Puzzle #978
+TD71 📋> 🧩 Puzzle #978
+TD8 📋> ␅
+TD33 ␆🤔 16 guesses
+TD3 📋> 🤔 16 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 29s
+TD4 📋> ⏱️ 29s
+TD2 📋> ␅
+TD271446 ␆🔗 alphaguess.com/978
+TD73 📋> 🔗 alphaguess.com/978
+TD7 📋> ␅
+TD151988 ␄
+TD160 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #978\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 29s\n\ud83d\udd17 alphaguess.com/978"}
+TD97 result: "\ud83e\udde9 Puzzle #978\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 29s\n\ud83d\udd17 alphaguess.com/978"
+TD16 result puzzle: 978
+TD7 result guesses: 16
+TD5 result time: 29s
+TD5 result link: alphaguess.com/978
+TD90 📆 2026-03-28 ? ␅
+TD95505 ␆
+TD76 📆 2026-03-28 ? 
