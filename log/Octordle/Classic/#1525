@@ -1,0 +1,356 @@
+T650.096915667993 now: 2026-03-29T09:26:24EDT
+TD124 site: britannica.com/games/octordle/daily
+TD23 wordlist: nwl2023.txt
+TD8 num_words: 8
+TD161  ...␅
+TD854560 ␆
+TD100  ...
+TD770470 > ␅
+TD6389201 ␆*
+TD63 > *
+TD87221 ? ␅
+TD904819 ␆1
+TD63 ? 1
+TD122 questioning: arles
+TD85 Classic #1 _____? ␅
+TD3455650 ␆MYnMn
+TD61 Classic #1 _____? MYnMn
+TD130 attempt: 0 ARLES m Y n m n
+TD55 Classic #2 _____? ␅
+TD1423797 ␆nMnMn
+TD66 Classic #2 _____? nMnMn
+TD143 attempt: 1 ARLES n m n m n
+TD59 Classic #3 _____? ␅
+TD1935890 ␆MMnYM
+TD97 Classic #3 _____? MMnYM
+TD226 attempt: 2 ARLES m m n Y m
+TD107 Classic #4 _____? ␅
+TD1335594 ␆nYnnn
+TD95 Classic #4 _____? nYnnn
+TD216 attempt: 3 ARLES n Y n n n
+TD73 Classic #5 _____? ␅
+TD5127628 ␆MMnnM
+TD93 Classic #5 _____? MMnnM
+TD293 attempt: 4 ARLES m m n n m
+TD140 Classic #6 _____? ␅
+TD1239516 ␆Mnnnn
+TD76 Classic #6 _____? Mnnnn
+TD150 attempt: 5 ARLES m n n n n
+TD71 Classic #7 _____? ␅
+TD1520370 ␆MnMnn
+TD99 Classic #7 _____? MnMnn
+TD219 attempt: 6 ARLES m n m n n
+TD94 Classic #8 _____? ␅
+TD1783341 ␆nnMnn
+TD99 Classic #8 _____? nnMnn
+TD227 attempt: 7 ARLES n n m n n
+TD734441 > ␅
+TD3992907 ␆*
+TD98 > *
+TD2962 ? ␅
+TD4725807 ␆7
+TD75 ? 7
+TD133 questioning: china
+TD125 Classic #1 _R___ ~AE -LS? ␅
+TD4678753 ␆nnMnM
+TD81 Classic #1 _R___ ~AE -LS? nnMnM
+TD154 attempt: 0 CHINA n n m n m
+TD70 Classic #2 _____ ~ER -ALS? ␅
+TD1183805 ␆nnnnn
+TD102 Classic #2 _____ ~ER -ALS? nnnnn
+TD210 attempt: 1 CHINA n n n n n
+TD100 Classic #3 ___E_ ~ARS -L? ␅
+TD1247748 ␆nnnnM
+TD82 Classic #3 ___E_ ~ARS -L? nnnnM
+TD156 attempt: 2 CHINA n n n n m
+TD71 Classic #4 _R___ -AELS? ␅
+TD1393549 ␆MnYnn
+TD117 Classic #4 _R___ -AELS? MnYnn
+TD157 attempt: 3 CHINA m n Y n n
+TD78 Classic #5 _____ ~ARS -EL? ␅
+TD3925564 ␆nnnnM
+TD73 Classic #5 _____ ~ARS -EL? nnnnM
+TD153 attempt: 4 CHINA n n n n m
+TD71 Classic #6 _____ ~A -ELRS? ␅
+TD2175734 ␆nMnMM
+TD73 Classic #6 _____ ~A -ELRS? nMnMM
+TD166 attempt: 5 CHINA n m n m m
+TD79 Classic #7 _____ ~AL -ERS? ␅
+TD1559811 ␆nMnnM
+TD97 Classic #7 _____ ~AL -ERS? nMnnM
+TD225 attempt: 6 CHINA n m n n m
+TD116 Classic #8 _____ ~L -AERS? ␅
+TD1415598 ␆nnnnn
+TD75 Classic #8 _____ ~L -AERS? nnnnn
+TD149 attempt: 7 CHINA n n n n n
+TD713683 > ␅
+TD1438811 ␆*
+TD118 > *
+TD548 ? ␅
+TD1166688 ␄
+TD146 <EOF>
+TD720793 > ␅
+TD1310993 ␆* 2
+TD94 > * 2
+TD103568 ? ␅
+TD2872403 ␆2
+TD97 ? 2
+TD181 questioning: route
+TD162 Classic #1 _R___ ~AEI -CHLNS? ␅
+TD4671405 ␆MnnYY
+TD78 Classic #1 _R___ ~AEI -CHLNS? MnnYY
+TD154 attempt: 0 ROUTE m n n Y Y
+TD72 Classic #2 _____ ~ER -ACHILNS? ␅
+TD2032373 ␆MnnnM
+TD87 Classic #2 _____ ~ER -ACHILNS? MnnnM
+TD176 attempt: 1 ROUTE m n n n m
+TD82 Classic #3 ___E_ ~ARS -CHILN? ␅
+TD2535300 ␆MnnnM
+TD91 Classic #3 ___E_ ~ARS -CHILN? MnnnM
+TD233 attempt: 2 ROUTE m n n n m
+TD119 Classic #4 _RI__ ~C -AEHLNS? ␅
+TD1527866 ␆Mnnnn
+TD105 Classic #4 _RI__ ~C -AEHLNS? Mnnnn
+TD214 attempt: 3 ROUTE m n n n n
+TD109 Classic #5 _____ ~ARS -CEHILN? ␅
+TD3343680 ␆MnnMn
+TD101 Classic #5 _____ ~ARS -CEHILN? MnnMn
+TD233 attempt: 4 ROUTE m n n m n
+TD87 Classic #6 _____ ~AHN -CEILRS? ␅
+TD1591486 ␆nnnnn
+TD77 Classic #6 _____ ~AHN -CEILRS? nnnnn
+TD151 attempt: 5 ROUTE n n n n n
+TD76 Classic #7 _____ ~AHL -CEINRS? ␅
+TD1631970 ␆nYnYn
+TD92 Classic #7 _____ ~AHL -CEINRS? nYnYn
+TD1778 attempt: 6 ROUTE n Y n Y n
+TD145 Classic #8 _____ ~L -ACEHINRS? ␅
+TD1405513 ␆nnMnn
+TD104 Classic #8 _____ ~L -ACEHINRS? nnMnn
+TD226 attempt: 7 ROUTE n n m n n
+TD707621 > ␅
+TD2243911 ␆*7
+TD67 > *7
+TD125 > ␅
+TD2055702 ␆* 7
+TD69 > * 7
+TD93459 questioning: loath
+TD116 Classic #1 _R_TE ~AI -CHLNOSU? ␅
+TD8282746 ␆nnYYn
+TD99 Classic #1 _R_TE ~AI -CHLNOSU? nnYYn
+TD217 attempt: 0 LOATH n n Y Y n
+TD136 Classic #2 _____ ~ER -ACHILNOSTU? ␅
+TD1183345 ␆nnnnn
+TD94 Classic #2 _____ ~ER -ACHILNOSTU? nnnnn
+TD220 attempt: 1 LOATH n n n n n
+TD117 Classic #3 ___E_ ~ARS -CHILNOTU? ␅
+TD1319929 ␆nnMnn
+TD101 Classic #3 ___E_ ~ARS -CHILNOTU? nnMnn
+TD226 attempt: 2 LOATH n n m n n
+TD112 Classic #4 _RI__ ~C -AEHLNOSTU? ␅
+TD1087264 ␆nnnnn
+TD99 Classic #4 _RI__ ~C -AEHLNOSTU? nnnnn
+TD172 attempt: 3 LOATH n n n n n
+TD97 Classic #5 _____ ~ARST -CEHILNOU? ␅
+TD3439510 ␆nnMMn
+TD72 Classic #5 _____ ~ARST -CEHILNOU? nnMMn
+TD158 attempt: 4 LOATH n n m m n
+TD80 Classic #6 _____ ~AHN -CEILORSTU? ␅
+TD1423910 ␆nnMnM
+TD101 Classic #6 _____ ~AHN -CEILORSTU? nnMnM
+TD224 attempt: 5 LOATH n n m n m
+T11.209668886032887 now: 2026-03-29T09:28:23EDT
+TD95 questioning: loath
+TD89 Classic #7 _O_T_ ~AHL -CEINRSU? ␅
+TD1966322 ␆YYYYY
+TD94 Classic #7 _O_T_ ~AHL -CEINRSU? YYYYY
+TD378 attempt: 6 LOATH Y Y Y Y Y
+TD130 Classic #8 _____ ~LU -ACEHINORST? ␅
+TD2039562 ␆Ynnnn
+TD97 Classic #8 _____ ~LU -ACEHINORST? Ynnnn
+TD263 attempt: 7 LOATH Y n n n n
+TD594069 > ␅
+TD3117521 ␆*
+TD107 > *
+TD837 questioning: irate
+TD113 Classic #1 _RATE ~I -CHLNOSU? ␅
+TD4542799 ␆YYYYY
+TD67 Classic #1 _RATE ~I -CHLNOSU? YYYYY
+TD127 attempt: 0 IRATE Y Y Y Y Y
+TD67 Classic #2 _____ ~ER -ACHILNOSTU? ␅
+TD1959901 ␆nMnnM
+TD77 Classic #2 _____ ~ER -ACHILNOSTU? nMnnM
+TD154 attempt: 1 IRATE n m n n m
+TD78 Classic #3 ___E_ ~ARS -CHILNOTU? ␅
+TD1487702 ␆nMMnM
+TD78 Classic #3 ___E_ ~ARS -CHILNOTU? nMMnM
+TD153 attempt: 2 IRATE n m m n m
+TD86 Classic #4 _RI__ ~C -AEHLNOSTU? ␅
+TD1520223 ␆MYnnn
+TD78 Classic #4 _RI__ ~C -AEHLNOSTU? MYnnn
+TD157 attempt: 3 IRATE m Y n n n
+TD73 Classic #5 _____ ~ARST -CEHILNOU? ␅
+TD3431304 ␆nMMMn
+TD98 Classic #5 _____ ~ARST -CEHILNOU? nMMMn
+TD226 attempt: 4 IRATE n m m m n
+TD108 Classic #6 _____ ~AHN -CEILORSTU? ␅
+TD1496101 ␆nnMnn
+TD95 Classic #6 _____ ~AHN -CEILORSTU? nnMnn
+TD219 attempt: 5 IRATE n n m n n
+TD112 Classic #8 L____ ~U -ACEHINORST? ␅
+TD2063122 ␆nnnnn
+TD105 Classic #8 L____ ~U -ACEHINORST? nnnnn
+TD248 attempt: 7 IRATE n n n n n
+TD528469 > ␅
+TD2743183 ␆*
+TD79 > *
+TD402 ? ␅
+TD2023888 ␆1
+TD95 ? 1
+TD203 questioning: lumpy
+TD131 Classic #2 _____ ~ER -ACHILNOSTU? ␅
+TD4983240 ␆nnnnY
+TD104 Classic #2 _____ ~ER -ACHILNOSTU? nnnnY
+TD224 attempt: 1 LUMPY n n n n Y
+TD115 Classic #3 ___E_ ~ARS -CHILNOTU? ␅
+TD1511558 ␆nnnnn
+TD83 Classic #3 ___E_ ~ARS -CHILNOTU? nnnnn
+TD154 attempt: 2 LUMPY n n n n n
+TD82 Classic #4 _RI__ ~C -AEHLNOSTU? ␅
+TD1200068 ␆nnnnn
+TD96 Classic #4 _RI__ ~C -AEHLNOSTU? nnnnn
+TD215 attempt: 3 LUMPY n n n n n
+TD115 Classic #5 _____ ~ARST -CEHILNOU? ␅
+TD3559125 ␆nnnMn
+TD110 Classic #5 _____ ~ARST -CEHILNOU? nnnMn
+TD218 attempt: 4 LUMPY n n n m n
+TD108 Classic #6 _____ ~AHN -CEILORSTU? ␅
+TD2063551 ␆nnnnY
+TD101 Classic #6 _____ ~AHN -CEILORSTU? nnnnY
+TD333 attempt: 5 LUMPY n n n n Y
+TD182 Classic #8 L____ ~U -ACEHINORST? ␅
+TD1415478 ␆YYYYY
+TD70 Classic #8 L____ ~U -ACEHINORST? YYYYY
+TD150 attempt: 7 LUMPY Y Y Y Y Y
+TD380252 > ␅
+TD3891654 ␆* 6
+TD81 > * 6
+TD96050 ? ␅
+TD1647762 ␄
+TD148 <EOF>
+TD414032 > ␅
+TD1881836 ␆* 2
+TD93 > * 2
+TD95597 ? ␅
+TD4424329 ␆1
+TD95 ? 1
+TD182 questioning: derby
+TD186 Classic #2 ____Y ~ER -ACHILMNOPSTU? ␅
+TD5575554 ␆YYYYY
+TD93 Classic #2 ____Y ~ER -ACHILMNOPSTU? YYYYY
+TD217 attempt: 1 DERBY Y Y Y Y Y
+TD119 Classic #3 ___E_ ~ARS -CHILMNOPTUY? ␅
+TD1887597 ␆nMMnn
+TD94 Classic #3 ___E_ ~ARS -CHILMNOPTUY? nMMnn
+TD221 attempt: 2 DERBY n m m n n
+TD87 Classic #4 _RI__ ~C -AEHLMNOPSTUY? ␅
+TD1512165 ␆nnMMn
+TD79 Classic #4 _RI__ ~C -AEHLMNOPSTUY? nnMMn
+TD154 attempt: 3 DERBY n n m m n
+TD101 Classic #5 _____ ~APRST -CEHILMNOUY? ␅
+TD4935187 ␆nnYnn
+TD75 Classic #5 _____ ~APRST -CEHILMNOUY? nnYnn
+TD165 attempt: 4 DERBY n n Y n n
+TD83 Classic #6 ____Y ~AHN -CEILMOPRSTU? ␅
+TD1335583 ␆MnnnY
+TD73 Classic #6 ____Y ~AHN -CEILMOPRSTU? MnnnY
+TD155 attempt: 5 DERBY m n n n Y
+TD351014 > ␅
+TD2297086 ␆* 6
+TD96 > * 6
+TD103512 questioning: handy
+TD125 Classic #3 ___E_ ~ARS -BCDHILMNOPTUY? ␅
+TD8136261 ␆nYnnn
+TD107 Classic #3 ___E_ ~ARS -BCDHILMNOPTUY? nYnnn
+TD216 attempt: 2 HANDY n Y n n n
+TD113 Classic #4 _RI__ ~BC -ADEHLMNOPSTUY? ␅
+TD1471914 ␆nnnnn
+TD98 Classic #4 _RI__ ~BC -ADEHLMNOPSTUY? nnnnn
+TD240 attempt: 3 HANDY n n n n n
+TD106 Classic #5 __R__ ~APST -BCDEHILMNOUY? ␅
+TD4151289 ␆nMnnn
+TD95 Classic #5 __R__ ~APST -BCDEHILMNOUY? nMnnn
+TD169 attempt: 4 HANDY n m n n n
+TD86 Classic #6 ____Y ~ADHN -BCEILMOPRSTU? ␅
+TD2263484 ␆YYYYY
+TD67 Classic #6 ____Y ~ADHN -BCEILMOPRSTU? YYYYY
+TD132 attempt: 5 HANDY Y Y Y Y Y
+TD217783 > ␅
+TD1750180 ␆*
+TD95 > *
+TD335 questioning: brick
+TD95 Classic #3 _A_E_ ~RS -BCDHILMNOPTUY? ␅
+TD5655432 ␆nMnnn
+TD99 Classic #3 _A_E_ ~RS -BCDHILMNOPTUY? nMnnn
+TD238 attempt: 2 BRICK n m n n n
+T12.377549141994677 now: 2026-03-29T09:30:21EDT
+TD90 questioning: brick
+TD79 Classic #4 _RI__ ~BC -ADEHLMNOPSTUY? ␅
+TD28300174 ␆YYYYY
+TD81 Classic #4 _RI__ ~BC -ADEHLMNOPSTUY? YYYYY
+TD322 attempt: 3 BRICK Y Y Y Y Y
+TD115 Classic #5 __R__ ~APST -BCDEHILMNOUY? ␅
+TD3703564 ␆nMnnn
+TD97 Classic #5 __R__ ~APST -BCDEHILMNOUY? nMnnn
+TD220 attempt: 4 BRICK n m n n n
+TD244759 > ␅
+TD1666897 ␆*
+TD102 > *
+TD924 ? ␅
+TD3342829 ␆2
+TD105 ? 2
+TD209 questioning: strap
+TD186 Classic #3 _A_E_ ~RS -BCDHIKLMNOPTUY? ␅
+TD4543567 ␆YnMMn
+TD82 Classic #3 _A_E_ ~RS -BCDHIKLMNOPTUY? YnMMn
+TD161 attempt: 2 STRAP Y n m m n
+TD83 Classic #5 __R__ ~APST -BCDEHIKLMNOUY? ␅
+TD3295843 ␆YYYYY
+TD95 Classic #5 __R__ ~APST -BCDEHIKLMNOUY? YYYYY
+TD217 attempt: 4 STRAP Y Y Y Y Y
+TD96196 > ␅
+TD2039437 ␆*
+TD69 > *
+TD373 ? ␅
+TD2751545 ␆1
+TD100 ? 1
+TD186 questioning: safer
+TD168 Classic #3 SA_E_ ~R -BCDHIKLMNOPTUY? ␅
+TD5479783 ␆YYYYY
+TD74 Classic #3 SA_E_ ~R -BCDHIKLMNOPTUY? YYYYY
+TD162 attempt: 2 SAFER Y Y Y Y Y
+TD75 📋> ␅
+TD3120017 ␆Daily Octordle #1525
+TD92 📋> Daily Octordle #1525
+TD17 📋> ␅
+TD43 ␆5️⃣7️⃣
+TD7 📋> 5️⃣7️⃣
+TD6 📋> ␅
+TD13 ␆🕚9️⃣
+TD5 📋> 🕚9️⃣
+TD5 📋> ␅
+TD11 ␆🔟8️⃣
+TD5 📋> 🔟8️⃣
+TD4 📋> ␅
+TD11 ␆4️⃣6️⃣
+TD5 📋> 4️⃣6️⃣
+TD5 📋> ␅
+TD359526 ␆Score: 60
+TD84 📋> Score: 60
+TD8 📋> ␅
+TD304410 ␄
+TD186 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1525\n5\ufe0f\u20e37\ufe0f\u20e3\n\ud83d\udd5a9\ufe0f\u20e3\n\ud83d\udd1f8\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nScore: 60"}
+TD1508 result: "Daily Octordle #1525\n5\ufe0f\u20e37\ufe0f\u20e3\n\ud83d\udd5a9\ufe0f\u20e3\n\ud83d\udd1f8\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nScore: 60"
+TD74 📆 2026-03-29 ? ␅
+TD365744 ␆
+TD99 📆 2026-03-29 ? 
