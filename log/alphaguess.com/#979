@@ -1,0 +1,108 @@
+T49.803847795003094 now: 2026-03-29T09:16:24EDT
+TD124 site: alphaguess.com
+TD150940 loaded 196524 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (80 words excluded) asof ae457e53cf83590a5c7edaf97a6f3655e979a965
+TD119  ...␅
+TD7412 ␆
+TD11  ...
+TD91 [0 : 98217 : 196524] mach? ␅
+TD703873 ␆
+TD98 [0 : 98217 : 196524] mach? 
+TD116 [0 : 98217 : 196524] mach? ␅
+TD6343833 ␆b
+TD97 [0 : 98217 : 196524] mach? b
+TD108 progress: -1 98217 mach
+TD121 [0 : 47381 : 98217] dis? ␅
+TD2959945 ␆b
+TD96 [0 : 47381 : 98217] dis? b
+TD100 progress: -1 47381 dis
+TD108 [0 : 23682 : 47381] camp? ␅
+TD2031555 ␆b
+TD93 [0 : 23682 : 47381] camp? b
+TD107 progress: -1 23682 camp
+TD106 [0 : 11764 : 23682] back? ␅
+TD1831641 ␆b
+TD99 [0 : 11764 : 23682] back? b
+TD108 progress: -1 11764 back
+TD107 [0 : 5876 : 11764] angel? ␅
+TD1807717 ␆a
+TD97 [0 : 5876 : 11764] angel? a
+TD105 progress: 1 5876 angel
+TD101 [5877 : 8323 : 11764] ar? ␅
+TD1775712 ␆a
+TD97 [5877 : 8323 : 11764] ar? a
+TD107 progress: 1 8323 ar
+TD127 [8324 : 9341 : 11764] as? ␅
+TD1527715 ␆a
+TD95 [8324 : 9341 : 11764] as? a
+TD110 progress: 1 9341 as
+TD317 [9342 : 10553 : 11764] audient? ␅
+TD1719303 ␆a
+TD99 [9342 : 10553 : 11764] audient? a
+TD115 progress: 1 10553 audient
+TD105 [10554 : 11149 : 11764] ava? ␅
+TD1664257 ␆a
+TD100 [10554 : 11149 : 11764] ava? a
+TD102 progress: 1 11149 ava
+TD102 [11150 : 11444 : 11764] ax? ␅
+TD1663360 ␆b
+TD94 [11150 : 11444 : 11764] ax? b
+TD103 progress: -1 11444 ax
+TD346 [11150 : 11297 : 11444] aviophobics? ␅
+TD2544359 ␆!
+TD96 [11150 : 11297 : 11444] aviophobics? !
+TD566 [11150 : 11297 : 11443] avirulent? ␅
+TD2038472 ␆a
+TD118 [11150 : 11297 : 11443] avirulent? a
+TD128 progress: 1 11297 avirulent
+TD125 [11298 : 11367 : 11443] awake? ␅
+TD2167468 ␆a
+TD73 [11298 : 11367 : 11443] awake? a
+TD78 progress: 1 11367 awake
+TD75 [11368 : 11402 : 11443] awes? ␅
+TD1655877 ␆a
+TD80 [11368 : 11402 : 11443] awes? a
+TD94 progress: 1 11402 awes
+TD141 [11403 : 11418 : 11443] awkward? ␅
+TD2359683 ␆b
+TD96 [11403 : 11418 : 11443] awkward? b
+TD108 progress: -1 11418 awkward
+TD136 [11403 : 11409 : 11418] awful? ␅
+TD1839723 ␆b
+TD92 [11403 : 11409 : 11418] awful? b
+TD111 progress: -1 11409 awful
+TD197 [11403 : 11406 : 11409] awesomenesses? ␅
+TD1607958 ␆b
+TD102 [11403 : 11406 : 11409] awesomenesses? b
+TD104 progress: -1 11406 awesomenesses
+TD188 [11403 : 11404 : 11406] awesomely? ␅
+TD1647278 ␆b
+TD96 [11403 : 11404 : 11406] awesomely? b
+TD105 progress: -1 11404 awesomely
+TD134 [11403 : 11403 : 11404] awesome? ␅
+TD2911707 ␆it
+TD98 [11403 : 11403 : 11404] awesome? it
+TD107 progress: 0 11403 awesome
+TD28 [11403 : 11403 : 11404] <Done>.
+TD107 📋> ␅
+TD2880290 ␆🧩 Puzzle #979
+TD104 📋> 🧩 Puzzle #979
+TD14 📋> ␅
+TD38 ␆🤔 18 guesses
+TD7 📋> 🤔 18 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 34s
+TD6 📋> ⏱️ 34s
+TD5 📋> ␅
+TD255263 ␆🔗 alphaguess.com/979
+TD91 📋> 🔗 alphaguess.com/979
+TD13 📋> ␅
+TD296206 ␄
+TD185 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #979\n\ud83e\udd14 18 guesses\n\u23f1\ufe0f 34s\n\ud83d\udd17 alphaguess.com/979"}
+TD105 result: "\ud83e\udde9 Puzzle #979\n\ud83e\udd14 18 guesses\n\u23f1\ufe0f 34s\n\ud83d\udd17 alphaguess.com/979"
+TD14 result puzzle: 979
+TD6 result guesses: 18
+TD5 result time: 34s
+TD5 result link: alphaguess.com/979
+TD87 📆 2026-03-29 ? ␅
+TD1583110 ␆
+TD95 📆 2026-03-29 ? 
