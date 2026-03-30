@@ -1,0 +1,77 @@
+T7036.4609568970045 now: 2026-03-30T07:44:51EDT
+TD98 site: alphaguess.com
+TD175952 loaded 196524 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (80 words excluded) asof ae457e53cf83590a5c7edaf97a6f3655e979a965
+TD115  ...␅
+TD6031 ␆
+TD44  ...
+TD141 [0 : 98217 : 196524] mach? ␅
+TD176123 ␆
+TD98 [0 : 98217 : 196524] mach? 
+TD118 [0 : 98217 : 196524] mach? ␅
+TD8399717 ␆b
+TD97 [0 : 98217 : 196524] mach? b
+TD104 progress: -1 98217 mach
+TD110 [0 : 47381 : 98217] dis? ␅
+TD1647742 ␆b
+TD94 [0 : 47381 : 98217] dis? b
+TD104 progress: -1 47381 dis
+TD109 [0 : 23682 : 47381] camp? ␅
+TD7727975 ␆a
+TD102 [0 : 23682 : 47381] camp? a
+TD121 progress: 1 23682 camp
+TD101 [23683 : 35525 : 47381] convention? ␅
+TD1599350 ␆a
+TD90 [23683 : 35525 : 47381] convention? a
+TD105 progress: 1 35525 convention
+TD115 [35526 : 40841 : 47381] da? ␅
+TD1479568 ␆a
+TD93 [35526 : 40841 : 47381] da? a
+TD105 progress: 1 40841 da
+TD106 [40842 : 44073 : 47381] den? ␅
+TD1639921 ␆b
+TD99 [40842 : 44073 : 47381] den? b
+TD104 progress: -1 44073 den
+TD126 [40842 : 42376 : 44073] deco? ␅
+TD1511519 ␆b
+TD96 [40842 : 42376 : 44073] deco? b
+TD106 progress: -1 42376 deco
+TD123 [40842 : 41551 : 42376] day? ␅
+TD1399697 ␆a
+TD98 [40842 : 41551 : 42376] day? a
+TD103 progress: 1 41551 day
+TD108 [41552 : 41836 : 42376] deb? ␅
+TD1440086 ␆b
+TD103 [41552 : 41836 : 42376] deb? b
+TD106 progress: -1 41836 deb
+TD104 [41552 : 41654 : 41836] dead? ␅
+TD1479457 ␆a
+TD93 [41552 : 41654 : 41836] dead? a
+TD102 progress: 1 41654 dead
+TD132 [41655 : 41743 : 41836] deal? ␅
+TD2167597 ␆it
+TD117 [41655 : 41743 : 41836] deal? it
+TD109 progress: 0 41743 deal
+TD25 [41655 : 41743 : 41836] <Done>.
+TD83 📋> ␅
+TD2760419 ␆🧩 Puzzle #980
+TD114 📋> 🧩 Puzzle #980
+TD13 📋> ␅
+TD37 ␆🤔 11 guesses
+TD6 📋> 🤔 11 guesses
+TD5 📋> ␅
+TD11 ␆⏱️ 21s
+TD5 📋> ⏱️ 21s
+TD4 📋> ␅
+TD319293 ␆🔗 alphaguess.com/980
+TD121 📋> 🔗 alphaguess.com/980
+TD34 📋> ␅
+TD159711 ␄
+TD167 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #980\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com/980"}
+TD98 result: "\ud83e\udde9 Puzzle #980\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com/980"
+TD24 result puzzle: 980
+TD6 result guesses: 11
+TD5 result time: 21s
+TD4 result link: alphaguess.com/980
+TD87 📆 2026-03-30 ? ␅
+TD239759 ␆
+TD103 📆 2026-03-30 ? 
