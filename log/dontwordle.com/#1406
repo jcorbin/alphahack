@@ -1,0 +1,168 @@
+T7087.709017587011 now: 2026-03-30T07:45:43EDT
+TD139 site: dontwordle.com
+TD29 wordlist: nwl2023.txt
+TD53  ...␅
+TD694679 ␆
+TD109  ...
+TD131 1> ␅
+TD7695837 ␆* -bot 10
+TD100 1> * -bot 10
+TD191408 ? ␅
+TD2448629 ␆3
+TD105 ? 3
+TD263 📋 "nears" ? ␅
+TD4175448 ␆nMnnM
+TD105 📋 "nears" ? nMnnM
+TD566 tried: NEARS n m n n m
+TD205 2> ␅
+TD935155 ␆undo
+TD103 2> undo
+TD155 undo
+TD150 1> ␅
+TD9559765 ␆* :v [nears] -bot 10
+TD102 1> * :v [nears] -bot 10
+TD84354 ? ␅
+TD3108421 ␆5
+TD100 ? 5
+TD255 📋 "hotly" ? ␅
+TD4055241 ␆nnnnn
+TD145 📋 "hotly" ? nnnnn
+TD264 tried: HOTLY n n n n n
+TD228 2> ␅
+TD759056 ␆undo
+TD170 2> undo
+TD231 undo
+TD210 1> ␅
+TD2607374 ␆*
+TD109 1> *
+TD150667 ? ␅
+TD545164 ␆1
+TD102 ? 1
+TD247 📋 "pzazz" ? ␅
+TD5127737 ␆nnnnn
+TD135 📋 "pzazz" ? nnnnn
+TD273 tried: PZAZZ n n n n n
+TD261 2> ␅
+TD487480 ␆*
+TD133 2> *
+TD95879 ? ␅
+TD839666 ␆1
+TD116 ? 1
+TD188 📋 "yummy" ? ␅
+TD6664102 ␆nMnnn
+TD93 📋 "yummy" ? nMnnn
+TD175 tried: YUMMY n m n n n
+TD125 3> ␅
+TD719806 ␆undo
+TD101 3> undo
+TD186 undo
+TD209 2> ␅
+TD3047300 ␆*
+TD97 2> *
+TD92003 ? ␅
+TD924128 ␆1
+TD100 ? 1
+TD229 📋 "yobby" ? ␅
+TD8112333 ␆nnnnn
+TD94 📋 "yobby" ? nnnnn
+TD199 tried: YOBBY n n n n n
+TD179 3> ␅
+TD543578 ␆*
+TD99 3> *
+TD87253 ? ␅
+TD912157 ␆1
+TD118 ? 1
+TD239 📋 "immix" ? ␅
+TD3775973 ␆Ynnnn
+TD80 📋 "immix" ? Ynnnn
+TD159 tried: IMMIX Y n n n n
+TD127 4> ␅
+TD2575082 ␆undo
+TD105 4> undo
+TD138 undo
+TD209 3> ␅
+TD3399533 ␆*(
+TD121 3> *(
+TD175 3> ␅
+TD767713 ␆*
+TD111 3> *
+TD94933 ? ␅
+TD681282 ␆1
+TD101 ? 1
+TD236 📋 "grrrl" ? ␅
+TD4207569 ␆nnnnn
+TD101 📋 "grrrl" ? nnnnn
+TD200 tried: GRRRL n n n n n
+TD184 4> ␅
+TD447352 ␆*
+TD98 4> *
+TD205090 ? ␅
+TD811179 ␆1
+TD97 ? 1
+TD231 📋 "chuck" ? ␅
+TD7071395 ␆nnMnn
+TD97 📋 "chuck" ? nnMnn
+TD208 tried: CHUCK n n m n n
+TD202 5> ␅
+TD647445 ␆*
+TD95 5> *
+TD191619 ? ␅
+TD880352 ␆1
+TD79 ? 1
+TD179 📋 "fundi" ? ␅
+TD6023894 ␆nMnnM
+TD94 📋 "fundi" ? nMnnM
+TD197 tried: FUNDI n m n n m
+TD204 6> ␅
+TD623337 ␆*
+TD96 6> *
+TD203518 📋 "situs" ? ␅
+TD5260825 ␆MMnYM
+TD101 📋 "situs" ? MMnYM
+TD204 tried: SITUS m m n Y m
+TD222 📋> ␅
+TD4816097 ␆Don't Wordle 1406 - SURVIVED
+TD114 📋> Don't Wordle 1406 - SURVIVED
+TD15 📋> ␅
+TD42 ␆Hooray! I didn't Wordle today!
+TD7 📋> Hooray! I didn't Wordle today!
+TD6 📋> ␅
+TD17 ␆⬜⬜⬜⬜⬜6291
+TD6 📋> ⬜⬜⬜⬜⬜6291
+TD5 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜2686
+TD5 📋> ⬜⬜⬜⬜⬜2686
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜1066
+TD4 📋> ⬜⬜⬜⬜⬜1066
+TD5 📋> ␅
+TD12 ␆⬜⬜🟨⬜⬜143
+TD5 📋> ⬜⬜🟨⬜⬜143
+TD4 📋> ␅
+TD10 ␆⬜🟨⬜⬜🟨2
+TD5 📋> ⬜🟨⬜⬜🟨2
+TD5 📋> ␅
+TD10 ␆🟨🟨⬜🟩🟨1
+TD4 📋> 🟨🟨⬜🟩🟨1
+TD4 📋> ␅
+TD10 ␆Undos used: 4
+TD5 📋> Undos used: 4
+TD5 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD10 ␆  1 words remaining
+TD5 📋>   1 words remaining
+TD5 📋> ␅
+TD9 ␆x 7 unused letters
+TD5 📋> x 7 unused letters
+TD4 📋> ␅
+TD287934 ␆= 7 total score
+TD100 📋> = 7 total score
+TD13 📋> ␅
+TD222769 ␄
+TD175 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1406 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6291\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2686\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1066\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c143\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe82\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe81\nUndos used: 4\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"}
+TD1126 result: "Don't Wordle 1406 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6291\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2686\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1066\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c143\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe82\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe81\nUndos used: 4\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TD66 📆 2026-03-30 ? ␅
+TD271467 ␆
+TD85 📆 2026-03-30 ? 
