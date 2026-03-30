@@ -1,0 +1,248 @@
+T107.3436814090237 now: 2026-03-30T07:57:29EDT
+TD125 site: squareword.org
+TD31 wordlist: nwl2023.txt
+TD42  ...␅
+TD150652 ␆
+TD99  ...
+TD75 🧩  ? ␅
+TD4119756 ␆#1519
+TD94 🧩  ? #1519
+TD272 puzzle_id: #1519
+TD323 > ␅
+TD1335388 ␆*
+TD74 > *
+TD254461 try? ␅
+TD857392 ␆1
+TD68 try? 1
+TD238 questioning: ["taels", "#5"]
+TD183 #1 <IndexError>  📋 "taels" ? ␅
+TD4247636 ␆___L_ ~ AS
+TD72 #1 <IndexError>  📋 "taels" ? ___L_ ~ AS
+TD677 attempt 0 TAELS n m n Y m
+TD125 #2 <IndexError>  📋 "taels" ? ␅
+TD2383313 ␆_A___ ~ E
+TD78 #2 <IndexError>  📋 "taels" ? _A___ ~ E
+TD200 attempt 1 TAELS n Y m n n
+TD89 #3 <IndexError>  📋 "taels" ? ␅
+TD1887571 ␆_____ ~ AL
+TD100 #3 <IndexError>  📋 "taels" ? _____ ~ AL
+TD278 attempt 2 TAELS n m n m n
+TD122 #4 <IndexError>  📋 "taels" ? ␅
+TD1903494 ␆_____ ~ ES
+TD100 #4 <IndexError>  📋 "taels" ? _____ ~ ES
+TD264 attempt 3 TAELS n n m n m
+TD121 #5 <IndexError>  📋 "taels" ? ␅
+TD1967491 ␆_____ ~ ES
+TD77 #5 <IndexError>  📋 "taels" ? _____ ~ ES
+TD178 attempt 4 TAELS n n m n m
+TD206 ? ␅
+TD335817 ␆
+TD114 ? 
+TD116 question done
+TD183 > ␅
+TD439306 ␆*
+TD69 > *
+TD600940 try? ␅
+TD1599293 ␆2
+TD89 try? 2
+TD255 questioning: ["scalp", "#1"]
+TD194 #1 ___L_ ~AS -ET  📋 "scalp" ? ␅
+TD4319249 ␆SCAL_
+TD97 #1 ___L_ ~AS -ET  📋 "scalp" ? SCAL_
+TD265 attempt 0 SCALP Y Y Y Y n
+TD142 #2 _A___ ~E -LST  📋 "scalp" ? ␅
+TD1263540 ␆.
+TD101 #2 _A___ ~E -LST  📋 "scalp" ? .
+TD288 attempt 1 SCALP n n n n n
+TD69 #3 _____ ~AL -EST  📋 "scalp" ? ␅
+TD927640 ␆.
+TD95 #3 _____ ~AL -EST  📋 "scalp" ? .
+TD273 attempt 2 SCALP n n m m n
+TD94 #4 _____ ~ES -ALT  📋 "scalp" ? ␅
+TD1031544 ␆.
+TD106 #4 _____ ~ES -ALT  📋 "scalp" ? .
+TD266 attempt 3 SCALP m n n n n
+TD89 #5 _____ ~ES -ALT  📋 "scalp" ? ␅
+TD2191652 ␆S____ ~ E
+TD77 #5 _____ ~ES -ALT  📋 "scalp" ? S____ ~ E
+TD180 attempt 4 SCALP Y n n n n
+TD316 ? ␅
+TD335234 ␆
+TD81 ? 
+TD103 question done
+TD183 > ␅
+TD455931 ␆
+TD96 > 
+TD410 > ␅
+TD575264 ␆*
+TD86 > *
+TD658539 try? ␅
+TD5309492 ␄
+TD108 <EOF>
+TD231 > ␅
+TD5191724 ␆* 3
+TD109 > * 3
+TD3256 try? ␅
+TD9829305 ␆8
+TD97 try? 8
+TD300 questioning: ["aloud", "#3"]
+TD343 #1 SCAL_ -EPT  📋 "aloud" ? ␅
+TD5766778 ␆SCALD
+TD91 #1 SCAL_ -EPT  📋 "aloud" ? SCALD
+TD253 attempt 0 ALOUD n n n n Y
+TD150 #2 _A___ ~E -ACLPST  📋 "aloud" ? ␅
+TD2927456 ␆.
+TD78 #2 _A___ ~E -ACLPST  📋 "aloud" ? .
+TD245 attempt 1 ALOUD n n n n n
+TD95 #3 _____ ~AL -CEPST  📋 "aloud" ? ␅
+TD1863728 ␆.
+TD100 #3 _____ ~AL -CEPST  📋 "aloud" ? .
+TD269 attempt 2 ALOUD m m n n n
+TD98 #4 _____ ~ES -ACLPT  📋 "aloud" ? ␅
+TD5279930 ␆__O__ ~ ESO
+TD99 #4 _____ ~ES -ACLPT  📋 "aloud" ? __O__ ~ ESO
+TD398 attempt 3 ALOUD n n Y n n
+TD236 #5 S____ ~E -ACLPT  📋 "aloud" ? ␅
+TD1351262 ␆.
+TD95 #5 S____ ~E -ACLPT  📋 "aloud" ? .
+TD266 attempt 4 ALOUD n n n n n
+TD183 ? ␅
+TD167110 ␆
+TD106 ? 
+TD127 question done
+TD389 > ␅
+TD527276 ␆*
+TD81 > *
+TD468709 try? ␅
+TD7547480 ␆4
+TD109 try? 4
+TD297 questioning: ["whose", "#4"]
+TD342 #2 _A___ ~E -ACDLOPSTU  📋 "whose" ? ␅
+TD4671034 ␆WA___ ~ E
+TD66 #2 _A___ ~E -ACDLOPSTU  📋 "whose" ? WA___ ~ E
+TD178 attempt 1 WHOSE Y n n n m
+TD97 #3 _____ ~AL -CDEOPSTU  📋 "whose" ? ␅
+TD1096054 ␆.
+TD95 #3 _____ ~AL -CDEOPSTU  📋 "whose" ? .
+TD262 attempt 2 WHOSE n n n n n
+TD99 #4 __O__ ~ES -ACDLPTU  📋 "whose" ? ␅
+TD5519617 ␆__OSE ~ O
+TD90 #4 __O__ ~ES -ACDLPTU  📋 "whose" ? __OSE ~ O
+TD262 attempt 3 WHOSE n n Y Y Y
+TD157 #5 S____ ~E -ACDLOPTU  📋 "whose" ? ␅
+TD3527199 ␆S____ ~ EW
+TD102 #5 S____ ~E -ACDLOPTU  📋 "whose" ? S____ ~ EW
+TD259 attempt 4 WHOSE m n n n m
+TD353 ? ␅
+TD287393 ␆
+TD102 ? 
+TD128 question done
+TD313 > ␅
+TD847330 ␆*
+TD93 > *
+TD970091 questioning: ["inlay", "#3"]
+TD182 #2 WA___ ~E -ACDHLOPSTU  📋 "inlay" ? ␅
+TD3565708 ␆.
+TD97 #2 WA___ ~E -ACDHLOPSTU  📋 "inlay" ? .
+TD275 attempt 1 INLAY n n n n n
+TD117 #3 _____ ~AL -CDEHOPSTUW  📋 "inlay" ? ␅
+TD639520 ␆/it
+TD97 #3 _____ ~AL -CDEHOPSTUW  📋 "inlay" ? /it
+TD279 attempt 2 INLAY Y Y Y Y Y
+TD99 #4 __OSE -ACDHLPTUW  📋 "inlay" ? ␅
+TD4167629 ␆__OSE ~ O
+TD102 #4 __OSE -ACDHLPTUW  📋 "inlay" ? __OSE ~ O
+TD262 attempt 3 INLAY n n n n n
+TD158 #5 S____ ~EW -ACDHLOPSTU  📋 "inlay" ? ␅
+TD1535547 ␆.
+TD77 #5 S____ ~EW -ACDHLOPSTU  📋 "inlay" ? .
+TD199 attempt 4 INLAY n n n n n
+TD177 ? ␅
+TD183353 ␆
+TD86 ? 
+TD101 question done
+TD271 > ␅
+TD479708 ␆*
+TD95 > *
+TD1664047 questioning: ["wager", "#2"]
+TD203 #2 WA___ ~E -ACDHILNOPSTUY  📋 "wager" ? ␅
+TD4071573 ␆/it
+TD97 #2 WA___ ~E -ACDHILNOPSTUY  📋 "wager" ? /it
+TD222 attempt 1 WAGER Y Y Y Y Y
+TD72 #4 __OSE -ACDHILNPTUWY  📋 "wager" ? ␅
+TD6095907 ␆__OSE ~ O
+TD110 #4 __OSE -ACDHILNPTUWY  📋 "wager" ? __OSE ~ O
+TD252 attempt 3 WAGER n n n n n
+TD146 #5 S____ ~EW -ACDHILNOPSTUY  📋 "wager" ? ␅
+TD2911582 ␆S__ER ~ EW
+TD72 #5 S____ ~EW -ACDHILNOPSTUY  📋 "wager" ? S__ER ~ EW
+TD250 attempt 4 WAGER m n n Y Y
+TD362 ? ␅
+TD639235 ␆
+TD75 ? 
+TD98 question done
+TD307 > ␅
+TD575656 ␆*
+TD107 > *
+TD1260641 questioning: ["moose", "#4"]
+TD198 #4 __OSE -ACDEGHILNPRTUWY  📋 "moose" ? ␅
+TD2898700 ␆/it
+TD78 #4 __OSE -ACDEGHILNPRTUWY  📋 "moose" ? /it
+TD188 attempt 3 MOOSE Y Y Y Y Y
+TD69 #5 S__ER ~W -ACDGHILNOPSTUY  📋 "moose" ? ␅
+TD4672002 ␆S__ER ~ EW
+TD100 #5 S__ER ~W -ACDGHILNOPSTUY  📋 "moose" ? S__ER ~ EW
+TD237 attempt 4 MOOSE n n n n m
+TD325 ? ␅
+TD335387 ␆
+TD103 ? 
+TD125 question done
+TD307 > ␅
+TD575341 ␆*
+TD100 > *
+TD864969 questioning: ["sewer", "#5"]
+TD192 #5 S__ER ~W -ACDGHILMNOPSTUY  📋 "sewer" ? ␅
+TD4798672 ␆/it
+TD97 #5 S__ER ~W -ACDGHILMNOPSTUY  📋 "sewer" ? /it
+TD252 attempt 4 SEWER Y Y Y Y Y
+TD292 ? ␅
+TD887618 ␆
+TD92 ? 
+TD136 question done
+TD22921 📋> ␅
+TD3489207 ␆squareword.org 1519: 8 guesses
+TD95 📋> squareword.org 1519: 8 guesses
+TD13 📋> ␅
+TD55 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD21 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD15 ␆🟩🟩🟨🟨🟨
+TD5 📋> 🟩🟩🟨🟨🟨
+TD4 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD14 ␆🟨🟨🟩🟩🟩
+TD4 📋> 🟨🟨🟩🟩🟩
+TD4 📋> ␅
+TD14 ␆🟩🟨🟨🟨🟨
+TD4 📋> 🟩🟨🟨🟨🟨
+TD4 📋> ␅
+TD13 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD15 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD11 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD303699 ␆#squareword #squareword1519
+TD94 📋> #squareword #squareword1519
+TD19 📋> ␅
+TD216342 ␄
+TD159 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1519: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1519"}
+TD616 result: "squareword.org 1519: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1519"
+TD84 📆 2026-03-30 ? ␅
+TD167189 ␆
+TD85 📆 2026-03-30 ? 
