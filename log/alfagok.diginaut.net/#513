@@ -1,0 +1,93 @@
+T6967.883334182028 now: 2026-03-30T07:43:43EDT
+TD83 site: alfagok.diginaut.net
+TD419741 loaded 399626 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1226 words excluded) asof ae457e53cf83590a5c7edaf97a6f3655e979a965
+TD108  ...␅
+TD24 ␆
+TD2  ...
+TD102 [0 : 199608 : 399626] lij? ␅
+TD10251385 ␆
+TD104 [0 : 199608 : 399626] lij? 
+TD145 [0 : 199608 : 399626] lij? ␅
+TD3431518 ␆a
+TD100 [0 : 199608 : 399626] lij? a
+TD400 progress: 1 199608 lij
+TD93 [199609 : 299482 : 399626] schro? ␅
+TD1655441 ␆a
+TD94 [199609 : 299482 : 399626] schro? a
+TD111 progress: 1 299482 schro
+TD112 [299483 : 349466 : 399626] vakantie? ␅
+TD2608165 ␆b
+TD98 [299483 : 349466 : 399626] vakantie? b
+TD105 progress: -1 349466 vakantie
+TD105 [299483 : 324420 : 349466] subsidie? ␅
+TD3975633 ␆a
+TD77 [299483 : 324420 : 349466] subsidie? a
+TD76 progress: 1 324420 subsidie
+TD80 [324421 : 335610 : 349466] toe? ␅
+TD1671402 ␆a
+TD93 [324421 : 335610 : 349466] toe? a
+TD102 progress: 1 335610 toe
+TD111 [335611 : 342516 : 349466] tunnel? ␅
+TD1599878 ␆a
+TD192 [335611 : 342516 : 349466] tunnel? a
+TD143 progress: 1 342516 tunnel
+TD115 [342517 : 344120 : 349466] uit? ␅
+TD1647248 ␆a
+TD86 [342517 : 344120 : 349466] uit? a
+TD100 progress: 1 344120 uit
+TD371 [344121 : 346788 : 349466] uitschreeuw? ␅
+TD1623847 ␆b
+TD105 [344121 : 346788 : 349466] uitschreeuw? b
+TD111 progress: -1 346788 uitschreeuw
+TD513 [344121 : 345454 : 346788] uitgestoten? ␅
+TD1710992 ␆b
+TD97 [344121 : 345454 : 346788] uitgestoten? b
+TD105 progress: -1 345454 uitgestoten
+TD120 [344121 : 344783 : 345454] uitga? ␅
+TD3039680 ␆b
+TD99 [344121 : 344783 : 345454] uitga? b
+TD111 progress: -1 344783 uitga
+TD283 [344121 : 344452 : 344783] uitdeden? ␅
+TD1695901 ␆a
+TD100 [344121 : 344452 : 344783] uitdeden? a
+TD103 progress: 1 344452 uitdeden
+TD252 [344453 : 344618 : 344783] uitdrupte? ␅
+TD1663218 ␆a
+TD95 [344453 : 344618 : 344783] uitdrupte? a
+TD116 progress: 1 344618 uitdrupte
+TD100 [344619 : 344639 : 344783] uiteen? ␅
+TD1647808 ␆a
+TD91 [344619 : 344639 : 344783] uiteen? a
+TD81 progress: 1 344639 uiteen
+TD136 [344640 : 344712 : 344783] uiteenval? ␅
+TD1743866 ␆a
+TD121 [344640 : 344712 : 344783] uiteenval? a
+TD107 progress: 1 344712 uiteenval
+TD249 [344713 : 344749 : 344783] uiterst? ␅
+TD2031528 ␆it
+TD104 [344713 : 344749 : 344783] uiterst? it
+TD110 progress: 0 344749 uiterst
+TD26 [344713 : 344749 : 344783] <Done>.
+TD99 📋> ␅
+TD2952175 ␆🧩 Puzzel #513
+TD93 📋> 🧩 Puzzel #513
+TD12 📋> ␅
+TD41 ␆🤔 15 gokken
+TD6 📋> 🤔 15 gokken
+TD6 📋> ␅
+TD12 ␆⏱️ 28s
+TD6 📋> ⏱️ 28s
+TD5 📋> ␅
+TD327226 ␆🔗 alfagok.diginaut.net
+TD94 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD223911 ␄
+TD178 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #513\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 28s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD518 result: "\ud83e\udde9 Puzzel #513\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 28s\n\ud83d\udd17 alfagok.diginaut.net"
+TD11 result puzzle: 513
+TD4 result guesses: 15
+TD3 result time: 28s
+TD2 result link: alfagok.diginaut.net
+TD60 📆 2026-03-30 ? ␅
+TD335657 ␆
+TD101 📆 2026-03-30 ? 
