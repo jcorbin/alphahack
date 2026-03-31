@@ -6700,3 +6700,342 @@ TD961 result: "\u2728 Spaceword.org Daily 2026-03-31 \u2728\n\n\ud83c\udfc6 Scor
 TD23530 [prior:2164]> ␅
 TD1431177 ␆/store
 TD100 [prior:2164]> /store
+T2464.510297159999 now: 2026-03-31T08:37:55EDT
+TD23809 [prior:2164]> ␅
+TD2684917 ␆/sea -clear -cap 1024
+TD124 [prior:2164]> /sea -clear -cap 1024
+TD86568640 Z LUK}SqPd|(5}{B6o#XEajwO)80>JqT<S<Wgo&(wK2y&gPi)V;`P%umv{O)%m00000|Nj
+TD11434833 Z BJ3o%v5+7E+YGkBF~C2_6YL}}|8Qtg>Iu!KAxNuKV5I`F00000|Nj
+TD137 Z 8ib()00030{{
+TD18 Z BFafP)(b*o&r`w8(aRH5vATlgL5+oA$4E~Xq;yCM00000|Nj
+TD36 Z A~BROZjV86l0OzFA+F&d761SM0RR6
+TD20 Z B0H3z<q)<|3Zg8O00000|Nj
+TD27 Z BIG3GlPECV6#{3wf*cnPcbq3&0uo-N000000RR6
+TD22 Z qR>fjCU`q<7*(7E00030{{
+TD17 Z B0DWX9Rm&<Fz^Hg6)cp3AW;YpB~lVP00030{{
+TD17 Z BGE}m$LPV`2o1h)WG6urI$2Hv00030{{
+TD18 Z BHKx@dzoON1S%WRLkUEXo|XUr00960
+TD18 Z BGF0cYjr_Rg0=>*IVp@BCjkHe0RR6
+TD65787 search ea718b [ 1024 cap:1024 may:3585 prune:35 dead:38 reject:11 done:1 ]> ␅
+TD95708652 ␆show done
+TD93 search ea718b [ 1024 cap:1024 may:3585 prune:35 dead:38 reject:11 done:1 ]> show done
+TD2327 search ea718b [ 1024 cap:1024 may:3585 prune:35 dead:38 reject:11 done:1 ]> ␅
+TD1013282 ␆show 1
+TD101 search ea718b [ 1024 cap:1024 may:3585 prune:35 dead:38 reject:11 done:1 ]> show 1
+TD1034 search ea718b [ 1024 cap:1024 may:3585 prune:35 dead:38 reject:11 done:1 ]> ␅
+TD1063623 ␆ret
+TD103 search ea718b [ 1024 cap:1024 may:3585 prune:35 dead:38 reject:11 done:1 ]> ret
+TD355 change: 36 
+TD19 change: 23 
+TD10 change: 36 
+TD10 change: 25 
+TD7 change: 36 
+TD8 change: 27 
+TD8 change: 67 
+TD9 change: 32 D
+TD7 change: 55 
+TD8 change: 33 I
+TD6 change: 35 
+TD8 change: 34 A
+TD6 change: 43 
+TD7 change: 35 P
+TD9 change: 74 T
+TD8 change: 37 R
+TD6 change: 43 
+TD5 change: 43 
+TD6 change: 55 
+TD8 change: 45 
+TD6 change: 47 O
+TD5 change: 53 F
+TD4 change: 55 J
+TD6 change: 65 
+TD7 change: 57 T
+TD5 change: 63 O
+TD5 change: 65 
+TD5 change: 65 
+TD5 change: 67 
+TD6 change: 66 
+TD5 change: 67 
+TD9 change: 67 
+TD5 change: 75 E
+TD5 change: 76 S
+TD4 change: 36 I
+TD4 change: 54 A
+TD4 change: 56 I
+TD4 change: 58 A
+TD4 change: 68 V
+TD3 change: 72 W
+TD2 change: 73 Y
+TD2 change: 78 O
+TD23526 [prior:2164 bet:2165]> ␅
+TD3886611 ␆/sea -cap 1024
+TD99 [prior:2164 bet:2165]> /sea -cap 1024
+TD12218715 Z LUxixa;l{<p*ju@Ts$2EJkirU%t=r_C{V*ALtKNAvIIc@00030{{
+TD7602772 Z 8iY;)00030{{
+TD102 Z BG*Y_p24819)BQ#L8N1N08*EWFaQ7m0RR6
+TD3857037 Z 8ib()00030{{
+TD5751649 Z BHKxbW*JJs01c<$0Dou@`hyb_DWL=a00960
+TD115 Z BGpNVEQdHS8j;Y!Z7ZA!9n#Dqn9u<L00960
+TD43 Z BHKwJh$^1SP67Y`0RR6
+TD24 Z BGF0Mq6^_|M8vrS`NP*;KuQ7P0RR91|Nj
+TD27 Z BGpN77PedNsN*C600030{{
+TD19 Z A}@KP3^E}Sj$@Fgf3QEqxgn9DtWQD-2?qcG00960
+TD25 Z BGpL<J0K|t6eHla5@ak4Em4DW04co_ka_?B00960
+TD26 Z B0H3zZi945&_W698gM9)0{{R30RR6
+TD20 Z BD-9Iq$O|<4jwj+0sbzqHdUm5xF;f2BZ_&#00000|Nj
+TD26 Z BF#x*NCyTZA`ap>szn?C00960
+TD19 Z A~BSZuGOG&X@md(00030{{
+TD19 Z B0b{5kX8gjErL75(?7%!8g7yB9xzF<rl6nz00030{{
+TD24 Z qM$+vh6Nb0Ehi$w3jhEB|Nj
+TD19 Z qM$;7CnG952><{9|Nj
+TD17 Z BHKy9*isc$LJ0r>0RR6
+TD17 Z BE?CNd=E-V;4&K?H6i{%u!;thf}o*?D3nktLBaq400960
+TD26 Z !s8^wfGkqC+YvI31P1T|0V$Y3?tv%=1tKIdfwLU8Y8pEL00030{{
+TD27 Z BCDtb*#;Y>MDF84ib{yvP>V`Z00000|Nj
+TD20 Z BD?g4)f<>jg18CINhAyn0ssI2|Nj
+TD19 Z BGE}0y<LCs<w%5`L;?T+00960
+TD18 Z BGE|*&mzVIsO=;G00030{{
+TD17 Z BEN@1vvM2&00960
+TD16 Z qOc_ZiX=o71|y;nvc4Ex5P+kQgopzG00960
+TD21 Z BF{-K@PS@W<R}b6cM=$o>LdUF00960
+TD20 Z BH2ku1tff*DpCQ7D8!+G=i(Vg;wUo!00960
+TD21 Z qBP>bV@WV4P^UWp00030{{
+TD17 Z BFjmrbp=wn1dc9H@C2hp7b&eu00000|Nj
+TD19 Z BE?DAr*}bT9-*e7V2~3?O+g3%00030{{
+TD19 Z BJ3pO!yvIb&Jpe;#GJjqLZoYmCs`$>0ssI2|Nj
+TD21 Z BJ3n=^*D-?&?626!WAO@gUBnq6#xJL0RR6
+TD21 Z A}Zpr_HmJ2h1%@~JDt>SHv#|v00960
+TD19 Z qJ@*dZX(}F00000|Nj
+TD16 Z qQaN}=BN^=pFrxU5&{4K00960
+TD5505087 Z 8ib7#00000|Nj
+TD107 Z qI6&o(u%|}CID%klR72<00030{{
+TD40 Z qK1<or4ueE`IG7-00000|Nj
+TD36 Z qK1?3kDQR~Bme*a0RR6
+TD17 Z 8ia#600000|Nj
+TD13 Z qK1?3M;ys%2><{9|Nj
+TD15 Z qNG)cSYJieQ8)kq00960
+TD16 Z BF{-gI|MO=Ks*2d00960
+TD19 Z BEMYngjq=KQ8)kq00960
+TD15 Z qNu2ZL>#r91ONa4|Nj
+TD14 Z 8iZq&00000|Nj
+TD13 Z qNt$@ov%bsRgfZy?BP=Y00030{{
+TD23 Z B0u8bDHkK+AZwb*b`k&p0RR6
+TD16 Z BG*Ys3-+n)Bme*a0RR6
+TD13 Z qBMEaz)1iA00960
+TD13 Z qQZO}W)qIADP1@K00030{{
+TD17 Z BHu}H_fXqO00000|Nj
+TD19 Z B75Y-1u?OUtv^7)Xbu1X0RR6
+TD16 Z BHKwwbIllIUX(cr00030{{
+TD15 Z B0u87AZseI&*(zZ5_xTJ00000|Nj
+TD16 Z qO=g8L4^VU00960
+TD16 Z qNv)%h&NDDf(8@Hz#vJ%1poj5|Nj
+TD18 Z BHu}HYp@MdP%`-i00030{{
+TD20 Z BG*YS$fY-Rodf^?0RR6
+TD25 Z BG*YsheV-gI7&ka00030{{
+TD14 Z qHbEkITVjr9Yz=c00030{{
+TD18 Z BG*a&@ZmntI$<iT4nP0^00030{{
+TD16 Z qSQ&Cu%fb)00000|Nj
+TD14 Z qI9g%A6}w^R#Q@CkQo2~0RR6
+TD16 Z BHKxbEQhk=0=2RuYw7|300960
+TD15 Z B0J)6>`S47lK=n!0RR6
+TD14 Z B0rSij-$4d00000|Nj
+TD13 Z BHKx@<~H;I!Z1)^1^EZNhWmp95HaXV>cEKt00030{{
+TD23 Z BGE}WmM&0r%?SVi0RR6
+TD17 Z A~lpqcM{2iIRF3v0RR6
+TD14 Z 8icDU00000|Nj
+TD12 Z BF;&4SOJFs00000|Nj
+TD15 Z qI9MSHsgkKrb!_TvgLtz00000|Nj
+TD16 Z B6$vl)X6W>odf^?0RR6
+TD13 Z 8ieaA0RR91|Nj
+TD12 Z qF@vbd0hv1!U-i1AtQs}4WppML_(tg00030{{
+TD20 Z qS#4@QUF{&V64)GI*9}T00030{{
+TD15 Z qEW;_TTWnSk=k+s00030{{
+TD15 Z qO@^>e_bUwxJY#p00030{{
+TD15 Z qQ+8B+@VC)oD%>50RR6
+TD13 Z qH4r}_B*4`Ig#G)1poj5|Nj
+TD14 Z 8iXqb0RR91|Nj
+TD11 Z BC$fD-TGw&00000|Nj
+TD13 Z B6npDQo{|S#SJdRVKd;Q4^;pF00960
+TD17 Z qI9tkVJDG15C;GN0RR6
+TD14 Z qP3Hd+UUdr00000|Nj
+TD13 Z A~`M5YUv^Z00000|Nj
+TD16 Z A~BQ@R)Xi0!B%<(`-cSi2SBO~N948@oJCSl0RR91|Nj
+TD19 Z B73nA6wqL)2LJ#7|Nj
+TD14 Z 8iYG600000|Nj
+TD12 Z 8iYG600000|Nj
+TD16 Z BGpNVJ3nYvXaWEL0RR6
+TD14 Z 8iZ?f0RR91|Nj
+TD12 Z qF!1;tdB>_o1_*800000|Nj
+TD14 Z 8ieb;0RR91|Nj
+TD11 Z 8ieb;0RR91|Nj
+TD12 Z 8iX5&00000|Nj
+TD15 Z 8iX5&00000|Nj
+TD12 Z BF0Hx^j+@_00030{{
+TD13 Z 8iY&G0RR91|Nj
+TD28 Z 8id=d00000|Nj
+TD12 Z BC|Vy+-^d20uamd94Q$01^@s6|Nj
+TD19 Z qHJ+B)}aeX-vw!QfRv@D3JMAU00030{{
+TD16 Z qGZAX8dNTX=21y>5&!@I|Nj
+TD84 Z B6X}1DTvS}b0BM#$lmXT000000RR6
+TD15 Z qH4rJLJ87&AwQG=00030{{
+TD22 Z qM$o~<`6710p!i?0ssI2|Nj
+TD22 Z qIBFF+~NjL@VbHyh;a-Ehu#B#m|P*%Z2$lO0RR6
+TD20 Z BE?B4gMR3f6X4?v(3Vt_7fJvC00960
+TD15 Z A}^GJusF$+T22B000960
+TD14 Z BEd<tT?>x@00000|Nj
+TD15 Z A|;eimY~zlNdN!<0RR6
+TD14 Z A~E7HI&k2Xf|yfY=;1{Q00000|Nj
+TD15 Z A}=jr*)afGm5;t-fV|`l00030{{
+TD15 Z 8id;!00000|Nj
+TD17 Z qG<K0LIAYv1RdCcy0Z}b-c+Ih00030{{
+TD21 Z qQpu5sE7GrI0-UQ=o0A~MAC9E00000|Nj
+TD16 Z qNu$Dau9OhP-hV%00030{{
+TD13 Z BGXBb@&Iyl4~CN{T*L?f00960
+TD15 Z qQ#0qu$#zVR|x<B0RR6
+TD13 Z B0nwRSxrINia`JX00960
+TD13 Z BFagalWcfb3qb(cn=JtV00960
+TD14 Z qIfk0mKqr1aI&2Q00030{{
+TD14 Z B7a&3zDO5i*)SN8pOyds00960
+TD14 Z BF{<CHSq8y-&A!H00030{{
+TD13 Z BD-sevNDINP67Y`0RR6
+TD13 Z BD<(WUQtDji9rMa00030{{
+TD14 Z B0nv`=h~_5Bme*a0RR6
+TD12 Z BLDm)#B3pYxkO<o0RR91|Nj
+TD13 Z BEOD9Udl{WCjkHe0RR6
+TD13 Z qI`KC)prpB00030{{
+TD13 Z BG*aKRl~G!5&!@I|Nj
+TD12 Z qCzNPL>z^CEdc-k0RR6
+TD13 Z BENA0brSMXjMQ-w00030{{
+TD13 Z B7090wxW`f)d2_q00030{{
+TD13 Z qD5Mwa7QWt00960
+TD13 Z qD79Q&`AIQ00960
+TD12 Z qO{rtAD2m8CjkHe0RR6
+TD13 Z qD79QFq8lQ00960
+TD19 Z qH47ZUDg4wP{`};0ssI2|Nj
+TD14 Z qH2zVItiZR$a4|^00960
+TD13 Z qH6M{Wbq3E00000|Nj
+TD13 Z qG};P9VY<*00960
+TD12 Z 8id=@0RR91|Nj
+TD11 Z qG};PolpV*00960
+TD12 Z qI3fh4I&Nz00960
+TD13 Z qHrx7EzX4l00030{{
+TD13 Z qQ>3<NXEjpcK{4X9U=q(00960
+TD14 Z BHKyOS{^h+2tRF{ItSDM00030{{
+TD14 Z qI97?$_@)`g9D@wqyhi{0RR6
+TD14 Z BE?B4>!~mfTtQjeg)(+ZVzUVV00960
+TD15 Z B5&Lq+)l%H;0l@3Ctv^o00960
+TD15 Z B0b`0exM%!00960
+TD12 Z B6*=ct&Z_S000000RR6
+TD36 Z qIB;7)fT@X00000|Nj
+TD13 Z B6;rshyXi_W=lN*00030{{
+TD13 Z B7fErF*k{P@;?>IN&o-=0RR6
+TD14 Z B7c~IW=;YC00960
+TD12 Z B7Z~|UVOtsiCV=s00030{{
+TD13 Z BHu~yQ`lh3b-~k?I3kXe1||Ri0RR6
+TD14 Z BEw0r^n_dr1QXiMKmq^&00960
+TD14 Z qQWQ~wa;V*00030{{
+TD13 Z qO@^BgG1N=00030{{
+TD12 Z BF;&4SWSrl00000|Nj
+TD12 Z BE2O*^MghK00030{{
+TD12 Z qF~uDt#&s700030{{
+TD41536 search e8ce93 [ 1023 cap:1024 may:268 prune:229 dead:96 reject:131 done:13 ]> ␅
+TD218374925 ␆show done
+TD103 search e8ce93 [ 1023 cap:1024 may:268 prune:229 dead:96 reject:131 done:13 ]> show done
+TD1306 search e8ce93 [ 1023 cap:1024 may:268 prune:229 dead:96 reject:131 done:13 ]> ␅
+TD1774737 ␆show 1
+TD106 search e8ce93 [ 1023 cap:1024 may:268 prune:229 dead:96 reject:131 done:13 ]> show 1
+TD2241 search e8ce93 [ 1023 cap:1024 may:268 prune:229 dead:96 reject:131 done:13 ]> ␅
+TD533965 ␆ret
+TD105 search e8ce93 [ 1023 cap:1024 may:268 prune:229 dead:96 reject:131 done:13 ]> ret
+TD385 change: 41 
+TD20 change: 32 
+TD10 change: 41 
+TD10 change: 33 
+TD8 change: 41 
+TD8 change: 34 
+TD7 change: 41 
+TD7 change: 35 
+TD7 change: 41 
+TD6 change: 36 
+TD7 change: 41 
+TD11 change: 37 
+TD7 change: 47 I
+TD6 change: 53 I
+TD5 change: 54 O
+TD8 change: 76 
+TD8 change: 55 S
+TD7 change: 63 
+TD7 change: 56 O
+TD6 change: 63 
+TD8 change: 57 
+TD7 change: 78 
+TD23 change: 58 O
+TD20 change: 63 T
+TD7 change: 76 
+TD7 change: 68 
+TD6 change: 76 
+TD7 change: 72 
+TD6 change: 76 
+TD7 change: 73 
+TD6 change: 76 
+TD6 change: 74 
+TD6 change: 76 
+TD6 change: 75 
+TD5 change: 76 
+TD5 change: 76 
+TD5 change: 78 
+TD10 change: 78 
+TD5 change: 41 V
+TD4 change: 44 F
+TD5 change: 45 A
+TD4 change: 46 J
+TD4 change: 48 T
+TD4 change: 49 A
+TD5 change: 51 A
+TD4 change: 52 R
+TD4 change: 59 I
+TD4 change: 61 W
+TD4 change: 64 Y
+TD4 change: 65 P
+TD4 change: 66 E
+TD4 change: 67 D
+TD41409 [prior:2164 bet:2173]> ␅
+TD72285836 ␆/res
+TD134 [prior:2164 bet:2173]> /res
+TD282 📋> ␅
+TD687927 ␆✨ Spaceword.org Daily 2026-03-31 ✨
+TD132 📋> ✨ Spaceword.org Daily 2026-03-31 ✨
+TD14 📋> ␅
+TD53 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD13 ␆🏆 Score: 2173
+TD6 📋> 🏆 Score: 2173
+TD5 📋> ␅
+TD11 ␆🏅 Rank: 13/153 🏅
+TD5 📋> 🏅 Rank: 13/153 🏅
+TD5 📋> ␅
+TD11 ␆🧩 Tiles: 21/21 ✅
+TD4 📋> 🧩 Tiles: 21/21 ✅
+TD4 📋> ␅
+TD11 ␆📏 Space Bonus: +73
+TD4 📋> 📏 Space Bonus: +73
+TD4 📋> ␅
+TD10 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD19 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD10 ␆Play at https://spaceword.org
+TD5 📋> Play at https://spaceword.org
+TD6 📋> ␅
+TD319174 ␆#spaceword
+TD107 📋> #spaceword
+TD16 📋> ␅
+TD247835 ␄
+TD242 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-03-31 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Rank: 13/153 \ud83c\udfc5\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TD1043 result: "\u2728 Spaceword.org Daily 2026-03-31 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Rank: 13/153 \ud83c\udfc5\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"
+TD22359 [prior:2173]> ␅
+TD2008346 ␆/store
+TD126 [prior:2173]> /store
