@@ -1,0 +1,94 @@
+T125.68422742999974 now: 2026-03-31T07:50:35EDT
+TD184 site: alphaguess.com
+TD144879 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof d23fe2300e55d12ef713747831a4fb5d90ab209c
+TD113  ...␅
+TD46282 ␆
+TD98  ...
+TD168 [0 : 98216 : 196523] mach? ␅
+TD11071868 ␆a
+TD95 [0 : 98216 : 196523] mach? a
+TD102 progress: 1 98216 mach
+TD348 [98217 : 147371 : 196523] rhumb? ␅
+TD1375639 ␆a
+TD101 [98217 : 147371 : 196523] rhumb? a
+TD108 progress: 1 147371 rhumb
+TD146 [147372 : 171636 : 196523] ta? ␅
+TD1352243 ␆a
+TD103 [147372 : 171636 : 196523] ta? a
+TD111 progress: 1 171636 ta
+TD148 [171637 : 182000 : 196523] un? ␅
+TD1494228 ␆a
+TD103 [171637 : 182000 : 196523] un? a
+TD106 progress: 1 182000 un
+TD214 [182001 : 189262 : 196523] vicar? ␅
+TD1351469 ␆a
+TD88 [182001 : 189262 : 196523] vicar? a
+TD115 progress: 1 189262 vicar
+TD169 [189263 : 192866 : 196523] whir? ␅
+TD1416056 ␆a
+TD100 [189263 : 192866 : 196523] whir? a
+TD104 progress: 1 192866 whir
+TD102 [192867 : 194691 : 196523] worship? ␅
+TD1561047 ␆b
+TD102 [192867 : 194691 : 196523] worship? b
+TD103 progress: -1 194691 worship
+TD101 [192867 : 193482 : 194691] win? ␅
+TD1326793 ␆a
+TD100 [192867 : 193482 : 194691] win? a
+TD101 progress: 1 193482 win
+TD117 [193483 : 194062 : 194691] wo? ␅
+TD1743059 ␆b
+TD103 [193483 : 194062 : 194691] wo? b
+TD107 progress: -1 194062 wo
+TD217 [193483 : 193737 : 194062] winter? ␅
+TD1440610 ␆a
+TD101 [193483 : 193737 : 194062] winter? a
+TD106 progress: 1 193737 winter
+TD105 [193738 : 193893 : 194062] wisp? ␅
+TD1471488 ␆b
+TD114 [193738 : 193893 : 194062] wisp? b
+TD177 progress: -1 193893 wisp
+TD151 [193738 : 193795 : 193893] wire? ␅
+TD1383572 ␆a
+TD111 [193738 : 193795 : 193893] wire? a
+TD102 progress: 1 193795 wire
+TD196 [193796 : 193844 : 193893] wirra? ␅
+TD1504480 ␆a
+TD98 [193796 : 193844 : 193893] wirra? a
+TD112 progress: 1 193844 wirra
+TD101 [193845 : 193849 : 193893] wise? ␅
+TD1726500 ␆a
+TD102 [193845 : 193849 : 193893] wise? a
+TD106 progress: 1 193849 wise
+TD247 [193850 : 193871 : 193893] wisent? ␅
+TD1431407 ␆a
+TD99 [193850 : 193871 : 193893] wisent? a
+TD100 progress: 1 193871 wisent
+TD96 [193872 : 193878 : 193893] wish? ␅
+TD2799423 ␆it
+TD98 [193872 : 193878 : 193893] wish? it
+TD103 progress: 0 193878 wish
+TD25 [193872 : 193878 : 193893] <Done>.
+TD83 📋> ␅
+TD3016507 ␆🧩 Puzzle #981
+TD100 📋> 🧩 Puzzle #981
+TD12 📋> ␅
+TD44 ␆🤔 16 guesses
+TD7 📋> 🤔 16 guesses
+TD5 📋> ␅
+TD14 ␆⏱️ 22s
+TD5 📋> ⏱️ 22s
+TD4 📋> ␅
+TD320256 ␆🔗 alphaguess.com/981
+TD98 📋> 🔗 alphaguess.com/981
+TD12 📋> ␅
+TD207628 ␄
+TD174 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #981\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/981"}
+TD100 result: "\ud83e\udde9 Puzzle #981\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/981"
+TD16 result puzzle: 981
+TD6 result guesses: 16
+TD5 result time: 22s
+TD4 result link: alphaguess.com/981
+TD93 📆 2026-03-31 ? ␅
+TD174905 ␆
+TD103 📆 2026-03-31 ? 
