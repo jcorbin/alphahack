@@ -1,0 +1,200 @@
+T467.4087238570064 now: 2026-03-31T07:56:16EDT
+TD167 site: m-w.com/games/quordle/#/
+TD32 wordlist: nwl2023.txt
+TD3 num_words: 4
+TD112  ...␅
+TD1678416 ␆
+TD98  ...
+TD712572 > ␅
+TD5311562 ␆*
+TD128 > *
+TD89617 ? ␅
+TD854239 ␆1
+TD112 ? 1
+TD228 questioning: stela
+TD179 Classic #1 _____? ␅
+TD2991508 ␆YnnnM
+TD106 Classic #1 _____? YnnnM
+TD514 attempt: 0 STELA Y n n n m
+TD121 Classic #2 _____? ␅
+TD1383183 ␆nnnnM
+TD107 Classic #2 _____? nnnnM
+TD272 attempt: 1 STELA n n n n m
+TD113 Classic #3 _____? ␅
+TD1615681 ␆nnnMn
+TD111 Classic #3 _____? nnnMn
+TD287 attempt: 2 STELA n n n m n
+TD122 Classic #4 _____? ␅
+TD1399452 ␆nnnMn
+TD110 Classic #4 _____? nnnMn
+TD263 attempt: 3 STELA n n n m n
+TD926855 > ␅
+TD816821 ␆*
+TD145 > *
+TD10999 ? ␅
+TD1004770 ␆1
+TD127 ? 1
+T7.208804311987478 now: 2026-03-31T07:56:58EDT
+TD199 questioning: stela
+TD960639 > ␅
+TD2648228 ␆*
+TD111 > *
+TD5635 ? ␅
+TD3738262 ␆4
+TD120 ? 4
+TD244 questioning: narco
+TD204 Classic #1 S____ ~A -ELT? ␅
+TD3535479 ␆nMnYn
+TD128 Classic #1 S____ ~A -ELT? nMnYn
+TD392 attempt: 0 NARCO n m n Y n
+TD114 Classic #2 _____ ~A -ELST? ␅
+TD1527376 ␆nYnnn
+TD111 Classic #2 _____ ~A -ELST? nYnnn
+TD211 attempt: 1 NARCO n Y n n n
+TD101 Classic #3 _____ ~L -AEST? ␅
+TD1439574 ␆Mnnnn
+TD129 Classic #3 _____ ~L -AEST? Mnnnn
+TD236 attempt: 2 NARCO m n n n n
+TD122 Classic #4 _____ ~L -AEST? ␅
+TD1671750 ␆nnnnn
+TD181 Classic #4 _____ ~L -AEST? nnnnn
+TD333 attempt: 3 NARCO n n n n n
+TD378807 > ␅
+TD868368 ␆*
+TD120 > *
+TD663 ? ␅
+TD7631464 ␄
+TD222 <EOF>
+TD380475 > ␅
+TD1347389 ␆* 2
+TD134 > * 2
+TD85539 ? ␅
+TD2546204 ␆1
+TD100 ? 1
+TD155 questioning: pawky
+TD115 Classic #1 S__C_ ~A -ELNORT? ␅
+TD3703775 ␆nMnMn
+TD104 Classic #1 S__C_ ~A -ELNORT? nMnMn
+TD170 attempt: 0 PAWKY n m n m n
+TD80 Classic #2 _A___ -CELNORST? ␅
+TD1815592 ␆MYnnY
+TD144 Classic #2 _A___ -CELNORST? MYnnY
+TD214 attempt: 1 PAWKY m Y n n Y
+TD101 Classic #3 _____ ~LN -ACEORST? ␅
+TD2231602 ␆nnnnM
+TD71 Classic #3 _____ ~LN -ACEORST? nnnnM
+TD136 attempt: 2 PAWKY n n n n m
+TD67 Classic #4 _____ ~L -ACENORST? ␅
+TD1431703 ␆YnnnY
+TD119 Classic #4 _____ ~L -ACENORST? YnnnY
+TD276 attempt: 3 PAWKY Y n n n Y
+TD382709 > ␅
+TD1384925 ␆*
+TD114 > *
+TD471 ? ␅
+TD1543381 ␄
+TD128 <EOF>
+TD399918 > ␅
+TD1687953 ␆* 2
+TD125 > * 2
+TD87263 ? ␅
+TD4696643 ␆1
+TD93 ? 1
+TD176 questioning: vampy
+TD186 Classic #1 S__C_ ~AK -ELNOPRTWY? ␅
+TD3247668 ␆nMMnn
+TD112 Classic #1 S__C_ ~AK -ELNOPRTWY? nMMnn
+TD254 attempt: 0 VAMPY n m m n n
+TD139 Classic #2 _A__Y ~P -CEKLNORSTW? ␅
+TD1759645 ␆nYnYY
+TD115 Classic #2 _A__Y ~P -CEKLNORSTW? nYnYY
+TD200 attempt: 1 VAMPY n Y n Y Y
+TD88 Classic #3 _____ ~LNY -ACEKOPRSTW? ␅
+TD1751501 ␆nnnnM
+TD108 Classic #3 _____ ~LNY -ACEKOPRSTW? nnnnM
+TD186 attempt: 2 VAMPY n n n n m
+TD103 Classic #4 P___Y ~L -ACEKNORSTW? ␅
+TD1191604 ␆nnnYY
+TD110 Classic #4 P___Y ~L -ACEKNORSTW? nnnYY
+TD171 attempt: 3 VAMPY n n n Y Y
+TD400422 > ␅
+TD711551 ␆*
+TD108 > *
+TD434 questioning: smack
+TD156 Classic #1 S__C_ ~AKM -ELNOPRTVWY? ␅
+TD2486893 ␆YYYYY
+TD75 Classic #1 S__C_ ~AKM -ELNOPRTVWY? YYYYY
+TD157 attempt: 0 SMACK Y Y Y Y Y
+TD80 Classic #2 _A_PY -CEKLMNORSTVW? ␅
+TD1399846 ␆nnMnn
+TD92 Classic #2 _A_PY -CEKLMNORSTVW? nnMnn
+TD214 attempt: 1 SMACK n n m n n
+TD115 Classic #3 _____ ~LNY -ACEKMOPRSTVW? ␅
+TD1224146 ␆nnnnn
+TD117 Classic #3 _____ ~LNY -ACEKMOPRSTVW? nnnnn
+TD208 attempt: 2 SMACK n n n n n
+TD115 Classic #4 P__PY ~L -ACEKMNORSTVW? ␅
+TD975132 ␆nnnnn
+TD78 Classic #4 P__PY ~L -ACEKMNORSTVW? nnnnn
+TD148 attempt: 3 SMACK n n n n n
+TD309769 > ␅
+TD178586 ␆*
+TD101 > *
+TD378 questioning: lying
+TD112 Classic #2 _A_PY -CEKLMNORSTVW? ␅
+TD3646792 ␆nMnnn
+TD109 Classic #2 _A_PY -CEKLMNORSTVW? nMnnn
+TD206 attempt: 1 LYING n m n n n
+TD123 Classic #3 _____ ~LNY -ACEKMOPRSTVW? ␅
+TD1127599 ␆YYYYY
+TD97 Classic #3 _____ ~LNY -ACEKMOPRSTVW? YYYYY
+TD218 attempt: 2 LYING Y Y Y Y Y
+TD125 Classic #4 P__PY ~L -ACEKMNORSTVW? ␅
+TD1599466 ␆MMnnn
+TD98 Classic #4 P__PY ~L -ACEKMNORSTVW? MMnnn
+TD221 attempt: 3 LYING m m n n n
+TD182063 > ␅
+TD641540 ␆*
+TD90 > *
+TD384 questioning: pulpy
+TD81 Classic #2 _A_PY -CEGIKLMNORSTVW? ␅
+TD3799636 ␆MnnYY
+TD91 Classic #2 _A_PY -CEGIKLMNORSTVW? MnnYY
+TD165 attempt: 1 PULPY m n n Y Y
+TD86 Classic #4 P__PY ~L -ACEGIKMNORSTVW? ␅
+TD1647664 ␆YYYYY
+TD76 Classic #4 P__PY ~L -ACEGIKMNORSTVW? YYYYY
+TD143 attempt: 3 PULPY Y Y Y Y Y
+TD94761 > ␅
+TD721055 ␆*
+TD77 > *
+TD372 ? ␅
+TD1847468 ␆1
+TD68 ? 1
+TD124 questioning: happy
+TD99 Classic #2 _A_PY -CEGIKLMNORSTUVW? ␅
+TD2559796 ␆YYYYY
+TD97 Classic #2 _A_PY -CEGIKLMNORSTUVW? YYYYY
+TD209 attempt: 1 HAPPY Y Y Y Y Y
+TD118 📋> ␅
+TD4664296 ␆🙂 Daily Quordle 1527
+TD97 📋> 🙂 Daily Quordle 1527
+TD16 📋> ␅
+TD44 ␆5️⃣8️⃣
+TD8 📋> 5️⃣8️⃣
+TD7 📋> ␅
+TD12 ␆6️⃣7️⃣
+TD5 📋> 6️⃣7️⃣
+TD5 📋> ␅
+TD11 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD303190 ␆
+TD98 📋> 
+TD13 📋> ␅
+TD200544 ␄
+TD191 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1527\n5\ufe0f\u20e38\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1844 result: "\ud83d\ude42 Daily Quordle 1527\n5\ufe0f\u20e38\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD65 📆 2026-03-31 ? ␅
+TD157202 ␆
+TD93 📆 2026-03-31 ? 
