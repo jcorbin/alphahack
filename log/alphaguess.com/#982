@@ -1,0 +1,66 @@
+T83545.611707926 now: 2026-04-01T07:59:18EDT
+TD80 site: alphaguess.com
+TD150776 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof c94ee97fdd0c72abd1b561cf6ef44581218a8190
+TD116  ...␅
+TD3640086 ␆
+TD103  ...
+TD184 [0 : 98216 : 196523] mach? ␅
+TD1847725 ␆a
+TD81 [0 : 98216 : 196523] mach? a
+TD83 progress: 1 98216 mach
+TD186 [98217 : 147371 : 196523] rhumb? ␅
+TD1351660 ␆a
+TD78 [98217 : 147371 : 196523] rhumb? a
+TD77 progress: 1 147371 rhumb
+TD79 [147372 : 171636 : 196523] ta? ␅
+TD1511726 ␆b
+TD102 [147372 : 171636 : 196523] ta? b
+TD103 progress: -1 171636 ta
+TD171 [147372 : 159483 : 171636] slop? ␅
+TD1327757 ␆a
+TD100 [147372 : 159483 : 171636] slop? a
+TD123 progress: 1 159483 slop
+TD103 [159484 : 165525 : 171636] stick? ␅
+TD2167648 ␆b
+TD100 [159484 : 165525 : 171636] stick? b
+TD112 progress: -1 165525 stick
+TD125 [159484 : 162470 : 165525] spec? ␅
+TD1351584 ␆b
+TD91 [159484 : 162470 : 165525] spec? b
+TD105 progress: -1 162470 spec
+TD113 [159484 : 160962 : 162470] soft? ␅
+TD1399913 ␆b
+TD87 [159484 : 160962 : 162470] soft? b
+TD80 progress: -1 160962 soft
+TD194 [159484 : 160222 : 160962] snath? ␅
+TD1407430 ␆b
+TD70 [159484 : 160222 : 160962] snath? b
+TD84 progress: -1 160222 snath
+TD125 [159484 : 159844 : 160222] smell? ␅
+TD2895856 ␆it
+TD111 [159484 : 159844 : 160222] smell? it
+TD116 progress: 0 159844 smell
+TD27 [159484 : 159844 : 160222] <Done>.
+TD91 📋> ␅
+TD2616261 ␆🧩 Puzzle #982
+TD69 📋> 🧩 Puzzle #982
+TD7 📋> ␅
+TD30 ␆🤔 9 guesses
+TD3 📋> 🤔 9 guesses
+TD2 📋> ␅
+TD5 ␆⏱️ 12s
+TD3 📋> ⏱️ 12s
+TD2 📋> ␅
+TD303504 ␆🔗 alphaguess.com/982
+TD91 📋> 🔗 alphaguess.com/982
+TD13 📋> ␅
+TD247854 ␄
+TD175 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #982\n\ud83e\udd14 9 guesses\n\u23f1\ufe0f 12s\n\ud83d\udd17 alphaguess.com/982"}
+TD102 result: "\ud83e\udde9 Puzzle #982\n\ud83e\udd14 9 guesses\n\u23f1\ufe0f 12s\n\ud83d\udd17 alphaguess.com/982"
+TD16 result puzzle: 982
+TD7 result guesses: 9
+TD6 result time: 12s
+TD5 result link: alphaguess.com/982
+TD93 📆 2026-04-01 ? ␅
+TD263525 ␆
+TD97 📆 2026-04-01 ? 
