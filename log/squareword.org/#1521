@@ -1,0 +1,212 @@
+T84205.04277844701 now: 2026-04-01T08:10:18EDT
+TD69 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD24  ...␅
+TD430780 ␆
+TD97  ...
+TD73 🧩  ? ␅
+TD3887765 ␆#1521
+TD91 🧩  ? #1521
+TD276 puzzle_id: #1521
+TD250 > ␅
+TD1055340 ␆*
+TD74 > *
+TD196837 try? ␅
+TD739055 ␆1
+TD95 try? 1
+TD305 questioning: ["serai", "#5"]
+TD286 #1 <IndexError>  📋 "serai" ? ␅
+TD3703340 ␆_____ ~ SA
+TD76 #1 <IndexError>  📋 "serai" ? _____ ~ SA
+TD461 attempt 0 SERAI m n n m n
+TD77 #2 <IndexError>  📋 "serai" ? ␅
+TD2207620 ␆_____ ~ RAI
+TD100 #2 <IndexError>  📋 "serai" ? _____ ~ RAI
+TD281 attempt 1 SERAI n n m m m
+TD121 #3 <IndexError>  📋 "serai" ? ␅
+TD2351540 ␆_____ ~ SRI
+TD99 #3 <IndexError>  📋 "serai" ? _____ ~ SRI
+TD260 attempt 2 SERAI m n m n m
+TD122 #4 <IndexError>  📋 "serai" ? ␅
+TD2735517 ␆__R__ ~ SE
+TD99 #4 <IndexError>  📋 "serai" ? __R__ ~ SE
+TD252 attempt 3 SERAI m m Y n n
+TD115 #5 <IndexError>  📋 "serai" ? ␅
+TD2351478 ␆_E___ ~ ER
+TD90 #5 <IndexError>  📋 "serai" ? _E___ ~ ER
+TD265 attempt 4 SERAI n Y m n n
+TD334 ? ␅
+TD303365 ␆
+TD83 ? 
+TD125 question done
+TD192 > ␅
+TD783538 ␆*
+TD100 > *
+TD656021 try? ␅
+TD1151926 ␆1
+TD71 try? 1
+TD208 questioning: ["euros", "#4"]
+TD176 #1 _____ ~AS -EIR  📋 "euros" ? ␅
+TD3655667 ␆.
+TD104 #1 _____ ~AS -EIR  📋 "euros" ? .
+TD266 attempt 0 EUROS n n n n m
+TD91 #2 _____ ~AIR -ES  📋 "euros" ? ␅
+TD3263603 ␆_____ ~ RAIO
+TD84 #2 _____ ~AIR -ES  📋 "euros" ? _____ ~ RAIO
+TD189 attempt 1 EUROS n n m m n
+TD102 #3 _____ ~IRS -AE  📋 "euros" ? ␅
+TD3087542 ␆____S ~ RIO
+TD80 #3 _____ ~IRS -AE  📋 "euros" ? ____S ~ RIO
+TD197 attempt 2 EUROS n n m m Y
+TD107 #4 __R__ ~ES -AI  📋 "euros" ? ␅
+TD3063693 ␆__R_S ~ EO
+TD121 #4 __R__ ~ES -AI  📋 "euros" ? __R_S ~ EO
+TD258 attempt 3 EUROS m n Y m Y
+TD150 #5 _E___ ~R -AIS  📋 "euros" ? ␅
+TD4047484 ␆_E___ ~ ER
+TD98 #5 _E___ ~R -AIS  📋 "euros" ? _E___ ~ ER
+TD256 attempt 4 EUROS m n m n n
+TD338 ? ␅
+TD335355 ␆
+TD86 ? 
+TD139 question done
+TD305 > ␅
+TD823522 ␆*
+TD95 > *
+TD541986 try? ␅
+TD2169905 ␆3
+TD100 try? 3
+TD286 questioning: ["radio", "#2"]
+TD334 #1 _____ ~AS -EIORU  📋 "radio" ? ␅
+TD3823217 ␆.
+TD99 #1 _____ ~AS -EIORU  📋 "radio" ? .
+TD278 attempt 0 RADIO n m n n n
+TD94 #2 _____ ~AIOR -ESU  📋 "radio" ? ␅
+TD599577 ␆/it
+TD99 #2 _____ ~AIOR -ESU  📋 "radio" ? /it
+TD265 attempt 1 RADIO Y Y Y Y Y
+TD98 #3 ____S ~IOR -AEU  📋 "radio" ? ␅
+TD2855504 ␆.
+TD100 #3 ____S ~IOR -AEU  📋 "radio" ? .
+TD281 attempt 2 RADIO m n n m m
+TD86 #4 __R_S ~EO -AIU  📋 "radio" ? ␅
+TD1847706 ␆.
+TD99 #4 __R_S ~EO -AIU  📋 "radio" ? .
+TD272 attempt 3 RADIO n n n n m
+TD74 #5 _E___ ~R -AIOSU  📋 "radio" ? ␅
+TD2847897 ␆RE___ ~ ED
+TD101 #5 _E___ ~R -AIOSU  📋 "radio" ? RE___ ~ ED
+TD268 attempt 4 RADIO Y n m n n
+TD181 ? ␅
+TD383552 ␆
+TD97 ? 
+TD123 question done
+TD342 > ␅
+TD751062 ␆*
+TD102 > *
+TD735188 questioning: ["irons", "#3"]
+TD240 #1 _____ ~AS -DEIORU  📋 "irons" ? ␅
+TD3696454 ␆.
+TD99 #1 _____ ~AS -DEIORU  📋 "irons" ? .
+TD288 attempt 0 IRONS n n n n m
+TD96 #3 ____S ~IOR -ADEU  📋 "irons" ? ␅
+TD575283 ␆/it
+TD87 #3 ____S ~IOR -ADEU  📋 "irons" ? /it
+TD287 attempt 2 IRONS Y Y Y Y Y
+TD99 #4 __R_S ~EO -ADIRU  📋 "irons" ? ␅
+TD2231719 ␆.
+TD76 #4 __R_S ~EO -ADIRU  📋 "irons" ? .
+TD190 attempt 3 IRONS n n m n Y
+TD67 #5 RE___ ~D -AIOSU  📋 "irons" ? ␅
+TD3479853 ␆RE___ ~ ED
+TD115 #5 RE___ ~D -AIOSU  📋 "irons" ? RE___ ~ ED
+TD254 attempt 4 IRONS n n n n n
+TD370 ? ␅
+TD271030 ␆
+TD98 ? 
+TD121 question done
+TD322 > ␅
+TD855815 ␆*
+TD98 > *
+TD1512628 questioning: ["ogres", "#4"]
+TD196 #1 _____ ~AS -DEINORU  📋 "ogres" ? ␅
+TD4894927 ␆.
+TD91 #1 _____ ~AS -DEINORU  📋 "ogres" ? .
+TD262 attempt 0 OGRES n n n n m
+TD104 #4 __R_S ~EO -ADINRU  📋 "ogres" ? ␅
+TD1575396 ␆/it
+TD97 #4 __R_S ~EO -ADINRU  📋 "ogres" ? /it
+TD255 attempt 3 OGRES Y Y Y Y Y
+TD106 #5 RE___ ~D -AINORSU  📋 "ogres" ? ␅
+TD4551754 ␆RE___ ~ ED
+TD98 #5 RE___ ~D -AINORSU  📋 "ogres" ? RE___ ~ ED
+TD245 attempt 4 OGRES n n n m n
+TD339 ? ␅
+TD287588 ␆
+TD90 ? 
+TD108 question done
+TD197 > ␅
+TD567195 ␆*
+TD96 > *
+TD1317360 questioning: ["reedy", "#5"]
+TD198 #1 _____ ~AS -DEGINORU  📋 "reedy" ? ␅
+TD7178551 ␆.
+TD101 #1 _____ ~AS -DEGINORU  📋 "reedy" ? .
+TD258 attempt 0 REEDY n n n n n
+TD119 #5 RE___ ~D -AGINORSU  📋 "reedy" ? ␅
+TD607658 ␆/it
+TD100 #5 RE___ ~D -AGINORSU  📋 "reedy" ? /it
+TD262 attempt 4 REEDY Y Y Y Y Y
+TD306 ? ␅
+TD191200 ␆
+TD98 ? 
+TD115 question done
+TD336 > ␅
+TD655454 ␆*
+TD93 > *
+TD950691 questioning: ["psalm", "#1"]
+TD193 #1 _____ ~AS -DEGINORUY  📋 "psalm" ? ␅
+TD4376950 ␆/it
+TD79 #1 _____ ~AS -DEGINORUY  📋 "psalm" ? /it
+TD185 attempt 0 PSALM Y Y Y Y Y
+TD178 ? ␅
+TD815901 ␆
+TD102 ? 
+TD199 question done
+TD26682 📋> ␅
+TD6901253 ␆squareword.org 1521: 7 guesses
+TD99 📋> squareword.org 1521: 7 guesses
+TD14 📋> ␅
+TD40 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD17 ␆🟨🟨🟨🟨🟨
+TD6 📋> 🟨🟨🟨🟨🟨
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟨🟨🟨
+TD4 📋> 🟩🟩🟨🟨🟨
+TD4 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD287313 ␆#squareword #squareword1521
+TD94 📋> #squareword #squareword1521
+TD13 📋> ␅
+TD215892 ␄
+TD174 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1521: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1521"}
+TD878 result: "squareword.org 1521: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1521"
+TD71 📆 2026-04-01 ? ␅
+TD182885 ␆
+TD101 📆 2026-04-01 ? 
