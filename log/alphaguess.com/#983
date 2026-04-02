@@ -1,0 +1,98 @@
+T147.5664615050191 now: 2026-04-02T07:50:31EDT
+TD85 site: alphaguess.com
+TD159217 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof 461a68bfb46de8291c89941c01d874baf4a56b9d
+TD121  ...␅
+TD4263388 ␆
+TD99  ...
+TD168 [0 : 98216 : 196523] mach? ␅
+TD2112267 ␆b
+TD100 [0 : 98216 : 196523] mach? b
+TD109 progress: -1 98216 mach
+TD109 [0 : 47380 : 98216] dis? ␅
+TD1887758 ␆a
+TD103 [0 : 47380 : 98216] dis? a
+TD105 progress: 1 47380 dis
+TD386 [47381 : 72798 : 98216] gremmy? ␅
+TD1511255 ␆a
+TD102 [47381 : 72798 : 98216] gremmy? a
+TD107 progress: 1 72798 gremmy
+TD108 [72799 : 85502 : 98216] ins? ␅
+TD2071395 ␆a
+TD102 [72799 : 85502 : 98216] ins? a
+TD116 progress: 1 85502 ins
+TD116 [85503 : 91846 : 98216] knot? ␅
+TD1479722 ␆a
+TD97 [85503 : 91846 : 98216] knot? a
+TD110 progress: 1 91846 knot
+TD113 [91847 : 94943 : 98216] lib? ␅
+TD1599584 ␆b
+TD93 [91847 : 94943 : 98216] lib? b
+TD103 progress: -1 94943 lib
+TD131 [91847 : 93266 : 94943] lar? ␅
+TD1591710 ␆a
+TD96 [91847 : 93266 : 94943] lar? a
+TD116 progress: 1 93266 lar
+TD104 [93267 : 93894 : 94943] lea? ␅
+TD4591763 ␆b
+TD98 [93267 : 93894 : 94943] lea? b
+TD113 progress: -1 93894 lea
+TD120 [93267 : 93558 : 93894] lati? ␅
+TD2119735 ␆b
+TD111 [93267 : 93558 : 93894] lati? b
+TD108 progress: -1 93558 lati
+TD105 [93267 : 93406 : 93558] las? ␅
+TD1591650 ␆a
+TD106 [93267 : 93406 : 93558] las? a
+TD109 progress: 1 93406 las
+TD105 [93407 : 93468 : 93558] lat? ␅
+TD1536139 ␆a
+TD108 [93407 : 93468 : 93558] lat? a
+TD105 progress: 1 93468 lat
+TD100 [93469 : 93504 : 93558] lateral? ␅
+TD1519216 ␆b
+TD103 [93469 : 93504 : 93558] lateral? b
+TD105 progress: -1 93504 lateral
+TD102 [93469 : 93481 : 93504] late? ␅
+TD1495739 ␆a
+TD98 [93469 : 93481 : 93504] late? a
+TD104 progress: 1 93481 late
+TD100 [93482 : 93490 : 93504] laten? ␅
+TD1472199 ␆a
+TD100 [93482 : 93490 : 93504] laten? a
+TD102 progress: 1 93490 laten
+TD172 [93491 : 93497 : 93504] latens? ␅
+TD1383112 ␆a
+TD116 [93491 : 93497 : 93504] latens? a
+TD109 progress: 1 93497 latens
+TD178 [93498 : 93499 : 93504] latent? ␅
+TD1415837 ␆a
+TD101 [93498 : 93499 : 93504] latent? a
+TD104 progress: 1 93499 latent
+TD108 [93500 : 93502 : 93504] later? ␅
+TD2519645 ␆it
+TD99 [93500 : 93502 : 93504] later? it
+TD115 progress: 0 93502 later
+TD27 [93500 : 93502 : 93504] <Done>.
+TD114 📋> ␅
+TD3655973 ␆🧩 Puzzle #983
+TD96 📋> 🧩 Puzzle #983
+TD17 📋> ␅
+TD42 ␆🤔 17 guesses
+TD6 📋> 🤔 17 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 28s
+TD6 📋> ⏱️ 28s
+TD5 📋> ␅
+TD279588 ␆🔗 alphaguess.com/983
+TD97 📋> 🔗 alphaguess.com/983
+TD12 📋> ␅
+TD143810 ␄
+TD185 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #983\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/983"}
+TD631 result: "\ud83e\udde9 Puzzle #983\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/983"
+TD21 result puzzle: 983
+TD9 result guesses: 17
+TD6 result time: 28s
+TD5 result link: alphaguess.com/983
+TD85 📆 2026-04-02 ? ␅
+TD126947 ␆
+TD101 📆 2026-04-02 ? 
