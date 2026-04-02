@@ -1,0 +1,160 @@
+T203.6869478430017 now: 2026-04-02T07:51:27EDT
+TD112 site: dontwordle.com
+TD12 wordlist: nwl2023.txt
+TD26  ...␅
+TD4791443 ␆
+TD73  ...
+TD97 1> ␅
+TD3607504 ␆* -bot 10
+TD79 1> * -bot 10
+TD212449 ? ␅
+TD1059603 ␆1
+TD98 ? 1
+TD276 📋 "arles" ? ␅
+TD4047510 ␆nYnMn
+TD99 📋 "arles" ? nYnMn
+TD560 tried: ARLES n Y n m n
+TD135 2> ␅
+TD1031134 ␆undo
+TD86 2> undo
+TD129 undo
+TD121 1> ␅
+TD6440170 ␆* :v [arles] -bot 10
+TD78 1> * :v [arles] -bot 10
+TD122664 ? ␅
+TD852789 ␆1
+TD98 ? 1
+TD255 📋 "thong" ? ␅
+TD4231905 ␆nnnYn
+TD103 📋 "thong" ? nnnYn
+TD227 tried: THONG n n n Y n
+TD198 2> ␅
+TD2135785 ␆undo
+TD102 2> undo
+TD148 undo
+TD139 1> ␅
+TD2759149 ␆*
+TD81 1> *
+TD104493 ? ␅
+TD663852 ␆1
+TD76 ? 1
+TD176 📋 "kibbi" ? ␅
+TD3535587 ␆nMnnn
+TD105 📋 "kibbi" ? nMnnn
+TD207 tried: KIBBI n m n n n
+TD171 2> ␅
+TD679536 ␆undo
+TD85 2> undo
+TD109 undo
+TD85 1> ␅
+TD2607705 ␆*
+TD96 1> *
+TD99241 ? ␅
+TD652581 ␆1
+TD98 ? 1
+TD241 📋 "walla" ? ␅
+TD3431713 ␆nnnnn
+TD75 📋 "walla" ? nnnnn
+TD151 tried: WALLA n n n n n
+TD115 2> ␅
+TD447650 ␆*
+TD79 2> *
+TD92848 ? ␅
+TD427026 ␆1
+TD91 ? 1
+TD241 📋 "doggo" ? ␅
+TD3551875 ␆nnnnn
+TD83 📋 "doggo" ? nnnnn
+TD169 tried: DOGGO n n n n n
+TD142 3> ␅
+TD463524 ␆*
+TD103 3> *
+TD93971 ? ␅
+TD586528 ␆1
+TD99 ? 1
+TD238 📋 "scuzz" ? ␅
+TD5295208 ␆nnMnn
+TD101 📋 "scuzz" ? nnMnn
+TD209 tried: SCUZZ n n m n n
+TD191 4> ␅
+TD711901 ␆undo
+TD80 4> undo
+TD110 undo
+TD147 3> ␅
+TD2767195 ␆*
+TD99 3> *
+TD87467 ? ␅
+TD704585 ␆1
+TD98 ? 1
+TD234 📋 "xysts" ? ␅
+TD4920319 ␆nnnnn
+TD86 📋 "xysts" ? nnnnn
+TD158 tried: XYSTS n n n n n
+TD122 4> ␅
+TD407095 ␆*
+TD95 4> *
+TD183772 ? ␅
+TD696351 ␆1
+TD97 ? 1
+TD227 📋 "bumph" ? ␅
+TD6943694 ␆nMnnn
+TD110 📋 "bumph" ? nMnnn
+TD203 tried: BUMPH n m n n n
+TD211 5> ␅
+TD415133 ␆*
+TD81 5> *
+TD188723 📋 "cruck" ? ␅
+TD5027311 ␆nYMnn
+TD81 📋 "cruck" ? nYMnn
+TD150 tried: CRUCK n Y m n n
+TD134 6> ␅
+TD2271662 ␆undo
+TD99 6> undo
+TD137 undo
+TD299 5> ␅
+TD4503594 ␆* -sans
+TD76 5> * -sans
+TD97454 ? ␅
+TD2382499 ␆1
+TD97 ? 1
+TD225 📋 "knurr" ? ␅
+TD6248001 ␆nMMMn
+TD99 📋 "knurr" ? nMMMn
+TD215 tried: KNURR n m m m n
+TD229 6> ␅
+TD4479424 ␆/res
+TD96 6> /res
+TD222 📋> ␅
+TD632529 ␆Don't Wordle 1409 - ELIMINATED
+TD98 📋> Don't Wordle 1409 - ELIMINATED
+TD13 📋> ␅
+TD42 ␆Well technically I didn't Wordle!
+TD6 📋> Well technically I didn't Wordle!
+TD5 📋> ␅
+TD14 ␆⬜⬜⬜⬜⬜5351
+TD5 📋> ⬜⬜⬜⬜⬜5351
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜2190
+TD4 📋> ⬜⬜⬜⬜⬜2190
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜367
+TD4 📋> ⬜⬜⬜⬜⬜367
+TD4 📋> ␅
+TD10 ␆⬜🟨⬜⬜⬜20
+TD4 📋> ⬜🟨⬜⬜⬜20
+TD4 📋> ␅
+TD9 ␆⬜🟨🟨🟨⬜1
+TD4 📋> ⬜🟨🟨🟨⬜1
+TD4 📋> ␅
+TD9 ␆⬛⬛⬛⬛⬛
+TD4 📋> ⬛⬛⬛⬛⬛
+TD4 📋> ␅
+TD302710 ␆Undos used: 5
+TD81 📋> Undos used: 5
+TD9 📋> ␅
+TD183838 ␄
+TD151 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Don't Wordle 1409 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5351\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2190\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c367\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c20\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c1\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"}
+TD1179 result: "Don't Wordle 1409 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5351\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2190\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c367\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c20\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c1\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"
+TD89 📆 2026-04-02 ? ␅
+TD558740 ␆
+TD99 📆 2026-04-02 ? 
