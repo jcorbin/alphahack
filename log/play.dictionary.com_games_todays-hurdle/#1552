@@ -1,0 +1,161 @@
+T310.05634557802114 now: 2026-04-02T07:53:14EDT
+TD126 site: https://play.dictionary.com/games/todays-hurdle
+TD22 wordlist: nwl2023.txt
+TD42  ...␅
+TD8142926 ␆
+TD65  ...
+TD96 1.1> ␅
+TD27424193 ␆*
+TD79 1.1> *
+TD245933 1.1 ? ␅
+TD585899 ␆1
+TD69 1.1 ? 1
+TD189 1.1 📋 "lears" ? ␅
+TD3551820 ␆MMnnn
+TD69 1.1 📋 "lears" ? MMnnn
+TD153 tried: LEARS m m n n n
+TD288 1.2> ␅
+TD623754 ␆*
+TD65 1.2> *
+TD115067 1.2 ? ␅
+TD860636 ␆1
+TD68 1.2 ? 1
+TD172 1.2 📋 "tiled" ? ␅
+TD4127821 ␆nnMYn
+TD72 1.2 📋 "tiled" ? nnMYn
+TD134 tried: TILED n n m Y n
+TD131 1.3> ␅
+TD2095707 ␆*
+TD91 1.3> *
+TD98312 1.3 ? ␅
+TD2030001 ␆1
+TD75 1.3 ? 1
+TD178 1.3 📋 "vowel" ? ␅
+TD4383472 ␆nYYYY
+TD78 1.3 📋 "vowel" ? nYYYY
+TD158 tried: VOWEL n Y Y Y Y
+TD160 1.4> ␅
+TD735858 ␆*
+TD81 1.4> *
+TD90815 1.4 📋 "bowel" ? ␅
+TD3948902 ␆YYYYY
+TD73 1.4 📋 "bowel" ? YYYYY
+TD149 tried: BOWEL Y Y Y Y Y
+TD318 2.1 📋 "bowel" ? ␅
+TD7887565 ␆nnnMn
+TD95 2.1 📋 "bowel" ? nnnMn
+TD197 tried: BOWEL n n n m n
+TD148 2.2> ␅
+TD615699 ␆*
+TD79 2.2> *
+TD107741 2.2 ? ␅
+TD932125 ␆1
+TD75 2.2 ? 1
+TD175 2.2 📋 "rinse" ? ␅
+TD4079891 ␄
+TD148 <EOF>
+TD214 2.2> ␅
+TD1863547 ␆"rines"
+TD97 2.2> "rines"
+TD178 2.2> ␅
+TD1159702 ␆rines
+TD97 2.2> rines
+TD415 2.2> ␅
+TD9391663 ␆tried rines nnnMM
+TD92 2.2> tried rines nnnMM
+TD198 tried: RINES n n n m m
+TD192 2.3> ␅
+TD1727542 ␆*
+TD101 2.3> *
+TD119310 2.3 ? ␅
+TD2416605 ␆3
+TD100 2.3 ? 3
+TD234 2.3 📋 "paste" ? ␅
+TD4151641 ␆nMMMM
+TD106 2.3 📋 "paste" ? nMMMM
+TD209 tried: PASTE n m m m m
+TD248 2.4> ␅
+TD439413 ␆*
+TD93 2.4> *
+TD96569 2.4 ? ␅
+TD1183432 ␆1
+TD83 2.4 ? 1
+TD178 2.4 📋 "feast" ? ␅
+TD6527874 ␆nMMMM
+TD98 2.4 📋 "feast" ? nMMMM
+TD208 tried: FEAST n m m m m
+TD239 2.5> ␅
+TD575469 ␆*
+TD94 2.5> *
+TD105727 2.5 ? ␅
+TD1622167 ␆2
+TD88 2.5 ? 2
+TD189 2.5 📋 "steak" ? ␅
+TD6183697 ␆YYYYn
+TD74 2.5 📋 "steak" ? YYYYn
+TD145 tried: STEAK Y Y Y Y n
+TD164 2.6> ␅
+TD431653 ␆*
+TD96 2.6> *
+TD91178 2.6 ? ␅
+TD1460789 ␆2
+TD70 2.6 ? 2
+TD170 2.6 📋 "steam" ? ␅
+TD4503800 ␆YYYYn
+TD93 2.6 📋 "steam" ? YYYYn
+TD196 tried: STEAM Y Y Y Y n
+TD246 2.7> ␅
+TD5519370 ␆/res
+TD76 2.7> /res
+TD145 📋> ␅
+TD664347 ␆Hurdle 1552
+TD97 📋> Hurdle 1552
+TD14 📋> ␅
+TD38 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD10 ␆4/6
+TD3 📋> 4/6
+TD2 📋> ␅
+TD8 ␆🟨🟨⬜⬜⬜
+TD2 📋> 🟨🟨⬜⬜⬜
+TD2 📋> ␅
+TD5 ␆⬜⬜🟨🟩⬜
+TD2 📋> ⬜⬜🟨🟩⬜
+TD2 📋> ␅
+TD5 ␆⬜🟩🟩🟩🟩
+TD2 📋> ⬜🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆X/6
+TD2 📋> X/6
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜🟨⬜
+TD2 📋> ⬜⬜⬜🟨⬜
+TD3 📋> ␅
+TD4 ␆⬜⬜⬜🟨🟨
+TD2 📋> ⬜⬜⬜🟨🟨
+TD2 📋> ␅
+TD5 ␆⬜🟨🟨🟨🟨
+TD2 📋> ⬜🟨🟨🟨🟨
+TD2 📋> ␅
+TD8 ␆⬜🟨🟨🟨🟨
+TD2 📋> ⬜🟨🟨🟨🟨
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩⬜
+TD2 📋> 🟩🟩🟩🟩⬜
+TD2 📋> ␅
+TD4 ␆🟩🟩🟩🟩⬜
+TD2 📋> 🟩🟩🟩🟩⬜
+TD2 📋> ␅
+TD343479 ␆score: 1,280
+TD102 📋> score: 1,280
+TD13 📋> ␅
+TD183649 ␄
+TD136 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Hurdle 1552\n\n4/6\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nX/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\nscore: 1,280"}
+TD439 result: "Hurdle 1552\n\n4/6\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nX/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\nscore: 1,280"
+TD92 📆 2026-04-02 ? ␅
+TD383382 ␆
+TD95 📆 2026-04-02 ? 
