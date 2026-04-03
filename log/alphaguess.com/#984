@@ -1,0 +1,90 @@
+T85398.110020678 now: 2026-04-03T08:02:15EDT
+TD84 site: alphaguess.com
+TD209606 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof 521aae661af76f2a1f15e1cbebbfe1a511fffaa5
+TD108  ...␅
+TD4469352 ␆
+TD99  ...
+TD166 [0 : 98216 : 196523] mach? ␅
+TD1927535 ␆a
+TD97 [0 : 98216 : 196523] mach? a
+TD115 progress: 1 98216 mach
+TD317 [98217 : 147371 : 196523] rhumb? ␅
+TD1383903 ␆b
+TD85 [98217 : 147371 : 196523] rhumb? b
+TD81 progress: -1 147371 rhumb
+TD82 [98217 : 122777 : 147371] parr? ␅
+TD1615290 ␆a
+TD99 [98217 : 122777 : 147371] parr? a
+TD102 progress: 1 122777 parr
+TD114 [122778 : 135068 : 147371] proper? ␅
+TD2551863 ␆a
+TD105 [122778 : 135068 : 147371] proper? a
+TD105 progress: 1 135068 proper
+TD116 [135069 : 140516 : 147371] rec? ␅
+TD1631562 ␆a
+TD102 [135069 : 140516 : 147371] rec? a
+TD112 progress: 1 140516 rec
+TD110 [140517 : 143940 : 147371] reminisce? ␅
+TD1351916 ␆a
+TD96 [140517 : 143940 : 147371] reminisce? a
+TD101 progress: 1 143940 reminisce
+TD119 [143941 : 145192 : 147371] res? ␅
+TD1903572 ␆a
+TD104 [143941 : 145192 : 147371] res? a
+TD106 progress: 1 145192 res
+TD105 [145193 : 146124 : 147371] ret? ␅
+TD1511693 ␆b
+TD105 [145193 : 146124 : 147371] ret? b
+TD110 progress: -1 146124 ret
+TD226 [145193 : 145657 : 146124] resolve? ␅
+TD1431695 ␆a
+TD88 [145193 : 145657 : 146124] resolve? a
+TD107 progress: 1 145657 resolve
+TD102 [145658 : 145842 : 146124] rest? ␅
+TD1407938 ␆a
+TD96 [145658 : 145842 : 146124] rest? a
+TD101 progress: 1 145842 rest
+TD109 [145843 : 145975 : 146124] restrict? ␅
+TD2575240 ␆a
+TD79 [145843 : 145975 : 146124] restrict? a
+TD85 progress: 1 145975 restrict
+TD119 [145976 : 146048 : 146124] resume? ␅
+TD1615880 ␆b
+TD98 [145976 : 146048 : 146124] resume? b
+TD104 progress: -1 146048 resume
+TD246 [145976 : 146012 : 146048] restudies? ␅
+TD1495657 ␆b
+TD97 [145976 : 146012 : 146048] restudies? b
+TD102 progress: -1 146012 restudies
+TD172 [145976 : 145993 : 146012] restring? ␅
+TD1951630 ␆a
+TD74 [145976 : 145993 : 146012] restring? a
+TD83 progress: 1 145993 restring
+TD141 [145994 : 146004 : 146012] restructure? ␅
+TD2503771 ␆it
+TD108 [145994 : 146004 : 146012] restructure? it
+TD107 progress: 0 146004 restructure
+TD27 [145994 : 146004 : 146012] <Done>.
+TD82 📋> ␅
+TD2384165 ␆🧩 Puzzle #984
+TD78 📋> 🧩 Puzzle #984
+TD8 📋> ␅
+TD27 ␆🤔 15 guesses
+TD3 📋> 🤔 15 guesses
+TD2 📋> ␅
+TD6 ␆⏱️ 24s
+TD3 📋> ⏱️ 24s
+TD2 📋> ␅
+TD487403 ␆🔗 alphaguess.com/984
+TD74 📋> 🔗 alphaguess.com/984
+TD8 📋> ␅
+TD191889 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #984\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/984"}
+TD100 result: "\ud83e\udde9 Puzzle #984\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/984"
+TD15 result puzzle: 984
+TD7 result guesses: 15
+TD6 result time: 24s
+TD5 result link: alphaguess.com/984
+TD148 📆 2026-04-03 ? ␅
+TD183525 ␆
+TD95 📆 2026-04-03 ? 
