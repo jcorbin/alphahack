@@ -1,0 +1,168 @@
+T85463.60702236302 now: 2026-04-03T08:03:20EDT
+TD87 site: dontwordle.com
+TD43 wordlist: nwl2023.txt
+TD36  ...␅
+TD3262612 ␆
+TD102  ...
+TD280 1> ␅
+TD4551829 ␆* -bot 10
+TD93 1> * -bot 10
+TD292542 ? ␅
+TD1355043 ␆1
+TD88 ? 1
+TD448 📋 "arose" ? ␅
+TD4424040 ␆MnnYn
+TD97 📋 "arose" ? MnnYn
+TD732 tried: AROSE m n n Y n
+TD249 2> ␅
+TD4678660 ␆undo
+TD78 2> undo
+TD112 undo
+TD147 1> ␅
+TD19103916 ␆* :v [arose] -bot 10
+TD80 1> * :v [arose] -bot 10
+TD135338 ? ␅
+TD1489230 ␆1
+TD99 ? 1
+TD208 📋 "until" ? ␅
+TD4126987 ␆nnnnn
+TD98 📋 "until" ? nnnnn
+TD162 tried: UNTIL n n n n n
+TD151 2> ␅
+TD719567 ␆undo
+TD97 2> undo
+TD145 undo
+TD170 1> ␅
+TD2799618 ␆*
+TD89 1> *
+TD878942 ? ␅
+TD624978 ␆1
+TD92 ? 1
+TD231 📋 "yukky" ? ␅
+TD5295933 ␆nnnnY
+TD116 📋 "yukky" ? nnnnY
+TD215 tried: YUKKY n n n n Y
+TD185 2> ␅
+TD679434 ␆undo
+TD99 2> undo
+TD141 undo
+TD140 1> ␅
+TD2431724 ␆*
+TD94 1> *
+TD124624 ? ␅
+TD538931 ␆1
+TD90 ? 1
+TD241 📋 "heeze" ? ␅
+TD3615865 ␆nnnnn
+TD80 📋 "heeze" ? nnnnn
+TD187 tried: HEEZE n n n n n
+TD182 2> ␅
+TD583682 ␆*
+TD97 2> *
+TD95705 ? ␅
+TD776370 ␆1
+TD104 ? 1
+TD240 📋 "immix" ? ␅
+TD3767963 ␆nnnnn
+TD83 📋 "immix" ? nnnnn
+TD163 tried: IMMIX n n n n n
+TD127 3> ␅
+TD879167 ␆*
+TD107 3> *
+TD88727 ? ␅
+TD759204 ␆1
+TD100 ? 1
+TD241 📋 "glogg" ? ␅
+TD3855777 ␆Ynnnn
+TD95 📋 "glogg" ? Ynnnn
+TD206 tried: GLOGG Y n n n n
+TD198 4> ␅
+TD1055408 ␆undo
+TD82 4> undo
+TD108 undo
+TD148 3> ␅
+TD2928269 ␆*
+TD78 3> *
+TD88804 ? ␅
+TD926495 ␆1
+TD98 ? 1
+TD235 📋 "convo" ? ␅
+TD3903618 ␆nnnnn
+TD73 📋 "convo" ? nnnnn
+TD146 tried: CONVO n n n n n
+TD125 4> ␅
+TD415625 ␆*
+TD89 4> *
+TD93894 ? ␅
+TD1418123 ␆1
+TD110 ? 1
+TD229 📋 "fluff" ? ␅
+TD3471881 ␆nnnnn
+TD100 📋 "fluff" ? nnnnn
+TD205 tried: FLUFF n n n n n
+TD193 5> ␅
+TD639402 ␆*
+TD98 5> *
+TD188856 ? ␅
+TD1003295 ␆1
+TD98 ? 1
+TD250 📋 "abaka" ? ␅
+TD4023394 ␆Mnnnn
+TD77 📋 "abaka" ? Mnnnn
+TD162 tried: ABAKA m n n n n
+TD140 6> ␅
+TD1215723 ␆*
+TD95 6> *
+TD183260 ? ␅
+TD960674 ␆1
+TD98 ? 1
+TD232 📋 "daddy" ? ␅
+TD4759551 ␆nYnnY
+TD94 📋 "daddy" ? nYnnY
+TD199 tried: DADDY n Y n n Y
+TD219 📋> ␅
+TD3968287 ␆Don't Wordle 1410 - SURVIVED
+TD100 📋> Don't Wordle 1410 - SURVIVED
+TD12 📋> ␅
+TD42 ␆Hooray! I didn't Wordle today!
+TD6 📋> Hooray! I didn't Wordle today!
+TD5 📋> ␅
+TD14 ␆⬜⬜⬜⬜⬜5957
+TD6 📋> ⬜⬜⬜⬜⬜5957
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜3303
+TD4 📋> ⬜⬜⬜⬜⬜3303
+TD4 📋> ␅
+TD18 ␆⬜⬜⬜⬜⬜1017
+TD4 📋> ⬜⬜⬜⬜⬜1017
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜335
+TD4 📋> ⬜⬜⬜⬜⬜335
+TD4 📋> ␅
+TD12 ␆🟨⬜⬜⬜⬜83
+TD4 📋> 🟨⬜⬜⬜⬜83
+TD4 📋> ␅
+TD10 ␆⬜🟩⬜⬜🟩26
+TD4 📋> ⬜🟩⬜⬜🟩26
+TD4 📋> ␅
+TD9 ␆Undos used: 4
+TD4 📋> Undos used: 4
+TD9 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD10 ␆  26 words remaining
+TD5 📋>   26 words remaining
+TD5 📋> ␅
+TD10 ␆x 8 unused letters
+TD5 📋> x 8 unused letters
+TD4 📋> ␅
+TD287135 ␆= 208 total score
+TD113 📋> = 208 total score
+TD12 📋> ␅
+TD167866 ␄
+TD191 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1410 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5957\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3303\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1017\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c335\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c83\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe926\nUndos used: 4\n\n  26 words remaining\nx 8 unused letters\n= 208 total score"}
+TD1324 result: "Don't Wordle 1410 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5957\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3303\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1017\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c335\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c83\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe926\nUndos used: 4\n\n  26 words remaining\nx 8 unused letters\n= 208 total score"
+TD68 📆 2026-04-03 ? ␅
+TD158348 ␆
+TD98 📆 2026-04-03 ? 
